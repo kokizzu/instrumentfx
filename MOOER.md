@@ -1996,7 +1996,7 @@ Checked2026-10-18;partial. Original model,not Ocean Machine II. Independent dela
 |---|---|
 | Expression | External expression/switch inputs; no built-in treadle documented. Toe compatibility unknown. [OM-P] |
 | K/F/B | **16 rotary /3 footswitches /4 buttons**,manual-text count:12parameter controls,3type selectors,Menu;Reverb/DelayA/DelayB foot controls;Back,Setting,Store,Mode buttons. Menu push additional;visual corroboration pending. [OM-M pp1–2] |
-| Display | LCD menu;diagonal,color,touch unknown. [OM-P] |
+| Display | LCD menu; ownmanualp6 describes **red selection border**,textual color-UI evidence. Diagonal,resolution,touch unknown;no visual verification. [OM-P,OM-M] |
 | Processing / choices | **Two independent delays plus reverb**,programmable order;15delay types,9reverbs. Delay0–2s,ping-pong,freeze,shimmer. Original manual lists **9choices perdelay**,withDigital/Analog/Tape shared: **15distinctdelay names acrossA/B**,not15choices freely available ineachengine or15simultaneous delays. [OM-P,OM-M pp9–10] |
 | Factory / user memory | **24spaces=8×3**;factory-filled/protected split unknown. [OM-P] |
 | Synth / acoustic | Dedicated synth/acoustic simulation unverified. |
@@ -2033,3 +2033,14 @@ Own product pages andoriginalmanufacturer-authored manual text used;no II-specif
 | Expression / wiring and recall | External pedal uses **TRS stereo cable**. One selected parameter andheel-down minimum percentage areconfigured underExp;assignment is **global andcannot change per preset**. Potentiometer resistance,polarity wiring andtoe-switch support remain unverified. |
 | Memory / storing | Store a sound fromPlay orPatchControl,select destination withMenu,then confirm withthe save control;Back cancels. This establishes writable preset storage,not an additional protectedbank orfactory-filled count. Manual frontpanel calls thebuttonStore;procedure callsitSave,not anextra physicalbutton. |
 | Looper / view persistence | Press DelayA+DelayB to movebetween looper andcurrentoperation screens **whiletheloop remainsrunning**. Menu adjusts loop playback level independently ofmastermix. This doesnot establish power-off retention orloop survival acrosspreset changes. |
+
+### Original Ocean Machine — Merge, Trail and MIDI direction, 2026-10-18
+
+[Own EN_V01 manual][OM-M],printedpp15,19;documented behavior,not a local audio/MIDI test.
+
+| Field | Behavior / qualification |
+|---|---|
+| Looper / live Merge versus Trail | **Merge** blends delay/reverb tails when effecttype orpreset changes. **Trail On** selects buffered bypass andallows tails tofinish afterbypass; **Trail Off** selects manufacturer-described truebypass andcuts tails. These aredifferent settings; no measuredgapless latency ormaximum spilloverduration established. |
+| I/O / MIDI direction | Manual specifies **channel1 reception**,PC forpreset recall andCC foreffect switching/parameters;it says thepedal cannot transmit MIDI. The separately labelled **THRU forwards received input**,not newlygenerated pedalcontrol messages. Firmware-update use ofTHRU remains a separate serviceworkflow. Do notpromote THRU to a programmable MIDIcontroller output. |
+
+[Own manual p6][OM-M] explicitly describes a red selection border,providing textual color-UI evidence;display diagonal,resolution andtouch specification remain unverified. No image inspection claimed. The reset page gives confirmation/cancel controls butno factory-filled slot count oritemized reset scope;these remain unresolved.
