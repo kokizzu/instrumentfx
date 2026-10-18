@@ -757,9 +757,9 @@ Historical2026-10-14/15 shared comparison wording,not a new technical verificati
 | Presets | **80 total, 40 supplied + 40 additional**, factory overwrite restrictions unverified. |
 | Synth / acoustic | No dedicated synth/acoustic simulator identified in original documented effect lists. Imported amp/cab content does not establish these functions; new MW effect identities remain unchecked. |
 | IR / captures | **20cablocations**,monoWAV24/44.1,1024/2048samples. **20AmX/ANN amp locations**;software training,not established onboard capture. Original guide did not establish native NAM. **Official firmware v105 explicitly claims native NAM A2 support**; supported architectures/file limits and minimum editor requirements remain unverified. This is a manufacturer claim, not a tested import. v07 (2026-01-31) separately added AM4 AMP-file support. [Firmware notes](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/POCKET%20AMP.txt). |
-| Ports | 6.35TSmono input and **mono**output;dedicated3.5TRSstereophones;USB-Cpower/data/audio/MIDI,Bluetoothbacking/control. NoAUX,XLRmic/phantom,loop,physicalDIN/TRSMIDI. |
+| Ports | 6.35TSmono input and **mono**output;dedicated3.5TRSstereophones;USB-Cpower/data/audio/MIDI,Bluetoothbacking/control. Importer inventory lists noAUX,XLRmic/phantom,loop orphysicalDIN/TRSMIDI; AUX conflicts with current manufacturer page below. |
 | Power | **Battery orUSB5V≥500mA**,about200mA operating;**1450mAh**,about7h rated,batteryvoltage unverified. |
-| Apps / recording | Manual **Windows/macOS/iOS/Android** editing;officialdesktopM-EFCSexplicitlynamesPocketAmp,genericmobilelistincomplete. Linux?. USB/OTG24/44.1,loopback,MIDI;exactchannels/OSminima?. |
+| Apps / recording | Manual **Windows/macOS/iOS/Android** editing;officialdesktopM-EFCSexplicitlynamesPocketAmp;exactproductpagealsolinksmobileM-EFCS,genericmobilelistincomplete. Linux?. USB/OTG24/44.1,loopback,MIDI;exactchannels/OSminima?. |
 | Firmware / routing | [Official notes](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/POCKET%20AMP.txt), v105, add six MW effects to FX, stereo DLY/MOD, DLY/REV tail settings and input gain, plus noise-reduction and output-limiter refinements. Exact new algorithms, updated total library and stereo USB routing remain unverified; stereo effects do not change the documented mono main-output connector. Original counts above remain dated guide evidence. |
 | Firmware / updater | [Index](https://www.cuvave.com/appdownload), checked 2026-10-17, lists v105 dated 2026-10-13; notes label it 2026-10-14. Preserve the one-day source conflict. M-UPGRADE is separate from M-EFCS. v103 (2026-07-28) adds Speaker Mode; users moving from v07 to v103 must select Speaker Mode and load its presets in M-EFCS to obtain sound in that mode. v105 also lists Speaker Mode, without explaining the repeated entry. No firmware installed. |
 | Live | Tuner430–450Hz,banks,compatiblecontrollerfunctions. Looper/drums unverified. |
@@ -776,6 +776,16 @@ Checked 2026-10-18. The [manufacturer downloads page](https://www.cuvave.com/dow
 | Field | Evidence / qualification |
 |---|---|
 | Editor / Apple OS requirements | [Developer App Store listing](https://apps.apple.com/us/app/m-efcs/id6470352068), version **3.9.2317** at check: **macOS13.3+;iOS14.0+;iPadOS14.0+**. These are published application requirements,not a tested Pocket Amp/firmware compatibility matrix or audio-driver requirements. Windows/Android minima and Mac processor restrictions remain unverified. Application version is separate from device firmwarev105; generic A2 release notes do not independently establish Pocket Amp import limits. |
+
+### Pocket Amp — manufacturer page versus importer guide
+
+Checked 2026-10-18 against indexed [exact manufacturer product page](https://www.cuvave.com/product?id=pocket-amp); search exposes product content, while direct reopening returns a shell. No original manufacturer manual URL or visual panel was recovered.
+
+| Field | Source conflict / qualification |
+|---|---|
+| Dimensions / mass conflict | Manufacturer page specifies **80g**; importer guide specifies **120g**. No verified revision or clamp/bundle explanation reconciles these. Keep both; body dimensions remain importer-sourced. |
+| I/O / AUX conflict | Manufacturer advertises a **3.5mm AUX input**; importer numbered inventory lists input,mono output,stereo headphones andUSB-C without AUX. Connector identity/physical revision unresolved; withdraw an unconditional no-AUX claim. |
+| Editor / exact-product mobile listing | Manufacturer product page explicitly links **M-EFCS for iOS,Android APK andGoogle Play**,aswellas Windows/Mac desktop. This corroborates mobile support beyond the importer guide,without specifying Android minimum,connection behavior ordevice-firmware compatibility. |
 <!-- comparison evidence ends -->
 
 ### Preserved original finding
