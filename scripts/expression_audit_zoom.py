@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(zoom): audit original B3 patch volume and loop exclusions'))
+    print(git('commit','-m','research(zoom): audit B3n pedal volume and preserve coverage gaps'))

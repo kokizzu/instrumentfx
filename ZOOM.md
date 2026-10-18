@@ -2100,6 +2100,12 @@ Checked2026-10-18 against [manufacturer ZoomClassics release notice](https://zoo
 |---|---|
 | Processing / dated additional effects | Notice explicitly lists **B3n** for **BitCrush(February2026)** and **DynaDelay(April2026)** through Guitar Lab Windows/Mac. BitCrush deliberately reduces samplefrequency/bitresolution forlo-fi distortion;this isaneffect,not achange totheunit’s converter specification. DynaDelay supports input-dependent ducking andtheinverse gated-delay behavior. Availability doesnot prove installation,parameter ranges,DSPcost or a complete updated category total. The separatelylisted June stereoEQ andJanuary ModulationDelay2 compatibility lists do not nameB3n;do not transfer those additions. |
 
+### B3n — external pedal-volume audit
+
+Checked 2026-10-19. [Own operation manual, pp10–14,22,41](https://zoomcorp.com/media/documents/E_B3n.pdf): **EXT PEDAL ON enables pedal effects**; it does not document a global volume assignment. Effects are added/reordered in patches; master level0–120 is separate. [Own effect sheet, p16](https://zoomcorp.com/media/documents/E_B3n_FX-list_3.pdf) lists **PDL Vol**, with VOL/MIN/MAX0–100 and curvesA/B. Thus the documented path is a patch pedal effect; global insertion/override remains unverified. Placement follows the patch chain rather than a certified final-output stage.
+
+FP02 uses CONTROL IN; normal bass pickups need no divided pickup. Guitar voicing remains unclassified. Existing234W×181Dmm fails preferred footprint. Preserve the headphone-layout conflict above. Bypass, headphone, tail and recorded-loop attenuation, plus held-pedal recall remain unknown; do not transfer original B3’s rhythm/loop exclusion. MEMORY mode uses bank switching and three patch selectors; unrestricted sequential preset down/up is not established. No downloads or device operation.
+
 ## A1 FOUR
 
 Reviewed **2026-10-17** after exact Shopee hardware discovery. Acoustic multi-effects,including documented upright-bass processing;separate from A1X FOUR,no ownership assertion. Partial:official indexed documentation and page text only;no dependency,manual,software or firmware file downloaded.
