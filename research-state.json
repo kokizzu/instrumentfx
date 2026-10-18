@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC Electronic M350",
-    "task": "Saved digital-lockfallback,ADCclocktopology andbulkbackup. Next freshShopee discovery orremainingcontrol/display/editor/qualifiedprice gaps.",
+    "task": "Saved stagedpresetrecall/store,panelversusstoredstate andMIDIchannel/SysExID. Next freshShopee discovery orremainingbuttons/display/editor/conditionqualifiedIDR gaps.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75414,7 +75414,7 @@
   },
   "resume_cursor": {
     "model": "TC Electronic M350",
-    "task": "Saved digital-lockfallback,ADCclocktopology andbulkbackup. Next freshShopee discovery orremainingcontrol/display/editor/qualifiedprice gaps.",
+    "task": "Saved stagedpresetrecall/store,panelversusstoredstate andMIDIchannel/SysExID. Next freshShopee discovery orremainingbuttons/display/editor/conditionqualifiedIDR gaps.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75860,5 +75860,22 @@
       "site:shopee.co.id Lexicon MPX550"
     ],
     "result": "Noqualifiednewexacthardwareoffer;notmarketabsence"
+  },
+  "m350_preset_addressing_20261018": {
+    "source": "https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf",
+    "revision": "Rev1.1/SW1.00",
+    "pages": [
+      21,
+      22
+    ],
+    "findings": "SelectionrequiresLOAD;emptylocationnoaction;holdLOAD2.5sstore;PresetOffpanelstatehelduntilLOAD;SysExIDfollowsMIDIchannel",
+    "limits": "Noseamlessrecall/editorOSinference"
+  },
+  "discovery_mx500_rex50_20261018": {
+    "queries": [
+      "site:shopee.co.id Lexicon MX500",
+      "site:shopee.co.id Yamaha REX50"
+    ],
+    "result": "Noqualifiednewexacthardwarelead;notmarketabsence"
   }
 }

@@ -459,7 +459,7 @@ def main():
         if mode == 'commit-mg20':
             message = 'research(nux): clarify Cerberus V5 footswitch and expression assignments'
         if mode == 'commit-m100':
-            message = 'research(tc-electronic): document M350 digital fallback and MIDI backup'
+            message = 'research(tc-electronic): qualify M350 preset recall and MIDI addressing'
         if mode == 'commit-rfx1100':
             message = 'research(zoom): qualify RFX1000 conversion levels and additional offer'
         if mode == 'commit-spx990':

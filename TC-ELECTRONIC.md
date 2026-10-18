@@ -264,6 +264,17 @@ Checked 2026-10-18 from original text in the [Rev1.1/SW1.00 manufacturer manual,
 | Editor / MIDI backup operation | Hold PRESET ON/OFF about2.5seconds, select Bulk Dump with arrows, then LOAD sends presets to a recording MIDI device. Receive is automatic unless MIDI Receive Channel isOF. This is backup support, not proof of AU/VST editor compatibility. |
 
 
+### M350 — preset confirmation and MIDI addressing
+
+Checked 2026-10-18 from original text in the [manufacturer Rev1.1/SW1.00 manual, printed pp21–22](https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf). No device operation or download.
+
+| Field | Evidence / qualification |
+|---|---|
+| Memory / recall and store | In Preset On mode, arrows select locations1–99; blinking digits indicate selection before recall. LOAD recalls; an empty location causes no action. Holding LOAD about2.5seconds stores into the selected user location. Selection is not automatic recall or proof of seamless transitions. |
+| Live / panel versus stored state | Preset Off processes according to front-control positions. Returning to Preset On keeps that panel-derived sound until LOAD recalls the blinking stored preset. The mode name does not mean audio bypass; physical knob positions can differ from recalled settings. |
+| I/O / MIDI channel and SysEx ID | Receive channel1–16, O for all channels, or OF to ignore incoming MIDI; factory/reset default ischannel1. SysEx ID follows the selected MIDI channel. LOAD confirms the menu choice. These addressing options do not establish editor operating-system support. |
+
+
 ## M-One XL
 
 Checked 2026-10-17; partial. [Original English manual, mirrored][M1XL-M], Rev4, product E60500152: SW2.07 XL versus1.43 Standard. Manufacturer download inaccessible; mirror adds watermarks. Text-only review.
