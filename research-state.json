@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee Indonesia discovery",
-    "task": "PERFORM-V RoomSense guidance and D/A SNR saved. Next seek fresh manufacturer dimensions/power evidence or cross-brand exact Shopee hardware; do not repeat unchanged offers or manual extraction as progress.",
+    "task": "PERFORM-V exact KalaKarsa0 preorder saved. Dimensions/power remain unresolved after alternate manual path; move to fresh cross-brand discovery or another manufacturer gap rather than repeating unchanged PERFORM-V offers.",
     "next_models": [],
     "after_queue": "387 active models,46 brands,all partial;no downloads/workflows/push."
   },
@@ -61827,6 +61827,25 @@
         "Dimensions/mass and further power details unresolved; extracted p50 contains only heading.",
         "USB audio/current official-page conflicts remain unresolved."
       ]
+    },
+    {
+      "model": "TC-HELICON PERFORM-V",
+      "checked_date": "2026-10-19",
+      "source": "https://shopee.co.id/TC-Helicon-PERFORM-V-Ultimate-Mic-Stand-Mount-Vocal-Processor-for-Quick-and-Easy-Studio-Quality-i.1696008947.45060903214",
+      "seller": "KalaKarsa0",
+      "seller_id": "1696008947",
+      "item_id": "45060903214",
+      "region": "Kota Jakarta Barat",
+      "idr": 11440000,
+      "condition": "unverified",
+      "availability": "cached preorder dispatch within30days;not ready stock",
+      "access": "direct readable month-old cache",
+      "qualifications": [
+        "Cached26–29Oct arrival not current delivery commitment.",
+        "Variant,bundle,adapter,warranty,revision,working state,import origin,shipping,tax,total unknown.",
+        "Late-arrival voucher not upfront discount."
+      ],
+      "technical_search": "Italian manual firmware1.0/2015-11-17 extraction ends after headphone connector;final-page screenshot cache miss. Third-party metadata not promoted to manufacturer dimensions/power evidence."
     }
   ],
   "discovery_cross_brand_bass": {
@@ -82042,7 +82061,7 @@
     "scope": "Explicit uncertainty signals in selected comparison field labels and values only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
     "model_count": 387,
     "models_with_signals": 387,
-    "flagged_field_count": 4942,
+    "flagged_field_count": 4943,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -108145,6 +108164,14 @@
             ]
           },
           {
+            "field": "IDR / condition-unverified preorder",
+            "source": "TC-HELICON.md",
+            "signals": [
+              "unknown",
+              "unverified"
+            ]
+          },
+          {
             "field": "IDR qualified observations",
             "source": "TC-HELICON.md",
             "signals": [
@@ -119527,7 +119554,7 @@
       "VING.md": "2873cd6b4d5b13c287eb839977ff782139fb5640008b9f9730ddc289d09f5b67",
       "FENDER.md": "825b3d107ed121195199f3a238cfae504e08c3f4913cd5952787df25109530c8",
       "MOSKY.md": "5fa70acc80dab7bfb6d02f5160afec1e5ee1947c8e343790309c9f78cbc0a07d",
-      "TC-HELICON.md": "5c828c86b66e0f33a69df7b522a1ff977bbbe3f34c76d01c2feb04766688aed4",
+      "TC-HELICON.md": "27f23ec9701b28e942372e04c35d4efa3979ceb77e9d8a0368067ba96a2e97c0",
       "CUVAVE.md": "245b3f9975423a1b9a6f6facef5c9d2ddcc5fe5ebaa6134141678c66bde0c799",
       "KORG.md": "680acff51ff33a47cbb26e1c3ffdfb05e3de37fb3152d2b8bf99e6f4f8d46547",
       "BLACKSTAR.md": "b669de5ae77c32f44e641de26714593d055d169b71576b4866f2a3665f7431b9",
@@ -119547,7 +119574,7 @@
       "VOX.md": "7087c2c9689338adff6f0cff2449fa98b138812bac122bd393d989bcaad1dc62",
       "BOSS.md": "0d23479246ef2637728cc24c448bc44b72d6185c3ace982be064814f9a0aa992",
       "KEELEY.md": "bf2e0764ec43eedcfbfc9839452586b4b9c835948fc7315f5e935472f9d45d1a",
-      "ALL-VOCAL.md": "0d00fa41cc5df07647fe8659a792fea5514e34d1fa16c2f7de3f8967680b78f8",
+      "ALL-VOCAL.md": "00213e11deee6350ae02603dbaf48d2b9da8eebd8ba72fbd9d2b06e722c80f36",
       "LEXICON.md": "3b6b15d2b3986a2538f1a548a156df3a605e35764d91d08686e12549b64b98da",
       "SINGLE-GUITAR.md": "9d785a2665a3bbcbc1effe4750a232fd0f2b690e82c99a5e4504cbd479a3a0af",
       "DONNER.md": "c37c37a6d312decc6f18ea53df29fb6683f01ed89fdd5bbec65feb8dd2c44837",

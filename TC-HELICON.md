@@ -579,6 +579,13 @@ Italian manufacturer-authored mirror identifies firmware1.0/reference2015-11-17;
 | Live / harmony guidance | Without an AUX music guide, RoomSense listens to nearby guitar or piano chords to derive key/scale for Harmony or HardTune in imported presets. This is acoustic analysis, not a guitar-effects input; headphone vocal-practice mode remains a separate use. | [Manufacturer manual p42,firmware1.0/reference2015-11-17][PV-B] |
 | I/O / output converter | Published D/A converter SNR is **115dB A-weighted**. Keep this separate from the specified whole-output dynamic range >109dB over20Hz–20kHz; neither establishes USB audio support or host sample format. | [Manual p49][PV-B] |
 
+
+### PERFORM-V — preorder offer qualification
+
+| Field | Evidence / qualification |
+|---|---|
+| IDR / condition-unverified preorder | **Rp11.440.000**,KalaKarsa0,Kota Jakarta Barat,shop1696008947/item45060903214. [Exact PERFORM-V hardware listing](https://shopee.co.id/TC-Helicon-PERFORM-V-Ultimate-Mic-Stand-Mount-Vocal-Processor-for-Quick-and-Easy-Studio-Quality-i.1696008947.45060903214),checked2026-10-19,direct readable month-old cache. **Pre-Order: dispatch within30days**;cached26–29Oct arrival isnot a current delivery commitment. Condition,working state,selected variant,revision,adapter/bundle,warranty,import origin,tax,shipping andcheckout total unknown. No ready-stock claim orverified used/new assignment. Late-arrival voucher up toRp10k iscompensation,not an upfront purchase discount. |
+
 <!-- comparison evidence ends -->
 
 ## PERFORM-VK
