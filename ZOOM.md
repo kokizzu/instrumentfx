@@ -1513,6 +1513,17 @@ Checked 2026-10-18 from indexed manufacturer-authored [shared G3n/G3Xn manual](h
 | Memory / Auto Save off | SETUP→AUTO SAVE supports ON/OFF. With OFF, patch/effect parameters are not saved automatically. Changing patches after edits prompts for saving: **YES saves before changing;NO discards changes**. The manual points to p19’s save procedure. This resolves the previous unknown, without claiming automatic recovery after power loss. |
 | Power / eco shutdown | With eco enabled, the unit switches off after **10 hours without use**. This is inactivity shutdown, not a battery-runtime or current-consumption specification. |
 
+
+### G3Xn — overflow and looper edit limits
+
+Checked 2026-10-18 from indexed [original shared manual](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf), printed pp9,39. Exact-document passages, not another Zoom model’s behavior.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / overflow behavior | Exceeding processing capability **or unit count** displays **PROCESS OVERFLOW** and bypasses effects. The manual directs deleting effects or changing their types to end bypassing. Seven available positions therefore do not promise every combination; the existing100-point chart remains separately revision-qualified. |
+| Looper / recording-time changes | MANUAL or1–64quarter-note lengths are offered. Settings beyond available recording duration adjust automatically. **Changing recording time deletes recorded data**; this is separate from the already-recorded patch-change and tempo-change erasure rules. |
+| Looper / undo scope and layout | With UNDO enabled, only the latest overdub is undone; REDO restores it. The manual distinguishes a1second hold on the1-unit looper’s control from two presses on the first unit’s control for the2-unit looper. Extracted control icons remain unverified; do not assign a physical FS number from text alone. |
+
 <!-- comparison evidence ends -->
 
 ### G3Xn sources and next verification
