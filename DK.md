@@ -92,6 +92,7 @@ Checked 2026-10-18. Partial guitar multi-effects record; separate from iE-550. M
 | Dimensions / mass | **122×103×52mm(length×width×height),270g**,Chinese original quick guide. [I350-Q] |
 | IR / NAM / capture | DKit1.2.0 notes explicitly include iE350 NAM A1/A2 import; native-versus-converted path and firmware minimum unresolved. Manualp12 lists **five user IR slots**;formats,capture creation unknown. [I350-A] |
 | Editor / software | Manufacturer lists iE350/550 AndroidDKit1.2.1,Mac/Windows firmware resources andUSB ASIO executable. Updater/driver are not proof of a desktop editor. [I350-S] Manualp10 claims tone/preset management,reset andthird-party IR loading on Windows/Mac/Android/iOS,but unexpectedly names Boin Audio before directing readers to DK. Exact desktop package/current compatibility unverified. |
+| Editor / Apple compatibility | Manufacturer DKit history explicitly adds **iE350 support in1.1.0(17June2025)**;NAM import arrives later in1.2.0. **iOS/iPadOS14 minimum**. Mac metadata requires11+/AppleM1+,but listing expressly marks macOS unverified;not a verified desktop editor. US listing shows1.2.0 Aug29 without year,while regional caches use relative dates;exact release date not normalized. [Apple listing](https://apps.apple.com/us/app/dkit/id6738170601?platform=ipad). |
 | Looper / drums / live | Footswitches step presets,hold scrolls;both invoke tuner. DRUM toggles playback,hold opens settings. BT supports audio/app. Detailed drum limits,looper,scenes andtrails pending. [I350-Q] |
 
 ### Separate IDR hardware evidence
