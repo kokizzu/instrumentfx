@@ -2750,6 +2750,10 @@ Original manufacturer PDF read as17 web-rendered pages with printed paired-page 
 [Z505-P]: https://zoomcorp.com/en/gb/multi-effects/guitar-effects/505ii/
 [Z505-O]: https://shopee.co.id/Efek-Gitar-Zoom-505II-Made-in-Japan-i.113149484.29577709662
 
+### 505II — conditional expression volume
+
+Checked 2026-10-19 against [original manual pp18,21][Z505-M]. FP01/FP02 volume control applies only when the entire patch has no pedal-icon parameter selected. This is a **patch-dependent fallback**, not a documented global volume override. Position, minimum/maximum, position recall, bypass, headphone attenuation and tail/looper coverage remain unknown. The shared stereo output supports headphones; that does not prove pedal coverage. Footswitch patch selection is documented in Play; exact down/up switch mapping remains unverified in extracted text. PRESELECT requires confirmation. At 125 W ×145 D mm, depth exceeds preference by5 mm. Older sources and price qualifications remain preserved.
+
 ## MS-50G Plus
 
 MS-50G+ guitar multi-effects; distinct from original MS-50G. Checked 2026-10-17; partial. Bass/vocal suitability and ownership unestablished.

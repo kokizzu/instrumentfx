@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "MS-70CDR+ connector and preset screening",
-    "finding": "No analog EXP or dedicated phones; chassis fits. Foot-operated patch selection; exact down/up mapping unverified.",
+    "current": "505II conditional expression-volume audit",
+    "finding": "Patch-dependent fallback volume when no pedal-icon parameter selected; no global override established. Depth5mm over preference.",
     "next": [
-      "Continue remaining no-treadle Zoom inventory: G2 FOUR and original G3, one exact-model audit per commit",
+      "Screen remaining no-treadle Zoom 506II, B2, G1 original and 505 original individually; G2 FOUR and original G3 already have audits",
       "IR-200: resolve stereo IR capacity/loader conflict, complete field checklist and final scope decision; power voltage/polarity now source-backed",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
@@ -122594,7 +122594,7 @@
       "date": "2026-10-19",
       "source_commit": "87c7d3816a380ddc49e3af2b2441564f454f87d7",
       "scope": "Normalized inherited source checks without recertification or admitting partial leads; exact prior merged category preserved in public_metadata.remote_87c7d38_preserved.expression_category_before_normalization.",
-      "comparison_rows": 60,
+      "comparison_rows": 61,
       "adjacent_rows": 1,
       "active_inventory_changed": false
     },
