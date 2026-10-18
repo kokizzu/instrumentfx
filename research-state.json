@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Alesis MIDIverb 4",
-    "task": "Saved ownmodulation,clock andSysExscope. Next inspect exactShopee88823786/18090597062 lead,thenremainingbody/current/display/qualifiedprices.",
+    "task": "Saved exact1400000soldout and13000000shopholiday asks;noqualifiedused/new. Twootheritembodies inaccessible. Next freshShopee discovery orremainingtechnicalfields,do notduplicateoffers.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75414,7 +75414,7 @@
   },
   "resume_cursor": {
     "model": "Alesis MIDIverb 4",
-    "task": "Saved ownmodulation,clock andSysExscope. Next inspect exactShopee88823786/18090597062 lead,thenremainingbody/current/display/qualifiedprices.",
+    "task": "Saved exact1400000soldout and13000000shopholiday asks;noqualifiedused/new. Twootheritembodies inaccessible. Next freshShopee discovery orremainingtechnicalfields,do notduplicateoffers.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75795,5 +75795,40 @@
     ],
     "result": "Existingmodels only;newunreviewed exactMIDIverb4 offer88823786/18090597062 retained aslead,noassignedprice",
     "lead": "https://shopee.co.id/Alesis-MIDIVerb-4-Dual-Channel-Parallel-Processor-i.88823786.18090597062"
+  },
+  "midiverb4_offers_20261018": {
+    "checked": "2026-10-18",
+    "offers": [
+      {
+        "source": "https://shopee.co.id/Alesis-MIDIVerb-4-Dual-Channel-Parallel-Processor-i.88823786.18090597062",
+        "seller": "nusantaramusic",
+        "shop": "88823786",
+        "item": "18090597062",
+        "idr": 1400000,
+        "region": "Kota Pekanbaru",
+        "stock": "Habis cached/currentunknown",
+        "access": "Directlastweekcrawl",
+        "delivery": "9–11October stale",
+        "condition": "unknown"
+      },
+      {
+        "source": "https://shopee.co.id/Efek-Vokal-Alesis-Midiverb4-Effect-Vocal-Echo-Reverb-Alesis-Midiverb-4-Malaysia-Kupingan-Plastik-Gra-i.25629830.3089666378",
+        "seller": "Ian Shop Elektronik",
+        "shop": "25629830",
+        "item": "3089666378",
+        "idr": 13000000,
+        "region": "Kota Semarang",
+        "stock": "Shop holiday/currentunknown",
+        "access": "Directlastmonthcrawl",
+        "delivery": "11September stale",
+        "condition": "unknown",
+        "variant": "Malaysiaplasticears sellerclaim,notestablishedofficialvariant"
+      }
+    ],
+    "limits": "Latecompensation10000notdiscount;noqualifiedused/new;13000000retainednotcorrected",
+    "failed_access": [
+      "878775036/17092107915 cachemiss",
+      "236008720/23674828994 inaccessible"
+    ]
   }
 }

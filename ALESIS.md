@@ -164,6 +164,16 @@ Checked 2026-10-18 against original text in the [manufacturer manual, pp59–62]
 | Looper / delay clock scope | **BPM Mono Delay** follows incoming MIDI clock when Tempo is EcL; Note selects rhythmic division. On clock loss, delay retains the last tempo. This is delay synchronization, not a looper, scenes or general clock-sync support for every configuration. |
 
 
+### MIDIverb 4 — exact-offer follow-up, 2026-10-18
+
+| Price class | Amount | Exact offer and qualifications |
+|---|---:|---|
+| Condition-unverified, sold-out historical ask | **Rp1.400.000** | [nusantaramusic, shop88823786/item18090597062](https://shopee.co.id/Alesis-MIDIVerb-4-Dual-Channel-Parallel-Processor-i.88823786.18090597062), Kota Pekanbaru. Direct cached body, last-week crawl, explicitly **Habis**; delivery9–11October stale. Exact MIDIverb4 title, not live availability or a completed sale. |
+| Condition-unverified ask; shop on holiday | **Rp13.000.000** | [Ian Shop Elektronik, shop25629830/item3089666378](https://shopee.co.id/Efek-Vokal-Alesis-Midiverb4-Effect-Vocal-Echo-Reverb-Alesis-Midiverb-4-Malaysia-Kupingan-Plastik-Gra-i.25629830.3089666378), Kota Semarang. Direct cached body, last-month crawl, shop marked **Toko Sedang Libur**; delivery11September stale. Malaysia/plastic-ear wording is a seller claim, not a verified official variant. Price retained exactly, not silently corrected or treated as a representative market price. |
+
+For both: working condition, authenticity, revision, adapter/accessories, bundle, warranty, current stock, shipping/tax and delivered total remain unknown. Each advertises up-toRp10.000 late-arrival compensation, not an applied product discount. Neither establishes separate qualified used/new pricing.
+
+
 ## MIDIverb III
 
 Checked2026-10-17. Partial instrument/microphone multi-effects;not MIDIverb4. [Manufacturer Reference Manual onmirror](https://www.zikinf.com/manuels/alesis-midiverb-iii-manuel-utilisateur-en-46789.pdf),63pages,exact Alesis MidiVerb3 title;revision/date unestablished. Official oldmanualURL inaccessible;webtext only,no download/visualaudit.
