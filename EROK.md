@@ -4,7 +4,7 @@
 
 ## MP-20
 
-Checked2026-10-18; partial. Exact manufacturer MP-20 description and two exact Shopee titles establish guitar multi-effects identity. Bass/vocal membership and ownership remain unverified. No equivalence with M-VAVE MK-20, MP-9 or other rebrands established; specifications are not transferred.
+Checked2026-10-18; partial. Exact manufacturer MP-20 description and two exact Shopee titles establish guitar multi-effects identity. Bass/vocal membership and ownership remain unverified. A regulatory report now documents a limited MK-20/MP-20 hardware-family declaration, qualified below. Firmware/feature equivalence and MP-9 identity remain unverified; specifications are not transferred.
 
 | Field | Evidence / qualification |
 |---|---|
@@ -27,12 +27,18 @@ Checked2026-10-18; partial. Exact manufacturer MP-20 description and two exact S
 |---|---|
 | IDR verified used | Unknown. |
 | IDR verified new | Unknown. |
-| IDR condition-unverified offer1 | **Rp1.850.000**, crossed Rp2.222.222/17% display; EROK MUSIC, shop1736925571/item40078512026. Direct JS-limited body and search both returned a month-old cache, checked2026-10-18. Region, condition, new/used, working state, selected variant, stock, adapter/bundle, warranty/import region, authenticity, voucher, shipping/tax andcheckout total unverified. Stale 12–13 September delivery; late-arrival compensation is not a purchase discount. Seller name not independent authorization. [Exact item][EMS1] |
-| IDR condition-unverified offer2 | **Rp1.850.000**, crossed Rp2.222.222/17%; M-VAVE Outlets, Kab.Tangerang, shop1659915296/item51311588226. Month-old search cache, checked2026-10-18; indexed variant display_model_id371006973353, butselected variant/bundleunverified. Condition, working state, stock, warranty, authenticity, shipping/tax, voucher andcheckout total unknown. Stale September delivery; cached ask not current stock or completed sale. [Exact indexed variant][EMS2] |
+| IDR condition-unverified offer1 | **Rp1.850.000**, crossed Rp2.222.222/17% display; EROK MUSIC, shop1736925571/item40078512026. Direct JS-limited body and search both returned a month-old cache, checked2026-10-18. Region, condition, new/used, working state, selected variant, stock, adapter/bundle, warranty/import region, authenticity, voucher, shipping/tax and checkout total unverified. Stale 12–13 September delivery; late-arrival compensation is not a purchase discount. Seller name not independent authorization. [Exact item][EMS1] |
+| IDR condition-unverified offer2 | **Rp1.850.000**, crossed Rp2.222.222/17%; M-VAVE Outlets, Kab.Tangerang, shop1659915296/item51311588226. Month-old search cache, checked2026-10-18; indexed variant display_model_id371006973353, but selected variant/bundle unverified. Condition, working state, stock, warranty, authenticity, shipping/tax, voucher andcheckout total unknown. Stale September delivery; cached ask not current stock or completed sale. [Exact indexed variant][EMS2] |
 
-Manufacturer indexed home-page content is readable through search, but direct reopening currently exposes a dynamic shell. Its [downloads index][EMD] index lists **MP-20 Manual PDF, 8.4 MB, 2026-06-22**; no original contents/direct PDF URL recovered. Listing date is not verified firmware/manual revision. No images visually audited, files/dependencies downloaded or software/device operated. MP-9’s manufacturer NAM/IR/USB claims are not assigned to MP-20.
+Manufacturer indexed home-page content is readable through search, but direct reopening currently exposes a dynamic shell. Its [downloads index][EMD] lists **MP-20 Manual PDF, 8.4 MB, 2026-06-22**; no original contents/direct PDF URL recovered. Listing date is not verified firmware/manual revision. No images visually audited, files/dependencies downloaded or software/device operated. MP-9’s manufacturer NAM/IR/USB claims are not assigned to MP-20.
 
 [EMP]: https://erokmusic.com/index.html
 [EMD]: https://erokmusic.com/download
 [EMS1]: https://shopee.co.id/Prosesor-Efek-Multi-Gitar-EROK-MP-20-Pemodelan-ANN-320-Efek-LCD-2-4-Looper-Mesin-Drum-Baterai-8-Jam-untuk-Gitar-Elektrik-Bass-Akustik-i.1736925571.40078512026
 [EMS2]: https://shopee.co.id/EROK-MP-20-Guitar-Multi-Effects-Processor-ANN-Modeling-320-Effects-2.4-LCD-Looper-Drum-Machine-8H-Battery-for-Electric-Bass-Acoustic-Guitars-i.1659915296.51311588226?extraParams=%7B%22display_model_id%22%3A371006973353%2C%22model_selection_logic%22%3A3%7D
+
+### Regulatory family evidence and manual applicability
+
+Checked2026-10-18. Original **Shenzhen Global Test Service report GTS20251010019-2-09**,issued2026-01-04,for Sinco/FCC ID **2ARCP-MK-20**,lists EROK among trademarks andMP-20/PD39 alongside testedMK-20. Printed p5 records the model declaration that PCB,structure andinternals match,with model name/color differences. This is regulatory-family evidence,not a retail-unit inspection orproof of identical firmware,algorithms,editor support ordisplay. [Original report reproduction](https://device.report/m/1159cb7090ae42be8e6d851424ddc20b6359f11203995bef73882c18188f9bab).
+
+The associated [manufacturer-submitted user-manual exhibit9030673](https://fccid.io/2ARCP-MK-20/User-Manual/User-Manual-9030673) is indexed as27pages,submitted2026-01-28. The directlanding returned403;only indexed metadata is established. The separate Model Difference exhibit9030686 was identified,butits originalbody remains unread. Before applying MK-20 manual details toMP-20,match the original document/panel andrecord firmware/revision limits. No MK-20 technical specifications are imported bythis discovery. No files downloaded ordevices operated.

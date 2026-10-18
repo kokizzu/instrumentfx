@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "EROK MP-20 / fresh discovery",
-    "task": "MP20 partialadditionprepared;inspectnewcommitbeforework. Next recoverprimaryMP20manual/productdetailforrequiredfields;freshEROKMP9/MP10exactShopeeleadsafterMP20saved. Caline/ENO/AlphaFX/Rowinleadslimitsretained.",
+    "task": "MP20saved1de9555;newregulatoryfamilyreportlinksMP20/MK20physically,butnotfirmware/features. Next recovermanufacturerusermanual9030673orMP20official8.4MBmanualandmatchapplicabilitybeforefieldtransfer. ModelDifference9030686bodyunread. Otherdiscovery/legacygapsretained.",
     "next_models": [],
     "after_queue": "361 partial models;302 guitar,158 bass,69 vocal;46 brands. Migration incomplete;no downloads,workflows orpush."
   },
@@ -60737,6 +60737,22 @@
         "Seller exact revision"
       ],
       "method": "Browser search/index reading only;no download/hardware/softwareoperation"
+    },
+    {
+      "model": "EROK MP-20",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://device.report/m/1159cb7090ae42be8e6d851424ddc20b6359f11203995bef73882c18188f9bab",
+        "https://fccid.io/2ARCP-MK-20/User-Manual/User-Manual-9030673"
+      ],
+      "finding": "PrimarylabreportGTS20251010019-2-09p5 recordsmanufacturerfamilydeclarationMK20/MP20/PD39samePCBstructureinternals;EROKtrademarklisted. Narrowphysicalfamilyevidence,notfirmware/features. FCCusermanual9030673lead27pages;landing403. ModelDifference9030686bodyunread.",
+      "remaining": [
+        "Original MP20 manual",
+        "Regulatory manual applicability/panel/revision match",
+        "Display/power/memory/editor/IR/NAM",
+        "Qualified used/new offer"
+      ],
+      "method": "OriginaltestreportreproductionandindexedmanufacturerFCCexhibitmetadata;no downloads/deviceexecution"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -80177,6 +80193,16 @@
       }
     ],
     "qualification": "No sellerANN/2.4LCD/8hour/titlebassfacts adoptedasprimary;nohardwareequivalencewithMK20orMP9.",
-    "other_discovery": "CalineC300/CP48stillunresolvedexactitems;ENOsearchproducedunrelatedorexistingmodels. Noabsenceclaim."
+    "other_discovery": "CalineC300/CP48stillunresolvedexactitems;ENOsearchproducedunrelatedorexistingmodels. Noabsenceclaim.",
+    "commit": "1de9555",
+    "regulatory_family": {
+      "fcc_id": "2ARCP-MK-20",
+      "report": "GTS20251010019-2-09",
+      "issued": "2026-01-04",
+      "declaration": "MK-20,MP-20,PD39 samePCBstructureinternal;name/color differences;EROKlistedtrademark",
+      "scope": "Regulatorytestfamilyonly;technicalfieldtransfernotyetvalidated",
+      "user_manual_exhibit": "9030673",
+      "model_difference_exhibit": "9030686"
+    }
   }
 }
