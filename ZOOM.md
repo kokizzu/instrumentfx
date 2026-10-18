@@ -4368,8 +4368,6 @@ Bass multi-effects; partial, checked2026-10-18. Distinct from506 and505II. [Manu
 | Editor / USB evidence boundary | Complete rear-panel inventory lists input,output,CONTROL IN andDC; **no USB socket listed**. [Own manual pp6–7](https://zoomcorp.com/media/documents/E_506II.pdf). Current [manufacturer support page](https://zoomcorp.com/en/gb/multi-effects/bass-effects/506ii/506ii-support/) lists the operation manual only; no exact-model editor/driver/updater verified. Generic site software navigation is not model-specific support. |
 | Practical features / remote bank selection | FS01 advances one bank perpress inplay mode. Pre-select postpones audible patch changes until both footswitches confirm; power cycling restores direct selection. This is not a seamless-switching orspillover guarantee. [Own manual pp16–18](https://zoomcorp.com/media/documents/E_506II.pdf). |
 
-<!-- comparison evidence ends -->
-
 ### 506II — startup and tuner persistence
 
 Checked 2026-10-19 against [own original manual](https://zoomcorp.com/media/documents/E_506II.pdf), printed pp.5–11, document imprint506 II-5000. Text inspection only; no download or hardware operation.
@@ -4381,6 +4379,9 @@ Checked 2026-10-19 against [own original manual](https://zoomcorp.com/media/docu
 | Tuner / reference persistence | Reference435–445Hz resets to440Hz at restart. Bypass/mute cannot be activated in Edit mode; return to Play first. |
 
 These reset behaviors concern global operating settings; they do not contradict the36 rewritable patch memories. No qualified new Shopee506II hardware offer emerged from the current exact search; no market-absence claim.
+
+<!-- comparison evidence ends -->
+
 
 ## B2
 
