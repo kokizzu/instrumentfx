@@ -726,6 +726,17 @@ Manual p5 specifies **six effects includingNR plusvolume pedal** simultaneously;
 | Routing / cabinet | Cabinet requiresDRIVE/AMP on; changingdrive/amp automatically chooses its recommendedcabinet. No independentcabinet operation inferred. [Manual p9][AX5B-M] |
 | Power / battery switching | Onbatteries,INPUT cable insertion powersunit;removal turnsitoff. A stereo INPUT cable will not activate battery power; use mono (manual p12). Adapter behavior keptseparate. [Manual p7][AX5B-M] |
 
+
+### AX5B — volume,calibration and bypass limits
+
+Checked2026-10-18 against own English EFG1 manual,printed pp6–7,9–12. No device calibration/reset performed.
+
+| Field | Evidence / qualification |
+|---|---|
+| Live / master versus program level | Value knob is **master volume in Program mode**,withmaximum50 recommended for bass-amp connection. Per-program LEVEL is **0.0–10,standard5.0**;some settings clip unless lowered. These displayed ranges are not dB ratings. Power-on enters Program mode regardless of selector position. [Manual][AX5B-M] |
+| Expression / sensitivity calibration | Calibration uses pedal-setting+WRITE atpower-on,then heel return andthe desired forward switching position;release the pedal beforeWRITE confirms. Korg specifies foot operation because hand adjustment may be inaccurate. This adjusts travel/switch response,not a factory-program reload. [Manual pp11–12][AX5B-M] |
+| Live / bypass and mute | Press both program switches together for bypass;hold aboutone second for mute. Either single program switch exits without changing programs. Tuner operates inboth;value knob remainsmaster volume. This does not establish analog true bypass orpatch-change spillover. [Manual pp10–11][AX5B-M] |
+
 <!-- comparison evidence ends -->
 
 [AX5B-F]: https://www.korg.com/de/products/effects/ax5b/page_1.php
