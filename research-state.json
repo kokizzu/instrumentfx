@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro writable/protected memory andFC200banknumbering saved. Next control totals andeffectcategory census;USBreprocessing/streamformat pendingreadablep90. Avoid repeating unchanged inaccessiblepages.392partial;migration incomplete.",
+    "task": "GT-Pro text-derived12rotary/0footswitch/30button inventory saved. Next effectcategory census andUSBreprocessing/streamformat;no repeated inaccessiblefrontpanel pages.392partial;migration incomplete.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -121393,5 +121393,16 @@
       "patchselectionPlayonly"
     ],
     "remaining": "Initial user factoryfill;USB reprocessing/format."
+  },
+  "gtpro_controls_20261019": {
+    "source": "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+    "pages": "20,106indexed",
+    "counts": {
+      "rotary": 12,
+      "onboard_footswitches": 0,
+      "front_buttons": 30
+    },
+    "derivation": "3levels+7preamp+patchlevel+patchdial=12;6preampbuttons+14effect/control+10navigation=30;POWER/groundliftseparate.",
+    "qualification": "Text-derived complete controls list;visual corroboration pending.8toneknobs is subset."
   }
 }

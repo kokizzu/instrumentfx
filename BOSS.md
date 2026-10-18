@@ -3871,3 +3871,16 @@ Checked 2026-10-19 against indexed [original manufacturer manual p19](https://st
 | Live / patch selection | Patch changes requirePlay screen;EXIT returns there. SHIFT+PATCH/VALUE changes banks. No seamless-switching orunrestricted spillover inferred. |
 
 These findings resolve initial preset-protection uncertainty. Factory fill,USBstreamformat andother open fields remain explicit. No reset,write operation,download ordevice test performed.
+
+### GT-Pro — complete control-count derivation
+
+Checked 2026-10-19 against indexed [original manufacturer manual pp20,106](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf); exact GT-PRO controls specification. Mirror front-panel pages unavailable; text-derived inventory,not visual corroboration.
+
+| Field | Count / qualification |
+|---|---|
+| Knobs / rotary controls | **12**: three input/main/sub level controls;seven preamp controls;patch-level control;patch/value dial. Manualp20's **eight tone knobs** are seven preamp controls pluspatchlevel,a subset ofthecomplete rotary inventory. |
+| Footswitches / built-in expression | **0 onboard footswitches;no built-in expression treadle** in complete rack-panel inventory. External pedal sockets remain separately documented;external toe-switch capability unresolved. |
+| Buttons / other switches | **30 front-panel buttons derived**:six preamp-section buttons (including separateA/B),14effect/control toggles,ten navigation/system buttons (including twoPARAMETER). POWER and rear ground-lift are separate switches,not buttons orfoot controls. Physical-image corroboration pending. |
+| Memory / knob edits | Tone-knob changes must be written toretain them across patch changes orpower-off;this doesnot add autosaved memories. |
+
+Category census,USB stream format,currenthost compatibility andqualified IDR remain open. Unrelated contemporary BOSS model results were excluded;no downloads ordevice operation.
