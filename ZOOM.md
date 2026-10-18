@@ -3303,6 +3303,14 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | New | No qualified model-specific amount. | — |
 | Mixed listing, unverified condition | **Rp1.099.000 listing-level ask only**, title includes 606 and 607 with Japan/China variants. No variant-to-price mapping; not a 606 price. Shop703817770/item20045443371; Bandung category attribution. Saved category crawl two months old/search index last month; exact link resolved but direct item inaccessible. | [Mixed hardware item][Z606-O] |
 
+
+### Zoom 606 — conversion, analog ratings and staged patch changes
+
+| Field | Own-model evidence / qualification |
+|---|---|
+| Conversion / internal audio | **31.25 kHz** sampling; **20-bit ADC with64× oversampling;20-bit DAC with8× oversampling**. These are internal converter specifications, not USB audio. [Own manual p38][Z606-M] |
+| I/O / analog ratings | Input **−20dBm nominal,470kΩ**; output **+5dBm maximum into≥10kΩ**. The manual defines0dBm=0.775Vrms; retain its convention. Separate headphone power and measured headroom remain unverified. [Own manual p38][Z606-M] |
+| Live / preselection | Start while holding UP to stage patch choices without changing sound. Both footswitches confirm the displayed choice; VALUE± can select banks. Restart restores direct selection. This is patch staging, not scenes or gapless-switching proof. [Own manual pp20–21][Z606-M] |
 <!-- comparison evidence ends -->
 
 Seller, stock, working state, authenticity/origin, bundle, adapter, warranty, shipping, tax and vouchers unresolved. No current-stock claim. Browser manual text only; no filesystem download or visual inspection.
