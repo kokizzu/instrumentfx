@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech RP500",
-    "task": "Saved XLRspeakercompversusquarterinchAmpMixer,phonesrecommendation,powerswitchabsence andtunerrange. Next freshShopee discovery orremainingimport/currentOS/qualifiedprices/bodyaxes gaps.",
+    "task": "Saved AUXplaybackscope,6namedreverbs andhistoricalLE4DVDqualification. Primarydry/reamp/AUXUSB/currentOSstillunverified. Next freshShopeediscovery orotherrequiredmodelgaps.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75414,7 +75414,7 @@
   },
   "resume_cursor": {
     "model": "DigiTech RP500",
-    "task": "Saved XLRspeakercompversusquarterinchAmpMixer,phonesrecommendation,powerswitchabsence andtunerrange. Next freshShopee discovery orremainingimport/currentOS/qualifiedprices/bodyaxes gaps.",
+    "task": "Saved AUXplaybackscope,6namedreverbs andhistoricalLE4DVDqualification. Primarydry/reamp/AUXUSB/currentOSstillunverified. Next freshShopeediscovery orotherrequiredmodelgaps.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -76038,5 +76038,22 @@
       "site:shopee.co.id digitech rp80"
     ],
     "result": "Noqualifiednewhardwaremodel;adapter855783279/22273291654,reverb-onlyDigiverb andnonmusicalmatchesrejected;RP500knownAyxoffersunchanged"
+  },
+  "rp500_aux_reverbs_20261018": {
+    "source": "https://digitech.com/wp-content/uploads/2022/09/RP500_OM_EN.pdf",
+    "pages": [
+      25,
+      26
+    ],
+    "findings": "CDMP3left/right/phonesplayback;6namedreverbs,springlevelonly;LE4DVDoriginalbundle",
+    "remaining": "AUXUSB/XLRroute,dry,loopback,reamp,license/currentOSunverified"
+  },
+  "discovery_rp300a_gnx2_20261018": {
+    "queries": [
+      "site:shopee.co.id RP300A digitech",
+      "site:shopee.co.id GNX2 digitech"
+    ],
+    "result": "Noqualifiednewexacthardwaremodel;GNXadapters/nonmusicalmatchesrejected",
+    "unreviewed_lead": "GR33 synth title in GNX category; exact item,eligibility and multi-effects architecture unverified; no price assigned and not active"
   }
 }

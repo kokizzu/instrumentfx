@@ -251,6 +251,17 @@ Checked 2026-10-18 against the [manufacturer manual,printed pp2,7–8](https://d
 | Live / tuner | Hold BYPASS2seconds to enter;output is muted,with expression available for guitar-volume adjustment. Reference **A427–453Hz**,default440. Any footswitch exits. Do not conflate the2second tuner entry with the longer pedal-calibration hold. |
 
 
+### RP500 — AUX playback and reverb inventory
+
+Checked 2026-10-18 from original text in the [manufacturer manual,printed pp25–26](https://digitech.com/wp-content/uploads/2022/09/RP500_OM_EN.pdf). No local download or software operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / CD-MP3 playback scope | Stereo CD/MP3 input is mixed to left,right andheadphone outputs;source-player volume andRP500 Master Level balance playback. This passage does not establish AUX recording overUSB,its exact XLR path,dry recording,loopback orreamping. Two-wayUSB channel count alone does not establish those functions. |
+| Category choices / named reverbs6 | Twin Reverb spring,Lexicon Ambience,Lexicon Studio,Lexicon Room,Lexicon Hall,EMT240 Plate. These are the six choices already counted,not additional effects. Spring exposes reverb level;the other five list predelay,decay,liveliness andlevel. Numerical time ranges are not supplied here. |
+| Editor / bundle provenance | [Current past-product page](https://digitech.com/dp/rp500/) lists a Cubase LE4 DVD in the original package. This historical bundle does not prove current license activation,modern OS compatibility or inclusion with any used seller unit. USB setup guide was referenced in the manual but not established from the inspected current product links. |
+
+
 ## RP90
 
 Guitar multi-effects;distinct fromRP80/RP55/BP90. Checked2026-10-17;partial. Bass/vocal suitability and ownership unverified. Manufacturer classifies discontinued.
