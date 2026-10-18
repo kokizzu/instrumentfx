@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom A2 discovery lead / required gaps",
-    "task": "Saved original A2 primary manual,47choices/8simultaneousmodule eligibility,butnoexactShopeehardware. A2 remainsoutside359activecounts. SeekexactA2offer viaalternate spelling/category/seller inventory,orprogressotherrequiredfield gaps;avoid accessory-onlymatches.",
+    "task": "A2 exact hardware offer remains unresolved after alternate-spelling acoustic searches. Original manual p35 now preserves memory, I/O, power, dimensions and rhythm/delay restriction in discovery lead. Keep outside active counts; seek exact market offer or address another recorded-model required-field gap.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -78978,9 +78978,31 @@
       "result": "No exact qualifying new hardware offerresolved. A2/A2.1u matches were poweradaptors;unrelatedA2/A3 office/phoneproducts rejected. Doesnotproveabsence.",
       "used_idr": null,
       "new_idr": null,
-      "seller_item": null
+      "seller_item": null,
+      "followup": {
+        "checked_date": "2026-10-18",
+        "queries": [
+          "site:shopee.co.id \"zoom a2\" \"akustik\"",
+          "site:shopee.co.id \"zoom\" \"a2\" \"multi efek\"",
+          "site:shopee.co.id \"a2.1u\" pedal"
+        ],
+        "source": "https://shopee.co.id/search?keyword=zoom+guitar+effect",
+        "result": "Indexed category shows an A2/A2.1U-compatible power adapter, not an A2 hardware offer. Other results unrelated; no absence or stock conclusion."
+      }
     },
     "next": "Seek exactShopee A2 hardware using alternate spelling/model category or seller catalogue; onlythenadmit withfullrequiredfield pass fromexactA2 manual. No A2.1u specs borrowed.",
-    "method": "Browsertextonly;noPDF/app/dependencydownloads orhardwareoperation"
+    "method": "Browsertextonly;noPDF/app/dependencydownloads orhardwareoperation",
+    "specification_followup": {
+      "checked_date": "2026-10-18",
+      "source": "https://zoomcorp.com/media/documents/E_A2.pdf",
+      "printed_page": 35,
+      "memory": "40 user plus 40 preset locations; 80 total. Initial user-area factory fill not audited.",
+      "display": "Two-digit seven-segment LED plus parameter LEDs; diagonal/color specification unverified.",
+      "io": "Mono phone input, stereo line/headphone output, CONTROL IN for FP01/FP02 expression or FS01 switch; connector diameters not established by this specification excerpt.",
+      "power": "AD-0006: 9 V DC, 300 mA, center negative. Four AA batteries; approximately 7.5 hours alkaline operation. Adapter rating is not independently measured consumption.",
+      "body": "162 D × 156 W × 65 H mm; 700 g excluding batteries.",
+      "restriction": "Rhythm playback disables DELAY/REVERB.",
+      "remaining": "Built-in/toe expression, separate K/F/B, category choices, editor/IR/NAM/capture and remaining practical functions need full manual audit before any admission."
+    }
   }
 }
