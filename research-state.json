@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 356,
+  "active_model_count": 357,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 356,
+  "canonical_root_model_count": 357,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "356 unique active/root-canonical;0 legacy-only;41 brands;six excluded;all partial.",
+  "count_reconciliation": "357 unique active/root-canonical;0 legacy-only;42 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Catalogue count validation",
-    "task": "Fixed stale focused-bass validation metadata generator andadded regression/verificationgate. Next resume eligibleShopeediscovery and unresolvedmodelresearch;357notclaimed,inventoryremains356.",
+    "model": "LEKATO ME-01",
+    "task": "Saved ownbrandME01profile andunconfirmed80presethardwareShopeelead. Next ownmanualcontrols/expression/display/power andexactShopeemodelbinding;noTankG/M-VAVE/PA4specborrowing.",
     "next_models": [],
-    "after_queue": "356 partial models;297 guitar157 bass(35focused122shared)69 vocal; migration incomplete; no downloads/workflows/push."
+    "after_queue": "357 partial models;298 guitar158 bass69 vocal;42brands;migration incomplete; no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24424,6 +24424,12 @@
       "status": "Partial canonical guitar+bass record admitted",
       "checked_date": "2026-10-18",
       "evidence_key": "blackstar_floor_one_20261018"
+    },
+    {
+      "model": "LEKATO ME-01",
+      "checked_date": "2026-10-18",
+      "status": "Partialrootguitar+bassprofile;Shopeeidentityunconfirmed",
+      "evidence_key": "lekato_me01_20261018"
     }
   ],
   "inventory_by_brand": {
@@ -24864,6 +24870,9 @@
     "Blackstar": [
       "ID:X Floor Three",
       "ID:X Floor One"
+    ],
+    "LEKATO": [
+      "ME-01"
     ]
   },
   "root_brand_content": {
@@ -25304,18 +25313,21 @@
     "BLACKSTAR.md": [
       "ID:X Floor Three",
       "ID:X Floor One"
+    ],
+    "LEKATO.md": [
+      "ME-01"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 297,
+      "record_count": 298,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 157,
+      "record_count": 158,
       "bass_focused_record_count": 35,
-      "shared_bass_capable_count": 122,
+      "shared_bass_capable_count": 123,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -25338,10 +25350,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 297 guitar, 157 documented bass-capable, 69 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 298 guitar, 158 documented bass-capable, 69 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "356 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "357 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -45755,18 +45767,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 356,
-    "canonical_root_models": 356,
+    "unique_brand_model_pairs": 357,
+    "canonical_root_models": 357,
     "legacy_only_models": 0,
-    "guitar_view_models": 297,
+    "guitar_view_models": 298,
     "bass_focused_models": 35,
     "vocal_only_models": 24,
     "vocal_view_models": 69,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 157,
-    "bass_shared_models": 122,
+    "bass_view_models": 158,
+    "bass_shared_models": 123,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -45840,7 +45852,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Catalogue count validation."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume LEKATO ME-01."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -46140,7 +46152,8 @@
       "DK::iE-550",
       "DK::iE-350",
       "Blackstar::ID:X Floor Three",
-      "Blackstar::ID:X Floor One"
+      "Blackstar::ID:X Floor One",
+      "LEKATO::ME-01"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -46299,7 +46312,8 @@
       "Darkglass::Anagram",
       "DK::iE-350",
       "Blackstar::ID:X Floor Three",
-      "Blackstar::ID:X Floor One"
+      "Blackstar::ID:X Floor One",
+      "LEKATO::ME-01"
     ],
     "ALL-VOCAL.md": [
       "Audota::AVE-100",
@@ -46374,6 +46388,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "LEKATO::ME-01": "Own brand ME-01 page explicitly allocates amp/IR entries16–20 to bass. https://lekatodeal.com/products/lekato-me-01-multi-effects-processor-guitar-pedal-w-6-effects-modules-80-presets-20-irs",
     "Blackstar::ID:X Floor One": "Own family manual256401M-VA-1 01/26 explicitly names One and lists three bass voices/input use. https://www.kirstein.de/docs/manuals/00118929/manual_EN.pdf?h=2b60f8933d3a40a7df062be52bf93b84",
     "Blackstar::ID:X Floor Three": "Own manual256401M-VA-1 01/26 lists three bass voices and guitar/bass/acoustic input use. https://www.kirstein.de/docs/manuals/00118929/manual_EN.pdf?h=2b60f8933d3a40a7df062be52bf93b84",
     "DK::iE-350": "Own manufacturer manual pp11–12 lists bass drive,amp/cabinet models andbass chorus. Not inferred from EQ or sibling iE550. https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=12",
@@ -49151,6 +49166,13 @@
       "link": "BLACKSTAR.md#idx-floor-one",
       "source_files": [
         "BLACKSTAR.md"
+      ],
+      "finding_files": []
+    },
+    "LEKATO::ME-01": {
+      "link": "LEKATO.md#me-01",
+      "source_files": [
+        "LEKATO.md"
       ],
       "finding_files": []
     }
@@ -78148,5 +78170,39 @@
       "Valeton GP100VT"
     ],
     "result": "Only existingGP100VTunboundAliskastorefrontlead andexistingmodels;noqualifiednewmodel. ExactVTmanufacturerpage yieldednewUSB/analogqualifications."
+  },
+  "lekato_me01_20261018": {
+    "model": "LEKATO ME-01",
+    "canonical": "LEKATO.md#me-01",
+    "source": "https://lekatodeal.com/products/lekato-me-01-multi-effects-processor-guitar-pedal-w-6-effects-modules-80-presets-20-irs",
+    "identity": "OwnbrandpageME01SKU M03397;notassumedM-VAVEequivalent",
+    "checked_date": "2026-10-18",
+    "eligibility": "Sixmulti-effectmodules andexplicitguitar/bassampIRallocations;simultaneousceilingunverified",
+    "offer": {
+      "url": "https://shopee.co.id/LEKATO-Multi-Effects-Pedal-80-Preset-Simulator-Ampli-IR-Cab-Bluetooth-Baterai-10-Jam-Gitar-Bass-i.1540868898.29942863603",
+      "shop_id": "1540868898",
+      "item_id": "29942863603",
+      "seller": "LEKATO Music Store ID",
+      "region": "Kota Jakarta Barat",
+      "idr_direct": 1146000,
+      "idr_search": 1009471,
+      "access": "2monthdirectvs3monthsearch",
+      "voucher": "Directwithvoucher spend600kdiscount4k;alreadyincludedunknown",
+      "model_identity": "Unconfirmed;titleomitsME01;80presets10hnotuniqueidentification",
+      "condition": "unknown",
+      "stock": "unknown",
+      "limits": "Variantbundlefirmwarewarrantyauthenticityshippingtaxcheckoutunverified;19Augdelivery stale"
+    },
+    "remaining": [
+      "ExactShopeemodel/condition/stock",
+      "Controls/expression/display",
+      "Fullmanual",
+      "Physicaldimensionsbasis",
+      "PowerandUSBformats",
+      "Firmware/editorversions",
+      "FXfeatureFAQconflict",
+      "IRformat/slotbehavior",
+      "Looper/drums/routing"
+    ]
   }
 }

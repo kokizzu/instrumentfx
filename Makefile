@@ -1959,3 +1959,7 @@ comparison-test-counts:
 .PHONY: research-commit-blackstar
 research-commit-blackstar:
 	python3 scripts/blackstar_catalogue.py commit
+
+.PHONY: research-commit-lekato
+research-commit-lekato:
+	python3 scripts/lekato_catalogue.py commit
