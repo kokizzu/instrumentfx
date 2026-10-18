@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Zoom 506II",
-    "task": "Verify initial factory fill, category census, visual control inventory and exact Shopee hardware offers; then fresh brand/series discovery.",
+    "task": "Initial36 factory-filled writable patches verified; serial architecture,COMP/DIST/EQ selector counts andexpression fallback saved. Finish MOD/DLY census/headline33 reconciliation; exact Shopee hardware offers andvisual audit remain unknown.",
     "next_models": [],
-    "after_queue": "367 active/46brands;all partial;compatibility migration incomplete;no downloads/workflows/push."
+    "after_queue": "367active/46brands;307guitar160bass69vocal;allpartial;compatibility migration incomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -81063,5 +81063,11 @@
       ],
       "result": "No qualified exact hardware offer. GFX8 hits732732692/20031217262 and14849321/28104902463 are adapters;38361451/8214243069 is sensor;not processor prices."
     }
+  },
+  "zoom506ii_followup_20261018": {
+    "source": "https://zoomcorp.com/media/documents/E_506II.pdf",
+    "printed_pages": "18–26",
+    "finding": "Memory fill and serial architecture verified; partial category census saved.",
+    "status": "partial"
   }
 }

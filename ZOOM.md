@@ -4283,7 +4283,7 @@ Bass multi-effects; partial, checked2026-10-18. Distinct from506 and505II. [Manu
 | K/F/B | **1/2/3**, text-derived: PLAY/EDIT rotary, two footswitches, STORE and+/− buttons. Visual audit pending. |
 | Display | Two-digit7-segmentLED; diagonal/color/touch unverified. |
 | Processing / categories | **33 effects;8 simultaneous**. Specification separately states7 modules (5modules+1block); preserve wording, not8 independently assignable blocks. Category census pending. |
-| Memory | **36 rewritable patches**,6banks×6; separate factory bank/initial fill unverified. |
+| Memory | **36 rewritable patches**,6banks×6, **all36 initially factory-programmed**. Factory sounds occupy the same writable locations, not36 additional slots. All Initialize restores all; Factory Recall restores one. [Own manual p19](https://zoomcorp.com/media/documents/E_506II.pdf). |
 | Synth / acoustic | BassSynth favors single notes; acoustic simulation unverified. |
 | I/O | Mono bass input, stereo line/headphone output, CONTROL IN,9VDC. USB/editor support unverified. |
 | Power | AD-0006 **9VDC300mA center-negative** supply rating; device draw unknown.4AA,approximately28h alkaline/8h manganese. |
@@ -4291,5 +4291,7 @@ Bass multi-effects; partial, checked2026-10-18. Distinct from506 and505II. [Manu
 | IR / NAM / capture | Unverified. |
 | Practical features | Chromatic tuner. Looper/drums/scenes unverified. |
 | IDR price | Used/new unknown; exact Shopee searches yielded no qualified hardware offer. Stock/seller/bundle/warranty/voucher unverified. |
+| Processing / serial architecture | Seven serial modules; MOD can combine two effects, explaining the8-effect ceiling without8 freely assignable blocks. **COMP6 selector modes**,including2 pedal-wah versions; **DIST12 basic types** (5clean,5distortion,2enhancers); pedal gain is an extended parameter. **EQ2 types**, equalizer orphaser. ZNR andamp simulation can operate together. Remaining MOD/DLY census andheadline33 reconciliation pending. [Manual pp20–26](https://zoomcorp.com/media/documents/E_506II.pdf). |
+| Expression / assignment | If no pedal-icon parameter is selected anywhere in a patch, external expression controls volume. Connect external control before powering; no live connection test performed. [Manual pp18,21](https://zoomcorp.com/media/documents/E_506II.pdf). |
 
 <!-- comparison evidence ends -->
