@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(zoom): screen B1 FOUR direct expression connector path'))
+    print(git('commit','-m','research(zoom): screen B1on direct expression connector path'))

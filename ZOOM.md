@@ -2446,6 +2446,12 @@ Checked 2026-10-18 against [manufacturer 100-effect list, ©2014, Z2I-2129-01](h
 | Processing / revision accounting | The legend marks **Ver1.2 additions** with an asterisk: category subtotals **4/3/0/11/7 = 25 additions**. Removing these yields **17/11/12/21/14 = 75**, reconciling the original manual’s 75 with this 100-entry library. This is document accounting, not an installed-firmware audit or a claim that firmware1.30 introduced the additions. |
 | Processing / cabinet and pedal scope | Appendix lists **12 cabinet parameter choices plus OFF** within amp models; these do not add standalone algorithms. The separate **five PEDAL entries** belong to B1Xon and are excluded from B1on’s 100. |
 
+### B1on — direct expression-path screening
+
+Checked 2026-10-19 against [own shared manufacturer manual, pp4–5,8,31](https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf). Complete connector inventory names INPUT, AUX IN, shared OUTPUT/headphones, USB and DC; **no analog EXP/CONTROL input**. This resolves the earlier external-expression unknown for the documented B1on. B1Xon’s treadle is not transferred; the retained product-page copy conflict does not override the model-specific panel.
+
+Normal bass input needs no divided pickup; guitar voicing remains unclassified. Existing146W×154.8Dmm exceeds preferred depth. Manual documents patch changes and continuous stepping; extracted control icons prevent exact down/up footswitch mapping certification here. Shared headphones remain supported. Direct-expression position/range and bypass/headphone/tail/loop attenuation are not applicable without its input. No USB/MIDI workaround certified. Older sources, prices and other qualifications remain preserved. No downloads or hardware operation.
+
 ## G3
 
 Original guitar multi-effects, distinct from G3X and G3n. Checked 2026-10-17; partial. Discontinued. Bass/vocal suitability unclassified. Later shared-manual evidence below is not proof of the offered unit’s installed firmware.

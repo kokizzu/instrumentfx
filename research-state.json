@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "Zoom B1 FOUR exact connector screening",
-    "finding": "Own complete connector inventory lacks analog EXP. Retained output settings do not establish pedal control; B1X pedal excluded.",
+    "current": "Zoom B1on exact connector screening",
+    "finding": "Complete B1on family panel inventory has no analog EXP input; built-in treadle belongs to B1Xon. Shared headphones documented.",
     "next": [
-      "Continue remaining no-treadle inventory: Zoom B1on/G1on and MultiStomp connector screening, one model per commit",
+      "Continue Zoom G1on exact connector screening, then MultiStomp models individually",
       "IR-200: resolve stereo IR capacity/loader conflict, complete field checklist and final scope decision; power voltage/polarity now source-backed",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
@@ -122594,7 +122594,7 @@
       "date": "2026-10-19",
       "source_commit": "87c7d3816a380ddc49e3af2b2441564f454f87d7",
       "scope": "Normalized inherited source checks without recertification or admitting partial leads; exact prior merged category preserved in public_metadata.remote_87c7d38_preserved.expression_category_before_normalization.",
-      "comparison_rows": 52,
+      "comparison_rows": 53,
       "adjacent_rows": 1,
       "active_inventory_changed": false
     },
