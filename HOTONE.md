@@ -85,6 +85,17 @@ These are individual asking observations,not a current market range or completed
 | Editor / version scope | The March firmware3.1/Editor1.5.0 pairing above is retained as release history. The August notice requires newer PC software for A2 conversion and generally recommends current compatible firmware/software; it does not specify a new MP-80 firmware minimum or present Windows/macOS version matrix. Sound Clone’s landing page returned no readable text, so conversion steps and format limits remain unverified. No software, model files or firmware downloaded or run. |
 
 
+### Ampero One — additional exact hardware ask, 2026-10-19
+
+| Field | Evidence / qualification |
+|---|---|
+| Price / additional condition-unverified IDR | **Rp5.859.000**,seller **Soundstationstore Online**,KotaTangerangSelatan,shop250276993/item29359894471. [Exact Ampero ONE hardware listing](https://shopee.co.id/Hotone-Ampero-ONE-Multi-effects-Pedal-Efek-Gitar-i.250276993.29359894471),direct readable last-week cache. Condition,live stock,revision,firmware,selectedvariant,bundle,adapter,warranty,voucher,shipping/tax anddeliveredtotal unknown. Not assigned to condition-verified used/new prices orcompleted sales. |
+
+### Ampero One — current-manual source lead
+
+Checked2026-10-19:[official manual index](https://www.hotone.com/support/1?pid=43&tid=17) lists **Ampero One User Manual compatible with firmwareV3.1**,alongside olderV2.1/V2.0/V1.2/V1.1/V1.0 entries. Listing establishes document availability,not that its complete body orupdated algorithm census was inspected. Retain V1.1 census andits64-versus65amp conflict until the model-specificV3.1 body is verified. No file downloaded.
+
+
 ## Hotone consolidation scope
 
 The six recorded Hotone models now retain their complete model findings and supporting comparison facts here. Original legacy sources remain available. Consolidation does not establish exhaustive market coverage or close unresolved specification and price fields.
