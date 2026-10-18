@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro exact loop pairing resolved andPRELOOP USBIn exclusion saved. Next USB driver/streamformat,reamp settings,control totals,memory andcategory census inreadable manufacturer manual mirror.392partial;migration incomplete.",
+    "task": "GT-Pro USBdriver modes anddigital/playback routing saved. Next reprocessing settings/control totals/memory/category census;USBstreamformat stillunknown.392partial;migration incomplete.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -121363,6 +121363,20 @@
       "Normal/DirectMix/BranchOut",
       "PRELOOPfixed beforeINPUTLEVEL;disabledwithUSBIn",
       "preloopdistortionmayimpairtracking"
+    ]
+  },
+  "gtpro_usb_modes_20261019": {
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+      "https://www.manualslib.com/manual/499099/Boss-Gt-Pro.html?page=89"
+    ],
+    "pages": "88–89",
+    "access": "p88original-indexed;mirror403. p89originalmanualbodymirror.",
+    "findings": "Advanced required forUSBMIDI/editor;powercyclefor mode. USB/DigitalOutMAIN/SUB/mix onlyDGTchain;GuitarIn playbackmix route separatelyselected.",
+    "remaining": [
+      "USBstreambitdepth/channelcount",
+      "reprocessing settings",
+      "modernhosts"
     ]
   }
 }

@@ -3846,3 +3846,15 @@ Checked 2026-10-19 against manufacturer-authored GT-PRO manual reproduced by Man
 | I/O / PRE LOOP restriction | Fixed ahead ofINPUTLEVEL;cannot reorder. **Unavailable with InputSelect=USBIn**. Distortion placed here can impair pitch-detection effects such as guitar synth/Harmonist. This is an actual USB reprocessing restriction,not an extra USB channel. |
 
 Earlier general loop ambiguity is superseded by these explicit manual routing details. USB stream format,control totals,memory protection andcomplete category census remain unresolved. No download orhardware operation.
+
+### GT-Pro — USB driver modes and output routing
+
+Checked 2026-10-19: original manufacturer manual indexed [p88](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf) and same manufacturer-authored mirror [p89](https://www.manualslib.com/manual/499099/Boss-Gt-Pro.html?page=89). Original GT-PRO title/pagination corroborated above; text only. Mirrorp88 returned403;no installed software/device test.
+
+| Field | Evidence / qualification |
+|---|---|
+| USB / driver modes | Standard uses OS USB driver;Advanced uses dedicated driver. **USB MIDI andEditor/Librarian requireAdvanced**;mode changes take effect after power cycling. This doesnot certify modern host compatibility. |
+| USB / digital output source | USB/DigitalOut selectsMAIN,SUB orMAIN+SUB;respective GlobalEQ applies. MAIN+SUB is a mix,not proof offour independent USB channels. Source selection applies only withchain configurations endingDGT. Digitaloutput level0–200 is relative,not bit depth. |
+| USB / playback mix | WithInputSelect=GuitarIn,USBMixChannel routes computerplayback toMAIN,SUB orboth;USBMixLevel0–200. Playbackmix routing is distinct from USBrecording-source selection. |
+
+USB stream bit depth/channel count,exact reprocessing settings andcurrent driver operation remain unverified. No claim that OS-standard audio also supplies editor/MIDI functions. No downloads ordevice operation.
