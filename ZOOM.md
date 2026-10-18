@@ -3060,6 +3060,13 @@ Checked **2026-10-17**, partial. Bass-specific processor; separate from707II gui
 | I/O / electrical ratings | Bass nominal **−20 dBm, 500 kΩ**; AUX **−20 dBm, 20 kΩ**. Combined stereo line/headphones maximum **+3 dBm into ≥10 kΩ**; headphone mW unspecified. Reference: 0 dBm = 0.775 Vrms. [Manual p39][708-M] |
 | Synth / variants | V-SYN: DECAY1–30, RESO0–10, BAL0–30, SENS1–16, TONE0–10, LEVEL1–8. STDSYN has four variations, SENS1–16, BAL0–30, high/low EQ±12 and LEVEL1–8. SYNTLK vowel choices are iA/UE/UA/oA, with DECAY1–30, BAL0–30, high/low EQ±12 and LEVEL1–8. These parameter choices do not add algorithms to69. [Manual pp34–35][708-M] |
 | Synth / fretless distinction | MOD type14 **DEFRET** simulates fretless bass and explicitly requires single notes; SENS1–16, ATTACK1–10, SINK1–10. This does not establish acoustic/upright simulation or polyphonic tracking. [Manual p37][708-M] |
+
+### 708II — live controls and expression ranges
+
+| Field | Own manufacturer manual evidence / qualification |
+|---|---|
+| Live / bypass, mute and tuning | Briefly pressing/releasing both footswitches gives **dry bypass with pedal volume control**. Holding both **at least one second**, then releasing, mutes OUTPUT/PHONES. Tuner reference **435–445 Hz in 1 Hz steps**, resetting to **440 Hz on power-up**. [Own manual p11][708-M] |
+| Expression / per-patch range and toe exception | **PDLMIN/PDLMAX each 0–10**, stored per patch; reversed endpoints reverse the sweep. WAH/PITCH assignments temporarily replace the current MODULATION type with P-WAH/P-PIT. Storing the assignment saves that module ON. Toe press toggles the assigned module/sampler; **VOL has no toe-switch action**. [Own manual pp23–25][708-M] |
 <!-- comparison evidence ends -->
 
 ### 708II — sources and unresolved hardware pricing

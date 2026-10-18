@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Recorded-model required fields / discovery",
-    "task": "707II bypass/mute, tuner-reference reset and rhythm bank-selection limit saved. Continue another unresolved recorded-model field or fresh Shopee series discovery; A2 stays a non-active lead without exact hardware offer.",
+    "task": "708II own-manual live controls and expression ranges saved. Resume unresolved loop/card behavior or another required-field gap; refresh Shopee discovery before claiming market coverage. A2 remains non-active without exact hardware offer.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -79017,5 +79017,17 @@
       "Direct bank selection unavailable during rhythm playback"
     ],
     "qualification": "Own 707II manual; no 708II borrowing or hardware operation. Other technical and market gaps remain."
+  },
+  "zoom_708ii_live_expression_20261018": {
+    "source": "https://zoomcorp.com/media/documents/E_708II.pdf",
+    "printed_pages": [
+      11,
+      23,
+      24,
+      25
+    ],
+    "destination": "ZOOM.md#708ii",
+    "scope": "Own-model live controls and per-patch expression qualification; no sibling borrowing or hardware operation.",
+    "remaining": "Exact Shopee offer/variant mapping, loop/card persistence, display and software gaps remain."
   }
 }
