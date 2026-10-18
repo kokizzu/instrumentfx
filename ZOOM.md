@@ -4471,3 +4471,27 @@ Acoustic-guitar multi-effects;checked2026-10-18,partial. [Own product page](http
 Manufacturer-authored [English manual mirror](https://manualzz.com/doc/9009531/zoom-a3-acoustic-guitar-preamp-and-effects-operation-manual), checked2026-10-18: ©2013 ZOOM, matching contents/pagination and exact A3 specs corroborate identity. Used original manual body, not generated FAQs; no full-image inspection.
 
 Category census audit trail (original manual pp35–41): DYN/FLTR: Comp, RackComp, M Comp, OptComp, SlowATTCK, ZNR, GraphicEQ, ParaEQ, Exciter, AutoWah. MOD: Tremolo, Phaser, Chorus, Detune, SilkyCho, MirageCho, StereoCho, Flanger, PitchSHFT. DELAY: Delay, ModDelay, ReverseDL, MultiTapD, StereoDly, StompDly. REVERB: HD Reverb, Hall, Room, TiledRoom, Spring, Arena, EarlyRef, Air, ModReverb, SlapBack, HD Hall, Plate. MIC: Dyna 57, Cond 414, Cond 87. THRU is bypass, excluded from the 40-effect census.
+
+## G2Nu
+
+Checked 2026-10-19; partial. Separate from G2.1Nu and G2.1u. [Exact manufacturer support](https://zoomcorp.com/en/gb/multi-effects/guitar-effects/g2nu/g2nu-support/) and [own family manual](https://zoomcorp.com/media/documents/E_G2Nu_G21Nu_0.pdf), pp.4–5,50; text inspection. [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g2nu/) marks discontinued. Ownership and bass/vocal suitability unverified.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression | External FP02/FS01 control; built-in pedal absent from G2Nu panel inventory. Toe support unverified. |
+| Knobs / footswitches / buttons | Separate totals unverified; no visual count. |
+| Display | LCD;diagonal,color,touch unverified. |
+| Processing / categories | 83types;maximum8 simultaneous modules. Category census/DSP combination limits unverified. |
+| Memory | 100user and100preset patches,each10banks×10. Initial user fill and preset protection unverified. |
+| Dimensions / mass | 166 D×160 W×64 H mm;800g excluding batteries. |
+| I/O | Mono quarter-inch input,stereo quarter-inch line/headphone output,CONTROL IN,USB,DC. USB audio details unverified. |
+| Power | 9VDC500mA center-negative AD-16 supply rating;4AA alkaline approximately6.5h with backlightLOW;explicit USB bus power. Measured draw unverified. |
+| IR / NAM / capture | User import unverified. |
+| Editor / platforms | Exact support offers Edit&Share Windows5.3.2/Mac4 and firmware1.10 Windows/Mac. Current OS/host operation untested;updater separate from editor. |
+| Synth / acoustic | Dedicated capabilities unverified. |
+| Looper / drums / live | Panel names LOOPER,RHYTHM,TAP;tuning. Capacities,patterns,retention,scenes andtrails unverified. |
+| IDR verified used | Unknown. |
+| IDR verified new | Unknown. |
+| IDR condition-unverified ask | Unknown. Exact Shopee searches surfaced adapters and unrelated/existing models;no qualified G2Nu hardware offer. Seller/item,stock,bundle,warranty,voucher unverified. |
+
+No software,firmware,dependencies or files downloaded or run. No sibling dimensions or treadle transferred.
