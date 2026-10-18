@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "DigiTech RP360 partial lead",
-    "finding": "Exact indexed manual distinguishes TS passive≥250kΩ fromTRS expression≥10kΩ. System input mode is not global volume assignment. Lead unadmitted; product conflicts preserved.",
+    "current": "DigiTech RP360 assignment follow-up (partial lead)",
+    "finding": "Assignments/MIN/MAX stored per user preset; movable Volume0–99 overrides stored value on pedal motion; position determines delay/reverb tail attenuation. Global override unverified.",
     "next": [
-      "RP360 follow-up: exact shared-manual expression assignment/volume block and signal coverage, panel/power before admission",
+      "RP360 admission follow-up: exact non-XP panel/treadle, K/F/B, power/display/I/O and qualified Shopee offer; retain unresolved global coverage",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
@@ -122606,7 +122606,8 @@
         "https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP360-RP360XP_Manual_5041674-B.pdf"
       ],
       "global_volume": "unverified",
-      "offer": "XP result rejected for non-XP"
+      "offer": "XP result rejected for non-XP",
+      "assignment": "preset-stored target and MIN/MAX; movable Volume0–99; no global override established"
     }
   }
 }
