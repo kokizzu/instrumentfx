@@ -1,9 +1,0 @@
-{
-  "status": "retired_historical_snapshot",
-  "current_ledger": "../research-state.json",
-  "preserved_content": "public_metadata.legacy_json.unique_snapshots.5d746df4f29ae3fe3ae1e765b72c6dc18b264f7e2a2e54abb32fbd5044ee678f",
-  "source_commit": "d6e730f27dd2e45898914cd82053d87778107de9",
-  "source_path": "effects/research-state.history-2026-10-15-pre-cube-baby.json",
-  "source_sha256": "5d746df4f29ae3fe3ae1e765b72c6dc18b264f7e2a2e54abb32fbd5044ee678f",
-  "not_current_inventory_or_cursor": true
-}

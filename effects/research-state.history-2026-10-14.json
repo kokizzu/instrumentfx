@@ -1,9 +1,0 @@
-{
-  "status": "retired_historical_snapshot",
-  "current_ledger": "../research-state.json",
-  "preserved_content": "public_metadata.legacy_json.unique_snapshots.c1ec68f999cab71490092d4fa6fbbf2c5b3ce7a53c51999e2760ad8e87ed3b83",
-  "source_commit": "d6e730f27dd2e45898914cd82053d87778107de9",
-  "source_path": "effects/research-state.history-2026-10-14.json",
-  "source_sha256": "c1ec68f999cab71490092d4fa6fbbf2c5b3ce7a53c51999e2760ad8e87ed3b83",
-  "not_current_inventory_or_cursor": true
-}

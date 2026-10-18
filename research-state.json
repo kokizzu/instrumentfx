@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Tech21 Fly Rig5v2",
-    "task": "Optional KillerWail power modification qualified;stock expression support remains unresolved. RK5 exactoffer already saved as revision-unresolved;do not duplicate/admit without revision evidence. Continue another freshlead or primarygap.",
+    "model": "Legacy JSON pointer cleanup",
+    "task": "Three redundant JSON pointers removed after exact typed-content verification; Markdown redirects remain for historical anchors. Continue technical research and audit remaining compatibility layout.",
     "next_models": [],
-    "after_queue": "342 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
+    "after_queue": "342 partial unique models; Markdown compatibility paths retained. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -41816,7 +41816,7 @@
         "source_commit": "d6e730f27dd2e45898914cd82053d87778107de9",
         "source_sha256": "c1ec68f999cab71490092d4fa6fbbf2c5b3ce7a53c51999e2760ad8e87ed3b83",
         "destination": "research-state.json",
-        "status": "retired_json_pointer",
+        "status": "removed_json_pointer",
         "incoming_before": [],
         "redirect_sha256": "1ea0603c6757dfb488f42f1f32a1d15ff47d7d15758f132ee046bc450538d622"
       },
@@ -41824,7 +41824,7 @@
         "source_commit": "d6e730f27dd2e45898914cd82053d87778107de9",
         "source_sha256": "5d746df4f29ae3fe3ae1e765b72c6dc18b264f7e2a2e54abb32fbd5044ee678f",
         "destination": "research-state.json",
-        "status": "retired_json_pointer",
+        "status": "removed_json_pointer",
         "incoming_before": [],
         "redirect_sha256": "ffba5ba190241c02967091ad8ab862559b3a25cac851d18458d70aa4c659a771"
       },
@@ -41832,7 +41832,7 @@
         "source_commit": "d6e730f27dd2e45898914cd82053d87778107de9",
         "source_sha256": "5d746df4f29ae3fe3ae1e765b72c6dc18b264f7e2a2e54abb32fbd5044ee678f",
         "destination": "research-state.json",
-        "status": "retired_json_pointer",
+        "status": "removed_json_pointer",
         "incoming_before": [
           {
             "source": "MULTI-EFFECTS.md",
@@ -45434,6 +45434,30 @@
       },
       "limitations": "These checks verify retained evidence, not manufacturer truth or current market/stock.117 compatibility paths remain; overall migration and technical research incomplete.",
       "inputs_unchanged_during_successful_run": true
+    },
+    "json_pointer_removal": {
+      "status": "removed",
+      "checked_date": "2026-10-18",
+      "records": {
+        "effects/research-state.history-2026-10-14.json": {
+          "path": "effects/research-state.history-2026-10-14.json",
+          "sha256": "1ea0603c6757dfb488f42f1f32a1d15ff47d7d15758f132ee046bc450538d622",
+          "pointer_text": "{\n  \"status\": \"retired_historical_snapshot\",\n  \"current_ledger\": \"../research-state.json\",\n  \"preserved_content\": \"public_metadata.legacy_json.unique_snapshots.c1ec68f999cab71490092d4fa6fbbf2c5b3ce7a53c51999e2760ad8e87ed3b83\",\n  \"source_commit\": \"d6e730f27dd2e45898914cd82053d87778107de9\",\n  \"source_path\": \"effects/research-state.history-2026-10-14.json\",\n  \"source_sha256\": \"c1ec68f999cab71490092d4fa6fbbf2c5b3ce7a53c51999e2760ad8e87ed3b83\",\n  \"not_current_inventory_or_cursor\": true\n}\n"
+        },
+        "effects/research-state.history-2026-10-15-pre-cube-baby.json": {
+          "path": "effects/research-state.history-2026-10-15-pre-cube-baby.json",
+          "sha256": "ffba5ba190241c02967091ad8ab862559b3a25cac851d18458d70aa4c659a771",
+          "pointer_text": "{\n  \"status\": \"retired_historical_snapshot\",\n  \"current_ledger\": \"../research-state.json\",\n  \"preserved_content\": \"public_metadata.legacy_json.unique_snapshots.5d746df4f29ae3fe3ae1e765b72c6dc18b264f7e2a2e54abb32fbd5044ee678f\",\n  \"source_commit\": \"d6e730f27dd2e45898914cd82053d87778107de9\",\n  \"source_path\": \"effects/research-state.history-2026-10-15-pre-cube-baby.json\",\n  \"source_sha256\": \"5d746df4f29ae3fe3ae1e765b72c6dc18b264f7e2a2e54abb32fbd5044ee678f\",\n  \"not_current_inventory_or_cursor\": true\n}\n"
+        },
+        "effects/research-state.json": {
+          "path": "effects/research-state.json",
+          "sha256": "60a28449789479af6ea5c9b84b253564de79dcd6e62b4244def2dce137c6ef68",
+          "pointer_text": "{\n  \"status\": \"retired_historical_snapshot\",\n  \"current_ledger\": \"../research-state.json\",\n  \"preserved_content\": \"public_metadata.legacy_json.unique_snapshots.5d746df4f29ae3fe3ae1e765b72c6dc18b264f7e2a2e54abb32fbd5044ee678f\",\n  \"source_commit\": \"d6e730f27dd2e45898914cd82053d87778107de9\",\n  \"source_path\": \"effects/research-state.json\",\n  \"source_sha256\": \"5d746df4f29ae3fe3ae1e765b72c6dc18b264f7e2a2e54abb32fbd5044ee678f\",\n  \"not_current_inventory_or_cursor\": true\n}\n"
+        }
+      },
+      "rollback": "make json-pointer-rollback-plan then make json-pointer-removal-apply",
+      "source_commit": "2ff98f62f8a4f1eedf4b673aa6c64a40f28aed29",
+      "remaining_markdown_compatibility_paths": 114
     }
   },
   "deferred_work": {

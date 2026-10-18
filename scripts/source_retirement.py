@@ -235,11 +235,14 @@ def json_verify():
         restored={key:value for group in groups.values() for key,value in group.items()}
         assert json.dumps(restored,sort_keys=True)==json.dumps(json.loads(original),sort_keys=True),'Typed JSON loss: '+path
         if path in retired:
-            assert (ROOT/path).read_text()==json_pointer(path,retired[path])
-            assert digest((ROOT/path).read_text())==retired[path]['redirect_sha256']
+            if retired[path].get('status') == 'removed_json_pointer':
+                assert not (ROOT/path).exists(), 'Removed JSON pointer reappeared: '+path
+            else:
+                assert (ROOT/path).read_text()==json_pointer(path,retired[path])
+                assert digest((ROOT/path).read_text())==retired[path]['redirect_sha256']
     for link in json_incoming():
         assert (ROOT/link['target']).is_file() and not link['fragment'],str(link)
-    print('PASS:3 original JSON files/2 unique typed snapshots reconstructed exactly;current ledger,provenance and incoming paths resolve.')
+    print('PASS:3 original JSON files/2 unique typed snapshots reconstructed exactly;current ledger,provenance and retained/removed pointer states verified.')
 
 def json_plan(rollback=False):
     json_verify()

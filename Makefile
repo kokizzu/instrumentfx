@@ -1927,3 +1927,15 @@ research-commit-mx400:
 .PHONY: research-commit-ame100
 research-commit-ame100:
 	python3 scripts/research_tools.py commit-ame100
+
+.PHONY: json-pointer-removal-plan json-pointer-removal-apply json-pointer-removal-verify json-pointer-removal-commit json-pointer-rollback-plan
+json-pointer-removal-plan:
+	python3 scripts/json_pointer_removal.py plan
+json-pointer-removal-apply:
+	python3 scripts/json_pointer_removal.py apply
+json-pointer-removal-verify:
+	python3 scripts/json_pointer_removal.py verify
+json-pointer-removal-commit:
+	python3 scripts/json_pointer_removal.py commit
+json-pointer-rollback-plan:
+	python3 scripts/json_pointer_removal.py rollback-plan
