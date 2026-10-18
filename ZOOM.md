@@ -2256,6 +2256,12 @@ Mixed original/plus titles are excluded from original-model prices: [sarana musi
 
 Verify original/V3effectinventory and actual installed capacity,complete synth list,external expression,display details,USB/audio/MIDI/complete port exclusions,weight battery condition,manual memory rules,IR/NAM/capture exclusions,looper/drums/scenes/tails,and qualified current used/new offers. Preserve55/100/172andregional category conflicts instead of silently choosing one count.
 
+### MS-50G — direct expression-path screening
+
+Checked 2026-10-19 against [original manufacturer manual, pp4–5,11,30](https://zoomcorp.com/media/documents/MS-50G_operationManual_English.pdf). Complete connectors are mono INPUT, two line OUTPUT jacks, USB and DC; **no analog EXP/CONTROL or dedicated headphone socket**. This resolves the earlier analog-input uncertainty. No built-in treadle; MS-50G+ specifications are not transferred. Normal guitar input requires no divided pickup.
+
+Existing77.5W×130.3Dmm fits preferred chassis, excluding plugs. Direct analog volume fails; position/range and expression bypass/headphone/tail/loop attenuation are not applicable. The single footswitch cycles a configured patch list; this is not separate preset-down/up. USB controller workarounds and headphone driving through line outputs remain unverified. Older prices, revision conflicts and remaining technical fields stay preserved. No downloads or device operation.
+
 ## MS-70CDR
 
 Reviewed **2026-10-17**, following exact Shopee hardware discovery. **Original MS-70CDR,not MS-70CDR+**. Guitar/bass multi-effects;no ownership claim. Partial research using official HTML and indexed manufacturer manual/effect-list text;no dependencies,manual files,firmware or software downloaded to the workspace. The manufacturer marks this original model discontinued;that does not establish seller stock.

@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "Zoom G1on connector and footprint screening",
-    "finding": "No analog EXP in complete connector inventory;154.8mm depth exceeds140mm preference. Findings saved in3472ecc; cursor recovered after editor memory failure.",
+    "current": "Original MS-50G connector and foot-recall screening",
+    "finding": "Complete connector inventory lacks analog EXP and dedicated phones; single footswitch cycles configured list. Chassis fits but direct path fails.",
     "next": [
-      "Continue MultiStomp connector screening with MS-50G, then MS-60B and MS-70CDR, one model per commit",
+      "Continue original MS-60B then MS-70CDR exact connector screening, separately from Plus variants",
       "IR-200: resolve stereo IR capacity/loader conflict, complete field checklist and final scope decision; power voltage/polarity now source-backed",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
@@ -122594,7 +122594,7 @@
       "date": "2026-10-19",
       "source_commit": "87c7d3816a380ddc49e3af2b2441564f454f87d7",
       "scope": "Normalized inherited source checks without recertification or admitting partial leads; exact prior merged category preserved in public_metadata.remote_87c7d38_preserved.expression_category_before_normalization.",
-      "comparison_rows": 54,
+      "comparison_rows": 55,
       "adjacent_rows": 1,
       "active_inventory_changed": false
     },
