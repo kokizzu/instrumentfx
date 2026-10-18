@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Yamaha AG-Stomp",
-    "task": "AG-Stomp calibration/global assignments and source conflicts saved. Next verify remaining required hardware/software absence fields only with sufficient primary evidence, or fresh eligible Shopee discovery. Do not infer toe switch from unexplained EXP Switch Setting reference.",
+    "model": "Line 6 HX Stomp",
+    "task": "W Musik offer qualified. Next fresh Yamaha/Shopee discovery or required HX Stomp primary-specification gaps; do not treat Yamaha seller-title wording as a new model.",
     "next_models": [],
     "after_queue": "378 active models,46 brands,all partial; no downloads/workflows/push; migration incomplete."
   },
@@ -5607,6 +5607,12 @@
       "date": "2026-10-18",
       "source": "https://usa.yamaha.com/files/download/other_assets/1/313701/agstomp_en.pdf",
       "finding": "Calibration ranges and global/patch/off control modes clarified. MIDI receive/transmit bounds distinguished; printed mass-unit conflict preserved. Physical toe switch remains unverified."
+    },
+    {
+      "model": "Line 6 HX Stomp",
+      "date": "2026-10-18",
+      "source": "https://shopee.co.id/Yamaha-LINE-6-HX-Stomp-Box-Yamaha-LINE-6-Yamaha-HX-Stomp-Box-i.37016589.25412176717",
+      "finding": "Additional W Musik cached offer saved with exact seller/item and unresolved stock discrepancy; no inventory addition."
     }
   ],
   "consolidation_and_price_findings": [
@@ -46215,7 +46221,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Yamaha AG-Stomp."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 HX Stomp."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -81844,7 +81850,7 @@
     "scope": "Explicit uncertainty signals in selected comparison facts only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
     "model_count": 378,
     "models_with_signals": 378,
-    "flagged_field_count": 4650,
+    "flagged_field_count": 4651,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -96184,6 +96190,14 @@
             "field": "Display",
             "source": "LINE6.md",
             "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Retail IDR — additional cached offer",
+            "source": "LINE6.md",
+            "signals": [
+              "unknown",
               "unverified"
             ]
           }
@@ -117017,12 +117031,12 @@
       "TC-ELECTRONIC.md": "c4b16b3c6f514ab087fed6c19a469d50b1e14e9793b555ad8371da0bcddd5449",
       "VALETON.md": "e335ead12e652b2f04053cb58702d5055e6bcf32c61cbca143572baf2cb4b03e",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
-      "ALL-GUITAR.md": "73241966b76beb507e7deb5b4c4c7b23cfab6fb8df6ddaf220c9afd47b9ebbd8",
-      "LINE6.md": "e277da711458c000e26845a4cd5b568f5dbe59a4305b8ce1ffe3e37dd72f92ff",
+      "ALL-GUITAR.md": "5a211894ff352d72d27a65ccb317e33c42fd014f1a9a43bf3fe88d926b70f246",
+      "LINE6.md": "679131cac947653d13ec307540ed05a182002f268fe9573854fddbaa8cff9e6d",
       "YAMAHA.md": "ed6c13b0c5344d5f227d1c08e7e66c65e9e636498b6a1e6c2ed853edb0d748c0",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
-      "ALL-BASS.md": "53bdd66a87c85f3131a04589046fbad48fec411f363bdc5438ea3a74be819672",
+      "ALL-BASS.md": "207a384d94dd50bcc3018e0d636aa80f8795c6e1d20163bab91108907ded7fa9",
       "VING.md": "2873cd6b4d5b13c287eb839977ff782139fb5640008b9f9730ddc289d09f5b67",
       "FENDER.md": "825b3d107ed121195199f3a238cfae504e08c3f4913cd5952787df25109530c8",
       "MOSKY.md": "5fa70acc80dab7bfb6d02f5160afec1e5ee1947c8e343790309c9f78cbc0a07d",
