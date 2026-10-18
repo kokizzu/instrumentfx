@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 HX Stomp",
-    "task": "HX Stomp IR import details saved with source conflict. Continue remaining category/synth/USB/power gaps or fresh Shopee discovery; no sibling substitution.",
+    "task": "HX Stomp published3.0 USB routing and driver distinctions saved. Next primary power, synth/category, looper or current OS compatibility gaps; alternatively fresh Shopee discovery.",
     "next_models": [],
     "after_queue": "378 active models,46 brands,all partial; no downloads/workflows/push; migration incomplete."
   },
@@ -5619,6 +5619,12 @@
       "date": "2026-10-18",
       "source": "https://line6.com/data/6/0a00051afdda673cccdb61c9c/application/pdf/HX%20Stomp%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
       "finding": "Indexed 3.80 manual establishes .hir/WAV conversion and stereo import selection; older general Helix KB conflict retained."
+    },
+    {
+      "model": "Line 6 HX Stomp",
+      "date": "2026-10-18",
+      "source": "https://line6.com/data/6/0a00050b058066312873a50cf/application/pdf/HX%20Stomp%203.0%20Owner%27s%20Manual%20-%20English%20.pdf",
+      "finding": "Device-specific RevE USB routing and platform driver requirements saved; current OS compatibility remains open."
     }
   ],
   "consolidation_and_price_findings": [
@@ -81856,7 +81862,7 @@
     "scope": "Explicit uncertainty signals in selected comparison facts only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
     "model_count": 378,
     "models_with_signals": 378,
-    "flagged_field_count": 4651,
+    "flagged_field_count": 4652,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -96190,6 +96196,13 @@
             "source": "LINE6.md",
             "signals": [
               "not_established"
+            ]
+          },
+          {
+            "field": "Configuration apps and USB functions",
+            "source": "LINE6.md",
+            "signals": [
+              "unverified"
             ]
           },
           {
@@ -117037,12 +117050,12 @@
       "TC-ELECTRONIC.md": "c4b16b3c6f514ab087fed6c19a469d50b1e14e9793b555ad8371da0bcddd5449",
       "VALETON.md": "e335ead12e652b2f04053cb58702d5055e6bcf32c61cbca143572baf2cb4b03e",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
-      "ALL-GUITAR.md": "1c169ad7417df4075d975f9c34456e95d54fdfaf9bc2bce74c7470b0345b211d",
-      "LINE6.md": "c9ab661e103573b50d60b9a3711c9a7565c9fc4cac35dae261863873326c4a5d",
+      "ALL-GUITAR.md": "3a279d330268aac5628088197fda7ae5b22e8ebaed1ef34e1a23115ff6063091",
+      "LINE6.md": "c79c11f80457e8caa907d5d1cf480d8dd8d96537d9c7f2fcd50d4400bf8d69a6",
       "YAMAHA.md": "ed6c13b0c5344d5f227d1c08e7e66c65e9e636498b6a1e6c2ed853edb0d748c0",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
-      "ALL-BASS.md": "4a26aca0fcfd9f0fd353396d074160ec6742e4aee49e585a627d8cbb52303dbc",
+      "ALL-BASS.md": "63c6bea80320755fdd735b59dace7db5b0da2b2adfd92311436228de3e8612c4",
       "VING.md": "2873cd6b4d5b13c287eb839977ff782139fb5640008b9f9730ddc289d09f5b67",
       "FENDER.md": "825b3d107ed121195199f3a238cfae504e08c3f4913cd5952787df25109530c8",
       "MOSKY.md": "5fa70acc80dab7bfb6d02f5160afec1e5ee1947c8e343790309c9f78cbc0a07d",
