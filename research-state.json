@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Lexicon MPX100",
-    "task": "Saved mono-sum output,inputlevelrange andfootswitch connection limits. Next freshbrand/seriesShopee hardwarediscovery oranothermodel requiredgap;transformercurrent remainsunknown.",
+    "model": "Korg AX1500G",
+    "task": "Reconciled currentmemorysummary withverified48userfactorycopies;no duplicateusedoffersadded. Next auditanotherstale summary against existingevidence orfreshShopee hardwarediscovery;technicalgapsremain.",
     "next_models": [],
     "after_queue": "351partialmodels;155bass;technicalverification andlegacycompatibilitymigration incomplete;no downloads/workflows/push."
   },
@@ -45678,7 +45678,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Lexicon MPX100."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX1500G."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -59995,6 +59995,22 @@
         "Analog EXP notestablished"
       ],
       "method": "Original guidebrowsertext,no downloads/deviceoperations"
+    },
+    {
+      "model": "Korg AX1500G",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://cdn.korg.com/us/support/download/files/c0cb472d5281a71103e41fb6563a2ceb.pdf"
+      ],
+      "finding": "Reverified E2 p7 factoryusercopies andupdatedstale topmemoryrow;laterfollowupformerlyresolvedthisbutcomparisonstillprojectedunknown. ExistingRp600k/Rp1500kusedoffersreopenedunchanged,noduplicate added.",
+      "remaining": [
+        "56variationcountbasis",
+        "Display details",
+        "Operating current/polarity",
+        "Qualified new offer",
+        "Editor support"
+      ],
+      "method": "Manufacturer/browsertext,no downloads"
     }
   ],
   "discovery_cross_brand_bass": {

@@ -611,7 +611,7 @@ def main():
         if mode == 'commit-tonelab-le':
             message = 'research(vox): audit ToneLab EX amp cabinets and own clean settings'
         if mode == 'commit-ax1500g':
-            message = 'research(korg): resolve AX1500G factory fill calibration and used ask'
+            message = 'fix(korg): reconcile AX1500G current memory summary'
         if mode == 'commit-rp255':
             message = 'research(digitech): document RP255 USB mix controls and tuner volume behavior'
         if mode == 'commit-gt8':
