@@ -407,6 +407,19 @@ Checked2026-10-18 against [own Yamaha manual,printed pp24–25,29–31][DGS-M]. 
 | Live / clock and transport | Implementationchart marks MIDIclock andSystemRealtime commands **unsupported forboth transmit/receive**. Localdelay taptempo remainsdocumented;do not infer clock synchronization. |
 | I/O / analog ratings | Withpreampbypass,inputHIGH **−25dBm/1MΩ**,LOW **−15dBm/1MΩ**. Mainoutputs **0dBm/1kΩ**;phones **0dBm/47Ω at47Ωload**. Retainprintedunits;not clippingthresholds orcomputed headphonepower. |
 
+
+
+### DG-Stomp — tuner calibration and conditional reverb tails
+
+Checked2026-10-18 against [own manual,printed pp19–22][DGS-M]. Browser text only;no deviceoperation ordownload.
+
+| Field | Exact-model qualification |
+|---|---|
+| Live / tuner calibration | **A436–444Hz,in1Hz steps;resets to440Hz atpower-on**. Utility orBANK exits tuning. This is referencepitch range,not detectable-noterange oraccuracy. |
+| Live / delay tap and level | BANK taps setTIME fromthetap interval forbothDigitalDelay andTapeEcho. Numeric delay-time endpoints remainunverified. LEVEL controls sourcefeed intothedelay circuit,not a documented simplewet-output blend. |
+| Live / reverb tails correction | Manual explicitly describes tails whenswitching betweenpatches withthe **same reverbtype**,fromnonzeroLEVEL toLEVEL0;newpatch input receivesnoreverb. This resolves theearlier unverified-reverb note conditionally,not asuniversal spillover. REVERB knob controls inputfeed. |
+| Effects / secondary modulation parameters | Holdselected MODbutton whileturning SPEED/DEPTH forsecondaryparameters;these are saved withpatchdata. Rotary'ssecondarySPEED setsstereomicangle0–180°;secondaryDEPTH balanceshigh/lowrotors. These controls do notadd independentblocks. |
+
 <!-- comparison evidence ends -->
 
 [DGS-M]: https://usa.yamaha.com/files/download/other_assets/7/313717/dgstomp_en.pdf
