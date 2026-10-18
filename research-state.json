@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "NUX Roctary unresolved lead",
-    "task": "Recover exact Shopee hardware seller/item and manufacturer manual; verify Roctary versus Roctary Force identity and dedicated-rotary versus independent multi-effects scope before admission. Category prices alone are insufficient.",
+    "model": "Fresh Shopee discovery / remaining technical gaps",
+    "task": "Roctary exact link1776275/16848386152 recovered but cached item and readable primary architecture unavailable. Defer admission; use different unrecorded series queries or fill existing model gaps from readable own manuals. Avoid repeating failed Roctary URLs without new evidence.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -78480,5 +78480,23 @@
       }
     ],
     "next": "Recover Roctary exact hardware item and exact model manual, preserving Force identity uncertainty; otherwise new Shopee series queries. Do not repeat identical failed queries."
+  },
+  "roctary_exact_link_recovery_20261018": {
+    "checked_date": "2026-10-18",
+    "status": "Pending scope/model identity; not admitted",
+    "category": "https://shopee.co.id/list/Leslie",
+    "category_access": "Direct reader now shows September category rather than June indexed snippet; amount remains Rp1493990, crossed Rp1494990. Not live-stock evidence.",
+    "recovered_item": "https://shopee.co.id/Pedal-Efek-Nux-Roctary-Rotary-Poly-Octave-Brake-Original-i.1776275.16848386152",
+    "shop_id": "1776275",
+    "item_id": "16848386152",
+    "selected_model_id": "38645351112",
+    "recovered_variant_url": "https://shopee.co.id/Pedal-Efek-Nux-Roctary-Rotary-Poly-Octave-Brake-Original-i.1776275.16848386152?extraParams=%7B%22display_model_id%22%3A38645351112%2C%22model_selection_logic%22%3A3%7D",
+    "offer_limits": "Both selected-variant click and bare item open failed cache retrieval; seller display identity, condition, stock, variant name, bundle and voucher remain unverified. Category amount is not independently confirmed item price.",
+    "primary_product": "https://nuxaudio.com/product/roctaryforce/",
+    "official_manual": "https://nux.cherubtechnology.com/download/Manual/Effects/Force_Series/RoctaryForce/NUX_RoctaryForce_UserManualV1_English.pdf",
+    "official_access": "One-page PDF; zero extracted lines. Screenshot attempt supplied no image, so no visual findings claimed.",
+    "alternate_manual": "https://medias.audiofanzine.com/files/roctary-manual-480083.pdf",
+    "alternate_access": "Three-page PDF, title Roctary Force说明书V3Q.cdr; zero extracted lines. Identity/revision equivalence unproven; secondary retail descriptions not promoted to hardware facts.",
+    "next": "Defer until readable manufacturer manual or inspectable page becomes available. Exact link is saved; do not repeat category-only search or infer independent multi-effects architecture from rotary/octave marketing."
   }
 }
