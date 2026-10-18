@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(yamaha): qualify AG-Stomp EQ feedback storage and reverb tails'))
+    print(git('commit','-m','research(yamaha): distinguish four Magicstomp primary discovery editions'))

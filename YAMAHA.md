@@ -492,3 +492,16 @@ Distinct acoustic-guitar multi-effects, checked 2026-10-18; partial. [Manufactur
 <!-- comparison evidence ends -->
 
 Original Yamaha-hosted PDF read as browser text; no file downloaded, device operated or software installed. Do not borrow DG-Stomp specifications. Expression mappings and original patch initialization are documented above; complete physical/absence checks and remaining software/price gaps stay unresolved.
+
+## Magicstomp — separate-edition discovery leads
+
+Checked2026-10-18;**not active model rows orcounts**. [Yamaha manual library](https://usa.yamaha.com/support/manuals/index.html?c=&k=magicstomp&l=en) lists separate **Guitar Effects Processor**,**Guitar MK2**,**Acoustic** and**Bass** manuals,plus edition-specific effect/patch lists andeditordocuments. Do not combine capacities,algorithms,ports orsoftware requirements across editions.
+
+Primary source routes for exact-edition follow-up:
+
+- [Original Guitar owner manual](https://usa.yamaha.com/files/download/other_assets/7/334107/magicstomp_en.pdf).
+- [Acoustic owner manual](https://usa.yamaha.com/files/download/other_assets/9/334079/magicstomp_acoustic_en.pdf).
+- [Bass owner manual](https://usa.yamaha.com/files/download/other_assets/1/334091/magicstomp_bass_en.pdf).
+- Guitar MK2 manual listed separately inmanufacturerlibrary;exactPDFlink andhardwareedition stillrequireinspection.
+
+FreshShopeequeries Yamaha+Magicstomp,MagicStomp,MagicStompUB99 andMagicStompwithspace didnotyieldanexactprocessor item;UB99search returnedunrelatedmicrophones. No IDR amount,used/newcondition,seller/item,stock,region,bundle,warranty orvoucher established. This isnotproof ofmarketabsence. Full required-fieldprofiles andeditionidentity remainpending;no hardware/software/files downloaded.
