@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Valeton Dapper MDR",
-    "task": "DapperMDR consumption/manufacturer adapter inclusion and15-choice category boundary qualified. Existing AcousticMini offers already recorded;seek another freshlead or unresolved primary field.114 Markdown compatibility files retained.",
+    "model": "BOSS AD-8",
+    "task": "AD8 analog levels,output impedances,power switching andoriginal bundle qualified. Bass ME6B/ME8B/AX3000B discovery returned no indexed leads. Continue freshhardware lead or primarygap;114 Markdown compatibility files retained.",
     "next_models": [],
     "after_queue": "342 partial unique models; Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -45579,7 +45579,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton Dapper MDR."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS AD-8."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -73254,5 +73254,33 @@
       "15 category selections=9mod+3delay+3reverb;not simultaneous ceiling."
     ],
     "operation": false
+  },
+  "ad8_analog_power_20261018": {
+    "sources": [
+      "https://cdn.roland.com/assets/media/pdf/AD-8_OM.pdf",
+      "https://www.boss.info/se/products/ad-8/specifications/"
+    ],
+    "printed_pages": "13,25–26",
+    "checked": "2026-10-18",
+    "findings": [
+      "Nominal−20dBu I/O;1kΩ unbalanced/amp,600Ω XLR,33Ωphones. Ω-valued manual lines mislabeled nominal level;regional impedance labels corroborate.",
+      "Input plug switches power;originalsixAA included,PSA optional,actual seller bundle unknown.",
+      "GroundLift disconnects outputpin1 frominputground."
+    ],
+    "unresolved": [
+      "input impedance conflict",
+      "current draw conflict",
+      "polarity",
+      "display details",
+      "condition-qualified stock/offers"
+    ]
+  },
+  "discovery_bass_classic_20261018": {
+    "queries": [
+      "site:shopee.co.id \"Boss\" \"ME6B\"",
+      "site:shopee.co.id \"Boss\" \"ME8B\"",
+      "site:shopee.co.id \"Korg\" \"AX3000B\""
+    ],
+    "result": "No indexed results;no processor offer accepted,no unavailability inference."
   }
 }

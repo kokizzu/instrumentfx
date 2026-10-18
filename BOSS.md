@@ -3179,6 +3179,17 @@ Acoustic-guitar multi-effects: body modeling, EQ, reverb and feedback suppressio
 | Processing / acoustic model pairs | [Own manual, printed p10][AD8-M]: **1 D-28/U87; 2 000-28/U67; 3 J-45/U67; 4 B-25/U87; 5 D-40/C12; 6 Jose Ramirez/C12**. Guitar makers respectively Martin, Martin, Gibson, Gibson, Guild and Jose Ramirez; microphones Neumann for 1–4, AKG for 5–6. These are six fixed modeled combinations, not six guitars times three independently selectable microphones, physical mic inputs or user captures. |
 | Power / historical draw conflict | [Manufacturer 2008 catalogue, indexed AD-8 specifications](https://static.roland.com/assets/media/pdf/boss_catalog_2008.pdf) lists **170 mA at 9 V maximum**, alongside20 MΩ input and250 ×180 ×60 mm. This conflicts with the own manual’s **120 mA**, also corroborated by [2012 catalogue](https://cdn.roland.com/assets/media/pdf/boss_catalog_2012.pdf) and [2014 catalogue](https://static.roland.com/assets/media/pdf/boss_catalog_2014.pdf). No documented revision or correction reconciles the figures. Do not treat170 mA as an adapter rating. Full2008 PDF exceeded reader size limit; evidence is its indexed model-specific text, not visual inspection. |
 
+
+### AD-8 — analog levels and power switching
+
+Checked2026-10-18 against [own manual,printed pp13,25–26][AD8-M] and [regional specifications](https://www.boss.info/se/products/ad-8/specifications/). No device operation ordownloads.
+
+| Field | Finding / qualification |
+|---|---|
+| I/O / nominal levels and impedances | **Nominal input/output−20dBu**;unbalanced/electric-amp outputs **1kΩ**,balancedXLR **600Ω**,phones **33Ω**. Regional recommended load **10kΩ orgreater**;do not reinterpret this as a minimum headphone rating. Nominal levels are not maximum headroom orheadphone power. Manual’s Ω-valued output lines are mislabeled NominalOutputLevel;regional page identifies them as impedances. Existing4.7MΩ/20MΩ input conflict remains. |
+| Power / input-jack switching and bundle | Inserting the INPUT plug switches the uniton;removing it switches off. Manufacturer accessories list **sixR6AA batteries**,with **PSA adapter optional**. These are original package contents,not proof ofwhat seller item9817836384 includes. NoUSB/battery-runtime change inferred. |
+| I/O / ground lift | NOR/LIFT disconnects **pin1 ground** from inputground whenLIFT isselected. This is an output ground-loop control,not a phantom-power ormicrophone-input switch. Default recommendation isNOR. |
+
 <!-- comparison evidence ends -->
 
 [AD8-S]: https://www.boss.info/se/products/ad-8/
