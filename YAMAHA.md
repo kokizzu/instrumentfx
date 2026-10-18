@@ -45,7 +45,7 @@ Checked 2026-10-17. Partial original-manual verification; unknown is not No.
 | Field | Evidence / qualification |
 |---|---|
 | Instrument scope | Guitar, bass and vocal applications explicitly listed; suitable line-level preamp/mixer routing required [S99-M pp.12–13] |
-| Expression | No built-in pedal/toe; continuous parameter control via two MIDI controller assignments, with per-program parameter/range settings. Direct expression socket support unverified [S99-M pp.56–57] |
+| Expression | No built-in pedal/toe; continuous parameter control via two MIDI controller assignments, with per-program parameter/range settings. No dedicated expression socket in the complete rear-panel/connector inventory; the two pedal sockets are switches,not continuous EXP inputs [S99-M pp.5,56–57,Add-1] |
 | Knobs / footswitches / buttons | 3 rotary controls: concentric L/R input plus Data Entry; 0 built-in footswitches; 12 buttons: six function, two page, Memory/Store/Edit/Bypass; power separate [S99-M pp.4,Add-1] |
 | Display | 24×2 character LCD plus LED indicators; diagonal/color/touch unverified [S99-M Add-1] |
 | Processing / categories | Three processing sections: pre/main/post, with 4/36/3 choices respectively. Pre/post offer P.EQ, Comp., HarmDr; Dist. is pre-only and itself combines compression, distortion and EQ. Main type cannot be replaced in Edit: start from a preset with the required main algorithm. Individual sections can be disabled. Section count is not a universal count of elemental effects. Main algorithms, derived from the manual list: 4 reverb, 4 early-reflection/gate, 7 delay/echo, 6 modulation, 4 pitch, 2 pan, 8 combined/dual and 1 Freeze = 36 [S99-M pp.6,20–24] |
@@ -54,9 +54,9 @@ Checked 2026-10-17. Partial original-manual verification; unknown is not No.
 | IR / NAM / captures | IR import, native/converted NAM and measured capture support unverified |
 | Audio / control ports | Stereo inputs/outputs each provide XLR and TRS; MIDI IN and switchable OUT/THRU; trigger and bypass-or-memory footswitch sockets; memory-card slot [S99-M Add-1] |
 | Analog levels / conversion | Switchable −20/+4 dBm line levels; 20-bit A/D/D/A, 44.1 kHz [S99-M Add-1] |
-| Power / battery / USB | US/Canada120 V60 Hz; UK240 V50 Hz; general230 V50 Hz;25 W. DC polarity not applicable to listed mains versions. Operating battery/USB power unverified [S99-M Add-1] |
+| Power / battery / USB | US/Canada120 V60 Hz; UK240 V50 Hz; general230 V50 Hz;25 W. DC polarity not applicable to listed mains versions. RAM backup battery is not an operating supply;no USB connector in complete inventory,see below [S99-M pp.3,Add-1] |
 | Dimensions / weight | W480 × H46 × D324.4 mm including attachments;4.6 kg [S99-M Add-1] |
-| Editor / software | Editor platforms, USB audio and current computer compatibility unverified |
+| Editor / software | Editor platforms/current computer compatibility unverified; no USB connector in complete inventory |
 | Looper / drums / live | FC4/FC5 bypass-or-memory jack selects bypass or a defined preset-recall range; separate trigger jack. Freeze: maximum 1.35-second mono sampling; manual/automatic recording and overdubbing; adjustable start/end/loop points and reverse playback. Sample lost on power-off or recalling another program; stereo input mode samples left only. Playback via panel, trigger footswitch or MIDI notes. This is a short volatile sampler loop, with drums/scenes/spillover still unverified [S99-M pp.5,19,49–51] |
 
 ### SPX990 — separate IDR evidence
@@ -72,7 +72,7 @@ Checked 2026-10-17. Partial original-manual verification; unknown is not No.
 - [Official Yamaha Spanish manual](https://jp.yamaha.com/files/download/other_assets/5/317185/SPX990S.pdf), indexed; direct access returned403.
 - [Official manual index](https://usa.yamaha.com/support/manuals/index.html?l=en&p=189) lists the5.7 MB image manual. No claim that a sibling manual proves this model’s fields.
 
-Remaining: full routing diagrams and elemental simultaneous maximum, factory mapping conflict, direct expression support, screen/software gaps and qualified live/new offers. The memory chapter confirms capacity but does not resolve the exact initial contents of all 100 user slots.
+Remaining: full routing diagrams and elemental simultaneous maximum, factory mapping conflict, screen/software gaps and qualified live/new offers. The memory chapter confirms capacity but does not resolve the exact initial contents of all 100 user slots.
 
 ### SPX990 — input selection and MIDI synchronization, 2026-10-18
 
@@ -83,6 +83,18 @@ Remaining: full routing diagrams and elemental simultaneous maximum, factory map
 | I/O / global input selection | **Stereo** keeps L/R inputs on their respective processing channels. **L Mono** sends L to both and ignores R; **R Mono** sends R to both and ignores L. This is input selection,not summed L+R. The setting is global across programs and survives power-off. |
 | MIDI / tempo sync | **TmpEch1,TmpEch2,TmpEch4** accept external MIDI CLOCK for tempo control with their trigger source set to MIDI. This is documented synchronization of those algorithms,not evidence of a drum machine,clock transmission or universal sync of every modulation effect. |
 | MIDI / intelligent pitch control | **MonoPit,DualPit,TripPit** accept MIDI Note On interval control with Intelli=ON and Trig=MIDI. This controls pitch processing,not a separate oscillator synthesizer or a dedicated editor. |
+
+
+### SPX990 — balanced connections and backup limits, 2026-10-18
+
+[Yamaha-authored manual](https://www.audiorama-berlin.de/pdf/yamahaspx990man.pdf),printed pp3,5,Add-1; text inspection only.
+
+| Field | Verified specification / qualification |
+|---|---|
+| I/O / balanced analog connections | Both **XLR and TRS L/R inputs and outputs are electrically balanced**, explicitly stated in the rear-panel chapter. These are two channels with alternative connector forms,not four independent inputs/outputs or microphone preamps. |
+| I/O / maximum versus nominal levels | At the+4 setting,the specification gives **maximum input+24dBm and output+18dBm**,distinct from switchable nominal+4/−20dBm. Units retained as printed;not normalized to dBu or measured here. |
+| Power / USB inventory | Complete connector list has no USB socket;USB power/audio is unsupported by that inventory. The internal battery retains RAM for approximately **five years**;this is backup-life guidance,not battery-powered operation or current battery-health evidence. |
+| Memory / backup scope | Memory cards cannot save **Program Change Table or System Data**;MIDI bulk storage provides a separate backup path. Factory presets remain when backup voltage falls. This does not guarantee a particular used unit’s saved sounds. |
 
 
 ## SPX2000
