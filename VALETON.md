@@ -1183,6 +1183,13 @@ Checked 2026-10-18; web text only, no downloads or image inspection.
 | Routing / documented module order | [Original manual pp1–2][DA-M] explicitly labels its module descriptions **in order of signal flow**: TUNER, COMP, PREAMP, REVERB. This establishes the described order without a visual diagram audit; it does not establish arbitrary rearrangement, additional slots or an exact global simultaneous ceiling. |
 | IDR / separate condition-unverified indexed ask | **Rp2.592.000**, [dewantiuu, shop1544987741/item25346956323](https://shopee.co.id/efek-pedal-gitar-akustik-valeton-dapper-acoustic-mini-strip-effect-i.1544987741.25346956323), Kota Surabaya. Exact-title search returns a two-month cache and stale22–23August delivery; direct item returns cache miss. Condition/new versus used, working status, selected variation, adapter/bundle, warranty/import region, authenticity, shipping/tax and checkout stock unknown. Absence of Habis in the snippet does not prove availability. Late-arrival compensation up toRp10.000 is not a purchase discount. Historical ask, not completed-sale evidence or a verified retail range. |
 
+
+### Dapper Acoustic Mini — additional Aproz asking observation
+
+| Field | Finding / qualification |
+|---|---|
+| IDR condition unknown / Aproz | Checked2026-10-18: [exact hardware listing](https://shopee.co.id/Dapper-Acoustic-Mini-5In1-Effect-Strip-Mes4-Valeton-Original-i.1558028740.55201451502), **Aproz**, Kota Jakarta Selatan, seller **1558028740** / item **55201451502**: **Rp2,251,200**, struck-through reference **Rp2,814,000**,displayed−20%. Two-month indexed cache; stale5–8August delivery. The title identifies Dapper Acoustic Mini but seller MES4/5-in-1 wording is not manufacturer code or simultaneous-block evidence. New/used condition,working status,revision,bundle/adapter,warranty,authenticity,stock andcheckout voucher eligibility remain unverified. Late-delivery compensation is not a product discount. Separate dated ask,not a completed sale or verified price range. |
+
 ## Dapper Dark VES-3
 
 Full-size guitar multi-effects strip, separate from Dark Mini. Manufacturer marks it **discontinued**. Checked 2026-10-17; partial. VES-3 is seller code pending manual corroboration.
