@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom A3",
-    "task": "Use verified A3 original-manual HTML body to audit remaining control counts, full connectors, expression and effect-category census. Electrical ratings now saved. Then fresh Shopee discovery and legacy consolidation.",
+    "task": "A3 category census and upright-bass membership saved. Next full control/port inventory and expression; remaining prices/display/software gaps stay explicit. Then fresh Shopee discovery and legacy consolidation.",
     "next_models": [],
     "after_queue": "376 active models; all partial; compatibility migration incomplete. No downloads/workflows/push."
   },
@@ -5530,6 +5530,12 @@
       "date": "2026-10-18",
       "source": "https://manualzz.com/doc/9009531/zoom-a3-acoustic-guitar-preamp-and-effects-operation-manual",
       "finding": "Manufacturer manual identity matched; analog electrical ratings, NiMH battery allowance and eco shutdown saved. No generated FAQ evidence used."
+    },
+    {
+      "model": "Zoom A3",
+      "date": "2026-10-18",
+      "source": "https://manualzz.com/doc/9009531/zoom-a3-acoustic-guitar-preamp-and-effects-operation-manual",
+      "finding": "Original manual pp34–41: upright-bass model establishes shared bass eligibility; five category counts reconcile to 40. Concurrency remains separate."
     }
   ],
   "consolidation_and_price_findings": [
@@ -25581,9 +25587,9 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 163,
+      "record_count": 164,
       "bass_focused_record_count": 38,
-      "shared_bass_capable_count": 125,
+      "shared_bass_capable_count": 126,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -25606,7 +25612,7 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 313 guitar, 163 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 313 guitar, 164 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
     "warning": "376 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
@@ -46052,8 +46058,8 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 163,
-    "bass_shared_models": 125,
+    "bass_view_models": 164,
+    "bass_shared_models": 126,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -46577,6 +46583,7 @@
       "Zoom::MS-100BT",
       "Zoom::506II",
       "Zoom::B2",
+      "Zoom::A3",
       "DigiTech::GNX3",
       "DigiTech::GNX4",
       "Korg::PANDORA stomp",
@@ -46692,6 +46699,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Zoom::A3": "Own manual p34 lists UprightBass modeling a 3/4 upright bass; not an electric-bass voicing claim. https://manualzz.com/doc/9009531/zoom-a3-acoustic-guitar-preamp-and-effects-operation-manual",
     "MOOER::Prime P1": "Own page explicitly documents bass library and dual bass chains. https://www.mooeraudio.com/products/180.html",
     "Zoom::MS-100BT": "Zoom developer release notes document downloadable bass processing;loaded-effects requirement andcurrent transfer uncertainty retained. https://apps.apple.com/us/app/stompshare/id567649359",
     "LEKATO::ME-01": "Own brand ME-01 page explicitly allocates amp/IR entries16–20 to bass. https://lekatodeal.com/products/lekato-me-01-multi-effects-processor-guitar-pedal-w-6-effects-modules-80-presets-20-irs",

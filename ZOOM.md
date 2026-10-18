@@ -4419,7 +4419,7 @@ Acoustic-guitar multi-effects;partial,checked2026-10-18. Distinct fromA2.1u. [Ow
 
 ## A3
 
-Acoustic-guitar multi-effects;checked2026-10-18,partial. [Own product page](https://zoomcorp.com/en/us/multi-effects/acoustic/a3/) marks discontinued;absence ofcurrentstock isnot absence ofeligibility. Bass membership unclassified. Shared live-microphone processing is documented below; this does not establish vocal harmony or pitch correction.
+Acoustic-guitar multi-effects;checked2026-10-18,partial. [Own product page](https://zoomcorp.com/en/us/multi-effects/acoustic/a3/) marks discontinued;absence ofcurrentstock isnot absence ofeligibility. Shared bass membership is supported by its documented upright-bass model; electric-bass voicing is not inferred. Shared live-microphone processing is documented below; this does not establish vocal harmony or pitch correction.
 
 <!-- comparison evidence begins -->
 
@@ -4428,9 +4428,9 @@ Acoustic-guitar multi-effects;checked2026-10-18,partial. [Own product page](http
 | Expression | Built-in/external/toe support unverified. |
 | K/F/B | Quick Guide names BODY TYPE, BASS/MIDDLE/TREBLE, BALANCE, MASTER, MIC and PICKUP rotaries, plus parameter controls; separate complete K/F/B totals remain unverified. Pickup selector offers PIEZO/MAGNETIC/FLAT. |
 | Display | LCD;diagonal,color/touch unverified. |
-| Processing / categories | **40 effects+28 guitar models;three simultaneous effects**. Introduction permits two selectedeffects alongside modeling;not40simultaneous. Categorycensus unverified. Manual p42 says processing overload displays THRU and bypasses the affected effect. |
+| Processing / categories | **40 effects+28 guitar models;three simultaneous effects**. Introduction permits two selectedeffects alongside modeling;not40simultaneous. Manual pp35–41 census: **DYN/FLTR 10; MOD 9; DELAY 6; REVERB 12; MIC 3 =40**. These are choices, not concurrent blocks. Manual p42 says processing overload displays THRU and bypasses the affected effect. |
 | Memory | **20 userpatches**;factoryfilled count unverified. Manual p32 says firmware updating retains saved patches; All Initialize resets all settings, including patch memories, to factory defaults. |
-| Synth / acoustic | Acoustic remodeling uses **16 body types and 28 model types** to match guitar body shape/material characteristics (own manual Introduction). These are modeling choices, not 44 simultaneous effects. Dedicated synth unverified. Remodeling isnot proof ofuserIR/NAM loading. |
+| Synth / acoustic | Acoustic remodeling uses **16 body types and 28 model types** to match guitar body shape/material characteristics (own manual Introduction). These are modeling choices, not 44 simultaneous effects. Manual p34 lists UprightBass, representing a 3/4 upright bass; this is the exact bass-membership basis. Dedicated synth unverified. Remodeling isnot proof ofuserIR/NAM loading. |
 | Dimensions / mass | **108W×160.3D×54.9Hmm;630g excludingbatteries**. |
 | I/O | PICKUP mono phone input;MIC XLR/phonecombo;Rmonooutput;L/MONO/PHONES stereo phone;balancedXLR withgroundlift;USB andpower. Socketdiameters/controlports/completeinventory cross-check pending. |
 | I/O / electrical ratings | Own manual p43: PICKUP and MIC rated input −20dBm/1MΩ; R and L line outputs +5dBm maximum into ≥10kΩ; headphones 20+20mW into 32Ω. Balanced XLR output impedance 100Ω per leg to ground, 200Ω differential. These are analog ratings, not USB audio specifications. |
@@ -4444,6 +4444,6 @@ Acoustic-guitar multi-effects;checked2026-10-18,partial. [Own product page](http
 
 <!-- comparison evidence ends -->
 
-[Own operation manual](https://zoomcorp.com/media/documents/A3_operationManual_English.pdf),indexed Introduction/Specifications inspected2026-10-18. Direct reader rejected13.9MB size;no fullPDF/image inspection claimed andno file downloaded. Quick Guide and printed pp32/42 indexed passages additionally checked2026-10-18. Expression,complete control totals,category census andfullports still require checking.
+[Own operation manual](https://zoomcorp.com/media/documents/A3_operationManual_English.pdf),indexed Introduction/Specifications inspected2026-10-18. Direct reader rejected13.9MB size;no fullPDF/image inspection claimed andno file downloaded. Quick Guide and printed pp32/42 indexed passages additionally checked2026-10-18. Expression,complete control totals andfullports still require checking. Category totals counted from the original manual body, not generated FAQs.
 
 Manufacturer-authored [English manual mirror](https://manualzz.com/doc/9009531/zoom-a3-acoustic-guitar-preamp-and-effects-operation-manual), checked2026-10-18: ©2013 ZOOM, matching contents/pagination and exact A3 specs corroborate identity. Used original manual body, not generated FAQs; no full-image inspection.
