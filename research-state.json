@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro fullpreamp46+3custom anddrive30+3custom menus reconciled. Next44category census/FXsubtypes,USBchannelcount,qualifiedIDR;392partial,migration incomplete.",
+    "task": "GT-Pro ACS8/LM3/CHORUS3 andHoldstop erasure saved. Next44category reconciliation/remainingFXsubtypes,USBchannelcount,qualifiedIDR;392partial,migration incomplete.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -121577,5 +121577,19 @@
     ],
     "drive_custom": 3,
     "qualification": "46+3=49 and30+3=33 selectable entries;not simultaneous blocks."
+  },
+  "gtpro_dynamics_hold_20261019": {
+    "sources": [
+      "https://roland.manymanuals.com/supplementary-music-equipment/gt-pro/owners-manual-5239/37",
+      "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf"
+    ],
+    "pages": "37indexed original mirror;34official indexed",
+    "counts": {
+      "ACS": 8,
+      "LM": 3,
+      "CHORUS": 3
+    },
+    "hold": "Stop erasesphrase;type/patch/powerclear;externalRecDub/Stop assignments;2.8swait.",
+    "qualification": "Subtype choices not blocks;preamp49 total now explicit incomparison."
   }
 }

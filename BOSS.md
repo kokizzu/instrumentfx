@@ -3969,3 +3969,17 @@ Checked 2026-10-19: [official original manual p30](https://static.roland.com/ass
 **OD/DS30 named types:** Booster, Blues OD, Crunch, Natural OD, Turbo OD, Fat OD, OD-1, T-Scream, Warm OD, Distortion, Mild DS, Drive DS, RAT, GUV DS, DST+, Solid DS, Mid DS, Stack, Modern DS, Power DS, R-MAN, Metal Zone, Heavy Metal, Lead, Loud, Sharp, Mechanical, ’60s FUZZ, Oct FUZZ, MUFF FUZZ. Custom1/2/3 bring selectable definitions to33. This reconciles30-drive headline;not33 simultaneous effects.
 
 Full44-category reconciliation,FX subtype census,USBchannelcount andqualified IDR remain unresolved. No downloads ordevice operations.
+
+### GT-Pro — dynamics subtypes, chorus and destructive Hold stop
+
+Checked 2026-10-19: [manufacturer-authored manual p37](https://roland.manymanuals.com/supplementary-music-equipment/gt-pro/owners-manual-5239/37),indexed exact GT-PRO ACS/LM/TW table;[official manual p34](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf),indexed Hold/CHORUS instructions. Original text only;no device test.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / preamp menu total | Complete p30 census above:46 named models plus3 custom definitions=49 selectable entries. Regional46-model headline excludes custom definitions;not49 simultaneous amps. |
+| Processing / FX dynamics subtypes | **ACS8:**BOSS Comp,Hi-BAND,Light,D-Comp,ORANGE,Fat,Mild,Stereo Comp. **LM3:**BOSS Limitr,Rack160D,Vtg Rack U. These are subtypes ofsharedFX families,distinct from dedicatedCOMP's two modes. |
+| Processing / Touch Wah modes | LPF/BPF filter modes;Up/Down response polarity. These parameters do not addfour independent effect families. |
+| Processing / CHORUS modes | **3:Mono,Stereo1,Stereo2**. Mono duplicates toL/R;Stereo1 usesdifferent choruses L/R;Stereo2 uses spatial synthesis ofdry/effect. Modes withinone block,notthree simultaneous blocks. |
+| Looper / Hold stop and erase | **Stopping playback erases recorded content**;typechange,patchchange andpoweroff also clear it. Externalfoot control/FC-200 assignedRec/Dub andStop required fordocumented operation. Wait2.8seconds afterselectingHold/before restartingrecording. Ending recording startsplayback;stopping playback destroysphrase. |
+
+USBchannelcount,44-category reconciliation andremainingFX subtypes stay unresolved;no persistent restartable loopstorage inferred. No downloads ordevice operations.
