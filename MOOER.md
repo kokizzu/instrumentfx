@@ -505,6 +505,17 @@ The complete supporting comparison was read before merging. Its model-specific v
 
 Sources: [effects/findings/2026-10-14-mooer-ge200.md](MOOER.md#ge200-original)<!-- historical-link:mooer-005 -->, [effects/shopee-multifx.md](research-state.json)<!-- historical-link:mooer-006 -->. No legacy file was deleted.
 
+### GE200 original — firmware formats and software revisions
+
+Checked 2026-10-18 against the exact original GE200 support pages; separate from Pro/Plus.
+
+| Field | Evidence / qualification |
+|---|---|
+| IR / proprietary loading | **V2.0.3** adds **.gnr amp simulations** and **.gir cabinet profiles**, retaining **.amp/.wav** compatibility. These proprietary formats do not establish native/converted NAM support. Original GE200 is not explicitly included in the newer variant NAM claims. [Global support](https://www.mooeraudio.com/companyfile/GE200-Downloads-138.html) |
+| Editor / versions and OS | Support page lists **V2.0.3 Windows/Mac** packages and a separate ASIO driver. Global requirements name **Windows7/8/10;macOS10.10–10.15**; a2019 V2.0.1 note addresses Catalina compatibility. Chinese exact-model support instead says Windows7+/macOS10.10+, without the global upper bound. Preserve regional wording; neither establishes Windows11/current macOS support. [Global](https://www.mooeraudio.com/companyfile/GE200-Downloads-138.html);[China](https://cn.mooeraudio.com/companyfile/GE200%E4%B8%8B%E8%BD%BD%E4%B8%AD%E5%BF%83-23.html) |
+| Memory / update retention | V2.0.3 update deletes presets and third-party IRs; manufacturer specifies backup with V2.0.0 software before updating and restore afterward. Chinese notes say versions before2.0.0 cannot provide that third-party IR backup capability. This is documented version behavior, not a performed update or tested recovery. [Global](https://www.mooeraudio.com/companyfile/GE200-Downloads-138.html);[China](https://cn.mooeraudio.com/companyfile/GE200%E4%B8%8B%E8%BD%BD%E4%B8%AD%E5%BF%83-23.html) |
+| Live / V2.0 additions | Release notes add delay/reverb Trail On, Mono Pitch Shift, PRE/POST looper position and tuner reference430–450Hz. These are firmware-qualified changes beyond the original manual baseline; installed firmware and full revised category census remain unverified. [Global support](https://www.mooeraudio.com/companyfile/GE200-Downloads-138.html) |
+
 ## GE150 Pro Li
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
