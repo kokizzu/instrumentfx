@@ -2035,3 +2035,7 @@ research-commit-zoom:
 .PHONY: research-commit-mooer
 research-commit-mooer:
 	python3 scripts/mooer_catalogue.py commit
+
+.PHONY: research-commit-hotone
+research-commit-hotone:
+	python3 scripts/hotone_catalogue.py commit

@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Hotone Ampero II MP-350",
-    "task": "ROWIN/Keeleyscopeauditretainsbothmulti-effects;originalmanualretrievalremainsunresolved. Next readfullMP-350canonicalrecord andsavedprimaryattempts;verifyhighest-valueunresolvedexactmanualfields. Do notborrowMP-350fromMP-300/MP-380.",
-    "next_models": [
-      "Hotone::Ampero II MP-350"
-    ],
-    "after_queue": "388active47brands;allpartial,migrationincomplete;freshShopeediscoverycontinues;no downloads/workflows/push."
+    "model": "Hotone MP-350 current revision / fresh discovery",
+    "task": "V1.0.2tunerreference/monitoring/headphonecompatibility/calibration saved. Next independentcurrentrevision evidence forMP-350or freshShopeediscovery;historicalcontrols/memoryalreadyresolved byownmanual,do not re-research asunknown.",
+    "next_models": [],
+    "after_queue": "388active47brands;allpartial,migrationincomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -46337,7 +46335,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery / Prime S1 remaining gaps."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Hotone MP-350 current revision / fresh discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -121045,5 +121043,16 @@
       "limitation": "Blogheading listsDelayWorkstationbutbodydescribesToneWorkstation;no technicaltransfer."
     },
     "next_action": "Do not repeatedly reopen these unchanged paths; select a different model with accessible exact manual. No eligibility/count changes orunverifiedfacts promoted."
+  },
+  "mp350_tuner_calibration_20261019": {
+    "source": "https://manualzz.com/doc/80504201/hotone-ampero-ii-user-manual",
+    "revision": "FirmwareV1.0.2",
+    "pages": "14,22,57",
+    "findings": [
+      "Tuner415–475Hzdefault440;Thru/Bypass/Muteandexit",
+      "Travelplusbuilt-intoepresscalibration;EXP3skipspress",
+      "TRRSheadsetrecognitioncaution"
+    ],
+    "remaining": "Currentfirmwarefullreconciliation/powerconflict/exactusedIDR notresolved."
   }
 }

@@ -876,6 +876,17 @@ Checked2026-10-18 by summing the named,revision-qualified inventories above,from
 | Processing / subtotal exclusions | Excludes50 userIR locations,ToneCatch storage locations,GlobalEQ,andinternal parameter/mode choices. Includes30 stockIR models andfour utilities,so487 isnot a deduplicated countof unique modeled hardware or effects-only algorithms. It isnot simultaneous capacity orproof ofa current installed library. |
 | Processing / later revision boundary | Separately saved firmware1.3.0 additions and1.4.0 native-NAM support are not silently added to487. Later removals,replacements,category moves andretention require a matching later complete list. The marketing460+ lower bound isnot an exact equality to reconcile by deleting entries. |
 
+
+### MP-350 — tuner reference and pedal calibration, V1.0.2
+
+[Manufacturer manual manuscript](https://manualzz.com/doc/80504201/hotone-ampero-ii-user-manual),printedpp14,22,57;checked2026-10-19. Generated mirror summary/FAQ excluded;no hardware operations.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / tuner reference and monitoring | Reference415–475Hz,default440Hz. Thru passes effected signal,Bypass passes dry,Mute enables silent tuning. Anyfootswitch orscreenBack exits. These are tuner modes,not powered-off bypass guarantees;later high-precision tuner addition remains separately revision-qualified. |
+| Expression / calibration sequence | Manual confirms raised/depressed travel withNEXT andaddsstrong-toepress forbuilt-in pedal;externalEXP3 skipsstrongpress. Failedcalibration offersREPEAT. Adjustable numerictoe-pressurethreshold notestablished. |
+| I/O / headphone compatibility | Manual discourages headphones withbuilt-in microphones:TRRS wiring differences maypreventcorrectrecognition. This is aconnectorcompatibility caution,not proofthatallTRRSheadsets fail. |
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
