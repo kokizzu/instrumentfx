@@ -13,15 +13,17 @@
 
 | Field | Preserved finding / unresolved detail |
 |---|---|
-| Expression / controls | Built-in; no external socket in checked rear photo. **4/2/9**,toe implementation ?. |
-| Dimensions / display | Unit dimensions,mass and size bin ?. Display diagonal,color mode and touch still require a model-specific evidence pass; not inferred from sibling screens. |
+| Expression / controls | Built-in; no external socket in checked rear photo. **4/2/9**;globalproduct explicitly documents physicaltoe switch. |
+| Dimensions / display | **244L×165W×60H mm;920g**,manufacturerGermanmanual PDFp9. **2.4-inch320×240color LCD**,exactglobalproduct. Touch unverified. [Manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG101/NUX_MG101_UserManual_German.pdf);[Product](https://nuxaudio.com/product/mg101/). |
 | Blocks / choices | **10**: NG,CMP,EFX,AMP,IR,EQ,MOD,DLY,RVB,P.L;25 electric amps;other category subtotals ?. |
 | Memory / acoustic / synth | Factory/user memory and exact acoustic/synth choices ?. |
 | IR / NAM | **512 samples**,per-patch user IR plus12 IR-collection slots. NAM/native/converted support not established. |
 | Ports | 6.35 mm input/output;3.5 mm AUX;separate **TRRS headset/mic**;USB-C;DC. A TRRS headset mic is not an XLR phantom preamp. |
-| Power | DC9V center-negative;battery operation advertised but type/current unverified;USB power ?. |
+| Power | **9VDC center-negative,ACD-006A;<250mA** publishedunitrequirement,Germanmanual PDFp9. Batterytype/runtime andUSBpower remainunverified. [Manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG101/NUX_MG101_UserManual_German.pdf). |
 | Apps / audio / practice | QuickTone **Windows/macOS**;USB recording/OTG,mobile audio not mobile editing;40s mono/20s stereo looper;drum machine. |
 | Prices | Current condition-verified used/new IDR ?. Original foreign offer retained in provenance below. |
+| I/O / electrical specifications | Germanmanual PDFp9:input470kΩ,AUX25kΩ,output1kΩ,phones47Ω;104dBdynamicrange;48kHz/32-bit;1.2ms systemlatency,notmeasuredUSBroundtrip. [Manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG101/NUX_MG101_UserManual_German.pdf) |
+| Looper / source conflict | Germanmanual PDFp4 states **30s stereo/60s mono**,versusglobalproduct **20s stereo/40s mono**. Revision/firmware applicability unresolved;do not silently choose longerlimits. [Manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG101/NUX_MG101_UserManual_German.pdf);[Product](https://nuxaudio.com/product/mg101/). |
 
 Some US copy appears to reuse other model names and inconsistent amp totals. Do not invent an MG-101 MKII from that wording. Sources: [NUX USA](https://www.nux.us/products/mg-101),official [front](https://www.nux.us/cdn/shop/files/MG-101.01.jpg?v=1771628910&width=2400) and [rear](https://www.nux.us/cdn/shop/files/MG-101.05.jpg?v=1771628910&width=2400) photographs examined in the previous research. No new visual inspection is claimed by consolidation.
 <!-- comparison evidence ends -->
