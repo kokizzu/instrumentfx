@@ -1054,7 +1054,7 @@ Distinct from original Touch and VoiceLive Play. Checked2026-10-18;partial. Refe
 | Choir / Rhythm processing | Choir thickens lead,Harmony andDouble voices with detune/timing/chorus variation;Lead/Harmony balance adjustable,no Advanced page. Rhythm modulates/chops/pans voices orcaptures a repeating Stutter/Sample clip;not evidence of drum patterns. Sample Capture End captures preceding audio,Start following audio. Post embeds enabled effects;Pre captures dry andprocesses playback;Harmony,Double,Hardtune excluded from this Path selection (reference pp.21,25–26). Style totals remain unknown. | [Reference][VLT2-R] |
 | Hardtune / Hit operation | Shift ±36semitones;Correct Chromatic needs no key/scale;Gender Bender applies shifting/gender without pitch correction. Hit changes effect on/off states only,not effect parameter settings (reference pp.27–29). | [Reference][VLT2-R] |
 | Independent guitar processing | Reverb,modulation,compression and3-band semi-parametric EQ; global settings,not per vocal preset. Seven modulation styles andsame28reverb styles as vocals; guitar Thru connection removes processed guitar from mix. This independent multi-effects path qualifies guitar membership; bass suitability unverified. | [Reference][VLT2-R]; [Quick Guide][VLT2-Q] |
-| Factory / user memory | 300 writable preset locations; **9 Favorite shortcuts** to assigned presets,not additional memories (Quick Guide p.6). Factory-fill and separate-bank details unresolved. | [Reference][VLT2-R]; [Quick Guide][VLT2-Q] |
+| Factory / user memory | **300 writable locations:1–200 initially factory-filled,201–300 initially empty**;all can be overwritten (Reference p81). **9 Favorite shortcuts** point to assigned presets,not additional memories (Quick Guide p6). Current unit contents unverified. | [Reference][VLT2-R]; [Quick Guide][VLT2-Q] |
 | Synth / acoustic | Vocal pitch/harmony processing documented; dedicated synth/acoustic-model algorithms unverified. Acoustic-guitar processing is not acoustic simulation. | [Reference][VLT2-R] |
 | I/O | XLR mic input andmono XLR out;1/4in TRS main outputs,1/4in guitar in/thru;1/8in stereo Aux/phones;USB-B audio/MIDI/control;5pin DIN MIDI in;1/4in TRS pedal input;power input. Phantom input modes detailed below;voltage/current pending. | [Quick Guide][VLT2-Q] |
 | Output routing / USB recording | USB Out controls overall main mix sent to computer;separate multitrack outputs not established. Stereo:TRS L/R stereo,XLR left only. Mono(default):left TRS/XLR summed mix withFX,right TRS dry voice withTone. Dual Mono:left TRS/XLR effected vocals,right TRS effected guitar. Lead Mute removes dry voice for effects-return use. Headphone level independent ofAnalog Out (reference pp.5,59). | [Reference][VLT2-R] |
@@ -1093,6 +1093,16 @@ Distinct from original Touch and VoiceLive Play. Checked2026-10-18;partial. Refe
 | New | Unknown;available extract does not establish new condition. | — |
 | Condition unverified | Rp9,299,000;limitless__store,Jakarta Pusat;seller95687096/item3607760422. Cached Habis,crawled last month;checked2026-10-18. Bundle/variant/warranty unverified;title Garansi Original is seller claim. Late-delivery compensation up toRp20,000 is not purchase discount. Checkout/current stock/delivered total unverified. | [Shopee][VLT2-S] |
 
+
+### VoiceLive Touch 2 — initial memory fill and MIDI control separation
+
+Checked2026-10-18 against the original manufacturer reference manual v1.2,firmware1.0.02 build37,through [retained original-manual transcription][VLT2-R],printed pp67,76,81. No factory reset,MIDI transmission orsoftware operation.
+
+| Field | Model-specific finding / qualification |
+|---|---|
+| Memory / initial factory fill | Manual explicitly states **first200 slots factory-programmed,last100 empty;all300 overwriteable**. This resolves the earlier initial-fill gap:200factory-filled+100blank is one300-location writable pool,not200protected+300user. Present firmware/content may differ. |
+| Memory / initialization | Factory initialization restores **system andpreset defaults**;manual recommends VoiceSupport backup first. This is broader than clearing onepreset orresetting only global settings. No device reset performed. |
+| Live / MIDI channel separation | Main MIDI Channel serves preset changes andharmony control;**CC Channel can differ** for control messages. MIDI filters can block Program Change,SysEx orboth. This documents message-routing options,not a new physical MIDI Thru socket orproof of a supported full editor. |
 <!-- comparison evidence ends -->
 
 [VLT2-Q]: https://manualzz.com/doc/6755730/tc-helicon-voicelive-touch-2-quick-start-guide
