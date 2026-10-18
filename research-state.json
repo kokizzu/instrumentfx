@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "Hotone Ampero II Stage MP-380 (partial)",
-    "finding": "Older exact manuals retain patch targets; V1.7.0 scope unverified. Manufacturer footprint fails preferred size. Exact Shopee retrieval failed; historical ask retained.",
+    "current": "Valeton GP-200LT (partial)",
+    "finding": "Exact1.8.0 body directs EXP targets to patch settings; no global override established. Onboard Patch-/+ assignments supported. Footprint exceeds preference; exact Shopee retrieval failed.",
     "next": [
-      "Systematic remaining no-treadle inventory: Valeton GP-200LT",
+      "Systematic remaining no-treadle inventory: MOOER GE300 Lite",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
@@ -122593,7 +122593,7 @@
       "date": "2026-10-19",
       "source_commit": "87c7d3816a380ddc49e3af2b2441564f454f87d7",
       "scope": "Normalized inherited source checks without recertification or admitting partial leads; exact prior merged category preserved in public_metadata.remote_87c7d38_preserved.expression_category_before_normalization.",
-      "comparison_rows": 18,
+      "comparison_rows": 19,
       "adjacent_rows": 1,
       "active_inventory_changed": false
     }

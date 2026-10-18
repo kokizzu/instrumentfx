@@ -56,6 +56,14 @@ These are separate asking observations,not a completed-sale or active used-to-ne
 
 Outstanding: full current category-count transcription,explicit touch/battery/USB-power specifications,precise import-file restrictions,capture concurrency and current condition/stock confirmation. New research must not overwrite legacy Valeton source qualifications while consolidating the brand.
 
+### GP-200LT — expression-volume audit, 2026-10-19
+
+**Global volume assignment not established.** Manufacturer-authored [firmware1.8.0 manual body](https://www.scribd.com/document/1077209005/1768360980125-GP-200LT-Online-Manual-EN-Firmware-V1-8-0), printed pp9–12,16–17,69: global EXP/FS mode explicitly directs target editing to **Patch Settings → EXP Settings**. Each mode controls up to three parameters with min/max settings. Calibration is separate. VOL is movable,last in default chain; patch placement/ranges are not a global assignment. Bypass,headphone,tail/recorded-loop attenuation and held-position recall remain unknown. Onboard switches can receive **Patch−/Patch+** assignments in global Footswitch settings.
+
+Original GP-200LT title,1.8.0 cover,LT-specific panel and eleven-module structure corroborate mirror identity; generated summary excluded. [Official1.8.0 PDF](https://www.valeton.net/download/119/gp-200lt/22453/gp-200lt_online-manual_en_firmware-v1-8-0-pdf.pdf) retrieval failed. No local download,image inspection or hardware test. Existing exact-manual **253 W×165 Dmm** footprint fails both preferred limits;dedicated3.5mm phones andindependent phones knob do not prove EXP coverage.
+
+Exact [Gelora Musik shop306155985/item18571942511](https://shopee.co.id/Multi-Efek-Valeton-GP-200LT-i.306155985.18571942511) failed retrieval2026-10-19. HistoricalRp4.635.000 remains dated indexed evidence;current condition,bundle,stock,warranty,delivery andused availability unverified. No sibling price/specification transfer.
+
 ## GP-200JR
 
 Guitar/bass/acoustic multi-effects; checked **2026-10-16**. Separate from GP-200LT and full-size GP-200. Primary manual diagrams were rendered and visually inspected; the firmware 1.8.0 manual contains substantial model-copy errors, retained below.

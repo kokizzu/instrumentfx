@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(valeton): qualify GP-50 global-volume scope'))
+    print(git('commit','-m','research(valeton): audit GP-200LT expression assignment scope'))
