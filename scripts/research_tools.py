@@ -657,7 +657,7 @@ def main():
         if mode == 'commit-a1four':
             message = 'research(zoom): document A1 FOUR synth algorithms and additional-effect scope'
         if mode == 'commit-b3n':
-            message = 'research(zoom): add announced NEURIG with qualified original specifications'
+            message = 'research(zoom): qualify NEURIG future loading and USB operation'
         if mode == 'commit-g3n':
             message = 'research(zoom): verify G3n external expression enable path'
         if mode == 'commit-g5n':

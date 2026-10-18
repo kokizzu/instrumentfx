@@ -4157,6 +4157,16 @@ Checked 2026-10-18. Announced guitar multi-effects; planned early-November launc
 | Looper / live routing | Advertised45s looper,overdub/Undo/Redo;duration modes/persistence/drums pending. Product claims gapless program changes and tails **within a RIG**, not all RIG changes. Parallel/split outputs advertised. | [Product][NEU-P] |
 | IDR used | Unknown;no exact qualified offer. | Search checked2026-10-18 |
 | IDR new | Unknown;exact Shopee NEURIG search empty,not proof of unavailability. Seller/item,condition,stock,region,bundle,warranty/voucher/checkout unresolved. No exchange-rate estimate. | Search checked2026-10-18 |
+
+### NEURIG — update-dependent loading and USB operation
+
+Checked2026-10-18 against original manual Z2I-5930-01. Pre-release documentation; no installation ordevice operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / NAM and IR availability | The manual's app section describes SessionZ Pedal control and NAM/IR loading as **future-update functionality**. Product-page capability advertising therefore does not establish launch-day import availability. Exact update/version and supported NAM architectures beyond advertised A2 Lite remain unresolved. [Manual][NEU-M] |
+| USB / audio driver and power selection | Windows instructions require **ZOOM NEURIG Driver**;Mac/mobile need no driver permanual. Minimum OS/package availability unverified. Audio+MIDI mode has USB/Battery power selection;Battery is specified for mobile hosts,USB for computers with adequate power. Selection is **not saved** andresets toUSB atstartup. Audio-driver support isnot editor support. [Manual][NEU-M] |
+| Looper / time and stop modes | **Free** records until manual stop or45s maximum;timed recording uses1–64quarter notes. Stop modes:Quick immediate,End atloopend,Fade stops after15s. Power-off persistence,stereo limits andRIG-change behavior remain unverified. [Manual][NEU-M] |
 <!-- comparison evidence ends -->
 
 [NEU-P]: https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/neurig/
