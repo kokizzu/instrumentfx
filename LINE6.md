@@ -1430,6 +1430,12 @@ Checked **2026-10-17**; partial. Manufacturer styles the name PODxt Live. Guitar
 | Memory / wah recall | A Channel Memory stores wah model,on/off state and position. [Manual v3][XTL-M], p4•8 |
 | I/O / headphone recommendation | Manual recommends 150–600Ω studio headphones; this is a load recommendation, not output impedance or measured output power. [Manual v3][XTL-M], p2•2 |
 
+
+| Required field | Acoustic and MIDI qualifications checked 2026-10-18 |
+|---|---|
+| Processing / acoustic model purpose | **Piezacoustic 2** voices piezo-equipped solidbody guitars with stronger lows/low-mids. **Variax Acoustic** boosts high frequencies to compensate for typical guitar-speaker roll-off when using Variax acoustic sounds; Drive adds tube-preamp gain. These descriptions establish input/playback voicing, not magnetic-pickup acoustic-body simulation. [Manual v3][XTL-M], pp5•3–4 |
+| Memory / MIDI recall | Appendix B maps MIDI Program Changes **0–127** to **1A–32D**, corroborating 128 recallable memories. This does not resolve the conflicting factory-fill descriptions. [Manual v3][XTL-M], p8•3 |
+
 <!-- comparison evidence ends -->
 
 ### Exact Shopee hardware evidence
