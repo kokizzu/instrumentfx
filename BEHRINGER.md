@@ -395,7 +395,7 @@ Checked 2026-10-18 against the [manufacturer manual, Version 1.2][D24-M], printe
 
 ### DSP2024P — reverb choices and dual-engine routing
 
-Checked 2026-10-18 against the [manufacturer-authored Rev B manual copy](https://dannychesnut.com/Music/Behringer/Rev2496/DSP2024P-Manual.pdf), original DSP2024P cover and matching section structure; printed pp.11–12,25. Older revision supplements Version1.2; it does not certify installed firmware.
+Checked 2026-10-18 against the [manufacturer-authored Version1.1, February2002 manual copy (Rev B filename)](https://dannychesnut.com/Music/Behringer/Rev2496/DSP2024P-Manual.pdf), original DSP2024P cover and matching section structure; printed pp.11–12,25. Older revision supplements Version1.2; it does not certify installed firmware.
 
 | Field | Evidence / qualification |
 |---|---|
@@ -437,6 +437,17 @@ Checked 2026-10-18 against manufacturer manual Version1.2, sections2.3–2.4 and
 | Category choices / modulation and pitch | Named variants include Vintage/Jet Stream Flanger, Analog/Vintage/Ultra Chorus and Vintage/Dual Phaser; pitch shifting, vibrato, tremolo and auto panning are also described. These are documented choices, not a reconciled numbered algorithm census. [Manual][D24-M] |
 | Category choices / dynamics | Compressor/limiter, expander, gate, Ultramizer, denoiser, de-esser and Wave Designer are described. Ultramizer uses two frequency bands; Wave Designer shapes the signal envelope. Do not infer separate algorithm numbers from combined description headings. [Manual][D24-M] |
 | Category choices / special effects | Vinylizer, sampler, vocoder, Voice Canceler and resonator are named. Voice Canceler targets centered mono vocals in stereo material; this is not documented stem extraction. Resonator supplies frequency-selective resonance, not proof of a keyboard-tracking synth. [Manual][D24-M] |
+
+
+### DSP2024P — psycho-acoustic, EQ and distortion families
+
+Checked 2026-10-18 against [manufacturer manual Version1.2][D24-M], sections2.5–2.7, printed pp.14–16. These prose descriptions supplement the recorded families; unavailable numbered tables still prevent a complete71-entry reconciliation.
+
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / psycho-acoustic | Exciter, Enhancer, Ultra Bass, Stereo Imager, Ultra Wide and Binauralizer are described. Ultra Bass combines subharmonic processing, bass excitation and limiting; Stereo Imager operates on mid/side components. These are processing functions, not evidence of separate instrument inputs. [Manual][D24-M] |
+| Category choices / filter and EQ | Filter, Parametric EQ and Graphic EQ are described; Graphic EQ has **eight bands**. These headings do not establish the number of selectable filter algorithms. [Manual][D24-M] |
+| Category choices / distortion and simulation | Vocal Distortion, Tube Distortion, Guitar Amp, Fuzz, Speaker Simulation, Ring Modulator and Lo-Fi are described. Vocal Distortion incorporates delay/flanger; Fuzz processes three frequency bands. Speaker models are factory simulations, not proof of user IR loading. [Manual][D24-M] |
 
 <!-- comparison evidence ends -->
 

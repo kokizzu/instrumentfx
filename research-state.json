@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Behringer DSP2024P",
-    "task": "Saved additional documented effect families without inventing a full numbered census. Next inspect original algorithm tables or resume fresh Shopee discovery.",
+    "task": "Saved all remaining prose effect families and explicit older manual revision. Numbered 71-entry census still needs readable original tables; next fresh Shopee discovery or unresolved technical fields.",
     "next_models": [],
     "after_queue": "349 partial models;114 Markdown compatibility files remain;no downloads/workflows/push."
   },
@@ -75057,6 +75057,25 @@
       "Complete 71-entry numbered census",
       "Exact suffix/condition-qualified Shopee prices",
       "Panel visual corroboration and remaining technical gaps"
+    ]
+  },
+  "dsp2024p_remaining_families_20261018": {
+    "checked": "2026-10-18",
+    "source": "https://manualzz.com/doc/1522565/behringer-virtualizer-pro-dsp2024p-user-s-manual",
+    "revision": "Version1.2 September2004",
+    "sections": [
+      "2.5",
+      "2.6",
+      "2.7"
+    ],
+    "findings": [
+      "Psycho-acoustic, filter/EQ and distortion/simulation descriptions retained",
+      "Eight Graphic EQ bands distinguished from algorithm choice count",
+      "Older Rev B filename manual explicitly identified as Version1.1 February2002"
+    ],
+    "limits": [
+      "No readable numbered-table census from current web extraction",
+      "No source files downloaded or device tests performed"
     ]
   }
 }
