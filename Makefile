@@ -1955,3 +1955,7 @@ research-commit-ie550:
 .PHONY: comparison-test-counts
 comparison-test-counts:
 	python3 scripts/comparison_views.py test-counts
+
+.PHONY: research-commit-blackstar
+research-commit-blackstar:
+	python3 scripts/blackstar_catalogue.py commit
