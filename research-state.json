@@ -46050,6 +46050,13 @@
         "make comparison-verify:rejectedexistingstale30before regeneration"
       ],
       "scope": "No model membership orspecification changes;retained regression removesonefocusedfixturewithoutchangingglobalclassification."
+    },
+    "comparison_content_freshness_20261018": {
+      "trigger": "G1 FOUR plan failed on an unclassified field; previous verifier still allowed a commit with stale rendered views.",
+      "fix": "comparison-verify re-extracts current canonical evidence and compares expected rendered content to disk; nonpersisting generation does not overwrite reviewed plans or preview files.",
+      "regression": "make comparison-test-selection: missing guard failed first; matching content passes and stale guitar/bass/vocal content fails even when membership is unchanged.",
+      "verified": "make comparison-verify passed against current372-model catalogue.",
+      "remaining": "Checks faithful extraction/rendering, not primary-source truth, completeness or stock."
     }
   },
   "legacy_provenance": "Earlier exact per-model commits, detailed conflicts, templates and original source/price evidence remain in legacy files and Git history. They are not refreshed or re-certified by this reconstruction.",

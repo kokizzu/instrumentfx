@@ -156,7 +156,7 @@ def test_evidence_owners():
             raise AssertionError('Wrong, duplicated or missing item ownership was accepted')
     print('PASS: exact evidence ownership rejects sibling placement, duplication and omission.')
 
-def make_plan():
+def make_plan(persist=True):
     identity()
     files = {str(p.relative_to(ROOT)):p.read_text() for p in ROOT.rglob('*.md') if '.git' not in p.parts and 'history' not in p.name}
     state = json.loads((ROOT/'research-state.json').read_text())
@@ -287,11 +287,13 @@ def make_plan():
     verify_field_coverage(serial)
     missing=[k for k,r in serial.items() if not r['facts'] or not r['link']]
     payload={'input_hashes':{p:hashlib.sha256(text.encode()).hexdigest() for p,text in files.items()},'ledger_hash':hashlib.sha256((ROOT/'research-state.json').read_bytes()).hexdigest(),'records':serial,'missing':missing}
-    payload.update(render(serial,state))
+    payload.update(render(serial,state,write_preview=persist))
     archives=archive_outputs(files)
     payload['outputs'].update(archives)
     payload['outputs']['README.md'] = readme_counts(files['README.md'], state, payload['view_membership'])
     payload['outputs']['MULTI-EFFECTS.md'] = category_counts(files['MULTI-EFFECTS.md'], state)
+    if not persist:
+        return payload
     PLAN.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
     print(f'Preview saved: {PLAN}; {len(serial)} records; missing evidence: {missing}')
     print('Per-model evidence fields:')
@@ -423,8 +425,18 @@ def validation_counts(state, membership):
     )
 
 
+def verify_output_freshness(expected, actual):
+    for filename, text in expected.items():
+        assert actual.get(filename) == text, (
+            'Stale generated comparison: ' + filename +
+            '; run comparison-plan, review its outputs, then comparison-apply')
+
 def verify_views():
     identity()
+    # Re-extract current brand evidence; never trust an old preview or row counts.
+    current = make_plan(persist=False)
+    verify_output_freshness(current['outputs'],
+                            {name: (ROOT/name).read_text() for name in current['outputs']})
     state=json.loads((ROOT/'research-state.json').read_text())
     assert set(state['comparison_model_sources'])=={b+'::'+m for b,ms in state['inventory_by_brand'].items() for m in ms}
     for field, expected in validation_counts(state, state['comparison_membership']).items():
@@ -704,7 +716,7 @@ def table(records, ids, headers, groups):
         result.append('| ['+name+']('+record['link']+') | '+' | '.join(cells)+' |')
     return '\n'.join(result)+'\n'
 
-def render(records,state):
+def render(records,state,write_preview=True):
     assert len(records)==state['active_model_count']
     guitar=[k for k in records if k not in BASS_FOCUSED+VOCAL_ONLY]
     bass=[k for k in records if k in BASS_FOCUSED or k in BASS_SHARED]
@@ -733,10 +745,27 @@ def render(records,state):
             text+='; '.join('['+records[k]['brand']+' '+records[k]['model']+']('+records[k]['link']+')' for k in unresolved)+'.\n'
         text+='\n## Scope and provenance\n\nInstrument views overlap and must not be summed. All '+str(state['active_model_count'])+' active models count once in `research-state.json`; the six explicitly excluded archives never enter these tables. Former/donated eligible devices remain without private receipt/order/payment details. Root brand records take precedence where consolidated; legacy sources remain for full evidence until a checked lossless merge. No GitHub workflow is used.\n'
         outputs[filename]=text
-        Path('/tmp/instrumentfx-'+filename).write_text(text)
+        if write_preview:
+            Path('/tmp/instrumentfx-'+filename).write_text(text)
     return {'outputs':outputs,'view_membership':ids,'bass_membership_basis':BASS_SHARED}
 
+def test_output_freshness():
+    expected = {'ALL-GUITAR.md': 'new technical evidence',
+                'ALL-BASS.md': 'bass evidence', 'ALL-VOCAL.md': 'vocal evidence'}
+    verify_output_freshness(expected, dict(expected))
+    for filename in expected:
+        stale = dict(expected)
+        stale[filename] = 'old evidence with unchanged model membership'
+        try:
+            verify_output_freshness(expected, stale)
+        except AssertionError as error:
+            assert filename in str(error)
+        else:
+            raise AssertionError('Stale comparison accepted: ' + filename)
+    print('PASS: stale technical content is rejected in each instrument view, even with unchanged membership.')
+
 def test_comparison_selection():
+    test_output_freshness()
     current = '| Required field | Evidence |\n|---|---|\n| IR | 16 user slots |\n'
     fixture = 'Historical capacity unknown\n<!-- comparison evidence begins -->'+current+'<!-- comparison evidence ends -->Archive remains'
     assert comparison_body(fixture) == current
