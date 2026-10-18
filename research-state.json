@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Tech 21 Acoustic Fly Rig",
-    "task": "Continue own manual control census, storage, full ports and expression. Preserve product/manual low-pass conflict. Fresh Shopee discovery and legacy consolidation remain required.",
+    "task": "Acoustic Fly Rig delay/headphone/bypass/tuner qualifications saved. Continue exact primary physical census, expression and memory; other model gaps/discovery and legacy consolidation remain required.",
     "next_models": [],
     "after_queue": "377 active models,46 brands,all partial; no downloads/workflows/push; migration incomplete."
   },
@@ -5565,6 +5565,12 @@
       "date": "2026-10-18",
       "source": "https://www.tech21nyc.com/products/flyrig/acoustic-fly-rig/",
       "finding": "Distinct guitar/bass multi-effects added from own product and manual. Power consumption separated from supply capacity; low-pass endpoint conflict retained. No qualified Shopee item."
+    },
+    {
+      "model": "Tech 21 Acoustic Fly Rig",
+      "date": "2026-10-18",
+      "source": "https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf",
+      "finding": "Own manual pp5–8 verifies delay controls, headphone level boundary, bypass and tuner indicators. Physical totals and programmable memory remain unverified."
     }
   ],
   "consolidation_and_price_findings": [
