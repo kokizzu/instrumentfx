@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B1Xon",
-    "task": "Saved first exact seller-labelled used IDR ask with item/variant andaccess limits. Next required hardware gap orfreshdifferentShopee series; do not claim currentstock orworkingstate.",
+    "task": "Saved converter/analog specifications andbacklight-off battery-runtime condition. USBsubtype/factoryfill/controlvisualaudit remainunresolved;next another required model gap orfreshShopee series.",
     "next_models": [],
     "after_queue": "353 partial models;294 guitar155 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
@@ -77357,5 +77357,25 @@
       "Shopee multi efek bass Korg"
     ],
     "result": "No new distinct model established. Recovered exact used B1Xon offer for existing owned-model record; B1FOUR/B1XFOUR remain distinct."
+  },
+  "technical_followup_b1xon_conversion_runtime_20261018": {
+    "source": "https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf",
+    "identity": "Shared B1on/B1Xon manualZ2I-1995-01; common specifications distinct fromvariant dimensions andeffectcounts.",
+    "pages": [
+      "5–6",
+      "31"
+    ],
+    "findings": [
+      "24bit128x ADC/DAC44.1k,internal32bitfloat/fixed;notUSB audio.",
+      "Input/AUX ratings andline/headphone outputpower.",
+      "20hour alkaline claim requiresbacklightoff; batterytype/cold conditions."
+    ],
+    "remaining": [
+      "USB connector subtype",
+      "Factoryfilled memorycount",
+      "Visual control census",
+      "Display diagonal/color/touch",
+      "Actual unitdraw"
+    ]
   }
 }

@@ -243,6 +243,17 @@ Checked 2026-10-18 against the explicitly shared [effects list pp17–18](https:
 | Used IDR / cached hardware ask | **Rp1.202.000**, title explicitly labels **BEKAS/SECOND**. [Exact item, shop1220839369/item27536985499](https://shopee.co.id/EFEK-GITAR-BEKAS-ZOOM-B1XON-ZOOM-B1XON-EFEK-GITAR-SECOND-EFEK-ZOOM-ZOOM-B1XON-ZOOM-B1-XON-ZOOM-BEKAS-ZOOM-SECOND-ZOOM-B1-XON-EFEK-BASS-i.1220839369.27536985499), Kab. Sragen in the [Shopee category cache](https://shopee.co.id/search?category=11043572&keyword=efek+gitar+zoom&page=3&sortBy=relevancy&subcategory=11043648), crawled last month. Link selects display_model_id177190330811; direct item returned cache miss and exact-ID search was empty. Seller name, working condition, stock, selected bundle/adapter, warranty, shipping/tax and voucher/checkout amount remain unknown. This supersedes the earlier absence of a used ask, without changing preserved2026-10-14 provenance. Not live-stock or completed-sale evidence. |
 
 
+### B1Xon — conversion, analog ratings and battery conditions, 2026-10-18
+
+[Shared manufacturer manual, printed pp5–6,31](https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf), Z2I-1995-01. Shared electrical specifications apply to both named models; variant-specific size/effect counts remain separate.
+
+| Field | Specification / qualification |
+|---|---|
+| Conversion / processing | **44.1kHz; 24-bit ADC and DAC, each128×oversampling; 32-bit floating-point and32-bit fixed-point processing**. These are internal formats, not USB recording or user capture specifications. |
+| I/O / input and output ratings | INPUT **−20dBm rated,470kΩ**; AUX **−10dBm rated,1kΩ**. Shared stereo OUTPUT line maximum **+2dBm into≥10kΩ**; headphones **17+17mW into32Ω**. Manual defines0dBm=.775Vrms; published unit retained. Input ratings are not maximum headroom. |
+| Power / runtime qualification | Approximately **20hours with four alkaline AA cells and LCD backlight OFF**. Battery-type setting improves remaining-charge indication; cold can shorten operation. The INPUT cable activates battery operation; AUX goes directly to OUTPUT without effects. No runtime inferred for NiMH,backlight-on operation or an aged used unit. |
+
+
 ## G6
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
