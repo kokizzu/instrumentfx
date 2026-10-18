@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom 9002 / 9002PRO discovery leads",
-    "task": "Separate primary identities saved for original9002 and9002PRO; no exact Shopee hardware offer resolved. Seek exact variant offer or progress another recorded-model required-field gap. Both remain outside359activecounts.",
+    "task": "Original9002 manual confirms20preset+20user,6simultaneous anddualheadphones, distinctfromPRO. Shopee alternate spellings unresolved; defer both discovery leads and continue another recorded-model required-field gap or different series.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -79288,6 +79288,25 @@
     ],
     "active_models_added": 0,
     "next": "Seek exact Shopee hardware for original9002 or9002PRO; keep variants distinct and audit own manual before admission. Generic bundled-software navigation is not editor support.",
-    "method": "Web text only; no manual/app/dependency downloaded or hardware operated."
+    "method": "Web text only; no manual/app/dependency downloaded or hardware operated.",
+    "original_manual_followup": {
+      "source": "https://zoomcorp.com/media/documents/E_9002.pdf",
+      "pdf_pages": 12,
+      "printed_sections": "Software/features and final specifications page",
+      "memory": "20 preset +20 user =40 total; five banks of four per area. Distinct from PRO40+40. Initial user factory-fill not audited.",
+      "processing": "Six simultaneous effects; compressor, distortion, EQ, modulation, delay and reverb chain. Special-effects alternatives also listed; full category audit pending.",
+      "io": "Guitar and stereo-mini Mix input; stereo/mono line output; two stereo-mini headphone jacks; remote connection. Garbled connector/level OCR not normalized into specifications.",
+      "display": "Custom LCD60×30mm; published diagonal/color/touch not established. No diagonal calculated.",
+      "remote": "Supplied remote selects patches within current bank; cannot change banks.",
+      "remaining": "Full control/expression, power/current/polarity, body dimensions from legible evidence, editor/import and market audit pending."
+    },
+    "market_followup": {
+      "queries": [
+        "site:shopee.co.id \"zoom\" \"9002pro\"",
+        "site:shopee.co.id \"zoom\" \"9002\" efek",
+        "site:shopee.co.id \"zoom\" \"9002 pro\""
+      ],
+      "result": "No qualifying offer resolved. Numeric matches were unrelated thermostats/lighting/shoes; no absence conclusion. Both variants remain non-active."
+    }
   }
 }
