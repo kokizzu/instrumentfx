@@ -1819,7 +1819,8 @@ Checked 2026-10-18; partial active guitar multi-effects record. Original Ocean M
 | Display | LCD; color indicated by manual's blue/red selection frames. Diagonal andtouch unverified. |
 | Dimensions / mass | 215L×127W×56H mm;1.1kg. |
 | Processing / simultaneous | Two independently switchable delay modules plus reverb,with looper/globalEQ. Reorderable serial/parallel effects;looper serial only. Nine choices per delay,15 distinct delay algorithms across both;9reverbs+shimmer. Delays0–2s. |
-| Memory / factory / user | **24 writable slots,8banks×3**;factory-filled count unresolved. Unsaved edits lost onpreset change. |
+| Processing / category choices | Manual printed pp.6–7: **Delay A:** Digital, Analog, Tape, Echo, Liquid, Rainbow, Crystal, Low-Bit, Fuzzy. **Delay B:** Digital, Analog, Tape, Real, Dyna, Galaxy, Mod, Tri-Mod, Mod-Inv. **Reverb:** Room, Hall, Plate, Ds-Verb, FL-Verb, Filter, Reverse, Spring, Mod. Digital/Analog/Tape overlap across delays, hence 18 selections but15 distinct delay types. [Original manual](https://manuals.plus/m/cf9989c8f66e3263a8a62903b0f180f428d853ad786400f9921e4b3cb47d8d83_optim.pdf). |
+| Memory / factory / user | **24 writable slots, 8 banks × 3**. [MOOER China](https://cn.mooeraudio.com/product/86.html) explicitly confirms included Devin Townsend presets; factory-filled count remains unresolved. Unsaved edits are lost on preset change. |
 | Synth / acoustic | Pitch/modulation delay textures are not proof of dedicated synth/acoustic simulation;both unresolved. Bass membership unclassified. |
 | I/O / audio | Stereo¼-inch TS inputs1MΩ/outputs100Ω;TRS EXP;5-pin MIDI In/Thru;DC;USB-C. No dedicated headphones orsend/return infull rear inventory;amplifier-loop use employs mainI/O. 24bit/44.1kHz. |
 | Power / battery / USB | **9VDC center-negative,500mA adapter rating**;measured draw unresolved. Battery/USB-powered operation unverified. |
