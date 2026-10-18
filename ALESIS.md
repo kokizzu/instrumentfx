@@ -230,6 +230,16 @@ Checked 2026-10-18 against the [original manufacturer manual, pp13,17,48–49,63
 | Routing / Dry Defeat | Global Dry Defeat removes dry signal from every program and locks effect mixes at100%. **RealRoom→Flange is an exception:** reverb mix locks, flange mix remains editable. Troubleshooting associates bypass plus Dry Defeat with silence. This is distinct from bypass behavior with ordinary mixes. |
 | Live / Auto Level footswitch override | Auto Level normally senses input forfive seconds. Holding the footswitch during sensing extends this until release, temporarily suppressing its assigned bypass/advance action. Any front-panel button cancels sensing. This is input-level setup,not continuous expression. |
 
+### MIDIverb 4 — display semantics and MIDI recall modes
+
+Checked 2026-10-18 against the [original manufacturer manual, pp43–46,57–59](https://www.alesis.com/rscdn/982/documents/midiverb_iv_refmanual.pdf). Browser text only; no file download or device operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| Display / meter and editing scope | Peak meters monitor **unprocessed inputs**, labelledL/R orCH1/CH2 for Dual configurations. Program names contain eight characters; this is not total screen width or resolution. Editing shows up to four parameters per page and up to four pages depending on configuration. Diagonal,color and touch remain unverified. |
+| Memory / MIDI recall modes | Program Change **OFF** ignores messages; **On** recalls the same number in the current bank; **tbL** remaps incoming0–127 to any of256factory/user locations. CC0 immediately before Program Change selects factory atvalue0,user at1–127. Remapping does not add memories. |
+| I/O / MIDI Thru instruction conflict | Utility description p46 assigns Thru to **C** and Program Change to **D**,consistent with its field diagram; MIDI Thru procedure p57 instead says **D**. Preserve this editorial conflict; actual unit/revision behavior was not tested. |
+
 ## MIDIverb III
 
 Checked2026-10-17. Partial instrument/microphone multi-effects;not MIDIverb4. [Manufacturer Reference Manual onmirror](https://www.zikinf.com/manuels/alesis-midiverb-iii-manuel-utilisateur-en-46789.pdf),63pages,exact Alesis MidiVerb3 title;revision/date unestablished. Official oldmanualURL inaccessible;webtext only,no download/visualaudit.

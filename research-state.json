@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Alesis MIDIverb 4",
-    "task": "Saved regional adapter qualifications,global Dry Defeat exception and AutoLevel footswitch override. Next resolve supply current/display/editor/qualified offers or another required gap. MP10 original manual remains inaccessible;no sibling transfer. Continue fresh Shopee discovery and lossless consolidation under existing compatibility contract.",
+    "task": "Saved display meter semantics,MIDI recall/remapping/bank-selection modes and C/D Thru instruction conflict. Physical display specifications,supply current,editor compatibility and qualified offers remain. Next fresh Shopee brand/series discovery or unresolved required fields;MP10/MP20 original manual access remains unresolved. Continue lossless consolidation under retained compatibility contract.",
     "next_models": [],
-    "after_queue": "362 active/46 brands;303 guitar158bass69vocal;allpartial;114Markdowncompatibility paths retained;no downloads/workflows/push."
+    "after_queue": "362 partial active models/46brands;303guitar158bass69vocal;114MDcompatibility paths retained;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -60804,6 +60804,20 @@
         "Editor compatibility"
       ],
       "method": "Original manufacturer manual browser text;no download or unit execution"
+    },
+    {
+      "model": "Alesis MIDIverb 4",
+      "checked_date": "2026-10-18",
+      "source": "https://www.alesis.com/rscdn/982/documents/midiverb_iv_refmanual.pdf",
+      "pages": "43–46,57–59",
+      "finding": "Unprocessed-input peakmeters;8characterprogramnames notscreenresolution;4parameters/page up to4pages;ProgramChangeOFF/On/tbL plusCC0bankselection;ThrubuttonconflictC(p46)versusD(p57)preserved.",
+      "remaining": [
+        "Display diagonal/color/touch",
+        "Supply current",
+        "Editor platforms",
+        "Condition-qualified used/new offers"
+      ],
+      "method": "Original manufacturer PDF text;no downloads or unit execution"
     }
   ],
   "discovery_cross_brand_bass": {

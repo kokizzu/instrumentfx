@@ -443,7 +443,7 @@ def main():
         if mode == 'commit-fv02':
             message = 'research(flamma): add FV02 vocal processor with power revision conflicts'
         if mode == 'commit-midiverb4':
-            message = 'research(alesis): clarify MIDIverb4 regional power and live routing limits'
+            message = 'research(alesis): qualify MIDIverb4 display and MIDI recall behavior'
         if mode == 'commit-microverb4':
             message = 'research(alesis): source MicroVerb4 body and sample rate from own catalogue'
         if mode == 'commit-fx2000':
