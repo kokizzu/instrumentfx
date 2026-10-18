@@ -81931,10 +81931,10 @@
     "result": "No qualified exact hardware offer;no other currency or sibling price substituted."
   },
   "verification_gap_index": {
-    "scope": "Explicit uncertainty signals in selected comparison facts only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
+    "scope": "Explicit uncertainty signals in selected comparison field labels and values only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
     "model_count": 378,
     "models_with_signals": 378,
-    "flagged_field_count": 4666,
+    "flagged_field_count": 4802,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -81989,6 +81989,13 @@
             ]
           },
           {
+            "field": "Delay claim conflict",
+            "source": "ALESIS.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "IDR Condition-unverified indexed hardware ask",
             "source": "ALESIS.md",
             "signals": [
@@ -82016,6 +82023,20 @@
             "signals": [
               "not_established",
               "question_mark"
+            ]
+          },
+          {
+            "field": "IDR Condition-unverified, sold-out historical ask",
+            "source": "ALESIS.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "IDR Condition-unverified ask; shop on holiday",
+            "source": "ALESIS.md",
+            "signals": [
+              "unverified"
             ]
           },
           {
@@ -82236,7 +82257,8 @@
             "field": "IDR Seller-described used hardware; working condition unverified",
             "source": "ALESIS.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -82260,10 +82282,18 @@
             ]
           },
           {
+            "field": "Audio / catalogue conflict",
+            "source": "ALESIS.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "Audio / source conflict",
             "source": "ALESIS.md",
             "signals": [
-              "unresolved"
+              "unresolved",
+              "conflict"
             ]
           },
           {
@@ -82414,6 +82444,7 @@
             "source": "AMMOON.md",
             "signals": [
               "unknown",
+              "unverified",
               "unresolved",
               "conflict"
             ]
@@ -82860,6 +82891,20 @@
             ]
           },
           {
+            "field": "IDR Condition unverified / Meisa Musik, Kota Bekasi",
+            "source": "BOSS.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "IDR Condition unverified / Seven Stereo Music & Audio Store, Kota Bandung",
+            "source": "BOSS.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
             "field": "Power / adapter",
             "source": "BOSS.md",
             "signals": [
@@ -82975,6 +83020,13 @@
             ]
           },
           {
+            "field": "I/O / impedance conflict",
+            "source": "BOSS.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "Power / batteries / USB",
             "source": "BOSS.md",
             "signals": [
@@ -83035,7 +83087,8 @@
             "field": "Power / 2011 catalogue conflict",
             "source": "BOSS.md",
             "signals": [
-              "unverified"
+              "unverified",
+              "conflict"
             ]
           },
           {
@@ -83082,7 +83135,8 @@
             "field": "IDR Unresolved retail variations / Boss Official Shop,Tangerang Selatan",
             "source": "BOSS.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unresolved"
             ]
           }
         ]
@@ -83173,7 +83227,8 @@
             "field": "IDR Condition-unverified shop-card ask",
             "source": "BOSS.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -83202,6 +83257,13 @@
             "source": "BOSS.md",
             "signals": [
               "unverified"
+            ]
+          },
+          {
+            "field": "Processing / delay conflict",
+            "source": "BOSS.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
@@ -83409,6 +83471,13 @@
             "source": "BOSS.md",
             "signals": [
               "unknown"
+            ]
+          },
+          {
+            "field": "IDR Condition unresolved",
+            "source": "BOSS.md",
+            "signals": [
+              "unresolved"
             ]
           },
           {
@@ -83761,6 +83830,13 @@
             "signals": [
               "not_established"
             ]
+          },
+          {
+            "field": "I/O / headphone load conflict",
+            "source": "BOSS.md",
+            "signals": [
+              "conflict"
+            ]
           }
         ]
       },
@@ -83845,6 +83921,7 @@
             "field": "IDR Unverified condition",
             "source": "BOSS.md",
             "signals": [
+              "unverified",
               "unresolved"
             ]
           },
@@ -83971,10 +84048,18 @@
             ]
           },
           {
+            "field": "IDR Condition-unverified historical ask",
+            "source": "BOSS.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
             "field": "IDR Additional condition-unverified historical ask",
             "source": "BOSS.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           }
         ]
@@ -84257,6 +84342,13 @@
             "signals": [
               "unknown"
             ]
+          },
+          {
+            "field": "IDR Unresolved sold-out variations / Boss Official Shop,Tangerang Selatan",
+            "source": "BOSS.md",
+            "signals": [
+              "unresolved"
+            ]
           }
         ]
       },
@@ -84448,6 +84540,7 @@
             "field": "IDR Unverified",
             "source": "BOSS.md",
             "signals": [
+              "unverified",
               "pending"
             ]
           },
@@ -84455,6 +84548,14 @@
             "field": "IDR Unverified",
             "source": "BOSS.md",
             "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "IDR Unverified",
+            "source": "BOSS.md",
+            "signals": [
+              "unverified",
               "unresolved"
             ]
           }
@@ -84547,6 +84648,7 @@
             "source": "BOSS.md",
             "signals": [
               "unknown",
+              "unverified",
               "unresolved"
             ]
           }
@@ -84937,6 +85039,13 @@
             ]
           },
           {
+            "field": "IDR Condition unverified / atikah141084,KotaBandung",
+            "source": "BOSS.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
             "field": "Processing / delay-time conflict",
             "source": "BOSS.md",
             "signals": [
@@ -85128,6 +85237,13 @@
             ]
           },
           {
+            "field": "Tuner / live source conflict",
+            "source": "BOSS.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "IDR Used",
             "source": "BOSS.md",
             "signals": [
@@ -85218,6 +85334,13 @@
             "source": "BOSS.md",
             "signals": [
               "unverified"
+            ]
+          },
+          {
+            "field": "Expression destinations / conflict",
+            "source": "BOSS.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
@@ -85648,14 +85771,16 @@
             "field": "IDR Condition-unverified / ROCKPIZZ MUSIC",
             "source": "BOSS.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
             "field": "IDR Condition-unverified / Serenata Galeri Musik",
             "source": "BOSS.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -85774,7 +85899,8 @@
             "field": "IDR Condition-unverified historical ask",
             "source": "BOSS.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           }
         ]
@@ -85856,7 +85982,8 @@
             "field": "Historical condition-unverified IDR",
             "source": "BOSS.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -86124,6 +86251,13 @@
             ]
           },
           {
+            "field": "Level conflict",
+            "source": "BOSS.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "K/F/B current",
             "source": "BOSS.md",
             "signals": [
@@ -86148,20 +86282,30 @@
             "field": "IDR Condition-unresolved / guitardistro,Bandung",
             "source": "BOSS.md",
             "signals": [
-              "unknown"
+              "unresolved"
+            ]
+          },
+          {
+            "field": "IDR Condition-unresolved / guitardistro,Bandung",
+            "source": "BOSS.md",
+            "signals": [
+              "unknown",
+              "unresolved"
             ]
           },
           {
             "field": "IDR Condition-unresolved / Seven Stereo Music & Audio Store, Kota Bandung",
             "source": "BOSS.md",
             "signals": [
-              "unverified"
+              "unverified",
+              "unresolved"
             ]
           },
           {
             "field": "IDR Condition-unresolved indexed offer / seller338305078",
             "source": "BOSS.md",
             "signals": [
+              "unresolved",
               "not_established"
             ]
           },
@@ -86238,6 +86382,20 @@
             "source": "BOSS.md",
             "signals": [
               "unknown"
+            ]
+          },
+          {
+            "field": "IDR Unresolved retail variations / Bandung Music Gallery,Bandung",
+            "source": "BOSS.md",
+            "signals": [
+              "unresolved"
+            ]
+          },
+          {
+            "field": "IDR Unresolved indexed variations / Artech item",
+            "source": "BOSS.md",
+            "signals": [
+              "unresolved"
             ]
           },
           {
@@ -86318,6 +86476,13 @@
             ]
           },
           {
+            "field": "Audio levels / historical catalogue conflict candidate",
+            "source": "BOSS.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "Power / polarity evidence",
             "source": "BOSS.md",
             "signals": [
@@ -86350,13 +86515,15 @@
             "field": "IDR Condition-unverified cached ask",
             "source": "BOSS.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
             "field": "IDR Red hardware title; condition unknown",
             "source": "BOSS.md",
             "signals": [
+              "unknown",
               "unverified"
             ]
           },
@@ -86364,7 +86531,8 @@
             "field": "IDR Unresolved two-variant lead; not a selected hardware price",
             "source": "BOSS.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unresolved"
             ]
           },
           {
@@ -86647,6 +86815,7 @@
             "field": "IDR Sold-out indexed hardware ask; sale condition unverified",
             "source": "BEHRINGER.md",
             "signals": [
+              "unverified",
               "question_mark"
             ]
           },
@@ -86897,10 +87066,24 @@
             ]
           },
           {
+            "field": "Memory / source numbering conflict",
+            "source": "BEHRINGER.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "Processing / combination configuration",
             "source": "BEHRINGER.md",
             "signals": [
               "not_established"
+            ]
+          },
+          {
+            "field": "Power / mains revision conflict",
+            "source": "BEHRINGER.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
@@ -87093,7 +87276,8 @@
             "field": "IDR Condition unverified;Habis",
             "source": "BEHRINGER.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -87107,7 +87291,15 @@
             "field": "IDR Condition unverified;stock unconfirmed",
             "source": "BEHRINGER.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
+            ]
+          },
+          {
+            "field": "LEVEL / source conflict",
+            "source": "BEHRINGER.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
@@ -87115,6 +87307,13 @@
             "source": "BEHRINGER.md",
             "signals": [
               "unverified"
+            ]
+          },
+          {
+            "field": "Power / consumption conflict",
+            "source": "BEHRINGER.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
@@ -87211,6 +87410,7 @@
             "field": "IDR **Condition unknown Rp1,100,000**",
             "source": "BEHRINGER.md",
             "signals": [
+              "unknown",
               "question_mark"
             ]
           }
@@ -87300,7 +87500,8 @@
             "field": "IDR Condition unverified / melodiasby,Kota Surabaya",
             "source": "BEHRINGER.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -87541,7 +87742,8 @@
             "field": "IDR condition-unverified indexed ask",
             "source": "BLACKSTAR.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           }
         ]
@@ -87890,7 +88092,8 @@
             "field": "IDR Condition and stock unverified",
             "source": "DK.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           }
         ]
@@ -87989,6 +88192,27 @@
             "signals": [
               "unknown",
               "not_established"
+            ]
+          },
+          {
+            "field": "IDR Condition unverified, White",
+            "source": "DK.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "IDR Condition unverified, Blue;Habis",
+            "source": "DK.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "IDR Unresolved3variations;notaccepted bare-unit price",
+            "source": "DK.md",
+            "signals": [
+              "unresolved"
             ]
           },
           {
@@ -88106,7 +88330,8 @@
             "field": "IDR Condition-unverified sold-out/preorder cached ask",
             "source": "DARKGLASS.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -88291,7 +88516,15 @@
             "field": "IDR Condition-unverified sold-out ask",
             "source": "DEMONFX.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
+            ]
+          },
+          {
+            "field": "Effects / tremolo waveform conflict",
+            "source": "DEMONFX.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
@@ -88398,7 +88631,8 @@
             "field": "Looper / source conflict",
             "source": "DIGITECH.md",
             "signals": [
-              "unresolved"
+              "unresolved",
+              "conflict"
             ]
           }
         ]
@@ -88483,7 +88717,8 @@
             "field": "IDR Condition-unverified sold-out ask",
             "source": "DIGITECH.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -88589,7 +88824,8 @@
             "field": "IDR Condition-unverified historical ask",
             "source": "DIGITECH.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           }
         ]
@@ -88816,6 +89052,13 @@
             ]
           },
           {
+            "field": "IDR Unverified condition",
+            "source": "DIGITECH.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
             "field": "I/O / Jam-A-Long routing",
             "source": "DIGITECH.md",
             "signals": [
@@ -88944,7 +89187,8 @@
             "field": "IDR / condition-unverified sold-out ask",
             "source": "DIGITECH.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -89288,7 +89532,8 @@
             "field": "IDR Condition-unverified historical ask",
             "source": "DIGITECH.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -89361,6 +89606,13 @@
             ]
           },
           {
+            "field": "Categories / Chorus-FX count conflict",
+            "source": "DIGITECH.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "Categories / individual amps",
             "source": "DIGITECH.md",
             "signals": [
@@ -89371,7 +89623,8 @@
             "field": "Categories / gate conflict",
             "source": "DIGITECH.md",
             "signals": [
-              "pending"
+              "pending",
+              "conflict"
             ]
           },
           {
@@ -89531,14 +89784,16 @@
             "field": "IDR Additional condition-unverified historical offer",
             "source": "DIGITECH.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
             "field": "Processing / gate source conflict",
             "source": "DIGITECH.md",
             "signals": [
-              "unverified"
+              "unverified",
+              "conflict"
             ]
           },
           {
@@ -89642,7 +89897,8 @@
             "field": "Power / body source conflict",
             "source": "DONNER.md",
             "signals": [
-              "unresolved"
+              "unresolved",
+              "conflict"
             ]
           },
           {
@@ -89670,14 +89926,16 @@
             "field": "IDR Condition-unverified sold-out historical ask",
             "source": "DONNER.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
             "field": "IDR / conflicting indexed and reopened asks",
             "source": "DONNER.md",
             "signals": [
-              "unverified"
+              "unverified",
+              "conflict"
             ]
           },
           {
@@ -89691,7 +89949,8 @@
             "field": "IDR / condition-unverified sold-out ask",
             "source": "DONNER.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -90129,7 +90388,8 @@
             "field": "IDR condition-unverified offer",
             "source": "EROK.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -90325,6 +90585,13 @@
               "unverified",
               "not_established"
             ]
+          },
+          {
+            "field": "Dimensions / edition conflict persists",
+            "source": "EVENTIDE.md",
+            "signals": [
+              "conflict"
+            ]
           }
         ]
       },
@@ -90391,6 +90658,20 @@
           },
           {
             "field": "Live / controls",
+            "source": "FENDER.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Processing / manual conflict",
+            "source": "FENDER.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
+            "field": "IDR Unverified",
             "source": "FENDER.md",
             "signals": [
               "unverified"
@@ -90465,10 +90746,31 @@
             ]
           },
           {
+            "field": "Live / reset revision conflict",
+            "source": "FENDER.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "Live / firmware limitations",
             "source": "FENDER.md",
             "signals": [
               "unverified"
+            ]
+          },
+          {
+            "field": "IDR Unverified",
+            "source": "FENDER.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Processing / bass release-date conflict",
+            "source": "FENDER.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
@@ -90489,7 +90791,8 @@
             "field": "I/O / USB manual conflict",
             "source": "FENDER.md",
             "signals": [
-              "unresolved"
+              "unresolved",
+              "conflict"
             ]
           }
         ]
@@ -90642,6 +90945,13 @@
             "source": "FLAMMA.md",
             "signals": [
               "unverified"
+            ]
+          },
+          {
+            "field": "Footswitch assignment conflict",
+            "source": "FLAMMA.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
@@ -90833,7 +91143,8 @@
             "field": "Delay claim conflict",
             "source": "FLAMMA.md",
             "signals": [
-              "unverified"
+              "unverified",
+              "conflict"
             ]
           },
           {
@@ -91057,7 +91368,8 @@
             "field": "IDR Condition unresolved:Rp6,790,000",
             "source": "FLAMMA.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unresolved"
             ]
           }
         ]
@@ -91193,6 +91505,13 @@
             ]
           },
           {
+            "field": "IDR Unresolved two-variation retail listing",
+            "source": "FLAMMA.md",
+            "signals": [
+              "unresolved"
+            ]
+          },
+          {
             "field": "IDR Condition-verified used",
             "source": "FLAMMA.md",
             "signals": [
@@ -91288,7 +91607,8 @@
             "field": "IDR Condition-unverified indexed exact hardware",
             "source": "FLAMMA.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           }
         ]
@@ -91392,7 +91712,8 @@
             "field": "IDR Condition-unverified indexed exact item",
             "source": "FLAMMA.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -91421,6 +91742,13 @@
             "source": "FLAMMA.md",
             "signals": [
               "not_established"
+            ]
+          },
+          {
+            "field": "Processing / modulation-list conflict",
+            "source": "FLAMMA.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
@@ -91652,6 +91980,13 @@
             ]
           },
           {
+            "field": "IDR Condition-unverified sold-out indexed ask",
+            "source": "FRACTAL-AUDIO.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
             "field": "IDR Verified new IDR",
             "source": "FRACTAL-AUDIO.md",
             "signals": [
@@ -91817,6 +92152,13 @@
             ]
           },
           {
+            "field": "IDR Retail hardware listing; detailed condition/stock not established",
+            "source": "HEADRUSH.md",
+            "signals": [
+              "not_established"
+            ]
+          },
+          {
             "field": "IDR Condition-verified used offer",
             "source": "HEADRUSH.md",
             "signals": [
@@ -91959,6 +92301,7 @@
             "field": "IDR Indexed hardware ask; sale condition unverified",
             "source": "HEADRUSH.md",
             "signals": [
+              "unverified",
               "question_mark"
             ]
           },
@@ -92104,6 +92447,7 @@
             "field": "IDR Historical indexed ask; sale condition unverified; **sold out**",
             "source": "HEADRUSH.md",
             "signals": [
+              "unverified",
               "question_mark"
             ]
           },
@@ -92255,6 +92599,7 @@
             "field": "IDR Historical indexed hardware ask;condition unverified;**sold out**",
             "source": "HEADRUSH.md",
             "signals": [
+              "unverified",
               "question_mark"
             ]
           },
@@ -92262,6 +92607,7 @@
             "field": "IDR Separate historical indexed ask;condition unverified;**sold out**",
             "source": "HEADRUSH.md",
             "signals": [
+              "unverified",
               "question_mark"
             ]
           },
@@ -92346,7 +92692,8 @@
             "field": "IDR Condition-unverified MP-350 retail ask",
             "source": "HOTONE.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -92404,6 +92751,7 @@
             "source": "HOTONE.md",
             "signals": [
               "unresolved",
+              "conflict",
               "not_established"
             ]
           },
@@ -92411,14 +92759,16 @@
             "field": "Processing / FREQ census and conflict",
             "source": "HOTONE.md",
             "signals": [
-              "unresolved"
+              "unresolved",
+              "conflict"
             ]
           },
           {
             "field": "I/O / serial-loop settings and source conflict",
             "source": "HOTONE.md",
             "signals": [
-              "unresolved"
+              "unresolved",
+              "conflict"
             ]
           },
           {
@@ -92436,9 +92786,17 @@
             ]
           },
           {
+            "field": "Processing / Petrus source conflict",
+            "source": "HOTONE.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "I/O / serial-loop conflict",
             "source": "HOTONE.md",
             "signals": [
+              "conflict",
               "not_established"
             ]
           },
@@ -92460,7 +92818,15 @@
             "field": "MP-350 — electrical specifications and power conflict",
             "source": "HOTONE.md",
             "signals": [
-              "unverified"
+              "conflict"
+            ]
+          },
+          {
+            "field": "MP-350 — electrical specifications and power conflict",
+            "source": "HOTONE.md",
+            "signals": [
+              "unverified",
+              "conflict"
             ]
           },
           {
@@ -92625,7 +92991,8 @@
             "field": "Category choices / AMP conflict",
             "source": "HOTONE.md",
             "signals": [
-              "unresolved"
+              "unresolved",
+              "conflict"
             ]
           },
           {
@@ -92819,7 +93186,8 @@
             "field": "Processing / AMP count conflict",
             "source": "HOTONE.md",
             "signals": [
-              "unresolved"
+              "unresolved",
+              "conflict"
             ]
           },
           {
@@ -93213,6 +93581,13 @@
             ]
           },
           {
+            "field": "Analog levels / source conflict",
+            "source": "JOYO.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "Power / battery / USB",
             "source": "JOYO.md",
             "signals": [
@@ -93353,7 +93728,8 @@
             "field": "IDR Condition-unverified / Praiseyah Shop",
             "source": "JOYO.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           }
         ]
@@ -93461,7 +93837,8 @@
             "field": "IDR Condition-unverified / Praiseyah Shop",
             "source": "JOYO.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           }
         ]
@@ -93569,7 +93946,8 @@
             "field": "IDR Condition-unverified indexed ask",
             "source": "KEELEY.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -93666,6 +94044,7 @@
             "field": "IDR Condition-unverified cached ask",
             "source": "KEMPER.md",
             "signals": [
+              "unverified",
               "unresolved"
             ]
           },
@@ -93673,6 +94052,7 @@
             "field": "IDR Second condition-unverified cached ask",
             "source": "KEMPER.md",
             "signals": [
+              "unverified",
               "unresolved"
             ]
           },
@@ -93785,6 +94165,7 @@
             "field": "IDR Condition-unverified cached retail ask",
             "source": "KEMPER.md",
             "signals": [
+              "unverified",
               "unresolved"
             ]
           },
@@ -93883,14 +94264,16 @@
             "field": "IDR Condition-unverified cached ask",
             "source": "KEMPER.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
             "field": "IDR Additional condition-unverified cached ask",
             "source": "KEMPER.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -93990,6 +94373,7 @@
             "field": "IDR Condition-unverified cached ask",
             "source": "KEMPER.md",
             "signals": [
+              "unverified",
               "unresolved"
             ]
           },
@@ -94082,6 +94466,7 @@
             "field": "IDR Condition-unverified cached search ask",
             "source": "KEMPER.md",
             "signals": [
+              "unverified",
               "unresolved"
             ]
           },
@@ -94089,7 +94474,8 @@
             "field": "IDR Additional condition-unverified cached ask",
             "source": "KEMPER.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -94289,6 +94675,7 @@
             "field": "IDR Additional condition-unknown offer",
             "source": "KORG.md",
             "signals": [
+              "unknown",
               "unverified"
             ]
           },
@@ -94382,6 +94769,13 @@
             "source": "KORG.md",
             "signals": [
               "pending"
+            ]
+          },
+          {
+            "field": "IDR Unresolved multi-model listing",
+            "source": "KORG.md",
+            "signals": [
+              "unresolved"
             ]
           }
         ]
@@ -94651,6 +95045,20 @@
             ]
           },
           {
+            "field": "IDR Condition unverified / hardcase title",
+            "source": "KORG.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "IDR Condition unverified",
+            "source": "KORG.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
             "field": "Memory / factory-filled user slots",
             "source": "KORG.md",
             "signals": [
@@ -94734,6 +95142,20 @@
               "unverified",
               "conflict"
             ]
+          },
+          {
+            "field": "Routing / cabinet conflict",
+            "source": "KORG.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
+            "field": "Routing / cross-language cabinet conflict",
+            "source": "KORG.md",
+            "signals": [
+              "conflict"
+            ]
           }
         ]
       },
@@ -94812,6 +95234,20 @@
             ]
           },
           {
+            "field": "IDR Condition unverified / BILLY MUSIK",
+            "source": "KORG.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "IDR Condition unverified / VeGitarian Music",
+            "source": "KORG.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
             "field": "IDR qualified observations",
             "source": "KORG.md",
             "signals": [
@@ -94884,6 +95320,7 @@
             "field": "IDR **Condition unknown Rp1,350,000**",
             "source": "KORG.md",
             "signals": [
+              "unknown",
               "not_established",
               "question_mark"
             ]
@@ -94941,6 +95378,13 @@
             "source": "KORG.md",
             "signals": [
               "unverified"
+            ]
+          },
+          {
+            "field": "Processing / source conflict",
+            "source": "KORG.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
@@ -95438,7 +95882,8 @@
             "field": "IDR unresolved model-identity lead",
             "source": "LEKATO.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unresolved"
             ]
           },
           {
@@ -95521,7 +95966,8 @@
             "field": "IDR Condition unverified / Imc Genteng Kali,Kota Surabaya",
             "source": "LEXICON.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -95536,6 +95982,13 @@
             "source": "LEXICON.md",
             "signals": [
               "unverified"
+            ]
+          },
+          {
+            "field": "I/O / output-side source conflict",
+            "source": "LEXICON.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
@@ -95633,7 +96086,8 @@
             "field": "IDR Seller-described used;actual condition unverified",
             "source": "LEXICON.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -95642,6 +96096,13 @@
             "signals": [
               "not_established",
               "question_mark"
+            ]
+          },
+          {
+            "field": "Power / source conflict",
+            "source": "LEXICON.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
@@ -95876,6 +96337,13 @@
             "source": "LEXICON.md",
             "signals": [
               "unknown"
+            ]
+          },
+          {
+            "field": "IDR Condition-unverified sold-out ask",
+            "source": "LEXICON.md",
+            "signals": [
+              "unverified"
             ]
           },
           {
@@ -96280,7 +96748,8 @@
             "field": "IDR Condition-unverified cached offer",
             "source": "LINE6.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -96495,6 +96964,7 @@
             "field": "IDR Indexed hardware ask;condition unverified",
             "source": "LINE6.md",
             "signals": [
+              "unverified",
               "not_established",
               "question_mark"
             ]
@@ -96503,7 +96973,8 @@
             "field": "IDR Historical hardware ask;condition unverified;**sold out**",
             "source": "LINE6.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -96676,6 +97147,7 @@
             "field": "IDR Indexed hardware ask; sale condition unverified",
             "source": "LINE6.md",
             "signals": [
+              "unverified",
               "question_mark"
             ]
           },
@@ -96797,7 +97269,8 @@
             "field": "IDR Condition-unverified cached offer",
             "source": "LINE6.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -97219,6 +97692,13 @@
             ]
           },
           {
+            "field": "Processing / cab count conflict",
+            "source": "LINE6.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "Processing / cabinet names",
             "source": "LINE6.md",
             "signals": [
@@ -97296,6 +97776,20 @@
             ]
           },
           {
+            "field": "IDR Unverified",
+            "source": "LINE6.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "IDR Unverified mixed variations",
+            "source": "LINE6.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
             "field": "I/O / auxiliary playback",
             "source": "LINE6.md",
             "signals": [
@@ -97334,6 +97828,13 @@
             "source": "LINE6.md",
             "signals": [
               "unverified"
+            ]
+          },
+          {
+            "field": "Historical count conflict",
+            "source": "LINE6.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
@@ -97568,7 +98069,15 @@
             "field": "IDR Sold-out hardware ask; sale condition unverified",
             "source": "LINE6.md",
             "signals": [
+              "unverified",
               "question_mark"
+            ]
+          },
+          {
+            "field": "IDR Sold-out hardware ask; sale condition unverified",
+            "source": "LINE6.md",
+            "signals": [
+              "unverified"
             ]
           },
           {
@@ -97894,7 +98403,8 @@
             "field": "IDR Condition-unverified cached offer",
             "source": "LINE6.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           }
         ]
@@ -98055,7 +98565,8 @@
             "field": "IDR Unverified",
             "source": "M-VAVE.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -98378,10 +98889,18 @@
             ]
           },
           {
+            "field": "Dimensions / mass conflict",
+            "source": "M-VAVE.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "I/O / AUX conflict",
             "source": "M-VAVE.md",
             "signals": [
-              "unresolved"
+              "unresolved",
+              "conflict"
             ]
           },
           {
@@ -98459,10 +98978,25 @@
             ]
           },
           {
+            "field": "IDR Condition-unverified sold-out ask",
+            "source": "M-VAVE.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
             "field": "IDR Condition-unverified voucher ask",
             "source": "M-VAVE.md",
             "signals": [
+              "unverified",
               "unresolved"
+            ]
+          },
+          {
+            "field": "IDR Conflicting cached ask;opened body sold out",
+            "source": "M-VAVE.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
@@ -98686,7 +99220,8 @@
             "field": "I/O / manual language conflicts",
             "source": "MOOER.md",
             "signals": [
-              "unresolved"
+              "unresolved",
+              "conflict"
             ]
           },
           {
@@ -98709,6 +99244,20 @@
             "signals": [
               "unknown",
               "conflict"
+            ]
+          },
+          {
+            "field": "IDR Unverified",
+            "source": "MOOER.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "IDR Unverified; newer indexed item-page observation",
+            "source": "MOOER.md",
+            "signals": [
+              "unverified"
             ]
           }
         ]
@@ -98804,9 +99353,17 @@
             ]
           },
           {
+            "field": "IDR Shopee retail listing, detailed condition unknown",
+            "source": "MOOER.md",
+            "signals": [
+              "unknown"
+            ]
+          },
+          {
             "field": "IDR Shopee preorder, detailed condition unknown",
             "source": "MOOER.md",
             "signals": [
+              "unknown",
               "unverified"
             ]
           },
@@ -99607,6 +100164,7 @@
             "field": "IDR Shopee retail hardware listing; detailed condition unknown [MOOER-GE200-PRO-LI-S]",
             "source": "MOOER.md",
             "signals": [
+              "unknown",
               "unverified"
             ]
           },
@@ -99690,6 +100248,13 @@
             "source": "MOOER.md",
             "signals": [
               "not_established"
+            ]
+          },
+          {
+            "field": "Processing / revision conflict",
+            "source": "MOOER.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
@@ -100349,7 +100914,8 @@
             "field": "IDR condition-unverified exact hardware ask",
             "source": "MOOER.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -100816,6 +101382,13 @@
             ]
           },
           {
+            "field": "Regional power conflict",
+            "source": "MOOER.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "IDR Condition unresolved: Rp2,625,470",
             "source": "MOOER.md",
             "signals": [
@@ -100932,14 +101505,16 @@
             "field": "IDR Condition-unverified voucher ask",
             "source": "MOOER.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
             "field": "IDR Condition-unverified indexed ask",
             "source": "MOOER.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -100990,6 +101565,13 @@
             "source": "MOOER.md",
             "signals": [
               "unverified"
+            ]
+          },
+          {
+            "field": "Live / bank-direction conflict",
+            "source": "MOOER.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
@@ -101198,7 +101780,8 @@
             "field": "IDR Condition-unverified / MICKEY MOUSE SHOP",
             "source": "MOSKY.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           }
         ]
@@ -101301,7 +101884,8 @@
             "field": "IDR Condition-unverified / MICKEY MOUSE SHOP",
             "source": "MOSKY.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           }
         ]
@@ -101404,14 +101988,16 @@
             "field": "IDR Condition-unverified / GhiNAda Music",
             "source": "MOSKY.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
             "field": "IDR Condition-unverified / MICKEY MOUSE SHOP",
             "source": "MOSKY.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           }
         ]
@@ -101521,14 +102107,16 @@
             "field": "IDR Condition-unverified / ADVENTURE MUSIC JAKARTA",
             "source": "MOSKY.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
             "field": "IDR Condition-unverified / grand57musicstore",
             "source": "MOSKY.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -101610,7 +102198,8 @@
             "field": "Historical condition-unverified IDR",
             "source": "NUX.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -101625,7 +102214,8 @@
             "field": "Routing / tuner conflict",
             "source": "NUX.md",
             "signals": [
-              "pending"
+              "pending",
+              "conflict"
             ]
           },
           {
@@ -101937,6 +102527,13 @@
             ]
           },
           {
+            "field": "Processing / conflict",
+            "source": "NUX.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "Categories",
             "source": "NUX.md",
             "signals": [
@@ -101947,7 +102544,8 @@
             "field": "Expression / source conflict",
             "source": "NUX.md",
             "signals": [
-              "unresolved"
+              "unresolved",
+              "conflict"
             ]
           },
           {
@@ -101955,6 +102553,13 @@
             "source": "NUX.md",
             "signals": [
               "unresolved"
+            ]
+          },
+          {
+            "field": "I/O / AUX control conflict",
+            "source": "NUX.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
@@ -101993,6 +102598,13 @@
             ]
           },
           {
+            "field": "IDR Unverified",
+            "source": "NUX.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
             "field": "Factory / reset scope",
             "source": "NUX.md",
             "signals": [
@@ -102015,6 +102627,13 @@
           },
           {
             "field": "Categories / pedal families7",
+            "source": "NUX.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
+            "field": "Processing / Clean Tube conflict",
             "source": "NUX.md",
             "signals": [
               "conflict"
@@ -102307,10 +102926,24 @@
             ]
           },
           {
+            "field": "Processing / regional count conflict",
+            "source": "NUX.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "Display",
             "source": "NUX.md",
             "signals": [
               "unverified"
+            ]
+          },
+          {
+            "field": "Dimensions / conflict",
+            "source": "NUX.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
@@ -102428,7 +103061,8 @@
             "field": "IDR condition-unverified hardware ask",
             "source": "NUX.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -102443,7 +103077,8 @@
             "field": "IDR condition-unverified sold-out ask",
             "source": "NUX.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -102464,7 +103099,15 @@
             "field": "IR / original-manual capacity conflict",
             "source": "NUX.md",
             "signals": [
-              "unverified"
+              "unverified",
+              "conflict"
+            ]
+          },
+          {
+            "field": "Conversion / dynamic-range conflict",
+            "source": "NUX.md",
+            "signals": [
+              "conflict"
             ]
           }
         ]
@@ -102618,7 +103261,8 @@
             "field": "IDR condition-unverified indexed ask",
             "source": "NUX.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -102800,6 +103444,13 @@
             "signals": [
               "unverified"
             ]
+          },
+          {
+            "field": "IDR Unverified",
+            "source": "NUX.md",
+            "signals": [
+              "unverified"
+            ]
           }
         ]
       },
@@ -102901,6 +103552,13 @@
           },
           {
             "field": "Live / routing",
+            "source": "NUX.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "IDR Unverified",
             "source": "NUX.md",
             "signals": [
               "unverified"
@@ -103054,6 +103712,41 @@
             "source": "NUX.md",
             "signals": [
               "unknown"
+            ]
+          },
+          {
+            "field": "IDR Condition unresolved:Rp2,350,000",
+            "source": "NUX.md",
+            "signals": [
+              "unresolved"
+            ]
+          },
+          {
+            "field": "IDR Condition unresolved:Rp2,185,500",
+            "source": "NUX.md",
+            "signals": [
+              "unresolved"
+            ]
+          },
+          {
+            "field": "IDR Condition unverified / indiealatmusik",
+            "source": "NUX.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "IDR Condition unverified / Dial Musik",
+            "source": "NUX.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "IDR Condition unverified / CH MUSIC",
+            "source": "NUX.md",
+            "signals": [
+              "unverified"
             ]
           },
           {
@@ -103276,13 +103969,15 @@
             "field": "IDR Condition-unverified indexed ask",
             "source": "NEURAL-DSP.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
             "field": "IDR Condition unknown;Habis",
             "source": "NEURAL-DSP.md",
             "signals": [
+              "unknown",
               "unresolved"
             ]
           },
@@ -103563,7 +104258,16 @@
             "field": "IDR Condition unverified; **Habis**",
             "source": "ROLAND.md",
             "signals": [
+              "unverified",
               "unresolved"
+            ]
+          },
+          {
+            "field": "IDR Condition unverified; checkout stock unknown",
+            "source": "ROLAND.md",
+            "signals": [
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -104196,7 +104900,8 @@
             "field": "Manual / revision conflicts",
             "source": "SONICAKE.md",
             "signals": [
-              "unresolved"
+              "unresolved",
+              "conflict"
             ]
           },
           {
@@ -104217,7 +104922,8 @@
             "field": "IDR / second condition-unverified sold-out offer,2026-10-18",
             "source": "SONICAKE.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -104292,6 +104998,13 @@
             "source": "SONICAKE.md",
             "signals": [
               "unverified"
+            ]
+          },
+          {
+            "field": "Software / Windows11 notice conflict",
+            "source": "SONICAKE.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
@@ -104391,6 +105104,13 @@
             ]
           },
           {
+            "field": "I/O / balanced-output source conflict",
+            "source": "SONICAKE.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "IDR",
             "source": "SONICAKE.md",
             "signals": [
@@ -104398,9 +105118,17 @@
             ]
           },
           {
+            "field": "IDR Condition unknown;**Habis**",
+            "source": "SONICAKE.md",
+            "signals": [
+              "unknown"
+            ]
+          },
+          {
             "field": "IDR Condition unknown;**Habis**,indexed only",
             "source": "SONICAKE.md",
             "signals": [
+              "unknown",
               "not_established"
             ]
           }
@@ -104441,6 +105169,14 @@
             "field": "IDR Unknown condition/language;**Habis**",
             "source": "SONICAKE.md",
             "signals": [
+              "unknown"
+            ]
+          },
+          {
+            "field": "IDR Unknown condition/language;**Habis**",
+            "source": "SONICAKE.md",
+            "signals": [
+              "unknown",
               "not_established"
             ]
           },
@@ -104511,6 +105247,7 @@
             "field": "IDR Condition unknown;stock unverified",
             "source": "SONICAKE.md",
             "signals": [
+              "unknown",
               "unverified"
             ]
           },
@@ -104518,14 +105255,23 @@
             "field": "IDR Condition unknown;**Habis**,voucher-dependent",
             "source": "SONICAKE.md",
             "signals": [
+              "unknown",
               "not_established"
+            ]
+          },
+          {
+            "field": "IDR Condition unknown;**Habis**,indexed only",
+            "source": "SONICAKE.md",
+            "signals": [
+              "unknown"
             ]
           },
           {
             "field": "Category counts / manual versus firmware conflict",
             "source": "SONICAKE.md",
             "signals": [
-              "unresolved"
+              "unresolved",
+              "conflict"
             ]
           },
           {
@@ -104841,7 +105587,8 @@
             "field": "IDR Condition unverified;Habis",
             "source": "SORAN.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -104952,7 +105699,8 @@
             "field": "IDR Condition unverified;Habis",
             "source": "SORAN.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           }
         ]
@@ -105066,7 +105814,8 @@
             "field": "IDR Condition unverified;stock unconfirmed",
             "source": "SORAN.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -105074,7 +105823,8 @@
             "source": "SORAN.md",
             "signals": [
               "unverified",
-              "unresolved"
+              "unresolved",
+              "conflict"
             ]
           }
         ]
@@ -105170,7 +105920,8 @@
             "field": "IDR Condition unverified;stock unconfirmed",
             "source": "SORAN.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -105238,7 +105989,8 @@
             "field": "IDR Condition unverified;stock unconfirmed",
             "source": "SORAN.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -105435,6 +106187,13 @@
             ]
           },
           {
+            "field": "I/O / input conflict",
+            "source": "TC-ELECTRONIC.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "Power / battery / USB",
             "source": "TC-ELECTRONIC.md",
             "signals": [
@@ -105460,6 +106219,13 @@
             "source": "TC-ELECTRONIC.md",
             "signals": [
               "unresolved"
+            ]
+          },
+          {
+            "field": "IDR Unverified condition",
+            "source": "TC-ELECTRONIC.md",
+            "signals": [
+              "unverified"
             ]
           }
         ]
@@ -105527,7 +106293,8 @@
             "field": "IDR TitleNEW,condition unverified / PCdada,Kota Jakarta Barat",
             "source": "TC-ELECTRONIC.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -105695,10 +106462,24 @@
             ]
           },
           {
+            "field": "Display / language-revision conflict",
+            "source": "TC-ELECTRONIC.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "Expression / preset recall defect",
             "source": "TC-ELECTRONIC.md",
             "signals": [
               "unverified"
+            ]
+          },
+          {
+            "field": "NOVA System — category census and pitch-range conflict",
+            "source": "TC-ELECTRONIC.md",
+            "signals": [
+              "conflict"
             ]
           }
         ]
@@ -105814,6 +106595,13 @@
             ]
           },
           {
+            "field": "IDR Unverified condition",
+            "source": "TC-ELECTRONIC.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
             "field": "I/O / mono connection",
             "source": "TC-ELECTRONIC.md",
             "signals": [
@@ -105922,6 +106710,13 @@
             "source": "TC-ELECTRONIC.md",
             "signals": [
               "unresolved"
+            ]
+          },
+          {
+            "field": "IDR Unverified condition",
+            "source": "TC-ELECTRONIC.md",
+            "signals": [
+              "unverified"
             ]
           }
         ]
@@ -106140,7 +106935,8 @@
             "field": "Phantom / revision conflicts",
             "source": "TC-HELICON.md",
             "signals": [
-              "unresolved"
+              "unresolved",
+              "conflict"
             ]
           },
           {
@@ -106161,7 +106957,8 @@
             "field": "IDR Condition-unverified indexed ask",
             "source": "TC-HELICON.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -106275,7 +107072,8 @@
             "field": "Processing / pitch correction / source conflict",
             "source": "TC-HELICON.md",
             "signals": [
-              "unverified"
+              "unverified",
+              "conflict"
             ]
           },
           {
@@ -106290,6 +107088,7 @@
             "source": "TC-HELICON.md",
             "signals": [
               "unknown",
+              "unverified",
               "not_established"
             ]
           },
@@ -106298,6 +107097,7 @@
             "source": "TC-HELICON.md",
             "signals": [
               "unknown",
+              "unverified",
               "unresolved"
             ]
           },
@@ -106312,14 +107112,16 @@
             "field": "IDR Condition-unverified sold-out ask",
             "source": "TC-HELICON.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
             "field": "IDR Condition-unverified indexed ask",
             "source": "TC-HELICON.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           }
         ]
@@ -106403,7 +107205,8 @@
             "field": "Phantom / bypass conflicts",
             "source": "TC-HELICON.md",
             "signals": [
-              "unverified"
+              "unverified",
+              "conflict"
             ]
           },
           {
@@ -106828,7 +107631,8 @@
             "source": "TC-HELICON.md",
             "signals": [
               "unknown",
-              "unverified"
+              "unverified",
+              "conflict"
             ]
           },
           {
@@ -106963,6 +107767,13 @@
             "signals": [
               "unknown",
               "unverified"
+            ]
+          },
+          {
+            "field": "Processing / harmony revision conflict",
+            "source": "TC-HELICON.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
@@ -107178,7 +107989,8 @@
             "field": "IDR Condition-unverified indexed ask",
             "source": "TC-HELICON.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -107192,21 +108004,24 @@
             "field": "IDR Condition unverified; sold-out cached ask",
             "source": "TC-HELICON.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
             "field": "IDR Preserved condition-unverified offer",
             "source": "TC-HELICON.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
             "field": "IDR Condition unknown / cache conflict",
             "source": "TC-HELICON.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "conflict"
             ]
           },
           {
@@ -107314,6 +108129,7 @@
             "source": "TC-HELICON.md",
             "signals": [
               "unknown",
+              "unverified",
               "unresolved"
             ]
           },
@@ -107344,7 +108160,8 @@
             "source": "TC-HELICON.md",
             "signals": [
               "unverified",
-              "pending"
+              "pending",
+              "conflict"
             ]
           },
           {
@@ -107366,6 +108183,13 @@
             "source": "TC-HELICON.md",
             "signals": [
               "unresolved",
+              "conflict"
+            ]
+          },
+          {
+            "field": "Looper / manufacturer web revision conflict",
+            "source": "TC-HELICON.md",
+            "signals": [
               "conflict"
             ]
           },
@@ -108557,7 +109381,8 @@
             "field": "IDR Condition unverified / bejita,Kab.Tulang Bawang Barat",
             "source": "VOX.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -108897,7 +109722,8 @@
             "field": "IDR Additional condition-unverified historical observation",
             "source": "VOX.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -109048,7 +109874,8 @@
             "field": "IDR Condition-unverified historical ask",
             "source": "VALETON.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -109062,13 +109889,15 @@
             "field": "IDR / separate condition-unverified indexed ask",
             "source": "VALETON.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
             "field": "IDR condition unknown / Aproz",
             "source": "VALETON.md",
             "signals": [
+              "unknown",
               "unverified"
             ]
           },
@@ -109182,6 +110011,13 @@
             "signals": [
               "unverified"
             ]
+          },
+          {
+            "field": "IDR Unverified",
+            "source": "VALETON.md",
+            "signals": [
+              "unverified"
+            ]
           }
         ]
       },
@@ -109282,7 +110118,8 @@
             "field": "IDR Condition-unverified historical observation",
             "source": "VALETON.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -109290,6 +110127,7 @@
             "source": "VALETON.md",
             "signals": [
               "unknown",
+              "unverified",
               "unresolved"
             ]
           }
@@ -109399,13 +110237,6 @@
             "signals": [
               "unknown",
               "unresolved"
-            ]
-          },
-          {
-            "field": "IDR Condition-unverified historical offer",
-            "source": "VALETON.md",
-            "signals": [
-              "unknown"
             ]
           },
           {
@@ -109826,6 +110657,13 @@
             ]
           },
           {
+            "field": "IDR Unverified",
+            "source": "VALETON.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
             "field": "Power / consumption and supplied adapter",
             "source": "VALETON.md",
             "signals": [
@@ -110001,6 +110839,13 @@
             "signals": [
               "unverified"
             ]
+          },
+          {
+            "field": "IDR Unverified",
+            "source": "VALETON.md",
+            "signals": [
+              "unverified"
+            ]
           }
         ]
       },
@@ -110080,17 +110925,40 @@
             ]
           },
           {
+            "field": "Effects total / source conflict",
+            "source": "VALETON.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "Dimensions / GP-100VT source conflict",
             "source": "VALETON.md",
             "signals": [
-              "unverified"
+              "unverified",
+              "conflict"
+            ]
+          },
+          {
+            "field": "Processing / GP-100VT rhythm conflict",
+            "source": "VALETON.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
             "field": "IDR / GP-100VT condition-unverified sold-out ask",
             "source": "VALETON.md",
             "signals": [
+              "unverified",
               "not_established"
+            ]
+          },
+          {
+            "field": "IDR / GP-100VT condition-unverified sold-out ask",
+            "source": "VALETON.md",
+            "signals": [
+              "unverified"
             ]
           },
           {
@@ -110316,7 +111184,8 @@
             "field": "AMP / source conflict",
             "source": "VALETON.md",
             "signals": [
-              "unresolved"
+              "unresolved",
+              "conflict"
             ]
           },
           {
@@ -110325,6 +111194,13 @@
             "signals": [
               "unknown",
               "unverified"
+            ]
+          },
+          {
+            "field": "MIDI / unresolved clock wording",
+            "source": "VALETON.md",
+            "signals": [
+              "unresolved"
             ]
           },
           {
@@ -110342,7 +111218,21 @@
             ]
           },
           {
+            "field": "Controls / FAQ hardware conflict",
+            "source": "VALETON.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "USB / host requirement",
+            "source": "VALETON.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "IDR GP-200R condition-unverified,sold-out ask",
             "source": "VALETON.md",
             "signals": [
               "unverified"
@@ -110352,20 +111242,23 @@
             "field": "IDR GP-200R red,condition-unverified ask",
             "source": "VALETON.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
             "field": "IDR / condition-unverified GP-200R ask with voucher",
             "source": "VALETON.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
             "field": "IDR / condition-unverified GP-200R ask",
             "source": "VALETON.md",
             "signals": [
+              "unverified",
               "not_established"
             ]
           },
@@ -110373,14 +111266,23 @@
             "field": "IDR / GP-200X condition-unverified indexed ask",
             "source": "VALETON.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
             "field": "IDR / GP-200X condition-unverified sold-out ask",
             "source": "VALETON.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
+            ]
+          },
+          {
+            "field": "Processing / GP-200X manufacturer wording conflict",
+            "source": "VALETON.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
@@ -110451,6 +111353,13 @@
             "signals": [
               "unverified",
               "not_established"
+            ]
+          },
+          {
+            "field": "IDR Retail ask, condition unverified",
+            "source": "VALETON.md",
+            "signals": [
+              "unverified"
             ]
           },
           {
@@ -110594,6 +111503,13 @@
             "source": "VALETON.md",
             "signals": [
               "unverified"
+            ]
+          },
+          {
+            "field": "Editor / regional description conflict",
+            "source": "VALETON.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
@@ -111134,7 +112050,8 @@
             "field": "IDR Seller-described used; actual condition unverified / arifsilprut,Kab.Kediri",
             "source": "YAMAHA.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -111290,6 +112207,13 @@
             "source": "YAMAHA.md",
             "signals": [
               "unknown"
+            ]
+          },
+          {
+            "field": "IDR Condition-unverified indexed ask",
+            "source": "YAMAHA.md",
+            "signals": [
+              "unverified"
             ]
           }
         ]
@@ -111646,6 +112570,13 @@
             ]
           },
           {
+            "field": "IDR Condition unverified;**Habis**",
+            "source": "ZOOM.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
             "field": "Processing / Bank B",
             "source": "ZOOM.md",
             "signals": [
@@ -111657,6 +112588,20 @@
             "source": "ZOOM.md",
             "signals": [
               "unresolved"
+            ]
+          },
+          {
+            "field": "Live / effects-off source conflict",
+            "source": "ZOOM.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
+            "field": "1201 — mixer routing,power-on andbypass conflict",
+            "source": "ZOOM.md",
+            "signals": [
+              "conflict"
             ]
           }
         ]
@@ -111676,6 +112621,13 @@
             "source": "ZOOM.md",
             "signals": [
               "unverified"
+            ]
+          },
+          {
+            "field": "Power / source conflict",
+            "source": "ZOOM.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
@@ -111725,6 +112677,20 @@
             "source": "ZOOM.md",
             "signals": [
               "unverified"
+            ]
+          },
+          {
+            "field": "Power / manual conflict scope",
+            "source": "ZOOM.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
+            "field": "Analog conversion / manual conflict",
+            "source": "ZOOM.md",
+            "signals": [
+              "conflict"
             ]
           }
         ]
@@ -111919,6 +112885,13 @@
             ]
           },
           {
+            "field": "IDR Mixed listing, unverified condition",
+            "source": "ZOOM.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
             "field": "I/O / analog ratings",
             "source": "ZOOM.md",
             "signals": [
@@ -111984,6 +112957,7 @@
             "field": "IDR Mixed listing, unverified condition",
             "source": "ZOOM.md",
             "signals": [
+              "unverified",
               "unresolved"
             ]
           }
@@ -112579,6 +113553,20 @@
             ]
           },
           {
+            "field": "IDR Condition unverified / CH MUSIC",
+            "source": "ZOOM.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "IDR Condition unverified / Eleven Music",
+            "source": "ZOOM.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
             "field": "Processing / cabinets",
             "source": "ZOOM.md",
             "signals": [
@@ -112601,6 +113589,27 @@
           },
           {
             "field": "Tuner / practice",
+            "source": "ZOOM.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "IDR Condition-unverified / jayapratamamusic",
+            "source": "ZOOM.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "IDR Condition-unverified / TOKOAUDIOPRO.COM",
+            "source": "ZOOM.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "IDR Condition-unverified / rahmattofa",
             "source": "ZOOM.md",
             "signals": [
               "unverified"
@@ -113009,7 +114018,8 @@
             "field": "IDR Condition unverified / Primanada,Kota Jakarta Utara",
             "source": "ZOOM.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -113017,6 +114027,7 @@
             "source": "ZOOM.md",
             "signals": [
               "unknown",
+              "unverified",
               "conflict"
             ]
           },
@@ -113177,14 +114188,16 @@
             "field": "IDR Condition-unverified indexed ask / IDB MUSIK PLUS",
             "source": "ZOOM.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
             "field": "IDR Condition-unverified indexed ask / LYN AUDIO",
             "source": "ZOOM.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -113265,6 +114278,7 @@
             "field": "Editor / platform wording conflict",
             "source": "ZOOM.md",
             "signals": [
+              "conflict",
               "not_established"
             ]
           }
@@ -113457,6 +114471,13 @@
             ]
           },
           {
+            "field": "Analog frequency-response conflict",
+            "source": "ZOOM.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "IDR Used",
             "source": "ZOOM.md",
             "signals": [
@@ -113545,7 +114566,8 @@
             "field": "IDR Seller-claimed new;unverified",
             "source": "ZOOM.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -113602,7 +114624,8 @@
             "field": "IDR / additional condition-unverified ask",
             "source": "ZOOM.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -113631,7 +114654,8 @@
             "field": "IDR IDR condition unverified;sold out",
             "source": "ZOOM.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -113793,9 +114817,17 @@
             ]
           },
           {
+            "field": "Memory / factory-fill conflict",
+            "source": "ZOOM.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "IDR condition unknown / sold out",
             "source": "ZOOM.md",
             "signals": [
+              "unknown",
               "unverified"
             ]
           },
@@ -114090,6 +115122,13 @@
             "signals": [
               "unknown"
             ]
+          },
+          {
+            "field": "IDR Condition unverified / PedalMonk,KotaSurakarta(Solo)",
+            "source": "ZOOM.md",
+            "signals": [
+              "unverified"
+            ]
           }
         ]
       },
@@ -114295,6 +115334,13 @@
           },
           {
             "field": "IDR Seller-labelled New",
+            "source": "ZOOM.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "IDR Condition unverified / voucher",
             "source": "ZOOM.md",
             "signals": [
               "unverified"
@@ -114555,6 +115601,27 @@
             "source": "ZOOM.md",
             "signals": [
               "question_mark"
+            ]
+          },
+          {
+            "field": "IDR Condition unverified / Serenata Galeri Musik, Kota Jakarta Selatan",
+            "source": "ZOOM.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "IDR Condition unverified / GeandPedalStore, Kab. Sleman",
+            "source": "ZOOM.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "IDR Condition unverified / Musicmen Store, Kab. Bantul",
+            "source": "ZOOM.md",
+            "signals": [
+              "unverified"
             ]
           },
           {
@@ -114958,6 +116025,13 @@
             ]
           },
           {
+            "field": "Choice / revision conflict",
+            "source": "ZOOM.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "Audio / control ports",
             "source": "ZOOM.md",
             "signals": [
@@ -115210,6 +116284,13 @@
             "source": "ZOOM.md",
             "signals": [
               "question_mark"
+            ]
+          },
+          {
+            "field": "Model choices / version conflict",
+            "source": "ZOOM.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
@@ -115476,7 +116557,8 @@
             "field": "IDR Condition-unverified cached offer",
             "source": "ZOOM.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           }
         ]
@@ -115517,7 +116599,8 @@
             "field": "Categories / DRIVE wording conflict",
             "source": "ZOOM.md",
             "signals": [
-              "unresolved"
+              "unresolved",
+              "conflict"
             ]
           },
           {
@@ -115567,7 +116650,8 @@
             "field": "IDR Seller-described used; actual condition unverified",
             "source": "ZOOM.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -115778,14 +116862,16 @@
             "field": "Processing / ARRM source conflict",
             "source": "ZOOM.md",
             "signals": [
-              "unresolved"
+              "unresolved",
+              "conflict"
             ]
           },
           {
             "field": "IDR / condition-unverified category ask",
             "source": "ZOOM.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -115854,6 +116940,13 @@
             "source": "ZOOM.md",
             "signals": [
               "unknown"
+            ]
+          },
+          {
+            "field": "IDR Condition unverified / Barang_Second_Berkualitas,Kab.Kuningan",
+            "source": "ZOOM.md",
+            "signals": [
+              "unverified"
             ]
           }
         ]
@@ -116273,6 +117366,7 @@
             "source": "ZOOM.md",
             "signals": [
               "unresolved",
+              "conflict",
               "not_established"
             ]
           },
@@ -116294,14 +117388,16 @@
             "field": "IDR Condition unverified / Kurnia Musik Semarang, Kota Semarang",
             "source": "ZOOM.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
             "field": "IDR Condition unverified / IDB MUSIK PLUS, Kota Jakarta Utara",
             "source": "ZOOM.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           }
         ]
@@ -116448,6 +117544,13 @@
             "signals": [
               "unknown"
             ]
+          },
+          {
+            "field": "IDR Condition unverified / GALERI MUSIK SIMFONI_PIM,Kota Jakarta Selatan",
+            "source": "ZOOM.md",
+            "signals": [
+              "unverified"
+            ]
           }
         ]
       },
@@ -116507,7 +117610,8 @@
             "field": "IDR Unverified / GALERI MUSIK SIMFONI_PIM,Kota Jakarta Selatan",
             "source": "ZOOM.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -116722,14 +117826,16 @@
             "field": "IDR Unverified / BERKAH ELECTRONIC & AUDIO,Kab.Purworejo",
             "source": "ZOOM.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
             "field": "IDR / additional condition-unverified ask",
             "source": "ZOOM.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           }
         ]
@@ -116811,7 +117917,8 @@
             "field": "IDR Condition-unverified indexed ask",
             "source": "ZOOM.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -117048,6 +118155,13 @@
             ]
           },
           {
+            "field": "IDR Condition unverified;**Habis**",
+            "source": "ZOOM.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
             "field": "Processing / bank choices",
             "source": "ZOOM.md",
             "signals": [
@@ -117112,7 +118226,8 @@
             "field": "IDR Condition-unverified indexed ask",
             "source": "ZOOM.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -117192,9 +118307,24 @@
             ]
           },
           {
+            "field": "IDR Condition unknown / GeandPedalStore,Kab.Sleman",
+            "source": "ZOOM.md",
+            "signals": [
+              "unknown"
+            ]
+          },
+          {
+            "field": "IDR Condition unknown / Toko Alat Musik NADA,KotaBandung",
+            "source": "ZOOM.md",
+            "signals": [
+              "unknown"
+            ]
+          },
+          {
             "field": "IDR Condition unknown / nusantaramusic,KotaPekanbaru",
             "source": "ZOOM.md",
             "signals": [
+              "unknown",
               "unresolved"
             ]
           },
@@ -117627,5 +118757,10 @@
     "destination": "NUX.md#mg-300-mkii",
     "scope": "Tenblocknames;12versus24IRcollections and101versus106dB conflicts preserved;THDNratingqualified.",
     "remaining": "Presetcapacity stillnotpublishedinretrievedtext;installedrevision applicability,power,touch,USBwordlength andqualifiednewoffers."
+  },
+  "gap_index_label_regression_20261018": {
+    "trigger": "NUX MG300MKII dynamicrange conflict labeled onlyinfield;value-onlydetector omittedit.",
+    "change": "Scanexplicituncertainty words infieldlabels plusvalues;questionmark signal remainsvalueonly;sourceURLs ignored.",
+    "validation": "Focused failingregression reproduced thenpassed;actualMKII conflict now indexed. Detectiondoesnotcertifycompletion."
   }
 }

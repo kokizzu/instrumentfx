@@ -1995,3 +1995,7 @@ research-gaps-commit:
 .PHONY: research-commit-yamaha
 research-commit-yamaha:
 	python3 scripts/yamaha_catalogue.py commit
+
+.PHONY: research-gaps-test
+research-gaps-test:
+	python3 scripts/research_gaps.py test
