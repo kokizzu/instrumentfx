@@ -108,6 +108,19 @@ Checked2026-10-19:[official manual index](https://www.hotone.com/support/1?pid=4
 | Expression / ranges | Printedpp13–14:bounds0–100,including inverted ranges;Linear,Exponential,Logarithmic curves. External-pedal calibration omits the built-in hard-press step. |
 
 
+### Ampero One — V3.1 shared-FX census, 2026-10-19
+
+[Own V3.1 manual transcription](https://fr.scribd.com/document/1067861623/Ampero-One-Online-Manual-en-Firmware-V3-1-1773037044207),printedpp23–29. Editorial count of distinct named rows;parameter modes excluded. Original document body,not mirror AI summary.
+
+| Field | Revision-specific inventory |
+|---|---|
+| Processing / V3.1 shared FX | **Dynamics12+Frequency20+Overdrive/Distortion29+Modulation23=84 named choices**,shared acrossFX1/FX2/FX3. This is not84 simultaneous effects or252unique algorithms. SavedV1.1's71 remains historical. |
+| Processing / dynamics audit | Comprosso,Comparoma4,Blue Sustainer,Squeezer,Affinity Boost,Beefy Boost,Pristine Boost,FET Boost,Enhancer,Forest Boost,Gated Boost,Micro Boost. |
+| Processing / drive audit boundary | Count treats Basshammer1/2 as separate named models;Precise Attack,Blues Butter,Magic T,Prince of Drive,Behemoth M are also listed. Model modes andparameter variations are not extra rows. |
+| Synth / V3.1 classification | Path Filter creates synth-like sound through four-step filtering;polyphonic pitch/octave effects are separately documented. Neither alone establishes a general synthesizer engine. |
+| Processing / total reconciliation | AMP,CAB,NR,EQ,DLY,RVB andSoundClone still need full V3.1 reconciliation. Do not combine84with older category totals to claim a current unique library size. |
+
+
 ## Hotone consolidation scope
 
 The six recorded Hotone models now retain their complete model findings and supporting comparison facts here. Original legacy sources remain available. Consolidation does not establish exhaustive market coverage or close unresolved specification and price fields.
