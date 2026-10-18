@@ -853,8 +853,8 @@ Checked **2026-10-17**. Amounts are historical asking observations, not transact
 
 | Price class | Amount | Exact saved observation / limits |
 |---|---:|---|
-| Condition-unverified sold-out ask | Rp2,100,000, | Checked2026-10-17. [EARWAXED, shop462045001/item25352600524](https://shopee.co.id/VOCAL-EFFECT-TC-HELICON-(MIC-MECHANIC-2)-i.462045001.25352600524), Kota Bandung: **Rp2,100,000, Habis**. Exact page reopened; last-week cache with stale October7–9 delivery. Sale/working condition,selected variation,adapter/battery bundle,warranty,shipping/tax,current stock and final total unverified;Rp10,000 late compensation is not a discount. |
-| Condition-unverified sold-out ask | Rp2,000,000, | Checked2026-10-17. [marliqueblues, shop32027047/item29205970297](https://shopee.co.id/tc-helicon-mic-mechanic-2-vocal-effect-i.32027047.29205970297), Kota Pekalongan: **Rp2,000,000, Habis** in last-week index; direct retrieval failed. October6 delivery stale. Sale/working condition,selected variation,adapter/battery bundle,warranty,shipping/tax,current stock and final total unverified;Rp10,000 late compensation is not a discount. |
+| Condition-unverified sold-out ask | Rp2,100,000 | Checked2026-10-17. [EARWAXED, shop462045001/item25352600524](https://shopee.co.id/VOCAL-EFFECT-TC-HELICON-(MIC-MECHANIC-2)-i.462045001.25352600524), Kota Bandung: **Rp2,100,000, Habis**. Exact page reopened; last-week cache with stale October7–9 delivery. Sale/working condition,selected variation,adapter/battery bundle,warranty,shipping/tax,current stock and final total unverified;Rp10,000 late compensation is not a discount. |
+| Condition-unverified sold-out ask | Rp2,000,000 | Checked2026-10-17. [marliqueblues, shop32027047/item29205970297](https://shopee.co.id/tc-helicon-mic-mechanic-2-vocal-effect-i.32027047.29205970297), Kota Pekalongan: **Rp2,000,000, Habis** in last-week index; direct retrieval failed. October6 delivery stale. Sale/working condition,selected variation,adapter/battery bundle,warranty,shipping/tax,current stock and final total unverified;Rp10,000 late compensation is not a discount. |
 | Condition-unverified indexed ask | Rp2,710,000 | Checked2026-10-17. [Zeal Musik, shop26220305/item52363985288](https://shopee.co.id/TC-Helicon-Mic-Mechanic-2-Vocal-Effects-Pedal-Efek-Vokal-Zeal-Musik-Jogja-i.26220305.52363985288), Kabupaten Sleman: **Rp2,710,000**. Exact page reopened, JS-limited and last-month cache; August26 delivery stale. Sale/working condition,selected variation,adapter/battery bundle,warranty,shipping/tax,current stock and final total unverified;Rp10,000 late compensation is not a discount. |
 | Condition-unverified indexed ask | Rp2,700,000 | Checked2026-10-17. [NEO MUSIC, shop158235298/item11311313367](https://shopee.co.id/TC-HELICON-MIC-MECHANIC-2-Vocal-Effects-Stompbox-Original-i.158235298.11311313367), Kota Sukabumi: reopened **Rp2,700,000** versus earlier two-month search cache **Rp2,670,000**; retain both observations without inferring a price trend. September4 delivery stale. Sale/working condition,selected variation,adapter/battery bundle,warranty,shipping/tax,current stock and final total unverified;Rp10,000 late compensation is not a discount. |
 
@@ -900,16 +900,18 @@ Checked **2026-10-17**; partial. Independent vocal doubling, reverb, correction 
 | Used IDR | **?** No condition-verified used hardware offer established. |
 | New IDR | **?** Exact hardware asking observations below lack verified sale condition. |
 
-<!-- comparison evidence ends -->
-
 ### Exact Shopee observations and limitations
 
 Checked **2026-10-17**; saved exact pages were reopened during discovery immediately before this model audit:
 
-- [NEO MUSIC, shop158235298/item4494020701](https://shopee.co.id/TC-HELICON-DUPLICATOR-Vocal-Effects-Doubling-Reverb-Pitch-Correction-i.158235298.4494020701), Kota Sukabumi: **Rp2,678,000**. Exact JS-limited body, last-month cache with stale September4 delivery.
-- [BEHRINGER Semarang, shop103535156/item29504097967](https://shopee.co.id/TC-HELICON-DUPLICATOR-Vocal-Effects-Doubling-Reverb-Pitch-Correction-i.103535156.29504097967), Kota Semarang: **Rp2,600,000**. Exact JS-limited body, last-month cache with stale September7 delivery.
+| Price class | Amount | Exact saved observation / limits |
+|---|---:|---|
+| Condition-unverified indexed ask | Rp2,678,000 | Checked2026-10-17. [NEO MUSIC, shop158235298/item4494020701](https://shopee.co.id/TC-HELICON-DUPLICATOR-Vocal-Effects-Doubling-Reverb-Pitch-Correction-i.158235298.4494020701), Kota Sukabumi: **Rp2,678,000**. Exact JS-limited body, last-month cache with stale September4 delivery. Sale/working condition,current stock,selected variation,adapter/battery bundle,warranty,shipping/tax and final total unknown;late compensation is not a discount. |
+| Condition-unverified indexed ask | Rp2,600,000 | Checked2026-10-17. [BEHRINGER Semarang, shop103535156/item29504097967](https://shopee.co.id/TC-HELICON-DUPLICATOR-Vocal-Effects-Doubling-Reverb-Pitch-Correction-i.103535156.29504097967), Kota Semarang: **Rp2,600,000**. Exact JS-limited body, last-month cache with stale September7 delivery. Sale/working condition,current stock,selected variation,adapter/battery bundle,warranty,shipping/tax and final total unknown;late compensation is not a discount. |
 
 Sale/working condition, current stock, selected variation, adapter/battery bundle, warranty, shipping/tax and final total remain unknown. Rp10,000 late-delivery compensation is not deducted. These are historical asking observations, not verified used/new ranges or completed sales. Seller branding does not establish manufacturer authorization or item authenticity. Full discovery provenance remains in research-state.json.
+
+<!-- comparison evidence ends -->
 
 ### Document identity and remaining work
 
