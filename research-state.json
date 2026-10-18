@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh hardware discovery / unresolved model fields",
-    "task": "MP100 V3.0 expressiontargets/ranges,sharedEXP2/FS anddry/wetUSBrecordsources recorded;IRtotal andmechanicaltoeswitch remain unresolved. ContinuefreshShopeediscoveryorfirmware-matchedeffectcensus,IRcapacityandqualifiedprices.",
+    "task": "MP100 direct Japanese manual now accessible: appendix tenIRslots/empty-slotmute,documentedpedalswitchCTRL andDSPoverload. Next audit its effect appendix with revision limits,or freshShopee discovery; do not label appendix asV5.2 or historical10slots ascurrenttotal.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -60461,6 +60461,22 @@
         "Qualifiedused/newprice"
       ],
       "method": "Previouslyidentity-matchedoriginalmanual reproduction;browsertextonly,no downloads"
+    },
+    {
+      "model": "Hotone Ampero MP-100",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://www.hotone.jp/brands/hotone/products/ampero",
+        "https://www.hotone.jp/manuals/hotone/AMPERO.pdf"
+      ],
+      "finding": "Direct manufacturer-linked57pageJPmanual nowaccessible;originalpanel identitymatch. PDFp46 UserIR71–80 andemptyslotmute;printed13 pedalswitchasCTRL;printed16 DSPOverload warning. Appendix edition unknown,currentcapacity notinferred.",
+      "remaining": [
+        "V5.2matchedlibrary/IRcapacity",
+        "Mechanicaltoeswitchconstruction",
+        "Qualifiedused/newprices",
+        "USBreturnreamping"
+      ],
+      "method": "Manufacturer originalPDFbrowsertext,no downloads/deviceexecution"
     }
   ],
   "discovery_cross_brand_bass": {

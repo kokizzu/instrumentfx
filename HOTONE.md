@@ -314,6 +314,18 @@ Checked2026-10-18 against the same identity-matched manufacturer-authored45-page
 
 IRslot total remainsunverified;do notconvert a historical“10 addedslots”searchsnippet into totalcapacity.
 
+### Ampero MP-100 — manufacturer-hosted Japanese manual
+
+Checked 2026-10-18: the [Japanese product page](https://www.hotone.jp/brands/hotone/products/ampero) links this [57-page original AMPERO manual](https://www.hotone.jp/manuals/hotone/AMPERO.pdf). Panel matches original MP-100 input selector, XLR outputs, EXP2 and18V supply. Appendix page numbering repeats; no explicit matching firmware edition established. No file downloaded or device operated.
+
+| Field | Evidence / revision qualification |
+|---|---|
+| IR / documented user slots | PDF page46 explicitly lists **User IR71–80: ten slots** for third-party files. Selecting an empty slot **mutes output**. This establishes that appendix inventory, not current V5.2 capacity or an additional ten simultaneous IRs. [Original PDF p46](https://www.hotone.jp/manuals/hotone/AMPERO.pdf) |
+| Expression / pedal switch | Printed13 documents the expression-pedal switch functioning as **CTRL**; switching it off disables the assigned parameter function while volume operation remains. Combined with prior toe-pressure calibration, switch operation is documented; internal mechanical construction remains uninspected. [Original PDF p13](https://www.hotone.jp/manuals/hotone/AMPERO.pdf) |
+| Processing / DSP ceiling | Printed16 warns effect selection/quantity can trigger **System Overload**. Keep the nine-module maximum DSP-dependent; it does not guarantee every nine-effect combination. [Original PDF p16](https://www.hotone.jp/manuals/hotone/AMPERO.pdf) |
+
+The earlier global manual-route ServerError remains historical access evidence; this Japanese route supplies an accessible manufacturer original without replacing the separate V3.0 mirror.
+
 ## Ampero II MP-350
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
