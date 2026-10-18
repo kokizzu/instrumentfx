@@ -100,3 +100,5 @@ Start with **[AGENTS.md](AGENTS.md)** and **[research-state.json](research-state
 Specs require official manufacturer documentation. Seller pages establish offers,not authoritative specs. Unknown is not No; color does not imply touch,USB does not imply bus power,and IR import does not imply NAM. Historical/sold-out/conditional prices are not current retail ranges or completed sales. Preserve currency provenance and never guess exchange rates or secondhand discounts.
 
 Continue through ordinary research and repository file commits. **Do not create,enable,dispatch,rerun or use GitHub workflows**,including as a workaround for failed downloads or merges. Keep the agent continuation state in JSON,not another progress Markdown document.
+
+Incoming expression-volume sources from origin/main87c7d38 are preserved in the category and brand records; [Strymon Iridium](STRYMON.md#iridium) remains a scope-adjacent partial lead outside active counts. Older incoming navigation/count text is retained in research-state.json public metadata, not used as current totals.

@@ -2071,3 +2071,7 @@ research-push-inspect:
 	python3 scripts/research_push.py inspect
 research-push-sync:
 	python3 scripts/research_push.py sync
+
+.PHONY: research-push-finalize
+research-push-finalize:
+	python3 scripts/research_push.py finalize

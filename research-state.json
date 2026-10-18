@@ -56260,7 +56260,930 @@
       "ownership_is_not_specification_evidence": true,
       "source_dates_not_refreshed_by_consolidation": true
     },
-    "remaining_work": "Sources retained. Incoming navigation and source retirement are not completed by this semantic consolidation."
+    "remaining_work": "Sources retained. Incoming navigation and source retirement are not completed by this semantic consolidation.",
+    "remote_87c7d38_preserved": {
+      "qualification": "Incoming2026-10-18 branch snapshot; inventory/counts superseded by current root ledger. Preserved losslessly during non-force merge; capability leads still partial.",
+      "ledger": {
+        "schema_version": 5,
+        "repository": "kokizzu/instrumentfx",
+        "branch": "main",
+        "checked_date": "2026-10-18",
+        "research_complete": false,
+        "active_model_count": 120,
+        "fully_verified_model_count": 0,
+        "excluded_model_count": 6,
+        "canonical_root_model_count": 47,
+        "legacy_only_model_count": 73,
+        "count_reconciliation": "The prior JSON/README had117 records and12 root-canonical profiles. Existing newer ALL-GUITAR.md reports120 records and47 root-canonical profiles: add previously researched Flamma FX150, NUX Cerberus NME-3 and Sonicake Sonic Wood QCE-50. Inventory list arithmetic is120 across23 brands. Existing full root consolidation adds35 profiles without new duplicates. New capability-only H90/H9 Max/POD Express Black/RP55 leads and adjacent Iridium are NOT silently admitted into these120. Nano Cortex/TONEX/B2 FOUR supplements do not constitute full legacy consolidation.",
+        "previous_count_reconciliation": "96 in the stale legacy ledger + 5 Audota + 3 Cube Baby + TRIDENT/G6/Ampero II Stomp/POD Go + G11/POD Go Wireless/POD Express Guitar/POD Express Bass/Ampero One = 113 recovered models. Add MX5, Tone Master Pro, GP-200LT and GE250 = 117. Core/Flex Prime consolidation and their updated price observations add no models. Standard POD Go is counted once.",
+        "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
+        "read_first": [
+          "AGENTS.md",
+          "research-state.json",
+          "README.md",
+          "EXPRESSION-VOLUME.md"
+        ],
+        "rules": {
+          "github_actions": "FORBIDDEN: do not create, enable, dispatch, rerun or use workflows; never create .github/workflows/ or any Actions workaround.",
+          "markdown_layout": "Root BRAND.md, CATEGORY.md and ALL-INSTRUMENT.md only, plus README.md and AGENTS.md. No new dated findings, progress parts, RESUME/history Markdown or effects/ documents.",
+          "research_priority": "Eligible multi-effects found on Shopee Indonesia, plus eligible ever-owned units. Re-search brands and series when saved leads are exhausted.",
+          "guitar_scope": "Multi-effects only; genuine bass/vocal categories retained. Dedicated-purpose pedals and FV01 excluded. Adjacent amp/cab/room capability leads require explicit scope admission rather than silent active-count inclusion.",
+          "specifications": "Manufacturer product pages, original manuals, firmware/software documentation. Sellers establish asking-price evidence, not authoritative technical specifications.",
+          "prices": "Used/new IDR separately; preserve dates, seller/item, condition, stock, region, bundle, voucher and indexed/direct-access limitations. No guessed FX or percentage-of-new used prices.",
+          "commit_policy": "Commit each model's useful findings before researching another; update affected views and this ledger. A first-pass profile with unknowns is not fully verified.",
+          "merge_policy": "Read complete source, preserve every factual qualifier and source URL, verify destination and incoming links before retiring old files. Do not merely rename progress files or change extensions and call it consolidation. No destructive history rewrite.",
+          "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock.",
+          "expression_scope": "Global calibration, global EXP position, generic MIDI support, global EQ and a master knob do not establish global volume assignment. Track signal position, min/max, bypass, headphone coverage, controller wiring and cross-preset mapping separately. Unknown is not No. Do not claim hands-on tests that were not performed."
+        },
+        "cursor": {
+          "model": "Valeton GP-200JR",
+          "destination": "VALETON.md",
+          "task": "Recheck the exact GP-200JR Shopee hardware offer, then official model-specific product/manual/firmware evidence. Do not copy GP-200LT dimensions, controls, power or NAM behavior without explicit applicability. Append the full model record, commit immediately, update instrument/category views and inventory. Never create workflows.",
+          "listing_url": "https://shopee.co.id/VALETON-GP200JR-GP-200JR-efek-digital-multi-effect-gitar-bass-i.3086066.25864478892",
+          "next_models": [
+            "HeadRush Prime",
+            "MOOER GE300"
+          ],
+          "after_queue": "Search Shopee again by remaining brand/series. Exclude preset packs, cases, controllers, unselected accessory variations and already recorded models. Continue unresolved-field research and lossless root consolidation."
+        },
+        "expression_volume_audit": {
+          "checked_date": "2026-10-18",
+          "complete": false,
+          "comparison": "EXPRESSION-VOLUME.md",
+          "scope": "No built-in expression treadle; normal-pickup audio; direct analog external EXP used as volume across presets without per-preset configuration. Preferred chassis200 W x140 D mm; headphones and onboard preset down/up tracked separately.",
+          "model_level_record_count": 10,
+          "scope_status_counts": {
+            "documented_global": 6,
+            "per_patch": 1,
+            "conditional": 1,
+            "unverified": 2
+          },
+          "coverage_warning": "120 is the existing catalogue inventory, NOT120 freshly inspected expression manuals. Ten capability records include three explicit POD Express variants and one adjacent scope-pending Iridium. Additional inherited size exclusions and unresolved leads are not fully audited matches. No new candidate has every buying criterion and current Shopee stock verified.",
+          "physical_testing_performed": false,
+          "records": [
+            {
+              "model": "Line 6 POD Express Guitar",
+              "built_in_expression": false,
+              "analog_exp": true,
+              "volume_scope": "documented_global",
+              "target": "Volume Jack: Volume/FS4; built-in Volume stage after amp/cab before post effects",
+              "headphones": true,
+              "exact_primary_footprint_verified": false,
+              "new_discovery": false,
+              "record": "LINE6.md#external-expression-volume-audit",
+              "manual": "Joint2.00 RevE explicitly covers Guitar/Bass/Black; manufacturer-authored mirrored text read; PDF rendering failed",
+              "unresolved": [
+                "primary numeric dimensions/weight",
+                "actual M-VAVE TS wiring compatibility",
+                "bypass/transition tests",
+                "final tail/looper mute not guaranteed",
+                "live stock"
+              ]
+            },
+            {
+              "model": "Line 6 POD Express Bass",
+              "built_in_expression": false,
+              "analog_exp": true,
+              "volume_scope": "documented_global",
+              "target": "Volume Jack: Volume/FS4; after amp/cab before modulation/delay",
+              "headphones": true,
+              "exact_primary_footprint_verified": false,
+              "new_discovery": false,
+              "record": "LINE6.md#external-expression-volume-audit",
+              "unresolved": [
+                "primary numeric dimensions/weight",
+                "actual controller compatibility",
+                "bypass/transition behavior",
+                "live stock"
+              ]
+            },
+            {
+              "model": "Line 6 POD Express Black",
+              "built_in_expression": false,
+              "analog_exp": true,
+              "volume_scope": "documented_global",
+              "target": "Volume Jack: Volume/FS4; after amp/cab before post effects",
+              "headphones": true,
+              "exact_primary_footprint_verified": false,
+              "new_discovery": true,
+              "inventory_status": "partial_lead_not_admitted_to120",
+              "record": "LINE6.md#pod-express-black",
+              "unresolved": [
+                "exact Shopee Indonesia hardware offer and IDR",
+                "primary numeric dimensions/weight",
+                "actual controller wiring",
+                "complete category inventory"
+              ]
+            },
+            {
+              "model": "Eventide H90",
+              "built_in_expression": false,
+              "analog_exp": true,
+              "volume_scope": "documented_global",
+              "target": "System > Global > Pedal Control > P Out Gain",
+              "dimensions_w_d_h_mm": [
+                170,
+                136,
+                68
+              ],
+              "fits_chassis_limit": true,
+              "headphones": false,
+              "new_discovery": true,
+              "inventory_status": "partial_lead_not_admitted_to120",
+              "record": "EVENTIDE.md#h90",
+              "primary_source": "https://cdn.eventideaudio.com/manuals/h90/1.9.7/content/appendix/global.html",
+              "unresolved": [
+                "full heel-down mute/range",
+                "dual-routing coverage",
+                "exact Shopee/IDR",
+                "controller compatibility",
+                "complete profile"
+              ],
+              "bypass": "Relay bypass does not pass through DSP output gain"
+            },
+            {
+              "model": "Eventide H9 Max",
+              "built_in_expression": false,
+              "analog_exp": true,
+              "volume_scope": "documented_global",
+              "target": "GLOBAL OSW / Output Swell",
+              "published_dimensions_mm": [
+                133,
+                118,
+                50
+              ],
+              "axis_label_warning": "Official product labels H/W/D unusually; all dimensions are within140 mm but axis ordering not silently rewritten",
+              "fits_chassis_limit": true,
+              "headphones": false,
+              "new_discovery": true,
+              "inventory_status": "partial_lead_not_admitted_to120",
+              "record": "EVENTIDE.md#h9-max",
+              "primary_source": "https://www.eventideaudio.com/forums/topic/h9-output-level-control-with-expression-pedal/",
+              "manual_limit": "Official manual indexed global/per-preset swell text; binary opening failed. Corrected manufacturer-hosted support discussion read; no complete PDF rendering claim.",
+              "unresolved": [
+                "mono EXP wiring versus actual M-VAVE",
+                "Pre/Post/WetDry and bypass coverage",
+                "exact Shopee offer",
+                "complete profile"
+              ]
+            },
+            {
+              "model": "Neural DSP Nano Cortex",
+              "built_in_expression": false,
+              "analog_exp": true,
+              "volume_scope": "unverified",
+              "target": "LEVEL listed as expression target; final-output and all-preset mapping scope not established",
+              "dimensions_w_d_h_mm": [
+                144,
+                103,
+                62
+              ],
+              "fits_chassis_limit": true,
+              "headphones": true,
+              "headphone_expression_coverage": "unverified",
+              "new_discovery": false,
+              "record": "NEURAL-DSP.md",
+              "primary_source": "https://neuraldsp.com/manual/nano-cortex",
+              "manual": "NanOS2.2.0 HTML",
+              "unresolved": [
+                "global assignment versus stored per-preset settings",
+                "LEVEL target interpretation",
+                "headphone coverage",
+                "actual controller",
+                "fresh Shopee/IDR"
+              ]
+            },
+            {
+              "model": "DigiTech RP55",
+              "built_in_expression": false,
+              "analog_exp": true,
+              "volume_scope": "conditional",
+              "target": "Volume only when Wah and Whammy are both off",
+              "dimensions_w_d_h_mm": [
+                165.1,
+                143.51,
+                63.5
+              ],
+              "fits_chassis_limit": false,
+              "headphones": true,
+              "headphone_socket": "Shared TRS main output",
+              "new_discovery": true,
+              "inventory_status": "partial_lead_not_admitted_to120",
+              "record": "DIGITECH.md",
+              "primary_source": "https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP55-Manual-18-0838V-A.pdf",
+              "rendered_printed_pages": [
+                20,
+                22
+              ],
+              "wiring": "TS expression or passive mono volume controller; manual explicitly says TRS expression unsupported",
+              "unresolved": [
+                "exact Shopee hardware and used/new IDR",
+                "complete profile"
+              ]
+            },
+            {
+              "model": "Zoom B2 FOUR",
+              "built_in_expression": false,
+              "analog_exp": true,
+              "volume_scope": "per_patch",
+              "target": "One pedal-category effect selected inside each patch memory",
+              "dimensions_w_d_h_mm": [
+                249,
+                146,
+                72
+              ],
+              "fits_chassis_limit": false,
+              "headphones": true,
+              "new_discovery": false,
+              "record": "ZOOM.md#b2-four--external-expression-volume-audit",
+              "primary_source": "https://zoomcorp.com/manuals/b2four-en/",
+              "correction": "Earlier184x145 mm was not this model's official size; global master knob does not globally insert a pedal effect",
+              "unresolved": [
+                "complete legacy consolidation",
+                "fresh offers"
+              ]
+            },
+            {
+              "model": "IK Multimedia TONEX Pedal",
+              "built_in_expression": false,
+              "analog_exp": true,
+              "volume_scope": "unverified",
+              "target": "Generic expression parameter control documented; global volume scope not established",
+              "dimensions_w_d_h_mm": [
+                176,
+                142,
+                55
+              ],
+              "fits_chassis_limit": false,
+              "headphones": true,
+              "new_discovery": false,
+              "record": "IK-MULTIMEDIA.md",
+              "primary_source": "https://ikmultimedia.com/products/tonexpedal",
+              "unresolved": [
+                "current manual/global volume mapping",
+                "headphone coverage",
+                "controller wiring",
+                "fresh Shopee/IDR"
+              ]
+            },
+            {
+              "model": "Strymon Iridium",
+              "built_in_expression": false,
+              "analog_exp": true,
+              "volume_scope": "documented_global",
+              "target": "Persistent device EXP mode: Volume PRE or Volume POST; POST still before ROOM",
+              "dimensions_w_d_h_mm": [
+                102,
+                114,
+                44
+              ],
+              "fits_chassis_limit": true,
+              "headphones": true,
+              "onboard_preset_up_down": false,
+              "new_discovery": true,
+              "inventory_status": "adjacent_amp_cab_room_scope_pending_not_admitted_to120",
+              "record": "STRYMON.md",
+              "primary_source": "https://www.strymon.net/faq/how-to-set-the-exp-jack-to-volume-pedal-mode-on-iridium/",
+              "manual": "https://www.strymon.net/manuals/Iridium_UserManual_RevD.pdf",
+              "rendered_printed_pages": [
+                18,
+                35,
+                39,
+                46
+              ],
+              "unresolved": [
+                "actual controller compatibility",
+                "full min/max sweep",
+                "Shopee hardware offer",
+                "scope admission",
+                "complete profile"
+              ],
+              "limitations": [
+                "Favorite and bypass rather than onboard preset up/down",
+                "shared EXP/Digital jack cannot be assumed to take direct analog expression and remote MIDI selection simultaneously",
+                "do not rely on volume in buffered bypass",
+                "POST is not final room-tail mute"
+              ]
+            }
+          ],
+          "offer_observations": [
+            {
+              "model": "Line 6 POD Express Guitar",
+              "channel": "Shopee Indonesia indexed hardware page",
+              "idr": 3099000,
+              "checked_date": "2026-10-18",
+              "url": "https://shopee.co.id/Line-6-POD-Express-Guitar-INT-P38-1-i.16879370.26763471564",
+              "qualification": "Prior2026-10-15 Rp3030000 retained; new index is not checkout stock or Black price"
+            },
+            {
+              "model": "Eventide H9 Max",
+              "channel": "Melodia Indonesia, not Shopee",
+              "idr": 11344000,
+              "checked_date": "2026-10-18",
+              "url": "https://www.melodiamusik.com/product/eventide-h9-max-harmonizer/",
+              "qualification": "Displayed regional availability only; condition/bundle and checkout stock unconfirmed; used offer unverified"
+            },
+            {
+              "model": "Strymon Iridium",
+              "channel": "Swee Lee Indonesia, not Shopee",
+              "idr": 8170000,
+              "checked_date": "2026-10-18",
+              "url": "https://www.sweelee.co.id/en/products/strymon-iridium-amp-and-ir-cab-guitar-effects-pedal",
+              "qualification": "Pre-Order Now; adapter bundle to confirm. Separate w/o-adapter recommendation is another offer and not merged. Used offer unverified"
+            }
+          ],
+          "commits": [
+            {
+              "path": "EVENTIDE.md",
+              "commit": "0d5cfa767882e8000c4c161e39920e716e00ee1d",
+              "finding": "H90 global P Out Gain"
+            },
+            {
+              "path": "EVENTIDE.md",
+              "commit": "ce90e79e107d6d6552b4ba8bf797856a95fd2af3",
+              "finding": "H9 Max OSW and local IDR"
+            },
+            {
+              "path": "NEURAL-DSP.md",
+              "commit": "5ca61c154ed21f7dee356d3fbc5e59e8639b3c99",
+              "finding": "Nano scope unknown, no false global inference"
+            },
+            {
+              "path": "DIGITECH.md",
+              "commit": "74bab27fa30209ee402529f3b5d4f8d02a7b7e38",
+              "finding": "RP55 conditional/TS-only/size"
+            },
+            {
+              "path": "LINE6.md",
+              "commit": "ea87842daff81c57a00cb25b545fbc1ff5dfd3f9",
+              "finding": "Preserved old profiles; added Black and global input-stage/wiring audit"
+            },
+            {
+              "path": "STRYMON.md",
+              "commit": "70b16c934eff3ff9b19c911dfe55529e24faab13",
+              "finding": "Iridium persistent modes and scope/workflow limitations"
+            },
+            {
+              "path": "ZOOM.md",
+              "commit": "9bdeac8d49d518a44673babca4454bce41f4b0a6",
+              "finding": "B2 FOUR size correction and per-patch distinction"
+            },
+            {
+              "path": "IK-MULTIMEDIA.md",
+              "commit": "cbd9f8028cd69c4f678348dc98380b00e691489c",
+              "finding": "TONEX142 mm depth and global-scope gap"
+            },
+            {
+              "path": "EXPRESSION-VOLUME.md",
+              "commit": "fdfe46e4b123ab1bc3c9cf390c01c2d19e855816",
+              "finding": "Cross-brand matrix, acceptance criteria, offers and remaining leads"
+            }
+          ],
+          "next_checks": [
+            "Normalize the rest of the existing no-treadle inventory without assuming a missing field is No; tag inherited versus freshly verified evidence.",
+            "Ampero Mini MP-50: retrieve current exact manual/firmware and establish whether external-volume assignment can truly be global. Official134x120 mm footprint and external input alone do not settle it.",
+            "Nano Cortex NanOS2.2.0: establish LEVEL assignment scope and headphone coverage explicitly; do not repeat calibration evidence as mapping proof.",
+            "Refresh GP-50 and HX family model-specific output/EXP mapping; distinguish system preference from global position.",
+            "Add exact current primary global-volume mapping references to existing GT-1000CORE record; already discussed, not a new discovery.",
+            "Verify actual M-VAVE controller model/resistance/polarity and TS/TRS requirements; no blanket compatibility claim.",
+            "Find exact Indonesian Shopee hardware for Black/H90/H9Max and any further qualifying compact lead. Do not replace absent listings with overseas offers, unrelated names, accessories or other variants.",
+            "Resolve source-backed POD Express dimensions/weight; do not promote unverified92x130 measurements from resellers.",
+            "Review H9 Gen2 separately; legacy Zoom/DigiTech variants require their own manuals. Iridium remains scope-adjacent, with no onboard preset-down/up.",
+            "Complete missing required profile fields before admitting new leads to active counts. Preserve the independent general cursor GP-200JR then Prime then GE300."
+          ],
+          "size_screen_inherited_from_repo": [
+            "NUX MG-200240x155",
+            "NUX TRIDENT312x164",
+            "NUX Cerberus320 mm width; depth conflict retained",
+            "M-VAVE TANK-PRO260x100",
+            "Ampero II Stomp185x145"
+          ],
+          "ownership_handling": "Exclude already-owned/donated devices from new-buy recommendations; retain them as capability references. Do not turn a purchase plan or rejected order into ownership. No private receipt data published."
+        },
+        "new_findings": [
+          {
+            "model": "HeadRush MX5",
+            "path": "HEADRUSH.md#mx5",
+            "commit": "d05c409255abc846cef541daa093d62aa6f8944e",
+            "checked_date": "2026-10-15",
+            "status": "partial",
+            "unresolved": [
+              "preset/storage ceiling",
+              "pixel resolution",
+              "explicit battery/USB power",
+              "any newer model-specific editor/capture support",
+              "condition-verified used price"
+            ]
+          },
+          {
+            "model": "Fender Tone Master Pro",
+            "path": "FENDER.md#tone-master-pro",
+            "commit": "85bc8c6b87166b251e7b5d025d5f3445709df95e",
+            "checked_date": "2026-10-15",
+            "status": "partial",
+            "unresolved": [
+              "current complete category counts",
+              "numerical block ceiling",
+              "user IR capacity/formats",
+              "auxiliary display specifications",
+              "current condition-verified used pricing"
+            ]
+          },
+          {
+            "model": "Valeton GP-200LT",
+            "path": "VALETON.md#gp-200lt",
+            "commit": "482454632b60b49390954bd7ec23b4458d55d685",
+            "checked_date": "2026-10-15",
+            "status": "partial",
+            "unresolved": [
+              "full current category inventory",
+              "explicit touch/battery/USB power",
+              "IR source-file conversion rules",
+              "capture architectures/concurrency",
+              "current stock and condition confirmation"
+            ]
+          },
+          {
+            "model": "MOOER GE250",
+            "path": "MOOER.md#ge250",
+            "commit": "9c65e37fd6b761e163ac1e0987e339db616e9d78",
+            "checked_date": "2026-10-15",
+            "status": "partial",
+            "unresolved": [
+              "complete module-button count",
+              "10 blocks versus11 module types",
+              "10 versus15 user IR capacity",
+              "current full algorithm list",
+              "70 versus150-second regional looper discrepancy",
+              "touch/USB power",
+              "current software/firmware",
+              "used prices"
+            ]
+          }
+        ],
+        "consolidation_and_price_findings": [
+          {
+            "models": [
+              "HeadRush Core",
+              "HeadRush Flex Prime"
+            ],
+            "destination": "HEADRUSH.md",
+            "commit": "b30cec0c6a31cb1dd638fa10d250489c7186d458",
+            "source_blobs": {
+              "core_finding": "dcff2b12eb7dc4196c93fdba5d8ca274d99d57f2",
+              "advanced_comparison": "f4ecc7b15636ab477803031d34bf280afa9b98dc"
+            },
+            "scope": "Complete existing model-specific facts, source URLs and limitations consolidated; Core/Flex technical dates remain2026-10-14. New Flex Prime Shopee price evidence checked2026-10-15. No duplicate model count and no old source deleted."
+          }
+        ],
+        "discovery_leads": [
+          {
+            "model": "Valeton GP-200JR",
+            "url": "https://shopee.co.id/VALETON-GP200JR-GP-200JR-efek-digital-multi-effect-gitar-bass-i.3086066.25864478892",
+            "indexed_idr": 4980000,
+            "seller": "RD Music",
+            "qualification": "Cached7October delivery; condition, accessories, region and checkout stock unverified"
+          },
+          {
+            "model": "Valeton GP-200JR",
+            "url": "https://shopee.co.id/Valeton-GP-200JR-GP200JR-GP-200-JR-Compact-Multi-Effects-Guitar-Processor-i.2655003.50205711474",
+            "indexed_idr": 4970000,
+            "qualification": "WITH VOUCHER; do not merge with unconditional asks or apply unrelated voucher compensation"
+          },
+          {
+            "model": "HeadRush Prime",
+            "url": "https://shopee.co.id/HEADRUSH-PRIME-%E2%80%93-Next-Generation-Guitar-FX-Amp-Modeler-and-Vocal-Processor-Touchscreen-Pedalboard-Original-i.945642322.52161712736",
+            "indexed_idr": 22789000,
+            "seller": "HOLY MUSIC",
+            "qualification": "Indexed hardware ask; not authenticated live stock"
+          },
+          {
+            "model": "HeadRush Prime",
+            "url": "https://shopee.co.id/Headrush-Prime-Guitar-Multi-Effect-Amp-Modelling-Processor-Second-Bekas-i.1149776042.54402465704",
+            "indexed_idr": 15400000,
+            "qualification": "Explicit SECOND/BEKAS and SOLD OUT; historical used ask, not active stock or proven completed sale"
+          },
+          {
+            "model": "MOOER GE300",
+            "url": "https://shopee.co.id/-Ready-Stock-mooer-ge300-amp-modelling-synth-multy-efek-multy-effect-mooer-Original-ge-300-i.31173885.29362925028",
+            "indexed_idr": 11928000,
+            "seller": "Vin's Music Store",
+            "qualification": "Ready Stock title has cached8May delivery; current availability not established"
+          }
+        ],
+        "inventory_by_brand": {
+          "Audota": [
+            "AME-100",
+            "AME-200",
+            "AME-200 Pro",
+            "ACE-100",
+            "AVE-100"
+          ],
+          "Boin Audio": [
+            "BG300"
+          ],
+          "BOSS": [
+            "GT-1000CORE",
+            "GX-10",
+            "GT-1",
+            "GX-1",
+            "ME-90",
+            "GX-100",
+            "GT-1000",
+            "GT-1B",
+            "GX-1B",
+            "ME-90B",
+            "VE-1",
+            "VE-2",
+            "VE-500",
+            "VE-22",
+            "VE-8",
+            "VE-20",
+            "GM-800"
+          ],
+          "CUVAVE": [
+            "H8"
+          ],
+          "Donner": [
+            "Arena2000"
+          ],
+          "Fender": [
+            "Tone Master Pro"
+          ],
+          "Flamma": [
+            "FX100",
+            "FX200",
+            "FX150"
+          ],
+          "HeadRush": [
+            "Core",
+            "Flex Prime",
+            "MX5"
+          ],
+          "Hotone": [
+            "Ampero Mini MP-50",
+            "Ampero MP-100",
+            "Ampero II MP-350",
+            "Ampero II Stage MP-380",
+            "Ampero II Stomp MP-300",
+            "Ampero One MP-80"
+          ],
+          "IK Multimedia": [
+            "TONEX ONE",
+            "TONEX Pedal"
+          ],
+          "JOYO": [
+            "GEM BOX original",
+            "GEM BOX II",
+            "GEM BOX III"
+          ],
+          "Line 6": [
+            "HX Stomp",
+            "HX Effects",
+            "HX Stomp XL",
+            "POD Go",
+            "POD Go Wireless",
+            "POD Express Guitar",
+            "POD Express Bass"
+          ],
+          "MOOER": [
+            "GE100 original",
+            "GE150 original",
+            "GE150 Pro Li",
+            "GE200 original",
+            "GE100 Pro",
+            "GE100 Pro Li",
+            "GE200 Pro",
+            "GE200 Pro Li",
+            "GE1000",
+            "GE150 Pro",
+            "GE150 Plus",
+            "GE150 Plus Li",
+            "GE150 Max",
+            "GE150 Max Li",
+            "GE1000 Li",
+            "GE250"
+          ],
+          "M-VAVE": [
+            "TANK-G",
+            "TANK-B",
+            "TANK MINI",
+            "MK-20",
+            "MK-300",
+            "TANK-PRO",
+            "ANN Blackbox",
+            "MINI-X",
+            "Pocket Amp",
+            "CUBE BABY electric",
+            "CUBE BABY AC",
+            "CUBE BABY BASS"
+          ],
+          "Neural DSP": [
+            "Nano Cortex"
+          ],
+          "NUX": [
+            "MG-101",
+            "MG-300 original",
+            "MG-300 MKII",
+            "MG-400",
+            "MG-30",
+            "MG-50Li",
+            "MG-100",
+            "MG-200",
+            "TRIDENT NME-5",
+            "Cerberus NME-3"
+          ],
+          "Roland": [
+            "GR-55"
+          ],
+          "Scorpion": [
+            "KMF-10"
+          ],
+          "Sonicake": [
+            "Matribox QME-50",
+            "Smart Box QME-20",
+            "Pocket Master QME-10",
+            "Matribox II QME-100",
+            "Matribox II Pro QME-200",
+            "Sonic Wood QCE-50"
+          ],
+          "TC-Helicon": [
+            "VoiceLive Play",
+            "Play Acoustic"
+          ],
+          "Valeton": [
+            "GP-100",
+            "GP-150",
+            "GP-5",
+            "GP-50",
+            "GP-180",
+            "GP-200",
+            "GP-200LT"
+          ],
+          "VING": [
+            "Flybro FB-100"
+          ],
+          "Zoom": [
+            "B1 FOUR",
+            "B2 FOUR",
+            "B6",
+            "B1X FOUR",
+            "V6-SP",
+            "V3",
+            "G1 FOUR",
+            "G1X FOUR",
+            "G2 FOUR",
+            "G2X FOUR",
+            "B1Xon",
+            "G6",
+            "G11"
+          ]
+        },
+        "root_brand_content": {
+          "HEADRUSH.md": [
+            "MX5",
+            "Core",
+            "Flex Prime"
+          ],
+          "FENDER.md": [
+            "Tone Master Pro"
+          ],
+          "VALETON.md": [
+            "GP-200LT"
+          ],
+          "MOOER.md": [
+            "GE250"
+          ],
+          "HOTONE.md": [
+            "Ampero One MP-80"
+          ],
+          "LINE6.md": [
+            "POD Go",
+            "POD Go Wireless",
+            "POD Express Guitar",
+            "POD Express Bass"
+          ],
+          "ZOOM.md": [
+            "G11"
+          ],
+          "DONNER.md": [
+            "Arena2000"
+          ],
+          "FLAMMA.md": [
+            "FX100",
+            "FX200",
+            "FX150"
+          ],
+          "JOYO.md": [
+            "GEM BOX original",
+            "GEM BOX II",
+            "GEM BOX III"
+          ],
+          "NUX.md": [
+            "MG-101",
+            "MG-300 original",
+            "MG-300 MKII",
+            "MG-400",
+            "MG-30",
+            "MG-50Li",
+            "MG-100",
+            "MG-200",
+            "TRIDENT NME-5",
+            "Cerberus NME-3"
+          ],
+          "M-VAVE.md": [
+            "TANK-G",
+            "TANK-B",
+            "TANK MINI",
+            "MK-20",
+            "MK-300",
+            "TANK-PRO",
+            "ANN Blackbox",
+            "MINI-X",
+            "Pocket Amp",
+            "CUBE BABY electric",
+            "CUBE BABY AC",
+            "CUBE BABY BASS"
+          ],
+          "SONICAKE.md": [
+            "Matribox QME-50",
+            "Smart Box QME-20",
+            "Pocket Master QME-10",
+            "Matribox II QME-100",
+            "Matribox II Pro QME-200",
+            "Sonic Wood QCE-50"
+          ]
+        },
+        "capability_supplements_not_full_consolidation": {
+          "LINE6.md": [
+            "POD Express Black new lead",
+            "POD Express Guitar/Bass global-volume update",
+            "HX scope caution"
+          ],
+          "EVENTIDE.md": [
+            "H90",
+            "H9 Max"
+          ],
+          "NEURAL-DSP.md": [
+            "Nano Cortex"
+          ],
+          "DIGITECH.md": [
+            "RP55"
+          ],
+          "ZOOM.md": [
+            "B2 FOUR"
+          ],
+          "IK-MULTIMEDIA.md": [
+            "TONEX Pedal"
+          ],
+          "STRYMON.md": [
+            "Iridium adjacent scope-pending lead"
+          ]
+        },
+        "instrument_views": {
+          "ALL-GUITAR.md": {
+            "record_count": 100,
+            "scope": "All currently recorded guitar/acoustic models; shared vocal/general-instrument devices can overlap other views",
+            "migration": "Root brand links where consolidated; legacy source links explicitly retained for all other models"
+          },
+          "ALL-BASS.md": {
+            "bass_focused_record_count": 11,
+            "scope": "Complete bass-focused inventory plus documented cross-instrument references; broader bass-capability classification remains partial"
+          },
+          "ALL-VOCAL.md": {
+            "record_count": 15,
+            "vocal_only_count": 9,
+            "combined_instrument_count": 6,
+            "scope": "Documented vocal or mic/line processing; mic path alone is not proof of harmony or pitch correction"
+          },
+          "MULTI-EFFECTS.md": {
+            "root_model_summary_count": 12,
+            "count_status": "Older summary-row figure not re-audited here; full-profile root count47 is a different measure",
+            "scope": "Expression/size/display comparisons and qualified IDR; not all120 technical rows"
+          },
+          "EXPRESSION-VOLUME.md": {
+            "capability_record_count": 10,
+            "complete": false,
+            "scope": "Global/per-patch/conditional/unverified direct external volume; additional pending and inherited size-screen leads"
+          },
+          "counts_overlap": true,
+          "do_not_sum_view_counts": true
+        },
+        "migration": {
+          "complete": false,
+          "legacy_effects_directory_present": true,
+          "new_progress_markdown_created": false,
+          "new_effects_directory_documents_created": false,
+          "root_category_and_instrument_views": "Created; legacy-only detailed records still require complete brand consolidation",
+          "headrush_saved_models_consolidated": true,
+          "old_sources_deleted_this_session": false,
+          "warning": "Existing ALL-GUITAR reports47 root-canonical and73 legacy-dependent profiles. New partial capability supplements do not constitute full consolidation. Read complete sources and verify all qualifiers/URLs/incoming links before deleting anything.",
+          "legacy_reference_files": [
+            "effects/research-state.json",
+            "effects/RESUME.md",
+            "effects/SCOPE.md",
+            "effects/OWNERSHIP.md",
+            "effects/METHODOLOGY.md",
+            "effects/shopee-indonesia.md"
+          ],
+          "stale_cursors_not_to_repeat": [
+            "Audota AME-100",
+            "CUBE BABY family",
+            "BOSS GT-1000CORE initial display/IDR pass",
+            "Zoom G11",
+            "Ampero One MP-80",
+            "POD Go Wireless",
+            "POD Express Guitar/Bass",
+            "HeadRush MX5",
+            "Fender Tone Master Pro",
+            "Valeton GP-200LT",
+            "MOOER GE250"
+          ]
+        },
+        "deferred_work": {
+          "original_display_idr_pages_remaining": [
+            "effects/guitar-nux.md",
+            "effects/guitar-floorboards.md",
+            "effects/bass.md",
+            "effects/vocal.md",
+            "effects/specialist.md:GM-800 only",
+            "effects/advanced-modelers.md:non-HeadRush records"
+          ],
+          "boss_review": "Existing first display/IDR pass is saved in effects/guitar-boss.md; unresolved fields remain. Do not restart from the stale legacy JSON cursor.",
+          "ownership": "21 identified entries,20 with profiles; owned2025 BlackBox revision,Zoom vocal model/bundle and RH-4 ownership remain unresolved. AME-100 ownership is not AVE-100 ownership. MG-400 rejected purchase and GP-50 backup plan are not confirmed ownership.",
+          "fields": [
+            "condition-verified used/new IDR",
+            "current complete category counts",
+            "unpublished display diagonals/touch",
+            "source conflicts",
+            "firmware-specific NAM versus conversion",
+            "power/USB operation",
+            "complete root consolidation",
+            "global expression-volume scope for remaining no-treadle inventory",
+            "actual controller electrical compatibility",
+            "bypass/headphone/tail and minimum-volume coverage"
+          ]
+        },
+        "required_fields": [
+          "built-in/external/toe expression",
+          "rotary/footswitch/button counts",
+          "separate used/new IDR",
+          "simultaneous blocks and category choices",
+          "complete I/O",
+          "factory/user/total memory",
+          "synth versus acoustic simulation",
+          "dimensions/weight",
+          "power/current/polarity/battery/USB operation",
+          "IR/native NAM/converted NAM/proprietary captures",
+          "editor OS versus driver/updater",
+          "published display diagonal",
+          "monochrome/color",
+          "touchscreen",
+          "external analog expression wiring",
+          "volume target and assignment scope",
+          "volume signal-chain location and min/max",
+          "bypass/headphone/looper/tail coverage",
+          "cross-preset and power-cycle behavior",
+          "evidence source/version and untested qualifications"
+        ],
+        "excluded_models": [
+          "Flamma FV01",
+          "BOSS SY-1",
+          "BOSS SY-200",
+          "BOSS AC-3",
+          "BOSS VO-1",
+          "BOSS XS-100"
+        ],
+        "validation": {
+          "unique_brand_model_pairs": 120,
+          "brand_count": 23,
+          "canonical_root_models": 47,
+          "legacy_only_models": 73,
+          "guitar_view_models": 100,
+          "bass_focused_models": 11,
+          "vocal_only_models": 9,
+          "vocal_view_models": 15,
+          "excluded_overlap": 0,
+          "count_method": "Existing ALL-GUITAR120/47/73 inventory reconciled with117-entry JSON by adding three already-researched models. Brand-length arithmetic120 across23 brands checked locally; canonical mapping adds35 existing root profiles to the prior12. Capability leads excluded from active totals; no full specification recertification implied.",
+          "date": "2026-10-18"
+        },
+        "previous_validation": {
+          "unique_brand_model_pairs": 117,
+          "canonical_root_models": 12,
+          "legacy_only_models": 105,
+          "guitar_view_models": 97,
+          "bass_focused_models": 11,
+          "vocal_only_models": 9,
+          "vocal_view_models": 15,
+          "excluded_overlap": 0,
+          "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
+          "date": "2026-10-15"
+        },
+        "legacy_provenance": "Earlier exact per-model commits, detailed conflicts, templates and original source/price evidence remain in legacy files and Git history. They are not refreshed or re-certified by this reconstruction.",
+        "response_handoff": "At the end of a research session provide the user a copyable agent continuation prompt with the exact current capability queue plus preserved general cursor, no-workflow boundary, root-document layout, per-model immediate commits and unresolved consolidation. Never promise unattended background continuation."
+      },
+      "readme": "# InstrumentFX — Guitar, Bass and Vocal Multi-effects\n\n**120 active model records · 23 brands · 6 excluded archival models.** All records retain explicit verification gaps; this is not exhaustive market coverage or a current-stock guarantee. Newly researched capability-only leads are tracked separately and are not silently added to these totals.\n\nSource-backed comparisons prioritize **Shopee Indonesia hardware** and every eligible multi-effects unit the owner has ever owned. Work belongs only in **kokizzu/instrumentfx**. No GitHub Actions workflows,scheduled jobs or background research are part of this project.\n\n## Browse by instrument and category\n\n| View | Contents |\n|---|---|\n| **[ALL-GUITAR.md](ALL-GUITAR.md)** |All100 recorded guitar/acoustic models,including genuine combined instrument/vocal processors; links to full records |\n| **[ALL-BASS.md](ALL-BASS.md)** |All11 bass-focused models plus documented multi-instrument cross-references; wider bass-capability classification remains open |\n| **[ALL-VOCAL.md](ALL-VOCAL.md)** |15 documented vocal/mic-path processors,with vocal-only and separate instrument paths distinguished |\n| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Expression,footprint,screen and processing comparisons,plus qualified IDR evidence; older summary-row counts are not the current full root-profile count |\n| **[EXPRESSION-VOLUME.md](EXPRESSION-VOLUME.md)** |No-built-in-treadle processors: global versus per-patch external volume, signal position, chassis fit, headphones, controller wiring and bypass limitations; ten model-level capability records plus unresolved and inherited size-screen leads |\n\nInstrument views overlap; a shared processor counts once. View counts and capability-lead counts are not added to obtain the catalogue total.\n\n## Root brand documents\n\n| Brand file | Currently consolidated models |\n|---|---|\n| [HEADRUSH.md](HEADRUSH.md) |MX5,Core,Flex Prime |\n| [FENDER.md](FENDER.md) |Tone Master Pro |\n| [VALETON.md](VALETON.md) |GP-200LT |\n| [MOOER.md](MOOER.md) |GE250 |\n| [HOTONE.md](HOTONE.md) |Ampero One MP-80 |\n| [LINE6.md](LINE6.md) |POD Go,POD Go Wireless,POD Express Guitar,POD Express Bass; separate capability supplement for Black and expression-volume behavior |\n| [ZOOM.md](ZOOM.md) |G11; separate B2 FOUR expression/footprint supplement does not replace its full legacy profile |\n| [DONNER.md](DONNER.md) |Arena2000 |\n| [FLAMMA.md](FLAMMA.md) |FX100,FX200,FX150 |\n| [JOYO.md](JOYO.md) |Original GEM BOX,GEM BOX II,GEM BOX III |\n| [NUX.md](NUX.md) |Ten existing MG/TRIDENT/Cerberus profiles |\n| [M-VAVE.md](M-VAVE.md) |Twelve existing model profiles; bass variants retain their separate identities |\n| [SONICAKE.md](SONICAKE.md) |Six existing profiles,including Sonic Wood QCE-50 |\n\n### Capability-focused brand supplements\n\n| Brand file | Scope and limitations |\n|---|---|\n| [EVENTIDE.md](EVENTIDE.md) |H90 global P Out Gain and H9 Max global Output Swell; partial new leads,not yet admitted to the120-model inventory |\n| [NEURAL-DSP.md](NEURAL-DSP.md) |Existing Nano Cortex: expression LEVEL target documented,global mapping and headphone coverage unresolved; full legacy profile still applies |\n| [DIGITECH.md](DIGITECH.md) |RP55 conditional volume,TS-only controller warning and depth exclusion; partial legacy-model lead |\n| [IK-MULTIMEDIA.md](IK-MULTIMEDIA.md) |Existing TONEX Pedal: external EXP confirmed,global volume unresolved,142 mm depth exceeds the preferred140 mm maximum |\n| [STRYMON.md](STRYMON.md) |Iridium persistent Volume PRE/POST input mode; adjacent amp/cab/room candidate with scope admission pending,not silently counted as general-purpose multi-effects |\n\nOther recorded models remain accessible through the instrument indexes while their complete source material is being consolidated into root brand documents. A capability supplement is not a completed full-profile migration. Do not create a new dated finding,progress part or document under `effects/`.\n\n## External expression-volume research\n\n**Checked2026-10-18.** The [capability comparison](EXPRESSION-VOLUME.md) distinguishes documented global assignment from per-patch configuration,conditional behavior and unresolved scope. It tracks normal-pickup input,200 W ×140 D mm chassis preference,headphones,onboard preset selection,TS/TRS controller requirements,signal-chain position and bypass/tail behavior.\n\nThe ten model-level records include the three explicitly documented POD Express variants,H90,H9 Max,Nano Cortex,RP55,B2 FOUR,TONEX Pedal and the adjacent Iridium. **This is not a claim that all120 catalogue models received a fresh manual-level audit.** New compact functional leads include POD Express Black,H90,H9 Max and Iridium,but exact Shopee offers,controller compatibility,footprint documentation or desired workflow remain unresolved for some. No physical pedal testing is claimed. No new candidate is presented as satisfying every buying criterion with verified current Shopee stock.\n\nA global calibration,global pedal-position setting,master knob or generic MIDI support is not proof of a global volume assignment. Likewise,volume before post effects is not a guaranteed final-output mute. The B2 FOUR size is corrected to249 W ×146 D mm in its new supplement; earlier184 ×145 mm wording is not its official specification.\n\nExact source URLs,firmware/manual versions,individual commits,offer dates and remaining checks are saved in **[research-state.json](research-state.json)**. Capability-only leads do not inflate the active inventory or full-consolidation counts.\n\n## Earlier saved model research\n\n| New model at the earlier research pass | Initial model commit | Evidence highlights |\n|---|---|---|\n| HeadRush MX5 |`d05c409` |Official category counts,11-slot processing,model-specific power and between-rig tail limitations |\n| Fender Tone Master Pro |`85bc8c6` |Instrument/mic routing,regional firmware-history differences,three-minute looper and documented polysynth update |\n| Valeton GP-200LT |`4824546` |Version1.8 SnapTone documentation,external-only expression,editable memory and balanced-output distinctions |\n| MOOER GE250 |`9c65e37` |Five footswitches,acoustic algorithms,one configurable MIDI socket and retained count/IR/looper conflicts |\n\nEach model in that earlier pass was committed before researching the next. Core and Flex Prime were subsequently consolidated into HEADRUSH.md,with technical observation dates retained and additional Flex Prime IDR offers saved in `b30cec0`. Consolidation and repeated prices do not add models.\n\nAll model records separate knobs/footswitches/buttons,expression,used/new IDR,simultaneous blocks versus algorithm choices,ports,presets,synth/acoustic functions,dimensions/weight,power/battery/USB,IR/native-versus-converted NAM/proprietary captures,editor platforms and screen size/color/touch. Looper,drums,scenes,routing,headphones,phantom and special pickup requirements remain included where documented. Missing fields remain explicit rather than guessed.\n\n## What remains\n\n**General research cursor: Valeton GP-200JR**, then **HeadRush Prime** and **MOOER GE300**. Exact previously found Shopee item links and their price/stock qualifications are preserved in root **[research-state.json](research-state.json)**. The newer expression-volume audit has its own remaining checks there: normalize other no-treadle records,resolve current-firmware assignment scope,verify the actual controller and find exact qualifying Shopee hardware offers. When a saved queue is exhausted,search Shopee again by brand/series rather than declaring the market complete.\n\nThe earlier inventory was reconciled from113 previously saved unique models plus the four models above to117. Newer existing brand/instrument files also contained Flamma FX150,NUX Cerberus NME-3 and Sonicake Sonic Wood QCE-50,bringing the reconciled existing inventory to120. The JSON and this README now reflect those already-researched additions. Older96/104/117 totals and old cursors remain historical,not current inventory totals. The BOSS guitar display/IDR first pass was already saved; original comparison groups still have unfinished corresponding work. A first pass is not full verification.\n\n**Organization migration is incomplete:**47 detailed existing model profiles are root-canonical;73 still rely on legacy source records. These counts reflect the existing full-profile consolidation documented in ALL-GUITAR.md; the new capability-only supplements do not count as full migrations. No old source was deleted in this audit. Preserve every fact,source URL,date,variant distinction,correction and unresolved contradiction; verify the destination and incoming links before retiring old files.\n\n## Scope and ownership\n\nFor guitars,include **multi-effects processors only**. Effects-only processors can qualify without amp modeling or a built-in pedal. Multiple modes on a dedicated-purpose pedal do not automatically qualify. **Flamma FV01,BOSS SY-1,SY-200,AC-3,VO-1 and XS-100 remain excluded** from active counts and candidate tables. Genuine bass and vocal categories remain separate; guitar-thru or chord detection alone is not guitar multi-effects. Adjacent capability leads such as Iridium are labelled as such and require explicit scope admission before entering active multi-effects counts.\n\nEver-owned coverage includes former/donated and hand-operated multi-effects. The preserved ownership overlay has21 identified entries,20 with technical profiles; the older BlackBox revision,exact Zoom vocal model/bundle and RH-4 ownership remain unresolved. AME-100 ownership does not establish AVE-100 ownership. The rejected MG-400 order and GP-50 backup plan are not confirmed purchases. Private receipt/order/payment information must not be published.\n\n## Evidence and resuming\n\nStart with **[AGENTS.md](AGENTS.md)**,**[research-state.json](research-state.json)** and the relevant category comparison. The root ledger contains the existing inventory,per-model commits,exact next leads,remaining consolidation and exclusions. Use current branch contents; never reset/force-push to a checkpoint or overwrite concurrent work.\n\nSpecs require official manufacturer documentation. Seller pages establish offers,not authoritative specs. Unknown is not No;color does not imply touch,USB does not imply bus power,and IR import does not imply NAM. Historical/sold-out/conditional prices are not current retail ranges or completed sales. Preserve currency provenance and never guess exchange rates or secondhand discounts. A local-retailer offer must not be relabelled as Shopee,and a price for one model or adapter bundle must not be transferred to another.\n\nContinue through ordinary research and repository file commits. **Do not create,enable,dispatch,rerun or use GitHub workflows**,including as a workaround for failed downloads or merges. Keep the agent continuation state in JSON,not another progress Markdown document."
+    }
   },
   "technical_followups": [
     {
@@ -121651,6 +122574,7 @@
     "current": "Hotone Ampero II Stomp MP-300 (partial)",
     "finding": "V2.5.0 manufacturer manual mirror keeps EXP under patch settings; global assignment not established. Mirror inconsistencies preserved. Exact offer remains cached September evidence; preferred depth exceeded by5mm.",
     "next": [
+      "Reconcile incoming Eventide/RP55/Iridium/TONEX/B2 FOUR capability supplements and POD Express Black lead without promoting partial leads",
       "Systematic remaining no-treadle inventory: Hotone Ampero II Stage MP-380",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"

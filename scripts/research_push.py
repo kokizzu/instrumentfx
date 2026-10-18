@@ -9,7 +9,7 @@ def git(*args):
     return subprocess.check_output(['git', *args], cwd=ROOT, text=True).strip()
 assert git('branch','--show-current') == 'main'
 assert git('remote','get-url','origin') == 'git@github.com:kokizzu/instrumentfx.git'
-if sys.argv[1] != 'inspect':
+if sys.argv[1] not in {'inspect','finalize'}:
     assert not git('status','--porcelain'), 'Dirty worktree'
 mode = sys.argv[1]
 if mode == 'inspect':
@@ -18,8 +18,21 @@ if mode == 'inspect':
     print(git('diff','--stat','HEAD...origin/main'))
     print(git('diff','HEAD...origin/main','--','AGENTS.md','Makefile'))
     names=git('diff','--name-only','HEAD...origin/main').splitlines()
-    snapshots={name:{'remote':git('show','origin/main:'+name),'base':git('show',git('merge-base','HEAD','origin/main')+':'+name) if name not in {'EXPRESSION-VOLUME.md','STRYMON.md'} else ''} for name in names}
+    snapshots={name:{'remote':git('show','origin/main:'+name),'ours':git('show','HEAD:'+name) if name in git('ls-tree','-r','--name-only','HEAD').splitlines() else '', 'base':git('show',git('merge-base','HEAD','origin/main')+':'+name) if name in git('ls-tree','-r','--name-only',git('merge-base','HEAD','origin/main')).splitlines() else ''} for name in names}
     pathlib.Path('/tmp/instrumentfx-remote-review.json').write_text(json.dumps(snapshots))
+elif mode == 'finalize':
+    sys.dont_write_bytecode=True
+    from research_tools import verify
+    import comparison_views
+    verify()
+    comparison_views.verify_views()
+    comparison_views.test_readme_brand_counts()
+    comparison_views.test_validation_counts()
+    names=['DIGITECH.md','EVENTIDE.md','EXPRESSION-VOLUME.md','IK-MULTIMEDIA.md','LINE6.md','NEURAL-DSP.md','README.md','ZOOM.md','STRYMON.md','research-state.json','scripts/research_push.py','Makefile','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md','MULTI-EFFECTS.md']
+    for name in names:
+        assert not any(line.startswith(('<<<<<<< ','=======','>>>>>>> ')) for line in (ROOT/name).read_text().splitlines()), name
+    subprocess.run(['git','add','--',*names],cwd=ROOT,check=True)
+    subprocess.run(['git','commit','-m','Merge origin/main expression research preserving current inventory and all evidence'],cwd=ROOT,check=True)
 elif mode == 'sync':
     subprocess.run(['git','merge','--no-edit','origin/main'],cwd=ROOT,check=True)
 elif mode == 'plan':

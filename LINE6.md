@@ -1806,3 +1806,39 @@ Checked2026-10-17 against the [manufacturer Floor POD/Floor POD Plus FAQ][FPP-F]
 |---|---|
 | Expression / calibration sequence | For **Plus**, hold the toe switch during power-on: FAQ says displayPC then000. At toe position pressA; at heel position pressB; pressC to inspect values, then press toe switch to inspect the effect-encoder lights. HoldTap **2seconds** to save. FAQ prints **100 after both A andB**; retain this wording rather than inventing a0/100 endpoint distinction. |
 | Expression / original-model separation | The same FAQ gives original FloorPOD a different procedure involving **DIST** and power disconnection. That sequence is not the Plus procedure. Toe-switch calibration establishes switching/position control,not an external-expression socket or extra user-memory bank. |
+
+## External expression-volume audit
+
+**Checked 2026-10-18.** These are capability-specific updates, not a recertification of every earlier field. The old consolidation paragraph's saved lead is historical; the current main research cursor remains in research-state.json.
+
+### POD Express Guitar and Bass — global mapping confirmed
+
+The manufacturer-authored joint 2.00 manual [PE-M], printed pp.14–16 and 29–33, places **Volume Jack** in **Global Settings**. Select **Volume/FS4 (expression pedal/switch)** for an expression pedal, optionally accompanied by one external switch. The pedal controls the built-in Volume stage without installing/configuring a block in each preset. This is a genuine global input assignment, not merely a global calibration or pedal-position mode.
+
+**Wiring:** a single expression pedal is illustrated with a **TS connection**; expression plus FS4 uses a dual-TS-to-TRS splitter with expression on Tip and FS4 on Ring. The physical multipurpose socket being TRS does **not** guarantee every TRS expression pedal works with a straight TRS cable. Check the actual controller's wiring and taper. Do not promise unspecified M-VAVE compatibility.
+
+**Signal coverage:** volume is **after amp/cab but before post effects**, not final master output gain. Do not promise an instant mute of existing delay/reverb or an already recorded looper. Bypass behavior and the response during every preset-transition case are not physically tested here. Global assignment and final-output muting are separate capability fields.
+
+**Fresh price observation:** on 2026-10-18 the same Guitar Shopee listing [PE-G-ID](https://shopee.co.id/Line-6-POD-Express-Guitar-INT-P38-1-i.16879370.26763471564) was indexed at **Rp3.099.000**, versus the preserved 2026-10-15 Rp3.030.000 observation. This is a dated index discrepancy/update, not proof of checkout price or stock. Do not transfer this price to Black or Bass.
+
+### POD Express Black
+
+**New capability-focused lead**, not yet included in the older inventory totals; not just the white Guitar unit in a different color. The joint 2.00 manual explicitly names Black and documents the common Global Settings and different sound library. [PE-M, PE-BL]
+
+| Field | Finding / qualification |
+|---|---|
+| Built-in expression / normal pickups | No built-in treadle; normal guitar INPUT. |
+| External analog volume | **Yes, GLOBAL Volume Jack → Volume/FS4**, same expressly documented family setting above; TS/splitter wiring caution applies. No per-preset volume-block setup required. |
+| Volume position | After amp/cab, before MOD and DELAY/REVERB/LOOPER. Not a dedicated final-output mute. |
+| Headphones / switching | Dedicated **3.5 mm stereo headphones**. Hold ON and TAP together to enter Preset Mode, then the two onboard switches scroll down/up. |
+| Library / memory | Official Black page: **7 amps, 7 cabs, 17 effects including looper; 21 overwriteable preset locations**. Distortion, Boost, Modulation and Delay/Verb are its four panel categories. This is not the white model's separate Delay plus Reverb arrangement. Exact per-model/category names and concurrent-count audit remain to complete. |
+| Physical controls / display | Official numbered panel: AMP encoder, four effect knobs and side volume; ON/TAP footswitches; ALT; LED ring rather than a graphical screen. Screen diagonal N/A; no touchscreen in the complete panel. |
+| Size / weight | **Primary-source numerical dimensions and mass remain unverified** in the inspected pages/manual. Manufacturer calls it compact/ultra-portable, but do not certify the exact 200 × 140 mm chassis fit using unverified sibling or retailer measurements. |
+| Power / USB | Family FAQ explicitly includes Black: three AA or 9 V DC supply, **not USB bus powered**. USB audio/editing documented. Complete supply details and remaining full-profile fields stay qualified by the family manual above. |
+| Shopee / IDR | Exact Black hardware listing, current Indonesian price, stock and used offer **unverified**. White Guitar/Bass offers and Thai or US listings are not substitutes. |
+
+[PE-BL] [Official POD Express Black page, including external volume, headphone jack, footswitch operation and numbered controls](https://line6.com/podexpress/guitar-effects-black). [PE-F] explicitly names all three variants. [PE-M] is the manufacturer-authored source reproduced by a document host, not the host's generated summary. Its PDF download failed again; text was inspected but no successful PDF rendering or hands-on test is claimed.
+
+### HX family distinction
+
+HX Effects, HX Stomp and HX Stomp XL remain **not certified in this audit as zero-per-preset-setup global volume solutions**. Their existing records stay intact. A Global EXP Position setting must never be treated as proof of a globally inserted volume block or output-controller assignment. A fresh firmware-matched check of output-level controller scope remains on the audit queue.
