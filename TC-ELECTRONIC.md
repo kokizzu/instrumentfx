@@ -286,6 +286,16 @@ Checked 2026-10-18 through manufacturer-hosted original indexed text;no local do
 | Processing / compressor controls | Manual pp25–26:TIMING becomes drive/threshold;FEEDBACK/DEPTH sets ratio. Attack is fixed and automatic makeup gain compensates level reduction. No adjustable attack time or numerical ratio range is established here. |
 
 
+### M350 — routing-dependent mix and input-gain ranges
+
+Checked 2026-10-18 from the [manufacturer Rev1.1/SW1.00 manual,printed pp16–17](https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf),original text only. The diagram screenshot attempt failed;no visual control count or hardware operation claimed.
+
+| Field | Evidence / qualification |
+|---|---|
+| Routing / effect mix restrictions | In Serial routing,compressor/de-esser mix is fixed100%;chorus/flanger/phaser/tremolo mix is fixed50%. MIX adjusts delay/reverb,with BALANCE adjusting their relative contribution. In Dual S/R,MIX controls overall wet/dry for both engines. These routing-dependent rules do not establish arbitrary independent wet/dry control for every algorithm. |
+| I/O / input-gain control | INPUT controls both L/R channels:analog gain spans **−10 to+14dB**,digital **−18 to+6dB**,each0dB at center. These are gain ranges,not maximum input levels or dBu nominal sensitivities;the electrical ratings remain separately documented. Unequal source levels require adjustment upstream rather than separate L/R gain knobs. |
+
+
 ## M-One XL
 
 Checked 2026-10-17; partial. [Original English manual, mirrored][M1XL-M], Rev4, product E60500152: SW2.07 XL versus1.43 Standard. Manufacturer download inaccessible; mirror adds watermarks. Text-only review.

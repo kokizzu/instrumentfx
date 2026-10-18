@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC Electronic M350",
-    "task": "Saved dated2007editorautomationprovenance,5sdelayadvertisingversusalgorithmranges andfixedcompressorattack. Next freshShopeediscovery orremainingeditorOS/buttons/display/qualifiedIDR gaps.",
+    "task": "Saved routingdependentfixedmix andlinkedanalog/digitalgainranges;diagramrenderfailed,buttoncountstillunknown. Next freshShopeediscovery orremainingdisplay/editor/qualifiedprice gaps.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75414,7 +75414,7 @@
   },
   "resume_cursor": {
     "model": "TC Electronic M350",
-    "task": "Saved dated2007editorautomationprovenance,5sdelayadvertisingversusalgorithmranges andfixedcompressorattack. Next freshShopeediscovery orremainingeditorOS/buttons/display/qualifiedIDR gaps.",
+    "task": "Saved routingdependentfixedmix andlinkedanalog/digitalgainranges;diagramrenderfailed,buttoncountstillunknown. Next freshShopeediscovery orremainingdisplay/editor/qualifiedprice gaps.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -76007,5 +76007,17 @@
       "site:shopee.co.id Boss AD-5"
     ],
     "result": "Noresults;notmarketabsence"
+  },
+  "m350_mix_gain_20261018": {
+    "source": "https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf",
+    "revision": "Rev1.1/SW1.00",
+    "pages": [
+      16,
+      17
+    ],
+    "mix": "Serialdynamics100/modulation50fixed;delayreverbMIX/BALANCE;Dualoverallwetdry",
+    "gain": "Analog−10..+14dB;digital−18..+6dB;linkedLR",
+    "visual": "RemotePDFscreenshotfailedcontenttype/notenabled;buttoncountunresolved",
+    "limits": "Gainnotlevelspec;noindependentallalgorithmwetdry"
   }
 }
