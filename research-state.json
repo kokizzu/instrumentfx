@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom B2 FOUR",
-    "task": "B2 FOUR current controls supported4knobs;FS/button totals unknown,old4/6/4 retained historical. Dated104effectaudit complete;continue remaining hardware/display/software/price gaps orfresh exact hardware discovery.114 Markdown compatibility files retained.",
+    "model": "VOX StompLab 2B",
+    "task": "Aligned2B power summary with namedKA181 evidence;officialPDF reopeningfailed,Korgspecconfirmed. StompLab1B discovery noindexedlead. Continue fresh exacthardware discovery orprimary gaps;114 Markdown compatibility files retained.",
     "next_models": [],
     "after_queue": "342 partial unique models; Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -45579,7 +45579,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B2 FOUR."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX StompLab 2B."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -58517,6 +58517,13 @@
         "https://zoomcorp.com/en/us/multi-effects/bass-effects/b2-four/",
         "https://zoomcorp.com/manuals/b2four-en/"
       ]
+    },
+    {
+      "model": "VOX StompLab 2B",
+      "checked": "2026-10-18",
+      "finding": "Synchronized stale polarityunknown summary with existing namedKA181 centernegative evidence chain;Korgspec reopened. OwnIIBPDF reopeningfailed;earlier identifiedmanual evidence retained withoutfreshrecertification.",
+      "source": "https://www.korg.com/jp/products/tuners/pitchblack_x_mini/specifications.php",
+      "discovery": "StompLab1B/IB/stomplab1b exactShopee searches returned no results;noavailability inference."
     }
   ],
   "discovery_cross_brand_bass": {

@@ -184,7 +184,7 @@ Manufacturer-hosted Japanese J1 manual viewed as browser text;printed pagination
 
 ## StompLab 2B
 
-Bass multi-effects,also named IIB/SL2B; distinct from IB/IIG. Checked2026-10-17;partial. Ownership unestablished.
+Bass multi-effects,also named IIB/SL2B; distinct from IB/IIG. Checked2026-10-18;partial. Ownership unestablished.
 
 <!-- comparison evidence begins -->
 
@@ -201,7 +201,7 @@ Bass multi-effects,also named IIB/SL2B; distinct from IB/IIG. Checked2026-10-17;
 | Factory / user memory | **120:100 read-only presets00–99+20 writable U0–U9/u0–u9**. Initial user fill unverified. | [Manual pp3,7][SL2B-M] |
 | Synth / acoustic | ACOUSTIC pedal listed;function details and dedicated synth engine unverified. | [Product][SL2B-P] |
 | I/O | Mono INPUT;shared stereo OUTPUT/PHONES;DC. NoUSB,DIN MIDI,AUX or loop in complete inventory. | [Manual pp5–6][SL2B-M]; [Product][SL2B-P] |
-| Power / battery / USB | **9VDC or4AA;approximately200mA;7.5h alkaline**. Polarity unverified;noUSB. | [Product][SL2B-P] |
+| Power / battery / USB | **9VDC or4AA;approximately200mA;7.5h alkaline**. **Center-negative through the named KA181 adapter evidence chain**,not direct inspection of the inlet marking;barrel dimensions remain unverified. NoUSB. | [Product][SL2B-P];[IIB manual p77][SL2B-M];[Korg KA181 specification](https://www.korg.com/jp/products/tuners/pitchblack_x_mini/specifications.php) |
 | IR / NAM / capture | User IR,native/converted NAM,captures unverified. | Unresolved |
 | Editor / software | Editor/platforms unverified. | Unresolved |
 | Looper / drums / live | Tuner in bypass/mute;looper,drums,scenes,trails unverified. | [Manual p3][SL2B-M] |
@@ -252,7 +252,7 @@ Checked2026-10-18.
 | Power / named adapter polarity | Exact IIB [Japanese manual p77][SL2B-M] names optional **KA181**. [Korg’s KA181 specification](https://www.korg.com/jp/products/tuners/pitchblack_x_mini/specifications.php) explicitly calls that adapter **9V,center-negative**. Thus center-negative is supported through the named compatible adapter;this is an evidence-chain inference,not visual confirmation of the StompLab inlet marking. No tuner current draw or other tuner specification is transferred. Barrel dimensions remain unverified. |
 | Physical controls / value lock | Exact IIB manual p4:holding EDIT2s in Program Select locks VALUE1/2;repeat to unlock. Lock is unavailable in Edit mode. It does not lock CATEGORY or establish stored lock persistence. |
 
-Panel screenshots failed in the browser tool;no visual control-count,display-color ortouchscreen verification is claimed. Existing text-derived K/F/B remains qualified.
+Panel screenshots failed in the browser tool;no visual control-count,display-color ortouchscreen verification is claimed. Existing text-derived K/F/B remains qualified. On2026-10-18,the official manual URL failed reopening;the earlier identified IIB evidence is retained,not newly recertified. Korg’s named-adapter page reopened andstill explicitly specifies9V center-negative;no tuner current orother tuner specification is transferred.
 
 <!-- comparison evidence ends -->
 
