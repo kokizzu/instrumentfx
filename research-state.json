@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Yamaha REV500",
-    "task": "Saved exact seller-described used Rp3.2m offer with cache/access/stock qualifications. Qualifiednew offer andremainingtechnicalgapsunknown. Next inspect saved shop DSP2024 lead againstinventory oranotherrequiredmodelgap;commit done before newmodel research.",
+    "model": "Behringer DSP2024P",
+    "task": "Saved mono-input conflict,stereoalgorithmrestrictions andhistoricalPCeditingstatement. Exact shopitem/suffix unresolved. Next primary numberedalgorithmcensus oranotherrequiredgap aftercommit.",
     "next_models": [],
     "after_queue": "349partialmodels;legacy consolidation incomplete;no downloads/workflows/push."
   },
@@ -45606,7 +45606,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Yamaha REV500."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Behringer DSP2024P."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -76179,5 +76179,25 @@
       "Alesis MIDIverb generationunresolved;do notassign toIV",
       "Other SPX andMicroVerb offers require exactitems andexistingledgerdeduplication"
     ]
+  },
+  "dsp2024p_input_editor_20261018": {
+    "source": "https://dannychesnut.com/Music/Behringer/Rev2496/DSP2024P-Manual.pdf",
+    "revision": "1.1 February2002;cover verified",
+    "pages": [
+      6,
+      25,
+      26,
+      27
+    ],
+    "findings": [
+      "MONOinput1explicitversusgeneralauxeitherchannelproseconflict",
+      "13–15/38independentchannelparameters;42–44/58/59bothinputsforoptimalstereo",
+      "HistoricalPCeditorstatementdoesnotidentifycurrentapporOS"
+    ],
+    "shop_lead": {
+      "url": "https://shopee.co.id/orderku0ta",
+      "title": "efek behringer virtualizer pro dsp2024 logo lama",
+      "result": "Shopindexonly;exactitem/Psuffix/conditionunresolved;notnewmodelorqualifiedoffer"
+    }
   }
 }

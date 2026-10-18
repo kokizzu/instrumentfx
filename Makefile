@@ -1943,3 +1943,7 @@ json-pointer-rollback-plan:
 .PHONY: research-commit-rev500
 research-commit-rev500:
 	python3 scripts/research_tools.py commit-rev500
+
+.PHONY: research-commit-dsp2024p
+research-commit-dsp2024p:
+	python3 scripts/research_tools.py commit-dsp2024p

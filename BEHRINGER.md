@@ -449,6 +449,17 @@ Checked 2026-10-18 against [manufacturer manual Version1.2][D24-M], sections2.5�
 | Category choices / filter and EQ | Filter, Parametric EQ and Graphic EQ are described; Graphic EQ has **eight bands**. These headings do not establish the number of selectable filter algorithms. [Manual][D24-M] |
 | Category choices / distortion and simulation | Vocal Distortion, Tube Distortion, Guitar Amp, Fuzz, Speaker Simulation, Ring Modulator and Lo-Fi are described. Vocal Distortion incorporates delay/flanger; Fuzz processes three frequency bands. Speaker models are factory simulations, not proof of user IR loading. [Manual][D24-M] |
 
+
+### DSP2024P — input mode and software evidence limits
+
+Checked2026-10-18 against the [manufacturer-authored Version1.1,February2002 manual](https://dannychesnut.com/Music/Behringer/Rev2496/DSP2024P-Manual.pdf),matching DSP2024P cover;printedpp6,25–27. Older revision supplements Version1.2,not installed-firmware proof. Web text only,no local download.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / mono input setup | SETUP MONO uses **input1 exclusively**. Single-aux instructions require channel1 plusMONO selection. General auxiliary prose also mentions eitherchannel;retain this conflict andfollow theexplicit mono-mode setup rather than assume eitherinput feeds both. |
+| Processing / stereo restrictions | Effects13–15 and38 expose independent left/right parameter editing. Effects42–44,58,59 require signals atbothinputs foroptimalstereo results;this isnot proof everyalgorithm preserves separate stereo channels. |
+| Editor / historical PC statement | Introduction explicitly describes MIDI programming through PC editor software,but names noapplication/version/OS. Historical editing capability is documented;current installer,Windows/macOS compatibility andsupport remain unverified. |
+
 <!-- comparison evidence ends -->
 
 [D24-M]: https://manualzz.com/doc/1522565/behringer-virtualizer-pro-dsp2024p-user-s-manual
