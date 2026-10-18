@@ -311,6 +311,13 @@ Without headphones,using only L/MONO sums stereo effects to mono. With headphone
 
 The2.00 manual has inconsistent OS-minimum tables: its introduction lists macOS11,Windows10,iOS/iPadOS15 and Android6 for editing/8 for audio,while the later editor section lists older macOS10.14 and iOS12.1. Platforms are established; **current minimum supported OS versions remain unresolved**, not selected arbitrarily from one table. The official FAQ's October2024 shipping firmware2.00 statement is dated evidence,not proof it is the latest firmware in October2026. [PE-M,PE-F]
 
+
+### POD Express Guitar — expression-volume audit, 2026-10-19
+
+**Global assignment supported, coverage qualified.** RevE/firmware2.00 manual pp14–16,23,30,34 specifies direct **TS cable** expression into VOLUME/FS3,4 and global Volume/FS4 mode: fixed Volume block,0–100%,no per-preset assignment. Global polarity reverses direction; adjustable endpoints and preset-change pedal-position handling remain unverified. Volume follows amp/cab, precedes modulation/delay/looper/reverb. **ON All/Effects bypass disables Volume**; it is not an always-active master attenuator. Headphone attenuation and existing tail/loop attenuation remain unverified; the thumbwheel's headphone/main setting is separate. Onboard **ON=previous,TAP=next** in Preset mode. [RevE original manufacturer text](https://device.report/m/308188e1724d71b19719491ca6b3176709d7ead87c9a2e25f72e6ce38aee9a57); [official PDF](https://line6.com/data/6/0a00051a59316717d96603e6a/application/pdf/POD%20Express%20Owner%27s%20Manual%20-%20English%20.pdf) exceeded web retrieval limit; no local download/hardware test. Later firmware remains unverified.
+
+Yamaha's [2024 announcement](https://www.yamaha.com/ja/news_release/2024/24030601/) rechecked2026-10-19 confirms **92 W ×130 D ×56 H mm;350g** for explicitly named Guitar/Bass. Fits preferred footprint; battery-weight basis unknown. Exact Seven Stereo shop16879370/item26763471564 Shopee URL failed retrieval2026-10-19. Preserve older Rp3.030.000/service-unavailable evidence; no refreshed stock/price claim.
+
 ### POD Express Guitar — IDR evidence
 
 **Rp3.030.000**, [Seven Stereo, Shopee shop16879370/item26763471564](https://shopee.co.id/Line-6-POD-Express-Guitar-INT-P38-1-i.16879370.26763471564), indexed2026-10-15 with **Layanan Tidak Tersedia/service unavailable**. It establishes a hardware asking-price record,not an active checkout offer. Exact condition,bundle,warranty,region,stock and shipping remain unverified. **Used IDR: ?**. No guessed used discount,FX conversion or comparison against an unrelated older Pocket POD Express.

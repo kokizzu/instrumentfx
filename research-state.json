@@ -121648,11 +121648,11 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "M-VAVE Chocolate / FootCtrlPlus controller wiring (partial)",
-    "finding": "Official PD41softwareguide distinguishes MIDI andcomputer media-volume keys;hardware mirror identifiesfootctrlplus despiteChocolate hosttitle. Actualpinout/resistance/CC routing remainsunverified;notdirectanalog processorEXP.",
+    "current": "Line 6 POD Express Guitar (partial)",
+    "finding": "Global volume assignment supported; bypass disables Volume. Manufacturer footprint fits. Headphone/tail/looper attenuation and current firmware/offer remain unverified.",
     "next": [
-      "Line 6 POD Express manufacturer dimensions",
       "Exact Shopee Indonesia offers",
+      "POD Express Bass separate model audit",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up",
       "Systematic remaining no-treadle inventory"
     ],
