@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Manufacturer technical gaps / Shopee discovery",
-    "task": "MG-30 MKII exact manufacturer specifications captured; exact Shopee offer still missing, so it remains outside active counts. Continue fresh cross-brand Shopee discovery or another active-model gap.",
+    "task": "Levitate matching original leaflet now qualifies control functions,tap timing reset andsharedTrail;physicalpanel andremainingtechnical fields stillpartial. Continue fresh Shopee discovery oranother active-model technicalgap;MG-30 MKII remains outsideinventory pendingexactoffer.",
     "next_models": [],
     "after_queue": "387 active models,46 brands,all partial;no downloads/workflows/push."
   },
@@ -120238,5 +120238,29 @@
       }
     ],
     "manufacturer_specs": "Exact-model product page saved in NUX.md under primary-source discovery lead: dimensions,mass,power/current,screen,block and amp counts,slots,IR,impedances and converter ratings."
+  },
+  "levitate_leaflet_followup_20261019": {
+    "checked_date": "2026-10-19",
+    "model": "Sonicake Levitate QDS-02",
+    "sources": [
+      "https://manuals.plus/m/2e377079d6dbef273f27dad2ad8a4a69ec62033e70eea084ccbb203be42cf107",
+      "https://www.sonicake.com/products/levitate"
+    ],
+    "identity": "Matching original SONICAKE/LEVITATE one-page leaflet transcription;exact QDS-02 mirror identity andmatching electrical/dimension figures. Not generated ASIN guide.",
+    "findings": [
+      "Six rotary functions andtwo effect footswitch instructions;provisional6/2/? withoutvisual corroboration",
+      "Delay hold enters tap-tempo;tap timing resets onTIME-knob movement orpower-off",
+      "Reverb hold enablesTrail forboth effects;exacthold threshold/deactivation unverified",
+      "Exact manufacturerFAQ explicitly rules outreverse delay"
+    ],
+    "limits": "Originalimage andmirrorPDF notinspectable;corruptOCR37g rejected in favor ofofficial371g. No newprice/stock claim. Allremaininghardware/software fields remainpartial."
+  },
+  "discovery_exact_models_20261019": {
+    "queries": [
+      "site:shopee.co.id \"Line 6 M13\" pedal",
+      "site:shopee.co.id \"MG-30 MKII\"",
+      "site:shopee.co.id \"BOSS ME-6B\""
+    ],
+    "result": "No results returned in this pass;no exact hardware offer established andno marketabsence inference."
   }
 }

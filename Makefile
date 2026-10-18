@@ -2003,3 +2003,7 @@ research-gaps-test:
 .PHONY: research-commit-digitech
 research-commit-digitech:
 	python3 scripts/digitech_catalogue.py commit
+
+.PHONY: research-commit-levitate
+research-commit-levitate:
+	python3 scripts/research_tools.py commit-levitate

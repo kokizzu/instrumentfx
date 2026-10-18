@@ -650,7 +650,7 @@ Checked 2026-10-18; partial. [Sonicake's exact product](https://www.sonicake.com
 | Field | Finding / qualification |
 |---|---|
 | Expression | Built-in/external/toe support unverified. |
-| Physical controls / K/F/B | Separate rotary/footswitch/button census pending original-panel inspection. |
+| Physical controls / K/F/B | Matching manufacturer-leaflet transcription identifies **six rotary functions**: dry level,delay level,feedback,time,reverb level,decay;two effect footswitch instructions. **Provisional 6/2/?**,not a visually corroborated panel census;separate pushbuttons unresolved. [Leaflet transcription](https://manuals.plus/m/2e377079d6dbef273f27dad2ad8a4a69ec62033e70eea084ccbb203be42cf107) |
 | Display | Diagonal,color/monochrome,touch andscreen presence unverified. |
 | Processing / category choices | **Digital delay+plate reverb**,one named algorithm each;delay maximum **2000ms**. Independent dry/wet delay adjustment. Exact routing andsimultaneous ceiling beyond these two unresolved. |
 | Memory / factory / user | Unverified. |
@@ -661,15 +661,22 @@ Checked 2026-10-18; partial. [Sonicake's exact product](https://www.sonicake.com
 | IR / NAM / captures | IR,nativeNAM,convertedNAM andproprietary capture loading unverified. |
 | Editor / software | Editor platforms,updater,USB audio/MIDI unverified. |
 | Looper / drums / scenes | Unverified. |
-| Live / bypass | Taptempo,trails andbuffered bypass documented. Precise switching sequence/manualrevision pending. |
+| Live / bypass | Buffered bypass. Leaflet:tap DELAY switches delay;hold enters tap-tempo. Tap REVERB switches reverb;hold enables Trail affecting **both delay and reverb**. Exact hold threshold,Trail deactivation andtap-mode exit remain unresolved. [Leaflet transcription](https://manuals.plus/m/2e377079d6dbef273f27dad2ad8a4a69ec62033e70eea084ccbb203be42cf107) |
+| Live / tap timing | Tapped delay timing remains until the **TIME knob is turned or power is removed**;not evidence of a stored preset or power-cycle retention. [Leaflet transcription](https://manuals.plus/m/2e377079d6dbef273f27dad2ad8a4a69ec62033e70eea084ccbb203be42cf107) |
+| Processing / reverse delay | Manufacturer exact-model FAQ explicitly says **reverse delay is unavailable**. [Sonicake FAQ](https://www.sonicake.com/products/levitate) |
 | Price / condition-unverified IDR | **Rp1.063.000**, [Seven Stereo Music & Audio Store,shop16879370/item27737519849](https://shopee.co.id/Sonicake-LEVITATE-Digital-Delay-Plate-Reverb-Guitar-Pedal-i.16879370.27737519849),KotaBandung;checked2026-10-18,two-week indexedbody withstale4–5Oct delivery. Condition/stock/bundle/warranty unverified;Rp10.000 late-delivery compensation notdiscount. |
 | Price / sold-out IDR | **Rp649.500,Habis**, [MICKEY MOUSE SHOP,shop19700013/item24354101635](https://shopee.co.id/Efek-Gitar-SONICAKE-Levitate-Delay-Reverb-Tap-Tempo-Dual-Effects-Pedal-i.19700013.24354101635),JakartaPusat;checked2026-10-18,five-month body,shoponholiday/serviceunavailable. Condition/bundle/warranty unverified. |
 | Price / new IDR | No condition-verified new offer established. |
 | Price / used IDR | No separate used offer established. |
 
-Remaining:originalmanual/panel,controls,expression,display,memories,completeI/O andloading/software;freshsellercondition/stock. Mixed-modelRp450.000 category result rejected as unresolved variant price. No download,installation orhardware test.
+Remaining:original-panel visual confirmation,separate button census,expression,display,memories,completeI/O andloading/software;exact hold thresholds andfreshsellercondition/stock. Mixed-modelRp450.000 category result rejected as unresolved variant price. No download,installation orhardware test.
 
 Levitate regional source check2026-10-18:Hotone Japan exactQDS-02 page corroborates371g,buffered bypass,trails and2s delay. [Linked Japanese original manual image](https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/Levitate_Manuel_JP.png) returned no inspectablecontent;no panel census ormanual completion claimed.
+
+
+### Levitate — matching original leaflet and temporary tap setting
+
+Checked2026-10-19 using the [manufacturer-leaflet transcription on a mirror](https://manuals.plus/m/2e377079d6dbef273f27dad2ad8a4a69ec62033e70eea084ccbb203be42cf107). SONICAKE/LEVITATE branding,exact QDS-02 document identity,and matching 9V/92mA,impedances anddimensions support identity. This is the original one-page leaflet transcription,not the mirror’s generated ASIN guide. Original manufacturer-hosted image andmirrored PDF remain uninspectable,so no visual census claimed. Corrupted OCR weight “37g” is not adopted;official371g remains. The tap-timing reset rule andswitch instructions above supersede the earlier sequence-unverified status while retaining the stated gaps.
 
 ## B Factory QDS-05
 
