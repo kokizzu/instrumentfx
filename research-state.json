@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom NEURIG",
-    "task": "Confirmed exact manufacturer announcedguitar multifx;earlyNovember launch,December capture/store plans;no exactShopeehit. Leadfacts andsupportlinks saved outsideactivecount pending fullrecord. Next read support-linked HTML manual/effect/riglists,then decide qualified inventoryadmission withoutshipping/currentstock assumptions.",
+    "task": "Saved original NEURIG manual/effect/rig audits and213entryreconciliation. Next createcanonicalrootrecord+inventorymembership withpre-releasequalification,usingreviewedscript;do not re-research anothermodel beforecommitting. Allremainingcontrols/display/OS/loop/NAMgaps explicit.",
     "next_models": [],
     "after_queue": "363active/46brands;304guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -24457,7 +24457,7 @@
       "model": "NEURIG",
       "source": "https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/neurig/",
       "status": "manufacturer-confirmed announced guitar multi-effects; detailed record pending; outside active inventory",
-      "next": "Follow manufacturer support HTML operation manual/effect list/rig list,verify pre-release scope andallrequiredfields,then create root brand record andcomparison membership with explicit availability qualifications.",
+      "next": "Build complete rootZOOM NEURIG record fromsavedprimaryaudits andproduct announcement;wireinventory/comparison/countupdates throughreviewedscript. Stillauditcontrols,diagonal/color,driverOS,looplimitations andNAMformatboundaries. NoShopeeofferestablished.",
       "checked_date": "2026-10-18",
       "availability": "Japanese product page schedules early November release. Exact Shopee Indonesia search empty;not proof of unavailability. IDR condition/stock/price unknown; no currency conversion.",
       "primary_findings": {
@@ -24468,7 +24468,45 @@
         "power_live": "Rechargeable battery up to4.5h;45s looper withoverdub/undo/redo;conditions andremaining limits pending.",
         "software": "SessionZ Pedal iOS/Android advertised;store andcapture planned forDecember. Current appavailability/OS minima unverified."
       },
-      "support_source": "https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/neurig/neurig_support/"
+      "support_source": "https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/neurig/neurig_support/",
+      "manual_audit": {
+        "source": "https://zoomcorp.com/manuals/neurig-ja/",
+        "revision": "Z2I-5930-01 ©2026",
+        "controls": "MASTER andCONTROL rotaries;fourfoot controls confirmedbyrigtable;completebutton/builtinpedal auditpending.",
+        "display": "Two240×320 touchLCDs;diagonal/explicitcolor specification unresolved.",
+        "body": "236.4W×120.6D×54.2Hmm;850g.",
+        "power": "USBbuspower;USBsupply5V2A(10W)minimum,notmeasured draw. Internal3.7Vnominal/4.2Vmax2900mAhLi-ion;~3hcharge/~4.5hruntime,conditiondependent.",
+        "audio": "48kHz;24bitAD/DA64×oversampling;32bitfloatprocessing. USB2in/2out48kHz32bitfloat/24bit;USBMIDI.",
+        "io": "MonoINPUT,RETURN/SUBIN,SEND/SUBOUT,L/Routputs;3.5mmphones/MIDIIN/OUT;CONTROL;USBC. INPUT1Mohm+12.4dBu max;RETURNINST/LINE+12.4/+18.4dBu,1Mohm. Outputs330ohm+12.4/+18.4dBu;phones24+24mW32ohm56ohm.",
+        "memory": "200userRIGs;up to14effects andfourprogramsperRIG;not800independentRIGs."
+      },
+      "effect_census": {
+        "source": "https://zoomcorp.com/manuals/neurig-fx-list-ja/",
+        "revision": "Preset1.00;Z2I-5984-01",
+        "counts": {
+          "Dynamics": 10,
+          "Filter": 15,
+          "Drive": 26,
+          "Drive_DNA": 10,
+          "Amp_Head": 22,
+          "Amp_Head_DNA": 10,
+          "Cabinet": 22,
+          "Amp_Cabinet_DNA": 10,
+          "Modulation": 26,
+          "SFX": 4,
+          "Delay": 17,
+          "Reverb": 17,
+          "Pedal": 17,
+          "Tool": 7
+        },
+        "reconciliation": "213entries=139nonamp/cab/DNA+30DNA+22conventionalamps+22cabinets. Deriveddocumentcount;notinstalledfirmwaretest.",
+        "sound": "AcousticSimulator explicitly electric-to-acoustic. Monopitch andpolypitch separatelynamed;notproof ofpolysynth."
+      },
+      "rig_audit": {
+        "source": "https://zoomcorp.com/manuals/neurig-rig-list-ja/",
+        "revision": "Preset1.00",
+        "finding": "75numberedrigs:10DNAAmp+10DNAStomp+50Song+5Routing. Program/Stompmodes specified;not75additionalprotectedslots."
+      }
     }
   ],
   "inventory_by_brand": {
