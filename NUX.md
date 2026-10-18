@@ -1446,6 +1446,10 @@ Manufacturer-authored quick-start text reproduced at [AAS-M][AAS-M], identity NM
 | Display / published metric size | PDFp3 publishes7.2cm color960×376;globalpage2.86inch. Preservepublishedrounding;touch stillunverified. |
 
 
+### Amp Academy Stomp — expression-volume audit
+
+Checked 2026-10-19 against [own current product/V2.0.5 instructions](https://nuxaudio.com/product/ampacademystomp/). External EXP/CTRL support is explicit; **global volume assignment remains unverified**. Separate global OUT LEVEL/PHONES LEVEL and Global EQ do not establish expression mapping. Position, min/max, bypass/headphone/tail/looper attenuation and controller resistance remain unknown. PRESET mode explicitly assigns **A down/C up**; SCENE and STOMP modes serve different functions. NMP-2 switch TIP/RING wiring is not expression-potentiometer pinout. Published183L×130Wmm fits a200×140 rectangle in one orientation; retain axis labels pending panel orientation check. Dedicated phones documented; diameter remains unverified. Page says “EXP out” in one feature line but EXP/CTRL elsewhere; do not infer analog control output from that wording. No new stock or hardware test.
+
 ## Atlantic NDR-5
 
 Checked 2026-10-18; partial. Independent delay/reverb and selectable routing establish multi-effects eligibility. Bass suitability unclassified.

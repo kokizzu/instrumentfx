@@ -62,6 +62,7 @@ Global **calibration**, global **pedal-position recall**, global **EQ**, a physi
 | [MOOER Prime M2](MOOER.md#prime-m2) | Yes / **No analog EXP input** in inspected manual;3.5mm MIDI separate | 125W×74Lmm; fits, axes qualified | **Fails direct analog path** | Direct EXP N/A; digital scope unverified | Direct EXP N/A; digital coverage unknown | Dedicated3.5mm TRS/TRRS; manual≤32Ω | Yes / yes left/right; exact increment qualified |
 | [MOOER Prime P2](MOOER.md#prime-p2) | Yes / **No analog EXP input**, complete manual inventory | 64W×120Lmm; fits | **Fails direct analog path**; MIDI separate | Direct EXP N/A; MIDI unverified | Direct EXP N/A; MIDI coverage unknown | Dedicated3.5mm headset/phones | **No onboard footswitches**; touchscreen and external F-series separate |
 | [MOOER Prime S1](MOOER.md#prime-s1) | Yes / **No analog EXP input**, complete manual inventory | 70.2×240mm; too deep; rotated too wide | **Fails direct analog path** | Direct EXP N/A; wireless unverified | Direct EXP N/A; wireless coverage unknown | Dedicated3.5mm | Bank pairs thenA–D; direction-source conflict retained |
+| [NUX Amp Academy Stomp NMA-3AAP](NUX.md#amp-academy-stomp) | Yes / EXP/CTRL; controller pinout unverified | 183L×130Wmm; rectangle fits, orientation qualified | **Unverified**; global output levels/EQ are separate | Position/min/max/recall unknown | Bypass/headphones/tails/looper attenuation unknown | Dedicated; diameter unverified | Yes / yes, A down/C up in PRESET mode |
 
 ## Evidence and qualification
 

@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(nux): preserve original Amp Academy partial capability lead'))
+    print(git('commit','-m','research(nux): audit Stomp expression scope and preset directions'))
