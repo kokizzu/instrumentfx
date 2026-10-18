@@ -55,6 +55,7 @@ Global **calibration**, global **pedal-position recall**, global **EQ**, a physi
 | [NUX MG-200](NUX.md#mg-200) | Yes / CTRL2 EXP or dualswitch | 240×155mm horizontal; no | **Unverified** global volume-mode persistence | Volume mode documented; position/min/max/recall unknown | Bypass/headphone/tails/looper attenuation unknown | Dedicated stereo; diameter unverified | Two preset switches; exact down/up mapping not reverified |
 | [NUX TRIDENT NME-5](NUX.md#trident-nme-5) | Yes / externalEXP | 312×164mm horizontal; no | **Unverified**; global calibration is not assignment | PEDAL/VOLUME labels; position/min/max/recall unknown | Bypass/headphone/tails/looper attenuation unknown | Dedicated6.35mm | UP/DOWN banks thenA/B/C patches |
 | [M-VAVE TANK-PRO](M-VAVE.md#tank-pro) | Yes / TRSEXP | 260×100mm; too wide | **Unverified**; PT/IP1/IP2 andLIVE labels notproof | Volume/pan mapping; position/min/max/recall unknown | Bypass/headphone/tails/looper attenuation unknown | Dedicated3.5mm | Exact down/up mapping unverified |
+| [Sonicake Pocket Master QME-10](SONICAKE.md#pocket-master-qme-10) | Yes / **No analog EXP input**, complete manual inventory | 103.5×85mm; fits | **Fails direct analog path**; MIDI separate | Direct EXP N/A; MIDI scope unaudited | Direct EXP N/A; MIDI coverage unknown | Shared6.35mm TRS stereo output | Hand preset buttons; **no onboard footswitches** |
 
 ## Evidence and qualification
 

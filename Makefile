@@ -2095,3 +2095,7 @@ expression-audit-commit-digitech:
 .PHONY: expression-audit-commit-nux
 expression-audit-commit-nux:
 	python3 scripts/expression_audit_nux.py commit
+
+.PHONY: expression-audit-commit-sonicake
+expression-audit-commit-sonicake:
+	python3 scripts/expression_audit_sonicake.py commit
