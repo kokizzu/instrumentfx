@@ -119,6 +119,8 @@ def apply():
         CHECKPOINT.write_text(json.dumps(checkpoint,indent=2)+'\n')
     removed = payload['operation'] == 'remove'
     state['migration']['json_pointer_removal'] = dict(status='removed' if removed else 'restored',checked_date='2026-10-18',records=payload['records'],rollback=payload['rollback'],source_commit=payload['source_commit'],remaining_markdown_compatibility_paths=len(list((ROOT/'effects').rglob('*.md'))))
+    state['migration']['legacy_json_retirement'].update(pointer_files_removed=removed,no_source_deletion=not removed)
+    state['migration']['content_consolidation_status'] = 'All117 original legacy paths accounted for;three JSON pointers removed after typed root reconstruction;114 Markdown compatibility files retained for historical anchors. Overall migration and technical research remain incomplete.' if removed else 'All117 legacy compatibility paths retained after JSON pointer rollback;typed root reconstruction remains verified.'
     state['cursor'].update(model='Legacy JSON pointer cleanup',task='Three redundant JSON pointers removed after exact typed-content verification; Markdown redirects remain for historical anchors. Continue technical research and audit remaining compatibility layout.',after_queue='342 partial unique models; Markdown compatibility paths retained. No downloads/workflows/push.')
     retirement.atomic_write(ROOT/'research-state.json',json.dumps(state,ensure_ascii=False,indent=2)+'\n')
     verify()

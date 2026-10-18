@@ -41971,7 +41971,8 @@
       "source_count": 3,
       "unique_snapshots": 2,
       "typed_root_content_verified": true,
-      "no_source_deletion": true
+      "no_source_deletion": false,
+      "pointer_files_removed": true
     },
     "navigation_audit": {
       "scope": "Every live local inline/reference/shortcut/definition/HTML link in root and effects Markdown;legacy JSON pointer coverage and pinned-original hashes. External availability and arbitrary JavaScript-generated links not certified.",
@@ -42232,7 +42233,7 @@
       "status": "passed",
       "remaining": "Compatibility paths and preserved historical links intentionally remain;this audit does not certify external offers or full model specifications."
     },
-    "content_consolidation_status": "All117 legacy Markdown/JSON paths accounted for;root content and pinned-original checks pass;compatibility redirects remain.",
+    "content_consolidation_status": "All117 original legacy paths accounted for;three JSON pointers removed after typed root reconstruction;114 Markdown compatibility files retained for historical anchors. Overall migration and technical research remain incomplete.",
     "preservation_repair_20261017": {
       "model": "Zoom::B1 FOUR",
       "source": "effects/bass.md",
@@ -45457,7 +45458,16 @@
       },
       "rollback": "make json-pointer-rollback-plan then make json-pointer-removal-apply",
       "source_commit": "2ff98f62f8a4f1eedf4b673aa6c64a40f28aed29",
-      "remaining_markdown_compatibility_paths": 114
+      "remaining_markdown_compatibility_paths": 114,
+      "rollback_test": {
+        "result": "passed",
+        "sequence": [
+          "remove",
+          "restore exact pointer bytes",
+          "remove same reviewed selection"
+        ],
+        "checked_date": "2026-10-18"
+      }
     }
   },
   "deferred_work": {
