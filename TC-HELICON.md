@@ -975,6 +975,13 @@ Distinct from original Touch and VoiceLive Play. Checked2026-10-18;partial. Refe
 | Looper / Erase versus Clear | Reference p.39: Home-mode Record hold1s erases without confirmation or undo. Loop Tools Erase prompts first. Erase removes loop information including length; Clear removes the selected layer's audio/overdubs but retains timing and is undoable. No device operation performed. | [Reference pp.39,43][VLT2-R] |
 | Looper / Mixdown target | Reference p.51: Mixdown consolidates layers into a selected slot and clears source layers; cannot be undone. Audible target content joins the mix; a muted target's previous content is overwritten. This frees slots, not proof of extra recording duration or persistent storage. | [Reference p.51][VLT2-R] |
 
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| I/O / analog input ratings | Mic impedance **3.08kΩ balanced/1.54kΩ unbalanced**;0dBFS input range **−42 to+4.2dBu**. Guitar **1MΩ**,−7 to+17dBu at0dBFS;Aux+2dBu at0dBFS. These are electrical ratings,not phantom-voltage evidence. | [Quick Guide p.14][VLT2-Q] |
+| I/O / output and headphone ratings | Balanced XLR/TRS outputs;balanced/unbalanced impedance **80/40Ω**;line range+2dBu. Headphones:stereo⅛-inch,16Ω,+17dBu maximum,50mW maximum asprinted;measurement conditions not established. | [Quick Guide p.14][VLT2-Q] |
+| I/O / conversion | AD/DA **24bit,128×oversampling**;published converterSNR110/115dBA respectively. These are converter specs,not verified USB bitdepth/rates. Output dynamicrange>109dB;20Hz–20kHz response+0/−0.3dB. | [Quick Guide p.14][VLT2-Q] |
+| Power / startup | No power switch;connecting supplied adapter turnsunit on. USB explicitlydoesnot powerunit. This doesnot resolve DCvoltage,polarity orcurrent. | [Quick Guide p.3][VLT2-Q] |
+
 ### Separate IDR hardware evidence
 
 | Condition | Amount / qualifications | Exact item |
