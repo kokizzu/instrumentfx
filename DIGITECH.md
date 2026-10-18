@@ -1069,9 +1069,9 @@ Checked2026-10-18;partial,bass-focused. [Product](https://digitech.com/dp/bp355/
 | Expression | Built-in assignable pedal;toe-pressure V-switch selects wah versus assigned parameter. External expression unverified. M |
 | Knobs / footswitches / buttons | **6 /3 /6**:six rotaries;Up,Down,Amp A/B feet;Edit2,Drums,Store front plus2rear Amp/Mixer buttons. Toe switch additional. M |
 | Display | Preset/parameter display and LED matrix;diagonal,color,touch unverified. M |
-| Processing / choices | **10 simultaneous effects;20amps,17cabinets,>70effects** advertised. Category census/routing limits pending. P |
+| Processing / choices | **10 simultaneous effects;20amps,17cabinets,>70effects** advertised. Category counts and restrictions below;cabinet discrepancy unresolved. P |
 | Memory | **70user+70factory=140**;users initially duplicate factory. M/P |
-| Synth / acoustic | Fretless modeling documented;full synth/acoustic simulation distinctions pending. M |
+| Synth / acoustic | Fretless and SynthTalk documented below;acoustic-body simulation unverified. M |
 | Dimensions / mass | **17.5L×8.75W×2.5H inches;6.2lb**. P/M |
 | I/O | ¼-inch TS input;L/R¼-inch unbalanced and impedance-balanced XLR outputs;⅛-inch stereo aux/headphones;USB-B;power. XLR always stereo;Left¼-inch supports mono. M |
 | Power | **PS0913B9VAC1.3A**,2.5mm pin (F),supply capacity not actual draw. DC polarity inapplicable;battery/USB power unverified. No power switch. M |
@@ -1093,7 +1093,21 @@ Checked2026-10-18;partial,bass-focused. [Product](https://digitech.com/dp/bp355/
 | Processing / amp and cabinet discrepancy | Manual lists **20amps+Direct**,agreeing with product amp count. Cabinet table lists **13models+Direct**,versus product's **17cabinets**;unresolved. Amp selection loads default cabinet,which can then change. |
 | Processing / amp channels | Amp A/B saves independent amp,cabinet,gain,level,EQ settings;this does not establish simultaneous dual amps. |
 | Processing / EQ and gate | **4EQ curves**;gate **Noise Gate OR Auto Swell**. Mid frequency300–5000Hz onboard;treble frequency500–8000Hz X-Edit-only. |
-| Processing / Chorus FX restriction | Single selected effect;pre placement is before distortion,post after gate. Complete census pending. |
+| Processing / Chorus FX restriction | Single selected effect;pre placement is before distortion,post after gate. Census below. |
+
+
+
+### BP355 — remaining effects inventory
+
+[Own manual](https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2022/09/BP355_Manual_5059482-A_original.pdf),printed pp18–26;checked2026-10-18. Editorial counts describe choices,not extra simultaneous blocks.
+
+| Field | Qualification |
+|---|---|
+| Processing / Chorus FX census | **31 choices**:chorus4,flanger4,phaser4;vibrato,rotary,VibroPan,Uni-Vibe;tremolo/panner4;envelope,FX25,AutoYa,YaYa,SynthTalk,Step Filter;Whammy,pitch,detune,harmony,octaver. One selected model. |
+| Processing / delay | **7**:Analog,DM-2,Digital,Modulated,Pong,Tape,Echoplex. Repeat Hold gives infinite repeat except DM-2/Echoplex. |
+| Processing / reverb | **5**:Ambience,Studio,Room,Hall,EMT240 plate. Do not borrow RP355's six-model count. |
+| Synth / distinctions | SynthTalk is dynamics-triggered vocal-like processing with attack,release,voice,sensitivity;not proof of a general-purpose/polyphonic synthesizer. Fretless simulation is not acoustic-body simulation. |
+| Processing / pitch | Pitch shift ±24semitones;detune ±24cents. Harmony offers14intervals and6scales. Octaver separately mixes dry,−1octave,−2octaves. |
 
 
 <!-- comparison evidence ends -->
