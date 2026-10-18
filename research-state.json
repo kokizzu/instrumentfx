@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 344,
+  "active_model_count": 345,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 344,
+  "canonical_root_model_count": 345,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "344 unique active/root-canonical; 0 legacy-only; 39 brands; six excluded; all partial.",
+  "count_reconciliation": "345 unique active/root-canonical;0 legacy-only;39brands;sixexcluded;allpartial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Korg AX3000B",
-    "task": "Live migration reference list corrected; cleanup metadata now derives active count and distinguishes remove/restore. Historical typed snapshots/114Markdown redirects retained. Next fresh hardware discovery or outstanding model verification.",
+    "model": "Yamaha DG-Stomp",
+    "task": "Added exact Yamaha manual record to guitar comparison; unknown Shopee prices. Next ownmanual expression/ports/routing/memory details, preserving12VAC supply distinction. No bass/vocal inference.",
     "next_models": [],
-    "after_queue": "344 partial unique models;114 Markdown compatibility paths retained. No downloads/workflows/push."
+    "after_queue": "345 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24667,7 +24667,8 @@
       "SPX990",
       "SPX2000",
       "SPX1000",
-      "REV500"
+      "REV500",
+      "DG-Stomp"
     ],
     "TC Electronic": [
       "M100",
@@ -25091,7 +25092,8 @@
       "SPX990",
       "SPX2000",
       "SPX1000",
-      "REV500"
+      "REV500",
+      "DG-Stomp"
     ],
     "TC-ELECTRONIC.md": [
       "M100",
@@ -25138,7 +25140,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 286,
+      "record_count": 287,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -25168,10 +25170,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 286 guitar, 149 documented bass-capable, 66 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 287 guitar, 149 documented bass-capable, 66 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "344 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "345 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -45524,10 +45526,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 344,
-    "canonical_root_models": 344,
+    "unique_brand_model_pairs": 345,
+    "canonical_root_models": 345,
     "legacy_only_models": 0,
-    "guitar_view_models": 286,
+    "guitar_view_models": 287,
     "bass_focused_models": 30,
     "vocal_only_models": 24,
     "vocal_view_models": 66,
@@ -45587,7 +45589,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX3000B."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Yamaha DG-Stomp."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -45853,6 +45855,7 @@
       "Yamaha::SPX2000",
       "Yamaha::SPX1000",
       "Yamaha::REV500",
+      "Yamaha::DG-Stomp",
       "TC Electronic::M100",
       "TC Electronic::PLETHORA X3",
       "TC Electronic::PLETHORA X5",
@@ -48601,6 +48604,13 @@
     },
     "Yamaha::REV500": {
       "link": "YAMAHA.md#rev500",
+      "source_files": [
+        "YAMAHA.md"
+      ],
+      "finding_files": []
+    },
+    "Yamaha::DG-Stomp": {
+      "link": "YAMAHA.md#dg-stomp",
       "source_files": [
         "YAMAHA.md"
       ],
@@ -58690,6 +58700,25 @@
         "EditorcurrentOS",
         "QualifiedIDR"
       ]
+    },
+    {
+      "model": "Yamaha DG-Stomp",
+      "checked_date": "2026-10-18",
+      "source": "https://usa.yamaha.com/files/download/other_assets/7/313717/dgstomp_en.pdf",
+      "pages": "29",
+      "identity": "DG-Stomp GuitarPreamplifier;MIDIchart2000-06-30;32PDFpages",
+      "finding": "15K4FS17buttons;90preset90user;AC1012VAC1000mAadapter/unit15W;model-specificeffectcategorychoices andconversion documented.",
+      "remaining": [
+        "Exact Shopee used/new",
+        "Builtinexpression/toe",
+        "Portsizes/completepowerinventory",
+        "Simultaneousceiling",
+        "Initialuserfill",
+        "EditorOS",
+        "Displaydiagonal/color/touch"
+      ],
+      "discovery": "DGStomp/AGStomp/FX500/DGSTOMP/AGSTOMP exactShopeequeriesnoexactoffer;notunavailability",
+      "method": "Browser text only;no download"
     }
   ],
   "discovery_cross_brand_bass": {

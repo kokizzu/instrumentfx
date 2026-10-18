@@ -276,3 +276,32 @@ Checked2026-10-18 against the [original Yamaha manual][R5-M],printed pp15–17 a
 | Memory / initialization | P15 initialization restores user memory **and system/MIDI settings**,including the program-change map. The manual’s backup-battery notice recommends regular external MIDI backups;LOW BATTERY indicates user-memory loss,not merely low operating charge. |
 | Editor / MIDI parameter reach | Add-2 extends the earlier CC12–16 list: **CC17–23** cover low-frequency ratio,diffusion,filters,density,liveness andearly-reflection delay. Further controls are topology-dependent in **CC24–31 and70–83**;not every parameter applies to every program. SysEx parameter numbers require Yamaha service information. Current third-party editor/platform compatibility remains unverified. |
 
+
+## DG-Stomp
+
+<!-- comparison evidence begins -->
+
+Checked2026-10-18. Guitar preamplifier with multi-effects; separate from AG-Stomp/UD-Stomp. Partial record. [Own Yamaha manual][DGS-M],32PDFpages, printed29/MIDI chart dated2000-06-30. Browser text only; no download or operation.
+
+| Field | Evidence / gaps |
+|---|---|
+| Instrument / expression | Guitar. External EXP stereo-phone socket; built-in pedal/toe mechanism unverified. EXP/MIDI controls documented. |
+| K/F/B | **15 /4 /17**, explicitly specified; rearSTAND-BY andINPUT LOW/HIGH additional. No visual count audit. |
+| Display | Three-digit seven-segment LED;17button and4footswitch LEDs. Diagonal,color,touch unknown. |
+| Dimensions / weight | **280W×184D×70H mm;2.2kg**. |
+| Processing / choices | Eight preamp channels;16speaker simulations. Compressor; MOD5(Chorus,Flanger,Phaser,Rotary,Tremolo); DLY2(Digital Delay,Tape Echo); RVB3(Spring,Hall,Plate); wah. Simultaneous ceiling unknown; category alternatives are not concurrent blocks. |
+| Factory / user memory | **90 preset +90 user**; initial user fill/protection behavior unverified. |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified; amp/effect choices do not establish either. |
+| I/O | Mono INPUT; L/MONO andR mono OUTPUT; stereo PHONES; stereo EXP; coaxial DIGITAL OUT;5-pin MIDI IN/OUT. Complete power/socket details pending. |
+| Conversion | AD20-bit+3-bit floating; DA20-bit;48kHz. Digital-output word width unknown. |
+| Power / battery / USB | **AC-10 adapter:12V AC,1000mA output; unit15W consumption**. AC has noDC center polarity; barrel dimensions andactual current unknown. Battery/USB operation unverified. Manufacturer includes adapter; seller bundle unknown. |
+| IR / NAM / capture | User IR,native/converted NAM andproprietary capture import unknown. |
+| Editor / software | Model-specific editor/platform/currentOS support unknown; MIDI functions alone do not establish aneditor. |
+| Looper / drums / live | Chromatic auto tuner anddelay tap tempo. Looper,drums,scenes,trails androuting limits unknown. |
+| Used IDR / new IDR | **Unknown / unknown**. Exact Shopee searches DG Stomp/DGSTOMP on2026-10-18 yielded no exact item;not proof of unavailability. Condition,stock,region,bundle,warranty,voucher andcheckout total unknown. |
+
+Technical rows: [manufacturer manual printed29][DGS-M]; specification fields remain distinct from real-unit testing. No bass/vocal membership inferred.
+
+<!-- comparison evidence ends -->
+
+[DGS-M]: https://usa.yamaha.com/files/download/other_assets/7/313717/dgstomp_en.pdf

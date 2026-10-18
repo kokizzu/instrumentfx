@@ -189,7 +189,7 @@ def main():
         if mode == 'commit-fx2000':
             paths += ['BEHRINGER.md']
         if mode in ('commit-spx990', 'commit-spx900'):
-            paths += ['YAMAHA.md']
+            paths += ['YAMAHA.md', 'MULTI-EFFECTS.md']
         if mode == 'commit-mx200':
             paths += ['LEXICON.md']
         if mode in ('commit-gnx3', 'commit-gnx4'):
@@ -465,7 +465,7 @@ def main():
         if mode == 'commit-spx990':
             message = 'research(yamaha): qualify SPX1000 Freeze pitch and trigger limits'
         if mode == 'commit-spx900':
-            message = 'research(yamaha): add SPX900 with original manual and qualified line-level scope'
+            message = 'research(yamaha): add DG-Stomp guitar processor with exact AC power specifications'
         if mode == 'commit-mx200':
             message = 'research(lexicon): reconcile MPX100 banks and preserve delay conflict'
         if mode == 'commit-gnx4':
