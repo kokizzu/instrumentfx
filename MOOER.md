@@ -2054,17 +2054,19 @@ Guitar/bass multi-effects;partial,checked2026-10-18. Distinct fromP2/M1. [Own ma
 | Field | Finding / qualification |
 |---|---|
 | Expression | Built-in/external/toe unverified;F-series wirelessfootswitch control documented. |
-| K/F/B | One clickable knob;foot/button totals unverified. |
+| K/F/B | One clickable CONTROL knob for volume/presets and hold-to-power; no separate footswitch/button is described in the manual layout. Visual count remains unchecked. |
 | Display | Diagonal/color/touch unverified. |
-| Processing / categories | **126effects**;basslibrary **73effects,10amps,dualchains**. Simultaneous ceiling/categorycensus unverified. |
+| Processing / categories | **126effects**;basslibrary **73effects,10amps,dualchains**. Chinese page identifies bass firmware as **V1.2**, loaded through the app; dual chains split frequency. Simultaneous ceiling/categorycensus unverified. |
 | Memory | **Four A/B/C/D tones** accessible;factoryfilled/user/total library separation unverified. |
 | Synth / acoustic | Synth unverified;acoustic/otherinstruments described asfutureupdates,not verified installed support. |
-| Dimensions / mass | Page specifies **83×42×31mm;59g**,axes unstated;manualcross-check pending. |
-| I/O | Input,output,separateheadphones,USB-C;socketdetails unverified. Bluetoothaudio playback. |
-| Power | **5V1A charging**,about2.5h. Internalpageconflict: **1900mAh/up-to4.5h** features versus **2000mAh/about4h** specs. Actualdraw,charging/playback concurrency andDCbarrelpolarity unverified. |
+| Dimensions / mass | English page specifies **83×42×31mm;59g**, axes unstated. Manufacturer manual specifies **99.3 D ×55 W ×21 H mm;100g**; Chinese page agrees on dimensions/mass without axes. Conflict retained, not averaged. |
+| I/O | Manual: **1/4-inch input 2MΩ;1/4-inch output 100Ω;1/8-inch headphones 32Ω**. USB-C charging/OTG; Bluetooth **5.0**, wireless control **2.4G**. Balanced/stereo wiring unverified. |
+| Power | **5V1A charging**,about2.5h. Internalpageconflict: **1900mAh/up-to4.5h** features versus **2000mAh/about4h** specs. Manual: **1900mAh/4.5h**; Chinese page **2000mAh/4.5h**. Manual requires **USB-C-to-A cable** for charging and OTG; phone adapter, power bank or computer USB may charge. Actual draw and charging/playback concurrency unverified; no barrel polarity established. |
 | Editor / platforms | PrimeApp iOS/Android viaBluetooth;USB-OTG recording documented,format/driverlimits unverified. [Current Prime downloads](https://www.mooeraudio.com/Downloads_xq/2.html) lists P1 forAndroid/HarmonyOS APK,butdesktopStudio listsP2/S1/M1/M2,notP1;do notborrow theirdesktopeditor orNAM additions. |
 | IR / NAM / capture | MNRS-basedfactory modeling;userIR/nativeNAM/convertedNAM/capture import unverified. |
 | Practical features | Tuner,10metronomes,40drumpatterns,80slooper. Looperchannels/scenes unverified. |
 | IDR price | ExactShopeequeries foundnoqualifiedhardwareoffer. Used/new amounts,seller/item,condition,stock,bundle,warranty,voucher unverified. |
 
 <!-- comparison evidence ends -->
+
+Primary-source follow-up checked 2026-10-18: [MOOER manual, V01.2022.01.19, manufacturer-authored distributor copy](https://images.static-thomann.de/pics/atg/atgdata/document/manual/540480_me_p1_manual_en.pdf), printed pp.3–9; [MOOER Chinese P1 page](https://cn.mooeraudio.com/product/33.html). Manual identity matches P1 title, MOOER publisher and model-specific layout. CONTROL LED colors identify A/B/C/D; brightness follows volume, slow blinking warns of low battery; charge LED is red while charging and green when complete. These indicators do not establish a screen diagonal or touchscreen. Factory fill, category census, simultaneous processing ceiling and audio format remain unresolved.

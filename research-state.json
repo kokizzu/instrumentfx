@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER Prime P1",
-    "task": "Added P1 guitar/bass processor with battery-capacity/endurance conflict and no qualified Shopee offer. Next own manual for dimensions,power,controls,ports andchain/category limits;do not substitute P2/M1.",
+    "task": "Saved P1 manual port/control/cable details and regional body/battery conflicts. Next verify exact P1 app/effect documentation for categories, concurrency and memory, or resume fresh Shopee brand/series discovery; do not borrow P2/M1.",
     "next_models": [],
     "after_queue": "374active/46brands;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
   },
@@ -81435,5 +81435,13 @@
       "site:shopee.co.id \"Mooer Prime\" \"P1\" efek"
     ],
     "result": "No qualified exact hardware offer;manufacturer exactmodel guitar/bass scope saved."
+  },
+  "prime_p1_manual_conflicts_20261018": {
+    "sources": [
+      "https://images.static-thomann.de/pics/atg/atgdata/document/manual/540480_me_p1_manual_en.pdf",
+      "https://cn.mooeraudio.com/product/33.html"
+    ],
+    "result": "Preserved manual/English/Chinese dimensions, mass and battery conflicts; added manual connector ratings, cable requirement, controls and LED meanings. Chinese page qualifies bass firmware as V1.2.",
+    "remaining": "Processing category census/concurrency, factory memory fill, audio format, IR/NAM, expression and qualified Shopee hardware offers remain unverified."
   }
 }
