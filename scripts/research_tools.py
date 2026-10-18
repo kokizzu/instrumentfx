@@ -713,7 +713,7 @@ def main():
         if mode == 'commit-finding-audit':
             message = 'audit: reconcile B1Xon and verify registered finding-body coverage'
         if mode == 'commit-floorboard-matribox-ii-pro':
-            message = 'research(sonicake): distinguish Pro looper modes and expression limits'
+            message = 'research(sonicake): document Pro controller sharing and loop placement'
         if mode == 'commit-floorboard-matribox-ii':
             message = 'research(sonicake): preserve Matribox II electrical specifications and output conflict'
         if mode == 'commit-floorboard-union':

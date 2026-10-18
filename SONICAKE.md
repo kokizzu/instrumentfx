@@ -495,6 +495,14 @@ New prices are individual official-store observations checked **2026-10-14**, no
 | Expression / assignment limit | P9 prose permits three effect parameters per expression state,describing internalEXP1/externalEXP2 A/B states. Menu labels distinguish EXP1A,EXP1B andEXP2;external state switching/toe behavior is not independently established. Do not equate multiple destinations with three physical pedals. |
 | Live / tuner and bank modes | P11 tuner reference435–445Hz,default440;Mute/Bypass/Thru output modes. P13 BankSel Initial changes immediately;Wait stages bank selection. These are switching options,not scenes or proof of audio-tail spillover. Existing cover/body revision conflicts still apply. |
 
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / shared external socket,2026-10-18 | Printedp16 configures EXP/FS as **EXP,Single FS orDual FS**;not separate simultaneous expression and footswitch sockets. Pedal polarity and external toe switching remain unverified. [Exact Pro manual](https://www.hotone.jp/files/brands/sonicake/products/matribox-ii-pro/manual/20260803-070736-v5r131-matribox_ii_pro_jp.pdf) |
+| Live / grouped controls | P9:four CTRL functions each link one ormore modules’ on/off states. Preset Control runs on a second press of the selected preset switch. These are grouped toggles,not independently stored scenes. |
+| Routing / loop placement | P8:FX,SND andRTN function modules can move within the chain;send,return andwet/dry mix are adjustable. This does not establish arbitrary parallel chains,extra physical loops or their slot cost. |
+| Processing / global EQ | P16:four bands with20Hz–20kHz frequency,Q0.1–10 and±20dB gain;low/high cuts andlevel0–100. Defaults100/500/1000/5000Hz,Q0.7,0dB. Separate from the five selectable EQ algorithms. Existing manual revision conflicts remain. |
+
 Primary [product/download/FAQ](https://www.sonicake.com/products/matribox-ii-pro) supports both the capability statements and unresolved MIDI contradiction. Preserve each rather than choosing a convenient interpretation. Further manual work and exact regional hardware offers remain needed.
 
 <!-- comparison evidence ends -->

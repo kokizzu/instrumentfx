@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Sonicake Matribox II Pro QME-200",
-    "task": "Saved Pre90mono/Post45stereolooper,expression3parameterlimit,tuner/bankmodes. Next freshShopee discovery orremainingfirmware/import/retention/qualifiedprice gaps;Englishmanualoversizestillunread.",
+    "task": "Saved sharedEXP/FSconfiguration,CTRLgroups,movableloop and4bandglobalEQ. Next freshShopee discovery orremainingfirmware/import/retention/qualifiedprice gaps;do notduplicateknownmanualrows.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75414,7 +75414,7 @@
   },
   "resume_cursor": {
     "model": "Sonicake Matribox II Pro QME-200",
-    "task": "Saved Pre90mono/Post45stereolooper,expression3parameterlimit,tuner/bankmodes. Next freshShopee discovery orremainingfirmware/import/retention/qualifiedprice gaps;Englishmanualoversizestillunread.",
+    "task": "Saved sharedEXP/FSconfiguration,CTRLgroups,movableloop and4bandglobalEQ. Next freshShopee discovery orremainingfirmware/import/retention/qualifiedprice gaps;do notduplicateknownmanualrows.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75939,5 +75939,15 @@
       "site:shopee.co.id Zoom GFX-1"
     ],
     "result": "Noresults;notmarketabsence"
+  },
+  "matribox_ii_pro_controls_routing_20261018": {
+    "source": "https://www.hotone.jp/files/brands/sonicake/products/matribox-ii-pro/manual/20260803-070736-v5r131-matribox_ii_pro_jp.pdf",
+    "pages": [
+      8,
+      9,
+      16
+    ],
+    "findings": "SharedEXP/SingleFS/DualFS;4groupedCTRLtoggles;movableFX/SND/RTN;4bandglobalEQseparate5EQalgorithms",
+    "limits": "Noexternaltoe/polarity,scenes,parallelchain/slotcost/currentfirmwareinference"
   }
 }
