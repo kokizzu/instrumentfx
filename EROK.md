@@ -44,3 +44,33 @@ Checked2026-10-18. Original **Shenzhen Global Test Service report GTS20251010019
 The associated [manufacturer-submitted user-manual exhibit9030673](https://fccid.io/2ARCP-MK-20/User-Manual/User-Manual-9030673) is indexed as27pages,submitted2026-01-28. The directlanding returned403;only indexed metadata is established. The separate Model Difference exhibit9030686 was identified,butits originalbody remains unread. Before applying MK-20 manual details toMP-20,match the original document/panel andrecord firmware/revision limits. No MK-20 technical specifications are imported bythis discovery. No files downloaded ordevices operated.
 
 The original five-page **MK-20 external-photograph exhibit9030670**, dated2026-01-15 in the mirror index, is now browser-readable as an [original PDF](https://device.report/m/68b7c27e86a39899dd5f01e379ad324d3aee5425f1713460f6115b66555dcf53.pdf). Its extracted text identifies FCC2ARCP-MK-20 and figures1–10; it does not establish an MP-20 retail panel match. No control counts or connector labels are inferred from the text extraction. The model-difference letter and original manual PDF still returned cache misses through their actual index links. The cleaned HTML manual is a recovery lead, not a substitute for original-document/revision verification.
+
+## MP-10
+
+Checked2026-10-18; partial. Manufacturer identifies a portable guitar multi-effects unit with drums and recording. [Manufacturer](https://erokmusic.com/index.html). Bass/vocal suitability and ownership remain unverified. Seller Tank Pro wording does not establish identity with M-VAVE TANK-PRO.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression | Built-in, external and toe behavior unverified. |
+| Knobs / footswitches / buttons | Separate counts unverified; no panel visual audit. |
+| Display | Diagonal, technology, color and touch unverified. |
+| Dimensions / mass | Unit dimensions, axis order and weight unverified. |
+| Processing / choices | Guitar multi-effects identity established; simultaneous ceiling, category choices and routing unverified. |
+| Factory / user memory | Writable, protected, total and factory-filled split unverified. |
+| Synth / acoustic | Dedicated synthesis, acoustic simulation and bass library unverified. |
+| I/O | Recording advertised; full connectors, audio/MIDI channel formats and dry/reamp routing unverified. |
+| Power / battery / USB | Voltage, current, polarity, battery and USB operation unverified. Seller eight-hour title is not primary verification. |
+| IR / NAM / capture | Import formats, native/converted NAM and proprietary capture unverified; no sibling transfer. |
+| Editor / software | Applications, editing scope, desktop/mobile OS, drivers and updaters unverified. |
+| Looper / drums / live | Manufacturer advertises drums; counts, looper duration/retention, synchronization, scenes and trails unverified. |
+| Documentation | [Manufacturer downloads](https://erokmusic.com/download) indexes MP-10 Manual PDF7.0MB,2026-06-22; original contents/URL unrecovered. Date does not establish document or firmware revision. Exact product route returned an internal access error. |
+
+### Separate IDR hardware evidence
+
+| Field | Evidence / qualification |
+|---|---|
+| IDR verified used | Unknown. |
+| IDR verified new | Unknown. |
+| IDR condition-unverified hardware ask | **Rp1.399.999**, crossedRp1.699.999/18%; EROK MUSIC,shop1736925571/item45705646832. [Exact MP-10 item](https://shopee.co.id/EROK-MP-10-Multi-Efek-Gitar-Bass-Loop-Mesin-Drum-Baterai-8-Jam-%E2%80%93-Portable-Tank-Pro-Oleh-M-vave-Technology-i.1736925571.45705646832). Direct JS-limited two-month cache and week-old search cache agree on the ask,checked2026-10-18. Search also displayed Rp1.329.999 for00:00 October10,an expired teaser,not adopted. Direct delivery August15–17 conflicts with indexed October10–12; neither proves stock. Condition,new/used,working state,selected variant,region,adapter/bundle,warranty,authenticity,voucher,shipping/tax andcheckout total unverified. Late-delivery compensation is not a purchase discount. Seller affiliation and Tank Pro equivalence unverified. |
+
+No files/dependencies downloaded or software/devices operated. MP-9/MP-20/M-VAVE specifications are not borrowed.
