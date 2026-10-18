@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER GE200 Plus Li",
-    "task": "Locate exact family manual for controls, expression, dimensions and electrical specifications; verify Li-specific firmware/NAM compatibility. Then resume fresh Shopee discovery. All 390 records partial; migration incomplete.",
+    "task": "Continue exact GE200 Plus Li manual: category census, factory memory and full button count; seek Li-specific firmware/NAM evidence, then fresh Shopee discovery.390 partial; migration incomplete.",
     "next_models": [
       "MOOER::GE200 Plus Li"
     ],
@@ -121112,5 +121112,24 @@
       "site:shopee.co.id \"GE200PLUS\" \"Li\""
     ],
     "result": "No search results; no qualified IDR offer. Separate Li battery variant added using explicitly shared manufacturer evidence; Li-specific firmware/NAM compatibility remains unknown."
+  },
+  "ge200plus_li_manual_20261019": {
+    "source": "https://device.report/m/0f55d0035aa3b836aedc07bc6662d8d67aa911fb928054d16bb80ceb7706ec81",
+    "identity": "Manufacturer title explicitly both models; Warwick-origin mirror. Original 404, Rockboard unavailable. Text inspection; revision date unresolved.",
+    "resolved": [
+      "Li electrical requirements and mass",
+      "display",
+      "expression",
+      "rotary and main footswitch counts",
+      "USB format and channels",
+      "IR format"
+    ],
+    "remaining": [
+      "firmware/NAM Li compatibility",
+      "full button count",
+      "category census",
+      "factory memory",
+      "qualified IDR"
+    ]
   }
 }

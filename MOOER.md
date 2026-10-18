@@ -2193,3 +2193,19 @@ Checked 2026-10-19; partial. Separate battery variant; bass/vocal suitability an
 | IDR condition-unverified ask | Unknown. Exact Shopee queries returned no qualified offer; not proof of market absence. Seller/item, condition, stock, bundle, warranty and voucher unverified. |
 
 The shared product page explicitly names Plus Li; GE200 original/Pro specifications and standard Plus firmware/NAM announcements were not transferred. Text evidence only; no downloads or device operation.
+
+### GE200 Plus Li — exact family manual follow-up
+
+Checked 2026-10-19. [Manufacturer-authored manual reproduced from Warwick](https://device.report/m/0f55d0035aa3b836aedc07bc6662d8d67aa911fb928054d16bb80ceb7706ec81), title explicitly GE200 Plus / GE200 Plus Li; Li battery/lighting sections match the manufacturer product identity. Original Warwick URL returned 404; Rockboard copy unavailable. Text inspection only; revision date not established. The following supersedes initial unknowns.
+
+| Field | Manual evidence / qualification |
+|---|---|
+| Expression | Built-in EXP1 with toe switch; external EXP2 TRS, 10–100kΩ. |
+| Knobs / footswitches / buttons | Two knobs; three main footswitches A/B/C. Seven named function buttons plus module buttons; full button total unverified. Toe switch separate. |
+| Display | 3.5-inch color LCD; touch unverified. |
+| Dimensions / mass | 324 L ×162 W ×58 H mm; Li 1.5kg. |
+| Power / battery / USB | Li supply 9VDC 3A, center-negative; capacity specification, not measured draw. Battery 3000mAh,22.2Wh,7.4V; approximately 2h10 charging with original adapter, unit off. USB power unverified. |
+| I/O / USB | Mono quarter-inch input; two unbalanced quarter-inch outputs, two balanced XLR, stereo 3.5mm phones, EXP2, USB-C. USB2.0 audio 2-in/2-out,44.1kHz/24-bit. |
+| IR / processing | WAV44.1kHz/24-bit,≤2048 points; nine module types, not proof of simultaneous ceiling. |
+
+Printed pp.2–4,40–41 support these entries. Standard Plus has a different supply/mass; those values were not assigned to Li. Firmware/NAM, category census, factory memory and qualified IDR remain unresolved.
