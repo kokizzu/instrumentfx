@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Shopee Indonesia discovery",
-    "task": "Resume fresh brand/series discovery against current inventory. BP355 software caveats saved;cabinet conflict remains without independent manufacturer correction. Prior repeated bass/adaptor search paths recorded;vary series and exact model terms.",
+    "task": "Continue fresh cross-brand series discovery,prefer unsearched models or improve exact existing offers. DigiTech GNX2/RP300A/GSP1101 search pass yielded no qualified hardware;BP355 electrical and stomp-mode details saved.",
     "next_models": [],
-    "after_queue": "387 active models,46 brands,all partial;continue remaining technical/price gaps;no downloads/workflows/push."
+    "after_queue": "387 active models,46 brands,all partial;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -82028,7 +82028,7 @@
     "scope": "Explicit uncertainty signals in selected comparison field labels and values only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
     "model_count": 387,
     "models_with_signals": 387,
-    "flagged_field_count": 4930,
+    "flagged_field_count": 4931,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -88737,6 +88737,13 @@
             "source": "DIGITECH.md",
             "signals": [
               "unresolved"
+            ]
+          },
+          {
+            "field": "Processing / bypass and tuner",
+            "source": "DIGITECH.md",
+            "signals": [
+              "unverified"
             ]
           }
         ]
@@ -119422,7 +119429,7 @@
       "YAMAHA.md": "c3ef2f3c290ebe7173c9c36a9d6937b3e3968fbc91a3ee6ab93b1cc3a81eb2d8",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
-      "ALL-BASS.md": "4fd5a6bb230c349373b13153dab50ba77b8929f2e011ab1ca3ab89c9e88b3dea",
+      "ALL-BASS.md": "3285df5061d7f366ba8a39d40e2eac2e7505bed964816f63ca97fa4ea4f32073",
       "VING.md": "2873cd6b4d5b13c287eb839977ff782139fb5640008b9f9730ddc289d09f5b67",
       "FENDER.md": "825b3d107ed121195199f3a238cfae504e08c3f4913cd5952787df25109530c8",
       "MOSKY.md": "5fa70acc80dab7bfb6d02f5160afec1e5ee1947c8e343790309c9f78cbc0a07d",
@@ -119458,7 +119465,7 @@
       "README.md": "e3e04c39e37e48889ce034e668031566bc7111ebb0a815da82c7ddaf4f1ad124",
       "FRACTAL-AUDIO.md": "c49fc79d860c8cbe36666578a065d2015dd6a789dbe7f7852bf21aba35ce5a4c",
       "DEMONFX.md": "a477869186303c3c896d438dde6bb211e03920e6a51da4de617f5442de06e0ee",
-      "DIGITECH.md": "33091d73aa19bd7d7341fd8f63a2b44d10d72bff5c5fb7d7934f7e3a873d83f8",
+      "DIGITECH.md": "2387153db56008d185368e55395ae3ed030e14e2396e302aebe6aebb5e5e6c3f",
       "SONICAKE.md": "62950fa34680adc5b5d06dfa1ba48ab212ecb69192764372d0a280dafa77c069",
       "AMMOON.md": "b5effe57a7b3389dc05c4c2efec738c1b027590868a74e88e7dfea36686d5524",
       "NEURAL-DSP.md": "8d43ed1212434c42e554a0a3a1f32e119735387adff2eca737ec9d63f29a8479",
@@ -120020,5 +120027,17 @@
     "destination": "YAMAHA.md#magicstomp-bass",
     "result": "AFR scope/retention and historical platform limits saved.",
     "remaining": "Effectlist,concurrency,expression,screen,imports,currentsoftware andqualifiedoffers."
+  },
+  "discovery_digitech_gnx_rack_20261018": {
+    "queries": [
+      "site:shopee.co.id Digitech GNX2",
+      "site:shopee.co.id Digitech RP300A",
+      "site:shopee.co.id Digitech GSP1101"
+    ],
+    "result": "GNX search aggregations showed power adapters and unrelated collectibles,not qualifying processor hardware. No new exact used/new offer established;not market absence.",
+    "sources": [
+      "https://shopee.co.id/search?keyword=gnx&noCorrection=true",
+      "https://shopee.co.id/search?keyword=%2CgNX"
+    ]
   }
 }

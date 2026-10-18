@@ -1136,4 +1136,18 @@ Checked2026-10-18;no installer downloaded or executed.
 | Processing / cabinet follow-up | Targeted manufacturer BP355 cabinet/firmware/errata search returned existing manual,product andtranslated product,without independent corrective revision evidence. **13manual models+Direct versus17advertised cabinets remains unresolved**. Do not repeat unchanged paths as a new resolution attempt. |
 
 
+
+### BP355 — electrical ratings and footswitch modes
+
+[Own manual](https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2022/09/BP355_Manual_5059482-A_original.pdf),printed pp1–2,30–31;checked2026-10-18. Published ratings,not measurements.
+
+| Field | Qualification |
+|---|---|
+| I/O / electrical ratings | Input500kΩ;¼-inch outputs500Ω/side,+10dBu maximum;XLR1kΩ/side,+16dBu maximum;headphones13.6mW/channel into50Ω. |
+| Processing / conversion | A/D/A24-bit,44.1kHz;USB recording bit depth depends on recording-software setup. |
+| Footswitches / stomp mode | Up+Amp A/B enters/exits Stompbox mode. Down toggles distortion,Up Chorus/FX,Amp A/B delay. Preset navigation and amp-channel switching unavailable in this mode. |
+| Processing / bypass and tuner | Manufacturer specifies analog bypass via Up+Down. Hold2seconds for tuner:427–453Hz references plus dropped tunings. Manual describes muted output and pedal-controlled bass volume during tuning;powered-off pass-through unverified. |
+| Expression / calibration | Standalone recalibration preserves user presets;V-switch threshold0–200. |
+
+
 <!-- comparison evidence ends -->
