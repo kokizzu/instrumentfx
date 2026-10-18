@@ -326,6 +326,21 @@ Checked 2026-10-18: the [Japanese product page](https://www.hotone.jp/brands/hot
 
 The earlier global manual-route ServerError remains historical access evidence; this Japanese route supplies an accessible manufacturer original without replacing the separate V3.0 mirror.
 
+### Ampero MP-100 — Japanese appendix category census
+
+Checked 2026-10-18 against [manufacturer-hosted original PDF](https://www.hotone.jp/manuals/hotone/AMPERO.pdf),PDF pages33–51. Appendix edition remains unestablished; counts below are that document’s printed headings, not a V5.2 inventory. No download or execution.
+
+| Field | Category choices and counting limits |
+|---|---|
+| Category choices / shared FX | **71 = Dynamic9 + Frequency18 + Overdrive/Distortion22 + Modulation22**, shared by FX1/FX2/FX3. Count the library once, not213 unique algorithms. |
+| Category choices / AMP conflict | Header **63**; printed subcategories **Clean14 + Drive19 + HiGain22 + Bass5 + Acoustic2 =62**. Unresolved one-entry discrepancy; no invented missing model. |
+| Category choices / CAB | Header **70** includes **10 factory acoustic cabinets**. User IR71–80 are separate writable slots, not another ten factory algorithms. |
+| Category choices / NR and EQ | **NR3;EQ7**. Parameters, bands and presets do not multiply algorithm counts. |
+| Category choices / delay and reverb | **DLY20;RVB10**. Each is an alternative library, not20/10 concurrent processors. |
+| Processing / header-total reconciliation | **71+63+3+70+7+20+10=244**, derived from headers. This explains one documented counting basis but does not resolve AMP63/62, later additions, or global product240+ wording. |
+
+Nine simultaneous modules remain DSP-limited; library size and onboard patch memories remain separate.
+
 ## Ampero II MP-350
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
