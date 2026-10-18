@@ -1624,7 +1624,7 @@ Checked2026-10-17;partial;ownership unverified. Own RevC handbook;HD400-only fea
 | Preset memory | 32banks×ABCD=128locations,preloaded and overwritable. Rear Master unsaved. Additional factory library unverified. [Manual][HD300-M] |
 | Synth / acoustic | Synth and firmware-qualified bass evidence below;acoustic simulation unverified. |
 | I/O | GuitarIn,CD/MP3,¼inch unbalanced outs,XLR balanced outs,phones,L6LINK,USB,power. Remaining socket sizes/channel details pending. [Manual][HD300-M] |
-| I/O / routing | Studio cab/mic simulation;Live guitar-amp use;Dual left direct/right studio-simulated. XLR groundlift;unbalanced AMP/LINE switch. L6LINK carries audio/control. [Manual][HD300-M] |
+| I/O / routing | Studio cab/mic simulation;Live guitar-amp voicing. **Dual sends Live left and Studio right on both output pairs**; Live retains its voiced cab processing without mic simulation,not raw bypass. XLR groundlift;unbalanced AMP/LINE switch. L6LINK carries audio/control. [Handbook][HD300-M];[Advanced guide][HD300-A] |
 | I/O / advanced USB restrictions | Flash2.0+ shared guide applies to HD300 unless explicitly excepted. **24-bit;native48kHz**,converted44.1/88.2/96kHz. Stereo1–2 MainOut recording send is processed;computer playback mixes with direct monitoring to analog outputs. **All USB audio mutes while L6LINK is active**. Dry USB recording not established. [Advanced guide][HD300-A] |
 | Editor / historical audio driver | Line6 USB driver required by reviewed2012guide;MacCoreAudio,WindowsASIO/DirectSound. Driver5.7.0 drops MacOSX10.4;earlier5.1.2 supported it. Historical compatibility is not currentOS support. Editor/updater remain separate from driver. [Advanced guide][HD300-A] |
 | Looper / hold-Tap distinction | 24s **mono** looper. In Looper mode holdTap clears audio and stops playback/recording;it does not open tuner. Switch to Preset/PedalOnOff first for holdTap tuner. [Advanced guide][HD300-A] |
@@ -1641,6 +1641,16 @@ Checked2026-10-17;partial;ownership unverified. Own RevC handbook;HD400-only fea
 |---|---|---|
 | Unverified | **Rp1.500.000**,mendemkaset,shop504301607/item29822606720,Kab.Tulungagung;Habis,two months indexed crawl. | [Item][HD300-O1] |
 | Unverified mixed variations | **Rp3.699.000 unallocated**,Hope Music,shop703817770/item24703618953,Kota Bandung;4HD300/400/500/500X variations,four months indexed crawl. Not an HD300-specific price. | [Item][HD300-O2] |
+
+
+### POD HD300 — operating modes and auxiliary playback
+
+Checked2026-10-18 against the [own RevC handbook][HD300-M],PDFpp5,8.
+
+| Field | Manufacturer qualification |
+|---|---|
+| Live / FX Only versus Manual mode | Short FX Only press globally disables amp modeling,retaining Smart FX/reverb. Holding it enters Manual mode:physical knob positions determine sound instead of the selected preset;segmented display shows dashes. Selecting or saving a preset exits Manual mode. This is an operating mode,not deletion of stored presets. |
+| I/O / auxiliary playback | CD/MP3 input reaches headphones andboth balanced/unbalanced outputs. Adjust relative playback level on the external source;this statement does not establish inclusion in USB recording. Rear Master controls overall output andheadphones;its setting is not preset-stored. |
 
 <!-- comparison evidence ends -->
 

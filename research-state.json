@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom G3X",
-    "task": "Saved first seller-labelled used G3X offer Rp1556969 via exact linked categoryitem1220839369/45559250362. Physicalcondition/stock/variant unverified;earlierconditionunknownoffers preserved. Next anotherrequiredmodelgap orfreshdifferentbrandseriesdiscovery.",
+    "model": "Line 6 POD HD300",
+    "task": "Reconciled Dual summary andsaved FXOnly/Manual distinction plusauxiliaryanalogplayback. Power/current/physicalspecs stillunverified;do notborrowcommunity orHD500ratings. Nextanotherrequiredmodelgap orfreshdifferentseriesdiscovery.",
     "next_models": [],
     "after_queue": "353partialmodels;294guitar155bass69vocal;legacycompatibilitymigration incomplete;no downloads/workflows/push."
   },
@@ -45765,7 +45765,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom G3X."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 POD HD300."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -77056,5 +77056,23 @@
       "site:shopee.co.id Zoom GFX1"
     ],
     "result": "No new exact variant hardware qualified;G2Nu/GFX1 accessory mentions excluded. ExistingG3X used-title item recovered duringcategoryfollowup. No proof ofmarketabsence."
+  },
+  "hd300_routing_modes_20261018": {
+    "primary_handbook": "https://line6.com/data/6/0a060b316ac34f05937e126fa/application/pdf/POD%20HD300%20Quick%20Start%20Guide%20-%20English%20%28%20Rev%20C%20%29.pdf",
+    "saved": [
+      "Reconciled stale Dual direct shorthand with retained advanced-guide Live/Studio explanation",
+      "FXOnly short press versus Manual hold",
+      "CD/MP3 playback to analog outputs;USB inclusion unverified"
+    ],
+    "power_limit": "Search-generated diagram description9VDC2.5AMin was not reproduced by PDF text search;not promoted to confirmed rating. Community2A/3A/DC3G reports are not manufacturer specification;no sibling ratings borrowed."
+  },
+  "line6_legacy_discovery_20261018_refresh": {
+    "queries": [
+      "site:shopee.co.id Line6 POD2.0",
+      "site:shopee.co.id Line6 PODXT -live -adaptor -adapter",
+      "site:shopee.co.id Line6 FloorPOD -plus -adaptor -adapter",
+      "site:shopee.co.id Line6 PODHD -hd500 -hd300 -hd400 -adaptor"
+    ],
+    "result": "No new exact variant hardware qualified;existingHD300/HD400/XTLive offers andpoweraccessories only. No marketabsence claim."
   }
 }
