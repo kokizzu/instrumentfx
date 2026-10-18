@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "Eventide H90 global mapping and bypass follow-up",
-    "finding": "Own1.12.5 confirms global P Out Gain and A/B scroll then P load; relay/AB Only/Dual-path bypass qualifications retained. Range/looper attenuation and exact Shopee offer unresolved.",
+    "current": "H9 Max original-guide swell restrictions",
+    "finding": "Original H9 RevD V5.4+ guide explicitly disables swell during bypass and limits Pre/Post/WetDry to Wet. Global OSW overrides preset enable;looper attenuation/endpoints unresolved.",
     "next": [
-      "Priority follow-up: Eventide H9 Max global expression volume range and bypass/looper coverage",
+      "Priority follow-up: DigiTech RP55 original manual volume routing/bypass and exact controller wiring",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
