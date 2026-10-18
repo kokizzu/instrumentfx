@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceTone Create XT",
-    "task": "Saved CreateXT effect-block definitions, linked tweak scope, dry/Tone mixing caveat, tap-style restriction and VoiceSupport backup/OS limits. Next exact supply evidence and qualified hardwareoffers; do not infer full editor/USB audio from backup.",
+    "task": "Saved CreateXT audio sensitivity/output limits,converter format,conditional noise ratings and1.5lb/0.72kg printed-mass discrepancy. Supply voltage/current/polarity stillunverified after targeted primary search;exactShopeeoffer absent. Next freshbrand/seriesdiscovery ormanufacturer supply evidence.",
     "next_models": [],
     "after_queue": "373active/46brands;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
   },
@@ -81372,5 +81372,14 @@
   "create_xt_followup_20261018": {
     "source": "https://cdn.mediavalet.com/aunsw/musictribe/AfNQj7j9P0yp8zAMDDvzKg/xRpgZnExo0WpQgKVX45fYA/Original/User-Manual_Voicetone-Create-XT_2020-10-16_Rev.pdf",
     "finding": "FX subfunctions, external mixing, style-dependent tap and historical VoiceSupport scope saved. Voltage/current/polarity,currentOS,screen andqualifiedIDRoffers unresolved."
+  },
+  "create_xt_electrical_followup_20261018": {
+    "source": "https://cdn.mediavalet.com/aunsw/musictribe/AfNQj7j9P0yp8zAMDDvzKg/xRpgZnExo0WpQgKVX45fYA/Original/User-Manual_Voicetone-Create-XT_2020-10-16_Rev.pdf",
+    "queries": [
+      "site:tc-helicon.com \"Create XT\" \"12\"",
+      "site:mediadl.musictribe.com \"Create XT\" \"power\" \"12\"",
+      "site:shopee.co.id \"Voicetone Create\""
+    ],
+    "finding": "No primary supply ratings or qualified hardware offer returned. Own-manual audio specifications and printed mass discrepancy saved; no sibling substitution."
   }
 }

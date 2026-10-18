@@ -1198,7 +1198,7 @@ Vocal multi-effects; partial, checked2026-10-18. Distinct from original Create. 
 | Processing / categories | Four blocks:FX,µMod,Delay,Reverb;Tone addsadaptiveEQ,compression,de-essing. **100factory styles in10banks**,not100simultaneous effects. Percategoryalgorithmcounts unverified. |
 | Memory | **10writable presets,eachA/B=20settings**,factoryfilled.100stylelibrary separate. p17 sayscycleafterfive,conflicting withten elsewhere;retained. |
 | Synth / acoustic | HardTune documented;dedicatedsynth/acoustic simulation unverified. |
-| Dimensions / mass | **130×132×41mm;0.72kg**,axes unspecified. |
+| Dimensions / mass | **130×132×41mm;0.72kg**,axes unspecified. Manual also prints1.5lb;not an exact conversion,so retain both published values. |
 | I/O | BalancedXLRmic input;twoXLRoutputs;PEDAL,USB,power.48Vphantom. Monomode rightoutput isdry,butTone remains. |
 | Power | SuppliedDCadapter;voltage/current/polarity,battery/USBpower unverified. |
 | Editor / platforms | VoiceSupport Windows/Mac backup,restore,updates;fullparametereditor/currentOS andUSBaudio unverified. |
@@ -1209,7 +1209,12 @@ Vocal multi-effects; partial, checked2026-10-18. Distinct from original Create. 
 | I/O / external mixing | Mono/dry routing permits external mixing: set MIX fully wet for the effects channel. Manual advises muting the dry channel for Transducer/HardTune styles. Tone remains on dry; not an untouched microphone split. |
 | Editor / backup scope | Historical VoiceSupport backup includes presets and setup,including48V and mono/stereo,with restore/transfer to another Create XT. Update tab may expose SysEx loading; not IR/NAM proof. Historical requirements list WindowsXP,MacOS10.x and internet; not currentOS certification. |
 | Practical features / tap restrictions | Tap works only in supporting styles; tempo can be stored per preset. Hold On to exit tap mode before using normal effect bypass. |
+| Audio / electrical specifications | Mic input **1kΩ**,sensitivity **−44 to+2dBu at0dBFS**,or **−56 to−10dBu with12dB headroom**. Balanced XLR outputs **40Ω,+2dBu at0dBFS**. Input sensitivity ranges are gain-dependent,not two extra inputs. |
+| Conversion / internal format | **48kHz;AKM AK4620B;24-bit A/D and D/A,128× oversampling bitstream**. Converter format does not establish USB audio or host recording resolution. |
+| Audio noise specifications | Published mic dynamic range **>108dB**,minimum gain,20Hz–20kHz,A-weighted; **>104dB** at−18dBu sensitivity,20Hz–20kHz. EIN **−128dBu**,maximum gain,150Ω source. THD+noise **<−90dB**,minimum gain. Conditions differ;not independently measured. |
 
 <!-- comparison evidence ends -->
 
 Source for the added block, routing and software qualifications: [same manufacturer manual pp19–27](https://cdn.mediavalet.com/aunsw/musictribe/AfNQj7j9P0yp8zAMDDvzKg/xRpgZnExo0WpQgKVX45fYA/Original/User-Manual_Voicetone-Create-XT_2020-10-16_Rev.pdf), checked2026-10-18. No software or device executed.
+
+Audio source: [same manufacturer manual p29](https://cdn.mediavalet.com/aunsw/musictribe/AfNQj7j9P0yp8zAMDDvzKg/xRpgZnExo0WpQgKVX45fYA/Original/User-Manual_Voicetone-Create-XT_2020-10-16_Rev.pdf), checked2026-10-18.
