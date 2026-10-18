@@ -1983,6 +1983,15 @@ Checked 2026-10-18 against [Zoom Guitar Lab7.0 manual,p32](https://zoomcorp.com/
 | USB / audio capability boundary | The manual explicitly assigns USB audio-interface operation to **GCE-3**. Do not transfer that capability to B3n because its name appears in the emulation list; B3n's own documented USB MIDI remains distinct and USB audio is still unverified. |
 
 
+### B3n — additional exact hardware asks
+
+Checked2026-10-18;these observations do not establish a used/new market range.
+
+| Condition | Amount / offer limits | Exact source |
+|---|---|---|
+| IDR condition unverified | **Rp2.950.000**,DealerJaya Musik danElektrik,KotaMalang;seller510844912/item12080591408. Four-month cached direct text;shippingservice unavailable. NoHabis marker exposed,butstock/checkout unverified. Condition,revision,workingstate,adapter/bundle,warranty andvoucher unknown. Seller’s guitar-category wording does not change manufacturer-established bass scope. | [Exact hardware](https://shopee.co.id/Effect-Efek-Gitar-Zoom-B3-N-B-3-N-B-3-N-B3N-i.510844912.12080591408) |
+| IDR condition unverified;sold out | **Rp1.855.000,Habis**,GeandPedalStore,Kab.Sleman;seller185899831/item41823064779. Three-month searchcache;clean directURL inaccessible. July1–3delivery is stale. Condition,revision,bundle,adapter,warranty,voucher andcheckout unknown. Late-delivery compensation is not a purchase discount. | [Indexed exact hardware;direct access failed](https://shopee.co.id/product/185899831/41823064779) |
+
 ## A1 FOUR
 
 Reviewed **2026-10-17** after exact Shopee hardware discovery. Acoustic multi-effects,including documented upright-bass processing;separate from A1X FOUR,no ownership assertion. Partial:official indexed documentation and page text only;no dependency,manual,software or firmware file downloaded.
