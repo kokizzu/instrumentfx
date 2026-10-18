@@ -1967,3 +1967,7 @@ research-commit-lekato:
 .PHONY: research-commit-keeley
 research-commit-keeley:
 	python3 scripts/keeley_catalogue.py commit
+
+.PHONY: research-commit-demonfx
+research-commit-demonfx:
+	python3 scripts/demonfx_catalogue.py commit
