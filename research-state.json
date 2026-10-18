@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh hardware discovery / unresolved model fields",
-    "task": "NanoVerb original2005 catalogue resolves dimensions/mass and46.9kHz;manual/catalogue output/response conflicts retained. Continue fresh Shopee brand/series discovery or required-field verification; current/barrel,qualified prices andeditor remain open.",
+    "task": "MicroVerb4 own2005 catalogue body dimensions,sample rate andexplicit3digitLED recorded;analogratings andabbreviatedcontrols conflicts retained. Continue fresh hardware discovery orrequired-field audits; mass,current,display details,newprice/editor remain open.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -60374,6 +60374,23 @@
         "Editor/import support"
       ],
       "method": "Identity-matched original manufacturer catalogue onmirror;browsertextonly,no downloads"
+    },
+    {
+      "model": "Alesis MicroVerb 4",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://device.report/m/aaec17b5c58b84afd384358662a1749e3c80fa1beece85dd7d680fa09dcda1fd.pdf"
+      ],
+      "finding": "Own Spring2005 catalogue p49:45H483W102Dmm,46.9kHz,3digitLED+4segmentlevel;mass notgiven. Catalogue analogratings conflict with reference manual;five-name knobsummary omitsVALUE,so manual6rotary countretained.",
+      "remaining": [
+        "Mass",
+        "Actual current/barrel",
+        "Display diagonal/color/touch",
+        "Analog-rating source reconciliation",
+        "Qualified new hardware ask",
+        "Editor support"
+      ],
+      "method": "Identity-matched manufacturer catalogue mirror,browsertextonly,no downloads"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -79649,5 +79666,14 @@
       "site:shopee.co.id \"Yamaha\" \"FX770\""
     ],
     "result": "No new exact requested-model hardware lead;generic Midiverb and existing Midiverb4 hits do not identify Midiverb2. No availability conclusion."
+  },
+  "discovery_microverb_catalogue_20261018": {
+    "queries": [
+      "site:shopee.co.id \"Alesis\" \"Microverb 3\"",
+      "site:shopee.co.id \"Lexicon\" \"MPX-1\"",
+      "site:shopee.co.id \"Yamaha\" \"Magicstomp\"",
+      "site:shopee.co.id \"Digitech\" \"Vocalist Live 3\""
+    ],
+    "result": "No new exact hardware lead;Vocalist Live3 hit16626959/4486100964Rp175000 is adapter,notprocessor. GenericMicroverb/storefront hits do not establish Microverb3."
   }
 }
