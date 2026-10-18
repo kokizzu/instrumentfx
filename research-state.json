@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Alesis NanoVerb",
-    "task": "Added original NanoVerb using exact category-linked Shopee hardware item and identified manufacturer manual. Next seek manufacturer body/power-current specs or another required gap; keep original distinct fromNanoVerb2. Physical sellerrevision,condition,stock andexactIDRnew/used remain unverified.",
+    "task": "Saved own original-manual converter/output/response specs; rejectedNanoVerb2 physical/current figures. Originalbody/current/sample-rate andsoftware/storage gapsremain. Next different specificmodel gap orfreshbrandseries discovery;avoid repeating unchangedNanoVerbpowersearch.",
     "next_models": [],
     "after_queue": "353partialmodels;294guitar155bass69vocal;legacycompatibilitymigration incomplete;no downloads/workflows/push."
   },
@@ -76955,6 +76955,24 @@
       "Zoom9030",
       "LexiconMPX500",
       "RocktronIntellifex"
+    ]
+  },
+  "nanoverb_primary_followup_20261018": {
+    "manual": "https://www.uns.nu/pdf/Alesis_Nanoverb_Reverb.pdf",
+    "printed_page": 29,
+    "saved_fields": [
+      "18bitADC/DAC versus24bitaccumulator",
+      "line output maximum/nominal/impedance",
+      "frequency response/dynamic range"
+    ],
+    "rejected_sibling_source": "https://www.zikinf.com/manuels/alesis-nanoverb-2-manuel-utilisateur-en-es-fr-it-de-61108.pdf",
+    "reason": "ExplicitNanoVerb2;197×131×44mm/500mA not transferred tooriginal. Service manual identifiesNV separately fromC4;C4data not borrowed.",
+    "remaining": [
+      "original body dimensions/mass",
+      "original current/barrel",
+      "sample rate",
+      "user storage/editor/import scope",
+      "seller revision/condition/stock/new-used price qualification"
     ]
   }
 }
