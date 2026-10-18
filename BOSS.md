@@ -3256,21 +3256,22 @@ Checked2026-10-17;partial. Half-rack stereo multi-effects,distinct from SE-70. M
 | Required field | Verified evidence / unresolved detail |
 |---|---|
 | Expression | Built-in/external/toe support unverified;do not borrow FC-50 controller capabilities. |
-| Knobs / footswitches / buttons | Separate rotary,foot andbutton counts unverified;no visual panel audit. |
+| Knobs / footswitches / buttons | **Two independent input-level rotaries confirmed**;complete K/F/B totals andvisual audit remainunverified. See input-control evidence below. [French manual][SE50-FR] |
 | Display | Diagonal,color,touch andcharacter count unverified from inspectable primary evidence. |
-| Processing / category choices | BOSS identifies **Vocal Multi**,combining limiter,enhancer,noise suppression,delay,chorus,reverb. This proves multi-stage eligibility;full algorithm inventory,maximum simultaneous count androuting limits unresolved. [Manufacturer history][SE50-H]. |
+| Processing / category choices | **28 named algorithms** are grouped below;maximum concurrency andcomplete chain topology remainunverified. Vocal Multi combines limiter,enhancer,noise suppression,delay,chorus,reverb. Catalogue transcription remainsqualified. [Manufacturer history][SE50-H];[French manual][SE50-FR] |
 | Factory / user / total memory | **100 writable locations1–100 +28 protected presets101–128 =128total**. Preset edits must be written to1–100. This is not128user memories. [Roland support][SE50-M]. |
 | Synth / acoustic | Vocoder requirements are documented below;onboard synthesis andacoustic simulation remainunverified. |
-| I/O | Complete audio/control connector inventory,levels,headphones,phantom andUSB functions unresolved. Stereo inproductname does not prove everyalgorithm stereo. |
+| I/O | **INPUT L(MONO)/R,OUTPUT L(MONO)/R,MIDI IN/OUT,EFFECT REMOTE,NUMBER SHIFT,AC-adapter connection** documented. Control jacks are not an audio loop. Connector sizes,balancing andcomplete electrical limits remainunverified;phones/USB are not listed. Not every algorithm is proven stereo. [French manual][SE50-FR] |
 | Power / battery / USB | Roland recommends **BRB-100/120/220/230/240**,withregional mains/plug compatibility. Exact outputvoltage/current,connector,operatingbattery andUSBpower remain unverified here. Do not substitutePSA based on BOSSbranding. [Power support][SE50-P]. |
 | Dimensions / weight | Unit axes,mass andrevision-dependent differences await readable originalspecifications. |
 | IR / NAM / captures | UserIR,nativeNAM,convertedNAM,proprietarycapture import eachunverified;notinferredfromMIDI. |
-| Editor / software | Full editor,platforms,driver/updater andMIDI implementation unresolved. |
-| Looper / drums / scenes | Capabilities,persistence,spillover andlive controls unverified. Patchmemory is notscenes. |
+| Editor / software | **Patch/system SysEx backup andrestore documented**,withmanufacturer article index-only afterdirect404. Dedicated editor,platforms,driver/updater andcomplete MIDI implementation remainunverified. See dated access qualification below. |
+| Looper / drums / scenes | Looper,drums,scenes andspillover remainunverified. Documented live features include **DIRECT/MUTE effects-off modes andfoot-controlled patch stepping**;stored program recalled atpower-on. Patchmemory is notscenes;unsaved edits requireWrite. [French manual][SE50-FR] |
 | Used IDR | No condition-qualified used quote established. |
 | New IDR | No condition-qualified new quote established. |
 | Historical condition-unverified IDR | **Rp2.250.000**,kemzguitars,shop7769509/item48750366204,Kab.Bogor. [Exact hardware](https://shopee.co.id/Boss-PRO-SE-50-SE-50-SE50-Stereo-Effects-Processor-i.7769509.48750366204). Direct JS-limited two-month cache. Condition,workingstate,revision,stock,variant,bundle,adapter,warranty,voucher,shipping/tax/finaltotal unknown. Relative next-daydelivery notstock;lateRp10k compensation nothardwarediscount. |
 
+[SE50-FR]: https://fr.scribd.com/document/644989539/Boss-SE-50-fr
 [SE50-H]: https://www.boss.info/id/promos/vocal/
 [SE50-M]: https://support.roland.com/hc/en-us/articles/201926699-SE-50-Patch-Memory-on-the-SE-50
 [SE50-P]: https://support.roland.com/hc/en-us/articles/201932819-SE-50-Recommended-Power-Supply

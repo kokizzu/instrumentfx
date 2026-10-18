@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Korg AX5B",
-    "task": "Saved master/program-level distinction,pedal-calibration scope andbypass/mute behavior. Next fresh Shopee discovery or other unresolved model fields;AX5B electrical/display gaps remain.",
+    "model": "BOSS SE-50",
+    "task": "Reconciled stale top-summary unknowns withsaved follow-ups;dated evidence retainedexactly. Next fresh Shopee discovery orunresolved required fields onother partial models.",
     "next_models": [],
     "after_queue": "349 partial models;114 Markdown compatibility files remain;no downloads/workflows/push."
   },
@@ -45606,7 +45606,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX5B."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS SE-50."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -75365,5 +75365,26 @@
       "Display/editor/import uncertainties andqualified prices"
     ],
     "limits": "Documentation only;no device operation ordownload"
+  },
+  "se50_current_summary_reconciliation_20261018": {
+    "checked": "2026-10-18",
+    "base_commit": "2c8c4df",
+    "destination": "BOSS.md#se-50",
+    "scope": "Reconciled main summary withalready-saved model evidence;no new external technical claims. Every dated follow-up retainedbyte-for-byte.",
+    "superseded_summary_rows": [
+      "| Knobs / footswitches / buttons | Separate rotary,foot andbutton counts unverified;no visual panel audit. |",
+      "| Processing / category choices | BOSS identifies **Vocal Multi**,combining limiter,enhancer,noise suppression,delay,chorus,reverb. This proves multi-stage eligibility;full algorithm inventory,maximum simultaneous count androuting limits unresolved. [Manufacturer history][SE50-H]. |",
+      "| I/O | Complete audio/control connector inventory,levels,headphones,phantom andUSB functions unresolved. Stereo inproductname does not prove everyalgorithm stereo. |",
+      "| Editor / software | Full editor,platforms,driver/updater andMIDI implementation unresolved. |",
+      "| Looper / drums / scenes | Capabilities,persistence,spillover andlive controls unverified. Patchmemory is notscenes. |"
+    ],
+    "changed_fields": [
+      "Controls",
+      "Processing/library",
+      "I/O",
+      "Editor/backup",
+      "Live features"
+    ],
+    "remaining": "Completehardware/concurrency/price gaps remainexplicit;this is not fullverification"
   }
 }
