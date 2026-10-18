@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Lexicon MPX100",
-    "task": "MPX100 audio-tap and System-mode exit qualifications saved. Fresh Zoom GFX8/G92TT searches yielded accessories only;seek another brand/series hardware lead or unresolved primary specification.",
+    "model": "DigiTech RP250",
+    "task": "RP250 own-row editor version mapping saved. Continue another manufacturer gap or fresh brand/series Shopee hardware lead;do not repeat accessory-only Digitech RP350/RP355/RP2000/RP80/RP55/RP300 searches without a new lead.",
     "next_models": [],
     "after_queue": "342 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -45545,7 +45545,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Lexicon MPX100."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP250."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -72900,5 +72900,25 @@
       "https://shopee.co.id/AC-ADAPTOR-BUAT-Zoom-Guitar-Effect-Processor-GFX-4-%28Japan%29-GFX-8-i.14849321.28104902463"
     ],
     "do_not_repeat": "Resume these exact searches only with a new hardware lead."
+  },
+  "rp250_editor_mapping_20261018": {
+    "source": "https://digitech.com/software-downloads/",
+    "checked": "2026-10-18",
+    "windows": "X-Edit2.4.1",
+    "mac": "X-Edit2.7.1 Intel Mac OS X",
+    "scope": "RP250 own row;editor/librarian,not firmware or driver. Current OS and Apple Silicon compatibility unresolved.",
+    "downloads": false
+  },
+  "discovery_digitech_rp_20261018": {
+    "queries": [
+      "site:shopee.co.id Digitech RP350",
+      "site:shopee.co.id Digitech RP355",
+      "site:shopee.co.id Digitech RP2000",
+      "site:shopee.co.id Digitech RP80 efek",
+      "site:shopee.co.id Digitech RP55",
+      "site:shopee.co.id Digitech RP300 -adaptor -adapter -psu"
+    ],
+    "result": "No exact processor offer established;adapter and irrelevant category results are not hardware availability. No models admitted.",
+    "rejected": "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-RP350-RP355-RP300-PSU-i.855783279.22273291654"
   }
 }

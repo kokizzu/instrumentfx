@@ -343,6 +343,15 @@ Checked 2026-10-18.
 | Routing / Amp-Mixer switch | [Own manual pp10–11][RP250-M]: **Mixer IN** enables speaker compensation and is specified for mixer/recording/headphones; **Amp OUT** is for a guitar amplifier input. These physical switch positions are not separate programmable routing scenes. |
 | IDR / condition-unverified sold-out ask | **Rp700.000; Habis**, [M.SUKMA ASYARI, shop1009431722/item29790227046](https://shopee.co.id/digitech-rp250-i.1009431722.29790227046), Kab. Brebes. Search three-month cache; direct JavaScript-limited reader last-month cache with stale19September delivery. Exact RP250 title, but new/used condition, working state, variant, adapter/bundle, warranty, authenticity, shipping/tax and checkout total unknown. Late-arrival compensation up toRp10.000 is not a price discount. Separate from the Rp925.000 second-title offer; not a used-price bound, live stock or completed sale. |
 
+### RP250 — official editor version mapping
+
+Checked2026-10-18 on the [manufacturer software index](https://digitech.com/software-downloads/);no installers downloaded.
+
+| Field | Finding / qualification |
+|---|---|
+| Editor / model-specific versions | RP250 row explicitly links **X-Edit2.4.1 Windows** and **X-Edit2.7.1 Intel Mac OS X**. Do not substitute the adjacent RP255 Windows2.7.0 listing. These are editor/librarian versions,not firmware or USB drivers. |
+| Editor / compatibility and restore | Mac2.7.1 notes fixes forOS X10.8/10.9/10.10;the page retains an unverified/unsupported10.11 notice. Windows2.4.1 build2.4.1.10,dated2008-04-16,fixes preset accuracy after backup restoration. Modern Windows/macOS andAppleSilicon compatibility remain unverified;historical manual requirements remain separately preserved. |
+
 ## RP1000
 
 Discontinued guitar multi-effects/switching system;notRP500. Checked2026-10-17;partial. Ownership,bass/vocal suitability unverified.
