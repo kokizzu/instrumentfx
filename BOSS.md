@@ -3440,6 +3440,14 @@ Checked2026-10-18 in the manufacturer-authored2008 manual G6027127R0, printedp13
 | Processing / frequency split | Freq Divide assigns lows toA andhighs toB; crossover **100Hz–4.00kHz**. This enables frequency-separated processing,not an additional synth algorithm. |
 | Processing / dynamic routing | Dynamic SW selectsB with stronger picking. Dynamic A/B changes the named channel’s level with input dynamics while the other remains fixed. Sensitivity/release are0–100 display units;these do not specify attack/release milliseconds. |
 
+
+### GT-10B — current Windows compatibility matrix, 2026-10-18
+
+| Field | Manufacturer status / qualification |
+|---|---|
+| Editor / Windows11 compatibility | [BOSS Windows matrix](https://www.boss.info/ca/support/support_news/25090811win1/), updated2026-08-06, marks GT-10B **Hardware & Driver: No; Exclusive Application: No** for Windows11. Its legend defines No as incompatible,with no planned support. This resolves the earlier Windows11-status unknown; it is a manufacturer support determination,not a physical test or a claim about standalone analog use. |
+| Editor / Windows10 qualification | Both GT-10B targets remain **Yes(Download)** for Windows10,including automatic internet driver delivery wording. However,the matrix footnote says Windows10 end-of-support means proper operation is no longer guaranteed despite Yes/Limited labels. Historical driver/librarian requirements remain version-specific; current delivery and communication were not tested. |
+
 <!-- comparison evidence ends -->
 
 GT10B Shopee searches surfaced adapter listings and foreign retailers rather than an accepted Indonesian unit. Seller/item,condition,stock,region,bundle,warranty,voucher anddelivered total remain unknown. Manufacturer manual support entry found;direct expected PDF URL inaccessible. No license acceptance,downloads,installation ordevice operation.

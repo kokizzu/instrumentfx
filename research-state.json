@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Blackstar ID:X Floor Three",
-    "task": "Saved edition-qualified Architect2.0.0 platform requirements from primary indexedPDF; direct403 and Floor recognition not verified. Next obtain Floor-specific software release evidence or fresh Shopee series leads; USBformat/display/imports/factoryfill remain unknown.",
+    "model": "BOSS GT-10B",
+    "task": "Saved current manufacturer Windows11 No/No andWindows10 endofsupport caveat. Next current macOS compatibility matrix orother requiredmodelgaps/freshShopeediscovery; keep olddriver/librarian versions separate.",
     "next_models": [],
     "after_queue": "354 partial models;295 guitar156 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
@@ -45809,7 +45809,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Blackstar ID:X Floor Three."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS GT-10B."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -77686,5 +77686,26 @@
       "Factory fill",
       "Exact Shopee model linkage"
     ]
+  },
+  "gt10b_windows_matrix_20261018": {
+    "source": "https://www.boss.info/ca/support/support_news/25090811win1/",
+    "manufacturer_updated": "2026-08-06",
+    "windows11": {
+      "hardware_driver": "No",
+      "exclusive_application": "No",
+      "legend": "Incompatible;no plans for targetWindows support"
+    },
+    "windows10": "YesDownload both;footnote says operation notguaranteed afterWin10supportend",
+    "qualification": "Current manufacturer support matrix,not device test;standaloneanalog unaffected by this compatibility assessment",
+    "supersedes": "Earlier Windows11 status unknown; retains dated driver/librarian requirements"
+  },
+  "discovery_bass_20261018_post_blackstar": {
+    "queries": [
+      "site:shopee.co.id DigiTech BP200",
+      "site:shopee.co.id Korg AX1B",
+      "site:shopee.co.id Zoom B9.1ut",
+      "site:shopee.co.id GT10B bekas"
+    ],
+    "result": "BP200 returned shared adapterlisting; no newexacthardwarelead accepted. Other queries didnotestablishhardwareoffer. Notproof ofmarketabsence."
   }
 }
