@@ -455,6 +455,15 @@ Checked2026-10-18 in the [manufacturer-authored Version2.0 manual](https://manua
 | Looper / access and drum EQ | UP+DOWN enters Drum/Looper;DOWN controls looping,UP drums;double-press CTRL exits. Knob2 press enters drum EQ using knobs2/3/4 forBass/Middle/Treble. This is drum EQ,not another guitar effect block. |
 | Scenes / trails scope | CTRL assignedSCENE cyclesS1/S2/S3. **Quick Scene** can bypass blocks while retaining delay/reverb trails. This describes scene-controlled bypass,not a demonstrated tail guarantee across preset changes orall ProScene model changes. |
 
+
+### MG-30 — additional exact Shopee offers, 2026-10-19
+
+| Field | Evidence / qualification |
+|---|---|
+| Price / seller-labelled new historical IDR | **Rp5.000.000**,seller **win.joy**,KotaSurabaya,shop73216763/item18603318043. [Exact MG-30 NEW listing](https://shopee.co.id/NUX-MG-30-NEW-i.73216763.18603318043),direct readable three-week cache,**Habis**;stale29Sep–2Oct delivery. “NEW” is seller wording,not independent condition verification. Variant,regional hardware,firmware,adapter,NMP-2 Lite,bundle,warranty,voucher,shipping/tax anddelivered total unverified. Not live stock orcompleted sale. Late-arrivalRp10k compensation isnot a purchase discount. Earlier no-condition-verified-new finding remains valid;this adds a qualified seller-labelled historical ask. |
+| Price / condition-unverified additional IDR | **Rp3.400.000**,seller **Mc Garage Corner**,KotaTasikmalaya,shop225995566/item43553846834. [Exact MG-30 hardware listing](https://shopee.co.id/Nux-MG-30-Digital-Multi-Effects-Nux-MG-30-Fx-i.225995566.43553846834),direct readable five-month cache;stale16May delivery. Condition,stock,variant,working state,firmware,adapter,NMP-2,bundle,warranty,voucher,shipping/tax andtotal unknown. Not assigned to used/new verified columns;not a market range. |
+
+
 <!-- comparison evidence ends -->
 
 ### Preserved shared-source MG-30 fields

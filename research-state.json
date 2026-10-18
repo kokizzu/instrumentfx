@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee Indonesia discovery",
-    "task": "Continue fresh cross-brand series discovery,prefer unsearched models or improve exact existing offers. DigiTech GNX2/RP300A/GSP1101 search pass yielded no qualified hardware;BP355 electrical and stomp-mode details saved.",
+    "task": "MG-30 two additional exact historical offers saved with seller-label/stock qualifications. Continue fresh cross-brand hardware discovery and exact condition verification;do not repeat these unchanged listings as new evidence.",
     "next_models": [],
     "after_queue": "387 active models,46 brands,all partial;no downloads/workflows/push."
   },
@@ -82028,7 +82028,7 @@
     "scope": "Explicit uncertainty signals in selected comparison field labels and values only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
     "model_count": 387,
     "models_with_signals": 387,
-    "flagged_field_count": 4931,
+    "flagged_field_count": 4933,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -103620,6 +103620,21 @@
             ]
           },
           {
+            "field": "Price / seller-labelled new historical IDR",
+            "source": "NUX.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Price / condition-unverified additional IDR",
+            "source": "NUX.md",
+            "signals": [
+              "unknown",
+              "unverified"
+            ]
+          },
+          {
             "field": "IDR qualified observations",
             "source": "NUX.md",
             "signals": [
@@ -119424,12 +119439,12 @@
       "TC-ELECTRONIC.md": "46ca68e66568f02e972ac73999ae6e09ce1746d8833b8d9e725b74664b4c2fbc",
       "VALETON.md": "a5d6f6ea7fbdb07244df7fb483d987fb2287edb0c582532cf619c66dfd2f7ecd",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
-      "ALL-GUITAR.md": "246fcf762837a85463d8f2ac6c1bc1765c682390a0b65f72916c2d7689877749",
+      "ALL-GUITAR.md": "6b50f8114d54af077b6954abf6213f7550620ce14df4ae2758713de06c89ea7d",
       "LINE6.md": "bbbe508cca147737b97aadbd9b3fbb2e20faa83c7ae8e717abd7acd42c6e63da",
       "YAMAHA.md": "c3ef2f3c290ebe7173c9c36a9d6937b3e3968fbc91a3ee6ab93b1cc3a81eb2d8",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
-      "ALL-BASS.md": "3285df5061d7f366ba8a39d40e2eac2e7505bed964816f63ca97fa4ea4f32073",
+      "ALL-BASS.md": "61d4c7dcd832986e9e4df211b2f81a1235dcac5140d801029dc26a9e56a801d3",
       "VING.md": "2873cd6b4d5b13c287eb839977ff782139fb5640008b9f9730ddc289d09f5b67",
       "FENDER.md": "825b3d107ed121195199f3a238cfae504e08c3f4913cd5952787df25109530c8",
       "MOSKY.md": "5fa70acc80dab7bfb6d02f5160afec1e5ee1947c8e343790309c9f78cbc0a07d",
@@ -119443,7 +119458,7 @@
       "TECH21.md": "1668d411f5cd34f2e845c0e6eb4aedaa335e335361616151792402f8042b2352",
       "MOOER.md": "cdad5c6009106194df97ab42a7c0e5b4bb606ff1bde54be36dfd5c4a578be039",
       "BEHRINGER.md": "8746e2a4c6f49febe91bde776a38dd035352781e66c258940a33d85d1c69218d",
-      "NUX.md": "e908fc20d556d49aba906df6d0e76fe1fd5318d5ad5ed1384c63169de40b2319",
+      "NUX.md": "16d538dcdf4e9e0f5ebe809ad4eec219898f039bc6b03471508849f36513cf7c",
       "IK-MULTIMEDIA.md": "ce23e1624886fada92ab0ff1c92554e04c01d18ca79839dc13744acdba2b9903",
       "SINGLE-VOCAL.md": "acb51be0b82d540d045e92e126882df43bb3c7380b45f3be5cc48a7828827796",
       "DARKGLASS.md": "4df816629a31b454d8c69de300525d97a85718749f23f4e684b243c5b50fce06",
