@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 362,
+  "active_model_count": 363,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 362,
+  "canonical_root_model_count": 363,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "362 unique active/root-canonical;0 legacy-only;46 brands;six excluded;all partial.",
+  "count_reconciliation": "363 unique active/root-canonical;0 legacy-only;46 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom G3X",
-    "task": "Saved additional exact G3X Pekanbaru1700000 offer17614128/50015402246 with condition/stock unknown. Sragen1556969category reconfirmed; other1850000Jakarta/1895000Surabaya leads still lack IDs. Continue manufacturer gaps and bounded discovery; do not research repeated inaccessible SE50 originals without new route.",
+    "model": "EROK Pocket Sonic",
+    "task": "Added partial Pocket Sonic with manufacturer identity and exact Indonesian item. Recover original19.7MBmanual/panel before technical transfer;power/control/memory/software/imports andqualified used/new prices remain. EROKMP9query noexactIDoffer;notabsenceproof.",
     "next_models": [],
-    "after_queue": "362active/46brands;303guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
+    "after_queue": "363active/46brands;304guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -5398,6 +5398,13 @@
       "checked_date": "2026-10-18",
       "status": "partial",
       "finding": "Exactmanufacturer320+effects/amp/loop/drums/audiointerface/BTcontrol;twoShopee1850000asksconditionunverified. Primarymanuallead8.4MBJun22contentsunrecovered;noMK20/MP9equivalenceorNAMinference."
+    },
+    {
+      "model": "EROK Pocket Sonic",
+      "destination": "EROK.md#pocket-sonic",
+      "checked_date": "2026-10-18",
+      "status": "partial",
+      "finding": "Manufacturer guitar/headphone multifx identity;exact Shopee1659915296/54211588203 790000conditionunverified. NoPocketAmpequivalence;manual19.7MBindexonly."
     }
   ],
   "consolidation_and_price_findings": [
@@ -24899,7 +24906,8 @@
     ],
     "EROK": [
       "MP-20",
-      "MP-10"
+      "MP-10",
+      "Pocket Sonic"
     ]
   },
   "root_brand_content": {
@@ -25355,12 +25363,13 @@
     ],
     "EROK.md": [
       "MP-20",
-      "MP-10"
+      "MP-10",
+      "Pocket Sonic"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 303,
+      "record_count": 304,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -25390,10 +25399,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 303 guitar, 158 documented bass-capable, 69 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 304 guitar, 158 documented bass-capable, 69 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "362 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "363 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -45816,10 +45825,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 362,
-    "canonical_root_models": 362,
+    "unique_brand_model_pairs": 363,
+    "canonical_root_models": 363,
     "legacy_only_models": 0,
-    "guitar_view_models": 303,
+    "guitar_view_models": 304,
     "bass_focused_models": 35,
     "vocal_only_models": 24,
     "vocal_view_models": 69,
@@ -45901,7 +45910,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom G3X."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume EROK Pocket Sonic."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -46207,7 +46216,8 @@
       "DemonFX::Dual Mod Workstation",
       "ROWIN::RE-05 Looper Pro",
       "EROK::MP-20",
-      "EROK::MP-10"
+      "EROK::MP-10",
+      "EROK::Pocket Sonic"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -49260,6 +49270,13 @@
     },
     "EROK::MP-10": {
       "link": "EROK.md#mp-10",
+      "source_files": [
+        "EROK.md"
+      ],
+      "finding_files": []
+    },
+    "EROK::Pocket Sonic": {
+      "link": "EROK.md#pocket-sonic",
       "source_files": [
         "EROK.md"
       ],

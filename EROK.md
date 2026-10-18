@@ -74,3 +74,33 @@ Checked2026-10-18; partial. Manufacturer identifies a portable guitar multi-effe
 | IDR condition-unverified hardware ask | **Rp1.399.999**, crossedRp1.699.999/18%; EROK MUSIC,shop1736925571/item45705646832. [Exact MP-10 item](https://shopee.co.id/EROK-MP-10-Multi-Efek-Gitar-Bass-Loop-Mesin-Drum-Baterai-8-Jam-%E2%80%93-Portable-Tank-Pro-Oleh-M-vave-Technology-i.1736925571.45705646832). Direct JS-limited two-month cache and week-old search cache agree on the ask,checked2026-10-18. Search also displayed Rp1.329.999 for00:00 October10,an expired teaser,not adopted. Direct delivery August15–17 conflicts with indexed October10–12; neither proves stock. Condition,new/used,working state,selected variant,region,adapter/bundle,warranty,authenticity,voucher,shipping/tax andcheckout total unverified. Late-delivery compensation is not a purchase discount. Seller affiliation and Tank Pro equivalence unverified. |
 
 No files/dependencies downloaded or software/devices operated. MP-9/MP-20/M-VAVE specifications are not borrowed.
+
+## Pocket Sonic
+
+Checked2026-10-18;partial. Manufacturer explicitly identifies a miniature **guitar multi-effects processor with headphone practice**. Exact Indonesian hardware title establishes a separate Pocket Sonic offer. Bass/vocal suitability,ownership and equivalence with M-VAVE Pocket Amp or other Pocket models remain unverified. [Manufacturer](https://erokmusic.com/index.html).
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression | Built-in,external andtoe support unverified. |
+| Knobs / footswitches / buttons | Separate counts unverified;no panel visual audit. |
+| Display | Technology,diagonal,color andtouch unverified. |
+| Dimensions / mass | Dimensions,axis order andweight unverified. |
+| Processing / choices | Manufacturer multi-effects identity established;exact category/library counts,simultaneous ceiling androuting unverified. Seller60+/20amp/20IR claims are not primary verification. |
+| Factory / user memory | Writable,protected,total andfactory-fill split unverified. |
+| Synth / acoustic | Dedicated synthesis,acoustic conversion andbass-specific processing unverified. |
+| I/O | Manufacturer describes headphone practice;connector sizes,complete ports,audio/MIDI channels androuting unverified. |
+| Power / battery / USB | Voltage,current,polarity,battery capacity/runtime andUSB power unverified. Seller rechargeable wording is not a primary power specification. |
+| IR / NAM / capture | IR import,native/converted NAM andproprietary capture unverified. Seller tone-cloning title does not establish a capture format. |
+| Editor / software | Application,platforms,OS,driver/updater andmobile recording support unverified. |
+| Looper / drums / live | Looper,drums,scenes,trails andpractical routing unverified. |
+| Documentation | Official downloads index lists **Pocket Sonic Manual PDF19.7MB,2026-06-22**;original contents/URL unrecovered. Date is an index label,not verified firmware revision. [Downloads](https://erokmusic.com/download) |
+
+### Separate IDR hardware evidence
+
+| Field | Evidence / qualification |
+|---|---|
+| IDR verified used | Unknown. |
+| IDR verified new | Unknown. |
+| IDR condition-unverified offer | **Rp790.000**,crossedRp888.888/11%;M-VAVE Outlets,Kab.Tangerang,shop1659915296/item54211588203. Checked2026-10-18,three-day indexed cache;direct base item cache miss. Indexed variant341006932698 not verified. Condition,working state,current stock,revision,bundle/charger,warranty/import region,authenticity,voucher,shipping/tax andcheckout total unknown. October16–18 delivery is cached,not live stock;late-arrival compensation is not an immediate discount. [Exact indexed item](https://shopee.co.id/EROK-Pocket-Sonic-Mini-Multi-Effects-Pedal-60-Built-in-Effects-20-Amp-Modeling-with-Tone-Cloning-20-IR-Cabinets-OTG-Recording-Rechargeable-with-Clip-On-Design-i.1659915296.54211588203?extraParams=%7B%22display_model_id%22%3A341006932698%2C%22model_selection_logic%22%3A3%7D) |
+
+No files/dependencies downloaded orsoftware/devices operated. No sibling specifications transferred.
