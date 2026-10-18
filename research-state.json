@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Behringer DSP2024P",
-    "task": "Saved DSP2024P12reverbs,delay descriptions,3pairedroutingmodes andEXTN/INTNmix. Bothmanualcopiesomit tabletext;next freshhardwarediscovery orotherfield,full71census remainsopen.",
+    "task": "Saved DSP2024PMIDI backup/restore audiointerruption,CC112directwrite andreset scope. NextfreshShopeediscovery orothermodel gap;full71census andexactDSP2024Poffer unresolved.",
     "next_models": [],
     "after_queue": "348partial unique models;114Markdowncompat retained. No downloads/workflows/push."
   },
@@ -59517,6 +59517,21 @@
         "Currenteditor/imports"
       ],
       "method": "Manufacturer-authoredPDF read viaweb;tabletextomitted;no download/execution"
+    },
+    {
+      "model": "Behringer DSP2024P",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://manualzz.com/doc/1522565/behringer-virtualizer-pro-dsp2024p-user-s-manual"
+      ],
+      "finding": "SysExDUMP/DR.ENbackuprestore automaticsave/audioinactive;STORenabledCC112directwrite/poweronOff;factoryresetoverwrite.",
+      "remaining": [
+        "Full71census",
+        "ExactShopeeidentity",
+        "Current editor/import support",
+        "Visualcontrols"
+      ],
+      "method": "Manufacturer documentation only;no transfer/reset/download/deviceoperation"
     }
   ],
   "discovery_cross_brand_bass": {

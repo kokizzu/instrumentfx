@@ -404,6 +404,18 @@ Checked 2026-10-18 against the [manufacturer-authored Rev B manual copy](https:/
 | Processing / combination configuration | Programs61–71 support **SER1, SER2 or PARA**: two serial orders or parallel operation. These configure the selected paired program; arbitrary selection of two unrelated algorithms is not established. |
 | I/O / wet-dry output modes | **EXTN** sends100% wet output for mixer aux use; **INTN** allows Mix/Bypass to set the effect balance for serial amp-loop use. This is internal mix configuration, not an extra external-loop connector. |
 
+
+### DSP2024P — MIDI backup and storage limits
+
+Checked 2026-10-18 against [manufacturer manual Version1.2][D24-M], printed pp.24–25,29–30. Documentation only; no transfer, reset or device operation performed.
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / MIDI backup scope | **DUMP** sends complete storage/settings as SysEx to a sequencer or MIDI recorder. **DR.EN** receives and automatically stores preset data without confirmation. This establishes MIDI backup/restore, not a dedicated patch editor or current OS compatibility. |
+| Live / transfer restriction | **All audio functions are inactive during SysEx transfer**. Backup/restore is therefore not documented as uninterrupted live processing. |
+| Memory / direct MIDI storage | With **STOR On**, CC112 writes current settings to the controller-selected program location without confirmation. STOR defaults Off at power-on; Off ignores CC112. This is distinct from ordinary Program Change recall. |
+| Memory / initialization | Holding STORE+PRESET during power-on restores factory state and overwrites changes. This is not a settings-only reset. |
+
 <!-- comparison evidence ends -->
 
 [D24-M]: https://manualzz.com/doc/1522565/behringer-virtualizer-pro-dsp2024p-user-s-manual
