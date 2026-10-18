@@ -1351,6 +1351,12 @@ Sources: [NUX global product](https://nuxaudio.com/product/atlantic/) (P);[offic
 | Price / condition-unverified IDR | **Rp2.100.000**, [Eleven Music,shop12356205/item3032702363](https://shopee.co.id/NUX-NDR5-NDR-5-Atlantic-Delay-Reverb-Verdugo-Series-Stompboxes-Efek-Gitar-i.12356205.3032702363),JakartaPusat;checked2026-10-18,two-month indexedbody. Condition/stock/bundle/warranty unverified. Relative delivery promise notstockproof;late-deliveryRp10.000 compensation notdiscount. |
 | Price / sold-out IDR | **Rp1.650.000,Habis**, [Grand Music Indonesia,shop307145954/item3851698090](https://shopee.co.id/NUX-NDR-5.-Atlantic-Delay-Reverb-Pedal-%28FREE-ADAPTOR%29-i.307145954.3851698090),KabTangerang;checked2026-10-18,five-month indexedbody. TitleFREEADAPTOR sellerclaim;condition,adapteridentity,warranty unverified. |
 | Price / new IDR | No condition-verified new offer established. |
-| Price / used IDR | No separate used offer established. |
+| Price / used IDR | **Rp1.100.000,Habis**;seller-labelled second/used,not inspected. Exact historical offer andaccess limits below. |
 
 [Japanese manual index](https://www.manualslib.com/manual/4585369/Nux-Atlantic.html) supplies the retained size/mass conflict only;unreadable Japanese OCR is not a replacement for full English manual validation. [NUX USA](https://www.nux.us/products/atlantic) corroborates routing butnot exactcurrent draw. Remaining fields require original-panel/manual corroboration andfresh sellercondition/stock evidence. No downloads orsoftware execution.
+
+### Atlantic — explicit used hardware ask
+
+| Field | Evidence / qualification |
+|---|---|
+| Used IDR / historical offer | Checked2026-10-18: **Rp1.100.000,Habis**,starless.shop,Kota Pontianak;seller653941050/item42162225438. Exact title explicitly says second/used;condition and“like new” wording are seller claims. Five-month searchcache;direct page cachemiss. Shippingservice unavailable. Working state,revision,adapter/bundle,warranty,voucher,checkout andcurrentstock unknown. This establishes a dated used asking observation,not a completed sale orcurrent used-price floor. [Indexed exact hardware](https://shopee.co.id/NUX-Atlantic-Delay--Reverb-Pedal-with-Shimmer.-second--used--mulus-like-new-i.653941050.42162225438) |
