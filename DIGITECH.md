@@ -800,6 +800,14 @@ Checked2026-10-18 against [own manual pp10–11,17–21][RP70-M]. Text only; no 
 | I/O / Amp-Mixer and headphone stereo | Rearbutton **in=Mixer**,out=Amp; Mixer optimizes formixer/recorder/headphones. Headphones arestereo withneither orboth mainoutputs connected,butmono withonlyL/Mono connected. Right-only headphonebehavior isnot specifiedinthisinstruction. |
 | Memory / save destination and edit loss | STORE selectsoneof **50 writableuserslots1–50** withfootswitches; secondSTORE commits. Presetchange orpowerdisconnection discardsunsavededits. Tone/EffectsLibrary selections areeditingstartingpoints,not additionalpresetbanks or simultaneousFXslots. |
 
+
+### RP70 — library counts, delay variations and bypass controls
+
+| Field | Own-model evidence / qualification |
+|---|---|
+| Category choices / editing libraries | **20 Tone Library starting points and20 Effects Library chains**, accessed with their buttons and VALUE±. These reconfigure groups of effects within the selected preset; they are **not40 extra memories or simultaneous blocks**. CU denotes a customized library configuration. [Own manual pp7–8][RP70-M] |
+| Categories / delay variation grid | Each of the four delay models offers **nine feedback/level combinations**: feedback5%,20%,45%, each paired with levels15,30,50. These are fixed parameter variations, not36 independent delay algorithms. Delay time is adjusted separately. [Own manual pp29–30][RP70-M] |
+| Live / bypass and tuner access | Briefly press/release both footswitches for bypass; **buttons are disabled while bypassed**, and either footswitch restores the last preset. Holding both for **two seconds** enters tuner. This does not establish relay true bypass or tail retention. [Own manual pp2,7][RP70-M] |
 <!-- comparison evidence ends -->
 
 Working state, authenticity, bundle, adapter, warranty, shipping/tax and voucher eligibility unresolved. No download or visual inspection claimed. Manual reached through [official directory][RP70-D], own-model declaration identifies RP70.
