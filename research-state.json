@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B3n",
-    "task": "Saved B3n overflow/bypass behavior andindividualLCD contrast range. Text symbols inadequate forcompleteF/B count;screenshottool returned referenceonly,noimageinspection. Next obtain readable manufacturerpanel orcontinue freshbass/vocal discovery;do not infer F/B orheadphones layout.",
+    "task": "Saved explicitZoomClassics B3n BitCrush/DynaDelay compatibility andscope;controltotalsstillunknown. Next investigate newlysurfaced officialZoom NEURIG guitar multifx lead andexactShopeeavailability beforeinventoryadmission;notyetrecorded. B3n ports/display/count gaps retained.",
     "next_models": [],
     "after_queue": "363active/46brands;304guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -24451,6 +24451,13 @@
       "checked_date": "2026-10-18",
       "status": "Partialrootguitar+bassprofile;Shopeeidentityunconfirmed",
       "evidence_key": "lekato_me01_20261018"
+    },
+    {
+      "brand": "Zoom",
+      "model": "NEURIG",
+      "source": "https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/neurig/",
+      "status": "unverified lead;not active inventory",
+      "next": "Read full exact manufacturerpage andsearchShopee;do not inferNAMcaptureoravailability fromsnippet."
     }
   ],
   "inventory_by_brand": {
@@ -61118,6 +61125,14 @@
       "source": "https://zoomcorp.com/media/documents/E_B3n.pdf",
       "status": "partial",
       "finding": "Overflow behavior anddisplaycontrast saved;F/Bcount remainsunresolved because text extraction loses panelsymbols."
+    },
+    {
+      "model": "Zoom B3n",
+      "destination": "ZOOM.md#b3n",
+      "checked_date": "2026-10-18",
+      "source": "https://zoomcorp.com/en/us/news/zoomclassics/",
+      "status": "partial",
+      "finding": "Explicit twoeffect compatibility andalgorithm behavior retained;notaninstalledlibrary census."
     }
   ],
   "discovery_cross_brand_bass": {

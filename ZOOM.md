@@ -2001,6 +2001,14 @@ Checked2026-10-18 against [own original manual](https://zoomcorp.com/media/docum
 | Processing / overflow behavior | Exceeding processing capacity **orunit occupancy** produces **PROCESS OVERFLOW** andbypasses effects. Manual directs deleting effects orchanging types toend bypassing. Atseveneffects,theADD command isnotshown. This qualifies theseven-effect maximum;it isnot a guarantee ofevery combination orproof that overload preserves theintended sound. |
 | Display / contrast controls | **LCD CNTRST** selects an individual display,withcontrast range **1–13**. Adjustable contrast is documented;it doesnot resolve diagonal,color depth ortouch capability. |
 
+### B3n — explicit 2026 downloadable-effect compatibility
+
+Checked2026-10-18 against [manufacturer ZoomClassics release notice](https://zoomcorp.com/en/us/news/zoomclassics/). No effects/software downloaded orinstalled.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / dated additional effects | Notice explicitly lists **B3n** for **BitCrush(February2026)** and **DynaDelay(April2026)** through Guitar Lab Windows/Mac. BitCrush deliberately reduces samplefrequency/bitresolution forlo-fi distortion;this isaneffect,not achange totheunit’s converter specification. DynaDelay supports input-dependent ducking andtheinverse gated-delay behavior. Availability doesnot prove installation,parameter ranges,DSPcost or a complete updated category total. The separatelylisted June stereoEQ andJanuary ModulationDelay2 compatibility lists do not nameB3n;do not transfer those additions. |
+
 ## A1 FOUR
 
 Reviewed **2026-10-17** after exact Shopee hardware discovery. Acoustic multi-effects,including documented upright-bass processing;separate from A1X FOUR,no ownership assertion. Partial:official indexed documentation and page text only;no dependency,manual,software or firmware file downloaded.
