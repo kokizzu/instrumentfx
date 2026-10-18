@@ -1534,3 +1534,11 @@ Checked 2026-10-18. [Two-page V02 manual copy](https://www.scribd.com/document/7
 | Power / unresolved table extraction | Original-copy text garbles AUX resistance, phones resistance and dimensions. Do not certify those numbers from OCR or silently adopt a mirror’s cleaned conversion. Manufacturer English/Chinese dimension-label conflict remains unresolved. USB charging does not establish USB audio, MIDI or operation while charging. |
 
 A [second mirror](https://manuals.plus/m/185037a00bd2a4db6dc63b0316b7e896d001043744755b36254364e31de13747) links an original two-page483.86KB PDF matching the official file-size listing, but its PDF yields no extracted text. Its generated diagram-description section is not used as a panel audit. Distributor Music Alliance exact product endpoint returned403. No file download or image inspection performed.
+
+### GP-50 — across-preset expression-volume audit, 2026-10-19
+
+[Manufacturer-authored firmware 1.0.5 manual](https://manuals.plus/m/62ee73765be68fba94241219c8e998d6763ec022993418a85a41cc932830b64d.pdf), identified by its title page and exact GP-50 panel, printed pp16–17: expression defaults to VOL; target and 0–100 endpoints are editable per patch. Pre preserves time-effect decays; Post cuts them. Controls may change with patches. **No every-preset global target override verified.** Global calibration/socket mode does not prove assignment scope. Bypass, headphone and looper attenuation remain unknown. Onboard A/B switch patches in Patch Mode; directional mapping not text-verified here.
+
+[Official firmware 1.1.0 listing](https://www.valeton.net/wpfd_file/gp-50-firmware-v1-1-0-zip%EF%BC%88compatible-with-computer-software-v2-1-0-and-mobile-software-v2-1-0%EF%BC%89/) names computer/mobile software 2.1.0; the older manual does not certify current expression behavior. No archive downloaded. [Capability comparison](EXPRESSION-VOLUME.md).
+
+**IDR recheck:** [HOLY MUSIC seller945642322/item55704518866](https://shopee.co.id/VALETON-GP-50-MULTI-EFFECT-PROCESSOR-Gp50-efek-valeton-gp50-i.945642322.55704518866), Jakarta Utara, cached last-month body reopened2026-10-19: Rp2.255.000. No Habis displayed; relative delivery is not stock confirmation. Condition, bundle, warranty, shipping/tax and checkout remain unverified. Late-delivery compensation is not a hardware discount. Earlier snapshots retained.

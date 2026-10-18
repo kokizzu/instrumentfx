@@ -2043,3 +2043,7 @@ research-commit-hotone:
 .PHONY: expression-audit-commit-neural
 expression-audit-commit-neural:
 	python3 scripts/expression_audit_neural.py commit
+
+.PHONY: expression-audit-commit-valeton
+expression-audit-commit-valeton:
+	python3 scripts/expression_audit_valeton.py commit

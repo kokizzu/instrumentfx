@@ -121648,10 +121648,9 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "Neural DSP Nano Cortex",
-    "finding": "Mini patch-scoped controls; Nano official LEVEL target conflict and global scope unresolved. Neither qualified for every-preset requirement.",
+    "current": "Valeton GP-50",
+    "finding": "GP-50 default VOL and patch-dependent targets/ranges; no global override verified; manual1.0.5 versusfirmware1.1.0 qualified.",
     "next": [
-      "Valeton GP-50",
       "Line 6 HX exact models",
       "BOSS GT-1000CORE",
       "M-VAVE exact controller wiring",
