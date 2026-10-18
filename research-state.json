@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC Electronic NOVA System",
-    "task": "Saved NOVA MIDIglobaldump excludespresets,userbankdump separate,PCmapping/clock/CC scope. Next exactphysicalcontrol/builtinexpression/toe audit orfreshShopee discovery;dimension/currenteditor/qualifiedIDR unresolved. Do nottreat MIDIbackup asdesktopeditor orallparameterCCaccess.",
+    "task": "Saved NOVA text-derivedK4/F8/B15 withbuttonarithmetic,per-effect4variation scope andalgorithm-onlyFactoryDefault distinction. Next seekfreshShopee hardware orstronger primarydimension/concurrency evidence;visualcontrols/expression,currenteditor andqualifiedIDR remain. Do notrepeat same manual asnewvisualproof.",
     "next_models": [],
     "after_queue": "366active/46brands;307guitar159bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -80957,5 +80957,15 @@
     "source": "https://manualzz.com/doc/7256177/tc-electronic-nova-system-guitar-and-bass-owner-s-manual",
     "revision": "Manual1.2/SW1.10,pp21–23",
     "finding": "Separate global/preset dump scope andMIDI control restrictions saved;current editor/OS andrestoreprocedure remainunverified."
+  },
+  "nova_system_control_census": {
+    "date": "2026-10-18",
+    "source": "https://manualzz.com/doc/7256177/tc-electronic-nova-system-guitar-and-bass-owner-s-manual",
+    "revision": "Manual1.2/SW1.10",
+    "K": 4,
+    "F": 8,
+    "B": 15,
+    "button_method": "7effectedit+4variation+FactoryDefault+Store+Levels+Menu",
+    "method": "Text-derived,notphotoverified;built-inexpression/toevisualaudit pending."
   }
 }

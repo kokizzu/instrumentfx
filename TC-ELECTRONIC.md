@@ -374,7 +374,7 @@ Checked 2026-10-18. Guitar multi-effects, distinct from NOVA Drive/Modulator and
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | External Pedal In accepts expression orG-Switch;calibration required. Built-in/toe audit pending. | [Manual][NOVA-M] pp9,16–17 |
-| K/F/B | Four A–D encoders;eight switches described;complete button/classification audit pending. | [Manual][NOVA-M] pp6–9 |
+| K/F/B | **4 / 8 / 15**, derived from manual text: four A–D encoders; eight footswitches; seven effect-edit buttons + four variation keys + Factory Default, Store, Levels and Menu. Encoder rotation counts once; power/toe separate. Diagram/photo corroboration pending. | [Manual][NOVA-M] pp6–9,24 |
 | Display | 24×2-character LCD;diagonal/color/touch unresolved. | [Manual][NOVA-M] p46 |
 | Dimensions / weight | Printed284×89×267mm,axis order unlabelled;1.85kg. Inch-to-mm depth correspondence appears inconsistent;not silently corrected. | [Manual][NOVA-M] p46 |
 | Processing / choices | Analog overdrive/distortion plus six digital blocks:compression,EQ+gate,modulation,pitch,delay,reverb. Section-level category census below;exact simultaneous ceiling remains unverified. | [Manual][NOVA-M] p5 |
@@ -422,6 +422,16 @@ Checked 2026-10-18 against original manual revision1.2/SW1.10,printed pp21–23.
 | MIDI / receive and program mapping | Receive channelOff,1–16 orOmni. Program-change input/output independently enabled;mapping translates incoming changes to presets andalso affects outgoing program changes onrecall. ChannelOff ignores incoming MIDI. |
 | MIDI / clock and controller assignments | Incoming clock can supply global tempo. Each listed control function acceptsOff orCC0–127 assignments:effect bypass,boost,tap andthe expression-mapped parameter. This is aCC-number assignment range,not a documented on/off value threshold oraccess toevery editable parameter. |
 | MIDI / identification | SysEx deviceID0–126 orALL distinguishes units;it isnot a MIDI channel number. |
+
+### NOVA System — control census and variation memories
+
+Checked 2026-10-18 against original manual revision1.2/SW1.10,pp7–9,24. Text-derived inventory;no photo inspection ordevice operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| Physical controls / count method | **K4/F8/B15.** Manual p24 explicitly identifies seven effect-edit switches;these are distinct from the eight performance footswitches described onp8. Four variation keys andfour additional named front-panel buttons complete B15. Dual functions andlong-press actions do not add switches. Built-in expression/toe hardware still requires diagram corroboration. [Manual][NOVA-M] |
+| Memory / variation scope | Each selected effect type stores **four favorite settings** through the variation keys. Recalling one changes that effect in the current preset;the preset itself still needs saving. These are reusable effect settings,not four additional complete-preset banks orsimultaneous effects. [Manual][NOVA-M] p7 |
+| Memory / factory-default scope | Front-panel Factory Default recalls defaults for the **currently selected effect algorithm**. It isdistinct from Utility Clear System anddoes not establish a whole-unit reset from one button press. [Manual][NOVA-M] pp7,19 |
 <!-- comparison evidence ends -->
 
 [NOVA-M]: https://manualzz.com/doc/7256177/tc-electronic-nova-system-guitar-and-bass-owner-s-manual
