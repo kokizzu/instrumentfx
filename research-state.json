@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": null,
-    "task": "Fresh legacy-series discovery returned accessory-only or already-recorded hardware hits; exact rejections saved in discovery_legacy_accessory_filter_20261018. Next search alternate model spellings and missing bass/vocal series; DSP2024P numbered census remains open.",
+    "model": "BOSS ME-8",
+    "task": "Saved own-manual tempo-delay ceiling and tempo persistence. Next resolve remaining ME-8 fields or resume fresh Shopee bass/vocal discovery; accessory-only searches do not establish hardware availability.",
     "next_models": [],
     "after_queue": "349 partial models;114 Markdown compatibility files remain;no downloads/workflows/push."
   },
@@ -45606,7 +45606,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Behringer DSP2024P."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS ME-8."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -75121,5 +75121,22 @@
     },
     "outcome": "No qualified new processor lead from these queries; no inventory or price-table additions. Empty/nonmatching search results do not prove unavailable hardware.",
     "next": "Try alternate unhyphenated spellings and other missing bass/vocal series; do not research accessory titles as processors."
+  },
+  "me8_tempo_limits_20261018": {
+    "checked": "2026-10-18",
+    "source": "https://cdn.roland.com/assets/media/pdf/ME-8_OM.pdf",
+    "page": 16,
+    "access": "Manufacturer-indexed own-manual page text; no source-file download",
+    "findings": [
+      "Tempo Delay max2s; excess calculated delay halved",
+      "Simultaneous Tempo Delay and Tempo Rate",
+      "Basic tempo quarter-note120 at power-on; changes persist until power-off",
+      "FS-5U TEMPO IN or assigned CTL requires more than four steady presses"
+    ],
+    "remaining": [
+      "Delay category complete type inventory",
+      "Control counts and visual corroboration",
+      "Other required fields and qualified new/live-stock offers"
+    ]
   }
 }

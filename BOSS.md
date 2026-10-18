@@ -2729,6 +2729,17 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | Used | **Rp2.500.000**, seller title SECOND. HUTAURUK MUSIC, shop190993829/item17255720607. Exact item linked from storefront, checked 2026-10-17; direct item returned cache miss. Storefront crawled two months ago, search three months; Bekasi from search index. Stock unverified. | [Item][ME8-O]; [Storefront][ME8-S] |
 | New | No qualified amount. | — |
 
+
+### ME-8 — tempo-delay ceiling and shared tempo
+
+Checked2026-10-18 against manufacturer-indexed [own manual p16][ME8-M], How to Set the Patch for Using the Tempo Delay/Tempo Rate. No PDF downloaded or device operation performed.
+
+| Field | Evidence / qualification |
+|---|---|
+| Delay / tempo ceiling | Tempo Delay supports intervals **t-1–t-9**, with **2.0seconds maximum**. When basic tempo plus interval would exceed that maximum, the actual delay time is **halved**. Do not assume the selected subdivision is preserved beyond the ceiling. |
+| Live / simultaneous tempo functions | Tempo Delay and Tempo Rate can operate together in a patch. Humanizer,Flanger,Phaser andTremolo offer tempo-rate settings;Flanger/Phaser also offer tempo-step settings. These parameter options are not extra effect blocks. |
+| Live / basic tempo persistence | Optional **FS-5U at TEMPO IN** or CTL assigned TEMPO sets tempo after **more than four steady presses**. Basic tempo starts at **quarter-note120** at each power-on and retains changes until power-off;it can be changed even while the current patch does not use it. No patch-stored tempo or MIDI clock support is inferred. |
+
 <!-- comparison evidence ends -->
 
 Original/good/no-minus are seller claims, not verified condition or authenticity. Bundle, adapter inclusion, working state, warranty, shipping, tax and vouchers unverified. Historical ask is not live availability or a completed sale. Official PDF opens as 40 pages with no extracted body; indexed manufacturer text supplies printed page34. No download or visual inspection claimed.
