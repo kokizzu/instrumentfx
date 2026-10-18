@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom A2",
-    "task": "Preset protection,electrical/converter ratings andManualmode scope saved. Next freshShopee brand/series hardware discovery oranother significant requiredgap. A2 exactprices,visualaudit/editor stillunverified;do notrepeatcompletedmemory/categories/IO.",
+    "model": "Zoom B2 FOUR",
+    "task": "Indonesian developer AppStore listing,minOS andiPhone/iPadOSwording mismatch saved. ExactShopeeLYN/IDB deduplicated;no newprice range. Next freshbrand/series hardware discovery ormajorrequiredfield gaps;visualcontrol/sample rate remainunverified.",
     "next_models": [],
     "after_queue": "369active/46brands;308guitar161bass69vocal;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
   },
@@ -46033,7 +46033,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom A2."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B2 FOUR."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -81157,5 +81157,13 @@
     "printed_pages": "5,16,35",
     "finding": "Read-only presets,analog electricalratings andManualmode scope saved.",
     "status": "partial"
+  },
+  "b2four_regional_editor_20261018": {
+    "source": "https://apps.apple.com/id/app/handy-guitar-lab-for-b2-four/id1670829465",
+    "finding": "Regional software-onlylisting andminimum OS saved;physicalUSBcompatibility nottested.",
+    "deduplicated_offers": [
+      "1203229574/42758785757",
+      "800959591/24004987590"
+    ]
   }
 }

@@ -1276,6 +1276,16 @@ Checked2026-10-18 against [Handy Guitar Lab for B2 FOUR manual](https://zoomcorp
 | Editor / reusable clips and DSP | Clips hold **1–4 effects plussettings**. Adding aclip exceeding **100% processor usage** is blocked,with red usage indication. This is aneditor insertion limit,distinct from the hardware's documented overflow-bypass behavior;clips do not expand five simultaneous slots. Manual pp33–34. |
 | Memory / app saving | With device Auto Save enabled,edits save when navigating toanother screen. Manual Save remains available regardless ofAuto Save. Names allow14characters. Manual pp24,31. |
 | Editor / USB-C iPad connection | Manual explicitly supports **USB-C-to-USB-C forUSB-C iPads**,separate from itsLightning Camera Adapter path. This doesnot establish every iPhone/iPad revision orAndroid editing. Manual p5. |
+
+### B2 FOUR — Indonesian editor listing
+
+Checked2026-10-18 against [Zoom’s App Store listing,ID1670829465](https://apps.apple.com/id/app/handy-guitar-lab-for-b2-four/id1670829465);last-month cached page,not checkout ordevice testing.
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / regional listing | **Rp19,000 software-only**,displayed asRp19ribu;not aprocessor ask orhardware bundle. ProviderZOOM CORPORATION,English/Japanese,**iOS14.0 minimum**. Apple also lists visionOS1.0 compatibility;that doesnot verify USBpedal connection onVision hardware. |
+| Editor / platform wording conflict | Store label says **Only for iPhone**;Zoom’s ownmanual/compatibility evidence above explicitly coversiPadOS. Preserve both scopes;storelabel doesnot overturnmanufactureriPadinstructions. Noappdownload,installation orconnection attempted;version/release history notestablished fromthe inspected regionalpage. |
+
 <!-- comparison evidence ends -->
 
 ## B6
