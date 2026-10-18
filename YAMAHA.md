@@ -456,12 +456,13 @@ Distinct acoustic-guitar multi-effects, checked 2026-10-18; partial. [Manufactur
 | Expression / assignments | Manual p22: eight stored control assignments; one controller can drive eight parameters. Sources are EXP or MIDI CC1–31/64–95. Each assignment has independent minimum/maximum values, stored with patches; Utility can globally enable/disable external control. Mechanical toe-switch support remains unverified. |
 | K/F/B | **15 /4 /17 front-panel buttons**; rear power, MUTE and guitar-supply switches additional. Published census, not a visual count. |
 | Display | **Three-digit seven-segment LED**; diagonal, emission color and touch unverified. |
-| Processing / categories | Eight microphone simulations; limiter; five simultaneous notch filters; chorus **or** delay; Hall/Room/Plate reverb. Overall concurrency ceiling unverified. |
+| Processing / categories | Eight microphone simulations; limiter; five simultaneous notch filters; chorus **or** delay; Hall/Room/Plate reverb. Manual p14 defines three effect blocks: limiter, chorus/delay and reverb; one choice per shared block. Mic simulation and notch processing are separately documented, not extra freely assignable blocks. |
 | Memory | **60 total:30 preset+30 user positions**, each area ten banks of three. At shipment both contain the same patch data (manual p17). Preset storage cannot be overwritten; edits must be stored in the user area. |
-| Synth / acoustic | Acoustic microphone simulation; dedicated synth and electric-to-acoustic conversion unverified. |
+| Synth / acoustic | Manual p15: CONDENSER1/2, DYNAMIC1/2, TUBE1/2 and NYLON STR1/2; each pair represents close/distant placement. BLEND mixes modeled/direct sound; SHIFT adjusts simulated stereo spacing. Dedicated synth and electric-to-acoustic conversion unverified. |
 | Dimensions / mass | **280W×184D×70H mm;2.2kg**. |
 | I/O | Stereo-phone INPUT; balanced TRS L/MONO and R outputs; stereo-phone PHONES and EXP; coaxial DIGITAL OUT; five-pin MIDI IN/OUT. Socket diameters and complete absence audit pending. |
 | Power | **AC-10:12V AC,1A;15W consumption**. This is AC, not center-negative DC. Battery/USB operation unverified. |
+| Power / guitar supply | Manual p12 supplies **9V through its special TRS cable**, requiring a mono-output, jack-switched 006P-powered preamp and supplied dummy battery replacing the real battery. Leaving the real battery installed can apply18V and damage it. Current limit wording conflicts: p12 **≤10mA**, appendix **<10mA**. Ordinary connections use mono cable with supply OFF; no intervening effects in powered routing. |
 | IR / NAM / capture | User IR, native/converted NAM and capture import unverified; microphone modeling is not proof. |
 | Editor / data | MIDI bulk storage/restore documented; full editor/platforms, USB audio and drivers unverified. |
 | Looper / practical | Chromatic tuner; headphone connection retains analog/digital outputs. Digital output is **44.1kHz** and unaffected by OUTPUT knob. Looper/drums/scenes unverified. |
@@ -471,4 +472,4 @@ Distinct acoustic-guitar multi-effects, checked 2026-10-18; partial. [Manufactur
 
 <!-- comparison evidence ends -->
 
-Original Yamaha-hosted PDF read as browser text; no file downloaded, device operated or software installed. Do not borrow DG-Stomp specifications. Detailed expression mappings, patch initialization and full physical inventory remain to verify.
+Original Yamaha-hosted PDF read as browser text; no file downloaded, device operated or software installed. Do not borrow DG-Stomp specifications. Expression mappings and original patch initialization are documented above; complete physical/absence checks and remaining software/price gaps stay unresolved.

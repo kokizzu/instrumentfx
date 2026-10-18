@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Yamaha AG-Stomp",
-    "task": "AG-Stomp user factory fill and expression assignments resolved. Next input guitar-power restrictions, exact mic-model choices and full I/O/control details from own manual; then discovery and required consolidation.",
+    "task": "AG-Stomp named mic models, three effect blocks and guitar-supply restrictions saved. Next exact MIDI/EXP calibration and remaining hardware/absence fields, or fresh eligible Shopee discovery. Keep current-threshold conflict; never treat supply feature as microphone phantom.",
     "next_models": [],
     "after_queue": "378 active models,46 brands,all partial; no downloads/workflows/push; migration incomplete."
   },
@@ -5595,6 +5595,12 @@
       "date": "2026-10-18",
       "source": "https://usa.yamaha.com/files/download/other_assets/1/313701/agstomp_en.pdf",
       "finding": "Exact manual resolves user factory fill and controller assignments; tuner and reset/retention boundaries added. No device operation."
+    },
+    {
+      "model": "Yamaha AG-Stomp",
+      "date": "2026-10-18",
+      "source": "https://usa.yamaha.com/files/download/other_assets/1/313701/agstomp_en.pdf",
+      "finding": "Own manual resolves named mic choices and three shared effect blocks. Guitar supply prerequisites and inconsistent 10mA boundary retained. No power/device operation."
     }
   ],
   "consolidation_and_price_findings": [
@@ -110676,13 +110682,6 @@
             ]
           },
           {
-            "field": "Processing / categories",
-            "source": "YAMAHA.md",
-            "signals": [
-              "unverified"
-            ]
-          },
-          {
             "field": "Synth / acoustic",
             "source": "YAMAHA.md",
             "signals": [
@@ -110701,6 +110700,13 @@
             "source": "YAMAHA.md",
             "signals": [
               "unverified"
+            ]
+          },
+          {
+            "field": "Power / guitar supply",
+            "source": "YAMAHA.md",
+            "signals": [
+              "conflict"
             ]
           },
           {
@@ -116998,9 +117004,9 @@
       "TC-ELECTRONIC.md": "c4b16b3c6f514ab087fed6c19a469d50b1e14e9793b555ad8371da0bcddd5449",
       "VALETON.md": "e335ead12e652b2f04053cb58702d5055e6bcf32c61cbca143572baf2cb4b03e",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
-      "ALL-GUITAR.md": "90b809883ca3a66bae4c65c17961b0d326b19e5d3e071815859940cc4d463098",
+      "ALL-GUITAR.md": "6bb07bebc47c8b9e3e7d071cfc3169e32945a969050121ed2fc9f78876d55eb7",
       "LINE6.md": "e277da711458c000e26845a4cd5b568f5dbe59a4305b8ce1ffe3e37dd72f92ff",
-      "YAMAHA.md": "30e9dbc5088c43c311962dd7d0c177436bcf6a20f4b2a6ef1c5454bdfda5eec4",
+      "YAMAHA.md": "aa1ca652e3c26a1561f9ffd763362fef1d4394b53b7418adc64c462c88046743",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
       "ALL-BASS.md": "53bdd66a87c85f3131a04589046fbad48fec411f363bdc5438ea3a74be819672",
