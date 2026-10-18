@@ -3016,6 +3016,8 @@ Checked **2026-10-17**, partial. Separate guitar model from GFX-707 and bass708I
 | Processing / converters and sampler | **31.25 kHz** sampling; **20-bit A/D, 64× oversampling**, **20-bit D/A, 128× oversampling**. Sampler uses **16-bit linear** recording/playback, separately from converter resolution. [Manual p39][707-M] |
 | I/O / electrical ratings | Guitar nominal **−20 dBm, 470 kΩ**; AUX **−20 dBm, 20 kΩ**. Combined stereo line/phones maximum **+3 dBm into ≥10 kΩ**; headphone mW unspecified. Reference: 0 dBm = 0.775 Vrms. [Manual p39][707-M] |
 | Memory / selective factory recall | All Initialize restores all USER patches; Factory Recall restores a selected USER patch. Either overwrites affected edits. Both start by powering on holding STORE/EXECUTE; CANCEL/EXIT cancels before confirmation. This is documentation, not a reset performed. [Manual p32][707-M] |
+| Live / bypass, mute and tuner | Briefly pressing/releasing both footswitches gives **dry bypass with pedal volume control**; holding both for **at least one second** then releasing mutes OUTPUT/PHONES. Tuner reference **435–445 Hz**, returning to **440 Hz after power-on**. Bypass is not an automatic mute. [Own manual p11][707-M] |
+| Live / rhythm bank-selection limit | During rhythm playback, **direct bank selection is unavailable**; ordinary patch switching remains possible. USER-only, PRESET-only or both-group selection is available through the TYPE-key combination. [Own manual p10][707-M] |
 | Routing / patch preselect | Preselect permits browsing while the current sound remains active; both footswitches together confirm the change. Power cycling restores immediate selection. This is not a spillover claim. [Manual p23][707-M] |
 <!-- comparison evidence ends -->
 

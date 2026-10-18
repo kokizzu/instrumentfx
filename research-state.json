@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom A2 discovery lead / required gaps",
-    "task": "A2 exact hardware offer remains unresolved after alternate-spelling acoustic searches. Original manual p35 now preserves memory, I/O, power, dimensions and rhythm/delay restriction in discovery lead. Keep outside active counts; seek exact market offer or address another recorded-model required-field gap.",
+    "model": "Recorded-model required fields / discovery",
+    "task": "707II bypass/mute, tuner-reference reset and rhythm bank-selection limit saved. Continue another unresolved recorded-model field or fresh Shopee series discovery; A2 stays a non-active lead without exact hardware offer.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -45864,7 +45864,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh eligible hardware discovery / required gaps."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Recorded-model required fields / discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -79004,5 +79004,18 @@
       "restriction": "Rhythm playback disables DELAY/REVERB.",
       "remaining": "Built-in/toe expression, separate K/F/B, category choices, editor/IR/NAM/capture and remaining practical functions need full manual audit before any admission."
     }
+  },
+  "zoom_707ii_live_selection_20261018": {
+    "source": "https://zoomcorp.com/media/documents/E_707II.pdf",
+    "printed_pages": [
+      10,
+      11
+    ],
+    "verified": [
+      "Audible bypass versus silent mute and pedal-volume behavior",
+      "435–445 Hz tuner reference;440 Hz power-on default",
+      "Direct bank selection unavailable during rhythm playback"
+    ],
+    "qualification": "Own 707II manual; no 708II borrowing or hardware operation. Other technical and market gaps remain."
   }
 }
