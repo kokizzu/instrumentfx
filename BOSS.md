@@ -3327,6 +3327,16 @@ Checked2026-10-18 against the [French manufacturer manual](https://fr.scribd.com
 | Processing / Rotary controls | Separate low/high slow/fast rates andtransition times;Drive,level andseparation controls. **SPEED(TRIG)** toggles speed from a momentary MIDI controller;**SPEED** changes it while held. This does not establish an analog expression jack. |
 | Processing / Keyboard Multi1 limits | EQ,delay,Super Chorus andreverb have documented parameters;delay **0–800ms**,reverb **0.1–20s**. Effects can be switched individually. These are within this algorithm,not a global freely assignable chain or28simultaneous effects. |
 
+### SE-50 — input controls and patch-selection behavior
+
+Checked2026-10-18 against [French manufacturer manual](https://fr.scribd.com/document/644989539/Boss-SE-50-fr),©1990,front-panel,input-level andprogram-selection sections. Text-derived;no visual control audit.
+
+| Required field | Evidence / qualification |
+|---|---|
+| Knobs / confirmed input controls | **Two independent rotary input-level controls**,left/right. Complete button/footswitch totals remainunverified. Overload indicators are documented **6dB below clipping**;they are not maximum-input specifications. |
+| Live / patch stepping | One **FS-5U atNUMBER SHIFT** advances oneprogram perpress;holding does not auto-repeat. Two switches through **PCS-31** provide increase/decrease. A configurable range limits stepping;reversing its endpoints gives descending order. |
+| Memory / power-on recall andediting | Power-on recalls the previously used program. Parameter edits are temporary untilwritten;changing programs orpowering off loses unsaved changes. This is distinct from automatic recall of an already stored program. |
+
 ### SE-50 source access and remaining verification
 
 [Official archive](https://www.boss.info/us/support/manual_archive/) links [144-page original manual](https://cdn.roland.com/assets/media/pdf/SE-50_OM.pdf),zero extractedlines. [ManualsLib copy](https://www.manualslib.com/manual/1014513/Boss-Se-50.html) exposescontents butselectedpages lackedoriginalbody. No fullmanual/visual verification claimed.

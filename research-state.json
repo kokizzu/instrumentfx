@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS SE-50",
-    "task": "Saved SE-50 vocoder requirements,Rotary MIDI speed behavior andKeyboard Multi1 timing. French mirror text stops during Keyboard Multi2;seek another original source for later chains/hardware orresume discovery.",
+    "task": "Saved confirmed input knobs,overload threshold,FS-5U/PCS-31 patch stepping andrecall/save behavior. Later original specifications remaininaccessible;next other unresolved model gaps orfresh Shopee discovery.",
     "next_models": [],
     "after_queue": "349 partial models;114 Markdown compatibility files remain;no downloads/workflows/push."
   },
@@ -75325,5 +75325,25 @@
       "Physical controls,display,power,dimensions/revisions",
       "Qualified prices andother required fields"
     ]
+  },
+  "se50_control_selection_20261018": {
+    "checked": "2026-10-18",
+    "source": "https://fr.scribd.com/document/644989539/Boss-SE-50-fr",
+    "sections": [
+      "Front panel",
+      "Input level",
+      "Program selection",
+      "Editing"
+    ],
+    "destination": "BOSS.md#se-50",
+    "remaining": [
+      "Complete control count andvisual audit",
+      "Later original manual pages forspecifications/chains",
+      "Other required fields andqualified prices"
+    ],
+    "additional_source_limit": {
+      "url": "https://www.vintagedigital.com.au/product/boss-se-50-user-manual/",
+      "result": "Paid scanned manual listing;not purchased ordownloaded. Secondary product specifications not promoted toprimary evidence."
+    }
   }
 }
