@@ -541,8 +541,8 @@ Italian manufacturer-authored mirror identifies firmware1.0/reference2015-11-17;
 | Unknown | **Rp3,800,000; Habis**, Suryaputra Musik, Kota Semarang;shop270383239/item43054250870. Checked2026-10-18; direct HTML, month-old cache. Condition, revision, working state, bundle/adapter, warranty and variation unknown. Relative Besok delivery is stale; Rp10,000 late compensation is not discount. Shipping/tax/checkout unknown. Historical ask only. | [Exact item](https://shopee.co.id/TC-Helicon-Perform-V-vocal-processor-i.270383239.43054250870) |
 ### PERFORM-V — microphone noise conditions
 
-| Field | Original manual specification |
-|---|---|
+| Field | Original manual specification | Evidence |
+|---|---|---|
 | I/O / microphone noise | **EIN−128dBu A-weighted atmaximumgain with150Ωsource;microphone SNR>105dB A-weighted**. The separate115dB A/D converter SNR isnot thewhole microphonepath. Publishedratings,notlocalmeasurements;sourceimpedance andweighting retained. | [Manufacturer manual,firmware1.0,2015-11-17,p49][PV-B] |
 
 <!-- comparison evidence ends -->
