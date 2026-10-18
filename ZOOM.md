@@ -4197,8 +4197,8 @@ Checked2026-10-18. Discontinued guitar multi-effects;100 effects/amp models. His
 | Display | LCD;diagonal/color/touch unspecified. | [Manual][M100BT-M] p37 |
 | Dimensions / weight | 130.3D×77.5W×58.5Hmm;360g. | [Manual][M100BT-M] p37 |
 | Processing / memory | 100 types;6 simultaneous,limited byDSP. Over-budget effect bypassed;DSP Full warning. 50 writable patches;factory-filled count unresolved. | [Manual][M100BT-M] pp2,11–12,37 |
-| Category choices | Category breakdown remains unaudited;100 total is not100 simultaneous blocks. | Pending |
-| Synth / acoustic | Exact synthesis/acoustic-simulation inventory unresolved. Bass tuner mode alone does not qualify bass processing. | [Manual][M100BT-M] p38 |
+| Category choices | Derived original-manual census: DYN/FLTR20,OD/DIST21,AMP8,MOD/SFX29,DLY/REV22 =100. Includes utility LineSel;not100 simultaneous blocks or current StompShare inventory. | [Manual][M100BT-M] pp26–33 |
+| Synth / acoustic | Aco.Sim models acoustic-guitar tone;MonoSynth is single-note synthesis;Z-Organ simulates organ. Polyphonic synthesis unverified. Bass tuner mode alone does not qualify bass processing. | [Manual][M100BT-M] p38 |
 | I/O | Mono-phone input/output sockets;MONO connections andstereo-input operation described. Complete physical socket count pending. Input1MΩ,−20dBm nominal;output+5dBm maximum into≥10kΩ. | [Manual][M100BT-M] pp6,37 |
 | Conversion | 44.1kHz;24-bit AD/DA128×oversampling;32-bit float+fixed processing. | [Manual][M100BT-M] p37 |
 | Power / battery | AD16:9VDC center-negative,500mA supply rating,not device draw. **Conflict:**safety p4 says4AA;spec p37 says2AA alkaline,~7h mono/~5h stereo. | [Manual][M100BT-M] pp4,37 |
@@ -4208,6 +4208,16 @@ Checked2026-10-18. Discontinued guitar multi-effects;100 effects/amp models. His
 | Looper / drums / live routing | Looper/drums/scenes/persistence unverified;chain reorder,patch footswitch cycling,tuner/tap described. | [Manual][M100BT-M] pp13–19 |
 | IDR used | Unknown;no qualified exact hardware offer. | Discovery2026-10-18 |
 | IDR new | Unknown;exact Shopee search yielded no hardware hit. Seller/item,condition,stock,region,bundle,warranty/voucher/checkout unresolved;not proof of unavailability. | Discovery2026-10-18 |
+
+### MS-100BT — save and reset behavior
+
+Checked2026-10-18;original manual Z2I-1528-02©2012.
+
+| Field | Finding / qualification |
+|---|---|
+| Memory / save policy | Auto Save defaults ON;OFF requires manual saving. Initial factory-filled patch count remains unresolved. [Manual][M100BT-M] pp12,23 |
+| Memory / reset scope | All Initialize restores settings andpatches but **retains added effects**. It is not documented as returning the installed effect library toits original100. [Manual][M100BT-M] p34 |
+| Live / tap and display | Tempo stored perpatch. Footswitch hold selects tuner(default) or tap;tap can interrupt anactive effect for1s. LCD contrast andbacklight-dimming time adjustable;no diagonal/color/touch specification established. [Manual][M100BT-M] pp18–24 |
 <!-- comparison evidence ends -->
 
 [M100BT-P]: https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-100bt/

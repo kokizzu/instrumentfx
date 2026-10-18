@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom MS-100BT",
-    "task": "Added partial manufacturer profile. Next audit full physical I/O,category choices,expression andinitial factory patch fill;verify StompShare current support separately. Do not infer bass processing from tuner.",
+    "task": "Saved MS100BT original100 category census,acoustic/mono-synth distinction andsave/reset semantics. Next verify physicalports/expression/controls andfactory patchfill from exact manufacturer material;current StompShare support andIDR offers remain. Do not repeat tuner asbass proof.",
     "next_models": [],
     "after_queue": "365active/46brands;306guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -80815,5 +80815,21 @@
       "DigiTechVX400"
     ],
     "result": "No new exact eligible hardware recovered;accessories/unrelated results not admitted;notabsenceproof."
+  },
+  "ms100bt_category_audit": {
+    "date": "2026-10-18",
+    "source": "https://zoomcorp.com/media/documents/MS-100BT_operationManual_English.pdf",
+    "revision": "Z2I-1528-02",
+    "pages": "26–33",
+    "method": "Count named entries under printed category headings,including utility entries;original factory library,not current installed or downloadable library.",
+    "counts": {
+      "DYN/FLTR": 20,
+      "OD/DIST": 21,
+      "AMP": 8,
+      "MOD/SFX": 29,
+      "DLY/REV": 22
+    },
+    "sum": 100,
+    "remaining": "Physical socket/control audit,expression,initial patch fill,current StompShare support andqualified IDR hardware offers remain unresolved."
   }
 }
