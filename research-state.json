@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Alesis MicroVerb 4",
-    "task": "Saved explicitly used2709000IDR andikondo752257787/24378585723;working/origin/currentstockunverified. Next freshShopee discovery orremainingtechnicalgaps;do notduplicateoffer.",
+    "model": "Alesis MIDIverb 4",
+    "task": "Saved ownmodulation,clock andSysExscope. Next inspect exactShopee88823786/18090597062 lead,thenremainingbody/current/display/qualifiedprices.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -45606,7 +45606,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Alesis MicroVerb 4."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Alesis MIDIverb 4."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -75413,8 +75413,8 @@
     "next": "Fresh Shopee GP-series discovery; GP-100VT manufacturer lead requires exact hardware offer and own-model technical evidence."
   },
   "resume_cursor": {
-    "model": "Alesis MicroVerb 4",
-    "task": "Saved explicitly used2709000IDR andikondo752257787/24378585723;working/origin/currentstockunverified. Next freshShopee discovery orremainingtechnicalgaps;do notduplicateoffer.",
+    "model": "Alesis MIDIverb 4",
+    "task": "Saved ownmodulation,clock andSysExscope. Next inspect exactShopee88823786/18090597062 lead,thenremainingbody/current/display/qualifiedprices.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75776,5 +75776,24 @@
       "site:shopee.co.id Boss ME-8B"
     ],
     "result": "Noqualifiednewexacthardwaremodel;existingB2FOURoffersalreadyrecorded. Albertastorefront3935000lead directcachemiss,noexactitem;notassignedprice. Searchfailure notmarketabsence."
+  },
+  "midiverb4_modulation_backup_20261018": {
+    "source": "https://www.alesis.com/rscdn/982/documents/midiverb_iv_refmanual.pdf",
+    "pages": [
+      59,
+      60,
+      61,
+      62
+    ],
+    "findings": "All/Buffer/TableSysEx;selectableglobalX/Ysourceswith−99..+99amounts,fixedconfigurationdestinations;BPMMonoDelayexternalclockretainslasttempo",
+    "limits": "Noeditor/continuousEXP/generalclocksyncinference"
+  },
+  "discovery_midiverb4_mone_20261018": {
+    "queries": [
+      "site:shopee.co.id MIDIverb 4 bekas",
+      "site:shopee.co.id TC M-One XL"
+    ],
+    "result": "Existingmodels only;newunreviewed exactMIDIverb4 offer88823786/18090597062 retained aslead,noassignedprice",
+    "lead": "https://shopee.co.id/Alesis-MIDIVerb-4-Dual-Channel-Parallel-Processor-i.88823786.18090597062"
   }
 }

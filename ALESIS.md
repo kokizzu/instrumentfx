@@ -153,6 +153,17 @@ Checked 2026-10-18 against the [manufacturer manual,p61 chart andpp27–29 routi
 | Processing / count basis | **15+3+7+7=32 configurations**,not32simultaneous effects or32freely assignable blocks. These resolve earlier configuration-subtotal gaps;factory/user program counts remain separate. |
 
 
+### MIDIverb 4 — modulation, clock and backup scope
+
+Checked 2026-10-18 against original text in the [manufacturer manual, pp59–62](https://www.alesis.com/rscdn/982/documents/midiverb_iv_refmanual.pdf); no download or operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / SysEx storage | Utility page6 sends all user programs, the current edit buffer, or the program-change table separately. Incoming dumps automatically enter receive mode. This is storage/control support, not an established full editor or modern librarian compatibility. |
+| Expression / MIDI modulation | Two global sources X/Y select pitch bend, aftertouch, note number, velocity or CC000–119; either can share one source. Amounts **−99 to +99** are adjustable. Destinations remain fixed by configuration; Stereo Pitch Shifter, Pitch:Pitch and Auto Pan list no destinations. Pitch:Delay exposes delay feedback only. These MIDI sources do not establish a continuous-expression jack. |
+| Looper / delay clock scope | **BPM Mono Delay** follows incoming MIDI clock when Tempo is EcL; Note selects rhythmic division. On clock loss, delay retains the last tempo. This is delay synchronization, not a looper, scenes or general clock-sync support for every configuration. |
+
+
 ## MIDIverb III
 
 Checked2026-10-17. Partial instrument/microphone multi-effects;not MIDIverb4. [Manufacturer Reference Manual onmirror](https://www.zikinf.com/manuels/alesis-midiverb-iii-manuel-utilisateur-en-46789.pdf),63pages,exact Alesis MidiVerb3 title;revision/date unestablished. Official oldmanualURL inaccessible;webtext only,no download/visualaudit.
