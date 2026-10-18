@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceLive Touch 2",
-    "task": "Saved explicit VoiceSupport2 device example andsyx/setup backup/restore limitations. ManufacturerhostedPDF502,original27p mirrorread. RemainingcurrentOS/fullparametereditor,DCpower/phantom,display,loopduration/persistence andqualifiedprices. DiscoveryAX10A/AD3/A21u/Vocal300no newexacthardware;accessoriesnotadmitted.",
+    "task": "Saved exact-model manufacturer service-parts evidence for display and supply. Next verify DC output polarity/current/connector from original PowerPlug12 documentation;screen diagonal/touch,loop duration/persistence,phantom andcurrent OS/qualified hardware prices remain unresolved.",
     "next_models": [],
     "after_queue": "363active/46brands;304guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -61057,6 +61057,14 @@
       "checked_date": "2026-10-18",
       "source": "https://medias.audiofanzine.com/files/voicesupport-2-reference-manual-english-478887.pdf",
       "finding": "OriginalVoiceSupport2manualp7explicitVLT2connectedexample;p25–27syxpresets/setup,SendSetupseparatefromdragrestore,workspacebackupstaleness,GetData/Applyundoboundary. NoaudioIR/NAMcaptureimportorcurrentOSinference."
+    },
+    {
+      "model": "TC-Helicon VoiceLive Touch 2",
+      "source": "https://service-tcgroup.tcelectronic.com/files/tech_service/voicelivetouch2/spareparts_voicelive_touch2.pdf",
+      "document_date": "2017-02-28",
+      "status": "partial",
+      "destination": "TC-HELICON.md#voicelive-touch-2",
+      "finding": "Exact-model service display andsupply identifiers saved;electrical andscreen capability gaps retained."
     }
   ],
   "discovery_cross_brand_bass": {

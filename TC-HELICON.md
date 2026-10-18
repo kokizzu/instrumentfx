@@ -1046,7 +1046,7 @@ Distinct from original Touch and VoiceLive Play. Checked2026-10-18;partial. Refe
 |---|---|---|
 | Expression | No built-in expression pedal documented; external expression/toe support unresolved. Switch-3 control input documented,not proof of continuous expression. | [Quick Guide][VLT2-Q] |
 | K/F/B | Text enumeration: **1 rotary** input gain; **23 touch buttons** (Edit,Store,Home,Effects,Voices,Tap,Setup,Mix,Loop,Hit=10;Play/Record=2;Matrix=9;arrows=2); Slider FX bar separate. No onboard footswitch documented;optional external Switch-3. Based on Quick Guide pp.3–5,not image audit. | [Quick Guide][VLT2-Q] |
-| Display | Diagonal,color and touchscreen status unverified; touch controls do not prove screen touch. | Unresolved |
+| Display | Service-listed **128×64 blue-negative COG LCD**;diagonal andtouchscreen status unresolved. This is a parts-list description,not a verified full-color display orretail-revision audit. | [Manufacturer service list][VLT2-P] |
 | Dimensions / mass | Published230×100×180;axis labels/unit omitted in extracted metric parenthesis; alongside9×4×7in. Weight2.3kg. | [Quick Guide specifications][VLT2-Q] |
 | Processing / routing | Nine vocal blocks: Mod,Delay,Reverb,Harmony,Choir,Double,Transducer,Rhythm,Hardtune. Manual permits all Matrix effects active together. Dated style counts below;Choir/Rhythm remain unresolved. | [Reference][VLT2-R] |
 | Category style choices | Reference v1.2 style-list enumeration (pp.88–91): **Mod24,Delay19,Reverb28,Harmony20,Double12,Hardtune7,Transducer10**. **13 delay filters** are separate parameter choices,not13 additional blocks. Choir/Rhythm style counts not established. These are dated style counts,not the simultaneous ceiling orcurrent firmware guarantee. | [Reference][VLT2-R] |
@@ -1133,6 +1133,15 @@ Checked2026-10-18 against the original27-page [VoiceSupport2 Reference Manual re
 | Editor / librarian data formats | Manual pp25–27 documents **.syx import of presets/setup**,preset export andseparate setup export. This is SysEx preset/configuration handling,not userIR,NAM,capture orloop-audio import. Full sound-parameter editor andcurrent Windows/macOS versions remain unverified. |
 | Memory / restore distinction | Dragging a backup to the device does **not automatically restore setup**;select the backup anduse **Send Setup** separately. Apply Changes commits workspace preset edits;Get Data refreshes from the device. Backup All uses workspace data,which may differ from actual device contents if unsynchronized. |
 | Editor / undo boundary | Software Undo/Redo excludes Get Data andApply Changes themselves. This is librarian behavior,not the audio looper’s independent last-operation Undo. |
+
+### VoiceLive Touch 2 — service-listed display and supply
+
+Checked2026-10-18 against the manufacturer-hosted one-page [service parts list][VLT2-P],edited28February2017.
+
+| Field | Evidence / qualification |
+|---|---|
+| Display / replacement part | LCD part **7E33601101** carries the128×64 blue-negative COG description. No diagonal orscreen-touch specification supplied;the service date is not a firmware revision. |
+| Power / service-listed supply | **PowerPlug12V,part960899002**,is associated with this exactmodel. The list also names a DCpower connector;output polarity,current andconnector dimensions remain unresolved. The1A fuse rating does not establish operating current. Replacement availability is not verified. |
 <!-- comparison evidence ends -->
 
 [VLT2-Q]: https://manualzz.com/doc/6755730/tc-helicon-voicelive-touch-2-quick-start-guide
@@ -1140,3 +1149,5 @@ Checked2026-10-18 against the original27-page [VoiceSupport2 Reference Manual re
 [VLT2-S]: https://shopee.co.id/Efek-Vocal-TC-Helicon-Voice-Live-Touch-2-Garansi-Original-i.95687096.3607760422
 
 Original publisher endpoints retained: https://mediadl.musictribe.com/download/software/tchelicon/vlt2_quick_start_en.pdf and https://mediadl.musictribe.com/download/software/tchelicon/tc-helicon_voicelive_touch_2_reference_manual_en.pdf . No files downloaded ordevice operations performed.
+
+[VLT2-P]: https://service-tcgroup.tcelectronic.com/files/tech_service/voicelivetouch2/spareparts_voicelive_touch2.pdf
