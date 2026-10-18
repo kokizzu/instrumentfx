@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceTone Create XT",
-    "task": "Added own-manual vocal processor;next exact supply documentation,FX definitions,current VoiceSupport andqualifiedShopeeoffers. Retainfive-versus-tenpreset wording conflict;no originalCreate substitution.",
+    "task": "Saved CreateXT effect-block definitions, linked tweak scope, dry/Tone mixing caveat, tap-style restriction and VoiceSupport backup/OS limits. Next exact supply evidence and qualified hardwareoffers; do not infer full editor/USB audio from backup.",
     "next_models": [],
     "after_queue": "373active/46brands;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
   },
@@ -81368,5 +81368,9 @@
       "site:shopee.co.id \"Create XT\""
     ],
     "result": "No qualified exact CreateXT hardware offer;aggregate single-function VoiceTone and TalkboxSynth hits not promoted into active multi-effects catalogue."
+  },
+  "create_xt_followup_20261018": {
+    "source": "https://cdn.mediavalet.com/aunsw/musictribe/AfNQj7j9P0yp8zAMDDvzKg/xRpgZnExo0WpQgKVX45fYA/Original/User-Manual_Voicetone-Create-XT_2020-10-16_Rev.pdf",
+    "finding": "FX subfunctions, external mixing, style-dependent tap and historical VoiceSupport scope saved. Voltage/current/polarity,currentOS,screen andqualifiedIDRoffers unresolved."
   }
 }

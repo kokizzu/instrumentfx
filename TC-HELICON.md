@@ -1205,5 +1205,11 @@ Vocal multi-effects; partial, checked2026-10-18. Distinct from original Create. 
 | IR / NAM / capture | Unverified. |
 | Practical features | Tapdelay;Switch3 togglesFX,µMod,Delay. Looper/drums/scenes unverified. |
 | IDR price | No qualified exactShopee hardwareoffer found. Used/new amounts,seller/item,condition,stock,region,bundle,warranty,voucher unverified. |
+| Processing / block definitions | FX combines Transducer filtering/distortion and HardTune; not a fifth independent HardTune block. µMod includes chorus,flange,detune; Delay includes slap,ping-pong,tap; Reverb includes room,hall,plate,spring families. These examples are not exhaustive algorithm counts. Tweak can change multiple linked parameters; inactive blocks omit their tweak entry. |
+| I/O / external mixing | Mono/dry routing permits external mixing: set MIX fully wet for the effects channel. Manual advises muting the dry channel for Transducer/HardTune styles. Tone remains on dry; not an untouched microphone split. |
+| Editor / backup scope | Historical VoiceSupport backup includes presets and setup,including48V and mono/stereo,with restore/transfer to another Create XT. Update tab may expose SysEx loading; not IR/NAM proof. Historical requirements list WindowsXP,MacOS10.x and internet; not currentOS certification. |
+| Practical features / tap restrictions | Tap works only in supporting styles; tempo can be stored per preset. Hold On to exit tap mode before using normal effect bypass. |
 
 <!-- comparison evidence ends -->
+
+Source for the added block, routing and software qualifications: [same manufacturer manual pp19–27](https://cdn.mediavalet.com/aunsw/musictribe/AfNQj7j9P0yp8zAMDDvzKg/xRpgZnExo0WpQgKVX45fYA/Original/User-Manual_Voicetone-Create-XT_2020-10-16_Rev.pdf), checked2026-10-18. No software or device executed.
