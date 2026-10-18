@@ -236,6 +236,13 @@ Checked 2026-10-18 against the explicitly shared [effects list pp17–18](https:
 | Looper / time and clearing | Manual or **1–64 quarter notes within 30 seconds**; oversize settings adjust automatically. **Changing recording time or tempo erases the loop**. Tempo **40–250 BPM** is shared with effects/rhythms. HOME remains accessible during recording/playback. Undo and power-off persistence remain unverified. |
 | Processing / DSP ceiling | **PROCESSING LIMIT bypasses an effect** when a five-effect combination exceeds capacity. Five slots do not guarantee every combination. |
 
+### B1Xon — exact seller-labelled used IDR ask, 2026-10-18
+
+| Field | Offer / limitations |
+|---|---|
+| Used IDR / cached hardware ask | **Rp1.202.000**, title explicitly labels **BEKAS/SECOND**. [Exact item, shop1220839369/item27536985499](https://shopee.co.id/EFEK-GITAR-BEKAS-ZOOM-B1XON-ZOOM-B1XON-EFEK-GITAR-SECOND-EFEK-ZOOM-ZOOM-B1XON-ZOOM-B1-XON-ZOOM-BEKAS-ZOOM-SECOND-ZOOM-B1-XON-EFEK-BASS-i.1220839369.27536985499), Kab. Sragen in the [Shopee category cache](https://shopee.co.id/search?category=11043572&keyword=efek+gitar+zoom&page=3&sortBy=relevancy&subcategory=11043648), crawled last month. Link selects display_model_id177190330811; direct item returned cache miss and exact-ID search was empty. Seller name, working condition, stock, selected bundle/adapter, warranty, shipping/tax and voucher/checkout amount remain unknown. This supersedes the earlier absence of a used ask, without changing preserved2026-10-14 provenance. Not live-stock or completed-sale evidence. |
+
+
 ## G6
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

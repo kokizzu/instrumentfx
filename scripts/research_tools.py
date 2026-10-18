@@ -874,7 +874,7 @@ def main():
         elif mode=='commit-gs1000':
             subject='research(mooer): document original GE200 live routing and loop controls'
         elif mode=='commit-b1xon':
-            subject='research(zoom): document B1Xon synth and save loop restrictions'
+            subject='research(zoom): add exact seller-labelled used B1Xon ask'
         if mode=='commit-helix-lt':
             subject='research(line6): add Helix LT with dated specifications and qualified hardware offer'
         if mode=='commit-gt100':
