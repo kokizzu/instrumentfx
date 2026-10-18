@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom NEURIG",
-    "task": "Saved NEURIG manual futureupdate qualifier forapp/NAM/IR,Windowsaudio driver vsMac/mobile driverfree,nonpersisted USBpower selection andlooperstop/time modes. Next exactapp/firmwareavailability,formatarchitecture boundaries,controls/display andloop persistence;no downloads. Priorpre-release andunknownShopee retained.",
+    "task": "Saved NEURIG100%selection ceiling andthree-vs-one effectparameterslots. Loop persistence stillunverified;manualtermsfinds inconclusive. Next broaden freshShopee guitar/bass/vocal discovery whilekeeping NEURIGpre-release/loading/software gaps open;do not infer captureupdate shipped.",
     "next_models": [],
     "after_queue": "364active/46brands;305guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -61207,6 +61207,14 @@
       "source": "https://zoomcorp.com/manuals/neurig-ja/",
       "status": "partial",
       "finding": "Future-update loading andUSB operating restrictions saved;launch/currentsoftware functionality notassumed."
+    },
+    {
+      "model": "Zoom NEURIG",
+      "destination": "ZOOM.md#neurig",
+      "source": "https://zoomcorp.com/manuals/neurig-ja/",
+      "checked_date": "2026-10-18",
+      "status": "partial",
+      "finding": "Documented selectionceiling andparameter-slot distinction saved;loop persistence remainsunresolved."
     }
   ],
   "discovery_cross_brand_bass": {

@@ -4144,7 +4144,7 @@ Checked 2026-10-18. Announced guitar multi-effects; planned early-November launc
 | K/F/B | Two named rotaries (MASTER, CONTROL); four footswitches in rig table. Complete separate-button count unresolved; encoder press counted once, power key separate. Text-derived, not image audit. | [Manual][NEU-M]; [Rig list][NEU-R] |
 | Display | Two 240×320 touch LCDs. Diagonal and explicit color specification unresolved. | [Manual][NEU-M] |
 | Dimensions / weight | 236.4 W×120.6 D×54.2 H mm;850 g. | [Manual][NEU-M] |
-| Processing / memory | **Announced/pre-release; planned early-November launch, not verified shipping hardware.** Up to14 effects/RIG;200 user RIGs;up to4 programs/RIG, not800 independent RIGs. Combination/DSP limits pending. | [Manual][NEU-M] |
+| Processing / memory | **Announced/pre-release; planned early-November launch, not verified shipping hardware.** Up to14 effects/RIG;200 user RIGs;up to4 programs/RIG, not800 independent RIGs. DSP-budget restriction detailed below. | [Manual][NEU-M] |
 | Factory memory | Preset1.00 enumerates75 RIGs:10 DNA Amp,10 DNA Stomp,50 Song,5 Routing. Initial slot layout/overwrite protection unverified. | [Rig list][NEU-R] |
 | Category choices | Preset1.00 derived census: Dynamics10,Filter15,Drive26,Drive-DNA10,Amp Head22,Amp Head-DNA10,Cabinet22,Amp+Cabinet-DNA10,Modulation26,SFX4,Delay17,Reverb17,Pedal17,Tool7. **213 entries=139 other effects+30 DNA+22 conventional amps+22 cabinets**. Document count, not installed-firmware test; identical names in distinct DNA/standard categories remain separate entries. | [Effect list][NEU-F] |
 | Synth / acoustic | Acoustic Simulator explicitly converts electric-guitar tone toward acoustic guitar. Mono Pitch Shifter and Poly Pitch Shifter are distinct; polyphonic pitch shifting is not polyphonic synthesis. Synth inventory unresolved. | [Effect list][NEU-F] |
@@ -4167,6 +4167,15 @@ Checked2026-10-18 against original manual Z2I-5930-01. Pre-release documentation
 | Editor / NAM and IR availability | The manual's app section describes SessionZ Pedal control and NAM/IR loading as **future-update functionality**. Product-page capability advertising therefore does not establish launch-day import availability. Exact update/version and supported NAM architectures beyond advertised A2 Lite remain unresolved. [Manual][NEU-M] |
 | USB / audio driver and power selection | Windows instructions require **ZOOM NEURIG Driver**;Mac/mobile need no driver permanual. Minimum OS/package availability unverified. Audio+MIDI mode has USB/Battery power selection;Battery is specified for mobile hosts,USB for computers with adequate power. Selection is **not saved** andresets toUSB atstartup. Audio-driver support isnot editor support. [Manual][NEU-M] |
 | Looper / time and stop modes | **Free** records until manual stop or45s maximum;timed recording uses1–64quarter notes. Stop modes:Quick immediate,End atloopend,Fade stops after15s. Power-off persistence,stereo limits andRIG-change behavior remain unverified. [Manual][NEU-M] |
+
+### NEURIG — processing ceiling and parameter slots
+
+Checked2026-10-18 against original manual Z2I-5930-01, sections on RIG effect count and parameter editing. Pre-release scope retained.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / selection ceiling | Effects exceeding the processing budget are **greyed out and unselectable**;tapping shows **Process Overflow** and individual effect loads. Change/delete effects to stay within **100%**. DNA drive/amp models consume substantial processing. Fourteen slots therefore do not guarantee every combination, and this is a selection restriction rather than documented overload bypass behavior. [Manual][NEU-M] |
+| Memory / effect parameter slots | **Program mode stores up to three parameter settings per effect**;Stomp mode stores one. Stored parameter slots can be linked to program recall. These are variations within the existing RIG/effect architecture, not three extra effects or additional independent RIG memories. [Manual][NEU-M] |
 <!-- comparison evidence ends -->
 
 [NEU-P]: https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/neurig/
