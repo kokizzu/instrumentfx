@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom A3",
-    "task": "A3 category census and upright-bass membership saved. Next full control/port inventory and expression; remaining prices/display/software gaps stay explicit. Then fresh Shopee discovery and legacy consolidation.",
+    "task": "A3 three footswitches, autosave and programmable recall order verified. Remaining full rotary/button counts, expression and connector details need exact panel evidence. Then fresh Shopee discovery and legacy consolidation.",
     "next_models": [],
     "after_queue": "376 active models; all partial; compatibility migration incomplete. No downloads/workflows/push."
   },
@@ -5536,6 +5536,12 @@
       "date": "2026-10-18",
       "source": "https://manualzz.com/doc/9009531/zoom-a3-acoustic-guitar-preamp-and-effects-operation-manual",
       "finding": "Original manual pp34–41: upright-bass model establishes shared bass eligibility; five category counts reconcile to 40. Concurrency remains separate."
+    },
+    {
+      "model": "Zoom A3",
+      "date": "2026-10-18",
+      "source": "https://manualzz.com/doc/9009531/zoom-a3-acoustic-guitar-preamp-and-effects-operation-manual",
+      "finding": "Manual pp4–5 establishes three footswitches; pp18–21 distinguishes automatic saving and a programmable recall order from storage capacity; p11 clarifies DSP Full behavior."
     }
   ],
   "consolidation_and_price_findings": [
