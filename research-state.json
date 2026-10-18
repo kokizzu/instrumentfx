@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 POD XT Live",
-    "task": "Saved XT Live historicalUSB4routingmodes,drycapture/processedmonitoring,mono reampinput andlatencylimits. Continue fresh Shopee discovery or remaining power/dimensions/currentsoftware gaps;114 Markdown compatibility files retained.",
+    "task": "Saved XT Live named PX-2 supply9VAC2A rating,not actualdraw. Remaining dimensions,mass,display,currentsoftware andqualifiedprices. Fresh Firehawk searches found casesonly;continue exacthardware discovery or primary gaps.114 Markdown compatibility paths retained.",
     "next_models": [],
     "after_queue": "342 partial unique models; Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -58336,6 +58336,16 @@
       "finding": "Four historical driver routing modes documented;drycapture withprocessedmonitoring andUSBreamp;mono reampinput despite stereooutputs;DAWlatencyalignment. Modesnotconcurrentchannels;currentOS/rates unresolved.",
       "source": "https://l6c-acdn2.line6.net/data/6/0a060b316ac34f0593d2ca219/application/pdf/PODxt%20Live%20Manual%20-%20Version%203%20%28%20Rev%20C%20%29.pdf",
       "pages": "3•9–13"
+    },
+    {
+      "model": "Line 6 POD XT Live",
+      "checked": "2026-10-18",
+      "finding": "Own manual names PX-2;manufacturer JM4FAQ defines identicalnamed supply9VAC2000mA2.5mmdiameter. RatingnotactualXTLive draw;connectorwordingnot expandedintoID/OD;noJM4battery claims transferred.",
+      "sources": [
+        "https://kb.line6.com/jm4-faq",
+        "https://l6c-acdn2.line6.net/data/6/0a060b316ac34f0593d2ca219/application/pdf/PODxt%20Live%20Manual%20-%20Version%203%20%28%20Rev%20C%20%29.pdf"
+      ],
+      "discovery": "FirehawkFX/FloorPOD searches yielded cases/existingoffers,not new exacthardware admission."
     }
   ],
   "discovery_cross_brand_bass": {

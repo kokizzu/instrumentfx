@@ -1454,6 +1454,11 @@ Checked **2026-10-17**; partial. Manufacturer styles the name PODxt Live. Guitar
 | I/O / USB recording and re-amping | Historical PODxt Family driver supplies four routing modes: processed instrument to computer with processed/computer monitoring; dry instrument recording with processed/computer monitoring; dry recording while instrument and computer playback both enter processing; or computer playback through processing back to computer and outputs. These are selectable modes, not four concurrent USB recording channels. Manual does not establish wet+dry simultaneous multitrack capture here. [Manual v3][XTL-M], pp3•9–12 |
 | I/O / re-amp restrictions | Manual describes re-amping input as **mono**, even with stereo outputs; stereo playback assigned for re-amping loses its stereo imaging. Re-recorded tracks may require DAW latency compensation/alignment. Driver-dependent historical capability does not prove current OS compatibility or USB sample rate/channel count. [Manual v3][XTL-M], pp3•12–13 |
 
+
+| Required field | Named supply qualification checked 2026-10-18 |
+|---|---|
+| Power / PX-2 supply rating | XT Live’s own manual specifies included **PX-2**. [Manufacturer JM4 FAQ](https://kb.line6.com/jm4-faq) identifies that same named supply as **9V AC,2000mA**, with a connector described only as **2.5mm diameter**. This cross-reference establishes supply identity/rating, not XT Live measured draw; no inner/outer barrel dimensions inferred from that wording. AC output has no DC centre polarity. Regional mains rating,battery andUSB operation remain separate gaps; JM4 battery/function claims are not transferred. [XT Live manual][XTL-M], p2•1 |
+
 <!-- comparison evidence ends -->
 
 ### Exact Shopee hardware evidence
