@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Lexicon MPX100",
-    "task": "Digitaloutput/conversion andprogramload qualifications saved. Continue ownprimarygaps orfreshShopee discovery.",
+    "task": "MPX100 MIDIcontrol/backup scopes saved. Resume freshShopee discovery oranother primarygap;currentdraw/editor/conditionqualifiedoffers remainunresolved.",
     "next_models": [],
     "after_queue": "342 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -72865,5 +72865,11 @@
     "checked_date": "2026-10-18",
     "finding": "MPX100 digital output/ADDA/DSP widths anddry-wet setting nowdistinguished;separatebypass/programload states retained.",
     "remaining": "Powercurrent,full editor andqualifiednew/usedprices unresolved."
+  },
+  "mpx100_midi_followup_20261018": {
+    "source": "https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf",
+    "checked_date": "2026-10-18",
+    "finding": "Five MIDI Learn assignments,bankrecall,adjacentPC reservation,threebackup scopes andclockrange retained.",
+    "remaining": "No MIDI/hardware operations;restorecompatibility,currentdraw,editor andcondition-qualifiedoffers unresolved."
   }
 }

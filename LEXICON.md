@@ -229,3 +229,15 @@ Checked2026-10-18 against the same [manufacturer guide,printed pp.14–15,52](ht
 | Live / bypass and program loading | Bypass setting chooses inputmute orprocessed-audio bypass/dryoutput. Separate Program Load setting chooses wetmute orprocessed-audio bypass duringloading. These are separate controls,not proof ofseamless tails. |
 
 Unit current andpowerconnector dimensions remainunverified;9VAC mustnot become9VDC. S/PDIFwordlength is not theinternalDSP width.
+
+### MPX100 — MIDI control and backup limits
+
+Checked2026-10-18 against the [same manufacturer guide,printed pp.43–49](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf). Documentation only;no MIDI messages sent.
+
+| Field | Finding / qualification |
+|---|---|
+| Live / MIDI Learn | Up to **five assignments** acrossfive MIDI channels:Mix,EffectsLvl/Bal,Adjust,Bypass,Tap. Recognizes pitchbend,aftertouch,CC1–31/33–119. Bypass/Tap trigger whenthe learnedrange crossesits midpoint. Not analogEXPsocket proof. |
+| Memory / MIDI recall | **CC32 Bank Select0–15**,then ProgramChange0–15 selects withinbank,covering240factory+16user. ProgramLoad channel defaults1;PC0–15 ignored onotherchannels. Controllerone-based display conventions requirechecking;not extrapolated here. |
+| Live / Program Change triggers | Tap/Bypass learnPC16–127 andautomatically also thenextnumber;leave agap betweenassignments toavoidcollision. These trigger buttons,not continuous Mix/Adjust values. |
+| Editor / MIDI backup | Separate SysEx dumps for16userprograms,currentprogram,andSystem settings+Learn assignments. MIDIbackup is not anofficial desktopeditor orUSBinterface. Restore/devicecompatibility nottested. |
+| Live / clock | Incoming MIDIclock tracks **40–400BPM** forTap-enabledprograms;receiver canbedisabled. Not independentdrum-pattern playback. |
