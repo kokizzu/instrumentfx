@@ -603,6 +603,13 @@ Manufacturer category counts reconcile to60. AMP and DRIVE counts do not establi
 
 Output profile persists; master resets7.0. Bass-amp profile appears as **A1** in English p11, **AP** in the parameter table/other languages; **Ln** serves line, headphones, power-amp input or recorder. Preserve label conflict. [IB manual pp11,23,65][SL1B-M]
 
+
+### StompLab IB — tuning and acoustic-choice operating limits
+
+| Field | Exact IB manual evidence / qualification |
+|---|---|
+| Live / bypass and mute | Press both Program UP/DOWN pedals together to bypass **all effects including noise reduction**. Hold both for **about one second** to mute output. Either mode activates the tuner; pressing either pedal exits **without changing the program**. This does not establish relay true bypass. [Own IB manual p8][SL1B-M] |
+| Processing / ACOUSTIC overload limit | If the ACOUSTIC pedal choice distorts high frequencies, the manual recommends reducing AMP/DR GAIN. This confirms an operating interaction with the amp/drive stage, not the acoustic simulation’s exact instrument/body model or a separate synth engine. [Own IB manual p12][SL1B-M] |
 <!-- comparison evidence ends -->
 
 Source access: English and German exact-model product bodies opened as browser text. Japanese exact-model specifications read in search cache; direct reopening timed out. Own68-page IB manual EFGSJ1 opened as browser text; English introduction identifies StompLab IB. No PDF downloaded or visual panel audit performed.

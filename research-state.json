@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom 9002 / 9002PRO discovery leads",
-    "task": "Original9002 manual confirms20preset+20user,6simultaneous anddualheadphones, distinctfromPRO. Shopee alternate spellings unresolved; defer both discovery leads and continue another recorded-model required-field gap or different series.",
+    "model": "StompLab IB required fields / discovery",
+    "task": "StompLab IB bypass/mute retention and acoustic-choice overload interaction saved. Continue missing fields or fresh Shopee discovery; exact Indonesian1Boffer remains unresolved.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -45864,7 +45864,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume ToneLab EX required fields / discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume StompLab IB required fields / discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -79308,5 +79308,15 @@
       ],
       "result": "No qualifying offer resolved. Numeric matches were unrelated thermostats/lighting/shoes; no absence conclusion. Both variants remain non-active."
     }
+  },
+  "vox_stomplab_ib_bypass_20261018": {
+    "source": "https://voxamps.com/wp-content/uploads/2019/12/SL_IB_OM_EFGSJ1.pdf",
+    "printed_pages": [
+      8,
+      12
+    ],
+    "destination": "VOX.md#stomplab-1b",
+    "scope": "Exact IB bypass/mute program retention and ACOUSTIC gain interaction verified; no IIB-only control or expression claims borrowed.",
+    "remaining": "Acoustic model semantics, display details, initial user filling, software/import support and exact hardware offers remain unresolved."
   }
 }
