@@ -261,7 +261,7 @@ Original checked firmware: GEN2 3.0.3. Do not infer exact current firmware or so
 ### MG-400 — body, power, display and exact hardware ask, 2026-10-18
 
 | Field | Evidence / qualification |
-|---|---| 
+|---|---|
 | Dimensions / mass | **289L×160W×71H mm;920g** in Version1.0 manufacturer manual; original axes preserved,not silently relabelled. [M400M] |
 | Display | **2.8-inch320×240 color LCD**,own global product; touch unverified. [M400G] |
 | Power / battery / USB | **9VDC centre-negative,current draw<280mA**. [M400M] [NUX USA power support](https://www.nux.us/blogs/support/which-power-supply-does-my-nux-product-need),updated2026-09-27,independently confirms and names included ACD-006A. Battery/USB power unverified. Adapter rating is separate from unit draw. |
