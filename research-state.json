@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro USB24bit44.1Special/16bit44.1Standard andnoUSB-DINbridge saved. Next fullpreamp/drive menus,USBchannelcount/reprocessing,44category audit.392partial;migration incomplete.",
+    "task": "GT-Pro USB reprocessing/drytap verified;opening summary supersededunknowns updated. Next fullpreamp/drive menu reconciliation,USBchannelcount,44category audit.392partial;migration incomplete.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -121456,5 +121456,15 @@
     "standard": "16bit/44.1kHz",
     "restriction": "PhysicalMIDIIN/OUT cannot act ascomputerMIDIinterface in eitherdriver mode.",
     "qualification": "Manual-eraWindows/Macintosh;channelcount/currenthost operation unverified."
+  },
+  "gtpro_reprocessing_20261019": {
+    "source": "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+    "page": "90official indexed",
+    "findings": [
+      "pre-effect dry recording tap withprocessedmonitoring",
+      "USBInreprocessing;disable softwareThru;PRELOOP unavailable",
+      "DirectMonitorOn forstandalone;commandcontrol optional"
+    ],
+    "remaining": "USBchannelcount,fullnamedmenus,44categoryaudit"
   }
 }

@@ -3802,19 +3802,19 @@ Checked 2026-10-19;partial. [Exact manufacturer product/specification](https://w
 
 | Field | Evidence / qualification |
 |---|---|
-| Expression | EXP1,EXP2/CTL3,4 andCTL1,2 sockets;externalEV-5/FV-300L listed. Built-in/toe unverified. |
-| Knobs / footswitches / buttons | Separate totals unverified;no visual audit. |
+| Expression | EXP1,EXP2/CTL3,4 andCTL1,2 sockets;externalEV-5/FV-300L listed. No built-in treadle;external toe capability unverified. |
+| Knobs / footswitches / buttons | 12 rotary controls,0 onboard footswitches,30 front buttons derived from manual controls list;POWER/ground-lift separate. Visual corroboration pending. |
 | Display | Backlit16×2-characterLCD plus2-character7-segmentLED;diagonal,color,touch unverified. |
-| Processing / categories | 46amp models,two combinable;44effect categories,15reorderable blocks. Simultaneous ceiling/category choices unverified. |
-| Memory | 200user+200preset=400;factory fill/protection unverified. |
-| Synth / acoustic | Acoustic andsitar emulation documented;dedicated synth unverified. |
+| Processing / categories | 46amp models,two combinable;44effect categories,15reorderable blocks. Simultaneous ceiling and44-category reconciliation unverified;DELAY12,REVERB7,COMP2;FX1=22,FX2=33;ODDS30+3custom;WAH6+3custom. Detailed evidence below. |
+| Memory | 200 writable User+200 protected Preset=400;initial user factory fill unverified. |
+| Synth / acoustic | Acoustic/sitar emulation plusGuitar/Wave Synth documented;tracking/polyphony unverified. |
 | Dimensions / mass | 482 W×305 D×89 H mm;4.8kg. |
-| I/O | FrontINPUT/PHONES;rearINPUT,direct/tunerout,mainL/R,subL/R,subXLRL/R,PRELOOPsend/return,LOOP1/2send/return,AMPCTRL1/2,EXP1,CTL1/2,EXP2/CTL3/4,coaxdigital,USB,MIDIin/out/thru. Overview callsloopsstereo;per-loopwiring unresolved. |
+| I/O | FrontINPUT/PHONES;rearINPUT,direct/tunerout,mainL/R,subL/R,subXLRL/R,PRELOOPsend/return,LOOP1/2send/return,AMPCTRL1/2,EXP1,CTL1/2,EXP2/CTL3/4,coaxdigital,USB,MIDIin/out/thru. LOOP1+2 combine forstereo orseries/parallel;not independently positioned. PRELOOPfixed beforeinputlevel,unavailable withUSBIn. |
 | Power | RegionalAC117/230/240V;16Wconsumption. Battery/USBpower unverified. |
-| USB / recording | USBaudio;coax24-bitS/PDIF;44.1kHzinternal sampling. USBstream format/channel count unverified. |
+| USB / recording | USBaudio;coax24-bitS/PDIF;44.1kHzinternal sampling. USB24-bit/44.1kHzSpecial or16-bit/44.1kHzStandard;channelcount unverified. |
 | IR / NAM / capture | User import unverified. |
 | Editor / platforms | Mac/PCeditor/librarian;Maceditor10.2.3–10.6.8,explicitly not10.7+. Legacydrivers separate;currenthost compatibility unverified. |
-| Looper / drums / live | Solo mode,picking-dynamics amp switching;looper/drums/scenes/trails unverified. |
+| Looper / drums / live | Solo mode,picking-dynamics amp switching;Hold delay2.8seconds withoverdub andmode-change erasure;drums/scenes/trails unverified. |
 | IDR verified used | Unknown. |
 | IDR verified new | Unknown. |
 | IDR condition-unverified ask | Unknown. Exact Shopee GT-PRO search returned unrelated products;no qualified seller/item hardware offer. Condition,stock,bundle,warranty,region,voucher unverified. |
@@ -3934,3 +3934,15 @@ Checked 2026-10-19 against [official original manual](https://static.roland.com/
 | Editor / historical driver qualifications | Standard Windows/MacOS drivers described here lackASIO;MacOS8.6 requiresSpecial mode. SpecialMac mode cannot play Macintoshsound-manager audio suchas alerts/CDs. These are manual-era limitations,not blanket claims about modernmacOS/Windows compatibility. |
 
 Earlier USBbit-depth uncertainty is superseded here;channelcount,currentdriver operation andexact reprocessing settings remain open. Fullpreamp/drive menu and44-category reconciliation also pending. No downloads ordevice operation.
+
+### GT-Pro — dry recording and USB reprocessing
+
+Checked 2026-10-19 against [official original manual p90](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf),indexed original body for exact GT-PRO. No device/driver test.
+
+| Field | Evidence / qualification |
+|---|---|
+| USB / dry recording | Effect Chain can place thecomputer recording tap beforeeffects,allowing dry recording while listening with effects. This establishes tap selection,not simultaneous independent dry/wet USBrecording channels. |
+| USB / reprocessing | SetInputSelect=USBIn toprocess computerplayback andrecord it back. **Disable software Thru inthismode**;PRELOOP isunavailable. GuitarIn insteadprocesses physicalinputs andmixes USBplayback according toUSBMixChannel. |
+| USB / monitoring | DirectMonitorOn feeds effect sound toPHONES/MAIN/SUB;Off isfor software monitoring. Standalone use requiresOn for effect sound. MonitorCmdEnable permits external direct-monitor commands;Disable retains GT-Pro's setting. Specialdriver supportsASIO2.0 direct-monitor control. |
+
+Opening summary now reflects verified findings;dated detailed evidence below/above retains source access andhistorical qualifications. USBchannelcount,fullpreamp/drive menus and44-category reconciliation remain pending. No downloads ordevice operation.
