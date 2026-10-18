@@ -825,3 +825,27 @@ Working state, authenticity, bundle, adapter, warranty, shipping/tax and voucher
 [RP70-O]: https://shopee.co.id/Efek-Gitar-Digitech-RP70-SECOND-i.473560916.28475084274
 
 [RP70-S]: https://digitech.com/software-downloads/
+
+## RP150
+
+Guitar multi-effects;partial,checked2026-10-18. Distinct fromRP155/RP250. [Manufacturer product](https://digitech.com/dp/rp150/),[own manual RevB](https://digitech.com/wp-content/uploads/2022/09/RP150Manual18-0429V-B_original.pdf),printedpp6–11,38–39.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | No built-in/toe pedal;externalpassive volume/continuous pedal viaCONTROL IN controlswah/Whammy whenactive,otherwise volume. |
+| K/F/B | **4/2/4**,text-derived:4knobs,2footswitches,EDITup/down,DRUMS,STORE. Knob1push additional;rearAMP/MIXERbutton separate. Visualaudit pending. |
+| Display | Preset/parameter/tuner display plusmatrixLEDs;diagonal/color/touch unverified. |
+| Processing / categories | **11simultaneous effects**;product advertises70+stompbox/amp/effect/cabinet choices. Categorycensus pending;not70simultaneous. |
+| Memory | **50user+50factory=100**;all50user initially duplicate read-onlyfactory presets. |
+| Synth / acoustic | Dedicatedsynth/acoustic simulation unverified. |
+| Dimensions / mass | Product **10⅝length×8¾width×2⅝height inches;3.2lb**. |
+| I/O | TSinput,L/Routputs,3.5mmheadphones,CONTROL IN,USB-B,powerinput. |
+| Power | **PS0913B,9VAC1.3A** supply rating per[manufacturer powerlist](https://digitech.com/faqs/);notdevice draw. DCpolarity inapplicable. Battery/USBpower unverified. |
+| Editor / platforms | ProductlistsX-Edit **MacIntel2.7.1/Windows2.4.1**;currentOS compatibility unverified. USBaudio **2in/2out,44.1kHz,16/24-bit**. USB1.1FullSpeed,USB2compatible;notHighSpeedproof. |
+| IR / NAM / capture | Unverified. |
+| Practical features | **60drumpatterns**;looper/scenes unverified. |
+| IDR price | Used/newunknown;exactShopee searches yieldednoqualifiedhardwareoffer. Seller/condition/stock/bundle/warranty/voucher unverified. |
+
+<!-- comparison evidence ends -->
