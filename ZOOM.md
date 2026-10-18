@@ -4326,3 +4326,27 @@ Original bass multi-effects; partial, checked2026-10-18. Distinct fromB2.1u/B2 F
 | I/O / electrical ratings | Input **−20dBm nominal,1MΩ**;line output **+5dBm maximum into≥10kΩ**. Headphones **20mW+20mW into32Ω**. ADC24-bit64×oversampling,DAC24-bit128×,sampling96kHz,processing32-bit. Published response20Hz–40kHz,+1/−3dB into10kΩ;not USB audio specifications ormeasured results. [Own manual p31](https://zoomcorp.com/media/documents/E_B2.pdf). |
 
 <!-- comparison evidence ends -->
+
+## A2
+
+Acoustic-guitar multi-effects;partial,checked2026-10-18. Distinct fromA2.1u. [Own manufacturer manual](https://zoomcorp.com/media/documents/E_A2.pdf),pp4,35.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | External FP01/FP02 orFS01 via shared CONTROL IN;built-in/toe audit pending. |
+| K/F/B | Separate rotary/footswitch/button census unverified. |
+| Display | Two-digit7-segmentLED plusparameterLEDs;diagonal/color/touch unverified. |
+| Processing / categories | **47 types;8 simultaneous modules includingZNR**. Category census pending. |
+| Memory | **40user+40preset=80**;initial fill andwrite protections pending. |
+| Synth / acoustic | Acoustic-guitar sound modeling andmicrophone simulation documented;synth unverified. |
+| Dimensions / mass | **156W×162D×65H mm;700g without batteries**. |
+| I/O | Mono input,shared stereo line/headphone output,CONTROL IN;DC. Complete port audit pending. |
+| Power | AD-0006 **9VDC300mA center-negative** supply rating;drawunknown.4AA alkaline approximately7.5h;USBoperation unverified. |
+| IR / NAM / capture | Unverified;body modeling isnot proof ofuserIR import. |
+| Editor / platforms | Exactmodel software unverified;A2.1u features notborrowed. |
+| Practical features | Feedback suppression,rhythms,chromatic tuner. DELAY/REVERB disabled duringrhythms. Looper/scenes unverified. |
+| IDR price | Used/new unknown. Exact Shopee hardware notverified;adapter searchresult excluded. Condition/stock/seller/bundle/warranty/voucher unknown. |
+
+<!-- comparison evidence ends -->
