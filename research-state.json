@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "FootCtrlPlus-linked PD41 bank and message limits",
-    "finding": "Advanced Custom1 disables E/F banks;Custom2 permits16groups withshort/long only. Fullsoftwareguide lacks expression electricaldetails;hardwaremirror re-open failed. Exactrevision/pinout/transport remainunknown.",
+    "current": "Original NUX Amp Academy NGS-6 partial lead",
+    "finding": "Distinct from active Stomp; official regional product confirms independent effects/headphones. Original PDFs yield no text; analog EXP and fit unknown. No active admission.",
     "next": [
-      "Systematic remaining no-treadle inventory: NUX Amp Academy NGS-6 exact expression capability and headphone/navigation separation",
+      "Systematic no-treadle inventory: Amp Academy Stomp NMA-3AAP exact expression volume assignment",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
@@ -122616,6 +122616,17 @@
         "current software/USB audio/power scope",
         "qualified exact non-XP Shopee hardware offer",
         "global override and bypass/headphone/looper attenuation"
+      ]
+    },
+    "ngs6_lead": {
+      "status": "partial, outside active inventory",
+      "document": "NUX.md#amp-academy-ngs-6--partial-capability-lead",
+      "checked": "2026-10-19",
+      "remaining": [
+        "Readable original connector/panel evidence",
+        "Direct analog expression support",
+        "Complete required model fields",
+        "Exact qualified Shopee hardware offer"
       ]
     }
   }

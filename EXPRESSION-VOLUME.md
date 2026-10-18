@@ -154,3 +154,7 @@ M-VAVE identity follow-up2026-10-19: [official catalogue](https://www.cuvave.com
 GP-50 follow-up2026-10-19: exact official1.1.0 manual/firmware entries located;manufacturer-linkedPDF inaccessible toreader. GlobalEXPscope remainsunverified;see [revision-qualified evidence](VALETON.md#gp-50).
 
 FootCtrlPlus-linked PD41 follow-up: [mode-specific E/F bank restrictions](M-VAVE.md#footctrlplus-linked-pd41--bank-and-message-limits) do not establish analog expression wiring or simultaneous transport. Exact controller revision remains unresolved.
+
+### NUX Amp Academy NGS-6 — partial inventory lead
+
+[Original NGS-6 research lead](NUX.md#amp-academy-ngs-6--partial-capability-lead) is separate from Amp Academy Stomp. Official product establishes independent effects and headphones; analog expression, fit and global volume remain unverified because original PDFs yielded no text. Not admitted to active comparison/counts.
