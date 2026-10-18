@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "NUX MG-200",
-    "task": "Find condition-specific MG-200 offers or new primary source for current/display/updater gaps; do not repeat unchanged PDF extraction failure.",
+    "task": "MG-200 technical gaps need a genuinely new primary route; exact condition and stock remain unverified. Continue fresh Shopee discovery across other eligible models.",
     "next_models": [],
-    "after_queue": "378 active models,46 brands,all partial;no downloads/workflows/push;migration incomplete."
+    "after_queue": "378 active models,46 brands,all partial;114 compatibility Markdown files remain;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -81934,7 +81934,7 @@
     "scope": "Explicit uncertainty signals in selected comparison field labels and values only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
     "model_count": 378,
     "models_with_signals": 378,
-    "flagged_field_count": 4812,
+    "flagged_field_count": 4813,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -102945,6 +102945,13 @@
               "unverified",
               "conflict"
             ]
+          },
+          {
+            "field": "IDR indexed hardware lead, checked2026-10-18",
+            "source": "NUX.md",
+            "signals": [
+              "unknown"
+            ]
           }
         ]
       },
@@ -118429,7 +118436,7 @@
       "TC-ELECTRONIC.md": "46ca68e66568f02e972ac73999ae6e09ce1746d8833b8d9e725b74664b4c2fbc",
       "VALETON.md": "e335ead12e652b2f04053cb58702d5055e6bcf32c61cbca143572baf2cb4b03e",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
-      "ALL-GUITAR.md": "84a61f65e788c30f61a317cac995fe2fbc20f964e9c823d59bc061a17a5583e5",
+      "ALL-GUITAR.md": "bdb889ec2d54d3ad7c8bf28f87aa941830d82d4e7aac2f625a48de51589e60f0",
       "LINE6.md": "bbbe508cca147737b97aadbd9b3fbb2e20faa83c7ae8e717abd7acd42c6e63da",
       "YAMAHA.md": "ed6c13b0c5344d5f227d1c08e7e66c65e9e636498b6a1e6c2ed853edb0d748c0",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
@@ -118448,7 +118455,7 @@
       "TECH21.md": "958cba8793e10c2ba4eaa7386bcd0e528107d05126bbe91d3de1c81251129407",
       "MOOER.md": "cdad5c6009106194df97ab42a7c0e5b4bb606ff1bde54be36dfd5c4a578be039",
       "BEHRINGER.md": "8746e2a4c6f49febe91bde776a38dd035352781e66c258940a33d85d1c69218d",
-      "NUX.md": "c943b9284b7ac43ac4ba8638a9298dabe61917da5aef6af5509f86978f6199bc",
+      "NUX.md": "67d4ffeff657c2870fbdeb69b3b5e5cf8634b11355e6803c5a0cc20af2b395e6",
       "IK-MULTIMEDIA.md": "ce23e1624886fada92ab0ff1c92554e04c01d18ca79839dc13744acdba2b9903",
       "SINGLE-VOCAL.md": "acb51be0b82d540d045e92e126882df43bb3c7380b45f3be5cc48a7828827796",
       "DARKGLASS.md": "4df816629a31b454d8c69de300525d97a85718749f23f4e684b243c5b50fce06",
@@ -118910,5 +118917,11 @@
     ],
     "result": "Two directly retrieved cached hardware asks; neither establishes condition-specific used/new price or current stock. Awlind and yuniramadanmall direct pages unavailable; not promoted from prior search snippets.",
     "next": "Find condition-specific MG-200 offers or new primary source for current/display/updater gaps; do not repeat unchanged PDF extraction failure."
+  },
+  "mg200_exact_lead_20261018": {
+    "item": "729907257/26905938174",
+    "destination": "NUX.md#mg-200",
+    "result": "Recovered exact item from category link; Rp1.1m Bekasi ask, seller title normal-operation claim only; direct inaccessible and category cache dates conflict.",
+    "next": "MG-200 technical gaps need a genuinely new primary route; exact condition and stock remain unverified. Continue fresh Shopee discovery across other eligible models."
   }
 }
