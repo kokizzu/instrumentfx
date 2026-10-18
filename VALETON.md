@@ -986,6 +986,12 @@ Checked 2026-10-18 against the [own regional manual, printed pp31–48](https://
 | Processing / acoustic simulation | PRE **AC Sim** explicitly simulates acoustic guitar from electric input: **Standard/Jumbo/Enhanced/Piezo** modes, Body/Top controls. CAB additionally lists **AC**, a dreadnought simulation, alongside20 conventional cabinets. These establish simulation separately from AC Pre1/2; earlier preamp-only evidence was incomplete. |
 | Processing / source inconsistency | Dizz VH’s regional description repeats Juice R100’s Orange text; retain this apparent copy error without inferring the modeled amplifier from the name. |
 
+### GP-50 — current documentation access and exact offer refresh
+
+Checked2026-10-19. [Manufacturer firmware index](https://www.valeton.net/firmware/) and [manual index](https://www.valeton.net/user-manual/) returned navigation without model downloads in the extracted body. Exact1.1.0 search found no usable primary release text; **latest firmware and post1.0.5 global EXP behavior are not certified**. The [current product](https://www.valeton.net/product/gp-50/) states external expression support but does not establish global volume assignment. Preserve earlier1.0.5 manual and1.1.0+/app2.1.0+ NAM notice as distinct evidence.
+
+[HOLY MUSIC,945642322/55704518866](https://shopee.co.id/VALETON-GP-50-MULTI-EFFECT-PROCESSOR-Gp50-efek-valeton-gp50-i.945642322.55704518866),KotaJakartaUtara: **Rp2.255.000**, direct extracted month-old cache. Relative5-hour delivery is not current stock proof. Condition,variant,bundle,adapter,warranty,shipping/tax/voucher andcheckout total unverified;Rp10k late-delivery compensation is not anupfrontdiscount. OlderRp2.245.000 search/Rp2.255.000 reopening discrepancy remains historical. No qualified used quote. No downloads ordevice/software operation.
+
 ## Dapper Bass VES-2
 
 Full-size bass combined-effects strip;notMiniMES-2. Checked2026-10-17;partial. Manufacturer architecture establishesmulti-effects eligibility. VES-2code is seller identification pendingmanualcorroboration.
