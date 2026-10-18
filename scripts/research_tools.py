@@ -617,7 +617,7 @@ def main():
         if mode == 'commit-b2-followup':
             message = 'fix(zoom): qualify B2 FOUR historical control counts with primary text'
         if mode == 'commit-ax3000g':
-            message = 'research(korg): qualify AX5B expression recall effect tails and cabinet routing'
+            message = 'research(korg): clarify AX5B display memory reload and battery input'
         if mode == 'commit-pandora':
             message = 'research(korg): qualify Pandora stomp oscillator and filter controls'
         if mode == 'commit-vl3x':

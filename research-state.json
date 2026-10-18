@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "MOOER GS1000 Li",
-    "task": "GS1000 Li shared-manual routing, conditional tails, reset scopes and Li charging indicator saved. Next fresh eligible Shopee discovery; unresolved Li current firmware/editor/NAM compatibility retained rather than assumed.",
+    "model": "Korg AX5B",
+    "task": "Saved AX5B display functions, factory reload semantics, mono-input battery requirement and tuner reset. Fresh legacy-bass Shopee searches yielded no exact hardware evidence. Next broaden eligible brand/series discovery; do not infer market absence or sibling specifications.",
     "next_models": [],
     "after_queue": "347 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -45593,7 +45593,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER GS1000 Li."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX5B."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -58924,6 +58924,32 @@
         "Visual panel audit"
       ],
       "method": "Read manufacturer manual via web text; no download or operation"
+    },
+    {
+      "model": "Korg AX5B",
+      "checked_date": "2026-10-18",
+      "source": "https://cdn.korg.com/us/support/download/files/ce3fdcaa2f36213ab3f032738bc6648f.pdf?response-content-disposition=inline%3Bfilename%3DAX5B_OM_EFG1.pdf&response-content-type=application%2Fpdf%3B",
+      "pages": "5,11–12",
+      "finding": "Program/Value display functions established, screen physical specifications still unknown. Factory reload replaces custom programs; user-slot factory mapping still unspecified. Battery power requires mono INPUT cable; tuner calibration resets to A440 after power-off.",
+      "discovery": {
+        "queries": [
+          "site:shopee.co.id Korg AX3B",
+          "site:shopee.co.id Digitech BP355",
+          "site:shopee.co.id Korg AX1500B",
+          "site:shopee.co.id bass BP90",
+          "site:shopee.co.id bass GT-6B",
+          "site:shopee.co.id Korg AX5B"
+        ],
+        "result": "No exact results from these searches; no price or stock inference."
+      },
+      "remaining": [
+        "Power polarity/current",
+        "Visual control audit",
+        "Physical display specifications",
+        "Qualified IDR",
+        "Current editor support"
+      ],
+      "method": "Manufacturer PDF read in browser text; no download or execution"
     }
   ],
   "discovery_cross_brand_bass": {
