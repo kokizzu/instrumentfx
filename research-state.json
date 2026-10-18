@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh discovery / required hardware fields",
-    "task": "Cerberus direct guide now corroborates IR format and MIDI reassignment; reset scope saved. V5 IR count and K/F/B unresolved. Avoid repeating unsupported ZIP or inaccessible images; next use fresh eligible Shopee series or a readable own manual for another model.",
+    "model": "Fresh eligible hardware discovery",
+    "task": "DemonFX Reverb & Delay Workstation own architecture document recovered; exact Shopee seller/item still missing. Keep separate from Dual Mod and Keeley. Do not repeat failed legacy/workstation queries; next new series or existing-model required gaps.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -78541,5 +78541,37 @@
     "saved": "Direct manufacturer guide now text-readable: corroborates previously indexed IR/MIDI behavior; reset custom-preset erasure and confirmation/cancellation scope",
     "limits": "No reset/update/software action. Software-guide firmware revision and textual IR-slot total absent; exact V5 capacity remains unverified. Parameter settings sheet link resolves ZIP unsupported by text reader; not downloaded.",
     "next": "Defer V5 IR count until inspectable original interface/document; seek exact physical control census or other required model gaps."
+  },
+  "discovery_workstations_and_legacy_20261018": {
+    "checked_date": "2026-10-18",
+    "queries": [
+      "DigiTech RP300A",
+      "Korg AX300G",
+      "TC Electronic G-Sharp",
+      "BOSS GT-6B",
+      "Zoom MS100BT",
+      "Zoom MS-100BT",
+      "DigiTech RP80",
+      "Hotone Mojo Attack",
+      "DemonFX Delay Workstation",
+      "Demon Reverb Workstation",
+      "Keeley Super Mod",
+      "Keeley Tone Workstation"
+    ],
+    "result": "No new qualified exact seller/item hardware offer. Only existing DemonFX Dual Mod item19700013/26274795531 returned in workstation pass; not evidence for Reverb & Delay Workstation. Empty search is not an unavailability finding.",
+    "demonfx_reverb_delay": {
+      "status": "Primary architecture lead; pending exact Shopee item, not admitted",
+      "source": "https://www.demon-fx.com/uploadfile/202210/0b57f3ffa794516.pdf",
+      "identity": "Own demon-fx.com host, body names Demonfx Delay Workstation and title Reverb&Delay Workstation; says Based on Keeley Delay Workstation",
+      "architecture": "Dual DSP, combined delay/reverb, two eight-choice banks; delay-side tap and reverb-side expression. Model-specific physical details not established.",
+      "access": "Three-page PDF; extracted text only on first page. No image inspection or revision equivalence claim.",
+      "boundary": "Not the already-recorded Dual Mod Workstation; not a primary Keeley manual. Do not transfer specs, market price or inventory identity among them."
+    },
+    "keeley_delay_manual_search": {
+      "result": "No verified own Delay Workstation manual. Current product archive repeats existing algorithm evidence. RockBoard English directory contains other Keeley manuals; search-manual is a product-description page. Neither fills power/dimension/control gaps.",
+      "candidate_directory": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Keeley/EN/",
+      "next": "Defer identical manual searches; seek exact manual from a new primary/distributor link before claiming new physical specs."
+    },
+    "next": "Fresh unrecorded series discovery or unresolved required fields from readable model-specific manufacturer documentation; preserve the separate DemonFX lead."
   }
 }
