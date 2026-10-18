@@ -366,6 +366,16 @@ Stereo-linked copies Engine1 settings into Engine2. Dual mono keeps separate mon
 
 Comparison sheet is indexed manufacturer evidence only; direct PDF inaccessible. Original manual remains accessed through the watermarked mirror; no download performed.
 
+### M-One XL — manufacturer-hosted electrical specifications
+
+Checked2026-10-18 from indexed manufacturer Spanish manual,p40,explicit **M-One XL** table. English file retrieval failed;this is not a full manual orvisual inspection.
+
+| Field | Exact-model evidence |
+|---|---|
+| I/O / digital format | RCA S/PDIF **24-bit**,EIAJ CP-340/IEC958;**44.1/48kHz**. Output HPF/TPDF dither choices24/20/16/8-bit. Published digitalprocessing delay **0.1ms at48kHz**,not total analog round-trip latency. [Own XL table](https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m-one_xl_manual_spanish.pdf). |
+| I/O / analog limits | XLR input **21kΩ balanced/13kΩ unbalanced**,maximum+24dBu. Output **40Ω**,maximum+20dBu balanced;range choicesbalanced20/14/8/2dBu,unbalanced14/8/2dBu. [Own XL table](https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m-one_xl_manual_spanish.pdf). |
+| Conversion / format | A/D andD/A **24-bit,128× oversampling**. A/Ddelay0.65/0.70ms andD/Adelay0.63/0.68ms at48/44.1kHz respectively;these are stage specifications,not measured fullunit latency. [Own XL table](https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m-one_xl_manual_spanish.pdf). |
+
 ## NOVA System
 
 Checked 2026-10-18. Guitar multi-effects, distinct from NOVA Drive/Modulator and G-System. Manufacturer manual revision1.2,SW1.10,E60508712: identity verified from original text on mirror. Official PDF endpoints failed;generated mirror summary/FAQ excluded. Bass/vocal suitability unresolved.
