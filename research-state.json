@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh hardware discovery / unresolved model fields",
-    "task": "MP100 documentedUSBreturnreamping resolved fromJPmanualpp25–26;stereopair andfeedbackprecautions recorded. Next freshShopeediscoveryorfirmware-matchedlibrary/IRcapacity;do notinferadditionalUSBchannels orminimumfirmware.",
+    "task": "MP100 Pre/Postlooper,drumsync limits andtunerreference recorded. Next freshShopeebrand/series discovery or currentfirmware/IRcapacity evidence;avoidunchangedadapter-onlyM13/RP355 searches anddo notclaimliveavailability.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -60509,6 +60509,21 @@
         "FullUSBchannelinventory"
       ],
       "method": "ManufacturerPDFbrowsertext;no downloads/DAW/hardwareexecution"
+    },
+    {
+      "model": "Hotone Ampero MP-100",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://www.hotone.jp/manuals/hotone/AMPERO.pdf"
+      ],
+      "finding": "OwnJPmanualpp9–12:Pre100sdrymono/Post50seffectedstereo;Postrecordingunaffectedbypatchchanges;drums40–250BPM/syncrestrictions;tuner435–445Hzdefault440Thru/Mute. Edition/minfirmwareunknown.",
+      "remaining": [
+        "CurrentIRcapacity",
+        "Firmwarematchedcensus/AMP63vs62",
+        "Qualifiedused/newhardwareoffers",
+        "Loopretention"
+      ],
+      "method": "ManufacturerPDFbrowsertext,no downloads/deviceexecution"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -79820,5 +79835,14 @@
       "site:shopee.co.id \"Zoom\" \"G2X\" \"Nu\" -adaptor -adapter"
     ],
     "result": "ExistingMP100Black/Pink offer1776275/18091161846onlyqualifiedlead;no newmodel. OtherhitsunrelatedMGseries/medicinepages. Noavailabilityconclusion."
+  },
+  "discovery_line6_bass_prices_20261018": {
+    "queries": [
+      "site:shopee.co.id \"Line 6\" \"M13\"",
+      "site:shopee.co.id \"Digitech\" \"RP355\"",
+      "site:shopee.co.id \"Ampero\" \"bekas\"",
+      "site:shopee.co.id \"Korg\" \"AX3000B\""
+    ],
+    "result": "No newexactprocessor lead. M13hit216990724/6861766207Rp144200andRP355hit855783279/22273291654Rp170000areadapters;unrelatedBognermerchandise/presetpacksnotAmperohardware. Noabsenceconclusion."
   }
 }

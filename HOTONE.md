@@ -352,6 +352,17 @@ Checked 2026-10-18 against [manufacturer-hosted Japanese manual,printed25–26](
 
 Earlier dry/effected recording-source choices remain separate from this return-routing switch. The manual’s unspecified edition does not establish which firmware first introduced reamping.
 
+### Ampero MP-100 — looper placement, drums and tuner
+
+Checked 2026-10-18 against [own Japanese manual,printed9–12](https://www.hotone.jp/manuals/hotone/AMPERO.pdf). Edition/minimum firmware remains unestablished; no playback, recording or device operation performed.
+
+| Field | Documented practical qualification |
+|---|---|
+| Looper / Pre versus Post | **Pre:100s dry mono;Post:50s effected stereo**. Later patch changes do not alter a Post recording’s sound. Half-speed and reverse apply to the whole recorded phrase; recording automatically changes to playback near the time limit. Onboard loop save/power retention remains unverified. |
+| Drums / tempo and sync | Tempo **40–250BPM**; BPM Sync ties drums to patch tempo. Drum playback continues after leaving its page. Loop/drum sync may be lost after arbitrary playback/stop, pattern or tempo changes; half-speed/reverse toggles do not affect that sync according to the manual. |
+| Live / tuner | Reference **435–445Hz**,default440Hz;choose **Thru or Mute**. This specifies reference pitch,not detection range,accuracy or calibration retention across power cycles. |
+
+
 ## Ampero II MP-350
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
