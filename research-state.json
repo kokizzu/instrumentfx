@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "G7.1ut required fields / fresh discovery",
-    "task": "G71ut AUX-to-USB,direct monitoring and editor MIDI-interface requirement saved. Continue unresolved button/USB/software/power fields or fresh brand/series hardware discovery;do not infer USB bus power from generic appended DAW guide.",
+    "model": "G7.1ut remaining required fields / discovery",
+    "task": "G71ut separate control census complete at15/7/18 from own manual. Button colors distinguished from LCD capability. Continue other unresolved fields or fresh hardware discovery;currentOS,power conflict,display details andcondition-qualifiedoffers remain open.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -45873,7 +45873,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume G7.1ut required fields / fresh discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume G7.1ut remaining required fields / discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -79495,5 +79495,20 @@
       "site:shopee.co.id \"Zoom\" \"PFX-9003\""
     ],
     "result": "No qualifying exact hardware offer resolved. G9.2tt matches were adapters;G1u index match accessory only. No new active model or hardware-price assignment."
+  },
+  "zoom_g71ut_button_census_20261018": {
+    "destination": "ZOOM.md#g71ut",
+    "source": "https://zoomcorp.com/media/documents/E_G71ut.pdf",
+    "printed_pages": [
+      7,
+      24
+    ],
+    "counts": {
+      "rotary": 15,
+      "main_footswitch": 7,
+      "buttons": 18
+    },
+    "derivation": "10module/function+2channel+6otherkeys;toe/rear switches additional. Text-derived,not visually corroborated.",
+    "remaining": "USB connector subtype,current OS,software imports,power discrepancy,qualified hardware offers,display diagonal/color/touch. Colored button indicators not attributed to LCD."
   }
 }
