@@ -1442,6 +1442,12 @@ Checked **2026-10-17**; partial. Manufacturer styles the name PODxt Live. Guitar
 | Category choices / reverb and wah | RevC descriptions enumerate **15 reverbs**, divided into five families of three: spring,room,hall,chamber and plate. Manual explicitly states **8 wah models**. These are alternative choices within their categories, not 23 simultaneous effects or a complete reconciliation of the product’s 95-effect claim. Installed firmware/model availability still needs checking on a seller unit. [Manual v3][XTL-M], pp6•18–19,6•39–41 |
 | Processing / synth behavior | Double Bass uses pitch-following square and saw oscillators one and two octaves below input. Synth Harmony supplies two interval-based synth waves with separate saw gain; Synth Lead is described as monophonic analog-style synthesis. Synth String brightness responds to picking strength. These descriptions do not establish polyphonic tracking for the entire synth collection or MIDI-note conversion. [Manual v3][XTL-M], pp6•16–17 |
 
+
+| Required field | RevC category census checked 2026-10-18 |
+|---|---|
+| Category choices / chart census | Counting distinct rows in RevC’s opening chart gives **31 Stomp,24 Mod,14 Delay,15 Reverb,8 Wah = 92 category choices** across Standard/Power Pack/FX Junkie. Count the duplicated Delay/Delays lists once. Dedicated compressor,gate,EQ andvolume are outside this chart subtotal; amps/cabs/mics are also excluded. FX Junkie inclusion in Live is corroborated by the manufacturer FAQ. This is a derived chart count, not simultaneous capacity or confirmation of installed seller firmware. [Manual v3][XTL-M], opening model chart; [Pack FAQ][XTL-FX] |
+| Category choices / advertised-total qualification | Manufacturer product page advertises95effects and separately lists compressor,gate,post-EQ andvolume. Its modulation names do not explicitly include the RevC chart’s Analog Square. Thus chart subtotal plus all four dedicated functions gives96, not95; no manufacturer counting rule or firmware chronology was established. Preserve the product claim and chart census separately. [Product][XTL-P]; [Manual v3][XTL-M] |
+
 <!-- comparison evidence ends -->
 
 ### Exact Shopee hardware evidence
