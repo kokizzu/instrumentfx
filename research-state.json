@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Lexicon MX200",
-    "task": "Saved displaytype,userbankinitialfill andstagedrecall/AutoLoad. RemainingUSBpath,powerrevision,physicalbuttoncount andqualifiedoffers. Next seekprimaryUSBconnectionsection orfreshShopeeevidence.",
+    "task": "Saved explicitUSBcontrol/externalaudio path,historicalOSminimums andexactusedRp2.85msoldoutoffer. Remainingpowerrevision,buttoncount,displaydetails,newconditionoffer. Next freshShopeediscoveryorotherprimarygapsaftercommit.",
     "next_models": [],
     "after_queue": "349partialmodels;legacyconsolidationincomplete;no downloads/workflows/push."
   },
@@ -76245,5 +76245,27 @@
       "| Preset memory |99factory+99user=198 locations;factory-filled user subset unverified [MX-P] |"
     ],
     "remaining": "Physicalselectorbuttoncount,displaydiagonal/color/touch,USBaudiorouting andpowerrevisionunresolved"
+  },
+  "mx200_usb_used_20261018": {
+    "manual": "https://lexiconpro.com/en-US/product_documents/mx200manual_bpdf",
+    "page": 35,
+    "findings": [
+      "USBcontrolseparatefromS/PDIF/analogaudiopath",
+      "2input4outputinterfaceincludingmonitoring",
+      "HistoricalXP SP2/MacOSX10.3notcurrentcompatibility"
+    ],
+    "offer": {
+      "url": "https://shopee.co.id/lexicon-mx200-second-effect-vocal-efek-vocal-lexicon-bekas-i.118221978.19192870742",
+      "shop_id": "118221978",
+      "item_id": "19192870742",
+      "seller": "elkusla_shop",
+      "region": "Kab.Kediri",
+      "idr": 2850000,
+      "condition": "Sellerdescribedsecond/bekas;actualconditionunverified",
+      "stock": "Habisincachedbody",
+      "access": "Three-monthsearch,last-monthdirectbody;July/Augustdeliverydatesbothstale",
+      "bundle_adapter": "unknown"
+    },
+    "previous_editor_row": "| Editor / software |MX Edit Mac2.2.0,Windows2.3.1;NetUpdater1.0 separate.2016 releases do not establish modern OS support. VST/AU hardware-plugin32bit integration;USB audio transport unverified [MX-P] |"
   }
 }

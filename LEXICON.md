@@ -20,7 +20,7 @@ Dual-engine rack multi-effects for live/studio mixer paths. Checked2026-10-17. G
 | Analog levels / conversion |Inputs20kohm balanced/10kohm unbalanced,+4dBu nominal,+20dBu max;outputs+20dBu max.24bit48kHz A/D,24bit processing [MX-S] |
 | Power / battery / USB |Product:9VAC1300mA PS0913B;manual rear description namesPS0913DC andspecificationsp38explicitly say**9VDC**. AC/DC revision/compatibility conflict unresolved;do notselect replacement fromthisrecord. Measured draw,DCpolarity,battery andUSBpower unverified [MX-P,MX-M] |
 | Dimensions / weight |**19W×1.75H×4.75D inches;3.75lb**,1RU. Manufacturer guide p38;knob/packaging inclusions unqualified. No sibling dimensions substituted [MX-M] |
-| Editor / software |MX Edit Mac2.2.0,Windows2.3.1;NetUpdater1.0 separate.2016 releases do not establish modern OS support. VST/AU hardware-plugin32bit integration;USB audio transport unverified [MX-P] |
+| Editor / software |MX Edit Mac2.2.0,Windows2.3.1;NetUpdater1.0 separate.2016 releases do not establish modern OS support. VST/AU hardware-plugin32bit integration;USB control requires separateS/PDIF oranalog audiointerface send/return,notUSB-only audio. HistoricalguideWindowsXP SP2/MacOSX10.3requirements below [MX-P,MX-M p.35] |
 | Routing / live |S/PDIF44.1/48kHz only;external device clock master. Quick-start uses mixer postfader aux for vocal mic/guitar. Looper,drums,scenes andspillover unverified [MX-M pp.1,6] |
 
 ### MX200 — separate IDR evidence
@@ -29,7 +29,7 @@ Dual-engine rack multi-effects for live/studio mixer paths. Checked2026-10-17. G
 |---|---:|---|
 | Condition-unverified indexed ask |Rp4.433.000 |[bajuoasa66941795/9518332031](https://shopee.co.id/Efek-Vokal-Lexicon-Mx200-Mx-200-Original-i.66941795.9518332031);Depok;two-month indexed text,August19–22 delivery. Condition,stock,bundle,voucher,warranty unverified |
 | Condition-unverified sold-out ask |Rp1.500.000 |[Ahdum shop40716721/27231647996](https://shopee.co.id/Lexicon-MX200-i.40716721.27231647996);Kab.Cianjur;last-month indexed,August27–30 delivery;Habis. Condition,bundle,voucher,warranty unverified;not a verified used price |
-| Verified used IDR |? |Not established |
+| Seller-described used;actual condition unverified |**Rp2.850.000,Habis** |[elkusla_shop,shop118221978/item19192870742](https://shopee.co.id/lexicon-mx200-second-effect-vocal-efek-vocal-lexicon-bekas-i.118221978.19192870742);Kab.Kediri. Checked2026-10-18;three-month search,last-month directcachedbody. Titleexplicitsecond/bekas. Workingcondition,powerrevision,adapter,bundle,warranty,voucher,shipping/tax andtotalunknown. July14–17search versusAugust22–24bodydelivery bothstale. Latearrivalcompensationisnotdiscount;notlive stockorcompletedsale |
 | Verified new IDR |? |Not established |
 
 ### MX200 — primary sources and access limits
@@ -61,6 +61,17 @@ Checked2026-10-18 from manufacturer-indexed [guidepp5,10][MX-M];selectedoriginal
 | Memory / user initialization | All99userprograms initially matchfactoryprograms;theseare writablecopies,not99additionalprotectedpresets. Edits tofactoryoruserprograms canonlybestored inuserlocations. |
 | Live / program loading | TurningProgramSelect stagesanumberthatflashes;pressingtheencoderloads it. AutoLoadoption loadsautomaticallyduringselection. Do notassume immediateaudibleswitching fromrotationunderdefaultoperation;switchinggap/trails remainunverified. |
 | Controls / selector ambiguity | GuideidentifiesEffectSelectP1/P2 asbuttoncontrols,butalso instructsup/downpresses. Completerotaryinventory remains10;physicaleffect-selectorbutton/rocker countneedsvisualcorroboration ratherthan treating numberedcalloutsasindependentbuttons. Encoderloadpush isadditional. |
+
+
+### MX200 — USB control versus external audio
+
+Checked2026-10-18 from manufacturer-indexed [own guidep35][MX-M];no sibling specification borrowed,no files downloaded.
+
+| Field | Evidence / qualification |
+|---|---|
+| USB / hardware plug-in audio | USBconnectsthepoweredMX200forcontrol. Processingrequiresaseparateaudiointerfacewithtwoinputs/fouroutputs:stereosend/returnplusmonitoroutputs. Audio travelsviaS/PDIF orquarter-inch analogI/O;USBconnectionalonedoesnotprovidethedocumented audio path. |
+| Editor / historical OS requirements | Guide specifiesWindowsXP SP2orhigherwithVSThost;MacOSX10.3orhigherwithVST/AUhost. Thesehistoricalminimums do notestablishcurrentOS/CPU/64-bitcompatibility. |
+| I/O / digital limit | Guide requires44.1or48kHz;96kHzsourceunsupported. Externaldigitaldevice suppliesmasterclock asalreadydocumented. |
 
 
 ## MX300
