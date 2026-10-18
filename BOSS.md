@@ -2699,7 +2699,7 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | External EV-5 or FV-300L + PCS-33 supported; built-in/toe details pending. | [Manual p34][ME8-M] |
-| K/F/B | Separate rotary, footswitch and button counts pending visual/text reconciliation. | Unresolved |
+| K/F/B | **? /7 /12**,text-derived;rotary total andvisual corroboration pending. See count basis below. | [Manual pp5,7,9][ME8-M] |
 | Display | **Three-character seven-segment LED**; diagonal and touch unverified. | [Manual p34][ME8-M] |
 | Processing / categories | Compressor; drive; Humanizer/EQ; Harmonist/Pitch; Chorus/Flanger/Phaser/Tremolo; delay; reverb; suppression; amp simulator. **23 effects available; up to 11 simultaneously**. Choice counts and exclusions remain partly unresolved. | [Manual pp3,34][ME8-M] |
 | Categories / drive and harmonies | **Five analog drive alternatives**: Overdrive, Turbo Overdrive, Blues Driver, Distortion, Hard Distortion (Metal Zone); External selects a connected drive. Harmonist adds **two harmony notes** to the guitar, producing three-note harmony. | [Manual pp3,20][ME8-M] |
@@ -2713,7 +2713,7 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | Expression / Arm, Trip and Vibrato | Arm Down 2 lowers two semitones; Down 3 one octave; Up 1 raises three semitones; Up 2 one octave. Trip 1 adds a voice up to two octaves above dry; Trip 2 adds one up to an octave below dry. CTL drives timed pitch movement; EXP follows pedal position. Vibrato: CTL gradually applies it while held; EXP varies depth and lifted position disables it. | [Manual p14][ME8-M] |
 | Live / Silent, Tempo and remote restrictions | **CTL-only**: Silent mutes all outputs and clears audible delay/reverb tails; Tempo requires more than four presses; Remote toggles drive, harmony/pitch, modulation, delay, reverb or tuner. These targets do not work with EXP. Silent is distinct from Foot Volume, which preserves ambience decay. | [Manual p14][ME8-M] |
 | Categories / amp simulator and suppression | Amp simulator selects **Small Box or Large Box**, with Off additional. Noise-suppression threshold spans Off–100; excessive threshold can suppress quiet playing. Master Level 80 gives equal input/output level when all effects are off. CTL and optional EXP have separate assignment parameters. | [Manual p28][ME8-M] |
-| Preset memory | **50 user + 50 preset = 100**, plus Manual settings; initial user contents pending. | [Manual p34][ME8-M] |
+| Preset memory | **50 user + 50 preset = 100**, plus Manual settings;user locations initially duplicate presets,as clarified below. | [Manual p34][ME8-M] |
 | Synth / acoustic | Dedicated synthesis/acoustic simulation unverified. | Unresolved |
 | I/O | Input; L/Mono and R outputs; stereo mini headphones; external drive send/return; Manual Remote; Tuner Remote; EXP; Tempo In; adapter. | [Manual p34][ME8-M] |
 | Power / battery / USB | **14 V AC; 500 mA draw**. Battery/USB operation unverified; AC has no fixed DC center polarity. | [Manual p34][ME8-M] |
@@ -2761,6 +2761,16 @@ Checked2026-10-18. [Roland’s model-specific specification](https://support.rol
 | Conversion / sample rate | **18-bit Delta-Sigma ADC;DAC accepts20-bit input with4×oversampling digital filter/Delta-Sigma conversion;44.1kHz**. This describes internal conversion,not USB audio or a claim of20-bit ADC resolution. [Roland specification](https://support.roland.com/hc/en-us/articles/201925899-ME-8-Technical-Specifcations) |
 | I/O / analog electrical specifications | Input impedance **1MΩ**,output impedance **5.7kΩ**;nominal input/output **−20dBm**,with source defining0dBm=0.775Vrms. Retain the manufacturer’s unit convention;these are nominal levels,not maximum headroom orproof of balanced output. [Roland specification](https://support.roland.com/hc/en-us/articles/201925899-ME-8-Technical-Specifcations) |
 | Memory / Manual settings persistence | Manual-mode edits are automatically written **when returning to Play mode**,without Write. Powering off before returning loses those edits. Optional FS-5U at MANUAL REMOTE toggles Manual/Play. This differs from immediate continuous autosave. [Own manual p17][ME8-M] |
+
+
+### ME-8 — text-derived controls and factory-filled memories
+
+Checked2026-10-18 against manufacturer-indexed own-manual pp5,7,9. No original panel image was visually inspected.
+
+| Field | Evidence / qualification |
+|---|---|
+| Physical controls / count basis | **7 footswitches**:Number1–5,Bank,CTL. **12 buttons**:Tuner,Write/Copy,Manual,Group,Bypass,Edit/Esc,fourParameter directions,twoValue/Pitch directions. Derived from named controls andoperating instructions;rotary count remainsunverified. Indicators andprinted parameter names are not additional controls. [Own manual][ME8-M] |
+| Memory / initial fill and power-on selection | UserGroups1/2 initially duplicate PresetGroups3/4: **100 locations,50 distinct factory programs**,plus separateManual settings. Each group has5banks×5numbers. Power-on selects **Group1/Bank1/Number1**,not necessarily the last-used patch. [Own manual p7][ME8-M] |
 
 <!-- comparison evidence ends -->
 

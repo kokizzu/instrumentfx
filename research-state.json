@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS ME-8",
-    "task": "Saved ME-8 conversion,analog electrical specifications and Manual-mode persistence. Next corroborate physical-control counts or resume fresh hardware discovery; remaining gaps explicit.",
+    "task": "Saved ME-8 text-derived7FS/12buttons andfactory user/preset duplication. Rotary count andvisual corroboration remainopen. Next fresh Shopee discovery or other unresolved required fields.",
     "next_models": [],
     "after_queue": "349 partial models;114 Markdown compatibility files remain;no downloads/workflows/push."
   },
@@ -75190,6 +75190,28 @@
       "K/F/B and original panel visual corroboration",
       "Initial user fill",
       "Other unresolved fields and qualified prices"
+    ]
+  },
+  "me8_controls_factory_fill_20261018": {
+    "checked": "2026-10-18",
+    "source": "https://cdn.roland.com/assets/media/pdf/ME-8_OM.pdf",
+    "pages": [
+      5,
+      7,
+      9
+    ],
+    "access": "Manufacturer-indexed own-manual text;no image inspection",
+    "findings": [
+      "7FS:1–5,Bank,CTL",
+      "12B:6named plus4Parameter and2Value/Pitch directions",
+      "Rotary count remainsunknown",
+      "50user initially duplicate50preset programs;100locations plusManual",
+      "Power-on selectsGroup1Bank1Number1"
+    ],
+    "remaining": [
+      "Rotary count andvisual corroboration",
+      "Software/import/display uncertainties",
+      "Qualified new/used hardware evidence beyond retained ask"
     ]
   }
 }
