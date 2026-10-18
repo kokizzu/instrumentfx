@@ -521,9 +521,35 @@ Checked 2026-10-18; partial. Original Guitar edition only. [Own Yamaha manual](h
 [Earlier primary-manual and revision-qualified discovery evidence](#magicstomp-original-guitar--primary-manual-lead) remains below; original historical discovery status is superseded by this active record. No sibling specifications substituted.
 
 
+## Magicstomp Bass
+
+Checked 2026-10-18; partial. Separate Bass edition. [Own Yamaha manual](https://usa.yamaha.com/files/download/other_assets/1/334091/magicstomp_bass_en.pdf),35PDFpages,pp7–12,33; browser text. Acoustic/electric bass patches establish bass membership. No sibling specifications substituted.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in/external/toe support unverified; no EXP in published socket list. |
+| Knobs / footswitches / buttons | **4 /3 /1**:three parameter knobs,Volume;−,+,On/Off feet;STORE/EXIT. HIGH/LOW slider additional. |
+| Display | **16×2 backlit character LCD**;diagonal,color,touch unverified. |
+| Processing / choices | BBT-derived bass modeling and other effects; **onboard Deep Edit** documented. Full category counts and maximum simultaneous processing unresolved. |
+| Memory | **99 preset+99 user=198**;user area initially duplicates presets. |
+| Synth / acoustic | Acoustic-bass support does not establish acoustic simulation;dedicated synth engine unverified. |
+| Dimensions / mass | **164W×176D×62H mm;910g**. |
+| I/O | Mono input,separateL/MONO,R outputs,stereo-mini PHONES,USB,AC IN. Headphones retain main output;socket-size/absence audit pending. |
+| Power | **12V AC/1A;12W**. AC-10 factory inclusion varies by region. DC polarity inapplicable;battery/USB operation unverified. |
+| IR / NAM / capture | User IR,native/converted NAM,proprietary capture import unverified. |
+| Editor / software | Sound Editor and USB-MIDI patch transfer documented;current OS support,USB audio unverified. Exact historical platform table needs separate follow-up. |
+| Looper / drums / scenes | Unverified. Chromatic tuner and AFR documented;AFR restrictions pending. |
+| Used IDR | Unknown;exact MagicstompBass/UB99B Shopee searches unresolved,2026-10-18. |
+| New IDR | Unknown;seller/item,condition,stock,region,variant,bundle,warranty,voucher unverified. Search absence is not market absence. |
+
+<!-- comparison evidence ends -->
+
+
 ## Magicstomp — separate-edition discovery leads
 
-Initial discovery checked 2026-10-18. **Original Guitar is now active above; MK2, Acoustic and Bass remain separate discovery leads outside active counts.** [Yamaha manual library](https://usa.yamaha.com/support/manuals/index.html?c=&k=magicstomp&l=en) lists separate **Guitar Effects Processor**,**Guitar MK2**,**Acoustic** and**Bass** manuals,plus edition-specific effect/patch lists andeditordocuments. Do not combine capacities,algorithms,ports orsoftware requirements across editions.
+Initial discovery checked 2026-10-18. **Original Guitar and Bass are now active above; MK2 and Acoustic remain separate discovery leads outside active counts.** [Yamaha manual library](https://usa.yamaha.com/support/manuals/index.html?c=&k=magicstomp&l=en) lists separate **Guitar Effects Processor**,**Guitar MK2**,**Acoustic** and**Bass** manuals,plus edition-specific effect/patch lists andeditordocuments. Do not combine capacities,algorithms,ports orsoftware requirements across editions.
 
 Primary source routes for exact-edition follow-up:
 
