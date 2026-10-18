@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee brand/series discovery",
-    "task": "Search unrecorded eligible multi-effects hardware using new brand/series queries; require exact seller/item binding and own manufacturer architecture before admission. MK-20 memory/category follow-up committed; external EXP revision and NAM workflow unresolved.",
+    "model": "NUX Roctary unresolved lead",
+    "task": "Recover exact Shopee hardware seller/item and manufacturer manual; verify Roctary versus Roctary Force identity and dedicated-rotary versus independent multi-effects scope before admission. Category prices alone are insufficient.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -78439,5 +78439,46 @@
     "saved": "Amp/cab instrument allocations; initial preset fill and restore scope; six independent snapshots with one-way saving and restricted software editing",
     "limits": "No firmware threshold, seamless-switching proof, 156 ordinary-preset total or native NAM inference",
     "next": "Fresh Shopee brand/series discovery; external EXP revision and qualified condition/stock remain unresolved."
+  },
+  "discovery_post_mk20_20261018": {
+    "checked_date": "2026-10-18",
+    "queries": [
+      "MOOER Red Truck",
+      "Sonicake Matribox 3",
+      "DigiTech Element",
+      "Korg AX1G",
+      "Zoom 9002",
+      "MOOER GE300 Lite",
+      "Eventide ModFactor",
+      "Donner Alpha Cruncher",
+      "BOSS ME-6B",
+      "NUX Roctary",
+      "Zoom G9.2tt",
+      "Korg PX4D",
+      "BOSS VF-1"
+    ],
+    "result": "No new qualified exact seller/item hardware offer. Empty or unrelated results do not prove unavailability. Existing Dapper MDR item141177049/2861386191 rechecked: cached Rp1800000 Habis already recorded; no new price claim.",
+    "leads": [
+      {
+        "model": "NUX Roctary",
+        "status": "Pending exact item and scope review; not admitted",
+        "sources": [
+          "https://shopee.co.id/list/Leslie",
+          "https://shopee.co.id/search?keyword=motor+simulator&page=2"
+        ],
+        "observations": "Category-only amounts Rp1493990 and Rp1385700; different stale pages, no bound seller/item; not a price range or used/new evidence",
+        "primary_candidate": "https://nuxaudio.com/product/roctaryforce/",
+        "limit": "Roctary Force identity versus seller Roctary title unproven; independent multi-effect architecture versus dedicated rotary scope requires own manual."
+      },
+      {
+        "model": "Zoom C5.1t",
+        "status": "Not admitted: interface/controller package lead does not establish standalone effects processing",
+        "category": "https://shopee.co.id/search?keyword=%2CZFx",
+        "primary": "https://zoomcorp.com/ja/jp/audio-interface/audio-interfaces/c51t/c51t-support/",
+        "manual": "https://zoomcorp.com/media/documents/E_ZFX_Plug-in.pdf",
+        "basis": "Manufacturer classifies C5.1t as an audio interface for ZFX Plug-in; software start-up guide establishes computer plug-in workflow, not autonomous hardware effects."
+      }
+    ],
+    "next": "Recover Roctary exact hardware item and exact model manual, preserving Force identity uncertainty; otherwise new Shopee series queries. Do not repeat identical failed queries."
   }
 }
