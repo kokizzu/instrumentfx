@@ -12,14 +12,14 @@ Rack multi-effects,distinct from MIDIverb4. Checked2026-10-17;discontinued [MV-P
 | Expression |No built-in pedal/toe;external EXP unverified. Momentary TRS footswitch:tip bypass,ring control;normally-open/closed accepted. Connect before power-on. Ring controls Lezlie speed orDelay tap;other programs ignore it [MV-M pp.21–22,34] |
 | Knobs / footswitches / buttons |**6rotary/0foot/2buttons**:INPUT,MIX,OUTPUT,VALUE,EDIT A/B;STORE,BANK/MIDI. Text-derived,not new visual inspection [MV-M p.42] |
 | Display |Specifications/control inventory sayLED display;effects prose pp.26,28 calls itLCD. Conflicting terminology retained;diagonal,color/touch unresolved [MV-M pp.26,28,42] |
-| Processing / categories |Up to3simultaneous effects;fixed configurations,not arbitrary free routing. Reverb,chorus/flange,delay,pitch,rotary andmultieffects;exact category choice counts unresolved [MV-P] |
+| Processing / categories |Up to3simultaneous effects;fixed configurations,not arbitrary free routing. Manual names7 Multi Chain and3 Dual Send configurations;five reverb families andfour delay forms. These are alternatives,not simultaneous block counts;complete unique-algorithm census unresolved. Full named inventory below [MV-P,MV-M p.43] |
 | Preset memory |100factoryROM+100userRAM=200;original chart lists all100–199user locations prefilled. They remain writable,not100additional protected presets [MV-P,MV-M,MV-C] |
 | Synth / acoustic |Pitch±1octave;dedicated synth/acoustic simulator unverified [MV-P]. Acoustic-guitar program voicing is not an acoustic simulator |
 | IR / NAM / captures |User IR,native/converted NAM andmeasured capture import unverified |
 | Audio / control ports |2unbalanced6.35mm TS inputs,2TS outputs;MIDI IN,OUT/THRU;TRS footswitch;power. No USB,mic,phantom,headphone orFX-loop socket in rear inventory [MV-M pp.34–35,42] |
 | Power / battery / USB |AlesisP3,9VAC;manual US supply120VAC mains. Current rating,other regions,battery/USB operation unresolved;DC polarity not applicable toAC output [MV-M p.34] |
 | Dimensions / weight |Exact body dimensions andmass unverified;MIDIverb4 specifications not substituted |
-| Editor / software |MIDI realtime control andSysEx user-bank dumps;full editor/platforms unverified. Product lists2simultaneous MIDI controls [MV-P,MV-M] |
+| Editor / software |CC1/CC11 modulate up to2 fixed program-specific destinations;some programs expose only1. Positive modulation toward maximum only. SysEx user-bank send/automatic receive is backup,not proof of full editor or modern librarian compatibility. Dense OUT/THRU traffic can overflow;details below [MV-P,MV-M pp.37–38] |
 | Analog conversion |18bitADC/DAC versus24bit internal accumulator;these are different specifications [MV-P,MV-M pp.42–43] |
 | Looper / drums / live |Delay conflict:product maximum1300ms versusmanual delaymemory1270ms. Dual-send andmultichain configurations documented. MonoLeft input feeds both paths unlessRight isconnected. DualSend90–99/190–199 supports separate mixer sends;aux-return use requires100%wet MIX. Saved presets survive;unsaved edits are lost atpower-off [MV-M pp.14–17,32]. Audio tap requires holdingControl footswitch andplaying impulses at least−6dB onmeter;highernotes trackbetter. Foot tap setsquarter-note delay;Lezlie speed ramps [MV-M pp.22,27–28]. Looper,drums,scenes andspillover unresolved [MV-P,MV-M p.43] |
 
@@ -29,7 +29,7 @@ Rack multi-effects,distinct from MIDIverb4. Checked2026-10-17;discontinued [MV-P
 |---|---:|---|
 | Condition-unverified indexed ask |Rp1.800.000 |[Batikkku_id380541018/29204571734](https://shopee.co.id/Effect-Vocal-ALESIS-Microverb-4-Microberb4-Original-Made-in-USA-i.380541018.29204571734);JakartaBarat;last-month indexed,reopened body. USA/original claims,condition,stock,bundle,voucher,warranty unverified |
 | Condition-unverified indexed ask |Rp1.565.000 |[tunasjayaelectronik6699705/20838221165](https://shopee.co.id/ALESIS-MICROVERB-4-MADE-IN-USA-24-BIT-KUPING-BABETORIGINAL-RESMI-i.6699705.20838221165);JakartaBarat;two-week search,last-week reopened index. Title24BIT doesnot establish24bitconverters:manufacturer specifies18bitconversion and24bitaccumulator. Offered unit identity/condition,stock,bundle,voucher,warranty unverified |
-| Verified used IDR |? |Not established |
+| Seller-described used IDR; working condition unverified |Rp2.709.000 |[andikondo752257787/24378585723](https://shopee.co.id/Effek-Alesis-Microverb-4-original-Made-malaysia-bekas-normal--i.752257787.24378585723);Kab.Kediri. Checked2026-10-18;cached last-month body,staleSeptember delivery. Seller says used/normal/original/Malaysia;actual condition,authenticity,stock,adapter,bundle,warranty anddelivered total unverified. Full dated qualification below |
 | Verified new IDR |? |Not established |
 
 ### MicroVerb 4 — primary sources and remaining work
@@ -38,7 +38,7 @@ Rack multi-effects,distinct from MIDIverb4. Checked2026-10-17;discontinued [MV-P
 - [MV-M: original44-page reference manual](https://www.alesis.com/rscdn/981/documents/microverb4_manual.pdf);text inspected;no successful new visual inspection claimed.
 - [MV-C: original program chart](https://www.alesis.com/rscdn/981/documents/microverb4_programchart.pdf),including vocal/acoustic-guitar examples.
 
-No files downloaded. Remaining:category totals,body/mass,power current,display,software,routing restrictions andqualified offers. Malaysia/Taiwan/USA seller labels are not established official variants. The earlier seller24bit discrepancy concerns unspecified wording,not proof ofcounterfeit. Bass use remains unclassified.
+No files downloaded. Remaining:complete unique category census,body/mass,power current,display,full editor/platform compatibility,routing restrictions andqualified new offers;used seller evidence is retained below. Malaysia/Taiwan/USA seller labels are not established official variants. The earlier seller24bit discrepancy concerns unspecified wording,not proof ofcounterfeit. Bass use remains unclassified.
 
 ### MicroVerb 4 — named configurations and initialization
 
@@ -51,7 +51,7 @@ Checked 2026-10-18 from the [manufacturer Reference Manual](https://www.alesis.c
 | Category choices / specification inventory | P43 names **five reverb families**:Concert Hall,Real Room,Ambience,Plate,Nonlinear;**four delay forms**:Mono,Stereo,Ping Pong,Multi Tap. Pitch-labelled list:Stereo Chorus,Quad Chorus,Stereo Flange,Stereo Pitch Shifter;Auto Pan separate. This specification list is not a complete program/unique-algorithm census;prose also discusses detuning and Lezlie. |
 | Memory / initialization | P39: holding STORE+BANK/MIDI during power-up resets User Programs and MIDI channel,recalling Preset00. Custom user contents are erased;back up via MIDI SysEx first. Software version appears at power-up. |
 
-Dimensions,mass,supply current,display details,full editor compatibility and qualified separate used/new prices remain unresolved. Existing historical offers and delay/display conflicts remain unchanged.
+Dimensions,mass,supply current,display details,full editor compatibility and qualified new prices remain unresolved;explicitly used seller evidence is retained below. Existing historical offers and delay/display conflicts remain unchanged.
 
 
 ### MicroVerb 4 — analog ratings and converter scope
@@ -65,7 +65,7 @@ Checked 2026-10-18 from the [manufacturer manual,pp39,42–43](https://www.alesi
 | Processing / converters | **18-bit Sigma-Delta ADC128×oversampling,DAC8×oversampling**. Internal24-bit accumulator is separate. Sampling frequency remains unverified;MIDIverb4's48 kHz must not be borrowed. |
 | Live / bypass restriction | Troubleshooting p39 associates bypass plus100%wet MIX with no output;reduce MIX or release bypass. This is relevant to mixer aux returns and does not establish a dry-through hardware topology. |
 
-Body dimensions/mass,current rating,display details and qualified used/new prices remain unresolved.
+Body dimensions/mass,current rating,display details and qualified new prices remain unresolved;explicitly used seller evidence is retained below.
 
 
 ### MicroVerb 4 — MIDI operation and backup limits
