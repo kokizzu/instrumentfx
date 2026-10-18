@@ -3316,6 +3316,16 @@ Checked2026-10-18 against the [official Librarian1.00 page](https://www.boss.inf
 | Editor / Windows librarian scope | **Librarian1.00 lists WindowsXP,Vista,7,8/8.1 and10**. It collects,organizes,copies and reorders user-patch libraries;this doesnot establish full parameter editing. The page compares librarian andeditor storage behavior butdoesnot establish a separate GT-10B full-editor release. |
 | Editor / librarian host requirements | **1GHz Pentium/Celeron-compatible CPU,512MB RAM,190MB disk,1024×768 display with16-bit color**. These are computer requirements,not the processor’s screen specifications. Manufacturer doesnot guarantee every qualifying hardware configuration. Windows11,current delivery anddevice communication remain untested;USB driver requirements remain separate. |
 
+### GT-10B — channel modes and crossover
+
+Checked2026-10-18 in the manufacturer-authored2008 manual G6027127R0, printedp133, via [manual body][G10B-T]; no generated FAQ or download.
+
+| Field | Verified behavior / qualification |
+|---|---|
+| Processing / channel modes7 | **Single, Dual Mix, Dual L/R, Freq Divide, Dynamic SW, Dynamic A, Dynamic B**. Single uses selected A/B; Dual Mix combines both; Dual L/R sends A left andB right. These are routing choices,not seven effects or a simultaneous-block count. |
+| Processing / frequency split | Freq Divide assigns lows toA andhighs toB; crossover **100Hz–4.00kHz**. This enables frequency-separated processing,not an additional synth algorithm. |
+| Processing / dynamic routing | Dynamic SW selectsB with stronger picking. Dynamic A/B changes the named channel’s level with input dynamics while the other remains fixed. Sensitivity/release are0–100 display units;these do not specify attack/release milliseconds. |
+
 <!-- comparison evidence ends -->
 
 GT10B Shopee searches surfaced adapter listings and foreign retailers rather than an accepted Indonesian unit. Seller/item,condition,stock,region,bundle,warranty,voucher anddelivered total remain unknown. Manufacturer manual support entry found;direct expected PDF URL inaccessible. No license acceptance,downloads,installation ordevice operation.
