@@ -4426,15 +4426,15 @@ Acoustic-guitar multi-effects;checked2026-10-18,partial. [Own product page](http
 | Field | Finding / qualification |
 |---|---|
 | Expression | Built-in/external/toe support unverified. |
-| K/F/B | Separate rotary/foot/button totals unverified;do notborrowA2 controls. |
+| K/F/B | Quick Guide names BODY TYPE, BASS/MIDDLE/TREBLE, BALANCE, MASTER, MIC and PICKUP rotaries, plus parameter controls; separate complete K/F/B totals remain unverified. Pickup selector offers PIEZO/MAGNETIC/FLAT. |
 | Display | LCD;diagonal,color/touch unverified. |
-| Processing / categories | **40 effects+28 guitar models;three simultaneous effects**. Introduction permits two selectedeffects alongside modeling;not40simultaneous. Categorycensus unverified. |
-| Memory | **20 userpatches**;factoryfilled count unverified. |
+| Processing / categories | **40 effects+28 guitar models;three simultaneous effects**. Introduction permits two selectedeffects alongside modeling;not40simultaneous. Categorycensus unverified. Manual p42 says processing overload displays THRU and bypasses the affected effect. |
+| Memory | **20 userpatches**;factoryfilled count unverified. Manual p32 says firmware updating retains saved patches; All Initialize resets all settings, including patch memories, to factory defaults. |
 | Synth / acoustic | Acoustic remodeling uses **16 body types and 28 model types** to match guitar body shape/material characteristics (own manual Introduction). These are modeling choices, not 44 simultaneous effects. Dedicated synth unverified. Remodeling isnot proof ofuserIR/NAM loading. |
 | Dimensions / mass | **108W×160.3D×54.9Hmm;630g excludingbatteries**. |
 | I/O | PICKUP mono phone input;MIC XLR/phonecombo;Rmonooutput;L/MONO/PHONES stereo phone;balancedXLR withgroundlift;USB andpower. Socketdiameters/controlports/completeinventory cross-check pending. |
 | I/O / microphone settings | [Own manual p23](https://zoomcorp.com/media/documents/A3_operationManual_English.pdf), indexed 2026-10-18: phantom OFF/+24V/+48V; low-cut OFF/40/80/160Hz; microphone phase NORMAL/REVERSE. +24V consumes less power than +48V but does not suit every condenser microphone. The selected phantom setting takes effect on leaving its page. |
-| Power | **AD-16,9VDC500mA center-negative**;fourAAalkaline about**8h**. Supplyrating,not measureddraw;USBpower unverified. |
+| Power | **AD-16,9VDC500mA center-negative**;fourAAalkaline about**8h**. Supplyrating,not measureddraw. Manual p42 confirms **USB bus power**: set POWER to OFF before connecting USB. With +48V phantom, alkaline runtime is about **5h**, rather than the general 8h estimate. |
 | Editor / USB | USB listedforfirmwareupdate;full editor,OS matrix,audio/MIDI interface unverified. Internal44.1kHz/24-bit converters doesnot establishUSBaudio. |
 | IR / NAM / capture | UserIR,nativeNAM,convertedNAM andproprietarycapture import unverified. |
 | Routing / microphone | [Own manual p24](https://zoomcorp.com/media/documents/A3_operationManual_English.pdf), indexed passage checked 2026-10-18: MIC MIX POSITION routes the microphone through effects 2 and 3, effect 3 alone, or neither. This establishes a processed microphone path alongside the pickup path; vocal harmony and pitch correction remain unverified. |
@@ -4443,4 +4443,4 @@ Acoustic-guitar multi-effects;checked2026-10-18,partial. [Own product page](http
 
 <!-- comparison evidence ends -->
 
-[Own operation manual](https://zoomcorp.com/media/documents/A3_operationManual_English.pdf),indexed Introduction/Specifications inspected2026-10-18. Direct reader rejected13.9MB size;no fullPDF/image inspection claimed andno file downloaded. Controls,expression,exact categorychoices andport/power refinements requirefurther checking.
+[Own operation manual](https://zoomcorp.com/media/documents/A3_operationManual_English.pdf),indexed Introduction/Specifications inspected2026-10-18. Direct reader rejected13.9MB size;no fullPDF/image inspection claimed andno file downloaded. Quick Guide and printed pp32/42 indexed passages additionally checked2026-10-18. Expression,complete control totals,category census andfullports still require checking.

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom A3",
-    "task": "A3 body/model distinction and microphone settings saved. Next exact-model controls/expression, category census, full ports and USB/power verification; then fresh Shopee discovery. Reader size limit remains; no downloads.",
+    "task": "A3 USB power and reset/update retention verified. Next full control/port inventory, expression and category census. Manufacturer manual HTML mirror identified: https://manualzz.com/doc/9009531/zoom-a3-acoustic-guitar-preamp-and-effects-operation-manual ; verify identity before use. Then fresh Shopee discovery and legacy consolidation.",
     "next_models": [],
     "after_queue": "376 active models; all partial; compatibility migration incomplete. No downloads/workflows/push."
   },
@@ -5518,6 +5518,12 @@
       "date": "2026-10-18",
       "source": "https://zoomcorp.com/media/documents/A3_operationManual_English.pdf",
       "finding": "Indexed Introduction and p23 distinguish body/model choices and establish phantom, low-cut and microphone phase options. USB bus power remains unverified; irrelevant recorder search results rejected."
+    },
+    {
+      "model": "Zoom A3",
+      "date": "2026-10-18",
+      "source": "https://zoomcorp.com/media/documents/A3_operationManual_English.pdf",
+      "finding": "Indexed Quick Guide and pp32/42 resolve USB bus power, phantom battery runtime, update/reset retention and DSP-overload bypass. Complete control totals remain unverified."
     }
   ],
   "consolidation_and_price_findings": [
