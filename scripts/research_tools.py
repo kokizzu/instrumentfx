@@ -467,7 +467,7 @@ def main():
         if mode == 'commit-spx990':
             message = 'research(yamaha): qualify SPX1000 Freeze pitch and trigger limits'
         if mode == 'commit-ie550':
-            message = 'research(dk): recover iE-350 controls USB display and body specifications'
+            message = 'research(dk): document iE-350 USB routing expression and IR limits'
         if mode == 'commit-dsp2024p':
             message = 'research(behringer): preserve DSP2024P regional mains revision differences'
         if mode == 'commit-rev500':

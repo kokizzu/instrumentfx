@@ -78,18 +78,19 @@ Checked 2026-10-18. Partial guitar multi-effects record; separate from iE-550. M
 
 | Field | Evidence / qualification |
 |---|---|
-| Expression | **External expression:6.35mm TRS jack**. Built-in/toe behavior unverified. [I350-Q] |
+| Expression | **External expression:6.35mm TRS jack**. Built-in/toe behavior unverified. [I350-Q] Manualp7 offers None/FX/DRV/AMP/MOD/DLY/RVB/VOL targets;VOL controls overall chain output. Calibrate at both travel endpoints with VALUE;EXIT cancels. |
 | K/F/B | **One VALUE push encoder,four named buttons(EXIT,GLOBAL,BT,DRUM),two footswitches;separate POWER switch**. Encoder press confirms,hold opens SAVE. [I350-Q] |
 | Display | **1.7-inch color LCD**,Chinese original-guide text;English numerical glyphs missing. Touch unverified. [I350-Q] |
 | Processing / choices | **Eight simultaneous modules**; per-category choices and routing limits pending. [I350-M] |
 | Factory / user memory | **50 factory F01–50 +50 user P01–50=100**. Initial user fill and protected/writable rules pending. [I350-M] |
 | Synth / acoustic | Dedicated synthesis/acoustic simulation unknown. |
 | I/O | **6.35mm TS input,1MΩ;6.35mm TRS stereo unbalanced output/headphones,100Ω;USB2.0 Type-C**. Expression jack documented separately. Complete port inventory still requires panel verification. [I350-M] |
-| Conversion | **24-bit AD/DA,44.1kHz;100dB SNR**. **USB recording44.1kHz/16-bit** separately specified;channel count unknown. [I350-Q] [I350-M] |
+| USB / level routing | Manualp6 separately adjusts input gain,effect-chain recording,Bluetooth recording andUSB return monitoring,each−20…+20dB. Dry/reamp selection andchannel mapping unresolved. |
+| Conversion | **24-bit AD/DA,44.1kHz;100dB SNR**. **USB recording44.1kHz/16-bit** separately specified;**2-in/2-out** per manualp10;Windows requires driver. [I350-Q] [I350-M] |
 | Power / battery / USB | Manual prints USB input **DC5V/12V,500mA**; Guide specifies5V USB charging and12V GaN faster charging;negotiation/adapter compatibility unresolved. When depleted,leave POWER off while charging. [I350-Q] **2000mAh,3.7V battery;claimed life>7hours**. Not a local runtime test or permission to apply arbitrary12V. [I350-M] |
 | Dimensions / mass | **122×103×52mm(length×width×height),270g**,Chinese original quick guide. [I350-Q] |
-| IR / NAM / capture | DKit1.2.0 notes explicitly include iE350 NAM A1/A2 import; native-versus-converted path and firmware minimum unresolved. IR capacity/formats and capture creation unknown. [I350-A] |
-| Editor / software | Manufacturer lists iE350/550 AndroidDKit1.2.1,Mac/Windows firmware resources andUSB ASIO executable. Updater/driver are not proof of a desktop editor. [I350-S] |
+| IR / NAM / capture | DKit1.2.0 notes explicitly include iE350 NAM A1/A2 import; native-versus-converted path and firmware minimum unresolved. Manualp12 lists **five user IR slots**;formats,capture creation unknown. [I350-A] |
+| Editor / software | Manufacturer lists iE350/550 AndroidDKit1.2.1,Mac/Windows firmware resources andUSB ASIO executable. Updater/driver are not proof of a desktop editor. [I350-S] Manualp10 claims tone/preset management,reset andthird-party IR loading on Windows/Mac/Android/iOS,but unexpectedly names Boin Audio before directing readers to DK. Exact desktop package/current compatibility unverified. |
 | Looper / drums / live | Footswitches step presets,hold scrolls;both invoke tuner. DRUM toggles playback,hold opens settings. BT supports audio/app. Detailed drum limits,looper,scenes andtrails pending. [I350-Q] |
 
 ### Separate IDR hardware evidence
@@ -105,7 +106,8 @@ Checked 2026-10-18. Partial guitar multi-effects record; separate from iE-550. M
 - [Manufacturer exact iE-350 product](https://www.dk-music.cn/pd.jsp?id=97): indexed;direct timeout.
 - [I350-M: original manufacturer User Manual,15pages](https://www.manualslib.com/manual/4152133/Dk-Ie-350.html): cover iE-350 Multi-Effects Processor; firmware digits do not extract. [Specifications,p14](https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=14) supply the numerical ratings above. Generated FAQ excluded.
 - [I350-Q: original bilingual quick guide,V01 filename250319](https://manuals.plus/m/38e7cfbb78de66e80e6ad6f0089b795c878425515e58336188b7095ffd5f0b16): manufacturer/model attribution matches;English numerical glyphs absent,but Chinese body retains display,USB,dimensions andmass. Filename is not installed firmware proof.
+- [Original manual routing/expression/software/IR evidence](https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=6),pages6,7,10,12. Manufacturer-authored text;firmware digits unreadable;Boin Audio naming inconsistency retained.
 - [I350-A: manufacturer-published DKit release notes](https://apps.apple.com/id/app/dkit/id6738170601).
 - [I350-S: manufacturer English support index](https://www.dk-music.cn/col.jsp?id=110).
 
-No files/software downloaded; selected original-manual text only,no visual inspection. Remaining: visual panel check,built-in/toe expression,category census,USB channels/routing,charging negotiation,IR/NAM workflow andqualified offers.
+No files/software downloaded; selected original-manual text only,no visual inspection. Remaining: visual panel check,built-in/toe expression,category census,USB dry/reamp/channel mapping,charging negotiation,IR formats/NAM workflow,desktop package identity andqualified offers.
