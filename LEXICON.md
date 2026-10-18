@@ -216,3 +216,16 @@ Checked2026-10-17 against the [original manufacturer guide](https://prosoundonli
 Dualvariations1–6 arestereoparallel;7–10cascade;11–14monosplit withstereooutputs;15–16dualmono,oneeffectperoutput. In cascade,EffectsLvl/Bal changes firsteffect/dry feed intothesecond ratherthanmerely balancingparallelreturns.
 
 Introduction’s5.7seconddelay claim conflicts with detailedmono5.5seconds;stereo2.7seconds andsix-voicemultitap areseparate modes. Do not average orsilentlycorrect theclaims. No newfirmware revision inferred.
+
+### MPX100 — conversion and digital routing qualifications
+
+Checked2026-10-18 against the same [manufacturer guide,printed pp.14–15,52](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf),part070-11935. No hardware operation ordownload.
+
+| Field | Finding / qualification |
+|---|---|
+| I/O / digital output | **20-bit S/PDIF,44.1kHz,always active**. System Digital Output selects dry-only orfull processed signal. This is output,not digitalinput orUSB. |
+| I/O / analog conversion | **20-bit AD andDA at44.1kHz**,versus24-bit internalDSP path. Typical unweighted20Hz–20kHz dynamicrange:analog-to-analog>95dB,analog-to-digital>100dB. Frequencyresponse±1dB;THD+N<0.05%. |
+| I/O / output rating | Analog+8dBu typical;75Ω listed forheadphoneoutput. Do notpromote this to independentheadphoneamp power. Existing left-only/headphone andright-only/mono restrictions remain. |
+| Live / bypass and program loading | Bypass setting chooses inputmute orprocessed-audio bypass/dryoutput. Separate Program Load setting chooses wetmute orprocessed-audio bypass duringloading. These are separate controls,not proof ofseamless tails. |
+
+Unit current andpowerconnector dimensions remainunverified;9VAC mustnot become9VDC. S/PDIFwordlength is not theinternalDSP width.

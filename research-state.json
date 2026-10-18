@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon VoiceLive Touch 2",
-    "task": "Touch2 guitarEQ/dynamics andmonitoring scope saved. Resume freshShopee discovery oranothermodel primarygap;exacttiming/power/display/USBfields unresolved.",
+    "model": "Lexicon MPX100",
+    "task": "Digitaloutput/conversion andprogramload qualifications saved. Continue ownprimarygaps orfreshShopee discovery.",
     "next_models": [],
     "after_queue": "342 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -24277,6 +24277,15 @@
         "Fishman ToneDEQ"
       ],
       "finding": "Shopee AGStomp/AG-Stomp andToneDEQ searches yielded no exact hardware item;not unavailable proof. No new admission."
+    },
+    {
+      "checked_date": "2026-10-18",
+      "models": [
+        "Lexicon MPX500",
+        "Lexicon MPX-1",
+        "Alesis Quadraverb"
+      ],
+      "finding": "Exact Shopee searches established no hardware offer;not unavailable proof. Continue newbrand/series leads ratherthanrepeatidenticalqueries."
     }
   ],
   "inventory_by_brand": {
@@ -45536,7 +45545,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon VoiceLive Touch 2."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Lexicon MPX100."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -72850,5 +72859,11 @@
     "checked_date": "2026-10-18",
     "finding": "Guitar EQ/dynamics and dry-voice timing/monitoring scope retained from original reference bodypp59–63;notgeneratedFAQ.",
     "remaining": "ExactEQfrequencylimits,delaymilliseconds,USBformats,DCpower anddisplayunknown. Resume freshShopee discovery orothermodelprimarygap."
+  },
+  "mpx100_digital_followup_20261018": {
+    "source": "https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf",
+    "checked_date": "2026-10-18",
+    "finding": "MPX100 digital output/ADDA/DSP widths anddry-wet setting nowdistinguished;separatebypass/programload states retained.",
+    "remaining": "Powercurrent,full editor andqualifiednew/usedprices unresolved."
   }
 }
