@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Behringer DSP2024P",
-    "task": "Saved all remaining prose effect families and explicit older manual revision. Numbered 71-entry census still needs readable original tables; next fresh Shopee discovery or unresolved technical fields.",
+    "model": null,
+    "task": "Fresh legacy-series discovery returned accessory-only or already-recorded hardware hits; exact rejections saved in discovery_legacy_accessory_filter_20261018. Next search alternate model spellings and missing bass/vocal series; DSP2024P numbered census remains open.",
     "next_models": [],
     "after_queue": "349 partial models;114 Markdown compatibility files remain;no downloads/workflows/push."
   },
@@ -75077,5 +75077,49 @@
       "No readable numbered-table census from current web extraction",
       "No source files downloaded or device tests performed"
     ]
+  },
+  "discovery_legacy_accessory_filter_20261018": {
+    "checked": "2026-10-18",
+    "queries": [
+      "site:shopee.co.id \"DigiTech\" \"RP355\"",
+      "site:shopee.co.id \"Korg\" \"AX2000G\"",
+      "site:shopee.co.id \"Zoom\" \"GFX-1\"",
+      "site:shopee.co.id \"Zoom\" \"B2\" \"efek\" -adaptor -tas -hardcase",
+      "site:shopee.co.id \"Digitech\" \"BP200\" -adaptor",
+      "site:shopee.co.id \"Korg\" \"AX3000B\" -adaptor",
+      "site:shopee.co.id \"Zoom\" \"GFX-8\" -adaptor"
+    ],
+    "rejected_accessories": [
+      {
+        "url": "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-RP350-RP355-RP300-PSU-i.855783279.22273291654",
+        "ask_idr": 170000,
+        "reason": "Power adapter, not RP355 processor; four-month index"
+      },
+      {
+        "url": "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-VL3G-Vocalist-Live-3-EX-MC2-Talker-S100-RP3-GNX1-BP200-AC-Power-Supply-i.16626959.4486100964",
+        "ask_idr": 175000,
+        "reason": "Shared compatibility adapter, not BP200 hardware; two-month index"
+      },
+      {
+        "url": "https://shopee.co.id/Adaptor-Zoom-Efek-Gitar-GFX8-GFX-8-Power-Kabel-i.732732692.20031217262",
+        "ask_idr": 150000,
+        "reason": "Adapter only; two-month index"
+      },
+      {
+        "url": "https://shopee.co.id/Modul-sensor-Pedal-WAH-pedal-volume-zoom-gfx-8-i.38361451.8214243069",
+        "ask_idr": 95000,
+        "reason": "Replacement pedal sensor, not complete GFX-8; four-month index"
+      }
+    ],
+    "duplicate_hardware": {
+      "model": "Zoom B2 FOUR",
+      "existing_items": [
+        "84651465/27233015578",
+        "800959591/24004987590"
+      ],
+      "result": "DOREMI direct cached body still Habis/Rp3924000; IDB direct cache miss, indexed Rp4495000 already retained. No new stock/condition qualification."
+    },
+    "outcome": "No qualified new processor lead from these queries; no inventory or price-table additions. Empty/nonmatching search results do not prove unavailable hardware.",
+    "next": "Try alternate unhyphenated spellings and other missing bass/vocal series; do not research accessory titles as processors."
   }
 }
