@@ -527,7 +527,7 @@ Checked2026-10-17. Partial **bass multi-effects** record; distinct from AX10G/AX
 
 | Field | Evidence / remaining gaps |
 |---|---|
-| Processing / choices | PRE3,AMP11,MOD11,AMBIENCE11,NR1;not a simultaneous-count claim. PRE choices COMP/DIST/OCTAVE. Own EasyStart AX10B panel states **three effects+NR,in addition to amp choice**;this means PRE/MOD/AMBIENCE plusNR/AMP,not11 concurrent modulation algorithms. See source qualification below. |
+| Processing / choices | PRE3,AMP selector11 (**10 amp models + EQ**),MOD11,AMBIENCE11,NR1;not a simultaneous-count claim. PRE choices COMP/DIST/OCTAVE. Own EasyStart AX10B panel states **three effects+NR,in addition to amp choice**;this means PRE/MOD/AMBIENCE plusNR/AMP,not11 concurrent modulation algorithms. See source qualification below. |
 | Presets | **40 read-only factory+40 overwriteable user**;user initially duplicates factory. |
 | Expression | Built-in pedal;fully forward toggles effect;volume always active. No external EXP socket in complete rear inventory. Mechanical toe-switch implementation unknown. |
 | Controls | **8 rotary /2 footswitches /13 buttons**, derived from numbered text:5ampknobs+3selectors;UP/DOWNfoot;PRE1,VALUE2,MODDEPTH2,AMBDEPTH2,TAP1,FUNCTION1,MASTER2,WRITE1,PEDALFX1. Two rear toggles andpedal activation separate;not visually audited. |
@@ -602,6 +602,16 @@ Checked2026-10-18. [Korg official AX10B EasyStart entry](https://www.korg.com/us
 ### AX10B — synth-like patches and modulation scope
 
 Checked2026-10-18 from [manufacturer EFGJ1 manual](https://cdn.korg.com/jp/support/download/files/315583a1909cadeb1539dd6c1941c444.pdf?response-content-disposition=inline%3Bfilename%3DAX10B_EFGJ1.pdf&response-content-type=application%2Fpdf%3B),Englishp11 andprogramchart(PDFp51). FILTER follows picking dynamics orpedal position;TALK similarly uses pickattack/pedal. PITCH1 mixes shifted anddirect signal;PITCH2 isfullywet. FEEDBK offers normal andoctave-up feedback fromheldnotes. These are choices inoneMODblock,not additional simultaneous modules. Programchart supplies thetwoSynthpatches above;it doesnot establish independent syntharchitecture. Powerdraw,screen diagonal andconversionformat remain unknown;freshlimitedShopee search foundnoqualifiedAX10Bhardware offer. No file download/deviceoperation.
+
+### AX10B — named amp selector and nested TALK choices
+
+Checked2026-10-18 against the [own EFG1 manual](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf),printedp11.
+
+| Field | Manufacturer manual finding |
+|---|---|
+| Category choices / AMP selector | **EQ; VALVE; VALVE2; CLASSIC; SCOOPED; LA STUDIO; GOLDPNL; JAZZ; STUDIO; AC100; UKMAJOR**. Eleven positions comprise ten amp simulations plus direct three-band EQ. Cabinet processing accompanies amp choices but not EQ; the manual’s recommended cabinet names do not establish independent cabinet selection or additional simultaneous blocks. |
+| Category choices / TALK modes | **5 nested modes**: YAH-YAH, U-WAH, YOI-YOI, YEAH, HI U-WAH. These belong to one TALK choice within the eleven-entry MOD category; they are not five additional independently insertable effects. |
+
 
 ## AX3000B
 
