@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom GFX-5",
-    "task": "Saved own-manual calibration-dependent target switch point and user-patch reset scope. Next fresh Shopee discovery or required model gaps; no hardware reset/calibration performed.",
-    "next_models": [],
-    "after_queue": "353 partial models;294 guitar155 bass69 vocal; migration incomplete; no downloads/workflows/push."
+    "model": "Blackstar ID:X Floor Three — pending lead",
+    "task": "Priority: verify Shopee ID Floor Three title maps to ID:X Floor Three, then read complete manufacturer-authored manual256401M-VA-1 01/26 at saved Kirstein URL and create full root brand profile if linkage confirmed. No active count yet; do not reuse retailer2acoustic claim over manual3.",
+    "next_models": [
+      "Blackstar ID:X Floor Three"
+    ],
+    "after_queue": "353 partial active models; new Blackstar lead pending; migration incomplete; no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24374,6 +24376,38 @@
         "DigiTech GNX1"
       ],
       "finding": "Noexactnewhardwarequalified;B2queryreturnedsiblingB2FOUR;GNX1onlyadapter16626959/4486100964. Searchabsenceisnotunavailability."
+    },
+    {
+      "model": "Blackstar ID:X Floor Three",
+      "status": "new lead; pending exact Shopee-title/model linkage and full primary-manual profile; not counted active",
+      "checked_date": "2026-10-18",
+      "shopee": {
+        "url": "https://shopee.co.id/Multi-FX-Effect-Blackstar-ID-Floor-Three-i.239804186.53956749684",
+        "shop_id": "239804186",
+        "item_id": "53956749684",
+        "seller": "galerimusikjakarta",
+        "region": "Kota Jakarta Utara",
+        "indexed_idr": 5490500,
+        "crossed_out_idr": 6950000,
+        "cache_age": "5 months",
+        "stale_delivery": "5 May",
+        "direct_access": "cache miss",
+        "condition": "unknown",
+        "stock": "unknown",
+        "limits": "Title omits X. Exact variant, condition, working state, bundle, adapter, warranty, vouchers and checkout unknown; no discount recomputation. Seller storefront last-month cache shows5629500; unresolved cache/offer difference, not a market range."
+      },
+      "manual": {
+        "url": "https://www.kirstein.de/docs/manuals/00118929/manual_EN.pdf?h=2b60f8933d3a40a7df062be52bf93b84",
+        "identity": "Blackstar-authored cover names ID:X FLOOR ONE/TWO/THREE; manufacturer address/endpage;256401M-VA-1 01/26. Retailer mirror, not retailer spec copy.",
+        "read": "Cover,contents,features excerpt,appendix andspecification text; not full operational manual or visual check.",
+        "confirmed": "Own feature section lists12 guitar,3bass,3acoustic voices including acoustic simulator. Three-specific specification397×68×195mm,axes unstated;2.88kg. Retailer claims2acoustic voices conflict with manual3; use own manual pending exact revision verification.",
+        "next": "Read complete operational pp11–26 and appendix27–29; verify expression, controls, blocks, memories, ports, power, software, display and imports. Preserve per-model distinctions."
+      },
+      "official_attempts": [
+        "https://blackstaramps.com/id-x-floor-three/",
+        "https://blackstaramps.com/id-x-floor/"
+      ],
+      "official_access": "Guessed paths unavailable; no official page identity claimed."
     }
   ],
   "inventory_by_brand": {
@@ -77561,5 +77595,13 @@
       "Display diagonal/color/touch",
       "Verified new/used current offers"
     ]
+  },
+  "discovery_blackstar_20261018": {
+    "queries": [
+      "site:shopee.co.id Rocktron Utopia",
+      "site:shopee.co.id Peavey Vypyr Pro",
+      "site:shopee.co.id Blackstar ID Floor"
+    ],
+    "result": "No exact Utopia hardware; Peavey results combo amps not processor leads; new Blackstar Floor Three exact item saved for priority followup."
   }
 }
