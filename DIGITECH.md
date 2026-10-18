@@ -1199,3 +1199,11 @@ Preserved from origin/main87c7d38. References to older inventory counts or incom
 ### Marketplace status
 
 Exact current Shopee hardware listing, used condition and new/used IDR offers **not verified**. Do not fill a price from an accessory, unrelated RP model or an invented secondhand discount. Additional RP models remain separate research leads rather than assumed equivalents.
+
+## RP360 — partial capability lead
+
+Checked2026-10-19; **not admitted to active model inventory**. Exact non-XP [manufacturer product](https://digitech.com/dp/rp360/) identifies external expression, dedicated1/8in headphones,99user+99factory memories,40s looper and60drum patterns. Published8.5in width×7.5in length exceeds preferred footprint. Internal product conflicts: description8effects versus feature/specification10;55amps/27cabs versus54/26. Preserve rather than select a total. Nexus editor is separate from current-host certification;page excludes Mac10.15.
+
+[Own shared manual5041674-B](https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP360-RP360XP_Manual_5041674-B.pdf), indexed Control In section,p49: **RP360-only EXP/VOL** accepts passive TS volume pedal≥250kΩ; **EXP/TRS** accepts resistance expression TRS≥10kΩ. These system socket modes select controller type, **not global volume target assignment**. DefaultLOOPER/FS3X alternatives compete for the same socket. RP360XP control-input behavior is different. Full reader rejected12,033,152-byte PDF; no local download. Volume position/min/max/recall/bypass/headphone/tail/looper coverage and exact onboard preset workflow remain unresolved.
+
+No exact non-XP Shopee hardware offer established: search returned anXP item57900729/21171529926, which is not transferred. Remaining admission work includes panel/treadle corroboration,K/F/B,complete I/O/power/display,category census,global assignment andqualified exactoffers. No software/device operation.

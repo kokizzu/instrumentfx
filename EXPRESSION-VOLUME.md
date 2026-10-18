@@ -127,3 +127,7 @@ Before treating a model as a complete match, test at low monitoring volume: peda
 
 
 RP80 scope check2026-10-19: [existing exact-model record](DIGITECH.md#rp80) documents a built-in treadle; excluded from this no-treadle comparison, retained in general guitar inventory. Primary PDF re-open failed; historical evidence preserved.
+
+### DigiTech RP360 — partial lead, outside active comparison
+
+[Exact non-XP lead](DIGITECH.md#rp360--partial-capability-lead): manufacturer documents TS≥250kΩ passive-volume andTRS≥10kΩ expression modes. These select controller type; global volume assignment and signal coverage remain unverified. Preferred footprint fails. RP360XP offer/specifications are not transferred; no active model admission.
