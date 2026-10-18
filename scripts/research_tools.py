@@ -449,7 +449,7 @@ def main():
         if mode == 'commit-fx2000':
             message = 'research(behringer): resolve FX2000 numbered control and connector inventory'
         if mode == 'commit-hxe-price':
-            message = 'research(line6): qualify exact W Musik HX Stomp offer'
+            message = 'research(line6): resolve HX Stomp IR conversion with version conflict'
         if mode == 'commit-criticalmass':
             message = 'research(tchelicon): distinguish Critical Mass supply and reverb controls'
         if mode == 'commit-b21u':

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 HX Stomp",
-    "task": "W Musik offer qualified. Next fresh Yamaha/Shopee discovery or required HX Stomp primary-specification gaps; do not treat Yamaha seller-title wording as a new model.",
+    "task": "HX Stomp IR import details saved with source conflict. Continue remaining category/synth/USB/power gaps or fresh Shopee discovery; no sibling substitution.",
     "next_models": [],
     "after_queue": "378 active models,46 brands,all partial; no downloads/workflows/push; migration incomplete."
   },
@@ -5613,6 +5613,12 @@
       "date": "2026-10-18",
       "source": "https://shopee.co.id/Yamaha-LINE-6-HX-Stomp-Box-Yamaha-LINE-6-Yamaha-HX-Stomp-Box-i.37016589.25412176717",
       "finding": "Additional W Musik cached offer saved with exact seller/item and unresolved stock discrepancy; no inventory addition."
+    },
+    {
+      "model": "Line 6 HX Stomp",
+      "date": "2026-10-18",
+      "source": "https://line6.com/data/6/0a00051afdda673cccdb61c9c/application/pdf/HX%20Stomp%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+      "finding": "Indexed 3.80 manual establishes .hir/WAV conversion and stereo import selection; older general Helix KB conflict retained."
     }
   ],
   "consolidation_and_price_findings": [
@@ -96176,7 +96182,7 @@
             "field": "Third-party IR",
             "source": "LINE6.md",
             "signals": [
-              "unverified"
+              "conflict"
             ]
           },
           {
@@ -117031,12 +117037,12 @@
       "TC-ELECTRONIC.md": "c4b16b3c6f514ab087fed6c19a469d50b1e14e9793b555ad8371da0bcddd5449",
       "VALETON.md": "e335ead12e652b2f04053cb58702d5055e6bcf32c61cbca143572baf2cb4b03e",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
-      "ALL-GUITAR.md": "5a211894ff352d72d27a65ccb317e33c42fd014f1a9a43bf3fe88d926b70f246",
-      "LINE6.md": "679131cac947653d13ec307540ed05a182002f268fe9573854fddbaa8cff9e6d",
+      "ALL-GUITAR.md": "1c169ad7417df4075d975f9c34456e95d54fdfaf9bc2bce74c7470b0345b211d",
+      "LINE6.md": "c9ab661e103573b50d60b9a3711c9a7565c9fc4cac35dae261863873326c4a5d",
       "YAMAHA.md": "ed6c13b0c5344d5f227d1c08e7e66c65e9e636498b6a1e6c2ed853edb0d748c0",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
-      "ALL-BASS.md": "207a384d94dd50bcc3018e0d636aa80f8795c6e1d20163bab91108907ded7fa9",
+      "ALL-BASS.md": "4a26aca0fcfd9f0fd353396d074160ec6742e4aee49e585a627d8cbb52303dbc",
       "VING.md": "2873cd6b4d5b13c287eb839977ff782139fb5640008b9f9730ddc289d09f5b67",
       "FENDER.md": "825b3d107ed121195199f3a238cfae504e08c3f4913cd5952787df25109530c8",
       "MOSKY.md": "5fa70acc80dab7bfb6d02f5160afec1e5ee1947c8e343790309c9f78cbc0a07d",
