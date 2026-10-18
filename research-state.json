@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon Duplicator",
-    "task": "Saved own-manual electrical ratings and startup distinctions. Remaining revision conflicts,power polarity/barrel/draw/runtime,editor/display/memory/import gaps andqualified offers. Resume exact Shopee series discovery or another required field.",
+    "model": "Fresh discovery / required-field verification",
+    "task": "Saved exact NUX B-8 scope screening: wireless/utility system is not established as an eligible multi-effects processor. Continue other missing-model series discovery; do not count B-8 or its offers as processor coverage. Existing model gaps remain open.",
     "next_models": [],
     "after_queue": "374 active models,46 brands,all partial; compatibility migration incomplete; no downloads/workflows/push."
   },
@@ -46090,7 +46090,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon Duplicator."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery / required-field verification."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -81574,5 +81574,44 @@
     "source": "https://cdn.mediavalet.com/aunsw/musictribe/Kvs-h-U7m0qFvYaMTDIYcA/8CRY5ULrck-UO6wzRcgjFg/Original/tchelicon-duplicator-en.pdf",
     "revision": "2016-12-05 Rev.1,©2016",
     "result": "Own-model electrical ratings,distinct startup settings and correction/Tone functions saved; no sibling substitution or installed-revision verification."
+  },
+  "discovery_wireless_bass_scope_20261018": {
+    "checked": "2026-10-18",
+    "queries": [
+      "site:shopee.co.id \"Zoom\" \"B1next\"",
+      "site:shopee.co.id \"Boss\" \"ME-6B\"",
+      "site:shopee.co.id \"TC Helicon\" \"VoiceTone Create\"",
+      "site:shopee.co.id \"Zoom B1\" -adaptor -adapter -B1X -FOUR -B1on",
+      "site:shopee.co.id \"Nux\" \"B-8\"",
+      "site:shopee.co.id \"Hotone\" \"B Station\"",
+      "site:shopee.co.id \"Hotone B Station\" bass",
+      "site:shopee.co.id \"Zoom 506\" bass -adaptor -adapter -506II"
+    ],
+    "result": "No qualified missing multi-effects model established. NUX B-8 exact hardware listings screened separately from eligible processors.",
+    "screened_model": {
+      "brand": "NUX",
+      "model": "B-8",
+      "manufacturer": "https://nuxaudio.com/product/b8/",
+      "decision": "Outside active multi-effects inventory: manufacturer describes wireless transmission,tuner,boost,buffer,DI and an external SEND/RETURN loop. Cable Tone is a cable simulation; external pedal loop does not establish an internal multi-effects architecture. This is a scope decision,not a claim that it has no signal processing.",
+      "observations": [
+        {
+          "seller": "Soundstationstore",
+          "region": "Kota Tangerang Selatan",
+          "item": "250276993/22963685962",
+          "url": "https://shopee.co.id/NUX-B8-2.4Ghz-Pedalboard-Wireless-System-Digital-B-8-Gitar-Bass-i.250276993.22963685962",
+          "idr": 6260000,
+          "access": "Last-week indexed ask; relative tomorrow delivery not live stock proof."
+        },
+        {
+          "seller": "Eleven Music",
+          "region": "Kota Jakarta Pusat",
+          "item": "12356205/22363175244",
+          "url": "https://shopee.co.id/Nux-B-8-2.4GHZ-Pedal-Board-Wireless-System-NUX-B8-i.12356205.22363175244",
+          "idr": 5363400,
+          "access": "Two-week indexed ask; relative four-hour delivery not live stock proof."
+        }
+      ],
+      "offer_limits": "Condition,working state,selected bundle,warranty,authenticity,checkout and delivered total unverified. Rp10000 late-delivery compensation not a discount. No eligible-model price range created."
+    }
   }
 }
