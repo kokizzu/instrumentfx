@@ -39,3 +39,11 @@ Checked2026-10-18; partial. Guitar/bass multi-effects eligibility comes from the
 ### Appendix and control census qualifications, 2026-10-18
 
 Counts use manual256401M-VA-1 01/26 text,not physical inspection. Pre FX includes ten boost/drive/distortion/fuzz choices, two compressors,two filters and an additional fuzz entry. Modulation includes distinct vintage/modern flanger/phaser/tremolo variants; internal mode parameters do not add selector entries. The own manual advertises over30 effects, consistent with35 appendix entries. Retailer over35 wording has a different unspecified counting basis; no unique grand total including gate,wah,amp orCabRig is asserted.
+
+### Architect platform requirements and version boundary, 2026-10-18
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / Architect2.0.0 requirements | The manufacturer-hosted [Architect2.0.0 handbook](https://blackstaramps.com/wp-content/uploads/2025/07/ARCHITECT-HANDBOOK-2-0-0.pdf) is indexed with **64-bit Windows**,Pentium4 2GHz/equivalent or faster, and **macOS10.15+**;both list1GB RAM,1GB free disk and1366×768 minimum display. Internet is specified for community access. These are **general version2.0.0 requirements**,not proof that this release recognizes ID:X Floor or that every later OS is tested. Exact Floor minimum editor release and Windows version remain unknown. |
+
+Direct handbook reading returned403; requirements above come from the manufacturer PDF search excerpt. The older1.0.0 handbook instead lists macOS10.9+,a different software edition,not a reason to lower the2.0.0 requirement. Neither editor requirement defines the unit display resolution,USB sample format,or driver compatibility. No installer,driver or firmware was downloaded or run.

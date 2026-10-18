@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Blackstar ID:X Floor Three",
-    "task": "Saved text-derived10/8/9controls and15/10/5/5category census. Next verify Architect OS support,USBformat/display/imports or fresh Shopee leads. Physical panel and exact seller-model linkage remain unverified.",
+    "task": "Saved edition-qualified Architect2.0.0 platform requirements from primary indexedPDF; direct403 and Floor recognition not verified. Next obtain Floor-specific software release evidence or fresh Shopee series leads; USBformat/display/imports/factoryfill remain unknown.",
     "next_models": [],
     "after_queue": "354 partial models;295 guitar156 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
@@ -77659,6 +77659,32 @@
       "USB sample format",
       "User imports",
       "Shopee exact model title linkage"
+    ]
+  },
+  "blackstar_architect_platform_20261018": {
+    "source": "https://blackstaramps.com/wp-content/uploads/2025/07/ARCHITECT-HANDBOOK-2-0-0.pdf",
+    "access": "Manufacturer PDF indexed requirements; direct403",
+    "edition": "2.0.0",
+    "requirements": {
+      "windows": "64-bit; specific OS version unstated; Pentium4 2GHz/equivalent",
+      "mac": "10.15+",
+      "both": "1GB RAM;1GB free disk;1366x768;internet forcommunity"
+    },
+    "limits": "Exact Floor recognition/minimum editor version unverified. Do not transfer old1.0.0 mac10.9 minimum or confuse computer display requirement with hardware OLED.",
+    "queries": [
+      "site:blackstaramps.com Architect minimum requirements Windows Mac",
+      "site:blackstaramps.com ID:X 48kHz",
+      "site:blackstaramps.com Architect Windows10",
+      "site:blackstaramps.com Architect2.1 FLOOR"
+    ],
+    "remaining": [
+      "Floor-specific editor release",
+      "Windows version and driver compatibility",
+      "USB sample format",
+      "Display diagonal/color/touch",
+      "Import support",
+      "Factory fill",
+      "Exact Shopee model linkage"
     ]
   }
 }
