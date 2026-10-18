@@ -116,6 +116,17 @@ Checked 2026-10-18 against its own manufacturer manual; no hardware operation.
 | Display / original value | The lower-right decimal-point segment briefly goes dark when an edited value matches its stored value. This indication does not establish motorized controls or mandatory value pickup. [Manual p5][TLST-M] |
 | USB / recording path | DAW recording receives the effects output; USB playback can be monitored but is not processed by the effects. USB presence therefore does not establish a USB reamp-input path. Host format/channel-count details remain unverified. [Manual p28][TLST-M] |
 
+
+### ToneLab ST — named effect-category audit
+
+Checked 2026-10-18 against the manufacturer manual, printed pp18–22. **25 selections = 11 + 11 + 3**, with noise reduction separately listed. This is a library audit, not 25 concurrent effects.
+
+| Field | Exact-model named choices |
+|---|---|
+| Processing / PEDAL 11 | COMP; ACOUSTIC; VOX WAH; U-VIBE; OCTAVE; TREBLE BOOST; TUBE OD; BOUTIQUE; ORANGE DIST; METAL DIST; FUZZ. [Manual][TLST-M] |
+| Processing / MOD-DELAY 11 | CLASSIC CHORUS; MULTI TAP CHORUS; CLASSIC FLANGER; PHASER; TEXTREM; ROTARY; PITCH SHIFTER; FILTRON; ECHO PLUS; DELAY; CHORUS+DELAY. One shared category; CHORUS+DELAY is one combined choice. [Manual][TLST-M] |
+| Processing / REVERB 3 | SPRING; ROOM; HALL. [Manual][TLST-M] |
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified Shopee hardware

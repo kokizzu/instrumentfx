@@ -599,7 +599,7 @@ def main():
         if mode == 'commit-tonelab-se':
             message = 'research(vox): qualify ToneLab SE channel hold and performance limits'
         if mode == 'commit-tonelab-st':
-            message = 'research(vox): clarify ToneLab ST selector activation and USB routing'
+            message = 'research(vox): audit all 25 ToneLab ST named effects'
         if mode == 'commit-tonelab-le':
             message = 'research(vox): distinguish ToneLab LE calibration chain orders and EQ limits'
         if mode == 'commit-ax1500g':
