@@ -1161,6 +1161,10 @@ Yamaha Singapore table lists268effectmodels without firmware date,distinct from 
 [HX1-J]: https://www.yamaha.com/ja/news_release/2023/23102501/
 [HX1-SG]: https://shop.sg.yamaha.com/hx-one-set.html
 
+### HX One — across-preset expression-volume audit, 2026-10-19
+
+[Official RevF manual for3.83](https://line6.com/data/6/0a0004220039697155cf001b7/application/pdf/HX%20One%20Owner%27s%20Manual%20-%20English%20.pdf), pp4–6,14,22–24,28: assignments and Min/Max are stored per preset; Global ExpFlx Position retains position, not assignment. Volume Pedal is a selectable model. **No independent global volume stage alongside every selected effect is established.** One model runs at a time. TS expression cable; ExpFS4 mode; optional Y cable uses tip for expression and ring for FS4. No dedicated headphone socket in complete panel inventory. Onboard previous/next works in Preset Mode. Bypass, tail and looper volume coverage unresolved; volume occupies the selected-model role. Existing125×96mm chassis fits preference. [Capability comparison](EXPRESSION-VOLUME.md). Browser text only; no downloads or device operations.
+
 ## Helix Floor
 
 <!-- comparison evidence begins -->

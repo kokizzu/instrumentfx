@@ -121648,10 +121648,9 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "Line 6 HX Effects",
-    "finding": "Own3.80 globalposition recall versuspresetVolume/Pan;no universal assignment verified;noheadphone socket;footprint exceeds preference;own3.0 up/down qualification.",
+    "current": "Line 6 HX One",
+    "finding": "RevF3.83:perpreset assignments/endpoints,globalposition recall only;selectedVolumePedal model,no independentglobalstage established.Compact,noheadphones,onboardPresetMode prevnext.",
     "next": [
-      "Line 6 HX One",
       "BOSS GT-1000CORE",
       "M-VAVE exact controller wiring",
       "Line 6 POD Express manufacturer dimensions",
