@@ -1054,3 +1054,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 - **Commit** (Individual findings commits): `117a5aaa2e58a39fb9e2160ed68f09e9f8f617ea`
 
 Sources: [effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md](HOTONE.md#ampero-ii-stomp-mp-300)<!-- historical-link:hotone-012 -->, [effects/shopee-multifx-7.md](research-state.json)<!-- historical-link:hotone-013 -->. No legacy file was deleted.
+
+### Ampero Mini — across-preset volume audit, 2026-10-19
+
+[Official firmware V2.2 manual](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf), printed pp5,13–20: control settings change with patches and need saving. **No global volume-target override established.** Volume position is Pre/Post; volume endpoints are fixed and unaffected by the four target ranges. FS1/FS2 select previous/next patches. EXP mode shares the switch socket. Bypass, headphone, tail and looper attenuation remain unverified; rear master-knob coverage is not expression coverage. Earlier V1.0 post-only wording is retained as revision history. See [capability comparison](EXPRESSION-VOLUME.md).

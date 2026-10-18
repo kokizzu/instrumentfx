@@ -121635,5 +121635,38 @@
       "AutoRiff_user": 10
     },
     "qualification": "Normal pitchshifter accepts chords;Mono andAutoRiff single-note;heavyMIDI maydisturbAutoRiff."
+  },
+  "general_research_cursor": {
+    "queue": [
+      "Valeton GP-200JR",
+      "HeadRush Prime",
+      "MOOER GE300"
+    ],
+    "instruction": "Independent general research queue retained per user; existing technical cursor preserved."
+  },
+  "expression_volume_audit": {
+    "status": "partial",
+    "category": "EXPRESSION-VOLUME.md",
+    "checked": "2026-10-19",
+    "current": "Hotone Ampero Mini MP-50",
+    "finding": "V2.2 control settings are patch-dependent; no global target override established. Detailed limits in brand/category.",
+    "next": [
+      "Neural DSP Nano Cortex",
+      "Valeton GP-50",
+      "Line 6 HX exact models",
+      "BOSS GT-1000CORE",
+      "M-VAVE exact controller wiring",
+      "Line 6 POD Express manufacturer dimensions",
+      "Exact Shopee Indonesia offers"
+    ],
+    "requirements": [
+      "Normal pickups",
+      "No built-in treadle",
+      "Direct analog EXP volume across all presets without individual editing",
+      "Prefer <=200W x140D mm",
+      "Separate headphone and onboard preset down/up",
+      "Track volume position/range/bypass/headphone/tails/looper"
+    ],
+    "missing_category_at_start": true
   }
 }

@@ -11,9 +11,9 @@ if __name__ == '__main__':
     comparison_views.test_readme_brand_counts()
     comparison_views.test_validation_counts()
     assert not git('diff', '--cached', '--name-only').strip(), 'Existing staged changes'
-    allowed = {'HOTONE.md','README.md','MULTI-EFFECTS.md','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md','research-state.json','scripts/comparison_views.py','scripts/hotone_catalogue.py','Makefile'}
+    allowed = {'HOTONE.md','EXPRESSION-VOLUME.md','README.md','MULTI-EFFECTS.md','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md','research-state.json','scripts/comparison_views.py','scripts/hotone_catalogue.py','Makefile'}
     changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(hotone): document MP-350 capture target limitations'))
+    print(git('commit','-m','research(hotone): audit Mini across-preset expression volume'))
