@@ -3258,6 +3258,15 @@ Checked2026-10-18 against [original manual pp25,29–30][B21-M]. Manufacturer te
 | Expression / calibration and toe threshold | Power on holding PEDAL ASSIGN: **dn**. Fully raise pedal, press STORE: **UP**. Press fully down, release, then press STORE again; **Er** means repeat from the raised-pedal step. The manual explicitly says the module on/off switching point stays fixed regardless of the full-down adjustment action; calibration is not a documented adjustable toe-switch threshold. [Own manual pp20–21][B21-M] |
 | Expression / blend and ZNR bypass | Built-in pedal’sDRIVE MIX assignment controlsZNR/MIX blend; it hasno effect whenDRIVE/SYNTH isoff. **ZNR/MIX cannot be disabled withthefootswitch**; noise reduction alone isdisabled bysettingZNR toOFF. This doesnot remove theblend/levelstage or establish asecondexternalpedalsocket. |
 
+### B2.1u — cabinet parameter and dedicated delay limits
+
+Checked2026-10-18 against [own original manual printedpp29–30,33](https://zoomcorp.com/media/documents/E_B21u.pdf).
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / cabinet parameter scope | For amp/drive types,CABINET **Off** retains head/stomp characteristics;**1–3** adds cabinet sound atdifferent intensities. For thethree synth types,the manual instead describes1–3 as different cabinet types. These parameter values are not three additional independent effect blocks,userIR slots oran audited complete cabinet-model list. |
+| Delay / dedicated-module range | DELAY,PINGPONG DELAY andECHO share **10–990ms in10ms steps;1.0–5.0s in100ms steps** in the actual module table,p33. The parameter-table reading example,p26,prints1.0–5.0 initsrange but1.0–2.0 initsstep explanation;that example conflict does not override the dedicated table. Five-second delay is not five-second overdub-loop storage orproof ofpatch-change spillover. |
+
 ## RFX-2000
 
 Checked2026-10-17;partial. Own manual guitar setup and dynamic-microphone vocal path establish guitar/vocal scope. Bass applicability unclassified;ownership unestablished.
