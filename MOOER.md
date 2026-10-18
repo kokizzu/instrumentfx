@@ -1799,3 +1799,11 @@ Checked2026-10-18 against [MOOER Japan/LEP's exact S1 tutorial](https://mooer.jp
 | Live / tuner exit | Japan tutorial:any footswitch exits tuner. English manual says hold any switch1s toenter butdoes not specify exit ininspected section. No conflicting entry behavior inferred. |
 
 NAM followup found explicit native/converted distinctions for other MOOER families,butnotS1. Do not transfer GE1000/GS1000 nativeA2Lite orGE300 conversion claims. The existing Chinese S1/M1 NAM A2 announcement remains qualified;its exact architecture,conversion andfile constraints are unresolved. No software,files orfirmware downloaded orrun.
+
+## Ocean Machine II — qualified discovery pending full record
+
+Checked 2026-10-18; **not yet included in active counts or comparison tables**. Original Ocean Machine is a distinct revision.
+
+[Exact Shopee hardware offer](https://shopee.co.id/Mooer-Ocean-Machine-II-Devin-Townsend-Signature-Dual-Delay-Reverb-Pedal-i.96878449.44405143297): Nafiri Music Store, shop96878449/item44405143297, Kota Jakarta Utara; **Rp4.096.000**, two-month cached body. Condition, stock, bundle and warranty unverified. Relative delivery promise is not stock proof; Rp10.000 late-arrival compensation is not a purchase discount.
+
+[MOOER product](https://www.mooeraudio.com/products/206.html) documents independent dual delays plus reverb and configurable serial/parallel routing: evidence for multi-effects eligibility. It advertises 12 knobs, three footswitches, external TRS expression, 24 presets/eight banks, 120-second looper, stereo I/O, MIDI In/Thru and USB-C firmware updates. Published body:215×127×56mm,1.1kg,9VDC. USB audio/power, display diagonal/color/touch, separate buttons, factory/user split, polarity/current, synth/acoustic, IR/NAM/captures and editor remain unresolved. Full original manual and field audit must precede active admission; bass suitability is unclassified.
