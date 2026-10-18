@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 348,
+  "active_model_count": 349,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 348,
+  "canonical_root_model_count": 349,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "348 unique active/root-canonical;0legacy-only;39brands;sixexcluded;allpartial.",
+  "count_reconciliation": "349 unique active/root-canonical;0 legacy-only;39 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Line 6 HX Effects",
-    "task": "Saved HX Edit3.82 platform listing and3.81 Apple-silicon restore fix. Next fresh Shopee brand/series discovery or unresolved model specification gap; preserve editor/firmware distinction.",
+    "model": "Zoom G2.1Nu",
+    "task": "Added partial G2.1Nu from own manufacturer documentation;exact Shopee item and selected condition/variant unresolved. Continue control/category/port/live verification or fresh Shopee discovery after committing.",
     "next_models": [],
-    "after_queue": "348partial unique models;114Markdowncompat retained. No downloads/workflows/push."
+    "after_queue": "349 partial unique models;114 Markdown compatibility files retained;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24602,7 +24602,8 @@
       "1201",
       "RFX-2200",
       "G1 original",
-      "505 original"
+      "505 original",
+      "G2.1Nu"
     ],
     "DigiTech": [
       "RP360XP",
@@ -24868,7 +24869,8 @@
       "1201",
       "RFX-2200",
       "G1 original",
-      "505 original"
+      "505 original",
+      "G2.1Nu"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -25146,7 +25148,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 289,
+      "record_count": 290,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -25176,10 +25178,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 289 guitar, 152 documented bass-capable, 68 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 290 guitar, 152 documented bass-capable, 68 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "348 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "349 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -45541,10 +45543,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 348,
-    "canonical_root_models": 348,
+    "unique_brand_model_pairs": 349,
+    "canonical_root_models": 349,
     "legacy_only_models": 0,
-    "guitar_view_models": 289,
+    "guitar_view_models": 290,
     "bass_focused_models": 30,
     "vocal_only_models": 24,
     "vocal_view_models": 68,
@@ -45604,7 +45606,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 HX Effects."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom G2.1Nu."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -45826,6 +45828,7 @@
       "Zoom::RFX-2200",
       "Zoom::G1 original",
       "Zoom::505 original",
+      "Zoom::G2.1Nu",
       "DigiTech::RP360XP",
       "DigiTech::RP255",
       "DigiTech::RP500",
@@ -48285,6 +48288,13 @@
     },
     "Zoom::505 original": {
       "link": "ZOOM.md#505-original",
+      "source_files": [
+        "ZOOM.md"
+      ],
+      "finding_files": []
+    },
+    "Zoom::G2.1Nu": {
+      "link": "ZOOM.md#g21nu",
       "source_files": [
         "ZOOM.md"
       ],
@@ -59561,6 +59571,26 @@
         "Manual IR-limit conflict"
       ],
       "method": "Official release HTML only; no downloads or restore"
+    },
+    {
+      "model": "Zoom G2.1Nu",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://zoomcorp.com/media/documents/E_G2Nu_G21Nu_0.pdf",
+        "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g21nu/g21nu/",
+        "https://shopee.co.id/hopemusik"
+      ],
+      "finding": "Added distinct manufacturer-identified G2.1Nu from mixed Shopee lead;83 types/8 modules,100+100 memory,own dimensions/power andexpression;no mixed minimum assigned.",
+      "remaining": [
+        "Exact hardware offer",
+        "Full control/port audit",
+        "Category census",
+        "Display details",
+        "USB audio format",
+        "Current editor support",
+        "Looper/rhythm limits"
+      ],
+      "method": "Indexed manufacturer manual and official support HTML;no downloads"
     }
   ],
   "discovery_cross_brand_bass": {
