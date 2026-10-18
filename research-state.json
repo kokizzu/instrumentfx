@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh hardware discovery / unresolved model fields",
-    "task": "G3X external FP01/FP02 volume use resolved from p17; p18 external parameter-control sentence specifies G3. Next button/display audit or fresh Shopee discovery; G3X broader external parameter control, MP100 current IR/census remain unresolved.",
+    "task": "G3X archived manufacturer page directly confirms100factory-loadeduserpatches,2-in/2-outUSB,3backlitLCDs. Panelimagecachemiss; next fresh Shopee brand/series discovery, then exact new lead or unresolved button/display/USBsource audit. MP100 currentIR/census open.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -60570,6 +60570,22 @@
         "Qualified new hardware offer"
       ],
       "method": "Manufacturer indexed manual page text restores labels lost in whole-PDF extraction; no downloads/device execution"
+    },
+    {
+      "model": "Zoom G3X",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://www.zoom.co.jp/node/50"
+      ],
+      "finding": "Archived exact-model manufacturer page directly states100userpatches allpreloaded,2-in/2-outUSBinterface,and3backlitLCDswithcontrast. Strengthenspreviousfactoryfillinference. Panelimage cachemiss,buttoncount notresolved.",
+      "remaining": [
+        "Button census",
+        "Display diagonal/color/touch",
+        "USB channel-source mapping",
+        "Qualified new offer",
+        "Broader external parameter control"
+      ],
+      "method": "Manufacturer archived HTML read in browser; no downloads/software/device execution"
     }
   ],
   "discovery_cross_brand_bass": {
