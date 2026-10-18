@@ -1221,3 +1221,9 @@ Checked2026-10-19. [Manufacturer FAQ](https://digitech.com/faqs/) explicitly lis
 [Indexed own5041674-B manual](https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP360-RP360XP_Manual_5041674-B.pdf), Basic Operation Overview, names **SELECT+EDIT1–3=4rotaries,3footswitches,DRUMS/SYSTEM/STORE/BACK=4buttons**. SELECT press is counted once;this is a textual census,not a certified photo count. LCD named;diagonal/color/touch remain unknown. Exact Shopee search still returned only theXP item already rejected;no non-XP price orstock inference.
 
 RP360 remains a partial lead outside active inventory; panel/treadle corroboration,complete I/O,current software,category counts andcoverage remain pending. No downloads ordevice/software operation.
+
+### RP360 — rear connections and onboard navigation
+
+Checked2026-10-19 against indexed [own5041674-B manual](https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP360-RP360XP_Manual_5041674-B.pdf), Rear Panel p6 and Footswitch Modes p41. Input¼in;AUX3.5mmTRS;L/R¼in describedTRS;dedicated3.5mmTRS phones;CONTROL IN,USB,power. Product separately calls L/R unbalanced; TRS connector wording alone is not proof of balanced output. Phones optimized≤60Ω;with no main-output cables connected,output optimization automatically targets full-range/headphones. Neither statement proves expression attenuation coverage.
+
+**Preset mode:FS1/A down,FS2/B up,FS3/C multi-function looper.** Global footswitch mode is retained across presets;this is not global expression assignment. No externalFS3X required for this mode. Full PDF/panel image remains uninspected; original record’s USB-B comes from exact product specifications. Admission and other unknowns remain open. No downloads ordevice operation.
