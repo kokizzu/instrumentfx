@@ -508,6 +508,16 @@ Checked 2026-10-18 against [own E1 manual pp30,39](https://voxamps.com/wp-conten
 | Processing / conversion | **24-bit A/D;24-bit D/A;44.1kHz**. These unit conversion specifications do not independently establish USB host transport bit depth or channel count. |
 | Live / tuner state | Normal/Strobe mode is selected with EXPRESSION during tuning and persists after power-off. Reference pitch438–445Hz resets to440Hz at power-off. The manual’s Strobe explanation labels both opposite sweep directions as sharp; preserve this textual error without inferring the missing flat-direction label. |
 
+### ToneLab EX — footswitch roles and panel lock
+
+Checked 2026-10-18 against [own E1 manual pp4,7,10–11](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf); documented controls, not a device test.
+
+| Field | Exact-model operation |
+|---|---|
+| Live / Stomp Box footswitch map | Hold BANK UP+DOWN about1second to toggle Program Select/Stomp Box modes. In Stomp Box: **BANK UP=amp/stand-alone;BANK DOWN=Pedal1;Program1=Pedal2;Program2=modulation;Program3=delay;Program4=reverb**. Six switches have alternate roles, not six additional effect slots or scene memories. Power-up enters Program Select. |
+| Live / tuner and tap gestures | In Program Select, holding the currently selected Program1–4 switch about1second bypasses effects for tuning; about2seconds mutes. Tapping that current-program switch also sets delay time from the tap interval. This does not establish these same gestures for the individual-block switches in Stomp Box mode. |
+| Controls / Key Lock | Hold EXIT/TUNE about2seconds to lock top-panel switches, selectors and knobs; repeat to unlock. Rear-control and expression-pedal lock behavior is not established by that statement. |
+
 ## StompLab 1B
 
 <!-- comparison evidence begins -->

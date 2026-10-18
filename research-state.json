@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "VOX ToneLab EX",
-    "task": "Saved LED display behavior, own24bit44.1kHz conversion and distinct tuner mode/reference persistence. Power polarity symbol remains unread; no sibling inference. Next obtain visual manufacturer evidence or broaden exact hardware discovery.",
+    "task": "Saved precise six-switch StompBox mapping, program-mode tuner/tap gestures and KeyLock scope. Next broaden fresh hardware discovery or seek manufacturer visual polarity/panel evidence; avoid repeating completed EX technical tables.",
     "next_models": [],
     "after_queue": "347 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -59104,6 +59104,21 @@
         "USB transport specifications"
       ],
       "method": "Browser text only. Polarity symbol missing in extraction, not guessed. No download/install/hardware operation."
+    },
+    {
+      "model": "VOX ToneLab EX",
+      "checked_date": "2026-10-18",
+      "source": "https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf",
+      "pages": "4,7,10–11",
+      "finding": "Six footswitches alternate program/stomp functions; exact amp/Pedal1/Pedal2/mod/delay/reverb map. Power-up ProgramSelect. CurrentProgram switch tap delay,hold1second bypass tuner/2seconds mute. EXIT/TUNE2seconds locks top panel only as documented.",
+      "remaining": [
+        "Power polarity visual evidence",
+        "Physical panel audit",
+        "Display diagonal/color/touch",
+        "Height conflict",
+        "Qualified IDR"
+      ],
+      "method": "Manufacturer manual browser text; no download or operation"
     }
   ],
   "discovery_cross_brand_bass": {
