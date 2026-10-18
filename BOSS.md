@@ -3884,3 +3884,16 @@ Checked 2026-10-19 against indexed [original manufacturer manual pp20,106](https
 | Memory / knob edits | Tone-knob changes must be written toretain them across patch changes orpower-off;this doesnot add autosaved memories. |
 
 Category census,USB stream format,currenthost compatibility andqualified IDR remain open. Unrelated contemporary BOSS model results were excluded;no downloads ordevice operation.
+
+### GT-Pro — delay/reverb counts and Hold restrictions
+
+Checked 2026-10-19 against same manufacturer-authored manual mirror, printed [p32](https://www.manualslib.com/manual/499099/Boss-Gt-Pro.html?page=32) and [p35](https://www.manualslib.com/manual/499099/Boss-Gt-Pro.html?page=35). Exact GT-PRO section/pagination match;original text only,not device testing.
+
+| Field | Category evidence / qualification |
+|---|---|
+| Processing / DELAY choices | **12 types** counted:Single,Pan,Stereo,DualSeries,DualParallel,DualL/R,Reverse,Analog,Tape,Warp,Modulate,Hold. Single/Analog/Tape reach1800ms;dualseries/parallel eachdelay≤900ms. These are choices withinDELAY,not12 simultaneous blocks. |
+| Looper / Hold capacity and conflicts | Hold records **up to2.8seconds withoverdubbing**. Switching Modulate↔Hold clears heldsound andturns off activeFeedbackerOSC,AutoRiffHold andSoundHold states. Dual-delay patch changes may not give theintended effect at thebeginning ofimmediate playing. No persistent phrase-storage claim. |
+| Processing / REVERB choices | **7 types**:Ambience,Room,Hall1,Hall2,Plate,Spring,Modulate. Reverbtime0.1–10seconds isdecay,not loop-recording capacity. |
+| Processing / COMP choices | **2 modes:Compressor,Limiter** in dedicatedCOMP block. Sustain/attack andthreshold/release apply according tomode;not additional algorithms. |
+
+Complete44-category reconciliation andsharedFX1/FX2 census remain unresolved. No dependencies,software,firmware orfiles downloaded orrun.

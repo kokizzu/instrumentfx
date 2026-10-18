@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro text-derived12rotary/0footswitch/30button inventory saved. Next effectcategory census andUSBreprocessing/streamformat;no repeated inaccessiblefrontpanel pages.392partial;migration incomplete.",
+    "task": "GT-Pro DELAY12/REVERB7/COMP2 andHold restrictions saved. Next sharedFX1/FX2 category census,preamp/ODDS/wah counts andUSBstreamformat;preserve manual limitations.392partial;migration incomplete.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -121404,5 +121404,18 @@
     },
     "derivation": "3levels+7preamp+patchlevel+patchdial=12;6preampbuttons+14effect/control+10navigation=30;POWER/groundliftseparate.",
     "qualification": "Text-derived complete controls list;visual corroboration pending.8toneknobs is subset."
+  },
+  "gtpro_delay_reverb_20261019": {
+    "sources": [
+      "https://www.manualslib.com/manual/499099/Boss-Gt-Pro.html?page=32",
+      "https://www.manualslib.com/manual/499099/Boss-Gt-Pro.html?page=35"
+    ],
+    "counts": {
+      "DELAY": 12,
+      "REVERB": 7,
+      "COMP_modes": 2
+    },
+    "hold": "2.8s overdub;Modulate/Hold switch clearsheldaudio andFBOSC/AutoRiffHold/SoundHold states;notpersistentstorage.",
+    "qualification": "Manual-derived category choices;not simultaneous ceiling/currentinstalledlibrary."
   }
 }
