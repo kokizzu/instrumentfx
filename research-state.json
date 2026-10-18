@@ -75414,7 +75414,7 @@
   },
   "resume_cursor": {
     "model": "Sonicake Matribox II Pro QME-200",
-    "task": "Saved DRV24 andderived100pedalmenuchoices with93+advertisingscope. Next AMP/CABcensus;do notinfercurrentfirmwaretotals oruniquealgorithms.",
+    "task": "Saved CAB61=41othercabs+10bass+10acoustic/instrumentsimulations,pagecounts10+28+23;B-Man2x10/2x12conflict retained. Next independentlycountAMPentries;pedal100alreadydone.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75613,5 +75613,22 @@
     ],
     "qualification": "93+advertisedlowerboundcompatiblewith100menuentries;notuniquealgorithm/currentfirmwareproof;AMP/CAB/IR/Cloneexcluded",
     "next": "CountAMP/CABentriesindependently;preservevariant/channel/physicalcabversusacousticbodydistinctions"
+  },
+  "matribox_ii_pro_cab_census_20261018": {
+    "source": "https://www.hotone.jp/files/brands/sonicake/products/matribox-ii-pro/manual/20260803-070736-v5r131-matribox_ii_pro_jp.pdf",
+    "pages": "42–44",
+    "total": 61,
+    "page_subtotals": [
+      10,
+      28,
+      23
+    ],
+    "subsets": {
+      "other_speaker_cabinets": 41,
+      "explicit_bass_cabinets": 10,
+      "acoustic_instrument_simulations": 10
+    },
+    "conflict": "B-Man2x10nameversus2x12description",
+    "qualification": "UserIR20separate;not61conventionalguitarcabinets;currentfirmware nottested"
   }
 }

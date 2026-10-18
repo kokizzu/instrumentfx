@@ -459,6 +459,14 @@ New prices are individual official-store observations checked **2026-10-14**, no
 | Processing / pedal-effect count basis | Eight manual categories sum to **100 menu choices**:DYN12+FREQ6+WAH6+DRV24+EQ5+MOD21+DLY15+RVB11. This is compatible with advertised93+,not proof of100uniquealgorithms orcurrentinstalledfirmware. AMP,CAB,userIR andClone are separate;later release-note additions are not silently folded into this historical table. Cover/body/revision conflict remains. |
 
 
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / CAB manual census,2026-10-18 | **61 factory menu entries**,printedpp42–44,page subtotals **10+28+23**. Includes **41 other speaker cabinets+10 explicitly bass cabinets+10 acoustic/instrument simulations**;not61conventional guitar speaker cabinets. User IR1–20 remains separate. [Exact manual](https://www.hotone.jp/files/brands/sonicake/products/matribox-ii-pro/manual/20260803-070736-v5r131-matribox_ii_pro_jp.pdf) |
+| Category choices / CAB bass subset | P44:DV1x15,DV4x10,Work1x15,Work4x10,Calif2x10,Mak2x10,A Bass1x15,A Bass4x10,A Bass8x10,Hart4x12. Bassman-derived B-Man labels elsewhere are not silently added to this explicitly bass-labelled subtotal. |
+| Synth / acoustic CAB subset | P44:D1,D2,OM,Jumbo,Bird,GA,Classical AC,Mandolin,Fretless Bass,Double Bass. These10body/instrument simulations are already included in61CAB entries,not10additional amps orIRslots. |
+| Processing / CAB label conflict | P42 name **B-Man2x10** versusdescription **Bassman2x12 cabinet**. Preserve both;actual intended model/size unresolved. Manual cover/body/firmware conflicts also remain;installedlibrary untested. |
+
+
 Primary [product/download/FAQ](https://www.sonicake.com/products/matribox-ii-pro) supports both the capability statements and unresolved MIDI contradiction. Preserve each rather than choosing a convenient interpretation. Further manual work and exact regional hardware offers remain needed.
 
 <!-- comparison evidence ends -->
