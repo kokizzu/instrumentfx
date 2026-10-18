@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP90",
-    "task": "Saved library/control scope and display indicators. Next fresh Shopee brandseries search or unresolved technical fields; RP355/350/80/300/150/55 search no newqualified hardware.",
+    "model": "NUX MG-30",
+    "task": "Saved800x480manualscreen/54vs55mmconflict/outputmode/EXPstate andMalangexactask. Next fresh Shopee discovery or remaining model gaps; no newmodel added.",
     "next_models": [],
     "after_queue": "347 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -45602,7 +45602,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP90."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX MG-30."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -59323,6 +59323,24 @@
         "Working used or new IDR"
       ],
       "method": "Manufacturer manual text only; no downloads or operation"
+    },
+    {
+      "model": "NUX MG-30",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://manualzz.com/doc/64067263/nux-mg-30-versatile-modeler-user-manual",
+        "https://shopee.co.id/NUX-MG30-MG-30-Multi-Effects-Processor-%E2%80%93-Amp-Modeling-IR-Loader-LCD-Color-25-Amp-Models-i.1408254222.28668671187"
+      ],
+      "finding": "Ownmanual800x480display,54vs55mmheightconflict,frontoutputcab bypass and EXPIndependent;additionalSEVENSTEREOMalangRp5550000conditionunverified ask.",
+      "remaining": [
+        "Touch",
+        "Toe toggle behavior",
+        "GEN2 current census",
+        "Used/new condition",
+        "Live stock",
+        "Height revision"
+      ],
+      "method": "HTML/manufacturer manual text; officialPDF zero extractedlines; no download/deviceoperation"
     }
   ],
   "discovery_cross_brand_bass": {

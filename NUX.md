@@ -328,6 +328,22 @@ GEN2 was firmware1.0.5 at the original check;it is not a new physical model sole
 | Processing / base DLY and RVB choices | DLY: Analog, Digital, Modulation, Tape, Reverse, Pan, Duotime, Phi. RVB: Room, Hall, Plate, Spring, Shimmer. |
 
 Lists above transcribe the [manufacturer's base category list](https://nuxaudio.com/product/mg30/), checked2026-10-18. GEN2 additions are separately retained above; these are category choices, not extra simultaneous blocks or a verified current-firmware total.
+
+### MG-30 — manual display and output-mode clarification
+
+Checked2026-10-18 in [manufacturer-authored manual body](https://manualzz.com/doc/64067263/nux-mg-30-versatile-modeler-user-manual), originalMG-30 cover/controlnames,printedpp2,9–12. Older manual baseline,not a GEN2 specification census;generated mirror FAQ excluded.
+
+| Field | Evidence / qualification |
+|---|---|
+| Display | **4-inch 800×480 color LCD**. Touch remains unverified. |
+| Dimensions / conflict | Manualp12 states **313×166×54mm;1.5kg**,versus retained55mm height. Preserve both;no measurement or revision reconciliation performed. |
+| Output routing | COMBO FRONT/STACK FRONT bypass the IR/cab block; output modes offer global3-band EQ. This is not an extra physical output. |
+| Expression / state and calibration | EXP Independent keeps expression engaged across patch changes;per-patch mode is separate. Calibration includes minimum,maximum andhard-press trigger detection;exact toggle behavior remains unverified. |
+
+### MG-30 — additional exact Shopee hardware ask
+
+Checked2026-10-18: **Rp5.550.000**, [SEVEN STEREO Malang,shop1408254222/item28668671187](https://shopee.co.id/NUX-MG30-MG-30-Multi-Effects-Processor-%E2%80%93-Amp-Modeling-IR-Loader-LCD-Color-25-Amp-Models-i.1408254222.28668671187),KotaMalang. Direct readable cached body crawledlastweek;stale7–9Octdelivery. Condition,stock,revision,bundle/NMP-2,adapter,warranty,voucher,shipping/tax anddeliveredtotal unknown. Seller title’s25ampmodels is not manufacturer library evidence. Rp10k late-arrival compensation is not a purchase discount. Not assigned to verified used/new prices orcurrent stock.
+
 <!-- comparison evidence ends -->
 
 ### Preserved shared-source MG-30 fields
