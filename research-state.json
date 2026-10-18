@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh hardware discovery / unresolved model fields",
-    "task": "ToneLabEX tuner detection A0–E6 and effectedUSBrecordpath recorded. FreshRocktronUtopia/Pandoramini/iStomp/EXdiscovery yielded no newexactmodel. Next expandseriessearch or resolveEXpowerpolarity/height/currentchartrows;G3Xbutton/display andMP100IR/census remainopen.",
+    "task": "AX3000B physical pedal calibration and tuner powerup/exit behavior recorded. FreshBP90/AX3000B/B2.1Nu/VoiceWorks Shopeequeriesempty. Next expandbrand/seriesdiscoveryorresolveAX3000Bpowercurrent/polarity/display;EXheight/software,G3Xbuttons/display,MP100IR/censusremainopen.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -60616,6 +60616,21 @@
         "Qualified used/new offers"
       ],
       "method": "Manufacturer manual browser text,no downloads/deviceexecution"
+    },
+    {
+      "model": "Korg AX3000B",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf"
+      ],
+      "finding": "OwnE1pp45–46 hand-not-foot physicalcalibration,EXP MAXheelstage/EXP MINtoestage labels preserved. pp21–22tunerreference438–445resets440powerup;programswitch exit alsoselectsprogram.",
+      "remaining": [
+        "Power polarity/current",
+        "Visual control corroboration",
+        "Display specifications",
+        "Qualified hardware prices"
+      ],
+      "method": "Manufacturer PDF browsertext, no downloads/device execution"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -79971,5 +79986,15 @@
       "site:shopee.co.id Vox ToneLab EX"
     ],
     "result": "Only exactToneLabEXbejita4466947/42755664991Rp1700000alreadyrecorded,andcasing80816302/22315555452Rp250000excluded. Otherqueries noexacthardwareestablished;noabsenceclaim. VOXdownloads currentcharts datesvisiblebutlinks/modelrowsstillnotretrievable;old2023chartnotnewcompatibility."
+  },
+  "discovery_ax3000b_frontier_20261018": {
+    "checked_date": "2026-10-18",
+    "queries": [
+      "site:shopee.co.id DigiTech BP90",
+      "site:shopee.co.id Korg AX3000B efek",
+      "site:shopee.co.id Zoom B2.1Nu",
+      "site:shopee.co.id TC Helicon VoiceWorks"
+    ],
+    "result": "Empty search results;no exact eligible hardware item established. Not proof of absence or unavailable stock."
   }
 }

@@ -725,6 +725,14 @@ Checked2026-10-18 against [own E1 manual][AX3B-M], pp47–49,52–54. No transfe
 | Looper / delay hold distinction | Printedpp37–38: **FREEZ length1–2700ms**,CONTROL captures preceding sound;directsignal is suppressed whileheld,secondpress releases. HOLD DELAY hasTIME1–2700ms andholds repeats throughCONTROL. Neither description establishes a phrase record/overdub looper orretained recording. These occupy thedelay choice,not an extra simultaneous block. [E1][AX3B-M] |
 | Live / key lock | Printedp16: holdEXIT≥1s withprogramname displayed to toggle lock. Buttons/selectors/knobs arelocked;switches,pedals andEXIT remainoperable. Poweroff clearslock. Not a lock against footswitch programchanges. [E1][AX3B-M] |
 
+
+### AX3000B — physical calibration and tuner recall
+
+| Field | Exact-model manufacturer qualification |
+|---|---|
+| Expression / physical calibration | Own E1 pp45–46 specifies **hand operation**, warning that foot operation may be inaccurate. Power-up with EXP/CTL+up enters EXP MAX; return pedal, release hand and WRITE, then EXP MIN appears; advance, release and WRITE completes. Preserve these screen labels despite their counterintuitive endpoint order. EXIT cancels; ERROR restarts from the return-pedal stage. This is physical-range calibration, separate from saved per-program target limits. [E1][AX3B-M] |
+| Live / tuner recall | E1 pp21–22: **438–445Hz reference resets to440Hz at each power-up**. Exiting tuning via a program footswitch also selects that program; EXIT returns without that selection gesture. Neither behavior establishes cent accuracy or silent preset changes. [E1][AX3B-M] |
+
 <!-- comparison evidence ends -->
 
 [AX3B-M]: https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3000B_E1.pdf&response-content-type=application%2Fpdf%3B
