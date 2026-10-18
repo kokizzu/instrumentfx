@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee discovery / GX-1 per-memory EQ",
-    "task": "GX-1GLOBAL EQoutputscope/threeglobalsettings/ranges saved. Next alternatefreshbrandseriesShopeesearch orGX-1per-memoryEQ/PEDALFXexactHTML;avoidtreatingglobalsettingsaspatches. All388partial;migrationincomplete.",
+    "model": "Fresh Shopee discovery / GX-1 remaining gaps",
+    "task": "Five-choiceFXdelay distinction andpedaltravel/pressurecalibration saved. Next freshShopeebrandseriesdiscovery;EQ/PEDALFXexacttable recovery remainsoptional technicalgap. All388partial;migrationincomplete.",
     "next_models": [],
     "after_queue": "388active47brands;no downloads/workflows/push."
   },
@@ -46335,7 +46335,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery / GX-1 per-memory EQ."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery / GX-1 remaining gaps."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -120638,5 +120638,18 @@
       "Gains/level±20dB;mid20Hz12.5kQ0.5–16;cuts20Hz12.5korFLAT"
     ],
     "remaining": "Per-memoryEQ/PEDALFXsubtypecountsnotestablished bythisglobaltable;exactHTMLsearchstillneeded."
+  },
+  "gx1_fxdelay_calibration_20261019": {
+    "sources": [
+      "https://static.roland.com/manuals/gx-1_parameter/en-US/364652299364711307.html",
+      "https://static.roland.com/manuals/gx-1_parameter/en-US/369657227371381003.html",
+      "https://static.roland.com/manuals/gx-1_reference/en-US/351051403354518155.html"
+    ],
+    "findings": [
+      "Five-choice delay table matches FXslot targetlist,distinct11dedicated",
+      "Delaytime1–2000/BPMwithhalfquarteroverflow",
+      "Separateheel/toeandpressurethresholdcalibration"
+    ],
+    "remaining": "EQ/PEDALFXexacttables,USBformats,screen details,qualifiedusedIDR remainunknown."
   }
 }

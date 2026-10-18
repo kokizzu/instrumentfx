@@ -1466,6 +1466,16 @@ Exact-model HTML documentation,checked2026-10-19;no device operation.
 |---|---|
 | Processing / global EQ | Adjusts OUTPUT independently of individual-memory EQ on/off. OFF orSET1–SET3;three saved global settings are not extra patch memories orthree simultaneous EQblocks. Low/mid/high gains andoverall EQlevel each±20dB;midcenter20Hz–12.5kHz,Q0.5–16. Low/high cuts20Hz–12.5kHz orFLAT(bypass). This global table doesnot establish theper-memory FXEQ subtype count. |
 
+
+### GX-1 — five-choice delay table and pedal calibration
+
+Exact GX-1 HTML documentation,checked2026-10-19;no device operations.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / FX delay distinction | [Five-choice DELAY table](https://static.roland.com/manuals/gx-1_parameter/en-US/364652299364711307.html) listsSTANDARD,MODULATE,WARP,TWIST,GLITCH,matching theFX-slot subtype targets in[assign target list](https://static.roland.com/manuals/gx-1_parameter/en-US/369657227371381003.html). Distinct from11-choice dedicatedDELAY table. STANDARD/MODULATE/WARP time1–2000ms orBPM;out-of-range tempo times usehalf/quarterperiod. Feedback/highcut applyonlySTANDARD/MODULATE;modulationparameters onlyMODULATE. PageTYPEdescription sayswah;namedrows aredelays. |
+| Expression / calibration and sensitivity | [Own calibration guide](https://static.roland.com/manuals/gx-1_reference/en-US/351051403354518155.html) separately confirms heel/toe travel withENTER,thenfirmtoePEDALFXactivation. Knob3THRESHOLD adjusts activation sensitivity;ENTER completes. Numericthresholdrange unverified;not a factory-reset instruction. |
+
 <!-- comparison evidence ends -->
 
 [GX1-P]: https://www.boss.info/global/products/gx-1/
