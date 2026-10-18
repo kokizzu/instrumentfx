@@ -75413,10 +75413,10 @@
     "next": "Fresh Shopee GP-series discovery; GP-100VT manufacturer lead requires exact hardware offer and own-model technical evidence."
   },
   "resume_cursor": {
-    "model": "Zoom 607",
-    "task": "Saved converter/analog ratings,power switching andSTORE overwrite limits. Next fresh Shopee discovery or unresolved required fields;keep mixed606/607 ask unassigned.",
+    "model": "Zoom G5n",
+    "task": "Main summary reconciled with saved V2 findings; previous5rows+remaining paragraph preserved inledger,followups unchanged. Continue freshShopee discovery and unresolved fields;349partialmodels.",
     "next_models": [],
-    "after_queue": "349 partial models;114 Markdown compatibility files remain;no downloads/workflows/push."
+    "after_queue": "114 Markdown compatibility files remain;no downloads/workflows/push."
   },
   "gp100vt_variant_20261018": {
     "classification": "GP-100 finish variant; not an additional active model",
@@ -75459,5 +75459,18 @@
     ],
     "discovery_result": "No qualified new exacthardwaremodel;BP200 adaptor4486100964 rejected,606/607mixedexistinglisting not exactprice",
     "remaining": "Published display diagonal/color/touch;qualifiedseparateused/newIDR;import/editor capabilities;looper/drums/scenes remainunknown"
+  },
+  "g5n_current_summary_reconciliation_20261018": {
+    "reason": "Promote already-saved V2 findings to main summary; preserve previous unresolved wording and complete followups",
+    "previous_rows_and_remaining": [
+      "| Expression | Built-in pedal; FP01/FP02 external control input in V2 manual; product page currently offers FP02M. **Toe-down switches pedal effect ON/OFF** (V2 p.46). | [Toe instruction](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G5n-V2.0.pdf); [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf); [product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) |",
+      "| K/F/B | Rotary/button totals and full footswitch count ?; product text establishes four effect switches plus dedicated TAP. Do not report five as the complete count. | [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) |",
+      "| Memory | **200 user patches** in manual; product advertises124 supplied patches. Not200+124; exact overwrite/factory allocation needs manual operation review. | [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf); [product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) |",
+      "| Audio / control ports | Mono standard instrument input; two mono standard L/R outputs; stereo mini AUX and headphones; FP01/FP02 control input; USB audio. Exact USB subtype, control wiring, complete rear-panel MIDI/loop/XLR/phantom exclusions ? | [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |",
+      "| Power | **DC9V,500mA,center-negative AD-16**. Battery and USB-powered operation not established. | [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |",
+      "Complete panel K/F/B; exact display diagonal/color/touch; category choices and DSP limits; memory overwrite; full synth inventory and acoustic algorithm variants; full connector inventory; IR/NAM/capture import; battery/USB supply; USB channels/routing; looper block cost; qualified used/new condition and checkout stock. Bass suitability is unclassified pending model-specific evidence. No sibling specifications substituted."
+    ],
+    "retained_followups_byte_exact": true,
+    "evidence": "Existing G5n followups from34ac6b7/f0ef6e9;no new technical source,price,revision or marketverification"
   }
 }
