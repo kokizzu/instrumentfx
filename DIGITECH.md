@@ -1057,3 +1057,28 @@ Checked2026-10-18;partial. [Manufacturer-linked own manual](https://eadn-wc05-75
 
 
 <!-- comparison evidence ends -->
+
+## BP355
+
+Checked2026-10-18;partial,bass-focused. [Product](https://digitech.com/dp/bp355/) (P);[manufacturer-linked own manual](https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2022/09/BP355_Manual_5059482-A_original.pdf),5059482-A,38PDF pages,printed pp3–8,27–31 (M);[power FAQ](https://digitech.com/faqs/) (F). Browser text;no software run.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in assignable pedal;toe-pressure V-switch selects wah versus assigned parameter. External expression unverified. M |
+| Knobs / footswitches / buttons | **6 /3 /6**:six rotaries;Up,Down,Amp A/B feet;Edit2,Drums,Store front plus2rear Amp/Mixer buttons. Toe switch additional. M |
+| Display | Preset/parameter display and LED matrix;diagonal,color,touch unverified. M |
+| Processing / choices | **10 simultaneous effects;20amps,17cabinets,>70effects** advertised. Category census/routing limits pending. P |
+| Memory | **70user+70factory=140**;users initially duplicate factory. M/P |
+| Synth / acoustic | Fretless modeling documented;full synth/acoustic simulation distinctions pending. M |
+| Dimensions / mass | **17.5L×8.75W×2.5H inches;6.2lb**. P/M |
+| I/O | ¼-inch TS input;L/R¼-inch unbalanced and impedance-balanced XLR outputs;⅛-inch stereo aux/headphones;USB-B;power. XLR always stereo;Left¼-inch supports mono. M |
+| Power | **PS0913B9VAC1.3A**,2.5mm pin (F),supply capacity not actual draw. DC polarity inapplicable;battery/USB power unverified. No power switch. M |
+| IR / NAM / capture | User IR,native/converted NAM,proprietary capture unverified. |
+| Editor / software | X-Edit2.7.0Windows/2.7.1IntelMac listed(P);current OS/driver compatibility unverified. **2×2USB audio44.1kHz16/24bit**(M);USB1.1FullSpeed(P). |
+| Looper / drums / scenes | **20second looper;60patterns+5metronomes**. Drums unavailable with looper;scenes unverified. M/P |
+| Used IDR | Unknown;targeted Shopee discovery yielded no qualifying processor offer. |
+| New IDR | Unknown;seller/item,condition,stock,region,variant,bundle,warranty,voucher unverified. |
+
+<!-- comparison evidence ends -->
