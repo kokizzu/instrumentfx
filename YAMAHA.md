@@ -539,10 +539,21 @@ Checked 2026-10-18; partial. Separate Bass edition. [Own Yamaha manual](https://
 | I/O | Mono input,separateL/MONO,R outputs,stereo-mini PHONES,USB,AC IN. Headphones retain main output;socket-size/absence audit pending. |
 | Power | **12V AC/1A;12W**. AC-10 factory inclusion varies by region. DC polarity inapplicable;battery/USB operation unverified. |
 | IR / NAM / capture | User IR,native/converted NAM,proprietary capture import unverified. |
-| Editor / software | Sound Editor and USB-MIDI patch transfer documented;current OS support,USB audio unverified. Exact historical platform table needs separate follow-up. |
-| Looper / drums / scenes | Unverified. Chromatic tuner and AFR documented;AFR restrictions pending. |
+| Editor / software | Sound Editor and USB-MIDI patch transfer documented;current OS support,USB audio unverified. Historical platform distinctions are recorded below. |
+| Looper / drums / scenes | Unverified. Chromatic tuner documented; conditional AFR behavior recorded below. |
 | Used IDR | Unknown;exact MagicstompBass/UB99B Shopee searches unresolved,2026-10-18. |
 | New IDR | Unknown;seller/item,condition,stock,region,variant,bundle,warranty,voucher unverified. Search absence is not market absence. |
+
+### Magicstomp Bass — AFR and historical software limits
+
+[Own manual](https://usa.yamaha.com/files/download/other_assets/1/334091/magicstomp_bass_en.pdf),pp22–23,28,30;checked2026-10-18.
+
+| Field | Exact Bass-edition qualification |
+|---|---|
+| Processing / AFR eligibility | Only **AcousticMulti** supports AFR;factory defaultOFF. Up to **five simultaneous notch filters**. Enable isglobal,not perpatch. |
+| Memory / AFR retention | Detectedfilters arenotsavedwithpatchdata andclearwhenanotherpatchisselected. Do notinferpersistentfeedbackprotectionfromglobalenable. |
+| Footswitches / AFR behavior | WithAFRactive,ON/OFF inUp/Downmode orcurrentpatchswitch inPerformancemode detectsfeedback insteadofbypassing. Repeatedpressesallocateunusedfilters;detectioncanfail. |
+| Editor / historical platforms | SoundEditor anddriver:Windows98/Me/2000/XP. Maceditor8.6–9.22;driver8.5–9.22 withOMS2.3.8. OS X andClassic excluded bythismanual;currentWindows/macOScompatibility unverified. |
 
 <!-- comparison evidence ends -->
 
