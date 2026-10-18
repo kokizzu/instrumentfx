@@ -59,3 +59,19 @@ These are individual asking observations, not completed-sale statistics or an ac
 ## Existing ZOOM research — consolidation still pending
 
 The existing G1 FOUR,G1X FOUR,G2 FOUR,G2X FOUR,G6,B1 FOUR,B1X FOUR,B2 FOUR,B6,B1Xon,V3 andV6-SP records must be merged completely into this brand document, retaining their original source and price qualifications. They are not new models and have not been deleted. Original records remain under effects/ until a verified lossless merge is completed; do not call the whole repository migration finished merely because this root brand file exists.
+
+## B2 FOUR — external expression-volume audit
+
+**Checked 2026-10-18. Partial capability update, not complete consolidation of the existing bass profile.** [Cross-brand comparison](EXPRESSION-VOLUME.md).
+
+| Capability | Finding |
+|---|---|
+| Built-in treadle | No; external FP02M input is documented. |
+| Direct expression | Yes, separate EXPRESSION PEDAL jack; manufacturer identifies ZOOM FP02M. Other controllers' wiring/taper are unverified. |
+| Assignment scope | **PER PATCH**: the manual instructs selecting a pedal effect inside the current patch memory. Only one pedal-category effect can be selected per patch. This is not a globally inserted volume effect. |
+| Global master distinction | Master EQ and master volume retain their settings between patches, but the manual does not equate those panel controls with a global expression-volume assignment. |
+| Correct footprint | **249 W ×146 D ×72 H mm; 906 g**. The earlier 184 ×145 mm comparison is not the B2 FOUR manufacturer's specification. Exceeds the 200 ×140 mm filter by 49 mm width and 6 mm depth, before plugs. |
+| Headphones / normal pickup | Dedicated stereo mini PHONES output and normal instrument input; bass-oriented processing. |
+| Verdict | Does not meet zero-per-preset configuration or strict chassis-size requirements. No new market-price claim is made. |
+
+Source: [Official B2 FOUR HTML Operation Manual](https://zoomcorp.com/manuals/b2four-en/), sections **Using a connected expression pedal / Setting pedal effects**, **Signal flow**, **Functions of parts**, and **Specifications**. Original HTML text was read, including the explicit 249 W ×146 D dimensions. This is not a specification for G2 FOUR or another ZOOM model. Existing broader technical/price evidence and unresolved fields remain in the bass comparison pending lossless consolidation.
