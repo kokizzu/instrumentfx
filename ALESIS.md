@@ -13,11 +13,11 @@ Rack multi-effects,distinct from MIDIverb4. Checked2026-10-17;discontinued [MV-P
 | Knobs / footswitches / buttons |**6rotary/0foot/2buttons**:INPUT,MIX,OUTPUT,VALUE,EDIT A/B;STORE,BANK/MIDI. Text-derived,not new visual inspection [MV-M p.42] |
 | Display |Specifications/control inventory sayLED display;effects prose pp.26,28 calls itLCD. Conflicting terminology retained;diagonal,color/touch unresolved [MV-M pp.26,28,42] |
 | Processing / categories |Up to3simultaneous effects;fixed configurations,not arbitrary free routing. Manual names7 Multi Chain and3 Dual Send configurations;five reverb families andfour delay forms. These are alternatives,not simultaneous block counts;complete unique-algorithm census unresolved. Full named inventory below [MV-P,MV-M p.43] |
-| Preset memory |100factoryROM+100userRAM=200;original chart lists all100–199user locations prefilled. They remain writable,not100additional protected presets [MV-P,MV-M,MV-C] |
+| Preset memory |100factoryROM+100userRAM=200;original chart lists all100–199user locations prefilled. They remain writable,not100additional protected presets. STORE destination is fixed:factory00–99 saves to corresponding100–199;editing auser slot overwrites thatsame slot,not another chosen location [MV-P,MV-M p.11,MV-C] |
 | Synth / acoustic |Pitch±1octave;dedicated synth/acoustic simulator unverified [MV-P]. Acoustic-guitar program voicing is not an acoustic simulator |
 | IR / NAM / captures |User IR,native/converted NAM andmeasured capture import unverified |
 | Audio / control ports |2unbalanced6.35mm TS inputs,2TS outputs;MIDI IN,OUT/THRU;TRS footswitch;power. No USB,mic,phantom,headphone orFX-loop socket in rear inventory [MV-M pp.34–35,42] |
-| Power / battery / USB |AlesisP3,9VAC;manual US supply120VAC mains. Current rating,other regions,battery/USB operation unresolved;DC polarity not applicable toAC output [MV-M p.34] |
+| Power / battery / USB |AlesisP3,9VAC;rear-panel description names120VAC mains,whileconnections p13 describes destination-specific110/220V,50/60Hz adapters. These are adapter mains variants,not direct mains input or universal-input proof. Current rating,battery/USB operation unresolved;DC polarity not applicable toAC output [MV-M pp.13,34] |
 | Dimensions / weight |Exact body dimensions andmass unverified;MIDIverb4 specifications not substituted |
 | Editor / software |CC1/CC11 modulate up to2 fixed program-specific destinations;some programs expose only1. Positive modulation toward maximum only. SysEx user-bank send/automatic receive is backup,not proof of full editor or modern librarian compatibility. Dense OUT/THRU traffic can overflow;details below [MV-P,MV-M pp.37–38] |
 | Analog conversion |18bitADC/DAC versus24bit internal accumulator;these are different specifications [MV-P,MV-M pp.42–43] |
@@ -86,6 +86,18 @@ Checked 2026-10-18 from original text in the [manufacturer manual, pp37–38](ht
 | Seller-described used hardware; working condition unverified | **Rp2.709.000** | [andikondo, shop752257787/item24378585723](https://shopee.co.id/Effek-Alesis-Microverb-4-original-Made-malaysia-bekas-normal--i.752257787.24378585723), Kab. Kediri. Checked2026-10-18: indexed result two months old; direct cached body last month. Title explicitly says used and normal-working, with original/Malaysia origin claims; these are seller statements, not an inspection or an established technical variant. Delivery8–11September is stale. Current stock, actual condition, revision, adapter/accessories, bundle, warranty, shipping/tax and delivered total unknown. Up-toRp10.000 late-arrival compensation is not a product discount. No new-condition ask verified. |
 
 Earlier condition-unverified asks are retained separately; they do not form a verified used/new price range. This new title supplies explicit used-condition evidence, not independently verified working condition or authenticity.
+
+
+
+### MicroVerb 4 — fixed storage destinations and regional mains
+
+Checked2026-10-18 from the [original manufacturer manual,pp.10–13](https://www.alesis.com/rscdn/981/documents/microverb4_manual.pdf),web text only;no files downloaded.
+
+| Field | Evidence / qualification |
+|---|---|
+| Memory / save restriction | STORE twice commits edits only to the corresponding user location. Factory programs map by adding100;user112 cannot be stored over113. Selecting another program or restarting loses unsaved edits. |
+| Memory / selection | BANK toggles corresponding factory/user locations. VALUE crosses99↔100;turning below00 stops there rather than wrapping to199. Power-up recalls the last selected program after showing software version. |
+| Power / regional qualification | Connections p13 specifies destination-appropriate110or220V,50or60Hz mains adapters;rear description p34 names120VAC. Keep these regional statements separate from the9VAC unit input. Neither proves universal adapter input orcurrent rating. |
 
 
 ## MIDIverb 4
