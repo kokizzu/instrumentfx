@@ -393,6 +393,20 @@ Technical rows: [manufacturer manual printed29][DGS-M]; specification fields rem
 
 Checked2026-10-18 against own Yamaha manual text; no downloads, device operation or battery service.
 
+
+
+### DG-Stomp — MIDI recall, backup and analog ratings
+
+Checked2026-10-18 against [own Yamaha manual,printed pp24–25,29–31][DGS-M]. Documentation only;no downloads,MIDI messages ordevice operation.
+
+| Field | Exact-model qualification |
+|---|---|
+| Memory / MIDI program maps | Separate receive/transmit tables map patches toprogramchange numbers. Utility uses **1–128**;implementationchart uses wirevalues **0–127**. Preserve numbering conventions;128 MIDIaddresses do not replace180 hardware slots. |
+| Editor / MIDI backup | BulkOut sends **all userpatches plusUtility settings**,orone userpatch. BulkIn requiresPlay mode andrewrites userpatch contents. MIDIreceive/transmitchannels also actasbulk devicenumbers. This isbackup,not proof ofdesktopeditor support. |
+| I/O / MIDI Merge | Whenenabled,MIDIIN data isforwarded toOUT across **all channels**,independent oftheselected receivechannel. This doesnot meanmerged messages allcontrol theDG-Stomp. |
+| Live / clock and transport | Implementationchart marks MIDIclock andSystemRealtime commands **unsupported forboth transmit/receive**. Localdelay taptempo remainsdocumented;do not infer clock synchronization. |
+| I/O / analog ratings | Withpreampbypass,inputHIGH **−25dBm/1MΩ**,LOW **−15dBm/1MΩ**. Mainoutputs **0dBm/1kΩ**;phones **0dBm/47Ω at47Ωload**. Retainprintedunits;not clippingthresholds orcomputed headphonepower. |
+
 <!-- comparison evidence ends -->
 
 [DGS-M]: https://usa.yamaha.com/files/download/other_assets/7/313717/dgstomp_en.pdf

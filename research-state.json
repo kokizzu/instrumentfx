@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Tech 21 RK5 v2 category lead",
-    "task": "Recover exactitemfor revision-explicit RitchieKotzenSignatureFlyRigv2 categoryleadRp5284750;categoryreopenfailed. Do notrepeatusedRK5imagefetch orclaimphysicalFlyRig5v2census. Next alternateShopeequery/storefront orfreshbrandseries.",
+    "model": "Yamaha DG-Stomp",
+    "task": "SavedMIDIprogrammaps,backup/restore,Merge,unsupportedclock/transport andanalogratings. Next verify DG-Stomp taptempo/time andtuner calibrationrange fromownmanual orfreshShopeebrand/seriesdiscovery;RK5v2categorylead deferred.",
     "next_models": [],
     "after_queue": "357partialmodels;298guitar158bass69vocal;42brands;migrationincomplete;no downloads/workflows/push."
   },
@@ -45852,7 +45852,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Tech 21 RK5 v2 category lead."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Yamaha DG-Stomp."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -78273,5 +78273,14 @@
     ],
     "result": "First three returned noresults;remaining searches exposed unrelated category consumerproducts,not instrumentprocessor hardware. No qualified seller/item/IDR evidence established;no inventory addition or unavailability conclusion.",
     "next": "Check unrecorded Tech21 RK5 exact revision lead1421445165/41329827063 against manufacturer original/v2 distinctions;do not infer version fromgeneric RK5 title."
+  },
+  "discovery_rk5_v2_followup_20261018": {
+    "queries": [
+      "site:shopee.co.id \"Ritchie Kotzen\" \"Tech 21\"",
+      "site:shopee.co.id \"RK5\" \"Melodia\"",
+      "site:shopee.co.id \"Kotzen\" \"Fly\" \"v2\" -reel -raket -sepatu"
+    ],
+    "result": "Onlyexistingcategorylead,reopen/storefront inaccessible;exactitemandsellerunresolved. No newmodelorqualifiedprice.",
+    "next": "Defercategoryleaduntilnewexactitemevidence;do notrepeatidenticalqueries."
   }
 }
