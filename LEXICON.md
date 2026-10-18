@@ -320,3 +320,13 @@ Checked 2026-10-18 through manufacturer-indexed original instructions,part **070
 | Memory / post-update reinitialization | Same instructions: hold Bypass during power-up for10seconds,release,set VARIATION15,press Store. Normal power cycle takes about6seconds. This is the update document's reinitialization procedure;user-memory retention is not promised by the exposed excerpt. |
 
 The [manufacturer product download listing](https://lexiconpro.com/ja/products/mpx-100) names this update document and User Guide Rev0;April2026 is an upload label,not proof of new hardware firmware. Earlier mirror-guide evidence and direct-access failures remain valid provenance.
+
+### MPX100 — mono summing and footswitch connection
+
+| Field | Exact-model qualification |
+|---|---|
+| I/O / mono output summing | With only the **right output** connected, left and right signals are summed internally. Left-only stereo-headphone use remains a separate modest-volume configuration;it is not the mono-sum connection. [Original guide pp4–5](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf) |
+| I/O / input level range | Published input-level range **−30dBu to+4dBu**,unbalanced500kΩ. This is the specified input range,not an independently measured clipping threshold. [Original guide p52](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf) |
+| Live / footswitch connection | Dual momentary Tap/Bypass can use a stereoY connection to two identical single switches. Connect while powered off:the guide says plugging in while powered enables Bypass. This does not establish continuous expression support. [Original guide p5](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf) |
+
+Checked2026-10-18 against original1998 guide070-11935;no downloads or hardware operation.

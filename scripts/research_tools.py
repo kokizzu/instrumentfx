@@ -475,7 +475,7 @@ def main():
         if mode == 'commit-spx900':
             message = 'research(yamaha): document DG-Stomp effect blocks amplifier and speaker choices'
         if mode == 'commit-mx200':
-            message = 'research(lexicon): add documented MX200 bass capability and dynamics limits'
+            message = 'research(lexicon): clarify MPX100 mono sum and footswitch wiring'
         if mode == 'commit-gnx4':
             message = 'research(digitech): qualify GNX4 USB monitoring and pair-level controls'
         if mode == 'commit-gnx3':

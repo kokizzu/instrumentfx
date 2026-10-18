@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP360XP",
-    "task": "Saved headphone118vs11.8search-extraction discrepancy withoutclaiminghardwareconflict. Next anothermodel requiredgap orfreshbrandhardwarediscovery;do notrepeatoversizePDF retrieval.",
+    "model": "Lexicon MPX100",
+    "task": "Saved mono-sum output,inputlevelrange andfootswitch connection limits. Next freshbrand/seriesShopee hardwarediscovery oranothermodel requiredgap;transformercurrent remainsunknown.",
     "next_models": [],
     "after_queue": "351partialmodels;155bass;technicalverification andlegacycompatibilitymigration incomplete;no downloads/workflows/push."
   },
@@ -45678,7 +45678,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP360XP."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Lexicon MPX100."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -59980,6 +59980,21 @@
         "Qualified used/new offers"
       ],
       "method": "Browsertext/searchindexonly;no downloads"
+    },
+    {
+      "model": "Lexicon MPX100",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf"
+      ],
+      "finding": "Own pp4–5,52:right-onlyoutput internallysumsL/R;left-onlyphones separate;inputrange−30..+4dBu;momentarydualfootswitchY andpoweredconnectionbypass.",
+      "remaining": [
+        "Transformer current/barrel",
+        "Qualified used/new price",
+        "Editor OS",
+        "Analog EXP notestablished"
+      ],
+      "method": "Original guidebrowsertext,no downloads/deviceoperations"
     }
   ],
   "discovery_cross_brand_bass": {
