@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Yamaha Magicstomp Guitar MK2",
-    "task": "Own library base plus explicit MK2 supplement saved. Next verify unchanged-spec applicability and bass support; then resume fresh Shopee discovery.",
+    "task": "MK2 document scope and shared-bass membership saved; hardware caveats remain. Next resume fresh Shopee discovery by brand/series, checking current inventory before adding models.",
     "next_models": [],
     "after_queue": "382 active models,46 brands,all partial;114 compatibility Markdown files remain;no downloads/workflows/push."
   },
@@ -25760,9 +25760,9 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 167,
+      "record_count": 168,
       "bass_focused_record_count": 39,
-      "shared_bass_capable_count": 128,
+      "shared_bass_capable_count": 129,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -25785,7 +25785,7 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 318 guitar, 167 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 318 guitar, 168 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
     "warning": "382 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
@@ -46231,8 +46231,8 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 167,
-    "bass_shared_models": 128,
+    "bass_view_models": 168,
+    "bass_shared_models": 129,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -46790,6 +46790,7 @@
       "Yamaha::SPX990",
       "Yamaha::Magicstomp original Guitar",
       "Yamaha::Magicstomp Bass",
+      "Yamaha::Magicstomp Guitar MK2",
       "TC Electronic::PLETHORA X5",
       "Eventide::H9 Max",
       "Eventide::H90",
@@ -46886,6 +46887,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Yamaha::Magicstomp Guitar MK2": "Yamaha MK2 library-linked base manual p10 explicitly permits bass input; MK2 supplement refers to that owner manual. Input suitability only, not Bass-edition algorithms or universal low-end performance. https://usa.yamaha.com/files/download/other_assets/3/334073/magicstomp_mk2_en.pdf",
     "Yamaha::Magicstomp original Guitar": "Original Guitar owner manual p10 explicitly supports bass input alongside guitar and line-level instruments; no Bass-edition algorithms borrowed. https://ca.yamaha.com/files/download/other_assets/7/334107/magicstomp_en.pdf",
     "Tech 21::Acoustic Fly Rig": "Own exact-model product explicitly supports acoustic/electric guitar and bass. https://www.tech21nyc.com/products/flyrig/acoustic-fly-rig/",
     "Zoom::A3": "Own manual p34 lists UprightBass modeling a 3/4 upright bass; not an electric-bass voicing claim. https://manualzz.com/doc/9009531/zoom-a3-acoustic-guitar-preamp-and-effects-operation-manual",
@@ -81976,7 +81978,7 @@
     "scope": "Explicit uncertainty signals in selected comparison field labels and values only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
     "model_count": 382,
     "models_with_signals": 382,
-    "flagged_field_count": 4873,
+    "flagged_field_count": 4874,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -112425,8 +112427,7 @@
             "field": "Synth / acoustic",
             "source": "YAMAHA.md",
             "signals": [
-              "unverified",
-              "pending"
+              "unverified"
             ]
           },
           {
@@ -112476,6 +112477,13 @@
             "source": "YAMAHA.md",
             "signals": [
               "unknown",
+              "unverified"
+            ]
+          },
+          {
+            "field": "Synth / instrument compatibility",
+            "source": "YAMAHA.md",
+            "signals": [
               "unverified"
             ]
           }
@@ -118933,12 +118941,12 @@
       "TC-ELECTRONIC.md": "46ca68e66568f02e972ac73999ae6e09ce1746d8833b8d9e725b74664b4c2fbc",
       "VALETON.md": "a5d6f6ea7fbdb07244df7fb483d987fb2287edb0c582532cf619c66dfd2f7ecd",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
-      "ALL-GUITAR.md": "70059c9a918eb5b5b1313c9715cded4817b13329c370fdc653638803e7ef0d47",
+      "ALL-GUITAR.md": "1a6cf71978257dcb1517abb69dd2ac1b4bb6f405c5623cdb301d91dd5b369007",
       "LINE6.md": "bbbe508cca147737b97aadbd9b3fbb2e20faa83c7ae8e717abd7acd42c6e63da",
-      "YAMAHA.md": "116d6e3f41212e51c5b0d51858cafa347ec8cffafd217909a81c432aedf3e8f4",
+      "YAMAHA.md": "c3ef2f3c290ebe7173c9c36a9d6937b3e3968fbc91a3ee6ab93b1cc3a81eb2d8",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
-      "ALL-BASS.md": "585999e5cbe6a3515cd52b1d13814bc0b1f1c953e33916946eae2c779194a5a5",
+      "ALL-BASS.md": "f6ea6360a9b152964f26cf8de329eb2b5854be053ff6a4af24cbbaeb2007769e",
       "VING.md": "2873cd6b4d5b13c287eb839977ff782139fb5640008b9f9730ddc289d09f5b67",
       "FENDER.md": "825b3d107ed121195199f3a238cfae504e08c3f4913cd5952787df25109530c8",
       "MOSKY.md": "5fa70acc80dab7bfb6d02f5160afec1e5ee1947c8e343790309c9f78cbc0a07d",
@@ -118971,7 +118979,7 @@
       "AUDOTA.md": "6b3f98df769cb2ee1ac2c53bc35962eb7def7fdd370a8d43cde0a674a765e7ad",
       "ROLAND.md": "9ce3ef43fca59c82c03e9433494b8712e6a8d44b61af4beaff1ee160337ee343",
       "KEMPER.md": "8d101c0d5aa62f46ec00eb287a8f98e804f6c642ea3c8a45f8c53df39430b094",
-      "README.md": "20831b97d2cc674ecaced64951b44cdfd34c6ca7918ad1afe15acc8e06a276eb",
+      "README.md": "ee170a12ebf0502fdde8d99987da19ac9ae7af1f31350251d52c20a1fe46fb9b",
       "FRACTAL-AUDIO.md": "c49fc79d860c8cbe36666578a065d2015dd6a789dbe7f7852bf21aba35ce5a4c",
       "DEMONFX.md": "a477869186303c3c896d438dde6bb211e03920e6a51da4de617f5442de06e0ee",
       "DIGITECH.md": "986fcaa4921693f34e585194fafa3aa67543f33bb8238d8df29075b259101d33",

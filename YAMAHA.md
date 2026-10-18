@@ -633,7 +633,7 @@ Checked 2026-10-18; partial. Yamaha's MK2 library link supplies a [base owner ma
 | Display | Base: **16×2 backlit LCD**; diagonal/color/touch unverified. |
 | Processing / choices | MK2 supplement: **63 effect types**, onboard Deep Edit and knob assignment. Category census/concurrency unresolved. |
 | Memory | Base: **99 preset+99 user=198**;user initially duplicates presets. |
-| Synth / acoustic | AcousticMulti documented; synthesis/electric-to-acoustic conversion unverified. Bass classification pending document-scope audit. |
+| Synth / acoustic | AcousticMulti documented; synthesis/electric-to-acoustic conversion unverified. Shared bass input supported by the manufacturer-linked MK2 base manual p10; Bass-edition algorithms not implied. |
 | Dimensions / mass | Base: **164W×176D×62H mm;910g**. MK2 hardware-spec confirmation pending. |
 | I/O | Base:monoINPUT,L/MONO,R outputs,USB,AC IN. Supplement adds **stereo-mini PHONES**,−10dBm/150Ω;main outputs remain active. |
 | Power | Base: **12V AC/1A;12W**, regional AC-10 inclusion;DC polarity inapplicable. MK2 confirmation,battery/USB power unresolved. |
@@ -642,6 +642,16 @@ Checked 2026-10-18; partial. Yamaha's MK2 library link supplies a [base owner ma
 | Looper / drums / routing | Looper/drums/scenes unverified. MK2 AFR factory OFF,AcousticMulti only,five filters;global enable,filters lost on patch change. Active AFR replaces bypass gesture. |
 | Used IDR | Unknown;exact MK2 Shopee query found no offer,2026-10-18. |
 | New IDR | Unknown;seller/item,condition,stock,region,variant,bundle,warranty,voucher unverified. Search absence is not market absence. |
+
+
+### Magicstomp Guitar MK2 — document scope and bass membership
+
+Checked 2026-10-18. [Yamaha library](https://usa.yamaha.com/support/manuals/index.html?c=&k=magicstomp&l=en) explicitly associates [this base manual](https://usa.yamaha.com/files/download/other_assets/3/334073/magicstomp_mk2_en.pdf) with MK2. Its p10 permits bass input; the [MK2 supplement](https://fr.yamaha.com/files/download/other_assets/4/334074/magicstomp_mk2_fr.pdf) explicitly refers back to the owner's manual while replacing specified functions. This supports using the paired documents, rather than treating the base file as an unrelated sibling source.
+
+| Field | Scope qualification |
+|---|---|
+| Synth / instrument compatibility | **Shared bass-capable classification** follows explicit bass-input instructions in the MK2-linked manual. Bass-specific amp inventory, low-end performance and equal suitability of every effect remain unverified. No algorithms imported from the separate Bass edition. |
+| Dimensions / power evidence scope | Base dimensions/mass/power remain labeled as such; no independent MK2 hardware measurement or explicit unchanged-spec statement found. Supplement corrections govern changed functions and ports. |
 
 <!-- comparison evidence ends -->
 
