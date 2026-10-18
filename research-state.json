@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "MOOER GE1000",
-    "task": "GE1000 analog ratings,GWF4 scope,loop file management andsame-item access update saved. Seek fresh hardware lead or another primarygap;GE1000 Li remains separate.114 Markdown compatibility files retained.",
+    "model": "Hotone Ampero II MP-350",
+    "task": "MP350 older1.1.0-JP DLY census32 entries saved. Remaining older MOD/RVB census andlatestfirmware reconciliation open;continue primary inventory orfresh Shopee leads.114 Markdown compatibility files retained.",
     "next_models": [],
     "after_queue": "342 partial unique models; Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -45579,7 +45579,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER GE1000."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Hotone Ampero II MP-350."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -73068,5 +73068,53 @@
       "access": "Direct two-month cache now readable;not fresh stock",
       "duplicate_of_existing": true
     }
+  },
+  "mp350_dly_census_20261018": {
+    "source": "https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf",
+    "revision": "Ampero II firmware1.1.0-JP",
+    "printed_pages": "73–83",
+    "checked": "2026-10-18",
+    "entries": [
+      "Analog Delay M",
+      "Analog Delay S",
+      "BBD Delay M",
+      "BBD Delay S",
+      "Digital Delay M",
+      "Digital Delay S",
+      "Digital Delay HQ",
+      "Tape Delay M",
+      "Tape Delay S",
+      "Dual Delay",
+      "Ping-Pong",
+      "Sweep Delay",
+      "Tremolo Delay",
+      "Lo-Fi Delay",
+      "Ring Delay",
+      "Reverse Delay",
+      "Vintage Rack",
+      "Ambience 1",
+      "Ambience 2",
+      "Infidelay 1",
+      "Infidelay 2",
+      "Sweetie",
+      "Recaller",
+      "Ekopress 80",
+      "Ekopress 900",
+      "Ekopress 999",
+      "2290 Mod",
+      "2290 Ducker",
+      "Multitap Echo",
+      "Glitch Delay",
+      "Icy Delay",
+      "Bloodless Delay"
+    ],
+    "count": 32,
+    "mono_count": 10,
+    "stereo_count": 22,
+    "limits": [
+      "Older revision;not current1.4.0 inventory.",
+      "Internal Infidelay lines are not extra chain slots.",
+      "Effect bypass Trail doesnot establish patch-change spillover."
+    ]
   }
 }

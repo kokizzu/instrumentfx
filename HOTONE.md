@@ -688,6 +688,16 @@ Checked 2026-10-17, original **V1.0.2 manual pp46–49**, manufacturer manuscrip
 This corroborates module availability and controls for MP-350 despite the list's Stage wording. The exact serial Thru setting remains unresolved; current-firmware behavior was not tested.
 
 
+### MP-350 — DLY inventory, firmware1.1.0-JP
+
+Checked2026-10-18 directly against the identified [manufacturer effect list][MP350-E11],printed pp73–83 (PDFpages74–84). Older revision;not the current1.4.0 library.
+
+| Field | Revision-qualified inventory |
+|---|---|
+| Category choices / DLY | **32 entries derived**: Analog Delay M/S; BBD Delay M/S; Digital Delay M/S/HQ; Tape Delay M/S; Dual Delay; Ping-Pong; Sweep Delay; Tremolo Delay; Lo-Fi Delay; Ring Delay; Reverse Delay; Vintage Rack; Ambience1/2; Infidelay1/2; Sweetie; Recaller; Ekopress80/900/999; 2290 Mod; 2290 Ducker; Multitap Echo; Glitch Delay; Icy Delay; Bloodless Delay. Slash-separated variants here denote separately listed entries. |
+| Processing / delay channel scope | **10 mono,22 stereo**: mono AnalogM,BBDM,DigitalM,DigitalHQ,TapeM,Sweetie,Recaller andthree Ekopress;all remaining listed entries stereo. Mono/HQ labels are retained,not inferred from names ortransferred from Stage/Stomp. |
+| Processing / delay resource limits | Infidelay1/2 each contain four internal delay lines withTime/Level/Pan controls;these are not four extra effect-chain slots. Trail controls describe effect-bypass tails,not guaranteed patch-change spillover. The32-entry census doesnot prove current firmware retention or32 simultaneous delays. |
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
