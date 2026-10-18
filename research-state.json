@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Lexicon MX200",
-    "task": "Saved complete32namedchoices andown delaytime/channel/RepeatHold limits. Remainingpowerrevision,physicalbuttoncount,displaydetails andnewoffer. Next freshShopeediscoveryoranotheractive-modelgapaftercommit.",
+    "task": "Added own-manual bass-track basis and mono wet-only dynamics limits. Bass view should be154=35focused+119shared;unique active349. Remaining powerrevision,physicalbuttoncount,displaydetails,newoffer. Next freshdiscovery orotherrequiredgaps.",
     "next_models": [],
     "after_queue": "349partialmodels;legacyconsolidationincomplete;no downloads/workflows/push."
   },
@@ -25153,9 +25153,9 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 153,
+      "record_count": 154,
       "bass_focused_record_count": 35,
-      "shared_bass_capable_count": 118,
+      "shared_bass_capable_count": 119,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -25178,7 +25178,7 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 290 guitar, 153 documented bass-capable, 68 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 290 guitar, 154 documented bass-capable, 68 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
     "warning": "349 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
@@ -45553,8 +45553,8 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 153,
-    "bass_shared_models": 118,
+    "bass_view_models": 154,
+    "bass_shared_models": 119,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -46036,6 +46036,7 @@
       "Behringer::FX2000",
       "Behringer::V-AMP 3",
       "Behringer::DSP2024P",
+      "Lexicon::MX200",
       "Lexicon::MX300",
       "Lexicon::MX400",
       "Yamaha::SPX990",
@@ -46128,6 +46129,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Lexicon::MX200": "Own manufacturer guide p19 explicitly documents bass-track compression. Use suitable line-level preamp/mixer or recorded-track routing; not direct passive-bass input proof. https://lexiconpro.com/en-US/product_documents/mx200manual_bpdf",
     "BOSS::SE-50": "Own French manufacturer manual,©1990,introduction andguitar/bass connection section explicitly support bass. [Manual mirror](https://fr.scribd.com/document/644989539/Boss-SE-50-fr). Not inferred from SE-70 or a controller.",
     "Behringer::DSP2024P": "Ownmanual explicitly names guitar/bass after appropriate preamplification,section2.7. [Manufacturer manual](https://manualzz.com/doc/1522565/behringer-virtualizer-pro-dsp2024p-user-s-manual).",
     "MOOER::GS1000 Li": "Shared manufacturer manual explicitly covers Li and standard editions, documents guitar/bass input and bass amp/cab library; Li power and mass listed separately.",
@@ -76283,5 +76285,13 @@
     },
     "delay": "Studio/Modulated2.5sstereo;Digital/Tape/Pong/Reverse5smono",
     "repeat_hold": "Studio/Digital/Pongonly;noadditionalinput;notproofofoverdubbinglooper"
+  },
+  "mx200_bass_dynamics_20261018": {
+    "source": "https://lexiconpro.com/en-US/product_documents/mx200manual_bpdf",
+    "page": 19,
+    "basis": "Explicit bass-track compression; appropriate line-level routing required; not direct passive-bass input",
+    "membership_change": "Add shared bass membership only;unique active total unchanged",
+    "dynamics": "Compressor/De-Esser mono wet-only;parameter ranges recorded",
+    "previous_scope_row": "| Instrument scope |Guitar/vocal via mixer or suitable preamp at line level;not direct mic/Hi-Z input. Bass unclassified [MX-M p.1] |"
   }
 }

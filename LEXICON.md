@@ -8,7 +8,7 @@ Dual-engine rack multi-effects for live/studio mixer paths. Checked2026-10-17. G
 
 | Field | Evidence / qualification |
 |---|---|
-| Instrument scope |Guitar/vocal via mixer or suitable preamp at line level;not direct mic/Hi-Z input. Bass unclassified [MX-M p.1] |
+| Instrument scope | Guitar/vocal via mixer or suitable preamp at line level. Own compressor description explicitly includes bass tracks; shared bass inclusion requires appropriate preamp/mixer or recorded-track routing. No direct passive-bass, Hi-Z or microphone-preamp capability inferred [MX-M pp.1,19] |
 | Expression |No built-in pedal/toe;external EXP unverified. Two-button TRS bypass footswitch:tip P2,ring P1,sleeve ground [MX-M p.6] |
 | Knobs / footswitches / buttons |10 rotary derived:Input,2Mix,6parameter,Program.0built-in footswitches;complete button count unresolved. Encoder push counted separately only after inventory verification [MX-P] |
 | Display |**2-character LED** program display;lower-right dot identifiesuserbank. Also showsutility/parameter values. Diagonal,color andtouch remainunverified;matrix/control LEDs separate [MX-M p.5] |
@@ -38,7 +38,7 @@ Dual-engine rack multi-effects for live/studio mixer paths. Checked2026-10-17. G
 - [MX-S: original cut sheet18-0336,copyright2005](https://lexiconpro.com/en-US/product_documents/mx200_infosheetpdf),indexed source.
 - [MX-M: original indexed user guide](https://lexiconpro.com/en-US/product_documents/mx200manual_bpdf),direct403;selected indexed quick-start/rear-panel text inspected. No complete PDF-body or visual inspection claimed.
 
-No files downloaded. Remaining:accessible fullmanual,completephysicalbuttoninventory,display diagonal/color/touch,power revision,USB audio distinction,software OS details andqualified offers. Bodydata nowdocumented below. Bass suitability remains unclassified.
+No files downloaded. Remaining:accessible fullmanual,completephysicalbuttoninventory,display diagonal/color/touch,power revision,USB audio distinction,software OS details andqualified offers. Bodydata nowdocumented below. Bass suitability was initially unclassified; own manual p19 now supplies the qualified bass-track basis below.
 
 
 ### MX200 — published body data and bypass modes
@@ -86,6 +86,17 @@ Checked2026-10-18 against the manufacturer [2005cut sheet18-0336][MX-S] andindex
 | Category choices / other8 | Chorus,Flanger,Phaser,Tremolo/Pan,Rotary,Vibrato,PitchShift,Detune. Tremolo/Pan countsasonechoice. Total16+6+2+8=32alternatives;two simultaneousprocessors remainseparatefromlibrarysize. |
 | Delay / time andchannel limits | StudioandModulated:up to2.5s stereo. Digital,Tape,PongandReverse:up to5s mono,withmono-in/stereo-outlabel. Do notborrowMX300’sdifferentReversedelaytime. |
 | Looper / Repeat Hold | OnlyStudio,DigitalandPong supportRepeatHold atmaximumFeedback:existingrepeatsloopwithoutacceptingnewdelayinput. Thisisnot documentedasanoverdubbingphraselooper;Tape,ModulatedandReverseareexcludedfromthisspecificfunction. |
+
+
+### MX200 — bass-track basis and dynamics limits
+
+Checked 2026-10-18 from the manufacturer-indexed [own guide, printed p19][MX-M]. This exact-model evidence supersedes the earlier unclassified bass scope; no sibling specification is used.
+
+| Field | Evidence / qualification |
+|---|---|
+| Bass capability | Compressor description explicitly lists bass tracks among its applications. Use suitable line-level preamp/mixer routing or recorded tracks; this does not establish direct passive-bass input or equal suitability of every effect. |
+| Processing / dynamics channel mode | Compressor and De-Esser are labelled **Mono (Wet only)**. Keep that restriction beside the general two-processor/stereo routing claim; it does not mean every algorithm preserves a stereo input. |
+| Processing / dynamics controls | Compressor threshold −70 to0dBFS, ratio1:1 through infinity:1, makeup0 to+12dB. De-Esser frequency1600Hz–10kHz in40steps and bandwidth in6steps. These are parameter ranges, not additional algorithm choices. |
 
 
 ## MX300
