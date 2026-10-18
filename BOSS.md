@@ -3909,3 +3909,16 @@ Checked 2026-10-19 against indexed original GT-PRO manual [English p36](https://
 | Processing / WAH | **9 selectable entries**:CRY,VO,Fat,Light,7String,Reso andCustom1–3. Six named models plusthree custom choices;qualifies regional six-wah headline. External expression controls position;automatic wah assignment documented forEXP1/FC-200. No built-in treadle inferred. |
 
 Advertised44-category reconciliation,preamp/drive census andUSBstreamformat remain open. No downloads ordevice operations.
+
+### GT-Pro — custom definitions and drive count
+
+Checked 2026-10-19: manufacturer-authored GT-PRO manual [indexed p31](https://roland.manymanuals.de/supplementary-music-equipment/gt-pro/owners-manual-5239/31) and [official indexed pp57–58](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf). Exact title and section identity match prior manual checks. Direct mirror p31 cache miss;indexed original text used.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / OD-DS count | Manual explicitly specifies **30 distortion types plus3 custom settings**,therefore33 selectable definitions. This qualifies the regional30-drive headline;not33 simultaneous blocks. Complete named-type transcription remains pending. |
+| Processing / custom preamps | **3 custom preamp definitions**. Basic templates:JC Clean,TW Clean,Crunch,VO Drive,BG Lead,MS HiGain,Modern Stk. Seven customization starting types are not the full normal preamp menu. The46-model headline remains separate;complete menu reconciliation pending. |
+| Memory / shared custom definitions | Editing a custom preamp definition changes the sound of every patch that uses it. Custom speaker definitions have the same cross-patch warning. These are shared definitions,not additional independent patch memories. |
+| IR / custom speaker distinction | **2 custom speaker definitions** with5–15-inch modeled speaker size,1/2/4/8 speakers,open/closed cabinet andlow/high coloration controls. This parameter-based cabinet editor doesnot establish user IR loading,NAM orcapture import. Modeled speaker diameter isnot display diagonal. |
+
+USBstreamformat,full preamp/drive menus and44-category headline reconciliation remain unresolved. No downloads,device edits orsoftware execution.

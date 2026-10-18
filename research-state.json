@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro FX1=22,FX2=33 (11exclusive),WAH6+3custom saved. Next preamp/ODDS census andUSBstreamformat;44-category reconciliation unresolved.392partial;migration incomplete.",
+    "task": "GT-Pro ODDS30+3custom;preamp3custom/speaker2custom andshared-edit caveat saved. Next fullpreamp/drive menu reconciliation,USBstreamformat,44category audit.392partial;migration incomplete.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -121434,5 +121434,19 @@
       "WAH_custom_choices": 3
     },
     "qualification": "Families not subtypes or simultaneous ceiling;44-category headline unreconciled."
+  },
+  "gtpro_custom_drive_20261019": {
+    "sources": [
+      "https://roland.manymanuals.de/supplementary-music-equipment/gt-pro/owners-manual-5239/31",
+      "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf"
+    ],
+    "pages": "31indexed mirror;57–58official indexed",
+    "counts": {
+      "ODDS_models": 30,
+      "ODDS_custom": 3,
+      "preamp_custom": 3,
+      "speaker_custom": 2
+    },
+    "qualification": "Shared custom edits affect referencing patches;parameter cabinet editor not IR import. Full preamp/drive named menus pending."
   }
 }
