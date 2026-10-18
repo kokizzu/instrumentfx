@@ -359,14 +359,14 @@ Guitar multi-effects;distinct fromRP255/RP150. Checked2026-10-17;partial. Bass/v
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | Built-in pedal andtoe V-Switch,adjustable sensitivity;switches assigned parameter versusWah. Per-preset heel/toe range. External support unknown. | [Manual pp39,41][RP250-M] |
+| Expression | Built-in pedal andtoe V-Switch,adjustable sensitivity;switches assigned parameter versusWah. Per-preset heel/toe range. **No dedicated external EXP/control socket** in the complete rear-panel inventory;USB external-control capability remainsunverified. | [Manual pp10–11,39,41][RP250-M] |
 | K/F/B | **4 rotary /2 main footswitches /5 separate buttons**: two Edit, Drums, Store and rear Amp/Mixer. Encoder push and toe additional; no power switch. Text-derived; visual corroboration pending. | [Manual pp2,6–9][RP250-M] |
 | Display | Preset/name/parameter display andLED matrix;technology,diagonal,color,touch unverified. | [Manual p9][RP250-M] |
 | Dimensions / mass | 8.25L×9.375W×2.125Hin;3.3lb. | [Manual p42][RP250-M] |
 | Processing / category choices | **11 simultaneous**. Manual-derived:Pickup2,Wah3,Comp2,Distortion13;Amp20+acoustic1+Direct bypass;Cab14+Direct bypass;EQ4preset curves;Gate2;Delay5;Reverb6. EQ curves are configurations,not four independent blocks. Chorus/FX one-at-a-time; named-choice census below supersedes the previously unresolved subtotal. Phaser prose says2models but namesone;SynthTalk named inoverview without detailedentry. Direct/OFF andparameter variations excluded from algorithm totals. | [Manual pp19–36,42][RP250-M] |
 | Factory / user memory | **120=60user+60factory**,user locations initially duplicate factory. ExplicitSTORE required;patch/power changes discard unsaved edits. | [Manual pp5,17–18][RP250-M] |
 | Synth / acoustic | Dreadnaught acoustic simulator. Dedicated synthesis unverified. | [Manual pp23–24][RP250-M] |
-| I/O | ¼TSguitar,L/R¼outputs,⅛stereoAUX,⅛stereophones,USB-B,power,Amp/Mixer switch. Headphones mono whenonlyL output connected;stereo withneither/both. | [Manual pp10–11,42–43][RP250-M] |
+| I/O | ¼TSguitar,L/R¼outputs,⅛stereoAUX,⅛stereophones,USB-B,power,Amp/Mixer switch. Headphones mono whenonlyL output connected;stereo withneither/both. AUX playback reachesL/R/phones;player volume andMasterLevel setbalance. AUX-to-USB capture/effect processing unverified. | [Manual pp10–11,39,42–43][RP250-M] |
 | Power / battery / USB | PS0913B **9VAC1.3A** adapterrating,2.5mmpin;DCpolarity inapplicable. Measured draw,battery andUSBpower unknown. | [Manufacturer FAQ][RP250-F] |
 | IR / NAM / capture | UserIR,native/convertedNAM,capture imports unverified. | Unresolved |
 | Editor / software | X-Edit editor/librarian;historical requirements WindowsXP SP2/.NET2,Mac10.4+. USB2FullSpeed,2in/2out44.1kHz16/24-bit;driver/currentOS/MIDI compatibility unresolved. | [Manual pp4,11,43][RP250-M] |

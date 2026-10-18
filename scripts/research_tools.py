@@ -561,7 +561,7 @@ def main():
         if mode == 'commit-rp250':
             message = 'research(digitech): qualify RP250 official editor versions and limits'
         if mode == 'commit-rp90':
-            message = 'research(digitech): consolidate RP255 offer provenance and access limits'
+            message = 'research(digitech): resolve RP250 external expression socket inventory'
         if mode == 'commit-ax10g':
             message = 'research(korg): enumerate AX10G effects and pedal restrictions'
         if mode == 'commit-g3x':
