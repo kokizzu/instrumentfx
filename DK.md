@@ -13,12 +13,13 @@ Checked 2026-10-18. Partial exact-model record. Manufacturer product identity an
 | Display | **1.77-inch color LCD** in guide; product says TFT. Touch unverified. [Q] |
 | Processing / choices | **70 effects; up to8 modules,5 removable for customization**. Per-category census and routing restrictions unknown; not70 simultaneous effects. |
 | Factory / user memory | **100 slots,50 factory presets**. Writable/protected partition and initial fill of remaining slots unknown; do not infer100+50. [Q] |
+| Conversion | **24-bit AD/DA,44.1kHz;103dB SNR** in original guide. Separate USB recording format remains44.1kHz/16-bit. [Q] |
 | Synth / acoustic | Dedicated synthesis/acoustic simulation unknown. |
 | IR / NAM / captures | **512-sample IR resolution; USER slot per patch**. DKit1.2.0 release notes explicitly add NAM A1/A2 tone-file import foriE550; native execution versus conversion, supported model architecture and firmware minimum remain unverified. File format,total IR capacity and measured captures unknown. See software evidence below. |
 | I/O | Product lists AUX andBluetooth plus6.3mm input/output. Guide identifies monoTS input versus productTRS wording, stereoTRS output/headphones,USB-C andDC input. **No physical AUX socket confirmed**; AUX format/routing andMIDI/phantom remain unverified. |
 | Power / battery / USB | **9VDC500mA,center-negative;USB-C auxiliary power**. Battery unverified; rating is not measured draw. [Q] |
 | Dimensions / mass | **170W×120D×57.5H mm;493g** unit weight. [Q] |
-| Editor / software | DKit iOS/iPadOS14+ editing andAndroid app listed; Mac compatibility caveat below. **USB2.0 Type-C recording44.1kHz/16-bit**, also firmware transfer. Converter24-bit is separate. Channels,drivers,Androidminimum,currentOS testing anddesktop editor remain unknown. [Q] |
+| Editor / software | DKit iOS/iPadOS14+ editing andAndroid app listed; Mac compatibility caveat below. **USB2.0 Type-C recording44.1kHz/16-bit**, also firmware transfer. Converter24-bit is separate. Manufacturer support index lists a shared **iE350/iE550 USB ASIO driver**;package not inspected or installed. Channels,Androidminimum,currentOS testing anddesktop editor remain unknown. [Q] |
 | Looper / drums / live | **56 drum patterns andlooper**;duration,retention,scenes andtrails unknown. |
 
 Technical evidence: [manufacturer English product](https://www.dk-music.cn/pd.jsp?id=79), indexed exact iE-550 text. Direct routes timed out. [Chinese manufacturer page](https://www.dk-music.cn/cn/pd.jsp?id=88) independently identifies the model. No full manual or visual inspection claimed; no files/software downloaded.
@@ -37,7 +38,7 @@ Offers checked2026-10-18. Stock,selected package,actual condition,adapter/access
 
 ### Source conflicts and remaining verification
 
-[ETONE retailer](https://etone.shop/collections/dk-audio/products/dk-ie-550-guitar-multi-effects-pedal-with-bluetooth-app-blue) claims74effects/100rhythms andinternally differing5/15IRslots,versusmanufacturer70effects/56patterns/USER-per-patch. Firmware basis unresolved;retailer numbers are not promoted to manufacturer specifications. [Candidate manual PDF](https://manuals.plus/m/d75e6440d22edb0b8e9ca4aca02e2f40ed21e8107ca28e7d49c5d77165ef344b_optim.pdf) returned403;cover/revision/body not verified. Exclude generated FAQs. Seek original manual,full controls/expression,power,body,memory,category counts andqualified offers.
+[ETONE retailer](https://etone.shop/collections/dk-audio/products/dk-ie-550-guitar-multi-effects-pedal-with-bluetooth-app-blue) claims74effects/100rhythms andinternally differing5/15IRslots,versusmanufacturer70effects/56patterns/USER-per-patch. Firmware basis unresolved;retailer numbers are not promoted to manufacturer specifications. [Candidate manual PDF](https://manuals.plus/m/d75e6440d22edb0b8e9ca4aca02e2f40ed21e8107ca28e7d49c5d77165ef344b_optim.pdf) returned403 on that route;the same document was subsequently read through the original quick-guide mirror below. This is a quick guide,not the still-unread full user manual. Exclude generated FAQs. Seek original manual,full controls/expression,power,body,memory,category counts andqualified offers.
 
 ### Original quick-guide corroboration
 
@@ -59,7 +60,7 @@ Checked 2026-10-18 from the [manufacturer-published Indonesian App Store listing
 | IR / NAM import scope | DKit1.2.0 notes name iE350 andiE550 NAM A1/A2 tone-file import. This is documented import capability,not proof of native NAM DSP, arbitrary .nam compatibility or a specific conversion workflow. Firmware prerequisite remains unknown. |
 | Editor / Apple platforms | Listing requires iOS/iPadOS14.0. Apple-silicon Mac compatibility metadata lists macOS11/M1+,but prominently says not verified for macOS; do not call this a tested desktop editor. DKit provides chain/parameter editing,tone import/export,IR import andbackup. |
 | Editor / release-date limits | Indonesian cached listing labels1.2.0 “2 days ago”;Brazilian cache gives29August,whileJapanese cache stillshows1.1.1. These are regional/cache observations,not proof of a precise current release date or installed version. |
-| Editor / Android and updater distinction | Manufacturer index lists iE350/550 AndroidDKit1.2.1 separately from iE5501.0.9 Mac/Windows firmware packages andNAM-import instructions. These establish listed resources,not Windows/macOS patch-editor support or current compatibility. Full instructions remain unread. |
+| Editor / Android and updater distinction | Manufacturer index lists iE350/550 AndroidDKit1.2.1 separately from iE5501.0.9 Mac/Windows firmware packages andNAM-import instructions. These establish listed resources,not Windows/macOS patch-editor support or current compatibility. [English support index](https://dk-music.cn/col.jsp?id=110) separately lists iE350&iE550 DK UsbAudio_USB ASIO.exe(4.45MB). Driver availability is not patch-editor proof;binary contents andcurrentOS compatibility untested. Full instructions remain unread. |
 
 
 ### Controls and connection qualifications
