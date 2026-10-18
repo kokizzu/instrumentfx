@@ -377,7 +377,7 @@ Checked 2026-10-18. Guitar multi-effects, distinct from NOVA Drive/Modulator and
 | K/F/B | Four A–D encoders;eight switches described;complete button/classification audit pending. | [Manual][NOVA-M] pp6–9 |
 | Display | 24×2-character LCD;diagonal/color/touch unresolved. | [Manual][NOVA-M] p46 |
 | Dimensions / weight | Printed284×89×267mm,axis order unlabelled;1.85kg. Inch-to-mm depth correspondence appears inconsistent;not silently corrected. | [Manual][NOVA-M] p46 |
-| Processing / choices | Analog overdrive/distortion plus six digital blocks:compression,EQ+gate,modulation,pitch,delay,reverb. Exact simultaneous ceiling andper-category choice census pending. | [Manual][NOVA-M] p5 |
+| Processing / choices | Analog overdrive/distortion plus six digital blocks:compression,EQ+gate,modulation,pitch,delay,reverb. Section-level category census below;exact simultaneous ceiling remains unverified. | [Manual][NOVA-M] p5 |
 | Factory / user memory | 30factory+60user presets;initial user fill unresolved. | [Manual][NOVA-M] p5 |
 | Synth / acoustic | Dedicated synth/acoustic simulation unverified;pitch effects alone do not establish synthesis. | Pending |
 | I/O | Drive In,Line In,two balancedTRS outputs,MIDI In/Out/Thru5-pinDIN,Pedal In,mains. Line In bypasses analog preamp/drive. Other-port audit pending. | [Manual][NOVA-M] pp9,46 |
@@ -400,6 +400,17 @@ Checked 2026-10-18 against original manufacturer manual revision 1.2, SW1.10, pp
 | Live / delay versus reverb tails | FX Mute **Soft** preserves delay repeats across different delay presets;reverb can continue but adopts the new preset's settings. **Hard** mutes both. This is not proof of wholly gapless preset changes. [Manual][NOVA-M] p18 |
 | Expression / volume position | **Pre** places volume after drive,before effects,allowing tails while lowering input to effects;**Post** controls the complete effected signal. [Manual][NOVA-M] p14 |
 | Expression / recall and curve | Master **Preset** recalls stored parameter value;**Pedal** uses physical position at preset change. Min/Mid/Max each0–100% define response;one Pedal In selects Expression orG-Switch,not both concurrently. [Manual][NOVA-M] pp16–17 |
+
+### NOVA System — category census and pitch-range conflict
+
+Checked 2026-10-18 against original manual revision 1.2, SW1.10, printed pp3,26–45. Counts below derive from named sections, not an installed-firmware test or manufacturer total.
+
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / section census | Drive2;compression3;EQ1;noise gate1;modulation6;pitch5;delay6;reverb4. **28 section-level entries**,excluding boost,tuner,speaker filter androuting utilities. EQ/gate are separate entries here but grouped in the manual's six-digital-block headline. This count does not establish28 simultaneous processors. [Manual][NOVA-M] |
+| Category choices / delay and reverb | Delays:Clean,Analog,Tape,PingPong,Dynamic,Dual. Reverbs:Spring,Hall,Room,Plate. **Spillover is behavior,not a seventh delay algorithm.** Internal delay taps andreverb shapes do not add choices. [Manual][NOVA-M] pp41–45 |
+| Processing / time limits | Common delay range0–1800ms;Dual has two independently adjustable taps. Reverb decay0.1–20s,pre-delay0–100ms. These parameters are not phrase-looper duration. [Manual][NOVA-M] pp41–45 |
+| Synth / pitch-range disagreement | Pitch Shifter introduction says±1octave;Voice1 range±1200cents butits explanation says±2octaves;Voice2 lists±2400cents. Preserve this unresolved internal disagreement. Separate intelligent harmony has two voices withkey/scale selection;not evidence ofpolyphonic synthesis. [Manual][NOVA-M] pp39–40 |
 <!-- comparison evidence ends -->
 
 [NOVA-M]: https://manualzz.com/doc/7256177/tc-electronic-nova-system-guitar-and-bass-owner-s-manual

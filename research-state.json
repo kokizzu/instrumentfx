@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC Electronic NOVA System",
-    "task": "Saved NOVA System3routing modes,SpeakerSim disablesEQ,distinct delay/reverb preset tails andexpression recall/volume position. Next audit exact categorychoice census/concurrency andphysicalbuttons/builtin/toe;dimensionconflict/currenteditor/qualifiedIDR remain. No G-System borrowing ormirrorFAQUSB96k9effect claims.",
+    "task": "Saved NOVA section-level category28census(utilities excluded),sixdelay/fourreverb,timeparameters andpitchrange conflict. Next physicalcontrols/builtinexpression/toe orMIDI/editor evidence;exactconcurrency/dimensions andqualifiedIDR remain. Do notcount Spillover asdelaytype orclaim28simultaneous.",
     "next_models": [],
     "after_queue": "366active/46brands;307guitar159bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -80933,5 +80933,23 @@
     "source": "https://manualzz.com/doc/7256177/tc-electronic-nova-system-guitar-and-bass-owner-s-manual",
     "revision": "Originalmanual1.2/SW1.10,pp12–19",
     "status": "Routing/speaker-filter/preset-transition/expression distinctions saved;category/concurrency andphysical audit remain."
+  },
+  "nova_system_category_audit": {
+    "date": "2026-10-18",
+    "revision": "Manual1.2,SW1.10",
+    "source": "https://manualzz.com/doc/7256177/tc-electronic-nova-system-guitar-and-bass-owner-s-manual",
+    "counts": {
+      "drive": 2,
+      "compression": 3,
+      "EQ": 1,
+      "noise_gate": 1,
+      "modulation": 6,
+      "pitch": 5,
+      "delay": 6,
+      "reverb": 4
+    },
+    "sum": 28,
+    "basis": "Section-level choices,notconcurrency;utilities excluded;EQ/gate grouped in6digitalblockheadline.",
+    "remaining": "Exact concurrency/controlcount/dimensions/editor/IDR unresolved;pitchrange conflict retained."
   }
 }
