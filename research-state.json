@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Alesis MicroVerb 4",
-    "task": "Saved fixed STORE destinations,bank mapping and regional mains qualifications. Remaining hardware/display/software gaps require stronger primary evidence;next fresh Shopee discovery or another active-model gap.",
+    "task": "Saved MIDI clock/transport restriction and program-change boundary discrepancy with chart-footer identity caveat. Hardware dimensions/mass/current/display stillunknown. Next fresh discovery or primary gaps of another active model after commit.",
     "next_models": [],
-    "after_queue": "349partialmodels;lossless consolidation incomplete;no downloads/workflows/push."
+    "after_queue": "349partialmodels;legacy consolidation incomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -76120,5 +76120,23 @@
       "full editor platforms",
       "qualified new exact hardware offer"
     ]
+  },
+  "microverb4_midi_chart_20261018": {
+    "source": "https://www.alesis.com/rscdn/981/documents/microverb4_manual.pdf",
+    "page": 41,
+    "findings": [
+      "Clock and realtime Commands markedNo in both directions",
+      "Recognized CC0/1/11 plusSysEx;pitchbend/notes/aftertouch unsupported bychart",
+      "ProgramChange0–99 chart boundary retained alongside prose above100ignored"
+    ],
+    "identity_caveat": "Chart footer saysMidiVerb4 within44pageMicroVerb4reference;editorial mismatch explicit",
+    "impedance": "Still unresolved OCR W symbol;no successful image inspection",
+    "discovery": {
+      "queries": [
+        "site:shopee.co.id \"BP90\" digitech",
+        "site:shopee.co.id \"Vocalist Live 4\""
+      ],
+      "result": "Noqualifiedexacthardwareoffer;BP90diodesrejected;noabsenceclaim"
+    }
   }
 }

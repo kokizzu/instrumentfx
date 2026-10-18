@@ -100,6 +100,18 @@ Checked2026-10-18 from the [original manufacturer manual,pp.10–13](https://www
 | Power / regional qualification | Connections p13 specifies destination-appropriate110or220V,50or60Hz mains adapters;rear description p34 names120VAC. Keep these regional statements separate from the9VAC unit input. Neither proves universal adapter input orcurrent rating. |
 
 
+
+### MicroVerb 4 — MIDI implementation boundaries
+
+Checked2026-10-18 from the [original manufacturer manual,MIDI Implementation Chart,p41](https://www.alesis.com/rscdn/981/documents/microverb4_manual.pdf),web text only;no downloaded file or successful visual inspection. The chart footer saysMidiVerb4 although the enclosing document is the44-page MicroVerb4 reference manual;retain this editorial identity caveat rather than treating it as a separately sourced sibling manual.
+
+| Field | Evidence / qualification |
+|---|---|
+| Live / MIDI clock and transport | Chart marks both transmission and recognition of realtime Clock and Commands asNo. Do not infer MIDI tempo sync from itsMIDI connectors;audio/footswitch tap remains a separate documented function. |
+| I/O / accepted MIDI messages | Chart recognizes CC0,1,11 andSysEx;pitch bend,note messages,aftertouch andotherCC2–10/12–119 are markedNo. SysEx is transmitted aswellasreceived;this doesnot prove aneditor. |
+| Memory / Program Change boundary | Chart specifies recognized Program Change0–99;prose p37 says changes above100 are ignored. Preserve the boundary/numbering discrepancy;do not promise index100 is valid fromprose alone. Bank selection still usesCC0 asdocumented above. |
+
+
 ## MIDIverb 4
 
 Dual-channel rack multi-effects,notMicroVerb4. Checked2026-10-17;partial,discontinued [MD-P].

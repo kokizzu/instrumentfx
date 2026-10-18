@@ -443,7 +443,7 @@ def main():
         if mode == 'commit-midiverb4':
             message = 'docs(alesis): reconcile MIDIverb 4 summary with verified followups'
         if mode == 'commit-microverb4':
-            message = 'research(alesis): document MicroVerb 4 fixed storage and regional mains'
+            message = 'research(alesis): qualify MicroVerb 4 MIDI clock and program boundaries'
         if mode == 'commit-fx2000':
             message = 'research(behringer): resolve FX2000 numbered control and connector inventory'
         if mode == 'commit-hxe-price':
