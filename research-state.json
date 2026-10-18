@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Discovery / required-field follow-up",
-    "task": "Saved Zoom V3 firmware/driver prerequisites and live-use fixes. Next fresh exact-model Shopee discovery or another required technical gap; do not repeat rejected aggregate/accessory hits.",
+    "model": "Comparison evidence review",
+    "task": "V3 current evidence selected without deleting its historical source rows. Continue reviewing recorded models for superseded unknowns in active comparisons, alongside exact Shopee discovery and primary technical gaps.",
     "next_models": [],
     "after_queue": "374 active models,46 brands,all partial; compatibility migration incomplete; no downloads/workflows/push."
   },
@@ -46090,7 +46090,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Discovery / required-field follow-up."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Comparison evidence review."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -81494,5 +81494,10 @@
       "site:shopee.co.id \"Zoom B9\" efek bass"
     ],
     "result": "No qualified exact-model hardware listing; unrelated camera/microphone aggregate results not adopted as prices or eligible models."
+  },
+  "v3_current_comparison_selection_20261018": {
+    "reason": "Historical 2026-10-14 unknown dimensions and incomplete I/O appeared alongside later verified specifications in the active view.",
+    "change": "Explicitly select current manufacturer checks and every subsequent source/price qualification; preserve original comparison verbatim outside selection. Carry forward current K/F/B and unresolved looper status.",
+    "verification": "Selection tests passed; historical prefix verified byte-identical. Reviewed four projected rows, retained full I/O and price qualifications; final apply/link/count gates run by commit target."
   }
 }

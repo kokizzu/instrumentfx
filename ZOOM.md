@@ -1426,10 +1426,15 @@ Checked **2026-10-14**. **Partial records**: `?` means unverified, not No. Dimen
 
 Original V3 sources: [manufacturer source](https://zoomcorp.com/en/us/vocal-processors/vocal-processors/v3/); [manufacturer source](https://zoomcorp.com/documents/1332/E_V3_2.pdf). Complete legacy comparison read; [original](ALL-VOCAL.md)<!-- historical-link:zoom-024 --> retained with incoming links.
 
+<!-- comparison evidence begins -->
+
 ### V3 — current manufacturer checks
 
 | Required field | Current evidence / limits (2026-10-16) |
 |---|---|
+| Knobs / footswitches / buttons | **7 / 0 / 23**, following the named control inventory below; rear toggles separate. |
+| Looper / practical use | Hand-operated desktop/mic-stand unit; built-in looper remains unverified. |
+| I/O / complete inventory | XLR microphone with +48V; L/R TS line outputs; 3.5mm AUX and phones; CTL for FP02M/FS01; USB Micro-B and AD-16 power connection. Line/CTL jack diameter remains unverified. |
 | Physical controls / expression | Seven named rotary controls: KEY, COMP, DELAY, REVERB, EFFECT ADJUST, rear VOLUME and PHONES VOLUME. Buttons:16 effect selectors +5 harmony +ENHANCE +EFFECT OFF =23; no built-in footswitch or expression/toe pedal. Rear power/phantom toggles separate. External FP02M adjusts effect amount; FS01 switches selected effect off. [V3-M] |
 | Processing / presets | One selected effect alongside delay/reverb and compression/enhance;16 choices are alternatives. Per-effect states retained; named preset-bank capacity not established. Harmony permits two of five options; selecting a third cancels the earliest. [V3-M] |
 | Power / USB / live | Four AA; USB power supported. Low bus supply may require AD-16. Lightning iOS connection instructions require camera adapter and AD-16. Alkaline estimate3.5h; standard pitch435–445Hz in1Hz steps; ECO auto-off10h. [V3-M] |
@@ -1517,6 +1522,8 @@ Checked2026-10-18 against [official manual pp.10–14][V3-M],Z2I-3982-02;web tex
 | Practical / firmware fixes | [Own firmware history](https://zoomcorp.com/documents/3205/V3_System_Software_Version_History_130_en.pdf): **1.10 (July 2021)** fixes intermittent effect-output loss; **1.20 (June 2022)** fixes freezes after more than 15 minutes with harmony, either pitch-correction mode, unison, octave, deep, child or formant character. Historical fixes do not confirm installed firmware. |
 | USB / host volume | **Firmware1.30 (March 2023)** adds host volume adjustment from Windows with V3 ASIO, Mac, iPhone and iPad. [Japanese announcement](https://zoomcorp.com/ja/jp/news/V3update/) specifies **Windows driver1.1.1 or later**. This is audio volume control, not a patch editor. |
 | Editor / driver / Windows DAWs | [Own ASIO history](https://zoomcorp.com/documents/3610/V3_Driver_Windows_Software_Version_History_120_en.pdf): **1.1.1** host volume requires **firmware≥1.30**; **1.2.0 (June 2023)** fixes unavailable audio I/O or DAW freezes with Ableton Live/PreSonus Studio One on CPUs with many logical processors. No universal DAW compatibility or local test inferred. |
+
+<!-- comparison evidence ends -->
 
 ## V6-SP
 
