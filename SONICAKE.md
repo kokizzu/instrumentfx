@@ -488,6 +488,13 @@ New prices are individual official-store observations checked **2026-10-14**, no
 | USB audio / second-source corroboration,2026-10-18 | The [official QME-200 page](https://www.sonicake.com/products/matribox-ii-pro) explicitly advertises multiple virtual USB interfaces,Loopback andRe-Amp,plusAUX recording. This corroborates those general Pro functions independently of the Japanese manual’s sibling-name wording;it does not confirm exact channel assignments or minimum firmware. The linked [English firmware1.2.2 manual](https://sonicake.oss-accelerate.aliyuncs.com/res/JIyz39IVZe/Matribox_II_PRO_Online_Manual_EN_Firmware_V1.2.2.pdf) could not be inspected:reader rejected38,640,860bytes as too large. No local download attempted;its contents remain unverified. |
 | Software / Windows11 notice conflict | The same page’s update notice requires a driver update first,while its FAQ describes an update/restoration hang after a Windows11 update,recommends Windows10/Mac/Windows10VM,and says avoid reconnecting to Windows11 until fixed. Preserve both instructions;no resolved fix,current OS-build compatibility or V5.57.1 driver cure is established. Driver version is a listing,not proof that either instruction is obsolete. No driver/update executed. |
 
+
+| Field | Evidence / qualification |
+|---|---|
+| Looper / mode-specific limits,2026-10-18 | Printedp12: **Pre records dry mono up to90seconds;Post records effected stereo up to45seconds**. Undo/redo affects the last overdub. Auto recording waits for playing;Drum Sync starts on the bar boundary and adjusts phrase timing to the rhythm. Phrase retention across power/preset changes remains unverified. [Exact Pro manual](https://www.hotone.jp/files/brands/sonicake/products/matribox-ii-pro/manual/20260803-070736-v5r131-matribox_ii_pro_jp.pdf) |
+| Expression / assignment limit | P9 prose permits three effect parameters per expression state,describing internalEXP1/externalEXP2 A/B states. Menu labels distinguish EXP1A,EXP1B andEXP2;external state switching/toe behavior is not independently established. Do not equate multiple destinations with three physical pedals. |
+| Live / tuner and bank modes | P11 tuner reference435–445Hz,default440;Mute/Bypass/Thru output modes. P13 BankSel Initial changes immediately;Wait stages bank selection. These are switching options,not scenes or proof of audio-tail spillover. Existing cover/body revision conflicts still apply. |
+
 Primary [product/download/FAQ](https://www.sonicake.com/products/matribox-ii-pro) supports both the capability statements and unresolved MIDI contradiction. Preserve each rather than choosing a convenient interpretation. Further manual work and exact regional hardware offers remain needed.
 
 <!-- comparison evidence ends -->
