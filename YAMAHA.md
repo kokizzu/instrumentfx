@@ -505,3 +505,17 @@ Primary source routes for exact-edition follow-up:
 - Guitar MK2 manual listed separately inmanufacturerlibrary;exactPDFlink andhardwareedition stillrequireinspection.
 
 FreshShopeequeries Yamaha+Magicstomp,MagicStomp,MagicStompUB99 andMagicStompwithspace didnotyieldanexactprocessor item;UB99search returnedunrelatedmicrophones. No IDR amount,used/newcondition,seller/item,stock,region,bundle,warranty orvoucher established. This isnotproof ofmarketabsence. Full required-fieldprofiles andeditionidentity remainpending;no hardware/software/files downloaded.
+
+### Magicstomp original Guitar — primary-manual lead
+
+[Original Guitar manual,Yamaha Canada](https://ca.yamaha.com/files/download/other_assets/7/334107/magicstomp_en.pdf),31PDFpages,printedpp7–13,24,26,29;text inspected. USAURL403;no byte-equivalence orvisualinspection claim. Stilldiscovery-only,notanactivecount.
+
+| Field | Original-edition finding / qualification |
+|---|---|
+| Controls / display | **4rotaries/3footswitches/1STOREbutton**;separateHIGH/LOWslider. Backlit **16×2characterLCD**;diagonal,color,touch unverified. |
+| Memory | **99preset+99user=198**,userinitiallyduplicatespresetdata;presetsnotwritable. |
+| Body / power | **164W×176D×62H mm;910g**. AC-10 **12VAC/1A**,12Wconsumption;notDCpolarity. Battery/USBpower unverified. |
+| I/O / data | MonoINPUT,separateL/MONO,Routputs,USB,ACIN. USBpatch/editorcommunication;USBaudio unverified. |
+| Editor / historical OS | SoundEditor:Windows98/Me/2000/XP;MacOS8.6–9.22. USBMIDIdriver:MacOS8.5–9.22,OMS2.3.8;manualexcludesOSX/Classic. CurrentOSsupportunverified. |
+| Instrument / processing scope | Manualexplicitlypermitsguitar,bass,line-levelsynthinput;thisdoesnotestablishsynthesisengine. Algorithms,concurrency,expression,imports,completeabsenceaudit andqualifiedIDRoffersremainpending. |
+

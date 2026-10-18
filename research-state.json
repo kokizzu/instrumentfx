@@ -29,13 +29,13 @@
   },
   "cursor": {
     "model": "Yamaha Magicstomp original Guitar discovery",
-    "task": "Read original Guitar own manual and effect list,seek exact edition-specific Shopee item;keep MK2/Acoustic/Bass separate.",
+    "task": "Recover originalGuitar effect list;verify algorithms/concurrency,expression/importscope andexactShopeeidentity beforeactiveaddition.",
     "next_models": [
       "Magicstomp Bass",
       "Magicstomp Acoustic",
       "Magicstomp Guitar MK2"
     ],
-    "after_queue": "378 active models,46 brands,all partial;new Magicstomp leads not active;114 compatibility Markdown files remain;no downloads/workflows/push."
+    "after_queue": "378 active models,46 brands,all partial;Magicstomp leads not active;114 compatibility Markdown files remain;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -118529,7 +118529,7 @@
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
       "ALL-GUITAR.md": "5c239e1bb822497b1bb6b694ac8aab6f239d6fd7c695279a8a454768bf782793",
       "LINE6.md": "bbbe508cca147737b97aadbd9b3fbb2e20faa83c7ae8e717abd7acd42c6e63da",
-      "YAMAHA.md": "8f9b69954f42166b36f083125eec42da3f2417749b28390124c36a0aad15fd6e",
+      "YAMAHA.md": "35ed814c07ec2e7fb3dcdb02813390d34631de70709c8f57aa533fcf3a2152c1",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
       "ALL-BASS.md": "c1daf1140d9579c862aa2d40ef435542d530ab5336368274e78b0956b87c615f",
@@ -119097,5 +119097,12 @@
     ],
     "market": "Shopee exact searches unresolved;UB99 unrelated microphone result rejected.",
     "next": "Read original Guitar own manual and effect list,seek exact edition-specific Shopee item;keep MK2/Acoustic/Bass separate."
+  },
+  "magicstomp_original_primary_20261018": {
+    "destination": "YAMAHA.md#magicstomp-original-guitar--primary-manual-lead",
+    "source": "https://ca.yamaha.com/files/download/other_assets/7/334107/magicstomp_en.pdf",
+    "status": "discovery-only-not-active",
+    "read": "Original Guitar manual text;USA403,UKinaccessible;Canadian manufacturer route readable. No installation.",
+    "next": "Recover originalGuitar effect list;verify algorithms/concurrency,expression/importscope andexactShopeeidentity beforeactiveaddition."
   }
 }
