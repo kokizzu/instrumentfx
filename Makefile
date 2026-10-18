@@ -1963,3 +1963,7 @@ research-commit-blackstar:
 .PHONY: research-commit-lekato
 research-commit-lekato:
 	python3 scripts/lekato_catalogue.py commit
+
+.PHONY: research-commit-keeley
+research-commit-keeley:
+	python3 scripts/keeley_catalogue.py commit

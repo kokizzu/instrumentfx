@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 357,
+  "active_model_count": 358,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 357,
+  "canonical_root_model_count": 358,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "357 unique active/root-canonical;0 legacy-only;42 brands;six excluded;all partial.",
+  "count_reconciliation": "358 unique active/root-canonical;0 legacy-only;43 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Yamaha DG-Stomp",
-    "task": "Savedtuner436–444/reset440,conditionalreverbtails,delayinputfeed andsecondaryMODparameters. Next exactnumericdelayranges/digitaloutputwordwidth ifprimarysource,otherwisefreshShopeenewbrandseries;avoidrepeatingRK5categoryqueries.",
+    "model": "Keeley Delay Workstation",
+    "task": "Addedpartial358thmodel/43rdbrandfromexactShopeeitemandownmanufacturerdualDSParchitecture. Next locateoriginalDelayWorkstationmanual;verifyK/F/B,completeI/O,power,dimensions,memory,routing. No SuperMod/ModWorkstationborrowing.",
     "next_models": [],
-    "after_queue": "357partialmodels;298guitar158bass69vocal;42brands;migrationincomplete;no downloads/workflows/push."
+    "after_queue": "358partialmodels;expected299guitar158bass69vocal;43brands;migrationincomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24873,6 +24873,9 @@
     ],
     "LEKATO": [
       "ME-01"
+    ],
+    "Keeley": [
+      "Delay Workstation"
     ]
   },
   "root_brand_content": {
@@ -25316,11 +25319,14 @@
     ],
     "LEKATO.md": [
       "ME-01"
+    ],
+    "KEELEY.md": [
+      "Delay Workstation"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 298,
+      "record_count": 299,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -25350,10 +25356,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 298 guitar, 158 documented bass-capable, 69 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 299 guitar, 158 documented bass-capable, 69 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "357 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "358 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -45767,10 +45773,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 357,
-    "canonical_root_models": 357,
+    "unique_brand_model_pairs": 358,
+    "canonical_root_models": 358,
     "legacy_only_models": 0,
-    "guitar_view_models": 298,
+    "guitar_view_models": 299,
     "bass_focused_models": 35,
     "vocal_only_models": 24,
     "vocal_view_models": 69,
@@ -45852,7 +45858,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Yamaha DG-Stomp."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Keeley Delay Workstation."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -46153,7 +46159,8 @@
       "DK::iE-350",
       "Blackstar::ID:X Floor Three",
       "Blackstar::ID:X Floor One",
-      "LEKATO::ME-01"
+      "LEKATO::ME-01",
+      "Keeley::Delay Workstation"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -49173,6 +49180,13 @@
       "link": "LEKATO.md#me-01",
       "source_files": [
         "LEKATO.md"
+      ],
+      "finding_files": []
+    },
+    "Keeley::Delay Workstation": {
+      "link": "KEELEY.md#delay-workstation",
+      "source_files": [
+        "KEELEY.md"
       ],
       "finding_files": []
     }
@@ -78282,5 +78296,36 @@
     ],
     "result": "Onlyexistingcategorylead,reopen/storefront inaccessible;exactitemandsellerunresolved. No newmodelorqualifiedprice.",
     "next": "Defercategoryleaduntilnewexactitemevidence;do notrepeatidenticalqueries."
+  },
+  "discovery_keeley_delay_workstation_20261018": {
+    "source": "https://robertkeeley.com/product/delay-workstation/",
+    "offer": "https://shopee.co.id/KEELEY-DELAY-WORKSTATION-DELAY-DAN-REVERB-PEDAL-GITAR-i.113576870.19358013800",
+    "seller": "PersonalMusicShop,Kab.Sukoharjo",
+    "shop_id": "113576870",
+    "item_id": "19358013800",
+    "idr": 3200000,
+    "condition": "unverified",
+    "stock": "unverified",
+    "access": "Directmonth-oldcache/search2monthcache;staleAugustarrival",
+    "eligibility": "ManufacturerdualDSPdelay/reverbcombination;notjustmodesofsinglefunction",
+    "remaining": [
+      "Ownmanual",
+      "K/F/B",
+      "Power",
+      "Dimensions/mass",
+      "CompleteI/O",
+      "Presetmemory",
+      "Display",
+      "Imports/editor",
+      "Bypass/trails"
+    ],
+    "discovery_queries_no_exact_item": [
+      "EHXEpitome",
+      "KeeleyDarkSide",
+      "CarlMartinQuattro",
+      "DonnerAlphaForce",
+      "ElectroHarmonixHolyStain",
+      "EnyaX4"
+    ]
   }
 }
