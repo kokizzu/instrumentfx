@@ -453,6 +453,11 @@ New prices are individual official-store observations checked **2026-10-14**, no
 | Category choices / RVB manual census | **11**,pp52–55:Studio;Club;Room;Hall;Church;Plate;Spring;Sky;Sea;Mod Reverb;Shimmer. Later Haze addition stays separate. |
 | Live / trails and Clone scope | Listed delay/reverb Trail preserves decay when that effect isbypassed;not proof ofpreset-change spillover. P55 listsClone1–5 forNAM imports;five labels do not establish simultaneous model count,native architecture orminimumfirmware. Cover/body/release conflicts remain. |
 
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / DRV manual census,2026-10-18 | **24**,printedpp25–29:Skreamer;Skreamer9;Butter OD;Warm OD;Super OD;Blues OD;Full OD;Breaker OD;Gerden OD;Timmy OD;Master OD;Solar Fuzz;Fuzz Cream;Red Fuzz;JP Dist;Dark Mouse;Plexi Dist;Master Dist;Dist Plus;Shark;Strive;Sardar Dist;Bass OD;Bass Dist. Page subtotals **3+5+7+5+4**. Mode switches are not additional algorithms. [Exact manual](https://www.hotone.jp/files/brands/sonicake/products/matribox-ii-pro/manual/20260803-070736-v5r131-matribox_ii_pro_jp.pdf) |
+| Processing / pedal-effect count basis | Eight manual categories sum to **100 menu choices**:DYN12+FREQ6+WAH6+DRV24+EQ5+MOD21+DLY15+RVB11. This is compatible with advertised93+,not proof of100uniquealgorithms orcurrentinstalledfirmware. AMP,CAB,userIR andClone are separate;later release-note additions are not silently folded into this historical table. Cover/body/revision conflict remains. |
+
 
 Primary [product/download/FAQ](https://www.sonicake.com/products/matribox-ii-pro) supports both the capability statements and unresolved MIDI contradiction. Preserve each rather than choosing a convenient interpretation. Further manual work and exact regional hardware offers remain needed.
 

@@ -75414,7 +75414,7 @@
   },
   "resume_cursor": {
     "model": "Sonicake Matribox II Pro QME-200",
-    "task": "Saved EQ5/MOD21/DLY15/RVB11 manualcensus andTrail/Clonecountlimits. Next DRV/AMP/CABcensus andtotalreconciliation;retaincover/body/firmwareconflicts.",
+    "task": "Saved DRV24 andderived100pedalmenuchoices with93+advertisingscope. Next AMP/CABcensus;do notinfercurrentfirmwaretotals oruniquealgorithms.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75588,5 +75588,30 @@
       6
     ],
     "qualification": "Manualmenucountsnotcurrentfirmwareaggregate;lateralgorithmsseparate;Trailbypassnotpresetspillover;Clone1–5labelsnotconcurrency/architectures"
+  },
+  "matribox_ii_pro_drv_total_20261018": {
+    "source": "https://www.hotone.jp/files/brands/sonicake/products/matribox-ii-pro/manual/20260803-070736-v5r131-matribox_ii_pro_jp.pdf",
+    "pages": "25–29",
+    "DRV": 24,
+    "page_subtotals": [
+      3,
+      5,
+      7,
+      5,
+      4
+    ],
+    "pedal_menu_total": 100,
+    "basis": [
+      12,
+      6,
+      6,
+      24,
+      5,
+      21,
+      15,
+      11
+    ],
+    "qualification": "93+advertisedlowerboundcompatiblewith100menuentries;notuniquealgorithm/currentfirmwareproof;AMP/CAB/IR/Cloneexcluded",
+    "next": "CountAMP/CABentriesindependently;preservevariant/channel/physicalcabversusacousticbodydistinctions"
   }
 }
