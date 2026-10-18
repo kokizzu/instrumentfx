@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Behringer X V-AMP LX1-X",
-    "task": "Admitted partial guitar profile from ownmanual;next resolve exactamp/cab census,powerconnector/outputtopology andfactoryfill. Preserve50/70mm and0.80/0.75kg sourceconflicts;shop49070533/item1303711852 notstock/newconditionproof.",
+    "task": "Saved selector16=12amp+2drive+acoustic+bypass;resolvedacousticsimulation. Power/cabinet/outputtopology stillunverified;nextanotherrequiredgap orfreshbrand discovery ratherthanrepeatpowerqueries.",
     "next_models": [],
     "after_queue": "352partialmodels;293guitar155bass68vocal;legacycompatibilitymigration incomplete;no downloads/workflows/push."
   },
@@ -60076,6 +60076,22 @@
         "Imports/software"
       ],
       "method": "Manufacturer-authoredcopies identitychecked;browsertextonly,no downloads"
+    },
+    {
+      "model": "Behringer X V-AMP LX1-X",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://www.fullcompass.com/common/files/22449-BehringerXVAmpLX1XUserManual.pdf"
+      ],
+      "finding": "Ownpp8–10 named12amp+2drive+Acoustic+AmpBypass=16selectorentries;acousticsimulationresolved;16effectgroups distinctfromsubmodels/concurrency.",
+      "remaining": [
+        "Cabinet census/independence",
+        "Power output voltage/current",
+        "Output topology",
+        "Initial user mapping",
+        "Qualified used/new IDR"
+      ],
+      "method": "Original manual text,no downloads"
     }
   ],
   "discovery_cross_brand_bass": {

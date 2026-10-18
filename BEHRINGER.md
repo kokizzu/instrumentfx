@@ -489,10 +489,10 @@ Checked2026-10-18;partial guitar multi-effects. Bass/vocal suitability andowners
 | K/F/B | **2/2/7**,text-derived:ADJUST,FX/AMPS;UP,DOWN;STORE,NOISE G.,COMPR.,MODUL.,DELAY,REVERB,TAP. Toe additional;visual audit pending. [M pp4–6][XV-M] |
 | Display | Two-digit seven-segment LED;diagonal,color/touch unverified. [M p12][XV-M] |
 | Dimensions / mass | 2013 manual:**235W×175D×50H mm;0.80kg**,shipping2kg. Older manual:**235W×175D×70H;0.75kg**,shipping1.75kg. Revision conflict retained. [M p12][XV-M];[older p12][XV-OLD] |
-| Processing / choices | Seven preset ingredient groups:amp,cab,pre-effects,EQ,modulation,delay,reverb;not seven elemental blocks. MOD8,DLY4,RVB4;compressor/gate/wah. Amp/cab census pending. [M pp5–10][XV-M] |
+| Processing / choices | Seven preset ingredient groups:amp,cab,pre-effects,EQ,modulation,delay,reverb;not seven elemental blocks. MOD8,DLY4,RVB4;compressor/gate/wah. Selector census below;cabinet census pending. [M pp5–10][XV-M] |
 | Routing / effect limits | Wah excludes AutoWah/P-Funk’n/PitchBend. PHONES includes amp/cab;AMP+FX omitscab;FX-only omitsamp/cab. [M pp5–7][XV-M] |
 | Factory / user memory | **100 rewritable00–99**;single/all factory restoration. Initial filled-slot mapping unverified. [M p8][XV-M] |
-| Synth / acoustic | Dedicated synthesis/acoustic simulation unverified. |
+| Synth / acoustic | **ACOUSTIC simulates a steel-string guitar miked with a dynamic microphone**. Dedicated synth remains unverified. [M p9][XV-M] |
 | I/O | ¼TS instrument,¼TRS stereo LINE/PHONES,¼TS MONO AMP,AC IN. Stereo-output specification also says balanced:signal topology unresolved. [M pp6,11–12][XV-M] |
 | Power / battery / USB | External two-pole supply;**7W maximum**. Unit voltage/current,connector dimensions,polarity,battery/USB operation unverified. [M p12][XV-M] |
 | Conversion | 24-bit;31.250kHz;approximately5ms latency;stereo delay1960ms maximum. [M p12][XV-M] |
@@ -507,6 +507,17 @@ Checked2026-10-18;partial guitar multi-effects. Bass/vocal suitability andowners
 | Used | Unverified. | — |
 | New | Unverified. | — |
 | Category-linked exact hardware;condition unknown | **Rp1,505,000**,shop49070533/item1303711852,Kab.Jombang. Checked2026-10-18;opened September category,month-oldcache. Direct item cache miss. Seller name,selectedvariant,workingstate,stock,adapter/bundle,warranty,voucher,shipping/tax andcheckout total unknown. Category href includes display_model_id72824378820;variant notresolved. Notlive stock orcondition-specific price. | [Category](https://shopee.co.id/search?keyword=%2CLX1) · [Exact linked item](https://shopee.co.id/BEHRINGER-X-V-AMP-LX1-X-i.49070533.1303711852) |
+
+
+### X V-AMP — amp/drive selector census
+
+| Field | Exact-model evidence / qualification |
+|---|---|
+| Processing / amp simulations12 | CLASSIC CLEAN;V-AMP CRUNCH;BRITISH PLEXI;BRIT CLASS A;BRIT HI GAIN;SAVAGE BEAST;NUMETAL GAIN;MODERN GAIN;BLACK TWIN;ULTIMATE GAIN;TWEED COMBO;TWEED BASS. Manual-derived named inventory,not12 concurrent amps. [M pp8–9][XV-M] |
+| Processing / selector entries16 | Those12 plusSCREAMER andEL RATON drive pedals,ACOUSTIC,andAMP BYPASS give **16 selector entries**. AMP BYPASS omits amp processing;do not call all16 amp emulations. Cabinet count/independence remain unverified. [M pp8–9][XV-M] |
+| Processing / effect selection | Manual describes16 effect groups andone choice each fromMOD/DELAY/REVERB. Internal1–4 models are subchoices,not extra simultaneous blocks. [M pp9–10][XV-M] |
+
+Checked2026-10-18;manufacturer manual text only,no downloads ordevice operation.
 
 <!-- comparison evidence ends -->
 
