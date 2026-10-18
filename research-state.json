@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceLive 3 Extreme",
-    "task": "Saved SUMBERMAS exact item27456931754 with conflicting cached prices/stock markers. Continue fresh hardware discovery or unresolved primary gaps;114 Markdown compatibility files retained.",
+    "task": "Saved VL3X Amp/Boost gain substitution andvocal reverb sends;style totals remain unresolved. Continue fresh exacthardware discovery orprimary gaps;114 Markdown compatibility paths retained.",
     "next_models": [],
     "after_queue": "342 partial unique models; Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -58366,6 +58366,14 @@
       "search_delivery": "7 July stale",
       "direct_delivery": "14 September stale",
       "discovery": "No exact VoiceLive2/Touch1 hardware established;unqualified voicelive title not assigned."
+    },
+    {
+      "model": "TC-Helicon VoiceLive 3 Extreme",
+      "checked": "2026-10-18",
+      "finding": "Amp pre/post parametric EQ,Boost gain substitution andvocalreverb distinctfeeds/ducking documented;repeated menu controlsnotextra blocks;complete stylecounts unresolved.",
+      "source": "https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual",
+      "revision": "2015-10-20 firmware2.1.00 build346",
+      "pages": "101,115–117"
     }
   ],
   "discovery_cross_brand_bass": {

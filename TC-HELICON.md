@@ -404,6 +404,16 @@ Checked **2026-10-18**, seller evidence only.
 |---|---|---|
 | IDR Condition unknown / conflicting cached views | **SUMBERMAS MUSIK**, Kota Tangerang Selatan; shop579506457/item27456931754. Three-month search cache shows **Rp13,567,000 and Habis** with stale7July delivery; direct opened JS-limited body, labelled last-month crawl, shows **Rp15,605,000** and stale14September delivery without the sold-out marker. These are conflicting cached observations, not a current range or stock confirmation. Condition,working state,selected variation,adapter/bundle,warranty/import region,authenticity,shipping/tax,voucher eligibility and delivered total remain unknown. Up-toRp10,000 late compensation is not deducted. Exact title identifies Extreme hardware; no checkout or completed-sale evidence. | [Exact item](https://shopee.co.id/TC-Helicon-VoiceLive-3-Extreme-Guitar-and-Vocal-Effects-Processor-Pedal-i.579506457.27456931754) |
 
+
+### VoiceLive 3 Extreme — guitar gain and reverb controls
+
+Checked2026-10-18 against the manufacturer-authored reference manual2015-10-20,firmware2.1.00 build346;mirror document body only.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / Amp and Boost gain | Guitar Amp provides pre/post parametric EQ with low/mid/high gain,frequency andbandwidth controls,plus Tube/Transistor mode,sag andspeaker shaping. Repeated quick-access gain controls in the menu are the same parameters,not extra blocks. Drive’s Boost uses its own PreGain/PostGain **in place of active Amp gain settings**;it may therefore produce less distortion or lower level. This does not establish two simultaneously independent amp chains. | [Reference pp115–117][VL3X-M] |
+| Processing / vocal reverb sends | Vocal Reverb exposes separate feeds from lead,harmony,delay andchoir,plus ducking threshold/amount/time,early-reflection andtail levels. These are routing/parameter controls,not additional reverb algorithms or a complete style census. Guitar andvocal effects retain separate layers. | [Reference p101][VL3X-M] |
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified exact hardware lead
