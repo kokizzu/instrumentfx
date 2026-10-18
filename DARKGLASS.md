@@ -93,3 +93,16 @@ Checked 2026-10-18; no plugin/manual files downloaded.
 | Editor / licensing evidence gap | Official edition links [Anagram Marketplace](https://marketplace.anagram.shop/),but browser text response was empty. Edition page establishes bundled premium guitar content;ordinary-device purchase eligibility,price,activation,transfer andused-device license retention remain unverified. Open-source component notices are not marketplace entitlement evidence. |
 
 Next research: return toexact Shopee discovery,prioritizing an identifiable Guitar Essentials offer oranother eligible missing model. Retain unresolved file-format,area-capacity,license andpanel fields forAnagram rather than repeating unchanged searches.
+
+### Anagram — electrical limits, latency and MIDI switching
+
+Checked 2026-10-18 against the [KosmOS 1.17 manufacturer PDF][ANA-M], PDF pp.92–95. Text inspection; these are published specifications, not measurements of a unit.
+
+| Field | Version-qualified evidence / boundary |
+|---|---|
+| I/O / analog levels and impedances | Instrument and Return: **1 MΩ, +12 dBu maximum input**. Send: **100 Ω, +12 dBu maximum output**. XLR outputs: **100 Ω, +2.2 dBu maximum**; unbalanced quarter-inch outputs: **100 Ω, +12 dBu maximum**. These different output limits are not a shared headroom rating. |
+| I/O / headphones | **Less than 1 Ω** output impedance and three gain stages. Maximum headphone power/load rating remains unverified. |
+| Routing / published latency | Instrument-to-any-output empty chain: **1.31 ms**; with FX Loop or Return block present: **2.62 ms**. Manufacturer cites Audio Precision APx515 DUT Delay measurement. These are not arbitrary loaded-chain or USB round-trip figures. |
+| MIDI / toggle logic | Value mode: CC0–63 sets a binding off, 64–127 on. Toggle mode: any nonzero value toggles. Applies to stomp foot bindings and knob-bound toggle/bypass parameters. |
+| MIDI / redundant program changes | Ignore Redundant PC on leaves the active preset untouched; off reloads its saved state. MIDI channel can be Omni. This does not resolve 1.18 multi-area addressing or capacity. |
+
