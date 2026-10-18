@@ -4309,10 +4309,10 @@ Original bass multi-effects; partial, checked2026-10-18. Distinct fromB2.1u/B2 F
 | Field | Finding / qualification |
 |---|---|
 | Expression | No built-in/toe pedal; CONTROL IN accepts FP02/FP01 orFS01. |
-| K/F/B | **4/2/?**,text-derived: module selector+3parameter knobs;2footswitches;button census pending. |
+| K/F/B | **4/2/5**,text-derived: module selector+3parameter knobs;2footswitches;STORE,BANK−/+,TAP,RHYTHM buttons. Rear POWER switch separate. Visual corroboration pending. [Own manual pp6–7](https://zoomcorp.com/media/documents/E_B2.pdf). |
 | Display | Two-digit7-segmentLED plusparameterLEDs;diagonal/color/touch unverified. |
 | Processing / categories | **47 types;maximum9 simultaneous modules**;category census pending. |
-| Memory | **40 user+40 read-only presets=80**;initial user fill unverified. |
+| Memory | **40 user+40 read-only presets=80**. UserA0–d9 initially duplicates preset00–39; all40 user slots factory-filled. All Initialize overwrites user edits with originals. [Own manual p20](https://zoomcorp.com/media/documents/E_B2.pdf). |
 | Synth / acoustic | StandardSynth,SynthTalk andmonophonic MonoSynth documented;acoustic simulation unverified. |
 | Dimensions / mass | **156W×162D×65H mm;700g without batteries**. |
 | I/O | Mono input,stereo line/headphone output,CONTROL IN,DC. Complete socket audit pending. |
@@ -4321,5 +4321,6 @@ Original bass multi-effects; partial, checked2026-10-18. Distinct fromB2.1u/B2 F
 | IR / NAM / capture | Unverified. |
 | Practical features | Rhythms disable reverb whileplaying. Looper/scenes unverified. |
 | IDR price | Used/new unknown;Shopee searches returned B2 FOUR,notqualified originalB2. Seller/stock/condition/bundle/warranty/voucher unverified. |
+| Practical features / rhythms and tuner | **40 rhythm patterns,40–250BPM**,available inplay or bypass/mute;reverb disabled duringrhythm playback. Tuner reference **435–445Hz**,resets440Hz atpoweron. Bothfootswitches briefly=bypass;hold≥1s=mute. Uneven simultaneous presses can momentarily select another patch. [Own manual pp10–13](https://zoomcorp.com/media/documents/E_B2.pdf). |
 
 <!-- comparison evidence ends -->

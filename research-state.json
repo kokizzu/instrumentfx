@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Zoom B2",
-    "task": "Audit button inventory,initial user fill,complete ports andcategory census from own manual;search exact originalB2 hardware offers. Do notborrowB2.1u/B2FOUR.",
+    "task": "Verified text-derived4/2/5 controls,40factory-filled usercopies,40rhythms andtuner behavior. Next complete category census/ports/exactoriginalB2Shopeeoffers. No repeatedmemory/countaudit.",
     "next_models": [],
-    "after_queue": "368active/46brands;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
+    "after_queue": "368active/46brands;307guitar161bass69vocal;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -81103,5 +81103,11 @@
       "site:shopee.co.id \"506ii\" bass"
     ],
     "discovery_result": "No qualified hardware offer; no price invented."
+  },
+  "b2_controls_memory_20261018": {
+    "source": "https://zoomcorp.com/media/documents/E_B2.pdf",
+    "printed_pages": "6–7,10–13,20",
+    "finding": "Button count andinitial user fill verified;rhythm/tuner qualifications saved.",
+    "status": "partial"
   }
 }

@@ -658,7 +658,7 @@ def main():
             message = 'research(zoom): document A1 FOUR synth algorithms and additional-effect scope'
         if mode == 'commit-b3n':
             paths += ['MULTI-EFFECTS.md']
-            message = 'research(zoom): add original B2 bass processor profile'
+            message = 'research(zoom): verify B2 controls factory memory and rhythms'
         if mode == 'commit-g3n':
             message = 'research(zoom): verify G3n external expression enable path'
         if mode == 'commit-g5n':
