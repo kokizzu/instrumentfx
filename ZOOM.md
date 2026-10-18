@@ -3171,6 +3171,20 @@ Checked 2026-10-17; partial. Officially bass-focused; seller’s guitar title do
 | New | No qualified model-specific amount. | — |
 | Mixed listing, unverified condition | **Rp1.099.000 listing-level ask only**; 606/607 Japan/China variants unresolved. Shop703817770/item20045443371; Bandung category attribution. Saved category crawl two months old/search index last month. Exact link resolved but item inaccessible; no 607 price assigned. | [Mixed item][Z607-O] |
 
+### 607 — converters, analog levels and patch-write limits
+
+Checked 2026-10-18 from the [original manufacturer manual](https://zoomcorp.com/media/documents/E_607.pdf), code607-5000-1; extracted text only,no local download or visual inspection.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / converters | P38: **20-bit ADC,64×oversampling;20-bit DAC,8×oversampling;31.25 kHz** sampling. These are converter specifications,not a USB audio format. |
+| I/O / analog ratings | P38: mono input **−20 dBm rated,470 kΩ**; shared stereo line/headphone output **+5 dBm maximum into≥10 kΩ**. Source defines0 dBm=.775 Vrms; retain its published unit rather than silently relabel dBu. Rated input is not maximum input. |
+| Power / battery switching | Pp5–8: mono INPUT plug switches battery operation on; unplugging prevents drain. Connecting the specified adapter powers the unit. Batteries cannot be recharged in607. Power-up enters Play irrespective of selector position. |
+| Memory / edited patch persistence | Pp17–19: unsaved edits revert when another patch is selected. STORE chooses a target,then STORE confirms; destination is overwritten. User-created contents cannot be recovered by factory recall. VALUE± or moving PLAY/EDIT cancels storage. |
+
+Current source supports the existing bass classification; mixed606/607 seller variations still do not establish an exact607 price.
+
+
 <!-- comparison evidence ends -->
 
 Seller, stock, authenticity/origin, working state, bundle, adapter, warranty, shipping/tax and vouchers unresolved. Browser manual text; no download or visual inspection claimed. [Official support][Z607-S] independently categorizes 607 under bass effects.
@@ -3178,6 +3192,7 @@ Seller, stock, authenticity/origin, working state, bundle, adapter, warranty, sh
 [Z607-M]: https://zoomcorp.com/media/documents/E_607.pdf
 [Z607-S]: https://zoomcorp.com/en/us/multi-effects/bass-effects/607/607-support/
 [Z607-O]: https://shopee.co.id/Efek-Gitar-Zoom-606-607-Made-Japan-dan-China-i.703817770.20045443371
+
 
 ## B1X original
 

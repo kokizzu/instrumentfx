@@ -75413,8 +75413,8 @@
     "next": "Fresh Shopee GP-series discovery; GP-100VT manufacturer lead requires exact hardware offer and own-model technical evidence."
   },
   "resume_cursor": {
-    "model": "Zoom G5n",
-    "task": "Saved derived20rotaries,exactanalogratings,rearinventory andECO/power behavior. Next freshShopee discovery orother remaining fields;fullswitch/button totals andUSBpower stillunknown.",
+    "model": "Zoom 607",
+    "task": "Saved converter/analog ratings,power switching andSTORE overwrite limits. Next fresh Shopee discovery or unresolved required fields;keep mixed606/607 ask unassigned.",
     "next_models": [],
     "after_queue": "349 partial models;114 Markdown compatibility files remain;no downloads/workflows/push."
   },
@@ -75446,5 +75446,18 @@
     "revision": "V2 original text,printed pp3–6,58",
     "result": "20 rotaries derived4units*4+4 named controls;analog nominal/maximum ratings and rear inventory saved",
     "remaining": "Full footswitch/button totals,USB subtype/control wiring,battery/USB power,display,current library/import and qualifiednew/used prices unknown"
+  },
+  "zoom607_analog_memory_20261018": {
+    "source": "https://zoomcorp.com/media/documents/E_607.pdf",
+    "identity": "607-5000-1 manufacturer manual original text",
+    "findings": "20bit ADC64x/DAC8x31.25kHz;nominalinput−20dBm470kohm/outputmax+5dBm>=10kohm,published0dBm=.775Vrms;inputbattery switching;STORE overwrite/unsaved edit loss",
+    "discovery_queries": [
+      "site:shopee.co.id Zoom607 efekbass",
+      "site:shopee.co.id Boss ME-6B",
+      "site:shopee.co.id Korg AX1B",
+      "site:shopee.co.id Digitech BP200"
+    ],
+    "discovery_result": "No qualified new exacthardwaremodel;BP200 adaptor4486100964 rejected,606/607mixedexistinglisting not exactprice",
+    "remaining": "Published display diagonal/color/touch;qualifiedseparateused/newIDR;import/editor capabilities;looper/drums/scenes remainunknown"
   }
 }
