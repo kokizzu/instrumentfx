@@ -2031,3 +2031,7 @@ research-commit-boss:
 .PHONY: research-commit-zoom
 research-commit-zoom:
 	python3 scripts/zoom_catalogue.py commit
+
+.PHONY: research-commit-mooer
+research-commit-mooer:
+	python3 scripts/mooer_catalogue.py commit

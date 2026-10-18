@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "MOOER Prime S1",
-    "task": "Refreshed gapindex for388models;read fullPrimeS1canonical section andsaved primary/access attempts,thenverify controls/display/processing fromexactmanual ormanufacturer. Retainallsourceconflicts;donotrepeatunchangedGX-1/B3npaths.",
-    "next_models": [
-      "MOOER::Prime S1"
-    ],
-    "after_queue": "Resume freshShopeebrandseriesdiscovery andmanufacturer gaps;388active47brands;allpartial,migrationincomplete;no downloads/workflows/push."
+    "model": "MOOER Prime S1 remaining fields / discovery",
+    "task": "S1manualspecificlooper/drumcontrols andchargingindicatorssaved. Controls1rotary4footswitch0buttons text-derivedalreadyknown;avoidrepeatingasnew. Next exactmemory/library/NAMformatprimarydocumentation orfreshShopeediscovery. All388partial;migrationincomplete.",
+    "next_models": [],
+    "after_queue": "388active47brands;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -46337,7 +46335,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery / manufacturer gaps."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER Prime S1 remaining fields / discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -121006,5 +121004,15 @@
     "flagged_fields": 4987,
     "qualification": "Lexicalflagindexonly;historicalcaveatsandmissingfieldsrequiremanualreview;no completioncertification.",
     "next_selection": "MOOER Prime S1 controls/display/processing;read entire exact record before research."
+  },
+  "prime_s1_live_controls_20261019": {
+    "source": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_P_S1_BK_Manual_EN.pdf",
+    "pages": "7–9",
+    "findings": [
+      "Mode-dependentA/BlooperandC/Ddrumcontrols",
+      "Tap/grooveidle3seconds;holdC2seconds",
+      "Redlowbattery/greenchargecomplete"
+    ],
+    "remaining": "OriginalhostmanualnotexposedaslinkinproductHTML;LCD/LED126/128bankdirectionconflicts persist;visualaudit/library/memory/NAMconstraints unresolved."
   }
 }

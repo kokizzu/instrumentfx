@@ -1923,6 +1923,16 @@ Checked2026-10-18 against [MOOER Japan/LEP's exact S1 tutorial](https://mooer.jp
 
 NAM followup found explicit native/converted distinctions for other MOOER families,butnotS1. Do not transfer GE1000/GS1000 nativeA2Lite orGE300 conversion claims. The existing Chinese S1/M1 NAM A2 announcement remains qualified;its exact architecture,conversion andfile constraints are unresolved. No software,files orfirmware downloaded orrun.
 
+### Prime S1 — manual live controls and charging indicators
+
+[Exact S1 original-manual mirror](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_P_S1_BK_Manual_EN.pdf),printedpp7–9;checked2026-10-19. Earlier126-effect document;firmware revision unprinted. No device operated.
+
+| Field | Evidence / qualification |
+|---|---|
+| Looper / physical operations | In looper mode,A arms input-triggered recording andcontrols play/overdub;B stops,holdB deletes recordedtrack(displayLD). D starts/stops drums. C enters tapmode;manual specifies morethanthree taps,then3secondsidle exits. HoldC2seconds entersgroove selection,C/D changegroove,3secondsidle exits. These are mode-dependent assignments,notextrafoot controls. |
+| Power / indicator meanings | Lowbattery blinksred;charging indicator lightswithsupply andturnsgreen whencomplete. No charge-duration specification established. |
+
+
 ## Ocean Machine II
 
 Checked 2026-10-18; partial active guitar multi-effects record. Original Ocean Machine is a distinct revision.
