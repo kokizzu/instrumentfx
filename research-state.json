@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh eligible hardware discovery / required gaps",
-    "task": "Plethora X3 iOS/iPadOS16+ and TonePrint4.6.18 dated store evidence saved; separateTCapp excluded. Next desktop/Android OS verification or other required-field gap/newShopee series. X3 loopduration/display/power/factoryfill remain unknown; do not infer AppleVision hardware compatibility from store install eligibility.",
+    "task": "Plethora X5 dated iOS/iPadOS16+ and explicit Android app support saved; separateTCapp excluded. Next desktop/Android minimumOS primary evidence or fresh hardware series. Keep X5/X3 hardware,loopduration and dimensional conflicts separate.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -78926,5 +78926,28 @@
       "Factoryfill"
     ],
     "method": "Developerpublishedstoretext;no apporfilesdownloaded;reviewsnotusedasmanufacturerfacts"
+  },
+  "plethora_x5_mobile_os_20261018": {
+    "status": "partial",
+    "sources": [
+      "https://apps.apple.com/us/app/toneprint/id432767616",
+      "https://play.google.com/store/apps/details?hl=en&id=com.tcelectronic.toneprint",
+      "https://play.google.com/store/apps/details?hl=en&id=com.tcelectronic.tcapp"
+    ],
+    "findings": [
+      "ExplicitX5Bluetoothediting inbothdeveloperlistings",
+      "AppleTonePrint4.6.18released2025Apr1,minimumiOS16/iPadOS16",
+      "Androidlistingupdated2025Mar26;minimumOSunknown",
+      "SeparateTCappnotTonePrintgenerationcompatible"
+    ],
+    "remaining": [
+      "DesktopOSarchitecture",
+      "Androidminimum",
+      "Displaydetails",
+      "Factoryfill",
+      "ActualdrawUSBpower",
+      "Dimensionsaxisconflict"
+    ],
+    "method": "Storetextonly;noinstallationdownloadorhardwareoperation"
   }
 }

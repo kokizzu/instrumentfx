@@ -461,7 +461,7 @@ def main():
         if mode == 'commit-mg20':
             message = 'research(nux): document Amp Academy Stomp USB playback and preset controls'
         if mode == 'commit-m100':
-            message = 'research(tc-electronic): qualify X3 mobile OS and app identity'
+            message = 'research(tc-electronic): verify X5 dated mobile editor compatibility'
         if mode == 'commit-rfx1100':
             message = 'research(zoom): qualify RFX1000 conversion levels and additional offer'
         if mode == 'commit-spx990':
