@@ -589,7 +589,7 @@ Checked 2026-10-18; partial. Separate Acoustic edition. [Own Yamaha manual](http
 | IR / NAM / capture | User IR, native/converted NAM and proprietary capture import unverified; patch transfer proves none. |
 | Editor / software | Sound Editor with USB-MIDI. Historical Windows98/Me/2000/XP; Mac editor8.6–9.22, driver8.5–9.22/OMS2.3.8; OS X/Classic excluded. Current OS/USB audio unverified. |
 | Looper / drums / routing | Looper/drums/scenes unverified. AFR factory ON, AcousticMulti only, five notch filters; filters clear on patch change. Tuner mutes OUTPUT/PHONES;438–445Hz. |
-| Used IDR | Unknown; exact Acoustic Shopee query found no offer,2026-10-18. |
+| Used IDR | Unknown; exact Acoustic Shopee queries found no qualified offer on 2026-10-18 and 2026-10-19. Search absence does not establish market absence. |
 | New IDR | Unknown; seller/item,condition,stock,region,variant,bundle,warranty,voucher unverified. Search absence is not market absence. |
 
 
@@ -617,6 +617,19 @@ Checked 2026-10-18; partial. Separate Acoustic edition. [Own Yamaha manual](http
 | Footswitches / performance mode | Three switches select predetermined adjacent patch triplets. Holding −/+ changes triplet; holding any two switches changes selection mode. Scenes unverified. |
 | Knobs / editing | Parameter pickup requires matching the saved value before adjustment. Normal adjustments: effect ON only; unavailable during Store/Name Edit/Tuner. Deep Edit assigns parameters to the three knobs. |
 | Memory / edit retention | Unsaved edits disappear on patch change or power loss; changing effect type resets edited parameters. Volume-knob setting is not stored. Names allow12 characters; USB connection displays11. |
+
+
+### Magicstomp Acoustic — electrical ratings and transfer scope
+
+Checked 2026-10-19 against the [exact Acoustic owner manual, printed pp9,25–27,33](https://usa.yamaha.com/files/download/other_assets/9/334079/magicstomp_acoustic_en.pdf). Original Yamaha text; no hardware test or local download.
+
+| Field | Exact-model evidence / qualification |
+|---|---|
+| Processing / conversion | **44.1 kHz; A/D “24 bit + 3 bit Floating”; D/A 24 bit**. Preserve Yamaha’s converter description; it is not a claim of a conventional 27-bit converter or USB stream format. |
+| I/O / level and impedance | INPUT HIGH **−25 dBm / 1 MΩ**; LOW **−15 dBm / 1 MΩ**. Main L/MONO and R outputs **0 dBm / 1 kΩ**; PHONES **−10 dBm / 150 Ω**. Units are dBm as published, with no dBu conversion or measured-output claim. |
+| I/O / HIGH-LOW wording conflict | Component description p9 calls HIGH/LOW an impedance selection, while p33 gives **1 MΩ for both positions** with different levels. The wording conflict remains explicit; no different input impedance is inferred. |
+| Editor / patch transfer limits | Receives Parameter Change and Bulk In for **1 or 99 patches**; transmits Bulk Out **99 patches**. CD library patches transfer into U01–U99, not additional onboard memory. These are patch/MIDI data capabilities; USB audio remains unverified. |
+| Memory / factory reset scope | Factory Set overwrites current User Patch contents with copies of the Preset Patches. It therefore loses customized user data; it does not resolve the documented effect-count conflict. No reset performed. |
 
 <!-- comparison evidence ends -->
 

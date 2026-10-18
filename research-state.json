@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Manufacturer technical gaps / Shopee discovery",
-    "task": "M350 MIDI CC map andclockdirection saved withadditionalcondition-unverifiedCHdada preorder ask. ContinuefreshShopee discovery oranother active-model technicalgap;controls,editorOS andqualifiedused/newprices remainunresolved.",
+    "task": "Magicstomp Acoustic converter/analogratings,HIGH-LOWwordingconflict andpatchtransfer/resetlimits saved. NoexactAcousticShopeeofferfound. ContinuefreshShopee discovery oranotheractive-modelgap;all387recordspartial andmigrationincomplete.",
     "next_models": [],
     "after_queue": "387 active models,46 brands,all partial;no downloads/workflows/push."
   },
@@ -120368,5 +120368,30 @@
       "site:shopee.co.id \"Alesis Picoverb\" efek"
     ],
     "result": "No qualifying exacthardware offer returned;no price ormarketabsence claim."
+  },
+  "magicstomp_acoustic_electrical_20261019": {
+    "checked_date": "2026-10-19",
+    "model": "Yamaha Magicstomp Acoustic",
+    "source": "https://usa.yamaha.com/files/download/other_assets/9/334079/magicstomp_acoustic_en.pdf",
+    "printed_pages": "9,25–27,33",
+    "findings": {
+      "sampling": "44.1kHz",
+      "adc": "24bit+3bitFloating,originalwording;notnormalizedto27bit",
+      "dac": "24bit",
+      "input_high": "-25dBm/1Mohm",
+      "input_low": "-15dBm/1Mohm",
+      "main_output": "0dBm/1kohm",
+      "headphones": "-10dBm/150ohm",
+      "source_conflict": "p9callsHIGH/LOWimpedanceselection;p33lists1Mohmforbothwithdifferentlevels",
+      "receive": "ParameterChange;BulkIn1patch/99patches",
+      "transmit": "BulkOut99patches",
+      "factory_reset": "OverwritesUserPatchcontentswithPresetPatchcopies;customuserdatalost"
+    },
+    "queries": [
+      "site:shopee.co.id \"Magicstomp Acoustic\"",
+      "site:shopee.co.id \"Magicstomp\" \"acoustic\" Yamaha"
+    ],
+    "market_result": "No exact qualified offer returned;used/newIDRremainunknown,noabsenceinference.",
+    "remaining": "Effectcountconflict,currenteditorOS,expression,screenpublishedspecs,loadingcapabilities andcondition-qualifiedIDRoffers."
   }
 }
