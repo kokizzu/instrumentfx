@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh Shopee Indonesia discovery",
-    "task": "Standard Plus and Li manual passes saved;retain unresolved gaps. Search Shopee by brand/series for eligible exact unrecorded hardware;compare inventory before adding,then primary verification and per-model commit.390partial;migration incomplete.",
+    "task": "Continue fresh Shopee Indonesia discovery with bass/vocal and other series; M13/G9.2tt pass returned accessories only. GE100 additional indexed asks saved. All390partial; migration incomplete; no market-completeness claim.",
     "next_models": [],
     "after_queue": "Fresh Shopee discovery;no downloads/workflows/push."
   },
@@ -121178,6 +121178,33 @@
       "installed library",
       "qualified IDR",
       "NAM converter architecture limits"
+    ]
+  },
+  "discovery_20261019_post_plus": {
+    "queries": [
+      "site:shopee.co.id \"Mooer\" \"GE\" efek",
+      "site:shopee.co.id \"Valeton\" \"GP\" multiefek",
+      "site:shopee.co.id \"NUX\" \"MG\" multi effect",
+      "site:shopee.co.id \"Line 6\" \"M13\"",
+      "site:shopee.co.id \"Zoom\" \"G9.2tt\"",
+      "site:shopee.co.id \"Digitech\" \"RP250\""
+    ],
+    "outcome": "No qualified unrecorded hardware lead. Existing models and adapters returned; M13/G9.2tt accessories do not establish hardware availability. GE100 indexed asks saved; direct opens cache-miss.",
+    "observations": [
+      {
+        "model": "MOOER::GE100 original",
+        "item": "75661562/27964193642",
+        "idr": 1225000,
+        "condition": "unknown",
+        "access": "indexed last month; direct cache miss"
+      },
+      {
+        "model": "MOOER::GE100 original",
+        "item": "808382190/41623693187",
+        "idr": 675000,
+        "condition": "unknown",
+        "stock": "Habis; indexed four months ago"
+      }
     ]
   }
 }

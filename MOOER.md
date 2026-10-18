@@ -371,6 +371,18 @@ The complete supporting comparison was read before merging. Its model-specific v
 
 Sources: [effects/findings/2026-10-14-mooer-ge100.md](MOOER.md#ge100-original)<!-- historical-link:mooer-001 -->, [effects/shopee-multifx.md](research-state.json)<!-- historical-link:mooer-002 -->. No legacy file was deleted.
 
+### GE100 original — additional indexed IDR observations
+
+Checked 2026-10-19; exact GE100 hardware titles, not Pro variants. Direct item opens returned cache misses; these are search-index observations, not live stock or completed sales. Historical asks above remain preserved.
+
+| Field | Indexed evidence / qualification |
+|---|---|
+| IDR condition-unverified ask | **Rp1.225.000**, [Chemonk_Shop, shop75661562/item27964193642](https://shopee.co.id/Efek-Gitar-MOOER-GE-100-GE100-GE-100-Guitar-Pedal-Effects-Processor-i.75661562.27964193642), Jakarta Selatan; index crawled last month. New/used condition, actual stock, included accessories, warranty and voucher applicability unverified. |
+| IDR sold-out ask | **Rp675.000**, [Pedal Monk, shop808382190/item41623693187](https://shopee.co.id/Mooer-GE-100-Efek-Gitar-i.808382190.41623693187), Surakarta; index crawled four months ago, explicitly Habis. Condition unverified; not an available offer or verified used price. |
+| IDR rejected lead | [novvitastore, shop1648200260/item54959764886](https://shopee.co.id/Efek-Gitar-MOOER-GE-100-GE100-GE-100-Guitar-Pedal-Effects-Processor-i.1648200260.54959764886) shows Rp234.550 with voucher and unavailable service; unresolved variation/authenticity/condition. Excluded from qualified hardware pricing. |
+
+Used and new channels remain unverified; no price range inferred from mixed-condition, sold-out or unresolved offers.
+
 ## GE150 original
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

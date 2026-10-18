@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(mooer): verify standard Plus manual and retain regional conflicts'))
+    print(git('commit','-m','research(mooer): qualify additional indexed GE100 price observations'))
