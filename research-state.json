@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Yamaha Magicstomp Bass",
-    "task": "AFR restrictions andhistoricalOS saved;next effectlist orremainingAcoustic/MK2 ownmanualresearch.",
+    "task": "Bass tuner and audio specifications saved; effect-list route returned 403. Next inspect Magicstomp Acoustic own manual, keeping edition boundaries.",
     "next_models": [
       "Magicstomp Acoustic",
       "Magicstomp Guitar MK2"
@@ -118726,10 +118726,10 @@
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
       "ALL-GUITAR.md": "e0189e7c90e2d38df4969a776f0cef9befa3df3c7955e25fd2e67c370b0ea625",
       "LINE6.md": "bbbe508cca147737b97aadbd9b3fbb2e20faa83c7ae8e717abd7acd42c6e63da",
-      "YAMAHA.md": "0bb273e3400fe847db575edb887d3ee00ad9f454baeaea6e27dd059a1b80b407",
+      "YAMAHA.md": "3ee4eba163e97d3bc17292078b6a473c50d17ef418ac38bb02d9b643e731672c",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
-      "ALL-BASS.md": "b2422f7c799ff9693acec50321980d0eece95af65e47e5278e96a2b96ab173a4",
+      "ALL-BASS.md": "e46a1088917c31720f22573b25974c9d53877eb4e19e6c2c4f848fd00d6b9af1",
       "VING.md": "2873cd6b4d5b13c287eb839977ff782139fb5640008b9f9730ddc289d09f5b67",
       "FENDER.md": "825b3d107ed121195199f3a238cfae504e08c3f4913cd5952787df25109530c8",
       "MOSKY.md": "5fa70acc80dab7bfb6d02f5160afec1e5ee1947c8e343790309c9f78cbc0a07d",

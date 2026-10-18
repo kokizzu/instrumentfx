@@ -555,6 +555,17 @@ Checked 2026-10-18; partial. Separate Bass edition. [Own Yamaha manual](https://
 | Footswitches / AFR behavior | WithAFRactive,ON/OFF inUp/Downmode orcurrentpatchswitch inPerformancemode detectsfeedback insteadofbypassing. Repeatedpressesallocateunusedfilters;detectioncanfail. |
 | Editor / historical platforms | SoundEditor anddriver:Windows98/Me/2000/XP. Maceditor8.6–9.22;driver8.5–9.22 withOMS2.3.8. OS X andClassic excluded bythismanual;currentWindows/macOScompatibility unverified. |
 
+
+### Magicstomp Bass — tuner and audio specifications
+
+[Own manual](https://usa.yamaha.com/files/download/other_assets/1/334091/magicstomp_bass_en.pdf), pp24,33; checked 2026-10-18.
+
+| Field | Bass-edition finding |
+|---|---|
+| Tuner / routing | Chromatic tuner mutes both OUTPUT and PHONES. Reference pitch **438–445 Hz**; unavailable during patch storage. Hold ON/OFF to enter; press ON/OFF to leave. |
+| Processing / converters | **24-bit + 3-bit floating A/D; 24-bit D/A; 44.1 kHz** sampling. These do not establish algorithm counts or simultaneous blocks. |
+| I/O / levels | INPUT HIGH **−25 dBm / 1 MΩ**; LOW **−15 dBm / 1 MΩ**. L/MONO and R **0 dBm / 1 kΩ**; PHONES **−10 dBm / 150 Ω**. Units retained as printed. |
+
 <!-- comparison evidence ends -->
 
 
