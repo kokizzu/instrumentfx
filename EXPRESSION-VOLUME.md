@@ -152,3 +152,5 @@ HX Stomp revision follow-up2026-10-19: [own firmware history](https://line6.com/
 M-VAVE identity follow-up2026-10-19: [official catalogue](https://www.cuvave.com/download) separates Chocolate/CubeSuite fromFootCtrl/FootCtrlPlus/MidiSuite support. PD41 E/F bank-control references are not proof of originalChocolate hardware layout oranalog expression wiring. [Full qualifications](M-VAVE.md#controller-identity-and-software-scope-follow-up).
 
 GP-50 follow-up2026-10-19: exact official1.1.0 manual/firmware entries located;manufacturer-linkedPDF inaccessible toreader. GlobalEXPscope remainsunverified;see [revision-qualified evidence](VALETON.md#gp-50).
+
+FootCtrlPlus-linked PD41 follow-up: [mode-specific E/F bank restrictions](M-VAVE.md#footctrlplus-linked-pd41--bank-and-message-limits) do not establish analog expression wiring or simultaneous transport. Exact controller revision remains unresolved.
