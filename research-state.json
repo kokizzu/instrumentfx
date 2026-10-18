@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Yamaha Magicstomp original Guitar discovery",
-    "task": "Recover originalGuitar effect list;verify algorithms/concurrency,expression/importscope andexactShopeeidentity beforeactiveaddition.",
+    "task": "Official effectlist URLidentified;fulltext/revisionmatch unresolved. Continue anothermodelgap/freshShopeediscovery unlessnewsource routeappears.",
     "next_models": [
       "Magicstomp Bass",
       "Magicstomp Acoustic",
@@ -118529,7 +118529,7 @@
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
       "ALL-GUITAR.md": "5c239e1bb822497b1bb6b694ac8aab6f239d6fd7c695279a8a454768bf782793",
       "LINE6.md": "bbbe508cca147737b97aadbd9b3fbb2e20faa83c7ae8e717abd7acd42c6e63da",
-      "YAMAHA.md": "35ed814c07ec2e7fb3dcdb02813390d34631de70709c8f57aa533fcf3a2152c1",
+      "YAMAHA.md": "8b5a80f3750a87a9fbe04eaee7165174f60abcf680b3d7329d3e10a95956809c",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
       "ALL-BASS.md": "c1daf1140d9579c862aa2d40ef435542d530ab5336368274e78b0956b87c615f",
@@ -119104,5 +119104,13 @@
     "status": "discovery-only-not-active",
     "read": "Original Guitar manual text;USA403,UKinaccessible;Canadian manufacturer route readable. No installation.",
     "next": "Recover originalGuitar effect list;verify algorithms/concurrency,expression/importscope andexactShopeeidentity beforeactiveaddition."
+  },
+  "magicstomp_effectlist_revision_20261018": {
+    "destination": "YAMAHA.md#magicstomp-original-guitar--effect-list-revision-boundary",
+    "official": "https://usa.yamaha.com/files/download/other_assets/1/333341/magicstomp_en3.pdf",
+    "original_mirror": "https://www.manualslib.com/manual/526717/Yamaha-Magicstomp.html",
+    "later_mirror": "https://www.manualslib.com/manual/526724/Yamaha-Magicstomp-Ver-2-10.html",
+    "result": "Exact official effect-list route recovered;unversioned32page versusv2.10 33page separation saved. Detailedoriginalpageaccessfailed;provisionalindexnotpromoted.",
+    "next": "Readable exact-revision effect list andhardwareoffer needed;avoidunchanged403/cachemissroutes."
   }
 }

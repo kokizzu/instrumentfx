@@ -519,3 +519,12 @@ FreshShopeequeries Yamaha+Magicstomp,MagicStomp,MagicStompUB99 andMagicStompwith
 | Editor / historical OS | SoundEditor:Windows98/Me/2000/XP;MacOS8.6–9.22. USBMIDIdriver:MacOS8.5–9.22,OMS2.3.8;manualexcludesOSX/Classic. CurrentOSsupportunverified. |
 | Instrument / processing scope | Manualexplicitlypermitsguitar,bass,line-levelsynthinput;thisdoesnotestablishsynthesisengine. Algorithms,concurrency,expression,imports,completeabsenceaudit andqualifiedIDRoffersremainpending. |
 
+### Magicstomp original Guitar — effect-list revision boundary
+
+Checked2026-10-18. [Yamaha library](https://usa.yamaha.com/support/manuals/index.html?c=&k=magicstomp&l=en) resolves originalGuitarEffectList to [magicstomp_en3.pdf](https://usa.yamaha.com/files/download/other_assets/1/333341/magicstomp_en3.pdf). USAreader403;Canada/Europe routes inaccessible. Exactlistidentified,notfullyinspected.
+
+[Unversioned manufacturer-authored Guitar Effect List mirror](https://www.manualslib.com/manual/526717/Yamaha-Magicstomp.html) has32pages;cover/title andindexedpage summaries inspected. Separate [v2.10 list](https://www.manualslib.com/manual/526724/Yamaha-Magicstomp-Ver-2-10.html) has33pages andincludesBassPreamp. Neitherbyte-equivalence toofficialoriginal norfirmware/hardwarecompatibility proved.
+
+Unversionedindex describes DistortionMulti combiningcompression,distortion,modulation,delay,reverb;reverb/modulation alternatives distinguishserial/parallel combinations. These are **provisionalindexed algorithm leads**,not a verifiedfullcategorycensus,freelyreorderableblocks oruniversalmaximumconcurrency. Individualpages2/3/27 inaccessible;retainfulltext/revisionverification pending. Do nottransfer v2.10 BassPreamp intooriginalinventory.
+
+Next:seek readableexactofficiallist ormanufacturer-authoredcopy withmatchingrevision,andexactedition-specificShopeeitem. No activecountaddition orsoftwareinstallation.
