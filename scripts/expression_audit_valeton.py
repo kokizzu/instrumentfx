@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(valeton): locate exact GP-50 1.1.0 manufacturer entries'))
+    print(git('commit','-m','research(valeton): distinguish GP-50 MIDI master and expression controls'))

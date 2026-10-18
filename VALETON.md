@@ -998,6 +998,12 @@ Checked2026-10-19. [Official1.1.0 manual entry](https://www.valeton.net/wpfd_fil
 
 [HOLYMUSIC945642322/55704518866](https://shopee.co.id/VALETON-GP-50-MULTI-EFFECT-PROCESSOR-Gp50-efek-valeton-gp50-i.945642322.55704518866) reopenedmontholdcache **Rp2.255.000** versussearch2.245.000;historicalsnapshotconflict retained. Stock,condition,variant,bundle,warranty,deliveredtotal unknown. Late-deliveryvoucher notupfrontdiscount. No downloads ordeviceoperation.
 
+### GP-50 — MIDI master volume is a separate control path
+
+Checked 2026-10-19. [Manufacturer-authored manual mirror title](https://www.manualslib.com/manual/4176158/Valeton-Gp-50.html) identifies GP-50 firmware **1.0.5**; numbered panel and section structure match the model. Use manual pages, not host Q&A, as evidence. [Printed p52 MIDI table](https://www.manualslib.com/manual/4176158/Valeton-Gp-50.html?page=55), extracted column order: **CC1 Master Volume, CC7 Patch Volume, CC11 EXP Parameter**, each0–100; **CC13 EXP on/off**,0–63 off/64–127 on. **CC17** changes master volume one step down/up for those respective value halves. Numeric pairing is text-derived, not visually rechecked.
+
+These are distinct MIDI targets, not proof of analog EXP-to-master assignment, preset persistence, heel-down mute or headphone/bypass/tail/looper coverage. A controller sending MIDI would be a separate setup from the requested direct analog connection. [Printed p16](https://www.manualslib.com/manual/4176158/Valeton-Gp-50.html?page=19) places effect-parameter target/range editing in the EXP module; [p20](https://www.manualslib.com/manual/4176158/Valeton-Gp-50.html?page=23) documents global calibration, not a master-volume assignment. Official1.1.0 PDF access failed again; do not carry1.0.5 behavior forward as verified current firmware. No downloads or operation.
+
 ## Dapper Bass VES-2
 
 Full-size bass combined-effects strip;notMiniMES-2. Checked2026-10-17;partial. Manufacturer architecture establishesmulti-effects eligibility. VES-2code is seller identification pendingmanualcorroboration.

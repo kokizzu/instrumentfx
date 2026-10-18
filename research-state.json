@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "Nano Cortex Volume utility versus Capture Volume and LEVEL",
-    "finding": "Official device list restricts Volume utility to pre slots; Capture Volume has -24 to+12dB local range. Neither resolves global final-output EXP scope.",
+    "current": "GP-50 distinct MIDI master, patch and EXP controls",
+    "finding": "Manufacturer 1.0.5 manual mirror distinguishes MIDI master CC1,patch CC7,EXP CC11. MIDI is separate from direct analog assignment;1.1 PDF still inaccessible.",
     "next": [
-      "Verify GP-50 exact current manual access/global volume and M-VAVE actual controller wiring; retain Mini/Nano assignment gaps",
+      "M-VAVE: verify exact controller revision, expression input pinout and programmable CC range; do not substitute MIDI for direct analog qualification",
       "IR-200: resolve stereo IR capacity/loader conflict, complete field checklist and final scope decision; power voltage/polarity now source-backed",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",

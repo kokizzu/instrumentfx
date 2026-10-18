@@ -175,3 +175,5 @@ IR-200 [power qualification and profile checklist](BOSS.md#ir-200--exact-adapter
 Mini [global-menu and looper check](HOTONE.md#ampero-mini--global-menu-and-looper-boundaries): generic GLOBAL wording and Post-loop persistence do not establish assignment or playback attenuation. Factory volume defaults remain unaudited.
 
 Nano Cortex [volume-target distinction](NEURAL-DSP.md#nano-cortex--three-distinct-volume-references): the pre-slot Volume utility, Capture Volume and disputed LEVEL assignment remain separate; no global final-output guarantee established.
+
+GP-50 [MIDI target distinction](VALETON.md#gp-50--midi-master-volume-is-a-separate-control-path): master, patch and EXP commands are separate. This does not resolve direct analog global-volume assignment.
