@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Alesis MIDIverb 4",
-    "task": "Saved exact1400000soldout and13000000shopholiday asks;noqualifiedused/new. Twootheritembodies inaccessible. Next freshShopee discovery orremainingtechnicalfields,do notduplicateoffers.",
+    "task": "Reconciled MIDIverb4 main summary with saved32configuration,converter,modulation/SysEx findings;datedfollowups retainedbyteexact. Next freshShopee discovery orunresolved requiredfields.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75414,7 +75414,7 @@
   },
   "resume_cursor": {
     "model": "Alesis MIDIverb 4",
-    "task": "Saved exact1400000soldout and13000000shopholiday asks;noqualifiedused/new. Twootheritembodies inaccessible. Next freshShopee discovery orremainingtechnicalfields,do notduplicateoffers.",
+    "task": "Reconciled MIDIverb4 main summary with saved32configuration,converter,modulation/SysEx findings;datedfollowups retainedbyteexact. Next freshShopee discovery orunresolved requiredfields.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75830,5 +75830,17 @@
       "878775036/17092107915 cachemiss",
       "236008720/23674828994 inaccessible"
     ]
+  },
+  "midiverb4_summary_reconciliation_20261018": {
+    "previous_rows": [
+      "| Expression |No built-in pedal/toe;external EXP unverified. Momentary footswitch accepts normally-open/closed;assignable bypass/advance/control [MD-M pp.34,49,68] |",
+      "| Processing / categories |32configurations,up to3simultaneous effects. Four families:Single,Double,DualMono,MultiChain. To choose a configuration,copy anexisting preset using it;factory096–127covers all32. Not an arbitrary block chain;category subtotals pending [MD-P,MD-M pp.27,39] |",
+      "| Analog conversion |18bitADC/DAC,24bitinternal accumulator,48kHz [MD-P,MD-M pp.67–68] |",
+      "| Editor / software |MIDI realtime control,2simultaneous controls;SysEx storage. Full editor/platforms unverified [MD-P] |"
+    ],
+    "previous_remaining": "No files downloaded. Remaining:category subtotals,body/mass,powercurrent,display details,firmware/software/routing restrictions andqualified offers.",
+    "reason": "Promote already-saved own-model findings;remove obsolete pending category-subtotal wording",
+    "followups_retained_byte_exact": true,
+    "sources": "Existing manufacturer findings in9afd40b/baf6342/8bef2bf;no new source verification"
   }
 }

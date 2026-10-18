@@ -95,18 +95,18 @@ Dual-channel rack multi-effects,notMicroVerb4. Checked2026-10-17;partial,discont
 | Field | Evidence / qualification |
 |---|---|
 | Instrument scope |Instrument direct/mixer paths;guitar andvocal examples inown manual. No direct mic preamp inferred; bass unclassified [MD-M pp.19–22,34] |
-| Expression |No built-in pedal/toe;external EXP unverified. Momentary footswitch accepts normally-open/closed;assignable bypass/advance/control [MD-M pp.34,49,68] |
+| Expression | No built-in pedal/toe;continuous external EXP unverified. Momentary footswitch accepts normally-open/closed;assignable bypass/advance/control. MIDI X/Y sources select pitch bend,aftertouch,note,velocity orCC000–119 with−99 to+99 amounts;fixed destinations and exclusions detailed below [MD-M pp.34,49,60–61,68] |
 | Knobs / footswitches / buttons |**1/0/10**:VALUE;PROG,EDIT/PAGE,UTIL,STORE,INPUT,OUTPUT,A/NAME,B/ESC,C/left,D/right. Power switch separate;text-derived [MD-M p.67] |
 | Display |Custom LCD;diagonal,color/touch unresolved [MD-M p.67] |
-| Processing / categories |32configurations,up to3simultaneous effects. Four families:Single,Double,DualMono,MultiChain. To choose a configuration,copy anexisting preset using it;factory096–127covers all32. Not an arbitrary block chain;category subtotals pending [MD-P,MD-M pp.27,39] |
+| Processing / categories | **32 configurations:15 Single+3 Double+7 Dual Mono+7 Multi Chain;up to3 simultaneous effects**. To choose a configuration,copy an existing preset using it;factory096–127 covers all32. Fixed alternatives,not arbitrary block routing. Complete named census below [MD-P,MD-M pp.27–29,39,61] |
 | Preset memory |128factoryROM+128userRAM=256;manual explicitly leaves17user locations111–127blank,so111user locations initially filled (128−17,derived). Protected factory andwritable user locations remain separate [MD-M pp.39,68] |
 | Synth / acoustic |Pitch±1octave. Manual recommendsAmbience forsolid-body guitar hollow-body coloration;this isreverb,notverified dedicated acoustic simulator. Dedicated synth unresolved [MD-P,MD-M p.30] |
 | IR / NAM / captures |User IR,native/converted NAM andmeasured captures unverified |
 | Audio / control ports |2TS inputs,2TS outputs;MIDI IN,OUT/THRU;momentary footswitch;9VAC power. No USB,mic/phantom,headphone orFXloop socket inrear inventory [MD-M pp.67–68] |
 | Power / battery / USB |9VAC external supply;manual names120VAC mains forsupplied version. Current,other regions,battery/USB operation unresolved;DC polarity inapplicable toAC output [MD-M p.49] |
 | Dimensions / weight |Unverified;MicroVerb4 data notsubstituted |
-| Analog conversion |18bitADC/DAC,24bitinternal accumulator,48kHz [MD-P,MD-M pp.67–68] |
-| Editor / software |MIDI realtime control,2simultaneous controls;SysEx storage. Full editor/platforms unverified [MD-P] |
+| Analog conversion | **18-bit ADC128×/DAC8× oversampling;48kHz;24-bit internal accumulator**. Conversion and processing word lengths differ. Analog input/output ratings retained below [MD-P,MD-M p.67] |
+| Editor / software | SysEx can send all user programs,the edit buffer or program-change table;incoming dumps automatically enter receive mode. Two global MIDI modulation sources have configuration-fixed destinations;full editor/platform and modern librarian compatibility remain unverified [MD-P,MD-M pp.59–62] |
 | Looper / drums / live |AutoLevel input sensing;compare/bypass. Mixer aux:100%wet orDryDefeat. Advance footswitch wraps127→00. DualMono Cascade disablesRight input;Left output=stage1,Right output=stage1→2. Double configurations sum bothstereo effect outputs;MultiChain haslighter processing thanSingle equivalents. Looper,drums,scenes,spillover unresolved [MD-M pp.28–29] [MD-P,MD-M pp.20,49] |
 | Delay claim conflict |Product maximum1300ms versusmanual memory1299ms;different precision/wording retained [MD-P,MD-M p.68] |
 
@@ -124,7 +124,7 @@ Dual-channel rack multi-effects,notMicroVerb4. Checked2026-10-17;partial,discont
 - [MD-P: manufacturer product](https://www.alesis.com/products/view/midiverb4.html).
 - [MD-M: original69-page reference manual](https://www.alesis.com/rscdn/982/documents/midiverb_iv_refmanual.pdf),text inspected;no new visual inspection claimed.
 
-No files downloaded. Remaining:category subtotals,body/mass,powercurrent,display details,firmware/software/routing restrictions andqualified offers.
+No files downloaded. Current remaining checks:body dimensions/mass,supply current and regional power specifications,display diagonal/color/touch,continuous-expression and import support,installed firmware,full editor/librarian compatibility,qualified used/new offers and live stock. The32-configuration census and modulation/backup limits are documented in the dated follow-ups below.
 
 ### MIDIverb 4 — analog levels, converters and reset scope
 
