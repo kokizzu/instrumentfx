@@ -471,7 +471,7 @@ def main():
         if mode == 'commit-gnx4':
             message = 'research(digitech): qualify GNX4 USB monitoring and pair-level controls'
         if mode == 'commit-gnx3':
-            message = 'research(digitech): audit GNX3 category choices acoustic function and conversion'
+            message = 'research(digitech): derive GNX3 controls and remaining effect categories'
         if mode == 'commit-b1four-followup':
             message = 'research(zoom): qualify B1 FOUR loop input stops and power settings'
         if mode == 'commit-b1xfour-followup':

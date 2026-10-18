@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech GNX3",
-    "task": "Saved GNX3 category subsets,amp/cab Direct-count ambiguity,acoustic simulation,drum count andconversion formats. Next remaining effect/control census orfresh Shopee discovery;PSS3 conflict stillopen.",
+    "task": "Saved GNX3 complete text-derived8/7/27 control inventory andremaining category counts. Next maximum-block/routing evidence orfresh Shopee discovery;PSS3 conflict andother gaps unresolved.",
     "next_models": [],
     "after_queue": "349 partial unique models;114 Markdown compatibility files retained;no downloads/workflows/push."
   },
@@ -59691,6 +59691,22 @@
         "Qualified used/new offer"
       ],
       "method": "Original manufacturer guide text;no downloads/device operations"
+    },
+    {
+      "model": "DigiTech GNX3",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://digitech.com/wp-content/uploads/2022/09/GNX3_Manual_original.pdf"
+      ],
+      "finding": "Derived8/7/27controls including18recorderbuttons;wah3,pickup2plusOff,compressor1,gate2,stomp10,pitch4/Talker5exclusive;perchannelEQranges.",
+      "remaining": [
+        "Maximum simultaneous blocks",
+        "PSS3 conflict",
+        "Display details",
+        "Loading formats",
+        "Qualified used/new asks"
+      ],
+      "method": "Original guide text;no visualinspection/download/device operation"
     }
   ],
   "discovery_cross_brand_bass": {

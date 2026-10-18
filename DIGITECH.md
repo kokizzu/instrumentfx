@@ -481,9 +481,9 @@ Guitar workstation with documented bass modeling; distinct from BNX3,GNX3000 and
 | Field | Evidence / qualification |
 |---|---|
 | Expression |Built-in;toe pressure selects wah versus assigned parameters. External EXP unverified [G-M p.5] |
-| Knobs / footswitches / buttons |Five parameter knobs plus data wheel and rear mic/output levels:8 derived rotary controls;7 main footswitches;complete button count unresolved [G-M pp.3–6] |
+| Knobs / footswitches / buttons |**8/7/27**,complete text-derived control inventory below;toe andpower switches additional [G-M pp.3–6] |
 | Display |Green alphanumeric plus red numeric display;diagonal,touch and exact technology unverified [G-M pp.9–10] |
-| Processing / categories |Multi-effects and amp/cab modeling;3 Audio DNA processors. DSP count is not simultaneous effect count. Maximum blocks and category subtotals unresolved [G-P] |
+| Processing / categories |Multi-effects and amp/cab modeling;3 Audio DNA processors. DSP count is not simultaneous effect count. Maximum simultaneous blocks unresolved;category counts documented below [G-P] |
 | Memory |65 fixed factory+65 writable user=130 total;user bank initially duplicates factory [G-M p.9] |
 | Synth / acoustic |SynthTalk documented;flat-top acoustic simulation verified below [G-M p.27] |
 | Bass capability |Manufacturer explicitly describes recording bass tracks using its bass amp modeler [G-P] |
@@ -546,6 +546,20 @@ Checked2026-10-18 against [original manufacturer guide][G-M], printed pp13–16,
 | Category choices / delay-reverb | **5 delays**,10–2000ms;**10 reverbs**. Delayhold is separate from recorder/JamMan capacity. |
 | Drums / practice | **30 patterns+metronome;40–240BPM**,level1–99. Not31 independent drum kits. |
 | Conversion / recorder | **24-bit ADC/DAC,44.1kHz**;CD-quality recorder resolution **16-bit**. These are distinct specifications,not USB formats. |
+
+
+### GNX3 — complete control derivation and remaining effect categories
+
+Checked2026-10-18 against [original guide][G-M], pp3–6,19–23,38,50. Text-derived inventory;no new visual inspection ordevice operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| K/F/B | **8/7/27**,derived:5 parameter knobs+data wheel+rear mic/output levels;5 numbered+Up/Down footswitches;2 Effect Select+Status+6 mode buttons+18 recorder buttons. Recorder18=8 track+6 transport+Drums,Level/Pan,Setup,Remain. Recorder Drums is separate frommode Drums. Power andtoeV-Switch additional. |
+| Category choices / wah-pickup | **3 wah types;2 pickup conversions plusOff**. Pickup conversion changes tonal character,not physical pickup switching. |
+| Category choices / compressor-gate | **1 compressor algorithm;2 gate types** (Silencer,Pluck). Compressor attack/ratio settings are parameters,not extra models. |
+| Category choices / stomp distortion | **10 named stomp distortion models**,separate fromamp-model choices. |
+| Category choices / pitch-Talker | One module selects Whammy,IPS,Detune,Pitch orTalker;Talker has5 types. Thus4 pitch alternatives+5Talker types,not9 simultaneous blocks. Whammy requires expression linkage. |
+| Processing / EQ | Three bands per Green/Red amp channel;mid300–5000Hz,treble500–8000Hz,eachgain±12dB. Channel EQs do not establish arbitrary multi-EQ insertion. |
 
 
 ## GNX4
