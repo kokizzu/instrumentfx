@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh hardware discovery / unresolved model fields",
-    "task": "RP70 category census now explicit;Direct prose lacks a detailed selector mapping andremainsunresolved. TripleThreat/DelayWorkstation original manual access stillunresolved;do not promote retailer diagrams/specifications. Continuefreshbrand/seriesoffersorotherrequiredfields.",
+    "task": "AX5B expression endpoints and stored-value indication recorded; current draw, initial user mapping and display remain unresolved. Continue fresh Shopee brand/series discovery or another required model field; do not duplicate existing B2 FOUR offers.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -60311,6 +60311,22 @@
         "Qualified used/new IDR"
       ],
       "method": "Original manual text,no downloads"
+    },
+    {
+      "model": "Korg AX5B",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://cdn.korg.com/us/support/download/files/ce3fdcaa2f36213ab3f032738bc6648f.pdf?response-content-disposition=inline%3Bfilename%3DAX5B_OM_EFG1.pdf&response-content-type=application%2Fpdf%3B"
+      ],
+      "finding": "Own EFG1 pp9–10: separate returned/advanced expression parameter values; Original Value LED compares edited and stored values only in Edit mode; NR0.0–10 can truncate notes at excessive settings.",
+      "remaining": [
+        "Operating current",
+        "Initial user-slot factory mapping",
+        "Display technology/diagonal",
+        "Qualified used/new hardware offers",
+        "Editor/import support"
+      ],
+      "method": "Manufacturer manual browser text;no downloads/device execution"
     }
   ],
   "discovery_cross_brand_bass": {

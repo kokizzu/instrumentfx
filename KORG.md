@@ -737,7 +737,7 @@ Checked2026-10-18. Dedicated bass multi-effects; distinct from AX5G,AX3B andAX30
 
 | Field | Evidence / gaps |
 |---|---|
-| Instrument / expression | Bass; built-in expression controls wah,volume orparameters. Forward pedal switch toggles WAH/FX PARAM; volume follows pedal position. No external EXP inrear inventory. [Own features][AX5B-F];[Manual pp6–8][AX5B-M] |
+| Instrument / expression | Bass; built-in expression controls wah,volume orparameters. Forward pedal switch toggles WAH/FX PARAM; volume follows pedal position. Parameter values at fully returned and fully advanced positions are separately adjustable through LEVEL/NR/CAB/PEDAL (manual p9). No external EXP inrear inventory. [Own features][AX5B-F];[Manual pp6–8][AX5B-M] |
 | K/F/B | **2 /2 /3**, text-derived: function selector,value knob;programUP/DOWN;WRITE,CANCEL,pedal-setting. Under-pedal switch additional;visual audit pending. [Manual pp5–6][AX5B-M] |
 | Display | Program/Value display shows program numbers, effect/parameter codes and tuner note names (manual p5). Diagonal, resolution, technology, color and touch remain unknown. [Manual][AX5B-M] |
 | Dimensions / weight | Own English manual:**249W×143D×44H mm;650g**; French section agrees. German product specs:**178×142×43mm;340g**. Conflict unresolved; manual values preferred,not averaged. [Manual p13][AX5B-M];[German specs][AX5B-S] |
@@ -749,7 +749,7 @@ Checked2026-10-18. Dedicated bass multi-effects; distinct from AX5G,AX3B andAX30
 | Power / battery / USB | **9V DC optionaladapter or4AA alkaline,about8hours**. Compatible KA-189 is **center-negative** according to the official German distributor; this is accessory compatibility evidence, not a socket-label inspection. KA-189 ratings conflict **1.0A versus600mA**; actual AX5B draw andbarrel dimensions remain unknown. NoUSB port forUSB power. Manufacturer listsmanual included; actual seller bundle unknown. [Manual p13][AX5B-M] |
 | IR / NAM / capture | User IR,native/convertedNAM andproprietarycapture import unknown. |
 | Editor / software | Editor/platform/currentOS support unknown. |
-| Looper / drums / live | TunerA0–E6,reference438–445Hz; calibration resets to 440Hz at power-off (manual p11). Delay tails persist with matching delay type andTIME(P1); reverb tails with matching reverb type. Looper,drums,scenes unknown. [Manual pp5,13][AX5B-M] |
+| Looper / drums / live | Original Value LED lights in Edit mode when a changed parameter matches its saved value; it does not light in Program mode (manual p10). NR sensitivity is0.0–10; excessive settings may truncate notes (p9), not add algorithms. TunerA0–E6,reference438–445Hz; calibration resets to 440Hz at power-off (manual p11). Delay tails persist with matching delay type andTIME(P1); reverb tails with matching reverb type. Looper,drums,scenes unknown. [Manual pp5,13][AX5B-M] |
 | Used IDR / new IDR | **Unknown / unknown**. No exactitem/seller established2026-10-18;condition,stock,region,bundle,warranty,voucher andcheckouttotal unknown. |
 
 ### AX5B named product library
