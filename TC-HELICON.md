@@ -1123,6 +1123,16 @@ Checked2026-10-18 against [manufacturer reference v1.2][VLT2-R],printed pp71–7
 | Live / key and tempo recall | **Global Key Off(default)** permits per-preset keys;On shares the Harmony key across presets without storing each. **Global Tempo On(default)** carries latest tapped tempo across presets for Rhythm,Delay andloop metronome;Slap/SetTime delay styles keep their own timing. Off recalls each preset’s tempo. These switches have independent scope. |
 | I/O / Aux timing | **Tracks(default)** adds delay to incomingAux audio to reduce perceived Harmony chord-change latency;**Live** adds none. Added milliseconds are not published in this passage;this is source alignment,not zero-latency processing oraudio timestretch. |
 | Looper / optional Switch-3 gestures | Assigned Stop/Clear taps tostop andholds toclear;Start/Stop has no record/hold function. The1ButtonLooper assignment double-taps tostop,which records a short audio fragment;holding toerase also briefly plays audio. These documented side effects matter forlive use;loop duration andpower-off persistence remain unresolved. |
+
+### VoiceLive Touch 2 — explicit VoiceSupport2 example and backup scope
+
+Checked2026-10-18 against the original27-page [VoiceSupport2 Reference Manual reproduction](https://medias.audiofanzine.com/files/voicesupport-2-reference-manual-english-478887.pdf). Manufacturer-hosted same-title PDF remains502. Printed p7 explicitly identifies **VoiceLive Touch2** as its connected-device example;this is documented support context,not a present-day OS/firmware test. No software downloaded orrun.
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / librarian data formats | Manual pp25–27 documents **.syx import of presets/setup**,preset export andseparate setup export. This is SysEx preset/configuration handling,not userIR,NAM,capture orloop-audio import. Full sound-parameter editor andcurrent Windows/macOS versions remain unverified. |
+| Memory / restore distinction | Dragging a backup to the device does **not automatically restore setup**;select the backup anduse **Send Setup** separately. Apply Changes commits workspace preset edits;Get Data refreshes from the device. Backup All uses workspace data,which may differ from actual device contents if unsynchronized. |
+| Editor / undo boundary | Software Undo/Redo excludes Get Data andApply Changes themselves. This is librarian behavior,not the audio looper’s independent last-operation Undo. |
 <!-- comparison evidence ends -->
 
 [VLT2-Q]: https://manualzz.com/doc/6755730/tc-helicon-voicelive-touch-2-quick-start-guide

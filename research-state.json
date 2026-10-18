@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceLive Touch 2",
-    "task": "Saved VLT2 globalkey/tempo recall,AuxTracks-vs-Live timing andSwitch3 loopgesture sideeffects. ManufacturerPDFendpointsstill502;loopduration/persistence andDCpower stillunresolved. Continue otherrequiredgaps orfreshdiscovery;no repeatedfailedroute withoutnewlead.",
+    "task": "Saved explicit VoiceSupport2 device example andsyx/setup backup/restore limitations. ManufacturerhostedPDF502,original27p mirrorread. RemainingcurrentOS/fullparametereditor,DCpower/phantom,display,loopduration/persistence andqualifiedprices. DiscoveryAX10A/AD3/A21u/Vocal300no newexacthardware;accessoriesnotadmitted.",
     "next_models": [],
     "after_queue": "363active/46brands;304guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -61051,6 +61051,12 @@
       "checked_date": "2026-10-18",
       "source": "https://manualzz.com/doc/9506742/tc-helicon-voicelive-touch-2-reference-manual",
       "finding": "Ownref71–75GlobalKeyOffdefault vsTempoOndefault;Slap/SetTimeexceptions. AuxTracksdelay vsLive noneunknownms. Switch3StopClear/startstop/1buttondoubletaprecordfragment/erasebriefplay documented."
+    },
+    {
+      "model": "TC-Helicon VoiceLive Touch 2",
+      "checked_date": "2026-10-18",
+      "source": "https://medias.audiofanzine.com/files/voicesupport-2-reference-manual-english-478887.pdf",
+      "finding": "OriginalVoiceSupport2manualp7explicitVLT2connectedexample;p25–27syxpresets/setup,SendSetupseparatefromdragrestore,workspacebackupstaleness,GetData/Applyundoboundary. NoaudioIR/NAMcaptureimportorcurrentOSinference."
     }
   ],
   "discovery_cross_brand_bass": {
