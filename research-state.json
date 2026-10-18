@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B2 FOUR",
-    "task": "Saved explicit USB FullSpeed protocol wording andstate-dependent loopergestures. New legacybass discovery found no qualified newmodel;B2 query mostlyB2FOUR alreadyrecorded. Next fresh discovery byanother brand/series orresolve existing requiredfield;B2FOURsample rate/visualcontrolcount andMS100BTexpression/currenttransfer remain open.",
+    "task": "B2FOUR appbackupformat/clips/save/USB-CiPad clarified. Sample rate stillunresolved:officialqueries/sharedL8example driverguide do not establish it. Next freshShopee discovery byanother brand/series ormeaningful requiredfield gap;avoid repeating B2FOURsources without new evidence.",
     "next_models": [],
     "after_queue": "365active/46brands;306guitar159bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -80878,5 +80878,13 @@
       "site:shopee.co.id Boss SE70"
     ],
     "result": "No new qualified legacy hardware. Zoom B2 search returned B2 FOUR siblings andunrelatedcards;LYN42758785757 alreadyrecorded,reopened same4545000 JSlimited body;IDB24004987590 alreadyrecorded,directcachemiss. Do not count repeated asks asnew offers."
+  },
+  "b2four_app_backup_audit_20261018": {
+    "source": "https://zoomcorp.com/media/documents/E_HandyGuitarLab_for_B2FOUR_v1.pdf",
+    "revision": "Version1.02,Z2I-4897-01",
+    "date": "2026-10-18",
+    "status": "Appbackup/clip limits andUSB-C iPad path saved;no software downloaded oroperated.",
+    "sample_rate_search": "Exact official44.1/sampling queries andshared driverguide yielded no model-specific rate;generic driverguide usesL8example,not B2FOURrate evidence.",
+    "driver_guide": "https://zoomcorp.com/documents/2062/ZOOM_ProductDriver_Installation_Guide_E2.pdf"
   }
 }

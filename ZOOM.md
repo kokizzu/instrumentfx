@@ -1265,6 +1265,17 @@ Checked2026-10-18 against [original operation manual](https://zoomcorp.com/manua
 |---|---|
 | USB / protocol distinction | Manual lists **Handy Guitar Lab:USB1.1 Full Speed** and **audio interface:USB2.0 Full Speed,32-bit,2-in/2-out**. USB2.0 wording does not establish High Speed operation orsample rate;Type-C describes the connector. Data-capable cable required;bus power supported. |
 | Looper / foot gestures | During playback,double-press stops;single-press begins overdub. Press during overdub ends overdubbing while playback continues. Hold during playback undoes the last overdub whenUNDO enabled;hold again restores it. **Hold while stopped clears the entire loop**. Two presses during initial recording cancel it. These state-dependent gestures are not additional physical controls orpersistent loop storage. |
+
+### B2 FOUR — model-specific app backup and clip limits
+
+Checked2026-10-18 against [Handy Guitar Lab for B2 FOUR manual](https://zoomcorp.com/media/documents/E_HandyGuitarLab_for_B2FOUR_v1.pdf),appmanualVersion1.02,©2023 Z2I-4897-01. This manual version isnot pedal firmware.
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / backup format and scope | Patch Pool backs up individual,multiple orall patches;groups can be copied back todevice. Imported **.zptc** files enter the Patch Pool;mobile sharing exports patch files. These operations do not establish an installed-effect-library image,IR/NAM import orlooper-audio backup. Manual pp16–21. |
+| Editor / reusable clips and DSP | Clips hold **1–4 effects plussettings**. Adding aclip exceeding **100% processor usage** is blocked,with red usage indication. This is aneditor insertion limit,distinct from the hardware's documented overflow-bypass behavior;clips do not expand five simultaneous slots. Manual pp33–34. |
+| Memory / app saving | With device Auto Save enabled,edits save when navigating toanother screen. Manual Save remains available regardless ofAuto Save. Names allow14characters. Manual pp24,31. |
+| Editor / USB-C iPad connection | Manual explicitly supports **USB-C-to-USB-C forUSB-C iPads**,separate from itsLightning Camera Adapter path. This doesnot establish every iPhone/iPad revision orAndroid editing. Manual p5. |
 <!-- comparison evidence ends -->
 
 ## B6
