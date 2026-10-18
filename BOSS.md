@@ -3456,6 +3456,16 @@ Checked2026-10-18 in the manufacturer-authored2008 manual G6027127R0, printedp13
 | Editor / Mac Librarian1.00 | [Official indexed requirements](https://www.boss.info/sk/support/by_product/gt-10b/updates_drivers/95730c52-4702-46cf-b196-234b64a039ef/) list Mac OS X10.4.3–10.7,OS X10.8–10.11,macOS10.12–10.14;PowerPC G4/G5≥1GHz orIntel,512MB RAM,190MB disk,1024×768 with≥32000 colors. This manages patch libraries;it doesnot establish a full parameter editor orAppleSilicon support. Direct page reader failed;manufacturer search excerpt supplied these requirements. |
 | Editor / macOS10.14 versus10.15 | [Mojave matrix](https://www.boss.info/us/support/support_news/18091014b/) marks GT-10B hardware/driver andapplication **Yes**,identifying the bundled librarian. [Catalina matrix](https://www.boss.info/us/support/support_news/19091015b/) instead marks **No/No**,with no compatible version planned. Its32-bit-app section explicitly says **GT-10B Librarian cannot launch onCatalina**. This resolves Catalina support independently of the older10.13/10.14 driver listing; no device/software test was performed. Later macOS-specific statuses remain unverified. |
 
+
+### GT-10B — split outputs and conditional patch trails, 2026-10-18
+
+[Manufacturer-authored2008 manual G6027127R0](https://manualzz.com/doc/51314063/boss-audio-systems-music-pedal-gt-10b-owner-s-manual), printedpp68–72; manual body only,not generated mirror FAQ.
+
+| Field | Documented behavior / qualification |
+|---|---|
+| I/O / XLR wet-direct split | SUB OUTPUT mode L/R sends stereo normally. **Effect/Direct sends the processed stereo mix as mono to XLR L,and pre-effect mono to XLR R**. INPUT SELECT,INPUT LEVEL andPRES. still affect the direct path;it is not necessarily untouched pickup signal. DIGITAL OUT andUSB send the same digital audio source (p68),not proof of the USB bit depth. |
+| Looper / live patch-change trails | **Fast discards the previous delay/reverb decay; Smooth can retain it**. Conditions include matching effect-chain placement,identical delay type/time,and compatible other-effect states/parameters. The manual warns tails may still fail in some cases. Smooth switching may be delayed **one tempo beat**;this is not unconditional gapless switching or a fixed millisecond latency. |
+
 <!-- comparison evidence ends -->
 
 GT10B Shopee searches surfaced adapter listings and foreign retailers rather than an accepted Indonesian unit. Seller/item,condition,stock,region,bundle,warranty,voucher anddelivered total remain unknown. Manufacturer manual support entry found;direct expected PDF URL inaccessible. No license acceptance,downloads,installation ordevice operation.
