@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS SE-50",
-    "task": "Saved selectable factory-initialization range anddata-loss warning;SysEx article direct404 remainsindex-only. Next readable original manual/hardware specifications orfresh Shopee discovery.",
+    "task": "Saved French manufacturer-manual named inventory andexplicit bass support. Next inspect same manual for full chains,hardware andrevision qualifications;do not borrow SE-70.",
     "next_models": [],
     "after_queue": "349 partial models;114 Markdown compatibility files remain;no downloads/workflows/push."
   },
@@ -25153,9 +25153,9 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 152,
+      "record_count": 153,
       "bass_focused_record_count": 35,
-      "shared_bass_capable_count": 117,
+      "shared_bass_capable_count": 118,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -25178,7 +25178,7 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 290 guitar, 152 documented bass-capable, 68 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 290 guitar, 153 documented bass-capable, 68 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
     "warning": "349 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
@@ -45553,8 +45553,8 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 152,
-    "bass_shared_models": 117,
+    "bass_view_models": 153,
+    "bass_shared_models": 118,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -45916,6 +45916,7 @@
       "BOSS::Pocket GT",
       "BOSS::ME-50B",
       "BOSS::KATANA:GO",
+      "BOSS::SE-50",
       "BOSS::GT-10B",
       "BOSS::MS-3",
       "Donner::Arena2000",
@@ -46127,6 +46128,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "BOSS::SE-50": "Own French manufacturer manual,©1990,introduction andguitar/bass connection section explicitly support bass. [Manual mirror](https://fr.scribd.com/document/644989539/Boss-SE-50-fr). Not inferred from SE-70 or a controller.",
     "Behringer::DSP2024P": "Ownmanual explicitly names guitar/bass after appropriate preamplification,section2.7. [Manufacturer manual](https://manualzz.com/doc/1522565/behringer-virtualizer-pro-dsp2024p-user-s-manual).",
     "MOOER::GS1000 Li": "Shared manufacturer manual explicitly covers Li and standard editions, documents guitar/bass input and bass amp/cab library; Li power and mass listed separately.",
     "Valeton::GP-50": "Own manual lists Classic Bass, Foxy Bass, Mess Bass and Bass OD with dry blend. [Manual](https://www.hotone.jp/manuals/valeton/GP-50.pdf).",
@@ -75279,6 +75281,17 @@
       "Readable original manual andfull algorithm chains",
       "SE50/SE50A hardware distinctions",
       "Physical controls,ports,power andother required technical fields"
+    ]
+  },
+  "se50_french_manual_20261018": {
+    "checked": "2026-10-18",
+    "source": "https://fr.scribd.com/document/644989539/Boss-SE-50-fr",
+    "identity": "Original manufacturer French manual;BOSS SE-50 cover,©1990 andmatching section structure inspected as extracted text",
+    "scope": "Named inventory andexplicit instrument support only;numbering/OCR caveats retained",
+    "destination": "BOSS.md#se-50",
+    "remaining": [
+      "Full chain concurrency andalgorithm/preset mapping audit",
+      "Ports,power,dimensions,revision distinctions andother required fields"
     ]
   }
 }

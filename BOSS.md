@@ -3251,7 +3251,7 @@ Sources: regional manufacturer pages and own ©2003, 28-page owner manual throug
 
 ## SE-50
 
-Checked2026-10-17;partial. Half-rack stereo multi-effects,distinct from SE-70. Manufacturer documents guitar effects and vocal-specific processing. Bass suitability,exact offered revision andownership unresolved.
+Checked2026-10-17;partial. Half-rack stereo multi-effects,distinct from SE-70. Manufacturer documents guitar effects and vocal-specific processing. Bass support is documented in the French own-manual follow-up below;exact offered revision andownership remainunresolved.
 
 | Required field | Verified evidence / unresolved detail |
 |---|---|
@@ -3291,6 +3291,21 @@ Checked2026-10-17;partial. Half-rack stereo multi-effects,distinct from SE-70. M
 |---|---|
 | Memory / selectable initialization | Procedure enters initialization with PARAMETER-up+VALUE-up atpower-on,thenWRITE,range selection andWRITE confirmation. Article lists **SYSTEM–No.100** as the range andwarns **all USER information will be lost**. It does not fully explain per-selection behavior or establish a protected settings-only reset;preserve the stated range rather than inventing one. |
 | Software / backup evidence access | Existing SysEx article remains index-only:direct reopen on2026-10-18 returned404,while manufacturer search still exposes its patch/system transfer instructions. This does not invalidate the retained indexed evidence orverify a current editor. [Original article](https://support.roland.com/hc/en-us/articles/201964189-SE-50-Bulk-Loading-System-Exclusive-Data) |
+
+### SE-50 — French manufacturer manual and algorithm inventory
+
+Checked2026-10-18: [French manufacturer-authored manual mirror](https://fr.scribd.com/document/644989539/Boss-SE-50-fr),BOSS SE-50 cover,©1990 andmatching section structure. OCR errors remain;no image inspection.
+
+| Required field | Evidence / qualification |
+|---|---|
+| I/O / bass connection | Introduction andguitar/bass connection section explicitly support bass. Typical level-switch setting **−20dBm**;mono uses OUTPUT L(MONO). This supports shared bass classification,not identical behavior across every effect. |
+| Category choices / reverb7 | Hall1,Hall2,Room,Plate,Ambience,Gate Reverb,Stereo Reverb. |
+| Category choices / delay3 | Multi Delay,Multi Tap Delay,Stereo Delay. |
+| Category choices / other5 | Space Chorus,Multi Pitch Shifter,Stereo Pitch Shifter,Stereo Flanger,Stereo Phaser. |
+| Category choices / multi9 | Vocoder,Rotary,Keyboard Multi1,Keyboard Multi2,Rhodes,Guitar Multi,Vocal Multi,Stereo Enhancer,2CH Mixer. |
+| Category choices / paired4 | Reverb1+Reverb2,Gate Reverb+Reverb,Chorus+Reverb,Delay+Reverb. |
+
+The contents andbody names reconcile28choices;OCR numbering mistakes are not promoted to preset mappings. Fixed combinations do not establish freely assignable blocks ormaximum concurrency. Earlier catalogue-transcription uncertainty remains.
 
 ### SE-50 source access and remaining verification
 
