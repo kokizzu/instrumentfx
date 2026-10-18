@@ -42,6 +42,14 @@ No files downloaded or firmware/software executed. Manual read as web text; pane
 
 OM3 rev12/20 function lists support the thirteen-knob sum; no visual footswitch/button audit is claimed. Manual distinguishes pitch-changing Time-knob adjustment from pitch-preserving tap changes. Active Blonde EQ frequencies and independent speaker-simulation use remain model-specific. Saved gaps still include complete physical inventory, expression, storage and current software/price evidence.
 
+### Fly Rig 5 v2 — optional wah-power modification
+
+Checked2026-10-18 against [Tech21’s Killer Wail v2/RK wah page](https://www.tech21nyc.com/products/effects/killer-wail-v2-wah/). No hardware modification oroperation.
+
+| Field | Finding / qualification |
+|---|---|
+| Expression / external wah compatibility | Tech21 says both Killer Wail variants can receive phantom power through **Fly Rig5v2 with a modification**,with details available fromTech21. This is accessory power compatibility after modification,not proof ofa stock EXP/CV socket,built-in pedal orremote internal-parameter mapping. Voltage,current,cabling andmodification procedure remain unverified;do not assume microphone48V phantom. |
+
 ## Bass Fly Rig v2
 
 Bass-focused multi-effects; v2 only. Distinct from original Bass Fly Rig and guitar Fly Rig 5 v2. Checked 2026-10-17; partial. Ownership unestablished.
