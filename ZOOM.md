@@ -4453,6 +4453,12 @@ Acoustic-guitar multi-effects;partial,checked2026-10-18. Distinct fromA2.1u. [Ow
 
 <!-- comparison evidence ends -->
 
+### A2 — patch assignment and bypass-volume exception
+
+Checked 2026-10-19 against [own manufacturer manual, pp22–23](https://zoomcorp.com/media/documents/E_A2.pdf). CONTROL selects **vL (Volume)**; expression assignment is saved with each patch. The preceding FS01 setting applies across patches, but that statement concerns the switch, not expression. **In bypass, the expression pedal always functions as volume**, regardless of the chosen target. This exception does not establish volume control across all active-effect patches.
+
+FP01/FP02 connect to CONTROL IN. Volume position, numerical endpoints, held-position recall, headphone attenuation and tail/looper coverage remain unverified. Existing156W×162Dmm exceeds preferred depth. Play-mode onboard footswitches select patches; Manual mode repurposes them. Shared stereo output supports headphones. No A2.1u specifications transferred; no hardware operation or downloads.
+
 ## A3
 
 Acoustic-guitar multi-effects;checked2026-10-18,partial. [Own product page](https://zoomcorp.com/en/us/multi-effects/acoustic/a3/) marks discontinued;absence ofcurrentstock isnot absence ofeligibility. Shared bass membership is supported by its documented upright-bass model; electric-bass voicing is not inferred. Shared live-microphone processing is documented below; this does not establish vocal harmony or pitch correction.

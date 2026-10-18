@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(zoom): screen A3 out of direct expression volume path'))
+    print(git('commit','-m','research(zoom): document A2 patch assignment and bypass volume'))
