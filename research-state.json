@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 POD X3 Live",
-    "task": "Saved X3Live fixedsections andoneToneFXlooprestriction.94+4=98 isqualifiedderivation,not explicitcountproof. Nextothermodel/freshdiscovery;donotrepeat knownX3fields.",
+    "task": "Saved X3Live USBlevel/SPDIFrate distinction,7secondchangebuffer andMIDIFAQvsRevC conflict. Next freshdiscovery/othermodel; exactUSBformat andrevisionmatching remainopen.",
     "next_models": [],
     "after_queue": "347 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -59440,6 +59440,23 @@
         "Screen"
       ],
       "method": "Manufacturer PDF text viaweb; no download/device operation"
+    },
+    {
+      "model": "Line 6 POD X3 Live",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://line6.com/data/l/0a060072a53c4aae7fe287ecf/application/pdf/POD_X3_Advanced_Guide.pdf",
+        "https://kb.line6.com/pod-x3-series-specifications-and-general-faqs",
+        "https://line6.com/data/l/0a060072c8d347743de40453f/application/pdf/MIDI%20Continuous%20Controller%20Reference%20%28Rev%20C%29%20-%20English.pdf"
+      ],
+      "finding": "USBmaster/ratecontrolscope;FAQ7secondchangebuffer;FAQPC-onlyDINreceivevsRevCCCtable conflict retained.",
+      "remaining": [
+        "USBformat/returns",
+        "MIDI firmwareapplicability",
+        "Powerlabel",
+        "Screen"
+      ],
+      "method": "Manufacturer documentation text only;no downloads/device operation"
     }
   ],
   "discovery_cross_brand_bass": {

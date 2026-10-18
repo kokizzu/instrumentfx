@@ -1400,6 +1400,17 @@ Checked2026-10-18 in [manufacturer family guide RevE][X3L-M],printedpp5•12–1
 | Processing / EQ and gate | EQ combines two shelving andtwo semi-parametric peaking bands within one block. Gate threshold minimum disables it;decay controls closure. These parameter/band counts are not extra selectable algorithms. |
 | I/O / shared FX loop restriction | External FX loop can beOn for **only one Tone at a time**;enabling it forone disables it forother. Send gain **−80…0dB**,return **0…+24dB**;Pre is afterStomp/beforeMod+Delay;Post is beforeMod+Delay+Reverb. DualTone doesnot provide two independent physical loops. |
 
+
+### POD X3 Live — USB level controls and MIDI documentation conflict
+
+Checked2026-10-18.
+
+| Field | Evidence / qualification |
+|---|---|
+| USB audio / level and rate scope | RevEpp8•2–3: **Master Volume doesnot alter USB orS/PDIF output levels**. Driver control-panel Monitor slider balances hardware monitoring against computer playback. USB sample rate is set from host/driver controls;deviceOutputs Rate/Level applies **only toS/PDIF**,soits displayedrate is not USB-rate proof. Exact USB formats/returncount remain open. [Manufacturer guide][X3L-M] |
+| MIDI / revision conflict | FAQ says Live/Pro DIN receives ProgramChange only andtransmits pedalCC;the later manufacturer MIDIreference lists receive/transmitCC entries forLive/Pro,including FXLoop andAmp enable. Preserve conflicting documentation;do not assert blanket CC receive rejection orcurrentfirmware capability withoutrevision matching. [FAQ][X3L-S];[MIDIreference RevC](https://line6.com/data/l/0a060072c8d347743de40453f/application/pdf/MIDI%20Continuous%20Controller%20Reference%20%28Rev%20C%29%20-%20English.pdf) |
+| Memory / shutdown retention | FAQ states a **7-second change-buffer time** forX3/Live andinstructs Save twice,wait7seconds beforepowercycling when anasterisk persists. This is a documented retention procedure,not preset-switch latency or a device test. [Manufacturer FAQ][X3L-S] |
+
 <!-- comparison evidence ends -->
 
 ### Exact Shopee evidence
