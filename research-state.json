@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh eligible hardware discovery / required gaps",
-    "task": "H90 distinct recovery/reset scopes and library load/overwrite behavior saved. Total capacity/factoryfill,display,USB remain unresolved. Next move to fresh Shopee series or another model required-field gap rather than repeat H90 capacity/display searches without new evidence.",
+    "task": "Original H9 Max bypass modes, wet-only swell restrictions and expression+oneaux sharing saved. Next pursue new exact Shopee series or required model fields; H9 patch spillover/USB/display/connector conflicts remain unresolved. Do not borrow H90 behavior.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -78800,5 +78800,37 @@
       "Qualifiednewused hardware offers"
     ],
     "research_limits": "Memory/display searches did not resolve stated fields. Shopee only returned existing H90 offer; no new model or current-stock claim. No reset,download,appoperation or deviceinteraction."
+  },
+  "h9_bypass_expression_20261018": {
+    "status": "partial",
+    "source": "https://cdn.eventideaudio.com/uploads/2020/07/H9-Manual.pdf",
+    "identity": "Original H9/H9MAX manual body; search title SPACE misleading",
+    "printed_pages": "14–16,33–34",
+    "findings": [
+      "Expression+oneRNGswitch viaYlead supported; not expression+threeaux",
+      "DSP default; relay hardwire/poweroff; DSP+FX effectbypass tails; Killdry DSPmute",
+      "Input/outputSwell attenuation; global overridesmappings; bypassinactive; wetonlyPrePost/WetDry"
+    ],
+    "remaining": [
+      "Patch-change spillover",
+      "USB audio/buspower",
+      "Display specifics",
+      "Qualifiedusednewoffer",
+      "Connector-source conflicts"
+    ],
+    "method": "Browser PDF text only; no hardware/app/download operations"
+  },
+  "discovery_legacy_guitar_bass_20261018_late": {
+    "queries": [
+      "site:shopee.co.id Zoom GFX-8",
+      "site:shopee.co.id Digitech RP50",
+      "site:shopee.co.id Digitech RP80",
+      "site:shopee.co.id Zoom G1next",
+      "site:shopee.co.id Korg AX5B",
+      "site:shopee.co.id Zoom B1Xnext",
+      "site:shopee.co.id Digitech BP8",
+      "site:shopee.co.id Boss ME-8B"
+    ],
+    "result": "No eligible new exact hardware resolved. GFX8 seller38361451/item8214243069 Rp95000 is pedal sensor module,excludedaccessory. Not proof of marketabsence."
   }
 }

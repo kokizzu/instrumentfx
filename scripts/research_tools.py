@@ -401,7 +401,7 @@ def main():
         if mode == 'commit-nux-mg101-audit':
             message = 'audit(nux): preserve MG-101 source evidence and verification tooling'
         if mode == 'commit-h9max':
-            message = 'research(eventide): distinguish H90 recovery and factory reset scope'
+            message = 'research(eventide): qualify H9 bypass swell and shared expression control'
         if mode == 'commit-1201':
             message = 'research(zoom): preserve 1201 bypass conflict and mixer routing'
         if mode == 'commit-vt4':
