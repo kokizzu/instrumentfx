@@ -1842,6 +1842,10 @@ Checked2026-10-17; partial. Shared guitar/bass multi-effects, distinct from P1/P
 
 DM Plus Studio shop search mentionsRp1,699,000 with Produk Baru, but lacks an exact hardware item link; not accepted as a new-condition hardware quote. No downloads or software execution used.
 
+### Prime M1 — direct analog expression audit
+
+Checked2026-10-19. [MOOER-authored quick manual V02_2024.10.28, printed pp4–8](https://www.cavallimusica.com/media/productattach/m/1/m1_manua_en.pdf), matches M1 title, layout and specifications. Complete connector inventory lists instrument TS input, stereo output, dedicated3.5mm phones and USB-C/OTG; **no analog EXP input**. Thus direct-EXP volume across presets fails; direct-EXP position/min/max/bypass/headphone/tail/looper coverage is inapplicable. Master knob affects Output and headphones, excluding USB-OTG recording; this is not pedal assignment. Two switches cycle presets in opposite directions; wording describes A as9-D→0-A andB as0-A→9-D, so numerical direction mapping needs corroboration. Exact70.2W×120Dmm footprint fits. External digital control remains unverified; no sibling behavior, stock refresh or hardware test implied.
+
 ## Prime M2
 
 Checked2026-10-17;partial. Guitar/bass processor with headset vocal effects. [Product](https://www.mooeraudio.com/products/221.html); [manufacturer manual, RockBoard mirror V2.0 filename](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_Prime_M2_Manual_V2.0_EN.pdf),67pages; selected technical sections read, no visual verification. Product lists a newer M2_Manual_EN_V02_2025.08.26; not assumed identical.

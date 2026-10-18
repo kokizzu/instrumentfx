@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(mooer): audit Prime P1 direct expression limitation'))
+    print(git('commit','-m','research(mooer): audit Prime M1 expression and navigation limits'))

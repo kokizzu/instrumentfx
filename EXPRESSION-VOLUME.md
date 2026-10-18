@@ -58,6 +58,7 @@ Global **calibration**, global **pedal-position recall**, global **EQ**, a physi
 | [Sonicake Pocket Master QME-10](SONICAKE.md#pocket-master-qme-10) | Yes / **No analog EXP input**, complete manual inventory | 103.5×85mm; fits | **Fails direct analog path**; MIDI separate | Direct EXP N/A; MIDI scope unaudited | Direct EXP N/A; MIDI coverage unknown | Shared6.35mm TRS stereo output | Hand preset buttons; **no onboard footswitches** |
 | [Sonicake Smart Box QME-20](SONICAKE.md#smart-box-qme-20) | Yes / TRS EXP/FS,10kΩ recommended | 135×114mm; fits | **Unverified**; Global Settings target/calibration is insufficient proof | Position/min/max/recall unknown | Bypass/headphones/tails/recorded-loop attenuation unknown | Dedicated3.5mm | Yes / yes in Preset Mode |
 | [MOOER Prime P1](MOOER.md#prime-p1) | Yes / **No analog EXP input**, complete manual inventory | Manual55×99.3mm; conflicting product dimensions also fit | **Fails direct analog path**; wireless separate | Direct EXP N/A; wireless scope unaudited | Direct EXP N/A; wireless coverage unknown | Dedicated3.5mm | No onboard footswitches; knob cycles A/B/C/D |
+| [MOOER Prime M1](MOOER.md#prime-m1) | Yes / **No analog EXP input**, complete manual inventory | 70.2×120mm; fits | **Fails direct analog path** | Direct EXP N/A; digital scope unverified | Direct EXP N/A; physical Master excludes USB recording | Dedicated3.5mm | Opposite-direction preset cycling; exact A/B numerical mapping qualified |
 
 ## Evidence and qualification
 
