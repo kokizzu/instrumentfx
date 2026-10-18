@@ -68,6 +68,17 @@ Checked 2026-10-18 from the [manufacturer manual,pp39,42–43](https://www.alesi
 Body dimensions/mass,current rating,display details and qualified used/new prices remain unresolved.
 
 
+### MicroVerb 4 — MIDI operation and backup limits
+
+Checked 2026-10-18 from original text in the [manufacturer manual, pp37–38](https://www.alesis.com/rscdn/981/documents/microverb4_manual.pdf). No download or device operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / MIDI selection and Thru | Channels1–16 or00 Omni. Bank-select CC0 immediately precedes Program Change: value0 selects factory bank;1–127 selects user bank. The manual says Program Changes above100 are ignored; numbering convention remains unverified. OUT/THRU automatically forwards input, but dense traffic can overflow its buffer, displayFLO and lose data. |
+| Editor / SysEx backup | Holding BANK/MIDI and pressing STORE sends user programs; incoming SysEx automatically enters receive mode. Snd/rEc/Err indicate send/receive/error. This is bank storage, not proof of a full editor or compatible modern librarian. |
+| Live / MIDI modulation restrictions | CC1 andCC11 control up to two fixed program-specific parameters; some programs expose only one. Modulation increases the stored value toward maximum, so a stored maximum cannot increase further. Chorus-depth changes during audio can click. Assignments are not freely remappable expression destinations. |
+
+
 ## MIDIverb 4
 
 Dual-channel rack multi-effects,notMicroVerb4. Checked2026-10-17;partial,discontinued [MD-P].

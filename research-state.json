@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom G5n",
-    "task": "Saved July2025G5n Mac DAW compatibility matrix and driver/editor distinctions. USB channel/routing primary evidence still missing;next fresh Shopee discovery orother unresolvedmodel fields.",
+    "model": "Alesis MicroVerb 4",
+    "task": "Saved MIDIbankselection,fixedpositiveCCmodulation,SysExbackup andThruoverflow. Next freshShopee discovery orremainingbody/current/display/qualifiedprices;no siblingborrowing.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -45606,7 +45606,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom G5n."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Alesis MicroVerb 4."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -75413,8 +75413,8 @@
     "next": "Fresh Shopee GP-series discovery; GP-100VT manufacturer lead requires exact hardware offer and own-model technical evidence."
   },
   "resume_cursor": {
-    "model": "Zoom G5n",
-    "task": "Saved July2025G5n Mac DAW compatibility matrix and driver/editor distinctions. USB channel/routing primary evidence still missing;next fresh Shopee discovery orother unresolvedmodel fields.",
+    "model": "Alesis MicroVerb 4",
+    "task": "Saved MIDIbankselection,fixedpositiveCCmodulation,SysExbackup andThruoverflow. Next freshShopee discovery orremainingbody/current/display/qualifiedprices;no siblingborrowing.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75726,6 +75726,22 @@
     "queries": [
       "site:shopee.co.id Digitech BP50",
       "site:shopee.co.id Korg AX100B efek"
+    ],
+    "result": "Noqualifiednewexacthardwareoffer;notmarketabsence"
+  },
+  "microverb4_midi_limits_20261018": {
+    "source": "https://www.alesis.com/rscdn/981/documents/microverb4_manual.pdf",
+    "pages": [
+      37,
+      38
+    ],
+    "scope": "CC0bankselection;fixedpositiveCC1/11modulation;automaticSysExreceive;MIDIThruoverflow",
+    "remaining": "ProgramChangenumbering,modernlibrarian/editor,body/current/display/qualifiedprices"
+  },
+  "discovery_quadraverb2_fx500_20261018": {
+    "queries": [
+      "site:shopee.co.id Alesis Quadraverb 2",
+      "site:shopee.co.id Yamaha FX500"
     ],
     "result": "Noqualifiednewexacthardwareoffer;notmarketabsence"
   }
