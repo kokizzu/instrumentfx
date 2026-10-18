@@ -1975,3 +1975,7 @@ research-commit-demonfx:
 .PHONY: research-commit-rowin
 research-commit-rowin:
 	python3 scripts/rowin_catalogue.py commit
+
+.PHONY: research-commit-erok
+research-commit-erok:
+	python3 scripts/erok_catalogue.py commit
