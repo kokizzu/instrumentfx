@@ -146,9 +146,19 @@ Checked 2026-10-18. The following are manufacturer support records with explicit
 
 | Field | Evidence / qualification |
 |---|---|
-| Editor / Windows compatibility | Chart dated **2019-01-24** lists USB-MIDI and Sound Librarian as supported on Windows 7 SP1, 8.1 and 10 version1809, both32/64-bit. USB-audio rows carry a64-bit footnote: standard USB-audio driver operation, with64-bit applications unsupported. This must not be flattened into universal64-bit ASIO support. Modern UI/UWP are excluded. Windows11/current Windows10 builds remain unverified. [Official chart](https://voxamps.com/wp-content/uploads/2019/03/win_compatibilitychart_VOX_en.pdf) |
+| Editor / Windows compatibility | Chart dated **2019-01-24** lists USB-MIDI and Sound Librarian as supported on Windows 7 SP1, 8.1 and 10 version1809, both32/64-bit. USB-audio rows carry a64-bit footnote: standard USB-audio driver operation, with64-bit applications unsupported. This must not be flattened into universal64-bit ASIO support. Modern UI/UWP are excluded. This is the older baseline; the 2023 chart below supersedes support status for its listed newer Windows releases. [Official chart](https://voxamps.com/wp-content/uploads/2019/03/win_compatibilitychart_VOX_en.pdf) |
 | Editor / Mac compatibility | Chart dated **2019-11-29** lists ST USB-audio, USB-MIDI and Sound Librarian on macOS10.12 Sierra,10.13 High Sierra and10.14 Mojave; **support ended** is printed for10.15 Catalina across all three. Librarian is marked unsigned. This is a support status, not proof that operation is physically impossible; newer macOS/Apple Silicon compatibility remains unverified. [Official chart](https://voxamps.com/wp-content/uploads/2019/11/Mac_CompatibilityChart-VOX_jp-2.pdf) |
 | Editor / librarian function and files | Japanese exact-model page documents Sound Librarian **v1.1.0**, program rearrangement, device transfers and file save/load. It includes **TLST_PresetProgram.tlst** plus **50 extra programs in TLST_ExtraProgram.tlst**. These are computer library files, not50 additional onboard slots or a confirmed factory user-slot map. Mac requirements there specify10.4.11+/10.5.6+PPC/Intel; retain the older manual baseline and later chart separately. A full parameter editor is not established. [Official model page](https://voxamps.com/ja/product/tonelab-st/) |
+
+
+### ToneLab ST — later Windows support status
+
+Checked 2026-10-18 against [VOX chart dated 2023-02-20](https://voxamps.com/wp-content/uploads/2023/02/Win_CompatibilityChart-VOX_en_20230220.pdf), exact ST rows. Retain the 2019 chart as historical evidence.
+
+| Field | Later dated evidence / qualification |
+|---|---|
+| Editor / Windows support ended | **End Of Support** for ST USB audio, USB MIDI, ST ASIO driver and Sound Librarian on **Windows10 21H2/22H2 (32/64-bit)** and **Windows11 21H2/22H2 (64-bit)**. A generic VOX driver Yes elsewhere in the chart does not override these model-specific rows. This is declared support status, not a hardware failure test; subsequent Windows builds remain unverified. |
+| Editor / Windows8.1 distinctions | USB audio, USB MIDI and Librarian retain Yes for32/64-bit Windows8.1, with qualifications. **ST ASIO driver: Yes32-bit, No64-bit**. USB audio uses the standard driver and excludes64-bit applications; MIDI/Librarian require VOX USB-MIDI driver. These separate rows must not be treated as universal64-bit audio compatibility. |
 
 <!-- comparison evidence ends -->
 

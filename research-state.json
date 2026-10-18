@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "VOX ToneLab ST",
-    "task": "Saved dated2019 Windows/Mac compatibility, Catalina support-ended status and librarian1.1.0 file capabilities. Modern OS support remains unverified. Next broaden hardware discovery or resolve other required model gaps; do not repeat completed category audits.",
+    "task": "2023 exact-model Windows support-ended rows saved, with separate Win8.1 ASIO32/64 distinctions. 2019 evidence retained historically. Next fresh hardware discovery or other unresolved technical fields; do not reclassify unsupported as impossible operation.",
     "next_models": [],
     "after_queue": "347 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -59058,6 +59058,20 @@
         "Qualified prices"
       ],
       "method": "Manufacturer HTML/PDF text only; no downloads/installations or hardware testing"
+    },
+    {
+      "model": "VOX ToneLab ST",
+      "checked_date": "2026-10-18",
+      "source": "https://voxamps.com/wp-content/uploads/2023/02/Win_CompatibilityChart-VOX_en_20230220.pdf",
+      "document_date": "2023-02-20",
+      "finding": "Exact ST USB audio/MIDI/ASIO/Librarian rows End Of Support for Win10 21H2/22H2 both architectures and Win11 21H2/22H2 x64. Win8.1 ST ASIO Yes32/No64, MIDI/Librarian driver required; standard audio64-bit apps excluded. Supersedes2019 status only on listed releases.",
+      "remaining": [
+        "Subsequent Windows/macOS compatibility",
+        "Simultaneous block accounting",
+        "Physical display specifications",
+        "Qualified used/new prices"
+      ],
+      "method": "Official chart browser text, not generic driver or sibling transfer; no downloads/tests"
     }
   ],
   "discovery_cross_brand_bass": {
