@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "EROK MP-10",
-    "task": "Added exact hardware offer and manufacturer guitar/drums/recording identity. Recover original MP10 manual and exact panel/revision; all detailed technical fields remain unresolved. Fresh MP9 searches yielded no exact Indonesian hardware item; keep as discovery lead. MP20 original manual and model difference remain unresolved; avoid repeat failed hash requests.",
+    "model": "Zoom G3X",
+    "task": "Saved tuner/reference retention,drop-mode limits,shared tempo,posteffects directmonitor and ±6dB USB recording trim. Button visual audit remains pending. Resume MP10 original manual recovery only via new access path,or another required model gap/fresh Shopee brand-series discovery. MP9 lacks exact Indonesian item;MP20 original applicability remains unresolved.",
     "next_models": [],
-    "after_queue": "362 partial active records/46 brands;114 MDcompatibility files; continue primary verification and lossless consolidation; no downloads/workflows/push."
+    "after_queue": "362 active/46brands;allpartial;303guitar158bass69vocal;114MDcompat files;lossless consolidation incomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -45901,7 +45901,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume EROK MP-10."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom G3X."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -60778,6 +60778,18 @@
         "Firmware/features/required technical fields"
       ],
       "method": "Browser-only original PDF access; no filesystem downloads or execution"
+    },
+    {
+      "model": "Zoom G3X",
+      "checked_date": "2026-10-18",
+      "source": "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf",
+      "finding": "Printed21/24–28:435–445Hz tuner reference retained across poweroff;drop1–3semitones excludes chromatic;sevenstring/open/DADGAD modes;40–250 sharedtempo;directmonitor explicitlyposteffects,blend0–100;recordtrim±6dB.",
+      "remaining": [
+        "Separate button count requires readable visual audit",
+        "USB dry/reamp mapping",
+        "Current OS and qualified new stock"
+      ],
+      "method": "Manufacturer original shared G3/G3X manual text;no files downloaded or unit operated"
     }
   ],
   "discovery_cross_brand_bass": {
