@@ -2081,11 +2081,11 @@ Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no si
 
 | Field | Finding / qualification |
 |---|---|
-| Expression | Two external expression inputs,shared with AMP CTRL;built-in treadle/toe support unverified. |
-| K/F/B | Rotary/button totals unverified;**eight footswitches**,assignable functions/colors. |
+| Expression | Two external expression inputs,shared with AMP CTRL. ManualWAH instructions include software **Toeswitch** on/off control;external pedal wiring/compatibility stillunverified. Built-in treadle notestablished. |
+| K/F/B | Manual names **SELECT plus five parameter knobs**,independent master-output controls;full rotary/button totals still unverified. **Eight footswitches** comprise bankup/down,CTRL1–3 andA/B/C. |
 | Display | Own manual: **5-inch,854×480 color LCD**;touch unverified. |
-| Processing / categories | **13 blocks;108 amp models,164 effects,43 factory cabinets**. Exact category census andsimultaneous DSP ceiling unverified. |
-| Memory | Manual: **85 banks×3=255 preset slots**,superseding product-page **255 banks** wording. Factory-filled subset unverified. |
+| Processing / categories | **13 blocks;108 amp models,164 effects,43 factory cabinets**. Manual category headlines: **COMP10;WAH10**;remaining census andsimultaneous DSP ceiling unverified. |
+| Memory | Manual: **85 banks×3=255 preset slots**,superseding product-page **255 banks** wording. Manual specifies **162 factory presets**:banks1–27 cab-on forFRFR/headphones;28–54 cab-off forpower amps. Factory presets arewithin255 slots,not additional. |
 | Synth / acoustic | Synth engine anddedicated acoustic simulation unverified;GUITAR Tone Capture is anEQ-character capture,not proof ofeither. |
 | Dimensions / mass | Manual: **287×208×64mm;2.1kg**,axes unstated;not GE300 measurements. |
 | I/O | Guitar/line input,stereo-mini AUX,two1/4-inch outputs,1/4-inch stereo phones,two balancedXLR withgroundlift,EXP1/2,MIDI IN/OUT-configurable port,USB-B,DC. Manual rear-panel text specifies **one mono1/4-inch SEND and RETURN pair**. Product overview calls itstereo;manual specification table also callsSEND stereo. Conflicting wording retained;no second pair inferred. |
@@ -2100,3 +2100,5 @@ Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no si
 Firmware qualification: own downloads labels **V5.0.2,2026-01-05** as a factory-resetting major update,with startup black-screen andEXP FXloop-mix fixes. Backups are required by those notes; no update performed. Installed firmware andpreset compatibility remain unverified.
 
 Manual follow-up checked2026-10-18: [MOOER-authored Lite manual,distributor copy](https://cdn.rockboard.de/nos/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_LITE_Manual_EN.pdf),V01-2020.07.22,model title/publisher andLite panel match. Printedpp1,4,7,12,29–30,80–81 support corrections above. USB specifications are audio formats,not proof ofUSB power. Text inspection only;no panel-image count certified. Remaining controls,category census,expression/toe,battery andqualified-offer gaps remain explicit.
+
+Controls/library follow-up2026-10-18: [manufacturer manual reproduced on alternate mirror](https://device.report/m/3bfcaf5bf9953f7daa8dcb5a20cfaf3a3e077f88dbcce614acf8c0b00c48ac63.pdf),sameV01-2020.07.22 title,85-page structure andLite-specific controls asprevious distributor copy,which was unavailable thispass. Printedpp4–5,12,44–45 support updates. Counts aretext-derived;no visual panel corroboration ordevice operation. SoftwareToeswitch wording doesnot prove a built-in mechanical switch.

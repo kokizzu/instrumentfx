@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER GE300 Lite",
-    "task": "Saved Lite manual power/body/display/85x3memory andUSB evidence. Next exact controls andeffect category census;retain mono/stereo loop conflict,verify expression/toe andqualified offers without borrowing GE300.",
+    "task": "Saved162factoryfill,controls decomposition andCOMP10/WAH10. Next GE300 Lite FXA/FXB/drive/delay/reverb andother category census,expression compatibility andqualified offers;do not infer builtin toe hardware.",
     "next_models": [],
     "after_queue": "375 active models,46 brands,all partial; compatibility migration incomplete; no downloads/workflows/push."
   },
@@ -81656,5 +81656,11 @@
       "CurrentOS",
       "Qualified Shopee offers"
     ]
+  },
+  "ge300lite_factory_controls_20261018": {
+    "source": "https://device.report/m/3bfcaf5bf9953f7daa8dcb5a20cfaf3a3e077f88dbcce614acf8c0b00c48ac63.pdf",
+    "revision": "V01-2020.07.22",
+    "result": "162factory presets within255slots;cab-on/offbank distinction;documented rotary controls and8foot decomposition;COMP10/WAH10 category headlines;softwareToeswitch qualified.",
+    "remaining": "Remaining categories,fullknob/buttoncount,expression wiring andcurrent firmware differences."
   }
 }
