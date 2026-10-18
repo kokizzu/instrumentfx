@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh bass hardware discovery / required gaps",
-    "task": "ME-50B delay-write clamping, per-patch Master and HOLD DLY limits saved. Next seek exact Shopee ME-50B/other unrecorded bass hardware with new series queries or resolve connector sizes from exact primary evidence.",
+    "task": "ME-50B master EQ, patch scope and drum timing saved. Next seek exact Shopee bass hardware with new brand/series queries; resolve connector sizes and visual census only from exact primary evidence. Keep 359 active models and current exclusions.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -78596,5 +78596,23 @@
     "saved": "Tapped delay versus write-clamped type range; modulation period bounds; per-patch master level; HOLD DLY standby and recorded-kick limitation",
     "remaining": "Physical controls visual corroboration, full connector diameters and qualified exact Shopee hardware. No numerical concurrency ceiling inferred.",
     "next": "Fresh bass-model Shopee discovery or another required-field gap; avoid repeating already documented ME50B tap behavior."
+  },
+  "me50b_master_eq_memory_20261018": {
+    "status": "partial",
+    "source": "https://static.roland.com/assets/media/pdf/ME-50B_OM.pdf",
+    "printed_pages": "19–21",
+    "findings": [
+      "Mid EQ center 100Hz–2.5kHz; no numeric gain endpoints established",
+      "Master EQ, noise suppression and kick tone saved per patch",
+      "High noise threshold can suppress quiet bass input",
+      "Three kick characters times two volume versions; HOLD DLY recording freezes automatic-beat restart/tempo but permits individual hits"
+    ],
+    "remaining": [
+      "Control visual census",
+      "Complete connector sizes",
+      "Exact Shopee hardware offers",
+      "Simultaneous capacity accounting"
+    ],
+    "method": "Browser text only; no downloads or unit operation"
   }
 }

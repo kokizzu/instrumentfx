@@ -1109,6 +1109,7 @@ Checked **2026-10-16**; cached exact hardware bodies, not live checkout/stock. N
 | Voucher-conditional / Boss Official Shop, Tangerang Selatan | Rp7.907.500 Dengan Voucher; same-day relative delivery. Eligibility and undiscounted price unexposed. Earlier Rp7.641.500 Habis retained; new body does not establish stock. Separate Belanja Rp30RB Diskon99% banner not accepted as hardware discount. | [341882414 /25839476168](https://shopee.co.id/BOSS-GX-10-Guitar-Effects-Processor-i.341882414.25839476168) |
 | Historical only / Red Musik Bali | Earlier Rp7.948.000 Habis; direct reopen cache miss, not fresh price verification. | [198150809 /26419884836](https://shopee.co.id/Boss-GX-10-Efek-Gitar-Proccesor-GX10-Guitar-Effect-Proccesor-GX-10-i.198150809.26419884836) |
 
+
 <!-- comparison evidence ends -->
 
 [GX10-IR]: https://static.roland.com/manuals/gx-10_bts_pc/en-US/141904267164166795.html
@@ -2510,6 +2511,10 @@ Bass-focused multi-effects, distinct from ME-50 guitar and ME-20B. Checked 2026-
 | K/F/B | **23 / 3 / 4**, text-derived: BANK up/down, WRITE, EDIT/EXIT. Toe and rear power switches additional; visual corroboration pending. | [Product][M50B-P]; [Manual pp22–25][M50B-M] |
 | Display | One-character seven-segment LED; published diagonal, color and touch unverified. | [Product][M50B-P] |
 | Dimensions / mass | 384W×225D×78H mm; manual maximum height 102mm. Product 3.2kg versus manual 3.15kg, both including batteries; retain discrepancy. Large floorboard. | [Product][M50B-P]; [Manual p30][M50B-M] |
+| Processing / master EQ | Three-band EQ with sweepable mid center **100 Hz–2.5 kHz**. Low, mid and high controls cut/boost; numeric gain endpoints are not specified in these passages.  | [Manual pp19–21][M50B-M] |
+| Memory / saved controls | Master EQ controls, noise-suppressor setting and selected kick-drum tone are stored individually per patch, extending the MASTER LEVEL scope documented above. They are not necessarily global settings.  | [Manual pp19–21][M50B-M] |
+| Processing / noise suppression | Suppression follows the bass decay envelope. Excessive threshold can silence playing at reduced bass volume; the knob has an Off position. No numeric threshold range established here.  | [Manual pp19–21][M50B-M] |
+| Drums / choices and recording restriction | Six tones are three characters—tight, standard and long sustain—each with low/high-volume versions. Pedal-press speed sets hit volume. After HOLD DLY recording starts, automatic beats cannot restart or change tempo; individual pedal-triggered kicks remain possible.  | [Manual pp19–21][M50B-M] |
 | Processing / categories | Six advertised sections; not a simultaneous-effect ceiling. Manual choices: COMP 5 excluding Off; FILTER/TONE 11; DRIVE/SYNTH 11 (7 drive+4 synth); DELAY/MOD 11. Master EQ and noise suppression separate. Full capacity accounting pending. | [Product][M50B-P]; [Manual pp8–15,20][M50B-M] |
 | Factory / user memory | 24 writable slots, eight banks×three, all factory-filled per patch/settings tables. Reset restores these 24 and tuner pitch; no additional ROM bank established. | [Manual pp21,28,31–33][M50B-M] |
 | Synth / acoustic | Four bass synth choices; single-note restriction. HOLLOW adds acoustic-electric bass body resonance, explicitly documented on p11. This supersedes the earlier unverified acoustic-body entry; not evidence of guitar acoustic simulation or user IR. | [Product][M50B-P]; [Manual pp11–12][M50B-M] |
