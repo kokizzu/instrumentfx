@@ -4416,3 +4416,29 @@ Acoustic-guitar multi-effects;partial,checked2026-10-18. Distinct fromA2.1u. [Ow
 | Practical features / Manual mode | Manualmode repurposes footswitches forMOD/EFX toggling andfeedback control,includingautomatic feedback-frequency detection. It is anoperation mode,not additional preset memory orfreely assignable scenes. [Own manual p5](https://zoomcorp.com/media/documents/E_A2.pdf). |
 
 <!-- comparison evidence ends -->
+
+## A3
+
+Acoustic-guitar multi-effects;checked2026-10-18,partial. [Own product page](https://zoomcorp.com/en/us/multi-effects/acoustic/a3/) marks discontinued;absence ofcurrentstock isnot absence ofeligibility. Bass/vocal membership unclassified.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in/external/toe support unverified. |
+| K/F/B | Separate rotary/foot/button totals unverified;do notborrowA2 controls. |
+| Display | LCD;diagonal,color/touch unverified. |
+| Processing / categories | **40 effects+28 guitar models;three simultaneous effects**. Introduction permits two selectedeffects alongside modeling;not40simultaneous. Categorycensus unverified. |
+| Memory | **20 userpatches**;factoryfilled count unverified. |
+| Synth / acoustic | Acoustic remodeling documented;dedicated synth unverified. Remodeling isnot proof ofuserIR/NAM loading. |
+| Dimensions / mass | **108W×160.3D×54.9Hmm;630g excludingbatteries**. |
+| I/O | PICKUP mono phone input;MIC XLR/phonecombo;Rmonooutput;L/MONO/PHONES stereo phone;balancedXLR withgroundlift;USB andpower. Socketdiameters/controlports/completeinventory cross-check pending. |
+| Power | **AD-16,9VDC500mA center-negative**;fourAAalkaline about**8h**. Supplyrating,not measureddraw;USBpower unverified. |
+| Editor / USB | USB listedforfirmwareupdate;full editor,OS matrix,audio/MIDI interface unverified. Internal44.1kHz/24-bit converters doesnot establishUSBaudio. |
+| IR / NAM / capture | UserIR,nativeNAM,convertedNAM andproprietarycapture import unverified. |
+| Looper / practical | Antifeedback handlesuptothree frequencies;cleanboost upto12dB,three-bandEQ,tuner. Looper/drums/scenes unverified. |
+| IDR price | Noqualified exactShopeeoffer;used/new amount,seller/item,condition,stock,bundle,warranty/voucher unknown. |
+
+<!-- comparison evidence ends -->
+
+[Own operation manual](https://zoomcorp.com/media/documents/A3_operationManual_English.pdf),indexed Introduction/Specifications inspected2026-10-18. Direct reader rejected13.9MB size;no fullPDF/image inspection claimed andno file downloaded. Controls,expression,exact categorychoices andport/power refinements requirefurther checking.

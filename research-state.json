@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 375,
+  "active_model_count": 376,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 375,
+  "canonical_root_model_count": 376,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "375 unique active/root-canonical;0 legacy-only;46 brands;six excluded;all partial.",
+  "count_reconciliation": "376 unique active/root-canonical;0 legacy-only;46 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "MOOER GE300 Lite",
-    "task": "Saved later Lite library/memory/IR changes andFS wording conflict. Next fresh Shopee discovery orother model gaps;do notpresentV01 counts/20IRslots ascurrent unqualified capability.",
+    "model": "Zoom A3",
+    "task": "Added exact acousticmulti-effects. Next own manual controls/expression,categorycensus,completeports/power andacousticmodel distinction. FullPDF reader sizelimit;use primaryindexed passages orverifiedmanufacturer copy withoutdownloads.",
     "next_models": [],
-    "after_queue": "375 active models,46 brands,all partial; compatibility migration incomplete; no downloads/workflows/push."
+    "after_queue": "376 active models,46 brands,all partial; compatibility migration incomplete; no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -5498,6 +5498,14 @@
       "checked_date": "2026-10-18",
       "status": "partial",
       "finding": "Distinct exact-model processor added;FXloop mono/stereo wording conflict andconvertedNAM qualification retained. NoqualifiedShopeeoffer."
+    },
+    {
+      "model": "Zoom A3",
+      "destination": "ZOOM.md#a3",
+      "source": "https://zoomcorp.com/media/documents/A3_operationManual_English.pdf",
+      "checked_date": "2026-10-18",
+      "status": "partial",
+      "finding": "Added missing acoustic multi-effects fromown product/indexed manual;exactShopeequeriesempty;manualreader sizelimit preserved."
     }
   ],
   "consolidation_and_price_findings": [
@@ -24927,7 +24935,8 @@
       "MS-100BT",
       "506II",
       "B2",
-      "A2"
+      "A2",
+      "A3"
     ],
     "DigiTech": [
       "RP360XP",
@@ -25232,7 +25241,8 @@
       "MS-100BT",
       "506II",
       "B2",
-      "A2"
+      "A2",
+      "A3"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -25542,7 +25552,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 312,
+      "record_count": 313,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -25572,10 +25582,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 312 guitar, 163 documented bass-capable, 70 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 313 guitar, 163 documented bass-capable, 70 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "375 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "376 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -46008,10 +46018,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 375,
-    "canonical_root_models": 375,
+    "unique_brand_model_pairs": 376,
+    "canonical_root_models": 376,
     "legacy_only_models": 0,
-    "guitar_view_models": 312,
+    "guitar_view_models": 313,
     "bass_focused_models": 38,
     "vocal_only_models": 25,
     "vocal_view_models": 70,
@@ -46100,7 +46110,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER GE300 Lite."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom A3."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -46330,6 +46340,7 @@
       "Zoom::NEURIG",
       "Zoom::MS-100BT",
       "Zoom::A2",
+      "Zoom::A3",
       "DigiTech::RP360XP",
       "DigiTech::RP255",
       "DigiTech::RP500",
@@ -48902,6 +48913,13 @@
     },
     "Zoom::A2": {
       "link": "ZOOM.md#a2",
+      "source_files": [
+        "ZOOM.md"
+      ],
+      "finding_files": []
+    },
+    "Zoom::A3": {
+      "link": "ZOOM.md#a3",
       "source_files": [
         "ZOOM.md"
       ],
@@ -81687,5 +81705,13 @@
     "source": "https://www.mooeraudio.com/companyfile/GE300-Lite-Downloads-150.html",
     "result": "Version-qualified newer effect additions,50IR/80MNRS capacities,dualIR,fixed2048POINT,SubPatch absence,tuner/pitch changes. Historical counts retained;FS wording discrepancy notused ashardwarecount.",
     "remaining": "Actualinstalled/currentuniquelibrary census,FSsourceconflict,qualifiedoffers andotherrequiredgaps."
+  },
+  "discovery_a3_20261018": {
+    "queries": [
+      "site:shopee.co.id \"Zoom A3\" acoustic",
+      "site:shopee.co.id \"ZOOM A3\" efek",
+      "site:shopee.co.id \"Zoom A-3\""
+    ],
+    "result": "No qualified exact hardware offer;no other currency or sibling price substituted."
   }
 }
