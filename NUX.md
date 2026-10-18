@@ -899,6 +899,17 @@ Checked 2026-10-18 using indexed text of the [manufacturer-authored firmware/sof
 
 Eight-IR claims found in retailer material were not promoted to a verified current capacity. Indexed image descriptions of an eight-name list do not establish replaceable user slots or current firmware limits; original software-screen inspection remains outstanding.
 
+### Cerberus — direct software-guide corroboration and reset scope
+
+Checked 2026-10-18. The [official firmware/software guide](https://nux.cherubtechnology.com/download/Otherguide/Cerberus/NUX_Cerberus_FirmwareUpdate_SoftwareManual_EN.pdf), linked by NUX, now returns readable text. Earlier timeout and distributor-404 observations above remain historical access records. Its firmware revision is unstated; direct access does not make every depicted interface V5-specific.
+
+| Field | Primary evidence / remaining boundary |
+|---|---|
+| IR / software-source corroboration | Direct manufacturer text independently confirms the previously saved WAV 44.1 kHz/24-bit/512-sample requirement and third-party entry renaming/deletion. It supplies no textual IR-slot total or conversion guarantee. |
+| MIDI / switch-source corroboration | Direct text confirms that enabling the first MIDI-CC trigger assignment repurposes TAP, with DELAY A providing tap tempo. The historical behavior above is corroborated; an exact V5 revision remains unproven. |
+| Memory / factory reset scope | [Official reset guide](https://nux.cherubtechnology.com/download/Otherguide/Cerberus/NUX_Cerberus_FactoryResetGuide_EN.pdf) states that reset erases all saved custom presets. It requires a separate SAVE confirmation after entering the reset state; powering off before confirmation cancels. This is documented behavior only; no reset was performed. The guide does not enumerate restored presets or resolve V5 factory fill. |
+
+
 ## Foreign-price provenance and consolidation limits
 
 The original six-model review recorded **2026-10-14 foreign new asks**:MG-101USD129([NUXUSA](https://www.nux.us/products/mg-101));MG-300MKIIUSD169([NUXUSA](https://www.nux.us/products/mg-300-mkii));MG-400USD229([NUXUSA](https://www.nux.us/products/mg-400)) andUSD172([Thomann](https://www.thomannmusic.com/nux_mg_400.htm));MG-30USD329([NUXUSA NAM page](https://www.nux.us/pages/nam-a2-native));MG-50LiUSD549([NUXUSA](https://www.nux.us/products/mg-50li)). OriginalMG-300hadnone. These remain historicalforeignprovenance,**not IDR values or Indonesian delivered prices**. No FXrate/useddiscountassumed. Existing Indonesian Shopee leads for those six remain in the root inventory/legacy discovery evidence pending exact integration;unknowncells do not mean unavailable.

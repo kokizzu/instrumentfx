@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Cerberus remaining fields / fresh discovery",
-    "task": "Current Cerberus body, memory and draw summaries now match original-manual follow-up. Next verify exact physical K/F/B or current V5 IR slot/editor limits from primary evidence; alternatively fresh unrecorded Shopee series. Legacy heading-preserving redirects remain under existing contract.",
+    "model": "Fresh discovery / required hardware fields",
+    "task": "Cerberus direct guide now corroborates IR format and MIDI reassignment; reset scope saved. V5 IR count and K/F/B unresolved. Avoid repeating unsupported ZIP or inaccessible images; next use fresh eligible Shopee series or a readable own manual for another model.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -45864,7 +45864,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Cerberus remaining fields / fresh discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery / required hardware fields."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -78531,5 +78531,15 @@
     ],
     "result": "No new qualified exact hardware item. GFX8/RP355 results were parts/adapters; Masamune category/storefront lead lacks exact item and scope review. Existing Cerberus used offers already in brand record; not duplicated.",
     "next": "Fresh eligible series discovery or unresolved required fields; no absence claim."
+  },
+  "cerberus_direct_guides_20261018": {
+    "model": "NUX Cerberus NME-3",
+    "sources": [
+      "https://nux.cherubtechnology.com/download/Otherguide/Cerberus/NUX_Cerberus_FirmwareUpdate_SoftwareManual_EN.pdf",
+      "https://nux.cherubtechnology.com/download/Otherguide/Cerberus/NUX_Cerberus_FactoryResetGuide_EN.pdf"
+    ],
+    "saved": "Direct manufacturer guide now text-readable: corroborates previously indexed IR/MIDI behavior; reset custom-preset erasure and confirmation/cancellation scope",
+    "limits": "No reset/update/software action. Software-guide firmware revision and textual IR-slot total absent; exact V5 capacity remains unverified. Parameter settings sheet link resolves ZIP unsupported by text reader; not downloaded.",
+    "next": "Defer V5 IR count until inspectable original interface/document; seek exact physical control census or other required model gaps."
   }
 }
