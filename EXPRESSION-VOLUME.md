@@ -159,3 +159,7 @@ FootCtrlPlus-linked PD41 follow-up: [mode-specific E/F bank restrictions](M-VAVE
 ### NUX Amp Academy NGS-6 — partial inventory lead
 
 [Original NGS-6 research lead](NUX.md#amp-academy-ngs-6--partial-capability-lead) is separate from Amp Academy Stomp. Official product establishes independent effects and headphones; analog expression, fit and global volume remain unverified because original PDFs yielded no text. Not admitted to active comparison/counts.
+
+### BOSS IR-200 — partial capability lead
+
+[Original manual evidence](BOSS.md#ir-200--partial-expression-capability-lead) supports system expression AMP LEVEL and onboard previous/next. Final-output, bypass and headphone attenuation remain unknown. Scope/full-profile review pending; outside active inventory and main capability comparison.

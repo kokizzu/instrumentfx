@@ -4049,3 +4049,9 @@ Checked 2026-10-19 against the [official original manual p46](https://static.rol
 | Live / Auto Riff controls | Loop On repeats the phrase; Hold sustains the effect after input ends. Trigger sensitivity controls restarting; zero prevents retriggering. Key selection applies to prepared phrases. These controls do not establish a drum machine or persistent audio looper. |
 
 Remaining FX subtypes, 44-category reconciliation, USB channel count and qualified IDR hardware offers remain unresolved. No downloads or device operations.
+
+## IR-200 — partial expression capability lead
+
+Checked 2026-10-19; outside active inventory pending full-profile/scope audit. [Manufacturer-authored 2021 manual, original PDF mirror](https://manuals.plus/m/b9825b3bebd56cb099901e5e15ff82bed29bc40deea57a2f0c884f79aaf4a363_optim.pdf),26pages, Roland copyright, IR-200 panel and model-specific routing identify source; official manual landing timed out. Printedp17: **EXP PDL FUNCTION PREF=SYSTEM** makes settings common across memories. Targets include AMP LEVEL, AMP GAIN, AMP SOL LV, SEND LEVEL, RET LEVEL; **not an established final-output volume target**. MIN/MAX0–100;AMP GAIN maximum120. Prefer verifying AMP LEVEL with amp bypass, ambience, parallel return andAUX before promising whole-signal mute. No such coverage certified.
+
+Printedpp3–6 document normal guitar/bass input, dedicated phones, CTL1,2/EXP withEV-30/EV-5, and onboard previous/next memory switches. Headphone level usesMEMORY knob;its independence doesnot prove expression coverage. Footprint, full model fields, qualifying multi-effects scope and exact Shopee offer remain pending; no active admission or sibling specification transfer. No downloads or hardware test.

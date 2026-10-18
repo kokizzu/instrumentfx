@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "Amp Academy Stomp expression-volume audit",
-    "finding": "Current2.0.5 page confirms externalEXP andA/Cpresetdown/up;globalvolume scope andcoverage unknown.183L×130Waxislabels retained;NMPswitchpinout notexpressionpinout.",
+    "current": "BOSS IR-200 partial system AMP LEVEL lead",
+    "finding": "Original manual EXP PREF SYSTEM makes AMP LEVEL common across memories;notfinaloutputproof. Range andprev/next documented;coverage/scope/fullprofilepending,noactiveadmission.",
     "next": [
-      "Systematic remaining no-treadle inventory: BOSS IR-200 exact global expression volume and routing",
+      "Continue IR-200 lead: exact dimensions, independent effects scope and qualified Shopee offer before admission",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
@@ -122627,6 +122627,16 @@
         "Direct analog expression support",
         "Complete required model fields",
         "Exact qualified Shopee hardware offer"
+      ]
+    },
+    "ir200_lead": {
+      "status": "partial, outside active inventory",
+      "document": "BOSS.md#ir-200--partial-expression-capability-lead",
+      "checked": "2026-10-19",
+      "remaining": [
+        "Scope and complete required model fields",
+        "Final-output and bypass/headphone/ambience coverage",
+        "Exact Shopee hardware offer"
       ]
     }
   }
