@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom A3",
-    "task": "Continue own manual controls/expression, categories, full ports and power. Microphone routing now verified; USB bus power still unknown. Use exact primary passages without downloads.",
+    "task": "A3 body/model distinction and microphone settings saved. Next exact-model controls/expression, category census, full ports and USB/power verification; then fresh Shopee discovery. Reader size limit remains; no downloads.",
     "next_models": [],
     "after_queue": "376 active models; all partial; compatibility migration incomplete. No downloads/workflows/push."
   },
@@ -5512,6 +5512,12 @@
       "date": "2026-10-18",
       "source": "https://zoomcorp.com/media/documents/A3_operationManual_English.pdf",
       "finding": "Indexed p24 establishes selectable microphone effect routing and tuner/tap hold choices; shared live-mic membership added. No harmony or correction claim. Full PDF remains unread due reader size limit."
+    },
+    {
+      "model": "Zoom A3",
+      "date": "2026-10-18",
+      "source": "https://zoomcorp.com/media/documents/A3_operationManual_English.pdf",
+      "finding": "Indexed Introduction and p23 distinguish body/model choices and establish phantom, low-cut and microphone phase options. USB bus power remains unverified; irrelevant recorder search results rejected."
     }
   ],
   "consolidation_and_price_findings": [

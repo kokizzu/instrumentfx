@@ -4430,9 +4430,10 @@ Acoustic-guitar multi-effects;checked2026-10-18,partial. [Own product page](http
 | Display | LCD;diagonal,color/touch unverified. |
 | Processing / categories | **40 effects+28 guitar models;three simultaneous effects**. Introduction permits two selectedeffects alongside modeling;not40simultaneous. Categorycensus unverified. |
 | Memory | **20 userpatches**;factoryfilled count unverified. |
-| Synth / acoustic | Acoustic remodeling documented;dedicated synth unverified. Remodeling isnot proof ofuserIR/NAM loading. |
+| Synth / acoustic | Acoustic remodeling uses **16 body types and 28 model types** to match guitar body shape/material characteristics (own manual Introduction). These are modeling choices, not 44 simultaneous effects. Dedicated synth unverified. Remodeling isnot proof ofuserIR/NAM loading. |
 | Dimensions / mass | **108W×160.3D×54.9Hmm;630g excludingbatteries**. |
 | I/O | PICKUP mono phone input;MIC XLR/phonecombo;Rmonooutput;L/MONO/PHONES stereo phone;balancedXLR withgroundlift;USB andpower. Socketdiameters/controlports/completeinventory cross-check pending. |
+| I/O / microphone settings | [Own manual p23](https://zoomcorp.com/media/documents/A3_operationManual_English.pdf), indexed 2026-10-18: phantom OFF/+24V/+48V; low-cut OFF/40/80/160Hz; microphone phase NORMAL/REVERSE. +24V consumes less power than +48V but does not suit every condenser microphone. The selected phantom setting takes effect on leaving its page. |
 | Power | **AD-16,9VDC500mA center-negative**;fourAAalkaline about**8h**. Supplyrating,not measureddraw;USBpower unverified. |
 | Editor / USB | USB listedforfirmwareupdate;full editor,OS matrix,audio/MIDI interface unverified. Internal44.1kHz/24-bit converters doesnot establishUSBaudio. |
 | IR / NAM / capture | UserIR,nativeNAM,convertedNAM andproprietarycapture import unverified. |
