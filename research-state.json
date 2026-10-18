@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS GT-10B",
-    "task": "Saved sevenchannel modes/crossover. Next fresh Shopee brandseries discovery or unresolved exactmodel technicalfields. No accepted newbass hardware thispass.",
+    "model": "DigiTech RP90",
+    "task": "Saved library/control scope and display indicators. Next fresh Shopee brandseries search or unresolved technical fields; RP355/350/80/300/150/55 search no newqualified hardware.",
     "next_models": [],
     "after_queue": "347 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -45602,7 +45602,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS GT-10B."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP90."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -59308,6 +59308,21 @@
         "Screen diagonal/color/touch"
       ],
       "method": "Manufacturer manual body; no download or device operation"
+    },
+    {
+      "model": "DigiTech RP90",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://manualzz.com/doc/9658242/digitech-rp90-owner-s-manual"
+      ],
+      "finding": "Ownmanualpp7–9 separates Tone/EffectsLibraryscope,EffectsLevelpostampmixvsMaster,andCU/editdecimal indicators.",
+      "remaining": [
+        "Toe support",
+        "Battery/draw",
+        "Screen specifications",
+        "Working used or new IDR"
+      ],
+      "method": "Manufacturer manual text only; no downloads or operation"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -74555,6 +74570,19 @@
       "site:shopee.co.id Zoom 506 bass"
     ],
     "result": "No new exacthardware accepted. B2FOUR existingLYN1203229574/42758785757Rp4545000andACOUSTIC1104950239/42458813522Rp4270000reopened unchanged;stockconditionunverified. SimfonistorefrontindexRp4134400 lacks exactitem, no modelprice added. Nonmusic506hits rejected.",
+    "checked_date": "2026-10-18"
+  },
+  "discovery_digitech_20261018_post_gt10b": {
+    "queries": [
+      "RP355",
+      "RP350",
+      "RP80",
+      "RP300",
+      "RP150",
+      "RP55"
+    ],
+    "site": "shopee.co.id",
+    "result": "No newqualified exactmodel hardware. PSU855783279/22273291654Rp170000 rejected;existingRP90faulty729907257/51202235862directHabisRp400000reconfirmed,notworkingused. No catalogue increment.",
     "checked_date": "2026-10-18"
   }
 }

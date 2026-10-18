@@ -287,6 +287,16 @@ Additional historical offer checked2026-10-18: **Rp800,000; Habis**, Susan_Bryan
 
 [RP90-O3]: https://shopee.co.id/DIGITECH-Efek-gitar-elektrik-type-RP90-i.69518756.25184148740
 
+### RP90 — library control scope and display indicators
+
+Checked2026-10-18 in [manufacturer-authored RP90 manual text](https://manualzz.com/doc/9658242/digitech-rp90-owner-s-manual), printedpp7–9; RP90 title,control names andpagination match the saved manual. No generated FAQ used.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / library scope | Tone Library configures Pickup/Wah,Compressor,Amp/Distortion andEQ while retaining Chorus/FX,Delay,Reverb. Effects Library changes the post-amp chain while retaining those tone settings. Twenty library configurations are shortcuts,not additional onboard effect slots. |
+| Live / level controls | **Effects Level** adjusts the relative Chorus/FX,Delay andReverb levels together; **Master Level** sets overall output. Effects Level is therefore not interchangeable with master volume. |
+| Display / editing indicators | **CU** denotes a custom library configuration; bottom-right decimal indicates a modified preset. Matrix LEDs show active/selected effects or tuning status according to mode. These functions do not establish diagonal,color technology or touch. |
+
 ## RP250
 
 Guitar multi-effects;distinct fromRP255/RP150. Checked2026-10-17;partial. Bass/vocal suitability andownership unresolved.
