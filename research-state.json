@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh hardware discovery / unresolved model fields",
-    "task": "G3X archived manufacturer page directly confirms100factory-loadeduserpatches,2-in/2-outUSB,3backlitLCDs. Panelimagecachemiss; next fresh Shopee brand/series discovery, then exact new lead or unresolved button/display/USBsource audit. MP100 currentIR/census open.",
+    "task": "Fresh legacyguitar/bass/vocal Shopee pass foundno newexacthardware. G3X p37 calibration/5mm torque adjustment recorded. Next expandfreshbrand/series search beyondthesequeries,or G3Xbutton/display/USBsourceaudit;MP100currentIR/census unresolved.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -60586,6 +60586,20 @@
         "Broader external parameter control"
       ],
       "method": "Manufacturer archived HTML read in browser; no downloads/software/device execution"
+    },
+    {
+      "model": "Zoom G3X",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf"
+      ],
+      "finding": "Printed37 distinguishes sensitivity calibration from mechanical torque adjustment using5mmhexkey;clockwise tightens,counterclockwise loosens;overloose screw can fallinside. No exact startupbutton inferredfrommissingicon.",
+      "remaining": [
+        "Buttons/display",
+        "Broader external parameter control",
+        "Qualified new offer"
+      ],
+      "method": "Manufacturer indexed manual text only;no download or hardware operation"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -79915,5 +79929,21 @@
       "site:shopee.co.id \"Zoom\" \"GFX-1\""
     ],
     "result": "No neweligibleexacthardware. GFX1adapters/unrelatedGTProproducts excluded. Recommendationpage exposedGP100second266296121/49001468024Rp2200000alreadyrecorded;no duplicateofferadded."
+  },
+  "discovery_g3x_frontier_20261018": {
+    "checked_date": "2026-10-18",
+    "queries": [
+      "site:shopee.co.id Zoom GFX-8",
+      "site:shopee.co.id Line 6 M13",
+      "site:shopee.co.id Boss GT-Pro efek",
+      "site:shopee.co.id DigiTech RP355 efek",
+      "site:shopee.co.id Korg AX3000B",
+      "site:shopee.co.id Zoom B9.1ut",
+      "site:shopee.co.id DigiTech Vocalist Live 5",
+      "site:shopee.co.id TC Helicon VoiceLive 2",
+      "site:shopee.co.id Zoom G9.2tt"
+    ],
+    "result": "No new exact eligible hardware item established. GFX8 sensor38361451/8214243069 andadapters732732692/20031217262,14849321/28104902463 rejected. M13adapter216990724/6861766207 alreadyrejected. VoiceLivePlay4900000 categorysnippet unlinkedonreopen;notmodelprice. ExistingVoiceLivePlay/3Extreme hitsduplicates;unrelatedphone/fishing/penhits rejected.",
+    "limits": "Search negatives do not establish unavailability; category reopen changed to unrelatedproducts; no checkout/images/downloads."
   }
 }
