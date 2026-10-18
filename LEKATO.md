@@ -11,7 +11,7 @@ Checked2026-10-18; partial. Own brand productSKU M03397 establishes general mult
 | Expression | No built-in pedal/toe orEXP socket in manual inventory;USB MIDI pedal support documented,continuous-expression mapping unknown. [MEM] |
 | Knobs / footswitches / buttons | **2/2/7**:Master,Edit;left/right;Home+6module buttons. Encoder push/rear power separate. Text-derived;no visual audit. [MEM] |
 | Display | Manual describes white/blue on-screen BT icons:color-UI text evidence;technology,diagonal,touch unknown. [MEM] |
-| Dimensions / mass | **4.33×4.33×1.77inches;15.9oz**,own page axes unspecified. Unit/package basis not independently confirmed. [MEP] Manual instead **118L×115W×41H mm;425g**;unresolved. [MEM] |
+| Dimensions / mass | **4.33×4.33×1.77inches;15.9oz**,own page axes unspecified. Unit/package basis not independently confirmed. [MEP] Manual instead **118L×115W×41H mm**;mass extract literally425q,unit corrupt/unverified;earlier425g normalization withdrawn. Unresolved. [MEM] |
 | Processing / category choices | Six modules: **FX3,AMP20,MOD7,DLY5,RVB6,IR20**;amp/IR entries1–15 guitar,16–20 bass. Manual specifies **6+1 simultaneous**:gate combined withboost/compression insideFX,not7freelyassignable blocks. Reorderable chain. [MEM] Feature list FX=compressor/boost/gate;FAQ additionally mentions drive/distortion without a reconciled list. Firmware unknown. [MEP] |
 | Factory / user memory | **80 editable;40 factory-filled,40 initially unedited**. Do not add another80 orassume protected factory storage. [MEP] Manual locatesfactory soundsP01–40,bassP36–40;software reset40or80. [MEM] |
 | Synth / acoustic | Guitar/bass intended; acoustic-instrument compatibility wording does not establish acoustic simulation. Synth unverified. [MEP] |
@@ -39,3 +39,14 @@ Brand product text used;no images visually audited orfiles downloaded. Platform 
 ### Manual provenance, 2026-10-18
 
 Reproduced owner-manual body namesLEKATO ME-01 andlekatotech.com;technical modules matchownproduct page. Revision/installedfirmware unverified. AssociatedPDF reader returnedcachemiss;no byte-equivalence orvisual claim. Mirror-generated ASIN/hub manuals were excluded. Manual conflicts supplement,not erase,product-page wording. No downloads orhardware operations.
+
+### ME-01 — recording and live-control limits, 2026-10-18
+
+| Field | Evidence / qualification |
+|---|---|
+| USB / loopback routing | Manual says **loopback defaultsOn**:USB/BT backing audio andinstrument are recorded asone mixed track. Off recordsIN instrument only. This doesnot establish separate dry/wet channels,reamping orstem separation. [MEM] |
+| I/O / Master volume scope | Master excludes **Bluetooth andUSB input playback volume**. The manual doesnot separately specify whether it alters USB instrument-send level;do not assume independent recording gain. [MEM] |
+| Live / delay freeze and tuner | On activeDLY edit screen,holdrightfootswitch **1.5s** to sustaincurrentwetdelay;releasecancels. Not aphrase looper orstoredsample. Tunerreference **430–450Hz**,bypass/mute modes. [MEM] |
+| Memory / save and swap | Edit-encoderhold1s opensSaveTo;2s opensSwapTo. HOME cancels. These explicit workflows donot establish automatic saving orIRimportpersistence. [MEM] |
+
+Manual andproduct-page mass remain unresolved:both original-bodymirror transcriptions read425q,not a verified425g. No visualPDF orphysicalmeasurement performed. Exact Shopee ME-01/ME01 queries yieldedno newmodel-bound item;the existing generic80-presetlead remains unconfirmed. No software downloaded ordevice operated.

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "LEKATO ME-01",
-    "task": "Saved reproducedownmanualcontrols,power,USB/IRformats,proprietaryAMPimports andsourceconflicts. Next fullmanualrouting/loopback/freeze andIRimportpersistence orstrongerShopeeME01identity; noM-VAVEequivalence inference.",
+    "task": "Saved loopback/Master/freeze/tuner/save limits;corrected425q masscorruption. Next freshbrand/seriesShopeediscovery orprimaryME01revision/IRpersistence/displayevidence;generic80presetoffer remainsunconfirmed.",
     "next_models": [],
     "after_queue": "357 partial models;298 guitar158 bass69 vocal;42brands;migration incomplete; no downloads/workflows/push."
   },
@@ -78222,5 +78222,15 @@
       "ExactShopeemodel/condition",
       "Loopbackroutingdetails"
     ]
+  },
+  "lekato_me01_routing_20261018": {
+    "model": "LEKATO ME-01",
+    "source": "https://device.report/manual/20953279",
+    "corroborating_transcription": "https://manuals.plus/lekato/me-01-multi-effects-processor-manual",
+    "checked_date": "2026-10-18",
+    "saved": "LoopbackdefaultOnmixedUSB/BT/instrumentsameTrack;OffINonly;MasterexcludesUSB/BTinput;DLY1.5sfreezeholdrelease;430450Hz;Save1sSwap2s",
+    "correction": "425gpreviousnormalizationwithdrawn:bothmirrorbodytranscriptions425q;unitunverified",
+    "remaining": "IRimportpersistence/displaytechnologydiagonal/exactrevision/powergarble/Shopeemodelbinding",
+    "search": "ShopeeME01/ME-01exactqueriesnoqualifiednewitem;notunavailability"
   }
 }
