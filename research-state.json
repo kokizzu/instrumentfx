@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh series discovery / required fields",
-    "task": "Six legacy-series searches saved with exact GFX-8 accessory exclusions. Seek other eligible Shopee brand/series hardware, then audit exact-model primary documentation; do not reuse adapter/sensor asks. A2 remains unresolved and outside active inventory.",
+    "model": "Zoom B2 FOUR seller leads / required fields",
+    "task": "Resolve Alberta Musik and GALERI MUSIK SIMFONI_PIM exact B2 FOUR item URLs from saved catalogue leads. Prices remain unqualified outside comparison tables until item/condition/bundle evidence is resolved. Otherwise continue recorded-model required fields; A2 stays non-active.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -79091,5 +79091,44 @@
     ],
     "result": "No qualifying new exact hardware offer resolved in these six searches. G2R yielded unrelated relay/category results. Search limitations do not establish model absence or current stock.",
     "active_models_added": 0
+  },
+  "discovery_bass_seller_catalogues_20261018": {
+    "checked_date": "2026-10-18",
+    "queries": [
+      "site:shopee.co.id \"Zoom\" \"B2\" \"efek bass\"",
+      "site:shopee.co.id \"Korg\" \"AX10B\"",
+      "site:shopee.co.id \"Digitech\" \"BP200\"",
+      "site:shopee.co.id \"Efek Bass ZOOM B2 FOUR\" \"3.935.000\"",
+      "site:shopee.co.id \"Zoom B2\" -FOUR -adaptor -adapter -senter"
+    ],
+    "model": "Zoom B2 FOUR",
+    "leads": [
+      {
+        "seller": "Alberta Musik",
+        "url": "https://shopee.co.id/albertamusik",
+        "title": "Efek Bass ZOOM B2 FOUR Multi Efek Processor Original",
+        "indexed_ask_idr": 3935000,
+        "crawl": "two months ago",
+        "exact_item": null
+      },
+      {
+        "seller": "GALERI MUSIK SIMFONI_PIM",
+        "url": "https://shopee.co.id/galerimusiksimfoni_pim",
+        "title": "Zoom B2 Four Effects, IR’s, and DI Modeling for Every Bassist",
+        "indexed_ask_idr": 4134400,
+        "crawl": "three months ago",
+        "exact_item": null
+      }
+    ],
+    "qualification": "Seller-catalogue index leads only. Exact seller/item IDs, condition, selected bundle, stock, warranty, voucher, shipping and total unresolved. Neither is a qualified new/used comparison price or completed sale. Alberta direct open returned internal error.",
+    "existing_offer_recheck": "IDB800959591/24004987590 remains index-only Rp4495000 with stale Sep26–28 delivery; direct open cache miss. Not a newly resolved offer.",
+    "rejected_accessory": {
+      "url": "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-VL3G-Vocalist-Live-3-EX-MC2-Talker-S100-RP3-GNX1-BP200-AC-Power-Supply-i.16626959.4486100964",
+      "seller_item": "16626959/4486100964",
+      "ask_idr": 175000,
+      "reason": "Power supply compatible with BP200, not processor hardware."
+    },
+    "result": "No new eligible model admitted. Original B2 hardware not established by B2 FOUR hits; no absence claim for BP200/AX10B.",
+    "next": "Resolve exact B2 FOUR item URLs from the two named seller leads before promoting any price; otherwise continue required-field verification."
   }
 }
