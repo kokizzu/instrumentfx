@@ -94,6 +94,17 @@ Checked2026-10-18 against the [exact manufacturer v2 manual][BFR2-M],printed pp1
 | Processing / octave architecture | Octave divider halves input frequency andproduces a **digital square-wave signal**,then filters it. Manufacturer warns the division can be glitchy andsuggests compression tohelp tracking. The previously documented monophonic restriction remains. Analog FET/SansAmp descriptions do not establish an all-analog complete processor. |
 | Live / overload check | If Chorus’s red clipping indicator stayslit with all effects off,the manual recommends input pad;otherwise reduce the active Comp/SansAmp level. Occasional peak flashes are distinguished from continuous clipping. This diagnostic does not establish numerical headroom oroutput-power ratings. |
 
+
+### Bass Fly Rig v2 — input and dynamic-filter limits
+
+Checked2026-10-18 against the exact [©2021 manufacturer manual][BFR2-M],printed pp1,5. Web text only; no hardware operation.
+
+| Field | Manufacturer qualification |
+|---|---|
+| I/O / nominal input wording | Manual calls normal input approximately **−10dBm /250mV** and labels the active-bass pad **−10dBm**. Retain its printed units; no reference-load reconciliation or measured maximum input is established. Input impedance remains4.7MΩ. |
+| Effects / dynamic filter | RANGE minimum removes input-level control of filter sweep; maximum makes sweep follow signal level and playing attack. Q controls filter bandwidth/sharpness; at minimum,RANGE acts as a high-cut tone control. These are interacting parameters,not extra independent effect blocks. |
+| Live / external effect placement | Manufacturer recommends phaser/vibe,overdrive andwah before the unit;delay,EQ,flanger,phaser,pitch shifter andreverb in its loop. These are recommendations,not proof that other placements are prohibited. [Manual p7][BFR2-M] |
+
 <!-- comparison evidence ends -->
 
 Shopee searches for “Bass Fly Rig” and “bass flyrig” on 2026-10-17 did not resolve an exact Indonesian hardware seller/item. This is not proof of market absence. Seller/item, condition, stock, region, revision, bundle, adapter, warranty and voucher remain unverified. No foreign currency conversion or sibling-model offer substituted.
