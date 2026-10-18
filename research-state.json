@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Tech 21 Bass Fly Rig v2",
-    "task": "Saved original nominal-input/pad wording without normalizing dBm, dynamic filter behavior and manufacturer external-effect placement recommendations. Switch census,full routing,preset/editor scope,headphone/battery/USB andexactIDR offers remain unresolved;image/screenshot access gave no usable visual evidence. Next different required gap orfreshShopee brand discovery.",
+    "model": "Lossless consolidation preservation audit",
+    "task": "Full audit saved at ef334e4:82 whole bodies unchanged;99technical redirects and13metadata redirects verified;specialist and3originalJSON reconstruction pass. Do not repeat these checks without new relevant changes.114Markdown compatibility paths retained for historical anchors; next fresh hardware discovery by a different brand/series or specific unresolved manufacturer fields.",
     "next_models": [],
-    "after_queue": "352partialmodels;293guitar155bass68vocal;legacycompatibilitymigration incomplete;no downloads/workflows/push."
+    "after_queue": "352partialmodels;293guitar155bass68vocal;technical/market research and overall migration incomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -45593,6 +45593,52 @@
       "removed_json_pointers": 3,
       "evidence": "Filesystem enumeration effects/:114 Markdown and0JSON; make json-pointer-removal-verify passes exact typed reconstruction of3original files/2unique snapshots. README corrected from stale all117retained claim.",
       "overall_complete": false
+    },
+    "preservation_recheck_latest": {
+      "checked_date": "2026-10-18",
+      "source_head": "ef334e4075148c054e3e8e13108d203735af6b16",
+      "inputs_unchanged_during_run": true,
+      "checks": [
+        {
+          "target": "make consolidation-audit-body-differences",
+          "exit_code": 0,
+          "complete_source_bodies": 82,
+          "mismatches": 0,
+          "other_entries_outside_this_check": 92
+        },
+        {
+          "target": "make consolidation-verify",
+          "exit_code": 0,
+          "result": "Complete consolidated bodies and supporting comparison facts retained."
+        },
+        {
+          "target": "make metadata-retirement-verify",
+          "exit_code": 0,
+          "result": "13 metadata redirects; complete pinned originals match root metadata; all original headings/incoming anchors/root destinations resolve."
+        },
+        {
+          "target": "make technical-retirement-verify",
+          "session_id": 17664,
+          "exit_code": 0,
+          "technical_sources": 99,
+          "retired_sources": 99,
+          "incoming_link_occurrences": 0,
+          "result": "All shared-source unions pass; every original heading/root destination preserved."
+        },
+        {
+          "target": "make specialist-retirement-verify",
+          "exit_code": 0,
+          "result": "GM-800 complete section, excluded archive, specialist context and incoming anchors preserved."
+        },
+        {
+          "target": "make json-pointer-removal-verify",
+          "exit_code": 0,
+          "result": "Three original JSON files/two unique typed snapshots reconstructed; exact removed selection and zero incoming Markdown links verified."
+        }
+      ],
+      "remaining_markdown_compatibility_paths": 114,
+      "removed_json_pointers": 3,
+      "limitations": "Evidence preservation and historical navigation checks, not manufacturer truth/current stock or complete research. No compatibility source deleted; overall migration remains incomplete."
     }
   },
   "deferred_work": {
@@ -76862,5 +76908,23 @@
       "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-VL3G-Vocalist-Live-3-EX-MC2-Talker-S100-RP3-GNX1-BP200-AC-Power-Supply-i.16626959.4486100964"
     ],
     "result": "No new exact processor hardware qualified; G9.2tt category only adapters. Existing mixed606/607 listing unchanged; no variant-specific price inferred. Search absence does not prove unavailability."
+  },
+  "discovery_rp_bass_frontier_20261018": {
+    "checked_date": "2026-10-18",
+    "queries": [
+      "site:shopee.co.id Digitech RP55",
+      "site:shopee.co.id Digitech RP50",
+      "site:shopee.co.id Digitech RP100",
+      "site:shopee.co.id Digitech RP300 -adaptor -adapter",
+      "site:shopee.co.id BOSS GT6B",
+      "site:shopee.co.id Boss ME8B",
+      "site:shopee.co.id Korg PX4B",
+      "site:shopee.co.id Digitech BNX3",
+      "site:shopee.co.id Zoom BFX708",
+      "site:shopee.co.id Zoom 506II",
+      "site:shopee.co.id Korg PX5D",
+      "site:shopee.co.id Korg PX4D"
+    ],
+    "result": "No new exact processor hardware qualified; RP350/RP355/RP300 item855783279/22273291654 remains an adapter exclusion. Empty/unrelated results do not prove market absence."
   }
 }
