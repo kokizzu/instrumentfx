@@ -163,6 +163,17 @@ Checked2026-10-18 against the [original v2.0 manual body](https://manualzz.com/d
 | Looper / feedback | P17 blends each new pass with the existing loop multiplied by Loop Feedback;100% retains the prior loop level,while lower settings reduce earlier layers on successive overdubs. This is loop layering,not an additional track count or a current-firmware duration specification. |
 | Live / pitch reference | P18 specifies **440Hz default,adjustable in0.5Hz increments**; minimum/maximum are not established here. This is pitch reference,not USB sample rate or proof of a dedicated instrument-tuner mode. |
 
+
+### VoiceLive Play — manufacturer web-copy conflicts, 2026-10-18
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / manufacturer MIDI claim conflict | Music Tribe's readable [Behringer-hosted exact product0726-AAZ](https://www.behringer.com/en/products/0726-AAZ) says MIDI input andkeyboard-driven harmony. Original rear-panel/manual inventory has no MIDI socket. Preserve this unresolved web/manual conflict;do not advertise MIDI input or USB MIDI without a matching technical revision. The page provides no replacement connector inventory. |
+| Looper / manufacturer web revision conflict | Same page claims **30-second looping**,while the preserved2012 manufacturer More Play announcement claims60seconds. Neither page establishes installed firmware orundo-dependent capacity. Keep original15/30-second manual andhistorical60-second update separately;do not roll back the record to30seconds. |
+| Memory / processing web wording | Same page advertises **over200 factory presets** andup to eight effect blocks. Over200 is a lower-bound marketing claim,not exact total/factory/user memory. Eight-block wording does not prove freely assignable routing orreplace the documented sevenFX+Tone organization. Publication/revision applicability unknown. |
+
+The product title/code match blueVoiceLive Play;this is newly readable manufacturer-hosted marketing text,not a service-manual orinstalled-hardware audit. These discrepancies are retained for verification rather than resolved from sibling hardware. No files downloaded.
+
 <!-- comparison evidence ends -->
 
 ### Current access and unresolved fields

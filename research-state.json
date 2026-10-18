@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "NUX MG-400",
-    "task": "Saved USB/editor/trim andalternate imported manual163W/group1–16 conflicts against160W/1–9. Next freshShopeeeligiblehardwarediscovery or exactmanufacturerrevision/completecategorycensus;do not repeat inaccessible PDFs or infer totalmemory.",
+    "model": "TC-Helicon VoiceLive Play",
+    "task": "Saved newlyreadableMusicTribe0726AAZmarketingMIDI/loop/block/memoryclaims withmanual/updateconflicts. Next freshShopeeeligiblehardware ormanufacturertechnicalrevision; noMIDIcapabilitypromotionwithoutcorroboration.",
     "next_models": [],
     "after_queue": "356 partial models;297 guitar157 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
@@ -45831,7 +45831,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX MG-400."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon VoiceLive Play."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -78092,5 +78092,35 @@
     "saved": "USBNormalDryOutReamp,RECknob1PLAYknob2;trimfunctionwithoutnumericrange;PARAFOLLOWnotautosave;QuickTonepatchIR/scene/routingediting",
     "conflicts": "Alternate163Wmm andgroups1–16 versus earlier160W and1–9;not silently resolved orcapacityinferred",
     "remaining": "Exactmanualrevision/physicalwidth,presetcapacity/factoryfill,USBchannelcount/format/MIDI/power,editorOS,fullcategorycensus"
+  },
+  "voicelive_play_manufacturer_copy_conflicts_20261018": {
+    "model": "TC-Helicon VoiceLive Play",
+    "source": "https://www.behringer.com/en/products/0726-AAZ",
+    "checked_date": "2026-10-18",
+    "identity": "MusicTribehostproduct0726AAZexactVoiceLivePlaytitle;fullreadablemarketingbody",
+    "conflicts": "MIDIinput/keyboardharmony versusnoMIDIpanelinventory;30sloopversus2012manufacturer60supdate;8blocksversus7FX+Tonequalification",
+    "memory": "Over200factorypresets lowerboundonly;notexactcapacityorprotectedbank",
+    "next": "Obtain model-specific technicalrevision toresolveMIDIandloopclaims;do notpromotemarketingcopyovermanual orborrowGTX/Acoustic."
+  },
+  "discovery_search_pass_20261018_post_mg400": {
+    "queries": [
+      "DigiTech RP350",
+      "Zoom G2.1DM",
+      "Boss GT6B",
+      "TC Helicon VoiceLive2",
+      "Boss GT-PRO",
+      "Digitech BP80",
+      "TC Helicon Play Electric",
+      "Zoom G1next",
+      "TC Helicon Create",
+      "Mooer GE300Lite",
+      "Nux MG30MKII",
+      "Valeton GP20",
+      "Lexicon MX100",
+      "TC Electronic M300",
+      "Zoom G2G",
+      "DigiTech RP50"
+    ],
+    "result": "No qualified newexacthardwareitem. RP350 result wasPSU;others unrelated or existingmodels. Notabsenceproof. ExistingVoiceLivePlayoffersalreadyrecorded;didnotduplicate."
   }
 }
