@@ -920,6 +920,15 @@ These numbered appendix counts corroborate the regional100-amp/77-cab wording, b
 | Memory / reset selection | Reset independently selects **Presets**, **Global Settings**, and **MNRS/IRS**. Preset reset deletes created/modified/imported presets; global reset includes MIDI, USB, trails and language; model reset deletes imported MNRS/GIR/IR data. This does not specify the factory-filled location count or guarantee backup recovery. |
 
 
+### GE200 Pro — output EQ and instrument input trim, 2026-10-18
+
+[Manufacturer-authored own manual](https://device.report/manual/14206389), printed pp23–24; manual body used, not generated mirror FAQ. Original edition and installed firmware remain unconfirmed.
+
+| Field | Documented routing / qualification |
+|---|---|
+| I/O / global output EQ | Quarter-inch outputs and headphones share one Global EQ selection; **XLR has independent enable and parameter settings**. Frequency, high-cut and low-cut adjustments tailor outputs without editing each preset. This does not establish independent preset effect chains or different signals at every physical connector. |
+| I/O / input trim | Global input level spans **−45 to +6 dB** and affects the **instrument input only**, excluding Bluetooth and USB audio. It can reduce input overload; this setting does not establish a published maximum analog input level or additional audio channels. |
+
 ## GE200 Pro Li
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
