@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(boss): distinguish GX-1 delay tables and pedal calibration'))
+    print(git('commit','-m','research(boss): document GX-1 graphic EQ band centers'))

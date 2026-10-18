@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh discovery / manufacturer gaps",
-    "task": "B2.1ustorage semantics saved;freshBP200/B2.1u/AX3000B searchonlyretainedmixedshopresult. Next alternatebrands/series orothermanufacturerfieldgap. All388partial;migrationincomplete.",
+    "model": "Fresh Shopee discovery / manufacturer gaps",
+    "task": "GX-1FXEQbandcenterssaved;B3nmarketrecheckreturnedunchangedknownasks,notfreshstock. Next alternatebrandseriesdiscovery oranothertechnicalgap;do notrepeatunchangedB3nasks. All388partial;migrationincomplete.",
     "next_models": [],
     "after_queue": "388active47brands;no downloads/workflows/push."
   },
@@ -46335,7 +46335,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery / manufacturer gaps."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery / manufacturer gaps."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -120668,5 +120668,16 @@
       ],
       "result": "Only previouslyretainedHopeMusic mixedG2.1Nu/G2.1u/B2.1u shopresult;noexactnewqualifiedoffer."
     }
+  },
+  "gx1_eqbands_market_20261019": {
+    "source": "https://static.roland.com/manuals/gx-1_parameter/en-US/369657227371381003.html",
+    "findings": [
+      "Three six-bandgraphicfrequencysets saved;PARAEQtargets qualified"
+    ],
+    "market_search": [
+      "site:shopee.co.id \"DigiTech\" \"BP50\"",
+      "site:shopee.co.id \"Zoom\" \"B3n\" bekas"
+    ],
+    "market_result": "B3n exactoffers alreadyretained;Wiras3155000soldout/nusantara2800000unchanged andstaledelivery;no inventedfreshprice/stock. BP50noqualifiedoffer."
   }
 }

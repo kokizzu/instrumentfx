@@ -1476,6 +1476,15 @@ Exact GX-1 HTML documentation,checked2026-10-19;no device operations.
 | Processing / FX delay distinction | [Five-choice DELAY table](https://static.roland.com/manuals/gx-1_parameter/en-US/364652299364711307.html) listsSTANDARD,MODULATE,WARP,TWIST,GLITCH,matching theFX-slot subtype targets in[assign target list](https://static.roland.com/manuals/gx-1_parameter/en-US/369657227371381003.html). Distinct from11-choice dedicatedDELAY table. STANDARD/MODULATE/WARP time1–2000ms orBPM;out-of-range tempo times usehalf/quarterperiod. Feedback/highcut applyonlySTANDARD/MODULATE;modulationparameters onlyMODULATE. PageTYPEdescription sayswah;namedrows aredelays. |
 | Expression / calibration and sensitivity | [Own calibration guide](https://static.roland.com/manuals/gx-1_reference/en-US/351051403354518155.html) separately confirms heel/toe travel withENTER,thenfirmtoePEDALFXactivation. Knob3THRESHOLD adjusts activation sensitivity;ENTER completes. Numericthresholdrange unverified;not a factory-reset instruction. |
 
+
+### GX-1 — FX-slot graphic EQ bands
+
+[Own assign-target table](https://static.roland.com/manuals/gx-1_parameter/en-US/369657227371381003.html),checked2026-10-19. Target names establish band centers,not gain ranges oradditional independent blocks.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / FX EQ choices and bands | FX1/2/3 each list PARA EQ,GEQ,LOW GEQ,HIGH GEQ. GEQ centers125,250,500Hz,1,2,4kHz;LOW GEQ63,125,250,500Hz,1,2kHz;HIGH GEQ250,500Hz,1,2,4,8kHz. Each graphic haslevel control. PARA EQ targets low/high/mid gain,midfrequency,level andlow/high cuts;fullrange/Qdetails unverified. These are alternatives insideFXslots,not four extra mandatoryEQblocks. |
+
 <!-- comparison evidence ends -->
 
 [GX1-P]: https://www.boss.info/global/products/gx-1/
