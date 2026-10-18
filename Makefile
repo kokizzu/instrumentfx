@@ -1979,3 +1979,7 @@ research-commit-rowin:
 .PHONY: research-commit-erok
 research-commit-erok:
 	python3 scripts/erok_catalogue.py commit
+
+.PHONY: research-commit-tech21
+research-commit-tech21:
+	python3 scripts/tech21_catalogue.py commit

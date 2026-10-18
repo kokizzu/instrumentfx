@@ -181,3 +181,29 @@ Revision checks against exact primary records:
 - [Current RK5v3 product](https://www.tech21nyc.com/products/flyrig/rk5v3/): adds **pre/postboost,effectloop andpreconfigured phantompower forRK KillerWail**. This doesnot identify theShopee unit orauthorize assigning v3features toolderRK5.
 
 Keep offer family-qualified until a legible sellerpanel/rearlabel orrevision-explicit offer establishes exacthardware. Searches forShopee RK5v2,RK5 12V andAcousticFlyRig returned noadditional exact result;not proof ofabsence. No downloads orseller contact.
+
+## Acoustic Fly Rig
+
+Distinct guitar/acoustic/bass multi-effects; checked 2026-10-18, partial. [Own product](https://www.tech21nyc.com/products/flyrig/acoustic-fly-rig/) explicitly supports electric guitar and bass as well as acoustic. No sibling specifications substituted.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in/external/toe support unverified. |
+| K/F/B | Separate complete rotary/footswitch/button counts unverified; no sibling counts borrowed. |
+| Display | Chromatic tuner with muted tuning via held TAP/TUNER; diagonal, color, technology and touch unverified. |
+| Processing / categories | SansAmp, FET compressor, independent boost and reverb; DLA/CH selects delay or chorus. Maximum simultaneous count unverified; alternatives are not independent slots. |
+| Memory | Factory/user/total programmable memories unverified. |
+| Synth / acoustic | Acoustic-oriented processing; dedicated acoustic simulation or synth engine unverified. |
+| Dimensions / mass | **12.5L×2.75W×1.25H inches;20.7oz**. |
+| I/O | Quarter-inch 1MΩ input; low-impedance quarter-inch output with headphone mode; balanced XLR with ground lift. Full connector inventory pending. |
+| Power | **9VDC center-negative**, DC9 adapter **200mA** capacity; approximate maximum consumption **100mA** (own manual cover). Battery/USB operation unverified. |
+| IR / NAM / capture | Analog SansAmp speaker simulation. External downstream IR suggestion does not establish onboard user IR, native/converted NAM or capture import. |
+| Editor / USB | Editor/platform, USB audio/MIDI and updater support unverified. |
+| Looper / practical | Phase flip; notch **70–350Hz**; independent reverb. Low-pass endpoint conflict: product 16kHz versus manual 20kHz; lower endpoint 1.5kHz in both. Looper, drums and scenes unverified. |
+| IDR price | No exact Shopee hardware offer resolved by acoustic/Fly Rig searches on 2026-10-18. Used/new amount, seller/item, condition, stock, region, bundle, warranty and vouchers unknown. Search failure is not market absence. |
+
+<!-- comparison evidence ends -->
+
+[Own manual,©2017](https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf), text read; no device/software operation or file download. Product low-pass endpoint **16kHz** differs from manual **20kHz**; both extend down to 1.5kHz. Revision reason unresolved. Physical controls, full ports, memory and software require further verification.
