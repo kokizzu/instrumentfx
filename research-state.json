@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "Zoom B3n pedal effect and master-level distinction",
-    "finding": "EXT PEDAL enables pedal effects; PDL Vol has0–100 endpoints andA/B curves. No global volume insertion established; headphones conflict preserved.",
+    "current": "Zoom A1 FOUR connector screening",
+    "finding": "Complete connector inventory has no analog EXP input. Headphones and Memory down/up separate; retained master level is not expression.",
     "next": [
-      "Continue remaining no-treadle inventory with Zoom A1 FOUR, then G1 FOUR/B1 FOUR connector screening",
+      "Continue Zoom G1 FOUR then B1 FOUR exact connector screening; commit separately",
       "IR-200: resolve stereo IR capacity/loader conflict, complete field checklist and final scope decision; power voltage/polarity now source-backed",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
@@ -122594,7 +122594,7 @@
       "date": "2026-10-19",
       "source_commit": "87c7d3816a380ddc49e3af2b2441564f454f87d7",
       "scope": "Normalized inherited source checks without recertification or admitting partial leads; exact prior merged category preserved in public_metadata.remote_87c7d38_preserved.expression_category_before_normalization.",
-      "comparison_rows": 49,
+      "comparison_rows": 50,
       "adjacent_rows": 1,
       "active_inventory_changed": false
     },

@@ -2141,6 +2141,12 @@ MAA-1/adapter inclusion,revision,condition,quantity,checkout stock,warranty regi
 
 Mic support for acoustic instruments does not establish vocal harmony/pitch-correction processing;no automatic ALL-VOCAL inclusion. Verify A1-only effect/category inventory,full K/F/B,display specifications,external EXP,complete ports,detailed save/overwrite rules,IR/NAM/capture workflow exclusions,USB supply requirements/audio status,looper limits and qualified current used/new offers. MAA-1’s own power/capabilities remain separate.
 
+### A1 FOUR — direct expression-path screening
+
+Checked 2026-10-19 against [manufacturer manual, pp7–10,13–15](https://zoomcorp.com/media/documents/E_A1FOUR.pdf). Complete rear inventory is INPUT, AUX IN, DC, USB and shared OUTPUT/headphones; **no analog EXP/CONTROL input**. A1 FOUR therefore fails the requested direct expression path. A1X’s integrated pedal is a different model. Retained overall volume/EQ adjustments across patches do not establish pedal assignment.
+
+MEMORY mode supports lower/higher patch selection with the onboard switches; BANK HOLD limits selection to the current bank, and PRESELECT changes recall behavior. Existing130W×156Dmm exceeds preferred depth. Direct-expression placement/range/bypass/headphone/tail/looper attenuation is not applicable without that input. Normal pickup input, shared headphones, older offers and technical qualifications remain preserved. USB MIDI does not establish an analog connection or controller workaround. No downloads or hardware operation.
+
 ## MS-60B
 
 Checked **2026-10-17**. Original discontinued bass multi-effects,distinct from MS-60B+. No ownership assertion. Primary page/indexed manual text only;no files or dependencies downloaded. Partial record.
