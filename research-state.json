@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Yamaha DG-Stomp",
-    "task": "Saved memory-backup battery/E5,conditional delay tails andPrG/EFF footswitch modes. Next freshbrand hardware discovery oranothermodel requiredgap;do not treat memorybackup as battery operation.",
+    "model": "Catalogue evidence extraction",
+    "task": "Saved strict canonical table-row width guard with red-green regression;all351 current canonical records pass. Resume exact Shopee ID discovery oranother model requiredfield gap,not repeated organization/status checks.",
     "next_models": [],
-    "after_queue": "351partialmodels;155bass;legacycompatibilitymigration incomplete;no downloads/workflows/push."
+    "after_queue": "351partialmodels;155bass;technicalverification andlegacycompatibilitymigration incomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -76613,5 +76613,11 @@
       }
     ],
     "no_downloads": true
+  },
+  "comparison_row_width_guard": {
+    "checked_date": "2026-10-18",
+    "behavior": "Canonical evidence tables fail on row/header cell-count mismatch with source/model and row location, rather than silently omitting facts. Legacy archive parsing remains permissive.",
+    "regression": "Both extra evidence column and missing column rejected; valid three-column rows retained; all351 canonical models pass strict planning.",
+    "remaining": "This verifies structural width only,not technical accuracy,missing fields or exhaustive market coverage."
   }
 }

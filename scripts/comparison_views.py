@@ -24,7 +24,8 @@ def sections(text):
     matches = list(re.finditer(r'^## (.+)$', text, re.M))
     return [(m[1], text[m.end():matches[i+1].start() if i+1<len(matches) else len(text)]) for i,m in enumerate(matches)]
 
-def tables(text):
+def tables(text, strict=False, source="comparison evidence"):
+    """Reject malformed canonical rows instead of silently losing findings."""
     lines = text.splitlines()
     context = ''
     i = 0
@@ -37,6 +38,11 @@ def tables(text):
             rows = []
             while i < len(lines) and lines[i].startswith('|'):
                 row = [c.strip() for c in lines[i].strip('|').split('|')]
+                if strict:
+                    assert len(row) == len(headers), (
+                        f"{source}: table row {i+1} has {len(row)} cells; "
+                        f"header has {len(headers)}. Repair the evidence table before rebuilding."
+                    )
                 if len(row)==len(headers):
                     rows.append(row)
                 i += 1
@@ -216,7 +222,7 @@ def make_plan():
                 r['link']='effects/specialist.md#eligible-record-boss-gm-800'
         for path,text in sources:
             refs=references[path]
-            for headers, rows, context in tables(text):
+            for headers, rows, context in tables(text, strict=bool(r['canonical']), source=path+' ['+key+']'):
                 field_table = len(headers) in (2,3) and any(x in headers[0].lower() for x in ('field','required'))
                 price_table = any(x in ' '.join(headers).lower() for x in ('amount','idr','price','condition','seller')) and not field_table
                 family_table = path=='LINE6.md' and headers[1].startswith('POD Go,')
@@ -786,6 +792,22 @@ def test_field_projection():
 
 
 def test_field_extraction():
+    # Canonical rows must never disappear because a source column was added.
+    for malformed in (
+        '| Field | Finding |\n|---|---|\n| Power | 9V | Manufacturer |',
+        '| Field | Finding | Evidence |\n|---|---|---|\n| Power | 9V |',
+    ):
+        try:
+            list(tables(malformed, strict=True, source='BRAND.md#model'))
+        except AssertionError as error:
+            assert 'BRAND.md#model' in str(error) and 'row 3' in str(error)
+        else:
+            raise AssertionError('Malformed canonical evidence row was silently discarded')
+    valid = '| Field | Finding | Evidence |\n|---|---|---|\n| Power | 9V | Manufacturer |'
+    assert list(tables(valid, strict=True))[0][1] == [['Power', '9V', 'Manufacturer']]
+    # Legacy archive parsing retains its previous permissive behavior.
+    assert list(tables(malformed))[0][1] == []
+    print('PASS: malformed canonical rows fail explicitly; valid and legacy rows retain their behavior.')
     test_evidence_owners()
     fixture = {'consolidation_and_price_findings': [
         {'verification_kind':'complete-source-body-v1', 'destination':'BRAND.md#model', 'source':'effects/findings/original.md'},
