@@ -453,7 +453,7 @@ def main():
         if mode == 'commit-criticalmass':
             message = 'research(tchelicon): distinguish Critical Mass supply and reverb controls'
         if mode == 'commit-b21u':
-            message = 'research(discovery): recover C300 manufacturer URL and access limits'
+            message = 'research(discovery): record BOSS Roland rack search exclusions'
         if mode == 'commit-katana-go':
             message = 'research(boss): verify GT-1 battery fallback and backup scope'
         if mode == 'commit-microplus':

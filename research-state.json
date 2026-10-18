@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC Electronic M-One XL",
-    "task": "M-One XL useful algorithm limits saved. Next fresh Shopee discovery or remaining display/import/synth/user-fill gaps;do not repeat resolved delay/pitch range questions.",
+    "model": "Fresh Shopee discovery",
+    "task": "BOSS/Roland rack exact-name pass saved without qualified hardware. Next search other series/brands;do not repeat SE70/VF1/GP100 accessory/unrelated results. Required catalogue verification and C300 primary-source recovery remain incomplete.",
     "next_models": [],
     "after_queue": "378 active models,46 brands,all partial; no downloads/workflows/push; migration incomplete."
   },
@@ -117448,5 +117448,21 @@
       "next": "Try indexed exact manufacturer path or establish a manufacturer-authored manual/store provenance. If unavailable,leave lead deferred and continue independent research instead of repeating homepage timeouts.",
       "indexed_exact_path_check": "2026-10-18: exact manufacturer path and C300 domain queries returned no indexed result. Deferred pending new primary source;do not repeat same homepage timeout."
     }
+  },
+  "discovery_boss_roland_rack_20261018": {
+    "date": "2026-10-18",
+    "queries": [
+      "site:shopee.co.id \"Boss\" \"SE70\"",
+      "site:shopee.co.id \"Boss\" \"VF1\"",
+      "site:shopee.co.id \"Roland\" \"GP100\"",
+      "site:shopee.co.id \"Boss\" \"SE 70\"",
+      "site:shopee.co.id \"SE-70\" efek",
+      "site:shopee.co.id \"VF-1\" efek",
+      "site:shopee.co.id \"Roland GP-100\"",
+      "site:shopee.co.id \"Boss\" \"SX700\""
+    ],
+    "result": "No qualified exact hardware offer returned. Generic GP100 results were Valeton processors;SE70 results were water-level switches/doors/exhausts;VF1 results included Macross models,cooling fans andclothing. Not proof of market absence or model ineligibility.",
+    "inventory_added": 0,
+    "next": "Change discovery series/brand;retain these missing models as unverified market leads,not excluded products."
   }
 }
