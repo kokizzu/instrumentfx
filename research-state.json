@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Line 6 M9",
-    "task": "Saved scene-folder timeout and scene-copy access from own v2.0 guide. Next broaden Shopee discovery; M13 replacement adapter rejected, not priced as processor.",
+    "model": "VOX ToneLab ST",
+    "task": "Saved selector auto-activation, saved-value indication and USB recording/return distinction from own manual. Next broaden Shopee discovery or resolve model-specific technical gaps; known ToneLab asks not duplicated.",
     "next_models": [],
     "after_queue": "347 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -45593,7 +45593,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 M9."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX ToneLab ST."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -58986,6 +58986,22 @@
         "Current software compatibility"
       ],
       "method": "Original manufacturer guide browser text only; no downloads or execution"
+    },
+    {
+      "model": "VOX ToneLab ST",
+      "checked_date": "2026-10-18",
+      "source": "https://voxamps.com/wp-content/uploads/support/TonelabST_OwnersManual.pdf",
+      "pages": "3–5,28",
+      "finding": "Model selectors auto-enable amp/pedal/mod-delay; OPTION GAIN enables cabinet, REVERB knob enables reverb. Decimal point briefly extinguishes at stored value. USB recording processed output; return bypasses effects, not proof of USB reamping.",
+      "discovery": "Fresh BP200/B9.1ut/ToneLab queries: no exact new model hardware lead. ToneLab known offers retained; Ayx ST title/EX URL conflict remains, direct cache miss. No new stock/price inference.",
+      "remaining": [
+        "Eight-type block accounting",
+        "Physical display specifications",
+        "Initial user preset mapping",
+        "Current software compatibility",
+        "Qualified used/new IDR"
+      ],
+      "method": "Browser text only; no downloads or execution"
     }
   ],
   "discovery_cross_brand_bass": {

@@ -105,6 +105,17 @@ Guitar multi-effects; separate from LE/SE/EX. Checked2026-10-17; partial. Bass s
 | Expression / calibration and switching force | Use a foot, as hand operation may fail. Power on holding EXP PARAM + WRITE, then release. Press forward to switch the assigned effect: this establishes switching weight. Slowly return the pedal, remove foot, then gently advance it and remove foot. WRITE completes; EXIT/TUNE cancels. Failed adjustment repeats from the switching-weight step. Display glyphs are missing from extracted text and remain unverified. | [Manual p27][TLST-M] |
 | Processing / converters | **24-bit A/D and D/A; 44.1 kHz** internal sampling. USB audio bit depth and selectable host rates are not specified here. | [Manual p33][TLST-M] |
 | Memory / factory initialization | Reset returns saved programs to factory contents. Power on holding EXIT/TUNE + EXP PARAM; release when UP/DOWN LEDs blink, then WRITE confirms. EXIT/TUNE cancels before confirmation; do not interrupt initialization. This differs from pedal calibration. | [Manual p29][TLST-M] |
+
+### ToneLab ST — selector activation and saved-value indication
+
+Checked 2026-10-18 against its own manufacturer manual; no hardware operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| Controls / automatic activation | Turning AMP, PEDAL or MOD/DELAY selectors enables the corresponding disabled block. In OPTION mode, turning GAIN to select a cabinet enables a disabled cabinet. Turning REVERB enables reverb. These are documented edit behaviors, not extra simultaneous blocks. [Manual pp3–4][TLST-M] |
+| Display / original value | The lower-right decimal-point segment briefly goes dark when an edited value matches its stored value. This indication does not establish motorized controls or mandatory value pickup. [Manual p5][TLST-M] |
+| USB / recording path | DAW recording receives the effects output; USB playback can be monitored but is not processed by the effects. USB presence therefore does not establish a USB reamp-input path. Host format/channel-count details remain unverified. [Manual p28][TLST-M] |
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified Shopee hardware
