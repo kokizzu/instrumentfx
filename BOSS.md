@@ -3296,7 +3296,7 @@ Checked2026-10-17;partial. Half-rack stereo multi-effects,distinct from SE-70. M
 
 | Required field | Verified evidence / unresolved detail |
 |---|---|
-| Expression | Built-in/external/toe support unverified;do not borrow FC-50 controller capabilities. |
+| Expression | External pedal control through FC-50→MIDI documented below;direct analog EXP,built-in pedal andtoe support remain unverified. FC-50 sockets are notSE-50 sockets. |
 | Knobs / footswitches / buttons | **Two independent input-level rotaries confirmed**;complete K/F/B totals andvisual audit remainunverified. See input-control evidence below. [French manual][SE50-FR] |
 | Display | Diagonal,color,touch andcharacter count unverified from inspectable primary evidence. |
 | Processing / category choices | **28 named algorithms** are grouped below;maximum concurrency andcomplete chain topology remainunverified. Vocal Multi combines limiter,enhancer,noise suppression,delay,chorus,reverb. Catalogue transcription remainsqualified. [Manufacturer history][SE50-H];[French manual][SE50-FR] |
@@ -3404,6 +3404,15 @@ Checked2026-10-18 against the original1990 [French BOSS manual][SE50-FR],printed
 |---|---|
 | Processing / Keyboard Multi2 | Documents **phaser,EQ,Super Chorus and reverb**,with individual effect on/off. Phaser has four modes;chorus predelay0–60ms,reverb0.1–20s and reverb predelay0–200ms. These belong to this fixed algorithm,not freely assignable global blocks;diagram order and maximum whole-unit concurrency remain unverified. |
 | Live / Keyboard Multi1 MIDI assignment | Its MIDI-control assignment selects **chorus rate,delay level,reverb level or master level**,with configurable minimum/maximum. Do not infer simultaneous control of all four or the same destinations in every algorithm. This is MIDI control,not proof of an analog expression input. |
+
+### SE-50 — external expression through a MIDI controller
+
+Checked2026-10-18 using the original©1991 BOSS FC-50 manual: [manufacturer PDF](https://cdn.roland.com/assets/media/pdf/FC-50_OM.pdf),indexed panel/power text,and [original manual OCR mirror](https://www.scribd.com/document/454763475/fc-50-manual-472118-pdf),introduction/connections. Direct PDF returns16pages with no extracted body;no visual audit.
+
+| Required field | Evidence / qualification |
+|---|---|
+| Expression / external MIDI path | FC-50 documentation explicitly names **SE-50** as a connected MIDI target. The controller accepts **two external expression pedals**,specifies **Roland EV-5 or BOSS EV-10**,and sends real-time Control Change messages. This documents an indirect pedal→controller→MIDI path;pedal sockets belong to FC-50,not SE-50. Exact CC mapping and target assignment must match the SE-50 algorithm;two independently controllable SE-50 destinations are not established. Direct analog EXP and toe-switch support remain unverified. |
+| Live / controller MIDI channel | FC-50 defaults to channel1;manual explicitly tells SE-50 users to set its MIDI channel to1 for that setup. This is a controller setup requirement,not proof that SE-50 is restricted to channel1. |
 
 ## GT-10B
 

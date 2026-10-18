@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS SE-50",
-    "task": "Saved Keyboard Multi2 components and algorithm-specific MIDI assignment. Continue unresolved original-manual Guitar Multi topology, power/body/control counts and condition-qualified prices; fresh Shopee FX900/SE50/Intellifex/GFX707 queries rediscovered existing items only.",
+    "task": "Saved SE50 external expression via FC50 MIDI path with controller ownership limits. Guitar Multi topology still unread: French OCR ends after Keyboard Multi2; English ManualsLib p68 failed; service Scribd772147585 exposes metadata only. Continue original-manual recovery or other primary-source gaps; no sibling transfer.",
     "next_models": [],
     "after_queue": "362active/46brands;303guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -60951,6 +60951,13 @@
       "checked_date": "2026-10-18",
       "source": "https://fr.scribd.com/document/644989539/Boss-SE-50-fr",
       "finding": "KeyboardMulti2 phaser/EQ/SuperChorus/reverb;fourphasermodes;choruspredelay0–60ms,reverb0.1–20s/predelay0–200ms. KeyboardMulti1 MIDIassignmentdestinationsandminmax documented;notglobalfreeblocksoranalogEXPproof."
+    },
+    {
+      "model": "BOSS SE-50",
+      "checked_date": "2026-10-18",
+      "source": "https://cdn.roland.com/assets/media/pdf/FC-50_OM.pdf",
+      "mirror": "https://www.scribd.com/document/454763475/fc-50-manual-472118-pdf",
+      "finding": "ManufacturercontrolleroriginalexplicitSE50target;2externalEV5/EV10expressioninputsontheFC50sendingCC. IndirectMIDInotdirectEXP;exactmapping/independenttargetsnotestablished."
     }
   ],
   "discovery_cross_brand_bass": {
