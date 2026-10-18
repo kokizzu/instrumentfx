@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "M-VAVE Chocolate protocol lead screened, expression section incomplete",
-    "finding": "Original reverse-engineering README documents switch CC examples but leaves Expression Pedal TODO. Not manufacturer specification or expression verification; wiring remains unknown.",
+    "current": "Zoom A3 screened: no analog expression socket",
+    "finding": "Complete A3 connector inventory establishes no analog EXP input; A2 features not transferred. Existing model added to capability screening, active counts unchanged.",
     "next": [
-      "Expand remaining no-treadle inventory from ledger; retain M-VAVE pinout/resistance/continuous-CC and exact hardware revision as unresolved",
+      "Continue remaining Zoom no-treadle inventory with A2, then B3/B3n; verify each exact manual",
       "IR-200: resolve stereo IR capacity/loader conflict, complete field checklist and final scope decision; power voltage/polarity now source-backed",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
@@ -122594,7 +122594,7 @@
       "date": "2026-10-19",
       "source_commit": "87c7d3816a380ddc49e3af2b2441564f454f87d7",
       "scope": "Normalized inherited source checks without recertification or admitting partial leads; exact prior merged category preserved in public_metadata.remote_87c7d38_preserved.expression_category_before_normalization.",
-      "comparison_rows": 45,
+      "comparison_rows": 46,
       "adjacent_rows": 1,
       "active_inventory_changed": false
     },

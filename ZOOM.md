@@ -4486,6 +4486,12 @@ Manufacturer-authored [English manual mirror](https://manualzz.com/doc/9009531/z
 
 Category census audit trail (original manual pp35–41): DYN/FLTR: Comp, RackComp, M Comp, OptComp, SlowATTCK, ZNR, GraphicEQ, ParaEQ, Exciter, AutoWah. MOD: Tremolo, Phaser, Chorus, Detune, SilkyCho, MirageCho, StereoCho, Flanger, PitchSHFT. DELAY: Delay, ModDelay, ReverseDL, MultiTapD, StereoDly, StompDly. REVERB: HD Reverb, Hall, Room, TiledRoom, Spring, Arena, EarlyRef, Air, ModReverb, SlapBack, HD Hall, Plate. MIC: Dyna 57, Cond 414, Cond 87. THRU is bypass, excluded from the 40-effect census.
 
+### A3 — no-treadle expression-path screening
+
+Checked 2026-10-19 against the [manufacturer-authored A3 manual body, pp4–5,43](https://manualzz.com/doc/9009531/zoom-a3-acoustic-guitar-preamp-and-effects-operation-manual), identity established above. Complete panel/connector enumeration lists pickup input, microphone combo, R and L/MONO/PHONES outputs, balanced XLR, USB and DC; **no analog EXP/CONTROL input**. Thus it fails the requested direct analog expression path. No built-in treadle appears in the named panel. This resolves earlier expression-input uncertainty for the documented A3; A2’s CONTROL IN is not transferred.
+
+Existing108W×160.3Dmm chassis exceeds preferred depth. Shared headphone output remains documented; programmable patch cycling is not certification of independent foot-operated down/up. Volume position/range and expression bypass/tail/looper coverage are not applicable to an absent direct input. USB/MIDI controller workarounds are unverified. Existing full profile, sources and price gaps remain preserved. No downloads or hardware operation.
+
 ## G2Nu
 
 Checked 2026-10-19; partial. Separate from G2.1Nu and G2.1u. [Exact manufacturer support](https://zoomcorp.com/en/gb/multi-effects/guitar-effects/g2nu/g2nu-support/) and [own family manual](https://zoomcorp.com/media/documents/E_G2Nu_G21Nu_0.pdf), pp.4–5,50; text inspection. [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g2nu/) marks discontinued. Ownership and bass/vocal suitability unverified.
