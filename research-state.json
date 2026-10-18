@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DK iE-550",
-    "task": "Saved DKitNAM A1/A2importreleaseevidence andApple/Android/updater distinctions. Next readmanufacturerNAMinstructions/fullmanualwithoutdownloads;nativevsconverted andfirmwareprerequisite stillunverified.",
+    "task": "Clarified minimum rotary/FS count,unknownbuttonmapping,AUXsocketuncertainty andiOSsummary. Fullmanual/NAMinstructionsinaccessible;deferthosewithoutdownload. Next freshShopeediscoveryorprimarygapsof anotheractive model.",
     "next_models": [],
     "after_queue": "350partialmodels;154bass;legacyconsolidationincomplete;no downloads/workflows/push."
   },
@@ -76391,5 +76391,22 @@
     "updaters": "iE5501.0.9Mac/Windowsfirmwarepackagesnotdesktopeditors",
     "dates": "RelativeIndonesianvsBrazil29AugvsJapan1.1.1cacheconflictpreserved;noexactreleasedateclaimed",
     "previous_ir_row": "| IR / NAM / captures | **512-sample IR resolution; USER slot per patch**. File format, total capacity, native/converted NAM and captures unknown. |"
+  },
+  "dk_ie550_control_aux_20261018": {
+    "sources": [
+      "https://device.report/manual/16838819",
+      "https://www.dk-music.cn/pd.jsp?id=79"
+    ],
+    "findings": [
+      "Atleast1rotaryencoderand2FS;physicalbuttonmappingnotreliablyextracted",
+      "AUXwordingdoesnotprovephysicalsocket",
+      "Mainsoftware summaryreconciledwithiOS14evidence"
+    ],
+    "previous_rows": [
+      "| K/F/B | Two footswitches A/B documented; complete rotary/button count awaits visual audit. Encoder press is additional. [Q] |",
+      "| I/O | AUX,Bluetooth,one6.3mm TRS input andone6.3mm TRS output supporting headphones. Complete port/MIDI/phantom inventory unknown. |",
+      "| Editor / software | DKit iOS/Android editing; **USB2.0 Type-C recording44.1kHz/16-bit**, also firmware transfer. Converter specification24-bit is separate. Channels,drivers,currentOS anddesktop editor unknown. [Q] |"
+    ],
+    "access": "Supportroutefailed;fullmanual/NAMinstructionsnotread. Noarchiveorfwaredownload. Native/conversionstillunknown."
   }
 }
