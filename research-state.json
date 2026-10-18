@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Technical and discovery verification",
-    "task": "Finished eight omitted TC-Helicon exact-offer bullet projections across three committed models. Resume exact Shopee brand/series discovery and required manufacturer technical gaps; broader prose/price completeness remains unaudited.",
+    "model": "TC-Helicon Mic Mechanic 2",
+    "task": "Saved manufacturer-indexed electrical and current quick-start evidence. Remaining power/phantom/bypass revision conflicts,actual supply polarity/barrel/draw,runtime,editor platforms,memory/display andqualified stock. Next fresh Shopee discovery or other required model gap.",
     "next_models": [],
     "after_queue": "374 active models,46 brands,all partial; compatibility migration incomplete; no downloads/workflows/push."
   },
@@ -46090,7 +46090,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Technical and discovery verification."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon Mic Mechanic 2."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -81561,5 +81561,13 @@
     ],
     "remaining": [],
     "qualification": "All eight identified candidate item URLs now appear in vocal comparisons. This limited bullet-link audit is not exhaustive price completeness, current-stock verification or field certification."
+  },
+  "mm2_primary_indexed_electrical_20261018": {
+    "sources": [
+      "https://mediadl.musictribe.com/media/PLM/data/docs/P0DDW/M_TH_P0DDW_MIC-MECHANIC-2.pdf",
+      "https://mediadl.musictribe.com/media/PLM/data/docs/P0DDW/QSG_TH_0726-AAE_MIC-MECHANIC-2_WW.pdf"
+    ],
+    "access": "Indexed manufacturer text; direct opens502; no downloaded file or successful image inspection.",
+    "result": "Added own mic/output/noise ratings and optional PowerPlug9 identity; distinguished supply minimum from older capacity, retained consumption/product-copy conflicts."
   }
 }

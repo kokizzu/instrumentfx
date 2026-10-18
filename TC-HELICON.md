@@ -847,6 +847,17 @@ Checked **2026-10-17**; partial. Vocal multi-effects with independent echo, reve
 | Used IDR | **?** No sale condition verified; sold-out asks below are not classified as used. |
 | New IDR | **?** Exact hardware asks exist, but retail-looking seller identity does not establish item condition. |
 
+### Mic Mechanic 2 — manufacturer-indexed electrical and guide evidence
+
+Checked2026-10-18. Manufacturer-hosted indexed text was readable; direct PDF opens returned502. This supplements the reproduced manual without claiming full current PDF/image inspection.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / electrical ratings | [Own manufacturer manual,printedp16](https://mediadl.musictribe.com/media/PLM/data/docs/P0DDW/M_TH_P0DDW_MIC-MECHANIC-2.pdf): mic balanced **2.68kΩ**,0dBFS input range **−42 to+1dBu**; output **200Ω balanced/100Ω unbalanced**,fullscale **+1dBu**. |
+| Audio / noise and response | Same manual: **EIN−126dBu atmaximum gain,Rg150Ω;mic SNR>104dB;dynamic range>104dB,20Hz–20kHz;frequency response20Hz–20kHz,+0/−0.3dB**. These are distinct ratings,not USB audio format orconverter resolution. |
+| Power / named optional supply | [Manufacturer quick-start,printedp26](https://mediadl.musictribe.com/media/PLM/data/docs/P0DDW/QSG_TH_0726-AAE_MIC-MECHANIC-2_WW.pdf) names **PowerPlug9**,not included,as a9V/>300mA option;fourAA also supported. The older670mA supply rating can exceed this minimum;the published6W versus2.7W consumption difference remains unresolved. Polarity/barrel/draw remain unverified. |
+| Live / indexed quick-start corroboration | Same guide explicitly describes footswitch bypass ofecho/reverb/correction andhold-to-enter tap mode;Tone includes EQ,compression,de-essing andgate. This corroborates manual behavior;it doesnot reconcile product-page true-bypass/hold-to-bank claims. |
+
 ### Exact Shopee hardware observations
 
 Checked **2026-10-17**. Amounts are historical asking observations, not transactions or verified used/new ranges:
