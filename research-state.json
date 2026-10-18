@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh hardware discovery / unresolved model fields",
-    "task": "MPX100 exact initial16user-slot mapping and polyphonic pitch limits recorded. Continue fresh Shopee brand/series discovery or unresolved required fields; MPX100 transformer current,qualified prices andeditor remain open.",
+    "task": "NanoVerb original2005 catalogue resolves dimensions/mass and46.9kHz;manual/catalogue output/response conflicts retained. Continue fresh Shopee brand/series discovery or required-field verification; current/barrel,qualified prices andeditor remain open.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -60359,6 +60359,21 @@
         "Display details"
       ],
       "method": "Original manufacturer-authored guide browser text,no download or hardware operation"
+    },
+    {
+      "model": "Alesis NanoVerb",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://device.report/m/aaec17b5c58b84afd384358662a1749e3c80fa1beece85dd7d680fa09dcda1fd.pdf"
+      ],
+      "finding": "Manufacturer-authored Spring2005 catalogue52pages,p49 NanoVerb Details matches5controls/18bit originalmodel:46.9kHz,HWD39×140×115mm,1.25lb(0.6kg). Output+10dBV,response+1/−3dB conflicts with reference manual+17.5dBu,±1dB;no revision inferred.",
+      "remaining": [
+        "Transformer current/barrel",
+        "Qualified used/new IDR",
+        "Reconcile catalogue/manual ratings",
+        "Editor/import support"
+      ],
+      "method": "Identity-matched original manufacturer catalogue onmirror;browsertextonly,no downloads"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -79625,5 +79640,14 @@
       "site:shopee.co.id \"Boss\" \"VF-1\""
     ],
     "result": "No exact hardware lead;VF-1 fallback was unrelated fighter-plane merchandise. No marketplace absence conclusion."
+  },
+  "discovery_alesis_rack_20261018": {
+    "queries": [
+      "site:shopee.co.id \"Alesis\" \"Midiverb 2\"",
+      "site:shopee.co.id \"Lexicon\" \"MPX550\"",
+      "site:shopee.co.id \"TC Electronic\" \"M300\"",
+      "site:shopee.co.id \"Yamaha\" \"FX770\""
+    ],
+    "result": "No new exact requested-model hardware lead;generic Midiverb and existing Midiverb4 hits do not identify Midiverb2. No availability conclusion."
   }
 }

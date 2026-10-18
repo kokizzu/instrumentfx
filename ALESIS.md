@@ -255,12 +255,13 @@ Manufacturer-authored Reference Manual on [UNS mirror][NV-M]: ALESIS/NanoVerb co
 | Factory / user memory | **16 ROM presets**; user storage unestablished. Adjust immediately follows knob position after selection. [M pp9,26,29][NV-M] |
 | Synth / acoustic | Dedicated synthesis and electric-to-acoustic simulation unverified. Applying effects to acoustic instruments does not establish simulation. |
 | I/O | Two unbalanced quarter-inch inputs/outputs; mono Left input feeds Right unless plugged. Quarter-inch bypass; separate power socket. [M pp12,26][NV-M] |
-| Processing / converter distinction | **18-bit sigma-delta A/D and D/A**, respectively128× and8× oversampling; **24-bit accumulator**,3MIPS processor. Accumulator width is not converter resolution; sampling rate remains unverified. [M p29][NV-M] |
+| Processing / converter distinction | **18-bit sigma-delta A/D and D/A**, respectively128× and8× oversampling; **24-bit accumulator**,3MIPS processor. Accumulator width is not converter resolution; **2005 catalogue specifies46.9kHz**;not borrowed from NanoVerb2. [Catalogue p49][NV-CAT] [M p29][NV-M] |
 | Audio / output ratings | **+17.5dBu maximum**, nominal−20dBV or+4dBu adjustable; output impedance500Ω. These are line-output specifications,not headphone power. [M p29][NV-M] |
 | Audio / response and range | **20Hz–20kHz ±1dB**; dynamic range>90dB A-weighted over20Hz–22kHz. Published specifications,not measurements of the Shopee unit. [M p29][NV-M] |
+| Audio / catalogue conflict | **2005 catalogue:input/output maximum+10dBV,response20Hz–20kHz+1/−3dB,THD+N0.02%**. Manual instead gives output+17.5dBu andresponse±1dB;do not equate dBV/dBu or claim an established hardware revision. [Catalogue p49][NV-CAT];[M p29][NV-M] |
 | Audio / source conflict | Input maximum **+10dBV** in specifications versus **+20dBu peaks** in mixer chapter; unresolved. [M pp14,29][NV-M] |
 | Power / battery / USB | **P3 9VAC transformer**; current/barrel unknown. DC polarity inapplicable to specified AC. Battery/USB operation unverified; no USB listed. [M pp26,29][NV-M] |
-| Dimensions / mass | Unknown; no sibling dimensions substituted. |
+| Dimensions / mass | **2005 catalogue:H×W×D1.5×5.5×4.5in;39×140×115mm;1.25lb(0.6kg)**,as published. No new conversion or knob/packaging inclusion inferred. Catalogue says1U while marketing calls1/3-space;rack fraction does not replace body dimensions. [Catalogue p49][NV-CAT] |
 | IR / NAM / capture | User IR, native/converted NAM and proprietary captures unverified. |
 | Editor / platforms | Editor, driver, updater and supported operating systems unverified. |
 | Looper / drums / scenes | Unverified. |
@@ -277,3 +278,5 @@ Manufacturer-authored Reference Manual on [UNS mirror][NV-M]: ALESIS/NanoVerb co
 [NV-I]: https://www.manualslib.com/manual/249371/Alesis-Nanoverb-Stereo-Amplifier.html
 [NV-O]: https://shopee.co.id/EFFECT-VOCAL-ALESIS-NANOVERB-i.278087607.4882351491
 [NV-C]: https://shopee.co.id/search?keyword=harga+efek+alesis+original
+
+[NV-CAT]: https://device.report/m/aaec17b5c58b84afd384358662a1749e3c80fa1beece85dd7d680fa09dcda1fd.pdf

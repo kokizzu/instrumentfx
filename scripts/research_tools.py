@@ -445,7 +445,7 @@ def main():
         if mode == 'commit-midiverb4':
             message = 'docs(alesis): reconcile MIDIverb 4 summary with verified followups'
         if mode == 'commit-microverb4':
-            message = 'research(alesis): distinguish NanoVerb conversion and line output ratings'
+            message = 'research(alesis): add NanoVerb catalogue dimensions and preserve rating conflicts'
         if mode == 'commit-fx2000':
             message = 'research(behringer): resolve FX2000 numbered control and connector inventory'
         if mode == 'commit-hxe-price':
