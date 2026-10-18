@@ -559,7 +559,7 @@ def main():
         if mode == 'commit-g3x':
             message = 'research(zoom): reconcile G3X numbered effect and cabinet census'
         if mode == 'commit-g5':
-            message = 'docs(zoom): reconcile G5n summary with retained V2 findings'
+            message = 'research(zoom): add explicitly used G5n Shopee ask with cache limits'
         if mode == 'commit-ms50gplus':
             message = 'research(zoom): reconcile B1X FOUR library categories and amp cabinet choices'
         if mode == 'commit-505ii':

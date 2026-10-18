@@ -1603,13 +1603,18 @@ Reviewed **2026-10-17** after fresh exact Shopee hardware discovery. New catalog
 
 ### Exact IDR hardware offers and condition limitations
 
-Checked2026-10-17. **Used IDR: ?** No explicit used-condition statement established; a seller name containing second is insufficient. Retail/other asks below are not certified new-condition prices, a used-to-new range or live inventory.
+Initial check2026-10-17 found no explicit used-condition statement in the three offers below; a seller name containing second is insufficient. **Follow-up2026-10-18 found a separate explicitly used ask ofRp3.000.000**,qualified below. Retail/other asks below are not certified new-condition prices, a used-to-new range or live inventory.
 
 - **Rp4.950.000** — [dewimusik82,shop97683185/item1639103287](https://shopee.co.id/Zoom-G5n-Multi-effects-Pedal-Processor-i.97683185.1639103287), Kota Jakarta Pusat. Indexed search only; direct reopening cache miss. No explicit sold-out marker in extracted snapshot; not checkout-confirmed. Delivery text: 11–14 October, stale.
 - **Rp2.500.000** — [gitar second,shop61848168/item24510848725](https://shopee.co.id/Multiefek-Gitar-Zoom-G5n-Guitar-Multieffect-Efek-Gitar-Effect-not-Valeton-Nux-Mooer-Boss-i.61848168.24510848725), Kab. Polewali Mandar. Indexed result and direct text retrieval. Unconfirmed; seller name does not establish used condition. Delivery text: Search25–28August vs reopened28September–1October, stale and inconsistent.
 - **Rp5.929.110** — [Zoom Official Shop,shop348182890/item23020868820](https://shopee.co.id/Zoom-G5n-Multi-Effects-Processor-i.348182890.23020868820), Kota Jakarta Barat. Indexed search only; direct reopening cache miss. Habis/sold out; historical ask only; account name not dealer authorization proof. Delivery text: Relative next-day banner, not stock proof.
 
 Exact condition, revision, accessories, warranty region, stock quantity, shipping/tax and delivered total remain unknown for all three. Late-delivery voucher banners are compensation offers, not an applied product discount. Mixed-model jonimusic shop22551702/item6866797510 (Rp2.099.900–3.999.900,12 variations) is excluded from G5n price evidence because its exact model variation was unresolved. No exchange rate or used discount estimated.
+
+
+| Field | Evidence / qualification |
+|---|---|
+| Used IDR / explicit seller condition,2026-10-18 | **Rp3.000.000**,seller **mohrifki2105**,shop148185983/item10348658140,Kab.Bogor;title explicitly saysbekas(used). [Exact G5n hardware offer](https://shopee.co.id/Zoom-g5n-%28bekas%29-i.148185983.10348658140). Search snapshot(two months old) anddirect cachedpage(last month) agreeonprice;delivery21–22August versus5–7September isstale/conflicting. Initial parameterizedclick cachemiss;cleanURL reopened. Currentstock,workingcondition,revision,accessories,bundle,warranty anddeliveredtotal unknown. Up-toRp10.000 late-delivery voucher iscompensation,notappliedproductdiscount. No new-condition price verified. |
 
 ### Remaining checks
 

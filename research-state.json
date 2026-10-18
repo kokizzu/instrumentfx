@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Sonicake Matribox II Pro QME-200",
-    "task": "AMP63 census saved with page subtotals and description conflicts. Next fresh Shopee brand/series discovery, then remaining model-specific required fields; current firmware totals and qualified prices unresolved.",
+    "model": "Zoom G5n",
+    "task": "Saved exact explicitly used3000000IDR ask,mohrifki2105 shop148185983/item10348658140;cached notlive. Next fresh Shopee discovery orremaining exact-model technical fields.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -45606,7 +45606,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Sonicake Matribox II Pro QME-200."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom G5n."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -75413,8 +75413,8 @@
     "next": "Fresh Shopee GP-series discovery; GP-100VT manufacturer lead requires exact hardware offer and own-model technical evidence."
   },
   "resume_cursor": {
-    "model": "Sonicake Matribox II Pro QME-200",
-    "task": "AMP63 census saved with page subtotals and description conflicts. Next fresh Shopee brand/series discovery, then remaining model-specific required fields; current firmware totals and qualified prices unresolved.",
+    "model": "Zoom G5n",
+    "task": "Saved exact explicitly used3000000IDR ask,mohrifki2105 shop148185983/item10348658140;cached notlive. Next fresh Shopee discovery orremaining exact-model technical fields.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75654,5 +75654,35 @@
     "basis": "Separate menu entries including channel/voicing variants; five bass-labelled and two acoustic preamps included",
     "conflicts": "Voks15TB description uses AC100 bass identity; DoctorOD described clean like DoctorCL; intended identities unresolved",
     "qualification": "Historical manual census, not current firmware test or63uniquephysicalamps"
+  },
+  "g5n_used_offer_20261018": {
+    "source": "https://shopee.co.id/Zoom-g5n-%28bekas%29-i.148185983.10348658140",
+    "seller": "mohrifki2105",
+    "shop": "148185983",
+    "item": "10348658140",
+    "idr": 3000000,
+    "condition": "Explicitly used in title; working condition unverified",
+    "region": "Kab. Bogor",
+    "access": "Indexed2months/directcachedlastmonth;parameterizedclickfailed,cleanURLretrieved",
+    "stock": "Current unknown",
+    "delivery_conflict": "21–22August indexed versus5–7September direct;stale",
+    "voucher": "Late-deliverycompensation up to10000 IDR;not productdiscount",
+    "unknown": [
+      "bundle",
+      "revision",
+      "accessories",
+      "warranty",
+      "deliveredtotal"
+    ],
+    "previous_summary": "Checked2026-10-17. **Used IDR: ?** No explicit used-condition statement established; a seller name containing second is insufficient. Retail/other asks below are not certified new-condition prices, a used-to-new range or live inventory."
+  },
+  "discovery_g2nu_bp355_me6b_ax100b_20261018": {
+    "queries": [
+      "site:shopee.co.id Zoom G2Nu efek",
+      "site:shopee.co.id Digitech BP355",
+      "site:shopee.co.id Boss ME-6B",
+      "site:shopee.co.id Korg AX100B"
+    ],
+    "result": "No qualified new exactmodel;G2Nu accessories rejected. Existing G5n exactusedoffer followed. Searchfailure notmarketabsence."
   }
 }
