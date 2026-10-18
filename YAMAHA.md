@@ -580,7 +580,7 @@ Checked 2026-10-18; partial. Separate Acoustic edition. [Own Yamaha manual](http
 | Expression | Built-in/external/toe unverified; no EXP in published socket inventory. |
 | Knobs / footswitches / buttons | **4 / 3 / 1**: three parameters, Volume; −, +, AFR/ON/OFF feet; STORE/EXIT. HIGH/LOW slider additional. |
 | Display | **16×2 backlit LCD**; diagonal/color/touch unverified. |
-| Processing / choices | **AcousticMulti + 63 other effect types**; onboard Deep Edit. Category census and maximum concurrency unresolved. |
+| Processing / choices | Owner manual: **AcousticMulti + 63 other effect types**; exact effect-list count conflicts (below). Onboard Deep Edit; universal concurrency unresolved. |
 | Memory | **99 preset + 99 user = 198**; user initially duplicates presets; all factory presets AcousticMulti. |
 | Synth / acoustic | Acoustic/electroacoustic guitar processing; synth-input compatibility does not establish synthesis. Acoustic simulation unverified. |
 | Dimensions / mass | **164W×176D×62H mm; 910g**. |
@@ -591,6 +591,19 @@ Checked 2026-10-18; partial. Separate Acoustic edition. [Own Yamaha manual](http
 | Looper / drums / routing | Looper/drums/scenes unverified. AFR factory ON, AcousticMulti only, five notch filters; filters clear on patch change. Tuner mutes OUTPUT/PHONES;438–445Hz. |
 | Used IDR | Unknown; exact Acoustic Shopee query found no offer,2026-10-18. |
 | New IDR | Unknown; seller/item,condition,stock,region,variant,bundle,warranty,voucher unverified. Search absence is not market absence. |
+
+
+### Magicstomp Acoustic — exact effect-list qualifications
+
+[Yamaha Acoustic effect list](https://usa.yamaha.com/files/download/other_assets/3/333323/magicstomp_acoustic_en3.pdf),32 PDF pages, printed pp2–5,31; text inspected 2026-10-18.
+
+| Field | Exact Acoustic-list evidence |
+|---|---|
+| Processing / count conflict | Editorial count: **63 named types including AcousticMulti** on pp2–3, versus owner p7 **AcousticMulti plus 63 others**. Unresolved conflict. |
+| Processing / multi combinations | Four AmpMulti and four DistMulti types each combine compressor, amp simulation or distortion, one modulation choice (chorus/flanger/tremolo/phaser), delay and reverb. Five components, not freely assignable blocks. |
+| Processing / routing choices | Named paired algorithms distinguish serial/parallel reverb with chorus, flanger or symphonic, and delay with early reflections or reverb. Reverb→Pan and Distortion→Delay are also listed. |
+| Processing / parameter choices | Distortion: **14 types**; Digital Distortion: **5**; AmpSimulator: **11 amp choices**, **16 speaker simulations plus Off**. Algorithm-specific counts. |
+| Synth / acoustic processing | AcousticMulti offers **eight microphone simulations**, direct/mic blend, four-band EQ, limiter, **chorus OR delay OR Off**, and **Hall/Room/Plate/Off** reverb. Electric-to-acoustic conversion unverified. |
 
 <!-- comparison evidence ends -->
 
