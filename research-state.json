@@ -75403,5 +75403,19 @@
       "Polarity,display,user-storage/import/editor gaps",
       "Condition-qualified availability"
     ]
+  },
+  "gp200r_offer_followup_20261018": {
+    "sources": [
+      "https://shopee.co.id/Valeton-GP-200-R-GP200R-GP-200R-GP-200R-Digital-Multi-Effects-Modeller-i.2655003.51005641288",
+      "https://shopee.co.id/VALETON-GP-200R-Limited-Edition-Multi-Effect-Processor-Digital-Pedal-i.7964982.18356350411"
+    ],
+    "result": "Saved two exact variant offers, preserving Dave indexed 6240000 versus direct voucher-dependent 6230000 IDR and unknown stock/condition. No added model.",
+    "next": "Fresh Shopee GP-series discovery; GP-100VT manufacturer lead requires exact hardware offer and own-model technical evidence."
+  },
+  "resume_cursor": {
+    "model": "Valeton GP-200R variant",
+    "task": "Saved additional exact offers and voucher/index conflict; next fresh Shopee GP-series discovery, then unresolved fields. Commit useful model findings before researching another.",
+    "next_models": [],
+    "after_queue": "349 partial models;114 Markdown compatibility files remain;no downloads/workflows/push."
   }
 }

@@ -484,6 +484,17 @@ Checked2026-10-17. [Valeton’s GP-200R page](https://www.valeton.net/product/gp
 
 Both are variant-specific asking observations,not standard GP-200 quotes,new/used condition proof or completed sales. Selected variant,bundle,adapter,working condition,authenticity,warranty,shipping/tax and checkout voucher eligibility unknown. Rp10k/Rp20k late-delivery compensation is not an upfront discount. Existing GP-200X dates,amount conflicts and bundle limits remain above.
 
+### GP-200R — additional exact hardware asks
+
+Checked 2026-10-18; these belong to the existing GP-200R variant, not a new active model.
+
+| Field | Evidence / qualification |
+|---|---|
+| IDR / condition-unverified GP-200R ask with voucher | **Rp6.230.000**, [Dave Komputer, shop2655003/item51005641288](https://shopee.co.id/Valeton-GP-200-R-GP200R-GP-200R-GP-200R-Digital-Multi-Effects-Modeller-i.2655003.51005641288), Kota Jakarta Utara. Direct cached body, last-month crawl, labels this amount as voucher-dependent. Earlier three-month indexed body showed **Rp6.240.000**; preserve both observations rather than assume a base price or universally available discount. Eligibility and checkout total unknown. |
+| IDR / condition-unverified GP-200R ask | **Rp6.240.000**, [theomusic_jkt, shop7964982/item18356350411](https://shopee.co.id/VALETON-GP-200R-Limited-Edition-Multi-Effect-Processor-Digital-Pedal-i.7964982.18356350411), Kota Jakarta Timur. Direct cached body, two-week crawl. Seller's limited-edition wording does not establish GP-200X gifts or anniversary packaging. |
+
+Neither exposed body confirms condition, selected variation, stock, bundle, adapter, warranty, authenticity, shipping/tax or completed sale. Relative today/tomorrow delivery and late-arrival compensation do not establish availability or an upfront discount. These are additional asking observations, not verified new/used price ranges. JavaScript-limited text only; no checkout or visual inspection.
+
 ### Outstanding GP-200 checks
 
 Separate rotary/button counts; remaining current category choices and dedicated synth-engine evidence; factory-memory overwrite rules; IR formats/conversion; NAM architectures/concurrency; explicit touchscreen specification; battery/USB operation; driver/updater versions, scenes/routing and qualified standard-model used/new Shopee evidence remain unresolved. Do not import sibling GP-200JR/LT manual specifications without model-specific evidence.
