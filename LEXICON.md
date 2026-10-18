@@ -74,6 +74,20 @@ Checked2026-10-18 from manufacturer-indexed [own guidep35][MX-M];no sibling spec
 | I/O / digital limit | Guide requires44.1or48kHz;96kHzsourceunsupported. Externaldigitaldevice suppliesmasterclock asalreadydocumented. |
 
 
+### MX200 — complete named library and delay restrictions
+
+Checked2026-10-18 against the manufacturer [2005cut sheet18-0336][MX-S] andindexed [own guidep17][MX-M]. Selectedoriginaltext,no filedownloadorvisualaudit.
+
+| Field | Named choices / qualification |
+|---|---|
+| Category choices / reverb16 | SmallHall,LargeHall,SmallPlate,LargePlate,Room,Chamber,Gated,Reverse,VocalHall,VocalPlate,DrumHall,DrumPlate,Ambience,Studio,Arena,Spring. |
+| Category choices / delay6 | Studio,Digital,Tape,Pong,Modulated,Reverse delays. |
+| Category choices / dynamics2 | Compressor,De-Esser. |
+| Category choices / other8 | Chorus,Flanger,Phaser,Tremolo/Pan,Rotary,Vibrato,PitchShift,Detune. Tremolo/Pan countsasonechoice. Total16+6+2+8=32alternatives;two simultaneousprocessors remainseparatefromlibrarysize. |
+| Delay / time andchannel limits | StudioandModulated:up to2.5s stereo. Digital,Tape,PongandReverse:up to5s mono,withmono-in/stereo-outlabel. Do notborrowMX300’sdifferentReversedelaytime. |
+| Looper / Repeat Hold | OnlyStudio,DigitalandPong supportRepeatHold atmaximumFeedback:existingrepeatsloopwithoutacceptingnewdelayinput. Thisisnot documentedasanoverdubbingphraselooper;Tape,ModulatedandReverseareexcludedfromthisspecificfunction. |
+
+
 ## MX300
 
 Rack multi-effects for guitar amp loops and vocal/mixer paths. Checked 2026-10-17; partial. Suitable line-level routing required; XLR sockets do not establish a microphone preamp or phantom power. Bass-track processing is documented in its own manual; ownership unestablished. Distinct from MX200 and MX400.

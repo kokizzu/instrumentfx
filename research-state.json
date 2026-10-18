@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Lexicon MX200",
-    "task": "Saved explicitUSBcontrol/externalaudio path,historicalOSminimums andexactusedRp2.85msoldoutoffer. Remainingpowerrevision,buttoncount,displaydetails,newconditionoffer. Next freshShopeediscoveryorotherprimarygapsaftercommit.",
+    "task": "Saved complete32namedchoices andown delaytime/channel/RepeatHold limits. Remainingpowerrevision,physicalbuttoncount,displaydetails andnewoffer. Next freshShopeediscoveryoranotheractive-modelgapaftercommit.",
     "next_models": [],
     "after_queue": "349partialmodels;legacyconsolidationincomplete;no downloads/workflows/push."
   },
@@ -76267,5 +76267,21 @@
       "bundle_adapter": "unknown"
     },
     "previous_editor_row": "| Editor / software |MX Edit Mac2.2.0,Windows2.3.1;NetUpdater1.0 separate.2016 releases do not establish modern OS support. VST/AU hardware-plugin32bit integration;USB audio transport unverified [MX-P] |"
+  },
+  "mx200_library_delay_20261018": {
+    "sources": [
+      "https://lexiconpro.com/en-US/product_documents/mx200_infosheetpdf",
+      "https://lexiconpro.com/en-US/product_documents/mx200manual_bpdf"
+    ],
+    "revision": "Cutsheet18-0336copyright2005;guidep17",
+    "counts": {
+      "reverb": 16,
+      "delay": 6,
+      "dynamics": 2,
+      "other": 8,
+      "total": 32
+    },
+    "delay": "Studio/Modulated2.5sstereo;Digital/Tape/Pong/Reverse5smono",
+    "repeat_hold": "Studio/Digital/Pongonly;noadditionalinput;notproofofoverdubbinglooper"
   }
 }
