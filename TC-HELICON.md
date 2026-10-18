@@ -513,7 +513,7 @@ Official PDF repeatedly502;manufacturer-authored mirror firmware1.0/reference201
 [PV-M]: https://www.millionheadpro.com/image/upload/files/tc-helicon_perform-v_reference_manual_english.pdf
 [PV-O]: https://mediadl.musictribe.com/media/PLM/data/docs/P0DEB/PERFORM-V_M_EN.pdf
 
-[Manufacturer-authored B&H mirror][PV-B] independently identifies firmware1.0/reference2015-11-17;pp18–25,38,42 corroborate styles,memory and live behavior. Final technical page text incomplete and screenshot failed;power/dimensions remain unresolved.
+[Manufacturer-authored B&H mirror][PV-B] independently identifies firmware1.0/reference2015-11-17;pp18–25,38,42 corroborate styles,memory and live behavior. Browser extraction reaches the headphone connector on p49 and only a heading on p50; screenshot failed. Dimensions and further power details remain unresolved.
 
 [PV-B]: https://www.bhphotovideo.com/lit_files/1188880.pdf
 
@@ -570,6 +570,14 @@ Italian manufacturer-authored mirror identifies firmware1.0/reference2015-11-17;
 |---|---|
 | IDR / condition-unverified hardware ask | **Rp4.500.000**,seller **BEHRINGER Semarang**,KotaSemarang,shop103535156/item42358124120. [Exact PERFORM-V item](https://shopee.co.id/TC-Helicon-Perform-V-Vocal-Effects-Processor-Efek-Vocal-Suara-i.103535156.42358124120),direct readable last-month cache. Condition,live stock,revision,selectedvariant,working state,adapter/bundle,warranty,voucher,shipping/tax anddeliveredtotal unknown. Relative tomorrow delivery isnot currentstock proof;late-arrivalRp10k compensation isnot a purchase discount. Not assigned to verified used/new prices. |
 | IDR / conditional sold-out ask | **Rp4.459.999 displayed “Dengan Voucher”**,seller **GITARO STORE INDONESIA**,KotaJakartaBarat,shop1643318004/item56109433039. [Exact PERFORM-V item](https://shopee.co.id/Efek-Vokal-TC-Helicon-Perform-V-Vocal-Effect-Mount-Vokal-Processor-i.1643318004.56109433039),direct last-month cache,**Habis**;stale16–17Sepdelivery. Page separately advertises Rp25k offRp1m spend;whether already included andeligibility unknown,so no further subtraction orbase-price inference. Condition,revision,variant,bundle,adapter,warranty,shipping/tax andtotal unknown. Historical conditional ask only,not live stock,new/used range orcompleted sale. |
+
+
+### PERFORM-V — RoomSense guidance and converter qualification
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Live / harmony guidance | Without an AUX music guide, RoomSense listens to nearby guitar or piano chords to derive key/scale for Harmony or HardTune in imported presets. This is acoustic analysis, not a guitar-effects input; headphone vocal-practice mode remains a separate use. | [Manufacturer manual p42,firmware1.0/reference2015-11-17][PV-B] |
+| I/O / output converter | Published D/A converter SNR is **115dB A-weighted**. Keep this separate from the specified whole-output dynamic range >109dB over20Hz–20kHz; neither establishes USB audio support or host sample format. | [Manual p49][PV-B] |
 
 <!-- comparison evidence ends -->
 

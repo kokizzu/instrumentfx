@@ -439,7 +439,7 @@ def main():
         if mode == 'commit-perform-vk':
             message = 'research(tc-helicon): preserve PERFORM-VK harmony manual conflict'
         if mode == 'commit-perform-v':
-            message = 'research(tc-helicon): qualify additional PERFORM-V historical offers'
+            message = 'research(tc-helicon): clarify PERFORM-V RoomSense and converter ratings'
         if mode == 'commit-dapper-indie':
             message = 'research(valeton): clarify Indie fields and reconcile recorded discovery status'
         if mode == 'commit-dapper-dark-mini':
