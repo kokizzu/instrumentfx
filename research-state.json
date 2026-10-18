@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Line 6 POD XT Live",
-    "task": "XT Live main summary now agrees with saved category,acoustic/synth andPX-2 findings. M13 searches returned adapters,not exact processor hardware. Continue fresh hardware discovery or remaining primary gaps;114 Markdown compatibility paths retained.",
+    "model": "TC-Helicon VoiceLive 3 Extreme",
+    "task": "Saved SUMBERMAS exact item27456931754 with conflicting cached prices/stock markers. Continue fresh hardware discovery or unresolved primary gaps;114 Markdown compatibility files retained.",
     "next_models": [],
     "after_queue": "342 partial unique models; Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -45579,7 +45579,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 POD XT Live."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon VoiceLive 3 Extreme."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -58351,6 +58351,21 @@
       "model": "Line 6 POD XT Live",
       "checked": "2026-10-18",
       "finding": "Synchronized initial summary rows with dated source-backed followups:category census,acoustic/synth qualifications andnamed supply rating. AllsourceURLs,offer dates,conflicts andunresolved fields retained."
+    },
+    {
+      "model": "TC-Helicon VoiceLive 3 Extreme",
+      "checked": "2026-10-18",
+      "finding": "New exact SUMBERMAS hardware offer: searchcachedRp13567000/Habis versus directcachedRp15605000/noHabis marker;both datedviews retained,no currentprice/stock claim.",
+      "source": "https://shopee.co.id/TC-Helicon-VoiceLive-3-Extreme-Guitar-and-Vocal-Effects-Processor-Pedal-i.579506457.27456931754",
+      "seller": "SUMBERMAS MUSIK",
+      "shop_id": "579506457",
+      "item_id": "27456931754",
+      "condition": "unknown",
+      "search_crawl": "3 months",
+      "direct_crawl": "last month",
+      "search_delivery": "7 July stale",
+      "direct_delivery": "14 September stale",
+      "discovery": "No exact VoiceLive2/Touch1 hardware established;unqualified voicelive title not assigned."
     }
   ],
   "discovery_cross_brand_bass": {

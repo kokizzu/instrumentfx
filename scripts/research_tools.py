@@ -621,7 +621,7 @@ def main():
         if mode == 'commit-pandora':
             message = 'research(korg): qualify Pandora stomp oscillator and filter controls'
         if mode == 'commit-vl3x':
-            message = 'research(tc-helicon): qualify Touch2 guitar EQ and monitoring paths'
+            message = 'research(tc-helicon): preserve VL3X Sumbermas cached offer conflict'
         if mode == 'commit-b3':
             message = 'research(zoom): qualify B3 loop format and published noise ratings'
         if mode == 'commit-g3':

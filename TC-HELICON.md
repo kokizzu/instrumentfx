@@ -395,6 +395,15 @@ Checked 2026-10-18; seller evidence only.
 |---|---|---|
 | IDR Condition unknown / cache conflict | **GH MUSIC STORE**, Kota Tangerang Selatan; shop71552895/item28555914882. Six-day search cache shows **Rp16,400,000**; direct rendered page, labelled last-month cache, shows **Rp15,605,000**. Preserve both cache observations rather than selecting a current price. Exact title identifies VoiceLive 3 Extreme hardware, but condition, adapter/bundle, warranty, stock and checkout total remain unknown. No explicit sold-out marker in these views does not prove availability. Delivery badges and late-delivery compensation are not stock or purchase-price evidence. | [Exact hardware](https://shopee.co.id/TC-Helicon-VoiceLive-3-Extreme-Guitar-and-Vocal-Effects-Processor-Pedal-i.71552895.28555914882) |
 
+
+### VoiceLive 3 Extreme — SUMBERMAS cached offer conflict
+
+Checked **2026-10-18**, seller evidence only.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| IDR Condition unknown / conflicting cached views | **SUMBERMAS MUSIK**, Kota Tangerang Selatan; shop579506457/item27456931754. Three-month search cache shows **Rp13,567,000 and Habis** with stale7July delivery; direct opened JS-limited body, labelled last-month crawl, shows **Rp15,605,000** and stale14September delivery without the sold-out marker. These are conflicting cached observations, not a current range or stock confirmation. Condition,working state,selected variation,adapter/bundle,warranty/import region,authenticity,shipping/tax,voucher eligibility and delivered total remain unknown. Up-toRp10,000 late compensation is not deducted. Exact title identifies Extreme hardware; no checkout or completed-sale evidence. | [Exact item](https://shopee.co.id/TC-Helicon-VoiceLive-3-Extreme-Guitar-and-Vocal-Effects-Processor-Pedal-i.579506457.27456931754) |
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified exact hardware lead
