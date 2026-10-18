@@ -523,6 +523,17 @@ Checked2026-10-18 against [own manual p12][AX100-M] and [German manufacturer pro
 | Processing / Drive parameter units | DRIVEtypescombinecompression/drive/amp processing withthree-bandEQ. GAIN,TREBLE,MIDDLE,BASS,LEVEL have **0–10.0 displayranges**; donot inferdB or gainratios. Theacoustictype’sGAINexceptionabove remains. |
 | Expression / manufacturer wording qualification | Germanproductpage describes **23 pedal-controlledparameters**,while originalmanual enumerates23PEDALeffecttypes. Preserve wordingdifference; neitherclaimmeans23concurrenttargets orindependentpedals. Existingexplicit algorithmexclusions stillapply. |
 
+
+### AX100G — user writes, reload scope and pedal calibration
+
+Checked 2026-10-19 in the [exact Korg EFGJ owner manual, English printed pp10–11][AX100-M]. Original browser text; no device operation or local download.
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| Memory / writing and name retention | WRITE selects a user destination with UP/DOWN; a second WRITE confirms, while EXIT cancels. Writing replaces the destination. Preset programs cannot be overwritten. Edited names revert on program change or power-off unless written. |
+| Memory / Reload scope | Reload rewrites **all 40 user programs** and initializes rhythm settings. It is not documented here as a pedal-calibration reset or a selective single-patch restore. No reload performed. |
+| Expression / calibration behavior | Calibration separately captures full-back MIN and full-forward MAX positions with WRITE. Korg specifies moving the pedal by hand; EXIT cancels. A failed attempt displays ERROR and returns to MIN. This does not establish a configurable toe-switch pressure threshold or an external EXP socket. |
+
 <!-- comparison evidence ends -->
 
 Condition,workingstate,bundle,adapter,authenticity,warranty,shipping,tax,vouchereligibility andlivestock unverified. Rp10000late-arrivalcompensationisnotdiscount. Official68pageEFGJmanualreadasbrowsertext;no filesystemdownloadorvisualinspectionclaimed.
@@ -531,6 +542,8 @@ Condition,workingstate,bundle,adapter,authenticity,warranty,shipping,tax,voucher
 [AX100-O]: https://shopee.co.id/Efek-Gitar-Korg-AX100G-AX1500G-AX3000G-AX3G-i.22551702.3568008855
 
 [AX100-A]: https://www.korg.com/jp/support/adapter/
+
+Shopee source check 2026-10-19: results again include the existing AX100G/AX1500G/AX3000G/AX3G item and [Hope Music’s storefront](https://shopee.co.id/hopemusik) with an AX5G-or-AX100G title. Neither yields a verified AX100G variant price. Storefront price and sold count are not assigned to this exact model.
 
 ## AX10B
 

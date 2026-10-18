@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Manufacturer technical gaps / Shopee discovery",
-    "task": "AG-Stomp MIDIbackup/restore,addressing,programmaps andEFFfootswitchCC limits saved;freshShopeequeryreturnednoqualifiedAG/DGStompoffer. ContinuefreshShopeediscovery oranotheractive-modelgap;all387recordspartial,migrationincomplete.",
+    "task": "AX100G write/Reloadscope andpedalcalibration gaps updated;freshShopeeoffers remainmixed-model/unallocated. ContinuefreshShopeediscovery oranothermanufacturertechnicalgap;all387recordspartial andmigrationincomplete.",
     "next_models": [],
     "after_queue": "387 active models,46 brands,all partial;no downloads/workflows/push."
   },
@@ -120414,5 +120414,28 @@
     ],
     "market_result": "No qualifying exacthardware offers returned;no pricesassignedorabsenceclaim.",
     "remaining": "Exactcondition-qualifiedoffers,screenpublishedspecs,fullphysical/connectorabsenceaudit,editorplatformsandunsupportedloadingfieldsremainunverified."
+  },
+  "ax100g_memory_calibration_20261019": {
+    "checked_date": "2026-10-19",
+    "model": "Korg AX100G",
+    "source": "https://cdn.korg.com/us/support/download/files/5c537c1ebfda7bd20f49db66f8fffbdc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX100G_EFGJ_2.pdf&response-content-type=application%2Fpdf%3B",
+    "printed_pages": "10–11English",
+    "findings": [
+      "WRITEconfirmsuserdestination;EXITcancels;presetsread-only;unsavednamesrevert",
+      "Reloadrewritesall40userprogramsandinitializesrhythm;calibrationresetscopenotestablished",
+      "PedalcalibrationcapturesMIN/MAX;handmovementspecified;ERRORreturnsMIN;nottoe-pressureconfiguration"
+    ],
+    "queries": [
+      "site:shopee.co.id \"AX100G\" \"bekas\"",
+      "site:shopee.co.id \"Korg AX100G\" -AX1500G -AX3000G -AX3G"
+    ],
+    "market_result": "Knownmixed-model22551702/3568008855 andHopeMusicstorefront AX5G-or-AX100G title;novariantpriceassigned.",
+    "storefront_lead": {
+      "url": "https://shopee.co.id/hopemusik",
+      "title": "Efek Korg Ax5G atau AX100G Rare Item",
+      "indexed_ask_idr": 1499000,
+      "qualification": "Mixedmodeltitle,exactitemandvariantmappingunresolved;notAX100Gpriceorusedconditionproof."
+    },
+    "remaining": "ExacthardwareIDRcondition-qualifiedoffer,fullconnectoraudit,displaypublishedspecs,powerpolarity/currentandloading/editorsremainunverified."
   }
 }
