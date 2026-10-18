@@ -768,6 +768,14 @@ Retail **Rp659.999** [GITARO1458451429/45150325687](https://shopee.co.id/M-Vave-
 
 Source: **40-page manual published by importer Dan Music Partner**,[original text](https://device.report/m/8a5c01bf708178c19762faefe7b83af7601809a18dc08a8285f855e7b68f3717),[paralleltext](https://manuals.plus/m/8a5c01bf708178c19762faefe7b83af7601809a18dc08a8285f855e7b68f3717),[manualindex](https://www.manualslib.com/manual/4580968/M-Vave-Pocket-Amp.html). This is importer documentation,not a successfully inspected manufacturerPDF. Numbered text/specs used,generated diagrams/FAQ rejected;PDFrenderfailed. [Manufacturer downloads](https://www.m-vave.com/download),[catalogue](https://www.m-vave.com/products). Preserve manufacturer-original cross-check,extra-stage/overwrite/touch/NAM/USB/price gaps;genericthree-ampplug-inblogs rejected.
 
+
+### Pocket Amp — published Apple editor requirements
+
+Checked 2026-10-18. The [manufacturer downloads page](https://www.cuvave.com/download) explicitly lists Pocket Amp under desktop M-EFCS; its Mac link resolves to Sinco Audio’s app6470352068. The model-specific importer guide already documents mobile editing, while the manufacturer’s generic mobile device list remains incomplete. No application downloaded or run.
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / Apple OS requirements | [Developer App Store listing](https://apps.apple.com/us/app/m-efcs/id6470352068), version **3.9.2317** at check: **macOS13.3+;iOS14.0+;iPadOS14.0+**. These are published application requirements,not a tested Pocket Amp/firmware compatibility matrix or audio-driver requirements. Windows/Android minima and Mac processor restrictions remain unverified. Application version is separate from device firmwarev105; generic A2 release notes do not independently establish Pocket Amp import limits. |
 <!-- comparison evidence ends -->
 
 ### Preserved original finding
