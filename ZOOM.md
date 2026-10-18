@@ -661,6 +661,10 @@ Checked2026-10-18; cached asks,not live checkout or condition-verified new/used 
 
 Rp10,000late-delivery compensation isnot anupfrontdiscount. No sellercontact ordownloads. G1next/B1next discovery didnotresolveanexacthardwareoffer; currentG2 FOUR isnot originalG2.
 
+### G2 FOUR — expression-volume scope audit
+
+Checked2026-10-19 against [official HTML manual][ZOOM-G2-FOUR-M], Using a pedal, Memory Screen and Specifications. **The external FP02M controls a pedal effect selected inside the patch memory**; no global volume-target override established. Global master-volume retention is separate. Pedal-effect position/range, bypass, headphone attenuation and tail/looper coverage remain unverified. G2X FOUR toe/calibration instructions do not apply to G2 FOUR. Dedicated3.5mm PHONES and onboard lower/higher patch selection via foot-operable direction buttons are documented. Existing184×145mm chassis exceeds preferred depth by5mm. Preserve all older price/bundle/voucher qualifications; no stock refresh or hardware test.
+
 ## G2X FOUR
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
