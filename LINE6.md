@@ -546,6 +546,17 @@ Earlier2026-10-16/17 searches did not establish an exact Indonesian ask; that se
 - [HXE-D: official HX Effects3.80 Owner’s Manual,RevD](https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf),indexed manufacturer text checked2026-10-17:EQ table p.20;looper types/durations andpreset-continuity restrictions pp.27–28. No manual/software/firmware files downloaded to the workspace. This documents revision3.80,not proof of installed firmware.
 
 All earlier HX Effects facts, rounded-dimension provenance, nine-block/128-preset/four-snapshot distinctions, amp-control sharing, IR/acoustic qualifications, source URLs and launch-FAQ correction are preserved. The shared legacy page now redirects with pinned originals. Remaining:confirmation against installed/newer firmware beyond the 3.80 manual inventory,exact display specifications,supply voltage/polarity,explicit battery/USB-power statements,remaining parameter ranges/control details andqualified Indonesian offers. Earlier acoustic-simulation andlooper unknowns are superseded only by the revision-qualified evidence above.
+
+### HX Effects — editor version and restore qualification
+
+Checked 2026-10-18 against the [official HX Edit release listing](https://line6.com/software/index.html?hardware=All&name=HX+Edit&os=All&submit_form=set). No installer, firmware or dependencies downloaded.
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / Windows | **HX Edit3.82**,released2024-12-03, explicitly supports HX Effects and lists **Windows10/11**. Notes describe graphic updates; this is an editor version, not HX Effects firmware3.82. |
+| Editor / macOS | The3.82 entry lists Catalina,BigSur,Monterey,Ventura,Sonoma,Sequoia,Tahoe plus generic MacOSX and an unexplained GoldenGate label. Retain that source anomaly; not proof of every OS/CPU combination or a compatibility test. |
+| Editor / backup restore | **3.81**,released2024-11-20, fixes some global settings failing to restore from backups on **Apple silicon**. This qualifies earlier generic editor/backup support; no local restore was attempted. |
+
 <!-- comparison evidence ends -->
 
 ### Preserved original shared-source HX Effects fields

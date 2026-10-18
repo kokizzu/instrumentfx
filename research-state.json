@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Behringer DSP2024P",
-    "task": "Saved DSP2024P mains-variant conflict, fuse/current distinction and maximum analog levels. Fresh Shopee searches yielded no exact DSP2024P/RP100/RP80/AX300B/G9.2tt hardware lead; AX3000G offers already recorded. Continue other brand/series discovery and unresolved model fields.",
+    "model": "Line 6 HX Effects",
+    "task": "Saved HX Edit3.82 platform listing and3.81 Apple-silicon restore fix. Next fresh Shopee brand/series discovery or unresolved model specification gap; preserve editor/firmware distinction.",
     "next_models": [],
     "after_queue": "348partial unique models;114Markdowncompat retained. No downloads/workflows/push."
   },
@@ -45604,7 +45604,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Behringer DSP2024P."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 HX Effects."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -59546,6 +59546,21 @@
         "Current editor compatibility"
       ],
       "method": "Documentation only; no downloads or device operations"
+    },
+    {
+      "model": "Line 6 HX Effects",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://line6.com/software/index.html?hardware=All&name=HX+Edit&os=All&submit_form=set"
+      ],
+      "finding": "HX Edit3.82 Windows10/11 and macOS listing; preserved unexplained GoldenGate label;3.81 Apple-silicon global-settings restore fix. Editor version not hardware firmware.",
+      "remaining": [
+        "Installed firmware",
+        "Display diagonal and touch",
+        "Qualified used/new IDR offers",
+        "Manual IR-limit conflict"
+      ],
+      "method": "Official release HTML only; no downloads or restore"
     }
   ],
   "discovery_cross_brand_bass": {
