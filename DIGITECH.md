@@ -165,7 +165,7 @@ Guitar multi-effects; distinct from RP250/RP355/RP360XP. Checked2026-10-17; part
 |---|---|---|
 | Used | Unknown; exact page lacks condition confirmation. | — |
 | New | Unknown; exact page lacks condition confirmation. | — |
-| Conditional historical observation | **Rp1,700,000**, Ch.storee, Kab. Pekalongan, shop120981304/item17884883872; checked2026-10-17, exact HTML opened with stale August delivery. Condition, selected variant, adapter/bundle, working state, warranty and stock unverified. Late-arrival Rp10,000 compensation is not hardware discount; shipping/tax/checkout total unknown. Not a confirmed new/used offer or live-stock check. | [Exact item](https://shopee.co.id/DIGITECH-RP255-i.120981304.17884883872) |
+| Conditional historical observation | **Rp1,700,000**, Ch.storee, Kab. Pekalongan, shop120981304/item17884883872; checked2026-10-17, exact HTML opened with stale August delivery. Condition, selected variant, adapter/bundle, working state, warranty and stock unverified. Late-arrival Rp10,000 compensation is not hardware discount; shipping/tax/checkout total unknown. Not a confirmed new/used offer or live-stock check. Rechecked2026-10-18: sameask,two-monthcachedbody,1–3Augustdelivery andsellerlastactive28days;notcurrent availability. Seller route[Ch.storee](https://shopee.co.id/chstore?entryPoint=ShopByPDP) failedcacheaccess. | [Exact item](https://shopee.co.id/DIGITECH-RP255-i.120981304.17884883872) |
 
 
 | Field | Finding / qualification | Evidence |
@@ -179,10 +179,6 @@ Guitar multi-effects; distinct from RP250/RP355/RP360XP. Checked2026-10-17; part
 | I/O / AUX playback destination | AUX stereo playback reaches **left,right andheadphone outputs**;source-player volume and RP255 MasterLevel set the balance. This passage doesnot establish AUX-to-USB capture or effects processing. | [Manual p40][R255-M] |
 
 <!-- comparison evidence ends -->
-
-### Condition-unverified exact Shopee hardware
-
-Checked2026-10-17: [DIGITECH RP255](https://shopee.co.id/DIGITECH-RP255-i.120981304.17884883872),**Ch.storee**,shop120981304/item17884883872,Kab.Pekalongan,**Rp1,700,000**. Exact HTML opened; condition,selected variant,bundle/adapter,working state,warranty and stock unverified. Cached August delivery window does not confirm present availability. Rp10,000 late-arrival voucher is conditional compensation, not hardware discount. Taxes/shipping/checkout total unknown. Amount excluded from used/new projections.
 
 Official56-page manual viewed through browser text; no file/software/driver/dependency downloaded to workspace or installed. Remaining: visual controls,screen details,Phaser/SynthTalk discrepancy,firmware inventory,synth/import evidence,power draw and condition-qualified offers.
 
