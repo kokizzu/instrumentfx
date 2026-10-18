@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Catalogue price qualification projection",
-    "task": "Saved regression and repair for amount-free explicitIDR qualifications,unknownconditionnotes,andpricesinlabels. Next fresh hardware discovery orspecific manufacturer gaps;do notmistake regeneratedqualifications fornewmarketverification.",
+    "model": "MOOER Red Truck",
+    "task": "Saved ownmanual fullsignalorder,boostrange,reverbadditionbehavior andtapshortcut numbering conflict. Actualshortcutbehavior/powerrevision/displaydetailstillunverified;next anotherrequiredmodelgap orfreshseriesdiscovery. GrooveLoopX2utilityandGWF4accessoryexcluded.",
     "next_models": [],
     "after_queue": "353partialmodels;294guitar155bass69vocal;legacycompatibilitymigration incomplete;no downloads/workflows/push."
   },
@@ -45765,7 +45765,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Catalogue price qualification projection."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER Red Truck."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -76994,5 +76994,28 @@
     ],
     "existing_Rp_amount_tokens_retained": true,
     "limitations": "Projection fix only; no new prices, condition confirmation or stock verification."
+  },
+  "mooer_compact_discovery_20261018": {
+    "queries": [
+      "site:shopee.co.id Mooer Red Truck",
+      "site:shopee.co.id Mooer Soul Shiver",
+      "site:shopee.co.id Mooer Groove Loop X2",
+      "site:shopee.co.id Mooer Prime P1",
+      "site:shopee.co.id Mooer Prime S2",
+      "site:shopee.co.id Mooer GE300 Lite"
+    ],
+    "excluded": [
+      {
+        "model": "Groove Loop X2",
+        "item": "https://shopee.co.id/Mooer-Groove-Loop-X2-Ultimate-Guitar-Looper-Pedal-Drum-Machine-i.30194339.51612519441",
+        "primary": "https://www.mooeraudio.com/product/Groove-Loop-x2-244.html",
+        "reason": "Looper/drummer utility rather than qualifying tone multi-effects;not admitted. No single-purpose catalogue expansion."
+      },
+      {
+        "item": "https://shopee.co.id/Efek-Gitar-GTRS-GWF4-by-MOOER-F4-Wireless-2.4Ghz-Footswitch-Controller-Foot-Switch-For-Prime-P1-P2-S2-Change-Preset-Loop-Drum-with-Tap-Tempo-for-Delay-Effects-USB-Type-C-i.19700013.28803822643",
+        "reason": "GWF4 controller accessory;not Prime processorhardware."
+      }
+    ],
+    "result": "No new eligible exact processor hardware qualified;RedTruck alreadyrecorded. Searchabsence notmarketabsence."
   }
 }

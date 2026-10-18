@@ -1711,6 +1711,18 @@ Checked2026-10-17: [Japanese brand control inventory](https://mooer.jp/products/
 
 [Manufacturer manual PDF,part620010668](https://medias.audiofanzine.com/files/mooer-red-truck-manual-480465.pdf),12pages,checked2026-10-17 through web text. Exact product,company imprint andpartnumber verified;printed publication/revision date absent. Unlike the other mirror’s9V1A wording,this copy gives9V±10% and≥300mA on pp2/10/11. Do not flatten these versions into one timeless specification. Current own global product’s≥1A supply recommendation takes precedence for present supply guidance. PDF text also corroborates bypass-onlypresets,connectionlabels andsixfootswitches. No visual diagram inspection or local file download claimed.
 
+### Red Truck — signal order and tap-shortcut conflict
+
+Checked2026-10-18 against [manufacturer PDF part620010668](https://medias.audiofanzine.com/files/mooer-red-truck-manual-480465.pdf),printedpp3,5–7. No device operation or visual panel inspection.
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| Routing / internal order | Text diagram specifies **input→Boost→Drive→Dist→Send/Return→Mod→Delay→Reverb→output**. This fixes the serial module order; it does not resolve the global page’s separate “parallel loop” wording or establish arbitrary reordering. |
+| Live / tap-shortcut source conflict | Layout assigns switches1–5 to Reverb,Delay,Mod,Dist,Drive. Tap page instead labels **3+4 as Delay+Mod**, **1+2 as Delay only**, **2+3 as Mod only**; these numbers do not correspond to those module assignments. Preserve the disagreement; actual shortcut behavior unverified. Purple/red/blue are the stated both/delay/mod tempo indicators. |
+| Effects / boost range | Pure Boost offers **up to+20dB**; its Bass andTreble each±15dB. These are boost-section controls,not overall output-headroom specifications. |
+| Effects / reverb additions | Shimmer fully counterclockwise removes shimmer; MOD DEPTH fully counterclockwise removes reverb modulation. Independent wet/dry,decay,tone andmodulation-rate controls remain; these adjustable additions are not separate named reverb algorithms. |
+
+
 ## Prime P2
 
 Checked 2026-10-17; partial. Guitar multi-effects with documented bass updates and a processed headset-microphone path. Original manufacturer manual V01.2023.09.21 is hosted by RockBoard; newer firmware changes supersede historical counts and gestures where specified.
