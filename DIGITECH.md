@@ -930,7 +930,7 @@ Checked 2026-10-18; partial. Exact RP350,not RP355. [Own manufacturer-linked man
 | Expression | Built-in assignable pedal;toe-pressure **V-switch** selects wah versus assigned parameter. External expression unverified. M |
 | Knobs / footswitches / buttons | **6 /3 /6**:six rotaries;Up,Down,Amp A/B feet;two Edit,Drums,Store front buttons,two rear Amp/Mixer buttons. Toe switch additional. M |
 | Display | Preset/parameter display plus LED matrix;diagonal,color,touch unverified. M |
-| Processing / choices | **11 simultaneous effects**;AudioDNA2. Category census and full routing audit pending. P/M |
+| Processing / choices | **11 simultaneous effects**;AudioDNA2. Category choices and routing qualifications below;source discrepancies retained. P/M |
 | Memory | **70 user+70 factory=140**;initial user fill unverified. P/M |
 | Synth / acoustic | Acoustic modeling referenced in manual;SynthTalk listed,not proof of full synthesis. Bundled HALion is computer software,not onboard engine. M/P |
 | Dimensions / mass | **12.875L×8.375W×2.5H inches;4.5lb**,own manual/product agree. |
@@ -950,10 +950,23 @@ Checked 2026-10-18; partial. Exact RP350,not RP355. [Own manufacturer-linked man
 | Field | Qualification |
 |---|---|
 | Processing / category choices | Pickup2,wah3,distortion17. Compressor prose says **two**,but names/tables list **three**. Delay prose says **five**,but names/tables list **seven**. Preserve both discrepancies. |
-| Processing / concurrency | Chorus/FX permits **one selection at a time**,with pre/post placement;not independently stackable modulation/pitch blocks. Full census pending. |
+| Processing / concurrency | Chorus/FX permits **one selection at a time**,with pre/post placement;not independently stackable modulation/pitch blocks. Own category breakdown below. |
 | I/O / voicing | Independent ¼-inch/XLR Amp/Mixer buttons;headphones follow XLR voicing,use Mixer. XLR stays stereo;¼-inch Left supports mono. |
 | USB / controls | Pickup-row knobs **2/3** control monitoring mix/record level;pp7 and13 agree. **2×2 audio**. |
 | Power / switching | No power switch;adapter connection controls power. |
+
+
+### RP350 — remaining category inventory
+
+[Own manual](https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2022/09/RP350_Manual18-0436V-A_original.pdf),printed pp16–25;checked2026-10-18. Editorial counts exclude Direct/bypass unless stated.
+
+| Field | Exact RP350 choices |
+|---|---|
+| Processing / amp and cabinet | **25 amps+2 acoustic simulations+Direct;18 cabinets+Direct**. Amp selection loads a default cabinet;cabinet remains separately selectable. |
+| Processing / EQ and gate | **4 EQ curves** with adjustable bands;gate chooses **Noise Gate OR Auto Swell**. |
+| Processing / Chorus FX census | **31 models**:chorus4,flanger4,phaser4;vibrato,rotary,VibroPan,Uni-Vibe;tremolo/panner4;Envelope Filter,AutoYa,YaYa,SynthTalk,Step Filter,FX25;Whammy,pitch,detune,IPS,octaver. One selected model per row,not31 simultaneous effects. |
+| Processing / reverb | **6 models**:Twin Reverb,Ambience,Studio,Room,Hall,EMT plate. Compressor/delay prose-versus-table conflicts remain above. |
+| Processing / EQ editor limits | Treble frequency **500–8000Hz** is X-Edit-only;mid frequency **300–5000Hz** is onboard. Amp A/B retains separate EQ settings. |
 
 <!-- comparison evidence ends -->
 
