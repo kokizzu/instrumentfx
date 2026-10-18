@@ -4546,3 +4546,15 @@ Checked 2026-10-19. [Manufacturer-authored manual reproduced on Manualzz](https:
 | Synth / acoustic | Aco.Sim explicitly converts electric-guitar tone toward acoustic;Top/Body/Level controls. MonoPitch is single-note pitch shifting;not proof of a dedicated synth engine. |
 
 TOTAL holds patch-level/name/expression settings,not a ninth simultaneous audio module. Installed firmware/current library,83-type reconciliation andqualified IDR remain unresolved. No downloads ordevice operation.
+
+### G2Nu — cabinet-count hypothesis and practice restrictions
+
+Checked 2026-10-19 against [same manufacturer-authored family manual body](https://manualzz.com/doc/58694453/zoom-g21nu-operation-manual), printed pp15–16,23–24. Shared instructions explicitly cover G2Nu; no G2.1Nu-only treadle features transferred.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / cabinets and count hypothesis | Direct mode offers **MATCHED,COMBO,TWEED,STACK**;MATCHED follows DRIVE,others simulate2×12,4×10,4×12 cabinets. **79 category placements+4 cabinet settings=83** arithmetically. Plausible counting explanation only;manufacturer does not explicitly confirm it. Not four userIR slots. |
+| Looper / rhythm interaction | Rhythm mode disables **REVERB**,separate from looper disablingDELAY. Turning looper time/tempo knobs after recording erases phrase. DOWN stops;UP restarts;holdDOWN clears. Stop alone isnot erase;power/preset persistence remains unverified. |
+| Memory / reset scope | ALL INITIALIZE replaces all user-bank patches with factory values. This is destructive restoration,not extra protected memory;no reset performed. |
+
+Exact firmware/counting searches returned no explanatory primary result;no installed-library claim. Count discrepancy remains qualified rather than resolved. No downloads or device operation.
