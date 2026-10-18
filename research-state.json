@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom GFX-3",
-    "task": "Saved exact seller-described used Rp865000 ask;notcurrentstock orconditiontest. Next recover exact GFX8 hardware item from Zoom category oranother newbrand lead;commit model findings before movingon.",
-    "next_models": [
-      "Zoom GFX-8: category lead says Efek Gitar Zoom Gfx8 Rp2100000 at https://shopee.co.id/list/Efek/Zoom;recover exact seller/item before admission"
-    ],
-    "after_queue": "351partialmodels;155bass;legacycompatibilitymigration incomplete;no downloads/workflows/push."
+    "model": "Zoom GFX-5",
+    "task": "Saved exactcategory-linked Rp1750000 item withunverifiedcondition/stock. GFX8Rp2100000categorylead not reproduced;noadmission. Next differentbrand/seriesShopee discovery oranothermodelrequiredfield;avoidrepeatingGFX8queries.",
+    "next_models": [],
+    "after_queue": "351partialmodels;155bass;technicalverification andlegacycompatibilitymigration incomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24318,6 +24316,18 @@
         "Korg AX4B"
       ],
       "finding": "Exact Shopee Indonesia searches returned no qualified hardware item. No admission or unavailability conclusion."
+    },
+    {
+      "model": "Zoom GFX-8",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://shopee.co.id/list/Efek/Zoom"
+      ],
+      "finding": "Earlier search index GFX8Rp2100000 not reproduced in opened August category,which listsdifferentmodels. Six targetedspelling/price queries returnedadapters,sockets/sensors,OLXcategoryhits;noexactShopeeprocessoritem. Remainpending,notunavailable;do notrepeatidenticalqueries.",
+      "rejected_accessories": [
+        "https://shopee.co.id/AC-ADAPTOR-BUAT-Zoom-Guitar-Effect-Processor-GFX-4-%28Japan%29-GFX-8-i.14849321.28104902463",
+        "https://shopee.co.id/Modul-sensor-Pedal-WAH-pedal-volume-zoom-gfx-8-i.38361451.8214243069"
+      ]
     }
   ],
   "inventory_by_brand": {
@@ -45659,7 +45669,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom GFX-3."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom GFX-5."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -59912,6 +59922,22 @@
         "50type and7/8module conflicts"
       ],
       "method": "Browser text only,no download"
+    },
+    {
+      "model": "Zoom GFX-5",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://shopee.co.id/list/Efek/Zoom",
+        "https://shopee.co.id/efek-gitar-zoom-gfx5-i.57900729.19961261954"
+      ],
+      "finding": "Opened month-old August category links GFX5 Rp1750000 to exactshop57900729/item19961261954;itemcachemiss andexactIDsearchempty. Seller/region/condition/stock unknown;separate fromRp1200000Habisoffer.",
+      "remaining": [
+        "Qualified used/new offer",
+        "Current item body",
+        "ARRM waveform conflict",
+        "Operating current"
+      ],
+      "method": "Browsertextandcategoryhref;no downloads"
     }
   ],
   "discovery_cross_brand_bass": {

@@ -555,7 +555,7 @@ def main():
         if mode == 'commit-gfx4':
             message = 'research(zoom): qualify GFX4 factory memory converters and input ratings'
         if mode == 'commit-gfx5':
-            message = 'research(zoom): qualify GFX5 converters sampler and analog ratings'
+            message = 'research(zoom): retain exact category-linked GFX5 hardware ask'
         if mode == 'commit-gfx3':
             message = 'research(zoom): add exact GFX3 seller-described used asking price'
         if mode == 'commit-rp250':
