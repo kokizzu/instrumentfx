@@ -80,7 +80,7 @@ def commit():
     comparison_views.verify_views()
     research_tools.git('add','--',*sorted(changed))
     print(research_tools.git('diff','--cached','--stat'))
-    print(research_tools.git('commit','-m','fix(research): retain explicit field-label conflicts in gap index'))
+    print(research_tools.git('commit','-m','research: refresh uncertainty index for all 388 models'))
 
 if __name__=='__main__':
     assert len(sys.argv)==2 and sys.argv[1] in ('plan','apply','commit','test')

@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee discovery / manufacturer gaps",
-    "task": "GX-1FXEQbandcenterssaved;B3nmarketrecheckreturnedunchangedknownasks,notfreshstock. Next alternatebrandseriesdiscovery oranothertechnicalgap;do notrepeatunchangedB3nasks. All388partial;migrationincomplete.",
-    "next_models": [],
-    "after_queue": "388active47brands;no downloads/workflows/push."
+    "model": "MOOER Prime S1",
+    "task": "Refreshed gapindex for388models;read fullPrimeS1canonical section andsaved primary/access attempts,thenverify controls/display/processing fromexactmanual ormanufacturer. Retainallsourceconflicts;donotrepeatunchangedGX-1/B3npaths.",
+    "next_models": [
+      "MOOER::Prime S1"
+    ],
+    "after_queue": "Resume freshShopeebrandseriesdiscovery andmanufacturer gaps;388active47brands;allpartial,migrationincomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -82121,9 +82123,9 @@
   },
   "verification_gap_index": {
     "scope": "Explicit uncertainty signals in selected comparison field labels and values only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
-    "model_count": 387,
-    "models_with_signals": 387,
-    "flagged_field_count": 4944,
+    "model_count": 388,
+    "models_with_signals": 388,
+    "flagged_field_count": 4987,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -84451,6 +84453,56 @@
             "source": "BOSS.md",
             "signals": [
               "unknown"
+            ]
+          },
+          {
+            "field": "Power / alkaline runtime",
+            "source": "BOSS.md",
+            "signals": [
+              "not_established"
+            ]
+          },
+          {
+            "field": "Processing / dedicated reverb choices",
+            "source": "BOSS.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Processing / dedicated delay census",
+            "source": "BOSS.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "IDR / unresolved mixed-model variation lead",
+            "source": "BOSS.md",
+            "signals": [
+              "unverified",
+              "unresolved"
+            ]
+          },
+          {
+            "field": "Processing / global EQ",
+            "source": "BOSS.md",
+            "signals": [
+              "not_established"
+            ]
+          },
+          {
+            "field": "Expression / calibration and sensitivity",
+            "source": "BOSS.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Processing / FX EQ choices and bands",
+            "source": "BOSS.md",
+            "signals": [
+              "unverified"
             ]
           }
         ]
@@ -88848,6 +88900,13 @@
             "signals": [
               "unverified"
             ]
+          },
+          {
+            "field": "Expression / assignment limits",
+            "source": "DIGITECH.md",
+            "signals": [
+              "not_established"
+            ]
           }
         ]
       },
@@ -92741,6 +92800,191 @@
           }
         ]
       },
+      "Harley Benton::DNAfx GiT Core": {
+        "link": "HARLEY-BENTON.md#dnafx-git-core",
+        "flagged_fields": [
+          {
+            "field": "Processing / choices",
+            "source": "HARLEY-BENTON.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Factory / user memory",
+            "source": "HARLEY-BENTON.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Expression",
+            "source": "HARLEY-BENTON.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Display",
+            "source": "HARLEY-BENTON.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Dimensions / mass",
+            "source": "HARLEY-BENTON.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "I/O",
+            "source": "HARLEY-BENTON.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Power / battery / USB",
+            "source": "HARLEY-BENTON.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "IR / NAM / capture",
+            "source": "HARLEY-BENTON.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Editor / software",
+            "source": "HARLEY-BENTON.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Looper / drums / live",
+            "source": "HARLEY-BENTON.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Digital audio",
+            "source": "HARLEY-BENTON.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Synth / acoustic",
+            "source": "HARLEY-BENTON.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Documentation",
+            "source": "HARLEY-BENTON.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "IDR verified used",
+            "source": "HARLEY-BENTON.md",
+            "signals": [
+              "unknown"
+            ]
+          },
+          {
+            "field": "IDR verified new",
+            "source": "HARLEY-BENTON.md",
+            "signals": [
+              "unknown"
+            ]
+          },
+          {
+            "field": "IDR condition-unverified hardware ask",
+            "source": "HARLEY-BENTON.md",
+            "signals": [
+              "unknown",
+              "unverified"
+            ]
+          },
+          {
+            "field": "Dimensions / mass source conflict",
+            "source": "HARLEY-BENTON.md",
+            "signals": [
+              "unverified",
+              "unresolved",
+              "conflict"
+            ]
+          },
+          {
+            "field": "I/O / USB source conflict",
+            "source": "HARLEY-BENTON.md",
+            "signals": [
+              "unverified",
+              "conflict"
+            ]
+          },
+          {
+            "field": "Memory / preset organization",
+            "source": "HARLEY-BENTON.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Expression / configuration",
+            "source": "HARLEY-BENTON.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Looper / practical restrictions",
+            "source": "HARLEY-BENTON.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Processing / tuner modes",
+            "source": "HARLEY-BENTON.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Editor / power requirement",
+            "source": "HARLEY-BENTON.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Processing / EQ qualification",
+            "source": "HARLEY-BENTON.md",
+            "signals": [
+              "not_established"
+            ]
+          },
+          {
+            "field": "I/O / connector wording conflict",
+            "source": "HARLEY-BENTON.md",
+            "signals": [
+              "unresolved",
+              "conflict"
+            ]
+          }
+        ]
+      },
       "HeadRush::Core": {
         "link": "HEADRUSH.md#core",
         "flagged_fields": [
@@ -95442,6 +95686,13 @@
             "source": "KORG.md",
             "signals": [
               "unresolved"
+            ]
+          },
+          {
+            "field": "Expression / calibration behavior",
+            "source": "KORG.md",
+            "signals": [
+              "not_established"
             ]
           }
         ]
@@ -104465,6 +104716,13 @@
             "signals": [
               "unverified"
             ]
+          },
+          {
+            "field": "I/O / analog ratings",
+            "source": "NUX.md",
+            "signals": [
+              "unresolved"
+            ]
           }
         ]
       },
@@ -105362,8 +105620,8 @@
             "field": "Physical controls / K/F/B",
             "source": "SONICAKE.md",
             "signals": [
-              "unverified",
-              "pending"
+              "unresolved",
+              "question_mark"
             ]
           },
           {
@@ -105378,6 +105636,13 @@
             "source": "SONICAKE.md",
             "signals": [
               "unresolved"
+            ]
+          },
+          {
+            "field": "Processing / EQ placement",
+            "source": "SONICAKE.md",
+            "signals": [
+              "unverified"
             ]
           },
           {
@@ -105405,7 +105670,9 @@
             "field": "Power / battery / USB",
             "source": "SONICAKE.md",
             "signals": [
-              "unverified"
+              "unverified",
+              "unresolved",
+              "conflict"
             ]
           },
           {
@@ -105576,7 +105843,8 @@
             "field": "Physical controls / K/F/B",
             "source": "SONICAKE.md",
             "signals": [
-              "pending"
+              "unresolved",
+              "question_mark"
             ]
           },
           {
@@ -105654,7 +105922,7 @@
             "field": "Live / bypass",
             "source": "SONICAKE.md",
             "signals": [
-              "pending"
+              "unresolved"
             ]
           },
           {
@@ -107140,6 +107408,20 @@
           },
           {
             "field": "Editor / dated feature provenance",
+            "source": "TC-ELECTRONIC.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Live / MIDI delay-effects controls",
+            "source": "TC-ELECTRONIC.md",
+            "signals": [
+              "not_established"
+            ]
+          },
+          {
+            "field": "Price / condition-unverified IDR",
             "source": "TC-ELECTRONIC.md",
             "signals": [
               "unverified"
@@ -110077,6 +110359,13 @@
             "signals": [
               "unverified"
             ]
+          },
+          {
+            "field": "Memory / effect-selection defaults",
+            "source": "VOX.md",
+            "signals": [
+              "not_established"
+            ]
           }
         ]
       },
@@ -112758,6 +113047,13 @@
               "unverified",
               "not_established"
             ]
+          },
+          {
+            "field": "I/O / MIDI merge and clock limits",
+            "source": "YAMAHA.md",
+            "signals": [
+              "not_established"
+            ]
           }
         ]
       },
@@ -112937,7 +113233,8 @@
             "field": "Used IDR",
             "source": "YAMAHA.md",
             "signals": [
-              "unknown"
+              "unknown",
+              "not_established"
             ]
           },
           {
@@ -112976,6 +113273,27 @@
             "source": "YAMAHA.md",
             "signals": [
               "unverified"
+            ]
+          },
+          {
+            "field": "I/O / HIGH-LOW wording conflict",
+            "source": "YAMAHA.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
+            "field": "Editor / patch transfer limits",
+            "source": "YAMAHA.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "Memory / factory reset scope",
+            "source": "YAMAHA.md",
+            "signals": [
+              "conflict"
             ]
           }
         ]
@@ -119606,26 +119924,26 @@
       }
     },
     "source_hashes": {
-      "ZOOM.md": "2d0d64e89aebd9a819827c54541a364e0c3c2a20089834d0255628140adf6ed9",
+      "ZOOM.md": "cd0bf53fc8a1a0f9e077dab5c545fda03ce160993e7e4c811c2d43b40762f6ba",
       "LEKATO.md": "380ff841df2e4790d1ecf3031d43031b204d4967bc82c29e59d925b04990b802",
       "ALESIS.md": "0ae1dc5f11ef614385f1ac597c118504a89606901268043471cf5a428141000a",
       "ROWIN.md": "e81792f710d0ae42f9c8a0fb6de5798ad86f324ce8d442dd1024ffad6d315282",
       "JOYO.md": "e40a65594804dd2728bad9561444474d0f784048da3ed5dd86fb0dca75456119",
-      "TC-ELECTRONIC.md": "46ca68e66568f02e972ac73999ae6e09ce1746d8833b8d9e725b74664b4c2fbc",
+      "TC-ELECTRONIC.md": "9084a4ecb5b2b9c072f48d2f11ffa4e50140d3c5fa41f48928908961e07e94f4",
       "VALETON.md": "a5d6f6ea7fbdb07244df7fb483d987fb2287edb0c582532cf619c66dfd2f7ecd",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
-      "ALL-GUITAR.md": "1c24fed01fcb269224c0d41efac82c24872a01bf1bd202c84130e91b89a15907",
+      "ALL-GUITAR.md": "3d7c6c94acae32082baa629c71d51dccee7557837c6a076b48dab9ade27713d4",
       "LINE6.md": "bbbe508cca147737b97aadbd9b3fbb2e20faa83c7ae8e717abd7acd42c6e63da",
-      "YAMAHA.md": "c3ef2f3c290ebe7173c9c36a9d6937b3e3968fbc91a3ee6ab93b1cc3a81eb2d8",
+      "YAMAHA.md": "c449caba40cdd9fd23222812e36c3ee2f5673fab57bf1e5fd54299e40a958f48",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
-      "ALL-BASS.md": "ca734fff71aaab708a9ec649d20c8aaca5095307d68f1824cbccd9db476ec686",
+      "ALL-BASS.md": "a198ab607f732ef49c8fee692f5ec20142663847ba899aafe478986880245c36",
       "VING.md": "2873cd6b4d5b13c287eb839977ff782139fb5640008b9f9730ddc289d09f5b67",
       "FENDER.md": "825b3d107ed121195199f3a238cfae504e08c3f4913cd5952787df25109530c8",
       "MOSKY.md": "5fa70acc80dab7bfb6d02f5160afec1e5ee1947c8e343790309c9f78cbc0a07d",
       "TC-HELICON.md": "2efca393f835915b81764ea2c17504b36e4a1fa0a299cbfe9fd424e30206d324",
       "CUVAVE.md": "245b3f9975423a1b9a6f6facef5c9d2ddcc5fe5ebaa6134141678c66bde0c799",
-      "KORG.md": "680acff51ff33a47cbb26e1c3ffdfb05e3de37fb3152d2b8bf99e6f4f8d46547",
+      "KORG.md": "3bc507276ba64f0e0fbef16ecf69527bf23f991c606297ec202734f8094b89c8",
       "BLACKSTAR.md": "b669de5ae77c32f44e641de26714593d055d169b71576b4866f2a3665f7431b9",
       "DK.md": "97a52417dc4d52794f215684d2606af1648a498dd50ae44b9b4b02866b24800f",
       "AGENTS.md": "06193b1726f67bfa8c88ccded0458cb3ba22c713d343341086dcb6e1c1836cce",
@@ -119633,17 +119951,17 @@
       "TECH21.md": "1668d411f5cd34f2e845c0e6eb4aedaa335e335361616151792402f8042b2352",
       "MOOER.md": "cdad5c6009106194df97ab42a7c0e5b4bb606ff1bde54be36dfd5c4a578be039",
       "BEHRINGER.md": "8746e2a4c6f49febe91bde776a38dd035352781e66c258940a33d85d1c69218d",
-      "NUX.md": "51de02ade8ff42325d7ff1ceb4d63ea2877838c5badb414fcb22c07ffdc8e080",
+      "NUX.md": "ce140955ed2a41d3a4ea6dcb3769b86d7f8049b6a42cf6bf6f959884bd0d80c4",
       "IK-MULTIMEDIA.md": "ce23e1624886fada92ab0ff1c92554e04c01d18ca79839dc13744acdba2b9903",
       "SINGLE-VOCAL.md": "acb51be0b82d540d045e92e126882df43bb3c7380b45f3be5cc48a7828827796",
       "DARKGLASS.md": "4df816629a31b454d8c69de300525d97a85718749f23f4e684b243c5b50fce06",
       "SORAN.md": "cd5fc3d11881ca6e7ee13c166eca105b1fd7981ed6f4db0c4945e8eaf81fcc44",
       "EVENTIDE.md": "ecfa2508b72e16adee028b54c54d9590264d03f21b5b5f387b46f3156f098cbc",
-      "MULTI-EFFECTS.md": "f7ec02c88fd7230315cc527e406e4d04209c3f9cb063e4f35c2d0dbe2ec6184a",
-      "VOX.md": "7087c2c9689338adff6f0cff2449fa98b138812bac122bd393d989bcaad1dc62",
-      "BOSS.md": "9b041133c02ee503bcf175d598d10f2a5118bb453b5d108f565c5150b51043b8",
+      "MULTI-EFFECTS.md": "cf6328726ea0ef0ea785c8f5941d45d8755381752bd64e20b1f245e7aea6a685",
+      "VOX.md": "89b8b36bd096245b6ad05b8fbd621e5e0d71d72202548a812815590e64e0ddba",
+      "BOSS.md": "4a461616dc259bb185af13b5f5c79ffb89dccfca928e9547437979583943cfd3",
       "KEELEY.md": "bf2e0764ec43eedcfbfc9839452586b4b9c835948fc7315f5e935472f9d45d1a",
-      "ALL-VOCAL.md": "c7bb7b13511ef4b447b59dbd80b9d99a9a757072df3dd25523f0d9201ce79f94",
+      "ALL-VOCAL.md": "e3c70d0b772c8a74bdffbdf78e2df78693e92e6a769e8a508b2e86d7e60f8bc4",
       "LEXICON.md": "3b6b15d2b3986a2538f1a548a156df3a605e35764d91d08686e12549b64b98da",
       "SINGLE-GUITAR.md": "9d785a2665a3bbcbc1effe4750a232fd0f2b690e82c99a5e4504cbd479a3a0af",
       "DONNER.md": "c37c37a6d312decc6f18ea53df29fb6683f01ed89fdd5bbec65feb8dd2c44837",
@@ -119652,11 +119970,12 @@
       "AUDOTA.md": "6b3f98df769cb2ee1ac2c53bc35962eb7def7fdd370a8d43cde0a674a765e7ad",
       "ROLAND.md": "9ce3ef43fca59c82c03e9433494b8712e6a8d44b61af4beaff1ee160337ee343",
       "KEMPER.md": "8d101c0d5aa62f46ec00eb287a8f98e804f6c642ea3c8a45f8c53df39430b094",
-      "README.md": "e3e04c39e37e48889ce034e668031566bc7111ebb0a815da82c7ddaf4f1ad124",
+      "HARLEY-BENTON.md": "718893274affb34f6a1d490a0e29e1b3823c29eed51a1ad05e17a6829476cdc5",
+      "README.md": "59339ccc86208e6917a9754ca8b260edebc120b762c43ddebe2a6385c2e89033",
       "FRACTAL-AUDIO.md": "c49fc79d860c8cbe36666578a065d2015dd6a789dbe7f7852bf21aba35ce5a4c",
       "DEMONFX.md": "a477869186303c3c896d438dde6bb211e03920e6a51da4de617f5442de06e0ee",
-      "DIGITECH.md": "2387153db56008d185368e55395ae3ed030e14e2396e302aebe6aebb5e5e6c3f",
-      "SONICAKE.md": "62950fa34680adc5b5d06dfa1ba48ab212ecb69192764372d0a280dafa77c069",
+      "DIGITECH.md": "366fec2ef53cf99f4cf04a3b013021a67c1c6d520a3aed638849c6ce87d45640",
+      "SONICAKE.md": "6bcccda3dda181e471b3cf8edd2bd4fac4138fcf18dd04d4b7903ec0724c903d",
       "AMMOON.md": "b5effe57a7b3389dc05c4c2efec738c1b027590868a74e88e7dfea36686d5524",
       "NEURAL-DSP.md": "8d43ed1212434c42e554a0a3a1f32e119735387adff2eca737ec9d63f29a8479",
       "M-VAVE.md": "b4778eb15b3c8b22ab8ab9705e639e27cefda7c3c7a4e7c3ec854d4e640e852d",
@@ -120679,5 +120998,13 @@
       "site:shopee.co.id \"Zoom\" \"B3n\" bekas"
     ],
     "market_result": "B3n exactoffers alreadyretained;Wiras3155000soldout/nusantara2800000unchanged andstaledelivery;no inventedfreshprice/stock. BP50noqualifiedoffer."
+  },
+  "gap_audit_refresh_20261019": {
+    "previous_index_models": 387,
+    "current_index_models": 388,
+    "models_with_explicit_signals": 388,
+    "flagged_fields": 4987,
+    "qualification": "Lexicalflagindexonly;historicalcaveatsandmissingfieldsrequiremanualreview;no completioncertification.",
+    "next_selection": "MOOER Prime S1 controls/display/processing;read entire exact record before research."
   }
 }
