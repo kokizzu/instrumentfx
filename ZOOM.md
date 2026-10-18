@@ -4473,6 +4473,10 @@ These reset behaviors concern global operating settings; they do not contradict 
 <!-- comparison evidence ends -->
 
 
+### 506II — conditional expression volume
+
+Checked 2026-10-19 against [own manual pp18,21](https://zoomcorp.com/media/documents/E_506II.pdf). FP01/FP02 controls volume only if no pedal-icon parameter is selected anywhere in the patch. This is a patch-dependent fallback; a global volume override is not established. Position, minimum/maximum, recall, bypass, headphone attenuation and tail/looper coverage remain unknown. Shared stereo OUTPUT accepts headphones, but master-level headphone adjustment is separate evidence from expression coverage. Patch selection uses both onboard switches in Play; exact down/up mapping remains unverified in extracted text. Bass is documented; guitar suitability remains unclassified. The 125 W ×145 D mm body exceeds preferred depth by5 mm. Older technical and offer qualifications remain preserved.
+
 ## B2
 
 Original bass multi-effects; partial, checked2026-10-18. Distinct fromB2.1u/B2 FOUR. [Manufacturer manual](https://zoomcorp.com/media/documents/E_B2.pdf),pp6–7,16,25–26,31.
