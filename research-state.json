@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER Red Truck",
-    "task": "Saved ownmanual fullsignalorder,boostrange,reverbadditionbehavior andtapshortcut numbering conflict. Actualshortcutbehavior/powerrevision/displaydetailstillunverified;next anotherrequiredmodelgap orfreshseriesdiscovery. GrooveLoopX2utilityandGWF4accessoryexcluded.",
+    "task": "Corrected unsupported tap-numbering conflict interpretation: manual specifies shortcut chords independently ofsingle effect toggles. Documentedshortcutsretained;physicalbehavioruntested. Next anotherrequiredmodelgap orfreshbrandseriesdiscovery;no needrepeatthisunchangedmanual.",
     "next_models": [],
     "after_queue": "353partialmodels;294guitar155bass69vocal;legacycompatibilitymigration incomplete;no downloads/workflows/push."
   },
@@ -77017,5 +77017,15 @@
       }
     ],
     "result": "No new eligible exact processor hardware qualified;RedTruck alreadyrecorded. Searchabsence notmarketabsence."
+  },
+  "red_truck_tap_interpretation_correction_20261018": {
+    "source": "https://medias.audiofanzine.com/files/mooer-red-truck-manual-480465.pdf",
+    "printed_pages": [
+      3,
+      7
+    ],
+    "supersedes": "5194671 source-conflict interpretation",
+    "correction": "Tap commands are simultaneous-switch shortcut assignments; individual LIVE effect toggles do not require their chord numbers to match the target module. Preserve documented3+4 both,1+2delay,2+3mod without asserting a source error.",
+    "actual_device_operation": "not tested"
   }
 }
