@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER GS1000 Li",
-    "task": "Added independentlycounted batteryvariant fromexplicitsharedmanual:9V3A,1.37kg,battery6hqualified. ExactLipricesunknown. Next confirmLi firmware/NAM/editor applicability orfreshhardwarediscovery; do notborrowstandardpower/mass.",
+    "task": "GS1000 Li USB audio/MIDI now confirmed from shared exact-edition product page. Current GS1000 support notes preserved as Li applicability gap and Mac minimum revision discrepancy. Next seek explicit Li firmware/editor compatibility or fresh eligible Shopee discovery; do not transfer standard NAM claims.",
     "next_models": [],
     "after_queue": "347 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -58890,6 +58890,25 @@
       ],
       "discovery": "ExactGS1000Li queriesreturnedstandardlists/accessories notqualifiedLiitem",
       "method": "Browsertextonly"
+    },
+    {
+      "model": "MOOER GS1000 Li",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://www.mooeraudio.com/products/219.html",
+        "https://cn.mooeraudio.com/Downloads_xq/5.html"
+      ],
+      "finding": "Shared exact-edition product page confirms 2-in/2-out USB audio up to 192 kHz, USB MIDI and preset management. Current support page names GS1000 only: V1.3.0 native A2 Lite versus converted A1 and Windows 10+/macOS 10.13+; Li applicability remains unresolved, older shared manual lists Mac 10.11+.",
+      "discovery": "Fresh exact Shopee GS1000 Li query returned standard GS1000 list prices/accessories only; no exact Li hardware price established, not proof of absence.",
+      "remaining": [
+        "Explicit Li firmware/NAM compatibility",
+        "Current Li editor and driver OS compatibility",
+        "Qualified used/new IDR",
+        "Visual panel verification",
+        "Display color/resolution",
+        "Current effect/rhythm count reconciliation"
+      ],
+      "method": "Web text only; no downloads or software execution"
     }
   ],
   "discovery_cross_brand_bass": {
