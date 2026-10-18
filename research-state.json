@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech RP150",
-    "task": "Saved exact RP150 editor listings, historical Mac compatibility scope and current manufacturer discontinued-software support warning. Exact Shopee queries again returned no qualified hardware offers. Next fresh brand/series Shopee discovery; retain unresolved RP150 synth/current-OS operation/IR/power/display gaps.",
+    "task": "Saved RP150 drum count conflict (65 including metronome versus spec60), drum mode restrictions and simultaneous external wah/Whammy control. Fresh BP355/BP200/B9.1ut/Vocalist searches had no qualified hardware lead; BP200 power adapter excluded. Next expand exact Shopee brand/series discovery and address remaining required fields.",
     "next_models": [],
     "after_queue": "371active/46brands;309guitar162bass69vocal;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
   },
@@ -81243,5 +81243,24 @@
       "site:shopee.co.id \"Digitech\" \"RP150\" bekas"
     ],
     "result": "No qualified exact hardware offer; prices remain unknown, not proof of marketplace absence. Manufacturer discontinued-software warning and version-specific editor scope saved."
+  },
+  "discovery_bass_vocal_20261018_post_rp150": {
+    "queries": [
+      "site:shopee.co.id \"Digitech\" \"BP355\"",
+      "site:shopee.co.id \"Digitech\" \"BP200\"",
+      "site:shopee.co.id \"Vocalist\" \"Live\" Digitech",
+      "site:shopee.co.id \"Zoom\" \"B9.1ut\"",
+      "site:shopee.co.id \"BP355\"",
+      "site:shopee.co.id \"BP200\"",
+      "site:shopee.co.id \"B9.1ut\""
+    ],
+    "rejected": [
+      {
+        "url": "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-VL3G-Vocalist-Live-3-EX-MC2-Talker-S100-RP3-GNX1-BP200-AC-Power-Supply-i.16626959.4486100964",
+        "indexed_idr": 175000,
+        "reason": "Power adapter, not processor hardware."
+      }
+    ],
+    "result": "No qualified exact processor offer; unrelated bio-pellet reactors, audio interfaces and entertainment pages excluded. Not proof of marketplace absence."
   }
 }
