@@ -3371,6 +3371,15 @@ Checked2026-10-18 against [French manufacturer manual](https://fr.scribd.com/doc
 | Live / patch stepping | One **FS-5U atNUMBER SHIFT** advances oneprogram perpress;holding does not auto-repeat. Two switches through **PCS-31** provide increase/decrease. A configurable range limits stepping;reversing its endpoints gives descending order. |
 | Memory / power-on recall andediting | Power-on recalls the previously used program. Parameter edits are temporary untilwritten;changing programs orpowering off loses unsaved changes. This is distinct from automatic recall of an already stored program. |
 
+### SE-50 — nominal sensitivity and global effects state
+
+Checked2026-10-18 against the [French BOSS manual][SE50-FR], input-level and effects-on/off sections. Manufacturer-authored mirror text; no device or visual test.
+
+| Required field | Evidence / qualification |
+|---|---|
+| I/O / nominal input sensitivity | Rear LEVEL selects **−20dBm or+4dBm**. If overload remains frequent at−20dBm even with the input controls at minimum, the manual directs selecting+4dBm. These are nominal sensitivity settings, **not maximum input ratings**; the separately documented overload warning remains6dB below clipping. |
+| Live / global effects state | Programs can be selected while effects are off; the global on/off state is retained through other operations. This does not establish stored per-program bypass state, effect trails or power-cycle retention. |
+
 ### SE-50 source access and remaining verification
 
 [Official archive](https://www.boss.info/us/support/manual_archive/) links [144-page original manual](https://cdn.roland.com/assets/media/pdf/SE-50_OM.pdf),zero extractedlines. [ManualsLib copy](https://www.manualslib.com/manual/1014513/Boss-Se-50.html) exposescontents butselectedpages lackedoriginalbody. No fullmanual/visual verification claimed.
