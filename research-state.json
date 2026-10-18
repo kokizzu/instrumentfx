@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Discovery / required-field follow-up",
-    "task": "Resume fresh Shopee Indonesia series discovery. HX Effects IR import and global reset qualified; P1 concurrency/memory, market asks and other model gaps remain open.",
+    "task": "Saved Zoom V3 firmware/driver prerequisites and live-use fixes. Next fresh exact-model Shopee discovery or another required technical gap; do not repeat rejected aggregate/accessory hits.",
     "next_models": [],
     "after_queue": "374 active models,46 brands,all partial; compatibility migration incomplete; no downloads/workflows/push."
   },
@@ -81478,5 +81478,21 @@
       "site:shopee.co.id \"Korg\" \"AX300B\""
     ],
     "result": "No qualified exact hardware lead. RP355 result855783279/22273291654 and M13 result216990724/6861766207 are power supplies; aggregate G9.2tt hits are adapters. Unrelated VF-1 aircraft items excluded."
+  },
+  "v3_firmware_driver_20261018": {
+    "sources": [
+      "https://zoomcorp.com/documents/3205/V3_System_Software_Version_History_130_en.pdf",
+      "https://zoomcorp.com/documents/3610/V3_Driver_Windows_Software_Version_History_120_en.pdf",
+      "https://zoomcorp.com/ja/jp/news/V3update/"
+    ],
+    "result": "Saved firmware-qualified live freeze/output fixes, host-volume prerequisites and Windows many-logical-processor DAW fixes; not editor support or installed-version verification."
+  },
+  "discovery_bass_vocal_20261018_v3check": {
+    "queries": [
+      "site:shopee.co.id \"Digitech BP90\" efek",
+      "site:shopee.co.id \"Vocalist Live 4\"",
+      "site:shopee.co.id \"Zoom B9\" efek bass"
+    ],
+    "result": "No qualified exact-model hardware listing; unrelated camera/microphone aggregate results not adopted as prices or eligible models."
   }
 }

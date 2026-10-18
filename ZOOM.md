@@ -1510,6 +1510,14 @@ Checked2026-10-18 against [official manual pp.10–14][V3-M],Z2I-3982-02;web tex
 | Conversion / specification conditions | Both24-bit converters use **128× oversampling**; frequency response **20Hz–20kHz,+1/−3dB at10kΩ**. Internal32-bit processing remains distinct from float conversion. [Own specification sheet](https://zoomcorp.com/documents/3158/E_V3_Specifications.pdf) |
 | Power / battery types and USB connector | Own manualpp5,14 explicitly identifies **USB Micro-B** and alkaline,NiMH orlithium AA settings. Match the battery setting for accurate remaining-charge indication; no NiMH/lithium runtime or in-unit charging capability inferred. [Own manual][V3-M] |
 
+### V3 — firmware and Windows driver qualifications, 2026-10-18
+
+| Field | Verified release behavior / limits |
+|---|---|
+| Practical / firmware fixes | [Own firmware history](https://zoomcorp.com/documents/3205/V3_System_Software_Version_History_130_en.pdf): **1.10 (July 2021)** fixes intermittent effect-output loss; **1.20 (June 2022)** fixes freezes after more than 15 minutes with harmony, either pitch-correction mode, unison, octave, deep, child or formant character. Historical fixes do not confirm installed firmware. |
+| USB / host volume | **Firmware1.30 (March 2023)** adds host volume adjustment from Windows with V3 ASIO, Mac, iPhone and iPad. [Japanese announcement](https://zoomcorp.com/ja/jp/news/V3update/) specifies **Windows driver1.1.1 or later**. This is audio volume control, not a patch editor. |
+| Editor / driver / Windows DAWs | [Own ASIO history](https://zoomcorp.com/documents/3610/V3_Driver_Windows_Software_Version_History_120_en.pdf): **1.1.1** host volume requires **firmware≥1.30**; **1.2.0 (June 2023)** fixes unavailable audio I/O or DAW freezes with Ableton Live/PreSonus Studio One on CPUs with many logical processors. No universal DAW compatibility or local test inferred. |
+
 ## V6-SP
 
 Vocal multi-effects with built-in formant pedal. Consolidated/researched2026-10-16; partial verification. Earlier V6 microphone bundle is not the current SP package.
