@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Lexicon MX200",
-    "task": "Added own-manual bass-track basis and mono wet-only dynamics limits. Bass view should be154=35focused+119shared;unique active349. Remaining powerrevision,physicalbuttoncount,displaydetails,newoffer. Next freshdiscovery orotherrequiredgaps.",
+    "model": "DK Master iE-550 discovery",
+    "task": "New exact Shopee leads andmanufacturerproductidentitysaved;notactive. Next inspect originalmanualcandidate/authorship/revision andmanufacturerpage before addingcanonicalrecord. Resolvevariant/condition/stockqualifications.",
     "next_models": [],
-    "after_queue": "349partialmodels;legacyconsolidationincomplete;no downloads/workflows/push."
+    "after_queue": "349partialmodels;154basscomparisons;legacyconsolidationincomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -76293,5 +76293,61 @@
     "membership_change": "Add shared bass membership only;unique active total unchanged",
     "dynamics": "Compressor/De-Esser mono wet-only;parameter ranges recorded",
     "previous_scope_row": "| Instrument scope |Guitar/vocal via mixer or suitable preamp at line level;not direct mic/Hi-Z input. Bass unclassified [MX-M p.1] |"
+  },
+  "discovery_dk_ie550_20261018": {
+    "status": "New exact hardware lead; not active pending original-manual verification",
+    "initial_queries": [
+      "site:shopee.co.id Yamaha FX500 efek",
+      "site:shopee.co.id Yamaha FX550 efek",
+      "site:shopee.co.id Boss SE70 efek"
+    ],
+    "initial_result": "No exact FX500/FX550/SE70 hardware result; unrelated mixer/EQ/adaptor results rejected; IE550 discovered. No market-absence claim.",
+    "manufacturer": {
+      "url": "https://www.dk-music.cn/cn/pd.jsp?id=88",
+      "identity": "Guangdong DK Music Electronic Technology Co.,Ltd.;exact iE-550 product title and manual/app/driver links indexed",
+      "access": "Manufacturer search-index text;directopen timedout",
+      "next": "Resolve original manual link frommanufacturer oridentity-checked manufacturer-authored copy;do not download software"
+    },
+    "offers": [
+      {
+        "url": "https://shopee.co.id/Efek-Gitar-DK-Master-IE-550-Multi-Effects-Processor-DK-IE550-IE550-i.198150809.43800593018",
+        "shop_id": "198150809",
+        "item_id": "43800593018",
+        "seller": "Red Musik Bali",
+        "region": "KotaDenpasar",
+        "idr_display": 1650000,
+        "variation": "3unresolved;notacceptedbareunitprice",
+        "access": "Three-monthsearch,three-weekdirectbody;July6versusSep25deliverybothstale",
+        "condition_stock_bundle": "unverified"
+      },
+      {
+        "url": "https://shopee.co.id/DK-Master-IE-550-White-Multi-Effects-Processor-i.271847827.29935710991",
+        "shop_id": "271847827",
+        "item_id": "29935710991",
+        "seller": "Daily Music Store",
+        "region": "KotaJakartaTimur",
+        "idr_display": 1725000,
+        "variation": "Whitetitle;selectedpackageandhardwarecontentsunverified",
+        "access": "Two-monthindexed;Aug18delivery stale",
+        "condition_stock_bundle": "unverified"
+      },
+      {
+        "url": "https://shopee.co.id/DK-Master-IE-550-Blue-Multi-Effects-Processor-i.271847827.29035707054",
+        "shop_id": "271847827",
+        "item_id": "29035707054",
+        "seller": "Daily Music Store",
+        "region": "KotaJakartaTimur",
+        "idr_display": 1725000,
+        "variation": "Bluetitle",
+        "stock": "Habisonthree-weekindex",
+        "condition_bundle": "unverified"
+      }
+    ],
+    "manual_candidate": {
+      "url": "https://manuals.plus/m/d75e6440d22edb0b8e9ca4aca02e2f40ed21e8107ca28e7d49c5d77165ef344b_optim.pdf",
+      "status": "Notyetread;verifyoriginalcover/revision/authorshipbeforeuse;excludeauto-generatedFAQ"
+    },
+    "retailer_conflicts": "70vs74effects,56vs100drumrhythms,IRslotcountsdisagree. Do notpromote retailernumbers asmanufacturerspecifications.",
+    "next": "Verifyoriginalmanual thenaddrootbrandrecordandallrequiredfields/membership;do notaddcolourvariantsasdistinctmodels withouttechnicalbasis."
   }
 }
