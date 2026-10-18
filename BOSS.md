@@ -996,6 +996,12 @@ Checked 2026-10-16. [Official product](https://www.boss.info/global/products/gt-
 
 Official owner/parameter PDF reopening returned403; mirrors' original body and indexed official tables used, not generated diagrams or FAQs. No downloads or device operation.
 
+### GT-1000CORE — current revision and transition qualifications
+
+Checked2026-10-19. [Own official support](https://www.boss.info/global/support/by_product/gt-1000core/) lists system2.02/ToneStudio4.1.1. [Exact model release history](https://www.boss.info/nl/support/by_product/gt-1000core/updates_drivers/82f27f97-d627-4536-b49c-94b317a2e0ad/) dates2.02 **July2026**: adds PLAY OPTION disabling simultaneous-switch functions; fixes conditional noise during uninterrupted patch changes and built-in-switch MANUAL behavior. **2.01,March2026 removes polyphonic tuner** and fixes seamless-switch condition checking. **1.10,January2022 fixes external-pedal ASSIGN values taking effect at startup**; installed firmware therefore matters to recall assumptions.
+
+These changes do not certify identical FV position,headphone/bypass/tail/looper attenuation or competing patch ASSIGN behavior. Existing SYSTEM FOOT VOL evidence remains qualified. Official eng03 parameter PDF again returned no readable body; exact full current parameter-guide revision mapping remains unresolved. No firmware download/update orhardware test.
+
 ## GX-10
 
 Consolidated and refreshed2026-10-16;partial technical verification. Original dates/contradictions retained. Historical next-model notes below are provenance;current queue is in research-state.json.
