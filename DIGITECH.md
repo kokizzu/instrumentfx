@@ -1017,3 +1017,28 @@ Checked 2026-10-18;partial. [Own manual](https://digitech.com/wp-content/uploads
 
 
 <!-- comparison evidence ends -->
+
+## RP80
+
+Checked2026-10-18;partial. [Manufacturer-linked own manual](https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2024/09/digitech-rp80-manuel-utilisateur-en-30531.pdf),18-0277-A,January2004,32PDF pages,printed pp2–9,14–26 (M). Browser text.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in assignable pedal with heel/toe limits;external/toe-switch support unverified. M |
+| Knobs / footswitches / buttons | **0 /2 /6**:Value2,Edit2,Drums,Store. M |
+| Display | Preset/parameter display and LEDs;diagonal,color,touch unverified. M |
+| Processing / choices | **Up to9 simultaneous**. Pickup2 OR wah3;compressor15 settings;11 amp/distortion entries including Fuzz,plus acoustic;3-band EQ;gate OR swell. Chorus/Mod13 alternatives,one selected;delay3,reverb6. M |
+| Memory | **40user+40factory=80**;users initially duplicate factory. M |
+| Synth / acoustic | Acoustic simulation;full synth unverified. M |
+| Dimensions / mass | **6.3L×8.125W×2H inches**,2.82H pedal-up;**1.34lb**,1.98lb including supply. M |
+| I/O | ¼-inch input;two¼-inch unbalanced outputs,Left mono;⅛-inch stereo headphones;power inlet. M |
+| Power | **6AA orPS200R9VDC;5W maximum;>15h battery**. No power switch. M. [FAQ](https://digitech.com/faqs/) lists PS200R**9.6VDC300mA,center-negative,2.1mm pin**;supply-rating discrepancy retained,not measured draw. USB power unverified. |
+| IR / NAM / capture | User IR,native/converted NAM,captures unverified. |
+| Editor / software | Editor platforms,drivers,audio-interface support unverified. |
+| Looper / drums / scenes | **30patterns**;delay infinite-repeat isnot proof of phrase looper;scenes unverified. M |
+| Used IDR | Unknown;exact Shopee searches returned no qualifying hardware offer. |
+| New IDR | Unknown;seller/item,condition,stock,region,variant,bundle,warranty,voucher unverified. |
+
+<!-- comparison evidence ends -->
