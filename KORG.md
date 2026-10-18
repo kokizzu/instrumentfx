@@ -662,3 +662,46 @@ SYNTH: envelope depth/polarity−10…+10; attack,wave,resonance,mix0…10. WAVE
 <!-- comparison evidence ends -->
 
 [AX3B-M]: https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3000B_E1.pdf&response-content-type=application%2Fpdf%3B
+
+## AX5B
+
+<!-- comparison evidence begins -->
+
+Checked2026-10-18. Dedicated bass multi-effects; distinct from AX5G,AX3B andAX3000B. Partial record. Exact Shopee AX5B/AX5 B searches returned no hardware offer; this does not establish unavailability.
+
+| Field | Evidence / gaps |
+|---|---|
+| Instrument / expression | Bass; built-in expression controls wah,volume orparameters. External EXP/toe mechanism unverified. [Own features][AX5B-F] |
+| K/F/B | Exact rotary/footswitch/button counts unknown; no sibling counts used. |
+| Display | Diagonal,resolution,technology,color,touch unknown. |
+| Dimensions / weight | Own English manual:**249W×143D×44H mm;650g**; French section agrees. German product specs:**178×142×43mm;340g**. Conflict unresolved; manual values preferred,not averaged. [Manual p13][AX5B-M];[German specs][AX5B-S] |
+| Processing / choices | Product advertises57types and**six simultaneous includingNR**. Categories:PRE10,drive/amp16,cab10,MOD10,DLY5,RVB5,NR1=57. Manual countsPRE11 explicitly10+pedalwah1,so its categories sum58. Preserve counting basis; do not treat57/58 as concurrent blocks. [Features][AX5B-F];[Manual p13][AX5B-M] |
+| Factory / user memory | **40preset+40user=80**;initial user fill andwrite protection unverified. [Features][AX5B-F] |
+| Synth / acoustic | Bass synth,Fretless andSlowAttack documented; acoustic simulation andsynth tracking architecture unverified. [Features][AX5B-F] |
+| I/O | Manual:quarter-inch monoINPUT,quarter-inch stereoTRS OUTPUT. Complete rear inventory/control sockets pending. [Manual p13][AX5B-M] |
+| Conversion | AD/DA24-bit;31.25kHz. [Manual p13][AX5B-M] |
+| Power / battery / USB | **9V DC optionaladapter or4AA alkaline,about8hours**. Polarity,current,barrel andUSB operation unknown. Manufacturer listsmanual included; actual seller bundle unknown. [Manual p13][AX5B-M] |
+| IR / NAM / capture | User IR,native/convertedNAM andproprietarycapture import unknown. |
+| Editor / software | Editor/platform/currentOS support unknown. |
+| Looper / drums / live | TunerA0–E6,reference438–445Hz. Looper,drums,scenes,trails/routing unknown. [Manual p13][AX5B-M] |
+| Used IDR / new IDR | **Unknown / unknown**. No exactitem/seller established2026-10-18;condition,stock,region,bundle,warranty,voucher andcheckouttotal unknown. |
+
+### AX5B named product library
+
+| Category | Exact-model product entries |
+|---|---|
+| PRE10 | COMP;LIMITER;XCITER;WAH;VIB/PH;CH/FLN;OCTAVE;FRETLESS;SLOWATK;SYNTH |
+| Drive/amp16 | TUBE OD;FAT DIST;OR DIST;SHRED;FUZZ;OCTFUZZ;VALVE;VALVE2;CLASSIC;SCOOPED;LA STUDIO;GOLD PNL;JAZZ;STUDIO;AC100;UK MAJOR |
+| Cabinet10 | CLASSIC8×10;MODERN4×10;LA4×10;METAL4×10;UK4×12;STUDIO1×15;JAZZ1×15;AC2×15;UK4×15;LA1×18 |
+| MOD10 | CL CHO;MT CHO;CL FLN;BI CHO;DUO PH;TREM;ROTARY;PITCH;RND FILT;FILTRON |
+| Delay5 | ECHO+;MLT HD;MOD DLY;ST DLY;PP DLY |
+| Reverb5 | SLAP;SPRING;PLATE;ROOM;HALL |
+| NR1 | Noise reduction |
+
+[Own feature-page list][AX5B-F]. MOD punctuation is compressed in source; ten names retained without importing AX3000B entries. Original EFG1 manual43PDFpages,English introduction explicitlyAX5B; German introduction printsAX5G,another source identity inconsistency. No PDF download orvisual audit performed.
+
+<!-- comparison evidence ends -->
+
+[AX5B-F]: https://www.korg.com/de/products/effects/ax5b/page_1.php
+[AX5B-S]: https://www.korg.com/de/products/effects/ax5b/page_2.php
+[AX5B-M]: https://cdn.korg.com/us/support/download/files/ce3fdcaa2f36213ab3f032738bc6648f.pdf?response-content-disposition=inline%3Bfilename%3DAX5B_OM_EFG1.pdf&response-content-type=application%2Fpdf%3B

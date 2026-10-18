@@ -1,6 +1,6 @@
 # InstrumentFX — Guitar, Bass and Vocal Multi-effects
 
-**345 active model records · 39 brands · 6 excluded archival models.** All records retain explicit verification gaps; this is not exhaustive market coverage or a current-stock guarantee.
+**346 active model records · 39 brands · 6 excluded archival models.** All records retain explicit verification gaps; this is not exhaustive market coverage or a current-stock guarantee.
 
 Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eligible multi-effects unit the owner has ever owned. Work belongs only in **kokizzu/instrumentfx**. No GitHub Actions workflows,scheduled jobs or background research are part of this project.
 
@@ -9,9 +9,9 @@ Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eli
 | View | Contents |
 |---|---|
 | **[ALL-GUITAR.md](ALL-GUITAR.md)** |287 guitar/acoustic multi-effects, including **Line 6 HX Effects**, compared across hardware, processing, I/O/power/software and separate IDR tables |
-| **[ALL-BASS.md](ALL-BASS.md)** |149 documented bass-capable models: 34 bass-focused plus 115 shared processors, with full comparison tables and explicit capability evidence |
+| **[ALL-BASS.md](ALL-BASS.md)** |150 documented bass-capable models: 35 bass-focused plus 115 shared processors, with full comparison tables and explicit capability evidence |
 | **[ALL-VOCAL.md](ALL-VOCAL.md)** |66 vocal/live mic-path processors across the same four comparison tables; harmony, pitch correction and guitar paths remain distinct |
-| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Short expression/footprint/display comparison of 14 selected profiles; 345 detailed models are root-canonical |
+| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Short expression/footprint/display comparison of 14 selected profiles; 346 detailed models are root-canonical |
 | **[SINGLE-GUITAR.md](SINGLE-GUITAR.md)** |Dedicated synth, acoustic-simulation, vocoder and pitch pedals; separate from active multi-effects |
 | **[SINGLE-BASS.md](SINGLE-BASS.md)** |Bass-related dedicated effects, linked to their complete shared archive |
 | **[SINGLE-VOCAL.md](SINGLE-VOCAL.md)** |Explicitly excluded FV01 and dedicated-vocoder cross-reference, outside vocal multi-effects counts |
@@ -38,7 +38,7 @@ Root navigation links directly to canonical root documents. Historical link spel
 | [BEHRINGER.md](BEHRINGER.md) |Bass V-AMP, Bass V-AMP PRO, V-AMP 2, FX2000, V-AMP 3, FX600 |
 | [TECH21.md](TECH21.md) |Fly Rig 5 v2, Bass Fly Rig v2 |
 | [VOX.md](VOX.md) |ToneLab LE, ToneLab ST, ToneLab SE, StompLab 2B, StompLab 1G, StompLab 2G, ToneLab EX, StompLab 1B |
-| [KORG.md](KORG.md) |PANDORA stomp, AX3000G, AX1500G, AX5G, AX10G, AX1000G, AX3G, AX30G, AX100G, AX10B, AX3000B |
+| [KORG.md](KORG.md) |PANDORA stomp, AX3000G, AX1500G, AX5G, AX10G, AX1000G, AX3G, AX30G, AX100G, AX10B, AX3000B, AX5B |
 | [DIGITECH.md](DIGITECH.md) |RP360XP, RP255, RP500, RP90, RP250, RP1000, RP155, GNX3, GNX4, RP200, RP70 |
 | [BOSS.md](BOSS.md) |GT-1B, GX-1B, ME-90B, VE-1, VE-2, VE-500, VE-22, VE-8, VE-20, GT-1000CORE, GX-10, GT-1, GX-1, ME-90, GX-100, GT-1000, GM-800, GT-100, ME-80, ME-70, ME-25, ME-50, ME-20B, GT-10, GT-8, ME-20, GT-6, VE-5, Pocket GT, ME-50B, GT-5, ME-30, ME-8, GT-3, KATANA:GO, AD-10, ME-5, GT-001, AD-8, SE-50, GT-10B, MS-3 |
 | [HEADRUSH.md](HEADRUSH.md) |MX5, Core, Flex Prime, Prime, Gigboard, Pedalboard, VX5 |
@@ -64,7 +64,7 @@ Root navigation links directly to canonical root documents. Historical link spel
 | [SONICAKE.md](SONICAKE.md) |Matribox QME-50, Smart Box QME-20, Pocket Master QME-10, Matribox II QME-100, Matribox II Pro QME-200, Sonic Wood QCE-50, Black Hammer QCE-30, RockStage QCE-10, Levitate QDS-02, B Factory QDS-05, A Factory QDS-04 |
 | [M-VAVE.md](M-VAVE.md) |TANK-G, TANK-B, TANK MINI, MK-20, MK-300, TANK-PRO, ANN Blackbox, MINI-X, Pocket Amp, CUBE BABY electric, CUBE BABY AC, CUBE BABY BASS |
 
-All recorded models are compared in their applicable instrument pages, with full-record links. All 345 recorded models have root brand sections. Legacy content preservation and local navigation checks have passed; compatibility paths remain and technical/market verification is incomplete. The comparison-table rebuild does not certify all fields or finish that migration. Do not create a new dated finding, progress part or document under `effects/`.
+All recorded models are compared in their applicable instrument pages, with full-record links. All 346 recorded models have root brand sections. Legacy content preservation and local navigation checks have passed; compatibility paths remain and technical/market verification is incomplete. The comparison-table rebuild does not certify all fields or finish that migration. Do not create a new dated finding, progress part or document under `effects/`.
 
 ## Research saved in the current pass
 
@@ -88,7 +88,7 @@ All model records separate knobs/footswitches/buttons,expression,used/new IDR,si
 
 The inventory includes113 recovered models, the four initial additions, newer FX150/Cerberus/Sonic Wood commits and GP-200JR. Older96/104/117 counts and old cursors in legacy files are stale. The BOSS guitar display/IDR first pass was already saved; six original comparison groups still have unfinished corresponding work. A first pass is not full verification.
 
-**Organization migration is incomplete:** 345 detailed models are root-canonical; 0 still rely on legacy source records. The instrument pages are now actual comparisons, not navigation-only indexes, but they do not replace lossless brand consolidation. Dedicated-effect archives were moved with full facts, dates, URLs and contradictions preserved; their old section anchors redirect to the root SINGLE-* pages. All 117 legacy paths are retained as compatibility redirects or JSON pointers: 13 metadata pages, 100 technical pages, one previously redirected excluded archive and three JSON snapshots. Their complete content is preserved in root documents/ledger and pinned Git history. Local navigation and original heading anchors have been audited; compatibility files remain, so the overall migration is not marked complete. Technical verification and market discovery remain incomplete.
+**Organization migration is incomplete:** 346 detailed models are root-canonical; 0 still rely on legacy source records. The instrument pages are now actual comparisons, not navigation-only indexes, but they do not replace lossless brand consolidation. Dedicated-effect archives were moved with full facts, dates, URLs and contradictions preserved; their old section anchors redirect to the root SINGLE-* pages. All 117 legacy paths are retained as compatibility redirects or JSON pointers: 13 metadata pages, 100 technical pages, one previously redirected excluded archive and three JSON snapshots. Their complete content is preserved in root documents/ledger and pinned Git history. Local navigation and original heading anchors have been audited; compatibility files remain, so the overall migration is not marked complete. Technical verification and market discovery remain incomplete.
 
 ## Scope and ownership
 
