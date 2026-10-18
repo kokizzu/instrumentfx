@@ -624,6 +624,13 @@ Checked2026-10-18 against the [own EFG1 manual](https://cdn.korg.com/us/support/
 | Category choices / TALK modes | **5 nested modes**: YAH-YAH, U-WAH, YOI-YOI, YEAH, HI U-WAH. These belong to one TALK choice within the eleven-entry MOD category; they are not five additional independently insertable effects. |
 
 
+### AX10B — slap timing and noise-reduction limit
+
+| Field | Manufacturer manual finding |
+|---|---|
+| Live / SLAP timing | SLAP delay time is **one quarter of the interval between TAP presses**, with a published **250 ms maximum**. Its tap interval is not the resulting delay time; this does not establish MIDI synchronization or a looper. [Own EFG1 manual p12](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
+| Processing / noise-reduction cutoff | Excessive NR can **cut off notes**, depending on the connected equipment; the manual recommends reducing NR in that case. This is a documented operating limit, not a measured threshold or automatic note-tracking guarantee. [Own EFG1 manual p12](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
+
 ## AX3000B
 
 <!-- comparison evidence begins -->

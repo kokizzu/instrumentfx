@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Required fields / fresh discovery",
-    "task": "708II patch-linked media wording conflicts documented. Move to another model required-field gap or another Shopee series; B2 FOUR seller leads remain deferred without exact IDs, and A2 stays non-active.",
+    "task": "AX10B SLAP timing and NR cutoff limit saved. Continue another recorded-model required-field gap or fresh Shopee series; B2 FOUR catalogue leads remain deferred without item IDs.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -79149,5 +79149,12 @@
     "destination": "ZOOM.md#708ii",
     "scope": "Patch synchronization and conflicting trigger wording preserved; no hardware operation.",
     "remaining": "Ending/sample automatic-trigger behavior requires stronger exact-model evidence."
+  },
+  "korg_ax10b_timing_nr_20261018": {
+    "source": "https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf",
+    "printed_page": 12,
+    "destination": "KORG.md#ax10b",
+    "scope": "Exact-model SLAP timing ratio and NR cutoff warning verified; no device operation.",
+    "remaining": "Power draw, conversion format, display details, software and qualified Indonesian offer remain unresolved."
   }
 }
