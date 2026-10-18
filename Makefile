@@ -1991,3 +1991,7 @@ research-gaps-apply:
 	python3 scripts/research_gaps.py apply
 research-gaps-commit:
 	python3 scripts/research_gaps.py commit
+
+.PHONY: research-commit-yamaha
+research-commit-yamaha:
+	python3 scripts/yamaha_catalogue.py commit

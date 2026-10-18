@@ -443,3 +443,29 @@ Checked2026-10-18 against original Yamaha manual,printedp23. Documentation only;
 <!-- comparison evidence ends -->
 
 [DGS-M]: https://usa.yamaha.com/files/download/other_assets/7/313717/dgstomp_en.pdf
+
+## AG-Stomp
+
+Distinct acoustic-guitar multi-effects, checked 2026-10-18; partial. [Manufacturer manual](https://usa.yamaha.com/files/download/other_assets/1/313701/agstomp_en.pdf), printed pp6–11,21,29. Bass/vocal membership unclassified; microphone simulation does not establish a live microphone input.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | External EXP PEDAL supports FC-7 and parameter control. Built-in/toe support unverified. |
+| K/F/B | **15 /4 /17 front-panel buttons**; rear power, MUTE and guitar-supply switches additional. Published census, not a visual count. |
+| Display | **Three-digit seven-segment LED**; diagonal, emission color and touch unverified. |
+| Processing / categories | Eight microphone simulations; limiter; five simultaneous notch filters; chorus **or** delay; Hall/Room/Plate reverb. Overall concurrency ceiling unverified. |
+| Memory | **30 preset+30 user positions**; original factory fill of user positions unverified. |
+| Synth / acoustic | Acoustic microphone simulation; dedicated synth and electric-to-acoustic conversion unverified. |
+| Dimensions / mass | **280W×184D×70H mm;2.2kg**. |
+| I/O | Stereo-phone INPUT; balanced TRS L/MONO and R outputs; stereo-phone PHONES and EXP; coaxial DIGITAL OUT; five-pin MIDI IN/OUT. Socket diameters and complete absence audit pending. |
+| Power | **AC-10:12V AC,1A;15W consumption**. This is AC, not center-negative DC. Battery/USB operation unverified. |
+| IR / NAM / capture | User IR, native/converted NAM and capture import unverified; microphone modeling is not proof. |
+| Editor / data | MIDI bulk storage/restore documented; full editor/platforms, USB audio and drivers unverified. |
+| Looper / practical | Chromatic tuner; headphone connection retains analog/digital outputs. Digital output is **44.1kHz** and unaffected by OUTPUT knob. Looper/drums/scenes unverified. |
+| IDR price | No qualified exact Shopee offer from AG Stomp/AG-Stomp/AGSTOMP searches,2026-10-18. Used/new amount,seller/item,condition,stock,region,bundle,warranty and vouchers unknown. Limited search does not prove market absence. |
+
+<!-- comparison evidence ends -->
+
+Original Yamaha-hosted PDF read as browser text; no file downloaded, device operated or software installed. Do not borrow DG-Stomp specifications. Detailed expression mappings, patch initialization and full physical inventory remain to verify.
