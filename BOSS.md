@@ -2576,6 +2576,18 @@ Checked2026-10-18 against [original manual pp9–11][M50B-M].
 | Processing / FILTER-TONE coverage | Eleven alternatives comprise three envelope-wah variants,two octave directions,volume swell,fretless simulation,enhancement,low boost,mid scoop andacoustic-electric bass body resonance. Onlyone is selected at atime. Wah variants differ in sweep direction/strength;the octave choices retain the previously documented single-note restriction. |
 | Synth / fretless distinction | DEFRETTER explicitly simulates fretless-bass character from a conventional bass;HOLLOW instead adds acoustic-electric body resonance. Neither establishes general guitar-to-acoustic simulation,a sample library oruser IR loading. |
 
+
+### ME-50B — tapped delay, saved level and recording standby
+
+Checked 2026-10-18 against [original manual printed pp.7, 16–17][M50B-M]. Text inspection only; no unit operation.
+
+| Field | Finding / qualification |
+|---|---|
+| Delay / tap versus saved range | ANALOG DLY, 0–400 ms DLY, 300–1400 ms DLY and CHO+DELAY support tapped intervals **62–1400 ms**. On Write, delay time is clamped to the selected type’s knob range: 600 ms in 0–400 mode saves as400; 200 ms in 300–1400 saves as300. This is distinct from dotted-eighth tap delay. |
+| Effects / modulation tempo | PHASER, FLANGER and CHORUS support tapped cycles **62–2000 ms**. Moving TIME/RATE after tapping restores the knob-defined interval/rate. These are cycle periods, not delay lengths or a BPM specification. |
+| Memory / master level | **MASTER LEVEL is saved per patch**. With all effects off, its midpoint provides matching input/output levels; excessive level can distort. Do not treat this knob as a necessarily global volume independent of patch recall. |
+| Looper / preparation and quantization | HOLD DLY requires **2.8 seconds** to enter recording standby after selection or restart. With Kick Drum running, tap/record length is quantized and the kick is recorded into HOLD DLY; pedal movement cannot subsequently change that recorded kick level. |
+
 <!-- comparison evidence ends -->
 
 Searches for ME-50B, ME50B and ME 50B on 2026-10-17 did not resolve exact Shopee Indonesia hardware. Foreign accessory matches do not establish a hardware price or Indonesian stock. Seller/item, condition, variant, region, bundle, warranty, voucher and current availability remain unknown. This is a search limitation, not proof of market absence.

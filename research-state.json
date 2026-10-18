@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh discovery / other required model gaps",
-    "task": "Anagram mixer, input-gain memories and version-qualified persistence saved. USB direction and1.18 multi-area addressing remain unproven; do not repeat unchanged PDF searches or import sibling mappings. Continue fresh eligible Shopee series or another readable model-specific manual.",
+    "model": "Fresh bass hardware discovery / required gaps",
+    "task": "ME-50B delay-write clamping, per-patch Master and HOLD DLY limits saved. Next seek exact Shopee ME-50B/other unrecorded bass hardware with new series queries or resolve connector sizes from exact primary evidence.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -45864,7 +45864,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery / other required model gaps."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh bass hardware discovery / required gaps."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -78589,5 +78589,12 @@
     "saved": "Master mute linked outputs only; per-output/stereo links; six input-gain slots, analog positive/digital negative gain; tuner/tempo ranges;1.18.1 numpad persistence and wrong-area save fixes",
     "unresolved": "USB3in/9out host direction, multi-area MIDI addressing and126/127 conflict. Exact current manual landing only repeats old PDF and1.18.1 block list; no resolved area schema.",
     "next": "Fresh eligible Shopee hardware discovery or other model required gaps; revisit Anagram USB/areas only with new version-specific documentation."
+  },
+  "me50b_tap_memory_20261018": {
+    "source": "https://static.roland.com/assets/media/pdf/ME-50B_OM.pdf",
+    "pages": "Printed7,16–17",
+    "saved": "Tapped delay versus write-clamped type range; modulation period bounds; per-patch master level; HOLD DLY standby and recorded-kick limitation",
+    "remaining": "Physical controls visual corroboration, full connector diameters and qualified exact Shopee hardware. No numerical concurrency ceiling inferred.",
+    "next": "Fresh bass-model Shopee discovery or another required-field gap; avoid repeating already documented ME50B tap behavior."
   }
 }
