@@ -1997,7 +1997,7 @@ Checked2026-10-18;partial. Original model,not Ocean Machine II. Independent dela
 | Expression | External expression/switch inputs; no built-in treadle documented. Toe compatibility unknown. [OM-P] |
 | K/F/B | **16 rotary /3 footswitches /4 buttons**,manual-text count:12parameter controls,3type selectors,Menu;Reverb/DelayA/DelayB foot controls;Back,Setting,Store,Mode buttons. Menu push additional;visual corroboration pending. [OM-M pp1–2] |
 | Display | LCD menu;diagonal,color,touch unknown. [OM-P] |
-| Processing / choices | **Two independent delays plus reverb**,programmable order;15delay types,9reverbs. Delay0–2s,ping-pong,freeze,shimmer. Per-engine selector distribution/unique counts pending;not15simultaneous delays. [OM-P] |
+| Processing / choices | **Two independent delays plus reverb**,programmable order;15delay types,9reverbs. Delay0–2s,ping-pong,freeze,shimmer. Original manual lists **9choices perdelay**,withDigital/Analog/Tape shared: **15distinctdelay names acrossA/B**,not15choices freely available ineachengine or15simultaneous delays. [OM-P,OM-M pp9–10] |
 | Factory / user memory | **24spaces=8×3**;factory-filled/protected split unknown. [OM-P] |
 | Synth / acoustic | Dedicated synth/acoustic simulation unverified. |
 | Dimensions / mass | **215D×127W×56Hmm;1.1kg** global versus **1.09kg** regional. Preserve rounding/edition distinction. [OM-P,OM-C] |
@@ -2023,3 +2023,13 @@ Own product pages andoriginalmanufacturer-authored manual text used;no II-specif
 [OM-S]: https://shopee.co.id/mooer-ocean-machine-pedal-delay-reverb-looper-devin-townsend-signature-i.166558154.55057589905
 
 [OM-M]: https://medias.audiofanzine.com/files/mooer-ocean-machine-manual-480472.pdf
+
+### Original Ocean Machine — expression, storage and looper view, 2026-10-18
+
+[Own EN_V01 manual][OM-M],printedpp9–14,17. Text evidence only;noapp/device operation.
+
+| Field | Documented behavior / qualification |
+|---|---|
+| Expression / wiring and recall | External pedal uses **TRS stereo cable**. One selected parameter andheel-down minimum percentage areconfigured underExp;assignment is **global andcannot change per preset**. Potentiometer resistance,polarity wiring andtoe-switch support remain unverified. |
+| Memory / storing | Store a sound fromPlay orPatchControl,select destination withMenu,then confirm withthe save control;Back cancels. This establishes writable preset storage,not an additional protectedbank orfactory-filled count. Manual frontpanel calls thebuttonStore;procedure callsitSave,not anextra physicalbutton. |
+| Looper / view persistence | Press DelayA+DelayB to movebetween looper andcurrentoperation screens **whiletheloop remainsrunning**. Menu adjusts loop playback level independently ofmastermix. This doesnot establish power-off retention orloop survival acrosspreset changes. |

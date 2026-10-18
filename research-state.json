@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER Ocean Machine original",
-    "task": "Saved originalmanual16/3/4textcount,completeports andexternalMIDIupdaterdistinction. Next delayA/Bselectorinventory,expressionwiring,memory/looplimits fromsameoriginalmanual;noIIborrowing.",
+    "task": "Saved9choicesperdelay/15union,globalTRSexpression andwritablepreset/loopviewlimits. Next ownmanualMergeversusTrail,receive-onlyMIDIchannel anddisplayevidence;factoryfill/installedfirmwareunknown.",
     "next_models": [],
     "after_queue": "355 partial models;296 guitar156 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
@@ -77869,6 +77869,26 @@
       "Factoryfill",
       "Looperretention",
       "Displaydetails"
+    ]
+  },
+  "ocean_original_choices_expression_20261018": {
+    "source": "https://medias.audiofanzine.com/files/mooer-ocean-machine-manual-480472.pdf",
+    "revision": "TDL3 EN_V01",
+    "printed_pages": [
+      "9–14",
+      "17"
+    ],
+    "findings": [
+      "9delaychoicesperengine;3shared=15distinctnamesacrossA/B,not15each.",
+      "ExpressionTRScable/globalassignment/heelminimum;toe/potresistanceunknown.",
+      "WritablepresetsSaveprocedure;Store/Savenamevariationnotextrabutton.",
+      "Loopcontinuesacrossviewexit;poweroff/presetchangeunknown."
+    ],
+    "remaining": [
+      "Factoryfilledcount",
+      "Displaydiagonal/touch",
+      "Detailedbypass/trails/MIDIlimits",
+      "Expressionresistance/wiring"
     ]
   }
 }
