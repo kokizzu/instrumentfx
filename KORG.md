@@ -259,6 +259,16 @@ Korg links the four-page AX5-Series EasyStart directly from AX5G support. Its fi
 | Memory / program level and startup | Program level0.0–10, standard5.0; lower it if effects clip. This differs from master volume, controlled by the value knob in Program mode. Power-on enters Program mode regardless of selector position; arrow buttons step programs by10 there. | [Manual pp5–9][AX5-M] |
 | Memory / reload confirmation | Power on holding Program Up + Down + CANCEL; release when Reload appears. WRITE begins overwriting user work and cannot then be cancelled; CANCEL works before confirmation. Do not interrupt loading. Display glyph shapes remain unverified. | [Manual p12][AX5-M] |
 
+### AX5G — named modulation and time-effect choices
+
+Checked2026-10-18 against [own manual,printed pp.52–54][AX5-M]. Text only;no download or hardware operation.
+
+| Field | Finding / qualification |
+|---|---|
+| Processing / modulation choices | **F0–F9,ten choices**: Classic Chorus,Multi Tap Chorus,Classic Flanger,Bi Chorus,Duo Phaser,Textrem,Rotary,Pitch Shifter,Random Step Filter,Filtron. The preset legend explicitly expands **RND FILT** as Random Step Filter;the regional list’s separated RND/FILT does not establish an eleventh algorithm. |
+| Processing / delay-reverb shared slot | **F0–F9**: Echo+,Multi Head Echo,Modulation Delay,Stereo Delay,Pingpong Delay,Slap,Spring,Plate,Room,Hall. These occupy one DELAY/REVERB category;five delays plusfive reverbs do not mean independent simultaneous delay andreverb blocks. |
+| Expression / pitch and filter limits | Pitch Shifter pitch −12…+12,with separate Fine −15…+15 whose units are unspecified here. At DEPTH10,MANUAL hasno effect forClassic Chorus,Classic Flanger andFiltron. ForFiltron MANUAL pedal control,the guide recommends DEPTH0 ornear0. |
+
 ## AX10G
 
 Guitar multi-effects, distinct from AX10B/AX10A. Checked2026-10-17; partial. Bass/vocal suitability and ownership unverified. Korg lists discontinued/sold out.

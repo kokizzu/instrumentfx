@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP250",
-    "task": "RP250 own-row editor version mapping saved. Continue another manufacturer gap or fresh brand/series Shopee hardware lead;do not repeat accessory-only Digitech RP350/RP355/RP2000/RP80/RP55/RP300 searches without a new lead.",
+    "model": "Korg AX5G",
+    "task": "AX5G named modulation/time-effect choices and parameter limits saved. Seek another fresh Shopee brand/series lead or manufacturer gap;AX300G/AX1G/AX5B searches returned no indexed results.",
     "next_models": [],
     "after_queue": "342 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -45545,7 +45545,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP250."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX5G."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -72920,5 +72920,30 @@
     ],
     "result": "No exact processor offer established;adapter and irrelevant category results are not hardware availability. No models admitted.",
     "rejected": "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-RP350-RP355-RP300-PSU-i.855783279.22273291654"
+  },
+  "ax5g_named_choices_20261018": {
+    "source": "AX5-M in KORG.md",
+    "printed_pages": "52–54",
+    "checked": "2026-10-18",
+    "findings": [
+      "RND FILT is one Random Step Filter choice;ten modulation algorithms.",
+      "Ten delay/reverb choices share one slot.",
+      "Pitch range and Filtron Manual/Depth interaction qualified."
+    ],
+    "remaining": [
+      "power polarity/current",
+      "display specifications",
+      "dimensions/mass conflict",
+      "58 versus57 total conflict"
+    ]
+  },
+  "discovery_korg_legacy_20261018": {
+    "queries": [
+      "site:shopee.co.id \"Korg\" \"AX300G\"",
+      "site:shopee.co.id \"Korg\" \"AX1G\"",
+      "site:shopee.co.id \"Korg\" \"AX5B\""
+    ],
+    "checked": "2026-10-18",
+    "result": "No indexed results returned;no hardware availability or unavailability conclusion. No models admitted."
   }
 }
