@@ -4198,7 +4198,7 @@ Checked2026-10-18. Discontinued guitar multi-effects;100 effects/amp models. His
 | Dimensions / weight | 130.3D×77.5W×58.5Hmm;360g. | [Manual][M100BT-M] p37 |
 | Processing / memory | 100 types;6 simultaneous,limited byDSP. Over-budget effect bypassed;DSP Full warning. 50 writable patches;factory-filled count unresolved. | [Manual][M100BT-M] pp2,11–12,37 |
 | Category choices | Derived original-manual census: DYN/FLTR20,OD/DIST21,AMP8,MOD/SFX29,DLY/REV22 =100. Includes utility LineSel;not100 simultaneous blocks or current StompShare inventory. | [Manual][M100BT-M] pp26–33 |
-| Synth / acoustic | Aco.Sim models acoustic-guitar tone;MonoSynth is single-note synthesis;Z-Organ simulates organ. Polyphonic synthesis unverified. Bass tuner mode alone does not qualify bass processing. | [Manual][M100BT-M] p38 |
+| Synth / acoustic | Aco.Sim models acoustic-guitar tone;MonoSynth is single-note synthesis;Z-Organ simulates organ. Polyphonic synthesis unverified. Bass tuner mode alone does not qualify bass processing. | [Manual][M100BT-M] pp28,31,38 |
 | I/O | Mono-phone input/output sockets;MONO connections andstereo-input operation described. Complete physical socket count pending. Input1MΩ,−20dBm nominal;output+5dBm maximum into≥10kΩ. | [Manual][M100BT-M] pp6,37 |
 | Conversion | 44.1kHz;24-bit AD/DA128×oversampling;32-bit float+fixed processing. | [Manual][M100BT-M] p37 |
 | Power / battery | AD16:9VDC center-negative,500mA supply rating,not device draw. **Conflict:**safety p4 says4AA;spec p37 says2AA alkaline,~7h mono/~5h stereo. | [Manual][M100BT-M] pp4,37 |
