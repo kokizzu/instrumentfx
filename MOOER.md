@@ -1976,6 +1976,10 @@ NAM followup found explicit native/converted distinctions for other MOOER famili
 | NAM / mobile restriction | Same release assigns mobileNAM-A2lite fileimport specifically toP2/M2. S1’s separate2026-09-21 desktopA2-loading announcement doesnotestablish mobileimport,arbitrary.nativeNAMcompatibility orconversionworkflow. |
 
 
+### Prime S1 — direct analog expression screen
+
+Checked2026-10-19. [Manufacturer-authored S1 manual, printed pp4–7,12](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_P_S1_BK_Manual_EN.pdf), exact model/layout; revision remains unprinted. Complete connector inventory has instrument input, L/R outputs, dedicated3.5mm phones and USB; **no analog EXP input**. Direct-pedal volume across presets fails; direct-EXP position/min/max/bypass/headphone/tail/loop coverage is inapplicable. Wireless expression remains unverified. Manual70.2W×240Dmm exceeds preferred depth; rotating the housing still leaves240mm beyond preferred width. Preset workflow is bank pairs thenA–D, not documented sequential patch down/up. Previously preserved English/Japan bank-direction conflict remains unresolved. Master knob and app mixer are not direct expression assignment. No hardware test, firmware installation or stock refresh.
+
 ## Ocean Machine II
 
 Checked 2026-10-18; partial active guitar multi-effects record. Original Ocean Machine is a distinct revision.

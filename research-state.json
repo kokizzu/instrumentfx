@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "MOOER Prime P2 direct analog connector audit",
-    "finding": "Exact P2 complete manual inventory has MIDI but no analog EXP. Fits recorded64W×120Lmm; dedicated headset/phones; touchscreen and external F-series are not onboard foot-operated navigation.",
+    "current": "MOOER Prime S1 direct analog connector audit",
+    "finding": "Complete S1 manual connector inventory has no analog EXP.70.2W×240Dmm fails preferred footprint. Dedicated phones; bank pairs thenA–D with retained English/Japan direction conflict.",
     "next": [
-      "Systematic remaining compact no-treadle inventory: MOOER Prime S1 exact direct analog EXP capability",
+      "Priority follow-up: Line 6 POD Express Black exact manufacturer dimensions and exact Shopee Indonesia hardware offer",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
@@ -122593,7 +122593,7 @@
       "date": "2026-10-19",
       "source_commit": "87c7d3816a380ddc49e3af2b2441564f454f87d7",
       "scope": "Normalized inherited source checks without recertification or admitting partial leads; exact prior merged category preserved in public_metadata.remote_87c7d38_preserved.expression_category_before_normalization.",
-      "comparison_rows": 43,
+      "comparison_rows": 44,
       "adjacent_rows": 1,
       "active_inventory_changed": false
     },
