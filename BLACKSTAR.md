@@ -47,3 +47,37 @@ Counts use manual256401M-VA-1 01/26 text,not physical inspection. Pre FX include
 | Editor / Architect2.0.0 requirements | The manufacturer-hosted [Architect2.0.0 handbook](https://blackstaramps.com/wp-content/uploads/2025/07/ARCHITECT-HANDBOOK-2-0-0.pdf) is indexed with **64-bit Windows**,Pentium4 2GHz/equivalent or faster, and **macOS10.15+**;both list1GB RAM,1GB free disk and1366×768 minimum display. Internet is specified for community access. These are **general version2.0.0 requirements**,not proof that this release recognizes ID:X Floor or that every later OS is tested. Exact Floor minimum editor release and Windows version remain unknown. |
 
 Direct handbook reading returned403; requirements above come from the manufacturer PDF search excerpt. The older1.0.0 handbook instead lists macOS10.9+,a different software edition,not a reason to lower the2.0.0 requirement. Neither editor requirement defines the unit display resolution,USB sample format,or driver compatibility. No installer,driver or firmware was downloaded or run.
+
+
+## ID:X Floor One
+
+Checked2026-10-18; partial. Separate from Two/Three; ownership unverified. Manufacturer-authored family manual [O1M], revision256401M-VA-1 01/26, explicitly names One on cover/front/rear/specification pages; retailer mirror, text only. No visual inspection or files downloaded.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression | No built-in pedal/toe; external expression unverified. [O1M pp2,16] |
+| K/F/B | **10 rotary /3 footswitches /8 buttons**, text-derived:8 amp/voice/master rotaries,2 encoders;patch down/up,tap;voice mode,manual,shift,CabRig,4 effect buttons. Encoder pushes and Response switch separate; visual audit pending. [O1M pp11–17] |
+| Display | OLED; diagonal/color/touch unknown. [O1M] |
+| Dimensions / mass | **215×68×155mm**, axes unstated; **1.33kg**. [O1M p30] |
+| Blocks / category choices | Four simultaneous blocks: Pre FX15,modulation10,delay5,reverb5 appendix choices;35 choices,not35 simultaneous blocks. Amp,CabRig,gate separate. [O1M pp19,27–29] |
+| Factory / user memory | **99 writable=33×3**; initial factory fill/protected split unknown. [O1M p22] |
+| Synth / acoustic | 12 guitar,3bass,3acoustic voices including acoustic simulation; synth unverified. [O1M pp10,14] |
+| I/O | Quarter-inch input,To Amp,CabRig stereo phones/line;two XLR outputs;3.5mm line/streaming TRRS,MIDI IN,USB-C,DC. No FX loop/MIDI THRU;Three-only. External EXP socket not documented. [O1M pp17–19] |
+| USB audio | Four to host:wetL/R,dry,preamp;two playback returns. Format unknown. [O1M p18] |
+| Power / battery / USB | **9VDC500mA centre-negative supply requirement**,not measured draw. Battery/USB operation unknown. [O1M p19] |
+| IR / NAM / captures | CabRig emulation; user IR,native/converted NAM,capture imports unverified. [O1M] |
+| Editor / software | Architect editing/backups; Windows audio driver account-gated. Exact editor release,OS and driver compatibility unknown. [O1M pp18,22] |
+| Looper / drums / live | Bypass delay/reverb tails documented; patch-change continuity,looper/drums unknown. [O1M p21] |
+
+### Separate IDR evidence
+
+| Field | Evidence / qualification |
+|---|---|
+| IDR verified used | Unknown. |
+| IDR verified new | Unknown. |
+| IDR condition-unverified indexed ask | **Rp3.720.000**, crossed-outRp4.650.000; galerimusikjakarta,shop239804186/item41879047036,Kota Jakarta Utara. Exact title Multi FX Effect Blackstar IDX Floor One. [O1S] Direct text available from two-month cache,checked2026-10-18. Condition,stock,selected variant,working state,bundle/adapter,warranty,vouchers,shipping/tax/checkout unknown. Relative same-day delivery and late-arrival voucher do not prove stock or a hardware discount. Not a completed sale. |
+
+Unresolved fields above remain open; no specifications transferred from Three. General Architect2.0.0 requirements elsewhere in this document do not establish Floor One recognition or its minimum release. Factory-reset documentation does not establish how many slots initially contain factory sounds.
+
+[O1M]: https://www.kirstein.de/docs/manuals/00118929/manual_EN.pdf?h=2b60f8933d3a40a7df062be52bf93b84
+[O1S]: https://shopee.co.id/Multi-FX-Effect-Blackstar-IDX-Floor-One-i.239804186.41879047036

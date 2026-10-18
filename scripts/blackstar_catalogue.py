@@ -14,4 +14,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add', '--', *sorted(changed))
     print(git('diff', '--cached', '--stat'))
-    print(git('commit', '-m', 'research(blackstar): qualify Architect platform requirements by edition'))
+    print(git('commit', '-m', 'research(blackstar): add distinct Floor One guitar and bass profile'))

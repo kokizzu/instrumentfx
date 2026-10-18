@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 355,
+  "active_model_count": 356,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 355,
+  "canonical_root_model_count": 356,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "355 unique active/root-canonical;0 legacy-only;41 brands;six excluded;all partial.",
+  "count_reconciliation": "356 unique active/root-canonical;0 legacy-only;41 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "MOOER Ocean Machine original",
-    "task": "Saved MergeversusTrail,channel1receive-onlyMIDI versusTHRU andredborderevidence. Next otherrequiredmodelgaps/freshShopeediscovery;factoryfill,resetitemization,loopretention/displaydiag remainunverified.",
+    "model": "Blackstar ID:X Floor One",
+    "task": "Saved own-model hardware profile and exact Shopee ask. Next verify Floor-compatible editor version, factory fill and display; otherwise fresh Shopee discovery for unrecorded eligible hardware.",
     "next_models": [],
-    "after_queue": "355 partial models;296 guitar156 bass69 vocal; migration incomplete; no downloads/workflows/push."
+    "after_queue": "356 partial models;297 guitar157 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24418,6 +24418,12 @@
       "condition": "unknown",
       "stock": "unknown",
       "access": "3weekdirectcache/2monthsearchcache;notlivecheckout"
+    },
+    {
+      "model": "Blackstar ID:X Floor One",
+      "status": "Partial canonical guitar+bass record admitted",
+      "checked_date": "2026-10-18",
+      "evidence_key": "blackstar_floor_one_20261018"
     }
   ],
   "inventory_by_brand": {
@@ -24856,7 +24862,8 @@
       "iE-350"
     ],
     "Blackstar": [
-      "ID:X Floor Three"
+      "ID:X Floor Three",
+      "ID:X Floor One"
     ]
   },
   "root_brand_content": {
@@ -25295,19 +25302,20 @@
       "iE-350"
     ],
     "BLACKSTAR.md": [
-      "ID:X Floor Three"
+      "ID:X Floor Three",
+      "ID:X Floor One"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 296,
+      "record_count": 297,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 156,
+      "record_count": 157,
       "bass_focused_record_count": 35,
-      "shared_bass_capable_count": 121,
+      "shared_bass_capable_count": 122,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -25330,10 +25338,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 296 guitar, 156 documented bass-capable, 69 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 297 guitar, 157 documented bass-capable, 69 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "355 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "356 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -45747,18 +45755,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 355,
-    "canonical_root_models": 355,
+    "unique_brand_model_pairs": 356,
+    "canonical_root_models": 356,
     "legacy_only_models": 0,
-    "guitar_view_models": 296,
+    "guitar_view_models": 297,
     "bass_focused_models": 30,
     "vocal_only_models": 24,
     "vocal_view_models": 69,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 156,
-    "bass_shared_models": 121,
+    "bass_view_models": 157,
+    "bass_shared_models": 122,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -45823,7 +45831,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER Ocean Machine original."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Blackstar ID:X Floor One."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -46122,7 +46130,8 @@
       "Ammoon::PockRock",
       "DK::iE-550",
       "DK::iE-350",
-      "Blackstar::ID:X Floor Three"
+      "Blackstar::ID:X Floor Three",
+      "Blackstar::ID:X Floor One"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -46280,7 +46289,8 @@
       "Soran::Dual Stomp Lite",
       "Darkglass::Anagram",
       "DK::iE-350",
-      "Blackstar::ID:X Floor Three"
+      "Blackstar::ID:X Floor Three",
+      "Blackstar::ID:X Floor One"
     ],
     "ALL-VOCAL.md": [
       "Audota::AVE-100",
@@ -46355,6 +46365,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Blackstar::ID:X Floor One": "Own family manual256401M-VA-1 01/26 explicitly names One and lists three bass voices/input use. https://www.kirstein.de/docs/manuals/00118929/manual_EN.pdf?h=2b60f8933d3a40a7df062be52bf93b84",
     "Blackstar::ID:X Floor Three": "Own manual256401M-VA-1 01/26 lists three bass voices and guitar/bass/acoustic input use. https://www.kirstein.de/docs/manuals/00118929/manual_EN.pdf?h=2b60f8933d3a40a7df062be52bf93b84",
     "DK::iE-350": "Own manufacturer manual pp11–12 lists bass drive,amp/cabinet models andbass chorus. Not inferred from EQ or sibling iE550. https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=12",
     "Lexicon::MX200": "Own manufacturer guide p19 explicitly documents bass-track compression. Use suitable line-level preamp/mixer or recorded-track routing; not direct passive-bass input proof. https://lexiconpro.com/en-US/product_documents/mx200manual_bpdf",
@@ -49122,6 +49133,13 @@
     },
     "Blackstar::ID:X Floor Three": {
       "link": "BLACKSTAR.md#idx-floor-three",
+      "source_files": [
+        "BLACKSTAR.md"
+      ],
+      "finding_files": []
+    },
+    "Blackstar::ID:X Floor One": {
+      "link": "BLACKSTAR.md#idx-floor-one",
       "source_files": [
         "BLACKSTAR.md"
       ],
@@ -77911,6 +77929,37 @@
       "Physicalpanelverification",
       "Exactnew/usedoffer",
       "Displaydimensions"
+    ]
+  },
+  "blackstar_floor_one_20261018": {
+    "model": "Blackstar ID:X Floor One",
+    "canonical": "BLACKSTAR.md#idx-floor-one",
+    "checked_date": "2026-10-18",
+    "source": "https://www.kirstein.de/docs/manuals/00118929/manual_EN.pdf?h=2b60f8933d3a40a7df062be52bf93b84",
+    "revision": "256401M-VA-1 01/26",
+    "identity": "Own cover and One-specific panels/specification; shared operations apply only where not model-restricted. Text inspected; no visual check or file saved.",
+    "shopee": {
+      "url": "https://shopee.co.id/Multi-FX-Effect-Blackstar-IDX-Floor-One-i.239804186.41879047036",
+      "seller": "galerimusikjakarta",
+      "shop_id": "239804186",
+      "item_id": "41879047036",
+      "region": "Kota Jakarta Utara",
+      "idr": 3720000,
+      "crossed_out_idr": 4650000,
+      "access": "Two-month direct/search cache; not live checkout",
+      "condition": "unknown",
+      "stock": "unknown",
+      "limits": "Selected variant, working state, bundle/adapter, warranty, voucher, shipping/tax unverified; used/new not qualified."
+    },
+    "remaining": [
+      "Factory initial fill",
+      "Display diagonal/color/touch",
+      "External expression",
+      "Battery/USB power",
+      "User imports",
+      "Exact Floor-compatible Architect release and OS",
+      "Visual control count audit",
+      "Qualified used/new offers"
     ]
   }
 }
