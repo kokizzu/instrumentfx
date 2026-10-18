@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP360XP",
-    "task": "Saved current vendor discontinued-software support notice andinternal conversion specs. Fresh AX8/M13/SE70/GE300Lite/GE350/PODExpressBlack searches didnot establish exact hardware offers. Continue fresh Shopee discovery or unresolved model fields.",
+    "model": "DigiTech GNX3",
+    "task": "Saved GNX3 category subsets,amp/cab Direct-count ambiguity,acoustic simulation,drum count andconversion formats. Next remaining effect/control census orfresh Shopee discovery;PSS3 conflict stillopen.",
     "next_models": [],
     "after_queue": "349 partial unique models;114 Markdown compatibility files retained;no downloads/workflows/push."
   },
@@ -45606,7 +45606,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP360XP."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech GNX3."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -59675,6 +59675,22 @@
         "Imports"
       ],
       "method": "Manufacturer HTML;no downloads/install/device operations"
+    },
+    {
+      "model": "DigiTech GNX3",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://digitech.com/wp-content/uploads/2022/09/GNX3_Manual_original.pdf"
+      ],
+      "finding": "Numbered amp20/cab16includeDirect vsprose ambiguity retained;9HyperModel slots;acoustic simulator;15exclusive modulation,5delay10reverb,30drums+metro;24bitADC/DAC44.1k vs16bitCDrecorder.",
+      "remaining": [
+        "PSS3 conflict",
+        "Complete effect/control census",
+        "Display details",
+        "Loading formats",
+        "Qualified used/new offer"
+      ],
+      "method": "Original manufacturer guide text;no downloads/device operations"
     }
   ],
   "discovery_cross_brand_bass": {

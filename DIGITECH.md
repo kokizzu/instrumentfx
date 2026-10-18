@@ -485,7 +485,7 @@ Guitar workstation with documented bass modeling; distinct from BNX3,GNX3000 and
 | Display |Green alphanumeric plus red numeric display;diagonal,touch and exact technology unverified [G-M pp.9–10] |
 | Processing / categories |Multi-effects and amp/cab modeling;3 Audio DNA processors. DSP count is not simultaneous effect count. Maximum blocks and category subtotals unresolved [G-P] |
 | Memory |65 fixed factory+65 writable user=130 total;user bank initially duplicates factory [G-M p.9] |
-| Synth / acoustic |SynthTalk documented;acoustic simulation unresolved [G-M p.27] |
+| Synth / acoustic |SynthTalk documented;flat-top acoustic simulation verified below [G-M p.27] |
 | Bass capability |Manufacturer explicitly describes recording bass tracks using its bass amp modeler [G-P] |
 | I/O |TS instrument input,L/R outputs;XLR mic input/output;3.5mm stereo CD input;6.35mm stereo headphones;RCA S/PDIF out;MIDI IN/OUT-THRU;SmartMedia;FS300 socket;power. Phantom,FX loop unverified;USB absent from listed ports [G-M pp.6–7,75] |
 | Power / battery / USB |PSS3;18.5W consumption. Original guide lists regional mains adapters;manufacturer FAQ explicitly lists GNX3/PSS3 as **9VAC2.1A,2.5mm pin**,120VAC TypeA mains;separate supply list instead says9VDC1.3A,2.1mm center-negative. Conflict remains unresolved; ratings are supply specifications,not measured pedal draw. Battery/USB operation unverified [G-P,G-M p.75,G-S,G-F] |
@@ -533,6 +533,20 @@ Original [manufacturer guide](https://digitech.com/wp-content/uploads/2022/09/GN
 | Looper / live restrictions |CD quality44.1kHz;Normal doubles andEconomy quadruples available track time. Quality cannot change after recording unless alltracks/song are deleted. CARD>>PC must prepare modified card recordings before external-reader access;outputs mute andcontrols disable during preparation. File identifiers require SONG01–99 folders andTRAK01–08 WAV prefixes;only first6characters distinguish identity. UNDO track deletion is permanent |
 
 These resolve initial recording-storage unknowns;they do not verify current card availability or a universal loop duration.
+
+### GNX3 — model counts, acoustic function and conversion
+
+Checked2026-10-18 against [original manufacturer guide][G-M], printed pp13–16,23–29,75. No software orsource document downloaded. Existing PSS3 conflict remains unresolved.
+
+| Field | Evidence / qualification |
+|---|---|
+| Categories / amp-cab counting | Numbered lists have **20 amp-selector entries including Direct**,**16 cabinet entries including Direct**,plus9 user HyperModel locations. Prose instead describes15 guitar amps+4 bass amps+1 acoustic simulation and16 speaker types. Preserve this Direct-count ambiguity;do not claim20 modeled amps or16 modeled cabinets excludingoff. |
+| Synth / acoustic | **ACOUSTic** explicitly simulates flat-top acoustic guitar. HyperModels warp existing amp/cab characteristics;not measured capture orNAM import. SynthTalk remains dynamically triggered vocal-like processing,not proof ofpolyphonic synthesis. |
+| Category choices / modulation | **15 alternatives;one at a time** in Chorus/Mod,includingSynthTalk,pitch/filter effects. Not15 simultaneous blocks. |
+| Category choices / delay-reverb | **5 delays**,10–2000ms;**10 reverbs**. Delayhold is separate from recorder/JamMan capacity. |
+| Drums / practice | **30 patterns+metronome;40–240BPM**,level1–99. Not31 independent drum kits. |
+| Conversion / recorder | **24-bit ADC/DAC,44.1kHz**;CD-quality recorder resolution **16-bit**. These are distinct specifications,not USB formats. |
+
 
 ## GNX4
 
