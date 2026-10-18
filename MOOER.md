@@ -909,6 +909,17 @@ Manufacturer-authored [own manual appendix](https://device.report/manual/1420638
 These numbered appendix counts corroborate the regional100-amp/77-cab wording, but do not reconcile the advertised286 grand total or certify a current firmware library. Historical source rows remain intact.
 
 
+### GE200 Pro — looper persistence and selective reset, 2026-10-18
+
+[Manufacturer-authored own manual](https://device.report/manual/14206389), printed pp21–23,32; document behavior, not a device test.
+
+| Field | Verified behavior / qualification |
+|---|---|
+| Looper / undo and view exit | Hold the record/play/dub control for **Undo**, hold again for **Redo** after multiple layers. Press footswitch A to stop; holding A deletes the full recording. Looper/drums **continue when Groove Station view is closed**; reopen it to stop them. This does not establish power-off storage or preset-change persistence. |
+| Looper / automatic start and sync | AUTO REC arms recording until input exceeds the selected threshold; threshold0 disables it. DRUM SYNC gives a **one-bar count-in** and aligns loop length to bars using half-bar rounding. These are timing controls, not additional loop tracks. |
+| Memory / reset selection | Reset independently selects **Presets**, **Global Settings**, and **MNRS/IRS**. Preset reset deletes created/modified/imported presets; global reset includes MIDI, USB, trails and language; model reset deletes imported MNRS/GIR/IR data. This does not specify the factory-filled location count or guarantee backup recovery. |
+
+
 ## GE200 Pro Li
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

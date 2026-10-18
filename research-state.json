@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER GE200 Pro",
-    "task": "Saved numbered AMP100/CAB77/NS3 appendix groups withpreamp/fullamp distinction. Next another required gap orfreshShopee series; do not treat grandtotal orinstalledlibrary as reconciled.",
+    "task": "Saved looper Undo/Redo/view-exit behavior andselectivereset scopes. Factoryfill stillunknown;next differentmodel orShopee series, no assumptions about loop poweroff/presetpersistence.",
     "next_models": [],
     "after_queue": "353 partial models;294 guitar155 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
@@ -77445,5 +77445,24 @@
       "Shopee Hotone Ampero Mini II"
     ],
     "result": "No newmodel established. GE200Pro/ProLi mixed offers alreadycatalogued; no variant-price mapping promoted."
+  },
+  "technical_followup_ge200pro_loop_reset_20261018": {
+    "source": "https://device.report/manual/14206389",
+    "pages": [
+      "21–23",
+      "32"
+    ],
+    "findings": [
+      "Undo/Redo and stop/delete;closingGrooveStation doesnotstopplayback.",
+      "AUTO REC threshold andonebarDRUMSYNC countin/barrounding.",
+      "Separatepreset/global/importedmodel reset scopes;factoryfill unknown."
+    ],
+    "remaining": [
+      "Poweroff/presetchange loop persistence",
+      "Factoryfilled presetcount",
+      "Modulebuttonrow census",
+      "Displaytouch",
+      "Exactvariant currentoffers"
+    ]
   }
 }
