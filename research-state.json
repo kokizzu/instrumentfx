@@ -28,12 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Blackstar ID:X Floor Three — pending lead",
-    "task": "Priority: verify Shopee ID Floor Three title maps to ID:X Floor Three, then read complete manufacturer-authored manual256401M-VA-1 01/26 at saved Kirstein URL and create full root brand profile if linkage confirmed. No active count yet; do not reuse retailer2acoustic claim over manual3.",
-    "next_models": [
-      "Blackstar ID:X Floor Three"
-    ],
-    "after_queue": "353 partial active models; new Blackstar lead pending; migration incomplete; no downloads/workflows/push."
+    "model": "Blackstar ID:X Floor Three",
+    "task": "Primary manual now establishes eligible multi-effects hardware and bass capability. Next integrate root BLACKSTAR.md and ledger/view memberships; retain omitted-X Shopee title as uncertain price linkage. Required control/category census and factory fill/display/USB format remain open. Saved operational findings under blackstar_floor3_primary_operational_20261018.",
+    "next_models": [],
+    "after_queue": "353 active until Blackstar integration; migration incomplete; no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -77603,5 +77601,26 @@
       "site:shopee.co.id Blackstar ID Floor"
     ],
     "result": "No exact Utopia hardware; Peavey results combo amps not processor leads; new Blackstar Floor Three exact item saved for priority followup."
+  },
+  "blackstar_floor3_primary_operational_20261018": {
+    "source": "https://www.kirstein.de/docs/manuals/00118929/manual_EN.pdf?h=2b60f8933d3a40a7df062be52bf93b84",
+    "revision": "256401M-VA-1 01/26",
+    "printed_pages": [
+      "13–24",
+      "27–29"
+    ],
+    "identity": "Manufacturer-authored model-family manual, Three-specific labels retained; retailer-hosted copy.",
+    "findings": {
+      "blocks": "Four simultaneous independent effect blocks: Pre FX, modulation, delay, reverb; one effect per block. Amp/CabRig separate.",
+      "memory": "99 writable patches=33×3. Master level excluded; factory-filled split not established.",
+      "expression": "Built-in toe switch; volume pre/post, Classic/Modern wah, continuous custom amp/effect parameter. CabRig and discrete controls excluded.",
+      "power": "9V DC500mA centre-negative supply requirement; not measured draw. Battery/USB power unknown.",
+      "usb": "Four device-to-host: wetL/R,dry,preamp; two host-to-device playback. Windows audio driver requires registered account. Sample format unknown.",
+      "routing": "Three has mono send/return and MIDI Thru. To Amp bypasses CabRig, requires external amplification; not a speaker output.",
+      "software": "Architect edits/backups; exact supported OS releases unknown.",
+      "display": "OLED; diagonal,color,touch unknown.",
+      "limits": "Bypass delay/reverb trails documented; patch-change continuity unknown. No verified looper/drums or native/convertedNAM imports."
+    },
+    "next": "Integrate compact root Blackstar profile and comparison memberships using own-manual eligibility; retain Shopee model-title linkage as price uncertainty rather than blocking hardware existence. Read complete control panel text and perform appendix counts before asserting census."
   }
 }
