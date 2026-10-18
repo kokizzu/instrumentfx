@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh hardware discovery / unresolved model fields",
-    "task": "AX3000B physical pedal calibration and tuner powerup/exit behavior recorded. FreshBP90/AX3000B/B2.1Nu/VoiceWorks Shopeequeriesempty. Next expandbrand/seriesdiscoveryorresolveAX3000Bpowercurrent/polarity/display;EXheight/software,G3Xbuttons/display,MP100IR/censusremainopen.",
+    "task": "AX3000B compatibleKA-189supply9V600mA establishedfromKorgexactcompatibilitylist;notunitdraw. Next freshhardwarediscoveryorpolarity/barrel/display/OSverification. EXheight/currentchart,G3Xbuttons/display,MP100IR/censusremainopen.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -60631,6 +60631,22 @@
         "Qualified hardware prices"
       ],
       "method": "Manufacturer PDF browsertext, no downloads/device execution"
+    },
+    {
+      "model": "Korg AX3000B",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://www.korg.com/de/products/accessories/ka_189/"
+      ],
+      "finding": "KorgKA-189regionalpage explicitlyAX3000G/B compatible,9V600mAadapterrating. Notunitdraw,originalbundleidentity,polarityorbarrelspec. OfficialSoundEditorpages stillonlyWin1.01/Mac1.1 version/date,noOSversions.",
+      "remaining": [
+        "Polarity/barrel",
+        "Actual current consumption",
+        "Display specifications",
+        "Qualified used/new hardware prices",
+        "Current editor OS support"
+      ],
+      "method": "Manufacturer HTML browsertext;no downloads/software/device execution"
     }
   ],
   "discovery_cross_brand_bass": {
