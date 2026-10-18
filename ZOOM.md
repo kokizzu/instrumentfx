@@ -3684,7 +3684,7 @@ Distinct guitar multi-effects model, not G2.1u or G2Nu. Manufacturer identity: [
 | Display | LCD; diagonal,color,touch unverified. [Specifications p50][ZNU-M] |
 | Dimensions / mass | **260W×169D×67H mm;1300g without batteries**. [Specifications][ZNU-M] |
 | Processing / choices | **83 types;maximum8 simultaneous modules**. Category census and79-versus83 discrepancy documented below. [Specifications][ZNU-M] |
-| Factory / user memory | **100 preset+100 user** (10×10 each);initial user fill unverified. [Specifications][ZNU-M] |
+| Factory / user memory | **100 preset+100 user** (10×10 each);initial user banks duplicate preset sounds (manualp22;detailsbelow). [Specifications][ZNU-M] |
 | Synth / acoustic | **Aco.Sim acoustic simulator verified** below;dedicated synth unverified. |
 | I/O | Mono input;stereo line/headphone output;FP02/FS01 control input;USB. Connector details/exhaustive panel audit pending. [Specifications][ZNU-M] |
 | Power / battery / USB | **9VDC center-negative500mA AD-16;USB bus power;4AA alkaline≈6.5h at LOW backlight**. Adapter rating,not measured draw. [Specifications][ZNU-M] |
@@ -3726,6 +3726,20 @@ Checked2026-10-18 against [manufacturer-authored manual][ZNU-C], pp34–48,49,51
 | Processing / count discrepancy | Category entries total **79**,versus published **83 types**. TOTAL provides patch level,RTM andname settings;looper is separate. Whether these explain the difference is unverified;do not silently change the manufacturer total orclaim a reconciled83-entry census. |
 | Synth / acoustic | **Aco.Sim** explicitly makes electric guitar sound acoustic,with Top/Body controls. Cry is talking-modulator-like;RingMod andpitch effects do not establish a dedicated oscillator synth. Synth remains unverified. |
 | Drums / rhythm choices | **40 numbered rhythm entries**,including metronomes;not40 drum kits. **Rhythm mode disables REVERB**,independently ofthe looper disablingDELAY. |
+
+
+### G2.1Nu — factory fill, cabinet settings and monitoring
+
+Checked2026-10-18 against [own manufacturer manual][ZNU-C], pp22–26,29–30. Documentation only; no reset,recording ordevice operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| Factory / user memory | User banks **A–J ship with copies of the preset-bank sounds**. Thus200 locations do not establish200 distinct factory sounds. ALL INITIALIZE overwrites user banks. |
+| Category choices / cabinets | Direct mode offers **MATCHED,COMBO,TWEED,STACK**. MATCHED follows DRIVE type;others represent2×12combo,4×10tweed,4×12stack. These are cabinet settings,not userIR slots. |
+| Processing / total reconciliation inference | **79 category entries+4 Direct cabinet settings=83** arithmetically. This is a plausible counting explanation,not an explicit manufacturer statement;the counting convention remains unresolved. |
+| USB / monitoring | Records effected guitar;output mixes guitar with DAW playback. Direct monitoring can be disabled;avoid simultaneous DAW echo-back withdirect monitoring. USB recording level is separately adjustable andretained acrosspower-off. No dry reamp channel established. |
+| Live / preselect | PRE SELECT stages a patch until both footswitches confirm;editing/storing beforeconfirmation affects the current patch. Power cycle exits thismode. |
+| External control / FS01 | Seven global assignments: **BP/MT,BANK UP,RHYTHM,BPM TAP,DL TAP,DL HOLD,DL MUTE**. Delay operations require DELAY enabled;assignment survivespower-off. |
 
 <!-- comparison evidence ends -->
 
