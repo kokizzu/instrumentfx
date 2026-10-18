@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Lexicon MX300",
-    "task": "Saved RevE analog ratings andconverter format;EU56/60Hz anomaly remains. Next another required model gap or freshShopee series; do not inferUSB audio fromconverter specs.",
+    "task": "Saved route separation,archive/programfile scope andMIDIclock/globalfootcontrol behavior. Factoryfill andRoute5 count remainopen;next another required model gap orfreshShopee series.",
     "next_models": [],
     "after_queue": "353 partial models;294 guitar155 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
@@ -77309,6 +77309,25 @@
       "Userbank factoryfill",
       "Display diagonal/color/touch",
       "Current qualified offers"
+    ]
+  },
+  "technical_followup_mx300_routing_archive_20261018": {
+    "source": "https://adn.harmanpro.com/product_documents/documents/916_1515793555/MX300_Manual_18-0473V-E_original.pdf",
+    "pages": [
+      "16",
+      "33",
+      "39–41"
+    ],
+    "findings": [
+      "DualMono outputs independent;MonoSplit effects mixed to stereo;Parallel feeds bothinputs tobotheffects.",
+      "Singleprogramfile versus fullpreset/globalarchive;factoryrestore overwritesuser/system.",
+      "MIDIclock controlsdelaytempo anddisablesfronttempo duringincomingmessages;footswitchassignmentsglobal."
+    ],
+    "remaining": [
+      "Initialuser-bank contents",
+      "Route5 complete selectorcount",
+      "Display physicalspecifications",
+      "Currentqualifiedhardwareoffers"
     ]
   }
 }

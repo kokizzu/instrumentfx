@@ -147,6 +147,16 @@ Rack multi-effects for guitar amp loops and vocal/mixer paths. Checked 2026-10-1
 | Audio / performance conditions | With effects bypassed:response **10Hz–20kHz,+0/−0.5dB**,THD+N **<0.0019%** overthatband,dynamic range **>109dB A-weighted analog-to-analog**. These are published conditions,not measured results orall-active-effect performance. |
 | Power / retained frequency anomaly | Rev E repeats EU **220–240VAC56/60Hz**,rather than resolving the earlier Rev C text. No corrected frequency orhardware-revision explanation verified;actual rear label remains necessary forversion identification. |
 
+### MX300 — routing separation and archive scope, 2026-10-18
+
+[Own Rev E manual][M300-E], printed pp16, 33, 39–41; no reset, transfer or software execution.
+
+| Field | Verified behavior / qualification |
+|---|---|
+| Routing / Dual Mono versus Mono Split | **Dual Mono** processes L through Effect 1 and R through Effect 2, then keeps respective outputs independent. **Mono Split** uses the same input/effect assignment but mixes both effect outputs into one stereo output. **Parallel** sends both inputs through both effects and mixes their results. These are different connection modes, not additional processors. |
+| Memory / archive versus program file | **.MX300p** stores a program; **.mx300a** archives all presets and global settings. Restoring an archive replaces hardware data; Factory Restore resets all user programs and system settings. Factory locations cannot be overwritten; edited factory sounds must save to a user location or file. Initial user-slot contents remain unverified. |
+| MIDI / tempo and switch assignment | With MIDI Clock Sync enabled, incoming clock sets delay tempo and disables the front Tempo button while messages arrive. Footswitch ring/tip assignments are global, not per-program scene memories. Existing input functions remain separate from continuous expression. |
+
 <!-- comparison evidence ends -->
 
 The used listing is a cached asking price, not a completed sale or current-stock certification. “Ori” and working-condition wording are seller claims. Actual voltage revision, adapter/mains cable,bundle,warranty,shipping/tax,variant and checkout availability remain unknown. Rp10,000 late-arrival compensation is not a purchase discount. No foreign price conversion.
