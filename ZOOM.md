@@ -1565,6 +1565,12 @@ Checked 2026-10-18 from indexed [original G3n/G3Xn manual p33](https://zoomcorp.
 |---|---|
 | Live / flat tuning | TUNER SETTINGS→FLAT supports **one,two or three semitones down**. Flat tuning is **unavailable with TYPE=CHROMATIC**. This changes the tuner reference targets, not an audio pitch-shift effect or added synth capability. Full calibration range and power-cycle persistence remain unverified; G3/G3X manual values are not assigned to G3Xn. |
 
+### G3Xn — used spring-return offer, 2026-10-18
+
+| Field | Exact offer / qualification |
+|---|---|
+| Used IDR / seller-described pedal alteration | **Rp2.099.000**, title labels **BEKAS** and describes a spring-return pedal. [Exact item, shop410256197/item53562530133](https://shopee.co.id/-BEKAS-ZOOM-G3XN-LAIN-DARI-YANG-LAIN-MODE-PEDAL-PEGAS-DI-INJAK-BISA-MENTAL-BALIK-G3-XN-G3X-N-G-3XN-i.410256197.53562530133), Jakarta Barat in the [Shopee category cache](https://shopee.co.id/search?keyword=%2CG3XN), crawled last month. Link selects display_model_id411087615751; direct item returned cache miss and exact-ID search returned nothing. Seller name, stock, working condition, modification details, adapter/bundle, warranty, shipping/tax and voucher/checkout total remain unknown. Keep separate from standard unmodified-unit asks; seller wording is not a manufacturer feature or independently tested behavior. |
+
 <!-- comparison evidence ends -->
 
 ### G3Xn sources and next verification
