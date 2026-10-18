@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "NUX MG-300 MKII",
-    "task": "Saved two exact condition-unverified Shopee asks,2vs3variationcacheconflict,main/phoneslevels andGEN2EQreset. Next fresh eligible hardware discovery or unresolved manufacturer memory/power/display fields; do not treat unresolvedlowestvariant as hardwareprice.",
+    "model": "NUX MG-400",
+    "task": "Saved own display/body/power,currentGEN2softwaredates,tempo andexacthardwareask. Next read fullmanufacturerVersion1.0operationalbody forports,memoryandexpression; preserve GEN2 differences and reject copied MKII fields in US page.",
     "next_models": [],
     "after_queue": "356 partial models;297 guitar157 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
@@ -45831,7 +45831,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX MG-300 MKII."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX MG-400."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -78034,5 +78034,36 @@
       "Blackstar IDX Two"
     ],
     "result": "No newqualifiedexacthardwareitem;not unavailability proof. NUX MG300MKII returned two newexactasks savedseparately."
+  },
+  "mg400_body_power_display_20261018": {
+    "model": "NUX MG-400",
+    "checked_date": "2026-10-18",
+    "global": "https://nuxaudio.com/product/mg400/",
+    "manual": "https://manuals.plus/nux/mg-400-multi-effects-pedal-manual.pdf",
+    "manual_identity": "Version1.0 own MG400 cover,©2022Cherubendpage/specs;wrapper©2020notfirmwaredate;officialPDFreader30MBsizerejection;novisual/byteequivalence",
+    "power_support": "https://www.nux.us/blogs/support/which-power-supply-does-my-nux-product-need",
+    "verified": "289L160W71Hmm920g;2.8inch320240colorLCD;9VDCcentre-negative<280mAdraw;GEN2 3.0.3QuickTone2.6.8.24Aug28;direct40–240BPM/globalTAPdelaymod",
+    "offer": {
+      "url": "https://shopee.co.id/NUX-MG400-GITAR-EFEK-MG-400-DIGITAL-PROCESSOR-EFFECT-GUITAR-MG-400-ORIGINAL-i.177625187.23414471260",
+      "shop_id": "177625187",
+      "item_id": "23414471260",
+      "seller": "audiobagus",
+      "region": "Kota Jakarta Barat",
+      "idr": 3294000,
+      "access": "2monthsearchcache;directcachemiss",
+      "condition": "unknown",
+      "stock": "unknown",
+      "limits": "Variantworkingfirmwareadapterbundlewarrantyvouchershippingtaxcheckoutunverified"
+    },
+    "remaining": [
+      "Complete ports",
+      "Preset total/factory fill",
+      "Category census by firmware",
+      "Touch",
+      "External expression",
+      "Battery/USB power",
+      "Editor minimumOS",
+      "Qualifiedused/new"
+    ]
   }
 }

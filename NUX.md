@@ -248,15 +248,32 @@ The reproduced manufacturer body identifies MG-300 MKII and©2024Cherub;mirrorpu
 | Field | Preserved finding / unresolved detail |
 |---|---|
 | Expression / controls | Built-in;external support ?. **5/4/9** from prior photograph review. |
-| Dimensions / screen | Primary dimensions,mass,size class,display diagonal/color/touch still unresolved in this record. |
+| Dimensions / screen | **289L×160W×71H mm;920g**,manual axis labels retained; **2.8-inch320×240 color LCD**. Touch unverified; see dated sources below. |
 | Processing / scenes | **10 movable blocks**;selected blocks can change category;GEN2 adds4 wah,3 DeepImage amps,5 DeepImage EFX. Complete current totals ?. **Three scenes per preset**;preset total/split ?. |
 | Acoustic / synth | **Three acoustic IRs** for electric-to-acoustic sound,eight bass cabinet IRs;dedicated synth ?. |
 | IR / NAM | **512 samples**,per-patch IR plus12 collection slots. **10 NAM slots;A2 Lite native,A1 converted**,explicitly distinct. |
-| I/O / power | USB audio and main ports documented;complete connector inventory and supply/battery/USB-power requirements remain to verify. |
+| I/O / power | USB audio and main ports documented;complete connector inventory and battery/USB operation remain to verify; dated power finding below. |
 | Apps / practice | QuickTone **Windows/macOS**,matching GEN2 editor;USB record/reamp/loopback;60s mono/30s stereo looper;scene changes with trails. |
 | Prices / ownership | Used/new IDR ?. The owner's rejected fake-seller MG-400 order is **not confirmed ownership**;general model coverage remains eligible. |
 
 Original checked firmware: GEN2 3.0.3. Do not infer exact current firmware or source-resolution of unknowns from this consolidation.
+
+### MG-400 — body, power, display and exact hardware ask, 2026-10-18
+
+| Field | Evidence / qualification |
+|---|---| 
+| Dimensions / mass | **289L×160W×71H mm;920g** in Version1.0 manufacturer manual; original axes preserved,not silently relabelled. [M400M] |
+| Display | **2.8-inch320×240 color LCD**,own global product; touch unverified. [M400G] |
+| Power / battery / USB | **9VDC centre-negative,current draw<280mA**. [M400M] [NUX USA power support](https://www.nux.us/blogs/support/which-power-supply-does-my-nux-product-need),updated2026-09-27,independently confirms and names included ACD-006A. Battery/USB power unverified. Adapter rating is separate from unit draw. |
+| Firmware / editor / drivers | Global list: **GEN2 firmware3.0.3 andQuickTone2.6.8.24**,both2026-08-28,Windows/macOS;matching GEN2 required. ASIO5.30.0 listsWin10+,3.29.0 Win7;these driver labels do not establish full-editor minimumOS. Published packages,not installed-unit verification. [M400G] |
+| Live / tempo | GEN2 direct BPM40–240 viaheldTAP;GlobalTAP underPARA.FOLLOW carries delay/modulation tempo across presets. Tempo continuity is not audio spillover proof. [M400G] |
+| IDR condition-unverified indexed ask | **Rp3.294.000**,audiobagus,shop177625187/item23414471260,Kota Jakarta Barat. [Exact MG-400 item](https://shopee.co.id/NUX-MG400-GITAR-EFEK-MG-400-DIGITAL-PROCESSOR-EFFECT-GUITAR-MG-400-ORIGINAL-i.177625187.23414471260),two-month search cache;directcachemiss. Checked2026-10-18. Condition,stock,selected variant,working state,firmware,adapter/bundle,warranty,vouchers,shipping/tax/checkout unknown. Original title and relative tomorrow delivery do not prove new condition,authenticity or stock. Neither verified used nor new;not completed sale. |
+
+[M400M] reproduces manufacturer Version1.0 body,MG-400 cover,©2022Cherub endpage andspecification block. Mirror wrapper's ©2020/published2023 dates do not date firmware. Official PDF could not be read because the web reader rejected its30MB size; no file saved,visual inspection orbyte-equivalence claim. Other operations remain unreviewed. No sibling specifications substituted.
+
+[M400M]: https://manuals.plus/nux/mg-400-multi-effects-pedal-manual.pdf
+[M400G]: https://nuxaudio.com/product/mg400/
+
 <!-- comparison evidence ends -->
 
 ### Preserved shared-source MG-400 fields

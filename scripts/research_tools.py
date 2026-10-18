@@ -393,7 +393,7 @@ def main():
         if mode == 'commit-nux-mg30-audit':
             message = 'research(nux): verify MG-30 editable preset memory and regional model counts'
         if mode == 'commit-nux-mg400-audit':
-            message = 'audit(nux): preserve MG-400 shared fields and historical firmware scope'
+            message = 'research(nux): verify MG400 body display power and exact hardware ask'
         if mode == 'commit-nux-mg300mkii-audit':
             message = 'research(nux): preserve exact MKII offers and separate output levels'
         if mode == 'commit-nux-mg300-audit':
