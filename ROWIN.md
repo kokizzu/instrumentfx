@@ -33,3 +33,9 @@ Primary manufacturer indexed product body used;desktop reopening timed out. No g
 
 [RWP]: https://www.rowinmusic.com/pd.jsp?fromColId=168&id=243
 [RWS]: https://shopee.co.id/Efek-Gitar-Multi-Rowin-Looper-Pro-Chorus-Delay-Reverb-Tuner-Pedal-i.19700013.24253387970
+
+### Manufacturer manual lead and evidence boundary
+
+Checked2026-10-18: the [manufacturer English support index](https://rowinmusic.com/col.jsp?id=102) lists **RE-05 Manual.pdf,907.95KB** under RE Series Manual; the [Chinese support index](https://www.rowinmusic.com/cn/col.jsp?id=142&m602pageno=5) independently lists the same filename/size. Both reopened pages timed out; no direct PDF URL or document contents were retrieved. This establishes an exact-model manufacturer manual lead, not its revision or specifications.
+
+The apparent PDF-brochure link on a retailer page resolves only to a brochure-icon GIF. Generated ASIN manuals and retailer prose were not accepted as original Rowin documentation. Their power,port,dimension andloop-mode assertions remain outside verified technical fields pending the original manual. No file downloaded,software installed ordevice operated.

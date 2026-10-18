@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(rowin): add partial RE05 Looper Pro with sold-out hardware ask'))
+    print(git('commit','-m','research(rowin): locate exact manufacturer manual and qualify access limits'))

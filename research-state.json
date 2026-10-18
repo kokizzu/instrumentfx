@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh hardware discovery / Rowin unresolved fields",
-    "task": "Commit RE-05 Looper Pro before nextmodel. Then fresh DonnerAlphaFX/Caline/ENO discovery,resolveexactitems/manufacturermaterials;RowincompleteI/O/power/simultaneity/revisionremainunknown. PriorAX3000Bconflicts/G3X/EX/MP100gapsretained.",
+    "task": "RE05 addition saved0aedfda. OfficialEnglish/ChinesesupportindexlistsRE-05Manual.pdf907.95KB butdirectpages timeout. Next retrieve originalmanualbodywhenaccessible,or freshDonnerAlphaFX/Caline/ENOexacthardwareleads;do notrepeatbrochureGIF/generatedASINmanual. Othermodelgapsretained.",
     "next_models": [],
     "after_queue": "360 partial models;301 guitar,158 bass,69 vocal;45 brands. Migration incomplete;no downloads,workflows orpush."
   },
@@ -60699,6 +60699,23 @@
         "Qualified offers"
       ],
       "method": "Own manufacturer manual browsertext,no download/software/deviceexecution"
+    },
+    {
+      "model": "ROWIN RE-05 Looper Pro",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://rowinmusic.com/col.jsp?id=102",
+        "https://www.rowinmusic.com/cn/col.jsp?id=142&m602pageno=5"
+      ],
+      "finding": "ExactmanufacturerRE05Manual.pdf907.95KBindexedEnglish/Chinese;bothsupportpagestimeoutanddirectPDFURLunexposed. SWAMPapparentbrochurelinkonlyGIF;generatedASINmanualnotaccepted. No newspecs verified.",
+      "remaining": [
+        "Retrieve exact manufacturer-listed manual body without filesystem download",
+        "Power/I/O/current/polarity",
+        "Control and mode topology",
+        "Memory and loop retention",
+        "Seller exact revision"
+      ],
+      "method": "Browser search/index reading only;no download/hardware/softwareoperation"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -80094,6 +80111,14 @@
       "Buttons/display",
       "Memory/software/imports",
       "Qualified used/new prices"
-    ]
+    ],
+    "commit": "0aedfda",
+    "manual_lead": {
+      "english": "https://rowinmusic.com/col.jsp?id=102",
+      "chinese": "https://www.rowinmusic.com/cn/col.jsp?id=142&m602pageno=5",
+      "file": "RE-05 Manual.pdf",
+      "listed_size": "907.95KB",
+      "status": "Official indexed lead;contents and direct URL not yet recovered;no specifications inferred"
+    }
   }
 }
