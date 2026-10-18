@@ -75413,8 +75413,8 @@
     "next": "Fresh Shopee GP-series discovery; GP-100VT manufacturer lead requires exact hardware offer and own-model technical evidence."
   },
   "resume_cursor": {
-    "model": "Alesis MicroVerb 4",
-    "task": "Saved analogratings/converteroversampling/bypasswetrestriction. Inputimpedancesymbols andsamplingremainunverified;continue freshShopee discovery orotherrequiredfields.",
+    "model": "Lexicon MPX100",
+    "task": "Saved manufacturerROMupdate versusdesktopsoftware distinction andpostupdateinitialization. Next freshShopee discovery orrequiredremainingfields;current/powerconnector/editor/display stillunverified.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75509,5 +75509,20 @@
     "pages": "39,42–43",
     "findings": "Inputnominal−10dBV/max+10dBV;adjustment+4dBv capitalizationretained;outputnominal−20dBVor+4dBu/max+17.5dBu500ohm;18bitADC128xDAC8x;bypassfullwetnosound",
     "unresolved": "InputimpedanceOCR1MW/500kW notpromoted;samplingnotestablished;body/current/display/qualifiednewusedprices remainunknown"
+  },
+  "mpx100_update_provenance_20261018": {
+    "source": "https://lexiconpro.com/en/product_documents/mpx100_update_inst_rev0pdf",
+    "part": "070-12976",
+    "access": "Manufacturer indexed original text;direct403",
+    "result": "ROMU10replacementkit,notdesktopupdater;postupdatereinitializationBypass10seconds/Variation15/Store;retentionnotpromised",
+    "listing": "https://lexiconpro.com/ja/products/mpx-100",
+    "qualification": "April2026uploadnotreleaseproof;nohardware/softwareoperation",
+    "discovery": [
+      "RolandDEP-5",
+      "LexiconMPX-1",
+      "BossME-6",
+      "ZoomG9.2tt"
+    ],
+    "discovery_result": "Noqualifiednewexacthardwareoffer;G9.2ttadaptorsrejected"
   }
 }

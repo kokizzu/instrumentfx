@@ -250,3 +250,14 @@ Checked2026-10-18 against the [manufacturer guide,printed pp.10,13–14](https:/
 |---|---|
 | Live / audio tap | Hold Tap for two seconds,play two short notes while holding,then release. Their spacing sets tempo;this is a deliberate gesture,not continuous beat tracking. Optional dual momentary footswitch supports the hold. Global Tempo carries the last tapped value across tempo-enabled programs;Program Tempo retains individual settings. |
 | Memory / System-mode exit | Return VARIATION to its previous position before exiting System mode;otherwise its new position loads another program. Tap LED identifies the prior position. This is separate from saving a user preset. |
+
+### MPX100 — ROM update versus desktop software
+
+Checked 2026-10-18 through manufacturer-indexed original instructions,part **070-12976**. Direct document opens returned403;no local download,execution,chip installation or visual inspection.
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / updater distinction | [Manufacturer Update Installation Instructions](https://lexiconpro.com/en/product_documents/mpx100_update_inst_rev0pdf) describes a kit replacing **ROM U10**,not a desktop updater. It is qualified-personnel service documentation. No installed version,currently purchasable kit,editor platform or firmware release date established. |
+| Memory / post-update reinitialization | Same instructions: hold Bypass during power-up for10seconds,release,set VARIATION15,press Store. Normal power cycle takes about6seconds. This is the update document's reinitialization procedure;user-memory retention is not promised by the exposed excerpt. |
+
+The [manufacturer product download listing](https://lexiconpro.com/ja/products/mpx-100) names this update document and User Guide Rev0;April2026 is an upload label,not proof of new hardware firmware. Earlier mirror-guide evidence and direct-access failures remain valid provenance.
