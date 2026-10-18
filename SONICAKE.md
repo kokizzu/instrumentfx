@@ -445,6 +445,14 @@ New prices are individual official-store observations checked **2026-10-14**, no
 | Synth / acoustic clarification | P22 **AC Sim** hasStandard/Jumbo/Enhanced/Piezo modes,Body/Top/Volume. AC Woody voices acoustic instruments. P23Filter isfour-step synth-like filtering,not proof ofdedicated synthesis. P44CAB also lists acoustic-body/instrument simulations;these are distinct fromacoustic preamps. Supersedes earlier acoustic-simulator unknown. |
 | IR / exact file specification | P44:User IR1–20,**44,100Hz,1024samples**. Bitdepth/filecontainer andautomaticconversion unresolved. This isimpulse-response loading,notNAM architecture. |
 
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / EQ manual census,2026-10-18 | **5**,printedp45:Guitar EQ1/2;Bass EQ1/2;Calif EQ. Global EQ is separate. [Exact manual](https://www.hotone.jp/files/brands/sonicake/products/matribox-ii-pro/manual/20260803-070736-v5r131-matribox_ii_pro_jp.pdf) |
+| Category choices / MOD manual census | **21**,pp46–48:E-Chorus;D-Chorus;B-Chorus;M-Chorus;Flanger;Flanger N;Trem Jet;Bass Jet;Vibrato;BBD Roto;CE-Roto;Phaser;BBD Phaser;Phaser ST;Pan Phaser;Vibe;Tremolo;Sine Trem;Bias Trem;Detune;Lofi Bit. Page subtotals7+8+6. |
+| Category choices / DLY manual census | **15**,pp49–52:Warm;Pure;Mag;Tube;BBD;Ping Pong;Slapback;Sweep;Ring;Multi Tape;Sweet;999 Echo;Rack;Lo-Fi;Reverse. Multi Tape's12head variations are modes,not12extra algorithms. Later EkoD/IceDelay additions stay separate. |
+| Category choices / RVB manual census | **11**,pp52–55:Studio;Club;Room;Hall;Church;Plate;Spring;Sky;Sea;Mod Reverb;Shimmer. Later Haze addition stays separate. |
+| Live / trails and Clone scope | Listed delay/reverb Trail preserves decay when that effect isbypassed;not proof ofpreset-change spillover. P55 listsClone1–5 forNAM imports;five labels do not establish simultaneous model count,native architecture orminimumfirmware. Cover/body/release conflicts remain. |
+
 
 Primary [product/download/FAQ](https://www.sonicake.com/products/matribox-ii-pro) supports both the capability statements and unresolved MIDI contradiction. Preserve each rather than choosing a convenient interpretation. Further manual work and exact regional hardware offers remain needed.
 
