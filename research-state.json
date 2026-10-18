@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh hardware discovery / unresolved model fields",
-    "task": "MIDIverb4 own2005 catalogue dimensions/mass/backlitLCD recorded;analog-rating conflict retained. Continue fresh Shopee discovery or required-field audits; current,screen details,editor/imports andqualified prices remain open.",
+    "task": "DG-Stomp Manualmode,secondaryMODrecall andfactoryreset scope recorded. Continue fresh hardware discovery or unresolved requiredfields; no exactShopeeDG/AG/UD/MagicStomp offer found this pass.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -60408,6 +60408,23 @@
         "Editor/import support"
       ],
       "method": "Identity-matched manufacturer catalogue onmirror,browsertextonly,no downloads"
+    },
+    {
+      "model": "Yamaha DG-Stomp",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://usa.yamaha.com/files/download/other_assets/7/313717/dgstomp_en.pdf"
+      ],
+      "finding": "Own pp18–19 Manualmode usesphysicalknob/button states;patchrecall orsecondaryMODediting exits;UP+MANUAL startup resetsandrewritesUser area. MODtypechanges retainprimaryknobvalues butrecalllastsecondaryvalues.",
+      "remaining": [
+        "Global simultaneous ceiling",
+        "Digital word width",
+        "Qualified used/new IDR",
+        "Editor/imports",
+        "Display details",
+        "Power connector/current"
+      ],
+      "method": "Manufacturer manual browsertext,no downloads ordeviceoperation"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -79701,5 +79718,14 @@
       "site:shopee.co.id \"Digitech\" \"BP200\" -adaptor -adapter"
     ],
     "result": "No new processor lead;returned16626959/4486100964 is existing adapter,notBP200 hardware. No unavailability conclusion."
+  },
+  "discovery_dgstomp_followup_20261018": {
+    "queries": [
+      "site:shopee.co.id \"Yamaha\" \"DG Stomp\"",
+      "site:shopee.co.id \"Yamaha\" \"AG Stomp\"",
+      "site:shopee.co.id \"Yamaha\" \"UD Stomp\"",
+      "site:shopee.co.id \"Yamaha\" \"Magic Stomp\""
+    ],
+    "result": "No results;not evidence ofunavailability. No modeladded orprice inferred."
   }
 }

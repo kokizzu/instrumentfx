@@ -420,6 +420,17 @@ Checked2026-10-18 against [own manual,printed pp19–22][DGS-M]. Browser text on
 | Live / reverb tails correction | Manual explicitly describes tails whenswitching betweenpatches withthe **same reverbtype**,fromnonzeroLEVEL toLEVEL0;newpatch input receivesnoreverb. This resolves theearlier unverified-reverb note conditionally,not asuniversal spillover. REVERB knob controls inputfeed. |
 | Effects / secondary modulation parameters | Holdselected MODbutton whileturning SPEED/DEPTH forsecondaryparameters;these are saved withpatchdata. Rotary'ssecondarySPEED setsstereomicangle0–180°;secondaryDEPTH balanceshigh/lowrotors. These controls do notadd independentblocks. |
 
+
+### DG-Stomp — Manual mode and reset scope
+
+Checked2026-10-18 against own Yamaha manual,printed18–19. Documentation only;no reset ordevice operation.
+
+| Field | Exact-model qualification |
+|---|---|
+| Live / Manual mode | MANUAL applies current knob andeffect-button positions directly. Recalling a patch exits;pressing thefootswitch for thedisplayed patch restores its pre-Manual condition. Editing asecondary modulation parameter also exits Manual mode andflashes MANUAL. This is distinct from normal patch knob-pickup behavior. [Own manual p18][DGS-M] |
+| Memory / factory reset | UP+MANUAL duringpower-on restores factorydefaults andrewrites theUser area from thefactory PatchList. Yamaha warns allstored data iserased;MIDIbackup orwritten settings recommended. This isnot anextra preset bank. [Own manual p18][DGS-M] |
+| Processing / modulation selection | Switching MOD type carries SPEED/DEPTH values fromtheprevious effect;secondaryparameters use thelast values for theselected effect. Holding itseffectbutton untilallfiveMOD LEDs light restores secondarydefaults. Patchrecall separately loads savedsecondaryvalues. [Own manual p19][DGS-M] |
+
 <!-- comparison evidence ends -->
 
 [DGS-M]: https://usa.yamaha.com/files/download/other_assets/7/313717/dgstomp_en.pdf
