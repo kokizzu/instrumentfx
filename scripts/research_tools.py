@@ -427,7 +427,7 @@ def main():
         if mode == 'commit-rp500':
             message = 'research(digitech): clarify RP500 AUX scope and name reverb choices'
         if mode == 'commit-g21u':
-            message = 'research(zoom): document G2.1Nu analog ratings and noise conditions'
+            message = 'research(zoom): qualify G2.1Nu looper stops and editor import boundaries'
         if mode == 'commit-r16':
             message = 'research(joyo): add R-16 vocal processor with source conflicts and qualified offers'
         if mode == 'commit-fx50':

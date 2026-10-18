@@ -3873,6 +3873,13 @@ Checked2026-10-18 against [own manufacturer manual][ZNU-C], pp22–26,29–30. D
 | I/O / analog input andoutput ratings | Own manualp50: **input1MΩ,rated−20dBm;maximumlineoutput+5dBm into≥10kΩ;headphones20mW+20mW into32Ω**. Manualuses0dBm=0.775Vrms convention. Ratings arenot measured clipping/headroom results. [Specifications][ZNU-M] |
 | Conversion / response andnoise | **20Hz–40kHz,+1/−3dB at10kΩload;120dB equivalent-input-noise S/N;−100dBm residualnoise**. Keep distinct noise metrics;not120dB measured complete-system dynamicrange. [Specifications][ZNU-M] |
 
+### G2.1Nu — looper stop and editor operating limits
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| Looper / stop versus clear | Own manualp15: DOWN stops playback;UP restarts. HoldingDOWN untilCLEAR deletesphrase. UP alternates overdub/playback;bothfootswitches return toplaymode. Stop isnot documented aserase;power/preset persistence stillunknown. [Own manual][ZNU-M] |
+| Editor / sleep andimport boundaries | [Edit&Share manufacturer manual,revisionE5](https://zoomcorp.com/media/documents/EditShare_Operation_Manual_English_2.pdf),pp4,7,10,12: computersleep unsupported;restartapp aftersleep. Effectreordering appears onlyoncapabledevices. Cross-modelimport exceptions explicitly name G3/G3X/G5,notG2.1Nu;genericimport/export doesnot establish siblingpatch compatibility. G2.1Nu supportpage lists Edit&Share,butcurrentOS/CPU compatibility remainsunverified. |
+
 <!-- comparison evidence ends -->
 
 [ZNU-M]: https://zoomcorp.com/media/documents/E_G2Nu_G21Nu_0.pdf
