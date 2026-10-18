@@ -2103,3 +2103,7 @@ expression-audit-commit-sonicake:
 .PHONY: expression-audit-commit-eventide
 expression-audit-commit-eventide:
 	python3 scripts/expression_audit_eventide.py commit
+
+.PHONY: expression-audit-commit-ik
+expression-audit-commit-ik:
+	python3 scripts/expression_audit_ik.py commit
