@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DigiTech RP150",
-    "task": "Saved manual-derived category census, acoustic simulation and distortion/Chorus-FX internal conflicts. Next exact Shopee hardware offers and current editor OS compatibility; synth remains unverified.",
+    "task": "Saved exact RP150 editor listings, historical Mac compatibility scope and current manufacturer discontinued-software support warning. Exact Shopee queries again returned no qualified hardware offers. Next fresh brand/series Shopee discovery; retain unresolved RP150 synth/current-OS operation/IR/power/display gaps.",
     "next_models": [],
     "after_queue": "371active/46brands;309guitar162bass69vocal;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
   },
@@ -81230,5 +81230,18 @@
     "printed_pages": "10–11,38",
     "finding": "Headphone stereo/mono depends onmainoutputs;electricalratings andmonitoring boundary saved.",
     "status": "partial"
+  },
+  "rp150_software_market_followup_20261018": {
+    "sources": [
+      "https://digitech.com/software-downloads/",
+      "https://digitech.com/faqs/"
+    ],
+    "queries": [
+      "site:shopee.co.id \"RP150\" digitech",
+      "site:shopee.co.id \"RP 150\" digitech",
+      "site:shopee.co.id \"Digitech\" \"RP-150\"",
+      "site:shopee.co.id \"Digitech\" \"RP150\" bekas"
+    ],
+    "result": "No qualified exact hardware offer; prices remain unknown, not proof of marketplace absence. Manufacturer discontinued-software warning and version-specific editor scope saved."
   }
 }
