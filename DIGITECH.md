@@ -902,6 +902,19 @@ Checked 2026-10-18; partial. Exact RP355, not RP350. [Manufacturer product](http
 | Processing / delay and reverb | Delay **7**,reverb **6**. |
 | Processing / routing | Chorus/FX offers pre/post placement;manual otherwise specifies an ordered chain. Amp A/B independently stores amp,cabinet,gain,level,EQ;two selectable channels do not establish simultaneous dual amps. |
 
+
+### RP355 — performance controls and practice tools
+
+[Own manual](https://digitech.com/wp-content/uploads/2022/09/RP355_OM_EN.pdf),printed pp1–2,27–29;checked2026-10-18.
+
+| Field | Qualification |
+|---|---|
+| Footswitches / stomp mode | Down toggles distortion,Up Chorus/FX,Amp A/B delay. While active,preset navigation and amp-channel switching are unavailable. Press Up+Amp A/B together to enter/exit. |
+| Expression / modulation control | **Two assignable LFOs** share pedal-assignable parameter targets,with individual speed,bounds and triangle/sine/square waveform. Pedal heel/toe limits and assignment save per preset;V-switch changes between assigned parameter and wah. |
+| Looper / practice sampler | Separate **Learn-A-Lick:10 seconds**,aux-input capture,seven playback rates from¼ to full speed without pitch change. Pedal controls sampled-phrase level;unavailable with Phrase Looper. |
+| Routing / bypass and tuner | Manufacturer describes **true analog bypass**. Tuner reference **427–453Hz**,plus dropped-tuning references;manual also describes expression-controlled guitar volume while tuning. Powered-off pass-through unverified. |
+| Memory / calibration | Factory reset erases user data and invokes pedal calibration;standalone pedal recalibration preserves user presets. |
+
 <!-- comparison evidence ends -->
 
 Shopee rejection: [seller855783279/item22273291654](https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-RP350-RP355-RP300-PSU-i.855783279.22273291654),Agen Tekno,Kota Jakarta Barat;four-month indexed ask **Rp170.000** is an **adapter**,excluded from processor prices. Checked2026-10-18;no current hardware-stock claim.
