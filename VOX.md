@@ -320,6 +320,18 @@ Checked2026-10-18.
 
 Panel screenshots failed in the browser tool;no visual control-count,display-color ortouchscreen verification is claimed. Existing text-derived K/F/B remains qualified. On2026-10-18,the official manual URL failed reopening;the earlier identified IIB evidence is retained,not newly recertified. Korg’s named-adapter page reopened andstill explicitly specifies9V center-negative;no tuner current orother tuner specification is transferred.
 
+
+### StompLab 2B — pressure calibration and effect-selection limits
+
+Checked 2026-10-19: the [exact IIB manufacturer manual][SL2B-M] reopened as browser text, English printed pp10,13. The earlier failed reopening remains historical; no panel image or hardware operation is claimed.
+
+| Field | Exact IIB evidence / qualification |
+|---|---|
+| Expression / switching-pressure calibration | Sensitivity calibration first captures the pedal pressure that toggles its assigned effect, then captures heel/toe travel. VOX specifies using the pedal **with the foot**. This is separate from the stored parameter endpoints documented above; no numeric actuation force is published. |
+| Expression / calibration result states | Down cancels; Up confirms. **CP** marks success and returns to Program Select; a failed attempt flashes **Er**, then returns to **Pd** for another attempt. These status codes do not establish physical switch construction or touchscreen behavior. |
+| Processing / EQ bypass scope | Lo/Hi and Mid are part of AMP/DR. Turning AMP/DR off also disables those EQ functions; they are not independently active EQ blocks. |
+| Memory / effect-selection defaults | Selecting an effect automatically sets its parameters to predefined starting values. This does not establish initial user-bank contents or preserve edits across type changes; the existing save requirements remain. |
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified exact hardware

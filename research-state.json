@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Manufacturer technical gaps / Shopee discovery",
-    "task": "AX100G write/Reloadscope andpedalcalibration gaps updated;freshShopeeoffers remainmixed-model/unallocated. ContinuefreshShopeediscovery oranothermanufacturertechnicalgap;all387recordspartial andmigrationincomplete.",
+    "task": "StompLabIIBmanualreopened;toe-pressure/travelcalibration,EQbypass andeffectdefaultlimits saved. Freshused2B/BP80queryreturnednoqualifiedoffer. ContinuefreshShopeediscovery oranothermanufacturerfieldgap;all387partial,migrationincomplete.",
     "next_models": [],
     "after_queue": "387 active models,46 brands,all partial;no downloads/workflows/push."
   },
@@ -120437,5 +120437,25 @@
       "qualification": "Mixedmodeltitle,exactitemandvariantmappingunresolved;notAX100Gpriceorusedconditionproof."
     },
     "remaining": "ExacthardwareIDRcondition-qualifiedoffer,fullconnectoraudit,displaypublishedspecs,powerpolarity/currentandloading/editorsremainunverified."
+  },
+  "stomplab2b_calibration_followup_20261019": {
+    "checked_date": "2026-10-19",
+    "model": "VOX StompLab 2B/IIB",
+    "source": "https://voxamps.com/wp-content/uploads/2019/12/SL_IIB_OM_EFGSJ1.pdf",
+    "printed_pages": "English10,13",
+    "access": "ManufacturerPDFreopened84pagesasbrowsertext;earlier18Octoberfailurehistorical;novisualorhardwaretest.",
+    "findings": [
+      "Hardwarecalibrationcapturestogglingpressureandheel/toetravel;footoperationexplicit,notstoredparameterendpointrange",
+      "CPsuccess;ErthenPdretry;Downcancels,Upconfirms;numericforceunspecified",
+      "Lo/HiMidEQdisabledwithAMP/DRoff",
+      "Effectselectioninitializesparameterstartingvalues;userbankfillremainsunverified"
+    ],
+    "queries": [
+      "site:shopee.co.id \"Stomplab 2B\" \"bekas\"",
+      "site:shopee.co.id \"Stomplab 2B\" \"second\"",
+      "site:shopee.co.id \"DigiTech BP80\""
+    ],
+    "market_result": "Noexactqualifiedofferreturned;noassignmentofused/newpriceornomarketclaim.",
+    "remaining": "Visualcontrol/displayverification,powerbarreldimensions,editor/importsupport andfreshcondition-qualifiedIDRoffers."
   }
 }

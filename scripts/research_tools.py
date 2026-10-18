@@ -631,7 +631,7 @@ def main():
         if mode == 'commit-stomplab1g':
             message = 'research(vox): restore StompLab 1G output behavior and price qualifications in comparisons'
         if mode == 'commit-stomplab2b':
-            message = 'research(vox): qualify StompLab IB memory output profiles and named power adapter'
+            message = 'research(vox): document StompLab IIB pressure calibration and EQ limits'
         if mode == 'commit-tonelab-se':
             message = 'research(vox): qualify ToneLab SE channel hold and performance limits'
         if mode == 'commit-tonelab-st':
