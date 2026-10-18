@@ -2347,7 +2347,7 @@ Manufacturer model **MS-60B+**,catalogued with the word Plus to distinguish it f
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression / controls | No built-in expression pedal;toe N/A;external EXP support unestablished. **K/F/B:4 push/rotary encoders /1 main footswitch /4 Cross Key direction buttons**. Direction buttons are foot-operable but counted once;encoder pushes are not separate buttons. | [Product](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-60b-plus/);[Quick Tour,p.10](https://zoomcorp.com/media/documents/E_MS-60Bplus_QuickTour.pdf) |
+| Expression / controls | No built-in expression pedal;toe N/A;no analog external EXP socket in the complete connector inventory. **K/F/B:4 push/rotary encoders /1 main footswitch /4 Cross Key direction buttons**. Direction buttons are foot-operable but counted once;encoder pushes are not separate buttons. | [Product](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-60b-plus/);[Quick Tour,p.10](https://zoomcorp.com/media/documents/E_MS-60Bplus_QuickTour.pdf) |
 | Display / body | **160×128 dot-matrix LCD**,category-colored backlight;full-color pixel depth andtouch unverified. Published diagonal ?. **79 W×133 D×61 H mm;353 g excluding batteries/400 g including**,compact. Do not copy353g toMS-70CDR Plus ororiginalMS-60B. | [Own manual,specifications](https://zoomcorp.com/manuals/ms-60bplus-en/) |
 | Simultaneous blocks | **Up to6,DSP-limited**;overflow bypasses an effect. Each preset permits only **one BASS AMP,one LINE SELECTOR andone BPM module**. A BPM module consumes one ofsix positions;not six effects plusfree tap module. | [Manual,effect-limit andtempo sections](https://zoomcorp.com/manuals/ms-60bplus-en/);[Quick Tour](https://zoomcorp.com/media/documents/E_MS-60Bplus_QuickTour.pdf) |
 | Categories / choices | Product separately describes **11 preamps (8 modeled+3 Zoom originals),11 amp/cab reproductions,and75 effects**;do not silently sum overlapping marketing categories orsubstitute theoriginalMS-60B library. Official list has11 headings:dynamics,filter,drive,preamp,modulation,pitch shift,synth,delay,reverb,SFX,bass amp. Published revision-specific subtotals are audited below; installed inventory remains unresolved. | [Product](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-60b-plus/);[own effect-list contents](https://zoomcorp.com/media/documents/E_MS-60Bplus_FX-list.pdf) |
@@ -2397,7 +2397,11 @@ Additional exact hardware leads checked **2026-10-18**. Both remain outside veri
 
 ### Remaining checks
 
-Verify current category subtotals,installed library/firmware,85preset slot map,displaydiagonal/touch/color-depth wording,external expression,USB electrical/audio/fullMIDI details,userIR/NAM/capture imports,acoustic simulation,performance looper/drums/scenes,currentcondition-qualifiedused/new offers and unresolved R-output tap boundaries/stereo interactions. KeeporiginalMS-60B andotherPlus units separate.
+Verify current category subtotals,installed library/firmware,85preset slot map,displaydiagonal/touch/color-depth wording,digital controller coverage,USB electrical/audio/fullMIDI details,userIR/NAM/capture imports,acoustic simulation,performance looper/drums/scenes,currentcondition-qualifiedused/new offers and unresolved R-output tap boundaries/stereo interactions. KeeporiginalMS-60B andotherPlus units separate.
+
+### MS-60B+ — direct expression and preset screening
+
+Checked 2026-10-19 against the [exact manufacturer manual](https://zoomcorp.com/manuals/ms-60bplus-en/), parts and signal-flow sections. No analog expression or dedicated headphone socket is listed. Retained master level does not establish pedal assignment. Direct-expression position/range and bypass/headphone/tail/looper coverage are inapplicable; digital attenuation remains unverified. Its 79 W ×133 D mm body fits the preference. Foot-operable direction buttons select patches; exact numerical down/up mapping remains unverified in accessible text. Ordinary guitar suitability remains unclassified; bass support is documented. Earlier revision, routing, MIDI and offer qualifications are preserved.
 
 ## B1on
 
