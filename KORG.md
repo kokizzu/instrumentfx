@@ -419,6 +419,17 @@ Mixed jonimusic item22551702/3568008855 lists AX100G/AX1500G/AX3000G/AX3G atRp89
 | Processing / pitch range | MOD PITCH spans **±24 semitones**, with one-cent FINE adjustment, separate wet/direct levels and TRACKING adjustment. This does not establish polyphonic tracking. | [Parameter guide p8][AX3G-F] |
 | Processing / composite modulation | BI CHO offers four series/parallel/LFO modes; DUO PH offers five, including two six-stage phasers in series. Their second speed control is disabled in BI CHO modes2/3 and DUO PH modes2/4/5. These are internal modes, not extra independently placed blocks. | [Parameter guide pp7–8][AX3G-F] |
 
+### AX3G — battery switching and tuner limits, 2026-10-18
+
+Indexed original [owner manual pp6,10][AX3G-M]; no download or device operation.
+
+| Field | Documented behavior / qualification |
+|---|---|
+| Power / battery input switching | A **mono INPUT cable switches battery power on**; removing it switches off. A stereo input cable does not activate battery power. Low batteries produce a blinking **Lo** warning. Four alkaline AA cells are separately sold; the published eight-hour figure is battery runtime, not current draw. |
+| I/O / headphone sharing | Headphones connect to **OUTPUT**, corroborating its shared stereo line/headphone role; not a separate headphone socket. |
+| Live / tuner | Calibration **A=438–445Hz**, shown as38–45, returns to **440Hz after power-off**. [Regional specifications][AX3G-P] separately give detection **A0–E6 (27.5–1318.5Hz)**; detection range differs from calibration range. |
+
+
 ## AX30G
 
 <!-- comparison evidence begins -->
