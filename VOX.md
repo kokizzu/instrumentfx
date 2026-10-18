@@ -160,6 +160,17 @@ Checked 2026-10-18 against [VOX chart dated 2023-02-20](https://voxamps.com/wp-c
 | Editor / Windows support ended | **End Of Support** for ST USB audio, USB MIDI, ST ASIO driver and Sound Librarian on **Windows10 21H2/22H2 (32/64-bit)** and **Windows11 21H2/22H2 (64-bit)**. A generic VOX driver Yes elsewhere in the chart does not override these model-specific rows. This is declared support status, not a hardware failure test; subsequent Windows builds remain unverified. |
 | Editor / Windows8.1 distinctions | USB audio, USB MIDI and Librarian retain Yes for32/64-bit Windows8.1, with qualifications. **ST ASIO driver: Yes32-bit, No64-bit**. USB audio uses the standard driver and excludes64-bit applications; MIDI/Librarian require VOX USB-MIDI driver. These separate rows must not be treated as universal64-bit audio compatibility. |
 
+
+### ToneLab ST — tuner and expression endpoint limits
+
+| Field | Exact-model qualification |
+|---|---|
+| Live / tuner calibration | Detection **A0–E6 (27.5–1318.5Hz)**; reference **438–445Hz**, reset to **440Hz at power-on**. Press UP+DOWN for effect-bypassed tuning; hold both about2s for mute. Either pedal or EXIT/TUNE exits. This is not proof of analog true bypass or trails. [Manual pp23,33][TLST-M] |
+| Expression / fixed reverb endpoints | Reverb-input pedal minimum/maximum values are assigned automatically and **cannot be changed**. PITCH SHIFTER initially assigns minimum0 (no shift), maximum=current pitch value; its endpoints can be edited. Do not generalize adjustable ranges to every target. [Manual p25][TLST-M] |
+| Expression / assignment persistence | Changing effect normally clears the pedal assignment. Exceptions include ampGAIN, reverb-input level across reverb types, and delay-input level when switching among ECHO PLUS/DELAY/CHORUS+DELAY. This does not preserve an arbitrary previous parameter mapping. [Manual p25][TLST-M] |
+
+Checked2026-10-18 from original manufacturer manual text;no downloads or device operation.
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified Shopee hardware
