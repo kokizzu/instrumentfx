@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Roland GR-33 discovery lead",
-    "task": "Primary manufacturer establishes independent effect processors but synth-only processing. Exact Shopee hardware item unresolved; no active addition or price assigned. Resolve exact offer and English manual routing before classification.",
+    "model": "Fresh Shopee discovery / remaining model verification",
+    "task": "GR-33 English original manual p15/p100 now corroborates synth-only routing. Exact offer remains unresolved; retain deferred lead without repeated identical searches. Next inspect remaining required fields of an active model or fresh brand-series Shopee leads.",
     "next_models": [],
-    "after_queue": "349 partial active models; continue required model gaps and lossless legacy consolidation. No downloads/workflows/push."
+    "after_queue": "349 partial models; complete specification/market evidence and lossless legacy consolidation. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -76073,6 +76073,22 @@
       "source": "https://www.roland.com/RolandComSite/media/pl/media/pdf/GR-33.pdf",
       "finding": "Manufacturer Polish manual explicitly restricts the effects to internal synth generation; normal guitar and external sound modules cannot be processed. English original PDF opened as 130 pages but exposed no searchable text in this pass; no visual inspection claimed."
     },
-    "next": "Resolve exact Shopee item/seller and verify English manual signal path. Evaluate eligibility against independent multi-effects architecture with synth-only restriction explicit; do not infer ordinary guitar-input processing or bass support."
+    "next": "Resolve exact Shopee item/seller and verify English manual signal path. Evaluate eligibility against independent multi-effects architecture with synth-only restriction explicit; do not infer ordinary guitar-input processing or bass support.",
+    "english_manual_confirmation": {
+      "source": "https://cdn.roland.com/assets/media/pdf/GR-33_OM.pdf",
+      "pages": "15 and 100 (printed)",
+      "access": "Search-index text from original manufacturer manual; direct PDF text unavailable; no screenshot or download",
+      "finding": "Printed p100 expressly limits built-in effects to internal synth sounds. P15 routes normal guitar through GUITAR OUT to external effects and back through GUITAR RETURN for combined MIX OUT. This corroborates Polish-manual routing.",
+      "caution": "Search extraction of p15 swaps headphone left/right names within the same excerpt; do not promote its contradictory jack labels without visual verification."
+    },
+    "market_followup": {
+      "queries": [
+        "site:shopee.co.id \"efek gitar roland\" \"33\"",
+        "site:shopee.co.id \"GR-33\"",
+        "\"efek gitar roland GR 33 synthesizer string piano dll sound keyboard syns\"",
+        "site:shopee.co.id \"roland\" \"synthesizer string piano\" -inurl:search -inurl:list"
+      ],
+      "result": "Only category-page title repeated; exact seller/item unresolved. Unrelated badminton and other GR33 matches rejected. No assigned price, condition, stock or bundle."
+    }
   }
 }
