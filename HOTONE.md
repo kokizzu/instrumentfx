@@ -135,6 +135,18 @@ Checked2026-10-19:[official manual index](https://www.hotone.com/support/1?pid=4
 | IR / Sound Clone slots | Appendix separately lists **Sound Clone1–10** loaded throughSound Clone Manage;these are file positions,not10factory algorithms orIR slots. |
 
 
+### Ampero One — V3.1 AMP census and counting limits, 2026-10-19
+
+[Own V3.1 manual transcription](https://fr.scribd.com/document/1067861623/Ampero-One-Online-Manual-en-Firmware-V3-1-1773037044207),printedpp30–36. Editorial row count;not a tested installed-firmware inventory.
+
+| Field | Revision-specific finding |
+|---|---|
+| Processing / AMP rows | **22Clean+28Drive+22HiGain+5Bass+2Acoustic=79listed rows**. Named channel/switch variants count separately. This doesnot overwrite historicalV1.1's65orproduct64. |
+| Processing / transcription ambiguity | Drive lists Messe IIC+1,2,2 while describing3switch combinations. Preserve the repeated2label;do not silently rename the third row orclaim79distinct names. Marshell SLP normal/bright also shares a displayed name with distinct channel descriptions. |
+| Processing / category arithmetic | V3.1 documented category-row subtotal:84sharedFX+79AMP+3NR+70factoryCAB/acousticIR+7EQ+22DLY+10RVB=**275entries**. This is **not a deduplicated unique-effect total**:module overlap,duplicate labels anddifferent model types remain. UserIR20,SoundClone10,mic choices andparameter modes are excluded from this subtotal. |
+| Processing / revision interpretation | The appendix includes Match30Clean andadditional amp variants absent from older totals. Product242effects/64amps andregional244 remain separate historical/marketing claims;no invented exact reconciliation. |
+
+
 ## Hotone consolidation scope
 
 The six recorded Hotone models now retain their complete model findings and supporting comparison facts here. Original legacy sources remain available. Consolidation does not establish exhaustive market coverage or close unresolved specification and price fields.
