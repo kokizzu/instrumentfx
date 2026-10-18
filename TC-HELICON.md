@@ -946,6 +946,12 @@ Checked **2026-10-17**; partial. Vocal multi-effects, second-generation unit. Gu
 | New IDR | **?** Retail-looking hardware asks below lack item-condition verification. |
 | IDR condition-unverified ask — additional offer | **Rp5.600.000**, [PnA Music Store,shop160105847/item12928778203](https://shopee.co.id/Effects-Vocal-TC-Helicon-Harmony-Singer2-i.160105847.12928778203),Kota Jakarta Timur. Checked2026-10-17,last-week crawl;JS-limited direct body. New/used condition,working state,hardware revision,stock,selected variant,adapter/battery bundle,warranty,authenticity,shipping/tax/voucher and delivered total unknown. Relative tomorrow delivery does not establish stock;Rp10.000 late compensation is not a discount. Not a completed sale or verified new price. |
 
+
+### Harmony Singer 2 — additional offer with conflicting cached prices
+
+| Field | Evidence / qualification |
+|---|---|
+| IDR / condition-unverified cached ask | Checked2026-10-18: **Soundstationstore,Kota Tangerang Selatan;seller250276993/item25734277597**. Last-week search cache shows **Rp4.904.650**;direct-page text,marked two months old,shows **Rp4.180.000**. Both belong to the same exact listing;neither establishes today's price. No Habis marker exposed;condition,quantity,checkout,working state,revision,adapter/bundle andwarranty unknown. Relative same/next-day delivery doesnot prove stock;Rp10.000 late compensation isnot a purchase discount. Used/new price classification remains unresolved. [Exact hardware](https://shopee.co.id/TC-Helicon-Harmony-Singer-2-Vocal-Effect-Pedal-Efek-Vokal-i.250276993.25734277597) |
 <!-- comparison evidence ends -->
 
 ### Exact Shopee offers checked 2026-10-17

@@ -493,7 +493,7 @@ def main():
         if mode == 'commit-x3live':
             message = 'research(line6): qualify X3 Live USB controls and MIDI documentation conflict'
         if mode == 'commit-harmony-singer2':
-            message = 'research(tc-helicon): corroborate Harmony Singer 2 guide from manufacturer index'
+            message = 'research(tc-helicon): preserve Harmony Singer 2 cached offer discrepancy'
         if mode == 'commit-duplicator':
             message = 'research(tc-helicon): add Duplicator with model-specific bypass and source conflicts'
         if mode == 'commit-mic-mechanic2':
