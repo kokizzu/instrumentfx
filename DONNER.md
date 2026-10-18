@@ -226,3 +226,11 @@ Checked **2026-10-17**. Partial guitar multi-effects record; bass/vocal suitabil
 ### Triple Threat — alternate official manual source
 
 Checked2026-10-17: [Donner Mexico’s exact product page](https://mx.donnermusic.com/products/donner-triple-threat-pedal-de-efectos-para-guitarra) links a second [official-storage manual](https://storage.donnermusic.com/official-user/202403/Donner_Triple_Threat_Manual.pdf). The web reader rejected application/octet-stream; contents and revision were not inspected. This is a source-access lead, not connector confirmation or evidence that the manual matches the Rev01 transcription byte-for-byte. The page’s customer bass-use review and unrelated Alpha BASS review are excluded from instrument eligibility and I/O evidence. No download attempted.
+
+## Unresolved Donner discovery
+
+### Alpha FX source-recovery lead
+
+Checked2026-10-18. [SAP AUDIO storefront](https://shopee.co.id/sap_audio) searchcache again names **DONNER ALPHA FX,Rp550.000**;direct storefront remains a cache miss. No exact seller/item IDs,condition,variant,stock,bundle,warranty,region,voucher orcheckouttotal established. This remains a discovery lead,not an accepted used/new price or active model record. Alpha Cruncher,Alpha Force andAPL are separate names;their specifications are not transferred.
+
+The [French manual catalogue](https://manuals.plus/fr/category/donner/page/3) exposes a document-specific **Alpha FX Mini Effect Chain** [original-document lead](https://manuals.plus/fr/m/f07cbc77aa4531e85d7d7e4149f190808ac89bc465f0f2983caed8ef80128160). French landing cache miss;English hash landing403;PDFcache miss. Original contents,manufacturer authorship/revision andtechnical claims remain unverified. This is a targeted recovery URL,not acceptance of a generated manual orsecondary specifications. Donner’s [Australian downloads index](https://au.donnermusic.com/pages/download) listsALPHA SERIES butdid not expose anexactAlphaFXmanual link in readabletext. No files downloaded.
