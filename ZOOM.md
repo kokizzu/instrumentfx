@@ -3374,6 +3374,15 @@ Checked2026-10-18 against [own original manual printedpp29–30,33](https://zoom
 | Processing / cabinet parameter scope | For amp/drive types,CABINET **Off** retains head/stomp characteristics;**1–3** adds cabinet sound atdifferent intensities. For thethree synth types,the manual instead describes1–3 as different cabinet types. These parameter values are not three additional independent effect blocks,userIR slots oran audited complete cabinet-model list. |
 | Delay / dedicated-module range | DELAY,PINGPONG DELAY andECHO share **10–990ms in10ms steps;1.0–5.0s in100ms steps** in the actual module table,p33. The parameter-table reading example,p26,prints1.0–5.0 initsrange but1.0–2.0 initsstep explanation;that example conflict does not override the dedicated table. Five-second delay is not five-second overdub-loop storage orproof ofpatch-change spillover. |
 
+### B2.1u — storing edits and read-only preset targets
+
+[Own original manual printedpp15–17](https://zoomcorp.com/media/documents/E_B21u.pdf),checked2026-10-19;document inspection only.
+
+| Field | Evidence / qualification |
+|---|---|
+| Memory / save and copy behavior | UserbanksA–d are writable;presetbanks0–3 read-only. STORE from apreset defaults targettoA0,not an overwrite oftheROMpreset. Select destinationbank withBANK keys andpatchnumber withfootswitches,thenSTORE again. TurningModule selector beforesecondSTORE cancels. Changingpatch afterediting withoutsaving losesedits;pedalassignments mustalsobestored perpatch. |
+
+
 ## RFX-2000
 
 Checked2026-10-17;partial. Own manual guitar setup and dynamic-microphone vocal path establish guitar/vocal scope. Bass applicability unclassified;ownership unestablished.

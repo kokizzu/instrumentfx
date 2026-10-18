@@ -2027,3 +2027,7 @@ research-commit-harley-benton:
 .PHONY: research-commit-boss
 research-commit-boss:
 	python3 scripts/boss_catalogue.py commit
+
+.PHONY: research-commit-zoom
+research-commit-zoom:
+	python3 scripts/zoom_catalogue.py commit
