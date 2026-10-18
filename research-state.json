@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceTone Create XT",
-    "task": "Resolved CreateXT named supply: own service sheet960899002 PowerPlug12V;exactpart indexedmanufacturer cross-check1A capacity,notdraw. Polarity/plug/deviceconsumption remainunknown. Next freshShopeediscovery orcurrent VoiceSupport/screen evidence;do not repeat audio/blockaudit.",
+    "task": "Saved historical VoiceSupport1.1 data-refresh/session-cache and single-connected-product limits fromindexedprimaryguide;direct500,currentOSstillunverified. Next freshShopeebrand/seriesdiscovery;retain CreateXT display/polarity/draw/currentsoftware gaps.",
     "next_models": [],
     "after_queue": "373active/46brands;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
   },
@@ -81388,5 +81388,11 @@
       "https://service-tcgroup.tcelectronic.com/files/tech_service/voicelive3/spareparts_voicelive3.pdf"
     ],
     "finding": "Own-model service sheet confirms PowerPlug12V part960899002. Exactpart indexed manufacturer sheet labels12V/1A LevelVI;direct secondsource502. No device draw,polarity orthirdpartycompatibility certified."
+  },
+  "create_xt_voicesupport_followup_20261018": {
+    "source": "https://cdn.mediavalet.com/aunsw/musictribe/wY3JMrohCUqPcboc-3YGlA/lQH0L6ee_kqAufSJhiXvgw/Original/User-Manual_VoiceSupport-1_2020-10-16_Rev.pdf",
+    "revision": "VoiceSupport1.1.00 ©2010 p11",
+    "access": "Indexed manufacturer text;direct500. Secondary1.2 PDF timedout;no currentOS certification.",
+    "finding": "Session reuse and manual refresh distinctions saved;single-connected-product scope retained."
   }
 }
