@@ -3834,3 +3834,15 @@ Checked 2026-10-19. [Original manufacturer manual](https://static.roland.com/ass
 | I/O / loop wording | [BOSS Users Group article](https://www.boss.info/us/community/boss_users_group/806/?lang=en-US) describes LOOP1/2 mono/stereo,series/parallel/direct-out operation andfixed pre-effect PRELOOP. Its MAIN/SUBXLR naming differs from manual;manual panel names retained. Article doesnot prove three independently stereo physical loops;exact stereo-pair routing remains unresolved. |
 
 No software,firmware orfiles downloaded orrun. USB format,physical controls,memory protection andqualified IDR remain open.
+
+### GT-Pro — exact loop pairing and USB-input restriction
+
+Checked 2026-10-19 against manufacturer-authored GT-PRO manual reproduced by ManualsLib, printed [p52](https://www.manualslib.com/manual/499099/Boss-Gt-Pro.html?page=52) and [p53](https://www.manualslib.com/manual/499099/Boss-Gt-Pro.html?page=53). Exact title,164-page structure andmatching LOOP/PRELOOP sections corroborate original manual identity;original body only,not generated Q&A.
+
+| Field | Manual evidence / qualification |
+|---|---|
+| I/O / stereo-loop pairing | LOOP1+2 use two send/return pairs together: **Stereo1 stereo-send/stereo-return;Stereo2 mono-send/stereo-return**. They cannot occupy different effect-chain positions. Alternatively1→2 is series and1&2 parallel. This qualifies overview wording;not three independently stereo loops. |
+| I/O / loop modes | Normal inserts external processing;DirectMix blends return with loop-input dry signal;BranchOut sends outward while ignoring return. Send/return levels0–200 are relative controls,not dBu ratings. |
+| I/O / PRE LOOP restriction | Fixed ahead ofINPUTLEVEL;cannot reorder. **Unavailable with InputSelect=USBIn**. Distortion placed here can impair pitch-detection effects such as guitar synth/Harmonist. This is an actual USB reprocessing restriction,not an extra USB channel. |
+
+Earlier general loop ambiguity is superseded by these explicit manual routing details. USB stream format,control totals,memory protection andcomplete category census remain unresolved. No download orhardware operation.

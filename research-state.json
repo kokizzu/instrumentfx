@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro rear I/O priorities,externaldefaults andsynth evidence saved. Next exact loop stereo-pair routing,USB format,control counts,memory andcategory census;use readable original-body mirror if required,not repeated oversizedPDF.392partial;migration incomplete.",
+    "task": "GT-Pro exact loop pairing resolved andPRELOOP USBIn exclusion saved. Next USB driver/streamformat,reamp settings,control totals,memory andcategory census inreadable manufacturer manual mirror.392partial;migration incomplete.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -121349,5 +121349,20 @@
       "Guitar/WaveSynth explicit,30drive6wah"
     ],
     "conflict": "Community article output naming differs frommanual;manual retained.Three independently stereo loops unproven."
+  },
+  "gtpro_loop_pairing_20261019": {
+    "sources": [
+      "https://www.manualslib.com/manual/499099/Boss-Gt-Pro.html?page=52",
+      "https://www.manualslib.com/manual/499099/Boss-Gt-Pro.html?page=53"
+    ],
+    "identity": "Original GT-PRO manual body;164-page structure andsection matches;not FAQ.",
+    "resolved": [
+      "LOOP1+2 combined stereo path;notindependentchainpositions",
+      "Stereo1stereo/stereo,Stereo2mono/stereo",
+      "series/parallel modes",
+      "Normal/DirectMix/BranchOut",
+      "PRELOOPfixed beforeINPUTLEVEL;disabledwithUSBIn",
+      "preloopdistortionmayimpairtracking"
+    ]
   }
 }
