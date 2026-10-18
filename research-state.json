@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 365,
+  "active_model_count": 366,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 365,
+  "canonical_root_model_count": 366,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "365 unique active/root-canonical;0 legacy-only;46 brands;six excluded;all partial.",
+  "count_reconciliation": "366 unique active/root-canonical;0 legacy-only;46 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom MS-100BT",
-    "task": "Corrected mainrow source attribution andstale softwareunknown wording;no newmodel. Legacy114heading redirects retained under explicitanchor contract. Next broadShopee discovery ormeaningful requiredfield audit;do notrepeat compatibilityretention review orMS100BTlisting asnew evidence.",
+    "model": "TC Electronic NOVA System",
+    "task": "Added manufacturer-established partial guitar multifx;no exactShopee hardware. Next audit category/concurrency,routing/drive dependency,physicalbuttons/expression andmanual dimensionunit conflict;current editor andqualified IDR unknown. Exclude generatedmirrorFAQ USB/96k/9effect claims.",
     "next_models": [],
-    "after_queue": "365active/46brands;306guitar159bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
+    "after_queue": "366active/46brands;307guitar159bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -5419,6 +5419,13 @@
       "checked_date": "2026-10-18",
       "status": "partial",
       "finding": "Original manufacturer product andmanual establish guitar multifx;no qualified exactShopee hardware offer. Preserve battery-count conflict;full IO/category/control audits remain."
+    },
+    {
+      "model": "TC Electronic NOVA System",
+      "destination": "TC-ELECTRONIC.md#nova-system",
+      "checked_date": "2026-10-18",
+      "status": "partial",
+      "finding": "Exact manufacturer manual identifies guitar multifx;official endpoints inaccessible,original mirroredmanual identity/revision checked. No qualified Shopeeoffer. Generated mirror FAQ not evidence."
     }
   ],
   "consolidation_and_price_findings": [
@@ -24919,7 +24926,8 @@
       "PLETHORA X3",
       "PLETHORA X5",
       "M350",
-      "M-One XL"
+      "M-One XL",
+      "NOVA System"
     ],
     "Eventide": [
       "H9 Max",
@@ -25378,7 +25386,8 @@
       "PLETHORA X3",
       "PLETHORA X5",
       "M350",
-      "M-One XL"
+      "M-One XL",
+      "NOVA System"
     ],
     "EVENTIDE.md": [
       "H9 Max",
@@ -25443,7 +25452,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 306,
+      "record_count": 307,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -25473,10 +25482,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 306 guitar, 159 documented bass-capable, 69 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 307 guitar, 159 documented bass-capable, 69 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "365 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "366 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -45909,10 +45918,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 365,
-    "canonical_root_models": 365,
+    "unique_brand_model_pairs": 366,
+    "canonical_root_models": 366,
     "legacy_only_models": 0,
-    "guitar_view_models": 306,
+    "guitar_view_models": 307,
     "bass_focused_models": 35,
     "vocal_only_models": 24,
     "vocal_view_models": 69,
@@ -45994,7 +46003,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom MS-100BT."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Electronic NOVA System."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -46274,6 +46283,7 @@
       "TC Electronic::PLETHORA X5",
       "TC Electronic::M350",
       "TC Electronic::M-One XL",
+      "TC Electronic::NOVA System",
       "Eventide::H9 Max",
       "Eventide::H90",
       "Fractal Audio::FM3 MKII Turbo",
@@ -49155,6 +49165,13 @@
     },
     "TC Electronic::M-One XL": {
       "link": "TC-ELECTRONIC.md#m-one-xl",
+      "source_files": [
+        "TC-ELECTRONIC.md"
+      ],
+      "finding_files": []
+    },
+    "TC Electronic::NOVA System": {
+      "link": "TC-ELECTRONIC.md#nova-system",
       "source_files": [
         "TC-ELECTRONIC.md"
       ],
@@ -80901,5 +80918,14 @@
     "date": "2026-10-18",
     "scope": "Main memory/I/O rows now cite originalproduct andpatchlist for30/20fill anddualsocketcounts;weight excludesbatteries;intro reflects datedUSAppStoreOSlisting while retaining transfer/region uncertainty.",
     "new_manufacturer_facts": false
+  },
+  "discovery_nova_frontier_20261018": {
+    "queries": [
+      "site:shopee.co.id TC Nova System",
+      "site:shopee.co.id TC G System",
+      "site:shopee.co.id DigiTech RP355",
+      "site:shopee.co.id Korg AX300B"
+    ],
+    "result": "No qualified exacthardware;RP355 adapter855783279/22273291654 excluded."
   }
 }

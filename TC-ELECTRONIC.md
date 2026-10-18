@@ -365,3 +365,31 @@ Stereo-linked copies Engine1 settings into Engine2. Dual mono keeps separate mon
 [M1XL-C]: https://service-tcgroup.tcelectronic.com/media/Rev_Comparison_02b%281%29.pdf
 
 Comparison sheet is indexed manufacturer evidence only; direct PDF inaccessible. Original manual remains accessed through the watermarked mirror; no download performed.
+
+## NOVA System
+
+Checked 2026-10-18. Guitar multi-effects, distinct from NOVA Drive/Modulator and G-System. Manufacturer manual revision1.2,SW1.10,E60508712: identity verified from original text on mirror. Official PDF endpoints failed;generated mirror summary/FAQ excluded. Bass/vocal suitability unresolved.
+
+<!-- comparison evidence begins -->
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | External Pedal In accepts expression orG-Switch;calibration required. Built-in/toe audit pending. | [Manual][NOVA-M] pp9,16–17 |
+| K/F/B | Four A–D encoders;eight switches described;complete button/classification audit pending. | [Manual][NOVA-M] pp6–9 |
+| Display | 24×2-character LCD;diagonal/color/touch unresolved. | [Manual][NOVA-M] p46 |
+| Dimensions / weight | Printed284×89×267mm,axis order unlabelled;1.85kg. Inch-to-mm depth correspondence appears inconsistent;not silently corrected. | [Manual][NOVA-M] p46 |
+| Processing / choices | Analog overdrive/distortion plus six digital blocks:compression,EQ+gate,modulation,pitch,delay,reverb. Exact simultaneous ceiling andper-category choice census pending. | [Manual][NOVA-M] p5 |
+| Factory / user memory | 30factory+60user presets;initial user fill unresolved. | [Manual][NOVA-M] p5 |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified;pitch effects alone do not establish synthesis. | Pending |
+| I/O | Drive In,Line In,two balancedTRS outputs,MIDI In/Out/Thru5-pinDIN,Pedal In,mains. Line In bypasses analog preamp/drive. Other-port audit pending. | [Manual][NOVA-M] pp9,46 |
+| Conversion | AD/DA24-bit128×oversampling;listed converter delay0.63ms at48kHz. Complete operating-rate specification pending. | [Manual][NOVA-M] p46 |
+| Power / battery / USB | 100–240VAC50–60Hz auto-select,<15W. DC-barrel polarity N/A to documented mains supply. Battery/USB operation unverified. | [Manual][NOVA-M] p46 |
+| IR / NAM / capture | UserIR,native/convertedNAM andproprietary capture import unverified. | Pending |
+| Editor / software | Editor/platform/OS support unverified;MIDI connector doesnot prove USB audio/editor compatibility. | Pending |
+| Looper / drums / routing | Looper,drums,scenes andfull routing/spillover audit pending. | Pending |
+| IDR used | Unknown;no qualified exacthardware offer. | Shopee search2026-10-18 |
+| IDR new | Unknown;no exactShopee hit. Seller/item,condition,stock,region,bundle,warranty,voucher andcheckout total unresolved;not proof ofunavailability. | Shopee search2026-10-18 |
+<!-- comparison evidence ends -->
+
+[NOVA-M]: https://manualzz.com/doc/7256177/tc-electronic-nova-system-guitar-and-bass-owner-s-manual
+
+Official original endpoints retained forprovenance: https://service-tcgroup.tcelectronic.com/media/Nova_Sys_US.pdf (502); https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_nova_system_manual_english.pdf (inaccessible). No package/file downloaded ordevice/software operated.

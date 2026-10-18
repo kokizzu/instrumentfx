@@ -177,7 +177,7 @@ def main():
         if mode == 'commit-mg20':
             paths += ['NUX.md']
         if mode == 'commit-m100':
-            paths += ['TC-ELECTRONIC.md']
+            paths += ['TC-ELECTRONIC.md', 'MULTI-EFFECTS.md']
         if mode == 'commit-hxe-price':
             paths += ['LINE6.md']
         if mode == 'commit-criticalmass':
@@ -461,7 +461,7 @@ def main():
         if mode == 'commit-mg20':
             message = 'research(nux): document Amp Academy Stomp USB playback and preset controls'
         if mode == 'commit-m100':
-            message = 'research(tc-electronic): verify X5 dated mobile editor compatibility'
+            message = 'research(tc-electronic): add qualified NOVA System manual profile'
         if mode == 'commit-rfx1100':
             message = 'research(zoom): qualify RFX1000 conversion levels and additional offer'
         if mode == 'commit-spx990':
