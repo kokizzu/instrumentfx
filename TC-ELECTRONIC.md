@@ -275,6 +275,17 @@ Checked 2026-10-18 from original text in the [manufacturer Rev1.1/SW1.00 manual,
 | I/O / MIDI channel and SysEx ID | Receive channel1–16, O for all channels, or OF to ignore incoming MIDI; factory/reset default ischannel1. SysEx ID follows the selected MIDI channel. LOAD confirms the menu choice. These addressing options do not establish editor operating-system support. |
 
 
+### M350 — historical editor scope and algorithm limits
+
+Checked 2026-10-18 through manufacturer-hosted original indexed text;no local download or software operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / dated feature provenance | [TC Summer2007 catalogue,p11](https://service-tcgroup.tcelectronic.com/media/Touring_Install_DE.pdf) describes a bundled VST editor with parameter/preset automation and realtime control;the [English cutsheet](https://service-tcgroup.tcelectronic.com/media/M350_Cutsheet_web.pdf) also lists AU. This dates the capability claim;recent indexing/upload labels are not new editor releases. Installer availability,OS versions,plugin bitness and current host compatibility remain unverified. |
+| Looper / delay timing limits | Cutsheet advertises **5seconds of delay**. [Rev1.1 manual,printedp24](https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf) gives TIMING **0.5–2×** the tapped interval and power-up tempo120BPM;range depends on algorithm,with Slapback shorter. Do not assign5seconds to every delay type or confuse this with phrase-loop recording. |
+| Processing / compressor controls | Manual pp25–26:TIMING becomes drive/threshold;FEEDBACK/DEPTH sets ratio. Attack is fixed and automatic makeup gain compensates level reduction. No adjustable attack time or numerical ratio range is established here. |
+
+
 ## M-One XL
 
 Checked 2026-10-17; partial. [Original English manual, mirrored][M1XL-M], Rev4, product E60500152: SW2.07 XL versus1.43 Standard. Manufacturer download inaccessible; mirror adds watermarks. Text-only review.
