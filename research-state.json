@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceLive Touch 2",
-    "task": "Touch2 analog/converter/headphone ratings saved;USBformats andDCpower remainunknown. Continue other exactprimarygaps orfreshShopee discovery.",
+    "task": "Touch2 guitarEQ/dynamics andmonitoring scope saved. Resume freshShopee discovery oranothermodel primarygap;exacttiming/power/display/USBfields unresolved.",
     "next_models": [],
     "after_queue": "342 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -72844,5 +72844,11 @@
     "checked_date": "2026-10-18",
     "finding": "Original QuickGuide body analog electrical/converter/headphone ratings now retained;converterbits are not promoted toUSBformat. No powerswitch corroborated.",
     "remaining": "Unit DCvoltage/polarity/current,phantomvoltage,USBformats anddisplaystillunverified;search yieldednoexactmanufacturer DCspec. Do notinferfromsiblings."
+  },
+  "vlt2_guitar_monitor_followup_20261018": {
+    "source": "https://manualzz.com/doc/9506742/tc-helicon-voicelive-touch-2-reference-manual",
+    "checked_date": "2026-10-18",
+    "finding": "Guitar EQ/dynamics and dry-voice timing/monitoring scope retained from original reference bodypp59–63;notgeneratedFAQ.",
+    "remaining": "ExactEQfrequencylimits,delaymilliseconds,USBformats,DCpower anddisplayunknown. Resume freshShopee discovery orothermodelprimarygap."
   }
 }

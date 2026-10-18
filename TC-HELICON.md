@@ -982,6 +982,12 @@ Distinct from original Touch and VoiceLive Play. Checked2026-10-18;partial. Refe
 | I/O / conversion | AD/DA **24bit,128×oversampling**;published converterSNR110/115dBA respectively. These are converter specs,not verified USB bitdepth/rates. Output dynamicrange>109dB;20Hz–20kHz response+0/−0.3dB. | [Quick Guide p.14][VLT2-Q] |
 | Power / startup | No power switch;connecting supplied adapter turnsunit on. USB explicitlydoesnot powerunit. This doesnot resolve DCvoltage,polarity orcurrent. | [Quick Guide p.3][VLT2-Q] |
 
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / guitar dynamics and EQ | Compressor Ratio1.0 disables compression;threshold must be below0dB for compression to act. Three guitar EQ bands each span **±12dB**:low/high shelving,mid center-frequency adjustment. Frequency limits andQ remain unverified. | [Reference pp.61–63][VLT2-R] |
+| I/O / dry-voice timing | Lead Delay **None** adds none; **Voice Sync** applies fixed dry-vocal alignment delay,mainly for prerecorded tracks; **Auto** delays dryvoice only whileHarmony/Double active. Exact milliseconds unresolved;not another echo algorithm. | [Reference p.60][VLT2-R] |
+| I/O / monitoring and Aux | Headphone Limiter below0dB engages **headphone-only** peak limiting;not main-output limiting. Vocal Cancel processes **Aux only**,reducing centered vocals in stereo music;not complete stem separation or mic cancellation. | [Reference p.59][VLT2-R] |
+
 ### Separate IDR hardware evidence
 
 | Condition | Amount / qualifications | Exact item |
