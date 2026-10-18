@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Shopee Indonesia discovery",
-    "task": "Ampero One V3.1 category-row census saved withduplicate-label andmarketing conflicts. Resume fresh cross-brand exact hardware/price discovery;do not repeat unchanged Ampero manual/offer paths asnew research.",
+    "task": "Ampero One summary now matches saved V3.1 evidence;historical counts retained andunique total unresolved. Resume fresh cross-brand Shopee discovery/exact-offer verification;do not re-open unchanged model sources without new evidence.",
     "next_models": [],
     "after_queue": "387 active models,46 brands,all partial;technical/currentoffer gaps remain;no downloads/workflows/push."
   },
@@ -82028,7 +82028,7 @@
     "scope": "Explicit uncertainty signals in selected comparison field labels and values only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
     "model_count": 387,
     "models_with_signals": 387,
-    "flagged_field_count": 4937,
+    "flagged_field_count": 4940,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -93654,6 +93654,13 @@
             ]
           },
           {
+            "field": "Category choices from original manual",
+            "source": "HOTONE.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "Synth",
             "source": "HOTONE.md",
             "signals": [
@@ -93664,7 +93671,7 @@
             "field": "Proprietary clones / NAM",
             "source": "HOTONE.md",
             "signals": [
-              "not_established"
+              "unverified"
             ]
           },
           {
@@ -93679,6 +93686,13 @@
             "source": "HOTONE.md",
             "signals": [
               "not_established"
+            ]
+          },
+          {
+            "field": "Recording",
+            "source": "HOTONE.md",
+            "signals": [
+              "unverified"
             ]
           },
           {
@@ -93752,6 +93766,13 @@
             "source": "HOTONE.md",
             "signals": [
               "unverified"
+            ]
+          },
+          {
+            "field": "Processing / total reconciliation",
+            "source": "HOTONE.md",
+            "signals": [
+              "unresolved"
             ]
           }
         ]
@@ -119468,12 +119489,12 @@
       "TC-ELECTRONIC.md": "46ca68e66568f02e972ac73999ae6e09ce1746d8833b8d9e725b74664b4c2fbc",
       "VALETON.md": "a5d6f6ea7fbdb07244df7fb483d987fb2287edb0c582532cf619c66dfd2f7ecd",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
-      "ALL-GUITAR.md": "16462c109469a83aacaa6a1cc572d1586e4644da7e1c27040666a6a9ba1fd2d5",
+      "ALL-GUITAR.md": "1c24fed01fcb269224c0d41efac82c24872a01bf1bd202c84130e91b89a15907",
       "LINE6.md": "bbbe508cca147737b97aadbd9b3fbb2e20faa83c7ae8e717abd7acd42c6e63da",
       "YAMAHA.md": "c3ef2f3c290ebe7173c9c36a9d6937b3e3968fbc91a3ee6ab93b1cc3a81eb2d8",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
-      "ALL-BASS.md": "59427317aa473c1236c0e3f24dfcb613a40e52d643174ae59cf22f21e42716b2",
+      "ALL-BASS.md": "406c88796a72da2a26519080e1b6c61a432ec7f9173ced04b9e86bd27fcb9716",
       "VING.md": "2873cd6b4d5b13c287eb839977ff782139fb5640008b9f9730ddc289d09f5b67",
       "FENDER.md": "825b3d107ed121195199f3a238cfae504e08c3f4913cd5952787df25109530c8",
       "MOSKY.md": "5fa70acc80dab7bfb6d02f5160afec1e5ee1947c8e343790309c9f78cbc0a07d",
@@ -119502,7 +119523,7 @@
       "SINGLE-GUITAR.md": "9d785a2665a3bbcbc1effe4750a232fd0f2b690e82c99a5e4504cbd479a3a0af",
       "DONNER.md": "c37c37a6d312decc6f18ea53df29fb6683f01ed89fdd5bbec65feb8dd2c44837",
       "SINGLE-BASS.md": "b152b4bccbbdf859f5e5e5290abe80fdc5c823ecd2df04c98f52418ef3daa9bf",
-      "HOTONE.md": "4c2a3ef06e55eaf008084a9fc6014d480a62b487b95e7961e01a61a8bd93fd0c",
+      "HOTONE.md": "79bb20742aab76f5c13a91949a6f56d638bb5db59edd4a427173a28051f69fb1",
       "AUDOTA.md": "6b3f98df769cb2ee1ac2c53bc35962eb7def7fdd370a8d43cde0a674a765e7ad",
       "ROLAND.md": "9ce3ef43fca59c82c03e9433494b8712e6a8d44b61af4beaff1ee160337ee343",
       "KEMPER.md": "8d101c0d5aa62f46ec00eb287a8f98e804f6c642ea3c8a45f8c53df39430b094",
