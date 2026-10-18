@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC Electronic PLETHORA X3",
-    "task": "Saved positivepreinstalledTonePrint evidence withunknownfillcount,Boardmenus andmono wiring. X5looper capacity notborrowed. Next differentbrand/series orrequiredmodelgap.",
+    "model": "Fender Mustang Micro original",
+    "task": "Saved ownPR5833 headphone/input ratings andfactoryreset scope. Next another required modelgap orfreshShopee series; do notborrowMicroPlus memory/display/specifications.",
     "next_models": [],
     "after_queue": "353 partial models;294 guitar155 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
@@ -45771,7 +45771,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Electronic PLETHORA X3."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fender Mustang Micro original."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -77489,5 +77489,24 @@
       "Shopee DNAFX"
     ],
     "result": "No exact eligible hardware lead established; no models added."
+  },
+  "technical_followup_mustangmicro_io_reset_20261018": {
+    "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2311300000_Mustang_Micro_US.pdf",
+    "identity": "OwnoriginalPR5833manual",
+    "pages": [
+      "2",
+      "8–9"
+    ],
+    "findings": [
+      "1Minput;30mW/channel headphones;recommendedworkingload>16ohm;testloadnotstated.",
+      "270degreeinputplug.",
+      "Factoryreset operatingselections andBluetoothpairings,notpresetbankproof."
+    ],
+    "remaining": [
+      "Preset/memorysemantics",
+      "Chargevoltage/capacity/time",
+      "USBsampleformat/channels",
+      "Qualifiedcurrentused/newIDR"
+    ]
   }
 }

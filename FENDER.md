@@ -200,6 +200,15 @@ Original PR5833;checked2026-10-17;partial,ownership unverified. Separate from Mi
 | Unverified | **Rp2.474.000**;Salomo Musik,shop1776275/item24838368984,Kota Jakarta Utara;three months indexed crawl. | [Item][MM-O1] |
 | Unverified | **Rp1.374.975**;indie_musicstore,shop191485301/item26444289932,Kota Depok;three months indexed crawl. | [Item][MM-O2] |
 
+### Mustang Micro — headphone ratings and reset scope, 2026-10-18
+
+[Original PR5833 manual, printed pp2,8–9][MM-M]; not Micro Plus specifications. No device operation.
+
+| Field | Verified specification / qualification |
+|---|---|
+| I/O / input and headphone load | **Input1MΩ; headphones30mW/channel**, with published headphone working range **greater than16Ω**. Output power is not a maximum voltage/input-headroom specification; no test load is attached to the30mW line in this table. The input plug rotates up to270degrees. |
+| Memory / factory reset | Reset restores **AMP,EQ,EFFECTS,MODIFY** selections and clears the Bluetooth paired-device list. These are resettable operating settings, not proof of a user-preset bank, per-combination memory count or power-cycle persistence. The retained preset-memory count remains unresolved. |
+
 <!-- comparison evidence ends -->
 
 Historical indexed asks checked2026-10-17,not checkout or current stock. Condition,variant,bundle,warranty,authenticity,shipping,tax,vouchers unresolved;no qualified used/new allocation. No files downloaded or images visually inspected. Exact algorithm lists are preserved above;memory/software/import gaps remain.
