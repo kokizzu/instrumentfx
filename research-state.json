@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Hotone Ampero II MP-350",
-    "task": "MP350 older1.1.0-JP DLY census32 entries saved. Remaining older MOD/RVB census andlatestfirmware reconciliation open;continue primary inventory orfresh Shopee leads.114 Markdown compatibility files retained.",
+    "task": "MP350 older1.1.0-JP RVB census13 stereo entries saved;DLY32 already saved. Remaining older MOD inventory andlatestfirmware reconciliation open.114 Markdown compatibility files retained.",
     "next_models": [],
     "after_queue": "342 partial unique models; Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -73115,6 +73115,34 @@
       "Older revision;not current1.4.0 inventory.",
       "Internal Infidelay lines are not extra chain slots.",
       "Effect bypass Trail doesnot establish patch-change spillover."
+    ]
+  },
+  "mp350_rvb_census_20261018": {
+    "source": "https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf",
+    "revision": "firmware1.1.0-JP",
+    "printed_pages": "83–87",
+    "checked": "2026-10-18",
+    "entries": [
+      "Studio",
+      "Club",
+      "Concert",
+      "Arena",
+      "Small Plate",
+      "Large Plate",
+      "140 Plate HQ",
+      "Combo Spring",
+      "Tube Spring",
+      "Shimmer 1",
+      "Shimmer 2",
+      "Cloud",
+      "Silver Linings"
+    ],
+    "count": 13,
+    "io": "all stereo",
+    "limits": [
+      "140 Plate HQ five modes are internal choices.",
+      "Velvet Verb HQ1.3.0 addition separate;complete current total unresolved.",
+      "Bypass Trail not patch-change spillover."
     ]
   }
 }

@@ -698,6 +698,17 @@ Checked2026-10-18 directly against the identified [manufacturer effect list][MP3
 | Processing / delay channel scope | **10 mono,22 stereo**: mono AnalogM,BBDM,DigitalM,DigitalHQ,TapeM,Sweetie,Recaller andthree Ekopress;all remaining listed entries stereo. Mono/HQ labels are retained,not inferred from names ortransferred from Stage/Stomp. |
 | Processing / delay resource limits | Infidelay1/2 each contain four internal delay lines withTime/Level/Pan controls;these are not four extra effect-chain slots. Trail controls describe effect-bypass tails,not guaranteed patch-change spillover. The32-entry census doesnot prove current firmware retention or32 simultaneous delays. |
 
+### MP-350 — RVB inventory, firmware1.1.0-JP
+
+Checked2026-10-18 against the identified [original effect list][MP350-E11],printed pp83–87 (PDFpages84–88). Manufacturer manuscript text only;no download.
+
+| Field | Revision-qualified inventory |
+|---|---|
+| Category choices / RVB | **13 entries,all stereo I/O**: Studio;Club;Concert;Arena;Small Plate;Large Plate;140 Plate HQ;Combo Spring;Tube Spring;Shimmer1;Shimmer2;Cloud;Silver Linings. Older1.1.0-JP inventory,not a verified current library orsimultaneous capacity. |
+| Processing / reverb mode counts | 140PlateHQ has **A/B/C/D plusTransparent** within one entry;mode choices are not additional effect algorithms. Reverb controls include pre-delay,decay,low/high damping,modulation andbypass Trail. These controls do not establish numerical time ranges orpatch-change spillover. |
+
+Firmware1.3.0’s previously recorded VelvetVerbHQ remains a separate revision-qualified addition;do not claim a complete current14-entry library without later-list reconciliation.
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
