@@ -139,6 +139,17 @@ Checked 2026-10-18 against the original manual, printed pp8,13–18. Counts desc
 | Processing / CLEAN-CST exception | CLEAN/CST provides a four-band tone-control model with GAIN disabled. BASS/MIDDLE/TREBLE centered and PRESENCE minimum reproduce amp-off behavior; the manual recommends cabinet off for a line-like clean sound. Do not describe all 33 entries as gain-bearing amp emulations. [Manual p13][TLST-M] |
 | Routing / output compensation | VOX/F/M output compensation applies only with the amp model enabled. LINE is specified for power-amp input, mixer/recorder/audio system and headphones. [Manual p8][TLST-M] |
 
+
+### ToneLab ST — dated software compatibility and librarian files
+
+Checked 2026-10-18. The following are manufacturer support records with explicit historical dates, not current-OS testing.
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / Windows compatibility | Chart dated **2019-01-24** lists USB-MIDI and Sound Librarian as supported on Windows 7 SP1, 8.1 and 10 version1809, both32/64-bit. USB-audio rows carry a64-bit footnote: standard USB-audio driver operation, with64-bit applications unsupported. This must not be flattened into universal64-bit ASIO support. Modern UI/UWP are excluded. Windows11/current Windows10 builds remain unverified. [Official chart](https://voxamps.com/wp-content/uploads/2019/03/win_compatibilitychart_VOX_en.pdf) |
+| Editor / Mac compatibility | Chart dated **2019-11-29** lists ST USB-audio, USB-MIDI and Sound Librarian on macOS10.12 Sierra,10.13 High Sierra and10.14 Mojave; **support ended** is printed for10.15 Catalina across all three. Librarian is marked unsigned. This is a support status, not proof that operation is physically impossible; newer macOS/Apple Silicon compatibility remains unverified. [Official chart](https://voxamps.com/wp-content/uploads/2019/11/Mac_CompatibilityChart-VOX_jp-2.pdf) |
+| Editor / librarian function and files | Japanese exact-model page documents Sound Librarian **v1.1.0**, program rearrangement, device transfers and file save/load. It includes **TLST_PresetProgram.tlst** plus **50 extra programs in TLST_ExtraProgram.tlst**. These are computer library files, not50 additional onboard slots or a confirmed factory user-slot map. Mac requirements there specify10.4.11+/10.5.6+PPC/Intel; retain the older manual baseline and later chart separately. A full parameter editor is not established. [Official model page](https://voxamps.com/ja/product/tonelab-st/) |
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified Shopee hardware

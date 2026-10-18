@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "VOX ToneLab ST",
-    "task": "Amp-bank 33 and cabinet11 named audit saved, including CLEAN/CST EQ-only exception and output compensation dependency. Next resolve remaining model gaps or fresh Shopee discovery; do not repeat audited 25 effects/33amps/11cabs.",
+    "task": "Saved dated2019 Windows/Mac compatibility, Catalina support-ended status and librarian1.1.0 file capabilities. Modern OS support remains unverified. Next broaden hardware discovery or resolve other required model gaps; do not repeat completed category audits.",
     "next_models": [],
     "after_queue": "347 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -59040,6 +59040,24 @@
         "Qualified prices"
       ],
       "method": "Original manufacturer manual browser text; no download or operation"
+    },
+    {
+      "model": "VOX ToneLab ST",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://voxamps.com/wp-content/uploads/2019/03/win_compatibilitychart_VOX_en.pdf",
+        "https://voxamps.com/wp-content/uploads/2019/11/Mac_CompatibilityChart-VOX_jp-2.pdf",
+        "https://voxamps.com/ja/product/tonelab-st/"
+      ],
+      "finding": "2019 Windows7SP1/8.1/10v1809 USB-MIDI/librarian support, audio64-bit application restriction; Mac Sierra–Mojave listed, Catalina support ended. Librarian1.1.0 rearrange/transfer/file management includes preset file plus50 extra file programs, not extra onboard memory.",
+      "remaining": [
+        "Current Windows/macOS and Apple Silicon support",
+        "Eight-type block accounting",
+        "Physical display specifications",
+        "Factory user-slot mapping",
+        "Qualified prices"
+      ],
+      "method": "Manufacturer HTML/PDF text only; no downloads/installations or hardware testing"
     }
   ],
   "discovery_cross_brand_bass": {
