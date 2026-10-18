@@ -28,7 +28,53 @@ def assert_scope(records):
         assert entry['sha256'] == digest(entry['pointer_text'])
 
 
+def refresh_live_metadata(state, removed, markdown_count, existing_references):
+    migration = state['migration']
+    migration['legacy_reference_files'] = [
+        path for path in migration.get('legacy_reference_files', [])
+        if path in existing_references
+    ]
+    original_count = markdown_count + len(PATHS)
+    if removed:
+        migration['content_consolidation_status'] = (
+            f'All{original_count} original legacy paths accounted for;three JSON pointers removed '
+            f'after typed root reconstruction;{markdown_count} Markdown compatibility files '
+            'retained for historical anchors. Overall migration and technical research remain incomplete.'
+        )
+        task = ('Three redundant JSON pointers removed after exact typed-content verification; '
+                'Markdown redirects remain for historical anchors. Continue technical research '
+                'and audit remaining compatibility layout.')
+    else:
+        migration['content_consolidation_status'] = (
+            f'All{original_count} legacy compatibility paths retained after JSON pointer rollback;'
+            'typed root reconstruction remains verified.'
+        )
+        task = ('Three JSON pointers restored from reviewed exact bytes; Markdown redirects '
+                'remain for historical anchors. Continue technical research and compatibility audit.')
+    state['cursor'].update(
+        model='Legacy JSON pointer cleanup', task=task,
+        after_queue=f"{state['active_model_count']} partial unique models; Markdown compatibility paths retained. No downloads/workflows/push."
+    )
+
+
+def test_live_metadata():
+    # Exercise metadata only: no pointer deletion/restoration or filesystem writes.
+    for count in (342, 344, 400):
+        for removed in (True, False):
+            sample = dict(active_model_count=count, cursor={}, migration={
+                'legacy_reference_files':['effects/research-state.json','effects/RESUME.md']})
+            existing = {'effects/RESUME.md'}
+            if not removed:
+                existing.add('effects/research-state.json')
+            refresh_live_metadata(sample, removed, 114, existing)
+            assert sample['cursor']['after_queue'].startswith(str(count)+' partial')
+            assert set(sample['migration']['legacy_reference_files']) == existing
+            assert ('removed' if removed else 'restored') in sample['cursor']['task']
+            assert '117' in sample['migration']['content_consolidation_status']
+
+
 def verify():
+    test_live_metadata()
     retirement.json_verify()
     state = json.loads((ROOT/'research-state.json').read_text())
     evidence = state['migration'].get('json_pointer_removal')
@@ -36,6 +82,8 @@ def verify():
         print('JSON pointers not removed; preservation verification passed.')
         return
     assert_scope(evidence['records'])
+    for path in state['migration'].get('legacy_reference_files', []):
+        assert (ROOT/path).is_file(), 'Missing live legacy reference: '+path
     removed = evidence['status'] == 'removed'
     for path, entry in evidence['records'].items():
         if removed:
@@ -120,8 +168,8 @@ def apply():
     removed = payload['operation'] == 'remove'
     state['migration']['json_pointer_removal'] = dict(status='removed' if removed else 'restored',checked_date='2026-10-18',records=payload['records'],rollback=payload['rollback'],source_commit=payload['source_commit'],remaining_markdown_compatibility_paths=len(list((ROOT/'effects').rglob('*.md'))))
     state['migration']['legacy_json_retirement'].update(pointer_files_removed=removed,no_source_deletion=not removed)
-    state['migration']['content_consolidation_status'] = 'All117 original legacy paths accounted for;three JSON pointers removed after typed root reconstruction;114 Markdown compatibility files retained for historical anchors. Overall migration and technical research remain incomplete.' if removed else 'All117 legacy compatibility paths retained after JSON pointer rollback;typed root reconstruction remains verified.'
-    state['cursor'].update(model='Legacy JSON pointer cleanup',task='Three redundant JSON pointers removed after exact typed-content verification; Markdown redirects remain for historical anchors. Continue technical research and audit remaining compatibility layout.',after_queue='342 partial unique models; Markdown compatibility paths retained. No downloads/workflows/push.')
+    refresh_live_metadata(state, removed, len(list((ROOT/'effects').rglob('*.md'))),
+                          {p for p in state['migration'].get('legacy_reference_files', []) if (ROOT/p).is_file()})
     retirement.atomic_write(ROOT/'research-state.json',json.dumps(state,ensure_ascii=False,indent=2)+'\n')
     verify()
 
@@ -137,7 +185,7 @@ def commit():
     assert changed <= allowed, changed-allowed
     research_tools.git('add','--',*sorted(changed))
     print(research_tools.git('diff','--cached','--stat'))
-    print(research_tools.git('commit','-m','docs: remove preserved legacy JSON pointers with reviewed rollback'))
+    print(research_tools.git('commit','-m','fix: keep live migration references and cleanup cursors current'))
 
 
 if __name__ == '__main__':

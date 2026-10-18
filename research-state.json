@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Korg AX3000B",
-    "task": "Saved AX3000B single-note synth/parameter andconditionaltail details; ShopeeRP355leadwasadapterexcluded. Next fresh exacthardware discovery or power/display/visualcount/currentOS gaps. No downloads.",
+    "task": "Live migration reference list corrected; cleanup metadata now derives active count and distinguishes remove/restore. Historical typed snapshots/114Markdown redirects retained. Next fresh hardware discovery or outstanding model verification.",
     "next_models": [],
     "after_queue": "344 partial unique models;114 Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -25173,7 +25173,6 @@
     "old_sources_deleted_this_session": false,
     "warning": "344 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
-      "effects/research-state.json",
       "effects/RESUME.md",
       "effects/SCOPE.md",
       "effects/OWNERSHIP.md",
@@ -45472,6 +45471,11 @@
         ],
         "checked_date": "2026-10-18"
       }
+    },
+    "live_reference_audit": {
+      "checked_date": "2026-10-18",
+      "finding": "Removed stale live reference to already-deleted effects/research-state.json; historical source manifests and typed snapshots unchanged.",
+      "regression": "json-pointer-removal-verify rejects missing live references; metadata regression covers342/344/400 active models in remove/restore states without filesystem mutation."
     }
   },
   "deferred_work": {
