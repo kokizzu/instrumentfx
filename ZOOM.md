@@ -2373,6 +2373,16 @@ Original bass multi-effects, distinct from B3n. Checked2026-10-17; partial. Disc
 |---|---|
 | IDR / seller-labelled used category evidence | **Rp1.999.999**,shop1220839369/item41075001096,linked variation282026540893,**Kab.Sragen**. [Shopee Zoom category](https://shopee.co.id/search?category=11043572&keyword=efek+gitar+zoom&page=3&sortBy=relevancy&subcategory=11043648),last-month reader cache,explicitly labels originalB3 **SECOND/BEKAS** and links [this exact item](https://shopee.co.id/EFEK-BASS-EFEK-BASS-SECOND-EFEK-BASS-BEKAS-EFEK-GITAR-SECOND-EFEK-GITAR-BEKAS-ZOOM-B3-EFEK-GITAR-ZOOM-EFEK-ZOOM-B3-BEKAS-ZOOM-B3-ZOOMB3-i.1220839369.41075001096). Direct variation retrieval again returned cache miss. This adds category-level used-title andregion evidence to the earlier shop-only lead;not physical condition verification. Seller name fromthis category,stock,selected variation contents,working state,adapter/bundle,warranty,voucher,shipping/tax andcheckout remain unknown. Not a qualified live used-market range,new price orcompleted sale. Earlier pending-verification note remains historical; direct item verification is still outstanding. |
 
+
+### B3 — Edit&Share editing and initialization behavior, 2026-10-18
+
+[Original Zoom software guide](https://zoomcorp.com/media/documents/EditShare_Operation_Manual_English_2.pdf),revisionEdit&Share-Manual-E-5,linked by [B3 own support page](https://zoomcorp.com/en/us/multi-effects/bass-effects/b3/b3-support/). This is software documentation,not sibling hardware specifications.
+
+| Field | Documented function / limit |
+|---|---|
+| Editor / parameter editing | Edit&Share edits effect on/off,type,parameters,patch names andstored patches,not merely a librarian. Reordering appears only for devices supporting it;B3’s separately documented three-effect architecture remains the limit. Guide also covers patch/group import/export anddevice updates;file imports do not establish IR/NAM/capture loading. |
+| Editor / initialization and sleep | In the patch-list view,**Delete** (Mac:fn+Delete) is the documented **initialize-patch** operation. It is not evidence of an empty memory slot orfactory-filled count. The guide says sleep mode is unsupported;restart Edit&Share ifcommunication stops aftercomputer sleep. No app was run orpatch modified. |
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified historical hardware ask
