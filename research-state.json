@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom B2 FOUR",
-    "task": "B2FOUR appbackupformat/clips/save/USB-CiPad clarified. Sample rate stillunresolved:officialqueries/sharedL8example driverguide do not establish it. Next freshShopee discovery byanother brand/series ormeaningful requiredfield gap;avoid repeating B2FOURsources without new evidence.",
+    "model": "Zoom MS-100BT",
+    "task": "Corrected mainrow source attribution andstale softwareunknown wording;no newmodel. Legacy114heading redirects retained under explicitanchor contract. Next broadShopee discovery ormeaningful requiredfield audit;do notrepeat compatibilityretention review orMS100BTlisting asnew evidence.",
     "next_models": [],
     "after_queue": "365active/46brands;306guitar159bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -45851,6 +45851,16 @@
       "other_entries_outside_scope": 92,
       "compact_reference_plan_changes": 0,
       "limitation": "Registered whole-body equality and current compact links only; compatibility-retention contract remains. No source retirement or full migration certification."
+    },
+    "compatibility_retention_review_20261018_followup": {
+      "status": "retain_heading_redirects",
+      "sources_read": [
+        "scripts/technical_retirement.py",
+        "scripts/consolidation_tools.py"
+      ],
+      "reason": "Project instruction explicitly retains old anchors;technical verifier requires exact redirects. Removing them would break that contract;no deletion selection created.",
+      "remaining_markdown_compatibility_paths": 114,
+      "overall_complete": false
     }
   },
   "deferred_work": {
@@ -45984,7 +45994,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B2 FOUR."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom MS-100BT."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -80886,5 +80896,10 @@
     "status": "Appbackup/clip limits andUSB-C iPad path saved;no software downloaded oroperated.",
     "sample_rate_search": "Exact official44.1/sampling queries andshared driverguide yielded no model-specific rate;generic driverguide usesL8example,not B2FOURrate evidence.",
     "driver_guide": "https://zoomcorp.com/documents/2062/ZOOM_ProductDriver_Installation_Guide_E2.pdf"
+  },
+  "ms100bt_source_attribution_correction": {
+    "date": "2026-10-18",
+    "scope": "Main memory/I/O rows now cite originalproduct andpatchlist for30/20fill anddualsocketcounts;weight excludesbatteries;intro reflects datedUSAppStoreOSlisting while retaining transfer/region uncertainty.",
+    "new_manufacturer_facts": false
   }
 }

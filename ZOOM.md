@@ -4207,7 +4207,7 @@ Original manual Z2I-5930-01;effect list Z2I-5984-01;rig list Preset1.00. Pre-rel
 
 ## MS-100BT
 
-Checked2026-10-18. Discontinued guitar multi-effects;100 effects/amp models. Historical StompShare iPhone/iPad/iPod touch purchasing/loading advertised;current store availability andOS requirements unverified. [Product][M100BT-P]
+Checked2026-10-18. Discontinued guitar multi-effects;100 effects/amp models. Historical StompShare iPhone/iPad/iPod touch purchasing/loading advertised. The US App Store listing observed on 2026-10-18 specifies iOS 8+; Indonesian availability and working effect transfers remain unverified. [Product][M100BT-P]; [Zoom app listing][M100BT-A]
 
 <!-- comparison evidence begins -->
 | Field | Finding / qualification | Evidence |
@@ -4215,11 +4215,11 @@ Checked2026-10-18. Discontinued guitar multi-effects;100 effects/amp models. His
 | Expression | Built-in/external/toe audit pending. | Unknown |
 | K/F/B | 3 push-rotaries/1 footswitch/4 cursor keys;other buttons unverified. | [Manual][M100BT-M] pp6–7 |
 | Display | LCD;diagonal/color/touch unspecified. | [Manual][M100BT-M] p37 |
-| Dimensions / weight | 130.3D×77.5W×58.5Hmm;360g. | [Manual][M100BT-M] p37 |
-| Processing / memory | 100 types;6 simultaneous,limited byDSP. Over-budget effect bypassed;DSP Full warning. 50 writable patches:30 factory-filled,20 initially empty;factory patches overwriteable. | [Manual][M100BT-M] pp2,11–12,37 |
+| Dimensions / weight | 130.3 D × 77.5 W × 58.5 H mm; 360 g excluding batteries. | [Manual][M100BT-M] p37; [Original product][M100BT-O] |
+| Processing / memory | 100 types;6 simultaneous,limited byDSP. Over-budget effect bypassed;DSP Full warning. 50 writable patches:30 factory-filled,20 initially empty;factory patches overwriteable. | [Manual][M100BT-M] pp2,11–12,37; factory fill: [Original product][M100BT-O] and [Patch list p19][M100BT-F] |
 | Category choices | Derived original-manual census: DYN/FLTR20,OD/DIST21,AMP8,MOD/SFX29,DLY/REV22 =100. Includes utility LineSel;not100 simultaneous blocks or current StompShare inventory. | [Manual][M100BT-M] pp26–33 |
 | Synth / acoustic | Aco.Sim models acoustic-guitar tone;MonoSynth is single-note synthesis;Z-Organ simulates organ. Polyphonic synthesis unverified. Bass tuner mode alone does not qualify bass processing. | [Manual][M100BT-M] pp28,31,38 |
-| I/O | Two¼-inch inputs andtwo¼-inch outputs;stereo operation documented. DC9V inlet documented separately;complete other-port absence audit pending. Input1MΩ,−20dBm nominal;output+5dBm maximum into≥10kΩ. | [Manual][M100BT-M] pp6,37 |
+| I/O | Two¼-inch inputs andtwo¼-inch outputs;stereo operation documented. DC9V inlet documented separately;complete other-port absence audit pending. Input1MΩ,−20dBm nominal;output+5dBm maximum into≥10kΩ. | Electrical levels/DC inlet: [Manual][M100BT-M] pp6,37; socket counts: [Original product][M100BT-O] |
 | Conversion | 44.1kHz;24-bit AD/DA128×oversampling;32-bit float+fixed processing. | [Manual][M100BT-M] p37 |
 | Power / battery | AD16:9VDC center-negative,500mA supply rating,not device draw. **Conflict:**safety p4 says4AA;spec p37 says2AA alkaline,~7h mono/~5h stereo. | [Manual][M100BT-M] pp4,37 |
 | USB power / audio / MIDI | Not established;Bluetooth does not prove USB support. | Pending |
@@ -4235,7 +4235,7 @@ Checked2026-10-18;original manual Z2I-1528-02©2012.
 
 | Field | Finding / qualification |
 |---|---|
-| Memory / save policy | Auto Save defaults ON;OFF requires manual saving. Factory fill resolved:30 populated,slots31–50 empty;see subsequent evidence. [Manual][M100BT-M] pp12,23 |
+| Memory / save policy | Auto Save defaults ON;OFF requires manual saving. [Manual][M100BT-M] pp12,23. Factory fill: 30 populated, slots 31–50 empty, per [Original product][M100BT-O] and [Patch list p19][M100BT-F] |
 | Memory / reset scope | All Initialize restores settings andpatches but **retains added effects**. It is not documented as returning the installed effect library toits original100. [Manual][M100BT-M] p34 |
 | Live / tap and display | Tempo stored perpatch. Footswitch hold selects tuner(default) or tap;tap can interrupt anactive effect for1s. LCD contrast andbacklight-dimming time adjustable;no diagonal/color/touch specification established. [Manual][M100BT-M] pp18–24 |
 
