@@ -442,6 +442,17 @@ Checked 2026-10-18. [Manufacturer Spanish manual][NOVA-SP],revision1.0/SW1.00 (p
 | Display / language-revision conflict | Spanish p46 calls the24×2-character display **LED**;English p46 says **LCD**. Preserve the disagreement;no new color,touch ordiagonal specification established. |
 | Dimensions / repeated unit disagreement | Spanish p46 repeats **284×89×267mm** alongside **11.2×3.5×10.25in**. The final pair is not an exact conversion;this corroborates the printed discrepancy without resolving axis order orreplacing267mm with a calculated value. |
 | I/O / analog specifications | Line impedance **21kΩ balanced/13kΩ unbalanced**;outputs **40Ω**. Maximum balanced/unbalanced output **+20/+14dBu into1200Ω**;selectable output ranges **20/14/8/2dBu**. Output dynamic range **>104dB,20Hz–20kHz**. These are operating/electrical limits,not device current draw oradditional processing choices. Spanish p46. |
+
+### NOVA System — firmware 1.2 qualifications
+
+Checked 2026-10-18 against [manufacturer 1.2 release/install notes][NOVA-FW12],indexed original text;direct PDF returned502. Changes explicitly compare with1.13. This firmware1.2 isdistinct from owner-manual revision1.2 describingSW1.10. No installer downloaded orupdate performed.
+
+| Field | Evidence / qualification |
+|---|---|
+| Memory / restore defect fixed | Firmware1.2 fixes inability torestore saved **system anduser-bank MIDI dumps** (TT471). Documented dump creation in the older manual therefore doesnot prove reliable restore onearlier firmware. Installed version andactual backup/restore operation remain untested. |
+| MIDI / clock and tap restriction | Fixes delay/modulation MIDI-tempo sync (TT604). **Tap tempo isdisabled while synced toMIDI clock**;tempo-dependent displayed parameters now update with MIDI tempo. System-dump reception **ignores SysEx ID**,so the general identification setting isnot a filter forthat transfer. |
+| Expression / preset recall defect | Fixes physical pedal position not being read atpreset change in **Master:Pedal** mode (TT465). Earlier manual describes intended operation;correct behavior should not be assumed forunverified older firmware. |
+| Processing / other fixes | Notes also fix intelligent-harmony scale changes not applying immediately,incorrect Factory Default behavior forsome subtypes,dynamic-delay L/R level mismatch andtuner exit requiring twopresses. These fixes qualify earlier feature descriptions without establishing new algorithms orhigher concurrency. |
 <!-- comparison evidence ends -->
 
 [NOVA-M]: https://manualzz.com/doc/7256177/tc-electronic-nova-system-guitar-and-bass-owner-s-manual
@@ -449,3 +460,5 @@ Checked 2026-10-18. [Manufacturer Spanish manual][NOVA-SP],revision1.0/SW1.00 (p
 Official original endpoints retained forprovenance: https://service-tcgroup.tcelectronic.com/media/Nova_Sys_US.pdf (502); https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_nova_system_manual_english.pdf (inaccessible). No package/file downloaded ordevice/software operated.
 
 [NOVA-SP]: https://service-tcgroup.tcelectronic.com/media/Nova_Sys_SP.pdf
+
+[NOVA-FW12]: https://service-tcgroup.tcelectronic.com/media/novasystem-1_2-installation-guide.pdf

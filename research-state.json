@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC Electronic NOVA System",
-    "task": "Saved directmanufacturer SpanishNOVAmanual1.0/SW1.00:LED/LCDconflict,dimensionunit mismatch repeated,analogIO limits. NewShopeequeries onlyoldadapter. Next freshbrand/series discovery orstrongerconcurrency/visualhardware evidence;do notrepeat languageversions asresolution ofexistingconflicts.",
+    "task": "Saved primaryindexed NOVAfirmware1.2 fixes:dumprestore,MIDIclock,MasterPedalrecall;tapdisabled underclock andSysExIDignored forSystemDump. Next freshmarket discovery orstrongerphysical/concurrency evidence;noinstallerdownload. Do not equate manualrev1.2 withfirmware1.2 orclaimolderrestore works.",
     "next_models": [],
     "after_queue": "366active/46brands;307guitar159bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -80983,5 +80983,19 @@
       "site:shopee.co.id DigiTech RP350 efek"
     ],
     "result": "No qualified exacthardware;RP350/355/300adapter855783279/22273291654 alreadyrejected,notprice evidence."
+  },
+  "nova_system_firmware12_audit": {
+    "date": "2026-10-18",
+    "source": "https://service-tcgroup.tcelectronic.com/media/novasystem-1_2-installation-guide.pdf",
+    "access": "Indexed originalmanufacturer release-note text;directPDF502;no localdownload.",
+    "revision": "Firmware1.2 changesfrom1.13,notowner-manualrev1.2",
+    "status": "Backuprestore/clock/expression andotherfeature restrictions nowqualified byfirmware;installedversion unknown."
+  },
+  "discovery_nova_compactquery_20261018": {
+    "queries": [
+      "site:shopee.co.id TC Electronic Nova",
+      "site:shopee.co.id NovaSystem"
+    ],
+    "result": "No indexed exacthardware offer;not proof ofunavailability."
   }
 }
