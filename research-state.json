@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh eligible hardware discovery / required gaps",
-    "task": "Plethora X5 dated iOS/iPadOS16+ and explicit Android app support saved; separateTCapp excluded. Next desktop/Android minimumOS primary evidence or fresh hardware series. Keep X5/X3 hardware,loopduration and dimensional conflicts separate.",
+    "model": "Zoom A2 discovery lead / required gaps",
+    "task": "Saved original A2 primary manual,47choices/8simultaneousmodule eligibility,butnoexactShopeehardware. A2 remainsoutside359activecounts. SeekexactA2offer viaalternate spelling/category/seller inventory,orprogressotherrequiredfield gaps;avoid accessory-onlymatches.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -78949,5 +78949,38 @@
       "Dimensionsaxisconflict"
     ],
     "method": "Storetextonly;noinstallationdownloadorhardwareoperation"
+  },
+  "discovery_zoom_acoustic_a2_20261018": {
+    "status": "primary_documented_market_unresolved_not_admitted",
+    "model": "Zoom A2",
+    "active_record_added": false,
+    "sources": {
+      "product": "https://zoomcorp.com/en/us/multi-effects/acoustic/a2/",
+      "manual_landing": "https://zoomcorp.com/en/us/multi-effects/acoustic/a2/a2-operation-manual/",
+      "original_manual": "https://zoomcorp.com/media/documents/E_A2.pdf"
+    },
+    "primary_identity": "Original English A2 acoustic-effects manual,37PDFpages; distinctfromA2.1u/A3/A1FOUR",
+    "eligibility": {
+      "printed_pages": "4,25,35",
+      "effect_choices": 47,
+      "simultaneous_modules": 8,
+      "qualification": "Eight includesZNR; separate compression,modulation,delay/reverb andmodel sections establishmultieffects,notjustsingleacousticsimulator. Model choices47 notsimultaneous47."
+    },
+    "market": {
+      "queries": [
+        "site:shopee.co.id Zoom A2",
+        "site:shopee.co.id Zoom A2.1u",
+        "site:shopee.co.id Zoom A3 efek",
+        "site:shopee.co.id Korg AX3A",
+        "site:shopee.co.id Zoom A2.1 efek",
+        "site:shopee.co.id Zoom A3 akustik"
+      ],
+      "result": "No exact qualifying new hardware offerresolved. A2/A2.1u matches were poweradaptors;unrelatedA2/A3 office/phoneproducts rejected. Doesnotproveabsence.",
+      "used_idr": null,
+      "new_idr": null,
+      "seller_item": null
+    },
+    "next": "Seek exactShopee A2 hardware using alternate spelling/model category or seller catalogue; onlythenadmit withfullrequiredfield pass fromexactA2 manual. No A2.1u specs borrowed.",
+    "method": "Browsertextonly;noPDF/app/dependencydownloads orhardwareoperation"
   }
 }
