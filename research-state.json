@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee discovery / remaining technical gaps",
-    "task": "Roctary exact link1776275/16848386152 recovered but cached item and readable primary architecture unavailable. Defer admission; use different unrecorded series queries or fill existing model gaps from readable own manuals. Avoid repeating failed Roctary URLs without new evidence.",
+    "model": "Amp Academy Stomp / fresh discovery",
+    "task": "Next verify editor minimum OS and USB channel/routing specifications from readable manufacturer software documentation, or use fresh unrecorded Shopee series queries. Roctary exact item/manual links saved but text/offer access unresolved; do not repeat without new evidence.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -45864,7 +45864,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee brand/series discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Amp Academy Stomp / fresh discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -78498,5 +78498,11 @@
     "alternate_manual": "https://medias.audiofanzine.com/files/roctary-manual-480083.pdf",
     "alternate_access": "Three-page PDF, title Roctary Force说明书V3Q.cdr; zero extracted lines. Identity/revision equivalence unproven; secondary retail descriptions not promoted to hardware facts.",
     "next": "Defer until readable manufacturer manual or inspectable page becomes available. Exact link is saved; do not repeat category-only search or infer independent multi-effects architecture from rotary/octave marketing."
+  },
+  "amp_academy_stomp_live_drivers_20261018": {
+    "source": "https://nuxaudio.com/product/ampacademystomp/",
+    "checked_date": "2026-10-18",
+    "saved": "V2.0.5 external switch mapping; conditional same-model delay trails; global output EQ; buffered bypass; ASIO versions separated from editor OS",
+    "limits": "No hardware operation or installation. Memory/IR contradictions, full block ceiling, current editor minimum OS and EXP-sharing concurrency remain unresolved."
   }
 }

@@ -459,7 +459,7 @@ def main():
         if mode == 'commit-microplus':
             message = 'research(fender): qualify original Micro headphone ratings and reset scope'
         if mode == 'commit-mg20':
-            message = 'research(nux): clarify Cerberus V5 footswitch and expression assignments'
+            message = 'research(nux): qualify Amp Academy Stomp scene trails and driver support'
         if mode == 'commit-m100':
             message = 'research(tc-electronic): qualify X3 factory content and Board management'
         if mode == 'commit-rfx1100':

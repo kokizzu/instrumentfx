@@ -1269,6 +1269,16 @@ Regional webpages can contain copy errors;the unresolved hardware behavior must 
 
 Remaining:current fullmanual,all algorithm counts,actual block concurrency,memory conflict,IRformat/capacity reconciliation,screen touch,control visual confirmation,power operation,qualified new/used prices andstock. Unknown is not No.
 
+### Amp Academy Stomp live controls and driver boundaries, 2026-10-18
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| External footswitch mapping | V2.0.5 instructions assign NMP-2/NMP-2 Lite over TRS: RING=Switch A, TIP=Switch B. Each can step presets or toggle a block, including AMP/CMP. Sharing EXP/CTRL does not establish simultaneous expression and dual-switch use. [Product][AAS-P] |
+| Scenes / delay trails | Scenes retain the signal-chain structure while changing block states and parameters. Manufacturer describes delay tails when scenes use the same delay model; this does not prove trails across different models or presets, or completely silent switching. [Product][AAS-P] |
+| Routing / global EQ / bypass | Global EQ acts at the output across presets; V2.0.5 adds a live dB readout. Published bypass is buffered. [Product][AAS-P] |
+| USB driver versus editor OS | Support lists ASIO 3.29.0 for Windows 7 and 5.72.0 for Windows 10 and above. These are driver listings, not minimum OS certification for NUX Audio 1.1.7.1 or current macOS compatibility. [Product][AAS-P] |
+
+
 ## Atlantic NDR-5
 
 Checked 2026-10-18; partial. Independent delay/reverb and selectable routing establish multi-effects eligibility. Bass suitability unclassified.
