@@ -696,6 +696,12 @@ Checked 2026-10-18; partial bass-focused multi-effects. [Sonicake exact product]
 
 [Officially linked English manual image](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/QDS-05_B_Factory__Manual_EN_V01_230921_Curve___623000020.jpg?v=1709603192) returned no inspectablecontent;filenameV01/230921 doesnotprovefullmanualvalidation. Remaining:originalpanel/manual,allcontrolandmemoryfields,fullI/O,powerdetails,loading/software andqualifiedfreshprices. No downloads,installations orhardware tests.
 
+### B Factory — manual-source qualification
+
+Checked2026-10-18. The [regional official page](https://www.hotone.jp/brands/sonicake/products/b-factory) additionally links a [Japanese manual image](https://cdn.shopify.com/s/files/1/0749/4569/1899/files/QDS-05ManuelJP.png?v=1756710755). Neither this nor the English image yielded inspectable manual contents in the available tools; controls and routing remain unresolved.
+
+The [third-party instruction page](https://manuals.plus/asin/B0CR157S8T) labels ON/OFF as true bypass while also describing buffer bypass. The [manufacturer](https://www.sonicake.com/products/b-factory) explicitly specifies buffered bypass. That third-party prose is not authenticated original-manual evidence and was excluded from control, routing and bypass verification; its illustrations were not visually audited.
+
 ## A Factory QDS-04
 
 Checked 2026-10-18; partial acoustic-guitar multi-effects. [Exact manufacturer product](https://www.sonicake.com/products/a-factory) (P) identifies QDS-04; [Hotone Japan distributor](https://www.hotone.jp/brands/sonicake/products/a-factory) (J) corroborates preamp, reverb and notch filtering. B Factory specifications are not transferred.

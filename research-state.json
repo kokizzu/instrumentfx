@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom 606 required fields / discovery",
-    "task": "606 conversion,analog ratings and preselection saved. Continue unresolved required fields or fresh brand/series Shopee leads; mixed606/607 offer still lacks model-to-price mapping.",
+    "model": "B Factory original manual / fresh discovery",
+    "task": "Official Japanese manual image located; unauthenticated third-party true-bypass/control prose rejected. Current tools cannot inspect manual images. Continue other active required-field gaps or fresh Shopee leads; do not copy generated B Factory instructions as original evidence.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -79437,5 +79437,14 @@
     "destination": "ZOOM.md#606",
     "scope": "Own606 converter/analog ratings and preselection qualified in canonical section and generated guitar comparison.",
     "remaining": "Display details;looper/drums/scenes;editor/import support;qualified model-specific Indonesian price. Mixed606/607 ask remains unassigned."
+  },
+  "sonicake_bfactory_source_audit_20261018": {
+    "destination": "SONICAKE.md#b-factory-qds-05",
+    "official_japanese_manual": "https://cdn.shopify.com/s/files/1/0749/4569/1899/files/QDS-05ManuelJP.png?v=1756710755",
+    "official_link_page": "https://www.hotone.jp/brands/sonicake/products/b-factory",
+    "rejected_as_primary": "https://manuals.plus/asin/B0CR157S8T",
+    "reason": "Third-party prose simultaneously claims true bypass and buffer bypass; manufacturer explicitly says buffer bypass. No authenticated manual-body identity established; do not use to fill remaining controls/routing.",
+    "access": "English/Japanese images returned no inspectable contents; original-manual mirror cache miss. Browser inventory empty, so no visual inspection possible; no download performed.",
+    "remaining": "Original manual/panel authentication;control andexpression census;memory;fullI/O/groundlift/phantom;software/imports;qualifiedcurrentoffers."
   }
 }

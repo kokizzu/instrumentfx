@@ -579,7 +579,7 @@ def main():
         if mode == 'commit-rockstage':
             message = 'research: bind recent exact Shopee offers to their model records'
         if mode == 'commit-blackhammer':
-            message = 'research(sonicake): add Black Hammer QCE-30 with qualified manufacturer evidence'
+            message = 'research(sonicake): qualify B Factory manuals and reject bypass contradiction'
         if mode == 'commit-flyrig5v2':
             message = 'research(tech21): qualify Bass Fly Rig v2 recording and tuner scope'
         if mode == 'commit-dapper-dark':
