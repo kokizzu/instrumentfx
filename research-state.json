@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "DigiTech RP360 assignment follow-up (partial lead)",
-    "finding": "Assignments/MIN/MAX stored per user preset; movable Volume0–99 overrides stored value on pedal motion; position determines delay/reverb tail attenuation. Global override unverified.",
+    "current": "DigiTech RP360 power/control follow-up (partial lead)",
+    "finding": "Own FAQ confirms PS0913DC9VDC1.3A center-negative; textual control census K4/F3/B4. No qualified non-XP offer; lead remains unadmitted.",
     "next": [
-      "RP360 admission follow-up: exact non-XP panel/treadle, K/F/B, power/display/I/O and qualified Shopee offer; retain unresolved global coverage",
+      "RP360: complete non-XP panel/I/O and firmware/manual scope before admission; then return priority Ampero Mini/Nano global-volume scope",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
@@ -122607,7 +122607,8 @@
       ],
       "global_volume": "unverified",
       "offer": "XP result rejected for non-XP",
-      "assignment": "preset-stored target and MIN/MAX; movable Volume0–99; no global override established"
+      "assignment": "preset-stored target and MIN/MAX; movable Volume0–99; no global override established",
+      "power": "Exact RP360 FAQ: PS0913DC9VDC1.3A center-negative; adapter rating, not device draw"
     }
   }
 }

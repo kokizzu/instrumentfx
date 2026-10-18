@@ -1213,3 +1213,11 @@ No exact non-XP Shopee hardware offer established: search returned anXP item5790
 Checked2026-10-19, indexed [original5041674-B manual](https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP360-RP360XP_Manual_5041674-B.pdf), Expression Pedal Control and Volume sections; both explicitly include external-pedal RP360. **Assignments and MIN/MAX are stored in user presets**, and the target effect must be present in the chain. No global target override established. Volume module range **0–99**; pedal motion overrides its stored parameter. Moving Volume before delay/reverb preserves their decay; placing it afterward attenuates tails. Before distortion changes saturation; before compression/gate changes threshold interaction. Bypass/headphone/looper coverage and unmoved-pedal preset recall remain unverified.
 
 This resolves the documented assignment workflow and module range, not all global-scope/coverage questions or model admission. RP360XP V-switch/default-wah statements are not transferred. Earlier wiring, size, product conflicts and unavailable full-PDF qualification remain above.
+
+### RP360 — exact power and textual control inventory
+
+Checked2026-10-19. [Manufacturer FAQ](https://digitech.com/faqs/) explicitly lists **RP360**, separately fromXP: **PS0913DC,9VDC1.3A,center-negative**, barrel9.5mm length/5.5mm outer/2.1mm pin;adapter input120–240V. These are adapter ratings,not measured device draw orUSB/battery power proof.
+
+[Indexed own5041674-B manual](https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP360-RP360XP_Manual_5041674-B.pdf), Basic Operation Overview, names **SELECT+EDIT1–3=4rotaries,3footswitches,DRUMS/SYSTEM/STORE/BACK=4buttons**. SELECT press is counted once;this is a textual census,not a certified photo count. LCD named;diagonal/color/touch remain unknown. Exact Shopee search still returned only theXP item already rejected;no non-XP price orstock inference.
+
+RP360 remains a partial lead outside active inventory; panel/treadle corroboration,complete I/O,current software,category counts andcoverage remain pending. No downloads ordevice/software operation.
