@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 350,
+  "active_model_count": 351,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 350,
+  "canonical_root_model_count": 351,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "350 unique active/root-canonical;0 legacy-only;40 brands;six excluded;all partial.",
+  "count_reconciliation": "351 unique active/root-canonical;0 legacy-only;40 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Korg AX5B",
-    "task": "Saved originalappendixPREidentityconflict,synthcontrols,singlenoteandpedalinteractionlimits. Exacthardwareoffersstillunknown;next freshdiscovery orotherrequiredprimarygapsaftercommit.",
+    "model": "DK iE-350",
+    "task": "Added exact-model partial record from manufacturer identity and original manualp14,plusexactRp1.38moffer. Next originalmanual controls/expression,routing,USB anddisplay/bodydata;do notborrowiE550.",
     "next_models": [],
-    "after_queue": "350partialmodels;154bass;legacyconsolidationincomplete;no downloads/workflows/push."
+    "after_queue": "351partialmodels;154bass;legacyconsolidationincomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24717,7 +24717,8 @@
       "Anagram"
     ],
     "DK": [
-      "iE-550"
+      "iE-550",
+      "iE-350"
     ]
   },
   "root_brand_content": {
@@ -25149,12 +25150,13 @@
       "Anagram"
     ],
     "DK.md": [
-      "iE-550"
+      "iE-550",
+      "iE-350"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 291,
+      "record_count": 292,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -25184,10 +25186,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 291 guitar, 154 documented bass-capable, 68 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 292 guitar, 154 documented bass-capable, 68 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "350 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "351 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -45549,10 +45551,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 350,
-    "canonical_root_models": 350,
+    "unique_brand_model_pairs": 351,
+    "canonical_root_models": 351,
     "legacy_only_models": 0,
-    "guitar_view_models": 291,
+    "guitar_view_models": 292,
     "bass_focused_models": 30,
     "vocal_only_models": 24,
     "vocal_view_models": 68,
@@ -45625,7 +45627,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX5B."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DK iE-350."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -45919,7 +45921,8 @@
       "Mosky::RC5",
       "Mosky::DC5",
       "Ammoon::PockRock",
-      "DK::iE-550"
+      "DK::iE-550",
+      "DK::iE-350"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -48879,6 +48882,13 @@
     },
     "DK::iE-550": {
       "link": "DK.md#ie-550",
+      "source_files": [
+        "DK.md"
+      ],
+      "finding_files": []
+    },
+    "DK::iE-350": {
+      "link": "DK.md#ie-350",
       "source_files": [
         "DK.md"
       ],
@@ -76471,5 +76481,15 @@
       ],
       "result": "Emptysearchresults;noqualifiedofferandnomarketabsenceclaim"
     }
+  },
+  "discovery_dk_ie350_20261018": {
+    "source": "https://www.dk-music.cn/pd.jsp?id=97",
+    "manual": "https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=14",
+    "offer": "https://shopee.co.id/DK-IE-350-MULTI-EFFECTS-PROCESSOR-i.271847827.52002438174",
+    "status": "Addedpartial;no sibling specifications",
+    "queries": [
+      "site:shopee.co.id \"DK\" \"IE-350\"",
+      "site:shopee.co.id \"DK\" \"IE350\""
+    ]
   }
 }

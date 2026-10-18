@@ -71,3 +71,41 @@ Checked 2026-10-18 from original Quick User Guide623000062, also available as [e
 | Controls / documented actions | Guide identifies edit/save,SET,return,drum andBluetooth press functions. Text extraction does not reliably map every callout to a separate physical button; do not convert five functions automatically into five buttons. Drum press toggles playback;hold opens its menu. |
 | I/O / AUX uncertainty | Manufacturer product wording names AUX but the guide connection inventory does not identify a separate AUX socket. Keep auxiliary playback distinct from a verified analog connector; Bluetooth/USB playback routing andrecording inclusion remain unresolved. |
 
+
+## iE-350
+
+Checked 2026-10-18. Partial guitar multi-effects record; separate from iE-550. Manufacturer product identity and own manual establish inclusion. Bass/vocal suitability and ownership unverified.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression | Built-in/external/toe unverified; do not borrow iE-550 pedal behavior. |
+| K/F/B | Complete counts unverified. |
+| Display | Quick guide identifies color LCD; numerical diagonal did not extract reliably. Touch unverified. |
+| Processing / choices | **Eight simultaneous modules**; per-category choices and routing limits pending. [I350-M] |
+| Factory / user memory | **50 factory F01–50 +50 user P01–50=100**. Initial user fill and protected/writable rules pending. [I350-M] |
+| Synth / acoustic | Dedicated synthesis/acoustic simulation unknown. |
+| I/O | **6.35mm TS input,1MΩ;6.35mm TRS stereo unbalanced output/headphones,100Ω;USB2.0 Type-C**. Complete remaining port inventory pending. [I350-M] |
+| Conversion | **24-bit AD/DA,44.1kHz;100dB SNR**. USB word width/channels not inferred. [I350-M] |
+| Power / battery / USB | Manual prints USB input **DC5V/12V,500mA**; negotiation/adapter requirements unresolved. **2000mAh,3.7V battery;claimed life>7hours**. Not a local runtime test or permission to apply arbitrary12V. [I350-M] |
+| Dimensions / mass | Numerical values missing from extracted manual table; unknown,not sibling values. |
+| IR / NAM / capture | DKit1.2.0 notes explicitly include iE350 NAM A1/A2 import; native-versus-converted path and firmware minimum unresolved. IR capacity/formats and capture creation unknown. [I350-A] |
+| Editor / software | Manufacturer lists iE350/550 AndroidDKit1.2.1,Mac/Windows firmware resources andUSB ASIO executable. Updater/driver are not proof of a desktop editor. [I350-S] |
+| Looper / drums / live | Manual contents include drum,tuner andUSB audio sections; detailed limits,looper,scenes andtrails pending. |
+
+### Separate IDR hardware evidence
+
+| Condition / status | IDR evidence | Exact offer and limits |
+|---|---|---|
+| Used | Unknown | No explicit used-condition offer established. |
+| New | Unknown | Retail title alone does not establish condition. |
+| Condition and stock unverified | **Rp1.380.000** | [Daily Music Store,shop271847827/item52002438174](https://shopee.co.id/DK-IE-350-MULTI-EFFECTS-PROCESSOR-i.271847827.52002438174),KotaJakartaTimur. Three-month search cache;direct reopen cache miss. Relative next-day delivery is not live availability. Actual condition,variant,bundle,cable/adapter,warranty,shipping/tax andcheckout total unknown. Up-toRp20.000 late compensation is not an upfront discount. |
+
+### Original sources and limitations
+
+- [Manufacturer exact iE-350 product](https://www.dk-music.cn/pd.jsp?id=97): indexed;direct timeout.
+- [I350-M: original manufacturer User Manual,15pages](https://www.manualslib.com/manual/4152133/Dk-Ie-350.html): cover iE-350 Multi-Effects Processor; firmware digits do not extract. [Specifications,p14](https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=14) supply the numerical ratings above. Generated FAQ excluded.
+- [Original bilingual quick guide,V01 filename250319](https://manuals.plus/m/38e7cfbb78de66e80e6ad6f0089b795c878425515e58336188b7095ffd5f0b16): manufacturer/model attribution matches; most numerical glyphs absent. Filename is not installed firmware proof.
+- [I350-A: manufacturer-published DKit release notes](https://apps.apple.com/id/app/dkit/id6738170601).
+- [I350-S: manufacturer English support index](https://www.dk-music.cn/col.jsp?id=110).
+
+No files/software downloaded; selected original-manual text only,no visual inspection. Remaining: full panel/expression,display diagonal,dimensions/mass,category census,USB formats,battery/charging restrictions,IR/NAM workflow andqualified offers.
