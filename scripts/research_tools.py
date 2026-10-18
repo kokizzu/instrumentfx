@@ -569,7 +569,7 @@ def main():
         if mode == 'commit-ax5g':
             message = 'research(korg): distinguish AX5G drive amp choices and operating levels'
         if mode == 'commit-rockstage':
-            message = 'research(sonicake): qualify Levitate current and dimension axis conflict'
+            message = 'research(sonicake): add B Factory bass processor and qualified offer'
         if mode == 'commit-blackhammer':
             message = 'research(sonicake): add Black Hammer QCE-30 with qualified manufacturer evidence'
         if mode == 'commit-flyrig5v2':

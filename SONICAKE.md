@@ -604,3 +604,28 @@ Checked 2026-10-18; partial. [Sonicake's exact product](https://www.sonicake.com
 Remaining:originalmanual/panel,controls,expression,display,memories,completeI/O andloading/software;freshsellercondition/stock. Mixed-modelRp450.000 category result rejected as unresolved variant price. No download,installation orhardware test.
 
 Levitate regional source check2026-10-18:Hotone Japan exactQDS-02 page corroborates371g,buffered bypass,trails and2s delay. [Linked Japanese original manual image](https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/Levitate_Manuel_JP.png) returned no inspectablecontent;no panel census ormanual completion claimed.
+
+## B Factory QDS-05
+
+Checked 2026-10-18; partial bass-focused multi-effects. [Sonicake exact product](https://www.sonicake.com/products/b-factory) (P) identifies QDS-05 and distinct compression,overdrive andpreamp functions;[regional distributor](https://www.hotone.jp/brands/sonicake/products/b-factory) (J) corroborates. No guitar membership inferred.
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in/external/toe support unverified. |
+| Physical controls / K/F/B | Separate knob,footswitch,button census pendingoriginalpanel;PRE/POSTselection documented butcontroltype unverified. |
+| Display | Screen presence,diagonal,color/touch unverified. |
+| Processing / category choices | **Analog preamp,optical compressor,overdrive and3-bandEQ**. EQ PRE/POST placement selectable;drive spansoverdrive todistortion. Exact independentbypass/concurrency ceiling andnumericchoices unresolved;notinferred fromnames. |
+| Memory / factory / user | Factory/user/total presets unverified. |
+| Synth / acoustic | Dedicated synthesis/acoustic simulation unverified. |
+| Dimensions / mass | P:**124D×90W×54.8H mm,395g**. J reversesaxes to**124W×90D×54.8H**;width/depth conflict retained. |
+| Power / battery / USB | **9VDC,5.5×2.1mm center-negative,70mA** publishedspecification. Manufactureradapter excluded. Battery/USB operation andphantom powering unverified. |
+| I/O | High-impedance input**1MΩ**,mainoutput**100Ω**,balancedXLRout**100Ω**. Completeconnector inventory,headphones,groundlift andphantom toleranceremainunverified. |
+| IR / NAM / captures | IR,nativeNAM,convertedNAM andproprietary capture loading unverified. |
+| Editor / software | Editor/platform,USB audio/MIDI andupdater unverified. |
+| Looper / drums / scenes | Unverified. |
+| Live / bypass | Buffered bypass documented;drymix,EQ frequencies,compressionratio andmaximum levels unresolved. |
+| Price / sold-out IDR | **Rp795.000,Habis**, [MICKEY MOUSE SHOP,shop19700013/item29712719871](https://shopee.co.id/Efek-Bass-Elektrik-SONICAKE-B-Factory-Electric-Bass-Analog-Preamp-Compressor-Overdrive-Effect-Pedal-i.19700013.29712719871),KotaJakartaPusat;checked2026-10-18,three-month indexedbody. Shoponholiday;stale2–5Augdeliverynotstockproof. Condition,bundle,warranty unverified;Rp10.000 late-deliverycompensation notdiscount. |
+| Price / new IDR | No condition-verified new offer established. |
+| Price / used IDR | No separate used offer established. |
+
+[Officially linked English manual image](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/QDS-05_B_Factory__Manual_EN_V01_230921_Curve___623000020.jpg?v=1709603192) returned no inspectablecontent;filenameV01/230921 doesnotprovefullmanualvalidation. Remaining:originalpanel/manual,allcontrolandmemoryfields,fullI/O,powerdetails,loading/software andqualifiedfreshprices. No downloads,installations orhardware tests.
