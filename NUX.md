@@ -910,6 +910,14 @@ Checked 2026-10-18. The [official firmware/software guide](https://nux.cherubtec
 | Memory / factory reset scope | [Official reset guide](https://nux.cherubtechnology.com/download/Otherguide/Cerberus/NUX_Cerberus_FactoryResetGuide_EN.pdf) states that reset erases all saved custom presets. It requires a separate SAVE confirmation after entering the reset state; powering off before confirmation cancels. This is documented behavior only; no reset was performed. The guide does not enumerate restored presets or resolve V5 factory fill. |
 
 
+### Cerberus — separate Galaxy shop offer
+
+Checked 2026-10-18; five-month cached [Salomo Musik Galaxy, seller77740878/item15201560095](https://shopee.co.id/Multi-Efek-Gitar-Nux-Cerberus-Integrated-Effect-Controller-i.77740878.15201560095), Bekasi. This is distinct from Salomo Musik seller1776275.
+
+| Field | Finding / qualification |
+|---|---|
+| IDR condition-unverified hardware ask | Checked 2026-10-18: [Salomo Musik Galaxy,77740878/15201560095](https://shopee.co.id/Multi-Efek-Gitar-Nux-Cerberus-Integrated-Effect-Controller-i.77740878.15201560095), Bekasi; five-month cache. Opened cached page **Rp3.729.000**; search excerpt **Rp3.728.000**, unresolved snapshot difference. Page says **Layanan Tidak Tersedia**; no current fulfillment or stock claim. Used/new condition, selected bundle, warranty, shipping, taxes and voucher eligibility unverified. |
+
 ## Foreign-price provenance and consolidation limits
 
 The original six-model review recorded **2026-10-14 foreign new asks**:MG-101USD129([NUXUSA](https://www.nux.us/products/mg-101));MG-300MKIIUSD169([NUXUSA](https://www.nux.us/products/mg-300-mkii));MG-400USD229([NUXUSA](https://www.nux.us/products/mg-400)) andUSD172([Thomann](https://www.thomannmusic.com/nux_mg_400.htm));MG-30USD329([NUXUSA NAM page](https://www.nux.us/pages/nam-a2-native));MG-50LiUSD549([NUXUSA](https://www.nux.us/products/mg-50li)). OriginalMG-300hadnone. These remain historicalforeignprovenance,**not IDR values or Indonesian delivered prices**. No FXrate/useddiscountassumed. Existing Indonesian Shopee leads for those six remain in the root inventory/legacy discovery evidence pending exact integration;unknowncells do not mean unavailable.

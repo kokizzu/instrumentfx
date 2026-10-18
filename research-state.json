@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Shopee discovery",
-    "task": "Fresh brand/series search for unrecorded eligible multi-effects; compare every candidate against inventory first. A3 useful evidence committed; remaining controls/expression/display/software and exact offers remain explicit gaps. Continue legacy consolidation as a separate required workstream.",
+    "task": "Cerberus Galaxy exact offer saved separately with cache conflict. Continue unrecorded eligible brand/series searches or required primary-source gaps. Preserve remaining A3 gaps; legacy Markdown redirects required for anchors.",
     "next_models": [],
-    "after_queue": "376 active models; 46 brands; all partial. Legacy compatibility migration incomplete. No downloads/workflows/push."
+    "after_queue": "376 active models, all partial; no downloads/workflows/push. Migration incomplete."
   },
   "new_findings": [
     {
@@ -5547,6 +5547,12 @@
       "model": "Zoom A3",
       "date": "2026-10-18",
       "finding": "Exact Shopee refresh yielded no qualified A3 hardware item; preserved unknown prices. Saved named category audit trail for the reconciled 40-effect census."
+    },
+    {
+      "model": "NUX Cerberus NME-3",
+      "date": "2026-10-18",
+      "source": "https://shopee.co.id/Multi-Efek-Gitar-Nux-Cerberus-Integrated-Effect-Controller-i.77740878.15201560095",
+      "finding": "Distinct Galaxy shop exact item: cached direct ask differs by Rp1000 from index; unavailable-service state and condition limits retained. Not a qualified new/used price."
     }
   ],
   "consolidation_and_price_findings": [
