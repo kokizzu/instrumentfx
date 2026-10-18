@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Lexicon MPX100",
-    "task": "MPX100 MIDIcontrol/backup scopes saved. Resume freshShopee discovery oranother primarygap;currentdraw/editor/conditionqualifiedoffers remainunresolved.",
+    "task": "MPX100 audio-tap and System-mode exit qualifications saved. Fresh Zoom GFX8/G92TT searches yielded accessories only;seek another brand/series hardware lead or unresolved primary specification.",
     "next_models": [],
     "after_queue": "342 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -72871,5 +72871,34 @@
     "checked_date": "2026-10-18",
     "finding": "Five MIDI Learn assignments,bankrecall,adjacentPC reservation,threebackup scopes andclockrange retained.",
     "remaining": "No MIDI/hardware operations;restorecompatibility,currentdraw,editor andcondition-qualifiedoffers unresolved."
+  },
+  "technical_followups_mpx100_audio_tap_20261018": {
+    "source": "https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf",
+    "printed_pages": "10,13–14",
+    "checked": "2026-10-18",
+    "findings": [
+      "Audio Tap requires held Tap and two short notes;not continuous beat tracking.",
+      "Global versus Program tempo and VARIATION position on System-mode exit qualified."
+    ],
+    "unresolved": [
+      "current draw",
+      "official editor platforms",
+      "condition-qualified used/new offers"
+    ]
+  },
+  "discovery_zoom_gfx8_g92tt_20261018": {
+    "queries": [
+      "site:shopee.co.id \"Zoom\" \"G92TT\"",
+      "site:shopee.co.id \"Zoom\" \"G9 2tt\"",
+      "site:shopee.co.id \"Zoom\" \"GFX-8\" efek"
+    ],
+    "checked": "2026-10-18",
+    "outcome": "Only accessories/category/storefront results;no exact processor hardware offer established. Neither model admitted;absence does not establish unavailability.",
+    "rejected_accessories": [
+      "https://shopee.co.id/Adaptor-Zoom-Efek-Gitar-GFX8-GFX-8-Power-Kabel-i.732732692.20031217262",
+      "https://shopee.co.id/Modul-sensor-Pedal-WAH-pedal-volume-zoom-gfx-8-i.38361451.8214243069",
+      "https://shopee.co.id/AC-ADAPTOR-BUAT-Zoom-Guitar-Effect-Processor-GFX-4-%28Japan%29-GFX-8-i.14849321.28104902463"
+    ],
+    "do_not_repeat": "Resume these exact searches only with a new hardware lead."
   }
 }

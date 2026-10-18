@@ -241,3 +241,12 @@ Checked2026-10-18 against the [same manufacturer guide,printed pp.43–49](https
 | Live / Program Change triggers | Tap/Bypass learnPC16–127 andautomatically also thenextnumber;leave agap betweenassignments toavoidcollision. These trigger buttons,not continuous Mix/Adjust values. |
 | Editor / MIDI backup | Separate SysEx dumps for16userprograms,currentprogram,andSystem settings+Learn assignments. MIDIbackup is not anofficial desktopeditor orUSBinterface. Restore/devicecompatibility nottested. |
 | Live / clock | Incoming MIDIclock tracks **40–400BPM** forTap-enabledprograms;receiver canbedisabled. Not independentdrum-pattern playback. |
+
+### MPX100 — audio tap and System-mode recall
+
+Checked2026-10-18 against the [manufacturer guide,printed pp.10,13–14](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf). Documentation only;no hardware operation.
+
+| Field | Finding / qualification |
+|---|---|
+| Live / audio tap | Hold Tap for two seconds,play two short notes while holding,then release. Their spacing sets tempo;this is a deliberate gesture,not continuous beat tracking. Optional dual momentary footswitch supports the hold. Global Tempo carries the last tapped value across tempo-enabled programs;Program Tempo retains individual settings. |
+| Memory / System-mode exit | Return VARIATION to its previous position before exiting System mode;otherwise its new position loads another program. Tap LED identifies the prior position. This is separate from saving a user preset. |
