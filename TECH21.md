@@ -194,6 +194,7 @@ Distinct guitar/acoustic/bass multi-effects; checked 2026-10-18, partial. [Own p
 | K/F/B | Separate complete rotary/footswitch/button counts unverified; no sibling counts borrowed. |
 | Display | Chromatic tuner with muted tuning via held TAP/TUNER; diagonal, color, technology and touch unverified. |
 | Processing / categories | SansAmp, FET compressor, independent boost and reverb; DLA/CH selects delay or chorus. Maximum simultaneous count unverified; alternatives are not independent slots. Reverb selects small room or large hall; DLA/CH chorus disables Time and Repeats controls (manual pp5–6). |
+| Effects / active EQ | Own manual pp3–4: Low/High shelving **±18dB**, 1kHz pivot, noon flat. Mid is **±15dB**, with Mid Shift selecting **150Hz–3.2kHz**. These are parameter ranges, not additional effect slots. |
 | Memory | Factory/user/total programmable memories unverified. |
 | Synth / acoustic | Acoustic-oriented processing; dedicated acoustic simulation or synth engine unverified. |
 | Dimensions / mass | **12.5L×2.75W×1.25H inches;20.7oz**. |
@@ -205,6 +206,7 @@ Distinct guitar/acoustic/bass multi-effects; checked 2026-10-18, partial. [Own p
 | I/O / headphone and bypass | Manual pp2,6–8: headphone mode drives both sides with higher output; disengage it for mixer/amplifier connection to avoid clipping. Bypass is buffered; quarter-inch output is unity gain in bypass. |
 | Display / tuner indicators | Manual p6: red upward arrow means flat, downward means sharp; blinking accelerates near target, then green indicates in tune. Numeric calibration range and hold duration remain unverified. |
 | Looper / practical | Phase flip; notch **70–350Hz**; independent reverb. Low-pass endpoint conflict: product 16kHz versus manual 20kHz; lower endpoint 1.5kHz in both. Looper, drums and scenes unverified. |
+| Live / overload indication | Own manual p2: E. Level flashes red for overload. Occasional peaks are expected; if continuously lit with effects off, reduce instrument level; otherwise trim active Comp, Boost or SansAmp level. No measured headroom value established. |
 | IDR price | No exact Shopee hardware offer resolved by acoustic/Fly Rig searches on 2026-10-18. Used/new amount, seller/item, condition, stock, region, bundle, warranty and vouchers unknown. Search failure is not market absence. |
 
 <!-- comparison evidence ends -->

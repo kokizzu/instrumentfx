@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Tech 21 Acoustic Fly Rig",
-    "task": "Use verification_gap_index to locate explicit unknown/conflict fields across 377 models; it is a source-hashed triage snapshot, not completeness proof. Continue Acoustic Fly Rig physical controls/expression/memory from primary evidence, fresh Shopee discovery and required legacy consolidation.",
+    "task": "Acoustic Fly Rig EQ and overload evidence saved. Remaining physical census/expression/memory needs new primary evidence; current screenshot tool returns no inspectable image. Continue other model gaps or fresh Shopee discovery; refresh gap index after record edits.",
     "next_models": [],
     "after_queue": "377 active models,46 brands,all partial; no downloads/workflows/push; migration incomplete."
   },
@@ -5571,6 +5571,12 @@
       "date": "2026-10-18",
       "source": "https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf",
       "finding": "Own manual pp5–8 verifies delay controls, headphone level boundary, bypass and tuner indicators. Physical totals and programmable memory remain unverified."
+    },
+    {
+      "model": "Tech 21 Acoustic Fly Rig",
+      "date": "2026-10-18",
+      "source": "https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf",
+      "finding": "Exact manual EQ ranges and overload response saved; no physical census claimed without inspectable panel imagery."
     }
   ],
   "consolidation_and_price_findings": [
@@ -116882,12 +116888,12 @@
       "TC-ELECTRONIC.md": "c4b16b3c6f514ab087fed6c19a469d50b1e14e9793b555ad8371da0bcddd5449",
       "VALETON.md": "e335ead12e652b2f04053cb58702d5055e6bcf32c61cbca143572baf2cb4b03e",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
-      "ALL-GUITAR.md": "bb04daeb272774ec08fd3d398b2bf4487759a68635461882ad8b7996e537448f",
+      "ALL-GUITAR.md": "8a20e2b85e675d0691bb02d54cd19ad4999ac5c24dbbc93a26ad688075a627a5",
       "LINE6.md": "e277da711458c000e26845a4cd5b568f5dbe59a4305b8ce1ffe3e37dd72f92ff",
       "YAMAHA.md": "35a7c8b3f4a1fff0ca3a79d4d9d75db47ad2e05e1b34c44c0bdb8928ee52e8a8",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
-      "ALL-BASS.md": "9c88be8c7c7218861a853b3bccba10e877b8ff80cd86a8ba8143ce1729fcf4c2",
+      "ALL-BASS.md": "d6554cf310e15c0252a3217803a4fc199523d98823013e39d3567cca6c109e6d",
       "VING.md": "2873cd6b4d5b13c287eb839977ff782139fb5640008b9f9730ddc289d09f5b67",
       "FENDER.md": "825b3d107ed121195199f3a238cfae504e08c3f4913cd5952787df25109530c8",
       "MOSKY.md": "5fa70acc80dab7bfb6d02f5160afec1e5ee1947c8e343790309c9f78cbc0a07d",
@@ -116898,7 +116904,7 @@
       "DK.md": "97a52417dc4d52794f215684d2606af1648a498dd50ae44b9b4b02866b24800f",
       "AGENTS.md": "06193b1726f67bfa8c88ccded0458cb3ba22c713d343341086dcb6e1c1836cce",
       "BOIN-AUDIO.md": "1ac9b61d1b0678fdd4f1486caf6e27dc6bd3e95008b962d672b14f1b6f970fc5",
-      "TECH21.md": "d377494ff6d622bbad5a0ac926992b97e758f0b3254549b34cae65118ccfd43f",
+      "TECH21.md": "958cba8793e10c2ba4eaa7386bcd0e528107d05126bbe91d3de1c81251129407",
       "MOOER.md": "cdad5c6009106194df97ab42a7c0e5b4bb606ff1bde54be36dfd5c4a578be039",
       "BEHRINGER.md": "8746e2a4c6f49febe91bde776a38dd035352781e66c258940a33d85d1c69218d",
       "NUX.md": "29acb84970c6419d402ee05963fa98fc7d157b2f4c219633d76d399d8b8da438",
