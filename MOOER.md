@@ -2081,10 +2081,10 @@ Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no si
 
 | Field | Finding / qualification |
 |---|---|
-| Expression | Two external expression inputs,shared with AMP CTRL. ManualWAH instructions include software **Toeswitch** on/off control;external pedal wiring/compatibility stillunverified. Built-in treadle notestablished. |
+| Expression | Two external expression inputs,shared with AMP CTRL. ManualWAH instructions include software **Toeswitch** on/off control;Manual specifies **TRS expression pedals,10–100kΩ**,heel/toe calibration and**Merge** for multiple parameters/endpoints/directions;pinout andtoe-switch hardware compatibility remainunverified. Built-in treadle notestablished. |
 | K/F/B | Manual names **SELECT plus five parameter knobs**,independent master-output controls;full rotary/button totals still unverified. **Eight footswitches** comprise bankup/down,CTRL1–3 andA/B/C. |
 | Display | Own manual: **5-inch,854×480 color LCD**;touch unverified. |
-| Processing / categories | **13 blocks;108 amp models,164 effects,43 factory cabinets**. Manual category headlines: **COMP10;WAH10;FXA40;FXB35;DS/OD31;NS3;EQ8;REVERB11**. Delay census andsimultaneous DSP ceiling unverified;shared FXA/B choices mustnot be summed asunique algorithms. |
+| Processing / categories | **13 blocks;108 amp models,164 effects,43 factory cabinets**. Manual category headlines: **COMP10;WAH10;FXA40;FXB35;DS/OD31;NS3;EQ8;REVERB11**. Manual routing paragraph says **12 blocks** versus13 elsewhere;reconciliation,delay census andsimultaneous DSP ceiling unverified;shared FXA/B choices mustnot be summed asunique algorithms. |
 | Memory | Manual: **85 banks×3=255 preset slots**,superseding product-page **255 banks** wording. Manual specifies **162 factory presets**:banks1–27 cab-on forFRFR/headphones;28–54 cab-off forpower amps. Factory presets arewithin255 slots,not additional. |
 | Synth / acoustic | Synth engine anddedicated acoustic simulation unverified;GUITAR Tone Capture is anEQ-character capture,not proof ofeither. |
 | Dimensions / mass | Manual: **287×208×64mm;2.1kg**,axes unstated;not GE300 measurements. |
@@ -2092,7 +2092,7 @@ Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no si
 | Power | Manual requires **9VDC2A,center-negative** supply;capacity requirement,not measured draw. Battery/USBpower,barrel dimensions unverified. |
 | Editor / platforms | Mac/Windows editing,preset transfer,IR loading,firmware updates andUSB audio documented;Manual: USB **24-bit44.1kHz**;Windows ASIO driver required,Mac needs noextra driver. Normal/Re-Amp modes andper-side dry/processed sends documented. CurrentOS/channel limits unverified. |
 | IR / NAM / capture | **20 userIR slots**;third-party IR≤2048samples;Tone Capture AMP/GUITAR/CAB modes. [Own downloads](https://www.mooeraudio.com/companyfile/GE300-Lite-Downloads-150.html): **V5.0.3,2026-08-04**,NAM A1/A2 load throughconverter intoAMP only;not evidence ofnativeNAM execution. |
-| Looper / practical | **30-second stereo looper**,storable sessions;adjustable tuner. Drum/scenes/spillover unverified. |
+| Looper / practical | **30-second stereo looper**,storable sessions;adjustable tuner. Manual: loop continues throughpreset changes andautomatically survivespower-off;undo/redo,reverse,half-speed,once andstop/clear documented. Half-speed lowers pitch oneoctave;no doubled recording capacity inferred. Drum/scenes/spillover unverified. |
 | IDR price | Noqualified exactShopeehardwareoffer fromGE300Lite/GE300 Lite queries. Used/new,seller/item,condition,stock,bundle,warranty/voucher unknown. |
 
 <!-- comparison evidence ends -->
@@ -2104,3 +2104,5 @@ Manual follow-up checked2026-10-18: [MOOER-authored Lite manual,distributor copy
 Controls/library follow-up2026-10-18: [manufacturer manual reproduced on alternate mirror](https://device.report/m/3bfcaf5bf9953f7daa8dcb5a20cfaf3a3e077f88dbcce614acf8c0b00c48ac63.pdf),sameV01-2020.07.22 title,85-page structure andLite-specific controls asprevious distributor copy,which was unavailable thispass. Printedpp4–5,12,44–45 support updates. Counts aretext-derived;no visual panel corroboration ordevice operation. SoftwareToeswitch wording doesnot prove a built-in mechanical switch.
 
 Category follow-up2026-10-18: [own V01 manual copy](https://device.report/m/3bfcaf5bf9953f7daa8dcb5a20cfaf3a3e077f88dbcce614acf8c0b00c48ac63.pdf),printedpp48,51,55–56,72–76. FXA includes drives/boosts beyondFXB;both covermodulation,EQ,pitch,delay,filters. UserIR use removes microphone parameters while retaining cuts,early reflection,level andsample-point controls. DELAY introduction mistakenly repeatsFXloop wording;no category total inferred. These published category headlines do not establish aunique315-algorithm census,current installedlibrary orconcurrent capacity.
+
+Operational follow-up2026-10-18: [same own V01 manual](https://device.report/m/3bfcaf5bf9953f7daa8dcb5a20cfaf3a3e077f88dbcce614acf8c0b00c48ac63.pdf),printedpp14,17,24–25. Four movable routing points aremainoutput,XLRoutput,SEND,RETURN;RETURN cannot precedeSEND. These routing objects are notfour extra audioeffects. Loop retention isnot evidence ofmultiple independently stored loopslots. No device orpedal operated.
