@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "Original MS-70CDR connector and recall screening",
-    "finding": "No analog EXP or dedicated phones in complete original-model connector inventory; configured one-switch patch cycling. Fits chassis preference.",
+    "current": "MS-50G+ connector and preset screening",
+    "finding": "No analog EXP or dedicated phones; foot-operated patch selection, exact down/up mapping unverified. Chassis fits.",
     "next": [
-      "Continue MS-50G+, MS-60B+ and MS-70CDR+ exact connector screening, one model per commit",
+      "Continue MS-60B+ and MS-70CDR+ exact connector screening, one model per commit",
       "IR-200: resolve stereo IR capacity/loader conflict, complete field checklist and final scope decision; power voltage/polarity now source-backed",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
@@ -122594,7 +122594,7 @@
       "date": "2026-10-19",
       "source_commit": "87c7d3816a380ddc49e3af2b2441564f454f87d7",
       "scope": "Normalized inherited source checks without recertification or admitting partial leads; exact prior merged category preserved in public_metadata.remote_87c7d38_preserved.expression_category_before_normalization.",
-      "comparison_rows": 57,
+      "comparison_rows": 58,
       "adjacent_rows": 1,
       "active_inventory_changed": false
     },

@@ -75,6 +75,7 @@ Global **calibration**, global **pedal-position recall**, global **EQ**, a physi
 | [MOOER Prime P2](MOOER.md#prime-p2) | Yes / **No analog EXP input**, complete manual inventory | 64W×120Lmm; fits | **Fails direct analog path**; MIDI separate | Direct EXP N/A; MIDI unverified | Direct EXP N/A; MIDI coverage unknown | Dedicated3.5mm headset/phones | **No onboard footswitches**; touchscreen and external F-series separate |
 | [MOOER Prime S1](MOOER.md#prime-s1) | Yes / **No analog EXP input**, complete manual inventory | 70.2×240mm; too deep; rotated too wide | **Fails direct analog path** | Direct EXP N/A; wireless unverified | Direct EXP N/A; wireless coverage unknown | Dedicated3.5mm | Bank pairs thenA–D; direction-source conflict retained |
 | [NUX Amp Academy Stomp NMA-3AAP](NUX.md#amp-academy-stomp) | Yes / EXP/CTRL; controller pinout unverified | 183L×130Wmm; rectangle fits, orientation qualified | **Unverified**; global output levels/EQ are separate | Position/min/max/recall unknown | Bypass/headphones/tails/looper attenuation unknown | Dedicated; diameter unverified | Yes / yes, A down/C up in PRESET mode |
+| [Zoom MS-50G+](ZOOM.md#ms-50g-plus) | Yes / **No analog EXP**, complete connector inventory | 79 ×133 mm; fits | **Fails direct analog path**; retained master setting is separate | Direct EXP N/A; digital scope unknown | Direct EXP N/A; digital coverage unknown | **No dedicated socket**, complete inventory | Foot-operated direction selection; exact down/up mapping unverified |
 
 ## Evidence and qualification
 

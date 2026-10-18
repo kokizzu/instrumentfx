@@ -2748,7 +2748,7 @@ MS-50G+ guitar multi-effects; distinct from original MS-50G. Checked 2026-10-17;
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | Built-in, external and toe support unverified; no pedal inferred from compact format. | Unresolved |
+| Expression | No built-in treadle or analog EXP socket in the complete parts/connector inventory; no expression toe switch. | [Manual, parts][Z50P-M] |
 | K/F/B | Four encoders; main footswitch plus directional buttons operable by foot. Separate directional count and encoder pushes need corroboration. | [Product][Z50P-P]; [Manual, parts][Z50P-M] |
 | Display | 160×128 LCD; category-dependent backlight colors. Diagonal and touch unverified; not proof of full-color graphics. | [Manual][Z50P-M]; [Product][Z50P-P] |
 | Dimensions / mass | 133 D ×79 W ×61 H mm; 353g without /400g with batteries. | [Manual specifications][Z50P-M] |
@@ -2756,7 +2756,7 @@ MS-50G+ guitar multi-effects; distinct from original MS-50G. Checked 2026-10-17;
 | Category choices / document inventory | Agent-counted entries in effects-list revision Z2I-5046-02: **Dynamics10; Filter16; Drive26; Preamp22; Modulation25; Delay16; Reverb7; SFX6 —128 total**. Count each named effect/utility once; ignore parameter modes and the overview example. SFX includes BPM, not six independent sound-processing algorithms. The PDF marks Handy Guitar Lab additions with stars; text extraction does not reliably associate every star with its row. This document inventory does not reconcile to102+27 announced effects and does not prove installed content or simultaneous capacity. | [Effects list pp2–26][Z50P-E] |
 | Factory / user memory | 100 user patch memories. Official preset list documents001–085 (Krampus Drive through Hound Dog); remaining slot initialization and firmware-specific factory contents unresolved. Automatic saving can be disabled; factory reset overwrites settings and patches. | [Manual][Z50P-M]; [Preset list][Z50P-L] |
 | Synth / acoustic | ACOUSTIC SIMULATOR explicitly reshapes electric guitar toward acoustic tone. Sitar simulation, talking filters and BOMBER sound generation are distinct effects; no dedicated synth architecture established. | [Effects list pp5,11,26][Z50P-E] |
-| I/O | Mono¼-inch input,470kΩ; separate mono¼-inch L/R outputs; USB-C and DC9V. Firmware1.30 adds USB MIDI program-change reception with selectable channel or OMNI. Headphones, USB audio and further external control unverified. | [Manual specifications][Z50P-M]; [v1.30 supplement pp3–4][Z50P-S] |
+| I/O | Mono¼-inch input,470kΩ; separate mono¼-inch L/R outputs; USB-C and DC9V. Firmware1.30 adds USB MIDI program-change reception with selectable channel or OMNI. No dedicated headphone socket in the complete connector inventory; USB audio and further digital control unverified. | [Manual specifications][Z50P-M]; [v1.30 supplement pp3–4][Z50P-S] |
 | Power / battery / USB | AD-16:9VDC,500mA,center-negative supply rating, not measured draw. TwoAA: alkaline~7h,NiMH1900mAh~6.5h,lithium~14h; conditions affect duration. USB bus power supported. | [Manual][Z50P-M] |
 | IR / NAM / capture | Factory preamps use Multi-Layer IR technology; user IR import, native/converted NAM and capture support unverified. | [Product][Z50P-P] |
 | Editor / software | Handy Guitar Lab for MS-50G+ on iOS/iPadOS manages patches and edits/adds effects. App supports individual/all-patch backup to Pool, restore and .zptc import, effect deletion/restoration, effect-property version/power/slot-count display and VoiceOver. Windows/Mac firmware1.40 listed; desktop editor unverified. | [Manual][Z50P-M]; [App manual pp4–21][Z50P-A]; [Support][Z50P-U] |
@@ -2781,6 +2781,10 @@ No dependencies, firmware, apps or source documents downloaded to the filesystem
 [Z50P-S]: https://zoomcorp.com/media/documents/E_MS-50Gplus_v1.30_Supplementary.pdf
 [Z50P-A]: https://zoomcorp.com/media/documents/E_HandyGuitarLab_for_MS-50Gplus.pdf
 [Z50P-U]: https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-50g-plus/ms-50g-support/
+
+### MS-50G+ — direct expression and preset screening
+
+Checked 2026-10-19 against the exact-model [manufacturer manual][Z50P-M]. Guitar input, two mono outputs, USB-C and DC comprise its connector inventory: no direct analog EXP path. The retained master-volume setting is not pedal assignment. Direct-expression position, range and bypass/headphone/tail/looper coverage are inapplicable; digital control coverage remains unknown. The 79 W ×133 D mm chassis fits. Foot-operable direction buttons select patches; exact numerical down/up mapping remains unverified because control icons are images. PRESELECT separates selection from activation. Older effect counts, firmware and offer qualifications remain unchanged.
 
 ## G5
 
