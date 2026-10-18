@@ -659,6 +659,18 @@ Volume, delay-input, reverb-input, or unchanged-target assignments use physical 
 
 SYNTH: envelope depth/polarity−10…+10; attack,wave,resonance,mix0…10. WAVE ranges from sawtooth toward an octave-lower sawtooth, not an established number of discrete oscillators. MIX blends dry/synth. Lower DRIVE/AMP VOLUME orPROG LVL if the combination distorts; cabinet bypass is suggested for some synth overtone sounds. [E1 p30][AX3B-M]
 
+
+### AX3000B — ESS and MIDI restore scope
+
+Checked2026-10-18 against [own E1 manual][AX3B-M], pp47–49,52–54. No transfer,restore ordevice operation performed.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / ESS | **Up to8 parameter steps** operate on the expression-assigned target. Pedal controls sequence speed,orselects steps withSPEED=PEdL. One-shot completion returns to the effect's configured parameter value. Parameter sequencing isnot audio looping oradditional synth voices. |
+| Live / ESS controls | ESS TAP1/TAP2/TRIG do nothing inPEdL mode;maximum tap interval **10s**. Save ESS settings in the program. Under-pedal switch toggles the target effect. |
+| Editor / MIDI dump | DUMP CUR sends current program,including unsaved edits;DUMP ALL includes programs,MIDI anddump settings. Transfers work independently ofSYEX OUT,which controls outbound parameter changes. |
+| Memory / restore behavior | A received **single program requires storing** to persist. **All-data reception automatically overwrites stored data**,leaving current edit buffer unchanged. Factory restore separately erases user programs andinitializes MIDI settings. |
+
 <!-- comparison evidence ends -->
 
 [AX3B-M]: https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3000B_E1.pdf&response-content-type=application%2Fpdf%3B
