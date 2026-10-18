@@ -1440,6 +1440,15 @@ Checked2026-10-18 against [official manual pp.10–14][V3-M],Z2I-3982-02;web tex
 | Factory / user settings reset | Factory initialization overwrites **allsettings**,thenrestarts. This isnot evidence ofnamed patch-bank capacity. Procedure buttonicons aremissing fromweb text;no shortcut inferred orreset performed. |
 
 
+### V3 — electrical limits and battery-type settings
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| I/O / mic and AUX impedance | Mic input **≥3kΩ at1kHz**; AUX rated **−10dBu,22kΩ**. Mic’s separately documented+4dBu maximum is not the AUX rating. [Own specification sheet](https://zoomcorp.com/documents/3158/E_V3_Specifications.pdf) |
+| I/O / headphones and noise | Phones **20mW+20mW into32Ω**. Residual noise **−75dBu**; equivalent input noise **≤−125dBu,A-weighted,150Ω source,+40dB gain,phantom OFF**. Distinct measurements; do not call either a universal system dynamic range. [Own specification sheet](https://zoomcorp.com/documents/3158/E_V3_Specifications.pdf) |
+| Conversion / specification conditions | Both24-bit converters use **128× oversampling**; frequency response **20Hz–20kHz,+1/−3dB at10kΩ**. Internal32-bit processing remains distinct from float conversion. [Own specification sheet](https://zoomcorp.com/documents/3158/E_V3_Specifications.pdf) |
+| Power / battery types and USB connector | Own manualpp5,14 explicitly identifies **USB Micro-B** and alkaline,NiMH orlithium AA settings. Match the battery setting for accurate remaining-charge indication; no NiMH/lithium runtime or in-unit charging capability inferred. [Own manual][V3-M] |
+
 ## V6-SP
 
 Vocal multi-effects with built-in formant pedal. Consolidated/researched2026-10-16; partial verification. Earlier V6 microphone bundle is not the current SP package.
