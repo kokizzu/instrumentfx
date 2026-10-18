@@ -974,6 +974,14 @@ The complete supporting comparison was read before merging. Its model-specific v
 
 Sources: [effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md](HOTONE.md#ampero-ii-stage-mp-380)<!-- historical-link:hotone-010 -->, [effects/shopee-multifx-5.md](research-state.json)<!-- historical-link:hotone-011 -->. No legacy file was deleted.
 
+### Ampero II Stage — expression-volume audit, 2026-10-19
+
+**Global volume assignment not established.** [Direct manufacturer V1.5.1 manual](https://res.hotoneaudio.com/prod/support/Ampero%20II%20Stage_Online%20Manual_EN_Firmware%20V1.5.1.1761815404453.pdf), printed pp51,55–57,71–73: EXP targets are patch settings; control settings change with patches. Global socket/calibration differs from assignment. Four target ranges follow parameter limits,can reverse,with Line/Exp/Log curves. EXP1/2 share one pedal; EXP3 serves another. Patch Volume and placed VOL targets must not be conflated. Signal position,bypass,headphone,tail/recorded-loop attenuation and held-position recall remain unverified. Onboard FS6/7 select banks down/up; FS1–5 choose patches,not certified general sequential preset down/up.
+
+[Manufacturer-authored V1.6.4 mirror body](https://www.scribd.com/document/1049631457/Ampero-II-Stage-Online-Manual-EN-Firmware-V1-6-4-1780283715558) independently retains patch-scoped controls and reversible target ranges; identity matches Stage title and numbered structure. [Hotone support](https://cdn.hotoneaudio.com/support/1) lists **V1.7.0**; its exact assignment behavior remains unverified. No V1.7.0 guarantee is inferred from older manuals. No local download,PDF-image inspection or hardware test.
+
+[Exact manufacturer Stage specification](https://www.hotone.com/products/multi-effects/Ampero%20II%20Stage) rechecked: **301 W×180 Dmm**,outside preferred size;normal guitar input,two TRS EXP/CTRL and3.5mm headphones. Exact [Seven Stereo shop16879370/item25819354504](https://shopee.co.id/Hotone-MP-380-Ampero-II-Stage-Multieffects-Pedal-i.16879370.25819354504) failed retrieval2026-10-19. Preserve olderRp13.685.000 as dated indexed evidence;current stock,condition,bundle,warranty,shipping andused price remain unknown.
+
 ## Ampero II Stomp MP-300
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
