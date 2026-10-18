@@ -531,7 +531,7 @@ def main():
         if mode == 'commit-pocketpod':
             message = 'research(line6): distinguish Pocket POD cabinet choices and output tuning'
         if mode == 'commit-m9':
-            message = 'research(line6): qualify M9 overdub transitions and parameter adjustment'
+            message = 'research(line6): document M9 scene folder timeout and copy access'
         if mode == 'commit-m5':
             message = 'research(line6): document M5 MIDI ranges and tempo expression limits'
         if mode == 'commit-ax3g':

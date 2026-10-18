@@ -1004,6 +1004,15 @@ Checked 2026-10-18 against [own v2.0 Advanced Guide §§3•1,5•2–4][M9-A]; 
 | Looper / speed and reverse overdubs | An overdub recorded at half speed plays at **double speed** after returning to normal, while the original normal-speed track resumes normally. Recording an overdub in Reverse makes that new layer play backward after Reverse is exited; the original resumes its recorded direction. This is not independent track storage. |
 | Controls / fine adjustment | Hold **TAP while turning a parameter knob** for fine adjustment, including millisecond delay editing. Tap-based note values persist while browsing effect models. The guide’s Time/Tap instructions refer to Knob1 entering note mode but Knob2 returning to time mode; retain this textual inconsistency rather than infer a universal knob mapping. |
 
+### M9 scene-folder timeout and copy access
+
+Checked 2026-10-18 against the manufacturer v2.0 Advanced Guide, printed §§4•1–2,4•5.
+
+| Field | Evidence / qualification |
+|---|---|
+| Memory / scene-folder selection | Turn Model Select in Scene Select to browse four folders; after changing folders, select a scene within **3 seconds**, otherwise the display returns to the current folder. This is a selection timeout, not evidence that the sound changes merely by browsing. TAP cancels scene selection. [Advanced guide](https://line6.com/data/l/0a0600729af54af8b8963953c/application/pdf/M9%20Advanced%20Guide%20%28Rev%20A%29%20-%20English.pdf) |
+| Memory / scene copy | Hold **3A + TAP** until Scene Select becomes **Save To**, then choose a destination A/B footswitch. Copying moves the current setup into a scene location; it does not create more than the documented 24 onboard scene memories. TAP cancels from the save screen. [Advanced guide](https://line6.com/data/l/0a0600729af54af8b8963953c/application/pdf/M9%20Advanced%20Guide%20%28Rev%20A%29%20-%20English.pdf) |
+
 ## Pocket POD
 
 Handheld multi-effects;distinct from Pocket POD Express. Checked2026-10-17;partial. Ownership,vocal suitability unknown. Bass use documented for Tube Preamp.

@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom G2X FOUR",
-    "task": "Saved separate Simfoni exact-hardware cached asks and voucher minimum discrepancy. Next broaden eligible hardware discovery; retain all earlier prices and unresolved technical fields.",
+    "model": "Line 6 M9",
+    "task": "Saved scene-folder timeout and scene-copy access from own v2.0 guide. Next broaden Shopee discovery; M13 replacement adapter rejected, not priced as processor.",
     "next_models": [],
     "after_queue": "347 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -45593,7 +45593,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom G2X FOUR."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 M9."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -58964,6 +58964,28 @@
       "cache": "Both approximately one month; not live checkout",
       "qualification": "3% voucher minimum Rp5m exceeds shown item amount alone; condition, stock, bundle contents, warranty and checkout unverified.",
       "discovery": "RP355 query no exact hardware; G2X query returned recorded FOUR rather than new variant; Korg Pandora result was already-recorded stomp, not original handheld."
+    },
+    {
+      "model": "Line 6 M9",
+      "checked_date": "2026-10-18",
+      "source": "https://line6.com/data/l/0a0600729af54af8b8963953c/application/pdf/M9%20Advanced%20Guide%20%28Rev%20A%29%20-%20English.pdf",
+      "pages": "4•1–2,4•5",
+      "finding": "Scene-folder browse timeout 3 seconds, TAP cancel; 3A+TAP hold enters Save To for scene copy, not extra memory.",
+      "discovery": {
+        "queries": [
+          "Shopee Line6 M13",
+          "Shopee Boss GT6B",
+          "Shopee Digitech RP80"
+        ],
+        "rejected": "M13 search returned replacement supply shop216990724/item6861766207 Rp144200; accessory not hardware. Other exact searches no results; no availability inference."
+      },
+      "remaining": [
+        "Exact hardware used/new IDR",
+        "Visual controls and physical corroboration",
+        "Display diagonal/touch",
+        "Current software compatibility"
+      ],
+      "method": "Original manufacturer guide browser text only; no downloads or execution"
     }
   ],
   "discovery_cross_brand_bass": {
