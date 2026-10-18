@@ -709,6 +709,20 @@ Checked2026-10-18 against the identified [original effect list][MP350-E11],print
 
 Firmware1.3.0’s previously recorded VelvetVerbHQ remains a separate revision-qualified addition;do not claim a complete current14-entry library without later-list reconciliation.
 
+### MP-350 — MOD inventory, firmware1.1.0-JP
+
+Checked2026-10-18 against [original effect list][MP350-E11],printed pp64–73 (PDFpages65–74). Older manufacturer manuscript,text only.
+
+| Field | Revision-qualified inventory |
+|---|---|
+| Category choices / MOD chorus and flanger | **Chorus6**: Aozora Chorus,Grand Choruium,Liquid C,Bass Chorus,Liquid Dream,3D Chorus. **Flanger4**: Flanger,Bass Flanger,Neg Flanger,Trem Flanger. GrandChoruium spelling retained. |
+| Category choices / MOD vibrato and phaser | **Vibrato4**: Pulser,Grand Vibrato,Vibrato,Vibrato T. **Phaser7**: 90 Phaser,Green Phaser,Stone Phaser,Notch Phaser,Pan Phaser,Minivibe,Revolver. Subsection placement retained. |
+| Category choices / remaining MOD | **Tremolo2**: Helicopter,Custom Trem. **Rotary1**: Rotary. **Expanding3**: Classic Stereolizer,Modern Stereolizer,Stereo Expander. **SlowAttack1**: Sweller. **Special1**: Freeze. **29 total entries derived**,not current installed-library orsimultaneous capacity. |
+| Processing / MOD channel scope | First24 entries throughRotary use **mono-L input/stereo output**;three expanders use **stereo I/O**;Sweller/Freeze use **mono I/O**. A stereo output label alone doesnot establish stereo input preservation. |
+| Live / internal modes and Freeze | LiquidC’s four modes andRevolver’s chorus/vibrato are internal choices. Freeze supports momentary activation;assigned slot footswitch controlsActivate ratherthan module bypass. Activate resets off upon effect selection orScene1 recall. |
+
+Previously recorded firmware1.3.0 Feedback addition remains separate;complete current MOD count andlater retention require reconciliation.
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

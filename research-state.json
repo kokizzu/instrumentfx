@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Hotone Ampero II MP-350",
-    "task": "MP350 older1.1.0-JP RVB census13 stereo entries saved;DLY32 already saved. Remaining older MOD inventory andlatestfirmware reconciliation open.114 Markdown compatibility files retained.",
+    "task": "MP350 older MOD29,DLY32,RVB13 censuses saved withI/O andmode limits. Reconcile complete older category totals against laterfirmware,orcontinue freshShopee discovery.114 Markdown compatibility files retained.",
     "next_models": [],
     "after_queue": "342 partial unique models; Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -73143,6 +73143,72 @@
       "140 Plate HQ five modes are internal choices.",
       "Velvet Verb HQ1.3.0 addition separate;complete current total unresolved.",
       "Bypass Trail not patch-change spillover."
+    ]
+  },
+  "mp350_mod_census_20261018": {
+    "source": "https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf",
+    "revision": "firmware1.1.0-JP",
+    "printed_pages": "64–73",
+    "checked": "2026-10-18",
+    "groups": {
+      "Chorus": [
+        "Aozora Chorus",
+        "Grand Choruium",
+        "Liquid C",
+        "Bass Chorus",
+        "Liquid Dream",
+        "3D Chorus"
+      ],
+      "Flanger": [
+        "Flanger",
+        "Bass Flanger",
+        "Neg Flanger",
+        "Trem Flanger"
+      ],
+      "Vibrato": [
+        "Pulser",
+        "Grand Vibrato",
+        "Vibrato",
+        "Vibrato T"
+      ],
+      "Phaser": [
+        "90 Phaser",
+        "Green Phaser",
+        "Stone Phaser",
+        "Notch Phaser",
+        "Pan Phaser",
+        "Minivibe",
+        "Revolver"
+      ],
+      "Tremolo": [
+        "Helicopter",
+        "Custom Trem"
+      ],
+      "Rotary": [
+        "Rotary"
+      ],
+      "Expanding": [
+        "Classic Stereolizer",
+        "Modern Stereolizer",
+        "Stereo Expander"
+      ],
+      "SlowAttack": [
+        "Sweller"
+      ],
+      "Special": [
+        "Freeze"
+      ]
+    },
+    "count": 29,
+    "io": {
+      "mono_L_to_stereo": 24,
+      "stereo": 3,
+      "mono": 2
+    },
+    "limits": [
+      "Feedback1.3.0 addition separate;current census unresolved.",
+      "Internal modes not additional algorithms.",
+      "Freeze slot switch controls Activate;resets off on selection/Scene1."
     ]
   }
 }
