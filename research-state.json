@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "StompLab IB required fields / discovery",
-    "task": "StompLab IB auto power-off, temporary tuner calibration and destructive factory reload saved. Continue exact missing fields or fresh Shopee brand/series discovery; initial user fill and exact Indonesian offer unresolved.",
+    "model": "Zoom A2.1u discovery / required-field audit",
+    "task": "A2.1u primary identity and DC-versus-AC manual conflict saved as non-active discovery lead. Seek exact Shopee hardware, then complete own-manual audit before admission; adapter match excluded.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -79329,5 +79329,39 @@
     "destination": "VOX.md#stomplab-1b",
     "scope": "Own IB automatic shutdown audio exception, persistent enable setting, temporary tuner calibration and destructive factory reload; documentation only, no device operation.",
     "remaining": "Initial user fill, display, software/import support, acoustic semantics and exact Indonesian hardware offers remain unresolved."
+  },
+  "discovery_zoom_a21u_20261018": {
+    "checked_date": "2026-10-18",
+    "market_queries": [
+      "site:shopee.co.id \"Vox\" \"Stomplab\" \"1B\"",
+      "site:shopee.co.id \"Zoom\" \"A2.1u\"",
+      "site:shopee.co.id \"Korg\" \"AX4B\"",
+      "site:shopee.co.id \"A2.1\" \"Zoom\" efek"
+    ],
+    "market_result": "No exact qualifying offer resolved. A2.1u match was a Rp125000 adapter, excluded; numeric searches are not availability proof.",
+    "market_index": "https://shopee.co.id/search?keyword=zoom+guitar+effect",
+    "model": "Zoom A2.1u",
+    "product": "https://zoomcorp.com/en/ca/multi-effects/acoustic/a21u/",
+    "support": "https://zoomcorp.com/en/us/multi-effects/acoustic/a21u/a21u-support/",
+    "manual": "https://zoomcorp.com/media/documents/E_A21u.pdf",
+    "primary_identity": "Discontinued acoustic-effects processor; separate from A2. Not admitted to active inventory.",
+    "manual_findings": {
+      "pages": [
+        2,
+        7,
+        39
+      ],
+      "processing": "47 effect types; eight simultaneous modules.",
+      "memory": "40 user +40 preset =80. Initial user fill not audited.",
+      "display": "Two-digit seven-segment LED; diagonal/color/touch unverified.",
+      "expression_io": "Built-in expression; CONTROL IN accepts FP01/FP02 or FS01. Mono input, stereo output/phones, balanced XLR, USB, DC inlet; full routing/toe audit pending.",
+      "conversion": "Internal96kHz; USB16-bit stereo record/play at32/44.1/48kHz. Do not equate internal and USB rates.",
+      "dimensions": "255W×165D×79H mm;1200g excluding batteries.",
+      "power_conflict": "Specification table p39 says9V AC300mA; safety p2 and connector p7 explicitly say9V DC300mA center-negative AD0006. Preserve conflict; no device operation.",
+      "battery": "Four AA alkaline; approximately6h; no charging."
+    },
+    "remaining": "Exact Shopee hardware offer; complete controls/category choices; toe/routing; initial user fill; own-body USB power wording; editor/current OS/import support. Generic bundled-software navigation is not editor evidence.",
+    "method": "Browser text only; no file/dependency/software download, installation or hardware operation.",
+    "active_models_added": 0
   }
 }
