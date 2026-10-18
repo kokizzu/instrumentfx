@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS ME-8",
-    "task": "Saved own-manual tempo-delay ceiling and tempo persistence. Next resolve remaining ME-8 fields or resume fresh Shopee bass/vocal discovery; accessory-only searches do not establish hardware availability.",
+    "task": "Saved ME-8 delay choices, compressor parameter scope and factory-reset data loss. Next physical-control/manual evidence or fresh Shopee discovery; initial factory fill and other required gaps remain.",
     "next_models": [],
     "after_queue": "349 partial models;114 Markdown compatibility files remain;no downloads/workflows/push."
   },
@@ -75137,6 +75137,34 @@
       "Delay category complete type inventory",
       "Control counts and visual corroboration",
       "Other required fields and qualified new/live-stock offers"
+    ]
+  },
+  "me8_delay_reset_20261018": {
+    "checked": "2026-10-18",
+    "sources": [
+      {
+        "url": "https://cdn.roland.com/assets/media/pdf/ME-8_OM.pdf",
+        "pages": [
+          20,
+          26
+        ],
+        "access": "Own-manual manufacturer-indexed page text"
+      },
+      {
+        "url": "https://support.roland.com/hc/en-us/articles/201957579-ME-8-Initialization-Factory-Reset",
+        "access": "Manufacturer support search text"
+      }
+    ],
+    "findings": [
+      "Two delay types: Mono/Tap;1ms–2s TIME",
+      "Tap actual delay half set value,distinct from tempo overflow behavior",
+      "Compressor low sustain acts like limiting,not a separate algorithm",
+      "Factory initialization loses all user information"
+    ],
+    "remaining": [
+      "Physical K/F/B corroboration",
+      "Initial user preset fill",
+      "Unresolved software/import/display fields and qualified hardware prices"
     ]
   }
 }

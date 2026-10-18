@@ -2740,6 +2740,17 @@ Checked2026-10-18 against manufacturer-indexed [own manual p16][ME8-M], How to S
 | Live / simultaneous tempo functions | Tempo Delay and Tempo Rate can operate together in a patch. Humanizer,Flanger,Phaser andTremolo offer tempo-rate settings;Flanger/Phaser also offer tempo-step settings. These parameter options are not extra effect blocks. |
 | Live / basic tempo persistence | Optional **FS-5U at TEMPO IN** or CTL assigned TEMPO sets tempo after **more than four steady presses**. Basic tempo starts at **quarter-note120** at each power-on and retains changes until power-off;it can be changed even while the current patch does not use it. No patch-stored tempo or MIDI clock support is inferred. |
 
+
+### ME-8 — delay choices, compressor and initialization
+
+Checked2026-10-18 against manufacturer-indexed own-manual pp20,26 and Roland support. Documentation only; no reset, device test or source-file download.
+
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / delay2 | **Mono and Tap** are the two delay types. TIME spans **1ms–2.00s**;Tap is intended for stereo output and its actual delay time is **half the set value**. This mode behavior is separate from the tempo-ceiling rule above. With feedback0,Mono produces one repeat;Tap produces one delayed sound on each side. [Own manual p26][ME8-M] |
+| Category choices / compressor | One described compressor has Sustain/Attack/Level0–100 andTone−50–50. LowSustain behaves like limiting;this is a parameter behavior,not a separately selectable limiter model. Displayed values do not establish milliseconds orcompression-ratio units. [Own manual p20][ME8-M] |
+| Memory / factory reset scope | Roland warns that initialization loses **all user information**. Its documented PARAMETER-left/down power-on andWRITE/COPY confirmation restores factory state;it is not a settings-only reset orproof of an external backup editor. [Manufacturer support](https://support.roland.com/hc/en-us/articles/201957579-ME-8-Initialization-Factory-Reset) |
+
 <!-- comparison evidence ends -->
 
 Original/good/no-minus are seller claims, not verified condition or authenticity. Bundle, adapter inclusion, working state, warranty, shipping, tax and vouchers unverified. Historical ask is not live availability or a completed sale. Official PDF opens as 40 pages with no extracted body; indexed manufacturer text supplies printed page34. No download or visual inspection claimed.
