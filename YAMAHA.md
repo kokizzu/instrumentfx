@@ -349,6 +349,17 @@ Technical rows: [manufacturer manual printed29][DGS-M]; specification fields rem
 |---|---|
 | Controls / pickup | Knobs must reach stored patch values before changing them; OUTPUT exempt. AMP SELECT also requires matching stored type before selection changes. Unsaved edits lost on patch change. [Manual pp13–14][DGS-M] |
 
+
+### DG-Stomp — memory retention and conditional tails
+
+| Field | Exact-model qualification |
+|---|---|
+| Factory / user memory retention | Internal lithium backup battery preserves settings without external power. Yamaha gives an average **three-year** life; **E5** indicates depletion and possible data loss. MIDI Data Filer backup is recommended. This is memory backup, not evidence of battery-powered audio operation. [Manual p5][DGS-M] |
+| Live / delay tails | For DELAY and TAPE ECHO, Yamaha specifies remaining repeats when switching between the **same delay settings**, from nonzero LEVEL to LEVEL0; new input is not delayed. This conditional behavior is not universal seamless patch switching or proven reverb spillover. [Manual p20][DGS-M] |
+| Live / footswitch modes | PrG selects patches; EFF assigns switches1/2/3 to modulation/delay/reverb on/off. BANK still accesses bank/group/area selection in EFF mode. Compressor switching is not one of these three assignments. [Manual pp16–17,23][DGS-M] |
+
+Checked2026-10-18 against own Yamaha manual text; no downloads, device operation or battery service.
+
 <!-- comparison evidence ends -->
 
 [DGS-M]: https://usa.yamaha.com/files/download/other_assets/7/313717/dgstomp_en.pdf
