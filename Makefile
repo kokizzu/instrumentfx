@@ -2011,3 +2011,7 @@ research-commit-levitate:
 .PHONY: research-commit-bfactory
 research-commit-bfactory:
 	python3 scripts/research_tools.py commit-bfactory
+
+.PHONY: research-commit-pg2
+research-commit-pg2:
+	python3 scripts/research_tools.py commit-pg2

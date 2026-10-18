@@ -1140,7 +1140,7 @@ Checked 2026-10-17; partial. Portable guitar multi-effects; ownership,bass/vocal
 | Display | Backlit LCD;diagonal,color/touch unverified. [Manual][PG2-T] |
 | Processing / categories | Three amp choices Clean/Blues/Rock;three modulation Chorus/Flanger/Tremolo;ambience selects Delay/Room/Spring. Independent sections and combined factory settings establish multifx;maximum simultaneous blocks unverified. Noise gate documented. [Manual][PG2-T] |
 | K/F/B / named buttons | Text names **ALT,PRESETS,TAP/SAVE,TUNER/METRO,SELECT,up,down**: seven named button functions; physical total and shared-control arrangement require visual corroboration. Gain,modulation,ambience,N.R. and power/backlight sliders are counted separately. [Original manual transcription][PG2-T2] |
-| Preset memory | **9 factory+9 user=18**. Initial user contents unresolved. [Manual][PG2-T] |
+| Preset memory | **9 factory + 9 user = 18**. Factory names: Ultra Clean, Heavy Rock, 70’s Blues, Cool Trem, Lead Solo, Crunch, Echo Clean, Jet Blues, Space Rock. Initial user contents remain unresolved. [Manufacturer-manual transcription][PG2-T] |
 | Synth / acoustic | Dedicated synth/acoustic simulation unverified. |
 | I/O | Guitar input,AUX IN,headphones,output,DC. Complete connector sizes/balancing pending. [Manual][PG2-T] |
 | Power / battery / USB | **Two AA/LR6 or9VDC≥200mA supply**;ACD-008A optional. Approx8h alkaline specification versus overview more-than8h. Polarity/barrel,actual draw and USB operation unresolved. [Manual][PG2-T] |
@@ -1157,6 +1157,18 @@ Checked 2026-10-17; partial. Portable guitar multi-effects; ownership,bass/vocal
 |---|---|
 | Used | No exact condition-confirmed hardware offer established. |
 | New | No exact condition-confirmed hardware offer established. |
+
+
+### PG-2 — converter, analog and practice specifications
+
+Checked 2026-10-19 against the matching manufacturer-authored transcriptions [Specifications and practice sections][PG2-T] and [©2013 Cherub manual][PG2-T2]. Official V1 PDF access failed again; current revision equivalence and visual verification remain unresolved.
+
+| Field | Exact-model evidence / qualification |
+|---|---|
+| Processing / conversion | **44.1 kHz sampling, 24-bit A/D and D/A, 24-bit signal processing**. These internal specifications do not establish USB audio or its stream format. [Manual specifications][PG2-T] |
+| I/O / analog ratings | Nominal instrument input **1 MΩ**; AUX input **−10 dBu / 22 kΩ**. Headphone rating **125 mW + 125 mW into 32 Ω**, with the plus sign explicit in the first transcription; the second mirror corrupts that separator. Main-output maximum level/impedance and connector sizes remain unresolved. [Manual specifications][PG2-T]; [second transcription][PG2-T2] |
+| Live / tuner calibration | Chromatic/Guitar modes and flat tuning; published frequency span **27.5–4186.0 Hz**, reference **A4 435–445 Hz**. Lowest-note subscript is corrupted in the transcriptions and is not silently supplied. Select and up/down adjust the settings. [Manual][PG2-T] |
+| Live / metronome controls | SELECT with up/down sets rhythm style, beat and tempo; TAP supplies tempo, and up/down changes volume while the metronome runs. The rhythm icons are not legible enough to certify pattern count. [Original manual][PG2-T2] |
 
 <!-- comparison evidence ends -->
 

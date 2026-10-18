@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Manufacturer technical gaps / Shopee discovery",
-    "task": "B Factory original-leaflet transcription now qualifies blend,compression,EQ placement andXLR groundlift. Preserve70mA product versus92mA leafletOCR conflict pendingoriginalimage verification. Continue freshShopee discovery oranother active-model gap;all387 records partial.",
+    "task": "PG-2 audio/converter,tuner/metronome andfactorypreset-name gaps updated frommatchingmanual transcriptions;originalpanel,polarity,revision andexactIDR offer remain unresolved. ContinuefreshShopee discovery oranother active-model gap. AFactory originalJPG remainsuninspectable;generatedguide notadopted.",
     "next_models": [],
     "after_queue": "387 active models,46 brands,all partial;no downloads/workflows/push."
   },
@@ -120286,5 +120286,38 @@
       "site:shopee.co.id \"Digitech RP300\""
     ],
     "result": "No qualifying exact hardware listing returned in this pass;no price assigned andno marketabsence claim."
+  },
+  "pg2_electrical_practice_followup_20261019": {
+    "checked_date": "2026-10-19",
+    "model": "NUX PG-2",
+    "sources": [
+      "https://manuals.plus/nux/pg-2-portable-guitar-efx-manual",
+      "https://manualzz.com/doc/24271438/nux-pg-2-effects-processor-user-manual"
+    ],
+    "source_qualification": "Manufacturer-authored PG-2 manual transcriptions with NUX/Cherub identity and 2013 copyright; official V1 PDF inaccessible,revision equivalence and visual census unresolved.",
+    "findings": [
+      "44.1kHz/24bit A/D,D/A andsignal processing;noUSB stream inference",
+      "Instrumentinput1Mohm;AUX -10dBu/22kohm;phones125mW+125mW into32ohm withseparator corroboration",
+      "Tuner27.5–4186.0Hz;A4reference435–445Hz;lowestnoteOCRnot silently repaired",
+      "Metronome rhythm/beat/tempo selection andrunningvolume;patternicons uncounted",
+      "Ninefactorypreset names transcribed;initialuserslot contentsunknown"
+    ],
+    "remaining": "Originalpanel/port sizes,polarity/barrel andcurrent draw,display diagonal/color/touch,loading/editor andexactcondition-qualified Shopee IDR offers."
+  },
+  "afactory_source_access_20261019": {
+    "model": "Sonicake A Factory QDS-04",
+    "result": "Official original manual JPG still not inspectable. Generated ASIN guide not adopted for control counts;RockBoard manual link resolves tosameofficialJPG. No technical fields promoted.",
+    "sources": [
+      "https://www.sonicake.com/products/a-factory",
+      "https://www.rockboard.de/de/pedalPedia/Sonicake/A-Factory/448314363/",
+      "https://manuals.plus/asin/B0CP1T28X2"
+    ]
+  },
+  "discovery_korg_zoom_20261019": {
+    "queries": [
+      "site:shopee.co.id \"Korg AX1G\"",
+      "site:shopee.co.id \"Zoom A2.1u\""
+    ],
+    "result": "No qualifying exacthardware offer returned;no assignedprice ormarketabsence claim."
   }
 }
