@@ -1103,6 +1103,16 @@ Checked2026-10-18 against the original manufacturer reference manual v1.2,firmwa
 | Memory / initial factory fill | Manual explicitly states **first200 slots factory-programmed,last100 empty;all300 overwriteable**. This resolves the earlier initial-fill gap:200factory-filled+100blank is one300-location writable pool,not200protected+300user. Present firmware/content may differ. |
 | Memory / initialization | Factory initialization restores **system andpreset defaults**;manual recommends VoiceSupport backup first. This is broader than clearing onepreset orresetting only global settings. No device reset performed. |
 | Live / MIDI channel separation | Main MIDI Channel serves preset changes andharmony control;**CC Channel can differ** for control messages. MIDI filters can block Program Change,SysEx orboth. This documents message-routing options,not a new physical MIDI Thru socket orproof of a supported full editor. |
+
+### VoiceLive Touch 2 — onboard and headset microphone routing
+
+Checked2026-10-18 against [manufacturer reference v1.2][VLT2-R],printed pp54–55,59;firmware1.0.02 build37 scope retained. No device orsoftware operated.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / onboard RoomSense microphones | **Two onboard microphones** can feed headphone ambience;Ambient/Auto additionally derives Harmony/Hardtune musical guidance. Manual states RoomSense audio never reaches main outputs,to avoid feedback. INPUT=RoomSense selects onboard microphones;its routing parameter then shows unavailable. Do not infer an audience-mic feed in the mainmix ortransfer unverified processed-output behavior. |
+| I/O / headset microphone mode | INPUT=Headphone supports cellphone-style headphones with an integrated microphone;the RoomSense control becomes **Headphone Mic level**. ExactTRRS wiring,CTIA/OMTP compatibility andbias voltage remain unverified;the mode does not prove any generic headset is compatible. |
+| I/O / analog output level | AtAnalogOut0dB andproper input gain,the manual describes output as approximately microphone level;the control allows **6dB additional gain**. This is a control-level relationship,not an output-headroom measurement orconverter dynamic-range change. |
 <!-- comparison evidence ends -->
 
 [VLT2-Q]: https://manualzz.com/doc/6755730/tc-helicon-voicelive-touch-2-quick-start-guide

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceLive Touch 2",
-    "task": "Resolved initial memory fill using ownreferencep81:200factory-filled100emptyall300writable. Saved reset scope andMIDIchannelseparation. Continue DCsupply/phantomvoltage,display,USBformats,looppersistence/duration,editorOS andqualifiedused/newIDRgaps;retainfirmware1.0.02build37scope.",
+    "task": "Saved VLT2 RoomSense2mic/headsetinput paths and analog-output gain relationship. Loop60s onlygeneratedFAQrejected;duration/persistence remainunverified. Continue originalmanufacturer loopstorage/power/display/USBformat/software/qualifiedprice gaps;noFAQfeaturetransfer.",
     "next_models": [],
     "after_queue": "363active/46brands;304guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -61039,6 +61039,12 @@
       "checked_date": "2026-10-18",
       "source": "https://manualzz.com/doc/9506742/tc-helicon-voicelive-touch-2-reference-manual",
       "finding": "Referencep81explicit300writable:1–200factoryfilled201–300empty;alloverwriteable. System+presetresetVoiceSupportbackup;CCchannelcanseparatefrompreset/harmonynotechannel;PC/SysExfilters."
+    },
+    {
+      "model": "TC-Helicon VoiceLive Touch 2",
+      "checked_date": "2026-10-18",
+      "source": "https://manualzz.com/doc/9506742/tc-helicon-voicelive-touch-2-reference-manual",
+      "finding": "Reference54–55:2RoomSensemicsambienceheadphones/AutoaddsNaturalPlayguidance;manualnevermainwordingpreservedwithoutinferredprocessedroute. Headphonemicmodelevel,TRRSwiringunknown. AnalogOut0dBapproximatelymiclevel,+6dBcontrolnotheadroom."
     }
   ],
   "discovery_cross_brand_bass": {
