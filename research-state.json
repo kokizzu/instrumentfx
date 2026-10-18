@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 387,
+  "active_model_count": 388,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 387,
+  "canonical_root_model_count": 388,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "387 unique active/root-canonical;0 legacy-only;46 brands;six excluded;all partial.",
+  "count_reconciliation": "388 unique active/root-canonical;0 legacy-only;47 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Manufacturer technical gaps / Shopee discovery",
-    "task": "StompLabIIBmanualreopened;toe-pressure/travelcalibration,EQbypass andeffectdefaultlimits saved. Freshused2B/BP80queryreturnednoqualifiedoffer. ContinuefreshShopeediscovery oranothermanufacturerfieldgap;all387partial,migrationincomplete.",
+    "task": "Five Jamie Slays picks and BOSS GX-1 covered. Core added; exact IDR/manual/control gaps remain. Resume BP355 manual expression/store/reset follow-up or Shopee discovery; all388 partial, migration incomplete.",
     "next_models": [],
-    "after_queue": "387 active models,46 brands,all partial;no downloads/workflows/push."
+    "after_queue": "388 models,47 brands;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -25280,6 +25280,9 @@
       "MP-20",
       "MP-10",
       "Pocket Sonic"
+    ],
+    "Harley Benton": [
+      "DNAfx GiT Core"
     ]
   },
   "root_brand_content": {
@@ -25761,11 +25764,14 @@
       "MP-20",
       "MP-10",
       "Pocket Sonic"
+    ],
+    "HARLEY-BENTON.md": [
+      "DNAfx GiT Core"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 322,
+      "record_count": 323,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -25795,10 +25801,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 322 guitar, 169 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 323 guitar, 169 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "387 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "388 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -46231,10 +46237,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 387,
-    "canonical_root_models": 387,
+    "unique_brand_model_pairs": 388,
+    "canonical_root_models": 388,
     "legacy_only_models": 0,
-    "guitar_view_models": 322,
+    "guitar_view_models": 323,
     "bass_focused_models": 40,
     "vocal_only_models": 25,
     "vocal_view_models": 71,
@@ -46654,7 +46660,8 @@
       "ROWIN::RE-05 Looper Pro",
       "EROK::MP-20",
       "EROK::MP-10",
-      "EROK::Pocket Sonic"
+      "EROK::Pocket Sonic",
+      "Harley Benton::DNAfx GiT Core"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -49903,6 +49910,13 @@
       "link": "EROK.md#pocket-sonic",
       "source_files": [
         "EROK.md"
+      ],
+      "finding_files": []
+    },
+    "Harley Benton::DNAfx GiT Core": {
+      "link": "HARLEY-BENTON.md#dnafx-git-core",
+      "source_files": [
+        "HARLEY-BENTON.md"
       ],
       "finding_files": []
     }
@@ -120457,5 +120471,20 @@
     ],
     "market_result": "Noexactqualifiedofferreturned;noassignmentofused/newpriceornomarketclaim.",
     "remaining": "Visualcontrol/displayverification,powerbarreldimensions,editor/importsupport andfreshcondition-qualifiedIDRoffers."
+  },
+  "jamie_slays_requested_coverage_20261019": {
+    "source": "https://jamieslays.com/best-multi-effects-pedals/",
+    "models": [
+      "Valeton::GP-200",
+      "MOOER::GE300 Lite",
+      "Harley Benton::DNAfx GiT Core",
+      "Line 6::HX Stomp",
+      "NUX::MG-300 original"
+    ],
+    "also_requested": "BOSS::GX-1",
+    "qualification": "Article identifies models only; mixed GE300 Lite/GS1000 technical claims not transferred.",
+    "primary_source": "https://harleybenton.com/product/dnafx-git-core/",
+    "shopee_query": "site:shopee.co.id \"DNAfx\" \"Core\"",
+    "result": "No results; exact IDR unknown."
   }
 }
