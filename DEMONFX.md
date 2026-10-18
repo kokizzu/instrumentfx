@@ -15,7 +15,7 @@ Checked 2026-10-18; partial. Own two-page manual identifies this model and demon
 | Display | Technology, diagonal, color and touch unknown. |
 | Dimensions / mass | Unknown from verified primary evidence. |
 | Processing / categories | **Two simultaneous effects; eight choices per bank**. Sixteen slots are not sixteen simultaneous blocks. [Manual pp1–2][DMW-M] |
-| Processing / choices | Tremolo, Harmonic Tremolo, Filter, Phaser, ADT, Rotary, Digital Delay, Analog Delay, Chorus/Vibrato, Flanger, Hall, Plate. Menu order and unrestricted routing unverified. [Manual p2][DMW-M] |
+| Processing / choices | Tremolo, Harmonic Tremolo, Filter, Phaser, ADT, Rotary, Digital Delay, Analog Delay, Chorus/Vibrato, Flanger, Hall, Plate. Bank order is transcribed below; unrestricted routing remains unverified. [Manual p2][DMW-M] |
 | Factory / user memory | Writable presets, factory fill, total slots and retention unknown. Algorithm banks are not verified preset memories. |
 | Synth / acoustic | Dedicated synth/acoustic simulation unknown; rotary cabinet effect is not an amp/cab modeling library. |
 | I/O | **Mono instrument input, stereo output, TRS expression**. Other connector sizes, external tap, channel topology, impedance, USB/MIDI/headphones unknown. [Manual p1][DMW-M] |
@@ -45,9 +45,22 @@ Checked 2026-10-18 against [own manual p2][DMW-M], browser text only. The two-co
 | Effects / Morph behavior | Filter Morph changes oscillating wah to random filter/hold; flanger Morph moves negative feedback through zero at center to positive feedback. Chorus/Vibrato blend descriptions distinguish dry at left, chorus at center and vibrato at right. These are mode-dependent controls, not extra simultaneous blocks. |
 | Expression / mode-dependent RATE | Panel assigns expression to bank 2 RATE but warns RATE's action depends on mode. Parameter table also uses RATE for decay/feedback in some algorithms. Do not label the socket as universally controlling modulation speed or assume arbitrary mapping/calibration. |
 
+
+
+### Dual Mod Workstation — bank menus and RATE assignments
+
+Checked 2026-10-18 against the [manufacturer manual's structured table, p2][DMW-M]. This improves the earlier interleaved text extraction; no visual or hardware verification is claimed.
+
+| Field | Table transcription / qualification |
+|---|---|
+| Processing / bank 1 TAP menu | **1 Tremolo; 2 Harmonic Tremolo; 3 Filter; 4 Phaser; 5 ADT; 6 Rotary; 7 Digital Delay; 8 Analog Delay.** |
+| Processing / bank 2 EXP menu | **1 Harmonic Tremolo; 2 Phaser; 3 Chorus/Vibrato; 4 Flanger; 5 Rotary; 6 Digital Delay; 7 Hall; 8 Plate.** These are bank positions, not sixteen unique algorithms. |
+| Expression / bank 2 RATE meaning | RATE is modulation speed for positions1–5, **feedback for Digital Delay6**, and **decay for Hall7/Plate8**. The documented RATE expression target therefore changes function with the chosen algorithm. Actual range and pedal calibration remain unverified. |
+| Effects / bank 1 ADT controls | RATE controls pitch0–60cents; DEPTH controls delay0–60ms; Morph blends delayed/detuned voices. These do not imply an independent pitch-shifter block. |
+
 <!-- comparison evidence ends -->
 
-Manufacturer-hosted text only; no visual audit, hardware operation or downloads. Claims are attributed to DemonFX, not verified as equivalent to Keeley. Dimensions, mass, menu order and parameter mapping remain open.
+Manufacturer-hosted text only; no visual audit, hardware operation or downloads. Claims are attributed to DemonFX, not verified as equivalent to Keeley. Dimensions, mass and full physical verification remain open. Bank order and selected parameter mappings are transcribed above.
 
 [DMW-M]: https://www.demon-fx.com/uploadfile/202404/b1a86a7081609f2.pdf
 [DMW-O]: https://shopee.co.id/Efek-Gitar-DemonFX-DUAL-MOD-WORKSTATION-Multi-Effect-Harmonic-Trem-Phaser-Chorus-Vibrato-Flanger-Rotary-Digital-Hall-Plate-Reverb-Tremolo-Filter-Wah-ADT-Digital-Analog-Delay-Tap-Tempo-Expression-Super-MOD-Electric-Guitar-Effect-Gitar-Elektrik-Pedal-i.19700013.26274795531
