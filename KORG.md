@@ -707,6 +707,7 @@ Checked2026-10-18 against [own E1 manual][AX3B-M], pp47–49,52–54. No transfe
 | Field | Evidence / qualification |
 |---|---|
 | Expression / ESS | **Up to8 parameter steps** operate on the expression-assigned target. Pedal controls sequence speed,orselects steps withSPEED=PEdL. One-shot completion returns to the effect's configured parameter value. Parameter sequencing isnot audio looping oradditional synth voices. |
+| Expression / ESS sequence modes | E1p47: **forward,alternate,alternate with repeated endpoints,andrandom** step modes;one-shot alternatives stop aftertheir sequence. **SPEED=0.5–100**,orPEdL selectssteps bypedal position;manual doesnot label thatrange BPM/Hz. **SMOOTH=0–10** changes abrupt steps toward smooth transitions. These shape oneassigned parameter,not moreaudioeffects orpolyphony. [Own E1][AX3B-M] |
 | Live / ESS controls | ESS TAP1/TAP2/TRIG do nothing inPEdL mode;maximum tap interval **10s**. Save ESS settings in the program. Under-pedal switch toggles the target effect. |
 | Editor / MIDI dump | DUMP CUR sends current program,including unsaved edits;DUMP ALL includes programs,MIDI anddump settings. Transfers work independently ofSYEX OUT,which controls outbound parameter changes. |
 | Memory / restore behavior | A received **single program requires storing** to persist. **All-data reception automatically overwrites stored data**,leaving current edit buffer unchanged. Factory restore separately erases user programs andinitializes MIDI settings. |
