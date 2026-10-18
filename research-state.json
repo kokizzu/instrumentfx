@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "POD Express Black electrical and dimension-source follow-up (partial)",
-    "finding": "Line6 explicitly includes Black in electrical specs. Yamaha SG bundle dimensions lack chassis/package basis; fit remains unknown. Exact Shopee Indonesia item not established; no active admission.",
+    "current": "Eventide H90 global mapping and bypass follow-up",
+    "finding": "Own1.12.5 confirms global P Out Gain and A/B scroll then P load; relay/AB Only/Dual-path bypass qualifications retained. Range/looper attenuation and exact Shopee offer unresolved.",
     "next": [
-      "Priority follow-up: Eventide H90 exact expression global-volume coverage and Shopee Indonesia hardware",
+      "Priority follow-up: Eventide H9 Max global expression volume range and bypass/looper coverage",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"

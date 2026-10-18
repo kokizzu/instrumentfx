@@ -2099,3 +2099,7 @@ expression-audit-commit-nux:
 .PHONY: expression-audit-commit-sonicake
 expression-audit-commit-sonicake:
 	python3 scripts/expression_audit_sonicake.py commit
+
+.PHONY: expression-audit-commit-eventide
+expression-audit-commit-eventide:
+	python3 scripts/expression_audit_eventide.py commit
