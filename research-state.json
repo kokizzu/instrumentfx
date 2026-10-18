@@ -75414,7 +75414,7 @@
   },
   "resume_cursor": {
     "model": "Sonicake Matribox II Pro QME-200",
-    "task": "Saved completeconnectorinventory andmanualcover1.1.1/Clonep60/release1.1.4conflict;MIDItransmission conflict retained. Next exactmanual synth/acoustic/categorycounts orfreshShopee discovery.",
+    "task": "Saved DYN12/FREQ6/WAH6 exactmanualcensus,ACSimversusacousticvoicing/synthlikefilter andIR44100Hz1024samples. Next remainingDRV/EQ/MOD/DLY/RVB/AMP/CABcensus;retainrevisionconflicts.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75561,5 +75561,16 @@
     "previous_ports_row": "| Ports | Two balanced XLR outs,FX loop,phones,AUX,external EXP/FS and USB documented. Complete connector inventory ?. **Feature list says MIDI I/O;official FAQ says MIDI output unsupported**. Preserve contradiction,not an assumed transmitter. |",
     "findings": "Completep4socketinventory;samePDFp60CloneNAMdespitecover1.1.1versusrelease1.1.4;manualp17TRS/USBClockOutcontradictsFAQoutputunsupported",
     "qualification": "Noactualhardwareorvisualinspection;minimumfirmware/nativearchitecture/FAQresolutionnotproven"
+  },
+  "matribox_ii_pro_categories_20261018": {
+    "source": "https://www.hotone.jp/files/brands/sonicake/products/matribox-ii-pro/manual/20260803-070736-v5r131-matribox_ii_pro_jp.pdf",
+    "pages": "20–24,44",
+    "counts": {
+      "DYN": 12,
+      "FREQ": 6,
+      "WAH": 6
+    },
+    "findings": "ACSim4modesdistinctACWoody/acousticpreamps;Filter4stepsynthlikeonly;Octaver/DualMelody/Pitchpolyphonic;IR44100Hz1024samples",
+    "qualification": "Cover1.1.1/bodyCloneconflict retained;later1.2.2algorithmsnotaddedtohistoricalcensus;currentfullcategorytotalsunknown"
   }
 }
