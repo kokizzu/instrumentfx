@@ -671,16 +671,16 @@ Checked2026-10-18. Dedicated bass multi-effects; distinct from AX5G,AX3B andAX30
 
 | Field | Evidence / gaps |
 |---|---|
-| Instrument / expression | Bass; built-in expression controls wah,volume orparameters. External EXP/toe mechanism unverified. [Own features][AX5B-F] |
-| K/F/B | Exact rotary/footswitch/button counts unknown; no sibling counts used. |
+| Instrument / expression | Bass; built-in expression controls wah,volume orparameters. Forward pedal switch toggles WAH/FX PARAM; volume follows pedal position. No external EXP inrear inventory. [Own features][AX5B-F];[Manual pp6–8][AX5B-M] |
+| K/F/B | **2 /2 /3**, text-derived: function selector,value knob;programUP/DOWN;WRITE,CANCEL,pedal-setting. Under-pedal switch additional;visual audit pending. [Manual pp5–6][AX5B-M] |
 | Display | Diagonal,resolution,technology,color,touch unknown. |
 | Dimensions / weight | Own English manual:**249W×143D×44H mm;650g**; French section agrees. German product specs:**178×142×43mm;340g**. Conflict unresolved; manual values preferred,not averaged. [Manual p13][AX5B-M];[German specs][AX5B-S] |
 | Processing / choices | Product advertises57types and**six simultaneous includingNR**. Categories:PRE10,drive/amp16,cab10,MOD10,DLY5,RVB5,NR1=57. Manual countsPRE11 explicitly10+pedalwah1,so its categories sum58. Preserve counting basis; do not treat57/58 as concurrent blocks. [Features][AX5B-F];[Manual p13][AX5B-M] |
-| Factory / user memory | **40preset+40user=80**;initial user fill andwrite protection unverified. [Features][AX5B-F] |
+| Factory / user memory | **40preset+40user=80**; writable01–40,presets41–80. WRITE overwrites destination;unsaved edits lost onprogram change/poweroff. Initial user fill unknown. [Features][AX5B-F];[Manual pp7,10][AX5B-M] |
 | Synth / acoustic | Bass synth,Fretless andSlowAttack documented; acoustic simulation andsynth tracking architecture unverified. [Features][AX5B-F] |
-| I/O | Manual:quarter-inch monoINPUT,quarter-inch stereoTRS OUTPUT. Complete rear inventory/control sockets pending. [Manual p13][AX5B-M] |
+| I/O | Manual:quarter-inch monoINPUT,quarter-inch stereoTRS OUTPUT. Complete rear:INPUT,OUTPUT(sharedheadphones),DC9V. NoUSB,MIDI,AUX,externalEXP orloop sockets. [Manual pp6,13][AX5B-M] |
 | Conversion | AD/DA24-bit;31.25kHz. [Manual p13][AX5B-M] |
-| Power / battery / USB | **9V DC optionaladapter or4AA alkaline,about8hours**. Polarity,current,barrel andUSB operation unknown. Manufacturer listsmanual included; actual seller bundle unknown. [Manual p13][AX5B-M] |
+| Power / battery / USB | **9V DC optionaladapter or4AA alkaline,about8hours**. Polarity,current andbarrel unknown;noUSB port forUSB power. Manufacturer listsmanual included; actual seller bundle unknown. [Manual p13][AX5B-M] |
 | IR / NAM / capture | User IR,native/convertedNAM andproprietarycapture import unknown. |
 | Editor / software | Editor/platform/currentOS support unknown. |
 | Looper / drums / live | TunerA0–E6,reference438–445Hz. Looper,drums,scenes,trails/routing unknown. [Manual p13][AX5B-M] |
@@ -699,6 +699,10 @@ Checked2026-10-18. Dedicated bass multi-effects; distinct from AX5G,AX3B andAX30
 | NR1 | Noise reduction |
 
 [Own feature-page list][AX5B-F]. MOD punctuation is compressed in source; ten names retained without importing AX3000B entries. Original EFG1 manual43PDFpages,English introduction explicitlyAX5B; German introduction printsAX5G,another source identity inconsistency. No PDF download orvisual audit performed.
+
+### AX5B processing architecture
+
+Manual p5 specifies **six effects includingNR plusvolume pedal** simultaneously; DELAY/REVERB is one shared effect category. These distinctions supersede the shorter product-page ceiling wording without changing57/58library provenance. [Manual pp5,8][AX5B-M]
 
 <!-- comparison evidence ends -->
 

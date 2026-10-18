@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Korg AX5B",
-    "task": "Added dedicatedbass model fromownproduct/manual,57vs58count basis andmanual24914344650g vsregional17814243340g conflict. Pricesunknown. Next ownEnglishmanual controls/expression/rearports/memory; no sibling transfer.",
+    "task": "AX5B2/2/3textcontrols,toeswitch,complete3socketrear andwritable01–40 saved; sixeffects+volume andsharedDLYREV clarified. Next ownmanual presetfill/expression/trails/power gaps orfreshhardwarediscovery.",
     "next_models": [],
     "after_queue": "346 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -58829,6 +58829,22 @@
       ],
       "discovery": "ExactShopeeAX5B/AX5 B nooffer;notunavailability",
       "method": "Browsertextonly"
+    },
+    {
+      "model": "Korg AX5B",
+      "checked_date": "2026-10-18",
+      "source": "https://cdn.korg.com/us/support/download/files/ce3fdcaa2f36213ab3f032738bc6648f.pdf?response-content-disposition=inline%3Bfilename%3DAX5B_OM_EFG1.pdf&response-content-type=application%2Fpdf%3B",
+      "pages": "5–8,10",
+      "finding": "2rotary2foot3button+toe;rearINPUT/OUTPUT/DC9V only. Sixeffects inclNR plusvolume;DELAYREVshared. Writable01–40;preset41–80;WRITEoverwrite/unsavedloss.",
+      "remaining": [
+        "Initialuserfill",
+        "Visualcounts",
+        "Powerpolarity/current",
+        "Display",
+        "QualifiedIDR",
+        "Expression/trailsdetails"
+      ],
+      "method": "OwnEnglishmanualbrowsertext;nooperation/download"
     }
   ],
   "discovery_cross_brand_bass": {
