@@ -1053,8 +1053,6 @@ Checked 2026-10-18 against the [own B1 FOUR/B1X FOUR operation manual Z2I-3612-0
 
 Bass multi-effects; external-only expression. Consolidated and expanded2026-10-16; partial. All15 model fields from the complete legacy bass comparison are preserved below with their original2026-10-14 dates and USD qualifications. New primary checks and IDR observations are separate.
 
-<!-- comparison evidence begins -->
-
 ### B2 FOUR — complete retained model fields
 
 | Field | Retained value / unknown |
@@ -1083,10 +1081,15 @@ Checked **2026-10-14**. Records are **partial**, not certifications that every f
 
 Primary sources: [manufacturer product](https://zoomcorp.com/en/us/multi-effects/bass-effects/b2-four/),[original HTML operation manual](https://zoomcorp.com/manuals/b2four-en/),[original control photograph](https://zoomcorp.com/media/original_images/Hero_1_0EAQFMB.png.768x0_q60_focal_area-825%2C633%2C1650%2C1267.png). Legacy source [effects/bass.md](ALL-BASS.md)<!-- historical-link:zoom-022 --> remains unchanged and incoming links remain valid.
 
+<!-- comparison evidence begins -->
+
 ### B2 FOUR — current manual and product clarification
 
 | Field | Current verified limit / gap |
 |---|---|
+| K/F/B | **4 / ? / ?**: four verified rotary encoders; footswitch/button classification still requires corroboration. Historical 4/6/4 is not a current verified count. |
+| Memory / capacity | **300 editable locations,250 factory-filled** in the retained source record; empty-slot and factory recovery restrictions are documented below. Factory-filled slots are part of300,not additional. |
+| I/O / complete inventory | 1/4-inch input, switchable1MΩ/10MΩ; 3.5mm AUX; two1/4-inch main outputs; mono XLR balanced output with ground lift; 3.5mm phones; FP02M control input; USB-C and9VDC input. Electrical levels and USB routing are qualified below. |
 | Built-in expression / toe |No built-in pedal; FP02M external input. Separate toe input unverified |
 | Physical controls verification |Four rotary encoders explicitly confirmed by current product text. Historical4/6/4 remains uncorroborated for footswitch/button totals; direction buttons are foot-operable according to own manual,while DI MODEL andbypass have separate switch labels. Visual count/classification still pending. |
 | Display |256×128 dot-matrix LCD; diagonal,color mode,touch unknown |

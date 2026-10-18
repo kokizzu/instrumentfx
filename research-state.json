@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Comparison evidence review",
-    "task": "V3 current evidence selected without deleting its historical source rows. Continue reviewing recorded models for superseded unknowns in active comparisons, alongside exact Shopee discovery and primary technical gaps.",
+    "task": "B2 FOUR comparison now selects current audited categories while preserving original source rows. Continue checking other records for superseded active fields, alongside primary verification and exact Shopee discovery.",
     "next_models": [],
     "after_queue": "374 active models,46 brands,all partial; compatibility migration incomplete; no downloads/workflows/push."
   },
@@ -81499,5 +81499,10 @@
     "reason": "Historical 2026-10-14 unknown dimensions and incomplete I/O appeared alongside later verified specifications in the active view.",
     "change": "Explicitly select current manufacturer checks and every subsequent source/price qualification; preserve original comparison verbatim outside selection. Carry forward current K/F/B and unresolved looper status.",
     "verification": "Selection tests passed; historical prefix verified byte-identical. Reviewed four projected rows, retained full I/O and price qualifications; final apply/link/count gates run by commit target."
+  },
+  "b2four_comparison_selection_20261018": {
+    "change": "Moved comparison start after historical table/source context. Preserved historical rows; current selection retains explicit capacity,controls and complete connector inventory with every subsequent source/price qualification.",
+    "reason": "Avoid stale category-breakdown unknown and older synth naming in active comparison; preserve source history and unresolved control counts.",
+    "membership": "Unchanged; bass only."
   }
 }
