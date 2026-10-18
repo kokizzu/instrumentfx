@@ -3067,6 +3067,13 @@ Checked **2026-10-17**, partial. Bass-specific processor; separate from707II gui
 |---|---|
 | Live / bypass, mute and tuning | Briefly pressing/releasing both footswitches gives **dry bypass with pedal volume control**. Holding both **at least one second**, then releasing, mutes OUTPUT/PHONES. Tuner reference **435–445 Hz in 1 Hz steps**, resetting to **440 Hz on power-up**. [Own manual p11][708-M] |
 | Expression / per-patch range and toe exception | **PDLMIN/PDLMAX each 0–10**, stored per patch; reversed endpoints reverse the sweep. WAH/PITCH assignments temporarily replace the current MODULATION type with P-WAH/P-PIT. Storing the assignment saves that module ON. Toe press toggles the assigned module/sampler; **VOL has no toe-switch action**. [Own manual pp23–25][708-M] |
+
+### 708II — sampler persistence and routing
+
+| Field | Own manufacturer manual evidence / qualification |
+|---|---|
+| Looper / sample storage versus loop points | **Card recordings save automatically; internal recordings cannot be saved.** A–B start/end points reset when changing sample number or toggling sampler mode. Recorded audio persistence therefore does not establish persistent loop boundaries. [Own manual p15][708-M] |
+| Looper / input and simultaneous restrictions | **BASS samples the effected input; AUX bypasses effects.** Sampler operation disables MOD and REV and cannot coexist with rhythm playback. Playback offers normal speed, half/quarter speed with corresponding pitch change, or half/quarter speed retaining pitch; these are playback modes, not additional algorithms. [Own manual pp14–15][708-M] |
 <!-- comparison evidence ends -->
 
 ### 708II — sources and unresolved hardware pricing

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Recorded-model required fields / discovery",
-    "task": "708II own-manual live controls and expression ranges saved. Resume unresolved loop/card behavior or another required-field gap; refresh Shopee discovery before claiming market coverage. A2 remains non-active without exact hardware offer.",
+    "task": "708II sampler persistence and routing saved: next audit card utility details or refresh Shopee brand/series discovery. Hold Delay remains separate and its recording-wording conflict unresolved. A2 remains non-active without exact hardware offer.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -79029,5 +79029,15 @@
     "destination": "ZOOM.md#708ii",
     "scope": "Own-model live controls and per-patch expression qualification; no sibling borrowing or hardware operation.",
     "remaining": "Exact Shopee offer/variant mapping, loop/card persistence, display and software gaps remain."
+  },
+  "zoom_708ii_sampler_persistence_20261018": {
+    "source": "https://zoomcorp.com/media/documents/E_708II.pdf",
+    "printed_pages": [
+      14,
+      15
+    ],
+    "destination": "ZOOM.md#708ii",
+    "scope": "Own-model sampler storage, loop boundaries and input routing verified; no hardware operation.",
+    "remaining": "Hold Delay persistence and wording conflict, card utility details, exact hardware pricing and other required fields remain unresolved."
   }
 }
