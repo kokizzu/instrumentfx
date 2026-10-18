@@ -2444,6 +2444,16 @@ OfficialVE-5_OM.pdf returnedsize-limit12638205bytes;indexedmanufacturertext pp9,
 |---|---:|---|
 | Condition-unverified historical hardware ask | Rp5.600.000 | [PnA Music Store,shop160105847/item8320929536](https://shopee.co.id/Effects-BOSS-VE-5-Vocal-Performer-i.160105847.8320929536),Kota Jakarta Timur. Search-indexed three months ago;direct reader returned **Cache miss**. Exact title identifies VE-5,not VE-500. New/used condition,working state,selected color/revision,adapter/bundle,warranty/import region,authenticity,stock,shipping/tax/voucher anddelivered total unverified. Relative today-delivery text does not prove availability;up-toRp10.000 late-arrival compensation isnot a hardware discount. Historical ask,not completed sale oravailable retail range. |
 
+### VE-5 — original manual electrical and memory distinctions
+
+Checked2026-10-18 against the [manufacturer-authored2012 VE-5 manual copy][VE5-COPY],printed pp16–18,20. Exact VE-5 identity,controls andcopyright retained;original document body only,no generated summary.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / original specification corroboration | Manual p20 explicitly specifies **PHONES/LINE nominal−20dBu,33Ω**. This independently corroborates the historical catalogue figures without relying onits dense multi-model extraction. Current manufacturer product's **TBD/66Ω** remains aconflict;no hardware revision oruniversal replacement value established. |
+| Memory / copy,exchange andfactory recovery | **COPY TO overwrites destination**;EXCHANGE swaps two sound locations. **COPY PRESET** loads afactory preset into the currently selected sound,distinct from resetting allsounds/system. Names support up to12characters. These operations do not add slots orpreserve overwritten custom settings automatically. Manual p18. |
+| Processing / dynamics parameter count | DYNAMICS has Depth andEnhance controls;Enhance increases definition. These are two parameters within thecategory,not two newly counted effects. MASTER NoiseThres is a separate sound-level noise adjustment,not a documented second dynamics engine. Manual pp16–17. |
+
 ## Pocket GT
 
 Handheld guitar multi-effects;distinctfromLine6PocketPOD/BOSSGT1. Checked2026-10-17;partial. Ownership/vocalsuitability unknown. BasscapabilityexplicitinownParameterGuidepresets71–90.
