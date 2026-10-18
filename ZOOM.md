@@ -1189,6 +1189,21 @@ Checked2026-10-18 against the [official2023 effect list](https://zoomcorp.com/me
 | Category choices / pedal6 | Output Volume Pedal,Pedal Volume,Bass Wah,Bass Pedal Pitch,Bass Pedal Mono Pitch,Pedal Resonance. Mono Pitch requires single-note playing. Output Volume persists acrosspatch changes;it differs from patch-local Pedal Volume. |
 | Live / time-effect limits | Delay/Analog/Hold reach4000ms;Tape/Reverse/Modulation reach2000ms;Dual lists0–1490 for each line. Hold Delay captures onrelease. ItsTail parameter andlisted reverbTail controls concern effect bypass,not proven patch-change spillover. The1.5-second minimum practice-looper length does not apply to Loop Roll’s10–4000ms sample/hold parameter. |
 
+
+### B2 FOUR — remaining named categories and reconciliation
+
+Checked2026-10-18 against [Zoom’s2023 effect list](https://zoomcorp.com/media/documents/E_B2FOUR_FX-list.pdf),Z2I-4875-01,pp3–13.
+
+| Field | Named choices |
+|---|---|
+| Category choices / dynamics 10 | Dynamic Compressor; Black Optical Compressor; Optical Compressor; Dual Compressor; Multiband Compressor; Glam Compressor; 160 Compressor; 1176 Limiter; Zoom Noise Reduction; Slow Attack. |
+| Category choices / filter 14 | Bass Auto Wah; Envelope Filter; Auto Filter; Z Tron Filter; Bass Cry Filter; Envelope Generator Filter; Sequence Filter; Bass Graphic EQ; Stereo Bass Graphic EQ; Bass Parametric EQ; Low EQ; High EQ; Splitter; Exciter. |
+| Category choices / drive 13 | EP Drive; RC Drive; Bass TS Drive; Bass Over Drive; Blueberry Drive; Dark Overdrive; Squeak Distortion; Voodoo-B Distortion; Bass Octave Fuzz; New York Muff Fuzz; Bass Fuzz Smile; Bass Metal Drive; TS+Boost Drive. |
+| Category choices / modulation 11 | Clone Chorus; Chorus One; Tri Chorus; Bass Stereo Chorus; Bass Vintage Flanger; Kick Flanger; Bass Detune; Tremolo; Phaser; Bass Phaser; The Vibe. |
+| Category choices / pitch 6 | Bass Octaver; Bass Analog Octaver; Pitchshift; Bass Mono Pitch Shifter; Harmony Pitch Shifter; Bass Polyphonic Pitch Shifter. |
+
+The twelve saved category inventories reconcile to **104 distinct named entries**. Six DI models remain separate. Internal modes do not add entries;this audit does not certify every installed/app-added library. All other required-field gaps remain open.
+
 <!-- comparison evidence ends -->
 
 ## B6

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B2 FOUR",
-    "task": "Saved B2 FOUR named7delay/8reverb/4SFX/6pedalchoices andtime/tail distinctions. Remaining unnamedcategorychoices:dynamics10,filter14,drive13,mod11,pitch6. Continue categoryaudit orfreshhardware lead;114 Markdown compatibility files retained.",
+    "task": "Completed B2 FOUR dated2023 named-effect inventory:104distinct entries across12categories,plus6DI separate. Continue remaining hardware/display/editor/price gaps orfresh exactShopee leads;114 Markdown compatibility files retained.",
     "next_models": [],
     "after_queue": "342 partial unique models; Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -58499,6 +58499,15 @@
           "Pedal Resonance"
         ]
       }
+    },
+    {
+      "model": "Zoom B2 FOUR",
+      "checked": "2026-10-18",
+      "finding": "Saved remaining54named dynamics/filter/drive/modulation/pitch choices;all12categories reconcile104distinctnames. Complete datednamedentryaudit,notcompletehardwareverification.",
+      "source": "https://zoomcorp.com/media/documents/E_B2FOUR_FX-list.pdf",
+      "revision": "©2023 Z2I-4875-01",
+      "pages": "3–13",
+      "inventory_key": "b2_four_effect_inventory"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -73485,5 +73494,158 @@
       "site:shopee.co.id \"Korg\" \"AX3000B\""
     ],
     "result": "No indexed results;no processor offer accepted,no unavailability inference."
+  },
+  "b2_four_effect_inventory": {
+    "checked": "2026-10-18",
+    "source": "https://zoomcorp.com/media/documents/E_B2FOUR_FX-list.pdf",
+    "revision": "©2023 Z2I-4875-01",
+    "categories": {
+      "dynamics": [
+        "Dynamic Compressor",
+        "Black Optical Compressor",
+        "Optical Compressor",
+        "Dual Compressor",
+        "Multiband Compressor",
+        "Glam Compressor",
+        "160 Compressor",
+        "1176 Limiter",
+        "Zoom Noise Reduction",
+        "Slow Attack"
+      ],
+      "filter": [
+        "Bass Auto Wah",
+        "Envelope Filter",
+        "Auto Filter",
+        "Z Tron Filter",
+        "Bass Cry Filter",
+        "Envelope Generator Filter",
+        "Sequence Filter",
+        "Bass Graphic EQ",
+        "Stereo Bass Graphic EQ",
+        "Bass Parametric EQ",
+        "Low EQ",
+        "High EQ",
+        "Splitter",
+        "Exciter"
+      ],
+      "drive": [
+        "EP Drive",
+        "RC Drive",
+        "Bass TS Drive",
+        "Bass Over Drive",
+        "Blueberry Drive",
+        "Dark Overdrive",
+        "Squeak Distortion",
+        "Voodoo-B Distortion",
+        "Bass Octave Fuzz",
+        "New York Muff Fuzz",
+        "Bass Fuzz Smile",
+        "Bass Metal Drive",
+        "TS+Boost Drive"
+      ],
+      "modulation": [
+        "Clone Chorus",
+        "Chorus One",
+        "Tri Chorus",
+        "Bass Stereo Chorus",
+        "Bass Vintage Flanger",
+        "Kick Flanger",
+        "Bass Detune",
+        "Tremolo",
+        "Phaser",
+        "Bass Phaser",
+        "The Vibe"
+      ],
+      "pitch": [
+        "Bass Octaver",
+        "Bass Analog Octaver",
+        "Pitchshift",
+        "Bass Mono Pitch Shifter",
+        "Harmony Pitch Shifter",
+        "Bass Polyphonic Pitch Shifter"
+      ],
+      "preamp": [
+        "Bass Driver Preamp",
+        "D.I Plus Preamp",
+        "Dark Preamp",
+        "Clear Driver Preamp",
+        "1073 Preamp",
+        "Solid Preamp",
+        "DI-5 Preamp",
+        "SB Preamp 1",
+        "BBB Preamp",
+        "Super Low Preamp",
+        "Djent Preamp"
+      ],
+      "bass_amp": [
+        "Fliptop",
+        "AMPG SVT",
+        "AG750",
+        "SMR400",
+        "EBH360",
+        "Mini Mark-B",
+        "TE400SMX",
+        "B-Man100",
+        "AC370",
+        "Sun CB",
+        "Monotone"
+      ],
+      "delay": [
+        "Delay",
+        "Analog Delay",
+        "Tape Echo",
+        "Dual Delay",
+        "Reverse Delay",
+        "Modulation Delay",
+        "Hold Delay"
+      ],
+      "reverb": [
+        "Room",
+        "Bright Room",
+        "Spring",
+        "Plate",
+        "Hall",
+        "Bright Hall",
+        "HD Hall",
+        "Air"
+      ],
+      "sfx": [
+        "Loop Roll",
+        "Phaser+Distortion",
+        "Fretless Simulator",
+        "Bomber"
+      ],
+      "pedal": [
+        "Output Volume Pedal",
+        "Pedal Volume",
+        "Bass Wah",
+        "Bass Pedal Pitch",
+        "Bass Pedal Mono Pitch",
+        "Pedal Resonance"
+      ],
+      "synth": [
+        "Bass Synthesizer",
+        "Z-Synthesizer",
+        "Bass Talk Synthesizer"
+      ]
+    },
+    "category_counts": {
+      "dynamics": 10,
+      "filter": 14,
+      "drive": 13,
+      "modulation": 11,
+      "pitch": 6,
+      "preamp": 11,
+      "bass_amp": 11,
+      "delay": 7,
+      "reverb": 8,
+      "sfx": 4,
+      "pedal": 6,
+      "synth": 3
+    },
+    "total_entries": 104,
+    "unique_names": 104,
+    "separate_di_choices": 6,
+    "scope": "Dated manufacturer list only;internal modes excluded as extra entries;installed/app-added library not recertified;model remains partial."
   }
 }
