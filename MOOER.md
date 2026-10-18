@@ -2108,6 +2108,10 @@ Guitar/bass multi-effects;partial,checked2026-10-18. Distinct fromP2/M1. [Own ma
 | Practical features | Tuner,10metronomes,40drumpatterns,80slooper. Looperchannels/scenes unverified. |
 | IDR price | ExactShopeequeries foundnoqualifiedhardwareoffer. Used/new amounts,seller/item,condition,stock,bundle,warranty,voucher unverified. |
 
+### Prime P1 — direct analog expression audit
+
+Checked2026-10-19. [MOOER-authored V01.2022.01.19 manual, printed pp3–6,9](https://images.static-thomann.de/pics/atg/atgdata/document/manual/540480_me_p1_manual_en.pdf), identifies P1 and publisher; complete layout/specification inventory has instrument input, main output, dedicated1/8in phones and USB charging/OTG, **no analog EXP input**. F-series wireless control is separate. The clickable CONTROL knob cycles A/B/C/D; no onboard foot-operated down/up. Manual55W×99.3Dmm and conflicting English-page83×42×31mm both fit; original dimension/mass conflict remains unresolved. Direct-EXP volume position/range/bypass/headphone/tail/loop coverage is inapplicable; wireless volume capability remains unaudited. No hardware or stock test. This supersedes earlier external-input uncertainty without transferring P2/M1 capabilities.
+
 <!-- comparison evidence ends -->
 
 Primary-source follow-up checked 2026-10-18: [MOOER manual, V01.2022.01.19, manufacturer-authored distributor copy](https://images.static-thomann.de/pics/atg/atgdata/document/manual/540480_me_p1_manual_en.pdf), printed pp.3–9; [MOOER Chinese P1 page](https://cn.mooeraudio.com/product/33.html). Manual identity matches P1 title, MOOER publisher and model-specific layout. CONTROL LED colors identify A/B/C/D; brightness follows volume, slow blinking warns of low battery; charge LED is red while charging and green when complete. These indicators do not establish a screen diagonal or touchscreen. Factory fill, category census, simultaneous processing ceiling and audio format remain unresolved.

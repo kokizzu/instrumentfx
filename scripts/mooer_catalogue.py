@@ -1,4 +1,4 @@
-"""Validate and commit the reviewed BOSS catalogue integration locally."""
+"""Validate and commit the reviewed MOOER catalogue integration locally."""
 import sys
 sys.dont_write_bytecode = True
 from research_tools import git, verify
@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(mooer): verify GS1000 preset volume mode and exact offer'))
+    print(git('commit','-m','research(mooer): audit Prime P1 direct expression limitation'))
