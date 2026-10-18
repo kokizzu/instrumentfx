@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "HeadRush Core (partial)",
-    "finding": "Own indexed5.0 Hardware Assign is per rig;current support requires volume block/save. Current5.2 guide unread due size limit;Hybrid previous/next documented. Exact hardware ask remains cached.",
+    "current": "BOSS MS-3 (partial)",
+    "finding": "SYSTEM EXP preference plusFV supports shared assignment;FV placement/range and competingpatchASSIGNs still qualified. Too wide,no dedicatedphones;exactask cached.",
     "next": [
-      "Systematic remaining no-treadle inventory: BOSS MS-3",
+      "Systematic remaining no-treadle inventory: BOSS GT-001",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
@@ -122593,7 +122593,7 @@
       "date": "2026-10-19",
       "source_commit": "87c7d3816a380ddc49e3af2b2441564f454f87d7",
       "scope": "Normalized inherited source checks without recertification or admitting partial leads; exact prior merged category preserved in public_metadata.remote_87c7d38_preserved.expression_category_before_normalization.",
-      "comparison_rows": 23,
+      "comparison_rows": 24,
       "adjacent_rows": 1,
       "active_inventory_changed": false
     }

@@ -3774,6 +3774,14 @@ Checked 2026-10-18; documentation only, without installing the editor or testing
 | I/O / MIDI setup count corroboration | **Four documented PATCH MIDI setups (1–4)**: Roland support updated 2024-12-18 uses that exact selection range; the original Japanese editor guide p5 says CTL OUT & MIDI SEND transmits the messages configured in PATCH MIDI 1–4. This corroborates the parameter-guide heading. Its conflicting 1–8 sentence remains preserved above, rather than establishing eight setups. Physical/firmware inspection was not performed. | [Roland support](https://support.roland.com/hc/en-us/articles/360004192252-MS-3-MEMORY-MANUAL-MODE-CURRENT-NUMBER-MIDI); [Japanese editor guide p5](https://static.roland.com/assets/media/pdf/MS-3_Editor_Librarian_jpn02_W.pdf) |
 | Controls / Tempo Hold | Set BPM preference to PATCH and TEMPO HOLD ON in the **destination patch**, then Write. The arriving patch retains the previous live BPM. Returning to a patch with Tempo Hold OFF restores that patch’s saved BPM; the guide illustrates 120→130→120. This is tempo persistence, not audio-tail continuation. | [Original application guide p14](https://static.roland.com/assets/media/pdf/MS-3_Application_Guide_eng01_W.pdf) |
 
+### MS-3 — expression-volume audit, 2026-10-19
+
+**System target assignment supported:** [own parameter guide eng02][MS3-G],printed pp26,31,41: set **PREF EXP1/EXP2=SYSTEM**,thenEXP **FUNC=FV**,which controls Foot Volume LEVEL across patches. Do not select conditionalF1/F2:F/W/P for unconditionalvolume. FV can move in the patch chain;MIN/MAX0–100 andcurve controls are documented. Shared assignment doesnot prove globalFV placement/endpoints or immunity to competingpatchASSIGNs. Bypass,held-position recall,tail andrecorded-loop coverage remain unverified. The curve table labels0–100 whileits diagram namesNormal/Slow1/Slow2/Fast;preserve that ambiguity.
+
+[Own owner manual][MS3-M] and[complete product inventory][MS3-P] show normal guitar input,twoTRS EXP/CTL,and**no dedicated headphones**;mainouts arenot certified headphone amplification. Onboardnumber1+2/3+4 selectbanks,then1–4 choosepatches;generalsequentialdown/up unverified. **275×97mm** istoo wide. No hardware test orlocaldownload.
+
+Exact[ROCKPIZZ shop440477624/item26543266965](https://shopee.co.id/BOSS-MS-3-MULTI-EFFECT-i.440477624.26543266965) rechecked2026-10-19:cached **Rp3.800.000**,8–11October delivery. Condition,bundle,adapter,warranty,shipping,currentstock andusedavailability unknown. No compensationvoucher deducted;olderSerenata evidence remains separate.
+
 ## AD-2
 
 Acoustic fixed-chain processor; partial, checked 2026-10-18. Included for distinct resonance, ambience and feedback processing, not its preset/mode count. [Manufacturer](https://www.boss.info/global/products/ad-2/).
