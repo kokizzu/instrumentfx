@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 351,
+  "active_model_count": 352,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 351,
+  "canonical_root_model_count": 352,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "351 unique active/root-canonical;0 legacy-only;40 brands;six excluded;all partial.",
+  "count_reconciliation": "352 unique active/root-canonical;0 legacy-only;40 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,11 +29,9 @@
   },
   "cursor": {
     "model": "Behringer X V-AMP LX1-X",
-    "task": "Profile exactcategory-linked candidate shop49070533/item1303711852,Rp1505000KabJombang;directcachemiss. OwnQSGhttps://mediadl.musictribe.com/media/sys_master/he3/h64/8849668538398.pdf confirmsmultifx. Readallrequiredfields,addBEHRINGER.md,inventoryandguitarviews,commitbeforenextmodel.",
-    "next_models": [
-      "Behringer X V-AMP LX1-X"
-    ],
-    "after_queue": "351activepartialmodels unchanged;155bass;candidate notyetadmitted;no downloads/workflows/push."
+    "task": "Admitted partial guitar profile from ownmanual;next resolve exactamp/cab census,powerconnector/outputtopology andfactoryfill. Preserve50/70mm and0.80/0.75kg sourceconflicts;shop49070533/item1303711852 notstock/newconditionproof.",
+    "next_models": [],
+    "after_queue": "352partialmodels;293guitar155bass68vocal;legacycompatibilitymigration incomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24343,7 +24341,7 @@
     {
       "model": "Behringer X V-AMP LX1-X",
       "checked_date": "2026-10-18",
-      "status": "Exact category-linked hardware candidate;notyetadmitted",
+      "status": "Admitted partial guitar record BEHRINGER.md#x-v-amp-lx1-x",
       "offer": {
         "category": "https://shopee.co.id/search?keyword=%2CLX1",
         "url": "https://shopee.co.id/BEHRINGER-X-V-AMP-LX1-X-i.49070533.1303711852",
@@ -24364,7 +24362,7 @@
         "identity": "X V-AMP LX1-X Quick Start Guide,English controls pp8–9 indexedmanufacturertext",
         "eligibility": "Separate compressor,modulation,delay,reverb sections;integratedexpression withtoe-switch;notjustdedicatedsingleeffect modes."
       },
-      "next": "Read ownEnglish manual/QSGspecifications andcreate completepartialBEHRINGER.md profile withallrequiredfields. Admitoneguitar model andregeneratecounts/views onlyafterfulllocalrecord;do notborrowVAMP2/VAMP3 specs."
+      "next": "Admitted partial guitar profile from ownmanual;next resolve exactamp/cab census,powerconnector/outputtopology andfactoryfill. Preserve50/70mm and0.80/0.75kg sourceconflicts;shop49070533/item1303711852 notstock/newconditionproof."
     },
     {
       "checked_date": "2026-10-18",
@@ -24743,7 +24741,8 @@
       "FX2000",
       "V-AMP 3",
       "FX600",
-      "DSP2024P"
+      "DSP2024P",
+      "X V-AMP LX1-X"
     ],
     "Lexicon": [
       "MX200",
@@ -25176,7 +25175,8 @@
       "FX2000",
       "V-AMP 3",
       "FX600",
-      "DSP2024P"
+      "DSP2024P",
+      "X V-AMP LX1-X"
     ],
     "LEXICON.md": [
       "MX200",
@@ -25246,7 +25246,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 292,
+      "record_count": 293,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -25276,10 +25276,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 292 guitar, 155 documented bass-capable, 68 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 293 guitar, 155 documented bass-capable, 68 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "351 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "352 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -45641,10 +45641,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 351,
-    "canonical_root_models": 351,
+    "unique_brand_model_pairs": 352,
+    "canonical_root_models": 352,
     "legacy_only_models": 0,
-    "guitar_view_models": 292,
+    "guitar_view_models": 293,
     "bass_focused_models": 30,
     "vocal_only_models": 24,
     "vocal_view_models": 68,
@@ -45717,7 +45717,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX1500G."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Behringer X V-AMP LX1-X."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -45974,6 +45974,7 @@
       "Behringer::V-AMP 3",
       "Behringer::FX600",
       "Behringer::DSP2024P",
+      "Behringer::X V-AMP LX1-X",
       "Lexicon::MX200",
       "Lexicon::MX300",
       "Lexicon::MX400",
@@ -48694,6 +48695,13 @@
     },
     "Behringer::DSP2024P": {
       "link": "BEHRINGER.md#dsp2024p",
+      "source_files": [
+        "BEHRINGER.md"
+      ],
+      "finding_files": []
+    },
+    "Behringer::X V-AMP LX1-X": {
+      "link": "BEHRINGER.md#x-v-amp-lx1-x",
       "source_files": [
         "BEHRINGER.md"
       ],
@@ -60050,6 +60058,24 @@
         "Editor support"
       ],
       "method": "Manufacturer/browsertext,no downloads"
+    },
+    {
+      "model": "Behringer X V-AMP LX1-X",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://www.fullcompass.com/common/files/22449-BehringerXVAmpLX1XUserManual.pdf",
+        "https://www.manualzz.com/doc/6804842/behringer-x-v-amp-user-manual"
+      ],
+      "finding": "Added partial exactLX1X profile;100writable,2/2/7controls,ownrouting/display/conversion;dimensions/massconflict retained.",
+      "remaining": [
+        "Amp/cab census",
+        "Power connector output/current",
+        "Initial fill",
+        "Stereo-balanced wording",
+        "Qualified used/new ask",
+        "Imports/software"
+      ],
+      "method": "Manufacturer-authoredcopies identitychecked;browsertextonly,no downloads"
     }
   ],
   "discovery_cross_brand_bass": {

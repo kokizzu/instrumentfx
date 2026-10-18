@@ -476,3 +476,43 @@ Checked2026-10-18 against the [manufacturer-authored Version1.1,February2002 man
 [D24-S]: https://manualzz.com/doc/1522565/behringer-virtualizer-pro-dsp2024p-user-s-manual#specifications
 
 Remaining: original panel visual corroboration,exact seller hardware suffix,full algorithm census,simultaneous limits,display details,software/import capabilities andcondition-qualified prices. No download,dependencies,firmware,device test orworkflow.
+
+## X V-AMP LX1-X
+
+Checked2026-10-18;partial guitar multi-effects. Bass/vocal suitability andownership unverified;no sibling specifications transferred.
+
+<!-- comparison evidence begins -->
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression | Built-in;under-pedal wah switch. Gain,volume,effect/speed targets. External EXP unverified. [M pp5–6][XV-M] |
+| K/F/B | **2/2/7**,text-derived:ADJUST,FX/AMPS;UP,DOWN;STORE,NOISE G.,COMPR.,MODUL.,DELAY,REVERB,TAP. Toe additional;visual audit pending. [M pp4–6][XV-M] |
+| Display | Two-digit seven-segment LED;diagonal,color/touch unverified. [M p12][XV-M] |
+| Dimensions / mass | 2013 manual:**235W×175D×50H mm;0.80kg**,shipping2kg. Older manual:**235W×175D×70H;0.75kg**,shipping1.75kg. Revision conflict retained. [M p12][XV-M];[older p12][XV-OLD] |
+| Processing / choices | Seven preset ingredient groups:amp,cab,pre-effects,EQ,modulation,delay,reverb;not seven elemental blocks. MOD8,DLY4,RVB4;compressor/gate/wah. Amp/cab census pending. [M pp5–10][XV-M] |
+| Routing / effect limits | Wah excludes AutoWah/P-Funk’n/PitchBend. PHONES includes amp/cab;AMP+FX omitscab;FX-only omitsamp/cab. [M pp5–7][XV-M] |
+| Factory / user memory | **100 rewritable00–99**;single/all factory restoration. Initial filled-slot mapping unverified. [M p8][XV-M] |
+| Synth / acoustic | Dedicated synthesis/acoustic simulation unverified. |
+| I/O | ¼TS instrument,¼TRS stereo LINE/PHONES,¼TS MONO AMP,AC IN. Stereo-output specification also says balanced:signal topology unresolved. [M pp6,11–12][XV-M] |
+| Power / battery / USB | External two-pole supply;**7W maximum**. Unit voltage/current,connector dimensions,polarity,battery/USB operation unverified. [M p12][XV-M] |
+| Conversion | 24-bit;31.250kHz;approximately5ms latency;stereo delay1960ms maximum. [M p12][XV-M] |
+| IR / NAM / capture | UserIR,native/convertedNAM,capture loading unverified. |
+| Editor / software | Editor,driver/updater platforms unverified. |
+| Looper / drums / live | Tuner/bypass via both switches;tap tempo. Looper,drums,scenes,trails unverified. [M pp8,11][XV-M] |
+
+### Separate IDR hardware evidence
+
+| Condition | Evidence / qualifications | Source |
+|---|---|---|
+| Used | Unverified. | — |
+| New | Unverified. | — |
+| Category-linked exact hardware;condition unknown | **Rp1,505,000**,shop49070533/item1303711852,Kab.Jombang. Checked2026-10-18;opened September category,month-oldcache. Direct item cache miss. Seller name,selectedvariant,workingstate,stock,adapter/bundle,warranty,voucher,shipping/tax andcheckout total unknown. Category href includes display_model_id72824378820;variant notresolved. Notlive stock orcondition-specific price. | [Category](https://shopee.co.id/search?keyword=%2CLX1) · [Exact linked item](https://shopee.co.id/BEHRINGER-X-V-AMP-LX1-X-i.49070533.1303711852) |
+
+<!-- comparison evidence ends -->
+
+Manufacturer-authored fourteen-page manual:exact LX1-X cover,MusicGroup2013 copyright,control numbering match indexed official English manual/QSG. Official direct502;mirror text used. Older unnumbered-edition spec differs;do not infer hardware revision. No downloads,visual certification ordevice operation.
+
+[XV-M]: https://www.fullcompass.com/common/files/22449-BehringerXVAmpLX1XUserManual.pdf
+[XV-OLD]: https://www.manualzz.com/doc/6804842/behringer-x-v-amp-user-manual
+[XV-O]: https://mediadl.musictribe.com/media/sys_master/hb3/hf8/8850059329566.pdf
+[XV-Q]: https://mediadl.musictribe.com/media/sys_master/he3/h64/8849668538398.pdf
