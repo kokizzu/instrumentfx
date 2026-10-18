@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "MOOER Prime M1 direct analog connector audit",
-    "finding": "Complete M1 quick-manual connector inventory has no analog EXP. Fits70.2×120mm; dedicated phones and opposite preset cycling; A/B numerical wording qualified. Physical Master excludes USB recording.",
+    "current": "MOOER Prime M2 direct analog connector audit",
+    "finding": "Inspected exact M2 manual lists MIDI but no analog EXP. Fits recorded chassis; dedicated headset/phones and left/right backward/forward preset control; example jump size qualified. Newer manual unchecked.",
     "next": [
-      "Systematic remaining compact no-treadle inventory: MOOER Prime M2 exact analog EXP capability",
+      "Systematic remaining compact no-treadle inventory: MOOER Prime P2 exact analog EXP capability",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
@@ -122593,7 +122593,7 @@
       "date": "2026-10-19",
       "source_commit": "87c7d3816a380ddc49e3af2b2441564f454f87d7",
       "scope": "Normalized inherited source checks without recertification or admitting partial leads; exact prior merged category preserved in public_metadata.remote_87c7d38_preserved.expression_category_before_normalization.",
-      "comparison_rows": 41,
+      "comparison_rows": 42,
       "adjacent_rows": 1,
       "active_inventory_changed": false
     },

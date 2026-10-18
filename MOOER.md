@@ -1878,6 +1878,10 @@ Checked2026-10-17;partial. Guitar/bass processor with headset vocal effects. [Pr
 
 No downloads,dependencies or software execution used for this model.
 
+### Prime M2 — direct analog expression audit
+
+Checked2026-10-19. [Manufacturer-authored manual, RockBoard V2.0 copy, printed pp3–12](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_Prime_M2_Manual_V2.0_EN.pdf) matches M2 controls, connections and model-specific operation. Complete connector inventory has instrument input, L/R outputs, headset/phones, USB-C and **3.5mm MIDI**, with **no analog EXP input**. MIDI is not an interchangeable analog pedal jack. Direct-EXP volume scope/position/min/max/bypass/headphone/tail/loop coverage is inapplicable; digital expression remains unverified. Preset page documents left backward/right forward; example jumps2D→1A and1A→2D do not establish single-slot increments. Dedicated phones support TRS/TRRS; manual recommends≤32Ω. Screen output-volume adjustment is not expression assignment. Existing125W×74Lmm housing fits; axis qualifications retained. Newer manual revision remains unchecked; no firmware, stock or hardware test.
+
 ## Prime S1
 
 Portable guitar/bass multi-effects; checked2026-10-18, partial. Distinct from P1/P2/M1/M2. Ownership andvocal processing unverified. Bass membership requires the documented later firmware,not launch-page sibling inference.
