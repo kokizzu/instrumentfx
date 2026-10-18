@@ -620,16 +620,41 @@ Checked 2026-10-18; partial. Separate Acoustic edition. [Own Yamaha manual](http
 
 <!-- comparison evidence ends -->
 
+## Magicstomp Guitar MK2
+
+Checked 2026-10-18; partial. Yamaha's MK2 library link supplies a [base owner manual](https://usa.yamaha.com/files/download/other_assets/3/334073/magicstomp_mk2_en.pdf),31 PDF pages,pp7–12,29, retaining original-style controls and omitting headphones. The [official MK2 supplement](https://fr.yamaha.com/files/download/other_assets/4/334074/magicstomp_mk2_fr.pdf),English pp1–5 within36 multilingual PDF pages, explicitly replaces those details. Browser text inspected; no cross-edition substitution.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in/external/toe unverified; no EXP in base inventory. |
+| Knobs / footswitches / buttons | **4 / 3 / 1**:three parameters,Volume;−,+,ON/OFF feet;**STORE/EXIT**, superseding base STORE. HIGH/LOW slider additional. |
+| Display | Base: **16×2 backlit LCD**; diagonal/color/touch unverified. |
+| Processing / choices | MK2 supplement: **63 effect types**, onboard Deep Edit and knob assignment. Category census/concurrency unresolved. |
+| Memory | Base: **99 preset+99 user=198**;user initially duplicates presets. |
+| Synth / acoustic | AcousticMulti documented; synthesis/electric-to-acoustic conversion unverified. Bass classification pending document-scope audit. |
+| Dimensions / mass | Base: **164W×176D×62H mm;910g**. MK2 hardware-spec confirmation pending. |
+| I/O | Base:monoINPUT,L/MONO,R outputs,USB,AC IN. Supplement adds **stereo-mini PHONES**,−10dBm/150Ω;main outputs remain active. |
+| Power | Base: **12V AC/1A;12W**, regional AC-10 inclusion;DC polarity inapplicable. MK2 confirmation,battery/USB power unresolved. |
+| IR / NAM / capture | User IR,native/converted NAM,proprietary capture imports unverified. |
+| Editor / software | Base Sound Editor/USB-MIDI;MK2 supplement confirms onboard full editing. Current OS,drivers,USB audio unresolved. |
+| Looper / drums / routing | Looper/drums/scenes unverified. MK2 AFR factory OFF,AcousticMulti only,five filters;global enable,filters lost on patch change. Active AFR replaces bypass gesture. |
+| Used IDR | Unknown;exact MK2 Shopee query found no offer,2026-10-18. |
+| New IDR | Unknown;seller/item,condition,stock,region,variant,bundle,warranty,voucher unverified. Search absence is not market absence. |
+
+<!-- comparison evidence ends -->
+
 ## Magicstomp — separate-edition discovery leads
 
-Initial discovery checked 2026-10-18. **Original Guitar, Bass and Acoustic are now active above; MK2 remains a separate discovery lead outside active counts.** [Yamaha manual library](https://usa.yamaha.com/support/manuals/index.html?c=&k=magicstomp&l=en) lists separate **Guitar Effects Processor**,**Guitar MK2**,**Acoustic** and**Bass** manuals,plus edition-specific effect/patch lists andeditordocuments. Do not combine capacities,algorithms,ports orsoftware requirements across editions.
+Initial discovery checked 2026-10-18. **All four editions now have separate partial active records above; this discovery history is retained for source provenance.** [Yamaha manual library](https://usa.yamaha.com/support/manuals/index.html?c=&k=magicstomp&l=en) lists separate **Guitar Effects Processor**,**Guitar MK2**,**Acoustic** and**Bass** manuals,plus edition-specific effect/patch lists andeditordocuments. Do not combine capacities,algorithms,ports orsoftware requirements across editions.
 
 Primary source routes for exact-edition follow-up:
 
 - [Original Guitar owner manual](https://usa.yamaha.com/files/download/other_assets/7/334107/magicstomp_en.pdf).
 - [Acoustic owner manual](https://usa.yamaha.com/files/download/other_assets/9/334079/magicstomp_acoustic_en.pdf).
 - [Bass owner manual](https://usa.yamaha.com/files/download/other_assets/1/334091/magicstomp_bass_en.pdf).
-- Guitar MK2 manual listed separately inmanufacturerlibrary;exactPDFlink andhardwareedition stillrequireinspection.
+- Guitar MK2 library base manual and explicit MK2 supplement are recorded in the active section above; unchanged hardware-spec applicability remains qualified.
 
 FreshShopeequeries Yamaha+Magicstomp,MagicStomp,MagicStompUB99 andMagicStompwithspace didnotyieldanexactprocessor item;UB99search returnedunrelatedmicrophones. No IDR amount,used/newcondition,seller/item,stock,region,bundle,warranty orvoucher established. This isnotproof ofmarketabsence. Full required-fieldprofiles andeditionidentity remainpending;no hardware/software/files downloaded.
 
