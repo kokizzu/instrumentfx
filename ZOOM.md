@@ -438,6 +438,13 @@ Checked 2026-10-18 against the shared ©2019 effect sheet. Stars identify Guitar
 
 All nine non-PEDAL categories in this edition have now been enumerated. Later additions and a particular unit’s installed effects remain unverified; these are published-library counts, not simultaneous processing capacity.
 
+
+### G1 FOUR — sold-out exact hardware ask
+
+| Field | Finding / qualification |
+|---|---|
+| IDR condition unknown / sold out | Checked 2026-10-18: [exact G1 FOUR listing](https://shopee.co.id/ZOOM-G1-Four-G1-Four-Guitar-Multi-Effect-Processor-i.114232819.11037706169), seller **114232819**, item **11037706169**, **duniamusiksport**, Kota Medan: **Rp1,590,000**, explicitly **Habis**. Search cache crawled roughly one month earlier and shows stale 15 September delivery. Historical sold-out ask, not live stock, a completed sale or an established used/new condition. Bundle, warranty, working state and checkout voucher remain unverified. Late-delivery compensation is not a hardware discount. Distinct from G1X FOUR. |
+
 ## G1X FOUR
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
