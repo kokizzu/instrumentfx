@@ -2209,3 +2209,16 @@ Checked 2026-10-19. [Manufacturer-authored manual reproduced from Warwick](https
 | IR / processing | WAV44.1kHz/24-bit,≤2048 points; nine module types, not proof of simultaneous ceiling. |
 
 Printed pp.2–4,40–41 support these entries. Standard Plus has a different supply/mass; those values were not assigned to Li. Firmware/NAM, category census, factory memory and qualified IDR remain unresolved.
+
+### GE200 Plus Li — memory and trails qualification
+
+Checked 2026-10-19 against the [same manufacturer-authored family manual](https://device.report/m/0f55d0035aa3b836aedc07bc6662d8d67aa911fb928054d16bb80ceb7706ec81), printed pp.11–16,27–28; text only.
+
+| Field | Evidence / qualification |
+|---|---|
+| Memory / saving | 85 banks × A/B/C =255 selectable save destinations; factory-filled count remains unknown. Unsaved edits disappear on preset change. SAVE opens storage/name selection; SAVE again commits, other keys except SELECT cancel. |
+| CTRL / expression | Per-preset module-toggle/tap assignments and pedal mappings require saving. Calibration is global; EXP2 skips toe-force step. |
+| Trails / routing | Cross-preset spillover requires matching chain configuration and delay/reverb models. Within-preset trails use each delay/reverb Trail parameter. CAB SIM THRU bypasses cabinets on quarter-inch/headphone outputs and locks CAB last. |
+| USB / software | Windows low-latency audio requires ASIO; Mac is driverless. Normal/Re-Amp and per-side dry/wet recording supported. |
+
+These operating details do not establish additional protected factory memory, unrestricted spillover, a scene engine or Li-specific NAM firmware support. No device operation or download.
