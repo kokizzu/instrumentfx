@@ -1410,6 +1410,18 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 
 [Original shared source](research-state.json)<!-- historical-link:mooer-038 -->,retained pending complete navigation/provenance audits.
 
+### GE1000 — analog specifications and control scope
+
+Checked2026-10-18 against [MOOER Japan’s exact GE1000 page](https://mooer.jp/products/mooer-ge1000). No downloads orhardware operation.
+
+| Field | Finding / qualification |
+|---|---|
+| I/O / input and conversion levels | INPUT andRETURN **1MΩ,max+10dBu**. AD **24-bit/44.1kHz**,114dB dynamic range;DA115dB dynamic range. Published response20Hz–20kHz,+0/−1dB;SNR115dB. USB selectable rates remain separate from internal AD sampling. The earlier mono/stereo-loop wording conflict remains unresolved. |
+| I/O / output ratings | Main quarter-inch andXLR outputs **600Ω,max+18dBu**;SEND **510Ω,max+18dBu**;PHONES **6Ω,max+18dBu**. These are published maximum levels,not power into an unspecified headphone load. |
+| Live / GWF4 control scope | Optional wireless footswitch controls the **four CTRL functions assigned within the current preset**. This doesnot establish arbitrary extra processing slots oranalog expression input. |
+| Editor / loop file management | Studio supports phrase-loop audio import/export aswell as preset transfer,backup/restore andGNR/GIR/IR import. File management isnot proof ofon-device power-off loop persistence orfull mobile editing. |
+| IDR / same-item access follow-up | [Nafiri shop96878449/item44105166119](https://shopee.co.id/MOOER-GE1000-Multi-Effect-i.96878449.44105166119) now opens as a two-month cached page: **Rp7.520.000**,Kota Jakarta Utara. Same offer,not another price observation tocount twice. Condition,stock,variant,adapter/bundle,warranty,voucher,shipping/tax remain unknown;relative delivery text doesnot prove fresh stock. |
+
 ## GE1000 Li
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

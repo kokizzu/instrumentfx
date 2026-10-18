@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Legacy JSON pointer cleanup",
-    "task": "Three redundant JSON pointers removed after exact typed-content verification; Markdown redirects remain for historical anchors. Continue technical research and audit remaining compatibility layout.",
+    "model": "MOOER GE1000",
+    "task": "GE1000 analog ratings,GWF4 scope,loop file management andsame-item access update saved. Seek fresh hardware lead or another primarygap;GE1000 Li remains separate.114 Markdown compatibility files retained.",
     "next_models": [],
     "after_queue": "342 partial unique models; Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -45579,7 +45579,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Tech21 Fly Rig5v2."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER GE1000."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -73052,5 +73052,21 @@
       "internal expression mapping"
     ],
     "operation": false
+  },
+  "ge1000_analog_control_20261018": {
+    "source": "https://mooer.jp/products/mooer-ge1000",
+    "checked": "2026-10-18",
+    "findings": [
+      "INPUT/RETURN1MΩ,+10dBu max;AD24bit44.1kHz;output maximum levels and impedances separated from headphone power.",
+      "GWF4 controls four current-preset CTRL assignments.",
+      "Studio loop audio import/export distinguished from power-off persistence."
+    ],
+    "offer_access": {
+      "url": "https://shopee.co.id/MOOER-GE1000-Multi-Effect-i.96878449.44105166119",
+      "idr": 7520000,
+      "region": "Kota Jakarta Utara",
+      "access": "Direct two-month cache now readable;not fresh stock",
+      "duplicate_of_existing": true
+    }
   }
 }
