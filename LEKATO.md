@@ -8,18 +8,18 @@ Checked2026-10-18; partial. Own brand productSKU M03397 establishes general mult
 
 | Field | Evidence / qualification |
 |---|---|
-| Expression | Built-in/external/toe support unknown; no control/photo audit. |
-| Knobs / footswitches / buttons | All three counts unverified; no estimates from product images. |
-| Display | Technology,diagonal,color,touch unknown. |
-| Dimensions / mass | **4.33×4.33×1.77inches;15.9oz**,own page axes unspecified. Unit/package basis not independently confirmed. [MEP] |
-| Processing / category choices | Six modules: **FX3,AMP20,MOD7,DLY5,RVB6,IR20**;amp/IR entries1–15 guitar,16–20 bass. Exact simultaneous DSP ceiling not stated. Feature list FX=compressor/boost/gate;FAQ additionally mentions drive/distortion without a reconciled list. Firmware unknown. [MEP] |
-| Factory / user memory | **80 editable;40 factory-filled,40 initially unedited**. Do not add another80 orassume protected factory storage. [MEP] |
+| Expression | No built-in pedal/toe orEXP socket in manual inventory;USB MIDI pedal support documented,continuous-expression mapping unknown. [MEM] |
+| Knobs / footswitches / buttons | **2/2/7**:Master,Edit;left/right;Home+6module buttons. Encoder push/rear power separate. Text-derived;no visual audit. [MEM] |
+| Display | Manual describes white/blue on-screen BT icons:color-UI text evidence;technology,diagonal,touch unknown. [MEM] |
+| Dimensions / mass | **4.33×4.33×1.77inches;15.9oz**,own page axes unspecified. Unit/package basis not independently confirmed. [MEP] Manual instead **118L×115W×41H mm;425g**;unresolved. [MEM] |
+| Processing / category choices | Six modules: **FX3,AMP20,MOD7,DLY5,RVB6,IR20**;amp/IR entries1–15 guitar,16–20 bass. Manual specifies **6+1 simultaneous**:gate combined withboost/compression insideFX,not7freelyassignable blocks. Reorderable chain. [MEM] Feature list FX=compressor/boost/gate;FAQ additionally mentions drive/distortion without a reconciled list. Firmware unknown. [MEP] |
+| Factory / user memory | **80 editable;40 factory-filled,40 initially unedited**. Do not add another80 orassume protected factory storage. [MEP] Manual locatesfactory soundsP01–40,bassP36–40;software reset40or80. [MEM] |
 | Synth / acoustic | Guitar/bass intended; acoustic-instrument compatibility wording does not establish acoustic simulation. Synth unverified. [MEP] |
-| IR / NAM / capture | Third-partyIR import viaapp/software documented;IRformat,length,slot replacement,native/convertedNAM andcaptures unknown. [MEP] |
+| IR / NAM / capture | IR import documented. [MEP] Manual specifies **monoWAV44.1kHz/24bit,1024samples**;AMP imports **AM2/AM3/AMx** proprietary data,not proof ofnative/convertedNAM. Slotreplacement/capturecreation unknown. [MEM] |
 | I/O | Quarter-inchTS mono input/output,USB-C,3.5mm stereo phones. Other sockets,impedances,levels andcontrol protocols unverified. [MEP] |
-| Power / battery / USB | Included lithium-polymer battery;charging viaUSB;manufacturer claims up to10h. Voltage,current,polarity,capacity,charging time andUSB-powered operation unknown. [MEP] |
-| Editor / USB audio | iOS/Android/Windows/Mac links;IR/preset editing andcomputer/mobile recording advertised,OTG cable extra. MinimumOS,versions,stream format,channel count,USB MIDI unverified. [MEP] |
-| Looper / drums / routing | Bufferedbypass documented;looper,drums,scenes,reordering,spillover unknown. [MEP] |
+| Power / battery / USB | Included lithium-polymer battery;charging viaUSB;manufacturer claims up to10h. [MEP] Manual: **battery orUSB5V;2000mAh3.7V;working≈200mA;charginglimit≈408mA;5h with5V2Aadapter**. Tableextract5W300mA isgarbled,not a resolved supplyrating. NoDCbarrelpolarity assigned. [MEM] |
+| Editor / USB audio | iOS/Android/Windows/Mac links;IR/preset editing andcomputer/mobile recording advertised,OTG cable extra. MinimumOS/versions unknown. [MEP] Manual namesM-EFCS,**USB44.1kHz/24bit,USB MIDI**,loopbacktoggle;channelcount unknown. [MEM] |
+| Looper / drums / routing | Bufferedbypass documented. [MEP] Reorderablemodules documentedinmanual;looper,drums,scenes,spillover unknown. [MEM] |
 
 ### Separate IDR evidence
 
@@ -33,3 +33,9 @@ Brand product text used;no images visually audited orfiles downloaded. Platform 
 
 [MEP]: https://lekatodeal.com/products/lekato-me-01-multi-effects-processor-guitar-pedal-w-6-effects-modules-80-presets-20-irs
 [MES]: https://shopee.co.id/LEKATO-Multi-Effects-Pedal-80-Preset-Simulator-Ampli-IR-Cab-Bluetooth-Baterai-10-Jam-Gitar-Bass-i.1540868898.29942863603
+
+[MEM]: https://device.report/manual/20953279
+
+### Manual provenance, 2026-10-18
+
+Reproduced owner-manual body namesLEKATO ME-01 andlekatotech.com;technical modules matchownproduct page. Revision/installedfirmware unverified. AssociatedPDF reader returnedcachemiss;no byte-equivalence orvisual claim. Mirror-generated ASIN/hub manuals were excluded. Manual conflicts supplement,not erase,product-page wording. No downloads orhardware operations.
