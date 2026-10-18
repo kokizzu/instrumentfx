@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Zoom A3",
-    "task": "Added exact acousticmulti-effects. Next own manual controls/expression,categorycensus,completeports/power andacousticmodel distinction. FullPDF reader sizelimit;use primaryindexed passages orverifiedmanufacturer copy withoutdownloads.",
+    "task": "Continue own manual controls/expression, categories, full ports and power. Microphone routing now verified; USB bus power still unknown. Use exact primary passages without downloads.",
     "next_models": [],
-    "after_queue": "376 active models,46 brands,all partial; compatibility migration incomplete; no downloads/workflows/push."
+    "after_queue": "376 active models; all partial; compatibility migration incomplete. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -5506,6 +5506,12 @@
       "checked_date": "2026-10-18",
       "status": "partial",
       "finding": "Added missing acoustic multi-effects fromown product/indexed manual;exactShopeequeriesempty;manualreader sizelimit preserved."
+    },
+    {
+      "model": "Zoom A3",
+      "date": "2026-10-18",
+      "source": "https://zoomcorp.com/media/documents/A3_operationManual_English.pdf",
+      "finding": "Indexed p24 establishes selectable microphone effect routing and tuner/tap hold choices; shared live-mic membership added. No harmony or correction claim. Full PDF remains unread due reader size limit."
     }
   ],
   "consolidation_and_price_findings": [
@@ -25564,9 +25570,9 @@
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 70,
+      "record_count": 71,
       "vocal_only_count": 25,
-      "combined_instrument_count": 45,
+      "combined_instrument_count": 46,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -25582,7 +25588,7 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 313 guitar, 163 documented bass-capable, 70 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 313 guitar, 163 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
     "warning": "376 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
@@ -46024,7 +46030,7 @@
     "guitar_view_models": 313,
     "bass_focused_models": 38,
     "vocal_only_models": 25,
-    "vocal_view_models": 70,
+    "vocal_view_models": 71,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
@@ -46644,6 +46650,7 @@
       "Zoom::RFX-1000",
       "Zoom::1201",
       "Zoom::RFX-2200",
+      "Zoom::A3",
       "DigiTech::GNX4",
       "Behringer::FX2000",
       "Behringer::DSP2024P",

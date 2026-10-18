@@ -4419,7 +4419,7 @@ Acoustic-guitar multi-effects;partial,checked2026-10-18. Distinct fromA2.1u. [Ow
 
 ## A3
 
-Acoustic-guitar multi-effects;checked2026-10-18,partial. [Own product page](https://zoomcorp.com/en/us/multi-effects/acoustic/a3/) marks discontinued;absence ofcurrentstock isnot absence ofeligibility. Bass/vocal membership unclassified.
+Acoustic-guitar multi-effects;checked2026-10-18,partial. [Own product page](https://zoomcorp.com/en/us/multi-effects/acoustic/a3/) marks discontinued;absence ofcurrentstock isnot absence ofeligibility. Bass membership unclassified. Shared live-microphone processing is documented below; this does not establish vocal harmony or pitch correction.
 
 <!-- comparison evidence begins -->
 
@@ -4436,7 +4436,8 @@ Acoustic-guitar multi-effects;checked2026-10-18,partial. [Own product page](http
 | Power | **AD-16,9VDC500mA center-negative**;fourAAalkaline about**8h**. Supplyrating,not measureddraw;USBpower unverified. |
 | Editor / USB | USB listedforfirmwareupdate;full editor,OS matrix,audio/MIDI interface unverified. Internal44.1kHz/24-bit converters doesnot establishUSBaudio. |
 | IR / NAM / capture | UserIR,nativeNAM,convertedNAM andproprietarycapture import unverified. |
-| Looper / practical | Antifeedback handlesuptothree frequencies;cleanboost upto12dB,three-bandEQ,tuner. Looper/drums/scenes unverified. |
+| Routing / microphone | [Own manual p24](https://zoomcorp.com/media/documents/A3_operationManual_English.pdf), indexed passage checked 2026-10-18: MIC MIX POSITION routes the microphone through effects 2 and 3, effect 3 alone, or neither. This establishes a processed microphone path alongside the pickup path; vocal harmony and pitch correction remain unverified. |
+| Looper / practical | Antifeedback handlesuptothree frequencies;cleanboost upto12dB,three-bandEQ,tuner. Looper/drums/scenes unverified. Holding the footswitch can select bypass tuning, mute tuning (default), or tap tempo; bypass tuning bypasses effects while mute tuning silences output (manual p24). |
 | IDR price | Noqualified exactShopeeoffer;used/new amount,seller/item,condition,stock,bundle,warranty/voucher unknown. |
 
 <!-- comparison evidence ends -->
