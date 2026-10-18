@@ -291,8 +291,8 @@ Checked2026-10-17. Partial guitar/vocal dual-channel multi-effects;notMPX110/MX2
 | Controls | Text-derived **7rotary/0integratedfoot/3buttons**:Input,Output,Mix,Adjust,EffectsLvl/Bal,Program,Variation;Tap,Bypass,Store. |
 | Display | StatusLEDs;screen diagonal/color/touch unknown. |
 | Processing / choices | **112single variations+112dual+16SpecialFX=240presets**. Up to2independent effects;dualrouting fixedbyvariation,notfreeblockselection. See breakdown below. |
-| Presets | **240presets+16usermemories**;not256editablepatches. |
-| Synth / acoustic | Pitch/detune documented;synth/acousticconversion unknown. |
+| Presets | **240presets+16usermemories**;not256editablepatches. Initial user1–16 copies, in order:Plate2;Gate9;Hall5;Hall6;Chamber13;Ambience3;Room14;Tremolo1;Rotary9;Rotary15;Chorus3;Flange12;Pitch1;Detune12;Delay/Echo8;Delay/Echo12. [Own guide p42](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf) |
+| Synth / acoustic | Own stereo Pitch algorithm is explicitly **polyphonic**,shifting full program material or single-note sources **−2 to+1 octaves**. Detune has four voices,two/channel. This establishes pitch processing,not a dedicated synth or acoustic-conversion engine;those remain unknown. [Own guide pp28–29](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf) |
 | Dimensions / weight | **483W×45H×102D mm;0.959kg**,published19×1.75×4inches. |
 | I/O | Unbalanced¼L/Rinput/output;RCA S/PDIFoutputonly;DIN MIDIin/out-thru;¼TRSfootswitch;power. Rightinput/output formono;leftonlystereophones atmodestvolume whenrightempty. |
 | Power | **9VAC externaltransformer**;not9VDC. Currentrating,battery/USBpower unknown;DCpolarityN/A. |

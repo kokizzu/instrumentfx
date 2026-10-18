@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh hardware discovery / unresolved model fields",
-    "task": "RP255 exact-manual electrical and converter ratings now recorded. Continue fresh Shopee brand/series discovery or unresolved required model fields; RP255 display,current draw,qualified prices and Phaser/SynthTalk discrepancy remain open.",
+    "task": "MPX100 exact initial16user-slot mapping and polyphonic pitch limits recorded. Continue fresh Shopee brand/series discovery or unresolved required fields; MPX100 transformer current,qualified prices andeditor remain open.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -60343,6 +60343,22 @@
         "Import capability"
       ],
       "method": "Original manufacturer PDF browser text;no file/software downloads"
+    },
+    {
+      "model": "Lexicon MPX100",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf"
+      ],
+      "finding": "Identity-matched1998 guide070-11935 pp28–29,42 gives exact16factory user-slot copies;explicit stereo polyphonic Pitch−2..+1octaves andfour-voice Detune. Pitch processing doesnotestablish dedicated synthesis.",
+      "remaining": [
+        "Transformer current/barrel",
+        "Qualified used/new IDR",
+        "Editor OS",
+        "Analog continuous EXP",
+        "Display details"
+      ],
+      "method": "Original manufacturer-authored guide browser text,no download or hardware operation"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -79600,5 +79616,14 @@
       "site:shopee.co.id \"Korg AX1G\""
     ],
     "result": "No new exact-model hardware offer;G2Nu hits were adapters or unrelated model lists. No absence/availability conclusion."
+  },
+  "discovery_rack_followup_20261018": {
+    "queries": [
+      "site:shopee.co.id \"Lexicon\" \"MPX 500\"",
+      "site:shopee.co.id \"Alesis\" \"Quadraverb\"",
+      "site:shopee.co.id \"Yamaha\" \"FX500\"",
+      "site:shopee.co.id \"Boss\" \"VF-1\""
+    ],
+    "result": "No exact hardware lead;VF-1 fallback was unrelated fighter-plane merchandise. No marketplace absence conclusion."
   }
 }
