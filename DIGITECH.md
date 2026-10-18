@@ -847,5 +847,8 @@ Guitar multi-effects;partial,checked2026-10-18. Distinct fromRP155/RP250. [Manuf
 | IR / NAM / capture | Unverified. |
 | Practical features | **60drumpatterns**;looper/scenes unverified. |
 | IDR price | Used/newunknown;exactShopee searches yieldednoqualifiedhardwareoffer. Seller/condition/stock/bundle/warranty/voucher unverified. |
+| I/O / headphone routing | Headphones are **stereo with neither orboth mainoutputs connected**,but **mono when onlyLEFT(MONO) is connected**. UseAMP/MIXER inMixer position forheadphones;manual recommends≤100Ω. This socket behavior isnot independent headphone routing. [Own manual pp10–11](https://digitech.com/wp-content/uploads/2022/09/RP150Manual18-0429V-B_original.pdf). |
+| I/O / electrical ratings | Input **500kΩ**;unbalancedL/Routputs **500Ω perside,+10dBu maximum**. Headphones **13.6mW perchannel into50Ω**. These arepublishedratings,not measuredresults orinterchangeable loadconditions. [Own manual p38](https://digitech.com/wp-content/uploads/2022/09/RP150Manual18-0429V-B_original.pdf). |
+| USB / recording mix | X-Edit utilitypanel adjusts direct/playback mix. This monitoringcontrol doesnot itself establishdryreamping orloopback. No recording/software execution performed. [Own manual p11](https://digitech.com/wp-content/uploads/2022/09/RP150Manual18-0429V-B_original.pdf). |
 
 <!-- comparison evidence ends -->

@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "DigiTech RP150",
-    "task": "Auditcategorycensus,soundmodels,headphone/routinglimits andelectricalspecs. ExactShopeeoffers/currentOSremainunknown. Do notborrowRP155.",
+    "task": "Savedheadphone/mainoutput interaction,electricalratings anddirect/playbackmix qualification. Nextcategorycensus,synth/acoustic andexactShopeeoffers/currentOS;do notrepeatcompletedmemory/control/IOaudit.",
     "next_models": [],
-    "after_queue": "371active/46brands;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
+    "after_queue": "371active/46brands;309guitar162bass69vocal;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -81217,6 +81217,12 @@
       "DC polarity/current",
       "qualified exact Shopee hardware"
     ],
+    "status": "partial"
+  },
+  "rp150_output_routing_20261018": {
+    "source": "https://digitech.com/wp-content/uploads/2022/09/RP150Manual18-0429V-B_original.pdf",
+    "printed_pages": "10–11,38",
+    "finding": "Headphone stereo/mono depends onmainoutputs;electricalratings andmonitoring boundary saved.",
     "status": "partial"
   }
 }
