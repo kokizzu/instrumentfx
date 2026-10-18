@@ -51,6 +51,7 @@ Global **calibration**, global **pedal-position recall**, global **EQ**, a physi
 | [Zoom G2 FOUR](ZOOM.md#g2-four) | Yes / FP02M CONTROL IN | 184×145mm; depth5mm over | **Patch pedal effect**; global override unverified | Position/min/max unverified | Bypass/headphone/tails/looper attenuation unverified | Dedicated3.5mm | Yes / yes, foot-operable direction buttons in Memory Screen |
 | [Zoom G2Nu](ZOOM.md#g2nu) | Yes / CONTROL IN FP01/FP02 | 160×166mm; depth26mm over | **Per patch**, TOTAL→RTM; global override unverified | Adjustable/invertible endpoints; capped by patch/master; position unknown | Bypass/headphone/tails/looper unknown | Shared stereo line/headphone output | Yes / yes in Play |
 | [DigiTech RP150](DIGITECH.md#rp150) | Yes / passive volume or continuous-control pedal, CONTROL IN | 8¾in wide ×10⅝in length; too large | **Conditional**: volume only when Wah and Whammy both inactive | Position/min/max/recall unknown | Bypass/headphone/tails/looper attenuation unknown | Dedicated3.5mm; mono/stereo follows main connections | Yes / yes |
+| [NUX Cerberus NME-3](NUX.md#cerberus-nme-3) | Yes / EXP becomes volume; sharesV5 switch options | 320×110mm; too wide | Fixed-function volume described; across-preset persistence **unverified** | Before digital modulation/delay; numeric min/max/recall unknown | Bypass/headphone/tails/looper coverage unknown | Dedicated; diameter unverified | Bank down/up +A–D preset selection |
 
 ## Evidence and qualification
 

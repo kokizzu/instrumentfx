@@ -2091,3 +2091,7 @@ expression-audit-commit-zoom:
 .PHONY: expression-audit-commit-digitech
 expression-audit-commit-digitech:
 	python3 scripts/expression_audit_digitech.py commit
+
+.PHONY: expression-audit-commit-nux
+expression-audit-commit-nux:
+	python3 scripts/expression_audit_nux.py commit
