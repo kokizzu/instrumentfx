@@ -121648,10 +121648,9 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "Line 6 HX Stomp XL",
-    "finding": "Own3.80 manual:globalposition notassignment;block-based volume workflow.316mmwidth exceeds preference;FS1/4 configurable presetup/down.",
+    "current": "Line 6 HX Effects",
+    "finding": "Own3.80 globalposition recall versuspresetVolume/Pan;no universal assignment verified;noheadphone socket;footprint exceeds preference;own3.0 up/down qualification.",
     "next": [
-      "Line 6 HX Effects",
       "Line 6 HX One",
       "BOSS GT-1000CORE",
       "M-VAVE exact controller wiring",

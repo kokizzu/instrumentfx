@@ -605,6 +605,12 @@ Original model sources: [Source 1](https://line6.com/hx-effects/) · [Source 2](
 
 This narrows the earlier voltage/polarity gap through named-part documentation;it does not verify USB/battery operation,actual consumption or third-party supply compatibility. The current HX accessories page lists **DC-1g500mA for HX One**;that is a different supply and is not substituted here. No hardware or power supply was operated.
 
+### HX Effects — across-preset expression audit, 2026-10-19
+
+[Manufacturer-authored 3.80 manual mirror](https://www.scribd.com/document/842731853/HX-Effects-3-80-Owner-s-Manual-English), exact HX Effects title, pp40,49–50: Global EXP Position retains pedal position across presets, not target assignments. Adding Volume/Pan in Signal Flow assigns EXP2; the documented workflow depends on preset blocks. **No every-preset global volume assignment established.** Endpoints can be swapped; attenuation location follows routing. All-bypass, tail and looper attenuation remain unresolved.
+
+[Own 3.0 manual](https://manuals.plus/m/ff08ad3171b7d8f884b0dae7cb15112b31393baa4f86aa63179f5d368bf0b98a), pp46–47, documents FS1/FS4 preset up/down in4Switch mode; this is historical revision-qualified evidence, not HX Stomp behavior. [Complete manufacturer connector inventory](https://line6.com/hx-effects/) has no dedicated headphone socket. Existing rounded274×201mm dimensions exceed the preferred footprint. [Capability comparison](EXPRESSION-VOLUME.md). No downloads or device operations.
+
 ## Other Line 6 records awaiting consolidation
 
 HX Stomp and HX Stomp XL already have research in legacy pages and are not newly discovered models. HX Effects is now root-canonical above. Merge the complete remaining records and sources before retiring the old files. POD Express Black is a distinct sound library but **an exact Indonesian Shopee hardware listing was not established in this pass**; Thai marketplace results must not be labelled Indonesian evidence. Ampero One is already recorded; do not restart that stale cursor. Keep brand/category/instrument documents at repository root and do not create or run GitHub workflows.
