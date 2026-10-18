@@ -431,3 +431,50 @@ The page exposes generic VOX2ch Windows audio-driver2.0.0 notes,including2in/2ou
 | Expression / position recall | Pedal position is normally saved as the assigned parameter value. Exceptions: volume, delay/reverb input levels, PITCH pitch, FILTRON cutoff and TALK MOD vowel. These exceptions do not establish how every target initializes after recall. [Own manual p31](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf) |
 | Expression / range and reassignment | Assignment and endpoint ranges save per program. Delay/reverb input-level endpoints are automatic and cannot be edited. Changing effect normally clears assignment; gain assignment survives changing amp/stand-alone type. EXPRESSION+EXIT/TUNE clears assignment manually. [Own manual pp32–33](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf) |
 | Expression / sensitivity calibration | Power on holding EXPRESSION+WRITE. Using a foot, advance to establish switching pressure, slowly return, release foot, then gently advance and release. WRITE confirms; EXIT/TUNE cancels. This documents calibration, not a hardware operation performed. [Own manual p34](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf) |
+
+## StompLab 1B
+
+<!-- comparison evidence begins -->
+
+Checked 2026-10-18. **Bass multi-effects**, also styled StompLab IB; distinct from expression-equipped IIB. Partial record; no dependencies or manuals downloaded.
+
+| Field | Evidence / gaps |
+|---|---|
+| Instrument / expression | Bass-focused. Built-in expression pedal belongs to IIB, not IB in the Japanese family description. External EXP and toe switching unverified. [VOX Japanese][SL1B-J] |
+| K/F/B | Rotary / footswitch / panel-button counts unknown; no sibling counts transferred. |
+| Display | Diagonal, resolution, technology, color and touch unknown. |
+| Dimensions / weight | **145×125×57 mm W×D×H; 590 g**. [VOX English][SL1B-E] |
+| Processing / choices | **60 choices**: pedal9, amp10, drive8, cabinet12, modulation9, delay8, reverb3, noise reduction1. These are library alternatives, not simultaneous blocks. Japanese family description says7–8 simultaneous including NR; exact IB ceiling remains unverified. [English][SL1B-E];[Japanese][SL1B-J] |
+| Factory / user memory | **100 preset +20 user =120**. Initial user fill and factory write protection unverified. [German][SL1B-D] |
+| Synth / acoustic | ACOUSTIC is a named pedal choice; simulation behavior and synth architecture unverified. [English][SL1B-E] |
+| I/O | One normal mono input; one stereo output/phones. Socket sizes and complete port inventory unverified; USB, MIDI, AUX, external EXP and effects loop not established. [English][SL1B-E] |
+| Conversion | 24-bit AD/DA; sample rate and USB audio unknown. [English][SL1B-E] |
+| Power / battery / USB | **9V DC, approximately200mA consumption**, or4AA; approximately7.5h alkaline. Optional adapter; polarity, barrel dimensions and USB power unknown. Do not transfer IIB adapter identity. [German][SL1B-D] |
+| IR / NAM / capture | User IR, native/converted NAM and proprietary capture import unknown. |
+| Editor / software | Editor availability and supported Windows/macOS/mobile versions unknown. |
+| Looper / drums / live | Tuner A0–E6; calibration438–445Hz. Looper, drums, scenes, trails and routing details unknown. [German][SL1B-D] |
+| Used IDR / new IDR | **Unknown / unknown**. Exact Indonesian Shopee searches for stomplab 1b, stomplab ib and stomplab1b returned no exact offer on2026-10-18; this does not establish unavailability. Condition, stock, region, warranty, vouchers and checkout total unknown. |
+| Power / bundle | English specifies test batteries included; German excludes batteries. Preserve regional conflict; actual seller bundle unknown. [English][SL1B-E];[German][SL1B-D] |
+
+### StompLab 1B category inventory
+
+Manufacturer category counts reconcile to60. AMP and DRIVE counts do not establish independent simultaneous slots. [VOX English][SL1B-E]
+
+| Category | Named choices |
+|---|---|
+| Pedal9 | Compression; Exciter; Fixed Wah; Auto Wah; Brn Octave; Acoustic; U-Vibe; Tone; Ring Mod |
+| Amp10 | Valve1; Valve2; Classic; Scooped; LA Studio; Gold Panel; Jazz; Studio; AC100; UK Major |
+| Drive8 | Tube OD; Fat Distortion; Orange Distortion; Shred Distortion; Fuzz; Octa Fuzz; Techno Fuzz; Crusher |
+| Cabinet12 | LA4×10; LA1×18; Metal4×10; UK4×12; UK4×15; Classic8×10; Modern4×10; Studio1×15; Jazz1×15; AC2×15; Combi; Custom |
+| Modulation9 | CE Chorus; Multi Chorus; Flanger; Org Phase; Twin Tremolo; G4 Rotary; Pitch Shift; Filtron1(auto); Filtron2(manual) |
+| Delay8 | Analog Delay1–4; Echo1–4 |
+| Reverb3 | Room; Spring; Hall |
+| NR1 | Noise reduction |
+
+<!-- comparison evidence ends -->
+
+Source access: English and German exact-model product bodies opened as browser text. Japanese exact-model specifications read in search cache; direct reopening timed out. No own IB manual inspected; family claims remain qualified.
+
+[SL1B-E]: https://voxamps.com/product/stomplab-1b/
+[SL1B-D]: https://voxamps.com/de/produkt/stomplab-ib/
+[SL1B-J]: https://voxamps.com/ja/product/stomplab-1b/
