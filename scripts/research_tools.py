@@ -401,7 +401,7 @@ def main():
         if mode == 'commit-h9max':
             message = 'research(eventide): verify H90 snapshots and performance control limits'
         if mode == 'commit-1201':
-            message = 'research(zoom): verify RFX-2200 analog levels and impedances'
+            message = 'research(zoom): preserve 1201 bypass conflict and mixer routing'
         if mode == 'commit-vt4':
             message = 'research(roland): verify VT-4 output balance and USB processing constraints'
         if mode == 'commit-pe100':

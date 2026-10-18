@@ -3482,7 +3482,7 @@ Checked2026-10-17;partial. Zoom Studio1201 rack multi-effects,not1202/1204. [Man
 | Synth / acoustic | Vocoder:voice envelope at R,instrument at L/MONO,with suitable preamps. Acoustic simulation/independent synth source unverified. [p6][Z1201-M] |
 | IR / NAM / capture | User IR,native/converted NAM,proprietary capture loading unverified. |
 | Editor / platforms | Editor,driver/updater and mobile platforms unverified;no sibling software borrowed. |
-| Live / other | FS01 bypass passes dry signal. Looper,drums,scenes and trails unverified. |
+| Live / other | FS01 effects-off routing has a manual-source inconsistency documented below;unconditional dry bypass is not verified. Looper,drums,scenes andtrails unverified. |
 
 Manual1201-5000 was read in full as browser text;no visual census or download. Numerical control count is derived from the described inventory,including rotary selectors.
 
@@ -3511,6 +3511,17 @@ No confirmed used/new split. Working state,adapter/bundle,authenticity,warranty,
 | Controls / parameter scope | ADJUST controls reverb time inA and one effect-dependent parameter inB/C. The documented363 patterns are selection combinations,not363 freely editable user memories. Exact parameter ranges/user-save support remain unresolved. |
 
 Earlier per-family inventory gap is resolved at the33selector-type level. Polarity,display,user-storage/import/editor scope and condition-qualified availability remain open.
+
+### 1201 — mixer routing,power-on andbypass conflict
+
+Checked2026-10-18 against own manual1201-5000,printed pp4,6–7. Documentation only;no device test.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / aux-return mix | For mixer send/return use,set **MIX fully WET** andbalance dry/effect at the mixer. This avoids returning an extra dry signal. The example does not create additional loop sockets onthe1201. [Manual p6][Z1201-M] |
+| Power / automatic activation | Connecting the supplied adapter tomains automatically powers the unit. Regional adapter compatibility remainsseparate from9VDC device input;polarity/current beyond the retained specification are not inferred. [Manual p4][Z1201-M] |
+| Live / effects-off source conflict | Rear-panel description says FS01 effects-off leaves **only original sound**. Troubleshooting instead lists **effects-off withMIX towardWET** as a no/low-sound cause andsays adjustMIX. Preserve both;unconditional dry bypass at everyMIX position is not verified. Analog relay/true bypass remainsunestablished. [Manual pp4,7][Z1201-M] |
+
 
 ## RFX-2200
 
