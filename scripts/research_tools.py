@@ -565,7 +565,7 @@ def main():
         if mode == 'commit-ax10g':
             message = 'research(korg): enumerate AX10G effects and pedal restrictions'
         if mode == 'commit-g3x':
-            message = 'research(zoom): add exact G3X seller-labelled used hardware ask'
+            message = 'research(zoom): clarify G3X XLR routing and eco standby'
         if mode == 'commit-g5':
             message = 'research(zoom): reconcile 607 effect count and utility processing'
         if mode == 'commit-ms50gplus':

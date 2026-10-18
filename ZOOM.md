@@ -2698,6 +2698,16 @@ Original guitar multi-effects with expression; distinct from G3 and G3Xn. Manufa
 
 Manufacturer's G3X support page links this shared G3/G3X manual. Model-specific G3X size/mass retained; G3's smaller body and G3Xn specifications are not transferred. Read through web-rendered text; some PDF operation text is encoding-corrupted and visual panel inspection remains pending. No dependency,app,firmware or document downloaded to filesystem. Mixed five-variant Hope Music range and twelve-variant jonimusic range are excluded from model prices; cases,broken boards,knobs and adapters are not hardware offers.
 
+
+### G3X — XLR source selection and eco standby
+
+Checked 2026-10-18 against [manufacturer G3/G3X manual,printed5–6](https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf),linked by the G3X support page. These are shared rear-panel instructions; external-pedal model distinctions remain unresolved. No download or device operation.
+
+| Field | Exact source qualification | Evidence |
+|---|---|---|
+| I/O / XLR source and ground | PRE selects signal **before effects**;POST selects **after effects**. GROUND LIFT separates the signal path from the grounding pin;CONNECT joins them. Neither setting establishes phantom-power support. | [Manual p5][ZG3X-M] |
+| Power / eco standby | POWER’s **eco** setting enters standby after about**25 minutes** without use. An incoming guitar signal prevents this automatic standby. This is an optional switch setting,not an unconditional timeout or evidence that USB-powered operation follows identical switching behavior. | [Manual p6][ZG3X-M] |
+
 [ZG3X-P]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3x/
 [ZG3X-M]: https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf
 [ZG3X-S]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3x/g3x-support/

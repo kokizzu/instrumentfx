@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh hardware discovery / unresolved model fields",
-    "task": "MP100 Pre/Postlooper,drumsync limits andtunerreference recorded. Next freshShopeebrand/series discovery or currentfirmware/IRcapacity evidence;avoidunchangedadapter-onlyM13/RP355 searches anddo notclaimliveavailability.",
+    "task": "G3X XLRPRE/POSTsource andeco25minstandby recorded. Next freshhardwarediscoveryorrequiredfieldaudit;G3Xexternalpedalidentity,buttoncount,display/factoryfill/newprice remainopen. MP100currentIR/firmwarecensus unresolved.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -60524,6 +60524,22 @@
         "Loopretention"
       ],
       "method": "ManufacturerPDFbrowsertext,no downloads/deviceexecution"
+    },
+    {
+      "model": "Zoom G3X",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf"
+      ],
+      "finding": "Sharedownmanualpp5–6 explicitlyXLRPREbeforeFX/POSTafterFX,groundpinlift/connect;eco25minuteidle standby preventedbyincomingguitarsignal. NophantomorUSBswitchbehaviorinferred.",
+      "remaining": [
+        "ExternalpedalG3Xspecificfunctions",
+        "Completebuttoncount",
+        "Displaydetails",
+        "Factoryfill",
+        "Qualifiednewoffer"
+      ],
+      "method": "ManufacturerPDFbrowsertext,no downloads/deviceexecution"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -79844,5 +79860,14 @@
       "site:shopee.co.id \"Korg\" \"AX3000B\""
     ],
     "result": "No newexactprocessor lead. M13hit216990724/6861766207Rp144200andRP355hit855783279/22273291654Rp170000areadapters;unrelatedBognermerchandise/presetpacksnotAmperohardware. Noabsenceconclusion."
+  },
+  "discovery_g3x_routes_20261018": {
+    "queries": [
+      "site:shopee.co.id \"Boss\" \"GP-10\"",
+      "site:shopee.co.id \"Boss\" \"GT Pro\"",
+      "site:shopee.co.id \"Digitech\" \"GSP1101\"",
+      "site:shopee.co.id \"Zoom\" \"GFX-1\""
+    ],
+    "result": "No neweligibleexacthardware. GFX1adapters/unrelatedGTProproducts excluded. Recommendationpage exposedGP100second266296121/49001468024Rp2200000alreadyrecorded;no duplicateofferadded."
   }
 }
