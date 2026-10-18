@@ -21,7 +21,7 @@ Checked 2026-10-19; partial. Exact Core hardware; separate from GiT, Advanced an
 | Looper / drums / live | 80-second looper; 40 drum patterns plus ten metronome rhythms; tap tempo; tuner 435–445 Hz. Retention/scenes/trails unverified. |
 | Digital audio | 44.1 kHz, 24 bit; converter architecture unverified. |
 | Synth / acoustic | Unverified. |
-| Documentation | [Exact manufacturer page](https://harleybenton.com/product/dnafx-git-core/); manual/firmware revision unverified. No sibling specifications imported. |
+| Documentation | [Exact manufacturer page](https://harleybenton.com/product/dnafx-git-core/); Manual dated03.07.2024,ID578764 recovered below;installed firmware unverified. No sibling specifications imported. |
 | IDR verified used | Unknown. |
 | IDR verified new | Unknown. |
 | IDR condition-unverified hardware ask | Unknown. Exact Shopee DNAfx Core search returned no results on 2026-10-19; does not prove absence. Seller/item, stock, condition, variant, region, bundle, voucher and total unverified. |
@@ -38,3 +38,17 @@ No software/dependencies downloaded, installed or executed.
 | I/O / USB source conflict | Manual identifies computer USB-B and OTG USB-C, versus two USB-C ports on product page. Exact retail revision unverified. Manual explicitly lists no MIDI interface. |
 
 These conflicts remain explicit; no sibling-model specification resolves them.
+
+### Preset, expression and performance details
+
+[Original manual](https://images.thomann.de/pics/atg/atgdata/document/manual/578764_c_578764_en_online.pdf),printed pp23–38,45;checked2026-10-19. Document inspection only.
+
+| Field | Evidence / qualification |
+|---|---|
+| Memory / preset organization | 200 slots: P001–050 AMP+CAB enabled;051–100 AMP enabled for amplifier return;101–150 AMP+CAB disabled for amplifier input;151–200 individually configurable. These groups do not establish 150 protected factory plus50 writable slots. Save selects destination/name; protected/writable split remains unverified. |
+| Expression / configuration | External pedal offers Level/Volume/MST or selected FUNCTION parameter. Calibration confirms rear/front travel with VALUE then saves with SAVE. EXP VOL menu displays MIN000 to MST100; toe-switch support unverified. |
+| Looper / practical restrictions | Recorded sound unaffected by preset edits. TUNER controls record/play/overdub;LOOPER stops and,held one second,clears all tracks. Recording automatically plays back after80seconds. Persistence after power-off unverified. |
+| Processing / tuner modes | MUTE or BYPASS selectable while tuning;powered-off bypass unverified. |
+| Editor / power requirement | Manual requires supplied external adapter during computer recording/editing/updating;USB-only operation remains unverified. |
+| Synth / acoustic choices | AMP entries53–55 are three acoustic simulators,within the55 count;not extra amps orproof of synthesis. |
+

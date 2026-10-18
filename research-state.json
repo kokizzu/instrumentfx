@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "DNAfx GiT Core",
-    "task": "Original manual recovered; controls/polarity/IR verified and physical/USB discrepancies retained. Next inspect pp23–38 memory/expression/software and pp39–52 effect census; exact Shopee IDR unresolved. All388 partial;migration incomplete.",
+    "task": "Memory organization/external-expression/looper/software-power details saved. Next finish original manual effect census pp39–52, inspect cabinet/USB physical conflicts through independent exact-model primary revision evidence, or fresh Shopee discovery. All388partial;migration incomplete.",
     "next_models": [],
-    "after_queue": "388 active models47brands;no downloads/workflows/push."
+    "after_queue": "388active47brands;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -120513,5 +120513,10 @@
       "USB-B+USB-C manual versus twoUSB-C product"
     ],
     "remaining": "Physical revision/panel verification, memory split, detailed category census, software requirements, exact Shopee IDR."
+  },
+  "dnafx_core_memory_expression_20261019": {
+    "source": "https://images.thomann.de/pics/atg/atgdata/document/manual/578764_c_578764_en_online.pdf",
+    "pages": "23–38,45",
+    "qualification": "Preset groups not conflated with protected/writable split; external expression calibration and looper restrictions saved; acoustic simulations count within55."
   }
 }
