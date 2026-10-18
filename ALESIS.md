@@ -79,6 +79,15 @@ Checked 2026-10-18 from original text in the [manufacturer manual, pp37–38](ht
 | Live / MIDI modulation restrictions | CC1 andCC11 control up to two fixed program-specific parameters; some programs expose only one. Modulation increases the stored value toward maximum, so a stored maximum cannot increase further. Chorus-depth changes during audio can click. Assignments are not freely remappable expression destinations. |
 
 
+### MicroVerb 4 — explicitly used Shopee offer
+
+| Price class | Amount | Exact offer and qualifications |
+|---|---:|---|
+| Seller-described used hardware; working condition unverified | **Rp2.709.000** | [andikondo, shop752257787/item24378585723](https://shopee.co.id/Effek-Alesis-Microverb-4-original-Made-malaysia-bekas-normal--i.752257787.24378585723), Kab. Kediri. Checked2026-10-18: indexed result two months old; direct cached body last month. Title explicitly says used and normal-working, with original/Malaysia origin claims; these are seller statements, not an inspection or an established technical variant. Delivery8–11September is stale. Current stock, actual condition, revision, adapter/accessories, bundle, warranty, shipping/tax and delivered total unknown. Up-toRp10.000 late-arrival compensation is not a product discount. No new-condition ask verified. |
+
+Earlier condition-unverified asks are retained separately; they do not form a verified used/new price range. This new title supplies explicit used-condition evidence, not independently verified working condition or authenticity.
+
+
 ## MIDIverb 4
 
 Dual-channel rack multi-effects,notMicroVerb4. Checked2026-10-17;partial,discontinued [MD-P].

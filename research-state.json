@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Alesis MicroVerb 4",
-    "task": "Saved MIDIbankselection,fixedpositiveCCmodulation,SysExbackup andThruoverflow. Next freshShopee discovery orremainingbody/current/display/qualifiedprices;no siblingborrowing.",
+    "task": "Saved explicitly used2709000IDR andikondo752257787/24378585723;working/origin/currentstockunverified. Next freshShopee discovery orremainingtechnicalgaps;do notduplicateoffer.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75414,7 +75414,7 @@
   },
   "resume_cursor": {
     "model": "Alesis MicroVerb 4",
-    "task": "Saved MIDIbankselection,fixedpositiveCCmodulation,SysExbackup andThruoverflow. Next freshShopee discovery orremainingbody/current/display/qualifiedprices;no siblingborrowing.",
+    "task": "Saved explicitly used2709000IDR andikondo752257787/24378585723;working/origin/currentstockunverified. Next freshShopee discovery orremainingtechnicalgaps;do notduplicateoffer.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75744,5 +75744,37 @@
       "site:shopee.co.id Yamaha FX500"
     ],
     "result": "Noqualifiednewexacthardwareoffer;notmarketabsence"
+  },
+  "microverb4_used_offer_20261018": {
+    "source": "https://shopee.co.id/Effek-Alesis-Microverb-4-original-Made-malaysia-bekas-normal--i.752257787.24378585723",
+    "seller": "andikondo",
+    "shop": "752257787",
+    "item": "24378585723",
+    "idr": 2709000,
+    "region": "Kab.Kediri",
+    "condition": "Seller explicitly says used/normal; independently unverified",
+    "origin": "Selleroriginal/Malaysia claim,notestablishedvariant",
+    "access": "2monthindex/lastmonthdirectcached",
+    "delivery": "8–11September,stale",
+    "stock": "Currentunknown",
+    "voucher": "10000IDRlatecompensationnotdiscount",
+    "unknown": [
+      "adapter",
+      "accessories",
+      "revision",
+      "bundle",
+      "warranty",
+      "shipping/tax",
+      "deliveredtotal"
+    ]
+  },
+  "discovery_ax3b_b2_bp80_me8b_20261018": {
+    "queries": [
+      "site:shopee.co.id Korg AX3B",
+      "site:shopee.co.id Zoom B2 bass efek",
+      "site:shopee.co.id Digitech BP80",
+      "site:shopee.co.id Boss ME-8B"
+    ],
+    "result": "Noqualifiednewexacthardwaremodel;existingB2FOURoffersalreadyrecorded. Albertastorefront3935000lead directcachemiss,noexactitem;notassignedprice. Searchfailure notmarketabsence."
   }
 }
