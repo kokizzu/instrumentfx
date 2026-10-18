@@ -1393,3 +1393,9 @@ Checked2026-10-18 against [manufacturer product documentation](https://nuxaudio.
 |---|---|
 | Delay / tap-ratio meaning | NUX's explicit examples say **1/4 produces repeats four times faster than tapping**,and **1/2 twice as fast**. These are tap-interval ratios;do not silently relabel1/4 as a quarter-note rhythmic denomination. Numeric knob ranges andSmartTAP range remain separately documented above. |
 | Routing / parallel dry branches | Inparallel mode,the input splits andeach effect mixes with its **separate dry signal**. Serial mode chooses which effect comes first. This description doesnot establish independently processed stereo input channels,dry-kill support,unity summed gain orcomplete wet-only output behavior. |
+
+## MG-30 MKII — primary-source discovery lead
+
+Checked2026-10-18;not activeinventory pendingexactShopee hardware evidence. DistinctfromoriginalMG-30 anditsGEN2firmware,andfromMG-300MKII. [Exactmanufacturerproduct](https://nuxaudio.com/product/mg30mkii/) explicitly compares newhardware: twiceDSPheadroom,balancedTRSoutputs,AUX-to-USB routing,metallicwhitefinish andredesignedswitching. Itdocuments12movableblocks,35ampmodels(28guitar/5bass/2acoustic),10IMAGE/NAMslots withnativeA2-Lite,24userIRslots/1024samples,and4-inch800×400colorLCD. These areleadfacts,not acompletedmodelaudit;touch,memories,controls,fullports andotherrequiredfields remainunverified.
+
+ExactShopeeMG30MKII/MG-30MKII/MG30MK2 searchesresolvednoqualifiedprocessoritem. OriginalMG30prices andMG300MKIIoffers areinapplicable;Prinovasi bracketlisting isaccessoryonly. NoIDRask assigned,no marketabsenceclaim,no inventoryincrement. Recoveranexacthardwareoffer beforepromotion;do nottransfernewhardwarefeatures totheoriginalMG30.
