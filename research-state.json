@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Yamaha DG-Stomp",
-    "task": "DG-Stomp4effectblocks/onechoiceperblock plusnamed8preamps16speakers saved; knobpickup andfourtypeswordingconflict retained. Next fresh exactShopee discovery orremainingDGStompdigitalwordwidth/editor/display/builtinvisual gaps.",
+    "model": "MOOER GS1000",
+    "task": "Saved looperundo/delete,manualsave/CTRLpriority andbackupscope. ExactnewvariantShopee searches foundpresetpack/unresolvedlists only. Next freshmanufacturer/series discovery orcurrentGS1000rhythm/importformat/NAMlimits gaps.",
     "next_models": [],
     "after_queue": "345 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -45589,7 +45589,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Yamaha DG-Stomp."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER GS1000."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -58767,6 +58767,20 @@
         "Totalglobalprocessingceiling"
       ],
       "method": "Browsertext;nooperation/download"
+    },
+    {
+      "model": "MOOER GS1000",
+      "checked_date": "2026-10-18",
+      "source": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GS1000_Manual_EN.pdf",
+      "pages": "22,25,28–29,47,72",
+      "finding": "LooperAholdUndoRedo/Bholdwholedelete;CTRL/SubPatch/EXP requiresave;CTRLentrypriorityglobal;backuplistnotexplicitloopaudio. Loopformat/powerpersistenceunknown.",
+      "discovery": "GE200Plus/GE300Lite/GS1000Li searches noexacthardwareoffer;28713236/25889306838 presetpackexcluded;listGS1000 pricesunresolved.",
+      "remaining": [
+        "Loopformat/persistence",
+        "Currentrhythminventory",
+        "NAMconcurrencylimits",
+        "Qualifiedused/newIDR"
+      ]
     }
   ],
   "discovery_cross_brand_bass": {

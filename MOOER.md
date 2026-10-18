@@ -281,6 +281,19 @@ Checked 2026-10-18 against the [original manufacturer manual](https://media.rock
 | I/O / output electrical limits | Main outputs: **600 Ω, maximum +16 dBu**. SEND: **510 Ω, maximum +12 dBu**. PHONES: **6 Ω, maximum +16 dBu**. Output impedance is not a recommended headphone-load rating. |
 | I/O / converter ratings | ADC: **24-bit/44.1 kHz**, dynamic range **114 dB**. DAC: dynamic range **115 dB**, signal-to-noise **115 dB**. Both list **20 Hz–20 kHz, +0/−1 dB** response. The manual does not state the measurement weighting here; USB rates remain separate. |
 
+### GS1000 — looper controls and save scope
+
+Checked2026-10-18 against the [original manufacturer shared manual](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GS1000_Manual_EN.pdf), printedpp22,25,28–29,47,72. Standard/Li identity retained; no hardware operation ordownload.
+
+| Field | Verified behavior / qualification |
+|---|---|
+| Looper / undo and deletion | FootswitchA cyclesREC/PLAY/DUB; holdUNDO,holdagainREDO after multiple layers. FootswitchB tapstops,holddeletes the entire recording. Undo is not full deletion. |
+| Memory / manual save | Preset changes lose unsaved edits; CTRL assignments,SubPatch mappings andexpression edits require saving the preset. Globalpedal calibration is separate. |
+| Controls / CTRL priority | GlobalPreferences selects SUBPATCH orSTOMPBOX as the mode entered onaccessingCTRL. This is entry-mode preference,not a fourthSubPatch orautomatic preset save. |
+| Editor / backup scope | Backup instructions explicitly include presets,loadedGNR/GIR/IR andglobalsettings. Looperaudio is not enumerated there; do not assume this backup preserves loops. Separate loop import/export exists; format andpower-offpersistence remain unverified. |
+
+Discovery: exact Shopee GE200Plus/GE300Lite/GS1000Li queries didnot establish a new hardware offer. Item28713236/25889306838 is a GE200preset pack; list-page GS1000amounts remain unresolved,not exact offers. No catalogue count change.
+
 ## GE100 original
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
