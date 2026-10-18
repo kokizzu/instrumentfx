@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(harley-benton): reconcile Core effect category census'))
+    print(git('commit','-m','research(harley-benton): verify Core custom IR capacity and retain connector conflicts'))

@@ -16,7 +16,7 @@ Checked 2026-10-19; partial. Exact Core hardware; separate from GiT, Advanced an
 | Dimensions / mass | 175 × 138 × 30 mm; axis order unverified; 0.80 kg. |
 | I/O | 6.3 mm mono input, stereo output and EXP; 3.5 mm stereo aux/headphones; separate USB-C USB/OTG ports. Audio channels/MIDI unverified. |
 | Power / battery / USB | 9 V DC, 300 mA; supply included. Manual: centre-negative, no battery operation. USB power unverified. |
-| IR / NAM / capture | Third-party IR support; manual specifies WAV,44.1 kHz,24 bit,512 samples; slots unverified. Native NAM, conversion and capture unverified. |
+| IR / NAM / capture | Third-party IR support; manual specifies WAV,44.1 kHz,24 bit,512 samples; Thomann exact-model listing specifies ten custom IR files (qualification below). Native NAM, conversion and capture unverified. |
 | Editor / software | Windows/Mac editing, DAW recording, updates; OTG smartphone/tablet recording/streaming. Exact OS/drivers unverified. |
 | Looper / drums / live | 80-second looper; 40 drum patterns plus ten metronome rhythms; tap tempo; tuner 435–445 Hz. Retention/scenes/trails unverified. |
 | Digital audio | 44.1 kHz, 24 bit; converter architecture unverified. |
@@ -63,3 +63,15 @@ These conflicts remain explicit; no sibling-model specification resolves them.
 | Processing / shared-block limits | Wah and compressor share FXCOMP;pitch shift,detune,chorus andfilters share MOD. Their model counts do not establish concurrent independent blocks. MOD includes three phasers,two flangers,tremolo,stutter,vibrato,pitch,detune,rotary,two choruses,ring modulation,Q/high-pass/low-pass filters,slow gear andlofi. |
 | Processing / EQ qualification | Four choices:two five-band graphics,a six-band graphic,andthree-band parametric with adjustable frequencies and±12dB. One EQ template is labelled for bass;that alone does not establish complete bass-model suitability orALL-BASS membership. |
 
+
+### Thomann exact-item cross-check
+
+[Thomann item578764](https://www.thomannmusic.com/harley_benton_dnafx_git_core.htm),checked2026-10-19 through browser-readable text. Thomann is the brand owner/retailer;this is additional primary text,not an independent hardware measurement.
+
+| Field | Evidence / qualification |
+|---|---|
+| IR / custom capacity | Exact Core narrative states **up to ten custom IR files** in the cab simulator. Installed firmware and import behavior not tested. |
+| I/O / connector wording conflict | Specification lists USB-C for both ports;editorial narrative instead says OTG-capable micro-USB. Manual says computer USB-B plus OTG USB-C. Connector wording is inconsistent even within the retailer page;physical revision remains unresolved. |
+| Dimensions / mass corroboration limit | Retailer repeats175 ×138 ×30 mm and0.80kg;does not resolve manual175W ×52H ×141D mm/507g. No revision explanation found. |
+
+Broader exact-brand Shopee query returned no results;qualified IDR hardware offer remains unknown. Foreign-currency asks are not converted into IDR.
