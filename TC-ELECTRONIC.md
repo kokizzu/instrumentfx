@@ -86,6 +86,16 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | Unverified condition | **Rp6.180.000**, NEO MUSIC, shop158235298/item28021818540,Kota Sukabumi; three-month crawl, July2 arrival text. | [Item1][PX3-O1] |
 | Unverified condition | **Rp7.508.100**, Gelora Musik Serpong,shop306155985/item23943061836,Kab.Tangerang; five-month crawl, delivery unavailable. | [Item2][PX3-O2] |
 
+
+### PLETHORA X3 — bypass specification and named base inventory
+
+Checked2026-10-18.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / bypass specification | Own-model quick guide V0.0,printedp63,lists **True Bypass**. This is a manufacturer specification,not a measured bypass test orproof of trails/power-failure behavior. [Manufacturer-authored copy][PX3-QM] |
+| Category choices / exact base names16 | HELIX PHASER;VISCOUS VIBE;TAPE DECK LOOPER;HALL OF FAME2 REVERB;FLASHBACK2 DELAY;SUB N UP OCTAVER;BRAINWAVES PITCH SHIFTER;CORONA CHORUS;HYPERGRAVITY COMPRESSOR;MIMIQ DOUBLER;VORTEX FLANGER;PIPELINE TAP TREMOLO;QUINTESSENCE HARMONY;SENTRY NOISE GATE;SHAKER VIBRATO;ALTER EGO VINTAGE ECHO. These are the own-model product page’s16base entries already counted above,not16simultaneous effects;laterInfinite addition remains separate. [Exact manufacturer product][PX3-P] |
+
 <!-- comparison evidence ends -->
 
 Checked2026-10-17; historical indexed asks, not current stock/checkout. Condition,variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers unresolved. No download or visual inspection claimed.

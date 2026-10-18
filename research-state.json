@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon VoiceLive 3 Extreme",
-    "task": "Saved looptimingSMART/QUANTIZE/FREE,metronomemute/off andtempolock. NextfreshShopee discovery or unverified fields; vocalquery no newexactmodel.",
+    "model": "TC Electronic PLETHORA X3",
+    "task": "Saved TrueBypass andnamed16baseFX. Next freshShopee discovery orunresolvedspecs; no X5durationborrowing.",
     "next_models": [],
     "after_queue": "347 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -45602,7 +45602,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon VoiceLive 3 Extreme."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Electronic PLETHORA X3."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -59390,6 +59390,23 @@
         "Condition-qualified prices"
       ],
       "method": "Manufacturer reference text only; no download/device operation"
+    },
+    {
+      "model": "TC Electronic PLETHORA X3",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://www.adorama.com/col/productManuals/TC79AIS861.pdf",
+        "https://www.tcelectronic.com/en/products/0709-AIS"
+      ],
+      "finding": "OwnQSGTrueBypass specification;16exactbaseeffectnames reconciled,Infinite separate;X5looper80/40nottransferred.",
+      "remaining": [
+        "Looper duration",
+        "DSP restrictions",
+        "Screen details",
+        "Current OS",
+        "Qualified used/new IDR"
+      ],
+      "method": "Manufacturer product andauthoredQSGbody only;no download/hardwaretest"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -74661,6 +74678,18 @@
       "VoiceLiveTouch2"
     ],
     "result": "No newexactmodel accepted. Results re-surfaced recordedVoiceLivePlay/Extreme; generic list/search prices not used asnewhardware evidence.",
+    "checked_date": "2026-10-18"
+  },
+  "discovery_tcelectronic_20261018": {
+    "queries": [
+      "NovaSystem",
+      "Nova System",
+      "G Major",
+      "G-Major",
+      "G Force",
+      "Plethora X3"
+    ],
+    "result": "No newexacthardware accepted;X3offers alreadyrecorded. G-Major bookhit rejected. ManufacturerX5looper80mono40stereonotX3proof.",
     "checked_date": "2026-10-18"
   }
 }
