@@ -431,6 +431,15 @@ Checked2026-10-18 against own Yamaha manual,printed18–19. Documentation only;n
 | Memory / factory reset | UP+MANUAL duringpower-on restores factorydefaults andrewrites theUser area from thefactory PatchList. Yamaha warns allstored data iserased;MIDIbackup orwritten settings recommended. This isnot anextra preset bank. [Own manual p18][DGS-M] |
 | Processing / modulation selection | Switching MOD type carries SPEED/DEPTH values fromtheprevious effect;secondaryparameters use thelast values for theselected effect. Holding itseffectbutton untilallfiveMOD LEDs light restores secondarydefaults. Patchrecall separately loads savedsecondaryvalues. [Own manual p19][DGS-M] |
 
+
+### DG-Stomp — footswitch MIDI output and receive mode
+
+Checked2026-10-18 against original Yamaha manual,printedp23. Documentation only;no MIDI messages sent.
+
+| Field | Exact-model qualification |
+|---|---|
+| MIDI / footswitch CC output | In **EFF mode**, switches1–3 can each transmit **Off orCC1–32/64–95**,with independently configured **0–127 values for ON andOFF**. Their local modulation/delay/reverb assignments remain separate from transmitted values. This range differs from incoming expression-assignment CC1–31/64–95;do not normalize the ranges. [Own manual][DGS-M] |
+| I/O / MIDI receive mode | Manual states **MIDI messages cannot be received in Utility mode**;use Play mode. The restriction is broader than the previously documented BulkIn requirement. It doesnot establish a physical input disconnect ordisable merged-output forwarding inevery mode. [Own manual][DGS-M] |
 <!-- comparison evidence ends -->
 
 [DGS-M]: https://usa.yamaha.com/files/download/other_assets/7/313717/dgstomp_en.pdf

@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon Harmony Singer 2",
-    "task": "Saved originalHS2 noise/response conditions andmomentary startup gesture;polarity/runtime andlaterguide applicability unresolved. Next freshShopee discovery or exactoriginalquickguide revision audit;avoidretailerpowerinference andrepeat cachedoffers.",
+    "model": "Yamaha DG-Stomp",
+    "task": "Saved EFFfootCCout/value ranges andUtilityMIDIreceive restriction. FreshMagicstomp/RP6/AX300B/B21NU/DGStomp/ME8B/AX3B/RP2000 Shopeequeriesempty;notabsenceproof. YamahaQuickStart exactURL403 retainedforlater;next freshdiscovery ororiginalDGStompgaps,notrepeatManualmodeaudit.",
     "next_models": [],
     "after_queue": "364active/46brands;305guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -45975,7 +45975,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon Harmony Singer 2."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Yamaha DG-Stomp."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -61231,6 +61231,15 @@
       "source": "https://images.thomann.de/pics/atg/atgdata/document/manual/404710_harmony_singer_2_manual_en_404710.pdf",
       "status": "partial",
       "finding": "Originalp5–6 controlgesture andelectricalnoise/response saved;power/revision gaps retained."
+    },
+    {
+      "model": "Yamaha DG-Stomp",
+      "destination": "YAMAHA.md#dg-stomp",
+      "checked_date": "2026-10-18",
+      "source": "https://usa.yamaha.com/files/download/other_assets/7/313717/dgstomp_en.pdf",
+      "status": "partial",
+      "finding": "Originalp23 footCCout andUtilityreceive restriction saved;quickstart313? exactURL accessfailed.",
+      "unread_quick_start": "https://usa.yamaha.com/files/download/other_assets/6/319456/dgstomp_2.pdf"
     }
   ],
   "discovery_cross_brand_bass": {

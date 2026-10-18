@@ -473,7 +473,7 @@ def main():
         if mode == 'commit-rev500':
             message = 'research(yamaha): qualify SPX1000 recall and bypass behavior'
         if mode == 'commit-spx900':
-            message = 'research(yamaha): clarify DG-Stomp Manual mode and modulation recall'
+            message = 'research(yamaha): qualify DG-Stomp foot CC and MIDI receive modes'
         if mode == 'commit-mx200':
             message = 'research(lexicon): distinguish MPX100 adapter capacity from device draw'
         if mode == 'commit-gnx4':
