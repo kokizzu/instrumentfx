@@ -1554,7 +1554,7 @@ Checked 2026-10-18 from indexed [original manual pp28,30](https://zoomcorp.com/m
 | Field | Documented operation / limits |
 |---|---|
 | Live / tuner access | Hold MEMORY/STOMP in either STOMP or MEMORY mode, then choose **FS1 for bypass sound** or **FS2 for muted output** while tuning. These are selectable tuner output behaviors, not evidence of relay true bypass or retained delay/reverb tails. |
-| Controls / tuner settings menu | MENU→TUNER opens TUNER SETTINGS through the PUSH TO ENTER control. The indexed p30 screen shows calibration, tuner type and flat-tuning settings. An example440Hz display is not proof of the complete calibration range or power-cycle persistence; those remain unverified. |
+| Controls / tuner settings menu | MENU→TUNER opens TUNER SETTINGS through the PUSH TO ENTER control. The indexed p30 screen shows calibration, tuner type and flat-tuning settings. An example440Hz display alone does not prove the complete range; the own-product page below resolves the range. Power-cycle persistence remains unverified. |
 
 
 ### G3Xn — flat-tuning limits
@@ -1563,13 +1563,24 @@ Checked 2026-10-18 from indexed [original G3n/G3Xn manual p33](https://zoomcorp.
 
 | Field | Exact-document evidence / gaps |
 |---|---|
-| Live / flat tuning | TUNER SETTINGS→FLAT supports **one,two or three semitones down**. Flat tuning is **unavailable with TYPE=CHROMATIC**. This changes the tuner reference targets, not an audio pitch-shift effect or added synth capability. Full calibration range and power-cycle persistence remain unverified; G3/G3X manual values are not assigned to G3Xn. |
+| Live / flat tuning | TUNER SETTINGS→FLAT supports **one,two or three semitones down**. Flat tuning is **unavailable with TYPE=CHROMATIC**. This changes the tuner reference targets, not an audio pitch-shift effect or added synth capability. The own-product page below resolves the calibration range; power-cycle persistence remains unverified. G3/G3X manual values are not assigned to G3Xn. |
 
 ### G3Xn — used spring-return offer, 2026-10-18
 
 | Field | Exact offer / qualification |
 |---|---|
 | Used IDR / seller-described pedal alteration | **Rp2.099.000**, title labels **BEKAS** and describes a spring-return pedal. [Exact item, shop410256197/item53562530133](https://shopee.co.id/-BEKAS-ZOOM-G3XN-LAIN-DARI-YANG-LAIN-MODE-PEDAL-PEGAS-DI-INJAK-BISA-MENTAL-BALIK-G3-XN-G3X-N-G-3XN-i.410256197.53562530133), Jakarta Barat in the [Shopee category cache](https://shopee.co.id/search?keyword=%2CG3XN), crawled last month. Link selects display_model_id411087615751; direct item returned cache miss and exact-ID search returned nothing. Seller name, stock, working condition, modification details, adapter/bundle, warranty, shipping/tax and voucher/checkout total remain unknown. Keep separate from standard unmodified-unit asks; seller wording is not a manufacturer feature or independently tested behavior. |
+
+### G3Xn — recovered own-product specification qualifications, 2026-10-18
+
+[Manufacturer G3Xn-specific legacy page](https://www.zoom.co.jp/node/748), text inspected; no hardware test or download. Its historical80-type headline and v2.0 specification159-type total retain different library scopes.
+
+| Field | New evidence / qualification |
+|---|---|
+| Live / tuner calibration | Own-product feature list specifies **435–445Hz**. This resolves the range without borrowing another model; power-cycle persistence remains unverified. |
+| I/O / headphone specification | Exact G3Xn specifications corroborate **combined stereo L/Mono/Phone**, alongside mono R; headphone rating15+15mW into32Ω. Prose also mentions a headphone jack, without proving a separate socket. Earlier rear-diagram/shared-page wording remains preserved; no visual panel reconciliation claimed. |
+| Audio / input-noise source difference | Legacy own-product table prints **−119dBu** equivalent input noise, whereas the indexed manual passage lacked the minus sign. Retain both source readings; no measurement or manual correction established. |
+| Power / USB source qualification | Legacy own-product USB row explicitly claims **USB-port power** and warns power-only cables disable other USB functions. Earlier manual passages did not establish bus power; actual operation, required USB current and firmware/revision applicability remain unverified. This is a manufacturer web claim, not a tested result or USB-audio claim. |
 
 <!-- comparison evidence ends -->
 

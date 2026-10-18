@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G3Xn",
-    "task": "Saved exact used spring-return listing separately from standard hardware; no exact RP80/AX1G/G2Nu unit lead established. Next search different Shopee brand/series or verify unresolved required fields using own manufacturer sources.",
+    "task": "Saved legacy own-product tuner range and qualified headphone, input-noise and USB-power source differences. Next inspect another required gap or different Shopee brand/series. Do not call the legacy USB-power claim tested.",
     "next_models": [],
     "after_queue": "353 partial models;294 guitar155 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
@@ -77112,5 +77112,21 @@
         "checkout"
       ]
     }
+  },
+  "technical_followup_g3xn_legacy_primary_20261018": {
+    "source": "https://www.zoom.co.jp/node/748",
+    "resolved": "Tuner calibration range435–445Hz",
+    "qualifications": [
+      "Exact-model combined L/Mono/Phone specification corroborates manual table; no physical panel inspection.",
+      "Web prints minus119dBu versus unsigned119 in indexed manual.",
+      "Legacy page claims USB power; actual operation/current/revision unverified."
+    ],
+    "remaining": [
+      "Full K/F/B census",
+      "Physical headphone-panel reconciliation",
+      "Display diagonal/color/touch",
+      "Complete category census",
+      "Qualified current offers"
+    ]
   }
 }
