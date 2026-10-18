@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom MS-100BT",
-    "task": "MS100BT factory30filled/20empty,dual inputs/outputs andconditional downloadable bass support saved. Next seek freshShopee hardware leads;remaining MS100BTexpression/control/other-port absence audit andcurrent transfer availability unresolved. Do not claim AppStore listing proves operation.",
+    "task": "Saved exact MS100BT firmware1.30 bass-loading restriction and1.10 LineSel/battery fixes. Fresh frontier queries produced no qualified new exact hardware. Next search another brand/series orresolve another existingmodel requiredfield gap;do notrepeat these adapters/mixedminima asoffers. Remaining MS100BTphysicalcontrol/expression audit andcurrent transfer availability unresolved.",
     "next_models": [],
     "after_queue": "365active/46brands;306guitar159bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -80843,5 +80843,26 @@
     ],
     "status": "partial",
     "scope": "Factory memory andexplicit physical input/output counts resolved;downloadable bass capability qualified byinstalled effects. Actual transfer/current regional app support unverified."
+  },
+  "ms100bt_firmware_audit": {
+    "date": "2026-10-18",
+    "source": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/MS-100BT_ver130_en.pdf",
+    "identity": "Official exact-model support link andPDFbody;misleading G3metadata ignored.",
+    "status": "Historical firmware limitations saved;no installation/device test."
+  },
+  "discovery_ms100bt_frontier_20261018": {
+    "queries": [
+      "site:shopee.co.id Zoom MS100BT",
+      "site:shopee.co.id Zoom MS-100BT",
+      "site:shopee.co.id Korg AX2000G",
+      "site:shopee.co.id DigiTech BP200",
+      "site:shopee.co.id Zoom G2.1Nu efek",
+      "site:shopee.co.id Zoom 606 efek",
+      "site:shopee.co.id Line 6 M9 efek",
+      "site:shopee.co.id Korg AX5B"
+    ],
+    "result": "No new qualified exact hardware offer. MS100BT/AX2000G/AX5B empty;BP200 adapter only;Hope Music mixed-model minimum andZoom606/607 search aggregation unresolved;Line6 general list unrelated.",
+    "rejected_adapter": "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-VL3G-Vocalist-Live-3-EX-MC2-Talker-S100-RP3-GNX1-BP200-AC-Power-Supply-i.16626959.4486100964",
+    "not_market_coverage": true
   }
 }

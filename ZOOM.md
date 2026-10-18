@@ -4229,6 +4229,15 @@ Checked2026-10-18. Older manufacturer page andoriginal patch list resolve earlie
 | I/O / mass and power corroboration | Manufacturer specifies **2×¼-inch inputs,2×¼-inch outputs**,active/passive andline-level sources. **360g excludes batteries**. Product also specifies2AA alkaline/NiMH;this corroborates specification-section2AA while preserving the contradictory4AA safety text. [Original product][M100BT-O] |
 | Editor / current listing versus operation | US App Store lists Zoom Corporation StompShare **1.1.0.36,2016-05-24,iOS8+**,English/Japanese. Older product saysiOS4.3+;these describe different software dates. Web listing observed,not installation,regional Indonesian availability orworking Bluetooth transfer verification. Desktop editor support remains unresolved. [Zoom app listing][M100BT-A];[Original product][M100BT-O] |
 | Bass / downloadable processing | Zoom's developer-authored March2014 release notes add aBass category and9bass amps plus1bass effect;June2013 notes add5bass modulation types. Qualifies as shared bass-capable **with appropriate effects loaded**,not proof of factory bass models orpresent download service operation. [Zoom app release notes][M100BT-A] |
+
+### MS-100BT — firmware restrictions
+
+Checked2026-10-18 against exact-model manufacturer firmware history Z2I-1866-01. The PDF metadata title saysG3, butits body explicitly identifies MS-100BT;model identity follows the body andofficial MS-100BT support link.
+
+| Field | Finding / qualification |
+|---|---|
+| Firmware / bass loading and reliability | **Version1.30,July2013** fixes failure touse StompShare-downloaded bass effects,rare effect disappearance atstartup andrare update failure. Bass membership therefore requires suitable loaded effects **and compatible firmware**;not aclaim that every original unit supports downloaded bass effects correctly. [Firmware history][M100BT-H] |
+| Firmware / LineSel and battery startup | **Version1.10,January2013** fixes LineSel switching with Bomber/MonoSynth andintermittent battery startup failure. Original mass-production version1.00 datesNovember2012. These are documented historical defects/fixes,not observed failures ofan inspected unit. [Firmware history][M100BT-H] |
 <!-- comparison evidence ends -->
 
 [M100BT-P]: https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-100bt/
@@ -4239,3 +4248,5 @@ Original manufacturer manual©2012. Text audit only;no device/software execution
 [M100BT-O]: https://www.zoom.co.jp/node/65
 [M100BT-F]: https://zoomcorp.com/media/documents/MS-100BT_FX-list_English.pdf
 [M100BT-A]: https://apps.apple.com/us/app/stompshare/id567649359
+
+[M100BT-H]: https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/MS-100BT_ver130_en.pdf
