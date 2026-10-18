@@ -493,9 +493,37 @@ Distinct acoustic-guitar multi-effects, checked 2026-10-18; partial. [Manufactur
 
 Original Yamaha-hosted PDF read as browser text; no file downloaded, device operated or software installed. Do not borrow DG-Stomp specifications. Expression mappings and original patch initialization are documented above; complete physical/absence checks and remaining software/price gaps stay unresolved.
 
+## Magicstomp original Guitar
+
+Checked 2026-10-18; partial. Original Guitar edition only. [Own Yamaha manual](https://ca.yamaha.com/files/download/other_assets/7/334107/magicstomp_en.pdf), pp7–12,24,26,29. Multi-effects eligibility follows its amp/effects architecture; p10 explicitly supports guitar, bass and line-level instruments. Price gaps do not exclude eligible hardware.
+
+<!-- comparison evidence begins -->
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression | Built-in/external/toe support unverified; no EXP socket in published connection inventory. |
+| Knobs / footswitches / buttons | **4 /3 /1**; three parameter knobs plus Volume;−,+,On/Off feet;STORE button. HIGH/LOW slider separate; text census. |
+| Display | **16×2 backlit character LCD**; diagonal,color,touch unverified. |
+| Processing / choices | Amp simulation,distortion and VCM modulation; full category counts and maximum concurrency unresolved. Effect-list revision boundary retained below. |
+| Memory | **99 preset+99 user=198**; user area initially duplicates factory patches. |
+| Synth / acoustic | Synth input compatibility does not prove synthesis. Acoustic conversion scope unverified. |
+| Dimensions / mass | **164W×176D×62H mm;910g**. |
+| I/O | Mono INPUT,L/MONO andR outputs,USB,AC IN. Full absence/socket-size audit pending. |
+| Power | AC-10 **12V AC/1A**,12W consumption. DC polarity inapplicable; battery/USB operation unverified. |
+| IR / NAM / capture | User IR,native NAM,converted NAM,proprietary capture import unverified. Patch transfer does not establish these formats. |
+| Editor / data | Sound Editor and USB-MIDI patch transfer. Historical Windows98/Me/2000/XP; Mac editor8.6–9.22 versus driver8.5–9.22/OMS2.3.8. Current OS support and USB audio unverified. |
+| Looper / drums / scenes | Unverified; patch selection is not scene memory. Chromatic tuner documented. |
+| Used IDR | Unknown; no exact condition-qualified Shopee item resolved. |
+| New IDR | Unknown; seller/item,stock,region,variant,bundle,warranty,voucher unresolved. No foreign-price conversion. |
+
+<!-- comparison evidence ends -->
+
+[Earlier primary-manual and revision-qualified discovery evidence](#magicstomp-original-guitar--primary-manual-lead) remains below; original historical discovery status is superseded by this active record. No sibling specifications substituted.
+
+
 ## Magicstomp — separate-edition discovery leads
 
-Checked2026-10-18;**not active model rows orcounts**. [Yamaha manual library](https://usa.yamaha.com/support/manuals/index.html?c=&k=magicstomp&l=en) lists separate **Guitar Effects Processor**,**Guitar MK2**,**Acoustic** and**Bass** manuals,plus edition-specific effect/patch lists andeditordocuments. Do not combine capacities,algorithms,ports orsoftware requirements across editions.
+Initial discovery checked 2026-10-18. **Original Guitar is now active above; MK2, Acoustic and Bass remain separate discovery leads outside active counts.** [Yamaha manual library](https://usa.yamaha.com/support/manuals/index.html?c=&k=magicstomp&l=en) lists separate **Guitar Effects Processor**,**Guitar MK2**,**Acoustic** and**Bass** manuals,plus edition-specific effect/patch lists andeditordocuments. Do not combine capacities,algorithms,ports orsoftware requirements across editions.
 
 Primary source routes for exact-edition follow-up:
 
@@ -508,7 +536,7 @@ FreshShopeequeries Yamaha+Magicstomp,MagicStomp,MagicStompUB99 andMagicStompwith
 
 ### Magicstomp original Guitar — primary-manual lead
 
-[Original Guitar manual,Yamaha Canada](https://ca.yamaha.com/files/download/other_assets/7/334107/magicstomp_en.pdf),31PDFpages,printedpp7–13,24,26,29;text inspected. USAURL403;no byte-equivalence orvisualinspection claim. Stilldiscovery-only,notanactivecount.
+[Original Guitar manual,Yamaha Canada](https://ca.yamaha.com/files/download/other_assets/7/334107/magicstomp_en.pdf),31PDFpages,printedpp7–13,24,26,29;text inspected. USAURL403;no byte-equivalence orvisualinspection claim. Initial discovery-only status is superseded by the original Guitar active record above.
 
 | Field | Original-edition finding / qualification |
 |---|---|
