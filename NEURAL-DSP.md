@@ -145,3 +145,9 @@ Preserved from origin/main87c7d38. References to older inventory counts or incom
 ### Remaining tasks
 
 Verify on NanOS 2.2.0 whether LEVEL in the expression target list refers to final main-output gain, establish assignment storage scope explicitly, test changing at least three presets with the pedal held at heel/middle/toe, and separately verify HP behavior. No hands-on test is claimed. Refresh exact Shopee hardware offers, separate used/new IDR, condition and stock. Existing broader specification/price gaps in the legacy record remain unresolved.
+
+### Nano Cortex — lock and bypass distinctions
+
+Checked2026-10-19 against [official NanOS2.2.0 manual](https://neuraldsp.com/manual/nano-cortex), Parameter Lock and Expression Pedal Configuration. **Parameter Lock disables physical rotary operation temporarily**; it does not document locking an expression assignment across presets. Calibration persists until recalibration; assignment persistence remains unspecified in these sections.
+
+Expression **slot bypass** is a separate assignment: SWITCH uses toe switching, STOP bypasses after stillness, HEEL-TOE bypasses at heel with delay up to2000ms. These describe Capture/IR/effect-slot states, **not whether expression LEVEL attenuates audio when slots are bypassed**. LEVEL range is adjustable/reversible0–100%; no final-output mute, headphone coverage orcross-preset guarantee follows from that normalized range. Prior official target-list discrepancy remains unresolved. No downloads orhardware test.

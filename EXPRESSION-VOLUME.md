@@ -59,7 +59,7 @@ Inherited incoming evidence: the six rows added during2026-10-19 reconciliation 
 
 Ampero Mini: [manufacturer firmware V2.2 manual](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf), printed pp4–5,13–20, inspected 2026-10-19. Full older source/price qualifications remain in HOTONE.md. “Not established” is not proof that every factory preset requires editing; factory defaults and a global exception remain unverified. Global EXP socket mode is distinct from assigning volume. V1.0's post-volume wording remains historical; V2.2 allows Pre/Post.
 
-Nano Cortex: [manual 2.2.0](https://neuraldsp.com/manual/nano-cortex) includes LEVEL; [official setup article](https://neuraldsp.com/getting-started/using-midi-on-nano-cortex) omits it. Neither proves global assignment scope. Checked 2026-10-19; no hardware test.
+Nano Cortex: [manual 2.2.0](https://neuraldsp.com/manual/nano-cortex) includes LEVEL; [official setup article](https://neuraldsp.com/getting-started/using-midi-on-nano-cortex) omits it. Neither proves global assignment scope. Parameter Lock only disables rotary operation; expression slot-bypass modes do not prove LEVEL attenuation during bypass. Checked 2026-10-19; no hardware test.
 
 ## Controller wiring — separate from processor qualification
 

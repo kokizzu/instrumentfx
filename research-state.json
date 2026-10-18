@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "Ampero Mini V2.2 volume-enable persistence",
-    "finding": "Explicit CTRL EXP Target VOLUME switch belongs to patch-changing control settings; global socket mode does not override target. Factory defaults and global exception unverified.",
+    "current": "Nano Cortex2.2 lock/bypass follow-up",
+    "finding": "Parameter Lock is physical rotary lock, not expression assignment persistence. Slot bypass modes separate from LEVEL attenuation coverage; global scope remains unverified.",
     "next": [
-      "Nano Cortex2.2 LEVEL target persistence and exact global override search",
+      "Priority follow-up: Valeton GP-50 exact current firmware/manual global EXP assignment and qualified Shopee hardware",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
