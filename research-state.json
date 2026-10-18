@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC Electronic M350",
-    "task": "Saved routingdependentfixedmix andlinkedanalog/digitalgainranges;diagramrenderfailed,buttoncountstillunknown. Next freshShopeediscovery orremainingdisplay/editor/qualifiedprice gaps.",
+    "model": "DigiTech RP500",
+    "task": "Saved XLRspeakercompversusquarterinchAmpMixer,phonesrecommendation,powerswitchabsence andtunerrange. Next freshShopee discovery orremainingimport/currentOS/qualifiedprices/bodyaxes gaps.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -45606,7 +45606,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Electronic M350."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP500."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -75413,8 +75413,8 @@
     "next": "Fresh Shopee GP-series discovery; GP-100VT manufacturer lead requires exact hardware offer and own-model technical evidence."
   },
   "resume_cursor": {
-    "model": "TC Electronic M350",
-    "task": "Saved routingdependentfixedmix andlinkedanalog/digitalgainranges;diagramrenderfailed,buttoncountstillunknown. Next freshShopeediscovery orremainingdisplay/editor/qualifiedprice gaps.",
+    "model": "DigiTech RP500",
+    "task": "Saved XLRspeakercompversusquarterinchAmpMixer,phonesrecommendation,powerswitchabsence andtunerrange. Next freshShopee discovery orremainingimport/currentOS/qualifiedprices/bodyaxes gaps.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -76019,5 +76019,24 @@
     "gain": "Analog−10..+14dB;digital−18..+6dB;linkedLR",
     "visual": "RemotePDFscreenshotfailedcontenttype/notenabled;buttoncountunresolved",
     "limits": "Gainnotlevelspec;noindependentallalgorithmwetdry"
+  },
+  "rp500_output_tuner_20261018": {
+    "source": "https://digitech.com/wp-content/uploads/2022/09/RP500_OM_EN.pdf",
+    "pages": [
+      2,
+      7,
+      8
+    ],
+    "findings": "XLRalwaysspeakercomp;quarterinchAmpMixer;XLRpin1lift;phones<=60ohm;noPowerSwitch;tuner427–453default440",
+    "limits": "NoXLRcompbypass/USBpower/headphoneoutputimpedanceinference"
+  },
+  "discovery_rp55_50_350_80_20261018": {
+    "queries": [
+      "site:shopee.co.id digitech rp55",
+      "site:shopee.co.id digitech rp50",
+      "site:shopee.co.id digitech rp350",
+      "site:shopee.co.id digitech rp80"
+    ],
+    "result": "Noqualifiednewhardwaremodel;adapter855783279/22273291654,reverb-onlyDigiverb andnonmusicalmatchesrejected;RP500knownAyxoffersunchanged"
   }
 }

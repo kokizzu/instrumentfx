@@ -239,6 +239,18 @@ Read manufacturer manual/addendum and seller cache as web text; no dependencies,
 [RP5-O3]: https://shopee.co.id/FX-Digital-Digitech-Rp500-i.257384425.27556067083
 [RP5-O4]: https://shopee.co.id/Efek-Gitar-Digitech-Rp500-i.194831039.5554328608
 
+### RP500 — output compensation, power switching and tuner
+
+Checked 2026-10-18 against the [manufacturer manual,printed pp2,7–8](https://digitech.com/wp-content/uploads/2022/09/RP500_OM_EN.pdf),original text only;no download or device operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / output compensation | XLR mixer outputs **always have speaker compensation active**. Amp/Mixer optimizes the quarter-inch outputs for amplifier or mixer use. Keep this output-stage wording separate from preset cabinet models and global Amp/Cabinet Bypass;the manual does not establish that bypass defeats XLR compensation. Ground Lift disconnects XLR pin1 from ground references. |
+| I/O / headphones | Manufacturer recommends headphone impedance **60Ω or less**. This compatibility recommendation is separate from the published13.6mW/channel test into50Ω;neither is headphone output impedance. |
+| Power / switching | No power switch:connecting/disconnecting the PS0913B powers the unit. This does not establish USB-powered operation. |
+| Live / tuner | Hold BYPASS2seconds to enter;output is muted,with expression available for guitar-volume adjustment. Reference **A427–453Hz**,default440. Any footswitch exits. Do not conflate the2second tuner entry with the longer pedal-calibration hold. |
+
+
 ## RP90
 
 Guitar multi-effects;distinct fromRP80/RP55/BP90. Checked2026-10-17;partial. Bass/vocal suitability and ownership unverified. Manufacturer classifies discontinued.
