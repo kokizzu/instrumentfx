@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B1Xon",
-    "task": "Saved converter/analog specifications andbacklight-off battery-runtime condition. USBsubtype/factoryfill/controlvisualaudit remainunresolved;next another required model gap orfreshShopee series.",
+    "task": "Saved text-derived1rotary/8buttons;footswitchtotal remainsuncorroborated. Next differentmodel orShopeeseries rather thanrepeat unavailablepanelvisualaudit. USBsubtype/factoryfill/display remainopen.",
     "next_models": [],
     "after_queue": "353 partial models;294 guitar155 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
@@ -77377,5 +77377,21 @@
       "Display diagonal/color/touch",
       "Actual unitdraw"
     ]
+  },
+  "technical_followup_b1xon_controls_20261018": {
+    "source": "https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf",
+    "page": "4",
+    "knobs": 1,
+    "footswitches": null,
+    "buttons": 8,
+    "basis": [
+      "Parameter knob",
+      "HOME",
+      "MENU",
+      "ENTER",
+      "RHYTHM/LOOPER combinedkey",
+      "Four cursor keys"
+    ],
+    "qualification": "Text-derived complete named rotary/button inventory; footswitch total andvisual audit unresolved;pedalswitch separate."
   }
 }

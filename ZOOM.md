@@ -254,6 +254,13 @@ Checked 2026-10-18 against the explicitly shared [effects list pp17–18](https:
 | Power / runtime qualification | Approximately **20hours with four alkaline AA cells and LCD backlight OFF**. Battery-type setting improves remaining-charge indication; cold can shorten operation. The INPUT cable activates battery operation; AUX goes directly to OUTPUT without effects. No runtime inferred for NiMH,backlight-on operation or an aged used unit. |
 
 
+### B1Xon — text-derived rotary and button census, 2026-10-18
+
+| Field | Supported count / remaining gap |
+|---|---|
+| Knobs / footswitches / buttons | **1 / ? / 8**, derived from the [own shared manual, Part Names p4](https://zoomcorp.com/media/documents/E_B1on_B1Xon.pdf): one Parameter knob; HOME, MENU, ENTER, RHYTHM/LOOPER and four cursor keys (up/down/left/right). ENTER is separately labelled as a key; RHYTHM/LOOPER is one combined key. The extracted footswitch label gives no count, so its total remains unverified here. B1Xon’s pedal switch is additional. This supersedes the preserved all-unknown rotary/button entries; no visual panel audit claimed. |
+
+
 ## G6
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
