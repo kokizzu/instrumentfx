@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee discovery / GX-1 remaining gaps",
-    "task": "GX-1OD/DS35 andDELAY11 verified;ownbass-tuneddrives justifyALL-BASSaddition. Next freshShopeediscovery orremaining exactGX-1COMP/EQ/PEDALFX counts;USBformat/display/usedIDR remainunknown. All388partial,migrationincomplete.",
+    "model": "GX-1 remaining categories / fresh Shopee discovery",
+    "task": "Fresh search saved Vinshop mixedGX-1/GX-1B range withunresolvedvariantmapping;no qualifiedusedGX-1/BP80/B9.1utoffer. Next GX-1COMP/EQ/PEDALFXtables oranotherfreshbrandseriessearch. All388partial;migrationincomplete.",
     "next_models": [],
     "after_queue": "388active47brands;no downloads/workflows/push."
   },
@@ -46335,7 +46335,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery / GX-1 remaining gaps."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume GX-1 remaining categories / fresh Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -120595,5 +120595,28 @@
     },
     "membership_change": "GX-1 added as shared bass-capable on own documented bass-tuned drives/DI,not sibling inference.",
     "source_typo": "DELAY TYPE row sayswah;named rows are delay models."
+  },
+  "shopee_gx1_frontier_20261019": {
+    "queries": [
+      "site:shopee.co.id \"Boss GX-1\" bekas",
+      "site:shopee.co.id \"DigiTech\" \"BP80\"",
+      "site:shopee.co.id \"Zoom\" \"B9.1ut\""
+    ],
+    "new_lead": {
+      "seller": "Vins Music Store",
+      "shop": "31173885",
+      "item": "56104704287",
+      "range_idr": [
+        4743000,
+        5443000
+      ],
+      "visible_variants": [
+        "Gx1 only",
+        "Gx1 + adaptor ori"
+      ],
+      "hidden_variants": 2,
+      "qualification": "MixedGX-1/GX-1B title;noendpoint variantmapping;notexactpriceorstock."
+    },
+    "results": "GX-1retail/soldoutandmixedmodels;no qualifiedusedGX-1, BP80 orB9.1uthardwareoffer inthispass."
   }
 }

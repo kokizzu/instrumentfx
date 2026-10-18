@@ -1438,6 +1438,15 @@ Exact-model parameter tables,checked2026-10-19;editorial type counts,not indepen
 | Bass capability | Own GX-1 OD/DS table explicitly includes BASS OD,X-BASS OD,BASS DS,BASS DI,SA DI DRIVE,HI BAND DRV,BASS MT,BASS FUZZ;several descriptions explicitly specify bass tuning. This establishes shared bass-processing membership,not equivalence to GX-1B orits amps/cabinets. |
 | Processing / dedicated delay census | [DELAY](https://static.roland.com/manuals/gx-1_parameter/en-US/366780811366918027.html) lists11types:STANDARD,MODULATE,PAN,REVERSE,ANALOG,ANLG MOD,SPACE ECHO,SHIMMER,WARP,TWIST,GLITCH. PAN explicitly uses stereo output. The TYPE description incorrectly says wah;count derived from named delay rows. FX-slot delay subtype equivalence remains unverified. |
 
+
+### GX-1 — additional seller variation lead
+
+Checked2026-10-19;month-old cached body,not checkout.
+
+| Field | Evidence / qualification |
+|---|---|
+| IDR / unresolved mixed-model variation lead | [Vin’s Music Store,Depok;shop31173885/item56104704287](https://shopee.co.id/-Ready-Stock-Boss-GX-1-prosesor-efek-gitar-listrik-dan-gx1b-bass-multi-efek-multy-effect-gx1-gx1-b-Boss-Original-i.31173885.56104704287) shows **Rp4.743.000–Rp5.443.000** across variations. Visible labels Gx1 only/Gx1+adaptor ori plus two hidden choices;title also namesGX-1B. Neither endpoint assigned toan exact variant:excluded from verified new/used GX-1 price. ReadyStock title andrelative delivery are not current stockproof. Condition,adapteridentity,warranty,region,shipping,tax,vouchers andcheckout total unverified;late-delivery compensation isnot a discount. |
+
 <!-- comparison evidence ends -->
 
 [GX1-P]: https://www.boss.info/global/products/gx-1/
