@@ -75,6 +75,17 @@ Bass-focused multi-effects; v2 only. Distinct from original Bass Fly Rig and gui
 | Used | Unknown; no exact qualified Shopee Indonesia hardware offer. | — |
 | New | Unknown; no exact qualified Shopee Indonesia hardware offer. | — |
 
+
+### Bass Fly Rig v2 — loop placement and octave architecture
+
+Checked2026-10-18 against the [exact manufacturer v2 manual][BFR2-M],printed pp1–2,5–7.
+
+| Field | Manufacturer qualification |
+|---|---|
+| I/O / loop placement and bypass | Manual explicitly places Send/Return **post-SansAmp,pre-effects**. Quarter-inch output is unity gain inbypass andremains low-impedance forlong cables. These statements do not establish arbitrary block reordering ortrue bypass. |
+| Processing / octave architecture | Octave divider halves input frequency andproduces a **digital square-wave signal**,then filters it. Manufacturer warns the division can be glitchy andsuggests compression tohelp tracking. The previously documented monophonic restriction remains. Analog FET/SansAmp descriptions do not establish an all-analog complete processor. |
+| Live / overload check | If Chorus’s red clipping indicator stayslit with all effects off,the manual recommends input pad;otherwise reduce the active Comp/SansAmp level. Occasional peak flashes are distinguished from continuous clipping. This diagnostic does not establish numerical headroom oroutput-power ratings. |
+
 <!-- comparison evidence ends -->
 
 Shopee searches for “Bass Fly Rig” and “bass flyrig” on 2026-10-17 did not resolve an exact Indonesian hardware seller/item. This is not proof of market absence. Seller/item, condition, stock, region, revision, bundle, adapter, warranty and voucher remain unverified. No foreign currency conversion or sibling-model offer substituted.
