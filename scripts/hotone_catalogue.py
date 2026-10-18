@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(hotone): qualify MP-350 tuner and pedal calibration'))
+    print(git('commit','-m','research(hotone): document MP-350 capture target limitations'))

@@ -887,6 +887,16 @@ Checked2026-10-18 by summing the named,revision-qualified inventories above,from
 | Expression / calibration sequence | Manual confirms raised/depressed travel withNEXT andaddsstrong-toepress forbuilt-in pedal;externalEXP3 skipsstrongpress. Failedcalibration offersREPEAT. Adjustable numerictoe-pressurethreshold notestablished. |
 | I/O / headphone compatibility | Manual discourages headphones withbuilt-in microphones:TRRS wiring differences maypreventcorrectrecognition. This is aconnectorcompatibility caution,not proofthatallTRRSheadsets fail. |
 
+
+### MP-350 — capture targets and NAM access qualification
+
+Checked2026-10-19 against Hotone Japan exact-model/regional documentation;no capture,conversion,software ordevice operations.
+
+| Field | Evidence / qualification |
+|---|---|
+| Captures / Tone Catch target limitations | [Exact MP-350 page](https://www.hotone.jp/brands/hotone/products/ampero-ii) describes capturing amps,cabinets,drive pedals,boosters orcombinations. It excludes modulation/delay/reverb andclean-blended pedals(exampleTS-style drive);separatecompressor/EQ capture not recommended. Preserve these published limitations,not a claimthatanypedal canbecaptured. This ToneCatch description isnot an auditoflaterSoundClone compatibility. |
+| NAM / exact regional announcement | [2026-08-18 status page](https://www.hotone.jp/announcements/nama2allbrand) nowdirectlyreadable;explicit MP-350nativeA2Lite fromfirmware1.4.0 corroborates earlierindexed evidence. Fullarchitecture/file-size limits andarbitraryNAM supportremainunverified;nativeLite andearlierSoundCloneconversion remainseparate. |
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

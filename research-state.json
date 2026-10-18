@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Hotone MP-350 current revision / fresh discovery",
-    "task": "V1.0.2tunerreference/monitoring/headphonecompatibility/calibration saved. Next independentcurrentrevision evidence forMP-350or freshShopeediscovery;historicalcontrols/memoryalreadyresolved byownmanual,do not re-research asunknown.",
+    "model": "Fresh Shopee discovery / manufacturer gaps",
+    "task": "MP-350ToneCatchcaptureexclusionssaved;regionalnativeA2Liteannouncementdirectaccessverified. Next freshShopeebrandseriesdiscovery oranotherunresolvedmodel;avoidunchangedMP-350NAMpaths withoutnewdocumentation. All388partial;migrationincomplete.",
     "next_models": [],
-    "after_queue": "388active47brands;allpartial,migrationincomplete;no downloads/workflows/push."
+    "after_queue": "388active47brands;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -46335,7 +46335,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Hotone MP-350 current revision / fresh discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery / manufacturer gaps."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -121054,5 +121054,16 @@
       "TRRSheadsetrecognitioncaution"
     ],
     "remaining": "Currentfirmwarefullreconciliation/powerconflict/exactusedIDR notresolved."
+  },
+  "mp350_capture_scope_20261019": {
+    "sources": [
+      "https://www.hotone.jp/brands/hotone/products/ampero-ii",
+      "https://www.hotone.jp/announcements/nama2allbrand"
+    ],
+    "findings": [
+      "ToneCatch target/exclusionlimitations saved",
+      "NAMstatuspage directaccess recovered;existingnativeLiteclaim corroboratedwithoutbroadening"
+    ],
+    "remaining": "CurrentSoundCloneversusToneCatchrestrictions notassumedequal;arbitraryNAMconstraintsunknown."
   }
 }
