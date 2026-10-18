@@ -3683,15 +3683,15 @@ Distinct guitar multi-effects model, not G2.1u or G2Nu. Manufacturer identity: [
 | K/F/B | **4/2/8**, detailed own-manual derivation below;not inherited from G2.1u. |
 | Display | LCD; diagonal,color,touch unverified. [Specifications p50][ZNU-M] |
 | Dimensions / mass | **260W×169D×67H mm;1300g without batteries**. [Specifications][ZNU-M] |
-| Processing / choices | **83 types;maximum8 simultaneous modules**. Full per-category census unresolved. [Specifications][ZNU-M] |
+| Processing / choices | **83 types;maximum8 simultaneous modules**. Category census and79-versus83 discrepancy documented below. [Specifications][ZNU-M] |
 | Factory / user memory | **100 preset+100 user** (10×10 each);initial user fill unverified. [Specifications][ZNU-M] |
-| Synth / acoustic | Dedicated algorithms unverified. |
+| Synth / acoustic | **Aco.Sim acoustic simulator verified** below;dedicated synth unverified. |
 | I/O | Mono input;stereo line/headphone output;FP02/FS01 control input;USB. Connector details/exhaustive panel audit pending. [Specifications][ZNU-M] |
 | Power / battery / USB | **9VDC center-negative500mA AD-16;USB bus power;4AA alkaline≈6.5h at LOW backlight**. Adapter rating,not measured draw. [Specifications][ZNU-M] |
 | Conversion | **96kHz;24-bit ADC/DAC64×oversampling;32-bit processing**. USB stream is separately documented below. [Specifications][ZNU-M] |
 | IR / NAM / capture | Native/converted NAM,userIR andcapture import unverified. |
 | Editor / platforms | **Edit&Share Windows/Mac** listed separately from firmware1.10,USB subsystem andASIO drivers. Current OS/CPU support unverified;legacy driver labels mention XP/Vista/7/8. [Own support][ZNU-S] |
-| Looper / drums / live | Looper duration and DELAY restriction verified below;rhythm pattern count andpersistence unresolved. [Manual contents][ZNU-M] |
+| Looper / drums / live | Looper duration and DELAY restriction verified below;40 rhythm entries verified below;persistence unresolved. [Manual contents][ZNU-M] |
 
 ### Separate IDR hardware evidence
 
@@ -3714,6 +3714,18 @@ Checked2026-10-18 against [manufacturer-authored manual copy][ZNU-C], pp6–7,13
 | Looper / recording limits | Approximately **5seconds**,with overdubbing. Activating looper disables **DELAY**. Recording can stop manually orafter tempo-derived note duration;rhythm can play concurrently. |
 | Looper / erasure | Turning recording-time or tempo knob after recording **erases the phrase**. MIX adjusts phrase volume0–100. Persistence across power/preset changes unverified. |
 | Power / eco behavior | With eco enabled,≈25minutes unused enters standby;guitar input prevents entry but is ignored once asleep. Any control operation wakes it. |
+
+
+### G2.1Nu — category census and acoustic simulation
+
+Checked2026-10-18 against [manufacturer-authored manual][ZNU-C], pp34–48,49,51. Counts are a manual-derived census,not an independently confirmed installed-firmware library.
+
+| Field | Evidence / qualification |
+|---|---|
+| Categories / choices | **COMP3;EFX9;ZNR3;DRIVE30;EQ1;MODULATION21;DELAY5;REVERB7**. EQ Lo/Hi edit one six-band module. DRIVE comprises29 shared-parameter amp/distortion entries plusAco.Sim;not30 amps. REVERB includes EarlyRef andMultiTapD. |
+| Processing / count discrepancy | Category entries total **79**,versus published **83 types**. TOTAL provides patch level,RTM andname settings;looper is separate. Whether these explain the difference is unverified;do not silently change the manufacturer total orclaim a reconciled83-entry census. |
+| Synth / acoustic | **Aco.Sim** explicitly makes electric guitar sound acoustic,with Top/Body controls. Cry is talking-modulator-like;RingMod andpitch effects do not establish a dedicated oscillator synth. Synth remains unverified. |
+| Drums / rhythm choices | **40 numbered rhythm entries**,including metronomes;not40 drum kits. **Rhythm mode disables REVERB**,independently ofthe looper disablingDELAY. |
 
 <!-- comparison evidence ends -->
 
