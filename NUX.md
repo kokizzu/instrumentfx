@@ -464,6 +464,17 @@ Checked2026-10-18 in the [manufacturer-authored Version2.0 manual](https://manua
 | Price / condition-unverified additional IDR | **Rp3.400.000**,seller **Mc Garage Corner**,KotaTasikmalaya,shop225995566/item43553846834. [Exact MG-30 hardware listing](https://shopee.co.id/Nux-MG-30-Digital-Multi-Effects-Nux-MG-30-Fx-i.225995566.43553846834),direct readable five-month cache;stale16May delivery. Condition,stock,variant,working state,firmware,adapter,NMP-2,bundle,warranty,voucher,shipping/tax andtotal unknown. Not assigned to used/new verified columns;not a market range. |
 
 
+
+### MG-30 — additional manufacturer qualifications, 2026-10-19
+
+| Field | Evidence / qualification |
+|---|---|
+| Conversion / source distinction | [Exact global manufacturer page](https://nuxaudio.com/product/mg30/) explicitly states **32-bit two-channel AD/DA converters**. This supplements the older manual's A/D-only table;it doesnot establish USB word length orfloating-point recording. |
+| Processing / IR and amp parameters | Same manufacturer page lists **8bass cabinet IRs**,and factory cabinet-miking **8mics/3positions**. Valve-amp BIAS adjustment excludes cathode-biased power amps;not every amp model offers it. |
+| Live / external stomp application | Manufacturer describes NMP-2 Lite plusCTRL controlling3signal blocks,with delay/reverb trails when disengaged. This is a documented stomp application,not a separate Stomp Mode oruniversal preset-change spillover guarantee. |
+| Price / rejected mixed-model range | [99 MUSIC GALLERY,shop779752300/item19809167109](https://shopee.co.id/Efek-Gitar-Guitar-Nux-MG-30-MG-300-MK-II-MK-2-MG-400-MG-30-Original-Modelling-Processor-Digital-i.779752300.19809167109),KotaJakartaUtara:direct last-month cache lists **3variations,Rp8.829.000–15.929.000**,title mixesMG-30/MG-300MKII/MG-400. Noselected-model price established;neither endpoint assigned toMG-30. Condition,stock,selectedbundle,warranty,voucher anddeliveredtotal unknown;5–7Sepdelivery stale. |
+
+
 <!-- comparison evidence ends -->
 
 ### Preserved shared-source MG-30 fields
