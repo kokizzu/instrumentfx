@@ -2072,3 +2072,29 @@ Guitar/bass multi-effects;partial,checked2026-10-18. Distinct fromP2/M1. [Own ma
 Primary-source follow-up checked 2026-10-18: [MOOER manual, V01.2022.01.19, manufacturer-authored distributor copy](https://images.static-thomann.de/pics/atg/atgdata/document/manual/540480_me_p1_manual_en.pdf), printed pp.3–9; [MOOER Chinese P1 page](https://cn.mooeraudio.com/product/33.html). Manual identity matches P1 title, MOOER publisher and model-specific layout. CONTROL LED colors identify A/B/C/D; brightness follows volume, slow blinking warns of low battery; charge LED is red while charging and green when complete. These indicators do not establish a screen diagonal or touchscreen. Factory fill, category census, simultaneous processing ceiling and audio format remain unresolved.
 
 Effect-library audit checked 2026-10-18: [manufacturer-authored 20-page P1 manual copy, Tone appendix, PDF pp.11–18](https://manuals.plus/m/74886333f5e36da9aaac03cf0f48cb0ed9079e08ef0dd6aececf97a5419f50d1_optim.pdf). Title, publisher address, P1 controls and electrical specifications match the shorter manufacturer manual. Extracted glyphs are shifted; category numbering was read from the PDF text, not from the mirror’s summarized “Various” rows. DYNA has four entries numbered 19–22, not evidence of 22 dynamics choices. The seven lists total 117, nine fewer than the advertised 126; no unsupported missing models were invented. These counts describe the appendix’s guitar library, not the later 73-effect bass firmware, memory slots or simultaneous blocks. MOD includes pitch and ring processing, which alone do not verify a synth engine. App bank capacity and factory-filled memory remain unresolved.
+
+## GE300 Lite
+
+Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no sibling specifications adopted. [Own product page](https://www.mooeraudio.com/product/GE300Lite-239.html). Bass/vocal suitability remains unclassified.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Two external expression inputs,shared with AMP CTRL;built-in treadle/toe support unverified. |
+| K/F/B | Rotary/button totals unverified;**eight footswitches**,assignable functions/colors. |
+| Display | Diagonal,color/touch unverified. |
+| Processing / categories | **13 blocks;108 amp models,164 effects,43 factory cabinets**. Exact category census andsimultaneous DSP ceiling unverified. |
+| Memory | Page says **255 preset banks**;presets-per-bank,total writable/factory-filled separation unverified. |
+| Synth / acoustic | Synth engine anddedicated acoustic simulation unverified;GUITAR Tone Capture is anEQ-character capture,not proof ofeither. |
+| Dimensions / mass | Unverified;do notborrow GE300 measurements. |
+| I/O | Guitar/line input,stereo-mini AUX,two1/4-inch outputs,1/4-inch stereo phones,two balancedXLR withgroundlift,EXP1/2,MIDI IN/OUT-configurable port,USB-B,DC. FXloop called **stereo** inoverview but **mono** inconnector list;retain conflict. |
+| Power | Voltage,current,polarity,batteries/USBpower unverified. |
+| Editor / platforms | Mac/Windows editing,preset transfer,IR loading,firmware updates andUSB audio documented;OS versions,driver/channel/format limits unverified. |
+| IR / NAM / capture | Third-party IR≤2048samples;Tone Capture AMP/GUITAR/CAB modes. [Own downloads](https://www.mooeraudio.com/companyfile/GE300-Lite-Downloads-150.html): **V5.0.3,2026-08-04**,NAM A1/A2 load throughconverter intoAMP only;not evidence ofnativeNAM execution. |
+| Looper / practical | **30-second stereo looper**,storable sessions;adjustable tuner. Drum/scenes/spillover unverified. |
+| IDR price | Noqualified exactShopeehardwareoffer fromGE300Lite/GE300 Lite queries. Used/new,seller/item,condition,stock,bundle,warranty/voucher unknown. |
+
+<!-- comparison evidence ends -->
+
+Firmware qualification: own downloads labels **V5.0.2,2026-01-05** as a factory-resetting major update,with startup black-screen andEXP FXloop-mix fixes. Backups are required by those notes; no update performed. Installed firmware andpreset compatibility remain unverified.

@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 374,
+  "active_model_count": 375,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 374,
+  "canonical_root_model_count": 375,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "374 unique active/root-canonical;0 legacy-only;46 brands;six excluded;all partial.",
+  "count_reconciliation": "375 unique active/root-canonical;0 legacy-only;46 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh discovery / required-field verification",
-    "task": "Saved exact NUX B-8 scope screening: wireless/utility system is not established as an eligible multi-effects processor. Continue other missing-model series discovery; do not count B-8 or its offers as processor coverage. Existing model gaps remain open.",
+    "model": "MOOER GE300 Lite",
+    "task": "Added distinct Lite with own product/download evidence. Next own manual for dimensions,power,controls,display,memory andFXloop mono/stereo conflict;no GE300 sibling substitution. Exact Shopee offers stillunverified.",
     "next_models": [],
-    "after_queue": "374 active models,46 brands,all partial; compatibility migration incomplete; no downloads/workflows/push."
+    "after_queue": "375 active models,46 brands,all partial; compatibility migration incomplete; no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -5490,6 +5490,14 @@
       "checked_date": "2026-10-18",
       "status": "partial",
       "finding": "Exactguitar/bassmodel added;pagebatteryconflict anddesktop/mobile distinction retained;noqualifiedShopeeoffer."
+    },
+    {
+      "model": "MOOER GE300 Lite",
+      "destination": "MOOER.md#ge300-lite",
+      "source": "https://www.mooeraudio.com/product/GE300Lite-239.html",
+      "checked_date": "2026-10-18",
+      "status": "partial",
+      "finding": "Distinct exact-model processor added;FXloop mono/stereo wording conflict andconvertedNAM qualification retained. NoqualifiedShopeeoffer."
     }
   ],
   "consolidation_and_price_findings": [
@@ -24758,7 +24766,8 @@
       "Ocean Machine II",
       "GS1000 Li",
       "Ocean Machine original",
-      "Prime P1"
+      "Prime P1",
+      "GE300 Lite"
     ],
     "M-VAVE": [
       "TANK-G",
@@ -25128,7 +25137,8 @@
       "Ocean Machine II",
       "GS1000 Li",
       "Ocean Machine original",
-      "Prime P1"
+      "Prime P1",
+      "GE300 Lite"
     ],
     "HOTONE.md": [
       "Ampero One MP-80",
@@ -25532,7 +25542,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 311,
+      "record_count": 312,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -25562,10 +25572,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 311 guitar, 163 documented bass-capable, 70 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 312 guitar, 163 documented bass-capable, 70 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "374 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "375 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -45998,10 +46008,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 374,
-    "canonical_root_models": 374,
+    "unique_brand_model_pairs": 375,
+    "canonical_root_models": 375,
     "legacy_only_models": 0,
-    "guitar_view_models": 311,
+    "guitar_view_models": 312,
     "bass_focused_models": 38,
     "vocal_only_models": 25,
     "vocal_view_models": 70,
@@ -46090,7 +46100,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery / required-field verification."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER GE300 Lite."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -46213,6 +46223,7 @@
       "MOOER::GS1000 Li",
       "MOOER::Ocean Machine original",
       "MOOER::Prime P1",
+      "MOOER::GE300 Lite",
       "M-VAVE::TANK-G",
       "M-VAVE::TANK MINI",
       "M-VAVE::MK-20",
@@ -47834,6 +47845,13 @@
     },
     "MOOER::Prime P1": {
       "link": "MOOER.md#prime-p1",
+      "source_files": [
+        "MOOER.md"
+      ],
+      "finding_files": []
+    },
+    "MOOER::GE300 Lite": {
+      "link": "MOOER.md#ge300-lite",
       "source_files": [
         "MOOER.md"
       ],
@@ -81613,5 +81631,17 @@
       ],
       "offer_limits": "Condition,working state,selected bundle,warranty,authenticity,checkout and delivered total unverified. Rp10000 late-delivery compensation not a discount. No eligible-model price range created."
     }
+  },
+  "discovery_ge300lite_20261018": {
+    "queries": [
+      "site:shopee.co.id \"Mooer\" \"GE300 Lite\"",
+      "site:shopee.co.id \"GE300Lite\"",
+      "site:shopee.co.id \"GE300\" \"Lite\" efek"
+    ],
+    "result": "No qualified exact hardware offer. Manufacturer exactmodel establishes eligibility;no sibling/foreign price substituted.",
+    "sources": [
+      "https://www.mooeraudio.com/product/GE300Lite-239.html",
+      "https://www.mooeraudio.com/companyfile/GE300-Lite-Downloads-150.html"
+    ]
   }
 }
