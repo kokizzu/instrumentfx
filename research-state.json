@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "Read exact manual for control counts,external expression,loop wiring,memory,USB audio andcategory choices;preserve overview stereo-loop ambiguity.392partial;migration incomplete.",
+    "task": "GT-Pro rear I/O priorities,externaldefaults andsynth evidence saved. Next exact loop stereo-pair routing,USB format,control counts,memory andcategory census;use readable original-body mirror if required,not repeated oversizedPDF.392partial;migration incomplete.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -121333,5 +121333,21 @@
       "site:shopee.co.id \"Digitech\" \"GNX2\""
     ],
     "result": "No qualified unrecorded Shopee hardware;GNX adapters rejected. Manufacturer confirms missing eligible GT-Pro;added separately without invented IDR."
+  },
+  "gtpro_rear_synth_20261019": {
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+      "https://www.boss.info/de/products/gt-pro/",
+      "https://www.boss.info/us/community/boss_users_group/806/?lang=en-US"
+    ],
+    "access": "Original manual indexed p13;full reader size limit.Regional manufacturer andBOSS-hosted article text.",
+    "resolved": [
+      "front input priority",
+      "unprocessed directout",
+      "fixed+4dBuSUBXLR unaffectedbySUBlevel",
+      "EXP1defaultvolume,EXP2unassigned",
+      "Guitar/WaveSynth explicit,30drive6wah"
+    ],
+    "conflict": "Community article output naming differs frommanual;manual retained.Three independently stereo loops unproven."
   }
 }

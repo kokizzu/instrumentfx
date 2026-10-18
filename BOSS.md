@@ -3820,3 +3820,17 @@ Checked 2026-10-19;partial. [Exact manufacturer product/specification](https://w
 | IDR condition-unverified ask | Unknown. Exact Shopee GT-PRO search returned unrelated products;no qualified seller/item hardware offer. Condition,stock,bundle,warranty,region,voucher unverified. |
 
 Text evidence only;no files,firmware,software ordependencies downloaded orrun.
+
+### GT-Pro — rear-panel and regional processing qualifications
+
+Checked 2026-10-19. [Original manufacturer manual](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf), copyright2005 BOSS, exact GT-PRO title; indexed printedp13 inspected. Full reader rejected11.46MB size; no full PDF/image review.
+
+| Field | Manual evidence / qualification |
+|---|---|
+| I/O / input priority | Front and rearINPUT cannot be used simultaneously;front input takes precedence. DIRECT OUT/TUNER OUT passes input unprocessed. |
+| I/O / output level behavior | MAIN/SUB quarter-inch outputs are unbalanced. Balanced SUBXLR outputs remain fixed **+4dBu**,unaffected bySUBvolume knob orSUB OUTLevel. Ground-lift disconnects pin1 from inputground. |
+| Expression / external defaults | EXP1 defaults to footvolume;CTL3/4/EXP2 has no factory assignment. Shared socket accepts footswitches or expression pedal,not independent simultaneous inputs. |
+| Synth / category choices | [German manufacturer page](https://www.boss.info/de/products/gt-pro/) explicitly names Guitar/Wave Synthesizer,Auto-Riff,Feedbacker,Slicer;advertises30drive models and6wah models. This supersedes initial synth uncertainty;tracking/polyphony andcomplete current census remain unverified. |
+| I/O / loop wording | [BOSS Users Group article](https://www.boss.info/us/community/boss_users_group/806/?lang=en-US) describes LOOP1/2 mono/stereo,series/parallel/direct-out operation andfixed pre-effect PRELOOP. Its MAIN/SUBXLR naming differs from manual;manual panel names retained. Article doesnot prove three independently stereo physical loops;exact stereo-pair routing remains unresolved. |
+
+No software,firmware orfiles downloaded orrun. USB format,physical controls,memory protection andqualified IDR remain open.
