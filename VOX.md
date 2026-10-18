@@ -427,7 +427,7 @@ Checked 2026-10-17. Partial guitar multi-effects record; distinct from LE/ST/SE.
 |---|---|
 | Expression | Built-in;full-forward activation toggles assigned effect except volume. External EXP/toe mechanism unknown. |
 | Controls | **15 rotary /6 footswitches /12 panel buttons**, derived from numbered manual text. Rotary:13top+2rear;foot:program1–4+BankUp/Down. Pedal activation and2rear switches separate;not visually audited. |
-| Display | Bank/value display;diagonal,color,touch unknown. |
+| Display | Bank/Value **LED** display: bank, edited value and tuner note; lower-right decimal point lights momentarily at the stored parameter value (own manual p7). Diagonal, color and touch remain unknown. [E1 manual](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf) |
 | Processing / choices | **33amps,11cabinets;45effects includingNR**:26pedal(11stand-alone+4Pedal1+11Pedal2),11modulation,4delay,3reverb,1NR. Own product page calls this **44effects+1NR**;same subtotal basis. Up to9simultaneous includingNR/volume. Eleven stand-alone pedals **replace amp**,not ordinary single-function hardware. |
 | Presets | **100factory+100editableuser=200**. |
 | Synth / acoustic | **Pedal2 ACOUSTIC converts electric to acoustic-guitar timbre**;single-coil neck pickup recommended. TECHNO FUZZ combines distortion with synth-like sounds;not proof of a general synthesizer engine. |
@@ -498,6 +498,15 @@ Checked 2026-10-18 against [own E1 manual, pp22–29](https://voxamps.com/wp-con
 | Processing / Pedal2 eleven | VOX V845; BRN OCTAVE; ACOUSTIC; RING MOD; U-VIBE; CLASSIC +; TUBE OD; BLUE DRIVER; GOLD DRIVE; ORG DIST; GERMANIUM FUZZ. |
 | Processing / modulation 11 | CE CHORUS; MULTI CHORUS; FLANGER; ORG PHASE; TWIN TREM; VIBRATO; G4 ROTARY; SLOW ATTACK; PITCH; FILTRON; TALK MOD. |
 | Processing / delay4 and reverb3 | Delay: ANALOG DELAY; TAPE ECHO; SDD DELAY; MULTI DELAY. Reverb: SPRING; ROOM; HALL. Noise reduction separately supplies the45th entry. |
+
+### ToneLab EX — conversion and tuner persistence
+
+Checked 2026-10-18 against [own E1 manual pp30,39](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf); no operation performed.
+
+| Field | Exact-model evidence / limitation |
+|---|---|
+| Processing / conversion | **24-bit A/D;24-bit D/A;44.1kHz**. These unit conversion specifications do not independently establish USB host transport bit depth or channel count. |
+| Live / tuner state | Normal/Strobe mode is selected with EXPRESSION during tuning and persists after power-off. Reference pitch438–445Hz resets to440Hz at power-off. The manual’s Strobe explanation labels both opposite sweep directions as sharp; preserve this textual error without inferring the missing flat-direction label. |
 
 ## StompLab 1B
 
