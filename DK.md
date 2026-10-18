@@ -14,7 +14,7 @@ Checked 2026-10-18. Partial exact-model record. Manufacturer product identity an
 | Processing / choices | **70 effects; up to8 modules,5 removable for customization**. Per-category census and routing restrictions unknown; not70 simultaneous effects. |
 | Factory / user memory | **100 slots,50 factory presets**. Writable/protected partition and initial fill of remaining slots unknown; do not infer100+50. [Q] |
 | Synth / acoustic | Dedicated synthesis/acoustic simulation unknown. |
-| IR / NAM / captures | **512-sample IR resolution; USER slot per patch**. File format, total capacity, native/converted NAM and captures unknown. |
+| IR / NAM / captures | **512-sample IR resolution; USER slot per patch**. DKit1.2.0 release notes explicitly add NAM A1/A2 tone-file import foriE550; native execution versus conversion, supported model architecture and firmware minimum remain unverified. File format,total IR capacity and measured captures unknown. See software evidence below. |
 | I/O | AUX,Bluetooth,one6.3mm TRS input andone6.3mm TRS output supporting headphones. Complete port/MIDI/phantom inventory unknown. |
 | Power / battery / USB | **9VDC500mA,center-negative;USB-C auxiliary power**. Battery unverified; rating is not measured draw. [Q] |
 | Dimensions / mass | **170W×120D×57.5H mm;493g** unit weight. [Q] |
@@ -48,4 +48,16 @@ Offers checked2026-10-18. Stock,selected package,actual condition,adapter/access
 | I/O / input format | Guide specifies mono unbalanced6.35mm TS input; manufacturer product says TRS. Conflict retained. Output is6.35mm stereo TRS/headphones. Extracted impedance symbols are ambiguous; values await visual verification. |
 | Processing / capacity | Guide explicitly specifies maximum8 simultaneous effects, corroborating product module ceiling; category census and movable-slot limits remain separate. |
 | Looper / tuner control | A/B switch presets; combined press opens tuner and combined hold opens looper. Duration,retention,overdubbing andtuner mute remain unknown. |
+
+
+### DKit software and NAM import evidence
+
+Checked 2026-10-18 from the [manufacturer-published Indonesian App Store listing](https://apps.apple.com/id/app/dkit/id6738170601) and [DK technical support index](https://dk-music.cn/cn/col.jsp?id=109). Developer/provider attribution and dk-music.cn links match the manufacturer. No application, firmware or archive downloaded.
+
+| Field | Evidence / limits |
+|---|---|
+| IR / NAM import scope | DKit1.2.0 notes name iE350 andiE550 NAM A1/A2 tone-file import. This is documented import capability,not proof of native NAM DSP, arbitrary .nam compatibility or a specific conversion workflow. Firmware prerequisite remains unknown. |
+| Editor / Apple platforms | Listing requires iOS/iPadOS14.0. Apple-silicon Mac compatibility metadata lists macOS11/M1+,but prominently says not verified for macOS; do not call this a tested desktop editor. DKit provides chain/parameter editing,tone import/export,IR import andbackup. |
+| Editor / release-date limits | Indonesian cached listing labels1.2.0 “2 days ago”;Brazilian cache gives29August,whileJapanese cache stillshows1.1.1. These are regional/cache observations,not proof of a precise current release date or installed version. |
+| Editor / Android and updater distinction | Manufacturer index lists iE350/550 AndroidDKit1.2.1 separately from iE5501.0.9 Mac/Windows firmware packages andNAM-import instructions. These establish listed resources,not Windows/macOS patch-editor support or current compatibility. Full instructions remain unread. |
 
