@@ -269,6 +269,17 @@ Checked 2026-10-18. [Valeton's exact VT page](https://www.valeton.net/product/gp
 Both exact items are historical asks,not completed sales or verified new/used ranges. Working condition,selected variation,adapter/bundle,warranty,authenticity,shipping/tax and checkout voucher eligibility remain unknown. Late-arrival compensation is not subtracted. Aliska Musik's older storefront snippet also showed GP100VT Rp2.200.000, but the reopened [store](https://shopee.co.id/aliskamusikshop) did not expose that item; without exact item identity it is an unresolved lead,not another qualified offer. No local download or visual inspection.
 
 
+### GP-100VT — own USB and analog specifications, 2026-10-18
+
+| Field | Variant-specific evidence / qualification |
+|---|---|
+| USB / GP-100VT stream format | Exact VT manufacturer page specifies **USB2.0 Type-B,44.1kHz recording,16-bit or24-bit support**,with stereo streaming. These are explicitly USB specifications,not inferred from converter resolution. Channel-direction count,USB MIDI,bus power and current mobile-device compatibility remain unverified. [VT source](https://www.valeton.net/product/gp-100vt/) |
+| I/O / GP-100VT analog specifications | Quarter-inch **TS unbalanced** input1Mohm andL/R outputs1kohm;⅛-inch stereoTRS AUX10kohm andphones47ohm. Stereo output means anL/R pair,not balancedTRS outputs. [VT source](https://www.valeton.net/product/gp-100vt/) |
+| Looper / GP-100VT pre-effects behavior | VT page explicitly says changing effects/presets changes the sound of a pre-effects loop. That is reprocessing,not a promise of fixed wet-loop tone,patch-change spillover orpower-off retention. Its90s maximum does not independently certify a45s post-effects VT mode. [VT source](https://www.valeton.net/product/gp-100vt/) |
+
+These findings remain labelled VT within the existing GP-100 variant record;no new model count orinstalled-firmware inference. Previously saved28/29mm height and99/100rhythm conflicts remain open. The Aliska storefront search again produced only the already-saved unbound VT lead;no new exact offer orused/new classification added.
+
+
 ## GP-150
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

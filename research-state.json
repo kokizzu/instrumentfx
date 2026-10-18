@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon VoiceLive Play",
-    "task": "Saved newlyreadableMusicTribe0726AAZmarketingMIDI/loop/block/memoryclaims withmanual/updateconflicts. Next freshShopeeeligiblehardware ormanufacturertechnicalrevision; noMIDIcapabilitypromotionwithoutcorroboration.",
+    "model": "Valeton GP-100VT variant",
+    "task": "Saved ownVTUSBformat/analogratings/preloopreprocessing;variantnotnewmodel. Next freshShopeeeligiblehardware orotherunresolvedmodelgaps;Aliskaleadalreadyrecorded withoutitemidentity,no repeatedpriceadmission.",
     "next_models": [],
     "after_queue": "356 partial models;297 guitar157 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
@@ -45831,7 +45831,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon VoiceLive Play."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton GP-100VT variant."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -78122,5 +78122,22 @@
       "DigiTech RP50"
     ],
     "result": "No qualified newexacthardwareitem. RP350 result wasPSU;others unrelated or existingmodels. Notabsenceproof. ExistingVoiceLivePlayoffersalreadyrecorded;didnotduplicate."
+  },
+  "gp100vt_usb_analog_20261018": {
+    "model": "Valeton GP-100",
+    "variant": "GP-100VT",
+    "source": "https://www.valeton.net/product/gp-100vt/",
+    "checked_date": "2026-10-18",
+    "saved": "USB2TypeB44.1k16/24bitexplicitstereostream;inputTS1MoutputLRTS1kAUXTRS10kphonesTRS47ohm;preloopreprocessing",
+    "limits": "Nostandardmodelinheritance/channelcount/MIDI/buspower/mobilecompatibilityorpostloopVTinference;existingvariantnotnewrecord",
+    "next": "VTfirmware-matchededitor/manual orotherrequiredmodelgaps/freshdiscovery"
+  },
+  "discovery_search_pass_20261018_post_vlp": {
+    "queries": [
+      "MeloAudio MA5",
+      "Hotone Ampero GP200",
+      "Valeton GP100VT"
+    ],
+    "result": "Only existingGP100VTunboundAliskastorefrontlead andexistingmodels;noqualifiednewmodel. ExactVTmanufacturerpage yieldednewUSB/analogqualifications."
   }
 }
