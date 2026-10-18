@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "RP55 exact controller and bypass follow-up",
-    "finding": "Own manual reconfirms TS-only conditional volume;Up/Down preset switches. Clean bypass description does not establish volume attenuation;resistance and coverage unknown, sibling values not transferred.",
+    "current": "B2 FOUR retained output level versus assignment",
+    "finding": "Output Volume Pedal retains level across patches,not proven assignment in patches lacking effect. Pedal Volume separate MIN/MAX0–100 curvesA/B;do not transfer. Foot-operated direction navigation confirmed;coverage unknown.",
     "next": [
-      "Priority follow-up: Zoom B2 FOUR exact expression volume scope and bypass/headphone/looper coverage",
+      "Priority follow-up: IK TONEX Pedal global expression volume position/range and bypass/tail/looper coverage",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
