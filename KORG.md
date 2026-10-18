@@ -603,9 +603,9 @@ Checked2026-10-18. Bass multi-effects; distinct from AX3000G. Partial record. [K
 
 | Field | Evidence / gaps |
 |---|---|
-| Instrument / expression | Bass; built-in assignable expression. External EXP/toe mechanism unknown. |
-| K/F/B | Exact rotary/footswitch/button counts unknown. |
-| Display | Diagonal, resolution, technology, color and touch unknown. |
+| Instrument / expression | Bass; built-in assignable expression with under-pedal switch, disabled for volume. No external EXP port in complete rear inventory. [E1 pp9–11][AX3B-M] |
+| K/F/B | **11 / 7 / 20**, text-derived: five model selectors+five value knobs+rearLEVEL; bank2+program4+CONTROL; category5+INSERT/CABINET/NR/EXP/RENAME(5)+TAP/ESS(2)+AMP-LINE/GLOBAL/WRITE/EXIT(4)+arrows4. Under-pedal switch additional; visual corroboration pending. [E1 pp3–11][AX3B-M] |
+| Display | LCD name/value display; separate bank and LED pedal/tuner indicators. Diagonal,resolution,color,touch unknown. [E1 pp6–9][AX3B-M] |
 | Dimensions / weight | 500×241×72mm W×D×H pedal lowered;100mm raised;3.6kg. |
 | Processing / choices | 72 advertised variations; seven simultaneous including NR, plus external insert. PRE11,drive/amp16,MOD11,DLY11,RVB11. Spec p57 says amp11/cabinet16; chapter p23 says16drive/amp and11cabinets. Named lists pp23–26 support **six drives +ten amps =16**, and **11 cabinets**; with four11-choice effect groups andNR1, total72. Preserve p57 figures as contradictory; use named-list counts. [E1 pp23–26,57][AX3B-M] |
 | Factory / user memory | **96 writable slots (24×4)**. Printed p15 resolves intro ambiguity: banks1–8 contain32 factory sounds, repeated in9–16 and17–24. Thus96 factory-filled writable slots,32 distinct factory sounds; not128 slots. [E1 p15][AX3B-M] |
@@ -629,6 +629,10 @@ Technical evidence: [own E1 manual][AX3B-M],printed1,4,10–11,22–23,52,57. No
 | Cabinet11 | Classic8×10; Modern4×10; LA4×10; Metal4×10; UK4×12; Studio1×15; Jazz1×15; AC2×15; UK4×15; LA1×18; Combi |
 
 [E1 named lists pp23–26][AX3B-M]. No firmware correction or manufacturer erratum located; the count reconciliation is a documented audit, not an official correction.
+
+### AX3000B expression recall
+
+Volume, delay-input, reverb-input, or unchanged-target assignments use physical pedal position immediately after recall. Other assignments start at the stored value until pedal movement. [E1 p9][AX3B-M]
 
 <!-- comparison evidence ends -->
 

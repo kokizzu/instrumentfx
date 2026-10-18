@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Korg AX3000B",
-    "task": "AX3000B memory/category audit saved; officialWindows editor1.01/Mac1.1 pages dated2015-06-01 confirmed, currentOSunknown. Next ownmanual controls/expression, power/display orfreshShopee discovery. No downloads.",
+    "task": "Saved AX3000B text-derived11/7/20 controls, under-pedal switch and recall behavior; LCD documented. Next verify power polarity/current, named full effect categories orfreshShopee discovery. Visual count corroboration and display dimensions remain open.",
     "next_models": [],
     "after_queue": "344 partial unique models;114 Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -58632,6 +58632,21 @@
         "https://www.korg.com/us/support/download/software/1/27/1391/"
       ],
       "finding": "WindowsSoundEditor1.01,MacSoundEditor1.1;bothlisted2015-06-01;no minimum/currentOS claim; no files fetched."
+    },
+    {
+      "model": "Korg AX3000B",
+      "checked_date": "2026-10-18",
+      "source": "https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3000B_E1.pdf&response-content-type=application%2Fpdf%3B",
+      "pages": "3–11",
+      "finding": "Text-derived11rotary/7foot/20buttons;toeextra. Under-pedal switching unavailableforvolume; recall physicalpositionexceptionssaved. LCD documented;noexternalEXP inrear inventory.",
+      "remaining": [
+        "Visual count corroboration",
+        "Powerpolarity/current",
+        "Displaydiagonal/color/touch",
+        "QualifiedIDR",
+        "Full named effectgroups"
+      ],
+      "method": "Browser text; no download/hardware operation"
     }
   ],
   "discovery_cross_brand_bass": {
