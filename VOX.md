@@ -487,6 +487,18 @@ The page exposes generic VOX2ch Windows audio-driver2.0.0 notes,including2in/2ou
 | Expression / range and reassignment | Assignment and endpoint ranges save per program. Delay/reverb input-level endpoints are automatic and cannot be edited. Changing effect normally clears assignment; gain assignment survives changing amp/stand-alone type. EXPRESSION+EXIT/TUNE clears assignment manually. [Own manual pp32–33](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf) |
 | Expression / sensitivity calibration | Power on holding EXPRESSION+WRITE. Using a foot, advance to establish switching pressure, slowly return, release foot, then gently advance and release. WRITE confirms; EXIT/TUNE cancels. This documents calibration, not a hardware operation performed. [Own manual p34](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf) |
 
+### ToneLab EX — named effect-category audit
+
+Checked 2026-10-18 against [own E1 manual, pp22–29](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf). **11+4+11+11+4+3+1=45** library selections, including NR; these are not concurrent blocks.
+
+| Field | Exact-model choices |
+|---|---|
+| Processing / stand-alone 11 | TONE DRIVE; BRIT LEAD; FAT DIST; METAL DIST; ROCK PLANET; TUBE DX; BIG FUZZ; VOX TONE BENDER; OCTA FUZZ; TECHNO FUZZ; CRUSHER. Replaces amp modeling. |
+| Processing / Pedal1 four | COMP; VOX V847; TONE; ENERGIZER. |
+| Processing / Pedal2 eleven | VOX V845; BRN OCTAVE; ACOUSTIC; RING MOD; U-VIBE; CLASSIC +; TUBE OD; BLUE DRIVER; GOLD DRIVE; ORG DIST; GERMANIUM FUZZ. |
+| Processing / modulation 11 | CE CHORUS; MULTI CHORUS; FLANGER; ORG PHASE; TWIN TREM; VIBRATO; G4 ROTARY; SLOW ATTACK; PITCH; FILTRON; TALK MOD. |
+| Processing / delay4 and reverb3 | Delay: ANALOG DELAY; TAPE ECHO; SDD DELAY; MULTI DELAY. Reverb: SPRING; ROOM; HALL. Noise reduction separately supplies the45th entry. |
+
 ## StompLab 1B
 
 <!-- comparison evidence begins -->
