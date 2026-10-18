@@ -971,3 +971,28 @@ Checked 2026-10-18; partial. Exact RP350,not RP355. [Own manufacturer-linked man
 <!-- comparison evidence ends -->
 
 Shopee search2026-10-18 returned [adapter seller855783279/item22273291654](https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-RP350-RP355-RP300-PSU-i.855783279.22273291654),Agen Tekno,Kota Jakarta Barat;indexed Rp170.000 excluded from processor pricing. No live processor-stock claim.
+
+## RP55
+
+Checked 2026-10-18;partial. [Own manual](https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP55-Manual-18-0838V-A.pdf),18-0838V-A,28 PDF pages (M);[product](https://digitech.com/dp/rp55/) (P). Browser text only.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | No built-in pedal/toe switch;external passive mono TS expression/volume supported;TRS explicitly unsupported. M |
+| Knobs / footswitches / buttons | **0 /2 /6**:two Value,two Edit,Drums,Store buttons. M |
+| Display | Preset/parameter display plus effect/tuner LEDs;diagonal,color,touch unverified. M |
+| Processing / choices | **Up to8 simultaneous effects**;P advertises11 amp models/20 effects. M allows onlyone Chorus/Mod choice. Full category census pending. |
+| Memory | **40 user+40 factory=80**;users initially duplicate factory presets. M |
+| Synth / acoustic | Acoustic simulation documented;full synth unverified. M/P |
+| Dimensions / mass | **Conflict:** M:5.65L×6.5W×2.5H inches,1lb;P:6L×5W×2.125H inches,0.85lb. Neither selected. |
+| I/O | ¼-inch input,stereo TRS output shared with headphones,TS Control In,power inlet. M |
+| Power | **9VDC or6AA;5W maximum**. M listsPS200R300mA/PS0913DC1300mA supply ratings,not measured draw. Polarity unverified from text. Battery-life conflict:M≈10h,P up to15h. No power switch. USB power unverified. |
+| IR / NAM / capture | User IR,native/converted NAM,capture unverified. |
+| Editor / software | Editor platforms,drivers and audio-interface support unverified. |
+| Looper / drums / scenes | **30 drum patterns**;looper/scenes unverified. M/P |
+| Used IDR | Unknown;targeted Shopee search found no qualifying exact hardware offer. |
+| New IDR | Unknown;seller/item,condition,stock,region,variant,bundle,warranty,voucher unverified. |
+
+<!-- comparison evidence ends -->
