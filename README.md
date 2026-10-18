@@ -1,6 +1,6 @@
 # InstrumentFX — Guitar, Bass and Vocal Multi-effects
 
-**389 active model records · 47 brands · 6 excluded archival models.** All records retain explicit verification gaps; this is not exhaustive market coverage or a current-stock guarantee.
+**390 active model records · 47 brands · 6 excluded archival models.** All records retain explicit verification gaps; this is not exhaustive market coverage or a current-stock guarantee.
 
 Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eligible multi-effects unit the owner has ever owned. Work belongs only in **kokizzu/instrumentfx**. No GitHub Actions workflows,scheduled jobs or background research are part of this project.
 
@@ -8,10 +8,10 @@ Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eli
 
 | View | Contents |
 |---|---|
-| **[ALL-GUITAR.md](ALL-GUITAR.md)** |324 guitar/acoustic multi-effects, including **Line 6 HX Effects**, compared across hardware, processing, I/O/power/software and separate IDR tables |
+| **[ALL-GUITAR.md](ALL-GUITAR.md)** |325 guitar/acoustic multi-effects, including **Line 6 HX Effects**, compared across hardware, processing, I/O/power/software and separate IDR tables |
 | **[ALL-BASS.md](ALL-BASS.md)** |170 documented bass-capable models: 40 bass-focused plus 130 shared processors, with full comparison tables and explicit capability evidence |
 | **[ALL-VOCAL.md](ALL-VOCAL.md)** |71 vocal/live mic-path processors across the same four comparison tables; harmony, pitch correction and guitar paths remain distinct |
-| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Short expression/footprint/display comparison of 14 selected profiles; 389 detailed models are root-canonical |
+| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Short expression/footprint/display comparison of 14 selected profiles; 390 detailed models are root-canonical |
 | **[SINGLE-GUITAR.md](SINGLE-GUITAR.md)** |Dedicated synth, acoustic-simulation, vocoder and pitch pedals; separate from active multi-effects |
 | **[SINGLE-BASS.md](SINGLE-BASS.md)** |Bass-related dedicated effects, linked to their complete shared archive |
 | **[SINGLE-VOCAL.md](SINGLE-VOCAL.md)** |Explicitly excluded FV01 and dedicated-vocoder cross-reference, outside vocal multi-effects counts |
@@ -52,7 +52,7 @@ Root navigation links directly to canonical root documents. Historical link spel
 | [HEADRUSH.md](HEADRUSH.md) |MX5, Core, Flex Prime, Prime, Gigboard, Pedalboard, VX5 |
 | [FENDER.md](FENDER.md) |Tone Master Pro, Mustang Micro Plus, Mustang Micro |
 | [VALETON.md](VALETON.md) |GP-200LT, GP-200JR, GP-100, GP-150, GP-200 (GP-200X variant), GP-180, GP-5, GP-50, Dapper Bass VES-2, Dapper Bass Mini MES-2, Dapper Mini MES-1, Dapper Acoustic Mini, Dapper Dark VES-3, Dapper Dark Mini, Dapper Indie, Dapper VES-1, Dapper MDR, Dapper Amp Mini, Rushead Max Bass RH-101, Rushead Max RH-100 |
-| [MOOER.md](MOOER.md) |GE250, GE300, GS1000, GE100 original, GE150 original, GE200 original, GE150 Pro Li, GE100 Pro, GE100 Pro Li, GE200 Pro, GE200 Pro Li, GE150 Pro, GE150 Plus, GE150 Plus Li, GE150 Max, GE150 Max Li, GE1000, GE1000 Li, PE100, Black Truck, Red Truck, Prime P2, Prime M1, Prime M2, Prime S1, Ocean Machine II, GS1000 Li, Ocean Machine original, Prime P1, GE300 Lite, GE200 Plus |
+| [MOOER.md](MOOER.md) |GE250, GE300, GS1000, GE100 original, GE150 original, GE200 original, GE150 Pro Li, GE100 Pro, GE100 Pro Li, GE200 Pro, GE200 Pro Li, GE150 Pro, GE150 Plus, GE150 Plus Li, GE150 Max, GE150 Max Li, GE1000, GE1000 Li, PE100, Black Truck, Red Truck, Prime P2, Prime M1, Prime M2, Prime S1, Ocean Machine II, GS1000 Li, Ocean Machine original, Prime P1, GE300 Lite, GE200 Plus, GE200 Plus Li |
 | [HOTONE.md](HOTONE.md) |Ampero One MP-80, Ampero Mini MP-50, Ampero MP-100, Ampero II MP-350, Ampero II Stage MP-380, Ampero II Stomp MP-300 |
 | [LINE6.md](LINE6.md) |POD Go, POD Go Wireless, POD Express Guitar, POD Express Bass, HX Effects, Helix LT, HX Stomp XL, HX Stomp, POD HD500, M5, M9, Pocket POD, HX One, Helix Floor, Helix Stadium XL Floor, POD HD500X, AMPLIFi FX100, POD X3 Live, POD XT Live, POD HD400, POD HD300, Floor POD Plus |
 | [ZOOM.md](ZOOM.md) |G11, B1Xon, G6, G1 FOUR, G1X FOUR, G2 FOUR, G2X FOUR, B1 FOUR, B1X FOUR, B2 FOUR, B6, V3, V6-SP, G3Xn, G5n, G3n, B3n, A1 FOUR, MS-60B, A1X FOUR, MS-50G, MS-70CDR, MS-70CDR Plus, MS-60B Plus, B1on, G3, B3, G1Xon, G1on, 505II, MS-50G Plus, G5, G3X, G2.1u, GFX-3, GFX-5, GFX-4, G7.1ut, 707II, 708II, RFX-1100, B2.1u, RFX-2000, 606, 607, B1X original, RFX-1000, MS-80IR Plus, G1Xnext, GFX-707, 1201, RFX-2200, G1 original, 505 original, G2.1Nu, NEURIG, MS-100BT, 506II, B2, A2, A3 |
@@ -72,7 +72,7 @@ Root navigation links directly to canonical root documents. Historical link spel
 | [SONICAKE.md](SONICAKE.md) |Matribox QME-50, Smart Box QME-20, Pocket Master QME-10, Matribox II QME-100, Matribox II Pro QME-200, Sonic Wood QCE-50, Black Hammer QCE-30, RockStage QCE-10, Levitate QDS-02, B Factory QDS-05, A Factory QDS-04 |
 | [M-VAVE.md](M-VAVE.md) |TANK-G, TANK-B, TANK MINI, MK-20, MK-300, TANK-PRO, ANN Blackbox, MINI-X, Pocket Amp, CUBE BABY electric, CUBE BABY AC, CUBE BABY BASS |
 
-All recorded models are compared in their applicable instrument pages, with full-record links. All 389 recorded models have root brand sections. Legacy content preservation and local navigation checks have passed; compatibility paths remain and technical/market verification is incomplete. The comparison-table rebuild does not certify all fields or finish that migration. Do not create a new dated finding, progress part or document under `effects/`.
+All recorded models are compared in their applicable instrument pages, with full-record links. All 390 recorded models have root brand sections. Legacy content preservation and local navigation checks have passed; compatibility paths remain and technical/market verification is incomplete. The comparison-table rebuild does not certify all fields or finish that migration. Do not create a new dated finding, progress part or document under `effects/`.
 
 ## Research ledger
 
@@ -82,7 +82,7 @@ The [research ledger](research-state.json) records source provenance, model comm
 
 Technical verification and Shopee discovery remain incomplete. The ledger’s current cursor identifies the next task; a missing field means unverified, not No. Cached asking prices do not establish live stock.
 
-**Organization migration is incomplete:** 389 detailed models are root-canonical; 0 still rely on legacy source records. Compatibility files retain historical paths and anchors. Preservation checks do not certify technical specifications, current stock or exhaustive market coverage. See the ledger for preservation manifests, rollback metadata and remaining migration work.
+**Organization migration is incomplete:** 390 detailed models are root-canonical; 0 still rely on legacy source records. Compatibility files retain historical paths and anchors. Preservation checks do not certify technical specifications, current stock or exhaustive market coverage. See the ledger for preservation manifests, rollback metadata and remaining migration work.
 
 ## Scope and ownership
 

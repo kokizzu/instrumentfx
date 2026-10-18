@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 389,
+  "active_model_count": 390,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 389,
+  "canonical_root_model_count": 390,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "389 unique active/root-canonical;0 legacy-only;47brands;sixexcluded;allpartial.",
+  "count_reconciliation": "390 unique active/root-canonical;0 legacy-only;47brands;sixexcluded;allpartial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,11 +29,11 @@
   },
   "cursor": {
     "model": "MOOER GE200 Plus Li",
-    "task": "StandardGE200Plusaddedfromprimaryevidence;IDRunknown. Next verifyexactPlusLifamilyqualifications andaddseparatelyifeligible;do notborrowPro/originaltechnicalfacts. FreshShopeediscoverycontinues;389partial,migrationincomplete.",
+    "task": "Locate exact family manual for controls, expression, dimensions and electrical specifications; verify Li-specific firmware/NAM compatibility. Then resume fresh Shopee discovery. All 390 records partial; migration incomplete.",
     "next_models": [
       "MOOER::GE200 Plus Li"
     ],
-    "after_queue": "389active47brands;no downloads/workflows/push."
+    "after_queue": "390 active,47 brands; no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24969,7 +24969,8 @@
       "Ocean Machine original",
       "Prime P1",
       "GE300 Lite",
-      "GE200 Plus"
+      "GE200 Plus",
+      "GE200 Plus Li"
     ],
     "M-VAVE": [
       "TANK-G",
@@ -25356,7 +25357,8 @@
       "Ocean Machine original",
       "Prime P1",
       "GE300 Lite",
-      "GE200 Plus"
+      "GE200 Plus",
+      "GE200 Plus Li"
     ],
     "HOTONE.md": [
       "Ampero One MP-80",
@@ -25775,7 +25777,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 324,
+      "record_count": 325,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -25805,10 +25807,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 324 guitar, 170 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 325 guitar, 170 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "389 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "390 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -46241,10 +46243,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 389,
-    "canonical_root_models": 389,
+    "unique_brand_model_pairs": 390,
+    "canonical_root_models": 390,
     "legacy_only_models": 0,
-    "guitar_view_models": 324,
+    "guitar_view_models": 325,
     "bass_focused_models": 40,
     "vocal_only_models": 25,
     "vocal_view_models": 71,
@@ -46464,6 +46466,7 @@
       "MOOER::Prime P1",
       "MOOER::GE300 Lite",
       "MOOER::GE200 Plus",
+      "MOOER::GE200 Plus Li",
       "M-VAVE::TANK-G",
       "M-VAVE::TANK MINI",
       "M-VAVE::MK-20",
@@ -48123,6 +48126,13 @@
     },
     "MOOER::GE200 Plus": {
       "link": "MOOER.md#ge200-plus",
+      "source_files": [
+        "MOOER.md"
+      ],
+      "finding_files": []
+    },
+    "MOOER::GE200 Plus Li": {
+      "link": "MOOER.md#ge200-plus-li",
       "source_files": [
         "MOOER.md"
       ],
@@ -121094,5 +121104,13 @@
       "Mooer GE250 Pro"
     ],
     "rejected": "BluesPlusvol1GE200presetpackshop28713236/item25889306838 nothardware."
+  },
+  "ge200plus_li_discovery_20261019": {
+    "source": "https://www.mooeraudio.com/products/232.html",
+    "queries": [
+      "site:shopee.co.id \"GE200 Plus Li\"",
+      "site:shopee.co.id \"GE200PLUS\" \"Li\""
+    ],
+    "result": "No search results; no qualified IDR offer. Separate Li battery variant added using explicitly shared manufacturer evidence; Li-specific firmware/NAM compatibility remains unknown."
   }
 }

@@ -2169,3 +2169,27 @@ Checked 2026-10-19;partial. Distinct from GE200 original,GE200 Pro andGE200 Plus
 | NAM / native versus conversion | [Manufacturer announcement](https://www.mooeraudio.com/news/29.html) explicitly classifiesGE200Plus/Pro asA2conversion;GE1000/GS1000nativeLite statements not transferred. Supportedarchitectures,converterlimits andstorageallocation unresolved. |
 
 No dependencies,firmware,software orfiles downloaded orrun.
+
+## GE200 Plus Li
+
+Checked 2026-10-19; partial. Separate battery variant; bass/vocal suitability and ownership unverified. [Manufacturer family page explicitly covering both versions](https://www.mooeraudio.com/products/232.html).
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression | Built-in/external/toe support unverified. |
+| Knobs / footswitches / buttons | Separate counts unverified; no visual audit. |
+| Display | Size, color, technology and touch unverified. |
+| Processing / choices | 270+ effects; 74 preamps, 26 amps, 77 cabinets. Headline counts overlap; simultaneous ceiling and category census unverified. |
+| Memory | 255 preset locations; factory/user split unknown. |
+| Dimensions / mass | Unverified; no sibling transfer. |
+| Power / battery / USB | Purple Li version: removable lithium battery, advertised 5.5 hours, RGB strip. Voltage, current, polarity, charge time and USB power unverified. |
+| I/O | Dual quarter-inch outs, balanced XLR, headphones, Bluetooth 5.0, USB-C OTG/audio/MIDI. Complete inputs, channels and wiring unverified. |
+| IR / NAM / capture | 20 user IR slots, 2048 points; 20 MNRS sample slots. Native/converted NAM, capture workflow and Li-specific firmware compatibility unverified. |
+| Editor / software | Dedicated PC editor and mobile MOOER Cloud. OS/version compatibility unverified; ASIO interface is not recording software. |
+| Looper / drums / live | 60-second stereo looper; 70 drum/metronome patterns combined. Retention, scenes and trails unverified. |
+| Synth / acoustic | Dedicated simulation unverified. |
+| IDR verified used | Unknown. |
+| IDR verified new | Unknown. |
+| IDR condition-unverified ask | Unknown. Exact Shopee queries returned no qualified offer; not proof of market absence. Seller/item, condition, stock, bundle, warranty and voucher unverified. |
+
+The shared product page explicitly names Plus Li; GE200 original/Pro specifications and standard Plus firmware/NAM announcements were not transferred. Text evidence only; no downloads or device operation.
