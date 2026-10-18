@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon VoiceLive 3 Extreme",
-    "task": "Saved complete VL3X11vocal/9guitar namedblock inventories;style totals andsimultaneouslimits remain open. Continue fresh exacthardware discovery orprimary gaps;114 Markdown compatibility files retained.",
+    "model": "Zoom B2 FOUR",
+    "task": "Saved B2 FOUR eleven named preamp choices and mixing distinctions. Continue fresh exact hardware discovery or remaining primary gaps;114 Markdown compatibility files retained.",
     "next_models": [],
     "after_queue": "342 partial unique models; Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -45579,7 +45579,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon VoiceLive 3 Extreme."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B2 FOUR."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -58413,6 +58413,28 @@
         "Octaver",
         "Rhythmic"
       ]
+    },
+    {
+      "model": "Zoom B2 FOUR",
+      "checked": "2026-10-18",
+      "finding": "Enumerated11PREAMPchoices andD.IPlus blend scope,ClearDriver linearphase mixing,SuperLow octavecontent,Djent cleanlow/distortedhigh distinction.",
+      "source": "https://zoomcorp.com/media/documents/E_B2FOUR_FX-list.pdf",
+      "revision": "©2023 Z2I-4875-01",
+      "pages": "8–10",
+      "preamp_choices": [
+        "Bass Driver Preamp",
+        "D.I Plus Preamp",
+        "Dark Preamp",
+        "Clear Driver Preamp",
+        "1073 Preamp",
+        "Solid Preamp",
+        "DI-5 Preamp",
+        "SB Preamp 1",
+        "BBB Preamp",
+        "Super Low Preamp",
+        "Djent Preamp"
+      ],
+      "discovery": "Older Zoom B2/3000B/506 andDigitechBP200 searches yielded existing B2FOURoffers oradapters;no newmodel admission."
     }
   ],
   "discovery_cross_brand_bass": {

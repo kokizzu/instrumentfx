@@ -1156,6 +1156,16 @@ Checked 2026-10-18 against the [manufacturer operation manual](https://zoomcorp.
 |---|---|
 | Processing / DSP overflow behavior | When processing demand exceeds capacity, **PROCESS OVERFLOW** appears and the affected effect is bypassed. Five available positions therefore do not guarantee that every five-effect combination runs. |
 | Memory / factory initialization | **ALL INIT overwrites all settings, including patch memories, with factory defaults.** This is not a settings-only reset. VERSION displays firmware, preset and BOOT versions separately; a preset version must not be reported as installed firmware. No reset or update was performed. |
+
+### B2 FOUR — named preamp choices
+
+Checked2026-10-18 against the [manufacturer effect list](https://zoomcorp.com/media/documents/E_B2FOUR_FX-list.pdf),©2023 Z2I-4875-01,pp8–10.
+
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / preamps11 | Bass Driver Preamp,D.I Plus Preamp,Dark Preamp,Clear Driver Preamp,1073 Preamp,Solid Preamp,DI-5 Preamp,SB Preamp1,BBB Preamp,Super Low Preamp,Djent Preamp. These are the11entries already included in104,not additional models or11simultaneous slots;the separate6DI selections are a different category. |
+| Processing / preamp mix behavior | D.I Plus selects clean/distortion,withBlend applying to distortion. Clear Driver uses linear-phase EQ to preserve dry/effect mixing according to manufacturer description. Super Low adds adjustable lower-octave content;Djent combines clean lows with distorted highs. These parameters do not establish general parallel-chain routing or polyphonic synth tracking. |
+
 <!-- comparison evidence ends -->
 
 ## B6
