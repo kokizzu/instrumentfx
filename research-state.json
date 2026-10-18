@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Hotone Ampero II MP-350",
-    "task": "Older1.1.0-JP category counts reconciled:487 category-listed choices withIR/utilities included;not unique/current total. Later complete-list reconciliation remains open;next freshShopee lead or another unresolved model field.114 Markdown compatibility files retained.",
+    "model": "Valeton Dapper MDR",
+    "task": "DapperMDR consumption/manufacturer adapter inclusion and15-choice category boundary qualified. Existing AcousticMini offers already recorded;seek another freshlead or unresolved primary field.114 Markdown compatibility files retained.",
     "next_models": [],
     "after_queue": "342 partial unique models; Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -45579,7 +45579,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Hotone Ampero II MP-350."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Valeton Dapper MDR."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -73244,5 +73244,15 @@
       "manufacturer exact grand total"
     ],
     "later_deltas": "1.3.0 additions and1.4.0 NAM support kept separate pending complete later list"
+  },
+  "dapper_mdr_power_count_20261018": {
+    "source": "https://www.valeton.net/product/dapper-mdrdiscontinued/",
+    "manual": "MDR-M in VALETON.md",
+    "checked": "2026-10-18",
+    "findings": [
+      "150mA explicitly Current Consumption;9VDC center-negative supply included by manufacturer. Actual seller bundle and adapter rated capacity unresolved.",
+      "15 category selections=9mod+3delay+3reverb;not simultaneous ceiling."
+    ],
+    "operation": false
   }
 }

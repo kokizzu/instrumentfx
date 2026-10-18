@@ -1325,6 +1325,16 @@ Checked2026-10-17;partial. Effects-only guitar multi-effects;discontinued. Bass/
 |---|---|---|
 | Unverified | **Rp1.800.000**,TokoGitarBagusTangerang,shop141177049/item2861386191,Kota Tangerang;two-week indexed crawl,**Habis**. Checked2026-10-17;historical ask,not live stock/checkout. | [Item][MDR-O] |
 
+
+### Dapper MDR — power and category-count boundaries
+
+Checked2026-10-18 against the [exact manufacturer product page][MDR-P] and [V01_181108 manual][MDR-M]. No hardware operation ordownload.
+
+| Field | Finding / qualification |
+|---|---|
+| Power / consumption and supplied adapter | Manufacturer explicitly labels **150mA as Current Consumption**,separately specifies **9VDC center-negative**,and lists a9V supply as included. The included adapter’s rated capacity,barrel dimensions andregional mains plug remain unverified;150mA isnot an adapter-capacity claim. Seller item2861386191 doesnot independently establish that the adapter ispresent. |
+| Category choices / count boundary | **15 selections across three sections=MOD9+DELAY3+REVERB3**. The MOD pair ofthree-way selectors chooses one ofnine models;it doesnot create nine independent MOD blocks. This arithmetic isnot15 simultaneously available effects orproof ofa global concurrency ceiling. The product’s duplicated reverb text underDELAY remains a source error;manual delay modes take precedence. |
+
 <!-- comparison evidence ends -->
 
 No qualified used/new allocation. Variant,bundle/supply,working condition,authenticity,warranty,shipping/tax/vouchers unresolved.

@@ -577,7 +577,7 @@ def main():
         if mode == 'commit-dapper-dark':
             message = 'research(valeton): qualify Dapper Dark indexed controls and loop routing'
         if mode == 'commit-dapper-acoustic-mini':
-            message = 'research(valeton): qualify Acoustic Mini module order and Surabaya ask'
+            message = 'research(valeton): distinguish MDR consumption and category choices'
         if mode == 'commit-dapper-mini':
             message = 'research(valeton): retain Amp Mini parameter and amp model evidence'
         if mode == 'commit-dapper-bass-mini':
