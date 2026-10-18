@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon PERFORM-V",
-    "task": "Saved originalmanual microphoneEIN−128dBuAweighted150ohmsource and>105dBpathSNR,separatefrom115dBconverter. Dimensions,powerpolarity,USBaudioconflict/currentsoftware remainunknown;next requiredprimarygap orfreshbranddiscovery.",
+    "task": "Saved importedpreset singlemodifier/combinationpriority andHITondefault fromownmanual. Dimensions/polarity stillunverified;next othermodel requiredgap orfreshbranddiscovery ratherthan repeatedPERFORMVqueries.",
     "next_models": [],
     "after_queue": "351partialmodels;155bass;legacyconsolidationincomplete;no downloads/workflows/push."
   },

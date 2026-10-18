@@ -545,6 +545,13 @@ Italian manufacturer-authored mirror identifies firmware1.0/reference2015-11-17;
 |---|---|---|
 | I/O / microphone noise | **EIN−128dBu A-weighted atmaximumgain with150Ωsource;microphone SNR>105dB A-weighted**. The separate115dB A/D converter SNR isnot thewhole microphonepath. Publishedratings,notlocalmeasurements;sourceimpedance andweighting retained. | [Manufacturer manual,firmware1.0,2015-11-17,p49][PV-B] |
 
+### PERFORM-V — imported-preset editing scope
+
+| Field | Original manual finding | Evidence |
+|---|---|---|
+| Processing / imported-preset modifier | Holdpresetbutton andturnknob toedit thedesignated modifier. Singleimportedeffects map to harmony level,HardTune gender,megaphone EQfilter orµModlevel. Combinationsexposeone chosenmodifier:Harmony+HardTune usesHarmony level;Megaphone+µMod usesµModlevel. This isnot fullindependent parameteraccess toallimportedeffects. | [Manualp23,firmware1.0/reference2015-11-17][PV-B] |
+| Live / imported HIT default | Newlybeamed presets startwithHIT enabled;togglepresetbutton tocompare/editHITstates,whichsaveautomatically. Noadditionalmemoryslots implied. | [Manualpp24–25][PV-B] |
+
 <!-- comparison evidence ends -->
 
 ## PERFORM-VK
