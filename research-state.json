@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DemonFX Dual Mod Workstation",
-    "task": "Savedexactbankmenusfromstructuredmanualtableandbank2RATEfunction. Dimensions/mass/presetmemory/bypass remainunknown. NextfreshShopeeeligiblehardware orownmanufacturerpageifnewlydiscoverable;do notrepeatdimensionsqueries.",
+    "model": "Caline C300 exact-item lead",
+    "task": "Pendingcategory-onlyC300Rp1979000Bandung/Rp2249000Tangerang;recoverexactitem+ownprimaryarchitecturebeforeadmission. OptimaAirkeptoutsideactiveasdedicatedacousticsimulator. Nextnewbrandseriessearchiflinkcannotrecovered.",
     "next_models": [],
     "after_queue": "359partialmodels;300guitar158bass69vocal;44brands;migrationincomplete;no downloads/workflows/push."
   },
@@ -78365,5 +78365,58 @@
       "Editor/imports"
     ],
     "keeley_manual_search": "AlternateGerman/WSDelayqueriesfoundnoverifiedKeeleyDelayWorkstationmanual;do notborrowthisDemonFXmanualorSuperModspecs"
+  },
+  "discovery_scope_and_exactitem_20261018": {
+    "checked_date": "2026-10-18",
+    "no_qualified_results": [
+      "DemonFXReverbDelayWorkstation",
+      "DemonFXRavine",
+      "NobelsMF2",
+      "CarlMartinAcousticGig",
+      "ZoomAC3",
+      "TCElectronicGMajor",
+      "TCElectronicGSystem"
+    ],
+    "optima_air": {
+      "status": "Dedicated acoustic simulator/IR loader;not admitted to active multi-effects inventory",
+      "primary": "https://nuxaudio.com/product/optimaair/",
+      "basis": "Ownmanufacturerdescribesacousticsimulation/IRcapturewithpreampEQandsupportingone-knobreverb;analogoustoprojectdedicatedacousticsimulationscope,notgeneralmodelcatalogueexpansion",
+      "offers": [
+        {
+          "url": "https://shopee.co.id/Pedal-Efek-Gitar-Nux-Optima-Air-NAI-5-Original-i.1776275.5054356852",
+          "seller": "SalomoMusik,JakartaUtara",
+          "idr": 2859000,
+          "qualification": "Indexedwithvoucher;eligibility/cap/condition/stockunverified"
+        },
+        {
+          "url": "https://shopee.co.id/NUX-NAI-5-NAI5-NAI-5-Optima-Air-Effect-Gitar-i.16879370.8701464748",
+          "seller": "SevenStereo,Bandung",
+          "idr": 2860000,
+          "qualification": "5daycache,14–15Octoberarrivalnotstockproof;conditionunverified"
+        }
+      ],
+      "limit": "No full specialist catalogue added;notused/newpriceproof orabsenceclaim"
+    },
+    "caline_c300": {
+      "status": "Pending exacthardwareitem andprimaryarchitecture/specs;not admitted",
+      "category_leads": [
+        {
+          "url": "https://shopee.co.id/search?keyword=loop+pedal",
+          "idr": 2249000,
+          "region": "Tangerang",
+          "cache": "5months"
+        },
+        {
+          "url": "https://shopee.co.id/search?keyword=Dificuu-Guitar-Multi-Effects-Pedal-with-Reverb-Delay-Chorus",
+          "idr": 1979000,
+          "region": "Bandung",
+          "cache": "3months;directreopenmiss"
+        }
+      ],
+      "qualification": "Categoryamountsnotseller/itemidentified;notmarketpriceband,used/newclassificationorliveavailability. Retailersclaimindependent6effectstrip,butnoverifiedmanufacturerpage/manualyet.",
+      "next": "Recover exactShopeeC300itemandmanufacturerC300manual/productpage;do notborrowTCelectronicC300compressororsecondaryallanalogclaim.",
+      "candidate_manufacturer_domain": "http://www.calinemusic.com"
+    },
+    "next": "Freshbrand/seriesShopeediscovery orCalineexactitemrecovery;do notrepeattheseidenticalqueries."
   }
 }
