@@ -516,6 +516,18 @@ Checked 2026-10-18 against the exact original GE200 support pages; separate from
 | Memory / update retention | V2.0.3 update deletes presets and third-party IRs; manufacturer specifies backup with V2.0.0 software before updating and restore afterward. Chinese notes say versions before2.0.0 cannot provide that third-party IR backup capability. This is documented version behavior, not a performed update or tested recovery. [Global](https://www.mooeraudio.com/companyfile/GE200-Downloads-138.html);[China](https://cn.mooeraudio.com/companyfile/GE200%E4%B8%8B%E8%BD%BD%E4%B8%AD%E5%BF%83-23.html) |
 | Live / V2.0 additions | Release notes add delay/reverb Trail On, Mono Pitch Shift, PRE/POST looper position and tuner reference430–450Hz. These are firmware-qualified changes beyond the original manual baseline; installed firmware and full revised category census remain unverified. [Global support](https://www.mooeraudio.com/companyfile/GE200-Downloads-138.html) |
 
+### GE200 original — regional hardware clarification
+
+Checked 2026-10-18 against the [Chinese original GE200 product page](https://cn.mooeraudio.com/product/50.html), not Pro/Plus.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression | Manufacturer explicitly supports simultaneous external expression use and multiple-parameter assignment. EXP2 is a ¼-inch stereo socket requiring a stereo cable. Toe-switch behavior remains unverified. |
+| Screen | **3.5-inch TFT color**; touchscreen support remains unverified. TFT identifies the display technology, not touch capability. |
+| Memory | Chinese page says 200 preset tones. Retain alongside the manual’s 200 editable locations; this does not establish separate extra factory storage or the factory-filled state of a used unit. |
+| USB audio / driver distinction | Product page names Windows ASIO4ALL; the support page separately offers an ASIO driver package. Neither is a patch editor, and no driver was downloaded or tested. |
+
+
 ## GE150 Pro Li
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
