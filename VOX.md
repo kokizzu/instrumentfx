@@ -610,6 +610,14 @@ Output profile persists; master resets7.0. Bass-amp profile appears as **A1** in
 |---|---|
 | Live / bypass and mute | Press both Program UP/DOWN pedals together to bypass **all effects including noise reduction**. Hold both for **about one second** to mute output. Either mode activates the tuner; pressing either pedal exits **without changing the program**. This does not establish relay true bypass. [Own IB manual p8][SL1B-M] |
 | Processing / ACOUSTIC overload limit | If the ACOUSTIC pedal choice distorts high frequencies, the manual recommends reducing AMP/DR GAIN. This confirms an operating interaction with the amp/drive stage, not the acoustic simulation’s exact instrument/body model or a separate synth engine. [Own IB manual p12][SL1B-M] |
+
+### StompLab IB — power retention and factory reload
+
+| Field | Exact IB manual evidence / qualification |
+|---|---|
+| Power / automatic shutdown | Factory-enabled auto power-off acts after **one hour without user input**, but does **not** engage while audio enters INPUT. Restart with the power button; another pedal/button does not wake it. Enable with EDIT + DOWN at startup; disable with EDIT + UP. This setting survives power-off. [Own IB manual p7][SL1B-M] |
+| Live / tuner memory | Calibration returns to **440 Hz after power-off**; the selected438–445Hz reference is temporary. [Own IB manual p9][SL1B-M] |
+| Factory / user memory reload | Factory reload **erases all saved user programs**. At startup hold both arrow buttons; at rL, DOWN cancels and UP confirms. Completion shows CP and returns to Program select. Do not interrupt reload power. This does not identify initial user-slot contents. [Own IB manual p11][SL1B-M] |
 <!-- comparison evidence ends -->
 
 Source access: English and German exact-model product bodies opened as browser text. Japanese exact-model specifications read in search cache; direct reopening timed out. Own68-page IB manual EFGSJ1 opened as browser text; English introduction identifies StompLab IB. No PDF downloaded or visual panel audit performed.

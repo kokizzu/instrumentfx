@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "StompLab IB required fields / discovery",
-    "task": "StompLab IB bypass/mute retention and acoustic-choice overload interaction saved. Continue missing fields or fresh Shopee discovery; exact Indonesian1Boffer remains unresolved.",
+    "task": "StompLab IB auto power-off, temporary tuner calibration and destructive factory reload saved. Continue exact missing fields or fresh Shopee brand/series discovery; initial user fill and exact Indonesian offer unresolved.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -79318,5 +79318,16 @@
     "destination": "VOX.md#stomplab-1b",
     "scope": "Exact IB bypass/mute program retention and ACOUSTIC gain interaction verified; no IIB-only control or expression claims borrowed.",
     "remaining": "Acoustic model semantics, display details, initial user filling, software/import support and exact hardware offers remain unresolved."
+  },
+  "vox_stomplab_ib_retention_20261018": {
+    "source": "https://voxamps.com/wp-content/uploads/2019/12/SL_IB_OM_EFGSJ1.pdf",
+    "printed_pages": [
+      7,
+      9,
+      11
+    ],
+    "destination": "VOX.md#stomplab-1b",
+    "scope": "Own IB automatic shutdown audio exception, persistent enable setting, temporary tuner calibration and destructive factory reload; documentation only, no device operation.",
+    "remaining": "Initial user fill, display, software/import support, acoustic semantics and exact Indonesian hardware offers remain unresolved."
   }
 }
