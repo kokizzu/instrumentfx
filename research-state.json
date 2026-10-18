@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 343,
+  "active_model_count": 344,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 343,
+  "canonical_root_model_count": 344,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "343 unique active/root-canonical; 0 legacy-only; 39 brands; six excluded; all partial.",
+  "count_reconciliation": "344 unique active/root-canonical; 0 legacy-only; 39 brands; six excluded; all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "VOX StompLab 1B",
-    "task": "IB memory write protection/save-loss, output profile persistence/master reset and namedKA181 center-negative chain saved. Continue fresh Shopee discovery or unresolved exact IB display/initial-fill/manual parameter gaps; do not treat current partial record as complete.",
+    "model": "Korg AX3000B",
+    "task": "Added bass-specific E1-manual record; exact Shopee offer unknown. Resolve amp/cabinet and memory count conflicts from exact primary documentation; continue controls/expression/power/software gaps.",
     "next_models": [],
-    "after_queue": "343 partial unique models; 114 Markdown compatibility paths retained. No downloads/workflows/push."
+    "after_queue": "344 partial unique models;114 Markdown compatibility paths retained. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24626,7 +24626,8 @@
       "AX3G",
       "AX30G",
       "AX100G",
-      "AX10B"
+      "AX10B",
+      "AX3000B"
     ],
     "VOX": [
       "ToneLab LE",
@@ -25049,7 +25050,8 @@
       "AX3G",
       "AX30G",
       "AX100G",
-      "AX10B"
+      "AX10B",
+      "AX3000B"
     ],
     "VOX.md": [
       "ToneLab LE",
@@ -25141,8 +25143,8 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 148,
-      "bass_focused_record_count": 33,
+      "record_count": 149,
+      "bass_focused_record_count": 34,
       "shared_bass_capable_count": 115,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
@@ -25166,10 +25168,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 286 guitar, 148 documented bass-capable, 66 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 286 guitar, 149 documented bass-capable, 66 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "343 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "344 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -45518,8 +45520,8 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 343,
-    "canonical_root_models": 343,
+    "unique_brand_model_pairs": 344,
+    "canonical_root_models": 344,
     "legacy_only_models": 0,
     "guitar_view_models": 286,
     "bass_focused_models": 30,
@@ -45528,7 +45530,7 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 148,
+    "bass_view_models": 149,
     "bass_shared_models": 115,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
@@ -45581,7 +45583,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX StompLab 1B."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX3000B."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -45995,6 +45997,7 @@
       "DigiTech::GNX4",
       "Korg::PANDORA stomp",
       "Korg::AX10B",
+      "Korg::AX3000B",
       "VOX::StompLab 2B",
       "VOX::StompLab 1B",
       "Tech 21::Bass Fly Rig v2",
@@ -48391,6 +48394,13 @@
     },
     "Korg::AX10B": {
       "link": "KORG.md#ax10b",
+      "source_files": [
+        "KORG.md"
+      ],
+      "finding_files": []
+    },
+    "Korg::AX3000B": {
+      "link": "KORG.md#ax3000b",
       "source_files": [
         "KORG.md"
       ],
@@ -58582,6 +58592,23 @@
         "Exact qualified used/new IDR"
       ],
       "method": "Browser text only; no download or hardware operation"
+    },
+    {
+      "model": "Korg AX3000B",
+      "checked_date": "2026-10-18",
+      "source": "https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3000B_E1.pdf&response-content-type=application%2Fpdf%3B",
+      "method": "Own68pageE1 browser text;no download",
+      "finding": "Bass-specific model;72variations/seven simultaneous inclNR;spec11amp/16cab vschapter16driveamp/11cab conflict;96user+32preset intro vs96program specs unresolved.",
+      "remaining": [
+        "Exact Shopee used/new",
+        "Controls/toe/externalEXP",
+        "Memory overlap",
+        "Category reconciliation",
+        "Power polarity/current",
+        "Editor OS",
+        "Display"
+      ],
+      "discovery": "Shopee RK5v2/B9.1ut/AX3000B/AX3000bass searches noexactoffer;not unavailability"
     }
   ],
   "discovery_cross_brand_bass": {

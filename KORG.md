@@ -594,3 +594,32 @@ Official [Easy Start entry](https://www.korg.com/us/support/download/manual/1/22
 | Expression / calibration | Use a hand. Power on holding FUNCTION + PEDAL FX. Move fully back, release hand, press PEDAL FX; move fully forward, release hand, press PEDAL FX. MASTER/CANCEL aborts. Failure returns to the pre-calibration display; repeated failure requires service. Volume assignment with minimum0 helps check the returned endpoint. Extracted display glyphs are absent; no glyph or switching-pressure adjustment inferred. [Own manual p13](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
 | Processing / shared amp control | MID FC/GAIN adjusts mid peak frequency for EQ through JAZZ; it adjusts gain for STUDIO through UKMAJOR. These are alternative functions of one knob. [Own manual p11](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
 | Processing / editing conflict | Dedicated MODULATION instructions specify FUNCTION + DEPTH for SPEED; overview p10 instead says delay/reverb time for modulation. Preserve that wording conflict. AMBIENCE time uses two TAP presses. HALL/PLATE/SPRING reverb time is twice the tap interval. [Own manual pp10–12](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
+
+## AX3000B
+
+<!-- comparison evidence begins -->
+
+Checked2026-10-18. Bass multi-effects; distinct from AX3000G. Partial record. [Korg E1 manual][AX3B-M],68pages, browser text; no download or hardware test.
+
+| Field | Evidence / gaps |
+|---|---|
+| Instrument / expression | Bass; built-in assignable expression. External EXP/toe mechanism unknown. |
+| K/F/B | Exact rotary/footswitch/button counts unknown. |
+| Display | Diagonal, resolution, technology, color and touch unknown. |
+| Dimensions / weight | 500×241×72mm W×D×H pedal lowered;100mm raised;3.6kg. |
+| Processing / choices | 72 advertised variations; seven simultaneous including NR, plus external insert. PRE11,drive/amp16,MOD11,DLY11,RVB11. Spec p57 says amp11/cabinet16; chapter p23 says16drive/amp and11cabinets. Counts unresolved; no reconciled total invented. |
+| Factory / user memory | Intro:96 user and32 presets; spec:96 programs(24×4). Preset overlap, initial user fill and total distinct memory unresolved. |
+| Synth / acoustic | SYNTH documented; acoustic simulation unverified. |
+| I/O | Mono INPUT; mono SEND/RETURN; stereo mini AUX/PHONES; two mono OUTPUT; optical S/PDIF16-bit44.1kHz; MIDI IN/OUT;DC9V. |
+| Conversion | AD/DA20-bit;44.1kHz. |
+| Power / battery / USB | 9V DC; manufacturer includes adapter. Polarity,current,barrel,battery andUSB power unknown. Seller bundle unknown. |
+| IR / NAM / capture | User IR,native/converted NAM andcapture import unknown. |
+| Editor / software | Sound Editor mentioned; platform/current OS support unknown. |
+| Looper / drums / live | Individual effect switching; tuner A0–C7,438–445Hz. Looper,drums,scenes,trails unknown. |
+| Used IDR / new IDR | Unknown / unknown. Exact Shopee AX3000B andAX3000 bass searches on2026-10-18 established no item. Not proof of unavailability. Condition,stock,region,bundle,warranty,voucher andcheckout total unknown. |
+
+Technical evidence: [own E1 manual][AX3B-M],printed1,4,10–11,22–23,52,57. No sibling specifications used. Unknown fields remain open.
+
+<!-- comparison evidence ends -->
+
+[AX3B-M]: https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3000B_E1.pdf&response-content-type=application%2Fpdf%3B
