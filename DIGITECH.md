@@ -1110,4 +1110,18 @@ Checked2026-10-18;partial,bass-focused. [Product](https://digitech.com/dp/bp355/
 | Processing / pitch | Pitch shift ±24semitones;detune ±24cents. Harmony offers14intervals and6scales. Octaver separately mixes dry,−1octave,−2octaves. |
 
 
+
+### BP355 — monitoring, output voicing and performance limits
+
+[Own manual](https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2022/09/BP355_Manual_5059482-A_original.pdf),printed pp7,27–29;checked2026-10-18.
+
+| Field | Qualification |
+|---|---|
+| USB / monitoring controls | X-Edit utility controls direct/playback mix and recording level;manualp7 also assigns these to knobs4/5 with USB connected and Fretless/Wah selected. This does not establish dry reamping or loopback. |
+| I/O / voicing and headphones | Separate¼-inch/XLR Amp/Mixer buttons;Mixer enables speaker compensation. Headphones follow XLR voicing:select Mixer;recommended16–100Ω. |
+| Looper / controls | Hold Amp A/B2seconds to enter;press to arm,playing triggers recording;any footswitch closes loop. Hold Amp A/B while playing to overdub;release resumes playback. Quick press stops/resumes. Stop then hold2seconds clears;hold4seconds exits and erases loop. |
+| Looper / performance restriction | Amp A/B channel switching unavailable during looping;Up/Down preset navigation remains available. |
+| Expression / LFOs | Two assignable LFOs share pedal targets,each with bounds,speed and triangle/sine/square waveform. |
+
+
 <!-- comparison evidence ends -->
