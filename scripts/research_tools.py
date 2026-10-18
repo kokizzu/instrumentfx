@@ -481,7 +481,7 @@ def main():
         if mode == 'commit-hd400':
             message = 'research(line6): clarify HD400 USB recording and monitoring'
         if mode == 'commit-xtlive':
-            message = 'research(line6): qualify XT Live named PX2 supply rating'
+            message = 'docs(line6): synchronize XT Live summaries with verified followups'
         if mode == 'commit-x3live':
             message = 'research(line6): preserve X3 Live explicit preowned sold-out hardware offer'
         if mode == 'commit-harmony-singer2':

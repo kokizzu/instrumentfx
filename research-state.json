@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 POD XT Live",
-    "task": "Saved XT Live named PX-2 supply9VAC2A rating,not actualdraw. Remaining dimensions,mass,display,currentsoftware andqualifiedprices. Fresh Firehawk searches found casesonly;continue exacthardware discovery or primary gaps.114 Markdown compatibility paths retained.",
+    "task": "XT Live main summary now agrees with saved category,acoustic/synth andPX-2 findings. M13 searches returned adapters,not exact processor hardware. Continue fresh hardware discovery or remaining primary gaps;114 Markdown compatibility paths retained.",
     "next_models": [],
     "after_queue": "342 partial unique models; Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -58346,6 +58346,11 @@
         "https://l6c-acdn2.line6.net/data/6/0a060b316ac34f0593d2ca219/application/pdf/PODxt%20Live%20Manual%20-%20Version%203%20%28%20Rev%20C%20%29.pdf"
       ],
       "discovery": "FirehawkFX/FloorPOD searches yielded cases/existingoffers,not new exacthardware admission."
+    },
+    {
+      "model": "Line 6 POD XT Live",
+      "checked": "2026-10-18",
+      "finding": "Synchronized initial summary rows with dated source-backed followups:category census,acoustic/synth qualifications andnamed supply rating. AllsourceURLs,offer dates,conflicts andunresolved fields retained."
     }
   ],
   "discovery_cross_brand_bass": {
