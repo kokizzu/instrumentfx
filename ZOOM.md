@@ -2724,6 +2724,16 @@ Checked 2026-10-18 against [manufacturer G3/G3X manual,printed5–6](https://zoo
 [ZG3X-OLD]: https://www.zoom.co.jp/node/50
 
 
+### G3X — Edit&Share patch library and compatibility limits
+
+Checked2026-10-18 against the [manufacturer editor manual](https://zoomcorp.com/media/documents/EditShare_Operation_Manual_English_2.pdf),13pages,Edit&Share-Manual-E-5,linked by the exact G3X support page. Read as browser text;no application,firmware or document downloaded locally.
+
+| Field | Exact source qualification | Evidence |
+|---|---|---|
+| Editor / patch library | Editor changes effect types,on/off and parameters,renames/stores patches,and imports/exports patches and patch groups. Updating a device patch uses **Store**;updating a device group uses **Replace**. This is patch-data management,not proof of IR,NAM or capture import. | [Editor manual pp2,4–10](https://zoomcorp.com/media/documents/EditShare_Operation_Manual_English_2.pdf) |
+| Memory / older patch compatibility | Manual explicitly includes **G3X** as a destination for **G3 firmware1.12-or-earlier patches and patch groups**. Reverse import and G5→G3X compatibility are not established. Its separate delay-clamping warning specifically names G3v2-or-later;do not silently apply that warning’s numeric table to G3X. | [Editor manual pp7,10,12](https://zoomcorp.com/media/documents/EditShare_Operation_Manual_English_2.pdf) |
+| Editor / sleep and filtering | Edit&Share does not support computer sleep;manufacturer advises restarting it after sleep-related unresponsiveness. Effect filtering matches patches with that effect **ON**,and edits appear in results only after saving. Modern OS support remains unverified. | [Editor manual pp11–12](https://zoomcorp.com/media/documents/EditShare_Operation_Manual_English_2.pdf) |
+
 ## G2.1u
 
 Original guitar multi-effects; distinct from G2.1Nu. Discontinued. Checked2026-10-17; partial. Ownership and bass/vocal suitability unestablished.
