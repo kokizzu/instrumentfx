@@ -465,7 +465,7 @@ def main():
         if mode == 'commit-spx990':
             message = 'research(yamaha): qualify SPX1000 Freeze pitch and trigger limits'
         if mode == 'commit-spx900':
-            message = 'research(yamaha): add DG-Stomp guitar processor with exact AC power specifications'
+            message = 'research(yamaha): verify DG-Stomp memory and output routing'
         if mode == 'commit-mx200':
             message = 'research(lexicon): reconcile MPX100 banks and preserve delay conflict'
         if mode == 'commit-gnx4':

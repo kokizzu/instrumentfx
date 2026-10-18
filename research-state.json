@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Yamaha DG-Stomp",
-    "task": "Added exact Yamaha manual record to guitar comparison; unknown Shopee prices. Next ownmanual expression/ports/routing/memory details, preserving12VAC supply distinction. No bass/vocal inference.",
+    "task": "DG-Stomp memory180slots/read-only90/user90initialcopy,STOREscope andheadphone/digital/tunermute routing saved; FC7externalexpressionconfirmed. Next exactmanual expressionthreshold/routing details orfreshShopee discovery.",
     "next_models": [],
     "after_queue": "345 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -58719,6 +58719,22 @@
       ],
       "discovery": "DGStomp/AGStomp/FX500/DGSTOMP/AGSTOMP exactShopeequeriesnoexactoffer;notunavailability",
       "method": "Browser text only;no download"
+    },
+    {
+      "model": "Yamaha DG-Stomp",
+      "checked_date": "2026-10-18",
+      "source": "https://usa.yamaha.com/files/download/other_assets/7/313717/dgstomp_en.pdf",
+      "pages": "9–11,15,17,22",
+      "finding": "90readonly+90writable;initialusercopy. OUTPUTexcludedfrompatch/Utilityglobal. Headphonesdonotmuteanalog/digital;OUTPUTknobnotdigitallevel. Tunermutesalloutputs. FC7optionalexternalexpression.",
+      "remaining": [
+        "Expressionthresholdandbuiltinstatus",
+        "Simultaneousceiling",
+        "Digitalwordwidth",
+        "QualifiedIDR",
+        "Editorplatforms",
+        "Displaydiagonal/color/touch"
+      ],
+      "method": "Browsertext;no download oroperation"
     }
   ],
   "discovery_cross_brand_bass": {

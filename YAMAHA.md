@@ -285,14 +285,14 @@ Checked2026-10-18. Guitar preamplifier with multi-effects; separate from AG-Stom
 
 | Field | Evidence / gaps |
 |---|---|
-| Instrument / expression | Guitar. External EXP stereo-phone socket; built-in pedal/toe mechanism unverified. EXP/MIDI controls documented. |
+| Instrument / expression | Guitar. External EXP stereo-phone socket accepts optional YamahaFC-7 for parameter/wah control. Built-in pedal/toe mechanism unverified. EXP/MIDI controls documented. [Manual pp9,11][DGS-M] |
 | K/F/B | **15 /4 /17**, explicitly specified; rearSTAND-BY andINPUT LOW/HIGH additional. No visual count audit. |
 | Display | Three-digit seven-segment LED;17button and4footswitch LEDs. Diagonal,color,touch unknown. |
 | Dimensions / weight | **280W×184D×70H mm;2.2kg**. |
 | Processing / choices | Eight preamp channels;16speaker simulations. Compressor; MOD5(Chorus,Flanger,Phaser,Rotary,Tremolo); DLY2(Digital Delay,Tape Echo); RVB3(Spring,Hall,Plate); wah. Simultaneous ceiling unknown; category alternatives are not concurrent blocks. |
-| Factory / user memory | **90 preset +90 user**; initial user fill/protection behavior unverified. |
+| Factory / user memory | **90 read-only presets +90 writable user =180 slots**. User area initially copies preset area. STORE only writes user area; OUTPUT knob excluded, Utility settings stored globally. [Manual pp15,17][DGS-M] |
 | Synth / acoustic | Dedicated synth/acoustic simulation unverified; amp/effect choices do not establish either. |
-| I/O | Mono INPUT; L/MONO andR mono OUTPUT; stereo PHONES; stereo EXP; coaxial DIGITAL OUT;5-pin MIDI IN/OUT. Complete power/socket details pending. |
+| I/O | Mono INPUT; L/MONO andR mono OUTPUT; stereo PHONES; stereo EXP; coaxial DIGITAL OUT;5-pin MIDI IN/OUT. AC IN power socket. Further socket measurements pending. [Manual pp9–11][DGS-M] |
 | Conversion | AD20-bit+3-bit floating; DA20-bit;48kHz. Digital-output word width unknown. |
 | Power / battery / USB | **AC-10 adapter:12V AC,1000mA output; unit15W consumption**. AC has noDC center polarity; barrel dimensions andactual current unknown. Battery/USB operation unverified. Manufacturer includes adapter; seller bundle unknown. |
 | IR / NAM / capture | User IR,native/converted NAM andproprietary capture import unknown. |
@@ -301,6 +301,14 @@ Checked2026-10-18. Guitar preamplifier with multi-effects; separate from AG-Stom
 | Used IDR / new IDR | **Unknown / unknown**. Exact Shopee searches DG Stomp/DGSTOMP on2026-10-18 yielded no exact item;not proof of unavailability. Condition,stock,region,bundle,warranty,voucher andcheckout total unknown. |
 
 Technical rows: [manufacturer manual printed29][DGS-M]; specification fields remain distinct from real-unit testing. No bass/vocal membership inferred.
+
+### DG-Stomp headphone, digital and tuner routing
+
+| Field | Exact-model behavior |
+|---|---|
+| I/O / headphones | PHONES insertion leaves analog OUTPUT and DIGITAL OUT active. OUTPUT knob adjusts headphone volume. [Manual pp9,11][DGS-M] |
+| I/O / digital level | Coaxial DIGITAL OUT level is fixed with respect toOUTPUT knob; no digital word width established here. [Manual p11][DGS-M] |
+| Tuner / mute | Tuner mode mutes OUTPUT,PHONES andDIGITAL OUT. [Manual p22][DGS-M] |
 
 <!-- comparison evidence ends -->
 
