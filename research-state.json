@@ -75414,7 +75414,7 @@
   },
   "resume_cursor": {
     "model": "Zoom G5n",
-    "task": "Saved V2 memory writes/external-pedal assignment and initialization versus firmware update. Continue fresh Shopee discovery or unresolved required fields;do not confuse G5/G5n.",
+    "task": "Saved derived20rotaries,exactanalogratings,rearinventory andECO/power behavior. Next freshShopee discovery orother remaining fields;fullswitch/button totals andUSBpower stillunknown.",
     "next_models": [],
     "after_queue": "349 partial models;114 Markdown compatibility files remain;no downloads/workflows/push."
   },
@@ -75440,5 +75440,11 @@
     "findings": "SAVE/SWAP pp21–23,AUTO SAVE OFF prompt p28,second pedal effect assigned external p29,All Initialize resets allsettings/patches p52,firmware update retains savedpatches p55",
     "remaining": "Initial200slot fill and currentfirmware allocation remainunknown;missing reset icon not inferred",
     "discovery": "Fresh GE300Lite,G2Nu,AX1B,ME6B,B2 searches yielded accessories/existingmodels;not evidence of market absence"
+  },
+  "g5n_controls_analog_20261018": {
+    "source": "https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf",
+    "revision": "V2 original text,printed pp3–6,58",
+    "result": "20 rotaries derived4units*4+4 named controls;analog nominal/maximum ratings and rear inventory saved",
+    "remaining": "Full footswitch/button totals,USB subtype/control wiring,battery/USB power,display,current library/import and qualifiednew/used prices unknown"
   }
 }

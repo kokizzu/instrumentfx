@@ -1646,6 +1646,20 @@ Checked 2026-10-18 using the [manufacturer-hosted V2 operation manual](https://z
 These resolve operation details,not current-firmware factory allocation or the remaining panel,display,import,power and price gaps above.
 
 
+### G5n — rotary count and analog specifications, V2
+
+Checked 2026-10-18 from original text in the [manufacturer V2 manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf); no local download or visual inspection.
+
+| Field | Evidence / qualification |
+|---|---|
+| K/F/B / rotary subtotal | **20 rotary controls**, derived from four units ×four parameter knobs (p3),plus CONTROL,MASTER LEVEL,BOOST,TONE (pp4–5). Encoder press is not another separate button. Full footswitch/button totals remain unverified. |
+| I/O / analog ratings | P58: mono INPUT **−20 dBu nominal,470 kΩ**; stereo mini AUX **−10 dBu nominal,10 kΩ**; two mono outputs **+5 dBu maximum into≥10 kΩ**; stereo mini phones **20+20 mW into32 Ω**. Nominal input levels are not maximum-input limits;0 dBu=.775 V. |
+| I/O / rear inventory | Pp4–5 list INPUT,AUX IN,OUTPUT L/R,PHONES,CONTROL IN,USB,DC9V and POWER. No separate MIDI,XLR or audio send/return is listed. USB subtype and control wiring remain unverified; USB audio does not prove USB power. |
+| Power / operating behavior | P6: connect AC adapter before POWER ON; last-used operating mode returns. ECO shuts down after10 hours unused. This does not establish battery or USB-powered operation. |
+
+Earlier unknown rows remain dated provenance; these details supersede their rotary-count and analog-rating gaps only.
+
+
 ## G3n
 
 Reviewed **2026-10-17**,new exact-model Shopee discovery. Separate from G3Xn and older G3;no ownership assertion. Partial. Manufacturer manual evidence is indexed text,not PDF/image inspection;no dependency,software,firmware or manual file downloaded.
