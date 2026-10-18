@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 367,
+  "active_model_count": 368,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 367,
+  "canonical_root_model_count": 368,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "367 unique active/root-canonical;0 legacy-only;46 brands;six excluded;all partial.",
+  "count_reconciliation": "368 unique active/root-canonical;0 legacy-only;46brands;six excluded;allpartial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom 506II",
-    "task": "Electrical IO/conversion, absent-listedUSBconnector, supportpage scope andFS01/preselect saved. ExactShopeeoffers, visual audit andremainingfields unverified. Next freshbrand/series hardwarediscovery; avoidrepeatingcompleted506II memory/category/IOaudits.",
+    "model": "Zoom B2",
+    "task": "Audit button inventory,initial user fill,complete ports andcategory census from own manual;search exact originalB2 hardware offers. Do notborrowB2.1u/B2FOUR.",
     "next_models": [],
-    "after_queue": "367active/46brands;307guitar160bass69vocal;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
+    "after_queue": "368active/46brands;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -5434,6 +5434,14 @@
       "status": "partial",
       "source": "https://zoomcorp.com/media/documents/E_506II.pdf",
       "finding": "Manufacturer bass multi-effects record added; no qualified Shopee hardware offer."
+    },
+    {
+      "model": "Zoom B2",
+      "destination": "ZOOM.md#b2",
+      "checked_date": "2026-10-18",
+      "status": "partial",
+      "source": "https://zoomcorp.com/media/documents/E_B2.pdf",
+      "finding": "Original B2 added;B2 FOUR Shopee results not attributed to it."
     }
   ],
   "consolidation_and_price_findings": [
@@ -24857,7 +24865,8 @@
       "G2.1Nu",
       "NEURIG",
       "MS-100BT",
-      "506II"
+      "506II",
+      "B2"
     ],
     "DigiTech": [
       "RP360XP",
@@ -25156,7 +25165,8 @@
       "G2.1Nu",
       "NEURIG",
       "MS-100BT",
-      "506II"
+      "506II",
+      "B2"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -25467,8 +25477,8 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 160,
-      "bass_focused_record_count": 36,
+      "record_count": 161,
+      "bass_focused_record_count": 37,
       "shared_bass_capable_count": 124,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
@@ -25492,10 +25502,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 307 guitar, 160 documented bass-capable, 69 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 307 guitar, 161 documented bass-capable, 69 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "367 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "368 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -45928,17 +45938,17 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 367,
-    "canonical_root_models": 367,
+    "unique_brand_model_pairs": 368,
+    "canonical_root_models": 368,
     "legacy_only_models": 0,
     "guitar_view_models": 307,
-    "bass_focused_models": 36,
+    "bass_focused_models": 37,
     "vocal_only_models": 24,
     "vocal_view_models": 69,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 160,
+    "bass_view_models": 161,
     "bass_shared_models": 124,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
@@ -46013,7 +46023,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom 506II."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B2."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -46448,6 +46458,7 @@
       "Zoom::1201",
       "Zoom::MS-100BT",
       "Zoom::506II",
+      "Zoom::B2",
       "DigiTech::GNX3",
       "DigiTech::GNX4",
       "Korg::PANDORA stomp",
@@ -48763,6 +48774,13 @@
     },
     "Zoom::506II": {
       "link": "ZOOM.md#506ii",
+      "source_files": [
+        "ZOOM.md"
+      ],
+      "finding_files": []
+    },
+    "Zoom::B2": {
+      "link": "ZOOM.md#b2",
       "source_files": [
         "ZOOM.md"
       ],

@@ -4299,3 +4299,27 @@ Bass multi-effects; partial, checked2026-10-18. Distinct from506 and505II. [Manu
 | Practical features / remote bank selection | FS01 advances one bank perpress inplay mode. Pre-select postpones audible patch changes until both footswitches confirm; power cycling restores direct selection. This is not a seamless-switching orspillover guarantee. [Own manual pp16–18](https://zoomcorp.com/media/documents/E_506II.pdf). |
 
 <!-- comparison evidence ends -->
+
+## B2
+
+Original bass multi-effects; partial, checked2026-10-18. Distinct fromB2.1u/B2 FOUR. [Manufacturer manual](https://zoomcorp.com/media/documents/E_B2.pdf),pp6–7,16,25–26,31.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | No built-in/toe pedal; CONTROL IN accepts FP02/FP01 orFS01. |
+| K/F/B | **4/2/?**,text-derived: module selector+3parameter knobs;2footswitches;button census pending. |
+| Display | Two-digit7-segmentLED plusparameterLEDs;diagonal/color/touch unverified. |
+| Processing / categories | **47 types;maximum9 simultaneous modules**;category census pending. |
+| Memory | **40 user+40 read-only presets=80**;initial user fill unverified. |
+| Synth / acoustic | StandardSynth,SynthTalk andmonophonic MonoSynth documented;acoustic simulation unverified. |
+| Dimensions / mass | **156W×162D×65H mm;700g without batteries**. |
+| I/O | Mono input,stereo line/headphone output,CONTROL IN,DC. Complete socket audit pending. |
+| Power | AD-0006 **9VDC300mA center-negative** supply rating;drawunknown.4AA alkaline approximately7.5h;USBpower unverified. |
+| Editor / platforms | Exactmodel editor/driver/updater unverified;B2 FOUR support notborrowed. |
+| IR / NAM / capture | Unverified. |
+| Practical features | Rhythms disable reverb whileplaying. Looper/scenes unverified. |
+| IDR price | Used/new unknown;Shopee searches returned B2 FOUR,notqualified originalB2. Seller/stock/condition/bundle/warranty/voucher unverified. |
+
+<!-- comparison evidence ends -->
