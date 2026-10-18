@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC Electronic NOVA System",
-    "task": "Saved NOVA section-level category28census(utilities excluded),sixdelay/fourreverb,timeparameters andpitchrange conflict. Next physicalcontrols/builtinexpression/toe orMIDI/editor evidence;exactconcurrency/dimensions andqualifiedIDR remain. Do notcount Spillover asdelaytype orclaim28simultaneous.",
+    "task": "Saved NOVA MIDIglobaldump excludespresets,userbankdump separate,PCmapping/clock/CC scope. Next exactphysicalcontrol/builtinexpression/toe audit orfreshShopee discovery;dimension/currenteditor/qualifiedIDR unresolved. Do nottreat MIDIbackup asdesktopeditor orallparameterCCaccess.",
     "next_models": [],
     "after_queue": "366active/46brands;307guitar159bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -80951,5 +80951,11 @@
     "sum": 28,
     "basis": "Section-level choices,notconcurrency;utilities excluded;EQ/gate grouped in6digitalblockheadline.",
     "remaining": "Exact concurrency/controlcount/dimensions/editor/IDR unresolved;pitchrange conflict retained."
+  },
+  "nova_system_midi_audit": {
+    "date": "2026-10-18",
+    "source": "https://manualzz.com/doc/7256177/tc-electronic-nova-system-guitar-and-bass-owner-s-manual",
+    "revision": "Manual1.2/SW1.10,pp21–23",
+    "finding": "Separate global/preset dump scope andMIDI control restrictions saved;current editor/OS andrestoreprocedure remainunverified."
   }
 }

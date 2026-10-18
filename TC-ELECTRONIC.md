@@ -411,6 +411,17 @@ Checked 2026-10-18 against original manual revision 1.2, SW1.10, printed pp3,26�
 | Category choices / delay and reverb | Delays:Clean,Analog,Tape,PingPong,Dynamic,Dual. Reverbs:Spring,Hall,Room,Plate. **Spillover is behavior,not a seventh delay algorithm.** Internal delay taps andreverb shapes do not add choices. [Manual][NOVA-M] pp41–45 |
 | Processing / time limits | Common delay range0–1800ms;Dual has two independently adjustable taps. Reverb decay0.1–20s,pre-delay0–100ms. These parameters are not phrase-looper duration. [Manual][NOVA-M] pp41–45 |
 | Synth / pitch-range disagreement | Pitch Shifter introduction says±1octave;Voice1 range±1200cents butits explanation says±2octaves;Voice2 lists±2400cents. Preserve this unresolved internal disagreement. Separate intelligent harmony has two voices withkey/scale selection;not evidence ofpolyphonic synthesis. [Manual][NOVA-M] pp39–40 |
+
+### NOVA System — MIDI backup and control scope
+
+Checked 2026-10-18 against original manual revision1.2/SW1.10,printed pp21–23. [Manual][NOVA-M]. No MIDI/software operation performed.
+
+| Field | Evidence / qualification |
+|---|---|
+| Memory / two distinct MIDI dumps | **Dump System sends global settings and excludes presets. Dump Bank sends the entire user bank.** Both are MIDI data dumps to a sequencer;the manual recommends astandard MPU401 interface. A system dump alone is not a complete preset backup,despite the manual's complete-system wording. This does not establish a desktop editor orsupported current OS. |
+| MIDI / receive and program mapping | Receive channelOff,1–16 orOmni. Program-change input/output independently enabled;mapping translates incoming changes to presets andalso affects outgoing program changes onrecall. ChannelOff ignores incoming MIDI. |
+| MIDI / clock and controller assignments | Incoming clock can supply global tempo. Each listed control function acceptsOff orCC0–127 assignments:effect bypass,boost,tap andthe expression-mapped parameter. This is aCC-number assignment range,not a documented on/off value threshold oraccess toevery editable parameter. |
+| MIDI / identification | SysEx deviceID0–126 orALL distinguishes units;it isnot a MIDI channel number. |
 <!-- comparison evidence ends -->
 
 [NOVA-M]: https://manualzz.com/doc/7256177/tc-electronic-nova-system-guitar-and-bass-owner-s-manual
