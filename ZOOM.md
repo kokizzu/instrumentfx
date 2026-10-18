@@ -3081,6 +3081,13 @@ Checked **2026-10-17**, partial. Bass-specific processor; separate from707II gui
 |---|---|
 | Memory / card SAVE exception | **SAVE requires an internally stored patch**; unsaved edits cannot be exported. An occupied target patch is overwritten. **If the target card group is empty, SAVE stores the entire USER group**, not merely the selected patch. Five groups of60 patches are external storage, not extra onboard recall locations. [Own manual pp28–29][708-M] |
 | Memory / bulk restore and card utilities | LOAD overwrites one USER destination; **ALLOAD overwrites the entire USER group**. ALSAVE replaces the selected card group. P DEL removes a card group; SP DEL removes a sample; FORMAT erases all card data. These are documented scopes; no operation was performed. [Own manual pp28–32][708-M] |
+
+### 708II — patch-linked rhythm and sample qualifications
+
+| Field | Own manufacturer manual evidence / qualification |
+|---|---|
+| Drums / patch synchronization | **PATCH SYNC must be ON** for stored rhythm assignments to follow patches. An already-playing rhythm completes its current measure before switching. Intro patterns start on patch selection. **Ending-pattern conflict:** p26 requires R/P to start; p27 says selection plays the ending and stops. Automatic ending triggering remains unresolved. [Own manual pp26–27][708-M] |
+| Looper / patch sample assignment | Patches store card-sample number, playback method and level0–30. **Automatic-play wording is qualified:** pp26–27 introduce playback on selection, but p28 explicitly enables sampler mode and requires a footswitch press to play. Do not promise unattended sample triggering on patch recall. [Own manual pp26–28][708-M] |
 <!-- comparison evidence ends -->
 
 ### 708II — sources and unresolved hardware pricing

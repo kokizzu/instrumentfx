@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom B2 FOUR seller leads / required fields",
-    "task": "Resolve Alberta Musik and GALERI MUSIK SIMFONI_PIM exact B2 FOUR item URLs from saved catalogue leads. Prices remain unqualified outside comparison tables until item/condition/bundle evidence is resolved. Otherwise continue recorded-model required fields; A2 stays non-active.",
+    "model": "Required fields / fresh discovery",
+    "task": "708II patch-linked media wording conflicts documented. Move to another model required-field gap or another Shopee series; B2 FOUR seller leads remain deferred without exact IDs, and A2 stays non-active.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -45864,7 +45864,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Recorded-model required fields / discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Required fields / fresh discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -79129,6 +79129,25 @@
       "reason": "Power supply compatible with BP200, not processor hardware."
     },
     "result": "No new eligible model admitted. Original B2 hardware not established by B2 FOUR hits; no absence claim for BP200/AX10B.",
-    "next": "Resolve exact B2 FOUR item URLs from the two named seller leads before promoting any price; otherwise continue required-field verification."
+    "next": "Resolve exact B2 FOUR item URLs from the two named seller leads before promoting any price; otherwise continue required-field verification.",
+    "followup": {
+      "queries": [
+        "site:shopee.co.id \"Zoom B2\" \"Alberta\"",
+        "site:shopee.co.id \"Zoom B2 Four Effects\" \"Simfoni\"",
+        "site:shopee.co.id \"Efek Bass ZOOM B2 FOUR Multi Efek Processor Original\""
+      ],
+      "result": "Only Alberta catalogue resurfaced; exact item IDs still unresolved. Do not promote either catalogue price."
+    }
+  },
+  "zoom_708ii_patch_media_conflicts_20261018": {
+    "source": "https://zoomcorp.com/media/documents/E_708II.pdf",
+    "printed_pages": [
+      26,
+      27,
+      28
+    ],
+    "destination": "ZOOM.md#708ii",
+    "scope": "Patch synchronization and conflicting trigger wording preserved; no hardware operation.",
+    "remaining": "Ending/sample automatic-trigger behavior requires stronger exact-model evidence."
   }
 }
