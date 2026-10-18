@@ -1447,6 +1447,16 @@ Checked2026-10-19;month-old cached body,not checkout.
 |---|---|
 | IDR / unresolved mixed-model variation lead | [Vin’s Music Store,Depok;shop31173885/item56104704287](https://shopee.co.id/-Ready-Stock-Boss-GX-1-prosesor-efek-gitar-listrik-dan-gx1b-bass-multi-efek-multy-effect-gx1-gx1-b-Boss-Original-i.31173885.56104704287) shows **Rp4.743.000–Rp5.443.000** across variations. Visible labels Gx1 only/Gx1+adaptor ori plus two hidden choices;title also namesGX-1B. Neither endpoint assigned toan exact variant:excluded from verified new/used GX-1 price. ReadyStock title andrelative delivery are not current stockproof. Condition,adapteridentity,warranty,region,shipping,tax,vouchers andcheckout total unverified;late-delivery compensation isnot a discount. |
 
+
+### GX-1 — compressor choices and configured toe behavior
+
+Exact-model HTML documentation,checked2026-10-19;no device operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / compressor choices | [COMPRESSOR](https://static.roland.com/manuals/gx-1_parameter/en-US/358173067362516363.html) lists five types:BOSS COMP(CS-3),D-COMP(Dyna Comp),ORANGE(Orange Squeezer),X-COMP(MDP),STEREO. Sustain,attack andlevel each0–100. These choices do not add five independent simultaneous blocks. |
+| Expression / configured toe operation | [Official assignment example](https://static.roland.com/manuals/gx-1_reference/en-US/445983371446140299.html) sets EXP1 SW FUNCTION=PEDAL FX andEXP1 FUNCTION=FV+TU/PDL FX. Under these settings,pedal controls foot volume withPEDAL FX off;firm toe pressure enablesPEDAL FX andpedal controls its effect,e.g.wah depth. This is a configurable example,not a universal fixed toe assignment. |
+
 <!-- comparison evidence ends -->
 
 [GX1-P]: https://www.boss.info/global/products/gx-1/
