@@ -460,6 +460,16 @@ Checked2026-10-18 against the [manufacturer-authored Version1.1,February2002 man
 | Processing / stereo restrictions | Effects13–15 and38 expose independent left/right parameter editing. Effects42–44,58,59 require signals atbothinputs foroptimalstereo results;this isnot proof everyalgorithm preserves separate stereo channels. |
 | Editor / historical PC statement | Introduction explicitly describes MIDI programming through PC editor software,but names noapplication/version/OS. Historical editing capability is documented;current installer,Windows/macOS compatibility andsupport remain unverified. |
 
+
+### DSP2024P — older manual regional supply differences
+
+Checked2026-10-18 against the [manufacturer-authored Version1.1,February2002 manual](https://dannychesnut.com/Music/Behringer/Rev2496/DSP2024P-Manual.pdf),printedpp30,39. Matching original cover;older revision supplements Version1.2. No hardware inspection or local download.
+
+| Field | Evidence / revision qualification |
+|---|---|
+| Power / regional mains variants | Version1.1specifies USA/Canada120V60Hz,UK/Australia240V50Hz,Europe230V50Hz,andgeneralexport100–120V/200–240V50–60Hz. These regional variants do not establish automatic universal input oridentify anysellerunit. Retain beside Version1.2’s separately recorded regions. |
+| Power / export prose discrepancy | Version1.1installationp30 describes115V-only export units excluded fromvoltage selection,whereasitsownspecification lists dual-range export. Version1.2prose instead says120V-only. Preserve revision andwithin-manual differences;do notresolve byassuming allunits areselectable. |
+
 <!-- comparison evidence ends -->
 
 [D24-M]: https://manualzz.com/doc/1522565/behringer-virtualizer-pro-dsp2024p-user-s-manual

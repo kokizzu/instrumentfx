@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Behringer DSP2024P",
-    "task": "Saved mono-input conflict,stereoalgorithmrestrictions andhistoricalPCeditingstatement. Exact shopitem/suffix unresolved. Next primary numberedalgorithmcensus oranotherrequiredgap aftercommit.",
+    "task": "Saved Version1.1 regionalmains and115V/120Vexport discrepancies. Numberedappendixtablesstillnotreadable;avoidrepeatingsamescreenshotpath. Next qualifiedoffers orprimarygapsof anotheractive model.",
     "next_models": [],
-    "after_queue": "349partialmodels;legacy consolidation incomplete;no downloads/workflows/push."
+    "after_queue": "349partialmodels;legacyconsolidationincomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -76199,5 +76199,19 @@
       "title": "efek behringer virtualizer pro dsp2024 logo lama",
       "result": "Shopindexonly;exactitem/Psuffix/conditionunresolved;notnewmodelorqualifiedoffer"
     }
+  },
+  "dsp2024p_revision_mains_20261018": {
+    "source": "https://dannychesnut.com/Music/Behringer/Rev2496/DSP2024P-Manual.pdf",
+    "revision": "1.1February2002",
+    "pages": [
+      30,
+      39
+    ],
+    "findings": [
+      "UK/Australia240V50Hz variant retained",
+      "Generalexportspec100–120/200–240V50–60Hz versus115Vonlyinstallationprose",
+      "Version1.2installation120Vonlywording remains separatelypreserved"
+    ],
+    "algorithm_census": "Appendix tables unavailable asreadabletext;page31screenshotreturnednoinspectableimage. No census orvisualinspection claimed."
   }
 }
