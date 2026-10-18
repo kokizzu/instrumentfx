@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "TONEX Pedal revision-qualified expression macro scope",
-    "finding": "English1.0.4 per-preset EXT.LEARN explicitly excludes master Volume;MODEL.VOL/postCMPGAIN alternatives. Global socket mode and physical MAINVOL do not prove global expression. Current override/coverage unresolved.",
+    "current": "Ampero Mini volume placement revision boundary",
+    "finding": "Official1.2 notes date Pre/Post addition to2024-12-19;current index still listsMini2.2. Placement isnotglobal assignment;factorydefaults/globaloverride unverified. Prior2.2patchscope retained.",
     "next": [
-      "Priority follow-up: Ampero Mini current firmware/global-volume exception and factory-default scope",
+      "Priority follow-up: Nano Cortex exact current LEVEL expression scope, range and bypass coverage",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"

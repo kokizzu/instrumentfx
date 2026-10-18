@@ -267,6 +267,10 @@ Checked2026-10-19, [own V2.2 manual](https://res.hotoneaudio.com/prod/support/Am
 
 The fixed heel/toe volume range is independent of four effect-target ranges. GLOBAL→EXP/FS selects socket mode and disables switch options inEXP mode, rather than overriding VOLUME assignment. The fixed onscreen VOLUME/TEMPO square does not negate its separate Pre/Post volume-position selector. No measured bypass/headphone/tail/looper coverage or pedal-position recall is established. No downloads ordevice operation.
 
+### Ampero Mini — volume-position revision boundary
+
+Checked2026-10-19. [Manufacturer Mini1.2 release notes,2024-12-19](https://www.hotone.com/news/Ampero-Mini%E6%96%B0%E5%9B%BA%E4%BB%B6%26%E8%BD%AF%E4%BB%B6%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81) explicitly addTEMPO/VOLUME→Vol Position Pre/Post. Thus theolder post-only description predates this documented choice;placement choice isnotglobal assignment. [Current official firmware index](https://www.hotone.com/support/2) still listsMini2.2 withEditor1.5.0 compatibility,andhistorical1.2/1.1 entries. No laterMini version established bythischeck;index listing isnotinstalled-firmware proof. Globalvolumeoverride andfactorypresetVOLUMEdefaults remainunverified;existing2.2patch-scope evidence retained. No packages,manualfiles orfactorypresets downloaded,installed,reset oroperated.
+
 ## Ampero MP-100
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
