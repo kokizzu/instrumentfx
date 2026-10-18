@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Korg AX3000B",
-    "task": "Saved AX3000B text-derived11/7/20 controls, under-pedal switch and recall behavior; LCD documented. Next verify power polarity/current, named full effect categories orfreshShopee discovery. Visual count corroboration and display dimensions remain open.",
+    "task": "Saved AX3000B headphone mute/L-only mono/insert anddigitallevel behavior; cabinetLn-vsAP contradiction retained. Next freshShopee discovery or exact power/display/fullcategory gaps; no hardware tests/downloads.",
     "next_models": [],
     "after_queue": "344 partial unique models;114 Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -58647,6 +58647,21 @@
         "Full named effectgroups"
       ],
       "method": "Browser text; no download/hardware operation"
+    },
+    {
+      "model": "Korg AX3000B",
+      "checked_date": "2026-10-18",
+      "source": "https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3000B_E1.pdf&response-content-type=application%2Fpdf%3B",
+      "pages": "4,6,10–13,25",
+      "finding": "TRSbalanced/unbalanced outputs;headphonemutesanalog;Lonlynotstereosum;SENDalwaysinput;RETURNconditional;digitallevelseparate. p12Lnignorescabinetcontradictsp4Lnactive/p25APignored.",
+      "remaining": [
+        "Powerpolarity/current",
+        "Displaydimensions/color/touch",
+        "Full named effectgroups",
+        "QualifiedIDR",
+        "Cabinetconflict hardware/erratum"
+      ],
+      "method": "Browser text only"
     }
   ],
   "discovery_cross_brand_bass": {

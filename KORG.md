@@ -610,7 +610,7 @@ Checked2026-10-18. Bass multi-effects; distinct from AX3000G. Partial record. [K
 | Processing / choices | 72 advertised variations; seven simultaneous including NR, plus external insert. PRE11,drive/amp16,MOD11,DLY11,RVB11. Spec p57 says amp11/cabinet16; chapter p23 says16drive/amp and11cabinets. Named lists pp23–26 support **six drives +ten amps =16**, and **11 cabinets**; with four11-choice effect groups andNR1, total72. Preserve p57 figures as contradictory; use named-list counts. [E1 pp23–26,57][AX3B-M] |
 | Factory / user memory | **96 writable slots (24×4)**. Printed p15 resolves intro ambiguity: banks1–8 contain32 factory sounds, repeated in9–16 and17–24. Thus96 factory-filled writable slots,32 distinct factory sounds; not128 slots. [E1 p15][AX3B-M] |
 | Synth / acoustic | SYNTH documented; acoustic simulation unverified. |
-| I/O | Mono INPUT; mono SEND/RETURN; stereo mini AUX/PHONES; two mono OUTPUT; optical S/PDIF16-bit44.1kHz; MIDI IN/OUT;DC9V. |
+| I/O | Mono INPUT; mono SEND/RETURN; stereo mini AUX/PHONES; L/MONO andR balanced/unbalanced TRS OUTPUT (each mono); optical S/PDIF16-bit44.1kHz; MIDI IN/OUT;DC9V. |
 | Conversion | AD/DA20-bit;44.1kHz. |
 | Power / battery / USB | 9V DC; manufacturer includes adapter. Polarity,current,barrel,battery andUSB power unknown. Seller bundle unknown. |
 | IR / NAM / capture | User IR,native/converted NAM andcapture import unknown. |
@@ -633,6 +633,15 @@ Technical evidence: [own E1 manual][AX3B-M],printed1,4,10–11,22–23,52,57. No
 ### AX3000B expression recall
 
 Volume, delay-input, reverb-input, or unchanged-target assignments use physical pedal position immediately after recall. Other assignments start at the stored value until pedal movement. [E1 p9][AX3B-M]
+
+### AX3000B audio routing and cabinet conflict
+
+| Field | Manual evidence / qualification |
+|---|---|
+| I/O / headphone and mono routing | PHONES insertion mutes analog OUTPUT. L/MONO alone carries onlyL, not a documented stereo sum. RearLEVEL controls analog outputs/headphones; digital level is separate. [E1 pp10–13][AX3B-M] |
+| I/O / insert | SEND always carries input. Connected RETURN is processed whenINSERT is on; withoutRETURN, INPUT remains source. AUX playback volume is set at source. [E1 p10][AX3B-M] |
+| Routing / cabinet conflict | p4 permits cabinet only withLn anddrive/amp on; p25 saysAP ignores cabinet. However p12 saysLn ignores cabinet. Preserve contradiction; no hardware confirmation orerratum established. [E1 pp4,12,25][AX3B-M] |
+| I/O / digital level | GLOBAL DOUT LVL selects−12,−6,0,+6,+12dB independently ofrearLEVEL. [E1 pp6,13][AX3B-M] |
 
 <!-- comparison evidence ends -->
 
