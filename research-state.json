@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC Electronic NOVA System",
-    "task": "Saved NOVA text-derivedK4/F8/B15 withbuttonarithmetic,per-effect4variation scope andalgorithm-onlyFactoryDefault distinction. Next seekfreshShopee hardware orstronger primarydimension/concurrency evidence;visualcontrols/expression,currenteditor andqualifiedIDR remain. Do notrepeat same manual asnewvisualproof.",
+    "task": "Saved directmanufacturer SpanishNOVAmanual1.0/SW1.00:LED/LCDconflict,dimensionunit mismatch repeated,analogIO limits. NewShopeequeries onlyoldadapter. Next freshbrand/series discovery orstrongerconcurrency/visualhardware evidence;do notrepeat languageversions asresolution ofexistingconflicts.",
     "next_models": [],
     "after_queue": "366active/46brands;307guitar159bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -80967,5 +80967,21 @@
     "B": 15,
     "button_method": "7effectedit+4variation+FactoryDefault+Store+Levels+Menu",
     "method": "Text-derived,notphotoverified;built-inexpression/toevisualaudit pending."
+  },
+  "nova_system_spanish_spec_audit": {
+    "date": "2026-10-18",
+    "source": "https://service-tcgroup.tcelectronic.com/media/Nova_Sys_SP.pdf",
+    "revision": "Spanish1.0/SW1.00",
+    "status": "Direct manufacturer source resolves mirror-only evidence dependency forspecs;displayLED/LCD anddimensionunitconflicts remain.",
+    "remaining": "No visual panelaudit;not a firmware equivalence claim."
+  },
+  "discovery_nova_followup_20261018": {
+    "queries": [
+      "site:shopee.co.id Plethora X1",
+      "site:shopee.co.id Nova System efek",
+      "site:shopee.co.id Boss SE-70",
+      "site:shopee.co.id DigiTech RP350 efek"
+    ],
+    "result": "No qualified exacthardware;RP350/355/300adapter855783279/22273291654 alreadyrejected,notprice evidence."
   }
 }

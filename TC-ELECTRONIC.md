@@ -375,7 +375,7 @@ Checked 2026-10-18. Guitar multi-effects, distinct from NOVA Drive/Modulator and
 |---|---|---|
 | Expression | External Pedal In accepts expression orG-Switch;calibration required. Built-in/toe audit pending. | [Manual][NOVA-M] pp9,16–17 |
 | K/F/B | **4 / 8 / 15**, derived from manual text: four A–D encoders; eight footswitches; seven effect-edit buttons + four variation keys + Factory Default, Store, Levels and Menu. Encoder rotation counts once; power/toe separate. Diagram/photo corroboration pending. | [Manual][NOVA-M] pp6–9,24 |
-| Display | 24×2-character LCD;diagonal/color/touch unresolved. | [Manual][NOVA-M] p46 |
+| Display | 24×2 characters;English manual says LCD,Spanish1.0 says LED (conflict below). Diagonal/color/touch unresolved. | [Manual][NOVA-M] p46 |
 | Dimensions / weight | Printed284×89×267mm,axis order unlabelled;1.85kg. Inch-to-mm depth correspondence appears inconsistent;not silently corrected. | [Manual][NOVA-M] p46 |
 | Processing / choices | Analog overdrive/distortion plus six digital blocks:compression,EQ+gate,modulation,pitch,delay,reverb. Section-level category census below;exact simultaneous ceiling remains unverified. | [Manual][NOVA-M] p5 |
 | Factory / user memory | 30factory+60user presets;initial user fill unresolved. | [Manual][NOVA-M] p5 |
@@ -432,8 +432,20 @@ Checked 2026-10-18 against original manual revision1.2/SW1.10,pp7–9,24. Text-d
 | Physical controls / count method | **K4/F8/B15.** Manual p24 explicitly identifies seven effect-edit switches;these are distinct from the eight performance footswitches described onp8. Four variation keys andfour additional named front-panel buttons complete B15. Dual functions andlong-press actions do not add switches. Built-in expression/toe hardware still requires diagram corroboration. [Manual][NOVA-M] |
 | Memory / variation scope | Each selected effect type stores **four favorite settings** through the variation keys. Recalling one changes that effect in the current preset;the preset itself still needs saving. These are reusable effect settings,not four additional complete-preset banks orsimultaneous effects. [Manual][NOVA-M] p7 |
 | Memory / factory-default scope | Front-panel Factory Default recalls defaults for the **currently selected effect algorithm**. It isdistinct from Utility Clear System anddoes not establish a whole-unit reset from one button press. [Manual][NOVA-M] pp7,19 |
+
+### NOVA System — direct manufacturer Spanish specification check
+
+Checked 2026-10-18. [Manufacturer Spanish manual][NOVA-SP],revision1.0/SW1.00 (p3),distinct from English1.2/SW1.10. Exact NOVA System cover andmodel declaration verified;English PDF still502. Text inspection only.
+
+| Field | Evidence / qualification |
+|---|---|
+| Display / language-revision conflict | Spanish p46 calls the24×2-character display **LED**;English p46 says **LCD**. Preserve the disagreement;no new color,touch ordiagonal specification established. |
+| Dimensions / repeated unit disagreement | Spanish p46 repeats **284×89×267mm** alongside **11.2×3.5×10.25in**. The final pair is not an exact conversion;this corroborates the printed discrepancy without resolving axis order orreplacing267mm with a calculated value. |
+| I/O / analog specifications | Line impedance **21kΩ balanced/13kΩ unbalanced**;outputs **40Ω**. Maximum balanced/unbalanced output **+20/+14dBu into1200Ω**;selectable output ranges **20/14/8/2dBu**. Output dynamic range **>104dB,20Hz–20kHz**. These are operating/electrical limits,not device current draw oradditional processing choices. Spanish p46. |
 <!-- comparison evidence ends -->
 
 [NOVA-M]: https://manualzz.com/doc/7256177/tc-electronic-nova-system-guitar-and-bass-owner-s-manual
 
 Official original endpoints retained forprovenance: https://service-tcgroup.tcelectronic.com/media/Nova_Sys_US.pdf (502); https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_nova_system_manual_english.pdf (inaccessible). No package/file downloaded ordevice/software operated.
+
+[NOVA-SP]: https://service-tcgroup.tcelectronic.com/media/Nova_Sys_SP.pdf
