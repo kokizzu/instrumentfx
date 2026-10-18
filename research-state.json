@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER GS1000 Li",
-    "task": "GS1000 Li USB audio/MIDI now confirmed from shared exact-edition product page. Current GS1000 support notes preserved as Li applicability gap and Mac minimum revision discrepancy. Next seek explicit Li firmware/editor compatibility or fresh eligible Shopee discovery; do not transfer standard NAM claims.",
+    "task": "GS1000 Li shared-manual routing, conditional tails, reset scopes and Li charging indicator saved. Next fresh eligible Shopee discovery; unresolved Li current firmware/editor/NAM compatibility retained rather than assumed.",
     "next_models": [],
     "after_queue": "347 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -58909,6 +58909,21 @@
         "Current effect/rhythm count reconciliation"
       ],
       "method": "Web text only; no downloads or software execution"
+    },
+    {
+      "model": "MOOER GS1000 Li",
+      "checked_date": "2026-10-18",
+      "source": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GS1000_Manual_EN.pdf",
+      "pages": "64,66–68",
+      "finding": "Shared manual: same-chain/model conditional spillover; module Trail versus global SPILL-OVER; external volume Pre preserves downstream decay versus default Post master mute; separate reset scopes for presets/global/sample/loop data. Li-specific off-state charging light documented.",
+      "remaining": [
+        "Exact Li firmware/editor compatibility",
+        "Qualified Shopee hardware price",
+        "Current effects/rhythm counts",
+        "Factory-filled preset subset",
+        "Visual panel audit"
+      ],
+      "method": "Read manufacturer manual via web text; no download or operation"
     }
   ],
   "discovery_cross_brand_bass": {
