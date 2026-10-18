@@ -539,6 +539,13 @@ Checked 2026-10-18 against [own E1 manual pp15–21](https://voxamps.com/wp-cont
 | Processing / cabinet census | **11:** TWEED1x8; TWEED1x12; TWEED4x10; BLACK2x10; BLACK2x12; VOX AC15; VOX AC30; VOX AD120VTX; UK H30 4x12; UK T75 4x12; US V30 4x12. The manual permits free amp/cabinet combinations. |
 | Processing / CLEAN-CUSTOM qualification | EX manual describes four-band EQ and specifies **GAIN,TREBLE,MIDDLE,BASS,PRESENCE all minimum** for flat response, with cabinet off for a completely clean line-like result. Retain this EX instruction rather than copying ST’s centered tone controls or disabled-GAIN description. Hardware behavior remains untested. |
 
+### ToneLab EX — output compensation and AUX level
+
+| Field | Exact-model manufacturer qualification |
+|---|---|
+| Routing / AMP compensation scope | AMP settings **VOX/F/M** compensate amp-model output for the connected amplifier. **Compensation does not apply when amp modeling is off or a stand-alone pedal is selected.** LINE is recommended for power-amp inputs, mixers, recorders, headphones and internal speakers; it also enables Total Equalizer. These are output destinations, not extra amp algorithms. [Own E1 manual p9](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf). |
+| I/O / AUX playback level | Stereo-mini AUX accepts an external device’s analog output; **adjust accompaniment volume on that source device**. Rear LEVEL controls OUTPUT/PHONES. The inspected instructions do not establish AUX-to-USB recording or a separate onboard AUX mixer level. [Own manual p8](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf). |
+
 ## StompLab 1B
 
 <!-- comparison evidence begins -->

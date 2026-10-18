@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Required fields / fresh discovery",
-    "task": "Bass Fly Rig v2 analog computer connection and tuner evidence boundaries saved. Continue a different manufacturer required-field gap or Shopee series discovery; no numeric tuner gesture borrowed from guitar Fly Rig.",
+    "model": "ToneLab EX required fields / discovery",
+    "task": "ToneLab EX output compensation exception and AUX source-level control saved. Continue other required-field gaps or a different Shopee series; current exact EX offer remains condition-unverified.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -45864,7 +45864,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Required fields / fresh discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume ToneLab EX required fields / discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -79229,5 +79229,16 @@
     "destination": "TECH21.md#bass-fly-rig-v2",
     "scope": "Analog computer-recording path distinguished from digital interface evidence; tuner hold duration remains unverified.",
     "remaining": "Control census, editor/storage/headphone/battery/USB scope and exact Indonesian hardware offers remain incomplete."
+  },
+  "vox_tonelab_ex_output_scope_20261018": {
+    "source": "https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf",
+    "printed_pages": [
+      8,
+      9
+    ],
+    "destination": "VOX.md#tonelab-ex",
+    "scope": "Exact-model output compensation exception and source-side AUX volume verified.",
+    "market": "Search repeated existing bejita4466947/42755664991 Rp1700000 and rejected casing80816302/22315555452 Rp250000; no new model/offer qualification.",
+    "remaining": "Polarity symbol, USB transport channels/format, current software and qualified condition/stock remain unresolved."
   }
 }
