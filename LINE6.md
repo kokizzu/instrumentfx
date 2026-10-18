@@ -1422,6 +1422,14 @@ Checked **2026-10-17**; partial. Manufacturer styles the name PODxt Live. Guitar
 | Used IDR | **?** Saved sold-out hardware ask lacks sale-condition evidence. |
 | New IDR | **?** No condition-verified new hardware offer established. |
 
+
+| Required field | Additional manual evidence checked 2026-10-18 |
+|---|---|
+| Processing / EQ and routing | Four-band semi-parametric EQ: low/high shelves and two peaking bands, each with frequency and gain; independent bypass and flat reset. Mod and Delay each select pre/post amp placement; Volume also selects pre/post with adjustable heel minimum. These placements do not establish freely assignable slots or a maximum simultaneous-effect count. [Manual v3][XTL-M], pp4•4–9 |
+| Physical controls / Amp switch | Amp footswitch can instead toggle the dedicated compressor; this changes its assignment, not the physical switch count. [Manual v3][XTL-M], p4•9 |
+| Memory / wah recall | A Channel Memory stores wah model,on/off state and position. [Manual v3][XTL-M], p4•8 |
+| I/O / headphone recommendation | Manual recommends 150–600Ω studio headphones; this is a load recommendation, not output impedance or measured output power. [Manual v3][XTL-M], p2•2 |
+
 <!-- comparison evidence ends -->
 
 ### Exact Shopee hardware evidence

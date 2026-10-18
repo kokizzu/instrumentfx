@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS AD-8",
-    "task": "AD8 analog levels,output impedances,power switching andoriginal bundle qualified. Bass ME6B/ME8B/AX3000B discovery returned no indexed leads. Continue freshhardware lead or primarygap;114 Markdown compatibility files retained.",
+    "model": "Line 6 POD XT Live",
+    "task": "Saved manual EQ/routing,footswitch assignment,wah recall andheadphone recommendation. Continue exact hardware discovery or remaining XT Live power/dimensions/category gaps;114 Markdown compatibility files retained.",
     "next_models": [],
     "after_queue": "342 partial unique models; Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -45579,7 +45579,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS AD-8."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Line 6 POD XT Live."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -58296,6 +58296,13 @@
       "checked": "2026-10-18",
       "finding": "Exact manual clarifies post-SansAmp/pre-effects loop,digital octave divider andoverload diagnosis.",
       "source": "https://www.tech21nyc.com/t21manuals/BassFlyRig_v2_OM.pdf"
+    },
+    {
+      "model": "Line 6 POD XT Live",
+      "checked": "2026-10-18",
+      "finding": "Four-band EQ,independent Mod/Delay/Volume pre/post positions,Amp-to-Comp footswitch assignment,wah recall and150–600ohm headphone recommendation;maximum simultaneous effects unresolved.",
+      "source": "https://l6c-acdn2.line6.net/data/6/0a060b316ac34f0593d2ca219/application/pdf/PODxt%20Live%20Manual%20-%20Version%203%20%28%20Rev%20C%20%29.pdf",
+      "pages": "2•2,4•4–9"
     }
   ],
   "discovery_cross_brand_bass": {
