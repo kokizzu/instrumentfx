@@ -75413,8 +75413,8 @@
     "next": "Fresh Shopee GP-series discovery; GP-100VT manufacturer lead requires exact hardware offer and own-model technical evidence."
   },
   "resume_cursor": {
-    "model": "TC Electronic M350",
-    "task": "Saved routing restrictions andAP/Frserviceversion versusdesktopeditor distinction. Next freshShopee discovery orremainingmodelrequirements;no currentdesktopcompatibility inferred.",
+    "model": "Sonicake Matribox II Pro QME-200",
+    "task": "Saved second exact4350000IDR sold-out ask andseller-region/statussnapshot differences. Next verify completeconnectorinventory orotherrequiredfields fromexactmanual;do notuse seller title as specs.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75541,5 +75541,18 @@
     "pages": "12,22–23",
     "findings": "Parallelanalogonlyleftinputnormalledwhenrightempty;commonstereooutputs;serialDelayEffects->Reverb;AP/Frhardwareversiondisplaydistinctdesktopeditor",
     "remaining": "EditorOS/installers,buttons,display,conditionqualifiedIDR unknown"
+  },
+  "matribox_ii_pro_offer_20261018": {
+    "source": "https://shopee.co.id/Efek-Gitar-Elektrik-Gitar-Akustik-Bass-SONICAKE-Matribox-II-Pro-QME-200-Multi-Effects-Processor-63-Amplifier-Simuator-93-Effects-61-Cabsim-6-Footswitch-Built-in-Expression-Pedal-XLR-Output-Drum-Machine-Touchscreen-4.3-USB-Audio-Interface-Soundcard-Pedal-i.19700013.28130671930",
+    "seller": "MICKEY MOUSE SHOP",
+    "shop": "19700013",
+    "item": "28130671930",
+    "idr": 4350000,
+    "condition": "unknown",
+    "stock": "Habis cached;currentunknown",
+    "access": "directcachedlastmonth versusfourmonthsearch",
+    "conflict": "directJakartaUtara/active versussearchJakartaPusat/holiday/deliveryunavailable;no currentstateclaim",
+    "discovery": "MatriboxIII/GE80noqualifiednewmodel;MatriboxIIProalreadyrecorded",
+    "remaining": "Qualifiedused/new prices,workingcondition,bundle,checkout andexistingtechnicalgaps"
   }
 }
