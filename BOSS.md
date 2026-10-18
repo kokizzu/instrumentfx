@@ -1395,6 +1395,18 @@ Checked **2026-10-16**. Cached exact hardware text is not live checkout or stock
 | Historical local retail / Melodia | **Rp4.743.000**, selected-branch stock label observed2026-10-15; not reopened or Shopee evidence. | [Melodia](https://www.melodiamusik.com/product/boss-gx-1-guitar-multi-effects-pedal/) |
 | Historical local retail / GMI | **Rp4.328.000**, older indexed available observation retained2026-10-15; not reopened or current stock. | [GMI](https://galerimusikindonesia.com/product/boss-gx-1-guitar-multieffects-processor/) |
 
+
+### GX-1 — conversion, electrical ratings and battery duration
+
+[Exact manufacturer specifications](https://www.boss.info/global/products/gx-1/),checked2026-10-19. Published ratings,not measurements;no GX-1B transfer.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / conversion | 48kHz;A/D24bit plus proprietary AF method;D/A32bit;32bit floating-point processing. These are internal specifications,not USB stream bit depth. |
+| I/O / electrical ratings | Input nominal−10dBu,maximum+7dBu,1MΩ. Outputs/headphones nominal−10dBu;output impedance1kΩ,headphones44Ω. Recommended loads≥10kΩ line,≥44Ω headphones. |
+| Power / alkaline runtime | Approximately five hours with four alkaline AA batteries;manufacturer qualifies actual conditions. Does not establish rechargeable runtime. |
+| Processing / tuner precision | Internal detection±0.1cent;not an external measurement orreference-frequency range. |
+
 <!-- comparison evidence ends -->
 
 [GX1-P]: https://www.boss.info/global/products/gx-1/

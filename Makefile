@@ -2023,3 +2023,7 @@ research-commit-m350:
 .PHONY: research-commit-harley-benton
 research-commit-harley-benton:
 	python3 scripts/harley_benton_catalogue.py commit
+
+.PHONY: research-commit-boss
+research-commit-boss:
+	python3 scripts/boss_catalogue.py commit

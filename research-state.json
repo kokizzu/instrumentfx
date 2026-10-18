@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh Shopee discovery / manufacturer gaps",
-    "task": "Core exact Thomann item adds10customIRcapacity;internalUSBwording conflicts saved,not resolved. Avoid repeating unchanged Core product/manual/listing paths. Continue fresh Shopee brand/series discovery or another exact-model technical gap. All388partial;migration incomplete.",
+    "model": "GX-1 technical gaps / Shopee discovery",
+    "task": "GX-1 conversion/electrical/runtime/tuner ratings saved. Next exact GX-1 parameter category census or primary USB stream-format documentation;fresh Shopee discovery also pending. All388partial;migration incomplete.",
     "next_models": [],
     "after_queue": "388active47brands;no downloads/workflows/push."
   },
@@ -46335,7 +46335,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery / manufacturer gaps."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume GX-1 technical gaps / Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -120545,5 +120545,16 @@
     "shopee_query": "site:shopee.co.id \"Harley Benton\" \"DNAfx\"",
     "result": "No results;IDR unknown",
     "qualification": "Same brand owner/retailer,not independent measurement;no revision explanation."
+  },
+  "gx1_electrical_followup_20261019": {
+    "source": "https://www.boss.info/global/products/gx-1/",
+    "findings": [
+      "48kHz,A/D24+AF,D/A32,float32 internal specifications",
+      "Input/output/load ratings saved",
+      "Approx5h alkaline runtime",
+      "Tuner internal±0.1cent"
+    ],
+    "shopee": "Exact V Musik item reopened via cached month-old text;not fresh stock/checkout evidence.",
+    "remaining": "USB stream formats,DC polarity/voltage,category census,screen diagonal/touch,qualified used IDR."
   }
 }
