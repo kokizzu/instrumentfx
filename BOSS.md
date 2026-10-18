@@ -3323,6 +3323,14 @@ The driver page refers detailed configuration to packaged/post-install readmes. 
 
 The [2014 parameter guide](https://static.roland.com/assets/media/pdf/GT-001_r_e01W.pdf) exceeded reader limit (11,386,475 bytes); not downloaded or visually inspected. Search-generated cover description called desktop favorite buttons footswitches; not accepted as control evidence. Own manual needed; no sibling borrowing.
 
+### GT-001 — expression-volume audit, 2026-10-19
+
+**System assignment supported:** PREFERENCE **EXP=SYSTEM**,EXP **FUNC=FV**. Manufacturer-authored [GT-001 parameter guide body](https://www.manualzz.com/doc/748967/boss-gt-001-guitar-effects-processor-owner-manual),printed pp21,26,35,corroborated by[official indexed original](https://static.roland.com/assets/media/pdf/GT-001_r_e01W.pdf). Exact title,2014structure andGT-001 CTL/EXP chapter match;generatedQ&A excluded. SYSTEM shares function acrosspatches andignores correspondingpatchASSIGNsource. **EXP.HLD** separately retains pedal state when destinationfunction matches;itdoesnot createassignment. FV MIN/MAX0–100,fourcurves. Placement/range-storage scope,bypass,headphone,tail/loop attenuation remain unverified. No physical test ornewimage inspection;officialfullPDF exceedsreaderlimit.
+
+Existing exact-product **211 W×135 Dmm** exceeds preferredwidth by11mm;dedicated3.5mm phones. Onboard sequentialpresetdown/up foot operation remains unverified;desktop favoritecontrols mustnot be counted asfootswitches. Built-intreadle absence still needscompletepanel corroboration,so inclusion here isprovisional ratherthan fullyverified no-treadle status.
+
+Exact[Toko Standard shop214621914/item18937945565](https://shopee.co.id/Effect-Guitar-BOSS-GT-001-COSM-i.214621914.18937945565) failed retrieval2026-10-19. PreserveolderRp5.075.200 shop-cardask;currentcondition,bundle,adapter,warranty,stock,shipping andusedprice unknown. No siblingoffertransfer orlocaldownload.
+
 ## AD-8
 
 Acoustic-guitar multi-effects: body modeling, EQ, reverb and feedback suppression; distinct from AD-10 and single-function acoustic simulators. Checked 2026-10-17; partial. No documented bass/vocal membership adopted.

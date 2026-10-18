@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "BOSS MS-3 (partial)",
-    "finding": "SYSTEM EXP preference plusFV supports shared assignment;FV placement/range and competingpatchASSIGNs still qualified. Too wide,no dedicatedphones;exactask cached.",
+    "current": "BOSS GT-001 (partial; panel qualification retained)",
+    "finding": "Exact guide supports SYSTEM EXP functionFV anddistinctEXP.HLD. Footprint11mmtoo wide;completepanel/no-treadle corroboration pending;exactShopee retrievalfailed.",
     "next": [
-      "Systematic remaining no-treadle inventory: BOSS GT-001",
+      "Systematic remaining no-treadle inventory: TC Electronic PLETHORA X3",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
@@ -122593,7 +122593,7 @@
       "date": "2026-10-19",
       "source_commit": "87c7d3816a380ddc49e3af2b2441564f454f87d7",
       "scope": "Normalized inherited source checks without recertification or admitting partial leads; exact prior merged category preserved in public_metadata.remote_87c7d38_preserved.expression_category_before_normalization.",
-      "comparison_rows": 24,
+      "comparison_rows": 25,
       "adjacent_rows": 1,
       "active_inventory_changed": false
     }
