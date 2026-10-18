@@ -310,6 +310,17 @@ Technical rows: [manufacturer manual printed29][DGS-M]; specification fields rem
 | I/O / digital level | Coaxial DIGITAL OUT level is fixed with respect toOUTPUT knob; no digital word width established here. [Manual p11][DGS-M] |
 | Tuner / mute | Tuner mode mutes OUTPUT,PHONES andDIGITAL OUT. [Manual p22][DGS-M] |
 
+### DG-Stomp expression assignment and calibration
+
+| Field | Exact-model qualification |
+|---|---|
+| Expression / assignments | Eight control slots; sourceEXP orMIDI CC1–31/64–95. Global,per-patch ordisabled mode. Parameter endpoints0.0–10.0. [Manual p25][DGS-M] |
+| Expression / calibration | Pedal minimum0–128,maximum127–255. Prose prohibits span<128; diagram says>128,leaving equality ambiguous. [Manual p26][DGS-M] |
+| Expression / wah switching | Pedal-angle threshold must be≥calibrated maximum;OFF disables switching. FC-7 fortissimo return range suggested. This documents threshold switching,not a separate mechanical toe switch. [Manual p26][DGS-M] |
+| Expression / MIDI transmit | Pedal transmissionOFF orCC1–32/64–95; distinct from assignment source range. [Manual p26][DGS-M] |
+| Expression / wah filter | Low150–500Hz;high1.50–5.00kHz;Q1.00–5.00. [Manual p27][DGS-M] |
+| Routing / preamp and cabinet | Preamp can be disabled for effects-only use. Speaker simulation globallyON,per-patch orOFF. Simultaneous ceiling remains unverified. [Manual p27][DGS-M] |
+
 <!-- comparison evidence ends -->
 
 [DGS-M]: https://usa.yamaha.com/files/download/other_assets/7/313717/dgstomp_en.pdf

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Yamaha DG-Stomp",
-    "task": "DG-Stomp memory180slots/read-only90/user90initialcopy,STOREscope andheadphone/digital/tunermute routing saved; FC7externalexpressionconfirmed. Next exactmanual expressionthreshold/routing details orfreshShopee discovery.",
+    "task": "DG-Stomp8controlslots/global-patch-off,externalanglewahswitch/calibration andfilter ranges saved;>=128 prose vs>128diagram preserved. Next exact processing/amp/cabinventory or freshShopee discovery; currenteditor/display/price gaps remain.",
     "next_models": [],
     "after_queue": "345 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -58735,6 +58735,22 @@
         "Displaydiagonal/color/touch"
       ],
       "method": "Browsertext;no download oroperation"
+    },
+    {
+      "model": "Yamaha DG-Stomp",
+      "checked_date": "2026-10-18",
+      "source": "https://usa.yamaha.com/files/download/other_assets/7/313717/dgstomp_en.pdf",
+      "pages": "25–27",
+      "finding": "8assignment slots;EP/MIDI source1–31/64–95 vs pedaltransmit1–32/64–95;calibration0–128/127–255withspanboundaryconflict;anglethresholdwahswitch;filter150–500Hz/1.5–5kHz/Q1–5;preampbypass/cabglobalmode.",
+      "remaining": [
+        "Builtinexpressionvisualaudit",
+        "Simultaneousceiling",
+        "Digitalwordwidth",
+        "EditorOS",
+        "QualifiedIDR",
+        "Displaydetails"
+      ],
+      "method": "Browsertext;nooperation/download"
     }
   ],
   "discovery_cross_brand_bass": {
