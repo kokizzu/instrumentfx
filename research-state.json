@@ -45681,6 +45681,58 @@
       "overall_complete": false
     },
     "preservation_recheck_latest": {
+      "checked_date": "2026-10-18",
+      "source_head": "ef334e4075148c054e3e8e13108d203735af6b16",
+      "inputs_unchanged_during_run": true,
+      "checks": [
+        {
+          "target": "make consolidation-audit-body-differences",
+          "exit_code": 0,
+          "complete_source_bodies": 82,
+          "mismatches": 0,
+          "other_entries_outside_this_check": 92
+        },
+        {
+          "target": "make consolidation-verify",
+          "exit_code": 0,
+          "result": "Complete consolidated bodies and supporting comparison facts retained."
+        },
+        {
+          "target": "make metadata-retirement-verify",
+          "exit_code": 0,
+          "result": "13 metadata redirects; complete pinned originals match root metadata; all original headings/incoming anchors/root destinations resolve."
+        },
+        {
+          "target": "make technical-retirement-verify",
+          "session_id": 17664,
+          "exit_code": 0,
+          "technical_sources": 99,
+          "retired_sources": 99,
+          "incoming_link_occurrences": 0,
+          "result": "All shared-source unions pass; every original heading/root destination preserved."
+        },
+        {
+          "target": "make specialist-retirement-verify",
+          "exit_code": 0,
+          "result": "GM-800 complete section, excluded archive, specialist context and incoming anchors preserved."
+        },
+        {
+          "target": "make json-pointer-removal-verify",
+          "exit_code": 0,
+          "result": "Three original JSON files/two unique typed snapshots reconstructed; exact removed selection and zero incoming Markdown links verified."
+        }
+      ],
+      "remaining_markdown_compatibility_paths": 114,
+      "removed_json_pointers": 3,
+      "limitations": "Evidence preservation and historical navigation checks, not manufacturer truth/current stock or complete research. No compatibility source deleted; overall migration remains incomplete."
+    },
+    "compatibility_retention_review_20261018": {
+      "markdown_files": 114,
+      "status": "retain_current_contract",
+      "basis": "Read JSON-pointer-removal and technical-retirement implementations plus current compatibility example. Markdown files are heading-preserving redirects; existing verifiers require them. No deletion planned/applied.",
+      "limitation": "Not a fresh full lossless content audit; previous preservation proofs remain separately dated. Overall migration remains incomplete."
+    },
+    "preservation_recheck_body_and_compact_20261018": {
       "date": "2026-10-18",
       "target": "make consolidation-audit-body-differences",
       "complete_source_bodies": 82,
@@ -45688,12 +45740,6 @@
       "other_entries_outside_scope": 92,
       "compact_reference_plan_changes": 0,
       "limitation": "Registered whole-body equality and current compact links only; compatibility-retention contract remains. No source retirement or full migration certification."
-    },
-    "compatibility_retention_review_20261018": {
-      "markdown_files": 114,
-      "status": "retain_current_contract",
-      "basis": "Read JSON-pointer-removal and technical-retirement implementations plus current compatibility example. Markdown files are heading-preserving redirects; existing verifiers require them. No deletion planned/applied.",
-      "limitation": "Not a fresh full lossless content audit; previous preservation proofs remain separately dated. Overall migration remains incomplete."
     }
   },
   "deferred_work": {
