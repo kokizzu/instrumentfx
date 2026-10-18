@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Lexicon MX200",
-    "task": "Saved manufacturer body dimensions/mass,explicit9VDCversus9VAC conflict andbypass modes. Needcompletepanelinventory,display,revision-specificpower,USBaudioandqualifiedoffers. Next MX200 fullmanual oranotherrequiredgapaftercommit.",
+    "task": "Saved displaytype,userbankinitialfill andstagedrecall/AutoLoad. RemainingUSBpath,powerrevision,physicalbuttoncount andqualifiedoffers. Next seekprimaryUSBconnectionsection orfreshShopeeevidence.",
     "next_models": [],
     "after_queue": "349partialmodels;legacyconsolidationincomplete;no downloads/workflows/push."
   },
@@ -76228,5 +76228,22 @@
       "| Dimensions / weight |1RU;exact width/depth/height andmass unverified [MX-S] |",
       "| Power / battery / USB |Product:9VAC1300mA PS0913B;indexed manual instead names PS0913DC. Revision/compatibility conflict unresolved;do not select replacement from this record. Measured draw,battery andUSB power unverified [MX-P,MX-M] |"
     ]
+  },
+  "mx200_display_memory_20261018": {
+    "source": "https://lexiconpro.com/en-US/product_documents/mx200manual_bpdf",
+    "pages": [
+      5,
+      10
+    ],
+    "findings": [
+      "2characterLEDwithuserbankdot",
+      "99userprogramsinitiallyfactorycopies",
+      "Encoderstagesprogram;pushloads;AutoLoadoptional"
+    ],
+    "previous_rows": [
+      "| Display |Program display documented;diagonal,color/monochrome,touch technology unresolved [MX-M] |",
+      "| Preset memory |99factory+99user=198 locations;factory-filled user subset unverified [MX-P] |"
+    ],
+    "remaining": "Physicalselectorbuttoncount,displaydiagonal/color/touch,USBaudiorouting andpowerrevisionunresolved"
   }
 }

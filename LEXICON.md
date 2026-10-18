@@ -11,9 +11,9 @@ Dual-engine rack multi-effects for live/studio mixer paths. Checked2026-10-17. G
 | Instrument scope |Guitar/vocal via mixer or suitable preamp at line level;not direct mic/Hi-Z input. Bass unclassified [MX-M p.1] |
 | Expression |No built-in pedal/toe;external EXP unverified. Two-button TRS bypass footswitch:tip P2,ring P1,sleeve ground [MX-M p.6] |
 | Knobs / footswitches / buttons |10 rotary derived:Input,2Mix,6parameter,Program.0built-in footswitches;complete button count unresolved. Encoder push counted separately only after inventory verification [MX-P] |
-| Display |Program display documented;diagonal,color/monochrome,touch technology unresolved [MX-M] |
+| Display |**2-character LED** program display;lower-right dot identifiesuserbank. Also showsutility/parameter values. Diagonal,color andtouch remainunverified;matrix/control LEDs separate [MX-M p.5] |
 | Processing / categories |2simultaneous processors;32choices:16reverbs,6delays,2dynamics,8other effects. Four routes:DualMono,Cascade,DualStereoParallel,MonoSplit [MX-S] |
-| Preset memory |99factory+99user=198 locations;factory-filled user subset unverified [MX-P] |
+| Preset memory |**99factory+99user=198 locations;all99user slots initially duplicatefactory programs**,remainingwritable. Computerlibrary isnotadditionalonboard memory [MX-P,MX-M p.10] |
 | Synth / acoustic |PitchShift andDetune are documented;dedicated synth/acoustic simulator unverified [MX-S] |
 | IR / NAM / captures |User IR,native/converted NAM andmeasured capture import unverified |
 | Audio / control ports |2TRS line inputs,2TRS line outputs;MIDI IN/OUT-THRU;USB;S/PDIF I/O;TRS footswitch;power. No mic/headphone/phantom port in indexed rear inventory [MX-M p.6] |
@@ -38,7 +38,7 @@ Dual-engine rack multi-effects for live/studio mixer paths. Checked2026-10-17. G
 - [MX-S: original cut sheet18-0336,copyright2005](https://lexiconpro.com/en-US/product_documents/mx200_infosheetpdf),indexed source.
 - [MX-M: original indexed user guide](https://lexiconpro.com/en-US/product_documents/mx200manual_bpdf),direct403;selected indexed quick-start/rear-panel text inspected. No complete PDF-body or visual inspection claimed.
 
-No files downloaded. Remaining:accessible fullmanual,control inventory,display,body/mass,power revision,USB audio distinction,software OS details andqualified offers. Bass suitability remains unclassified.
+No files downloaded. Remaining:accessible fullmanual,completephysicalbuttoninventory,display diagonal/color/touch,power revision,USB audio distinction,software OS details andqualified offers. Bodydata nowdocumented below. Bass suitability remains unclassified.
 
 
 ### MX200 — published body data and bypass modes
@@ -50,6 +50,17 @@ Checked2026-10-18 from manufacturer-indexed [user guide][MX-M],printedpp4,38. Di
 | Dimensions / mass | Guide specifies19in width,1.75in height,4.75in depth and3.75lb weight. Knob/adapter/packaging inclusion isnotstated;retain originalunits. |
 | Power / source conflict | Guide specification explicitly9VDC,power supplyincluded;product specifies9VAC1300mA PS0913B. Neither source proves thevoltage revision ofasellerunit orreplacement compatibility. |
 | Live / bypass modes | Default processorbypass passesdry unprocessed signal. Optional BypassMute suppressesbothwetanddry output for thatprocessor. Distinguish these modes fromglobal audio muting andfromeffect-only routing;exact topology-specific behavior pending. |
+
+
+### MX200 — recall behavior and factory-filled user bank
+
+Checked2026-10-18 from manufacturer-indexed [guidepp5,10][MX-M];selectedoriginaltext only,nofullbodyorvisualinspection.
+
+| Field | Evidence / qualification |
+|---|---|
+| Memory / user initialization | All99userprograms initially matchfactoryprograms;theseare writablecopies,not99additionalprotectedpresets. Edits tofactoryoruserprograms canonlybestored inuserlocations. |
+| Live / program loading | TurningProgramSelect stagesanumberthatflashes;pressingtheencoderloads it. AutoLoadoption loadsautomaticallyduringselection. Do notassume immediateaudibleswitching fromrotationunderdefaultoperation;switchinggap/trails remainunverified. |
+| Controls / selector ambiguity | GuideidentifiesEffectSelectP1/P2 asbuttoncontrols,butalso instructsup/downpresses. Completerotaryinventory remains10;physicaleffect-selectorbutton/rocker countneedsvisualcorroboration ratherthan treating numberedcalloutsasindependentbuttons. Encoderloadpush isadditional. |
 
 
 ## MX300
