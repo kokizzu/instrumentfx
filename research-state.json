@@ -75413,8 +75413,8 @@
     "next": "Fresh Shopee GP-series discovery; GP-100VT manufacturer lead requires exact hardware offer and own-model technical evidence."
   },
   "resume_cursor": {
-    "model": "Valeton GP-100VT finish variant",
-    "task": "Saved exact sold-out hardware asks and primary regional height/rhythm conflicts. Next fresh Shopee discovery for missing eligible models; variant is part of GP-100.",
+    "model": "Zoom G5n",
+    "task": "Saved V2 memory writes/external-pedal assignment and initialization versus firmware update. Continue fresh Shopee discovery or unresolved required fields;do not confuse G5/G5n.",
     "next_models": [],
     "after_queue": "349 partial models;114 Markdown compatibility files remain;no downloads/workflows/push."
   },
@@ -75433,5 +75433,12 @@
     "offers": "2625000 IDR Imagination and2200000 IDR Sadewa;bothHabis,conditionunknown",
     "unqualified_lead": "Aliska GP100VT2200000 storefront snippet lacks item identity on reopen",
     "next": "Continue fresh Shopee brand/series discovery, then exact required fields; do not duplicate GP-100VT count."
+  },
+  "g5n_memory_pedal_20261018": {
+    "source": "https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf",
+    "revision": "V2 operation manual original text;no visual/local download",
+    "findings": "SAVE/SWAP pp21–23,AUTO SAVE OFF prompt p28,second pedal effect assigned external p29,All Initialize resets allsettings/patches p52,firmware update retains savedpatches p55",
+    "remaining": "Initial200slot fill and currentfirmware allocation remainunknown;missing reset icon not inferred",
+    "discovery": "Fresh GE300Lite,G2Nu,AX1B,ME6B,B2 searches yielded accessories/existingmodels;not evidence of market absence"
   }
 }

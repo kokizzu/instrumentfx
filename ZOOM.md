@@ -1633,6 +1633,19 @@ Checked2026-10-17 through official indexed text. The exact G5n V2 patch list est
 
 Exact-model USB-channel and signal-flow searches did not establish channel count,loopback or reamping. Search results for the older G5 and other Zoom devices were excluded. These fields stay unverified; no negative capability conclusion follows from unsuccessful indexed searches.
 
+### G5n — memory and external-pedal operation, V2 manual
+
+Checked 2026-10-18 using the [manufacturer-hosted V2 operation manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf), original text extraction only; no local download, execution or visual inspection.
+
+| Field | Evidence / qualification |
+|---|---|
+| Memory / save behavior | Printed pp21–22: SAVE chooses a destination and requires confirmation; SWAP exchanges two patches (p23). AUTO SAVE OFF disables automatic patch/effect writes and prompts on changing an edited patch: YES saves, NO discards (p28). This does not establish initial factory filling of all200 locations. |
+| Expression / external assignment | EXT PDL enables two pedal effects; the second selected pedal effect is assigned to the external pedal (p29). This is not two arbitrary expression destinations or evidence of an external toe switch. |
+| Memory / initialization versus firmware | All Initialize restores every setting and patch to factory defaults (p52); updating firmware preserves saved patches (p55). The extracted reset-start button icon is missing, so no button sequence is inferred. |
+
+These resolve operation details,not current-firmware factory allocation or the remaining panel,display,import,power and price gaps above.
+
+
 ## G3n
 
 Reviewed **2026-10-17**,new exact-model Shopee discovery. Separate from G3Xn and older G3;no ownership assertion. Partial. Manufacturer manual evidence is indexed text,not PDF/image inspection;no dependency,software,firmware or manual file downloaded.
