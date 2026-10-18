@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh Shopee discovery",
-    "task": "Yamaha exact-series pass saved without qualified offer. Next search another underrepresented brand/series for eligible multi-effects, check exact inventory, then manufacturer specifications. Existing HX Stomp numeric power/category gaps remain open.",
+    "task": "Yamaha and DigiTech RP missing-model searches saved. Next change brand/series (for example discontinued Korg/ToneWorks candidates), inspect inventory first and require exact hardware evidence; do not re-add adapter-only RP350/RP355/RP300 results.",
     "next_models": [],
     "after_queue": "378 active models,46 brands,all partial; no downloads/workflows/push; migration incomplete."
   },
@@ -117249,5 +117249,41 @@
     "excluded_result": "https://shopee.co.id/search?keyword=f6T&page=0",
     "inventory_added": 0,
     "next": "Change discovery brand/series rather than immediately repeating these exact queries; verify candidate identity against inventory first."
+  },
+  "discovery_digitech_rp_20261018_accessory_exclusion": {
+    "date": "2026-10-18",
+    "models_searched": [
+      "RP350",
+      "RP355",
+      "RP80",
+      "RP200A",
+      "RP 350",
+      "RP 80",
+      "RP300",
+      "RP100",
+      "Element XP",
+      "RP55",
+      "RP50"
+    ],
+    "query_scope": "Shopee Indonesia site-restricted brand/model searches plus broader DigiTech multi-effects query excluding adapter/PSU/cable terms.",
+    "excluded_accessory": {
+      "url": "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-RP350-RP355-RP300-PSU-i.855783279.22273291654",
+      "seller": "Agen Tekno",
+      "shop": "855783279",
+      "item": "22273291654",
+      "reason": "Adapter only; RP350/RP355/RP300 names describe compatibility, not processors being sold. Not eligible hardware availability or price evidence."
+    },
+    "existing_exact_results": [
+      "RP360XP 109749191/43917060054",
+      "RP90 77743122/47652738573",
+      "RP90 69518756/25184148740",
+      "RP90 faulty 729907257/51202235862",
+      "RP255 120981304/17884883872",
+      "RP250 703817770/23582306111",
+      "RP250 1009431722/29790227046",
+      "RP200 118784596/11727599440"
+    ],
+    "result": "No unrecorded qualified hardware lead from this pass; listed offers already present in canonical DigiTech document. No new current-stock or price verification claimed. Search absence is not proof of market absence.",
+    "inventory_added": 0
   }
 }
