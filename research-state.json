@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "Zoom G2Nu (partial)",
-    "finding": "RTM expression destination/range must be saved with patch; global FS01 assignment is distinct. VOLUME limited by master/patch levels; coverage unknown.",
+    "current": "DigiTech RP150 (partial)",
+    "finding": "Conditional automatic volume: Wah/Whammy activation redirects pedal control. Does not guarantee volume in arbitrary presets; coverage and pinout unknown.",
     "next": [
-      "Systematic remaining no-treadle inventory: DigiTech RP150",
+      "Systematic remaining no-treadle inventory: DigiTech RP80",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
@@ -122593,7 +122593,7 @@
       "date": "2026-10-19",
       "source_commit": "87c7d3816a380ddc49e3af2b2441564f454f87d7",
       "scope": "Normalized inherited source checks without recertification or admitting partial leads; exact prior merged category preserved in public_metadata.remote_87c7d38_preserved.expression_category_before_normalization.",
-      "comparison_rows": 32,
+      "comparison_rows": 33,
       "adjacent_rows": 1,
       "active_inventory_changed": false
     }

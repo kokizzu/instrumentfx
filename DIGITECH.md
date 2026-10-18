@@ -851,6 +851,10 @@ Guitar multi-effects;partial,checked2026-10-18. Distinct fromRP155/RP250. [Manuf
 | Editor / current support qualification | Checked2026-10-18: [manufacturer software catalogue](https://digitech.com/software-downloads/) explicitly assigns RP150 X-Edit2.4.1Windows andIntelMac2.7.1. Mac2.7.1 notes addressOS X10.8–10.10 and retain anunverified/unsupported10.11 notice. Windows2.4.1 history dates2008-04-16 and describes windowposition/presetrestore fixes. Windows2.7.0 requirements elsewhere onthepage arenot substituted forRP150's listedversion. [CurrentFAQ](https://digitech.com/faqs/) says discontinued-product software isunsupported onnewerOS;downloadlisting doesnot establish currentOS operation,AppleSilicon support ordriver compatibility. No installer downloaded/executed. |
 | Processing / library and bypass | Manualpp4–5,40–41: **30Tone Library and30Effects Library starting configurations**,not60extra memories ornewalgorithms. Tone changes compressor/distortion/amp-cab/EQ;Effects changes postampChorusFX/delay/reverb. Bothfootswitches engage manufacturer-described **true analog bypass**;holding2seconds enters muted tuner. This isnot proof of powered-off pass-through orpresetspillover. [Own manual](https://digitech.com/wp-content/uploads/2022/09/RP150Manual18-0429V-B_original.pdf). |
 
+
+### RP150 — expression-volume acceptance audit
+
+Checked2026-10-19 against [own RevB manual](https://digitech.com/wp-content/uploads/2022/09/RP150Manual18-0429V-B_original.pdf), pp10–11,37–38. **CONDITIONAL:** CONTROL IN defaults to volume only when neither Wah nor Whammy is active; both can instead share pedal control. This fails an unconditional volume guarantee across arbitrary presets. Dedicated3.5mm phones and onboard preset down/up are documented. Controller resistance/pinout, volume position, min/max, recall and bypass/headphone/tail/looper attenuation remain unverified. Published width8¾in and length10⅝in exceed preferred chassis limits; no axis relabelling. Historical offers/software qualifications remain above. No downloads or hardware operation.
 <!-- comparison evidence ends -->
 
 ## RP355

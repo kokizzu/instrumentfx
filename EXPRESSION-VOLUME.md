@@ -50,6 +50,7 @@ Global **calibration**, global **pedal-position recall**, global **EQ**, a physi
 | [Zoom G3n](ZOOM.md#g3n) | Yes / FP02 control; EXT PEDAL enables pedal effects | 234×181mm; no | **Unverified**; OutputVP retention is not global assignment proof | PDL Vol Min/Max0–100, curvesA/B; OutputVP range/position unknown | Bypass/headphone/tails/looper attenuation unknown | Combined L/MONO/PHONES; product wording conflict retained | Onboard memory workflow; exact down/up mapping not reverified |
 | [Zoom G2 FOUR](ZOOM.md#g2-four) | Yes / FP02M CONTROL IN | 184×145mm; depth5mm over | **Patch pedal effect**; global override unverified | Position/min/max unverified | Bypass/headphone/tails/looper attenuation unverified | Dedicated3.5mm | Yes / yes, foot-operable direction buttons in Memory Screen |
 | [Zoom G2Nu](ZOOM.md#g2nu) | Yes / CONTROL IN FP01/FP02 | 160×166mm; depth26mm over | **Per patch**, TOTAL→RTM; global override unverified | Adjustable/invertible endpoints; capped by patch/master; position unknown | Bypass/headphone/tails/looper unknown | Shared stereo line/headphone output | Yes / yes in Play |
+| [DigiTech RP150](DIGITECH.md#rp150) | Yes / passive volume or continuous-control pedal, CONTROL IN | 8¾in wide ×10⅝in length; too large | **Conditional**: volume only when Wah and Whammy both inactive | Position/min/max/recall unknown | Bypass/headphone/tails/looper attenuation unknown | Dedicated3.5mm; mono/stereo follows main connections | Yes / yes |
 
 ## Evidence and qualification
 

@@ -2087,3 +2087,7 @@ expression-audit-commit-tc:
 .PHONY: expression-audit-commit-zoom
 expression-audit-commit-zoom:
 	python3 scripts/expression_audit_zoom.py commit
+
+.PHONY: expression-audit-commit-digitech
+expression-audit-commit-digitech:
+	python3 scripts/expression_audit_digitech.py commit
