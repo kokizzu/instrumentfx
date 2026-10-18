@@ -884,7 +884,7 @@ Bass multi-effects;partial,checked2026-10-18. Distinct fromAX3G/AX5B. [Own manua
 | Memory | **40user+40preset=80**;user01–40 rewritable,preset41–80;initial userfill unverified. |
 | Synth / acoustic | Dedicated synth/acoustic simulation unverified. |
 | Dimensions / mass | **178W×142D×43H mm;340g**,battery qualification unstated. |
-| I/O | MonoINPUT,stereoOUTPUT/headphones,PEDAL,DC9V;complete audit pending. |
+| I/O | Complete rear inventory:monoINPUT,shared stereoOUTPUT/headphones,PEDAL,DC9V. **No USB/MIDI connector listed**. [Own manual pp5–6](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
 | Power | DC9V adapter or4AA alkaline approximately8h;current/polarity/USBoperation unverified. |
 | IR / NAM / capture | Unverified. |
 | Editor / platforms | Exactmodel software unverified. |
@@ -893,5 +893,8 @@ Bass multi-effects;partial,checked2026-10-18. Distinct fromAX3G/AX5B. [Own manua
 | IDR price | Used/new unknown;exactShopee query yieldednoqualifiedhardware. Seller/condition/stock/bundle/warranty/voucher unverified. |
 | Practical features / conditional tails | Delay survives programchange onlywithsame delaytype andTIME[P1];reverb survives withsamereverbtype. This isconditional preservation,not universally seamless switching. [Own manual p4](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
 | Power / battery switching | MonoINPUT insertion switches batterypoweron;removal switchesoff. Stereo inputcable willnotpower batteries. DCpolarity anddevicecurrent remainunverified;no sibling-adapter inference. [Own manual pp6,10](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
+| Memory / reload scope | Factory reload erases stored user programs andreplaces themwithfactory programs. This isnot a settings-onlyreset;initial userfill/duplication isstillunverified. No resetperformed. [Own manual p10](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
+| Conversion / format | ADC/DAC each **24-bit**,sampling **31.25kHz**. These areconverter specifications,not USBaudio capability. [Own manual p11](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
+| Practical features / bypass and calibration | Bypass disablesall effects includingNR;holdbothprogramswitches approximately1s mutes. Either switch exits withoutchangingprogram. Tuner reference resets **440Hz** afterpoweroff. [Own manual pp9–10](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
 
 <!-- comparison evidence ends -->
