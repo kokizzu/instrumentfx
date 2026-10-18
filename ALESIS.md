@@ -40,6 +40,20 @@ Rack multi-effects,distinct from MIDIverb4. Checked2026-10-17;discontinued [MV-P
 
 No files downloaded. Remaining:category totals,body/mass,power current,display,software,routing restrictions andqualified offers. Malaysia/Taiwan/USA seller labels are not established official variants. The earlier seller24bit discrepancy concerns unspecified wording,not proof ofcounterfeit. Bass use remains unclassified.
 
+### MicroVerb 4 — named configurations and initialization
+
+Checked 2026-10-18 from the [manufacturer Reference Manual](https://www.alesis.com/rscdn/981/documents/microverb4_manual.pdf), original text only,no local download or visual inspection.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / named Multi Chain configurations | P43 lists **seven**:Delay→Real Room;Chorus→Real Room;Flange→Real Room;Lezlie→Room;Real Room→Flange;Chorus→Delay→Room;Flange→Delay→Room. These are fixed alternatives,not seven simultaneous processors. |
+| Processing / named Dual Send configurations | P43 lists **three**:Real Room+Delay,Real Room+Chorus,Real Room+Flange. P28 assigns Left input to Room reverb and Right to the second effect. Do not treat these as serial chains. |
+| Category choices / specification inventory | P43 names **five reverb families**:Concert Hall,Real Room,Ambience,Plate,Nonlinear;**four delay forms**:Mono,Stereo,Ping Pong,Multi Tap. Pitch-labelled list:Stereo Chorus,Quad Chorus,Stereo Flange,Stereo Pitch Shifter;Auto Pan separate. This specification list is not a complete program/unique-algorithm census;prose also discusses detuning and Lezlie. |
+| Memory / initialization | P39: holding STORE+BANK/MIDI during power-up resets User Programs and MIDI channel,recalling Preset00. Custom user contents are erased;back up via MIDI SysEx first. Software version appears at power-up. |
+
+Dimensions,mass,supply current,display details,full editor compatibility and qualified separate used/new prices remain unresolved. Existing historical offers and delay/display conflicts remain unchanged.
+
+
 ## MIDIverb 4
 
 Dual-channel rack multi-effects,notMicroVerb4. Checked2026-10-17;partial,discontinued [MD-P].

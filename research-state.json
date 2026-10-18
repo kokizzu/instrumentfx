@@ -75413,10 +75413,10 @@
     "next": "Fresh Shopee GP-series discovery; GP-100VT manufacturer lead requires exact hardware offer and own-model technical evidence."
   },
   "resume_cursor": {
-    "model": "Zoom G5n",
-    "task": "Main summary reconciled with saved V2 findings; previous5rows+remaining paragraph preserved inledger,followups unchanged. Continue freshShopee discovery and unresolved fields;349partialmodels.",
+    "model": "Alesis MicroVerb 4",
+    "task": "Saved namedfixedchains,DualSendrouting,specificationfamilycensuslimits andinitialization. Next freshShopee discovery orunresolved exactmodel fields;do notborrowMIDIverbdata.",
     "next_models": [],
-    "after_queue": "114 Markdown compatibility files remain;no downloads/workflows/push."
+    "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
   "gp100vt_variant_20261018": {
     "classification": "GP-100 finish variant; not an additional active model",
@@ -75472,5 +75472,18 @@
     ],
     "retained_followups_byte_exact": true,
     "evidence": "Existing G5n followups from34ac6b7/f0ef6e9;no new technical source,price,revision or marketverification"
+  },
+  "microverb4_configurations_20261018": {
+    "source": "https://www.alesis.com/rscdn/981/documents/microverb4_manual.pdf",
+    "identity": "Alesis MicroVerb4 ReferenceManual44pages",
+    "findings": "p43sevenMultiChain/threeDualSendnamedconfigurations;specificationfamilylistqualifiedasnotfullcensus;p39factoryinitializationerasesuserprograms/resetsMIDIchannel",
+    "discovery_queries": [
+      "site:shopee.co.id Alesis Quadraverb",
+      "site:shopee.co.id Boss SE-70",
+      "site:shopee.co.id Roland GP-100",
+      "site:shopee.co.id Lexicon MPX500"
+    ],
+    "discovery_result": "No qualified newexacthardwareleads;recommendation/other-modelpages notpromoted",
+    "remaining": "Dimensions/mass/current/display/software/completecategorycensus/qualifiedusednewIDR;legacycompatibility still114MD"
   }
 }
