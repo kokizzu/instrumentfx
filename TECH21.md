@@ -50,6 +50,18 @@ Checked2026-10-18 against [Tech21’s Killer Wail v2/RK wah page](https://www.te
 |---|---|
 | Expression / external wah compatibility | Tech21 says both Killer Wail variants can receive phantom power through **Fly Rig5v2 with a modification**,with details available fromTech21. This is accessory power compatibility after modification,not proof ofa stock EXP/CV socket,built-in pedal orremote internal-parameter mapping. Voltage,current,cabling andmodification procedure remain unverified;do not assume microphone48V phantom. |
 
+
+### Fly Rig 5 v2 — output-level hierarchy and bypass
+
+Checked2026-10-18 against [own OM3 manual,rev12/20,printed pp3–4,7–9][FR-M]. Browser text only;no hardware operation ordownloads.
+
+| Field | Manufacturer qualification |
+|---|---|
+| I/O / bypass and level hierarchy | **Buffered bypass**,with unity-gain quarter-inch output. WithBlonde active,Blonde Level governs overalloutput unlessPost-Boost isengaged;thenPost-Boost Level governs. Plexi/Cali Level governs whenit alone,orwithPre-Boost,isactive. These are downstream gain relationships,not extra processing blocks. |
+| Live / tuner exit | HoldBlonde/Tuner **0.5seconds toenter and0.5seconds toexit**;tuning mutes the signalpath. A simpletap isnot thedocumented exitgesture. This refines theearlier entry-only summary. |
+| Effects / delay selector controls | **Drift and8TH are switches**,not additional rotarycontrols. Delayrotaries remainTime,Repeats,Level;quarter/dotted-eighth timing andDrift donot create independent effectslots. Theexisting13-rotary total remains unchanged. |
+
+
 ## Bass Fly Rig v2
 
 Bass-focused multi-effects; v2 only. Distinct from original Bass Fly Rig and guitar Fly Rig 5 v2. Checked 2026-10-17; partial. Ownership unestablished.
