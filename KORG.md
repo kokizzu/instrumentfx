@@ -527,7 +527,7 @@ Checked2026-10-17. Partial **bass multi-effects** record; distinct from AX10G/AX
 
 | Field | Evidence / remaining gaps |
 |---|---|
-| Processing / choices | PRE3,AMP11,MOD11,AMBIENCE11,NR1;not a simultaneous-count claim. PRE choices COMP/DIST/OCTAVE. Exact concurrent ceiling unknown. |
+| Processing / choices | PRE3,AMP11,MOD11,AMBIENCE11,NR1;not a simultaneous-count claim. PRE choices COMP/DIST/OCTAVE. Own EasyStart AX10B panel states **three effects+NR,in addition to amp choice**;this means PRE/MOD/AMBIENCE plusNR/AMP,not11 concurrent modulation algorithms. See source qualification below. |
 | Presets | **40 read-only factory+40 overwriteable user**;user initially duplicates factory. |
 | Expression | Built-in pedal;fully forward toggles effect;volume always active. No external EXP socket in complete rear inventory. Mechanical toe-switch implementation unknown. |
 | Controls | **8 rotary /2 footswitches /13 buttons**, derived from numbered text:5ampknobs+3selectors;UP/DOWNfoot;PRE1,VALUE2,MODDEPTH2,AMBDEPTH2,TAP1,FUNCTION1,MASTER2,WRITE1,PEDALFX1. Two rear toggles andpedal activation separate;not visually audited. |
@@ -594,6 +594,10 @@ Official [Easy Start entry](https://www.korg.com/us/support/download/manual/1/22
 | Expression / calibration | Use a hand. Power on holding FUNCTION + PEDAL FX. Move fully back, release hand, press PEDAL FX; move fully forward, release hand, press PEDAL FX. MASTER/CANCEL aborts. Failure returns to the pre-calibration display; repeated failure requires service. Volume assignment with minimum0 helps check the returned endpoint. Extracted display glyphs are absent; no glyph or switching-pressure adjustment inferred. [Own manual p13](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
 | Processing / shared amp control | MID FC/GAIN adjusts mid peak frequency for EQ through JAZZ; it adjusts gain for STUDIO through UKMAJOR. These are alternative functions of one knob. [Own manual p11](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
 | Processing / editing conflict | Dedicated MODULATION instructions specify FUNCTION + DEPTH for SPEED; overview p10 instead says delay/reverb time for modulation. Preserve that wording conflict. AMBIENCE time uses two TAP presses. HALL/PLATE/SPRING reverb time is twice the tap interval. [Own manual pp10–12](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
+
+### AX10B — EasyStart simultaneous processing and source conflict
+
+Checked2026-10-18. [Korg official AX10B EasyStart entry](https://www.korg.com/us/support/download/manual/1/22/2038/) links AX10_Series_EasyStart.pdf;CDN route still cache-misses. The [matching manufacturer-authored two-page EasyStart mirror](https://manualzz.com/doc/2066567/korg-ax10-g-guitar-effects-processor--ax10-b-bass-effects...) contains separate AX10G/B/A panels andshared procedures;only original document text was used,not generated FAQ. AX10B explicitly permits three effects plusnoise reduction alongsideamp choice. Its26-effects shorthand differs fromthe detailed PRE3+MOD11+AMBIENCE11+NR1 breakdown onlyin presentation,not26 simultaneousblocks. Shared pedalinstructions incorrectly name WAH forAX10B;ownmanual instead documents OCTAVE. Preserve this inconsistency;do notaddwah capability. Original guide revision/date unprinted;support upload2015-06-01 isnot productlaunch proof. No local file download.
 
 ## AX3000B
 
