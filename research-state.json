@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh bass discovery / required specification gaps",
-    "task": "Atlantic exact primary update guide corroborated 9V center-negative, microUSB data and separate DFU/bin roles; required gaps remain. Next prioritize new exact Shopee series or unresolved required-field evidence; do not promote mixed Korg ranges or MG300 hits to different models.",
+    "model": "Fresh eligible hardware discovery / required gaps",
+    "task": "Atlantic mirrored-manual impedance and tap divisions saved with explicit source limitations. EN/IT/JP PDF text does not resolve freeze, stereo-input conflict or garbled ADC/THD. Move to new exact Shopee hardware or another required gap; avoid repeating identical unreadable manual retrievals.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -45864,7 +45864,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh bass discovery / required specification gaps."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh eligible hardware discovery / required gaps."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -78732,5 +78732,25 @@
       "site:shopee.co.id NUX MG-10"
     ],
     "result": "No new exact eligible model resolved; Korg22551702/3568008855 is previously recorded mixed-model offer, range not an AX100G-specific ask; unrelated MG300/category hits not MG10 evidence. No absence claim."
+  },
+  "atlantic_manual_followup_20261018": {
+    "status": "partial",
+    "source": "https://manuals.plus/nux/ndr-5-atlantic-delay-and-reverb-pedal-manual",
+    "identity": "NDR-5 ©2017 Cherub manufacturer manual transcription; not generated FAQ",
+    "findings": [
+      "Transcription lists 1Mohm input/1kohm output,44.1kHz,32bit processing,20Hz–20kHz,102dB dynamic range",
+      "Seven tap divisions 1/8 1/6 1/4 1/3 1/2 3/4 1; not seven algorithms"
+    ],
+    "limitations": [
+      "Official EN7page and IT7page PDFs only extract INSERT; JP17page has zero text",
+      "Freeze and ordinary stereo-input/insert behavior remain unresolved",
+      "Garbled ADC and THD lines not promoted to independently verified specs"
+    ],
+    "official_manuals": [
+      "https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/Atlantic_NDR5/NUX_NDR5_UserManual_English.pdf",
+      "https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/Atlantic_NDR5/NUX_NDR5_UserManual_Italian.pdf",
+      "https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/Atlantic_NDR5/NUX_NDR5_UserManual_Japanese.pdf"
+    ],
+    "files_downloaded": false
   }
 }
