@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "VOX ToneLab ST",
-    "task": "Saved tuner calibration reset andexpression endpoint/persistence limits. Next anothermodel requiredgap orfreshShopee ID discovery;do not repeatSTpolarity search withoutnewsource.",
+    "model": "DigiTech RP360XP",
+    "task": "Saved headphone118vs11.8search-extraction discrepancy withoutclaiminghardwareconflict. Next anothermodel requiredgap orfreshbrandhardwarediscovery;do notrepeatoversizePDF retrieval.",
     "next_models": [],
     "after_queue": "351partialmodels;155bass;technicalverification andlegacycompatibilitymigration incomplete;no downloads/workflows/push."
   },
@@ -24328,6 +24328,15 @@
         "https://shopee.co.id/AC-ADAPTOR-BUAT-Zoom-Guitar-Effect-Processor-GFX-4-%28Japan%29-GFX-8-i.14849321.28104902463",
         "https://shopee.co.id/Modul-sensor-Pedal-WAH-pedal-volume-zoom-gfx-8-i.38361451.8214243069"
       ]
+    },
+    {
+      "checked_date": "2026-10-18",
+      "models": [
+        "DigiTech RP150",
+        "DigiTech RP300A",
+        "DigiTech RP2000"
+      ],
+      "finding": "Exact ShopeeIndonesia queries produced noqualifiedhardwareitem;notunavailability evidence. RP360XPbekassearch alsoempty."
     }
   ],
   "inventory_by_brand": {
@@ -45669,7 +45678,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume VOX ToneLab ST."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DigiTech RP360XP."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -59954,6 +59963,23 @@
         "Simultaneous block accounting"
       ],
       "method": "Manufacturer browser text,no downloads/device operation"
+    },
+    {
+      "model": "DigiTech RP360XP",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://digitech.com/dp/rp360-xp/",
+        "https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP360-RP360XP_Manual_5041674-B.pdf",
+        "https://manualzz.com/doc/2522393/digitech-rp360-xp-owner-s-manual"
+      ],
+      "finding": "Product/manualmirror118mW/channel50ohm;officialPDF searchrender11.8. Classified as unresolved extraction discrepancy,not confirmedmanualrevision/hardwarechange. DirectPDF12033152bytes exceedsbrowserlimit.",
+      "remaining": [
+        "Visual/source-byte decimal verification ifauthorized",
+        "Display specifications",
+        "Power operation",
+        "Qualified used/new offers"
+      ],
+      "method": "Browsertext/searchindexonly;no downloads"
     }
   ],
   "discovery_cross_brand_bass": {

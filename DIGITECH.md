@@ -115,6 +115,14 @@ Checked2026-10-18;manufacturer HTML only. No software,driver,firmware ordependen
 | Conversion / internal format | [Own product specification][RPXP-P] lists **24-bit high-performance A/D/A,44.1kHz,AudioDNA2 DSP**. These are internal conversion/processing specifications,distinct from the documented16/24-bit USB stream;not32-bit float orcapture-import evidence. |
 
 
+### RP360XP — headphone source-extraction discrepancy
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| I/O / headphone rating provenance | Current exact-model product page and manufacturer-manual mirror both show **118mW/channel into50Ω**. Search extraction of the official5041674-B PDF instead renders **11.8mW/channel**. Direct PDF text retrieval exceeds the browser size limit, so this decimal difference is **unresolved extraction evidence**,not a confirmed manual revision or hardware specification change. Retain118mW as the product/mirror claim;do not silently normalize the extracted11.8 value oraverage them. | [Current XP specification][RPXP-P];[manual mirror][RPXP-MZ];[indexed original PDF,p114][RPXP-M] |
+
+Checked2026-10-18. No PDF download,visual inspection or electrical measurement.
+
 ## RP255
 
 Guitar multi-effects; distinct from RP250/RP355/RP360XP. Checked2026-10-17; partial. Bass suitability and ownership unestablished.
