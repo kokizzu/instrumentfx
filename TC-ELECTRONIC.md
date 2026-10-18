@@ -329,7 +329,7 @@ Checked 2026-10-17; partial. [Original English manual, mirrored][M1XL-M], Rev4, 
 
 | Field | Evidence / gaps |
 |---|---|
-| Expression | No integrated treadle. Quarter-inch pedal input: momentary bypass1/2/both or tap; continuous EXP/toe unknown. |
+| Expression | No integrated treadle. Quarter-inch pedal input explicitly accepts **momentary switches only**: bypass1,2,both or tap; continuous expression is unsupported through this jack. Built-in toe switch absent with treadle;external toe-switch accessory compatibility unverified. [Own manual p12](https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf). |
 | Controls | Text-derived **4 rotaries / 0 integrated footswitches / 14 buttons**, excluding power: three level/mix/balance knobs plus CONTROL wheel; visual verification pending. |
 | Display | **23-character/280-icon STN LCD**; diagonal/color/touch unknown. |
 | Processing / choices | **Two engines**, one selected algorithm each. Eight reverbs: Hall,Room,Small Room,Plate1,Plate2,Spring,Live,Ambience. Three delays: One Tap,Two Tap,PingPong. Chorus/flange each Classic/4-Voice; pitch Detune/Pitch Shift; parametric EQ; Compressor/Limiter; Gate/Expander; De-esser; tremolo Hard/Soft; phaser Vintage/Smooth. Small Room/PingPong explicitly XL-only. Family/mode enumeration is not an independently verified grand algorithm count. |
@@ -385,6 +385,15 @@ Checked2026-10-18 in manufacturer-authored Rev4 mirror,pp11–12;cover/declarati
 | I/O / source and clock | Analog source initially selects internal44.1kHz;clock options areinternal44.1,internal48 orDigital,including withanalog input. Digital source locks toS/PDIF;outputs mute during lock andunmute when acquired. Internal clock with digitalaudio requires synchronization;slip samples trigger **Rate Mismatch**. XL-only **ANLGLEFT** uses leftXLR input. Input selection isglobal,not anextra input pair. [Own manual p11](https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf). |
 | Live / bypass modes | **0%Mix** passes input tooutput; **FXInput** cuts engineinput while lettingexisting effects decay andretaining dry; **FXOutput** cuts effectoutput immediately while retaining dry. These are enginebypass modes,not proof ofrelay true bypass orpreset-change spillover. [Own manual p12](https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf). |
 | Routing / lock | Routing Lock makes currentrouting global andignores routing stored inrecalled presets. It doesnot create additionalengines orscenes. [Own manual p12](https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf). |
+
+### M-One XL — recall, store and tempo controls
+
+| Field | Own Rev4 manual distinction |
+|---|---|
+| Memory / preview versus recall | CONTROL wheel previews presets with flashing number/ENTER; **ENTER orRECALL** activates, **EXIT** returns tocurrently loadedpreset. Factory locations cannot be overwritten. STORE suggests firstfree userlocation unless editing auserpreset,when it suggests thatsame location;ENTER confirms saving. Empty-slot behavior doesnot establish original userbankfill. [Manual pp16–17](https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf). |
+| Live / tap and MIDI sync | Global TAP can targetEngine1,Engine2 orboth; subdivision canignore taps oruse straight/dotted/triplet values. MIDI Sync locks tempo toincoming MIDIclock;it is distinct fromS/PDIF audio-clock synchronization. [Manual p17](https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf). |
+
+Checked2026-10-18;no presetwrite orhardwareoperation performed.
 
 ## NOVA System
 
