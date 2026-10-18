@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Yamaha DG-Stomp",
-    "task": "DG-Stomp8controlslots/global-patch-off,externalanglewahswitch/calibration andfilter ranges saved;>=128 prose vs>128diagram preserved. Next exact processing/amp/cabinventory or freshShopee discovery; currenteditor/display/price gaps remain.",
+    "task": "DG-Stomp4effectblocks/onechoiceperblock plusnamed8preamps16speakers saved; knobpickup andfourtypeswordingconflict retained. Next fresh exactShopee discovery orremainingDGStompdigitalwordwidth/editor/display/builtinvisual gaps.",
     "next_models": [],
     "after_queue": "345 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -58749,6 +58749,22 @@
         "EditorOS",
         "QualifiedIDR",
         "Displaydetails"
+      ],
+      "method": "Browsertext;nooperation/download"
+    },
+    {
+      "model": "Yamaha DG-Stomp",
+      "checked_date": "2026-10-18",
+      "source": "https://usa.yamaha.com/files/download/other_assets/7/313717/dgstomp_en.pdf",
+      "pages": "7,13–14,23",
+      "finding": "4effectsectionblocks onechoiceeach;globalceilingincludingwahampcab notclaimed. Named8amp16cab;fourtypesproseconflictretained. Knob/AMPSELECTpickup,OUTPUTexception,unsavedpatchchangeloss.",
+      "remaining": [
+        "Digitalwordwidth",
+        "EditorOS",
+        "Displaydetails",
+        "Builtinpedalvisualaudit",
+        "QualifiedIDR",
+        "Totalglobalprocessingceiling"
       ],
       "method": "Browsertext;nooperation/download"
     }

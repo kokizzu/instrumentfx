@@ -289,7 +289,7 @@ Checked2026-10-18. Guitar preamplifier with multi-effects; separate from AG-Stom
 | K/F/B | **15 /4 /17**, explicitly specified; rearSTAND-BY andINPUT LOW/HIGH additional. No visual count audit. |
 | Display | Three-digit seven-segment LED;17button and4footswitch LEDs. Diagonal,color,touch unknown. |
 | Dimensions / weight | **280W×184D×70H mm;2.2kg**. |
-| Processing / choices | Eight preamp channels;16speaker simulations. Compressor; MOD5(Chorus,Flanger,Phaser,Rotary,Tremolo); DLY2(Digital Delay,Tape Echo); RVB3(Spring,Hall,Plate); wah. Simultaneous ceiling unknown; category alternatives are not concurrent blocks. |
+| Processing / choices | Eight preamp channels;16speaker simulations. Compressor; MOD5(Chorus,Flanger,Phaser,Rotary,Tremolo); DLY2(Digital Delay,Tape Echo); RVB3(Spring,Hall,Plate); wah. **Four effect-section blocks**, one active choice perblock: COMP,MOD,DLY,RVB. Preamp,cabinet andwah are additional functions; total global ceiling unverified. [Manual p13][DGS-M] |
 | Factory / user memory | **90 read-only presets +90 writable user =180 slots**. User area initially copies preset area. STORE only writes user area; OUTPUT knob excluded, Utility settings stored globally. [Manual pp15,17][DGS-M] |
 | Synth / acoustic | Dedicated synth/acoustic simulation unverified; amp/effect choices do not establish either. |
 | I/O | Mono INPUT; L/MONO andR mono OUTPUT; stereo PHONES; stereo EXP; coaxial DIGITAL OUT;5-pin MIDI IN/OUT. AC IN power socket. Further socket measurements pending. [Manual pp9–11][DGS-M] |
@@ -320,6 +320,17 @@ Technical rows: [manufacturer manual printed29][DGS-M]; specification fields rem
 | Expression / MIDI transmit | Pedal transmissionOFF orCC1–32/64–95; distinct from assignment source range. [Manual p26][DGS-M] |
 | Expression / wah filter | Low150–500Hz;high1.50–5.00kHz;Q1.00–5.00. [Manual p27][DGS-M] |
 | Routing / preamp and cabinet | Preamp can be disabled for effects-only use. Speaker simulation globallyON,per-patch orOFF. Simultaneous ceiling remains unverified. [Manual p27][DGS-M] |
+
+### DG-Stomp amplifier and speaker choices
+
+| Category | Named choices / qualification |
+|---|---|
+| Preamp8 | LEAD1,LEAD2,DRIVE1,DRIVE2,CRUNCH1,CRUNCH2,CLEAN1,CLEAN2. [Manual pp7,23][DGS-M] |
+| Speaker16 | 4×12:American,British,Modern,Yamaha,Hybrid; 2×12:samefive; 1×12:American,Modern,Yamaha,Hybrid; 4×10;2×10. Codes A42/b42/m42/Y42/H42,A22/b22/m22/Y22/H22,A12/m12/Y12/H12,410,210. Count16 despite introductory “four types” wording. [Manual p14][DGS-M] |
+
+| Field | Evidence |
+|---|---|
+| Controls / pickup | Knobs must reach stored patch values before changing them; OUTPUT exempt. AMP SELECT also requires matching stored type before selection changes. Unsaved edits lost on patch change. [Manual pp13–14][DGS-M] |
 
 <!-- comparison evidence ends -->
 
