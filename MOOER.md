@@ -141,7 +141,7 @@ Remaining: complete current algorithms,factory/user memory split,pixels/touch,ex
 
 ## GS1000
 
-**Checked 2026-10-16; partial standard-model profile.** GS1000 uses an external supply; **GS1000 Li is a separate battery variant**, not added to this inventory by this record. The manufacturer manual covers both and explicitly separates current rating and mass. Guitar/bass and independent live microphone processing qualify this model for all three instrument views; acoustic instrument mic+line use does not establish a dedicated acoustic simulator or vocal harmony. [Original manual][GS-M] and [regional exact-model product][GS-J].
+**Checked 2026-10-16; partial standard-model profile.** GS1000 uses an external supply; **GS1000 Li is a separate battery variant**, now recorded in its [own comparison](#gs1000-li). The manufacturer manual covers both and explicitly separates current rating and mass. Guitar/bass and independent live microphone processing qualify this model for all three instrument views; acoustic instrument mic+line use does not establish a dedicated acoustic simulator or vocal harmony. [Original manual][GS-M] and [regional exact-model product][GS-J].
 
 ### GS1000 — hardware, expression and display
 
@@ -1865,3 +1865,32 @@ Checked 2026-10-18; partial active guitar multi-effects record. Original Ocean M
 | Price / used IDR | Unverified;no separate used offer established. |
 
 Remaining:visual corroboration,diagonal/touch,factory fill,actual draw,battery/USB capabilities,editorOS,loading formats,undo/redo revision andfresh stock/condition. Product/manual are revision-qualified;none were run ordownloaded.
+
+## GS1000 Li
+
+<!-- comparison evidence begins -->
+
+Checked 2026-10-18. Battery edition, distinct from standard GS1000. Partial record. Shared manufacturer manual explicitly covers both and separates power/mass; not an inference from a sibling. [Shared manual][GSL-M];[manufacturer editions][GSL-P].
+
+| Field | Exact-model evidence / gaps |
+|---|---|
+| Instrument / expression | Guitar/bass plus independent live microphone processing in the shared manual. No built-in pedal; external TRS EXP10–100kΩ. Separate toe functionality unknown. [Manual pp3–5][GSL-M] |
+| K/F/B | **3 /4 /3**: MASTER, SELECT, rear MIC GAIN; A–D; HOME, SAVE, SAMPLING. SELECT push, power and 48V toggle separate. Text inventory; Li visual audit pending. [Manual pp3–5][GSL-M] |
+| Display | **5-inch touchscreen** ; pixel resolution/color specification unverified for this record. [Manufacturer][GSL-P] |
+| Dimensions / weight | **240×161×67mm L×W×H;1.37kg**. Standard 1.23 kg is not assigned here. [Manual p77][GSL-M] |
+| Processing / choices | Shared architecture: 14 positions(7+7),DSP-limited, 11 categories. Dated appendix counts:DYN13,FILTER13,OD35,AMP116,POWER11,CAB88,EQ9,FXLOOP3,MOD33,DLY19,RVB14=354 listed versus 350 in the specifications. Firmware inventory reconciliation pending. [Shared library audit](#gs1000);[Manual][GSL-M] |
+| Factory / user memory | **200 slots(50×4)**,editable;factory-filled/user-reserved subsets unknown. [Manual p76][GSL-M] |
+| Synth / acoustic / vocal | Bass amp/cab library and mic processing documented;dedicated synth,acoustic body simulation,vocal harmony/autotune unverified. [Shared manual][GSL-M] |
+| I/O | Guitar input;XLR/quarter-inch mic combo with 48V;balanced TRS L/R;stereo TRS SEND/RETURN;3.5 mm PHONES;EXP;single 3.5 mm MIDI IN-or-OUT;USB-C;DC input. No separate AUX listed;Bluetooth audio. [Shared product][GSL-P];[Manual p5][GSL-M] |
+| Power / battery / USB | **9V DC 3A center-negative supply**;battery**7.4 V, 4750 mAh, 35.15 Wh**. About 6 h at 25°C with screen and ambient brightness at 50%; about 2.5 h charging with the original adapter and unit off. Actual draw, barrel size and USB power unknown. [Manual p77][GSL-M] |
+| IR / NAM / capture | **50 user IR slots**,WAV44.1kHz24-bit≤2048points;**120 MNRS slots**,four capture types. Li-specific firmware/native NAM applicability not independently established; do not copy standard firmware claims automatically. [Manual pp2,76][GSL-M] |
+| Editor / software | Shared manual: MOOER Studio Windows10+/Mac10.11+;exact current Li version/minima unknown. Cloud mobile exchange differs from a full parameter editor;driver/platform details pending. [Manual p69][GSL-M] |
+| Looper / drums / live | **480 seconds stereo**,overdubs,undo,sync;3 SubPatches. Chinese 56 kits + 4 metronomes conflicts with global 54 + 4 bullet / 56 prose; current count unknown. [Chinese product][GSL-P];[global](https://www.mooeraudio.com/products/219.html) |
+| Used IDR / new IDR | **Unknown / unknown**. Exact Shopee GS1000Li/GS1000 Li searches on 2026-10-18 produced no exact Li hardware item. Standard GS1000 list amounts/accessories excluded. Not proof of unavailability. Condition,stock,region,bundle,warranty,voucher,checkout unknown. |
+
+Shared software/library/routing evidence is expanded in [standard GS1000](#gs1000); Li differences above take precedence. No software, firmware, dependency or PDF downloaded; no hardware operation performed.
+
+<!-- comparison evidence ends -->
+
+[GSL-M]: https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GS1000_Manual_EN.pdf
+[GSL-P]: https://cn.mooeraudio.com/product/94.html

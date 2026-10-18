@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 346,
+  "active_model_count": 347,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 346,
+  "canonical_root_model_count": 347,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "346 unique active/root-canonical;0legacy-only;39brands;sixexcluded;allpartial.",
+  "count_reconciliation": "347 unique active/root-canonical;0legacy-only;39brands;sixexcluded;allpartial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Korg AX5B",
-    "task": "AX5B conditionaltails,expressionrecall/targetresets,automaticFXstate,cabinetdependency andbatteryINPUTswitching saved. Next fresh exacthardware discovery orunresolvedpower/display/initialfill gaps; no hardwareoperation.",
+    "model": "MOOER GS1000 Li",
+    "task": "Added independentlycounted batteryvariant fromexplicitsharedmanual:9V3A,1.37kg,battery6hqualified. ExactLipricesunknown. Next confirmLi firmware/NAM/editor applicability orfreshhardwarediscovery; do notborrowstandardpower/mass.",
     "next_models": [],
-    "after_queue": "346 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
+    "after_queue": "347 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24448,7 +24448,8 @@
       "Prime M1",
       "Prime M2",
       "Prime S1",
-      "Ocean Machine II"
+      "Ocean Machine II",
+      "GS1000 Li"
     ],
     "M-VAVE": [
       "TANK-G",
@@ -24777,7 +24778,8 @@
       "Prime M1",
       "Prime M2",
       "Prime S1",
-      "Ocean Machine II"
+      "Ocean Machine II",
+      "GS1000 Li"
     ],
     "HOTONE.md": [
       "Ampero One MP-80",
@@ -25142,21 +25144,21 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 287,
+      "record_count": 288,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 150,
+      "record_count": 151,
       "bass_focused_record_count": 35,
-      "shared_bass_capable_count": 115,
+      "shared_bass_capable_count": 116,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
     "ALL-VOCAL.md": {
-      "record_count": 66,
+      "record_count": 67,
       "vocal_only_count": 24,
-      "combined_instrument_count": 42,
+      "combined_instrument_count": 43,
       "scope": "All retained vocal/live-mic records across four comparison tables",
       "technical_refresh": false
     },
@@ -25172,10 +25174,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 287 guitar, 150 documented bass-capable, 66 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 288 guitar, 151 documented bass-capable, 67 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "346 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "347 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -45528,18 +45530,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 346,
-    "canonical_root_models": 346,
+    "unique_brand_model_pairs": 347,
+    "canonical_root_models": 347,
     "legacy_only_models": 0,
-    "guitar_view_models": 287,
+    "guitar_view_models": 288,
     "bass_focused_models": 30,
     "vocal_only_models": 24,
-    "vocal_view_models": 66,
+    "vocal_view_models": 67,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 150,
-    "bass_shared_models": 115,
+    "bass_view_models": 151,
+    "bass_shared_models": 116,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -45591,7 +45593,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX5B."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER GS1000 Li."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -45710,6 +45712,7 @@
       "MOOER::Prime M2",
       "MOOER::Prime S1",
       "MOOER::Ocean Machine II",
+      "MOOER::GS1000 Li",
       "M-VAVE::TANK-G",
       "M-VAVE::TANK MINI",
       "M-VAVE::MK-20",
@@ -45948,6 +45951,7 @@
       "MOOER::Prime M1",
       "MOOER::Prime M2",
       "MOOER::Prime S1",
+      "MOOER::GS1000 Li",
       "M-VAVE::TANK-B",
       "M-VAVE::TANK MINI",
       "M-VAVE::MK-20",
@@ -46064,6 +46068,7 @@
       "MOOER::GS1000",
       "MOOER::Prime P2",
       "MOOER::Prime M2",
+      "MOOER::GS1000 Li",
       "Roland::VT-4",
       "TC-Helicon::VoiceLive Play",
       "TC-Helicon::Play Acoustic",
@@ -46105,6 +46110,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "MOOER::GS1000 Li": "Shared manufacturer manual explicitly covers Li and standard editions, documents guitar/bass input and bass amp/cab library; Li power and mass listed separately.",
     "Valeton::GP-50": "Own manual lists Classic Bass, Foxy Bass, Mess Bass and Bass OD with dry blend. [Manual](https://www.hotone.jp/manuals/valeton/GP-50.pdf).",
     "Valeton::GP-5": "Firmware1.0.3 includes three bass amps and Bass OD. [Own manual pp22–28](https://www.hotone.jp/manuals/valeton/GP-5.pdf).",
     "MOOER::Prime S1": "Exact S1 firmware1.3.4 adds bass amp/cabinet modules and bass presets; Studio1.6.9 notes2024-08-27. Launch guitar-only statement is historical. [Manufacturer](https://cn.mooeraudio.com/Downloads_xq/1.html).",
@@ -47256,6 +47262,13 @@
     },
     "MOOER::Ocean Machine II": {
       "link": "MOOER.md#ocean-machine-ii",
+      "source_files": [
+        "MOOER.md"
+      ],
+      "finding_files": []
+    },
+    "MOOER::GS1000 Li": {
+      "link": "MOOER.md#gs1000-li",
       "source_files": [
         "MOOER.md"
       ],
@@ -58860,6 +58873,23 @@
         "QualifiedIDR"
       ],
       "method": "OwnEnglishmanualbrowsertext;nooperation/download"
+    },
+    {
+      "model": "MOOER GS1000 Li",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GS1000_Manual_EN.pdf",
+        "https://cn.mooeraudio.com/product/94.html"
+      ],
+      "finding": "ExplicitsharedmanualLi edition;9V3Acenternegative,1.37kg,7.4V4750mAh35.15Wh,battery6h25C50%lighting/charge2.5hoff. Sharedguitar/bass/micarchitecture.",
+      "remaining": [
+        "ExactLiIDR",
+        "Li-specificcurrentfirmwareNAM/editor",
+        "Displaypixel/color",
+        "Actualdraw/barrel/USBpower"
+      ],
+      "discovery": "ExactGS1000Li queriesreturnedstandardlists/accessories notqualifiedLiitem",
+      "method": "Browsertextonly"
     }
   ],
   "discovery_cross_brand_bass": {

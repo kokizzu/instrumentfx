@@ -864,7 +864,7 @@ def main():
         elif mode=='commit-ge300':
             subject='research(mooer): qualify GE1000 analog ratings and wireless controls'
         elif mode=='commit-gs1000':
-            subject='research(mooer): verify GS1000 stereo loop duration and preserve rhythm conflict'
+            subject='research(mooer): add GS1000 Li with distinct battery power and mass'
         elif mode=='commit-b1xon':
             subject='research(zoom): document B1Xon synth and save loop restrictions'
         if mode=='commit-helix-lt':
