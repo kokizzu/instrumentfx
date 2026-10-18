@@ -45599,6 +45599,19 @@
         "Zoom B3 generic Source conflict frequency-response discrepancy"
       ],
       "after": "Focused regression passed; reviewed actual XT Live optional-license,HD400 historical-count andFV03 delay-claim rows in affected instrument views."
+    },
+    "readme_brand_count_regression": {
+      "trigger": "DKadditionupdated350modelsbutleft39brandsduringcomparisonplan;manualcorrectionhadbeenrequired",
+      "before": "make comparison-test-counts failed: New brand leaves README headline stale",
+      "fix": "Deriveheadlinebrandcountfromnonemptyinventoryentries;anchoredreplacementprotectshistoricalcounts",
+      "coverage": [
+        "Newbrandwithtwomodels",
+        "Emptybrandignored",
+        "Brandremoval",
+        "Historyunchanged",
+        "Idempotentrefresh"
+      ],
+      "after": "make comparison-test-counts andmake comparison-verify passed;current350models40brands and291/154/68views remain consistent"
     }
   },
   "legacy_provenance": "Earlier exact per-model commits, detailed conflicts, templates and original source/price evidence remain in legacy files and Git history. They are not refreshed or re-certified by this reconstruction.",

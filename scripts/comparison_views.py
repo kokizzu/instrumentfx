@@ -394,6 +394,7 @@ def readme_counts(text, state, membership):
         (r'Organization migration is incomplete:\*\* \d+ detailed models are root-canonical; \d+ still rely on legacy source records\.', f"Organization migration is incomplete:** {count} detailed models are root-canonical; {state['legacy_only_model_count']} still rely on legacy source records."),
         (r'(?<=profiles; )\d+ detailed models are root-canonical', f'{count} detailed models are root-canonical'),
         (r'\*\*\d+ active model records', f"**{state['active_model_count']} active model records"),
+        (r'(?m)^(\*\*\d+ active model records · )\d+( brands ·)', r'\g<1>' + str(sum(bool(models) for models in state['inventory_by_brand'].values())) + r'\g<2>'),
     ):
         text, matches = re.subn(pattern, replacement, text)
         assert matches == 1, 'README catalogue count format changed: ' + pattern
@@ -796,8 +797,35 @@ def test_field_extraction():
     assert field_value(headers, row[:2]+['']) == 'External only'
     print('PASS: separate source-column evidence survives extraction and reference resolution; two-column values stay unchanged.')
 
+
+def test_readme_brand_counts():
+    state = json.loads((ROOT/'research-state.json').read_text())
+    text = (ROOT/'README.md').read_text()
+    fixture = json.loads(json.dumps(state))
+    fixture['inventory_by_brand']['Regression Brand'] = ['One', 'Two']
+    fixture['inventory_by_brand']['Empty Brand'] = []
+    fixture['root_brand_content']['REGRESSION.md'] = ['One', 'Two']
+    fixture['active_model_count'] += 2
+    fixture['canonical_root_model_count'] += 2
+    text += '\n| [REGRESSION.md](REGRESSION.md) | One, Two |\nHistorical note: 39 brands at an earlier checkpoint.\n'
+    rendered = readme_counts(text, fixture, state['comparison_membership'])
+    expected = sum(bool(models) for models in fixture['inventory_by_brand'].values())
+    assert f"**{fixture['active_model_count']} active model records · {expected} brands ·" in rendered, 'New brand leaves README headline stale'
+    assert 'Historical note: 39 brands at an earlier checkpoint.' in rendered, 'Historical count was rewritten'
+    assert readme_counts(rendered, fixture, state['comparison_membership']) == rendered, 'Count refresh is not idempotent'
+    fixture['inventory_by_brand'].pop('Regression Brand')
+    fixture['root_brand_content'].pop('REGRESSION.md')
+    fixture['active_model_count'] -= 2
+    fixture['canonical_root_model_count'] -= 2
+    reverted = readme_counts(rendered, fixture, state['comparison_membership'])
+    expected -= 1
+    assert f"**{fixture['active_model_count']} active model records · {expected} brands ·" in reverted, 'Removed brand leaves README headline stale'
+    print('PASS: README tracks brand additions/removals, ignores empty brands, preserves history and is idempotent.')
+
 if __name__=='__main__':
-    if sys.argv[1]=='test-extraction':
+    if sys.argv[1]=='test-counts':
+        test_readme_brand_counts()
+    elif sys.argv[1]=='test-extraction':
         test_field_extraction()
     elif sys.argv[1]=='test-fields':
         test_field_projection()

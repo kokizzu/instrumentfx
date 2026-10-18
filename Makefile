@@ -1951,3 +1951,7 @@ research-commit-dsp2024p:
 .PHONY: research-commit-ie550
 research-commit-ie550:
 	python3 scripts/research_tools.py commit-ie550
+
+.PHONY: comparison-test-counts
+comparison-test-counts:
+	python3 scripts/comparison_views.py test-counts
