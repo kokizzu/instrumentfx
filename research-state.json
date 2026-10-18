@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Zoom A2.1u discovery / required-field audit",
-    "task": "A2.1u own-manual USB power, routing, pedal restrictions and initial user fill saved in discovery lead. Seek exact Shopee hardware and complete control/category/import audit before active admission.",
+    "model": "Fresh brand/series Shopee discovery",
+    "task": "A2.1u controls and per-module choice counts now reconciled to47 in non-active lead. Exact hardware offer unresolved; defer repeated accessory-only searches. Continue other fresh hardware leads or active model gaps; retain114Markdown compatibility paths.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -45681,50 +45681,13 @@
       "overall_complete": false
     },
     "preservation_recheck_latest": {
-      "checked_date": "2026-10-18",
-      "source_head": "ef334e4075148c054e3e8e13108d203735af6b16",
-      "inputs_unchanged_during_run": true,
-      "checks": [
-        {
-          "target": "make consolidation-audit-body-differences",
-          "exit_code": 0,
-          "complete_source_bodies": 82,
-          "mismatches": 0,
-          "other_entries_outside_this_check": 92
-        },
-        {
-          "target": "make consolidation-verify",
-          "exit_code": 0,
-          "result": "Complete consolidated bodies and supporting comparison facts retained."
-        },
-        {
-          "target": "make metadata-retirement-verify",
-          "exit_code": 0,
-          "result": "13 metadata redirects; complete pinned originals match root metadata; all original headings/incoming anchors/root destinations resolve."
-        },
-        {
-          "target": "make technical-retirement-verify",
-          "session_id": 17664,
-          "exit_code": 0,
-          "technical_sources": 99,
-          "retired_sources": 99,
-          "incoming_link_occurrences": 0,
-          "result": "All shared-source unions pass; every original heading/root destination preserved."
-        },
-        {
-          "target": "make specialist-retirement-verify",
-          "exit_code": 0,
-          "result": "GM-800 complete section, excluded archive, specialist context and incoming anchors preserved."
-        },
-        {
-          "target": "make json-pointer-removal-verify",
-          "exit_code": 0,
-          "result": "Three original JSON files/two unique typed snapshots reconstructed; exact removed selection and zero incoming Markdown links verified."
-        }
-      ],
-      "remaining_markdown_compatibility_paths": 114,
-      "removed_json_pointers": 3,
-      "limitations": "Evidence preservation and historical navigation checks, not manufacturer truth/current stock or complete research. No compatibility source deleted; overall migration remains incomplete."
+      "date": "2026-10-18",
+      "target": "make consolidation-audit-body-differences",
+      "complete_source_bodies": 82,
+      "mismatches": 0,
+      "other_entries_outside_scope": 92,
+      "compact_reference_plan_changes": 0,
+      "limitation": "Registered whole-body equality and current compact links only; compatibility-retention contract remains. No source retirement or full migration certification."
     },
     "compatibility_retention_review_20261018": {
       "markdown_files": 114,
@@ -79360,7 +79323,7 @@
       "power_conflict": "Specification table p39 says9V AC300mA; safety p2 and connector p7 explicitly say9V DC300mA center-negative AD0006. Preserve conflict; no device operation.",
       "battery": "Four AA alkaline; approximately6h; no charging."
     },
-    "remaining": "Exact Shopee hardware offer; complete control/category inventory; IR/NAM/capture/editor/current OS support; display diagonal/color/touch. Own-body USB power, initial fill and pedal assignment now documented; unresolved DC/AC table conflict retained.",
+    "remaining": "Exact hardware offer; full named choice list; IR/NAM/capture/editor/current OS evidence; display details. Defer this non-active lead while researching other market/model gaps.",
     "method": "Browser text only; no file/dependency/software download, installation or hardware operation.",
     "active_models_added": 0,
     "manual_followup": {
@@ -79380,6 +79343,42 @@
       "xlr": "PRE takes signal before effects; POST after effects and reflects AMP SELECT. GROUND LIFT disconnects XLR ground. OUTPUT/PHONES can monitor simultaneously.",
       "memory": "Factory user A0–d9 duplicates preset00–39; All Initialize overwrites saved user patches.",
       "processing": "Eight serial modules, individually bypassable; MODEL simulates acoustic guitar body sounds. Rhythm playback disables DELAY/REVERB."
+    },
+    "control_category_audit": {
+      "source": "https://zoomcorp.com/media/documents/E_A21u.pdf",
+      "printed_pages": [
+        6,
+        7,
+        29,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36
+      ],
+      "controls": "K/F/B4/2/6: module selector +three parameter knobs; two main footswitches; BANKminus/plus,STORE,RHYTHM,PEDAL ASSIGN,MANUAL buttons. Pedal toe action and rear POWER/PREPOST/GROUND switches additional. Text-derived, no visual audit.",
+      "category_choices": {
+        "MODEL": 12,
+        "MIC": 1,
+        "COMP/LIMIT": 2,
+        "LO EQ": 2,
+        "HI EQ": 2,
+        "ZNR": 1,
+        "MOD/EFX": 14,
+        "DELAY/REVERB": 13
+      },
+      "reconciliation": "Counts sum47 library choices across eight serial modules; not47simultaneous. CONTROL/GLOBAL are configuration, not additional audio effect slots.",
+      "mic": "MIC is one effect type with dynamic/condenser response, three position and three distance settings; do not inflate these into separate module types.",
+      "acoustic": "MODEL includes eleven acoustic/resonator body choices and one tube-preamp simulation. PICKUP SELECT can simulate acoustic response from electric guitar; synth architecture unverified."
+    },
+    "market_followup": {
+      "queries": [
+        "site:shopee.co.id \"zoom a21u\"",
+        "site:shopee.co.id \"zoom a2.1u\" bekas",
+        "site:shopee.co.id \"zoom a2 1u\""
+      ],
+      "result": "No exact hardware offer resolved; same accessory-only index match remains excluded. Defer repeated unchanged searches."
     }
   }
 }
