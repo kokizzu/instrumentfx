@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh eligible hardware discovery / required gaps",
-    "task": "707II card patch capacity/export prerequisite and rhythm persistence/sync saved. Next another required-field gap or new exact Shopee series. Existing 707II/GFX707 offers are duplicates; do not infer larger-card sample duration or factory-user fill.",
+    "task": "Plethora X3 full desktop/mobile editor scope and three-parameter mappings saved. X5-only looper duration rejected forX3. Next resolve required OS/display/power fields from exact sources or seek new exact Shopee series; do not repeat sibling-duration inference.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -78880,5 +78880,28 @@
       "site:shopee.co.id Korg AX10B"
     ],
     "result": "No new exactmodel; existing707II27879131/28968736038 stillHabis/Rp500000/staleAug26–27; existingGFX70748116980/15446202329 soldoutRp750000. RP300matchwaspreviouslyexcludedPSU. No new/usedprice range orlive stock inferred."
+  },
+  "plethora_x3_editor_mapping_20261018": {
+    "status": "partial",
+    "source": "https://www.adorama.com/col/productManuals/TC79AIS861.pdf",
+    "identity": "Manufacturer-authored X3 V0.0 ©2022 copy, printedp21",
+    "findings": [
+      "Desktop TonePrint full editor/library viaUSB explicitly confirmed",
+      "Mobile full editor/library access documented",
+      "Three simultaneous parameters perknob/MASH mapping; genericEXPwording notphysicalsocketproof"
+    ],
+    "unresolved": [
+      "DesktopOSminimum/currentarchitectures",
+      "X3loopduration",
+      "Displaydiagonal/color/touch",
+      "Factoryfill",
+      "Actualdraw/USBpower"
+    ],
+    "rejected_sibling_inference": {
+      "source": "https://mediadl.musictribe.com/media/PLM/data/docs/P0D9M/Release-Notes_TE_P0D9M_PLETHORA-X5_Firmware-Update_v1.3.11_2022-03-03_Rev.2.pdf",
+      "reason": "40sstereo/80smono version1.2.18 section explicitly X5,alreadyrecorded there;notpromotedtoX3"
+    },
+    "market": "Shopee searches returned existing NEO/Gelora X3 offers only; no new range/live stock claim",
+    "method": "Text only; no download orapp/hardwareoperation"
   }
 }
