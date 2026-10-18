@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G1 FOUR",
-    "task": "Saved mono pre/post looper and clearing triggers, common BPM, alkaline/backlight endurance, ECO, USB MIDI and saving behavior. Next exact eligible Shopee discovery or unresolved screen/synth/import fields; do not repeat category census.",
+    "task": "Saved G1 FOUR analog levels, converter format and published noise ratings, preserving unusual output-impedance wording. Next fresh exact Shopee discovery or primary-source unresolved fields; do not repeat category/practice/electrical audits.",
     "next_models": [],
     "after_queue": "372active/46brands;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
   },
@@ -81317,5 +81317,10 @@
     "source": "https://zoomcorp.com/media/documents/E_G1FOUR_QuickGuide_0.pdf",
     "revision": "©2019 Z2I-3484-02",
     "finding": "Practice routing, power conditions, USB MIDI and save behavior added; factory-fill conflict retained."
+  },
+  "g1four_electrical_followup_20261018": {
+    "source": "https://zoomcorp.com/media/documents/E_G1FOUR_QuickGuide_0.pdf",
+    "revision": "©2019 Z2I-3484-02 p11",
+    "finding": "Analog levels, headphone power, converter format and noise ratings saved; odd line-output condition retained verbatim, not silently interpreted."
   }
 }

@@ -458,6 +458,17 @@ All nine non-PEDAL categories in this edition have now been enumerated. Later ad
 | USB / MIDI | Guide explicitly specifies **USB MIDI**, Micro-B and USB power. A power-only cable cannot carry other USB functions; bus power does not imply USB audio. |
 | Memory / saving | AUTO SAVE can save parameter edits immediately; when disabled, changing patches prompts for saving. SAVE can overwrite or swap patches. This does not resolve the retained factory-fill conflict. |
 
+
+### G1 FOUR — published audio limits
+
+[Own family quick guide, ©2019 Z2I-3484-02, p11](https://zoomcorp.com/media/documents/E_G1FOUR_QuickGuide_0.pdf), checked 2026-10-18. Manufacturer ratings, not local measurements.
+
+| Field | Finding / qualification |
+|---|---|
+| Audio / electrical specifications | INPUT **−20dBu,470kΩ**; AUX IN **−10dBu,1kΩ**. Shared line/phones output: line **+2dBu maximum**, headphones **17+17mW into32Ω**. The line condition is literally “10 kΩ or more output impedance”; preserve this source wording, not a verified output-impedance measurement. |
+| Conversion / internal format | **44.1kHz**,24-bit A/D and D/A,each128× oversampling;32-bit internal processing. These do not establish USB audio or32-bit recording. |
+| Audio noise specifications | Input S/N **120dB**; residual noise **−97dBu**. Weighting and detailed test conditions are not stated in this guide; not independently measured. |
+
 ## G1X FOUR
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
