@@ -330,6 +330,14 @@ Checked2026-10-18 in [manufacturer-authored RP90 manual text](https://manualzz.c
 | Live / level controls | **Effects Level** adjusts the relative Chorus/FX,Delay andReverb levels together; **Master Level** sets overall output. Effects Level is therefore not interchangeable with master volume. |
 | Display / editing indicators | **CU** denotes a custom library configuration; bottom-right decimal indicates a modified preset. Matrix LEDs show active/selected effects or tuning status according to mode. These functions do not establish diagonal,color technology or touch. |
 
+### RP90 — named amp/drive choices and headphone load
+
+| Field | Own manual evidence |
+|---|---|
+| Categories / amp identities | Twelve: Fender Tweed Deluxe1957,Twin Reverb1965;Marshall Super Lead1968,Master Volume1977,JCM8001983;Vox AC30 TopBoost1963;Mesa DualRectifier2001;Matchless DC30 1996;DigiTech Solo,Metal,Bright Clean,Clean Tube. Eachhas assignedcabinet andnine gainsettings,notnine distinctmodels. [Manufacturer manual pp23–24](https://manualzz.com/doc/9658242/digitech-rp90-owner-s-manual). |
+| Categories / drive identities | Six: TS9, DOD250, DS1, Grunge, Death Metal, Big Muff Pi. Acoustic simulation isseparate;Direct appearsinprose butnot enumeratedselectorlisting. Preserve thatgap. [Same manual pp23–24](https://manualzz.com/doc/9658242/digitech-rp90-owner-s-manual). |
+| I/O / headphone andmixer guidance | Manualp11 recommends **≤100Ω headphones** andMixer switchposition forproperfrequencyresponse. Stereo mixerchannels shouldpanfullyleft/right toretainseparation(pp14–15). Not an impedance measurement orproof ofuserIR loading. [Same manual](https://manualzz.com/doc/9658242/digitech-rp90-owner-s-manual). |
+
 ## RP250
 
 Guitar multi-effects;distinct fromRP255/RP150. Checked2026-10-17;partial. Bass/vocal suitability andownership unresolved.
