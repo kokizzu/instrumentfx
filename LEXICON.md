@@ -245,6 +245,18 @@ Checked 2026-10-18 against the [manufacturer manual, printed pp32,34,40–41](ht
 | Live / bypass tails | **Input Dry** retains dry signal and lets reverb/delay tails finish; **Input Mute** suppresses dry signal but also lets tails finish. These are bypass behaviors, not preset-change spillover. |
 | Editor / backup and file distinction | Backup includes presets **and global settings**; Restore replaces hardware data. Individual programs use **.mx400dsp / .mx400stp / .mx400srp** for Dual Stereo/Stereo/Surround. Archive extensions are **.m2a on Windows / .syx on Mac** in this manual, not proof of current application compatibility. Factory Restore erases user settings/programs. |
 
+
+### MX400 — editor platform editions and protected programs, 2026-10-18
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / Windows2.3.1 published compatibility | Manufacturer software-page indexed text explicitly lists **WindowsXP,Vista,7,8** forMX400/MX400XL's **MX-Edit2.3.1 andVST control plug-in installer**,with32-bit-only wording. This is the listed edition's compatibility,not proof ofWindows10/11 support or64-bit DAW compatibility. Directpage unavailable;indexed manufacturer text used,noinstaller downloaded. [Version-specific listing](https://lexiconpro.com/en-US/softwares/mx-edit-mx400-v2-3-1-windows) |
+| Editor / bundled manual requirements | Own18-0446V-F manual pp35–36: **PentiumIII500MHz+,WindowsXP SP2+;MacOSX10.4+**. These are historical bundled-editor minimums,not unrestricted futureOS support,AppleSilicon support orproof thatMac2.2.0 has identical requirements. Parameter editing/compare/save/load documented;this is a full hardware editor aswell as librarian. [Manual][M400-M] |
+| Memory / protected factory programs | Manualp36 explicitly says factory programs cannot be changed/overwritten;user lists represent hardware user memories. Configuration-dependent tabs each have factory/user lists. This resolves factory protection,not total-device bank accounting orinitialuser fill. [Manual][M400-M] |
+| Memory / product-library wording | Productpage advertises **223 settings including25 surround programs**. This is not silently substituted for99factory+99user per-configuration statements orused to invent a whole-device slot total. [Manufacturer indexed product text][M400-P] |
+
+No software installed orlegacyOS tested. NewShopeequeriesforLexiconMPX1,YamahaMagicstomp,DigiTechRP200A,KorgPX5D producednoqualifiednewhardware;thisdoesnotestablish marketabsence. ExistingMX400sold-outoffer wasnot duplicated.
+
 <!-- comparison evidence ends -->
 
 Cached hardware asking price, not live stock or completed sale. Seller “Original/Ori” wording does not verify authenticity or revision. Used/new condition,actual MX400 versus XL/voltage variant,bundle,mains cable,warranty,shipping/tax,voucher eligibility and working state remain unverified. Relative “tomorrow” delivery does not override explicit Habis. Late-arrival compensation up to Rp10,000 is not a purchase discount.

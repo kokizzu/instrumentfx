@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "LEKATO ME-01",
-    "task": "Saved loopback/Master/freeze/tuner/save limits;corrected425q masscorruption. Next freshbrand/seriesShopeediscovery orprimaryME01revision/IRpersistence/displayevidence;generic80presetoffer remainsunconfirmed.",
+    "model": "Lexicon MX400",
+    "task": "Saved version-specificWindowseditorcompatibility,bundledMac/Winminimums,factoryprotection and223settingmarketingqualification. Next exactMac2.2.0requirements/bankaccounting orfresheligibleShopeediscovery.",
     "next_models": [],
     "after_queue": "357 partial models;298 guitar158 bass69 vocal;42brands;migration incomplete; no downloads/workflows/push."
   },
@@ -45852,7 +45852,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume LEKATO ME-01."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Lexicon MX400."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -78232,5 +78232,23 @@
     "correction": "425gpreviousnormalizationwithdrawn:bothmirrorbodytranscriptions425q;unitunverified",
     "remaining": "IRimportpersistence/displaytechnologydiagonal/exactrevision/powergarble/Shopeemodelbinding",
     "search": "ShopeeME01/ME-01exactqueriesnoqualifiednewitem;notunavailability"
+  },
+  "mx400_editor_platforms_20261018": {
+    "model": "Lexicon MX400",
+    "checked_date": "2026-10-18",
+    "software_source": "https://lexiconpro.com/en-US/softwares/mx-edit-mx400-v2-3-1-windows",
+    "software_access": "Indexedmanufacturertext;directunavailable",
+    "manual": "https://adn.harmanpro.com/product_documents/documents/921_1516997571/MX400_and_MX400XL_Manual_18-0446V-F_original.pdf",
+    "saved": "Win2.3.1XPsVista7/8listed;manualbundledXPsp2/P3 500MHz/mac10.4;factoryprotectednotuserfill;product223including25surroundnotmemorytotal",
+    "remaining": "CurrentOS/64bitstandalone/Mac2.2.0specificrequirements/wholedevicebankaccounting/initialuserfill"
+  },
+  "discovery_search_pass_20261018_post_lekato": {
+    "queries": [
+      "Lexicon MPX1",
+      "Yamaha Magicstomp",
+      "DigiTech RP200A",
+      "Korg PX5D"
+    ],
+    "result": "NoqualifiednewShopeeexacthardware;notabsenceproof. ExistingMX400offeronlyreturnedwhenrevisitingthatmodel."
   }
 }
