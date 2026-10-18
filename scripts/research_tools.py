@@ -399,7 +399,7 @@ def main():
         if mode == 'commit-nux-mg300-audit':
             message = 'research(nux): document original MG-300 output and calibration modes'
         if mode == 'commit-nux-mg101-audit':
-            message = 'research(nux): qualify MG-101 categories tuner and calibration conflict'
+            message = 'research(nux): preserve five exact MG-101 Shopee offers'
         if mode == 'commit-h9max':
             message = 'research(eventide): document original H9 routing and SysEx scope'
         if mode == 'commit-1201':

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX MG-101",
-    "task": "MG101 categorysubset/tuner/output/calibrationconflict saved. RemainingMOD/DLY layout(Pan) requiresactualtableinspection;EnglishPDFreaderfilesizelimit. SeekqualifiedIDRoffers oranothermodelgap withoutrepeatingunchangedroutes.",
+    "task": "MG101 fiveexactoffers saved,includingthreeexplicitusedtitles;stock/conditionqualifications retained. Next seeknewprimarybattery/preset/categoryevidence orcontinuefreshdiscovery;do notduplicateoffers.",
     "next_models": [],
     "after_queue": "378 active models,46 brands,all partial;no downloads/workflows/push;migration incomplete."
   },
@@ -81934,7 +81934,7 @@
     "scope": "Explicit uncertainty signals in selected comparison field labels and values only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
     "model_count": 378,
     "models_with_signals": 378,
-    "flagged_field_count": 4804,
+    "flagged_field_count": 4808,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -102735,13 +102735,6 @@
             ]
           },
           {
-            "field": "Prices",
-            "source": "NUX.md",
-            "signals": [
-              "question_mark"
-            ]
-          },
-          {
             "field": "Looper / source conflict",
             "source": "NUX.md",
             "signals": [
@@ -102762,6 +102755,43 @@
             "signals": [
               "unresolved",
               "conflict"
+            ]
+          },
+          {
+            "field": "IDR used-title sold-out ask",
+            "source": "NUX.md",
+            "signals": [
+              "unknown"
+            ]
+          },
+          {
+            "field": "IDR used-title sold-out indexed ask",
+            "source": "NUX.md",
+            "signals": [
+              "unknown"
+            ]
+          },
+          {
+            "field": "IDR used-title indexed ask",
+            "source": "NUX.md",
+            "signals": [
+              "unknown"
+            ]
+          },
+          {
+            "field": "IDR condition-unverified exact ask",
+            "source": "NUX.md",
+            "signals": [
+              "unknown",
+              "unverified"
+            ]
+          },
+          {
+            "field": "IDR unresolved variation range",
+            "source": "NUX.md",
+            "signals": [
+              "unknown",
+              "unresolved"
             ]
           }
         ]
@@ -118369,7 +118399,7 @@
       "TC-ELECTRONIC.md": "46ca68e66568f02e972ac73999ae6e09ce1746d8833b8d9e725b74664b4c2fbc",
       "VALETON.md": "e335ead12e652b2f04053cb58702d5055e6bcf32c61cbca143572baf2cb4b03e",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
-      "ALL-GUITAR.md": "0fb241c6f2e183542b8ecee90f646737479da759b8b838febfb6d185352c0f3e",
+      "ALL-GUITAR.md": "2c03b8489c34eb8eee5efe6b63baf2c0f46293b9a1fe2368755ae4462473b26f",
       "LINE6.md": "bbbe508cca147737b97aadbd9b3fbb2e20faa83c7ae8e717abd7acd42c6e63da",
       "YAMAHA.md": "ed6c13b0c5344d5f227d1c08e7e66c65e9e636498b6a1e6c2ed853edb0d748c0",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
@@ -118388,7 +118418,7 @@
       "TECH21.md": "958cba8793e10c2ba4eaa7386bcd0e528107d05126bbe91d3de1c81251129407",
       "MOOER.md": "cdad5c6009106194df97ab42a7c0e5b4bb606ff1bde54be36dfd5c4a578be039",
       "BEHRINGER.md": "8746e2a4c6f49febe91bde776a38dd035352781e66c258940a33d85d1c69218d",
-      "NUX.md": "6f4f678c603fa4f9f0a2e2e2ad230e7f640e242ab621c73ae43bd7b4dc5bc531",
+      "NUX.md": "eb5a2a4fb8e0119ca8be04aa0d649dd1a3cb11c109e8e542b14c8600448f6b41",
       "IK-MULTIMEDIA.md": "ce23e1624886fada92ab0ff1c92554e04c01d18ca79839dc13744acdba2b9903",
       "SINGLE-VOCAL.md": "acb51be0b82d540d045e92e126882df43bb3c7380b45f3be5cc48a7828827796",
       "DARKGLASS.md": "4df816629a31b454d8c69de300525d97a85718749f23f4e684b243c5b50fce06",
@@ -118803,5 +118833,36 @@
     "pages": "PDF5–7,9",
     "scope": "CMP/EQ/reverb counts,tunerreference,outputwiring andcalibrationconflict.",
     "remaining": "MODDLYPanplacement needsvisualtable;Englishoriginalreaderexceedssizelimit;no downloads."
+  },
+  "mg101_shopee_offers_20261018": {
+    "checked_date": "2026-10-18",
+    "offers": [
+      {
+        "field": "IDR used-title sold-out ask",
+        "qualification": "**Rp850.000;Habis**,shop32391670/item28643931275. Directthree-weekcache:sheorhe,KotaBandung,26–28Sepdelivery;three-monthsearch:tarisolihati,Kab.Bandung,18–21Juldelivery. Preserve selleridentity/location discrepancy,not verified rename. Titlebekas only;workingstate,variant,adapter/bundle,warranty,voucher,shippingtax/currentstock unknown;notcompleted sale.",
+        "url": "https://shopee.co.id/NUX-MG-101-%28bekas%29-i.32391670.28643931275"
+      },
+      {
+        "field": "IDR used-title sold-out indexed ask",
+        "qualification": "**Rp1.000.000;Habis**,Bekas_Berkah,Kab.Pasuruan,shop141489949/item45600700078;four-monthindex saysBekasLikeNew anddeliveryunavailable. Directcachemiss. Workingstate,variant,adapter/bundle,warranty,voucher,shippingtax/currentstock unknown;notcompleted sale.",
+        "url": "https://shopee.co.id/NUX-MG-101-Bekas-Like-New-i.141489949.45600700078"
+      },
+      {
+        "field": "IDR used-title indexed ask",
+        "qualification": "**Rp1.485.000**,ROCKPIZZ MUSIC,KotaDenpasar,shop440477624/item45760009096;three-monthindex,17Juldelivery. USEDtitle is sellerclaim;directcachemiss. Workingstate,variant,adapter/bundle,warranty,voucher,shippingtax/currentstock unknown;notcompleted sale.",
+        "url": "https://shopee.co.id/NUX-MG-101-MULTI-EFFECT-PROCESSOR-USED-NUX-MG-101-MULTI-EFFECT-PROCESSOR-USED-i.440477624.45760009096"
+      },
+      {
+        "field": "IDR condition-unverified exact ask",
+        "qualification": "**Rp1.840.000**,GH MUSIC STORE,KotaTangerangSelatan,shop71552895/item26053026690;directlast-weekcache. Relative tomorrowdelivery doesnotcertifystock. New/usedcondition,workingstate,variant,adapter/bundle,warranty,voucher,shippingtax/checkout unknown.",
+        "url": "https://shopee.co.id/NUX-MG101-Guitar-Modelling-Processor-Effect-Efek-Gitar-Multi-MG-101-i.71552895.26053026690"
+      },
+      {
+        "field": "IDR unresolved variation range",
+        "qualification": "**Rp1.580.000–1.790.000**,ElevenMusic,JakartaPusat,shop12356205/item25981876461;directsix-daycache shows2variants,monthsearch3. Variantnames/selectedhardwarebundleunknown;notbareunitpricebound. Condition,workingstate,adapter,warranty,voucher,shippingtax/currentstock unknown.",
+        "url": "https://shopee.co.id/NUX-MG101-MG-101-Modeling-Guitar-Processor-Efek-Gitar-Digital-i.12356205.25981876461"
+      }
+    ],
+    "scope": "Separate exacthardwareoffers;no priceaveraging,stockcertification ornewconditioninference. Selleridentity discrepancy retained."
   }
 }
