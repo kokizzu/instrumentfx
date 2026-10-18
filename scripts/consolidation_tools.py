@@ -1439,7 +1439,7 @@ def commit(model_id):
         print(research_tools.git('commit', '-m', 'research(boss): qualify GX1B supply macOS support and cached offer'))
         return
     if model_id == 'gt-1b':
-        print(research_tools.git('commit', '-m', 'research(boss): qualify GT1B live controls and headphone source conflict'))
+        print(research_tools.git('commit', '-m', 'research(boss): preserve exact GT1B sold-out indexed hardware ask'))
         return
     if model_id == 've-500':
         print(research_tools.git('commit', '-m', 'research(boss): distinguish VE500 processing ratings from USB format'))

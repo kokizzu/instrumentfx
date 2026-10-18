@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Manufacturer technical gaps / Shopee discovery",
-    "task": "PERFORM-VK own-text control count/global tempo saved. Next pursue fresh cross-brand Shopee discovery ormanufacturer hardware gaps;avoid repeating unchanged TC-HELICON sources/offers.",
+    "task": "GT-1B new exact sold-out Shopee hardware observation saved. Continue fresh cross-brand exact offers or manufacturer technical gaps; preserve historical stock/date/condition qualifications.",
     "next_models": [],
     "after_queue": "387 active models,46 brands,all partial;no downloads/workflows/push."
   },
@@ -61875,6 +61875,23 @@
         "Control count is text-derived,not visually certified.",
         "Dimensions,power and unresolved firmware conflicts remain."
       ]
+    },
+    {
+      "model": "BOSS GT-1B",
+      "checked_date": "2026-10-19",
+      "source": "https://shopee.co.id/Boss-GT1B-GT-1B-GT-1B-Bass-Multieffects-Processor-i.440269597.29735087876",
+      "seller": "Rockpizz_Batubulan",
+      "seller_id": "440269597",
+      "item_id": "29735087876",
+      "region": "Kabupaten Gianyar",
+      "idr": 3190000,
+      "availability": "indexed Habis;delivery20–23Aug stale",
+      "condition": "unverified;not classified used/new",
+      "access": "exact seller/item from Shopee search result;direct item cache miss",
+      "qualifications": [
+        "Bundle/adapter,warranty,revision,working state,voucher,shipping,tax andcheckout unknown.",
+        "Historical ask only;no completed-sale orlive-stock inference."
+      ]
     }
   ],
   "discovery_cross_brand_bass": {
@@ -82090,7 +82107,7 @@
     "scope": "Explicit uncertainty signals in selected comparison field labels and values only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
     "model_count": 387,
     "models_with_signals": 387,
-    "flagged_field_count": 4943,
+    "flagged_field_count": 4944,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -83957,6 +83974,14 @@
             "source": "BOSS.md",
             "signals": [
               "unknown"
+            ]
+          },
+          {
+            "field": "IDR Condition-unverified sold-out historical ask / Rockpizz_Batubulan,Kabupaten Gianyar",
+            "source": "BOSS.md",
+            "signals": [
+              "unknown",
+              "unverified"
             ]
           },
           {
@@ -119578,7 +119603,7 @@
       "YAMAHA.md": "c3ef2f3c290ebe7173c9c36a9d6937b3e3968fbc91a3ee6ab93b1cc3a81eb2d8",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
-      "ALL-BASS.md": "406c88796a72da2a26519080e1b6c61a432ec7f9173ced04b9e86bd27fcb9716",
+      "ALL-BASS.md": "ca734fff71aaab708a9ec649d20c8aaca5095307d68f1824cbccd9db476ec686",
       "VING.md": "2873cd6b4d5b13c287eb839977ff782139fb5640008b9f9730ddc289d09f5b67",
       "FENDER.md": "825b3d107ed121195199f3a238cfae504e08c3f4913cd5952787df25109530c8",
       "MOSKY.md": "5fa70acc80dab7bfb6d02f5160afec1e5ee1947c8e343790309c9f78cbc0a07d",
@@ -119600,7 +119625,7 @@
       "EVENTIDE.md": "ecfa2508b72e16adee028b54c54d9590264d03f21b5b5f387b46f3156f098cbc",
       "MULTI-EFFECTS.md": "f7ec02c88fd7230315cc527e406e4d04209c3f9cb063e4f35c2d0dbe2ec6184a",
       "VOX.md": "7087c2c9689338adff6f0cff2449fa98b138812bac122bd393d989bcaad1dc62",
-      "BOSS.md": "0d23479246ef2637728cc24c448bc44b72d6185c3ace982be064814f9a0aa992",
+      "BOSS.md": "9b041133c02ee503bcf175d598d10f2a5118bb453b5d108f565c5150b51043b8",
       "KEELEY.md": "bf2e0764ec43eedcfbfc9839452586b4b9c835948fc7315f5e935472f9d45d1a",
       "ALL-VOCAL.md": "c7bb7b13511ef4b447b59dbd80b9d99a9a757072df3dd25523f0d9201ce79f94",
       "LEXICON.md": "3b6b15d2b3986a2538f1a548a156df3a605e35764d91d08686e12549b64b98da",

@@ -50,11 +50,12 @@ Original primary source: [BOSS specifications](https://www.boss.info/global/prod
 
 ### GT-1B — separate IDR asking-price evidence
 
-Checked2026-10-16. Retail-style exact hardware pages indexed;condition,bundle,stock,shipping,tax and warranty region unconfirmed. Store identity not authenticated. Cable/accessory offers excluded.
+Checked2026-10-19. Exact indexed and direct-page offer evidence is retained with access, condition, stock, bundle, voucher and delivery limits. A search result is not live stock proof; used/new condition remains separate. Cable/accessory offers excluded.
 
 | Condition / seller | IDR evidence and qualifications | Exact item |
 |---|---|---|
 | Used | Unknown;no exact condition-verified used ask established. | — |
+| Condition-unverified sold-out historical ask / Rockpizz_Batubulan,Kabupaten Gianyar | **Rp3.190.000**; cached search listing says **Habis**. Search snapshot dates delivery20–23Aug; no current delivery or stock inference. Condition,revision,bundle/adapter,warranty,voucher,shipping,tax and checkout total unknown. | [440269597 /29735087876](https://shopee.co.id/Boss-GT1B-GT-1B-GT-1B-Bass-Multieffects-Processor-i.440269597.29735087876) |
 | Retail-style / Hurtrock Music Store Bandung,Bandung | Indexed Rp4.280.000;cached30Sep delivery. No voucher displayed in retrieved snapshot;adapter/bundle unspecified. Direct reopen failed cache miss;not live stock proof. | [11170212 /22970209540](https://shopee.co.id/BOSS-GT-1B-Bass-Effects-Processor-Pedal-Multi-Efek-i.11170212.22970209540) |
 | Retail-style / Cityland Store,Jakarta Utara | Indexed Rp4.340.000;18Aug delivery with18Aug10:00 cutoff. No voucher shown;adapter/bundle unspecified. Direct reopen timed out;not live stock proof. | [327043379 /22044062492](https://shopee.co.id/BOSS-GT-1B-GT1B-GT-1B-Bass-Effects-Processor-Pedal-Multi-Efek-i.327043379.22044062492) |
 
