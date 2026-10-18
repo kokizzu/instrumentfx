@@ -28,10 +28,12 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Korg AX1500G",
-    "task": "Reconciled currentmemorysummary withverified48userfactorycopies;no duplicateusedoffersadded. Next auditanotherstale summary against existingevidence orfreshShopee hardwarediscovery;technicalgapsremain.",
-    "next_models": [],
-    "after_queue": "351partialmodels;155bass;technicalverification andlegacycompatibilitymigration incomplete;no downloads/workflows/push."
+    "model": "Behringer X V-AMP LX1-X",
+    "task": "Profile exactcategory-linked candidate shop49070533/item1303711852,Rp1505000KabJombang;directcachemiss. OwnQSGhttps://mediadl.musictribe.com/media/sys_master/he3/h64/8849668538398.pdf confirmsmultifx. Readallrequiredfields,addBEHRINGER.md,inventoryandguitarviews,commitbeforenextmodel.",
+    "next_models": [
+      "Behringer X V-AMP LX1-X"
+    ],
+    "after_queue": "351activepartialmodels unchanged;155bass;candidate notyetadmitted;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24337,6 +24339,43 @@
         "DigiTech RP2000"
       ],
       "finding": "Exact ShopeeIndonesia queries produced noqualifiedhardwareitem;notunavailability evidence. RP360XPbekassearch alsoempty."
+    },
+    {
+      "model": "Behringer X V-AMP LX1-X",
+      "checked_date": "2026-10-18",
+      "status": "Exact category-linked hardware candidate;notyetadmitted",
+      "offer": {
+        "category": "https://shopee.co.id/search?keyword=%2CLX1",
+        "url": "https://shopee.co.id/BEHRINGER-X-V-AMP-LX1-X-i.49070533.1303711852",
+        "shop_id": "49070533",
+        "item_id": "1303711852",
+        "idr": 1505000,
+        "region": "Kab. Jombang",
+        "seller_name": "unverified",
+        "condition": "unverified",
+        "stock": "unverified",
+        "bundle": "unverified",
+        "warranty": "unverified",
+        "voucher": "unverified",
+        "access": "Opened September category month-oldcache explicitly links exacttitle/ask/item;directitemcachemiss. Categorylinkdisplay_model_id72824378820 retained,variantidentityunverified;notlivecheckout."
+      },
+      "primary": {
+        "url": "https://mediadl.musictribe.com/media/sys_master/he3/h64/8849668538398.pdf",
+        "identity": "X V-AMP LX1-X Quick Start Guide,English controls pp8–9 indexedmanufacturertext",
+        "eligibility": "Separate compressor,modulation,delay,reverb sections;integratedexpression withtoe-switch;notjustdedicatedsingleeffect modes."
+      },
+      "next": "Read ownEnglish manual/QSGspecifications andcreate completepartialBEHRINGER.md profile withallrequiredfields. Admitoneguitar model andregeneratecounts/views onlyafterfulllocalrecord;do notborrowVAMP2/VAMP3 specs."
+    },
+    {
+      "checked_date": "2026-10-18",
+      "models": [
+        "VOX ToneLab originaldesktop",
+        "BOSS ME6B",
+        "Zoom B2 original",
+        "Yamaha Magicstomp",
+        "DigiTech GNX1"
+      ],
+      "finding": "Noexactnewhardwarequalified;B2queryreturnedsiblingB2FOUR;GNX1onlyadapter16626959/4486100964. Searchabsenceisnotunavailability."
     }
   ],
   "inventory_by_brand": {
