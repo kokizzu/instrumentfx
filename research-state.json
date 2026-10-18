@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DK iE-350",
-    "task": "Saved exact iE350 DKit1.1.0 support history andiOS14minimum,Mac unverified distinction. IR/NAM implementation/desktoppackage stillunresolved;next freshShopee brand/series discovery ratherthan repeating blocked DKarchive access.",
+    "model": "Discovery / unresolved records",
+    "task": "Fresh Shopee DK/legacy Korg Zoom BOSS DigiTech pass found no qualified new hardware. Rejected exact adapter URLs saved. Next inspect legacy consolidation verification gaps or remaining model primary requirements;do not repeat these adapter-only searches.",
     "next_models": [],
     "after_queue": "351partialmodels;155bass;legacyconsolidationincomplete;no downloads/workflows/push."
   },
@@ -76493,5 +76493,39 @@
       "site:shopee.co.id \"DK\" \"IE-350\"",
       "site:shopee.co.id \"DK\" \"IE350\""
     ]
+  },
+  "discovery_exact_hardware_screen_20261018": {
+    "checked": "2026-10-18",
+    "queries": [
+      "site:shopee.co.id DK VX-1",
+      "site:shopee.co.id DK iE-10S",
+      "site:shopee.co.id Zoom BFX-708",
+      "site:shopee.co.id DigiTech BP355",
+      "site:shopee.co.id Korg AX1G",
+      "site:shopee.co.id Zoom GFX-1/GFX1",
+      "site:shopee.co.id BOSS SE-70/SE70",
+      "site:shopee.co.id DigiTech BP200",
+      "site:shopee.co.id DigiTech RP350",
+      "site:shopee.co.id DigiTech Vocalist Live 2",
+      "site:shopee.co.id Zoom 708",
+      "site:shopee.co.id Korg AX100B",
+      "site:shopee.co.id BOSS ME-6"
+    ],
+    "result": "No new exact eligible processor hardware offer qualified in this pass. Search absence is not proof of unavailable hardware or exhaustive coverage.",
+    "rejected": [
+      {
+        "url": "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-VL3G-Vocalist-Live-3-EX-MC2-Talker-S100-RP3-GNX1-BP200-AC-Power-Supply-i.16626959.4486100964",
+        "reason": "Power adapter only;Rp175000 does not buy any named processor."
+      },
+      {
+        "url": "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-RP350-RP355-RP300-PSU-i.855783279.22273291654",
+        "reason": "Power adapter only;Rp170000 does not buy RP350/RP355/RP300."
+      },
+      {
+        "url": "https://shopee.co.id/search?keyword=zoom+g3x",
+        "reason": "Category page includes adapters/cases/parts and already-recorded G3X hardware;GFX-1 appears in adapter compatibility,not a new GFX-1 hardware offer."
+      }
+    ],
+    "no_downloads": true
   }
 }
