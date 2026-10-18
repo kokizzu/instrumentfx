@@ -75414,7 +75414,7 @@
   },
   "resume_cursor": {
     "model": "Alesis MIDIverb 4",
-    "task": "Saved exactanalogratings/converteroversampling andreset scope. Continue freshShopee discovery orremaining modelrequirements;do notsubstitute MicroVerb4 data.",
+    "task": "Saved complete32configurationcensus(15Single+3Double+7DualMono+7MultiChain). Next freshShopee discovery orrequiredremainingfields;body/current/display/qualifiedIDR stillunknown.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75491,5 +75491,17 @@
     "identity": "Alesis MidiVerb4 ReferenceManual69pages,pp63–64,67",
     "findings": "Inputnominal−10dBV/max+10dBV1Mohmstereo500kohmmono;outputnominal−20dBVor+4dBu/max+17.5dBu500ohm;18bitADC128xDAC8x48kHz;resetPROG+D,utilitydefaults/preset01/usererasure",
     "remaining": "body/mass,current,display,categorycensus,qualifiednewusedprices and software stillunresolved"
+  },
+  "midiverb4_configuration_census_20261018": {
+    "source": "https://www.alesis.com/rscdn/982/documents/midiverb_iv_refmanual.pdf",
+    "basis": "p61modulationchart32namedrows,pp27–29routingdefinitions",
+    "counts": {
+      "single": 15,
+      "double": 3,
+      "dual_mono": 7,
+      "multi_chain": 7,
+      "total": 32
+    },
+    "qualification": "Configurationmenu census,not32simultaneouseffects orindependentlyassignableblocks;initial/currentfirmware notverified"
   }
 }

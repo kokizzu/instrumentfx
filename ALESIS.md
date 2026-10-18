@@ -106,6 +106,19 @@ Checked 2026-10-18 from its own [manufacturer Reference Manual](https://www.ales
 Body dimensions/mass,supply current,display specifications,full category census and qualified used/new prices remain unresolved. No seller or installed-firmware state was verified by this manual check.
 
 
+### MIDIverb 4 — complete configuration census
+
+Checked 2026-10-18 against the [manufacturer manual,p61 chart andpp27–29 routing definitions](https://www.alesis.com/rscdn/982/documents/midiverb_iv_refmanual.pdf). Original text only;no local download or visual inspection.
+
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / Single | **15**:five reverbs(Concert Hall,Real Room,Ambience,Plate Reverb,Nonlinear);five delays(Mono,Stereo,Ping Pong,Multi Tap,BPM Mono);Stereo Chorus,Quad Chorus,Stereo Flange,Stereo Pitch Shifter,Auto Pan. |
+| Category choices / Double | **3**:Real Room+Delay;Real Room+Chorus;Real Room+Flange. Independent mono inputs feed effects whose stereo outputs sum together. |
+| Category choices / Dual Mono | **7**:Delay:Delay;Chorus:Chorus;Flange:Flange;Pitch:Pitch;Chorus:Delay;Flange:Delay;Pitch:Delay. Colon denotes separate mono channels. |
+| Category choices / Multi Chain | **7**:Delay→Real Room;Chorus→Real Room;Flange→Real Room;Lezlie→Room;Real Room→Flange;Chorus→Delay→Room;Flange→Delay→Room. Arrows denote serial routing. |
+| Processing / count basis | **15+3+7+7=32 configurations**,not32simultaneous effects or32freely assignable blocks. These resolve earlier configuration-subtotal gaps;factory/user program counts remain separate. |
+
+
 ## MIDIverb III
 
 Checked2026-10-17. Partial instrument/microphone multi-effects;not MIDIverb4. [Manufacturer Reference Manual onmirror](https://www.zikinf.com/manuels/alesis-midiverb-iii-manuel-utilisateur-en-46789.pdf),63pages,exact Alesis MidiVerb3 title;revision/date unestablished. Official oldmanualURL inaccessible;webtext only,no download/visualaudit.
