@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "NUX MFX-10",
-    "task": "Saved MFX10 derived55 category census,11cabinetinventory/GREEN112descriptionconflict andDS-EQ limits. Manufacturer54/55definition and9/8concurrency unresolved. Continue remainingphysicalcontrol/externalEXPwiring/power/software/imports/IDR gaps orfreshdiscovery;no furtherarithmeticpromotedtoofficialdefinition.",
+    "model": "Korg AX5B",
+    "task": "Saved official EasyStart targetLED colors,reload occupancy andbank/edit navigation;AX5G-onlyAmpLineprofilesnottransferred. Remainingdisplaytechnology,actualdraw,initialmapping,software/imports andexactIDRoffers unknown. Continue broadrequiredgaps/discovery;recentbass/vocalsearch no newexacthardware.",
     "next_models": [],
     "after_queue": "363active/46brands;304guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -45910,7 +45910,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX MFX-10."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX5B."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -61027,6 +61027,12 @@
       "checked_date": "2026-10-18",
       "source": "https://manualzz.com/doc/61042604/nux-mfx-10-owner-s-manual",
       "finding": "Derived1COMP8EFX19AMP11CAB1NG10MOD2DLY3REV=55 excludesOFF/EQ/nestedvariants;notmanufacturerdefinitionnorproof54excludesNG. ElevenCABnames;GREEN112described4x12conflict. DSEQ±12dBmid300–3000Hz."
+    },
+    {
+      "model": "Korg AX5B",
+      "checked_date": "2026-10-18",
+      "source": "https://cdn.korg.com/us/support/download/files/5802e92ca055dc3e0b4c1a9d389e642a.pdf",
+      "finding": "Official4pageEasyStartexplicitAX5B:pedaltargetorange/red/green;factoryreloaduser01–40then01;bankWRITE/CANCEL,editprogramswitchdisplayroles. AX5GAmpLineprofilesnottransferred;strayAX3headingqualified."
     }
   ],
   "discovery_cross_brand_bass": {
@@ -80556,5 +80562,18 @@
       "YamahaFX500"
     ],
     "result": "No new exact eligible hardware offer recovered in this bounded search;unrelatedGP100Valeton/keyboardresultsignored;notmarketabsenceproof."
+  },
+  "discovery_bass_vocal_20261018_current": {
+    "queries": [
+      "ShopeeIbanezBP5",
+      "Zoom506II",
+      "VocalistLive4",
+      "VoiceToneCorrect",
+      "HarmonyGXT",
+      "ZoomB1next",
+      "BossVF1",
+      "DigiTechVX400"
+    ],
+    "result": "No new exact eligible hardware recovered;accessories/unrelated results not admitted;notabsenceproof."
   }
 }

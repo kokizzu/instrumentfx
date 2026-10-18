@@ -845,6 +845,17 @@ Checked2026-10-18: [KA-189 original-accessory listing](https://www.korg-shop.de/
 
 The same own p13 table lists9VDC/fourAA but no operating-current figure;this pass doesnot resolve currentdraw from the conflicting KA-189 accessory ratings. Initial user-slot factory mapping anddisplay technology remain unverified. Nofile downloaded or device operated.
 
+
+### AX5B — manufacturer EasyStart operating details
+
+Checked2026-10-18 against [Korg’s four-page AX5 Series EasyStart](https://cdn.korg.com/us/support/download/files/5802e92ca055dc3e0b4c1a9d389e642a.pdf?response-content-disposition=inline%3Bfilename%3DAX5_Series_EasyStart.pdf&response-content-type=application%2Fpdf),explicitly covering AX5G/AX5B. The support landing’s2015-06-01 label is not established firmware date. No device operation orlocal download.
+
+| Field | Model-qualified evidence |
+|---|---|
+| Expression / target LED | Pedal-setting cycles **Volume→Wah→FX PARAM**;indicator is **orange/red/green**,respectively. These are target-indicator colors,not proof of a color program display. |
+| Memory / factory reload destination | Guide p2 explicitly loads factory programs into **user01–40**,overwriting allcustom entries,then recalls01. This corroborates reload occupancy;it does not document exact initial factory-to-user patch mapping orcurrent used-unit contents. |
+| Live / bank navigation and editing display | WRITE/CANCEL jump banks inProgram mode. In the guide’s MOD parameter-edit example,ProgramUp displays currentvalue;ProgramDown displays type/parameter. These mode-dependent functions are not extra physical controls. |
+| Routing / sibling-only restriction | Guide p3 labels **Amp/Line Setting AX5G-only**. Its A1/A2/A3/Ln output profiles are not transferred toAX5B. Same page’s strayAX3-Series header andunrelated parameter labels remain source inconsistencies,not evidence of more AX5B categories. |
 <!-- comparison evidence ends -->
 
 [AX5B-F]: https://www.korg.com/de/products/effects/ax5b/page_1.php
