@@ -1992,6 +1992,15 @@ Checked2026-10-18;these observations do not establish a used/new market range.
 | IDR condition unverified | **Rp2.950.000**,DealerJaya Musik danElektrik,KotaMalang;seller510844912/item12080591408. Four-month cached direct text;shippingservice unavailable. NoHabis marker exposed,butstock/checkout unverified. Condition,revision,workingstate,adapter/bundle,warranty andvoucher unknown. Seller’s guitar-category wording does not change manufacturer-established bass scope. | [Exact hardware](https://shopee.co.id/Effect-Efek-Gitar-Zoom-B3-N-B-3-N-B-3-N-B3N-i.510844912.12080591408) |
 | IDR condition unverified;sold out | **Rp1.855.000,Habis**,GeandPedalStore,Kab.Sleman;seller185899831/item41823064779. Three-month searchcache;clean directURL inaccessible. July1–3delivery is stale. Condition,revision,bundle,adapter,warranty,voucher andcheckout unknown. Late-delivery compensation is not a purchase discount. | [Indexed exact hardware;direct access failed](https://shopee.co.id/product/185899831/41823064779) |
 
+### B3n — overflow behavior and display adjustment
+
+Checked2026-10-18 against [own original manual](https://zoomcorp.com/media/documents/E_B3n.pdf),printedpp9,11,27. Panel symbols are lost intext extraction;complete footswitch/button counts remainunresolved.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / overflow behavior | Exceeding processing capacity **orunit occupancy** produces **PROCESS OVERFLOW** andbypasses effects. Manual directs deleting effects orchanging types toend bypassing. Atseveneffects,theADD command isnotshown. This qualifies theseven-effect maximum;it isnot a guarantee ofevery combination orproof that overload preserves theintended sound. |
+| Display / contrast controls | **LCD CNTRST** selects an individual display,withcontrast range **1–13**. Adjustable contrast is documented;it doesnot resolve diagonal,color depth ortouch capability. |
+
 ## A1 FOUR
 
 Reviewed **2026-10-17** after exact Shopee hardware discovery. Acoustic multi-effects,including documented upright-bass processing;separate from A1X FOUR,no ownership assertion. Partial:official indexed documentation and page text only;no dependency,manual,software or firmware file downloaded.
