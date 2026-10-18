@@ -1810,6 +1810,10 @@ Checked 2026-10-17; partial. Guitar multi-effects with documented bass updates a
 
 The Rp825,000 F4 accessory item19700013/28803822643 is excluded from P2 hardware pricing. No software, firmware, dependencies or manual files were downloaded for this pass.
 
+### Prime P2 — direct analog expression audit
+
+Checked2026-10-19. [MOOER-authored V01.2023.09.21 manual, printed pp5–7,12](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_P2_Manual_EN.pdf), matches P2 title, publisher and controls. Complete connector inventory lists instrument TS input, TRS stereo output, headset/phones, MIDI and USB-C; **no analog EXP input**. The3.5mm MIDI socket is not an analog expression jack. Direct-EXP volume scope/position/min/max/bypass/headphone/tail/looper coverage is inapplicable; MIDI expression remains unverified. Touchscreen preset selection and optional wireless F-series controller do not provide onboard foot-operated down/up. Existing64W×120Lmm chassis fits; dedicated headset/phones retained. Later firmware changes remain separately qualified; no stock refresh, downloads or hardware test.
+
 ## Prime M1
 
 Checked2026-10-17; partial. Shared guitar/bass multi-effects, distinct from P1/P2/S1/M2. [Official product](https://www.mooeraudio.com/products/211.html); [manufacturer quick manual V02_2024.10.28, distributor mirror](https://www.cavallimusica.com/media/productattach/m/1/m1_manua_en.pdf), all16 pages read as text; no visual verification.
