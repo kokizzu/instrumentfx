@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(neural): distinguish Nano rotary lock and expression slot bypass'))
+    print(git('commit','-m','research(neural): qualify Nano trails and physical LEVEL scope'))

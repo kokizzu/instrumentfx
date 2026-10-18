@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "Ampero Mini volume placement revision boundary",
-    "finding": "Official1.2 notes date Pre/Post addition to2024-12-19;current index still listsMini2.2. Placement isnotglobal assignment;factorydefaults/globaloverride unverified. Prior2.2patchscope retained.",
+    "current": "Nano Cortex trails and physical LEVEL boundary",
+    "finding": "Own2.2.0 Trails applies todevice bypass butnot4-Preset Mode;notLEVELattenuation proof. PhysicalLEVEL latch context notexpressionrecall;TRScontroller support remainsqualified. Globalassignment/HP/bypasscoverage unknown.",
     "next": [
-      "Priority follow-up: Nano Cortex exact current LEVEL expression scope, range and bypass coverage",
+      "Priority follow-up: exact GP-50 current manufacturer documentation and Shopee hardware offer",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
