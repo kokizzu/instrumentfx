@@ -768,6 +768,12 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 
 [Original shared source](research-state.json)<!-- historical-link:nux-003 -->,retained pending complete navigation/provenance audits.
 
+### MG-200 — expression-volume capability screen
+
+Checked2026-10-19; partial, using preserved exactV1 evidence above. The [officialV1 PDF](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG200/NUX_MG200_UserManualV1_English.pdf) reopens as7pages but exposes no extracted text in this pass; [original-manual mirror](https://www.manualslib.com/manual/4374698/Nux-Mg-200.html) names CTRL1/2 andVOLUME,whilepage5 reopening fails. No new image inspection claimed.
+
+**CTRL2 supports volume as one of four expression modes**, separately fromdualfootswitch use. Retrieved evidence does not establish global assignment persistence,volume placement,min/max,recall,bypass,headphone ortail/looper attenuation. Preservedloop continuity across tone changes isnot expression-volume coverage. MG-100 built-in-pedal instructions are not transferred. Existing240×155mm footprint exceeds preference;dedicatedstereo phones andtwo preset switches remain recorded,diameter andexact down/up mapping not newlyverified. Older exactIDR asks retaincondition/stock limits. No downloads ordevice operation.
+
 ## TRIDENT NME-5
 
 <!-- comparison evidence begins -->
