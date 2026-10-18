@@ -4132,3 +4132,36 @@ Checked2026-10-18 against [own manufacturer manual][ZNU-C], pp22–26,29–30. D
 Manufacturer-hosted manual identity/contents and printed pp27,50 were returned by indexed search;full reader open exceeded its size limit. No PDF,installer,firmware or dependencies downloaded. Exact Shopee item,USB connector subtype,display details,looper persistence,current editor compatibility,83-type counting convention andimport scope remain open. Controls/ports text inventory andcategory census above supersede earlier pending descriptions.
 
 [ZNU-C]: https://www.manualzz.com/doc/9165611/zoom-g2.1nu-operation-manual
+
+## NEURIG
+
+Checked 2026-10-18. Announced guitar multi-effects; planned early-November launch. Catalogue inclusion does not establish shipping or Indonesian availability. Partial; no device/software tested. Bass/vocal suitability unverified. [Product][NEU-P]
+
+<!-- comparison evidence begins -->
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | External FP02M/FS01 CONTROL input; built-in expression/toe status pending full audit. | [Manual][NEU-M] |
+| K/F/B | Two named rotaries (MASTER, CONTROL); four footswitches in rig table. Complete separate-button count unresolved; encoder press counted once, power key separate. Text-derived, not image audit. | [Manual][NEU-M]; [Rig list][NEU-R] |
+| Display | Two 240×320 touch LCDs. Diagonal and explicit color specification unresolved. | [Manual][NEU-M] |
+| Dimensions / weight | 236.4 W×120.6 D×54.2 H mm;850 g. | [Manual][NEU-M] |
+| Processing / memory | **Announced/pre-release; planned early-November launch, not verified shipping hardware.** Up to14 effects/RIG;200 user RIGs;up to4 programs/RIG, not800 independent RIGs. Combination/DSP limits pending. | [Manual][NEU-M] |
+| Factory memory | Preset1.00 enumerates75 RIGs:10 DNA Amp,10 DNA Stomp,50 Song,5 Routing. Initial slot layout/overwrite protection unverified. | [Rig list][NEU-R] |
+| Category choices | Preset1.00 derived census: Dynamics10,Filter15,Drive26,Drive-DNA10,Amp Head22,Amp Head-DNA10,Cabinet22,Amp+Cabinet-DNA10,Modulation26,SFX4,Delay17,Reverb17,Pedal17,Tool7. **213 entries=139 other effects+30 DNA+22 conventional amps+22 cabinets**. Document count, not installed-firmware test; identical names in distinct DNA/standard categories remain separate entries. | [Effect list][NEU-F] |
+| Synth / acoustic | Acoustic Simulator explicitly converts electric-guitar tone toward acoustic guitar. Mono Pitch Shifter and Poly Pitch Shifter are distinct; polyphonic pitch shifting is not polyphonic synthesis. Synth inventory unresolved. | [Effect list][NEU-F] |
+| I/O | Mono INPUT, RETURN/SUB IN, SEND/SUB OUT, L/R outputs;3.5mm phones/MIDI IN/OUT;CONTROL;USB-C. TRS MIDI wiring type pending. | [Manual][NEU-M] |
+| Analog levels | INPUT1MΩ,+12.4dBu max;RETURN1MΩ,INST/LINE+12.4/+18.4dBu max. Outputs330Ω,+12.4/+18.4dBu;phones24+24mW into32Ω,56Ω impedance. | [Manual][NEU-M] |
+| Conversion / USB | 48kHz;24-bit AD/DA64× oversampling;32-bit float processing. USB2in/2out48kHz32-bit float/24-bit;USB MIDI. | [Manual][NEU-M] |
+| Power / battery / USB | USB bus power;5V2A(10W) minimum supply, not measured draw. Internal3.7V nominal/4.2V max2900mAh Li-ion;~3h charge/~4.5h runtime, condition-dependent. Barrel polarity N/A to documented USB supply. | [Manual][NEU-M] |
+| IR / NAM / capture | Native **NAM A2 Lite** advertised;22 multilayer cabinet IRs and50 user IR slots. Other NAM architectures/conversion restrictions pending. NAM A2 capture uses Wi-Fi/TONE3000 server and is planned for December; not verified shipping capability or offline training. | [Product][NEU-P] |
+| Editor / software | SessionZ Pedal iOS/Android advertised; current app availability/OS minima and desktop editor unresolved. Store/capture planned for December. Audio drivers remain separate. | [Product][NEU-P] |
+| Looper / live routing | Advertised45s looper,overdub/Undo/Redo;duration modes/persistence/drums pending. Product claims gapless program changes and tails **within a RIG**, not all RIG changes. Parallel/split outputs advertised. | [Product][NEU-P] |
+| IDR used | Unknown;no exact qualified offer. | Search checked2026-10-18 |
+| IDR new | Unknown;exact Shopee NEURIG search empty,not proof of unavailability. Seller/item,condition,stock,region,bundle,warranty/voucher/checkout unresolved. No exchange-rate estimate. | Search checked2026-10-18 |
+<!-- comparison evidence ends -->
+
+[NEU-P]: https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/neurig/
+[NEU-M]: https://zoomcorp.com/manuals/neurig-ja/
+[NEU-F]: https://zoomcorp.com/manuals/neurig-fx-list-ja/
+[NEU-R]: https://zoomcorp.com/manuals/neurig-rig-list-ja/
+
+Original manual Z2I-5930-01;effect list Z2I-5984-01;rig list Preset1.00. Pre-release documentation may change. All remaining fields above stay partial.

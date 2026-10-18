@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 363,
+  "active_model_count": 364,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 363,
+  "canonical_root_model_count": 364,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "363 unique active/root-canonical;0 legacy-only;46 brands;six excluded;all partial.",
+  "count_reconciliation": "364 unique active/root-canonical;0 legacy-only;46 brands;six excluded;all partial. Active means catalogue scope,not current retail stock;NEURIG is announced/pre-release.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Zoom NEURIG",
-    "task": "Saved original NEURIG manual/effect/rig audits and213entryreconciliation. Next createcanonicalrootrecord+inventorymembership withpre-releasequalification,usingreviewedscript;do not re-research anothermodel beforecommitting. Allremainingcontrols/display/OS/loop/NAMgaps explicit.",
+    "task": "Added qualified root NEURIG record andguitar membership;plannedlaunch retained. Next audit exact NAM support anddriver/editorOS fromoriginalmanual;currentShopee price/stock,displaydiagonal/color,completecontrols andlooplimits remainunknown.",
     "next_models": [],
-    "after_queue": "363active/46brands;304guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
+    "after_queue": "364active/46brands;305guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -5405,6 +5405,13 @@
       "checked_date": "2026-10-18",
       "status": "partial",
       "finding": "Manufacturer guitar/headphone multifx identity;exact Shopee1659915296/54211588203 790000conditionunverified. NoPocketAmpequivalence;manual19.7MBindexonly."
+    },
+    {
+      "model": "Zoom NEURIG",
+      "destination": "ZOOM.md#neurig",
+      "checked_date": "2026-10-18",
+      "status": "partial;announced/pre-release",
+      "finding": "Original manufacturer manuals andannounced product establish guitar multifx. No exactShopeeoffer;release/capture plans remainqualified."
     }
   ],
   "consolidation_and_price_findings": [
@@ -24456,8 +24463,8 @@
       "brand": "Zoom",
       "model": "NEURIG",
       "source": "https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/neurig/",
-      "status": "manufacturer-confirmed announced guitar multi-effects; detailed record pending; outside active inventory",
-      "next": "Build complete rootZOOM NEURIG record fromsavedprimaryaudits andproduct announcement;wireinventory/comparison/countupdates throughreviewedscript. Stillauditcontrols,diagonal/color,driverOS,looplimitations andNAMformatboundaries. NoShopeeofferestablished.",
+      "status": "root-canonical catalogue record;announced/pre-release;availability unverified",
+      "next": "Resolve remaining model gaps in ZOOM.md#neurig",
       "checked_date": "2026-10-18",
       "availability": "Japanese product page schedules early November release. Exact Shopee Indonesia search empty;not proof of unavailability. IDR condition/stock/price unknown; no currency conversion.",
       "primary_findings": {
@@ -24825,7 +24832,8 @@
       "RFX-2200",
       "G1 original",
       "505 original",
-      "G2.1Nu"
+      "G2.1Nu",
+      "NEURIG"
     ],
     "DigiTech": [
       "RP360XP",
@@ -25120,7 +25128,8 @@
       "RFX-2200",
       "G1 original",
       "505 original",
-      "G2.1Nu"
+      "G2.1Nu",
+      "NEURIG"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -25425,7 +25434,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 304,
+      "record_count": 305,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -25455,10 +25464,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 304 guitar, 158 documented bass-capable, 69 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 305 guitar, 158 documented bass-capable, 69 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "363 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "364 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -45881,10 +45890,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 363,
-    "canonical_root_models": 363,
+    "unique_brand_model_pairs": 364,
+    "canonical_root_models": 364,
     "legacy_only_models": 0,
-    "guitar_view_models": 304,
+    "guitar_view_models": 305,
     "bass_focused_models": 35,
     "vocal_only_models": 24,
     "vocal_view_models": 69,
@@ -45966,7 +45975,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B3n."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom NEURIG."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -46190,6 +46199,7 @@
       "Zoom::G1 original",
       "Zoom::505 original",
       "Zoom::G2.1Nu",
+      "Zoom::NEURIG",
       "DigiTech::RP360XP",
       "DigiTech::RP255",
       "DigiTech::RP500",
@@ -48689,6 +48699,13 @@
     },
     "Zoom::G2.1Nu": {
       "link": "ZOOM.md#g21nu",
+      "source_files": [
+        "ZOOM.md"
+      ],
+      "finding_files": []
+    },
+    "Zoom::NEURIG": {
+      "link": "ZOOM.md#neurig",
       "source_files": [
         "ZOOM.md"
       ],
