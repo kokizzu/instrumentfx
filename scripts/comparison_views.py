@@ -358,7 +358,7 @@ def apply_plan():
     state['instrument_views']['ALL-BASS.md']={'record_count':len(payload['view_membership']['ALL-BASS.md']),'bass_focused_record_count':len(BASS_FOCUSED),'shared_bass_capable_count':len(BASS_SHARED),'scope':'All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved','technical_refresh':False}
     state['instrument_views']['ALL-VOCAL.md']={'record_count':len(payload['view_membership']['ALL-VOCAL.md']),'vocal_only_count':len(VOCAL_ONLY),'combined_instrument_count':len(VOCAL_SHARED),'scope':'All retained vocal/live-mic records across four comparison tables','technical_refresh':False}
     state.setdefault('separate_specialist_archives',{'SINGLE-GUITAR.md':['BOSS SY-1','BOSS SY-200','BOSS AC-3','BOSS VO-1','BOSS XS-100'],'SINGLE-BASS.md':['BOSS SY-1','BOSS SY-200'],'SINGLE-VOCAL.md':['Flamma FV01','BOSS VO-1 (cross-reference)'],'counted_as_active':False,'moved_on':'2026-10-16','legacy_anchor_redirects_preserved':True,'source_before_move_sha256':{p:payload['input_hashes'][p] for p in ('effects/specialist.md','effects/findings/2026-10-14-flamma-fv01.md')}})
-    state['validation'].update(unique_brand_model_pairs=state['active_model_count'],canonical_root_models=state['canonical_root_model_count'],legacy_only_models=state['legacy_only_model_count'],guitar_view_models=len(payload['view_membership']['ALL-GUITAR.md']),bass_view_models=len(payload['view_membership']['ALL-BASS.md']),bass_shared_models=len(BASS_SHARED),vocal_view_models=len(payload['view_membership']['ALL-VOCAL.md']))
+    state['validation'].update(validation_counts(state, payload['view_membership']))
     (ROOT/'research-state.json').write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n')
     print('Applied reviewed plan: '+', '.join(payload['outputs']))
 
@@ -406,10 +406,29 @@ def readme_counts(text, state, membership):
         assert matches == 1, 'README catalogue count format changed: ' + pattern
     return text
 
+def validation_counts(state, membership):
+    """Derive live validation metadata from the exact rendered membership."""
+    bass = set(membership['ALL-BASS.md'])
+    vocal = set(membership['ALL-VOCAL.md'])
+    return dict(
+        unique_brand_model_pairs=state['active_model_count'],
+        canonical_root_models=state['canonical_root_model_count'],
+        legacy_only_models=state['legacy_only_model_count'],
+        guitar_view_models=len(membership['ALL-GUITAR.md']),
+        bass_view_models=len(bass),
+        bass_focused_models=len(bass & set(BASS_FOCUSED)),
+        bass_shared_models=len(bass & set(BASS_SHARED)),
+        vocal_only_models=len(vocal & set(VOCAL_ONLY)),
+        vocal_view_models=len(vocal),
+    )
+
+
 def verify_views():
     identity()
     state=json.loads((ROOT/'research-state.json').read_text())
     assert set(state['comparison_model_sources'])=={b+'::'+m for b,ms in state['inventory_by_brand'].items() for m in ms}
+    for field, expected in validation_counts(state, state['comparison_membership']).items():
+        assert state['validation'][field] == expected, 'Live validation count is stale: ' + field
     for field, expected in migration_counts(state, state['comparison_membership']).items():
         assert state['migration'][field] == expected, 'Live migration count is stale: ' + field
     category = (ROOT/'MULTI-EFFECTS.md').read_text()
@@ -872,9 +891,31 @@ def test_readme_brand_counts():
     assert f"**{fixture['active_model_count']} active model records · {expected} brands ·" in reverted, 'Removed brand leaves README headline stale'
     print('PASS: README tracks brand additions/removals, ignores empty brands, preserves history and is idempotent.')
 
+
+def test_validation_counts():
+    state = json.loads((ROOT/'research-state.json').read_text())
+    membership = json.loads(json.dumps(state['comparison_membership']))
+    counts = validation_counts(state, membership)
+    focused = set(membership['ALL-BASS.md']) & set(BASS_FOCUSED)
+    shared = set(membership['ALL-BASS.md']) & set(BASS_SHARED)
+    assert counts['bass_focused_models'] == len(focused), 'Focused bass validation count stale'
+    assert counts['bass_shared_models'] == len(shared)
+    assert counts['bass_view_models'] == len(focused) + len(shared)
+    removed = sorted(focused)[0]
+    membership['ALL-BASS.md'].remove(removed)
+    changed = validation_counts(state, membership)
+    assert changed['bass_focused_models'] == counts['bass_focused_models'] - 1
+    assert changed['bass_shared_models'] == counts['bass_shared_models']
+    assert changed['bass_view_models'] == counts['bass_view_models'] - 1
+    assert changed['guitar_view_models'] == counts['guitar_view_models']
+    assert changed['vocal_view_models'] == counts['vocal_view_models']
+    assert state['comparison_membership']['ALL-BASS.md'] != membership['ALL-BASS.md'], 'Fixture mutated source state'
+    print('PASS: validation counts follow actual instrument membership, including focused bass removals.')
+
 if __name__=='__main__':
     if sys.argv[1]=='test-counts':
         test_readme_brand_counts()
+        test_validation_counts()
     elif sys.argv[1]=='test-extraction':
         test_field_extraction()
     elif sys.argv[1]=='test-fields':
