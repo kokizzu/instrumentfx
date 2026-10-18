@@ -302,6 +302,11 @@ GEN2 was firmware1.0.5 at the original check;it is not a new physical model sole
 |---|---|
 | Display / scenes / firmware follow-up | Checked2026-10-17: three Pro Scenes can change effect models,amp models and settings within one preset. V5 notes specify serial/branch send-return,USB loopback,metronome and external tip/ring Scene UP/DN assignment. GEN2 names five additional EFX (FULL-OD HP,HORSEMAN,NOB ODR,RIV BLUEFLOG COMBO,TURBO OD) and MONO OCTAVE modulation;do not silently add these to the older base table or assume all firmware libraries identical. [Manufacturer](https://nuxaudio.com/product/mg30/). |
 | Category choices / regional revision | Chinese page lists **30amps:25guitar+2acoustic+3bass**,versus English35(28+2+5). Chinese delay list has7names,omitting EnglishPhi. Both pages retain older base lists alongside GEN2 additions;do not silently reconcile them into a current total. [Chinese manufacturer](https://cn.nuxaudio.com/product/mg30/),checked2026-10-17. |
+
+| Field | Finding / qualification |
+|---|---|
+| Editor / firmware / driver versions | [Exact manufacturer page](https://nuxaudio.com/product/mg30/), checked2026-10-18: **GEN2 firmware1.0.5 (2026-08-17)** pairs with **GEN2 QuickTone2.6.7.16 (2026-07-24)** forWindows/macOS. Separate **V5 firmware5.0.2** pairs with **V5 QuickTone2.4.12.27**; dates absent. Branch editors are not interchangeable. Firmware packages are English-hardware only. ASIO3.29.0 listsWin7;ASIO5.30.0 listsWin10+. These driverOS labels do not establish editor minimumOS. No update performed. |
+| Live / GEN2 controls | Product documents preset/scene save selection, Scene Copy, and global Follow TAP choice Preset/Global. These do not establish extra preset slots or a new physical model. |
 <!-- comparison evidence ends -->
 
 ### Preserved shared-source MG-30 fields
