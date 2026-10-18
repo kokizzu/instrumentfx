@@ -3858,3 +3858,16 @@ Checked 2026-10-19: original manufacturer manual indexed [p88](https://static.ro
 | USB / playback mix | WithInputSelect=GuitarIn,USBMixChannel routes computerplayback toMAIN,SUB orboth;USBMixLevel0–200. Playbackmix routing is distinct from USBrecording-source selection. |
 
 USB stream bit depth/channel count,exact reprocessing settings andcurrent driver operation remain unverified. No claim that OS-standard audio also supplies editor/MIDI functions. No downloads ordevice operation.
+
+### GT-Pro — writable memory and bank numbering
+
+Checked 2026-10-19 against indexed [original manufacturer manual p19](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf) and [manufacturer-authored mirror p24](https://www.manualslib.com/manual/499099/Boss-Gt-Pro.html?page=24); same exact GT-PRO manual identity established above. Mirrorp18/p90 unavailable this pass;USB reprocessing not newly verified.
+
+| Field | Memory evidence / qualification |
+|---|---|
+| Memory / protected presets | **User banks1–20**,10patches each=200 writable;**preset banks21–40**=200 protected. Presets can be edited temporarily,then saved toUser;cannot overwrite preset originals. Initial user-bank factory fill remains unverified. |
+| Memory / FC-200 numbering | FC-200 mode subtracts one from displayed bank numbers:User0–19,Preset20–39. This is alternate numbering,not additional storage. |
+| Memory / edits and writing | Unsaved edits disappear onpatch change. WRITE opensUserdestination;secondWRITE commits andoverwrites prior destination. EXIT cancels. Copy can sourceUser orPreset butdestination isUser. |
+| Live / patch selection | Patch changes requirePlay screen;EXIT returns there. SHIFT+PATCH/VALUE changes banks. No seamless-switching orunrestricted spillover inferred. |
+
+These findings resolve initial preset-protection uncertainty. Factory fill,USBstreamformat andother open fields remain explicit. No reset,write operation,download ordevice test performed.

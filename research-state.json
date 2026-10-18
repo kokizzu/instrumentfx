@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro USBdriver modes anddigital/playback routing saved. Next reprocessing settings/control totals/memory/category census;USBstreamformat stillunknown.392partial;migration incomplete.",
+    "task": "GT-Pro writable/protected memory andFC200banknumbering saved. Next control totals andeffectcategory census;USBreprocessing/streamformat pendingreadablep90. Avoid repeating unchanged inaccessiblepages.392partial;migration incomplete.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -121378,5 +121378,20 @@
       "reprocessing settings",
       "modernhosts"
     ]
+  },
+  "gtpro_memory_20261019": {
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+      "https://www.manualslib.com/manual/499099/Boss-Gt-Pro.html?page=24"
+    ],
+    "pages": "19indexed,24mirror",
+    "resolved": [
+      "User1–20writable200;Preset21–40protected200",
+      "FC200banknumbers0–19/20–39",
+      "unsavededitslost",
+      "copy/writedestinationUser;secondWRITEcommits;EXITcancels",
+      "patchselectionPlayonly"
+    ],
+    "remaining": "Initial user factoryfill;USB reprocessing/format."
   }
 }
