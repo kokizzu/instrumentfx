@@ -477,7 +477,7 @@ def main():
         if mode == 'commit-b1xfour-followup':
             message = 'research(zoom): qualify B1X FOUR pedal limits and analog conversion'
         if mode == 'commit-readme-counts':
-            message = 'fix(navigation): synchronize complete brand model lists from ledger'
+            message = 'docs: reconcile retained legacy paths with verified JSON pointer removal'
         if mode == 'commit-hd400':
             message = 'research(line6): clarify HD400 USB recording and monitoring'
         if mode == 'commit-xtlive':

@@ -45482,6 +45482,15 @@
       "checked_date": "2026-10-18",
       "finding": "Removed stale live reference to already-deleted effects/research-state.json; historical source manifests and typed snapshots unchanged.",
       "regression": "json-pointer-removal-verify rejects missing live references; metadata regression covers342/344/400 active models in remove/restore states without filesystem mutation."
+    },
+    "readme_retained_path_audit": {
+      "checked_date": "2026-10-18",
+      "original_paths_accounted": 117,
+      "retained_markdown_paths": 114,
+      "retained_json_pointer_paths": 0,
+      "removed_json_pointers": 3,
+      "evidence": "Filesystem enumeration effects/:114 Markdown and0JSON; make json-pointer-removal-verify passes exact typed reconstruction of3original files/2unique snapshots. README corrected from stale all117retained claim.",
+      "overall_complete": false
     }
   },
   "deferred_work": {
