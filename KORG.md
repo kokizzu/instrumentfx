@@ -632,6 +632,9 @@ Checked2026-10-18. Bass multi-effects; distinct from AX3000G. Partial record. [K
 
 | Field | Evidence / gaps |
 |---|---|
+| Expression / per-program range | Target and **EXP MIN/EXP MAX** heel/toe limits are programmable per program and require Write to persist. Changing the target initializes both limits. These settings differ from global physical-pedal calibration. [E1 pp41–43][AX3B-M] |
+| Expression / assignment clearing | Changing the assigned effect type clears its expression target to Off, except delay-input and reverb-input targets. Wah auto-assignment has a documented return-to-previous-target exception when changing away without other operations; a previous pre-effect target instead clears. [E1 pp41–42][AX3B-M] |
+| Live / CONTROL assignments | Per-program choices include insertion/pre/amp/mod/delay/reverb toggles; modulation/delay tap; flanger LFO trigger; rotary-speed switch; hold/freeze; and ESS controls described below. These are alternatives on one CONTROL footswitch, not additional switches or simultaneous blocks. Tap interval maximum10s. [E1 pp44–45][AX3B-M] |
 | Instrument / expression | Bass; built-in assignable expression with under-pedal switch, disabled for volume. No external EXP port in complete rear inventory. [E1 pp9–11][AX3B-M] |
 | K/F/B | **11 / 7 / 20**, text-derived: five model selectors+five value knobs+rearLEVEL; bank2+program4+CONTROL; category5+INSERT/CABINET/NR/EXP/RENAME(5)+TAP/ESS(2)+AMP-LINE/GLOBAL/WRITE/EXIT(4)+arrows4. Under-pedal switch additional; visual corroboration pending. [E1 pp3–11][AX3B-M] |
 | Display | LCD name/value display; separate bank and LED pedal/tuner indicators. Diagonal,resolution,color,touch unknown. [E1 pp6–9][AX3B-M] |

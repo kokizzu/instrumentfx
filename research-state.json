@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh bass discovery / required specification gaps",
-    "task": "Bass Fly Rig v2 fixed order and XLR grounding saved. Next search additional unrecorded bass series on Shopee or resolve a required model gap from primary evidence. Avoid duplicate B2 FOUR offers and repeating failed BP355/BP90/AX1B/BFX708 queries without new evidence.",
+    "task": "AX3000B expression endpoint persistence, assignment-clearing exceptions and CONTROL alternatives saved. Next resolve remaining required power/visual/editor gaps with exact primary evidence or search new eligible Shopee series; do not repeat the saved accessory-only queries without new leads.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -78649,5 +78649,36 @@
       "ask_idr": 4545000,
       "access": "cached direct text unchanged; relative four-hour delivery not stock proof"
     }
+  },
+  "ax3000b_expression_limits_20261018": {
+    "status": "partial",
+    "source": "https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3000B_E1.pdf&response-content-type=application%2Fpdf%3B",
+    "revision": "E1",
+    "printed_pages": "41–45",
+    "findings": [
+      "Expression target and heel/toe limits saved per program; changing target initializes limits",
+      "Changing target effect type clears assignment except D/INPUT and R/INPUT; wah auto-assign return exception preserved",
+      "CONTROL alternatives enumerated without counting extra switches or blocks"
+    ],
+    "unresolved": [
+      "Current/polarity/adapter barrel",
+      "Visual control corroboration",
+      "Editor OS requirements",
+      "Exact IDR hardware offers"
+    ],
+    "method": "Browser text only; no files downloaded, device operations or editor installation"
+  },
+  "discovery_legacy_bass_20261018_newseries": {
+    "queries": [
+      "site:shopee.co.id Digitech BP50",
+      "site:shopee.co.id Korg AX3B",
+      "site:shopee.co.id Zoom 506",
+      "site:shopee.co.id Boss ME-6B",
+      "site:shopee.co.id Digitech RP350",
+      "site:shopee.co.id Zoom G2Nu",
+      "site:shopee.co.id Boss GT-10B second",
+      "site:shopee.co.id Korg AX3000B"
+    ],
+    "result": "No new exact eligible hardware offer established. RP350/RP355/RP300 hit seller855783279/item22273291654 is a Rp170000 power supply, excluded; G2Nu hits were adapters. Unrelated 506 search hits rejected. This is not proof of market absence."
   }
 }
