@@ -4335,18 +4335,19 @@ Acoustic-guitar multi-effects;partial,checked2026-10-18. Distinct fromA2.1u. [Ow
 
 | Field | Finding / qualification |
 |---|---|
-| Expression | External FP01/FP02 orFS01 via shared CONTROL IN;built-in/toe audit pending. |
-| K/F/B | Separate rotary/footswitch/button census unverified. |
+| Expression | No built-in/toe pedal incontrol inventory;external FP01/FP02 orFS01 via shared CONTROL IN. [Own manual pp6–7](https://zoomcorp.com/media/documents/E_A2.pdf). |
+| K/F/B | **4/2/5**,text-derived:module selector+3parameter knobs;2footswitches;STORE,BANK−/+,MANUAL,RHYTHM buttons. POWER separate;visual corroboration pending. [Own manual pp6–7](https://zoomcorp.com/media/documents/E_A2.pdf). |
 | Display | Two-digit7-segmentLED plusparameterLEDs;diagonal/color/touch unverified. |
 | Processing / categories | **47 types;8 simultaneous modules includingZNR**. Category census pending. |
-| Memory | **40user+40preset=80**;initial fill andwrite protections pending. |
+| Memory | **40user+40preset=80**;all40 user locationsA0–d9 initially copy presets00–39. All Initialize overwrites user edits with originals. Write-protection audit pending. [Own manual p24](https://zoomcorp.com/media/documents/E_A2.pdf). |
 | Synth / acoustic | Acoustic-guitar sound modeling andmicrophone simulation documented;synth unverified. |
 | Dimensions / mass | **156W×162D×65H mm;700g without batteries**. |
-| I/O | Mono input,shared stereo line/headphone output,CONTROL IN;DC. Complete port audit pending. |
+| I/O | Complete rear inventory:mono input,shared stereo line/headphone output,CONTROL IN,DC. Output supports headphones ortwoamps viaYcable. **No USB/MIDI socket listed**. [Own manual pp6–7](https://zoomcorp.com/media/documents/E_A2.pdf). |
 | Power | AD-0006 **9VDC300mA center-negative** supply rating;drawunknown.4AA alkaline approximately7.5h;USBoperation unverified. |
 | IR / NAM / capture | Unverified;body modeling isnot proof ofuserIR import. |
 | Editor / platforms | Exactmodel software unverified;A2.1u features notborrowed. |
 | Practical features | Feedback suppression,rhythms,chromatic tuner. DELAY/REVERB disabled duringrhythms. Looper/scenes unverified. |
 | IDR price | Used/new unknown. Exact Shopee hardware notverified;adapter searchresult excluded. Condition/stock/seller/bundle/warranty/voucher unknown. |
+| Input / HI-GAIN | Forlow-output magnetic/electric pickups,HI-GAIN increases input gain;setting isnotstored andmust be selected again afterpoweroff. GLOBAL pickup selection separately supports electric-to-acoustic simulation. [Own manual pp6,25](https://zoomcorp.com/media/documents/E_A2.pdf). |
 
 <!-- comparison evidence ends -->
