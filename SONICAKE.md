@@ -474,6 +474,14 @@ New prices are individual official-store observations checked **2026-10-14**, no
 | Synth / acoustic and bass AMP scope | P41 listsfive bass-labelled models:A BassVT,Voks Bass,Calif Bass,A BassFT,F-2Bass. P42 addsAC Preamp andAC Preamp2 acoustic preamps;already includedin63,notacoustic-body conversion algorithms. Bassman-derived entries are notsilently addedtothis explicitlylabelled subset. |
 | Processing / AMP description conflicts | P31 Voks15TB description identifiesVOX AC-100 bass amplification,also usedforVoks Bass onp41. P34 DoctorOD description callsitclean,asdoesDoctorCL onp33. Intendedidentities/voicings unresolved;do notsilentlycorrectlabels orderiveanexactguitar/basspartition. Existingcover/bodyrevisionconflictremains;currentinstalledlibraryuntested. |
 
+
+| Field | Evidence / qualification |
+|---|---|
+| USB audio / manual modes,2026-10-18 | Printedpp14–15 describe **6-in/4-out with MIDI** and **2-in/2-out without MIDI**,the latter for mobile OTG and unable to connect to desktop management software. Rec Mode L/R selects dry or effected recording;AUX To USB enables AUX recording. Record and monitor levels each range **−20 to+20dB**. [Exact Pro manual](https://www.hotone.jp/files/brands/sonicake/products/matribox-ii-pro/manual/20260803-070736-v5r131-matribox_ii_pro_jp.pdf) |
+| USB audio / reamp and loopback instructions | Manual routes DAW dry playback toOutput3–4 and processed recording fromInput3–4,with recording-track monitoring off. Loopback records computer sources viaInput5–6. These are documented channel assignments,not a hardware test. Some paragraphs sayMatriboxII/MatrixboxII despite the Pro document identity;cover/body/revision conflicts prevent unconditional current-firmware certification. |
+| Memory / reset scope | P18 Factory Reset erases edited presets and individual settings;not a settings-only reset. The screen warns all user data is erased. No reset performed or assumption of imported-file retention. |
+| Display / operation | P18 offers brightness,display sleep delay andsystem language settings. About shows firmware version;its illustratedV1.0.1 is an example,not the installed/latest version. |
+
 Primary [product/download/FAQ](https://www.sonicake.com/products/matribox-ii-pro) supports both the capability statements and unresolved MIDI contradiction. Preserve each rather than choosing a convenient interpretation. Further manual work and exact regional hardware offers remain needed.
 
 <!-- comparison evidence ends -->

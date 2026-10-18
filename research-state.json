@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Sonicake Matribox II Pro QME-200",
-    "task": "Reconciled mainsummary with completedmenu/acoustic/IRaudits andClonecover/bodyconflict;historicalarchive unchanged. Next freshShopee discovery orremainingfirmware/import/qualifiedprice gaps.",
+    "task": "Saved manualUSBmodes,reamp/loopback/AUX andreset/displayoperation withMatriboxIIwording/revisioncaveats. Next corroborateexactPro/currentfirmwareUSBbehavior orfreshShopeediscovery;no downloads.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75414,7 +75414,7 @@
   },
   "resume_cursor": {
     "model": "Sonicake Matribox II Pro QME-200",
-    "task": "Reconciled mainsummary with completedmenu/acoustic/IRaudits andClonecover/bodyconflict;historicalarchive unchanged. Next freshShopee discovery orremainingfirmware/import/qualifiedprice gaps.",
+    "task": "Saved manualUSBmodes,reamp/loopback/AUX andreset/displayoperation withMatriboxIIwording/revisioncaveats. Next corroborateexactPro/currentfirmwareUSBbehavior orfreshShopeediscovery;no downloads.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75886,5 +75886,27 @@
     "previous_clone_phrase": "This is distinct from current editor1.3.1 A2-conversion support;not proof the1.1.1 manual contains Clone.",
     "basis": "Existing savedcategory,IR,Clone cover/body andAMP/CAB audits;no new source/firmwaretest",
     "archive_retained_byte_exact": true
+  },
+  "matribox_ii_pro_usb_reset_20261018": {
+    "source": "https://www.hotone.jp/files/brands/sonicake/products/matribox-ii-pro/manual/20260803-070736-v5r131-matribox_ii_pro_jp.pdf",
+    "pages": [
+      14,
+      15,
+      18
+    ],
+    "modes": "6in4outwithMIDI;2in2outwithoutMIDI/mobileOTG/no desktopmanagement",
+    "routing": "Dry/effectedL/R,AUXrecording;DAWout3–4/in3–4reamp;in5–6loopback",
+    "gain": "record/monitor−20..+20dB",
+    "reset": "Editedpresets/settings erased;user-datawarning;noimportretentionassumed",
+    "qualification": "Prodocumentidentity;paragraphsMatriboxII/MatrixboxII andcover/bodyrevisionconflict;nohardware/currentfirmwaretest"
+  },
+  "discovery_dnafx_ge200plus_matriboxiii_fx200b_20261018": {
+    "queries": [
+      "site:shopee.co.id DNAfx GiT",
+      "site:shopee.co.id Mooer GE200 Plus",
+      "site:shopee.co.id Sonicake Matribox III",
+      "site:shopee.co.id Flamma FX200B"
+    ],
+    "result": "Noqualifiednewexacthardwareoffer;GE200BluesPluspresetpackrejected;notmarketabsence"
   }
 }
