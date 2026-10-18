@@ -705,7 +705,7 @@ def main():
         if mode == 'commit-minix-preservation':
             message = 'research(mvave): preserve MINI-X source and expose comparison field limits'
         if mode == 'commit-pocketamp-preservation':
-            message = 'research(mvave): qualify Pocket Amp regulatory battery and hardware sample'
+            message = 'research(mvave): link Pocket Amp original manual to FCC exhibit metadata'
         if mode == 'commit-cubebabyac-preservation':
             message = 'research(mvave): preserve CUBE BABY AC and separate comparison evidence fields'
         if mode == 'commit-cubebabyelectric-preservation':

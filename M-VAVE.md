@@ -797,6 +797,10 @@ Checked 2026-10-18. [Original Sinco application BLE report reproduction](https:/
 | Firmware / regulatory family limits | Report lists SK17,Pocket Sonic andPIXIE1 and records matching PCB/interior/electrical circuits,with name/color differences. No equivalent firmware,editor,feature set orsafe cross-flashing procedure is established. No sibling specifications orupdates transferred. |
 
 The linked [manufacturer manual PDF reproduction](https://device.report/m/f9b8d1442f8ebd368babed461787355a648aeffdd0fa3e36a8c552fc13bcef72.pdf) is now browser-accessible. Metadata title contains SK17/Pocket amp,V04,20251009; the retrieved one-page PDF exposes no text. Original pages have not been read or visually verified,so rewritten HTML guide details are not adopted. Mass/AUX andfactory-overwrite conflicts remain unresolved. No files downloaded ordevice/software operated.
+
+### Pocket Amp — manual filing provenance
+
+The [FCC-indexed User Manual exhibit9023824](https://fccid.io/2ARCPPOCKETAMP/User-Manual/User-Manual-9023824) publishes SHA-256 **f9b8d1442f8ebd368babed461787355a648aeffdd0fa3e36a8c552fc13bcef72**, matching the recovered mirror file identifier. This links the PDF to the **2ARCP-POCKETAMP filing**, not to the separate40-page importer guide. It is a published-metadata match; no locally downloaded file was hashed. Alternate original-PDF routes were inaccessible and [label exhibit9023845](https://fccid.io/2ARCP-POCKETAMP/Label/Label-and-location-9023845) contents remain unread. Filing metadata does not establish retail revision,resolve mass/AUX discrepancies orverify rewritten HTML instructions. Checked2026-10-18; no files downloaded ordevice/software operated.
 <!-- comparison evidence ends -->
 
 ### Preserved original finding

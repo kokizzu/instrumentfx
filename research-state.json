@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "M-VAVE Pocket Amp",
-    "task": "Savedoriginalregulatorysamplepower/HW/SWscope andlimitedfamilydeclaration. Originalmanualf9b8...PDFbrowseraccessiblebutnoextractedtext;do notadoptrewrittenguideorclaimmanualread. Next originalvisual/textcontentsorrequiredmodelgaps/freshShopee discovery;mass/AUX/presetoverwriteunresolved.",
+    "task": "OriginalmanualprovenancelinkedtoFCCexhibit9023824bypublishedSHA;originalcontentsstillunread. AlternateFCCpdf/labelroutesfailed,do notrepeatwithoutnewaccesspath. Next otherrequiredmodelgap/freshbrandseries discovery;recoveroriginalmanualonlyfromnewreadablesource. Mass/AUX/presetoverwriteunresolved.",
     "next_models": [],
     "after_queue": "362active/46brands;303guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -60906,6 +60906,24 @@
         "Qualifiedoffers"
       ],
       "method": "Browser-onlyoriginalreportreproductionandmanualmetadata;no filesystemdownload/execution"
+    },
+    {
+      "model": "M-VAVE Pocket Amp",
+      "checked_date": "2026-10-18",
+      "source": "https://fccid.io/2ARCPPOCKETAMP/User-Manual/User-Manual-9023824",
+      "finding": "FCCindexedUserManual9023824SHAf9b8d1442f8ebd368babed461787355a648aeffdd0fa3e36a8c552fc13bcef72matchesrecoveredmirroridentifier. Publishedmetadataonly,no localhash/contentverification. Label9023845identifiedbutunread.",
+      "failed_access": [
+        "fccid.io original9023824.pdf",
+        "fccid.io/m/f9b8...pdf",
+        "fcc.report/FCC-ID/2ARCP-POCKETAMP/9023824.pdf",
+        "device.report label637a2938..."
+      ],
+      "remaining": [
+        "Readable originalmanual/panel",
+        "Mass/AUX/presetoverwrite",
+        "Fresh discovery and other requiredfields"
+      ],
+      "method": "Browserindexedfilingmetadata;no download/execution"
     }
   ],
   "discovery_cross_brand_bass": {
