@@ -2055,3 +2055,7 @@ expression-audit-commit-line6:
 .PHONY: expression-audit-commit-boss
 expression-audit-commit-boss:
 	python3 scripts/expression_audit_boss.py commit
+
+.PHONY: expression-audit-commit-mvave
+expression-audit-commit-mvave:
+	python3 scripts/expression_audit_mvave.py commit

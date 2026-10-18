@@ -21,6 +21,10 @@ Ampero Mini: [manufacturer firmware V2.2 manual](https://res.hotoneaudio.com/pro
 
 Nano Cortex: [manual 2.2.0](https://neuraldsp.com/manual/nano-cortex) includes LEVEL; [official setup article](https://neuraldsp.com/getting-started/using-midi-on-nano-cortex) omits it. Neither proves global assignment scope. Checked 2026-10-19; no hardware test.
 
+## Controller wiring — separate from processor qualification
+
+[M-VAVE Chocolate / FootCtrlPlus evidence](M-VAVE.md#chocolate--footctrlplus--controller-wiring-audit-partial) remains partial: manufacturer MIDI/media-key modes and a revision-conflicted host manual do not establish direct analog expression output, exact pinout or global processor-volume assignment. Controllers are excluded from the audio-processor table/count.
+
 ## Remaining inventory and priorities
 
 This is a partial audit, not the complete no-treadle inventory. Continue unresolved Mini/Nano/GP-50 scope checks alongside exact current Line 6 HX and BOSS GT-1000CORE documentation. Verify each M-VAVE controller's actual analog/MIDI/USB wiring separately; controller availability does not establish a direct expression input on a processor. Seek manufacturer-backed POD Express dimensions and exact Shopee Indonesia hardware offers. Preserve used/new, variant, bundle, stock, date and voucher qualifications. Add remaining eligible no-treadle records systematically from the ledger without transferring sibling specifications.

@@ -121648,12 +121648,13 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "BOSS GT-1000CORE",
-    "finding": "Own manual SYSTEM preference shares EXP functions acrosspatches;FOOTVOL target supported. Endpoint/placement scope,ASSIGN interactions,bypass/tails/looper unresolved;sharedphones OUTPUTonly.",
+    "current": "M-VAVE Chocolate / FootCtrlPlus controller wiring (partial)",
+    "finding": "Official PD41softwareguide distinguishes MIDI andcomputer media-volume keys;hardware mirror identifiesfootctrlplus despiteChocolate hosttitle. Actualpinout/resistance/CC routing remainsunverified;notdirectanalog processorEXP.",
     "next": [
-      "M-VAVE exact controller wiring",
       "Line 6 POD Express manufacturer dimensions",
-      "Exact Shopee Indonesia offers"
+      "Exact Shopee Indonesia offers",
+      "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up",
+      "Systematic remaining no-treadle inventory"
     ],
     "requirements": [
       "Normal pickups",

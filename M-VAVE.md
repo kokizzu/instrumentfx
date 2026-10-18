@@ -1197,3 +1197,15 @@ Recover a manufacturer-origin manual or inspect a legible exact-unit panel/rear 
 The [manufacturer downloads index](https://www.sincoaudio.com/download) explicitly lists **Cube Sugar under desktop CubeSuite**, with Windows and Mac OS links and USB connection instructions. This is an official support-list observation, not confirmation of application version, exact supported OS releases, editing functions, firmware compatibility or offered-unit identity. Its mobile CubeSuite list does not explicitly name Cube Sugar; that omission establishes neither mobile compatibility nor incompatibility. No software was retrieved or run.
 
 A second [V02 ENCNFRDEJP190104 mirror](https://pdfcoffee.com/manual-cube-sugar-v02-encnfrdejp-190104-pdf-2-pdf-free.html) indexes a14MB file. Its linked PDF/retrieval route returned a cache miss; no original pages recovered. Filename tokens are not independently verified authorship or publication dates. The two mirror leads remain unverified reproductions, not two independent manufacturer confirmations.
+
+## Chocolate / FootCtrlPlus — controller wiring audit (partial)
+
+Checked 2026-10-19. Controllers only; not additional active audio multi-effects records.
+
+[Official Chocolate page](https://www.cuvave.com/product?id=chocolate) indexed text specifies Bluetooth/USB MIDI control; direct reopening returned only the site shell. It does not establish an analog expression output to a processor.
+
+The [manufacturer FootCtrlPlus support page](https://www.cuvave.com/fcp) directly links [PD41 Software Instructions](https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Customer/PD41-Software-Instructions.pdf). Its MIDI modes send PC/CC/Note/SysEx; Multimedia mode sends computer media keys including Volume up/down. Those keys are not proof of processor master-volume control. Expression pinout, resistance, CC mapping and simultaneous transport wiring remain unverified.
+
+A [mirrored original bilingual hardware manual](https://manuals.plus/m/e8395d2a1afc748eb57cf4bcd34a8bef1099d12fce30b420b4cbf4b1e9585676.pdf), titled Chocolate by the host, identifies Bluetooth name **footctrlplus** and a MIDI host port. U mode uses the Type-C data connection and disables host; H mode makes Type-C power-only and uses the host connection. Do not apply this host-equipped panel to the original non-Plus Chocolate. Original body inspected; exact retail revision unresolved. No pinout or TRS MIDI Type A/B assigned from secondary reports.
+
+Required distinction: pedal → controller → MIDI-capable processor is a MIDI route, not direct analog pedal → processor EXP. It still needs a verified destination CC/assignment and volume scope. See [capability audit](EXPRESSION-VOLUME.md). No software, firmware or dependencies downloaded or executed; no hardware wiring tested.
