@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Lexicon MX400",
-    "task": "Saved MIDIrecall/A-Btargeting/clock limits. Bankgrandtotal remains unresolved because Stereo/Surround tables lack text. Next fresh Shopee eligible-model discovery;do not repeat existing offers.",
+    "model": "Tech 21 RK5 exact revision pending",
+    "task": "Inspect existing exactShopee lead1421445165/41329827063 andown manufacturer original/v2 identity;do not admit revision until supported. MX400 MIDI saved in a821124;grandtotal unresolved.",
     "next_models": [],
     "after_queue": "357partial models;298guitar158bass69vocal;42brands;114compatibility Markdownfiles remain;no workflows/downloads/push."
   },
@@ -78250,5 +78250,18 @@
       "Korg PX5D"
     ],
     "result": "NoqualifiednewShopeeexacthardware;notabsenceproof. ExistingMX400offeronlyreturnedwhenrevisitingthatmodel."
+  },
+  "discovery_shopee_rack_followup_20261018": {
+    "checked_date": "2026-10-18",
+    "queries": [
+      "site:shopee.co.id \"Digitech\" \"RP2000\"",
+      "site:shopee.co.id \"Digitech\" \"RP80\"",
+      "site:shopee.co.id \"Korg\" \"AX1500B\"",
+      "site:shopee.co.id \"Roland\" \"GP-8\"",
+      "site:shopee.co.id \"BOSS\" \"GX-700\"",
+      "site:shopee.co.id \"BOSS\" \"GT-PRO\""
+    ],
+    "result": "First three returned noresults;remaining searches exposed unrelated category consumerproducts,not instrumentprocessor hardware. No qualified seller/item/IDR evidence established;no inventory addition or unavailability conclusion.",
+    "next": "Check unrecorded Tech21 RK5 exact revision lead1421445165/41329827063 against manufacturer original/v2 distinctions;do not infer version fromgeneric RK5 title."
   }
 }
