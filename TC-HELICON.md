@@ -436,6 +436,17 @@ Checked2026-10-18 against manufacturer-authored reference2015-10-20,firmware2.1.
 | Processing / guitar block inventory | **9 named blocks**: Amp,Drive,Delay,Reverb,Compression,Wah,µMod,Octaver,Rhythmic. Guitar Buttonmap is configuration,not a tenth audio effect. Amp’s EQ/speaker controls are internal parameters,not additional freely assignable blocks. | [Reference pp113–125][VL3X-M] |
 | Category choices / count boundary | These lists reconcile the manual’s11vocal/9guitar block counts,not total Style choices or proof that all20 run simultaneously. Shared names refer to their respective layers;sub-algorithm/style counts andsimultaneous limits remain open. | [Reference contents,pp55–56,194–195][VL3X-M] |
 
+
+### VoiceLive 3 Extreme — loop synchronization and metronome
+
+Checked2026-10-18 in [manufacturer-authored2015-10-20 reference][VL3X-M],firmware2.1.00 build346,printedpp138–141;no device operation ordownload.
+
+| Field | Evidence / qualification |
+|---|---|
+| Looper / SMART and QUANTIZE | SMART trims/extends loops andrequiresB/C to be bar-length multiples ofA,no shorter. QUANTIZE snaps to the nearest beat without that length adjustment;shorterB can repeat withinA. FREE uses independent loop lengths without synchronization. These are timing modes,not additional loop tracks. |
+| Looper / metronome state | MET MUTE silences the click while retaining tempo/LoopAssist. MET OFF disables those synchronization features. Main andheadphone metronome levels are independently adjustable,allowing a performer-only click. |
+| Looper / tempo lock | Recording with metronomeOn locks that slot’s tempo;change requires deleting the loop orusing another slot. Recording with metronomeOff permits later tempo changes,not proof of audio time-stretching. |
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified exact hardware lead

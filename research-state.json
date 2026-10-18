@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "NUX MG-30",
-    "task": "Saved MG30Version2 mono/stereo/AutoRecord/drumEQ/QuickScene trailsscope. Next freshhardware discovery or othermodel gaps; do not repeat MG30oldmanual fields.",
+    "model": "TC-Helicon VoiceLive 3 Extreme",
+    "task": "Saved looptimingSMART/QUANTIZE/FREE,metronomemute/off andtempolock. NextfreshShopee discovery or unverified fields; vocalquery no newexactmodel.",
     "next_models": [],
     "after_queue": "347 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -45602,7 +45602,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX MG-30."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon VoiceLive 3 Extreme."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -59374,6 +59374,22 @@
         "Qualified used/new IDR"
       ],
       "method": "Ownmanual Version2.0 cover/copyright/pagination checked; no download or device operation"
+    },
+    {
+      "model": "TC-Helicon VoiceLive 3 Extreme",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://manualzz.com/doc/12745534/tc-helicon-voicelive-3-extreme-owner-s-manual"
+      ],
+      "finding": "Ownreferencepp138–141 SMART/QUANTIZE/FREE, metronomemutevsoff andslottempolock; no timestretchinference.",
+      "remaining": [
+        "Aggregate loop capacity",
+        "Simultaneous FX ceiling",
+        "Current OS",
+        "Power polarity/current",
+        "Condition-qualified prices"
+      ],
+      "method": "Manufacturer reference text only; no download/device operation"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -74634,6 +74650,17 @@
     ],
     "site": "shopee.co.id",
     "result": "No newqualified exactmodel hardware. PSU855783279/22273291654Rp170000 rejected;existingRP90faulty729907257/51202235862directHabisRp400000reconfirmed,notworkingused. No catalogue increment.",
+    "checked_date": "2026-10-18"
+  },
+  "discovery_vocal_20261018_post_mg30": {
+    "queries": [
+      "VoiceLive2",
+      "VoiceLiveTouch original",
+      "VoiceToneCreate",
+      "VoiceLive2bekas",
+      "VoiceLiveTouch2"
+    ],
+    "result": "No newexactmodel accepted. Results re-surfaced recordedVoiceLivePlay/Extreme; generic list/search prices not used asnewhardware evidence.",
     "checked_date": "2026-10-18"
   }
 }
