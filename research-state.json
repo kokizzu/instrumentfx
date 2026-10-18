@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Required fields / fresh discovery",
-    "task": "AX10B SLAP timing and NR cutoff limit saved. Continue another recorded-model required-field gap or fresh Shopee series; B2 FOUR catalogue leads remain deferred without item IDs.",
+    "task": "Modified G5n category lead saved separately from stock-condition offers; exact item unresolved. Continue another eligible series or manufacturer verification rather than repeating unresolved category searches. B2 FOUR seller leads and A2 remain deferred.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -79156,5 +79156,33 @@
     "destination": "KORG.md#ax10b",
     "scope": "Exact-model SLAP timing ratio and NR cutoff warning verified; no device operation.",
     "remaining": "Power draw, conversion format, display details, software and qualified Indonesian offer remain unresolved."
+  },
+  "discovery_modified_g5n_20261018": {
+    "checked_date": "2026-10-18",
+    "queries": [
+      "site:shopee.co.id \"Digitech\" \"RP355\" -adaptor -adapter",
+      "site:shopee.co.id \"Zoom\" \"G2Nu\" -adaptor -adapter",
+      "site:shopee.co.id \"Korg\" \"AX1500B\"",
+      "site:shopee.co.id \"Zoom g5n (bekas)\"",
+      "site:shopee.co.id \"RP355\" \"bekas\"",
+      "site:shopee.co.id \"G2Nu\" \"bekas\"",
+      "site:shopee.co.id \"efek gitar zoom g5n modifikasi tanpa pedal volume\"",
+      "site:shopee.co.id/ \"g5n\" \"modifikasi\" \"volume\"",
+      "\"zoom g5n\" \"tanpa pedal\" shopee"
+    ],
+    "lead": {
+      "model": "Zoom G5n",
+      "title": "efek gitar zoom g5n modifikasi tanpa pedal volume",
+      "indexed_ask_idr": 1700000,
+      "region": "Surakarta (Solo)",
+      "source": "https://shopee.co.id/search?keyword=g5N&page=3",
+      "secondary_index": "https://shopee.co.id/list/Efek/Zoom?page=3",
+      "exact_item": null,
+      "qualification": "Category-only, crawled last month; title claims modification without volume pedal. Seller/item, current stock, working condition, modification details, bundle, warranty and final total unresolved. Not admitted as a standard used/new comparison price and not a distinct factory model."
+    },
+    "existing_used_offer": "148185983/10348658140,mohrifki2105,Rp3000000 is already preserved in G5n record; no duplicate added.",
+    "accessory_recheck": "855783279/22273291654 remains a Rp170000 RP350/RP355/RP300 power supply, not processor hardware.",
+    "result": "No new qualifying exact model offer established. Modified unit retained only as a non-comparable discovery lead; no absence claim.",
+    "next": "Seek a different eligible series or close required-field gaps. Resolve exact modified-unit identity before recording offer details; never transfer stock G5n pedal claims to that unit."
   }
 }
