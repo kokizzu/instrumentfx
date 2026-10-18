@@ -1933,6 +1933,17 @@ NAM followup found explicit native/converted distinctions for other MOOER famili
 | Power / indicator meanings | Lowbattery blinksred;charging indicator lightswithsupply andturnsgreen whencomplete. No charge-duration specification established. |
 
 
+### Prime S1 — release-note scope and live-control delay
+
+[Manufacturer Prime release notes](https://cn.mooeraudio.com/Downloads_xq/1.html),checked2026-10-19;no packages downloaded orfirmware operated.
+
+| Field | Evidence / qualification |
+|---|---|
+| Firmware / B+C protection delay | Studio1.6.9 notes2024-08-27 explicitly assignS1firmware1.3.4 andaddB+C dual-press accidental-trigger delay. Duration unspecified forS1. The0.3second requirement appears under earlierP2-only1.6.8 notes;do nottransfer it. |
+| Editor / track separation scope | Prime4.0.0 notes2026-09-22 explicitly nameS1/M1/P2/M2 fortrack separation. Algorithm,stems,local/cloudexecution andexportformats unverified;notproof ofmultitrackUSBchannelcount. |
+| NAM / mobile restriction | Same release assigns mobileNAM-A2lite fileimport specifically toP2/M2. S1’s separate2026-09-21 desktopA2-loading announcement doesnotestablish mobileimport,arbitrary.nativeNAMcompatibility orconversionworkflow. |
+
+
 ## Ocean Machine II
 
 Checked 2026-10-18; partial active guitar multi-effects record. Original Ocean Machine is a distinct revision.

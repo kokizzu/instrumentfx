@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "MOOER Prime S1 remaining fields / discovery",
-    "task": "S1manualspecificlooper/drumcontrols andchargingindicatorssaved. Controls1rotary4footswitch0buttons text-derivedalreadyknown;avoidrepeatingasnew. Next exactmemory/library/NAMformatprimarydocumentation orfreshShopeediscovery. All388partial;migrationincomplete.",
+    "model": "Fresh discovery / Prime S1 remaining gaps",
+    "task": "S1B+Cprotectiondelay/trackseparation scope saved;0.3sP2-onlynotborrowed. Next freshShopee brandseries discovery orS1exactNAMformat/memoryprimarysource;avoidunchangedrelease-indexrepetition. All388partial;migrationincomplete.",
     "next_models": [],
     "after_queue": "388active47brands;no downloads/workflows/push."
   },
@@ -46335,7 +46335,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER Prime S1 remaining fields / discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh discovery / Prime S1 remaining gaps."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -121014,5 +121014,14 @@
       "Redlowbattery/greenchargecomplete"
     ],
     "remaining": "OriginalhostmanualnotexposedaslinkinproductHTML;LCD/LED126/128bankdirectionconflicts persist;visualaudit/library/memory/NAMconstraints unresolved."
+  },
+  "prime_s1_release_scope_20261019": {
+    "source": "https://cn.mooeraudio.com/Downloads_xq/1.html",
+    "findings": [
+      "S1v1.3.4B+Cdelay,noexactduration;P2only0.3snottransferred",
+      "S1explicittrackseparationinPrime4.0.0",
+      "MobileNAM-A2liteP2/M2only;S1desktopA2qualificationretained"
+    ],
+    "remaining": "S1memory/library/currentNAMformatsandvisualdisplay unresolved."
   }
 }
