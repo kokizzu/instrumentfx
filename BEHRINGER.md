@@ -416,6 +416,17 @@ Checked 2026-10-18 against [manufacturer manual Version1.2][D24-M], printed pp.2
 | Memory / direct MIDI storage | With **STOR On**, CC112 writes current settings to the controller-selected program location without confirmation. STOR defaults Off at power-on; Off ignores CC112. This is distinct from ordinary Program Change recall. |
 | Memory / initialization | Holding STORE+PRESET during power-on restores factory state and overwrites changes. This is not a settings-only reset. |
 
+
+### DSP2024P — mains variants and analog limits
+
+Checked 2026-10-18 against [manufacturer manual Version1.2][D24-M], printed pp.7,10,30,39. No hardware inspection or voltage conversion performed.
+
+| Field | Evidence / qualification |
+|---|---|
+| Power / mains revision conflict | Installation text excludes **120V-only export units** from voltage selection, while the specification table lists a **120/230V general-export model**. The rear-panel description says only many units have selectable voltage. Preserve both; neither identifies the mains variant of a seller unit or establishes automatic universal input. |
+| Power / fuse versus current | Published fuse ratings are **T200mA H250V for100–120V** and **T100mA L250V for200–240V**. These are fuse specifications, not measured or rated operating current. |
+| I/O / maximum analog levels | Maximum input and output are **+15dBu at +4dBu nominal**, or **+1dBV at −10dBV nominal**. Do not substitute nominal operating level for clipping/headroom limits. |
+
 <!-- comparison evidence ends -->
 
 [D24-M]: https://manualzz.com/doc/1522565/behringer-virtualizer-pro-dsp2024p-user-s-manual

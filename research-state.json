@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Behringer DSP2024P",
-    "task": "Saved DSP2024PMIDI backup/restore audiointerruption,CC112directwrite andreset scope. NextfreshShopeediscovery orothermodel gap;full71census andexactDSP2024Poffer unresolved.",
+    "task": "Saved DSP2024P mains-variant conflict, fuse/current distinction and maximum analog levels. Fresh Shopee searches yielded no exact DSP2024P/RP100/RP80/AX300B/G9.2tt hardware lead; AX3000G offers already recorded. Continue other brand/series discovery and unresolved model fields.",
     "next_models": [],
     "after_queue": "348partial unique models;114Markdowncompat retained. No downloads/workflows/push."
   },
@@ -59532,6 +59532,20 @@
         "Visualcontrols"
       ],
       "method": "Manufacturer documentation only;no transfer/reset/download/deviceoperation"
+    },
+    {
+      "model": "Behringer DSP2024P",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://manualzz.com/doc/1522565/behringer-virtualizer-pro-dsp2024p-user-s-manual"
+      ],
+      "finding": "Preserved 120V-only export versus 120/230V general-export manual conflict; separated fuse ratings from operating current; added maximum analog input/output levels.",
+      "remaining": [
+        "Exact seller-unit mains variant",
+        "Full 71-algorithm census",
+        "Current editor compatibility"
+      ],
+      "method": "Documentation only; no downloads or device operations"
     }
   ],
   "discovery_cross_brand_bass": {
