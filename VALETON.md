@@ -1129,7 +1129,7 @@ Distinct acoustic-guitar multi-effects strip, separate from full-size Dapper Aco
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | Built-in, external and toe support unverified. | Unresolved |
-| K/F/B | **11 rotary controls**, text-derived: Comp 3, Preamp 6, Reverb 1, Phones 1. Footswitch/button totals require panel inspection. | [Manual pp.1–2][DA-M] |
+| K/F/B | **11 rotary / 3 footswitches / ? buttons**, text-derived: Comp3,Preamp6,Reverb1,Phones1; separate COMP,PREAMP,REVERB ON/OFF controls. REVERB hold activates tuner,not an additional switch. Visual control/panel audit and separate button total remain pending. | [Manual pp.1–2][DA-M] |
 | Display | Seven bicolor note LEDs: **blue for natural notes, green for sharps**. Three pitch LEDs: **red flat / green in tune / red sharp**. Screen diagonal and touch remain unverified. | [Manual p.2][DA-M] |
 | Dimensions / mass | **197 × 65 × 42 mm; 435 g**. Product labels WDH, manual DWH; axis conflict retained. Compact strip. | [Product][DA-P]; [manual][DA-M] |
 | Processing / category choices | Separate **Compressor, Preamp and Reverb** modules, plus tuner. Comp volume/amount/attack intensity (the manual does not specify an attack-time range); Preamp volume/three-band EQ/notch cut-gain/notch frequency; one-knob hall-style reverb. Manufacturer Chinese page explicitly calls the reverb **digital**; do not classify the whole strip as all-analog. Exact simultaneous count awaits diagram verification. | [Manual pp.1–2][DA-M]; [product][DA-P]; [Chinese product][DA-C] |
@@ -1189,6 +1189,13 @@ Checked 2026-10-18; web text only, no downloads or image inspection.
 | Field | Finding / qualification |
 |---|---|
 | IDR condition unknown / Aproz | Checked2026-10-18: [exact hardware listing](https://shopee.co.id/Dapper-Acoustic-Mini-5In1-Effect-Strip-Mes4-Valeton-Original-i.1558028740.55201451502), **Aproz**, Kota Jakarta Selatan, seller **1558028740** / item **55201451502**: **Rp2,251,200**, struck-through reference **Rp2,814,000**,displayed−20%. Two-month indexed cache; stale5–8August delivery. The title identifies Dapper Acoustic Mini but seller MES4/5-in-1 wording is not manufacturer code or simultaneous-block evidence. New/used condition,working status,revision,bundle/adapter,warranty,authenticity,stock andcheckout voucher eligibility remain unverified. Late-delivery compensation is not a product discount. Separate dated ask,not a completed sale or verified price range. |
+
+
+### Dapper Acoustic Mini — control-count evidence qualification
+
+| Field | Finding / qualification |
+|---|---|
+| Controls / shared tuner footswitch | Checked2026-10-18 against [own V01_170213 manual pp1–2][DA-M]: the three module ON/OFF labels support the text-derived three-foot count. The tuner shares REVERB hold and mutes output. Seven note LEDs and three pitch LEDs are indicators,not buttons. PDF text is readable; screenshot references did not expose inspectable images and the in-app browser was unavailable. No visual verification,additional-port absence or screen diagonal inferred. |
 
 ## Dapper Dark VES-3
 
