@@ -247,12 +247,12 @@ The reproduced manufacturer body identifies MG-300 MKII and©2024Cherub;mirrorpu
 
 | Field | Preserved finding / unresolved detail |
 |---|---|
-| Expression / controls | Built-in;external support ?. **5/4/9** from prior photograph review. |
+| Expression / controls | Built-in;no external EXP socket in Version1.0 panel inventory. **5/4/9**,prior photo count corroborated by named manual controls;see census below. |
 | Dimensions / screen | **289L×160W×71H mm;920g**,manual axis labels retained; **2.8-inch320×240 color LCD**. Touch unverified; see dated sources below. |
 | Processing / scenes | **10 movable blocks**;selected blocks can change category;GEN2 adds4 wah,3 DeepImage amps,5 DeepImage EFX. Complete current totals ?. **Three scenes per preset**;preset total/split ?. |
 | Acoustic / synth | **Three acoustic IRs** for electric-to-acoustic sound,eight bass cabinet IRs;dedicated synth ?. |
 | IR / NAM | **512 samples**,per-patch IR plus12 collection slots. **10 NAM slots;A2 Lite native,A1 converted**,explicitly distinct. |
-| I/O / power | USB audio and main ports documented;complete connector inventory and battery/USB operation remain to verify; dated power finding below. |
+| I/O / power | Instrument input;L/MONO andR outputs;⅛-inchAUX/phones;USB,DC. Input/output socket sizes and USB connector form not established by inspected text. Battery/USB operation unverified;see dated findings. |
 | Apps / practice | QuickTone **Windows/macOS**,matching GEN2 editor;USB record/reamp/loopback;60s mono/30s stereo looper;scene changes with trails. |
 | Prices / ownership | Used/new IDR ?. The owner's rejected fake-seller MG-400 order is **not confirmed ownership**;general model coverage remains eligible. |
 
@@ -273,6 +273,21 @@ Original checked firmware: GEN2 3.0.3. Do not infer exact current firmware or so
 
 [M400M]: https://manuals.plus/nux/mg-400-multi-effects-pedal-manual.pdf
 [M400G]: https://nuxaudio.com/product/mg400/
+
+
+### MG-400 — Version1.0 operational evidence, 2026-10-18
+
+| Field | Evidence / qualification |
+|---|---|
+| Knobs / footswitches / buttons | **5/4/9**:Master,Select,Knob1–3;Up,Down,CTRL1/2;Edit,Save,Mode,Jam,Left,Right,Tap,Pedal,CTRL/Page. Encoder push,rear power/toe separate. Text corroboration,not fresh visual inspection. [M400O] |
+| Expression | EXP Independent preserves engagement across patches. Pedal selects wah,amp,modulation,delay/reverb control. External socket absent from panel inventory;MIDI-mediated expression unverified. [M400O] |
+| I/O | Instrument input;L/MONO+R outputs;separate⅛-inchAUX andphones;USB andDC. Phones follows output. No XLR,MIDI,FX-loop orEXP sockets documented. Connector balance/remaining sizes andUSB form unknown. [M400O] |
+| Memory / backup | Save writes current patch. GHOST backup stores system data internally;restore recalls that snapshot. Not an external backup or extra patch bank. Groups1–9 mentioned;total/factory fill still unknown. [M400O] |
+| Looper / tuner / live | AutoRecording waits for guitar attack;Normal starts fromfootswitch. Tuner offers chromatic/compensated guitar,mute/monitor,A4 430–450Hz. [M400O] |
+
+[M400O] is own Version1.0 English operational body,mirror viewer pages3–6 (printed03–10);cover/endpage confirm©2022Cherub. Page7 access failed;no full-manual completion claim. Its post-update reset/calibration guidance is legacy documentation,not proof of GEN2 requirements or an instruction to alter hardware. No reset,calibration,installation or downloads performed.
+
+[M400O]: https://www.manualslib.com/manual/4315493/Nux-Mg-400.html?page=3
 
 <!-- comparison evidence ends -->
 

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX MG-400",
-    "task": "Saved own display/body/power,currentGEN2softwaredates,tempo andexacthardwareask. Next read fullmanufacturerVersion1.0operationalbody forports,memoryandexpression; preserve GEN2 differences and reject copied MKII fields in US page.",
+    "task": "Saved Version1.0ports/controlcensus,expressionpersistence,internalGhostbackup andtuner/AR. Next accessible ownpage7USB/inputtrim/editor text or freshShopeediscovery; total/factorymemory andfullcategorycounts unresolved. Do not transfer US copied MG300MKII USB-C/24IR fields.",
     "next_models": [],
     "after_queue": "356 partial models;297 guitar157 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
@@ -78065,5 +78065,21 @@
       "Editor minimumOS",
       "Qualifiedused/new"
     ]
+  },
+  "mg400_operational_20261018": {
+    "model": "NUX MG-400",
+    "checked_date": "2026-10-18",
+    "source": "https://www.manualslib.com/manual/4315493/Nux-Mg-400.html",
+    "identity": "Version1.0MG400coverand©2022Cherubbody;Englishviewer3–6read;notgeneratedFAQ;page7cachemiss",
+    "findings": "5/4/9namedcontrols corroboratepriorphoto;noEXPsocketinventory;EXPIndependentpatchengagement;stereoLMono/RseparateAUXphonesUSB/DC;GhostinternalbackupnotextraBank;A4430–450Hz;ARattacktrigger",
+    "remaining": [
+      "Page7USB/inputtrim/editorbody",
+      "Preset total/factory fill",
+      "Fullcategorycensus",
+      "Audiojacksize/balance/USBform",
+      "MIDI-mediatedexpression",
+      "GEN2resetcalibrationapplicability"
+    ],
+    "limits": "Noimagevisualinspection,nofullbodycompletion,nofirmwareactions"
   }
 }
