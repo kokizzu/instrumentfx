@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom 506II",
-    "task": "Category census andderived33 reconciliation saved; next verify exact Shopee hardware offers, visual control audit andrequired IO/editor gaps, orfreshbrand/series discovery. Do not repeatcompletedinitialfill/categoryaudits.",
+    "task": "Electrical IO/conversion, absent-listedUSBconnector, supportpage scope andFS01/preselect saved. ExactShopeeoffers, visual audit andremainingfields unverified. Next freshbrand/series hardwarediscovery; avoidrepeatingcompleted506II memory/category/IOaudits.",
     "next_models": [],
     "after_queue": "367active/46brands;307guitar160bass69vocal;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
   },
@@ -81075,5 +81075,15 @@
     "printed_pages": "22–30",
     "finding": "Complete base-family count matches headline33; pedal variants andutility processing distinguished. Derivedcount,not manufacturer-statedmethod.",
     "status": "partial"
+  },
+  "zoom506ii_io_software_20261018": {
+    "manual": "https://zoomcorp.com/media/documents/E_506II.pdf",
+    "support": "https://zoomcorp.com/en/gb/multi-effects/bass-effects/506ii/506ii-support/",
+    "finding": "Electrical ratings andremote bank behavior saved. No exactmodel software verified.",
+    "discovery_queries": [
+      "site:shopee.co.id \"Zoom 506 II\"",
+      "site:shopee.co.id \"506ii\" bass"
+    ],
+    "discovery_result": "No qualified hardware offer; no price invented."
   }
 }
