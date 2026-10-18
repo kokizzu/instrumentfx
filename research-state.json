@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "DK iE-550",
-    "task": "Added exact manufacturer-backed partial guitar record;350active40brands. Next verify originalmanual/control/expression/memory/power andretailerrevisionconflicts;do notduplicatecolorvariants.",
+    "task": "Originalguide623000062verified;body,power,color,memory,USBformat,pedalandFSbehavioradded. Next physicalcontrolcount,impedanceunits,categorycensus/looperlimits andfirmwarerevisionconflicts.",
     "next_models": [],
     "after_queue": "350partialmodels;154bass;legacyconsolidationincomplete;no downloads/workflows/push."
   },
@@ -76363,5 +76363,21 @@
     },
     "retailer_conflicts": "70vs74effects,56vs100drumrhythms,IRslotcountsdisagree. Do notpromote retailernumbers asmanufacturerspecifications.",
     "next": "Verifyoriginalmanual thenaddrootbrandrecordandallrequiredfields/membership;do notaddcolourvariantsasdistinctmodels withouttechnicalbasis."
+  },
+  "dk_ie550_quickguide_20261018": {
+    "source": "https://device.report/m/d75e6440d22edb0b8e9ca4aca02e2f40ed21e8107ca28e7d49c5d77165ef344b_optim.pdf",
+    "identity": "OriginalbilingualMasterSeriesQuickUserGuide,623000062;revision/dateunprinted;onepage",
+    "findings": [
+      "Built-inpedalA/Btopswitch",
+      "ColorLCD",
+      "100slots50factorynot150",
+      "170x120x57.5mm493g",
+      "9V500mAcenternegative",
+      "USB2TypeC44.1kHz16bit;24bitconvertersseparate",
+      "MonoTSinputversusproductTRSconflict",
+      "TwoFS,tuner/loopercombinedpresshold"
+    ],
+    "access": "OriginalPDFtext;generatedFAQexcluded;novisualinspectionordownload",
+    "previous_record": "# DK — multi-effects\n\n[All guitar](ALL-GUITAR.md) · [Repository](README.md)\n\n## iE-550\n\nChecked 2026-10-18. Partial exact-model record. Manufacturer product identity and independent effect modules support guitar multi-effects inclusion. Color offers are not separate models. Ownership, bass and vocal suitability remain unverified.\n\n| Field | Evidence / qualification |\n|---|---|\n| Expression | Built-in, external and toe switching remain unverified from primary text. |\n| K/F/B | Unknown; no visual or complete manual inventory. |\n| Display | **1.77-inch TFT**; color/touch not explicitly established. |\n| Processing / choices | **70 effects; up to8 modules,5 removable for customization**. Per-category census and routing restrictions unknown; not70 simultaneous effects. |\n| Factory / user memory | Unknown; do not borrow retailer memory claims. |\n| Synth / acoustic | Dedicated synthesis/acoustic simulation unknown. |\n| IR / NAM / captures | **512-sample IR resolution; USER slot per patch**. File format, total capacity, native/converted NAM and captures unknown. |\n| I/O | AUX,Bluetooth,one6.3mm TRS input andone6.3mm TRS output supporting headphones. Complete port/MIDI/phantom inventory unknown. |\n| Power / battery / USB | **9VDC orUSB power**; current,polarity,battery andUSB connector unknown. |\n| Dimensions / mass | Unknown. |\n| Editor / software | **DKit editing foriOS/Android;USB recording interface**. Audio channels,formats,drivers,desktop editor andcurrentOS support unknown. |\n| Looper / drums / live | **56 drum patterns andlooper**;duration,retention,scenes andtrails unknown. |\n\nTechnical evidence: [manufacturer English product](https://www.dk-music.cn/pd.jsp?id=79), indexed exact iE-550 text. Direct routes timed out. [Chinese manufacturer page](https://www.dk-music.cn/cn/pd.jsp?id=88) independently identifies the model. No full manual or visual inspection claimed; no files/software downloaded.\n\n### Separate IDR hardware evidence\n\n| Condition / status | IDR evidence | Exact source and limits |\n|---|---|---|\n| Used | Unknown | No explicit used-condition offer established. |\n| New | Unknown | Retail appearance does not establish condition. |\n| Condition unverified, White | Rp1.725.000 | [Daily Music Store,271847827/29935710991](https://shopee.co.id/DK-Master-IE-550-White-Multi-Effects-Processor-i.271847827.29935710991),KotaJakartaTimur. Two-month index;August18 delivery stale. |\n| Condition unverified, Blue;Habis | Rp1.725.000 | [Daily Music Store,271847827/29035707054](https://shopee.co.id/DK-Master-IE-550-Blue-Multi-Effects-Processor-i.271847827.29035707054),same region;three-week index. Relative four-hour delivery is not current confirmation. |\n| Unresolved3variations;notaccepted bare-unit price | Rp1.650.000 displayed | [Red Musik Bali,198150809/43800593018](https://shopee.co.id/Efek-Gitar-DK-Master-IE-550-Multi-Effects-Processor-DK-IE550-IE550-i.198150809.43800593018),KotaDenpasar. Three-week direct cache;September25 delivery stale. |\n\nOffers checked2026-10-18. Stock,selected package,actual condition,adapter/accessories,warranty,shipping/tax anddelivered total remain unverified. Late-arrival compensation isnot aproduct discount. Cached asks arenot completed sales orlive availability.\n\n### Source conflicts and remaining verification\n\n[ETONE retailer](https://etone.shop/collections/dk-audio/products/dk-ie-550-guitar-multi-effects-pedal-with-bluetooth-app-blue) claims74effects/100rhythms andinternally differing5/15IRslots,versusmanufacturer70effects/56patterns/USER-per-patch. Firmware basis unresolved;retailer numbers are not promoted to manufacturer specifications. [Candidate manual PDF](https://manuals.plus/m/d75e6440d22edb0b8e9ca4aca02e2f40ed21e8107ca28e7d49c5d77165ef344b_optim.pdf) returned403;cover/revision/body not verified. Exclude generated FAQs. Seek original manual,full controls/expression,power,body,memory,category counts andqualified offers.\n"
   }
 }
