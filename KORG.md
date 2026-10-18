@@ -748,6 +748,13 @@ Checked2026-10-18 against [own E1 manual][AX3B-M], pp47–49,52–54. No transfe
 | MIDI / independently assigned controls | E1 p52 lists **seven controller targets**: expression pedal, CONTROL switch and on/off for PRE,DRIVE/AMP,MOD,DELAY,REVERB. Each accepts **OFF or CC00–CC95**. These are assignable control numbers, not96 simultaneous destinations or new audio blocks; global CCHG I/O still gates all CC transfer. [E1][AX3B-M] |
 | MIDI / incoming SysEx gate | P53 explicitly says incoming parameter changes and other SysEx can change parameters,modes or program numbers **regardless of SYEX OUT**. That setting controls outgoing changes and is not an incoming-data lock. No transfer was tested. [E1][AX3B-M] |
 
+
+### AX3000B — tuner gestures and saved-value indication
+
+| Field | Exact-model manufacturer qualification |
+|---|---|
+| Live / bypass versus mute | E1 printedp21 requires Program Select mode: holdthecurrentlyselected program switch **about0.5s** tobypass alleffects,includingNR;**about1.5s** tomute output. Both activate tuning. These distinct gestures are not evidence oftrue-bypass circuitry orsilent switching toanother program. [Own E1][AX3B-M] |
+| Memory / saved-value indicator | Printedpp7,20: **ORIG** appears whentheeditedparameter equals its stored programvalue. It is a comparison indicator,not an automatic factory restore orundo operation;switching programs orpoweringoff loses unstored edits,p19. [Own E1][AX3B-M] |
 <!-- comparison evidence ends -->
 
 [AX3B-M]: https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3000B_E1.pdf&response-content-type=application%2Fpdf%3B
