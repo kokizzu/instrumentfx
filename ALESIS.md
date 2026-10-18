@@ -138,7 +138,7 @@ Dual-channel rack multi-effects,notMicroVerb4. Checked2026-10-17;partial,discont
 | Synth / acoustic |Pitch±1octave. Manual recommendsAmbience forsolid-body guitar hollow-body coloration;this isreverb,notverified dedicated acoustic simulator. Dedicated synth unresolved [MD-P,MD-M p.30] |
 | IR / NAM / captures |User IR,native/converted NAM andmeasured captures unverified |
 | Audio / control ports |2TS inputs,2TS outputs;MIDI IN,OUT/THRU;momentary footswitch;9VAC power. No USB,mic/phantom,headphone orFXloop socket inrear inventory [MD-M pp.67–68] |
-| Power / battery / USB |9VAC external supply;manual names120VAC mains forsupplied version. Current,other regions,battery/USB operation unresolved;DC polarity inapplicable toAC output [MD-M p.49] |
+| Power / battery / USB |9VAC external supply;rear description names120VAC mains, while connections specify destination-specific110/220V,50/60Hz adapters. These are regional mains variants,not universal-input proof. Supply current,battery/USB operation unresolved;DC polarity inapplicable toAC output [MD-M pp.17,49] |
 | Dimensions / weight |**H×W×D1.75×19×7in (45×483×178mm),1U;4.5lb(2kg)**,as published in own2005 catalogue. Packaging/knob inclusion unqualified;no MicroVerb4 data substituted. [Catalogue p49](https://device.report/m/aaec17b5c58b84afd384358662a1749e3c80fa1beece85dd7d680fa09dcda1fd.pdf) |
 | Analog conversion | **18-bit ADC128×/DAC8× oversampling;48kHz;24-bit internal accumulator**. Conversion and processing word lengths differ. Analog input/output ratings retained below [MD-P,MD-M p.67] |
 | Editor / software | SysEx can send all user programs,the edit buffer or program-change table;incoming dumps automatically enter receive mode. Two global MIDI modulation sources have configuration-fixed destinations;full editor/platform and modern librarian compatibility remain unverified [MD-P,MD-M pp.59–62] |
@@ -219,6 +219,16 @@ Checked2026-10-18 against manufacturer-authored Spring2005 catalogue,52PDFpages,
 | Audio / catalogue response | Catalogue specifies20Hz–20kHz±1dB,dynamicrange>90dB,THD+N0.01%. These are published specifications,not measurements of any seller unit. |
 
 [Original Alesis catalogue,p49](https://device.report/m/aaec17b5c58b84afd384358662a1749e3c80fa1beece85dd7d680fa09dcda1fd.pdf). Power current,display diagonal/color/touch,editor andcondition-qualified prices remainunverified.
+
+### MIDIverb 4 — regional power and live routing limits
+
+Checked 2026-10-18 against the [original manufacturer manual, pp13,17,48–49,63](https://www.alesis.com/rscdn/982/documents/midiverb_iv_refmanual.pdf). Browser text only; no file download or device operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| Power / regional adapters | Connections specifies destination-specific **110 or220V,50 or60Hz mains adapters**; rear description names120VAC. Neither establishes universal mains compatibility or supply current. Unit input remains9VAC. |
+| Routing / Dry Defeat | Global Dry Defeat removes dry signal from every program and locks effect mixes at100%. **RealRoom→Flange is an exception:** reverb mix locks, flange mix remains editable. Troubleshooting associates bypass plus Dry Defeat with silence. This is distinct from bypass behavior with ordinary mixes. |
+| Live / Auto Level footswitch override | Auto Level normally senses input forfive seconds. Holding the footswitch during sensing extends this until release, temporarily suppressing its assigned bypass/advance action. Any front-panel button cancels sensing. This is input-level setup,not continuous expression. |
 
 ## MIDIverb III
 
