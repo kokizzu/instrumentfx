@@ -175,6 +175,8 @@ Guitar multi-effects; distinct from RP250/RP355/RP360XP. Checked2026-10-17; part
 | USB audio / recording controls | With USB connected and Pickup row selected, knobs 2/3 control direct/playback mix and USB record level respectively. X-Edit also provides a mix utility. Dry-DI/reamping support remains unverified. | [Manual p11][R255-M] |
 | Live / bypass and tuner | Both switches bypass; holding two seconds enters tuner. Either exits. Tuner initially mutes, but expression controls guitar volume. Reference defaults to A=440, with Ab/G/Gb alternatives. | [Manual pp2–3,7][R255-M] |
 | Memory / reset | Factory reset erases user-programmed data and then enters expression calibration; separate calibration preserves presets. No reset or calibration was performed during this research. | [Manual pp41–42][R255-M] |
+| Looper / arming and exit | Hold Down2seconds to enter looper;press Down again to arm,and playing triggers capture. Either footswitch sets the loop endpoint. Hold Down4seconds to leave looper mode;this is distinct from stopped-loop clear at2seconds. Undo and loop survival after exit/power loss remainunverified. | [Manual pp38–39][R255-M] |
+| I/O / AUX playback destination | AUX stereo playback reaches **left,right andheadphone outputs**;source-player volume and RP255 MasterLevel set the balance. This passage doesnot establish AUX-to-USB capture or effects processing. | [Manual p40][R255-M] |
 
 <!-- comparison evidence ends -->
 
