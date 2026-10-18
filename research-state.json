@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "VOX StompLab 1B",
-    "task": "Exact IB manual EFGSJ1 establishes seven simultaneous effects,3/2/3 controls plus rear POWER, complete rear ports. Continue remaining memory/routing/power details from own manual, then exact Shopee discovery. No downloads.",
+    "task": "IB memory write protection/save-loss, output profile persistence/master reset and namedKA181 center-negative chain saved. Continue fresh Shopee discovery or unresolved exact IB display/initial-fill/manual parameter gaps; do not treat current partial record as complete.",
     "next_models": [],
     "after_queue": "343 partial unique models; 114 Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -58566,6 +58566,22 @@
         "Exact Shopee used/new offers",
         "Display specifications"
       ]
+    },
+    {
+      "model": "VOX StompLab 1B",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://voxamps.com/wp-content/uploads/2019/12/SL_IB_OM_EFGSJ1.pdf",
+        "https://www.korg.com/jp/products/tuners/pitchblack_x_mini/specifications.php"
+      ],
+      "finding": "100 read-only+20 writable; unsaved edit loss; output profile persists/master resets7; A1 English vs AP table/language conflict retained. Own IB Japanese pp54/60 names KA181; Korg identifies9V center-negative.",
+      "remaining": [
+        "Initial user fill",
+        "Display specifications",
+        "Barrel dimensions",
+        "Exact qualified used/new IDR"
+      ],
+      "method": "Browser text only; no download or hardware operation"
     }
   ],
   "discovery_cross_brand_bass": {

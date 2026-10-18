@@ -445,14 +445,14 @@ Checked 2026-10-18. **Bass multi-effects**, also styled StompLab IB; distinct fr
 | Display | Diagonal, resolution, technology, color and touch unknown. |
 | Dimensions / weight | **145×125×57 mm W×D×H; 590 g**. [VOX English][SL1B-E] |
 | Processing / choices | **60 choices**: pedal9, amp10, drive8, cabinet12, modulation9, delay8, reverb3, noise reduction1. These are library alternatives, not simultaneous blocks. Own IB manual confirms **up to seven simultaneous effects including noise reduction**, resolving family7–8 ambiguity. [IB manual p4][SL1B-M] [English][SL1B-E];[Japanese][SL1B-J] |
-| Factory / user memory | **100 preset +20 user =120**. Initial user fill and factory write protection unverified. [German][SL1B-D] |
+| Factory / user memory | **100 preset +20 user =120**. Presets00–99 read-only; user U0–U9/u0–u9 writable. WRITE overwrites destination; unsaved edits are lost on program change/power-off. Initial user fill unknown. [German][SL1B-D];[IB manual pp7,10][SL1B-M] |
 | Synth / acoustic | ACOUSTIC is a named pedal choice; simulation behavior and synth architecture unverified. [English][SL1B-E] |
 | I/O | One normal mono input; one stereo output/phones. Own manual complete rear inventory: INPUT, OUTPUT/PHONES, DC9V and POWER. No USB, MIDI, AUX, external EXP or effects-loop ports. Socket sizes unknown. [English][SL1B-E];[IB manual p6][SL1B-M] |
 | Conversion | 24-bit AD/DA; sample rate and USB audio unknown. [English][SL1B-E] |
-| Power / battery / USB | **9V DC, approximately200mA consumption**, or4AA; approximately7.5h alkaline. Optional adapter; polarity and barrel dimensions unknown. No USB port for USB power. Do not transfer IIB adapter identity. [German][SL1B-D] |
+| Power / battery / USB | **9V DC, approximately200mA consumption**, or4AA; approximately7.5h alkaline. Own Japanese manual names optional **KA181**; Korg specifies that adapter as **9V center-negative**. Barrel dimensions unknown; no USB power port. Tuner current consumption is not IB current. [German][SL1B-D];[IB manual pp54,60][SL1B-M];[Korg adapter specification][SL1B-K] |
 | IR / NAM / capture | User IR, native/converted NAM and proprietary capture import unknown. |
 | Editor / software | Editor availability and supported Windows/macOS/mobile versions unknown. |
-| Looper / drums / live | Tuner A0–E6; calibration438–445Hz. Looper, drums, scenes, trails and routing details unknown. [German][SL1B-D] |
+| Looper / drums / live | Tuner A0–E6; calibration438–445Hz. Looper, drums, scenes and trails unknown. [German][SL1B-D] |
 | Used IDR / new IDR | **Unknown / unknown**. Exact Indonesian Shopee searches for stomplab 1b, stomplab ib and stomplab1b returned no exact offer on2026-10-18; this does not establish unavailability. Condition, stock, region, warranty, vouchers and checkout total unknown. |
 | Power / bundle | English specifies test batteries included; German excludes batteries. Preserve regional conflict; actual seller bundle unknown. [English][SL1B-E];[German][SL1B-D] |
 
@@ -471,6 +471,10 @@ Manufacturer category counts reconcile to60. AMP and DRIVE counts do not establi
 | Reverb3 | Room; Spring; Hall |
 | NR1 | Noise reduction |
 
+### StompLab IB output and save behavior
+
+Output profile persists; master resets7.0. Bass-amp profile appears as **A1** in English p11, **AP** in the parameter table/other languages; **Ln** serves line, headphones, power-amp input or recorder. Preserve label conflict. [IB manual pp11,23,65][SL1B-M]
+
 <!-- comparison evidence ends -->
 
 Source access: English and German exact-model product bodies opened as browser text. Japanese exact-model specifications read in search cache; direct reopening timed out. Own68-page IB manual EFGSJ1 opened as browser text; English introduction identifies StompLab IB. No PDF downloaded or visual panel audit performed.
@@ -480,3 +484,5 @@ Source access: English and German exact-model product bodies opened as browser t
 [SL1B-J]: https://voxamps.com/ja/product/stomplab-1b/
 
 [SL1B-M]: https://voxamps.com/wp-content/uploads/2019/12/SL_IB_OM_EFGSJ1.pdf
+
+[SL1B-K]: https://www.korg.com/jp/products/tuners/pitchblack_x_mini/specifications.php
