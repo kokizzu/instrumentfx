@@ -35,6 +35,17 @@ Checked 2026-10-17; partial. Guitar/vocal instrument and mixer-path processor; d
 | New | No condition-confirmed offer. | — |
 | Unverified condition | **Rp1.950.000**, Imagination Music Store, shop19576516/item6955147985, Kota Jakarta Pusat. Checked2026-10-17; index crawled last month, preorder15days with September16 estimate. Historical ask, not live stock/checkout. | [Item][M100-O] |
 
+
+### M100 — current-guide MIDI control mappings
+
+Checked 2026-10-18 from original manufacturer-indexed [QSG English MIDI Communication Guide,p70][M100-M]. The Chinese section p90 corroborates the mapping. Current-guide applicability to older M100 hardware remains unresolved; no MIDI messages or firmware were sent.
+
+| Field | Revision-qualified behavior |
+|---|---|
+| Editor / MIDI channel setup | Hold BYPASS while turning EFFECT SELECTOR; selected effect number becomes the channel. Guide explicitly says no visual or audible confirmation. This is setup, not proof of a patch editor or persistent user-preset storage. |
+| I/O / MIDI CC map | **CC102** bypass0/1; **CC103** effect0–15; **CC104** effect parameter0–127; **CC106** mix0dry–127wet. These map controls, not extra effect blocks or memories. |
+| Live / MIDI tap and select | **CC105** is mode-dependent:tap values1–127 each supply one tap;select uses0Off/1On. Do not interpret the tap value as a BPM number or assume MIDI-clock sync. |
+
 <!-- comparison evidence ends -->
 
 Working state, authenticity, hardware revision, bundle, adapter, warranty, shipping/tax and voucher eligibility unresolved. Direct QSG open failed; indexed official text readable. No filesystem download or visual inspection claimed.
