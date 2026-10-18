@@ -501,7 +501,7 @@ def main():
         if mode == 'commit-708ii':
             message = 'research(zoom): qualify 708II converters input and synth variants'
         if mode == 'commit-707ii':
-            message = 'research(zoom): qualify 707II converters recall and patch preselect'
+            message = 'research(zoom): distinguish 707II card memory and rhythm persistence'
         if mode == 'commit-ax30g':
             message = 'research(korg): complete AX100G pedal choices and adapter compatibility'
         if mode == 'commit-rp155':

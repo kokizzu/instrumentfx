@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh eligible hardware discovery / required gaps",
-    "task": "Original H9 Max Pre/Post and Wet/Dry channel allocation plus SysEx backup scope saved. Next move to another required-field gap or fresh exact Shopee hardware; do not confuse H9 one-algorithm mono Pre/Post with H90 Dual routing.",
+    "task": "707II card patch capacity/export prerequisite and rhythm persistence/sync saved. Next another required-field gap or new exact Shopee series. Existing 707II/GFX707 offers are duplicates; do not infer larger-card sample duration or factory-user fill.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -78850,5 +78850,35 @@
       "Qualifiedoffers"
     ],
     "method": "Originalmanual text only; no transfer,device operation or download"
+  },
+  "zoom707ii_card_rhythm_20261018": {
+    "status": "partial",
+    "source": "https://zoomcorp.com/media/documents/E_707II.pdf",
+    "printed_pages": "16,26–29",
+    "findings": [
+      "Fivecardgroups times60patches=300cardlocations,notonboard expansion",
+      "UnsavededitedpatchcannotSAVE tocardbeforeinternalstore",
+      "LOAD onepatch/ALLOADgroup targetsUSERmemory",
+      "PatchSync gatesrhythmassignments;currentmeasurefinishwhenchangingplayingpattern",
+      "Practice rhythmtype/tempovolume resetpowercycle"
+    ],
+    "remaining": [
+      "InitialUSERfactory mapping",
+      "Largercardaggregatesampling",
+      "HoldDelaywordingconflict",
+      "Synth",
+      "Currentsoftware",
+      "Display/USBunknowns"
+    ],
+    "method": "Browseroriginalmanualtext;no cardoperation/download"
+  },
+  "discovery_series_20261018_707check": {
+    "queries": [
+      "site:shopee.co.id Digitech RP300",
+      "site:shopee.co.id Zoom 707 efek",
+      "site:shopee.co.id BOSS ME-10",
+      "site:shopee.co.id Korg AX10B"
+    ],
+    "result": "No new exactmodel; existing707II27879131/28968736038 stillHabis/Rp500000/staleAug26–27; existingGFX70748116980/15446202329 soldoutRp750000. RP300matchwaspreviouslyexcludedPSU. No new/usedprice range orlive stock inferred."
   }
 }
