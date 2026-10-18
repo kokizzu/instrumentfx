@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "SE-50 required fields / fresh discovery",
-    "task": "SE50 nominal−20/+4dBm sensitivity and global effects-state behavior saved. Japanese archive manual lead timed out;continue unresolved active fields or new Shopee brand/series searches. No new model admitted.",
+    "model": "AD-8 required fields / fresh discovery",
+    "task": "AD8 indexed2011 200mA conflict and persistent tuner/LED settings saved. Preserve120/170/200 distinction;continue required-field gaps or fresh Shopee leads without inferring revision or runtime.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -45873,7 +45873,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume SE-50 required fields / fresh discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume AD-8 required fields / fresh discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -79462,5 +79462,18 @@
       "site:shopee.co.id \"Digitech\" \"BP80\""
     ],
     "result": "Only already-recorded SE50 exact item48750366204 resolved;other queries empty/unrelated. No new qualified offer or active model;no market-absence claim."
+  },
+  "boss_ad8_2011_power_retention_20261018": {
+    "destination": "BOSS.md#ad-8",
+    "catalogue": "https://cdn.roland.com/assets/media/pdf/boss_catalog_2011.pdf",
+    "catalogue_access": "Indexed AD8-specific200mA text;fullPDF reader failed. Preserve120/170/200 conflict;no documented revision reconciliation.",
+    "manual": "https://cdn.roland.com/assets/media/pdf/AD-8_OM.pdf",
+    "printed_pages": [
+      17,
+      18,
+      20
+    ],
+    "scope": "Tuner reference and memory indicator pattern retention;400Hz example not treated as range expansion.",
+    "remaining": "Power/polarity/conflict reconciliation,explicit concurrency,display details,current condition-qualified hardware offers."
   }
 }

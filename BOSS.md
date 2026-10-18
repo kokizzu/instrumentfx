@@ -3225,7 +3225,7 @@ Acoustic-guitar multi-effects: body modeling, EQ, reverb and feedback suppressio
 | Dimensions / mass | **250 W × 180 D × 60 H mm; 1.9 kg including batteries**, manual pp25–26. [AD8-M] **Conflict:** Japan lists **250 × 190 × 75 mm**, same mass. [AD8-J] Large under either published width; reason for regional difference unestablished. |
 | I/O | Quarter-inch INPUT; quarter-inch stereo TRS PHONES; quarter-inch electric-guitar-amp output; unbalanced quarter-inch A/mono and B; balanced XLR A/B; PSA DC input. XLRs are outputs, not microphone inputs. [AD8-S] |
 | I/O / impedance conflict | Manual p25 gives **4.7 MΩ input**, regional web specification **20 MΩ**. Preserve both; no revision explanation verified. [AD8-M], [AD8-S] |
-| Power / batteries / USB | **9 V DC, 120 mA in manual/current regional pages; six AA or PSA adapter**. Historical170 mA conflict documented below. Manual rates carbon batteries about **9 h**, alkaline **23 h**, conditions dependent. Polarity unresolved. No USB connector in the complete port list; USB-powered operation not supported by that inventory. [AD8-M], [AD8-S] |
+| Power / batteries / USB | **9 V DC, 120 mA in manual/current regional pages; six AA or PSA adapter**. Historical170mA and indexed2011 200mA conflicts documented below. Manual rates carbon batteries about **9 h**, alkaline **23 h**, conditions dependent. Polarity unresolved. No USB connector in the complete port list; USB-powered operation not supported by that inventory. [AD8-M], [AD8-S] |
 | Editor / USB | No full editor platform established; no USB or MIDI connector listed. [AD8-S] |
 | IR / NAM / capture | User IR, native/converted NAM and proprietary capture loading unverified; COSM body models do not establish user imports. |
 | Looper / drums / live | Tuner with mute, reference **438–445 Hz**, accuracy ±3 cents; balanced stereo DI with ground lift. Looper/drums unverified. [AD8-S] |
@@ -3266,6 +3266,14 @@ Checked2026-10-18 against [own manual,printed pp13,25–26][AD8-M] and [regional
 | Power / input-jack switching and bundle | Inserting the INPUT plug switches the uniton;removing it switches off. Manufacturer accessories list **sixR6AA batteries**,with **PSA adapter optional**. These are original package contents,not proof ofwhat seller item9817836384 includes. NoUSB/battery-runtime change inferred. |
 | I/O / ground lift | NOR/LIFT disconnects **pin1 ground** from inputground whenLIFT isselected. This is an output ground-loop control,not a phantom-power ormicrophone-input switch. Default recommendation isNOR. |
 
+
+### AD-8 — additional current-draw conflict and retained live settings
+
+| Field | Source evidence / qualification |
+|---|---|
+| Power / 2011 catalogue conflict | [Roland’s 2011 catalogue, indexed AD SERIES/AD-8 specification](https://cdn.roland.com/assets/media/pdf/boss_catalog_2011.pdf) lists **200mA**. Full PDF open failed; this is **model-specific indexed text only**, not a visually inspected specification. Preserve alongside **120mA** in the own manual/current regional specifications and **170mA** in the2008 catalogue. Revision or correction unverified; do not average the figures or infer a changed battery runtime. |
+| Live / tuner reference retention | Own manualp18: factory reference **440Hz**; selected438–445Hz reference **survives power-off**. Factory reset restores440Hz. The manual’s example saying400Hz conflicts with its explicit range/default; do not expand the supported range from that example. [Own manual pp18,20][AD8-M] |
+| Display / memory indicators | Own manualp17 offers one lit selected-memory indicator or a cumulative indicator count. Holding SELECT≥2seconds switches patterns; setting survives power-off. This is LED indication behavior, not screen diagonal/color/touch evidence. [Own manual p17][AD8-M] |
 <!-- comparison evidence ends -->
 
 [AD8-S]: https://www.boss.info/se/products/ad-8/
