@@ -277,6 +277,17 @@ Checked2026-10-18 against the [original Yamaha manual][R5-M],printed pp15–17 a
 | Editor / MIDI parameter reach | Add-2 extends the earlier CC12–16 list: **CC17–23** cover low-frequency ratio,diffusion,filters,density,liveness andearly-reflection delay. Further controls are topology-dependent in **CC24–31 and70–83**;not every parameter applies to every program. SysEx parameter numbers require Yamaha service information. Current third-party editor/platform compatibility remains unverified. |
 
 
+
+### REV500 — startup current and footswitch mute scope
+
+Checked2026-10-18 against [Yamaha’s original manual][R5-M],printedpp14,19–20;web text only,no local download or device operation.
+
+| Field | Exact-model qualification |
+|---|---|
+| Power / inrush versus operating current | European-model notice gives **inrush current<1A**. This is startup behavior,not steady current draw or anadapter rating. Published15W consumption remains separate;other regions’ inrush andsteady current remain unverified. |
+| Live / footswitch mute | EFF MUTE toggles suppression oftheeffect output;secondpress restores it. This isnot documented as muting theentire dry+effect mix. EFFECT ONLY versusADD DIRECT isaseparate output-mode setting;do notpromise dry-path silence fromthefootswitch. |
+
+
 ## DG-Stomp
 
 <!-- comparison evidence begins -->

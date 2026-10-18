@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Alesis MicroVerb 4",
-    "task": "Saved MIDI clock/transport restriction and program-change boundary discrepancy with chart-footer identity caveat. Hardware dimensions/mass/current/display stillunknown. Next fresh discovery or primary gaps of another active model after commit.",
+    "model": "Yamaha REV500",
+    "task": "Saved European inrush-current distinction and footswitch effect-mute scope. Continue exact Shopee condition evidence or another required active-model gap after commit.",
     "next_models": [],
     "after_queue": "349partialmodels;legacy consolidation incomplete;no downloads/workflows/push."
   },
@@ -45606,7 +45606,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Alesis MicroVerb 4."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Yamaha REV500."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -76138,5 +76138,24 @@
       ],
       "result": "Noqualifiedexacthardwareoffer;BP90diodesrejected;noabsenceclaim"
     }
+  },
+  "rev500_inrush_mute_20261018": {
+    "source": "https://jp.yamaha.com/files/download/other_assets/9/318469/REV500E.pdf",
+    "pages": [
+      14,
+      19,
+      20
+    ],
+    "findings": [
+      "European model inrush below1A isnot steady current oradapter rating",
+      "EFFMUTE toggles effect output suppression;global output mode separately selects effect-only/add-direct"
+    ],
+    "unresolved": [
+      "steady current",
+      "other regional inrush",
+      "display diagonal/color/touch",
+      "qualified used/new offers",
+      "full editor OS compatibility"
+    ]
   }
 }

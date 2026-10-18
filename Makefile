@@ -1939,3 +1939,7 @@ json-pointer-removal-commit:
 	python3 scripts/json_pointer_removal.py commit
 json-pointer-rollback-plan:
 	python3 scripts/json_pointer_removal.py rollback-plan
+
+.PHONY: research-commit-rev500
+research-commit-rev500:
+	python3 scripts/research_tools.py commit-rev500
