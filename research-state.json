@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC Electronic M350",
-    "task": "Saved stagedpresetrecall/store,panelversusstoredstate andMIDIchannel/SysExID. Next freshShopee discovery orremainingbuttons/display/editor/conditionqualifiedIDR gaps.",
+    "model": "Sonicake Matribox II Pro QME-200",
+    "task": "Reconciled mainsummary with completedmenu/acoustic/IRaudits andClonecover/bodyconflict;historicalarchive unchanged. Next freshShopee discovery orremainingfirmware/import/qualifiedprice gaps.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -45606,7 +45606,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Electronic M350."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Sonicake Matribox II Pro QME-200."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -75413,8 +75413,8 @@
     "next": "Fresh Shopee GP-series discovery; GP-100VT manufacturer lead requires exact hardware offer and own-model technical evidence."
   },
   "resume_cursor": {
-    "model": "TC Electronic M350",
-    "task": "Saved stagedpresetrecall/store,panelversusstoredstate andMIDIchannel/SysExID. Next freshShopee discovery orremainingbuttons/display/editor/conditionqualifiedIDR gaps.",
+    "model": "Sonicake Matribox II Pro QME-200",
+    "task": "Reconciled mainsummary with completedmenu/acoustic/IRaudits andClonecover/bodyconflict;historicalarchive unchanged. Next freshShopee discovery orremainingfirmware/import/qualifiedprice gaps.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75877,5 +75877,14 @@
       "site:shopee.co.id Yamaha REX50"
     ],
     "result": "Noqualifiednewexacthardwarelead;notmarketabsence"
+  },
+  "matribox_ii_pro_summary_reconciliation_20261018": {
+    "previous_rows": [
+      "| Processing / memory | Official Japan specification:**12 simultaneous modules**;**63 amps,61 cabinets,93+ pedal effects**;repeat effects of the same type supported. **240 locations,120 factory-filled**. |",
+      "| Sound / loading | Pitch/Whammy-style use documented;exact synth/acoustic algorithms ?. **20 user IRs**,Official Japan notice2026-08-18 identifies **NAM A2 conversion**,desktop software**1.3.1+**;not native A2 loading. Exact accepted architectures remain unresolved. [NAM notice](https://www.hotone.jp/announcements/nama2allbrand). |"
+    ],
+    "previous_clone_phrase": "This is distinct from current editor1.3.1 A2-conversion support;not proof the1.1.1 manual contains Clone.",
+    "basis": "Existing savedcategory,IR,Clone cover/body andAMP/CAB audits;no new source/firmwaretest",
+    "archive_retained_byte_exact": true
   }
 }
