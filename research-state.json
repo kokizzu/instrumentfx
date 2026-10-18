@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B2 FOUR",
-    "task": "Saved B2 FOUR eleven bass-amp choices,mode/count boundaries and dry/effect blend. Continue fresh exacthardware discovery orprimary gaps;114 Markdown compatibility files retained.",
+    "task": "Saved B2 FOUR named7delay/8reverb/4SFX/6pedalchoices andtime/tail distinctions. Remaining unnamedcategorychoices:dynamics10,filter14,drive13,mod11,pitch6. Continue categoryaudit orfreshhardware lead;114 Markdown compatibility files retained.",
     "next_models": [],
     "after_queue": "342 partial unique models; Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -58456,6 +58456,49 @@
         "Sun CB",
         "Monotone"
       ]
+    },
+    {
+      "model": "Zoom B2 FOUR",
+      "checked": "2026-10-18",
+      "finding": "Named7delay8reverb4SFX6pedalchoices;internalDualDelaylines andSFXmodes notextra choices;time/bypassTail/LoopRoll boundaries.",
+      "source": "https://zoomcorp.com/media/documents/E_B2FOUR_FX-list.pdf",
+      "revision": "©2023 Z2I-4875-01",
+      "pages": "14–17",
+      "categories": {
+        "delay": [
+          "Delay",
+          "Analog Delay",
+          "Tape Echo",
+          "Dual Delay",
+          "Reverse Delay",
+          "Modulation Delay",
+          "Hold Delay"
+        ],
+        "reverb": [
+          "Room",
+          "Bright Room",
+          "Spring",
+          "Plate",
+          "Hall",
+          "Bright Hall",
+          "HD Hall",
+          "Air"
+        ],
+        "sfx": [
+          "Loop Roll",
+          "Phaser+Distortion",
+          "Fretless Simulator",
+          "Bomber"
+        ],
+        "pedal": [
+          "Output Volume Pedal",
+          "Pedal Volume",
+          "Bass Wah",
+          "Bass Pedal Pitch",
+          "Bass Pedal Mono Pitch",
+          "Pedal Resonance"
+        ]
+      }
     }
   ],
   "discovery_cross_brand_bass": {

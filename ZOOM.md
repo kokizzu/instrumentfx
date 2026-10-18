@@ -1176,6 +1176,19 @@ Checked2026-10-18 against the [official2023 effect list](https://zoomcorp.com/me
 | Category choices / bass amps11 | Fliptop,AMPG SVT,AG750,SMR400,EBH360,Mini Mark-B,TE400SMX,B-Man100,AC370,Sun CB,Monotone. The first nine model AmpegB-15N,AmpegSVT,AguilarDB750,SWRSM400,EBSHD360,MarkbassMINIMARK802,TraceElliotAH400SMX,FenderBassman100 andAcoustic370,respectively. Sun CB andMonotone have manufacturer character descriptions without an exact source-amp identity here. Eleven choices are already included in104. |
 | Processing / amp variations and blend | All11 list a dry/effectedBlend parameter. TE400SMX’sPick/Slap/Finger selections,SunCB’sNormal/Bright input andMonotone’sDark/Normal/Bright modes are internal variations,not additional amp algorithms. The list does not enumerate separate freely selectable cabinet choices for these models;factory Multi-Layer IR anduser-IR loading remain distinct. |
 
+
+### B2 FOUR — time effects,SFX and pedal inventory
+
+Checked2026-10-18 against the [official2023 effect list](https://zoomcorp.com/media/documents/E_B2FOUR_FX-list.pdf),Z2I-4875-01,pp14–17.
+
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / delays7 | Delay,Analog Delay,Tape Echo,Dual Delay,Reverse Delay,Modulation Delay,Hold Delay. Dual’s two internal lines remain one effect choice. |
+| Category choices / reverbs8 | Room,Bright Room,Spring,Plate,Hall,Bright Hall,HD Hall,Air. Each name denotes its Reverb entry;brightness variants count separately in the cited list. |
+| Category choices / SFX4 | Loop Roll,Phaser+Distortion,Fretless Simulator,Bomber. Phaser+Distortion’s four modes remain one entry. |
+| Category choices / pedal6 | Output Volume Pedal,Pedal Volume,Bass Wah,Bass Pedal Pitch,Bass Pedal Mono Pitch,Pedal Resonance. Mono Pitch requires single-note playing. Output Volume persists acrosspatch changes;it differs from patch-local Pedal Volume. |
+| Live / time-effect limits | Delay/Analog/Hold reach4000ms;Tape/Reverse/Modulation reach2000ms;Dual lists0–1490 for each line. Hold Delay captures onrelease. ItsTail parameter andlisted reverbTail controls concern effect bypass,not proven patch-change spillover. The1.5-second minimum practice-looper length does not apply to Loop Roll’s10–4000ms sample/hold parameter. |
+
 <!-- comparison evidence ends -->
 
 ## B6
