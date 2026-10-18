@@ -96,6 +96,18 @@ These are individual asking observations,not a current market range or completed
 Checked2026-10-19:[official manual index](https://www.hotone.com/support/1?pid=43&tid=17) lists **Ampero One User Manual compatible with firmwareV3.1**,alongside olderV2.1/V2.0/V1.2/V1.1/V1.0 entries. Listing establishes document availability,not that its complete body orupdated algorithm census was inspected. Retain V1.1 census andits64-versus65amp conflict until the model-specificV3.1 body is verified. No file downloaded.
 
 
+### Ampero One — firmware3.1 manual qualifications, 2026-10-19
+
+[Manufacturer-authored manual transcription](https://fr.scribd.com/document/1067861623/Ampero-One-Online-Manual-en-Firmware-V3-1-1773037044207),cover explicitly **For FirmwareV3.1**,Ampero One panels withVOLUME/MENU-VALUE andthree feet,47pages. Identity/revision matches the [official manual index](https://www.hotone.com/support/1?pid=43&tid=17). Used original document body,not Scribd's AI description;no file downloaded orsoftware run.
+
+| Field | Revision-specific finding / qualification |
+|---|---|
+| IR / current documented slots | Appendix explicitly lists **User IR1–20**;empty slots mute output. This confirms20forV3.1 directly,rather than relying only on earlier expansion arithmetic. |
+| USB / recording and reamp | Printedp16:independent L/R recording sources **Dry/Effect**;REC LEVEL−20to+20dB,MONITOR LEVEL−20to+6dB. REAMP routes USB playback1/2 into effects. Manual's DAW example uses recording inputs1/2;additional channels/sample-rate options remain unverified. It instructs disabling DAW track monitoring during reamp andturning REAMP off afterward. |
+| I/O / global cabinet bypass | Printedp15:**No Cab Mode independently bypasses CAB forL/R outputs**,overriding patch settings. |
+| Expression / ranges | Printedpp13–14:bounds0–100,including inverted ranges;Linear,Exponential,Logarithmic curves. External-pedal calibration omits the built-in hard-press step. |
+
+
 ## Hotone consolidation scope
 
 The six recorded Hotone models now retain their complete model findings and supporting comparison facts here. Original legacy sources remain available. Consolidation does not establish exhaustive market coverage or close unresolved specification and price fields.
