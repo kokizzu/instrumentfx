@@ -3150,7 +3150,7 @@ Desktop guitar/vocal processor; distinct from GT-1/GT-100. Checked 2026-10-17; p
 
 | Field | Verified support / limitation |
 |---|---|
-| USB / Windows driver | [GT-001 driver 1.1.1](https://www.boss.info/global/support/by_product/gt-001/updates_drivers/a40d8180-eba6-4620-9fba-ca0f2c0ba19b/),May2023, supports Windows10/11;Windows10 32-bit driver remains1.1.0. ARM PCs,virtual Windows,Windows on Mac andWindows10Mobile are excluded. This is driver support,not a full-editor compatibility assertion. |
+| USB / Windows driver | [GT-001 driver 1.1.1](https://www.boss.info/global/support/by_product/gt-001/updates_drivers/a40d8180-eba6-4620-9fba-ca0f2c0ba19b/),May2023, supports Windows10/11 for GT-001 firmware1.10 (see Windows editor qualification below);Windows10 32-bit driver remains1.1.0. ARM PCs,virtual Windows,Windows on Mac andWindows10Mobile are excluded. This is driver support,not a full-editor compatibility assertion. |
 | Editor / macOS | [TONE STUDIO1.1.3 model-specific page](https://www.boss.info/global/support/by_product/gt-001/updates_drivers/6e99475e-5fea-43a5-8722-f535b836950a/) identifies March2017 Sierra10.12 support andrequires the appropriate USB driver. It directs newer compatibility checks to a separate matrix;do not treat Sierra support as proof for current macOS. |
 | Editor / data and connection | Charge-only USB cables cannot carry editor data. The page documents librarian batch patch operations andA/B preamp copying;these manage patches,not audio/IR/NAM imports. |
 
@@ -3176,6 +3176,14 @@ The driver page refers detailed configuration to packaged/post-install readmes. 
 |---|---|
 | Processing / wah | [Own parameter guide, indexed p. 20](https://static.roland.com/assets/media/pdf/GT-001_r_e01W.pdf) lists **six wah types**: Cry, VO, Fat, Light, 7String and Reso. These are alternative sounds within the wah effect, not six simultaneous blocks. |
 | Expression / wah control | Set the external expression pedal function to **WAH or WAH/FV** for real-time wah control through CTL/EXP. Pedal position and heel/toe endpoint parameters each span 0–100. A toe-position parameter does not establish a physical toe switch. |
+
+### GT-001 — Windows editor firmware requirements, 2026-10-18
+
+| Field | Verified support / qualification |
+|---|---|
+| Editor / Windows | [TONE STUDIO1.1.3 Windows support page](https://www.boss.info/global/support/by_product/gt-001/updates_drivers/3d87d7c1-d2d7-4fa6-999e-9e3ba735c733/) lists Windows11/10/8.1/7 with GT-001 firmware **1.10**; for **1.04 or earlier**, only10/8.1/7 are listed. Windows11 is not established for older firmware. |
+| USB / driver dependency | Firmware1.10 uses driver1.1.1 for Windows10/11 or1.1.0 for8.1/8/7; firmware1.04 or earlier uses1.0.0. Install the matching driver before the editor; these versions are not interchangeable support claims. |
+| Editor / runtime and connection | Adobe AIR is a documented prerequisite; installation requires internet. Choose **GT-001**, not **GT-001 DAW CTRL**, as the editor device. TONE CENTRAL and application updates also require internet. No software downloaded, installed or executed. |
 
 <!-- comparison evidence ends -->
 
