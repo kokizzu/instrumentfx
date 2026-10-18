@@ -939,6 +939,15 @@ Checked 2026-10-18. The manufacturer-authored 2017 manual cover, model name and 
 | I/O / Mic Control setup | Hold the footswitch while powering up to toggle MP-75 Mic Control. Disable it with condenser microphones to avoid unwanted effect switching. The manual separately states that 24 V phantom is always active; disabling Mic Control is not documented as disabling phantom. | [Own manual p4](https://www.handleiding.guide/pdf/817823) |
 | Processing / group styles | Manufacturer product document says Melodic/Gang styles require no key or scale input. This describes group-vocal operation and does not independently verify automatic pitch correction, interval harmony, exact voice counts or selector-position allocation. | [Official product document, indexed p1](https://mediadl.musictribe.com/media/PLM/data/docs/P0CGT/TC%20Helicon_CRITICAL%20MASS%20P0CGT_Product%20Information%20Document.pdf) |
 
+### Critical Mass — supply rating and reverb control scope
+
+Checked2026-10-18 against the [2017 manufacturer manual,pp3,5](https://www.handleiding.guide/pdf/817823). Text-only review;no operation.
+
+| Field | Finding / qualification |
+|---|---|
+| Power / supply versus consumption | The specifications explicitly label **9V/670mA as Power Supply** and **6W as Power Consumption**. Do not relabel670mA as measured device current orderive an exact operating current from6W. The QSG’s >300mA recommendation remains separately preserved;polarity andcurrent under different operating conditions remain unverified. |
+| Processing / reverb control | One knob selects among **three reverb types andtheir amount**,running fromRoom toHall. The middle type isnot named in the inspected prose. Turning within a type changes prominence;fully counterclockwise disablesreverb. This doesnot establish three simultaneously available reverb blocks orindependent type/amount controls. |
+
 ## VoiceLive Touch 2
 
 Distinct from original Touch and VoiceLive Play. Checked2026-10-18;partial. Reference manual v1.2 targets firmware1.0.02 build37; current firmware unverified. Official PDF endpoints returned502; mirrored manufacturer document bodies used,not generated summaries. Ownership unverified.

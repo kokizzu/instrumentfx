@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS GT-10B",
-    "task": "GT10B Windows Librarian1.00 own-page OS/host requirements saved. Resume fresh Shopee leads or primary gaps;exact Indonesian offer,Windows11 andfull editor remain unresolved.",
+    "model": "TC-Helicon Critical Mass",
+    "task": "Critical Mass supply-versus-consumption and shared reverb control qualified. Continue fresh Shopee discovery or another primary gap;VoiceWorks/VoiceLive Rack/Vocalist Live Pro searches returned no indexed hardware leads.",
     "next_models": [],
     "after_queue": "342 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -45545,7 +45545,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS GT-10B."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon Critical Mass."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -72985,5 +72985,27 @@
       "site:shopee.co.id \"Boss\" \"GT10B\""
     ],
     "result": "No exact bass processor hardware offer established;GT10B result contained adapters and guitar GT10 items,not accepted bass hardware. Absence is not unavailability."
+  },
+  "criticalmass_supply_reverb_20261018": {
+    "source": "https://www.handleiding.guide/pdf/817823",
+    "pages": "3,5",
+    "identity": "Manufacturer-authored2017 Critical Mass manual;cover/control identity previously checked;no generated FAQ",
+    "findings": [
+      "670mA is explicitly under Power Supply,not measured current draw.6W separately Power Consumption.",
+      "Three reverb types share one type/amount control;Room/Hall endpoints,middle name unresolved."
+    ],
+    "remaining": [
+      "power polarity/current under operating conditions",
+      "exact hardware offers",
+      "pitch correction operational evidence"
+    ]
+  },
+  "discovery_vocal_rack_20261018": {
+    "queries": [
+      "site:shopee.co.id \"TC Helicon\" \"VoiceWorks\"",
+      "site:shopee.co.id \"TC Helicon\" \"VoiceLive Rack\"",
+      "site:shopee.co.id \"Digitech\" \"Vocalist Live Pro\""
+    ],
+    "result": "No indexed results;no accepted hardware offer or unavailability inference."
   }
 }

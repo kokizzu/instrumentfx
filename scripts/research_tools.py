@@ -449,7 +449,7 @@ def main():
         if mode == 'commit-hxe-price':
             message = 'research(line6): qualify HX Effects controller and stereo behavior'
         if mode == 'commit-criticalmass':
-            message = 'research(tchelicon): clarify Critical Mass control combinations'
+            message = 'research(tchelicon): distinguish Critical Mass supply and reverb controls'
         if mode == 'commit-b21u':
             message = 'research(zoom): resolve B2.1u converter oversampling and response'
         if mode == 'commit-katana-go':
