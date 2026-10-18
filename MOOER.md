@@ -167,7 +167,7 @@ Original PDF controls/rear pages (printed3–5) were read and rendered; front an
 | Preset memory |**200 total**, 50 banks×4(A–D); editable/saveable. Empty presets exist; exact current factory-filled and reserved-user subsets unknown. Not200 factory + 200 user |
 | Synth / acoustic / vocal |Pitch/harmony/ring modulation are listed; dedicated synth engine and acoustic simulator unverified in inspected appendix. Mic/line acoustic processing documented. Vocal harmony, autotune and formant engines unverified; live microphone multi-effects does not imply them |
 | Scene / sub-patch control |**3 SubPatches per preset** with module states and parameter mappings, plus stomp/tap/single/multiple/A–B CTRL functions. F4 wireless/MIDI can extend control |
-| Looper / drums |**480 seconds/8minutes**, overdub, undo/redo, auto-record threshold, independent levels, drum sync, count-in and loop import/export. Global product prose56 drum kits conflicts with its54kits+4 metronome bullet; exact current rhythm inventory unresolved |
+| Looper / drums |**480 seconds/8minutes stereo**, explicitly stated by the [Chinese exact-model page](https://cn.mooeraudio.com/product/94.html); overdub, undo/redo, auto-record threshold, independent levels, drum sync, count-in and loop import/export. Chinese page says56kits+4metronome; global prose56kits versus54kits+4bullet remains inconsistent. Exact current rhythm inventory unresolved |
 
 Original appendix model-choice counts, not freely assignable block counts or a verified current total:
 
@@ -293,6 +293,13 @@ Checked2026-10-18 against the [original manufacturer shared manual](https://medi
 | Editor / backup scope | Backup instructions explicitly include presets,loadedGNR/GIR/IR andglobalsettings. Looperaudio is not enumerated there; do not assume this backup preserves loops. Separate loop import/export exists; format andpower-offpersistence remain unverified. |
 
 Discovery: exact Shopee GE200Plus/GE300Lite/GS1000Li queries didnot establish a new hardware offer. Item28713236/25889306838 is a GE200preset pack; list-page GS1000amounts remain unresolved,not exact offers. No catalogue count change.
+
+### GS1000 — regional stereo-loop and rhythm claims
+
+Checked2026-10-18. The [Chinese manufacturer GS1000/GS1000Li page](https://cn.mooeraudio.com/product/94.html) explicitly labels **480seconds stereo recording**, unlimited overdubs,automatic detection andundo. This supports channel/duration wording for the shared series; no half-duration mono/stereo rule inferred.
+
+The same page labels the launch library **56 drum kits +4 metronome sounds**. The [global page](https://www.mooeraudio.com/products/219.html) instead combines56-kit prose with54kits+4metronome bullets. Preserve all claims; no dated firmware inventory establishes whether these are revision changes orcopy errors. No current exact kit count certified.
+
 
 ## GE100 original
 
