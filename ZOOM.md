@@ -4532,3 +4532,17 @@ Checked 2026-10-19 against indexed [manufacturer family manual pp4–5,8,34](htt
 | Live / startup and edits | Startup enters Play regardless of selector position. Changed parameters require saving before selecting another patch or they are lost. Master level applies across patches;per-patch volume remains separate. |
 
 The indexed EFX page establishes AutoWah,Resonance,Booster,Tremolo as a partial list only;no complete EFX count inferred. G2.1u search results rejected as a different model.
+
+### G2Nu — manufacturer manual body census
+
+Checked 2026-10-19. [Manufacturer-authored manual reproduced on Manualzz](https://manualzz.com/doc/58694453/zoom-g21nu-operation-manual), printed pp34–48,50: family title, separate G2Nu panel, page sequence and exact specifications match manufacturer-indexed passages. Only original manual body used; generated Q&A excluded. Text inspection,not PDF/image inspection.
+
+| Field | Category census / qualification |
+|---|---|
+| Processing / choices | COMP3; EFX9; ZNR3; DRIVE30 (29 drive/amp choices plusAco.Sim); EQUALIZER1; MODULATION21; DELAY5; REVERB7. Derived sum **79 placements**,versus published **83 types**. Counting rule/revision discrepancy unresolved;not79 proven unique algorithms or83 simultaneous effects. |
+| Processing / EFX inventory | AutoWah,Resonance,Booster,Tremolo,RingMod,SlowATTCK,Octave,PedalVox,PedalCry. |
+| Processing / MOD inventory | Chorus,VintageCE,StereoCho,Ensemble,Phaser,Flanger,DynaFLNGR,Vibrato,Step,Cry,Detune,PitchSHFT,MonoPitch,HPS,PDL Pitch,CombFLTR,Air,Delay,TapeEcho,ModDelay,DynaDelay. |
+| Processing / delay and reverb | DELAY:Delay,Echo,AnalogDLY,PingPongD,ReverseDL. REVERB:Hall,Room,Spring,Arena,TiledRoom,EarlyRef,MultiTapD. Shared delay names refer to different module placements. |
+| Synth / acoustic | Aco.Sim explicitly converts electric-guitar tone toward acoustic;Top/Body/Level controls. MonoPitch is single-note pitch shifting;not proof of a dedicated synth engine. |
+
+TOTAL holds patch-level/name/expression settings,not a ninth simultaneous audio module. Installed firmware/current library,83-type reconciliation andqualified IDR remain unresolved. No downloads ordevice operation.
