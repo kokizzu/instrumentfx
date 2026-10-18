@@ -615,7 +615,7 @@ def main():
         if mode == 'commit-me50':
             message = 'research(boss): verify ME-50 named controls and toe-switch calibration'
         if mode == 'commit-b2-followup':
-            message = 'research(zoom): enumerate B2 FOUR preamp choices and mix behavior'
+            message = 'research(zoom): enumerate B2 FOUR bass amps and internal variations'
         if mode == 'commit-ax3000g':
             message = 'research(korg): qualify AX3000G output compensation and pedal recall'
         if mode == 'commit-pandora':

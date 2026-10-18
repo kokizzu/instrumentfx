@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom B2 FOUR",
-    "task": "Saved B2 FOUR eleven named preamp choices and mixing distinctions. Continue fresh exact hardware discovery or remaining primary gaps;114 Markdown compatibility files retained.",
+    "task": "Saved B2 FOUR eleven bass-amp choices,mode/count boundaries and dry/effect blend. Continue fresh exacthardware discovery orprimary gaps;114 Markdown compatibility files retained.",
     "next_models": [],
     "after_queue": "342 partial unique models; Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -58435,6 +58435,27 @@
         "Djent Preamp"
       ],
       "discovery": "Older Zoom B2/3000B/506 andDigitechBP200 searches yielded existing B2FOURoffers oradapters;no newmodel admission."
+    },
+    {
+      "model": "Zoom B2 FOUR",
+      "checked": "2026-10-18",
+      "finding": "Enumerated11bassampchoices,first9manufacturer modelidentities,peramp dry/effectblend andinternalvariations;separatecabcount notestablished.",
+      "source": "https://zoomcorp.com/media/documents/E_B2FOUR_FX-list.pdf",
+      "revision": "©2023 Z2I-4875-01",
+      "pages": "18–20",
+      "amp_choices": [
+        "Fliptop",
+        "AMPG SVT",
+        "AG750",
+        "SMR400",
+        "EBH360",
+        "Mini Mark-B",
+        "TE400SMX",
+        "B-Man100",
+        "AC370",
+        "Sun CB",
+        "Monotone"
+      ]
     }
   ],
   "discovery_cross_brand_bass": {

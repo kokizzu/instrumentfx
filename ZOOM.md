@@ -1166,6 +1166,16 @@ Checked2026-10-18 against the [manufacturer effect list](https://zoomcorp.com/me
 | Category choices / preamps11 | Bass Driver Preamp,D.I Plus Preamp,Dark Preamp,Clear Driver Preamp,1073 Preamp,Solid Preamp,DI-5 Preamp,SB Preamp1,BBB Preamp,Super Low Preamp,Djent Preamp. These are the11entries already included in104,not additional models or11simultaneous slots;the separate6DI selections are a different category. |
 | Processing / preamp mix behavior | D.I Plus selects clean/distortion,withBlend applying to distortion. Clear Driver uses linear-phase EQ to preserve dry/effect mixing according to manufacturer description. Super Low adds adjustable lower-octave content;Djent combines clean lows with distorted highs. These parameters do not establish general parallel-chain routing or polyphonic synth tracking. |
 
+
+### B2 FOUR — named bass-amp choices
+
+Checked2026-10-18 against the [official2023 effect list](https://zoomcorp.com/media/documents/E_B2FOUR_FX-list.pdf),Z2I-4875-01,pp18–20.
+
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / bass amps11 | Fliptop,AMPG SVT,AG750,SMR400,EBH360,Mini Mark-B,TE400SMX,B-Man100,AC370,Sun CB,Monotone. The first nine model AmpegB-15N,AmpegSVT,AguilarDB750,SWRSM400,EBSHD360,MarkbassMINIMARK802,TraceElliotAH400SMX,FenderBassman100 andAcoustic370,respectively. Sun CB andMonotone have manufacturer character descriptions without an exact source-amp identity here. Eleven choices are already included in104. |
+| Processing / amp variations and blend | All11 list a dry/effectedBlend parameter. TE400SMX’sPick/Slap/Finger selections,SunCB’sNormal/Bright input andMonotone’sDark/Normal/Bright modes are internal variations,not additional amp algorithms. The list does not enumerate separate freely selectable cabinet choices for these models;factory Multi-Layer IR anduser-IR loading remain distinct. |
+
 <!-- comparison evidence ends -->
 
 ## B6
