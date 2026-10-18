@@ -589,8 +589,8 @@ GROUPS = {
     'processing': r'^delay /|^(?:eq|amp|cab|cabinet) /|^delay / (?:source wording|time limits)$|^historical count conflict$|^delay claim conflict$|^firmware-qualified model|processing|simultaneous|architecture|model-total disagreement|block|categor|choice|library|^modules|factory amps|efx|^effects',
     'memory': r'^factory /.*reset|memory|preset|storage',
     'sound': r'^pitch /|^bass drive /|^vocal / bass scope$|^bass capability|^(?:bass / (?:instrument|vocal)|instrument) scope$|synth|acoustic|harmony|special sound|^sound|^vocal$|^instrument/function$',
-    'loading': r'\birs?\b|capture|\bnam\b|loading|import(?:ing|s)?\b|proprietary|conversion',
-    'io': r'^midi\b|^control / usb$|^audio(?: /| levels| noise)|^instrument / input requirements$|^midi / backup$|^analog|^conversion.*analog|^audio(?:/control| inputs?| outputs?)$|^level conflict$|^built-in instrument wireless$|\bports?\b|connections?|i/o|^inputs?|^(?:main )?outputs?|^aux|headphones?|fx loop|microphone|phantom|pickup|midi.*usb|usb.*control|data.*control|control.*data|instrument.*loop|instrument.*aux',
+    'loading': r'\birs?\b|capture|\bnam\b|loading|import(?:ing|s)?\b|proprietary',
+    'io': r'^midi\b|^control / usb$|^audio(?: /| levels| noise)|^instrument / input requirements$|^midi / backup$|^analog|^conversion(?: /|$)|^audio(?:/control| inputs?| outputs?)$|^level conflict$|^built-in instrument wireless$|\bports?\b|connections?|i/o|^inputs?|^(?:main )?outputs?|^aux|headphones?|fx loop|microphone|phantom|pickup|midi.*usb|usb.*control|data.*control|control.*data|instrument.*loop|instrument.*aux',
     'power': r'^manual / revision conflicts$|power|battery|^dc|^supply$',
     'editor': r'^usb\b|app|software|edit|config|record|usb.*audio|^audio$|^usb$|^digital|^audio interface$',
     'live': r'\btuner\b|^save / tuner / gate$|^tuner / bypass$|automation|live|practice|practical|stage|loop|drum|extra|feature|scene|firmware|routing|operation',
@@ -766,9 +766,10 @@ def test_field_projection():
         for label in labels:
             record = {'facts': [{'field': label, 'value': 'Retained qualified evidence', 'context': ''}]}
             assert 'Retained qualified evidence' in cell(record, group), (group, label)
-    for label in ('Analog levels / conversion', 'Conversion / analog levels'):
+    for label in ('Conversion', 'Conversion / sample rate', 'Conversion / internal format', 'Conversion / response', 'USB / conversion', 'Processing / conversion', 'Analog levels / conversion', 'Conversion / analog levels'):
         record = {'facts': [{'field': label, 'value': '24-bit converters, analog level limits', 'context': ''}]}
         assert '24-bit converters' not in cell(record, 'loading'), 'Analog conversion leaked into IR/capture column'
+        assert any('24-bit converters' in cell(record, group) for group in ('processing', 'io', 'editor')), 'Audio conversion lost from technical columns'
     for label in ('Editor / sleep and import boundaries', 'Editor / importing patches'):
         record = {'facts': [{'field': label, 'value': 'Patch import restriction', 'context': ''}]}
         assert 'Patch import restriction' in cell(record, 'editor')
