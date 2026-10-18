@@ -469,7 +469,7 @@ Distinct acoustic-guitar multi-effects, checked 2026-10-18; partial. [Manufactur
 | Looper / practical | Chromatic tuner; headphone connection retains analog/digital outputs. Digital output is **44.1kHz** and unaffected by OUTPUT knob. Looper/drums/scenes unverified. |
 | Memory / retention and reset | Manual pp19–20: OUTPUT setting is not stored; utility settings are global. Factory initialization replaces user data with factory patches. No reset performed. |
 | Live / tuner | Manual p23: all analog/headphone/digital outputs mute during tuning. A-reference **436–444Hz**, resetting to440Hz on power-up. |
-| IDR price | No qualified exact Shopee offer from AG Stomp/AG-Stomp/AGSTOMP searches,2026-10-18. Used/new amount,seller/item,condition,stock,region,bundle,warranty and vouchers unknown. Limited search does not prove market absence. |
+| IDR price | No qualified exact Shopee offer from AG Stomp/AG-Stomp/AGSTOMP searches,2026-10-18; exact Yamaha AG Stomp/AG-STOMP searches again returned no qualified offer on2026-10-19. Used/new amount,seller/item,condition,stock,region,bundle,warranty and vouchers unknown. Limited search does not prove market absence. |
 
 ### AG-Stomp conversion and manual control,2026-10-18
 
@@ -488,6 +488,19 @@ Distinct acoustic-guitar multi-effects, checked 2026-10-18; partial. [Manufactur
 | Processing / feedback reduction | [Manualp16](https://usa.yamaha.com/files/download/other_assets/1/313701/agstomp_en.pdf):BANK AUTO detectsfeedback andusesanavailablenotch at **−20dB** depth;chords mayrequiremanualfrequency/depth adjustment. Fivefilters remainthesimultaneouslimit,nofiveadditionalalgorithmbanks. |
 | Memory / feedback persistence | [Manualp16](https://usa.yamaha.com/files/download/other_assets/1/313701/agstomp_en.pdf):UtilityPrG storesfeedbacksettings perpatch;GLb retainsthemacrosspatchchanges. InGLb,performStore tosaveglobalfeedbackdata beforepower-off;unsavedchanges arelost. |
 | Live / conditional reverb tails | [Manualp21](https://usa.yamaha.com/files/download/other_assets/1/313701/agstomp_en.pdf):switching fromnonzeroReverb tozerowith**sameReverbType** leavesexistingtail;newpatchsound isnotfedthroughpreviousreverb. No blanketclaimoftrailsacrossdifferenttypes orseamlessswitching. |
+
+
+### AG-Stomp — MIDI backup, addressing and footswitch output
+
+Checked 2026-10-19 in the [exact Yamaha owner manual, printed pp24–26,30](https://usa.yamaha.com/files/download/other_assets/1/313701/agstomp_en.pdf). Browser text only; no messages sent or software installed.
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| Editor / MIDI backup scope | Bulk Out sends either one user patch or **all user patches plus Utility settings**. U01–U93 are bank/patch addresses for **30 user positions**, not 93 memories. Bulk In requires Play mode and rewrites user-area patch contents. |
+| I/O / MIDI addressing | Receive channel OFF/ALL/1–16; transmit 1–16. Receive/transmit channels also supply the respective bulk-transfer device numbers. Utility mode does not receive MIDI; its edits save on exiting. |
+| Live / program-change tables | Incoming **1–128** program numbers map to user/preset patches. Patch recall by footswitch can transmit an assigned program number. The 128-number address range does not add onboard memories. |
+| Footswitches / outgoing CC values | In EFF mode, each switch selects CC **1–32 or 64–95**, or OFF, with independent **0–127** values for its on/off states. This transmit range differs from the previously documented incoming assignment range. |
+| I/O / MIDI merge and clock limits | Merge retransmits input data without the selected receive-channel restriction. The implementation chart marks MIDI clock unsupported for both transmission and reception; merge support does not establish clock-synchronized effects. |
 
 <!-- comparison evidence ends -->
 

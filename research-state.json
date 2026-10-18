@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Manufacturer technical gaps / Shopee discovery",
-    "task": "Magicstomp Acoustic converter/analogratings,HIGH-LOWwordingconflict andpatchtransfer/resetlimits saved. NoexactAcousticShopeeofferfound. ContinuefreshShopee discovery oranotheractive-modelgap;all387recordspartial andmigrationincomplete.",
+    "task": "AG-Stomp MIDIbackup/restore,addressing,programmaps andEFFfootswitchCC limits saved;freshShopeequeryreturnednoqualifiedAG/DGStompoffer. ContinuefreshShopeediscovery oranotheractive-modelgap;all387recordspartial,migrationincomplete.",
     "next_models": [],
     "after_queue": "387 active models,46 brands,all partial;no downloads/workflows/push."
   },
@@ -120393,5 +120393,26 @@
     ],
     "market_result": "No exact qualified offer returned;used/newIDRremainunknown,noabsenceinference.",
     "remaining": "Effectcountconflict,currenteditorOS,expression,screenpublishedspecs,loadingcapabilities andcondition-qualifiedIDRoffers."
+  },
+  "agstomp_midi_backup_followup_20261019": {
+    "checked_date": "2026-10-19",
+    "source": "https://usa.yamaha.com/files/download/other_assets/1/313701/agstomp_en.pdf",
+    "printed_pages": "24–26,30",
+    "model": "Yamaha AG-Stomp",
+    "findings": [
+      "BulkOutoneuserpatchorall30userpatchesplusUtility;U01–U93arebank/patchaddresses",
+      "BulkInrequiresPlaymodeandrewritesuserpatchcontents",
+      "ReceiveOFF/ALL/1–16;transmit1–16;channelsalsobulkdevicenumbers;Utilityeditsstoredonexit",
+      "Incoming1–128programmapandoutgoingprogramtable donotaddpatchcapacity",
+      "EFFfootswitchCC1–32/64–95orOFF,independent0–127on/offvalues",
+      "Mergepassesdatawithoutreceivechannelrestriction;MIDIclocknotimplementedtx/rx"
+    ],
+    "queries": [
+      "site:shopee.co.id \"Yamaha AG Stomp\"",
+      "site:shopee.co.id \"AG-STOMP\"",
+      "site:shopee.co.id \"DG Stomp\""
+    ],
+    "market_result": "No qualifying exacthardware offers returned;no pricesassignedorabsenceclaim.",
+    "remaining": "Exactcondition-qualifiedoffers,screenpublishedspecs,fullphysical/connectorabsenceaudit,editorplatformsandunsupportedloadingfieldsremainunverified."
   }
 }
