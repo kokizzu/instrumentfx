@@ -66,29 +66,15 @@ Root navigation links directly to canonical root documents. Historical link spel
 
 All recorded models are compared in their applicable instrument pages, with full-record links. All 349 recorded models have root brand sections. Legacy content preservation and local navigation checks have passed; compatibility paths remain and technical/market verification is incomplete. The comparison-table rebuild does not certify all fields or finish that migration. Do not create a new dated finding, progress part or document under `effects/`.
 
-## Research saved in the current pass
+## Research ledger
 
-| New model | Initial model commit | Evidence highlights |
-|---|---|---|
-| HeadRush MX5 |`d05c409` |Official category counts,11-slot processing,model-specific power and between-rig tail limitations |
-| Fender Tone Master Pro |`85bc8c6` |Instrument/mic routing,regional firmware-history differences,three-minute looper and documented polysynth update |
-| Valeton GP-200LT |`4824546` |Version1.8 SnapTone documentation,external-only expression,editable memory and balanced-output distinctions |
-| MOOER GE250 |`9c65e37` |Five footswitches,acoustic algorithms,one configurable MIDI socket and retained count/IR/looper conflicts |
-| Valeton GP-200JR |`3c9b9a3` |Rendered original panel diagrams expose manual copy errors; 255/99 memories, model-specific power and qualified Shopee asks |
-
-Existing **HX Effects** was consolidated and refreshed in `9c8d296`, not added as a new model. Its nine effects blocks, four snapshots per preset, two expression/amp-control sockets and USB MIDI without USB audio are now explicit in both guitar and bass comparisons.
-
-Each model was committed before researching the next. Core and Flex Prime were subsequently consolidated into HEADRUSH.md,with technical observation dates retained and additional Flex Prime IDR offers saved in `b30cec0`. Consolidation and repeated prices do not add models.
-
-All model records separate knobs/footswitches/buttons,expression,used/new IDR,simultaneous blocks versus algorithm choices,ports,presets,synth/acoustic functions,dimensions/weight,power/battery/USB,IR/native-versus-converted NAM/proprietary captures,editor platforms and screen size/color/touch. Looper,drums,scenes,routing,headphones,phantom and special pickup requirements remain included where documented.
+The [research ledger](research-state.json) records source provenance, model commits, historical checkpoints, exact next tasks and unresolved fields. Brand documents hold technical evidence; the instrument pages compare eligible models across hardware, processing/memory, I/O-power-software and separate IDR tables.
 
 ## What remains
 
-**Next work: audit legacy-source preservation and comparison field coverage, continue fresh Shopee discovery by brand/series, and resolve remaining technical fields.** G2 FOUR andG2X FOUR now preserve full legacy records plus current manual looper/USB/processing limits. G6,G1 FOUR andG1X FOUR are now root-canonical with their original evidence dates and complete legacy facts preserved. Standard GS1000 is recorded separately from Li, including bass/microphone routing and native A2 Lite versus converted A1 NAM. GE300 is recorded with converted NAM and firmware-qualified IR capacity. HeadRush Prime is now recorded, including native NAM architecture limits and six recording/four playback USB channels. The ALL-* comparison rebuild and HX Effects consolidation are saved; GP-200JR is recorded and must not be added again. Exact Shopee item links and price/stock qualifications are in root **[research-state.json](research-state.json)**. When the saved queue is exhausted, search Shopee again by brand/series rather than declaring the market complete.
+Technical verification and Shopee discovery remain incomplete. The ledger’s current cursor identifies the next task; a missing field means unverified, not No. Cached asking prices do not establish live stock.
 
-The inventory includes113 recovered models, the four initial additions, newer FX150/Cerberus/Sonic Wood commits and GP-200JR. Older96/104/117 counts and old cursors in legacy files are stale. The BOSS guitar display/IDR first pass was already saved; six original comparison groups still have unfinished corresponding work. A first pass is not full verification.
-
-**Organization migration is incomplete:** 349 detailed models are root-canonical; 0 still rely on legacy source records. The instrument pages are now actual comparisons, not navigation-only indexes, but they do not replace lossless brand consolidation. Dedicated-effect archives were moved with full facts, dates, URLs and contradictions preserved; their old section anchors redirect to the root SINGLE-* pages. All 117 original legacy paths are accounted for: 114 Markdown compatibility files remain (13 metadata pages, 100 technical pages and one previously redirected excluded archive). The three JSON pointer files were removed after exact typed reconstruction of their original snapshots in the root ledger; rollback metadata is retained. Their complete content is preserved in root documents/ledger and pinned Git history. Local navigation and original heading anchors have been audited; compatibility files remain, so the overall migration is not marked complete. Technical verification and market discovery remain incomplete.
+**Organization migration is incomplete:** 349 detailed models are root-canonical; 0 still rely on legacy source records. Compatibility files retain historical paths and anchors. Preservation checks do not certify technical specifications, current stock or exhaustive market coverage. See the ledger for preservation manifests, rollback metadata and remaining migration work.
 
 ## Scope and ownership
 
