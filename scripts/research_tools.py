@@ -471,7 +471,7 @@ def main():
         if mode == 'commit-hxe-price':
             message = 'research(line6): qualify HX Stomp ports and Windows ARM support'
         if mode == 'commit-criticalmass':
-            message = 'research(tchelicon): distinguish Critical Mass supply and reverb controls'
+            message = 'research(tchelicon): qualify Critical Mass environment and optional supply'
         if mode == 'commit-b21u':
             message = 'research(discovery): record BOSS Roland rack search exclusions'
         if mode == 'commit-katana-go':

@@ -1084,6 +1084,15 @@ Checked2026-10-18 against the [2017 manufacturer manual,pp3,5](https://www.handl
 | Power / supply versus consumption | The specifications explicitly label **9V/670mA as Power Supply** and **6W as Power Consumption**. Do not relabel670mA as measured device current orderive an exact operating current from6W. The QSG’s >300mA recommendation remains separately preserved;polarity andcurrent under different operating conditions remain unverified. |
 | Processing / reverb control | One knob selects among **three reverb types andtheir amount**,running fromRoom toHall. The middle type isnot named in the inspected prose. Turning within a type changes prominence;fully counterclockwise disablesreverb. This doesnot establish three simultaneously available reverb blocks orindependent type/amount controls. |
 
+### Critical Mass — operating limits and supply bundle,2026-10-18
+
+| Field | Exact-model evidence / qualification |
+|---|---|
+| Power / optional adapter identity | [Official product document,indexedp3](https://mediadl.musictribe.com/media/PLM/data/docs/P0CGT/TC%20Helicon_CRITICAL%20MASS%20P0CGT_Product%20Information%20Document.pdf) explicitly names **optionalPOWERPLUG9** or battery operation. [Own2017manual,p3–4](https://www.handleiding.guide/pdf/817823) says9Vpowercable notincluded. This is manufacturer-package documentation,not verification ofaShopee bundle;polarity remainsunverified fromthese sources. |
+| Power / operating environment | [Ownmanual,p5](https://www.handleiding.guide/pdf/817823):operation **0–50°C**,storage **−30–70°C**,maximumhumidity **90% non-condensing**. These are publishedlimits,not measured battery runtime orheat performance. |
+| Live / bypass recovery | [Ownmanual,p3](https://www.handleiding.guide/pdf/817823) saysa tap resumes normalfunction afterholdingthefootswitch bypassesgroupandreverb. No exactholdtime orTonebypassstate isestablished;donot treat thisas programmable scene recall. |
+
+
 ## VoiceLive Touch 2
 
 Distinct from original Touch and VoiceLive Play. Checked2026-10-18;partial. Reference manual v1.2 targets firmware1.0.02 build37; current firmware unverified. Official PDF endpoints returned502; mirrored manufacturer document bodies used,not generated summaries. Ownership unverified.
