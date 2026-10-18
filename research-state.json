@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DigiTech RP500",
-    "task": "Saved AUXplaybackscope,6namedreverbs andhistoricalLE4DVDqualification. Primarydry/reamp/AUXUSB/currentOSstillunverified. Next freshShopeediscovery orotherrequiredmodelgaps.",
+    "model": "Roland GR-33 discovery lead",
+    "task": "Primary manufacturer establishes independent effect processors but synth-only processing. Exact Shopee hardware item unresolved; no active addition or price assigned. Resolve exact offer and English manual routing before classification.",
     "next_models": [],
-    "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
+    "after_queue": "349 partial active models; continue required model gaps and lossless legacy consolidation. No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -76055,5 +76055,24 @@
     ],
     "result": "Noqualifiednewexacthardwaremodel;GNXadapters/nonmusicalmatchesrejected",
     "unreviewed_lead": "GR33 synth title in GNX category; exact item,eligibility and multi-effects architecture unverified; no price assigned and not active"
+  },
+  "discovery_gr33_20261018": {
+    "checked_date": "2026-10-18",
+    "status": "Unresolved exact Shopee hardware lead; not active and no assigned price",
+    "queries": [
+      "site:shopee.co.id \"GR 33\" roland synthesizer",
+      "site:roland.com \"GR-33\" \"normal guitar\" effects",
+      "site:roland.com \"GR-33\" \"40\" \"effects\""
+    ],
+    "market_evidence": "No exact item returned by this search. Direct GNX category access cache miss; previous category title is only a discovery lead. Search failure does not establish market absence.",
+    "architecture": {
+      "source": "https://www.roland.com/latinamerica/products/gr-33/accessories/",
+      "finding": "Manufacturer specifies 40 selectable insert Multi-FX plus dedicated chorus and reverb, with optional divided pickup required. These are effect choices, not 40 simultaneous blocks."
+    },
+    "routing": {
+      "source": "https://www.roland.com/RolandComSite/media/pl/media/pdf/GR-33.pdf",
+      "finding": "Manufacturer Polish manual explicitly restricts the effects to internal synth generation; normal guitar and external sound modules cannot be processed. English original PDF opened as 130 pages but exposed no searchable text in this pass; no visual inspection claimed."
+    },
+    "next": "Resolve exact Shopee item/seller and verify English manual signal path. Evaluate eligibility against independent multi-effects architecture with synth-only restriction explicit; do not infer ordinary guitar-input processing or bass support."
   }
 }
