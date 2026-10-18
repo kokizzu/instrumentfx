@@ -576,3 +576,29 @@ The Hotone Japan SONICAKE listing identifies QCE-10 and independently repeats 13
 
 [RS-J]: https://www.hotone.jp/brands/sonicake/products/rockstage
 [RS-M]: https://cdn.shopifycdn.net/s/files/1/0100/1950/4185/files/Rockstage-User_Manual.jpg?v=1647482298
+
+## Levitate QDS-02
+
+Checked 2026-10-18; partial. [Sonicake's exact product](https://www.sonicake.com/products/levitate) identifies QDS-02 and digital delay plus plate reverb, supporting dual-effects eligibility. [Linked original manual image](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/QDS-2.jpg?v=1676949363) returned no visible/readable content in browser tool;not inspected. No sibling facts transferred.
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in/external/toe support unverified. |
+| Physical controls / K/F/B | Separate rotary/footswitch/button census pending original-panel inspection. |
+| Display | Diagonal,color/monochrome,touch andscreen presence unverified. |
+| Processing / category choices | **Digital delay+plate reverb**,one named algorithm each;delay maximum **2000ms**. Independent dry/wet delay adjustment. Exact routing andsimultaneous ceiling beyond these two unresolved. |
+| Memory / factory / user | Unverified. |
+| Synth / acoustic | Dedicated synthesis/acoustic simulation unverified. Bass suitability unclassified. |
+| Dimensions / mass | **124D×90W×54.8H mm;371g**. |
+| Power / battery / USB | **9VDC,5.5×2.1mm center-negative,92mA** published power figure;adapter excluded frommanufacturer package. Battery/USB operation unverified. |
+| I/O | Published input impedance470kΩ,output resistance1kΩ. Completeconnector inventory anddedicated headphones unverified. Manufacturer FAQ describesmono headphone use butdoesnot recommendit;notproof ofdedicated headphone socket. |
+| IR / NAM / captures | IR,nativeNAM,convertedNAM andproprietary capture loading unverified. |
+| Editor / software | Editor platforms,updater,USB audio/MIDI unverified. |
+| Looper / drums / scenes | Unverified. |
+| Live / bypass | Taptempo,trails andbuffered bypass documented. Precise switching sequence/manualrevision pending. |
+| Price / condition-unverified IDR | **Rp1.063.000**, [Seven Stereo Music & Audio Store,shop16879370/item27737519849](https://shopee.co.id/Sonicake-LEVITATE-Digital-Delay-Plate-Reverb-Guitar-Pedal-i.16879370.27737519849),KotaBandung;checked2026-10-18,two-week indexedbody withstale4–5Oct delivery. Condition/stock/bundle/warranty unverified;Rp10.000 late-delivery compensation notdiscount. |
+| Price / sold-out IDR | **Rp649.500,Habis**, [MICKEY MOUSE SHOP,shop19700013/item24354101635](https://shopee.co.id/Efek-Gitar-SONICAKE-Levitate-Delay-Reverb-Tap-Tempo-Dual-Effects-Pedal-i.19700013.24354101635),JakartaPusat;checked2026-10-18,five-month body,shoponholiday/serviceunavailable. Condition/bundle/warranty unverified. |
+| Price / new IDR | No condition-verified new offer established. |
+| Price / used IDR | No separate used offer established. |
+
+Remaining:originalmanual/panel,controls,expression,display,memories,completeI/O andloading/software;freshsellercondition/stock. Mixed-modelRp450.000 category result rejected as unresolved variant price. No download,installation orhardware test.

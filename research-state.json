@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 339,
+  "active_model_count": 340,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 339,
+  "canonical_root_model_count": 340,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "339 unique active/root-canonical;0 legacy-only;39 brands;six excluded;all partial.",
+  "count_reconciliation": "340 unique active/root-canonical;0 legacy-only;39 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "NUX Atlantic NDR-5",
-    "task": "Power polarity andoptionaladapter rating corroborated;actualdraw andTRS semantics unresolved. Resume freshShopee discovery,including distinctMG30MKII lead if exacthardwareoffer exists.",
+    "model": "Sonicake Levitate QDS-02",
+    "task": "Partial model admitted;recover original manual/panel andcomplete unresolved fields orresume freshShopee discovery. MG30MKII exactoffer remainsunestablished.",
     "next_models": [],
-    "after_queue": "339 partial unique models;117 compatibility paths retained.No downloads/workflows/push."
+    "after_queue": "340 partial unique models;117 compatibility paths retained.No downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24241,6 +24241,13 @@
         "eligibility": "Independent dual delays plus reverb; configurable serial/parallel routing supports multi-effects eligibility, not a mere preset/mode count."
       },
       "next": "Read exact original manual fully; resolve all required fields, then admit one distinct II model into MOOER.md, inventory and all guitar comparison tables. Do not transfer original Ocean Machine specifications or infer bass membership."
+    },
+    {
+      "checked_date": "2026-10-18",
+      "models": [
+        "NUX MG-30 MKII / Gen2"
+      ],
+      "finding": "Three exact Shopee searches returned originalMG30,MG300MKII,accessories andcategoryresults;no exactGen2 hardware item established. Notabsenceproof andnotadmitted."
     }
   ],
   "inventory_by_brand": {
@@ -24458,7 +24465,8 @@
       "Matribox II Pro QME-200",
       "Sonic Wood QCE-50",
       "Black Hammer QCE-30",
-      "RockStage QCE-10"
+      "RockStage QCE-10",
+      "Levitate QDS-02"
     ],
     "TC-Helicon": [
       "VoiceLive Play",
@@ -24869,7 +24877,8 @@
       "Matribox II Pro QME-200",
       "Sonic Wood QCE-50",
       "Black Hammer QCE-30",
-      "RockStage QCE-10"
+      "RockStage QCE-10",
+      "Levitate QDS-02"
     ],
     "M-VAVE.md": [
       "TANK-G",
@@ -25083,7 +25092,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 284,
+      "record_count": 285,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -25113,10 +25122,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 284 guitar, 146 documented bass-capable, 66 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 285 guitar, 146 documented bass-capable, 66 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "339 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "340 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/research-state.json",
       "effects/RESUME.md",
@@ -45431,10 +45440,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 339,
-    "canonical_root_models": 339,
+    "unique_brand_model_pairs": 340,
+    "canonical_root_models": 340,
     "legacy_only_models": 0,
-    "guitar_view_models": 284,
+    "guitar_view_models": 285,
     "bass_focused_models": 30,
     "vocal_only_models": 24,
     "vocal_view_models": 66,
@@ -45494,7 +45503,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX Atlantic NDR-5."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Sonicake Levitate QDS-02."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -45653,6 +45662,7 @@
       "Sonicake::Sonic Wood QCE-50",
       "Sonicake::Black Hammer QCE-30",
       "Sonicake::RockStage QCE-10",
+      "Sonicake::Levitate QDS-02",
       "TC-Helicon::Play Acoustic",
       "TC-Helicon::VoiceLive 3 Extreme",
       "TC-Helicon::PERFORM-VG",
@@ -47493,6 +47503,13 @@
     },
     "Sonicake::RockStage QCE-10": {
       "link": "SONICAKE.md#rockstage-qce-10",
+      "source_files": [
+        "SONICAKE.md"
+      ],
+      "finding_files": []
+    },
+    "Sonicake::Levitate QDS-02": {
+      "link": "SONICAKE.md#levitate-qds-02",
       "source_files": [
         "SONICAKE.md"
       ],
