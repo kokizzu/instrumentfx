@@ -1436,6 +1436,12 @@ Checked **2026-10-17**; partial. Manufacturer styles the name PODxt Live. Guitar
 | Processing / acoustic model purpose | **Piezacoustic 2** voices piezo-equipped solidbody guitars with stronger lows/low-mids. **Variax Acoustic** boosts high frequencies to compensate for typical guitar-speaker roll-off when using Variax acoustic sounds; Drive adds tube-preamp gain. These descriptions establish input/playback voicing, not magnetic-pickup acoustic-body simulation. [Manual v3][XTL-M], pp5•3–4 |
 | Memory / MIDI recall | Appendix B maps MIDI Program Changes **0–127** to **1A–32D**, corroborating 128 recallable memories. This does not resolve the conflicting factory-fill descriptions. [Manual v3][XTL-M], p8•3 |
 
+
+| Required field | Category evidence checked 2026-10-18 |
+|---|---|
+| Category choices / reverb and wah | RevC descriptions enumerate **15 reverbs**, divided into five families of three: spring,room,hall,chamber and plate. Manual explicitly states **8 wah models**. These are alternative choices within their categories, not 23 simultaneous effects or a complete reconciliation of the product’s 95-effect claim. Installed firmware/model availability still needs checking on a seller unit. [Manual v3][XTL-M], pp6•18–19,6•39–41 |
+| Processing / synth behavior | Double Bass uses pitch-following square and saw oscillators one and two octaves below input. Synth Harmony supplies two interval-based synth waves with separate saw gain; Synth Lead is described as monophonic analog-style synthesis. Synth String brightness responds to picking strength. These descriptions do not establish polyphonic tracking for the entire synth collection or MIDI-note conversion. [Manual v3][XTL-M], pp6•16–17 |
+
 <!-- comparison evidence ends -->
 
 ### Exact Shopee hardware evidence
