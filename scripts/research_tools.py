@@ -631,7 +631,7 @@ def main():
         if mode == 'commit-vl3x':
             message = 'research(tc-helicon): reconcile VL3X complete vocal and guitar block lists'
         if mode == 'commit-b3':
-            message = 'research(zoom): qualify B3 loop format and published noise ratings'
+            message = 'research(zoom): qualify B3 category-linked seller-used hardware ask'
         if mode == 'commit-g3':
             message = 'research(zoom): document G3 battery settings eco behavior and tuner modes'
         if mode == 'commit-me20':

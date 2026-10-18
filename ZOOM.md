@@ -2366,6 +2366,13 @@ Original bass multi-effects, distinct from B3n. Checked2026-10-17; partial. Disc
 | Used | Unknown; no exact condition-verified used ask established. | — |
 | New | Unknown; no exact condition-verified new ask established. | — |
 
+
+### B3 — category-linked seller-labelled used ask, 2026-10-18
+
+| Field | Evidence / qualification |
+|---|---|
+| IDR / seller-labelled used category evidence | **Rp1.999.999**,shop1220839369/item41075001096,linked variation282026540893,**Kab.Sragen**. [Shopee Zoom category](https://shopee.co.id/search?category=11043572&keyword=efek+gitar+zoom&page=3&sortBy=relevancy&subcategory=11043648),last-month reader cache,explicitly labels originalB3 **SECOND/BEKAS** and links [this exact item](https://shopee.co.id/EFEK-BASS-EFEK-BASS-SECOND-EFEK-BASS-BEKAS-EFEK-GITAR-SECOND-EFEK-GITAR-BEKAS-ZOOM-B3-EFEK-GITAR-ZOOM-EFEK-ZOOM-B3-BEKAS-ZOOM-B3-ZOOMB3-i.1220839369.41075001096). Direct variation retrieval again returned cache miss. This adds category-level used-title andregion evidence to the earlier shop-only lead;not physical condition verification. Seller name fromthis category,stock,selected variation contents,working state,adapter/bundle,warranty,voucher,shipping/tax andcheckout remain unknown. Not a qualified live used-market range,new price orcompleted sale. Earlier pending-verification note remains historical; direct item verification is still outstanding. |
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified historical hardware ask
