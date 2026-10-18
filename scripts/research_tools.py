@@ -862,7 +862,7 @@ def main():
         elif mode=='commit-prime':
             subject='research(headrush): add Prime with native NAM limits and qualified used retail evidence'
         elif mode=='commit-ge300':
-            subject='research(mooer): retain qualified Ocean Machine II hardware discovery'
+            subject='research(mooer): admit Ocean Machine II with manual-qualified comparisons'
         elif mode=='commit-gs1000':
             subject='research(mooer): document GS1000 electrical interface limits'
         elif mode=='commit-b1xon':

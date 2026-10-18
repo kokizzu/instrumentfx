@@ -1800,10 +1800,35 @@ Checked2026-10-18 against [MOOER Japan/LEP's exact S1 tutorial](https://mooer.jp
 
 NAM followup found explicit native/converted distinctions for other MOOER families,butnotS1. Do not transfer GE1000/GS1000 nativeA2Lite orGE300 conversion claims. The existing Chinese S1/M1 NAM A2 announcement remains qualified;its exact architecture,conversion andfile constraints are unresolved. No software,files orfirmware downloaded orrun.
 
-## Ocean Machine II — qualified discovery pending full record
+## Ocean Machine II
 
-Checked 2026-10-18; **not yet included in active counts or comparison tables**. Original Ocean Machine is a distinct revision.
+Checked 2026-10-18; partial active guitar multi-effects record. Original Ocean Machine is a distinct revision.
 
 [Exact Shopee hardware offer](https://shopee.co.id/Mooer-Ocean-Machine-II-Devin-Townsend-Signature-Dual-Delay-Reverb-Pedal-i.96878449.44405143297): Nafiri Music Store, shop96878449/item44405143297, Kota Jakarta Utara; **Rp4.096.000**, two-month cached body. Condition, stock, bundle and warranty unverified. Relative delivery promise is not stock proof; Rp10.000 late-arrival compensation is not a purchase discount.
 
-[MOOER product](https://www.mooeraudio.com/products/206.html) documents independent dual delays plus reverb and configurable serial/parallel routing: evidence for multi-effects eligibility. It advertises 12 knobs, three footswitches, external TRS expression, 24 presets/eight banks, 120-second looper, stereo I/O, MIDI In/Thru and USB-C firmware updates. Published body:215×127×56mm,1.1kg,9VDC. USB audio/power, display diagonal/color/touch, separate buttons, factory/user split, polarity/current, synth/acoustic, IR/NAM/captures and editor remain unresolved. Full original manual and field audit must precede active admission; bass suitability is unclassified.
+[MOOER product](https://www.mooeraudio.com/products/206.html) documents independent dual delays plus reverb and configurable serial/parallel routing: evidence for multi-effects eligibility. It advertises 12 knobs, three footswitches, external TRS expression, 24 presets/eight banks, 120-second looper, stereo I/O, MIDI In/Thru and USB-C firmware updates. Published body:215×127×56mm,1.1kg,9VDC. USB audio/power, display diagonal/color/touch, separate buttons, factory/user split, polarity/current, synth/acoustic, IR/NAM/captures and editor remain unresolved. The initial discovery gaps below are superseded where the subsequent manual audit resolves them; bass suitability remains unclassified.
+
+### Ocean Machine II — original manual audit
+
+[Manufacturer-authored manual, mirrored PDF](https://manuals.plus/m/cf9989c8f66e3263a8a62903b0f180f428d853ad786400f9921e4b3cb47d8d83_optim.pdf), 29 PDF pages, V2.7-20240417. Cover/body identify Ocean Machine II despite host metadata saying P2. Read original text, not generated FAQs. [Alternate manual specifications](https://www.manualslib.com/manual/3603090/Mooer-Ocean-Machine-Ii.html?page=26) corroborate interfaces/power. No visual panel inspection claimed.
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | No built-in pedal in full control inventory; external TRS EXP,10–50kΩ. Global parameter assignment with heel minimum and heel/toe calibration. Toe-switch support unverified. |
+| Physical controls / K/F/B | **16 rotary /3 footswitches /4 buttons**, text-derived:12 parameter knobs+Menu+Reverb/DelayA/DelayB selectors;REV/A/B;Home/Setting/Store/Looper. Encoder press counted once. Published12-knob shorthand counts parameter knobs only. |
+| Display | LCD; color indicated by manual's blue/red selection frames. Diagonal andtouch unverified. |
+| Dimensions / mass | 215L×127W×56H mm;1.1kg. |
+| Processing / simultaneous | Two independently switchable delay modules plus reverb,with looper/globalEQ. Reorderable serial/parallel effects;looper serial only. Nine choices per delay,15 distinct delay algorithms across both;9reverbs+shimmer. Delays0–2s. |
+| Memory / factory / user | **24 writable slots,8banks×3**;factory-filled count unresolved. Unsaved edits lost onpreset change. |
+| Synth / acoustic | Pitch/modulation delay textures are not proof of dedicated synth/acoustic simulation;both unresolved. Bass membership unclassified. |
+| I/O / audio | Stereo¼-inch TS inputs1MΩ/outputs100Ω;TRS EXP;5-pin MIDI In/Thru;DC;USB-C. No dedicated headphones orsend/return infull rear inventory;amplifier-loop use employs mainI/O. 24bit/44.1kHz. |
+| Power / battery / USB | **9VDC center-negative,500mA adapter rating**;measured draw unresolved. Battery/USB-powered operation unverified. |
+| IR / NAM / captures | Loading IR,nativeNAM,convertedNAM andproprietary captures unverified. |
+| Editor / platforms | USB-C firmware updater documented;full editor,OS support,USB audio/MIDI unverified. Updates reset presets/settings. |
+| Looper / drums | 120s,overdub,half-speed,reverse;movable chain position. Drums unverified. Product advertises undo/redo,but inspected manual's operation does not establish controls forit. |
+| Live / routing | Play/Patch modes;Patch tap requires optionalF4. DSP-only trails;mono-in/stereo-out forcesDSPbypass. Merge preserves tails overeffect/preset changes. Scenes unverified. |
+| Price / condition-unverified IDR | **Rp4.096.000** — [Nafiri Music Store,shop96878449/item44405143297](https://shopee.co.id/Mooer-Ocean-Machine-II-Devin-Townsend-Signature-Dual-Delay-Reverb-Pedal-i.96878449.44405143297),Kota Jakarta Utara;checked2026-10-18,two-month cached body. Condition/stock/bundle/warranty unverified;late-delivery compensation not purchase discount. |
+| Price / new IDR | No condition-verified new offer established. |
+| Price / used IDR | Unverified;no separate used offer established. |
+
+Remaining:visual corroboration,diagonal/touch,factory fill,actual draw,battery/USB capabilities,editorOS,loading formats,undo/redo revision andfresh stock/condition. Product/manual are revision-qualified;none were run ordownloaded.
