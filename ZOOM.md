@@ -4520,3 +4520,15 @@ Checked 2026-10-19 against indexed [manufacturer manual pp3,22,51](https://zoomc
 | Processing / module identity | Eight named modules:COMP,EFX,ZNR,DRIVE,EQUALIZER,MODULATION,DELAY,REVERB. EQ low/mid andhigh editing positions do not establish two independently assignable EQ modules. |
 
 Complete category-choice census,physical control totals andcurrent host compatibility remain unresolved. No downloads.
+
+### G2Nu — text-derived controls and compressor choices
+
+Checked 2026-10-19 against indexed [manufacturer family manual pp4–5,8,34](https://zoomcorp.com/media/documents/G2Nu_G21Nu_0.pdf). G2Nu-specific Part Names is separate from G2.1Nu's treadle panel. Full PDF exceeds reader size limit; no visual count certified.
+
+| Field | Evidence / qualification |
+|---|---|
+| Knobs / footswitches / buttons | **4 rotary /2 footswitches /7 top-panel keys**, derived from named controls: module selector+three parameter knobs;down/up footswitches;two EFFECT TYPE/BANK keys,STORE/SWAP,DIRECT,RHYTHM,TAP,USB/GLOBAL. Rear POWER switch separate;GAIN/TONE/LEVEL are alternate parameter-knob labels,not three extra knobs. Physical-image corroboration pending. |
+| Processing / COMP category | **3 choices:** COMP,RackComp,M Comp. Sensitivity/threshold,attack,ratio andlevel settings are parameters,not extra algorithms. Remaining83-type reconciliation unresolved. |
+| Live / startup and edits | Startup enters Play regardless of selector position. Changed parameters require saving before selecting another patch or they are lost. Master level applies across patches;per-patch volume remains separate. |
+
+The indexed EFX page establishes AutoWah,Resonance,Booster,Tremolo as a partial list only;no complete EFX count inferred. G2.1u search results rejected as a different model.

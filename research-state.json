@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G2Nu",
-    "task": "G2Nu memory/rhythm/module identities saved. Next exact physical control totals and83-type category census;current OS/qualified IDR unresolved.391partial;migration incomplete.",
+    "task": "G2Nu text-derived4/2/7 controls andCOMP3 saved. Next full category census83 reconciliation;find readable manufacturer-authored manual body if indexed pages insufficient. No repeated full-PDF size-limit attempts.391partial;migration incomplete.",
     "next_models": [
       "Zoom::G2Nu"
     ],
@@ -121270,5 +121270,21 @@
       "eight named modules"
     ],
     "qualification": "200 locations not200unique factory sounds;6Per8 source labels3/4 retained."
+  },
+  "g2nu_controls_comp_20261019": {
+    "source": "https://zoomcorp.com/media/documents/G2Nu_G21Nu_0.pdf",
+    "pages": "4–5,8,34",
+    "controls": {
+      "rotary": 4,
+      "footswitch": 2,
+      "top_buttons": 7
+    },
+    "qualification": "Derived from named indexed controls;visual corroboration pending. Rear POWER separate;alternate labels not extra knobs.",
+    "comp_choices": [
+      "COMP",
+      "RackComp",
+      "M Comp"
+    ],
+    "remaining": "Other category totals/83 reconciliation; indexed EFX subset not complete."
   }
 }
