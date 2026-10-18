@@ -3688,7 +3688,7 @@ Acoustic fixed-chain processor; partial, checked 2026-10-18. Included for distin
 | Display | CHECK/battery indicator; screen diagonal/color/touch not specified. |
 | Processing / categories | Acoustic Resonance, Ambience reverb and notch filtering; fixed controls, not a selectable multi-model library. Numeric simultaneous-block count unpublished. |
 | Memory | Factory/user/total preset memory unverified. |
-| Synth / acoustic | Acoustic-electric resonance restoration; electric-to-acoustic simulation and synth unverified. |
+| Synth / acoustic | Acoustic-electric resonance restoration, optimized for piezo pickups. [Roland distinguishes AD-2 from AC-3](https://support.roland.com/hc/ja/articles/4404893445403): AD-2 restores acoustic input tone; AC-3 converts electric guitar tone. Do not classify AD-2 as an electric-to-acoustic simulator. Synth remains unverified. |
 | Dimensions / mass | **73W×129D×59H mm;420g including battery**. |
 | I/O | INPUT,OUTPUT ¼-inch; balanced LINE OUT ¼-inch TRS;DC IN. USB/MIDI absent from published inventory. |
 | Power | 9V alkaline6LR61 or optional PSA;65mA;approximately5h battery,condition-dependent. Polarity/USB power unverified. |
@@ -3698,5 +3698,7 @@ Acoustic fixed-chain processor; partial, checked 2026-10-18. Included for distin
 | IDR price | [Indexed Shopee offer](https://shopee.co.id/Boss-AD-2-AD2-Acoustic-Preamp-Guitar-Acoustic-Effect-i.16879370.651392518): **Rp2,150,500**,Seven Stereo Music & Audio Store,Bandung;seller16879370/item651392518. Checked2026-10-18;index crawled roughly2months earlier,delivery dates19–22August. New/used condition,live stock,bundle,warranty andcheckout voucher unverified;late-delivery compensation isnot an immediate price discount. No qualified used ask. |
 | I/O / routing and mute | [Manufacturer Portuguese manual,revision02,©2016](https://static.roland.com/assets/media/pdf/AD-2_M_ptb02_W.pdf),translated text,checked2026-10-18: holdfootswitch≥2s tomute;CHECKflashes,pressagain tounmute. INPUT insertion powersunit;unplug whenunused. LINE OUT isbalancedmono,explicitly notheadphones. Holdpedal duringpower-on,adjustAMBIENCE,release tofinish: reverb canfeedbothoutputs orOUTPUTonly. Exactknobpositions/pinout needvisualverification. |
 | Power / source priority | Same manual: PSAadapter takespriority overinstalledbattery;retainingbattery allowscontinuedoperation ifadapter disconnects. Thisdoesnot establishUSBpower orDCplugpolarity. |
+| Acoustic / pickup compatibility | [Exact-model Roland support](https://support.roland.com/hc/ja/articles/4404885412763), updated 2025-01-24: non-piezo pickups may yield a weaker effect. [Simulator-input qualification](https://support.roland.com/hc/ja/articles/4404885409691): feeding AC-3 or similar simulated acoustic output may not achieve the intended result; guitar, pickup and tone settings can make processing too weak or excessive. Translated Japanese manufacturer text, checked 2026-10-18. |
+| I/O / output voicing | [Roland output FAQ](https://support.roland.com/hc/ja/articles/4404885409179), updated 2025-01-24: OUTPUT is voiced primarily for acoustic guitar amplifiers and carries Ambience, Notch and Acoustic Resonance. LINE OUT targets PA/stage amplification and can omit Ambience for mixer-side reverb; these are not simply two identical sockets. |
 
 <!-- comparison evidence ends -->

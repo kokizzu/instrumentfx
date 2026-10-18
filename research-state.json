@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS AD-2",
-    "task": "Saved own Portuguese manual revision02 mute timing, input power switching, mono balanced LINE OUT/headphone distinction, ambience output selection and adapter/battery priority. Next visual pinout/polarity and memory scope; then fresh Shopee discovery.",
+    "task": "Saved manufacturer distinction between AD-2 acoustic restoration and AC-3 simulation, piezo/non-piezo qualifications, simulated-input caveat and output voicing. Power polarity/pinout and memory remain unresolved; next fresh Shopee discovery rather than repeat routing audit.",
     "next_models": [],
     "after_queue": "372active/46brands;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
   },
@@ -81285,5 +81285,14 @@
     "source": "https://static.roland.com/assets/media/pdf/AD-2_M_ptb02_W.pdf",
     "identity": "Manufacturer Portuguese AD-2 manual,revision02,2016;translated text,not visual audit.",
     "result": "Saved mute/routing/input-power and adapter priority. Knobpositions,pinout,DCpolarity and presetmemory remain unresolved."
+  },
+  "ad2_primary_support_20261018": {
+    "sources": [
+      "https://support.roland.com/hc/ja/articles/4404893445403",
+      "https://support.roland.com/hc/ja/articles/4404885412763",
+      "https://support.roland.com/hc/ja/articles/4404885409691",
+      "https://support.roland.com/hc/ja/articles/4404885409179"
+    ],
+    "finding": "Japanese manufacturer support narrows acoustic restoration, pickup compatibility and output voicing. No power polarity evidence obtained."
   }
 }
