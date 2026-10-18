@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "MOOER GE200 Pro",
-    "task": "Saved looper Undo/Redo/view-exit behavior andselectivereset scopes. Factoryfill stillunknown;next differentmodel orShopee series, no assumptions about loop poweroff/presetpersistence.",
+    "model": "TC Electronic PLETHORA X3",
+    "task": "Saved positivepreinstalledTonePrint evidence withunknownfillcount,Boardmenus andmono wiring. X5looper capacity notborrowed. Next differentbrand/series orrequiredmodelgap.",
     "next_models": [],
     "after_queue": "353 partial models;294 guitar155 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
@@ -45771,7 +45771,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume MOOER GE200 Pro."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC Electronic PLETHORA X3."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -77464,5 +77464,30 @@
       "Displaytouch",
       "Exactvariant currentoffers"
     ]
+  },
+  "technical_followup_plethorax3_factory_board_20261018": {
+    "source": "https://www.adorama.com/col/productManuals/TC79AIS861.pdf",
+    "identity": "OwnPLETHORAX3V0.0©2022 quickguide,printed18–21.",
+    "findings": [
+      "SomeTonePrintspreinstalled;countnotstated.",
+      "EDITBoardUpCreateDuplicate/DownDeleteClear.",
+      "Mono labelledTSconnections;noheadphoneoutputinferred."
+    ],
+    "rejected_sibling": "X5-only1.2.18release40sstereo/80smono notassignedtoX3.",
+    "remaining": [
+      "ExactfactoryfilledTonePrint/Boardcounts",
+      "X3looper duration",
+      "Displayphysicalspecs",
+      "Currentconditionqualifiedoffers"
+    ]
+  },
+  "discovery_other_brands_20261018": {
+    "queries": [
+      "Shopee HarleyBenton DNAfx",
+      "Shopee Rocktron Utopia",
+      "Shopee RogerMayer multi",
+      "Shopee DNAFX"
+    ],
+    "result": "No exact eligible hardware lead established; no models added."
   }
 }

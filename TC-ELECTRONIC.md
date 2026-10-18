@@ -107,6 +107,16 @@ Checked2026-10-18.
 | I/O / bypass specification | Own-model quick guide V0.0,printedp63,lists **True Bypass**. This is a manufacturer specification,not a measured bypass test orproof of trails/power-failure behavior. [Manufacturer-authored copy][PX3-QM] |
 | Category choices / exact base names16 | HELIX PHASER;VISCOUS VIBE;TAPE DECK LOOPER;HALL OF FAME2 REVERB;FLASHBACK2 DELAY;SUB N UP OCTAVER;BRAINWAVES PITCH SHIFTER;CORONA CHORUS;HYPERGRAVITY COMPRESSOR;MIMIQ DOUBLER;VORTEX FLANGER;PIPELINE TAP TREMOLO;QUINTESSENCE HARMONY;SENTRY NOISE GATE;SHAKER VIBRATO;ALTER EGO VINTAGE ECHO. These are the own-model product page’s16base entries already counted above,not16simultaneous effects;laterInfinite addition remains separate. [Exact manufacturer product][PX3-P] |
 
+### PLETHORA X3 — factory content and Board operations, 2026-10-18
+
+[Own V0.0 quick guide, printed pp18–21][PX3-QM]; manufacturer-authored text, no software or device operation.
+
+| Field | Documented scope / qualification |
+|---|---|
+| Memory / initial TonePrint content | The guide explicitly says **a selection of TonePrints is pre-installed**. It gives no filled-slot count and does not say all75 slots per effect or127 Board locations are factory-filled. TonePrint assignments include parameter values and knob/MASH mappings; they are not extra simultaneous effects. |
+| Memory / Board management | In EDIT, BOARD UP opens **CREATE/DUPLICATE**; BOARD DOWN presents **DELETE/CLEAR** for the current Board. This confirms management functions, without assigning an undocumented difference between Delete and Clear or adding memory capacity. |
+| I/O / mono connection | For mono operation use only each pair’s **MONO input and MONO output**; both TS jacks provide stereo connections when used together. This does not establish a dedicated headphone output or balanced TRS operation. |
+
 <!-- comparison evidence ends -->
 
 Checked2026-10-17; historical indexed asks, not current stock/checkout. Condition,variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers unresolved. No download or visual inspection claimed.
