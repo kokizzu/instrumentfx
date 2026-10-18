@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Tech 21 Acoustic Fly Rig",
-    "task": "Effect/input qualifications saved. Next othermodelgaps orfreshdiscovery;no exact Shopeeoffer established forAcoustic/BassFlyRigv2.",
+    "task": "Acoustic Fly Rig research saved;stale RP500 resume alias archived. Next fresh eligible Shopee discovery or another required-model gap; do not follow historical cursors.",
     "next_models": [],
     "after_queue": "378 active models,46 brands,all partial;114 compatibility Markdown files remain;no downloads/workflows/push."
   },
@@ -46292,6 +46292,12 @@
       "regression": "make comparison-test-selection: missing guard failed first; matching content passes and stale guitar/bass/vocal content fails even when membership is unchanged.",
       "verified": "make comparison-verify passed against current372-model catalogue.",
       "remaining": "Checks faithful extraction/rendering, not primary-source truth, completeness or stock."
+    },
+    "continuation_cursor_regression": {
+      "checked_date": "2026-10-18",
+      "before": "make research-verify rejected deprecated live resume_cursor",
+      "after": "Only cursor is authoritative;duplicate aliases rejected even when currently equal;historical data permitted.",
+      "scope": "Continuation integrity only;no model evidence,counts orverification completeness changed."
     }
   },
   "legacy_provenance": "Earlier exact per-model commits, detailed conflicts, templates and original source/price evidence remain in legacy files and Git history. They are not refreshed or re-certified by this reconstruction.",
@@ -77393,12 +77399,6 @@
     ],
     "result": "Saved two exact variant offers, preserving Dave indexed 6240000 versus direct voucher-dependent 6230000 IDR and unknown stock/condition. No added model.",
     "next": "Fresh Shopee GP-series discovery; GP-100VT manufacturer lead requires exact hardware offer and own-model technical evidence."
-  },
-  "resume_cursor": {
-    "model": "DigiTech RP500",
-    "task": "Saved AUXplaybackscope,6namedreverbs andhistoricalLE4DVDqualification. Primarydry/reamp/AUXUSB/currentOSstillunverified. Next freshShopeediscovery orotherrequiredmodelgaps.",
-    "next_models": [],
-    "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
   "gp100vt_variant_20261018": {
     "classification": "GP-100 finish variant; not an additional active model",
@@ -119033,5 +119033,16 @@
     "source": "https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf",
     "result": "Added exact-model chorus design,input interaction and analog-recording qualification. Fresh exact Shopee searches unresolved.",
     "remaining": "Complete controls/ports,memory,loading/editor,power alternatives,qualifiedoffers andlowpassendpoint conflict."
+  },
+  "historical_continuation": {
+    "resume_cursor_retired_20261018": {
+      "value": {
+        "model": "DigiTech RP500",
+        "task": "Saved AUXplaybackscope,6namedreverbs andhistoricalLE4DVDqualification. Primarydry/reamp/AUXUSB/currentOSstillunverified. Next freshShopeediscovery orotherrequiredmodelgaps.",
+        "next_models": [],
+        "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
+      },
+      "reason": "Superseded by authoritative top-level cursor;349-model count was stale against378current inventory. Retained verbatim as historical data,not an instruction."
+    }
   }
 }

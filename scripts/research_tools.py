@@ -33,11 +33,31 @@ def read_preserved_source(path):
     assert hashlib.sha256(original.encode()).hexdigest() == entry['source_sha256'], 'Pinned evidence hash mismatch: '+key
     return original
 
+def verify_continuation_state(state):
+    assert 'resume_cursor' not in state, 'Deprecated live resume_cursor conflicts with authoritative cursor; preserve it as history instead'
+    cursor = state['cursor']
+    assert isinstance(cursor, dict) and cursor.get('model') and cursor.get('task'), 'Missing authoritative continuation cursor'
+
+def test_continuation_state():
+    current = {'cursor': {'model': 'Current model', 'task': 'Continue exact research'}}
+    verify_continuation_state(current)
+    for duplicate in (dict(current['cursor']), {'model': 'Old model', 'task': 'Stale task'}):
+        try:
+            verify_continuation_state(dict(current, resume_cursor=duplicate))
+        except AssertionError:
+            pass
+        else:
+            raise AssertionError('Duplicate live continuation field accepted')
+    verify_continuation_state(dict(current, historical_continuation={'resume_cursor': {'model': 'Old model'}}))
+
+
 def verify():
     sys.dont_write_bytecode=True
     from canonical_links import preservation_text
     identity()
     state = json.loads((ROOT / 'research-state.json').read_text())
+    test_continuation_state()
+    verify_continuation_state(state)
     pairs = [(b, m) for b, models in state['inventory_by_brand'].items() for m in models]
     assert len(pairs) == len(set(pairs)) == state['active_model_count'], (len(pairs), state['active_model_count'])
     canonical = sum(map(len, state['root_brand_content'].values()))
@@ -867,7 +887,7 @@ def main():
             subprocess.run([sys.executable,str(ROOT/'scripts/comparison_views.py'),'verify'],check=True)
         subject = 'research(valeton): retain additional GP-200 used hardware ask' if mode == 'commit-gp200jr' else 'research(line6): verify HX Effects3.80 acoustic simulation and looper limits'
         if mode=='commit-comparisons':
-            subject='fix(comparisons): derive validation counts from actual membership'
+            subject='fix(research): keep one authoritative continuation cursor'
         elif mode=='commit-prime':
             subject='research(headrush): add Prime with native NAM limits and qualified used retail evidence'
         elif mode=='commit-ge300':
