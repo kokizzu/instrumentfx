@@ -1544,6 +1544,15 @@ Checked 2026-10-18 from indexed [original manual pp28,30](https://zoomcorp.com/m
 | Live / tuner access | Hold MEMORY/STOMP in either STOMP or MEMORY mode, then choose **FS1 for bypass sound** or **FS2 for muted output** while tuning. These are selectable tuner output behaviors, not evidence of relay true bypass or retained delay/reverb tails. |
 | Controls / tuner settings menu | MENU→TUNER opens TUNER SETTINGS through the PUSH TO ENTER control. The indexed p30 screen shows calibration, tuner type and flat-tuning settings. An example440Hz display is not proof of the complete calibration range or power-cycle persistence; those remain unverified. |
 
+
+### G3Xn — flat-tuning limits
+
+Checked 2026-10-18 from indexed [original G3n/G3Xn manual p33](https://zoomcorp.com/documents/140/E_G3n_G3Xn.pdf).
+
+| Field | Exact-document evidence / gaps |
+|---|---|
+| Live / flat tuning | TUNER SETTINGS→FLAT supports **one,two or three semitones down**. Flat tuning is **unavailable with TYPE=CHROMATIC**. This changes the tuner reference targets, not an audio pitch-shift effect or added synth capability. Full calibration range and power-cycle persistence remain unverified; G3/G3X manual values are not assigned to G3Xn. |
+
 <!-- comparison evidence ends -->
 
 ### G3Xn sources and next verification

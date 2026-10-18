@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom G3Xn",
-    "task": "Saved exact tuner bypass/mute entry and menu. No browser surface available for visual inspection; headphone conflict remains. Next broaden fresh hardware discovery or resolve indexed exact-model technical fields.",
+    "task": "Saved flat-tuning1–3semitone offsets andCHROMATIC exclusion. Calibrationrange/persistence unresolved; reject G3/G3X transfer. Next broaden fresh hardware discovery or resolve other required model fields.",
     "next_models": [],
     "after_queue": "347 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -59207,6 +59207,23 @@
         "Qualified prices"
       ],
       "method": "Indexed manufacturer text; no downloads or operation"
+    },
+    {
+      "model": "Zoom G3Xn",
+      "checked_date": "2026-10-18",
+      "source": "https://zoomcorp.com/documents/140/E_G3n_G3Xn.pdf",
+      "pages": "33",
+      "finding": "FLAT offsets1/2/3semitones below normal,unavailable inCHROMATIC. Tuner target setting distinct from pitch processing.",
+      "remaining": [
+        "Tuner calibration range/persistence",
+        "Exact rear image",
+        "Physical controls",
+        "Display specifications",
+        "Effects category census",
+        "Qualified IDR"
+      ],
+      "rejected_inference": "Search surfaced G3/G3X435–445Hz persistence; not transferred toG3Xn.",
+      "method": "Indexed original manufacturer manual; no downloads or hardware operation"
     }
   ],
   "discovery_cross_brand_bass": {
