@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-3",
-    "task": "Saved ownmanual ADC24bitAF/DAC20bit44.1k,analog nominallevels/impedances andIHF-Adynamicrange. Next initialuserfill,toe/physicalcontrols,simultaneousceiling orqualifiedIDRoffer.",
+    "task": "Saved QuickSetting up-to5usersettings pereffectselectbutton,distinctfrom340patches/fourassignmentsettings. Initialuserpatchfill,physicaltoe/buttons andsimultaneousceiling remainunknown;next exactprimarygap orfreshIDRsearch.",
     "next_models": [],
     "after_queue": "351partialmodels;155bass;legacyconsolidationincomplete;no downloads/workflows/push."
   },

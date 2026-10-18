@@ -533,7 +533,7 @@ def main():
         if mode == 'commit-rp1000':
             message = 'research(digitech): qualify RP1000 calibration and electrical port limits'
         if mode == 'commit-gt6':
-            message = 'research(boss): establish GT-3 conversion and analog signal ratings'
+            message = 'research(boss): distinguish GT-3 reusable effect settings from patch memory'
         if mode == 'commit-hxone':
             message = 'research(line6): clarify HX One impedance bypass and preset queue'
         if mode == 'commit-pocketpod':
