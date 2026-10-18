@@ -1209,3 +1209,11 @@ The [manufacturer FootCtrlPlus support page](https://www.cuvave.com/fcp) directl
 A [mirrored original bilingual hardware manual](https://manuals.plus/m/e8395d2a1afc748eb57cf4bcd34a8bef1099d12fce30b420b4cbf4b1e9585676.pdf), titled Chocolate by the host, identifies Bluetooth name **footctrlplus** and a MIDI host port. U mode uses the Type-C data connection and disables host; H mode makes Type-C power-only and uses the host connection. Do not apply this host-equipped panel to the original non-Plus Chocolate. Original body inspected; exact retail revision unresolved. No pinout or TRS MIDI Type A/B assigned from secondary reports.
 
 Required distinction: pedal → controller → MIDI-capable processor is a MIDI route, not direct analog pedal → processor EXP. It still needs a verified destination CC/assignment and volume scope. See [capability audit](EXPRESSION-VOLUME.md). No software, firmware or dependencies downloaded or executed; no hardware wiring tested.
+
+### Controller identity and software scope follow-up
+
+Checked2026-10-19. [Official downloads catalogue](https://www.cuvave.com/download) lists **Chocolate under CubeSuite**, but **FootCtrl andFootCtrlPlus under MidiSuite(new)**. This software-support distinction does not prove a hardware alias orshared pinout. [Exact Chocolate product](https://www.cuvave.com/product?id=chocolate) describes4footswitches,Bluetooth/USB andFootCtrl2025_6_6 firmware;version naming alone does notidentify thePlus panel.
+
+[FootCtrlPlus-linked PD41 instructions](https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Customer/PD41-Software-Instructions.pdf) reference E/F bank controls as well as A–D actions. Do not infer additional physical buttons orapply this layout tooriginalChocolate without matchinghardware. Mode3 toggleCC examples are switch messages,not continuous expression-sweep evidence. [Support](https://www.cuvave.com/fcp) separately labels firmware FootCtrlPlus_20225_06_18 andFootCtrlPlus_IOS26;first label’s apparent date typo preserved,neither binary inspected. Plus product reopening returnedsite shell.
+
+Analog output/input direction,pinout,resistance,continuousCC mapping andsimultaneousUSB/BLE/host routing remain unresolved. No controller/processor compatibility certified;no downloads ordevice operation.

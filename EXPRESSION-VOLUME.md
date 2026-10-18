@@ -137,3 +137,5 @@ GP-50 documentation/offer refresh2026-10-19: official firmware/manual indexes ex
 GT-1000CORE revision follow-up2026-10-19: [official2.02 history](https://www.boss.info/nl/support/by_product/gt-1000core/updates_drivers/82f27f97-d627-4536-b49c-94b317a2e0ad/) qualifies seamless patch changes, simultaneous switches and startup external-pedal assignments;2.01 removed polyphonic tuner. No additional FV coverage guarantee established. See [BOSS](BOSS.md#gt-1000core).
 
 HX Stomp revision follow-up2026-10-19: [own firmware history](https://line6.com/software/index.html?hardware=HX+Stomp&name=Firmware&submit_form=set) documents3.50 expression-bypass behavior andPathB restore fixes. They qualify mapping/placement reliability, not global volume insertion orfull output coverage. See [LINE6](LINE6.md#hx-stomp).
+
+M-VAVE identity follow-up2026-10-19: [official catalogue](https://www.cuvave.com/download) separates Chocolate/CubeSuite fromFootCtrl/FootCtrlPlus/MidiSuite support. PD41 E/F bank-control references are not proof of originalChocolate hardware layout oranalog expression wiring. [Full qualifications](M-VAVE.md#controller-identity-and-software-scope-follow-up).
