@@ -661,7 +661,7 @@ def main():
         if mode == 'commit-g3n':
             message = 'research(zoom): verify G3n external expression enable path'
         if mode == 'commit-g5n':
-            message = 'research(zoom): establish G5n acoustic simulation and qualify synth-style presets'
+            message = 'research(zoom): qualify G5n pedal toggle and tempo prerequisites'
         if mode == 'commit-g3xn':
             message = 'research(zoom): document 607 tuner and master volume persistence'
         if mode == 'commit-pod-express-guitar-preservation':

@@ -1740,6 +1740,13 @@ Checked 2026-10-18 from original text in Zoom’s [July 2025 compatibility chart
 USB channel count, AUX-to-recording routing, dry recording, loopback and reamping remain unverified by the primary sources inspected. Third-party forum reports and unrelated Zoom models are not promoted to manufacturer specifications. No file or software downloaded.
 
 
+### G5n — pedal toggle state and tempo synchronization
+
+| Field | Manufacturer V2 manual evidence / qualification |
+|---|---|
+| Expression / toe-toggle setting distinction | **Toe-down toggles the pedal effect but does not change its ON/OFF setting**, whereas the separately described button operation does change that setting. The extracted button icon is absent, so its physical identity is not inferred. This distinction does not establish an external toe switch or universal momentary operation. [Own manual p46](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf). |
+| Live / tempo synchronization prerequisite | Tempo serves the looper, rhythm and delay, plus some modulation effects. Effect synchronization requires a compatible effect and its Time/Rate parameter set to a **musical-note value**; tapping alone does not make every effect tempo-synchronized. [Own manual p47](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf). |
+
 ## G3n
 
 Reviewed **2026-10-17**,new exact-model Shopee discovery. Separate from G3Xn and older G3;no ownership assertion. Partial. Manufacturer manual evidence is indexed text,not PDF/image inspection;no dependency,software,firmware or manual file downloaded.

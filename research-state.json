@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Required fields / fresh discovery",
-    "task": "Modified G5n category lead saved separately from stock-condition offers; exact item unresolved. Continue another eligible series or manufacturer verification rather than repeating unresolved category searches. B2 FOUR seller leads and A2 remain deferred.",
+    "model": "G5n required fields / fresh discovery",
+    "task": "G5n pedal-toggle setting distinction and musical-note tempo prerequisite saved. USB channels/AUX recording/dry reamping remain unresolved; seek exact startup-guide evidence or another required-field gap. Keep modified G5n and B2 FOUR seller catalogue leads separate from qualified offers.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -45864,7 +45864,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Required fields / fresh discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume G5n required fields / fresh discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -79184,5 +79184,15 @@
     "accessory_recheck": "855783279/22273291654 remains a Rp170000 RP350/RP355/RP300 power supply, not processor hardware.",
     "result": "No new qualifying exact model offer established. Modified unit retained only as a non-comparable discovery lead; no absence claim.",
     "next": "Seek a different eligible series or close required-field gaps. Resolve exact modified-unit identity before recording offer details; never transfer stock G5n pedal claims to that unit."
+  },
+  "zoom_g5n_pedal_tempo_20261018": {
+    "source": "https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf",
+    "printed_pages": [
+      46,
+      47
+    ],
+    "destination": "ZOOM.md#g5n",
+    "scope": "Pedal toggle-setting distinction and tempo prerequisites verified from exact-model V2 manual.",
+    "remaining": "USB channel routing still unresolved; support page offers no separately exposed startup guide in inspected text. No sibling USB specifications substituted."
   }
 }
