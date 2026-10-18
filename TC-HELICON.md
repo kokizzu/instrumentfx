@@ -1142,6 +1142,15 @@ Checked2026-10-18 against the manufacturer-hosted one-page [service parts list][
 |---|---|
 | Display / replacement part | LCD part **7E33601101** carries the128×64 blue-negative COG description. No diagonal orscreen-touch specification supplied;the service date is not a firmware revision. |
 | Power / service-listed supply | **PowerPlug12V,part960899002**,is associated with this exactmodel. The list also names a DCpower connector;output polarity,current andconnector dimensions remain unresolved. The1A fuse rating does not establish operating current. Replacement availability is not verified. |
+
+### VoiceLive Touch 2 — PowerPlug documentation boundaries
+
+Checked2026-10-18 through the exact-model service association above andaccessory documentation.
+
+| Field | Evidence / qualification |
+|---|---|
+| Power / accessory voltage | The [manufacturer PowerPlug12 product page](https://www.tchelicon.com/ja/products/0726-aas) explicitly identifies **12V DC**. This supplements the service-list association;the page does not establish Touch2 operating current orbarrel dimensions. |
+| Power / accessory polarity | The original-manual body reproduced as [PowerPlug9/12 Quick Start Guide](https://manualzz.com/doc/en/54082722/tc-helicon-powerplug-12-quick-start-guide),English safety instructions,states outer-ring positive/center negative. Document revision is absent from extraction;retain as accessory-guide evidence,not an inspected Touch2 rear-label rating orproof that every replacement supply matches. Manufacturer current capacity andunit draw remain unresolved;retailer1A claims are not promoted to primary specifications. |
 <!-- comparison evidence ends -->
 
 [VLT2-Q]: https://manualzz.com/doc/6755730/tc-helicon-voicelive-touch-2-quick-start-guide

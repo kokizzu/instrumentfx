@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceLive Touch 2",
-    "task": "Saved exact-model manufacturer service-parts evidence for display and supply. Next verify DC output polarity/current/connector from original PowerPlug12 documentation;screen diagonal/touch,loop duration/persistence,phantom andcurrent OS/qualified hardware prices remain unresolved.",
+    "task": "Saved official PowerPlug12 12VDC statement andrevision-unresolved original accessory-guide center-negative wording. Next obtain exact Touch2 rear-label/original electrical specification for current andconnector;then loop duration/persistence,phantom,currentOS andqualified prices. Do not treat retailer1A as device draw.",
     "next_models": [],
     "after_queue": "363active/46brands;304guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -61065,6 +61065,17 @@
       "status": "partial",
       "destination": "TC-HELICON.md#voicelive-touch-2",
       "finding": "Exact-model service display andsupply identifiers saved;electrical andscreen capability gaps retained."
+    },
+    {
+      "model": "TC-Helicon VoiceLive Touch 2",
+      "destination": "TC-HELICON.md#voicelive-touch-2",
+      "checked_date": "2026-10-18",
+      "status": "partial",
+      "sources": [
+        "https://www.tchelicon.com/ja/products/0726-aas",
+        "https://manualzz.com/doc/en/54082722/tc-helicon-powerplug-12-quick-start-guide"
+      ],
+      "finding": "Accessory electrical scope saved with revision andunit-label limits;current/connector unresolved."
     }
   ],
   "discovery_cross_brand_bass": {
