@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh bass discovery / required specification gaps",
-    "task": "AX3000B extra-preset file distinguished from editors/firmware/memory. Editor OS, current/polarity/barrel and visual census remain unknown after source audit. Next pursue new exact Shopee series or another required-field gap; do not guess regional Korg numeric IDs or promote secondary legacy OS claims.",
+    "task": "Atlantic exact primary update guide corroborated 9V center-negative, microUSB data and separate DFU/bin roles; required gaps remain. Next prioritize new exact Shopee series or unresolved required-field evidence; do not promote mixed Korg ranges or MG300 hits to different models.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -78700,5 +78700,37 @@
       "https://www.korg.com/jp/support/download/software/1/27/1390/",
       "https://www.korg.com/jp/support/download/software/1/27/1391/"
     ]
+  },
+  "atlantic_primary_update_guide_20261018": {
+    "status": "partial",
+    "source": "https://nux.cherubtechnology.com/download/Firmware/Effects/Verdugo/Atlantic/Guide/NUX_Atlantic_FirmwareUpdateGuide_EN.pdf",
+    "pages": 1,
+    "findings": [
+      "NDR-5 guide independently specifies 9V DC center-negative",
+      "Micro USB sync/data connection plus external DC used during updating; USB-only power not established",
+      "DFU updater distinguished from selected bin firmware; PC/Mac not full-editor or minimum OS proof"
+    ],
+    "remaining": [
+      "Actual draw and battery/USB power",
+      "Input stereo/insert conflict",
+      "Freeze operation",
+      "Size/mass conflict",
+      "Visual controls",
+      "Qualified condition/current stock"
+    ],
+    "method": "Text only; no download, update, installation or hardware operation"
+  },
+  "discovery_guitar_series_20261018_followup": {
+    "queries": [
+      "site:shopee.co.id Digitech RP55",
+      "site:shopee.co.id Fender Mustang Floor",
+      "site:shopee.co.id Zoom GFX-1",
+      "site:shopee.co.id Korg AX1000B",
+      "site:shopee.co.id GE300 LITE",
+      "site:shopee.co.id GE300Lite",
+      "site:shopee.co.id Korg AX100G",
+      "site:shopee.co.id NUX MG-10"
+    ],
+    "result": "No new exact eligible model resolved; Korg22551702/3568008855 is previously recorded mixed-model offer, range not an AX100G-specific ask; unrelated MG300/category hits not MG10 evidence. No absence claim."
   }
 }
