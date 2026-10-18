@@ -543,7 +543,7 @@ def main():
         if mode == 'commit-m5':
             message = 'research(line6): document M5 MIDI ranges and tempo expression limits'
         if mode == 'commit-ax3g':
-            message = 'research(korg): qualify AX3000B compatible adapter polarity'
+            message = 'research(korg): qualify AX3B compatible adapter polarity'
         if mode == 'commit-ax1000g':
             message = 'research(korg): qualify AX1000G trainer controls and calibration'
         if mode == 'commit-ve20-followup':
