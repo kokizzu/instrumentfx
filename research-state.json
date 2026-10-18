@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Tech21 Fly Rig 5 v2",
-    "task": "Saved own-manual tuner indicator behavior,nominal-input wording andregionalDC9bundle. PocketSonic editor queries returned onlygeneric pages;no application compatibility inferred. Continue required gaps/discovery;FlyRig physicalfoot/buttoncensus,storage/expression/software andqualifiedIDRremain.",
+    "model": "NUX MFX-10",
+    "task": "Saved complete19amp/pedalfamily census and CleanTubeBtable/prose conflict,plus red SAVE feedback. Remaining54/55and9/8conflicts unresolved;externalEXPwiring,physicalcontrolcounts,poweractualdraw,screen/OS/imports,qualifiedprices remain. Continue other requiredgaps and discovery.",
     "next_models": [],
     "after_queue": "363active/46brands;304guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -45910,7 +45910,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Tech21 Fly Rig 5 v2."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX MFX-10."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -61015,6 +61015,12 @@
       "checked_date": "2026-10-18",
       "source": "https://www.tech21nyc.com/t21manuals/FlyRig5_v2_OM3.pdf",
       "finding": "OwnOM3rev12/20:upflat/downsharpfasterblinkthengreen;nominalinputprintedminus10dBm250mVnotmax;DC9USinstalledplusEU/UK/AUNZmanufacturerbundle,notsellerproof."
+    },
+    {
+      "model": "NUX MFX-10",
+      "checked_date": "2026-10-18",
+      "source": "https://manualzz.com/doc/61042604/nux-mfx-10-owner-s-manual",
+      "finding": "CompleteAMPDS table12amp+7pedalfamilies=19plusDriveOff;ABswitchable notparallel/presetdoubling. CleanTubeBtableTrainwreckvsproseTwinextraga in conflict. SAVEnameredbackgroundtextonly."
     }
   ],
   "discovery_cross_brand_bass": {

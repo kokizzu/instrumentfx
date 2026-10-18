@@ -1032,6 +1032,18 @@ Checked2026-10-18 against manufacturer-authored [MFX-10 manual body][MFX10-T],co
 
 Checked2026-10-18 against manufacturer-authored [2010 manual transcription][MFX10-T],printed pp1,5,27. Exact MFX-10/Cherub identity retained; no local download or visual inspection.
 
+
+### MFX-10 — amp/drive selector census and A/B source conflict
+
+Checked2026-10-18 against manufacturer-authored [2010 manual transcription][MFX10-T],printed pp14–17. Counts derive from the complete AMP&DS table;current official V1 revision equivalence remains unverified.
+
+| Field | Finding / qualification |
+|---|---|
+| Categories / amp families12 | Jazz Clean,Tweed15W,Black Face,Blues Man,Clean Tube,UK A30TB,Plexi45W,Lead100W,80’s100W,Solo Hi Gn,Dual Rect,MarkIV. These are selector families,not simultaneous amps. |
+| Categories / pedal families7 | Screamer,Dist Uno,Fuzz,Metal Z,Ratt,Octavia,Muff Pi. Together with12amp families,these reconcile the advertised **19 amp/pedal models**. **Drive Off** is an additional bypass choice,not a20th modeled device. Original54/55 overall-library and9/8 concurrency conflicts remain. |
+| Processing / A/B interpretation | Table gives each family A/B variants;module instructions permit different models/settings for the two channels. Those are switchable states,not two simultaneous amp blocks or extra independently stored preset locations. |
+| Processing / Clean Tube conflict | Table identifies channelB as **Trainwreck Express**;following Clean Tube prose instead describes a **Twin-derived extra gain stage**. Preserve both claims;no firmware orrevision explanation established. |
+| Display / save feedback | SAVE instructions explicitly describe the selected name character on a **red background**. This is documented colored UI feedback;touch anddiagonal remain unverified. No visual panel audit claimed. |
 <!-- comparison evidence ends -->
 
 Variant,bundle,adapter inclusion,authenticity,working state,warranty,shipping/tax and vouchers unresolved. Category-only or mixed-model asks remain unassigned in the ledger.
