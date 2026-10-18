@@ -4196,10 +4196,10 @@ Checked2026-10-18. Discontinued guitar multi-effects;100 effects/amp models. His
 | K/F/B | 3 push-rotaries/1 footswitch/4 cursor keys;other buttons unverified. | [Manual][M100BT-M] pp6–7 |
 | Display | LCD;diagonal/color/touch unspecified. | [Manual][M100BT-M] p37 |
 | Dimensions / weight | 130.3D×77.5W×58.5Hmm;360g. | [Manual][M100BT-M] p37 |
-| Processing / memory | 100 types;6 simultaneous,limited byDSP. Over-budget effect bypassed;DSP Full warning. 50 writable patches;factory-filled count unresolved. | [Manual][M100BT-M] pp2,11–12,37 |
+| Processing / memory | 100 types;6 simultaneous,limited byDSP. Over-budget effect bypassed;DSP Full warning. 50 writable patches:30 factory-filled,20 initially empty;factory patches overwriteable. | [Manual][M100BT-M] pp2,11–12,37 |
 | Category choices | Derived original-manual census: DYN/FLTR20,OD/DIST21,AMP8,MOD/SFX29,DLY/REV22 =100. Includes utility LineSel;not100 simultaneous blocks or current StompShare inventory. | [Manual][M100BT-M] pp26–33 |
 | Synth / acoustic | Aco.Sim models acoustic-guitar tone;MonoSynth is single-note synthesis;Z-Organ simulates organ. Polyphonic synthesis unverified. Bass tuner mode alone does not qualify bass processing. | [Manual][M100BT-M] pp28,31,38 |
-| I/O | Mono-phone input/output sockets;MONO connections andstereo-input operation described. Complete physical socket count pending. Input1MΩ,−20dBm nominal;output+5dBm maximum into≥10kΩ. | [Manual][M100BT-M] pp6,37 |
+| I/O | Two¼-inch inputs andtwo¼-inch outputs;stereo operation documented. DC9V inlet documented separately;complete other-port absence audit pending. Input1MΩ,−20dBm nominal;output+5dBm maximum into≥10kΩ. | [Manual][M100BT-M] pp6,37 |
 | Conversion | 44.1kHz;24-bit AD/DA128×oversampling;32-bit float+fixed processing. | [Manual][M100BT-M] p37 |
 | Power / battery | AD16:9VDC center-negative,500mA supply rating,not device draw. **Conflict:**safety p4 says4AA;spec p37 says2AA alkaline,~7h mono/~5h stereo. | [Manual][M100BT-M] pp4,37 |
 | USB power / audio / MIDI | Not established;Bluetooth does not prove USB support. | Pending |
@@ -4215,12 +4215,27 @@ Checked2026-10-18;original manual Z2I-1528-02©2012.
 
 | Field | Finding / qualification |
 |---|---|
-| Memory / save policy | Auto Save defaults ON;OFF requires manual saving. Initial factory-filled patch count remains unresolved. [Manual][M100BT-M] pp12,23 |
+| Memory / save policy | Auto Save defaults ON;OFF requires manual saving. Factory fill resolved:30 populated,slots31–50 empty;see subsequent evidence. [Manual][M100BT-M] pp12,23 |
 | Memory / reset scope | All Initialize restores settings andpatches but **retains added effects**. It is not documented as returning the installed effect library toits original100. [Manual][M100BT-M] p34 |
 | Live / tap and display | Tempo stored perpatch. Footswitch hold selects tuner(default) or tap;tap can interrupt anactive effect for1s. LCD contrast andbacklight-dimming time adjustable;no diagonal/color/touch specification established. [Manual][M100BT-M] pp18–24 |
+
+### MS-100BT — factory fill, stereo I/O and software scope
+
+Checked2026-10-18. Older manufacturer page andoriginal patch list resolve earlier gaps without replacing historical qualifications.
+
+| Field | Finding / qualification |
+|---|---|
+| Memory / initial contents | **50 writable slots,30 factory presets,31–50 empty**. Factory presets can be overwritten;foot cycling supports a custom list of up to26 patches. [Original product][M100BT-O];[Patch list p19][M100BT-F] |
+| I/O / mass and power corroboration | Manufacturer specifies **2×¼-inch inputs,2×¼-inch outputs**,active/passive andline-level sources. **360g excludes batteries**. Product also specifies2AA alkaline/NiMH;this corroborates specification-section2AA while preserving the contradictory4AA safety text. [Original product][M100BT-O] |
+| Editor / current listing versus operation | US App Store lists Zoom Corporation StompShare **1.1.0.36,2016-05-24,iOS8+**,English/Japanese. Older product saysiOS4.3+;these describe different software dates. Web listing observed,not installation,regional Indonesian availability orworking Bluetooth transfer verification. Desktop editor support remains unresolved. [Zoom app listing][M100BT-A];[Original product][M100BT-O] |
+| Bass / downloadable processing | Zoom's developer-authored March2014 release notes add aBass category and9bass amps plus1bass effect;June2013 notes add5bass modulation types. Qualifies as shared bass-capable **with appropriate effects loaded**,not proof of factory bass models orpresent download service operation. [Zoom app release notes][M100BT-A] |
 <!-- comparison evidence ends -->
 
 [M100BT-P]: https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-100bt/
 [M100BT-M]: https://zoomcorp.com/media/documents/MS-100BT_operationManual_English.pdf
 
 Original manufacturer manual©2012. Text audit only;no device/software execution or package download. All unresolved fields remain partial.
+
+[M100BT-O]: https://www.zoom.co.jp/node/65
+[M100BT-F]: https://zoomcorp.com/media/documents/MS-100BT_FX-list_English.pdf
+[M100BT-A]: https://apps.apple.com/us/app/stompshare/id567649359

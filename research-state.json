@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Zoom MS-100BT",
-    "task": "Saved MS100BT original100 category census,acoustic/mono-synth distinction andsave/reset semantics. Next verify physicalports/expression/controls andfactory patchfill from exact manufacturer material;current StompShare support andIDR offers remain. Do not repeat tuner asbass proof.",
+    "task": "MS100BT factory30filled/20empty,dual inputs/outputs andconditional downloadable bass support saved. Next seek freshShopee hardware leads;remaining MS100BTexpression/control/other-port absence audit andcurrent transfer availability unresolved. Do not claim AppStore listing proves operation.",
     "next_models": [],
-    "after_queue": "365active/46brands;306guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
+    "after_queue": "365active/46brands;306guitar159bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -25448,9 +25448,9 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 158,
+      "record_count": 159,
       "bass_focused_record_count": 35,
-      "shared_bass_capable_count": 123,
+      "shared_bass_capable_count": 124,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -25473,7 +25473,7 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 306 guitar, 158 documented bass-capable, 69 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 306 guitar, 159 documented bass-capable, 69 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
     "warning": "365 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
@@ -45909,8 +45909,8 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 158,
-    "bass_shared_models": 123,
+    "bass_view_models": 159,
+    "bass_shared_models": 124,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -46416,6 +46416,7 @@
       "Zoom::607",
       "Zoom::B1X original",
       "Zoom::1201",
+      "Zoom::MS-100BT",
       "DigiTech::GNX3",
       "DigiTech::GNX4",
       "Korg::PANDORA stomp",
@@ -46528,6 +46529,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Zoom::MS-100BT": "Zoom developer release notes document downloadable bass processing;loaded-effects requirement andcurrent transfer uncertainty retained. https://apps.apple.com/us/app/stompshare/id567649359",
     "LEKATO::ME-01": "Own brand ME-01 page explicitly allocates amp/IR entries16–20 to bass. https://lekatodeal.com/products/lekato-me-01-multi-effects-processor-guitar-pedal-w-6-effects-modules-80-presets-20-irs",
     "Blackstar::ID:X Floor One": "Own family manual256401M-VA-1 01/26 explicitly names One and lists three bass voices/input use. https://www.kirstein.de/docs/manuals/00118929/manual_EN.pdf?h=2b60f8933d3a40a7df062be52bf93b84",
     "Blackstar::ID:X Floor Three": "Own manual256401M-VA-1 01/26 lists three bass voices and guitar/bass/acoustic input use. https://www.kirstein.de/docs/manuals/00118929/manual_EN.pdf?h=2b60f8933d3a40a7df062be52bf93b84",
@@ -80831,5 +80833,15 @@
     },
     "sum": 100,
     "remaining": "Physical socket/control audit,expression,initial patch fill,current StompShare support andqualified IDR hardware offers remain unresolved."
+  },
+  "ms100bt_factory_io_software_audit": {
+    "date": "2026-10-18",
+    "sources": [
+      "https://www.zoom.co.jp/node/65",
+      "https://zoomcorp.com/media/documents/MS-100BT_FX-list_English.pdf",
+      "https://apps.apple.com/us/app/stompshare/id567649359"
+    ],
+    "status": "partial",
+    "scope": "Factory memory andexplicit physical input/output counts resolved;downloadable bass capability qualified byinstalled effects. Actual transfer/current regional app support unverified."
   }
 }
