@@ -480,6 +480,15 @@ Distinct acoustic-guitar multi-effects, checked 2026-10-18; partial. [Manufactur
 | Footswitches / effect mode | [Manualp19](https://usa.yamaha.com/files/download/other_assets/1/313701/agstomp_en.pdf):EFF assigns1–3 tolimiter,chorus/delay,reverb on/off. Sharedchorus/delay remainsoneblock;notindependentchorusplusdelay switches. HoldingBANK stillpermitsbank/area selection. |
 | Power / memory backup distinction | [Manualp2](https://usa.yamaha.com/files/download/other_assets/1/313701/agstomp_en.pdf) identifiesa lithiumbattery formemorybackup. This doesnot establishbattery-powered audio operation;documentedexternalpower remainsAC-10. Replacementprocedure/runtime unverified. |
 
+### AG-Stomp EQ,feedback memory and reverb tails,2026-10-18
+
+| Field | Own-manual evidence / qualification |
+|---|---|
+| EQ / variable centers | [Manualp14](https://usa.yamaha.com/files/download/other_assets/1/313701/agstomp_en.pdf):BASS **50–400Hz**,MIDDLE **200Hz–1.6kHz**,TREBLE **600Hz–4.8kHz**,PRESENCE **2–16kHz**. SHIFT exposesfrequencyadjustment;centers storewithpatchdata. These arefrequencyranges,notgainranges orextraeffectslots. |
+| Processing / feedback reduction | [Manualp16](https://usa.yamaha.com/files/download/other_assets/1/313701/agstomp_en.pdf):BANK AUTO detectsfeedback andusesanavailablenotch at **−20dB** depth;chords mayrequiremanualfrequency/depth adjustment. Fivefilters remainthesimultaneouslimit,nofiveadditionalalgorithmbanks. |
+| Memory / feedback persistence | [Manualp16](https://usa.yamaha.com/files/download/other_assets/1/313701/agstomp_en.pdf):UtilityPrG storesfeedbacksettings perpatch;GLb retainsthemacrosspatchchanges. InGLb,performStore tosaveglobalfeedbackdata beforepower-off;unsavedchanges arelost. |
+| Live / conditional reverb tails | [Manualp21](https://usa.yamaha.com/files/download/other_assets/1/313701/agstomp_en.pdf):switching fromnonzeroReverb tozerowith**sameReverbType** leavesexistingtail;newpatchsound isnotfedthroughpreviousreverb. No blanketclaimoftrailsacrossdifferenttypes orseamlessswitching. |
+
 <!-- comparison evidence ends -->
 
 Original Yamaha-hosted PDF read as browser text; no file downloaded, device operated or software installed. Do not borrow DG-Stomp specifications. Expression mappings and original patch initialization are documented above; complete physical/absence checks and remaining software/price gaps stay unresolved.
