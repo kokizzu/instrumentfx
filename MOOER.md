@@ -2151,6 +2151,14 @@ Category follow-up2026-10-18: [own V01 manual copy](https://device.report/m/3bfc
 
 Operational follow-up2026-10-18: [same own V01 manual](https://device.report/m/3bfcaf5bf9953f7daa8dcb5a20cfaf3a3e077f88dbcce614acf8c0b00c48ac63.pdf),printedpp14,17,24–25. Four movable routing points aremainoutput,XLRoutput,SEND,RETURN;RETURN cannot precedeSEND. These routing objects are notfour extra audioeffects. Loop retention isnot evidence ofmultiple independently stored loopslots. No device orpedal operated.
 
+### GE300 Lite — expression-volume audit, 2026-10-19
+
+**Global volume assignment not established.** [Manufacturer-authored Lite V01 manual](https://device.report/m/3bfcaf5bf9953f7daa8dcb5a20cfaf3a3e077f88dbcce614acf8c0b00c48ac63.pdf), printed pp24–26,42: EXP Function selects an effect parameter; Merge defines heel/toe endpoints and direction. **PRESET/GLOBAL belongs to CTRL footswitch settings**, not proven EXP scope. PARA PREF maintains effect defaults,not a global volume target. TRS10–100kΩ requirement doesnot establish arbitrary M-VAVE compatibility. Some routing diagrams label VOL despite incomplete dedicated-volume documentation;retain the inconsistency,not a definitive absence claim. Placement,min/max,held-position recall,bypass,headphone,tail/recorded-loop attenuation remain unresolved. Bank up/down and A/B/C selection are documented;general sequential preset down/up unverified. Existing287×208×64mm axes are unstated;either horizontal orientation exceeds preference.
+
+[Own firmware index](https://www.mooeraudio.com/companyfile/GE300-Lite-Downloads-150.html) rechecked:V5.0.2 fixes EXP control of FX Loop Wet/Dry Mix;this isnot global-volume proof. V5.0.3 NAM conversion notes donot settle assignment scope. Exact installed firmware unverified. No local download ordevice test.
+
+Exact Shopee Indonesia GE300 Lite search2026-10-19 returned unrelated gaming-chair/accessory hits,no qualified hardware seller/item offer. New/usedIDR,condition,bundle,warranty,stock andshipping remain unknown. No full GE300 offer orspecification transferred.
+
 ## GE200 Plus
 
 Checked 2026-10-19;partial. Distinct from GE200 original,GE200 Pro andGE200 Plus Li. Manufacturer establishes guitar multi-effects;ownership,bass/vocal membership unverified. [Exact product](https://www.mooeraudio.com/products/232.html).

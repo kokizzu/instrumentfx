@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "Valeton GP-200LT (partial)",
-    "finding": "Exact1.8.0 body directs EXP targets to patch settings; no global override established. Onboard Patch-/+ assignments supported. Footprint exceeds preference; exact Shopee retrieval failed.",
+    "current": "MOOER GE300 Lite (partial)",
+    "finding": "EXP Function/Merge documented; CTRL global option is not EXP target scope. VOL diagram conflict retained; footprint too large; no qualified exact Shopee hardware offer.",
     "next": [
-      "Systematic remaining no-treadle inventory: MOOER GE300 Lite",
+      "Systematic remaining no-treadle inventory: MOOER GS1000",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
@@ -122593,7 +122593,7 @@
       "date": "2026-10-19",
       "source_commit": "87c7d3816a380ddc49e3af2b2441564f454f87d7",
       "scope": "Normalized inherited source checks without recertification or admitting partial leads; exact prior merged category preserved in public_metadata.remote_87c7d38_preserved.expression_category_before_normalization.",
-      "comparison_rows": 19,
+      "comparison_rows": 20,
       "adjacent_rows": 1,
       "active_inventory_changed": false
     }
