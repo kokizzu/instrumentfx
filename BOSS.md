@@ -1427,6 +1427,17 @@ Exact GX-1 HTML parameter tables,checked2026-10-19;counts below are editorial co
 | Processing / cabinet and microphone choices | [AMP/CAB](https://static.roland.com/manuals/gx-1_parameter/en-US/365111947365263883.html) lists23amp types. Speaker selector:ORIGINAL plus seven explicit cabinet sizes,OFF andeight USER IR slots. ORIGINAL follows chosen amp;do not count it asone fixed cabinet orcountOFF asamodel. Nine microphone choices:four dynamic/condenser models,FLAT,RIBON121 andthree57/ribbon blends. No extra independent microphone block implied. |
 | Processing / dedicated reverb choices | [REVERB](https://static.roland.com/manuals/gx-1_parameter/en-US/367568779367585163.html) has ten choices:two halls,plate,two rooms,ambience,spring,shimmer,SUB DELAY andTERA ECHO. SUB DELAY reaches2000ms;TERA ECHO usesMDP. These share the REVERB selector;FX-slot reverb subtype equivalence unverified. |
 
+
+### GX-1 — drive, delay and bass capability
+
+Exact-model parameter tables,checked2026-10-19;editorial type counts,not independent simultaneous blocks.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / OD DS census | [OD/DS](https://static.roland.com/manuals/gx-1_parameter/en-US/358369163362518667.html) lists35choices,including bass-specific processing. DRIVE1–120,TONE−50–+50,LEVEL/DIRECT0–100;parameter values are not extra models. |
+| Bass capability | Own GX-1 OD/DS table explicitly includes BASS OD,X-BASS OD,BASS DS,BASS DI,SA DI DRIVE,HI BAND DRV,BASS MT,BASS FUZZ;several descriptions explicitly specify bass tuning. This establishes shared bass-processing membership,not equivalence to GX-1B orits amps/cabinets. |
+| Processing / dedicated delay census | [DELAY](https://static.roland.com/manuals/gx-1_parameter/en-US/366780811366918027.html) lists11types:STANDARD,MODULATE,PAN,REVERSE,ANALOG,ANLG MOD,SPACE ECHO,SHIMMER,WARP,TWIST,GLITCH. PAN explicitly uses stereo output. The TYPE description incorrectly says wah;count derived from named delay rows. FX-slot delay subtype equivalence remains unverified. |
+
 <!-- comparison evidence ends -->
 
 [GX1-P]: https://www.boss.info/global/products/gx-1/

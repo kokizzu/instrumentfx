@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "GX-1 remaining categories / Shopee discovery",
-    "task": "AMP/CAB anddedicatedREVERB census saved:23amps,7explicitcabs+ORIGINAL,9mics,10reverbchoices. Next exactOD/DS andDELAY categorytables orfreshShopeediscovery. USBstream/display/qualifiedusedIDR gaps remain;all388partial,migrationincomplete.",
+    "model": "Fresh Shopee discovery / GX-1 remaining gaps",
+    "task": "GX-1OD/DS35 andDELAY11 verified;ownbass-tuneddrives justifyALL-BASSaddition. Next freshShopeediscovery orremaining exactGX-1COMP/EQ/PEDALFX counts;USBformat/display/usedIDR remainunknown. All388partial,migrationincomplete.",
     "next_models": [],
     "after_queue": "388active47brands;no downloads/workflows/push."
   },
@@ -25776,9 +25776,9 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 169,
+      "record_count": 170,
       "bass_focused_record_count": 40,
-      "shared_bass_capable_count": 129,
+      "shared_bass_capable_count": 130,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -25801,7 +25801,7 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 323 guitar, 169 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 323 guitar, 170 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
     "warning": "388 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
@@ -46247,8 +46247,8 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 169,
-    "bass_shared_models": 129,
+    "bass_view_models": 170,
+    "bass_shared_models": 130,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -46335,7 +46335,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume GX-1 remaining categories / Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh Shopee discovery / GX-1 remaining gaps."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -46668,6 +46668,7 @@
       "Audota::AME-200 Pro",
       "BOSS::GT-1000CORE",
       "BOSS::GX-10",
+      "BOSS::GX-1",
       "BOSS::GX-100",
       "BOSS::GT-1000",
       "BOSS::GT-1B",
@@ -46909,6 +46910,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "BOSS::GX-1": "Own GX-1 OD/DS table explicitly documents bass-tuned drives and bass DI models; not GX-1B equivalence. https://static.roland.com/manuals/gx-1_parameter/en-US/358369163362518667.html",
     "Yamaha::Magicstomp Guitar MK2": "Yamaha MK2 library-linked base manual p10 explicitly permits bass input; MK2 supplement refers to that owner manual. Input suitability only, not Bass-edition algorithms or universal low-end performance. https://usa.yamaha.com/files/download/other_assets/3/334073/magicstomp_mk2_en.pdf",
     "Yamaha::Magicstomp original Guitar": "Original Guitar owner manual p10 explicitly supports bass input alongside guitar and line-level instruments; no Bass-edition algorithms borrowed. https://ca.yamaha.com/files/download/other_assets/7/334107/magicstomp_en.pdf",
     "Tech 21::Acoustic Fly Rig": "Own exact-model product explicitly supports acoustic/electric guitar and bass. https://www.tech21nyc.com/products/flyrig/acoustic-fly-rig/",
@@ -120581,5 +120583,17 @@
       "dedicated_reverb_choices": 10
     },
     "qualification": "OFF excluded frommodelcount;ORIGINAL amp-dependent;microphones/reverbtypes not extra simultaneousblocks;FX reverbsubtype equivalence unverified."
+  },
+  "gx1_drive_delay_bass_20261019": {
+    "sources": [
+      "https://static.roland.com/manuals/gx-1_parameter/en-US/358369163362518667.html",
+      "https://static.roland.com/manuals/gx-1_parameter/en-US/366780811366918027.html"
+    ],
+    "counts": {
+      "OD_DS": 35,
+      "dedicated_delay": 11
+    },
+    "membership_change": "GX-1 added as shared bass-capable on own documented bass-tuned drives/DI,not sibling inference.",
+    "source_typo": "DELAY TYPE row sayswah;named rows are delay models."
   }
 }
