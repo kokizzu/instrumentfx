@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS SE-50",
-    "task": "Saved SE-50 panel-port inventory,memory-backup battery distinction andDIRECT/MUTE modes. Next full chains or remaininghardware specifications fromsame manual;no sibling borrowing.",
+    "task": "Saved SE-50 vocoder requirements,Rotary MIDI speed behavior andKeyboard Multi1 timing. French mirror text stops during Keyboard Multi2;seek another original source for later chains/hardware orresume discovery.",
     "next_models": [],
     "after_queue": "349 partial models;114 Markdown compatibility files remain;no downloads/workflows/push."
   },
@@ -75309,5 +75309,21 @@
       "Chain concurrency andother required gaps"
     ],
     "limits": "Extracted manufacturer text only;no visual inspection,download ordevice operation"
+  },
+  "se50_composite_processing_20261018": {
+    "checked": "2026-10-18",
+    "source": "https://fr.scribd.com/document/644989539/Boss-SE-50-fr",
+    "sections": [
+      "Vocoder",
+      "Rotary",
+      "Keyboard Multi1"
+    ],
+    "destination": "BOSS.md#se-50",
+    "access_limit": "Exposed extracted manual body stops during Keyboard Multi2;Guitar Multi chain not inspected",
+    "remaining": [
+      "Full chain topology/concurrency",
+      "Physical controls,display,power,dimensions/revisions",
+      "Qualified prices andother required fields"
+    ]
   }
 }

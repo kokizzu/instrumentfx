@@ -3260,7 +3260,7 @@ Checked2026-10-17;partial. Half-rack stereo multi-effects,distinct from SE-70. M
 | Display | Diagonal,color,touch andcharacter count unverified from inspectable primary evidence. |
 | Processing / category choices | BOSS identifies **Vocal Multi**,combining limiter,enhancer,noise suppression,delay,chorus,reverb. This proves multi-stage eligibility;full algorithm inventory,maximum simultaneous count androuting limits unresolved. [Manufacturer history][SE50-H]. |
 | Factory / user / total memory | **100 writable locations1–100 +28 protected presets101–128 =128total**. Preset edits must be written to1–100. This is not128user memories. [Roland support][SE50-M]. |
-| Synth / acoustic | Exact synth/acoustic-simulation functions unverified. Pitch orvocoder claims from secondary summaries not promoted. |
+| Synth / acoustic | Vocoder requirements are documented below;onboard synthesis andacoustic simulation remainunverified. |
 | I/O | Complete audio/control connector inventory,levels,headphones,phantom andUSB functions unresolved. Stereo inproductname does not prove everyalgorithm stereo. |
 | Power / battery / USB | Roland recommends **BRB-100/120/220/230/240**,withregional mains/plug compatibility. Exact outputvoltage/current,connector,operatingbattery andUSBpower remain unverified here. Do not substitutePSA based on BOSSbranding. [Power support][SE50-P]. |
 | Dimensions / weight | Unit axes,mass andrevision-dependent differences await readable originalspecifications. |
@@ -3316,6 +3316,16 @@ Checked2026-10-18 against the [French BOSS manual](https://fr.scribd.com/documen
 | I/O / documented panel inventory | Audio INPUT L(MONO)/R andOUTPUT L(MONO)/R;MIDI IN/OUT;EFFECT REMOTE andNUMBER SHIFT switch jacks;AC-adapter connection. LEVEL selects nominal input level. Remote jacks are controls,not an audio send/return loop. Phones/USB are not listed in this inventory. |
 | Power / backup battery distinction | Internal battery retains memory withpower off;manual recommends replacement everythree years,withactual life environment-dependent. This establishes **memory backup**,not battery-powered audio operation. MIDI backup orwritten settings are advised before possible memory loss. |
 | Live / effects-off modes | **DIRECT** passes dry sound;**MUTE** suppresses output. Manual recommends MUTE for mixer send/return use. FS-5L atEFFECT REMOTE controls global effects on/off;whilethat footswitch controls it,thefrontEFFECT button is inactive. Analog true-bypass circuitry is not established. |
+
+### SE-50 — vocoder and composite processing limits
+
+Checked2026-10-18 against the [French manufacturer manual](https://fr.scribd.com/document/644989539/Boss-SE-50-fr),©1990,Vocoder,Rotary andKeyboard Multi1 sections. Extracted text ends before Guitar Multi;full chain topology remainsunverified.
+
+| Required field | Evidence / qualification |
+|---|---|
+| Synth / vocoder requirements | **Seven frequency bands** process external microphone audio against a sustained keyboard signal. Microphone uses **right input**;external preamplification is recommended. Super Chorus andNoise Suppressor are included. This is external-carrier vocoding,not proof of an onboard note-generating synthesizer. |
+| Processing / Rotary controls | Separate low/high slow/fast rates andtransition times;Drive,level andseparation controls. **SPEED(TRIG)** toggles speed from a momentary MIDI controller;**SPEED** changes it while held. This does not establish an analog expression jack. |
+| Processing / Keyboard Multi1 limits | EQ,delay,Super Chorus andreverb have documented parameters;delay **0–800ms**,reverb **0.1–20s**. Effects can be switched individually. These are within this algorithm,not a global freely assignable chain or28simultaneous effects. |
 
 ### SE-50 source access and remaining verification
 
