@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 349,
+  "active_model_count": 350,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 349,
+  "canonical_root_model_count": 350,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "349 unique active/root-canonical;0 legacy-only;39 brands;six excluded;all partial.",
+  "count_reconciliation": "350 unique active/root-canonical;0 legacy-only;40 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "DK Master iE-550 discovery",
-    "task": "New exact Shopee leads andmanufacturerproductidentitysaved;notactive. Next inspect originalmanualcandidate/authorship/revision andmanufacturerpage before addingcanonicalrecord. Resolvevariant/condition/stockqualifications.",
+    "model": "DK iE-550",
+    "task": "Added exact manufacturer-backed partial guitar record;350active40brands. Next verify originalmanual/control/expression/memory/power andretailerrevisionconflicts;do notduplicatecolorvariants.",
     "next_models": [],
-    "after_queue": "349partialmodels;154basscomparisons;legacyconsolidationincomplete;no downloads/workflows/push."
+    "after_queue": "350partialmodels;154bass;legacyconsolidationincomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -24715,6 +24715,9 @@
     ],
     "Darkglass": [
       "Anagram"
+    ],
+    "DK": [
+      "iE-550"
     ]
   },
   "root_brand_content": {
@@ -25144,11 +25147,14 @@
     ],
     "DARKGLASS.md": [
       "Anagram"
+    ],
+    "DK.md": [
+      "iE-550"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 290,
+      "record_count": 291,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -25178,10 +25184,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 290 guitar, 154 documented bass-capable, 68 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 291 guitar, 154 documented bass-capable, 68 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "349 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "350 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -45543,10 +45549,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 349,
-    "canonical_root_models": 349,
+    "unique_brand_model_pairs": 350,
+    "canonical_root_models": 350,
     "legacy_only_models": 0,
-    "guitar_view_models": 290,
+    "guitar_view_models": 291,
     "bass_focused_models": 30,
     "vocal_only_models": 24,
     "vocal_view_models": 68,
@@ -45606,7 +45612,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Lexicon MX200."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume DK iE-550."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -45899,7 +45905,8 @@
       "Mosky::RD5",
       "Mosky::RC5",
       "Mosky::DC5",
-      "Ammoon::PockRock"
+      "Ammoon::PockRock",
+      "DK::iE-550"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -48854,6 +48861,13 @@
       "link": "DARKGLASS.md#anagram",
       "source_files": [
         "DARKGLASS.md"
+      ],
+      "finding_files": []
+    },
+    "DK::iE-550": {
+      "link": "DK.md#ie-550",
+      "source_files": [
+        "DK.md"
       ],
       "finding_files": []
     }
@@ -76295,7 +76309,7 @@
     "previous_scope_row": "| Instrument scope |Guitar/vocal via mixer or suitable preamp at line level;not direct mic/Hi-Z input. Bass unclassified [MX-M p.1] |"
   },
   "discovery_dk_ie550_20261018": {
-    "status": "New exact hardware lead; not active pending original-manual verification",
+    "status": "Added partial canonical DK.md#ie-550 from manufacturer English indexed product;manual still inaccessible",
     "initial_queries": [
       "site:shopee.co.id Yamaha FX500 efek",
       "site:shopee.co.id Yamaha FX550 efek",
