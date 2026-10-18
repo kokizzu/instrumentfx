@@ -1999,3 +1999,7 @@ research-commit-yamaha:
 .PHONY: research-gaps-test
 research-gaps-test:
 	python3 scripts/research_gaps.py test
+
+.PHONY: research-commit-digitech
+research-commit-digitech:
+	python3 scripts/digitech_catalogue.py commit

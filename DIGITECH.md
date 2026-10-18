@@ -852,3 +852,30 @@ Guitar multi-effects;partial,checked2026-10-18. Distinct fromRP155/RP250. [Manuf
 | Processing / library and bypass | Manualpp4–5,40–41: **30Tone Library and30Effects Library starting configurations**,not60extra memories ornewalgorithms. Tone changes compressor/distortion/amp-cab/EQ;Effects changes postampChorusFX/delay/reverb. Bothfootswitches engage manufacturer-described **true analog bypass**;holding2seconds enters muted tuner. This isnot proof of powered-off pass-through orpresetspillover. [Own manual](https://digitech.com/wp-content/uploads/2022/09/RP150Manual18-0429V-B_original.pdf). |
 
 <!-- comparison evidence ends -->
+
+## RP355
+
+Checked 2026-10-18; partial. Exact RP355, not RP350. [Manufacturer product](https://digitech.com/dp/rp355/) (P); [own manual](https://digitech.com/wp-content/uploads/2022/09/RP355_OM_EN.pdf),40 PDF pages,printed pp4–7,26,28,30 (M); browser text. [Power FAQ](https://digitech.com/faqs/) (F); [software catalogue](https://digitech.com/software-downloads/) (S).
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in assignable pedal;toe-pressure **V-switch toggles wah**. External expression unverified. M |
+| Knobs / footswitches / buttons | **6 rotaries /3 feet** (Up,Down,Amp A/B). Separate front buttons: two Edit,Drums,Store;rear-button audit pending. M |
+| Display | Preset/parameter display and LED matrix;diagonal,color,touch unverified. M |
+| Processing / choices | **11 simultaneous effects**; **126 combined amp/cab/stomp/effect models**, **34 amp/acoustic types** (P). Category census/routing unresolved. |
+| Memory | **70 user+70 factory=140**;initial user fill unverified. M/P |
+| Synth / acoustic | Electric-to-acoustic modeling advertised (P);SynthTalk listed (M),not proof of a full synthesizer. |
+| Dimensions / mass | **Conflict:** P:12.875D×8.375W×2.5H inches,4.5lb; M:17.5L×8.75W×2.5H inches,6.2lb. Neither silently selected. |
+| I/O | ¼-inch TS guitar input;⅛-inch stereo aux/headphones;L/R¼-inch unbalanced outputs;L/R impedance-balanced XLR;USB-B;power inlet. Full rear-panel audit pending. M |
+| Power | **9V AC/1.3A,PS0913B**,2.5mm pin (F);DC polarity inapplicable. P's120VAC60Hz is adapter mains,not pedal input. Battery/USB power unverified. |
+| IR / NAM / capture | User IR,native/converted NAM,proprietary captures unverified;factory cabinet modeling does not establish imports. |
+| Editor / software | X-Edit **2.7.0 Windows /2.7.1 Intel Mac** listed (S);current OS/driver operation unverified. **2×2 USB audio**,44.1kHz,16/24bit recording. M/P |
+| Looper / drums / scenes | **20-second looper;60 drum patterns**. Looper disables drums/Learn-A-Lick and amp A/B switching;exiting erases loop. Scenes unverified. M |
+| Used IDR | Unknown;no exact processor offer found in searches. |
+| New IDR | Unknown;seller/item,condition,stock,region,variant,bundle,warranty,voucher unverified. |
+
+<!-- comparison evidence ends -->
+
+Shopee rejection: [seller855783279/item22273291654](https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-RP350-RP355-RP300-PSU-i.855783279.22273291654),Agen Tekno,Kota Jakarta Barat;four-month indexed ask **Rp170.000** is an **adapter**,excluded from processor prices. Checked2026-10-18;no current hardware-stock claim.
