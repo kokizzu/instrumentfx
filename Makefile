@@ -2075,3 +2075,7 @@ research-push-sync:
 .PHONY: research-push-finalize
 research-push-finalize:
 	python3 scripts/research_push.py finalize
+
+.PHONY: expression-audit-commit-headrush
+expression-audit-commit-headrush:
+	python3 scripts/expression_audit_headrush.py commit

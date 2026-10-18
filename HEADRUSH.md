@@ -382,6 +382,14 @@ Cumulative2.7 notes,p.4 revise looper feedback: it affects recording/overdub, no
 [GB-F26]: https://cdn.inmusicbrands.com/HeadRush/FW/26/READ%20ME%20-%20HeadRush%20Gigboard%20Firmware%20Update%20v2.6.pdf
 [GB-R]: https://support.headrushfx.com/en/support/solutions/articles/69000848879-headrush-prime-and-core-where-are-all-the-preset-rigs-
 
+### Gigboard — expression-volume audit, 2026-10-19
+
+**Per-rig assignment;no global volume-target override established.** [Own2.1.2 guide][GB-M], printed pp13,20,23: Hardware Assign belongs to the rig. Classic A/B changes bypass the inactive pedal target;Advanced leaves its parameters active at maximum. A/B state is recalled with the rig;this isnot held-position recall. Target ranges are percentages;signal placement depends on the rig. Headphone,bypass,tail/recorded-loop attenuation remain unresolved. **Hybrid mode:FS3 previous,FS4 next rig**,separate frombank browsing. Existing329.2×225.6mm chassis fails preference;dedicated6.35mm phones. Later2.7 behavior not independently tested.
+
+[Manufacturer expression support](https://support.headrushfx.com/en/support/solutions/articles/69000822750-headrush-fx-how-to-setup-and-troubleshoot-an-external-expression-pedal) describes automatic assignment **after adding Volume to a rig**,not universal insertion. TRS sweep;separate toe switch selects A/B onGigboard. Volume minimum andlinear/log response editable;global polarity isnot globaltarget scope. Actual M-VAVE wiring remains unverified.
+
+Exact [Legato shop158413015/item4243270944][GB-O] rechecked2026-10-19 returns cached **Rp17.875.000** andrelativeToday delivery text. No current checkout/stock,condition,bundle,adapter,warranty orused-offer confirmation. Late-delivery voucher not deducted. No local download orhardware test.
+
 ## Pedalboard
 
 <!-- comparison evidence begins -->

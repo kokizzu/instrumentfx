@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "MOOER GS1000 standard (partial)",
-    "finding": "Manual explicitly saves volume/expression mode per preset; global Pre/Post does not override mode. Exact Nafiri hardware ask found, cached delivery conflict retained.",
+    "current": "HeadRush Gigboard (partial)",
+    "finding": "Hardware Assign belongs to rig; Classic A/B can bypass volume. Hybrid FS3/4 give previous/next. Exact Legato ask remains cached, not verified condition/stock.",
     "next": [
-      "Systematic remaining no-treadle inventory: HeadRush Gigboard",
+      "Systematic remaining no-treadle inventory: HeadRush Core",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
@@ -122593,7 +122593,7 @@
       "date": "2026-10-19",
       "source_commit": "87c7d3816a380ddc49e3af2b2441564f454f87d7",
       "scope": "Normalized inherited source checks without recertification or admitting partial leads; exact prior merged category preserved in public_metadata.remote_87c7d38_preserved.expression_category_before_normalization.",
-      "comparison_rows": 21,
+      "comparison_rows": 22,
       "adjacent_rows": 1,
       "active_inventory_changed": false
     }
