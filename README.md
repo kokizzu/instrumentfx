@@ -1,6 +1,6 @@
 # InstrumentFX — Guitar, Bass and Vocal Multi-effects
 
-**359 active model records · 44 brands · 6 excluded archival models.** All records retain explicit verification gaps; this is not exhaustive market coverage or a current-stock guarantee.
+**360 active model records · 45 brands · 6 excluded archival models.** All records retain explicit verification gaps; this is not exhaustive market coverage or a current-stock guarantee.
 
 Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eligible multi-effects unit the owner has ever owned. Work belongs only in **kokizzu/instrumentfx**. No GitHub Actions workflows,scheduled jobs or background research are part of this project.
 
@@ -8,10 +8,10 @@ Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eli
 
 | View | Contents |
 |---|---|
-| **[ALL-GUITAR.md](ALL-GUITAR.md)** |300 guitar/acoustic multi-effects, including **Line 6 HX Effects**, compared across hardware, processing, I/O/power/software and separate IDR tables |
+| **[ALL-GUITAR.md](ALL-GUITAR.md)** |301 guitar/acoustic multi-effects, including **Line 6 HX Effects**, compared across hardware, processing, I/O/power/software and separate IDR tables |
 | **[ALL-BASS.md](ALL-BASS.md)** |158 documented bass-capable models: 35 bass-focused plus 123 shared processors, with full comparison tables and explicit capability evidence |
 | **[ALL-VOCAL.md](ALL-VOCAL.md)** |69 vocal/live mic-path processors across the same four comparison tables; harmony, pitch correction and guitar paths remain distinct |
-| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Short expression/footprint/display comparison of 14 selected profiles; 359 detailed models are root-canonical |
+| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Short expression/footprint/display comparison of 14 selected profiles; 360 detailed models are root-canonical |
 | **[SINGLE-GUITAR.md](SINGLE-GUITAR.md)** |Dedicated synth, acoustic-simulation, vocoder and pitch pedals; separate from active multi-effects |
 | **[SINGLE-BASS.md](SINGLE-BASS.md)** |Bass-related dedicated effects, linked to their complete shared archive |
 | **[SINGLE-VOCAL.md](SINGLE-VOCAL.md)** |Explicitly excluded FV01 and dedicated-vocoder cross-reference, outside vocal multi-effects counts |
@@ -24,6 +24,7 @@ Root navigation links directly to canonical root documents. Historical link spel
 
 | Brand file | Currently consolidated models |
 |---|---|
+| [ROWIN.md](ROWIN.md) |RE-05 Looper Pro |
 | [DEMONFX.md](DEMONFX.md) |Dual Mod Workstation |
 | [KEELEY.md](KEELEY.md) |Delay Workstation |
 | [LEKATO.md](LEKATO.md) |ME-01 |
@@ -69,7 +70,7 @@ Root navigation links directly to canonical root documents. Historical link spel
 | [SONICAKE.md](SONICAKE.md) |Matribox QME-50, Smart Box QME-20, Pocket Master QME-10, Matribox II QME-100, Matribox II Pro QME-200, Sonic Wood QCE-50, Black Hammer QCE-30, RockStage QCE-10, Levitate QDS-02, B Factory QDS-05, A Factory QDS-04 |
 | [M-VAVE.md](M-VAVE.md) |TANK-G, TANK-B, TANK MINI, MK-20, MK-300, TANK-PRO, ANN Blackbox, MINI-X, Pocket Amp, CUBE BABY electric, CUBE BABY AC, CUBE BABY BASS |
 
-All recorded models are compared in their applicable instrument pages, with full-record links. All 359 recorded models have root brand sections. Legacy content preservation and local navigation checks have passed; compatibility paths remain and technical/market verification is incomplete. The comparison-table rebuild does not certify all fields or finish that migration. Do not create a new dated finding, progress part or document under `effects/`.
+All recorded models are compared in their applicable instrument pages, with full-record links. All 360 recorded models have root brand sections. Legacy content preservation and local navigation checks have passed; compatibility paths remain and technical/market verification is incomplete. The comparison-table rebuild does not certify all fields or finish that migration. Do not create a new dated finding, progress part or document under `effects/`.
 
 ## Research ledger
 
@@ -79,7 +80,7 @@ The [research ledger](research-state.json) records source provenance, model comm
 
 Technical verification and Shopee discovery remain incomplete. The ledger’s current cursor identifies the next task; a missing field means unverified, not No. Cached asking prices do not establish live stock.
 
-**Organization migration is incomplete:** 359 detailed models are root-canonical; 0 still rely on legacy source records. Compatibility files retain historical paths and anchors. Preservation checks do not certify technical specifications, current stock or exhaustive market coverage. See the ledger for preservation manifests, rollback metadata and remaining migration work.
+**Organization migration is incomplete:** 360 detailed models are root-canonical; 0 still rely on legacy source records. Compatibility files retain historical paths and anchors. Preservation checks do not certify technical specifications, current stock or exhaustive market coverage. See the ledger for preservation manifests, rollback metadata and remaining migration work.
 
 ## Scope and ownership
 

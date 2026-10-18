@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 359,
+  "active_model_count": 360,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 359,
+  "canonical_root_model_count": 360,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "359 unique active/root-canonical;0 legacy-only;44 brands;six excluded;all partial.",
+  "count_reconciliation": "360 unique active/root-canonical;0 legacy-only;45 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh hardware discovery / unresolved model fields",
-    "task": "AX3000B sevenCCtargets/OFF-orCC00–95 andincomingSysExregardlessSYEXOUT recorded. EditorOSprimaryrequirementsremainunverified,chartlandingcachemiss. Next freshhardwarediscoveryandotherrequiredfieldaudits;retainroutingconflicts,EXheight/software,G3Xdisplay/buttons,MP100IR/census.",
+    "model": "Fresh hardware discovery / Rowin unresolved fields",
+    "task": "Commit RE-05 Looper Pro before nextmodel. Then fresh DonnerAlphaFX/Caline/ENO discovery,resolveexactitems/manufacturermaterials;RowincompleteI/O/power/simultaneity/revisionremainunknown. PriorAX3000Bconflicts/G3X/EX/MP100gapsretained.",
     "next_models": [],
-    "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
+    "after_queue": "360 partial models;301 guitar,158 bass,69 vocal;45 brands. Migration incomplete;no downloads,workflows orpush."
   },
   "new_findings": [
     {
@@ -5384,6 +5384,13 @@
       "checked_date": "2026-10-18",
       "status": "partial",
       "finding": "Added original 505 from manufacturer E_505 manual and exact Shopee item. Seven modules, nine simultaneous effects, 24 editable factory-filled slots; English one-6LR61 versus Spanish four-AA discrepancy retained. Hardware condition and stock unverified."
+    },
+    {
+      "model": "ROWIN RE-05 Looper Pro",
+      "destination": "ROWIN.md#re-05-looper-pro",
+      "checked_date": "2026-10-18",
+      "status": "partial",
+      "finding": "Manufacturer4knobs/1foot,40sloop,chorus/delay/reverb112D60W45H350g;exactShopeeLooperPro575000Habis,sellerRE05labelunconfirmed. Remainingfieldsunknown."
     }
   ],
   "consolidation_and_price_findings": [
@@ -24879,6 +24886,9 @@
     ],
     "DemonFX": [
       "Dual Mod Workstation"
+    ],
+    "ROWIN": [
+      "RE-05 Looper Pro"
     ]
   },
   "root_brand_content": {
@@ -25328,11 +25338,14 @@
     ],
     "DEMONFX.md": [
       "Dual Mod Workstation"
+    ],
+    "ROWIN.md": [
+      "RE-05 Looper Pro"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 300,
+      "record_count": 301,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -25362,10 +25375,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 300 guitar, 158 documented bass-capable, 69 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 301 guitar, 158 documented bass-capable, 69 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "359 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "360 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -45788,10 +45801,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 359,
-    "canonical_root_models": 359,
+    "unique_brand_model_pairs": 360,
+    "canonical_root_models": 360,
     "legacy_only_models": 0,
-    "guitar_view_models": 300,
+    "guitar_view_models": 301,
     "bass_focused_models": 35,
     "vocal_only_models": 24,
     "vocal_view_models": 69,
@@ -45873,7 +45886,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh hardware discovery / unresolved model fields."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh hardware discovery / Rowin unresolved fields."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -46176,7 +46189,8 @@
       "Blackstar::ID:X Floor One",
       "LEKATO::ME-01",
       "Keeley::Delay Workstation",
-      "DemonFX::Dual Mod Workstation"
+      "DemonFX::Dual Mod Workstation",
+      "ROWIN::RE-05 Looper Pro"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -49210,6 +49224,13 @@
       "link": "DEMONFX.md#dual-mod-workstation",
       "source_files": [
         "DEMONFX.md"
+      ],
+      "finding_files": []
+    },
+    "ROWIN::RE-05 Looper Pro": {
+      "link": "ROWIN.md#re-05-looper-pro",
+      "source_files": [
+        "ROWIN.md"
       ],
       "finding_files": []
     }
@@ -80053,5 +80074,26 @@
       "site:shopee.co.id Boss ME-6 efek"
     ],
     "result": "Empty search results,no exact hardware established;not an availability claim."
+  },
+  "discovery_rowin_20261018": {
+    "manufacturer": "https://www.rowinmusic.com/pd.jsp?fromColId=168&id=243",
+    "offer": {
+      "shop_id": "19700013",
+      "item_id": "24253387970",
+      "idr": 575000,
+      "stock": "Habis",
+      "condition": "unverified",
+      "seller": "MICKEY MOUSE SHOP",
+      "region": "Kota Jakarta Pusat"
+    },
+    "other_leads": "CalineCP48/C300remainunresolvedexactitems;CA100G/Bamplifiersnotpromoted. DonnerAlphaFXshopSAPAudio550000snippetnoexactitem. Correct ENO query spelling for nextsearch;initialquerycontainedCyrillicO.",
+    "remaining": [
+      "Seller RE05 label/revision",
+      "Full I/O/power",
+      "Simultaneity and topology",
+      "Buttons/display",
+      "Memory/software/imports",
+      "Qualified used/new prices"
+    ]
   }
 }

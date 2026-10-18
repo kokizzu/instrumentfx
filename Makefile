@@ -1971,3 +1971,7 @@ research-commit-keeley:
 .PHONY: research-commit-demonfx
 research-commit-demonfx:
 	python3 scripts/demonfx_catalogue.py commit
+
+.PHONY: research-commit-rowin
+research-commit-rowin:
+	python3 scripts/rowin_catalogue.py commit
