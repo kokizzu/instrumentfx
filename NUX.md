@@ -1363,6 +1363,16 @@ Manufacturer-authored quick-start text reproduced at [AAS-M][AAS-M], identity NM
 | Routing / independent IR outputs | L/R can select different IRs or disable IR on one output. This supports a cab-free output alongside a cabinet-processed output; it does not prove separate amp engines. [Manual][AAS-M] |
 | Preset controls / scene copying | HOME press cycles scenes; in preset mode its rotation selects presets. Holding EDIT after editing saves the preset or copies a scene. R recalls initial preset parameters after edits; it is not described as a factory reset. [Manual][AAS-M] |
 
+### Amp Academy Stomp firmware controls and additional offers,2026-10-18
+
+| Field | Evidence / qualification |
+|---|---|
+| Quick Block / delay editing | Manufacturer assigns any effect to each of four third-row buttons through Global settings;press toggles it,hold opens its edit interface. V2.0.5 DLY editing:press EDIT to alternate milliseconds/BPM,rotate to set time. [Product][AAS-P] |
+| Amp / DeepImage additions / version | V2.0.5 adds six: I XTC CLEAN, I XTC BLUE, I XTC RED, I CAE 3+ CLEAN, I CAE 3+ CRUNCH, I CAE 3+ LEAD. These supplement the page’s older three-model paragraph;not six additional simultaneous amp engines. [Product][AAS-P] |
+| IDR voucher-dependent condition-unverified ask | **Rp4.559.000**, [Salomo Musik,shop1776275/item43762762018](https://shopee.co.id/NUX-Amp-Academy-Stomp-Compact-Modeler-Original-i.1776275.43762762018),KotaJakartaUtara. Direct body retrieved,three-week cache;shown with voucher and10% banner requiringRp10k spend. Voucher eligibility/cap/base price/final checkout unresolved;do not deduct another10%. Relative tomorrow delivery is notstock proof. Condition,variant,bundle,warranty unverified;late-deliveryRp10k compensation notdiscount. |
+| IDR indexed condition-unverified ask | **Rp4.560.000**, [SEVEN STEREO Malang,shop1408254222/item53061282273](https://shopee.co.id/product/1408254222/53061282273),KotaMalang. Two-month indexed body with3–5August delivery;direct cache miss. Condition,stock,variant,bundle,warranty andvoucher unverified;not a verified new/used bound. |
+| IDR unresolved item-identity lead | [shop238779157/item48100159969](https://shopee.co.id/Valeton-GP200-Like-New-i.238779157.48100159969):indexed title Amp Academy Stomp,Rp2.850.000,Habis,UM Audio Official,KabPonorogo;URL slug Valeton GP200 Like New. Direct body onlyJavaScript shell. Changed-listing/modelidentity unresolved;exclude from accepted model prices anddo not inferusedcondition fromslug. |
+
 
 ## Atlantic NDR-5
 

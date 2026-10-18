@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "NUX MG-200",
-    "task": "MG-200 technical gaps need a genuinely new primary route; exact condition and stock remain unverified. Continue fresh Shopee discovery across other eligible models.",
+    "model": "NUX Amp Academy Stomp",
+    "task": "Useful update committed;next fresh Shopee discovery or another model’s required-field gaps. Avoid repeating inaccessible V5 PDF route.",
     "next_models": [],
     "after_queue": "378 active models,46 brands,all partial;114 compatibility Markdown files remain;no downloads/workflows/push."
   },
@@ -46305,7 +46305,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX MG-200."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX Amp Academy Stomp."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -81934,7 +81934,7 @@
     "scope": "Explicit uncertainty signals in selected comparison field labels and values only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
     "model_count": 378,
     "models_with_signals": 378,
-    "flagged_field_count": 4813,
+    "flagged_field_count": 4816,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -102231,6 +102231,28 @@
             "signals": [
               "not_established"
             ]
+          },
+          {
+            "field": "IDR voucher-dependent condition-unverified ask",
+            "source": "NUX.md",
+            "signals": [
+              "unverified",
+              "unresolved"
+            ]
+          },
+          {
+            "field": "IDR indexed condition-unverified ask",
+            "source": "NUX.md",
+            "signals": [
+              "unverified"
+            ]
+          },
+          {
+            "field": "IDR unresolved item-identity lead",
+            "source": "NUX.md",
+            "signals": [
+              "unresolved"
+            ]
           }
         ]
       },
@@ -118436,7 +118458,7 @@
       "TC-ELECTRONIC.md": "46ca68e66568f02e972ac73999ae6e09ce1746d8833b8d9e725b74664b4c2fbc",
       "VALETON.md": "e335ead12e652b2f04053cb58702d5055e6bcf32c61cbca143572baf2cb4b03e",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
-      "ALL-GUITAR.md": "bdb889ec2d54d3ad7c8bf28f87aa941830d82d4e7aac2f625a48de51589e60f0",
+      "ALL-GUITAR.md": "0b9c144e3ff1817ba980442e4582628d552bcbe2951655deb05dda597de63ad4",
       "LINE6.md": "bbbe508cca147737b97aadbd9b3fbb2e20faa83c7ae8e717abd7acd42c6e63da",
       "YAMAHA.md": "ed6c13b0c5344d5f227d1c08e7e66c65e9e636498b6a1e6c2ed853edb0d748c0",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
@@ -118455,7 +118477,7 @@
       "TECH21.md": "958cba8793e10c2ba4eaa7386bcd0e528107d05126bbe91d3de1c81251129407",
       "MOOER.md": "cdad5c6009106194df97ab42a7c0e5b4bb606ff1bde54be36dfd5c4a578be039",
       "BEHRINGER.md": "8746e2a4c6f49febe91bde776a38dd035352781e66c258940a33d85d1c69218d",
-      "NUX.md": "67d4ffeff657c2870fbdeb69b3b5e5cf8634b11355e6803c5a0cc20af2b395e6",
+      "NUX.md": "9d2799597c9d9ca248a6d7622b0481ab4baa511e3e3d33a4971e71f1cf49e852",
       "IK-MULTIMEDIA.md": "ce23e1624886fada92ab0ff1c92554e04c01d18ca79839dc13744acdba2b9903",
       "SINGLE-VOCAL.md": "acb51be0b82d540d045e92e126882df43bb3c7380b45f3be5cc48a7828827796",
       "DARKGLASS.md": "4df816629a31b454d8c69de300525d97a85718749f23f4e684b243c5b50fce06",
@@ -118923,5 +118945,15 @@
     "destination": "NUX.md#mg-200",
     "result": "Recovered exact item from category link; Rp1.1m Bekasi ask, seller title normal-operation claim only; direct inaccessible and category cache dates conflict.",
     "next": "MG-200 technical gaps need a genuinely new primary route; exact condition and stock remain unverified. Continue fresh Shopee discovery across other eligible models."
+  },
+  "aas_followup_20261018": {
+    "destination": "NUX.md#amp-academy-stomp",
+    "sources": [
+      "https://nuxaudio.com/product/ampacademystomp/",
+      "https://shopee.co.id/NUX-Amp-Academy-Stomp-Compact-Modeler-Original-i.1776275.43762762018",
+      "https://shopee.co.id/product/1408254222/53061282273"
+    ],
+    "result": "Added Quick Block behavior,six firmware additions,two qualified offers; excluded ambiguous Valeton-slug item from accepted model price evidence.",
+    "remaining": "Full current manual,capacity conflicts,concurrency,IR formats,touch,visual control confirmation,power operation,condition-qualified offers."
   }
 }
