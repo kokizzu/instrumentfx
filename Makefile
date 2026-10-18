@@ -2051,3 +2051,7 @@ expression-audit-commit-valeton:
 .PHONY: expression-audit-commit-line6
 expression-audit-commit-line6:
 	python3 scripts/expression_audit_line6.py commit
+
+.PHONY: expression-audit-commit-boss
+expression-audit-commit-boss:
+	python3 scripts/expression_audit_boss.py commit

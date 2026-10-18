@@ -988,6 +988,14 @@ Checked 2026-10-16. [Official product](https://www.boss.info/global/products/gt-
 | Used | Unknown;no exact condition-verified Indonesian used offer established. | — |
 | Retail-style / Boss Official Shop,Tangerang Selatan | Rp14.450.000,Habis;crossedRp17.000.000,15% off. Cached body reopened2026-10-16,relative tomorrow delivery;not current stock. Free gift advertised but contents unknown. Condition,adapter/bundle,warranty region,shipping/tax and seller affiliation unconfirmed. Late-delivery voucher up toRp10.000 is not a checkout discount. | [341882414 /15035629131](https://shopee.co.id/BOSS-GT-1000CORE-Guitar-Effects-Processor-Pedal-Multi-Efek-i.341882414.15035629131) |
 
+### GT-1000CORE — system expression-volume assignment, 2026-10-19
+
+[Manufacturer-authored owner manual mirror](https://www.notice-facile.com/en/manual/1420090/boss%2Bgt-1000core), exact GT-1000CORE original body pp2,4,13: **PREF=SYSTEM shares expression functions across all patches**. [Own parameter guide mirror](https://manualzz.com/doc/90259078/boss-gt-1000core-guitar-effects-processor-owner-manual), original CONTROL FUNCTION table, offers EXP1/EXP2 FUNCTION=FOOT VOL. Thus system-wide target assignment is documented, not merely calibration/position recall. No device test; competing patch ASSIGN interactions remain unchecked.
+
+[Official parameter guide eng03](https://static.roland.com/assets/media/pdf/GT-1000CORE_parameter_eng03_W.pdf), indexed table: volume minimum/maximum0–100; curves Slow1/Slow2/Normal/Fast. Their global scope and uniform FV placement across factory presets remain unverified. Bypass, tails and looper coverage need signal-path review. Headphones share L/PHONES: leave R/MONO empty; only OUTPUT signal, not SUB OUT, reaches phones. Onboard down/up selects patches. Existing173×135mm chassis fits preference. [Capability comparison](EXPRESSION-VOLUME.md).
+
+Official owner/parameter PDF reopening returned403; mirrors' original body and indexed official tables used, not generated diagrams or FAQs. No downloads or device operation.
+
 ## GX-10
 
 Consolidated and refreshed2026-10-16;partial technical verification. Original dates/contradictions retained. Historical next-model notes below are provenance;current queue is in research-state.json.

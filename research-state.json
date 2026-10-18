@@ -121648,10 +121648,9 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "Line 6 HX One",
-    "finding": "RevF3.83:perpreset assignments/endpoints,globalposition recall only;selectedVolumePedal model,no independentglobalstage established.Compact,noheadphones,onboardPresetMode prevnext.",
+    "current": "BOSS GT-1000CORE",
+    "finding": "Own manual SYSTEM preference shares EXP functions acrosspatches;FOOTVOL target supported. Endpoint/placement scope,ASSIGN interactions,bypass/tails/looper unresolved;sharedphones OUTPUTonly.",
     "next": [
-      "BOSS GT-1000CORE",
       "M-VAVE exact controller wiring",
       "Line 6 POD Express manufacturer dimensions",
       "Exact Shopee Indonesia offers"
