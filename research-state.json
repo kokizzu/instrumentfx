@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro ODDS30+3custom;preamp3custom/speaker2custom andshared-edit caveat saved. Next fullpreamp/drive menu reconciliation,USBstreamformat,44category audit.392partial;migration incomplete.",
+    "task": "GT-Pro USB24bit44.1Special/16bit44.1Standard andnoUSB-DINbridge saved. Next fullpreamp/drive menus,USBchannelcount/reprocessing,44category audit.392partial;migration incomplete.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -121448,5 +121448,13 @@
       "speaker_custom": 2
     },
     "qualification": "Shared custom edits affect referencing patches;parameter cabinet editor not IR import. Full preamp/drive named menus pending."
+  },
+  "gtpro_usb_resolution_20261019": {
+    "source": "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+    "pages": "110,126official indexed",
+    "special": "24bit/44.1kHz",
+    "standard": "16bit/44.1kHz",
+    "restriction": "PhysicalMIDIIN/OUT cannot act ascomputerMIDIinterface in eitherdriver mode.",
+    "qualification": "Manual-eraWindows/Macintosh;channelcount/currenthost operation unverified."
   }
 }

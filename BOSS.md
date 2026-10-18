@@ -3922,3 +3922,15 @@ Checked 2026-10-19: manufacturer-authored GT-PRO manual [indexed p31](https://ro
 | IR / custom speaker distinction | **2 custom speaker definitions** with5–15-inch modeled speaker size,1/2/4/8 speakers,open/closed cabinet andlow/high coloration controls. This parameter-based cabinet editor doesnot establish user IR loading,NAM orcapture import. Modeled speaker diameter isnot display diagonal. |
 
 USBstreamformat,full preamp/drive menus and44-category headline reconciliation remain unresolved. No downloads,device edits orsoftware execution.
+
+### GT-Pro — verified USB stream resolution and MIDI-port limitation
+
+Checked 2026-10-19 against [official original manual](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf),indexed printedpp110/126,Windows/Macintosh driver-mode sections. Exact GT-PRO title;manufacturer text,no installed driver/device test.
+
+| Field | Evidence / qualification |
+|---|---|
+| USB / stream format | **Special driver mode:24-bit/44.1kHz;Standard mode:16-bit/44.1kHz**,explicitly stated forboth historical Windows andMacintosh driver sections. This resolves stream resolution independently ofinternal converters/S/PDIF. Channel count remains unverified. |
+| USB / MIDI interface restriction | Inboth modes,thephysical MIDIIN/OUT sockets **cannot serve as thecomputer's MIDI interface**. This is distinct fromAdvanced-mode USB control/editor communication withGT-Pro itself;connector presence doesnot imply USB-to-DIN bridging. |
+| Editor / historical driver qualifications | Standard Windows/MacOS drivers described here lackASIO;MacOS8.6 requiresSpecial mode. SpecialMac mode cannot play Macintoshsound-manager audio suchas alerts/CDs. These are manual-era limitations,not blanket claims about modernmacOS/Windows compatibility. |
+
+Earlier USBbit-depth uncertainty is superseded here;channelcount,currentdriver operation andexact reprocessing settings remain open. Fullpreamp/drive menu and44-category reconciliation also pending. No downloads ordevice operation.
