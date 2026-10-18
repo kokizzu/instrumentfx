@@ -1983,3 +1983,11 @@ research-commit-erok:
 .PHONY: research-commit-tech21
 research-commit-tech21:
 	python3 scripts/tech21_catalogue.py commit
+
+.PHONY: research-gaps-plan research-gaps-apply research-gaps-commit
+research-gaps-plan:
+	python3 scripts/research_gaps.py plan
+research-gaps-apply:
+	python3 scripts/research_gaps.py apply
+research-gaps-commit:
+	python3 scripts/research_gaps.py commit
