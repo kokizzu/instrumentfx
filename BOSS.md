@@ -3283,6 +3283,15 @@ Checked2026-10-17;partial. Half-rack stereo multi-effects,distinct from SE-70. M
 | Software / MIDI backup | [SE-50 Bulk Loading support](https://support.roland.com/hc/en-us/articles/201964189-SE-50-Bulk-Loading-System-Exclusive-Data),updated2023-04-12,indexed text:patch andsystem data can be saved to MIDIsequencer asSysEx andrestored byBulkLoad. Article describes channel1 andUTILITY/PARAMETER navigation toWAITING,thenRECEIVING/IDLING. Direct reopen failed;index-only evidence. This is patch/system transfer,not proof ofIR/NAM import,afull editor orUSB. |
 | Memory / writing | [Roland writing article](https://support.roland.com/hc/en-us/articles/201938609-SE-50-Writing-a-Patch-into-Memory),updated2023-04-13,indexedtext:101–128arepermanentROM;writing1–100overwritesdestination. [Naming article](https://support.roland.com/hc/en-us/articles/201923379-SE-50-Naming-a-Patch),updated2025-12-19:custompatchnamesrequireWRITEtosave. No hardware changes performed. |
 
+### SE-50 — factory initialization scope,2026-10-18
+
+[Roland’s model-specific reset article](https://support.roland.com/hc/en-us/articles/201925569-SE-50-How-to-perform-a-Factory-Preset),updated2026-09-07,direct body checked2026-10-18. Documentation only;no reset ordevice operation.
+
+| Required field | Evidence / qualification |
+|---|---|
+| Memory / selectable initialization | Procedure enters initialization with PARAMETER-up+VALUE-up atpower-on,thenWRITE,range selection andWRITE confirmation. Article lists **SYSTEM–No.100** as the range andwarns **all USER information will be lost**. It does not fully explain per-selection behavior or establish a protected settings-only reset;preserve the stated range rather than inventing one. |
+| Software / backup evidence access | Existing SysEx article remains index-only:direct reopen on2026-10-18 returned404,while manufacturer search still exposes its patch/system transfer instructions. This does not invalidate the retained indexed evidence orverify a current editor. [Original article](https://support.roland.com/hc/en-us/articles/201964189-SE-50-Bulk-Loading-System-Exclusive-Data) |
+
 ### SE-50 source access and remaining verification
 
 [Official archive](https://www.boss.info/us/support/manual_archive/) links [144-page original manual](https://cdn.roland.com/assets/media/pdf/SE-50_OM.pdf),zero extractedlines. [ManualsLib copy](https://www.manualslib.com/manual/1014513/Boss-Se-50.html) exposescontents butselectedpages lackedoriginalbody. No fullmanual/visual verification claimed.

@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": null,
-    "task": "Saved additional-brand discovery and manufacturer-backed NUX B-8 scope rejection. No qualified missing processor from searched series. Next other eligible series or unresolved technical fields;ME-8 rotary count remainsunverified.",
+    "model": "BOSS SE-50",
+    "task": "Saved selectable factory-initialization range anddata-loss warning;SysEx article direct404 remainsindex-only. Next readable original manual/hardware specifications orfresh Shopee discovery.",
     "next_models": [],
     "after_queue": "349 partial models;114 Markdown compatibility files remain;no downloads/workflows/push."
   },
@@ -45606,7 +45606,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS ME-8."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume BOSS SE-50."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -75260,5 +75260,25 @@
     "other_results": "No qualified missing processor offer established for the other exact searches;Zoom A3 results were unrelated lamps/cameras/laminators or existing model lists. Search absence does not establish market unavailability.",
     "inventory_effect": "349active/6excluded unchanged;no brand or comparison rows added",
     "next": "Continue other eligible series or model technical gaps;do not requeue B-8 as general multi-effects solely because of multiple utility functions."
+  },
+  "se50_reset_scope_20261018": {
+    "checked": "2026-10-18",
+    "source": "https://support.roland.com/hc/en-us/articles/201925569-SE-50-How-to-perform-a-Factory-Preset",
+    "updated": "2026-09-07",
+    "access": "Direct manufacturer body",
+    "findings": [
+      "Selectable initialization range printed SYSTEM–No.100",
+      "Manufacturer warns all user information lost;per-range semantics not fully explained"
+    ],
+    "source_access_recheck": {
+      "url": "https://support.roland.com/hc/en-us/articles/201964189-SE-50-Bulk-Loading-System-Exclusive-Data",
+      "direct": "404",
+      "search": "Manufacturer-indexed transfer instructions still present;existing evidence remains index-only"
+    },
+    "remaining": [
+      "Readable original manual andfull algorithm chains",
+      "SE50/SE50A hardware distinctions",
+      "Physical controls,ports,power andother required technical fields"
+    ]
   }
 }
