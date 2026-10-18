@@ -3866,11 +3866,18 @@ Checked2026-10-18 against [own manufacturer manual][ZNU-C], pp22–26,29–30. D
 | Live / preselect | PRE SELECT stages a patch until both footswitches confirm;editing/storing beforeconfirmation affects the current patch. Power cycle exits thismode. |
 | External control / FS01 | Seven global assignments: **BP/MT,BANK UP,RHYTHM,BPM TAP,DL TAP,DL HOLD,DL MUTE**. Delay operations require DELAY enabled;assignment survivespower-off. |
 
+### G2.1Nu — analog levels and specification conditions
+
+| Field | Manufacturer specification / limits |
+|---|---|
+| I/O / analog input andoutput ratings | Own manualp50: **input1MΩ,rated−20dBm;maximumlineoutput+5dBm into≥10kΩ;headphones20mW+20mW into32Ω**. Manualuses0dBm=0.775Vrms convention. Ratings arenot measured clipping/headroom results. [Specifications][ZNU-M] |
+| Conversion / response andnoise | **20Hz–40kHz,+1/−3dB at10kΩload;120dB equivalent-input-noise S/N;−100dBm residualnoise**. Keep distinct noise metrics;not120dB measured complete-system dynamicrange. [Specifications][ZNU-M] |
+
 <!-- comparison evidence ends -->
 
 [ZNU-M]: https://zoomcorp.com/media/documents/E_G2Nu_G21Nu_0.pdf
 [ZNU-S]: https://zoomcorp.com/en/us/multi-effects/guitar-effects/g21nu/g21nu/
 
-Manufacturer-hosted manual identity/contents and printed pp27,50 were returned by indexed search;full reader open exceeded its size limit. No PDF,installer,firmware or dependencies downloaded. Exact Shopee item,complete controls/ports,per-category choices,display details,live limits,current editor compatibility andimport scope remain open.
+Manufacturer-hosted manual identity/contents and printed pp27,50 were returned by indexed search;full reader open exceeded its size limit. No PDF,installer,firmware or dependencies downloaded. Exact Shopee item,USB connector subtype,display details,looper persistence,current editor compatibility,83-type counting convention andimport scope remain open. Controls/ports text inventory andcategory census above supersede earlier pending descriptions.
 
 [ZNU-C]: https://www.manualzz.com/doc/9165611/zoom-g2.1nu-operation-manual
