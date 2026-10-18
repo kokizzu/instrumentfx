@@ -2222,3 +2222,15 @@ Checked 2026-10-19 against the [same manufacturer-authored family manual](https:
 | USB / software | Windows low-latency audio requires ASIO; Mac is driverless. Normal/Re-Amp and per-side dry/wet recording supported. |
 
 These operating details do not establish additional protected factory memory, unrestricted spillover, a scene engine or Li-specific NAM firmware support. No device operation or download.
+
+### GE200 Plus Li — manual category census
+
+Checked 2026-10-19; [same exact family manual](https://device.report/m/0f55d0035aa3b836aedc07bc6662d8d67aa911fb928054d16bb80ceb7706ec81), printed pp.42–54. Counts follow numbered model lists, not parameter rows.
+
+| Field | Appendix choices / qualification |
+|---|---|
+| Processing / categories | FX/COMP35; DS/OD28; AMP100 (46 classic preamps+28 boutique preamps+26 complete amps); CAB77 (23 classic+54 boutique); NS3; EQ6; MOD38; DELAY11; REVERB9. |
+| Processing / interpretation | Nine category lists total307 placements, including duplicated algorithms across FX/COMP, MOD and NS; not307 unique effects or simultaneous blocks. Published270+ headline retained. Installed-version census and simultaneous ceiling remain unverified. |
+| Synth / bass classification | Pitch, ring and filter choices alone do not establish a dedicated synth engine; Bassman-named guitar models do not establish bass-instrument suitability. |
+
+Revision date remains unverified; these are the inspected manual's counts, not proof of the current firmware library. Button total, Li-specific NAM support, factory-filled memory and qualified IDR offers remain open.

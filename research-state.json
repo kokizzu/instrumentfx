@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER GE200 Plus Li",
-    "task": "GE200 Plus Li: verify category census/full button count and exact Li firmware/NAM support; factory-filled count and qualified IDR still unknown. Then resume fresh Shopee discovery.390 partial,migration incomplete.",
+    "task": "GE200 Plus Li category census saved. Next exact Li firmware/NAM and button count evidence; factory-filled count/IDR unknown. If unavailable, resume fresh Shopee discovery rather than repeat identical searches.390 partial,migration incomplete.",
     "next_models": [
       "MOOER::GE200 Plus Li"
     ],
@@ -121136,5 +121136,21 @@
     "source": "https://device.report/m/0f55d0035aa3b836aedc07bc6662d8d67aa911fb928054d16bb80ceb7706ec81",
     "pages": "11–16,27–28",
     "findings": "85x3 save destinations; factory fill unknown; saved CTRL/expression mappings; global calibration; restricted cross-preset trails; CAB SIM THRU; host-driver and reamp distinctions."
+  },
+  "ge200plus_li_census_20261019": {
+    "source": "https://device.report/m/0f55d0035aa3b836aedc07bc6662d8d67aa911fb928054d16bb80ceb7706ec81",
+    "pages": "42–54",
+    "counts": {
+      "FX_COMP": 35,
+      "DS_OD": 28,
+      "AMP": 100,
+      "CAB": 77,
+      "NS": 3,
+      "EQ": 6,
+      "MOD": 38,
+      "DELAY": 11,
+      "REVERB": 9
+    },
+    "qualification": "307 category placements include duplicates; not unique algorithms or simultaneous capacity. Revision/installed version unknown."
   }
 }
