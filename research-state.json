@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Korg AX3G",
-    "task": "Saved mono-input battery switching, shared headphone output and tuner calibration/reset. Next another required specification gap or new Shopee brand/series lead; current/polarity/display remain unresolved.",
+    "model": "Zoom B2 FOUR",
+    "task": "Saved empty-slot requirement, patch-level recovery and algorithm-specific momentary switching. No originalB2/AX3B/BP200 hardware lead; next different Shopee series or required model gap. Control visual verification still blocked by unavailable browser, not a research-wide blocker.",
     "next_models": [],
     "after_queue": "353 partial models;294 guitar155 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
@@ -45765,7 +45765,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX3G."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom B2 FOUR."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -74867,11 +74867,12 @@
   },
   "discovery_bass_legacy_20261018": {
     "queries": [
-      "site:shopee.co.id \"Zoom\" \"B9.1ut\"",
-      "site:shopee.co.id \"Zoom\" \"BFX708\"",
-      "site:shopee.co.id \"Boss\" \"GT10B\""
+      "Shopee Zoom B2 excluding B2.1/B2 FOUR",
+      "Shopee Korg AX3B",
+      "Shopee DigiTech BP200"
     ],
-    "result": "No exact bass processor hardware offer established;GT10B result contained adapters and guitar GT10 items,not accepted bass hardware. Absence is not unavailability."
+    "result": "No exact new-model hardware offer established. BP200 power adapter item16626959/4486100964 excluded; B2 FOUR results already recorded.",
+    "control_attempt": "In-app browser unavailable; no panel visual inspection or new count asserted."
   },
   "criticalmass_supply_reverb_20261018": {
     "source": "https://www.handleiding.guide/pdf/817823",
@@ -77144,6 +77145,20 @@
       "Display specifications",
       "Exact qualified used/new IDR offers",
       "Import/software capability evidence"
+    ]
+  },
+  "technical_followup_b2four_memory_20261018": {
+    "source": "https://zoomcorp.com/manuals/b2four-en/",
+    "findings": [
+      "NEW requires empty slot; erased patches marked Empty within300-location capacity.",
+      "Patch REVERT distinguishes state after selection from factory patch; separate from ALL INIT.",
+      "Momentary footswitch function is effect-specific."
+    ],
+    "remaining": [
+      "Complete visually corroborated control census",
+      "Display physical specifications",
+      "Exact sample rate",
+      "Verified current used/new offers"
     ]
   }
 }

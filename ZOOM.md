@@ -1221,6 +1221,16 @@ Checked2026-10-18.
 |---|---|
 | Physical controls / supported count | [Product’s Navigate and Create section](https://zoomcorp.com/en/us/multi-effects/bass-effects/b2-four/) explicitly specifies **four rotary encoders**. [Own manual,Functions of parts](https://zoomcorp.com/manuals/b2four-en/) distinguishes direction buttons,main footswitches,DI MODEL switch andbypass switch;direction buttons can be foot-operated. This text does not give an exact total. CurrentK/F/B is therefore **4/?/?** pending diagram/photo corroboration andconsistent classification. Historical4/6/4 is preserved as an unverified older observation,not a current certified count. |
 
+### B2 FOUR — patch creation and recovery limits, 2026-10-18
+
+[Own operation manual](https://zoomcorp.com/manuals/b2four-en/), Creating/Deleting/Reverting patch memories and Footswitch special functions. Text inspection; no device operations.
+
+| Field | Behavior / qualification |
+|---|---|
+| Memory / empty-slot requirement | **NEW requires an empty patch memory**; its screen is unavailable when all300 are occupied. PATCH ERASE clears contents and marks the location **Empty**; it does not reduce the300-location capacity. |
+| Memory / patch recovery scope | REVERT offers **PREVIOUS**, restoring the state immediately after selection, or **FACTORY**, restoring that patch’s factory state. These are patch-level operations, distinct from the documented all-settings ALL INIT reset; PREVIOUS is not proof of undo history across power-off. |
+| Live / momentary effect control | Some effects can sound only while their footswitch is held; special-function parameters appear inverted. This is algorithm-specific behavior, not a universal momentary setting, extra footswitch or additional processing slot. |
+
 <!-- comparison evidence ends -->
 
 ## B6
