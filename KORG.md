@@ -535,7 +535,7 @@ Checked2026-10-17. Partial **bass multi-effects** record; distinct from AX10G/AX
 | Dimensions / weight | **287W×182D×60H mm;1.1kg without batteries**. |
 | Power | FourAAalkaline,about18h;separateDC9Vadapter. Japanese EFGJ1 p50 names **KA181** (indexed manufacturer text); see adapter qualification below. Unit polarity symbol not extracted;draw andUSB power unknown. |
 | I/O | Mono¼bassinput;shared stereo¼line/headphonesoutput;DC9V. Rear InputL/H andAmp/Line switches. No USB/MIDI/FX-loop sockets in complete rear inventory. |
-| Synth / acoustic | Talk/filter/pitch effects documented;general synth/acoustic-simulation capability unverified. |
+| Synth / acoustic | Own program chart includes **Synth1(preset84)** using OCTAVE/EQ/FILTER/SLAP and**Synth2(94)** using OCTAVE/LA STUDIO/FILTER. These are synth-like patches assembled fromexistingblocks,not proof ofa separate oscillator/polyphonic synth engine. Acoustic simulation unverified. |
 | IR / NAM / captures | UserIR,native/convertedNAM,capture import unverified. |
 | Software | Full-editor platforms,driver/updater support unverified;no USB interface established. |
 | Looper / drums / live | Looper/drums/scenes unverified. Tuner calibration438–445Hz resets440;pedal position cannot be stored. |
@@ -598,6 +598,10 @@ Official [Easy Start entry](https://www.korg.com/us/support/download/manual/1/22
 ### AX10B — EasyStart simultaneous processing and source conflict
 
 Checked2026-10-18. [Korg official AX10B EasyStart entry](https://www.korg.com/us/support/download/manual/1/22/2038/) links AX10_Series_EasyStart.pdf;CDN route still cache-misses. The [matching manufacturer-authored two-page EasyStart mirror](https://manualzz.com/doc/2066567/korg-ax10-g-guitar-effects-processor--ax10-b-bass-effects...) contains separate AX10G/B/A panels andshared procedures;only original document text was used,not generated FAQ. AX10B explicitly permits three effects plusnoise reduction alongsideamp choice. Its26-effects shorthand differs fromthe detailed PRE3+MOD11+AMBIENCE11+NR1 breakdown onlyin presentation,not26 simultaneousblocks. Shared pedalinstructions incorrectly name WAH forAX10B;ownmanual instead documents OCTAVE. Preserve this inconsistency;do notaddwah capability. Original guide revision/date unprinted;support upload2015-06-01 isnot productlaunch proof. No local file download.
+
+### AX10B — synth-like patches and modulation scope
+
+Checked2026-10-18 from [manufacturer EFGJ1 manual](https://cdn.korg.com/jp/support/download/files/315583a1909cadeb1539dd6c1941c444.pdf?response-content-disposition=inline%3Bfilename%3DAX10B_EFGJ1.pdf&response-content-type=application%2Fpdf%3B),Englishp11 andprogramchart(PDFp51). FILTER follows picking dynamics orpedal position;TALK similarly uses pickattack/pedal. PITCH1 mixes shifted anddirect signal;PITCH2 isfullywet. FEEDBK offers normal andoctave-up feedback fromheldnotes. These are choices inoneMODblock,not additional simultaneous modules. Programchart supplies thetwoSynthpatches above;it doesnot establish independent syntharchitecture. Powerdraw,screen diagonal andconversionformat remain unknown;freshlimitedShopee search foundnoqualifiedAX10Bhardware offer. No file download/deviceoperation.
 
 ## AX3000B
 
