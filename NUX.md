@@ -180,6 +180,18 @@ The manual predates GEN2 additions. The original review identified GEN2 firmware
 | Processing / block substitution | In EDIT, long-pressing the block offers **CMP→EFX, EFX→MOD, RVB→DLY**. Manufacturer examples include stacked drives, Octave plus Rotary, and dual delays. These replace block functions, not three additional positions beyond the documented ten. |
 | Conversion / level wording | Global specifications list **48kHz,32-bit ADConverter**, response20Hz–20kHz+1dB, dynamic range106dB and input/output+8dBu. The page does not qualify those level figures as nominal versus maximum here; ADC wording does not independently specify DAC resolution or USB stream word length. |
 
+
+### MG-300 MKII — exact Shopee asks and level controls, 2026-10-18
+
+| Field | Evidence / qualification |
+|---|---|
+| IDR condition-unverified hardware ask | **Rp2.570.000**,Anekamusic,shop8471118/item17861620893,Kota Depok. [Exact item](https://shopee.co.id/Efek-gitar-Nux-MG300-MK2-Nu-x-MG-300-MKII-NUX-MG-300-MKII-original-i.8471118.17861620893). Last-month direct cached text;8–9September delivery stale. Condition,stock,selected variant,working state,firmware,adapter/bundle,warranty,vouchers,shipping/tax/checkout unknown. Original in title is not proof of new condition or authenticity. Neither verified used nor new,not completed sale. |
+| IDR unresolved variation range | **Rp2.438.000–Rp2.583.000**,Eleven Music,shop12356205/item25339437490,Kota Jakarta Pusat. [Exact MKII item](https://shopee.co.id/NUX-MG300-MKII-Guitar-Modelling-Processor-Multi-Effects-Guitar-Pedal-NUX-MG-300-MKii-i.12356205.25339437490). Two-week direct cache shows **2 variations**;last-month search cache showed **3**,same range. Names,selected variant and bundle unresolved;lowest price is not a qualified hardware-only offer. Condition,stock,working state,firmware,adapter,warranty,vouchers,shipping/tax/checkout unknown. Relative four-hour delivery and late-arrival voucher do not certify stock or a discount. Not a used/new price range or completed sale. |
+| USB / main and headphone levels | Global manufacturer page assigns **Knob1 to phones level,Knob2 to main level**. This does not establish independent USB send levels or separate signal chains. [Manufacturer](https://nuxaudio.com/product/mg300mkii/) |
+| Processing / GEN2 global EQ | GEN2 adds a one-action global-EQ reset and numeric dB feedback. P.L is an independently positionable patch-level block; not an extra preset bank or additional block beyond the documented architecture. [Manufacturer](https://nuxaudio.com/product/mg300mkii/) |
+
+Published artist factory presets establish that factory sounds exist,not the full initial fill or writable/protected split. No preset-capacity number is inferred. Search-only storefront asks were not substituted for exact-item evidence; no files or software downloaded.
+
 <!-- comparison evidence ends -->
 
 ### Preserved shared-source MG-300 MKII fields

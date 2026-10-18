@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Blackstar ID:X Floor Three",
-    "task": "Saved own Three-specific US/manual category and physical conflicts after separately committing One. Next fresh Shopee brand/series discovery for eligible unrecorded hardware; editor/display/factory-fill searches remain unresolved and should not be repeated without new evidence.",
+    "model": "NUX MG-300 MKII",
+    "task": "Saved two exact condition-unverified Shopee asks,2vs3variationcacheconflict,main/phoneslevels andGEN2EQreset. Next fresh eligible hardware discovery or unresolved manufacturer memory/power/display fields; do not treat unresolvedlowestvariant as hardwareprice.",
     "next_models": [],
     "after_queue": "356 partial models;297 guitar157 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
@@ -45831,7 +45831,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Blackstar ID:X Floor Three."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX MG-300 MKII."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -77984,5 +77984,55 @@
       "physical": "US10.59W×19.01L×5.31Hinches6.17lb versus manual397×68×195mmaxesunstated2.88kg;packagingnotidentified"
     },
     "next": "Fresh Shopee discovery; resolve these only with a manufacturer revision/changelog or explicit unit/package specification."
+  },
+  "mg300mkii_exact_asks_levels_20261018": {
+    "model": "NUX MG-300 MKII",
+    "checked_date": "2026-10-18",
+    "source": "https://nuxaudio.com/product/mg300mkii/",
+    "offers": [
+      {
+        "url": "https://shopee.co.id/Efek-gitar-Nux-MG300-MK2-Nu-x-MG-300-MKII-NUX-MG-300-MKII-original-i.8471118.17861620893",
+        "shop_id": "8471118",
+        "item_id": "17861620893",
+        "seller": "Anekamusic",
+        "region": "Kota Depok",
+        "idr": 2570000,
+        "access": "Last-month direct cache;8–9Sepdelivery stale",
+        "condition": "unknown",
+        "stock": "unknown",
+        "limits": "Originaltitle not new/authenticity proof;variant,bundle/adapter,firmware,warranty,voucher,shippingtaxcheckoutunknown"
+      },
+      {
+        "url": "https://shopee.co.id/NUX-MG300-MKII-Guitar-Modelling-Processor-Multi-Effects-Guitar-Pedal-NUX-MG-300-MKii-i.12356205.25339437490",
+        "shop_id": "12356205",
+        "item_id": "25339437490",
+        "seller": "Eleven Music",
+        "region": "Kota Jakarta Pusat",
+        "idr_range": [
+          2438000,
+          2583000
+        ],
+        "access": "2weekdirect2variants vsmonthsearch3variants;samerange",
+        "condition": "unknown",
+        "stock": "unknown",
+        "limits": "No names or selectedhardware/bundle;range not qualified used/new;firmwareadapterwarrantyvouchershippingtaxcheckoutunknown"
+      }
+    ],
+    "technical": "Knob1phones/Knob2main;GEN2globalEQreset/dBreadout;P.Lplacement not extraarchitecture. Artistfactorypresets do not establish fullmemoryfill."
+  },
+  "discovery_search_pass_20261018_post_blackstar": {
+    "queries": [
+      "Blackstar Floor Two",
+      "Zoom B9.1ut",
+      "Boss GT6B",
+      "Boss ME6",
+      "Zoom G9",
+      "Korg AX300B",
+      "DigiTech RP150",
+      "Korg AX3B",
+      "Zoom B2.1Nu",
+      "Blackstar IDX Two"
+    ],
+    "result": "No newqualifiedexacthardwareitem;not unavailability proof. NUX MG300MKII returned two newexactasks savedseparately."
   }
 }
