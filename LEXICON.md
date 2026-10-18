@@ -295,7 +295,7 @@ Checked2026-10-17. Partial guitar/vocal dual-channel multi-effects;notMPX110/MX2
 | Synth / acoustic | Own stereo Pitch algorithm is explicitly **polyphonic**,shifting full program material or single-note sources **−2 to+1 octaves**. Detune has four voices,two/channel. This establishes pitch processing,not a dedicated synth or acoustic-conversion engine;those remain unknown. [Own guide pp28–29](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf) |
 | Dimensions / weight | **483W×45H×102D mm;0.959kg**,published19×1.75×4inches. |
 | I/O | Unbalanced¼L/Rinput/output;RCA S/PDIFoutputonly;DIN MIDIin/out-thru;¼TRSfootswitch;power. Rightinput/output formono;leftonlystereophones atmodestvolume whenrightempty. |
-| Power | **9VAC externaltransformer**;not9VDC. Manufacturer preliminary introduction specifies supplied1Atransformer;device draw,battery/USBpower unknown;DCpolarityN/A. See dated qualification below. |
+| Power | **9VAC externaltransformer**;not9VDC. Preliminary introduction: supplied1A;service manual: supplied1.9A,service-test adapter1Aminimum/1.9Apreferred. These are supply ratings;device draw,battery/USBpower unknown;DCpolarityN/A. See dated qualification below. |
 | Software | MIDIlearn/SysEx documented;official fulleditorOS,driver/updater unknown. |
 | IR / NAM / captures | UserIR,native/convertedNAM,capture import unknown. |
 | Looper / drums / live | Looper/drums/scenes unknown;tap/audio-inputtempo/MIDIclock,bypass/mute options. Delayintro5.7s conflicts withdetailedmono5.5s;stereo2.7s. |
@@ -387,3 +387,14 @@ Checked 2026-10-18. The original **55-page English User Guide Rev0**,printed spe
 | I/O / output-side source conflict | Introduction’s specification table says **Left mono/Right headphones**,while its highlights say **Left headphones**. The User Guide pp4–5,52 instead specifies **Right mono/Left stereo headphones**. Preserve this contradictory brochure table;do not silently reverse the guide-based connection instructions or infer another hardware revision. |
 
 The retrieved manufacturer guide corroborates the retained converter/body specifications;this does not resolve actual-unit condition,software compatibility or stock. No audio equipment orsoftware operated.
+
+### MPX100 — service adapter capacity versus device draw
+
+Checked2026-10-18 against the original Lexicon Service Manual,©1998,part070-12081,40pages,read through [the original-document OCR reproduction](https://www.scribd.com/document/691001436/Lexicon-Mpx-100-Service-Manual).
+
+| Field | Finding / qualification |
+|---|---|
+| Power / service supply | Specifications lists a **9VAC,1.9A supplied transformer**. Required Equipment instead specifies **1A minimum,1.9A preferred** for the service-test adapter. Preserve alongside the preliminary introduction’s1A supplied rating;these establish adapter capacity,not measured device consumption or a verified hardware revision. Actual seller adapter remains unknown. |
+| Power / measurement boundary | The service power-up current check uses a Variac/adapter setup. Its exposed text does not resolve the measurement point sufficiently to publish a9VAC device-draw value;actual unit current remains unknown. |
+
+Documentation only;no equipment operated or files downloaded.

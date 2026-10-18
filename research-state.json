@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Lexicon MPX100",
-    "task": "Savedmanufacturer-hostedUserGuideRev0recovery,supplied9VAC1Atransformerratingandbrochuremono/headphonesideconflict. Devicecurrent/connector/condition-qualifiedoffersremain. FreshrackqueriesGP100/SE70/GMajor/MPX500/550/FX500norelevantnewexactitem;continueotherrequiredgaps/discovery. PocketAmporiginalmanualcontentsstillunread.",
+    "task": "Saved MPX100 service adapter capacity qualification; actual device draw, connector and condition-qualified offers remain unknown. Continue primary-source gaps and bounded discovery; Pocket Amp original manual contents remain unread.",
     "next_models": [],
     "after_queue": "362active/46brands;303guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -60939,6 +60939,12 @@
         "Editor/import/displaygaps"
       ],
       "method": "ManufacturerhostedoriginalPDFbrowsertext;no download/execution"
+    },
+    {
+      "model": "Lexicon MPX100",
+      "checked_date": "2026-10-18",
+      "source": "https://www.scribd.com/document/691001436/Lexicon-Mpx-100-Service-Manual",
+      "finding": "Original1998service070-12081:9VAC1.9Asupplied;serviceadapter1Aminimum1.9Apreferred. Preliminary1Asupplyretained;devicecurrentunknown;Variacchecknotconvertedtodevice9VACdraw."
     }
   ],
   "discovery_cross_brand_bass": {
