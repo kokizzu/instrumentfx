@@ -569,9 +569,34 @@ Checked 2026-10-18; partial. Separate Bass edition. [Own Yamaha manual](https://
 <!-- comparison evidence ends -->
 
 
+## Magicstomp Acoustic
+
+Checked 2026-10-18; partial. Separate Acoustic edition. [Own Yamaha manual](https://usa.yamaha.com/files/download/other_assets/9/334079/magicstomp_acoustic_en.pdf), printed pp7–12,22–24,26–30,33; browser text. No sibling specifications substituted.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in/external/toe unverified; no EXP in published socket inventory. |
+| Knobs / footswitches / buttons | **4 / 3 / 1**: three parameters, Volume; −, +, AFR/ON/OFF feet; STORE/EXIT. HIGH/LOW slider additional. |
+| Display | **16×2 backlit LCD**; diagonal/color/touch unverified. |
+| Processing / choices | **AcousticMulti + 63 other effect types**; onboard Deep Edit. Category census and maximum concurrency unresolved. |
+| Memory | **99 preset + 99 user = 198**; user initially duplicates presets; all factory presets AcousticMulti. |
+| Synth / acoustic | Acoustic/electroacoustic guitar processing; synth-input compatibility does not establish synthesis. Acoustic simulation unverified. |
+| Dimensions / mass | **164W×176D×62H mm; 910g**. |
+| I/O | Mono INPUT; separate L/MONO,R outputs; stereo-mini PHONES; USB; AC IN. Headphones retain main outputs. |
+| Power | **12V AC / 1A; 12W**. AC-10 inclusion regional; DC polarity inapplicable. Battery/USB power unverified. |
+| IR / NAM / capture | User IR, native/converted NAM and proprietary capture import unverified; patch transfer proves none. |
+| Editor / software | Sound Editor with USB-MIDI. Historical Windows98/Me/2000/XP; Mac editor8.6–9.22, driver8.5–9.22/OMS2.3.8; OS X/Classic excluded. Current OS/USB audio unverified. |
+| Looper / drums / routing | Looper/drums/scenes unverified. AFR factory ON, AcousticMulti only, five notch filters; filters clear on patch change. Tuner mutes OUTPUT/PHONES;438–445Hz. |
+| Used IDR | Unknown; exact Acoustic Shopee query found no offer,2026-10-18. |
+| New IDR | Unknown; seller/item,condition,stock,region,variant,bundle,warranty,voucher unverified. Search absence is not market absence. |
+
+<!-- comparison evidence ends -->
+
 ## Magicstomp — separate-edition discovery leads
 
-Initial discovery checked 2026-10-18. **Original Guitar and Bass are now active above; MK2 and Acoustic remain separate discovery leads outside active counts.** [Yamaha manual library](https://usa.yamaha.com/support/manuals/index.html?c=&k=magicstomp&l=en) lists separate **Guitar Effects Processor**,**Guitar MK2**,**Acoustic** and**Bass** manuals,plus edition-specific effect/patch lists andeditordocuments. Do not combine capacities,algorithms,ports orsoftware requirements across editions.
+Initial discovery checked 2026-10-18. **Original Guitar, Bass and Acoustic are now active above; MK2 remains a separate discovery lead outside active counts.** [Yamaha manual library](https://usa.yamaha.com/support/manuals/index.html?c=&k=magicstomp&l=en) lists separate **Guitar Effects Processor**,**Guitar MK2**,**Acoustic** and**Bass** manuals,plus edition-specific effect/patch lists andeditordocuments. Do not combine capacities,algorithms,ports orsoftware requirements across editions.
 
 Primary source routes for exact-edition follow-up:
 
