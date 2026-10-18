@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh eligible hardware discovery / required gaps",
-    "task": "Original H9 Max bypass modes, wet-only swell restrictions and expression+oneaux sharing saved. Next pursue new exact Shopee series or required model fields; H9 patch spillover/USB/display/connector conflicts remain unresolved. Do not borrow H90 behavior.",
+    "task": "Original H9 Max Pre/Post and Wet/Dry channel allocation plus SysEx backup scope saved. Next move to another required-field gap or fresh exact Shopee hardware; do not confuse H9 one-algorithm mono Pre/Post with H90 Dual routing.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -78832,5 +78832,23 @@
       "site:shopee.co.id Boss ME-8B"
     ],
     "result": "No eligible new exact hardware resolved. GFX8 seller38361451/item8214243069 Rp95000 is pedal sensor module,excludedaccessory. Not proof of marketabsence."
+  },
+  "h9_routing_sysex_20261018": {
+    "status": "partial",
+    "source": "https://cdn.eventideaudio.com/uploads/2020/07/H9-Manual.pdf",
+    "printed_pages": "28–30",
+    "findings": [
+      "Pre processes path1/otherdry;Post path2/otherdry,one mono effect;Killdry behavior retained",
+      "Wet1/Wet2 mono-effect plusdry;singleinput1;Stereo perpresetchange",
+      "SysEx Active/Presets/System/All;restoreID1–16 notextra onboardmemory or IR/NAM"
+    ],
+    "remaining": [
+      "Patchspillover",
+      "USB audio/power",
+      "Display",
+      "Connectorconflicts",
+      "Qualifiedoffers"
+    ],
+    "method": "Originalmanual text only; no transfer,device operation or download"
   }
 }
