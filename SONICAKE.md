@@ -685,29 +685,35 @@ Checked 2026-10-18; partial bass-focused multi-effects. [Sonicake exact product]
 | Field | Finding / qualification |
 |---|---|
 | Expression | Built-in/external/toe support unverified. |
-| Physical controls / K/F/B | Separate knob,footswitch,button census pendingoriginalpanel;PRE/POSTselection documented butcontroltype unverified. |
+| Physical controls / K/F/B | Matching leaflet describes **seven rotary functions**: BLEND, drive, compression, output level and three EQ bands; two footswitch instructions: OVERDRIVE and pedal ON/OFF. **Provisional 7/2/?**; not visually corroborated. PRE/POST and XLR ground-lift selectors are additional; their physical types and separate pushbuttons remain unresolved. [Original-leaflet transcription](https://manuals.plus/m/64d86baaf679d0aa26bccedd0e39484621545533cf8697ec5dc761b09c2833d7) |
 | Display | Screen presence,diagonal,color/touch unverified. |
 | Processing / category choices | **Analog preamp,optical compressor,overdrive and3-bandEQ**. EQ PRE/POST placement selectable;drive spansoverdrive todistortion. Exact independentbypass/concurrency ceiling andnumericchoices unresolved;notinferred fromnames. |
+| Processing / EQ placement | Leaflet PRE/POST selection places three-band EQ before or after other effects; complete internal signal order and independent compressor bypass remain unverified. [Leaflet transcription](https://manuals.plus/m/64d86baaf679d0aa26bccedd0e39484621545533cf8697ec5dc761b09c2833d7) |
 | Memory / factory / user | Factory/user/total presets unverified. |
 | Synth / acoustic | Dedicated synthesis/acoustic simulation unverified. |
 | Dimensions / mass | P:**124D×90W×54.8H mm,395g**. J reversesaxes to**124W×90D×54.8H**;width/depth conflict retained. |
-| Power / battery / USB | **9VDC,5.5×2.1mm center-negative,70mA** publishedspecification. Manufactureradapter excluded. Battery/USB operation andphantom powering unverified. |
-| I/O | High-impedance input**1MΩ**,mainoutput**100Ω**,balancedXLRout**100Ω**. Completeconnector inventory,headphones,groundlift andphantom toleranceremainunverified. |
+| Power / battery / USB | **9 V DC, 5.5×2.1 mm center-negative**. Current conflict: current manufacturer page **70 mA**, matching leaflet transcription **92 mA**. Original image cannot yet corroborate the latter; OCR/revision discrepancy unresolved. Actual draw not measured. Manufacturer adapter excluded; battery, USB operation and phantom powering unverified. [Leaflet transcription](https://manuals.plus/m/64d86baaf679d0aa26bccedd0e39484621545533cf8697ec5dc761b09c2833d7) |
+| I/O | Published **1 MΩ input, 100 Ω main output, 100 Ω balanced XLR output**. Leaflet identifies instrument input, main output, DC and XLR output with **ground lift**. Full connector inventory, headphones, phantom tolerance and phantom powering remain unverified. [Leaflet transcription](https://manuals.plus/m/64d86baaf679d0aa26bccedd0e39484621545533cf8697ec5dc761b09c2833d7) |
 | IR / NAM / captures | IR,nativeNAM,convertedNAM andproprietary capture loading unverified. |
 | Editor / software | Editor/platform,USB audio/MIDI andupdater unverified. |
 | Looper / drums / scenes | Unverified. |
-| Live / bypass | Buffered bypass documented;drymix,EQ frequencies,compressionratio andmaximum levels unresolved. |
+| Live / bypass | Manufacturer specifies buffered bypass. Leaflet gives pedal ON/OFF and OVERDRIVE footswitch actions. BLEND adjusts clean/driven ratio **only with overdrive enabled**; compression control is **unaffected by BLEND**. EQ frequencies, compression ratio and maximum levels remain unresolved. [Leaflet transcription](https://manuals.plus/m/64d86baaf679d0aa26bccedd0e39484621545533cf8697ec5dc761b09c2833d7) |
 | Price / sold-out IDR | **Rp795.000,Habis**, [MICKEY MOUSE SHOP,shop19700013/item29712719871](https://shopee.co.id/Efek-Bass-Elektrik-SONICAKE-B-Factory-Electric-Bass-Analog-Preamp-Compressor-Overdrive-Effect-Pedal-i.19700013.29712719871),KotaJakartaPusat;checked2026-10-18,three-month indexedbody. Shoponholiday;stale2–5Augdeliverynotstockproof. Condition,bundle,warranty unverified;Rp10.000 late-deliverycompensation notdiscount. |
 | Price / new IDR | No condition-verified new offer established. |
 | Price / used IDR | No separate used offer established. |
 
-[Officially linked English manual image](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/QDS-05_B_Factory__Manual_EN_V01_230921_Curve___623000020.jpg?v=1709603192) returned no inspectablecontent;filenameV01/230921 doesnotprovefullmanualvalidation. Remaining:originalpanel/manual,allcontrolandmemoryfields,fullI/O,powerdetails,loading/software andqualifiedfreshprices. No downloads,installations orhardware tests.
+[Officially linked English manual image](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/QDS-05_B_Factory__Manual_EN_V01_230921_Curve___623000020.jpg?v=1709603192) returned no inspectablecontent;filenameV01/230921 doesnotprovefullmanualvalidation. Remaining: original-panel inspection, physical control census, memory, full I/O, current discrepancy, loading/software and fresh condition-qualified prices. No downloads,installations orhardware tests.
 
 ### B Factory — manual-source qualification
 
-Checked2026-10-18. The [regional official page](https://www.hotone.jp/brands/sonicake/products/b-factory) additionally links a [Japanese manual image](https://cdn.shopify.com/s/files/1/0749/4569/1899/files/QDS-05ManuelJP.png?v=1756710755). Neither this nor the English image yielded inspectable manual contents in the available tools; controls and routing remain unresolved.
+Checked2026-10-18. The [regional official page](https://www.hotone.jp/brands/sonicake/products/b-factory) additionally links a [Japanese manual image](https://cdn.shopify.com/s/files/1/0749/4569/1899/files/QDS-05ManuelJP.png?v=1756710755). Neither this nor the English image yielded inspectable manual contents in the available tools; controls and routing remained unresolved at that check. The matching original-leaflet transcription below adds qualified evidence.
 
 The [third-party instruction page](https://manuals.plus/asin/B0CR157S8T) labels ON/OFF as true bypass while also describing buffer bypass. The [manufacturer](https://www.sonicake.com/products/b-factory) explicitly specifies buffered bypass. That third-party prose is not authenticated original-manual evidence and was excluded from control, routing and bypass verification; its illustrations were not visually audited.
+
+
+### B Factory — matching leaflet, blend and current conflict
+
+Checked 2026-10-19. The [original one-page SONICAKE B FACTORY leaflet transcription](https://manuals.plus/m/64d86baaf679d0aa26bccedd0e39484621545533cf8697ec5dc761b09c2833d7) matches QDS-05 identity, 395 g, dimensions and three impedance specifications. It is distinct from the rejected generated ASIN guide. Its functional annotations support the qualified controls, routing and ground-lift findings above. The PDF and official images remain uninspectable; no visual verification orrevision match is claimed. Its 92 mA transcription conflicts with the [current manufacturer page’s 70 mA](https://www.sonicake.com/products/b-factory); both are retained pending direct original-image confirmation. No new hardware offer, stock or price claim.
 
 ## A Factory QDS-04
 

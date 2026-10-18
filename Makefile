@@ -2007,3 +2007,7 @@ research-commit-digitech:
 .PHONY: research-commit-levitate
 research-commit-levitate:
 	python3 scripts/research_tools.py commit-levitate
+
+.PHONY: research-commit-bfactory
+research-commit-bfactory:
+	python3 scripts/research_tools.py commit-bfactory

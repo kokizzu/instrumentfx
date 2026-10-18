@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Manufacturer technical gaps / Shopee discovery",
-    "task": "Levitate matching original leaflet now qualifies control functions,tap timing reset andsharedTrail;physicalpanel andremainingtechnical fields stillpartial. Continue fresh Shopee discovery oranother active-model technicalgap;MG-30 MKII remains outsideinventory pendingexactoffer.",
+    "task": "B Factory original-leaflet transcription now qualifies blend,compression,EQ placement andXLR groundlift. Preserve70mA product versus92mA leafletOCR conflict pendingoriginalimage verification. Continue freshShopee discovery oranother active-model gap;all387 records partial.",
     "next_models": [],
     "after_queue": "387 active models,46 brands,all partial;no downloads/workflows/push."
   },
@@ -120262,5 +120262,29 @@
       "site:shopee.co.id \"BOSS ME-6B\""
     ],
     "result": "No results returned in this pass;no exact hardware offer established andno marketabsence inference."
+  },
+  "bfactory_leaflet_followup_20261019": {
+    "checked_date": "2026-10-19",
+    "model": "Sonicake B Factory QDS-05",
+    "sources": [
+      "https://manuals.plus/m/64d86baaf679d0aa26bccedd0e39484621545533cf8697ec5dc761b09c2833d7",
+      "https://www.sonicake.com/products/b-factory"
+    ],
+    "identity": "Original one-page SONICAKE/B FACTORY leaflet transcription matchesQDS-05,395g,dimensions andimpedances;notgeneratedASIN guide. Originalimages/PDF notvisually inspectable.",
+    "findings": [
+      "Provisionalseven rotary functions andtwo footswitch actions;PRE/POST andgroundlift selectors additional,physicaltypes unresolved",
+      "BLEND controls clean/driven ratio onlywhen overdriveenabled;compression unaffectedbyBLEND",
+      "Three-bandEQ selects before/afterothereffects;fullrouting andindependentcompressorbypass remainunverified",
+      "XLR groundlift documented;phantom tolerance/powering unknown"
+    ],
+    "current_conflict": "Current manufacturerproduct70mA versusmatching leafletOCR92mA;originalimage notcorroborated,revision/OCRdifference unresolved,no averaged ormeasured claim.",
+    "remaining": "Originalpanel visual census,sourcecurrentconflict,fullI/O,expression,display,memory,software/imports andfreshcondition-qualifiedIDR offers."
+  },
+  "discovery_legacy_models_20261019": {
+    "queries": [
+      "site:shopee.co.id \"Zoom G9.2tt\"",
+      "site:shopee.co.id \"Digitech RP300\""
+    ],
+    "result": "No qualifying exact hardware listing returned in this pass;no price assigned andno marketabsence claim."
   }
 }
