@@ -3983,3 +3983,15 @@ Checked 2026-10-19: [manufacturer-authored manual p37](https://roland.manymanual
 | Looper / Hold stop and erase | **Stopping playback erases recorded content**;typechange,patchchange andpoweroff also clear it. Externalfoot control/FC-200 assignedRec/Dub andStop required fordocumented operation. Wait2.8seconds afterselectingHold/before restartingrecording. Ending recording startsplayback;stopping playback destroysphrase. |
 
 USBchannelcount,44-category reconciliation andremainingFX subtypes stay unresolved;no persistent restartable loopstorage inferred. No downloads ordevice operations.
+
+### GT-Pro — tone, guitar-simulation and phaser choices
+
+Checked 2026-10-19: [official original manual p38](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf),indexed Tone Modify table;[manufacturer-authored p38 mirror](https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-38.html),indexed Guitar Simulator table;[original p39 mirror](https://roland.manymanuals.es/supplementary-music-equipment/gt-pro/owners-manual-5239/39),indexed Phaser table. Exact GT-PRO section/pagination;not sibling tables orFAQs.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / Tone Modify | **8 choices:**Fat,Presence,Mild,Tight,Enhance,Resonator1,Resonator2,Resonator3. Grouped Resonator1–3 counts asthree selectable types;resonance amount isaparameter,not morefamilies. |
+| Synth / acoustic transformations | GuitarSimulator **8 types:**S→H,H→S,H→HF,S→Hollow,H→Hollow,S→AC,H→AC,P→AC. S/H/P refer tosingle-coil/humbucking/piezo inputtone;HF describes single-coil half-tone. Hollow addsbody resonance;AC provides acoustic-guitar tone. These aretonal simulations,notuser captures orproof ofbass tuning. |
+| Processing / Phaser | **4 types:**4Stage,8Stage,12Stage,Bi-Phase;last uses twophase-shift circuits inseries. StepRateOff/0–100/BPM is aparameter withinPhaser,notaseparate fifthfamily. |
+
+33FX-family census remains separate fromsubtypecounts;44-category reconciliation andremaining subtype tables pending. USBchannelcount andqualified IDR stayunknown. No downloads ordevice operations.

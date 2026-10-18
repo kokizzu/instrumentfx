@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(boss): verify GT-Pro dynamics and Hold stop erasure'))
+    print(git('commit','-m','research(boss): count GT-Pro tone simulation and phaser types'))

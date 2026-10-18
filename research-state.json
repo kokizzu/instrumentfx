@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro ACS8/LM3/CHORUS3 andHoldstop erasure saved. Next44category reconciliation/remainingFXsubtypes,USBchannelcount,qualifiedIDR;392partial,migration incomplete.",
+    "task": "GT-Pro ToneModify8/GuitarSimulator8/Phaser4 saved. NextremainingFXsubtypes,44category audit,USBchannelcount andqualifiedIDR;392partial,migration incomplete.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -121591,5 +121591,19 @@
     },
     "hold": "Stop erasesphrase;type/patch/powerclear;externalRecDub/Stop assignments;2.8swait.",
     "qualification": "Subtype choices not blocks;preamp49 total now explicit incomparison."
+  },
+  "gtpro_tone_phaser_20261019": {
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+      "https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-38.html",
+      "https://roland.manymanuals.es/supplementary-music-equipment/gt-pro/owners-manual-5239/39"
+    ],
+    "pages": "38–39indexed original manual",
+    "counts": {
+      "ToneModify": 8,
+      "GuitarSimulator": 8,
+      "Phaser": 4
+    },
+    "qualification": "Subtypes notfamilies;acousticsimulation notcapture orbasstuning evidence."
   }
 }
