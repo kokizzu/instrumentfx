@@ -311,6 +311,12 @@ GEN2 was firmware1.0.5 at the original check;it is not a new physical model sole
 |---|---|
 | Editor / firmware / driver versions | [Exact manufacturer page](https://nuxaudio.com/product/mg30/), checked2026-10-18: **GEN2 firmware1.0.5 (2026-08-17)** pairs with **GEN2 QuickTone2.6.7.16 (2026-07-24)** forWindows/macOS. Separate **V5 firmware5.0.2** pairs with **V5 QuickTone2.4.12.27**; dates absent. Branch editors are not interchangeable. Firmware packages are English-hardware only. ASIO3.29.0 listsWin7;ASIO5.30.0 listsWin10+. These driverOS labels do not establish editor minimumOS. No update performed. |
 | Live / GEN2 controls | Product documents preset/scene save selection, Scene Copy, and global Follow TAP choice Preset/Global. These do not establish extra preset slots or a new physical model. |
+
+| Field | Finding / qualification |
+|---|---|
+| Looper / drums | [NUX USA exact MG-30 product](https://www.nux.us/products/mg-30), checked2026-10-18: **60-second phrase looper**, recording/overdubbing; **67 drum patterns across11styles**. Stereo-duration split, undo/redo, loop persistence andfirmware baseline unverified. |
+| Processing / regional count conflict | Same USA page has a **36 amps** badge but body specifies **35=28guitar+2acoustic+5bass**. Retain both;do not invent an extraamp oroverride olderChinese30count. |
+| Editor / GEN2 migration limits | [NUX USA support article](https://www.nux.us/blogs/support/mg-30-and-mg-30-gen2-firmware-and-nam-files), updated2026-09-27: update resets user settings;factory reset andexpression recalibration afterward,custom boot image erased;some saved presets may be incompatible. Article notes olderUSpost editor2.6.4.14 versusglobal2.6.7.16. No update orcompatibility test performed. |
 <!-- comparison evidence ends -->
 
 ### Preserved shared-source MG-30 fields
