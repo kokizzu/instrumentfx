@@ -2443,6 +2443,10 @@ Original guitar multi-effects, distinct from G3X and G3n. Checked 2026-10-17; pa
 | Used / preztomusic, Kota Surakarta (Solo) | Rp1,300,000 cached ask; **Habis**, without adapter. Checked2026-10-17; direct retrieved body remains JS-limited, delivery28Aug stale. Working condition, other bundle, warranty, shipping/tax/voucher and delivered total unverified. Historical ask, not live stock or completed sale. Late-delivery10k compensation is not discount. | [7439397 /28976797436](https://shopee.co.id/efek-gitar-zoom-g3-%28bekas%29-tanpa-adaptor-i.7439397.28976797436) |
 | New | Unknown; no qualified exact offer established. | — |
 
+
+### G3 — expression-volume scope audit
+
+Checked2026-10-19 against [official shared manual][G3-MC], pp12–13,16–20. **TOTAL settings, including expression assignment, are saved separately per patch.** Global master level is distinct; no global expression-target override established. OUTPUT VOL explicitly excludes rhythm/looper. INPUT VOL and adjustable/invertible endpoints are separate choices; bypass, headphone-specific attenuation and tail coverage remain unverified. Onboard lower/higher patch selection exists in patch mode. Original G3 has CONTROL IN forFP01/FP02; built-in G3X pedal behavior is not transferred. Existing234×170mm footprint fails the preferred limit. Exact Shopee search returned no refreshed offer; older sold-out price remains historical. No downloads or hardware test.
 <!-- comparison evidence ends -->
 
 Multi-model Hope Music listing G3/G3X/G3XN, shop703817770/item11099808237, showed Rp1,899,000–2,699,000 across five unresolved variations. Not assigned to G3. [Listing](https://shopee.co.id/Efek-Zoom-G3-G3X-G3XN-i.703817770.11099808237).

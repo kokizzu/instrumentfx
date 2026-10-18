@@ -2083,3 +2083,7 @@ expression-audit-commit-headrush:
 .PHONY: expression-audit-commit-tc
 expression-audit-commit-tc:
 	python3 scripts/expression_audit_tc.py commit
+
+.PHONY: expression-audit-commit-zoom
+expression-audit-commit-zoom:
+	python3 scripts/expression_audit_zoom.py commit
