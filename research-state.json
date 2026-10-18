@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "ToneLab EX required fields / discovery",
-    "task": "ToneLab EX factory subdivision and reset scope saved. New compatibility charts remain unresolved after exact-name/date searches; move to another required-field gap or fresh Shopee series instead of repeating unchanged searches.",
+    "model": "Zoom 9002 / 9002PRO discovery leads",
+    "task": "Separate primary identities saved for original9002 and9002PRO; no exact Shopee hardware offer resolved. Seek exact variant offer or progress another recorded-model required-field gap. Both remain outside359activecounts.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -79259,5 +79259,35 @@
     "scope": "Factory preset subdivision counted from exact-model list and factory restore overwrite scope verified.",
     "derivation": "12 complete banks ×4 plus2 =50 song presets;100 factory minus50 =50 basic. User initial allocation not inferred.",
     "remaining": "New PC2026/Mac2025 compatibility-chart rows still inaccessible through fresh exact-name/date searches; no support conclusion changed."
+  },
+  "discovery_zoom_9002_identity_20261018": {
+    "checked_date": "2026-10-18",
+    "market_queries": [
+      "site:shopee.co.id \"Boss\" \"ME-X\"",
+      "site:shopee.co.id \"Zoom\" \"9030\"",
+      "site:shopee.co.id \"Digitech\" \"RP6\"",
+      "site:shopee.co.id \"Zoom 9002\"",
+      "site:shopee.co.id \"Korg AX4B\"",
+      "site:shopee.co.id \"Digitech RP7\""
+    ],
+    "market_result": "No exact qualifying hardware offer resolved. ME-X and9030 queries returned unrelated beauty/phone products; remaining searches empty. Does not establish market absence.",
+    "models": [
+      {
+        "model": "Zoom 9002",
+        "product": "https://zoomcorp.com/en/jp/multi-effects/guitar-effects/9002/",
+        "support": "https://zoomcorp.com/en/gb/multi-effects/guitar-effects/9002/9002-support/",
+        "manual": "https://zoomcorp.com/media/documents/E_9002.pdf",
+        "identity": "Manufacturer calls original9002 discontinued strap-sized digital guitar processor; manual title identifies9002. Full body/required fields not audited."
+      },
+      {
+        "model": "Zoom 9002PRO",
+        "support": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/9002pro/9002pro-support/",
+        "manual": "https://zoomcorp.com/media/documents/E_9002Pro.pdf",
+        "identity": "Separate manufacturer support/manual; never substitute this for original9002. Primary index describes six effect-chain stages and40user/40preset locations; full audit pending."
+      }
+    ],
+    "active_models_added": 0,
+    "next": "Seek exact Shopee hardware for original9002 or9002PRO; keep variants distinct and audit own manual before admission. Generic bundled-software navigation is not editor support.",
+    "method": "Web text only; no manual/app/dependency downloaded or hardware operated."
   }
 }
