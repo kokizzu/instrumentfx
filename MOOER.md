@@ -1617,6 +1617,17 @@ Portable desktop guitar multi-effects; first pass checked **2026-10-17**. Separa
 | Used IDR evidence | **?** — no exact condition-qualified used offer established in this pass; no inferred discount. |
 | Retail / historical IDR evidence | **Rp749.500**, [MICKEY MOUSE SHOP,shop19700013/item20865647747](https://shopee.co.id/Efek-Gitar-MOOER-PE100-Multi-Effects-Processors-Pedal-Guitar-PE-100-i.19700013.20865647747). **Habis**, shop on holiday, Kota Jakarta Utara. Page retrieved2026-10-17 with stale1–4Sep delivery. Condition/new status, bundle, warranty region, checkout stock, shipping/taxes and payable total unverified. Late-delivery voucher up toRp10.000 is compensation, not an extra hardware discount. Historical unclassified ask; not live stock or completed sale. |
 | Additional historical IDR evidence | **Rp715.000**, [ADVENTURE MUSIC JAKARTA,shop154467850/item22920227275](https://shopee.co.id/MOOER-PE100-Portable-Multi-Efek-Gitar-Mooer-PE-100-i.154467850.22920227275), Jakarta Selatan. Checked2026-10-17 from a two-month search cache marked **Habis**; exact reopen returned cache miss. New/used condition, working state, selected variant, adapter/bundle, warranty, voucher eligibility, shipping/tax and final total unknown. Relative next-day delivery is not live-stock evidence; up-toRp10.000 late-delivery compensation is not a purchase discount. Separate seller ask, not a completed sale or verified new/used price. |
+### GE300 Lite — later library and memory qualifications
+
+[Own firmware notes](https://www.mooeraudio.com/companyfile/GE300-Lite-Downloads-150.html),checked2026-10-18;no installed-version confirmation.
+
+| Field | Revision-qualified evidence / limit |
+|---|---|
+| Processing / later library | **V3.0.1** adds Intelligent Harmony toFXA and60sVibe toFXB. **V5.0.2** lists four drives,Noise Reducer inFXA,four FXB additions,two delays andthree reverbs;all delays upgraded tostereo. Original category totals remain historical;current unique census unverified. |
+| IR / MNRS capacity | **V5.0.2:80 AMP MNRS slots,50 CAB IR slots**,dual third-party IR loading. **V2.0.2** fixes CAB at2048points andremoves POINT selection,qualifying theolder manual’sadjustable setting. |
+| Memory / Sub-Patch | **V5.0.2 explicitly doesnot support Sub-Patch parameter memory**,citing hardware limits;PATCH LEVEL added. Notes requirebackup becauseupdate erases userdata. |
+| Live / version limits | V5.0.2 expands tuner to**430–450Hz** andMonoPitch to**±24semitones**;older presets mayneed adjustment. V2.0.2 FS-mode text namesA–D/CTRL1–4 plusBankcontrols,unlikeLite manual;do notinfer extrafoot hardware fromthis conflicting wording. |
+
 <!-- comparison evidence ends -->
 
 ### PE100 sources and unresolved work
@@ -2084,14 +2095,14 @@ Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no si
 | Expression | Two external expression inputs,shared with AMP CTRL. ManualWAH instructions include software **Toeswitch** on/off control;Manual specifies **TRS expression pedals,10–100kΩ**,heel/toe calibration and**Merge** for multiple parameters/endpoints/directions;pinout andtoe-switch hardware compatibility remainunverified. Built-in treadle notestablished. |
 | K/F/B | Manual names **SELECT plus five parameter knobs**,independent master-output controls;full rotary/button totals still unverified. **Eight footswitches** comprise bankup/down,CTRL1–3 andA/B/C. |
 | Display | Own manual: **5-inch,854×480 color LCD**;touch unverified. |
-| Processing / categories | **13 blocks;108 amp models,164 effects,43 factory cabinets**. Manual category headlines: **COMP10;WAH10;FXA40;FXB35;DS/OD31;NS3;EQ8;REVERB11**. Manual routing paragraph says **12 blocks** versus13 elsewhere;reconciliation,delay census andsimultaneous DSP ceiling unverified;shared FXA/B choices mustnot be summed asunique algorithms. |
+| Processing / categories | **13 blocks;108 amp models,164 effects,43 factory cabinets**. Manual category headlines: **COMP10;WAH10;FXA40;FXB35;DS/OD31;NS3;EQ8;REVERB11**. Manual routing paragraph says **12 blocks** versus13 elsewhere;reconciliation,delay census andsimultaneous DSP ceiling unverified;shared FXA/B choices mustnot be summed asunique algorithms. These are **V01 counts**,not a currentlibrary census;newer additions below. |
 | Memory | Manual: **85 banks×3=255 preset slots**,superseding product-page **255 banks** wording. Manual specifies **162 factory presets**:banks1–27 cab-on forFRFR/headphones;28–54 cab-off forpower amps. Factory presets arewithin255 slots,not additional. |
 | Synth / acoustic | Synth engine anddedicated acoustic simulation unverified;GUITAR Tone Capture is anEQ-character capture,not proof ofeither. |
 | Dimensions / mass | Manual: **287×208×64mm;2.1kg**,axes unstated;not GE300 measurements. |
 | I/O | Guitar/line input,stereo-mini AUX,two1/4-inch outputs,1/4-inch stereo phones,two balancedXLR withgroundlift,EXP1/2,MIDI IN/OUT-configurable port,USB-B,DC. Manual rear-panel text specifies **one mono1/4-inch SEND and RETURN pair**. Product overview calls itstereo;manual specification table also callsSEND stereo. Conflicting wording retained;no second pair inferred. |
 | Power | Manual requires **9VDC2A,center-negative** supply;capacity requirement,not measured draw. Battery/USBpower,barrel dimensions unverified. |
 | Editor / platforms | Mac/Windows editing,preset transfer,IR loading,firmware updates andUSB audio documented;Manual: USB **24-bit44.1kHz**;Windows ASIO driver required,Mac needs noextra driver. Normal/Re-Amp modes andper-side dry/processed sends documented. CurrentOS/channel limits unverified. |
-| IR / NAM / capture | **20 userIR slots**;third-party IR≤2048samples;Tone Capture AMP/GUITAR/CAB modes. [Own downloads](https://www.mooeraudio.com/companyfile/GE300-Lite-Downloads-150.html): **V5.0.3,2026-08-04**,NAM A1/A2 load throughconverter intoAMP only;not evidence ofnativeNAM execution. |
+| IR / NAM / capture | **V01 manual:20 userIR slots;V5.0.2 notes:50 slots withdual third-party IR loading**,independent/blendedL/R. Third-party IR≤2048samples inoldmanual;Tone Capture AMP/GUITAR/CAB modes. [Own downloads](https://www.mooeraudio.com/companyfile/GE300-Lite-Downloads-150.html): **V5.0.3,2026-08-04**,NAM A1/A2 load throughconverter intoAMP only;not evidence ofnativeNAM execution. |
 | Looper / practical | **30-second stereo looper**,storable sessions;adjustable tuner. Manual: loop continues throughpreset changes andautomatically survivespower-off;undo/redo,reverse,half-speed,once andstop/clear documented. Half-speed lowers pitch oneoctave;no doubled recording capacity inferred. Drum/scenes/spillover unverified. |
 | IDR price | Noqualified exactShopeehardwareoffer fromGE300Lite/GE300 Lite queries. Used/new,seller/item,condition,stock,bundle,warranty/voucher unknown. |
 
