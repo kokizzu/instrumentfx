@@ -3995,3 +3995,15 @@ Checked 2026-10-19: [official original manual p38](https://static.roland.com/ass
 | Processing / Phaser | **4 types:**4Stage,8Stage,12Stage,Bi-Phase;last uses twophase-shift circuits inseries. StepRateOff/0–100/BPM is aparameter withinPhaser,notaseparate fifthfamily. |
 
 33FX-family census remains separate fromsubtypecounts;44-category reconciliation andremaining subtype tables pending. USBchannelcount andqualified IDR stayunknown. No downloads ordevice operations.
+
+### GT-Pro — synth waveforms and Harmonist voice limits
+
+Checked 2026-10-19 against exact manufacturer-authored manual: [p44 original mirror](https://roland.manymanuals.it/supplementary-music-equipment/gt-pro/owners-manual-5239/44),[official p49](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf),[p45 original mirror](https://roland.manymanuals.it/supplementary-music-equipment/gt-pro/owners-manual-5239/45). Indexed original tables;model/pagination match,notFAQ or sibling transfer.
+
+| Field | Evidence / qualification |
+|---|---|
+| Synth / Wave Synth | SharedFX family WSY has **2 waveforms:Saw,Square**;processes guitarinput withfilter controls. These are waveform choices,not two additionalFXslots. |
+| Synth / Guitar Synth | Separate FX-2-only SYN has **4 waveforms:Square,Saw,Brass,Bow**. Square/Saw use detectedpitch/attack andinternal generator;Brass/Bow directlyprocess input,withsharp/soft attack respectively. ChromaticOn quantizes tosemitones andignores sub-semitone bends/vibrato;OctaveShift0/−1/−2. PWMRate applies onlySquare. No unrestricted synth polyphony established. |
+| Processing / Harmonist voices | **3 modes:1-Voice,2-Mono,2-Stereo**. Two modesuse separatelysetHR1/HR2;Stereo separates voicesL/R. Up to±2octaves;Scale1–29 selects userscale. Manual explicitly prohibits chords because pitchanalysis needs single notes. These arevoice/routing modes,notthree simultaneous Harmonistblocks. |
+
+RemainingFX subtype census,44-category reconciliation,USBchannelcount andqualified IDR remain open. No downloads ordevice operation.

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro ToneModify8/GuitarSimulator8/Phaser4 saved. NextremainingFXsubtypes,44category audit,USBchannelcount andqualifiedIDR;392partial,migration incomplete.",
+    "task": "GT-Pro WaveSynth2/GuitarSynth4/Harmonist3 voice modes andsingle-note HRrestriction saved. NextremainingFXsubtypes,44category audit,USBchannelcount,qualifiedIDR;392partial,migration incomplete.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -121605,5 +121605,19 @@
       "Phaser": 4
     },
     "qualification": "Subtypes notfamilies;acousticsimulation notcapture orbasstuning evidence."
+  },
+  "gtpro_synth_harmonist_20261019": {
+    "sources": [
+      "https://roland.manymanuals.it/supplementary-music-equipment/gt-pro/owners-manual-5239/44",
+      "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+      "https://roland.manymanuals.it/supplementary-music-equipment/gt-pro/owners-manual-5239/45"
+    ],
+    "pages": "44,49,45indexed original",
+    "counts": {
+      "WaveSynth": 2,
+      "GuitarSynth": 4,
+      "Harmonist_voice_modes": 3
+    },
+    "qualification": "Harmonist single-note only;do notgeneralize itsrestriction toall synthwaveforms;fullpolyphony unknown."
   }
 }
