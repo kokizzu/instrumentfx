@@ -39,3 +39,9 @@ Primary manufacturer indexed product body used;desktop reopening timed out. No g
 Checked2026-10-18: the [manufacturer English support index](https://rowinmusic.com/col.jsp?id=102) lists **RE-05 Manual.pdf,907.95KB** under RE Series Manual; the [Chinese support index](https://www.rowinmusic.com/cn/col.jsp?id=142&m602pageno=5) independently lists the same filename/size. Both reopened pages timed out; no direct PDF URL or document contents were retrieved. This establishes an exact-model manufacturer manual lead, not its revision or specifications.
 
 The apparent PDF-brochure link on a retailer page resolves only to a brochure-icon GIF. Generated ASIN manuals and retailer prose were not accepted as original Rowin documentation. Their power,port,dimension andloop-mode assertions remain outside verified technical fields pending the original manual. No file downloaded,software installed ordevice operated.
+
+### Scope recheck and alternate primary route
+
+Checked 2026-10-18: indexed [manufacturer mobile product body](https://m.rowinmusic.com/pd.jsp?desc=true&mid=3&pid=243&sortName=name) independently repeats the exact RE-05 name and separate chorus/delay/reverb controls. Retain multi-effects eligibility; a looper-only classification would omit those processors. This does not establish simultaneous operation or algorithm alternatives. The mobile page’s $0.00 display is not a qualified hardware offer or an IDR price.
+
+Desktop product/support reopening timed out; mobile support was inaccessible. The RE-05 PDF remains a filename-only lead. Secondary seller text was not promoted to verified power, socket, control or runtime specifications. No manual downloaded; physical model/revision and remaining technical gaps stay unresolved.

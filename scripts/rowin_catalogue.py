@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(rowin): locate exact manufacturer manual and qualify access limits'))
+    print(git('commit','-m','research(rowin): corroborate multi-effects scope through mobile primary record'))

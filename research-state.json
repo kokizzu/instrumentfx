@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Tech 21 Acoustic Fly Rig",
-    "task": "Acoustic Fly Rig EQ and overload evidence saved. Remaining physical census/expression/memory needs new primary evidence; current screenshot tool returns no inspectable image. Continue other model gaps or fresh Shopee discovery; refresh gap index after record edits.",
+    "model": "Required verification gaps",
+    "task": "ROWIN scope rechecked: retains multi-effects status because manufacturer documents chorus/delay/reverb beyond looping. Defer identical failed manual paths. Acoustic Fly Rig physical counts also lack inspectable images; no browser surfaces available. Continue other primary model gaps or fresh Shopee series discovery; gap index remains a triage snapshot.",
     "next_models": [],
-    "after_queue": "377 active models,46 brands,all partial; no downloads/workflows/push; migration incomplete."
+    "after_queue": "377 active models,46 brands,all partial; no downloads/workflows/push; compatibility migration incomplete."
   },
   "new_findings": [
     {
@@ -5577,6 +5577,12 @@
       "date": "2026-10-18",
       "source": "https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf",
       "finding": "Exact manual EQ ranges and overload response saved; no physical census claimed without inspectable panel imagery."
+    },
+    {
+      "model": "ROWIN RE-05 Looper Pro",
+      "date": "2026-10-18",
+      "source": "https://m.rowinmusic.com/pd.jsp?desc=true&mid=3&pid=243&sortName=name",
+      "finding": "Independent indexed manufacturer mobile route corroborates multi-effects eligibility. Zero-dollar page display is not an offer; original manual access still unavailable. No classification/count changes."
     }
   ],
   "consolidation_and_price_findings": [
@@ -46183,7 +46189,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Tech 21 Acoustic Fly Rig."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Required verification gaps."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -116883,7 +116889,7 @@
       "ZOOM.md": "2d0d64e89aebd9a819827c54541a364e0c3c2a20089834d0255628140adf6ed9",
       "LEKATO.md": "380ff841df2e4790d1ecf3031d43031b204d4967bc82c29e59d925b04990b802",
       "ALESIS.md": "0ae1dc5f11ef614385f1ac597c118504a89606901268043471cf5a428141000a",
-      "ROWIN.md": "5ddf663ffdca21032245c0c18f3f11faae57f0846fe780b7a4105cdfb13adf4f",
+      "ROWIN.md": "e81792f710d0ae42f9c8a0fb6de5798ad86f324ce8d442dd1024ffad6d315282",
       "JOYO.md": "e40a65594804dd2728bad9561444474d0f784048da3ed5dd86fb0dca75456119",
       "TC-ELECTRONIC.md": "c4b16b3c6f514ab087fed6c19a469d50b1e14e9793b555ad8371da0bcddd5449",
       "VALETON.md": "e335ead12e652b2f04053cb58702d5055e6bcf32c61cbca143572baf2cb4b03e",
