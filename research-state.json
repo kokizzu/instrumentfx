@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "GX-1 parameter categories / fresh Shopee discovery",
-    "task": "USB gain/routing saved;stream channels/bitdepth remain unknown after exact search. Looper additional links yielded same incompleteHTML;do not repeat unchanged path forpersistence. Next category census orfreshShopeediscovery. All388partial;migration incomplete.",
+    "model": "GX-1 remaining categories / Shopee discovery",
+    "task": "AMP/CAB anddedicatedREVERB census saved:23amps,7explicitcabs+ORIGINAL,9mics,10reverbchoices. Next exactOD/DS andDELAY categorytables orfreshShopeediscovery. USBstream/display/qualifiedusedIDR gaps remain;all388partial,migrationincomplete.",
     "next_models": [],
     "after_queue": "388active47brands;no downloads/workflows/push."
   },
@@ -46335,7 +46335,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume GX-1 parameter categories / fresh Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume GX-1 remaining categories / Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -120566,5 +120566,20 @@
     "negative_search": "Targeted GX-1PRIMARY/USBbitdepthqueries didnotestablish channelenumeration/format;GT-001/Nextone/GT-1Bresults rejectedassiblings.",
     "looper_limit": "HTML additional-information links return same17lines;no new persistence evidence.",
     "remaining": "USBchannel/bitdepth unresolved;do not infer frominternal converters."
+  },
+  "gx1_cab_reverb_census_20261019": {
+    "sources": [
+      "https://static.roland.com/manuals/gx-1_parameter/en-US/365111947365263883.html",
+      "https://static.roland.com/manuals/gx-1_parameter/en-US/367568779367585163.html"
+    ],
+    "counts": {
+      "amps": 23,
+      "explicit_cab_sizes": 7,
+      "amp_dependent_original": 1,
+      "user_ir": 8,
+      "microphones": 9,
+      "dedicated_reverb_choices": 10
+    },
+    "qualification": "OFF excluded frommodelcount;ORIGINAL amp-dependent;microphones/reverbtypes not extra simultaneousblocks;FX reverbsubtype equivalence unverified."
   }
 }

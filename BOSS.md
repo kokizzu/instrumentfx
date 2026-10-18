@@ -1417,6 +1417,16 @@ Checked **2026-10-16**. Cached exact hardware text is not live checkout or stock
 | USB / level controls and routing | EFX OUT LVL, MIX LEVEL, DRY OUT and DRY TO EFX each range0–200%. EFX OUT is processed sound tocomputer;MIX LEVEL returns computer audio at the chain final stage;DRY OUT sends unprocessed guitar;DRY TO EFX feeds computer audio into effects. These controls establish routing,not channel enumeration orstream bit depth. |
 | USB / monitor and loopback distinction | LOOPBACK sends the computer/effect mix back tocomputer. DIRECT MONITOR OFF requires computer through-monitoring tohear the guitar;only USB return is otherwise heard. Direct-monitor state is unsaved andreturnsON atstartup. |
 
+
+### GX-1 — cabinet, microphone and reverb choices
+
+Exact GX-1 HTML parameter tables,checked2026-10-19;counts below are editorial counts of selectable types,not simultaneous blocks.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / cabinet and microphone choices | [AMP/CAB](https://static.roland.com/manuals/gx-1_parameter/en-US/365111947365263883.html) lists23amp types. Speaker selector:ORIGINAL plus seven explicit cabinet sizes,OFF andeight USER IR slots. ORIGINAL follows chosen amp;do not count it asone fixed cabinet orcountOFF asamodel. Nine microphone choices:four dynamic/condenser models,FLAT,RIBON121 andthree57/ribbon blends. No extra independent microphone block implied. |
+| Processing / dedicated reverb choices | [REVERB](https://static.roland.com/manuals/gx-1_parameter/en-US/367568779367585163.html) has ten choices:two halls,plate,two rooms,ambience,spring,shimmer,SUB DELAY andTERA ECHO. SUB DELAY reaches2000ms;TERA ECHO usesMDP. These share the REVERB selector;FX-slot reverb subtype equivalence unverified. |
+
 <!-- comparison evidence ends -->
 
 [GX1-P]: https://www.boss.info/global/products/gx-1/
