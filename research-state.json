@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Korg AX3000B",
-    "task": "Resolved AX3000B memory to96 writable factory-filled slots/32distinct sounds repeated3times. Named lists6drive+10amp/11cab reconcile72;contradictoryp57 retained. Next inspect own controls/expression, power/software orfreshShopee discovery.",
+    "task": "AX3000B memory/category audit saved; officialWindows editor1.01/Mac1.1 pages dated2015-06-01 confirmed, currentOSunknown. Next ownmanual controls/expression, power/display orfreshShopee discovery. No downloads.",
     "next_models": [],
     "after_queue": "344 partial unique models;114 Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -58623,6 +58623,15 @@
         "EditorOS",
         "QualifiedIDR"
       ]
+    },
+    {
+      "model": "Korg AX3000B",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://www.korg.com/us/support/download/software/1/27/1390/",
+        "https://www.korg.com/us/support/download/software/1/27/1391/"
+      ],
+      "finding": "WindowsSoundEditor1.01,MacSoundEditor1.1;bothlisted2015-06-01;no minimum/currentOS claim; no files fetched."
     }
   ],
   "discovery_cross_brand_bass": {

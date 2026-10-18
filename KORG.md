@@ -614,7 +614,7 @@ Checked2026-10-18. Bass multi-effects; distinct from AX3000G. Partial record. [K
 | Conversion | AD/DA20-bit;44.1kHz. |
 | Power / battery / USB | 9V DC; manufacturer includes adapter. Polarity,current,barrel,battery andUSB power unknown. Seller bundle unknown. |
 | IR / NAM / capture | User IR,native/converted NAM andcapture import unknown. |
-| Editor / software | Sound Editor mentioned; platform/current OS support unknown. |
+| Editor / software | Official **Windows Sound Editor1.01** and **Mac Sound Editor1.1**, both listed2015-06-01. Minimum/current OS andApple Silicon compatibility unknown; these are editors, not audio drivers. No software fetched. [Windows](https://www.korg.com/us/support/download/software/1/27/1390/);[Mac](https://www.korg.com/us/support/download/software/1/27/1391/) |
 | Looper / drums / live | Individual effect switching; tuner A0–C7,438–445Hz. Looper,drums,scenes,trails unknown. |
 | Used IDR / new IDR | Unknown / unknown. Exact Shopee AX3000B andAX3000 bass searches on2026-10-18 established no item. Not proof of unavailability. Condition,stock,region,bundle,warranty,voucher andcheckout total unknown. |
 
