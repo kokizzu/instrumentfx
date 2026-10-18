@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Behringer DSP2024P",
-    "task": "Saved Version1.1 regionalmains and115V/120Vexport discrepancies. Numberedappendixtablesstillnotreadable;avoidrepeatingsamescreenshotpath. Next qualifiedoffers orprimarygapsof anotheractive model.",
+    "model": "Lexicon MX200",
+    "task": "Saved manufacturer body dimensions/mass,explicit9VDCversus9VAC conflict andbypass modes. Needcompletepanelinventory,display,revision-specificpower,USBaudioandqualifiedoffers. Next MX200 fullmanual oranotherrequiredgapaftercommit.",
     "next_models": [],
     "after_queue": "349partialmodels;legacyconsolidationincomplete;no downloads/workflows/push."
   },
@@ -45606,7 +45606,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Behringer DSP2024P."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Lexicon MX200."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -76213,5 +76213,20 @@
       "Version1.2installation120Vonlywording remains separatelypreserved"
     ],
     "algorithm_census": "Appendix tables unavailable asreadabletext;page31screenshotreturnednoinspectableimage. No census orvisualinspection claimed."
+  },
+  "mx200_dimensions_power_20261018": {
+    "source": "https://lexiconpro.com/en-US/product_documents/mx200manual_bpdf",
+    "pages": [
+      4,
+      38
+    ],
+    "access": "Manufacturer-indexed selectedtext;directrouteinaccessible;nofullbodyorvisualinspection",
+    "dimensions": "19W1.75H4.75Dinches;3.75lb,inclusionsunqualified",
+    "power_conflict": "Guide9VDCversusproduct9VAC1300mAPS0913B;revisionandpolarityunresolved",
+    "bypass": "DefaultdrypassingversusBypassMutewetanddry suppression",
+    "previous_rows": [
+      "| Dimensions / weight |1RU;exact width/depth/height andmass unverified [MX-S] |",
+      "| Power / battery / USB |Product:9VAC1300mA PS0913B;indexed manual instead names PS0913DC. Revision/compatibility conflict unresolved;do not select replacement from this record. Measured draw,battery andUSB power unverified [MX-P,MX-M] |"
+    ]
   }
 }

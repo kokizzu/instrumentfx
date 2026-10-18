@@ -18,8 +18,8 @@ Dual-engine rack multi-effects for live/studio mixer paths. Checked2026-10-17. G
 | IR / NAM / captures |User IR,native/converted NAM andmeasured capture import unverified |
 | Audio / control ports |2TRS line inputs,2TRS line outputs;MIDI IN/OUT-THRU;USB;S/PDIF I/O;TRS footswitch;power. No mic/headphone/phantom port in indexed rear inventory [MX-M p.6] |
 | Analog levels / conversion |Inputs20kohm balanced/10kohm unbalanced,+4dBu nominal,+20dBu max;outputs+20dBu max.24bit48kHz A/D,24bit processing [MX-S] |
-| Power / battery / USB |Product:9VAC1300mA PS0913B;indexed manual instead names PS0913DC. Revision/compatibility conflict unresolved;do not select replacement from this record. Measured draw,battery andUSB power unverified [MX-P,MX-M] |
-| Dimensions / weight |1RU;exact width/depth/height andmass unverified [MX-S] |
+| Power / battery / USB |Product:9VAC1300mA PS0913B;manual rear description namesPS0913DC andspecificationsp38explicitly say**9VDC**. AC/DC revision/compatibility conflict unresolved;do notselect replacement fromthisrecord. Measured draw,DCpolarity,battery andUSBpower unverified [MX-P,MX-M] |
+| Dimensions / weight |**19W×1.75H×4.75D inches;3.75lb**,1RU. Manufacturer guide p38;knob/packaging inclusions unqualified. No sibling dimensions substituted [MX-M] |
 | Editor / software |MX Edit Mac2.2.0,Windows2.3.1;NetUpdater1.0 separate.2016 releases do not establish modern OS support. VST/AU hardware-plugin32bit integration;USB audio transport unverified [MX-P] |
 | Routing / live |S/PDIF44.1/48kHz only;external device clock master. Quick-start uses mixer postfader aux for vocal mic/guitar. Looper,drums,scenes andspillover unverified [MX-M pp.1,6] |
 
@@ -39,6 +39,18 @@ Dual-engine rack multi-effects for live/studio mixer paths. Checked2026-10-17. G
 - [MX-M: original indexed user guide](https://lexiconpro.com/en-US/product_documents/mx200manual_bpdf),direct403;selected indexed quick-start/rear-panel text inspected. No complete PDF-body or visual inspection claimed.
 
 No files downloaded. Remaining:accessible fullmanual,control inventory,display,body/mass,power revision,USB audio distinction,software OS details andqualified offers. Bass suitability remains unclassified.
+
+
+### MX200 — published body data and bypass modes
+
+Checked2026-10-18 from manufacturer-indexed [user guide][MX-M],printedpp4,38. Directdocumentroute remains inaccessible;selectedindexedtext only,no fullPDF-body orvisualinspection. Index publication age doesnotestablish manualrevision/release date.
+
+| Field | Evidence / qualification |
+|---|---|
+| Dimensions / mass | Guide specifies19in width,1.75in height,4.75in depth and3.75lb weight. Knob/adapter/packaging inclusion isnotstated;retain originalunits. |
+| Power / source conflict | Guide specification explicitly9VDC,power supplyincluded;product specifies9VAC1300mA PS0913B. Neither source proves thevoltage revision ofasellerunit orreplacement compatibility. |
+| Live / bypass modes | Default processorbypass passesdry unprocessed signal. Optional BypassMute suppressesbothwetanddry output for thatprocessor. Distinguish these modes fromglobal audio muting andfromeffect-only routing;exact topology-specific behavior pending. |
+
 
 ## MX300
 
