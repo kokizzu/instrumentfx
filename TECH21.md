@@ -69,6 +69,13 @@ Checked2026-10-18: ownOM3 function text identifies six separate selector functio
 
 A freshShopee exactmodel search repeats theexisting Melodia item andRp5,376,800 indexedask;no qualifiedused offer established. A [three-month categorycache](https://shopee.co.id/search?keyword=fly+v2) also listsFlyRig5v2 atRp5,040,750 andRitchieKotzenSignaturev2 atRp5,284,750. Reopeningfailed;no exactitem/seller wasrecovered forthose categoryamounts. They areunresolved leads,not new qualifiedasks,live stock,or identification oftheexisting usedRK5. No modelcount addition.
 
+### Fly Rig 5 v2 — overload and delay-feedback limits
+
+| Field | Own OM3 manual evidence / qualification |
+|---|---|
+| Live / clip-warning response | Reverb control flashes red for overload. Occasional peak flashes are expected; **continuous illumination calls for reducing the relevant Plexi/Cali, Boost or Blonde level**. The warning is shared signal-overload feedback, not a reverb-only fault indication or measured headroom specification. [Own manual pp3–4][FR-M] |
+| Effects / delay feedback | REPEATS minimum produces **one repeat**; increasing it approaches indefinite repeats. Upstream amplifier compression can make repeats more prominent, so equivalent settings need not behave identically before an amp versus in its loop. This is feedback behavior, not another delay algorithm or documented phrase-loop memory. [Own manual pp7–8][FR-M] |
+
 ## Bass Fly Rig v2
 
 Bass-focused multi-effects; v2 only. Distinct from original Bass Fly Rig and guitar Fly Rig 5 v2. Checked 2026-10-17; partial. Ownership unestablished.

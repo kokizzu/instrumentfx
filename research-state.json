@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "G5n required fields / fresh discovery",
-    "task": "G5n one-looper limit, unit occupancy and loop/rhythm patch-change persistence saved. Move to another required-field gap or fresh Shopee series; USB routing stays unresolved until exact primary evidence is found.",
+    "model": "Required fields / discovery",
+    "task": "Fly Rig5 v2 overload and delay-feedback limits saved. Continue another model required-field gap or fresh Shopee discovery; do not infer headphone facilities from RK5 or bass revisions.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -45864,7 +45864,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume G5n required fields / fresh discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Required fields / discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -79206,5 +79206,17 @@
     "destination": "ZOOM.md#g5n",
     "scope": "Exact-model looper occupancy, phrase deletion and rhythm patch-change limits verified.",
     "remaining": "Separate startup guide not located. USB channel routing, dry recording, AUX recording and reamping remain unresolved; no sibling claims borrowed."
+  },
+  "tech21_flyrig5v2_overload_feedback_20261018": {
+    "source": "https://www.tech21nyc.com/t21manuals/FlyRig5_v2_OM3.pdf",
+    "printed_pages": [
+      3,
+      4,
+      7,
+      8
+    ],
+    "destination": "TECH21.md#fly-rig-5-v2",
+    "scope": "Exact guitar v2 manual overload indication and delay-feedback behavior; no Bass Fly Rig borrowing or device operation.",
+    "remaining": "Physical census, expression/storage/software facilities and qualified live/new/used offers remain unresolved."
   }
 }
