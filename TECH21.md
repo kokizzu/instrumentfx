@@ -133,6 +133,13 @@ Checked2026-10-18 against the exact [©2021 manufacturer manual][BFR2-M],printed
 | Effects / dynamic filter | RANGE minimum removes input-level control of filter sweep; maximum makes sweep follow signal level and playing attack. Q controls filter bandwidth/sharpness; at minimum,RANGE acts as a high-cut tone control. These are interacting parameters,not extra independent effect blocks. |
 | Live / external effect placement | Manufacturer recommends phaser/vibe,overdrive andwah before the unit;delay,EQ,flanger,phaser,pitch shifter andreverb in its loop. These are recommendations,not proof that other placements are prohibited. [Manual p7][BFR2-M] |
 
+
+### Bass Fly Rig v2 — recording connection and tuner scope
+
+| Field | Exact-model manufacturer qualification |
+|---|---|
+| I/O / computer recording connection | The manual’s sound-card/computer-input application uses the **unbalanced low-impedance quarter-inch analog output**. This is not evidence of an onboard USB audio interface, computer editor or digital capture transport. Numerical output impedance remains unspecified in the inspected text. [Own manual pp1–2][BFR2-M] |
+| Live / tuner gesture qualification | Hold **CHORUS/TUNER** to engage the tuner and mute the signal path. The exact-model instructions supply **no numeric hold duration or calibration range** here; do not substitute the guitar Fly Rig5 v2’s half-second gesture. Green means in tune; red arrows indicate flat/sharp. [Own manual p6][BFR2-M] |
 <!-- comparison evidence ends -->
 
 Shopee searches for “Bass Fly Rig” and “bass flyrig” on 2026-10-17 did not resolve an exact Indonesian hardware seller/item. This is not proof of market absence. Seller/item, condition, stock, region, revision, bundle, adapter, warranty and voucher remain unverified. No foreign currency conversion or sibling-model offer substituted.

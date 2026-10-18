@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Required fields / discovery",
-    "task": "Fly Rig5 v2 overload and delay-feedback limits saved. Continue another model required-field gap or fresh Shopee discovery; do not infer headphone facilities from RK5 or bass revisions.",
+    "model": "Required fields / fresh discovery",
+    "task": "Bass Fly Rig v2 analog computer connection and tuner evidence boundaries saved. Continue a different manufacturer required-field gap or Shopee series discovery; no numeric tuner gesture borrowed from guitar Fly Rig.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -45864,7 +45864,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Required fields / discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Required fields / fresh discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -79218,5 +79218,16 @@
     "destination": "TECH21.md#fly-rig-5-v2",
     "scope": "Exact guitar v2 manual overload indication and delay-feedback behavior; no Bass Fly Rig borrowing or device operation.",
     "remaining": "Physical census, expression/storage/software facilities and qualified live/new/used offers remain unresolved."
+  },
+  "tech21_bassflyrig2_recording_tuner_20261018": {
+    "source": "https://www.tech21nyc.com/t21manuals/BassFlyRig_v2_OM.pdf",
+    "printed_pages": [
+      1,
+      2,
+      6
+    ],
+    "destination": "TECH21.md#bass-fly-rig-v2",
+    "scope": "Analog computer-recording path distinguished from digital interface evidence; tuner hold duration remains unverified.",
+    "remaining": "Control census, editor/storage/headphone/battery/USB scope and exact Indonesian hardware offers remain incomplete."
   }
 }
