@@ -173,3 +173,12 @@ No hardware or app operation, downloads or image inspection. Installed firmware 
 
 [H90-PA]: https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/edit-modes/parameters.html
 [H90-PF]: https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/play-modes/perform.html
+
+### H90 — input headroom and specification-edition check, 2026-10-18
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| I/O / electrical limits | [Own manual1.12.5 specification table](https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/appendix/specifications.html): input impedance **>600kΩ instrument /80kΩ line**, output impedance **220Ω**,recommended load **10kΩ**. Maximum input **+4dBu instrument /+14dBu line**. These are input limits,not maximum output ratings or measured clipping tests. The [product-page table](https://www.eventideaudio.com/pedals/h90/) instead prints **>80kΩ** for line input; retain the inequality distinction. |
+| Dimensions / edition conflict persists | Manual1.12.5 repeats **65H×179W×136Dmm;1.36kg and1.85lb**,so the earlier1.11.4 versus product-page discrepancy is not resolved by this edition. Product distinguishes **0.84kg unit /1.36kg package**; that explains where1.36kg appears in its table but doesnot authorize silently relabeling the manual’s net-weight figure. |
+
+The manual’s updated-spec shortlink redirected to the product page,but the returned body was a1.2-year cache with70algorithms/18new. It is not evidence to remove the firmware1.12.5 inventory of74 or claim a rollback. Cache age and document version remain separate.
