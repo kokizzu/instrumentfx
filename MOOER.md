@@ -1995,17 +1995,17 @@ Checked2026-10-18;partial. Original model,not Ocean Machine II. Independent dela
 | Field | Evidence / qualification |
 |---|---|
 | Expression | External expression/switch inputs; no built-in treadle documented. Toe compatibility unknown. [OM-P] |
-| K/F/B | **? rotary /3 footswitches /? buttons**. Three switches documented by regional page; complete panel census pending. [OM-C] |
+| K/F/B | **16 rotary /3 footswitches /4 buttons**,manual-text count:12parameter controls,3type selectors,Menu;Reverb/DelayA/DelayB foot controls;Back,Setting,Store,Mode buttons. Menu push additional;visual corroboration pending. [OM-M pp1–2] |
 | Display | LCD menu;diagonal,color,touch unknown. [OM-P] |
 | Processing / choices | **Two independent delays plus reverb**,programmable order;15delay types,9reverbs. Delay0–2s,ping-pong,freeze,shimmer. Per-engine selector distribution/unique counts pending;not15simultaneous delays. [OM-P] |
 | Factory / user memory | **24spaces=8×3**;factory-filled/protected split unknown. [OM-P] |
 | Synth / acoustic | Dedicated synth/acoustic simulation unverified. |
 | Dimensions / mass | **215D×127W×56Hmm;1.1kg** global versus **1.09kg** regional. Preserve rounding/edition distinction. [OM-P,OM-C] |
-| I/O | Stereo quarter-inch inputs/outputs;input1MΩ/output100Ω. Expression,switch andMIDI programming documented;complete socket inventory/USB/headphones pending own manual. [OM-P] |
+| I/O | Stereo quarter-inch inputs/outputs;input1MΩ/output100Ω. **One shared EXPRESSION/EXTERNAL socket,MIDI IN/THRU,DC**. NoUSB,headphone oranalogFX-loop socket in complete manual inventory;controlsocket dimensions pending. [OM-P,OM-M p2] |
 | Conversion | **44.1kHz/24-bit**;not USB audio proof. [OM-P] |
 | Power / battery / USB | **9VDC500mA center-negative adapter** global;regional also explicitly lists500mA current. Actual measured draw,battery/USB operation unverified. [OM-P,OM-C] |
 | IR / NAM / captures | User IR,native/convertedNAM,capture imports unknown. |
-| Editor / updater | Product lists firmware1.1.1 archive;not an editor orverifiedinstalledversion. Platform/support limits unknown;no archive opened. [OM-P] |
+| Editor / updater | Product lists firmware1.1.1 archive;installedversion unknown. Own manual updater uses **external USB→MIDI interface**,bothDINconnections,andOM_IAP.exe;not directUSBaudio orfull-editor evidence. ExactOS support unknown;no software opened. [OM-P,OM-M p22] |
 | Looper / drums / live | **32MB,up to44s**;half-speed,reverse;first-layer reverse restricted regionally. Dry/wet loop placement. Drums,scenes,power-off retention unknown. [OM-P,OM-C] |
 
 ### Separate IDR hardware evidence
@@ -2016,8 +2016,10 @@ Checked2026-10-18;partial. Original model,not Ocean Machine II. Independent dela
 | IDR verified new | Unknown. |
 | IDR condition-unverified exact hardware ask | **Rp2.200.000** direct three-week reader cache versus **Rp2.300.000** two-month search cache. [fahmadnaufal,shop166558154/item55057589905][OM-S],Kota Jakarta Selatan. Checked2026-10-18;original Ocean Machine title,noII. Condition,stock,working state,revision,selected variation,adapter/bundle,warranty,shipping/tax andcheckout unknown. Relative tomorrow arrival andRp10k late-delivery compensation do not establish stock ordiscount. Separate cache observations,not a verified range orcompleted sale. |
 
-Own product pages used;manual/control diagrams not yet inspected. No II-specific specifications transferred. Regional model page identifies three effect modules andthree foot controls;this doesnot establish exact rotary/button totals. Independent hardware/firmware testing remains outstanding.
+Own product pages andoriginalmanufacturer-authored manual text used;no II-specific specifications transferred. Manualmirror PDFmetadata identifiesTDL3/EN_V01;originalmodel cover,front/rear layout andMOOER firmwareinstructions corroborateidentity. No readable image inspection orhardwaretest claimed.
 
 [OM-P]: https://www.mooeraudio.com/product/Ocean-Machine--53.html
 [OM-C]: https://cn.mooeraudio.com/product/Ocean-Machine--53.html
 [OM-S]: https://shopee.co.id/mooer-ocean-machine-pedal-delay-reverb-looper-devin-townsend-signature-i.166558154.55057589905
+
+[OM-M]: https://medias.audiofanzine.com/files/mooer-ocean-machine-manual-480472.pdf

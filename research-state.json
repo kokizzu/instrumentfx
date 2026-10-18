@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER Ocean Machine original",
-    "task": "Added original separatefromII withownproductspecs andexactconditionalShopeeask. Next read originalmanual forcompleteports,controlcensus,delayselector distribution,memory andfirmwarelimits;do notborrowIIloop/storage.",
+    "task": "Saved originalmanual16/3/4textcount,completeports andexternalMIDIupdaterdistinction. Next delayA/Bselectorinventory,expressionwiring,memory/looplimits fromsameoriginalmanual;noIIborrowing.",
     "next_models": [],
     "after_queue": "355 partial models;296 guitar156 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
@@ -77847,5 +77847,28 @@
       "site:shopee.co.id Sonicake Matribox III"
     ],
     "result": "GP200Rexactoffers alreadyrecorded,manufacturerexplicitsharedfunctionsretained. No newexactH9Gen2/MatriboxIII hardware accepted;screenprotector excluded."
+  },
+  "ocean_original_controls_ports_20261018": {
+    "source": "https://medias.audiofanzine.com/files/mooer-ocean-machine-manual-480472.pdf",
+    "identity": "Originalmanufacturer-authoredTDL3 EN_V01;26PDFpages;originalcover/frontrearandMOOERinstructionschecked",
+    "printed_pages": [
+      "1–2",
+      "22"
+    ],
+    "counts": {
+      "rotary": 16,
+      "foot": 3,
+      "buttons": 4
+    },
+    "ports": "StereoIO,onesharedEXPswitch,MIDIINTHRU,DC;noUSB/phones/analogFXloopinventory",
+    "software": "USBMIDIexternalinterface plusOM_IAP.exe updater;notUSBsocketorfulleditor",
+    "remaining": [
+      "Visualcontrolcorroboration",
+      "Controlsocketformats",
+      "Delayselectorinventory",
+      "Factoryfill",
+      "Looperretention",
+      "Displaydetails"
+    ]
   }
 }
