@@ -878,6 +878,12 @@ Historical2026-10-15 source wording. Current firmware-qualified findings retain 
 
 [Original shared source](research-state.json)<!-- historical-link:nux-004 -->,retained pending complete navigation/provenance audits.
 
+### TRIDENT — expression-volume capability audit
+
+Checked2026-10-19; partial. [Manufacturer product](https://nuxaudio.com/product/trident/) documents external EXP separately from MASTER VOL. [Original NUX manual body](https://www.manualslib.com/manual/4258109/Nux-Nme-5-Trident.html), same model/pagination as preservedV1: Global Setting includes pedal calibration,while block referencePDFp21 shows PEDAL/CONTROL andVOLUME. These labels do not establish global volume assignment,persistence orfixed final-output placement. Numeric endpoints,recall,bypass/headphone/tail/looper attenuation remain unverified. No generated mirror FAQ used.
+
+Original preset workflow uses UP/DOWN bank groups thenA/B/C patch selection;do notcall these unrestricted preset down/up. Dedicated6.35mm phones and312×164mm chassis remain documented;preferred footprint fails. Global calibration/EQ andUSB playback behavior are separate fromanalogEXP assignment. Preserve allolder source/price/revision conflicts. No download ordevice test.
+
 ## Cerberus NME-3
 
 **New profile,2026-10-15. Effects-only guitar multi-effects and controller.** Analog drive/distortion plus independent modulation,time effects and IR loading qualifies;it is not merely a controller. [Official product,firmware and editor](https://nuxaudio.com/product/cerberus/).

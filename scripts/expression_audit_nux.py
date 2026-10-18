@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(nux): screen MG-200 volume scope with retrieval limits'))
+    print(git('commit','-m','research(nux): audit Trident expression and bank navigation limits'))
