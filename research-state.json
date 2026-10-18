@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "BOSS IR-200 partial system AMP LEVEL lead",
-    "finding": "Original manual EXP PREF SYSTEM makes AMP LEVEL common across memories;notfinaloutputproof. Range andprev/next documented;coverage/scope/fullprofilepending,noactiveadmission.",
+    "current": "IR-200 manufacturer footprint and processing follow-up",
+    "finding": "ExactBOSS101W×138D fits;independent EQ/ambience stages documented. Search-page price lacks exactseller/item,notacceptedoffer. Fullprofile/admission andAMPLEVELcoverage remainpending.",
     "next": [
-      "Continue IR-200 lead: exact dimensions, independent effects scope and qualified Shopee offer before admission",
+      "Continue IR-200 full profile: original manual signal routing, power, USB, memory and exact seller/item",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
@@ -122634,7 +122634,7 @@
       "document": "BOSS.md#ir-200--partial-expression-capability-lead",
       "checked": "2026-10-19",
       "remaining": [
-        "Scope and complete required model fields",
+        "Complete required model fields and scope decision before admission",
         "Final-output and bypass/headphone/ambience coverage",
         "Exact Shopee hardware offer"
       ]
