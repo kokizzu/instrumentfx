@@ -4184,3 +4184,33 @@ Checked2026-10-18 against original manual Z2I-5930-01, sections on RIG effect co
 [NEU-R]: https://zoomcorp.com/manuals/neurig-rig-list-ja/
 
 Original manual Z2I-5930-01;effect list Z2I-5984-01;rig list Preset1.00. Pre-release documentation may change. All remaining fields above stay partial.
+
+## MS-100BT
+
+Checked2026-10-18. Discontinued guitar multi-effects;100 effects/amp models. Historical StompShare iPhone/iPad/iPod touch purchasing/loading advertised;current store availability andOS requirements unverified. [Product][M100BT-P]
+
+<!-- comparison evidence begins -->
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in/external/toe audit pending. | Unknown |
+| K/F/B | 3 push-rotaries/1 footswitch/4 cursor keys;other buttons unverified. | [Manual][M100BT-M] pp6–7 |
+| Display | LCD;diagonal/color/touch unspecified. | [Manual][M100BT-M] p37 |
+| Dimensions / weight | 130.3D×77.5W×58.5Hmm;360g. | [Manual][M100BT-M] p37 |
+| Processing / memory | 100 types;6 simultaneous,limited byDSP. Over-budget effect bypassed;DSP Full warning. 50 writable patches;factory-filled count unresolved. | [Manual][M100BT-M] pp2,11–12,37 |
+| Category choices | Category breakdown remains unaudited;100 total is not100 simultaneous blocks. | Pending |
+| Synth / acoustic | Exact synthesis/acoustic-simulation inventory unresolved. Bass tuner mode alone does not qualify bass processing. | [Manual][M100BT-M] p38 |
+| I/O | Mono-phone input/output sockets;MONO connections andstereo-input operation described. Complete physical socket count pending. Input1MΩ,−20dBm nominal;output+5dBm maximum into≥10kΩ. | [Manual][M100BT-M] pp6,37 |
+| Conversion | 44.1kHz;24-bit AD/DA128×oversampling;32-bit float+fixed processing. | [Manual][M100BT-M] p37 |
+| Power / battery | AD16:9VDC center-negative,500mA supply rating,not device draw. **Conflict:**safety p4 says4AA;spec p37 says2AA alkaline,~7h mono/~5h stereo. | [Manual][M100BT-M] pp4,37 |
+| USB power / audio / MIDI | Not established;Bluetooth does not prove USB support. | Pending |
+| IR / NAM / capture | User IR/native NAM/conversion/proprietary capture support unverified. | Pending |
+| Editor / software | Historical StompShare iOS effects purchasing/loading;not evidence of current desktop editor support. Bluetooth firmware updating documented. | [Product][M100BT-P];[Manual][M100BT-M] p37 |
+| Looper / drums / live routing | Looper/drums/scenes/persistence unverified;chain reorder,patch footswitch cycling,tuner/tap described. | [Manual][M100BT-M] pp13–19 |
+| IDR used | Unknown;no qualified exact hardware offer. | Discovery2026-10-18 |
+| IDR new | Unknown;exact Shopee search yielded no hardware hit. Seller/item,condition,stock,region,bundle,warranty/voucher/checkout unresolved;not proof of unavailability. | Discovery2026-10-18 |
+<!-- comparison evidence ends -->
+
+[M100BT-P]: https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-100bt/
+[M100BT-M]: https://zoomcorp.com/media/documents/MS-100BT_operationManual_English.pdf
+
+Original manufacturer manual©2012. Text audit only;no device/software execution or package download. All unresolved fields remain partial.

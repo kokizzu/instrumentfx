@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 364,
+  "active_model_count": 365,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 364,
+  "canonical_root_model_count": 365,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "364 unique active/root-canonical;0 legacy-only;46 brands;six excluded;all partial. Active means catalogue scope,not current retail stock;NEURIG is announced/pre-release.",
+  "count_reconciliation": "365 unique active/root-canonical;0 legacy-only;46 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "NUX Atlantic NDR-5",
-    "task": "Saved Atlantic explicit tapratio meaning andparallel drybranches. OriginalItalianPDFbrowsertext empty;inputstereo/insert andFreeze controlstillunresolved. Next freshShopee discovery orothermodel requiredfield gap;do not repeat currentAtlantic page toclaim Freeze clarified.",
+    "model": "Zoom MS-100BT",
+    "task": "Added partial manufacturer profile. Next audit full physical I/O,category choices,expression andinitial factory patch fill;verify StompShare current support separately. Do not infer bass processing from tuner.",
     "next_models": [],
-    "after_queue": "364active/46brands;305guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
+    "after_queue": "365active/46brands;306guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -5412,6 +5412,13 @@
       "checked_date": "2026-10-18",
       "status": "partial;announced/pre-release",
       "finding": "Original manufacturer manuals andannounced product establish guitar multifx. No exactShopeeoffer;release/capture plans remainqualified."
+    },
+    {
+      "model": "Zoom MS-100BT",
+      "destination": "ZOOM.md#ms-100bt",
+      "checked_date": "2026-10-18",
+      "status": "partial",
+      "finding": "Original manufacturer product andmanual establish guitar multifx;no qualified exactShopee hardware offer. Preserve battery-count conflict;full IO/category/control audits remain."
     }
   ],
   "consolidation_and_price_findings": [
@@ -24833,7 +24840,8 @@
       "G1 original",
       "505 original",
       "G2.1Nu",
-      "NEURIG"
+      "NEURIG",
+      "MS-100BT"
     ],
     "DigiTech": [
       "RP360XP",
@@ -25129,7 +25137,8 @@
       "G1 original",
       "505 original",
       "G2.1Nu",
-      "NEURIG"
+      "NEURIG",
+      "MS-100BT"
     ],
     "JOYO.md": [
       "GEM BOX original",
@@ -25434,7 +25443,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 305,
+      "record_count": 306,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -25464,10 +25473,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 305 guitar, 158 documented bass-capable, 69 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 306 guitar, 158 documented bass-capable, 69 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "364 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "365 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -45890,10 +45899,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 364,
-    "canonical_root_models": 364,
+    "unique_brand_model_pairs": 365,
+    "canonical_root_models": 365,
     "legacy_only_models": 0,
-    "guitar_view_models": 305,
+    "guitar_view_models": 306,
     "bass_focused_models": 35,
     "vocal_only_models": 24,
     "vocal_view_models": 69,
@@ -45975,7 +45984,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX Atlantic NDR-5."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Zoom MS-100BT."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -46200,6 +46209,7 @@
       "Zoom::505 original",
       "Zoom::G2.1Nu",
       "Zoom::NEURIG",
+      "Zoom::MS-100BT",
       "DigiTech::RP360XP",
       "DigiTech::RP255",
       "DigiTech::RP500",
@@ -48706,6 +48716,13 @@
     },
     "Zoom::NEURIG": {
       "link": "ZOOM.md#neurig",
+      "source_files": [
+        "ZOOM.md"
+      ],
+      "finding_files": []
+    },
+    "Zoom::MS-100BT": {
+      "link": "ZOOM.md#ms-100bt",
       "source_files": [
         "ZOOM.md"
       ],
