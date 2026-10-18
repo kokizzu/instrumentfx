@@ -589,8 +589,8 @@ Checked 2026-10-18; partial. [Sonicake's exact product](https://www.sonicake.com
 | Processing / category choices | **Digital delay+plate reverb**,one named algorithm each;delay maximum **2000ms**. Independent dry/wet delay adjustment. Exact routing andsimultaneous ceiling beyond these two unresolved. |
 | Memory / factory / user | Unverified. |
 | Synth / acoustic | Dedicated synthesis/acoustic simulation unverified. Bass suitability unclassified. |
-| Dimensions / mass | **124D×90W×54.8H mm;371g**. |
-| Power / battery / USB | **9VDC,5.5×2.1mm center-negative,92mA** published power figure;adapter excluded frommanufacturer package. Battery/USB operation unverified. |
+| Dimensions / mass | **124D×90W×54.8H mm;371g** onglobalpage. [Hotone Japan regional distributor](https://www.hotone.jp/brands/sonicake/products/levitate) insteadlabels **124W×90D×54.8H mm**;same numbers,oppositewidth/depth labels. Axisconflict unresolved;do not silentlyrotate. |
+| Power / battery / USB | **9VDC,5.5×2.1mm center-negative,92mA** onglobalpage;[Hotone Japan](https://www.hotone.jp/brands/sonicake/products/levitate) explicitly labels92mA as **current consumption**. Adapter excluded frommanufacturer package. Battery/USB operation unverified. |
 | I/O | Published input impedance470kΩ,output resistance1kΩ. Completeconnector inventory anddedicated headphones unverified. Manufacturer FAQ describesmono headphone use butdoesnot recommendit;notproof ofdedicated headphone socket. |
 | IR / NAM / captures | IR,nativeNAM,convertedNAM andproprietary capture loading unverified. |
 | Editor / software | Editor platforms,updater,USB audio/MIDI unverified. |
@@ -602,3 +602,5 @@ Checked 2026-10-18; partial. [Sonicake's exact product](https://www.sonicake.com
 | Price / used IDR | No separate used offer established. |
 
 Remaining:originalmanual/panel,controls,expression,display,memories,completeI/O andloading/software;freshsellercondition/stock. Mixed-modelRp450.000 category result rejected as unresolved variant price. No download,installation orhardware test.
+
+Levitate regional source check2026-10-18:Hotone Japan exactQDS-02 page corroborates371g,buffered bypass,trails and2s delay. [Linked Japanese original manual image](https://www.hotone.jp/images/external/cdn.shopify.com/s/files/1/0749/4569/1899/files/Levitate_Manuel_JP.png) returned no inspectablecontent;no panel census ormanual completion claimed.
