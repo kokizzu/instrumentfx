@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "EROK Pocket Sonic",
-    "task": "Added partial Pocket Sonic with manufacturer identity and exact Indonesian item. Recover original19.7MBmanual/panel before technical transfer;power/control/memory/software/imports andqualified used/new prices remain. EROKMP9query noexactIDoffer;notabsenceproof.",
+    "task": "Saved Pocket Sonic regulatory family declaration and engineering-sample boundary. Recover original Pocket Sonic manual/panel;do not infer PocketAmp firmware/editor compatibility or cross-flash. Retail power/current/battery,controls,memory,imports andqualified prices still unresolved.",
     "next_models": [],
     "after_queue": "363active/46brands;304guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -61003,6 +61003,12 @@
       "seller_name": "unknown",
       "access": "September/last-month category; direct item and variant cache misses; variant321318948915 unverified",
       "limits": "Separate from equal-priced Jakarta item; no used/new classification, bundle or voucher assumption."
+    },
+    {
+      "model": "EROK Pocket Sonic",
+      "checked_date": "2026-10-18",
+      "source": "https://device.report/m/27368ee6f8b6b150b2426ccb840f90c7816bdf8895ca48525e94d94e315eda79",
+      "finding": "ReportGTSL2025110472F02 includesEROK/PocketSonicfamilydeclaredsamePCB/interior/circuits. ActualtestPOCKETAMPengineeringsampleV08E1/V05,5Vadapter3.7Vbattery;notretailfeature/editor/firmware/powerconnectorproof."
     }
   ],
   "discovery_cross_brand_bass": {

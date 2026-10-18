@@ -77,7 +77,7 @@ No files/dependencies downloaded or software/devices operated. MP-9/MP-20/M-VAVE
 
 ## Pocket Sonic
 
-Checked2026-10-18;partial. Manufacturer explicitly identifies a miniature **guitar multi-effects processor with headphone practice**. Exact Indonesian hardware title establishes a separate Pocket Sonic offer. Bass/vocal suitability,ownership and equivalence with M-VAVE Pocket Amp or other Pocket models remain unverified. [Manufacturer](https://erokmusic.com/index.html).
+Checked2026-10-18;partial. Manufacturer explicitly identifies a miniature **guitar multi-effects processor with headphone practice**. Exact Indonesian hardware title establishes a separate Pocket Sonic offer. Bass/vocal suitability andownership remain unverified. The regulatory hardware-family declaration below links Pocket Sonic with POCKET AMP;retail revision,firmware andfeature equivalence remain unverified. [Manufacturer](https://erokmusic.com/index.html).
 
 | Field | Evidence / qualification |
 |---|---|
@@ -104,3 +104,14 @@ Checked2026-10-18;partial. Manufacturer explicitly identifies a miniature **guit
 | IDR condition-unverified offer | **Rp790.000**,crossedRp888.888/11%;M-VAVE Outlets,Kab.Tangerang,shop1659915296/item54211588203. Checked2026-10-18,three-day indexed cache;direct base item cache miss. Indexed variant341006932698 not verified. Condition,working state,current stock,revision,bundle/charger,warranty/import region,authenticity,voucher,shipping/tax andcheckout total unknown. October16–18 delivery is cached,not live stock;late-arrival compensation is not an immediate discount. [Exact indexed item](https://shopee.co.id/EROK-Pocket-Sonic-Mini-Multi-Effects-Pedal-60-Built-in-Effects-20-Amp-Modeling-with-Tone-Cloning-20-IR-Cabinets-OTG-Recording-Rechargeable-with-Clip-On-Design-i.1659915296.54211588203?extraParams=%7B%22display_model_id%22%3A341006932698%2C%22model_selection_logic%22%3A3%7D) |
 
 No files/dependencies downloaded orsoftware/devices operated. No sibling specifications transferred.
+
+### Pocket Sonic — regulatory hardware-family boundary
+
+Checked2026-10-18 against original **GTSL2025110472F02**,issued2025-12-30,printed pp1,5,for Sinco/FCC **2ARCP-POCKETAMP**,read via [original report text reproduction](https://device.report/m/27368ee6f8b6b150b2426ccb840f90c7816bdf8895ca48525e94d94e315eda79). EROK appears among the listed trademarks.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / hardware-family applicability | Applicant declares **POCKET AMP,SK17,Pocket Sonic,PIXIE1** share PCB layout,interior andelectrical circuits,with name/color differences. This is regulatory-family evidence,not proof that the offered retail unit has identical effect libraries,editor support orfirmware. No cross-flashing recommended orperformed. |
+| Power / regulatory sample | Tested model is **POCKET AMP**,engineering sample **GTSL2025110472-1**,hardware **V08E1**,software **V05**. Report lists **5.0VDC adapter or3.7VDC lithium battery** for that sample. It does not verify Pocket Sonic retail connector,current,capacity,runtime orUSB-power behavior;those remain unresolved. |
+
+This qualifies the previous identity uncertainty without merging records ortransferring Pocket Amp manual specifications. Original Pocket Sonic manual remains unread. No downloads ordevice/software operation.
