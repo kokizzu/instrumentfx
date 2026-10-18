@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Yamaha Magicstomp Acoustic",
-    "task": "Acoustic effect-list choices and source-count discrepancy saved. Next resolve AFR switch restrictions or pursue MK2 own manual; do not infer sibling compatibility.",
+    "task": "Acoustic operating restrictions saved. Next inspect Guitar MK2 own manual and exact Shopee offers; no sibling specification borrowing.",
     "next_models": [
       "Magicstomp Guitar MK2"
     ],
@@ -81968,7 +81968,7 @@
     "scope": "Explicit uncertainty signals in selected comparison field labels and values only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
     "model_count": 381,
     "models_with_signals": 381,
-    "flagged_field_count": 4860,
+    "flagged_field_count": 4862,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -112279,6 +112279,21 @@
             "signals": [
               "unverified"
             ]
+          },
+          {
+            "field": "Processing / count evidence",
+            "source": "YAMAHA.md",
+            "signals": [
+              "unverified",
+              "conflict"
+            ]
+          },
+          {
+            "field": "Footswitches / performance mode",
+            "source": "YAMAHA.md",
+            "signals": [
+              "unverified"
+            ]
           }
         ]
       },
@@ -118826,9 +118841,9 @@
       "TC-ELECTRONIC.md": "46ca68e66568f02e972ac73999ae6e09ce1746d8833b8d9e725b74664b4c2fbc",
       "VALETON.md": "a5d6f6ea7fbdb07244df7fb483d987fb2287edb0c582532cf619c66dfd2f7ecd",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
-      "ALL-GUITAR.md": "e6a027c3090eaca4faf440145c6e3b193a302185b1ad930429ed41cde03027b8",
+      "ALL-GUITAR.md": "3e291ab996f25a0ecd3424ab67030fa3eddd43bece5be0ae1efb6e5c43819e23",
       "LINE6.md": "bbbe508cca147737b97aadbd9b3fbb2e20faa83c7ae8e717abd7acd42c6e63da",
-      "YAMAHA.md": "9e865a061db47f3228533d34f4a0ddb4402d395b2c93986aa3f510cfdd528149",
+      "YAMAHA.md": "64688ddca0e1fb61f2d6dbce847a34b482b0db9285090c3d78afdd66cf3ffdbe",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
       "ALL-BASS.md": "3aa6d5d87d3b0fdf8b923fa3a98825569d53f18c64ad9f9b0ba2a494ef485578",

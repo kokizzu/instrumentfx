@@ -605,6 +605,19 @@ Checked 2026-10-18; partial. Separate Acoustic edition. [Own Yamaha manual](http
 | Processing / parameter choices | Distortion: **14 types**; Digital Distortion: **5**; AmpSimulator: **11 amp choices**, **16 speaker simulations plus Off**. Algorithm-specific counts. |
 | Synth / acoustic processing | AcousticMulti offers **eight microphone simulations**, direct/mic blend, four-band EQ, limiter, **chorus OR delay OR Off**, and **Hall/Room/Plate/Off** reverb. Electric-to-acoustic conversion unverified. |
 
+
+### Magicstomp Acoustic — performance and editing restrictions
+
+[Own manual](https://usa.yamaha.com/files/download/other_assets/9/334079/magicstomp_acoustic_en.pdf), pp13–18,21–23; checked 2026-10-18.
+
+| Field | Operating qualification |
+|---|---|
+| Processing / count evidence | Owner p17: **63 total types**, agreeing with the list; p7 still conflicts. Firmware difference unverified. |
+| Footswitches / AFR | Active AFR: center switch in Up/Down mode, current patch switch in Performance mode detects feedback instead of bypassing. AFR OFF or another effect type restores patch ON/OFF. Detection can fail. |
+| Footswitches / performance mode | Three switches select predetermined adjacent patch triplets. Holding −/+ changes triplet; holding any two switches changes selection mode. Scenes unverified. |
+| Knobs / editing | Parameter pickup requires matching the saved value before adjustment. Normal adjustments: effect ON only; unavailable during Store/Name Edit/Tuner. Deep Edit assigns parameters to the three knobs. |
+| Memory / edit retention | Unsaved edits disappear on patch change or power loss; changing effect type resets edited parameters. Volume-knob setting is not stored. Names allow12 characters; USB connection displays11. |
+
 <!-- comparison evidence ends -->
 
 ## Magicstomp — separate-edition discovery leads
