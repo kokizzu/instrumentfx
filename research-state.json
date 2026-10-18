@@ -29,9 +29,9 @@
   },
   "cursor": {
     "model": "Korg AX3B",
-    "task": "Audit controls,concurrency,initialfill,powerpolarity andexactShopee hardware fromownmanual. PRE10/PEDAL11 andtuner ranges differ;keepconflicts.",
+    "task": "Verifiedtext2/2/2,6simultaneousincludingNR,57variations,pedalwah/volume andconditionaltails. Nextinitialfill,powerpolarity/current,exactShopeeoffers orfreshhardwarediscovery. PreservePRE/PEDALandtunerconflicts.",
     "next_models": [],
-    "after_queue": "370active/46brands;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
+    "after_queue": "370active/46brands;308guitar162bass69vocal;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -81183,5 +81183,11 @@
       "1203229574/42758785757",
       "800959591/24004987590"
     ]
+  },
+  "ax3b_controls_concurrency_20261018": {
+    "source": "https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B",
+    "printed_pages": "4–7,10",
+    "finding": "Controlcount,simultaneousceiling,pedalbehavior andconditionaltails saved;powerpolarity stillunknown.",
+    "status": "partial"
   }
 }

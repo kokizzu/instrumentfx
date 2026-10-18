@@ -877,10 +877,10 @@ Bass multi-effects;partial,checked2026-10-18. Distinct fromAX3G/AX5B. [Own manua
 
 | Field | Finding / qualification |
 |---|---|
-| Expression | External EXP-2/XVP-10;built-in/toe audit pending. |
-| K/F/B | Separate control census pending. |
+| Expression | No built-in/toe pedal incontrolinventory;external EXP-2/XVP-10. PEDAL controls wah whenPRE FX WAH selected,otherwise volume. [Own manual pp4–5](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
+| K/F/B | **2/2/2**,text-derived:function selector,value knob;programup/down footswitches;WRITE/CANCEL buttons. Visualcorroboration pending. [Own manual pp4–5](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
 | Display | Program/value display;diagonal/color/touch unverified. |
-| Processing / categories | Manual:PRE10,drive/amp16,cabinet10,MOD10,delay5,reverb5,NR1. Delay/reverb shareonecategory;cabinet depends onactive drive/amp. Concurrency audit pending. |
+| Processing / categories | Manual:PRE10,drive/amp16,cabinet10,MOD10,delay5,reverb5,NR1. Delay/reverb shareonecategory;cabinet depends onactive drive/amp. **Six simultaneous effects includingNR;57 modeling variations**. Volume-pedal stage requires externalpedal. [Own manual pp4,7](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
 | Memory | **40user+40preset=80**;user01–40 rewritable,preset41–80;initial userfill unverified. |
 | Synth / acoustic | Dedicated synth/acoustic simulation unverified. |
 | Dimensions / mass | **178W×142D×43H mm;340g**,battery qualification unstated. |
@@ -891,5 +891,7 @@ Bass multi-effects;partial,checked2026-10-18. Distinct fromAX3G/AX5B. [Own manua
 | Practical features | Manualtuner **C0–C6,A438–445Hz**. |
 | Processing / source conflict | [German manufacturer specifications](https://www.korg.com/de/products/effects/ac3b/page_2.php) say **PEDAL11** andtuner **A0–E6**,versusmanualPRE10/C0–C6. Preserve differences;no silentmerge. |
 | IDR price | Used/new unknown;exactShopee query yieldednoqualifiedhardware. Seller/condition/stock/bundle/warranty/voucher unverified. |
+| Practical features / conditional tails | Delay survives programchange onlywithsame delaytype andTIME[P1];reverb survives withsamereverbtype. This isconditional preservation,not universally seamless switching. [Own manual p4](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
+| Power / battery switching | MonoINPUT insertion switches batterypoweron;removal switchesoff. Stereo inputcable willnotpower batteries. DCpolarity anddevicecurrent remainunverified;no sibling-adapter inference. [Own manual pp6,10](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
 
 <!-- comparison evidence ends -->
