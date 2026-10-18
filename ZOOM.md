@@ -2548,6 +2548,12 @@ Remaining: physical counts,screen details,connector formats,power draw,imports/M
 
 [B3-J]: https://www.zoom.co.jp/ja/products/bass/b3-bass-effects-amp-simulator-pedal
 
+### B3 — external expression-volume audit
+
+Checked 2026-10-19 against [own manufacturer manual, pp10,14–18](https://zoomcorp.com/media/documents/E_B3.pdf). TOTAL settings are saved **separately per patch**, including expression destination/range. INPUT VOL and OUTPUT VOL select input/output level; min/max can invert response. Numeric endpoint bounds remain unverified. GLOBAL master level is separate, not a global expression assignment. **OUTPUT VOL does not affect rhythm or looper output levels.**
+
+FP01/FP02 use CONTROL IN; normal bass pickups require no special divided pickup. Guitar voicing suitability stays unclassified. Existing234W×170Dmm fails preferred size. Shared L/MONO/PHONES supports headphones, but expression attenuation there and during bypass remains unknown; tails and held-pedal recall unverified. Patch-selection mode documents lower/higher patches; extracted switch symbols are missing, so exact footswitch mapping needs visual corroboration. No downloads or hardware operation.
+
 ## G1Xon
 
 Guitar multi-effects,distinct from G1on and G1X FOUR. Checked2026-10-17;partial. Ownership andbass suitability unestablished. Current manufacturer page marks discontinued.
