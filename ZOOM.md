@@ -1256,6 +1256,15 @@ Checked2026-10-18.
 | Memory / patch recovery scope | REVERT offers **PREVIOUS**, restoring the state immediately after selection, or **FACTORY**, restoring that patch’s factory state. These are patch-level operations, distinct from the documented all-settings ALL INIT reset; PREVIOUS is not proof of undo history across power-off. |
 | Live / momentary effect control | Some effects can sound only while their footswitch is held; special-function parameters appear inverted. This is algorithm-specific behavior, not a universal momentary setting, extra footswitch or additional processing slot. |
 
+
+### B2 FOUR — USB protocol wording and looper gestures
+
+Checked2026-10-18 against [original operation manual](https://zoomcorp.com/manuals/b2four-en/),Z2I-4836-01,specifications andLooper operations. No software ordevice operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| USB / protocol distinction | Manual lists **Handy Guitar Lab:USB1.1 Full Speed** and **audio interface:USB2.0 Full Speed,32-bit,2-in/2-out**. USB2.0 wording does not establish High Speed operation orsample rate;Type-C describes the connector. Data-capable cable required;bus power supported. |
+| Looper / foot gestures | During playback,double-press stops;single-press begins overdub. Press during overdub ends overdubbing while playback continues. Hold during playback undoes the last overdub whenUNDO enabled;hold again restores it. **Hold while stopped clears the entire loop**. Two presses during initial recording cancel it. These state-dependent gestures are not additional physical controls orpersistent loop storage. |
 <!-- comparison evidence ends -->
 
 ## B6
