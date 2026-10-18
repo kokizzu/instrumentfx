@@ -771,6 +771,16 @@ Checked 2026-10-18 against [own EFG1 manual][AX5B-M], printed51–53 (PDF pages3
 | Synth / single-note restrictions | Manual explicitly restricts OCTAVE andFRETLESS to single-note use;chords may produce muddy/uncontrolled results. Do not generalize that warning into a proven SYNTH polyphony specification. |
 | Expression / filter interaction | ClassicChorus,ClassicFlanger andFiltron MANUAL has no effect withDEPTH10. For Filtron pedal control ofMANUAL,Korg recommendsDEPTH0or near0. A mapped pedal target does not guarantee audible change at every setting. |
 
+
+### AX5B — official distributor adapter evidence
+
+| Field | Evidence / qualification |
+|---|---|
+| Power / compatible adapter polarity | Korg’s German distributor-operated shop explicitly includes **ToneWorks AX5B** in the **KA-189** compatibility list and specifies **9V, center-negative** (outside positive). This supports compatible-adapter polarity; it is not an inspection of the AX5B socket label or proof of an original bundled adapter. |
+| Power / adapter current conflict | The same page says **1.0A** in its title/specification and **600mA** in an attribute. Preserve this adapter-rating conflict. Neither number is established AX5B operating current; barrel dimensions remain unverified. |
+
+Checked2026-10-18: [KA-189 original-accessory listing](https://www.korg-shop.de/en/korg-power-supply-ka-189/KRKA189). The shop identifies MUSIK MEYER as operator; [Korg’s own distributor directory](https://www.korg.com/hken/corporate/distributors/) independently identifies MUSIK MEYER/KORG & MORE for Germany. This is official-distributor accessory evidence, separate from the manufacturer owner’s manual. No purchase, download or device operation.
+
 <!-- comparison evidence ends -->
 
 [AX5B-F]: https://www.korg.com/de/products/effects/ax5b/page_1.php
