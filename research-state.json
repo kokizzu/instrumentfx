@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Behringer DSP2024P",
-    "task": "Added partialDSP2024P fromownmanufacturer/manual;shortenedShopeeDSP2024suffixunverified. Next fullcategorycensus andexacthardwareidentity/condition;commitbeforenextmodel.",
+    "task": "Saved DSP2024P11pairedprograms,vocoder routing,activationdelay andnumberingconflict. Next readableoriginalappendix/table evidence forfull71census orfresh exacthardwareidentity; commit before nextmodel.",
     "next_models": [],
     "after_queue": "348partial unique models;114Markdowncompat retained. No downloads/workflows/push."
   },
@@ -59487,6 +59487,21 @@
         "Visualcontrols"
       ],
       "method": "Manufacturer-authoredmanualVersion1.2September2004 andtechnicalsheetbody; noFAQ/download"
+    },
+    {
+      "model": "Behringer DSP2024P",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://manualzz.com/doc/1522565/behringer-virtualizer-pro-dsp2024p-user-s-manual"
+      ],
+      "finding": "11namedcombination programs61–71within71;vocoderRmodulator/Lcarrier;~1spresetactivation;100+100versus000–100 numbering conflict retained.",
+      "remaining": [
+        "Full71algorithm census from appendix tables",
+        "ExactShopee suffix/condition",
+        "Visualcontrols",
+        "Editor/import support"
+      ],
+      "method": "Manufacturer manual body only; missing extractedtables not reconstructed; no downloads/execution"
     }
   ],
   "discovery_cross_brand_bass": {

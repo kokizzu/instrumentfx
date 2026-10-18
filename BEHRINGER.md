@@ -380,6 +380,18 @@ VIRTUALIZER PRO rack multi-effects; distinct from FX2000/DSP1024P. Checked2026-1
 | New | No condition-confirmed exactDSP2024P offer. |
 | Shortened-model sold-out lead | **Rp2.420.000;Habis**,elkusla_shop,Kab.Kediri,shop118221978/item21150087765. [Exact item](https://shopee.co.id/efek-vocal-behringer-virtualizer-pro-dsp2024-i.118221978.21150087765). Direct cachedbody,three-weekcrawl,stale27–29Sepdelivery. Title saysDSP2024 withoutP;exactsuffix,condition,workingstate,bundle,mainsregion,warranty,stock,voucher,shipping/tax andtotal unverified. Rp10k late compensation is not a discount. Not a confirmed DSP2024P used/new price orcompleted sale. |
 
+
+### DSP2024P — combination algorithms and live limits
+
+Checked 2026-10-18 against the [manufacturer manual, Version 1.2][D24-M], printed pp.17–19,22–23. Appendix tables are absent from extracted text; a complete 71-entry census is not claimed.
+
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / combinations 11 | Chorus & Reverb; Flanger & Reverb; Rotary & Reverb; Pitch & Reverb; Delay & Reverb; Tremolo & Reverb; Phaser & Reverb; Chorus & Delay; Flanger & Delay; Pitch & Delay; Tremolo & Delay. Algorithms **61–71**, included in71; paired processing does not establish freely assignable blocks. |
+| Synth / vocoder routing | **Right input is modulator/control**, typically voice; **left is carrier**, typically synthesizer. This is external-carrier processing, not proof of an onboard polyphonic synth. |
+| Live / preset activation | Manual specifies about **one second** before a newly selected preset activates. Rapid Jog selection skips intermediate programs; this is not seamless switching. |
+| Memory / source numbering conflict | Prose states100 factory+100 user, but prints inclusive rangesI.000–I.100 andU.000–U.100. Retain the inconsistency; do not infer202 memories. |
+
 <!-- comparison evidence ends -->
 
 [D24-M]: https://manualzz.com/doc/1522565/behringer-virtualizer-pro-dsp2024p-user-s-manual
