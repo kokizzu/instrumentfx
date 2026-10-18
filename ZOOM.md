@@ -2302,6 +2302,12 @@ A second [exact original-title listing,11170212/4617081740](https://shopee.co.id
 
 Resolve V2 category subtotals,installed revision,30/40 factory subset and350/360g conflicts;external EXP,display details,USB connector/audio/MIDI,current power requirements,complete acoustic/IR/NAM/capture exclusions,looper/drums/scenes andqualified current used/new hardware offers. Source dates are not refreshed by index retrieval;no market-completeness claim.
 
+### MS-70CDR — direct expression-path screening
+
+Checked 2026-10-19 against [own manufacturer manual, pp4–5,11,33](https://zoomcorp.com/media/documents/MS-70CDR_operationManual_English.pdf), ©2013. Complete connector inventory is stereo INPUT/OUTPUT pairs, USB and DC; **no analog EXP/CONTROL or dedicated headphones**. This resolves the earlier external-expression unknown for the original model. No MS-70CDR+ features transferred. Manual expressly accepts normal guitar/bass input.
+
+Existing77.5W×130.3Dmm fits preferred chassis, excluding plugs. Direct analog volume fails; associated placement/range and bypass/headphone/tail/loop attenuation are not applicable. The single footswitch cycles a configured patch list; separate preset-down/up is not provided by that workflow. Headphone use through line outputs and USB controller workarounds remain unverified. Preserve older mass/factory-fill conflicts, prices and other technical qualifications. No downloads or device operation.
+
 ## MS-70CDR Plus
 
 Manufacturer model **MS-70CDR+**,catalogued as MS-70CDR Plus to keep its identity distinct from the original MS-70CDR. Reviewed **2026-10-17** following exact Shopee discovery;guitar/bass multi-effects,no ownership assertion. Partial:official HTML and indexed manufacturer document text;no dependencies,manual files,firmware or software downloaded to the workspace.
