@@ -918,6 +918,16 @@ Checked 2026-10-18; five-month cached [Salomo Musik Galaxy, seller77740878/item1
 |---|---|
 | IDR condition-unverified hardware ask | Checked 2026-10-18: [Salomo Musik Galaxy,77740878/15201560095](https://shopee.co.id/Multi-Efek-Gitar-Nux-Cerberus-Integrated-Effect-Controller-i.77740878.15201560095), Bekasi; five-month cache. Opened cached page **Rp3.729.000**; search excerpt **Rp3.728.000**, unresolved snapshot difference. Page says **Layanan Tidak Tersedia**; no current fulfillment or stock claim. Used/new condition, selected bundle, warranty, shipping, taxes and voucher eligibility unverified. |
 
+### Cerberus — original manual routing limits
+
+[Manufacturer manual](https://www.frenexport.it/files/content/eng-cerberus-manual-20180118105738.pdf), printed pp6,12–13,18; text checked 2026-10-18. Panel screenshot retrieval failed; complete control counts remain unverified. Original-manual behavior, not a V5 device test.
+
+| Field | Finding / qualification |
+|---|---|
+| Routing / cabinet output | CAB affects OUTPUT2; OUTPUT1 can feed an amplifier without cabinet simulation. Connecting headphones automatically enables cabinet simulation. This is not proof of independently loadable stereo cabinet engines. |
+| Controls / manual switching | MOD switches chorus and MOD FX together. Separate MOD FX control uses its depth at minimum or a CTRL assignment. DELAY does not independently engage reverb; use reverb level at minimum or assign CTRL. |
+| Expression / calibration | External volume precedes modulation/delay. Calibration stores heel-down minimum and toe-down maximum via ENTER; this does not establish a mechanical toe switch. |
+
 ## Foreign-price provenance and consolidation limits
 
 The original six-model review recorded **2026-10-14 foreign new asks**:MG-101USD129([NUXUSA](https://www.nux.us/products/mg-101));MG-300MKIIUSD169([NUXUSA](https://www.nux.us/products/mg-300-mkii));MG-400USD229([NUXUSA](https://www.nux.us/products/mg-400)) andUSD172([Thomann](https://www.thomannmusic.com/nux_mg_400.htm));MG-30USD329([NUXUSA NAM page](https://www.nux.us/pages/nam-a2-native));MG-50LiUSD549([NUXUSA](https://www.nux.us/products/mg-50li)). OriginalMG-300hadnone. These remain historicalforeignprovenance,**not IDR values or Indonesian delivered prices**. No FXrate/useddiscountassumed. Existing Indonesian Shopee leads for those six remain in the root inventory/legacy discovery evidence pending exact integration;unknowncells do not mean unavailable.
