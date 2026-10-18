@@ -982,7 +982,7 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 |---|---|
 | Expression | Built-in treadle with pressure-at-toe switch and sensitivity calibration. EXT.PEDAL selects banks; external expression unproven. [Manual controls][MFX10-T] |
 | K/F/B | Three footswitches; SELECT plus four parameter knobs documented. AUX prose mentions master Level, so full rotary total unresolved; separate buttons pending. Toe/power additional. [Manual controls][MFX10-T] |
-| Display | **160×128 TFT LCD plus two-digit seven-segment LED**; diagonal/color/touch unverified. [Specifications p27][MFX10-T] |
+| Display | **160×128 TFT LCD plus two-digit seven-segment LED**;red SAVE-selection background documented below;diagonal/touch andvisual verification unresolved. [Specifications p27][MFX10-T] |
 | Processing / conflict | Introduction: **54 models, nine simultaneous**; specification p27: **55 types, maximum eight simultaneous modules**. Preserve both; do not silently choose a ceiling or current firmware total. [Introduction][MFX10-I]; [Specifications][MFX10-T] |
 | Categories | Introduction lists **19 amp/pedal models,12 cabinets**. Additional category choices documented below; original total conflicts remain. [Introduction][MFX10-I] |
 | Categories / cabinet count | EQ/CAB prose lists **11 cabinet models plus NO CAB**, explaining12 selector entries rather than12 modeled cabinets. EQ follows AMP versus DS selection: passive amp curves or active parametric DS curves. [Manual p21][MFX10-T] |
@@ -1044,6 +1044,16 @@ Checked2026-10-18 against manufacturer-authored [2010 manual transcription][MFX1
 | Processing / A/B interpretation | Table gives each family A/B variants;module instructions permit different models/settings for the two channels. Those are switchable states,not two simultaneous amp blocks or extra independently stored preset locations. |
 | Processing / Clean Tube conflict | Table identifies channelB as **Trainwreck Express**;following Clean Tube prose instead describes a **Twin-derived extra gain stage**. Preserve both claims;no firmware orrevision explanation established. |
 | Display / save feedback | SAVE instructions explicitly describe the selected name character on a **red background**. This is documented colored UI feedback;touch anddiagonal remain unverified. No visual panel audit claimed. |
+
+### MFX-10 — derived library count and cabinet-table conflict
+
+Checked2026-10-18 against [manufacturer-authored2010 manual][MFX10-T],COMP/EFX/AMP&DS/EQ&CAB/NGATE/MODFX/DELAY/REVERB sections,printed pp11–27. No firmware ordevice inspection.
+
+| Field | Finding / qualification |
+|---|---|
+| Categories / derived55 interpretation | **1compressor+8EFX+19amp/drive families+11cabinets+1noise gate+10MODFX+2delays+3reverbs=55**. This derived count excludes Drive Off,No Cab,separate EQ andnested wah/A-B variants. It matches the specification’s55 arithmetically;manufacturer does not explicitly define that counting basis. Excluding noise gate gives54,but attributing the introduction’s54 to that exclusion is unproven. Preserve54/55and9effects/8modules conflicts. |
+| Categories / cabinet inventory11 | JAZZ212,TWEED112,BLACK210,BSMAN410,TWIN112,BRIT212,GREEN112,V30 412,T75 412,RECT 412,CALI 12;plus No Cab bypass. **GREEN112’s accompanying description says4×12**,despite its112label. Retain both without silently renaming it. |
+| Processing / DS equalizer | With pedal/DS models,low/mid/high each span **±12dB**,andmid frequency **300–3000Hz**. Amp-mode passive curves remain a different EQ behavior;not additional independently selectable blocks. |
 <!-- comparison evidence ends -->
 
 Variant,bundle,adapter inclusion,authenticity,working state,warranty,shipping/tax and vouchers unresolved. Category-only or mixed-model asks remain unassigned in the ledger.
