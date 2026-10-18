@@ -453,7 +453,7 @@ All nine non-PEDAL categories in this edition have now been enumerated. Later ad
 | Field | Finding / qualification |
 |---|---|
 | Looper / routing | **30-second mono** phrase looper, with overdubbing. Pre records before effects, allowing later patch/effect changes; Post records after effects. Changing recording time, looper position or tempo **clears the loop**. Stop mode and playback volume are adjustable. |
-| Rhythm / tempo | Rhythm settings include pattern, pre-count, tempo and volume. SETUP BPM applies to effects, rhythms and looper; not three independently verified clocks. |
+| Practical features / rhythm tempo | Rhythm settings include pattern, pre-count, tempo and volume. SETUP BPM applies to effects, rhythms and looper; not three independently verified clocks. |
 | Power / battery conditions | Approximately **18 hours with alkaline AA batteries and LCD backlight off**. ECO defaults on and powers off after10 hours without use; battery-type setting calibrates charge indication. AD-16's500mA remains adapter rating, not measured draw. |
 | USB / MIDI | Guide explicitly specifies **USB MIDI**, Micro-B and USB power. A power-only cable cannot carry other USB functions; bus power does not imply USB audio. |
 | Memory / saving | AUTO SAVE can save parameter edits immediately; when disabled, changing patches prompts for saving. SAVE can overwrite or swap patches. This does not resolve the retained factory-fill conflict. |
