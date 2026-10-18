@@ -1845,6 +1845,12 @@ The manufacturer-authored joint 2.00 manual [PE-M], printed pp.14–16 and 29–
 
 [PE-BL] [Official POD Express Black page, including external volume, headphone jack, footswitch operation and numbered controls](https://line6.com/podexpress/guitar-effects-black). [PE-F] explicitly names all three variants. [PE-M] is the manufacturer-authored source reproduced by a document host, not the host's generated summary. Its PDF download failed again; text was inspected but no successful PDF rendering or hands-on test is claimed.
 
+#### Black — electrical evidence and unresolved dimensions
+
+Checked2026-10-19. [Line6 electrical specification](https://kb.line6.com/pod-express-input-and-output-specs) explicitly names **Black**: input1MΩ TS; L/Mono andR680Ω impedance-balanced TRS, **not true balanced**; phones approximately2Ω, designed for12.8Ω–about2kΩ loads; maximum output+7dBV. Output impedance is not headphone power or expression sweep coverage.
+
+[Yamaha Singapore exact Black+DC1G bundle page](https://shop.sg.yamaha.com/products/pedals/helix-series/pod-exp-blk-set.html), SKU155144/POD EXP BL SET, indexed specification listsL7.5×W16.2×H9.3cm,600g. Direct open failed. Chassis versus packaging/bundle basis is unspecified; do **not** certify fit or replace unknown device mass with600g. Its amp/effect labels also differ from the Black library already preserved above. No sibling dimensions transferred. Targeted exact Black/Shopee Indonesia searches yielded no qualified item this pass;not proof of market absence. IDR,condition,stock andbundle remain unknown;partial lead stays outside active inventory.
+
 ### HX family distinction
 
 HX Effects, HX Stomp and HX Stomp XL remain **not certified in this audit as zero-per-preset-setup global volume solutions**. Their existing records stay intact. A Global EXP Position setting must never be treated as proof of a globally inserted volume block or output-controller assignment. A fresh firmware-matched check of output-level controller scope remains on the audit queue.
