@@ -122572,10 +122572,11 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "IR-200 original manufacturer manual and loader boundaries",
-    "finding": "Original 2021 manual now accessible. AUX reaches outputs/phones separately; DC IN switches power. Loader manual selects one channel from stereo IR files; preserve distinction from product-page stereo wording. Voltage/polarity unresolved.",
+    "current": "IR-200 exact adapter association and remaining profile checklist",
+    "finding": "Manufacturer adapter correspondence explicitly maps IR-200 to PSA-230S; adapter documentation supports regulated 9V DC center-negative,500mA adapter rating distinct from335mA device draw. Partial inventory lead retained.",
     "next": [
-      "Continue IR-200 full profile: exact power specifications, remaining capability fields and scope decision before admission",
+      "Return to Ampero Mini global-volume assignment scope, then Nano Cortex; calibration/hold is not assignment",
+      "IR-200: resolve stereo IR capacity/loader conflict, complete field checklist and final scope decision; power voltage/polarity now source-backed",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
@@ -122641,7 +122642,8 @@
       "sources": [
         "https://static.roland.com/assets/media/pdf/IR-200_eng01_W.pdf",
         "https://static.roland.com/assets/media/pdf/IR-200_IR_Loader_eng01_W.pdf"
-      ]
+      ],
+      "power": "IR-200 -> PSA-230S in official July2025 correspondence; PSA-S regulated9VDC center-negative500mA supply; device335mA. Seller adapter unverified."
     }
   }
 }

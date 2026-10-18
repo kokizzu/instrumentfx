@@ -4081,3 +4081,21 @@ Checked 2026-10-19. [Official system-program history](https://www.boss.info/glob
 Checked 2026-10-19. The [original BOSS English manual](https://static.roland.com/assets/media/pdf/IR-200_eng01_W.pdf), ©2021,26 pages, is now accessible; the earlier mirror and access history remain preserved. Printed pp3–6 confirm simultaneous footswitches bypass all effects; **AUX IN mixes to OUTPUT and PHONES**, with level adjusted at the player. This supplies another reason not to promise AMP LEVEL mutes every source. Bypass attenuation itself remains unverified. DC IN insertion/removal switches power; p23 specifies adapter supply and335mA, but no numerical DC voltage/polarity. Battery/USB operation remains unverified. Listed expression options also include FV-500H/FV-500L alongside EV-30/EV-5.
 
 [Original IR Loader manual](https://static.roland.com/assets/media/pdf/IR-200_IR_Loader_eng01_W.pdf), ©2021,3 pages: Windows and Mac installers require the corresponding USB driver. It documents IR import, naming, deletion, favorites, and whole-device memories/settings backup/restore; this does not establish a full parameter editor or mobile editor. Accepted WAV rates44.1/48/96kHz,16/24-bit linear or32-bit float,200/500ms. **For a stereo file, it asks the user to select one channel.** Preserve this exact loader behavior beside the product page’s broader stereo-file wording and prior capacity description; true stereo storage/path handling needs clarification. No NAM/capture support inferred. Nothing downloaded, installed or tested.
+
+### IR-200 — exact adapter association and remaining checklist
+
+Checked 2026-10-19. [Roland/BOSS adapter correspondence, updated 2025-07-15](https://static.roland.com/assets/media/pdf/roland_ac_adaptor_information.pdf?lang=fr-FR), p3, explicitly pairs **IR-200 with PSA-230S**; p1 specifies9.0V DC/0.5A output and100–240V AC,50/60Hz input. [Roland PSA-S electrical specification](https://support.roland.com/hc/en-us/articles/201953449-BOSS-PSA-S-Adaptor-Specifications), updated2026-06-16, confirms regulated9V DC, **center negative**,0.5A. This resolves the documented supply voltage/polarity through an exact model-to-adapter association, not a sibling processor. **500mA is adapter capacity;335mA remains the device draw.** Regional plug and seller-supplied adapter identity/condition remain unverified. Earlier unknowns above describe prior research stages.
+
+The documented amp, noise suppression, EQ and ambience stages support multi-effects eligibility in principle; full inventory admission remains pending consolidation and the following explicit gaps. No new active model is counted.
+
+| Required field | Remaining qualification |
+|---|---|
+| Expression | System AMP LEVEL assignment documented; toe-switch support and final-output/bypass/headphone/tail coverage unknown |
+| Controls/display | Text control counts saved; panel corroboration, display diagonal/color/touch unresolved |
+| Processing/memory | Stage evidence saved; exact simultaneous block census, per-category choices and factory occupancy need reconciliation |
+| I/O/software | Ports and USB modes saved; exact USB channel count and full-editor availability unresolved |
+| Imports/sound | Stereo IR wording versus loader channel-selection behavior unresolved; native/converted NAM, capture and synth/acoustic specifics unverified |
+| Power/practice | Adapter association resolved; battery/USB operation, looper, drums and scenes unverified |
+| Price | Exact cached hardware ask saved; separate verified new/used evidence, current stock and bundle remain unknown |
+
+Retain the lead outside active tables until a complete field-oriented profile and scope decision are saved. Unknown fields do not imply absent capabilities.

@@ -169,3 +169,5 @@ IR-200 follow-up: [EXP PDL HOLD and USB playback routing](BOSS.md#ir-200--pedal-
 IR-200 [firmware and exact offer follow-up](BOSS.md#ir-200--firmware-history-and-exact-hardware-offer): MIDI EXP HOLD fixes concern state retention, not final-output assignment. Exact Shopee item now located; cached asking price does not verify condition or stock. Remains a partial lead outside active counts.
 
 IR-200 [original-manual routing check](BOSS.md#ir-200--original-manual-and-ir-loader-qualification): AUX is mixed to outputs and headphones with player-side level. Whole-source expression mute remains unverified; original BOSS PDF is now accessible.
+
+IR-200 [power qualification and profile checklist](BOSS.md#ir-200--exact-adapter-association-and-remaining-checklist): exact manufacturer adapter mapping resolves9V DC center-negative supply; remaining output-coverage and inventory-admission gaps stay open.
