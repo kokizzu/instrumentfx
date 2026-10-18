@@ -2083,14 +2083,14 @@ Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no si
 |---|---|
 | Expression | Two external expression inputs,shared with AMP CTRL;built-in treadle/toe support unverified. |
 | K/F/B | Rotary/button totals unverified;**eight footswitches**,assignable functions/colors. |
-| Display | Diagonal,color/touch unverified. |
+| Display | Own manual: **5-inch,854×480 color LCD**;touch unverified. |
 | Processing / categories | **13 blocks;108 amp models,164 effects,43 factory cabinets**. Exact category census andsimultaneous DSP ceiling unverified. |
-| Memory | Page says **255 preset banks**;presets-per-bank,total writable/factory-filled separation unverified. |
+| Memory | Manual: **85 banks×3=255 preset slots**,superseding product-page **255 banks** wording. Factory-filled subset unverified. |
 | Synth / acoustic | Synth engine anddedicated acoustic simulation unverified;GUITAR Tone Capture is anEQ-character capture,not proof ofeither. |
-| Dimensions / mass | Unverified;do notborrow GE300 measurements. |
-| I/O | Guitar/line input,stereo-mini AUX,two1/4-inch outputs,1/4-inch stereo phones,two balancedXLR withgroundlift,EXP1/2,MIDI IN/OUT-configurable port,USB-B,DC. FXloop called **stereo** inoverview but **mono** inconnector list;retain conflict. |
-| Power | Voltage,current,polarity,batteries/USBpower unverified. |
-| Editor / platforms | Mac/Windows editing,preset transfer,IR loading,firmware updates andUSB audio documented;OS versions,driver/channel/format limits unverified. |
+| Dimensions / mass | Manual: **287×208×64mm;2.1kg**,axes unstated;not GE300 measurements. |
+| I/O | Guitar/line input,stereo-mini AUX,two1/4-inch outputs,1/4-inch stereo phones,two balancedXLR withgroundlift,EXP1/2,MIDI IN/OUT-configurable port,USB-B,DC. Manual rear-panel text specifies **one mono1/4-inch SEND and RETURN pair**. Product overview calls itstereo;manual specification table also callsSEND stereo. Conflicting wording retained;no second pair inferred. |
+| Power | Manual requires **9VDC2A,center-negative** supply;capacity requirement,not measured draw. Battery/USBpower,barrel dimensions unverified. |
+| Editor / platforms | Mac/Windows editing,preset transfer,IR loading,firmware updates andUSB audio documented;Manual: USB **24-bit44.1kHz**;Windows ASIO driver required,Mac needs noextra driver. Normal/Re-Amp modes andper-side dry/processed sends documented. CurrentOS/channel limits unverified. |
 | IR / NAM / capture | Third-party IR≤2048samples;Tone Capture AMP/GUITAR/CAB modes. [Own downloads](https://www.mooeraudio.com/companyfile/GE300-Lite-Downloads-150.html): **V5.0.3,2026-08-04**,NAM A1/A2 load throughconverter intoAMP only;not evidence ofnativeNAM execution. |
 | Looper / practical | **30-second stereo looper**,storable sessions;adjustable tuner. Drum/scenes/spillover unverified. |
 | IDR price | Noqualified exactShopeehardwareoffer fromGE300Lite/GE300 Lite queries. Used/new,seller/item,condition,stock,bundle,warranty/voucher unknown. |
@@ -2098,3 +2098,5 @@ Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no si
 <!-- comparison evidence ends -->
 
 Firmware qualification: own downloads labels **V5.0.2,2026-01-05** as a factory-resetting major update,with startup black-screen andEXP FXloop-mix fixes. Backups are required by those notes; no update performed. Installed firmware andpreset compatibility remain unverified.
+
+Manual follow-up checked2026-10-18: [MOOER-authored Lite manual,distributor copy](https://cdn.rockboard.de/nos/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_LITE_Manual_EN.pdf),V01-2020.07.22,model title/publisher andLite panel match. Printedpp1,4,7,12,29–30,80–81 support corrections above. USB specifications are audio formats,not proof ofUSB power. Text inspection only;no panel-image count certified. Remaining controls,category census,expression/toe,battery andqualified-offer gaps remain explicit.

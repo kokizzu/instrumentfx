@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "MOOER GE300 Lite",
-    "task": "Added distinct Lite with own product/download evidence. Next own manual for dimensions,power,controls,display,memory andFXloop mono/stereo conflict;no GE300 sibling substitution. Exact Shopee offers stillunverified.",
+    "task": "Saved Lite manual power/body/display/85x3memory andUSB evidence. Next exact controls andeffect category census;retain mono/stereo loop conflict,verify expression/toe andqualified offers without borrowing GE300.",
     "next_models": [],
     "after_queue": "375 active models,46 brands,all partial; compatibility migration incomplete; no downloads/workflows/push."
   },
@@ -81642,6 +81642,19 @@
     "sources": [
       "https://www.mooeraudio.com/product/GE300Lite-239.html",
       "https://www.mooeraudio.com/companyfile/GE300-Lite-Downloads-150.html"
+    ]
+  },
+  "ge300lite_manual_20261018": {
+    "source": "https://cdn.rockboard.de/nos/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_LITE_Manual_EN.pdf",
+    "revision": "V01-2020.07.22",
+    "result": "Own manual resolves85x3preset slots,5-inchcolorLCD,body andsupply requirement. Mono rear-panel loop conflicts withstereo overview/spec table;retained. USB format/driver/reamp qualified.",
+    "remaining": [
+      "Exact controls",
+      "Factory fill",
+      "Category census/concurrency",
+      "Loop wording conflict",
+      "CurrentOS",
+      "Qualified Shopee offers"
     ]
   }
 }
