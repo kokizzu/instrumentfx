@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "GP-50 distinct MIDI master, patch and EXP controls",
-    "finding": "Manufacturer 1.0.5 manual mirror distinguishes MIDI master CC1,patch CC7,EXP CC11. MIDI is separate from direct analog assignment;1.1 PDF still inaccessible.",
+    "current": "M-VAVE Chocolate protocol lead screened, expression section incomplete",
+    "finding": "Original reverse-engineering README documents switch CC examples but leaves Expression Pedal TODO. Not manufacturer specification or expression verification; wiring remains unknown.",
     "next": [
-      "M-VAVE: verify exact controller revision, expression input pinout and programmable CC range; do not substitute MIDI for direct analog qualification",
+      "Expand remaining no-treadle inventory from ledger; retain M-VAVE pinout/resistance/continuous-CC and exact hardware revision as unresolved",
       "IR-200: resolve stereo IR capacity/loader conflict, complete field checklist and final scope decision; power voltage/polarity now source-backed",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",

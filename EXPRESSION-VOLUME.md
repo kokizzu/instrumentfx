@@ -177,3 +177,5 @@ Mini [global-menu and looper check](HOTONE.md#ampero-mini--global-menu-and-loope
 Nano Cortex [volume-target distinction](NEURAL-DSP.md#nano-cortex--three-distinct-volume-references): the pre-slot Volume utility, Capture Volume and disputed LEVEL assignment remain separate; no global final-output guarantee established.
 
 GP-50 [MIDI target distinction](VALETON.md#gp-50--midi-master-volume-is-a-separate-control-path): master, patch and EXP commands are separate. This does not resolve direct analog global-volume assignment.
+
+M-VAVE [protocol-lead screening](M-VAVE.md#chocolate--protocol-research-lead-is-not-expression-verification): switch CC examples do not verify expression sweep; exact controller wiring and revision remain open.

@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(mvave): qualify PD41 bank modes and wiring evidence gaps'))
+    print(git('commit','-m','research(mvave): screen Chocolate protocol lead without inferring expression wiring'))
