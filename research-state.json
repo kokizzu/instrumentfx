@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Hotone Ampero II MP-350",
-    "task": "MP350 older MOD29,DLY32,RVB13 censuses saved withI/O andmode limits. Reconcile complete older category totals against laterfirmware,orcontinue freshShopee discovery.114 Markdown compatibility files retained.",
+    "task": "Older1.1.0-JP category counts reconciled:487 category-listed choices withIR/utilities included;not unique/current total. Later complete-list reconciliation remains open;next freshShopee lead or another unresolved model field.114 Markdown compatibility files retained.",
     "next_models": [],
     "after_queue": "342 partial unique models; Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -73210,5 +73210,39 @@
       "Internal modes not additional algorithms.",
       "Freeze slot switch controls Activate;resets off on selection/Scene1."
     ]
+  },
+  "mp350_older_category_reconciliation_20261018": {
+    "checked": "2026-10-18",
+    "source": "https://device.report/m/48deba8e5dea066fa50f635cc07b403e45852f8bac3d56b69f6c96730f099d44.pdf",
+    "revision": "firmware1.1.0-JP",
+    "counts": {
+      "DYN": 17,
+      "FREQ": 46,
+      "WAH": 13,
+      "DRV": 38,
+      "AMP": 93,
+      "PRE_AMP": 94,
+      "CAB": 68,
+      "stock_IR": 30,
+      "EQ": 10,
+      "MOD": 29,
+      "DLY": 32,
+      "RVB": 13,
+      "utilities": 4
+    },
+    "derived_subtotal": 487,
+    "excludes": [
+      "user IR locations",
+      "Tone Catch storage",
+      "Global EQ",
+      "internal modes"
+    ],
+    "not_claimed": [
+      "unique deduplicated algorithms",
+      "current installed library",
+      "simultaneous capacity",
+      "manufacturer exact grand total"
+    ],
+    "later_deltas": "1.3.0 additions and1.4.0 NAM support kept separate pending complete later list"
   }
 }

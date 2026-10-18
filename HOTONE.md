@@ -723,6 +723,16 @@ Checked2026-10-18 against [original effect list][MP350-E11],printed pp64–73 (P
 
 Previously recorded firmware1.3.0 Feedback addition remains separate;complete current MOD count andlater retention require reconciliation.
 
+### MP-350 — older category-count reconciliation
+
+Checked2026-10-18 by summing the named,revision-qualified inventories above,from the [firmware1.1.0-JP effect list][MP350-E11]. This is arithmetic over documented category entries,not a new manufacturer grand-total claim.
+
+| Field | Reconciled scope |
+|---|---|
+| Category choices / older revision summary | **DYN17;FREQ46;WAH13;DRV38;AMP93;PRE AMP94;CAB68;stock IR30;EQ10;MOD29;DLY32;RVB13;utilities4** (Send,Return,Loop,Volume). **487 listed choices derived** across these categories. AMP includes itsonePowerAmp entry;do not add it again. Matching AMP/PRE AMP names remain separate category entries. |
+| Processing / subtotal exclusions | Excludes50 userIR locations,ToneCatch storage locations,GlobalEQ,andinternal parameter/mode choices. Includes30 stockIR models andfour utilities,so487 isnot a deduplicated countof unique modeled hardware or effects-only algorithms. It isnot simultaneous capacity orproof ofa current installed library. |
+| Processing / later revision boundary | Separately saved firmware1.3.0 additions and1.4.0 native-NAM support are not silently added to487. Later removals,replacements,category moves andretention require a matching later complete list. The marketing460+ lower bound isnot an exact equality to reconcile by deleting entries. |
+
 ## Ampero II Stage MP-380
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
