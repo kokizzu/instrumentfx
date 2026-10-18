@@ -4338,7 +4338,7 @@ Acoustic-guitar multi-effects;partial,checked2026-10-18. Distinct fromA2.1u. [Ow
 | Expression | No built-in/toe pedal incontrol inventory;external FP01/FP02 orFS01 via shared CONTROL IN. [Own manual pp6–7](https://zoomcorp.com/media/documents/E_A2.pdf). |
 | K/F/B | **4/2/5**,text-derived:module selector+3parameter knobs;2footswitches;STORE,BANK−/+,MANUAL,RHYTHM buttons. POWER separate;visual corroboration pending. [Own manual pp6–7](https://zoomcorp.com/media/documents/E_A2.pdf). |
 | Display | Two-digit7-segmentLED plusparameterLEDs;diagonal/color/touch unverified. |
-| Processing / categories | **47 types;8 simultaneous modules includingZNR**. Category census pending. |
+| Processing / categories | **47 types;8 simultaneous serial modules includingZNR**. Manual-derived census: **MODEL12+MIC1+COMP/LIMIT2+LO EQ2+HI EQ2+ZNR1+MOD/EFX14+DELAY/REVERB13=47**. Excludes Off,parameter variations,CONTROL andGLOBAL settings. MODEL has11 instrument/body sounds+1tube preamp. One type permodule,not47 simultaneous. [Own manual pp25–32](https://zoomcorp.com/media/documents/E_A2.pdf). |
 | Memory | **40user+40preset=80**;all40 user locationsA0–d9 initially copy presets00–39. All Initialize overwrites user edits with originals. Write-protection audit pending. [Own manual p24](https://zoomcorp.com/media/documents/E_A2.pdf). |
 | Synth / acoustic | Acoustic-guitar sound modeling andmicrophone simulation documented;synth unverified. |
 | Dimensions / mass | **156W×162D×65H mm;700g without batteries**. |
@@ -4349,5 +4349,7 @@ Acoustic-guitar multi-effects;partial,checked2026-10-18. Distinct fromA2.1u. [Ow
 | Practical features | Feedback suppression,rhythms,chromatic tuner. DELAY/REVERB disabled duringrhythms. Looper/scenes unverified. |
 | IDR price | Used/new unknown. Exact Shopee hardware notverified;adapter searchresult excluded. Condition/stock/seller/bundle/warranty/voucher unknown. |
 | Input / HI-GAIN | Forlow-output magnetic/electric pickups,HI-GAIN increases input gain;setting isnotstored andmust be selected again afterpoweroff. GLOBAL pickup selection separately supports electric-to-acoustic simulation. [Own manual pp6,25](https://zoomcorp.com/media/documents/E_A2.pdf). |
+| Acoustic / MIC simulation scope | MIC is one processing type withdynamic/condenser models,3positions and3distance settings. These are parameters,not18 independent engines. MODEL body sounds andMIC simulation do not establish physical microphone input orphantom power. [Own manual pp27–28](https://zoomcorp.com/media/documents/E_A2.pdf). |
+| Delay / limits | MOD/EFX digital delay/tape echo reach5s;reverse delay2.5s. DELAY/REVERB includes9 reverb/reflection choices+4delay choices,includingmulti-tap. Its digital/echo/ping-pong delay reaches5s. These belong to separate modules,notfreely assignable duplicated blocks. [Own manual pp30–32](https://zoomcorp.com/media/documents/E_A2.pdf). |
 
 <!-- comparison evidence ends -->

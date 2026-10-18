@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom A2",
-    "task": "Text4/2/5 controls,40factoryfilled usercopies,complete rearinventory andHI-GAIN persistence verified. Next category census,write protections,electrical/software/exactShopeeoffers;do notrepeatcompletedcontrols/fill.",
+    "task": "47-type category census,MIC parameter distinctions anddelay limits saved. Next write-protection,electrical/software/exactShopeeoffers orfresh discovery. Do notrepeatcompletedcontrols/fill/census.",
     "next_models": [],
     "after_queue": "369active/46brands;308guitar161bass69vocal;allpartial;compatibilitymigrationincomplete;no downloads/workflows/push."
   },
@@ -81144,6 +81144,12 @@
     "source": "https://zoomcorp.com/media/documents/E_A2.pdf",
     "printed_pages": "6–7,24–25",
     "finding": "Controls,memoryfill,ports andinput-mode persistence verified;visual audit remains.",
+    "status": "partial"
+  },
+  "a2_categories_20261018": {
+    "source": "https://zoomcorp.com/media/documents/E_A2.pdf",
+    "printed_pages": "25–32",
+    "finding": "47 derivedcategorytotal;MIC parameters notadditionalengines;bodymodels notphysicalmicinput.",
     "status": "partial"
   }
 }
