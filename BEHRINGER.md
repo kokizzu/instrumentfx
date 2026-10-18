@@ -348,3 +348,41 @@ Newer manual endpoint: https://mediadl.musictribe.com/media/PLM/data/docs/P0596/
 [FX6-MB]: https://shopee.co.id/Behringer-FX600-FX-600-FX-600-Digital-Multi-FX-Pedal-ORIGINAL-i.274951125.41610292794
 [FX6-DJ]: https://shopee.co.id/Efek-Effect-Pedal-Behringer-FX-600-FX600-i.510844912.22825169715
 [FX6-PG]: https://shopee.co.id/PEDAL-EFEK-GITAR-MODULATION-BEHRINGER-FX600-DIGITAL-MULTI-FX-97-SUPER-MULUS-Efek-Gitar-Stompbox-Efek-Gitar-Analog-Efek-Gitar-Modulasi-i.880854240.47300816627
+
+## DSP2024P
+
+VIRTUALIZER PRO rack multi-effects; distinct from FX2000/DSP1024P. Checked2026-10-18; partial. [Manufacturer legacy identity](https://www.behringer.com/en/products/0828-AAB). Own manual Version1.2,September2004 identifies DSP2024P; mirror body used because the PDF text extraction was garbled. Generated summaries/FAQ excluded. Ownership unverified.
+
+<!-- comparison evidence begins -->
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression | No built-in treadle; MIDI controller parameter control documented. Analog EXP/toe support unverified. [Manual][D24-M] |
+| K/F/B | **6 rotary /0 footswitches /6 buttons**: fourEdit,Mix/Bypass,Jog;Preset,Effect,Edit,Store,Compare,Setup. Power switch additional;encoder press counted once. Text inventory,not visual audit. [Manual pp8–10][D24-M] |
+| Display | **Four-digit14-segment alphanumeric LED**;diagonal,color,touch unverified. [Specification][D24-S] |
+| Dimensions / mass | **482.6W×204.4D×44H mm;approximately2kg net**;shipping3kg separate. [Specification][D24-S] |
+| Processing / choices | **71 algorithms**,including **11 combination programs** with serial/parallel options;not71 simultaneous blocks. Eight groups;per-category counts/current census unresolved. [Manual][D24-M] |
+| Factory / user memory | **100 factory+100 user=200**;initial user fill unverified. [Manual][D24-M] |
+| Synth / acoustic | Dedicated synth/acoustic conversion unverified;ring modulation alone is not proof. |
+| I/O | Stereo XLR/TRS line inputs/outputs;MIDI In/Out/Thru;IEC mains. **80kΩ input/80Ω output balanced**,selectable−10dBV/+4dBu nominal. USB/audio/phones not established. [Specification][D24-S] |
+| Power / battery / USB | Internal mains,**15W maximum**;regional120V60Hz,230V50Hz,Japan100V50–60Hz,export120/230V50–60Hz. Exact unit voltage must match label;not universal-input proof. DC polarity inapplicable to IEC;actual current,battery/USB power unverified. [Specification][D24-S] |
+| Conversion | **24-bit Sigma-Delta,64/128×oversampling;46.875kHz**. Not a USB format. [Specification][D24-S] |
+| IR / NAM / capture | Factory speaker simulation;userIR,native/convertedNAM/capture loading unverified. |
+| Editor / platforms | MIDI implementation documented;dedicated editor andOS compatibility unverified. |
+| Looper / practice | **5-second sampler**,cleared byselecting another effect;not established as an overdubbing phrase looper. Drums/scenes/trails unverified. [Manual][D24-M] |
+| Instrument scope | Manual explicitly describes guitar-rack use,vocal inserts,andguitar/bass afterappropriate preamplification. Line-level routing required;no direct high-impedance/microphone preamp inferred. [Manual sections2.7,4.3–4.4][D24-M] |
+
+### Separate IDR hardware evidence
+
+| Condition / status | Evidence / qualifications |
+|---|---|
+| Used | No condition-confirmed exactDSP2024P offer. |
+| New | No condition-confirmed exactDSP2024P offer. |
+| Shortened-model sold-out lead | **Rp2.420.000;Habis**,elkusla_shop,Kab.Kediri,shop118221978/item21150087765. [Exact item](https://shopee.co.id/efek-vocal-behringer-virtualizer-pro-dsp2024-i.118221978.21150087765). Direct cachedbody,three-weekcrawl,stale27–29Sepdelivery. Title saysDSP2024 withoutP;exactsuffix,condition,workingstate,bundle,mainsregion,warranty,stock,voucher,shipping/tax andtotal unverified. Rp10k late compensation is not a discount. Not a confirmed DSP2024P used/new price orcompleted sale. |
+
+<!-- comparison evidence ends -->
+
+[D24-M]: https://manualzz.com/doc/1522565/behringer-virtualizer-pro-dsp2024p-user-s-manual
+[D24-S]: https://manualzz.com/doc/1522565/behringer-virtualizer-pro-dsp2024p-user-s-manual#specifications
+
+Remaining: original panel visual corroboration,exact seller hardware suffix,full algorithm census,simultaneous limits,display details,software/import capabilities andcondition-qualified prices. No download,dependencies,firmware,device test orworkflow.
