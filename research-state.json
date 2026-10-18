@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Korg AX3000B",
-    "task": "Completed AX3000B named E1 library72-entry audit; model remainspartial. Next fresh Shopee discovery or unresolved power/display/visualcount/OS compatibility gaps; no downloads orhardware tests.",
+    "task": "Saved AX3000B single-note synth/parameter andconditionaltail details; ShopeeRP355leadwasadapterexcluded. Next fresh exacthardware discovery or power/display/visualcount/currentOS gaps. No downloads.",
     "next_models": [],
     "after_queue": "344 partial unique models;114 Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -58662,6 +58662,30 @@
         "Cabinetconflict hardware/erratum"
       ],
       "method": "Browser text only"
+    },
+    {
+      "model": "Korg AX3000B",
+      "checked_date": "2026-10-18",
+      "source": "https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3000B_E1.pdf&response-content-type=application%2Fpdf%3B",
+      "pages": "2,30",
+      "finding": "Single-note envelope-filter synth;waveformrange notoscillatorcount;conditionaldelay/reverb tails;HOLD/FREEZ statescancel.",
+      "discovery": {
+        "queries": [
+          "ShopeeRP355",
+          "ShopeeBP355",
+          "ShopeeAX5B",
+          "ShopeeGT6B"
+        ],
+        "rejected": "RP350/RP355/RP300 PSU855783279/22273291654 Rp170000 isadapter,notprocessor",
+        "result": "No qualifyingnewexacthardwareoffer;notunavailability"
+      },
+      "remaining": [
+        "Powerpolarity/current",
+        "Display",
+        "Visualcounts",
+        "EditorcurrentOS",
+        "QualifiedIDR"
+      ]
     }
   ],
   "discovery_cross_brand_bass": {

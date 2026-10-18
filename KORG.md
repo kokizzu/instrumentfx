@@ -609,13 +609,13 @@ Checked2026-10-18. Bass multi-effects; distinct from AX3000G. Partial record. [K
 | Dimensions / weight | 500×241×72mm W×D×H pedal lowered;100mm raised;3.6kg. |
 | Processing / choices | 72 advertised variations; seven simultaneous including NR, plus external insert. PRE11,drive/amp16,MOD11,DLY11,RVB11. Spec p57 says amp11/cabinet16; chapter p23 says16drive/amp and11cabinets. Named lists pp23–26 support **six drives +ten amps =16**, and **11 cabinets**; with four11-choice effect groups andNR1, total72. Preserve p57 figures as contradictory; use named-list counts. [E1 pp23–26,57][AX3B-M] |
 | Factory / user memory | **96 writable slots (24×4)**. Printed p15 resolves intro ambiguity: banks1–8 contain32 factory sounds, repeated in9–16 and17–24. Thus96 factory-filled writable slots,32 distinct factory sounds; not128 slots. [E1 p15][AX3B-M] |
-| Synth / acoustic | SYNTH documented; acoustic simulation unverified. |
+| Synth / acoustic | SYNTH models analog-style bass synthesis with envelope filtering; designed for single-note playing, chords may sound muddy. Acoustic simulation unverified. [E1 p30][AX3B-M] |
 | I/O | Mono INPUT; mono SEND/RETURN; stereo mini AUX/PHONES; L/MONO andR balanced/unbalanced TRS OUTPUT (each mono); optical S/PDIF16-bit44.1kHz; MIDI IN/OUT;DC9V. |
 | Conversion | AD/DA20-bit;44.1kHz. |
 | Power / battery / USB | 9V DC; manufacturer includes adapter. Polarity,current,barrel,battery andUSB power unknown. Seller bundle unknown. |
 | IR / NAM / capture | User IR,native/converted NAM andcapture import unknown. |
 | Editor / software | Official **Windows Sound Editor1.01** and **Mac Sound Editor1.1**, both listed2015-06-01. Minimum/current OS andApple Silicon compatibility unknown; these are editors, not audio drivers. No software fetched. [Windows](https://www.korg.com/us/support/download/software/1/27/1390/);[Mac](https://www.korg.com/us/support/download/software/1/27/1391/) |
-| Looper / drums / live | Individual effect switching; tuner A0–C7,438–445Hz. Looper,drums,scenes,trails unknown. |
+| Looper / drums / live | Individual effect switching; tuner A0–C7,438–445Hz. Delay tails persist with matching delay type andTIME; reverb tails with matching reverb type. HOLD/FREEZ control-switch states cancel on change. Looper,drums,scenes unknown. [E1 p2][AX3B-M] |
 | Used IDR / new IDR | Unknown / unknown. Exact Shopee AX3000B andAX3000 bass searches on2026-10-18 established no item. Not proof of unavailability. Condition,stock,region,bundle,warranty,voucher andcheckout total unknown. |
 
 Technical evidence: [own E1 manual][AX3B-M],printed1,4,10–11,22–23,52,57. No sibling specifications used. Unknown fields remain open.
@@ -654,6 +654,10 @@ Volume, delay-input, reverb-input, or unchanged-target assignments use physical 
 | Noise reduction1 | NR |
 
 [E1 appendix pp58–59][AX3B-M]. Four11-entry groups plus6drives,10amps,11cabinets andNR1 yield72. Combined selector entries remain single entries; internal modes are not extra simultaneous blocks. This completes the named E1 library audit, not model verification.
+
+### AX3000B synth controls
+
+SYNTH: envelope depth/polarity−10…+10; attack,wave,resonance,mix0…10. WAVE ranges from sawtooth toward an octave-lower sawtooth, not an established number of discrete oscillators. MIX blends dry/synth. Lower DRIVE/AMP VOLUME orPROG LVL if the combination distorts; cabinet bypass is suggested for some synth overtone sounds. [E1 p30][AX3B-M]
 
 <!-- comparison evidence ends -->
 
