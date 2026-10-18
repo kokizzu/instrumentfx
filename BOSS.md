@@ -1407,6 +1407,16 @@ Checked **2026-10-16**. Cached exact hardware text is not live checkout or stock
 | Power / alkaline runtime | Approximately five hours with four alkaline AA batteries;manufacturer qualifies actual conditions. Does not establish rechargeable runtime. |
 | Processing / tuner precision | Internal detection±0.1cent;not an external measurement orreference-frequency range. |
 
+
+### GX-1 — USB gain and routing qualifications
+
+[Exact USB parameter documentation](https://static.roland.com/manuals/gx-1_parameter/en-US/368274827368317323.html),checked2026-10-19;HTML has no explicit document revision. No driver downloaded ordevice operated.
+
+| Field | Evidence / qualification |
+|---|---|
+| USB / level controls and routing | EFX OUT LVL, MIX LEVEL, DRY OUT and DRY TO EFX each range0–200%. EFX OUT is processed sound tocomputer;MIX LEVEL returns computer audio at the chain final stage;DRY OUT sends unprocessed guitar;DRY TO EFX feeds computer audio into effects. These controls establish routing,not channel enumeration orstream bit depth. |
+| USB / monitor and loopback distinction | LOOPBACK sends the computer/effect mix back tocomputer. DIRECT MONITOR OFF requires computer through-monitoring tohear the guitar;only USB return is otherwise heard. Direct-monitor state is unsaved andreturnsON atstartup. |
+
 <!-- comparison evidence ends -->
 
 [GX1-P]: https://www.boss.info/global/products/gx-1/

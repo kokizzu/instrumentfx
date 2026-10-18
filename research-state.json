@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "GX-1 technical gaps / Shopee discovery",
-    "task": "GX-1 conversion/electrical/runtime/tuner ratings saved. Next exact GX-1 parameter category census or primary USB stream-format documentation;fresh Shopee discovery also pending. All388partial;migration incomplete.",
+    "model": "GX-1 parameter categories / fresh Shopee discovery",
+    "task": "USB gain/routing saved;stream channels/bitdepth remain unknown after exact search. Looper additional links yielded same incompleteHTML;do not repeat unchanged path forpersistence. Next category census orfreshShopeediscovery. All388partial;migration incomplete.",
     "next_models": [],
     "after_queue": "388active47brands;no downloads/workflows/push."
   },
@@ -46335,7 +46335,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume GX-1 technical gaps / Shopee discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume GX-1 parameter categories / fresh Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -120556,5 +120556,15 @@
     ],
     "shopee": "Exact V Musik item reopened via cached month-old text;not fresh stock/checkout evidence.",
     "remaining": "USB stream formats,DC polarity/voltage,category census,screen diagonal/touch,qualified used IDR."
+  },
+  "gx1_usb_routing_followup_20261019": {
+    "source": "https://static.roland.com/manuals/gx-1_parameter/en-US/368274827368317323.html",
+    "findings": [
+      "Four separate0–200%USB level controls withdirection/chain placement",
+      "Loopback versus direct-monitor-off behavior clarified"
+    ],
+    "negative_search": "Targeted GX-1PRIMARY/USBbitdepthqueries didnotestablish channelenumeration/format;GT-001/Nextone/GT-1Bresults rejectedassiblings.",
+    "looper_limit": "HTML additional-information links return same17lines;no new persistence evidence.",
+    "remaining": "USBchannel/bitdepth unresolved;do not infer frominternal converters."
   }
 }
