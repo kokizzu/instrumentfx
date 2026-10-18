@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "NUX Amp Academy Stomp",
-    "task": "Useful update committed;next fresh Shopee discovery or another model’s required-field gaps. Avoid repeating inaccessible V5 PDF route.",
+    "task": "German primary quick-start saved. Next fresh Shopee discovery or other model gaps; do not repeat English V5 extraction failure or claim capacity conflict resolved.",
     "next_models": [],
     "after_queue": "378 active models,46 brands,all partial;114 compatibility Markdown files remain;no downloads/workflows/push."
   },
@@ -81934,7 +81934,7 @@
     "scope": "Explicit uncertainty signals in selected comparison field labels and values only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
     "model_count": 378,
     "models_with_signals": 378,
-    "flagged_field_count": 4816,
+    "flagged_field_count": 4819,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -102253,6 +102253,27 @@
             "signals": [
               "unresolved"
             ]
+          },
+          {
+            "field": "Controls / direct menus",
+            "source": "NUX.md",
+            "signals": [
+              "pending"
+            ]
+          },
+          {
+            "field": "Memory / IR conflict",
+            "source": "NUX.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
+            "field": "Display / published metric size",
+            "source": "NUX.md",
+            "signals": [
+              "unverified"
+            ]
           }
         ]
       },
@@ -118458,7 +118479,7 @@
       "TC-ELECTRONIC.md": "46ca68e66568f02e972ac73999ae6e09ce1746d8833b8d9e725b74664b4c2fbc",
       "VALETON.md": "e335ead12e652b2f04053cb58702d5055e6bcf32c61cbca143572baf2cb4b03e",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
-      "ALL-GUITAR.md": "0b9c144e3ff1817ba980442e4582628d552bcbe2951655deb05dda597de63ad4",
+      "ALL-GUITAR.md": "6611eaa7bf7285395cc0c500d16f0fea7bd1606334d0aaa04d3746fcf2415d86",
       "LINE6.md": "bbbe508cca147737b97aadbd9b3fbb2e20faa83c7ae8e717abd7acd42c6e63da",
       "YAMAHA.md": "ed6c13b0c5344d5f227d1c08e7e66c65e9e636498b6a1e6c2ed853edb0d748c0",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
@@ -118477,7 +118498,7 @@
       "TECH21.md": "958cba8793e10c2ba4eaa7386bcd0e528107d05126bbe91d3de1c81251129407",
       "MOOER.md": "cdad5c6009106194df97ab42a7c0e5b4bb606ff1bde54be36dfd5c4a578be039",
       "BEHRINGER.md": "8746e2a4c6f49febe91bde776a38dd035352781e66c258940a33d85d1c69218d",
-      "NUX.md": "9d2799597c9d9ca248a6d7622b0481ab4baa511e3e3d33a4971e71f1cf49e852",
+      "NUX.md": "efd49c1eb02db5b7c602399d201f559d917069949c6439c1fb09dc104c702feb",
       "IK-MULTIMEDIA.md": "ce23e1624886fada92ab0ff1c92554e04c01d18ca79839dc13744acdba2b9903",
       "SINGLE-VOCAL.md": "acb51be0b82d540d045e92e126882df43bb3c7380b45f3be5cc48a7828827796",
       "DARKGLASS.md": "4df816629a31b454d8c69de300525d97a85718749f23f4e684b243c5b50fce06",
@@ -118955,5 +118976,12 @@
     ],
     "result": "Added Quick Block behavior,six firmware additions,two qualified offers; excluded ambiguous Valeton-slug item from accepted model price evidence.",
     "remaining": "Full current manual,capacity conflicts,concurrency,IR formats,touch,visual control confirmation,power operation,condition-qualified offers."
+  },
+  "aas_german_primary_20261018": {
+    "source": "https://nux.cherubtechnology.com/download/Manual/Effects/Monarch_Series_Stompboxes/AmpAcademyStomp/NUX_NMA3AAP_UserManual_German.pdf",
+    "destination": "NUX.md#amp-academy-stomp",
+    "read": "Seven-page manufacturer quick-start text, exact NMA-3AAP identity and 2025 copyright;no visual equivalence or latest firmware claim.",
+    "result": "Added primary routing/menu/performance/metric-display evidence; capacity contradictions persist.",
+    "remaining": "Current full firmware manual,algorithm counts,concurrency,capacity/IR formats,touch,visual counts,battery/USB power andqualifiedused/newoffers."
   }
 }

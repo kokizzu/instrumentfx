@@ -1373,6 +1373,18 @@ Manufacturer-authored quick-start text reproduced at [AAS-M][AAS-M], identity NM
 | IDR indexed condition-unverified ask | **Rp4.560.000**, [SEVEN STEREO Malang,shop1408254222/item53061282273](https://shopee.co.id/product/1408254222/53061282273),KotaMalang. Two-month indexed body with3–5August delivery;direct cache miss. Condition,stock,variant,bundle,warranty andvoucher unverified;not a verified new/used bound. |
 | IDR unresolved item-identity lead | [shop238779157/item48100159969](https://shopee.co.id/Valeton-GP200-Like-New-i.238779157.48100159969):indexed title Amp Academy Stomp,Rp2.850.000,Habis,UM Audio Official,KabPonorogo;URL slug Valeton GP200 Like New. Direct body onlyJavaScript shell. Changed-listing/modelidentity unresolved;exclude from accepted model prices anddo not inferusedcondition fromslug. |
 
+### Amp Academy Stomp original German quick-start evidence,2026-10-18
+
+[Official German manual](https://nux.cherubtechnology.com/download/Manual/Effects/Monarch_Series_Stompboxes/AmpAcademyStomp/NUX_NMA3AAP_UserManual_German.pdf):seven PDF pages,text read;NMA-3AAP,©2025Cherub. Not evidence ofV2.0.5 coverage orvisual inspection.
+
+| Field | Original-manual evidence / qualification |
+|---|---|
+| Routing / branch clarification | PDFp5 explicitly places S/R afterAMP,beforeIR: SEND feeds an amplifier power input;mainoutputs retainIR forPA. This independently supportsEnglish routing against suspectChineseRETURN/output wording. |
+| Controls / direct menus | PDFp4:rotating INPUT TRIM opens GLOBAL EQ withtrim adjustment;OUTPUT LEVEL opens LEVEL. HOME hold entersGlobal;four recall/navigation keys indicate parameter assignments there. Text corroborates8/3/4;visual confirmation stillpending. |
+| Audio / performance | PDFp7:input-to-L/R dynamicrange111dB;minimumsystemlatency2ms. Neither specifies USB round-trip latency ormeasurementconditions. |
+| Memory / IR conflict | PDFp3 repeats27presets×3scenes/60L-RIRpositions;PDFp7 repeats27factory+27user and60factory+40userIRs. Originalprimary evidence confirms conflict ratherthan settling usablecapacities. |
+| Display / published metric size | PDFp3 publishes7.2cm color960×376;globalpage2.86inch. Preservepublishedrounding;touch stillunverified. |
+
 
 ## Atlantic NDR-5
 
