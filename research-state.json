@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Comparison evidence review",
-    "task": "B2 FOUR comparison now selects current audited categories while preserving original source rows. Continue checking other records for superseded active fields, alongside primary verification and exact Shopee discovery.",
+    "task": "B2 FOUR saved exact offer bullets now use price table rows. Verify other full records for unprojected offers and superseded comparison fields; continue primary technical and Shopee discovery work.",
     "next_models": [],
     "after_queue": "374 active models,46 brands,all partial; compatibility migration incomplete; no downloads/workflows/push."
   },
@@ -81504,5 +81504,13 @@
     "change": "Moved comparison start after historical table/source context. Preserved historical rows; current selection retains explicit capacity,controls and complete connector inventory with every subsequent source/price qualification.",
     "reason": "Avoid stale category-breakdown unknown and older synth naming in active comparison; preserve source history and unresolved control counts.",
     "membership": "Unchanged; bass only."
+  },
+  "b2four_offer_projection_20261018": {
+    "problem": "Exact IDB MUSIK PLUS24004987590 and LYN AUDIO42758785757 offers existed only as bullets, omitted from generated ALL-BASS price row.",
+    "change": "Converted the two saved observations to the existing price table format; each complete original observation retained, with explicit original check date. No live refresh, new price research or condition certification.",
+    "items": [
+      "800959591/24004987590",
+      "1203229574/42758785757"
+    ]
   }
 }
