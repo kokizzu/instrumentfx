@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC Electronic M-One XL",
-    "task": "M-One XL pedal and recall controls saved. Continue fresh Shopee discovery or required display/import/synth/user-fill gaps. Do not infer initial fill from first-free-slot storage behavior.",
+    "task": "M-One XL useful algorithm limits saved. Next fresh Shopee discovery or remaining display/import/synth/user-fill gaps;do not repeat resolved delay/pitch range questions.",
     "next_models": [],
     "after_queue": "378 active models,46 brands,all partial; no downloads/workflows/push; migration incomplete."
   },
@@ -5685,6 +5685,12 @@
       "date": "2026-10-18",
       "source": "https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf",
       "finding": "Momentary-only pedal jack resolves external continuous-expression scope;recall/store and tempo/MIDI-sync distinctions saved."
+    },
+    {
+      "model": "TC Electronic M-One XL",
+      "date": "2026-10-18",
+      "source": "https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf",
+      "finding": "Saved separate delay ceilings, fixed pitch voices and modulation structure without inferring looper/synthesis."
     }
   ],
   "consolidation_and_price_findings": [
@@ -81922,7 +81928,7 @@
     "scope": "Explicit uncertainty signals in selected comparison facts only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
     "model_count": 378,
     "models_with_signals": 378,
-    "flagged_field_count": 4659,
+    "flagged_field_count": 4660,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -105303,6 +105309,13 @@
             ]
           },
           {
+            "field": "Processing / pitch voices",
+            "source": "TC-ELECTRONIC.md",
+            "signals": [
+              "not_established"
+            ]
+          },
+          {
             "field": "M-One XL — MIDI and routing qualifications",
             "source": "TC-ELECTRONIC.md",
             "signals": [
@@ -117157,10 +117170,10 @@
       "ALESIS.md": "0ae1dc5f11ef614385f1ac597c118504a89606901268043471cf5a428141000a",
       "ROWIN.md": "e81792f710d0ae42f9c8a0fb6de5798ad86f324ce8d442dd1024ffad6d315282",
       "JOYO.md": "e40a65594804dd2728bad9561444474d0f784048da3ed5dd86fb0dca75456119",
-      "TC-ELECTRONIC.md": "c24bea6a43f2b282e6f73de849abf36cb83d47bddb8fbeb34c84c586efce2215",
+      "TC-ELECTRONIC.md": "46ca68e66568f02e972ac73999ae6e09ce1746d8833b8d9e725b74664b4c2fbc",
       "VALETON.md": "e335ead12e652b2f04053cb58702d5055e6bcf32c61cbca143572baf2cb4b03e",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
-      "ALL-GUITAR.md": "52981fe8213bf636678fe223f976988299430da3b30356a83fdf633d672a64bc",
+      "ALL-GUITAR.md": "085dae566ccabea6cc8e151cc88a8e27576bac664c965450ec2610bca454d39e",
       "LINE6.md": "bbbe508cca147737b97aadbd9b3fbb2e20faa83c7ae8e717abd7acd42c6e63da",
       "YAMAHA.md": "ed6c13b0c5344d5f227d1c08e7e66c65e9e636498b6a1e6c2ed853edb0d748c0",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
@@ -117189,7 +117202,7 @@
       "VOX.md": "7087c2c9689338adff6f0cff2449fa98b138812bac122bd393d989bcaad1dc62",
       "BOSS.md": "0d23479246ef2637728cc24c448bc44b72d6185c3ace982be064814f9a0aa992",
       "KEELEY.md": "bf2e0764ec43eedcfbfc9839452586b4b9c835948fc7315f5e935472f9d45d1a",
-      "ALL-VOCAL.md": "67fb97e608d4c8df821ac930573480eba1274b672df1afe7c8c86b17d16f3c16",
+      "ALL-VOCAL.md": "846e46abf471b1b419035ffb084ebbc9777dcfc03c2a897933bf01e80c611150",
       "LEXICON.md": "3b6b15d2b3986a2538f1a548a156df3a605e35764d91d08686e12549b64b98da",
       "SINGLE-GUITAR.md": "9d785a2665a3bbcbc1effe4750a232fd0f2b690e82c99a5e4504cbd479a3a0af",
       "DONNER.md": "ce5c541054ae33b1d419da8e595c2b258e7600a0993b8c324bc5c5f56fc45c9d",

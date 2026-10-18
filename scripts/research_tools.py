@@ -461,7 +461,7 @@ def main():
         if mode == 'commit-mg20':
             message = 'research(nux): document Amp Academy Stomp USB playback and preset controls'
         if mode == 'commit-m100':
-            message = 'research(tc-electronic): resolve M-One XL pedal and preset control scope'
+            message = 'research(tc-electronic): distinguish M-One XL delay and pitch limits'
         if mode == 'commit-rfx1100':
             message = 'research(zoom): qualify RFX1000 conversion levels and additional offer'
         if mode == 'commit-spx990':

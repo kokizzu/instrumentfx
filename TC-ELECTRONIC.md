@@ -395,6 +395,16 @@ Checked2026-10-18 in manufacturer-authored Rev4 mirror,pp11–12;cover/declarati
 
 Checked2026-10-18;no presetwrite orhardwareoperation performed.
 
+### M-One XL — delay and pitch limits
+
+Checked2026-10-18 in original Rev4 manufacturer manual mirror,printedpp27–31.
+
+| Field | Algorithm-specific scope |
+|---|---|
+| Processing / delay times | **One Tap0–4000ms;Two Tap0–4000ms per tap**,with rightchannel offset0–200ms. Each tap has feedback,level andpan controls. **XL-only PingPong0–1800ms**,so the4s range must not be assigned toall delays. These are repeat buffers,not verified overdub-loop storage. [Manual pp27–28](https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf). |
+| Processing / pitch voices | Pitch Shift adds **two fixed voices**,each **−1200…+1200cents**,independent level/pan and0–100ms delay. Detune instead gives eachvoice **−50…+50cents**. Fixed transposition doesnot establish scale-aware harmony,polyphonic tracking orsound-generating synthesis. [Manual p31](https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf). |
+| Processing / modulation structure | Classic Chorus andFlanger use two voices;4Voice versions combine twoClassic blocks internally. Both rates span **0.05–19.2Hz**. Internal voices do not increase the processor’s twoengine limit. [Manual pp29–30](https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf). |
+
 ## NOVA System
 
 Checked 2026-10-18. Guitar multi-effects, distinct from NOVA Drive/Modulator and G-System. Manufacturer manual revision1.2,SW1.10,E60508712: identity verified from original text on mirror. Official PDF endpoints failed;generated mirror summary/FAQ excluded. Bass/vocal suitability unresolved.
