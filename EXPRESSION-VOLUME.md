@@ -163,3 +163,5 @@ FootCtrlPlus-linked PD41 follow-up: [mode-specific E/F bank restrictions](M-VAVE
 ### BOSS IR-200 — partial capability lead
 
 [Original manual evidence](BOSS.md#ir-200--partial-expression-capability-lead) supports system expression AMP LEVEL and onboard previous/next. Final-output, bypass and headphone attenuation remain unknown. Manufacturer footprint now101W×138Dmm, within preference. Scope/full-profile review pending; outside active inventory and main capability comparison.
+
+IR-200 follow-up: [EXP PDL HOLD and USB playback routing](BOSS.md#ir-200--pedal-hold-and-usb-routing-boundaries) remain separate from system assignment. AMP LEVEL is preamp control; final-stage USB MIX IN prevents an all-source mute guarantee. Partial lead remains outside active counts.

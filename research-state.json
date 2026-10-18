@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "IR-200 manufacturer footprint and processing follow-up",
-    "finding": "ExactBOSS101W×138D fits;independent EQ/ambience stages documented. Search-page price lacks exactseller/item,notacceptedoffer. Fullprofile/admission andAMPLEVELcoverage remainpending.",
+    "current": "IR-200 pedal hold and USB routing boundaries",
+    "finding": "EXP PDL HOLD carries operationalstate, separatefromassignment. USBMIXIN atfinalstage preventsallsource AMPlevelmute guarantee. Vendor/Generic routing andinsertmodes saved;coverageunknown.",
     "next": [
-      "Continue IR-200 full profile: original manual signal routing, power, USB, memory and exact seller/item",
+      "Continue IR-200 full profile: current firmware notes, exact power specifications and qualified hardware item; consolidate before admission",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
