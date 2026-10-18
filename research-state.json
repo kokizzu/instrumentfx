@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "VOX ToneLab ST",
-    "task": "Complete 25-name effect category audit saved. Next verify amp/cab category details or broaden fresh Shopee discovery; GFX8 accessory results rejected.",
+    "task": "Amp-bank 33 and cabinet11 named audit saved, including CLEAN/CST EQ-only exception and output compensation dependency. Next resolve remaining model gaps or fresh Shopee discovery; do not repeat audited 25 effects/33amps/11cabs.",
     "next_models": [],
     "after_queue": "347 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -59025,6 +59025,21 @@
         "Qualified prices"
       ],
       "method": "Original manual browser text; no download, installation or hardware operation"
+    },
+    {
+      "model": "VOX ToneLab ST",
+      "checked_date": "2026-10-18",
+      "source": "https://voxamps.com/wp-content/uploads/support/TonelabST_OwnersManual.pdf",
+      "pages": "8,13–18",
+      "finding": "33 amp entries reconcile as 11 positions × STD/SPL/CST. All 11 cabinets named; combinations freely selectable. CLEAN/CST is a four-band EQ-only entry with GAIN disabled. VOX/F/M output compensation requires amp model on.",
+      "remaining": [
+        "Eight-type simultaneous accounting",
+        "Physical display specifications",
+        "Factory user mapping",
+        "Current driver/librarian compatibility",
+        "Qualified prices"
+      ],
+      "method": "Original manufacturer manual browser text; no download or operation"
     }
   ],
   "discovery_cross_brand_bass": {

@@ -127,6 +127,18 @@ Checked 2026-10-18 against the manufacturer manual, printed pp18–22. **25 sele
 | Processing / MOD-DELAY 11 | CLASSIC CHORUS; MULTI TAP CHORUS; CLASSIC FLANGER; PHASER; TEXTREM; ROTARY; PITCH SHIFTER; FILTRON; ECHO PLUS; DELAY; CHORUS+DELAY. One shared category; CHORUS+DELAY is one combined choice. [Manual][TLST-M] |
 | Processing / REVERB 3 | SPRING; ROOM; HALL. [Manual][TLST-M] |
 
+
+### ToneLab ST — amp banks and cabinet audit
+
+Checked 2026-10-18 against the original manual, printed pp8,13–18. Counts describe selectable library entries, not concurrent amp/cab instances.
+
+| Field | Exact-model evidence |
+|---|---|
+| Processing / amp bank census | **33 = 11 positions × 3 banks (STD/SPL/CST)**. Positions: CLEAN; CALI CLEAN; US BLUES; US 2x12; VOX AC15; VOX AC30; UK ROCK; UK METAL; US HIGH GAIN; US METAL; BOUTIQUE METAL. [Manual][TLST-M] |
+| Processing / cabinet 11 | TWEED 1x8; TWEED 1x12; TWEED 4x10; BLACK 2x10; BLACK 2x12; VOX AC15; VOX AC30; VOX AD120VTX; UK H30 4x12; UK T75 4x12; US V30 4x12. Amp/cab combinations are freely selectable. [Manual][TLST-M] |
+| Processing / CLEAN-CST exception | CLEAN/CST provides a four-band tone-control model with GAIN disabled. BASS/MIDDLE/TREBLE centered and PRESENCE minimum reproduce amp-off behavior; the manual recommends cabinet off for a line-like clean sound. Do not describe all 33 entries as gain-bearing amp emulations. [Manual p13][TLST-M] |
+| Routing / output compensation | VOX/F/M output compensation applies only with the amp model enabled. LINE is specified for power-amp input, mixer/recorder/audio system and headphones. [Manual p8][TLST-M] |
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified Shopee hardware
