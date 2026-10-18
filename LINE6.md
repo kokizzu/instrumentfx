@@ -1389,6 +1389,17 @@ Checked2026-10-18.
 | Categories / firmware2.0 additions12 | Official2010-02-19 family release notes name **Vocoder,Dynamic Delay,Dimension,Pitch Vibrato,Voice Box,V-Tron,Octisynth,Q Filter,Pattern Tremolo,Frequency Shifter,Barberpole Phaser,Script Phaser**. These are update additions,not12simultaneous blocks;installed firmware/category placement andcomplete revised census remain unverified. [Manufacturer release notes][X3L-FW] |
 | Synth / firmware distinction | V2.0’sVocoder is **14-band**;Voice Box andV-Tron provide talk-box/vocal-tract-style processing. These are algorithms within the multifx,not newhardware entries orproof of polyphonic tracking for every synth model. [Release notes][X3L-FW] |
 
+
+### POD X3 Live — fixed processors and shared effects loop
+
+Checked2026-10-18 in [manufacturer family guide RevE][X3L-M],printedpp5•12–17; shared functions explicitly includeLive. No download ordevice test.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / fixed sections and count boundary | Gate,Compressor,EQ andVolume have separate manual sections beyond the five model-list categories. Counting each once gives **94+4=98**,a plausible derived reconciliation of the advertisement,not an explicit manufacturer statement of its counting convention. Firmware2.0 additions andinstalled totals remain separately qualified. |
+| Processing / EQ and gate | EQ combines two shelving andtwo semi-parametric peaking bands within one block. Gate threshold minimum disables it;decay controls closure. These parameter/band counts are not extra selectable algorithms. |
+| I/O / shared FX loop restriction | External FX loop can beOn for **only one Tone at a time**;enabling it forone disables it forother. Send gain **−80…0dB**,return **0…+24dB**;Pre is afterStomp/beforeMod+Delay;Post is beforeMod+Delay+Reverb. DualTone doesnot provide two independent physical loops. |
+
 <!-- comparison evidence ends -->
 
 ### Exact Shopee evidence

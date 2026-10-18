@@ -483,7 +483,7 @@ def main():
         if mode == 'commit-xtlive':
             message = 'docs(line6): synchronize XT Live summaries with verified followups'
         if mode == 'commit-x3live':
-            message = 'research(line6): correct X3 Live reverb count and retain firmware additions'
+            message = 'research(line6): qualify X3 Live fixed processors and shared effects loop'
         if mode == 'commit-harmony-singer2':
             message = 'research(tc-helicon): corroborate Harmony Singer 2 guide from manufacturer index'
         if mode == 'commit-duplicator':

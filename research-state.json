@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Line 6 POD X3 Live",
-    "task": "Saved corrected15reverb/94listedbaseline and12V2.0additions;98reconciliation remainsopen. Next exactmodel fields or freshShopeediscovery.",
+    "task": "Saved X3Live fixedsections andoneToneFXlooprestriction.94+4=98 isqualifiedderivation,not explicitcountproof. Nextothermodel/freshdiscovery;donotrepeat knownX3fields.",
     "next_models": [],
     "after_queue": "347 partial unique models;114Markdown compatibility paths retained. No downloads/workflows/push."
   },
@@ -59424,6 +59424,22 @@
         "USB rates/returns"
       ],
       "method": "Manufacturer KB/releasenotes only;no download/update"
+    },
+    {
+      "model": "Line 6 POD X3 Live",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://line6.com/data/l/0a060072a53c4aae7fe287ecf/application/pdf/POD_X3_Advanced_Guide.pdf"
+      ],
+      "finding": "RevEpp5.12–17 fourfixedsections;94+4=98plausiblecountconventiononly;EQ2shelf2peak;externalFXlooprestrictedoneToneatatime/gainranges.",
+      "remaining": [
+        "Explicit advertisedcount convention",
+        "Currentfirmwarecensus",
+        "Powerlabel",
+        "USBformat",
+        "Screen"
+      ],
+      "method": "Manufacturer PDF text viaweb; no download/device operation"
     }
   ],
   "discovery_cross_brand_bass": {
