@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "IR-200 pedal hold and USB routing boundaries",
-    "finding": "EXP PDL HOLD carries operationalstate, separatefromassignment. USBMIXIN atfinalstage preventsallsource AMPlevelmute guarantee. Vendor/Generic routing andinsertmodes saved;coverageunknown.",
+    "current": "IR-200 firmware history and exact cached hardware offer",
+    "finding": "Official 1.10 changes auto-off; 1.02 extends EXP HOLD to MIDI and fixes concurrent memory/CC changes. Neither establishes final-output volume. Exact Seven Stereo item found, cached asking price only.",
     "next": [
-      "Continue IR-200 full profile: current firmware notes, exact power specifications and qualified hardware item; consolidate before admission",
+      "Continue IR-200 full profile: exact power specifications, remaining capability fields and scope decision before admission",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
@@ -122636,7 +122636,7 @@
       "remaining": [
         "Complete required model fields and scope decision before admission",
         "Final-output and bypass/headphone/ambience coverage",
-        "Exact Shopee hardware offer"
+        "Exact offer located; condition, current stock, bundle and checkout price remain unverified"
       ]
     }
   }
