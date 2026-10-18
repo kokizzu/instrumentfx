@@ -1124,4 +1124,16 @@ Checked2026-10-18;partial,bass-focused. [Product](https://digitech.com/dp/bp355/
 | Expression / LFOs | Two assignable LFOs share pedal targets,each with bounds,speed and triangle/sine/square waveform. |
 
 
+
+### BP355 — software support qualifications
+
+Checked2026-10-18;no installer downloaded or executed.
+
+| Field | Qualification |
+|---|---|
+| Editor / historical platforms | [Manufacturer software catalogue](https://digitech.com/software-downloads/) assigns BP355 X-Edit2.7.0Windows/2.7.1IntelMac. Windows notes list XP SP2(32-bit),Vista/7(32/64-bit),1GHz,1GB RAM,.NET3.5;Windows8 may require separate.NET installation. Mac notes address10.8–10.10 and retain a10.11 unverified/unsupported notice. These historical requirements do not establish Windows11,current macOS orAppleSilicon operation. |
+| Editor / manual versus software notes | [Own manual](https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2022/09/BP355_Manual_5059482-A_original.pdf),p31 lists Windows7/8.x/10(32/64-bit),Intel/AMD dual-core,4GB RAM,USB driver;Mac10.8.5-or-later,Intel dual-core,4GB RAM. This broader manual statement doesnot override the catalogue's specific X-Edit caveats orverify current drivers. |
+| Processing / cabinet follow-up | Targeted manufacturer BP355 cabinet/firmware/errata search returned existing manual,product andtranslated product,without independent corrective revision evidence. **13manual models+Direct versus17advertised cabinets remains unresolved**. Do not repeat unchanged paths as a new resolution attempt. |
+
+
 <!-- comparison evidence ends -->
