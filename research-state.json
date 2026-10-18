@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Recorded-model required fields / discovery",
-    "task": "708II card utilities now documented, including empty-group SAVE behavior. Next refresh Shopee brand/series discovery or address required fields on another recorded model. A2 remains a non-active lead; no exact hardware offer verified.",
+    "model": "Fresh series discovery / required fields",
+    "task": "Six legacy-series searches saved with exact GFX-8 accessory exclusions. Seek other eligible Shopee brand/series hardware, then audit exact-model primary documentation; do not reuse adapter/sensor asks. A2 remains unresolved and outside active inventory.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -79052,5 +79052,44 @@
     "destination": "ZOOM.md#708ii",
     "scope": "SAVE empty-group exception and utility overwrite boundaries verified from exact-model manual.",
     "remaining": "Hardware offer variant mapping, software/display/power gaps and Hold Delay conflict remain."
+  },
+  "discovery_legacy_series_refresh_20261018": {
+    "checked_date": "2026-10-18",
+    "queries": [
+      "site:shopee.co.id \"Boss\" \"ME-6\" efek",
+      "site:shopee.co.id \"Zoom\" \"GFX-8\" efek",
+      "site:shopee.co.id \"Digitech\" \"RP150\"",
+      "site:shopee.co.id \"Korg\" \"AX300G\"",
+      "site:shopee.co.id \"Digitech\" \"RP2000\"",
+      "site:shopee.co.id \"Zoom\" \"G2R\""
+    ],
+    "rejected_exact_items": [
+      {
+        "model": "Zoom GFX-8",
+        "seller_item": "732732692/20031217262",
+        "url": "https://shopee.co.id/Adaptor-Zoom-Efek-Gitar-GFX8-GFX-8-Power-Kabel-i.732732692.20031217262",
+        "indexed_ask_idr": 150000,
+        "reason": "Power adapter, not effects processor.",
+        "access": "Search-index body, crawled two months ago; current stock unverified."
+      },
+      {
+        "model": "Zoom GFX-8",
+        "seller_item": "38361451/8214243069",
+        "url": "https://shopee.co.id/Modul-sensor-Pedal-WAH-pedal-volume-zoom-gfx-8-i.38361451.8214243069",
+        "indexed_ask_idr": 95000,
+        "reason": "Replacement pedal sensor, not effects processor; reconfirms earlier rejection.",
+        "access": "Search-index body, crawled four months ago."
+      },
+      {
+        "model": "Zoom GFX-8/GFX-4",
+        "seller_item": "14849321/28104902463",
+        "url": "https://shopee.co.id/AC-ADAPTOR-BUAT-Zoom-Guitar-Effect-Processor-GFX-4-%28Japan%29-GFX-8-i.14849321.28104902463",
+        "indexed_ask_idr": 199000,
+        "reason": "AC adapter; 12V/500mA and12V/1A options are accessory variations, not processor specifications.",
+        "access": "Search-index body, crawled last week; seller feny.halim,Kota Tangerang."
+      }
+    ],
+    "result": "No qualifying new exact hardware offer resolved in these six searches. G2R yielded unrelated relay/category results. Search limitations do not establish model absence or current stock.",
+    "active_models_added": 0
   }
 }
