@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Blackstar ID:X Floor Three",
-    "task": "Root profile and guitar/bass comparisons integrated from own manual. Next complete exact panel control census and per-category appendix counts; resolve factory fill,display,USB format,import support and exact Shopee title linkage. Do not infer new/used condition.",
+    "task": "Saved text-derived10/8/9controls and15/10/5/5category census. Next verify Architect OS support,USBformat/display/imports or fresh Shopee leads. Physical panel and exact seller-model linkage remain unverified.",
     "next_models": [],
     "after_queue": "354 partial models;295 guitar156 bass69 vocal; migration incomplete; no downloads/workflows/push."
   },
@@ -77638,5 +77638,27 @@
       "limits": "Bypass delay/reverb trails documented; patch-change continuity unknown. No verified looper/drums or native/convertedNAM imports."
     },
     "next": "Integrate compact root Blackstar profile and comparison memberships using own-manual eligibility; retain Shopee model-title linkage as price uncertainty rather than blocking hardware existence. Read complete control panel text and perform appendix counts before asserting census."
+  },
+  "blackstar_floor3_census_20261018": {
+    "source": "https://www.kirstein.de/docs/manuals/00118929/manual_EN.pdf?h=2b60f8933d3a40a7df062be52bf93b84",
+    "revision": "256401M-VA-1 01/26",
+    "counts": {
+      "rotary": 10,
+      "footswitch": 8,
+      "buttons": 9,
+      "pre_fx": 15,
+      "modulation": 10,
+      "delay": 5,
+      "reverb": 5
+    },
+    "qualification": "Manual-text derivation;encoder pushes,toe andResponse3way separate;no visual/physical certification. Fourblock35choice subtotal excludesamp/CabRig/gate/pedalwah;not unrestricted simultaneous count.",
+    "remaining": [
+      "Visual panel corroboration",
+      "Factory filled count",
+      "Display diagonal/color/touch",
+      "USB sample format",
+      "User imports",
+      "Shopee exact model title linkage"
+    ]
   }
 }

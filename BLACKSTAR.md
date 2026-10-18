@@ -9,10 +9,10 @@ Checked2026-10-18; partial. Guitar/bass multi-effects eligibility comes from the
 | Field | Evidence / qualification |
 |---|---|
 | Expression | Built-in toe switch; volume pre/post, Classic/Modern wah, custom continuous amp/effect parameter. CabRig/discrete controls excluded. External EXP unverified. [M] |
-| K/F/B | Separate complete rotary/footswitch/button census unverified; no photo estimate. |
+| K/F/B | **10 rotary /8 footswitches /9 buttons**, derived from named controls:8 voice/amp/tone/master rotaries +2 push encoders;3 patch +4 effect +tap footswitches;voice mode,manual,shift,CabRig,4 effect,EXP buttons. Encoder pushes,toe switch and3-way Response switch separate. Visual corroboration pending. [M pp11–17] |
 | Display | OLED; diagonal/color/touch unknown. [M] |
 | Dimensions / mass | **397×68×195mm**, axes unstated; **2.88kg**. [M] |
-| Processing / choices | **Four simultaneous blocks**: Pre FX, modulation, delay, reverb; one choice each. Category counts pending. Amp/CabRig separate. [M] |
+| Processing / choices | **Four simultaneous blocks**: Pre FX, modulation, delay, reverb; one choice each. Appendix-derived **15 Pre FX /10 modulation /5 delay /5 reverb =35 choices**. Amp,CabRig,gate and pedal-wah alternatives are separate; not35 simultaneous effects. [M pp27–29] [M] |
 | Factory / user memory | **99 writable=33×3**; initial factory fill/protected split unknown. Master level excluded from patches. [M] |
 | Synth / acoustic | **12 guitar,3bass,3acoustic voices**, including acoustic simulation. Synth unverified. [M] |
 | I/O | Mono input,mono send/return,To Amp,CabRig stereo quarter-inch phones/line and XLR outputs;3.5mm line/streaming TRRS;MIDI IN/THRU;USB-C;DC. To Amp bypasses CabRig;not speaker power. [M] |
@@ -35,3 +35,7 @@ Checked2026-10-18; partial. Guitar/bass multi-effects eligibility comes from the
 [M]: https://www.kirstein.de/docs/manuals/00118929/manual_EN.pdf?h=2b60f8933d3a40a7df062be52bf93b84
 [S]: https://shopee.co.id/Multi-FX-Effect-Blackstar-ID-Floor-Three-i.239804186.53956749684
 [T]: https://shopee.co.id/galerimusikjakarta
+
+### Appendix and control census qualifications, 2026-10-18
+
+Counts use manual256401M-VA-1 01/26 text,not physical inspection. Pre FX includes ten boost/drive/distortion/fuzz choices, two compressors,two filters and an additional fuzz entry. Modulation includes distinct vintage/modern flanger/phaser/tremolo variants; internal mode parameters do not add selector entries. The own manual advertises over30 effects, consistent with35 appendix entries. Retailer over35 wording has a different unspecified counting basis; no unique grand total including gate,wah,amp orCabRig is asserted.
