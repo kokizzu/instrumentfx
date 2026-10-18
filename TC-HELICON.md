@@ -970,6 +970,11 @@ Distinct from original Touch and VoiceLive Play. Checked2026-10-18;partial. Refe
 | Looper routing / MIDI | Loop input choices: Lead+Guitar (default,excludes Aux),Guitar,Lead orAux. MIDI Clock via USB/DIN;syncs beats,not bars;MTC unsupported. Queued Mode waits for loop point when entering/exiting overdub. Feedback defaults98%;below100% gradually reduces retained audio during successive overdubs (reference pp.48,64–66). | [Reference][VLT2-R] |
 | Loop FX / metronome | Four loop-playback choices: Filter,Slow Speed,Squeeze Select,Squeeze Auto;one selected effect modifies all playing layers. Shots with transport running continues on release;stopped transport plays only while held. Metronome routes to all outputs orphones only;Sine,Kick Drum,HiHat are click sounds,not evidence of a rhythm-pattern library (reference pp.49–50,66). | [Reference][VLT2-R] |
 
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Looper / Erase versus Clear | Reference p.39: Home-mode Record hold1s erases without confirmation or undo. Loop Tools Erase prompts first. Erase removes loop information including length; Clear removes the selected layer's audio/overdubs but retains timing and is undoable. No device operation performed. | [Reference pp.39,43][VLT2-R] |
+| Looper / Mixdown target | Reference p.51: Mixdown consolidates layers into a selected slot and clears source layers; cannot be undone. Audible target content joins the mix; a muted target's previous content is overwritten. This frees slots, not proof of extra recording duration or persistent storage. | [Reference p.51][VLT2-R] |
+
 ### Separate IDR hardware evidence
 
 | Condition | Amount / qualifications | Exact item |

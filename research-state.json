@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "NUX MG-30",
-    "task": "MG30 named base choices saved,GEN2 additions separate. Resume freshShopee discovery oranother model primarygap;do not repeat SE70/VF1/FX500 emptyqueries without newlead.",
+    "model": "TC-Helicon VoiceLive Touch 2",
+    "task": "Erase/Clear andMixdown distinctions saved. Continue other exactprimarygaps orfreshShopee discovery;do nottake generatedmanualFAQ60s asdurationproof.",
     "next_models": [],
     "after_queue": "342 partial unique models;117 compatibility paths retained. No downloads/workflows/push."
   },
@@ -24269,6 +24269,14 @@
         "Yamaha FX500"
       ],
       "finding": "Shopee exact-name/spelling searches established no exact hardware item;VF1 hits were aviation products. No admission or unavailable conclusion."
+    },
+    {
+      "checked_date": "2026-10-18",
+      "models": [
+        "Yamaha AG-Stomp",
+        "Fishman ToneDEQ"
+      ],
+      "finding": "Shopee AGStomp/AG-Stomp andToneDEQ searches yielded no exact hardware item;not unavailable proof. No new admission."
     }
   ],
   "inventory_by_brand": {
@@ -45528,7 +45536,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX MG-30."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon VoiceLive Touch 2."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -72824,5 +72832,11 @@
     "checked_date": "2026-10-18",
     "finding": "Named base WAH,CMP,GATE,EFX,EQ,MOD,DLY,RVB choices retained;GEN2 additions kept separate. Category availability not confused with simultaneous block ceiling.",
     "remaining": "Exact current library by firmware,loop persistence,USB formats,display touch/pixels andnew/used offer conditions unresolved."
+  },
+  "vlt2_loop_followup_20261018": {
+    "source": "https://manualzz.com/doc/9506742/tc-helicon-voicelive-touch-2-reference-manual",
+    "checked_date": "2026-10-18",
+    "finding": "Manufacturer reference body pp39/43/51 distinguishes Erase/Clear and audible-vs-muted Mixdown destination behavior. No operation performed;generated FAQ duration not accepted.",
+    "remaining": "Loopduration/power-off persistence,display,DCpower andcurrentfirmware unresolved."
   }
 }
