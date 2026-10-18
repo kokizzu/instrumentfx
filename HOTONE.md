@@ -121,6 +121,20 @@ Checked2026-10-19:[official manual index](https://www.hotone.com/support/1?pid=4
 | Processing / total reconciliation | AMP,CAB,NR,EQ,DLY,RVB andSoundClone still need full V3.1 reconciliation. Do not combine84with older category totals to claim a current unique library size. |
 
 
+### Ampero One — V3.1 cabinet, utility and time-effect census, 2026-10-19
+
+[Own V3.1 manual transcription](https://fr.scribd.com/document/1067861623/Ampero-One-Online-Manual-en-Firmware-V3-1-1773037044207),printedpp36–43. Editorial counts of named rows;slots andparameter modes remain separate.
+
+| Field | Revision-specific inventory |
+|---|---|
+| Processing / cabinets | **60factory speaker cabinets+10factory acoustic IRs**;20userIR positions separate. Acoustic set includes Mandolin,Fretless Bass,Double Bass;not10extra speaker cabinets. |
+| Processing / microphone simulation | **10mic types+Off**:6dynamic,3condenser,1ribbon. CAB/IR shares mic,volume,low/high-cut andXYZposition parameters. |
+| Processing / NR and EQ | **3NR**:Smart/Fast/Custom Gate;also available inFX1/FX2. **7EQ**:Guitar1/2,Bass1/2,Para,Graphic,V-EQ. Duplicated module availability doesnot create extra unique algorithms. |
+| Processing / delay | **22named DLY models**,including2290Mod. Dual Eko processesL/R delays separately;Multi Head's12head variations remain modes within one model. |
+| Processing / reverb | **10**:Room,Hall,Church,Plate,Spring,Izumi,Northstar,Oceandeep,Sweet Space,Shimmer. Trail controls concern bypassed effect tails,not universal preset-change spillover. |
+| IR / Sound Clone slots | Appendix separately lists **Sound Clone1–10** loaded throughSound Clone Manage;these are file positions,not10factory algorithms orIR slots. |
+
+
 ## Hotone consolidation scope
 
 The six recorded Hotone models now retain their complete model findings and supporting comparison facts here. Original legacy sources remain available. Consolidation does not establish exhaustive market coverage or close unresolved specification and price fields.
