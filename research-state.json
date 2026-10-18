@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro DELAY12/REVERB7/COMP2 andHold restrictions saved. Next sharedFX1/FX2 category census,preamp/ODDS/wah counts andUSBstreamformat;preserve manual limitations.392partial;migration incomplete.",
+    "task": "GT-Pro FX1=22,FX2=33 (11exclusive),WAH6+3custom saved. Next preamp/ODDS census andUSBstreamformat;44-category reconciliation unresolved.392partial;migration incomplete.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -121417,5 +121417,22 @@
     },
     "hold": "2.8s overdub;Modulate/Hold switch clearsheldaudio andFBOSC/AutoRiffHold/SoundHold states;notpersistentstorage.",
     "qualification": "Manual-derived category choices;not simultaneous ceiling/currentinstalledlibrary."
+  },
+  "gtpro_fx_census_20261019": {
+    "sources": [
+      "https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-36.html",
+      "https://www.manualslib.de/manual/965096/Boss-Gt-Pro.html?page=36"
+    ],
+    "access": "Indexed original manual p36;English direct cache miss;German matching table corroboration.",
+    "counts": {
+      "FX1": 22,
+      "FX2": 33,
+      "FX2_exclusive": 11,
+      "unique_families": 33,
+      "WAH_entries": 9,
+      "WAH_named_models": 6,
+      "WAH_custom_choices": 3
+    },
+    "qualification": "Families not subtypes or simultaneous ceiling;44-category headline unreconciled."
   }
 }

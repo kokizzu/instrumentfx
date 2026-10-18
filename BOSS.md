@@ -3897,3 +3897,15 @@ Checked 2026-10-19 against same manufacturer-authored manual mirror, printed [p3
 | Processing / COMP choices | **2 modes:Compressor,Limiter** in dedicatedCOMP block. Sustain/attack andthreshold/release apply according tomode;not additional algorithms. |
 
 Complete44-category reconciliation andsharedFX1/FX2 census remain unresolved. No dependencies,software,firmware orfiles downloaded orrun.
+
+### GT-Pro — shared FX census and wah choices
+
+Checked 2026-10-19 against indexed original GT-PRO manual [English p36](https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-36.html), corroborated by [German manual p36](https://www.manualslib.de/manual/965096/Boss-Gt-Pro.html?page=36). Same model, section and pagination;manufacturer-authored manual text,not mirror FAQ. Direct English reader cache miss;indexed table inspected.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / shared FX choices | **22 families in both FX-1 and FX-2**:Advanced Compressor,Limiter,Touch Wah,Auto Wah,Tone Modify,Guitar Simulator,Tremolo,Phaser,Flanger,Pan,Vibrato,Uni-V,Ring Modulator,Slow Gear,Defretter,Sitar Simulator,Feedbacker,Anti-Feedback,Humanizer,Slicer,Wave Synth,Sub Equalizer. Same family may be selected in both blocks. |
+| Processing / FX-2-only choices | **11 additional families**:Harmonist,Pitch Shifter,Pedal Bend,Octave,Rotary,2x2 Chorus,Auto Riff,Guitar Synth,Acoustic Processor,Sound Hold,Sub Delay. Thus FX-1 has22 choices and FX-2 has33;33 unique families across these two menus,not55 distinct algorithms or33 simultaneous blocks. Subtype totals remain unresolved. |
+| Processing / WAH | **9 selectable entries**:CRY,VO,Fat,Light,7String,Reso andCustom1–3. Six named models plusthree custom choices;qualifies regional six-wah headline. External expression controls position;automatic wah assignment documented forEXP1/FC-200. No built-in treadle inferred. |
+
+Advertised44-category reconciliation,preamp/drive census andUSBstreamformat remain open. No downloads ordevice operations.
