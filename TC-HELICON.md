@@ -596,7 +596,7 @@ Keyboard-guided vocal multi-effects,distinct from V/VG/VE. Checked2026-10-17;ini
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | Built-in/external/toe expression unverified. Switch-3/6 remote supported;continuous expression not established. | [Manual p12][PVK-O] |
+| Expression | Built-in/toe and direct continuous-pedal socket support unverified. **External MIDI expression CC11 controls Harmony Level**, marked volatile. This does not establish an analog EXP socket; Switch-3/6 are separate button remotes. | [Manual p12][PVK-O];[MIDI table p12][PVK-J] |
 | K/F/B | Separate knob/footswitch/button inventory unverified;do not borrow PERFORM-V counts. | Unresolved |
 | Display | **Four-color LED ring** around central knob shows level/style and pitch accuracy;screen diagonal,color-LCD/touch unverified. Brightness persists through power cycles;manual gives differing SET interaction instructions. | [Editing/Pitch Guide/Set sections][PVK-M];[Product sheet p2][PVK-P] |
 | Dimensions / mass | Unverified. | Unresolved |
@@ -696,6 +696,15 @@ Checked2026-10-18 against indexed [own manufacturer manual p14][PVK-O]. No softw
 [PVK-J]: https://imagescdn.juno.co.uk/manual/643242-01U.pdf
 
 Checked2026-10-18. Original fifteen-page manufacturer manual: PERFORM-VK title, keyboard guidance, Music Group2017 copyright and VoiceSupport2 introduction match the exact model. It differs from the longer manual already retained; no exact firmware identity inferred. Text inspected through browser only; no local downloads or visual certification.
+
+
+### PERFORM-VK — MIDI expression and recall scope
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / MIDI controller | **CC11 Harmony Level**,CC1 harmony vibrato boost andCC64 Notes Sustain are marked volatile. Pitch bend controls harmony pitch with range set byRPN0. These are incoming MIDI controls,not additional physical knobs orproof ofan analog expression input. | [Manufacturer manual p12][PVK-J] |
+| Processing / MIDI effect switching | CC21–27 switch Harmony,Delay,Reverb,Double,HardTune,Transducer andµMod HIT controls;CC28 toggles HIT. Values0–63 off,64–127 on. Parameter access doesnot add simultaneous blocks orfront-panel switches. | [Manual p12][PVK-J] |
+| Memory / MIDI persistence limits | Manual marks Harmony MixCC74,Delay LevelCC71,Reverb LevelCC73 andReverb DecayCC91 as preset parameters;Talk/BypassCC81 andanalog overall-outputCC102 are volatile. MIDI control availability doesnot imply every parameter isrecalled bya preset. | [Manual pp12–13][PVK-J] |
 
 <!-- comparison evidence ends -->
 

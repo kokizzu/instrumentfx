@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Shopee Indonesia discovery",
-    "task": "PERFORM-V exact KalaKarsa0 preorder saved. Dimensions/power remain unresolved after alternate manual path; move to fresh cross-brand discovery or another manufacturer gap rather than repeating unchanged PERFORM-V offers.",
+    "model": "Manufacturer technical gaps / Shopee discovery",
+    "task": "PERFORM-VK MIDI expression and recall distinctions saved;next verify remaining exact-model hardware/power/control inventory orfresh cross-brand Shopee offers,without repeating unchanged evidence.",
     "next_models": [],
     "after_queue": "387 active models,46 brands,all partial;no downloads/workflows/push."
   },
@@ -46329,7 +46329,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Shopee Indonesia discovery."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Manufacturer technical gaps / Shopee discovery."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -61846,6 +61846,19 @@
         "Late-arrival voucher not upfront discount."
       ],
       "technical_search": "Italian manual firmware1.0/2015-11-17 extraction ends after headphone connector;final-page screenshot cache miss. Third-party metadata not promoted to manufacturer dimensions/power evidence."
+    },
+    {
+      "model": "TC-HELICON PERFORM-VK",
+      "checked_date": "2026-10-19",
+      "source": "https://imagescdn.juno.co.uk/manual/643242-01U.pdf",
+      "identity": "15-page manufacturer PERFORM-VK user manual,Music Group2017;exact firmware unresolved",
+      "findings": [
+        "New MIDI expression, HIT switching and persistence evidence saved in TC-HELICON.md#perform-vk; see original pp12–13."
+      ],
+      "remaining": [
+        "Direct expression socket,built-in/toe control unresolved.",
+        "Harmony style revision conflict and complete hardware/power inventory remain open."
+      ]
     }
   ],
   "discovery_cross_brand_bass": {
@@ -119554,7 +119567,7 @@
       "VING.md": "2873cd6b4d5b13c287eb839977ff782139fb5640008b9f9730ddc289d09f5b67",
       "FENDER.md": "825b3d107ed121195199f3a238cfae504e08c3f4913cd5952787df25109530c8",
       "MOSKY.md": "5fa70acc80dab7bfb6d02f5160afec1e5ee1947c8e343790309c9f78cbc0a07d",
-      "TC-HELICON.md": "27f23ec9701b28e942372e04c35d4efa3979ceb77e9d8a0368067ba96a2e97c0",
+      "TC-HELICON.md": "b136576b55239925f7feed238c0be8421491350057a4d4bb0844fc78a1c0c6d7",
       "CUVAVE.md": "245b3f9975423a1b9a6f6facef5c9d2ddcc5fe5ebaa6134141678c66bde0c799",
       "KORG.md": "680acff51ff33a47cbb26e1c3ffdfb05e3de37fb3152d2b8bf99e6f4f8d46547",
       "BLACKSTAR.md": "b669de5ae77c32f44e641de26714593d055d169b71576b4866f2a3665f7431b9",
@@ -119574,7 +119587,7 @@
       "VOX.md": "7087c2c9689338adff6f0cff2449fa98b138812bac122bd393d989bcaad1dc62",
       "BOSS.md": "0d23479246ef2637728cc24c448bc44b72d6185c3ace982be064814f9a0aa992",
       "KEELEY.md": "bf2e0764ec43eedcfbfc9839452586b4b9c835948fc7315f5e935472f9d45d1a",
-      "ALL-VOCAL.md": "00213e11deee6350ae02603dbaf48d2b9da8eebd8ba72fbd9d2b06e722c80f36",
+      "ALL-VOCAL.md": "50582d9b2384086a0adbe0f967753c94d38f00b7c3c69175d470758bfda3023e",
       "LEXICON.md": "3b6b15d2b3986a2538f1a548a156df3a605e35764d91d08686e12549b64b98da",
       "SINGLE-GUITAR.md": "9d785a2665a3bbcbc1effe4750a232fd0f2b690e82c99a5e4504cbd479a3a0af",
       "DONNER.md": "c37c37a6d312decc6f18ea53df29fb6683f01ed89fdd5bbec65feb8dd2c44837",
