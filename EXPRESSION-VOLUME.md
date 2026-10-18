@@ -173,3 +173,5 @@ IR-200 [original-manual routing check](BOSS.md#ir-200--original-manual-and-ir-lo
 IR-200 [power qualification and profile checklist](BOSS.md#ir-200--exact-adapter-association-and-remaining-checklist): exact manufacturer adapter mapping resolves9V DC center-negative supply; remaining output-coverage and inventory-admission gaps stay open.
 
 Mini [global-menu and looper check](HOTONE.md#ampero-mini--global-menu-and-looper-boundaries): generic GLOBAL wording and Post-loop persistence do not establish assignment or playback attenuation. Factory volume defaults remain unaudited.
+
+Nano Cortex [volume-target distinction](NEURAL-DSP.md#nano-cortex--three-distinct-volume-references): the pre-slot Volume utility, Capture Volume and disputed LEVEL assignment remain separate; no global final-output guarantee established.

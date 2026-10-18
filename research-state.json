@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "Ampero Mini global-menu census and looper boundary",
-    "finding": "V2.2 global EXP/FS lists mode and switch functions; no explicit global volume assignment identified. Post-loop patch persistence does not prove expression attenuation.",
+    "current": "Nano Cortex Volume utility versus Capture Volume and LEVEL",
+    "finding": "Official device list restricts Volume utility to pre slots; Capture Volume has -24 to+12dB local range. Neither resolves global final-output EXP scope.",
     "next": [
-      "Nano Cortex global-volume scope: verify exact current assignment/recall and output coverage",
+      "Verify GP-50 exact current manual access/global volume and M-VAVE actual controller wiring; retain Mini/Nano assignment gaps",
       "IR-200: resolve stereo IR capacity/loader conflict, complete field checklist and final scope decision; power voltage/polarity now source-backed",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
