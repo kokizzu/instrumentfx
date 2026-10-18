@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "TC-Helicon Mic Mechanic 2",
-    "task": "Saved manufacturer-indexed electrical and current quick-start evidence. Remaining power/phantom/bypass revision conflicts,actual supply polarity/barrel/draw,runtime,editor platforms,memory/display andqualified stock. Next fresh Shopee discovery or other required model gap.",
+    "model": "TC-Helicon Duplicator",
+    "task": "Saved own-manual electrical ratings and startup distinctions. Remaining revision conflicts,power polarity/barrel/draw/runtime,editor/display/memory/import gaps andqualified offers. Resume exact Shopee series discovery or another required field.",
     "next_models": [],
     "after_queue": "374 active models,46 brands,all partial; compatibility migration incomplete; no downloads/workflows/push."
   },
@@ -46090,7 +46090,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon Mic Mechanic 2."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume TC-Helicon Duplicator."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -81569,5 +81569,10 @@
     ],
     "access": "Indexed manufacturer text; direct opens502; no downloaded file or successful image inspection.",
     "result": "Added own mic/output/noise ratings and optional PowerPlug9 identity; distinguished supply minimum from older capacity, retained consumption/product-copy conflicts."
+  },
+  "duplicator_electrical_controls_20261018": {
+    "source": "https://cdn.mediavalet.com/aunsw/musictribe/Kvs-h-U7m0qFvYaMTDIYcA/8CRY5ULrck-UO6wzRcgjFg/Original/tchelicon-duplicator-en.pdf",
+    "revision": "2016-12-05 Rev.1,©2016",
+    "result": "Own-model electrical ratings,distinct startup settings and correction/Tone functions saved; no sibling substitution or installed-revision verification."
   }
 }

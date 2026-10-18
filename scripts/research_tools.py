@@ -495,7 +495,7 @@ def main():
         if mode == 'commit-harmony-singer2':
             message = 'research(tc-helicon): include Harmony Singer 2 saved retail offers'
         if mode == 'commit-duplicator':
-            message = 'research(tc-helicon): include Duplicator saved offers in vocal comparison'
+            message = 'research(tc-helicon): verify Duplicator electrical and startup distinctions'
         if mode == 'commit-mic-mechanic2':
             message = 'research(tc-helicon): qualify Mic Mechanic 2 primary electrical evidence'
         if mode == 'commit-708ii':

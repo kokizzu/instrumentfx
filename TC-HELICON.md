@@ -911,6 +911,17 @@ Checked **2026-10-17**; partial. Independent vocal doubling, reverb, correction 
 | Used IDR | **?** No condition-verified used hardware offer established. |
 | New IDR | **?** Exact hardware asking observations below lack verified sale condition. |
 
+### Duplicator — exact-model electrical and operating details
+
+Checked2026-10-18 against [own six-page manual][DUP-M],©2016,2016-12-05 Rev.1;direct manufacturer-hosted text inspected. Later quick-start/product conflicts remain unresolved.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / electrical ratings | Printedp5: mic **2.68kΩ balanced**,0dBFS input range **−42 to+1dBu**; output **200Ω balanced/100Ω unbalanced**,fullscale **+1dBu**. |
+| Audio / noise and response | **EIN−126dBu atmaximum gain,Rg150Ω;mic SNR>104dB;dynamic range>104dB over20Hz–20kHz;response20Hz–20kHz,+0/−0.3dB**. These are separate ratings,not converter resolution orUSB audio support. |
+| Live / startup distinction | Printedp4: holding **Tone atpower-on** selects momentary doubling;repeat restores latching. Holding **footswitch atpower-on** toggles MP-75 Mic Control. These are different settings;momentary doubling isactive only while held. |
+| Processing / correction and Tone | Printedp3: correction fullyleft disables,center gives subtle support,fullyright stronger correction. Tone combines adaptive EQ,compression,de-essing andnoise gate;Normal/Less Bright are voicings,not stored patches. |
+
 ### Exact Shopee observations and limitations
 
 Checked **2026-10-17**; saved exact pages were reopened during discovery immediately before this model audit:
