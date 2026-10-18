@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(tc): audit X3 direct expression and headphone exclusions'))
+    print(git('commit','-m','research(tc): audit X5 board volume scope and wiring conflict'))
