@@ -679,6 +679,13 @@ Checked2026-10-18 against [own E1 manual][AX3B-M], pp47–49,52–54. No transfe
 | Editor / MIDI dump | DUMP CUR sends current program,including unsaved edits;DUMP ALL includes programs,MIDI anddump settings. Transfers work independently ofSYEX OUT,which controls outbound parameter changes. |
 | Memory / restore behavior | A received **single program requires storing** to persist. **All-data reception automatically overwrites stored data**,leaving current edit buffer unchanged. Factory restore separately erases user programs andinitializes MIDI settings. |
 
+### AX3000B — computer editor connection requirements
+
+| Field | Manufacturer evidence / limits |
+|---|---|
+| Editor / computer connection | Own E1 printedp50 requires an **external MIDI interface**;normal sequencer/editor use connects MIDI IN/OUT inbothdirections. Interface must handleSysEx correctly;manual warns some do not. Match MIDI channels. This is control/data transfer,not audio streaming;optical S/PDIF audio requires separate compatible audioequipment. [E1][AX3B-M] |
+| MIDI / control gates | Printedpp51–52: PCHG OUT toggles outgoing programchanges;unused incoming programnumbers ignored. CCHG I/O disables both sending/receivingCC whenoff,even withindividualnumbers assigned. SYEX OUT governs parameterchanges separately fromdumps. No operation ortransfer performed. [E1][AX3B-M] |
+
 <!-- comparison evidence ends -->
 
 [AX3B-M]: https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3000B_E1.pdf&response-content-type=application%2Fpdf%3B

@@ -575,7 +575,7 @@ def main():
         if mode == 'commit-ving-coverage':
             message = 'research(ving): preserve seller and app identity qualifications in comparison rows'
         if mode == 'commit-ax5g':
-            message = 'research(korg): distinguish AX10B synth-like patches from dedicated synthesis'
+            message = 'research(korg): clarify AX3000B editor MIDI interface requirements'
         if mode == 'commit-rockstage':
             message = 'research: bind recent exact Shopee offers to their model records'
         if mode == 'commit-blackhammer':
