@@ -2138,3 +2138,34 @@ Controls/library follow-up2026-10-18: [manufacturer manual reproduced on alterna
 Category follow-up2026-10-18: [own V01 manual copy](https://device.report/m/3bfcaf5bf9953f7daa8dcb5a20cfaf3a3e077f88dbcce614acf8c0b00c48ac63.pdf),printedpp48,51,55–56,72–76. FXA includes drives/boosts beyondFXB;both covermodulation,EQ,pitch,delay,filters. UserIR use removes microphone parameters while retaining cuts,early reflection,level andsample-point controls. DELAY introduction mistakenly repeatsFXloop wording;no category total inferred. These published category headlines do not establish aunique315-algorithm census,current installedlibrary orconcurrent capacity.
 
 Operational follow-up2026-10-18: [same own V01 manual](https://device.report/m/3bfcaf5bf9953f7daa8dcb5a20cfaf3a3e077f88dbcce614acf8c0b00c48ac63.pdf),printedpp14,17,24–25. Four movable routing points aremainoutput,XLRoutput,SEND,RETURN;RETURN cannot precedeSEND. These routing objects are notfour extra audioeffects. Loop retention isnot evidence ofmultiple independently stored loopslots. No device orpedal operated.
+
+## GE200 Plus
+
+Checked 2026-10-19;partial. Distinct from GE200 original,GE200 Pro andGE200 Plus Li. Manufacturer establishes guitar multi-effects;ownership,bass/vocal membership unverified. [Exact product](https://www.mooeraudio.com/products/232.html).
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / choices | 270+ effects;74 preamps,26 amps,77 cabinets. Overlapping headline counts not summed. Simultaneous ceiling/category census unverified. |
+| Factory / user memory | 255 preset locations;factory/user split andinitial fill unverified. |
+| Expression | Built-in/external/toe support unverified;no sibling transfer. |
+| Knobs / footswitches / buttons | Separate counts unverified;no visual audit. |
+| Display | Diagonal,technology,color/touch unverified. |
+| Dimensions / mass | Unverified. |
+| I/O | Dual quarter-inch outs,balancedXLR,headphones,Bluetooth5.0,USB-C/OTG. Completeinput/controlports,wiring andUSBchannels/formats unverified. |
+| Power / battery / USB | Standard-power edition;removable5.5-hour battery andRGB strip belong toPlus Li. Voltage,current,polarity,USBpower unverified. |
+| IR / NAM / capture | Third-party2048-point IR,20userIRslots;MNRS sampleloading20slots. NativeNAM andcaptureworkflow unverified;conversion evidence below. |
+| Editor / software | PCeditor andmobileMOOERCloud;exactOS qualifications below. |
+| Looper / drums / live | 60-second stereo looper;70 drum/metronome patterns combined. Retention,scenes,routing/trails unverified. |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified. |
+| IDR verified used | Unknown. |
+| IDR verified new | Unknown. |
+| IDR condition-unverified ask | Unknown. ExactGE200Plus/GE200-Plus/GE200 Plus searches found noqualifiedShopeehardwareoffer;BluesPlusGE200presetpack rejected. Not proof ofmarketabsence. |
+
+### Software and NAM qualification
+
+| Field | Evidence / qualification |
+|---|---|
+| Firmware / import revision | [Exact support index](https://www.mooeraudio.com/Downloads_xq/9.html):V1.0.5,2026-08-25 addsNAMA2fileimport;V1.0.4,2025-05-06 initialrelease. Productsoftware includesupdating,backup,editing;separateUSBASIOdriver isnot recordingsoftware. Windows10+;macOS10.15+ listed. Installedversion andcurrenthostoperation untested. |
+| NAM / native versus conversion | [Manufacturer announcement](https://www.mooeraudio.com/news/29.html) explicitly classifiesGE200Plus/Pro asA2conversion;GE1000/GS1000nativeLite statements not transferred. Supportedarchitectures,converterlimits andstorageallocation unresolved. |
+
+No dependencies,firmware,software orfiles downloaded orrun.
