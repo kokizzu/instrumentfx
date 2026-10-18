@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "BOSS ME-8",
-    "task": "Saved ME-8 text-derived7FS/12buttons andfactory user/preset duplication. Rotary count andvisual corroboration remainopen. Next fresh Shopee discovery or other unresolved required fields.",
+    "model": null,
+    "task": "Saved additional-brand discovery and manufacturer-backed NUX B-8 scope rejection. No qualified missing processor from searched series. Next other eligible series or unresolved technical fields;ME-8 rotary count remainsunverified.",
     "next_models": [],
     "after_queue": "349 partial models;114 Markdown compatibility files remain;no downloads/workflows/push."
   },
@@ -75222,5 +75222,43 @@
     "preserved_text": "## Research saved in the current pass\n\n| New model | Initial model commit | Evidence highlights |\n|---|---|---|\n| HeadRush MX5 |`d05c409` |Official category counts,11-slot processing,model-specific power and between-rig tail limitations |\n| Fender Tone Master Pro |`85bc8c6` |Instrument/mic routing,regional firmware-history differences,three-minute looper and documented polysynth update |\n| Valeton GP-200LT |`4824546` |Version1.8 SnapTone documentation,external-only expression,editable memory and balanced-output distinctions |\n| MOOER GE250 |`9c65e37` |Five footswitches,acoustic algorithms,one configurable MIDI socket and retained count/IR/looper conflicts |\n| Valeton GP-200JR |`3c9b9a3` |Rendered original panel diagrams expose manual copy errors; 255/99 memories, model-specific power and qualified Shopee asks |\n\nExisting **HX Effects** was consolidated and refreshed in `9c8d296`, not added as a new model. Its nine effects blocks, four snapshots per preset, two expression/amp-control sockets and USB MIDI without USB audio are now explicit in both guitar and bass comparisons.\n\nEach model was committed before researching the next. Core and Flex Prime were subsequently consolidated into HEADRUSH.md,with technical observation dates retained and additional Flex Prime IDR offers saved in `b30cec0`. Consolidation and repeated prices do not add models.\n\nAll model records separate knobs/footswitches/buttons,expression,used/new IDR,simultaneous blocks versus algorithm choices,ports,presets,synth/acoustic functions,dimensions/weight,power/battery/USB,IR/native-versus-converted NAM/proprietary captures,editor platforms and screen size/color/touch. Looper,drums,scenes,routing,headphones,phantom and special pickup requirements remain included where documented.\n\n## What remains\n\n**Next work: audit legacy-source preservation and comparison field coverage, continue fresh Shopee discovery by brand/series, and resolve remaining technical fields.** G2 FOUR andG2X FOUR now preserve full legacy records plus current manual looper/USB/processing limits. G6,G1 FOUR andG1X FOUR are now root-canonical with their original evidence dates and complete legacy facts preserved. Standard GS1000 is recorded separately from Li, including bass/microphone routing and native A2 Lite versus converted A1 NAM. GE300 is recorded with converted NAM and firmware-qualified IR capacity. HeadRush Prime is now recorded, including native NAM architecture limits and six recording/four playback USB channels. The ALL-* comparison rebuild and HX Effects consolidation are saved; GP-200JR is recorded and must not be added again. Exact Shopee item links and price/stock qualifications are in root **[research-state.json](research-state.json)**. When the saved queue is exhausted, search Shopee again by brand/series rather than declaring the market complete.\n\nThe inventory includes113 recovered models, the four initial additions, newer FX150/Cerberus/Sonic Wood commits and GP-200JR. Older96/104/117 counts and old cursors in legacy files are stale. The BOSS guitar display/IDR first pass was already saved; six original comparison groups still have unfinished corresponding work. A first pass is not full verification.\n\n**Organization migration is incomplete:** 349 detailed models are root-canonical; 0 still rely on legacy source records. The instrument pages are now actual comparisons, not navigation-only indexes, but they do not replace lossless brand consolidation. Dedicated-effect archives were moved with full facts, dates, URLs and contradictions preserved; their old section anchors redirect to the root SINGLE-* pages. All 117 original legacy paths are accounted for: 114 Markdown compatibility files remain (13 metadata pages, 100 technical pages and one previously redirected excluded archive). The three JSON pointer files were removed after exact typed reconstruction of their original snapshots in the root ledger; rollback metadata is retained. Their complete content is preserved in root documents/ledger and pinned Git history. Local navigation and original heading anchors have been audited; compatibility files remain, so the overall migration is not marked complete. Technical verification and market discovery remain incomplete.\n\n",
     "retained_incoming_anchor": "README.md#what-remains",
     "remaining": "Technical evidence verification, fresh marketplace discovery and compatibility-path migration remain incomplete."
+  },
+  "discovery_additional_brands_20261018": {
+    "checked": "2026-10-18",
+    "queries": [
+      "site:shopee.co.id \"DNAfx\"",
+      "site:shopee.co.id \"Rocktron\" \"efek\"",
+      "site:shopee.co.id \"Digitech\" \"Vocal 300\"",
+      "site:shopee.co.id \"NUX\" \"B-8\"",
+      "site:shopee.co.id \"Magicstomp\"",
+      "site:shopee.co.id \"Korg\" \"PX5D\"",
+      "site:shopee.co.id \"DigiTech\" \"RP80\"",
+      "site:shopee.co.id \"Zoom\" \"A3\" efek -adaptor"
+    ],
+    "scope_rejection": {
+      "model": "NUX B-8",
+      "manufacturer": "https://nuxaudio.com/product/b8/",
+      "basis": "Manufacturer describes wireless transmission,tuner,junction box,boost,buffer andDI. Multiple utility functions and a boost do not establish general instrument multi-effects architecture. Outside active processor scope;not an additional specialist-archive model.",
+      "offers": [
+        {
+          "url": "https://shopee.co.id/NUX-B8-2.4Ghz-Pedalboard-Wireless-System-Digital-B-8-Gitar-Bass-i.250276993.22963685962",
+          "seller": "Soundstationstore",
+          "region": "Kota Tangerang Selatan",
+          "ask_idr": 6260000,
+          "crawl": "last week"
+        },
+        {
+          "url": "https://shopee.co.id/Nux-B-8-2.4GHZ-Pedal-Board-Wireless-System-NUX-B8-i.12356205.22363175244",
+          "seller": "Eleven Music",
+          "region": "Kota Jakarta Pusat",
+          "ask_idr": 5363400,
+          "crawl": "two weeks"
+        }
+      ],
+      "offer_limits": "Indexed asks only;condition,selected bundle,stock,warranty,shipping/tax,voucher eligibility anddelivered total unverified. Relative delivery text is not stock proof;late-delivery compensation is not a discount. No purchasing recommendation."
+    },
+    "other_results": "No qualified missing processor offer established for the other exact searches;Zoom A3 results were unrelated lamps/cameras/laminators or existing model lists. Search absence does not establish market unavailability.",
+    "inventory_effect": "349active/6excluded unchanged;no brand or comparison rows added",
+    "next": "Continue other eligible series or model technical gaps;do not requeue B-8 as general multi-effects solely because of multiple utility functions."
   }
 }
