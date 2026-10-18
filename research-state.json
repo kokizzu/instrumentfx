@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh hardware discovery / unresolved model fields",
-    "task": "AX3000B compatibleKA-189supply9V600mA establishedfromKorgexactcompatibilitylist;notunitdraw. Next freshhardwarediscoveryorpolarity/barrel/display/OSverification. EXheight/currentchart,G3Xbuttons/display,MP100IR/censusremainopen.",
+    "task": "AX3000BJapaneseeditionrevealsheadphoneOUTPUTmutingconflict;cabinetcontradictionpersistssamelanguage. Next verifyactualrevision/erratumorotherunresolvedfields,andexpandhardwarediscoverybeyondempty3030/4040/AX100B/ME6queries. EXheight/software,G3Xbuttons/display,MP100IR/censusopen.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -60647,6 +60647,21 @@
         "Current editor OS support"
       ],
       "method": "Manufacturer HTML browsertext;no downloads/software/device execution"
+    },
+    {
+      "model": "Korg AX3000B",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://cdn.korg.com/jp/support/download/files/ad7b024ac03dc1e432a229c79fda966e.pdf"
+      ],
+      "finding": "OriginalJP64pageexactmodelmanualp12 saysPHONESdoesnotcutOUTPUT,oppositeEnglishE1p12. Revisedunconditionalmutingclaimtoeditionconflict. JPp4Ln+ampenablescab/p12Lnignorescab repeatsEnglishcontradiction.",
+      "remaining": [
+        "Headphone-output actual behavior/edition applicability",
+        "Cabinet routing erratum",
+        "Power polarity/current",
+        "Display and qualified offers"
+      ],
+      "method": "Manufacturer-hosted original JapanesePDFtext,model/panel/contentsmatched;no download/deviceoperation"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -80012,5 +80027,15 @@
       "site:shopee.co.id TC Helicon VoiceWorks"
     ],
     "result": "Empty search results;no exact eligible hardware item established. Not proof of absence or unavailable stock."
+  },
+  "discovery_zoom_legacy_ax100b_me6_20261018": {
+    "checked_date": "2026-10-18",
+    "queries": [
+      "site:shopee.co.id Zoom 3030 efek",
+      "site:shopee.co.id Zoom 4040 efek",
+      "site:shopee.co.id Korg AX100B",
+      "site:shopee.co.id Boss ME-6 efek"
+    ],
+    "result": "Empty search results,no exact hardware established;not an availability claim."
   }
 }

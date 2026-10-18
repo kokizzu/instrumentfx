@@ -678,7 +678,7 @@ Volume, delay-input, reverb-input, or unchanged-target assignments use physical 
 
 | Field | Manual evidence / qualification |
 |---|---|
-| I/O / headphone and mono routing | PHONES insertion mutes analog OUTPUT. L/MONO alone carries onlyL, not a documented stereo sum. RearLEVEL controls analog outputs/headphones; digital level is separate. [E1 pp10–13][AX3B-M] |
+| I/O / headphone and mono routing | **Edition conflict:** English E1 p12 says PHONES insertion mutes analog OUTPUT; the manufacturer’s Japanese manual p12 explicitly says it does **not** cut OUTPUT. Actual behavior/revision applicability remains unverified. L/MONO alone carries onlyL, not a documented stereo sum. RearLEVEL controls analog outputs/headphones; digital level is separate. [E1 pp10–13][AX3B-M]; [Japanese manual p12](https://cdn.korg.com/jp/support/download/files/ad7b024ac03dc1e432a229c79fda966e.pdf),checked2026-10-18 |
 | I/O / insert | SEND always carries input. Connected RETURN is processed whenINSERT is on; withoutRETURN, INPUT remains source. AUX playback volume is set at source. [E1 p10][AX3B-M] |
 | Routing / cabinet conflict | p4 permits cabinet only withLn anddrive/amp on; p25 saysAP ignores cabinet. However p12 saysLn ignores cabinet. Preserve contradiction; no hardware confirmation orerratum established. [E1 pp4,12,25][AX3B-M] |
 | I/O / digital level | GLOBAL DOUT LVL selects−12,−6,0,+6,+12dB independently ofrearLEVEL. [E1 pp6,13][AX3B-M] |
@@ -732,6 +732,13 @@ Checked2026-10-18 against [own E1 manual][AX3B-M], pp47–49,52–54. No transfe
 |---|---|
 | Expression / physical calibration | Own E1 pp45–46 specifies **hand operation**, warning that foot operation may be inaccurate. Power-up with EXP/CTL+up enters EXP MAX; return pedal, release hand and WRITE, then EXP MIN appears; advance, release and WRITE completes. Preserve these screen labels despite their counterintuitive endpoint order. EXIT cancels; ERROR restarts from the return-pedal stage. This is physical-range calibration, separate from saved per-program target limits. [E1][AX3B-M] |
 | Live / tuner recall | E1 pp21–22: **438–445Hz reference resets to440Hz at each power-up**. Exiting tuning via a program footswitch also selects that program; EXIT returns without that selection gesture. Neither behavior establishes cent accuracy or silent preset changes. [E1][AX3B-M] |
+
+
+### AX3000B — Japanese edition routing comparison
+
+| Field | Manufacturer edition qualification |
+|---|---|
+| Routing / cross-language cabinet conflict | The manufacturer-hosted **64-page Japanese AX3000B manual**, matching the model’s panel/contents, repeats both incompatible statements: printed p4 enables cabinet with **Ln and drive/amp ON**, while p12 says **Ln ignores cabinet**. Thus Japanese text does not resolve English E1’s cabinet contradiction. Its p12 headphone instruction separately contradicts English E1 as recorded above. No hardware revision, erratum or device behavior is established. [Original Japanese manual](https://cdn.korg.com/jp/support/download/files/ad7b024ac03dc1e432a229c79fda966e.pdf),checked2026-10-18; browser text only. |
 
 <!-- comparison evidence ends -->
 
