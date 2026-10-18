@@ -942,6 +942,17 @@ Checked2026-10-18 against manufacturer-authored [MFX-10 manual body][MFX10-T],co
 | Controls / tap averaging | TAP affects delay timing andmodulation LFO;manual says average of2 throughlast10 taps,BPM shown. This is a separate panelbutton,not another footswitch. |
 | Factory / reset scope | Manual says factory reset erases allcustomuser data andrecalibrates expression pedal. No reset performed;backup/export facilities remain unverified. |
 
+
+### MFX-10 — electrical ratings and cabinet startup
+
+| Field | Finding / qualification |
+|---|---|
+| I/O / analog ratings | Manual p27 lists INPUT **−20dBV** (impedance OCR reads “1MU”; exact unit not promoted), OUTPUT **−10dBV into at least10kΩ**, AUX **−10dBV at10k or more**, and headphones **20mW+20mW into32Ω**. These are published ratings, not clipping thresholds or measured performance. |
+| Conversion / response | Specification p27: **24-bit AD/DA,32-bit processing,44.1kHz**, response **20Hz–20kHz +1dB**, THD+N **<0.01%**. The introduction’s48kHz conflict remains; no missing negative response tolerance invented. |
+| Routing / cabinet startup | Quick Start p1 says MIXER/PHONES is enabled at power-on; pressing it disables cabinet models for guitar-amp use. Headphone connection instructions recommend enabling it for proper frequency response. This does not establish USB audio or independent IR loading. |
+
+Checked2026-10-18 against manufacturer-authored [2010 manual transcription][MFX10-T],printed pp1,5,27. Exact MFX-10/Cherub identity retained; no local download or visual inspection.
+
 <!-- comparison evidence ends -->
 
 Variant,bundle,adapter inclusion,authenticity,working state,warranty,shipping/tax and vouchers unresolved. Category-only or mixed-model asks remain unassigned in the ledger.

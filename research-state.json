@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Korg AX5B",
-    "task": "Saved official-distributor exact-model KA189 compatibility,center-negative and600mA/1A adapter conflict. Next othermodel requiredgap or fresh Shopee ID lead;do not promote adapter capacity to unit current.",
+    "model": "NUX MFX-10",
+    "task": "Saved analog/headphone ratings,conversion andstartup cabinet mode. Next fresh Shopee ID hardware discovery oranother requiredfield gap;retain44.1/48k,54/55 and8/9 conflicts.",
     "next_models": [],
-    "after_queue": "351 partialmodels;155bass;legacycompatibility migration incomplete;no downloads/workflows/push."
+    "after_queue": "351partialmodels;155bass;legacycompatibility migration incomplete;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -45636,7 +45636,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Korg AX5B."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume NUX MFX-10."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -59826,6 +59826,22 @@
         "Display details"
       ],
       "method": "Browser text;operator checked against Korg directory;no downloads"
+    },
+    {
+      "model": "NUX MFX-10",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://manualzz.com/doc/61042604/nux-mfx-10-owner-s-manual"
+      ],
+      "finding": "Own manual pp1,5,27 analog signal/headphone ratings,24bit32bit44.1k conversion,frequency/THD and startup cabinet-mode behavior;retain48k introduction conflict and input-impedance OCR uncertainty.",
+      "remaining": [
+        "Sampling and block-count conflicts",
+        "Full control inventory",
+        "Qualified new/used hardware",
+        "External-expression wiring",
+        "Current software support"
+      ],
+      "method": "Original manual browser text;no downloads ordevice tests"
     }
   ],
   "discovery_cross_brand_bass": {
