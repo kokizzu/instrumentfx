@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC-Helicon VoiceLive Touch 2",
-    "task": "Saved official PowerPlug12 12VDC statement andrevision-unresolved original accessory-guide center-negative wording. Next obtain exact Touch2 rear-label/original electrical specification for current andconnector;then loop duration/persistence,phantom,currentOS andqualified prices. Do not treat retailer1A as device draw.",
+    "task": "Saved original v1.2 MIDI port-mode restrictions. Bounded exactmodel electrical search returned no strongerprimary current/connector rating;retailer phantom/size/impedance conflicts not adopted. Resume fresh Shopee bass/vocal legacy discovery by brand/series,then originalmanual audits. Touch2 current/connector,phantom,loop duration/persistence,currentOS andqualifiedprices remain unresolved.",
     "next_models": [],
     "after_queue": "363active/46brands;304guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -61076,6 +61076,14 @@
         "https://manualzz.com/doc/en/54082722/tc-helicon-powerplug-12-quick-start-guide"
       ],
       "finding": "Accessory electrical scope saved with revision andunit-label limits;current/connector unresolved."
+    },
+    {
+      "model": "TC-Helicon VoiceLive Touch 2",
+      "destination": "TC-HELICON.md#voicelive-touch-2",
+      "checked_date": "2026-10-18",
+      "source": "https://manuals.plus/m/c1f8cc4a4abc2a367883eac728407a9346bab2fd63a0d71f58cae3ecdb316a59",
+      "status": "partial",
+      "finding": "Original reference identity/revision checked;p69 MIDI port-mode limits saved. Electrical search produced no strongerprimary rating."
     }
   ],
   "discovery_cross_brand_bass": {

@@ -1151,6 +1151,14 @@ Checked2026-10-18 through the exact-model service association above andaccessory
 |---|---|
 | Power / accessory voltage | The [manufacturer PowerPlug12 product page](https://www.tchelicon.com/ja/products/0726-aas) explicitly identifies **12V DC**. This supplements the service-list association;the page does not establish Touch2 operating current orbarrel dimensions. |
 | Power / accessory polarity | The original-manual body reproduced as [PowerPlug9/12 Quick Start Guide](https://manualzz.com/doc/en/54082722/tc-helicon-powerplug-12-quick-start-guide),English safety instructions,states outer-ring positive/center negative. Document revision is absent from extraction;retain as accessory-guide evidence,not an inspected Touch2 rear-label rating orproof that every replacement supply matches. Manufacturer current capacity andunit draw remain unresolved;retailer1A claims are not promoted to primary specifications. |
+
+### VoiceLive Touch 2 — MIDI port selection
+
+Checked2026-10-18 against [original reference manual reproduction](https://manuals.plus/m/c1f8cc4a4abc2a367883eac728407a9346bab2fd63a0d71f58cae3ecdb316a59),v1.2 forfirmware1.0.02 build37,printedp69.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / MIDI port modes | **Merge(default)** uses USB forVoiceSupport control/update whilephysical MIDI In receives notes,control andclock. **MIDI** ignores USB control andaccepts DIN notes/control plusSysEx preset import;**USB** ignores physical MIDI In anduses USB forVoiceSupport andnotes/control. The passage concerns control routing,not proof that USB audio isdisabled inMIDI mode. No extra MIDIThru socket is established. |
 <!-- comparison evidence ends -->
 
 [VLT2-Q]: https://manualzz.com/doc/6755730/tc-helicon-voicelive-touch-2-quick-start-guide
