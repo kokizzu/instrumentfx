@@ -1357,7 +1357,7 @@ Checked **2026-10-17**; partial. Floor processor, distinct from desktop X3, rack
 | Display | Backlit LCD documented; diagonal, color mode, resolution and touch unverified. [Product][X3L-P] |
 | Dimensions / weight | **21.5 in length × 10 in width/depth × 4.75 in height; 8.40 lb**. Preserve manufacturer axes; metric W×D×H and accessory inclusion unverified. [Specifications FAQ][X3L-S] |
 | Simultaneous processing | Two independent Tone paths. [Manual][X3L-M], p4•4. Manufacturer history advertises up to **2 amps / 18 effects**; this is not 98 simultaneous effects or proof of arbitrary block allocation. [History][X3L-H] |
-| Categories / model choices | Product: **78 guitar amps,24 guitar cabs,28 bass amps,22 bass cabs,6 vocal preamps,98 effects**, four microphone choices. [Product][X3L-P]. KB list: **8 wah,33 stomp,24 modulation,14 delay,14 reverb** entries; delay numbering repeats6. These subtotal93, so reconciliation with98 and firmware additions remains incomplete. No Amp/No Cabinet entries excluded from advertised amp/cab counts. [Model list][X3L-L] |
+| Categories / model choices | Product: **78 guitar amps,24 guitar cabs,28 bass amps,22 bass cabs,6 vocal preamps,98 effects**, four microphone choices. [Product][X3L-P]. KB list: **8 wah,33 stomp,24 modulation,14 delay,15 reverb** entries; delay numbering repeats6. These subtotal94, so reconciliation with98 and firmware additions remains incomplete. No Amp/No Cabinet entries excluded from advertised amp/cab counts. [Model list][X3L-L] |
 | Factory / user / total presets | **128 writable User locations**; listed other folders total250, giving378 displayed locations by arithmetic. Manual says over350; factory-filled User count unverified. Each preset stores both Tones. [Manual][X3L-M], p4•7 |
 | Synth / acoustic simulation | Synth algorithms listed: Seismik Synth,Rez Synth,Synth Analog,FX,Harmony,Lead,String. Acoustic-named amp choices include Piezacoustic2/Variax Acoustic; dedicated acoustic-simulator behavior remains unverified. [Model list][X3L-L] |
 | IR / NAM / capture | Factory cabinet/mic modeling established; user IR import, native NAM, converted NAM and proprietary capture loading each unverified. |
@@ -1377,6 +1377,17 @@ Checked 2026-10-18; seller evidence, not a completed sale.
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | IDR Used / sold-out cached ask | **Rp2,350,000**, TokoGitarBagusTangerang, Kota Tangerang; shop141177049/item7234568891. Exact title explicitly says **Preowned**; direct and search pages labelled last-month cache both show **Habis**. Working condition, revision, adapter/bundle, warranty and checkout total remain unknown. Delivery badges and late-arrival compensation do not establish availability or a discount. This is POD X3 Live, not desktop POD X3. | [Exact hardware](https://shopee.co.id/Guitar-Efeck-Line6-POD-X3-Live-Preowned--i.141177049.7234568891) |
+
+
+### POD X3 Live — category count correction and V2 additions
+
+Checked2026-10-18.
+
+| Field | Evidence / qualification |
+|---|---|
+| Categories / corrected baseline sum | Manufacturer KB lists **15 reverbs**,endingLarge Plate. Corrects the earlier transcription of14. With8wah+33stomp+24modulation+14delay,the listed subtotal is **94**,not93. Repeated delaynumber6 is a numbering defect,not a duplicate model. This still doesnot reconcile the advertised98 orlaterfirmware total. [Ownfamily model list][X3L-L] |
+| Categories / firmware2.0 additions12 | Official2010-02-19 family release notes name **Vocoder,Dynamic Delay,Dimension,Pitch Vibrato,Voice Box,V-Tron,Octisynth,Q Filter,Pattern Tremolo,Frequency Shifter,Barberpole Phaser,Script Phaser**. These are update additions,not12simultaneous blocks;installed firmware/category placement andcomplete revised census remain unverified. [Manufacturer release notes][X3L-FW] |
+| Synth / firmware distinction | V2.0’sVocoder is **14-band**;Voice Box andV-Tron provide talk-box/vocal-tract-style processing. These are algorithms within the multifx,not newhardware entries orproof of polyphonic tracking for every synth model. [Release notes][X3L-FW] |
 
 <!-- comparison evidence ends -->
 
