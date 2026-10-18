@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(boss): qualify IR-200 firmware and exact Shopee offer'))
+    print(git('commit','-m','research(boss): qualify IR-200 AUX routing and IR loader scope'))

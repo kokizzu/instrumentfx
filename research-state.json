@@ -122572,8 +122572,8 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "IR-200 firmware history and exact cached hardware offer",
-    "finding": "Official 1.10 changes auto-off; 1.02 extends EXP HOLD to MIDI and fixes concurrent memory/CC changes. Neither establishes final-output volume. Exact Seven Stereo item found, cached asking price only.",
+    "current": "IR-200 original manufacturer manual and loader boundaries",
+    "finding": "Original 2021 manual now accessible. AUX reaches outputs/phones separately; DC IN switches power. Loader manual selects one channel from stereo IR files; preserve distinction from product-page stereo wording. Voltage/polarity unresolved.",
     "next": [
       "Continue IR-200 full profile: exact power specifications, remaining capability fields and scope decision before admission",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
@@ -122637,6 +122637,10 @@
         "Complete required model fields and scope decision before admission",
         "Final-output and bypass/headphone/ambience coverage",
         "Exact offer located; condition, current stock, bundle and checkout price remain unverified"
+      ],
+      "sources": [
+        "https://static.roland.com/assets/media/pdf/IR-200_eng01_W.pdf",
+        "https://static.roland.com/assets/media/pdf/IR-200_IR_Loader_eng01_W.pdf"
       ]
     }
   }

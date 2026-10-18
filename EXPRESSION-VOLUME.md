@@ -167,3 +167,5 @@ FootCtrlPlus-linked PD41 follow-up: [mode-specific E/F bank restrictions](M-VAVE
 IR-200 follow-up: [EXP PDL HOLD and USB playback routing](BOSS.md#ir-200--pedal-hold-and-usb-routing-boundaries) remain separate from system assignment. AMP LEVEL is preamp control; final-stage USB MIX IN prevents an all-source mute guarantee. Partial lead remains outside active counts.
 
 IR-200 [firmware and exact offer follow-up](BOSS.md#ir-200--firmware-history-and-exact-hardware-offer): MIDI EXP HOLD fixes concern state retention, not final-output assignment. Exact Shopee item now located; cached asking price does not verify condition or stock. Remains a partial lead outside active counts.
+
+IR-200 [original-manual routing check](BOSS.md#ir-200--original-manual-and-ir-loader-qualification): AUX is mixed to outputs and headphones with player-side level. Whole-source expression mute remains unverified; original BOSS PDF is now accessible.
