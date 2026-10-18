@@ -695,7 +695,7 @@ def main():
         if mode == 'commit-tank-mini-preservation':
             message = 'research(mvave): preserve TANK MINI source and qualify app and firmware limits'
         if mode == 'commit-mk20-preservation':
-            message = 'research(mvave): distinguish MK-20 factory allocation and snapshot memory'
+            message = 'research(mvave): preserve Cube Sugar hardware lead and identity conflict'
         if mode == 'commit-mk300-preservation':
             message = 'research(mvave): preserve MK-300 source and qualify firmware and stereo evidence'
         if mode == 'commit-tankpro-preservation':

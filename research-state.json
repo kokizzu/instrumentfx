@@ -28,10 +28,10 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Tech 21 Bass Fly Rig v2",
-    "task": "Saved tuner direction/blinkfeedback andfactoryregionalprongs. Freshseriesdiscoveryfoundonlyexistingmodels,accessories anddedicatedFC05;RK5usedtitle stillrevision-unresolved,alreadyretained. Next newbrand/series discovery orremaining requiredfields;physicalpanelcount,exactBassFlyRigv2IDRoffer andMP10/MP20originalmanualremainunresolved.",
+    "model": "M-VAVE Cube Sugar — unresolved identity lead",
+    "task": "New exactShopee19700013/23607906486 cached1495000Habis. CurrentmanufacturerCubeSugarpageclassifiesMIDIcontroller whileapparentV02manualdescribesaudiomultifx. Savedoutsideactiveinventory. Next resolveoriginalmanualauthorship/panel/revision orcontinuefreshbrandseriesdiscovery;do notsilentlypromoteorexcludebasedoncontradiction.",
     "next_models": [],
-    "after_queue": "362 active/46brands;303guitar158bass69vocal;allpartial;114MDcompatibility paths retained;no downloads/workflows/push."
+    "after_queue": "362 active/46brands unchanged;303guitar158bass69vocal;allpartial;114MDcompatibility paths retained;no downloads/workflows/push."
   },
   "new_findings": [
     {
@@ -80337,5 +80337,23 @@
       "https://shopee.co.id/Tech-21-Sansamp-RK5-Richie-Kotzen-Signature-Fly-Rig-Fullset-Pedal-Efek-Gitar-2nd-i.1421445165.41329827063",
       "https://shopee.co.id/Adaptor-Efek-Gitar-Digitech-RP350-RP355-RP300-PSU-i.855783279.22273291654"
     ]
+  },
+  "discovery_cube_sugar_20261018": {
+    "status": "identity_conflict_not_active",
+    "offer": {
+      "url": "https://shopee.co.id/Efek-Gitar-M-VAVE-Cube-Sugar-Multi-Effects-Soundcard-Interface-Pedal-Guitar-Effects-Muslady-Cuvave-i.19700013.23607906486",
+      "shop": "19700013",
+      "item": "23607906486",
+      "seller": "MICKEY MOUSE SHOP",
+      "region": "Kota Jakarta Utara",
+      "idr": 1495000,
+      "stock": "Habis cached2months;shoponholiday",
+      "condition": "unknown"
+    },
+    "manufacturer": "https://www.cuvave.com/product?id=cube-sugar",
+    "conflict": "OfficialwebclassifieswirelessMIDIcontroller;selleraudiomultifxtitle;possiblepageassociationerrorunproven",
+    "manual_lead": "https://www.scribd.com/document/1001618080/429181095-Manual-Cube-Sugar-V02-ENCNFRDEJP-190104-PDF",
+    "manual_scope": "Apparentoriginalaudioinstructions;authorship/revision/panelmatchnotverified;no technicaladoption",
+    "next": "Recovermanufacturer-originPDFandmatchpanel/rearlabel;do notaddcontrollerfeatures oraudio claims toactivecatalogueyet"
   }
 }
