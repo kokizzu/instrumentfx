@@ -469,6 +469,12 @@ All nine non-PEDAL categories in this edition have now been enumerated. Later ad
 | Conversion / internal format | **44.1kHz**,24-bit A/D and D/A,each128× oversampling;32-bit internal processing. These do not establish USB audio or32-bit recording. |
 | Audio noise specifications | Input S/N **120dB**; residual noise **−97dBu**. Weighting and detailed test conditions are not stated in this guide; not independently measured. |
 
+### G1 FOUR — direct expression-path screening
+
+Checked 2026-10-19 against [own family quick guide, pp2–3,11](https://zoomcorp.com/media/documents/E_G1FOUR_QuickGuide_0.pdf) and preserved exact non-X panel inventory above. INPUT, AUX IN, shared OUTPUT/headphones, USB and DC provide **no analog EXP input**. G1X FOUR’s built-in treadle is not a G1 FOUR feature. Direct analog volume therefore fails; USB MIDI/control workarounds are not certified.
+
+MEMORY mode provides higher/lower patch switching independently of expression. Shared output accepts headphones. Existing130W×156Dmm exceeds preferred depth. Direct-expression position/range and bypass/headphone/tail/loop attenuation are not applicable without its input. Current full operation PDF exceeded reader size limit; no file was downloaded. Existing factory-fill conflict, prices and technical qualifications remain unchanged.
+
 ## G1X FOUR
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
