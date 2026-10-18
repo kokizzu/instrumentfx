@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Yamaha AG-Stomp",
-    "task": "AG-Stomp named mic models, three effect blocks and guitar-supply restrictions saved. Next exact MIDI/EXP calibration and remaining hardware/absence fields, or fresh eligible Shopee discovery. Keep current-threshold conflict; never treat supply feature as microphone phantom.",
+    "task": "AG-Stomp calibration/global assignments and source conflicts saved. Next verify remaining required hardware/software absence fields only with sufficient primary evidence, or fresh eligible Shopee discovery. Do not infer toe switch from unexplained EXP Switch Setting reference.",
     "next_models": [],
     "after_queue": "378 active models,46 brands,all partial; no downloads/workflows/push; migration incomplete."
   },
@@ -5601,6 +5601,12 @@
       "date": "2026-10-18",
       "source": "https://usa.yamaha.com/files/download/other_assets/1/313701/agstomp_en.pdf",
       "finding": "Own manual resolves named mic choices and three shared effect blocks. Guitar supply prerequisites and inconsistent 10mA boundary retained. No power/device operation."
+    },
+    {
+      "model": "Yamaha AG-Stomp",
+      "date": "2026-10-18",
+      "source": "https://usa.yamaha.com/files/download/other_assets/1/313701/agstomp_en.pdf",
+      "finding": "Calibration ranges and global/patch/off control modes clarified. MIDI receive/transmit bounds distinguished; printed mass-unit conflict preserved. Physical toe switch remains unverified."
     }
   ],
   "consolidation_and_price_findings": [
@@ -81838,7 +81844,7 @@
     "scope": "Explicit uncertainty signals in selected comparison facts only; omissions, stale historical caveats and semantic conflicts need human review. Zero flags never means fully verified.",
     "model_count": 378,
     "models_with_signals": 378,
-    "flagged_field_count": 4649,
+    "flagged_field_count": 4650,
     "models": {
       "Alesis::MIDIverb 4": {
         "link": "ALESIS.md#midiverb-4",
@@ -110689,6 +110695,13 @@
             ]
           },
           {
+            "field": "Dimensions / mass",
+            "source": "YAMAHA.md",
+            "signals": [
+              "conflict"
+            ]
+          },
+          {
             "field": "I/O",
             "source": "YAMAHA.md",
             "signals": [
@@ -117004,9 +117017,9 @@
       "TC-ELECTRONIC.md": "c4b16b3c6f514ab087fed6c19a469d50b1e14e9793b555ad8371da0bcddd5449",
       "VALETON.md": "e335ead12e652b2f04053cb58702d5055e6bcf32c61cbca143572baf2cb4b03e",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
-      "ALL-GUITAR.md": "6bb07bebc47c8b9e3e7d071cfc3169e32945a969050121ed2fc9f78876d55eb7",
+      "ALL-GUITAR.md": "73241966b76beb507e7deb5b4c4c7b23cfab6fb8df6ddaf220c9afd47b9ebbd8",
       "LINE6.md": "e277da711458c000e26845a4cd5b568f5dbe59a4305b8ce1ffe3e37dd72f92ff",
-      "YAMAHA.md": "aa1ca652e3c26a1561f9ffd763362fef1d4394b53b7418adc64c462c88046743",
+      "YAMAHA.md": "ed6c13b0c5344d5f227d1c08e7e66c65e9e636498b6a1e6c2ed853edb0d748c0",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
       "SCORPION.md": "4c6deea2ffbf02acae9e8fa6e70c5da06cf7488ae754a0a7b33292548837631f",
       "ALL-BASS.md": "53bdd66a87c85f3131a04589046fbad48fec411f363bdc5438ea3a74be819672",

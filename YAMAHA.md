@@ -453,13 +453,14 @@ Distinct acoustic-guitar multi-effects, checked 2026-10-18; partial. [Manufactur
 | Field | Finding / qualification |
 |---|---|
 | Expression | External EXP PEDAL supports FC-7 and parameter control. Built-in/toe support unverified. |
-| Expression / assignments | Manual p22: eight stored control assignments; one controller can drive eight parameters. Sources are EXP or MIDI CC1–31/64–95. Each assignment has independent minimum/maximum values, stored with patches; Utility can globally enable/disable external control. Mechanical toe-switch support remains unverified. |
+| Expression / assignments | Manual p22: eight stored control assignments; one controller can drive eight parameters. Sources are EXP or MIDI CC1–31/64–95. Each assignment has independent minimum/maximum values, stored with patches; Utility selects **GLb** (global assignments), **PrG** (patch assignments) or **oFF**; GLb is not merely an enable switch. Mechanical toe-switch support remains unverified. |
+| Expression / calibration limits | Manual pp26–27: raw minimum **0–128**, maximum **127–255**, usable span at least128. The text references an EXP Switch Setting without establishing a separate physical toe switch. Pedal MIDI transmit choices are OFF/CC1–32/64–95; assignment input range is1–31/64–95, so preserve the distinction. |
 | K/F/B | **15 /4 /17 front-panel buttons**; rear power, MUTE and guitar-supply switches additional. Published census, not a visual count. |
 | Display | **Three-digit seven-segment LED**; diagonal, emission color and touch unverified. |
 | Processing / categories | Eight microphone simulations; limiter; five simultaneous notch filters; chorus **or** delay; Hall/Room/Plate reverb. Manual p14 defines three effect blocks: limiter, chorus/delay and reverb; one choice per shared block. Mic simulation and notch processing are separately documented, not extra freely assignable blocks. |
 | Memory | **60 total:30 preset+30 user positions**, each area ten banks of three. At shipment both contain the same patch data (manual p17). Preset storage cannot be overwritten; edits must be stored in the user area. |
 | Synth / acoustic | Manual p15: CONDENSER1/2, DYNAMIC1/2, TUBE1/2 and NYLON STR1/2; each pair represents close/distant placement. BLEND mixes modeled/direct sound; SHIFT adjusts simulated stereo spacing. Dedicated synth and electric-to-acoustic conversion unverified. |
-| Dimensions / mass | **280W×184D×70H mm;2.2kg**. |
+| Dimensions / mass | **280W×184D×70H mm;2.2kg**. Appendix also prints4lb4oz, an inconsistent conversion; metric value retained without resolving the conflict. |
 | I/O | Stereo-phone INPUT; balanced TRS L/MONO and R outputs; stereo-phone PHONES and EXP; coaxial DIGITAL OUT; five-pin MIDI IN/OUT. Socket diameters and complete absence audit pending. |
 | Power | **AC-10:12V AC,1A;15W consumption**. This is AC, not center-negative DC. Battery/USB operation unverified. |
 | Power / guitar supply | Manual p12 supplies **9V through its special TRS cable**, requiring a mono-output, jack-switched 006P-powered preamp and supplied dummy battery replacing the real battery. Leaving the real battery installed can apply18V and damage it. Current limit wording conflicts: p12 **≤10mA**, appendix **<10mA**. Ordinary connections use mono cable with supply OFF; no intervening effects in powered routing. |
