@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "Fresh bass hardware discovery / required gaps",
-    "task": "ME-50B master EQ, patch scope and drum timing saved. Next seek exact Shopee bass hardware with new brand/series queries; resolve connector sizes and visual census only from exact primary evidence. Keep 359 active models and current exclusions.",
+    "model": "Fresh bass discovery / required specification gaps",
+    "task": "Bass Fly Rig v2 fixed order and XLR grounding saved. Next search additional unrecorded bass series on Shopee or resolve a required model gap from primary evidence. Avoid duplicate B2 FOUR offers and repeating failed BP355/BP90/AX1B/BFX708 queries without new evidence.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -45864,7 +45864,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh bass hardware discovery / required gaps."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Fresh bass discovery / required specification gaps."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -78614,5 +78614,40 @@
       "Simultaneous capacity accounting"
     ],
     "method": "Browser text only; no downloads or unit operation"
+  },
+  "bass_flyrig_v2_fixed_order_20261018": {
+    "status": "partial",
+    "source": "https://www.tech21nyc.com/t21manuals/BassFlyRig_v2_OM.pdf",
+    "revision": "©2021",
+    "printed_pages": "1–6",
+    "findings": [
+      "Function descriptions explicitly in signal-flow order: compressor, SansAmp, post-SansAmp/pre-effects external loop, Octafilter, chorus",
+      "Ground Connect engaged connects grounds; disengaged isolates stage/mixer grounds; not phantom support or stereo proof"
+    ],
+    "remaining": [
+      "Speaker-simulation branch placement",
+      "Visual physical control census",
+      "Exact Shopee v2 hardware offer",
+      "Editor/preset and headphone/battery/USB scope"
+    ],
+    "method": "Web text; official image/PDF screenshot produced no usable visual; no downloads"
+  },
+  "discovery_bass_series_20261018_followup": {
+    "queries": [
+      "site:shopee.co.id Digitech BP355",
+      "site:shopee.co.id Digitech BP90",
+      "site:shopee.co.id Korg AX1B",
+      "site:shopee.co.id Zoom BFX-708",
+      "site:shopee.co.id BASS POD",
+      "site:shopee.co.id ME-50B",
+      "site:shopee.co.id BFX bass"
+    ],
+    "result": "No new exact eligible hardware offer resolved; no market-absence claim. B2 FOUR query returned already-recorded exact offers, no duplicate additions.",
+    "existing_offer_recheck": {
+      "item": "42758785757",
+      "shop": "1203229574",
+      "ask_idr": 4545000,
+      "access": "cached direct text unchanged; relative four-hour delivery not stock proof"
+    }
   }
 }
