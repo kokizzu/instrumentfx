@@ -429,6 +429,15 @@ Historical2026-10-15 source wording. Current firmware-qualified findings retain 
 
 The family manual's headphone/main-output caveat also applies: L/MONO sums to mono when used alone without headphones,but with headphones connected it carries the left channel of stereo effects. Neither two main sockets nor stereo USB creates two independent processing chains.
 
+
+### POD Express Bass — expression-volume audit, 2026-10-19
+
+**Global assignment supported; partial coverage.** The named Bass model in [manufacturer RevE/firmware2.00 manual](https://device.report/m/308188e1724d71b19719491ca6b3176709d7ead87c9a2e25f72e6ce38aee9a57), pp15–16,24,31,34, uses direct **TS expression cable**, global Volume/FS4 and fixed0–100% Volume. No individual preset assignment is specified. Polarity is global; adjustable endpoints and pedal-position recall remain unverified. Bass routing places Volume after cab, before MOD/DELAY/LOOPER. ON Effects bypass expressly disables Volume; All bypass disables all effects. Headphone, existing-tail and recorded-loop attenuation remain unverified. Onboard ON/TAP select previous/next in Preset mode. Ordinary instrument input requires no special pickup; the Bass sound library remains distinct. No hardware test.
+
+[Official2.00.0 release notes,2024-09-12](https://line6.com/software/index.html?+name=Line+6+Monkey&set_form=set&submit_form=set&submit_query=Show%3A%3E) explicitly name Bass and fix expression use halting the looper. This is transport stability evidence,not recorded-loop attenuation or proof of latest firmware. The same notes distinguish thumbwheel headphone/main configuration from expression assignment.
+
+**Shopee refresh2026-10-19:** [Seven Stereo shop16879370/item29813481193](https://shopee.co.id/Line-6-POD-Express-Bass-INT-P38-2-i.16879370.29813481193) returned cached **Rp3.099.000**, still13–15August delivery text. Exact Bass hardware title; no current checkout/stock confirmation. Condition,bundle,warranty region,shipping and used price remain unknown. The late-delivery voucher up toRp10.000 is not deducted from the asking price. Older failed-access and sold-out findings below remain historical.
+
 ### POD Express Bass — IDR evidence and sources
 
 **Retail indexed ask: Rp3.099.000**, [Seven Stereo Music & Audio Store, Shopee shop16879370/item29813481193](https://shopee.co.id/Line-6-POD-Express-Bass-INT-P38-2-i.16879370.29813481193). Re-found2026-10-15; the indexed body retains **August13–15 delivery text**, and direct reopening failed. Not verified current stock,new-condition certification or a completed sale. Accessories,regional warranty and shipping remain unknown. **Used IDR: ?**. No conversion or assumed secondhand percentage.

@@ -121648,13 +121648,12 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "Line 6 POD Express Guitar (partial)",
-    "finding": "Global volume assignment supported; bypass disables Volume. Manufacturer footprint fits. Headphone/tail/looper attenuation and current firmware/offer remain unverified.",
+    "current": "Line 6 POD Express Bass (partial)",
+    "finding": "Named Bass documentation supports global volume assignment with bypass limitation; exact Seven Stereo offer remains cached August-delivery evidence. Loop transport fix does not prove attenuation.",
     "next": [
-      "Exact Shopee Indonesia offers",
-      "POD Express Bass separate model audit",
+      "Exact Shopee Indonesia offers for remaining no-treadle inventory",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up",
-      "Systematic remaining no-treadle inventory"
+      "Systematic remaining no-treadle inventory: Hotone Ampero II Stomp MP-300"
     ],
     "requirements": [
       "Normal pickups",
