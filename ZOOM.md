@@ -2314,7 +2314,7 @@ Manufacturer model **MS-70CDR+**,catalogued as MS-70CDR Plus to keep its identit
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression / controls | No built-in expression pedal;toe N/A;external expression support unestablished. **K/F/B:4 rotary/push encoders /1 main footswitch /4 separate Cross Key direction buttons**. Direction buttons are foot-operable but counted once inB,not again as4 main switches. No separate power switch in documented panel. | [Product](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-70cdr-plus/);[Quick Tour,p.10](https://zoomcorp.com/media/documents/E_MS-70CDRplus_QuickTour.pdf) |
+| Expression / controls | No built-in expression pedal;toe N/A;no analog external EXP socket in the complete connector inventory. **K/F/B:4 rotary/push encoders /1 main footswitch /4 separate Cross Key direction buttons**. Direction buttons are foot-operable but counted once inB,not again as4 main switches. No separate power switch in documented panel. | [Product](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-70cdr-plus/);[Quick Tour,p.10](https://zoomcorp.com/media/documents/E_MS-70CDRplus_QuickTour.pdf) |
 | Display / body | **160×128 dot-matrix LCD**,category-colored backlight;this does not establish full-color pixels or touchscreen. Published diagonal/touch specification unverified. **79 W×133 D×61 H mm;368 g excluding batteries/415 g including**,compact. | [Manual,specifications](https://zoomcorp.com/manuals/ms-70cdrplus-en/) |
 | Simultaneous effects | **Up to6 freely ordered effects**,subject to processing capacity. PROCESS OVERFLOW bypasses an effect;change an effect to resolve it. Maximum block count is separate from DSP capacity. | [Quick Tour,pp.4–5,11](https://zoomcorp.com/media/documents/E_MS-70CDRplus_QuickTour.pdf) |
 | Categories / choices | Published base library **149 choices:43 chorus/modulation,29 delay,33 reverb,44 dynamics/filter**. These are algorithm choices,not simultaneous counts. **June2026 Stereo Guitar Graphic EQ7** is a separate downloadable addition;base149 is not a verified current installed inventory or installed150 claim. | [Product](https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-70cdr-plus/);[manufacturer additions](https://zoomcorp.com/en/us/news/zoomclassics/) |
@@ -2339,7 +2339,11 @@ Checked2026-10-17. **Used IDR:?;verified new-condition IDR:?**
 
 ### Remaining checks
 
-Verify installed effects/firmware/presetrevision,additional-effect storage limits,published display diagonal/touch,color-depth wording,external expression,USB audio/full MIDI implementation,USB electrical requirements,current used/new offers,complete acoustic/IR/NAM/capture exclusions andperformance-looper/drum/scene limits. Preserve original MS-70CDR's separate86/137,30/40 and350/360g history;none of those figures is assigned to thisplus model.
+Verify installed effects/firmware/presetrevision,additional-effect storage limits,published display diagonal/touch,color-depth wording,digital controller coverage,USB audio/full MIDI implementation,USB electrical requirements,current used/new offers,complete acoustic/IR/NAM/capture exclusions andperformance-looper/drum/scene limits. Preserve original MS-70CDR's separate86/137,30/40 and350/360g history;none of those figures is assigned to thisplus model.
+
+### MS-70CDR+ — direct expression and preset screening
+
+Checked 2026-10-19 against the [exact manufacturer manual](https://zoomcorp.com/manuals/ms-70cdrplus-en/), parts and signal flow. Two inputs, two outputs, USB-C and DC form the connector inventory; no analog EXP or dedicated headphone socket. Retained master level is not pedal assignment. Direct-expression position/range and bypass/headphone/tail/looper coverage are inapplicable; digital attenuation remains unknown. The 79 W ×133 D mm chassis fits. Direction buttons permit foot-operated patch selection; exact numerical down/up mapping is unverified in accessible text. PRESELECT separates selection and activation. Prior library, revision and offer qualifications are retained.
 
 ## MS-60B Plus
 
