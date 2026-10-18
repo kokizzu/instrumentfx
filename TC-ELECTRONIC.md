@@ -376,6 +376,16 @@ Checked2026-10-18 from indexed manufacturer Spanish manual,p40,explicit **M-One 
 | I/O / analog limits | XLR input **21kΩ balanced/13kΩ unbalanced**,maximum+24dBu. Output **40Ω**,maximum+20dBu balanced;range choicesbalanced20/14/8/2dBu,unbalanced14/8/2dBu. [Own XL table](https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m-one_xl_manual_spanish.pdf). |
 | Conversion / format | A/D andD/A **24-bit,128× oversampling**. A/Ddelay0.65/0.70ms andD/Adelay0.63/0.68ms at48/44.1kHz respectively;these are stage specifications,not measured fullunit latency. [Own XL table](https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m-one_xl_manual_spanish.pdf). |
 
+### M-One XL — clock selection and bypass tails
+
+Checked2026-10-18 in manufacturer-authored Rev4 mirror,pp11–12;cover/declaration andE60500152 imprint identify XL SW2.07. Watermarks retained;no hardware test.
+
+| Field | Exact operating distinction |
+|---|---|
+| I/O / source and clock | Analog source initially selects internal44.1kHz;clock options areinternal44.1,internal48 orDigital,including withanalog input. Digital source locks toS/PDIF;outputs mute during lock andunmute when acquired. Internal clock with digitalaudio requires synchronization;slip samples trigger **Rate Mismatch**. XL-only **ANLGLEFT** uses leftXLR input. Input selection isglobal,not anextra input pair. [Own manual p11](https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf). |
+| Live / bypass modes | **0%Mix** passes input tooutput; **FXInput** cuts engineinput while lettingexisting effects decay andretaining dry; **FXOutput** cuts effectoutput immediately while retaining dry. These are enginebypass modes,not proof ofrelay true bypass orpreset-change spillover. [Own manual p12](https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf). |
+| Routing / lock | Routing Lock makes currentrouting global andignores routing stored inrecalled presets. It doesnot create additionalengines orscenes. [Own manual p12](https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf). |
+
 ## NOVA System
 
 Checked 2026-10-18. Guitar multi-effects, distinct from NOVA Drive/Modulator and G-System. Manufacturer manual revision1.2,SW1.10,E60508712: identity verified from original text on mirror. Official PDF endpoints failed;generated mirror summary/FAQ excluded. Bass/vocal suitability unresolved.

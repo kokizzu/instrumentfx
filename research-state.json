@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "TC Electronic M-One XL",
-    "task": "Own XL Spanish specification table saved;continue clock/routing, memory-fill, live-control gaps or fresh Shopee discovery. C300 deferred until new primary access or exact offer evidence.",
+    "task": "M-One XL clock and bypass behavior saved. Next required memory-fill/pedal-control details or fresh eligible Shopee discovery;hardware/editor/import gaps remain. C300 deferred pending new primary evidence.",
     "next_models": [],
     "after_queue": "378 active models,46 brands,all partial; no downloads/workflows/push; migration incomplete."
   },
@@ -5673,6 +5673,12 @@
       "date": "2026-10-18",
       "source": "https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m-one_xl_manual_spanish.pdf",
       "finding": "Manufacturer-hosted XL-specific Spanish table resolves digital format, analog electrical levels and stage conversion delays."
+    },
+    {
+      "model": "TC Electronic M-One XL",
+      "date": "2026-10-18",
+      "source": "https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf",
+      "finding": "Clock/input independence, digital lock muting and engine bypass tails clarified;routing lock distinguished from scenes."
     }
   ],
   "consolidation_and_price_findings": [
@@ -117138,10 +117144,10 @@
       "ALESIS.md": "0ae1dc5f11ef614385f1ac597c118504a89606901268043471cf5a428141000a",
       "ROWIN.md": "e81792f710d0ae42f9c8a0fb6de5798ad86f324ce8d442dd1024ffad6d315282",
       "JOYO.md": "e40a65594804dd2728bad9561444474d0f784048da3ed5dd86fb0dca75456119",
-      "TC-ELECTRONIC.md": "c54d2d6e95947f993699267b1e93b90a91a6dc4c192a5d80f43600327e243974",
+      "TC-ELECTRONIC.md": "523764e2da881dd62606bc6192a7c651ddfc85c864dbd3099566da5719a7777c",
       "VALETON.md": "e335ead12e652b2f04053cb58702d5055e6bcf32c61cbca143572baf2cb4b03e",
       "FLAMMA.md": "d4a4d294f883c7d3c2e132f6a771f1e19baaae450651e9e774488940bff88e02",
-      "ALL-GUITAR.md": "e06cd7a48d3268e957135ff33d795d3848db32d542da18c9f1ffbf70e487170f",
+      "ALL-GUITAR.md": "2734fb572b66ec8c10cad7c95bd33a807e96b49daadf6078f3e72b14cf9a8c4f",
       "LINE6.md": "bbbe508cca147737b97aadbd9b3fbb2e20faa83c7ae8e717abd7acd42c6e63da",
       "YAMAHA.md": "ed6c13b0c5344d5f227d1c08e7e66c65e9e636498b6a1e6c2ed853edb0d748c0",
       "EROK.md": "125104204b8d3963779b5b97204142716a8e93567b71830238f8dff00ac14d79",
@@ -117170,7 +117176,7 @@
       "VOX.md": "7087c2c9689338adff6f0cff2449fa98b138812bac122bd393d989bcaad1dc62",
       "BOSS.md": "0d23479246ef2637728cc24c448bc44b72d6185c3ace982be064814f9a0aa992",
       "KEELEY.md": "bf2e0764ec43eedcfbfc9839452586b4b9c835948fc7315f5e935472f9d45d1a",
-      "ALL-VOCAL.md": "81340c02667f06710ede5e3fa7bd85f26f2127083693e8a28fe4e7e60219ae35",
+      "ALL-VOCAL.md": "4770f7c89fab42254f1aa43e8777e679d26e2a7f72baf47c21f9ba7a93686a88",
       "LEXICON.md": "3b6b15d2b3986a2538f1a548a156df3a605e35764d91d08686e12549b64b98da",
       "SINGLE-GUITAR.md": "9d785a2665a3bbcbc1effe4750a232fd0f2b690e82c99a5e4504cbd479a3a0af",
       "DONNER.md": "ce5c541054ae33b1d419da8e595c2b258e7600a0993b8c324bc5c5f56fc45c9d",
