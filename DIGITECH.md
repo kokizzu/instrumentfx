@@ -862,19 +862,31 @@ Checked 2026-10-18; partial. Exact RP355, not RP350. [Manufacturer product](http
 | Field | Finding / qualification |
 |---|---|
 | Expression | Built-in assignable pedal;toe-pressure **V-switch toggles wah**. External expression unverified. M |
-| Knobs / footswitches / buttons | **6 rotaries /3 feet** (Up,Down,Amp A/B). Separate front buttons: two Edit,Drums,Store;rear-button audit pending. M |
+| Knobs / footswitches / buttons | **6 /3 /6**:six rotaries;Up,Down,Amp A/B feet;two Edit,Drums,Store front buttons plus two rear Amp/Mixer buttons. Toe V-switch additional;push-encoder functions not counted as separate buttons. M |
 | Display | Preset/parameter display and LED matrix;diagonal,color,touch unverified. M |
 | Processing / choices | **11 simultaneous effects**; **126 combined amp/cab/stomp/effect models**, **34 amp/acoustic types** (P). Category census/routing unresolved. |
 | Memory | **70 user+70 factory=140**;initial user fill unverified. M/P |
 | Synth / acoustic | Electric-to-acoustic modeling advertised (P);SynthTalk listed (M),not proof of a full synthesizer. |
 | Dimensions / mass | **Conflict:** P:12.875D×8.375W×2.5H inches,4.5lb; M:17.5L×8.75W×2.5H inches,6.2lb. Neither silently selected. |
-| I/O | ¼-inch TS guitar input;⅛-inch stereo aux/headphones;L/R¼-inch unbalanced outputs;L/R impedance-balanced XLR;USB-B;power inlet. Full rear-panel audit pending. M |
+| I/O | ¼-inch TS guitar input;⅛-inch stereo aux/headphones;L/R¼-inch unbalanced outputs;L/R impedance-balanced XLR;USB-B;power inlet. Published rear inventory checked pp7–8;no external EXP,MIDI or send/return sockets listed. Absence of a listing is not a tested capability claim. M |
 | Power | **9V AC/1.3A,PS0913B**,2.5mm pin (F);DC polarity inapplicable. P's120VAC60Hz is adapter mains,not pedal input. Battery/USB power unverified. |
 | IR / NAM / capture | User IR,native/converted NAM,proprietary captures unverified;factory cabinet modeling does not establish imports. |
 | Editor / software | X-Edit **2.7.0 Windows /2.7.1 Intel Mac** listed (S);current OS/driver operation unverified. **2×2 USB audio**,44.1kHz,16/24bit recording. M/P |
 | Looper / drums / scenes | **20-second looper;60 drum patterns**. Looper disables drums/Learn-A-Lick and amp A/B switching;exiting erases loop. Scenes unverified. M |
 | Used IDR | Unknown;no exact processor offer found in searches. |
 | New IDR | Unknown;seller/item,condition,stock,region,variant,bundle,warranty,voucher unverified. |
+
+
+### RP355 — output voicing and USB controls
+
+[Own manual](https://digitech.com/wp-content/uploads/2022/09/RP355_OM_EN.pdf),printed pp7–9;checked2026-10-18.
+
+| Field | Operating qualification |
+|---|---|
+| I/O / output routing | Separate rear Amp/Mixer buttons govern ¼-inch and XLR output voicing. Mixer engages speaker compensation. XLR outputs remain stereo;¼-inch Left supports mono. Simultaneous amp/mixer setup documented. |
+| I/O / headphones | Set **XLR Amp/Mixer to Mixer** for headphone frequency response;recommended headphones **16–100Ω**. The ¼-inch voicing control is separate. |
+| USB / monitoring | X-Edit utility adjusts direct/playback mix and USB recording level. With USB connected and Pickup row selected,knobs4/5 also adjust those respectively. This does not establish dry reamping or loopback. |
+| Power / switching | **No power switch**;connect/disconnect PS0913B to power the unit. |
 
 <!-- comparison evidence ends -->
 
