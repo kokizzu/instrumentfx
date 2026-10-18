@@ -8,7 +8,7 @@ Checked 2026-10-19; partial. Exact Core hardware; separate from GiT, Advanced an
 
 | Field | Evidence / qualification |
 |---|---|
-| Processing / choices | 55 amps, 26 cabinet IR simulations, 151 effects; up to nine effect types simultaneously. Category counts/routing unverified. |
+| Processing / choices | 55 amps, 26 cabinet IR simulations, 151 effects; up to nine effect types simultaneously. Manual category census below totals151 including amps/cabinets; routing reordering unverified. |
 | Factory / user memory | Up to 200 storable/recallable patches; factory/user split unverified. |
 | Expression | External EXP 6.3 mm TRS. Manual explicitly lists no built-in expression pedal; external toe-switch support unverified. |
 | Knobs / footswitches / buttons | **3 rotaries / 2 footswitches / 6 buttons**, from manual labels: MODE, VALUE, MASTER; TUNER, LOOPER; SYSTEM, SAVE, PLAY, EXP, TAP, RHYTHM. Rotary push actions counted separately from buttons. |
@@ -51,4 +51,15 @@ These conflicts remain explicit; no sibling-model specification resolves them.
 | Processing / tuner modes | MUTE or BYPASS selectable while tuning;powered-off bypass unverified. |
 | Editor / power requirement | Manual requires supplied external adapter during computer recording/editing/updating;USB-only operation remains unverified. |
 | Synth / acoustic choices | AMP entries53–55 are three acoustic simulators,within the55 count;not extra amps orproof of synthesis. |
+
+
+### Effect-category census
+
+[Original manual](https://images.thomann.de/pics/atg/atgdata/document/manual/578764_c_578764_en_online.pdf),03.07.2024,ID578764,printed pp39–52;checked2026-10-19. Editorial count of numbered entries,not measurements orinstalled-firmware verification.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / category choices | FXCOMP8 (six wah/filter/talk choices plus two compressors);DS/OD20;AMP55;CAB26;NS3;EQ4;MOD19;DLY9;REV7. Sum **151**,including AMP/CAB;do not add55+26 to151 as separate extra models. Nine selectable blocks,up to nine types simultaneously. |
+| Processing / shared-block limits | Wah and compressor share FXCOMP;pitch shift,detune,chorus andfilters share MOD. Their model counts do not establish concurrent independent blocks. MOD includes three phasers,two flangers,tremolo,stutter,vibrato,pitch,detune,rotary,two choruses,ring modulation,Q/high-pass/low-pass filters,slow gear andlofi. |
+| Processing / EQ qualification | Four choices:two five-band graphics,a six-band graphic,andthree-band parametric with adjustable frequencies and±12dB. One EQ template is labelled for bass;that alone does not establish complete bass-model suitability orALL-BASS membership. |
 
