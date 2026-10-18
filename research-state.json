@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "Zoom G3 original (partial)",
-    "finding": "Official shared manual saves TOTAL expression assignment per patch; OUTPUT VOL excludes rhythm and looper. No refreshed exact Shopee offer.",
+    "current": "Zoom G3n (partial)",
+    "finding": "EXT PEDAL enables pedal effects; OutputVP volume retention does not establish global insertion. Separate PDL Vol endpoints not transferred to OutputVP.",
     "next": [
-      "Systematic remaining no-treadle inventory: Zoom G3n",
+      "Systematic remaining no-treadle inventory: Zoom G2 FOUR",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
       "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
@@ -122593,7 +122593,7 @@
       "date": "2026-10-19",
       "source_commit": "87c7d3816a380ddc49e3af2b2441564f454f87d7",
       "scope": "Normalized inherited source checks without recertification or admitting partial leads; exact prior merged category preserved in public_metadata.remote_87c7d38_preserved.expression_category_before_normalization.",
-      "comparison_rows": 29,
+      "comparison_rows": 30,
       "adjacent_rows": 1,
       "active_inventory_changed": false
     }

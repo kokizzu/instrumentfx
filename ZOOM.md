@@ -1911,6 +1911,12 @@ Remaining: complete footswitch/button inventory; published screen diagonal/color
 
 Checked2026-10-17 via official indexed text only;no file downloaded or image inspection. The G3n patch list,not the different G3Xn/G5n patch numbering,establishes Tacoustic036,Loopertron042,Gayageum043 and default-empty76–150. The shared G3n/G3Xn manual establishes looper timing and overflow behavior. Japanese manual rhythm entries1–68 plus the joint Japanese product description support G3n rhythm inclusion despite narrower English marketing wording. Remaining unknowns are not negative capability claims.
 
+### G3n — expression-volume capability audit
+
+Checked2026-10-19; partial. [Official manual p41](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf), indexed text: EXT PEDAL enables **pedal effects**, not a documented global volume assignment. Full reader rejected14,058,306-byte PDF; no local download. [Firmware history](https://zoomcorp.com/documents/3433/G3n_System_Firmware_Version_History_ver220_en.pdf) says2.00 adds OutputVP volume retention across patches; **retention does not prove insertion/assignment in every patch**. OutputVP placement, endpoint range, bypass and headphone/tail/looper attenuation remain unverified.
+
+The separate [2017 PDL Vol entry](https://zoomcorp.com/media/documents/E_G5n_G3n_G3Xn_FX-list.pdf.pdf), p23, has Min/Max0–100 and curvesA/B; these specifications are **not transferred to OutputVP**. Existing234×181mm chassis fails the preferred footprint. Combined headphone output and older exact-offer qualifications remain above; exact item49050618880 search returned no refreshed evidence. No hardware operation.
+
 ## B3n
 
 Reviewed **2026-10-17** following fresh exact Shopee hardware discovery. Bass-focused multi-effects;separate from B3 and guitar G3n,no ownership assertion. US manufacturer page marks discontinued. Partial:indexed primary manual text and ordinary page text only;no dependency,software,firmware or manual file downloaded.
