@@ -123,6 +123,15 @@ Checked2026-10-18;manufacturer HTML only. No software,driver,firmware ordependen
 
 Checked2026-10-18. No PDF download,visual inspection or electrical measurement.
 
+### RP360XP — tuner references and display adjustment, 2026-10-18
+
+| Field | Evidence / qualification |
+|---|---|
+| Live / tuner reference choices | Manufacturer-authored5041674-B [manual copy p27][RPXP-MZ] specifies **427–453Hz**,default440Hz,plus **A=G♭,A=G,A=A♭** alternatives. These are tuner reference choices,not audio transposition or a measured detection range. Power-cycle persistence is not established here. |
+| Live / tuner mode access | In Preset/Stomp modes,hold **FS1+FS2 about2seconds**; in Bank mode,hold the currently active preset switch about2seconds. Any footswitch exits. These controls depend on mode,not an additional dedicated tuner switch. [Manual copy p27][RPXP-MZ] |
+| Display / contrast | [Original manual,indexed p48][RPXP-M] documents SYSTEM page2/4→EDIT3 LCD CONTRAST. Adjustable contrast does not establish monochrome,color,touch,resolution or diagonal; the example8 is not a verified range. Current linked CDN manual also exceeds reader size limit; no visual inspection or download. |
+
+
 ## RP255
 
 Guitar multi-effects; distinct from RP250/RP355/RP360XP. Checked2026-10-17; partial. Bass suitability and ownership unestablished.

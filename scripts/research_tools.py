@@ -411,7 +411,7 @@ def main():
         if mode == 'commit-ms60b':
             message = 'research(zoom): verify MS-60B patch saving tempo and internal routing'
         if mode == 'commit-rp360xp':
-            message = 'research(digitech): qualify RP360XP headphone extraction discrepancy'
+            message = 'research(digitech): document RP360XP tuner references and contrast control'
         if mode == 'commit-perform-ve':
             message = 'research(tc-helicon): qualify PERFORM-VE synthesis ranges and sample behavior'
         if mode == 'commit-perform-vg':
