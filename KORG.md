@@ -868,3 +868,28 @@ Checked2026-10-18 against [Korg’s four-page AX5 Series EasyStart](https://cdn.
 [AX5B-F]: https://www.korg.com/de/products/effects/ax5b/page_1.php
 [AX5B-S]: https://www.korg.com/de/products/effects/ax5b/page_2.php
 [AX5B-M]: https://cdn.korg.com/us/support/download/files/ce3fdcaa2f36213ab3f032738bc6648f.pdf?response-content-disposition=inline%3Bfilename%3DAX5B_OM_EFG1.pdf&response-content-type=application%2Fpdf%3B
+
+## AX3B
+
+Bass multi-effects;partial,checked2026-10-18. Distinct fromAX3G/AX5B. [Own manual,AX3B_EFG1](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B),pp7–11.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | External EXP-2/XVP-10;built-in/toe audit pending. |
+| K/F/B | Separate control census pending. |
+| Display | Program/value display;diagonal/color/touch unverified. |
+| Processing / categories | Manual:PRE10,drive/amp16,cabinet10,MOD10,delay5,reverb5,NR1. Delay/reverb shareonecategory;cabinet depends onactive drive/amp. Concurrency audit pending. |
+| Memory | **40user+40preset=80**;user01–40 rewritable,preset41–80;initial userfill unverified. |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified. |
+| Dimensions / mass | **178W×142D×43H mm;340g**,battery qualification unstated. |
+| I/O | MonoINPUT,stereoOUTPUT/headphones,PEDAL,DC9V;complete audit pending. |
+| Power | DC9V adapter or4AA alkaline approximately8h;current/polarity/USBoperation unverified. |
+| IR / NAM / capture | Unverified. |
+| Editor / platforms | Exactmodel software unverified. |
+| Practical features | Manualtuner **C0–C6,A438–445Hz**. |
+| Processing / source conflict | [German manufacturer specifications](https://www.korg.com/de/products/effects/ac3b/page_2.php) say **PEDAL11** andtuner **A0–E6**,versusmanualPRE10/C0–C6. Preserve differences;no silentmerge. |
+| IDR price | Used/new unknown;exactShopee query yieldednoqualifiedhardware. Seller/condition/stock/bundle/warranty/voucher unverified. |
+
+<!-- comparison evidence ends -->
