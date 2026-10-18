@@ -74,15 +74,16 @@ Checked 2026-10-18 from original Quick User Guide623000062, also available as [e
 
 ## iE-350
 
-Checked 2026-10-18. Partial guitar multi-effects record; separate from iE-550. Manufacturer product identity and own manual establish inclusion. Bass/vocal suitability and ownership unverified.
+Checked 2026-10-18. Partial guitar multi-effects record; separate from iE-550. Manufacturer product identity and own manual establish inclusion. Shared bass inclusion is supported by its own bass-specific processing library;vocal suitability andownership unverified.
 
 | Field | Evidence / qualification |
 |---|---|
 | Expression | **External expression:6.35mm TRS jack**. Built-in/toe behavior unverified. [I350-Q] Manualp7 offers None/FX/DRV/AMP/MOD/DLY/RVB/VOL targets;VOL controls overall chain output. Calibrate at both travel endpoints with VALUE;EXIT cancels. |
 | K/F/B | **One VALUE push encoder,four named buttons(EXIT,GLOBAL,BT,DRUM),two footswitches;separate POWER switch**. Encoder press confirms,hold opens SAVE. [I350-Q] |
 | Display | **1.7-inch color LCD**,Chinese original-guide text;English numerical glyphs missing. Touch unverified. [I350-Q] |
-| Processing / choices | **Eight simultaneous modules**; per-category choices and routing limits pending. [I350-M] |
+| Processing / choices | **Eight simultaneous modules**; Manualpp11–13 extracted library counts:**NR1,FX9,drive6,AMP17,CAB15 factory+5userIR,MOD6,DLY7,RVB7**. Counts reflect listed choices,not simultaneous copies;table-label alignment remains subject to visual check. Manualp5 permits module rearrangement except fixed DRV/AMP/CAB. [I350-M] |
 | Factory / user memory | **50 factory F01–50 +50 user P01–50=100**. Initial user fill and protected/writable rules pending. [I350-M] |
+| Processing / bass suitability | Own manual lists bass drive,two bass-oriented amp entries,two bass cabinets andbass chorus. This supports shared bass classification,not equal performance of every algorithm or measured low-frequency response. [Original library](https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=12). |
 | Synth / acoustic | Dedicated synthesis/acoustic simulation unknown. |
 | I/O | **6.35mm TS input,1MΩ;6.35mm TRS stereo unbalanced output/headphones,100Ω;USB2.0 Type-C**. Expression jack documented separately. Complete port inventory still requires panel verification. [I350-M] |
 | USB / level routing | Manualp6 separately adjusts input gain,effect-chain recording,Bluetooth recording andUSB return monitoring,each−20…+20dB. Dry/reamp selection andchannel mapping unresolved. |
@@ -110,4 +111,4 @@ Checked 2026-10-18. Partial guitar multi-effects record; separate from iE-550. M
 - [I350-A: manufacturer-published DKit release notes](https://apps.apple.com/id/app/dkit/id6738170601).
 - [I350-S: manufacturer English support index](https://www.dk-music.cn/col.jsp?id=110).
 
-No files/software downloaded; selected original-manual text only,no visual inspection. Remaining: visual panel check,built-in/toe expression,category census,USB dry/reamp/channel mapping,charging negotiation,IR formats/NAM workflow,desktop package identity andqualified offers.
+No files/software downloaded; selected original-manual text only,no visual inspection. Remaining: visual panel check,built-in/toe expression,visual library alignment,USB dry/reamp/channel mapping,charging negotiation,IR formats/NAM workflow,desktop package identity andqualified offers.
