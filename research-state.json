@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Zoom 607",
-    "task": "Saved preselectionconfirmation,fixedserialrouting andselectivefactoryrecall. Next freshShopee discovery orremainingcategorycountbasis/display/import/qualifiedprice gaps.",
+    "task": "Saved derived35countbasis;EQ/ZNRutilities/internalpatterns separated;manufacturercountconventionnotexplicit. Next freshShopee discovery orremainingdisplay/import/qualifiedprice gaps.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75414,7 +75414,7 @@
   },
   "resume_cursor": {
     "model": "Zoom 607",
-    "task": "Saved preselectionconfirmation,fixedserialrouting andselectivefactoryrecall. Next freshShopee discovery orremainingcategorycountbasis/display/import/qualifiedprice gaps.",
+    "task": "Saved derived35countbasis;EQ/ZNRutilities/internalpatterns separated;manufacturercountconventionnotexplicit. Next freshShopee discovery orremainingdisplay/import/qualifiedprice gaps.",
     "next_models": [],
     "after_queue": "349partialmodels;114Markdowncompatibilityfiles;no downloads/workflows/push."
   },
@@ -75970,5 +75970,22 @@
       "site:shopee.co.id Digitech BP8"
     ],
     "result": "OnlyknownBP200adapter16626959/4486100964;noqualifiednewexacthardwaremodel;notmarketabsence"
+  },
+  "zoom607_count_reconciliation_20261018": {
+    "source": "https://zoomcorp.com/media/documents/E_607.pdf",
+    "revision": "607-5000-1",
+    "pages": "24–38",
+    "category_subtotals": [
+      2,
+      2,
+      11,
+      3,
+      13,
+      4
+    ],
+    "sum": 35,
+    "basis": "DerivedmatchingheadlinewhenEQ/ZNRutilitiesexcluded;manufacturercountdefinitionnotexplicit",
+    "previous_summary": "| Processing / categories | **35 effects, nine simultaneous effects, eight simultaneous modules**; detailed category catalogue pending. | [Manual p38][Z607-M] |",
+    "limits": "No35uniqueDSPalgorithms/9freemodulesinference"
   }
 }

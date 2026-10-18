@@ -3174,7 +3174,7 @@ Checked 2026-10-17; partial. Officially bass-focused; seller’s guitar title do
 | Expression | Built-in pedal with **full-down module switching**, except Volume. External EXP absent from complete connector inventory. | [Manual pp6–11][Z607-M] |
 | K/F/B | **2 rotary / 2 footswitches / 6 buttons**: Play/Edit, Drive; patch pair; Store, Pedal Assign, Value±, Gain±. Pedal switch separate; visual corroboration pending. | [Manual pp6–7][Z607-M] |
 | Display | Two-digit seven-segment LED; diagonal/color/touch unresolved. | [Manual p38][Z607-M] |
-| Processing / categories | **35 effects, nine simultaneous effects, eight simultaneous modules**; detailed category catalogue pending. | [Manual p38][Z607-M] |
+| Processing / categories | **35 advertised effects,nine simultaneous effects,eight simultaneous modules**. Named category choices and a derived35-count reconciliation are recorded below;EQ/ZNR and internal patterns are distinguished. Manufacturer counting convention is not explicitly defined. | [Manual pp24–38][Z607-M] |
 | Categories / dynamics and wah | Compressor or Limiter; Fat Wah or Resonant Wah. Off is additional. | [Manual pp26–27][Z607-M] |
 | Categories / drive | **11 alternatives**: TE Clean, FDR Drive, AC Drive, Bandpass Enhancer, Hipass Enhancer, Clean, Rich, Slap, Edge, Distortion, Fuzz. Gain 1–30. AC Drive is not acoustic simulation. | [Manual pp28–29][Z607-M] |
 | Categories / EQ and amp | Four-band EQ: **50 patterns** plus Contour. Box, Combo or Stack bass amp simulation, each with/without ZNR; ZNR alone also available. | [Manual pp29–30][Z607-M] |
@@ -3223,6 +3223,17 @@ Checked 2026-10-18 against original text in the [manufacturer manual, printed pp
 | Live / patch preselection | Default selection changes sound immediately. Powering on while holding the up patch switch enables preselect: navigate to the flashing target without changing sound,then press both patch switches together to confirm. VALUE± changes bank only during selection. Power cycling restores direct selection;this is not a persistent scene mode or proven seamless spillover. |
 | Routing / module order | Eight modules form a fixed serial chain:COMP/LIMIT→WAH→DRIVE→EQ→ZNR→AMP→MOD/PITCH→DLY/REV. Modules can be bypassed;the manual does not describe freely reordering them. Composite Octaver→Chorus helps explain why simultaneous effect count differs from module count. |
 | Memory / selective factory recall | All Initialize restores all42 patches;Factory Recall restores a selected location and can be repeated. Both overwrite affected user edits;neither recovers previously overwritten user-created sounds. This is restoration of factory content,not a separate protected preset bank. |
+
+
+### 607 — category-count reconciliation
+
+Checked 2026-10-18 against the [manufacturer manual, printed pp24–38](https://zoomcorp.com/media/documents/E_607.pdf),607-5000-1;original text only,no download or device operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / derived35-count basis | **2 dynamics+2 wah+11 drive+3 amp simulations+13 MOD/PITCH+4 delay/reverb=35**. This matches the headline if EQ and ZNR utility processing are excluded. It is a derived accounting reconciliation,not an explicit manufacturer definition or proof of35unique DSP algorithms. |
+| Processing / internal variants | EQ’s50 patterns andContour are settings of its EQ module. Amp-with/without-ZNR selections are combinations of the three amp characters andnoise reduction. Bass Synth’snine character/blend patterns andPitch Shift’snine patterns are internal variations. Off andthese combinations are not silently counted as additional independent algorithms. |
+| Processing / concurrency distinction | Octaver→Chorus is one selectable composite entry containing two serial effects. Thus menu choices,module positions andsimultaneous effects are different counts;the advertised nine does not mean nine freely selectable/reorderable modules. |
 
 <!-- comparison evidence ends -->
 
