@@ -4440,10 +4440,12 @@ Acoustic-guitar multi-effects;checked2026-10-18,partial. [Own product page](http
 | IR / NAM / capture | UserIR,nativeNAM,convertedNAM andproprietarycapture import unverified. |
 | Routing / microphone | [Own manual p24](https://zoomcorp.com/media/documents/A3_operationManual_English.pdf), indexed passage checked 2026-10-18: MIC MIX POSITION routes the microphone through effects 2 and 3, effect 3 alone, or neither. This establishes a processed microphone path alongside the pickup path; vocal harmony and pitch correction remain unverified. |
 | Looper / practical | Antifeedback handlesuptothree frequencies;cleanboost upto12dB,three-bandEQ,tuner. Looper/drums/scenes unverified. Holding the footswitch can select bypass tuning, mute tuning (default), or tap tempo; bypass tuning bypasses effects while mute tuning silences output (manual p24). |
-| IDR price | Noqualified exactShopeeoffer;used/new amount,seller/item,condition,stock,bundle,warranty/voucher unknown. |
+| IDR price | No qualified exact Shopee offer. Rechecked 2026-10-18 with exact Zoom A3 and acoustic/A3 searches: unrelated search/category pages only; no seller/item-qualified hardware offer. Used/new amount,condition,stock,region,bundle,warranty/voucher remain unknown. |
 
 <!-- comparison evidence ends -->
 
 [Own operation manual](https://zoomcorp.com/media/documents/A3_operationManual_English.pdf),indexed Introduction/Specifications inspected2026-10-18. Direct reader rejected13.9MB size;no fullPDF/image inspection claimed andno file downloaded. Quick Guide and printed pp32/42 indexed passages additionally checked2026-10-18. Expression,complete control totals andfullports still require checking. Category totals counted from the original manual body, not generated FAQs.
 
 Manufacturer-authored [English manual mirror](https://manualzz.com/doc/9009531/zoom-a3-acoustic-guitar-preamp-and-effects-operation-manual), checked2026-10-18: ©2013 ZOOM, matching contents/pagination and exact A3 specs corroborate identity. Used original manual body, not generated FAQs; no full-image inspection.
+
+Category census audit trail (original manual pp35–41): DYN/FLTR: Comp, RackComp, M Comp, OptComp, SlowATTCK, ZNR, GraphicEQ, ParaEQ, Exciter, AutoWah. MOD: Tremolo, Phaser, Chorus, Detune, SilkyCho, MirageCho, StereoCho, Flanger, PitchSHFT. DELAY: Delay, ModDelay, ReverseDL, MultiTapD, StereoDly, StompDly. REVERB: HD Reverb, Hall, Room, TiledRoom, Spring, Arena, EarlyRef, Air, ModReverb, SlapBack, HD Hall, Plate. MIC: Dyna 57, Cond 414, Cond 87. THRU is bypass, excluded from the 40-effect census.
