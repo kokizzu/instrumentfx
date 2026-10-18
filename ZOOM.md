@@ -698,6 +698,14 @@ Checked 2026-10-17. These observations supplement the retained historical offers
 Working state, selected variation, warranty, bundle/adapter contents, applied vouchers, shipping and taxes remain unverified. Relative delivery estimates and late-arrival compensation are not stock confirmation or applied discounts. The lower sold-out asks do not establish used condition.
 
 
+### G2X FOUR — Simfoni cached price discrepancy
+
+Checked 2026-10-18. Exact hardware title includes the AD-16E adapter; delivered contents remain unconfirmed.
+
+| Field | Evidence and limits |
+|---|---|
+| Price / condition-unverified IDR | **Rp4,368,000** in the one-month direct-reader cache versus **Rp3,424,512** with a voucher label in the one-month search cache. Simfoni Galeri Musik, Kota Jakarta Barat; shop1030145984/item29426711584. [Exact Shopee item](https://shopee.co.id/ZOOM-G2X-FOUR-Electric-Guitar-Multi-Effect-with-Adaptor-Zoom-AD-16E-Efek-Gitar-Guitar-Effect-i.1030145984.29426711584). Search advertises 3% off a Rp5m minimum; the shown item price alone does not satisfy that threshold. Eligibility, selected variation, condition, stock, warranty, shipping, taxes and final checkout total unverified. Late-arrival compensation is separate. Preserve both cached amounts; neither is a verified new/used price or current stock claim. |
+
 ## B1 FOUR
 
 Bass multi-effects without a built-in expression pedal; distinct from B1X FOUR and B1Xon. Consolidated2026-10-16 from the complete legacy bass comparison, retaining all15 exact model fields below. Legacy specifications and USD prices retain their2026-10-14 check date. New IDR evidence is dated separately; all fields remain partial.
