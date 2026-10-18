@@ -257,6 +257,19 @@ Checked 2026-10-18 against the [manufacturer manual, printed pp32,34,40–41](ht
 
 No software installed orlegacyOS tested. NewShopeequeriesforLexiconMPX1,YamahaMagicstomp,DigiTechRP200A,KorgPX5D producednoqualifiednewhardware;thisdoesnotestablish marketabsence. ExistingMX400sold-outoffer wasnot duplicated.
 
+
+
+### MX400 — MIDI recall and bank-accounting limits
+
+Checked 2026-10-18 against [manufacturer manual18-0446V-F,printed pp33,45,50–52][M400-M]. Browser text only;no software,device operation ordownload.
+
+| Field | Evidence / qualification |
+|---|---|
+| Memory / MIDI recall | **CC32 selects factory(0) oruser(1);ProgramChange0–98 maps to displayed1–99** in the implementation chart. This addressing range does not establish every configuration's populated slots orwhole-device memory total. |
+| Live / independent MIDI targets | ChannelA controls the active program inall configurations;inDualStereo it targets the upper program. ChannelB targets the lower program only inDualStereo. Each receivechannel allows1–16,All,Off. ProgramReceive Off filters programchanges whileCC remains available. |
+| Live / MIDI clock | WithClockSync On,incoming MIDIclock setsdelaytempo anddisables thefront-panel Tempo button whilemessages arrive. Off ignoresclock. This isnot theS/PDIF audioclock setting orproof ofdrums/transport support. |
+| Memory / bank verification boundary | Extracted DualStereo factorytable lists1–99. Stereo/surround tables expose headings only inbrowser text;their entries were not visually verified. The223-setting productclaim andper-configuration banks remainqualified;no inferred grandtotal. |
+
 <!-- comparison evidence ends -->
 
 Cached hardware asking price, not live stock or completed sale. Seller “Original/Ori” wording does not verify authenticity or revision. Used/new condition,actual MX400 versus XL/voltage variant,bundle,mains cable,warranty,shipping/tax,voucher eligibility and working state remain unverified. Relative “tomorrow” delivery does not override explicit Habis. Late-arrival compensation up to Rp10,000 is not a purchase discount.
