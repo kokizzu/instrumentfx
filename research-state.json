@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh hardware discovery / unresolved model fields",
-    "task": "AX5B expression endpoints and stored-value indication recorded; current draw, initial user mapping and display remain unresolved. Continue fresh Shopee brand/series discovery or another required model field; do not duplicate existing B2 FOUR offers.",
+    "task": "RP255 exact-manual electrical and converter ratings now recorded. Continue fresh Shopee brand/series discovery or unresolved required model fields; RP255 display,current draw,qualified prices and Phaser/SynthTalk discrepancy remain open.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -60327,6 +60327,22 @@
         "Editor/import support"
       ],
       "method": "Manufacturer manual browser text;no downloads/device execution"
+    },
+    {
+      "model": "DigiTech RP255",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://digitech.com/wp-content/uploads/2022/09/RP255_OM_EN.pdf"
+      ],
+      "finding": "Own RP255 manual18-6411V-B p43:500kΩ input,500Ω/side unbalanced output,+10dBu maximum,headphones13.6mW/channel50Ω;24bit AD/DA44.1kHz AudioDNA2;USB2.0 Full Speed Type B.",
+      "remaining": [
+        "Display technology/diagonal",
+        "Actual operating current",
+        "Condition-qualified used/new IDR",
+        "Phaser/SynthTalk inventory discrepancy",
+        "Import capability"
+      ],
+      "method": "Original manufacturer PDF browser text;no file/software downloads"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -79571,5 +79587,18 @@
     "printed_pages": "21–31",
     "scope": "Complete manual section census replaces stale pending summary;19 defined amp/drive/acoustic entries distinguished from unmapped prose Direct reference.",
     "remaining": "ChorusFX12-versus15 andDirectmapping unresolved;no invented selector or certifiedalgorithm total. Power,display,software/import andcurrentoffers remainpartial."
+  },
+  "discovery_rp255_electrical_20261018": {
+    "queries": [
+      "site:shopee.co.id \"Digitech\" \"BP355\"",
+      "site:shopee.co.id \"Zoom\" \"B9.1ut\"",
+      "site:shopee.co.id \"Korg\" \"AX3B\"",
+      "site:shopee.co.id \"Boss\" \"ME-6B\"",
+      "site:shopee.co.id \"Digitech RP150\"",
+      "site:shopee.co.id \"Zoom G2Nu\"",
+      "site:shopee.co.id \"Boss ME 33\"",
+      "site:shopee.co.id \"Korg AX1G\""
+    ],
+    "result": "No new exact-model hardware offer;G2Nu hits were adapters or unrelated model lists. No absence/availability conclusion."
   }
 }
