@@ -560,6 +560,14 @@ Checked 2026-10-18 against [own E1 manual pp15–21](https://voxamps.com/wp-cont
 | Memory / factory preset subdivisions | Song list enumerates **50 programs**: banks26–37 supply48, bank38 supplies2. Its note identifies the other factory programs as basic presets: **50 song +50 basic =100 read-only factory programs**, separate from100 user locations. Song names do not certify the original artist’s equipment; initial user-area filling remains unverified. [Own E1 manual pp38–39](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf). |
 | Memory / factory-restore overwrite scope | Factory restore replaces **all saved programs with factory-set programs**; it is not a settings-only reset. EXIT/TUNE cancels before WRITE confirmation. This is documentation only; no reset was performed. [Own manual p36](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf). |
 
+### ToneLab EX — tuner detection range and USB recording source
+
+| Field | Exact-model manufacturer qualification |
+|---|---|
+| Live / tuner detection | **A0–E6,27.5–1,318.5Hz** detection range, distinct from the438–445Hz reference calibration. Published range does not establish cent accuracy or bass-instrument suitability. [Own E1 manual p39](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf),checked2026-10-18. |
+| USB audio / recording path | Own p35 explicitly records **effect output** to a DAW and monitors computer playback; incoming USB audio bypasses EX effects. This documents a processed recording path, not a selectable dry DI stream, channel count, transport bit depth or USB reamping through the effects. [Own E1 manual p35](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf). |
+
+
 ## StompLab 1B
 
 <!-- comparison evidence begins -->

@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "Fresh hardware discovery / unresolved model fields",
-    "task": "Fresh legacyguitar/bass/vocal Shopee pass foundno newexacthardware. G3X p37 calibration/5mm torque adjustment recorded. Next expandfreshbrand/series search beyondthesequeries,or G3Xbutton/display/USBsourceaudit;MP100currentIR/census unresolved.",
+    "task": "ToneLabEX tuner detection A0–E6 and effectedUSBrecordpath recorded. FreshRocktronUtopia/Pandoramini/iStomp/EXdiscovery yielded no newexactmodel. Next expandseriessearch or resolveEXpowerpolarity/height/currentchartrows;G3Xbutton/display andMP100IR/census remainopen.",
     "next_models": [],
     "after_queue": "359 partial models; 300 guitar, 158 bass, 69 vocal; 44 brands. Migration incomplete; no downloads, workflows or push."
   },
@@ -60600,6 +60600,22 @@
         "Qualified new offer"
       ],
       "method": "Manufacturer indexed manual text only;no download or hardware operation"
+    },
+    {
+      "model": "VOX ToneLab EX",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf"
+      ],
+      "finding": "OwnE1p39 specifies tunerA0–E6(27.5–1318.5Hz),separate438–445Hzreference. P35 records effectedoutput/USBplaybackbypassesFX;no dryDI/reamp/channelcount inferred.",
+      "remaining": [
+        "Power polarity",
+        "Height conflict",
+        "USB channel count/format",
+        "Current exact-model software support",
+        "Qualified used/new offers"
+      ],
+      "method": "Manufacturer manual browser text,no downloads/deviceexecution"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -79945,5 +79961,15 @@
     ],
     "result": "No new exact eligible hardware item established. GFX8 sensor38361451/8214243069 andadapters732732692/20031217262,14849321/28104902463 rejected. M13adapter216990724/6861766207 alreadyrejected. VoiceLivePlay4900000 categorysnippet unlinkedonreopen;notmodelprice. ExistingVoiceLivePlay/3Extreme hitsduplicates;unrelatedphone/fishing/penhits rejected.",
     "limits": "Search negatives do not establish unavailability; category reopen changed to unrelatedproducts; no checkout/images/downloads."
+  },
+  "discovery_rocktron_pandora_vox_20261018": {
+    "checked_date": "2026-10-18",
+    "queries": [
+      "site:shopee.co.id Rocktron Utopia",
+      "site:shopee.co.id Korg Pandora mini",
+      "site:shopee.co.id DigiTech iStomp",
+      "site:shopee.co.id Vox ToneLab EX"
+    ],
+    "result": "Only exactToneLabEXbejita4466947/42755664991Rp1700000alreadyrecorded,andcasing80816302/22315555452Rp250000excluded. Otherqueries noexacthardwareestablished;noabsenceclaim. VOXdownloads currentcharts datesvisiblebutlinks/modelrowsstillnotretrievable;old2023chartnotnewcompatibility."
   }
 }
