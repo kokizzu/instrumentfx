@@ -623,6 +623,8 @@ def cell(record, group):
             continue
         if group=='loading' and re.search(r'analog|converter',field,re.I) and not re.search(r'\bIRs?\b|\bNAM\b|capture',field,re.I):
             continue
+        if group=='loading' and re.match(r'^(?:editor|software)\b',field,re.I) and not re.search(r'\bIRs?\b|\bNAM\b|capture|loading|conversion|synth',field,re.I):
+            continue
         if group=='io' and re.search(r'display|screen|diagonal',field,re.I):
             continue
         value=clean(fact['value'])
@@ -761,6 +763,13 @@ def test_field_projection():
     for label in ('Analog levels / conversion', 'Conversion / analog levels'):
         record = {'facts': [{'field': label, 'value': '24-bit converters, analog level limits', 'context': ''}]}
         assert '24-bit converters' not in cell(record, 'loading'), 'Analog conversion leaked into IR/capture column'
+    for label in ('Editor / sleep and import boundaries', 'Editor / importing patches'):
+        record = {'facts': [{'field': label, 'value': 'Patch import restriction', 'context': ''}]}
+        assert 'Patch import restriction' in cell(record, 'editor')
+        assert 'Patch import restriction' not in cell(record, 'loading'), 'Editor patch import leaked into IR/capture column'
+    for label in ('Editor / IR import', 'Editor / NAM conversion', 'Software / capture loading', 'Editor / synth / imports'):
+        record = {'facts': [{'field': label, 'value': 'Tone model loading', 'context': ''}]}
+        assert 'Tone model loading' in cell(record, 'loading'), label
     assert 'Retained qualified evidence' not in cell({'facts': [{'field': 'Manufacturer identity', 'value': 'Retained qualified evidence', 'context': ''}]}, 'processing')
     verify_field_coverage({'Brand::Model': {'facts': [
         {'field': 'USB / mode selection', 'value': 'Documented routing'},

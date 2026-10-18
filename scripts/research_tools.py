@@ -866,7 +866,7 @@ def main():
             subprocess.run([sys.executable,str(ROOT/'scripts/comparison_views.py'),'verify'],check=True)
         subject = 'research(valeton): retain additional GP-200 used hardware ask' if mode == 'commit-gp200jr' else 'research(line6): verify HX Effects3.80 acoustic simulation and looper limits'
         if mode=='commit-comparisons':
-            subject='fix(comparisons): derive README brand count from active inventory'
+            subject='fix(comparisons): keep generic editor imports out of tone loading column'
         elif mode=='commit-prime':
             subject='research(headrush): add Prime with native NAM limits and qualified used retail evidence'
         elif mode=='commit-ge300':
