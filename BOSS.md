@@ -3414,6 +3414,16 @@ Checked2026-10-18 using the original©1991 BOSS FC-50 manual: [manufacturer PDF]
 | Expression / external MIDI path | FC-50 documentation explicitly names **SE-50** as a connected MIDI target. The controller accepts **two external expression pedals**,specifies **Roland EV-5 or BOSS EV-10**,and sends real-time Control Change messages. This documents an indirect pedal→controller→MIDI path;pedal sockets belong to FC-50,not SE-50. Exact CC mapping and target assignment must match the SE-50 algorithm;two independently controllable SE-50 destinations are not established. Direct analog EXP and toe-switch support remain unverified. |
 | Live / controller MIDI channel | FC-50 defaults to channel1;manual explicitly tells SE-50 users to set its MIDI channel to1 for that setup. This is a controller setup requirement,not proof that SE-50 is restricted to channel1. |
 
+### SE-50 — stereo pitch and gated flanger behavior
+
+Checked2026-10-18 against the original©1990 [French BOSS manual][SE50-FR],Stereo Pitch Shifter and Stereo Flanger sections,printed pp48–51. OCR text only;no audio or visual test.
+
+| Required field | Evidence / qualification |
+|---|---|
+| Processing / Stereo Pitch Shifter | Per-channel **−12 to+12 semitones**,fine tuning,and **0–600ms predelay**;feedback and cross-feedback,independent wet/dry levels. **STEREO LINK** synchronizes channels and is required for MIDI fine-pitch control to affect both. Zero predelay can still have processing delay. These are this algorithm’s limits;polyphonic tracking and zero-latency operation are not established. |
+| Processing / Stereo Flanger | **Two flanger modes**,modulation phase **0–180°**,plus periodically chopping **Gate** with on/off and rate. The gate here is not merely the separately named Noise Suppressor. |
+| Live / flanger MIDI gate | **GATE ON/OFF(TRIG)** toggles from a momentary MIDI control;**GATE ON/OFF** changes state while held. Other destinations include flanger rate,gate rate and master level. These are algorithm-specific assignments,not direct analog pedal sockets. |
+
 ## GT-10B
 
 Bass-specific multi-effects; distinct from GT-10. Checked2026-10-18; partial. Manufacturer-established model; exact Indonesian hardware offer and ownership remain unverified. Discontinued status does not establish market absence.
