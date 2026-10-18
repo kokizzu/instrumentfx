@@ -28,8 +28,8 @@
     "privacy": "No private receipt/message/order identifiers or payment details in public files. Ownership is separate from specifications, current retention and current stock."
   },
   "cursor": {
-    "model": "M-VAVE Pocket Amp",
-    "task": "OriginalmanualprovenancelinkedtoFCCexhibit9023824bypublishedSHA;originalcontentsstillunread. AlternateFCCpdf/labelroutesfailed,do notrepeatwithoutnewaccesspath. Next otherrequiredmodelgap/freshbrandseries discovery;recoveroriginalmanualonlyfromnewreadablesource. Mass/AUX/presetoverwriteunresolved.",
+    "model": "Lexicon MPX100",
+    "task": "Savedmanufacturer-hostedUserGuideRev0recovery,supplied9VAC1Atransformerratingandbrochuremono/headphonesideconflict. Devicecurrent/connector/condition-qualifiedoffersremain. FreshrackqueriesGP100/SE70/GMajor/MPX500/550/FX500norelevantnewexactitem;continueotherrequiredgaps/discovery. PocketAmporiginalmanualcontentsstillunread.",
     "next_models": [],
     "after_queue": "362active/46brands;303guitar158bass69vocal;allpartial;114MDcompatibilitypathsretained;no downloads/workflows/push."
   },
@@ -45901,7 +45901,7 @@
       "Move retained dedicated-function guitar records to SINGLE-GUITAR.md, keep explicitly excluded models outside active counts",
       "Keep unknowns and all price/date/source conflicts; root brand canonical; no workflows"
     ],
-    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume M-VAVE Pocket Amp."
+    "next": "Validate all four table memberships, exclusions, model-specific variant values, root/archive links and saved commits; then resume Lexicon MPX100."
   },
   "comparison_membership": {
     "ALL-GUITAR.md": [
@@ -60924,6 +60924,21 @@
         "Fresh discovery and other requiredfields"
       ],
       "method": "Browserindexedfilingmetadata;no download/execution"
+    },
+    {
+      "model": "Lexicon MPX100",
+      "checked_date": "2026-10-18",
+      "sources": [
+        "https://adn.harmanpro.com/product_documents/documents/1086_1340212431/MPX100_Product_Introduction_original.pdf",
+        "https://adn.harmanpro.com/product_documents/documents/1089_1340212512/MPX100_User_Guide_Eng_Rev0_original.pdf"
+      ],
+      "finding": "ManufacturerhostedoriginalguideRev0nowreadable. PreliminaryproductintroductionPDFp2specifiessupplied9VAC1Atransformer,notdevicedraw. BrochureoutputtableLeftmono/RightphonesconflictswithownhighlightLeftphonesandguideRightmono/Leftphones;preservedwithoutrevisioninference.",
+      "remaining": [
+        "Devicecurrent/connector/regionaladapter",
+        "Qualifiedused/newoffers",
+        "Editor/import/displaygaps"
+      ],
+      "method": "ManufacturerhostedoriginalPDFbrowsertext;no download/execution"
     }
   ],
   "discovery_cross_brand_bass": {
@@ -80442,5 +80457,16 @@
       "mirror_status": "14MBindexed;actualretrievalcachemiss;nooriginalpagesrecovered;filenametokensnotverifieddates",
       "no_technical_adoption": true
     }
+  },
+  "discovery_rack_series_20261018": {
+    "queries": [
+      "Shopee RolandGP100",
+      "BossSE70",
+      "TCElectronicGMajor",
+      "LexiconMPX500",
+      "LexiconMPX550",
+      "YamahaFX500"
+    ],
+    "result": "No new exact eligible hardware offer recovered in this bounded search;unrelatedGP100Valeton/keyboardresultsignored;notmarketabsenceproof."
   }
 }

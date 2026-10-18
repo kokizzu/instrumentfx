@@ -475,7 +475,7 @@ def main():
         if mode == 'commit-spx900':
             message = 'research(yamaha): clarify DG-Stomp Manual mode and modulation recall'
         if mode == 'commit-mx200':
-            message = 'research(lexicon): clarify MPX100 mono sum and footswitch wiring'
+            message = 'research(lexicon): source MPX100 transformer rating and output-side conflict'
         if mode == 'commit-gnx4':
             message = 'research(digitech): qualify GNX4 USB monitoring and pair-level controls'
         if mode == 'commit-gnx3':

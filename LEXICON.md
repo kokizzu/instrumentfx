@@ -295,7 +295,7 @@ Checked2026-10-17. Partial guitar/vocal dual-channel multi-effects;notMPX110/MX2
 | Synth / acoustic | Own stereo Pitch algorithm is explicitly **polyphonic**,shifting full program material or single-note sources **−2 to+1 octaves**. Detune has four voices,two/channel. This establishes pitch processing,not a dedicated synth or acoustic-conversion engine;those remain unknown. [Own guide pp28–29](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf) |
 | Dimensions / weight | **483W×45H×102D mm;0.959kg**,published19×1.75×4inches. |
 | I/O | Unbalanced¼L/Rinput/output;RCA S/PDIFoutputonly;DIN MIDIin/out-thru;¼TRSfootswitch;power. Rightinput/output formono;leftonlystereophones atmodestvolume whenrightempty. |
-| Power | **9VAC externaltransformer**;not9VDC. Currentrating,battery/USBpower unknown;DCpolarityN/A. |
+| Power | **9VAC externaltransformer**;not9VDC. Manufacturer preliminary introduction specifies supplied1Atransformer;device draw,battery/USBpower unknown;DCpolarityN/A. See dated qualification below. |
 | Software | MIDIlearn/SysEx documented;official fulleditorOS,driver/updater unknown. |
 | IR / NAM / captures | UserIR,native/convertedNAM,capture import unknown. |
 | Looper / drums / live | Looper/drums/scenes unknown;tap/audio-inputtempo/MIDIclock,bypass/mute options. Delayintro5.7s conflicts withdetailedmono5.5s;stereo2.7s. |
@@ -376,3 +376,14 @@ The [manufacturer product download listing](https://lexiconpro.com/ja/products/m
 | Live / footswitch connection | Dual momentary Tap/Bypass can use a stereoY connection to two identical single switches. Connect while powered off:the guide says plugging in while powered enables Bypass. This does not establish continuous expression support. [Original guide p5](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf) |
 
 Checked2026-10-18 against original1998 guide070-11935;no downloads or hardware operation.
+
+### MPX100 — manufacturer-hosted guide and preliminary supply specification
+
+Checked 2026-10-18. The original **55-page English User Guide Rev0**,printed specification p52,is now readable directly from [Harman manufacturer hosting](https://adn.harmanpro.com/product_documents/documents/1089_1340212512/MPX100_User_Guide_Eng_Rev0_original.pdf). Earlier mirror and403 observations remain historical provenance; no manufacturer PDF was downloaded locally.
+
+| Field | Primary-source finding / conflict |
+|---|---|
+| Power / supplied transformer | Manufacturer [Product Introduction,PDFp2](https://adn.harmanpro.com/product_documents/documents/1086_1340212431/MPX100_Product_Introduction_original.pdf) specifies **9VAC,1A supplied wall transformer** and labels the sheet preliminary. User Guide p52 specifies9VAC without current. **1A is the published transformer rating,not measured unit draw**;regional mains,connector dimensions andactual seller supply remain unverified. |
+| I/O / output-side source conflict | Introduction’s specification table says **Left mono/Right headphones**,while its highlights say **Left headphones**. The User Guide pp4–5,52 instead specifies **Right mono/Left stereo headphones**. Preserve this contradictory brochure table;do not silently reverse the guide-based connection instructions or infer another hardware revision. |
+
+The retrieved manufacturer guide corroborates the retained converter/body specifications;this does not resolve actual-unit condition,software compatibility or stock. No audio equipment orsoftware operated.
