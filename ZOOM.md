@@ -4179,6 +4179,10 @@ Checked 2026-10-18 using the original G1/G1X manual; only G1-applicable behavior
 | Looper / rhythm restrictions | Rhythm mode prevents patch changes and master-level adjustment. In play mode rhythm can run, but pattern, rhythm volume and tempo cannot be adjusted there. Rhythm tempo spans 40–250 bpm; volume 0–30. Rhythm can continue in bypass/mute; reverb remains unavailable while it plays. These rhythm functions do not establish a phrase looper. | [Own manual pp10–11][G1O-M] |
 | Tuner / reference reset | Adjustable A reference 435–445 Hz; power-cycling resets it to 440 Hz. Tuning requires bypass or mute. | [Own manual pp8–9][G1O-M] |
 
+### Original G1 — patch expression and bypass-volume exception
+
+Checked 2026-10-19 against [own G1/G1X manual p17][G1O-M], using G1-specific CONTROL IN instructions. FP01/FP02 target is stored individually with each patch; volume is an available target, not a documented global override. During bypass the pedal always controls volume regardless of assignment. Position, minimum/maximum and recall remain unknown; headphone, tail and rhythm/looper attenuation remain unverified. Shared OUTPUT/PHONES supports headphones independently of these coverage questions. Existing 136 W ×155 D mm chassis is15 mm too deep. Onboard patch selection is available in Play; Rhythm mode prevents patch changes. G1X built-in-pedal/toe behavior is not transferred. Older revision and offer uncertainty remains preserved.
+
 ## 505 original
 
 Partial record, checked 2026-10-18. Original 505 GUITAR; separate from 505II and 505A. Ownership and exact seller-unit revision unverified.

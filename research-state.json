@@ -122572,10 +122572,10 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-19",
-    "current": "Original B2 expression assignment and bypass exception",
-    "finding": "Per-patch VL assignment; bypass always volume. Global FS01 function is separate. Depth exceeds preference; guitar suitability unclassified.",
+    "current": "Original G1 patch expression and bypass exception",
+    "finding": "Per-patch target; bypass always volume. Shared phones; depth15mm over preference; Rhythm prevents patch changes.",
     "next": [
-      "Screen Zoom G1 original and 505 original individually; G2 FOUR and original G3 already have audits",
+      "Screen original Zoom 505, then reconcile remaining no-treadle inventory systematically; G2 FOUR and original G3 already audited",
       "IR-200: resolve stereo IR capacity/loader conflict, complete field checklist and final scope decision; power voltage/polarity now source-backed",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
@@ -122594,7 +122594,7 @@
       "date": "2026-10-19",
       "source_commit": "87c7d3816a380ddc49e3af2b2441564f454f87d7",
       "scope": "Normalized inherited source checks without recertification or admitting partial leads; exact prior merged category preserved in public_metadata.remote_87c7d38_preserved.expression_category_before_normalization.",
-      "comparison_rows": 63,
+      "comparison_rows": 64,
       "adjacent_rows": 1,
       "active_inventory_changed": false
     },
