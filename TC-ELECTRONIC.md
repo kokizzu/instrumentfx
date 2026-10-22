@@ -2,6 +2,17 @@
 
 [Repository](README.md) · [Guitar](ALL-GUITAR.md) · [Vocal](ALL-VOCAL.md)
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [M100](#m100)
+- [M350](#m350)
+- [M-One XL](#m-one-xl)
+- [NOVA System](#nova-system)
+- [PLETHORA X3](#plethora-x3)
+- [PLETHORA X5](#plethora-x5)
+<!-- brand-index ends -->
+
 ## M100
 
 Checked 2026-10-17; partial. Guitar/vocal instrument and mixer-path processor; direct microphone preamp/phantom and bass suitability unverified. Ownership unknown.
@@ -53,171 +64,6 @@ Working state, authenticity, hardware revision, bundle, adapter, warranty, shipp
 [M100-P]: https://www.tcelectronic.com/en/products/0828-AAH
 [M100-M]: https://mediadl.musictribe.com/media/PLM/data/docs/P0CAH/QSG_TE_0828-AAH_M100_WW.pdf
 [M100-O]: https://shopee.co.id/TC-Electronic-M100-Stereo-Multi-Effects-Processor-i.19576516.6955147985
-
-## PLETHORA X3
-
-Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified.
-
-<!-- comparison evidence begins -->
-
-| Field | Finding / qualification | Evidence |
-|---|---|---|
-| Expression | No built-in treadle; **three pressure-sensitive MASH footswitches** provide assignable expression. External EXP socket absent from complete specification connector list; toe separate unresolved. | [Product][PX3-P]; [QSG p23][PX3-M] |
-| K/F/B | **5 rotary /3 footswitches /0 separate buttons** from complete textual control inventory:Effect,TonePrint,three parameter knobs;three MASH. Play/Edit and Board selector switches separate;push encoders counted once. Earlier button uncertainty resolved by inventory,not visual inspection. | [QSG controls/specifications][PX3-M];[original V0.0 copy pp18–19,63][PX3-QM] |
-| Display | Multiple LCD readouts referenced; diagonal/color/touch unresolved. | [QSG p22][PX3-M] |
-| Processing / categories | **Three effect slots**, flexible order; numerical DSP restrictions pending. Current product lists Phaser, Vibe, Looper, Reverb, Delay, Octaver, Pitch Shifter, Chorus, Compressor, Doubler, Flanger, Tremolo, Harmony, Gate, Vibrato, Vintage Echo. Later own-applicable additions and count basis below;complete latest library unverified. | [Product][PX3-P] |
-| Categories / documented choice counts | Product lists **16**:modulation6,pitch/octave/harmony3,delay2,and reverb/compression/doubler/gate/looper1 each. **1.5.6 adds Infinite Sample Sustainer**,giving17 known effects;Tap/Tuner utility separate. Derived union,not a certified complete newest library. | [Own product][PX3-P];[Shared release notes][PX3-F156] |
-| Categories / Infinite restriction | Firmware**1.5.6,2025-03-23** sustainer holds notes/chords but omits standalone Infinite’s reverb and Kill Dry;reverb needs another slot. Sample sustain does not establish an oscillator synth. | [Shared release notes][PX3-F156] |
-| Editor / newer effect requirement | Infinite editing needs **TonePrint4.6.18 and refreshed content**. Earlier4.2+ guide requirement is not enough for this later effect. Installed versions/currentOS support unverified. | [Shared release notes][PX3-F156] |
-| Live / newer footswitch modes | **1.5.6 adds momentary and momentary+MASH**;effect engages while held. Second-foot-function None renamed Latching. | [Shared release notes][PX3-F156] |
-| Live / tempo synchronization | **1.4.3,2023-10-19** adds per-slot global Tempo Sync,MIDI clock,and Tap/Tuner utility. MIDI expression explicitly works without an analog EXP socket. | [Original release-history conversion][PX3-FM] |
-| Memory / restore points | **1.4.3** supports restore-point create/apply/export/import;apply/import replaces user TonePrints,Boards/settings **and firmware version**. Import also replaces local restore point. Not an IR loader. | [Original release-history conversion][PX3-FM] |
-| Live / saving exception | EDIT-mode parameter changes auto-save. **PLAY-mode HOT KNOB tweaks do not auto-save** and serve live adjustment only. This qualifies the product’s broad auto-save statement. HOT KNOBZ are assigned in Board settings. | [QSG pp18–19][PX3-M] |
-| Controls / push encoders | EFFECT and TONEPRINT both have documented press actions; TonePrint hold opens UniTune, press again or any footswitch exits. These presses belong to the rotary encoders, not extra separate buttons. PLAY/EDIT and BOARD remain selector switches. | [QSG pp18–19][PX3-M] |
-| Live / secondary footswitch functions | PLAY-mode hold can invoke **MASH, RAMP or TAP TEMPO**, configured per Board. MIDI In/Thru can remotely control switches, Board changes and effect parameters. USB Mini-B connects TonePrint App on computer/mobile and performs firmware updates; this is not USB audio/power proof. | [QSG pp18–19][PX3-M] |
-| Expression / MIDI control | Shared official X5/X3 table maps **CC100 Global Expression**, CC107–109 Hot Knobs; slots1–3 MASH on CC70/75/80 and expression modifiers CC71/76/81. MIDI expression is distinct from a dedicated analog EXP socket or toe switch. | [Official MIDI CC table][PX3-C] |
-| Live / MIDI looper | CC110 Record,111 Play,112 Clear,113 Pause; values0–24 target slot1,25–50 slot2,51–76 slot3. Table marks slots4–5 **X5-only**. CC92 tap,93 tuner,94/95 Board down/up. This proves X3 looper command support, not recording duration. | [Official MIDI CC table][PX3-C] |
-| Processing / published latency | **0.8–2.4ms** in own-model specification table. Not a fixed value for every Board,measured result or Board-change/loading time. | [QSG p23][PX3-M];[original copy p63][PX3-QM] |
-| Editor / Bluetooth operating limits | **4.2 Low Energy,2.402–2.48GHz,40 RF channels,8dBm**;range≤10m measured in open space,obstacles reduce it. RF channels are not audio channels;audio streaming remains unverified. | [Original QSG copy p63][PX3-QM] |
-| Preset memory | **Up to127 boards;75 TonePrint slots per effect**; separate from three simultaneous slots. EDIT settings auto-save; PLAY HOT KNOB tweaks do not. Factory-filled subset unresolved. | [Product][PX3-P] |
-| Synth / acoustic | Dedicated synth/acoustic conversion unresolved; octave/pitch/harmony do not establish these. | Unresolved |
-| I/O | Two unbalanced quarter-inch TS inputs (**1MΩ**), two unbalanced TS outputs; MIDI In/Thru five-pin DIN; Mini-B USB; DC input. USB audio/power unverified. | [QSG p23][PX3-M] |
-| Power / battery / USB | **9V DC center-negative**,5.5/2.1mm; guide specifies **>600mA included supply**. Actual draw/battery/USB power unresolved. | [QSG p23][PX3-M] |
-| Dimensions / mass | **56.02H ×176.53W ×116.75D mm;0.775kg**. | [QSG p23][PX3-M] |
-| IR / NAM / capture | End-of-chain cabinet simulation documented; user IR, native/converted NAM and capture loading unresolved. | [Product][PX3-P] |
-| Editor / desktop versus mobile functions | Exact X3 V0.0 guide explicitly offers the **desktop TonePrint App with full library and TonePrint Editor**, connected by USB. Its mobile app likewise provides library/editor access via Apple/Google stores. Desktop OS versions, architecture and current compatibility remain unknown; this is not merely a firmware updater. | [Own guide copy, printed p21][PX3-QM] |
-| Expression / multi-parameter mappings | The guide permits **up to three parameters per knob or MASH control** through TonePrint Editor. Its generic EXP wording does not add a physical EXP socket absent from the X3 connector list; MIDI expression remains separately documented. Mapped parameters are not extra simultaneous audio blocks. | [Own guide copy, printed p21][PX3-QM] |
-| Editor / dated Apple OS minimum | Developer listing explicitly names **Plethora X3** Bluetooth editing and requires **iOS16.0 /iPadOS16.0 or later**. Listed TonePrint version **4.6.18**, released **2025-04-01**, adds Infinite support subject to pedal firmware. Checked2026-10-18 in US/Indonesia storefronts; this is the listed app requirement, not an older-version or every-device guarantee. | [TC/MUSIC Tribe App Store listing](https://apps.apple.com/id/app/toneprint/id432767616);[US listing](https://apps.apple.com/us/app/toneprint/id432767616) |
-| Editor / application identity | Android TonePrint is **com.tcelectronic.toneprint**; its listing shows update2025-03-26. The separate **TC app,com.tcelectronic.tcapp**, explicitly excludes TonePrint-generation products and must not replace TonePrint in this record. Android minimum OS and desktop compatibility remain unverified. | [Developer TonePrint listing](https://play.google.com/store/apps/details?hl=en&id=com.tcelectronic.toneprint);[Separate TC listing](https://play.google.com/store/apps/details?hl=en&id=com.tcelectronic.tcapp) |
-| Editor / platforms | TonePrint mobile app **4.2+**, Apple/Google app stores, Bluetooth pairing; only one USB/Bluetooth device connection at once. Editor supports customization, exact desktop OS compatibility pending. Bluetooth4.2LE; audio streaming not established. | [Product][PX3-P]; [QSG pp22–23][PX3-M] |
-| Live / routing | Tape Deck Looper, UniTune tuner, Quick Swap order changes, selectable left/right signal direction, cab sim and MASH mappings. Loop duration/drums/scenes pending. | [Product][PX3-P] |
-
-### Separate IDR hardware offers
-
-| Condition | Evidence | Source |
-|---|---|---|
-| Used | No condition-confirmed offer. | — |
-| New | No condition-confirmed offer. | — |
-| Unverified condition | **Rp6.180.000**, NEO MUSIC, shop158235298/item28021818540,Kota Sukabumi; three-month crawl, July2 arrival text. | [Item1][PX3-O1] |
-| Unverified condition | **Rp7.508.100**, Gelora Musik Serpong,shop306155985/item23943061836,Kab.Tangerang; five-month crawl, delivery unavailable. | [Item2][PX3-O2] |
-
-
-### PLETHORA X3 — bypass specification and named base inventory
-
-Checked2026-10-18.
-
-| Field | Evidence / qualification |
-|---|---|
-| I/O / bypass specification | Own-model quick guide V0.0,printedp63,lists **True Bypass**. This is a manufacturer specification,not a measured bypass test orproof of trails/power-failure behavior. [Manufacturer-authored copy][PX3-QM] |
-| Category choices / exact base names16 | HELIX PHASER;VISCOUS VIBE;TAPE DECK LOOPER;HALL OF FAME2 REVERB;FLASHBACK2 DELAY;SUB N UP OCTAVER;BRAINWAVES PITCH SHIFTER;CORONA CHORUS;HYPERGRAVITY COMPRESSOR;MIMIQ DOUBLER;VORTEX FLANGER;PIPELINE TAP TREMOLO;QUINTESSENCE HARMONY;SENTRY NOISE GATE;SHAKER VIBRATO;ALTER EGO VINTAGE ECHO. These are the own-model product page’s16base entries already counted above,not16simultaneous effects;laterInfinite addition remains separate. [Exact manufacturer product][PX3-P] |
-
-### PLETHORA X3 — factory content and Board operations, 2026-10-18
-
-[Own V0.0 quick guide, printed pp18–21][PX3-QM]; manufacturer-authored text, no software or device operation.
-
-| Field | Documented scope / qualification |
-|---|---|
-| Memory / initial TonePrint content | The guide explicitly says **a selection of TonePrints is pre-installed**. It gives no filled-slot count and does not say all75 slots per effect or127 Board locations are factory-filled. TonePrint assignments include parameter values and knob/MASH mappings; they are not extra simultaneous effects. |
-| Memory / Board management | In EDIT, BOARD UP opens **CREATE/DUPLICATE**; BOARD DOWN presents **DELETE/CLEAR** for the current Board. This confirms management functions, without assigning an undocumented difference between Delete and Clear or adding memory capacity. |
-| I/O / mono connection | For mono operation use only each pair’s **MONO input and MONO output**; both TS jacks provide stereo connections when used together. This does not establish a dedicated headphone output or balanced TRS operation. |
-
-<!-- comparison evidence ends -->
-
-Checked2026-10-17; historical indexed asks, not current stock/checkout. Condition,variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers unresolved. No download or visual inspection claimed.
-
-[PX3-P]: https://www.tcelectronic.com/en/products/0709-AIS
-[PX3-M]: https://mediadl.musictribe.com/media/PLM/data/docs/P0EB4/PLETHORA-X3_QSG_EN.pdf
-[PX3-O1]: https://shopee.co.id/TC-Electronic-PLETHORA-X3-TonePrint-Pedalboard-with-up-to-127-Boards-3-Pedal-Slots-i.158235298.28021818540
-[PX3-O2]: https://shopee.co.id/Multi-Efek-Pedal-Gitar-TC-Electronic-Plethora-X3-TonePrint-i.306155985.23943061836
-
-[PX3-C]: https://mediadl.musictribe.com/download/software/tcelectronic/Plethora_X5/PX5_3_MIDI_CC_table.pdf
-
-Newer firmware evidence checked2026-10-17. Shared manufacturer notes explicitly mark1.4.3 and1.5.6 forPX5/PX3;older PX5-only entries were not assigned toX3. Original conversion matches manufacturer-hosted indexed1.5.6 text;no generatedFAQ used. No software/firmware was downloaded or installed.
-
-[PX3-F156]: https://cdn.mediavalet.com/aunsw/musictribe/7oqt3nY_P0ypQrubxyiAZA/ZxnHhPbDPka4xmUQl3N2-Q/Original/Plethora_X5_X3_Release_notes_FW_v1_5_6.pdf
-[PX3-FM]: https://manuals.plus/m/fab495897f61212f13d7fd3403d4a371bcb2d147dc9c72fd72db55684cdb91f7
-
-Control-count recheck2026-10-17 uses the complete13-callout own-model text and specifications. Manufacturer endpoint returned502;readable manufacturer-authored35-page multilingual copy identifies PLETHORA X3,V0.0,©2022 andmatches indexed officialcontrols/specifications. Its printedp63 corresponds to official English-onlyp23;pagination differs. Screens/photos were not inspected.
-
-[PX3-QM]: https://www.adorama.com/col/productManuals/TC79AIS861.pdf
-
-### PLETHORA X3 — direct-expression audit, 2026-10-19
-
-**Direct analog external EXP:No**,complete model-specific connector inventory. [Manufacturer-authored V0.0 QSG copy][PX3-QM],printed pp18–19,63,listsTS audio pairs,MIDI DIN,USB andDC,butnoEXP orheadphone socket. ThreeMASH pressure switches areonboard expression,notanalogexternalinputs. Earlier genericEXP editor wording doesnot addmissinghardware. This fails the requested direct path,irrespective ofMIDI capabilities.
-
-**176.53 W×116.75 Dmm** fits preference. Master-volume position,min/max,bypass/tail/looper coverage throughMIDI remain unverified;not inferred fromTrueBypass specification. OnboardBOARD selector isseparate fromfoot-operated boarddown/up,whose currentmapping remains unverified. PriorCC100GlobalExpression evidence isMIDI-only,not necessarily globalmastervolume. OfficialMIDI table failedretrieval thispass;older sourcequalification retained.
-
-[Official V1.0 QSG][PX3-M] returned502;readthe matchingX3 V0.0 manufacturerbody,notgeneratedFAQ. Newerguide differences remain unverified. [ExactNEOMUSIC shop158235298/item28021818540][PX3-O1] returnedcachemiss2026-10-19. PreserveRp6.180.000 andseparateGeloraRp7.508.100 historicalasks;currentstock,condition,bundle,warranty,shipping andusedoffers unknown. No localdownload orhardwaretest.
-
-## PLETHORA X5
-
-Checked 2026-10-17; partial. Guitar/bass shared processor; ownership and vocal suitability unverified.
-
-<!-- comparison evidence begins -->
-
-| Field | Finding / qualification | Evidence |
-|---|---|---|
-| Expression | No built-in treadle; **five MASH pressure switches**, each maps up to three parameters. External TRS EXP input; toe behavior unresolved. | [Product][PX5-P]; [QSG pp14–15][PX5-M] |
-| K/F/B | **5 rotary / 5 footswitches / 0 separate buttons in the textual control inventory**. EFFECT/TONEPRINT push encoders and three parameter knobs. Specifications explicitly classify PLAY/EDIT and BOARD as selector switches, despite the controls prose calling PLAY/EDIT a knob. Encoder presses counted once; visual corroboration pending. | [QSG pp14–15,33][PX5-M] |
-| Display | LCD displays show slot effects or editing information; diagonal/color/touch unresolved. | [QSG pp14–15][PX5-M] |
-| Processing / categories | **Up to five TonePrint pedals per Board**, freely ordered. Compression, modulation, pitch, gate, reverb/delay documented; complete firmware-qualified catalogue pending. | [Product][PX5-P] |
-| Categories / firmware1.5.6 sustainer | **2025-03-23 adds Infinite Sample Sustainer**,holding notes/chords. PLETHORA version omits its standalone pedal’s reverb section and **Kill Dry**;another Hall of Fame slot can add reverb. Not proof of an oscillator synth. | [Newer official notes][PX5-F156] |
-| Editor / sustainer compatibility | Editing Infinite TonePrints requires **TonePrint4.6.18 plus updated app content**. Historical4.5.5 requirement remains for the older release;not sufficient evidence for this effect. Installed versions unknown. | [Newer official notes1.5.6][PX5-F156] |
-| Live / firmware1.5.6 switching | Adds **momentary**,effect active only while pressed,and momentary+MASH modes. Second-foot-function menu renames None to Latching. This is switch behavior,not extra physical switches. | [Newer official notes][PX5-F156] |
-| Live / firmware1.4.3 tempo | **2023-10-19** adds per-slot Tempo Sync to global tempo,MIDI clock sync,and Tap/Tuner utility. Unsynced slots remain independent;temporary parameter-modifier changes return to global tempo. | [Original release-note conversion][PX5-FM] |
-| Memory / restore-point scope | **1.4.3 restore points cover user content and firmware**. Applying/importing overwrites stored TonePrints,Boards/settings and changes firmware to the snapshot’s version;system import also overwrites the local restore point. This is not an IR/capture loader. | [Original release-note conversion][PX5-FM] |
-| Editor / historical firmware requirements | **Firmware1.3.11,2022-03-03** recommends TonePrint app **4.5.5+** for full new-effect benefit. Units on1.0.101 require intermediate1.1.55 before1.2.18 or later. This is historical compatibility evidence, not a latest-firmware claim. | [Official release notes][PX5-F] |
-| Processing / firmware bypass change | Firmware1.3.6 limited FlashbackII/AlterEgo feedback to80% when bypassed in buffered mode. **1.3.11 respects higher feedback**, permitting self-oscillating bypass trails. Modulation/low-end and vibrato-subtype fixes also documented. | [Official release notes][PX5-F] |
-| Editor / firmware transport | Guide describes USB mass-storage transfer of a .bin file followed by power-cycle installation. This proves update transport, not USB audio or bus power. No update or download performed. | [Official release notes][PX5-F] |
-| Processing / latency | Published **0.8–2.4 ms** latency range; do not infer one fixed value for every Board. | [QSG p33][PX5-M] |
-| Editor / Bluetooth specification | **Bluetooth4.2 Low Energy**, up to10m in open space; structures affect range. Pair through global Bluetooth settings and TonePrint app. This establishes app connectivity, not Bluetooth audio streaming. | [QSG pp32–33][PX5-M] |
-| Categories / historical firmware additions | **1.3.6,2022-01-13** adds Alter Ego Vintage Echo. Also documents reversed chain-order display, improved external EXP/MIDI response and faster Board changes. These are dated changes, not a complete current library. | [Official release notes][PX5-F] |
-| Categories / firmware1.2.18 additions | **2020-12-18 adds Viscous Vibe,Helix Phaser,Tape Deck Looper**. Viscous Vibe defaults to Ramp as its second footswitch function;MASH can replace it in Board settings. These dated additions do not establish the complete current catalogue. | [Own X5 release notes][PX5-F] |
-| Live / Board navigation versus Quick Swap | Optional global two-switch navigation:**1+2 Board Down;2+3 Board Up**. While board number shows,1/3 continue down/up. **Disable this mode for Quick Swap**. Introduced1.2.18;not proof of seller firmware. | [Own X5 release notes][PX5-F] |
-| Expression / volume audit2026-10-19 | Japanese distributor ELECTORI’s Rev1.3 manual explicitly covers **firmware1.3.11**: EXP ASSIGNMENT/VOLUME is **Board-level**, unlike global EXP calibration. Volume can precede slot1, follow slot5, sit between slots, or follow the insert before SEND/after RETURN. OFF disables volume; modifier and volume are mutually exclusive. Later global override, volume min/max and position recall remain unverified. | [Distributor manual pp5–7](https://www.electori.co.jp/tc-electronic/assets/pdf/PLETHORA_X5_MANUAL_JP_REV_1_3.pdf) |
-| Expression / wiring and coverage qualification | Distributor p3 says **TS** EXP, conflicting with own QSG’s **TRS**; controller pinout remains unresolved. Its complete connector list has no dedicated headphones. Bypass, tail and looper attenuation guarantees remain unknown. No local download or device test. | [Distributor manual pp3,5–7](https://www.electori.co.jp/tc-electronic/assets/pdf/PLETHORA_X5_MANUAL_JP_REV_1_3.pdf);[QSG][PX5-M] |
-| Expression / Hot Knob scope | The three Hot Knob assignments are **Board-level settings**,controlling multiple pedal parameters in Play mode;not three additional audio blocks. | [Own X5 release notes1.2.18][PX5-F] |
-| Memory / automatic storage | Product documents automatic settings storage as edits occur. This does not establish a factory-filled Board count or persistent audio-loop storage. | [Product][PX5-P] |
-| Live / buffered no-trails | Firmware1.3.6 adds **Buffered / No Trails**, retaining buffering while cutting delay/reverb tails when disengaged. Distinguish it from buffered trailing behavior and the later1.3.11 feedback change. | [Official release notes][PX5-F] |
-| Expression / MIDI mapping | **CC100 Global Expression** maps0–125 to0–100%; Hot Knobs CC107–109. MASH for slots1–5:CC70/75/80/85/90; expression modifiers CC71/76/81/86/91. Physical EXP and MIDI expression are separate control paths. | [Official X5/X3 MIDI table][PX5-C] |
-| Live / MIDI looper mapping | CC110 Record,111 Play,112 Clear,113 Pause. Values0–24/25–50/51–76/77–102/103–127 target slots1–5 respectively. Slots4–5 explicitly X5-only. CC92 tap,93 tuner,94/95 Board down/up. | [Official X5/X3 MIDI table][PX5-C] |
-| Preset memory | **127 custom Boards;75 TonePrint slots per pedal**. Factory-filled subset unresolved; Board count is not simultaneous block count. | [Product][PX5-P] |
-| Synth / acoustic | Dedicated synth/acoustic conversion unresolved. | Unresolved |
-| I/O | Stereo quarter-inch TS inputs/outputs; TS Send/Return insert; TRS EXP; MIDI In/Thru; USB for computer TonePrint/update; DC input. USB audio/power unresolved. | [QSG pp14–15][PX5-M] |
-| Power / battery / USB | **9V DC,>600mA included supply**,5.5/2.1mm centre-negative. Actual draw,battery/USB operation unresolved. | [QSG controls/specifications][PX5-M] |
-| Dimensions / mass | Guide prints **298.5×116×53mm under H×W×D**,1.4kg. Axis-label inconsistency preserved; no silent normalization or size-bin assignment. | [QSG specifications][PX5-M] |
-| IR / NAM / capture | **Nine global proprietary cabinet simulations**, including bass use. User IR/native or converted NAM/capture support unresolved. | [Product][PX5-P] |
-| Editor / dated mobile compatibility | Developer listings explicitly name **Plethora X5** Bluetooth editing. Apple lists **TonePrint4.6.18,2025-04-01**, requiring **iOS16.0/iPadOS16.0+**; Google Play lists Android TonePrint,updated2025-03-26. Checked2026-10-18; minimum Android OS,desktop OS/architecture and every-device operation remain unverified. This narrows the older platform uncertainty without treating historical firmware notes as current OS requirements. | [Developer Apple listing](https://apps.apple.com/us/app/toneprint/id432767616);[Developer Android listing](https://play.google.com/store/apps/details?hl=en&id=com.tcelectronic.toneprint) |
-| Editor / distinct TC application | The separate **TC app,com.tcelectronic.tcapp**, expressly excludes TonePrint-generation products. It is not a replacement editor for this X5 record; TonePrint’s Android package is **com.tcelectronic.toneprint**. No app installed or hardware connection tested. | [Developer TC listing](https://play.google.com/store/apps/details?hl=en&id=com.tcelectronic.tcapp) |
-| Editor / platforms | Own X5 release notes, **1.1.55 dated 2020-11-09**, explicitly list TonePrint desktop editor for **Mac and PC**, and mobile app for **iOS and Android**. Historical platform evidence only: desktop/Android OS versions and processor architecture remain unverified; dated mobile-store evidence appears above. Bluetooth/USB app connectivity does not establish USB audio or power. | [Official release notes, version1.1.55 section][PX5-F]; [QSG pp14–15][PX5-M] |
-| Live / looper | RAM looper: **40s stereo/80s mono**, up to five instances per Board. Multiple instances do not imply five times shared memory capacity. Drums/scenes unresolved. | [Product][PX5-P] |
-| Live / routing | Insert allows external drive or four-cable setup; Quick Swap reorders effects. | [Product][PX5-P] |
-| Bass capability | Own product explicitly offers bass-oriented cabinet simulation; shared bass inclusion does not certify every effect equally on bass. | [Product][PX5-P] |
-
-### Separate IDR hardware offers
-
-| Condition | Evidence | Source |
-|---|---|---|
-| Used | No qualified offer. | — |
-| New | No condition-confirmed offer. | — |
-| Unverified condition | **Rp9.105.200**,NEO MUSIC,shop158235298/item27271818642,Kota Sukabumi. Checked2026-10-17; three-month indexed crawl,July2 delivery text. Historical ask, not current stock/checkout. | [Item][PX5-O] |
-
-<!-- comparison evidence ends -->
-
-Variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers unresolved. No download or visual inspection claimed. All facts from own-model sources; no X3 specification substitution.
-
-[PX5-P]: https://www.tcelectronic.com/en/products/0709-AIK
-[PX5-M]: https://mediadl.musictribe.com/media/PLM/data/docs/P0D9M/QSG_TE_0709-AIK_PLETHORA-X5_WW.pdf
-[PX5-O]: https://shopee.co.id/TC-Electronic-PLETHORA-X5-TonePrint-Pedal-Board-Loaded-with-Favorite-FX-and-5-MASH-Footswitches-i.158235298.27271818642
-
-[PX5-F]: https://mediadl.musictribe.com/media/PLM/data/docs/P0D9M/Release-Notes_TE_P0D9M_PLETHORA-X5_Firmware-Update_v1.3.11_2022-03-03_Rev.2.pdf
-
-[PX5-C]: https://mediadl.musictribe.com/download/software/tcelectronic/Plethora_X5/PX5_3_MIDI_CC_table.pdf
-
-Newer documentation checked2026-10-17: manufacturer-hosted indexed1.5.6 text explicitly names both PX5/PX3 andmatches the converted16-page release-history body,including older own-X5 revisions already verified. Direct manufacturer CDN fetch failed500;conversion used only as original release text,not generated FAQs. Neither1.5.6 latest-status nor seller-installed firmware certified.
-
-[PX5-F156]: https://cdn.mediavalet.com/aunsw/musictribe/7oqt3nY_P0ypQrubxyiAZA/ZxnHhPbDPka4xmUQl3N2-Q/Original/Plethora_X5_X3_Release_notes_FW_v1_5_6.pdf
-[PX5-FM]: https://manuals.plus/m/fab495897f61212f13d7fd3403d4a371bcb2d147dc9c72fd72db55684cdb91f7
 
 ## M350
 
@@ -540,3 +386,168 @@ Official original endpoints retained forprovenance: https://service-tcgroup.tcel
 [NOVA-SP]: https://service-tcgroup.tcelectronic.com/media/Nova_Sys_SP.pdf
 
 [NOVA-FW12]: https://service-tcgroup.tcelectronic.com/media/novasystem-1_2-installation-guide.pdf
+
+## PLETHORA X3
+
+Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | No built-in treadle; **three pressure-sensitive MASH footswitches** provide assignable expression. External EXP socket absent from complete specification connector list; toe separate unresolved. | [Product][PX3-P]; [QSG p23][PX3-M] |
+| K/F/B | **5 rotary /3 footswitches /0 separate buttons** from complete textual control inventory:Effect,TonePrint,three parameter knobs;three MASH. Play/Edit and Board selector switches separate;push encoders counted once. Earlier button uncertainty resolved by inventory,not visual inspection. | [QSG controls/specifications][PX3-M];[original V0.0 copy pp18–19,63][PX3-QM] |
+| Display | Multiple LCD readouts referenced; diagonal/color/touch unresolved. | [QSG p22][PX3-M] |
+| Processing / categories | **Three effect slots**, flexible order; numerical DSP restrictions pending. Current product lists Phaser, Vibe, Looper, Reverb, Delay, Octaver, Pitch Shifter, Chorus, Compressor, Doubler, Flanger, Tremolo, Harmony, Gate, Vibrato, Vintage Echo. Later own-applicable additions and count basis below;complete latest library unverified. | [Product][PX3-P] |
+| Categories / documented choice counts | Product lists **16**:modulation6,pitch/octave/harmony3,delay2,and reverb/compression/doubler/gate/looper1 each. **1.5.6 adds Infinite Sample Sustainer**,giving17 known effects;Tap/Tuner utility separate. Derived union,not a certified complete newest library. | [Own product][PX3-P];[Shared release notes][PX3-F156] |
+| Categories / Infinite restriction | Firmware**1.5.6,2025-03-23** sustainer holds notes/chords but omits standalone Infinite’s reverb and Kill Dry;reverb needs another slot. Sample sustain does not establish an oscillator synth. | [Shared release notes][PX3-F156] |
+| Editor / newer effect requirement | Infinite editing needs **TonePrint4.6.18 and refreshed content**. Earlier4.2+ guide requirement is not enough for this later effect. Installed versions/currentOS support unverified. | [Shared release notes][PX3-F156] |
+| Live / newer footswitch modes | **1.5.6 adds momentary and momentary+MASH**;effect engages while held. Second-foot-function None renamed Latching. | [Shared release notes][PX3-F156] |
+| Live / tempo synchronization | **1.4.3,2023-10-19** adds per-slot global Tempo Sync,MIDI clock,and Tap/Tuner utility. MIDI expression explicitly works without an analog EXP socket. | [Original release-history conversion][PX3-FM] |
+| Memory / restore points | **1.4.3** supports restore-point create/apply/export/import;apply/import replaces user TonePrints,Boards/settings **and firmware version**. Import also replaces local restore point. Not an IR loader. | [Original release-history conversion][PX3-FM] |
+| Live / saving exception | EDIT-mode parameter changes auto-save. **PLAY-mode HOT KNOB tweaks do not auto-save** and serve live adjustment only. This qualifies the product’s broad auto-save statement. HOT KNOBZ are assigned in Board settings. | [QSG pp18–19][PX3-M] |
+| Controls / push encoders | EFFECT and TONEPRINT both have documented press actions; TonePrint hold opens UniTune, press again or any footswitch exits. These presses belong to the rotary encoders, not extra separate buttons. PLAY/EDIT and BOARD remain selector switches. | [QSG pp18–19][PX3-M] |
+| Live / secondary footswitch functions | PLAY-mode hold can invoke **MASH, RAMP or TAP TEMPO**, configured per Board. MIDI In/Thru can remotely control switches, Board changes and effect parameters. USB Mini-B connects TonePrint App on computer/mobile and performs firmware updates; this is not USB audio/power proof. | [QSG pp18–19][PX3-M] |
+| Expression / MIDI control | Shared official X5/X3 table maps **CC100 Global Expression**, CC107–109 Hot Knobs; slots1–3 MASH on CC70/75/80 and expression modifiers CC71/76/81. MIDI expression is distinct from a dedicated analog EXP socket or toe switch. | [Official MIDI CC table][PX3-C] |
+| Live / MIDI looper | CC110 Record,111 Play,112 Clear,113 Pause; values0–24 target slot1,25–50 slot2,51–76 slot3. Table marks slots4–5 **X5-only**. CC92 tap,93 tuner,94/95 Board down/up. This proves X3 looper command support, not recording duration. | [Official MIDI CC table][PX3-C] |
+| Processing / published latency | **0.8–2.4ms** in own-model specification table. Not a fixed value for every Board,measured result or Board-change/loading time. | [QSG p23][PX3-M];[original copy p63][PX3-QM] |
+| Editor / Bluetooth operating limits | **4.2 Low Energy,2.402–2.48GHz,40 RF channels,8dBm**;range≤10m measured in open space,obstacles reduce it. RF channels are not audio channels;audio streaming remains unverified. | [Original QSG copy p63][PX3-QM] |
+| Preset memory | **Up to127 boards;75 TonePrint slots per effect**; separate from three simultaneous slots. EDIT settings auto-save; PLAY HOT KNOB tweaks do not. Factory-filled subset unresolved. | [Product][PX3-P] |
+| Synth / acoustic | Dedicated synth/acoustic conversion unresolved; octave/pitch/harmony do not establish these. | Unresolved |
+| I/O | Two unbalanced quarter-inch TS inputs (**1MΩ**), two unbalanced TS outputs; MIDI In/Thru five-pin DIN; Mini-B USB; DC input. USB audio/power unverified. | [QSG p23][PX3-M] |
+| Power / battery / USB | **9V DC center-negative**,5.5/2.1mm; guide specifies **>600mA included supply**. Actual draw/battery/USB power unresolved. | [QSG p23][PX3-M] |
+| Dimensions / mass | **56.02H ×176.53W ×116.75D mm;0.775kg**. | [QSG p23][PX3-M] |
+| IR / NAM / capture | End-of-chain cabinet simulation documented; user IR, native/converted NAM and capture loading unresolved. | [Product][PX3-P] |
+| Editor / desktop versus mobile functions | Exact X3 V0.0 guide explicitly offers the **desktop TonePrint App with full library and TonePrint Editor**, connected by USB. Its mobile app likewise provides library/editor access via Apple/Google stores. Desktop OS versions, architecture and current compatibility remain unknown; this is not merely a firmware updater. | [Own guide copy, printed p21][PX3-QM] |
+| Expression / multi-parameter mappings | The guide permits **up to three parameters per knob or MASH control** through TonePrint Editor. Its generic EXP wording does not add a physical EXP socket absent from the X3 connector list; MIDI expression remains separately documented. Mapped parameters are not extra simultaneous audio blocks. | [Own guide copy, printed p21][PX3-QM] |
+| Editor / dated Apple OS minimum | Developer listing explicitly names **Plethora X3** Bluetooth editing and requires **iOS16.0 /iPadOS16.0 or later**. Listed TonePrint version **4.6.18**, released **2025-04-01**, adds Infinite support subject to pedal firmware. Checked2026-10-18 in US/Indonesia storefronts; this is the listed app requirement, not an older-version or every-device guarantee. | [TC/MUSIC Tribe App Store listing](https://apps.apple.com/id/app/toneprint/id432767616);[US listing](https://apps.apple.com/us/app/toneprint/id432767616) |
+| Editor / application identity | Android TonePrint is **com.tcelectronic.toneprint**; its listing shows update2025-03-26. The separate **TC app,com.tcelectronic.tcapp**, explicitly excludes TonePrint-generation products and must not replace TonePrint in this record. Android minimum OS and desktop compatibility remain unverified. | [Developer TonePrint listing](https://play.google.com/store/apps/details?hl=en&id=com.tcelectronic.toneprint);[Separate TC listing](https://play.google.com/store/apps/details?hl=en&id=com.tcelectronic.tcapp) |
+| Editor / platforms | TonePrint mobile app **4.2+**, Apple/Google app stores, Bluetooth pairing; only one USB/Bluetooth device connection at once. Editor supports customization, exact desktop OS compatibility pending. Bluetooth4.2LE; audio streaming not established. | [Product][PX3-P]; [QSG pp22–23][PX3-M] |
+| Live / routing | Tape Deck Looper, UniTune tuner, Quick Swap order changes, selectable left/right signal direction, cab sim and MASH mappings. Loop duration/drums/scenes pending. | [Product][PX3-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | No condition-confirmed offer. | — |
+| New | No condition-confirmed offer. | — |
+| Unverified condition | **Rp6.180.000**, NEO MUSIC, shop158235298/item28021818540,Kota Sukabumi; three-month crawl, July2 arrival text. | [Item1][PX3-O1] |
+| Unverified condition | **Rp7.508.100**, Gelora Musik Serpong,shop306155985/item23943061836,Kab.Tangerang; five-month crawl, delivery unavailable. | [Item2][PX3-O2] |
+
+
+### PLETHORA X3 — bypass specification and named base inventory
+
+Checked2026-10-18.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / bypass specification | Own-model quick guide V0.0,printedp63,lists **True Bypass**. This is a manufacturer specification,not a measured bypass test orproof of trails/power-failure behavior. [Manufacturer-authored copy][PX3-QM] |
+| Category choices / exact base names16 | HELIX PHASER;VISCOUS VIBE;TAPE DECK LOOPER;HALL OF FAME2 REVERB;FLASHBACK2 DELAY;SUB N UP OCTAVER;BRAINWAVES PITCH SHIFTER;CORONA CHORUS;HYPERGRAVITY COMPRESSOR;MIMIQ DOUBLER;VORTEX FLANGER;PIPELINE TAP TREMOLO;QUINTESSENCE HARMONY;SENTRY NOISE GATE;SHAKER VIBRATO;ALTER EGO VINTAGE ECHO. These are the own-model product page’s16base entries already counted above,not16simultaneous effects;laterInfinite addition remains separate. [Exact manufacturer product][PX3-P] |
+
+### PLETHORA X3 — factory content and Board operations, 2026-10-18
+
+[Own V0.0 quick guide, printed pp18–21][PX3-QM]; manufacturer-authored text, no software or device operation.
+
+| Field | Documented scope / qualification |
+|---|---|
+| Memory / initial TonePrint content | The guide explicitly says **a selection of TonePrints is pre-installed**. It gives no filled-slot count and does not say all75 slots per effect or127 Board locations are factory-filled. TonePrint assignments include parameter values and knob/MASH mappings; they are not extra simultaneous effects. |
+| Memory / Board management | In EDIT, BOARD UP opens **CREATE/DUPLICATE**; BOARD DOWN presents **DELETE/CLEAR** for the current Board. This confirms management functions, without assigning an undocumented difference between Delete and Clear or adding memory capacity. |
+| I/O / mono connection | For mono operation use only each pair’s **MONO input and MONO output**; both TS jacks provide stereo connections when used together. This does not establish a dedicated headphone output or balanced TRS operation. |
+
+<!-- comparison evidence ends -->
+
+Checked2026-10-17; historical indexed asks, not current stock/checkout. Condition,variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers unresolved. No download or visual inspection claimed.
+
+[PX3-P]: https://www.tcelectronic.com/en/products/0709-AIS
+[PX3-M]: https://mediadl.musictribe.com/media/PLM/data/docs/P0EB4/PLETHORA-X3_QSG_EN.pdf
+[PX3-O1]: https://shopee.co.id/TC-Electronic-PLETHORA-X3-TonePrint-Pedalboard-with-up-to-127-Boards-3-Pedal-Slots-i.158235298.28021818540
+[PX3-O2]: https://shopee.co.id/Multi-Efek-Pedal-Gitar-TC-Electronic-Plethora-X3-TonePrint-i.306155985.23943061836
+
+[PX3-C]: https://mediadl.musictribe.com/download/software/tcelectronic/Plethora_X5/PX5_3_MIDI_CC_table.pdf
+
+Newer firmware evidence checked2026-10-17. Shared manufacturer notes explicitly mark1.4.3 and1.5.6 forPX5/PX3;older PX5-only entries were not assigned toX3. Original conversion matches manufacturer-hosted indexed1.5.6 text;no generatedFAQ used. No software/firmware was downloaded or installed.
+
+[PX3-F156]: https://cdn.mediavalet.com/aunsw/musictribe/7oqt3nY_P0ypQrubxyiAZA/ZxnHhPbDPka4xmUQl3N2-Q/Original/Plethora_X5_X3_Release_notes_FW_v1_5_6.pdf
+[PX3-FM]: https://manuals.plus/m/fab495897f61212f13d7fd3403d4a371bcb2d147dc9c72fd72db55684cdb91f7
+
+Control-count recheck2026-10-17 uses the complete13-callout own-model text and specifications. Manufacturer endpoint returned502;readable manufacturer-authored35-page multilingual copy identifies PLETHORA X3,V0.0,©2022 andmatches indexed officialcontrols/specifications. Its printedp63 corresponds to official English-onlyp23;pagination differs. Screens/photos were not inspected.
+
+[PX3-QM]: https://www.adorama.com/col/productManuals/TC79AIS861.pdf
+
+### PLETHORA X3 — direct-expression audit, 2026-10-19
+
+**Direct analog external EXP:No**,complete model-specific connector inventory. [Manufacturer-authored V0.0 QSG copy][PX3-QM],printed pp18–19,63,listsTS audio pairs,MIDI DIN,USB andDC,butnoEXP orheadphone socket. ThreeMASH pressure switches areonboard expression,notanalogexternalinputs. Earlier genericEXP editor wording doesnot addmissinghardware. This fails the requested direct path,irrespective ofMIDI capabilities.
+
+**176.53 W×116.75 Dmm** fits preference. Master-volume position,min/max,bypass/tail/looper coverage throughMIDI remain unverified;not inferred fromTrueBypass specification. OnboardBOARD selector isseparate fromfoot-operated boarddown/up,whose currentmapping remains unverified. PriorCC100GlobalExpression evidence isMIDI-only,not necessarily globalmastervolume. OfficialMIDI table failedretrieval thispass;older sourcequalification retained.
+
+[Official V1.0 QSG][PX3-M] returned502;readthe matchingX3 V0.0 manufacturerbody,notgeneratedFAQ. Newerguide differences remain unverified. [ExactNEOMUSIC shop158235298/item28021818540][PX3-O1] returnedcachemiss2026-10-19. PreserveRp6.180.000 andseparateGeloraRp7.508.100 historicalasks;currentstock,condition,bundle,warranty,shipping andusedoffers unknown. No localdownload orhardwaretest.
+
+## PLETHORA X5
+
+Checked 2026-10-17; partial. Guitar/bass shared processor; ownership and vocal suitability unverified.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | No built-in treadle; **five MASH pressure switches**, each maps up to three parameters. External TRS EXP input; toe behavior unresolved. | [Product][PX5-P]; [QSG pp14–15][PX5-M] |
+| K/F/B | **5 rotary / 5 footswitches / 0 separate buttons in the textual control inventory**. EFFECT/TONEPRINT push encoders and three parameter knobs. Specifications explicitly classify PLAY/EDIT and BOARD as selector switches, despite the controls prose calling PLAY/EDIT a knob. Encoder presses counted once; visual corroboration pending. | [QSG pp14–15,33][PX5-M] |
+| Display | LCD displays show slot effects or editing information; diagonal/color/touch unresolved. | [QSG pp14–15][PX5-M] |
+| Processing / categories | **Up to five TonePrint pedals per Board**, freely ordered. Compression, modulation, pitch, gate, reverb/delay documented; complete firmware-qualified catalogue pending. | [Product][PX5-P] |
+| Categories / firmware1.5.6 sustainer | **2025-03-23 adds Infinite Sample Sustainer**,holding notes/chords. PLETHORA version omits its standalone pedal’s reverb section and **Kill Dry**;another Hall of Fame slot can add reverb. Not proof of an oscillator synth. | [Newer official notes][PX5-F156] |
+| Editor / sustainer compatibility | Editing Infinite TonePrints requires **TonePrint4.6.18 plus updated app content**. Historical4.5.5 requirement remains for the older release;not sufficient evidence for this effect. Installed versions unknown. | [Newer official notes1.5.6][PX5-F156] |
+| Live / firmware1.5.6 switching | Adds **momentary**,effect active only while pressed,and momentary+MASH modes. Second-foot-function menu renames None to Latching. This is switch behavior,not extra physical switches. | [Newer official notes][PX5-F156] |
+| Live / firmware1.4.3 tempo | **2023-10-19** adds per-slot Tempo Sync to global tempo,MIDI clock sync,and Tap/Tuner utility. Unsynced slots remain independent;temporary parameter-modifier changes return to global tempo. | [Original release-note conversion][PX5-FM] |
+| Memory / restore-point scope | **1.4.3 restore points cover user content and firmware**. Applying/importing overwrites stored TonePrints,Boards/settings and changes firmware to the snapshot’s version;system import also overwrites the local restore point. This is not an IR/capture loader. | [Original release-note conversion][PX5-FM] |
+| Editor / historical firmware requirements | **Firmware1.3.11,2022-03-03** recommends TonePrint app **4.5.5+** for full new-effect benefit. Units on1.0.101 require intermediate1.1.55 before1.2.18 or later. This is historical compatibility evidence, not a latest-firmware claim. | [Official release notes][PX5-F] |
+| Processing / firmware bypass change | Firmware1.3.6 limited FlashbackII/AlterEgo feedback to80% when bypassed in buffered mode. **1.3.11 respects higher feedback**, permitting self-oscillating bypass trails. Modulation/low-end and vibrato-subtype fixes also documented. | [Official release notes][PX5-F] |
+| Editor / firmware transport | Guide describes USB mass-storage transfer of a .bin file followed by power-cycle installation. This proves update transport, not USB audio or bus power. No update or download performed. | [Official release notes][PX5-F] |
+| Processing / latency | Published **0.8–2.4 ms** latency range; do not infer one fixed value for every Board. | [QSG p33][PX5-M] |
+| Editor / Bluetooth specification | **Bluetooth4.2 Low Energy**, up to10m in open space; structures affect range. Pair through global Bluetooth settings and TonePrint app. This establishes app connectivity, not Bluetooth audio streaming. | [QSG pp32–33][PX5-M] |
+| Categories / historical firmware additions | **1.3.6,2022-01-13** adds Alter Ego Vintage Echo. Also documents reversed chain-order display, improved external EXP/MIDI response and faster Board changes. These are dated changes, not a complete current library. | [Official release notes][PX5-F] |
+| Categories / firmware1.2.18 additions | **2020-12-18 adds Viscous Vibe,Helix Phaser,Tape Deck Looper**. Viscous Vibe defaults to Ramp as its second footswitch function;MASH can replace it in Board settings. These dated additions do not establish the complete current catalogue. | [Own X5 release notes][PX5-F] |
+| Live / Board navigation versus Quick Swap | Optional global two-switch navigation:**1+2 Board Down;2+3 Board Up**. While board number shows,1/3 continue down/up. **Disable this mode for Quick Swap**. Introduced1.2.18;not proof of seller firmware. | [Own X5 release notes][PX5-F] |
+| Expression / volume audit2026-10-19 | Japanese distributor ELECTORI’s Rev1.3 manual explicitly covers **firmware1.3.11**: EXP ASSIGNMENT/VOLUME is **Board-level**, unlike global EXP calibration. Volume can precede slot1, follow slot5, sit between slots, or follow the insert before SEND/after RETURN. OFF disables volume; modifier and volume are mutually exclusive. Later global override, volume min/max and position recall remain unverified. | [Distributor manual pp5–7](https://www.electori.co.jp/tc-electronic/assets/pdf/PLETHORA_X5_MANUAL_JP_REV_1_3.pdf) |
+| Expression / wiring and coverage qualification | Distributor p3 says **TS** EXP, conflicting with own QSG’s **TRS**; controller pinout remains unresolved. Its complete connector list has no dedicated headphones. Bypass, tail and looper attenuation guarantees remain unknown. No local download or device test. | [Distributor manual pp3,5–7](https://www.electori.co.jp/tc-electronic/assets/pdf/PLETHORA_X5_MANUAL_JP_REV_1_3.pdf);[QSG][PX5-M] |
+| Expression / Hot Knob scope | The three Hot Knob assignments are **Board-level settings**,controlling multiple pedal parameters in Play mode;not three additional audio blocks. | [Own X5 release notes1.2.18][PX5-F] |
+| Memory / automatic storage | Product documents automatic settings storage as edits occur. This does not establish a factory-filled Board count or persistent audio-loop storage. | [Product][PX5-P] |
+| Live / buffered no-trails | Firmware1.3.6 adds **Buffered / No Trails**, retaining buffering while cutting delay/reverb tails when disengaged. Distinguish it from buffered trailing behavior and the later1.3.11 feedback change. | [Official release notes][PX5-F] |
+| Expression / MIDI mapping | **CC100 Global Expression** maps0–125 to0–100%; Hot Knobs CC107–109. MASH for slots1–5:CC70/75/80/85/90; expression modifiers CC71/76/81/86/91. Physical EXP and MIDI expression are separate control paths. | [Official X5/X3 MIDI table][PX5-C] |
+| Live / MIDI looper mapping | CC110 Record,111 Play,112 Clear,113 Pause. Values0–24/25–50/51–76/77–102/103–127 target slots1–5 respectively. Slots4–5 explicitly X5-only. CC92 tap,93 tuner,94/95 Board down/up. | [Official X5/X3 MIDI table][PX5-C] |
+| Preset memory | **127 custom Boards;75 TonePrint slots per pedal**. Factory-filled subset unresolved; Board count is not simultaneous block count. | [Product][PX5-P] |
+| Synth / acoustic | Dedicated synth/acoustic conversion unresolved. | Unresolved |
+| I/O | Stereo quarter-inch TS inputs/outputs; TS Send/Return insert; TRS EXP; MIDI In/Thru; USB for computer TonePrint/update; DC input. USB audio/power unresolved. | [QSG pp14–15][PX5-M] |
+| Power / battery / USB | **9V DC,>600mA included supply**,5.5/2.1mm centre-negative. Actual draw,battery/USB operation unresolved. | [QSG controls/specifications][PX5-M] |
+| Dimensions / mass | Guide prints **298.5×116×53mm under H×W×D**,1.4kg. Axis-label inconsistency preserved; no silent normalization or size-bin assignment. | [QSG specifications][PX5-M] |
+| IR / NAM / capture | **Nine global proprietary cabinet simulations**, including bass use. User IR/native or converted NAM/capture support unresolved. | [Product][PX5-P] |
+| Editor / dated mobile compatibility | Developer listings explicitly name **Plethora X5** Bluetooth editing. Apple lists **TonePrint4.6.18,2025-04-01**, requiring **iOS16.0/iPadOS16.0+**; Google Play lists Android TonePrint,updated2025-03-26. Checked2026-10-18; minimum Android OS,desktop OS/architecture and every-device operation remain unverified. This narrows the older platform uncertainty without treating historical firmware notes as current OS requirements. | [Developer Apple listing](https://apps.apple.com/us/app/toneprint/id432767616);[Developer Android listing](https://play.google.com/store/apps/details?hl=en&id=com.tcelectronic.toneprint) |
+| Editor / distinct TC application | The separate **TC app,com.tcelectronic.tcapp**, expressly excludes TonePrint-generation products. It is not a replacement editor for this X5 record; TonePrint’s Android package is **com.tcelectronic.toneprint**. No app installed or hardware connection tested. | [Developer TC listing](https://play.google.com/store/apps/details?hl=en&id=com.tcelectronic.tcapp) |
+| Editor / platforms | Own X5 release notes, **1.1.55 dated 2020-11-09**, explicitly list TonePrint desktop editor for **Mac and PC**, and mobile app for **iOS and Android**. Historical platform evidence only: desktop/Android OS versions and processor architecture remain unverified; dated mobile-store evidence appears above. Bluetooth/USB app connectivity does not establish USB audio or power. | [Official release notes, version1.1.55 section][PX5-F]; [QSG pp14–15][PX5-M] |
+| Live / looper | RAM looper: **40s stereo/80s mono**, up to five instances per Board. Multiple instances do not imply five times shared memory capacity. Drums/scenes unresolved. | [Product][PX5-P] |
+| Live / routing | Insert allows external drive or four-cable setup; Quick Swap reorders effects. | [Product][PX5-P] |
+| Bass capability | Own product explicitly offers bass-oriented cabinet simulation; shared bass inclusion does not certify every effect equally on bass. | [Product][PX5-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | No qualified offer. | — |
+| New | No condition-confirmed offer. | — |
+| Unverified condition | **Rp9.105.200**,NEO MUSIC,shop158235298/item27271818642,Kota Sukabumi. Checked2026-10-17; three-month indexed crawl,July2 delivery text. Historical ask, not current stock/checkout. | [Item][PX5-O] |
+
+<!-- comparison evidence ends -->
+
+Variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers unresolved. No download or visual inspection claimed. All facts from own-model sources; no X3 specification substitution.
+
+[PX5-P]: https://www.tcelectronic.com/en/products/0709-AIK
+[PX5-M]: https://mediadl.musictribe.com/media/PLM/data/docs/P0D9M/QSG_TE_0709-AIK_PLETHORA-X5_WW.pdf
+[PX5-O]: https://shopee.co.id/TC-Electronic-PLETHORA-X5-TonePrint-Pedal-Board-Loaded-with-Favorite-FX-and-5-MASH-Footswitches-i.158235298.27271818642
+
+[PX5-F]: https://mediadl.musictribe.com/media/PLM/data/docs/P0D9M/Release-Notes_TE_P0D9M_PLETHORA-X5_Firmware-Update_v1.3.11_2022-03-03_Rev.2.pdf
+
+[PX5-C]: https://mediadl.musictribe.com/download/software/tcelectronic/Plethora_X5/PX5_3_MIDI_CC_table.pdf
+
+Newer documentation checked2026-10-17: manufacturer-hosted indexed1.5.6 text explicitly names both PX5/PX3 andmatches the converted16-page release-history body,including older own-X5 revisions already verified. Direct manufacturer CDN fetch failed500;conversion used only as original release text,not generated FAQs. Neither1.5.6 latest-status nor seller-installed firmware certified.
+
+[PX5-F156]: https://cdn.mediavalet.com/aunsw/musictribe/7oqt3nY_P0ypQrubxyiAZA/ZxnHhPbDPka4xmUQl3N2-Q/Original/Plethora_X5_X3_Release_notes_FW_v1_5_6.pdf
+[PX5-FM]: https://manuals.plus/m/fab495897f61212f13d7fd3403d4a371bcb2d147dc9c72fd72db55684cdb91f7

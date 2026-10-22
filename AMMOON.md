@@ -2,6 +2,12 @@
 
 [All guitar](ALL-GUITAR.md) · [Repository](README.md)
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [PockRock](#pockrock)
+<!-- brand-index ends -->
+
 ## PockRock
 
 Portable guitar multi-effects. Checked 2026-10-18; partial. Ownership and bass/vocal suitability unverified. Not interchangeable with POCKVERB, POCKAMP or other brands using similar names.

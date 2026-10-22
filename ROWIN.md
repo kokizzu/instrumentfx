@@ -2,6 +2,12 @@
 
 [All guitar](ALL-GUITAR.md) · [Repository](README.md)
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [RE-05 Looper Pro](#re-05-looper-pro)
+<!-- brand-index ends -->
+
 ## RE-05 Looper Pro
 
 Checked2026-10-18; partial. Manufacturer RE-05(Looper Pro) page matches the Shopee Looper Pro name and chorus/delay/reverb/tuner combination; seller title omits RE-05, so exact revision/label remains unconfirmed. Ownership,bass andvocal suitability unverified.

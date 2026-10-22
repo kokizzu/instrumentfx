@@ -1,5 +1,11 @@
 # Scorpion multi-effects
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [KMF-10](#kmf-10)
+<!-- brand-index ends -->
+
 ## KMF-10
 
 Consolidated **2026-10-17**. Complete original brand-based record and supporting model facts retained;300mA/500mA power,10–59 preset notation and amp/cab wording remain unresolved. No sibling/OEM specifications substituted.

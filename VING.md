@@ -1,5 +1,11 @@
 # VING multi-effects
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [Flybro FB-100](#flybro-fb-100)
+<!-- brand-index ends -->
+
 ## Flybro FB-100
 
 VING/Flybro FB-100 desktop guitar multi-effects. Consolidated **2026-10-17**; full original model/revision identity,405g/450g and power-source conflicts retained. Shared manufacturer identity does not make this BG300.

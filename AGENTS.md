@@ -39,3 +39,7 @@ Prices must buy hardware, not an accessory or unresolved lowest-priced variation
 ## Immediate commits and resumability
 
 Research one model, update its root brand document, commit the useful findings **before starting the next model**, and update affected category/instrument views and research-state.json. Verify saved contents and inventory counts. If interrupted, inspect commits and newer brand content before trusting an older cursor. Count each distinct active model once, exclude archives, and preserve unresolved fields. Never create a GitHub workflow to automate any of this.
+
+## Brand navigation order
+
+Keep root brand sections and the README brand/model navigation in A–Z order with natural numeric model ordering. Run `make brand-sort-plan`, review the preview, then `make brand-sort-apply` after additions. Keep source evidence and qualifications intact; do not turn partial leads into active models. Use `make brand-sort-test`, `make research-verify`, and the comparison checks before committing.

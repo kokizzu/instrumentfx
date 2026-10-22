@@ -1,5 +1,11 @@
 # CUVAVE multi-effects
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [H8](#h8)
+<!-- brand-index ends -->
+
 ## H8
 
 CUVAVE/M-VAVE H8 headphone-format guitar multi-effects, not MINI-X or Pocket Amp. Consolidated **2026-10-17**; existing ownership retained without private receipts or another unique record.

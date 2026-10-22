@@ -2,6 +2,13 @@
 
 [Repository](README.md) · [Guitar comparison](ALL-GUITAR.md) · [Bass comparison](ALL-BASS.md)
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [FM3 MKII Turbo](#fm3-mkii-turbo)
+- [FM9 MKII Turbo](#fm9-mkii-turbo)
+<!-- brand-index ends -->
+
 ## FM3 MKII Turbo
 
 Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; original FM3 offers are not merged. Manufacturer's 7.x manual expressly covers both revisions; current firmware listing is newer. Unknown means unverified.

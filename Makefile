@@ -2107,3 +2107,19 @@ expression-audit-commit-eventide:
 .PHONY: expression-audit-commit-ik
 expression-audit-commit-ik:
 	python3 scripts/expression_audit_ik.py commit
+
+.PHONY: brand-sort-sync brand-sort-plan brand-sort-apply brand-sort-verify brand-sort-commit
+brand-sort-sync:
+	python3 scripts/brand_sort.py sync
+brand-sort-plan:
+	python3 scripts/brand_sort.py plan
+brand-sort-apply:
+	python3 scripts/brand_sort.py apply
+brand-sort-verify:
+	python3 scripts/brand_sort.py verify
+brand-sort-commit:
+	python3 scripts/brand_sort.py commit
+
+.PHONY: brand-sort-test
+brand-sort-test:
+	python3 scripts/brand_sort.py test

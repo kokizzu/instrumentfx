@@ -6,245 +6,24 @@
 
 The [official multi-effects collection](https://www.flamma.shop/collections/multi-effects), [manufacturer catalogue](https://flammainnovation.com/shop.html?ancestors=0%2C1256) and [manual/software index](https://www.flamma.shop/pages/manual) establish additional families for research. They do not prove Indonesian stock or complete specification verification. Unknown is `?`, not No; K/F/B counts rotary controls, main footswitches and separate buttons, excluding encoder presses/toe/power switches counted separately.
 
-## FX100
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
 
-**Original technical/price observation date:2026-10-14. Manufacturer store rechecked2026-10-17 for the mass conflict and USB recording; remaining original facts are not freshly certified. Partial.**
-
-<!-- comparison evidence begins -->
-| Field | Verified finding / unresolved qualification |
-|---|---|
-| Expression / controls | Built-in expression, no external EXP in complete rear inventory; toe details ?. **3/2/6** controls; module LEDs are not buttons. |
-| Display | Color graphical screen; published diagonal and explicit touch specification ?. |
-| Dimensions / weight | **230×155.99×32.8 mm**,medium. Original V04-manual record: **859g**. Current [manufacturer store](https://www.flamma.shop/en-au/products/flamma-portable-multi-effects-pedal-fx100),checked2026-10-17: **1kg** with matching dimensions. Mass conflict unresolved; no claim that1kg is packaging or a new hardware revision. Cable/pedal clearance additional. |
-| Processing | **Nine modules,151 choices** including amps/cabs; category table below. |
-| Presets | **200 locations**; factory-filled/user/overwrite distinction remains to be established. |
-| Acoustic / synth | **Three acoustic simulators in AMP**; dedicated synth unverified. |
-| Ports | 6.35 mm input;two6.35 mm outputs;3.5 mm AUX and phones; **USB-B editor port plus separate micro-USB OTG recording port**. |
-| Power | **9 V center-negative,300 mA**; battery and USB-powered operation unverified. |
-| IR / NAM | WAV IR import, **512 points,10 user locations** in manufacturer product documentation. NAM/capture support unverified; IR alone is not NAM. |
-| Software / recording | **Windows/macOS editor**. Manufacturer store explicitly supports computer USB recording,updates and preset editing,plus separate micro-USB OTG phone recording. Exact audio channel count,sample rate/bit depth and driver/reamp path remain unverified. Mobile OTG audio does not establish a mobile editor. [Current store](https://www.flamma.shop/en-au/products/flamma-portable-multi-effects-pedal-fx100) |
-| Practice | **80-second looper;40 rhythms +10 metronomes**. |
-
-| FX/COMP | DS/OD | AMP | CAB | NS | EQ | MOD | DLY | REV | Sum |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-|8|20|55|26|3|4|19|9|7|151|
-
-The three acoustic AMP entries explicitly say simulator. Similar numbers in another brand do not establish identical hardware or firmware.
-
-### FX100 — IDR and sources
-
-Retail **Rp2.480.000**: [Seven Stereo, shop16879370/item17358217022](https://shopee.co.id/FLAMMA-FX100-Portable-Multi-Effects-Digital-i.16879370.17358217022). [Ultra Audio, shop284079667/item11191888836](https://shopee.co.id/FLAMMA-FX100-FX-100-Portable-Multi-Effects-Efek-Pedal-ORIGINAL-i.284079667.11191888836) had **Rp1.985.000 in fetched body versus Rp2.185.000 indexed snippet**; this is a source disagreement, not a market range. Used **?**. Separate [Tokosound website](https://www.tokosound.com/flamma-fx100-fx-100-portable-multi-effects-pedal.html) **Rp2.150.000** is not a Shopee quote. Stock,authenticity,condition,bundle,warranty and shipping were not independently verified.
-
-Primary sources: [official product](https://flammainnovation.com/single.html?id=38), [downloads](https://www.flamma.shop/pages/manual), [manufacturer V04 manual,2025-03-27](https://flammainnovation.com/file/pdf?fileName=FX100_Manual_EN.pdf&url=group1%2FM00%2F00%2F10%2FwKgA0Gfk_emAJkleABhg1Vx1GFs477.pdf). Original review visually checked printed pp.3,20–30. This consolidation does not claim a new PDF inspection. Remaining: display details,preset overwrite rules,current firmware/import limits,used-condition quotes and USB/battery operation.
-
-<!-- comparison evidence ends -->
-
-### FX100 — updated source access and complete original finding
-
-On2026-10-17 the [original product endpoint](https://flammainnovation.com/single.html?id=38) returned an empty product template. The [manufacturer store](https://www.flamma.shop/en-au/products/flamma-portable-multi-effects-pedal-fx100) supplies the mass/USB follow-up above. It repeats200 preset patches but does not establish the factory/user/overwrite split. Display diagonal,touch,toe and import questions remain unresolved; no sibling FX200 specifications were used. No PDF,editor or dependency was downloaded or run in this follow-up.
-
-The complete2026-10-14 finding follows with original evidence dates,price conflicts,inspection limits and URLs unchanged apart from reversible reference prefixes and heading depth. The current mass disagreement does not erase its historical859g observation.
-
-<!-- FLAMMA-FX100 source begins -->
-
-Checked **2026-10-14**. **Partial new model.** [Manufacturer manual V04, 2025-03-27][FLAMMA-FX100-M], printed pp.3, 20–30, visually checked; [official product page][FLAMMA-FX100-P] and [downloads][FLAMMA-FX100-D].
-
-| Field | Established / unknown |
-|---|---|
-| Expression | Built-in; no external-expression socket in rear inventory; toe-switch details ? |
-| Controls | **3 rotary /2 footswitches /6 buttons**; module LEDs are not buttons |
-| Screen | Color graphical screen; diagonal and explicit touch specification ? |
-| Size / weight | **230×155.99×32.8 mm; 859 g**; medium |
-| Processing | **9 modules, 151 types**; category breakdown below |
-| Presets | **200 slots**, factory-filled/editable split needs confirmation |
-| Acoustic / synth | **3 acoustic simulators** in AMP; synth ? |
-| Ports | ¼-inch input, 2×¼-inch outputs, ⅛-inch aux/phones; **USB-B editor connection and separate micro-USB OTG recording** |
-| Power | **9 V center-negative, 300 mA**; battery/USB-powered operation unverified |
-| IR / NAM | User WAV IR, **512 points**, 10 user slots in [product documentation][FLAMMA-FX100-P]; NAM ? |
-| Editor | **Windows/macOS**; do not confuse mobile OTG audio with mobile editing |
-| Extras | **80 s looper; 40 rhythms +10 metronomes** |
-
-### Manual category counts
-
-| FX/COMP | DS/OD | AMP | CAB | NS | EQ | MOD | DLY | REV |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 8 | 20 | 55 | 26 | 3 | 4 | 19 | 9 | 7 |
-
-These sum to **151**, including amps/cabinets. The three AMP acoustic entries explicitly say simulator. Shared counts with another brand are not proof of identical hardware or firmware.
-
-### Shopee Indonesia
-
-**Rp2.480.000**, [Seven Stereo retail listing][FLAMMA-FX100-S1]. [Ultra Audio][FLAMMA-FX100-S2] has a price conflict: **Rp1.985.000 fetched body vs Rp2.185.000 indexed snippet**. Do not turn that conflict into a market range. Neither establishes checkout stock or completed-sale value. Explicit used price **?**. The separate [Tokosound local-retail offer][FLAMMA-FX100-L] is **Rp2.150.000**, not a Shopee quote.
-
-[FLAMMA-FX100-M]: https://flammainnovation.com/file/pdf?fileName=FX100_Manual_EN.pdf&url=group1%2FM00%2F00%2F10%2FwKgA0Gfk_emAJkleABhg1Vx1GFs477.pdf
-[FLAMMA-FX100-D]: https://www.flamma.shop/pages/manual
-[FLAMMA-FX100-P]: https://flammainnovation.com/single.html?id=38
-[FLAMMA-FX100-S1]: https://shopee.co.id/FLAMMA-FX100-Portable-Multi-Effects-Digital-i.16879370.17358217022
-[FLAMMA-FX100-S2]: https://shopee.co.id/FLAMMA-FX100-FX-100-Portable-Multi-Effects-Efek-Pedal-ORIGINAL-i.284079667.11191888836
-[FLAMMA-FX100-L]: https://www.tokosound.com/flamma-fx100-fx-100-portable-multi-effects-pedal.html
-
-**Next:** display diagonal/touch, preset overwrite rules, current firmware/import limits and used-condition quotes. Price retrieval does not authenticate sellers or include shipping.
-<!-- FLAMMA-FX100 source ends -->
-
-### Preserved first Shopee shared comparison
-
-Historical2026-10-14 source wording. Later firmware-qualified findings and current comparison fields retain precedence. Price observations,old size definitions and unknowns below are preserved with their original scope;this is not a new stock/specification verification.
-
-- **External expression / toe** (Built-in expression): No socket / toe ?
-- **Dimensions; weight** (Built-in expression): 230×155.99×32.8; 859 g
-- **Size** (Built-in expression): Medium
-- **Retail IDR observation** (Built-in expression): Rp2.480.000; **another item conflicts: Rp1.985.000 body vs Rp2.185.000 snippet**
-- **Display type** (2. Displays): Graphical screen
-- **Simultaneous stages; categories / choices** (3. Processing, presets and loading): 9 modules; **151**, manual category counts 8/20/55/26/3/4/19/9/7 in FX/DS/AMP/CAB/NS/EQ/MOD/DLY/REV order
-- **Preset storage** (3. Processing, presets and loading): 200 slots; overwrite/factory split ?
-- **Acoustic simulation / synth** (3. Processing, presets and loading): **3 acoustic simulators** / synth ?
-- **IR / NAM** (3. Processing, presets and loading): **10 user IR slots**, WAV512; NAM ?
-- **Physical ports, excluding DC input** (4. Audio/control connections): ¼-inch input; 2×¼-inch outputs; ⅛-inch aux/phones; **USB-B editor +separate micro-USB OTG**
-- **Power / batteries** (5. Power, software and practice/live features): **9V center-negative/300mA**; battery/USB power ?
-- **Other documented functions** (5. Power, software and practice/live features): 80 s looper;40 rhythms+10 metronomes; separate OTG recording connection
-
-[Original shared source](research-state.json)<!-- historical-link:flamma-001 -->,retained pending complete navigation/provenance audits.
-
-## FX200
-
-**Original technical/price date:2026-10-14. Support/store follow-up2026-10-17. Partial.** Standard FX200,not battery FX200b; new software observations do not certify all older specifications.
-
-<!-- comparison evidence begins -->
-| Field | Verified finding / unresolved qualification |
-|---|---|
-| Expression / controls | Built-in with toe switching; external EXP2. **2/4/0**; power/ground switches separate. |
-| Display | **5-inch color LCD touchscreen**. |
-| Size / mass | **343×170×55 mm;1780 g**. Manual labels D×W×H despite the wide layout; axis mapping unresolved, large under either horizontal orientation. |
-| Processing | **Ten modules including FX loop**,160 advertised choices versus161 numbered entries below. Nine algorithm categories plus loop do not create ten arbitrary duplicate engines. |
-| Presets | **200 editable locations**; factory-filled subset ?. |
-| Acoustic / synth | No electric-to-acoustic simulator identified in checked appendix; dedicated synth ?. |
-| Ports | Mono6.35 mm instrument input;two6.35 mm outs;two XLR outs;mono send/return;3.5 mm AUX/phones;EXP2;**one DIN MIDI socket selectable IN or OUT**;USB-C. |
-| Power | **9 V center-negative,at least1 A adapter** in original manual finding. Manufacturer store explicitly reserves the3000mAh battery for **FX200b**,not standardFX200. USB bus power remains unverified. [Store](https://www.flamma.shop/products/flamma-fx200-multi-effects-pedal-processor-for-studio-stage-or-practice) |
-| IR / NAM | **50 user IRs**,WAV24-bit/44.1kHz,**1024 points**. Current store explicitly says editor supports sample-rate conversion; accepted source-rate range and on-device arbitrary-rate playback are not thereby established. NAM/captures unverified. [Store](https://www.flamma.shop/products/flamma-fx200-multi-effects-pedal-processor-for-studio-stage-or-practice) |
-| Firmware / editor | [Official support index](https://www.flamma.shop/pages/manual),checked2026-10-17,lists Windows/Mac **software1.1.3 and2.0.1**. Its **FX200 V2.0.0 history** adds dual-group footswitch mode,volume-pedal PRE/POST placement,EQ Level,encoder chain adjustment and revised Favorite-mode logic. Software-package2.0.1 is not proof of installed hardware firmware. Updating is documented to reset factory settings; manufacturer requires backup through the old editor. Packages were not downloaded or run. |
-| FX-loop routing conflict | Original manual finding: mono SEND/RETURN. Current store overview calls it stereo,but detailed connector text says6.35mm unbalanced mono. Preserve internal source conflict; no extra stereo sockets inferred. PRE/POST placement is advertised. [Store](https://www.flamma.shop/products/flamma-fx200-multi-effects-pedal-processor-for-studio-stage-or-practice) |
-| Apps / practice | **Windows/macOS editor**;USB audio is not mobile editing. **52-second stereo looper,PRE/POST;80 drum variations +10 metronomes**;delay/reverb spillover. |
-
-| FX | DS | AMP | CAB | NR | EQ | MOD | DLY | REV | Numbered sum |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-|8|22|58|30|3|4|20|9|7|161|
-
-The manual feature text says160; the table arithmetic says161. No silent correction or invented firmware explanation is made.
-
-### FX200 — IDR and sources
-
-Retail **Rp4.999.000**, [Seven Stereo Grey/Pink variations, shop16879370/item20579405424](https://shopee.co.id/FLAMMA-FX200-Multi-Effect-Processor-i.16879370.20579405424); separate **Rp5.047.000**, [NEO MUSIC Pink, shop158235298/item23657068790](https://shopee.co.id/FLAMMA-FX200-Pink-Guitar-Multi-Effects-i.158235298.23657068790). Used **?**. Individual asks,not verified stock or completed sales. [Nafiri website Pink](https://nafiriguitar.com/products/flamma-fx200-guitar-multi-effects-in-pink) **Rp4.773.000** had conflicting Sold out/Add to cart markers; neither confirmed stock nor a Shopee amount.
-
-Sources: [manufacturer manual V01,2022-08-08](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FX200_Manual_EN_V01_2022.08.08-G.pdf?v=1671100677), [software index](https://www.flamma.shop/pages/manual). Original review visually checked pp.3–6,20–23,43–62. No renewed technical certification in this merge. Remaining: effect-count/axis conflicts,current firmware,touch-independent device details,used prices and exact retail variants.
-
-<!-- comparison evidence ends -->
-
-### FX200 — complete dated original finding
-
-The current support/store additions above are2026-10-17 observations. The full2026-10-14 finding below retains every original specification,qualification,price,URL and visual-inspection statement. No new PDF inspection or device execution was performed; historical unknowns are not substituted for later evidence. The160/161 effect-count and axis-label conflicts remain unresolved.
-
-<!-- FLAMMA-FX200 source begins -->
-
-Checked **2026-10-14**. **Partial new model**, not FX200B. [Manufacturer manual][FLAMMA-FX200-M], printed pp.3–6, 20–23, 43–62, visually checked; [software downloads][FLAMMA-FX200-D].
-
-| Field | Established / unknown |
-|---|---|
-| Expression | Built-in with toe switching; external EXP2 |
-| Controls | **2 rotary /4 footswitches /0 separate buttons**; power/ground switches separate |
-| Display | **5-inch color LCD touchscreen: yes** |
-| Size / weight | **343×170×55 mm; 1780 g**; manual labels this D×W×H despite the wide layout. W/D labeling unresolved; **large either way** |
-| Processing | **10 modules**, including FX loop; 160 advertised choices; count discrepancy below |
-| Presets | **200 editable**, factory-filled subset ? |
-| Acoustic / synth | No electric-to-acoustic simulator identified in checked list; synth ? |
-| Ports | ¼-inch instrument input; 2×¼-inch outputs; 2×XLR outputs; mono FX send/return; ⅛-inch aux/phones; EXP2; **one DIN MIDI port selectable IN or OUT**; USB-C |
-| Power | **9 V center-negative, ≥1 A adapter**; battery/USB operation not established |
-| IR / NAM | **50 user IRs**, WAV 24-bit/44.1 kHz, **1024 points**; NAM ? |
-| Apps | **Windows/macOS editor**; USB audio, not proof of mobile editing |
-| Extras | **52 s stereo looper**, pre/post; **80 drum variations +10 metronomes**; delay/reverb spillover |
-
-### Manual category-count conflict
-
-| FX | DS | AMP | CAB | NR | EQ | MOD | DLY | REV |
-|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| 8 | 22 | 58 | 30 | 3 | 4 | 20 | 9 | 7 |
-
-The numbered tables sum to **161**, whereas the feature/specification text says **160**. Both are preserved; no silent correction or invented firmware explanation. Nine algorithm categories plus FX-loop module do not mean ten unrestricted slots.
-
-### Shopee Indonesia
-
-**Rp4.999.000**, [Seven Stereo, Grey/Pink variations][FLAMMA-FX200-S1]; **Rp5.047.000**, [NEO MUSIC Pink][FLAMMA-FX200-S2]. Individual retail asks, not stock-verified or completed sales. Used quote **?**. A separate [Nafiri website quote][FLAMMA-FX200-L] is **Rp4.773.000** for Pink, with conflicting Sold out/Add to cart elements; it is neither confirmed stock nor a Shopee price.
-
-[FLAMMA-FX200-M]: https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FX200_Manual_EN_V01_2022.08.08-G.pdf?v=1671100677
-[FLAMMA-FX200-D]: https://www.flamma.shop/pages/manual
-[FLAMMA-FX200-S1]: https://shopee.co.id/FLAMMA-FX200-Multi-Effect-Processor-i.16879370.20579405424
-[FLAMMA-FX200-S2]: https://shopee.co.id/FLAMMA-FX200-Pink-Guitar-Multi-Effects-i.158235298.23657068790
-[FLAMMA-FX200-L]: https://nafiriguitar.com/products/flamma-fx200-guitar-multi-effects-in-pink
-
-**Next:** reconcile effect totals and dimension labels against current firmware/manual, verify used prices and exact selected variants. A programmable single MIDI socket is not simultaneous separate MIDI IN and OUT.
-<!-- FLAMMA-FX200 source ends -->
-
-### Preserved first Shopee shared comparison
-
-Historical2026-10-14 source wording. Later firmware-qualified findings and current comparison fields retain precedence. Price observations,old size definitions and unknowns below are preserved with their original scope;this is not a new stock/specification verification.
-
-- **External expression / toe** (Built-in expression): EXP2 / toe yes
-- **Dimensions; weight** (Built-in expression): **343×170×55, W/D labels unresolved**; 1780 g
-- **Size** (Built-in expression): Large either orientation
-- **Retail IDR observation** (Built-in expression): Rp4.999.000, Grey/Pink listing; Rp5.047.000 Pink listing; selected variant/stock unconfirmed
-- **Diagonal** (2. Displays): **5**
-- **Monochrome / color** (2. Displays): Color
-- **Touch** (2. Displays): **Yes**
-- **Simultaneous stages; categories / choices** (3. Processing, presets and loading): 10 modules incl. FX loop; **160 advertised vs161 in numbered tables**: FX8 DS22 AMP58 CAB30 NR3 EQ4 MOD20 DLY9 REV7
-- **Preset storage** (3. Processing, presets and loading): 200 editable; factory subset ?
-- **Acoustic simulation / synth** (3. Processing, presets and loading): Simulator not identified in checked list / synth ?
-- **IR / NAM** (3. Processing, presets and loading): **50 user IRs**, 24-bit/44.1 kHz/1024; NAM ?
-- **Physical ports, excluding DC input** (4. Audio/control connections): ¼-inch input; 2×¼-inch +2×XLR outputs; mono send/return; ⅛-inch aux/phones; EXP2; **one selectable DIN MIDI IN or OUT**; USB-C
-- **Power / batteries** (5. Power, software and practice/live features): **9V center-negative,≥1A adapter**; battery/USB power ?
-- **Other documented functions** (5. Power, software and practice/live features): USB audio;52 s stereo pre/post looper;80 drum variations+10 metronomes; spillover
-
-[Original shared source](research-state.json)<!-- historical-link:flamma-002 -->,retained pending complete navigation/provenance audits.
-
-## FX150
-
-**New researched model,2026-10-15. Standard non-battery FX150,not FX150b.** The shared manufacturer manual explicitly separates the power and mass of the two variants; no sibling inference is needed for those named differences.
-
-| Required field | Source-backed specification / remaining uncertainty |
-|---|---|
-| Expression | **Built-in pedal with toe-pressure on/off;one external6.35 mm TRS EXP2 input**. Volume/wah/parameter assignments documented. |
-| Knobs / footswitches / buttons | **2/3/0 separate front buttons**: MASTER,VALUE encoder;A/B/C footswitches. Rear power switch and toe separate. Onscreen icons and encoder press are not physical buttons. Numbered manual text read; front/rear-page screenshot attempts failed. |
-| Screen | **5-inch color LCD touchscreen**; touch editing explicitly documented,not inferred from color. Pixel resolution unverified. |
-| Dimensions / weight | Manual publishes **150×273×56 mm;1345 g**, without axis labels. Store specification instead gives **155×287×84 mm**,with matching1.345 kg. Preserve dimensional conflict; do not assume the larger figure is packaging without evidence. Not compact; exact W/D-based medium/large bin pending. |
-| Architecture | **Ten reorderable modules**,including FX-loop utility,nine algorithm categories;DSP usage meter. One selected type per category,not ten freely duplicated high-load engines. Independent parallel-chain capability not established. |
-| Choices | **160 advertised versus161 numbered**: FX8,DS22,AMP58,CAB30,NR3,EQ4,MOD20,DELAY9,REVERB7. Count includes amps/cabs. The matched FX150 appendix was checked rather than copying FX200 totals. |
-| Memory | **180 editable locations =60 banks×3**. Factory-filled subset unverified; not180 factory plus180 user. |
-| Synth / acoustic | No dedicated synthesizer or electric-to-acoustic simulator identified in the inspected appendix. Talk wah,pitch and ring modulation are not automatically synthesis. Future unverified firmware is not assumed to have the same library. |
-| IR | **50 user slots31–80,after30 factory cabinets**;WAV24-bit/44.1 kHz,1024 points. Editor converts imported source rate/depth;this is not native arbitrary-rate IR playback. |
-| NAM / captures | Native/converted NAM and user amp-capture loading not established. Cabinet IR import proves neither. |
-| Instrument / loop | One6.35 mm mono input,1 MΩ;mono6.35 mm SEND510Ω and RETURN1 MΩ. Four-cable use documented. |
-| Outputs / aux | **Two6.35 mm unbalanced mono L/R outputs,600Ω**;3.5 mm stereo headphones47Ω;3.5 mm stereo AUX47kΩ. An early MASTER sentence mentions XLR,but no XLR exists in the complete rear list/specification;record this editorial conflict,not phantom XLR sockets. |
-| Control / data | EXP2,USB-C data/audio and DC. No physical DIN/TRS MIDI or mic/phantom in complete rear inventory. Do not transfer FX200's MIDI connector. |
-| Power | Standard **9 V/1 A center-negative** specified supply;no FX150b battery included. USB-powered operation not established. FX150b's9V/3A supply and1500 g mass belong to the battery variant,not this profile. |
-| Configuration | **FX150 editor Windows/macOS**,preset management,parameter editing,IR import,firmware. Manufacturer software index listsV1.1.1;installed unit firmware not verified. Android/iOS/Linux full editor unverified. |
-| USB audio | **24-bit/44.1 kHz**,left/right channels separately selectable dry or effects,record/playback level and direct-monitor mix. Windows ASIO;macOS without added driver. Exact enumerated interface channel count and reamp routing not independently established. |
-| Looper / live | **52-second stereo PRE/POST looper;80 drum variations +10 metronomes**;delay/reverb spillover,global EQ,independent cab bypass for left/right,CTRL/tap assignments,tuner435–445 Hz. Differing L/R global cab settings force CAB to the chain end. |
-
-### FX150 — exact Shopee evidence
-
-| Price class | IDR amount | Evidence / limitation |
-|---|---:|---|
-| Standard Gray retail indexed ask | **Rp3.878.980** | [NEO MUSIC,shop158235298/item23951974031](https://shopee.co.id/FLAMMA-FX150-Gray-Portable-Multi-Effects-Pedal-i.158235298.23951974031). Retrieved search evidence retained August delivery text;direct reopening failed. Not current checkout stock. |
-| Unresolved two-variation retail listing | **Rp3.766.000** | [Asia Pro Sound,shop703046367/item28674865115](https://shopee.co.id/Flamma-FX150-Multi-Effects-Guitar-i.703046367.28674865115). Do not assign the lowest amount to both variants or confuse FX150b with standard hardware. |
-| Condition-verified used | **?** | No suitable offer established. No percentage-of-new estimate. |
-
-Seller names are not authentication. Actual condition,region,bundle,warranty,shipping,voucher eligibility and stock remain unverified. Older cached asks do not form a verified active market range.
-
-### FX150 — primary sources and source conflicts
-
-[Manufacturer product](https://www.flamma.shop/products/flamma-fx150-guitar-multi-effects-pedal); [manual/software index](https://www.flamma.shop/pages/manual); [manufacturer downloads](https://flammainnovation.com/download.html); **[official76-page FX150/FX150b manual](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FX150_Manual_EN_V01_2023.06.21.pdf?v=1691648362)**. Filename says2023-06-21 while document title says06-26;the revision is kept identifiable rather than renamed.
-
-Manual numbered panels,editing,saving,USB,software and complete algorithm appendix were read. Screenshots successfully checked the algorithm tables on printed pp.56–58,62,64–68 and specifications pp.70–71. Front/rear screenshots failed,so the numbered original text—not a claimed successful image inspection—supports control/connector counts. The specification clearly lists two unbalanced output jacks,not a single stereo TRS or XLR pair.
-
-Store-template FAQs mention an unrelated CapturePro camera,Wi-Fi and photo battery life;they are not FX150 evidence. Its dimensional figures and the manual's differ;no speculative packaging explanation. The manual's XLR reference and160/161 count disagreement remain explicit. More verification needed: exact dimensions/axes,current firmware changes,USB bus power/channels,display resolution,preset factory subset and active used/new offers.
+- [Additional Flamma families to research](#additional-flamma-families-to-research)
+- [Consolidation provenance](#consolidation-provenance)
+- [FB200](#fb200)
+- [FG200](#fg200)
+- [FV02 Doubling](#fv02-doubling)
+- [FV03 Character](#fv03-character)
+- [FV04 Harmony](#fv04-harmony)
+- [FV05 Recorder](#fv05-recorder)
+- [FX20](#fx20)
+- [FX50](#fx50)
+- [FX100](#fx100)
+- [FX150](#fx150)
+- [FX150b](#fx150b)
+- [FX200](#fx200)
+<!-- brand-index ends -->
 
 ## Additional Flamma families to research
 
@@ -253,6 +32,90 @@ The official [multi-effects collection](https://www.flamma.shop/collections/mult
 ## Consolidation provenance
 
 Existing FX100 blob `0a366c17163ad26d646d48bc4a2b174c55a4e802` and FX200 blob `bb326bf057dcb3d0da29d3bd9c70e4579ba784a0` supplied all preserved model fields,source URLs,prices and qualifications above. Stale next-batch instructions are replaced by root research-state.json,not treated as technical facts. FX150 is one new model;the two consolidations add none. Shared legacy comparison links still require retirement validation;old sources were not deleted by this commit.
+
+## FB200
+
+Checked **2026-10-17**; partial. Bass-focused combined multi-effects; distinct from FG200. No positive guitar/vocal classification established.
+
+<!-- comparison evidence begins -->
+
+| Required field | Finding / qualification |
+|---|---|
+| Built-in / external / toe expression | No built-in pedal or EXP socket in complete manual inventory; toe unverified. [Manual][FB2-M], pp05–07 |
+| Rotary / footswitches / buttons | **16 / 4 / 0** from product/panel inventory; power slider separate. Image verification pending. [Product][FB2-P]; [Manual][FB2-M] |
+| Display | Three-character numeric display; diagonal,color and touch unverified. Ambient RGB strip is not a color screen. [Product][FB2-P] |
+| Dimensions / weight | **311×67.5×49.7 mm;578 g**; axes/accessory inclusion unspecified. [Manual][FB2-M], p22 |
+| Simultaneous processing / routing | Named fixed modules:Gate,Comp,Amp,Cab,Mod,Reverb,Master. Maximum simultaneous processing/routing flexibility unverified. [Manual][FB2-M], pp10–11 |
+| Categories / choices | **10 amps,10 cabinets,1 compressor,12 modulation,5 reverb**,plus gate. Product's20 AMP/CAB combines10+10,not20 each. Its19 effects reconcile arithmetically as gate1+comp1+mod12+reverb5; arithmetic is not DSP capacity. [Manual][FB2-M], pp18–21; [Product][FB2-P] |
+| Factory / user / total presets | **40 writable slots**; factory-filled subset unverified,not40 factory plus40 user. [Product][FB2-P] |
+| Synth / acoustic simulation | Dedicated synth/acoustic simulator each unverified; ring modulation/filter do not establish either. |
+| IR / NAM / capture | **9 third-party IR slots**; WAV,44.1kHz,24-bit,512 samples; guide allows other input sample rates. Native NAM,converted NAM and proprietary capture loading individually unverified. [Manual][FB2-M], p22; [Product][FB2-P] |
+| Audio / control I/O | Mono6.35mm input/output;3.5mm stereo phones;USB-C charging/OTG;Bluetooth5.0 playback. No mic,aux,EXP,MIDI DIN or loop ports in panel inventory. [Manual][FB2-M], pp06–07,22 |
+| Power / battery / USB | **2000mAh lithium**,up to6h,about2.5h charge. **5V/2A charging,USB-A-to-C only**. Current draw and simultaneous charging/play unverified; barrel polarity inapplicable to documented USB supply. [Product][FB2-P]; [Manual][FB2-M], p22 |
+| Editor / platforms / drivers | FLAMMA mobile app edits tones,cloud,drums/settings. Desktop IR management/updater **v1.0.1 Mac/Windows** listed separately; full desktop editing and exact OS versions unverified. Mobile iOS/Android versions unresolved. [Manual][FB2-M], p17; [Software index][FB2-I] |
+| USB audio / recording | OTG recording supported; sample rate,bit depth,channels,desktop drivers and dry routing unverified. IR format does not establish USB audio format. [Product][FB2-P] |
+| Looper / live features | Live/Preset modes;40 drum patterns,tuner,Bluetooth playback. Looper,scenes,spillover unverified. [Product][FB2-P] |
+| Footswitch assignment conflict | Module text assigns C to both Amp/Cab and Mod; operation page also mistakenly names FG200. Exact live mapping needs panel verification; sibling behavior not substituted. [Manual][FB2-M], pp10–13 |
+| Used IDR | **?** No condition-qualified used offer established. |
+| New IDR | **?** Exact ask below does not establish new condition. |
+
+<!-- comparison evidence ends -->
+
+### Exact Shopee hardware evidence
+
+Checked **2026-10-17**: [NEO MUSIC,shop158235298/item49952333845](https://shopee.co.id/FLAMMA-FB200-Intelligent-Combined-Bass-Effects-Pedal-i.158235298.49952333845), Kota Sukabumi: **Rp1,427,580**. Three-month indexed/reopened cache. Exact FB200 title; no Habis marker is not stock confirmation. Tomorrow delivery banner is not evidence of current availability. Sale/working condition,selected variation,bundle/charger,warranty,shipping/tax,voucher and final total unverified. Late compensation not deducted; no foreign-price conversion or completed-sale claim.
+
+### Primary-document identity and gaps
+
+Own **FB200 V01,2025-05-22**,25 PDF pages; selected text sections inspected. No panel image or complete firmware audit claimed. Manufacturer product states16 dials,4 footswitches,40 memories,19 effects,20 combined AMP/CAB models,9 IR slots and battery/runtime; manual separates amp/cab tables. Mobile editor and desktop IR/updater roles remain distinct. Published charging constraint is retained without asserting all USB-C-to-C behavior was tested. Ownership unknown.
+
+Remaining: verify footswitch/panel discrepancy,complete simultaneous processing/order,display,exact mobile/desktop OS support,USB formats/drivers,charge/play operation,measured draw,synth/acoustic/NAM/capture/live unknowns and qualified prices. No files,dependencies,firmware or software downloaded/executed.
+
+[FB2-M]: https://www.flammainnovation.com/file/pdf?fileName=FB200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0F%2FwKgA0Ghcs82AOmZKABRLE2iOyS0799.pdf
+[FB2-P]: https://www.flamma.shop/en-au/products/flamma-fb200-bass-guitar-intelligent-combined-multi-effects-pedal
+[FB2-I]: https://www.flamma.shop/pages/manual
+
+## FG200
+
+Checked **2026-10-17**; partial. Guitar multi-effects strip; distinct from FB200. Bass/vocal membership unverified; a Bassman guitar-amp model is not evidence of bass support.
+
+<!-- comparison evidence begins -->
+
+| Required field | Finding / qualification |
+|---|---|
+| Built-in / external / toe expression | No pedal or EXP socket in complete panel inventory; toe not documented. [Manual][FG2-M], pp04–06 |
+| Rotary / footswitches / buttons | **16 / 4 / 0** derived:Gate1,Boost1,Amp6,Cab1,Mod2,Delay2,Reverb2,Master1;A–D switches. Power slider separate; image verification pending. [Manual][FG2-M], pp09–10 |
+| Display | Three-character numeric display; diagonal,color,touch unverified. Ambient RGB strip is not a color screen. [Manual][FG2-M], p03 |
+| Dimensions / weight | **311×67.5×49.7 mm;578 g**; axes/accessory inclusion unspecified. [Manual][FG2-M], p27 |
+| Simultaneous processing / categories | Seven named fixed modules:Gate,Boost,Amp,Cab,Mod,Delay,Reverb; maximum simultaneous processing/reordering unverified. Original library **5 Boost,52 Amp,16 Cab,12 Mod,5 Delay,5 Reverb**. Model choices are not simultaneous blocks. [Product][FG2-P] |
+| Firmware-qualified model changes | Index notes **v1.2.1 adds14 Boost models and preset-mode delay tap**; **v1.2.5 adds compression to Gate**. Do not present original5 Boost as firmware-current total or infer every installed unit is updated. Download index separately lists1.2.6 installers; full reconciliation pending. [Software index][FG2-I]; [Download index][FG2-D] |
+| Factory / user / total presets | **40 writable slots**; factory-filled subset unverified,not40 factory plus40 user. [Product][FG2-P] |
+| Synth / acoustic simulation | Each unverified; modulation/filter/amp names do not establish either. |
+| IR / NAM / capture | **9 user IR slots**; WAV,44.1kHz,24-bit,512 samples; other source sample rates accepted. Native NAM,converted NAM and proprietary capture loading individually unverified. [Product][FG2-P] |
+| Audio / control I/O | Mono6.35mm input/output;3.5mm stereo phones;USB-C charging/OTG;Bluetooth5.0 playback. No mic,aux,EXP,MIDI DIN or loop in panel inventory. [Product][FG2-P]; [Manual][FG2-M], pp05–06 |
+| Power / battery / USB | **2000mAh lithium**,up to6h,about2.5h charge; **5V/2A,USB-A-to-C charging only**. Draw,USB-only operation and simultaneous charge/play unverified; no barrel polarity assigned. [Product][FG2-P] |
+| Editor / platforms / drivers | FLAMMA mobile app for editing/cloud; product also claims PC editing. Index lists **Mac/Windows1.2.5** desktop tools,older1.1.7; full desktop-editor scope versus IR/updater and exact OS versions unresolved. App Store/Google Play links establish mobile-platform distribution,not supported OS versions. [Product][FG2-P]; [Software index][FG2-I] |
+| USB audio | OTG recording/monitoring documented; rates,bit depth,channel count,dry routing and desktop drivers unverified. IR format does not define USB audio format. [Manual][FG2-M], pp08,16 |
+| Looper / live features | Live/Preset modes;40 drum patterns,tuner. Master excludes Bluetooth playback volume; use source-device volume. Looper,scenes,spillover unverified. [Manual][FG2-M], pp11–16 |
+| Used IDR | **?** No condition-qualified used offer established. |
+| New IDR | **?** Exact sold-out ask below lacks explicit new-condition evidence. |
+
+<!-- comparison evidence ends -->
+
+### Exact Shopee hardware evidence
+
+Checked **2026-10-17**: [Asia Pro Sound,shop703046367/item49152335867](https://shopee.co.id/Flamma-FG200-FG-200-FG-200-Intelligent-Multi-Effects-Processor-i.703046367.49152335867),Kota Bekasi: **Rp1,386,000,Habis** in two-month index. Direct reopening failed. Sale/working condition,installed firmware,selected variation,bundle/charger,warranty,shipping/tax,voucher and final total unverified. Same-day banner does not override Habis; late compensation not deducted. Historical ask,not completed sale or used/new market range. Foreign USD offer not converted.
+
+### Own-model revision and gaps
+
+Manufacturer shop index links **FG200 V01 2025-03-12**,30 pages. Selected text inspected; no complete revision/panel visual audit claimed. Original library must remain separate from June/July2025 firmware notes and newer installer listings. No FB200 processing,expression or software behavior borrowed. Published USB-A-to-C charging constraint retained without claiming hardware tests. Ownership unknown.
+
+Remaining: visual controls,simultaneous/order,firmware library reconciliation,factory fill,display,desktop/mobile editor scope/OS,USB recording details,charging/play/draw,synth/acoustic/NAM/capture/live gaps and qualified offers. No files,dependencies,software or firmware downloaded/executed.
+
+[FG2-M]: https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FG200_Manual_EN_V01_2025.03.12.pdf?v=1750759938
+[FG2-P]: https://www.flamma.shop/products/flamma-fg200-intelligent-combined-effects-pedal-multi-stompboxes
+[FG2-I]: https://www.flamma.shop/pages/manual
+[FG2-D]: https://flammainnovation.com/download.html
 
 ## FV02 Doubling
 
@@ -302,48 +165,6 @@ Selected manual text inspected; no visual-panel or complete revision audit claim
 [FV2-N]: https://flammainnovation.com/file/pdf?fileName=FV02_Manual_EN_V02_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj6GAVWAIAAY5iADh2LA637.pdf
 [FV2-S]: https://www.flamma.shop/products/flamma-fv03-doubling-vocal-effects-pedal
 [FV2-I]: https://www.flamma.shop/pages/manual
-
-## FB200
-
-Checked **2026-10-17**; partial. Bass-focused combined multi-effects; distinct from FG200. No positive guitar/vocal classification established.
-
-<!-- comparison evidence begins -->
-
-| Required field | Finding / qualification |
-|---|---|
-| Built-in / external / toe expression | No built-in pedal or EXP socket in complete manual inventory; toe unverified. [Manual][FB2-M], pp05–07 |
-| Rotary / footswitches / buttons | **16 / 4 / 0** from product/panel inventory; power slider separate. Image verification pending. [Product][FB2-P]; [Manual][FB2-M] |
-| Display | Three-character numeric display; diagonal,color and touch unverified. Ambient RGB strip is not a color screen. [Product][FB2-P] |
-| Dimensions / weight | **311×67.5×49.7 mm;578 g**; axes/accessory inclusion unspecified. [Manual][FB2-M], p22 |
-| Simultaneous processing / routing | Named fixed modules:Gate,Comp,Amp,Cab,Mod,Reverb,Master. Maximum simultaneous processing/routing flexibility unverified. [Manual][FB2-M], pp10–11 |
-| Categories / choices | **10 amps,10 cabinets,1 compressor,12 modulation,5 reverb**,plus gate. Product's20 AMP/CAB combines10+10,not20 each. Its19 effects reconcile arithmetically as gate1+comp1+mod12+reverb5; arithmetic is not DSP capacity. [Manual][FB2-M], pp18–21; [Product][FB2-P] |
-| Factory / user / total presets | **40 writable slots**; factory-filled subset unverified,not40 factory plus40 user. [Product][FB2-P] |
-| Synth / acoustic simulation | Dedicated synth/acoustic simulator each unverified; ring modulation/filter do not establish either. |
-| IR / NAM / capture | **9 third-party IR slots**; WAV,44.1kHz,24-bit,512 samples; guide allows other input sample rates. Native NAM,converted NAM and proprietary capture loading individually unverified. [Manual][FB2-M], p22; [Product][FB2-P] |
-| Audio / control I/O | Mono6.35mm input/output;3.5mm stereo phones;USB-C charging/OTG;Bluetooth5.0 playback. No mic,aux,EXP,MIDI DIN or loop ports in panel inventory. [Manual][FB2-M], pp06–07,22 |
-| Power / battery / USB | **2000mAh lithium**,up to6h,about2.5h charge. **5V/2A charging,USB-A-to-C only**. Current draw and simultaneous charging/play unverified; barrel polarity inapplicable to documented USB supply. [Product][FB2-P]; [Manual][FB2-M], p22 |
-| Editor / platforms / drivers | FLAMMA mobile app edits tones,cloud,drums/settings. Desktop IR management/updater **v1.0.1 Mac/Windows** listed separately; full desktop editing and exact OS versions unverified. Mobile iOS/Android versions unresolved. [Manual][FB2-M], p17; [Software index][FB2-I] |
-| USB audio / recording | OTG recording supported; sample rate,bit depth,channels,desktop drivers and dry routing unverified. IR format does not establish USB audio format. [Product][FB2-P] |
-| Looper / live features | Live/Preset modes;40 drum patterns,tuner,Bluetooth playback. Looper,scenes,spillover unverified. [Product][FB2-P] |
-| Footswitch assignment conflict | Module text assigns C to both Amp/Cab and Mod; operation page also mistakenly names FG200. Exact live mapping needs panel verification; sibling behavior not substituted. [Manual][FB2-M], pp10–13 |
-| Used IDR | **?** No condition-qualified used offer established. |
-| New IDR | **?** Exact ask below does not establish new condition. |
-
-<!-- comparison evidence ends -->
-
-### Exact Shopee hardware evidence
-
-Checked **2026-10-17**: [NEO MUSIC,shop158235298/item49952333845](https://shopee.co.id/FLAMMA-FB200-Intelligent-Combined-Bass-Effects-Pedal-i.158235298.49952333845), Kota Sukabumi: **Rp1,427,580**. Three-month indexed/reopened cache. Exact FB200 title; no Habis marker is not stock confirmation. Tomorrow delivery banner is not evidence of current availability. Sale/working condition,selected variation,bundle/charger,warranty,shipping/tax,voucher and final total unverified. Late compensation not deducted; no foreign-price conversion or completed-sale claim.
-
-### Primary-document identity and gaps
-
-Own **FB200 V01,2025-05-22**,25 PDF pages; selected text sections inspected. No panel image or complete firmware audit claimed. Manufacturer product states16 dials,4 footswitches,40 memories,19 effects,20 combined AMP/CAB models,9 IR slots and battery/runtime; manual separates amp/cab tables. Mobile editor and desktop IR/updater roles remain distinct. Published charging constraint is retained without asserting all USB-C-to-C behavior was tested. Ownership unknown.
-
-Remaining: verify footswitch/panel discrepancy,complete simultaneous processing/order,display,exact mobile/desktop OS support,USB formats/drivers,charge/play operation,measured draw,synth/acoustic/NAM/capture/live unknowns and qualified prices. No files,dependencies,firmware or software downloaded/executed.
-
-[FB2-M]: https://www.flammainnovation.com/file/pdf?fileName=FB200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0F%2FwKgA0Ghcs82AOmZKABRLE2iOyS0799.pdf
-[FB2-P]: https://www.flamma.shop/en-au/products/flamma-fb200-bass-guitar-intelligent-combined-multi-effects-pedal
-[FB2-I]: https://www.flamma.shop/pages/manual
 
 ## FV03 Character
 
@@ -433,90 +254,6 @@ Remaining: actual unit revision/current/polarity label and phantom direction,vis
 [FV4-N]: https://device.report/m/1e636db1db6036e8e200c49e037612416b48dca55693d31e2970ac40d2731c67
 [FV4-I]: https://www.flamma.shop/pages/manual
 [FV4-D]: https://flammainnovation.com/download.html
-
-## FG200
-
-Checked **2026-10-17**; partial. Guitar multi-effects strip; distinct from FB200. Bass/vocal membership unverified; a Bassman guitar-amp model is not evidence of bass support.
-
-<!-- comparison evidence begins -->
-
-| Required field | Finding / qualification |
-|---|---|
-| Built-in / external / toe expression | No pedal or EXP socket in complete panel inventory; toe not documented. [Manual][FG2-M], pp04–06 |
-| Rotary / footswitches / buttons | **16 / 4 / 0** derived:Gate1,Boost1,Amp6,Cab1,Mod2,Delay2,Reverb2,Master1;A–D switches. Power slider separate; image verification pending. [Manual][FG2-M], pp09–10 |
-| Display | Three-character numeric display; diagonal,color,touch unverified. Ambient RGB strip is not a color screen. [Manual][FG2-M], p03 |
-| Dimensions / weight | **311×67.5×49.7 mm;578 g**; axes/accessory inclusion unspecified. [Manual][FG2-M], p27 |
-| Simultaneous processing / categories | Seven named fixed modules:Gate,Boost,Amp,Cab,Mod,Delay,Reverb; maximum simultaneous processing/reordering unverified. Original library **5 Boost,52 Amp,16 Cab,12 Mod,5 Delay,5 Reverb**. Model choices are not simultaneous blocks. [Product][FG2-P] |
-| Firmware-qualified model changes | Index notes **v1.2.1 adds14 Boost models and preset-mode delay tap**; **v1.2.5 adds compression to Gate**. Do not present original5 Boost as firmware-current total or infer every installed unit is updated. Download index separately lists1.2.6 installers; full reconciliation pending. [Software index][FG2-I]; [Download index][FG2-D] |
-| Factory / user / total presets | **40 writable slots**; factory-filled subset unverified,not40 factory plus40 user. [Product][FG2-P] |
-| Synth / acoustic simulation | Each unverified; modulation/filter/amp names do not establish either. |
-| IR / NAM / capture | **9 user IR slots**; WAV,44.1kHz,24-bit,512 samples; other source sample rates accepted. Native NAM,converted NAM and proprietary capture loading individually unverified. [Product][FG2-P] |
-| Audio / control I/O | Mono6.35mm input/output;3.5mm stereo phones;USB-C charging/OTG;Bluetooth5.0 playback. No mic,aux,EXP,MIDI DIN or loop in panel inventory. [Product][FG2-P]; [Manual][FG2-M], pp05–06 |
-| Power / battery / USB | **2000mAh lithium**,up to6h,about2.5h charge; **5V/2A,USB-A-to-C charging only**. Draw,USB-only operation and simultaneous charge/play unverified; no barrel polarity assigned. [Product][FG2-P] |
-| Editor / platforms / drivers | FLAMMA mobile app for editing/cloud; product also claims PC editing. Index lists **Mac/Windows1.2.5** desktop tools,older1.1.7; full desktop-editor scope versus IR/updater and exact OS versions unresolved. App Store/Google Play links establish mobile-platform distribution,not supported OS versions. [Product][FG2-P]; [Software index][FG2-I] |
-| USB audio | OTG recording/monitoring documented; rates,bit depth,channel count,dry routing and desktop drivers unverified. IR format does not define USB audio format. [Manual][FG2-M], pp08,16 |
-| Looper / live features | Live/Preset modes;40 drum patterns,tuner. Master excludes Bluetooth playback volume; use source-device volume. Looper,scenes,spillover unverified. [Manual][FG2-M], pp11–16 |
-| Used IDR | **?** No condition-qualified used offer established. |
-| New IDR | **?** Exact sold-out ask below lacks explicit new-condition evidence. |
-
-<!-- comparison evidence ends -->
-
-### Exact Shopee hardware evidence
-
-Checked **2026-10-17**: [Asia Pro Sound,shop703046367/item49152335867](https://shopee.co.id/Flamma-FG200-FG-200-FG-200-Intelligent-Multi-Effects-Processor-i.703046367.49152335867),Kota Bekasi: **Rp1,386,000,Habis** in two-month index. Direct reopening failed. Sale/working condition,installed firmware,selected variation,bundle/charger,warranty,shipping/tax,voucher and final total unverified. Same-day banner does not override Habis; late compensation not deducted. Historical ask,not completed sale or used/new market range. Foreign USD offer not converted.
-
-### Own-model revision and gaps
-
-Manufacturer shop index links **FG200 V01 2025-03-12**,30 pages. Selected text inspected; no complete revision/panel visual audit claimed. Original library must remain separate from June/July2025 firmware notes and newer installer listings. No FB200 processing,expression or software behavior borrowed. Published USB-A-to-C charging constraint retained without claiming hardware tests. Ownership unknown.
-
-Remaining: visual controls,simultaneous/order,firmware library reconciliation,factory fill,display,desktop/mobile editor scope/OS,USB recording details,charging/play/draw,synth/acoustic/NAM/capture/live gaps and qualified offers. No files,dependencies,software or firmware downloaded/executed.
-
-[FG2-M]: https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FG200_Manual_EN_V01_2025.03.12.pdf?v=1750759938
-[FG2-P]: https://www.flamma.shop/products/flamma-fg200-intelligent-combined-effects-pedal-multi-stompboxes
-[FG2-I]: https://www.flamma.shop/pages/manual
-[FG2-D]: https://flammainnovation.com/download.html
-
-## FX50
-
-Checked **2026-10-17**; partial. Portable guitar multi-effects; no bass/vocal classification established. Floor switches and amp modeling are not inclusion requirements.
-
-<!-- comparison evidence begins -->
-
-| Required field | Finding / qualification |
-|---|---|
-| Built-in / external / toe expression | No pedal or EXP port in manual inventory; toe not documented. [Manual transcription][F50-M] |
-| Rotary / footswitches / buttons | **7 / 0 / 3** derived:Drum/Value,rotary Drive selector,Gain,Tone,Mod,Dly/Rev,Vol dial;Play/Stop,Patch,Store. Encoder push and Power/Cab toggles separate. Physical-panel verification pending. [Manual transcription][F50-M] |
-| Display | LED operation display;diagonal,color/touch/resolution unverified. [Manual transcription][F50-M] |
-| Dimensions / weight | **128 W×85 D×47 H mm;121 g** in manufacturer-manual transcription; accessory/battery inclusion unspecified. Primary PDF visual check pending. [Manual transcription][F50-M] |
-| Simultaneous processing / choices | Advertised **5 modules,15 effect types**; simultaneous maximum/chain mapping unverified. Documented choices:Drive6,Mod4,combined Delay/Reverb4,Cab1 =15 by arithmetic. Shared Dly/Rev selector does not establish independent delay and reverb. [Product][F50-P]; [Manual transcription][F50-M] |
-| Factory / user / total presets | **16 factory +16 user =32 locations**; user slots writable,factory slots protected. Factory-filled user subset unverified. [Product][F50-P]; [Manual transcription][F50-M] |
-| Synth / acoustic simulation | Each unverified; Clean drive position is not evidence of acoustic simulation. |
-| IR / NAM / capture | Cab simulator documented;user IR,native NAM,converted NAM and proprietary capture loading each unverified. |
-| Audio / control I/O | Mono quarter-inch guitar input/output;stereo3.5mm aux/phones;DC input. No USB,MIDI,EXP,mic or loop connector in complete manual inventory. [Product][F50-P]; [Manual transcription][F50-M] |
-| Power / battery / USB | **9 V DC,300mA supply,center negative**,or **2 AAA/LR03**. Draw,barrel,battery runtime and USB operation unverified. [Product][F50-P]; [Manual transcription][F50-M] |
-| Editor / platforms / drivers | Desktop/mobile editor,audio interface and update route unverified;no USB connector in documented inventory. |
-| Looper / live features | **40 drum rhythms,tuner**. Play mode follows controls;Patch mode ignores effect controls except power/volume,so real-time effect edits require leaving Patch mode. Looper,scenes,spillover unverified. [Product][F50-P]; [Manual transcription][F50-M] |
-| Used IDR | **?** No condition-qualified used offer established. |
-| New IDR | **?** Unresolved two-variation ask below not assigned to a specific new hardware bundle. |
-
-<!-- comparison evidence ends -->
-
-### Exact Shopee candidate and variation limitation
-
-Checked **2026-10-17**: [NEO MUSIC,shop158235298/item52052193549](https://shopee.co.id/FLAMMA-FX50-Portable-Multi-Effects-Guitar-Pedal-i.158235298.52052193549),Kota Sukabumi: **Rp609,760**,two variations. Three-month search cache,reopened one-month cache. Exact FX50 title,but variation identities and per-variation hardware/bundle prices unresolved. No Habis marker does not confirm stock. Sale/working condition,selected color/variant,adapter/battery bundle,warranty,shipping/tax,voucher and final total unknown. Tomorrow delivery and late compensation do not establish availability or a discount. Not a completed sale or qualified used/new range. Manufacturer Green/Orange colors do not prove these seller variations are colors.
-
-### Document identity and source limitation
-
-Manufacturer product corroborates5 modules,15 types,16+16 memories,40 rhythms,aux/phones and9V/AAA operation. Its manual index links Google Drive **FX50 V01 filename2023-03-19**,which returns loading/sign-in text here. Manufacturer download index names **V01 2023-12-23**; product endpoint currently has empty fields. A manufacturer-authored manual transcription reproduces the19-page panel numbering,operation and specification sequence; its linked PDF retrieval failed. Those detailed fields are explicitly qualified as transcription evidence pending original PDF inspection. Generic ASIN-generated manuals with different body dimensions were not used.
-
-Remaining: original PDF/revision and visual-panel verification,precise module/concurrent routing,display,power/runtime,memories/editor/loading/live unknowns and selected seller-variation/condition-qualified prices. Ownership unknown. No files,dependencies,software or firmware downloaded/executed.
-
-[F50-P]: https://www.flamma.shop/products/flamma-fx50-portable-guitar-effects
-[F50-M]: https://manuals.plus/m/73e3ec7d0ea3fef78ff36424166808448005effadf28230eea4ac09b131d7d22
-[F50-I]: https://www.flamma.shop/pages/manual
-[F50-O]: https://drive.google.com/file/d/1LI5yhmRi2RcL11uutGhTCeX7k6KgW6nh/view?usp=drive_link
-[F50-D]: https://flammainnovation.com/download.html
-[F50-E]: https://www.flammainnovation.com/single.html?id=147
 
 ## FV05 Recorder
 
@@ -619,6 +356,189 @@ Checked2026-10-18:the [manufacturer store manual index](https://www.flamma.shop/
 | Factory / user memory limits | Printed p8 establishesA/B/C/D within the selected bank;features mention individual saving. Neither inspected statement gives bank count,full writable capacity orfactory/user split.52amp models isnot proof of52preset memories. |
 
 Alternate PDF still includes9V500mA precautions alongside5V1A charging;its availability does not resolve the power conflict orsimultaneous processing ceiling.
+
+## FX50
+
+Checked **2026-10-17**; partial. Portable guitar multi-effects; no bass/vocal classification established. Floor switches and amp modeling are not inclusion requirements.
+
+<!-- comparison evidence begins -->
+
+| Required field | Finding / qualification |
+|---|---|
+| Built-in / external / toe expression | No pedal or EXP port in manual inventory; toe not documented. [Manual transcription][F50-M] |
+| Rotary / footswitches / buttons | **7 / 0 / 3** derived:Drum/Value,rotary Drive selector,Gain,Tone,Mod,Dly/Rev,Vol dial;Play/Stop,Patch,Store. Encoder push and Power/Cab toggles separate. Physical-panel verification pending. [Manual transcription][F50-M] |
+| Display | LED operation display;diagonal,color/touch/resolution unverified. [Manual transcription][F50-M] |
+| Dimensions / weight | **128 W×85 D×47 H mm;121 g** in manufacturer-manual transcription; accessory/battery inclusion unspecified. Primary PDF visual check pending. [Manual transcription][F50-M] |
+| Simultaneous processing / choices | Advertised **5 modules,15 effect types**; simultaneous maximum/chain mapping unverified. Documented choices:Drive6,Mod4,combined Delay/Reverb4,Cab1 =15 by arithmetic. Shared Dly/Rev selector does not establish independent delay and reverb. [Product][F50-P]; [Manual transcription][F50-M] |
+| Factory / user / total presets | **16 factory +16 user =32 locations**; user slots writable,factory slots protected. Factory-filled user subset unverified. [Product][F50-P]; [Manual transcription][F50-M] |
+| Synth / acoustic simulation | Each unverified; Clean drive position is not evidence of acoustic simulation. |
+| IR / NAM / capture | Cab simulator documented;user IR,native NAM,converted NAM and proprietary capture loading each unverified. |
+| Audio / control I/O | Mono quarter-inch guitar input/output;stereo3.5mm aux/phones;DC input. No USB,MIDI,EXP,mic or loop connector in complete manual inventory. [Product][F50-P]; [Manual transcription][F50-M] |
+| Power / battery / USB | **9 V DC,300mA supply,center negative**,or **2 AAA/LR03**. Draw,barrel,battery runtime and USB operation unverified. [Product][F50-P]; [Manual transcription][F50-M] |
+| Editor / platforms / drivers | Desktop/mobile editor,audio interface and update route unverified;no USB connector in documented inventory. |
+| Looper / live features | **40 drum rhythms,tuner**. Play mode follows controls;Patch mode ignores effect controls except power/volume,so real-time effect edits require leaving Patch mode. Looper,scenes,spillover unverified. [Product][F50-P]; [Manual transcription][F50-M] |
+| Used IDR | **?** No condition-qualified used offer established. |
+| New IDR | **?** Unresolved two-variation ask below not assigned to a specific new hardware bundle. |
+
+<!-- comparison evidence ends -->
+
+### Exact Shopee candidate and variation limitation
+
+Checked **2026-10-17**: [NEO MUSIC,shop158235298/item52052193549](https://shopee.co.id/FLAMMA-FX50-Portable-Multi-Effects-Guitar-Pedal-i.158235298.52052193549),Kota Sukabumi: **Rp609,760**,two variations. Three-month search cache,reopened one-month cache. Exact FX50 title,but variation identities and per-variation hardware/bundle prices unresolved. No Habis marker does not confirm stock. Sale/working condition,selected color/variant,adapter/battery bundle,warranty,shipping/tax,voucher and final total unknown. Tomorrow delivery and late compensation do not establish availability or a discount. Not a completed sale or qualified used/new range. Manufacturer Green/Orange colors do not prove these seller variations are colors.
+
+### Document identity and source limitation
+
+Manufacturer product corroborates5 modules,15 types,16+16 memories,40 rhythms,aux/phones and9V/AAA operation. Its manual index links Google Drive **FX50 V01 filename2023-03-19**,which returns loading/sign-in text here. Manufacturer download index names **V01 2023-12-23**; product endpoint currently has empty fields. A manufacturer-authored manual transcription reproduces the19-page panel numbering,operation and specification sequence; its linked PDF retrieval failed. Those detailed fields are explicitly qualified as transcription evidence pending original PDF inspection. Generic ASIN-generated manuals with different body dimensions were not used.
+
+Remaining: original PDF/revision and visual-panel verification,precise module/concurrent routing,display,power/runtime,memories/editor/loading/live unknowns and selected seller-variation/condition-qualified prices. Ownership unknown. No files,dependencies,software or firmware downloaded/executed.
+
+[F50-P]: https://www.flamma.shop/products/flamma-fx50-portable-guitar-effects
+[F50-M]: https://manuals.plus/m/73e3ec7d0ea3fef78ff36424166808448005effadf28230eea4ac09b131d7d22
+[F50-I]: https://www.flamma.shop/pages/manual
+[F50-O]: https://drive.google.com/file/d/1LI5yhmRi2RcL11uutGhTCeX7k6KgW6nh/view?usp=drive_link
+[F50-D]: https://flammainnovation.com/download.html
+[F50-E]: https://www.flammainnovation.com/single.html?id=147
+
+## FX100
+
+**Original technical/price observation date:2026-10-14. Manufacturer store rechecked2026-10-17 for the mass conflict and USB recording; remaining original facts are not freshly certified. Partial.**
+
+<!-- comparison evidence begins -->
+| Field | Verified finding / unresolved qualification |
+|---|---|
+| Expression / controls | Built-in expression, no external EXP in complete rear inventory; toe details ?. **3/2/6** controls; module LEDs are not buttons. |
+| Display | Color graphical screen; published diagonal and explicit touch specification ?. |
+| Dimensions / weight | **230×155.99×32.8 mm**,medium. Original V04-manual record: **859g**. Current [manufacturer store](https://www.flamma.shop/en-au/products/flamma-portable-multi-effects-pedal-fx100),checked2026-10-17: **1kg** with matching dimensions. Mass conflict unresolved; no claim that1kg is packaging or a new hardware revision. Cable/pedal clearance additional. |
+| Processing | **Nine modules,151 choices** including amps/cabs; category table below. |
+| Presets | **200 locations**; factory-filled/user/overwrite distinction remains to be established. |
+| Acoustic / synth | **Three acoustic simulators in AMP**; dedicated synth unverified. |
+| Ports | 6.35 mm input;two6.35 mm outputs;3.5 mm AUX and phones; **USB-B editor port plus separate micro-USB OTG recording port**. |
+| Power | **9 V center-negative,300 mA**; battery and USB-powered operation unverified. |
+| IR / NAM | WAV IR import, **512 points,10 user locations** in manufacturer product documentation. NAM/capture support unverified; IR alone is not NAM. |
+| Software / recording | **Windows/macOS editor**. Manufacturer store explicitly supports computer USB recording,updates and preset editing,plus separate micro-USB OTG phone recording. Exact audio channel count,sample rate/bit depth and driver/reamp path remain unverified. Mobile OTG audio does not establish a mobile editor. [Current store](https://www.flamma.shop/en-au/products/flamma-portable-multi-effects-pedal-fx100) |
+| Practice | **80-second looper;40 rhythms +10 metronomes**. |
+
+| FX/COMP | DS/OD | AMP | CAB | NS | EQ | MOD | DLY | REV | Sum |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+|8|20|55|26|3|4|19|9|7|151|
+
+The three acoustic AMP entries explicitly say simulator. Similar numbers in another brand do not establish identical hardware or firmware.
+
+### FX100 — IDR and sources
+
+Retail **Rp2.480.000**: [Seven Stereo, shop16879370/item17358217022](https://shopee.co.id/FLAMMA-FX100-Portable-Multi-Effects-Digital-i.16879370.17358217022). [Ultra Audio, shop284079667/item11191888836](https://shopee.co.id/FLAMMA-FX100-FX-100-Portable-Multi-Effects-Efek-Pedal-ORIGINAL-i.284079667.11191888836) had **Rp1.985.000 in fetched body versus Rp2.185.000 indexed snippet**; this is a source disagreement, not a market range. Used **?**. Separate [Tokosound website](https://www.tokosound.com/flamma-fx100-fx-100-portable-multi-effects-pedal.html) **Rp2.150.000** is not a Shopee quote. Stock,authenticity,condition,bundle,warranty and shipping were not independently verified.
+
+Primary sources: [official product](https://flammainnovation.com/single.html?id=38), [downloads](https://www.flamma.shop/pages/manual), [manufacturer V04 manual,2025-03-27](https://flammainnovation.com/file/pdf?fileName=FX100_Manual_EN.pdf&url=group1%2FM00%2F00%2F10%2FwKgA0Gfk_emAJkleABhg1Vx1GFs477.pdf). Original review visually checked printed pp.3,20–30. This consolidation does not claim a new PDF inspection. Remaining: display details,preset overwrite rules,current firmware/import limits,used-condition quotes and USB/battery operation.
+
+<!-- comparison evidence ends -->
+
+### FX100 — updated source access and complete original finding
+
+On2026-10-17 the [original product endpoint](https://flammainnovation.com/single.html?id=38) returned an empty product template. The [manufacturer store](https://www.flamma.shop/en-au/products/flamma-portable-multi-effects-pedal-fx100) supplies the mass/USB follow-up above. It repeats200 preset patches but does not establish the factory/user/overwrite split. Display diagonal,touch,toe and import questions remain unresolved; no sibling FX200 specifications were used. No PDF,editor or dependency was downloaded or run in this follow-up.
+
+The complete2026-10-14 finding follows with original evidence dates,price conflicts,inspection limits and URLs unchanged apart from reversible reference prefixes and heading depth. The current mass disagreement does not erase its historical859g observation.
+
+<!-- FLAMMA-FX100 source begins -->
+
+Checked **2026-10-14**. **Partial new model.** [Manufacturer manual V04, 2025-03-27][FLAMMA-FX100-M], printed pp.3, 20–30, visually checked; [official product page][FLAMMA-FX100-P] and [downloads][FLAMMA-FX100-D].
+
+| Field | Established / unknown |
+|---|---|
+| Expression | Built-in; no external-expression socket in rear inventory; toe-switch details ? |
+| Controls | **3 rotary /2 footswitches /6 buttons**; module LEDs are not buttons |
+| Screen | Color graphical screen; diagonal and explicit touch specification ? |
+| Size / weight | **230×155.99×32.8 mm; 859 g**; medium |
+| Processing | **9 modules, 151 types**; category breakdown below |
+| Presets | **200 slots**, factory-filled/editable split needs confirmation |
+| Acoustic / synth | **3 acoustic simulators** in AMP; synth ? |
+| Ports | ¼-inch input, 2×¼-inch outputs, ⅛-inch aux/phones; **USB-B editor connection and separate micro-USB OTG recording** |
+| Power | **9 V center-negative, 300 mA**; battery/USB-powered operation unverified |
+| IR / NAM | User WAV IR, **512 points**, 10 user slots in [product documentation][FLAMMA-FX100-P]; NAM ? |
+| Editor | **Windows/macOS**; do not confuse mobile OTG audio with mobile editing |
+| Extras | **80 s looper; 40 rhythms +10 metronomes** |
+
+### Manual category counts
+
+| FX/COMP | DS/OD | AMP | CAB | NS | EQ | MOD | DLY | REV |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 8 | 20 | 55 | 26 | 3 | 4 | 19 | 9 | 7 |
+
+These sum to **151**, including amps/cabinets. The three AMP acoustic entries explicitly say simulator. Shared counts with another brand are not proof of identical hardware or firmware.
+
+### Shopee Indonesia
+
+**Rp2.480.000**, [Seven Stereo retail listing][FLAMMA-FX100-S1]. [Ultra Audio][FLAMMA-FX100-S2] has a price conflict: **Rp1.985.000 fetched body vs Rp2.185.000 indexed snippet**. Do not turn that conflict into a market range. Neither establishes checkout stock or completed-sale value. Explicit used price **?**. The separate [Tokosound local-retail offer][FLAMMA-FX100-L] is **Rp2.150.000**, not a Shopee quote.
+
+[FLAMMA-FX100-M]: https://flammainnovation.com/file/pdf?fileName=FX100_Manual_EN.pdf&url=group1%2FM00%2F00%2F10%2FwKgA0Gfk_emAJkleABhg1Vx1GFs477.pdf
+[FLAMMA-FX100-D]: https://www.flamma.shop/pages/manual
+[FLAMMA-FX100-P]: https://flammainnovation.com/single.html?id=38
+[FLAMMA-FX100-S1]: https://shopee.co.id/FLAMMA-FX100-Portable-Multi-Effects-Digital-i.16879370.17358217022
+[FLAMMA-FX100-S2]: https://shopee.co.id/FLAMMA-FX100-FX-100-Portable-Multi-Effects-Efek-Pedal-ORIGINAL-i.284079667.11191888836
+[FLAMMA-FX100-L]: https://www.tokosound.com/flamma-fx100-fx-100-portable-multi-effects-pedal.html
+
+**Next:** display diagonal/touch, preset overwrite rules, current firmware/import limits and used-condition quotes. Price retrieval does not authenticate sellers or include shipping.
+<!-- FLAMMA-FX100 source ends -->
+
+### Preserved first Shopee shared comparison
+
+Historical2026-10-14 source wording. Later firmware-qualified findings and current comparison fields retain precedence. Price observations,old size definitions and unknowns below are preserved with their original scope;this is not a new stock/specification verification.
+
+- **External expression / toe** (Built-in expression): No socket / toe ?
+- **Dimensions; weight** (Built-in expression): 230×155.99×32.8; 859 g
+- **Size** (Built-in expression): Medium
+- **Retail IDR observation** (Built-in expression): Rp2.480.000; **another item conflicts: Rp1.985.000 body vs Rp2.185.000 snippet**
+- **Display type** (2. Displays): Graphical screen
+- **Simultaneous stages; categories / choices** (3. Processing, presets and loading): 9 modules; **151**, manual category counts 8/20/55/26/3/4/19/9/7 in FX/DS/AMP/CAB/NS/EQ/MOD/DLY/REV order
+- **Preset storage** (3. Processing, presets and loading): 200 slots; overwrite/factory split ?
+- **Acoustic simulation / synth** (3. Processing, presets and loading): **3 acoustic simulators** / synth ?
+- **IR / NAM** (3. Processing, presets and loading): **10 user IR slots**, WAV512; NAM ?
+- **Physical ports, excluding DC input** (4. Audio/control connections): ¼-inch input; 2×¼-inch outputs; ⅛-inch aux/phones; **USB-B editor +separate micro-USB OTG**
+- **Power / batteries** (5. Power, software and practice/live features): **9V center-negative/300mA**; battery/USB power ?
+- **Other documented functions** (5. Power, software and practice/live features): 80 s looper;40 rhythms+10 metronomes; separate OTG recording connection
+
+[Original shared source](research-state.json)<!-- historical-link:flamma-001 -->,retained pending complete navigation/provenance audits.
+
+## FX150
+
+**New researched model,2026-10-15. Standard non-battery FX150,not FX150b.** The shared manufacturer manual explicitly separates the power and mass of the two variants; no sibling inference is needed for those named differences.
+
+| Required field | Source-backed specification / remaining uncertainty |
+|---|---|
+| Expression | **Built-in pedal with toe-pressure on/off;one external6.35 mm TRS EXP2 input**. Volume/wah/parameter assignments documented. |
+| Knobs / footswitches / buttons | **2/3/0 separate front buttons**: MASTER,VALUE encoder;A/B/C footswitches. Rear power switch and toe separate. Onscreen icons and encoder press are not physical buttons. Numbered manual text read; front/rear-page screenshot attempts failed. |
+| Screen | **5-inch color LCD touchscreen**; touch editing explicitly documented,not inferred from color. Pixel resolution unverified. |
+| Dimensions / weight | Manual publishes **150×273×56 mm;1345 g**, without axis labels. Store specification instead gives **155×287×84 mm**,with matching1.345 kg. Preserve dimensional conflict; do not assume the larger figure is packaging without evidence. Not compact; exact W/D-based medium/large bin pending. |
+| Architecture | **Ten reorderable modules**,including FX-loop utility,nine algorithm categories;DSP usage meter. One selected type per category,not ten freely duplicated high-load engines. Independent parallel-chain capability not established. |
+| Choices | **160 advertised versus161 numbered**: FX8,DS22,AMP58,CAB30,NR3,EQ4,MOD20,DELAY9,REVERB7. Count includes amps/cabs. The matched FX150 appendix was checked rather than copying FX200 totals. |
+| Memory | **180 editable locations =60 banks×3**. Factory-filled subset unverified; not180 factory plus180 user. |
+| Synth / acoustic | No dedicated synthesizer or electric-to-acoustic simulator identified in the inspected appendix. Talk wah,pitch and ring modulation are not automatically synthesis. Future unverified firmware is not assumed to have the same library. |
+| IR | **50 user slots31–80,after30 factory cabinets**;WAV24-bit/44.1 kHz,1024 points. Editor converts imported source rate/depth;this is not native arbitrary-rate IR playback. |
+| NAM / captures | Native/converted NAM and user amp-capture loading not established. Cabinet IR import proves neither. |
+| Instrument / loop | One6.35 mm mono input,1 MΩ;mono6.35 mm SEND510Ω and RETURN1 MΩ. Four-cable use documented. |
+| Outputs / aux | **Two6.35 mm unbalanced mono L/R outputs,600Ω**;3.5 mm stereo headphones47Ω;3.5 mm stereo AUX47kΩ. An early MASTER sentence mentions XLR,but no XLR exists in the complete rear list/specification;record this editorial conflict,not phantom XLR sockets. |
+| Control / data | EXP2,USB-C data/audio and DC. No physical DIN/TRS MIDI or mic/phantom in complete rear inventory. Do not transfer FX200's MIDI connector. |
+| Power | Standard **9 V/1 A center-negative** specified supply;no FX150b battery included. USB-powered operation not established. FX150b's9V/3A supply and1500 g mass belong to the battery variant,not this profile. |
+| Configuration | **FX150 editor Windows/macOS**,preset management,parameter editing,IR import,firmware. Manufacturer software index listsV1.1.1;installed unit firmware not verified. Android/iOS/Linux full editor unverified. |
+| USB audio | **24-bit/44.1 kHz**,left/right channels separately selectable dry or effects,record/playback level and direct-monitor mix. Windows ASIO;macOS without added driver. Exact enumerated interface channel count and reamp routing not independently established. |
+| Looper / live | **52-second stereo PRE/POST looper;80 drum variations +10 metronomes**;delay/reverb spillover,global EQ,independent cab bypass for left/right,CTRL/tap assignments,tuner435–445 Hz. Differing L/R global cab settings force CAB to the chain end. |
+
+### FX150 — exact Shopee evidence
+
+| Price class | IDR amount | Evidence / limitation |
+|---|---:|---|
+| Standard Gray retail indexed ask | **Rp3.878.980** | [NEO MUSIC,shop158235298/item23951974031](https://shopee.co.id/FLAMMA-FX150-Gray-Portable-Multi-Effects-Pedal-i.158235298.23951974031). Retrieved search evidence retained August delivery text;direct reopening failed. Not current checkout stock. |
+| Unresolved two-variation retail listing | **Rp3.766.000** | [Asia Pro Sound,shop703046367/item28674865115](https://shopee.co.id/Flamma-FX150-Multi-Effects-Guitar-i.703046367.28674865115). Do not assign the lowest amount to both variants or confuse FX150b with standard hardware. |
+| Condition-verified used | **?** | No suitable offer established. No percentage-of-new estimate. |
+
+Seller names are not authentication. Actual condition,region,bundle,warranty,shipping,voucher eligibility and stock remain unverified. Older cached asks do not form a verified active market range.
+
+### FX150 — primary sources and source conflicts
+
+[Manufacturer product](https://www.flamma.shop/products/flamma-fx150-guitar-multi-effects-pedal); [manual/software index](https://www.flamma.shop/pages/manual); [manufacturer downloads](https://flammainnovation.com/download.html); **[official76-page FX150/FX150b manual](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FX150_Manual_EN_V01_2023.06.21.pdf?v=1691648362)**. Filename says2023-06-21 while document title says06-26;the revision is kept identifiable rather than renamed.
+
+Manual numbered panels,editing,saving,USB,software and complete algorithm appendix were read. Screenshots successfully checked the algorithm tables on printed pp.56–58,62,64–68 and specifications pp.70–71. Front/rear screenshots failed,so the numbered original text—not a claimed successful image inspection—supports control/connector counts. The specification clearly lists two unbalanced output jacks,not a single stereo TRS or XLR pair.
+
+Store-template FAQs mention an unrelated CapturePro camera,Wi-Fi and photo battery life;they are not FX150 evidence. Its dimensional figures and the manual's differ;no speculative packaging explanation. The manual's XLR reference and160/161 count disagreement remain explicit. More verification needed: exact dimensions/axes,current firmware changes,USB bus power/channels,display resolution,preset factory subset and active used/new offers.
 
 ## FX150b
 
@@ -726,3 +646,102 @@ Checked 2026-10-18. Shared [manufacturer-authored manual](https://device.report/
 
 No installers, manuals or other files downloaded. Remaining: panel visual confirmation, full electrical I/O census, source conflicts, exact firmware/editor compatibility and condition-qualified prices. Resume Shopee discovery after this useful followup; no claim that FX150b is fully verified.
 <!-- FX150b prior evidence ends -->
+
+## FX200
+
+**Original technical/price date:2026-10-14. Support/store follow-up2026-10-17. Partial.** Standard FX200,not battery FX200b; new software observations do not certify all older specifications.
+
+<!-- comparison evidence begins -->
+| Field | Verified finding / unresolved qualification |
+|---|---|
+| Expression / controls | Built-in with toe switching; external EXP2. **2/4/0**; power/ground switches separate. |
+| Display | **5-inch color LCD touchscreen**. |
+| Size / mass | **343×170×55 mm;1780 g**. Manual labels D×W×H despite the wide layout; axis mapping unresolved, large under either horizontal orientation. |
+| Processing | **Ten modules including FX loop**,160 advertised choices versus161 numbered entries below. Nine algorithm categories plus loop do not create ten arbitrary duplicate engines. |
+| Presets | **200 editable locations**; factory-filled subset ?. |
+| Acoustic / synth | No electric-to-acoustic simulator identified in checked appendix; dedicated synth ?. |
+| Ports | Mono6.35 mm instrument input;two6.35 mm outs;two XLR outs;mono send/return;3.5 mm AUX/phones;EXP2;**one DIN MIDI socket selectable IN or OUT**;USB-C. |
+| Power | **9 V center-negative,at least1 A adapter** in original manual finding. Manufacturer store explicitly reserves the3000mAh battery for **FX200b**,not standardFX200. USB bus power remains unverified. [Store](https://www.flamma.shop/products/flamma-fx200-multi-effects-pedal-processor-for-studio-stage-or-practice) |
+| IR / NAM | **50 user IRs**,WAV24-bit/44.1kHz,**1024 points**. Current store explicitly says editor supports sample-rate conversion; accepted source-rate range and on-device arbitrary-rate playback are not thereby established. NAM/captures unverified. [Store](https://www.flamma.shop/products/flamma-fx200-multi-effects-pedal-processor-for-studio-stage-or-practice) |
+| Firmware / editor | [Official support index](https://www.flamma.shop/pages/manual),checked2026-10-17,lists Windows/Mac **software1.1.3 and2.0.1**. Its **FX200 V2.0.0 history** adds dual-group footswitch mode,volume-pedal PRE/POST placement,EQ Level,encoder chain adjustment and revised Favorite-mode logic. Software-package2.0.1 is not proof of installed hardware firmware. Updating is documented to reset factory settings; manufacturer requires backup through the old editor. Packages were not downloaded or run. |
+| FX-loop routing conflict | Original manual finding: mono SEND/RETURN. Current store overview calls it stereo,but detailed connector text says6.35mm unbalanced mono. Preserve internal source conflict; no extra stereo sockets inferred. PRE/POST placement is advertised. [Store](https://www.flamma.shop/products/flamma-fx200-multi-effects-pedal-processor-for-studio-stage-or-practice) |
+| Apps / practice | **Windows/macOS editor**;USB audio is not mobile editing. **52-second stereo looper,PRE/POST;80 drum variations +10 metronomes**;delay/reverb spillover. |
+
+| FX | DS | AMP | CAB | NR | EQ | MOD | DLY | REV | Numbered sum |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+|8|22|58|30|3|4|20|9|7|161|
+
+The manual feature text says160; the table arithmetic says161. No silent correction or invented firmware explanation is made.
+
+### FX200 — IDR and sources
+
+Retail **Rp4.999.000**, [Seven Stereo Grey/Pink variations, shop16879370/item20579405424](https://shopee.co.id/FLAMMA-FX200-Multi-Effect-Processor-i.16879370.20579405424); separate **Rp5.047.000**, [NEO MUSIC Pink, shop158235298/item23657068790](https://shopee.co.id/FLAMMA-FX200-Pink-Guitar-Multi-Effects-i.158235298.23657068790). Used **?**. Individual asks,not verified stock or completed sales. [Nafiri website Pink](https://nafiriguitar.com/products/flamma-fx200-guitar-multi-effects-in-pink) **Rp4.773.000** had conflicting Sold out/Add to cart markers; neither confirmed stock nor a Shopee amount.
+
+Sources: [manufacturer manual V01,2022-08-08](https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FX200_Manual_EN_V01_2022.08.08-G.pdf?v=1671100677), [software index](https://www.flamma.shop/pages/manual). Original review visually checked pp.3–6,20–23,43–62. No renewed technical certification in this merge. Remaining: effect-count/axis conflicts,current firmware,touch-independent device details,used prices and exact retail variants.
+
+<!-- comparison evidence ends -->
+
+### FX200 — complete dated original finding
+
+The current support/store additions above are2026-10-17 observations. The full2026-10-14 finding below retains every original specification,qualification,price,URL and visual-inspection statement. No new PDF inspection or device execution was performed; historical unknowns are not substituted for later evidence. The160/161 effect-count and axis-label conflicts remain unresolved.
+
+<!-- FLAMMA-FX200 source begins -->
+
+Checked **2026-10-14**. **Partial new model**, not FX200B. [Manufacturer manual][FLAMMA-FX200-M], printed pp.3–6, 20–23, 43–62, visually checked; [software downloads][FLAMMA-FX200-D].
+
+| Field | Established / unknown |
+|---|---|
+| Expression | Built-in with toe switching; external EXP2 |
+| Controls | **2 rotary /4 footswitches /0 separate buttons**; power/ground switches separate |
+| Display | **5-inch color LCD touchscreen: yes** |
+| Size / weight | **343×170×55 mm; 1780 g**; manual labels this D×W×H despite the wide layout. W/D labeling unresolved; **large either way** |
+| Processing | **10 modules**, including FX loop; 160 advertised choices; count discrepancy below |
+| Presets | **200 editable**, factory-filled subset ? |
+| Acoustic / synth | No electric-to-acoustic simulator identified in checked list; synth ? |
+| Ports | ¼-inch instrument input; 2×¼-inch outputs; 2×XLR outputs; mono FX send/return; ⅛-inch aux/phones; EXP2; **one DIN MIDI port selectable IN or OUT**; USB-C |
+| Power | **9 V center-negative, ≥1 A adapter**; battery/USB operation not established |
+| IR / NAM | **50 user IRs**, WAV 24-bit/44.1 kHz, **1024 points**; NAM ? |
+| Apps | **Windows/macOS editor**; USB audio, not proof of mobile editing |
+| Extras | **52 s stereo looper**, pre/post; **80 drum variations +10 metronomes**; delay/reverb spillover |
+
+### Manual category-count conflict
+
+| FX | DS | AMP | CAB | NR | EQ | MOD | DLY | REV |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 8 | 22 | 58 | 30 | 3 | 4 | 20 | 9 | 7 |
+
+The numbered tables sum to **161**, whereas the feature/specification text says **160**. Both are preserved; no silent correction or invented firmware explanation. Nine algorithm categories plus FX-loop module do not mean ten unrestricted slots.
+
+### Shopee Indonesia
+
+**Rp4.999.000**, [Seven Stereo, Grey/Pink variations][FLAMMA-FX200-S1]; **Rp5.047.000**, [NEO MUSIC Pink][FLAMMA-FX200-S2]. Individual retail asks, not stock-verified or completed sales. Used quote **?**. A separate [Nafiri website quote][FLAMMA-FX200-L] is **Rp4.773.000** for Pink, with conflicting Sold out/Add to cart elements; it is neither confirmed stock nor a Shopee price.
+
+[FLAMMA-FX200-M]: https://cdn.shopify.com/s/files/1/0260/4476/0127/files/FX200_Manual_EN_V01_2022.08.08-G.pdf?v=1671100677
+[FLAMMA-FX200-D]: https://www.flamma.shop/pages/manual
+[FLAMMA-FX200-S1]: https://shopee.co.id/FLAMMA-FX200-Multi-Effect-Processor-i.16879370.20579405424
+[FLAMMA-FX200-S2]: https://shopee.co.id/FLAMMA-FX200-Pink-Guitar-Multi-Effects-i.158235298.23657068790
+[FLAMMA-FX200-L]: https://nafiriguitar.com/products/flamma-fx200-guitar-multi-effects-in-pink
+
+**Next:** reconcile effect totals and dimension labels against current firmware/manual, verify used prices and exact selected variants. A programmable single MIDI socket is not simultaneous separate MIDI IN and OUT.
+<!-- FLAMMA-FX200 source ends -->
+
+### Preserved first Shopee shared comparison
+
+Historical2026-10-14 source wording. Later firmware-qualified findings and current comparison fields retain precedence. Price observations,old size definitions and unknowns below are preserved with their original scope;this is not a new stock/specification verification.
+
+- **External expression / toe** (Built-in expression): EXP2 / toe yes
+- **Dimensions; weight** (Built-in expression): **343×170×55, W/D labels unresolved**; 1780 g
+- **Size** (Built-in expression): Large either orientation
+- **Retail IDR observation** (Built-in expression): Rp4.999.000, Grey/Pink listing; Rp5.047.000 Pink listing; selected variant/stock unconfirmed
+- **Diagonal** (2. Displays): **5**
+- **Monochrome / color** (2. Displays): Color
+- **Touch** (2. Displays): **Yes**
+- **Simultaneous stages; categories / choices** (3. Processing, presets and loading): 10 modules incl. FX loop; **160 advertised vs161 in numbered tables**: FX8 DS22 AMP58 CAB30 NR3 EQ4 MOD20 DLY9 REV7
+- **Preset storage** (3. Processing, presets and loading): 200 editable; factory subset ?
+- **Acoustic simulation / synth** (3. Processing, presets and loading): Simulator not identified in checked list / synth ?
+- **IR / NAM** (3. Processing, presets and loading): **50 user IRs**, 24-bit/44.1 kHz/1024; NAM ?
+- **Physical ports, excluding DC input** (4. Audio/control connections): ¼-inch input; 2×¼-inch +2×XLR outputs; mono send/return; ⅛-inch aux/phones; EXP2; **one selectable DIN MIDI IN or OUT**; USB-C
+- **Power / batteries** (5. Power, software and practice/live features): **9V center-negative,≥1A adapter**; battery/USB power ?
+- **Other documented functions** (5. Power, software and practice/live features): USB audio;52 s stereo pre/post looper;80 drum variations+10 metronomes; spillover
+
+[Original shared source](research-state.json)<!-- historical-link:flamma-002 -->,retained pending complete navigation/provenance audits.

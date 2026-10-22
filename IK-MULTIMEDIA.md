@@ -2,6 +2,43 @@
 
 Root brand records with individual observation dates. Both recorded TONEX ONE and TONEX Pedal profiles are consolidated below; original sources remain available. Verification and market coverage remain incomplete.
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [Incoming capability evidence, 2026-10-18](#incoming-capability-evidence-2026-10-18)
+- [TONEX ONE](#tonex-one)
+- [TONEX Pedal](#tonex-pedal)
+<!-- brand-index ends -->
+
+## Incoming capability evidence, 2026-10-18
+
+Preserved from origin/main87c7d38. References to older inventory counts or incomplete consolidation describe that branch checkpoint; current root profiles and ledger take precedence. Technical conflicts remain qualified.
+
+
+[Expression-volume comparison](EXPRESSION-VOLUME.md) · [Existing complete research](effects/advanced-modelers.md)
+
+### TONEX Pedal — incoming capability supplement
+
+**Checked 2026-10-18.** Partial expression-volume audit of an existing catalogue model, not a new inventory item and not a complete migration of its legacy record. TONEX ONE and TONEX Board are different models; their ports and features must not be transferred here.
+
+| Capability | Manufacturer finding / qualification |
+|---|---|
+| Built-in expression | No built-in treadle; the product shows external pedal control. |
+| External expression | Yes; official specification says expression input can control parameters. This does not establish a global assignment or an arbitrary controller's electrical compatibility. |
+| Global volume | **UNVERIFIED**. The current product page does not document volume assignment scope, minimum level, whether assignment survives preset changes, or headphone coverage. |
+| Size / weight | **176 ×142 ×55 mm; 906 g**. In normal pedalboard orientation the 142 mm depth is **2 mm over** the requested 140 mm maximum before plugs. Not a strict-size pass. |
+| Audio use | Normal guitar/amp-modeling processing, stereo outputs and dedicated headphones documented. |
+| Multi-effects scope | Current official page lists gate, EQ, compressor, delay, modulation and stereo reverb in addition to amp/cab processing. Do not use an older amp-only description as the complete current feature set. |
+| Other documented fields | 150 customizable presets; physical MIDI In/Out; USB audio connection. Full field/firmware reconciliation remains in the legacy research. |
+
+Primary source: [Official TONEX Pedal product/specification](https://ikmultimedia.com/products/tonexpedal). The linked [official downloads page](https://ikmultimedia.com/pages/downloads?product=tonexpedal) did not expose the needed manual text through the available reader; no manual-level global-expression confirmation is claimed.
+
+Exact current Shopee hardware offer, condition-verified new/used IDR, live stock and controller wiring remain unverified in this capability pass. Prior price observations are not overwritten. **Verdict: a size near-miss and unresolved global-volume lead, not a confirmed recommendation.**
+
+### TONEX Pedal — expression macro scope
+
+Checked2026-10-19. [Manufacturer-authored Englishv1.0.4 manual,2023/04/12,pp22,25–27](https://files.kraftmusic.com/media/ownersmanual/TONEX_Pedal_User_Manual.pdf): global EXT.CTRL selectsTRS/RTS controller type;assignment uses **PRESET SETUP→EXT.CTRL ON→EXT.LEARN A/B**. **Master VOLUME cannot be macro-assigned**;manual recommendsMODEL.VOL orpost-compressorCMP GAIN forselected-preset volume. Thus persistent physicalVOLUME0–10 isnotglobal expression assignment. A/B representheel/toe;exact mapped endpoints depend onthelearned preset. GlobalMAIN VOL−40…+3dB affectsactive/bypassed analogsignal,butdoesnotestablish expression control. Position,bypass/headphone/tail/looper attenuation remainunknown forlearned targets. Manualp15documentsbankdownA+B/upB+C,thenA/B/Cpresetselection;notsequentialpatchdown/up. Laterfirmware globaloverride remainsunverified;currenteffectsarenotassumedidentical to2023. No software,hardwareorstock test.
+
 ## TONEX ONE
 
 Standard TONEX ONE guitar/bass processor, not TONEX ONE+, Bass Edition or an artist variant. Consolidated and partially refreshed **2026-10-17**; no additional active model.
@@ -145,32 +182,3 @@ A second [CH MUSIC exact Pedal listing](https://shopee.co.id/TONEX-Pedal-IK-Mult
 Standard-model bass capability is explicit in the manufacturer-authored manual and standard Reloaded library; adding this shared bass row does not create another unique model or silently import Bass Edition presets. All fifteen original model fields and associated date/price qualifications remain above.
 
 Current firmware-specific processing concurrency and complete category algorithms, IR limits, exact synth/acoustic functions, native/converted NAM, USB channel counts and bus-powered operation, internal battery, graphical-screen attributes, external toe behavior, scenes/looper/drums and condition-verified stock remain unresolved. Early-manual details retain their revision; new firmware is not assumed installed. No manual screenshot success or physical hardware test is claimed.
-
-## Incoming capability evidence, 2026-10-18
-
-Preserved from origin/main87c7d38. References to older inventory counts or incomplete consolidation describe that branch checkpoint; current root profiles and ledger take precedence. Technical conflicts remain qualified.
-
-
-[Expression-volume comparison](EXPRESSION-VOLUME.md) · [Existing complete research](effects/advanced-modelers.md)
-
-### TONEX Pedal — incoming capability supplement
-
-**Checked 2026-10-18.** Partial expression-volume audit of an existing catalogue model, not a new inventory item and not a complete migration of its legacy record. TONEX ONE and TONEX Board are different models; their ports and features must not be transferred here.
-
-| Capability | Manufacturer finding / qualification |
-|---|---|
-| Built-in expression | No built-in treadle; the product shows external pedal control. |
-| External expression | Yes; official specification says expression input can control parameters. This does not establish a global assignment or an arbitrary controller's electrical compatibility. |
-| Global volume | **UNVERIFIED**. The current product page does not document volume assignment scope, minimum level, whether assignment survives preset changes, or headphone coverage. |
-| Size / weight | **176 ×142 ×55 mm; 906 g**. In normal pedalboard orientation the 142 mm depth is **2 mm over** the requested 140 mm maximum before plugs. Not a strict-size pass. |
-| Audio use | Normal guitar/amp-modeling processing, stereo outputs and dedicated headphones documented. |
-| Multi-effects scope | Current official page lists gate, EQ, compressor, delay, modulation and stereo reverb in addition to amp/cab processing. Do not use an older amp-only description as the complete current feature set. |
-| Other documented fields | 150 customizable presets; physical MIDI In/Out; USB audio connection. Full field/firmware reconciliation remains in the legacy research. |
-
-Primary source: [Official TONEX Pedal product/specification](https://ikmultimedia.com/products/tonexpedal). The linked [official downloads page](https://ikmultimedia.com/pages/downloads?product=tonexpedal) did not expose the needed manual text through the available reader; no manual-level global-expression confirmation is claimed.
-
-Exact current Shopee hardware offer, condition-verified new/used IDR, live stock and controller wiring remain unverified in this capability pass. Prior price observations are not overwritten. **Verdict: a size near-miss and unresolved global-volume lead, not a confirmed recommendation.**
-
-### TONEX Pedal — expression macro scope
-
-Checked2026-10-19. [Manufacturer-authored Englishv1.0.4 manual,2023/04/12,pp22,25–27](https://files.kraftmusic.com/media/ownersmanual/TONEX_Pedal_User_Manual.pdf): global EXT.CTRL selectsTRS/RTS controller type;assignment uses **PRESET SETUP→EXT.CTRL ON→EXT.LEARN A/B**. **Master VOLUME cannot be macro-assigned**;manual recommendsMODEL.VOL orpost-compressorCMP GAIN forselected-preset volume. Thus persistent physicalVOLUME0–10 isnotglobal expression assignment. A/B representheel/toe;exact mapped endpoints depend onthelearned preset. GlobalMAIN VOL−40…+3dB affectsactive/bypassed analogsignal,butdoesnotestablish expression control. Position,bypass/headphone/tail/looper attenuation remainunknown forlearned targets. Manualp15documentsbankdownA+B/upB+C,thenA/B/Cpresetselection;notsequentialpatchdown/up. Laterfirmware globaloverride remainsunverified;currenteffectsarenotassumedidentical to2023. No software,hardwareorstock test.

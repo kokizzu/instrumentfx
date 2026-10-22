@@ -1,5 +1,61 @@
 # Neural DSP multi-effects
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [Incoming capability evidence, 2026-10-18](#incoming-capability-evidence-2026-10-18)
+- [Nano Cortex](#nano-cortex)
+- [Quad Cortex](#quad-cortex)
+<!-- brand-index ends -->
+
+## Incoming capability evidence, 2026-10-18
+
+Preserved from origin/main87c7d38. References to older inventory counts or incomplete consolidation describe that branch checkpoint; current root profiles and ledger take precedence. Technical conflicts remain qualified.
+
+
+[Expression-volume comparison](EXPRESSION-VOLUME.md) · [Guitar inventory](ALL-GUITAR.md)
+
+### Nano Cortex — incoming capability supplement
+
+**Expression-volume capability supplement, checked 2026-10-18 against the official NanOS 2.2.0 HTML manual.** Nano Cortex already exists in the catalogue: this is not a new inventory item. Its earlier full technical record remains in [advanced modelers](effects/advanced-modelers.md); no legacy content is deleted or represented as fully consolidated.
+
+| Capability field | Verified finding / explicit uncertainty |
+|---|---|
+| Built-in expression | No treadle; the complete Overview shows external control rather than a built-in pedal. |
+| External analog EXP | Yes, shared EXP/MIDI input. In app Settings, select EXPRESSION PEDAL; use a compatible TRS controller and calibrate heel/toe. The manual explicitly distinguishes a TRS expression output from audio wah/volume outputs, which are not supported. |
+| Volume-related target | Expression Parameter Range section lists GAIN, BASS, MID, TREBLE, AMOUNT and **LEVEL**. The Global Controls section separately identifies the LEVEL knob as main-output master volume; the headphone level has a separate rear control. These statements establish a documented level-control lead, not an all-output/all-preset guarantee. |
+| Assignment scope | **UNVERIFIED global assignment.** The inspected Expression Pedal Configuration section explains assignments and calibration persistence but does not explicitly establish a single level assignment applying to every preset without individual setup. Do not turn global calibration or the section title Global Controls into proof of global mapping. |
+| Headphone behavior | Dedicated HP output is documented. Whether expression-mapped LEVEL controls HP level as well as main outputs is **unverified**; separate HP OUT knob is documented. |
+| Size / weight | **144 × 103 × 62 mm; 620 g**. Chassis fits 200 × 140 mm; connected plugs add clearance. |
+| Normal guitar pickup | Yes, normal instrument INPUT; no divided pickup required. |
+| Preset switching | Manual describes 2-Preset and 4-Preset operation. Do not automatically describe its default two-switch behavior as unrestricted preset-down/up. |
+| Power relevant to compact use | **9–12 V DC, center-negative, at least 600 mA**, or **USB-C 5 V / 1.5 A**. These are manufacturer supply requirements, not measured consumption. |
+| Research verdict | **Not a confirmed buy for global pedal volume.** Direct EXP and a level target are documented, but cross-preset assignment persistence, exact target behavior and headphone coverage require model/firmware-specific confirmation. |
+
+### Sources
+
+[Official Nano Cortex User Manual 2.2.0](https://neuraldsp.com/manual/nano-cortex): Overview; Connecting your Gear; Global Controls; Performance Mode; Expression Pedal Configuration; Device Settings; Hardware Specifications. This is an accessible manufacturer HTML manual, not an inferred feature from forum complaints or a retailer.
+
+### Remaining tasks
+
+Verify on NanOS 2.2.0 whether LEVEL in the expression target list refers to final main-output gain, establish assignment storage scope explicitly, test changing at least three presets with the pedal held at heel/middle/toe, and separately verify HP behavior. No hands-on test is claimed. Refresh exact Shopee hardware offers, separate used/new IDR, condition and stock. Existing broader specification/price gaps in the legacy record remain unresolved.
+
+### Nano Cortex — lock and bypass distinctions
+
+Checked2026-10-19 against [official NanOS2.2.0 manual](https://neuraldsp.com/manual/nano-cortex), Parameter Lock and Expression Pedal Configuration. **Parameter Lock disables physical rotary operation temporarily**; it does not document locking an expression assignment across presets. Calibration persists until recalibration; assignment persistence remains unspecified in these sections.
+
+Expression **slot bypass** is a separate assignment: SWITCH uses toe switching, STOP bypasses after stillness, HEEL-TOE bypasses at heel with delay up to2000ms. These describe Capture/IR/effect-slot states, **not whether expression LEVEL attenuates audio when slots are bypassed**. LEVEL range is adjustable/reversible0–100%; no final-output mute, headphone coverage orcross-preset guarantee follows from that normalized range. Prior official target-list discrepancy remains unresolved. No downloads orhardware test.
+
+### Nano Cortex — trails and physical LEVEL boundary
+
+Checked2026-10-19 in [ownNanOS2.2.0 manual](https://neuraldsp.com/manual/nano-cortex),Device Settings/Global Controls/Expression Pedal Configuration. **Trails enables delay/reverb decay ondevice bypass,but hasnoeffect in4-Preset Mode**. This isnotproof expressionLEVEL attenuates tails orpersists acrosspresets. PhysicalLEVEL islabelled masterforOUTPUT1L/2R;HP OUT separatelycontrols headphones. Latching behavior described forphysicalLEVEL inCaptureVolume/InputGate context isnotexpressionheld-position recall. TRS expression output required;audioWah/Volume outputs unsupported. Linear/logarithmic curves accepted aftercalibration;optionalrange/polaritycontrols supported. Resistance/pinout compatibility foractualM-VAVE controller remainsunverified. Globalassignment,headphoneattenuation andbypassLEVELcoverage remainunknown;no hardwaretest ordownloads.
+
+### Nano Cortex — three distinct volume references
+
+Checked 2026-10-19. [Official device list](https://neuraldsp.com/nano-cortex-device-list) lists **Volume** as a utility added in NanOS2.0.0, available in **any pre-effects slot**. It consumes a selectable slot; it is not documented as a fixed final-output volume block. Its presence does not establish global insertion or assignment across presets. Do not conflate this utility with LEVEL or Neural Capture Volume.
+
+The [NanOS2.2.0 manual](https://neuraldsp.com/manual/nano-cortex), Capture Volume & Input Gate and Capture Library Workflow, gives **Capture Volume −24dB to+12dB, default0dB**, located at the capture’s output. The physical LEVEL knob edits that parameter only in the stated mode; app capture-volume controls refer to the active capture slot. These decibel endpoints are not the normalized expression0–100% range and do not promise heel-down silence. Existing LEVEL target-list conflict, global assignment, headphone/bypass/tail coverage and held-pedal recall remain unresolved. No software or hardware operation.
+
 ## Nano Cortex
 
 Complete original model fields consolidated and partially refreshed **2026-10-17**. Standard Nano Cortex; no Quad Cortex specifications substituted.
@@ -113,51 +169,3 @@ Partial record checked **2026-10-17**. Full Quad Cortex,distinct from Nano Corte
 [qc-m]: https://neuraldsp.com/manual/quad-cortex
 
 No download orvisual inspection claimed;current web documentation does not prove seller firmware orlive stock.
-
-## Incoming capability evidence, 2026-10-18
-
-Preserved from origin/main87c7d38. References to older inventory counts or incomplete consolidation describe that branch checkpoint; current root profiles and ledger take precedence. Technical conflicts remain qualified.
-
-
-[Expression-volume comparison](EXPRESSION-VOLUME.md) · [Guitar inventory](ALL-GUITAR.md)
-
-### Nano Cortex — incoming capability supplement
-
-**Expression-volume capability supplement, checked 2026-10-18 against the official NanOS 2.2.0 HTML manual.** Nano Cortex already exists in the catalogue: this is not a new inventory item. Its earlier full technical record remains in [advanced modelers](effects/advanced-modelers.md); no legacy content is deleted or represented as fully consolidated.
-
-| Capability field | Verified finding / explicit uncertainty |
-|---|---|
-| Built-in expression | No treadle; the complete Overview shows external control rather than a built-in pedal. |
-| External analog EXP | Yes, shared EXP/MIDI input. In app Settings, select EXPRESSION PEDAL; use a compatible TRS controller and calibrate heel/toe. The manual explicitly distinguishes a TRS expression output from audio wah/volume outputs, which are not supported. |
-| Volume-related target | Expression Parameter Range section lists GAIN, BASS, MID, TREBLE, AMOUNT and **LEVEL**. The Global Controls section separately identifies the LEVEL knob as main-output master volume; the headphone level has a separate rear control. These statements establish a documented level-control lead, not an all-output/all-preset guarantee. |
-| Assignment scope | **UNVERIFIED global assignment.** The inspected Expression Pedal Configuration section explains assignments and calibration persistence but does not explicitly establish a single level assignment applying to every preset without individual setup. Do not turn global calibration or the section title Global Controls into proof of global mapping. |
-| Headphone behavior | Dedicated HP output is documented. Whether expression-mapped LEVEL controls HP level as well as main outputs is **unverified**; separate HP OUT knob is documented. |
-| Size / weight | **144 × 103 × 62 mm; 620 g**. Chassis fits 200 × 140 mm; connected plugs add clearance. |
-| Normal guitar pickup | Yes, normal instrument INPUT; no divided pickup required. |
-| Preset switching | Manual describes 2-Preset and 4-Preset operation. Do not automatically describe its default two-switch behavior as unrestricted preset-down/up. |
-| Power relevant to compact use | **9–12 V DC, center-negative, at least 600 mA**, or **USB-C 5 V / 1.5 A**. These are manufacturer supply requirements, not measured consumption. |
-| Research verdict | **Not a confirmed buy for global pedal volume.** Direct EXP and a level target are documented, but cross-preset assignment persistence, exact target behavior and headphone coverage require model/firmware-specific confirmation. |
-
-### Sources
-
-[Official Nano Cortex User Manual 2.2.0](https://neuraldsp.com/manual/nano-cortex): Overview; Connecting your Gear; Global Controls; Performance Mode; Expression Pedal Configuration; Device Settings; Hardware Specifications. This is an accessible manufacturer HTML manual, not an inferred feature from forum complaints or a retailer.
-
-### Remaining tasks
-
-Verify on NanOS 2.2.0 whether LEVEL in the expression target list refers to final main-output gain, establish assignment storage scope explicitly, test changing at least three presets with the pedal held at heel/middle/toe, and separately verify HP behavior. No hands-on test is claimed. Refresh exact Shopee hardware offers, separate used/new IDR, condition and stock. Existing broader specification/price gaps in the legacy record remain unresolved.
-
-### Nano Cortex — lock and bypass distinctions
-
-Checked2026-10-19 against [official NanOS2.2.0 manual](https://neuraldsp.com/manual/nano-cortex), Parameter Lock and Expression Pedal Configuration. **Parameter Lock disables physical rotary operation temporarily**; it does not document locking an expression assignment across presets. Calibration persists until recalibration; assignment persistence remains unspecified in these sections.
-
-Expression **slot bypass** is a separate assignment: SWITCH uses toe switching, STOP bypasses after stillness, HEEL-TOE bypasses at heel with delay up to2000ms. These describe Capture/IR/effect-slot states, **not whether expression LEVEL attenuates audio when slots are bypassed**. LEVEL range is adjustable/reversible0–100%; no final-output mute, headphone coverage orcross-preset guarantee follows from that normalized range. Prior official target-list discrepancy remains unresolved. No downloads orhardware test.
-
-### Nano Cortex — trails and physical LEVEL boundary
-
-Checked2026-10-19 in [ownNanOS2.2.0 manual](https://neuraldsp.com/manual/nano-cortex),Device Settings/Global Controls/Expression Pedal Configuration. **Trails enables delay/reverb decay ondevice bypass,but hasnoeffect in4-Preset Mode**. This isnotproof expressionLEVEL attenuates tails orpersists acrosspresets. PhysicalLEVEL islabelled masterforOUTPUT1L/2R;HP OUT separatelycontrols headphones. Latching behavior described forphysicalLEVEL inCaptureVolume/InputGate context isnotexpressionheld-position recall. TRS expression output required;audioWah/Volume outputs unsupported. Linear/logarithmic curves accepted aftercalibration;optionalrange/polaritycontrols supported. Resistance/pinout compatibility foractualM-VAVE controller remainsunverified. Globalassignment,headphoneattenuation andbypassLEVELcoverage remainunknown;no hardwaretest ordownloads.
-
-### Nano Cortex — three distinct volume references
-
-Checked 2026-10-19. [Official device list](https://neuraldsp.com/nano-cortex-device-list) lists **Volume** as a utility added in NanOS2.0.0, available in **any pre-effects slot**. It consumes a selectable slot; it is not documented as a fixed final-output volume block. Its presence does not establish global insertion or assignment across presets. Do not conflate this utility with LEVEL or Neural Capture Volume.
-
-The [NanOS2.2.0 manual](https://neuraldsp.com/manual/nano-cortex), Capture Volume & Input Gate and Capture Library Workflow, gives **Capture Volume −24dB to+12dB, default0dB**, located at the capture’s output. The physical LEVEL knob edits that parameter only in the stated mode; app capture-volume controls refer to the active capture slot. These decibel endpoints are not the normalized expression0–100% range and do not promise heel-down silence. Existing LEVEL target-list conflict, global assignment, headphone/bypass/tail coverage and held-pedal recall remain unresolved. No software or hardware operation.

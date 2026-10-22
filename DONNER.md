@@ -4,6 +4,25 @@
 
 **Arena2000 is an existing active model, now consolidated here.** Donner also explicitly identifies Alpha Cruncher and the Third Man Hardware collaboration Triple Threat as multi-effects; Alpha Cruncher remains a lead; Triple Threat now has a partial record below. Manufacturer-family check and dimensional correction: **2026-10-15**. Prior prices and other previously researched technical fields retain their **2026-10-14** observation date unless stated otherwise.
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [Additional manufacturer-confirmed multi-effects — research leads](#additional-manufacturer-confirmed-multi-effects--research-leads)
+- [Arena2000](#arena2000)
+- [Consolidation provenance](#consolidation-provenance)
+- [Triple Threat](#triple-threat)
+- [Unresolved Donner discovery](#unresolved-donner-discovery)
+<!-- brand-index ends -->
+
+## Additional manufacturer-confirmed multi-effects — research leads
+
+| Model | Why eligible to investigate | Primary evidence / what remains |
+|---|---|---|
+| **Alpha Cruncher** | Separate distortion,chorus and delay stages, not three modes of one effect | [Official Donner product](https://us.donnermusic.com/products/donner-alpha-cruncher-guitar-effect-pedal) describes a3-in-1 chain,9V center-negative and6.35 mm mono I/O. Exact Shopee hardware,complete controls/power/size and all required fields need a separate model pass. Its buffer-bypass/true-bypass wording conflicts internally and must not be silently resolved. |
+| **Triple Threat, Donner × Third Man Hardware** | Separate distortion,phaser and echo stages | [Manufacturer launch announcement,2024-01-25](https://www.donnermusic.com/ja-JP/articles/news_third-man-hardware-and-donner-release-the-triple-threat) and [official product](https://eu.donnermusic.com/fr/products/donner-x-third-man-hardware-triple-threat-3-in-1-analog-multi-effects-guitar-pedal). Initial exact Indonesian offer and partial specifications are now recorded in [Triple Threat](#triple-threat). A collaboration name is not a new ownership claim. |
+
+Alpha Cruncher is not counted yet; Triple Threat is counted once through its canonical section below. Ordinary amplifiers,controllers and dedicated one-purpose pedals remain outside the guitar multi-effects list. Arena2000 remains one model despite consolidation and the new dimensional finding.
+
 ## Arena2000
 
 Eligible guitar/shared-bass multi-effects with built-in expression. Not a dedicated single-effect pedal. Partial technical record; consolidation does not make remaining unknowns verified.
@@ -182,15 +201,6 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 - **Individually saved findings commit** (6. Evidence gaps and immediate commits): `cb764856d3a611936d99b6ca402dc96a88118928`
 
 [Original shared source](research-state.json)<!-- historical-link:donner-001 -->,retained pending complete navigation/provenance audits.
-
-## Additional manufacturer-confirmed multi-effects — research leads
-
-| Model | Why eligible to investigate | Primary evidence / what remains |
-|---|---|---|
-| **Alpha Cruncher** | Separate distortion,chorus and delay stages, not three modes of one effect | [Official Donner product](https://us.donnermusic.com/products/donner-alpha-cruncher-guitar-effect-pedal) describes a3-in-1 chain,9V center-negative and6.35 mm mono I/O. Exact Shopee hardware,complete controls/power/size and all required fields need a separate model pass. Its buffer-bypass/true-bypass wording conflicts internally and must not be silently resolved. |
-| **Triple Threat, Donner × Third Man Hardware** | Separate distortion,phaser and echo stages | [Manufacturer launch announcement,2024-01-25](https://www.donnermusic.com/ja-JP/articles/news_third-man-hardware-and-donner-release-the-triple-threat) and [official product](https://eu.donnermusic.com/fr/products/donner-x-third-man-hardware-triple-threat-3-in-1-analog-multi-effects-guitar-pedal). Initial exact Indonesian offer and partial specifications are now recorded in [Triple Threat](#triple-threat). A collaboration name is not a new ownership claim. |
-
-Alpha Cruncher is not counted yet; Triple Threat is counted once through its canonical section below. Ordinary amplifiers,controllers and dedicated one-purpose pedals remain outside the guitar multi-effects list. Arena2000 remains one model despite consolidation and the new dimensional finding.
 
 ## Consolidation provenance
 

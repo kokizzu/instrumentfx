@@ -1,5 +1,11 @@
 # Boin Audio multi-effects
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [BG300](#bg300)
+<!-- brand-index ends -->
+
 ## BG300
 
 Consolidated **2026-10-17**. **Revision not established:** the linked firmware1.1.0 manual is a documented profile, not confirmation that every BG300 listing supplies matching hardware. Retailer and manual display/power/port/algorithm conflicts remain open.

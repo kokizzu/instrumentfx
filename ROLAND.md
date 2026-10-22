@@ -1,5 +1,12 @@
 # Roland multi-effects
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [GR-55](#gr-55)
+- [VT-4](#vt-4)
+<!-- brand-index ends -->
+
 ## GR-55
 
 Guitar/bass synthesis and multi-effects with13-pin divided-pickup/GK system, not GM-800 Serial GK. Consolidated **2026-10-17**. Full original body and corrections retained; eligible owner history is separate from public specification/price evidence.

@@ -2,6 +2,55 @@
 
 [Repository](README.md) · [Guitar](ALL-GUITAR.md) · [Bass](ALL-BASS.md)
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [PROFILER Head MK2](#profiler-head-mk2)
+- [PROFILER Player](#profiler-player)
+- [PROFILER PowerHead MK2](#profiler-powerhead-mk2)
+- [PROFILER PowerRack MK2](#profiler-powerrack-mk2)
+- [PROFILER Rack MK2](#profiler-rack-mk2)
+- [PROFILER Stage MK2](#profiler-stage-mk2)
+<!-- brand-index ends -->
+
+## PROFILER Head MK2
+
+Partial record checked **2026-10-17**. Exact manufacturer **SKU 15300000**, distinct from PowerHead and controller/speaker bundles. [kh-p]
+
+| Required field | Evidence / qualification |
+|---|---|
+| Built-in / external / toe expression | Two onboard TRS pedal/switch sockets,10–100 kohm [kh-s]. Remote provides **four additional sockets**;switches must be momentary,normally open [kh-f]. Built-in/toe behavior unverified. Four-pedal marketing is not four onboard sockets [kh-p]. |
+| Knobs / footswitches / buttons | **16 adjustable rotary / ? footswitches / ? buttons**,derived Manual13.0 pp.28–41: Noise Gate1+directFX6+Master1+Type/Browse2+soft4+Gain1+Rig Volume1. Power/mode selector separate;current MK2 button census unresolved [kh-m]. |
+| Display | Published diagonal,color/monochrome and touch unresolved. |
+| Dimensions / weight | **378W×173D×217H mm;5.32 kg**, explicit Head specifications,not PowerHead mass [kh-s]. |
+| Simultaneous blocks / category choices | **4 flexible pre +4 flexible stereo post**, plus **6 fixed pre +2 fixed stereo post**, around AMP/CAB. Complete category census unresolved [kh-p]. |
+| Preset / factory / user memory | Manual13.0 pp.339–342,419: **125 Performances×5 slots=625 Rigs**,independent of Browse storage. All slots initially contain a standard Rig based on CK0;some example Performances supplied,remaining named New Performance. Exact factory examples,Browse capacity and combined total unresolved [kh-m]. |
+| Synth / acoustic | Manual13.0 pp.234–235: **electric-to-acoustic simulator** with Pickup,Body,Bronze,Sparkle. Recommended post-stack,preferably X,with AMP/CAB disabled. Not intended for acoustic/piezo instruments. Dedicated synth algorithms unresolved [kh-m]. |
+| IR / NAM / captures | Proprietary amp PROFILE creation documented [kh-p]. Current FAQ: **MK2 creates/plays PROFILE2.0 at high resolution**;MK1 playback is standard resolution with OS14. Desktop Rig Manager **converts imported IRs into cabinet presets**;native onboard IR limits and native/converted NAM unresolved [kh-f]. Manual13.0 p.96 specifies desktop Rig Manager≥3;importer accepts arbitrary source rate/length,not proof of unlimited native playback.18 Celestion-derived cabinet presets documented since OS5.5 [kh-m]. |
+| Audio I/O | Front¼-inch TS;balanced alternative TRS;balanced XLR/¼-inch return. Stereo main XLR balanced/TS unbalanced;monitor and direct/send TS;¼-inch stereo phones32–600ohm. S/PDIF RCA24bit44.1/48/88.2/96kHz master/slave [kh-s]. Rear guitar input selection is global and requires front INPUT unplugged;DI Analog requires front input. One FX loop:mono send,mono/stereo return [kh-f]. Manual13.0 pp.43–45,144: **Monitor Stereo pairs MONITOR OUT and DIRECT OUT**;monitor source,volume,EQ,Cab Off andaux settings then govern both. RETURN+ALTERNATIVE IN provide stereo return or aux input. XLR RETURN supplies **no phantom power**;MAIN XLR outputs protected against48V,but manual advises avoiding phantom feed [kh-m]. No powered SPEAKER OUTPUT in Head specification;that output is explicitly PowerHead/PowerRack only. |
+| Control / USB | USB-A/B,USB MIDI,DIN in/out/thru,RJ45,two pedal sockets;**4in/4out USB audio at44.1kHz** for MK2 [kh-s] [kh-p]. |
+| Power / battery / USB operation | **90–275V AC,max0.5A,50–60Hz**, Head rating [kh-s]. FAQ confirms automatic mains adaptation [kh-f]. Manual13.0 p.45 describes internal universal **100–240V AC IEC** supply,a narrower range than current90–275V Head specifications;revision/label reconciliation unresolved. Actual consumption,battery/USB operation unresolved;DC polarity not applicable to mains. [kh-m] |
+| Editor platforms / drivers | Rig Manager Windows/macOS over USB;mobile iOS/Android/FireOS over external WiFi router. [kh-p]. **OS14.2.2**,official2026-09-22: Rig Manager≥4.3.13 Windows/macOS,≥1.9.25 iOS,≥1.9.42 Android/FireOS. Rig Manager4 requires Windows10 version1703/macOS10.14;separate Windows ARM64 installer. These are firmware-specific requirements,not seller installedOS proof;drivers and mobile parity unresolved [kh-r]. |
+| Practical features | Morphing,Performance switching,instrument/line external FX loop,Kone output modes documented. [kh-p]. Current FAQ gives MK2 looper **up to120 seconds** [kh-f]. Manual13.0 pp.350–356 qualifies120sec to **Looper Location Input**. Input records dry signal before effects,so Rig changes recolor playback;Output records processed stereo after REV and requires a Master… output source for playback. Unlimited overdubs;loops lost at power-off. Remote maps record/play/overdub,stop/delete,undo/redo,trigger,reverse andspeed functions;record/play/overdub andstop can also be assigned to external switches. Generic60/30sec speed examples in the same manual are not proof of every MK2 mode duration. Current firmware/controller parity,drums and exact switching limits unresolved [kh-m]. |
+| Bass capability | Exact MK2 manufacturer page explicitly identifies guitar and bass;not equal-performance certification [kh-p]. |
+
+### Head MK2 — separate IDR asking-price evidence
+
+| Condition / access | Amount | Exact offer / qualifications |
+|---|---:|---|
+| Condition-unverified cached ask | **Rp28.900.000** | [Seller253483262/item4945179423](https://shopee.co.id/Kemper-Profiler-Head-MK-2-Guitar-Amp-System-i.253483262.4945179423),exact Head MK2 hardware title,Jakarta Pusat in [Shopee search](https://shopee.co.id/search?keyword=kemper+profiler). September2026 cache checked2026-10-17;previous click cache-missed;clean direct URL now inaccessible through research tool. display_model_id21460754905. Seller name,condition,new/used,stock,bundle,variation,voucher,warranty,authenticity and installed OS unresolved. Cached ask,not live checkout or completed sale. |
+| Second condition-unverified cached ask | **Rp28.980.000** | [Seller2655003/item56115345772](https://shopee.co.id/Kemper-Profiler-Head-MK2-i.2655003.56115345772),exact Head MK2 title,Jakarta Utara. Same September2026 search cache checked2026-10-17;indexed crossed priceRp28.990.000 and1%badge retained as displayed,not recomputed or voucher proof. Direct click cache-missed;display_model_id401314457527. Seller name,new/used,stock,bundle,variation,voucher,warranty,authenticity and installedOS unresolved. Not live checkout or completed sale. |
+| Verified new IDR | ? | Not established. |
+| Verified used IDR | ? | Not established. |
+
+[kh-m]: https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf
+[kh-f]: https://www.kemper-amps.com/faqs
+[kh-r]: https://forum.kemper-amps.com/forum/thread/68400-os-14-2-2-release/
+[kh-p]: https://www.kemper-amps.com/store/en/profiler-head-b.html
+[kh-s]: https://www.kemper-amps.com/profiler/technical-specifications
+
+Manual13.0 is manufacturer-authored,Rev.May2025,identity checked on mirrored PDF;not a claim to be current OS14 documentation. Manufacturer foreign stock does not prove Indonesian availability. No downloads,exchange-rate conversion or visual inspection claimed.
+
 ## PROFILER Player
 
 Partial record checked **2026-10-17**. One hardware model; paid Levels are feature entitlements,not separate inventory models. The offer does not establish its installed OS or upgrade Level.
@@ -57,90 +106,6 @@ Remaining:exact feature transition dates,complete category census and remaining1
 [kp-m142]: https://www.scribd.com/document/1071321958/KEMPER-PROFILER-Player-Main-Manual-14-2-English
 
 14.2 source is a manufacturer-authored manuscript reproduced on Scribd,not its AI description:Player/OS14.2 title,July2026 copyright/revision,numbered control sequence and core ports match the earlier Player manual and official specifications. The original manufacturer download page remained inaccessible as a regional shell on the previous pass. Only manuscript text was used;no files downloaded and no screenshot inspection claimed. This supplements the older manual without erasing it.
-
-## PROFILER Stage MK2
-
-Partial record checked **2026-10-17**. Exact MK2 search-item identity;generic Stage offer not assigned MK2 capabilities. Stage is an independent processor,not the Remote controller. Original Stage remains a separate unresolved lead.
-
-| Required field | Evidence / qualification |
-|---|---|
-| Built-in / external / toe expression | No built-in treadle; **four TRS pedal/switch sockets**,10–100kohm. Mission manufacturer indexed EP1-KP documentation explicitly includes Stage and specifies **TRS for expression plus separate TS for toe switch**: a two-connection arrangement, not toe data over the expression cable. Direct Mission pages/PDF timed out; MK2-specific calibration/configuration still unverified. [Specs][ks-s];[MK2store][ks-p];[Mission](https://missionengineering.com/shop/ep1-kp/);[Mission guide](https://missionengineering.com/ep1kp-electronic-user-guide/). |
-| Knobs / footswitches / buttons | **8/14/28**, derived from Stage inventory, Main Manual13.0 pp.48–63. Rotary: Master,Type,Browse,Gain,4soft. Footswitches:2bank+5Rig+4FX+Tap/Tuner/Looper. Buttons:2mode+12signal(Input/Output,10modules)+System/Pedals/Rig+4soft+Morph/Lock/Edit+Store/Exit+2Page. Power separate; encoder pushes counted once; no separate Copy/Paste buttons. Revision-qualified inventory, not visual recount. [Manual13][ks-m13]. |
-| Display | Diagonal,color/monochrome,touch unresolved. No photographic estimate. |
-| Dimensions / weight | **470W×260D×85H mm;4.1kgMK2**,large. Official page separately gives4.6kgoriginalStage;not a seller-weight measurement. [Specs][ks-s]. |
-| Simultaneous blocks / category choices | Current MK2 store advertises **18 simultaneous effects**. Manufacturer Addendum 13.0, Rev. May 2025, pp.20–22 instead describes **eight flexible modules plus seven added fixed effects**, with **up to20 serial blocks** overall. Fixed additions: pre-A Noise Gate, Compressor, Pure Booster, Wah and Vintage Chorus; post-amp Air Chorus and Double Tracker. Existing Transpose, input gate and volume are distinct. These counts use different scopes; the18 headline remains unreconciled. Complete category census unresolved. [MK2store][ks-p];[Addendum][ks-a]. |
-| Preset / factory / user memory | Manufacturer German Main Manual13.0, Rev. May2025, p.419 documents **125 Performances ×5 slots =625 Rigs**, stored independently of the Browse pool. This is performance capacity, not factory occupancy or combined total. Exact Browse capacity and factory/user split remain unresolved. Current store describes hundreds of supplied amp PROFILEs without an exact count. [Manual13][ks-m13];[MK2store][ks-p]. |
-| Synth / acoustic | **Dedicated Acoustic Simulator** documented in manufacturer Main Manual13.0 pp.234–235: electric-to-acoustic simulation, preferably post-stack in X with Amplifier/Cabinet disabled. Controls: Pickup, Body, Bronze, Sparkle. Not intended for acoustic/piezo instruments; not merely an acoustic PROFILE. Synth algorithms unresolved. [Manual13][ks-m13]. |
-| IR / NAM / captures | **Proprietary ampPROFILING creation** documented. Current FAQ distinguishesMK2 high-resolutionPROFILE2.0 creation/playback fromMK1standard-resolutionplayback. NativeNAM,convertedNAM andexactStageIRformat/limits requireverification. [MK2store][ks-p];[FAQ][ks-f]. |
-| Audio I/O | ¼-inchTSinstrumentin1Mohm;four balancedTRSreturns100kohm;stereo mainXLRbalanced+¼-inchTSunbalanced;stereo¼-inchTSmonitor;two¼-inchTSsends;3.5mmTRSphones32–600ohm. Outputs+4dBu. S/PDIFRCAin/out24bit44.1/48/88.2/96kHz,master/slave. [Specs][ks-s]. |
-| Control / USB | USB-A/B,USBMIDI,DINMIDIin/out;WiFi2.4GHzWPA2. **Eight USBaudio channels**44.1kHz;FAQclarifies4in/4out. NoUSBpowerinference. [Specs][ks-s];[FAQ][ks-f]. |
-| Power / battery / USB operation | Current specifications: **100–230 V AC,max0.5A,50–60Hz**. Manufacturer Main Manual13.0, Rev.May2025, Stage section p.68 instead states **100–240 V AC, internal universal supply/IEC inlet**. Voltage conflict retained; exact MK2 label verification needed. DC polarity not applicable to mains; actual consumption, USB/battery operation unresolved. No speaker power amp included. [Specs][ks-s];[Manual13][ks-m13];[MK2store][ks-p]. |
-| Editor platforms / drivers | Rig Manager desktop Windows/macOS via USB; iOS/Android/Fire OS mobile editors via WiFi. **OS14.2.1 requires desktop Rig Manager≥4.2.13, iOS≥1.9.24, Android/Fire OS≥1.9.36**. Official2026-08-10 announcement gives **Windows10 version1703 or macOS10.14 minimum for Rig Manager4**, with a separate Windows ARM64 installer. These are editor requirements, not driver or mobile-audio specifications; feature parity unresolved. [FAQ][ks-f];[OS14.2.1][ks-r1421]. |
-| Practical features | Morphing, Performance Mode, Tap/Tuner; two independent FX loops with stereo returns. **Looper up to120 seconds at half speed with Location=Input**, per OS13 addendum p.23; current FAQ confirms MK2 doubled duration. Fixed FX editable through Rig Manager or Rig Settings and assignable to effect switches; save the Rig. Drums, gapless constraints and other looper-location limits unresolved. [MK2store][ks-p];[Addendum][ks-a];[FAQ][ks-f]. |
-| Bass capability | Manufacturer'sStageQuickStartp.7explicitlysupportsbass;currentMK2storeidentifiescompleteStagePROFILERarchitecture. Sharedbass,notfullbassalgorithmcensusorlow-endperformancecertification. [Stageguide][ks-q];[MK2store][ks-p]. |
-| Historical Stage workflow / revision limit | Manufacturer Quick Start **Rev. April 2019**, pp.15–17: Morphing moves multiple continuous parameters between Base and Morph endpoints; save the Rig to retain edits. Pedal Links are global, with controller-level feedback; listed MIDI controllers are Morph CC11, Wah CC1, Volume CC7, Pitch CC4. LOCK can retain a module across Rig changes; holding LOCK shows locked modules. This predates MK2: preserved as Stage workflow provenance, not current MK2 panel/count or firmware confirmation. The current MK2 store independently confirms Morphing, but exact current assignments still need its manual. [2019 guide](https://cdn.korn.eu/documents/product/268937_i.pdf). |
-| Practical features — OS14.2.1 revision | Official2026-08-10 release adds compressor sidechain for non-Player models; stereo parameters for Vintage/Hyper/Air Chorus and Micro Pitch; fixes Fixed Noise Gate placement before Parallel Path. Stage MK2 gains **experimental MIDI2.0 UDP** support. Version-specific features; not proof of installed firmware or universal network-MIDI compatibility. [Release][ks-r1421]. |
-| Practical features — OS14.2.2 revision | Official **2026-09-22** release fixes S/PDIF Output Volume influencing the Noise Gate2:1 effect and improves interaction with Rig Manager4.3.13. Required editors: **desktop≥4.3.13, iOS≥1.9.25, Android/Fire OS≥1.9.42**. Rig Manager4 host minimum remains Windows10 version1703/macOS10.14, with separate Windows ARM64 installer. These supersede the OS14.2.1 editor minima only when using OS14.2.2; installed seller firmware unknown. [Release][ks-r1422]. |
-
-### Stage MK2 — separate IDR asking-price evidence
-
-| Condition / access | Amount | Exact offer / qualifications |
-|---|---:|---|
-| Condition-unverified indexed ask | **Rp32.000.000** | [Seller253483262/item6145175240](https://shopee.co.id/Kemper-Profiler-Stage-MK-2-Stereo-Guitar-Bass-Amp-Profiler-Workstation-i.253483262.6145175240). ExactMK2hardwaretitle linked by [Shopeesearch](https://shopee.co.id/search?keyword=kemper+profiler),JakartaPusat. Checked2026-10-17;itemclickfailedcacheaccess. Searchlink selecteddisplay_model_id30511615878;variation/bundle resolution unverified. Stock,new/used,sellername,warranty,authenticity,voucherandinstalledOSunknown. Cachedsearchprice,notlivecheckoutorcompletedtrade. |
-| Verified new IDR | ? | Not established. |
-| Verified used IDR | ? | Not established. |
-
-EarlierSevenStereoseller16879370/item22081209737Rp29.960.000onlysaysStage;retainedinledgerwithMK1/MK2unknown,notusedasMK2lowerbound. Remotecontrollers,protectorsandPROFILEpacksarenothardwareoffersforthismodel.
-
-[ks-r1422]: https://forum.kemper-amps.com/forum/thread/68400-os-14-2-2-release/?postID=724318
-[ks-r1421]: https://forum.kemper-amps.com/forum/thread/68235-os-14-2-1-release/?postID=722785
-[ks-m13]: https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf
-[ks-a]: https://www.scribd.com/document/890503834/Kemper-Profiler-Addendum-13-0
-[ks-s]: https://www.kemper-amps.com/profiler/technical-specifications
-[ks-p]: https://www.kemper-amps.com/store/us/profiler-stage-b.html
-[ks-f]: https://load2.kemper-amps.com/faqs
-[ks-q]: https://www.kemper-amps.com/download/static/263/Profiler%20Stage%20Quick%20Start%202021.pdf
-
-Officialspecifications/currentMK2storechecked2026-10-17. Stage2021guidep.7availableasindexedmanufacturertext;fullPDFopenfailed. No new visualinspectionclaimed. FAQcurrentfeaturesdonotproveinstalledOS. Addendum identity checked against manufacturer title, copyright, May2025 revision and explicit Stage MK2 coverage; mirrored document body used, not generated description. German Main Manual13.0 mirror identity verified from manufacturer title, copyright, May2025 revision and explicit MK2 sections; printed page numbers used. Remaining: complete panel/display, current main manual/category accounting, Browse/factory memory, IR/NAM, synth, other looper/power-operation limits and qualified current offer. No files/dependencies/software/firmware downloaded. OnepartialMK2record;nooriginalStageduplicate.
-
-## PROFILER Rack MK2
-
-Partial record checked **2026-10-17**. Exact manufacturer SKU17300000 and Shopee MK2 title. Distinct from PowerRack, original Rack and Remote bundles.
-
-| Required field | Evidence / qualification |
-|---|---|
-| Built-in / external / toe expression | **Two onboard TRS expression/switch inputs**,10–100kohm [kr-s]. Current manufacturer FAQ explicitly identifies **four additional sockets on Remote**, resolving the connection distinction: not four onboard Rack inputs. Switches must be momentary,normally open. Built-in treadle/toe details not independently checked. Store generic four-pedal wording retained as contextual,not an onboard-socket count. [kr-f];[kr-p] |
-| Knobs / footswitches / buttons | **14 adjustable rotary / ? footswitches / ? separate buttons**, derived from manufacturer Manual13.0 pp.28–41: Noise Gate1+direct delay/reverb4+Master1+Type/Browse2+soft4+Gain1+Rig Volume1. Rotary power/mode selector counted separately. Rack has four direct-effect knobs; Head has six, so Head totals are not copied. Button/footswitch census and current MK2 panel confirmation remain open; Remote controls excluded. [kr-m] |
-| Display | Diagonal, color/monochrome and touch unverified. |
-| Dimensions / weight | **483W×220D×139H mm;5.00kg;3U**, manufacturer Rack specification. PowerRack's6.18kg is separate [kr-s]. |
-| Simultaneous blocks / category choices | **4 flexible pre+4 flexible stereo post**, plus6 fixed pre and2 fixed stereo post, around AMP/CAB. Fixed and flexible counts are different scopes; full category census unresolved [kr-p]. |
-| Preset / factory / user memory | Manual13.0 p.419: **125 Performances ×5 slots =625 Rigs**, independent of Browse storage. Browse capacity, combined total and factory occupancy remain unresolved; this is not Player-derived memory. [kr-m] |
-| Synth / acoustic | **Dedicated electric-to-acoustic simulator**, Manual13.0 pp.234–235. Recommended post-stack,preferably X,with Amplifier/Cabinet disabled; controls Pickup,Body,Bronze,Sparkle. Not intended for acoustic/piezo instruments. Distinct from loading acoustic PROFILEs. Synth algorithms unresolved. [kr-m] |
-| IR / NAM / captures | Proprietary amp PROFILING creation documented [kr-p]. Manual13.0 p.96: **desktop Rig Manager≥3 imports cabinet IRs and converts them to cabinet presets** for transfer; arbitrary source sample rate/length accepted by the software, not proof of unlimited native onboard IR length. Manual lists18 Celestion-derived factory cabinet presets since OS5.5. Current manufacturer FAQ confirms **MK2 creates and plays PROFILE2.0 in high resolution**; MK1 playback is standard resolution and requires OS14. Native/converted NAM and exact installed firmware unresolved. [kr-f] [kr-m] |
-| Audio I/O | Front¼-inchTS input1Mohm;balanced¼-inchTRS alternative input825kohm;balanced XLR/¼-inch return825kohm. Main stereo balancedXLR/unbalancedTS;monitor anddirect/send unbalancedTS,+4dBu;¼-inchTRS phones32–600ohm. S/PDIF RCA24bit44.1/48/88.2/96kHz,master/slave [kr-s]. Stereo monitor uses routing configuration,not proof of two dedicated monitor sockets [kr-p]. |
-| Control / USB | USB-A/B,USB MIDI;DIN MIDI in/out/thru;RJ45. **4in/4out USB audio**,44.1kHz. Two onboard pedal sockets; Remote's additional sockets are separate hardware [kr-s];[kr-p]. |
-| Power / battery / USB operation | **90–275V AC,max0.5A,50–60Hz**, Head/Rack rating, distinct from powered variants [kr-s]. Manual13.0, Rev.May2025, p.45 instead states **100–240V AC via internal IEC supply**; unresolved source conflict, not a revised rating inferred by us. Actual consumption,battery/USB operation unresolved;DC polarity not applicable to mains. [kr-m] |
-| Editor platforms / drivers | Rig Manager Windows/macOS viaUSB; iOS/Android/FireOS through an **external WiFi router** [kr-p]. Current FAQ identifies desktop editor,librarian,Rig Exchange,local library,update management,IR conversion and backup browsing; mobile WiFi versions mainly focus on editing. Do not assume complete mobile feature parity. **OS14.2.2** official2026-09-22 release requires desktop Rig Manager≥4.3.13,iOS≥1.9.25,Android/Fire OS≥1.9.42. Rig Manager4 needs Windows10 version1703/macOS10.14 minimum;separate Windows ARM64 installer. Firmware-specific minima,not proof of seller firmware. Drivers remain unresolved. [kr-r] [kr-f] |
-| Practical features | Morphing,Performance switching and instrument/line external loop documented [kr-p]. Looper duration/control requirements,drums and exact gapless constraints unresolved. |
-| Bass capability | Exact Rack MK2 page explicitly identifies electric guitar and bass [kr-p]. Shared bass capability,not a complete bass-algorithm/performance certification. |
-| Audio routing / phantom / revision | Manufacturer Main Manual13.0, Rev.May2025, Rack sections pp.43–46: **Monitor Stereo pairs MONITOR OUT with DIRECT OUT**, sharing monitor controls. RETURN plus ALTERNATIVE INPUT form stereo loop returns or auxiliary playback inputs. RETURN XLR **does not supply phantom power**; main XLR outputs tolerate mixer48V, but the manual recommends avoiding it. USB-A is front-mounted on Rack; USB-B supports computer editing/audio/MIDI. Speaker output belongs only to powered variants. This is manual-revision evidence, not a fresh panel inspection. [kr-m] |
-
-### Rack MK2 — separate IDR asking-price evidence
-
-| Condition / access | Amount | Exact offer / qualifications |
-|---|---:|---|
-| Condition-unverified cached search ask | **Rp28.900.000** | [Seller253483262/item9807793662](https://shopee.co.id/Kemper-Profiler-Rack-MK2-Rackmount-Profiling-Amp-Head-i.253483262.9807793662), exact Rack MK2 hardware title, Jakarta Pusat, [Shopee search](https://shopee.co.id/search?keyword=kemper+profiler). Search cache labeled September2026; checked2026-10-17. Item click cache-missed; indexed display_model_id80578354848. Variation,bundle,seller name,new/used,stock,voucher,warranty,authenticity and installedOS unresolved. Not live checkout or completed sale. |
-| Additional condition-unverified cached ask | **Rp28.980.000** | [Seller2655003/item47515362518](https://shopee.co.id/Kemper-Profiler-Rack-MK2-i.2655003.47515362518), exact Rack MK2 title in [Shopee search](https://shopee.co.id/search?keyword=kemper+profiler),Jakarta Utara. Cached September2026 page checked2026-10-17; crossed-out Rp28.990.000 and -1% displayed,not a verified voucher/checkout discount. Indexed display_model_id292845588555;item click cache-missed and clean URL inaccessible. Seller name,new/used,stock,variation,bundle,warranty,authenticity and installedOS unknown. Separate offer,not live stock or completed sale. |
-| Verified new IDR | ? | Not established. |
-| Verified used IDR | ? | Not established. |
-
-[kr-r]: https://forum.kemper-amps.com/forum/thread/68400-os-14-2-2-release/
-[kr-f]: https://www.kemper-amps.com/faqs
-[kr-m]: https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf
-[kr-p]: https://www.kemper-amps.com/store/uk/profiler-rack-b.html
-[kr-s]: https://www.kemper-amps.com/profiler/technical-specifications
-
-Manufacturer UK availability is not Indonesian stock evidence. No currency conversion or files downloaded. Current shared specifications explicitly distinguish MK2 USB channels; remaining revision-sensitive physical and software details need the matching manual.
 
 ## PROFILER PowerHead MK2
 
@@ -222,40 +187,86 @@ Partial record checked **2026-10-17**. Manufacturer SKU19300000 and exact Shopee
 
 Manufacturer foreign stock does not verify Indonesian stock. No exchange-rate conversion,downloads or visual inspection claimed. All technical/market gaps remain explicit.
 
-## PROFILER Head MK2
+## PROFILER Rack MK2
 
-Partial record checked **2026-10-17**. Exact manufacturer **SKU 15300000**, distinct from PowerHead and controller/speaker bundles. [kh-p]
+Partial record checked **2026-10-17**. Exact manufacturer SKU17300000 and Shopee MK2 title. Distinct from PowerRack, original Rack and Remote bundles.
 
 | Required field | Evidence / qualification |
 |---|---|
-| Built-in / external / toe expression | Two onboard TRS pedal/switch sockets,10–100 kohm [kh-s]. Remote provides **four additional sockets**;switches must be momentary,normally open [kh-f]. Built-in/toe behavior unverified. Four-pedal marketing is not four onboard sockets [kh-p]. |
-| Knobs / footswitches / buttons | **16 adjustable rotary / ? footswitches / ? buttons**,derived Manual13.0 pp.28–41: Noise Gate1+directFX6+Master1+Type/Browse2+soft4+Gain1+Rig Volume1. Power/mode selector separate;current MK2 button census unresolved [kh-m]. |
-| Display | Published diagonal,color/monochrome and touch unresolved. |
-| Dimensions / weight | **378W×173D×217H mm;5.32 kg**, explicit Head specifications,not PowerHead mass [kh-s]. |
-| Simultaneous blocks / category choices | **4 flexible pre +4 flexible stereo post**, plus **6 fixed pre +2 fixed stereo post**, around AMP/CAB. Complete category census unresolved [kh-p]. |
-| Preset / factory / user memory | Manual13.0 pp.339–342,419: **125 Performances×5 slots=625 Rigs**,independent of Browse storage. All slots initially contain a standard Rig based on CK0;some example Performances supplied,remaining named New Performance. Exact factory examples,Browse capacity and combined total unresolved [kh-m]. |
-| Synth / acoustic | Manual13.0 pp.234–235: **electric-to-acoustic simulator** with Pickup,Body,Bronze,Sparkle. Recommended post-stack,preferably X,with AMP/CAB disabled. Not intended for acoustic/piezo instruments. Dedicated synth algorithms unresolved [kh-m]. |
-| IR / NAM / captures | Proprietary amp PROFILE creation documented [kh-p]. Current FAQ: **MK2 creates/plays PROFILE2.0 at high resolution**;MK1 playback is standard resolution with OS14. Desktop Rig Manager **converts imported IRs into cabinet presets**;native onboard IR limits and native/converted NAM unresolved [kh-f]. Manual13.0 p.96 specifies desktop Rig Manager≥3;importer accepts arbitrary source rate/length,not proof of unlimited native playback.18 Celestion-derived cabinet presets documented since OS5.5 [kh-m]. |
-| Audio I/O | Front¼-inch TS;balanced alternative TRS;balanced XLR/¼-inch return. Stereo main XLR balanced/TS unbalanced;monitor and direct/send TS;¼-inch stereo phones32–600ohm. S/PDIF RCA24bit44.1/48/88.2/96kHz master/slave [kh-s]. Rear guitar input selection is global and requires front INPUT unplugged;DI Analog requires front input. One FX loop:mono send,mono/stereo return [kh-f]. Manual13.0 pp.43–45,144: **Monitor Stereo pairs MONITOR OUT and DIRECT OUT**;monitor source,volume,EQ,Cab Off andaux settings then govern both. RETURN+ALTERNATIVE IN provide stereo return or aux input. XLR RETURN supplies **no phantom power**;MAIN XLR outputs protected against48V,but manual advises avoiding phantom feed [kh-m]. No powered SPEAKER OUTPUT in Head specification;that output is explicitly PowerHead/PowerRack only. |
-| Control / USB | USB-A/B,USB MIDI,DIN in/out/thru,RJ45,two pedal sockets;**4in/4out USB audio at44.1kHz** for MK2 [kh-s] [kh-p]. |
-| Power / battery / USB operation | **90–275V AC,max0.5A,50–60Hz**, Head rating [kh-s]. FAQ confirms automatic mains adaptation [kh-f]. Manual13.0 p.45 describes internal universal **100–240V AC IEC** supply,a narrower range than current90–275V Head specifications;revision/label reconciliation unresolved. Actual consumption,battery/USB operation unresolved;DC polarity not applicable to mains. [kh-m] |
-| Editor platforms / drivers | Rig Manager Windows/macOS over USB;mobile iOS/Android/FireOS over external WiFi router. [kh-p]. **OS14.2.2**,official2026-09-22: Rig Manager≥4.3.13 Windows/macOS,≥1.9.25 iOS,≥1.9.42 Android/FireOS. Rig Manager4 requires Windows10 version1703/macOS10.14;separate Windows ARM64 installer. These are firmware-specific requirements,not seller installedOS proof;drivers and mobile parity unresolved [kh-r]. |
-| Practical features | Morphing,Performance switching,instrument/line external FX loop,Kone output modes documented. [kh-p]. Current FAQ gives MK2 looper **up to120 seconds** [kh-f]. Manual13.0 pp.350–356 qualifies120sec to **Looper Location Input**. Input records dry signal before effects,so Rig changes recolor playback;Output records processed stereo after REV and requires a Master… output source for playback. Unlimited overdubs;loops lost at power-off. Remote maps record/play/overdub,stop/delete,undo/redo,trigger,reverse andspeed functions;record/play/overdub andstop can also be assigned to external switches. Generic60/30sec speed examples in the same manual are not proof of every MK2 mode duration. Current firmware/controller parity,drums and exact switching limits unresolved [kh-m]. |
-| Bass capability | Exact MK2 manufacturer page explicitly identifies guitar and bass;not equal-performance certification [kh-p]. |
+| Built-in / external / toe expression | **Two onboard TRS expression/switch inputs**,10–100kohm [kr-s]. Current manufacturer FAQ explicitly identifies **four additional sockets on Remote**, resolving the connection distinction: not four onboard Rack inputs. Switches must be momentary,normally open. Built-in treadle/toe details not independently checked. Store generic four-pedal wording retained as contextual,not an onboard-socket count. [kr-f];[kr-p] |
+| Knobs / footswitches / buttons | **14 adjustable rotary / ? footswitches / ? separate buttons**, derived from manufacturer Manual13.0 pp.28–41: Noise Gate1+direct delay/reverb4+Master1+Type/Browse2+soft4+Gain1+Rig Volume1. Rotary power/mode selector counted separately. Rack has four direct-effect knobs; Head has six, so Head totals are not copied. Button/footswitch census and current MK2 panel confirmation remain open; Remote controls excluded. [kr-m] |
+| Display | Diagonal, color/monochrome and touch unverified. |
+| Dimensions / weight | **483W×220D×139H mm;5.00kg;3U**, manufacturer Rack specification. PowerRack's6.18kg is separate [kr-s]. |
+| Simultaneous blocks / category choices | **4 flexible pre+4 flexible stereo post**, plus6 fixed pre and2 fixed stereo post, around AMP/CAB. Fixed and flexible counts are different scopes; full category census unresolved [kr-p]. |
+| Preset / factory / user memory | Manual13.0 p.419: **125 Performances ×5 slots =625 Rigs**, independent of Browse storage. Browse capacity, combined total and factory occupancy remain unresolved; this is not Player-derived memory. [kr-m] |
+| Synth / acoustic | **Dedicated electric-to-acoustic simulator**, Manual13.0 pp.234–235. Recommended post-stack,preferably X,with Amplifier/Cabinet disabled; controls Pickup,Body,Bronze,Sparkle. Not intended for acoustic/piezo instruments. Distinct from loading acoustic PROFILEs. Synth algorithms unresolved. [kr-m] |
+| IR / NAM / captures | Proprietary amp PROFILING creation documented [kr-p]. Manual13.0 p.96: **desktop Rig Manager≥3 imports cabinet IRs and converts them to cabinet presets** for transfer; arbitrary source sample rate/length accepted by the software, not proof of unlimited native onboard IR length. Manual lists18 Celestion-derived factory cabinet presets since OS5.5. Current manufacturer FAQ confirms **MK2 creates and plays PROFILE2.0 in high resolution**; MK1 playback is standard resolution and requires OS14. Native/converted NAM and exact installed firmware unresolved. [kr-f] [kr-m] |
+| Audio I/O | Front¼-inchTS input1Mohm;balanced¼-inchTRS alternative input825kohm;balanced XLR/¼-inch return825kohm. Main stereo balancedXLR/unbalancedTS;monitor anddirect/send unbalancedTS,+4dBu;¼-inchTRS phones32–600ohm. S/PDIF RCA24bit44.1/48/88.2/96kHz,master/slave [kr-s]. Stereo monitor uses routing configuration,not proof of two dedicated monitor sockets [kr-p]. |
+| Control / USB | USB-A/B,USB MIDI;DIN MIDI in/out/thru;RJ45. **4in/4out USB audio**,44.1kHz. Two onboard pedal sockets; Remote's additional sockets are separate hardware [kr-s];[kr-p]. |
+| Power / battery / USB operation | **90–275V AC,max0.5A,50–60Hz**, Head/Rack rating, distinct from powered variants [kr-s]. Manual13.0, Rev.May2025, p.45 instead states **100–240V AC via internal IEC supply**; unresolved source conflict, not a revised rating inferred by us. Actual consumption,battery/USB operation unresolved;DC polarity not applicable to mains. [kr-m] |
+| Editor platforms / drivers | Rig Manager Windows/macOS viaUSB; iOS/Android/FireOS through an **external WiFi router** [kr-p]. Current FAQ identifies desktop editor,librarian,Rig Exchange,local library,update management,IR conversion and backup browsing; mobile WiFi versions mainly focus on editing. Do not assume complete mobile feature parity. **OS14.2.2** official2026-09-22 release requires desktop Rig Manager≥4.3.13,iOS≥1.9.25,Android/Fire OS≥1.9.42. Rig Manager4 needs Windows10 version1703/macOS10.14 minimum;separate Windows ARM64 installer. Firmware-specific minima,not proof of seller firmware. Drivers remain unresolved. [kr-r] [kr-f] |
+| Practical features | Morphing,Performance switching and instrument/line external loop documented [kr-p]. Looper duration/control requirements,drums and exact gapless constraints unresolved. |
+| Bass capability | Exact Rack MK2 page explicitly identifies electric guitar and bass [kr-p]. Shared bass capability,not a complete bass-algorithm/performance certification. |
+| Audio routing / phantom / revision | Manufacturer Main Manual13.0, Rev.May2025, Rack sections pp.43–46: **Monitor Stereo pairs MONITOR OUT with DIRECT OUT**, sharing monitor controls. RETURN plus ALTERNATIVE INPUT form stereo loop returns or auxiliary playback inputs. RETURN XLR **does not supply phantom power**; main XLR outputs tolerate mixer48V, but the manual recommends avoiding it. USB-A is front-mounted on Rack; USB-B supports computer editing/audio/MIDI. Speaker output belongs only to powered variants. This is manual-revision evidence, not a fresh panel inspection. [kr-m] |
 
-### Head MK2 — separate IDR asking-price evidence
+### Rack MK2 — separate IDR asking-price evidence
 
 | Condition / access | Amount | Exact offer / qualifications |
 |---|---:|---|
-| Condition-unverified cached ask | **Rp28.900.000** | [Seller253483262/item4945179423](https://shopee.co.id/Kemper-Profiler-Head-MK-2-Guitar-Amp-System-i.253483262.4945179423),exact Head MK2 hardware title,Jakarta Pusat in [Shopee search](https://shopee.co.id/search?keyword=kemper+profiler). September2026 cache checked2026-10-17;previous click cache-missed;clean direct URL now inaccessible through research tool. display_model_id21460754905. Seller name,condition,new/used,stock,bundle,variation,voucher,warranty,authenticity and installed OS unresolved. Cached ask,not live checkout or completed sale. |
-| Second condition-unverified cached ask | **Rp28.980.000** | [Seller2655003/item56115345772](https://shopee.co.id/Kemper-Profiler-Head-MK2-i.2655003.56115345772),exact Head MK2 title,Jakarta Utara. Same September2026 search cache checked2026-10-17;indexed crossed priceRp28.990.000 and1%badge retained as displayed,not recomputed or voucher proof. Direct click cache-missed;display_model_id401314457527. Seller name,new/used,stock,bundle,variation,voucher,warranty,authenticity and installedOS unresolved. Not live checkout or completed sale. |
+| Condition-unverified cached search ask | **Rp28.900.000** | [Seller253483262/item9807793662](https://shopee.co.id/Kemper-Profiler-Rack-MK2-Rackmount-Profiling-Amp-Head-i.253483262.9807793662), exact Rack MK2 hardware title, Jakarta Pusat, [Shopee search](https://shopee.co.id/search?keyword=kemper+profiler). Search cache labeled September2026; checked2026-10-17. Item click cache-missed; indexed display_model_id80578354848. Variation,bundle,seller name,new/used,stock,voucher,warranty,authenticity and installedOS unresolved. Not live checkout or completed sale. |
+| Additional condition-unverified cached ask | **Rp28.980.000** | [Seller2655003/item47515362518](https://shopee.co.id/Kemper-Profiler-Rack-MK2-i.2655003.47515362518), exact Rack MK2 title in [Shopee search](https://shopee.co.id/search?keyword=kemper+profiler),Jakarta Utara. Cached September2026 page checked2026-10-17; crossed-out Rp28.990.000 and -1% displayed,not a verified voucher/checkout discount. Indexed display_model_id292845588555;item click cache-missed and clean URL inaccessible. Seller name,new/used,stock,variation,bundle,warranty,authenticity and installedOS unknown. Separate offer,not live stock or completed sale. |
 | Verified new IDR | ? | Not established. |
 | Verified used IDR | ? | Not established. |
 
-[kh-m]: https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf
-[kh-f]: https://www.kemper-amps.com/faqs
-[kh-r]: https://forum.kemper-amps.com/forum/thread/68400-os-14-2-2-release/
-[kh-p]: https://www.kemper-amps.com/store/en/profiler-head-b.html
-[kh-s]: https://www.kemper-amps.com/profiler/technical-specifications
+[kr-r]: https://forum.kemper-amps.com/forum/thread/68400-os-14-2-2-release/
+[kr-f]: https://www.kemper-amps.com/faqs
+[kr-m]: https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf
+[kr-p]: https://www.kemper-amps.com/store/uk/profiler-rack-b.html
+[kr-s]: https://www.kemper-amps.com/profiler/technical-specifications
 
-Manual13.0 is manufacturer-authored,Rev.May2025,identity checked on mirrored PDF;not a claim to be current OS14 documentation. Manufacturer foreign stock does not prove Indonesian availability. No downloads,exchange-rate conversion or visual inspection claimed.
+Manufacturer UK availability is not Indonesian stock evidence. No currency conversion or files downloaded. Current shared specifications explicitly distinguish MK2 USB channels; remaining revision-sensitive physical and software details need the matching manual.
+
+## PROFILER Stage MK2
+
+Partial record checked **2026-10-17**. Exact MK2 search-item identity;generic Stage offer not assigned MK2 capabilities. Stage is an independent processor,not the Remote controller. Original Stage remains a separate unresolved lead.
+
+| Required field | Evidence / qualification |
+|---|---|
+| Built-in / external / toe expression | No built-in treadle; **four TRS pedal/switch sockets**,10–100kohm. Mission manufacturer indexed EP1-KP documentation explicitly includes Stage and specifies **TRS for expression plus separate TS for toe switch**: a two-connection arrangement, not toe data over the expression cable. Direct Mission pages/PDF timed out; MK2-specific calibration/configuration still unverified. [Specs][ks-s];[MK2store][ks-p];[Mission](https://missionengineering.com/shop/ep1-kp/);[Mission guide](https://missionengineering.com/ep1kp-electronic-user-guide/). |
+| Knobs / footswitches / buttons | **8/14/28**, derived from Stage inventory, Main Manual13.0 pp.48–63. Rotary: Master,Type,Browse,Gain,4soft. Footswitches:2bank+5Rig+4FX+Tap/Tuner/Looper. Buttons:2mode+12signal(Input/Output,10modules)+System/Pedals/Rig+4soft+Morph/Lock/Edit+Store/Exit+2Page. Power separate; encoder pushes counted once; no separate Copy/Paste buttons. Revision-qualified inventory, not visual recount. [Manual13][ks-m13]. |
+| Display | Diagonal,color/monochrome,touch unresolved. No photographic estimate. |
+| Dimensions / weight | **470W×260D×85H mm;4.1kgMK2**,large. Official page separately gives4.6kgoriginalStage;not a seller-weight measurement. [Specs][ks-s]. |
+| Simultaneous blocks / category choices | Current MK2 store advertises **18 simultaneous effects**. Manufacturer Addendum 13.0, Rev. May 2025, pp.20–22 instead describes **eight flexible modules plus seven added fixed effects**, with **up to20 serial blocks** overall. Fixed additions: pre-A Noise Gate, Compressor, Pure Booster, Wah and Vintage Chorus; post-amp Air Chorus and Double Tracker. Existing Transpose, input gate and volume are distinct. These counts use different scopes; the18 headline remains unreconciled. Complete category census unresolved. [MK2store][ks-p];[Addendum][ks-a]. |
+| Preset / factory / user memory | Manufacturer German Main Manual13.0, Rev. May2025, p.419 documents **125 Performances ×5 slots =625 Rigs**, stored independently of the Browse pool. This is performance capacity, not factory occupancy or combined total. Exact Browse capacity and factory/user split remain unresolved. Current store describes hundreds of supplied amp PROFILEs without an exact count. [Manual13][ks-m13];[MK2store][ks-p]. |
+| Synth / acoustic | **Dedicated Acoustic Simulator** documented in manufacturer Main Manual13.0 pp.234–235: electric-to-acoustic simulation, preferably post-stack in X with Amplifier/Cabinet disabled. Controls: Pickup, Body, Bronze, Sparkle. Not intended for acoustic/piezo instruments; not merely an acoustic PROFILE. Synth algorithms unresolved. [Manual13][ks-m13]. |
+| IR / NAM / captures | **Proprietary ampPROFILING creation** documented. Current FAQ distinguishesMK2 high-resolutionPROFILE2.0 creation/playback fromMK1standard-resolutionplayback. NativeNAM,convertedNAM andexactStageIRformat/limits requireverification. [MK2store][ks-p];[FAQ][ks-f]. |
+| Audio I/O | ¼-inchTSinstrumentin1Mohm;four balancedTRSreturns100kohm;stereo mainXLRbalanced+¼-inchTSunbalanced;stereo¼-inchTSmonitor;two¼-inchTSsends;3.5mmTRSphones32–600ohm. Outputs+4dBu. S/PDIFRCAin/out24bit44.1/48/88.2/96kHz,master/slave. [Specs][ks-s]. |
+| Control / USB | USB-A/B,USBMIDI,DINMIDIin/out;WiFi2.4GHzWPA2. **Eight USBaudio channels**44.1kHz;FAQclarifies4in/4out. NoUSBpowerinference. [Specs][ks-s];[FAQ][ks-f]. |
+| Power / battery / USB operation | Current specifications: **100–230 V AC,max0.5A,50–60Hz**. Manufacturer Main Manual13.0, Rev.May2025, Stage section p.68 instead states **100–240 V AC, internal universal supply/IEC inlet**. Voltage conflict retained; exact MK2 label verification needed. DC polarity not applicable to mains; actual consumption, USB/battery operation unresolved. No speaker power amp included. [Specs][ks-s];[Manual13][ks-m13];[MK2store][ks-p]. |
+| Editor platforms / drivers | Rig Manager desktop Windows/macOS via USB; iOS/Android/Fire OS mobile editors via WiFi. **OS14.2.1 requires desktop Rig Manager≥4.2.13, iOS≥1.9.24, Android/Fire OS≥1.9.36**. Official2026-08-10 announcement gives **Windows10 version1703 or macOS10.14 minimum for Rig Manager4**, with a separate Windows ARM64 installer. These are editor requirements, not driver or mobile-audio specifications; feature parity unresolved. [FAQ][ks-f];[OS14.2.1][ks-r1421]. |
+| Practical features | Morphing, Performance Mode, Tap/Tuner; two independent FX loops with stereo returns. **Looper up to120 seconds at half speed with Location=Input**, per OS13 addendum p.23; current FAQ confirms MK2 doubled duration. Fixed FX editable through Rig Manager or Rig Settings and assignable to effect switches; save the Rig. Drums, gapless constraints and other looper-location limits unresolved. [MK2store][ks-p];[Addendum][ks-a];[FAQ][ks-f]. |
+| Bass capability | Manufacturer'sStageQuickStartp.7explicitlysupportsbass;currentMK2storeidentifiescompleteStagePROFILERarchitecture. Sharedbass,notfullbassalgorithmcensusorlow-endperformancecertification. [Stageguide][ks-q];[MK2store][ks-p]. |
+| Historical Stage workflow / revision limit | Manufacturer Quick Start **Rev. April 2019**, pp.15–17: Morphing moves multiple continuous parameters between Base and Morph endpoints; save the Rig to retain edits. Pedal Links are global, with controller-level feedback; listed MIDI controllers are Morph CC11, Wah CC1, Volume CC7, Pitch CC4. LOCK can retain a module across Rig changes; holding LOCK shows locked modules. This predates MK2: preserved as Stage workflow provenance, not current MK2 panel/count or firmware confirmation. The current MK2 store independently confirms Morphing, but exact current assignments still need its manual. [2019 guide](https://cdn.korn.eu/documents/product/268937_i.pdf). |
+| Practical features — OS14.2.1 revision | Official2026-08-10 release adds compressor sidechain for non-Player models; stereo parameters for Vintage/Hyper/Air Chorus and Micro Pitch; fixes Fixed Noise Gate placement before Parallel Path. Stage MK2 gains **experimental MIDI2.0 UDP** support. Version-specific features; not proof of installed firmware or universal network-MIDI compatibility. [Release][ks-r1421]. |
+| Practical features — OS14.2.2 revision | Official **2026-09-22** release fixes S/PDIF Output Volume influencing the Noise Gate2:1 effect and improves interaction with Rig Manager4.3.13. Required editors: **desktop≥4.3.13, iOS≥1.9.25, Android/Fire OS≥1.9.42**. Rig Manager4 host minimum remains Windows10 version1703/macOS10.14, with separate Windows ARM64 installer. These supersede the OS14.2.1 editor minima only when using OS14.2.2; installed seller firmware unknown. [Release][ks-r1422]. |
+
+### Stage MK2 — separate IDR asking-price evidence
+
+| Condition / access | Amount | Exact offer / qualifications |
+|---|---:|---|
+| Condition-unverified indexed ask | **Rp32.000.000** | [Seller253483262/item6145175240](https://shopee.co.id/Kemper-Profiler-Stage-MK-2-Stereo-Guitar-Bass-Amp-Profiler-Workstation-i.253483262.6145175240). ExactMK2hardwaretitle linked by [Shopeesearch](https://shopee.co.id/search?keyword=kemper+profiler),JakartaPusat. Checked2026-10-17;itemclickfailedcacheaccess. Searchlink selecteddisplay_model_id30511615878;variation/bundle resolution unverified. Stock,new/used,sellername,warranty,authenticity,voucherandinstalledOSunknown. Cachedsearchprice,notlivecheckoutorcompletedtrade. |
+| Verified new IDR | ? | Not established. |
+| Verified used IDR | ? | Not established. |
+
+EarlierSevenStereoseller16879370/item22081209737Rp29.960.000onlysaysStage;retainedinledgerwithMK1/MK2unknown,notusedasMK2lowerbound. Remotecontrollers,protectorsandPROFILEpacksarenothardwareoffersforthismodel.
+
+[ks-r1422]: https://forum.kemper-amps.com/forum/thread/68400-os-14-2-2-release/?postID=724318
+[ks-r1421]: https://forum.kemper-amps.com/forum/thread/68235-os-14-2-1-release/?postID=722785
+[ks-m13]: https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf
+[ks-a]: https://www.scribd.com/document/890503834/Kemper-Profiler-Addendum-13-0
+[ks-s]: https://www.kemper-amps.com/profiler/technical-specifications
+[ks-p]: https://www.kemper-amps.com/store/us/profiler-stage-b.html
+[ks-f]: https://load2.kemper-amps.com/faqs
+[ks-q]: https://www.kemper-amps.com/download/static/263/Profiler%20Stage%20Quick%20Start%202021.pdf
+
+Officialspecifications/currentMK2storechecked2026-10-17. Stage2021guidep.7availableasindexedmanufacturertext;fullPDFopenfailed. No new visualinspectionclaimed. FAQcurrentfeaturesdonotproveinstalledOS. Addendum identity checked against manufacturer title, copyright, May2025 revision and explicit Stage MK2 coverage; mirrored document body used, not generated description. German Main Manual13.0 mirror identity verified from manufacturer title, copyright, May2025 revision and explicit MK2 sections; printed page numbers used. Remaining: complete panel/display, current main manual/category accounting, Browse/factory memory, IR/NAM, synth, other looper/power-operation limits and qualified current offer. No files/dependencies/software/firmware downloaded. OnepartialMK2record;nooriginalStageduplicate.

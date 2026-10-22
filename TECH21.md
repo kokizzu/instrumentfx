@@ -2,6 +2,136 @@
 
 [Repository](README.md) · [Guitar comparison](ALL-GUITAR.md)
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [Acoustic Fly Rig](#acoustic-fly-rig)
+- [Bass Fly Rig v2](#bass-fly-rig-v2)
+- [Fly Rig 5 v2](#fly-rig-5-v2)
+- [RK5 — revision-unresolved hardware lead](#rk5--revision-unresolved-hardware-lead)
+<!-- brand-index ends -->
+
+## Acoustic Fly Rig
+
+Distinct guitar/acoustic/bass multi-effects; checked 2026-10-18, partial. [Own product](https://www.tech21nyc.com/products/flyrig/acoustic-fly-rig/) explicitly supports electric guitar and bass as well as acoustic. No sibling specifications substituted.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Expression | Built-in/external/toe support unverified. |
+| K/F/B | Separate complete rotary/footswitch/button counts unverified; no sibling counts borrowed. |
+| Display | Chromatic tuner with muted tuning via held TAP/TUNER; diagonal, color, technology and touch unverified. |
+| Processing / categories | SansAmp, FET compressor, independent boost and reverb; DLA/CH selects delay or chorus. Maximum simultaneous count unverified; alternatives are not independent slots. Reverb selects small room or large hall; DLA/CH chorus disables Time and Repeats controls (manual pp5–6). |
+| Effects / active EQ | Own manual pp3–4: Low/High shelving **±18dB**, 1kHz pivot, noon flat. Mid is **±15dB**, with Mid Shift selecting **150Hz–3.2kHz**. These are parameter ranges, not additional effect slots. |
+| Memory | Factory/user/total programmable memories unverified. |
+| Synth / acoustic | Acoustic-oriented processing; dedicated acoustic simulation or synth engine unverified. |
+| Dimensions / mass | **12.5L×2.75W×1.25H inches;20.7oz**. |
+| I/O | Quarter-inch 1MΩ input; low-impedance quarter-inch output with headphone mode; balanced XLR with ground lift. Full connector inventory pending. |
+| Power | **9VDC center-negative**, DC9 adapter **200mA** capacity; approximate maximum consumption **100mA** (own manual cover). Battery/USB operation unverified. |
+| IR / NAM / capture | Analog SansAmp speaker simulation. External downstream IR suggestion does not establish onboard user IR, native/converted NAM or capture import. |
+| Editor / USB | Editor/platform, USB audio/MIDI and updater support unverified. |
+| Effects / delay timing | Manual pp5–6: **1–750ms** via Time. Tap overrides Time and vice versa; tap works in bypass. Time adjustment changes pitch, whereas tapping a new tempo preserves pitch. Minimum Repeats gives one repeat. |
+| I/O / headphone and bypass | Manual pp2,6–8: headphone mode drives both sides with higher output; disengage it for mixer/amplifier connection to avoid clipping. Bypass is buffered; quarter-inch output is unity gain in bypass. |
+| Display / tuner indicators | Manual p6: red upward arrow means flat, downward means sharp; blinking accelerates near target, then green indicates in tune. Numeric calibration range and hold duration remain unverified. |
+| Looper / practical | Phase flip; notch **70–350Hz**; independent reverb. Low-pass endpoint conflict: product 16kHz versus manual 20kHz; lower endpoint 1.5kHz in both. Looper, drums and scenes unverified. |
+| Live / overload indication | Own manual p2: E. Level flashes red for overload. Occasional peaks are expected; if continuously lit with effects off, reduce instrument level; otherwise trim active Comp, Boost or SansAmp level. No measured headroom value established. |
+| IDR price | No exact Shopee hardware offer resolved by acoustic/Fly Rig searches on 2026-10-18. Used/new amount, seller/item, condition, stock, region, bundle, warranty and vouchers unknown. Search failure is not market absence. |
+
+### Acoustic Fly Rig — effect design and input interaction,2026-10-18
+
+| Field | Exact-model manual qualification |
+|---|---|
+| Effects / chorus architecture | The [own©2017manual,printedpp5–6](https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf) describes chorus as a detuned-voice pitch-shift effect,without separate speed/depth controls. It remains the DLA/CH alternative,not an additional simultaneous pitch block or dedicated synthesizer. |
+| Processing / compression and EQ limits | [Ownmanual,printedpp7–8](https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf):hot instrumentoutput can produce strong compression evenatlow COMP settings;highercompression can promote feedback. HighMID boost can contribute distortion. These are level-dependent operating limits,not fixed headroom measurements or extra algorithms. |
+| I/O / analog computer connection | [Ownmanual,printedpp1–2](https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf) describes direct sound-card recording via low-impedance analog output. That application doesnot establish onboardUSB audio orcomputer editor. Numericoutputimpedance stillunverified. |
+
+<!-- comparison evidence ends -->
+
+[Own manual,©2017](https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf), text read; no device/software operation or file download. Product low-pass endpoint **16kHz** differs from manual **20kHz**; both extend down to 1.5kHz. Revision reason unresolved. Physical controls, full ports, memory and software require further verification.
+
+## Bass Fly Rig v2
+
+Bass-focused multi-effects; v2 only. Distinct from original Bass Fly Rig and guitar Fly Rig 5 v2. Checked 2026-10-17; partial. Ownership unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in, external and toe expression support unverified. | Unresolved |
+| K/F/B | **13 / ? / ?**, text-derived: compressor 2, drive/level 4, EQ 3, EFX 4 rotary controls. Complete footswitch/button census and visual corroboration pending. | [Manual pp3–6][BFR2-M] |
+| Display | LED tuner with green in-tune/red direction indication; diagonal, display technology and touch unverified. | [Manual p6][BFR2-M] |
+| Dimensions / mass | **12.5L×2.75W×1.25H inches;20.7oz**. Long strip; no v1 dimensions borrowed. | [Product][BFR2-P] |
+| Processing / categories | Analog FET compression; SansAmp with two Character voicings; interacting octave/filter/fuzz plus chorus. Two Drive/Level pairs switch channels. Choice counts are not a verified simultaneous-processing ceiling. | [Product][BFR2-P] |
+| Factory / user memory | Two channel control pairs are documented; programmable factory/user/total preset storage unverified. | [Manual pp3–4][BFR2-M] |
+| Synth / acoustic | Octafilter provides synth-style tones; octave divider is monophonic. Acoustic simulation unverified. | [Product][BFR2-P]; [Manual p5][BFR2-M] |
+| I/O | Quarter-inch 4.7Mohm input with pad; unbalanced quarter-inch low-Z out; balanced XLR low-Z out with ground-connect. Both outs usable together. Send/Return after SansAmp. Complete digital/control/headphone audit pending. | [Manual pp1–2,6][BFR2-M] |
+| Power / battery / USB | **9V DC, centre-negative; approx 100mA maximum consumption**. Manual DC9 supply 200mA versus product DC9 supply 250mA; adapter-rating discrepancy retained, not device draw. Universal 100–240V input; manual also permits older DC4. Battery/USB operation unverified. | [Manual cover][BFR2-M]; [Product][BFR2-P] |
+| IR / NAM / capture | Analog cabinet simulation; defeat affects quarter-inch only, not XLR. External downstream IR suggestion does not establish onboard user IR, native/converted NAM or capture loading. | [Product][BFR2-P]; [Manual p4][BFR2-M] |
+| Editor / platforms | Patch editor, drivers/updaters and mobile support unverified. No software downloaded. | Unresolved |
+| Looper / drums / live | Hold CHORUS/TUNER for muted tuning. Looper, drum machine, scenes and spillover unverified. | [Product][BFR2-P] |
+| Routing / fixed processing order | Manual labels its function descriptions as signal-flow order: **COMP → SansAmp → external Send/Return loop → Octafilter → Chorus**. Loop is explicitly post-SansAmp/pre-effects. This establishes section order, not arbitrary reordering; exact speaker-simulation branch placement remains unresolved. | [Manual pp2–6][BFR2-M] |
+| I/O / XLR ground switch | Engaged Ground Connect joins the grounds; disengaged isolates the stage-system ground from the mixer ground. Both XLR and quarter-inch outputs may operate simultaneously. This is an audio-ground connection control, not evidence of phantom-power support or stereo outputs. | [Manual p1][BFR2-M] |
+| Routing / practical limits | Buffered bypass. Chorus control also warns of clipping; gated fuzz cuts off abruptly below threshold. Exact full routing and resource restrictions remain partial. | [Manual pp2,7][BFR2-M] |
+| Category choices / channel behavior | Character IN selects Bass Driver DI voicing; OUT selects VT Bass DI. With SansAmp bypassed, selected Drive/Level knobs stay lit but are inactive. Bite adds presence. Two physical channel pairs do not establish programmable patches. | [Manual pp3–4][BFR2-M] |
+| Category / EQ | Active post-EQ: low ±12dB at 80Hz; mid cuts 12dB at 1kHz but boosts 12dB at 2kHz; high ±12dB at 3.3kHz. Noon is flat; mid cut/boost frequencies differ. | [Manual p4][BFR2-M] |
+| Effects / mix controls | Octave and fuzz combine or work separately; MIX spans dry-only through 50/50 to wet-only. Q minimum makes RANGE a high-cut tone control. Chorus knob changes amount/depth without a separate speed control. | [Manual pp5–6][BFR2-M] |
+| Routing / speaker simulation | Cabinet simulation works independently of SansAmp. External effect loop is after SansAmp; manufacturer documents four-cable use. Precise full diagram order remains pending. Do not infer arbitrary block reordering. | [Manual pp4,6][BFR2-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown; no exact qualified Shopee Indonesia hardware offer. | — |
+| New | Unknown; no exact qualified Shopee Indonesia hardware offer. | — |
+
+
+### Bass Fly Rig v2 — loop placement and octave architecture
+
+Checked2026-10-18 against the [exact manufacturer v2 manual][BFR2-M],printed pp1–2,5–7.
+
+| Field | Manufacturer qualification |
+|---|---|
+| I/O / loop placement and bypass | Manual explicitly places Send/Return **post-SansAmp,pre-effects**. Quarter-inch output is unity gain inbypass andremains low-impedance forlong cables. These statements do not establish arbitrary block reordering ortrue bypass. |
+| Processing / octave architecture | Octave divider halves input frequency andproduces a **digital square-wave signal**,then filters it. Manufacturer warns the division can be glitchy andsuggests compression tohelp tracking. The previously documented monophonic restriction remains. Analog FET/SansAmp descriptions do not establish an all-analog complete processor. |
+| Live / overload check | If Chorus’s red clipping indicator stayslit with all effects off,the manual recommends input pad;otherwise reduce the active Comp/SansAmp level. Occasional peak flashes are distinguished from continuous clipping. This diagnostic does not establish numerical headroom oroutput-power ratings. |
+
+
+### Bass Fly Rig v2 — input and dynamic-filter limits
+
+Checked2026-10-18 against the exact [©2021 manufacturer manual][BFR2-M],printed pp1,5. Web text only; no hardware operation.
+
+| Field | Manufacturer qualification |
+|---|---|
+| I/O / nominal input wording | Manual calls normal input approximately **−10dBm /250mV** and labels the active-bass pad **−10dBm**. Retain its printed units; no reference-load reconciliation or measured maximum input is established. Input impedance remains4.7MΩ. |
+| Effects / dynamic filter | RANGE minimum removes input-level control of filter sweep; maximum makes sweep follow signal level and playing attack. Q controls filter bandwidth/sharpness; at minimum,RANGE acts as a high-cut tone control. These are interacting parameters,not extra independent effect blocks. |
+| Live / external effect placement | Manufacturer recommends phaser/vibe,overdrive andwah before the unit;delay,EQ,flanger,phaser,pitch shifter andreverb in its loop. These are recommendations,not proof that other placements are prohibited. [Manual p7][BFR2-M] |
+
+
+### Bass Fly Rig v2 — recording connection and tuner scope
+
+| Field | Exact-model manufacturer qualification |
+|---|---|
+| I/O / computer recording connection | The manual’s sound-card/computer-input application uses the **unbalanced low-impedance quarter-inch analog output**. This is not evidence of an onboard USB audio interface, computer editor or digital capture transport. Numerical output impedance remains unspecified in the inspected text. [Own manual pp1–2][BFR2-M] |
+| Live / tuner gesture qualification | Hold **CHORUS/TUNER** to engage the tuner and mute the signal path. The exact-model instructions supply **no numeric hold duration or calibration range** here; do not substitute the guitar Fly Rig5 v2’s half-second gesture. Green means in tune; red arrows indicate flat/sharp. [Own manual p6][BFR2-M] |
+
+### Bass Fly Rig v2 — tuner indication and supplied prongs
+
+Checked 2026-10-18 against the [©2021 manufacturer manual, printed pp6–7][BFR2-M]. Browser text only; no file download or device operation.
+
+| Field | Exact-model manufacturer qualification |
+|---|---|
+| Display / tuner direction | Red up-arrow means flat: raise pitch; down-arrow means sharp: lower pitch. The arrow blinks faster approaching correct pitch, then goes out as green lights. These LED behaviors do not establish a screen diagonal, touch support or tuner calibration range. |
+| Power / supplied regional prongs | Manual specifies the adapter arrives with a US prong assembly and includes European, UK and Australia/New Zealand alternatives. This describes the documented factory package, not any seller bundle or proof of a particular plug certification. The existing200/250mA adapter-rating discrepancy remains unresolved. |
+<!-- comparison evidence ends -->
+
+Shopee searches for “Bass Fly Rig” and “bass flyrig” on 2026-10-17 did not resolve an exact Indonesian hardware seller/item. This is not proof of market absence. Seller/item, condition, stock, region, revision, bundle, adapter, warranty and voucher remain unverified. No foreign currency conversion or sibling-model offer substituted.
+
+Next: physical control census, precise full signal order, preset-storage/import/editor scope, headphone/battery/USB facilities and exact IDR offers. Original manufacturer ©2021 v2 manual read as web text; no files downloaded. PDF screenshot retrieval did not provide usable visual corroboration.
+
+[BFR2-P]: https://www.tech21nyc.com/products/flyrig/bass-fly-rig-v2/
+[BFR2-M]: https://www.tech21nyc.com/t21manuals/BassFlyRig_v2_OM.pdf
+
 ## Fly Rig 5 v2
 
 Version 2 only; original Fly Rig 5 and RK5 are distinct. Checked 2026-10-17; partial. Manufacturer manual OM3, ©2019, revision12/20.
@@ -86,88 +216,6 @@ Checked2026-10-18 against the exact [OM3 manufacturer manual,rev12/20][FR-M],pri
 | I/O / nominal input wording | Manufacturer describes normal instrument input as approximately **−10dBm /250mV**,with1MΩ loading andtube-amp-like sensitivity. Preserve its printed units;this is not a measured maximum input orreference-load reconciliation. |
 | Power / factory prong assemblies | Manual states the DC9 supply has **US prongs installed**,with **European,UK andAustralia/New Zealand** interchangeable assemblies included. This describes the manufacturer bundle,not confirmation that the cached Indonesian seller includes those parts. Existing9VDC/200mAminimum supply andapprox150mAmaximum consumption remain distinct. |
 
-## Bass Fly Rig v2
-
-Bass-focused multi-effects; v2 only. Distinct from original Bass Fly Rig and guitar Fly Rig 5 v2. Checked 2026-10-17; partial. Ownership unestablished.
-
-<!-- comparison evidence begins -->
-
-| Field | Finding / qualification | Evidence |
-|---|---|---|
-| Expression | Built-in, external and toe expression support unverified. | Unresolved |
-| K/F/B | **13 / ? / ?**, text-derived: compressor 2, drive/level 4, EQ 3, EFX 4 rotary controls. Complete footswitch/button census and visual corroboration pending. | [Manual pp3–6][BFR2-M] |
-| Display | LED tuner with green in-tune/red direction indication; diagonal, display technology and touch unverified. | [Manual p6][BFR2-M] |
-| Dimensions / mass | **12.5L×2.75W×1.25H inches;20.7oz**. Long strip; no v1 dimensions borrowed. | [Product][BFR2-P] |
-| Processing / categories | Analog FET compression; SansAmp with two Character voicings; interacting octave/filter/fuzz plus chorus. Two Drive/Level pairs switch channels. Choice counts are not a verified simultaneous-processing ceiling. | [Product][BFR2-P] |
-| Factory / user memory | Two channel control pairs are documented; programmable factory/user/total preset storage unverified. | [Manual pp3–4][BFR2-M] |
-| Synth / acoustic | Octafilter provides synth-style tones; octave divider is monophonic. Acoustic simulation unverified. | [Product][BFR2-P]; [Manual p5][BFR2-M] |
-| I/O | Quarter-inch 4.7Mohm input with pad; unbalanced quarter-inch low-Z out; balanced XLR low-Z out with ground-connect. Both outs usable together. Send/Return after SansAmp. Complete digital/control/headphone audit pending. | [Manual pp1–2,6][BFR2-M] |
-| Power / battery / USB | **9V DC, centre-negative; approx 100mA maximum consumption**. Manual DC9 supply 200mA versus product DC9 supply 250mA; adapter-rating discrepancy retained, not device draw. Universal 100–240V input; manual also permits older DC4. Battery/USB operation unverified. | [Manual cover][BFR2-M]; [Product][BFR2-P] |
-| IR / NAM / capture | Analog cabinet simulation; defeat affects quarter-inch only, not XLR. External downstream IR suggestion does not establish onboard user IR, native/converted NAM or capture loading. | [Product][BFR2-P]; [Manual p4][BFR2-M] |
-| Editor / platforms | Patch editor, drivers/updaters and mobile support unverified. No software downloaded. | Unresolved |
-| Looper / drums / live | Hold CHORUS/TUNER for muted tuning. Looper, drum machine, scenes and spillover unverified. | [Product][BFR2-P] |
-| Routing / fixed processing order | Manual labels its function descriptions as signal-flow order: **COMP → SansAmp → external Send/Return loop → Octafilter → Chorus**. Loop is explicitly post-SansAmp/pre-effects. This establishes section order, not arbitrary reordering; exact speaker-simulation branch placement remains unresolved. | [Manual pp2–6][BFR2-M] |
-| I/O / XLR ground switch | Engaged Ground Connect joins the grounds; disengaged isolates the stage-system ground from the mixer ground. Both XLR and quarter-inch outputs may operate simultaneously. This is an audio-ground connection control, not evidence of phantom-power support or stereo outputs. | [Manual p1][BFR2-M] |
-| Routing / practical limits | Buffered bypass. Chorus control also warns of clipping; gated fuzz cuts off abruptly below threshold. Exact full routing and resource restrictions remain partial. | [Manual pp2,7][BFR2-M] |
-| Category choices / channel behavior | Character IN selects Bass Driver DI voicing; OUT selects VT Bass DI. With SansAmp bypassed, selected Drive/Level knobs stay lit but are inactive. Bite adds presence. Two physical channel pairs do not establish programmable patches. | [Manual pp3–4][BFR2-M] |
-| Category / EQ | Active post-EQ: low ±12dB at 80Hz; mid cuts 12dB at 1kHz but boosts 12dB at 2kHz; high ±12dB at 3.3kHz. Noon is flat; mid cut/boost frequencies differ. | [Manual p4][BFR2-M] |
-| Effects / mix controls | Octave and fuzz combine or work separately; MIX spans dry-only through 50/50 to wet-only. Q minimum makes RANGE a high-cut tone control. Chorus knob changes amount/depth without a separate speed control. | [Manual pp5–6][BFR2-M] |
-| Routing / speaker simulation | Cabinet simulation works independently of SansAmp. External effect loop is after SansAmp; manufacturer documents four-cable use. Precise full diagram order remains pending. Do not infer arbitrary block reordering. | [Manual pp4,6][BFR2-M] |
-
-### Separate IDR hardware offers
-
-| Condition | Evidence | Source |
-|---|---|---|
-| Used | Unknown; no exact qualified Shopee Indonesia hardware offer. | — |
-| New | Unknown; no exact qualified Shopee Indonesia hardware offer. | — |
-
-
-### Bass Fly Rig v2 — loop placement and octave architecture
-
-Checked2026-10-18 against the [exact manufacturer v2 manual][BFR2-M],printed pp1–2,5–7.
-
-| Field | Manufacturer qualification |
-|---|---|
-| I/O / loop placement and bypass | Manual explicitly places Send/Return **post-SansAmp,pre-effects**. Quarter-inch output is unity gain inbypass andremains low-impedance forlong cables. These statements do not establish arbitrary block reordering ortrue bypass. |
-| Processing / octave architecture | Octave divider halves input frequency andproduces a **digital square-wave signal**,then filters it. Manufacturer warns the division can be glitchy andsuggests compression tohelp tracking. The previously documented monophonic restriction remains. Analog FET/SansAmp descriptions do not establish an all-analog complete processor. |
-| Live / overload check | If Chorus’s red clipping indicator stayslit with all effects off,the manual recommends input pad;otherwise reduce the active Comp/SansAmp level. Occasional peak flashes are distinguished from continuous clipping. This diagnostic does not establish numerical headroom oroutput-power ratings. |
-
-
-### Bass Fly Rig v2 — input and dynamic-filter limits
-
-Checked2026-10-18 against the exact [©2021 manufacturer manual][BFR2-M],printed pp1,5. Web text only; no hardware operation.
-
-| Field | Manufacturer qualification |
-|---|---|
-| I/O / nominal input wording | Manual calls normal input approximately **−10dBm /250mV** and labels the active-bass pad **−10dBm**. Retain its printed units; no reference-load reconciliation or measured maximum input is established. Input impedance remains4.7MΩ. |
-| Effects / dynamic filter | RANGE minimum removes input-level control of filter sweep; maximum makes sweep follow signal level and playing attack. Q controls filter bandwidth/sharpness; at minimum,RANGE acts as a high-cut tone control. These are interacting parameters,not extra independent effect blocks. |
-| Live / external effect placement | Manufacturer recommends phaser/vibe,overdrive andwah before the unit;delay,EQ,flanger,phaser,pitch shifter andreverb in its loop. These are recommendations,not proof that other placements are prohibited. [Manual p7][BFR2-M] |
-
-
-### Bass Fly Rig v2 — recording connection and tuner scope
-
-| Field | Exact-model manufacturer qualification |
-|---|---|
-| I/O / computer recording connection | The manual’s sound-card/computer-input application uses the **unbalanced low-impedance quarter-inch analog output**. This is not evidence of an onboard USB audio interface, computer editor or digital capture transport. Numerical output impedance remains unspecified in the inspected text. [Own manual pp1–2][BFR2-M] |
-| Live / tuner gesture qualification | Hold **CHORUS/TUNER** to engage the tuner and mute the signal path. The exact-model instructions supply **no numeric hold duration or calibration range** here; do not substitute the guitar Fly Rig5 v2’s half-second gesture. Green means in tune; red arrows indicate flat/sharp. [Own manual p6][BFR2-M] |
-
-### Bass Fly Rig v2 — tuner indication and supplied prongs
-
-Checked 2026-10-18 against the [©2021 manufacturer manual, printed pp6–7][BFR2-M]. Browser text only; no file download or device operation.
-
-| Field | Exact-model manufacturer qualification |
-|---|---|
-| Display / tuner direction | Red up-arrow means flat: raise pitch; down-arrow means sharp: lower pitch. The arrow blinks faster approaching correct pitch, then goes out as green lights. These LED behaviors do not establish a screen diagonal, touch support or tuner calibration range. |
-| Power / supplied regional prongs | Manual specifies the adapter arrives with a US prong assembly and includes European, UK and Australia/New Zealand alternatives. This describes the documented factory package, not any seller bundle or proof of a particular plug certification. The existing200/250mA adapter-rating discrepancy remains unresolved. |
-<!-- comparison evidence ends -->
-
-Shopee searches for “Bass Fly Rig” and “bass flyrig” on 2026-10-17 did not resolve an exact Indonesian hardware seller/item. This is not proof of market absence. Seller/item, condition, stock, region, revision, bundle, adapter, warranty and voucher remain unverified. No foreign currency conversion or sibling-model offer substituted.
-
-Next: physical control census, precise full signal order, preset-storage/import/editor scope, headphone/battery/USB facilities and exact IDR offers. Original manufacturer ©2021 v2 manual read as web text; no files downloaded. PDF screenshot retrieval did not provide usable visual corroboration.
-
-[BFR2-P]: https://www.tech21nyc.com/products/flyrig/bass-fly-rig-v2/
-[BFR2-M]: https://www.tech21nyc.com/t21manuals/BassFlyRig_v2_OM.pdf
-
 ## RK5 — revision-unresolved hardware lead
 
 **Discovery evidence only; not an active model row orcount.** Checked2026-10-18.
@@ -181,42 +229,3 @@ Revision checks against exact primary records:
 - [Current RK5v3 product](https://www.tech21nyc.com/products/flyrig/rk5v3/): adds **pre/postboost,effectloop andpreconfigured phantompower forRK KillerWail**. This doesnot identify theShopee unit orauthorize assigning v3features toolderRK5.
 
 Keep offer family-qualified until a legible sellerpanel/rearlabel orrevision-explicit offer establishes exacthardware. Searches forShopee RK5v2,RK5 12V andAcousticFlyRig returned noadditional exact result;not proof ofabsence. No downloads orseller contact.
-
-## Acoustic Fly Rig
-
-Distinct guitar/acoustic/bass multi-effects; checked 2026-10-18, partial. [Own product](https://www.tech21nyc.com/products/flyrig/acoustic-fly-rig/) explicitly supports electric guitar and bass as well as acoustic. No sibling specifications substituted.
-
-<!-- comparison evidence begins -->
-
-| Field | Finding / qualification |
-|---|---|
-| Expression | Built-in/external/toe support unverified. |
-| K/F/B | Separate complete rotary/footswitch/button counts unverified; no sibling counts borrowed. |
-| Display | Chromatic tuner with muted tuning via held TAP/TUNER; diagonal, color, technology and touch unverified. |
-| Processing / categories | SansAmp, FET compressor, independent boost and reverb; DLA/CH selects delay or chorus. Maximum simultaneous count unverified; alternatives are not independent slots. Reverb selects small room or large hall; DLA/CH chorus disables Time and Repeats controls (manual pp5–6). |
-| Effects / active EQ | Own manual pp3–4: Low/High shelving **±18dB**, 1kHz pivot, noon flat. Mid is **±15dB**, with Mid Shift selecting **150Hz–3.2kHz**. These are parameter ranges, not additional effect slots. |
-| Memory | Factory/user/total programmable memories unverified. |
-| Synth / acoustic | Acoustic-oriented processing; dedicated acoustic simulation or synth engine unverified. |
-| Dimensions / mass | **12.5L×2.75W×1.25H inches;20.7oz**. |
-| I/O | Quarter-inch 1MΩ input; low-impedance quarter-inch output with headphone mode; balanced XLR with ground lift. Full connector inventory pending. |
-| Power | **9VDC center-negative**, DC9 adapter **200mA** capacity; approximate maximum consumption **100mA** (own manual cover). Battery/USB operation unverified. |
-| IR / NAM / capture | Analog SansAmp speaker simulation. External downstream IR suggestion does not establish onboard user IR, native/converted NAM or capture import. |
-| Editor / USB | Editor/platform, USB audio/MIDI and updater support unverified. |
-| Effects / delay timing | Manual pp5–6: **1–750ms** via Time. Tap overrides Time and vice versa; tap works in bypass. Time adjustment changes pitch, whereas tapping a new tempo preserves pitch. Minimum Repeats gives one repeat. |
-| I/O / headphone and bypass | Manual pp2,6–8: headphone mode drives both sides with higher output; disengage it for mixer/amplifier connection to avoid clipping. Bypass is buffered; quarter-inch output is unity gain in bypass. |
-| Display / tuner indicators | Manual p6: red upward arrow means flat, downward means sharp; blinking accelerates near target, then green indicates in tune. Numeric calibration range and hold duration remain unverified. |
-| Looper / practical | Phase flip; notch **70–350Hz**; independent reverb. Low-pass endpoint conflict: product 16kHz versus manual 20kHz; lower endpoint 1.5kHz in both. Looper, drums and scenes unverified. |
-| Live / overload indication | Own manual p2: E. Level flashes red for overload. Occasional peaks are expected; if continuously lit with effects off, reduce instrument level; otherwise trim active Comp, Boost or SansAmp level. No measured headroom value established. |
-| IDR price | No exact Shopee hardware offer resolved by acoustic/Fly Rig searches on 2026-10-18. Used/new amount, seller/item, condition, stock, region, bundle, warranty and vouchers unknown. Search failure is not market absence. |
-
-### Acoustic Fly Rig — effect design and input interaction,2026-10-18
-
-| Field | Exact-model manual qualification |
-|---|---|
-| Effects / chorus architecture | The [own©2017manual,printedpp5–6](https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf) describes chorus as a detuned-voice pitch-shift effect,without separate speed/depth controls. It remains the DLA/CH alternative,not an additional simultaneous pitch block or dedicated synthesizer. |
-| Processing / compression and EQ limits | [Ownmanual,printedpp7–8](https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf):hot instrumentoutput can produce strong compression evenatlow COMP settings;highercompression can promote feedback. HighMID boost can contribute distortion. These are level-dependent operating limits,not fixed headroom measurements or extra algorithms. |
-| I/O / analog computer connection | [Ownmanual,printedpp1–2](https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf) describes direct sound-card recording via low-impedance analog output. That application doesnot establish onboardUSB audio orcomputer editor. Numericoutputimpedance stillunverified. |
-
-<!-- comparison evidence ends -->
-
-[Own manual,©2017](https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf), text read; no device/software operation or file download. Product low-pass endpoint **16kHz** differs from manual **20kHz**; both extend down to 1.5kHz. Revision reason unresolved. Physical controls, full ports, memory and software require further verification.

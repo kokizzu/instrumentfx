@@ -2,6 +2,15 @@
 
 Partial manufacturer-backed records. Unknown is not No.
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [MicroVerb 4](#microverb-4)
+- [MIDIverb 4](#midiverb-4)
+- [MIDIverb III](#midiverb-iii)
+- [NanoVerb](#nanoverb)
+<!-- brand-index ends -->
+
 ## MicroVerb 4
 
 Rack multi-effects,distinct from MIDIverb4. Checked2026-10-17;discontinued [MV-P]. Original chart explicitly includes vocal andguitar programs [MV-C]. Offered-unit authenticity is not certified.

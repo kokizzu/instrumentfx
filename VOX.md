@@ -1,252 +1,138 @@
 # VOX multi-effects
 
-## ToneLab LE
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
 
-Guitar multi-effects; distinct from original ToneLab, SE, ST and EX. Checked2026-10-17; partial. Bass suitability and ownership unestablished.
+- [StompLab 1B](#stomplab-1b)
+- [StompLab 1G](#stomplab-1g)
+- [StompLab 2B](#stomplab-2b)
+- [StompLab 2G](#stomplab-2g)
+- [ToneLab EX](#tonelab-ex)
+- [ToneLab LE](#tonelab-le)
+- [ToneLab SE](#tonelab-se)
+- [ToneLab ST](#tonelab-st)
+<!-- brand-index ends -->
+
+## StompLab 1B
+
+<!-- comparison evidence begins -->
+
+Checked 2026-10-18. **Bass multi-effects**, also styled StompLab IB; distinct from expression-equipped IIB. Partial record; no dependencies or manuals downloaded.
+
+| Field | Evidence / gaps |
+|---|---|
+| Instrument / expression | Bass-focused. Built-in expression pedal belongs to IIB, not IB in the Japanese family description. No external EXP in the complete rear inventory; no built-in toe switch. [VOX Japanese][SL1B-J];[IB manual pp4–6][SL1B-M] |
+| K/F/B | **3 / 2 / 3**: CATEGORY, VALUE1/2; program UP/DOWN pedals; EDIT and up/down buttons. Rear POWER button additional. Text-derived, not visually audited. [IB manual pp4–6][SL1B-M] |
+| Display | Diagonal, resolution, technology, color and touch unknown. |
+| Dimensions / weight | **145×125×57 mm W×D×H; 590 g**. [VOX English][SL1B-E] |
+| Processing / choices | **60 choices**: pedal9, amp10, drive8, cabinet12, modulation9, delay8, reverb3, noise reduction1. These are library alternatives, not simultaneous blocks. Own IB manual confirms **up to seven simultaneous effects including noise reduction**, resolving family7–8 ambiguity. [IB manual p4][SL1B-M] [English][SL1B-E];[Japanese][SL1B-J] |
+| Factory / user memory | **100 preset +20 user =120**. Presets00–99 read-only; user U0–U9/u0–u9 writable. WRITE overwrites destination; unsaved edits are lost on program change/power-off. Initial user fill unknown. [German][SL1B-D];[IB manual pp7,10][SL1B-M] |
+| Synth / acoustic | ACOUSTIC is a named pedal choice; simulation behavior and synth architecture unverified. [English][SL1B-E] |
+| I/O | One normal mono input; one stereo output/phones. Own manual complete rear inventory: INPUT, OUTPUT/PHONES, DC9V and POWER. No USB, MIDI, AUX, external EXP or effects-loop ports. Socket sizes unknown. [English][SL1B-E];[IB manual p6][SL1B-M] |
+| Conversion | 24-bit AD/DA; sample rate and USB audio unknown. [English][SL1B-E] |
+| Power / battery / USB | **9V DC, approximately200mA consumption**, or4AA; approximately7.5h alkaline. Own Japanese manual names optional **KA181**; Korg specifies that adapter as **9V center-negative**. Barrel dimensions unknown; no USB power port. Tuner current consumption is not IB current. [German][SL1B-D];[IB manual pp54,60][SL1B-M];[Korg adapter specification][SL1B-K] |
+| IR / NAM / capture | User IR, native/converted NAM and proprietary capture import unknown. |
+| Editor / software | Editor availability and supported Windows/macOS/mobile versions unknown. |
+| Looper / drums / live | Tuner A0–E6; calibration438–445Hz. Looper, drums, scenes and trails unknown. [German][SL1B-D] |
+| Used IDR / new IDR | **Unknown / unknown**. Exact Indonesian Shopee searches for stomplab 1b, stomplab ib and stomplab1b returned no exact offer on2026-10-18; this does not establish unavailability. Condition, stock, region, warranty, vouchers and checkout total unknown. |
+| Power / bundle | English specifies test batteries included; German excludes batteries. Preserve regional conflict; actual seller bundle unknown. [English][SL1B-E];[German][SL1B-D] |
+
+### StompLab 1B category inventory
+
+Manufacturer category counts reconcile to60. AMP and DRIVE counts do not establish independent simultaneous slots. [VOX English][SL1B-E]
+
+| Category | Named choices |
+|---|---|
+| Pedal9 | Compression; Exciter; Fixed Wah; Auto Wah; Brn Octave; Acoustic; U-Vibe; Tone; Ring Mod |
+| Amp10 | Valve1; Valve2; Classic; Scooped; LA Studio; Gold Panel; Jazz; Studio; AC100; UK Major |
+| Drive8 | Tube OD; Fat Distortion; Orange Distortion; Shred Distortion; Fuzz; Octa Fuzz; Techno Fuzz; Crusher |
+| Cabinet12 | LA4×10; LA1×18; Metal4×10; UK4×12; UK4×15; Classic8×10; Modern4×10; Studio1×15; Jazz1×15; AC2×15; Combi; Custom |
+| Modulation9 | CE Chorus; Multi Chorus; Flanger; Org Phase; Twin Tremolo; G4 Rotary; Pitch Shift; Filtron1(auto); Filtron2(manual) |
+| Delay8 | Analog Delay1–4; Echo1–4 |
+| Reverb3 | Room; Spring; Hall |
+| NR1 | Noise reduction |
+
+### StompLab IB output and save behavior
+
+Output profile persists; master resets7.0. Bass-amp profile appears as **A1** in English p11, **AP** in the parameter table/other languages; **Ln** serves line, headphones, power-amp input or recorder. Preserve label conflict. [IB manual pp11,23,65][SL1B-M]
+
+
+### StompLab IB — tuning and acoustic-choice operating limits
+
+| Field | Exact IB manual evidence / qualification |
+|---|---|
+| Live / bypass and mute | Press both Program UP/DOWN pedals together to bypass **all effects including noise reduction**. Hold both for **about one second** to mute output. Either mode activates the tuner; pressing either pedal exits **without changing the program**. This does not establish relay true bypass. [Own IB manual p8][SL1B-M] |
+| Processing / ACOUSTIC overload limit | If the ACOUSTIC pedal choice distorts high frequencies, the manual recommends reducing AMP/DR GAIN. This confirms an operating interaction with the amp/drive stage, not the acoustic simulation’s exact instrument/body model or a separate synth engine. [Own IB manual p12][SL1B-M] |
+
+### StompLab IB — power retention and factory reload
+
+| Field | Exact IB manual evidence / qualification |
+|---|---|
+| Power / automatic shutdown | Factory-enabled auto power-off acts after **one hour without user input**, but does **not** engage while audio enters INPUT. Restart with the power button; another pedal/button does not wake it. Enable with EDIT + DOWN at startup; disable with EDIT + UP. This setting survives power-off. [Own IB manual p7][SL1B-M] |
+| Live / tuner memory | Calibration returns to **440 Hz after power-off**; the selected438–445Hz reference is temporary. [Own IB manual p9][SL1B-M] |
+| Factory / user memory reload | Factory reload **erases all saved user programs**. At startup hold both arrow buttons; at rL, DOWN cancels and UP confirms. Completion shows CP and returns to Program select. Do not interrupt reload power. This does not identify initial user-slot contents. [Own IB manual p11][SL1B-M] |
+<!-- comparison evidence ends -->
+
+Source access: English and German exact-model product bodies opened as browser text. Japanese exact-model specifications read in search cache; direct reopening timed out. Own68-page IB manual EFGSJ1 opened as browser text; English introduction identifies StompLab IB. No PDF downloaded or visual panel audit performed.
+
+[SL1B-E]: https://voxamps.com/product/stomplab-1b/
+[SL1B-D]: https://voxamps.com/de/produkt/stomplab-ib/
+[SL1B-J]: https://voxamps.com/ja/product/stomplab-1b/
+
+[SL1B-M]: https://voxamps.com/wp-content/uploads/2019/12/SL_IB_OM_EFGSJ1.pdf
+
+[SL1B-K]: https://www.korg.com/jp/products/tuners/pitchblack_x_mini/specifications.php
+
+## StompLab 1G
+
+Guitar multi-effects;distinct from2G,1B,2B. Checked2026-10-17;partial. Bass suitability andownership unestablished.
 
 <!-- comparison evidence begins -->
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | Built-in expression with under-pedal switch; cannot toggle an assigned volume/amp parameter. External EXP absent from complete port inventory. | [English pp17,55][TLLE-E] |
-| K/F/B | **12 / 7 / 17**, text-derived:5 model selectors+6 value knobs+rear LEVEL;4 program+2 BANK+CONTROL footswitches;7 model/insert/cabinet buttons+10 setting/navigation buttons. Pedal switch and rear STANDBY additional. Visual corroboration pending. | [English pp12–18][TLLE-E] |
-| Display | Name/value/bank display; diagonal, technology, color and touch unverified. | [English p14][TLLE-E] |
-| Dimensions / mass | **500×249×80mm WDH**. **Conflict: Japanese J2 4.5kg; English E1 4.2kg**. Revision/region basis unresolved; do not average. | [Japanese p52][TLLE-J]; [English p55][TLLE-E] |
-| Processing / category choices | Amp16;cabinet11;pedal16;modulation11;delay11;reverb11;noise reduction1. One each pedal/modulation/delay/reverb concurrently with amp/cabinet; complete simultaneous-block accounting unverified. 12AX7/ECC83 Valve Reactor. | [Japanese pp9,52][TLLE-J] |
-| Factory / user memory | **120 writable programs**,30 banks×4. **40 factory sounds repeated across banks1–10,11–20,21–30**; not120 unique factory sounds or120 additional presets. | [Japanese pp7,9][TLLE-J] |
-| Synth / acoustic | ACOUSTIC pedal simulates acoustic guitar; synth-engine capability unverified. | [English p35][TLLE-E] |
-| I/O | INPUT;INSERT SEND/RETURN;two OUTPUTs;HEADPHONES;optical S/PDIF;MIDI IN/OUT;AC input. No USB in complete inventory; connector sizes/routing pending. | [Japanese p52][TLLE-J] |
-| Power / battery / USB | **9V AC**, supplied **3.0A adapter rating**, not measured draw. DC polarity inapplicable. Battery operation unverified; no USB connector. | [Japanese p52][TLLE-J] |
-| IR / NAM / capture | User IR,native/converted NAM and proprietary capture loading unverified. | Unresolved |
-| Editor / software | **ToneLab LE Sound Editor** edits/manages programs; supported platforms and current availability unverified. Requires bidirectional MIDI through an external interface; some USB-MIDI interfaces cannot carry its SysEx. Match MIDI channels and enable SYEX OUT for editor parameter transmission. ST software is not evidence for LE. | [Japanese p9][TLLE-J]; [English pp51–52][TLLE-E] |
-| Audio output / headphones | Headphones do not mute main outputs; rear LEVEL controls both. L/MONO for mono; choose Ln1/Ln2 for phones, Ln1 for optical output, Ln2 for three-band EQ. AMP/LINE disabled when amp model off. | [English pp18–21][TLLE-E] |
-| Routing / live limits | INSERT precedes PEDAL. Bank preselection leaves current sound active until program selection. Key Lock disables knobs/buttons/selectors. Actual valve requires warm-up before sound. Dedicated spillover unverified. | [English pp13,20,22–23][TLLE-E] |
-| Routing / MIDI backup | Programs can be saved/restored via MIDI exclusive data using sequencer/data filer. Optical output level adjustable separately −12 to+12dB; above0 may clip some programs. | [English p20][TLLE-E] |
-| Looper / Hold Delay | **Mono Hold Delay1–8000ms**, automatically assigned to CONTROL; activating it holds the current delay sound. This documents delay freezing, not saved-loop storage or an independent overdubbing looper. Audio persistence remains unverified. | [English p43][TLLE-E] |
-| Looper / drums / live | Chain reorders modulation/delay/reverb. Programmable CONTROL supports tap/insert/rotary functions. Dedicated looper,drums,scenes and trails unverified. | [Japanese pp9,11][TLLE-J] |
+| Expression | **No built-in expression/toe switch;no external EXP socket** in complete panel inventory. FIX WAH is knob-controlled,not pedal wah. | [Manual pp4–6,62][SL1G-M] |
+| K/F/B | **3 / 2 / 3**,text-derived:CATEGORY,VALUE1,VALUE2;UP/DOWN pedals;EDIT andtwo arrow buttons. Rear POWER button additional;visual corroboration pending. | [Manual pp4–6][SL1G-M] |
+| Display | Diagonal,color,touch andtechnology unverified. | Unresolved |
+| Dimensions / mass | **145×125×57mm WDH;590g**. | [Official product][SL1G-P] |
+| Processing / category choices | **103**:8 Pedal+44 Amp+18 Drive+12 Cabinet+9 Modulation+8 Delay+3 Reverb+1 Noise Reduction;sum103,not simultaneous count. English cabinet list names11 despite12heading;German includes UK T75 4×12. **Seven simultaneous including NR**;AMP/DRIVE shares one category. Seven categories:Pedal,AMP/DR,Cabinet,NR,Modulation,Delay,Reverb. | [Official product][SL1G-P];[German product][SL1G-D];[Manual pp4,9][SL1G-M] |
+| Factory / user memory | **120=100 read-only00–99+20 writableU0–U9/u0–u9**. WRITE required;unsaved edits lost on program change/power-off. Initial user fill pending. | [Official product][SL1G-P];[Manual pp7,10][SL1G-M] |
+| Synth / acoustic | Pedal category lists Acoustic;dedicated simulation behavior pending. Synth unverified. | [Official product][SL1G-P] |
+| I/O | Complete rear inventory:mono INPUT,shared stereo OUTPUT/PHONES,DC9V andPOWER;no AUX,USB,MIDI,loop orEXP socket. | [German product][SL1G-D];[Manual p6][SL1G-M] |
+| Routing / output target | A1 UK-style mid-forward open combo; A2 clean US-style open combo; A3 closed 4×12 stack; Ln line, headphones, power-amp input or recorder. Output target persists; global master resets to **7.0 at power-on**. Lo/Hi controls belong to AMP/DR and stop with that block. | [Manual pp5,8–13][SL1G-M] |
+| Power / battery / USB | **9V DC,approximately200mA;4AA,7.5h alkaline**. Polarity andUSB power unverified. English AC-adapter wording describes supply,not proof of9VAC input. Regional included-battery wording differs. | [German product][SL1G-D];[English product][SL1G-P] |
+| IR / NAM / capture | User IR,native/converted NAM andcapture imports unverified. | Unresolved |
+| Editor / software | No USB/MIDI connector in manual inventory;USB audio unavailable through such a port. Editor/imports unverified. | [Manual pp4–6][SL1G-M] |
+| Looper / drums / live | Tuner A0–E6;reference438–445Hz. **Auto-off after1h without controls orinput audio**,default enabled;EDIT+UP at startup disables,EDIT+DOWN enables;setting persists,restart required after shutdown. Both footswitches bypass all effects including NR; hold about 1 s for mute. Either switch exits without changing program. Calibration resets to 440 Hz after power loss. Hold EDIT 2 s to lock VALUE controls in Program mode. Looper/drums/trails unverified. | [Official product][SL1G-P];[Manual pp7–11][SL1G-M] |
 
 ### Separate IDR hardware offers
 
 | Condition | Evidence | Source |
 |---|---|---|
-| Used | **Rp2,260,000**, title explicitly Second. **Inside Studio Solo**,shop1887861133/item52514565252,Kab.Sukoharjo. Checked2026-10-17; exact HTML opened, three-week cache with26–27Sep delivery. Stock,working state,adapter/bundle,warranty and selected variant unverified. Model-selection URL parameter267809844474 retained; no variant options exposed. Late-arrival Rp10,000 compensation is not a discount; shipping/taxes/checkout unknown. Cached asking price only. | [Exact Shopee item][TLLE-S] |
-| New | Unknown; no qualified new hardware offer established. | — |
+| Used | **Rp850,000**,SECOND-title hardware,Habis;historical cached ask,not working-condition/current-stock guarantee. Checked 2026-10-17; seller gitar second, shop 61848168 / item 20091595478, Kab. Polewali Mandar. Two-month cache with stale August delivery. Variant, adapter/bundle, warranty, working state, shipping/tax and usable vouchers unknown; late-delivery compensation is not a discount. | [gitar second item][SL1G-S] |
+| New | Unknown;no qualified retail/new offer. | — |
 
+[gitar second item][SL1G-S],shop61848168/item20091595478,Kab.Polewali Mandar. Exact HTML opened,two-month cache;direct20–23Augdelivery versus indexed4–7Aug,both stale. Variant,bundle/adapter,warranty andworking state unknown. Rp10,000late-arrival compensation not discount;shipping/tax/checkout unknown. Not completed-sale evidence. Other condition-unverified exact1Gasks retained inledger;shop-only andmixed1G/2G offers excluded.
 
-### ToneLab LE — converters and expression initialization
+Manufacturer1Gproduct pages opened;earlier J1 candidate inaccessible;**official EFGSJ2 manual now opened**. No sibling specifications imported. English cabinet list omission andregional battery inclusion conflict retained;no files ordependencies downloaded.
 
-| Field | Finding / qualification | Evidence |
-|---|---|---|
-| Processing / converters | **24-bit A/D and D/A;44.1 kHz**. These internal specifications do not establish USB audio; the recorded ports have no USB. | [English p55][TLLE-E] |
-| Expression / EXP INIT | Global, automatically saved: OFF applies current pedal position immediately on program change; ON initializes the assigned parameter to its saved value. VOLUME, D/INPUT and R/INPUT always follow current position regardless. Per-program target/endpoints still require storing. | [English pp47–48][TLLE-E] |
-| Expression / editing versus performance | Ordinary pedal targets edit the parameter value that will be written. OFF, VOLUME, M/PITCH, D/INPUT and R/INPUT do not edit stored parameters. Changing target initializes its MIN/MAX range. | [English pp47–48][TLLE-E] |
-| Live / tap-factor limits | MOD TAP/DLY TAP support twelve factors:1/6,1/4,1/3,1/2,2/3,3/4,1,4/3,3/2,2,3,4. Maximum tap interval10s; this is not a maximum delay-time specification. Changing CONTROL assignment resets FACTOR to1; it has no effect for other targets. | [English p49][TLLE-E] |
+[SL1G-P]: https://voxamps.com/en-gb/product/stomplab-1g/
+[SL1G-D]: https://voxamps.com/de/produkt/stomplab-1g/
+[SL1G-S]: https://shopee.co.id/VOX-STOMPLAB-1G-MULTIEFEK-GUITAR-MULTIEFFECT-MULTI-EFFECT-PEDAL-GITAR-MULTI-EFEK-SECOND-i.61848168.20091595478
 
-### ToneLab LE — calibration and routing limits
+Official EFGSJ2 manual identifies StompLab IG;pp4–6 provide complete controls/connectors andp9category architecture. ACOUSTIC parameter table p62 lists TONE0–10;function details remain qualified. This is text-derived verification,no visual count certification.
 
-| Field | Finding / qualification | Evidence |
-|---|---|---|
-| Expression / calibration | Use a hand. Power on holding EXP-CTL-CHAIN + ▲: EXP MAX. Move pedal forward, release hand, press GLOBAL: EXP MIN. Move pedal back, release hand, press GLOBAL: COMPLETE, then normal operation. EXIT/TUNE cancels; ERROR returns to EXP MAX to repeat. This is not the AX3000G sequence; toe-switch threshold adjustment remains unverified. | [English p50][TLLE-E] |
-| Processing / chain order | Six serial orders, saved per program: MD-DL-RV, MD-RV-DL, DL-MD-RV, DL-RV-MD, RV-MD-DL, RV-DL-MD. MD=modulation, DL=delay, RV=reverb. This does not establish arbitrary block placement or parallel routing. | [English p25][TLLE-E] |
-| I/O / Ln2 EQ limits | Three-band output EQ requires Ln2 and an enabled amp model; unavailable with AP1/AP2/AP3/Ln1 or amp modeling off. Controls are input TRIM, LO GAIN, MID FREQ, MID GAIN and HI GAIN. | [English pp25–26][TLLE-E] |
-<!-- comparison evidence ends -->
+[SL1G-M]: https://voxamps.com/wp-content/uploads/2019/12/SL_IG_OM_EFGSJ2.pdf
 
-Primary Japanese J2 manual is manufacturer-hosted. English manufacturer-authored E1 mirror identifies ©2006 VOX AMPLIFICATION LTD, ToneLab LE and MIDI chart2006-04-20; category/memory/dimensions/ports match J2, but weight differs. English pagination differs from Japanese. No full-file hash or visual control certification. Both PDFs viewed as browser text; no software/manual/dependency saved or installed.
+### Global output and stage behavior
 
-[TLLE-J]: https://voxamps.com/wp-content/uploads/2024/05/ToneLabLE_OM_J2.pdf
-[TLLE-E]: https://www.voxshowroom.com/ct/manuals/ToneLabLE_OwnersManual.pdf
-[TLLE-S]: https://shopee.co.id/Vox-Valvetronix-ToneLab-LE-Efek-Gitar-Second-i.1887861133.52514565252?extraParams=%7B%22display_model_id%22%3A267809844474%2C%22model_selection_logic%22%3A3%7D
+Output compensation:A1 UK-style mid-forward open combo,A2 clean US-style open combo,A3 closed4×12stack,Ln line/headphones/power-amp input/recorder. Target mode persists;global master resets to7.0 at power-on.
 
-## ToneLab ST
+Both footswitches together bypass all effects including NR;holding about1s mutes. Tuner operates in either state;one switch exits without changing program. Tuner calibration resets to440Hz after power loss. EDIT held2s locks VALUE knobs in Program mode.
 
-Guitar multi-effects; separate from LE/SE/EX. Checked2026-10-17; partial. Bass suitability/ownership unestablished.
-
-<!-- comparison evidence begins -->
-
-| Field | Finding / qualification | Evidence |
-|---|---|---|
-| Expression | Built-in with firm-forward switching; volume cannot be toggled off. External EXP absent from complete ports. | [Manual pp6–7][TLST-M] |
-| K/F/B | **12 / 2 / 9**, text-derived:AMP selector+five amp controls;PEDAL selector/edit;MOD/DELAY selector/edit;REVERB;rear LEVEL. UP/DOWN footswitches;AMP,CAB,PEDAL,MOD/DELAY,TAP,REVERB,WRITE,EXIT/TUNE,EXP PARAM buttons. Toe,STANDBY and AMP/LINE switch additional. Visual check pending. | [Manual pp2–7][TLST-M] |
-| Display | Program/value LED display; diagonal,color,touch unverified. | [Manual p5][TLST-M] |
-| Dimensions / mass | **270×180×70mm WDH;1.6kg**. Product metric row wrongly labels first dimension H; its inch row identifies W. | [Product][TLST-P] |
-| Processing / category choices | **33 amps;11 cabinets;11 pedal;11 MOD/DELAY;3 reverbs;1 noise reduction**. Manufacturer claims up to eight simultaneous types; detailed block accounting pending. | [Product][TLST-P]; [Manual p1][TLST-M] |
-| Category choices / combinations | **25 effects=11 PEDAL+11 MOD/DELAY+3 reverb**, with noise reduction separately listed. ACOUSTIC and drive/compressor choices share PEDAL. MOD/DELAY has8 modulation/pitch/filter choices plus Echo Plus,Delay,Chorus+Delay; not separate freely combinable modulation and delay slots. Chorus+Delay fixes chorus depth. | [Manual pp18–22][TLST-M] |
-| Routing / pitch and delay | Pitch Shifter supports chords,±12 semitones and detune. Delay types40–1480ms;TAP+EDIT adjusts feedback. Assigning FILTRON to expression changes it from envelope sensitivity to direct cutoff control. | [Manual pp21–22][TLST-M] |
-| Factory / user memory | **100=50 user0–49+50 preset50–99**. Initial user fill unverified. | [Manual p9][TLST-M] |
-| Synth / acoustic | **Acoustic simulation yes:ACOUSTIC** in PEDAL; recommended low-output single-coil neck pickup. Dedicated synth engine remains unverified. | [Manual p19][TLST-M] |
-| I/O | INPUT;stereo-mini AUX;shared stereo/mono OUTPUT/PHONES;USB-B;DC. No DIN MIDI or FX loop in complete inventory. Mono output cable takes left channel only. | [Manual pp7–9][TLST-M] |
-| Power / battery / USB | **12V DC;540mA consumption**. Polarity,battery and USB bus operation unverified. | [Product][TLST-P] |
-| IR / NAM / capture | User IR,native/converted NAM and captures unverified. | Unresolved |
-| Editor / USB audio | **Librarian**, not confirmed full editor. Historical requirements:XP SP3/Vista SP1+,MacOSX10.4+ G4/Intel. Windows MIDI driver for librarian;ASIO driver for audio. USB playback bypasses effects. Current OS support unverified. | [Manual p28][TLST-M] |
-| Looper / drums / live | Looper,drums,scenes,trails unverified. Tube warm-up delays initial sound. | [Manual p9][TLST-M] |
-
-### Separate IDR hardware offers
-
-| Condition | Evidence | Source |
-|---|---|---|
-| Used | Unknown; exact item does not establish condition. | — |
-| New | Unknown; exact item does not establish condition. | — |
-| Conditional historical observation | **Rp1,200,000**, herykurniawanipunk, Kab. Lombok Barat, shop94150896/item21882548072. Checked2026-10-17; last-week cache, exact HTML opened, stale9–11Oct delivery. Condition, stock, variant, adapter/bundle, warranty and working state unverified; shipping/tax/checkout total unknown. Late-arrival compensation is not discount. Not a confirmed new/used range or current-stock check. | [Exact ST item][TLST-S] |
-| Additional condition-unverified historical observation | **Rp960,000; Habis**, BANKO MUSIC STORE, Kab. Bandung; shop1452686572/item29530564104. Checked2026-10-18;five-month search cache, direct open failed. Relative “Besok” delivery is stale cache text. Condition, working state, revision, adapter/bundle, warranty, voucher and present stock unknown; not assigned used/new. | [Indexed exact ST item][TLST-S2] |
-
-
-### ToneLab ST — pedal recall and panel lock
-
-| Field | Finding / qualification | Evidence |
-|---|---|---|
-| Expression / position persistence | Saving normally stores the current pedal position as the assigned parameter value. Exceptions: volume, delay/reverb input levels, pitch-shifter PITCH and FILTRON cutoff. Assignment/endpoints save per program; amp GAIN assignment survives changing amp model. | [Manual pp24–26][TLST-M] |
-| Live / key lock and bank navigation | Hold EXIT/TUNE about2s to lock top-panel switches/selectors/knobs; repeat to unlock. Holding UP or DOWN while pressing EXIT/TUNE moves the program number by10. | [Manual p5][TLST-M] |
-| Memory / save exclusions | Rear LEVEL and AMP/LINE are not program-stored or covered by Original Value indication. Unsaved edits disappear on program change/power-off; WRITE targets users0–49. | [Manual pp11–12][TLST-M] |
-
-### ToneLab ST — calibration and conversion
-
-| Field | Finding / qualification | Evidence |
-|---|---|---|
-| Expression / calibration and switching force | Use a foot, as hand operation may fail. Power on holding EXP PARAM + WRITE, then release. Press forward to switch the assigned effect: this establishes switching weight. Slowly return the pedal, remove foot, then gently advance it and remove foot. WRITE completes; EXIT/TUNE cancels. Failed adjustment repeats from the switching-weight step. Display glyphs are missing from extracted text and remain unverified. | [Manual p27][TLST-M] |
-| Processing / converters | **24-bit A/D and D/A; 44.1 kHz** internal sampling. USB audio bit depth and selectable host rates are not specified here. | [Manual p33][TLST-M] |
-| Memory / factory initialization | Reset returns saved programs to factory contents. Power on holding EXIT/TUNE + EXP PARAM; release when UP/DOWN LEDs blink, then WRITE confirms. EXIT/TUNE cancels before confirmation; do not interrupt initialization. This differs from pedal calibration. | [Manual p29][TLST-M] |
-
-### ToneLab ST — selector activation and saved-value indication
-
-Checked 2026-10-18 against its own manufacturer manual; no hardware operation.
-
-| Field | Evidence / qualification |
-|---|---|
-| Controls / automatic activation | Turning AMP, PEDAL or MOD/DELAY selectors enables the corresponding disabled block. In OPTION mode, turning GAIN to select a cabinet enables a disabled cabinet. Turning REVERB enables reverb. These are documented edit behaviors, not extra simultaneous blocks. [Manual pp3–4][TLST-M] |
-| Display / original value | The lower-right decimal-point segment briefly goes dark when an edited value matches its stored value. This indication does not establish motorized controls or mandatory value pickup. [Manual p5][TLST-M] |
-| USB / recording path | DAW recording receives the effects output; USB playback can be monitored but is not processed by the effects. USB presence therefore does not establish a USB reamp-input path. Host format/channel-count details remain unverified. [Manual p28][TLST-M] |
-
-
-### ToneLab ST — named effect-category audit
-
-Checked 2026-10-18 against the manufacturer manual, printed pp18–22. **25 selections = 11 + 11 + 3**, with noise reduction separately listed. This is a library audit, not 25 concurrent effects.
-
-| Field | Exact-model named choices |
-|---|---|
-| Processing / PEDAL 11 | COMP; ACOUSTIC; VOX WAH; U-VIBE; OCTAVE; TREBLE BOOST; TUBE OD; BOUTIQUE; ORANGE DIST; METAL DIST; FUZZ. [Manual][TLST-M] |
-| Processing / MOD-DELAY 11 | CLASSIC CHORUS; MULTI TAP CHORUS; CLASSIC FLANGER; PHASER; TEXTREM; ROTARY; PITCH SHIFTER; FILTRON; ECHO PLUS; DELAY; CHORUS+DELAY. One shared category; CHORUS+DELAY is one combined choice. [Manual][TLST-M] |
-| Processing / REVERB 3 | SPRING; ROOM; HALL. [Manual][TLST-M] |
-
-
-### ToneLab ST — amp banks and cabinet audit
-
-Checked 2026-10-18 against the original manual, printed pp8,13–18. Counts describe selectable library entries, not concurrent amp/cab instances.
-
-| Field | Exact-model evidence |
-|---|---|
-| Processing / amp bank census | **33 = 11 positions × 3 banks (STD/SPL/CST)**. Positions: CLEAN; CALI CLEAN; US BLUES; US 2x12; VOX AC15; VOX AC30; UK ROCK; UK METAL; US HIGH GAIN; US METAL; BOUTIQUE METAL. [Manual][TLST-M] |
-| Processing / cabinet 11 | TWEED 1x8; TWEED 1x12; TWEED 4x10; BLACK 2x10; BLACK 2x12; VOX AC15; VOX AC30; VOX AD120VTX; UK H30 4x12; UK T75 4x12; US V30 4x12. Amp/cab combinations are freely selectable. [Manual][TLST-M] |
-| Processing / CLEAN-CST exception | CLEAN/CST provides a four-band tone-control model with GAIN disabled. BASS/MIDDLE/TREBLE centered and PRESENCE minimum reproduce amp-off behavior; the manual recommends cabinet off for a line-like clean sound. Do not describe all 33 entries as gain-bearing amp emulations. [Manual p13][TLST-M] |
-| Routing / output compensation | VOX/F/M output compensation applies only with the amp model enabled. LINE is specified for power-amp input, mixer/recorder/audio system and headphones. [Manual p8][TLST-M] |
-
-
-### ToneLab ST — dated software compatibility and librarian files
-
-Checked 2026-10-18. The following are manufacturer support records with explicit historical dates, not current-OS testing.
-
-| Field | Evidence / qualification |
-|---|---|
-| Editor / Windows compatibility | Chart dated **2019-01-24** lists USB-MIDI and Sound Librarian as supported on Windows 7 SP1, 8.1 and 10 version1809, both32/64-bit. USB-audio rows carry a64-bit footnote: standard USB-audio driver operation, with64-bit applications unsupported. This must not be flattened into universal64-bit ASIO support. Modern UI/UWP are excluded. This is the older baseline; the 2023 chart below supersedes support status for its listed newer Windows releases. [Official chart](https://voxamps.com/wp-content/uploads/2019/03/win_compatibilitychart_VOX_en.pdf) |
-| Editor / Mac compatibility | Chart dated **2019-11-29** lists ST USB-audio, USB-MIDI and Sound Librarian on macOS10.12 Sierra,10.13 High Sierra and10.14 Mojave; **support ended** is printed for10.15 Catalina across all three. Librarian is marked unsigned. This is a support status, not proof that operation is physically impossible; newer macOS/Apple Silicon compatibility remains unverified. [Official chart](https://voxamps.com/wp-content/uploads/2019/11/Mac_CompatibilityChart-VOX_jp-2.pdf) |
-| Editor / librarian function and files | Japanese exact-model page documents Sound Librarian **v1.1.0**, program rearrangement, device transfers and file save/load. It includes **TLST_PresetProgram.tlst** plus **50 extra programs in TLST_ExtraProgram.tlst**. These are computer library files, not50 additional onboard slots or a confirmed factory user-slot map. Mac requirements there specify10.4.11+/10.5.6+PPC/Intel; retain the older manual baseline and later chart separately. A full parameter editor is not established. [Official model page](https://voxamps.com/ja/product/tonelab-st/) |
-
-
-### ToneLab ST — later Windows support status
-
-Checked 2026-10-18 against [VOX chart dated 2023-02-20](https://voxamps.com/wp-content/uploads/2023/02/Win_CompatibilityChart-VOX_en_20230220.pdf), exact ST rows. Retain the 2019 chart as historical evidence.
-
-| Field | Later dated evidence / qualification |
-|---|---|
-| Editor / Windows support ended | **End Of Support** for ST USB audio, USB MIDI, ST ASIO driver and Sound Librarian on **Windows10 21H2/22H2 (32/64-bit)** and **Windows11 21H2/22H2 (64-bit)**. A generic VOX driver Yes elsewhere in the chart does not override these model-specific rows. This is declared support status, not a hardware failure test; subsequent Windows builds remain unverified. |
-| Editor / Windows8.1 distinctions | USB audio, USB MIDI and Librarian retain Yes for32/64-bit Windows8.1, with qualifications. **ST ASIO driver: Yes32-bit, No64-bit**. USB audio uses the standard driver and excludes64-bit applications; MIDI/Librarian require VOX USB-MIDI driver. These separate rows must not be treated as universal64-bit audio compatibility. |
-
-
-### ToneLab ST — tuner and expression endpoint limits
-
-| Field | Exact-model qualification |
-|---|---|
-| Live / tuner calibration | Detection **A0–E6 (27.5–1318.5Hz)**; reference **438–445Hz**, reset to **440Hz at power-on**. Press UP+DOWN for effect-bypassed tuning; hold both about2s for mute. Either pedal or EXIT/TUNE exits. This is not proof of analog true bypass or trails. [Manual pp23,33][TLST-M] |
-| Expression / fixed reverb endpoints | Reverb-input pedal minimum/maximum values are assigned automatically and **cannot be changed**. PITCH SHIFTER initially assigns minimum0 (no shift), maximum=current pitch value; its endpoints can be edited. Do not generalize adjustable ranges to every target. [Manual p25][TLST-M] |
-| Expression / assignment persistence | Changing effect normally clears the pedal assignment. Exceptions include ampGAIN, reverb-input level across reverb types, and delay-input level when switching among ECHO PLUS/DELAY/CHORUS+DELAY. This does not preserve an arbitrary previous parameter mapping. [Manual p25][TLST-M] |
-
-Checked2026-10-18 from original manufacturer manual text;no downloads or device operation.
+Lo/Hi controls belong toAMP/DR andstop with that block. ACOUSTIC distortion troubleshooting recommends lower drive/guitar output;it does not establish extra simulation capabilities. Manual p13 confirms62Amp/Drive choices,consistent with44+18. [EFGSJ2 pp5,8–13][SL1G-M].
 
 <!-- comparison evidence ends -->
-
-### Condition-unverified Shopee hardware
-
-[Exact ST item][TLST-S],**Rp1,200,000**,herykurniawanipunk,shop94150896/item21882548072,Kab.Lombok Barat. Checked2026-10-17; exact HTML opened with last-week cache and9–11Oct delivery. Condition,stock,variant,adapter/bundle,warranty and working state unverified. Late-arrival Rp10,000 compensation is not a discount; shipping/tax/checkout unknown. Excluded from condition-specific price columns. No dependencies,software or manual files saved/installed; manual viewed as browser text.
-
-[TLST-M]: https://voxamps.com/wp-content/uploads/support/TonelabST_OwnersManual.pdf
-[TLST-P]: https://voxamps.com/en-gb/product/tonelab-st/
-[TLST-S]: https://shopee.co.id/vox-tonelab-st-i.94150896.21882548072
-
-Additional unresolved identity lead checked2026-10-18: Ayx Music, Kab. Lamongan, shop58780289/item17149906599, **Rp1,750,000; Habis**, two-month search cache. Title says ST, but URL says EX; direct open failed. Do not assign to either exact model without corroboration. Condition, working state, bundle/adapter, warranty, voucher and present stock unknown. [Conflicting-title/URL lead][TLST-S3].
-
-[TLST-S2]: https://shopee.co.id/VOX-ToneLab-ST-Digital-multi-efek-gitar-Original-i.1452686572.29530564104
-[TLST-S3]: https://shopee.co.id/efek-vox-tonelab-EX-masi-bgus-i.58780289.17149906599
-
-## ToneLab SE
-
-Guitar multi-effects; separate from LE/ST/EX. Checked2026-10-17; partial. Bass suitability and ownership unestablished.
-
-<!-- comparison evidence begins -->
-
-| Field | Finding / qualification | Evidence |
-|---|---|---|
-| Expression | **Two built-in expression pedals with under-pedal switches**; assigned volume/amp parameters cannot be toggled. External EXP absent from complete ports. | [Manual pp1,10,63][TLSE-M] |
-| K/F/B | **13 /9 /19**, text-derived:6 model selectors+6 value knobs+rear LEVEL;4 program+2 BANK+A/B+FX ON/OFF+CONTROL footswitches;8 model/INSERT/PRES-NR+9 navigation/global+2 controller-setup buttons. Two pedal switches and STANDBY additional. Visual corroboration pending. | [Manual pp4–11][TLSE-M] |
-| Display | Diagonal,technology,color,touch unverified. | Unresolved |
-| Dimensions / mass | **710×249×76mm WDH;6.2kg**; large. | [Manual p63][TLSE-M] |
-| Processing / category choices | Amp16;cabinet11;pedal16;modulation11;delay11;reverb11;noise reduction1. One per effect category concurrently; full simultaneous-block count pending. 12AX7/ECC83 Valve Reactor. | [Manual pp1,63][TLSE-M] |
-| Model-total disagreement / cabinet | Specifications and selector description say11 cabinets; signal diagram labels one channel10 and the other11. Retain diagram discrepancy; no inferred channel limitation. | [Manual pp4,6,63][TLSE-M] |
-| Audio output / headphones | Headphones do not mute main outputs; rear LEVEL controls both. Mono uses L/MONO. OUT SEL:AP for guitar amp,Ln for mixer/recorder. Valve warm-up delays initial sound. | [Manual pp11–13][TLSE-M] |
-| Routing / controls | INSERT precedes PEDAL;MOD/DELAY/REVERB chain order editable. FX ON/OFF hold0.5s bypasses;hold1s mutes and activates tuner. | [Manual pp4–5,10][TLSE-M] |
-| Factory / user memory | **96 writable memories**,24×4;32 factory programs repeated across three eight-bank groups. | [Manual piv,p1][TLSE-M] |
-| Synth / acoustic | **ACOUSTIC simulation yes**, in PEDAL, with BODY/BASS/TREBLE; low-output single-coil neck pickup recommended. Dedicated synth engine unverified. | [Manual pp34–35][TLSE-M] |
-| I/O | INPUT;INSERT SEND/RETURN;two balanced/unbalanced TRS OUTPUTs;PHONES;MIDI IN/OUT;AC input. No USB or S/PDIF in complete inventory. | [Manual p63][TLSE-M] |
-| Power / battery / USB | **9V AC;18W consumption**. Included3.0A supply rating is not measured draw. DC polarity inapplicable;battery unverified;noUSB. | [Manual p63][TLSE-M] |
-| IR / NAM / capture | User IR,native/converted NAM,capture loading unverified. | Unresolved |
-| Editor / software | **ToneLabSE Sound Editor** edits/manages programs;platforms/current support unverified. Computer connection needs bidirectional MIDI and matching channels; some USB-MIDI interfaces cannot transfer its SysEx. No ST software inference. | [Manual pp2,56–57][TLSE-M] |
-| Looper / Hold Delay | **Mono1–8000ms Hold Delay**. Assign HOLD DLY to CONTROL to freeze delay sound when switched on. Saved-loop storage and independent overdubbing are not established by this feature. | [Manual p45][TLSE-M] |
-| Looper / drums / live | A/B switches stored amp,cabinet,noise-reduction combinations within a program. Looper,drums,scenes,trails unverified. | [Manual p1][TLSE-M] |
-
-### Separate IDR hardware offers
-
-| Condition | Evidence | Source |
-|---|---|---|
-| Used | Unknown; exact offer lacks condition evidence. | — |
-| New | Unknown; exact offer lacks condition evidence. | — |
-| Conditional historical observation | **Rp3,850,000; Habis/sold out**, BANKO MUSIC STORE, Kab. Bandung, shop1452686572/item41751511183. Checked2026-10-17; month-old opened HTML, stale26Aug delivery. Condition, working state, variant, adapter/bundle and warranty unverified; shipping/tax/checkout unknown. Late-arrival compensation is not discount. Historical ask, not live stock, completed sale or confirmed new/used range. | [Exact SE item][TLSE-S] |
-
-
-### ToneLab SE — converters and dual-pedal control
-
-| Field | Finding / qualification | Evidence |
-|---|---|---|
-| Processing / converters | **20-bit A/D and D/A;44.1 kHz**. These are SE specifications; no LE/ST/EX converter values substituted. | [Japanese p63][TLSE-M] |
-| Expression / independent initialization | EXP1INIT/EXP2INIT are separate, global and automatically remembered. OFF applies current pedal position on program change; ON recalls the saved sound. Per-program target/MIN/MAX settings require saving; changing target resets its range. | [Japanese pp51–53][TLSE-M] |
-| Expression / Quick Assign | Hold EXPRESSION1s to assign the displayed eligible parameter to pedal1; hold CONTROL1s for pedal2. Changing the effect clears its target except amp targets and delay/reverb input levels. An off target effect cannot be controlled. | [Japanese pp50–52][TLSE-M] |
-| Expression / calibration | Use a **hand**. Power on with EXPRESSION+CHAIN for pedal1, CONTROL+CHAIN for pedal2. Move fully back, release, GLOBAL; move fully forward, release, GLOBAL. EXIT cancels; ERROR restarts at MIN. No hardware operation performed. | [Japanese p55][TLSE-M] |
-
-### ToneLab SE — channel recall and performance limits
-
-| Field | Finding / qualification | Evidence |
-|---|---|---|
-| Memory / channel hold | Global CH HOLD: OFF recalls the destination program’s saved A/B channel; ON retains the current channel across program changes. Factory default OFF. | [Japanese p16][TLSE-M] |
-| Live / effects mode and key lock | Effects mode assigns switches1–4 to PEDAL/MOD/DELAY/REVERB and BANK DOWN to INSERT; BANK UP is inactive. With no external insert connected, INPUT remains active regardless of INSERT LED. Holding EXIT1s toggles key lock; pedals and EXIT remain operable. Power cycling clears the lock. | [Japanese pp15–17][TLSE-M] |
-| Processing / chain orders | Six serial MOD/DELAY/REVERB permutations, saved per program: MD-DL-RV, MD-RV-DL, DL-MD-RV, DL-RV-MD, RV-MD-DL, RV-DL-MD. | [Japanese p20][TLSE-M] |
-| Live / tap factors | MOD TAP/DLY TAP factors:1/6,1/4,1/3,1/2,2/3,3/4,1,4/3,3/2,2,3,4. Tap interval maximum10s, not a delay-time limit. Other CONTROL targets ignore FACTOR; changing target resets it to1. | [Japanese p54][TLSE-M] |
-<!-- comparison evidence ends -->
-
-### Condition-unverified sold-out Shopee hardware
-
-[Exact SE item][TLSE-S],**Rp3,850,000**,**Habis/sold out**,BANKO MUSIC STORE,shop1452686572/item41751511183,Kab.Bandung. Checked2026-10-17; exact HTML opened,last-month cache,26Aug delivery stale. Condition,working state,variant,adapter/bundle,warranty unverified. Rp10,000 late-arrival compensation not discount;shipping/tax/checkout unknown. Excluded from used/new prices;not live stock or completed sale.
-
-Manufacturer-hosted Japanese J1 manual viewed as browser text;printed pagination differs from PDF index. No manual/software/dependencies saved or installed. Controls,display,algorithm detail,modern software support and import/power/live restrictions remain unresolved.
-
-[TLSE-M]: https://voxamps.com/wp-content/uploads/2022/03/ToneLabSE_OM_J1.pdf
-[TLSE-S]: https://shopee.co.id/Multi-FX-VOX-Tonelab-SE-Twin-Pedal-Multi-Effect-i.1452686572.41751511183
 
 ## StompLab 2B
 
@@ -341,57 +227,6 @@ Checked 2026-10-19: the [exact IIB manufacturer manual][SL2B-M] reopened as brow
 [SL2B-M]: https://voxamps.com/wp-content/uploads/2019/12/SL_IIB_OM_EFGSJ1.pdf
 [SL2B-P]: https://voxamps.com/ja/product/stomplab-2b/
 [SL2B-S]: https://shopee.co.id/Vox-StompLab-2B-Bass-Modelling-Effect-Processor-i.16879370.1349945522
-
-## StompLab 1G
-
-Guitar multi-effects;distinct from2G,1B,2B. Checked2026-10-17;partial. Bass suitability andownership unestablished.
-
-<!-- comparison evidence begins -->
-
-| Field | Finding / qualification | Evidence |
-|---|---|---|
-| Expression | **No built-in expression/toe switch;no external EXP socket** in complete panel inventory. FIX WAH is knob-controlled,not pedal wah. | [Manual pp4–6,62][SL1G-M] |
-| K/F/B | **3 / 2 / 3**,text-derived:CATEGORY,VALUE1,VALUE2;UP/DOWN pedals;EDIT andtwo arrow buttons. Rear POWER button additional;visual corroboration pending. | [Manual pp4–6][SL1G-M] |
-| Display | Diagonal,color,touch andtechnology unverified. | Unresolved |
-| Dimensions / mass | **145×125×57mm WDH;590g**. | [Official product][SL1G-P] |
-| Processing / category choices | **103**:8 Pedal+44 Amp+18 Drive+12 Cabinet+9 Modulation+8 Delay+3 Reverb+1 Noise Reduction;sum103,not simultaneous count. English cabinet list names11 despite12heading;German includes UK T75 4×12. **Seven simultaneous including NR**;AMP/DRIVE shares one category. Seven categories:Pedal,AMP/DR,Cabinet,NR,Modulation,Delay,Reverb. | [Official product][SL1G-P];[German product][SL1G-D];[Manual pp4,9][SL1G-M] |
-| Factory / user memory | **120=100 read-only00–99+20 writableU0–U9/u0–u9**. WRITE required;unsaved edits lost on program change/power-off. Initial user fill pending. | [Official product][SL1G-P];[Manual pp7,10][SL1G-M] |
-| Synth / acoustic | Pedal category lists Acoustic;dedicated simulation behavior pending. Synth unverified. | [Official product][SL1G-P] |
-| I/O | Complete rear inventory:mono INPUT,shared stereo OUTPUT/PHONES,DC9V andPOWER;no AUX,USB,MIDI,loop orEXP socket. | [German product][SL1G-D];[Manual p6][SL1G-M] |
-| Routing / output target | A1 UK-style mid-forward open combo; A2 clean US-style open combo; A3 closed 4×12 stack; Ln line, headphones, power-amp input or recorder. Output target persists; global master resets to **7.0 at power-on**. Lo/Hi controls belong to AMP/DR and stop with that block. | [Manual pp5,8–13][SL1G-M] |
-| Power / battery / USB | **9V DC,approximately200mA;4AA,7.5h alkaline**. Polarity andUSB power unverified. English AC-adapter wording describes supply,not proof of9VAC input. Regional included-battery wording differs. | [German product][SL1G-D];[English product][SL1G-P] |
-| IR / NAM / capture | User IR,native/converted NAM andcapture imports unverified. | Unresolved |
-| Editor / software | No USB/MIDI connector in manual inventory;USB audio unavailable through such a port. Editor/imports unverified. | [Manual pp4–6][SL1G-M] |
-| Looper / drums / live | Tuner A0–E6;reference438–445Hz. **Auto-off after1h without controls orinput audio**,default enabled;EDIT+UP at startup disables,EDIT+DOWN enables;setting persists,restart required after shutdown. Both footswitches bypass all effects including NR; hold about 1 s for mute. Either switch exits without changing program. Calibration resets to 440 Hz after power loss. Hold EDIT 2 s to lock VALUE controls in Program mode. Looper/drums/trails unverified. | [Official product][SL1G-P];[Manual pp7–11][SL1G-M] |
-
-### Separate IDR hardware offers
-
-| Condition | Evidence | Source |
-|---|---|---|
-| Used | **Rp850,000**,SECOND-title hardware,Habis;historical cached ask,not working-condition/current-stock guarantee. Checked 2026-10-17; seller gitar second, shop 61848168 / item 20091595478, Kab. Polewali Mandar. Two-month cache with stale August delivery. Variant, adapter/bundle, warranty, working state, shipping/tax and usable vouchers unknown; late-delivery compensation is not a discount. | [gitar second item][SL1G-S] |
-| New | Unknown;no qualified retail/new offer. | — |
-
-[gitar second item][SL1G-S],shop61848168/item20091595478,Kab.Polewali Mandar. Exact HTML opened,two-month cache;direct20–23Augdelivery versus indexed4–7Aug,both stale. Variant,bundle/adapter,warranty andworking state unknown. Rp10,000late-arrival compensation not discount;shipping/tax/checkout unknown. Not completed-sale evidence. Other condition-unverified exact1Gasks retained inledger;shop-only andmixed1G/2G offers excluded.
-
-Manufacturer1Gproduct pages opened;earlier J1 candidate inaccessible;**official EFGSJ2 manual now opened**. No sibling specifications imported. English cabinet list omission andregional battery inclusion conflict retained;no files ordependencies downloaded.
-
-[SL1G-P]: https://voxamps.com/en-gb/product/stomplab-1g/
-[SL1G-D]: https://voxamps.com/de/produkt/stomplab-1g/
-[SL1G-S]: https://shopee.co.id/VOX-STOMPLAB-1G-MULTIEFEK-GUITAR-MULTIEFFECT-MULTI-EFFECT-PEDAL-GITAR-MULTI-EFEK-SECOND-i.61848168.20091595478
-
-Official EFGSJ2 manual identifies StompLab IG;pp4–6 provide complete controls/connectors andp9category architecture. ACOUSTIC parameter table p62 lists TONE0–10;function details remain qualified. This is text-derived verification,no visual count certification.
-
-[SL1G-M]: https://voxamps.com/wp-content/uploads/2019/12/SL_IG_OM_EFGSJ2.pdf
-
-### Global output and stage behavior
-
-Output compensation:A1 UK-style mid-forward open combo,A2 clean US-style open combo,A3 closed4×12stack,Ln line/headphones/power-amp input/recorder. Target mode persists;global master resets to7.0 at power-on.
-
-Both footswitches together bypass all effects including NR;holding about1s mutes. Tuner operates in either state;one switch exits without changing program. Tuner calibration resets to440Hz after power loss. EDIT held2s locks VALUE knobs in Program mode.
-
-Lo/Hi controls belong toAMP/DR andstop with that block. ACOUSTIC distortion troubleshooting recommends lower drive/guitar output;it does not establish extra simulation capabilities. Manual p13 confirms62Amp/Drive choices,consistent with44+18. [EFGSJ2 pp5,8–13][SL1G-M].
-
-<!-- comparison evidence ends -->
 
 ## StompLab 2G
 
@@ -579,73 +414,250 @@ Checked 2026-10-18 against [own E1 manual pp15–21](https://voxamps.com/wp-cont
 | Live / tuner detection | **A0–E6,27.5–1,318.5Hz** detection range, distinct from the438–445Hz reference calibration. Published range does not establish cent accuracy or bass-instrument suitability. [Own E1 manual p39](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf),checked2026-10-18. |
 | USB audio / recording path | Own p35 explicitly records **effect output** to a DAW and monitors computer playback; incoming USB audio bypasses EX effects. This documents a processed recording path, not a selectable dry DI stream, channel count, transport bit depth or USB reamping through the effects. [Own E1 manual p35](https://voxamps.com/wp-content/uploads/support/ToneLabEX_OM_E1.pdf). |
 
+## ToneLab LE
 
-## StompLab 1B
+Guitar multi-effects; distinct from original ToneLab, SE, ST and EX. Checked2026-10-17; partial. Bass suitability and ownership unestablished.
 
 <!-- comparison evidence begins -->
 
-Checked 2026-10-18. **Bass multi-effects**, also styled StompLab IB; distinct from expression-equipped IIB. Partial record; no dependencies or manuals downloaded.
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in expression with under-pedal switch; cannot toggle an assigned volume/amp parameter. External EXP absent from complete port inventory. | [English pp17,55][TLLE-E] |
+| K/F/B | **12 / 7 / 17**, text-derived:5 model selectors+6 value knobs+rear LEVEL;4 program+2 BANK+CONTROL footswitches;7 model/insert/cabinet buttons+10 setting/navigation buttons. Pedal switch and rear STANDBY additional. Visual corroboration pending. | [English pp12–18][TLLE-E] |
+| Display | Name/value/bank display; diagonal, technology, color and touch unverified. | [English p14][TLLE-E] |
+| Dimensions / mass | **500×249×80mm WDH**. **Conflict: Japanese J2 4.5kg; English E1 4.2kg**. Revision/region basis unresolved; do not average. | [Japanese p52][TLLE-J]; [English p55][TLLE-E] |
+| Processing / category choices | Amp16;cabinet11;pedal16;modulation11;delay11;reverb11;noise reduction1. One each pedal/modulation/delay/reverb concurrently with amp/cabinet; complete simultaneous-block accounting unverified. 12AX7/ECC83 Valve Reactor. | [Japanese pp9,52][TLLE-J] |
+| Factory / user memory | **120 writable programs**,30 banks×4. **40 factory sounds repeated across banks1–10,11–20,21–30**; not120 unique factory sounds or120 additional presets. | [Japanese pp7,9][TLLE-J] |
+| Synth / acoustic | ACOUSTIC pedal simulates acoustic guitar; synth-engine capability unverified. | [English p35][TLLE-E] |
+| I/O | INPUT;INSERT SEND/RETURN;two OUTPUTs;HEADPHONES;optical S/PDIF;MIDI IN/OUT;AC input. No USB in complete inventory; connector sizes/routing pending. | [Japanese p52][TLLE-J] |
+| Power / battery / USB | **9V AC**, supplied **3.0A adapter rating**, not measured draw. DC polarity inapplicable. Battery operation unverified; no USB connector. | [Japanese p52][TLLE-J] |
+| IR / NAM / capture | User IR,native/converted NAM and proprietary capture loading unverified. | Unresolved |
+| Editor / software | **ToneLab LE Sound Editor** edits/manages programs; supported platforms and current availability unverified. Requires bidirectional MIDI through an external interface; some USB-MIDI interfaces cannot carry its SysEx. Match MIDI channels and enable SYEX OUT for editor parameter transmission. ST software is not evidence for LE. | [Japanese p9][TLLE-J]; [English pp51–52][TLLE-E] |
+| Audio output / headphones | Headphones do not mute main outputs; rear LEVEL controls both. L/MONO for mono; choose Ln1/Ln2 for phones, Ln1 for optical output, Ln2 for three-band EQ. AMP/LINE disabled when amp model off. | [English pp18–21][TLLE-E] |
+| Routing / live limits | INSERT precedes PEDAL. Bank preselection leaves current sound active until program selection. Key Lock disables knobs/buttons/selectors. Actual valve requires warm-up before sound. Dedicated spillover unverified. | [English pp13,20,22–23][TLLE-E] |
+| Routing / MIDI backup | Programs can be saved/restored via MIDI exclusive data using sequencer/data filer. Optical output level adjustable separately −12 to+12dB; above0 may clip some programs. | [English p20][TLLE-E] |
+| Looper / Hold Delay | **Mono Hold Delay1–8000ms**, automatically assigned to CONTROL; activating it holds the current delay sound. This documents delay freezing, not saved-loop storage or an independent overdubbing looper. Audio persistence remains unverified. | [English p43][TLLE-E] |
+| Looper / drums / live | Chain reorders modulation/delay/reverb. Programmable CONTROL supports tap/insert/rotary functions. Dedicated looper,drums,scenes and trails unverified. | [Japanese pp9,11][TLLE-J] |
 
-| Field | Evidence / gaps |
-|---|---|
-| Instrument / expression | Bass-focused. Built-in expression pedal belongs to IIB, not IB in the Japanese family description. No external EXP in the complete rear inventory; no built-in toe switch. [VOX Japanese][SL1B-J];[IB manual pp4–6][SL1B-M] |
-| K/F/B | **3 / 2 / 3**: CATEGORY, VALUE1/2; program UP/DOWN pedals; EDIT and up/down buttons. Rear POWER button additional. Text-derived, not visually audited. [IB manual pp4–6][SL1B-M] |
-| Display | Diagonal, resolution, technology, color and touch unknown. |
-| Dimensions / weight | **145×125×57 mm W×D×H; 590 g**. [VOX English][SL1B-E] |
-| Processing / choices | **60 choices**: pedal9, amp10, drive8, cabinet12, modulation9, delay8, reverb3, noise reduction1. These are library alternatives, not simultaneous blocks. Own IB manual confirms **up to seven simultaneous effects including noise reduction**, resolving family7–8 ambiguity. [IB manual p4][SL1B-M] [English][SL1B-E];[Japanese][SL1B-J] |
-| Factory / user memory | **100 preset +20 user =120**. Presets00–99 read-only; user U0–U9/u0–u9 writable. WRITE overwrites destination; unsaved edits are lost on program change/power-off. Initial user fill unknown. [German][SL1B-D];[IB manual pp7,10][SL1B-M] |
-| Synth / acoustic | ACOUSTIC is a named pedal choice; simulation behavior and synth architecture unverified. [English][SL1B-E] |
-| I/O | One normal mono input; one stereo output/phones. Own manual complete rear inventory: INPUT, OUTPUT/PHONES, DC9V and POWER. No USB, MIDI, AUX, external EXP or effects-loop ports. Socket sizes unknown. [English][SL1B-E];[IB manual p6][SL1B-M] |
-| Conversion | 24-bit AD/DA; sample rate and USB audio unknown. [English][SL1B-E] |
-| Power / battery / USB | **9V DC, approximately200mA consumption**, or4AA; approximately7.5h alkaline. Own Japanese manual names optional **KA181**; Korg specifies that adapter as **9V center-negative**. Barrel dimensions unknown; no USB power port. Tuner current consumption is not IB current. [German][SL1B-D];[IB manual pp54,60][SL1B-M];[Korg adapter specification][SL1B-K] |
-| IR / NAM / capture | User IR, native/converted NAM and proprietary capture import unknown. |
-| Editor / software | Editor availability and supported Windows/macOS/mobile versions unknown. |
-| Looper / drums / live | Tuner A0–E6; calibration438–445Hz. Looper, drums, scenes and trails unknown. [German][SL1B-D] |
-| Used IDR / new IDR | **Unknown / unknown**. Exact Indonesian Shopee searches for stomplab 1b, stomplab ib and stomplab1b returned no exact offer on2026-10-18; this does not establish unavailability. Condition, stock, region, warranty, vouchers and checkout total unknown. |
-| Power / bundle | English specifies test batteries included; German excludes batteries. Preserve regional conflict; actual seller bundle unknown. [English][SL1B-E];[German][SL1B-D] |
+### Separate IDR hardware offers
 
-### StompLab 1B category inventory
-
-Manufacturer category counts reconcile to60. AMP and DRIVE counts do not establish independent simultaneous slots. [VOX English][SL1B-E]
-
-| Category | Named choices |
-|---|---|
-| Pedal9 | Compression; Exciter; Fixed Wah; Auto Wah; Brn Octave; Acoustic; U-Vibe; Tone; Ring Mod |
-| Amp10 | Valve1; Valve2; Classic; Scooped; LA Studio; Gold Panel; Jazz; Studio; AC100; UK Major |
-| Drive8 | Tube OD; Fat Distortion; Orange Distortion; Shred Distortion; Fuzz; Octa Fuzz; Techno Fuzz; Crusher |
-| Cabinet12 | LA4×10; LA1×18; Metal4×10; UK4×12; UK4×15; Classic8×10; Modern4×10; Studio1×15; Jazz1×15; AC2×15; Combi; Custom |
-| Modulation9 | CE Chorus; Multi Chorus; Flanger; Org Phase; Twin Tremolo; G4 Rotary; Pitch Shift; Filtron1(auto); Filtron2(manual) |
-| Delay8 | Analog Delay1–4; Echo1–4 |
-| Reverb3 | Room; Spring; Hall |
-| NR1 | Noise reduction |
-
-### StompLab IB output and save behavior
-
-Output profile persists; master resets7.0. Bass-amp profile appears as **A1** in English p11, **AP** in the parameter table/other languages; **Ln** serves line, headphones, power-amp input or recorder. Preserve label conflict. [IB manual pp11,23,65][SL1B-M]
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | **Rp2,260,000**, title explicitly Second. **Inside Studio Solo**,shop1887861133/item52514565252,Kab.Sukoharjo. Checked2026-10-17; exact HTML opened, three-week cache with26–27Sep delivery. Stock,working state,adapter/bundle,warranty and selected variant unverified. Model-selection URL parameter267809844474 retained; no variant options exposed. Late-arrival Rp10,000 compensation is not a discount; shipping/taxes/checkout unknown. Cached asking price only. | [Exact Shopee item][TLLE-S] |
+| New | Unknown; no qualified new hardware offer established. | — |
 
 
-### StompLab IB — tuning and acoustic-choice operating limits
+### ToneLab LE — converters and expression initialization
 
-| Field | Exact IB manual evidence / qualification |
-|---|---|
-| Live / bypass and mute | Press both Program UP/DOWN pedals together to bypass **all effects including noise reduction**. Hold both for **about one second** to mute output. Either mode activates the tuner; pressing either pedal exits **without changing the program**. This does not establish relay true bypass. [Own IB manual p8][SL1B-M] |
-| Processing / ACOUSTIC overload limit | If the ACOUSTIC pedal choice distorts high frequencies, the manual recommends reducing AMP/DR GAIN. This confirms an operating interaction with the amp/drive stage, not the acoustic simulation’s exact instrument/body model or a separate synth engine. [Own IB manual p12][SL1B-M] |
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / converters | **24-bit A/D and D/A;44.1 kHz**. These internal specifications do not establish USB audio; the recorded ports have no USB. | [English p55][TLLE-E] |
+| Expression / EXP INIT | Global, automatically saved: OFF applies current pedal position immediately on program change; ON initializes the assigned parameter to its saved value. VOLUME, D/INPUT and R/INPUT always follow current position regardless. Per-program target/endpoints still require storing. | [English pp47–48][TLLE-E] |
+| Expression / editing versus performance | Ordinary pedal targets edit the parameter value that will be written. OFF, VOLUME, M/PITCH, D/INPUT and R/INPUT do not edit stored parameters. Changing target initializes its MIN/MAX range. | [English pp47–48][TLLE-E] |
+| Live / tap-factor limits | MOD TAP/DLY TAP support twelve factors:1/6,1/4,1/3,1/2,2/3,3/4,1,4/3,3/2,2,3,4. Maximum tap interval10s; this is not a maximum delay-time specification. Changing CONTROL assignment resets FACTOR to1; it has no effect for other targets. | [English p49][TLLE-E] |
 
-### StompLab IB — power retention and factory reload
+### ToneLab LE — calibration and routing limits
 
-| Field | Exact IB manual evidence / qualification |
-|---|---|
-| Power / automatic shutdown | Factory-enabled auto power-off acts after **one hour without user input**, but does **not** engage while audio enters INPUT. Restart with the power button; another pedal/button does not wake it. Enable with EDIT + DOWN at startup; disable with EDIT + UP. This setting survives power-off. [Own IB manual p7][SL1B-M] |
-| Live / tuner memory | Calibration returns to **440 Hz after power-off**; the selected438–445Hz reference is temporary. [Own IB manual p9][SL1B-M] |
-| Factory / user memory reload | Factory reload **erases all saved user programs**. At startup hold both arrow buttons; at rL, DOWN cancels and UP confirms. Completion shows CP and returns to Program select. Do not interrupt reload power. This does not identify initial user-slot contents. [Own IB manual p11][SL1B-M] |
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / calibration | Use a hand. Power on holding EXP-CTL-CHAIN + ▲: EXP MAX. Move pedal forward, release hand, press GLOBAL: EXP MIN. Move pedal back, release hand, press GLOBAL: COMPLETE, then normal operation. EXIT/TUNE cancels; ERROR returns to EXP MAX to repeat. This is not the AX3000G sequence; toe-switch threshold adjustment remains unverified. | [English p50][TLLE-E] |
+| Processing / chain order | Six serial orders, saved per program: MD-DL-RV, MD-RV-DL, DL-MD-RV, DL-RV-MD, RV-MD-DL, RV-DL-MD. MD=modulation, DL=delay, RV=reverb. This does not establish arbitrary block placement or parallel routing. | [English p25][TLLE-E] |
+| I/O / Ln2 EQ limits | Three-band output EQ requires Ln2 and an enabled amp model; unavailable with AP1/AP2/AP3/Ln1 or amp modeling off. Controls are input TRIM, LO GAIN, MID FREQ, MID GAIN and HI GAIN. | [English pp25–26][TLLE-E] |
 <!-- comparison evidence ends -->
 
-Source access: English and German exact-model product bodies opened as browser text. Japanese exact-model specifications read in search cache; direct reopening timed out. Own68-page IB manual EFGSJ1 opened as browser text; English introduction identifies StompLab IB. No PDF downloaded or visual panel audit performed.
+Primary Japanese J2 manual is manufacturer-hosted. English manufacturer-authored E1 mirror identifies ©2006 VOX AMPLIFICATION LTD, ToneLab LE and MIDI chart2006-04-20; category/memory/dimensions/ports match J2, but weight differs. English pagination differs from Japanese. No full-file hash or visual control certification. Both PDFs viewed as browser text; no software/manual/dependency saved or installed.
 
-[SL1B-E]: https://voxamps.com/product/stomplab-1b/
-[SL1B-D]: https://voxamps.com/de/produkt/stomplab-ib/
-[SL1B-J]: https://voxamps.com/ja/product/stomplab-1b/
+[TLLE-J]: https://voxamps.com/wp-content/uploads/2024/05/ToneLabLE_OM_J2.pdf
+[TLLE-E]: https://www.voxshowroom.com/ct/manuals/ToneLabLE_OwnersManual.pdf
+[TLLE-S]: https://shopee.co.id/Vox-Valvetronix-ToneLab-LE-Efek-Gitar-Second-i.1887861133.52514565252?extraParams=%7B%22display_model_id%22%3A267809844474%2C%22model_selection_logic%22%3A3%7D
 
-[SL1B-M]: https://voxamps.com/wp-content/uploads/2019/12/SL_IB_OM_EFGSJ1.pdf
+## ToneLab SE
 
-[SL1B-K]: https://www.korg.com/jp/products/tuners/pitchblack_x_mini/specifications.php
+Guitar multi-effects; separate from LE/ST/EX. Checked2026-10-17; partial. Bass suitability and ownership unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | **Two built-in expression pedals with under-pedal switches**; assigned volume/amp parameters cannot be toggled. External EXP absent from complete ports. | [Manual pp1,10,63][TLSE-M] |
+| K/F/B | **13 /9 /19**, text-derived:6 model selectors+6 value knobs+rear LEVEL;4 program+2 BANK+A/B+FX ON/OFF+CONTROL footswitches;8 model/INSERT/PRES-NR+9 navigation/global+2 controller-setup buttons. Two pedal switches and STANDBY additional. Visual corroboration pending. | [Manual pp4–11][TLSE-M] |
+| Display | Diagonal,technology,color,touch unverified. | Unresolved |
+| Dimensions / mass | **710×249×76mm WDH;6.2kg**; large. | [Manual p63][TLSE-M] |
+| Processing / category choices | Amp16;cabinet11;pedal16;modulation11;delay11;reverb11;noise reduction1. One per effect category concurrently; full simultaneous-block count pending. 12AX7/ECC83 Valve Reactor. | [Manual pp1,63][TLSE-M] |
+| Model-total disagreement / cabinet | Specifications and selector description say11 cabinets; signal diagram labels one channel10 and the other11. Retain diagram discrepancy; no inferred channel limitation. | [Manual pp4,6,63][TLSE-M] |
+| Audio output / headphones | Headphones do not mute main outputs; rear LEVEL controls both. Mono uses L/MONO. OUT SEL:AP for guitar amp,Ln for mixer/recorder. Valve warm-up delays initial sound. | [Manual pp11–13][TLSE-M] |
+| Routing / controls | INSERT precedes PEDAL;MOD/DELAY/REVERB chain order editable. FX ON/OFF hold0.5s bypasses;hold1s mutes and activates tuner. | [Manual pp4–5,10][TLSE-M] |
+| Factory / user memory | **96 writable memories**,24×4;32 factory programs repeated across three eight-bank groups. | [Manual piv,p1][TLSE-M] |
+| Synth / acoustic | **ACOUSTIC simulation yes**, in PEDAL, with BODY/BASS/TREBLE; low-output single-coil neck pickup recommended. Dedicated synth engine unverified. | [Manual pp34–35][TLSE-M] |
+| I/O | INPUT;INSERT SEND/RETURN;two balanced/unbalanced TRS OUTPUTs;PHONES;MIDI IN/OUT;AC input. No USB or S/PDIF in complete inventory. | [Manual p63][TLSE-M] |
+| Power / battery / USB | **9V AC;18W consumption**. Included3.0A supply rating is not measured draw. DC polarity inapplicable;battery unverified;noUSB. | [Manual p63][TLSE-M] |
+| IR / NAM / capture | User IR,native/converted NAM,capture loading unverified. | Unresolved |
+| Editor / software | **ToneLabSE Sound Editor** edits/manages programs;platforms/current support unverified. Computer connection needs bidirectional MIDI and matching channels; some USB-MIDI interfaces cannot transfer its SysEx. No ST software inference. | [Manual pp2,56–57][TLSE-M] |
+| Looper / Hold Delay | **Mono1–8000ms Hold Delay**. Assign HOLD DLY to CONTROL to freeze delay sound when switched on. Saved-loop storage and independent overdubbing are not established by this feature. | [Manual p45][TLSE-M] |
+| Looper / drums / live | A/B switches stored amp,cabinet,noise-reduction combinations within a program. Looper,drums,scenes,trails unverified. | [Manual p1][TLSE-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown; exact offer lacks condition evidence. | — |
+| New | Unknown; exact offer lacks condition evidence. | — |
+| Conditional historical observation | **Rp3,850,000; Habis/sold out**, BANKO MUSIC STORE, Kab. Bandung, shop1452686572/item41751511183. Checked2026-10-17; month-old opened HTML, stale26Aug delivery. Condition, working state, variant, adapter/bundle and warranty unverified; shipping/tax/checkout unknown. Late-arrival compensation is not discount. Historical ask, not live stock, completed sale or confirmed new/used range. | [Exact SE item][TLSE-S] |
+
+
+### ToneLab SE — converters and dual-pedal control
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / converters | **20-bit A/D and D/A;44.1 kHz**. These are SE specifications; no LE/ST/EX converter values substituted. | [Japanese p63][TLSE-M] |
+| Expression / independent initialization | EXP1INIT/EXP2INIT are separate, global and automatically remembered. OFF applies current pedal position on program change; ON recalls the saved sound. Per-program target/MIN/MAX settings require saving; changing target resets its range. | [Japanese pp51–53][TLSE-M] |
+| Expression / Quick Assign | Hold EXPRESSION1s to assign the displayed eligible parameter to pedal1; hold CONTROL1s for pedal2. Changing the effect clears its target except amp targets and delay/reverb input levels. An off target effect cannot be controlled. | [Japanese pp50–52][TLSE-M] |
+| Expression / calibration | Use a **hand**. Power on with EXPRESSION+CHAIN for pedal1, CONTROL+CHAIN for pedal2. Move fully back, release, GLOBAL; move fully forward, release, GLOBAL. EXIT cancels; ERROR restarts at MIN. No hardware operation performed. | [Japanese p55][TLSE-M] |
+
+### ToneLab SE — channel recall and performance limits
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Memory / channel hold | Global CH HOLD: OFF recalls the destination program’s saved A/B channel; ON retains the current channel across program changes. Factory default OFF. | [Japanese p16][TLSE-M] |
+| Live / effects mode and key lock | Effects mode assigns switches1–4 to PEDAL/MOD/DELAY/REVERB and BANK DOWN to INSERT; BANK UP is inactive. With no external insert connected, INPUT remains active regardless of INSERT LED. Holding EXIT1s toggles key lock; pedals and EXIT remain operable. Power cycling clears the lock. | [Japanese pp15–17][TLSE-M] |
+| Processing / chain orders | Six serial MOD/DELAY/REVERB permutations, saved per program: MD-DL-RV, MD-RV-DL, DL-MD-RV, DL-RV-MD, RV-MD-DL, RV-DL-MD. | [Japanese p20][TLSE-M] |
+| Live / tap factors | MOD TAP/DLY TAP factors:1/6,1/4,1/3,1/2,2/3,3/4,1,4/3,3/2,2,3,4. Tap interval maximum10s, not a delay-time limit. Other CONTROL targets ignore FACTOR; changing target resets it to1. | [Japanese p54][TLSE-M] |
+<!-- comparison evidence ends -->
+
+### Condition-unverified sold-out Shopee hardware
+
+[Exact SE item][TLSE-S],**Rp3,850,000**,**Habis/sold out**,BANKO MUSIC STORE,shop1452686572/item41751511183,Kab.Bandung. Checked2026-10-17; exact HTML opened,last-month cache,26Aug delivery stale. Condition,working state,variant,adapter/bundle,warranty unverified. Rp10,000 late-arrival compensation not discount;shipping/tax/checkout unknown. Excluded from used/new prices;not live stock or completed sale.
+
+Manufacturer-hosted Japanese J1 manual viewed as browser text;printed pagination differs from PDF index. No manual/software/dependencies saved or installed. Controls,display,algorithm detail,modern software support and import/power/live restrictions remain unresolved.
+
+[TLSE-M]: https://voxamps.com/wp-content/uploads/2022/03/ToneLabSE_OM_J1.pdf
+[TLSE-S]: https://shopee.co.id/Multi-FX-VOX-Tonelab-SE-Twin-Pedal-Multi-Effect-i.1452686572.41751511183
+
+## ToneLab ST
+
+Guitar multi-effects; separate from LE/SE/EX. Checked2026-10-17; partial. Bass suitability/ownership unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in with firm-forward switching; volume cannot be toggled off. External EXP absent from complete ports. | [Manual pp6–7][TLST-M] |
+| K/F/B | **12 / 2 / 9**, text-derived:AMP selector+five amp controls;PEDAL selector/edit;MOD/DELAY selector/edit;REVERB;rear LEVEL. UP/DOWN footswitches;AMP,CAB,PEDAL,MOD/DELAY,TAP,REVERB,WRITE,EXIT/TUNE,EXP PARAM buttons. Toe,STANDBY and AMP/LINE switch additional. Visual check pending. | [Manual pp2–7][TLST-M] |
+| Display | Program/value LED display; diagonal,color,touch unverified. | [Manual p5][TLST-M] |
+| Dimensions / mass | **270×180×70mm WDH;1.6kg**. Product metric row wrongly labels first dimension H; its inch row identifies W. | [Product][TLST-P] |
+| Processing / category choices | **33 amps;11 cabinets;11 pedal;11 MOD/DELAY;3 reverbs;1 noise reduction**. Manufacturer claims up to eight simultaneous types; detailed block accounting pending. | [Product][TLST-P]; [Manual p1][TLST-M] |
+| Category choices / combinations | **25 effects=11 PEDAL+11 MOD/DELAY+3 reverb**, with noise reduction separately listed. ACOUSTIC and drive/compressor choices share PEDAL. MOD/DELAY has8 modulation/pitch/filter choices plus Echo Plus,Delay,Chorus+Delay; not separate freely combinable modulation and delay slots. Chorus+Delay fixes chorus depth. | [Manual pp18–22][TLST-M] |
+| Routing / pitch and delay | Pitch Shifter supports chords,±12 semitones and detune. Delay types40–1480ms;TAP+EDIT adjusts feedback. Assigning FILTRON to expression changes it from envelope sensitivity to direct cutoff control. | [Manual pp21–22][TLST-M] |
+| Factory / user memory | **100=50 user0–49+50 preset50–99**. Initial user fill unverified. | [Manual p9][TLST-M] |
+| Synth / acoustic | **Acoustic simulation yes:ACOUSTIC** in PEDAL; recommended low-output single-coil neck pickup. Dedicated synth engine remains unverified. | [Manual p19][TLST-M] |
+| I/O | INPUT;stereo-mini AUX;shared stereo/mono OUTPUT/PHONES;USB-B;DC. No DIN MIDI or FX loop in complete inventory. Mono output cable takes left channel only. | [Manual pp7–9][TLST-M] |
+| Power / battery / USB | **12V DC;540mA consumption**. Polarity,battery and USB bus operation unverified. | [Product][TLST-P] |
+| IR / NAM / capture | User IR,native/converted NAM and captures unverified. | Unresolved |
+| Editor / USB audio | **Librarian**, not confirmed full editor. Historical requirements:XP SP3/Vista SP1+,MacOSX10.4+ G4/Intel. Windows MIDI driver for librarian;ASIO driver for audio. USB playback bypasses effects. Current OS support unverified. | [Manual p28][TLST-M] |
+| Looper / drums / live | Looper,drums,scenes,trails unverified. Tube warm-up delays initial sound. | [Manual p9][TLST-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | Unknown; exact item does not establish condition. | — |
+| New | Unknown; exact item does not establish condition. | — |
+| Conditional historical observation | **Rp1,200,000**, herykurniawanipunk, Kab. Lombok Barat, shop94150896/item21882548072. Checked2026-10-17; last-week cache, exact HTML opened, stale9–11Oct delivery. Condition, stock, variant, adapter/bundle, warranty and working state unverified; shipping/tax/checkout total unknown. Late-arrival compensation is not discount. Not a confirmed new/used range or current-stock check. | [Exact ST item][TLST-S] |
+| Additional condition-unverified historical observation | **Rp960,000; Habis**, BANKO MUSIC STORE, Kab. Bandung; shop1452686572/item29530564104. Checked2026-10-18;five-month search cache, direct open failed. Relative “Besok” delivery is stale cache text. Condition, working state, revision, adapter/bundle, warranty, voucher and present stock unknown; not assigned used/new. | [Indexed exact ST item][TLST-S2] |
+
+
+### ToneLab ST — pedal recall and panel lock
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / position persistence | Saving normally stores the current pedal position as the assigned parameter value. Exceptions: volume, delay/reverb input levels, pitch-shifter PITCH and FILTRON cutoff. Assignment/endpoints save per program; amp GAIN assignment survives changing amp model. | [Manual pp24–26][TLST-M] |
+| Live / key lock and bank navigation | Hold EXIT/TUNE about2s to lock top-panel switches/selectors/knobs; repeat to unlock. Holding UP or DOWN while pressing EXIT/TUNE moves the program number by10. | [Manual p5][TLST-M] |
+| Memory / save exclusions | Rear LEVEL and AMP/LINE are not program-stored or covered by Original Value indication. Unsaved edits disappear on program change/power-off; WRITE targets users0–49. | [Manual pp11–12][TLST-M] |
+
+### ToneLab ST — calibration and conversion
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / calibration and switching force | Use a foot, as hand operation may fail. Power on holding EXP PARAM + WRITE, then release. Press forward to switch the assigned effect: this establishes switching weight. Slowly return the pedal, remove foot, then gently advance it and remove foot. WRITE completes; EXIT/TUNE cancels. Failed adjustment repeats from the switching-weight step. Display glyphs are missing from extracted text and remain unverified. | [Manual p27][TLST-M] |
+| Processing / converters | **24-bit A/D and D/A; 44.1 kHz** internal sampling. USB audio bit depth and selectable host rates are not specified here. | [Manual p33][TLST-M] |
+| Memory / factory initialization | Reset returns saved programs to factory contents. Power on holding EXIT/TUNE + EXP PARAM; release when UP/DOWN LEDs blink, then WRITE confirms. EXIT/TUNE cancels before confirmation; do not interrupt initialization. This differs from pedal calibration. | [Manual p29][TLST-M] |
+
+### ToneLab ST — selector activation and saved-value indication
+
+Checked 2026-10-18 against its own manufacturer manual; no hardware operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| Controls / automatic activation | Turning AMP, PEDAL or MOD/DELAY selectors enables the corresponding disabled block. In OPTION mode, turning GAIN to select a cabinet enables a disabled cabinet. Turning REVERB enables reverb. These are documented edit behaviors, not extra simultaneous blocks. [Manual pp3–4][TLST-M] |
+| Display / original value | The lower-right decimal-point segment briefly goes dark when an edited value matches its stored value. This indication does not establish motorized controls or mandatory value pickup. [Manual p5][TLST-M] |
+| USB / recording path | DAW recording receives the effects output; USB playback can be monitored but is not processed by the effects. USB presence therefore does not establish a USB reamp-input path. Host format/channel-count details remain unverified. [Manual p28][TLST-M] |
+
+
+### ToneLab ST — named effect-category audit
+
+Checked 2026-10-18 against the manufacturer manual, printed pp18–22. **25 selections = 11 + 11 + 3**, with noise reduction separately listed. This is a library audit, not 25 concurrent effects.
+
+| Field | Exact-model named choices |
+|---|---|
+| Processing / PEDAL 11 | COMP; ACOUSTIC; VOX WAH; U-VIBE; OCTAVE; TREBLE BOOST; TUBE OD; BOUTIQUE; ORANGE DIST; METAL DIST; FUZZ. [Manual][TLST-M] |
+| Processing / MOD-DELAY 11 | CLASSIC CHORUS; MULTI TAP CHORUS; CLASSIC FLANGER; PHASER; TEXTREM; ROTARY; PITCH SHIFTER; FILTRON; ECHO PLUS; DELAY; CHORUS+DELAY. One shared category; CHORUS+DELAY is one combined choice. [Manual][TLST-M] |
+| Processing / REVERB 3 | SPRING; ROOM; HALL. [Manual][TLST-M] |
+
+
+### ToneLab ST — amp banks and cabinet audit
+
+Checked 2026-10-18 against the original manual, printed pp8,13–18. Counts describe selectable library entries, not concurrent amp/cab instances.
+
+| Field | Exact-model evidence |
+|---|---|
+| Processing / amp bank census | **33 = 11 positions × 3 banks (STD/SPL/CST)**. Positions: CLEAN; CALI CLEAN; US BLUES; US 2x12; VOX AC15; VOX AC30; UK ROCK; UK METAL; US HIGH GAIN; US METAL; BOUTIQUE METAL. [Manual][TLST-M] |
+| Processing / cabinet 11 | TWEED 1x8; TWEED 1x12; TWEED 4x10; BLACK 2x10; BLACK 2x12; VOX AC15; VOX AC30; VOX AD120VTX; UK H30 4x12; UK T75 4x12; US V30 4x12. Amp/cab combinations are freely selectable. [Manual][TLST-M] |
+| Processing / CLEAN-CST exception | CLEAN/CST provides a four-band tone-control model with GAIN disabled. BASS/MIDDLE/TREBLE centered and PRESENCE minimum reproduce amp-off behavior; the manual recommends cabinet off for a line-like clean sound. Do not describe all 33 entries as gain-bearing amp emulations. [Manual p13][TLST-M] |
+| Routing / output compensation | VOX/F/M output compensation applies only with the amp model enabled. LINE is specified for power-amp input, mixer/recorder/audio system and headphones. [Manual p8][TLST-M] |
+
+
+### ToneLab ST — dated software compatibility and librarian files
+
+Checked 2026-10-18. The following are manufacturer support records with explicit historical dates, not current-OS testing.
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / Windows compatibility | Chart dated **2019-01-24** lists USB-MIDI and Sound Librarian as supported on Windows 7 SP1, 8.1 and 10 version1809, both32/64-bit. USB-audio rows carry a64-bit footnote: standard USB-audio driver operation, with64-bit applications unsupported. This must not be flattened into universal64-bit ASIO support. Modern UI/UWP are excluded. This is the older baseline; the 2023 chart below supersedes support status for its listed newer Windows releases. [Official chart](https://voxamps.com/wp-content/uploads/2019/03/win_compatibilitychart_VOX_en.pdf) |
+| Editor / Mac compatibility | Chart dated **2019-11-29** lists ST USB-audio, USB-MIDI and Sound Librarian on macOS10.12 Sierra,10.13 High Sierra and10.14 Mojave; **support ended** is printed for10.15 Catalina across all three. Librarian is marked unsigned. This is a support status, not proof that operation is physically impossible; newer macOS/Apple Silicon compatibility remains unverified. [Official chart](https://voxamps.com/wp-content/uploads/2019/11/Mac_CompatibilityChart-VOX_jp-2.pdf) |
+| Editor / librarian function and files | Japanese exact-model page documents Sound Librarian **v1.1.0**, program rearrangement, device transfers and file save/load. It includes **TLST_PresetProgram.tlst** plus **50 extra programs in TLST_ExtraProgram.tlst**. These are computer library files, not50 additional onboard slots or a confirmed factory user-slot map. Mac requirements there specify10.4.11+/10.5.6+PPC/Intel; retain the older manual baseline and later chart separately. A full parameter editor is not established. [Official model page](https://voxamps.com/ja/product/tonelab-st/) |
+
+
+### ToneLab ST — later Windows support status
+
+Checked 2026-10-18 against [VOX chart dated 2023-02-20](https://voxamps.com/wp-content/uploads/2023/02/Win_CompatibilityChart-VOX_en_20230220.pdf), exact ST rows. Retain the 2019 chart as historical evidence.
+
+| Field | Later dated evidence / qualification |
+|---|---|
+| Editor / Windows support ended | **End Of Support** for ST USB audio, USB MIDI, ST ASIO driver and Sound Librarian on **Windows10 21H2/22H2 (32/64-bit)** and **Windows11 21H2/22H2 (64-bit)**. A generic VOX driver Yes elsewhere in the chart does not override these model-specific rows. This is declared support status, not a hardware failure test; subsequent Windows builds remain unverified. |
+| Editor / Windows8.1 distinctions | USB audio, USB MIDI and Librarian retain Yes for32/64-bit Windows8.1, with qualifications. **ST ASIO driver: Yes32-bit, No64-bit**. USB audio uses the standard driver and excludes64-bit applications; MIDI/Librarian require VOX USB-MIDI driver. These separate rows must not be treated as universal64-bit audio compatibility. |
+
+
+### ToneLab ST — tuner and expression endpoint limits
+
+| Field | Exact-model qualification |
+|---|---|
+| Live / tuner calibration | Detection **A0–E6 (27.5–1318.5Hz)**; reference **438–445Hz**, reset to **440Hz at power-on**. Press UP+DOWN for effect-bypassed tuning; hold both about2s for mute. Either pedal or EXIT/TUNE exits. This is not proof of analog true bypass or trails. [Manual pp23,33][TLST-M] |
+| Expression / fixed reverb endpoints | Reverb-input pedal minimum/maximum values are assigned automatically and **cannot be changed**. PITCH SHIFTER initially assigns minimum0 (no shift), maximum=current pitch value; its endpoints can be edited. Do not generalize adjustable ranges to every target. [Manual p25][TLST-M] |
+| Expression / assignment persistence | Changing effect normally clears the pedal assignment. Exceptions include ampGAIN, reverb-input level across reverb types, and delay-input level when switching among ECHO PLUS/DELAY/CHORUS+DELAY. This does not preserve an arbitrary previous parameter mapping. [Manual p25][TLST-M] |
+
+Checked2026-10-18 from original manufacturer manual text;no downloads or device operation.
+
+<!-- comparison evidence ends -->
+
+### Condition-unverified Shopee hardware
+
+[Exact ST item][TLST-S],**Rp1,200,000**,herykurniawanipunk,shop94150896/item21882548072,Kab.Lombok Barat. Checked2026-10-17; exact HTML opened with last-week cache and9–11Oct delivery. Condition,stock,variant,adapter/bundle,warranty and working state unverified. Late-arrival Rp10,000 compensation is not a discount; shipping/tax/checkout unknown. Excluded from condition-specific price columns. No dependencies,software or manual files saved/installed; manual viewed as browser text.
+
+[TLST-M]: https://voxamps.com/wp-content/uploads/support/TonelabST_OwnersManual.pdf
+[TLST-P]: https://voxamps.com/en-gb/product/tonelab-st/
+[TLST-S]: https://shopee.co.id/vox-tonelab-st-i.94150896.21882548072
+
+Additional unresolved identity lead checked2026-10-18: Ayx Music, Kab. Lamongan, shop58780289/item17149906599, **Rp1,750,000; Habis**, two-month search cache. Title says ST, but URL says EX; direct open failed. Do not assign to either exact model without corroboration. Condition, working state, bundle/adapter, warranty, voucher and present stock unknown. [Conflicting-title/URL lead][TLST-S3].
+
+[TLST-S2]: https://shopee.co.id/VOX-ToneLab-ST-Digital-multi-efek-gitar-Original-i.1452686572.29530564104
+[TLST-S3]: https://shopee.co.id/efek-vox-tonelab-EX-masi-bgus-i.58780289.17149906599

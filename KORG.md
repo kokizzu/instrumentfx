@@ -1,202 +1,229 @@
 # Korg multi-effects
 
-## PANDORA stomp
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
 
-Shared guitar/bass multi-effects;not PANDORA mini/PX5D. Checked2026-10-17;partial. Ivory is a colour variant,not a separate processor. Ownership unestablished.
+- [AX3B](#ax3b)
+- [AX3G](#ax3g)
+- [AX5B](#ax5b)
+- [AX5G](#ax5g)
+- [AX10B](#ax10b)
+- [AX10G](#ax10g)
+- [AX30G](#ax30g)
+- [AX100G](#ax100g)
+- [AX1000G](#ax1000g)
+- [AX1500G](#ax1500g)
+- [AX3000B](#ax3000b)
+- [AX3000G](#ax3000g)
+- [PANDORA stomp](#pandora-stomp)
+<!-- brand-index ends -->
 
-<!-- comparison evidence begins -->
+## AX3B
 
-| Field | Finding / qualification | Evidence |
-|---|---|---|
-| Expression / K/F/B | **K/F/B: 2 / 1 / 7** from the complete named-control enumeration: VOLUME/Value dials, one footswitch, three mode buttons and A–D. Power switch additional. Built-in/external/toe expression unverified. | [Manual pp9–10][PS-MJ] |
-| Display | Backlit LCD plus independent tuner LED meter/note indicator. Published diagonal,color depth andtouch unverified. | [Features][PS-F] |
-| Dimensions / mass | 70W×123D×48H mm including protrusions;511g including battery. Small footprint. | [Specifications][PS-S] |
-| Simultaneous effects | Maximum7;158 types. Fixed-category versusfreely assignable/routing limits require manual verification. | [Specifications][PS-S] |
-| Categories / choices | Dynamics/pickup27,amp26,cab23,mod/filter46,delay25,reverb10;noise reduction separately listed. Do not confuse158 choices with simultaneous capacity. | [Effect list][PS-E] |
-| Factory / user memory | 200 preset plus200 user programs;400 total by addition. User000–199 rewritable; preset200–399. A–D are four favourite assignments, not extra memories. Preset slots cannot be overwritten; edits require WRITE before changing programs/powering off. Factory reload overwrites user programs/settings. Initial user-bank fill unverified. | [Specifications][PS-S]; [Manual pp13,19,23,26–27][PS-MJ] |
-| Synth / acoustic | AC SIM in dynamics/pickup;SYNTH in amp category. Manufacturer describes guitar synth/acoustic simulator. Bass-specific amps/cabs/effects explicitly marked;not inferred from EQ. Synth and intelligent pitch harmony require single notes, not chords. | [Effects][PS-E]; [Features][PS-F]; [Manual pp31,34][PS-MJ] |
-| I/O | Guitar/bass quarter-inch INPUT,stereo mini AUX;quarter-inch line OUTPUT,stereo mini PHONES. USB power/editor documented;connector subtype,output stereo/control sockets pending. Mono OUTPUT cable carries left only; AUX level is adjusted at its source. | [Specifications][PS-S]; [Support][PS-D]; [Manual p12][PS-MJ] |
-| Power / battery / USB | One 9V 6LR61 alkaline or F6F22 carbon-zinc battery; approximately5h alkaline. USB bus power or optional **9V DC** adapter; current/polarity and draw unverified. Some computers need another power source or powered hub. Adapter-only Power Save starts after ≥4h inactivity; can be disabled. | [Specifications][PS-S]; [Manual pp8–12][PS-MJ] |
-| USB audio / MIDI | Korg USB-MIDI driver accompanies USB patch editing/library management. General MIDI control/message scope and USB audio remain unverified. | [Support][PS-D]; [Manual p27][PS-MJ] |
-| IR / NAM / capture | User IR,native/converted NAM andcapture import unestablished;REMS factory modeling is not import proof. | Unresolved |
-| Editor / platforms | Sound Editor1.1 Windows/Mac listed2015-06-01; description specifies shared mini/Stomp **1.1.0**. Windows USB-MIDI driver1.15r63e listed2026-01-20 separately. Current editor OS/mobile compatibility pending; software not downloaded. | [Support][PS-D]; [Windows editor][PS-EW]; [Mac editor][PS-EM] |
-| Looper / drums / live | 100 rhythm patterns,40–240BPM. Tuner27.5–2093Hz,A438–445Hz. Footswitch modes: ALt effects/bypass, A–d favourites cycle, 0–9 final program-digit cycle. Hold in either selection mode invokes bypass/tuner. Cabinet Through forces cabinet off. AUX pitch spans ±1 octave with mono output. Eco backlight lasts ~5s. Looper/scenes/trails unverified. | [Specifications][PS-S]; [Manual pp24–26][PS-MJ] |
-
-### Separate IDR hardware offers
-
-| Condition / seller | IDR evidence and qualifications | Exact item |
-|---|---|---|
-| Used | Unknown;no condition-verified used ask. | — |
-| New | Unknown;no condition-verified new ask. | — |
-| Conditional historical observation / Daily Music Store | **Rp1,730,000; Habis**, Kota Jakarta Timur, shop271847827/item6741582344. Exact PXST IV ivory title; checked2026-10-17, month-old index and JS-limited direct body. Condition, working state, adapter/bundle, physical variant, warranty, shipping/tax/voucher and final total unknown. Same-day delivery text is stale; late compensation is not discount. Not a verified new/used range or live-stock offer. | [Exact item](https://shopee.co.id/KORG-PXST-IV-PANDORA-STOMP-IVORY-i.271847827.6741582344) |
-
-### PANDORA stomp — synth oscillator variations
-
-Checked 2026-10-18 against [original EFGSJ2 manual, printed p31][PS-MJ]. Extracted text reverses word order; English and German sections corroborate the oscillator mapping. No downloads or hardware testing.
-
-| Field | Evidence / qualification |
-|---|---|
-| Synth / oscillator settings | **OSC TYPE 0–7 selects eight sawtooth/sine pitch variants; 8–15 repeats those with portamento enabled**. These are 16 settings within one SYNTH type, not 16 simultaneous oscillators or extra amp-category models. Single-note playing and correct instrument tuning remain required. |
-| Synth / threshold and filter controls | THRESHOLD adjusts trigger sensitivity to guitar/bass level, **1.0–10.0**; SYN LVL adjusts synth volume, **0.0–10.0**. VCF values **0.0–4.7 use positive sensitivity, 5.0–10.0 negative sensitivity**; manual recommends 5.0 for sine-wave oscillator. Preserve these displayed values without inventing Hz, dB or envelope times. |
-
-<!-- comparison evidence ends -->
-
-### Condition-unverified hardware observations
-
-Checked2026-10-17. Neither establishes a confirmed used/new price. The Daily Music observation is also shown as conditional historical evidence above. The pedal_kabul display-model mapping remains unresolved and stays outside active price comparisons.
-
-| Seller / item | IDR and access qualifications | Source |
-|---|---|---|
-| Daily Music Store,Kota Jakarta Timur;271847827/6741582344 | Rp1,730,000;**Habis**. Exact PXST IV ivory title;last-month index andJS-limited direct body. Relative same-day delivery stale. Condition,working state,adapter/bundle,variant verification,warranty,shipping/tax/voucher anddelivered total unknown. Late-delivery10k compensation notdiscount. | [Item](https://shopee.co.id/KORG-PXST-IV-PANDORA-STOMP-IVORY-i.271847827.6741582344) |
-| pedal_kabul,Kota Depok;80791628/24396793131 | Rp1,200,000;three-month indexed exactPandoraStomp title. Direct retrieval cache miss;display_model_id276421719659 unresolved. Condition,stock,colour,bundle,warranty,shipping/tax/voucher,total unknown;relative next-day delivery notstock proof. | [Item](https://shopee.co.id/jual-pedal-efek-Korg-Pandora-Stomp-i.80791628.24396793131) |
-
-Remaining: expression,published display details,full connector inventory,adapter electrical data,USB protocol/editor compatibility,imports andlive limits,qualified offers. Manual EFGSJ2 English text was checked alongside the earlier EFGS2 source. Counts derive from named controls, not a photograph estimate; reversed extraction word order was interpreted cautiously.
-
-[PS-S]: https://www.korg.com/ir/products/effects/pandora_stomp/page_3.php
-[PS-F]: https://www.korg.com/au/products/effects/pandora_stomp/page_1.php
-[PS-E]: https://www.korg.com/us/products/effects/pandora_stomp/page_2.php
-[PS-D]: https://www.korg.com/us/support/download/product/0/246/
-[PS-M]: https://cdn.korg.com/us/support/download/files/db0e40ab6d793d1df3c83dd801e5657c.pdf
-
-[PS-MJ]: https://cdn.korg.com/jp/support/download/files/26827ed905ce18aa7be2edd632ecdda7.pdf
-
-[PS-EW]: https://www.korg.com/us/support/download/software/0/246/1464/
-[PS-EM]: https://www.korg.com/us/support/download/software/0/246/1465/
-
-## AX3000G
-
-Guitar multi-effects, distinct from AX3000B. Checked 2026-10-17; partial. Bass suitability and ownership unestablished.
+Bass multi-effects;partial,checked2026-10-18. Distinct fromAX3G/AX5B. [Own manual,AX3B_EFG1](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B),pp7–11.
 
 <!-- comparison evidence begins -->
 
-| Field | Finding / qualification | Evidence |
-|---|---|---|
-| Expression | Built-in assignable expression, with eight-point LED indicator. Under-pedal forward switch toggles expression/ESS-controlled effect; disabled for volume assignment. External expression unverified. | [EasyStart][AX-E]; [Manual p9][AX-M] |
-| K/F/B | **11 / 7 / 20**, derived from manual enumeration: five model selectors + five value knobs + rear LEVEL; four program + two bank + CONTROL footswitches; five category + five other edit + TAP/ESS + four settings + four cursor/value buttons. Under-pedal switch additional. | [Manual pp3–11][AX-M] |
-| Display | Backlit LCD; diagonal, colour depth and touch unverified. | [EasyStart][AX-E] |
-| Dimensions / mass | 500×241×72mm W×D×H pedal lowered; 100mm raised; 3.6kg. | [Manual p56][AX-M] |
-| Simultaneous effects | Seven including noise reduction; external insert additionally usable. 72 modeled variations. | [Manual p1][AX-M] |
-| Categories / choices | Detailed pp23–26 enumerate **16 drive/amp choices (8 drives + 8 amps), 11 cabinets**, matching p23 and EasyStart. Pre/modulation/delay/reverb11 each; NR1. These yield72 choices by addition. Contradictory p56 summary says amp11/cabinet16; retained as a source discrepancy, not used to override enumerated models. | [Manual][AX-M]; [EasyStart][AX-E] |
-| Factory / user memory | 96 rewritable slots (24×4). Factory banks1–8 hold32 sounds, repeated in9–16 and17–24; not128 slots. | [Manual p15][AX-M] |
-| Synth / acoustic | Pickup, acoustic body/top and synth modeling documented. Acoustic has four body types; synth offers square/saw/sine at −2 to +2 octaves. Octave effect is single-note only. | [EasyStart][AX-E]; [Manual pp27–29][AX-M] |
-| I/O | Mono INPUT/INSERT RETURN; stereo-mini AUX/PHONES; two mono OUTPUTs, INSERT SEND; optical S/PDIF16-bit/44.1kHz; MIDI IN/OUT; DC9V. Panel p10 specifies balanced/unbalanced TRS main outputs; p56 calls them monaural phone jacks. L/MONO handles mono; headphones silence main outputs. Rear LEVEL controls main/headphones. No USB or external EXP jack in complete rear enumeration; MIDI control remains available. | [Manual pp10–13,56][AX-M] |
-| Analog conversion | A/D and D/A20-bit,44.1kHz. | [Manual p56][AX-M] |
-| Power / battery / USB | 9V DC, supplied adapter. Korg Japan lists **KA181** for AX3000G/B(BK); this regional compatibility listing does not specify current/polarity. Battery and USB power unverified; no inference from ambiguous polarity glyph extraction. | [Manual p56][AX-M]; [Adapter compatibility][AX-P] |
-| IR / NAM / capture | User IR, native/converted NAM and capture loading unverified; REMS is not import evidence. | Unresolved |
-| Editor / platforms | MIDI-connected editor/librarian supports Windows/Mac. Support lists Windows1.01 and Mac1.1, dated2015-06-01; current OS support unverified. Individual release pages identify EXE/ZIP respectively but publish no OS requirements in their accessible HTML; neither package downloaded. | [EasyStart][AX-E]; [Support][AX-D]; [Windows release][AX-W]; [Mac release][AX-A] |
-| MIDI / editor connection | Computer editing needs a MIDI interface and bidirectional IN/OUT cabling; some interfaces mishandle SysEx. Matching channels required. CCHG I/O gates all CC traffic; individual assignments allow CC00–95 or Off. SYEX OUT controls parameter transmission, not reception or data dumps. Current/all-program SysEx backup supported. | [Manual pp48–51][AX-M] |
-| ESS / live control | Up to eight parameter steps; pedal controls sequence speed or step selection in PEdL mode. One-shot completion restores the effect value. ESS TAP1/TAP2/TRIG do nothing in PEdL; maximum tap interval10s. These are parameter sequences, not evidence of audio looping. | [Manual pp43–47][AX-M] |
-| Tuner / bypass | Reference **438–445Hz**,resets440Hz at power-up. In Program Select mode,holding the current program switch≈0.5s bypasses allFX including NR;≈1.5s mutes. Both activate tuner. Exiting with another program switch also recalls that program. Relay/analog true bypass is not established by this procedure. | [Manual pp21–22][AX-M] |
-| Preset / save behavior | WRITE replaces destination contents;program change or power-off discards unsaved edits. Original Value indicator lights when an edited parameter matches its saved value;not an automatic undo. Factory program level5.0;lower PROG LVL if effects cause clipping. | [Manual pp18–20][AX-M] |
-| Looper / drums / live | ESS automates parameter steps; Individual mode switches effects. Drive/amp selection resets cabinet to an appropriate model. Delay trails require matching type/time; reverb matching type. Looper, drums and scenes unverified. | [Manual pp1–4][AX-M]; [EasyStart][AX-E] |
-
-### Separate IDR hardware offers
-
-| Condition | IDR evidence / qualifications | Source |
-|---|---|---|
-| Used | **Rp2,200,000**, explicitly BEKAS; **Habis**. guitardistro, Kota Bandung; shop212343682/item20691675327. Checked2026-10-17, JS-limited body with two-week cached crawl. Working condition, adapter/bundle, warranty, shipping/tax/voucher and delivered total unverified. Stale29Sep delivery is not stock proof;10k late-delivery compensation is not a discount. | [Exact item](https://shopee.co.id/EFFECT-KORG-AX3000G-BEKAS-i.212343682.20691675327) |
-| Used-title historical ask; sold out | **Rp1.500.000**, title explicitly SECOND; **Habis**. Alif_music_store,Kab.Gresik;shop132269522/item28705630633. Checked2026-10-17,direct JS-limited cached body,last-month crawl;search snapshot five months old. Stale30Aug–1Sep delivery;no live availability orcompleted sale. Page taxonomy incorrectly shows food/noodles;hardware identity rests on title,not category. Working state,authenticity,adapter/bundle,selected variant,warranty,shipping/tax/voucher anddelivered total unknown. Up-toRp10.000 late-arrival compensation isnot price discount. | [Exact item](https://shopee.co.id/KORG-AX-3000-G-TONEWORKS-SECOND-i.132269522.28705630633) |
-| New | Unknown; no qualified retail/new offer established. | — |
-
-### AX3000G — pedal calibration and additional hardware asks
-
-Checked 2026-10-18.
-
-| Field | Evidence / qualification |
+| Field | Finding / qualification |
 |---|---|
-| Expression / calibration | [Own manual p44][AX-M] requires operating the pedal **by hand**. Power on holding **EXP/CTL + ▲**: display **EXP MAX**. Slowly move pedal back, release it, press WRITE: **EXP MIN**. Slowly move forward, release, press WRITE: COMPLETE. EXIT cancels; ERROR returns to EXP MAX for retry from the backward step. Display labels/order are retained exactly; this does not document toe-switch threshold adjustment. |
-
-| Condition / seller | Amount | Exact offer / access limits |
-|---|---:|---|
-| Condition unverified / BILLY MUSIK | **Rp2.200.000** | [323538241/43013568151](https://shopee.co.id/Efek-Gitar-Korg-Toneworks-AX3000G-i.323538241.43013568151), Kota Jakarta Timur. Two-month search versus last-month direct JavaScript-limited cache; relative tomorrow delivery. No Habis in extract is not stock proof. |
-| Condition unverified / VeGitarian Music | **Rp1.750.000; Habis** | [6880038/3740596745](https://shopee.co.id/efek-gitar-digital-korg-ax3000g-mulus-normal-adaptor-original-i.6880038.3740596745), Kab. Merangin. Three-month search cache, stale13July delivery; direct cache miss. Title claims clean/normal/original adapter; not an independently verified condition or package. |
-
-Both are exact AX3000G hardware asks. New/used status, working state, selected variation, adapter contents, warranty/import region, authenticity, shipping/tax and checkout total remain unverified. BILLY’s up-toRp10.000 late-arrival compensation is not a price discount. Historical asks, not current available ranges or completed sales.
-
-### AX3000G — output compensation and pedal recall
-
-Checked 2026-10-18 against [own manual pp6,9,12–13,27–28][AX-M].
-
-| Field | Evidence / qualification |
-|---|---|
-| I/O / digital output level | GLOBAL **DOUT LVL** separately adjusts optical S/PDIF level: **−12, −6, 0, +6, +12 dB**. Rear LEVEL controls analog outputs/headphones; do not treat it as the documented digital-level control. |
-| Routing / destination compensation | **AP1/AP2/AP3** compensate amp-model output for different guitar amplifiers; **Ln** is specified for recording, S/PDIF or a power-amp input. The eight drive models are unaffected; compensation also does not apply with Drive/Amp off. This is not evidence of a physical output-level switch. |
-| Expression / program-change behavior | Actual pedal position applies immediately for **VOLUME, DELAY INPUT, REVERB INPUT**, or the same target as the previous program. Otherwise the saved program value applies until the pedal moves. |
-| Routing / selected pre-effect order | VOX WAH, AUTO WAH and U-VIBE/PHASE expose **PRE/POST** placement relative to Drive/Amp. This is a specific placement option, not unrestricted chain reordering. |
+| Expression | No built-in/toe pedal incontrolinventory;external EXP-2/XVP-10. PEDAL controls wah whenPRE FX WAH selected,otherwise volume. [Own manual pp4–5](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
+| K/F/B | **2/2/2**,text-derived:function selector,value knob;programup/down footswitches;WRITE/CANCEL buttons. Visualcorroboration pending. [Own manual pp4–5](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
+| Display | Program/value display;diagonal/color/touch unverified. |
+| Processing / categories | Manual:PRE10,drive/amp16,cabinet10,MOD10,delay5,reverb5,NR1. Delay/reverb shareonecategory;cabinet depends onactive drive/amp. **Six simultaneous effects includingNR;57 modeling variations**. Volume-pedal stage requires externalpedal. [Own manual pp4,7](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
+| Memory | **40user+40preset=80**;user01–40 rewritable,preset41–80;initial userfill unverified. |
+| Synth / acoustic | **Synth-bass effect confirmed** by exact-model manufacturer page,which explicitly lists SYNTH among PRE FX. Oscillator design,polyphony and acoustic simulation remain unverified. Fretless andSlow-Attack are separate effects,not proof of acoustic instrument modeling. [Korg AX3B features](https://www.korg.com/de/products/effects/ac3b/page_1.php),checked2026-10-18. |
+| Dimensions / mass | **178W×142D×43H mm;340g**,battery qualification unstated. |
+| I/O | Complete rear inventory:monoINPUT,shared stereoOUTPUT/headphones,PEDAL,DC9V. **No USB/MIDI connector listed**. [Own manual pp5–6](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
+| Power | DC9V adapter or4AA alkaline approximately8h;current/USBoperation unverified. ExactAX3B-compatible **KA-189 is9V center-negative**,per[official distributor](https://www.korg-shop.de/en/korg-power-supply-ka-189/KRKA189). Listing specifies100–240VAC50/60Hz input butconflicts **1.0A versus600mA** outputrating;neitherisAX3Bdraw. This isaccessorycompatibility evidence,not socket-label inspection ororiginalbundle proof. Distributor MUSIK MEYER isconfirmed in[Korg directory](https://www.korg.com/hken/corporate/distributors/);checked2026-10-18. |
+| IR / NAM / capture | Unverified. |
+| Editor / platforms | Exactmodel software unverified. |
+| Practical features | Manualtuner **C0–C6,A438–445Hz**. |
+| Processing / source conflict | [German manufacturer specifications](https://www.korg.com/de/products/effects/ac3b/page_2.php) say **PEDAL11** andtuner **A0–E6**,versusmanualPRE10/C0–C6. Preserve differences;no silentmerge. |
+| IDR price | Used/new unknown;exactShopee query yieldednoqualifiedhardware. Seller/condition/stock/bundle/warranty/voucher unverified. |
+| Practical features / conditional tails | Delay survives programchange onlywithsame delaytype andTIME[P1];reverb survives withsamereverbtype. This isconditional preservation,not universally seamless switching. [Own manual p4](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
+| Power / battery switching | MonoINPUT insertion switches batterypoweron;removal switchesoff. Stereo inputcable willnotpower batteries. Ownmanual doesnotresolve DCpolarity ordevicecurrent;exactmodel distributor-compatible adapter evidence isqualified inthePowerrow. [Own manual pp6,10](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
+| Memory / reload scope | Factory reload erases stored user programs andreplaces themwithfactory programs. This isnot a settings-onlyreset;initial userfill/duplication isstillunverified. No resetperformed. [Own manual p10](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
+| Conversion / format | ADC/DAC each **24-bit**,sampling **31.25kHz**. These areconverter specifications,not USBaudio capability. [Own manual p11](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
+| Practical features / bypass and calibration | Bypass disablesall effects includingNR;holdbothprogramswitches approximately1s mutes. Either switch exits withoutchangingprogram. Tuner reference resets **440Hz** afterpoweroff. [Own manual pp9–10](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
+| Memory / saved-value indication | **Original Value LED** lights when the edited parameter matches its saved value;in Program mode it indicates all parameters match the stored program. It is not simply an unsaved-change lamp. WRITE selects destination,then requires a second WRITE to replace its prior contents;CANCEL aborts. [Own manual p9,indexed](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B),checked2026-10-18. |
+| Memory / factory edit limits | Korg’s [AX3-series EasyStart](https://cdn.korg.com/us/support/download/files/1920f44acd69ffde968ab9fb92940e11.pdf),explicitly covering AX3B,says factory41–80 may be edited but not overwritten;save changes to user01–40. Eight banks of ten organize80 locations,not extra memory. Initial user fill remains unverified. |
+| Categories / PRE FX identities | Ten choices:COMP,LIMITER,XCITER,WAH,VIB/PH,CH/FLN,OCTAVE,FRETLESS,SLOWATK,SYNTH. These are alternatives within PRE FX,not ten simultaneous blocks. [Exact-model manufacturer list](https://www.korg.com/de/products/effects/ac3b/page_1.php). The other specifications page’s PEDAL11 conflict remains unresolved. |
+| Categories / drive-amp identities | Sixteen selector choices:TUBE OD,FAT DIST,OR DIST,SHRED,FUZZ,OCTFUZZ,VALVE,VALVE2,CLASSIC,SCOOPED,LA STUDIO,GOLD PNL,JAZZ,STUDIO,AC100,UK MAJOR. Manufacturer heading calls the combined bank Drive/Amp;do not report16 independent simultaneous amps. [Own list](https://www.korg.com/de/products/effects/ac3b/page_1.php),checked2026-10-18. |
+| Categories / cabinet identities | Ten:CLASSIC8×10,MODERN4×10,LA4×10,METAL4×10,UK4×12,STUDIO1×15,JAZZ1×15,AC2×15,UK4×15,LA1×18. Factory model choices do not establish user IR loading. [Own list](https://www.korg.com/de/products/effects/ac3b/page_1.php). |
+| Categories / delay and reverb identities | Five delays:ECHO+,MLT HD,MOD DLY,ST DLY,PP DLY. Five reverbs:SLAP,SPRING,PLATE,ROOM,HALL. Delay/reverb share the already-documented stage;these are not ten concurrent effects. [Own list](https://www.korg.com/de/products/effects/ac3b/page_1.php). Website MOD list lacks separators;the indexed original manual chart below resolves the ten separate choices. |
+| Categories / modulation identities | Own manual p44 assigns **F0–F9** respectively:CL CHO,MT CHO,CL FLN,BI CHO,DUO PH,TREM,ROTARY,PITCH,RND FILT,FILTRON. Thus DUO PH/TREM andRND FILT/FILTRON are separate alternatives,not combined effects. [Original manual,indexed chart](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B),checked2026-10-18. |
+| Processing / modulation parameter limits | PITCH displays **−12…+12**,FINE **−15…+15**,TRACKING1–10;retrieved chart does not labelfine units,so do not infer cents. FILTRON provides signed sensitivity/polarity andattack,resonance,manual,depth controls. These are parameter ranges,not extra algorithm counts orproof ofpolyphonic tracking. [Own manual p44](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
+| Categories / drive versus amp split | Original p43 identifies **d0–d5 six drive models** and **A0–A9 ten amp models**,together16 choices inone Drive/Amp bank. The website’s16-amplifier wording must not become16 separate amp algorithms plus six drives. [Own manual,indexed](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B),checked2026-10-18. |
+| Memory / reload source conflict | AX3B manual p10 says poweron holding both program switches plus **WRITE**;thenCANCEL aborts orWRITE confirms. Shared [EasyStart p2](https://cdn.korg.com/us/support/download/files/1920f44acd69ffde968ab9fb92940e11.pdf) instead says both switches plus **CANCEL** atentry. Preserve conflicting entry instructions;no hardware reset tested. Both describe factory programs replacing user memory. [Own manual](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
+| Power / low-battery indication | Manual p10 documents blinking **Lo** when batteries runlow. This is a low-battery indicator,not a numeric remaining-charge gauge. Unitcurrent remainsunverified;compatibleadapterpolarity evidence isqualified inthePowerrow. [Own manual](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
 
 <!-- comparison evidence ends -->
 
-Other observations checked2026-10-17: [Hope Music, Kota Bandung,703817770/21944834396](https://shopee.co.id/Efek-Gitar-Korg-AX3000G-i.703817770.21944834396) displays Rp2,200,000 with voucher and three unresolved variations; advertised150k voucher threshold1m, eligibility/base price/variant/condition/stock/bundle unknown. Excluded from used/new exact-price projection. [studio_musik_gema, Kab. Blitar,102019323/25663831731](https://shopee.co.id/efek-gitar-second-korg-ax3000g-ax1500g-pod-floor-plus.-bonus-tas-effect-guitar-ax-3000g-1500g-3000-1500-bekas-normal-bukan-zoom-nux-mg-valeton-line-6-moer-i.102019323.25663831731) is sold out, four variations across multiple models, Rp2m–2.5m with bag claim; exact AX3000G selection unresolved, not a qualified model price.
+## AX3G
 
-Remaining: external expression details, display details, retained specification-summary discrepancy, routing limits, electrical current/polarity, USB/import scope, current software compatibility, looper/live restrictions and fresh qualified offers. No software or dependencies downloaded.
+Guitar multi-effects; separate from AX3B/AX3A. Checked 2026-10-17; partial. Ownership and bass/vocal suitability unverified. Discontinued.
 
-[AX-M]: https://cdn.korg.com/us/support/download/files/d0c02d2ae962c5b851fd8d754c7f842b.pdf
-[AX-E]: https://cdn.korg.com/us/support/download/files/f3b3eaaa9d32a6666c10ecb9daa632e9.pdf
-[AX-D]: https://www.korg.com/us/support/download/product/1/28/
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | External EXP-2/XVP-10; volume/wah. Built-in/toe unverified. | [Manual specifications][AX3G-M];[EasyStart p1][AX3G-E] |
+| K/F/B | **2 rotary /2 footswitches /2 buttons**, text-derived: Function,Value;program up/down;Write,Cancel. | [EasyStart pp2–3][AX3G-E] |
+| Display | Program/value display; diagonal,technology,color,touch unverified. | [EasyStart p2][AX3G-E] |
+| Processing / category choices | **6 simultaneous**: PRE,drive/amp,cab,MOD,shared delay/reverb,NR. Manual:PRE10,drive/amp16,cab10,MOD10,delay5,reverb5,NR1=57 choices. Parameter guide independently enumerates PRE F0–F9:compressor,pickup,acoustic simulator,wah,auto wah,vibe/phase,chorus/flanger,octave,ring modulation,drone. Drive/amp splits8drive+8amp;cab C0–C9,MOD F0–F9,delay/reverb F0–F9. German specifications instead list PEDAL11; retained conflicting claim,not an extra verified algorithm. Internal modes are not additional top-level choices. | [EasyStart p1][AX3G-E];[Manual p11][AX3G-M];[German specifications][AX3G-P];[Parameter guide pp2–10][AX3G-F] |
+| Factory / user memory | **80=40user+40preset**. Presets editable but not overwritable; Write stores in user area. Reset loads factory sounds into user area,erasing custom sounds. | [EasyStart pp2–3][AX3G-E] |
+| Synth / acoustic | Acoustic simulator has four body modes. Drone models sitar sympathetic strings;ring modulation uses an oscillator,octave is single-note only. No dedicated SYNTH entry in the enumerated guide; these effects do not establish a tracking synthesizer. | [Parameter guide pp2–4][AX3G-F] |
+| Dimensions / mass | **178W×142D×43H mm;340g**; battery inclusion unspecified in cited specification. | [Manual p11][AX3G-M] |
+| I/O | Mono input,stereo output;¼-inch audio sockets per German specs. Output also supports headphones. External-expression socket,DC. Other ports unverified. | [Specifications][AX3G-P];[Manual p11][AX3G-M];[EasyStart pp1–2][AX3G-E] |
+| Power / battery / USB | **9VDC** optional adapter or four alkaline AA,approximately8h. Current,polarity,USB power unverified. | [Manual p11][AX3G-M] |
+| IR / NAM / capture | UserIR,native/convertedNAM,capture import unverified. | Unresolved |
+| Editor / software | Editor,driver,updater platforms unverified. | Unresolved |
+| Looper / drums / live | Bypass with both footswitches; hold about1s for mute/tuner. Either exits without patch change. Delay/reverb carryover requires same settings. Amp/Line P5 applies to amp models,not drive models. Wah/auto-wah/vibe-phase can precede or follow amp processing. Drive/amp selection chooses an associated cabinet. Looper,drums,scenes unverified. | [Manual p9][AX3G-M];[EasyStart pp1–3][AX3G-E];[Parameter guide pp2–6][AX3G-F] |
 
-[AX-W]: https://www.korg.com/us/support/download/software/1/28/1387/
-[AX-A]: https://www.korg.com/us/support/download/software/1/28/1388/
+### Separate IDR hardware offers
 
-[AX-P]: https://www.korg.com/jp/support/adapter/
+| Condition | Evidence and limits | Source |
+|---|---|---|
+| Used | Unknown; no condition-verified offer. | — |
+| New | Unknown; no condition-verified offer. | — |
+| Condition-unverified cached offer | **Rp750,000,Habis**;maju jaya gallery,Kab.Malang;shop33360096/item3679424724. Checked2026-10-17. Direct URL yielded cached text marked last month,stale16–18Sep delivery;search cache3months showed20–22July. Sale condition,working state,bundle,adapter,warranty,variant andshipping/tax unverified. Seller title says made in Japan;not independently established. Late-arrivalRp10,000 compensation is not purchase discount. | [Exact item][AX3G-O] |
 
-## AX1500G
+### Source-access provenance and rejected variant evidence
 
-Guitar multi-effects; distinct from AX1000G/AX3000G. Checked 2026-10-17; partial. Bass capability and ownership unestablished.
+Mixed jonimusic item22551702/3568008855 lists AX100G/AX1500G/AX3000G/AX3G atRp899,900–2,299,900; no variant mapping,excluded from exact AX3G price evidence. Owner manual full web open exceeded tool size limit; indexed official excerpts used. EasyStart read as web PDF text. No downloads.
+
+[AX3G-M]: https://cdn.korg.com/us/support/download/files/ca195967ff7882df4b0a35a580860922.pdf
+[AX3G-E]: https://cdn.korg.com/us/support/download/files/1920f44acd69ffde968ab9fb92940e11.pdf
+[AX3G-F]: https://cdn.korg.com/us/support/download/files/37cf1f6fb537d1f1ba37018e35da9e95.pdf?response-content-disposition=inline%3Bfilename%3DAX3GFXParamGuideE1.pdf&response-content-type=application%2Fpdf%3B
+[AX3G-P]: https://www.korg.com/de/products/effects/ax3g/page_2.php
+[AX3G-O]: https://shopee.co.id/efek-pedal-gitar-elektrik-KORG-AX3g-made-in-japan-distorsi-delay-reverb-i.33360096.3679424724
+
+### AX3G — converters and parameter-guide detail
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Processing / converters | **24-bit A/D and D/A, 31.25 kHz**, published on AX3G regional specifications. No oversampling or USB audio inferred. | [Specifications][AX3G-P] |
+| Processing / delay-reverb names | Delay F0–F4: ECHO+, MLT HD, MOD DLY, ST DELAY, PP DELAY. Reverb F5–F9: SLAP, SPRING, PLATE, ROOM, HALL. SLAP is described as small-space reverberation. Delay TIME and reverb TIME are parameters; no maximum seconds established here. | [Parameter guide pp9–10][AX3G-F] |
+| Processing / pitch range | MOD PITCH spans **±24 semitones**, with one-cent FINE adjustment, separate wet/direct levels and TRACKING adjustment. This does not establish polyphonic tracking. | [Parameter guide p8][AX3G-F] |
+| Processing / composite modulation | BI CHO offers four series/parallel/LFO modes; DUO PH offers five, including two six-stage phasers in series. Their second speed control is disabled in BI CHO modes2/3 and DUO PH modes2/4/5. These are internal modes, not extra independently placed blocks. | [Parameter guide pp7–8][AX3G-F] |
+
+### AX3G — battery switching and tuner limits, 2026-10-18
+
+Indexed original [owner manual pp6,10][AX3G-M]; no download or device operation.
+
+| Field | Documented behavior / qualification |
+|---|---|
+| Power / battery input switching | A **mono INPUT cable switches battery power on**; removing it switches off. A stereo input cable does not activate battery power. Low batteries produce a blinking **Lo** warning. Four alkaline AA cells are separately sold; the published eight-hour figure is battery runtime, not current draw. |
+| I/O / headphone sharing | Headphones connect to **OUTPUT**, corroborating its shared stereo line/headphone role; not a separate headphone socket. |
+| Live / tuner | Calibration **A=438–445Hz**, shown as38–45, returns to **440Hz after power-off**. [Regional specifications][AX3G-P] separately give detection **A0–E6 (27.5–1318.5Hz)**; detection range differs from calibration range. |
+
+## AX5B
 
 <!-- comparison evidence begins -->
 
-| Field | Finding / qualification | Evidence |
-|---|---|---|
-| Expression | Built-in; under-pedal switch. External EXP absent from complete ports. | [Manual pp6,10][AX15-M] |
-| K/F/B | **10 / 5 / 13**, text-derived: five selectors + five value knobs; channel + three program + bank footswitches; five block + eight control buttons. Pedal switch additional; visual check pending. | [Manual pp4–5][AX15-M] |
-| Display | Backlit LCD; diagonal, color and touch unverified. | [Manual p3][AX15-M] |
-| Dimensions / mass | **420×187.7×65.4mm WDH; 2.4kg**. | [Manual p15][AX15-M] |
-| Processing / categories | **56 variations; maximum eight simultaneous**. Five selectable blocks: DRIVE-AMP/CABINET/MODULATION/PEDAL/AMBIENCE; some PEDAL pairings disable MODULATION or AMBIENCE. Category counts below. | [Manual pp3,10][AX15-M] |
-| Category choices / total reconciliation | **11 each** in DRIVE-AMP, CABINET, MODULATION, PEDAL and AMBIENCE: **55 selectable block choices**. Separate noise reduction may explain advertised56; counting method unconfirmed. DRIVE-AMP includes acoustic/compressor choices, not11 amp models. | [Manual pp13,16–22][AX15-M] |
-| Routing / pedal sharing | VOX WAH through RING MOD replace MODULATION; HOLD DELAY through SAMPLE&PLAY replace AMBIENCE. VOLUME stays enabled; pedal on/off state is not stored per program. AUTO WAH and VOX WAH precede DRIVE-AMP. | [Manual pp10,19–21][AX15-M] |
-| Looper / phrase storage | Phrase Trainer clears on exit/power-off; Sample & Play clears on entering Trainer/power-off. Trainer AUX recording temporarily mutes guitar input; playback25–100% without pitch change. Hold/Tap delays reach3s; Sample & Play has threshold-triggered recording and pedal-controlled loop/reverse modes. | [Manual pp11,21][AX15-M] |
-| Factory / user memory | **96=48 protected preset+48 writable user**; user programs initially duplicate the preset data. A/B channels change drive/cab combinations within each program,not the96-slot count. Reverified2026-10-18;supersedes the earlier initial-fill unknown. | [Manual pp3,7,13][AX15-M] |
-| Synth / acoustic | Acoustic simulation confirmed; synth engine unverified. | [Korg product][AX15-P] |
-| I/O | Mono guitar input; stereo-mini AUX/headphones; L/MONO,R mono-phone outputs; DC input. No USB, MIDI or FX loop in inventory. | [Manual pp6,15][AX15-M] |
-| Power / battery / USB | **9V DC**; current, polarity and battery operation unverified. No USB connector. KA-189 compatible supply rated **9V/600mA**, not device draw. | [Manual p15][AX15-M]; [Korg adapter][AX15-A] |
-| IR / NAM / capture | User IR, native/converted NAM and captures unverified. | Unresolved |
-| Editor / software | Full editor and supported platforms unverified. | Unresolved |
-| Looper / drums / live | Sample & Play8s; Phrase Trainer8s high-quality/16s extended, mono; metronome. A/B switches drive/cabinet combinations within a program. Trainer disables three downstream blocks. Overdub and trails unverified; persistence limits below. | [Manual pp3,7,11][AX15-M] |
+Checked2026-10-18. Dedicated bass multi-effects; distinct from AX5G,AX3B andAX3000B. Partial record. Exact Shopee AX5B/AX5 B searches returned no hardware offer; this does not establish unavailability.
 
-### Separate IDR hardware offers
+| Field | Evidence / gaps |
+|---|---|
+| Instrument / expression | Bass; built-in expression controls wah,volume orparameters. Forward pedal switch toggles WAH/FX PARAM; volume follows pedal position. Parameter values at fully returned and fully advanced positions are separately adjustable through LEVEL/NR/CAB/PEDAL (manual p9). No external EXP inrear inventory. [Own features][AX5B-F];[Manual pp6–8][AX5B-M] |
+| K/F/B | **2 /2 /3**, text-derived: function selector,value knob;programUP/DOWN;WRITE,CANCEL,pedal-setting. Under-pedal switch additional;visual audit pending. [Manual pp5–6][AX5B-M] |
+| Display | Program/Value display shows program numbers, effect/parameter codes and tuner note names (manual p5). Diagonal, resolution, technology, color and touch remain unknown. [Manual][AX5B-M] |
+| Dimensions / weight | Own English manual:**249W×143D×44H mm;650g**; French section agrees. German product specs:**178×142×43mm;340g**. Conflict unresolved; manual values preferred,not averaged. [Manual p13][AX5B-M];[German specs][AX5B-S] |
+| Processing / choices | Product advertises57types. Own manual specifies **six simultaneous effects includingNR, plusvolume pedal**; DELAY/REVERB shares one category. Categories:PRE10,drive/amp16,cab10,MOD10,DLY5,RVB5,NR1=57. Manual countsPRE11 explicitly10+pedalwah1,so its categories sum58. Preserve counting basis; do not treat57/58 as concurrent blocks. [Features][AX5B-F];[Manual p13][AX5B-M] |
+| Factory / user memory | **40preset+40user=80**; writable01–40,presets41–80. WRITE overwrites destination;unsaved edits lost onprogram change/poweroff. Factory reload replaces all saved custom programs with factory programs; initial user-slot mapping remains unspecified. [Manual p12][AX5B-M] [Features][AX5B-F];[Manual pp7,10][AX5B-M] |
+| Synth / acoustic | Bass synth,Fretless andSlowAttack documented; acoustic simulation andsynth tracking architecture unverified. [Features][AX5B-F] |
+| I/O | Manual:quarter-inch monoINPUT,quarter-inch stereoTRS OUTPUT. Complete rear:INPUT,OUTPUT(sharedheadphones),DC9V. NoUSB,MIDI,AUX,externalEXP orloop sockets. [Manual pp6,13][AX5B-M] |
+| Conversion | AD/DA24-bit;31.25kHz. [Manual p13][AX5B-M] |
+| Power / battery / USB | **9V DC optionaladapter or4AA alkaline,about8hours**. Compatible KA-189 is **center-negative** according to the official German distributor; this is accessory compatibility evidence, not a socket-label inspection. KA-189 ratings conflict **1.0A versus600mA**; actual AX5B draw andbarrel dimensions remain unknown. NoUSB port forUSB power. Manufacturer listsmanual included; actual seller bundle unknown. [Manual p13][AX5B-M] |
+| IR / NAM / capture | User IR,native/convertedNAM andproprietarycapture import unknown. |
+| Editor / software | Editor/platform/currentOS support unknown. |
+| Looper / drums / live | Original Value LED lights in Edit mode when a changed parameter matches its saved value; it does not light in Program mode (manual p10). NR sensitivity is0.0–10; excessive settings may truncate notes (p9), not add algorithms. TunerA0–E6,reference438–445Hz; calibration resets to 440Hz at power-off (manual p11). Delay tails persist with matching delay type andTIME(P1); reverb tails with matching reverb type. Looper,drums,scenes unknown. [Manual pp5,13][AX5B-M] |
+| Used IDR / new IDR | **Unknown / unknown**. No exactitem/seller established2026-10-18;condition,stock,region,bundle,warranty,voucher andcheckouttotal unknown. |
 
-| Condition | Evidence | Source |
-|---|---|---|
-| Used | **Rp1,500,000**, title says Bekas; **Habis/sold out**, historical ask only. ditokoku, shop18190367/item28842881961, Kota Depok. Checked2026-10-17; two-month cache with August delivery date. Working state, adapter/bundle, warranty and variants unverified. Rp10,000 late-arrival compensation is not a discount; shipping/tax/checkout unknown. | [Exact Shopee item][AX15-S] |
-| New | Unknown; no qualified new offer established. | — |
-| Condition unverified / hardcase title | **Rp1,750,000; Habis**. AXL STUDIO, shop349012190/item24651349257, Kab.Lamongan. Checked2026-10-17; direct reader returned a three-week cache, while search had two-month cache. Title includes hardcase; its condition/inclusion and adapter contents remain unconfirmed. | [Exact item][AX15-S2] |
-| Condition unverified | **Rp1,750,000; Habis**. Jamsrock Bandung, shop80375350/item25227680940, Kab.Bandung. Two-month search cache; direct request timed out2026-10-17. | [Exact item][AX15-S3] |
-| Condition unverified | **Rp1,800,000**. Stuff Faith, shop14828747/item25017453694, Kota Banjarmasin. One-month search cache; direct request failed2026-10-17. Stock unestablished. | [Exact item][AX15-S4] |
+### AX5B named product library
 
-### AX1500G — factory fill, pedal calibration and used ask
+| Category | Exact-model product entries |
+|---|---|
+| PRE10 | COMP;LIMITER;XCITER;WAH;VIB/PH;CH/FLN;OCTAVE;FRETLESS;SLOWATK;SYNTH |
+| Drive/amp16 | TUBE OD;FAT DIST;OR DIST;SHRED;FUZZ;OCTFUZZ;VALVE;VALVE2;CLASSIC;SCOOPED;LA STUDIO;GOLD PNL;JAZZ;STUDIO;AC100;UK MAJOR |
+| Cabinet10 | CLASSIC8×10;MODERN4×10;LA4×10;METAL4×10;UK4×12;STUDIO1×15;JAZZ1×15;AC2×15;UK4×15;LA1×18 |
+| MOD10 | CL CHO;MT CHO;CL FLN;BI CHO;DUO PH;TREM;ROTARY;PITCH;RND FILT;FILTRON |
+| Delay5 | ECHO+;MLT HD;MOD DLY;ST DLY;PP DLY |
+| Reverb5 | SLAP;SPRING;PLATE;ROOM;HALL |
+| NR1 | Noise reduction |
 
-Checked 2026-10-18.
+[Own feature-page list][AX5B-F]. MOD punctuation is compressed in source; ten names retained without importing AX3000B entries. Original EFG1 manual43PDFpages,English introduction explicitlyAX5B; German introduction printsAX5G,another source identity inconsistency. No PDF download orvisual audit performed.
+
+### AX5B processing architecture
+
+Manual p5 specifies **six effects includingNR plusvolume pedal** simultaneously; DELAY/REVERB is one shared effect category. These distinctions supersede the shorter product-page ceiling wording without changing57/58library provenance. [Manual pp5,8][AX5B-M]
+
+### AX5B expression recall and cabinet dependency
+
+| Field | Own English-manual qualification |
+|---|---|
+| Expression / recall | Volume uses physical position immediately. WAH/FX PARAM retains program sound until pedal movement. [Manual p8][AX5B-M] |
+| Expression / target changes | Quick Assign requires a blinking assignable-parameter LED. Changing the controlled effect category resets FX PARAM to its suggested target. Changing PRE FX whileWAH selected changes target toVOLUME. [Manual pp9–10][AX5B-M] |
+| Expression / automatic effect state | ChoosingFX PARAM enables its effect. Returning immediately toVOLUME without movingpedal/editing disables it again; after movement/editing,it staysenabled. [Manual p10][AX5B-M] |
+| Routing / cabinet | Cabinet requiresDRIVE/AMP on; changingdrive/amp automatically chooses its recommendedcabinet. No independentcabinet operation inferred. [Manual p9][AX5B-M] |
+| Power / battery switching | Onbatteries,INPUT cable insertion powersunit;removal turnsitoff. A stereo INPUT cable will not activate battery power; use mono (manual p12). Adapter behavior keptseparate. [Manual p7][AX5B-M] |
+
+
+### AX5B — volume,calibration and bypass limits
+
+Checked2026-10-18 against own English EFG1 manual,printed pp6–7,9–12. No device calibration/reset performed.
 
 | Field | Evidence / qualification |
 |---|---|
-| Memory / factory-filled user slots | [Own manual p7][AX15-M] states **user programs initially contain the same data as presets**:48 writable copies plus48 protected presets,96 total. This resolves the earlier initial-user-content unknown. Reload overwrites all user programs and initializes master level, metronome and input level (p14). |
-| Expression / calibration | [Own manual p14][AX15-M]: use a **hand**, not foot. Power on holding **EXIT+PEDAL block select**: PEDAL then MIN. Move fully back, release, WRITE: MAX. Move fully forward, release, WRITE: COMPLT. EXIT cancels; ERROR returns to MIN. No adjustable toe-switch threshold is established by this procedure. |
-| IDR / separate used-title sold-out ask | **Rp600.000; Habis**, [choki music jakarta, shop158819523/item40125338719](https://shopee.co.id/efek-gitar-korg-ax1500g-bekas-i.158819523.40125338719), Kota Jakarta Timur. Title explicitly **bekas**; search/direct reader two-month cache. Relative tomorrow delivery does not override sold-out status. Actual working state, repairs, selected variation, adapter/bundle, warranty, authenticity, shipping/tax and checkout total unverified. Late-arrival compensation up toRp10.000 is not a price discount. Separate historical seller ask, not a completed sale or current used-market range. |
+| Live / master versus program level | Value knob is **master volume in Program mode**,withmaximum50 recommended for bass-amp connection. Per-program LEVEL is **0.0–10,standard5.0**;some settings clip unless lowered. These displayed ranges are not dB ratings. Power-on enters Program mode regardless of selector position. [Manual][AX5B-M] |
+| Expression / sensitivity calibration | Calibration uses pedal-setting+WRITE atpower-on,then heel return andthe desired forward switching position;release the pedal beforeWRITE confirms. Korg specifies foot operation because hand adjustment may be inaccurate. This adjusts travel/switch response,not a factory-program reload. [Manual pp11–12][AX5B-M] |
+| Live / bypass and mute | Press both program switches together for bypass;hold aboutone second for mute. Either single program switch exits without changing programs. Tuner operates inboth;value knob remainsmaster volume. This does not establish analog true bypass orpatch-change spillover. [Manual pp10–11][AX5B-M] |
 
+
+### AX5B — original appendix library and tracking qualifications
+
+Checked 2026-10-18 against [own EFG1 manual][AX5B-M], printed51–53 (PDF pages39–41). English AX5B cover/model verified; numbering differs from PDF page positions. No file downloaded or visual inspection claimed.
+
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / PRE disagreement | Appendix F3 is **Ring Modulator**,with oscillator-frequency,effect,direct andfilter controls; product PRE list instead namesWAH. Appendix lists pedalWAH separately. Preserve both library descriptions;do not silently replace the product list oradd another advertised effect. |
+| Synth / editable controls | SYNTH F9 offers depth/polarity −10…−0 and0…10,resonance0–10,attack0–10,wave0–10,mix0–10. Resonance is the suggested pedal target. Wave values are parameter settings,not11 independently counted synth algorithms;tracking/polyphony still unverified. |
+| Synth / single-note restrictions | Manual explicitly restricts OCTAVE andFRETLESS to single-note use;chords may produce muddy/uncontrolled results. Do not generalize that warning into a proven SYNTH polyphony specification. |
+| Expression / filter interaction | ClassicChorus,ClassicFlanger andFiltron MANUAL has no effect withDEPTH10. For Filtron pedal control ofMANUAL,Korg recommendsDEPTH0or near0. A mapped pedal target does not guarantee audible change at every setting. |
+
+
+### AX5B — official distributor adapter evidence
+
+| Field | Evidence / qualification |
+|---|---|
+| Power / compatible adapter polarity | Korg’s German distributor-operated shop explicitly includes **ToneWorks AX5B** in the **KA-189** compatibility list and specifies **9V, center-negative** (outside positive). This supports compatible-adapter polarity; it is not an inspection of the AX5B socket label or proof of an original bundled adapter. |
+| Power / adapter current conflict | The same page says **1.0A** in its title/specification and **600mA** in an attribute. Preserve this adapter-rating conflict. Neither number is established AX5B operating current; barrel dimensions remain unverified. |
+
+Checked2026-10-18: [KA-189 original-accessory listing](https://www.korg-shop.de/en/korg-power-supply-ka-189/KRKA189). The shop identifies MUSIK MEYER as operator; [Korg’s own distributor directory](https://www.korg.com/hken/corporate/distributors/) independently identifies MUSIK MEYER/KORG & MORE for Germany. This is official-distributor accessory evidence, separate from the manufacturer owner’s manual. No purchase, download or device operation.
+
+
+### AX5B — explicit manual library headline, 2026-10-18
+
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / manual58 versus product57 | Own English **EFG1 manual p5 explicitly advertises58 modeling variations**;this is not merely our arithmetic inference. Its p13 breakdown **PRE11(including separate pedal wah),drive/amp16,cab10,MOD10,DLY5,RVB5,NR1** sums58. The earlier product57 list remains distinct; omitting the separately counted pedal wah gives57,but no manufacturer correction establishes that as the product page’s intended method. The manual’s **six effects includingNR plusvolume pedal** is the simultaneous ceiling,not57/58. [Own manual][AX5B-M] |
+
+The same own p13 table lists9VDC/fourAA but no operating-current figure;this pass doesnot resolve currentdraw from the conflicting KA-189 accessory ratings. Initial user-slot factory mapping anddisplay technology remain unverified. Nofile downloaded or device operated.
+
+
+### AX5B — manufacturer EasyStart operating details
+
+Checked2026-10-18 against [Korg’s four-page AX5 Series EasyStart](https://cdn.korg.com/us/support/download/files/5802e92ca055dc3e0b4c1a9d389e642a.pdf?response-content-disposition=inline%3Bfilename%3DAX5_Series_EasyStart.pdf&response-content-type=application%2Fpdf),explicitly covering AX5G/AX5B. The support landing’s2015-06-01 label is not established firmware date. No device operation orlocal download.
+
+| Field | Model-qualified evidence |
+|---|---|
+| Expression / target LED | Pedal-setting cycles **Volume→Wah→FX PARAM**;indicator is **orange/red/green**,respectively. These are target-indicator colors,not proof of a color program display. |
+| Memory / factory reload destination | Guide p2 explicitly loads factory programs into **user01–40**,overwriting allcustom entries,then recalls01. This corroborates reload occupancy;it does not document exact initial factory-to-user patch mapping orcurrent used-unit contents. |
+| Live / bank navigation and editing display | WRITE/CANCEL jump banks inProgram mode. In the guide’s MOD parameter-edit example,ProgramUp displays currentvalue;ProgramDown displays type/parameter. These mode-dependent functions are not extra physical controls. |
+| Routing / sibling-only restriction | Guide p3 labels **Amp/Line Setting AX5G-only**. Its A1/A2/A3/Ln output profiles are not transferred toAX5B. Same page’s strayAX3-Series header andunrelated parameter labels remain source inconsistencies,not evidence of more AX5B categories. |
 <!-- comparison evidence ends -->
 
-Manual E2 viewed as browser text; controls not visually certified. No manual/software/dependency saved or installed. Multi-model shop offers and accessories excluded from prices. Advertised56 counting method, display details, power limits, imports, software and live restrictions remain open.
-
-[AX15-M]: https://cdn.korg.com/us/support/download/files/c0cb472d5281a71103e41fb6563a2ceb.pdf
-[AX15-P]: https://www.korg.com/de/products/effects/ax1500g/
-[AX15-A]: https://www.korg.com/de/products/accessories/ka_189/
-[AX15-S]: https://shopee.co.id/Efek-Multi-Gitar-Listrik-Korg-Toneworks-AX1500G-Bekas-i.18190367.28842881961
-
-[AX15-S2]: https://shopee.co.id/KORG-AX1500G-ToneWorks-Modeling-Signal-Processor-Efek-Gitar-Hardcase-i.349012190.24651349257
-[AX15-S3]: https://shopee.co.id/efek-digital-Korg-ax1500G-i.80375350.25227680940
-[AX15-S4]: https://shopee.co.id/Tonework-Korg-AX1500G-i.14828747.25017453694
-
-The three condition-unverified asks above are not verified new/used market ranges or live checkout quotations. Working state, selected variation, warranty, adapter/bundle contents, applied voucher, shipping and tax remain unknown. Cached delivery dates and late-arrival compensation do not establish current stock or discounts.
+[AX5B-F]: https://www.korg.com/de/products/effects/ax5b/page_1.php
+[AX5B-S]: https://www.korg.com/de/products/effects/ax5b/page_2.php
+[AX5B-M]: https://cdn.korg.com/us/support/download/files/ce3fdcaa2f36213ab3f032738bc6648f.pdf?response-content-disposition=inline%3Bfilename%3DAX5B_OM_EFG1.pdf&response-content-type=application%2Fpdf%3B
 
 ## AX5G
 
@@ -269,6 +296,105 @@ Checked2026-10-18 against [own manual,printed pp.52–54][AX5-M]. Text only;no d
 | Processing / delay-reverb shared slot | **F0–F9**: Echo+,Multi Head Echo,Modulation Delay,Stereo Delay,Pingpong Delay,Slap,Spring,Plate,Room,Hall. These occupy one DELAY/REVERB category;five delays plusfive reverbs do not mean independent simultaneous delay andreverb blocks. |
 | Expression / pitch and filter limits | Pitch Shifter pitch −12…+12,with separate Fine −15…+15 whose units are unspecified here. At DEPTH10,MANUAL hasno effect forClassic Chorus,Classic Flanger andFiltron. ForFiltron MANUAL pedal control,the guide recommends DEPTH0 ornear0. |
 
+## AX10B
+
+Checked2026-10-17. Partial **bass multi-effects** record; distinct from AX10G/AX10A. No qualified Indonesian offer established.
+
+| Field | Evidence / remaining gaps |
+|---|---|
+| Processing / choices | PRE3,AMP selector11 (**10 amp models + EQ**),MOD11,AMBIENCE11,NR1;not a simultaneous-count claim. PRE choices COMP/DIST/OCTAVE. Own EasyStart AX10B panel states **three effects+NR,in addition to amp choice**;this means PRE/MOD/AMBIENCE plusNR/AMP,not11 concurrent modulation algorithms. See source qualification below. |
+| Presets | **40 read-only factory+40 overwriteable user**;user initially duplicates factory. |
+| Expression | Built-in pedal;fully forward toggles effect;volume always active. No external EXP socket in complete rear inventory. Mechanical toe-switch implementation unknown. |
+| Controls | **8 rotary /2 footswitches /13 buttons**, derived from numbered text:5ampknobs+3selectors;UP/DOWNfoot;PRE1,VALUE2,MODDEPTH2,AMBDEPTH2,TAP1,FUNCTION1,MASTER2,WRITE1,PEDALFX1. Two rear toggles andpedal activation separate;not visually audited. |
+| Display | Program/parameter display;diagonal,color,touch unverified. |
+| Dimensions / weight | **287W×182D×60H mm;1.1kg without batteries**. |
+| Power | FourAAalkaline,about18h;separateDC9Vadapter. Japanese EFGJ1 p50 names **KA181** (indexed manufacturer text); see adapter qualification below. Unit polarity symbol not extracted;draw andUSB power unknown. |
+| I/O | Mono¼bassinput;shared stereo¼line/headphonesoutput;DC9V. Rear InputL/H andAmp/Line switches. No USB/MIDI/FX-loop sockets in complete rear inventory. |
+| Synth / acoustic | Own program chart includes **Synth1(preset84)** using OCTAVE/EQ/FILTER/SLAP and**Synth2(94)** using OCTAVE/LA STUDIO/FILTER. These are synth-like patches assembled fromexistingblocks,not proof ofa separate oscillator/polyphonic synth engine. Acoustic simulation unverified. |
+| IR / NAM / captures | UserIR,native/convertedNAM,capture import unverified. |
+| Software | Full-editor platforms,driver/updater support unverified;no USB interface established. |
+| Looper / drums / live | Looper/drums/scenes unverified. Tuner calibration438–445Hz resets440;pedal position cannot be stored. |
+
+[Exact manufacturer manual](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf),EFG1,40-page trilingual,Englishpp3–14;own [Korg support](https://www.korg.com/us/support/download/product/1/22/) identifies AX10B. Support upload date2015-06-01 is not a proven device release date. Text read through web;no local download or diagram visual inspection.
+
+Manualp11 NR instruction conflicts internally: parenthetical TAP+EFF.DEPTH versus footnote FUNCTION+VOLUME/NR. Preserve both;not silently corrected.
+
+### AX10B — separate IDR evidence
+
+| Condition/channel | Evidence |
+|---|---|
+| Used IDR | Unknown;no exact qualified Indonesian hardware offer found in limited search. |
+| New IDR | Unknown;seller/item,stock,region,edition,bundle,warranty,voucher,shipping/tax unverified. Korg’s discontinued/sold-out support label does not prove absence of used or old stock. |
+
+Foreign RP50 offers and Indonesian adapter listings do not establish AX10B prices.
+
+### AX10B — controls and algorithm qualifications
+
+Checked2026-10-17, [own manual](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf),pp6–7/11–12. AMP11 includes **EQ**,not11distinctamplifiers;matchedcab effect excluded forEQ,Amp/Line changescabdepth. MOD11:Chorus,Flange,Phaser,Trem,Rotary,Feedbk,Pitch1,Filter,U-Vibe,Talk,Pitch2. Ambience11:Slap,Echo1/2/3,PPDly,Multi,Air,Room,Hall,Plate,Spring. Threeecho feedbackvariants count separately in source.
+
+Page11PREtable incorrectly refers to PEDALFX:WAH despite documentedOCTAVE/MOD/AMB/VOLUMEassignment inventory;preserveconflict,do notinferwah. Octave trackingcanfailwithchords/lowstrings. Controls derivedfromtext,notimages.
+### AX10B — Japanese manual and adapter qualification
+
+Checked2026-10-17. The [official Japanese-hosted EFGJ1 manual](https://cdn.korg.com/jp/support/download/files/315583a1909cadeb1539dd6c1941c444.pdf?response-content-disposition=inline%3Bfilename%3DAX10B_EFGJ1.pdf&response-content-type=application%2Fpdf%3B) has52pages, versus40in the English/French/German EFG1 source above. Its indexed Japanese p50 specifies optional **KA181,DC9V**; this identifies the adapter for AX10B itself, rather than borrowing compatibility from AX10G. Full web extraction omits that specification table; screenshot retrieval failed, so its polarity symbol remains unread. No local PDF download.
+
+Korg’s [current specification text for the KA181 accessory](https://www.korg.com/jp/products/tuners/pbxsbass/specifications.php) explicitly calls that adapter **9V,center-negative**. This is accessory evidence linked by the AX10B manual, not a direct reading of the AX10B socket symbol. The tuner’s40mA draw is **not** AX10B consumption; AX10B draw and connector dimensions remain unknown.
+
+Japanese p48 explicitly instructs FUNCTION+VOLUME(NR), corroborating the English footnote and front-panel inventory; the conflicting English TAP+EFF.DEPTH wording remains preserved above.
+
+### AX10B — power switching, stereo wiring and bypass
+
+| Field | Verified operational detail |
+|---|---|
+| Power / input wiring | On batteries, a **mono input plug powers the unit; a stereo input plug does not**. Removing the input cable switches battery operation off. DC adapter connection powers it automatically. [Own manual,pp7–8](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf),checked2026-10-17. |
+| Output / routing | Shared output is stereoTRS;mono cable carries **left channel only**,not a documented summed output. Stereo-to-dual-mono cable feeds two amps/mixer channels. Manual recommendsLINE for amps with extended-high-frequency tweeters. [Own manual,p8](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
+| Bypass / tuner | TapUP+DOWN together for dry bypass;holdabout1s thenrelease for mute/silent tuning. Eitherfoot exits. This operational bypass description does not establish relay/true-bypass circuitry. [Own manual,p9](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
+
+Official [Easy Start entry](https://www.korg.com/us/support/download/manual/1/22/2038/) links AX10_Series_EasyStart.pdf;exact CDN URL returnedcachemiss andquerylessURL inaccessible. No newfacts assigned from unreadguide.
+
+[AX100-S]: https://www.korg.com/de/products/effects/ax100g/page_2.php
+
+### AX10B — save,reset andpedal assignment limits,2026-10-18
+
+| Field | Manufacturer manual finding |
+|---|---|
+| Memory / save andreset | [Own EFG1 manual](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf),printedpp12–13:program change/power-off discards unsavededits. WRITE selects overwrite destination among40userlocations;factorypresets protected. MASTER/CANCEL cancels write-ready. Factoryrestore loads presets intouserarea andoverwrites allsaveduserprograms. Instructions reviewed only;no reset/deviceoperation performed. |
+| Expression / assignment operation | Samep12:OCTAVE pedal assignment requires OCTAVE selectedasPRE FX;changingPREtoother type reassignspedal toVOLUME. VOLUME alwayson;minimumlevel configurable viaFUNCTION+AMBIENCE DEPTH. Physicalposition continuescontrolling sound andcannotbe stored. OriginalValueLED indicates equality withsavedparameter,not automatic knobpickup (p7). |
+| Tuner / specification | Samep14 explicitly publishes27.5–1318.5Hz(A0–E6)detectionrange,438–445Hz reference. This is range,not measuredaccuracy;sample/conversionformat stillunknown. |
+
+
+### AX10B — calibration and editing limits
+
+| Field | Manufacturer manual finding |
+|---|---|
+| Expression / calibration | Use a hand. Power on holding FUNCTION + PEDAL FX. Move fully back, release hand, press PEDAL FX; move fully forward, release hand, press PEDAL FX. MASTER/CANCEL aborts. Failure returns to the pre-calibration display; repeated failure requires service. Volume assignment with minimum0 helps check the returned endpoint. Extracted display glyphs are absent; no glyph or switching-pressure adjustment inferred. [Own manual p13](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
+| Processing / shared amp control | MID FC/GAIN adjusts mid peak frequency for EQ through JAZZ; it adjusts gain for STUDIO through UKMAJOR. These are alternative functions of one knob. [Own manual p11](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
+| Processing / editing conflict | Dedicated MODULATION instructions specify FUNCTION + DEPTH for SPEED; overview p10 instead says delay/reverb time for modulation. Preserve that wording conflict. AMBIENCE time uses two TAP presses. HALL/PLATE/SPRING reverb time is twice the tap interval. [Own manual pp10–12](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
+
+### AX10B — EasyStart simultaneous processing and source conflict
+
+Checked2026-10-18. [Korg official AX10B EasyStart entry](https://www.korg.com/us/support/download/manual/1/22/2038/) links AX10_Series_EasyStart.pdf;CDN route still cache-misses. The [matching manufacturer-authored two-page EasyStart mirror](https://manualzz.com/doc/2066567/korg-ax10-g-guitar-effects-processor--ax10-b-bass-effects...) contains separate AX10G/B/A panels andshared procedures;only original document text was used,not generated FAQ. AX10B explicitly permits three effects plusnoise reduction alongsideamp choice. Its26-effects shorthand differs fromthe detailed PRE3+MOD11+AMBIENCE11+NR1 breakdown onlyin presentation,not26 simultaneousblocks. Shared pedalinstructions incorrectly name WAH forAX10B;ownmanual instead documents OCTAVE. Preserve this inconsistency;do notaddwah capability. Original guide revision/date unprinted;support upload2015-06-01 isnot productlaunch proof. No local file download.
+
+### AX10B — synth-like patches and modulation scope
+
+Checked2026-10-18 from [manufacturer EFGJ1 manual](https://cdn.korg.com/jp/support/download/files/315583a1909cadeb1539dd6c1941c444.pdf?response-content-disposition=inline%3Bfilename%3DAX10B_EFGJ1.pdf&response-content-type=application%2Fpdf%3B),Englishp11 andprogramchart(PDFp51). FILTER follows picking dynamics orpedal position;TALK similarly uses pickattack/pedal. PITCH1 mixes shifted anddirect signal;PITCH2 isfullywet. FEEDBK offers normal andoctave-up feedback fromheldnotes. These are choices inoneMODblock,not additional simultaneous modules. Programchart supplies thetwoSynthpatches above;it doesnot establish independent syntharchitecture. Powerdraw,screen diagonal andconversionformat remain unknown;freshlimitedShopee search foundnoqualifiedAX10Bhardware offer. No file download/deviceoperation.
+
+### AX10B — named amp selector and nested TALK choices
+
+Checked2026-10-18 against the [own EFG1 manual](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf),printedp11.
+
+| Field | Manufacturer manual finding |
+|---|---|
+| Category choices / AMP selector | **EQ; VALVE; VALVE2; CLASSIC; SCOOPED; LA STUDIO; GOLDPNL; JAZZ; STUDIO; AC100; UKMAJOR**. Eleven positions comprise ten amp simulations plus direct three-band EQ. Cabinet processing accompanies amp choices but not EQ; the manual’s recommended cabinet names do not establish independent cabinet selection or additional simultaneous blocks. |
+| Category choices / TALK modes | **5 nested modes**: YAH-YAH, U-WAH, YOI-YOI, YEAH, HI U-WAH. These belong to one TALK choice within the eleven-entry MOD category; they are not five additional independently insertable effects. |
+
+
+### AX10B — slap timing and noise-reduction limit
+
+| Field | Manufacturer manual finding |
+|---|---|
+| Live / SLAP timing | SLAP delay time is **one quarter of the interval between TAP presses**, with a published **250 ms maximum**. Its tap interval is not the resulting delay time; this does not establish MIDI synchronization or a looper. [Own EFG1 manual p12](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
+| Processing / noise-reduction cutoff | Excessive NR can **cut off notes**, depending on the connected equipment; the manual recommends reducing NR in that case. This is a documented operating limit, not a measured threshold or automatic note-tracking guarantee. [Own EFG1 manual p12](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
+
 ## AX10G
 
 Guitar multi-effects, distinct from AX10B/AX10A. Checked2026-10-17; partial. Bass/vocal suitability and ownership unverified. Korg lists discontinued/sold out.
@@ -318,117 +444,6 @@ Korg AX10G support links the AX10-Series EasyStart. The readable filename= query
 | Processing / amp selector | EQ, BTQ CLN, BLK212, TWD410, AC15, AC30TB, UK70S, UK80S, UK MDN, RECTO, FUZZ: eleven selector alternatives, including EQ and fuzz, not eleven conventional amplifiers. | [Manual p11][AX10-M] |
 | Expression / persistence and switching | Volume assignment is always on; full-forward cannot disable it. Programs cannot save a fixed pedal position: the current position always controls sound. Changing PRE away from WAH changes a WAH pedal assignment to volume. | [Manual pp10,12][AX10-M] |
 | Expression / calibration | Power on holding FUNCTION+PEDAL FX. Using a hand, move fully back, release, confirm PEDAL FX; repeat fully forward. MASTER cancels. Display symbols were not decoded; no hardware action performed. | [Manual p13][AX10-M] |
-
-## AX1000G
-
-Guitar multi-effects;distinct fromAX1500G/AX100G. Checked2026-10-17;partial. Korg discontinued. Bass/vocal suitability and ownership unverified.
-
-| Field | Finding / qualification | Evidence |
-|---|---|---|
-| Expression | Built-in pedal with full-forward switch. PEDAL block11choices;modulation-type pedal effects disableMOD,delay/sample pedal effects disableAMBIENCE. Volume pedal cannot be toggled off;pedal on/off state is not stored per program. External support unverified. | [Manual pp9,20–21][AX1000-M] |
-| K/F/B | **10 rotary /5 main footswitches /13 separate buttons**:five selectors+five value knobs;fourprogram+bank. Buttons:text-derived five block selectors,NR-PRGLEVEL,RENAME,EXIT,WRITE,twoCURSOR,twoMASTER/VALUE. Toe additional;visual corroboration pending. | [Manual pp4–6][AX1000-M] |
-| Display | BacklitLCD plus bank indicator;diagonal,color,touch unverified. | [Manual pp3,5][AX1000-M] |
-| Dimensions / mass | **420W×187.7D×65.4H mm;2.4kg**. | [Manual p15][AX1000-M] |
-| Processing / category choices | **56types;maximum8effects**,with pedal/block exclusions. Manual-derived five selector categories×11 choices(DRIVE-AMP,CABINET,MODULATION,PEDAL,AMBIENCE)=55;NR adds1. DRIVE includes3bandEQ;compositeeffects are not independent extra slots. | [Manual pp3,15–22][AX1000-M] |
-| Factory / user memory | **80=40preset+40user**,factory user copies presets. Presets read-only;WRITE twice with destination. Reload overwrites users/settings. | [Manual pp7,13–14][AX1000-M] |
-| Synth / acoustic | ACOUSTIC electric-to-acoustic simulator includes compressor. TALK vowel processing andRINGMOD do not establish synthesizer architecture. | [Manual pp16,20–21][AX1000-M] |
-| I/O | Mono¼guitar;stereo⅛AUX;L/mono+R¼outputs;stereo⅛headphones;DC9V. Inserting headphones mutes main outputs. Rear inventory lists no USB/MIDI/external-control socket. | [Manual pp6,8,15][AX1000-M] |
-| Power / battery / USB | **DC9V**,included adapter;connection powers unit. Polarity,current,battery andUSB power unverified. | [Manual pp6,15][AX1000-M] |
-| IR / NAM / capture | UserIR,native/convertedNAM,capture imports unverified;factory cabinet models do not establish imports. | Unresolved |
-| Editor / software | Editor/platform support unverified;onboard editing documented. | [Manual p12][AX1000-M] |
-| Looper / drums / live | Sample&Play**8s**;PhraseTrainer**up to16s**,slower playback without pitch change;metronome40–208BPM. Individual mode toggles blocks but prevents patch switching and bypass/mute. Trainer:SHT8s high-quality/LNG16s extended,mono;disablesMOD/PEDAL/AMBIENCE,restores them onexit;guitar muted duringrecording. Exit/power-off erases phrase. Trainer disables metronome. Overdub,drumkit,scenes,trails unverified. | [Manual pp3,7,10–11,15][AX1000-M] |
-
-### Separate IDR hardware offers
-
-| Condition | Evidence and limits | Source |
-|---|---|---|
-| Used | Unknown;title does not establish condition. | — |
-| New | Unknown;no qualified new offer established. | — |
-| Conditional historical offer | **Rp1,700,000;Habis**, UM Audio Official,Kab.Ponorogo;shop238779157/item13913725973. Checked2026-10-17;two-month rendered cache,stale3–6September delivery;shop onholiday. Condition,working state,revision,adapter/bundle,warranty,voucher unknown. Not currentstock/completedsale;late-arrival compensation notdiscount. | [Exact hardware][AX1000-O] |
-| Additional condition-unknown offer | **Rp2,000,000;Habis**,totok.zulianto,Kab.Tuban;shop57900729/item16038187135. Checked2026-10-17 through rendered page,crawled last month;stale29–30August delivery. Title says “motif decal”;Exact revision,working state,sale condition,adapter/bundle,warranty and voucher eligibility unverified. Late-arrival compensation up toRp10,000 is not a hardware-price discount. Separate cached ask,not current stock or completed sale. | [Exact seller item][AX1000-O2] |
-
-Manufacturer E1 manual used as web text;no files downloaded,software installed or physical inspection. Up-to-eight is an advertised maximum,not permission to combine every PEDAL choice with MODULATION/AMBIENCE. Category count excludes OFF,parameter settings andduplicated descriptions. NoAX1500G dimensions,power or features transferred;power polarity must remain unresolved rather than inferred from anotherKorg adapter.
-
-[AX1000-M]: https://cdn.korg.com/us/support/download/files/40e17e585904a5bdb8b6906097e7f690.pdf
-[AX1000-P]: https://www.korg.com/us/support/download/product/1/19/
-[AX1000-O]: https://shopee.co.id/korg-ax1000g-i.238779157.13913725973
-
-### Operation and control follow-up
-
-Checked2026-10-17,manufacturerE1text only. The13button total excludes five main footswitches and the under-pedal switch;five block buttons plus eight LCD/control-panel buttons are enumerated in printedpp4–5. No visual or physical control inspection claimed.
-
-Phrase Trainer supports100/75/50/25percent playback,or5percent increments from100down to25,without changing pitch. Recording-mode changes require exit/reentry;one phrase can replace the old phrase,not an established overdub looper. Its8secondSHT and16secondLNG limits are separate from PEDALSample&Play8seconds. Printedp11 supplies erasure and recording restrictions.
-
-**Noise-reduction source conflict:** printedp13gives NR rangeOFF–10,then says it is not possible to turn noise reduction off. Neither statement is silently discarded;NR-off behavior remains unverified. This does not change the documented56choice headline or grant an additional block.
-
-In Play mode,the current program footswitch held0.5s bypasses andheld1s mutes. Tuner438–445Hz resets440Hz onpower-up. These differ from some other Korg switch timings;no sibling procedure substituted.
-
-[AX1000-O2]: https://shopee.co.id/efek-gitar-tonework-korg-ax1000g-motif-decal-i.57900729.16038187135
-
-### AX1000G — trainer controls and pedal calibration
-
-| Field | Finding / qualification | Evidence |
-|---|---|---|
-| Looper / trainer transport | Cursor controls provide momentary double-speed or reverse playback while held. Program1 rewinds while held; Program4 toggles Hold of the current sound. During Hold, cursors move backward/forward; Program1 jumps back one second, cancels Hold and resumes. These trainer operations do not establish overdubbing or persistent phrase storage. | [Manual p11][AX1000-M] |
-| Editing / trainer restrictions | Trainer permits DRIVE-AMP and CABINET editing, but not operations needing the name/value display, cursor or MASTER/VALUE keys. Quick editing is unavailable while bypassed, muted or recording. Attempting an incompatible MOD/PEDAL or PEDAL/AMBIENCE combination automatically disables the previously enabled block. | [Manual p12][AX1000-M] |
-| Expression / calibration | Power on holding EXIT+PEDAL block select. At MIN, move fully back by hand, release and press WRITE; at MAX, move fully forward, release and press WRITE. EXIT cancels; ERROR returns to MIN. No hardware action performed. | [Manual p14][AX1000-M] |
-
-## AX3G
-
-Guitar multi-effects; separate from AX3B/AX3A. Checked 2026-10-17; partial. Ownership and bass/vocal suitability unverified. Discontinued.
-
-| Field | Finding / qualification | Evidence |
-|---|---|---|
-| Expression | External EXP-2/XVP-10; volume/wah. Built-in/toe unverified. | [Manual specifications][AX3G-M];[EasyStart p1][AX3G-E] |
-| K/F/B | **2 rotary /2 footswitches /2 buttons**, text-derived: Function,Value;program up/down;Write,Cancel. | [EasyStart pp2–3][AX3G-E] |
-| Display | Program/value display; diagonal,technology,color,touch unverified. | [EasyStart p2][AX3G-E] |
-| Processing / category choices | **6 simultaneous**: PRE,drive/amp,cab,MOD,shared delay/reverb,NR. Manual:PRE10,drive/amp16,cab10,MOD10,delay5,reverb5,NR1=57 choices. Parameter guide independently enumerates PRE F0–F9:compressor,pickup,acoustic simulator,wah,auto wah,vibe/phase,chorus/flanger,octave,ring modulation,drone. Drive/amp splits8drive+8amp;cab C0–C9,MOD F0–F9,delay/reverb F0–F9. German specifications instead list PEDAL11; retained conflicting claim,not an extra verified algorithm. Internal modes are not additional top-level choices. | [EasyStart p1][AX3G-E];[Manual p11][AX3G-M];[German specifications][AX3G-P];[Parameter guide pp2–10][AX3G-F] |
-| Factory / user memory | **80=40user+40preset**. Presets editable but not overwritable; Write stores in user area. Reset loads factory sounds into user area,erasing custom sounds. | [EasyStart pp2–3][AX3G-E] |
-| Synth / acoustic | Acoustic simulator has four body modes. Drone models sitar sympathetic strings;ring modulation uses an oscillator,octave is single-note only. No dedicated SYNTH entry in the enumerated guide; these effects do not establish a tracking synthesizer. | [Parameter guide pp2–4][AX3G-F] |
-| Dimensions / mass | **178W×142D×43H mm;340g**; battery inclusion unspecified in cited specification. | [Manual p11][AX3G-M] |
-| I/O | Mono input,stereo output;¼-inch audio sockets per German specs. Output also supports headphones. External-expression socket,DC. Other ports unverified. | [Specifications][AX3G-P];[Manual p11][AX3G-M];[EasyStart pp1–2][AX3G-E] |
-| Power / battery / USB | **9VDC** optional adapter or four alkaline AA,approximately8h. Current,polarity,USB power unverified. | [Manual p11][AX3G-M] |
-| IR / NAM / capture | UserIR,native/convertedNAM,capture import unverified. | Unresolved |
-| Editor / software | Editor,driver,updater platforms unverified. | Unresolved |
-| Looper / drums / live | Bypass with both footswitches; hold about1s for mute/tuner. Either exits without patch change. Delay/reverb carryover requires same settings. Amp/Line P5 applies to amp models,not drive models. Wah/auto-wah/vibe-phase can precede or follow amp processing. Drive/amp selection chooses an associated cabinet. Looper,drums,scenes unverified. | [Manual p9][AX3G-M];[EasyStart pp1–3][AX3G-E];[Parameter guide pp2–6][AX3G-F] |
-
-### Separate IDR hardware offers
-
-| Condition | Evidence and limits | Source |
-|---|---|---|
-| Used | Unknown; no condition-verified offer. | — |
-| New | Unknown; no condition-verified offer. | — |
-| Condition-unverified cached offer | **Rp750,000,Habis**;maju jaya gallery,Kab.Malang;shop33360096/item3679424724. Checked2026-10-17. Direct URL yielded cached text marked last month,stale16–18Sep delivery;search cache3months showed20–22July. Sale condition,working state,bundle,adapter,warranty,variant andshipping/tax unverified. Seller title says made in Japan;not independently established. Late-arrivalRp10,000 compensation is not purchase discount. | [Exact item][AX3G-O] |
-
-### Source-access provenance and rejected variant evidence
-
-Mixed jonimusic item22551702/3568008855 lists AX100G/AX1500G/AX3000G/AX3G atRp899,900–2,299,900; no variant mapping,excluded from exact AX3G price evidence. Owner manual full web open exceeded tool size limit; indexed official excerpts used. EasyStart read as web PDF text. No downloads.
-
-[AX3G-M]: https://cdn.korg.com/us/support/download/files/ca195967ff7882df4b0a35a580860922.pdf
-[AX3G-E]: https://cdn.korg.com/us/support/download/files/1920f44acd69ffde968ab9fb92940e11.pdf
-[AX3G-F]: https://cdn.korg.com/us/support/download/files/37cf1f6fb537d1f1ba37018e35da9e95.pdf?response-content-disposition=inline%3Bfilename%3DAX3GFXParamGuideE1.pdf&response-content-type=application%2Fpdf%3B
-[AX3G-P]: https://www.korg.com/de/products/effects/ax3g/page_2.php
-[AX3G-O]: https://shopee.co.id/efek-pedal-gitar-elektrik-KORG-AX3g-made-in-japan-distorsi-delay-reverb-i.33360096.3679424724
-
-### AX3G — converters and parameter-guide detail
-
-| Field | Finding / qualification | Evidence |
-|---|---|---|
-| Processing / converters | **24-bit A/D and D/A, 31.25 kHz**, published on AX3G regional specifications. No oversampling or USB audio inferred. | [Specifications][AX3G-P] |
-| Processing / delay-reverb names | Delay F0–F4: ECHO+, MLT HD, MOD DLY, ST DELAY, PP DELAY. Reverb F5–F9: SLAP, SPRING, PLATE, ROOM, HALL. SLAP is described as small-space reverberation. Delay TIME and reverb TIME are parameters; no maximum seconds established here. | [Parameter guide pp9–10][AX3G-F] |
-| Processing / pitch range | MOD PITCH spans **±24 semitones**, with one-cent FINE adjustment, separate wet/direct levels and TRACKING adjustment. This does not establish polyphonic tracking. | [Parameter guide p8][AX3G-F] |
-| Processing / composite modulation | BI CHO offers four series/parallel/LFO modes; DUO PH offers five, including two six-stage phasers in series. Their second speed control is disabled in BI CHO modes2/3 and DUO PH modes2/4/5. These are internal modes, not extra independently placed blocks. | [Parameter guide pp7–8][AX3G-F] |
-
-### AX3G — battery switching and tuner limits, 2026-10-18
-
-Indexed original [owner manual pp6,10][AX3G-M]; no download or device operation.
-
-| Field | Documented behavior / qualification |
-|---|---|
-| Power / battery input switching | A **mono INPUT cable switches battery power on**; removing it switches off. A stereo input cable does not activate battery power. Low batteries produce a blinking **Lo** warning. Four alkaline AA cells are separately sold; the published eight-hour figure is battery runtime, not current draw. |
-| I/O / headphone sharing | Headphones connect to **OUTPUT**, corroborating its shared stereo line/headphone role; not a separate headphone socket. |
-| Live / tuner | Calibration **A=438–445Hz**, shown as38–45, returns to **440Hz after power-off**. [Regional specifications][AX3G-P] separately give detection **A0–E6 (27.5–1318.5Hz)**; detection range differs from calibration range. |
-
 
 ## AX30G
 
@@ -545,104 +560,118 @@ Condition,workingstate,bundle,adapter,authenticity,warranty,shipping,tax,voucher
 
 Shopee source check 2026-10-19: results again include the existing AX100G/AX1500G/AX3000G/AX3G item and [Hope Music’s storefront](https://shopee.co.id/hopemusik) with an AX5G-or-AX100G title. Neither yields a verified AX100G variant price. Storefront price and sold count are not assigned to this exact model.
 
-## AX10B
+## AX1000G
 
-Checked2026-10-17. Partial **bass multi-effects** record; distinct from AX10G/AX10A. No qualified Indonesian offer established.
+Guitar multi-effects;distinct fromAX1500G/AX100G. Checked2026-10-17;partial. Korg discontinued. Bass/vocal suitability and ownership unverified.
 
-| Field | Evidence / remaining gaps |
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in pedal with full-forward switch. PEDAL block11choices;modulation-type pedal effects disableMOD,delay/sample pedal effects disableAMBIENCE. Volume pedal cannot be toggled off;pedal on/off state is not stored per program. External support unverified. | [Manual pp9,20–21][AX1000-M] |
+| K/F/B | **10 rotary /5 main footswitches /13 separate buttons**:five selectors+five value knobs;fourprogram+bank. Buttons:text-derived five block selectors,NR-PRGLEVEL,RENAME,EXIT,WRITE,twoCURSOR,twoMASTER/VALUE. Toe additional;visual corroboration pending. | [Manual pp4–6][AX1000-M] |
+| Display | BacklitLCD plus bank indicator;diagonal,color,touch unverified. | [Manual pp3,5][AX1000-M] |
+| Dimensions / mass | **420W×187.7D×65.4H mm;2.4kg**. | [Manual p15][AX1000-M] |
+| Processing / category choices | **56types;maximum8effects**,with pedal/block exclusions. Manual-derived five selector categories×11 choices(DRIVE-AMP,CABINET,MODULATION,PEDAL,AMBIENCE)=55;NR adds1. DRIVE includes3bandEQ;compositeeffects are not independent extra slots. | [Manual pp3,15–22][AX1000-M] |
+| Factory / user memory | **80=40preset+40user**,factory user copies presets. Presets read-only;WRITE twice with destination. Reload overwrites users/settings. | [Manual pp7,13–14][AX1000-M] |
+| Synth / acoustic | ACOUSTIC electric-to-acoustic simulator includes compressor. TALK vowel processing andRINGMOD do not establish synthesizer architecture. | [Manual pp16,20–21][AX1000-M] |
+| I/O | Mono¼guitar;stereo⅛AUX;L/mono+R¼outputs;stereo⅛headphones;DC9V. Inserting headphones mutes main outputs. Rear inventory lists no USB/MIDI/external-control socket. | [Manual pp6,8,15][AX1000-M] |
+| Power / battery / USB | **DC9V**,included adapter;connection powers unit. Polarity,current,battery andUSB power unverified. | [Manual pp6,15][AX1000-M] |
+| IR / NAM / capture | UserIR,native/convertedNAM,capture imports unverified;factory cabinet models do not establish imports. | Unresolved |
+| Editor / software | Editor/platform support unverified;onboard editing documented. | [Manual p12][AX1000-M] |
+| Looper / drums / live | Sample&Play**8s**;PhraseTrainer**up to16s**,slower playback without pitch change;metronome40–208BPM. Individual mode toggles blocks but prevents patch switching and bypass/mute. Trainer:SHT8s high-quality/LNG16s extended,mono;disablesMOD/PEDAL/AMBIENCE,restores them onexit;guitar muted duringrecording. Exit/power-off erases phrase. Trainer disables metronome. Overdub,drumkit,scenes,trails unverified. | [Manual pp3,7,10–11,15][AX1000-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence and limits | Source |
+|---|---|---|
+| Used | Unknown;title does not establish condition. | — |
+| New | Unknown;no qualified new offer established. | — |
+| Conditional historical offer | **Rp1,700,000;Habis**, UM Audio Official,Kab.Ponorogo;shop238779157/item13913725973. Checked2026-10-17;two-month rendered cache,stale3–6September delivery;shop onholiday. Condition,working state,revision,adapter/bundle,warranty,voucher unknown. Not currentstock/completedsale;late-arrival compensation notdiscount. | [Exact hardware][AX1000-O] |
+| Additional condition-unknown offer | **Rp2,000,000;Habis**,totok.zulianto,Kab.Tuban;shop57900729/item16038187135. Checked2026-10-17 through rendered page,crawled last month;stale29–30August delivery. Title says “motif decal”;Exact revision,working state,sale condition,adapter/bundle,warranty and voucher eligibility unverified. Late-arrival compensation up toRp10,000 is not a hardware-price discount. Separate cached ask,not current stock or completed sale. | [Exact seller item][AX1000-O2] |
+
+Manufacturer E1 manual used as web text;no files downloaded,software installed or physical inspection. Up-to-eight is an advertised maximum,not permission to combine every PEDAL choice with MODULATION/AMBIENCE. Category count excludes OFF,parameter settings andduplicated descriptions. NoAX1500G dimensions,power or features transferred;power polarity must remain unresolved rather than inferred from anotherKorg adapter.
+
+[AX1000-M]: https://cdn.korg.com/us/support/download/files/40e17e585904a5bdb8b6906097e7f690.pdf
+[AX1000-P]: https://www.korg.com/us/support/download/product/1/19/
+[AX1000-O]: https://shopee.co.id/korg-ax1000g-i.238779157.13913725973
+
+### Operation and control follow-up
+
+Checked2026-10-17,manufacturerE1text only. The13button total excludes five main footswitches and the under-pedal switch;five block buttons plus eight LCD/control-panel buttons are enumerated in printedpp4–5. No visual or physical control inspection claimed.
+
+Phrase Trainer supports100/75/50/25percent playback,or5percent increments from100down to25,without changing pitch. Recording-mode changes require exit/reentry;one phrase can replace the old phrase,not an established overdub looper. Its8secondSHT and16secondLNG limits are separate from PEDALSample&Play8seconds. Printedp11 supplies erasure and recording restrictions.
+
+**Noise-reduction source conflict:** printedp13gives NR rangeOFF–10,then says it is not possible to turn noise reduction off. Neither statement is silently discarded;NR-off behavior remains unverified. This does not change the documented56choice headline or grant an additional block.
+
+In Play mode,the current program footswitch held0.5s bypasses andheld1s mutes. Tuner438–445Hz resets440Hz onpower-up. These differ from some other Korg switch timings;no sibling procedure substituted.
+
+[AX1000-O2]: https://shopee.co.id/efek-gitar-tonework-korg-ax1000g-motif-decal-i.57900729.16038187135
+
+### AX1000G — trainer controls and pedal calibration
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Looper / trainer transport | Cursor controls provide momentary double-speed or reverse playback while held. Program1 rewinds while held; Program4 toggles Hold of the current sound. During Hold, cursors move backward/forward; Program1 jumps back one second, cancels Hold and resumes. These trainer operations do not establish overdubbing or persistent phrase storage. | [Manual p11][AX1000-M] |
+| Editing / trainer restrictions | Trainer permits DRIVE-AMP and CABINET editing, but not operations needing the name/value display, cursor or MASTER/VALUE keys. Quick editing is unavailable while bypassed, muted or recording. Attempting an incompatible MOD/PEDAL or PEDAL/AMBIENCE combination automatically disables the previously enabled block. | [Manual p12][AX1000-M] |
+| Expression / calibration | Power on holding EXIT+PEDAL block select. At MIN, move fully back by hand, release and press WRITE; at MAX, move fully forward, release and press WRITE. EXIT cancels; ERROR returns to MIN. No hardware action performed. | [Manual p14][AX1000-M] |
+
+## AX1500G
+
+Guitar multi-effects; distinct from AX1000G/AX3000G. Checked 2026-10-17; partial. Bass capability and ownership unestablished.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in; under-pedal switch. External EXP absent from complete ports. | [Manual pp6,10][AX15-M] |
+| K/F/B | **10 / 5 / 13**, text-derived: five selectors + five value knobs; channel + three program + bank footswitches; five block + eight control buttons. Pedal switch additional; visual check pending. | [Manual pp4–5][AX15-M] |
+| Display | Backlit LCD; diagonal, color and touch unverified. | [Manual p3][AX15-M] |
+| Dimensions / mass | **420×187.7×65.4mm WDH; 2.4kg**. | [Manual p15][AX15-M] |
+| Processing / categories | **56 variations; maximum eight simultaneous**. Five selectable blocks: DRIVE-AMP/CABINET/MODULATION/PEDAL/AMBIENCE; some PEDAL pairings disable MODULATION or AMBIENCE. Category counts below. | [Manual pp3,10][AX15-M] |
+| Category choices / total reconciliation | **11 each** in DRIVE-AMP, CABINET, MODULATION, PEDAL and AMBIENCE: **55 selectable block choices**. Separate noise reduction may explain advertised56; counting method unconfirmed. DRIVE-AMP includes acoustic/compressor choices, not11 amp models. | [Manual pp13,16–22][AX15-M] |
+| Routing / pedal sharing | VOX WAH through RING MOD replace MODULATION; HOLD DELAY through SAMPLE&PLAY replace AMBIENCE. VOLUME stays enabled; pedal on/off state is not stored per program. AUTO WAH and VOX WAH precede DRIVE-AMP. | [Manual pp10,19–21][AX15-M] |
+| Looper / phrase storage | Phrase Trainer clears on exit/power-off; Sample & Play clears on entering Trainer/power-off. Trainer AUX recording temporarily mutes guitar input; playback25–100% without pitch change. Hold/Tap delays reach3s; Sample & Play has threshold-triggered recording and pedal-controlled loop/reverse modes. | [Manual pp11,21][AX15-M] |
+| Factory / user memory | **96=48 protected preset+48 writable user**; user programs initially duplicate the preset data. A/B channels change drive/cab combinations within each program,not the96-slot count. Reverified2026-10-18;supersedes the earlier initial-fill unknown. | [Manual pp3,7,13][AX15-M] |
+| Synth / acoustic | Acoustic simulation confirmed; synth engine unverified. | [Korg product][AX15-P] |
+| I/O | Mono guitar input; stereo-mini AUX/headphones; L/MONO,R mono-phone outputs; DC input. No USB, MIDI or FX loop in inventory. | [Manual pp6,15][AX15-M] |
+| Power / battery / USB | **9V DC**; current, polarity and battery operation unverified. No USB connector. KA-189 compatible supply rated **9V/600mA**, not device draw. | [Manual p15][AX15-M]; [Korg adapter][AX15-A] |
+| IR / NAM / capture | User IR, native/converted NAM and captures unverified. | Unresolved |
+| Editor / software | Full editor and supported platforms unverified. | Unresolved |
+| Looper / drums / live | Sample & Play8s; Phrase Trainer8s high-quality/16s extended, mono; metronome. A/B switches drive/cabinet combinations within a program. Trainer disables three downstream blocks. Overdub and trails unverified; persistence limits below. | [Manual pp3,7,11][AX15-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | **Rp1,500,000**, title says Bekas; **Habis/sold out**, historical ask only. ditokoku, shop18190367/item28842881961, Kota Depok. Checked2026-10-17; two-month cache with August delivery date. Working state, adapter/bundle, warranty and variants unverified. Rp10,000 late-arrival compensation is not a discount; shipping/tax/checkout unknown. | [Exact Shopee item][AX15-S] |
+| New | Unknown; no qualified new offer established. | — |
+| Condition unverified / hardcase title | **Rp1,750,000; Habis**. AXL STUDIO, shop349012190/item24651349257, Kab.Lamongan. Checked2026-10-17; direct reader returned a three-week cache, while search had two-month cache. Title includes hardcase; its condition/inclusion and adapter contents remain unconfirmed. | [Exact item][AX15-S2] |
+| Condition unverified | **Rp1,750,000; Habis**. Jamsrock Bandung, shop80375350/item25227680940, Kab.Bandung. Two-month search cache; direct request timed out2026-10-17. | [Exact item][AX15-S3] |
+| Condition unverified | **Rp1,800,000**. Stuff Faith, shop14828747/item25017453694, Kota Banjarmasin. One-month search cache; direct request failed2026-10-17. Stock unestablished. | [Exact item][AX15-S4] |
+
+### AX1500G — factory fill, pedal calibration and used ask
+
+Checked 2026-10-18.
+
+| Field | Evidence / qualification |
 |---|---|
-| Processing / choices | PRE3,AMP selector11 (**10 amp models + EQ**),MOD11,AMBIENCE11,NR1;not a simultaneous-count claim. PRE choices COMP/DIST/OCTAVE. Own EasyStart AX10B panel states **three effects+NR,in addition to amp choice**;this means PRE/MOD/AMBIENCE plusNR/AMP,not11 concurrent modulation algorithms. See source qualification below. |
-| Presets | **40 read-only factory+40 overwriteable user**;user initially duplicates factory. |
-| Expression | Built-in pedal;fully forward toggles effect;volume always active. No external EXP socket in complete rear inventory. Mechanical toe-switch implementation unknown. |
-| Controls | **8 rotary /2 footswitches /13 buttons**, derived from numbered text:5ampknobs+3selectors;UP/DOWNfoot;PRE1,VALUE2,MODDEPTH2,AMBDEPTH2,TAP1,FUNCTION1,MASTER2,WRITE1,PEDALFX1. Two rear toggles andpedal activation separate;not visually audited. |
-| Display | Program/parameter display;diagonal,color,touch unverified. |
-| Dimensions / weight | **287W×182D×60H mm;1.1kg without batteries**. |
-| Power | FourAAalkaline,about18h;separateDC9Vadapter. Japanese EFGJ1 p50 names **KA181** (indexed manufacturer text); see adapter qualification below. Unit polarity symbol not extracted;draw andUSB power unknown. |
-| I/O | Mono¼bassinput;shared stereo¼line/headphonesoutput;DC9V. Rear InputL/H andAmp/Line switches. No USB/MIDI/FX-loop sockets in complete rear inventory. |
-| Synth / acoustic | Own program chart includes **Synth1(preset84)** using OCTAVE/EQ/FILTER/SLAP and**Synth2(94)** using OCTAVE/LA STUDIO/FILTER. These are synth-like patches assembled fromexistingblocks,not proof ofa separate oscillator/polyphonic synth engine. Acoustic simulation unverified. |
-| IR / NAM / captures | UserIR,native/convertedNAM,capture import unverified. |
-| Software | Full-editor platforms,driver/updater support unverified;no USB interface established. |
-| Looper / drums / live | Looper/drums/scenes unverified. Tuner calibration438–445Hz resets440;pedal position cannot be stored. |
+| Memory / factory-filled user slots | [Own manual p7][AX15-M] states **user programs initially contain the same data as presets**:48 writable copies plus48 protected presets,96 total. This resolves the earlier initial-user-content unknown. Reload overwrites all user programs and initializes master level, metronome and input level (p14). |
+| Expression / calibration | [Own manual p14][AX15-M]: use a **hand**, not foot. Power on holding **EXIT+PEDAL block select**: PEDAL then MIN. Move fully back, release, WRITE: MAX. Move fully forward, release, WRITE: COMPLT. EXIT cancels; ERROR returns to MIN. No adjustable toe-switch threshold is established by this procedure. |
+| IDR / separate used-title sold-out ask | **Rp600.000; Habis**, [choki music jakarta, shop158819523/item40125338719](https://shopee.co.id/efek-gitar-korg-ax1500g-bekas-i.158819523.40125338719), Kota Jakarta Timur. Title explicitly **bekas**; search/direct reader two-month cache. Relative tomorrow delivery does not override sold-out status. Actual working state, repairs, selected variation, adapter/bundle, warranty, authenticity, shipping/tax and checkout total unverified. Late-arrival compensation up toRp10.000 is not a price discount. Separate historical seller ask, not a completed sale or current used-market range. |
 
-[Exact manufacturer manual](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf),EFG1,40-page trilingual,Englishpp3–14;own [Korg support](https://www.korg.com/us/support/download/product/1/22/) identifies AX10B. Support upload date2015-06-01 is not a proven device release date. Text read through web;no local download or diagram visual inspection.
+<!-- comparison evidence ends -->
 
-Manualp11 NR instruction conflicts internally: parenthetical TAP+EFF.DEPTH versus footnote FUNCTION+VOLUME/NR. Preserve both;not silently corrected.
+Manual E2 viewed as browser text; controls not visually certified. No manual/software/dependency saved or installed. Multi-model shop offers and accessories excluded from prices. Advertised56 counting method, display details, power limits, imports, software and live restrictions remain open.
 
-### AX10B — separate IDR evidence
+[AX15-M]: https://cdn.korg.com/us/support/download/files/c0cb472d5281a71103e41fb6563a2ceb.pdf
+[AX15-P]: https://www.korg.com/de/products/effects/ax1500g/
+[AX15-A]: https://www.korg.com/de/products/accessories/ka_189/
+[AX15-S]: https://shopee.co.id/Efek-Multi-Gitar-Listrik-Korg-Toneworks-AX1500G-Bekas-i.18190367.28842881961
 
-| Condition/channel | Evidence |
-|---|---|
-| Used IDR | Unknown;no exact qualified Indonesian hardware offer found in limited search. |
-| New IDR | Unknown;seller/item,stock,region,edition,bundle,warranty,voucher,shipping/tax unverified. Korg’s discontinued/sold-out support label does not prove absence of used or old stock. |
+[AX15-S2]: https://shopee.co.id/KORG-AX1500G-ToneWorks-Modeling-Signal-Processor-Efek-Gitar-Hardcase-i.349012190.24651349257
+[AX15-S3]: https://shopee.co.id/efek-digital-Korg-ax1500G-i.80375350.25227680940
+[AX15-S4]: https://shopee.co.id/Tonework-Korg-AX1500G-i.14828747.25017453694
 
-Foreign RP50 offers and Indonesian adapter listings do not establish AX10B prices.
-
-### AX10B — controls and algorithm qualifications
-
-Checked2026-10-17, [own manual](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf),pp6–7/11–12. AMP11 includes **EQ**,not11distinctamplifiers;matchedcab effect excluded forEQ,Amp/Line changescabdepth. MOD11:Chorus,Flange,Phaser,Trem,Rotary,Feedbk,Pitch1,Filter,U-Vibe,Talk,Pitch2. Ambience11:Slap,Echo1/2/3,PPDly,Multi,Air,Room,Hall,Plate,Spring. Threeecho feedbackvariants count separately in source.
-
-Page11PREtable incorrectly refers to PEDALFX:WAH despite documentedOCTAVE/MOD/AMB/VOLUMEassignment inventory;preserveconflict,do notinferwah. Octave trackingcanfailwithchords/lowstrings. Controls derivedfromtext,notimages.
-### AX10B — Japanese manual and adapter qualification
-
-Checked2026-10-17. The [official Japanese-hosted EFGJ1 manual](https://cdn.korg.com/jp/support/download/files/315583a1909cadeb1539dd6c1941c444.pdf?response-content-disposition=inline%3Bfilename%3DAX10B_EFGJ1.pdf&response-content-type=application%2Fpdf%3B) has52pages, versus40in the English/French/German EFG1 source above. Its indexed Japanese p50 specifies optional **KA181,DC9V**; this identifies the adapter for AX10B itself, rather than borrowing compatibility from AX10G. Full web extraction omits that specification table; screenshot retrieval failed, so its polarity symbol remains unread. No local PDF download.
-
-Korg’s [current specification text for the KA181 accessory](https://www.korg.com/jp/products/tuners/pbxsbass/specifications.php) explicitly calls that adapter **9V,center-negative**. This is accessory evidence linked by the AX10B manual, not a direct reading of the AX10B socket symbol. The tuner’s40mA draw is **not** AX10B consumption; AX10B draw and connector dimensions remain unknown.
-
-Japanese p48 explicitly instructs FUNCTION+VOLUME(NR), corroborating the English footnote and front-panel inventory; the conflicting English TAP+EFF.DEPTH wording remains preserved above.
-
-### AX10B — power switching, stereo wiring and bypass
-
-| Field | Verified operational detail |
-|---|---|
-| Power / input wiring | On batteries, a **mono input plug powers the unit; a stereo input plug does not**. Removing the input cable switches battery operation off. DC adapter connection powers it automatically. [Own manual,pp7–8](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf),checked2026-10-17. |
-| Output / routing | Shared output is stereoTRS;mono cable carries **left channel only**,not a documented summed output. Stereo-to-dual-mono cable feeds two amps/mixer channels. Manual recommendsLINE for amps with extended-high-frequency tweeters. [Own manual,p8](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
-| Bypass / tuner | TapUP+DOWN together for dry bypass;holdabout1s thenrelease for mute/silent tuning. Eitherfoot exits. This operational bypass description does not establish relay/true-bypass circuitry. [Own manual,p9](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
-
-Official [Easy Start entry](https://www.korg.com/us/support/download/manual/1/22/2038/) links AX10_Series_EasyStart.pdf;exact CDN URL returnedcachemiss andquerylessURL inaccessible. No newfacts assigned from unreadguide.
-
-[AX100-S]: https://www.korg.com/de/products/effects/ax100g/page_2.php
-
-### AX10B — save,reset andpedal assignment limits,2026-10-18
-
-| Field | Manufacturer manual finding |
-|---|---|
-| Memory / save andreset | [Own EFG1 manual](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf),printedpp12–13:program change/power-off discards unsavededits. WRITE selects overwrite destination among40userlocations;factorypresets protected. MASTER/CANCEL cancels write-ready. Factoryrestore loads presets intouserarea andoverwrites allsaveduserprograms. Instructions reviewed only;no reset/deviceoperation performed. |
-| Expression / assignment operation | Samep12:OCTAVE pedal assignment requires OCTAVE selectedasPRE FX;changingPREtoother type reassignspedal toVOLUME. VOLUME alwayson;minimumlevel configurable viaFUNCTION+AMBIENCE DEPTH. Physicalposition continuescontrolling sound andcannotbe stored. OriginalValueLED indicates equality withsavedparameter,not automatic knobpickup (p7). |
-| Tuner / specification | Samep14 explicitly publishes27.5–1318.5Hz(A0–E6)detectionrange,438–445Hz reference. This is range,not measuredaccuracy;sample/conversionformat stillunknown. |
-
-
-### AX10B — calibration and editing limits
-
-| Field | Manufacturer manual finding |
-|---|---|
-| Expression / calibration | Use a hand. Power on holding FUNCTION + PEDAL FX. Move fully back, release hand, press PEDAL FX; move fully forward, release hand, press PEDAL FX. MASTER/CANCEL aborts. Failure returns to the pre-calibration display; repeated failure requires service. Volume assignment with minimum0 helps check the returned endpoint. Extracted display glyphs are absent; no glyph or switching-pressure adjustment inferred. [Own manual p13](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
-| Processing / shared amp control | MID FC/GAIN adjusts mid peak frequency for EQ through JAZZ; it adjusts gain for STUDIO through UKMAJOR. These are alternative functions of one knob. [Own manual p11](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
-| Processing / editing conflict | Dedicated MODULATION instructions specify FUNCTION + DEPTH for SPEED; overview p10 instead says delay/reverb time for modulation. Preserve that wording conflict. AMBIENCE time uses two TAP presses. HALL/PLATE/SPRING reverb time is twice the tap interval. [Own manual pp10–12](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
-
-### AX10B — EasyStart simultaneous processing and source conflict
-
-Checked2026-10-18. [Korg official AX10B EasyStart entry](https://www.korg.com/us/support/download/manual/1/22/2038/) links AX10_Series_EasyStart.pdf;CDN route still cache-misses. The [matching manufacturer-authored two-page EasyStart mirror](https://manualzz.com/doc/2066567/korg-ax10-g-guitar-effects-processor--ax10-b-bass-effects...) contains separate AX10G/B/A panels andshared procedures;only original document text was used,not generated FAQ. AX10B explicitly permits three effects plusnoise reduction alongsideamp choice. Its26-effects shorthand differs fromthe detailed PRE3+MOD11+AMBIENCE11+NR1 breakdown onlyin presentation,not26 simultaneousblocks. Shared pedalinstructions incorrectly name WAH forAX10B;ownmanual instead documents OCTAVE. Preserve this inconsistency;do notaddwah capability. Original guide revision/date unprinted;support upload2015-06-01 isnot productlaunch proof. No local file download.
-
-### AX10B — synth-like patches and modulation scope
-
-Checked2026-10-18 from [manufacturer EFGJ1 manual](https://cdn.korg.com/jp/support/download/files/315583a1909cadeb1539dd6c1941c444.pdf?response-content-disposition=inline%3Bfilename%3DAX10B_EFGJ1.pdf&response-content-type=application%2Fpdf%3B),Englishp11 andprogramchart(PDFp51). FILTER follows picking dynamics orpedal position;TALK similarly uses pickattack/pedal. PITCH1 mixes shifted anddirect signal;PITCH2 isfullywet. FEEDBK offers normal andoctave-up feedback fromheldnotes. These are choices inoneMODblock,not additional simultaneous modules. Programchart supplies thetwoSynthpatches above;it doesnot establish independent syntharchitecture. Powerdraw,screen diagonal andconversionformat remain unknown;freshlimitedShopee search foundnoqualifiedAX10Bhardware offer. No file download/deviceoperation.
-
-### AX10B — named amp selector and nested TALK choices
-
-Checked2026-10-18 against the [own EFG1 manual](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf),printedp11.
-
-| Field | Manufacturer manual finding |
-|---|---|
-| Category choices / AMP selector | **EQ; VALVE; VALVE2; CLASSIC; SCOOPED; LA STUDIO; GOLDPNL; JAZZ; STUDIO; AC100; UKMAJOR**. Eleven positions comprise ten amp simulations plus direct three-band EQ. Cabinet processing accompanies amp choices but not EQ; the manual’s recommended cabinet names do not establish independent cabinet selection or additional simultaneous blocks. |
-| Category choices / TALK modes | **5 nested modes**: YAH-YAH, U-WAH, YOI-YOI, YEAH, HI U-WAH. These belong to one TALK choice within the eleven-entry MOD category; they are not five additional independently insertable effects. |
-
-
-### AX10B — slap timing and noise-reduction limit
-
-| Field | Manufacturer manual finding |
-|---|---|
-| Live / SLAP timing | SLAP delay time is **one quarter of the interval between TAP presses**, with a published **250 ms maximum**. Its tap interval is not the resulting delay time; this does not establish MIDI synchronization or a looper. [Own EFG1 manual p12](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
-| Processing / noise-reduction cutoff | Excessive NR can **cut off notes**, depending on the connected equipment; the manual recommends reducing NR in that case. This is a documented operating limit, not a measured threshold or automatic note-tracking guarantee. [Own EFG1 manual p12](https://cdn.korg.com/us/support/download/files/16704ca55ffe2b8116eaa1fb8857c173.pdf). |
+The three condition-unverified asks above are not verified new/used market ranges or live checkout quotations. Working state, selected variation, warranty, adapter/bundle contents, applied voucher, shipping and tax remain unknown. Cached delivery dates and late-arrival compensation do not establish current stock or discounts.
 
 ## AX3000B
 
@@ -773,153 +802,141 @@ Checked2026-10-18 against [own E1 manual][AX3B-M], pp47–49,52–54. No transfe
 
 [AX3B-M]: https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3000B_E1.pdf&response-content-type=application%2Fpdf%3B
 
-## AX5B
+## AX3000G
+
+Guitar multi-effects, distinct from AX3000B. Checked 2026-10-17; partial. Bass suitability and ownership unestablished.
 
 <!-- comparison evidence begins -->
 
-Checked2026-10-18. Dedicated bass multi-effects; distinct from AX5G,AX3B andAX3000B. Partial record. Exact Shopee AX5B/AX5 B searches returned no hardware offer; this does not establish unavailability.
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | Built-in assignable expression, with eight-point LED indicator. Under-pedal forward switch toggles expression/ESS-controlled effect; disabled for volume assignment. External expression unverified. | [EasyStart][AX-E]; [Manual p9][AX-M] |
+| K/F/B | **11 / 7 / 20**, derived from manual enumeration: five model selectors + five value knobs + rear LEVEL; four program + two bank + CONTROL footswitches; five category + five other edit + TAP/ESS + four settings + four cursor/value buttons. Under-pedal switch additional. | [Manual pp3–11][AX-M] |
+| Display | Backlit LCD; diagonal, colour depth and touch unverified. | [EasyStart][AX-E] |
+| Dimensions / mass | 500×241×72mm W×D×H pedal lowered; 100mm raised; 3.6kg. | [Manual p56][AX-M] |
+| Simultaneous effects | Seven including noise reduction; external insert additionally usable. 72 modeled variations. | [Manual p1][AX-M] |
+| Categories / choices | Detailed pp23–26 enumerate **16 drive/amp choices (8 drives + 8 amps), 11 cabinets**, matching p23 and EasyStart. Pre/modulation/delay/reverb11 each; NR1. These yield72 choices by addition. Contradictory p56 summary says amp11/cabinet16; retained as a source discrepancy, not used to override enumerated models. | [Manual][AX-M]; [EasyStart][AX-E] |
+| Factory / user memory | 96 rewritable slots (24×4). Factory banks1–8 hold32 sounds, repeated in9–16 and17–24; not128 slots. | [Manual p15][AX-M] |
+| Synth / acoustic | Pickup, acoustic body/top and synth modeling documented. Acoustic has four body types; synth offers square/saw/sine at −2 to +2 octaves. Octave effect is single-note only. | [EasyStart][AX-E]; [Manual pp27–29][AX-M] |
+| I/O | Mono INPUT/INSERT RETURN; stereo-mini AUX/PHONES; two mono OUTPUTs, INSERT SEND; optical S/PDIF16-bit/44.1kHz; MIDI IN/OUT; DC9V. Panel p10 specifies balanced/unbalanced TRS main outputs; p56 calls them monaural phone jacks. L/MONO handles mono; headphones silence main outputs. Rear LEVEL controls main/headphones. No USB or external EXP jack in complete rear enumeration; MIDI control remains available. | [Manual pp10–13,56][AX-M] |
+| Analog conversion | A/D and D/A20-bit,44.1kHz. | [Manual p56][AX-M] |
+| Power / battery / USB | 9V DC, supplied adapter. Korg Japan lists **KA181** for AX3000G/B(BK); this regional compatibility listing does not specify current/polarity. Battery and USB power unverified; no inference from ambiguous polarity glyph extraction. | [Manual p56][AX-M]; [Adapter compatibility][AX-P] |
+| IR / NAM / capture | User IR, native/converted NAM and capture loading unverified; REMS is not import evidence. | Unresolved |
+| Editor / platforms | MIDI-connected editor/librarian supports Windows/Mac. Support lists Windows1.01 and Mac1.1, dated2015-06-01; current OS support unverified. Individual release pages identify EXE/ZIP respectively but publish no OS requirements in their accessible HTML; neither package downloaded. | [EasyStart][AX-E]; [Support][AX-D]; [Windows release][AX-W]; [Mac release][AX-A] |
+| MIDI / editor connection | Computer editing needs a MIDI interface and bidirectional IN/OUT cabling; some interfaces mishandle SysEx. Matching channels required. CCHG I/O gates all CC traffic; individual assignments allow CC00–95 or Off. SYEX OUT controls parameter transmission, not reception or data dumps. Current/all-program SysEx backup supported. | [Manual pp48–51][AX-M] |
+| ESS / live control | Up to eight parameter steps; pedal controls sequence speed or step selection in PEdL mode. One-shot completion restores the effect value. ESS TAP1/TAP2/TRIG do nothing in PEdL; maximum tap interval10s. These are parameter sequences, not evidence of audio looping. | [Manual pp43–47][AX-M] |
+| Tuner / bypass | Reference **438–445Hz**,resets440Hz at power-up. In Program Select mode,holding the current program switch≈0.5s bypasses allFX including NR;≈1.5s mutes. Both activate tuner. Exiting with another program switch also recalls that program. Relay/analog true bypass is not established by this procedure. | [Manual pp21–22][AX-M] |
+| Preset / save behavior | WRITE replaces destination contents;program change or power-off discards unsaved edits. Original Value indicator lights when an edited parameter matches its saved value;not an automatic undo. Factory program level5.0;lower PROG LVL if effects cause clipping. | [Manual pp18–20][AX-M] |
+| Looper / drums / live | ESS automates parameter steps; Individual mode switches effects. Drive/amp selection resets cabinet to an appropriate model. Delay trails require matching type/time; reverb matching type. Looper, drums and scenes unverified. | [Manual pp1–4][AX-M]; [EasyStart][AX-E] |
 
-| Field | Evidence / gaps |
-|---|---|
-| Instrument / expression | Bass; built-in expression controls wah,volume orparameters. Forward pedal switch toggles WAH/FX PARAM; volume follows pedal position. Parameter values at fully returned and fully advanced positions are separately adjustable through LEVEL/NR/CAB/PEDAL (manual p9). No external EXP inrear inventory. [Own features][AX5B-F];[Manual pp6–8][AX5B-M] |
-| K/F/B | **2 /2 /3**, text-derived: function selector,value knob;programUP/DOWN;WRITE,CANCEL,pedal-setting. Under-pedal switch additional;visual audit pending. [Manual pp5–6][AX5B-M] |
-| Display | Program/Value display shows program numbers, effect/parameter codes and tuner note names (manual p5). Diagonal, resolution, technology, color and touch remain unknown. [Manual][AX5B-M] |
-| Dimensions / weight | Own English manual:**249W×143D×44H mm;650g**; French section agrees. German product specs:**178×142×43mm;340g**. Conflict unresolved; manual values preferred,not averaged. [Manual p13][AX5B-M];[German specs][AX5B-S] |
-| Processing / choices | Product advertises57types. Own manual specifies **six simultaneous effects includingNR, plusvolume pedal**; DELAY/REVERB shares one category. Categories:PRE10,drive/amp16,cab10,MOD10,DLY5,RVB5,NR1=57. Manual countsPRE11 explicitly10+pedalwah1,so its categories sum58. Preserve counting basis; do not treat57/58 as concurrent blocks. [Features][AX5B-F];[Manual p13][AX5B-M] |
-| Factory / user memory | **40preset+40user=80**; writable01–40,presets41–80. WRITE overwrites destination;unsaved edits lost onprogram change/poweroff. Factory reload replaces all saved custom programs with factory programs; initial user-slot mapping remains unspecified. [Manual p12][AX5B-M] [Features][AX5B-F];[Manual pp7,10][AX5B-M] |
-| Synth / acoustic | Bass synth,Fretless andSlowAttack documented; acoustic simulation andsynth tracking architecture unverified. [Features][AX5B-F] |
-| I/O | Manual:quarter-inch monoINPUT,quarter-inch stereoTRS OUTPUT. Complete rear:INPUT,OUTPUT(sharedheadphones),DC9V. NoUSB,MIDI,AUX,externalEXP orloop sockets. [Manual pp6,13][AX5B-M] |
-| Conversion | AD/DA24-bit;31.25kHz. [Manual p13][AX5B-M] |
-| Power / battery / USB | **9V DC optionaladapter or4AA alkaline,about8hours**. Compatible KA-189 is **center-negative** according to the official German distributor; this is accessory compatibility evidence, not a socket-label inspection. KA-189 ratings conflict **1.0A versus600mA**; actual AX5B draw andbarrel dimensions remain unknown. NoUSB port forUSB power. Manufacturer listsmanual included; actual seller bundle unknown. [Manual p13][AX5B-M] |
-| IR / NAM / capture | User IR,native/convertedNAM andproprietarycapture import unknown. |
-| Editor / software | Editor/platform/currentOS support unknown. |
-| Looper / drums / live | Original Value LED lights in Edit mode when a changed parameter matches its saved value; it does not light in Program mode (manual p10). NR sensitivity is0.0–10; excessive settings may truncate notes (p9), not add algorithms. TunerA0–E6,reference438–445Hz; calibration resets to 440Hz at power-off (manual p11). Delay tails persist with matching delay type andTIME(P1); reverb tails with matching reverb type. Looper,drums,scenes unknown. [Manual pp5,13][AX5B-M] |
-| Used IDR / new IDR | **Unknown / unknown**. No exactitem/seller established2026-10-18;condition,stock,region,bundle,warranty,voucher andcheckouttotal unknown. |
+### Separate IDR hardware offers
 
-### AX5B named product library
+| Condition | IDR evidence / qualifications | Source |
+|---|---|---|
+| Used | **Rp2,200,000**, explicitly BEKAS; **Habis**. guitardistro, Kota Bandung; shop212343682/item20691675327. Checked2026-10-17, JS-limited body with two-week cached crawl. Working condition, adapter/bundle, warranty, shipping/tax/voucher and delivered total unverified. Stale29Sep delivery is not stock proof;10k late-delivery compensation is not a discount. | [Exact item](https://shopee.co.id/EFFECT-KORG-AX3000G-BEKAS-i.212343682.20691675327) |
+| Used-title historical ask; sold out | **Rp1.500.000**, title explicitly SECOND; **Habis**. Alif_music_store,Kab.Gresik;shop132269522/item28705630633. Checked2026-10-17,direct JS-limited cached body,last-month crawl;search snapshot five months old. Stale30Aug–1Sep delivery;no live availability orcompleted sale. Page taxonomy incorrectly shows food/noodles;hardware identity rests on title,not category. Working state,authenticity,adapter/bundle,selected variant,warranty,shipping/tax/voucher anddelivered total unknown. Up-toRp10.000 late-arrival compensation isnot price discount. | [Exact item](https://shopee.co.id/KORG-AX-3000-G-TONEWORKS-SECOND-i.132269522.28705630633) |
+| New | Unknown; no qualified retail/new offer established. | — |
 
-| Category | Exact-model product entries |
-|---|---|
-| PRE10 | COMP;LIMITER;XCITER;WAH;VIB/PH;CH/FLN;OCTAVE;FRETLESS;SLOWATK;SYNTH |
-| Drive/amp16 | TUBE OD;FAT DIST;OR DIST;SHRED;FUZZ;OCTFUZZ;VALVE;VALVE2;CLASSIC;SCOOPED;LA STUDIO;GOLD PNL;JAZZ;STUDIO;AC100;UK MAJOR |
-| Cabinet10 | CLASSIC8×10;MODERN4×10;LA4×10;METAL4×10;UK4×12;STUDIO1×15;JAZZ1×15;AC2×15;UK4×15;LA1×18 |
-| MOD10 | CL CHO;MT CHO;CL FLN;BI CHO;DUO PH;TREM;ROTARY;PITCH;RND FILT;FILTRON |
-| Delay5 | ECHO+;MLT HD;MOD DLY;ST DLY;PP DLY |
-| Reverb5 | SLAP;SPRING;PLATE;ROOM;HALL |
-| NR1 | Noise reduction |
+### AX3000G — pedal calibration and additional hardware asks
 
-[Own feature-page list][AX5B-F]. MOD punctuation is compressed in source; ten names retained without importing AX3000B entries. Original EFG1 manual43PDFpages,English introduction explicitlyAX5B; German introduction printsAX5G,another source identity inconsistency. No PDF download orvisual audit performed.
-
-### AX5B processing architecture
-
-Manual p5 specifies **six effects includingNR plusvolume pedal** simultaneously; DELAY/REVERB is one shared effect category. These distinctions supersede the shorter product-page ceiling wording without changing57/58library provenance. [Manual pp5,8][AX5B-M]
-
-### AX5B expression recall and cabinet dependency
-
-| Field | Own English-manual qualification |
-|---|---|
-| Expression / recall | Volume uses physical position immediately. WAH/FX PARAM retains program sound until pedal movement. [Manual p8][AX5B-M] |
-| Expression / target changes | Quick Assign requires a blinking assignable-parameter LED. Changing the controlled effect category resets FX PARAM to its suggested target. Changing PRE FX whileWAH selected changes target toVOLUME. [Manual pp9–10][AX5B-M] |
-| Expression / automatic effect state | ChoosingFX PARAM enables its effect. Returning immediately toVOLUME without movingpedal/editing disables it again; after movement/editing,it staysenabled. [Manual p10][AX5B-M] |
-| Routing / cabinet | Cabinet requiresDRIVE/AMP on; changingdrive/amp automatically chooses its recommendedcabinet. No independentcabinet operation inferred. [Manual p9][AX5B-M] |
-| Power / battery switching | Onbatteries,INPUT cable insertion powersunit;removal turnsitoff. A stereo INPUT cable will not activate battery power; use mono (manual p12). Adapter behavior keptseparate. [Manual p7][AX5B-M] |
-
-
-### AX5B — volume,calibration and bypass limits
-
-Checked2026-10-18 against own English EFG1 manual,printed pp6–7,9–12. No device calibration/reset performed.
+Checked 2026-10-18.
 
 | Field | Evidence / qualification |
 |---|---|
-| Live / master versus program level | Value knob is **master volume in Program mode**,withmaximum50 recommended for bass-amp connection. Per-program LEVEL is **0.0–10,standard5.0**;some settings clip unless lowered. These displayed ranges are not dB ratings. Power-on enters Program mode regardless of selector position. [Manual][AX5B-M] |
-| Expression / sensitivity calibration | Calibration uses pedal-setting+WRITE atpower-on,then heel return andthe desired forward switching position;release the pedal beforeWRITE confirms. Korg specifies foot operation because hand adjustment may be inaccurate. This adjusts travel/switch response,not a factory-program reload. [Manual pp11–12][AX5B-M] |
-| Live / bypass and mute | Press both program switches together for bypass;hold aboutone second for mute. Either single program switch exits without changing programs. Tuner operates inboth;value knob remainsmaster volume. This does not establish analog true bypass orpatch-change spillover. [Manual pp10–11][AX5B-M] |
+| Expression / calibration | [Own manual p44][AX-M] requires operating the pedal **by hand**. Power on holding **EXP/CTL + ▲**: display **EXP MAX**. Slowly move pedal back, release it, press WRITE: **EXP MIN**. Slowly move forward, release, press WRITE: COMPLETE. EXIT cancels; ERROR returns to EXP MAX for retry from the backward step. Display labels/order are retained exactly; this does not document toe-switch threshold adjustment. |
 
+| Condition / seller | Amount | Exact offer / access limits |
+|---|---:|---|
+| Condition unverified / BILLY MUSIK | **Rp2.200.000** | [323538241/43013568151](https://shopee.co.id/Efek-Gitar-Korg-Toneworks-AX3000G-i.323538241.43013568151), Kota Jakarta Timur. Two-month search versus last-month direct JavaScript-limited cache; relative tomorrow delivery. No Habis in extract is not stock proof. |
+| Condition unverified / VeGitarian Music | **Rp1.750.000; Habis** | [6880038/3740596745](https://shopee.co.id/efek-gitar-digital-korg-ax3000g-mulus-normal-adaptor-original-i.6880038.3740596745), Kab. Merangin. Three-month search cache, stale13July delivery; direct cache miss. Title claims clean/normal/original adapter; not an independently verified condition or package. |
 
-### AX5B — original appendix library and tracking qualifications
+Both are exact AX3000G hardware asks. New/used status, working state, selected variation, adapter contents, warranty/import region, authenticity, shipping/tax and checkout total remain unverified. BILLY’s up-toRp10.000 late-arrival compensation is not a price discount. Historical asks, not current available ranges or completed sales.
 
-Checked 2026-10-18 against [own EFG1 manual][AX5B-M], printed51–53 (PDF pages39–41). English AX5B cover/model verified; numbering differs from PDF page positions. No file downloaded or visual inspection claimed.
+### AX3000G — output compensation and pedal recall
 
-| Field | Evidence / qualification |
-|---|---|
-| Category choices / PRE disagreement | Appendix F3 is **Ring Modulator**,with oscillator-frequency,effect,direct andfilter controls; product PRE list instead namesWAH. Appendix lists pedalWAH separately. Preserve both library descriptions;do not silently replace the product list oradd another advertised effect. |
-| Synth / editable controls | SYNTH F9 offers depth/polarity −10…−0 and0…10,resonance0–10,attack0–10,wave0–10,mix0–10. Resonance is the suggested pedal target. Wave values are parameter settings,not11 independently counted synth algorithms;tracking/polyphony still unverified. |
-| Synth / single-note restrictions | Manual explicitly restricts OCTAVE andFRETLESS to single-note use;chords may produce muddy/uncontrolled results. Do not generalize that warning into a proven SYNTH polyphony specification. |
-| Expression / filter interaction | ClassicChorus,ClassicFlanger andFiltron MANUAL has no effect withDEPTH10. For Filtron pedal control ofMANUAL,Korg recommendsDEPTH0or near0. A mapped pedal target does not guarantee audible change at every setting. |
-
-
-### AX5B — official distributor adapter evidence
+Checked 2026-10-18 against [own manual pp6,9,12–13,27–28][AX-M].
 
 | Field | Evidence / qualification |
 |---|---|
-| Power / compatible adapter polarity | Korg’s German distributor-operated shop explicitly includes **ToneWorks AX5B** in the **KA-189** compatibility list and specifies **9V, center-negative** (outside positive). This supports compatible-adapter polarity; it is not an inspection of the AX5B socket label or proof of an original bundled adapter. |
-| Power / adapter current conflict | The same page says **1.0A** in its title/specification and **600mA** in an attribute. Preserve this adapter-rating conflict. Neither number is established AX5B operating current; barrel dimensions remain unverified. |
+| I/O / digital output level | GLOBAL **DOUT LVL** separately adjusts optical S/PDIF level: **−12, −6, 0, +6, +12 dB**. Rear LEVEL controls analog outputs/headphones; do not treat it as the documented digital-level control. |
+| Routing / destination compensation | **AP1/AP2/AP3** compensate amp-model output for different guitar amplifiers; **Ln** is specified for recording, S/PDIF or a power-amp input. The eight drive models are unaffected; compensation also does not apply with Drive/Amp off. This is not evidence of a physical output-level switch. |
+| Expression / program-change behavior | Actual pedal position applies immediately for **VOLUME, DELAY INPUT, REVERB INPUT**, or the same target as the previous program. Otherwise the saved program value applies until the pedal moves. |
+| Routing / selected pre-effect order | VOX WAH, AUTO WAH and U-VIBE/PHASE expose **PRE/POST** placement relative to Drive/Amp. This is a specific placement option, not unrestricted chain reordering. |
 
-Checked2026-10-18: [KA-189 original-accessory listing](https://www.korg-shop.de/en/korg-power-supply-ka-189/KRKA189). The shop identifies MUSIK MEYER as operator; [Korg’s own distributor directory](https://www.korg.com/hken/corporate/distributors/) independently identifies MUSIK MEYER/KORG & MORE for Germany. This is official-distributor accessory evidence, separate from the manufacturer owner’s manual. No purchase, download or device operation.
-
-
-### AX5B — explicit manual library headline, 2026-10-18
-
-| Field | Evidence / qualification |
-|---|---|
-| Category choices / manual58 versus product57 | Own English **EFG1 manual p5 explicitly advertises58 modeling variations**;this is not merely our arithmetic inference. Its p13 breakdown **PRE11(including separate pedal wah),drive/amp16,cab10,MOD10,DLY5,RVB5,NR1** sums58. The earlier product57 list remains distinct; omitting the separately counted pedal wah gives57,but no manufacturer correction establishes that as the product page’s intended method. The manual’s **six effects includingNR plusvolume pedal** is the simultaneous ceiling,not57/58. [Own manual][AX5B-M] |
-
-The same own p13 table lists9VDC/fourAA but no operating-current figure;this pass doesnot resolve currentdraw from the conflicting KA-189 accessory ratings. Initial user-slot factory mapping anddisplay technology remain unverified. Nofile downloaded or device operated.
-
-
-### AX5B — manufacturer EasyStart operating details
-
-Checked2026-10-18 against [Korg’s four-page AX5 Series EasyStart](https://cdn.korg.com/us/support/download/files/5802e92ca055dc3e0b4c1a9d389e642a.pdf?response-content-disposition=inline%3Bfilename%3DAX5_Series_EasyStart.pdf&response-content-type=application%2Fpdf),explicitly covering AX5G/AX5B. The support landing’s2015-06-01 label is not established firmware date. No device operation orlocal download.
-
-| Field | Model-qualified evidence |
-|---|---|
-| Expression / target LED | Pedal-setting cycles **Volume→Wah→FX PARAM**;indicator is **orange/red/green**,respectively. These are target-indicator colors,not proof of a color program display. |
-| Memory / factory reload destination | Guide p2 explicitly loads factory programs into **user01–40**,overwriting allcustom entries,then recalls01. This corroborates reload occupancy;it does not document exact initial factory-to-user patch mapping orcurrent used-unit contents. |
-| Live / bank navigation and editing display | WRITE/CANCEL jump banks inProgram mode. In the guide’s MOD parameter-edit example,ProgramUp displays currentvalue;ProgramDown displays type/parameter. These mode-dependent functions are not extra physical controls. |
-| Routing / sibling-only restriction | Guide p3 labels **Amp/Line Setting AX5G-only**. Its A1/A2/A3/Ln output profiles are not transferred toAX5B. Same page’s strayAX3-Series header andunrelated parameter labels remain source inconsistencies,not evidence of more AX5B categories. |
 <!-- comparison evidence ends -->
 
-[AX5B-F]: https://www.korg.com/de/products/effects/ax5b/page_1.php
-[AX5B-S]: https://www.korg.com/de/products/effects/ax5b/page_2.php
-[AX5B-M]: https://cdn.korg.com/us/support/download/files/ce3fdcaa2f36213ab3f032738bc6648f.pdf?response-content-disposition=inline%3Bfilename%3DAX5B_OM_EFG1.pdf&response-content-type=application%2Fpdf%3B
+Other observations checked2026-10-17: [Hope Music, Kota Bandung,703817770/21944834396](https://shopee.co.id/Efek-Gitar-Korg-AX3000G-i.703817770.21944834396) displays Rp2,200,000 with voucher and three unresolved variations; advertised150k voucher threshold1m, eligibility/base price/variant/condition/stock/bundle unknown. Excluded from used/new exact-price projection. [studio_musik_gema, Kab. Blitar,102019323/25663831731](https://shopee.co.id/efek-gitar-second-korg-ax3000g-ax1500g-pod-floor-plus.-bonus-tas-effect-guitar-ax-3000g-1500g-3000-1500-bekas-normal-bukan-zoom-nux-mg-valeton-line-6-moer-i.102019323.25663831731) is sold out, four variations across multiple models, Rp2m–2.5m with bag claim; exact AX3000G selection unresolved, not a qualified model price.
 
-## AX3B
+Remaining: external expression details, display details, retained specification-summary discrepancy, routing limits, electrical current/polarity, USB/import scope, current software compatibility, looper/live restrictions and fresh qualified offers. No software or dependencies downloaded.
 
-Bass multi-effects;partial,checked2026-10-18. Distinct fromAX3G/AX5B. [Own manual,AX3B_EFG1](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B),pp7–11.
+[AX-M]: https://cdn.korg.com/us/support/download/files/d0c02d2ae962c5b851fd8d754c7f842b.pdf
+[AX-E]: https://cdn.korg.com/us/support/download/files/f3b3eaaa9d32a6666c10ecb9daa632e9.pdf
+[AX-D]: https://www.korg.com/us/support/download/product/1/28/
+
+[AX-W]: https://www.korg.com/us/support/download/software/1/28/1387/
+[AX-A]: https://www.korg.com/us/support/download/software/1/28/1388/
+
+[AX-P]: https://www.korg.com/jp/support/adapter/
+
+## PANDORA stomp
+
+Shared guitar/bass multi-effects;not PANDORA mini/PX5D. Checked2026-10-17;partial. Ivory is a colour variant,not a separate processor. Ownership unestablished.
 
 <!-- comparison evidence begins -->
 
-| Field | Finding / qualification |
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / K/F/B | **K/F/B: 2 / 1 / 7** from the complete named-control enumeration: VOLUME/Value dials, one footswitch, three mode buttons and A–D. Power switch additional. Built-in/external/toe expression unverified. | [Manual pp9–10][PS-MJ] |
+| Display | Backlit LCD plus independent tuner LED meter/note indicator. Published diagonal,color depth andtouch unverified. | [Features][PS-F] |
+| Dimensions / mass | 70W×123D×48H mm including protrusions;511g including battery. Small footprint. | [Specifications][PS-S] |
+| Simultaneous effects | Maximum7;158 types. Fixed-category versusfreely assignable/routing limits require manual verification. | [Specifications][PS-S] |
+| Categories / choices | Dynamics/pickup27,amp26,cab23,mod/filter46,delay25,reverb10;noise reduction separately listed. Do not confuse158 choices with simultaneous capacity. | [Effect list][PS-E] |
+| Factory / user memory | 200 preset plus200 user programs;400 total by addition. User000–199 rewritable; preset200–399. A–D are four favourite assignments, not extra memories. Preset slots cannot be overwritten; edits require WRITE before changing programs/powering off. Factory reload overwrites user programs/settings. Initial user-bank fill unverified. | [Specifications][PS-S]; [Manual pp13,19,23,26–27][PS-MJ] |
+| Synth / acoustic | AC SIM in dynamics/pickup;SYNTH in amp category. Manufacturer describes guitar synth/acoustic simulator. Bass-specific amps/cabs/effects explicitly marked;not inferred from EQ. Synth and intelligent pitch harmony require single notes, not chords. | [Effects][PS-E]; [Features][PS-F]; [Manual pp31,34][PS-MJ] |
+| I/O | Guitar/bass quarter-inch INPUT,stereo mini AUX;quarter-inch line OUTPUT,stereo mini PHONES. USB power/editor documented;connector subtype,output stereo/control sockets pending. Mono OUTPUT cable carries left only; AUX level is adjusted at its source. | [Specifications][PS-S]; [Support][PS-D]; [Manual p12][PS-MJ] |
+| Power / battery / USB | One 9V 6LR61 alkaline or F6F22 carbon-zinc battery; approximately5h alkaline. USB bus power or optional **9V DC** adapter; current/polarity and draw unverified. Some computers need another power source or powered hub. Adapter-only Power Save starts after ≥4h inactivity; can be disabled. | [Specifications][PS-S]; [Manual pp8–12][PS-MJ] |
+| USB audio / MIDI | Korg USB-MIDI driver accompanies USB patch editing/library management. General MIDI control/message scope and USB audio remain unverified. | [Support][PS-D]; [Manual p27][PS-MJ] |
+| IR / NAM / capture | User IR,native/converted NAM andcapture import unestablished;REMS factory modeling is not import proof. | Unresolved |
+| Editor / platforms | Sound Editor1.1 Windows/Mac listed2015-06-01; description specifies shared mini/Stomp **1.1.0**. Windows USB-MIDI driver1.15r63e listed2026-01-20 separately. Current editor OS/mobile compatibility pending; software not downloaded. | [Support][PS-D]; [Windows editor][PS-EW]; [Mac editor][PS-EM] |
+| Looper / drums / live | 100 rhythm patterns,40–240BPM. Tuner27.5–2093Hz,A438–445Hz. Footswitch modes: ALt effects/bypass, A–d favourites cycle, 0–9 final program-digit cycle. Hold in either selection mode invokes bypass/tuner. Cabinet Through forces cabinet off. AUX pitch spans ±1 octave with mono output. Eco backlight lasts ~5s. Looper/scenes/trails unverified. | [Specifications][PS-S]; [Manual pp24–26][PS-MJ] |
+
+### Separate IDR hardware offers
+
+| Condition / seller | IDR evidence and qualifications | Exact item |
+|---|---|---|
+| Used | Unknown;no condition-verified used ask. | — |
+| New | Unknown;no condition-verified new ask. | — |
+| Conditional historical observation / Daily Music Store | **Rp1,730,000; Habis**, Kota Jakarta Timur, shop271847827/item6741582344. Exact PXST IV ivory title; checked2026-10-17, month-old index and JS-limited direct body. Condition, working state, adapter/bundle, physical variant, warranty, shipping/tax/voucher and final total unknown. Same-day delivery text is stale; late compensation is not discount. Not a verified new/used range or live-stock offer. | [Exact item](https://shopee.co.id/KORG-PXST-IV-PANDORA-STOMP-IVORY-i.271847827.6741582344) |
+
+### PANDORA stomp — synth oscillator variations
+
+Checked 2026-10-18 against [original EFGSJ2 manual, printed p31][PS-MJ]. Extracted text reverses word order; English and German sections corroborate the oscillator mapping. No downloads or hardware testing.
+
+| Field | Evidence / qualification |
 |---|---|
-| Expression | No built-in/toe pedal incontrolinventory;external EXP-2/XVP-10. PEDAL controls wah whenPRE FX WAH selected,otherwise volume. [Own manual pp4–5](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
-| K/F/B | **2/2/2**,text-derived:function selector,value knob;programup/down footswitches;WRITE/CANCEL buttons. Visualcorroboration pending. [Own manual pp4–5](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
-| Display | Program/value display;diagonal/color/touch unverified. |
-| Processing / categories | Manual:PRE10,drive/amp16,cabinet10,MOD10,delay5,reverb5,NR1. Delay/reverb shareonecategory;cabinet depends onactive drive/amp. **Six simultaneous effects includingNR;57 modeling variations**. Volume-pedal stage requires externalpedal. [Own manual pp4,7](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
-| Memory | **40user+40preset=80**;user01–40 rewritable,preset41–80;initial userfill unverified. |
-| Synth / acoustic | **Synth-bass effect confirmed** by exact-model manufacturer page,which explicitly lists SYNTH among PRE FX. Oscillator design,polyphony and acoustic simulation remain unverified. Fretless andSlow-Attack are separate effects,not proof of acoustic instrument modeling. [Korg AX3B features](https://www.korg.com/de/products/effects/ac3b/page_1.php),checked2026-10-18. |
-| Dimensions / mass | **178W×142D×43H mm;340g**,battery qualification unstated. |
-| I/O | Complete rear inventory:monoINPUT,shared stereoOUTPUT/headphones,PEDAL,DC9V. **No USB/MIDI connector listed**. [Own manual pp5–6](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
-| Power | DC9V adapter or4AA alkaline approximately8h;current/USBoperation unverified. ExactAX3B-compatible **KA-189 is9V center-negative**,per[official distributor](https://www.korg-shop.de/en/korg-power-supply-ka-189/KRKA189). Listing specifies100–240VAC50/60Hz input butconflicts **1.0A versus600mA** outputrating;neitherisAX3Bdraw. This isaccessorycompatibility evidence,not socket-label inspection ororiginalbundle proof. Distributor MUSIK MEYER isconfirmed in[Korg directory](https://www.korg.com/hken/corporate/distributors/);checked2026-10-18. |
-| IR / NAM / capture | Unverified. |
-| Editor / platforms | Exactmodel software unverified. |
-| Practical features | Manualtuner **C0–C6,A438–445Hz**. |
-| Processing / source conflict | [German manufacturer specifications](https://www.korg.com/de/products/effects/ac3b/page_2.php) say **PEDAL11** andtuner **A0–E6**,versusmanualPRE10/C0–C6. Preserve differences;no silentmerge. |
-| IDR price | Used/new unknown;exactShopee query yieldednoqualifiedhardware. Seller/condition/stock/bundle/warranty/voucher unverified. |
-| Practical features / conditional tails | Delay survives programchange onlywithsame delaytype andTIME[P1];reverb survives withsamereverbtype. This isconditional preservation,not universally seamless switching. [Own manual p4](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
-| Power / battery switching | MonoINPUT insertion switches batterypoweron;removal switchesoff. Stereo inputcable willnotpower batteries. Ownmanual doesnotresolve DCpolarity ordevicecurrent;exactmodel distributor-compatible adapter evidence isqualified inthePowerrow. [Own manual pp6,10](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
-| Memory / reload scope | Factory reload erases stored user programs andreplaces themwithfactory programs. This isnot a settings-onlyreset;initial userfill/duplication isstillunverified. No resetperformed. [Own manual p10](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
-| Conversion / format | ADC/DAC each **24-bit**,sampling **31.25kHz**. These areconverter specifications,not USBaudio capability. [Own manual p11](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
-| Practical features / bypass and calibration | Bypass disablesall effects includingNR;holdbothprogramswitches approximately1s mutes. Either switch exits withoutchangingprogram. Tuner reference resets **440Hz** afterpoweroff. [Own manual pp9–10](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
-| Memory / saved-value indication | **Original Value LED** lights when the edited parameter matches its saved value;in Program mode it indicates all parameters match the stored program. It is not simply an unsaved-change lamp. WRITE selects destination,then requires a second WRITE to replace its prior contents;CANCEL aborts. [Own manual p9,indexed](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B),checked2026-10-18. |
-| Memory / factory edit limits | Korg’s [AX3-series EasyStart](https://cdn.korg.com/us/support/download/files/1920f44acd69ffde968ab9fb92940e11.pdf),explicitly covering AX3B,says factory41–80 may be edited but not overwritten;save changes to user01–40. Eight banks of ten organize80 locations,not extra memory. Initial user fill remains unverified. |
-| Categories / PRE FX identities | Ten choices:COMP,LIMITER,XCITER,WAH,VIB/PH,CH/FLN,OCTAVE,FRETLESS,SLOWATK,SYNTH. These are alternatives within PRE FX,not ten simultaneous blocks. [Exact-model manufacturer list](https://www.korg.com/de/products/effects/ac3b/page_1.php). The other specifications page’s PEDAL11 conflict remains unresolved. |
-| Categories / drive-amp identities | Sixteen selector choices:TUBE OD,FAT DIST,OR DIST,SHRED,FUZZ,OCTFUZZ,VALVE,VALVE2,CLASSIC,SCOOPED,LA STUDIO,GOLD PNL,JAZZ,STUDIO,AC100,UK MAJOR. Manufacturer heading calls the combined bank Drive/Amp;do not report16 independent simultaneous amps. [Own list](https://www.korg.com/de/products/effects/ac3b/page_1.php),checked2026-10-18. |
-| Categories / cabinet identities | Ten:CLASSIC8×10,MODERN4×10,LA4×10,METAL4×10,UK4×12,STUDIO1×15,JAZZ1×15,AC2×15,UK4×15,LA1×18. Factory model choices do not establish user IR loading. [Own list](https://www.korg.com/de/products/effects/ac3b/page_1.php). |
-| Categories / delay and reverb identities | Five delays:ECHO+,MLT HD,MOD DLY,ST DLY,PP DLY. Five reverbs:SLAP,SPRING,PLATE,ROOM,HALL. Delay/reverb share the already-documented stage;these are not ten concurrent effects. [Own list](https://www.korg.com/de/products/effects/ac3b/page_1.php). Website MOD list lacks separators;the indexed original manual chart below resolves the ten separate choices. |
-| Categories / modulation identities | Own manual p44 assigns **F0–F9** respectively:CL CHO,MT CHO,CL FLN,BI CHO,DUO PH,TREM,ROTARY,PITCH,RND FILT,FILTRON. Thus DUO PH/TREM andRND FILT/FILTRON are separate alternatives,not combined effects. [Original manual,indexed chart](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B),checked2026-10-18. |
-| Processing / modulation parameter limits | PITCH displays **−12…+12**,FINE **−15…+15**,TRACKING1–10;retrieved chart does not labelfine units,so do not infer cents. FILTRON provides signed sensitivity/polarity andattack,resonance,manual,depth controls. These are parameter ranges,not extra algorithm counts orproof ofpolyphonic tracking. [Own manual p44](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
-| Categories / drive versus amp split | Original p43 identifies **d0–d5 six drive models** and **A0–A9 ten amp models**,together16 choices inone Drive/Amp bank. The website’s16-amplifier wording must not become16 separate amp algorithms plus six drives. [Own manual,indexed](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B),checked2026-10-18. |
-| Memory / reload source conflict | AX3B manual p10 says poweron holding both program switches plus **WRITE**;thenCANCEL aborts orWRITE confirms. Shared [EasyStart p2](https://cdn.korg.com/us/support/download/files/1920f44acd69ffde968ab9fb92940e11.pdf) instead says both switches plus **CANCEL** atentry. Preserve conflicting entry instructions;no hardware reset tested. Both describe factory programs replacing user memory. [Own manual](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
-| Power / low-battery indication | Manual p10 documents blinking **Lo** when batteries runlow. This is a low-battery indicator,not a numeric remaining-charge gauge. Unitcurrent remainsunverified;compatibleadapterpolarity evidence isqualified inthePowerrow. [Own manual](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
+| Synth / oscillator settings | **OSC TYPE 0–7 selects eight sawtooth/sine pitch variants; 8–15 repeats those with portamento enabled**. These are 16 settings within one SYNTH type, not 16 simultaneous oscillators or extra amp-category models. Single-note playing and correct instrument tuning remain required. |
+| Synth / threshold and filter controls | THRESHOLD adjusts trigger sensitivity to guitar/bass level, **1.0–10.0**; SYN LVL adjusts synth volume, **0.0–10.0**. VCF values **0.0–4.7 use positive sensitivity, 5.0–10.0 negative sensitivity**; manual recommends 5.0 for sine-wave oscillator. Preserve these displayed values without inventing Hz, dB or envelope times. |
 
 <!-- comparison evidence ends -->
+
+### Condition-unverified hardware observations
+
+Checked2026-10-17. Neither establishes a confirmed used/new price. The Daily Music observation is also shown as conditional historical evidence above. The pedal_kabul display-model mapping remains unresolved and stays outside active price comparisons.
+
+| Seller / item | IDR and access qualifications | Source |
+|---|---|---|
+| Daily Music Store,Kota Jakarta Timur;271847827/6741582344 | Rp1,730,000;**Habis**. Exact PXST IV ivory title;last-month index andJS-limited direct body. Relative same-day delivery stale. Condition,working state,adapter/bundle,variant verification,warranty,shipping/tax/voucher anddelivered total unknown. Late-delivery10k compensation notdiscount. | [Item](https://shopee.co.id/KORG-PXST-IV-PANDORA-STOMP-IVORY-i.271847827.6741582344) |
+| pedal_kabul,Kota Depok;80791628/24396793131 | Rp1,200,000;three-month indexed exactPandoraStomp title. Direct retrieval cache miss;display_model_id276421719659 unresolved. Condition,stock,colour,bundle,warranty,shipping/tax/voucher,total unknown;relative next-day delivery notstock proof. | [Item](https://shopee.co.id/jual-pedal-efek-Korg-Pandora-Stomp-i.80791628.24396793131) |
+
+Remaining: expression,published display details,full connector inventory,adapter electrical data,USB protocol/editor compatibility,imports andlive limits,qualified offers. Manual EFGSJ2 English text was checked alongside the earlier EFGS2 source. Counts derive from named controls, not a photograph estimate; reversed extraction word order was interpreted cautiously.
+
+[PS-S]: https://www.korg.com/ir/products/effects/pandora_stomp/page_3.php
+[PS-F]: https://www.korg.com/au/products/effects/pandora_stomp/page_1.php
+[PS-E]: https://www.korg.com/us/products/effects/pandora_stomp/page_2.php
+[PS-D]: https://www.korg.com/us/support/download/product/0/246/
+[PS-M]: https://cdn.korg.com/us/support/download/files/db0e40ab6d793d1df3c83dd801e5657c.pdf
+
+[PS-MJ]: https://cdn.korg.com/jp/support/download/files/26827ed905ce18aa7be2edd632ecdda7.pdf
+
+[PS-EW]: https://www.korg.com/us/support/download/software/0/246/1464/
+[PS-EM]: https://www.korg.com/us/support/download/software/0/246/1465/

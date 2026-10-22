@@ -95,6 +95,17 @@ def comparison_body(body):
     assert body.index(start) < body.index(end) and selected.strip(), 'Invalid comparison evidence range'
     return selected
 
+def natural_key(text):
+    return tuple((0,int(part)) if part.isdigit() else (1,part) for part in re.split(r'(\d+)',text.casefold()))
+
+def model_references(text, heading):
+    """Keep duplicate source labels attached to their model after section moves."""
+    prefix=text.split('\n## ',1)[0]
+    selected=dict(sections(text))[heading]
+    refs={m[1].lower():m[2] for m in re.finditer(r'^\[([^\]]+)\]:\s*(\S+)',text,re.M)}
+    refs.update({m[1].lower():m[2] for m in re.finditer(r'^\[([^\]]+)\]:\s*(\S+)',prefix+'\n'+selected,re.M)})
+    return refs
+
 def source_map(state, files):
     result = {}
     root_aliases = {'Line 6':'LINE6.md', 'M-VAVE':'M-VAVE.md', 'IK Multimedia':'IK-MULTIMEDIA.md'}
@@ -221,7 +232,7 @@ def make_plan(persist=True):
                 sources=[('effects/specialist.md',dict(sections(files['effects/specialist.md']))['Eligible record: BOSS GM-800'])]
                 r['link']='effects/specialist.md#eligible-record-boss-gm-800'
         for path,text in sources:
-            refs=references[path]
+            refs=(model_references(files[path], r['canonical'][1]) if r['canonical'] and path==r['canonical'][0] else references[path])
             for headers, rows, context in tables(text, strict=bool(r['canonical']), source=path+' ['+key+']'):
                 field_table = len(headers) in (2,3) and any(x in headers[0].lower() for x in ('field','required'))
                 price_table = any(x in ' '.join(headers).lower() for x in ('amount','idr','price','condition','seller')) and not field_table
@@ -394,7 +405,10 @@ def readme_counts(text, state, membership):
         assert len(matching) == 1, 'Ambiguous README brand: ' + filename
         assert all('|' not in model and '\n' not in model for model in models), 'Invalid model label'
         labels = {'VALETON.md': {'GP-200': 'GP-200 (GP-200X variant)'}}
-        lines[matching[0]] = prefix + ', '.join(labels.get(filename, {}).get(model, model) for model in models) + ' |\n'
+        lines[matching[0]] = prefix + ' ' + ', '.join(labels.get(filename, {}).get(model, model) for model in sorted(models,key=natural_key)) + ' |\n'
+    indexes=[i for i,line in enumerate(lines) if any(line.startswith('| ['+name+']('+name+') |') for name in state['root_brand_content'])]
+    ordered=sorted((lines[i] for i in indexes),key=natural_key)
+    for i,row in zip(indexes,ordered):lines[i]=row
     text = ''.join(lines)
     count = state['canonical_root_model_count']
     for pattern, replacement in (

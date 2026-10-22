@@ -2,444 +2,17 @@
 
 Root-level canonical brand document. **Checked2026-10-15.** Ampero One MP-80 is a new record. All six recorded Hotone models are consolidated below; technical verification remains partial. No GitHub workflows are used.
 
-## Ampero One MP-80
-
-Guitar, bass and acoustic-instrument multi-effects; **medium** footprint; built-in expression. This is not original Ampero MP-100, Mini MP-50, Ampero II Stomp MP-300, Ampero II MP-350 or Stage MP-380. Some regional/retailer copy appears to reuse original Ampero controls; the model-specific manual takes precedence. The record remains partial.
-
-| Required field | Source-backed specification / unresolved detail |
-|---|---|
-| Built-in expression | **Yes, with toe-click switching**; when expression assignment is off,the pedal can still act as volume. [ONE-M] |
-| External expression / switches | **One6.35mm TRS EXP2/CTRL input**, supporting external expression or two external momentary switches FS4/FS5. An external pedal is not included by this specification. [ONE-M,ONE-P] |
-| Knobs / footswitches / buttons | **2 /3 /0**: VOLUME and MENU/VALUE push-encoder;three footswitches. Encoder press and toe switch are separate functions,not additional front push-buttons. The three quick-access parameters are onscreen,**not three additional knobs**. No independent rear power switch is shown in the complete manual panel; connecting the adapter powers the unit. [ONE-M pp.3–5] |
-| Display | **4-inch,800×480,color touchscreen**. One main display; onscreen controls do not increase the physical button count. [ONE-P] |
-| Dimensions / weight | **273 W ×143 D ×51 H mm;1202g**. Medium,not within200×140mm compact filter. Cable and raised-pedal clearance are additional/unverified. [ONE-P] |
-| Processing | **9 simultaneous modules**,reorderable: FX1,FX2,AMP,NR,CAB,EQ,FX3,DLY,RVB;additional terminal volume/tempo function. Three flexible FX modules draw from the available libraries; not nine arbitrary duplicate engines. Extreme DSP combinations can overload. [ONE-M] |
-| Advertised library | Global page242 effects,64 amps,60 cabs,100+ modeled pedals and50+ original effects. These overlapping marketing figures are **not summed** into a unique total. Regional page also says244 and retains older update copy;current complete firmware-matched unique count remains unresolved. [ONE-P,ONE-J] |
-| Category choices from original manual | Shared FX1/FX2/FX3 heading71,including Dynamic9 and Frequency18;NR3,EQ7,DLY20,RVB10. V1.1 shared-FX breakdown is completed below;separate V3.1 category-row census is also recorded below,with duplicate-label andmarketing-count conflicts retained. Effects duplicated between NR/EQ and flexible FX are not counted as different algorithms. These are older-manual figures,not independently tested firmware3.1 totals. [ONE-M] |
-| Presets | **99 factory +99 user =198**,33 banks of3 in each group. Factory sounds may be edited but must be saved into user storage,not overwritten in factory banks. [ONE-P,ONE-M] |
-| Acoustic simulation | **Yes: AC Sim**,with Standard,Jumbo,Enhanced,Piezo modes in the manual;Acoustic Refiner is a separate acoustic-input effect. Factory acoustic-body IR/preset content includes steel-string,nylon-string and double-bass descriptions. Do not confuse acoustic amps with this actual simulator. [ONE-M,ONE-P] |
-| Synth | Specific current synthesizer algorithms **unverified**. Pitch/modulation effects and compatibility with synth input do not prove a synth engine. |
-| IR loading | Third-party **24-bit/44.1kHz mono WAV,1024 samples**. Original manual lists10 user positions71–80;regional firmware1.2 notes add10 user slots. Post1.2 expansion yields20by arithmetic;**V3.1 manual directly confirms User IR1–20** below. [ONE-P,ONE-M,ONE-J] |
-| Proprietary clones / NAM | **Firmware3.1 adds10 Sound Clone file locations,one active at a time**,usable in FX1/FX2/AMP;requires Ampero Editor1.5.0. Proprietary clone import is established. Those March release notes alone didnot establish NAM conversion;the later August notice below explicitly supports **NAM A2 through conversion withPC software1.6.0+**. Native NAM remains unverified. Do not copy native A2 Lite support from Ampero II models. [ONE-F] |
-| Input / aux | One6.35mm TS instrument input,4.7MΩ;one3.5mm stereo aux,10kΩ. No three-position input-mode selector;the high-impedance input is explicitly designed for electric,bass and acoustic instruments. [ONE-P] |
-| Output / headphones | Two6.35mm TS unbalanced L/R outputs,3.2kΩ;dedicated3.5mm stereo headphones,66Ω. No XLR output,mic/phantom or audio FX loop in the full published panel. Stereo output does not create two independent internal chains. [ONE-P,ONE-M] |
-| USB / control | USB-B with USB Audio support plus external TRS control input. No physical DIN/TRS MIDI port in the complete panel. USB MIDI capabilities are not inferred merely from the connector. [ONE-P,ONE-M] |
-| Power / battery / USB power | **9V DC center-negative,500mA maximum consumption**. Internal analog circuitry boosts to18V;that is **not an instruction to supply18V externally**. Internal battery and USB bus-powered operation are not established in the inspected primary specifications. [ONE-P] |
-| Editing apps | **Ampero Editor Windows/macOS** for parameters,IRs,patch management and updates;firmware3.1 originally paired with Editor1.5.0;later NAM A2 conversion requiresPC software1.6.0+ asqualified below. Mobile/Linux full editor not established. [ONE-M,ONE-F] |
-| Recording | USB audio with adjustable recording/monitoring levels;internal24-bit/44.1kHz processing. V3.1 manual documents independent L/R Dry/Effect recording andUSB1/2 reamping below;channel ceiling,sample-rate set andUSB wordlength remain unverified. Windows driver;macOS plug-and-play per manual. [ONE-P,ONE-M] |
-| Looper / drums / live | **100s mono PRE-effects or50s stereo POST-effects looper**;half speed,reverse,drum synchronization;**100 rhythm patterns**. Tuner432–447Hz,Thru/Bypass/Mute modes;CTRL assignments and global EQ. Regional introductory120-second looper wording conflicts with its own detailed100/50 specification and manual;do not promote120 as verified. [ONE-P,ONE-M,ONE-J] |
-
-### Ampero One — source conflicts and firmware context
-
-The original manual enumerates only VOLUME and MENU/VALUE as rotary controls;its three quick-access parameter fields are operated through touch or the encoder. Regional introduction and some sellers reuse three-extra-knob/four-switch wording from original Ampero. The verified MP-80 count is **two knobs and three switches**,not MP-100's layout. The numbered original manual was read as text;no successful PDF-image inspection is claimed.
-
-Firmware3.1's **2026-03-09** release additionally introduces Match30 Clean and calls for built-in expression recalibration. A release recommendation is not a command to update an unidentified owner's device. Keep the installed firmware unknown unless actually checked. The global support landing pages loaded but did not expose a newer complete revision history;3.1 is the specifically verified release,not an independently certified latest build. [ONE-F]
-
-### Ampero One — separate IDR observations
-
-| Condition / seller | Amount | Exact offer and qualification |
-|---|---:|---|
-| Retail indexed ask,Seven Stereo | **Rp5.580.000** | [shop16879370/item7452469341](https://shopee.co.id/Hotone-Ampero-One-Multi-Effect-i.16879370.7452469341);indexed2026-10-15,but retains August19–20 delivery text. Not live checkout verification. |
-| Separate retail indexed ask,Gelora Musik Serpong | **Rp5.580.000** | [shop306155985/item16193639298](https://shopee.co.id/Multi-Efek-Pedal-Hotone-Ampero-ONE-i.306155985.16193639298);August20–21 delivery text. |
-| FULLSET title,condition **not established** | **Rp3.709.999** | [Frost Station,shop1016216686/item54752222675](https://shopee.co.id/HOTONE-AMPERO-ONE-MP-80-FULLSET-i.1016216686.54752222675);older August delivery text. FULLSET does not establish used versus new;this amount is **not assigned to the used-price column**. |
-| Condition-verified used offer | **?** | No explicit used condition established in the retrieved offers. |
-
-These are individual asking observations,not a current market range or completed-sale statistics. Region,actual condition,bundle,warranty,shipping and stock remain unverified. No exchange-rate or secondhand-discount estimate is used. Do not apply a late-delivery compensation voucher as a product-price reduction.
-
-### Ampero One — sources
-
-[ONE-P] [Official global product and full specifications](https://www.hotone.com/products/multi-effects/ampero-one).
-
-[ONE-M] **Hotone-authored original Ampero One User Manual**, [complete original text mirror](https://manualzz.com/doc/80504239/hotone-ampero-one-user-manual): numbered panels pp.3–5,looper/expression pp.6–7,signal flow p.8,USB/software and algorithm appendix. Used actual manufacturer text,not generated mirror summaries. The manufacturer's own manual landing page did not expose a downloadable document in the retrieved response;the original mirrored text supplies supplementary evidence. No successful PDF rendering is claimed.
-
-[ONE-J] [Official Hotone Japan product and firmware1.2 notes](https://www.hotone.jp/brands/hotone/products/ampero-one);retains contradictory introductory knob/effect/looper copy,explicitly qualified above.
-
-[ONE-F] [Official2026-03-09 Sound Clone release notes](https://www.hotone.jp/announcements/ampero-sound-clone-release), specifically **Ampero One3.1**,not Ampero5.2,Mini2.2 or an Ampero II release.
-
-### Ampero One — original-manual library subtotals, 2026-10-17
-
-[Manufacturer-authored manual transcription][ONE-M], explicitly **firmware V1.1**, effect appendix pp22–28. Original document text, not the mirror’s generated FAQ or diagram descriptions; no visual inspection or file download.
-
-| Field | Verified revision-specific count / conflict |
-|---|---|
-| Processing / shared FX library | **Dynamics9 + Frequency18 + Overdrive/Distortion22 + Modulation22 =71 choices** shared by FX1/FX2/FX3. These are alternatives within the flexible modules, not71 simultaneous effects or213 unique algorithms. This completes the previously unresolved shared-FX subtotals for V1.1 only. |
-| Processing / AMP count conflict | The same appendix labels **AMP65**, versus the product page’s **64 amps** retained above. Revision/counting basis remains unresolved; do not silently replace one with the other or certify either as firmware3.1’s installed library. AMP Drive22 is distinct from the separate pedal-drive category’s22. |
-
-
-### Ampero One — amp and cabinet categories, 2026-10-17
-
-[Own V1.1 manual transcription](https://manualzz.com/doc/80504239/hotone-ampero-one-user-manual), printed pp28–36. Counts apply to this document, not a verified current firmware image.
-
-| Field | Verified breakdown / qualification |
-|---|---|
-| Processing / amp categories | **14 clean +22 drive +22 high-gain +5 bass +2 acoustic preamps =65 AMP choices**. Acoustic preamps process acoustic inputs; they are distinct from the AC Sim effect. This reconciles the manual’s internal subtotal, while its conflict with product64 remains unresolved. |
-| Processing / factory cabinet categories | Separate appendix headings give **60 factory speaker cabinets +10 factory acoustic-body entries**. The latter include guitar, mandolin and acoustic-bass bodies; they are not ten additional electric-speaker cabinets or user capture slots. |
-| IR / original slot numbering | The appendix labels CAB/IR70 but separately lists **user IR71–80**, so that heading is not the total storage count including those ten user positions. Empty user slots mute output. All CAB/IR selections share mic-position/type parameters; mic simulation can be disabled. Preserve this V1.1 numbering separately from the later documented slot expansion. |
-
-
-### Ampero One — converted NAM A2 support, 2026-10-17
-
-| Field | Verified support / boundary |
-|---|---|
-| IR / NAM / conversion | [Hotone Japan’s compatibility notice, dated2026-08-18](https://www.hotone.jp/announcements/nama2allbrand), explicitly lists **Ampero One: NAM A2 through conversion**, requiring **PC software1.6.0 or later**. This resolves the earlier conversion uncertainty left by the March Sound Clone notes. It does not establish native NAM execution, unrestricted NAM architectures or compatibility with every NAM file. The notice labels Ampero II models separately as native A2 Lite; do not transfer that status to MP-80. |
-| Editor / version scope | The March firmware3.1/Editor1.5.0 pairing above is retained as release history. The August notice requires newer PC software for A2 conversion and generally recommends current compatible firmware/software; it does not specify a new MP-80 firmware minimum or present Windows/macOS version matrix. Sound Clone’s landing page returned no readable text, so conversion steps and format limits remain unverified. No software, model files or firmware downloaded or run. |
-
-
-### Ampero One — additional exact hardware ask, 2026-10-19
-
-| Field | Evidence / qualification |
-|---|---|
-| Price / additional condition-unverified IDR | **Rp5.859.000**,seller **Soundstationstore Online**,KotaTangerangSelatan,shop250276993/item29359894471. [Exact Ampero ONE hardware listing](https://shopee.co.id/Hotone-Ampero-ONE-Multi-effects-Pedal-Efek-Gitar-i.250276993.29359894471),direct readable last-week cache. Condition,live stock,revision,firmware,selectedvariant,bundle,adapter,warranty,voucher,shipping/tax anddeliveredtotal unknown. Not assigned to condition-verified used/new prices orcompleted sales. |
-
-### Ampero One — current-manual source lead
-
-Checked2026-10-19:[official manual index](https://www.hotone.com/support/1?pid=43&tid=17) lists **Ampero One User Manual compatible with firmwareV3.1**,alongside olderV2.1/V2.0/V1.2/V1.1/V1.0 entries. At discovery,this listing established document availability only. Subsequent V3.1 manufacturer-authored mirror inspection andcategory census are recorded below;V1.1 census andits64-versus65amp conflict remain historical. No file downloaded.
-
-
-### Ampero One — firmware3.1 manual qualifications, 2026-10-19
-
-[Manufacturer-authored manual transcription](https://fr.scribd.com/document/1067861623/Ampero-One-Online-Manual-en-Firmware-V3-1-1773037044207),cover explicitly **For FirmwareV3.1**,Ampero One panels withVOLUME/MENU-VALUE andthree feet,47pages. Identity/revision matches the [official manual index](https://www.hotone.com/support/1?pid=43&tid=17). Used original document body,not Scribd's AI description;no file downloaded orsoftware run.
-
-| Field | Revision-specific finding / qualification |
-|---|---|
-| IR / current documented slots | Appendix explicitly lists **User IR1–20**;empty slots mute output. This confirms20forV3.1 directly,rather than relying only on earlier expansion arithmetic. |
-| USB / recording and reamp | Printedp16:independent L/R recording sources **Dry/Effect**;REC LEVEL−20to+20dB,MONITOR LEVEL−20to+6dB. REAMP routes USB playback1/2 into effects. Manual's DAW example uses recording inputs1/2;additional channels/sample-rate options remain unverified. It instructs disabling DAW track monitoring during reamp andturning REAMP off afterward. |
-| I/O / global cabinet bypass | Printedp15:**No Cab Mode independently bypasses CAB forL/R outputs**,overriding patch settings. |
-| Expression / ranges | Printedpp13–14:bounds0–100,including inverted ranges;Linear,Exponential,Logarithmic curves. External-pedal calibration omits the built-in hard-press step. |
-
-
-### Ampero One — V3.1 shared-FX census, 2026-10-19
-
-[Own V3.1 manual transcription](https://fr.scribd.com/document/1067861623/Ampero-One-Online-Manual-en-Firmware-V3-1-1773037044207),printedpp23–29. Editorial count of distinct named rows;parameter modes excluded. Original document body,not mirror AI summary.
-
-| Field | Revision-specific inventory |
-|---|---|
-| Processing / V3.1 shared FX | **Dynamics12+Frequency20+Overdrive/Distortion29+Modulation23=84 named choices**,shared acrossFX1/FX2/FX3. This is not84 simultaneous effects or252unique algorithms. SavedV1.1's71 remains historical. |
-| Processing / dynamics audit | Comprosso,Comparoma4,Blue Sustainer,Squeezer,Affinity Boost,Beefy Boost,Pristine Boost,FET Boost,Enhancer,Forest Boost,Gated Boost,Micro Boost. |
-| Processing / drive audit boundary | Count treats Basshammer1/2 as separate named models;Precise Attack,Blues Butter,Magic T,Prince of Drive,Behemoth M are also listed. Model modes andparameter variations are not extra rows. |
-| Synth / V3.1 classification | Path Filter creates synth-like sound through four-step filtering;polyphonic pitch/octave effects are separately documented. Neither alone establishes a general synthesizer engine. |
-| Processing / total reconciliation | The subsequent V3.1 cabinet/utility/time-effect andAMP census below completes category-row arithmetic. A deduplicated unique library total remains unresolved;do not mix84with older totals. |
-
-
-### Ampero One — V3.1 cabinet, utility and time-effect census, 2026-10-19
-
-[Own V3.1 manual transcription](https://fr.scribd.com/document/1067861623/Ampero-One-Online-Manual-en-Firmware-V3-1-1773037044207),printedpp36–43. Editorial counts of named rows;slots andparameter modes remain separate.
-
-| Field | Revision-specific inventory |
-|---|---|
-| Processing / cabinets | **60factory speaker cabinets+10factory acoustic IRs**;20userIR positions separate. Acoustic set includes Mandolin,Fretless Bass,Double Bass;not10extra speaker cabinets. |
-| Processing / microphone simulation | **10mic types+Off**:6dynamic,3condenser,1ribbon. CAB/IR shares mic,volume,low/high-cut andXYZposition parameters. |
-| Processing / NR and EQ | **3NR**:Smart/Fast/Custom Gate;also available inFX1/FX2. **7EQ**:Guitar1/2,Bass1/2,Para,Graphic,V-EQ. Duplicated module availability doesnot create extra unique algorithms. |
-| Processing / delay | **22named DLY models**,including2290Mod. Dual Eko processesL/R delays separately;Multi Head's12head variations remain modes within one model. |
-| Processing / reverb | **10**:Room,Hall,Church,Plate,Spring,Izumi,Northstar,Oceandeep,Sweet Space,Shimmer. Trail controls concern bypassed effect tails,not universal preset-change spillover. |
-| IR / Sound Clone slots | Appendix separately lists **Sound Clone1–10** loaded throughSound Clone Manage;these are file positions,not10factory algorithms orIR slots. |
-
-
-### Ampero One — V3.1 AMP census and counting limits, 2026-10-19
-
-[Own V3.1 manual transcription](https://fr.scribd.com/document/1067861623/Ampero-One-Online-Manual-en-Firmware-V3-1-1773037044207),printedpp30–36. Editorial row count;not a tested installed-firmware inventory.
-
-| Field | Revision-specific finding |
-|---|---|
-| Processing / AMP rows | **22Clean+28Drive+22HiGain+5Bass+2Acoustic=79listed rows**. Named channel/switch variants count separately. This doesnot overwrite historicalV1.1's65orproduct64. |
-| Processing / transcription ambiguity | Drive lists Messe IIC+1,2,2 while describing3switch combinations. Preserve the repeated2label;do not silently rename the third row orclaim79distinct names. Marshell SLP normal/bright also shares a displayed name with distinct channel descriptions. |
-| Processing / category arithmetic | V3.1 documented category-row subtotal:84sharedFX+79AMP+3NR+70factoryCAB/acousticIR+7EQ+22DLY+10RVB=**275entries**. This is **not a deduplicated unique-effect total**:module overlap,duplicate labels anddifferent model types remain. UserIR20,SoundClone10,mic choices andparameter modes are excluded from this subtotal. |
-| Processing / revision interpretation | The appendix includes Match30Clean andadditional amp variants absent from older totals. Product242effects/64amps andregional244 remain separate historical/marketing claims;no invented exact reconciliation. |
-
-
-## Hotone consolidation scope
-
-The six recorded Hotone models now retain their complete model findings and supporting comparison facts here. Original legacy sources remain available. Consolidation does not establish exhaustive market coverage or close unresolved specification and price fields.
-
-## Ampero Mini MP-50
-
-Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
-
-<!-- HOTONE-AMPERO-MINI source begins -->
-
-Checked **2026-10-14**. **Partial new record.** [Manufacturer product page][HOTONE-AMPERO-MINI-P] supplies the specifications below; [official front image][HOTONE-AMPERO-MINI-I] confirms the two footswitches. Do not substitute Ampero One or a larger Ampero model.
-
-| Field | Established / unknown |
-|---|---|
-| Expression | No built-in pedal; external TRS expression/footswitch input |
-| Controls | Rotary total **?**; **2 footswitches**; zero separate front-panel buttons; rear controls need complete review |
-| Screen | Manufacturer publishes **4-inch, 800×480, color touchscreen**; yes to touch; not photo-measured |
-| Dimensions / weight | **134×120×49 mm; 529 g**; compact |
-| Processing | **9 simultaneous modules; 199 effects**; per-category counts pending |
-| Presets | **99 factory +99 user** |
-| Synth / acoustic | Synth ?; **electric-to-acoustic simulation yes**, steel/nylon examples |
-| Audio/control | ¼-inch TS input; ⅛-inch stereo aux; ¼-inch TRS external control; single ¼-inch TRS stereo output; ⅛-inch headphones; USB-C |
-| Power | **9 V center-negative, 500 mA maximum**; battery/USB bus operation unverified |
-| IR / NAM | Third-party IR: mono WAV **24-bit/44.1 kHz, 1024 points**, capacity ?; NAM unverified |
-| Editor | **Windows/macOS**; mobile USB audio is not a mobile editor |
-| Extras | USB audio; looper **100 s mono /50 s stereo**; **100 rhythms** |
-
-### Shopee Indonesia observations
-
-| Condition / availability | IDR ask | Source |
-|---|---:|---|
-| Retail, Purple Taro variant with adapter in title; stock unconfirmed | **Rp4.315.000** | [Item 21384344851][HOTONE-AMPERO-MINI-S1] |
-| Retail, **sold out** in search evidence | **Rp3.250.000** | [Item 48456875050][HOTONE-AMPERO-MINI-S2] |
-| Explicit **PRELOVED**, **sold out** | **Rp2.800.000** | [Item 46555574691][HOTONE-AMPERO-MINI-S3] |
-
-These are separate indexed observations, not a market range or completed sales. Do not compare a sold-out used ask with an active-delivered new quote without preserving availability and variant. Seller authenticity, checkout stock, warranty and shipping remain unverified.
-
-[HOTONE-AMPERO-MINI-P]: https://www.hotone.com/products/multi-effects/Ampero%20Mini
-[HOTONE-AMPERO-MINI-I]: https://hotoneaudio.oss-cn-shenzhen.aliyuncs.com/prod/default/U%20Picture%20For%20Page%204_New%20Product%20Introduction_Ampero%20Mini_V01_230529.1685440379045.jpg
-[HOTONE-AMPERO-MINI-S1]: https://shopee.co.id/Multi-Efek-Pedal-Hotone-Ampero-Mini-MP-50PT-w-9V-adapter-Purple-Taro-i.306155985.21384344851
-[HOTONE-AMPERO-MINI-S2]: https://shopee.co.id/HOTONE-AMPERO-MINI-EFEK-GITAR-PEDAL-DIGITAL-MULTIEFEK-ONE-EFX-GUITAR-i.171167271.48456875050
-[HOTONE-AMPERO-MINI-S3]: https://shopee.co.id/HOTONE-AMPERO-MINI-PRELOVED-i.87936304.46555574691
-
-**Next:** verify rear rotary controls, algorithm breakdown, IR capacity and current listing condition/stock. The published screen specification is retained as a manufacturer claim, not an independently measured diagonal.
-<!-- HOTONE-AMPERO-MINI source ends -->
-
-### Ampero Mini MP-50 — supporting comparison provenance
-
-The complete supporting comparison was read before merging. Its model-specific values are retained below, including historical shorthand. These do not override fuller qualifications above. Original files and incoming links remain available.
-
-- **External expression** (No built-in expression): Yes, EXP/FS
-- **K/F/B** (No built-in expression): ?/2/0 front buttons
-- **Dimensions; weight** (No built-in expression): 134×120×49; 529 g
-- **Size** (No built-in expression): Compact
-- **Used IDR** (No built-in expression): **Rp2.800.000, PRELOVED, sold out**
-- **Retail IDR observation** (No built-in expression): Rp4.315.000, Purple Taro + adapter; unconfirmed stock; separate Rp3.250.000 sold-out ask
-- **Display type** (2. Displays): Manufacturer specifies 800×480
-- **Diagonal** (2. Displays): **4**
-- **Monochrome / color** (2. Displays): Color
-- **Touch** (2. Displays): **Yes**
-- **Simultaneous stages; categories / choices** (3. Processing, presets and loading): 9 simultaneous modules; 199 effects; category counts ?
-- **Preset storage** (3. Processing, presets and loading): 99 factory +99 user
-- **Acoustic simulation / synth** (3. Processing, presets and loading): **Electric-to-acoustic yes** / synth ?
-- **IR / NAM** (3. Processing, presets and loading): User mono WAV 24-bit/44.1 kHz/1024; slot count ?, NAM ?
-- **Physical ports, excluding DC input** (4. Audio/control connections): ¼-inch TS input; ⅛-inch aux; TRS EXP/FS; single ¼-inch TRS stereo output; ⅛-inch headphones; USB-C
-- **Power / batteries** (5. Power, software and practice/live features): **9V center-negative,500mA maximum**; battery/USB power ?
-- **Configuration apps** (5. Power, software and practice/live features): Windows/macOS editor
-- **Other documented functions** (5. Power, software and practice/live features): USB audio;100 s mono/50 s stereo looper;100 rhythms
-
-Sources: [effects/findings/2026-10-14-hotone-ampero-mini.md](HOTONE.md#ampero-mini-mp-50)<!-- historical-link:hotone-001 -->, [effects/shopee-multifx.md](research-state.json)<!-- historical-link:hotone-002 -->. No legacy file was deleted.
-
-### Ampero Mini — Sound Clone and converted NAM A2, 2026-10-17
-
-| Field | Verified support / revision limit |
-|---|---|
-| IR / proprietary clones | [Hotone Japan’s2026-03-09 Mini2.2 release notes](https://www.hotone.jp/announcements/ampero-sound-clone-release) add **ten imported Sound Clone files, one active at a time**, available in FX1/FX2/AMP. These are separate from user IR storage and do not establish onboard capture creation. Editor1.5.0’s release list explicitly includes Mini2.2. |
-| IR / NAM / conversion | [2026-08-18 model-specific notice](https://www.hotone.jp/announcements/nama2allbrand) establishes **Ampero Mini NAM A2 conversion with PC software1.6.0+**. This supersedes the earlier unresolved NAM field, not the retained historical observation. Native NAM and unrestricted architecture compatibility remain unverified. |
-| Processing / Mini2.2 additions | Mini’s own notes add **Precise Attack** in FX1/FX2 and **Match30 Clean** in AMP. Do not infer a new unique library total from the older199-effect headline plus these changes. Installed firmware and current complete category inventory remain unknown; no downloads or execution performed. |
-
-
-### Ampero Mini — controls and analog routing, 2026-10-17
-
-| Field | Verified finding / limitation |
-|---|---|
-| Controls / complete inventory | [Manufacturer-authored V1.0 manual, indexed numbered panel p2](https://manualzz.com/doc/html/80504220/hotone-ampero-mini-user-manual): **1 rotary /2 footswitches /0 separate buttons**. The rear volume knob controls all output connections; connecting the adapter powers the unit. This resolves the earlier unknown rotary total. Text-derived inventory; no new visual inspection. Onscreen plus/minus controls are not physical buttons. |
-| I/O / output wiring and levels | [Hotone’s own Mini page](https://www.hotone.com/products/multi-effects/Ampero%20Mini) specifies **unbalanced stereo TRS**, with **tip=L, ring=R** and a Y cable for separate channels. Do not treat it as one balanced mono output. Impedances: instrument4.7 MΩ, AUX10 kΩ, main output1 kΩ, headphones22 Ω. |
-| I/O / AUX and USB boundaries | The same product page says AUX bypasses internal effects and USB audio. Windows recording requires the driver; macOS is described as plug-and-play, with no current OS-version guarantee. USB Audio2.0 is a protocol specification, not proof of channel count or bus power. Exact USB stream channels/formats and user IR capacity remain unresolved. |
-
-
-### Ampero Mini — user IR storage and USB recording, 2026-10-17
-
-| Field | Verified finding / revision boundary |
-|---|---|
-| IR / user memory | [Hotone-hosted MP-50 manual, filename firmware V1.1](https://res.hotoneaudio.com/prod/support/MP-50%28Ampero%20Mini%29_Online%C2%A0Manual_EN_Firmware%20V1.1.1716885797823.pdf) lists **10 user IR slots (1–10)**; selecting an empty slot silences the output. This resolves the historical unknown for that documented revision, separately from ten Sound Clone files. The indexed document title retains V1.0; no later capacity increase is established. |
-| USB audio / recording routing | [Hotone-hosted Mini firmware V2.2 manual, USB Audio p20](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf) gives independent **Dry or Effect choices for left and right recording channels**. Recording gain is −20 to +20 dB; monitor gain −20 to +6 dB, both default0 dB. This establishes the documented L/R recording path, not a complete USB channel matrix, playback count, bit depth or sample-rate list. |
-
-Manufacturer-authored indexed text was read without downloading files, installing software or operating hardware. Current complete algorithm inventory, USB stream formats/playback channels and OS compatibility remain unresolved.
-
-### Ampero Mini — documented bass processing, 2026-10-17
-
-| Field | Verified finding / scope |
-|---|---|
-| Processing / bass AMP category | [Mini’s own firmware V2.2 manual, Effect List](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf) lists **five bass amp/preamp choices**: Alchemy Pre, Ampage Classic, Ampage Flip, Voxy Bass and Messe Bass 400. Their references are Alembic F-2B, Ampeg SVT, Ampeg B-15, VOX AC-100 and Mesa/Boogie Bass 400 respectively. This is positive model-specific bass-processing evidence and warrants shared membership in **ALL-BASS.md** while retaining ALL-GUITAR.md. It does not establish equal bass suitability for every algorithm or a complete current library total. |
-
-### Ampero Mini — external expression and CTRL limits, 2026-10-17
-
-[Manufacturer-authored firmware V1.2 manual, pp16–21](https://www.scribd.com/document/863661248/MP-50-Ampero-Mini-Online-Manual-EN-Firmware-V1-2-1734336366201), identified by its own title page and Mini panel, supplies the following text-derived limits; the mirror’s generated overview is not evidence.
-
-| Field | Verified finding / revision limit |
-|---|---|
-| Expression / simultaneous targets | The external pedal controls **four effect parameters plus overall volume simultaneously**. Each effect target has independent0–100 minimum/maximum, reversible endpoints and linear/exponential/logarithmic curves. Volume retains fixed heel-minimum/toe-maximum behavior. Calibration includes a firm toe-down step; this alone does not establish a separate toe-switch assignment. |
-| Expression / external socket modes | The socket selects **EXP, Single FS or Dual FS**; EXP mode disables the other footswitch options. This documents alternative socket modes, not simultaneous analog expression plus two switches. |
-| Controls / CTRL assignments | **Three CTRL functions** can toggle chosen modules. CTRL1 is accessible by holding onboard footswitch1; CTRL2/3 use external switching. The functions may share or differ in their module targets; they are not three additional physical switches. |
-
-### Ampero Mini — V2.2 volume switch persistence clarification
-
-Checked2026-10-19, [own V2.2 manual](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf), printedpp14,16–17,19–21. **CTRL→EXP→Target→VOLUME ON** enables expression volume; OFF disables it. The manual says all control settings change with patches and saving stores control information. Thus the documented volume enable is patch-level; a global override remains unverified. This does not prove every factory preset needs editing.
-
-The fixed heel/toe volume range is independent of four effect-target ranges. GLOBAL→EXP/FS selects socket mode and disables switch options inEXP mode, rather than overriding VOLUME assignment. The fixed onscreen VOLUME/TEMPO square does not negate its separate Pre/Post volume-position selector. No measured bypass/headphone/tail/looper coverage or pedal-position recall is established. No downloads ordevice operation.
-
-### Ampero Mini — volume-position revision boundary
-
-Checked2026-10-19. [Manufacturer Mini1.2 release notes,2024-12-19](https://www.hotone.com/news/Ampero-Mini%E6%96%B0%E5%9B%BA%E4%BB%B6%26%E8%BD%AF%E4%BB%B6%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81) explicitly addTEMPO/VOLUME→Vol Position Pre/Post. Thus theolder post-only description predates this documented choice;placement choice isnotglobal assignment. [Current official firmware index](https://www.hotone.com/support/2) still listsMini2.2 withEditor1.5.0 compatibility,andhistorical1.2/1.1 entries. No laterMini version established bythischeck;index listing isnotinstalled-firmware proof. Globalvolumeoverride andfactorypresetVOLUMEdefaults remainunverified;existing2.2patch-scope evidence retained. No packages,manualfiles orfactorypresets downloaded,installed,reset oroperated.
-
-### Ampero Mini — global menu and looper boundaries
-
-Checked 2026-10-19 against [Mini V2.2 manual, printed pp8–10,19–21](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf). GLOBAL’s general override statement is not an identified global VOLUME assignment. EXP/FS enumerates MODE, FS3 TAP, FS4 TAP and BANK SEL MODE; EXP disables the other options. Keep global volume **unverified**, not No.
-
-Looper Pre records mono dry audio; Post records stereo effected audio. Post-mode recorded phrases survive patch changes unchanged. Moving the looper position while running stops and erases the loop; this was not performed. REC LEVEL and LOOP LEVEL independently span0–99. These controls and patch persistence do not establish expression attenuation of existing loops. Tuner offers Thru/Bypass/Mute; its bypass option does not prove expression behavior. No hardware operation or downloads.
-
-## Ampero MP-100
-
-Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
-
-<!-- HOTONE-AMPERO-MP100 source begins -->
-
-Checked 2026-10-14. **Partial record; large footprint; built-in expression.** Exact original MP-100, not Ampero One, Mini or Ampero II. Useful findings are committed before starting the next model. [Scope](README.md#scope-and-ownership)<!-- historical-link:hotone-003 --> · [Resume](README.md#evidence-and-resuming)<!-- historical-link:hotone-004 -->.
-
-### Hardware and processing
-
-| Required field | Established value / explicit remaining uncertainty |
-|---|---|
-| Expression | Built-in pedal plus one 6.35 mm TRS EXP2 input. Toe-switch implementation not verified |
-| Controls, K/F/B | **5 rotary / 4 footswitches / 1 separate front button**: volume, MENU/VALUE, three quick-access knobs, four footswitches, device-lock button. Push-encoder counted once; rear switches separate. Manufacturer panel enumeration [M] and three-knob description [P] |
-| Dimensions and weight | **320 W × 147 D × 46 H mm; 1408 g**. Large by this repository's size bins; cables/pedal travel additional [P] |
-| Display | **4-inch, 800×480, color touchscreen**; one main display [P] |
-| Processing | **9 simultaneous modules**. FX1/FX2/FX3 have shared libraries; amp/cab/EQ/gate/delay/reverb stages are not nine arbitrary duplicate engines [P,M] |
-| Effects and category choices | Product page: **240+**, including 64 amps, 60 cabinets, 100+ pedal models and 50+ original effects. These overlapping marketing counts are not summed. V3.0 manual documents **71 shared FX1/2/3 choices**, including dynamic 9 and frequency 18; remaining category subtotals and current V5.2 total need a matched effect list [P,M] |
-| Presets | **99 factory + 99 user =198**. Factory patches can be adjusted but not overwritten in their factory banks; save to a user location [P,M] |
-| Acoustic simulator | **Yes**: AC Sim with Standard/Jumbo/Enhanced/Piezo modes in V3.0 list. Acoustic Refiner is a separate acoustic-input effect; product also describes acoustic-body IRs [P,M] |
-| Synth | Exact current synthesizer algorithms unverified; do not treat pitch/modulation alone as a synth |
-| IR | Third-party **24-bit/44.1 kHz mono WAV, 1024 samples**; user-slot capacity not established in the checked specification [P] |
-| Captures / NAM | **Firmware 5.2 adds Sound Clone import: 10 stored clone files, one usable at a time, in FX1/FX2/AMP.** Proprietary workflow established; native-versus-converted NAM, accepted NAM architectures and capture-file limits require further documentation. Do not label IR support as NAM support [F] |
-
-### Connections, power and software
-
-| Field | Specification |
-|---|---|
-| Audio input | One 6.35 mm TS instrument input with electric/acoustic/line selector; 3.5 mm stereo aux. Input impedances 1 MΩ /4.7 MΩ /10 kΩ respectively [P] |
-| Audio output | Two 6.35 mm TS unbalanced L/R outputs, two balanced XLR L/R outputs with ground lift, dedicated 3.5 mm stereo headphones [P] |
-| Other ports | 6.35 mm TRS EXP2, five-pin DIN MIDI IN, USB 2.0 Type-B, DC. No microphone/phantom input, MIDI OUT or external FX loop in complete published connector list [P] |
-| Power | **18 V DC center-negative, 500 mA maximum consumption**. Battery and USB-powered operation not established; USB audio does not establish bus power [P] |
-| Configuration | **Ampero Editor Windows/macOS** for editing, managing effects/IRs and updating. Firmware **5.2 requires Editor1.5.0** per release notes. No mobile/Linux editor claim established [P,F] |
-| Recording | USB Audio2.0 and USB recording documented; 24-bit/44.1 kHz processing. Exact interface channel count not independently verified in these sources [P] |
-| Practice / live | **100-second mono /50-second stereo looper; 100 drum patterns**, tuner, assignable switches; rearrangeable chain documented in V3.0. No unmeasured latency or switching-gap claim [P,M] |
-
-### IDR evidence — price is not checkout stock
-
-| Condition | Amount | Source / qualification |
-|---|---:|---|
-| Retail hardware listing, detailed condition unconfirmed | **Rp7.535.000** | [Swee Lee Official Shop, Shopee shop799119783/item28319916328](https://shopee.co.id/Hotone-MP-100-Ampero-Multieffects-Pedal-i.799119783.28319916328). Reopened; cached/JavaScript-limited listing, not authenticated stock or final delivered price |
-| Separate retail hardware listing | **Rp7.535.000** | [Gelora Musik Serpong, shop306155985/item22933054510](https://shopee.co.id/Multi-Efek-Pedal-Hotone-MP-100-Ampero-i.306155985.22933054510), indexed with older delivery text; not a second-hand lower bound |
-| Used | **?** | No condition-verified used price obtained |
-
-Seller branding and original-product claims are not independent authentication. Late-delivery vouchers are not purchase discounts. Accessories, regional firmware, final taxes/shipping and live stock require seller/checkout verification. No foreign exchange estimate or percentage-of-new used price used.
-
-### Sources and revision limits
-
-[P] [Manufacturer product/specification page](https://www.hotone.com/products/multi-effects/ampero).
-
-[M] Hotone-authored **V3.0** manual mirrored on ManualsLib: [panel and memory definitions, p.4](https://www.manualslib.com/manual/1596650/Hotone-Ampero.html?page=4); [effect list, p.23](https://www.manualslib.com/manual/1596650/Hotone-Ampero.html?page=23). The manufacturer's numbered panel text was read; no PDF screenshot inspection is claimed. V3.0 counts are not current-firmware tests.
-
-[F] [Hotone Japan, 2026-03-09 release notes](https://www.hotone.jp/announcements/ampero-sound-clone-release) and [global firmware index](https://www.hotone.com/support/2?pid=1&tid=1), both naming V5.2/Editor1.5.0. Pink/limited V5.2A is not silently substituted for the ordinary hardware firmware. The manual-download page returned a server-error shell; another mirrored V4.1 PDF could not be fetched.
-
-Remaining: firmware-matched complete algorithm breakdown, synth choices, IR capacity, toe implementation, bus-power confirmation, current used offers and exact NAM workflow. **Next marketplace model: Hotone Ampero II MP-350.**
-<!-- HOTONE-AMPERO-MP100 source ends -->
-
-### Ampero MP-100 — supporting comparison provenance
-
-The complete supporting comparison was read before merging. Its model-specific values are retained below, including historical shorthand. These do not override fuller qualifications above. Original files and incoming links remain available.
-
-- **Built-in / external expression** (Hardware and displays): Yes / EXP2
-- **K/F/B** (Hardware and displays): 5/4/1; toe unverified
-- **Published dimensions, mm; weight** (Hardware and displays): W320×D147×H46; 1408 g
-- **Main display** (Hardware and displays): 4-inch color, 800×480, touchscreen
-- **Processing and memory** (Processing, storage and loading): 9 simultaneous modules; 99 factory + 99 user. Earlier manual and current marketing counts differ; explicit acoustic simulator documented
-- **IR / NAM / captures** (Processing, storage and loading): 1024-sample user IRs; firmware 5.2 Sound Clone: 10 stored, one active. Do not infer native NAM from proprietary clone import
-- **Connection / software highlights** (Connections, power and apps): Mono input, stereo quarter-inch and XLR outs, dedicated phones/aux, MIDI IN, USB-B, EXP2; Windows/macOS editor
-- **Documented power** (Connections, power and apps): 18 V center-negative, 500 mA maximum; USB/battery operation not established
-- **Used IDR** (IDR observations and original commits): ?
-- **Retail observation** (IDR observations and original commits): Rp7.535.000, listing retrieved; detailed condition/stock unconfirmed
-- **Original model commit** (IDR observations and original commits): `95075d2b802d2c8ef5374426fd8f3d66ad218451`
-
-Sources: [effects/findings/2026-10-14-hotone-ampero-mp100.md](HOTONE.md#ampero-mp-100)<!-- historical-link:hotone-005 -->, [effects/shopee-multifx-5.md](research-state.json)<!-- historical-link:hotone-006 -->. No legacy file was deleted.
-
-### Ampero MP-100 — converted NAM A2 compatibility, 2026-10-17
-
-| Field | Verified support / limits |
-|---|---|
-| IR / NAM / conversion | [Hotone Japan’s2026-08-18 compatibility notice](https://www.hotone.jp/announcements/nama2allbrand) explicitly lists **Ampero: NAM A2 conversion**, requiring **PC software1.6.0+**. This resolves the earlier conversion uncertainty in the original MP-100 record. It does not establish native NAM, unrestricted architectures or all-file compatibility. |
-| Editor / version scope | Retain firmware5.2/Editor1.5.0 as the earlier Sound Clone release pairing; the August conversion notice requires newer PC software. It supplies no separate MP-100 firmware minimum or current OS matrix. Installed versions and actual conversion results remain unverified; nothing downloaded or run. |
-
-
-### Ampero MP-100 — output loading and USB-audio support
-
-Checked2026-10-18 against [own global product page](https://www.hotone.com/products/multi-effects/ampero),not Mini/One/II. Browsertext only,no driver/software downloads ordevice operation.
-
-| Field | Exact-model qualification |
-|---|---|
-| I/O / output impedance | Unbalanced output**3.2kΩ**,balanced output**2kΩ**,headphones**66Ω**;AUX input10kΩ. These are impedances,not headphone power orrecommended minimumload. |
-| Recording / host support | Manufacturer states USBaudio plug-and-play forWindows10or later andmacOS;earlierWindows requires adriver. Generic ASIO5.41.2 is separately listed. This doesnot establish editorOS support,interfacechannelcount or compatibility with every currentOS/CPU. |
-| Routing / AUX | AUX bypassesinternal effects;mono line-output use yieldsmono AUX. No USBcapture ofAUX inferred. |
-
-### Ampero MP-100 — unresolved Black/Pink offer
-
-| Price class | Amount andqualification |
-|---|---|
-| IDR condition-unverified variant ask | [Salomo Musik,shop1776275/item18091161846](https://shopee.co.id/Hotone-MP100-Ampero-Multieffects-Pedal-Original-i.1776275.18091161846),KotaJakartaUtara. Checked2026-10-18:four-month search**Rp7.534.000**;opened last-monthcachedbody**Rp7.535.000**. Black/Pink choices shown,butselectedvariant unknown. Condition,live stock,workingstate,firmware,adapter/bundle,warranty,shipping/tax andcheckouttotal unverified. Up-toRp10.000latearrival compensation isnot productdiscount. Neither amount isqualified used/new evidence orproof ofa distincthardware model. |
-
-Earlier ledger discovery mention ispreserved;this adds exact datedqualifications to thebrand/comparisons withoutadding amodel orprice range.
-
-### Ampero MP-100 — V3.0 pedal and USB routing
-
-Checked2026-10-18 against the same identity-matched manufacturer-authored45-page V3.0 manual reproduction. Globalmanual route stillshowsServerError. Historicaldocument limits do not certify installedV5.2 behavior;no downloads/calibration/recording performed.
-
-| Field | Own-manual qualification |
-|---|---|
-| Expression / targets andrange | EXP1 controls up to**four parameters**,each with**0–100 endpoints**,reversible whenMIN>MAX;Line,Exp,Log curves. WithEXP1off,pedalcontinuesasvolume withitsownrange/curve. [Printed12–13](https://www.manualslib.com/manual/1596650/Hotone-Ampero.html?page=14) |
-| Expression / toe calibration | Built-in calibration includesheel,toe,andstrongtoe-pressure stages. ExternalEXP2 calibration omitspressurestage. This confirms pressurecalibration,not aninspectedmechanicalswitch implementation. [Printed13](https://www.manualslib.com/manual/1596650/Hotone-Ampero.html?page=15) |
-| Expression / sharedEXP2 socket | Selectexpression,singlefootswitch ordualfootswitch mode;these consume thesameconnection. [Printed16](https://www.manualslib.com/manual/1596650/Hotone-Ampero.html?page=18) |
-| Recording / USBsources | L/Rrecordingchannels independentlyselectDryorEffect;recordgain**−20to+20dB**,default0dB. This establishesdrycapture selection,not aprovenUSBreturnreamping path orlargerchannelcount. [Printed15](https://www.manualslib.com/manual/1596650/Hotone-Ampero.html?page=17) |
-| Routing / NoCab | GlobalNoCab bypassesCAB independentlyonL/R,overridingpatchsettings. This doesnotdeleteuserIRs. [Printed15](https://www.manualslib.com/manual/1596650/Hotone-Ampero.html?page=17) |
-
-IRslot total remainsunverified;do notconvert a historical“10 addedslots”searchsnippet into totalcapacity.
-
-### Ampero MP-100 — manufacturer-hosted Japanese manual
-
-Checked 2026-10-18: the [Japanese product page](https://www.hotone.jp/brands/hotone/products/ampero) links this [57-page original AMPERO manual](https://www.hotone.jp/manuals/hotone/AMPERO.pdf). Panel matches original MP-100 input selector, XLR outputs, EXP2 and18V supply. Appendix page numbering repeats; no explicit matching firmware edition established. No file downloaded or device operated.
-
-| Field | Evidence / revision qualification |
-|---|---|
-| IR / documented user slots | PDF page46 explicitly lists **User IR71–80: ten slots** for third-party files. Selecting an empty slot **mutes output**. This establishes that appendix inventory, not current V5.2 capacity or an additional ten simultaneous IRs. [Original PDF p46](https://www.hotone.jp/manuals/hotone/AMPERO.pdf) |
-| Expression / pedal switch | Printed13 documents the expression-pedal switch functioning as **CTRL**; switching it off disables the assigned parameter function while volume operation remains. Combined with prior toe-pressure calibration, switch operation is documented; internal mechanical construction remains uninspected. [Original PDF p13](https://www.hotone.jp/manuals/hotone/AMPERO.pdf) |
-| Processing / DSP ceiling | Printed16 warns effect selection/quantity can trigger **System Overload**. Keep the nine-module maximum DSP-dependent; it does not guarantee every nine-effect combination. [Original PDF p16](https://www.hotone.jp/manuals/hotone/AMPERO.pdf) |
-
-The earlier global manual-route ServerError remains historical access evidence; this Japanese route supplies an accessible manufacturer original without replacing the separate V3.0 mirror.
-
-### Ampero MP-100 — Japanese appendix category census
-
-Checked 2026-10-18 against [manufacturer-hosted original PDF](https://www.hotone.jp/manuals/hotone/AMPERO.pdf),PDF pages33–51. Appendix edition remains unestablished; counts below are that document’s printed headings, not a V5.2 inventory. No download or execution.
-
-| Field | Category choices and counting limits |
-|---|---|
-| Category choices / shared FX | **71 = Dynamic9 + Frequency18 + Overdrive/Distortion22 + Modulation22**, shared by FX1/FX2/FX3. Count the library once, not213 unique algorithms. |
-| Category choices / AMP conflict | Header **63**; printed subcategories **Clean14 + Drive19 + HiGain22 + Bass5 + Acoustic2 =62**. Unresolved one-entry discrepancy; no invented missing model. |
-| Category choices / CAB | Header **70** includes **10 factory acoustic cabinets**. User IR71–80 are separate writable slots, not another ten factory algorithms. |
-| Category choices / NR and EQ | **NR3;EQ7**. Parameters, bands and presets do not multiply algorithm counts. |
-| Category choices / delay and reverb | **DLY20;RVB10**. Each is an alternative library, not20/10 concurrent processors. |
-| Processing / header-total reconciliation | **71+63+3+70+7+20+10=244**, derived from headers. This explains one documented counting basis but does not resolve AMP63/62, later additions, or global product240+ wording. |
-
-Nine simultaneous modules remain DSP-limited; library size and onboard patch memories remain separate.
-
-### Ampero MP-100 — documented USB-return reamping
-
-Checked 2026-10-18 against [manufacturer-hosted Japanese manual,printed25–26](https://www.hotone.jp/manuals/hotone/AMPERO.pdf). This resolves the earlier unverified USB-return path for the documented configuration. Minimum firmware and installed-unit behavior remain unverified; no DAW or hardware operation performed.
-
-| Field | Documented routing / limits |
-|---|---|
-| Recording / USB-return reamping | **REAMP on routes USB audio playback1/2 through Ampero’s effects chain**. The example sends a dry DAW track to playback1/2 and records processed input1/2 on another track. This documents that stereo pair, not additional channels or proprietary capture generation. |
-| Recording / monitoring controls | USB monitor level **−20 to+6dB,default0dB**; recording level remains−20 to+20dB. Manufacturer instructs keeping DAW track monitoring off during reamping to avoid feedback, then disabling REAMP afterward for normal computer playback. |
-
-Earlier dry/effected recording-source choices remain separate from this return-routing switch. The manual’s unspecified edition does not establish which firmware first introduced reamping.
-
-### Ampero MP-100 — looper placement, drums and tuner
-
-Checked 2026-10-18 against [own Japanese manual,printed9–12](https://www.hotone.jp/manuals/hotone/AMPERO.pdf). Edition/minimum firmware remains unestablished; no playback, recording or device operation performed.
-
-| Field | Documented practical qualification |
-|---|---|
-| Looper / Pre versus Post | **Pre:100s dry mono;Post:50s effected stereo**. Later patch changes do not alter a Post recording’s sound. Half-speed and reverse apply to the whole recorded phrase; recording automatically changes to playback near the time limit. Onboard loop save/power retention remains unverified. |
-| Drums / tempo and sync | Tempo **40–250BPM**; BPM Sync ties drums to patch tempo. Drum playback continues after leaving its page. Loop/drum sync may be lost after arbitrary playback/stop, pattern or tempo changes; half-speed/reverse toggles do not affect that sync according to the manual. |
-| Live / tuner | Reference **435–445Hz**,default440Hz;choose **Thru or Mute**. This specifies reference pitch,not detection range,accuracy or calibration retention across power cycles. |
-
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [Ampero II MP-350](#ampero-ii-mp-350)
+- [Ampero II Stage MP-380](#ampero-ii-stage-mp-380)
+- [Ampero II Stomp MP-300](#ampero-ii-stomp-mp-300)
+- [Ampero Mini MP-50](#ampero-mini-mp-50)
+- [Ampero MP-100](#ampero-mp-100)
+- [Ampero One MP-80](#ampero-one-mp-80)
+- [Hotone consolidation scope](#hotone-consolidation-scope)
+<!-- brand-index ends -->
 
 ## Ampero II MP-350
 
@@ -1091,3 +664,440 @@ Sources: [effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md](HOTONE.md
 ### Ampero Mini — across-preset volume audit, 2026-10-19
 
 [Official firmware V2.2 manual](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf), printed pp5,13–20: control settings change with patches and need saving. **No global volume-target override established.** Volume position is Pre/Post; volume endpoints are fixed and unaffected by the four target ranges. FS1/FS2 select previous/next patches. EXP mode shares the switch socket. Bypass, headphone, tail and looper attenuation remain unverified; rear master-knob coverage is not expression coverage. Earlier V1.0 post-only wording is retained as revision history. See [capability comparison](EXPRESSION-VOLUME.md).
+
+## Ampero Mini MP-50
+
+Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
+
+<!-- HOTONE-AMPERO-MINI source begins -->
+
+Checked **2026-10-14**. **Partial new record.** [Manufacturer product page][HOTONE-AMPERO-MINI-P] supplies the specifications below; [official front image][HOTONE-AMPERO-MINI-I] confirms the two footswitches. Do not substitute Ampero One or a larger Ampero model.
+
+| Field | Established / unknown |
+|---|---|
+| Expression | No built-in pedal; external TRS expression/footswitch input |
+| Controls | Rotary total **?**; **2 footswitches**; zero separate front-panel buttons; rear controls need complete review |
+| Screen | Manufacturer publishes **4-inch, 800×480, color touchscreen**; yes to touch; not photo-measured |
+| Dimensions / weight | **134×120×49 mm; 529 g**; compact |
+| Processing | **9 simultaneous modules; 199 effects**; per-category counts pending |
+| Presets | **99 factory +99 user** |
+| Synth / acoustic | Synth ?; **electric-to-acoustic simulation yes**, steel/nylon examples |
+| Audio/control | ¼-inch TS input; ⅛-inch stereo aux; ¼-inch TRS external control; single ¼-inch TRS stereo output; ⅛-inch headphones; USB-C |
+| Power | **9 V center-negative, 500 mA maximum**; battery/USB bus operation unverified |
+| IR / NAM | Third-party IR: mono WAV **24-bit/44.1 kHz, 1024 points**, capacity ?; NAM unverified |
+| Editor | **Windows/macOS**; mobile USB audio is not a mobile editor |
+| Extras | USB audio; looper **100 s mono /50 s stereo**; **100 rhythms** |
+
+### Shopee Indonesia observations
+
+| Condition / availability | IDR ask | Source |
+|---|---:|---|
+| Retail, Purple Taro variant with adapter in title; stock unconfirmed | **Rp4.315.000** | [Item 21384344851][HOTONE-AMPERO-MINI-S1] |
+| Retail, **sold out** in search evidence | **Rp3.250.000** | [Item 48456875050][HOTONE-AMPERO-MINI-S2] |
+| Explicit **PRELOVED**, **sold out** | **Rp2.800.000** | [Item 46555574691][HOTONE-AMPERO-MINI-S3] |
+
+These are separate indexed observations, not a market range or completed sales. Do not compare a sold-out used ask with an active-delivered new quote without preserving availability and variant. Seller authenticity, checkout stock, warranty and shipping remain unverified.
+
+[HOTONE-AMPERO-MINI-P]: https://www.hotone.com/products/multi-effects/Ampero%20Mini
+[HOTONE-AMPERO-MINI-I]: https://hotoneaudio.oss-cn-shenzhen.aliyuncs.com/prod/default/U%20Picture%20For%20Page%204_New%20Product%20Introduction_Ampero%20Mini_V01_230529.1685440379045.jpg
+[HOTONE-AMPERO-MINI-S1]: https://shopee.co.id/Multi-Efek-Pedal-Hotone-Ampero-Mini-MP-50PT-w-9V-adapter-Purple-Taro-i.306155985.21384344851
+[HOTONE-AMPERO-MINI-S2]: https://shopee.co.id/HOTONE-AMPERO-MINI-EFEK-GITAR-PEDAL-DIGITAL-MULTIEFEK-ONE-EFX-GUITAR-i.171167271.48456875050
+[HOTONE-AMPERO-MINI-S3]: https://shopee.co.id/HOTONE-AMPERO-MINI-PRELOVED-i.87936304.46555574691
+
+**Next:** verify rear rotary controls, algorithm breakdown, IR capacity and current listing condition/stock. The published screen specification is retained as a manufacturer claim, not an independently measured diagonal.
+<!-- HOTONE-AMPERO-MINI source ends -->
+
+### Ampero Mini MP-50 — supporting comparison provenance
+
+The complete supporting comparison was read before merging. Its model-specific values are retained below, including historical shorthand. These do not override fuller qualifications above. Original files and incoming links remain available.
+
+- **External expression** (No built-in expression): Yes, EXP/FS
+- **K/F/B** (No built-in expression): ?/2/0 front buttons
+- **Dimensions; weight** (No built-in expression): 134×120×49; 529 g
+- **Size** (No built-in expression): Compact
+- **Used IDR** (No built-in expression): **Rp2.800.000, PRELOVED, sold out**
+- **Retail IDR observation** (No built-in expression): Rp4.315.000, Purple Taro + adapter; unconfirmed stock; separate Rp3.250.000 sold-out ask
+- **Display type** (2. Displays): Manufacturer specifies 800×480
+- **Diagonal** (2. Displays): **4**
+- **Monochrome / color** (2. Displays): Color
+- **Touch** (2. Displays): **Yes**
+- **Simultaneous stages; categories / choices** (3. Processing, presets and loading): 9 simultaneous modules; 199 effects; category counts ?
+- **Preset storage** (3. Processing, presets and loading): 99 factory +99 user
+- **Acoustic simulation / synth** (3. Processing, presets and loading): **Electric-to-acoustic yes** / synth ?
+- **IR / NAM** (3. Processing, presets and loading): User mono WAV 24-bit/44.1 kHz/1024; slot count ?, NAM ?
+- **Physical ports, excluding DC input** (4. Audio/control connections): ¼-inch TS input; ⅛-inch aux; TRS EXP/FS; single ¼-inch TRS stereo output; ⅛-inch headphones; USB-C
+- **Power / batteries** (5. Power, software and practice/live features): **9V center-negative,500mA maximum**; battery/USB power ?
+- **Configuration apps** (5. Power, software and practice/live features): Windows/macOS editor
+- **Other documented functions** (5. Power, software and practice/live features): USB audio;100 s mono/50 s stereo looper;100 rhythms
+
+Sources: [effects/findings/2026-10-14-hotone-ampero-mini.md](HOTONE.md#ampero-mini-mp-50)<!-- historical-link:hotone-001 -->, [effects/shopee-multifx.md](research-state.json)<!-- historical-link:hotone-002 -->. No legacy file was deleted.
+
+### Ampero Mini — Sound Clone and converted NAM A2, 2026-10-17
+
+| Field | Verified support / revision limit |
+|---|---|
+| IR / proprietary clones | [Hotone Japan’s2026-03-09 Mini2.2 release notes](https://www.hotone.jp/announcements/ampero-sound-clone-release) add **ten imported Sound Clone files, one active at a time**, available in FX1/FX2/AMP. These are separate from user IR storage and do not establish onboard capture creation. Editor1.5.0’s release list explicitly includes Mini2.2. |
+| IR / NAM / conversion | [2026-08-18 model-specific notice](https://www.hotone.jp/announcements/nama2allbrand) establishes **Ampero Mini NAM A2 conversion with PC software1.6.0+**. This supersedes the earlier unresolved NAM field, not the retained historical observation. Native NAM and unrestricted architecture compatibility remain unverified. |
+| Processing / Mini2.2 additions | Mini’s own notes add **Precise Attack** in FX1/FX2 and **Match30 Clean** in AMP. Do not infer a new unique library total from the older199-effect headline plus these changes. Installed firmware and current complete category inventory remain unknown; no downloads or execution performed. |
+
+
+### Ampero Mini — controls and analog routing, 2026-10-17
+
+| Field | Verified finding / limitation |
+|---|---|
+| Controls / complete inventory | [Manufacturer-authored V1.0 manual, indexed numbered panel p2](https://manualzz.com/doc/html/80504220/hotone-ampero-mini-user-manual): **1 rotary /2 footswitches /0 separate buttons**. The rear volume knob controls all output connections; connecting the adapter powers the unit. This resolves the earlier unknown rotary total. Text-derived inventory; no new visual inspection. Onscreen plus/minus controls are not physical buttons. |
+| I/O / output wiring and levels | [Hotone’s own Mini page](https://www.hotone.com/products/multi-effects/Ampero%20Mini) specifies **unbalanced stereo TRS**, with **tip=L, ring=R** and a Y cable for separate channels. Do not treat it as one balanced mono output. Impedances: instrument4.7 MΩ, AUX10 kΩ, main output1 kΩ, headphones22 Ω. |
+| I/O / AUX and USB boundaries | The same product page says AUX bypasses internal effects and USB audio. Windows recording requires the driver; macOS is described as plug-and-play, with no current OS-version guarantee. USB Audio2.0 is a protocol specification, not proof of channel count or bus power. Exact USB stream channels/formats and user IR capacity remain unresolved. |
+
+
+### Ampero Mini — user IR storage and USB recording, 2026-10-17
+
+| Field | Verified finding / revision boundary |
+|---|---|
+| IR / user memory | [Hotone-hosted MP-50 manual, filename firmware V1.1](https://res.hotoneaudio.com/prod/support/MP-50%28Ampero%20Mini%29_Online%C2%A0Manual_EN_Firmware%20V1.1.1716885797823.pdf) lists **10 user IR slots (1–10)**; selecting an empty slot silences the output. This resolves the historical unknown for that documented revision, separately from ten Sound Clone files. The indexed document title retains V1.0; no later capacity increase is established. |
+| USB audio / recording routing | [Hotone-hosted Mini firmware V2.2 manual, USB Audio p20](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf) gives independent **Dry or Effect choices for left and right recording channels**. Recording gain is −20 to +20 dB; monitor gain −20 to +6 dB, both default0 dB. This establishes the documented L/R recording path, not a complete USB channel matrix, playback count, bit depth or sample-rate list. |
+
+Manufacturer-authored indexed text was read without downloading files, installing software or operating hardware. Current complete algorithm inventory, USB stream formats/playback channels and OS compatibility remain unresolved.
+
+### Ampero Mini — documented bass processing, 2026-10-17
+
+| Field | Verified finding / scope |
+|---|---|
+| Processing / bass AMP category | [Mini’s own firmware V2.2 manual, Effect List](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf) lists **five bass amp/preamp choices**: Alchemy Pre, Ampage Classic, Ampage Flip, Voxy Bass and Messe Bass 400. Their references are Alembic F-2B, Ampeg SVT, Ampeg B-15, VOX AC-100 and Mesa/Boogie Bass 400 respectively. This is positive model-specific bass-processing evidence and warrants shared membership in **ALL-BASS.md** while retaining ALL-GUITAR.md. It does not establish equal bass suitability for every algorithm or a complete current library total. |
+
+### Ampero Mini — external expression and CTRL limits, 2026-10-17
+
+[Manufacturer-authored firmware V1.2 manual, pp16–21](https://www.scribd.com/document/863661248/MP-50-Ampero-Mini-Online-Manual-EN-Firmware-V1-2-1734336366201), identified by its own title page and Mini panel, supplies the following text-derived limits; the mirror’s generated overview is not evidence.
+
+| Field | Verified finding / revision limit |
+|---|---|
+| Expression / simultaneous targets | The external pedal controls **four effect parameters plus overall volume simultaneously**. Each effect target has independent0–100 minimum/maximum, reversible endpoints and linear/exponential/logarithmic curves. Volume retains fixed heel-minimum/toe-maximum behavior. Calibration includes a firm toe-down step; this alone does not establish a separate toe-switch assignment. |
+| Expression / external socket modes | The socket selects **EXP, Single FS or Dual FS**; EXP mode disables the other footswitch options. This documents alternative socket modes, not simultaneous analog expression plus two switches. |
+| Controls / CTRL assignments | **Three CTRL functions** can toggle chosen modules. CTRL1 is accessible by holding onboard footswitch1; CTRL2/3 use external switching. The functions may share or differ in their module targets; they are not three additional physical switches. |
+
+### Ampero Mini — V2.2 volume switch persistence clarification
+
+Checked2026-10-19, [own V2.2 manual](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf), printedpp14,16–17,19–21. **CTRL→EXP→Target→VOLUME ON** enables expression volume; OFF disables it. The manual says all control settings change with patches and saving stores control information. Thus the documented volume enable is patch-level; a global override remains unverified. This does not prove every factory preset needs editing.
+
+The fixed heel/toe volume range is independent of four effect-target ranges. GLOBAL→EXP/FS selects socket mode and disables switch options inEXP mode, rather than overriding VOLUME assignment. The fixed onscreen VOLUME/TEMPO square does not negate its separate Pre/Post volume-position selector. No measured bypass/headphone/tail/looper coverage or pedal-position recall is established. No downloads ordevice operation.
+
+### Ampero Mini — volume-position revision boundary
+
+Checked2026-10-19. [Manufacturer Mini1.2 release notes,2024-12-19](https://www.hotone.com/news/Ampero-Mini%E6%96%B0%E5%9B%BA%E4%BB%B6%26%E8%BD%AF%E4%BB%B6%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81) explicitly addTEMPO/VOLUME→Vol Position Pre/Post. Thus theolder post-only description predates this documented choice;placement choice isnotglobal assignment. [Current official firmware index](https://www.hotone.com/support/2) still listsMini2.2 withEditor1.5.0 compatibility,andhistorical1.2/1.1 entries. No laterMini version established bythischeck;index listing isnotinstalled-firmware proof. Globalvolumeoverride andfactorypresetVOLUMEdefaults remainunverified;existing2.2patch-scope evidence retained. No packages,manualfiles orfactorypresets downloaded,installed,reset oroperated.
+
+### Ampero Mini — global menu and looper boundaries
+
+Checked 2026-10-19 against [Mini V2.2 manual, printed pp8–10,19–21](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf). GLOBAL’s general override statement is not an identified global VOLUME assignment. EXP/FS enumerates MODE, FS3 TAP, FS4 TAP and BANK SEL MODE; EXP disables the other options. Keep global volume **unverified**, not No.
+
+Looper Pre records mono dry audio; Post records stereo effected audio. Post-mode recorded phrases survive patch changes unchanged. Moving the looper position while running stops and erases the loop; this was not performed. REC LEVEL and LOOP LEVEL independently span0–99. These controls and patch persistence do not establish expression attenuation of existing loops. Tuner offers Thru/Bypass/Mute; its bypass option does not prove expression behavior. No hardware operation or downloads.
+
+## Ampero MP-100
+
+Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
+
+<!-- HOTONE-AMPERO-MP100 source begins -->
+
+Checked 2026-10-14. **Partial record; large footprint; built-in expression.** Exact original MP-100, not Ampero One, Mini or Ampero II. Useful findings are committed before starting the next model. [Scope](README.md#scope-and-ownership)<!-- historical-link:hotone-003 --> · [Resume](README.md#evidence-and-resuming)<!-- historical-link:hotone-004 -->.
+
+### Hardware and processing
+
+| Required field | Established value / explicit remaining uncertainty |
+|---|---|
+| Expression | Built-in pedal plus one 6.35 mm TRS EXP2 input. Toe-switch implementation not verified |
+| Controls, K/F/B | **5 rotary / 4 footswitches / 1 separate front button**: volume, MENU/VALUE, three quick-access knobs, four footswitches, device-lock button. Push-encoder counted once; rear switches separate. Manufacturer panel enumeration [M] and three-knob description [P] |
+| Dimensions and weight | **320 W × 147 D × 46 H mm; 1408 g**. Large by this repository's size bins; cables/pedal travel additional [P] |
+| Display | **4-inch, 800×480, color touchscreen**; one main display [P] |
+| Processing | **9 simultaneous modules**. FX1/FX2/FX3 have shared libraries; amp/cab/EQ/gate/delay/reverb stages are not nine arbitrary duplicate engines [P,M] |
+| Effects and category choices | Product page: **240+**, including 64 amps, 60 cabinets, 100+ pedal models and 50+ original effects. These overlapping marketing counts are not summed. V3.0 manual documents **71 shared FX1/2/3 choices**, including dynamic 9 and frequency 18; remaining category subtotals and current V5.2 total need a matched effect list [P,M] |
+| Presets | **99 factory + 99 user =198**. Factory patches can be adjusted but not overwritten in their factory banks; save to a user location [P,M] |
+| Acoustic simulator | **Yes**: AC Sim with Standard/Jumbo/Enhanced/Piezo modes in V3.0 list. Acoustic Refiner is a separate acoustic-input effect; product also describes acoustic-body IRs [P,M] |
+| Synth | Exact current synthesizer algorithms unverified; do not treat pitch/modulation alone as a synth |
+| IR | Third-party **24-bit/44.1 kHz mono WAV, 1024 samples**; user-slot capacity not established in the checked specification [P] |
+| Captures / NAM | **Firmware 5.2 adds Sound Clone import: 10 stored clone files, one usable at a time, in FX1/FX2/AMP.** Proprietary workflow established; native-versus-converted NAM, accepted NAM architectures and capture-file limits require further documentation. Do not label IR support as NAM support [F] |
+
+### Connections, power and software
+
+| Field | Specification |
+|---|---|
+| Audio input | One 6.35 mm TS instrument input with electric/acoustic/line selector; 3.5 mm stereo aux. Input impedances 1 MΩ /4.7 MΩ /10 kΩ respectively [P] |
+| Audio output | Two 6.35 mm TS unbalanced L/R outputs, two balanced XLR L/R outputs with ground lift, dedicated 3.5 mm stereo headphones [P] |
+| Other ports | 6.35 mm TRS EXP2, five-pin DIN MIDI IN, USB 2.0 Type-B, DC. No microphone/phantom input, MIDI OUT or external FX loop in complete published connector list [P] |
+| Power | **18 V DC center-negative, 500 mA maximum consumption**. Battery and USB-powered operation not established; USB audio does not establish bus power [P] |
+| Configuration | **Ampero Editor Windows/macOS** for editing, managing effects/IRs and updating. Firmware **5.2 requires Editor1.5.0** per release notes. No mobile/Linux editor claim established [P,F] |
+| Recording | USB Audio2.0 and USB recording documented; 24-bit/44.1 kHz processing. Exact interface channel count not independently verified in these sources [P] |
+| Practice / live | **100-second mono /50-second stereo looper; 100 drum patterns**, tuner, assignable switches; rearrangeable chain documented in V3.0. No unmeasured latency or switching-gap claim [P,M] |
+
+### IDR evidence — price is not checkout stock
+
+| Condition | Amount | Source / qualification |
+|---|---:|---|
+| Retail hardware listing, detailed condition unconfirmed | **Rp7.535.000** | [Swee Lee Official Shop, Shopee shop799119783/item28319916328](https://shopee.co.id/Hotone-MP-100-Ampero-Multieffects-Pedal-i.799119783.28319916328). Reopened; cached/JavaScript-limited listing, not authenticated stock or final delivered price |
+| Separate retail hardware listing | **Rp7.535.000** | [Gelora Musik Serpong, shop306155985/item22933054510](https://shopee.co.id/Multi-Efek-Pedal-Hotone-MP-100-Ampero-i.306155985.22933054510), indexed with older delivery text; not a second-hand lower bound |
+| Used | **?** | No condition-verified used price obtained |
+
+Seller branding and original-product claims are not independent authentication. Late-delivery vouchers are not purchase discounts. Accessories, regional firmware, final taxes/shipping and live stock require seller/checkout verification. No foreign exchange estimate or percentage-of-new used price used.
+
+### Sources and revision limits
+
+[P] [Manufacturer product/specification page](https://www.hotone.com/products/multi-effects/ampero).
+
+[M] Hotone-authored **V3.0** manual mirrored on ManualsLib: [panel and memory definitions, p.4](https://www.manualslib.com/manual/1596650/Hotone-Ampero.html?page=4); [effect list, p.23](https://www.manualslib.com/manual/1596650/Hotone-Ampero.html?page=23). The manufacturer's numbered panel text was read; no PDF screenshot inspection is claimed. V3.0 counts are not current-firmware tests.
+
+[F] [Hotone Japan, 2026-03-09 release notes](https://www.hotone.jp/announcements/ampero-sound-clone-release) and [global firmware index](https://www.hotone.com/support/2?pid=1&tid=1), both naming V5.2/Editor1.5.0. Pink/limited V5.2A is not silently substituted for the ordinary hardware firmware. The manual-download page returned a server-error shell; another mirrored V4.1 PDF could not be fetched.
+
+Remaining: firmware-matched complete algorithm breakdown, synth choices, IR capacity, toe implementation, bus-power confirmation, current used offers and exact NAM workflow. **Next marketplace model: Hotone Ampero II MP-350.**
+<!-- HOTONE-AMPERO-MP100 source ends -->
+
+### Ampero MP-100 — supporting comparison provenance
+
+The complete supporting comparison was read before merging. Its model-specific values are retained below, including historical shorthand. These do not override fuller qualifications above. Original files and incoming links remain available.
+
+- **Built-in / external expression** (Hardware and displays): Yes / EXP2
+- **K/F/B** (Hardware and displays): 5/4/1; toe unverified
+- **Published dimensions, mm; weight** (Hardware and displays): W320×D147×H46; 1408 g
+- **Main display** (Hardware and displays): 4-inch color, 800×480, touchscreen
+- **Processing and memory** (Processing, storage and loading): 9 simultaneous modules; 99 factory + 99 user. Earlier manual and current marketing counts differ; explicit acoustic simulator documented
+- **IR / NAM / captures** (Processing, storage and loading): 1024-sample user IRs; firmware 5.2 Sound Clone: 10 stored, one active. Do not infer native NAM from proprietary clone import
+- **Connection / software highlights** (Connections, power and apps): Mono input, stereo quarter-inch and XLR outs, dedicated phones/aux, MIDI IN, USB-B, EXP2; Windows/macOS editor
+- **Documented power** (Connections, power and apps): 18 V center-negative, 500 mA maximum; USB/battery operation not established
+- **Used IDR** (IDR observations and original commits): ?
+- **Retail observation** (IDR observations and original commits): Rp7.535.000, listing retrieved; detailed condition/stock unconfirmed
+- **Original model commit** (IDR observations and original commits): `95075d2b802d2c8ef5374426fd8f3d66ad218451`
+
+Sources: [effects/findings/2026-10-14-hotone-ampero-mp100.md](HOTONE.md#ampero-mp-100)<!-- historical-link:hotone-005 -->, [effects/shopee-multifx-5.md](research-state.json)<!-- historical-link:hotone-006 -->. No legacy file was deleted.
+
+### Ampero MP-100 — converted NAM A2 compatibility, 2026-10-17
+
+| Field | Verified support / limits |
+|---|---|
+| IR / NAM / conversion | [Hotone Japan’s2026-08-18 compatibility notice](https://www.hotone.jp/announcements/nama2allbrand) explicitly lists **Ampero: NAM A2 conversion**, requiring **PC software1.6.0+**. This resolves the earlier conversion uncertainty in the original MP-100 record. It does not establish native NAM, unrestricted architectures or all-file compatibility. |
+| Editor / version scope | Retain firmware5.2/Editor1.5.0 as the earlier Sound Clone release pairing; the August conversion notice requires newer PC software. It supplies no separate MP-100 firmware minimum or current OS matrix. Installed versions and actual conversion results remain unverified; nothing downloaded or run. |
+
+
+### Ampero MP-100 — output loading and USB-audio support
+
+Checked2026-10-18 against [own global product page](https://www.hotone.com/products/multi-effects/ampero),not Mini/One/II. Browsertext only,no driver/software downloads ordevice operation.
+
+| Field | Exact-model qualification |
+|---|---|
+| I/O / output impedance | Unbalanced output**3.2kΩ**,balanced output**2kΩ**,headphones**66Ω**;AUX input10kΩ. These are impedances,not headphone power orrecommended minimumload. |
+| Recording / host support | Manufacturer states USBaudio plug-and-play forWindows10or later andmacOS;earlierWindows requires adriver. Generic ASIO5.41.2 is separately listed. This doesnot establish editorOS support,interfacechannelcount or compatibility with every currentOS/CPU. |
+| Routing / AUX | AUX bypassesinternal effects;mono line-output use yieldsmono AUX. No USBcapture ofAUX inferred. |
+
+### Ampero MP-100 — unresolved Black/Pink offer
+
+| Price class | Amount andqualification |
+|---|---|
+| IDR condition-unverified variant ask | [Salomo Musik,shop1776275/item18091161846](https://shopee.co.id/Hotone-MP100-Ampero-Multieffects-Pedal-Original-i.1776275.18091161846),KotaJakartaUtara. Checked2026-10-18:four-month search**Rp7.534.000**;opened last-monthcachedbody**Rp7.535.000**. Black/Pink choices shown,butselectedvariant unknown. Condition,live stock,workingstate,firmware,adapter/bundle,warranty,shipping/tax andcheckouttotal unverified. Up-toRp10.000latearrival compensation isnot productdiscount. Neither amount isqualified used/new evidence orproof ofa distincthardware model. |
+
+Earlier ledger discovery mention ispreserved;this adds exact datedqualifications to thebrand/comparisons withoutadding amodel orprice range.
+
+### Ampero MP-100 — V3.0 pedal and USB routing
+
+Checked2026-10-18 against the same identity-matched manufacturer-authored45-page V3.0 manual reproduction. Globalmanual route stillshowsServerError. Historicaldocument limits do not certify installedV5.2 behavior;no downloads/calibration/recording performed.
+
+| Field | Own-manual qualification |
+|---|---|
+| Expression / targets andrange | EXP1 controls up to**four parameters**,each with**0–100 endpoints**,reversible whenMIN>MAX;Line,Exp,Log curves. WithEXP1off,pedalcontinuesasvolume withitsownrange/curve. [Printed12–13](https://www.manualslib.com/manual/1596650/Hotone-Ampero.html?page=14) |
+| Expression / toe calibration | Built-in calibration includesheel,toe,andstrongtoe-pressure stages. ExternalEXP2 calibration omitspressurestage. This confirms pressurecalibration,not aninspectedmechanicalswitch implementation. [Printed13](https://www.manualslib.com/manual/1596650/Hotone-Ampero.html?page=15) |
+| Expression / sharedEXP2 socket | Selectexpression,singlefootswitch ordualfootswitch mode;these consume thesameconnection. [Printed16](https://www.manualslib.com/manual/1596650/Hotone-Ampero.html?page=18) |
+| Recording / USBsources | L/Rrecordingchannels independentlyselectDryorEffect;recordgain**−20to+20dB**,default0dB. This establishesdrycapture selection,not aprovenUSBreturnreamping path orlargerchannelcount. [Printed15](https://www.manualslib.com/manual/1596650/Hotone-Ampero.html?page=17) |
+| Routing / NoCab | GlobalNoCab bypassesCAB independentlyonL/R,overridingpatchsettings. This doesnotdeleteuserIRs. [Printed15](https://www.manualslib.com/manual/1596650/Hotone-Ampero.html?page=17) |
+
+IRslot total remainsunverified;do notconvert a historical“10 addedslots”searchsnippet into totalcapacity.
+
+### Ampero MP-100 — manufacturer-hosted Japanese manual
+
+Checked 2026-10-18: the [Japanese product page](https://www.hotone.jp/brands/hotone/products/ampero) links this [57-page original AMPERO manual](https://www.hotone.jp/manuals/hotone/AMPERO.pdf). Panel matches original MP-100 input selector, XLR outputs, EXP2 and18V supply. Appendix page numbering repeats; no explicit matching firmware edition established. No file downloaded or device operated.
+
+| Field | Evidence / revision qualification |
+|---|---|
+| IR / documented user slots | PDF page46 explicitly lists **User IR71–80: ten slots** for third-party files. Selecting an empty slot **mutes output**. This establishes that appendix inventory, not current V5.2 capacity or an additional ten simultaneous IRs. [Original PDF p46](https://www.hotone.jp/manuals/hotone/AMPERO.pdf) |
+| Expression / pedal switch | Printed13 documents the expression-pedal switch functioning as **CTRL**; switching it off disables the assigned parameter function while volume operation remains. Combined with prior toe-pressure calibration, switch operation is documented; internal mechanical construction remains uninspected. [Original PDF p13](https://www.hotone.jp/manuals/hotone/AMPERO.pdf) |
+| Processing / DSP ceiling | Printed16 warns effect selection/quantity can trigger **System Overload**. Keep the nine-module maximum DSP-dependent; it does not guarantee every nine-effect combination. [Original PDF p16](https://www.hotone.jp/manuals/hotone/AMPERO.pdf) |
+
+The earlier global manual-route ServerError remains historical access evidence; this Japanese route supplies an accessible manufacturer original without replacing the separate V3.0 mirror.
+
+### Ampero MP-100 — Japanese appendix category census
+
+Checked 2026-10-18 against [manufacturer-hosted original PDF](https://www.hotone.jp/manuals/hotone/AMPERO.pdf),PDF pages33–51. Appendix edition remains unestablished; counts below are that document’s printed headings, not a V5.2 inventory. No download or execution.
+
+| Field | Category choices and counting limits |
+|---|---|
+| Category choices / shared FX | **71 = Dynamic9 + Frequency18 + Overdrive/Distortion22 + Modulation22**, shared by FX1/FX2/FX3. Count the library once, not213 unique algorithms. |
+| Category choices / AMP conflict | Header **63**; printed subcategories **Clean14 + Drive19 + HiGain22 + Bass5 + Acoustic2 =62**. Unresolved one-entry discrepancy; no invented missing model. |
+| Category choices / CAB | Header **70** includes **10 factory acoustic cabinets**. User IR71–80 are separate writable slots, not another ten factory algorithms. |
+| Category choices / NR and EQ | **NR3;EQ7**. Parameters, bands and presets do not multiply algorithm counts. |
+| Category choices / delay and reverb | **DLY20;RVB10**. Each is an alternative library, not20/10 concurrent processors. |
+| Processing / header-total reconciliation | **71+63+3+70+7+20+10=244**, derived from headers. This explains one documented counting basis but does not resolve AMP63/62, later additions, or global product240+ wording. |
+
+Nine simultaneous modules remain DSP-limited; library size and onboard patch memories remain separate.
+
+### Ampero MP-100 — documented USB-return reamping
+
+Checked 2026-10-18 against [manufacturer-hosted Japanese manual,printed25–26](https://www.hotone.jp/manuals/hotone/AMPERO.pdf). This resolves the earlier unverified USB-return path for the documented configuration. Minimum firmware and installed-unit behavior remain unverified; no DAW or hardware operation performed.
+
+| Field | Documented routing / limits |
+|---|---|
+| Recording / USB-return reamping | **REAMP on routes USB audio playback1/2 through Ampero’s effects chain**. The example sends a dry DAW track to playback1/2 and records processed input1/2 on another track. This documents that stereo pair, not additional channels or proprietary capture generation. |
+| Recording / monitoring controls | USB monitor level **−20 to+6dB,default0dB**; recording level remains−20 to+20dB. Manufacturer instructs keeping DAW track monitoring off during reamping to avoid feedback, then disabling REAMP afterward for normal computer playback. |
+
+Earlier dry/effected recording-source choices remain separate from this return-routing switch. The manual’s unspecified edition does not establish which firmware first introduced reamping.
+
+### Ampero MP-100 — looper placement, drums and tuner
+
+Checked 2026-10-18 against [own Japanese manual,printed9–12](https://www.hotone.jp/manuals/hotone/AMPERO.pdf). Edition/minimum firmware remains unestablished; no playback, recording or device operation performed.
+
+| Field | Documented practical qualification |
+|---|---|
+| Looper / Pre versus Post | **Pre:100s dry mono;Post:50s effected stereo**. Later patch changes do not alter a Post recording’s sound. Half-speed and reverse apply to the whole recorded phrase; recording automatically changes to playback near the time limit. Onboard loop save/power retention remains unverified. |
+| Drums / tempo and sync | Tempo **40–250BPM**; BPM Sync ties drums to patch tempo. Drum playback continues after leaving its page. Loop/drum sync may be lost after arbitrary playback/stop, pattern or tempo changes; half-speed/reverse toggles do not affect that sync according to the manual. |
+| Live / tuner | Reference **435–445Hz**,default440Hz;choose **Thru or Mute**. This specifies reference pitch,not detection range,accuracy or calibration retention across power cycles. |
+
+## Ampero One MP-80
+
+Guitar, bass and acoustic-instrument multi-effects; **medium** footprint; built-in expression. This is not original Ampero MP-100, Mini MP-50, Ampero II Stomp MP-300, Ampero II MP-350 or Stage MP-380. Some regional/retailer copy appears to reuse original Ampero controls; the model-specific manual takes precedence. The record remains partial.
+
+| Required field | Source-backed specification / unresolved detail |
+|---|---|
+| Built-in expression | **Yes, with toe-click switching**; when expression assignment is off,the pedal can still act as volume. [ONE-M] |
+| External expression / switches | **One6.35mm TRS EXP2/CTRL input**, supporting external expression or two external momentary switches FS4/FS5. An external pedal is not included by this specification. [ONE-M,ONE-P] |
+| Knobs / footswitches / buttons | **2 /3 /0**: VOLUME and MENU/VALUE push-encoder;three footswitches. Encoder press and toe switch are separate functions,not additional front push-buttons. The three quick-access parameters are onscreen,**not three additional knobs**. No independent rear power switch is shown in the complete manual panel; connecting the adapter powers the unit. [ONE-M pp.3–5] |
+| Display | **4-inch,800×480,color touchscreen**. One main display; onscreen controls do not increase the physical button count. [ONE-P] |
+| Dimensions / weight | **273 W ×143 D ×51 H mm;1202g**. Medium,not within200×140mm compact filter. Cable and raised-pedal clearance are additional/unverified. [ONE-P] |
+| Processing | **9 simultaneous modules**,reorderable: FX1,FX2,AMP,NR,CAB,EQ,FX3,DLY,RVB;additional terminal volume/tempo function. Three flexible FX modules draw from the available libraries; not nine arbitrary duplicate engines. Extreme DSP combinations can overload. [ONE-M] |
+| Advertised library | Global page242 effects,64 amps,60 cabs,100+ modeled pedals and50+ original effects. These overlapping marketing figures are **not summed** into a unique total. Regional page also says244 and retains older update copy;current complete firmware-matched unique count remains unresolved. [ONE-P,ONE-J] |
+| Category choices from original manual | Shared FX1/FX2/FX3 heading71,including Dynamic9 and Frequency18;NR3,EQ7,DLY20,RVB10. V1.1 shared-FX breakdown is completed below;separate V3.1 category-row census is also recorded below,with duplicate-label andmarketing-count conflicts retained. Effects duplicated between NR/EQ and flexible FX are not counted as different algorithms. These are older-manual figures,not independently tested firmware3.1 totals. [ONE-M] |
+| Presets | **99 factory +99 user =198**,33 banks of3 in each group. Factory sounds may be edited but must be saved into user storage,not overwritten in factory banks. [ONE-P,ONE-M] |
+| Acoustic simulation | **Yes: AC Sim**,with Standard,Jumbo,Enhanced,Piezo modes in the manual;Acoustic Refiner is a separate acoustic-input effect. Factory acoustic-body IR/preset content includes steel-string,nylon-string and double-bass descriptions. Do not confuse acoustic amps with this actual simulator. [ONE-M,ONE-P] |
+| Synth | Specific current synthesizer algorithms **unverified**. Pitch/modulation effects and compatibility with synth input do not prove a synth engine. |
+| IR loading | Third-party **24-bit/44.1kHz mono WAV,1024 samples**. Original manual lists10 user positions71–80;regional firmware1.2 notes add10 user slots. Post1.2 expansion yields20by arithmetic;**V3.1 manual directly confirms User IR1–20** below. [ONE-P,ONE-M,ONE-J] |
+| Proprietary clones / NAM | **Firmware3.1 adds10 Sound Clone file locations,one active at a time**,usable in FX1/FX2/AMP;requires Ampero Editor1.5.0. Proprietary clone import is established. Those March release notes alone didnot establish NAM conversion;the later August notice below explicitly supports **NAM A2 through conversion withPC software1.6.0+**. Native NAM remains unverified. Do not copy native A2 Lite support from Ampero II models. [ONE-F] |
+| Input / aux | One6.35mm TS instrument input,4.7MΩ;one3.5mm stereo aux,10kΩ. No three-position input-mode selector;the high-impedance input is explicitly designed for electric,bass and acoustic instruments. [ONE-P] |
+| Output / headphones | Two6.35mm TS unbalanced L/R outputs,3.2kΩ;dedicated3.5mm stereo headphones,66Ω. No XLR output,mic/phantom or audio FX loop in the full published panel. Stereo output does not create two independent internal chains. [ONE-P,ONE-M] |
+| USB / control | USB-B with USB Audio support plus external TRS control input. No physical DIN/TRS MIDI port in the complete panel. USB MIDI capabilities are not inferred merely from the connector. [ONE-P,ONE-M] |
+| Power / battery / USB power | **9V DC center-negative,500mA maximum consumption**. Internal analog circuitry boosts to18V;that is **not an instruction to supply18V externally**. Internal battery and USB bus-powered operation are not established in the inspected primary specifications. [ONE-P] |
+| Editing apps | **Ampero Editor Windows/macOS** for parameters,IRs,patch management and updates;firmware3.1 originally paired with Editor1.5.0;later NAM A2 conversion requiresPC software1.6.0+ asqualified below. Mobile/Linux full editor not established. [ONE-M,ONE-F] |
+| Recording | USB audio with adjustable recording/monitoring levels;internal24-bit/44.1kHz processing. V3.1 manual documents independent L/R Dry/Effect recording andUSB1/2 reamping below;channel ceiling,sample-rate set andUSB wordlength remain unverified. Windows driver;macOS plug-and-play per manual. [ONE-P,ONE-M] |
+| Looper / drums / live | **100s mono PRE-effects or50s stereo POST-effects looper**;half speed,reverse,drum synchronization;**100 rhythm patterns**. Tuner432–447Hz,Thru/Bypass/Mute modes;CTRL assignments and global EQ. Regional introductory120-second looper wording conflicts with its own detailed100/50 specification and manual;do not promote120 as verified. [ONE-P,ONE-M,ONE-J] |
+
+### Ampero One — source conflicts and firmware context
+
+The original manual enumerates only VOLUME and MENU/VALUE as rotary controls;its three quick-access parameter fields are operated through touch or the encoder. Regional introduction and some sellers reuse three-extra-knob/four-switch wording from original Ampero. The verified MP-80 count is **two knobs and three switches**,not MP-100's layout. The numbered original manual was read as text;no successful PDF-image inspection is claimed.
+
+Firmware3.1's **2026-03-09** release additionally introduces Match30 Clean and calls for built-in expression recalibration. A release recommendation is not a command to update an unidentified owner's device. Keep the installed firmware unknown unless actually checked. The global support landing pages loaded but did not expose a newer complete revision history;3.1 is the specifically verified release,not an independently certified latest build. [ONE-F]
+
+### Ampero One — separate IDR observations
+
+| Condition / seller | Amount | Exact offer and qualification |
+|---|---:|---|
+| Retail indexed ask,Seven Stereo | **Rp5.580.000** | [shop16879370/item7452469341](https://shopee.co.id/Hotone-Ampero-One-Multi-Effect-i.16879370.7452469341);indexed2026-10-15,but retains August19–20 delivery text. Not live checkout verification. |
+| Separate retail indexed ask,Gelora Musik Serpong | **Rp5.580.000** | [shop306155985/item16193639298](https://shopee.co.id/Multi-Efek-Pedal-Hotone-Ampero-ONE-i.306155985.16193639298);August20–21 delivery text. |
+| FULLSET title,condition **not established** | **Rp3.709.999** | [Frost Station,shop1016216686/item54752222675](https://shopee.co.id/HOTONE-AMPERO-ONE-MP-80-FULLSET-i.1016216686.54752222675);older August delivery text. FULLSET does not establish used versus new;this amount is **not assigned to the used-price column**. |
+| Condition-verified used offer | **?** | No explicit used condition established in the retrieved offers. |
+
+These are individual asking observations,not a current market range or completed-sale statistics. Region,actual condition,bundle,warranty,shipping and stock remain unverified. No exchange-rate or secondhand-discount estimate is used. Do not apply a late-delivery compensation voucher as a product-price reduction.
+
+### Ampero One — sources
+
+[ONE-P] [Official global product and full specifications](https://www.hotone.com/products/multi-effects/ampero-one).
+
+[ONE-M] **Hotone-authored original Ampero One User Manual**, [complete original text mirror](https://manualzz.com/doc/80504239/hotone-ampero-one-user-manual): numbered panels pp.3–5,looper/expression pp.6–7,signal flow p.8,USB/software and algorithm appendix. Used actual manufacturer text,not generated mirror summaries. The manufacturer's own manual landing page did not expose a downloadable document in the retrieved response;the original mirrored text supplies supplementary evidence. No successful PDF rendering is claimed.
+
+[ONE-J] [Official Hotone Japan product and firmware1.2 notes](https://www.hotone.jp/brands/hotone/products/ampero-one);retains contradictory introductory knob/effect/looper copy,explicitly qualified above.
+
+[ONE-F] [Official2026-03-09 Sound Clone release notes](https://www.hotone.jp/announcements/ampero-sound-clone-release), specifically **Ampero One3.1**,not Ampero5.2,Mini2.2 or an Ampero II release.
+
+### Ampero One — original-manual library subtotals, 2026-10-17
+
+[Manufacturer-authored manual transcription][ONE-M], explicitly **firmware V1.1**, effect appendix pp22–28. Original document text, not the mirror’s generated FAQ or diagram descriptions; no visual inspection or file download.
+
+| Field | Verified revision-specific count / conflict |
+|---|---|
+| Processing / shared FX library | **Dynamics9 + Frequency18 + Overdrive/Distortion22 + Modulation22 =71 choices** shared by FX1/FX2/FX3. These are alternatives within the flexible modules, not71 simultaneous effects or213 unique algorithms. This completes the previously unresolved shared-FX subtotals for V1.1 only. |
+| Processing / AMP count conflict | The same appendix labels **AMP65**, versus the product page’s **64 amps** retained above. Revision/counting basis remains unresolved; do not silently replace one with the other or certify either as firmware3.1’s installed library. AMP Drive22 is distinct from the separate pedal-drive category’s22. |
+
+
+### Ampero One — amp and cabinet categories, 2026-10-17
+
+[Own V1.1 manual transcription](https://manualzz.com/doc/80504239/hotone-ampero-one-user-manual), printed pp28–36. Counts apply to this document, not a verified current firmware image.
+
+| Field | Verified breakdown / qualification |
+|---|---|
+| Processing / amp categories | **14 clean +22 drive +22 high-gain +5 bass +2 acoustic preamps =65 AMP choices**. Acoustic preamps process acoustic inputs; they are distinct from the AC Sim effect. This reconciles the manual’s internal subtotal, while its conflict with product64 remains unresolved. |
+| Processing / factory cabinet categories | Separate appendix headings give **60 factory speaker cabinets +10 factory acoustic-body entries**. The latter include guitar, mandolin and acoustic-bass bodies; they are not ten additional electric-speaker cabinets or user capture slots. |
+| IR / original slot numbering | The appendix labels CAB/IR70 but separately lists **user IR71–80**, so that heading is not the total storage count including those ten user positions. Empty user slots mute output. All CAB/IR selections share mic-position/type parameters; mic simulation can be disabled. Preserve this V1.1 numbering separately from the later documented slot expansion. |
+
+
+### Ampero One — converted NAM A2 support, 2026-10-17
+
+| Field | Verified support / boundary |
+|---|---|
+| IR / NAM / conversion | [Hotone Japan’s compatibility notice, dated2026-08-18](https://www.hotone.jp/announcements/nama2allbrand), explicitly lists **Ampero One: NAM A2 through conversion**, requiring **PC software1.6.0 or later**. This resolves the earlier conversion uncertainty left by the March Sound Clone notes. It does not establish native NAM execution, unrestricted NAM architectures or compatibility with every NAM file. The notice labels Ampero II models separately as native A2 Lite; do not transfer that status to MP-80. |
+| Editor / version scope | The March firmware3.1/Editor1.5.0 pairing above is retained as release history. The August notice requires newer PC software for A2 conversion and generally recommends current compatible firmware/software; it does not specify a new MP-80 firmware minimum or present Windows/macOS version matrix. Sound Clone’s landing page returned no readable text, so conversion steps and format limits remain unverified. No software, model files or firmware downloaded or run. |
+
+
+### Ampero One — additional exact hardware ask, 2026-10-19
+
+| Field | Evidence / qualification |
+|---|---|
+| Price / additional condition-unverified IDR | **Rp5.859.000**,seller **Soundstationstore Online**,KotaTangerangSelatan,shop250276993/item29359894471. [Exact Ampero ONE hardware listing](https://shopee.co.id/Hotone-Ampero-ONE-Multi-effects-Pedal-Efek-Gitar-i.250276993.29359894471),direct readable last-week cache. Condition,live stock,revision,firmware,selectedvariant,bundle,adapter,warranty,voucher,shipping/tax anddeliveredtotal unknown. Not assigned to condition-verified used/new prices orcompleted sales. |
+
+### Ampero One — current-manual source lead
+
+Checked2026-10-19:[official manual index](https://www.hotone.com/support/1?pid=43&tid=17) lists **Ampero One User Manual compatible with firmwareV3.1**,alongside olderV2.1/V2.0/V1.2/V1.1/V1.0 entries. At discovery,this listing established document availability only. Subsequent V3.1 manufacturer-authored mirror inspection andcategory census are recorded below;V1.1 census andits64-versus65amp conflict remain historical. No file downloaded.
+
+
+### Ampero One — firmware3.1 manual qualifications, 2026-10-19
+
+[Manufacturer-authored manual transcription](https://fr.scribd.com/document/1067861623/Ampero-One-Online-Manual-en-Firmware-V3-1-1773037044207),cover explicitly **For FirmwareV3.1**,Ampero One panels withVOLUME/MENU-VALUE andthree feet,47pages. Identity/revision matches the [official manual index](https://www.hotone.com/support/1?pid=43&tid=17). Used original document body,not Scribd's AI description;no file downloaded orsoftware run.
+
+| Field | Revision-specific finding / qualification |
+|---|---|
+| IR / current documented slots | Appendix explicitly lists **User IR1–20**;empty slots mute output. This confirms20forV3.1 directly,rather than relying only on earlier expansion arithmetic. |
+| USB / recording and reamp | Printedp16:independent L/R recording sources **Dry/Effect**;REC LEVEL−20to+20dB,MONITOR LEVEL−20to+6dB. REAMP routes USB playback1/2 into effects. Manual's DAW example uses recording inputs1/2;additional channels/sample-rate options remain unverified. It instructs disabling DAW track monitoring during reamp andturning REAMP off afterward. |
+| I/O / global cabinet bypass | Printedp15:**No Cab Mode independently bypasses CAB forL/R outputs**,overriding patch settings. |
+| Expression / ranges | Printedpp13–14:bounds0–100,including inverted ranges;Linear,Exponential,Logarithmic curves. External-pedal calibration omits the built-in hard-press step. |
+
+
+### Ampero One — V3.1 shared-FX census, 2026-10-19
+
+[Own V3.1 manual transcription](https://fr.scribd.com/document/1067861623/Ampero-One-Online-Manual-en-Firmware-V3-1-1773037044207),printedpp23–29. Editorial count of distinct named rows;parameter modes excluded. Original document body,not mirror AI summary.
+
+| Field | Revision-specific inventory |
+|---|---|
+| Processing / V3.1 shared FX | **Dynamics12+Frequency20+Overdrive/Distortion29+Modulation23=84 named choices**,shared acrossFX1/FX2/FX3. This is not84 simultaneous effects or252unique algorithms. SavedV1.1's71 remains historical. |
+| Processing / dynamics audit | Comprosso,Comparoma4,Blue Sustainer,Squeezer,Affinity Boost,Beefy Boost,Pristine Boost,FET Boost,Enhancer,Forest Boost,Gated Boost,Micro Boost. |
+| Processing / drive audit boundary | Count treats Basshammer1/2 as separate named models;Precise Attack,Blues Butter,Magic T,Prince of Drive,Behemoth M are also listed. Model modes andparameter variations are not extra rows. |
+| Synth / V3.1 classification | Path Filter creates synth-like sound through four-step filtering;polyphonic pitch/octave effects are separately documented. Neither alone establishes a general synthesizer engine. |
+| Processing / total reconciliation | The subsequent V3.1 cabinet/utility/time-effect andAMP census below completes category-row arithmetic. A deduplicated unique library total remains unresolved;do not mix84with older totals. |
+
+
+### Ampero One — V3.1 cabinet, utility and time-effect census, 2026-10-19
+
+[Own V3.1 manual transcription](https://fr.scribd.com/document/1067861623/Ampero-One-Online-Manual-en-Firmware-V3-1-1773037044207),printedpp36–43. Editorial counts of named rows;slots andparameter modes remain separate.
+
+| Field | Revision-specific inventory |
+|---|---|
+| Processing / cabinets | **60factory speaker cabinets+10factory acoustic IRs**;20userIR positions separate. Acoustic set includes Mandolin,Fretless Bass,Double Bass;not10extra speaker cabinets. |
+| Processing / microphone simulation | **10mic types+Off**:6dynamic,3condenser,1ribbon. CAB/IR shares mic,volume,low/high-cut andXYZposition parameters. |
+| Processing / NR and EQ | **3NR**:Smart/Fast/Custom Gate;also available inFX1/FX2. **7EQ**:Guitar1/2,Bass1/2,Para,Graphic,V-EQ. Duplicated module availability doesnot create extra unique algorithms. |
+| Processing / delay | **22named DLY models**,including2290Mod. Dual Eko processesL/R delays separately;Multi Head's12head variations remain modes within one model. |
+| Processing / reverb | **10**:Room,Hall,Church,Plate,Spring,Izumi,Northstar,Oceandeep,Sweet Space,Shimmer. Trail controls concern bypassed effect tails,not universal preset-change spillover. |
+| IR / Sound Clone slots | Appendix separately lists **Sound Clone1–10** loaded throughSound Clone Manage;these are file positions,not10factory algorithms orIR slots. |
+
+
+### Ampero One — V3.1 AMP census and counting limits, 2026-10-19
+
+[Own V3.1 manual transcription](https://fr.scribd.com/document/1067861623/Ampero-One-Online-Manual-en-Firmware-V3-1-1773037044207),printedpp30–36. Editorial row count;not a tested installed-firmware inventory.
+
+| Field | Revision-specific finding |
+|---|---|
+| Processing / AMP rows | **22Clean+28Drive+22HiGain+5Bass+2Acoustic=79listed rows**. Named channel/switch variants count separately. This doesnot overwrite historicalV1.1's65orproduct64. |
+| Processing / transcription ambiguity | Drive lists Messe IIC+1,2,2 while describing3switch combinations. Preserve the repeated2label;do not silently rename the third row orclaim79distinct names. Marshell SLP normal/bright also shares a displayed name with distinct channel descriptions. |
+| Processing / category arithmetic | V3.1 documented category-row subtotal:84sharedFX+79AMP+3NR+70factoryCAB/acousticIR+7EQ+22DLY+10RVB=**275entries**. This is **not a deduplicated unique-effect total**:module overlap,duplicate labels anddifferent model types remain. UserIR20,SoundClone10,mic choices andparameter modes are excluded from this subtotal. |
+| Processing / revision interpretation | The appendix includes Match30Clean andadditional amp variants absent from older totals. Product242effects/64amps andregional244 remain separate historical/marketing claims;no invented exact reconciliation. |
+
+## Hotone consolidation scope
+
+The six recorded Hotone models now retain their complete model findings and supporting comparison facts here. Original legacy sources remain available. Consolidation does not establish exhaustive market coverage or close unresolved specification and price fields.

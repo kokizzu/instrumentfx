@@ -2,6 +2,12 @@
 
 [Repository](README.md) · [Guitar comparison](ALL-GUITAR.md)
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [Delay Workstation](#delay-workstation)
+<!-- brand-index ends -->
+
 ## Delay Workstation
 
 Checked 2026-10-18; partial. Dual DSP delay/reverb multi-effects; distinct from Super Mod Workstation, Mod Workstation, ECCOS and Dark Side. The manufacturer documents combined delay/reverb banks, supporting effects-only guitar multi-effects eligibility. Ownership is unknown. Bass/vocal suitability is unclassified.

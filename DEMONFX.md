@@ -2,6 +2,12 @@
 
 [Repository](README.md) · [Guitar comparison](ALL-GUITAR.md)
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [Dual Mod Workstation](#dual-mod-workstation)
+<!-- brand-index ends -->
+
 ## Dual Mod Workstation
 
 Checked 2026-10-18; partial. Own two-page manual identifies this model and demon-fx.com. Its Keeley reference does not prove equivalence. Ownership unknown; bass/vocal suitability unclassified.

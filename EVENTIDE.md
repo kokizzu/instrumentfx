@@ -1,5 +1,13 @@
 # Eventide multi-effects
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [H9 Max](#h9-max)
+- [H90](#h90)
+- [Incoming capability evidence, 2026-10-18](#incoming-capability-evidence-2026-10-18)
+<!-- brand-index ends -->
+
 ## H9 Max
 
 Checked 2026-10-17; partial. Max is distinct from Standard/Core; ownership unverified.

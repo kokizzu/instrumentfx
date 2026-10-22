@@ -2,6 +2,133 @@
 
 Partial manufacturer-backed records;unknown is not No.
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [MPX100](#mpx100)
+- [MX200](#mx200)
+- [MX300](#mx300)
+- [MX400](#mx400)
+<!-- brand-index ends -->
+
+## MPX100
+
+Checked2026-10-17. Partial guitar/vocal dual-channel multi-effects;notMPX110/MX200. [Manufacturer User Guide onmirror](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf),55pages,©1998,part070-11935. Official product/manual pages403;webtext only,no download/visualaudit.
+
+| Field | Evidence / gaps |
+|---|---|
+| Expression | No builtin pedal;¼TRS momentary tap/bypass. MIDI-learn control;analogcontinuousEXP/toe unknown. |
+| Controls | Text-derived **7rotary/0integratedfoot/3buttons**:Input,Output,Mix,Adjust,EffectsLvl/Bal,Program,Variation;Tap,Bypass,Store. |
+| Display | StatusLEDs;screen diagonal/color/touch unknown. |
+| Processing / choices | **112single variations+112dual+16SpecialFX=240presets**. Up to2independent effects;dualrouting fixedbyvariation,notfreeblockselection. See breakdown below. |
+| Presets | **240presets+16usermemories**;not256editablepatches. Initial user1–16 copies, in order:Plate2;Gate9;Hall5;Hall6;Chamber13;Ambience3;Room14;Tremolo1;Rotary9;Rotary15;Chorus3;Flange12;Pitch1;Detune12;Delay/Echo8;Delay/Echo12. [Own guide p42](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf) |
+| Synth / acoustic | Own stereo Pitch algorithm is explicitly **polyphonic**,shifting full program material or single-note sources **−2 to+1 octaves**. Detune has four voices,two/channel. This establishes pitch processing,not a dedicated synth or acoustic-conversion engine;those remain unknown. [Own guide pp28–29](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf) |
+| Dimensions / weight | **483W×45H×102D mm;0.959kg**,published19×1.75×4inches. |
+| I/O | Unbalanced¼L/Rinput/output;RCA S/PDIFoutputonly;DIN MIDIin/out-thru;¼TRSfootswitch;power. Rightinput/output formono;leftonlystereophones atmodestvolume whenrightempty. |
+| Power | **9VAC externaltransformer**;not9VDC. Preliminary introduction: supplied1A;service manual: supplied1.9A,service-test adapter1Aminimum/1.9Apreferred. These are supply ratings;device draw,battery/USBpower unknown;DCpolarityN/A. See dated qualification below. |
+| Software | MIDIlearn/SysEx documented;official fulleditorOS,driver/updater unknown. |
+| IR / NAM / captures | UserIR,native/convertedNAM,capture import unknown. |
+| Looper / drums / live | Looper/drums/scenes unknown;tap/audio-inputtempo/MIDIclock,bypass/mute options. Delayintro5.7s conflicts withdetailedmono5.5s;stereo2.7s. |
+| Instrument scope | Direct guitar input500kΩ;vocal/spoken-voice processing documented. Bass unclassified;noXLR/phantom inferred. |
+
+### MPX100 — separate IDR hardware offers
+
+| Condition / seller | IDR evidence | Exact item |
+|---|---|---|
+| Used / new | Condition-qualified prices unknown | — |
+| Condition unverified / Imc Genteng Kali,Kota Surabaya | **Rp3.500.000**;index4months,checked2026-10-17;directopencachemiss. **LayananTidakTersedia** means deliveryunavailable,not confirmed soldout. Currentstock,variant,adapter/bundle,warranty,voucher,shipping/tax unknown. | [327115965/24443061649](https://shopee.co.id/orinal-LEXICON-MPX100-reverb-delay-nyesss-i.327115965.24443061649) |
+### MPX100 — bank and routing reconciliation
+
+Checked2026-10-17 against the [original manufacturer guide](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf),pp7–8,30–33,45.
+
+| Preset group | Derived count |
+|---|---|
+| Single families | Plate/Gate,Hall/Chamber,Ambience/Room,Tremolo/Rotary,Chorus/Flange,Pitch/Detune:12×8=96;Delay/Echo16;total112 |
+| Dual banks | Flange/Pitch/Chorus withDelay;Delay/Reverb;Flange/Pitch/Chorus withReverb:7×16=112 |
+| Special FX | 16;not16additionalfreeblocks |
+| User | 16memories,initiallycopiedpresets;outside240factorytotal |
+
+Dualvariations1–6 arestereoparallel;7–10cascade;11–14monosplit withstereooutputs;15–16dualmono,oneeffectperoutput. In cascade,EffectsLvl/Bal changes firsteffect/dry feed intothesecond ratherthanmerely balancingparallelreturns.
+
+Introduction’s5.7seconddelay claim conflicts with detailedmono5.5seconds;stereo2.7seconds andsix-voicemultitap areseparate modes. Do not average orsilentlycorrect theclaims. No newfirmware revision inferred.
+
+### MPX100 — conversion and digital routing qualifications
+
+Checked2026-10-18 against the same [manufacturer guide,printed pp.14–15,52](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf),part070-11935. No hardware operation ordownload.
+
+| Field | Finding / qualification |
+|---|---|
+| I/O / digital output | **20-bit S/PDIF,44.1kHz,always active**. System Digital Output selects dry-only orfull processed signal. This is output,not digitalinput orUSB. |
+| I/O / analog conversion | **20-bit AD andDA at44.1kHz**,versus24-bit internalDSP path. Typical unweighted20Hz–20kHz dynamicrange:analog-to-analog>95dB,analog-to-digital>100dB. Frequencyresponse±1dB;THD+N<0.05%. |
+| I/O / output rating | Analog+8dBu typical;75Ω listed forheadphoneoutput. Do notpromote this to independentheadphoneamp power. Existing left-only/headphone andright-only/mono restrictions remain. |
+| Live / bypass and program loading | Bypass setting chooses inputmute orprocessed-audio bypass/dryoutput. Separate Program Load setting chooses wetmute orprocessed-audio bypass duringloading. These are separate controls,not proof ofseamless tails. |
+
+Unit current andpowerconnector dimensions remainunverified;9VAC mustnot become9VDC. S/PDIFwordlength is not theinternalDSP width.
+
+### MPX100 — MIDI control and backup limits
+
+Checked2026-10-18 against the [same manufacturer guide,printed pp.43–49](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf). Documentation only;no MIDI messages sent.
+
+| Field | Finding / qualification |
+|---|---|
+| Live / MIDI Learn | Up to **five assignments** acrossfive MIDI channels:Mix,EffectsLvl/Bal,Adjust,Bypass,Tap. Recognizes pitchbend,aftertouch,CC1–31/33–119. Bypass/Tap trigger whenthe learnedrange crossesits midpoint. Not analogEXPsocket proof. |
+| Memory / MIDI recall | **CC32 Bank Select0–15**,then ProgramChange0–15 selects withinbank,covering240factory+16user. ProgramLoad channel defaults1;PC0–15 ignored onotherchannels. Controllerone-based display conventions requirechecking;not extrapolated here. |
+| Live / Program Change triggers | Tap/Bypass learnPC16–127 andautomatically also thenextnumber;leave agap betweenassignments toavoidcollision. These trigger buttons,not continuous Mix/Adjust values. |
+| Editor / MIDI backup | Separate SysEx dumps for16userprograms,currentprogram,andSystem settings+Learn assignments. MIDIbackup is not anofficial desktopeditor orUSBinterface. Restore/devicecompatibility nottested. |
+| Live / clock | Incoming MIDIclock tracks **40–400BPM** forTap-enabledprograms;receiver canbedisabled. Not independentdrum-pattern playback. |
+
+### MPX100 — audio tap and System-mode recall
+
+Checked2026-10-18 against the [manufacturer guide,printed pp.10,13–14](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf). Documentation only;no hardware operation.
+
+| Field | Finding / qualification |
+|---|---|
+| Live / audio tap | Hold Tap for two seconds,play two short notes while holding,then release. Their spacing sets tempo;this is a deliberate gesture,not continuous beat tracking. Optional dual momentary footswitch supports the hold. Global Tempo carries the last tapped value across tempo-enabled programs;Program Tempo retains individual settings. |
+| Memory / System-mode exit | Return VARIATION to its previous position before exiting System mode;otherwise its new position loads another program. Tap LED identifies the prior position. This is separate from saving a user preset. |
+
+### MPX100 — ROM update versus desktop software
+
+Checked 2026-10-18 through manufacturer-indexed original instructions,part **070-12976**. Direct document opens returned403;no local download,execution,chip installation or visual inspection.
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / updater distinction | [Manufacturer Update Installation Instructions](https://lexiconpro.com/en/product_documents/mpx100_update_inst_rev0pdf) describes a kit replacing **ROM U10**,not a desktop updater. It is qualified-personnel service documentation. No installed version,currently purchasable kit,editor platform or firmware release date established. |
+| Memory / post-update reinitialization | Same instructions: hold Bypass during power-up for10seconds,release,set VARIATION15,press Store. Normal power cycle takes about6seconds. This is the update document's reinitialization procedure;user-memory retention is not promised by the exposed excerpt. |
+
+The [manufacturer product download listing](https://lexiconpro.com/ja/products/mpx-100) names this update document and User Guide Rev0;April2026 is an upload label,not proof of new hardware firmware. Earlier mirror-guide evidence and direct-access failures remain valid provenance.
+
+### MPX100 — mono summing and footswitch connection
+
+| Field | Exact-model qualification |
+|---|---|
+| I/O / mono output summing | With only the **right output** connected, left and right signals are summed internally. Left-only stereo-headphone use remains a separate modest-volume configuration;it is not the mono-sum connection. [Original guide pp4–5](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf) |
+| I/O / input level range | Published input-level range **−30dBu to+4dBu**,unbalanced500kΩ. This is the specified input range,not an independently measured clipping threshold. [Original guide p52](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf) |
+| Live / footswitch connection | Dual momentary Tap/Bypass can use a stereoY connection to two identical single switches. Connect while powered off:the guide says plugging in while powered enables Bypass. This does not establish continuous expression support. [Original guide p5](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf) |
+
+Checked2026-10-18 against original1998 guide070-11935;no downloads or hardware operation.
+
+### MPX100 — manufacturer-hosted guide and preliminary supply specification
+
+Checked 2026-10-18. The original **55-page English User Guide Rev0**,printed specification p52,is now readable directly from [Harman manufacturer hosting](https://adn.harmanpro.com/product_documents/documents/1089_1340212512/MPX100_User_Guide_Eng_Rev0_original.pdf). Earlier mirror and403 observations remain historical provenance; no manufacturer PDF was downloaded locally.
+
+| Field | Primary-source finding / conflict |
+|---|---|
+| Power / supplied transformer | Manufacturer [Product Introduction,PDFp2](https://adn.harmanpro.com/product_documents/documents/1086_1340212431/MPX100_Product_Introduction_original.pdf) specifies **9VAC,1A supplied wall transformer** and labels the sheet preliminary. User Guide p52 specifies9VAC without current. **1A is the published transformer rating,not measured unit draw**;regional mains,connector dimensions andactual seller supply remain unverified. |
+| I/O / output-side source conflict | Introduction’s specification table says **Left mono/Right headphones**,while its highlights say **Left headphones**. The User Guide pp4–5,52 instead specifies **Right mono/Left stereo headphones**. Preserve this contradictory brochure table;do not silently reverse the guide-based connection instructions or infer another hardware revision. |
+
+The retrieved manufacturer guide corroborates the retained converter/body specifications;this does not resolve actual-unit condition,software compatibility or stock. No audio equipment orsoftware operated.
+
+### MPX100 — service adapter capacity versus device draw
+
+Checked2026-10-18 against the original Lexicon Service Manual,©1998,part070-12081,40pages,read through [the original-document OCR reproduction](https://www.scribd.com/document/691001436/Lexicon-Mpx-100-Service-Manual).
+
+| Field | Finding / qualification |
+|---|---|
+| Power / service supply | Specifications lists a **9VAC,1.9A supplied transformer**. Required Equipment instead specifies **1A minimum,1.9A preferred** for the service-test adapter. Preserve alongside the preliminary introduction’s1A supplied rating;these establish adapter capacity,not measured device consumption or a verified hardware revision. Actual seller adapter remains unknown. |
+| Power / measurement boundary | The service power-up current check uses a Variac/adapter setup. Its exposed text does not resolve the measurement point sufficiently to publish a9VAC device-draw value;actual unit current remains unknown. |
+
+Documentation only;no equipment operated or files downloaded.
+
 ## MX200
 
 Dual-engine rack multi-effects for live/studio mixer paths. Checked2026-10-17. Guitar/vocal use is **through appropriate mixer or preamp routing**;not a direct mic or high-impedance instrument preamp claim. Discontinued [MX-P].
@@ -97,7 +224,6 @@ Checked 2026-10-18 from the manufacturer-indexed [own guide, printed p19][MX-M].
 | Bass capability | Compressor description explicitly lists bass tracks among its applications. Use suitable line-level preamp/mixer routing or recorded tracks; this does not establish direct passive-bass input or equal suitability of every effect. |
 | Processing / dynamics channel mode | Compressor and De-Esser are labelled **Mono (Wet only)**. Keep that restriction beside the general two-processor/stereo routing claim; it does not mean every algorithm preserves a stereo input. |
 | Processing / dynamics controls | Compressor threshold −70 to0dBFS, ratio1:1 through infinity:1, makeup0 to+12dB. De-Esser frequency1600Hz–10kHz in40steps and bandwidth in6steps. These are parameter ranges, not additional algorithm choices. |
-
 
 ## MX300
 
@@ -282,121 +408,3 @@ Manufacturer-hosted 18-0446V-F combined MX400/MX400XL manual read as browser tex
 [M400-S]: https://lexiconpro.com/en/product_documents/mx400_manualpdf
 [M400-P]: https://lexiconpro.com/en-US/products/mx400/downloads_and_docs
 [M400-O]: https://shopee.co.id/Lexicon-MX400-Original-Dual-Stereo-Vocal-FX-i.355992277.29037104080
-
-## MPX100
-
-Checked2026-10-17. Partial guitar/vocal dual-channel multi-effects;notMPX110/MX200. [Manufacturer User Guide onmirror](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf),55pages,©1998,part070-11935. Official product/manual pages403;webtext only,no download/visualaudit.
-
-| Field | Evidence / gaps |
-|---|---|
-| Expression | No builtin pedal;¼TRS momentary tap/bypass. MIDI-learn control;analogcontinuousEXP/toe unknown. |
-| Controls | Text-derived **7rotary/0integratedfoot/3buttons**:Input,Output,Mix,Adjust,EffectsLvl/Bal,Program,Variation;Tap,Bypass,Store. |
-| Display | StatusLEDs;screen diagonal/color/touch unknown. |
-| Processing / choices | **112single variations+112dual+16SpecialFX=240presets**. Up to2independent effects;dualrouting fixedbyvariation,notfreeblockselection. See breakdown below. |
-| Presets | **240presets+16usermemories**;not256editablepatches. Initial user1–16 copies, in order:Plate2;Gate9;Hall5;Hall6;Chamber13;Ambience3;Room14;Tremolo1;Rotary9;Rotary15;Chorus3;Flange12;Pitch1;Detune12;Delay/Echo8;Delay/Echo12. [Own guide p42](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf) |
-| Synth / acoustic | Own stereo Pitch algorithm is explicitly **polyphonic**,shifting full program material or single-note sources **−2 to+1 octaves**. Detune has four voices,two/channel. This establishes pitch processing,not a dedicated synth or acoustic-conversion engine;those remain unknown. [Own guide pp28–29](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf) |
-| Dimensions / weight | **483W×45H×102D mm;0.959kg**,published19×1.75×4inches. |
-| I/O | Unbalanced¼L/Rinput/output;RCA S/PDIFoutputonly;DIN MIDIin/out-thru;¼TRSfootswitch;power. Rightinput/output formono;leftonlystereophones atmodestvolume whenrightempty. |
-| Power | **9VAC externaltransformer**;not9VDC. Preliminary introduction: supplied1A;service manual: supplied1.9A,service-test adapter1Aminimum/1.9Apreferred. These are supply ratings;device draw,battery/USBpower unknown;DCpolarityN/A. See dated qualification below. |
-| Software | MIDIlearn/SysEx documented;official fulleditorOS,driver/updater unknown. |
-| IR / NAM / captures | UserIR,native/convertedNAM,capture import unknown. |
-| Looper / drums / live | Looper/drums/scenes unknown;tap/audio-inputtempo/MIDIclock,bypass/mute options. Delayintro5.7s conflicts withdetailedmono5.5s;stereo2.7s. |
-| Instrument scope | Direct guitar input500kΩ;vocal/spoken-voice processing documented. Bass unclassified;noXLR/phantom inferred. |
-
-### MPX100 — separate IDR hardware offers
-
-| Condition / seller | IDR evidence | Exact item |
-|---|---|---|
-| Used / new | Condition-qualified prices unknown | — |
-| Condition unverified / Imc Genteng Kali,Kota Surabaya | **Rp3.500.000**;index4months,checked2026-10-17;directopencachemiss. **LayananTidakTersedia** means deliveryunavailable,not confirmed soldout. Currentstock,variant,adapter/bundle,warranty,voucher,shipping/tax unknown. | [327115965/24443061649](https://shopee.co.id/orinal-LEXICON-MPX100-reverb-delay-nyesss-i.327115965.24443061649) |
-### MPX100 — bank and routing reconciliation
-
-Checked2026-10-17 against the [original manufacturer guide](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf),pp7–8,30–33,45.
-
-| Preset group | Derived count |
-|---|---|
-| Single families | Plate/Gate,Hall/Chamber,Ambience/Room,Tremolo/Rotary,Chorus/Flange,Pitch/Detune:12×8=96;Delay/Echo16;total112 |
-| Dual banks | Flange/Pitch/Chorus withDelay;Delay/Reverb;Flange/Pitch/Chorus withReverb:7×16=112 |
-| Special FX | 16;not16additionalfreeblocks |
-| User | 16memories,initiallycopiedpresets;outside240factorytotal |
-
-Dualvariations1–6 arestereoparallel;7–10cascade;11–14monosplit withstereooutputs;15–16dualmono,oneeffectperoutput. In cascade,EffectsLvl/Bal changes firsteffect/dry feed intothesecond ratherthanmerely balancingparallelreturns.
-
-Introduction’s5.7seconddelay claim conflicts with detailedmono5.5seconds;stereo2.7seconds andsix-voicemultitap areseparate modes. Do not average orsilentlycorrect theclaims. No newfirmware revision inferred.
-
-### MPX100 — conversion and digital routing qualifications
-
-Checked2026-10-18 against the same [manufacturer guide,printed pp.14–15,52](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf),part070-11935. No hardware operation ordownload.
-
-| Field | Finding / qualification |
-|---|---|
-| I/O / digital output | **20-bit S/PDIF,44.1kHz,always active**. System Digital Output selects dry-only orfull processed signal. This is output,not digitalinput orUSB. |
-| I/O / analog conversion | **20-bit AD andDA at44.1kHz**,versus24-bit internalDSP path. Typical unweighted20Hz–20kHz dynamicrange:analog-to-analog>95dB,analog-to-digital>100dB. Frequencyresponse±1dB;THD+N<0.05%. |
-| I/O / output rating | Analog+8dBu typical;75Ω listed forheadphoneoutput. Do notpromote this to independentheadphoneamp power. Existing left-only/headphone andright-only/mono restrictions remain. |
-| Live / bypass and program loading | Bypass setting chooses inputmute orprocessed-audio bypass/dryoutput. Separate Program Load setting chooses wetmute orprocessed-audio bypass duringloading. These are separate controls,not proof ofseamless tails. |
-
-Unit current andpowerconnector dimensions remainunverified;9VAC mustnot become9VDC. S/PDIFwordlength is not theinternalDSP width.
-
-### MPX100 — MIDI control and backup limits
-
-Checked2026-10-18 against the [same manufacturer guide,printed pp.43–49](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf). Documentation only;no MIDI messages sent.
-
-| Field | Finding / qualification |
-|---|---|
-| Live / MIDI Learn | Up to **five assignments** acrossfive MIDI channels:Mix,EffectsLvl/Bal,Adjust,Bypass,Tap. Recognizes pitchbend,aftertouch,CC1–31/33–119. Bypass/Tap trigger whenthe learnedrange crossesits midpoint. Not analogEXPsocket proof. |
-| Memory / MIDI recall | **CC32 Bank Select0–15**,then ProgramChange0–15 selects withinbank,covering240factory+16user. ProgramLoad channel defaults1;PC0–15 ignored onotherchannels. Controllerone-based display conventions requirechecking;not extrapolated here. |
-| Live / Program Change triggers | Tap/Bypass learnPC16–127 andautomatically also thenextnumber;leave agap betweenassignments toavoidcollision. These trigger buttons,not continuous Mix/Adjust values. |
-| Editor / MIDI backup | Separate SysEx dumps for16userprograms,currentprogram,andSystem settings+Learn assignments. MIDIbackup is not anofficial desktopeditor orUSBinterface. Restore/devicecompatibility nottested. |
-| Live / clock | Incoming MIDIclock tracks **40–400BPM** forTap-enabledprograms;receiver canbedisabled. Not independentdrum-pattern playback. |
-
-### MPX100 — audio tap and System-mode recall
-
-Checked2026-10-18 against the [manufacturer guide,printed pp.10,13–14](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf). Documentation only;no hardware operation.
-
-| Field | Finding / qualification |
-|---|---|
-| Live / audio tap | Hold Tap for two seconds,play two short notes while holding,then release. Their spacing sets tempo;this is a deliberate gesture,not continuous beat tracking. Optional dual momentary footswitch supports the hold. Global Tempo carries the last tapped value across tempo-enabled programs;Program Tempo retains individual settings. |
-| Memory / System-mode exit | Return VARIATION to its previous position before exiting System mode;otherwise its new position loads another program. Tap LED identifies the prior position. This is separate from saving a user preset. |
-
-### MPX100 — ROM update versus desktop software
-
-Checked 2026-10-18 through manufacturer-indexed original instructions,part **070-12976**. Direct document opens returned403;no local download,execution,chip installation or visual inspection.
-
-| Field | Evidence / qualification |
-|---|---|
-| Editor / updater distinction | [Manufacturer Update Installation Instructions](https://lexiconpro.com/en/product_documents/mpx100_update_inst_rev0pdf) describes a kit replacing **ROM U10**,not a desktop updater. It is qualified-personnel service documentation. No installed version,currently purchasable kit,editor platform or firmware release date established. |
-| Memory / post-update reinitialization | Same instructions: hold Bypass during power-up for10seconds,release,set VARIATION15,press Store. Normal power cycle takes about6seconds. This is the update document's reinitialization procedure;user-memory retention is not promised by the exposed excerpt. |
-
-The [manufacturer product download listing](https://lexiconpro.com/ja/products/mpx-100) names this update document and User Guide Rev0;April2026 is an upload label,not proof of new hardware firmware. Earlier mirror-guide evidence and direct-access failures remain valid provenance.
-
-### MPX100 — mono summing and footswitch connection
-
-| Field | Exact-model qualification |
-|---|---|
-| I/O / mono output summing | With only the **right output** connected, left and right signals are summed internally. Left-only stereo-headphone use remains a separate modest-volume configuration;it is not the mono-sum connection. [Original guide pp4–5](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf) |
-| I/O / input level range | Published input-level range **−30dBu to+4dBu**,unbalanced500kΩ. This is the specified input range,not an independently measured clipping threshold. [Original guide p52](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf) |
-| Live / footswitch connection | Dual momentary Tap/Bypass can use a stereoY connection to two identical single switches. Connect while powered off:the guide says plugging in while powered enables Bypass. This does not establish continuous expression support. [Original guide p5](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf) |
-
-Checked2026-10-18 against original1998 guide070-11935;no downloads or hardware operation.
-
-### MPX100 — manufacturer-hosted guide and preliminary supply specification
-
-Checked 2026-10-18. The original **55-page English User Guide Rev0**,printed specification p52,is now readable directly from [Harman manufacturer hosting](https://adn.harmanpro.com/product_documents/documents/1089_1340212512/MPX100_User_Guide_Eng_Rev0_original.pdf). Earlier mirror and403 observations remain historical provenance; no manufacturer PDF was downloaded locally.
-
-| Field | Primary-source finding / conflict |
-|---|---|
-| Power / supplied transformer | Manufacturer [Product Introduction,PDFp2](https://adn.harmanpro.com/product_documents/documents/1086_1340212431/MPX100_Product_Introduction_original.pdf) specifies **9VAC,1A supplied wall transformer** and labels the sheet preliminary. User Guide p52 specifies9VAC without current. **1A is the published transformer rating,not measured unit draw**;regional mains,connector dimensions andactual seller supply remain unverified. |
-| I/O / output-side source conflict | Introduction’s specification table says **Left mono/Right headphones**,while its highlights say **Left headphones**. The User Guide pp4–5,52 instead specifies **Right mono/Left stereo headphones**. Preserve this contradictory brochure table;do not silently reverse the guide-based connection instructions or infer another hardware revision. |
-
-The retrieved manufacturer guide corroborates the retained converter/body specifications;this does not resolve actual-unit condition,software compatibility or stock. No audio equipment orsoftware operated.
-
-### MPX100 — service adapter capacity versus device draw
-
-Checked2026-10-18 against the original Lexicon Service Manual,©1998,part070-12081,40pages,read through [the original-document OCR reproduction](https://www.scribd.com/document/691001436/Lexicon-Mpx-100-Service-Manual).
-
-| Field | Finding / qualification |
-|---|---|
-| Power / service supply | Specifications lists a **9VAC,1.9A supplied transformer**. Required Equipment instead specifies **1A minimum,1.9A preferred** for the service-test adapter. Preserve alongside the preliminary introduction’s1A supplied rating;these establish adapter capacity,not measured device consumption or a verified hardware revision. Actual seller adapter remains unknown. |
-| Power / measurement boundary | The service power-up current check uses a Variac/adapter setup. Its exposed text does not resolve the measurement point sufficiently to publish a9VAC device-draw value;actual unit current remains unknown. |
-
-Documentation only;no equipment operated or files downloaded.

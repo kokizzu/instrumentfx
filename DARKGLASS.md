@@ -2,6 +2,12 @@
 
 [All bass](ALL-BASS.md) · [Repository](README.md)
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [Anagram](#anagram)
+<!-- brand-index ends -->
+
 ## Anagram
 
 Bass multi-effects platform; checked2026-10-18,partial. Ownership unverified. Guitar cabinet choices do not independently establish guitar/vocal comparison membership. Expression accessory is a separate product,not another processor.

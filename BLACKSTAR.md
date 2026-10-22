@@ -2,6 +2,52 @@
 
 [All guitar](ALL-GUITAR.md) · [All bass](ALL-BASS.md) · [Repository](README.md)
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [ID:X Floor One](#idx-floor-one)
+- [ID:X Floor Three](#idx-floor-three)
+<!-- brand-index ends -->
+
+## ID:X Floor One
+
+Checked2026-10-18; partial. Separate from Two/Three; ownership unverified. Manufacturer-authored family manual [O1M], revision256401M-VA-1 01/26, explicitly names One on cover/front/rear/specification pages; retailer mirror, text only. No visual inspection or files downloaded.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression | No built-in pedal/toe; external expression unverified. [O1M pp2,16] |
+| K/F/B | **10 rotary /3 footswitches /8 buttons**, text-derived:8 amp/voice/master rotaries,2 encoders;patch down/up,tap;voice mode,manual,shift,CabRig,4 effect buttons. Encoder pushes and Response switch separate; visual audit pending. [O1M pp11–17] |
+| Display | OLED; diagonal/color/touch unknown. [O1M] |
+| Dimensions / mass | **215×68×155mm**, axes unstated; **1.33kg**. [O1M p30] US page instead lists **7.95W×10.9L×5.31H inches;3.54lb**, without identifying package versus unit. Unresolved; no conversion or unit-spec replacement. [O1U] |
+| Blocks / category choices | Four simultaneous blocks: Pre FX15,modulation10,delay5,reverb5 appendix choices;35 choices,not35 simultaneous blocks. Amp,CabRig,gate separate. [O1M pp19,27–29] US product table instead gives **Pre FX14/modulation10/delay6/reverb5**;same sum35,different category allocation. Firmware/revision basis unknown; not reconciled by assuming an extra delay or deleting a fuzz. [O1U] |
+| Factory / user memory | **99 writable=33×3**; initial factory fill/protected split unknown. [O1M p22] |
+| Synth / acoustic | 12 guitar,3bass,3acoustic voices including acoustic simulation; synth unverified. [O1M pp10,14] |
+| I/O | Quarter-inch input,To Amp,CabRig stereo phones/line;two XLR outputs;3.5mm line/streaming TRRS,MIDI IN,USB-C,DC. No FX loop/MIDI THRU;Three-only. External EXP socket not documented. [O1M pp17–19] |
+| USB audio | Four to host:wetL/R,dry,preamp;two playback returns. Format unknown. [O1M p18] |
+| Power / battery / USB | **9VDC500mA centre-negative supply requirement**,not measured draw. Battery/USB operation unknown. [O1M p19] |
+| IR / NAM / captures | CabRig emulation; user IR,native/converted NAM,capture imports unverified. [O1M] |
+| Editor / software | Architect editing/backups; Windows audio driver account-gated. Exact editor release,OS and driver compatibility unknown. [O1M pp18,22] |
+| Looper / drums / live | Bypass delay/reverb tails documented; patch-change continuity,looper/drums unknown. [O1M p21] |
+
+### Separate IDR evidence
+
+| Field | Evidence / qualification |
+|---|---|
+| IDR verified used | Unknown. |
+| IDR verified new | Unknown. |
+| IDR condition-unverified indexed ask | **Rp3.720.000**, crossed-outRp4.650.000; galerimusikjakarta,shop239804186/item41879047036,Kota Jakarta Utara. Exact title Multi FX Effect Blackstar IDX Floor One. [O1S] Direct text available from two-month cache,checked2026-10-18. Condition,stock,selected variant,working state,bundle/adapter,warranty,vouchers,shipping/tax/checkout unknown. Relative same-day delivery and late-arrival voucher do not prove stock or a hardware discount. Not a completed sale. |
+
+Unresolved fields above remain open; no specifications transferred from Three. General Architect2.0.0 requirements elsewhere in this document do not establish Floor One recognition or its minimum release. Factory-reset documentation does not establish how many slots initially contain factory sounds.
+
+[O1M]: https://www.kirstein.de/docs/manuals/00118929/manual_EN.pdf?h=2b60f8933d3a40a7df062be52bf93b84
+[O1S]: https://shopee.co.id/Multi-FX-Effect-Blackstar-IDX-Floor-One-i.239804186.41879047036
+
+### Regional product-page provenance, 2026-10-18
+
+[O1U] is the Blackstar US product listing, with One-specific SKU IDXFLOOR1. Its [site terms](https://blackstaramps.us/pages/terms-and-conditions-of-sale-of-products) identify Blackstar Amplification/KorgUSA as operator; its manual link points to blackstaramps.com. Keep its conflicting specifications separately from manual256401M-VA-1 01/26. Neither source establishes installed firmware. OLED wording still provides no diagonal/color/touch specification;99 patch capacity still does not prove initial factory fill. Search hits for ID:X50/100 combo manuals are different hardware and were rejected for Floor compatibility. No Floor-compatible Architect release was established.
+
+[O1U]: https://blackstaramps.us/en-intl/products/id-x-floor
+
 ## ID:X Floor Three
 
 Checked2026-10-18; partial. Guitar/bass multi-effects eligibility comes from the own manual, independently of the uncertain Shopee title. Ownership unverified. One/Two are separate models.
@@ -51,42 +97,3 @@ Direct handbook reading returned403; requirements above come from the manufactur
 
 
 [T3U]: https://blackstaramps.us/en-intl/products/id-x-floor
-
-## ID:X Floor One
-
-Checked2026-10-18; partial. Separate from Two/Three; ownership unverified. Manufacturer-authored family manual [O1M], revision256401M-VA-1 01/26, explicitly names One on cover/front/rear/specification pages; retailer mirror, text only. No visual inspection or files downloaded.
-
-| Field | Evidence / qualification |
-|---|---|
-| Expression | No built-in pedal/toe; external expression unverified. [O1M pp2,16] |
-| K/F/B | **10 rotary /3 footswitches /8 buttons**, text-derived:8 amp/voice/master rotaries,2 encoders;patch down/up,tap;voice mode,manual,shift,CabRig,4 effect buttons. Encoder pushes and Response switch separate; visual audit pending. [O1M pp11–17] |
-| Display | OLED; diagonal/color/touch unknown. [O1M] |
-| Dimensions / mass | **215×68×155mm**, axes unstated; **1.33kg**. [O1M p30] US page instead lists **7.95W×10.9L×5.31H inches;3.54lb**, without identifying package versus unit. Unresolved; no conversion or unit-spec replacement. [O1U] |
-| Blocks / category choices | Four simultaneous blocks: Pre FX15,modulation10,delay5,reverb5 appendix choices;35 choices,not35 simultaneous blocks. Amp,CabRig,gate separate. [O1M pp19,27–29] US product table instead gives **Pre FX14/modulation10/delay6/reverb5**;same sum35,different category allocation. Firmware/revision basis unknown; not reconciled by assuming an extra delay or deleting a fuzz. [O1U] |
-| Factory / user memory | **99 writable=33×3**; initial factory fill/protected split unknown. [O1M p22] |
-| Synth / acoustic | 12 guitar,3bass,3acoustic voices including acoustic simulation; synth unverified. [O1M pp10,14] |
-| I/O | Quarter-inch input,To Amp,CabRig stereo phones/line;two XLR outputs;3.5mm line/streaming TRRS,MIDI IN,USB-C,DC. No FX loop/MIDI THRU;Three-only. External EXP socket not documented. [O1M pp17–19] |
-| USB audio | Four to host:wetL/R,dry,preamp;two playback returns. Format unknown. [O1M p18] |
-| Power / battery / USB | **9VDC500mA centre-negative supply requirement**,not measured draw. Battery/USB operation unknown. [O1M p19] |
-| IR / NAM / captures | CabRig emulation; user IR,native/converted NAM,capture imports unverified. [O1M] |
-| Editor / software | Architect editing/backups; Windows audio driver account-gated. Exact editor release,OS and driver compatibility unknown. [O1M pp18,22] |
-| Looper / drums / live | Bypass delay/reverb tails documented; patch-change continuity,looper/drums unknown. [O1M p21] |
-
-### Separate IDR evidence
-
-| Field | Evidence / qualification |
-|---|---|
-| IDR verified used | Unknown. |
-| IDR verified new | Unknown. |
-| IDR condition-unverified indexed ask | **Rp3.720.000**, crossed-outRp4.650.000; galerimusikjakarta,shop239804186/item41879047036,Kota Jakarta Utara. Exact title Multi FX Effect Blackstar IDX Floor One. [O1S] Direct text available from two-month cache,checked2026-10-18. Condition,stock,selected variant,working state,bundle/adapter,warranty,vouchers,shipping/tax/checkout unknown. Relative same-day delivery and late-arrival voucher do not prove stock or a hardware discount. Not a completed sale. |
-
-Unresolved fields above remain open; no specifications transferred from Three. General Architect2.0.0 requirements elsewhere in this document do not establish Floor One recognition or its minimum release. Factory-reset documentation does not establish how many slots initially contain factory sounds.
-
-[O1M]: https://www.kirstein.de/docs/manuals/00118929/manual_EN.pdf?h=2b60f8933d3a40a7df062be52bf93b84
-[O1S]: https://shopee.co.id/Multi-FX-Effect-Blackstar-IDX-Floor-One-i.239804186.41879047036
-
-### Regional product-page provenance, 2026-10-18
-
-[O1U] is the Blackstar US product listing, with One-specific SKU IDXFLOOR1. Its [site terms](https://blackstaramps.us/pages/terms-and-conditions-of-sale-of-products) identify Blackstar Amplification/KorgUSA as operator; its manual link points to blackstaramps.com. Keep its conflicting specifications separately from manual256401M-VA-1 01/26. Neither source establishes installed firmware. OLED wording still provides no diagonal/color/touch specification;99 patch capacity still does not prove initial factory fill. Search hits for ID:X50/100 combo manuals are different hardware and were rejected for Floor compatibility. No Floor-compatible Architect release was established.
-
-[O1U]: https://blackstaramps.us/en-intl/products/id-x-floor

@@ -2,105 +2,15 @@
 
 [Repository](README.md) · [Bass comparison](ALL-BASS.md)
 
-## Go Rig B
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
 
-Bass-specific multi-effects;checked2026-10-18,partial. No Tiny/Dual Stomp specifications transferred. Ownership unverified.
-
-| Field | Finding / qualification |
-|---|---|
-| Instrument scope | Manufacturer explicitly identifies electric-bass multi-effects. Guitar/vocal suitability unverified. [P] |
-| Expression / toe | Built-in,external andtoe expression unverified;manual/panel evidence pending. |
-| K/F/B | Separate rotary,footswitch andbutton counts unverified;no visual inspection claimed. |
-| Display | Published diagonal,color andtouch unverified. |
-| Processing / choices | COMP,DIST,AMP,CAB,MOD sections;exact simultaneous ceiling/routing unverified. Drives:Drive,Dist,Fuzz. Amps:Mes400,DP751,SVBass. Cabs:2×12,8×10,4×10. Mod:Chorus,Flanger,Phaser withtaptempo. Three-band EQ withadjustable mids. [P] |
-| Factory / user memory | Preset/factory/user counts andsave behavior unverified. |
-| Synth / acoustic | Dedicated synthesis/acoustic simulation unverified. |
-| Dimensions / mass | 231L×80W×63H mm;690g. [P] |
-| I/O | Mono¼in TS input/output;⅛in TRS AUX;balancedXLR output;USB-C;Bluetooth playback. Complete connector inventory andheadphone routing pending readablemanual. [P] |
-| Power / battery / USB | 750mAh lithium battery;USB-C5V charging;160mA consumption. Overview says up to5hours,feature list4.5hours:unresolved conflict. Charge-while-operating andUSB-only operation unverified. Barrelpolarity notestablished. [P] |
-| IR / NAM / captures | Import/native/convertedNAM andcapture loading unverified;do not inherit sibling support. |
-| Editor / drivers / USB audio | USBaudio/OTG advertised;format/channels/currentOS/editor support unverified. No software downloaded. [P] |
-| Looper / drums / live | Tuner andmodulation taptempo documented;looper,drums,scenes,trails/bypass unverified. [P] |
-
-### Separate IDR hardware evidence
-
-| Condition | Amount / qualifications | Source |
-|---|---|---|
-| Used | Unknown;no qualified used offer established. | — |
-| New | Unknown;condition not explicit in inspected extract. | — |
-| Condition unverified;stock unconfirmed | **Rp1,130,000**,HOLY MUSIC,Jakarta Utara,shop945642322/item56262097023. Checked2026-10-18;direct reader last-month cached body. Relative five-hour delivery is not stock proof. Bundle,variant,warranty,voucher,shipping/tax unknown;Rp10,000 late-arrival compensation notdiscount. Not a completed sale. | [Exact Shopee][S] |
-
-Official support lists Go Rig B V1.0.0 manual,but linked PDF returned403. Manufacturer product page read as text;manual-dependent fields remain open. Converted mirror summaries were located but not accepted as original manual evidence. No downloads,installation orimage audit.
-
-[P]: https://soranaudio.com/products/25.html
-[S]: https://shopee.co.id/SORAN-GO-RIG-B-Portable-Bass-Multi-Effects-Stompbox-Pedal-%E2%80%93-Original-i.945642322.56262097023
-
-Official manual listing: https://www.soranaudio.com/Download.html . Inaccessible linked manual: https://zh-jiyou.oss-cn-shenzhen.aliyuncs.com/upload/files/article/20260729/17852891772300321.pdf .
-
-### Electrical specification and manual-access follow-up
-
-Checked2026-10-18. Manufacturer English product table and [Chinese product table][CN] independently identify this Go Rig B;matching dimensions,capacity andmodel-specific bass features.
-
-| Field | Published qualification |
-|---|---|
-| Audio conversion / processing | 48kHz;24-bit signal processing. English table labels24-bit **AD converter**,Chinese labels **数模转换器** (digital-to-analog converter). Preserve the localization difference;do not assert a separately verified matched ADC/DAC pair orUSB wordlength. [P],[CN] |
-| Audio levels / ports | Input impedances470kohm/1kohm;output10kohm/600ohm in the table’s listed order. No explicit per-connector mapping beyond table order. Noise−98.7dBu,dynamicrange96.5dB,response20Hz–20kHz;test conditions not provided. [CN] |
-| Power / source conflict | Chinese page repeats up to4.5h;English overview’s5h remains unresolved. Published160mA is consumption,not a charger rating;charge current andcharge-while-playing remain unverified. [P],[CN] |
-
-Original-manual access audit: official PDF403;manufacturer-domain alternate inaccessible;three Manuals+ original-PDF routes andtwo device.report optimized-PDF routes failed. Converted summaries disagree oromit details,so their control counts,USB format/OS andheadphone claims are not promoted. Future work should obtain readable original text rather than repeat these same failed routes. No files saved orsoftware installed.
-
-[CN]: https://www.soranaudio.com/cn/products/15.html
-
-## Tiny Stomp
-
-Desktop guitar/bass multi-effects;checked2026-10-18,partial. Own manufacturer manual read as PDF text;no image audit or downloads. Distinct from Dual Stomp/Lite.
-
-| Field | Finding / qualification |
-|---|---|
-| Instrument scope | Guitar andbass explicitly supported;25guitar/5bass amps andmatching cabinets. [TS-P] |
-| Expression / toe | External¼in TRS EXP/CTRL:10–100kohm pedals;manual maps volume ordual switch ring=down,tip=up. No built-in pedal documented;toe unverified. [TS-P],[TS-M] |
-| K/F/B | Text-derived2rotary(Master,Edit),0onboard footswitches documented,2separate Left/Right buttons;encoder press countedonce,power separate. No panel-image corroboration. [TS-M] |
-| Display | 2-inch color TFT;touch unverified. [TS-P] |
-| Processing / choices | Advertised125effects/up to10modules:8tone modules pluslooper/drums. Per-category audit below separates factory choices from empty import slots. 30factoryamps/cabs plus10user slots each. [TS-P],[TS-M] |
-| Factory / user memory | 99editable locations;manual describes99factory presets,product01–80guitar/81–99bass. Not198locations. [TS-P],[TS-M] |
-| Synth / acoustic | Specific synth/acoustic simulation unverified. |
-| Dimensions / mass | 109L×84W×32H mm;250g. [TS-P] |
-| I/O | Mono¼TS input;shared¼TRS stereo OUT/PHONES,TRS EXP/CTRL,USB-C. TS output cable givesleft only;TRS splitter suppliesL/R. [TS-P],[TS-M] |
-| Power / battery / USB | 1500mAh3.7V battery,up to4h;USB-C5V charging. Manual says USBaudio/OTG stops charging. Draw,USB-only operation andbarrelpolarity unverified. [TS-P],[TS-M] |
-| IR / NAM / captures | Ten WAV IR slots,48kHz24bit512samples. TenNFILEslots. **NAM A2 conversion**,notproven native execution:Aug25 2026notice says StompManager1.0.2.1Mac/Windows converts automatically,nofirmware update required. Architecture/size limits andonboard capture unverified. [TS-P],[TS-A2] |
-| Editor / software | StompManager:Windows10+64bit,macOS10.15.6+;mobileiOS11+/Android5+. Manual-era minimums,notcurrentOS certification. SeparateDFU updater. [TS-M] |
-| USB audio / drivers | 2-in/2-out48kHz24bit. V1.1.1notes:WindowsASIO6.14.0;MacCoreAudio. USB-MIDI pedal requires externalcontroller’s USBhost;wording USBHOST doesnot prove devicehost. [TS-P],[TS-FW] |
-| Looper / drums / routing | 40sstereolooper,AutoRec,Undo/Redo,LoopSync;100patterns. Eighttone modules movable. [TS-P],[TS-M] |
-| Firmware / backup | May27 2026V1.1.1 fixesTinyexternaldualfootswitch andHarmonyMajor/Minor. Update retainspresets buterases importedNAM/IR;factoryreset deletesuserdata. Backup first;no update performed. [TS-FW] |
-
-### Tiny Stomp — separate IDR hardware evidence
-
-| Condition | Amount / qualifications | Source |
-|---|---|---|
-| Used | Unknown;no qualifiedused offer. | — |
-| New | Unknown;condition notexplicit. | — |
-| Condition unverified;stock unconfirmed | **Rp830,000**,CH MUSIC,Jakarta Pusat,shop195817632/item9344664445. Directreaderlastweekcache,checked2026-10-18. Relative HariIni delivery notstock proof. Bundle/variant/warranty/voucher/shipping/tax unknown;Rp10,000 latecompensation notdiscount. | [ExactShopee][TS-S] |
-
-Original manual is manufacturer-hosted,matching Tiny Stomp cover/control names;internal filename JME-03A. No explicit revision date independently established;do not equate URLdate withfirmware. AugustA2notice andMayV1.1.1notes are separate dated evidence. Product counts40amps/40cabs include10importslots each;category audit below retains the distinction from the advertised total. All earlier Go Rig B gaps remain.
-
-[TS-P]: https://soranaudio.com/products/34.html
-[TS-M]: https://www.soranaudio.com/upload/files/article/20260106/17676658354117637.pdf
-[TS-A2]: https://www.soranaudio.com/article/162.html
-[TS-FW]: https://soranaudio.com/article/127.html
-[TS-S]: https://shopee.co.id/SORAN-Tiny-Stomp-Multi-Effect-Processor-with-Dual-Mode-Electric-Guitar-and-Bass-i.195817632.9344664445
-
-### Tiny Stomp — category-count audit
-
-Checked2026-10-18 against original manual [effect list][TS-M],printedpp21–26;PDF text inspection,not visual inspection orinstalled-firmware test.
-
-| Field | Count / qualification |
-|---|---|
-| Processing / factory choices | Gate1;OD/FX16;AMP30;CAB30;EQ2;MOD13;DEL7;REV6. **105 factory tone choices**,derived bysumming numbered entries. AMP/CAB each25guitar+5bass. |
-| Processing / advertised total | Ten additionalNAM slots plus tenIR slots yield **125 selectable positions** from105factorychoices+20imports. This arithmetic reconciles theadvertised125;it is not an explicit manufacturer definition of the headline or125factoryalgorithms. |
-| Category choices / types | EQ6-band/10-band. MOD includes12modulation choices plusHarmony. DEL:Analog,Digital,Mod,Tape,Reverse,Pan,Physical. REV:Room,Hall,Plate,Spring,Shimmer,Damp. |
-| Simultaneous processing | Eight tone modules pluslooper/drum make advertised10modules;105/125 arechoices/positions,not simultaneousblocks. Repeated-category instances andDSP-dependent restrictions remainunverified. |
-
-The cited appendix is dated only byits source context;laterfirmware/library changes require separate evidence. Empty slots are notfactory sounds. NAMconversion architecture/size limits,qualifiedused/newprices andscreen touch remainunresolved.
+- [Dual Stomp](#dual-stomp)
+- [Dual Stomp Lite](#dual-stomp-lite)
+- [Go Rig B](#go-rig-b)
+- [Go Rig II](#go-rig-ii)
+- [Tiny Stomp](#tiny-stomp)
+<!-- brand-index ends -->
 
 ## Dual Stomp
 
@@ -207,6 +117,55 @@ The [mirror transcription][DSL-QH] is retained for locating a readable original;
 [DSL-Q]: https://device.report/m/3a927c202f4a099de41749af0c98d7c544b926bdf6a02678d84be32686b95e00.pdf
 [DSL-QH]: https://device.report/manual/19170657
 
+## Go Rig B
+
+Bass-specific multi-effects;checked2026-10-18,partial. No Tiny/Dual Stomp specifications transferred. Ownership unverified.
+
+| Field | Finding / qualification |
+|---|---|
+| Instrument scope | Manufacturer explicitly identifies electric-bass multi-effects. Guitar/vocal suitability unverified. [P] |
+| Expression / toe | Built-in,external andtoe expression unverified;manual/panel evidence pending. |
+| K/F/B | Separate rotary,footswitch andbutton counts unverified;no visual inspection claimed. |
+| Display | Published diagonal,color andtouch unverified. |
+| Processing / choices | COMP,DIST,AMP,CAB,MOD sections;exact simultaneous ceiling/routing unverified. Drives:Drive,Dist,Fuzz. Amps:Mes400,DP751,SVBass. Cabs:2×12,8×10,4×10. Mod:Chorus,Flanger,Phaser withtaptempo. Three-band EQ withadjustable mids. [P] |
+| Factory / user memory | Preset/factory/user counts andsave behavior unverified. |
+| Synth / acoustic | Dedicated synthesis/acoustic simulation unverified. |
+| Dimensions / mass | 231L×80W×63H mm;690g. [P] |
+| I/O | Mono¼in TS input/output;⅛in TRS AUX;balancedXLR output;USB-C;Bluetooth playback. Complete connector inventory andheadphone routing pending readablemanual. [P] |
+| Power / battery / USB | 750mAh lithium battery;USB-C5V charging;160mA consumption. Overview says up to5hours,feature list4.5hours:unresolved conflict. Charge-while-operating andUSB-only operation unverified. Barrelpolarity notestablished. [P] |
+| IR / NAM / captures | Import/native/convertedNAM andcapture loading unverified;do not inherit sibling support. |
+| Editor / drivers / USB audio | USBaudio/OTG advertised;format/channels/currentOS/editor support unverified. No software downloaded. [P] |
+| Looper / drums / live | Tuner andmodulation taptempo documented;looper,drums,scenes,trails/bypass unverified. [P] |
+
+### Separate IDR hardware evidence
+
+| Condition | Amount / qualifications | Source |
+|---|---|---|
+| Used | Unknown;no qualified used offer established. | — |
+| New | Unknown;condition not explicit in inspected extract. | — |
+| Condition unverified;stock unconfirmed | **Rp1,130,000**,HOLY MUSIC,Jakarta Utara,shop945642322/item56262097023. Checked2026-10-18;direct reader last-month cached body. Relative five-hour delivery is not stock proof. Bundle,variant,warranty,voucher,shipping/tax unknown;Rp10,000 late-arrival compensation notdiscount. Not a completed sale. | [Exact Shopee][S] |
+
+Official support lists Go Rig B V1.0.0 manual,but linked PDF returned403. Manufacturer product page read as text;manual-dependent fields remain open. Converted mirror summaries were located but not accepted as original manual evidence. No downloads,installation orimage audit.
+
+[P]: https://soranaudio.com/products/25.html
+[S]: https://shopee.co.id/SORAN-GO-RIG-B-Portable-Bass-Multi-Effects-Stompbox-Pedal-%E2%80%93-Original-i.945642322.56262097023
+
+Official manual listing: https://www.soranaudio.com/Download.html . Inaccessible linked manual: https://zh-jiyou.oss-cn-shenzhen.aliyuncs.com/upload/files/article/20260729/17852891772300321.pdf .
+
+### Electrical specification and manual-access follow-up
+
+Checked2026-10-18. Manufacturer English product table and [Chinese product table][CN] independently identify this Go Rig B;matching dimensions,capacity andmodel-specific bass features.
+
+| Field | Published qualification |
+|---|---|
+| Audio conversion / processing | 48kHz;24-bit signal processing. English table labels24-bit **AD converter**,Chinese labels **数模转换器** (digital-to-analog converter). Preserve the localization difference;do not assert a separately verified matched ADC/DAC pair orUSB wordlength. [P],[CN] |
+| Audio levels / ports | Input impedances470kohm/1kohm;output10kohm/600ohm in the table’s listed order. No explicit per-connector mapping beyond table order. Noise−98.7dBu,dynamicrange96.5dB,response20Hz–20kHz;test conditions not provided. [CN] |
+| Power / source conflict | Chinese page repeats up to4.5h;English overview’s5h remains unresolved. Published160mA is consumption,not a charger rating;charge current andcharge-while-playing remain unverified. [P],[CN] |
+
+Original-manual access audit: official PDF403;manufacturer-domain alternate inaccessible;three Manuals+ original-PDF routes andtwo device.report optimized-PDF routes failed. Converted summaries disagree oromit details,so their control counts,USB format/OS andheadphone claims are not promoted. Future work should obtain readable original text rather than repeat these same failed routes. No files saved orsoftware installed.
+
+[CN]: https://www.soranaudio.com/cn/products/15.html
+
 ## Go Rig II
 
 Effects-only guitar multi-effects, checked 2026-10-18; partial. MOD, DELAY and REVERB make this a multi-effects processor without requiring amp modeling. Bass/vocal suitability and ownership unverified. Distinct JCMS-G3B model; not Go Rig I or Go Rig B.
@@ -252,3 +211,54 @@ Checked 2026-10-18. The [current support page](https://www.soranaudio.com/Downlo
 | Power / battery indicators | Indexed manual: green above 25%, flashing green below 25%; red while charging, green when full. Behavior at exactly 25%, shutdown threshold and charge duration are not specified in inspected text. This is not a charging-while-playing test. [GR2-M] |
 
 The exact [CH MUSIC offer][GR2-S] now opens directly with the same two-month cached Rp1,040,000 ask. No used/new condition, stock or bundle confirmation is added; relative delivery remains insufficient. This access check does not replace the original observation date or create a second price point.
+
+## Tiny Stomp
+
+Desktop guitar/bass multi-effects;checked2026-10-18,partial. Own manufacturer manual read as PDF text;no image audit or downloads. Distinct from Dual Stomp/Lite.
+
+| Field | Finding / qualification |
+|---|---|
+| Instrument scope | Guitar andbass explicitly supported;25guitar/5bass amps andmatching cabinets. [TS-P] |
+| Expression / toe | External¼in TRS EXP/CTRL:10–100kohm pedals;manual maps volume ordual switch ring=down,tip=up. No built-in pedal documented;toe unverified. [TS-P],[TS-M] |
+| K/F/B | Text-derived2rotary(Master,Edit),0onboard footswitches documented,2separate Left/Right buttons;encoder press countedonce,power separate. No panel-image corroboration. [TS-M] |
+| Display | 2-inch color TFT;touch unverified. [TS-P] |
+| Processing / choices | Advertised125effects/up to10modules:8tone modules pluslooper/drums. Per-category audit below separates factory choices from empty import slots. 30factoryamps/cabs plus10user slots each. [TS-P],[TS-M] |
+| Factory / user memory | 99editable locations;manual describes99factory presets,product01–80guitar/81–99bass. Not198locations. [TS-P],[TS-M] |
+| Synth / acoustic | Specific synth/acoustic simulation unverified. |
+| Dimensions / mass | 109L×84W×32H mm;250g. [TS-P] |
+| I/O | Mono¼TS input;shared¼TRS stereo OUT/PHONES,TRS EXP/CTRL,USB-C. TS output cable givesleft only;TRS splitter suppliesL/R. [TS-P],[TS-M] |
+| Power / battery / USB | 1500mAh3.7V battery,up to4h;USB-C5V charging. Manual says USBaudio/OTG stops charging. Draw,USB-only operation andbarrelpolarity unverified. [TS-P],[TS-M] |
+| IR / NAM / captures | Ten WAV IR slots,48kHz24bit512samples. TenNFILEslots. **NAM A2 conversion**,notproven native execution:Aug25 2026notice says StompManager1.0.2.1Mac/Windows converts automatically,nofirmware update required. Architecture/size limits andonboard capture unverified. [TS-P],[TS-A2] |
+| Editor / software | StompManager:Windows10+64bit,macOS10.15.6+;mobileiOS11+/Android5+. Manual-era minimums,notcurrentOS certification. SeparateDFU updater. [TS-M] |
+| USB audio / drivers | 2-in/2-out48kHz24bit. V1.1.1notes:WindowsASIO6.14.0;MacCoreAudio. USB-MIDI pedal requires externalcontroller’s USBhost;wording USBHOST doesnot prove devicehost. [TS-P],[TS-FW] |
+| Looper / drums / routing | 40sstereolooper,AutoRec,Undo/Redo,LoopSync;100patterns. Eighttone modules movable. [TS-P],[TS-M] |
+| Firmware / backup | May27 2026V1.1.1 fixesTinyexternaldualfootswitch andHarmonyMajor/Minor. Update retainspresets buterases importedNAM/IR;factoryreset deletesuserdata. Backup first;no update performed. [TS-FW] |
+
+### Tiny Stomp — separate IDR hardware evidence
+
+| Condition | Amount / qualifications | Source |
+|---|---|---|
+| Used | Unknown;no qualifiedused offer. | — |
+| New | Unknown;condition notexplicit. | — |
+| Condition unverified;stock unconfirmed | **Rp830,000**,CH MUSIC,Jakarta Pusat,shop195817632/item9344664445. Directreaderlastweekcache,checked2026-10-18. Relative HariIni delivery notstock proof. Bundle/variant/warranty/voucher/shipping/tax unknown;Rp10,000 latecompensation notdiscount. | [ExactShopee][TS-S] |
+
+Original manual is manufacturer-hosted,matching Tiny Stomp cover/control names;internal filename JME-03A. No explicit revision date independently established;do not equate URLdate withfirmware. AugustA2notice andMayV1.1.1notes are separate dated evidence. Product counts40amps/40cabs include10importslots each;category audit below retains the distinction from the advertised total. All earlier Go Rig B gaps remain.
+
+[TS-P]: https://soranaudio.com/products/34.html
+[TS-M]: https://www.soranaudio.com/upload/files/article/20260106/17676658354117637.pdf
+[TS-A2]: https://www.soranaudio.com/article/162.html
+[TS-FW]: https://soranaudio.com/article/127.html
+[TS-S]: https://shopee.co.id/SORAN-Tiny-Stomp-Multi-Effect-Processor-with-Dual-Mode-Electric-Guitar-and-Bass-i.195817632.9344664445
+
+### Tiny Stomp — category-count audit
+
+Checked2026-10-18 against original manual [effect list][TS-M],printedpp21–26;PDF text inspection,not visual inspection orinstalled-firmware test.
+
+| Field | Count / qualification |
+|---|---|
+| Processing / factory choices | Gate1;OD/FX16;AMP30;CAB30;EQ2;MOD13;DEL7;REV6. **105 factory tone choices**,derived bysumming numbered entries. AMP/CAB each25guitar+5bass. |
+| Processing / advertised total | Ten additionalNAM slots plus tenIR slots yield **125 selectable positions** from105factorychoices+20imports. This arithmetic reconciles theadvertised125;it is not an explicit manufacturer definition of the headline or125factoryalgorithms. |
+| Category choices / types | EQ6-band/10-band. MOD includes12modulation choices plusHarmony. DEL:Analog,Digital,Mod,Tape,Reverse,Pan,Physical. REV:Room,Hall,Plate,Spring,Shimmer,Damp. |
+| Simultaneous processing | Eight tone modules pluslooper/drum make advertised10modules;105/125 arechoices/positions,not simultaneousblocks. Repeated-category instances andDSP-dependent restrictions remainunverified. |
+
+The cited appendix is dated only byits source context;laterfirmware/library changes require separate evidence. Empty slots are notfactory sounds. NAMconversion architecture/size limits,qualifiedused/newprices andscreen touch remainunresolved.

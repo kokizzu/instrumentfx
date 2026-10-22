@@ -1,63 +1,67 @@
 # Fender multi-effects
 
-## Tone Master Pro
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
 
-**Checked 2026-10-15. Guitar/bass multi-effects with a separate mic/line processing path; large footprint; no built-in expression.** This record distinguishes the original manual and product-page figures from later firmware changes. Unknowns are explicit, not inferred from a competing processor.
+- [Mustang Micro](#mustang-micro)
+- [Mustang Micro Plus](#mustang-micro-plus)
+- [Tone Master Pro](#tone-master-pro)
+<!-- brand-index ends -->
 
-### Hardware, memory and loading
+## Mustang Micro
 
-| Required field | Evidence-backed value / limitation |
+Original PR5833;checked2026-10-17;partial,ownership unverified. Separate from Micro Plus.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
 |---|---|
-| Expression | No built-in pedal; **two 6.35 mm TRS expression inputs plus a separate toe-switch input**. External amp-control TRS switches up to two amplifier functions. [M4] |
-| Controls | **2 ordinary rotary encoders plus 10 rotary footswitch encoders / 10 footswitches / 0 separate front buttons**. Encoder pushes are not counted again; rear ground-lift, update, reset and power controls are separate. [M3,M4] |
-| Main display | **7-inch color touchscreen**. Resolution not established in checked primary text. [P,M3] |
-| Auxiliary displays | Dedicated LCD scribble strips for footswitches and navigation/master controls. Their diagonals and explicit color/touch properties remain unverified; LED ring colors are not LCD color specifications. [M3] |
-| Dimensions / weight | **371 W ×261.6 D ×96.4 H mm;4 kg** on product page. Original manual gives261.4 mm depth: preserve0.2 mm discrepancy rather than use these as a precision drilling template. Large; plugs add clearance. [P,MS] |
-| Presets | **504 user-created locations** in the original manual; factory collection is separate, current factory-filled count unverified. Do not interpret the marketing's over500 as500 factory+500 user. [M8] |
-| Processing / simultaneous limit | Reorderable amp/cab/effect blocks, serial/parallel and instrument/mic routing templates; DSP-dependent. **Exact current numerical block ceiling remains unverified**. Original manual allows up to two IR blocks; current firmware-specific exceptions require confirmation. [M11,M12] |
-| Categories and counts | Original six groups were Stompbox,Modulation,Delay,Reverb,Dynamics+EQ,Filter+Pitch. Firmware1.7 separates Dynamics/EQ/Filter/Pitch and adds Synth. Current complete per-category totals remain untranscribed; the product's100+ is not an audited current total. [M11,R] |
-| Synth | **Yes: Aethon Polysynth,Cerberus Polysynth,Wavemorph Polysynth**, introduced in1.7.53. Later Cirrostratus Synthverb is separately a reverb algorithm, not an additional verified general synthesizer. [R] |
-| Electric-to-acoustic simulation | **Not established**. Acoustasonic preamp is documented for piezo-equipped electric/acoustic instruments; this alone does not prove an electric-to-acoustic simulator. [G] |
-| IR loading | Third-party speaker IR import through Pro Control; manufacturer advertises6000+ factory cabinet/microphone-position IRs. Exact user-file slot capacity and current accepted file/sample limits remain unverified. Factory IR combinations are not6000 different effect algorithms. [P,M12] |
-| NAM / captures | Native NAM, NAM conversion and user amp-capture loading/creation **not established** by the checked manufacturer documentation. Factory cabinet IR capture is not onboard amp-capture functionality. |
+| Expression | No onboard pedal or EXP socket in complete manual inventory;external MIDI/toe support unverified. [Manual][MM-M] |
+| K/F/B | 1 volume wheel/0 footswitches/8 buttons(AMP,EQ,EFFECTS,MODIFY±);separate power/Bluetooth slider. [Manual][MM-M] |
+| Display | Colored indicator LEDs;no screen in manual inventory. Diagonal/touch not applicable. [Manual][MM-M] |
+| Processing / choices | 12 amps;12 effect/combinations per manual and product features,versus **11 effect models** in product specifications. Conflict unresolved. Selected amp plus selected combination;full block ceiling unverified. [Manual][MM-M] [Product][MM-P] |
+| Processing / exact amp selections | Manual p4: **12**—65 Twin+Compressor,65 Deluxe,57 Twin,60s British,65 Deluxe+Greenbox OD,70s British,90s American,BB15 HighGain,FBE-100,Metal2000,Uber,Studio Preamp. Included compressor/overdrive are tied to those selections,not independently documented extra slots. [Manual][MM-M] |
+| Processing / exact effect combinations | Manual p5: **12**—Large Hall;65 Spring;Modulated Large Hall;Sine Chorus/Large Room;Triangle Flanger/Large Room;Vintage Tremolo/Spring;Vibratone/Large Room;Harmonic Tremolo/Large Room;Slapback Delay/Large Room;Tape Delay/Small Room;Sine Chorus/Mono Delay/Large Hall;2290 Delay/Large Room. Room/Hall/Spring denote reverb. Each entry is one selectable combination,not independent freely reorderable effects. Existing11/12count and HarmonicRoom/Hall conflicts remain. [Manual][MM-M] |
+| Live / Modify parameters | Manual p6: first3reverbs adjust reverb level;chorus depth;flanger depth;Vintage/Harmonic tremolo rate;Vibratone speed;Slapback/Tape/triple-combination delay level;2290 delay time. Each has5levels plus bypass;numeric parameter ranges unpublished in this table. [Manual][MM-M] |
+| Preset memory | User/factory/total memory count unverified;12 selectable amps are not12 user presets. |
+| Synth / acoustic / bass | Studio Preamp explicitly suited to bass/acoustic instruments. Acoustic simulator and synth unverified. [Manual][MM-M] |
+| I/O | Rotating¼inch input;⅛inch stereo phones;USB-C charging/recording/update;Bluetooth5.0 A2DP1.3.1. [Manual][MM-M] |
+| I/O / USB restrictions | USB source-only;no computer return monitoring. Apple computer needs no external driver. Product documents simultaneous instrument/Bluetooth recording. [Manual][MM-M] [Product][MM-P] |
+| Power / battery / USB | Li-ion;USB current600mAmax;4h high/6h low volume. Charge with power on/off. Voltage/capacity/charge time unverified;600mA is not capacity. [Manual][MM-M] |
+| Dimensions / mass | 38.1W×80H×28.7Dmm,plug stored;51g. [Manual][MM-M] |
+| IR / NAM / capture | Import/capture support unverified. |
+| Editor / platforms | Mac/PC updater documented;not desktop/mobile tone-editor proof. Driver requirements separately qualified above. [Manual][MM-M] |
+| Editor / updater minimum OS | Original Micro Updater requires **Windows10+ or macOS10.14+**. These are updater requirements,not Tone-editor compatibility or USB audio minimums. [Official firmware support][MM-F] |
+| I/O / firmware-dependent behavior | **1.0.54 May27,2021** disconnects USB recording level from master volume and prevents tone control affecting Bluetooth audio. Also adjusts Spring/Hall/2290 effects,BB-15/FBE-100 and65Deluxe+Greenbox level. **1.0.64 March10,2022** improves Bluetooth reliability. Installed version unverified;no update performed. [Official firmware support][MM-F] |
+| Live / controls | 5EQ settings;Modify5levels+bypass;15min inactivity sleep,anybutton wakes. Looper/drums/scenes unverified. [Manual][MM-M] |
+| Processing / manual conflict | Harmonic Tremolo paired with Large Room in effect table,Large Hall in Modify table;preserve both. [Manual][MM-M] |
 
-### I/O, power and software
+### Separate IDR hardware offers
 
-One6.35 mm instrument input; one balanced XLR/6.35 mm combo mic/line input with **48 V phantom on XLR only**;3.5 mm aux; Output1 has two XLR and two balanced6.35 mm outs; independently assignable Output2 has two balanced6.35 mm outs; dedicated6.35 mm stereo headphones. [P,M4]
+| Condition | Evidence | Source |
+|---|---|---|
+| Unverified | **Rp2.474.000**;Salomo Musik,shop1776275/item24838368984,Kota Jakarta Utara;three months indexed crawl. | [Item][MM-O1] |
+| Unverified | **Rp1.374.975**;indie_musicstore,shop191485301/item26444289932,Kota Depok;three months indexed crawl. | [Item][MM-O2] |
 
-Four send/return pairs: **loops1/2 are fixed analog pre-conversion loops**, useful for input-sensitive fuzz pedals; loops3/4 can be positioned in the digital path and paired for stereo. Firmware1.7 permits loops3/4 in the mic/line path. Separate five-pin MIDI IN/OUT-THRU,USB-C,microSD,expression/toe/amp control and IEC mains inlet. MicroSD backup support and MIDI over USB were added after the old manual, so its future-expansion wording is not a current limitation. [M4,M12,R]
+### Mustang Micro — headphone ratings and reset scope, 2026-10-18
 
-**Power: universal100–240 V AC,50/60 Hz,40 W**, supplied IEC cable; no DC pedal-adapter polarity applies. Regional store120V/230V labels are not a substitute for the manufacturer's universal input specification. Internal battery and USB-powered operation are not documented. [MS,M4]
+[Original PR5833 manual, printed pp2,8–9][MM-M]; not Micro Plus specifications. No device operation.
 
-**Pro Control full editor: Windows10 x64 22H2/Windows11,macOS12.7+,iOS13.1+,Android8 arm64-v8a+.** Mobile editing is documented, not merely Bluetooth audio. Linux editor unverified. Firmware and app release generation must match. [R,J]
+| Field | Verified specification / qualification |
+|---|---|
+| I/O / input and headphone load | **Input1MΩ; headphones30mW/channel**, with published headphone working range **greater than16Ω**. Output power is not a maximum voltage/input-headroom specification; no test load is attached to the30mW line in this table. The input plug rotates up to270degrees. |
+| Memory / factory reset | Reset restores **AMP,EQ,EFFECTS,MODIFY** selections and clears the Bluetooth paired-device list. These are resettable operating settings, not proof of a user-preset bank, per-combination memory count or power-cycle persistence. The retained preset-memory count remains unresolved. |
 
-**USB4-in/4-out**, standard dry/processed recording and reamping; internal44.1 kHz, project synchronization44.1/48/88.2/96 kHz. In standard mode computer-return3/4 are disabled; reamp mode enables them for instrument/mic reamping and mutes the physical inputs. Windows ASIO driver is separate from the editor. [P,M35,R]
+<!-- comparison evidence ends -->
 
-### Firmware and stage/practice distinctions
+Historical indexed asks checked2026-10-17,not checkout or current stock. Condition,variant,bundle,warranty,authenticity,shipping,tax,vouchers unresolved;no qualified used/new allocation. No files downloaded or images visually inspected. Exact algorithm lists are preserved above;memory/software/import gaps remain.
 
-The English support page retrieved here starts with **1.8.45,2026-06-03**; the Japanese official page documents **1.8.58,2026-07-15**, with later fixes. Do not label the older English headline the latest known firmware. The newer version also renames FBE/Freeman models to Forge; old names in an earlier guide are not additional models. [R,J]
+[MM-M]: https://www.fmicassets.com/Damroot/Original/10001/OM_2311300000_Mustang_Micro_US.pdf
+[MM-P]: https://intl.fender.com/products/mustang-micro
+[MM-O1]: https://shopee.co.id/Fender-Mustang-Micro-Guitar-Headphone-Amplifier-Black-Original-i.1776275.24838368984
+[MM-O2]: https://shopee.co.id/Fender-Mustang-Micro-Guitar-Headphone-Amplifier-Amplug-i.191485301.26444289932
 
-**Looper expanded from the product page's60 seconds to three minutes in1.7.53.** Three polysynths and MIDI-over-USB support were added in that same release. The June2026 update adds8 amps,8 cabinets and15 effects; these are update increments, not the complete library and not to be added again to an updated model list. Scene/snapshot functions, songs/setlists,tuner and delay/reverb spillover are documented; no measured global latency is asserted. [R,J,P]
-
-### IDR price evidence
-
-| Class | Amount | Source and qualification |
-|---|---:|---|
-| Retail indexed hardware ask | **Rp33.585.000** | [Seven Stereo,shop16879370/item21195037830](https://shopee.co.id/Fender-Tone-Master-Pro-Multi-effects-Guitar-Processor-Tonemaster-i.16879370.21195037830). Cached July delivery text; not checkout-confirmed stock or condition |
-| Separate indexed hardware ask | **Rp33.585.000** | [shop1408254222/item27020240400](https://shopee.co.id/Fender-Tone-Master-Pro-Multi-effects-Guitar-Processor-tonemaster-Multi-FX-Efek-Gitar-Elektrik-Electric-Listrik-i.1408254222.27020240400). Cached October8–9 text; direct reopening failed |
-| Condition-verified used offer | **?** | No verified used-price evidence obtained |
-
-Neither a seller name nor cached delivery text authenticates a shop, confirms accessories/regional warranty, or supplies a current delivered-price range. No percentage-of-new used estimate or currency conversion is used.
-
-### Sources and inspection limits
-
-[P] [Fender product and specifications](https://www.fender.com/products/tone-master-pro).
-[R] [Official English firmware/app release history](https://support.fender.com/hc/en-gb/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates).
-[J] [Official Japanese firmware/app history](https://jp-support.fender.com/hc/ja/articles/53331084071451-TONE-MASTER-PRO-%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2-%E3%83%97%E3%83%AD%E3%83%88%E3%82%B3%E3%83%AB%E3%81%AE%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88).
-
-Supplementary original **Fender Owner's Manual firmware1.1.100**, not the host site's generated FAQ: [M3 controls,printedp.3](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=5); [M4 rear panel,printedp.4](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=6); [M8 memory,printedp.8](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=10); [M11 block types](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=13); [M12 loop/IR operation](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=14); [M35 USB](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=37); [MS original specifications](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=45).
-
-[G] [Original Fender model guide1.2.55 text](https://manuals.plus/m/d661a03ee5f2fdaec47d00be1862b903155245a8345018b802c063be4985be26), Acoustasonic description. Firmware updates above supersede old feature omissions. Official linked PDFs and mirror PDF downloads failed to open; original manufacturer text was read via HTML, **not a successful PDF visual inspection**. Remaining gaps include current category inventory/block ceiling,IR capacities/formats,auxiliary display specifications and condition-verified used pricing.
+[MM-F]: https://support.fender.com/hc/en-us/articles/46634356505755-How-do-I-update-the-Firmware-on-the-Mustang-Micro
 
 ## Mustang Micro Plus
 
@@ -165,57 +169,61 @@ Manufacturer manual transcription identifies PR6171/exact Micro Plus,matching la
 
 Original11-page PR6171 owner-manual pages corroborate the mirrored guide's effect list and operating text;published page numbers are one below website page numbers. No panel image viewed. Updated bass additions remain separately sourced to2026release notes.
 
-## Mustang Micro
+## Tone Master Pro
 
-Original PR5833;checked2026-10-17;partial,ownership unverified. Separate from Micro Plus.
+**Checked 2026-10-15. Guitar/bass multi-effects with a separate mic/line processing path; large footprint; no built-in expression.** This record distinguishes the original manual and product-page figures from later firmware changes. Unknowns are explicit, not inferred from a competing processor.
 
-<!-- comparison evidence begins -->
+### Hardware, memory and loading
 
-| Field | Finding / qualification |
+| Required field | Evidence-backed value / limitation |
 |---|---|
-| Expression | No onboard pedal or EXP socket in complete manual inventory;external MIDI/toe support unverified. [Manual][MM-M] |
-| K/F/B | 1 volume wheel/0 footswitches/8 buttons(AMP,EQ,EFFECTS,MODIFY±);separate power/Bluetooth slider. [Manual][MM-M] |
-| Display | Colored indicator LEDs;no screen in manual inventory. Diagonal/touch not applicable. [Manual][MM-M] |
-| Processing / choices | 12 amps;12 effect/combinations per manual and product features,versus **11 effect models** in product specifications. Conflict unresolved. Selected amp plus selected combination;full block ceiling unverified. [Manual][MM-M] [Product][MM-P] |
-| Processing / exact amp selections | Manual p4: **12**—65 Twin+Compressor,65 Deluxe,57 Twin,60s British,65 Deluxe+Greenbox OD,70s British,90s American,BB15 HighGain,FBE-100,Metal2000,Uber,Studio Preamp. Included compressor/overdrive are tied to those selections,not independently documented extra slots. [Manual][MM-M] |
-| Processing / exact effect combinations | Manual p5: **12**—Large Hall;65 Spring;Modulated Large Hall;Sine Chorus/Large Room;Triangle Flanger/Large Room;Vintage Tremolo/Spring;Vibratone/Large Room;Harmonic Tremolo/Large Room;Slapback Delay/Large Room;Tape Delay/Small Room;Sine Chorus/Mono Delay/Large Hall;2290 Delay/Large Room. Room/Hall/Spring denote reverb. Each entry is one selectable combination,not independent freely reorderable effects. Existing11/12count and HarmonicRoom/Hall conflicts remain. [Manual][MM-M] |
-| Live / Modify parameters | Manual p6: first3reverbs adjust reverb level;chorus depth;flanger depth;Vintage/Harmonic tremolo rate;Vibratone speed;Slapback/Tape/triple-combination delay level;2290 delay time. Each has5levels plus bypass;numeric parameter ranges unpublished in this table. [Manual][MM-M] |
-| Preset memory | User/factory/total memory count unverified;12 selectable amps are not12 user presets. |
-| Synth / acoustic / bass | Studio Preamp explicitly suited to bass/acoustic instruments. Acoustic simulator and synth unverified. [Manual][MM-M] |
-| I/O | Rotating¼inch input;⅛inch stereo phones;USB-C charging/recording/update;Bluetooth5.0 A2DP1.3.1. [Manual][MM-M] |
-| I/O / USB restrictions | USB source-only;no computer return monitoring. Apple computer needs no external driver. Product documents simultaneous instrument/Bluetooth recording. [Manual][MM-M] [Product][MM-P] |
-| Power / battery / USB | Li-ion;USB current600mAmax;4h high/6h low volume. Charge with power on/off. Voltage/capacity/charge time unverified;600mA is not capacity. [Manual][MM-M] |
-| Dimensions / mass | 38.1W×80H×28.7Dmm,plug stored;51g. [Manual][MM-M] |
-| IR / NAM / capture | Import/capture support unverified. |
-| Editor / platforms | Mac/PC updater documented;not desktop/mobile tone-editor proof. Driver requirements separately qualified above. [Manual][MM-M] |
-| Editor / updater minimum OS | Original Micro Updater requires **Windows10+ or macOS10.14+**. These are updater requirements,not Tone-editor compatibility or USB audio minimums. [Official firmware support][MM-F] |
-| I/O / firmware-dependent behavior | **1.0.54 May27,2021** disconnects USB recording level from master volume and prevents tone control affecting Bluetooth audio. Also adjusts Spring/Hall/2290 effects,BB-15/FBE-100 and65Deluxe+Greenbox level. **1.0.64 March10,2022** improves Bluetooth reliability. Installed version unverified;no update performed. [Official firmware support][MM-F] |
-| Live / controls | 5EQ settings;Modify5levels+bypass;15min inactivity sleep,anybutton wakes. Looper/drums/scenes unverified. [Manual][MM-M] |
-| Processing / manual conflict | Harmonic Tremolo paired with Large Room in effect table,Large Hall in Modify table;preserve both. [Manual][MM-M] |
+| Expression | No built-in pedal; **two 6.35 mm TRS expression inputs plus a separate toe-switch input**. External amp-control TRS switches up to two amplifier functions. [M4] |
+| Controls | **2 ordinary rotary encoders plus 10 rotary footswitch encoders / 10 footswitches / 0 separate front buttons**. Encoder pushes are not counted again; rear ground-lift, update, reset and power controls are separate. [M3,M4] |
+| Main display | **7-inch color touchscreen**. Resolution not established in checked primary text. [P,M3] |
+| Auxiliary displays | Dedicated LCD scribble strips for footswitches and navigation/master controls. Their diagonals and explicit color/touch properties remain unverified; LED ring colors are not LCD color specifications. [M3] |
+| Dimensions / weight | **371 W ×261.6 D ×96.4 H mm;4 kg** on product page. Original manual gives261.4 mm depth: preserve0.2 mm discrepancy rather than use these as a precision drilling template. Large; plugs add clearance. [P,MS] |
+| Presets | **504 user-created locations** in the original manual; factory collection is separate, current factory-filled count unverified. Do not interpret the marketing's over500 as500 factory+500 user. [M8] |
+| Processing / simultaneous limit | Reorderable amp/cab/effect blocks, serial/parallel and instrument/mic routing templates; DSP-dependent. **Exact current numerical block ceiling remains unverified**. Original manual allows up to two IR blocks; current firmware-specific exceptions require confirmation. [M11,M12] |
+| Categories and counts | Original six groups were Stompbox,Modulation,Delay,Reverb,Dynamics+EQ,Filter+Pitch. Firmware1.7 separates Dynamics/EQ/Filter/Pitch and adds Synth. Current complete per-category totals remain untranscribed; the product's100+ is not an audited current total. [M11,R] |
+| Synth | **Yes: Aethon Polysynth,Cerberus Polysynth,Wavemorph Polysynth**, introduced in1.7.53. Later Cirrostratus Synthverb is separately a reverb algorithm, not an additional verified general synthesizer. [R] |
+| Electric-to-acoustic simulation | **Not established**. Acoustasonic preamp is documented for piezo-equipped electric/acoustic instruments; this alone does not prove an electric-to-acoustic simulator. [G] |
+| IR loading | Third-party speaker IR import through Pro Control; manufacturer advertises6000+ factory cabinet/microphone-position IRs. Exact user-file slot capacity and current accepted file/sample limits remain unverified. Factory IR combinations are not6000 different effect algorithms. [P,M12] |
+| NAM / captures | Native NAM, NAM conversion and user amp-capture loading/creation **not established** by the checked manufacturer documentation. Factory cabinet IR capture is not onboard amp-capture functionality. |
 
-### Separate IDR hardware offers
+### I/O, power and software
 
-| Condition | Evidence | Source |
-|---|---|---|
-| Unverified | **Rp2.474.000**;Salomo Musik,shop1776275/item24838368984,Kota Jakarta Utara;three months indexed crawl. | [Item][MM-O1] |
-| Unverified | **Rp1.374.975**;indie_musicstore,shop191485301/item26444289932,Kota Depok;three months indexed crawl. | [Item][MM-O2] |
+One6.35 mm instrument input; one balanced XLR/6.35 mm combo mic/line input with **48 V phantom on XLR only**;3.5 mm aux; Output1 has two XLR and two balanced6.35 mm outs; independently assignable Output2 has two balanced6.35 mm outs; dedicated6.35 mm stereo headphones. [P,M4]
 
-### Mustang Micro — headphone ratings and reset scope, 2026-10-18
+Four send/return pairs: **loops1/2 are fixed analog pre-conversion loops**, useful for input-sensitive fuzz pedals; loops3/4 can be positioned in the digital path and paired for stereo. Firmware1.7 permits loops3/4 in the mic/line path. Separate five-pin MIDI IN/OUT-THRU,USB-C,microSD,expression/toe/amp control and IEC mains inlet. MicroSD backup support and MIDI over USB were added after the old manual, so its future-expansion wording is not a current limitation. [M4,M12,R]
 
-[Original PR5833 manual, printed pp2,8–9][MM-M]; not Micro Plus specifications. No device operation.
+**Power: universal100–240 V AC,50/60 Hz,40 W**, supplied IEC cable; no DC pedal-adapter polarity applies. Regional store120V/230V labels are not a substitute for the manufacturer's universal input specification. Internal battery and USB-powered operation are not documented. [MS,M4]
 
-| Field | Verified specification / qualification |
-|---|---|
-| I/O / input and headphone load | **Input1MΩ; headphones30mW/channel**, with published headphone working range **greater than16Ω**. Output power is not a maximum voltage/input-headroom specification; no test load is attached to the30mW line in this table. The input plug rotates up to270degrees. |
-| Memory / factory reset | Reset restores **AMP,EQ,EFFECTS,MODIFY** selections and clears the Bluetooth paired-device list. These are resettable operating settings, not proof of a user-preset bank, per-combination memory count or power-cycle persistence. The retained preset-memory count remains unresolved. |
+**Pro Control full editor: Windows10 x64 22H2/Windows11,macOS12.7+,iOS13.1+,Android8 arm64-v8a+.** Mobile editing is documented, not merely Bluetooth audio. Linux editor unverified. Firmware and app release generation must match. [R,J]
 
-<!-- comparison evidence ends -->
+**USB4-in/4-out**, standard dry/processed recording and reamping; internal44.1 kHz, project synchronization44.1/48/88.2/96 kHz. In standard mode computer-return3/4 are disabled; reamp mode enables them for instrument/mic reamping and mutes the physical inputs. Windows ASIO driver is separate from the editor. [P,M35,R]
 
-Historical indexed asks checked2026-10-17,not checkout or current stock. Condition,variant,bundle,warranty,authenticity,shipping,tax,vouchers unresolved;no qualified used/new allocation. No files downloaded or images visually inspected. Exact algorithm lists are preserved above;memory/software/import gaps remain.
+### Firmware and stage/practice distinctions
 
-[MM-M]: https://www.fmicassets.com/Damroot/Original/10001/OM_2311300000_Mustang_Micro_US.pdf
-[MM-P]: https://intl.fender.com/products/mustang-micro
-[MM-O1]: https://shopee.co.id/Fender-Mustang-Micro-Guitar-Headphone-Amplifier-Black-Original-i.1776275.24838368984
-[MM-O2]: https://shopee.co.id/Fender-Mustang-Micro-Guitar-Headphone-Amplifier-Amplug-i.191485301.26444289932
+The English support page retrieved here starts with **1.8.45,2026-06-03**; the Japanese official page documents **1.8.58,2026-07-15**, with later fixes. Do not label the older English headline the latest known firmware. The newer version also renames FBE/Freeman models to Forge; old names in an earlier guide are not additional models. [R,J]
 
-[MM-F]: https://support.fender.com/hc/en-us/articles/46634356505755-How-do-I-update-the-Firmware-on-the-Mustang-Micro
+**Looper expanded from the product page's60 seconds to three minutes in1.7.53.** Three polysynths and MIDI-over-USB support were added in that same release. The June2026 update adds8 amps,8 cabinets and15 effects; these are update increments, not the complete library and not to be added again to an updated model list. Scene/snapshot functions, songs/setlists,tuner and delay/reverb spillover are documented; no measured global latency is asserted. [R,J,P]
+
+### IDR price evidence
+
+| Class | Amount | Source and qualification |
+|---|---:|---|
+| Retail indexed hardware ask | **Rp33.585.000** | [Seven Stereo,shop16879370/item21195037830](https://shopee.co.id/Fender-Tone-Master-Pro-Multi-effects-Guitar-Processor-Tonemaster-i.16879370.21195037830). Cached July delivery text; not checkout-confirmed stock or condition |
+| Separate indexed hardware ask | **Rp33.585.000** | [shop1408254222/item27020240400](https://shopee.co.id/Fender-Tone-Master-Pro-Multi-effects-Guitar-Processor-tonemaster-Multi-FX-Efek-Gitar-Elektrik-Electric-Listrik-i.1408254222.27020240400). Cached October8–9 text; direct reopening failed |
+| Condition-verified used offer | **?** | No verified used-price evidence obtained |
+
+Neither a seller name nor cached delivery text authenticates a shop, confirms accessories/regional warranty, or supplies a current delivered-price range. No percentage-of-new used estimate or currency conversion is used.
+
+### Sources and inspection limits
+
+[P] [Fender product and specifications](https://www.fender.com/products/tone-master-pro).
+[R] [Official English firmware/app release history](https://support.fender.com/hc/en-gb/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates).
+[J] [Official Japanese firmware/app history](https://jp-support.fender.com/hc/ja/articles/53331084071451-TONE-MASTER-PRO-%E3%83%95%E3%82%A1%E3%83%BC%E3%83%A0%E3%82%A6%E3%82%A7%E3%82%A2-%E3%83%97%E3%83%AD%E3%83%88%E3%82%B3%E3%83%AB%E3%81%AE%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88).
+
+Supplementary original **Fender Owner's Manual firmware1.1.100**, not the host site's generated FAQ: [M3 controls,printedp.3](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=5); [M4 rear panel,printedp.4](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=6); [M8 memory,printedp.8](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=10); [M11 block types](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=13); [M12 loop/IR operation](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=14); [M35 USB](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=37); [MS original specifications](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=45).
+
+[G] [Original Fender model guide1.2.55 text](https://manuals.plus/m/d661a03ee5f2fdaec47d00be1862b903155245a8345018b802c063be4985be26), Acoustasonic description. Firmware updates above supersede old feature omissions. Official linked PDFs and mirror PDF downloads failed to open; original manufacturer text was read via HTML, **not a successful PDF visual inspection**. Remaining gaps include current category inventory/block ceiling,IR capacities/formats,auxiliary display specifications and condition-verified used pricing.

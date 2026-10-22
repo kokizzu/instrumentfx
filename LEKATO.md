@@ -2,6 +2,12 @@
 
 [All guitar](ALL-GUITAR.md) · [All bass](ALL-BASS.md) · [Repository](README.md)
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [ME-01](#me-01)
+<!-- brand-index ends -->
+
 ## ME-01
 
 Checked2026-10-18; partial. Own brand productSKU M03397 establishes general multi-effects eligibility; Shopee exact-model attribution remains unconfirmed. Ownership unverified. No equivalence with M-VAVE MINI-X,TANK-G,orPA-4 established; no sibling specifications transferred.

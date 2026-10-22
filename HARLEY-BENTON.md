@@ -2,6 +2,12 @@
 
 [All guitar](ALL-GUITAR.md) · [Repository](README.md)
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [DNAfx GiT Core](#dnafx-git-core)
+<!-- brand-index ends -->
+
 ## DNAfx GiT Core
 
 Checked 2026-10-19; partial. Exact Core hardware; separate from GiT, Advanced and Pro. Included from the user-requested [Jamie Slays list](https://jamieslays.com/best-multi-effects-pedals/). Bass/vocal suitability and ownership unverified.
