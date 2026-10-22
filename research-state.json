@@ -122572,7 +122572,7 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-22",
-    "current": "Original Zoom 505 conditional expression volume",
+    "current": "Nano Cortex toe switches and control boundaries rechecked",
     "finding": "Patch pedal wah/pitch takes priority over volume; no universal override established. EQ→MOD; bypass/phones/range remain unknown.",
     "next": [
       "Prioritize current Ampero Mini/Nano Cortex global-volume evidence, then reconcile original Zoom 606/607 no-treadle inventory; original 505 conditional audit saved.",
@@ -122657,6 +122657,19 @@
         "bypass volume",
         "headphone attenuation",
         "looper coverage"
+      ]
+    },
+    "nano_recheck_20261022": {
+      "sources": [
+        "https://neuraldsp.com/manual/nano-cortex",
+        "https://neuraldsp.com/getting-started/using-midi-on-nano-cortex"
+      ],
+      "toe": "Latching supported; momentary requires Latching Emulation",
+      "scope": "Still unverified; CC1 position and Parameter Lock do not establish universal volume assignment",
+      "remaining": [
+        "assignment persistence",
+        "master versus capture LEVEL target",
+        "headphone/bypass/tails coverage"
       ]
     }
   },

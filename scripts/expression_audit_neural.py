@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(neural): distinguish Nano volume utility and capture gain'))
+    print(git('commit','-m','research(neural): verify Nano toe-switch and MIDI expression boundaries'))

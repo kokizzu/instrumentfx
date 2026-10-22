@@ -131,6 +131,18 @@ External toe-switch behavior, precise live-vocal/capture-mic limitations, intern
 
 [Official setup article](https://neuraldsp.com/getting-started/using-midi-on-nano-cortex) lists GAIN/BASS/MID/TREBLE/AMOUNT but omits LEVEL. Preserve this documentation conflict; do not substitute Capture Volume or calibration for global output assignment. See [audit comparison](EXPRESSION-VOLUME.md). Existing dimensions, offers and revision qualifications remain above; no download or hardware test.
 
+### Nano Cortex — toe switches and control boundaries, rechecked 2026-10-22
+
+[Official NanOS 2.2.0 manual](https://neuraldsp.com/manual/nano-cortex), Expression Pedal Configuration and Incoming MIDI CC List:
+
+| Field | Evidence / qualification |
+|---|---|
+| External expression / toe switches | **Latching and momentary supported; momentary requires Latching Emulation.** Slot bypass offers toe-switch, stationary-pedal and heel/toe modes; delay reaches 2000 ms. This resolves the earlier toe-support gap for documented compatible pedals. |
+| External expression / MIDI distinction | **CC1 conveys pedal position**, 0 heel/127 toe; it is not an independent globally assigned volume controller. Analog EXP and TRS MIDI remain alternative socket modes. |
+| External expression / unresolved volume scope | LEVEL still appears in the manual target list but not the setup article. Preset-wide assignment, headphone attenuation and bypass/tail coverage remain unverified. Knob Parameter Lock only prevents accidental rotary adjustment; it is not volume-assignment persistence. |
+
+Manual and [setup article](https://neuraldsp.com/getting-started/using-midi-on-nano-cortex) rechecked; preserve their disagreement and the separate capture-volume/main-output/headphone paths. No hardware operation or local downloads.
+
 ## Quad Cortex
 
 Partial record checked **2026-10-17**. Full Quad Cortex,distinct from Nano Cortex andQuad Cortex mini. Product page advertises CorOS4.1.0;current web manual identifies4.1.1. Seller firmware unverified.
