@@ -122571,11 +122571,11 @@
   "expression_volume_audit": {
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
-    "checked": "2026-10-19",
-    "current": "Original G1 patch expression and bypass exception",
-    "finding": "Per-patch target; bypass always volume. Shared phones; depth15mm over preference; Rhythm prevents patch changes.",
+    "checked": "2026-10-22",
+    "current": "Original Zoom 505 conditional expression volume",
+    "finding": "Patch pedal wah/pitch takes priority over volume; no universal override established. EQ→MOD; bypass/phones/range remain unknown.",
     "next": [
-      "Screen original Zoom 505, then reconcile remaining no-treadle inventory systematically; G2 FOUR and original G3 already audited",
+      "Prioritize current Ampero Mini/Nano Cortex global-volume evidence, then reconcile original Zoom 606/607 no-treadle inventory; original 505 conditional audit saved.",
       "IR-200: resolve stereo IR capacity/loader conflict, complete field checklist and final scope decision; power voltage/polarity now source-backed",
       "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
       "Exact Shopee Indonesia offers",
@@ -122644,6 +122644,27 @@
         "https://static.roland.com/assets/media/pdf/IR-200_IR_Loader_eng01_W.pdf"
       ],
       "power": "IR-200 -> PSA-230S in official July2025 correspondence; PSA-S regulated9VDC center-negative500mA supply; device335mA. Seller adapter unverified."
+    },
+    "original_505": {
+      "source": "https://zoomcorp.com/media/documents/E_505.pdf",
+      "manual": "505-5000; sections5–8,12",
+      "checked": "2026-10-22",
+      "status": "conditional",
+      "unknown": [
+        "global override",
+        "minimum/maximum",
+        "pedal-position recall",
+        "bypass volume",
+        "headphone attenuation",
+        "looper coverage"
+      ]
     }
+  },
+  "brand_navigation": {
+    "order": "A–Z with natural numeric model order",
+    "brand_files": 47,
+    "section_index": true,
+    "checked": "2026-10-22",
+    "evidence_preserved": true
   }
 }

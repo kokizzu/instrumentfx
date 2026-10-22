@@ -112,6 +112,19 @@ Checked 2026-10-18; exact seller hardware revision remains unknown. Earlier lite
 
 [505J]: https://zoomcorp.com/media/documents/J_505_0.pdf
 
+### Original 505 — conditional expression-volume audit
+
+Checked 2026-10-22, original English manual **505-5000**, sections 5–8 and 12 (PDF sheets 2–4). [Manufacturer manual][505E]
+
+| Field | Evidence / qualification |
+|---|---|
+| External expression / assignment scope | **CONDITIONAL**: FP01 defaults to volume, but patch-selected pedal wah or MOD pedal pitch Pu/Pd takes priority. No universal volume-only override established. |
+| External expression volume position / range | Between EQ and MOD, before DLY/REV. Adjustable pedal minimum/maximum, taper and position recall unverified; master level 0–50 is separate and resets at power-off. |
+| Bypass / headphones / tails / looper | Bypass described, but pedal-volume behavior there unverified. Shared stereo output accepts headphones; headphone attenuation not separately guaranteed. Manufacturer describes volume action preserving delay/reverb character, not final-output muting. Looper coverage unverified. |
+| Onboard preset down / up | Left DOWN / right UP in Play; Bank Hold restricts selection to the current bank. CONTROL IN is shared with optional FS01 bank-up switch. |
+
+Preferred footprint fails: Japanese evidence above gives **147 W ×157 D mm**, 17 mm too deep. Keep English axis and battery conflicts; do not substitute 505II behavior. No hardware tested.
+
 ## 505II
 
 Guitar multi-effects, distinct from original505 and505IICG. Checked2026-10-17;partial. Manufacturer lists discontinued. Bass/vocal suitability andownership unestablished.

@@ -2123,3 +2123,7 @@ brand-sort-commit:
 .PHONY: brand-sort-test
 brand-sort-test:
 	python3 scripts/brand_sort.py test
+
+.PHONY: expression-audit-commit-zoom-505
+expression-audit-commit-zoom-505:
+	python3 scripts/expression_audit_zoom.py commit-505

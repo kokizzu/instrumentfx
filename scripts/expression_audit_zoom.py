@@ -5,7 +5,7 @@ from research_tools import git, verify
 import comparison_views
 
 if __name__ == '__main__':
-    assert sys.argv[1:] == ['commit']
+    assert sys.argv[1:] in (['commit'], ['commit-505'])
     verify()
     comparison_views.verify_views()
     comparison_views.test_readme_brand_counts()
@@ -16,4 +16,5 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(zoom): document original G1 patch expression and bypass volume'))
+    message = 'research(zoom): document original 505 conditional expression volume' if sys.argv[1]=='commit-505' else 'research(zoom): document original G1 patch expression and bypass volume'
+    print(git('commit','-m',message))
