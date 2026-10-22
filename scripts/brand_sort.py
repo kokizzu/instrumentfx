@@ -1,6 +1,7 @@
 """Losslessly sort root brand sections and navigation; no workflows."""
 import collections, hashlib, json, re, subprocess, sys
 from pathlib import Path
+sys.dont_write_bytecode=True
 ROOT=Path(__file__).resolve().parents[1]
 PLAN=Path('/tmp/instrumentfx-brand-sort.json')
 START='<!-- brand-index begins -->\n'
