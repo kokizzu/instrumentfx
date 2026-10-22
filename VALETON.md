@@ -837,6 +837,15 @@ Checked 2026-10-19. [Manufacturer-authored manual mirror title](https://www.manu
 
 These are distinct MIDI targets, not proof of analog EXP-to-master assignment, preset persistence, heel-down mute or headphone/bypass/tail/looper coverage. A controller sending MIDI would be a separate setup from the requested direct analog connection. [Printed p16](https://www.manualslib.com/manual/4176158/Valeton-Gp-50.html?page=19) places effect-parameter target/range editing in the EXP module; [p20](https://www.manualslib.com/manual/4176158/Valeton-Gp-50.html?page=23) documents global calibration, not a master-volume assignment. Official1.1.0 PDF access failed again; do not carry1.0.5 behavior forward as verified current firmware. No downloads or operation.
 
+### GP-50 — additional exact Shopee offer and manual-access checkpoint
+
+Checked 2026-10-22. [Jojomusicstore hardware listing](https://shopee.co.id/Valeton-GP50-GP-50-Next-Generation-Compact-Multi-Effects-i.382833846.52005015889), seller **382833846**, item **52005015889**, Kota Surabaya:
+
+| Field | Evidence / qualification |
+|---|---|
+| IDR / condition-unverified indexed ask | **Rp2.255.000; Habis** on direct reader reopening of a month-old cache. Search result omitted Habis. Exact GP-50 title, not GP-5 or an expression-pedal accessory. Condition, selected variant, bundle/adapter, warranty, shipping/tax, voucher eligibility, checkout total and live stock remain unverified. September12–13 delivery text is stale; late-delivery compensation is not an upfront discount. Not a verified new/used sale. |
+| External expression / manual revision boundary | [Official V1.1.0 entry](https://www.valeton.net/wpfd_file/gp-50_online-manual_en_firmware-v1-1-0-pdf/) remains available; its linked PDF remains inaccessible to the reader. The product page's FAQ link still opens the V1.0.5 manual. Neither certifies V1.1.0 global volume behavior. Earlier technical evidence and offers remain unchanged. |
+
 ## GP-100
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

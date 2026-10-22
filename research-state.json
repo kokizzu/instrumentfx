@@ -122572,14 +122572,15 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-22",
-    "current": "Nano Cortex toe switches and control boundaries rechecked",
+    "current": "GP-50 additional exact offer and current documentation access",
     "finding": "Patch pedal wah/pitch takes priority over volume; no universal override established. EQ→MOD; bypass/phones/range remain unknown.",
     "next": [
-      "Prioritize current Ampero Mini/Nano Cortex global-volume evidence, then reconcile original Zoom 606/607 no-treadle inventory; original 505 conditional audit saved.",
-      "IR-200: resolve stereo IR capacity/loader conflict, complete field checklist and final scope decision; power voltage/polarity now source-backed",
-      "Verify incoming Eventide/RP55/Iridium/TONEX/B2 FOUR unresolved coverage and Black exact dimensions/offer",
-      "Exact Shopee Indonesia offers",
-      "M-VAVE exact revision/pinout/CC and simultaneous transport follow-up"
+      "Ampero Mini/Nano Cortex across-preset volume assignment remains unverified; manufacturer confirmation or readable exact-revision evidence needed",
+      "Exact HX and GT-1000CORE documentation and headphone/tail/looper coverage",
+      "Manufacturer-backed POD Express dimensions and actual M-VAVE controller revision/pinout/CC wiring",
+      "Reconcile original Zoom 606/607 and remaining no-treadle inventory systematically",
+      "IR-200/RP360/NGS-6 and other partial leads: finish required fields before admitting to active inventory",
+      "Fresh exact Shopee Indonesia offers; separate condition/stock/variant/bundle evidence"
     ],
     "requirements": [
       "Normal pickups",
@@ -122671,6 +122672,22 @@
         "master versus capture LEVEL target",
         "headphone/bypass/tails coverage"
       ]
+    },
+    "gp50_checkpoint_20261022": {
+      "document": "VALETON.md#gp-50",
+      "offer": {
+        "seller": "382833846",
+        "item": "52005015889",
+        "seller_name": "Jojomusicstore",
+        "region": "Kota Surabaya",
+        "idr": 2255000,
+        "condition": "unverified",
+        "snapshot_stock": "Habis",
+        "access": "Direct reader reopening; month-old cache; current checkout unverified",
+        "url": "https://shopee.co.id/Valeton-GP50-GP-50-Next-Generation-Compact-Multi-Effects-i.382833846.52005015889"
+      },
+      "manual": "Official1.1.0 entry exists; linkedPDF inaccessible; product FAQ still links1.0.5",
+      "global_volume": "unverified"
     }
   },
   "brand_navigation": {
