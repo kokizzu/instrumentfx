@@ -25135,7 +25135,7 @@
       },
       "finding": "120x120mm fits;two algorithms;EXP10–25kohm wiper-to-tip,primaryparameterendpointsstoredperpreset;master−3…+3dBperpreset,no globalvolume established;2.5.1listedSep18,2026",
       "next": [
-        "Complete algorithm/menu andI/O/control/display census",
+        "Complete I/O/control/display census;38-name algorithm census now saved",
         "Headphones,onboarddown/up,globalvolume/currentfirmware",
         "Separate used/new conditionandcheckoutstock",
         "Admitonlyaftercompleteprofile;do notincrementactivecounts"
@@ -127771,5 +127771,18 @@
     "derived_total": 38,
     "eligibility": "Explicit guitar pickup-output guidance andindependent echo/EQ/filter/octave/modulation algorithms supportnormalguitarmulti-effects;notactiveadmissionuntilremainingprofilereview",
     "remaining": "Full I/O,display,editorplatforms,factoryfill,currentlibrary,phones,pedalscopeandqualifiedused/new offers"
+  },
+  "synesthesia_audio_editor_followup_20261028": {
+    "checked_date": "2026-10-28",
+    "source": "https://manuals.plus/m/c645c453677b834bfe7cb54a03a4d1057c3bc8b25e640efe6e906a59ba5c232e",
+    "revision": "Firmware2.3.0+manualpp13–19",
+    "findings": [
+      "StereoOutmono-in/stereo-out versusPrePostmono-in/mono-out+sendreturn",
+      "ExternalprocessingnotbetweenX/Y;workswhileunitbypassed;notexpressionattenuationproof",
+      "LCDstated,noOLED/diagonal/color/touchinference",
+      "SymmLabWindows/Macreal-timeeditorandbackup/offline/updates/reset;modernOSandUSB-audiounverified",
+      "Offlinefilesnotadditionalhardwarememory;manualfilechangesbreakdatabase"
+    ],
+    "remaining": "FullvisualI/O/controlreview,headphones,factoryfill,displaydetails,currenteditorplatformsupport,globalexpressioncoverage;partialleadnotactive"
   }
 }
