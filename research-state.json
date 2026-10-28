@@ -124455,5 +124455,11 @@
     "identity": "Cover explicitly GS1000 / GS1000 Li,97PDFpages",
     "finding": "Volume/expression mode preset-stored; global calibration/PrePost not universal assignment. Min/max/enable documented; recall/bypass/headphone/recordedloop coverage unknown. Dedicated phones,161W×240D too large.",
     "next": "Continue remaining no-treadle inventory; preserve Li software applicability gaps and independent GT-Pro cursor."
+  },
+  "se50_expression_screen_20261028": {
+    "source": "https://fr.scribd.com/document/644989539/Boss-SE-50-fr",
+    "identity": "Original BOSS©1990 French manual, rear inventory and footswitch sections",
+    "finding": "No direct analog EXP in complete documented rear inventory; EFFECT REMOTE/NUMBER SHIFT are switches. FC50MIDI separate. No dedicated phones/onboard footswitches. Fit and MIDI attenuation scope unknown.",
+    "next": "Continue unscreened no-treadle inventory; retain separate GT-Pro cursor and Mini/Nano global-volume questions."
   }
 }

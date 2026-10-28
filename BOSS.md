@@ -3746,6 +3746,12 @@ Checked2026-10-18 against the original©1990 [French BOSS manual][SE50-FR],Stere
 | Processing / Stereo Flanger | **Two flanger modes**,modulation phase **0–180°**,plus periodically chopping **Gate** with on/off and rate. The gate here is not merely the separately named Noise Suppressor. |
 | Live / flanger MIDI gate | **GATE ON/OFF(TRIG)** toggles from a momentary MIDI control;**GATE ON/OFF** changes state while held. Other destinations include flanger rate,gate rate and master level. These are algorithm-specific assignments,not direct analog pedal sockets. |
 
+### SE-50 — direct expression capability screen
+
+Checked2026-10-28 against the original©1990 [French BOSS manual][SE50-FR],external descriptions andfoot-control sections. Complete rear inventory has no analog EXP input: EFFECT REMOTE accepts a bypass switch;NUMBER SHIFT accepts program-step switches. This resolves the earlier direct-input uncertainty for that documented inventory. FC-50 expression-to-MIDI remains an indirect path,not a processor EXP socket.
+
+Guitar/bass connection is explicit. No dedicated headphone socket is listed;front NUMBER controls are hand buttons,not onboard footswitches. Direct analog volume assignment/range/recall are inapplicable. MIDI-volume placement,endpoints,recall,bypass/tail/loop attenuation andchassis fit remain unverified. DIRECT/MUTE effects-off choices are not continuous pedal-volume control. No SE-70 orSE-50A dimensions transferred.
+
 ## VE-1
 
 Vocal multi-effects:echo,double,pitch correction and enhance. Consolidated/researched2026-10-16;partial verification. Seller Harmonist/Guitar Pedal titles do not establish guitar processing or intelligent harmony.
