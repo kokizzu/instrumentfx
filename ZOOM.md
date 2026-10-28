@@ -2558,6 +2558,12 @@ Checked 2026-10-28 against the [manufacturer Effect Types and Parameters list](h
 
 The [operation manual][ZOOM-G2-FOUR-M], Using a pedal, still describes selecting the pedal-category effect inside a patch. Output-level retention does not prove that OUTPUT VOLUME PEDAL remains assigned in every destination patch, including patches selecting wah or pitch. Global assignment, exact signal position, bypass, headphone, tails and recorded-loop attenuation remain unverified. This supplements the earlier range-unknown observation for PEDAL VOLUME only; it does not establish the output-pedal range or recall response. No downloads or hardware test; existing size and dated Shopee qualifications remain.
 
+### G2 FOUR — output-pedal selection and patch-transition boundary
+
+Checked 2026-10-28: [original operation PDF](https://zoomcorp.com/media/documents/E_G2FOUR_.pdf), ©2023, document **Z2I-4646-02**, printed pp56–57. Its indexed screen descriptions explicitly show **OUTPUT VOLUME PEDAL → BLACK WAH** in the pedal-selection example. The accompanying text selects one pedal-category effect per patch. This establishes that the output pedal is a replaceable patch selection, rather than proving a system target lock; continued expression control after a destination patch replaces it remains unverified. Screen-description evidence is indexed, not a claimed hands-on or visual inspection.
+
+Printed p62 separately states that changing patch stops rhythm playback; opening the Library also stops rhythm. This is a transition restriction, not evidence that expression attenuates rhythm. Preserve the previously documented looper stop/erase restrictions separately. The output-pedal retention statement remains valid, but universal assignment, bypass, headphones and tails remain unresolved. Further promotion requires an explicit manufacturer explanation or hardware test; no device operation or local download performed.
+
 ## G2.1Nu
 
 Distinct guitar multi-effects model, not G2.1u or G2Nu. Manufacturer identity: [own support page][ZNU-S]. Checked2026-10-18; partial. Ownership and bass/vocal suitability unverified.

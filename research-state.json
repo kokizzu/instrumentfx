@@ -124283,6 +124283,13 @@
     "finding": "OUTPUT VOLUME PEDAL retains product output level across patch changes; no parameters listed. Separate PEDAL VOLUME has VOL/MIN/MAX 0–100 and curve A/B.",
     "boundary": "Retained level is not universal assignment. Operation manual selects pedal effect per patch; all-preset override, exact position, output-pedal range, bypass/headphones/tails/recorded loops unresolved.",
     "hardware_test": false,
-    "next": "Trace Output Volume Pedal selection and destination-patch behavior before promoting scope; general GT-Pro cursor unchanged."
+    "next": "Trace Output Volume Pedal selection and destination-patch behavior before promoting scope; general GT-Pro cursor unchanged.",
+    "destination_patch_followup": {
+      "source": "https://zoomcorp.com/media/documents/E_G2FOUR_.pdf",
+      "revision": "©2023 Z2I-4646-02, printed pp56–57,62",
+      "evidence": "Indexed screen descriptions show OUTPUT VOLUME PEDAL replaced by BLACK WAH; text allows one pedal-category effect per patch. Rhythm stops on patch change or Library entry.",
+      "boundary": "No visual or physical test claimed. Output-level retention does not establish expression control after replacement; rhythm stopping is not attenuation proof.",
+      "next": "Need explicit manufacturer clarification or hardware test for cross-target recall. Continue systematic G3 non-treadle screen; general GT-Pro cursor unchanged."
+    }
   }
 }
