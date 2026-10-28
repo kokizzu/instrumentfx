@@ -211,6 +211,12 @@ Checked **2026-10-17**; partial. Vocal character processing plus reverb and tone
 
 <!-- comparison evidence ends -->
 
+### FV03 — direct-control and guitar-path boundary
+
+Checked **2026-10-28** against readable primary [V03 2024-01-08][FV3-M],11PDFpages. Printed pp03–04 enumerate no treadle,analog EXP or headphone socket. **MIX controls the dry/voice-changer ratio**,not master guitar volume. Printed pp05–06 document guitar reverb in the held-footswitch menu;Mix output combines guitar/microphone but does not establish voice alteration on guitar. Retain vocal-only classification,outside normal-guitar multi-effects capability table.
+
+Stored-preset down/up is not established;character positions andeffect switching are separate. Direct-pedal position,endpoints andrecall are inapplicable to the documented inventory;volume coverage of bypass,tails andrecorded loops remains unknown. Dimensions86.6×125×60mm still lack axis labels,so W/D fit is unverified. No fresh visual-panel verification orpower-conflict resolution claimed.
+
 ### Exact Shopee hardware evidence
 
 Checked **2026-10-17**: [NEO MUSIC,shop158235298/item13182459384](https://shopee.co.id/Flamma-FV03-Character-Vocal-Effects-Pedal-i.158235298.13182459384), Kota Sukabumi, **Rp1,816,920**. Earlier two-month search cache had August11 delivery; reopened two-week cache has October3,also stale. No Habis marker is not stock confirmation. Sale/working condition,selected variation,actual adapter/bundle,warranty,shipping/tax,voucher and final total unknown. Late Rp10,000 compensation not deducted. Ask,not completed sale or qualified used/new range. Foreign USD price not converted.

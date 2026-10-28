@@ -125494,5 +125494,20 @@
     ],
     "next": "Screen FV03 exact manual;retain independent GT-Pro cursor",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "fv03_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "FLAMMA.md#fv03--direct-control-and-guitar-path-boundary",
+    "source": "https://flammainnovation.com/file/pdf?fileName=FV03_Manual_EN_V03_2024.01.08.pdf&url=group1%2FM00%2F00%2F0B%2FwKgA0GWbj8KAXiq5AAckMBBCgMY607.pdf",
+    "identity": "Primary V03 2024-01-08,11PDFpages,text read",
+    "result": "No treadle/analog EXP/headphones in numbered inventory;MIX is dry/voice-changer ratio;guitar reverb does not qualify guitar multi-effects",
+    "unknown": [
+      "stored-preset down/up",
+      "axis-labelled footprint",
+      "bypass/tail/recorded-loop volume coverage",
+      "visual panel andexisting power conflicts"
+    ],
+    "next": "FV04 exact-model capability screen",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

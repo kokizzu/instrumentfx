@@ -443,3 +443,7 @@ M-VAVE [host-panel electrical-label check](M-VAVE.md#footctrlplus-host-panel-man
 ### Flamma FV02 — vocal processor with supporting guitar reverb
 
 [Exact-model screen](FLAMMA.md#fv02--direct-control-and-guitar-path-boundary): V01 inventory has no analog EXP or headphones. Chorus LEVEL is not guitar master volume;guitar reverb andmixed outputs do not qualify the vocal unit as guitar multi-effects. Outside main capability table. Preset down/up unverified;dimensions lack axis labels,current V02 applicability unresolved.
+
+### Flamma FV03 — supporting guitar path and MIX boundary
+
+[Own V03 manual screen](FLAMMA.md#fv03--direct-control-and-guitar-path-boundary): no analog EXP or headphones in complete inventory. MIX blends dry/voice-changer signals;guitar reverb andmixed outputs do not qualify the vocal processor as guitar multi-effects. Outside main table;stored-preset navigation andaxis-labelled footprint unverified.
