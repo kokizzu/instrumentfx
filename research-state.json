@@ -124423,5 +124423,12 @@
     "page": 123,
     "evidence": "Historical WDM BOSS GT-PRO; MME BOSS GT-PRO In/Out; ASIO BOSS GT-PRO; separate MIDI BOSS GT-PRO Control. Application monitor off or ASIO Direct Monitor avoids feedback/double monitoring.",
     "boundary": "Endpoint count is not audio channel count. No USB-to-DIN bridging/modern compatibility claim; channel count remains unknown; no download/test."
+  },
+  "gtpro_ns_volume_boundary_20261028": {
+    "source": "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+    "page": 54,
+    "finding": "NS Detect Input/NS Input/FV Out; latter senses post Foot Volume. Threshold/Release0–100, units not dB/ms; NS before reverb recommended to preserve decay. MASTER button not NS toggle.",
+    "boundary": "Detector behavior not global volume assignment, final-output/tail/recorded-Hold coverage. Counts44 and13/15 remain unresolved; no invented reconciliation or hardware test.",
+    "next": "Continue exact category/block basis and current priority expression scope; retain GT-Pro cursor."
   }
 }

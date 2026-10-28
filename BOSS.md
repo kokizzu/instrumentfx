@@ -1827,6 +1827,12 @@ Checked 2026-10-28 against [original manufacturer manual, indexed printed p123](
 
 The same section advises disabling application monitoring or using ASIO Direct Monitor to avoid feedback/double monitoring. Its MME fallback concerns applications lacking WDM/ASIO, including24-bit recording/playback; not a current Windows compatibility certification. Existing Standard/Special resolution and modern-host restrictions remain. USB channel count still requires explicit documentation; MAIN+SUB mixing is not evidence of four recording channels. No driver/software download or device test.
 
+### GT-Pro — noise-suppressor detector and volume-tail interaction
+
+Checked 2026-10-28 against [original manufacturer manual, indexed printed p54](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf), exact MASTER/NS table. **Detect selects Input, NS Input or FV Out**: input-jack signal, noise-suppressor input or signal after Foot Volume respectively. **Threshold and Release each0–100**, not stated dB/milliseconds. High threshold can silence quiet guitar-volume settings. The manufacturer recommends NS before reverberation effects to avoid interrupting decay.
+
+Thus Foot Volume can affect the detector signal when FV Out is selected; this is a documented control-path interaction, not proof of final-output placement or universal tail muting. MASTER button itself does not toggle NS; the on/off parameter uses PATCH/VALUE. Global FV assignment/range precedence and bypass/phones/recorded-Hold coverage remain qualified. The44-category/13-versus15 counting discrepancy is still unresolved; no invented category added to force agreement. No download or device test.
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.
