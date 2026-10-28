@@ -125216,5 +125216,19 @@
     "qualification": "Text transcription,not fresh visual orhardware test",
     "next": "Resume remaining no-treadle inventory and priority assignment questions",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "blackstar_floorone_expression_20261028": {
+    "checked": "2026-10-28",
+    "document": "BLACKSTAR.md#idx-floor-one--direct-analog-expression-audit",
+    "source": "https://www.kirstein.de/docs/manuals/00118929/manual_EN.pdf?h=2b60f8933d3a40a7df062be52bf93b84",
+    "revision": "256401M-VA-1 01/26",
+    "direct_exp": "None in complete pp17–19 inventory;built-in expression Two/Three-only,p16",
+    "headphones": "Quarter-inch stereo shared CabRig",
+    "preset_down_up": "Yes,hold-to-scroll",
+    "dimensions": "215×68×155mm,axes unlabelled; regional conflict retained",
+    "fit": "Unverified",
+    "result": "Existing active model added to capability comparison; documented direct analog path fails",
+    "next": "Continue unscreened no-treadle inventory,including exact guitar suitability for vocal units;priority Mini/Nano/GP50/controller gaps remain",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

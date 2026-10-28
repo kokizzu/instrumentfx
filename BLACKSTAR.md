@@ -15,7 +15,7 @@ Checked2026-10-18; partial. Separate from Two/Three; ownership unverified. Manuf
 
 | Field | Evidence / qualification |
 |---|---|
-| Expression | No built-in pedal/toe; external expression unverified. [O1M pp2,16] |
+| Expression | No built-in pedal/toe; **no analog EXP input in complete manual inventory**. Earlier uncertainty superseded by exact connector audit below. [O1M pp2,16–19] |
 | K/F/B | **10 rotary /3 footswitches /8 buttons**, text-derived:8 amp/voice/master rotaries,2 encoders;patch down/up,tap;voice mode,manual,shift,CabRig,4 effect buttons. Encoder pushes and Response switch separate; visual audit pending. [O1M pp11–17] |
 | Display | OLED; diagonal/color/touch unknown. [O1M] |
 | Dimensions / mass | **215×68×155mm**, axes unstated; **1.33kg**. [O1M p30] US page instead lists **7.95W×10.9L×5.31H inches;3.54lb**, without identifying package versus unit. Unresolved; no conversion or unit-spec replacement. [O1U] |
@@ -47,6 +47,12 @@ Unresolved fields above remain open; no specifications transferred from Three. G
 [O1U] is the Blackstar US product listing, with One-specific SKU IDXFLOOR1. Its [site terms](https://blackstaramps.us/pages/terms-and-conditions-of-sale-of-products) identify Blackstar Amplification/KorgUSA as operator; its manual link points to blackstaramps.com. Keep its conflicting specifications separately from manual256401M-VA-1 01/26. Neither source establishes installed firmware. OLED wording still provides no diagonal/color/touch specification;99 patch capacity still does not prove initial factory fill. Search hits for ID:X50/100 combo manuals are different hardware and were rejected for Floor compatibility. No Floor-compatible Architect release was established.
 
 [O1U]: https://blackstaramps.us/en-intl/products/id-x-floor
+
+### ID:X Floor One — direct analog expression audit
+
+Checked **2026-10-28** against manufacturer-authored manual**256401M-VA-1 01/26** [O1M],cover/front-panel identity,p16 andcomplete rear inventorypp17–19. **No analog EXP input appears**;expression controls are explicitly Two/Three-only. The documented direct analog path therefore fails. MIDI is separate,not an analog socket. No built-in treadle;no sibling pedal behavior transferred.
+
+Onboard footswitches provide **patch down/up**,including hold-to-scroll;quarter-inch CabRig output supports stereo headphones. Dimensions215×68×155mm lack axis labels;theconflicting US dimensions remain preserved,andpreferred footprint is unresolved. Pedal position/range/recall N/A for this connector set;headphone/bypass/tail/recorded-loop expression attenuation has no documented direct path. No download orhardware test.
 
 ## ID:X Floor Three
 
