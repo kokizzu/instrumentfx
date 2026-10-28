@@ -505,6 +505,18 @@ Checked 2026-10-28 against the retained [manufacturer-authored manual](https://m
 
 Physical knob Current Setting mode is a separate pickup behavior,not expression recall. The documented global pedal role remains supported;range precedence,universal output attenuation and actual M-VAVE compatibility remain unverified. Partial lead stays outside active counts. No local file downloaded ordevice operated.
 
+### GS-10 — USB resolution and MIDI-interface modes
+
+Checked 2026-10-28 against the retained [original manufacturer manual](https://manualzz.com/doc/2026468/boss-gs-10-guitar-effects-system-owner%E2%80%99s-manual), printedpp80–81,126,146.
+
+| Field | Mode-specific evidence / qualification |
+|---|---|
+| USB audio / resolution | Historical Windows/Mac sections explicitly specify **Special mode24-bit/44.1kHz** versus **Standard mode16-bit/44.1kHz**. This qualifies the earlier general stereo24-bit specification;it is not24-bit in every mode. |
+| USB MIDI / control versus bridge | Advanced mode exposes **GS-10 Control** for editor/device control,and separately **GS-10 MIDI In/Out** for connecting the computer to external DIN MIDI devices. This is explicit GS-10 bridging evidence;do not transfer GT-Pro’s opposite restriction. |
+| Standard-mode MIDI boundary | Factory Standard configuration is audio-only. P80 offers **Std.Drv Func=Audio&MIDI** only with a compatible OS driver,while warning of unsupported/problematic manual-era Windows/Mac drivers. Later installation tables require Special mode for MIDI. Conditional menu availability is not a guarantee that Standard MIDI works on a current host. |
+
+Historical instructions only;no current-driver certification,installation,download orhardware test. Preset backup/control messages do not establish IR,NAM orcapture imports. Those import capabilities and modern host support remain unverified. GS-10 remains outside active counts.
+
 ## GT-1
 
 Consolidated and refreshed **2026-10-16**; partial technical verification. Original dates, prices and limitations remain below. Historical next-model notes are provenance; use research-state.json for the current queue.
