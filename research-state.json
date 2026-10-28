@@ -123690,5 +123690,16 @@
       "bypass/tails/recorded-loop attenuation"
     ],
     "hardware_test": false
+  },
+  "ad8_expression_screen_20261028": {
+    "source": "https://cdn.roland.com/assets/media/pdf/AD-8_OM.pdf",
+    "classification": "no analog EXP in complete connector inventory",
+    "navigation": "memory down/up cycles Manual and four memories",
+    "remaining": [
+      "electric tonal suitability",
+      "footprint conflict",
+      "hand-volume tail coverage"
+    ],
+    "hardware_test": false
   }
 }

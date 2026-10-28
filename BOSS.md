@@ -148,6 +148,10 @@ Checked2026-10-18 against [own manual,printed pp13,25–26][AD8-M] and [regional
 | Power / 2011 catalogue conflict | [Roland’s 2011 catalogue, indexed AD SERIES/AD-8 specification](https://cdn.roland.com/assets/media/pdf/boss_catalog_2011.pdf) lists **200mA**. Full PDF open failed; this is **model-specific indexed text only**, not a visually inspected specification. Preserve alongside **120mA** in the own manual/current regional specifications and **170mA** in the2008 catalogue. Revision or correction unverified; do not average the figures or infer a changed battery runtime. |
 | Live / tuner reference retention | Own manualp18: factory reference **440Hz**; selected438–445Hz reference **survives power-off**. Factory reset restores440Hz. The manual’s example saying400Hz conflicts with its explicit range/default; do not expand the supported range from that example. [Own manual pp18,20][AD8-M] |
 | Display / memory indicators | Own manualp17 offers one lit selected-memory indicator or a cumulative indicator count. Holding SELECT≥2seconds switches patterns; setting survives power-off. This is LED indication behavior, not screen diagonal/color/touch evidence. [Own manual p17][AD8-M] |
+### AD-8 — direct-expression screening (2026-10-28)
+
+[Own manual][AD8-M], printed pp13–14, confirms the complete rear connector inventory has no EXP socket: direct analog expression-volume requirement fails. MEMORY down/up cycles Manual and four memories in opposite directions; PHONES is dedicated. Existing regional footprint conflict remains; both widths exceed preference. Normal electric-guitar tonal suitability remains unverified. Direct-pedal position/range is inapplicable to this inventory; hand OUTPUT LEVEL does not establish pedal assignment or universal attenuation during bypass. No device testing.
+
 <!-- comparison evidence ends -->
 
 [AD8-S]: https://www.boss.info/se/products/ad-8/
