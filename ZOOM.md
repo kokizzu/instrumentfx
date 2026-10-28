@@ -4166,7 +4166,7 @@ Checked 2026-10-19 against the [exact manufacturer manual](https://zoomcorp.com/
 
 | Field | Evidence / gaps |
 |---|---|
-| Expression | No integrated treadle;external EXP/toe unestablished. |
+| Expression | No integrated treadle; no analog EXP in complete own-manual connector inventory. Earlier external uncertainty is superseded for the documented direct analog path; digital control is separate. [M80-M] |
 | Controls | **4 encoders**;main footswitch+Cross Key switches documented. Exact separate foot/button count unresolved;no visual audit. |
 | Display | **160×128 LCD**,category-colored backlight;diagonal/touch unknown. Backlight color is not full-color pixel proof. |
 | Processing / choices | **1 amp+1 studio ambience+1 other effect**,maximum3. Product lists **23 amps(16 modeled+7 originals),5 studio effects,12 other effects**;see the dated effect-list qualifications below. |
@@ -4246,6 +4246,10 @@ Checked 2026-10-17 against the own HTML manual, Z2I-5301-02. Published ratings, 
 | Conversion / processing | AD/DA **24-bit, 128× oversampling**; internal processing **32-bit**, sample rate 44.1 kHz. Neither the internal-processing label nor the separate USB 32-bit format explicitly establishes floating point. [Specifications][M80-M] |
 | Battery / operating limits | Two AA: NiMH **1900 mAh about 4 h mono / 3.5 h stereo**; lithium **7.5 h / 6.5 h**. Estimates depend on use; not additive to alkaline figures. Set battery type for accurate charge indication. NORMAL backlight can extend runtime. Battery operation requires a cable in L/MONO input. [Battery settings, troubleshooting and specifications][M80-M] |
 | Power / ECO | ECO MODE optionally shuts down after **10 hours unused**; OFF disables it. This is an inactivity threshold, not battery runtime. Default state unverified. [ECO MODE][M80-M] |
+
+### MS-80IR+ — direct-expression scope (2026-10-28)
+
+[Own HTML manual][M80-M], Functions of parts, lists audio I/O, USB-C and DC without an analog EXP input: **fails direct analog pedal path**. Global master volume persists across patch changes, but does not establish an expression assignment. Direction switches are explicitly foot-operable and select patches; PRESELECT qualifies when recall occurs. Shared output/headphones, not a dedicated separate socket. Existing79W×133Dmm body fits; no sibling dimensions transferred. Direct-pedal position/endpoints are inapplicable to this inventory; digital volume, bypass/tails and recorded-loop coverage remain unverified. No hardware test.
 
 ## MS-100BT
 

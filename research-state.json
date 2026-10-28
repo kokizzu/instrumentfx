@@ -123633,5 +123633,15 @@
       "footswitch inventory"
     ],
     "hardware_test": false
+  },
+  "ms80ir_expression_screen_20261028": {
+    "source": "https://zoomcorp.com/manuals/ms-80irplus-en/",
+    "classification": "no analog EXP in complete connector inventory",
+    "global_master": "retained across patch changes, not expression assignment",
+    "remaining": [
+      "digital volume scope",
+      "bypass/tail/recorded-loop attenuation"
+    ],
+    "hardware_test": false
   }
 }
