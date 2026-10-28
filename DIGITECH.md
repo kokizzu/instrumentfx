@@ -569,6 +569,23 @@ Control In accepts a passive volume pedal’s output. Volume control is **condit
 
 Published 8.25L×6.25W×2.25H inches equals 209.55L×158.75W×57.15H mm; exceeds preferred depth if length is front-to-back. Full profile, current software/imports and qualified Shopee hardware remain pending. Exact-name Shopee search found no qualified hit, not proof of absence. **Partial lead outside active inventory and main capability table**; no sibling specifications transferred, downloads or device operation.
 
+### RP100 — processing, memory and power profile
+
+Checked 2026-10-28, [own manual 18-6360-A](https://digitech.com/wp-content/uploads/2025/07/Digitech_RP100_UsersGuide.pdf), pp2–4, 8–11, 16–27.
+
+| Field | Evidence / qualification |
+|---|---|
+| Controls / display | 3 knobs, 2 footswitches, 3 buttons (Select, Rhythm, Store); numeric display/matrix LEDs. Diagonal/color/touch unverified. |
+| Processing | Up to 12 simultaneous effects; 12 combined amp/guitar choices including acoustic simulation; 2 pickup types, 3 wah, compressor attack1–3, 3-band EQ, gate/swell. |
+| Cabinets / FX | 3 cabinet types×4 mic positions, not 12 distinct cabinets. Shared FX row: 12 choices, one at a time; delay: 3 types, reverb: 10. |
+| Memory | 40 writable+40 protected=80; writable locations initially duplicate factory sounds. |
+| Connections | Quarter-inch input, stereo TRS output, Control In, ⅛-inch stereo phones, power; no USB/MIDI in complete inventory. |
+| Power / mass | 6 AA, about 8 h; input plug switches battery power. Optional PS0913B: 9 VAC, 1.3 A. Printed consumption: 1300 mA; 2.25 lb includes optional supply, not unit-only mass. |
+| Live | 30 drum patterns; tuner mutes output; bypass provides clean signal. EXP coverage remains unverified. |
+| Remaining | Dedicated synth, looper/scenes, imports/editor, current OS and qualified used/new IDR unknown. |
+
+The [current manufacturer FAQ](https://digitech.com/faqs/) warns that historical 1300 mA labels sometimes repeated adapter capacity rather than actual draw. It separately lists RP100 with PS0913B: 9 VAC, 1.3 A, barrel 5.5 mm / 2.5 mm pin / 9.5 mm length. Preserve the manual claim; actual measured draw remains unknown. AC has no DC center polarity. This does not certify RP100A equivalence. Still a partial lead outside active counts.
+
 ## RP150
 
 Guitar multi-effects;partial,checked2026-10-18. Distinct fromRP155/RP250. [Manufacturer product](https://digitech.com/dp/rp150/),[own manual RevB](https://digitech.com/wp-content/uploads/2022/09/RP150Manual18-0429V-B_original.pdf),printedpp6–11,38–39.

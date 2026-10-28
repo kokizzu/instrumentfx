@@ -125188,6 +125188,17 @@
       "fully_verified": false,
       "next": "Finish full RP100 profile/qualified hardware. Continue unscreened models; retain priority scope and independent GT-Pro cursor.",
       "downloads": false
+    },
+    "rp100_profile_20261028": {
+      "checked": "2026-10-28",
+      "sources": [
+        "https://digitech.com/wp-content/uploads/2025/07/Digitech_RP100_UsersGuide.pdf",
+        "https://digitech.com/faqs/"
+      ],
+      "active": false,
+      "fully_verified": false,
+      "next": "Exact RP100 hardware offer and remaining fields; no RP100A transfer. Continue no-treadle priorities and independent GT-Pro cursor.",
+      "downloads": false
     }
   },
   "brand_navigation": {
