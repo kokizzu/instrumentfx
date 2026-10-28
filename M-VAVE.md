@@ -189,6 +189,12 @@ Englishp2/Chinesep6 explicitly identify **four physical footswitches A–D**. **
 
 Englishp3/Chinesep7 list unit **212L×36W×17Hmm,280g**,separately fromboxed227×55×35mm,350g. These controller measurements are not processor footprint evidence. The manual still lacks pedal tip/ring/sleeve roles,potentiometer resistance,continuous CC endpoint mapping andhost-current budget. Actual M-VAVE wiring compatibility remains unknown;no speculative adapter orrewiring recommendation. No local download,software orhardware operation.
 
+### Chocolate — firsthand three-contact troubleshooting report
+
+Checked 2026-10-28. In a [Musiker-Board discussion dated 2024-10-17](https://www.musiker-board.de/threads/expression-pedal-an-midi-controller-m-vave-funktioniert-nicht.754603/), user Köstliches Brot reports Chocolate plus a Bluetooth module controlling HX Stomp. Their modified Crybaby used a **15 kΩ potentiometer with only wiper and one end connected**; it had worked directly with HX Stomp but gave only marginal changes through Chocolate. A firmware update reportedly did not help. In post #7, the same user reports success after connecting all three contacts.
+
+This is a firsthand, setup-specific report, not M-VAVE or Line 6 certification. It supplies **no tip/ring/sleeve-to-pot mapping, taper, firmware number, measured CC endpoints or complete configuration**. The successful contact change does not establish a universal 15 kΩ requirement, compatibility with Chocolate Plus, or a safe adapter prescription. It does show why a pedal modified for direct HX use cannot be assumed electrically interchangeable with a controller input. Current exact pinout, resistance limits and offered-unit identity remain unknown. MIDI conversion also remains separate from direct analog processor EXP and global volume assignment. No rewiring, download or device test performed.
+
 ## CUBE BABY AC
 
 <!-- comparison evidence begins -->

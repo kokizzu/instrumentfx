@@ -127717,5 +127717,19 @@
     "identity": "Manufacturer-authored exact GT-PRO MIDI Implementation; indexed alternate reproduction header Apr1,2005Version1.00 BOSS copyright. Direct mirrors403/inaccessible, official full PDF not inspected.",
     "finding": "FX CHAIN fixed14bytes;Chain1–14offset11 00–11 0D,entrycodes00–0D:FX1,CS,WAH,LP,OD,PRE,EQ,FX2,DD,CE,RV,NS,FV,DGT. Serialized inventory includes digital-output entry, not14effectalgorithm guarantee.",
     "remaining": "13/15simultaneous counting basis and44categories remain unresolved. No hardware/MIDI/download test."
+  },
+  "chocolate_three_contact_report_20261028": {
+    "checked_date": "2026-10-28",
+    "source": "https://www.musiker-board.de/threads/expression-pedal-an-midi-controller-m-vave-funktioniert-nicht.754603/",
+    "status": "Firsthand user report,not manufacturer wiring certification",
+    "finding": "Oct17,2024KöstlichesBrot:Chocolate+Bluetoothmodule/HXStomp,modifiedCrybaby15kohm onlywiper+oneend worked directHX butmarginal viaChocolate;reports success afterallthreecontactsconnected. FWupdate initiallydidnothelp,versionunspecified.",
+    "unresolved": [
+      "Exact contact-to-tip/ring/sleeve mapping",
+      "taper and permitted resistance range",
+      "firmware and complete configuration",
+      "CC endpoints and sweep",
+      "Chocolate Plus applicability",
+      "direct analog global-volume scope"
+    ]
   }
 }
