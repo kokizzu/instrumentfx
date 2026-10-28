@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(kemper): document Rack MK2 direct pedal and volume lock scope'))
+    print(git('commit','-m','research(kemper): distinguish PowerHead MK2 monitor pedal target'))

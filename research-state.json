@@ -122634,7 +122634,7 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-28",
-    "current": "Rack MK2 direct pedal and revision-qualified volume lock",
+    "current": "PowerHead MK2 monitor-volume boundary",
     "finding": "Separate current Rack connector/footprint evidence; volume lock is documented with revision and output-coverage limitations.",
     "next": [
       "Ampero Mini/Nano Cortex across-preset volume assignment remains unverified; manufacturer confirmation or readable exact-revision evidence needed",
@@ -124820,6 +124820,13 @@
       "https://forum.kemper-amps.com/forum/thread/63352-volume-pedal/",
       "https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf"
     ],
+    "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "powerheadmk2_monitor_boundary_20261028": {
+    "checked": "2026-10-28",
+    "document": "KEMPER.md#powerhead-mk2--monitor-volume-target-boundary",
+    "finding": "Manufacturer13.0 p183 separately targets monitor/internal amplifier with Monitor Volume;not whole-output attenuation proof",
+    "remaining": "Ordinary volume lock/current MK2 scope andcomplete coverage;do not inherit Head row automatically",
     "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

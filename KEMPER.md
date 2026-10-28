@@ -176,6 +176,12 @@ Partial record checked **2026-10-17**. Exact manufacturer SKU18300000 and Shopee
 
 Current manufacturer shared specification explicitly names PowerHead;revision-sensitive panel and electrical behavior still need the exact manual. Foreign stock/price not Indonesian availability or converted IDR evidence. No downloads.
 
+### PowerHead MK2 — monitor-volume target boundary
+
+Checked **2026-10-28**. [Manufacturer Main Manual13.0,German,Rev.May2025,p183](https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf) explicitly names **PowerHead**: the separate **Monitor Volume** pedal option targets MONITOR OUTPUT and its internal power amplifier;MIDI access is CC73. This is not evidence of main-output or headphone attenuation, nor the ordinary Volume Pedal target. Current MK2 behavior remains untested.
+
+[Current manufacturer specifications](https://www.kemper-amps.com/profiler/technical-specifications) explicitly group PowerHead with two **quarter-inch TRS pedal/switch inputs,10–100kΩ**,and dedicated quarter-inch stereo headphones32–600Ω. Existing378W×173Dmm footprint fails the preference. Across-preset ordinary volume assignment/lock applicability,placement,min/max,held-position recall,bypass,phones,tails andrecorded-loop coverage still require a model/revision-qualified follow-up;this monitor-only finding does not settle them. Onboard preset footswitch down/up remains unverified;Remote is separate hardware. Older power-stage,mains,price andmodel qualifications are preserved.
+
 ## PROFILER PowerRack MK2
 
 Partial record checked **2026-10-17**. Manufacturer SKU19300000 and exact Shopee Power Rack MK2 title. Distinct from Rack,PowerHead and bundled controllers. Product prose calls it a “Head device”;explicit PowerRack dimensions below take precedence for form factor,without silently deleting that source inconsistency.
