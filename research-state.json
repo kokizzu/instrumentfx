@@ -124668,5 +124668,12 @@
     "finding": "Preset-management fix explicitly associates expression assignments with an unsaved preset. Separate global override neither documented nor disproved; across-all-presets volume remains unverified.",
     "audio_paths": "USB playback volume, analog direct-monitor mute and analog-output mute separately documented; not EXP coverage proof.",
     "next": "Seek explicit manufacturer global override evidence; retain LEVEL target-list conflict and later2.2.0/2.2.1 fixes. Continue Mini/exactGP50/HX/CORE; independentGTPro unchanged."
+  },
+  "mini_external_mode_boundary_20261028": {
+    "source": "https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf",
+    "pages": "printed20–21",
+    "finding": "EXP mode disables all other EXP/FS menu options; external FS3/FS4 Patch/Bank navigation is switch-mode functionality, not verified concurrent analogEXP control. Do not infer splitter/M-VAVE coexistence.",
+    "coverage": "Physical volume knob all-output wording not transferred to EXP; global assignment and attenuation coverage unresolved.",
+    "next": "Exact HX/GT-1000CORE current documentation; GP50 inaccessible1.1 original remains unresolved; keep independent GT-Pro cursor."
   }
 }

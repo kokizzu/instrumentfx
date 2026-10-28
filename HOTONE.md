@@ -665,6 +665,11 @@ Sources: [effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md](HOTONE.md
 
 [Official firmware V2.2 manual](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf), printed pp5,13–20: control settings change with patches and need saving. **No global volume-target override established.** Volume position is Pre/Post; volume endpoints are fixed and unaffected by the four target ranges. FS1/FS2 select previous/next patches. EXP mode shares the switch socket. Bypass, headphone, tail and looper attenuation remain unverified; rear master-knob coverage is not expression coverage. Earlier V1.0 post-only wording is retained as revision history. See [capability comparison](EXPRESSION-VOLUME.md).
 
+### Ampero Mini — external switch versus expression mode
+
+Checked2026-10-28 in [own firmwareV2.2 manual,printedpp20–21](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf). Global EXP/FS offers EXP,Single FS,Dual FS; **EXP mode makes every other option in that menu unavailable**. FS3/FS4 assignments include Patch+/Patch− and Bank+/Bank− in switch modes; these are external-switch functions,not additional onboard switches or proof they coexist with direct analog EXP on the shared socket. A split cable or unidentified M-VAVE controller does not establish simultaneous support. This mode limitation is separate from the unresolved all-preset volume assignment. The documented physical volume knob affects all output connections; that statement is not transferred to EXP coverage of headphones,USB,bypass,tails orrecorded loops. No device/software operation ordownload.
+
+
 ## Ampero Mini MP-50
 
 <!-- comparison evidence begins -->
