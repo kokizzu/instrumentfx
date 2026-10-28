@@ -449,3 +449,9 @@ Guitar effects-only strip, distinct from TC-1. Checked2026-10-18; partial. Owner
 Manufacturer page lists TC-2 Manual.pdf,2019-11-26,without a retrievable PDF link in extracted text. Do not transfer TC-1 controls,weight or specifications.
 
 [TC2-P]: https://www.joyoaudio.com/product/193.html?productCateId=20
+
+### TC-2 — qualified expression screen and original manual lead
+
+Checked2026-10-28 against [own product][TC2-P]. Guitar use documented;345×83mm axes unlabeled,fails preferred rectangle either orientation. Direct analog EXP/global volume,position/endpoints/recall,headphones,preset down/up andbypass/tail/recorded-loop attenuation remain **unverified**. Audio FX loop/module Level controls do not establish remote master assignment.
+
+[JOYO UK manual index](https://www.joyoaudio.co.uk/support/Other-JOYO-Manuals) links [exact TC2.pdf](https://www.joyoaudio.co.uk/manuals/other/TC2.pdf),twoPDFpages;metadata title266-00TC2-0010. Extracted text contains only UKmanual branding,not readable operating instructions. Filename/title andpagecount are provenance,not content verification;no panel absence claim,TC-1 transfer orlocal download. Complete original manual/panel audit remains open.
