@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(boss): screen VE-8 direct expression and memory controls'))
+    print(git('commit','-m','research(boss): qualify VE-500 expression hold and guitar scope'))

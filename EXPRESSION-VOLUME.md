@@ -414,3 +414,7 @@ GT-Pro [downstream-generator boundary](BOSS.md#gt-pro--downstream-generators-and
 ### BOSS VE-8 — acoustic scope and direct-control exclusion
 
 [Exact-model screen](BOSS.md#ve-8--direct-expression-and-memory-navigation-boundary): no analog EXP in complete inventory;MEMORY TRS accepts footswitches. Acoustic processing documented;ordinary electric-pickup suitability unclassified,so outside main guitar capability table.217W×161Dmm fails preference;dedicated stereo-mini headphones andonboard memory switching documented,exact physical down/up pairing unverified. Knob pickup is not expression recall.
+
+### BOSS VE-500 — vocal-path scope exclusion
+
+[Exact-model qualification](BOSS.md#ve-500--expression-hold-and-guitar-path-scope): fits170W×138Dmm andaccepts analog EXP,but guitarTHRU is unprocessed;retained as vocal processor,outside normal-guitar capability table. EXP HLD requires matching FUNCTION across patches;position recall does not establish global assignment. No dedicated headphone socket in published inventory.

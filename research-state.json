@@ -125330,5 +125330,16 @@
     "navigation": "Onboard memory switching;physical directional pairing unverified",
     "next": "Continue remaining vocal/no-treadle guitar-eligibility screens;Mini global override still unverified",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "ve500_expression_scope_20261028": {
+    "checked": "2026-10-28",
+    "document": "BOSS.md#ve-500--expression-hold-and-guitar-path-scope",
+    "source": "https://static.roland.com/assets/media/pdf/VE-500_parameter_eng01_W.pdf",
+    "finding": "EXP HLD On retains state only withmatching FUNCTION acrosspatches;not global target proof",
+    "eligibility": "Vocal retained;unprocessed guitar THRU doesnot qualify normal-guitar path",
+    "fit": "170W138D fits",
+    "phones": "No dedicated socket in published inventory",
+    "next": "Continue remaining vocal/guitar eligibility screens andpriority Mini/Nano/GP50/controller gaps",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
