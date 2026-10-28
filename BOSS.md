@@ -1868,6 +1868,12 @@ Checked **2026-10-28** against [original manufacturer manual,printedp97](https:/
 
 This resolves the earlier unqualified spillover uncertainty to **conditional documented continuity**,not gapless switching orall-preset carryover. It does not establish expression attenuation of tails,headphone coverage,orSYSTEM FootVolume versus patchFVrange precedence. Hold-delay recording still clears on patch changes under its separate documented rules. No download ordevice test.
 
+### GT-Pro — downstream generators and volume response
+
+Checked2026-10-28 against indexed original [manufacturer manual,p55](https://cdn.roland.com/assets/media/pdf/GT-PRO_OM.pdf). BOSS warns that Foot Volume may not operate properly with certain chain orders: examples are **Feedbacker in OSC mode orSynth positioned after FV**. This is a documented downstream-generator restriction,not merely a calibration issue. Global pedal-role selection therefore does not prove universal final-output muting across arbitrary existing patches. The warning does not establish how patch FV MIN/MAX interact with the fixed SYSTEM role;that precedence remains unknown.
+
+The same FV table specifies Level0–100 andfour response choices:Slow1,Slow2,Normal,Fast. These are response-curve names,not published resistance/taper specifications orfour additional effects. Headphone,bypass,tail andrecorded-Hold attenuation remain unverified. Text evidence only;no downloaded document orhardware test.
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.

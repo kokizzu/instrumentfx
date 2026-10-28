@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro Smooth patch decay is conditional (p97), not gapless or EXP tail coverage. Continue fixed global FV versus patch range precedence,44category/13vs15basis,other USB mode counts,visualcontrols andqualifiedIDR;392partial.",
+    "task": "GT-Pro p55 downstream OSC Feedbacker/Synth limits FV effectiveness;fixed SYSTEM role versus patch FV range precedence remains unknown. Continue44category/13vs15basis,other USB modes,visual controls andqualified IDR;392partial.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -125295,5 +125295,21 @@
     ],
     "next": "Original exact Rowin manual or complete panel/socket inventory;continue other remaining no-treadle candidates",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "gtpro_downstream_fv_20261028": {
+    "checked": "2026-10-28",
+    "document": "BOSS.md#gt-pro--downstream-generators-and-volume-response",
+    "source": "https://cdn.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+    "page": 55,
+    "finding": "Manufacturer warns FV may not work properly with OSC Feedbacker orSynth afterFV",
+    "curves": [
+      "Slow1",
+      "Slow2",
+      "Normal",
+      "Fast"
+    ],
+    "scope": "Chain-dependent volume effectiveness;not universal final mute",
+    "unknown": "SYSTEM role versus dedicated patch FV enable/range precedence;output coverage",
+    "next": "Resolve dedicated patch range precedence andremaining category/block count basis;no sibling transfer"
   }
 }

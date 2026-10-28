@@ -408,3 +408,5 @@ Keeley Delay Workstation [manual-menu reconciliation](KEELEY.md#delay-workstatio
 ### Rowin RE-05 Looper Pro — eligibility pending
 
 [Exact-model screen](ROWIN.md#re-05--expression-eligibility-and-footprint): manufacturer60W×112Dmm fits. No-treadle layout,analog EXP,headphones andpreset navigation remain unknown;outside main capability table pending original manual/panel evidence. LEVEL knob andloop controls do not establish global expression volume. Existing active guitar model,not a new admission.
+
+GT-Pro [downstream-generator boundary](BOSS.md#gt-pro--downstream-generators-and-volume-response): ownp55 warns Foot Volume may fail with OSC Feedbacker orSynth afterFV. Global role is not universal final-output mute proof;fixed SYSTEM versus patchFVrange precedence remains unknown. Four documented FV curves do not establish controller wiring/taper.
