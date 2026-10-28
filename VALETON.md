@@ -193,6 +193,12 @@ Price-table follow-up2026-10-18 preserves two existing observations and adds two
 [DBM-O3]: https://shopee.co.id/Valeton-Dapper-Bass-Mini-Effect-Strip-i.2655003.47155735690
 [DBM-O4]: https://shopee.co.id/Valeton-Dapper-Bass-Mini-Efek-Bass-Mini-i.304940515.26880273250
 
+### Dapper Bass Mini — qualified expression and headphone screen
+
+Checked2026-10-28 against own [MES-2 V01_231219 manual][DBM-M] and [manufacturer shop][DBM-S]. Bass use is explicit;ordinary guitar suitability remains unclassified. The manual confines PHONES knob adjustment to headphones. Bass Amp VOL andtuner mute are separate controls,not proof ofglobal analog expression volume. EXP support,placement,endpoints,recall,bypass/tail/loop attenuation remain **unverified**;published audio-connector listings alone are not accepted as a complete control-port inventory.
+
+Headphones are dedicated1/8inchTRS in shop specifications. Module/tuner foot actions do not establish preset down/up. Manual/shop65W×197Dmm exceeds preferred depth;rotation fits,but product197W×65Dmm reverses axes. Preserve that conflict andthe existing120/100/1500mA and446/440g discrepancies. No VES-2 filter/octave,Mini guitar cab simulation orunrelated offer transferred. No physical test.
+
 ## Dapper Bass VES-2
 
 Full-size bass combined-effects strip;notMiniMES-2. Checked2026-10-17;partial. Manufacturer architecture establishesmulti-effects eligibility. VES-2code is seller identification pendingmanualcorroboration.

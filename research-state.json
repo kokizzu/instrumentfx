@@ -124484,5 +124484,13 @@
     "identity": "Body DapperMini matches original110mA417g;revision unresolved",
     "finding": "Dedicated PHONES cab-sim/physicallevel not EXP proof; EXP/globalvolume unknown. Product197W65D fits vs manual65W197D fails depth unless rotated; retain axis conflict.",
     "next": "Continue Dapper exact-model inventory; retain independent GT-Pro and Mini/Nano questions."
+  },
+  "dapper_bass_mini_expression_screen_20261028": {
+    "sources": [
+      "https://zh.valeton.net/download/138/dapper/16736/dapper-bass-mini_manual_en_v01_231219.pdf",
+      "https://shop.valeton.net/products/dapper-bass-mini"
+    ],
+    "finding": "Bass-only documented suitability; guitar unclassified. PHONES physical control headphone-only,not globalEXP. EXP/controlinventory unverified. Preserve axes,current,mass conflicts.",
+    "next": "Continue exact-model Dapper no-treadle inventory;Mini/Nano questions and independent GT-Pro cursor retained."
   }
 }
