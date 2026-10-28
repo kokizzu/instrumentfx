@@ -1421,6 +1421,12 @@ Effect-chain placement is editable, including parallel arrangements; no single f
 
 [Exact Shopee offer](https://shopee.co.id/BOSS-GT-1000CORE-Guitar-Effects-Processor-Pedal-Multi-Efek-i.341882414.15035629131), shop341882414/item15035629131, seller named Boss Official Shop, Kota Tangerang Selatan: reopened2026-10-28, **three-month-old Rp14.450.000/Habis** snapshot. CrossedRp17.000.000, advertised15% reduction and unspecified free gift remain listing claims. Explicit new-condition grade, gift contents, adapter/bundle, seller affiliation, regional warranty, checkout stock and delivered price are unconfirmed. The late-delivery voucher is not a checkout discount. Fresh used-model search returned no exact hit; used IDR stays unknown.
 
+### GT-1000CORE — foot-volume and noise-detector interaction,2026-10-28
+
+[Original BOSS parameter guide hosted by Kraft Music](https://files.kraftmusic.com/media/ownersmanual/Boss_GT-1000CORE_Parameter_Guide.pdf),57pages,©2020Roland,printedp8:Noise Suppressor **DETECT=FV OUT** follows the level after Foot Volume;BOSS recommends this when using FV instead of the guitar volume control. For protecting downstream delay sound from suppression,it instead recommends **NS INPUT**. This is a patch-routing/detector interaction,not a global volume-range override orfinal-output attenuation guarantee. Printedp27 reconfirms FV position/min/max0–100.
+
+Exact eng03 equivalence/current2.02 coverage ofthis mirror remains unverified;the official eng03 endpoint still returns403. SYSTEM target-sharing andpatch-stored range/placement qualifications remain intact. No new exact Shopee offer surfaced;old asks are not relabelled current. No hardware test ordownload.
+
 ## GT-Pro
 
 Checked 2026-10-19;partial. [Exact manufacturer product/specification](https://www.boss.info/global/products/gt-pro/) marks discontinued. Rack guitar multi-effects,not GT-8;ownership andbass/vocal suitability unverified.

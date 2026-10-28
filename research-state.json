@@ -124004,5 +124004,16 @@
       }
     ],
     "qualifications": "Condition,variant,bundle,warranty,shipping/tax/checkout unknown;separate cached asks not range"
+  },
+  "gt1000core_fv_ns_interaction_20261028": {
+    "source": "https://files.kraftmusic.com/media/ownersmanual/Boss_GT-1000CORE_Parameter_Guide.pdf",
+    "identity": "BOSS GT-1000CORE;57pages;©2020Roland;eng03 equivalence unverified",
+    "finding": "NS DETECT FV OUT versus NS INPUT changes detector behavior;not final output proof",
+    "remaining": [
+      "current revision",
+      "range override",
+      "attenuation coverage"
+    ],
+    "hardware_test": false
   }
 }
