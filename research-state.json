@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro PitchShifter3voice/4processing modes andAutoRiff30+10 saved. NextremainingFXsubtypes,44category audit,USBchannelcount,qualifiedIDR;392partial,migration incomplete.",
+    "task": "GT-Pro RingMod2/Humanizer3modes andAntiFeedback3points saved. Continue remainingFXsubtypes,44category audit,USBchannelcount,qualifiedIDR;392partial,migration incomplete.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -122969,5 +122969,31 @@
     "result": "NGS6exactofferssavedinpartiallead;otherqueriescategorynoiseorXPvariant",
     "admission": "No new active models",
     "next": "Continue exact-model discovery beyond category-page noise; finish NGS6 connector/full-profile evidence before admission"
+  },
+  "gtpro_fx_followup_20261028": {
+    "sources": [
+      "https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-41.html",
+      "https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-43.html"
+    ],
+    "access": "indexed manufacturer-authored exact-model tables;p43directcachemiss",
+    "ring_modulator_modes": [
+      "Normal",
+      "Intelligent"
+    ],
+    "intelligent_tracking": "single notes only",
+    "humanizer_modes": [
+      "Picking",
+      "Auto",
+      "Random"
+    ],
+    "vowels": [
+      "a",
+      "e",
+      "i",
+      "o",
+      "u"
+    ],
+    "anti_feedback": "3fixedcancellationpoints;relativefrequencyrange",
+    "next": "Remaining Slicer/Rotary/2x2Chorus/AcousticProcessor/SoundHold/SubDelay definitions;44category reconciliation,USBchannels andexactIDR"
   }
 }

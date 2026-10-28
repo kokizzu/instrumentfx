@@ -1635,6 +1635,18 @@ Checked 2026-10-19 against the [official original manual p46](https://static.rol
 
 Remaining FX subtypes, 44-category reconciliation, USB channel count and qualified IDR hardware offers remain unresolved. No downloads or device operations.
 
+### GT-Pro — ring modulation and vowel-mode distinctions, 2026-10-28
+
+Indexed manufacturer-authored GT-PRO manual body, [p41](https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-41.html) and [p43](https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-43.html);same exact manual/model/pagination as prior checks. P43 direct reopening returned cache miss;indexed original table used,not generated FAQs. No new download or device test.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / Ring Modulator | **2 modes:Normal,Intelligent**. Intelligent follows detected input pitch and requires single notes rather than chords;Normal uses the internal oscillator without that pitch-following behavior. Frequency0–100 is relative,not a published Hz range. These are modes within sharedFX RM,not extra simultaneous blocks. |
+| Processing / Humanizer | **3 modes:Picking,Auto,Random**. Picking transitions Vowel1→Vowel2 with picking;Auto cycles the selected pair;Random selects among **a,e,i,o,u**. Five vowels are choices within the effect,not five additional families. Rate/depth and mode-dependent sensitivity do not add algorithms. |
+| Processing / Anti-feedback | Up to **three fixed cancellation frequencies**,each with independent depth. Frequency0–100 is a control range,not Hz or a three-family count. This suppresses guitar-body resonance;it is separate from the Feedbacker effect. |
+
+Remaining FX subtype census,44-category reconciliation,USB channel count andqualified IDR remain unresolved. Existing33-family count is unchanged.
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.
