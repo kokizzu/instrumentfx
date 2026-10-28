@@ -2587,6 +2587,24 @@ Checked 2026-10-28 against [own G2-5000-2 manual](https://zoomcorp.com/media/doc
 
 Exact original-model Shopee searches returned G2 FOUR/G2X/G2.1 variants andaccessories,not an accepted original G2 hardware offer. No price copied;used/new IDR unknown. Still a partial lead outside active counts;category-choice census,imports/editor andremaining complete profile fields need review before admission.
 
+### Original G2 — category census and factory-fill clarification
+
+Checked 2026-10-28 against [own G2-5000-2 manual](https://zoomcorp.com/media/documents/E_G2.pdf),printedpp20–31. Derived category census reconciles **54 choices**:
+
+| Module | Choices |
+|---|---|
+| COMP |1 compressor|
+| WAH/EFX |9:Auto Wah,Auto Resonance,Booster,Tremolo,Phaser,Ring Modulator,Slow Attack,Pedal VX,Pedal Baby|
+| ZNR |3:ZNR,Gate,Dirty Gate|
+| DRIVE |17 named choices,including Acoustic|
+| EQ |1 three-band EQ|
+| EXTRA EQ/CABI&MIC |2:Extra EQ,Cabinet & Mic|
+| MOD/SFX |13:Chorus,Stereo Chorus,Flanger,Pitch Shifter,Pedal Pitch,Vibrato,Step,Delay,Tape Echo,Dynamic Delay,Dynamic Flanger,Mono Pitch Shifter,Harmonized Pitch Shifter|
+| DELAY |3:Delay,Pingpong Delay,Echo|
+| REVERB |5:Hall,Room,Spring,Early Reflection,Multi Tap Delay|
+
+DRIVE has live/direct variants selected through the cabinet setting;these do not increase simultaneous slots. Acoustic explicitly converts electric-guitar tone. Factory user40 patches duplicate protected40;earlier factory-fill uncertainty is resolved for this manual. Rhythm playback disables reverb. Global MASTER LEVEL is separate from per-patch expression destination. Still unadmitted;exact offer andremaining profile gaps persist.
+
 ## G2.1Nu
 
 Distinct guitar multi-effects model, not G2.1u or G2Nu. Manufacturer identity: [own support page][ZNU-S]. Checked2026-10-18; partial. Ownership and bass/vocal suitability unverified.
