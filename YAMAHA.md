@@ -77,6 +77,12 @@ Checked 2026-10-19 in the [exact Yamaha owner manual, printed pp24–26,30](http
 | Footswitches / outgoing CC values | In EFF mode, each switch selects CC **1–32 or 64–95**, or OFF, with independent **0–127** values for its on/off states. This transmit range differs from the previously documented incoming assignment range. |
 | I/O / MIDI merge and clock limits | Merge retransmits input data without the selected receive-channel restriction. The implementation chart marks MIDI clock unsupported for both transmission and reception; merge support does not establish clock-synchronized effects. |
 
+### AG-Stomp — global-volume capability screening (2026-10-28)
+
+[Own manual](https://usa.yamaha.com/files/download/other_assets/1/313701/agstomp_en.pdf), printed pp22,26: Utility **GLb** supplies global assignments independent of patches; select **EP** and **A.Pr** (post-preamp volume) or **A.rE** (post-reverb volume). Parameter minimum/maximum each span0.0–10.0; these are distinct from raw pedal calibration. Thus global volume mapping is documented, not merely calibration. Held-position recall, bypass/headphone/digital/tail/recorded-loop coverage remain unverified. Post-reverb location alone is not a complete output-coverage test.
+
+Acoustic-electric routing is documented; ordinary electric-pickup tonal suitability remains unverified. Use the preserved ordinary mono-cable/supply-OFF instructions rather than special guitar-power routing. Existing280W×184Dmm exceeds preference. Dedicated phones and FC-7 support are documented; actual controller pinout/resistance and sequential onboard preset down/up remain unresolved. No hardware test.
+
 <!-- comparison evidence ends -->
 
 Original Yamaha-hosted PDF read as browser text; no file downloaded, device operated or software installed. Do not borrow DG-Stomp specifications. Expression mappings and original patch initialization are documented above; complete physical/absence checks and remaining software/price gaps stay unresolved.

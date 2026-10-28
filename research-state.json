@@ -123666,5 +123666,17 @@
       "exact MKII size"
     ],
     "hardware_test": false
+  },
+  "agstomp_expression_screen_20261028": {
+    "source": "https://usa.yamaha.com/files/download/other_assets/1/313701/agstomp_en.pdf",
+    "classification": "global EP to post-preamp/post-reverb volume, GLb",
+    "normal_electric_pickups": "tonal suitability unverified; acoustic-electric documented",
+    "remaining": [
+      "pedal pinout/resistance",
+      "held-position recall",
+      "bypass/headphone/digital/tail/recorded-loop coverage",
+      "sequential foot navigation"
+    ],
+    "hardware_test": false
   }
 }
