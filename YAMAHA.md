@@ -367,6 +367,16 @@ Checked 2026-10-18; partial. Original Guitar edition only. [Own Yamaha manual](h
 | Used IDR | Unknown; no exact condition-qualified Shopee item resolved. |
 | New IDR | Unknown; seller/item,stock,region,variant,bundle,warranty,voucher unresolved. No foreign-price conversion. |
 
+
+### Magicstomp original Guitar — direct expression screening 2026-10-28
+
+| Field | Finding / qualification |
+|---|---|
+| Expression / connector completeness | [Own original Yamaha manual](https://ca.yamaha.com/files/download/other_assets/7/334107/magicstomp_en.pdf), printed pp8–9,29: complete connector inventory has **no analog EXP or dedicated PHONES socket**. No built-in treadle in control inventory. MK2 headphone supplement does not apply to this edition. |
+| Controls / preset down-up | Same pp12–13: UP/DOWN mode uses− for previous,+ for next; holding cycles rapidly. Performance mode instead toggles three adjacent patches, with held−/+ changing three-patch sets. |
+| Dimensions / scope | Own p29:164W×176Dmm;36mm too deep. Direct analog volume position/range/bypass/tails/looper coverage is inapplicable. USB patch/parameter communication is separate; live digital-controller coverage remains unverified. |
+| I/O / electrical specification | Own p29: input HIGH−25dBm or LOW−15dBm,each1MΩ; main outputs0dBm/1kΩ. ADC24-bit+3-bit floating,DAC24-bit,44.1kHz. Converter specifications do not establish USB audio. |
+
 <!-- comparison evidence ends -->
 
 [Earlier primary-manual and revision-qualified discovery evidence](#magicstomp-original-guitar--primary-manual-lead) remains below; original historical discovery status is superseded by this active record. No sibling specifications substituted.
