@@ -166,6 +166,12 @@ Original-manual access audit: official PDF403;manufacturer-domain alternate inac
 
 [CN]: https://www.soranaudio.com/cn/products/15.html
 
+### Go Rig B — footprint and eligibility screen
+
+Checked **2026-10-28**, [own manufacturer product](https://soranaudio.com/products/25.html): **231L×80Wmm**,so preferred200W×140Dmm fit fails either orientation. Manufacturer explicitly targets bass;ordinary guitar suitability remains unclassified. Menu-free knob operation does not itself prove absence ofpresets oranalog EXP.
+
+No original manual contents newly recovered. Converted mirror summaries are not promoted to connector/headphone/control specifications. Built-in-treadle eligibility,analog EXP,global volume,position,min/max,recall,bypass/headphone/tail/loop coverage andonboard preset down/up remain unknown. This existing bass model stays outside the main capability table pending no-treadle screening;its size failure is independent. Earlier750mAh,160mA,4.5/5h conflict,offers andsource limitations remain intact. No sibling specification transferred ordevice operated.
+
 ## Go Rig II
 
 Effects-only guitar multi-effects, checked 2026-10-18; partial. MOD, DELAY and REVERB make this a multi-effects processor without requiring amp modeling. Bass/vocal suitability and ownership unverified. Distinct JCMS-G3B model; not Go Rig I or Go Rig B.

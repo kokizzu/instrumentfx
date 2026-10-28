@@ -366,3 +366,7 @@ Tiny Stomp [global input/loop-level boundary](SORAN.md#tiny-stomp--global-input-
 ### EROK Pocket Sonic — inventory screening pending
 
 [Existing active model](EROK.md#pocket-sonic--expression-audit-identity-hold),not a new admission. Manufacturer confirms guitar/headphone practice;built-in treadle,analog EXP,footprint andpreset controls remain unknown. Outside the capability table until no-treadle eligibility is established. Pocket Amp family identity does not supply retail specifications.
+
+### Soran Go Rig B — footprint screen, eligibility pending
+
+[Existing bass model](SORAN.md#go-rig-b--footprint-and-eligibility-screen):231×80mm fails preferred rectangle either orientation. Guitar suitability,no-treadle eligibility,analog EXP andheadphones remain unknown;outside the main capability table. Converted mirror summaries do not resolve these fields.

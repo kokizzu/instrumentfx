@@ -124933,5 +124933,13 @@
     "effect_list_lead": "https://www.valeton.net/download/314/effect-list/24255/gp-50_effect-list_en_firmware-v1-1-0-pdf.pdf",
     "effect_list_redirect": "https://res.diversitone.com/Uploads/wp/download/1787706039757.GP-50_Effect%20List_EN_Firmware%20V1.1.0.pdf",
     "effect_list_status": "Manufacturer redirect located;reader inaccessible;no specifications adopted"
+  },
+  "gorigb_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "SORAN.md#go-rig-b--footprint-and-eligibility-screen",
+    "source": "https://soranaudio.com/products/25.html",
+    "fit": "231×80mm fails eitherorientation",
+    "status": "Bass documented;guitar/no-treadle/EXP eligibility unknown;outside capability table",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
