@@ -123793,5 +123793,18 @@
       "original versus V2 revision"
     ],
     "hardware_test": false
+  },
+  "tankb_expression_screen_20261028": {
+    "source": "https://www.manualslib.com/manual/4596980/M-Vave-Tank-B.html?page=4",
+    "navigation_source": "https://www.manualslib.com/manual/4596980/M-Vave-Tank-B.html?page=7",
+    "classification": "No analog EXP in original recorded inventory",
+    "coverage": "Hand MASTER excludes Bluetooth and USB input",
+    "remaining": [
+      "manual revision",
+      "V2 equivalence",
+      "attenuation coverage",
+      "ordinary guitar tone"
+    ],
+    "hardware_test": false
   }
 }

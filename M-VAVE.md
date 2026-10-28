@@ -1006,6 +1006,13 @@ All three are JS-limited asking-price observations. Original/V2 hardware,used/ne
 
 <!-- comparison evidence ends -->
 
+
+### TANK-B — direct expression and MASTER coverage,2026-10-28
+
+The complete original panel inventory above has no analog EXP, so this original model fails the direct pedal requirement. [Manufacturer manual body,English printedp3](https://www.manualslib.com/manual/4596980/M-Vave-Tank-B.html?page=4) distinguishes AMP VOLUME from MASTER and explicitly excludes **Bluetooth and USB input volume** from MASTER control. Its lamp remains on except in tuner; this is hand control, not a global pedal assignment. [Printedp6](https://www.manualslib.com/manual/4596980/M-Vave-Tank-B.html?page=7) documents nine banks: bank down/up first, then A/B/C/D selection; bypass leaves the MASTER lamp on. Neither lamp state proves full bypass attenuation nor headphone/tail/recorded-loop coverage. DirectEXP range/position recall are inapplicable. Dedicated3.5mm phones and310W×65Dmm chassis remain recorded; too wide for the preferred limit. Bass is the documented target; ordinary guitar tone remains unverified.
+
+The73-page multilingual mirror names TANK-B and matches its bass-specific ATTACK/SUSTAIN/SPACE controls,not TANK-G; no printed revision/date established here. This is original manual-body text,not a generated FAQ; no renewed visual audit. Earlier AliExpress-hosted PDF could not reopen, and no V2 equivalence is claimed.
+
 ### Preserved original finding
 
 Complete original dated source follows. Its uncertainty and sold-out historical ask remain intact; the firmware qualification above is a separate 2026-10-17 observation.
