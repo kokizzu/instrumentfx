@@ -122572,8 +122572,8 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-28",
-    "current": "HX Stomp all-bypass/unprocessed-source boundary and qualified exact offers",
-    "finding": "All Bypass bypasses Volume/Pan blocks; USB1/2 and Aux avoid processing. Global assignment and other attenuation coverage remain qualified.",
+    "current": "GT-1000CORE EXP HOLD versus assignment and revision-qualified FV storage",
+    "finding": "Matching-function EXP HOLD recall is documented; older PatchEfct FV storage does not prove a current SYSTEM range override. Output coverage remains unresolved.",
     "next": [
       "Ampero Mini/Nano Cortex across-preset volume assignment remains unverified; manufacturer confirmation or readable exact-revision evidence needed",
       "Exact HX and GT-1000CORE documentation and headphone/tail/looper coverage",
@@ -122759,6 +122759,37 @@
       ],
       "offer_qualification": "2026-10-28 reader reopening; bundle, regional warranty, delivery and checkout vouchers unverified",
       "next": "GT-1000CORE exact FOOT VOL path, preferences and output coverage; do not transfer HX Stomp behavior to XL/Effects."
+    },
+    "gt1000core_recheck_20261028": {
+      "parameter_source": "https://static.roland.com/assets/media/pdf/GT-1000CORE_parameter_eng03_W.pdf",
+      "mirror": "https://www.scribd.com/document/838781699/GT-1000CORE-parameter-eng03-W",
+      "parameter_access": "indexed eng03 table and matching original mirror; official full PDF403",
+      "exp_hold": "ON retains state when functions match; distinct from SYSTEM assignment",
+      "midi_source": "https://static.roland.com/assets/media/pdf/GT-1000_MIDI_Implementation08.pdf",
+      "midi_revision": "GT-1000CORE v1.00;2020-10-01; not recertified as2.02",
+      "range_scope": "PatchEfct storage; SYSTEM override unverified",
+      "coverage_remaining": [
+        "bypass",
+        "headphones",
+        "tails",
+        "recorded loops",
+        "competing ASSIGNs"
+      ],
+      "offer": {
+        "seller": "341882414",
+        "item": "15035629131",
+        "seller_name": "Boss Official Shop",
+        "region": "Kota Tangerang Selatan",
+        "idr": 14450000,
+        "snapshot_stock": "Habis",
+        "cache": "three-month-old",
+        "condition": "retail-style; explicit new grade unverified",
+        "bundle": "gift advertised, contents/adapter unverified",
+        "voucher": "late-delivery compensation, not checkout discount",
+        "current_stock": "unverified",
+        "used_idr": null
+      },
+      "next": "Actual M-VAVE controller revision, analog TRS pinout and CC/USB wiring; then606/607 and remaining no-treadle inventory. Retain independent general queue and GT-Pro cursor."
     }
   },
   "brand_navigation": {

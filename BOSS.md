@@ -1393,6 +1393,24 @@ Checked2026-10-19. [Own official support](https://www.boss.info/global/support/b
 
 These changes do not certify identical FV position,headphone/bypass/tail/looper attenuation or competing patch ASSIGN behavior. Existing SYSTEM FOOT VOL evidence remains qualified. Official eng03 parameter PDF again returned no readable body; exact full current parameter-guide revision mapping remains unresolved. No firmware download/update orhardware test.
 
+### GT-1000CORE — held-pedal recall and patch-parameter distinction, 2026-10-28
+
+[Official eng03 parameter guide](https://static.roland.com/assets/media/pdf/GT-1000CORE_parameter_eng03_W.pdf), indexed EXP HOLD p54; corroborating [manufacturer-authored eng03 mirror](https://www.scribd.com/document/838781699/GT-1000CORE-parameter-eng03-W), original body pp3,33,54. Official full-file access still returns403; mirror branding/title, pagination and indexed table match. Generated summaries are not evidence.
+
+| Field | Evidence / revision qualification |
+|---|---|
+| Expression / position recall | **EXP HOLD ON carries pedal state across patches when the function matches**, including FOOT VOLUME→FOOT VOLUME; OFF does not. This is separate from PREF=SYSTEM target sharing and does not establish range or final-output override. |
+
+[Official joint MIDI implementation08](https://static.roland.com/assets/media/pdf/GT-1000_MIDI_Implementation08.pdf) explicitly names GT-1000CORE **v1.00, October1,2020**. Its applicability legend excludes starred GT-1000-only entries; the following shared entries are unstarred.
+
+| Field | Evidence / revision qualification |
+|---|---|
+| Expression / parameter storage | User/temporary patch → PatchEfct contains FV minimum, maximum, position and curve. This documents patch storage separately from system-function preference; a SYSTEM range override remains unverified. This older map does not certify current2.02 behavior. |
+
+Effect-chain placement is editable, including parallel arrangements; no single factory FV location is certified. Bypass/headphone/tail/recorded-loop attenuation and competing ASSIGNs remain unresolved; no hardware or MIDI operation was performed.
+
+[Exact Shopee offer](https://shopee.co.id/BOSS-GT-1000CORE-Guitar-Effects-Processor-Pedal-Multi-Efek-i.341882414.15035629131), shop341882414/item15035629131, seller named Boss Official Shop, Kota Tangerang Selatan: reopened2026-10-28, **three-month-old Rp14.450.000/Habis** snapshot. CrossedRp17.000.000, advertised15% reduction and unspecified free gift remain listing claims. Explicit new-condition grade, gift contents, adapter/bundle, seller affiliation, regional warranty, checkout stock and delivered price are unconfirmed. The late-delivery voucher is not a checkout discount. Fresh used-model search returned no exact hit; used IDR stays unknown.
+
 ## GT-Pro
 
 Checked 2026-10-19;partial. [Exact manufacturer product/specification](https://www.boss.info/global/products/gt-pro/) marks discontinued. Rack guitar multi-effects,not GT-8;ownership andbass/vocal suitability unverified.
