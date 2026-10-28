@@ -132,6 +132,11 @@ Next: physical control census, precise full signal order, preset-storage/import/
 [BFR2-P]: https://www.tech21nyc.com/products/flyrig/bass-fly-rig-v2/
 [BFR2-M]: https://www.tech21nyc.com/t21manuals/BassFlyRig_v2_OM.pdf
 
+### Bass Fly Rig v2 — qualified expression and headphone screen
+
+Checked2026-10-28 in [own ©2021 v2 manual][BFR2-M],Ins and Outs/Effect Loop. Bass use documented;ordinary guitar remains unclassified. Instrument input,quarter-inch output,XLR,Send/Return andpower are described;no EXP/headphone connection is established by that text. Full visual absence audit remains incomplete,so these stay **unverified**. The original Bass Fly Rig’s headphone button is not transferred to v2. Audio Send/Return and channel Drive/Level pairs do not establish global expression assignment or programmable preset browsing. Position/endpoints/recall,bypass/phones/tail/recorded-loop attenuation remain unknown. Published12.5×2.75inch footprint converts to317.5×69.85mm andfails either preferred orientation. No local download orhardware test.
+
+
 ## Fly Rig 5 v2
 
 Version 2 only; original Fly Rig 5 and RK5 are distinct. Checked 2026-10-17; partial. Manufacturer manual OM3, ©2019, revision12/20.

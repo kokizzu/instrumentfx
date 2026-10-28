@@ -124723,5 +124723,12 @@
     "revision": "OM3 rev12/20",
     "finding": "No EXP/phones in documented connection prose; no complete visual absence verification,remain unknown. Audio loop and modified wah power not controller mapping.317.5x69.85mm converted fails fit.",
     "next": "Continue own Bass Fly Rig v2 and Acoustic Fly Rig manual screens; priority unresolved Mini/Nano/GP50 and independentGTPro retained."
+  },
+  "bassflyrigv2_expression_screen_20261028": {
+    "source": "https://www.tech21nyc.com/t21manuals/BassFlyRig_v2_OM.pdf",
+    "identity": "BassFlyRigv2 copyright2021",
+    "finding": "Bass documented,guitar unclassified;noEXP/headphone established in connector prose,visualabsence incomplete,remainunknown. Originalv1 headphone feature not transferred. Audio loop/channel levels notglobalassignment.",
+    "footprint": "317.5x69.85mm converted from12.5x2.75inch fails either orientation",
+    "next": "Acoustic Fly Rig own manual next; Mini/Nano/GP50 scope and independentGTPro retained."
   }
 }
