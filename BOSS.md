@@ -1856,6 +1856,12 @@ Checked2026-10-28 against [exact official regional specifications](https://www.b
 The same page repeats44effectcategories and15reorderableblocks butdoes not reconcile13-versus15or enumeratea universal simultaneous algorithm ceiling. Keep that discrepancy open;do not transfer another GTmodel’s architecture. EarlierhistoricalASIO count andallsourcequalifications remain. No download orhardware test.
 
 
+### GT-Pro — historical Mountain Lion driver/editor distinction
+
+Checked **2026-10-28**, [official BOSS OS X Mountain Lion compatibility table](https://www.boss.info/jp/support/by_product/gt-10/support_documents/72707cad-7af7-466a-acf2-09d52bf4aaf6/),exact GT-Pro row despite the shared page being filed underGT-10. It marks **hardware/driver supported**,witha corresponding driver available,but **bundled GT-PRO Editor unsupported/nonfunctional** onMountain Lion. This separates audio-driver support fromeditor availability forOS X10.8;it is not currentmacOS/Apple-silicon certification.
+
+[Exact Macintosh Editor1.00 page](https://www.boss.info/jp/support/by_product/gt-pro/updates_drivers/870f8ad9-572a-48c6-9f96-1f8ee62a99b5/) lists Mac OS X10.2–10.6 andMac OS8.6/9,PowerPCG3≥500MHz,192MBRAM(256recommended),100MBdisk,800×600/32000colors,withOMS≥2 forClassic. Historical requirements,not proof ofnewer host operation. No driver/editor downloaded orrun. CurrentmacOS/Linux,headline-count reconciliation,visual controls andqualifiedIDR remain open.
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.

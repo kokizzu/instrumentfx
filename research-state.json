@@ -124918,5 +124918,11 @@
     "status": "Existing active model;no-treadle eligibility unknown;outside capability table",
     "next": "Recover exact Pocket Sonic manual URL/panel before assigning connector orvolume scope",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "gtpro_mountainlion_20261028": {
+    "checked": "2026-10-28",
+    "document": "BOSS.md#gt-pro--historical-mountain-lion-drivereditor-distinction",
+    "finding": "OfficialOSX10.8 table supports hardware/driver butnot bundlededitor;modernmacOS notcertified",
+    "source": "https://www.boss.info/jp/support/by_product/gt-10/support_documents/72707cad-7af7-466a-acf2-09d52bf4aaf6/"
   }
 }
