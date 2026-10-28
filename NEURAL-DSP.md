@@ -179,6 +179,12 @@ Exact title identifies Nano Cortex hardware. Condition declaration,working state
 
 Retain the already recorded2.2.1 connected-pedal boot hotfix;2.2.0 is not asserted newest orinstalled on an offered unit. No bug reproduction,update,download or hardware operation. All-preset volume assignment and actual M-VAVE wiring remain unresolved.
 
+### Nano Cortex — additional indexed hardware ask
+
+Checked 2026-10-28: [behaviouristy, seller1435419712/item27275381109](https://shopee.co.id/Neural-Dsp-Nano-Cortex-Digital-Effects-Processor-Profiling-Pedal-%28Not-Quad-Cortex%29-i.1435419712.27275381109), Kab. Banyuwangi, **Rp16.303.000**, five-month indexed cache. Exact title identifies Nano Cortex hardware and explicitly excludes Quad Cortex. Direct item returns cache miss. No Habis in index is not stock proof.
+
+Condition, working state, selected variant, firmware, adapter/cables/bundle, seller authenticity, warranty/import region, shipping/tax and checkout total remain unknown. Index displays Dengan Voucher and Rp100RB spend/Rp1RB discount; eligibility, cap and base-price arithmetic are unresolved, so no discount is subtracted. Seller rating shown as N/A does not establish fraud or reliability. This is an isolated historical ask, not a verified used/new range, completed sale or purchasing recommendation. Existing Seven Stereo and HAWILA observations remain separate. Global analog expression-volume scope is unchanged.
+
 ## Quad Cortex
 
 Partial record checked **2026-10-17**. Full Quad Cortex,distinct from Nano Cortex andQuad Cortex mini. Product page advertises CorOS4.1.0;current web manual identifies4.1.1. Seller firmware unverified.

@@ -315,3 +315,5 @@ NGS-6 [connector screening](NUX.md#ngs-6--readable-connector-evidence-and-exact-
 GP-50 [published-current and MIDI-jack clarification](VALETON.md#gp-50--published-current-labels-and-separate-midi-jacks): manufacturer specifies separate MIDI IN/THRU jacks and labels DC/USB consumption separately. Neither resolves direct analog volume scope; official1.1.0 manual redirect remains inaccessible.
 
 Ampero Mini [additional exact hardware asks](HOTONE.md#ampero-mini--exact-malang-and-white-unit-shopee-asks): Koko DC Musik Rp3.500.000 condition-unverified cache; Major Seven white unit Rp4.199.000,Habis,index-only. Neither establishes live stock,used/new condition or global-volume capability.
+
+Nano Cortex [additional indexed hardware ask](NEURAL-DSP.md#nano-cortex--additional-indexed-hardware-ask): behaviouristy Rp16.303.000, condition/stock/checkout unknown, direct cache miss. This historical offer does not resolve global expression-volume scope or establish a purchase-ready match.
