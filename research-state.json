@@ -123000,6 +123000,21 @@
       "global_analog_volume": "N/A",
       "next": "Continue existingcompactno-treadle inventory;digitalcontrolnotaudited",
       "inventory": "existingmodel;countunchanged"
+    },
+    "pandora_screening_20261028": {
+      "source": "https://cdn.korg.com/us/support/download/files/db0e40ab6d793d1df3c83dd801e5657c.pdf",
+      "revision": "EFGS2",
+      "pages": "9–14",
+      "access": "original reversed-word text;no newvisualreview",
+      "direct_exp": "absent completeconnectorlist",
+      "volume_scopes": [
+        "physicalVOLUMEphones",
+        "UtilitylineOUTPUT",
+        "EditProgramLevel"
+      ],
+      "foot_control": "one-switchcycle;notseparatedownup",
+      "inventory": "existingmodel;countunchanged",
+      "next": "Continue compactno-treadle models notyet screened;preserve globalvolumeuncertainties"
     }
   },
   "brand_navigation": {

@@ -917,6 +917,18 @@ Checked 2026-10-18 against [original EFGSJ2 manual, printed p31][PS-MJ]. Extract
 | Synth / oscillator settings | **OSC TYPE 0–7 selects eight sawtooth/sine pitch variants; 8–15 repeats those with portamento enabled**. These are 16 settings within one SYNTH type, not 16 simultaneous oscillators or extra amp-category models. Single-note playing and correct instrument tuning remain required. |
 | Synth / threshold and filter controls | THRESHOLD adjusts trigger sensitivity to guitar/bass level, **1.0–10.0**; SYN LVL adjusts synth volume, **0.0–10.0**. VCF values **0.0–4.7 use positive sensitivity, 5.0–10.0 negative sensitivity**; manual recommends 5.0 for sine-wave oscillator. Preserve these displayed values without inventing Hz, dB or envelope times. |
 
+### PANDORA stomp — direct-expression and output-volume screening, 2026-10-28
+
+[Original manufacturer EFGS2 manual](https://cdn.korg.com/us/support/download/files/db0e40ab6d793d1df3c83dd801e5657c.pdf),printedpp9–14,complete numbered controls/connectors read asbrowsertext. Extraction reverses words;no newvisualinspection orhardwaretest.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / direct path | Complete inventory hasINPUT,AUX,OUTPUT,PHONES,DC9V andUSB;**no analogEXPinput**,no built-in treadle. Failsdirectanalogpath. USBeditor support isnot analogexpression. |
+| I/O / volume scopes | VOLUME dial adjusts **headphones**;Utility controls **lineOUTPUTlevel**;Edit’sProgramLevel adjusts eachprogram. Do not treat headphoneknob as universal main/mastercontrol. Manual recommends≤32Ω headphones,approximately≥100dB/mWsensitivity;not measuredpower. |
+| Controls / program navigation | Onefootswitch cycles fourassigned favourites;handValue dial selects programs. No separateonboardpresetdown/up footswitches. 70W×123Dmm body fits;dedicated3.5mmphones. Existingother footswitchmodes retained. |
+
+No directEXPplacement/range/bypasscoverage applies. Existingprices,modelcounts andunknownUSBprotocol/currenteditorcompatibility preserved;noofferrefreshclaimed.
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified hardware observations

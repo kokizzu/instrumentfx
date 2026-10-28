@@ -2133,3 +2133,7 @@ expression-audit-commit-zoom-606:
 	python3 scripts/expression_audit_zoom.py commit-606
 expression-audit-commit-zoom-607:
 	python3 scripts/expression_audit_zoom.py commit-607
+
+.PHONY: expression-audit-commit-korg
+expression-audit-commit-korg:
+	python3 scripts/expression_audit_korg.py commit
