@@ -51,6 +51,12 @@ Checked 2026-10-18. Partial guitar multi-effects record; separate from iE-550. M
 
 No files/software downloaded; selected original-manual text only,no visual inspection. Remaining: visual panel check,built-in/toe expression,visual library alignment,USB dry/reamp/channel mapping,charging negotiation,IR formats/NAM workflow,desktop package identity andqualified offers.
 
+### iE-350 — qualified expression-volume screen
+
+Checked **2026-10-28** using the [manufacturer bilingual quick guide,V01 filename250319](https://manuals.plus/m/38e7cfbb78de66e80e6ad6f0089b795c878425515e58336188b7095ffd5f0b16),identified as Guangdong DK Music iE-350/FCC2BL4H-IE-350. Numbered controls list two footswitches andexternal **6.35mm TRS EXP**;no built-in treadle is identified in that inventory,withvisual corroboration still pending. Ordinary guitar input,shared **TRS stereo unbalanced OUT/PHONES**,andpreset backward/forward footswitches are explicit;holding accelerates navigation.
+
+Chinese specifications give122×103mm length×width,so preferred fit holds whichever horizontal axis interpretation applies. The earlier full-manual VOL-chain target remains preserved,but full-manual p7 could not be reopened today. **Global assignment across all presets,placement,min/max,held-position recall,bypass,headphone,tail andrecorded-loop attenuation remain unverified.** Connector presence andGLOBAL button are not global volume evidence. No iE-550 specifications transferred,software downloaded orhardware operated.
+
 ## iE-550
 
 Checked 2026-10-18. Partial exact-model record. Manufacturer product identity and independent effect modules support guitar multi-effects inclusion. Color offers are not separate models. Ownership, bass and vocal suitability remain unverified.

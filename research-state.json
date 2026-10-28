@@ -124852,5 +124852,13 @@
     "pages": "44–47",
     "finding": "Effect-bypass Trail controls;not preset-change spillover orEXP tail attenuation proof",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "ie350_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "DK.md#ie-350--qualified-expression-volume-screen",
+    "source": "https://manuals.plus/m/38e7cfbb78de66e80e6ad6f0089b795c878425515e58336188b7095ffd5f0b16",
+    "status": "Qualified inventory screen;global scope andcoverage unknown;visual no-treadle check pending",
+    "next": "Reopen original full-manual expression/global pages;actual controller wiring andrange;fresh exact hardware offers",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
