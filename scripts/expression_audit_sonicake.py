@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(sonicake): distinguish Smart Box MIDI volumes and operating currents'))
+    print(git('commit','-m','research(sonicake): screen Sonic Wood expression and headphones'))
