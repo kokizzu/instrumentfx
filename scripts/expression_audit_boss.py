@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(boss): distinguish GT-Pro Mountain Lion driver and editor support'))
+    print(git('commit','-m','docs: reconcile research continuation publication policy'))
