@@ -1799,6 +1799,18 @@ The official catalogue’s indexed effect list remains incomplete;44-category co
 
 USB input/output-device searches still yielded no explicit channel total; MAIN+SUB mixing is not channel-count evidence. Existing USB count stays unknown. No downloaded driver, software or document.
 
+### GT-Pro — Assign Hold position recall (2026-10-28)
+
+Manufacturer-authored original **GT-PRO manual p99**, indexed [English PDF reproduction](https://c3.zzounds.com/media/GT-PRO_e2-c15bef3b6baf301921f986b46ca7c501.pdf), corroborated by [same English page](https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-99.html) and [Spanish manufacturer manual p99](https://www.manualslib.es/manual/12527/Boss-Gt-Pro.html?page=99). Exact model, chapter and pagination match earlier original-manual checks. Indexed original body only: direct PDF exceeds reader size limit and English HTML reopening missed cache; no visual/device test or download.
+
+| Setting | Documented recall behavior / limitation |
+|---|---|
+| Assign Hold On | Carries the pedal-assignment state across patch changes. Volume-to-volume example follows the pedal’s current angle. If the destination assigns wah instead, its volume takes the patch value and wah follows the pedal angle. This is position/state retention, **not a global target lock**. |
+| Assign Hold Off | Destination volume initially uses its saved patch value; subsequent pedal movement/information changes it according to the pedal. No uninterrupted held-position volume guarantee. |
+| Toggle source | Assign Hold does not operate when Assign Source mode is Toggle. This restriction is distinct from a continuous analog pedal’s calibration. |
+
+This resolves the documented ASSIGN recall examples, not SYSTEM fixed FootVolume versus dedicated FV enable/MIN/MAX precedence or EXP2 memo ambiguity. The earlier competing-source warning remains applicable. Bypass/phones/tails/recorded-Hold coverage remains qualified separately.
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.

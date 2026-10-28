@@ -124066,5 +124066,17 @@
     "next": "Recover original MP-10 manual via manufacturer preview; verify exact panel/revision before capability classification.",
     "counts_changed": false,
     "older_evidence_preserved": true
+  },
+  "gtpro_assign_hold_recall_20261028": {
+    "sources": [
+      "https://c3.zzounds.com/media/GT-PRO_e2-c15bef3b6baf301921f986b46ca7c501.pdf",
+      "https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-99.html",
+      "https://www.manualslib.es/manual/12527/Boss-Gt-Pro.html?page=99"
+    ],
+    "identity": "Manufacturer-authored GT-PRO manual p99; model/chapter/pagination match; indexed body; direct PDF too large and English HTML cache miss; no visual/device test.",
+    "on": "Carries assignment state/current pedal angle; destination wah follows angle while volume takes destination saved value.",
+    "off": "Destination volume saved value until pedal moved/information received.",
+    "toggle": "Assign Hold does not function with Toggle source.",
+    "unresolved": "Fixed SYSTEM FootVolume versus dedicated patchFV enable/range; EXP2 memo; output coverage unchanged. Recall does not establish global target assignment."
   }
 }
