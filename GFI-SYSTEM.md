@@ -5,11 +5,37 @@ Source-backed guitar multi-effects; all records retain verification gaps.
 <!-- brand-index begins -->
 **Model and section index — A–Z, natural numeric order**
 
-- [Solis Ventus — partial discovery lead](#solis-ventus--partial-discovery-lead)
+- [Solis Ventus](#solis-ventus)
 - [Synesthesia](#synesthesia)
 <!-- brand-index ends -->
 
-## Solis Ventus — partial discovery lead
+## Solis Ventus
+
+Checked 2026-10-28; **partial active guitar multi-effects**, not fully verified. Instrument-level quarter-inch audio and independent dual engines with separate dynamics/crossover processing support inclusion; ordinary-guitar use is the intended application, not a specialized-pickup system. Bass/vocal suitability and ownership unverified. Discovery-stage wording retained below is historical; this summary governs current admission.
+
+<!-- comparison evidence begins -->
+| Field | Evidence / qualification |
+|---|---|
+| Expression | No treadle in Rev J text controls inventory; EXP1¼-inch shared with Aux, optimized10kΩ tip-to-wiper; EXP2⅛-inch any pot resistance tip-to-wiper or5V/10V CV. Older quickstart says10kΩ for both. Assignments/endpoints save per preset; global volume and external toe unknown. [Rev J](https://www.scribd.com/document/1072569196/Solis-Ventus-User-Manual-rev-J),pp1–4/19–21. |
+| Knobs / footswitches / buttons | Derived8 push-rotaries,3 footswitches,2 touch sliders; separate buttons/visual corroboration pending. |
+| Display | Explicit OLED; menu says LCD Brightness1–10. Diagonal,resolution,color/monochrome,touchscreen unknown; sliders are separate. |
+| Processing / category choices | Two simultaneous algorithms with arbitrary delay-delay,reverb-reverb,delay-reverb pairs; series/parallel/dual mono. Current product16delay/11reverb; historical Rev C15/9 named census below. Current full menu unresolved. Separate X/Y dynamics and crossover. [Product](https://gfisystem.com/pedals/solis-ventus). |
+| Factory / user memory | Rev J:96 writable=32banks×3; first24 factory-filled,remaining72 effectively empty; not24 additional protected slots. |
+| Synth / acoustic | Dedicated synthesis/acoustic simulation unverified; pitched delay/reverb and captured Infinity audio are not NAM or amp capture. |
+| Dimensions / mass | Published17×12cm,axes/height/mass unknown;170W×120D preferred fit remains conditional on orientation. |
+| I/O | Unbalanced¼-inchTS audio,stereo/mono processing;¼-inchTRS MIDIIn/Thru/Clock,USB-C;EXP1/Aux andEXP2/CV. Complete physical socket census,headphones andUSB audio roles unknown. |
+| Power / battery / USB | 9VDC centre-negative,2.1mm inner diameter; draw<350mA,manual supply capacity>340mA. Slow-ramp startup issue specifically names Pedal Power X8; no blanket compatibility claim. Supply excluded;outer barrel,battery/USB operation unknown. |
+| IR / NAM / capture | IR import,native/convertedNAM,amp/cab capture unverified. Infinity audio capture is an effect operation. |
+| Editor / software | SV Studio Windows/macOS;firmware1.8.0+ requires editor1.6.0+. CurrentOS/architecture/mobile/Linux anddrivers unknown. Visible history1.8.18 versus catalogue1.8.19 retained;current manualRevN body unread. |
+| Looper / drums / live | Rev J allocation:2.2sdelay/40sstereoloop,4.4s/26s,8.6s/looperdisabled. Pre/Post,exitSTOP/PLAY;global playback level1.0–10.0,notdB. Preset trail caps andbypass override below. Drums/scenes/poweroffretention,EXP output/tail/loop coverage unknown. Onboard bankupB+C/downA+B; independent single-preset foot down/up unknown. |
+| IDR verified used | Unknown. |
+| IDR verified new | Unknown. |
+| IDR condition-unverified hardware ask | Rp7,899,000;[SevenStereo16879370/28719878539](https://shopee.co.id/GFI-System-SOLISVENTUS-Solis-Ventus-Delay-And-Reverb-Pedal-i.16879370.28719878539),Bandung,direct2month/search4monthcache. StaleAugust13–15delivery;condition,variant,bundle,warranty,workingstate,stock,totalunknown. Late-deliveryvoucher≤Rp10k notupfrontsaving. Secondary1408254222/25989553157 price/seller unknown,not assigned this ask. |
+<!-- comparison evidence ends -->
+
+### Solis Ventus — partial discovery lead
+
+Historical discovery-stage status, superseded by the active partial summary above.
 
 Checked 2026-10-28. Exact Shopee hardware lead; outside active counts pending manual/profile review. Ownership, normal-pickup details, bass/vocal membership and no-treadle layout remain unverified.
 

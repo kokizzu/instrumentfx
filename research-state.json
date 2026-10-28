@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 393,
+  "active_model_count": 394,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 393,
+  "canonical_root_model_count": 394,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "393 unique active/root-canonical;0 legacy-only;48brands;sixexcluded;allpartial.",
+  "count_reconciliation": "394 unique active/root-canonical;0 legacy-only;48brands;sixexcluded;allpartial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro p55 downstream OSC Feedbacker/Synth limits FV effectiveness;fixed SYSTEM role versus patch FV range precedence remains unknown. Continue44category/13vs15basis,other USB modes,visual controls andqualified IDR;393partial.",
+    "task": "GT-Pro p55 downstream OSC Feedbacker/Synth limits FV effectiveness;fixed SYSTEM role versus patch FV range precedence remains unknown. Continue44category/13vs15basis,other USB modes,visual controls andqualified IDR;394partial.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -5710,6 +5710,19 @@
         "CompletevisualI/O/controlreview,headphones,factoryfill,displaydetails",
         "Currenteditorplatforms,firmwarelibrary,globalexpressioncoverage",
         "Condition-verifiedused/newhardwareandcheckoutstock"
+      ]
+    },
+    {
+      "model": "GFI System Solis Ventus",
+      "path": "GFI-SYSTEM.md#solis-ventus",
+      "checked_date": "2026-10-28",
+      "status": "partial",
+      "eligibility": "Independentdualalgorithms,dynamics,crossover;instrumentlevelaudio;exactqualifiedShopeehardware",
+      "unresolved": [
+        "RevNcurrentbodyandRevD16/11menureconciliation",
+        "FullphysicalI/O/headphones,axislabelleddimensions,mass,displaydetails",
+        "GlobalEXPmapping,recall,bypass/tails/loopcoverage",
+        "Conditionverifiedused/newhardwareandcheckoutstock"
       ]
     }
   ],
@@ -25157,8 +25170,8 @@
     {
       "model": "GFI System Solis Ventus",
       "checked_date": "2026-10-28",
-      "status": "Partialdiscovery,outsideactivecounts",
-      "path": "GFI-SYSTEM.md#solis-ventus--partial-discovery-lead",
+      "status": "Admittedpartialactiveguitarmodel2026-10-28,notfullyverified",
+      "path": "GFI-SYSTEM.md#solis-ventus",
       "manufacturer": "https://gfisystem.com/pedals/solis-ventus",
       "documentation": "https://gfisystem.com/downloads/solis-ventus",
       "shopee": {
@@ -25176,10 +25189,10 @@
       },
       "finding": "Dualindependentalgorithms16delay11reverb,twoEXP/CV,96presets,40sstereolooper.17x12cmaxesunknown,globalvolumeunknown;1.8.18historyversuscatalogue1.8.19freshnessdifference.",
       "next": [
-        "ReadRevNmanualandRevDalgorithmbodies",
-        "Verify no-treadle/normalpickupeligibility,fullcontrols/display/I/O",
-        "EXPglobalassignment,range,recall,headphone/bypass/tails/loopcoverage",
-        "Preserveexactretailcondition/stocklimits;noactiveadmissionyet"
+        "RevNcurrentbodyandRevD16/11menureconciliation",
+        "FullphysicalI/O/headphones,axislabelleddimensions,mass,displaydetails",
+        "GlobalEXPmapping,recall,bypass/tails/loopcoverage",
+        "Conditionverifiedused/newhardwareandcheckoutstock"
       ],
       "general_cursor_preserved": "BOSS GT-Pro",
       "rev_j_followup": {
@@ -25223,6 +25236,13 @@
         "finding": "MergedShimmer/Anti-shimmerandDiffusivesixhybridvariations,notextraslots;Spectral->Modulated,MultiTap3->TripleHeads,MultiTap4/Formantnotcarriedover",
         "rev_d_asset": "https://github.com/gfisystem/downloads/releases/download/solis-ventus-newest/solis-ventus-algorithm-reference-rev-d.pdf",
         "rev_d_access": "Expiredsignedredirectwebfailure;releasepagecachemiss;notdownloaded/bodyunread"
+      },
+      "initial_status": "Partialdiscovery,outsideactivecounts",
+      "primary_link_catalogue": {
+        "source": "https://github.com/gfisystem/downloads/blob/main/generated-download-links.txt",
+        "manual_k": "https://github.com/gfisystem/downloads/releases/download/solis-ventus-manuals/Solis.Ventus.-.User.Manual.-.rev.K.pdf",
+        "algorithms_d": "https://github.com/gfisystem/downloads/releases/download/solis-ventus-manuals/solis-ventus-algorithm-reference-rev-d.pdf",
+        "access": "Cataloguebrowserread;bothPDFbodyopenscachemiss;RevNnotlocatedinmontholdcatalogue. NoActionsordownload."
       }
     }
   ],
@@ -25714,7 +25734,8 @@
       "DNAfx GiT Core"
     ],
     "GFI System": [
-      "Synesthesia"
+      "Synesthesia",
+      "Solis Ventus"
     ]
   },
   "root_brand_content": {
@@ -26205,12 +26226,13 @@
       "DNAfx GiT Core"
     ],
     "GFI-SYSTEM.md": [
-      "Synesthesia"
+      "Synesthesia",
+      "Solis Ventus"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 328,
+      "record_count": 329,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -26240,10 +26262,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 328 guitar, 170 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 329 guitar, 170 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "393 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "394 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -46676,10 +46698,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 393,
-    "canonical_root_models": 393,
+    "unique_brand_model_pairs": 394,
+    "canonical_root_models": 394,
     "legacy_only_models": 0,
-    "guitar_view_models": 328,
+    "guitar_view_models": 329,
     "bass_focused_models": 40,
     "vocal_only_models": 25,
     "vocal_view_models": 71,
@@ -47105,7 +47127,8 @@
       "EROK::MP-10",
       "EROK::Pocket Sonic",
       "Harley Benton::DNAfx GiT Core",
-      "GFI System::Synesthesia"
+      "GFI System::Synesthesia",
+      "GFI System::Solis Ventus"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -50396,6 +50419,13 @@
     },
     "GFI System::Synesthesia": {
       "link": "GFI-SYSTEM.md#synesthesia",
+      "source_files": [
+        "GFI-SYSTEM.md"
+      ],
+      "finding_files": []
+    },
+    "GFI System::Solis Ventus": {
+      "link": "GFI-SYSTEM.md#solis-ventus",
       "source_files": [
         "GFI-SYSTEM.md"
       ],

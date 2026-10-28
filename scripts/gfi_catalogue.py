@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(gfi): census historical Solis Ventus algorithms and source revisions'))
+    print(git('commit','-m','research(gfi): add Solis Ventus to guitar multi-effects comparisons'))

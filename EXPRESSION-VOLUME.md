@@ -558,4 +558,4 @@ Nano Cortex [historical support-report qualification](NEURAL-DSP.md#nano-cortex-
 
 ### GFI System Solis Ventus — discovery qualification pending
 
-[Exact hardware/manufacturer lead](GFI-SYSTEM.md#solis-ventus--partial-discovery-lead): two EXP/CV inputs and independent dual engines documented. No-treadle layout, normal-pickup details, axis-labelled footprint, headphones and global analog volume remain unverified. Cached Shopee ask separately qualified; outside active counts and main capability table pending manual review.
+[Exact hardware/manufacturer lead](GFI-SYSTEM.md#solis-ventus--partial-discovery-lead): two EXP/CV inputs and independent dual engines documented. No-treadle layout, normal-pickup details, axis-labelled footprint, headphones and global analog volume remain unverified. Cached Shopee ask separately qualified; now a partial active guitar record after Rev J profile review, while current global-volume qualification and main capability-table admission remain pending.
