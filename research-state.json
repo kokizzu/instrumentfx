@@ -123654,5 +123654,17 @@
       "firmware13 confirmation"
     ],
     "hardware_test": false
+  },
+  "fm9_turbo_expression_screen_20261028": {
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "revision": "2022-08 firmware3.x original/Turbo cover",
+    "classification": "historical global Input/Output1–3 assignment; current MKII equivalence unresolved",
+    "remaining": [
+      "MKII firmware12 equivalence",
+      "endpoints/recall",
+      "bypass/headphone/recorded-loop coverage",
+      "exact MKII size"
+    ],
+    "hardware_test": false
   }
 }

@@ -96,3 +96,9 @@ Rp36m seller1354606623/item43322190869 titlesFM9MKI and has inconsistent oldFM3 
 [f9-e]: https://www.fractalaudio.com/fm9-edit/
 
 Official sources read2026-10-17;manual2022-08,firmware3.x,original/Turbo cover. No file/software/firmware downloads or hardware operations. Remaining:MKIIphysical corroboration,category/concurrency census,display,IRlimits,NAM/captures,looper qualifications,drums,power-operation andqualified condition/stock evidence. One new partial record,not full verification.
+
+### FM9 MKII Turbo — revision-qualified global-volume screening (2026-10-28)
+
+[Own FM9 manual][f9-m], August2022 firmware3.x, printed pp10–11: MIDI/Remote→Other assigns PEDAL1/2/3 to global Input1/2/3 or Output1/2/3 Volume, without per-preset modifiers. Output control includes tails; input control changes gain-dependent behavior. Cover specifies original/Turbo, not MKII: **current MKII/firmware12 equivalence remains unverified**. This is FM9 evidence, not borrowed FM3 behavior.
+
+Own pedal specification: TRS10–100kΩ; tip supply/ring return/sleeve ground. Volume endpoints, position recall, bypass/phones/recorded-loop coverage remain unknown. Existing historical513W×237Dmm exceeds preference, but exact MKII dimensions remain unresolved. Dedicated phones are already documented; sequential onboard preset down/up is not newly verified. No device operated or firmware installed.
