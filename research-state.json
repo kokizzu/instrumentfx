@@ -124744,5 +124744,13 @@
     "finding": "Bindings stored in presets;expression minmax/macros preset context. Global mixer persistence not EXPmaster assignment;separateglobaloverrideunknown. RETURNshared RTS ring wiring;phonesyes;210x105failsfit.",
     "new_revision": "Official en-gb web blocklist1.19.0 vsPDF1.17;no1.19category/behavioraudit claimed.",
     "next": "Remaining no-treadle inventory; Mini/Nano/GP50 scope and independentGTPro retained."
+  },
+  "quad_expression_screen_20261028": {
+    "source": "https://neuraldsp.com/manual/quad-cortex",
+    "revision": "4.1.1",
+    "finding": "Gridblock assignment/minmax/defaults separate fromglobalcalibration andretainedposition/toestate. NoallpresetEXPmasteroverrideestablished;Masteroutputcheckboxesseparate.",
+    "navigation": "BankUP/DOWN presetnavigationinScene/Stomp;PresetmodebanksplusA-H.",
+    "coverage": "Phonesyes;EXPbypass/phones/tails/recordedloopunknown;290x195failsfit.",
+    "next": "Remainingno-treadleinventorystillpartial;prioritizeexactcontrollerwiringandprimarymanualgaps;independentGTProretained."
   }
 }

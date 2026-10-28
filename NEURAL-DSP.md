@@ -228,3 +228,7 @@ Partial record checked **2026-10-17**. Full Quad Cortex,distinct from Nano Corte
 [qc-m]: https://neuraldsp.com/manual/quad-cortex
 
 No download orvisual inspection claimed;current web documentation does not prove seller firmware orlive stock.
+
+### Quad Cortex — expression assignment, recall and output boundary
+
+Checked2026-10-28 in [own4.1.1 manual](https://neuraldsp.com/manual/quad-cortex),Expression Pedals/Master Volume/Global Controls. Assignments target Grid-block parameters withadjustable/reversible MIN/MAX;Set Parameters as Defaults can retain assignments forblocks. Calibration isglobal. Pedal position/toe state persist onpreset loads rather than being saved;assigned values areexcluded fromScenes. These do not establish an all-preset expression-to-master override. Master knob output-checkbox selection isseparate. Dedicatedphones confirmed;EXP attenuation ofphones,bypass,tails andrecordedloops remains unknown. BANKUP/DOWN selectpresets inScene/Stomp modes;Preset mode insteadbanks thenA–H selection.290×195mm failspreferredrectangleeitherorientation. Existing ordinaryguitar/bass processing andtwoTRSEXP inputs retained;layout lacks abuilt-intreadle. No hardware test ordownload.
