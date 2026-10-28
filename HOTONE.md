@@ -667,6 +667,7 @@ Sources: [effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md](HOTONE.md
 
 ## Ampero Mini MP-50
 
+<!-- comparison evidence begins -->
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- HOTONE-AMPERO-MINI source begins -->
@@ -838,6 +839,8 @@ Own [firmwareV2.2 manufacturer manual,printedp30](https://res.hotoneaudio.com/pr
 |---|---|
 | Processing / Pitch Shift versus Classic PS | **Pitch Shift explicitly polyphonic**,Pitch−24…+24semitones,Position0–100,Volume0–100 andDry0–100. **Classic PS explicitly monophonic**,Whammy-like,withRange0–100,Position0–100 andMix0–100. Its Range scale is not itself a published semitone scale. These are distinct FX choices,not additional simultaneous modules or dedicated synthesis proof. |
 | Expression / effect position versus global volume | Manual suggests assigning pitch Position to expression. This bends pitch within the selected effect;its Volume parameter is effect output,not universal master volume. **Sweller** is an automatic violin-like swell withAttack0–100 andLine/Exp/Log curves;not pedal assignment orposition recall. |
+
+<!-- comparison evidence ends -->
 
 Patch VOLUME enable/global-override uncertainty remains unchanged. FreshShopee search found a four-month indexed GuitarSecondStore homepage teaser atRp3,630,000,but no exact item/shop IDs orcondition declaration;the name alone is not used-condition proof. [Store lead](https://shopee.co.id/guitarsecond) directbody isJS-limited andomits the product. Keep it as an unresolved lead,not a qualified price orstock update. No files downloaded orsoftware/devices operated.
 
