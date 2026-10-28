@@ -1740,6 +1740,16 @@ Original section/model/pagination match prior GT-PRO manual checks. Text evidenc
 
 Exact model and Chapter4 pagination match earlier original-manual checks; no visual/device test. Existing33 FX families andunreconciled44-category headline remain unchanged. ExactShopee GT-Pro query yielded no qualified hardware item;no absence-of-market claim.
 
+### GT-Pro — Advanced Compressor, Limiter and Auto Wah choices 2026-10-28
+
+| Field | Finding / qualification |
+|---|---|
+| Processing / Advanced Compressor types | **8: BOSS Comp,Hi BAND,Light,D Comp,Orange,Fat,Mild,Stereo Comp**, listed under exact GT-PRO in [original BOSS2008 catalogue](https://www.boss.info/assets/media/pdf/boss_catalog_2008.pdf), indexed compressor table. These are ACS choices inside FX1/FX2, distinct from dedicated COMP’s Compressor/Limiter modes; not eight concurrent blocks. |
+| Processing / Limiter types and ratio | Own manufacturer-authored [manual p37](https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-37.html), indexed despite direct403: **3:BOSS Limitr,Rack160D,Vtg RackU**; latter two model dbx160X/UREI1178. Ratio **1:1–∞:1**; Attack,Threshold,Release,Level0–100. Threshold is not labelled dB; release is not milliseconds. |
+| Processing / Auto Wah | [Own manual p38](https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-38.html), indexed: **LPF/BPF** modes; periodic filtering, unlike picking-responsive Touch Wah. Frequency,Peak,Depth0–100;Rate0–100 orMasterBPM. Relative Frequency is not a published Hz range. |
+
+Exact-model manufacturer text only; no visual/device inspection. Family/block counts and44-category/13-versus15 conflicts remain unchanged.
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.

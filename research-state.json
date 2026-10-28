@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro Flanger/Pan/Tremolo definitions saved;remainingACS/Limiter/AutoWah/UniV/SubEQ/Octave/PedalBend,44category/13vs15basis,USBchannelcount andqualifiedIDR;392partial.",
+    "task": "GT-Pro ACS8/Limiter3/AutoWah definitions saved;remainingUniV/SubEQ/Octave/PedalBend,44category/13vs15basis,USBchannelcount andqualifiedIDR;392partial.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -123292,5 +123292,19 @@
     "tremolo": "cyclic volume;WaveShape0–100;Rate0–100/BPM",
     "market": "no qualified exact Shopee GT-Pro item returned;IDR unknown",
     "next": "Remaining ACS/Limiter/AutoWah/UniV/SubEQ/Octave/PedalBend definitions;headlinecounts,USBchannels,qualified offers"
+  },
+  "gtpro_dynamics_autowah_20261028": {
+    "sources": [
+      "https://www.boss.info/assets/media/pdf/boss_catalog_2008.pdf",
+      "https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-37.html",
+      "https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-38.html"
+    ],
+    "access": "indexed original catalogue/manual;manualp37direct403",
+    "acs_types": 8,
+    "limiter_types": 3,
+    "limiter_ratio": "1:1–infinity:1",
+    "autowah": "LPF/BPF;relative Frequency0–100;rate0–100/BPM",
+    "counts": "subtypes of existing families;no block increase",
+    "next": "UniV/SubEQ/Octave/PedalBend definitions;headlinebasis,USBchannels,exactIDR"
   }
 }

@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(boss): document GT-Pro flanger filters and modulation controls'))
+    print(git('commit','-m','research(boss): verify GT-Pro compressor limiter and auto wah choices'))
