@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro explicit historical MacOS9 ASIO count resolved:2mono in/2mono out,16/24bit. Otherdriver-mode matrix,currenthosts,44category/13vs15basis,visualcontrols,expression/outputcoverage andqualifiedIDR remain;392partial.",
+    "task": "GT-Pro Smooth patch decay is conditional (p97), not gapless or EXP tail coverage. Continue fixed global FV versus patch range precedence,44category/13vs15basis,other USB mode counts,visualcontrols andqualifiedIDR;392partial.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -125055,6 +125055,17 @@
     "official_crosscheck": "NanOS2.2.0 Incoming MIDI CC List: CC1 pedal position",
     "result": "Additional preset-scope evidence; direct analog global volume remains unverified",
     "next": "Seek explicit manufacturer assignment storage/override documentation; do not equate reported MIDI procedure with analog proof",
+    "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "gtpro_patch_decay_20261028": {
+    "checked": "2026-10-28",
+    "source": "https://cdn.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+    "page": 97,
+    "document": "BOSS.md#gt-pro--conditional-patch-change-decay-continuity",
+    "result": "Smooth conditional delay/reverb decay across patch changes; not guaranteed gapless",
+    "conditions": "Same effects chain; documented delay type/time and other parameter/on-off conditions; may still fail; change may be delayed one tempo",
+    "source_conflict": "Fast English table says reverb/chorus versus Smooth reverb/delay; preserved",
+    "unknown": "EXP tail attenuation,headphones,global FV versus patch range precedence",
     "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

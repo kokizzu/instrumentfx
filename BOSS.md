@@ -1862,6 +1862,12 @@ Checked **2026-10-28**, [official BOSS OS X Mountain Lion compatibility table](h
 
 [Exact Macintosh Editor1.00 page](https://www.boss.info/jp/support/by_product/gt-pro/updates_drivers/870f8ad9-572a-48c6-9f96-1f8ee62a99b5/) lists Mac OS X10.2–10.6 andMac OS8.6/9,PowerPCG3≥500MHz,192MBRAM(256recommended),100MBdisk,800×600/32000colors,withOMS≥2 forClassic. Historical requirements,not proof ofnewer host operation. No driver/editor downloaded orrun. CurrentmacOS/Linux,headline-count reconciliation,visual controls andqualifiedIDR remain open.
 
+### GT-Pro — conditional patch-change decay continuity
+
+Checked **2026-10-28** against [original manufacturer manual,printedp97](https://cdn.roland.com/assets/media/pdf/GT-PRO_OM.pdf),indexed original text,**Patch Change Mode**. SYSTEM P.Chnge Mode offers Fast andSmooth. Smooth permits previous delay/reverb decay into the next patch,conditional on matching effects chains andthe stated delay type/time orother parameter/on-off conditions. The manual warns decay may still fail despite these conditions,andSmooth can delay the patch change by one tempo. Fast does not carry prior decay;its English table says reverb/chorus,whereas Smooth andthe surrounding text say reverb/delay. Preserve that wording difference rather than normalizing it from another GTmodel.
+
+This resolves the earlier unqualified spillover uncertainty to **conditional documented continuity**,not gapless switching orall-preset carryover. It does not establish expression attenuation of tails,headphone coverage,orSYSTEM FootVolume versus patchFVrange precedence. Hold-delay recording still clears on patch changes under its separate documented rules. No download ordevice test.
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.
