@@ -592,12 +592,13 @@ No built-in treadle/onboard footswitches orheadphone socket in complete panels. 
 
 ## SPX990
 
+<!-- comparison evidence begins -->
 Checked 2026-10-17. Partial original-manual verification; unknown is not No.
 
 | Field | Evidence / qualification |
 |---|---|
 | Instrument scope | Guitar, bass and vocal applications explicitly listed; suitable line-level preamp/mixer routing required [S99-M pp.12–13] |
-| Expression | No built-in pedal/toe; continuous parameter control via two MIDI controller assignments, with per-program parameter/range settings. No dedicated expression socket in the complete rear-panel/connector inventory; the two pedal sockets are switches,not continuous EXP inputs [S99-M pp.5,56–57,Add-1] |
+| Expression | No built-in pedal/toe; continuous parameter control via two global MIDI source selections, with per-program target/range settings. No dedicated expression socket in the complete rear-panel/connector inventory; the two pedal sockets are switches,not continuous EXP inputs [S99-M pp.5,56–57,Add-1] |
 | Knobs / footswitches / buttons | 3 rotary controls: concentric L/R input plus Data Entry; 0 built-in footswitches; 12 buttons: six function, two page, Memory/Store/Edit/Bypass; power separate [S99-M pp.4,Add-1] |
 | Display | 24×2 character LCD plus LED indicators; diagonal/color/touch unverified [S99-M Add-1] |
 | Processing / categories | Three processing sections: pre/main/post, with 4/36/3 choices respectively. Pre/post offer P.EQ, Comp., HarmDr; Dist. is pre-only and itself combines compression, distortion and EQ. Main type cannot be replaced in Edit: start from a preset with the required main algorithm. Individual sections can be disabled. Section count is not a universal count of elemental effects. Main algorithms, derived from the manual list: 4 reverb, 4 early-reflection/gate, 7 delay/echo, 6 modulation, 4 pitch, 2 pan, 8 combined/dual and 1 Freeze = 36 [S99-M pp.6,20–24] |
@@ -647,6 +648,19 @@ Remaining: full routing diagrams and elemental simultaneous maximum, factory map
 | I/O / maximum versus nominal levels | At the+4 setting,the specification gives **maximum input+24dBm and output+18dBm**,distinct from switchable nominal+4/−20dBm. Units retained as printed;not normalized to dBu or measured here. |
 | Power / USB inventory | Complete connector list has no USB socket;USB power/audio is unsupported by that inventory. The internal battery retains RAM for approximately **five years**;this is backup-life guidance,not battery-powered operation or current battery-health evidence. |
 | Memory / backup scope | Memory cards cannot save **Program Change Table or System Data**;MIDI bulk storage provides a separate backup path. Factory presets remain when backup voltage falls. This does not guarantee a particular used unit’s saved sounds. |
+
+<!-- comparison evidence ends -->
+
+### SPX990 — global MIDI source versus per-program destination (2026-10-28)
+
+Reopened own **76-page Yamaha-authored Operation Manual**,[original reproduction](https://www.audiorama-berlin.de/pdf/yamahaspx990man.pdf),printed56–57/Add-1. Exact SPX990 title/sections match prior checks;original text,not mirrorFAQ.
+
+| Field | Finding / qualification |
+|---|---|
+| Expression / direct path | Complete connector inventory has no analog EXP orheadphone socket;no built-in treadle. Rear Trigger andBypass/INC-DEC inputs are switches. **Fails direct analog expression path**;MIDI controller route is separate. |
+| Expression / source anddestination scope | Controller Assign can apply its two source-message choices to all programs. **Parameter Assign instead recalls a specific program,sets its target andnormalized MIN/MAX0–100%,thenstores the program**. Global source selection is not a global volume destination orall-preset volume assignment. Some parameters cannot be assigned. |
+
+Normalized0–100% describes each target’s range,not necessarily output volume orheel silence. Held-position recall andMIDI bypass/tail/Freeze-sample attenuation remain unverified. No onboard footswitches;hand memory controls andexternal INC/DEC remain separate. Suitable line-level guitar routing is required;480W×324.4Dmm including attachments exceeds preferred limits. No headphone drive inferred from line outputs. No files downloaded ordevice operation.
 
 ## SPX1000
 

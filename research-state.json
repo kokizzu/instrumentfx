@@ -124226,5 +124226,14 @@
     "guitar": "Suitable line-levelpreamp/mixer;480W×319Dmm too large.",
     "presets": "No onboard footswitches;handselection+RECALL,external memoryswitch separate.",
     "remaining": "Pinout/bypass/tails/Freeze-sample attenuation andprior broader gaps."
+  },
+  "spx990_expression_screen_20261028": {
+    "source": "https://www.audiorama-berlin.de/pdf/yamahaspx990man.pdf",
+    "identity": "Own manufacturer-authored76-page manual printed56–57/Add-1 textreopened.",
+    "direct_path": "No analogEXP/headphone socket in complete connector inventory;no treadle;rearTrigger/BypassINCDEC switches.",
+    "midi_scope": "ControllerAssign source choices apply allprograms;ParameterAssign destination andnormalized0–100%range stored perprogram;notglobalvolume.",
+    "footprint": "480W×324.4Dmm includingattachments too large",
+    "presets": "No onboard footswitch;externalINCDEC separate",
+    "remaining": "MIDIheldangle/bypass/tail/Freeze attenuation andprior technical gaps."
   }
 }
