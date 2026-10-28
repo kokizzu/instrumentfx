@@ -122,14 +122,14 @@ Checked 2026-10-28; **partial active guitar multi-effects record**, not fully ve
 | Expression | No built-in treadle in text inventory; external EXP 10–25 kΩ, wiper-to-tip. External toe switch unverified. Primary algorithm targets/endpoints saved per preset; global volume unknown. [Manual](https://manuals.plus/m/c645c453677b834bfe7cb54a03a4d1057c3bc8b25e640efe6e906a59ba5c232e), 2.3+ pp2–5,11. |
 | Knobs / footswitches / buttons | Eight push-rotaries / two footswitches, derived from manual text; separate buttons unknown, visual corroboration pending. |
 | Display | LCD; diagonal, resolution, color/monochrome and touch unknown. |
-| Processing / category choices | Two simultaneous algorithms. V2.x.x reference: 38 choices = Amplitude 5, Filters 5, Swirls & Shimmers 7, Phase 4, Miscellaneous 10, Sequencer 7; full names below. Installed 2.5.1 library unverified. Cascade/Mixture/Split routing. [Product](https://gfisystem.com/pedals/synesthesia);[reference](https://www.scribd.com/document/1075834567/Synesthesia-Algorithms-v2x-x). |
+| Processing / category choices | Two simultaneous algorithms. V2.x.x reference: 38 choices = Amplitude 5, Filters 5, Swirls & Shimmers 7, Phase 4, Miscellaneous 10, Sequencer 7; full names below. Wah Filter was inserted in2.3.0, shifting later IDs; this does not resolve MIDI0–36 mapping. Installed 2.5.1 library unverified. Cascade/Mixture/Split routing. [Product](https://gfisystem.com/pedals/synesthesia);[reference](https://www.scribd.com/document/1075834567/Synesthesia-Algorithms-v2x-x). |
 | Factory / user memory | 32 onboard locations; factory-filled/protected/writable split unknown. Computer offline files do not enlarge hardware memory. |
 | Synth / acoustic | Octave/arpeggiator/filter processing documented; dedicated synthesis/acoustic simulation and polyphony unverified. |
 | Dimensions / mass | 120×120×55 mm; fits 200 W×140 D preference in either horizontal orientation. Manufacturer 800 g versus 1.6 lb mismatch preserved. |
 | I/O | Mono-in/stereo-out or mono-in/mono-out + send/return; external processing cannot sit between X/Y. Audio ¼-inch TS; USB-B; shared ACE accepts EXP/CV/aux switches; MIDI In/Thru. MIDI Expression default CC42/0–127 emulates the pedal; Patch Down/Up default CC43 uses values 0/127, added in2.4.6. [MIDI reference](https://www.gfisystem.com/_files/ugd/9deb14_139bd5982c704feda5895c78677ab0f8.pdf). Complete physical port count/sizes and dedicated headphones unknown. |
 | Power / battery / USB | 9 V DC centre-negative; 240 mA requirement, approximately240 mA draw; supply excluded. Manual 2.1 mm DC connector; barrel outer diameter, battery/USB power unknown. |
 | IR / NAM / capture | User IR, native NAM, converted NAM and proprietary capture unverified. |
-| Editor / software | SymmLab Windows/Mac: real-time editing, preset backup/restore/offline, library/firmware updates, reset. Modern OS/architecture, mobile/Linux, USB audio/drivers unknown. Current download index: 2.5.1, Sep18,2026, fixes intermittent lockups; no installation test. |
+| Editor / software | SymmLab Windows/Mac: real-time editing, preset backup/restore/offline, library/firmware updates, reset. Modern OS/architecture, mobile/Linux, USB audio/drivers unknown. Current download index: 2.5.1, Sep18,2026, fixes intermittent lockups; no installation test. Firmware2.3 auto-migrates onboard algorithm IDs but not offline preset files; see release-note qualification below. |
 | Looper / drums / live | Preset/Stompbox modes, ramping, tap/MIDI clock documented. Looper, drums, scenes, trails, power-off retention unknown. Onboard combined press: Bank Up; independent preset down/up unknown. Master −3…+3 dB per preset; EXP bypass/phones/tails/loop coverage unknown. |
 | IDR verified used | Unknown. |
 | IDR verified new | Unknown. |
@@ -207,3 +207,13 @@ Checked 2026-10-28: [official four-page MIDI Implementation PDF](https://www.gfi
 - X/Y algorithm selectors defaultCC20/21 list **0–36**, thirty-seven numerical values. This does not directly reconcile the38-choice algorithm reference; mapping/current-library basis remains unresolved. Do not infer a removed algorithm or substitute37 for the documented38-name census.
 
 No MIDI messages sent or software/firmware downloaded. Current2.5.1 behavior, direct analog global volume, recall and output/tail/loop attenuation remain unverified.
+
+### Synesthesia — Wah Filter insertion and offline-preset migration
+
+Checked 2026-10-28 against [official firmware2.3.0 release note](https://www.gfisystem.com/_files/ugd/9deb14_714ac5b2495541a185cefa64bf8bd65a.pdf), two-page PDF read directly. First page explicitly dates2.3.0 **November2020**.
+
+Wah Filter was added within the Filter group, shifting every following algorithm ID up one; the manufacturer example is **Chorus11→12**. The firmware update migrates existing onboard presets, but **offline computer preset files are unversioned and not automatically corrected**. The documented SymmLab remedy is to load the old preset, select the intended algorithms and resave it. This describes the historical migration procedure, not a file operation performed here or guaranteed current support service.
+
+This establishes a real one-entry library change and a preset-import hazard. It provides context for the38-name reference versus MIDI selector0–36 discrepancy, **not a verified current selector map or proof which row is stale**. Keep the discrepancy open. Wah-frequency control is not global volume assignment.
+
+The second page retains a2.0.0/April2020 heading while its Bypass-on-PC body explicitly says2.3.0; do not use that heading alone to change the already documented feature-introduction version. No update, preset import, email or download performed.

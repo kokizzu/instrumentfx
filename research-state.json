@@ -127930,5 +127930,14 @@
     "scope": "Canonicalsummaryspacingonly;historicaldiscoverystatuslabelledsuperseded;nochangedtechnicalclaims",
     "sorter": "Previouslyhardcoded47reportnowderivesactualroot_brand_contentcountviaoutputsminusREADME;48currently",
     "remaining": "Firmwarehistorybodynotretrieved,currentmapping/globalvolumeandhardwaregapsremain"
+  },
+  "synesthesia_wah_migration_20261028": {
+    "checked_date": "2026-10-28",
+    "source": "https://www.gfisystem.com/_files/ugd/9deb14_714ac5b2495541a185cefa64bf8bd65a.pdf",
+    "access": "Directofficial2pagePDFtext",
+    "revision": "Page1firmware2.3.0November2020;page2header2.0.0April2020conflictswithbody2.3BypassOnPC",
+    "finding": "WahFilterinsertedinFiltergroup,lateralgorithmIDs+1(Chorus11->12);onboardpresetsautomigrated,unversionedofflinefilesnotmigrated. HistoricalSymmLabload/correctalgorithms/resaveprocedure.",
+    "implication": "One-entrylibrarychangeandlegacyofflineimporthazard;38versusCC0–36notfullyreconciled,noinferredcurrentmap",
+    "remaining": "Current2.5.1algorithmmap,offlinecompatibilityandglobalanalogvolumeunknown"
   }
 }
