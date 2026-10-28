@@ -206,6 +206,12 @@ Checked2026-10-18 against [manufacturer product documentation](https://nuxaudio.
 | Delay / tap-ratio meaning | NUX's explicit examples say **1/4 produces repeats four times faster than tapping**,and **1/2 twice as fast**. These are tap-interval ratios;do not silently relabel1/4 as a quarter-note rhythmic denomination. Numeric knob ranges andSmartTAP range remain separately documented above. |
 | Routing / parallel dry branches | Inparallel mode,the input splits andeach effect mixes with its **separate dry signal**. Serial mode chooses which effect comes first. This description doesnot establish independently processed stereo input channels,dry-kill support,unity summed gain orcomplete wet-only output behavior. |
 
+### Atlantic — qualified direct-expression screen
+
+Checked 2026-10-28 against [NUX product](https://nuxaudio.com/product/atlantic/) and the retained exact-model manufacturer-manual transcription. Its I/O description lists audio INPUT, dual outputs, micro-USB and DC; no EXP or dedicated PHONES is listed. However, the [original 14-page mirrored PDF](https://manuals.plus/m/e1a7aadc61c348307ac5624d7eb51128570a04588497e5c464c8791a7af78ee7_optim.pdf) yielded only INSERT text, so complete original-panel verification remains missing. **Analog EXP and headphones remain unverified**, with no positive support established.
+
+TRS insert/Y-cable audio routing is not expression control. Delay/Reverb LEVEL are wet/dry controls, not evidence of a global final-volume pedal. Placement/endpoints/recall,bypass,headphone,tail andrecorded-loop attenuation remain unknown. Two effect switches/SmartTAP/Shimmer do not establish preset down/up. Retained105D×115Wmm footprint fits preference;size/mass revision conflicts remain. Original stereo/insert wording conflict is unchanged. No device test or download.
+
 ## Cerberus NME-3
 
 **New profile,2026-10-15. Effects-only guitar multi-effects and controller.** Analog drive/distortion plus independent modulation,time effects and IR loading qualifies;it is not merely a controller. [Official product,firmware and editor](https://nuxaudio.com/product/cerberus/).

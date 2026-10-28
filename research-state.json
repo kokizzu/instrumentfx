@@ -124617,5 +124617,13 @@
     "source": "https://www.boss.info/global/products/katana-go/",
     "finding": "No directanalogEXP in publishedinventory;wirelessEV1WL/FS1WL separate. Current45W125Dfits,dedicatedphones,noonboardFS. Wirelessoutputscopeunknown;revisionqualifications retained.",
     "next": "Continue unscreened no-treadle inventory;priorityMini/Nano and independentGTPro retained."
+  },
+  "atlantic_expression_screen_20261028": {
+    "sources": [
+      "https://nuxaudio.com/product/atlantic/",
+      "https://manuals.plus/m/e1a7aadc61c348307ac5624d7eb51128570a04588497e5c464c8791a7af78ee7_optim.pdf"
+    ],
+    "finding": "TRS audioinsert notEXP;EXP/phonesunverified because original14pagePDFonlyINSERTtext.115W105Dfits,revision/inputconflicts retained;LEVEL wetdry notglobalvolume.",
+    "next": "Continue unscreened inventory;seek original readable connector proof before No. Mini/Nano priorityquestions andindependentGTPro retained."
   }
 }

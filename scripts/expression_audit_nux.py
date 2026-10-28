@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(nux): keep Stageman comparison concise without losing evidence'))
+    print(git('commit','-m','research(nux): qualify Atlantic direct expression screen'))
