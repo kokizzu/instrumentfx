@@ -630,6 +630,10 @@ Checked **2026-10-17**, partial. Manufacturer-confirmed guitar multi-effects pro
 
 Follow-up 2026-10-17: category counts above are derived from the named model tables, excluding bypass unless explicitly stated. The 17 detailed Chorus/FX choices comprise three chorus, two flanger and twelve other individually described effects; only one is selected at a time. Generic SynthTalk/YaYa wording does not resolve availability. Whammy placement is documented in prose, not inferred from extracted diagram order. Remaining: exact hardware offer, body dimensions/mass, library-count contradictions, power-off loop retention, display specifications, current software support and explicit battery/USB-power statements. Bass/vocal membership unverified.
 
+### RP155 — conditional expression-volume screening (2026-10-28)
+
+[Own manual][R155-M], printed p38, documents automatic volume control only with Wah and Whammy inactive. Either effect takes control when enabled; both can move together. This does not establish an unconditional global volume override across every preset. Pedal-position recall, volume endpoints/location, bypass, headphone, tail and recorded-loop coverage remain unknown. Do not borrow RP70’s resistance requirement. Chassis footprint remains unknown: the existing dimensions are shipping measurements.
+
 [R155-P]: https://digitech.com/dp/rp155/
 [R155-M]: https://digitech.com/wp-content/uploads/2022/09/RP155_OM_EN.pdf
 [R155-S]: https://digitech.com/support/powersupplylist/

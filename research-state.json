@@ -123538,5 +123538,18 @@
     "subeq": "two parametric mids20Hz–10kHz,Q0.5–16;fourgains+-20dB;LC55–800Hz/Flat;HC700Hz–11kHz/Flat;preEQlevel+-20dB",
     "queue": "listed UniV/SubEQ definitions saved;not exhaustive model certification",
     "next": "44category/13vs15basis,USBchannelcount,qualifiedIDR andremainingmodelgaps"
+  },
+  "rp155_expression_screen_20261028": {
+    "source": "https://digitech.com/wp-content/uploads/2022/09/RP155_OM_EN.pdf",
+    "revision": "18-6409V-B",
+    "printed_page": 38,
+    "classification": "conditional, not unconditional global volume",
+    "remaining": [
+      "controller wiring/resistance",
+      "volume range/location and recall",
+      "bypass/headphone/tail/recorded-loop coverage",
+      "chassis dimensions"
+    ],
+    "hardware_test": false
   }
 }
