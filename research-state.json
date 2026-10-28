@@ -123262,6 +123262,13 @@
       "finding": "USB/TRS input versus USB outbound;12 simultaneous messages per preset load or footswitch. PC0–63 preset slot addresses. Reorder paragraph calls unchanged slot assignments CC despite PC view;preserve terminology conflict,not expression persistence proof.",
       "global_scope": "Still unverified;Parameter Lock temporary rotary inhibition already documented;do not repeat as a new finding.",
       "next": "Seek explicit manufacturer assignment storage definition;continue current GP-50 manual and exact M-VAVE identity/pinout instead of rereading unchanged Nano sections."
+    },
+    "gp50_app_requirements_20261028": {
+      "source": "https://apps.apple.com/us/app/valeton-suite/id6739420888",
+      "identity": "Changsha Hotone Audio Co., LTD;Valeton Suite2.1.0",
+      "finding": "GP-50firmware1.1.0 support;converted NAM A2;iOS14+/iPadOS14+;English/Simplified Chinese. Mobile listing Mac11+/M1+ explicitly not verified for macOS,not separate desktop minima.",
+      "manual": "Linked diversitone and alternate valeton hostname same1.1.0filename inaccessible;global EXP scope unknown. Third-party BT MIDI reports not promoted.",
+      "next": "Exact M-VAVE hardware revision/wiring;do not repeat inaccessible GP-50 manual without new source. Keep original general GT-Pro cursor independent."
     }
   },
   "brand_navigation": {

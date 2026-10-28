@@ -868,6 +868,15 @@ Checked 2026-10-22. [Jojomusicstore hardware listing](https://shopee.co.id/Valet
 
 [Official1.1.0 entry](https://www.valeton.net/wpfd_file/gp-50_online-manual_en_firmware-v1-1-0-pdf/) anditsdownloadredirect were reopened;thelinkedres.diversitone.comPDF remainsinaccessible. No1.1.0global-volumecontents certified,none downloaded. Existing1.0.5category/routing scope,olderoffers andqualifications preserved;no stockrefresh claimed.
 
+### GP-50 — manufacturer app compatibility and current manual boundary, 2026-10-28
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / iOS requirements | [Valeton Suite App Store listing](https://apps.apple.com/us/app/valeton-suite/id6739420888),seller **Changsha Hotone Audio Co., LTD**,version **2.1.0**,lists **iOS14+ /iPadOS14+**,English/Simplified Chinese. Release notes explicitly add **GP-50 firmware1.1.0** support and converted NAM A2 loading. These are mobile-app requirements,not Windows/macOS desktop-suite minima. |
+| Editor / Mac distinction | Same mobile listing permits macOS11+/AppleM1+ but explicitly says **Not verified for macOS**. This is mobile-app availability,not proof that the separate desktop suite has those requirements or identical functions. No installation or runtime test. |
+
+The manufacturer-linked1.1.0 manual remains inaccessible at res.diversitone.com;the same filename on res.valeton.net also failed. No current expression-scope claim follows. Third-party reports of Bluetooth MIDI additions remain leads,not verified firmware facts. Earlier1.0.5controller limitations and separate later-version compatibility are retained.
+
 ## GP-100
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
