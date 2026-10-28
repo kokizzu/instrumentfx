@@ -150,6 +150,16 @@ Checked 2026-10-19. [Original cbix protocol research README](https://github.com/
 
 The author reports configuration limitations involving the official app and unsuccessful BLE SysEx; these are historical observations about that setup, not proof of current transport behavior. No commands, SysEx, code or software from this repository were downloaded or run. Exact hardware/firmware revision, tip/ring/sleeve roles, resistance, analog output direction, continuous CC endpoints and simultaneous USB/BLE routing remain unverified. Current official Chocolate product reopening returned only the site shell; earlier manufacturer observations stay preserved without recertification. This lead supplies no new processor-model admission or direct analog volume qualification.
 
+### Chocolate Plus — exact-title software guide and Shopee offer, 2026-10-28
+
+[Manufacturer-hosted Chocolate Plus Software Instructions](https://manualf.oss-cn-hongkong.aliyuncs.com/manual/CUBE-TURNER/Chocolate%20Plus-Software%20instructions.pdf),26-page bilingual document,title plus m-vave.com/CubeSuite links match Chocolate Plus. This is separate from the earlier FootCtrlPlus-linked PD41 guide;no dated revision or offered-hardware match established.
+
+- Guide Mode1 sends PC0–127;Mode2 sends CCnumber0–127 with value0. These are switch commands,not expression sweep endpoints.
+- Chinese Mode4 text explicitly limits SysEx to **200bytes**;English corresponding paragraph omits this limit. Preserve language difference;not a verified current-firmware transport limit.
+- No tip/ring/sleeve,potentiometer resistance or analog expression output specification established. The named guide improves document identity without proving actual controller compatibility. No software/firmware retrieved or run.
+
+[Exact Shopee controller](https://shopee.co.id/M-VAVE-CHOCOLATE-PLUS-WIRELESS-MIDI-CONTROLLER-i.656068322.47254109551):**Rp440.000**,rockpizz_singaraja,Kab.Buleleng,seller656068322/item47254109551,reopened2026-10-28,two-week cached JavaScript-limited body. Title saysChocolatePlus;actual revision,condition,new/used,stock,selected variant,expression-pedal inclusion,cables,bundle,warranty,shipping/tax,voucher and checkout total unverified. Stale18–20Oct delivery and up-toRp10.000 late compensation do not establish current availability or upfront discount. Controller-only lead stays outside active multi-effects counts.
+
 ## CUBE BABY AC
 
 <!-- comparison evidence begins -->
