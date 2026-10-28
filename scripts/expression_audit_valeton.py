@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(valeton): qualify full-size Dapper Dark capability screen'))
+    print(git('commit','-m','research(valeton): qualify Dapper Dark Mini output scope'))

@@ -306,6 +306,12 @@ Official V01_161208 manual is readable in search index,while directPDF returns c
 [DKM-M]: https://www.valeton.net/download/179/dapper-dark-minidiscontinued/18565/dapper-dark-mini_manual_v01_161208-2.pdf
 [DKM-O]: https://shopee.co.id/VALETON-DAPPER-DARK-MINI-PEDAL-GUITAR-i.656068322.18879117394
 
+### Dapper Dark Mini — qualified expression and output screen
+
+Checked 2026-10-28 against [own product][DKM-P] and indexed [V01_161208 original manual][DKM-M]. Direct PDF remains cache-miss; no visual or complete connector audit claimed. Manual signal-path labels distinguish **PHONES with cab simulation** from **OUTPUT without cab simulation**. Guitar use is explicit. This does not establish a shared final-volume assignment or pedal attenuation of either output.
+
+Analog EXP support, global volume, placement/endpoints/recall and bypass/tail/recorded-loop coverage remain **unverified**. Hold BOOST gives muted tuning; Delay hold/tap changes tempo. Those are not preset down/up. Dedicated headphone capability is documented independently of EXP. Product197W×65Dmm fits preference; indexed manual reverses axes, requiring rotation for fit. Preserve the discrepancy. No full-size Dark loop, Chorus or missing-port claim transferred.
+
 ## Dapper Dark VES-3
 
 Full-size guitar multi-effects strip, separate from Dark Mini. Manufacturer marks it **discontinued**. Checked 2026-10-17; partial. VES-3 is seller code pending manual corroboration.

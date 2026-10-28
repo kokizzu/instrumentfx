@@ -124517,5 +124517,11 @@
     "finding": "Width fails;EXP/phones/globalvolume unknown. Indexed own manual audio-loop andmoduleVOL/MIX/TAP do not prove finalvolume.",
     "access": "Linked18524PDFtimeout;indexed manual retained,not full/visual verification.",
     "next": "Dapper DarkMini,AmpMini,Indie exact-model screens;independent GT-Pro and Mini/Nano questions retained."
+  },
+  "dapper_dark_mini_expression_screen_20261028": {
+    "source": "https://www.valeton.net/download/179/dapper-dark-minidiscontinued/18565/dapper-dark-mini_manual_v01_161208-2.pdf",
+    "finding": "Indexed manual PHONES cab-sim vs mainOUTPUT no-cab; EXP/globalvolume unknown; axes conflict and no fullconnectoraudit retained.",
+    "access": "DirectPDFcachemiss;indexed original text only.",
+    "next": "Dapper AmpMini thenIndie exact-model screens;Mini/Nano questions and independent GT-Pro cursor remain."
   }
 }
