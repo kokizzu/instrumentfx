@@ -4289,6 +4289,19 @@ Checked2026-10-18 against exact-model manufacturer firmware history Z2I-1866-01.
 |---|---|
 | Firmware / bass loading and reliability | **Version1.30,July2013** fixes failure touse StompShare-downloaded bass effects,rare effect disappearance atstartup andrare update failure. Bass membership therefore requires suitable loaded effects **and compatible firmware**;not aclaim that every original unit supports downloaded bass effects correctly. [Firmware history][M100BT-H] |
 | Firmware / LineSel and battery startup | **Version1.10,January2013** fixes LineSel switching with Bomber/MonoSynth andintermittent battery startup failure. Original mass-production version1.00 datesNovember2012. These are documented historical defects/fixes,not observed failures ofan inspected unit. [Firmware history][M100BT-H] |
+
+### MS-100BT — direct expression and connector screening, 2026-10-28
+
+[Original manufacturer manual](https://zoomcorp.com/media/documents/MS-100BT_operationManual_English.pdf), ©2012, printed pp6–7, reopened as browser text. Complete Parts Names and control descriptions inspected; no new visual review or device test.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / direct path | Complete connector inventory has stereo INPUT/OUTPUT pairs and DC9V; **no analog EXP input**. No built-in treadle in the complete control inventory. Fails the requested direct analog path. |
+| I/O / USB and headphones | **No USB port or dedicated headphone socket** in the complete inventory. Line outputs are described for an amplifier or another effect; headphone-drive compatibility is not established by their presence. |
+| Editor / Bluetooth scope | Bluetooth is documented for adding effects from StompShare and updating firmware. This does not establish live MIDI/expression control, USB functions or current transfer-service operation. |
+| Controls / preset stepping | One footswitch toggles the selected effect and can cycle a configured patch list; no separate onboard down/up pair. Existing 77.5W×130.3Dmm dimensions fit the preferred footprint. Direct EXP placement/range/bypass coverage is N/A. |
+
+Prior battery-count conflict, software availability and historical prices remain intact. No new hardware-offer check or wireless-control test claimed.
 <!-- comparison evidence ends -->
 
 [M100BT-P]: https://zoomcorp.com/en/us/multi-effects/multistomp-pedals/ms-100bt/

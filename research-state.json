@@ -123029,6 +123029,18 @@
       "digital": "unaudited;notdirectanalog",
       "inventory": "existingmodel,countunchanged",
       "next": "Continue remainingno-treadle models andunresolved Mini/Nano scope usingnewexactevidence"
+    },
+    "ms100bt_screening_20261028": {
+      "source": "https://zoomcorp.com/media/documents/MS-100BT_operationManual_English.pdf",
+      "revision": "2012 original",
+      "pages": "6–7",
+      "direct_exp": "absent from complete connector inventory",
+      "usb_port": "absent from complete connector inventory",
+      "dedicated_headphones": false,
+      "bluetooth": "effects loading and firmware update; live control unverified",
+      "preset_control": "one-switch configured cycle",
+      "inventory": "existing model; counts unchanged",
+      "next": "Continue remaining no-treadle inventory; preserve Mini/Nano global-volume uncertainty"
     }
   },
   "brand_navigation": {
