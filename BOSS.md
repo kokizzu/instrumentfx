@@ -1428,7 +1428,7 @@ Checked 2026-10-19;partial. [Exact manufacturer product/specification](https://w
 | Power | RegionalAC117/230/240V;16Wconsumption. Battery/USBpower unverified. |
 | USB / recording | USBaudio;coax24-bitS/PDIF;44.1kHzinternal sampling. USB24-bit/44.1kHzSpecial or16-bit/44.1kHzStandard;channelcount unverified. |
 | IR / NAM / capture | User import unverified. |
-| Editor / platforms | Mac/PCeditor/librarian;Maceditor10.2.3–10.6.8,explicitly not10.7+. Legacydrivers separate;currenthost compatibility unverified. |
+| Editor / platforms | Mac/PCeditor/librarian;Maceditor10.2.3–10.6.8,explicitly not10.7+. Legacydrivers separate;BOSS marks hardware/driver andapplication incompatible withWindows10/11 (Aug2026);currentmacOS unverified. |
 | Looper / drums / live | Solo mode,picking-dynamics amp switching;Hold delay2.8seconds withoverdub andmode-change erasure;drums/scenes/trails unverified. |
 | IDR verified used | Unknown. |
 | IDR verified new | Unknown. |
@@ -1670,6 +1670,17 @@ Remaining:Slicer/Rotary andother outstanding FX definitions,44-category reconcil
 | Power / Japanese regional variant | Same Japanese specification: **AC100V,15W**. Preserve separately from earlier117/230/240V,16W regional evidence;not a universal voltage or consumption replacement. |
 
 Original manufacturer sections/identity match prior checks;indexed manual body anddirect BOSS text only,no new visual ordevice test. Remaining:remainingFXdefinitions,44-category reconciliation,13/15counting basis,USBchannelcount andqualified IDR.
+
+### GT-Pro — current Windows support status, 2026-10-28
+
+[BOSS official Windows compatibility table](https://www.boss.info/ca/support/support_news/25090811win1/),last updated **2026-08-06**,lists exact **GT-Pro**:
+
+| Target | Windows11 | Windows10 |
+|---|---|---|
+| Hardware & Driver | **No** | **No** |
+| Exclusive Application | **No** | **No** |
+
+The legend defines No as not compatible with no support planned for that targetWindows version. This supersedes the earlier Windows10/11 uncertainty,not historical driver/editor specifications orstandalone processing capability. OldWindows7/8 andmacOS driver downloads do not establish current support. No driver was downloaded,installed or tested;unsupported workarounds are not certified. CurrentmacOS/Linux compatibility andUSBchannelcount remain unresolved.
 
 ## GX-1
 

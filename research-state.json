@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro Slicer20/Rotaryspeeds saved;Japanese officialfeature15 versus spec13 simultaneous conflict and100V15W region preserved. Next44category/13vs15reconciliation,remainingFXdefinitions,USBchannels,qualifiedIDR;392partial.",
+    "task": "GT-Pro Windows10/11 hardwaredriver+application officiallyNo (Aug2026). Continue44category/13vs15reconciliation,remainingFXdefinitions,USBchannels,qualifiedIDR;392partial.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -123029,5 +123029,21 @@
       "watts": 15
     },
     "next": "Resolve13/15basis and44category list;remainingFXdefinitions,USBchannels,exactIDR"
+  },
+  "gtpro_windows_20261028": {
+    "source": "https://www.boss.info/ca/support/support_news/25090811win1/",
+    "source_updated": "2026-08-06",
+    "checked": "2026-10-28",
+    "windows11": {
+      "hardware_driver": "No",
+      "application": "No"
+    },
+    "windows10": {
+      "hardware_driver": "No",
+      "application": "No"
+    },
+    "meaning": "manufacturer notcompatible/no support planned;not a standaloneuse limitation",
+    "device_test": false,
+    "remaining": "macOS/Linux,USBchannelcount,categoryreconciliation andexactIDR"
   }
 }
