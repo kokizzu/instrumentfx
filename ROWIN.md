@@ -51,3 +51,11 @@ The apparent PDF-brochure link on a retailer page resolves only to a brochure-ic
 Checked 2026-10-18: indexed [manufacturer mobile product body](https://m.rowinmusic.com/pd.jsp?desc=true&mid=3&pid=243&sortName=name) independently repeats the exact RE-05 name and separate chorus/delay/reverb controls. Retain multi-effects eligibility; a looper-only classification would omit those processors. This does not establish simultaneous operation or algorithm alternatives. The mobile page’s $0.00 display is not a qualified hardware offer or an IDR price.
 
 Desktop product/support reopening timed out; mobile support was inaccessible. The RE-05 PDF remains a filename-only lead. Secondary seller text was not promoted to verified power, socket, control or runtime specifications. No manual downloaded; physical model/revision and remaining technical gaps stay unresolved.
+
+### RE-05 — expression eligibility and footprint
+
+Checked2026-10-28 against indexed [exact manufacturer product text][RWP]. Existing active guitar multi-effects record,not a new admission. Manufacturer60W×112Dmm fits the preferred200W×140D rectangle. Four rotary controls andone footswitch are listed,but this is not a complete panel/socket census: no-treadle layout,analog EXP andheadphone support remain **unknown**. A physical LEVEL knob is not evidence of external expression orglobal assignment.
+
+Preset memory andonboard preset down/up remain unverified;loop gestures do not establish preset navigation. Volume position,minimum/maximum,recall,bypass,headphone,tail andrecorded-loop attenuation remain unknown. Keep outside the main expression capability table pending exact original manual/panel evidence.
+
+The manufacturer support index still exposes only the RE-05 Manual.pdf filename/907.95KB lead in readable results;direct pages timed out. Generated ASIN prose andVSN-branded material are not exact Rowin primary documentation. No new specifications imported from them. No local download ordevice test.

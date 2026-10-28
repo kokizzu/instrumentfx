@@ -125275,5 +125275,25 @@
     ],
     "next": "Continue remaining no-treadle inventory and priority Mini/Nano/GP50/controller gaps",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "rowin_re05_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "ROWIN.md#re-05--expression-eligibility-and-footprint",
+    "source": "https://www.rowinmusic.com/pd.jsp?fromColId=168&id=243",
+    "dimensions_mm": {
+      "width": 60,
+      "depth": 112
+    },
+    "fit": true,
+    "eligibility": "No-treadle layout unknown;outside capability table",
+    "unknown": [
+      "analog EXP",
+      "headphones",
+      "preset memory/down/up",
+      "global assignment",
+      "position/range/recall/bypass/tails/recorded-loop attenuation"
+    ],
+    "next": "Original exact Rowin manual or complete panel/socket inventory;continue other remaining no-treadle candidates",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

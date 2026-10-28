@@ -404,3 +404,7 @@ Keeley Delay Workstation [manual-menu reconciliation](KEELEY.md#delay-workstatio
 ### Flamma FB200 — bass eligibility boundary
 
 [Exact-model screen](FLAMMA.md#fb200--bass-only-eligibility-and-direct-expression-screen): no analog EXP in complete manufacturer inventory;stereo phones documented. Ordinary-guitar suitability unverified,so outside main guitar table. Preset group/slot switching is documented withan FG200-label error;exact directional mapping unresolved. Existing active bass record,not a new model.
+
+### Rowin RE-05 Looper Pro — eligibility pending
+
+[Exact-model screen](ROWIN.md#re-05--expression-eligibility-and-footprint): manufacturer60W×112Dmm fits. No-treadle layout,analog EXP,headphones andpreset navigation remain unknown;outside main capability table pending original manual/panel evidence. LEVEL knob andloop controls do not establish global expression volume. Existing active guitar model,not a new admission.
