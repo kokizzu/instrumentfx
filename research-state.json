@@ -124122,5 +124122,16 @@
     "onboard_preset_foot_down_up": false,
     "external_presets": "ProgramUp/Down global switch roles documented.",
     "remaining": "Indirect volume scope,range/recall,bypass/tail/RepeatHold coverage;prior MIDI/power conflicts preserved."
+  },
+  "mx400_expression_screen_20261028": {
+    "source": "https://adn.harmanpro.com/product_documents/documents/921_1516997571/MX400_and_MX400XL_Manual_18-0446V-F_original.pdf",
+    "identity": "Own combined18-0446V-F,64pages;printed4–7,34 text inspected;MX400 TRS variant kept distinct.",
+    "expression": "No analogEXP or treadle in complete own inventory;16global switch roles not continuous global volume.",
+    "headphones": "No socket in complete own panel inventory.",
+    "guitar": "Line-level preamp/mixer path;direct pickup not certified.",
+    "footprint": "483W×185D including knobs;162D without;fails preferred limits.",
+    "onboard_preset_foot_down_up": false,
+    "external_presets": "ProgramUp/Down overall/A/B global roles;RingKnobA,TipKnobB.",
+    "remaining": "Indirect volume scope/range/recall/bypass/tail/RepeatHold coverage;other prior gaps unchanged."
   }
 }

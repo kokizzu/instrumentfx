@@ -332,7 +332,7 @@ TRS-connector MX400 rack multi-effects; MX400XL is a distinct connector variant.
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | No built-in pedal/toe; external expression unverified. LEX-DFS two-button TRS footswitch supported; assignments below. | [Manual pp4–6][M400-M] |
+| Expression | No built-in pedal/toe; no analog EXP in complete own panel inventory. LEX-DFS two-button TRS footswitch supported; assignments below. | [Manual pp4–6][M400-M] |
 | K/F/B | **7 / 0 / 6**, text-derived: Input A/B,Page/Select,Edit A/B/C,Program/Load; Exit,Tempo,Effect Bypass,Store,System,Program Bypass. Encoder pushes/power additional; visual corroboration pending. | [Manual pp4–5][M400-M] |
 | Display | Main LCD, six status LEDs and separate program-number display. Published diagonal,color/touch unverified. | [Manual pp4–5][M400-M] |
 | Dimensions / mass | **483W×44H×185D mm including knobs;162mm depth excluding knobs;2.6kg**. 1U rack. | [MX400 specifications p53][M400-S] |
@@ -434,3 +434,9 @@ Manufacturer-hosted 18-0446V-F combined MX400/MX400XL manual read as browser tex
 [M400-S]: https://lexiconpro.com/en/product_documents/mx400_manualpdf
 [M400-P]: https://lexiconpro.com/en-US/products/mx400/downloads_and_docs
 [M400-O]: https://shopee.co.id/Lexicon-MX400-Original-Dual-Stereo-Vocal-FX-i.355992277.29037104080
+
+### MX400 — direct-expression screening (2026-10-28)
+
+Own **18-0446V-F combined MX400/MX400XL manual**,64pages,[manufacturer original](https://adn.harmanpro.com/product_documents/documents/921_1516997571/MX400_and_MX400XL_Manual_18-0446V-F_original.pdf),printed pp4–7,34: complete panels have no analog EXP or headphone socket and no built-in treadle. TRS LEX-DFS input supplies16 global switch roles;Ring is assigned withKnobA,Tip withKnobB. Program up/down may target overall,A orB;other roles are bypass andtempo. **Global switch roles do not establish continuous volume assignment**.
+
+Fails the direct analog expression path;range/position N/A. MIDI/USB volume scope and its bypass/tail/RepeatHold attenuation remain unverified;documented bypass tails are not expression-volume coverage. No onboard preset footswitches. Retain suitable line-level preamp/mixer routing for guitar and theMX400-specific TRS variant;XL XLR ports are not imported. Existing483W×185Dmm including knobs exceeds both preferred limits;162mm without knobs is also too deep. No headphones inferred from line outputs. Text-only documentation review;no download or device operation.
