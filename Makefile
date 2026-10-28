@@ -2145,3 +2145,7 @@ expression-audit-commit-fender:
 .PHONY: expression-audit-commit-kemper
 expression-audit-commit-kemper:
 	python3 scripts/expression_audit_kemper.py commit
+
+.PHONY: expression-audit-commit-flamma
+expression-audit-commit-flamma:
+	python3 scripts/expression_audit_flamma.py commit

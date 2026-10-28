@@ -357,6 +357,12 @@ Checked2026-10-18:the [manufacturer store manual index](https://www.flamma.shop/
 
 Alternate PDF still includes9V500mA precautions alongside5V1A charging;its availability does not resolve the power conflict orsimultaneous processing ceiling.
 
+### FX20 — expression-volume capability lead (2026-10-28)
+
+[Own V01 manual][F20-M], printed pp8,15–16, establishes hand PRESET selection through A–D in the current bank and a volume knob controlling guitar/drums; playback-source level is adjusted separately. This is not evidence of global external expression. Analog EXP, held-position recall, pedal minimum/maximum and bypass/tail/recorded-loop coverage remain **unknown**. Layout PDF pp6–9 again failed screenshot retrieval; absence of readable EXP text does not certify absence of a socket.
+
+Existing40W×82Dmm body dimensions fit the preferred rectangle; dedicated3.5mm stereo output is documented. Onboard footswitch down/up is not established by hand PRESET control. This partial screening does not resolve the preserved9V versus5V charging contradiction or certify every port. No download, app installation or hardware test.
+
 ## FX50
 
 Checked **2026-10-17**; partial. Portable guitar multi-effects; no bass/vocal classification established. Floor switches and amp modeling are not inclusion requirements.

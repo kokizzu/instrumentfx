@@ -123620,5 +123620,18 @@
       "bypass/headphone/tail/recorded-loop attenuation"
     ],
     "hardware_test": false
+  },
+  "fx20_expression_screen_20261028": {
+    "source": "https://www.flammainnovation.com/file/pdf?fileName=FX20_Manual_EN_V01_2023.12.08.pdf&url=group1/M00/00/0C/wKgA0GW6-W6AGJnOABszsyLEHfo390.pdf",
+    "classification": "analog EXP/global assignment unknown, not No",
+    "finding": "guitar/drum hand knob and separate playback level; hand preset selection",
+    "access": "text read; layout screenshots cache miss",
+    "remaining": [
+      "analog EXP connector",
+      "volume endpoints/recall",
+      "bypass/tail/recorded-loop coverage",
+      "footswitch inventory"
+    ],
+    "hardware_test": false
   }
 }
