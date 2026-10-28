@@ -1611,6 +1611,16 @@ Checked 2026-10-18 against the [Chinese manufacturer product page](https://zh.va
 
 The Chinese page says up to five hours; retain the English over-five-hours prose conflict. Its specification section is empty. Linked [CN V01 manual](https://zh.valeton.net/download/207/rushead-max-bass/17884/rushead-max-bass_manual_cn_v01_200602.pdf) timed out both directly and through the page link. The [official German V02 landing](https://www.valeton.net/wpfd_file/rh-101rushead-max-bass_manual_de_v02_211025/) points to an endpoint returning “Download url is not correct”; no manual content obtained. Do not repeatedly retry those endpoints or infer missing ports/power specifications.
 
+### RH-101 — amp voicings and expression screening boundary, 2026-10-28
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / amp voicings | [Previously matched manufacturer manual-body reproduction](https://manuals.plus/valeton/rushead-max-bass-headphone-base-amplifier-manual) describes **CL:vintage SVT-style clean;OD:US-style AGS overdrive;DIST:Finnish-style modern distortion**. The latter two descriptions do not identify exact amplifier models;no brand/model guess added. LEVEL is output volume,not expression assignment. |
+| Expression / evidence boundary | Readable body does not provide a complete connector inventory. Analog EXP,preset storage and on-board down/up remain **unverified**,not absent. Direct pedal position/range,bypass/headphone/tail/recorded-loop attenuation unknown. Bass support does not establish ordinary guitar suitability. |
+| Dimensions / screening | [Own regional RH-101 page](https://www.hotone.jp/brands/valeton/products/rushead-max-bass) corroborates **88.5W×100D×31.5H mm,68g**,fits preferred body rectangle. Its Japanese manual image could not be fetched;no visual panel audit or sibling specification transfer. |
+| IDR / exact offer refresh | [Kurnia Musik Semarang32743136/25340849312](https://shopee.co.id/Valeton-RH-101-Headphone-Amplifier-Rushead-Max-Bass-RH101-i.32743136.25340849312),KotaSemarang,**Rp786.000**,reopened2026-10-28,two-month cache with stale26August delivery. Condition,new/used,stock,variant,bundle,warranty,shipping/tax,voucher andfinal checkout remain unknown. Late-arrival compensation isnot upfront discount;older dated ask preserved. |
+
+
 ## Rushead Max RH-100
 
 Checked 2026-10-18; partial. Guitar multi-effects headphone amplifier, distinct from bass RH-101 and older Rushead variants. Ownership unconfirmed.
