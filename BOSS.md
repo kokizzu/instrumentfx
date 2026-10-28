@@ -2566,6 +2566,12 @@ Direct official2025HTMLmanual now read:manufacturer confirms two external design
 
 [KTGO-BTS]: https://static.roland.com/assets/media/pdf/KATANA_GO_BTS_eng01_W.pdf
 
+### KATANA:GO — direct analog expression screen
+
+Checked 2026-10-28 against [own current manufacturer specifications][KTGO-P]. Ordinary guitar/bass input is documented. Published connectors are the instrument plug, stereo-mini PHONES and USB-C: **no direct analog EXP socket**. EV-1-WL or an expression pedal via FS-1-WL is an indirect wireless/MIDI route, not an analog pedal connection to this processor. Global analog-volume assignment, placement/endpoints/recall are therefore inapplicable to the requested path.
+
+Current body **45W×125Dmm** fits preference; preserve earlier physical-design and seller-GO2 qualifications. Dedicated headphones are documented; **no onboard footswitches** in the control inventory. A/B/C and multifunction buttons are hand controls. Wireless-volume bypass, headphone, Bluetooth/USB backing-audio, tail and recorded-loop coverage remain unverified. A physical master control does not establish equivalent wireless target coverage. No controller, software or hardware operation.
+
 ## ME-5
 
 Guitar multiple effects,1988–1992;checked2026-10-17;partial. [Own Roland specifications][ME5-P],updated2024-06-26. Bass/vocal capability andownership unverified.
