@@ -456,11 +456,12 @@ Next:seek readableexactofficiallist ormanufacturer-authoredcopy withmatchingrevi
 
 ## REV500
 
+<!-- comparison evidence begins -->
 Checked2026-10-17; partial. [Official English operation manual][R5-M],28PDFpages including MIDI additions; revision/date unverified.
 
 | Field | Evidence / gaps |
 |---|---|
-| Expression | No integrated treadle; FC5 footswitch controls mute/program advance. Continuous EXP/toe unknown. |
+| Expression | No integrated treadle; FC5 footswitch controls mute/program advance. No analog EXP in complete own panel inventory;direct toe path N/A. |
 | Controls | Text-derived **5 rotary /0 integrated footswitches /8 buttons**, excluding power and rear level selectors. Visual audit pending. |
 | Display | LCD+LEDs; diagonal/color/touch unknown. |
 | Processing / choices | **10 documented effect topologies**, derived: reverb alone; parallel chorus; seven serial reverb→gate/resonator/dynamic-filter/chorus/flanger/symphonic/tremolo; echo→reverb. Combined modes process two effect functions; not ten simultaneous blocks. Echo uses predelay feedback. Fixed program architectures, not freely ordered blocks. |
@@ -530,6 +531,14 @@ Checked2026-10-18 against [Yamaha’s original manual][R5-M],printedpp14,19–20
 ### REV500 — offer followup qualifications
 
 Checked2026-10-18. The newly recorded Rp3.200.000 used ask is separate from GMS Bandung’s Rp3.050.000 condition-unverified sold-out ask;these donot establish anew/used range. Fresh exact REV500/bekas/baru searches yielded noqualified new-condition offer. GMS’sindexed result stillshowsHabis;itsolder dated observation ispreserved above rather than overwritten. Cached asks arenotcurrent stock certification orcompleted sales.
+
+<!-- comparison evidence ends -->
+
+### REV500 — direct-expression screening (2026-10-28)
+
+Reopened own [Yamaha Operation Manual](https://jp.yamaha.com/files/download/other_assets/9/318469/REV500E.pdf),28PDFpages,printed1–2,19. Complete panel/specification inventory contains no built-in treadle,analog EXP orheadphone socket. FOOT SW supports **FC5 switch effect-mute/program-advance**,not continuous volume. **Fails direct analog expression-volume path**;MIDI remains separate.
+
+Guitar use remains qualified to suitable line-level preamp/mixer routing,not direct passive-pickup certification. Existing480W×227.9Dmm body exceeds preferred limits. No onboard footswitches;hand PROGRAM NUMBER−/+ differs from external map-based advance. Analog range/recall N/A;indirect volume/bypass/tail/loop attenuation unknown. Effect mute is not promised to silence ADD DIRECT dry signal;line outputs are not documented headphones. All previous sources,offers andqualifications retained. Text-only review;no download ordevice operation.
 
 ## SPX900
 

@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(yamaha): screen MAGICSTOMP Acoustic expression independently'))
+    print(git('commit','-m','research(yamaha): screen REV500 direct expression limitations'))

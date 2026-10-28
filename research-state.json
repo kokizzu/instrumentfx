@@ -124205,5 +124205,15 @@
     "volume": "Do not promise EXP heelmute in analog bypass;actual bypass/headphone/recordedloop/USB attenuation unknown.",
     "revision": "Do not extend to1.1.0;current manual contents unresolved.",
     "hardware_test": false
+  },
+  "rev500_expression_screen_20261028": {
+    "source": "https://jp.yamaha.com/files/download/other_assets/9/318469/REV500E.pdf",
+    "identity": "Own OperationManual28PDFpages printed1–2,19 text reopened.",
+    "expression": "No analogEXP/treadle in complete panel inventory;FC5switch mute/advance not continuous volume;MIDI separate.",
+    "headphones": "No socket in complete inventory.",
+    "guitar": "Line-level preamp/mixer;direct passive pickup not certified.",
+    "footprint": "480W×227.9Dmm exceeds bothlimits.",
+    "presets": "No onboard footswitch;hand−/+ differs fromexternal mappedadvance.",
+    "remaining": "Indirect volume/range/recall/bypass/tail/loop attenuation;prior gaps retained."
   }
 }
