@@ -128984,5 +128984,105 @@
     "active": false,
     "next": "FullAM4profileandexactShopee;manufacturerclarifyinternalconflicts;retainglobalvolumequalifications",
     "downloads": false
+  },
+  "am4_block_census_20261028": {
+    "checked": "2026-10-28",
+    "source": "https://www.fractalaudio.com/downloads/manuals/AM4/AM4-Owners-Manual.pdf",
+    "revision": "1.0.2",
+    "pages": [
+      26,
+      28,
+      29,
+      31
+    ],
+    "architecture": "IntegratedAmp+Cab plus3additionalFX;gate/EQ/levelsseparate",
+    "amp": "245+types,manysubtypes;product240+publicationdifference",
+    "other_blocks": [
+      {
+        "category": "Chorus",
+        "types": 18,
+        "max_instances": 1
+      },
+      {
+        "category": "Compressor",
+        "types": "20+",
+        "max_instances": 1
+      },
+      {
+        "category": "Delay",
+        "types": 28,
+        "max_instances": 1
+      },
+      {
+        "category": "Drive",
+        "types": "70+",
+        "max_instances": 2
+      },
+      {
+        "category": "Enhancer",
+        "types": 3,
+        "max_instances": 1
+      },
+      {
+        "category": "Filter",
+        "types": 18,
+        "max_instances": 1
+      },
+      {
+        "category": "Flanger",
+        "types": 32,
+        "max_instances": 1
+      },
+      {
+        "category": "Gate/Expander",
+        "types": 4,
+        "max_instances": 1
+      },
+      {
+        "category": "Graphic EQ",
+        "types": 18,
+        "max_instances": 1
+      },
+      {
+        "category": "Parametric EQ",
+        "types": 1,
+        "max_instances": 1
+      },
+      {
+        "category": "Phaser",
+        "types": 17,
+        "max_instances": 1
+      },
+      {
+        "category": "Reverb",
+        "types": 79,
+        "max_instances": 1
+      },
+      {
+        "category": "Rotary",
+        "types": 1,
+        "max_instances": 1
+      },
+      {
+        "category": "Tremolo",
+        "types": 7,
+        "max_instances": 1
+      },
+      {
+        "category": "Volume",
+        "types": 2,
+        "max_instances": 1
+      },
+      {
+        "category": "Wahwah",
+        "types": 9,
+        "max_instances": 1
+      }
+    ],
+    "cab": "TwoDynaCabsoruserIRs,independentperampchannel;extraCPU;mute/shortenlength",
+    "cab_linking": "Changingampusuallyresetscab;samemodelvariantsexcepted;globallinkofforholdENTERretains;editorSHIFT",
+    "remaining": "ExactIRfile/lengthlimits,currentcensus,profile/qualifiedoffers,globalvolumeoutputcoverage",
+    "active": false,
+    "downloads": false
   }
 }

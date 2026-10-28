@@ -52,6 +52,37 @@ Checked 2026-10-28 in [own v1.0.2 manual](https://www.fractalaudio.com/downloads
 
 [Current downloads](https://www.fractalaudio.com/am4-downloads/) list2.02,2026-09-02,andDynaCabs1.09 separately;not installed-version evidence. Partial lead stays outside active inventory;exactShopee processor,fullprofile andvolume coverage pending. No local download ordevice test.
 
+### AM4 — integrated amp/cab architecture and block census
+
+Checked 2026-10-28 in [own v1.0.2 manual](https://www.fractalaudio.com/downloads/manuals/AM4/AM4-Owners-Manual.pdf), printed pp26,28–29,31. Revision-qualified table, not firmware2.02 certification.
+
+**Integrated Amp+Cab plus three additional effect slots**, with preset gate/EQ/levels separately documented. AMP table advertises245+types, many with subtypes, versus earlier product240+; retain publication difference, not an exact installed census.
+
+| Other category | Published types | Maximum instances |
+|---|---:|---:|
+| Chorus | 18 | 1 |
+| Compressor | 20+ | 1 |
+| Delay | 28 | 1 |
+| Drive | 70+ | 2 |
+| Enhancer | 3 | 1 |
+| Filter | 18 | 1 |
+| Flanger | 32 | 1 |
+| Gate/Expander | 4 | 1 |
+| Graphic EQ | 18 | 1 |
+| Parametric EQ | 1 | 1 |
+| Phaser | 17 | 1 |
+| Reverb | 79 | 1 |
+| Rotary | 1 | 1 |
+| Tremolo | 7 | 1 |
+| Volume | 2 | 1 |
+| Wahwah | 9 | 1 |
+
+Category maxima remain subject to total slots andCPU. No synth/pitch/looper capability inferred from another Fractal model.
+
+Cab section mixes **two DynaCabs or user IRs**, with blend/pan; each amp channel has independent cab settings. Using two consumes more CPU; mute one orshorten IRLength toreduce load. Exact supported length/file limits remain unknown. User cab installation uses AM4-Edit Cab Manager orFractal-Bot. Amp-type changes usually reset cab settings andselect a matched DynaCab;same-amp variants are excepted. Global linking may be disabled;ENTER+SELECT retains cab settings for achange (editorSHIFT equivalent). This is cab persistence, not expression-volume recall.
+
+Partial lead remains outside active counts. ExactShopee hardware,remaining profile fields andglobal-volume output coverage stay open. No local download ordevice test.
+
 ## FM3 MKII Turbo
 
 Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; original FM3 offers are not merged. Manufacturer's 7.x manual expressly covers both revisions; current firmware listing is newer. Unknown means unverified.
