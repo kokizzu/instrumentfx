@@ -2173,3 +2173,7 @@ expression-audit-commit-lexicon:
 .PHONY: expression-audit-commit-alesis
 expression-audit-commit-alesis:
 	python3 scripts/expression_audit_alesis.py commit
+
+.PHONY: expression-audit-commit-ammoon
+expression-audit-commit-ammoon:
+	python3 scripts/expression_audit_ammoon.py commit

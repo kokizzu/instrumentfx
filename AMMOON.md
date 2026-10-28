@@ -56,3 +56,9 @@ Checked 2026-10-18: [Ammoon exact Dark Grey/US product](https://www.ammoon.com/p
 | Editor / manual identity | Manufacturer names **I2717PockRock_Manual_EN_V01.pdf** under manuals. Retrieved page exposes no usable linked PDF;mirror revision equivalence unverified. No editor/driver support inferred from generic heading. |
 
 Earlier exclusion of generated summaries remains valid, but matching dimensions/module claims now also have primary-page provenance and are retained as conflicts. Screen size,visual control count,runtime,simultaneous routing andcondition-qualified prices remain unresolved. No downloads or installations.
+
+### PockRock — direct-expression capability screening
+
+Checked 2026-10-28 against [manufacturer product](https://www.ammoon.com/p-i2717dgy-us.html) and [manufacturer-authored manual panel inventory][PR-M1], model/title and Ammoon attribution matching; mirror revision remains unprinted. **No analog EXP input** in the complete documented inventory. **Dedicated3.5mm headphones**, guitar input and physical VOL output control are documented. No onboard preset down/up footswitches; PATCH/DRUM-VALUE are hand controls. Both manufacturer130×85mm and manual128.5W×84Dmm footprints fit; conflicting height/mass remain unresolved.
+
+Direct analog position/range/recall are inapplicable to the listed inputs. VOL is not a global external-expression assignment; headphone-specific attenuation, bypass, tails and drum/looper coverage remain unverified. No controller pinout or sibling-brand behavior transferred. Older sold-out variation/region qualifications remain; no new offer or hardware test, download or installation.

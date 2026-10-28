@@ -124381,5 +124381,14 @@
     "finding": "Momentary pedal only; no continuous EXP/headphone socket or onboard preset footswitch pair. 483W×195Dmm metric/inch conflict retained.",
     "boundary": "Routing Lock not volume assignment. FXInput decay/FXOutput cut retain dry. Direct EXP range/position/recall N/A; MIDI global-volume/looper coverage unresolved. No download/test.",
     "next": "Systematic frontier review of remaining no-treadle models; preserve GT-Pro general research cursor."
+  },
+  "pockrock_expression_screen_20261028": {
+    "sources": [
+      "https://www.ammoon.com/p-i2717dgy-us.html",
+      "https://www.manualslib.com/manual/2585157/Ammoon-Pockrock.html"
+    ],
+    "finding": "Complete manufacturer-authored panel inventory no EXP; dedicated3.5mm phones and physical VOL. No onboard preset footswitches. Both conflicting footprints fit.",
+    "boundary": "Mirror revision unprinted; physical VOL not external assignment. Direct EXP range/position/recall N/A; headphone/bypass/tail/drum/looper attenuation unknown. No offer refresh/download/device test.",
+    "next": "Review remaining compact no-treadle inventory, including Donner Triple Threat; retain independent GT-Pro cursor."
   }
 }
