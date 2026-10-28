@@ -64,6 +64,12 @@ Access audit: English support PDF returned 403; its manufacturer-domain alternat
 
 Rejected generated summary: https://manuals.plus/asin/B0GKFM2RCY . Unread Chinese original: https://zh-jiyou.oss-cn-shenzhen.aliyuncs.com/upload/files/article/20260402/17750997333403394.pdf .
 
+### Dual Stomp — built-in-treadle scope exclusion
+
+Checked **2026-10-28**, [own manufacturer product](https://soranaudio.com/products/28.html),Dual-Mode Expression Pedal section: **built-in expression pedal switches WAH/VOL**. Excluded from the no-built-in-treadle capability comparison;retained as an active guitar/bass multi-effects model. External EXP andtoe mechanism remain unknown.
+
+Published205L×120Wmm also fails preferred200W×140Dmm in either orientation. Dedicated3.5mm stereo headphones remain documented;this does not establish built-in orremote pedal attenuation ofheadphones,tails orrecorded loops. Do not transfer this treadle orsocket layout toDual Stomp Lite. Prior125/126 and10/11 module conflicts,incorrectLite paragraph,prices andmanual-access qualifications remain preserved. No hardware test ordownload.
+
 ## Dual Stomp Lite
 
 Guitar/bass multi-effects, checked 2026-10-18; partial. Separate hardware from Dual Stomp and Tiny Stomp; ownership unknown.

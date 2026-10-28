@@ -370,3 +370,5 @@ Tiny Stomp [global input/loop-level boundary](SORAN.md#tiny-stomp--global-input-
 ### Soran Go Rig B — footprint screen, eligibility pending
 
 [Existing bass model](SORAN.md#go-rig-b--footprint-and-eligibility-screen):231×80mm fails preferred rectangle either orientation. Guitar suitability,no-treadle eligibility,analog EXP andheadphones remain unknown;outside the main capability table. Converted mirror summaries do not resolve these fields.
+
+Soran Dual Stomp [scope reconciliation](SORAN.md#dual-stomp--built-in-treadle-scope-exclusion): own manufacturer confirms built-in WAH/VOL treadle. Excluded from this no-treadle table,retained in general guitar/bass inventory.205×120mm also fails preferred fit;Lite remains separate.

@@ -124941,5 +124941,13 @@
     "fit": "231×80mm fails eitherorientation",
     "status": "Bass documented;guitar/no-treadle/EXP eligibility unknown;outside capability table",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "dualstomp_expression_scope_20261028": {
+    "checked": "2026-10-28",
+    "document": "SORAN.md#dual-stomp--built-in-treadle-scope-exclusion",
+    "source": "https://soranaudio.com/products/28.html",
+    "status": "Built-in treadle confirmed;excluded from no-treadle audit;general inventory unchanged",
+    "next": "Dual Stomp Lite exact-model no-treadle/EXP screen",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
