@@ -125168,5 +125168,23 @@
     "document": "VALETON.md#gp-50--exact-solo-hardware-asking-price-evidence",
     "next": "Remaining inventory screening; seek readable exact1.1.0 manual without repeating unchanged inaccessible routes",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "keeley_delay_manual_20261028": {
+    "checked": "2026-10-28",
+    "source": "https://media.rockboard.de/erp_article/Product-Pictures/Keeley/KE%20DELAY%20WORKSTATION/WSDelayWorkstation_Manual%20_EN.pdf",
+    "document": "KEELEY.md#delay-workstation--original-format-manual-target-and-output-evidence",
+    "identity": "Two-page original-format supplier-hosted DelayWorkstation manual; named file and dual-bank controls match manufacturer archive; revision/date unknown",
+    "expression": "EXP controls Reverb DECAY;no master-volume remapping documented",
+    "outputs": "Primary mono blend;secondary mirrors primary by default,internal switch selects dry",
+    "power": "9V DC center-negative,170mA+ supply;not measured draw",
+    "unknown": [
+      "footprint",
+      "pinout/resistance/endpoints",
+      "current-panel layout",
+      "preset navigation",
+      "headphone driving"
+    ],
+    "next": "Continue remaining no-treadle inventory; preserve priority Mini/Nano/GP50/controller unknowns",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

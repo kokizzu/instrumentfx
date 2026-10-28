@@ -16,7 +16,7 @@ Checked 2026-10-18; partial. Dual DSP delay/reverb multi-effects; distinct from 
 
 | Field | Evidence / qualification |
 |---|---|
-| Expression | External expression on the reverb side; onboard tap tempo on the delay side. Built-in/toe support, expression wiring and parameter range remain unknown. [Manufacturer][KDW-P] |
+| Expression | External expression targets **Reverb DECAY**,not documented master volume;onboard/external tap controls Delay TIME. Built-in/toe,pinout andrange unknown. [Original manual follow-up](#delay-workstation--original-format-manual-target-and-output-evidence);earlier product-page uncertainty retained as history. [Manufacturer][KDW-P] |
 | K/F/B | Rotary/footswitch/separate button totals **? / ? / ?**; physical panel audit pending. |
 | Display | Technology, diagonal, color and touch remain unknown. |
 | Dimensions / mass | Unknown from verified primary evidence. |
@@ -25,8 +25,8 @@ Checked 2026-10-18; partial. Dual DSP delay/reverb multi-effects; distinct from 
 | Processing / reverb choices | Spring, Chamber, Hall, Plate, Shimmer and Flanged Reverb, plus two delays. Exact bank positions and the two delay names await the original manual. Morph changes reverb-specific behavior. [Manufacturer][KDW-P] |
 | Factory / user memory | Writable preset capacity, factory fill, retention and total memory are unknown. Two effect banks do not establish saved preset banks. |
 | Synth / acoustic | Dedicated synth/acoustic simulation is unknown; pitch-shifted delay does not establish an independent synthesizer. |
-| I/O | External expression is documented; complete audio/control sockets, connector sizes, stereo routing and USB/MIDI/headphone facilities remain unknown. |
-| Power / battery / USB | Voltage, current, polarity, battery and USB power remain unknown from verified primary evidence. |
+| I/O | Original-format manual: mono instrument input,primary blended output,secondary mirror bydefault/internal Dry Out option,external Tap In,EXP IN andDC. Dedicated headphone socket not listed;connector sizes,USB/MIDI andheadphone driving unverified. [Exact manual](https://media.rockboard.de/erp_article/Product-Pictures/Keeley/KE%20DELAY%20WORKSTATION/WSDelayWorkstation_Manual%20_EN.pdf) |
+| Power / battery / USB | Original-format manual follow-up: **9V DC,center-negative,170mA+ supply**;not measured draw. Battery/USB powering unknown. Earlier product-page-only uncertainty superseded for supply requirement. [Exact manual](https://media.rockboard.de/erp_article/Product-Pictures/Keeley/KE%20DELAY%20WORKSTATION/WSDelayWorkstation_Manual%20_EN.pdf) |
 | IR / NAM / capture | User IR, native NAM, converted NAM and proprietary capture imports remain unknown. |
 | Editor / platforms | Editor, driver, updater, mobile and current OS support remain unknown. No software downloaded. |
 | Looper / drums / live | Delay-side tap tempo; looper, drums, scenes, bypass/trails and routing restrictions remain unknown. Manufacturer archive status does not establish seller stock. [Manufacturer][KDW-P] |
@@ -63,3 +63,11 @@ The manufacturer lists 14 named descriptions while advertising two eight-choice 
 Checked 2026-10-28 against [own manufacturer archive][KDW-P]. External expression is explicitly confined to the **Reverb side**, while onboard tap belongs to Delay. This does not establish control of final output volume or either bank's dry path. Exact target, controller wiring, endpoints, position, recall and all-preset assignment remain **unverified**; two effect banks are not proof of saved preset navigation. Headphones and chassis fit remain unknown because no complete primary connector/specification record was recovered.
 
 Added as a qualified existing-model capability row, not a fully verified match. Super Mod/Mod Workstation size, power and expression examples are not transferred. No local download, software or hardware operation. Historical exact Shopee offer retains its condition/stock qualifications.
+
+### Delay Workstation — original-format manual target and output evidence
+
+Checked **2026-10-28**: [two-page original-format manual onRockBoard supplier host](https://media.rockboard.de/erp_article/Product-Pictures/Keeley/KE%20DELAY%20WORKSTATION/WSDelayWorkstation_Manual%20_EN.pdf),filename explicitly DelayWorkstation,matching the manufacturer product’s dual delay/reverb bank/control identity. This is original panel/table text,not a generated FAQ;revision/date unspecified andno fresh visual panel verification. Earlier inability tolocate a usable manual remains historical.
+
+Printedpp1–2 explicitly assign **EXP IN to Reverb-bank DECAY**,separate fromwet/dry BLEND. Decay has algorithm-dependent functions;no volume remapping is documented. Thus the documented expression path is not a master-volume solution,while undocumented capabilities remain unknown. The primary Mono Output carries thetwo BLEND-controlled signals. The secondary Stereo Output **mirrors Mono bydefault**,withan internal switch selecting **Dry Out** instead. This is not proof ofindependent stereo effect voices. External Tap In controls Delay-bank TIME. Power requirement is **9V DC,center-negative,170mA+ supply**,not measured draw.
+
+The connector inventory names instrument input,two outputs,external tap,expression andDC;no dedicated headphone socket is listed. Direct headphone driving,controller pinout/resistance/endpoints,footprint,current-panel treadle absence,preset memory andnavigation remain unverified. These exact-model findings do not transfer fromSuperMod orDemonFX. No local download orhardware test.
