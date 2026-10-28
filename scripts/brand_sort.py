@@ -58,7 +58,7 @@ def test_navigation():
 def verify():
     for name,want in outputs().items():assert (ROOT/name).read_text()==want,'Not sorted: '+name
     subprocess.run(['git','diff','--check'],cwd=ROOT,check=True)
-    print('PASS: all 47 root brand files sorted, indexed, and idempotent; README brand/model navigation sorted')
+    print(f'PASS: all {len(outputs()) - 1} root brand files sorted, indexed, and idempotent; README brand/model navigation sorted')
 
 identity()
 mode=sys.argv[1]

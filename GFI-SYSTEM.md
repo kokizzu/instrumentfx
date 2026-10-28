@@ -10,29 +10,31 @@ Source-backed guitar multi-effects; all records retain verification gaps.
 
 ## Synesthesia
 
-Checked2026-10-28; **partial active guitar multi-effects record**, not fully verified. Dual-engine filtering, octave, EQ, echo and modulation plus explicit guitar-pickup guidance establish eligibility; no specialized pickup required by the inspected instructions. Bass/vocal suitability and ownership unverified. Earlier discovery wording below is retained as dated research history; this summary governs current admission.
+Checked 2026-10-28; **partial active guitar multi-effects record**, not fully verified. Dual-engine filtering, octave, EQ, echo and modulation plus explicit guitar-pickup guidance establish eligibility; no specialized pickup required by the inspected instructions. Bass/vocal suitability and ownership unverified. Earlier discovery wording below is retained as dated research history; this summary governs current admission.
 
 <!-- comparison evidence begins -->
 | Field | Evidence / qualification |
 |---|---|
-| Expression | No built-in treadle in text inventory; external EXP10–25kΩ,wiper-to-tip. External toe switch unverified. Primary algorithm targets/endpoints saved per preset; global volume unknown. [Manual](https://manuals.plus/m/c645c453677b834bfe7cb54a03a4d1057c3bc8b25e640efe6e906a59ba5c232e),2.3+pp2–5,11. |
-| Knobs / footswitches / buttons | Eight push-rotaries / two footswitches,derived from manual text; separate buttons unknown,visual corroboration pending. |
-| Display | LCD;diagonal,resolution,color/monochrome andtouch unknown. |
-| Processing / category choices | Two simultaneous algorithms. V2.x.x reference:38 choices=Amplitude5,Filters5,Swirls&Shimmers7,Phase4,Miscellaneous10,Sequencer7;full names below. Installed2.5.1library unverified. Cascade/Mixture/Split routing. [Product](https://gfisystem.com/pedals/synesthesia);[reference](https://www.scribd.com/document/1075834567/Synesthesia-Algorithms-v2x-x). |
-| Factory / user memory | 32 onboard locations;factory-filled/protected/writable split unknown. Computer offline files do not enlarge hardware memory. |
-| Synth / acoustic | Octave/arpeggiator/filter processing documented;dedicated synthesis/acoustic simulation andpolyphony unverified. |
-| Dimensions / mass | 120×120×55mm;fits200W×140D preference eitherhorizontalorientation. Manufacturer800g versus1.6lb mismatch preserved. |
-| I/O | Mono-in/stereo-out ormono-in/mono-out+send/return;externalprocessingcannot sitbetweenX/Y. Audio¼-inchTS;USB-B;sharedACE acceptsEXP/CV/aux switches;MIDIIn/Thru. MIDI Expression defaultCC42/0–127 emulatespedal;PatchDown/Up defaultCC43 values0/127,added2.4.6. [MIDI reference](https://www.gfisystem.com/_files/ugd/9deb14_139bd5982c704feda5895c78677ab0f8.pdf). Completephysicalportcount/sizes anddedicatedheadphones unknown. |
-| Power / battery / USB | 9V DC centre-negative;240mA requirement,approx240mA draw;supplyexcluded. Manual2.1mmDCconnector;barrelouterdiameter,battery/USBpower unknown. |
-| IR / NAM / capture | User IR,nativeNAM,convertedNAM andproprietarycapture unverified. |
-| Editor / software | SymmLabWindows/Mac:real-timeediting,presetbackup/restore/offline,library/firmwareupdates,reset. ModernOS/architecture,mobile/Linux,USBaudio/drivers unknown. Currentdownloadindex2.5.1Sep18,2026fixesintermittentlockups;no installationtest. |
-| Looper / drums / live | Preset/Stompboxmodes,ramping,tap/MIDIclock documented. Looper,drums,scenes,trails,poweroffretention unknown. OnboardcombinedpressBankUp;independentpresetdown/up unknown. Master−3…+3dBperpreset;EXPbypass/phones/tails/loopcoverage unknown. |
+| Expression | No built-in treadle in text inventory; external EXP 10–25 kΩ, wiper-to-tip. External toe switch unverified. Primary algorithm targets/endpoints saved per preset; global volume unknown. [Manual](https://manuals.plus/m/c645c453677b834bfe7cb54a03a4d1057c3bc8b25e640efe6e906a59ba5c232e), 2.3+ pp2–5,11. |
+| Knobs / footswitches / buttons | Eight push-rotaries / two footswitches, derived from manual text; separate buttons unknown, visual corroboration pending. |
+| Display | LCD; diagonal, resolution, color/monochrome and touch unknown. |
+| Processing / category choices | Two simultaneous algorithms. V2.x.x reference: 38 choices = Amplitude 5, Filters 5, Swirls & Shimmers 7, Phase 4, Miscellaneous 10, Sequencer 7; full names below. Installed 2.5.1 library unverified. Cascade/Mixture/Split routing. [Product](https://gfisystem.com/pedals/synesthesia);[reference](https://www.scribd.com/document/1075834567/Synesthesia-Algorithms-v2x-x). |
+| Factory / user memory | 32 onboard locations; factory-filled/protected/writable split unknown. Computer offline files do not enlarge hardware memory. |
+| Synth / acoustic | Octave/arpeggiator/filter processing documented; dedicated synthesis/acoustic simulation and polyphony unverified. |
+| Dimensions / mass | 120×120×55 mm; fits 200 W×140 D preference in either horizontal orientation. Manufacturer 800 g versus 1.6 lb mismatch preserved. |
+| I/O | Mono-in/stereo-out or mono-in/mono-out + send/return; external processing cannot sit between X/Y. Audio ¼-inch TS; USB-B; shared ACE accepts EXP/CV/aux switches; MIDI In/Thru. MIDI Expression default CC42/0–127 emulates the pedal; Patch Down/Up default CC43 uses values 0/127, added in2.4.6. [MIDI reference](https://www.gfisystem.com/_files/ugd/9deb14_139bd5982c704feda5895c78677ab0f8.pdf). Complete physical port count/sizes and dedicated headphones unknown. |
+| Power / battery / USB | 9 V DC centre-negative; 240 mA requirement, approximately240 mA draw; supply excluded. Manual 2.1 mm DC connector; barrel outer diameter, battery/USB power unknown. |
+| IR / NAM / capture | User IR, native NAM, converted NAM and proprietary capture unverified. |
+| Editor / software | SymmLab Windows/Mac: real-time editing, preset backup/restore/offline, library/firmware updates, reset. Modern OS/architecture, mobile/Linux, USB audio/drivers unknown. Current download index: 2.5.1, Sep18,2026, fixes intermittent lockups; no installation test. |
+| Looper / drums / live | Preset/Stompbox modes, ramping, tap/MIDI clock documented. Looper, drums, scenes, trails, power-off retention unknown. Onboard combined press: Bank Up; independent preset down/up unknown. Master −3…+3 dB per preset; EXP bypass/phones/tails/loop coverage unknown. |
 | IDR verified used | Unknown. |
 | IDR verified new | Unknown. |
-| IDR condition-unverified hardware ask | Rp5,599,000;[SevenStereoShopee16879370/15064144120](https://shopee.co.id/GFI-system-Synesthesia-Dual-Channel-Modulation-i.16879370.15064144120),Bandung,direct3month/search5monthcache. StaleJuly15–16delivery;condition,variant,bundle,warranty,stock,shipping/taxunknown. Late-deliveryvoucher≤Rp10k notupfrontdiscount. |
+| IDR condition-unverified hardware ask | Rp5,599,000; [Seven Stereo Shopee16879370/15064144120](https://shopee.co.id/GFI-system-Synesthesia-Dual-Channel-Modulation-i.16879370.15064144120), Bandung, direct three-month/search five-month cache. Stale July15–16 delivery; condition, variant, bundle, warranty, stock, shipping/tax unknown. Late-delivery voucher ≤Rp10k is not an upfront discount. |
 <!-- comparison evidence ends -->
 
 ### Synesthesia — partial no-treadle discovery lead
+
+Historical discovery-stage status; superseded by the active partial summary above.
 
 Checked 2026-10-28. Fresh exact Shopee hardware lead; outside active inventory and main comparison tables pending complete profile and eligibility review. Ownership and bass/vocal suitability unverified.
 
