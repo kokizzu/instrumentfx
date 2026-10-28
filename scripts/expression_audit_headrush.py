@@ -1,4 +1,4 @@
-"""Validate and commit the reviewed BOSS catalogue integration locally."""
+"""Validate and commit the reviewed HeadRush catalogue findings locally."""
 import sys
 sys.dont_write_bytecode = True
 from research_tools import git, verify
@@ -14,6 +14,7 @@ if __name__ == '__main__':
     allowed = {'HEADRUSH.md','EXPRESSION-VOLUME.md','README.md','MULTI-EFFECTS.md','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md','research-state.json','scripts/comparison_views.py','scripts/expression_audit_headrush.py','Makefile'}
     changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
     assert changed <= allowed, changed - allowed
+    assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(headrush): audit Core expression scope and revision limits'))
+    print(git('commit','-m','research(headrush): distinguish Prime cabinet and convolution IR limits'))

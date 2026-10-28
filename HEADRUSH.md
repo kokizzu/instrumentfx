@@ -456,6 +456,18 @@ Remaining: reconciled category inventory, factory/user rig capacity, IR file res
 
 Canonical root-level brand document for **MX5, Core and Flex Prime**. Unknown values are `?`, not No. MX5 and the additional Flex Prime price evidence were checked **2026-10-15**. Core and Flex Prime technical observations below retain their original **2026-10-14** dates and unresolved conflicts; consolidation is not a fresh certification of every specification. Prime remains a separate research lead, not a completed model.
 
+### Prime — cabinet versus convolution IR limits, 2026-10-28
+
+Read complete printed pp26–27,58 from the previously saved [original User Guide5.2.0](https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf); no new download, visual inspection or device operation.
+
+| Field | Exact scope / qualification |
+|---|---|
+| IR / cabinet library | Guide lists **300+ onboard cabinet IR files**. Cabinet IR blocks process2048 samples or truncate to1024 for lower DSP use. This is included content, not user-slot capacity or a guarantee of unlimited simultaneous IRs. |
+| IR / convolution reverb | Separate **C-Verb** uses acoustic-space IRs: **50+ included**, typical.WAV/.AIF/.OPUS files; **one C-Verb instance per rig**, maximum loaded IR length **10seconds**. Only the first two channels of multichannel IRs are used; CPU demand depends on IR length. These limits are not cabinet-block limits or a complete accepted-file specification. |
+| Memory / transfer restrictions | USB transfer ignores unsupported files and does not transfer folders or.zip/archive folders; supported files transfer directly. This does not determine the rig/user-storage ceiling. |
+
+[Used item1149776042/54402465704](https://shopee.co.id/Headrush-Prime-Guitar-Multi-Effect-Amp-Modelling-Processor-Second-Bekas-i.1149776042.54402465704) reopened2026-10-28 as month-old cached text:explicitSecond/Bekas,**Rp15.400.000,Habis**,sellerBANGBONGMUSICBEKASI,Kab.Bekasi. Relative delivery and late-delivery voucher do not establish current stock or reduce the hardware ask. Accessories,grade,warranty and checkout remain unverified.
+
 ## VX5
 
 <!-- comparison evidence begins -->
