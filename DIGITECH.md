@@ -418,6 +418,17 @@ Checked2026-10-18 against [own manual pp10–11,17–21][RP70-M]. Text only; no 
 |---|---|
 | Category choices / complete section census | Pickup/Wah **5 alternatives**; compressor **1 process with20 strength settings**; Amp/Distortion **19 defined entries** (12amps,6drives,Acoustic); EQ **1 three-band process**; gate **2 types**; Chorus/FX **15 listed types versus12 in its introduction**; delay **4 types**; reverb **3 types**. Off and numeric parameter variations are excluded. This is a section census, not an explicitly manufacturer-certified unique-algorithm total or concurrency count. [Own manual pp21–31][RP70-M] |
 | Processing / Direct mapping gap | P23 prose mentions Direct with one setting, but pp23–24 enumerate12amps,6distortions,Acoustic andOff without a separate Direct selector code. Do not invent a20th modeled sound, a selector code, or equivalence between Direct andOff. The document mismatch remains unresolved. [Own manual pp23–24][RP70-M] |
+### RP70 — per-preset expression-volume screening, 2026-10-28
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / scope | [Own manual][RP70-M],printedpp32–33:target andheel/toe limits saved **per preset**,includingNoAssignment. **Pr=output pre-delay;PS=output post-delay**. No global assignment override established;not a promise that existing presets allneedediting. |
+| Expression / controller requirement | Printedp35 explicitly **passive controller≥250kΩ**,not a250kΩmaximum. Output ofpassivevolume pedal connects toControlIn;tip/ring/sleeve wiring andtoe switch remain unverified. Do not assume10–25kΩpedal compatibility. |
+| Controls / navigation and coverage | Printedp2:Performance mode has **presetDown/Up footswitches**. Tuner startsmuted andpedalmovement restoresvolume;that exception doesnot certifyvolume duringbypass,headphones,tails,drums orrecordedloops. Held-positionrecall unknown. |
+| Dimensions / preferred fit | Own5W×6.5L×2H inches converts to **127W×165.1L×50.8H mm**;retainLlabel. IfL denotesfront/back depth,it exceeds140mm by25.1mm. Dedicated3.5mmphones;existingstereo/output-plug qualifications retained. |
+
+Text review only;no hardwareoperation ordownloads. Oldersources,controller details andhistoricaloffers preserved.
+
 <!-- comparison evidence ends -->
 
 Working state, authenticity, bundle, adapter, warranty, shipping/tax and voucher eligibility unresolved. No download or visual inspection claimed. Manual reached through [official directory][RP70-D], own-model declaration identifies RP70.

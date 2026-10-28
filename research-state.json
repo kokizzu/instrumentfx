@@ -123351,6 +123351,13 @@
       "finding": "Player-specific manufacturer reply confirms VolumePedalLock makesvolume settingsglobal. Supersedes prior missinglock evidence,not runtime verification. Combine dedicatedglobalVolumePedal target withlocked settings;defaultwahlink conditional.",
       "limits": "ExactOS/RigManagerUI,heldrecall/bypass/headphones/recordedloop untested;size145W166D fails preferreddepth;genericmodulelockingdifferent.",
       "next": "Continue remaining unscreened no-treadle models;Player global lock hasmanufacturer support,do not repeatedly mark itunknown frommanualomission. IndependentGT-Procursor retained."
+    },
+    "rp70_screening_20261028": {
+      "source": "https://eadn-wc05-7545739.nxedge.io/wp-content/uploads/2025/07/Digitech_RP70_OwnersMan.pdf",
+      "finding": "Ownmanual32–33 target/endpointsstoredperpreset,PrpreDelay/PSpostDelay/NoAssignment. No globaloverride established. Passivecontroller≥250kΩ,notmaximum;pinoutunknown.",
+      "dimensions": "5W6.5L2H inches=127W165.1L50.8H mm;depthfailsifLfrontback",
+      "controls": "PresetDownUpPerformance;pedalmovementrestorestunervolume,notbypass/phones/tail/drum/loopcoverageproof;recallunknown",
+      "next": "Screen unsurveyed RP155 own-model directexpression scope;preserve independentGT-Procursor. No10kpedal compatibility inference."
     }
   },
   "brand_navigation": {
