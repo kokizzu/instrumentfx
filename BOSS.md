@@ -458,6 +458,24 @@ Checked 2026-10-28; outside active inventory and instrument counts. Not GT-Pro o
 
 [Roland’s exact-model compatibility article](https://support.roland.com/hc/en-us/articles/201959089-GS-10-Compatible-Expression-Pedals), updated2023-04-11, names **EV-5 and FV-300L**. No M-VAVE compatibility or pinout inferred. No local download or device test.
 
+### GS-10 — memory, connections and source conflicts
+
+Checked 2026-10-28. [Exact official product/specifications](https://www.boss.info/global/products/gs-10/) and the retained original manual body, Specifications/patch-selection sections. Partial lead remains outside active counts.
+
+| Field | Finding / qualification |
+|---|---|
+| Instrument / library | Manufacturer explicitly supports guitar/bass and guitar synth effects. Website advertises **48 amp types**; complete categories, simultaneous ceiling and custom-type counting remain unverified. |
+| Memory | **200 =100 User +100 Preset**. Manual identifies U001–U100 and protected P101–P200; edited presets can be saved to User. Initial User fill not fully audited. |
+| Audio I/O | Guitar/bass input; balanced XLR and¼-inch TRS mic inputs; stereo RCA AUX and RCA output; guitar-amp out; PHONES; coax S/PDIF. Mic sockets are alternatives, **no phantom power**, per manual. |
+| Control / data | Shared EXP PEDAL/CTL1,2; MIDI IN/OUT; USB. Socket presence does not establish arbitrary controller wiring or USB-powered operation. |
+| Power / mass conflict | **14V AC, BRC-series adapter**; manual current draw **800mA**. AC has no DC center polarity. Website **2.3kg**, manual **2.25kg**; preserve difference, not independently weighed. Battery/USB operation unknown. |
+| Output level conflict | Website nominal main/amp outputs **0dBu**; manual **−10dBu**. No precedence/revision explanation established. Impedance **1kΩ main/1.5kΩ amp** agrees. |
+| Display / speaker | **16×2 backlit LCD**; diagonal/color/touch unknown. Stereo speakers rated **1.5W+1.5W**, not headphone output power. |
+| USB / editor | Manual specifies simultaneous stereo **24-bit/44.1kHz** audio. Website lists historical Windows/Mac editor requirements and separate legacy drivers; modern host/editor compatibility unverified. Bundled Cakewalk software is not onboard looping. |
+| Onboard preset access | Manual: PATCH/VALUE or four DIRECT PATCH buttons, **Play screen only**. Edits lost on patch change unless written. This does not establish onboard footswitch down/up. |
+
+No local downloads or hardware tests. Exact Shopee hardware, separate used/new IDR, control census, full processing/IR/NAM/capture profile, current software, acoustic/synth restrictions, global FV range/recall and output coverage remain open.
+
 ## GT-1
 
 Consolidated and refreshed **2026-10-16**; partial technical verification. Original dates, prices and limitations remain below. Historical next-model notes are provenance; use research-state.json for the current queue.

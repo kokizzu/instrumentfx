@@ -128095,5 +128095,51 @@
     },
     "next": "Full model-specific profile; exact Shopee hardware; volume coverage/range/recall; do not transfer GT-Pro specs.",
     "downloads": false
+  },
+  "gs10_hardware_memory_20261028": {
+    "checked": "2026-10-28",
+    "official": "https://www.boss.info/global/products/gs-10/",
+    "manual": "https://manualzz.com/doc/2026468/boss-gs-10-guitar-effects-system-owner%E2%80%99s-manual",
+    "active": false,
+    "power": {
+      "supply": "14 V AC BRC-series",
+      "current_draw_ma": 800,
+      "dc_polarity": "not applicable to AC",
+      "battery_usb": "unverified"
+    },
+    "mass_conflict_kg": {
+      "website": 2.3,
+      "manual": 2.25
+    },
+    "nominal_output_conflict_dbu": {
+      "website": 0,
+      "manual": -10
+    },
+    "memory": {
+      "user": 100,
+      "preset": 100,
+      "total": 200,
+      "protected": "P101–P200",
+      "initial_user_fill": "unverified"
+    },
+    "ports": [
+      "Guitar/Bass",
+      "XLR mic",
+      "TRS mic alternative, no phantom",
+      "RCA AUX L/R",
+      "RCA OUTPUT L/R",
+      "Guitar Amp Out",
+      "PHONES",
+      "coax S/PDIF",
+      "EXP/CTL1,2",
+      "MIDI IN/OUT",
+      "USB",
+      "AC input"
+    ],
+    "usb": "stereo24-bit44.1kHz simultaneous recording/playback, current hosts unknown",
+    "display": "16x2 backlit LCD, diagonal/color/touch unknown",
+    "speaker": "1.5W+1.5W, not phones power",
+    "patch_access": "PATCH/VALUE or four direct buttons in Play screen; not footswitch down/up",
+    "remaining": "Full controls/categories/processing/imports/currentsoftware/qualifiedIDR andvolume coverage"
   }
 }
