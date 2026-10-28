@@ -755,9 +755,9 @@ Checked 2026-10-17; partial. Guitar amp/distortion and vocal effects documented 
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | No built-in pedal/toe; front footswitch jack supports tempo control. Continuous external expression support unverified. | [Features][S2-F] |
+| Expression | No built-in pedal/toe; front footswitch jack supports tempo control. No analog EXP in complete own panel inventory. | [Features][S2-F] |
 | K/F/B | **2 rotary /0 footswitches /18 buttons**: concentric input L/R; Input Mode,Meter,Bank,Store,two effect arrows,Recall,Undo,Back,two value arrows,Next,Compare,Parameter,Fine Param,Utility,Bypass,Tap. Power and rear level switches additional; text-derived,visual corroboration pending. | [Manual pp7–9][S2-M] |
-| Display | 16-character×2-line LCD and L/R12-segment LED meters. Japanese specs say six-color backlight; manual lists five selectable USER colors: white,cyan,magenta,yellow,green. Conflict retained. Backlight color does not establish a color graphical screen. Diagonal/touch unverified. | [Japanese specifications][S2-J];[Manual p18][S2-M] |
+| Display | 16-character×2-line LCD and L/R12-segment LED meters. Japanese specs say six-color backlight; manual lists five selectable USER colors: white,cyan,magenta,yellow,green. Manual p99 explains the sixth color as red for errors;five USER colors versus six total are different scopes. Earlier conflict observation retained below. Backlight color does not establish a color graphical screen. Diagonal/touch unverified. | [Japanese specifications][S2-J];[Manual p18][S2-M] |
 | Dimensions / mass | **480W×45H×372.5D mm;4kg;1U**. | [Specifications][S2-S] |
 | Processing / categories | 32-bit DSP; 17 REV-X presets within 97 PRESET programs, covering Hall,Room,Plate. Other programs include delay,pitch,modulation,dynamics and composites. Preset totals are not simultaneous blocks; catalogue group counts below,distinct algorithm total still pending. | [Features][S2-F] |
 | Categories / program choices | Derived from the numbered PRESET catalogue: Hall15 (1–15),Plate11 (16–26),Room13 (27–39),Gate3 (40–42),Drum-machine reverb3 (43–45),Delay6 (46–51),Pitch9 (52–60),Modulation17 (61–77),Filter4 (78–81),Distortion2 (82–83),Multiple13 (84–96),Sampling1 (97): total97. These are catalogue groupings, not distinct algorithms or independently stackable choices; composite programs also occur outside Multiple. CLASSIC25 includes4reverbs,2early reflections,2delay/echo,8modulation/pan,3gate/reverb-gate,4pitch and2Freeze programs (research grouping). | [Manual pp25–26][S2-M] |
@@ -821,3 +821,11 @@ Seller “ORI JAPAN” does not verify authenticity,manufacture origin or voltag
 [S2-DL]: https://usa.yamaha.com/products/proaudio/processors/spx2000/downloads.html
 [S2-DW]: https://usa.yamaha.com/support/updates/usb-midi-driver-win.html
 [S2-DM]: https://usa.yamaha.com/support/updates/usb_midi_driver_for_mac.html
+
+### SPX2000 — expression screening and backlight count reconciliation (2026-10-28)
+
+Own108-page [Yamaha Owner’s Manual](https://data.yamaha.com/files/download/other_assets/1/323961/spx2000_en_om_f0.pdf),printed8–9,99,exact SPX2000 title/panel/specifications.
+
+Complete inventory contains no analog EXP,headphone socket orbuilt-in treadle. FOOT SW accepts FC5 forTAP;**fails direct analog expression-volume path**,with MIDI/USB control separate. Analog range/recall N/A;indirect volume/bypass/tail/Freeze attenuation unknown. No onboard footswitches;memory arrows andRECALL are hand controls. Suitable line-level guitar preamp/mixer routing remains required;480W×372.5Dmm too large.
+
+Specificationp99 lists **green,yellow,magenta,cyan,white,andred(error messages only)**. This reconciles the earlier six-color specification versus five selectable USER colors:five normal choices plus error red,not conflicting screen technologies. Earlier observations remain preserved;no graphical-color ordiagonal claim follows. Text-only review;no downloads ordevice operation.

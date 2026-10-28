@@ -124246,5 +124246,15 @@
     "guitar": "Line-level preamp/mixer path.",
     "presets": "No onboard footswitch;handselection+RECALL;externalmemorycycle separate.",
     "remaining": "Heldangle/bypass/tail/Freezeattenuation,pinout andprior gaps."
+  },
+  "spx2000_expression_screen_20261028": {
+    "source": "https://data.yamaha.com/files/download/other_assets/1/323961/spx2000_en_om_f0.pdf",
+    "identity": "Own108-page OwnersManual printed8–9,99 textreopened.",
+    "expression": "No analogEXP/treadle/headphone socket in complete inventory;FC5TAPswitch,MIDI/USB separate.",
+    "display": "Specificationp99 five normal colors GreenYellowMagentaCyanWhite plusRed erroronly reconciles sixcolor vsfiveUSER statements;not graphicalcolor proof.",
+    "footprint": "480W×372.5Dmm too large",
+    "guitar": "Suitable linelevelpreamp/mixer",
+    "presets": "No onboard footswitch;handarrows+RECALL",
+    "remaining": "Indirectvolume/range/recall/bypass/tail/Freezeattenuation andprior gaps."
   }
 }
