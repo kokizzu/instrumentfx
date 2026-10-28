@@ -123839,5 +123839,17 @@
       "global assignment and attenuation coverage"
     ],
     "hardware_test": false
+  },
+  "minix_expression_screen_20261028": {
+    "source": "https://fccid.io/2ARCP-MINI-X",
+    "classification": "No analog EXP in preserved complete manual inventory",
+    "new_source_scope": "Filing identity only; manual body inaccessible",
+    "remaining": [
+      "primary dimensions",
+      "connector measurement",
+      "MASTER coverage",
+      "state retention"
+    ],
+    "hardware_test": false
   }
 }

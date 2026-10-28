@@ -538,6 +538,13 @@ Source: Sinco originalFCC2ARCP-MINI-X [filing7998955](https://fccid.io/2ARCP-MIN
 
 <!-- comparison evidence ends -->
 
+
+### MINI-X — direct expression screening,2026-10-28
+
+The preserved complete numbered Sinco manual inventory has no analog EXP connector or onboard footswitches. It fails the direct pedal requirement on that documented hardware;hand MASTER is not a global pedal assignment. Nine amp-selector positions are not saved multi-effect presets,so no sequential preset down/up is established. Dedicated phones exist,but connector measurement remains unverified. DirectEXP position/range/recall are inapplicable;MASTER coverage of backing audio,bypass,phones,tails and recorded loops remains unknown. Primary chassis dimensions remain unknown;compact appearance is not a verified200W×140Dmm pass.
+
+[Sinco filing index](https://fccid.io/2ARCP-MINI-X) reopens and identifies MINI-X and its January21,2025 user-manual exhibit;this is provenance,not new operating verification. The matching ManualsLib endpoint failed and the original manual-body endpoint returned a cache miss. Existing indexed MASTER wording corroborates a hand total-volume control only. No new technical-table/visual inspection,retention claim or sibling specification added.
+
 ### Preserved original finding
 
 Complete 2026-10-15 source follows, retaining all manual-access limits, price conditions and ownership de-duplication. The current manufacturer catalogue check above does not refresh the historical seller offers.
