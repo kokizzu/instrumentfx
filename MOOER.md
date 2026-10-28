@@ -2327,7 +2327,7 @@ Checked **2026-10-17**. Partial guitar multi-effects record, distinct from Black
 |---|---|
 | Processing / choices | Six sections: analog Boost/Overdrive/Distortion, digital Modulation/Delay/Reverb. Exact concurrent ceiling unverified. Japanese page: Mod4 (Tremolo/Phaser/Chorus/Flanger),Delay3 (Digital/Echo/Analog). Reverb alternatives unverified; PDF describes stereo reverb with adjustable shimmer and modulation,not separate named algorithms. |
 | Presets | Japanese page describes **five module-on/off combinations**; Manual p4 explicitly says **effect parameters cannot be stored; only module on/off states**. Factory/user split and other memory unknown. |
-| Expression | Built-in/external/toe support unverified. |
+| Expression | No analog EXP input in the complete own-manual connector inventory; fails direct analog expression path. Integrated treadle/toe not listed. [Original manual part620010668](https://medias.audiofanzine.com/files/mooer-red-truck-manual-480465.pdf). |
 | Controls | Manual p3 lists **six footswitches: TAP plus1–5**. **25 rotary controls =23 parameter knobs+2 rhythm/subdivision selectors**, derived from complete textual module inventories (Boost3,Drive3,Dist5,Mod3+selector,Delay3+selector,Reverb6). **Four toggles**:Boost on/off,MidBoost,ModType,DelayType. Separate pushbutton count unverified; no visual panel audit claimed. |
 | Display | Tuner documented; display diagonal,color,touch unverified. |
 | Dimensions / weight | **370(D) ×96(W) ×51(H) mm;1200g**, exactly as both pages label axes. Do not silently transpose into presumed physical width; axis interpretation remains open. |
@@ -2372,3 +2372,7 @@ Checked2026-10-18 against [manufacturer PDF part620010668](https://medias.audiof
 | Live / tap-control shortcuts | Manual p7 assigns **3+4 to Delay+Mod**, **1+2 to Delay only**, **2+3 to Mod only**. TAP indicator: purple for both (default),red for delay,blue for modulation. These are simultaneous-switch shortcut commands; they are separate from the individual LIVE-mode effect-toggle assignments. No contradiction is established by the different numbers; physical operation remains untested. |
 | Effects / boost range | Pure Boost offers **up to+20dB**; its Bass andTreble each±15dB. These are boost-section controls,not overall output-headroom specifications. |
 | Effects / reverb additions | Shimmer fully counterclockwise removes shimmer; MOD DEPTH fully counterclockwise removes reverb modulation. Independent wet/dry,decay,tone andmodulation-rate controls remain; these adjustable additions are not separate named reverb algorithms. |
+
+### Red Truck — direct-expression screening (2026-10-28)
+
+[Exact manufacturer manual part620010668](https://medias.audiofanzine.com/files/mooer-red-truck-manual-480465.pdf), printed pp3–4,10–11, lists input, FX loop, CAB SIM output, L/R outputs and DC, with no EXP socket. Direct analog volume assignment therefore fails on this inventory. Five direct preset switches recall bypass combinations, not sequential up/down or stored parameter values. CAB SIM OUT serves headphones/direct use. Existing370D×96Wmm labels remain; the370mm side exceeds the preferred rectangle in either orientation. Pedal position/endpoints N/A; separate digital/bypass/tail/recorded-loop scope unknown. No hardware test.

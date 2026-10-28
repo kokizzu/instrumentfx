@@ -123725,5 +123725,16 @@
       "USB channel count"
     ],
     "hardware_test": false
+  },
+  "redtruck_expression_screen_20261028": {
+    "source": "https://medias.audiofanzine.com/files/mooer-red-truck-manual-480465.pdf",
+    "identity": "MOOER part620010668,12pages",
+    "classification": "no analog EXP in complete connector inventory",
+    "navigation": "five direct bypass-only presets, not sequential down/up",
+    "remaining": [
+      "dimension axis interpretation",
+      "separate attenuation coverage"
+    ],
+    "hardware_test": false
   }
 }
