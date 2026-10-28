@@ -2056,6 +2056,16 @@ Portable desktop guitar multi-effects; first pass checked **2026-10-17**. Separa
 | Used IDR evidence | **?** — no exact condition-qualified used offer established in this pass; no inferred discount. |
 | Retail / historical IDR evidence | **Rp749.500**, [MICKEY MOUSE SHOP,shop19700013/item20865647747](https://shopee.co.id/Efek-Gitar-MOOER-PE100-Multi-Effects-Processors-Pedal-Guitar-PE-100-i.19700013.20865647747). **Habis**, shop on holiday, Kota Jakarta Utara. Page retrieved2026-10-17 with stale1–4Sep delivery. Condition/new status, bundle, warranty region, checkout stock, shipping/taxes and payable total unverified. Late-delivery voucher up toRp10.000 is compensation, not an extra hardware discount. Historical unclassified ask; not live stock or completed sale. |
 | Additional historical IDR evidence | **Rp715.000**, [ADVENTURE MUSIC JAKARTA,shop154467850/item22920227275](https://shopee.co.id/MOOER-PE100-Portable-Multi-Efek-Gitar-Mooer-PE-100-i.154467850.22920227275), Jakarta Selatan. Checked2026-10-17 from a two-month search cache marked **Habis**; exact reopen returned cache miss. New/used condition, working state, selected variant, adapter/bundle, warranty, voucher eligibility, shipping/tax and final total unknown. Relative next-day delivery is not live-stock evidence; up-toRp10.000 late-delivery compensation is not a purchase discount. Separate seller ask, not a completed sale or verified new/used price. |
+
+### PE100 — direct expression screening 2026-10-28
+
+| Field | Finding / qualification |
+|---|---|
+| Expression / direct path | Complete [manufacturer connector list](https://www.mooeraudio.com/product/PE100-166.html) and original PE100 manual panel inventory have **no analog EXP socket**. This excludes the requested direct-expression path; a master knob is separate. |
+| Controls / preset selection | Original manufacturer-authored [manual copy](https://medias.audiofanzine.com/files/mooer-pe100-manual-480463.pdf), printed pp2–4,6: MODE selects PL, then VALUE scrolls presets. A–D are hand quick-recall controls; **no onboard footswitches**. No separate foot preset down/up. Text review only. |
+| Memory / write protection | Same manual p6: P01–P99 are factory-only and cannot store custom tones; U01–U99 are writable. This clarifies the existing99+99 count without erasing the global page’s98/99 conflict. |
+| Dimensions / headphones | Global manufacturer page reconfirms137×81×32mm, unlabelled axes: horizontal rectangle fits200×140mm. Dedicated3.5mm stereo phones. Direct EXP position/range/bypass/tail/loop coverage is inapplicable; independent master-knob coverage remains unverified. |
+
 <!-- comparison evidence ends -->
 
 ### PE100 sources and unresolved work

@@ -123052,6 +123052,20 @@
       "global_volume": "unverified; existing conditional fallback retained",
       "switch_mapping": "arrow glyphs absent from extracted text; screenshot cache miss; no visual claim",
       "next": "Continue remaining no-treadle inventory and exact offers; preserve Mini/Nano unresolved global-volume scope"
+    },
+    "pe100_screening_20261028": {
+      "sources": [
+        "https://www.mooeraudio.com/product/PE100-166.html",
+        "https://medias.audiofanzine.com/files/mooer-pe100-manual-480463.pdf"
+      ],
+      "manual_access": "manufacturer-authored exact-model mirror; text only",
+      "direct_exp": "absent complete connector inventory",
+      "onboard_footswitches": 0,
+      "phones": "dedicated3.5mm stereo",
+      "fit": "137x81mm rectangle fits; manufacturer axes unlabelled",
+      "memory": "P01-P99 read-only; U01-U99 writable; historical98/99conflict retained",
+      "inventory": "existing model; count unchanged",
+      "next": "Remaining no-treadle inventory and exact Shopee offers; preserve unresolved Mini/Nano scope"
     }
   },
   "brand_navigation": {
