@@ -1844,6 +1844,11 @@ Checked 2026-10-28 against [original manufacturer manual, indexed printed p54](h
 
 Thus Foot Volume can affect the detector signal when FV Out is selected; this is a documented control-path interaction, not proof of final-output placement or universal tail muting. MASTER button itself does not toggle NS; the on/off parameter uses PATCH/VALUE. Global FV assignment/range precedence and bypass/phones/recorded-Hold coverage remain qualified. The44-category/13-versus15 counting discrepancy is still unresolved; no invented category added to force agreement. No download or device test.
 
+### GT-Pro — explicit historical ASIO audio channel count
+
+Checked2026-10-28 against [original manufacturer manual,printedp135](https://cdn.roland.com/assets/media/pdf/GT-PRO_OM.pdf),indexed Mac OS9 “Installing the ASIO driver” section. It explicitly lists **audio input:one stereo channel(two mono),audio output:one stereo channel(two mono),24/16bit**. These are audio channels,not the BOSS GT-PRO Control MIDI endpoint orMain/Sub analog routing. This resolves the missing explicit count **for that documented historical ASIO context**;other driver modes/current-host operation are not certified from it. The section requires MIDI-driver installation before ASIO andexcludes Macintosh Sound Manager playback;these are historical compatibility instructions,not a present installation recommendation. No driver ormanual downloaded orrun.
+
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.

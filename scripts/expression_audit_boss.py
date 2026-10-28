@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(boss): distinguish CORE tuner bypass and through modes'))
+    print(git('commit','-m','research(boss): verify GT-Pro historical ASIO audio channel count'))

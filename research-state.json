@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro historical audio/MIDI endpoint names saved; explicit USBchannelcount,44category/13vs15basis,visualcontrols,expression/outputqualifications andqualifiedIDR remain;392partial.",
+    "task": "GT-Pro explicit historical MacOS9 ASIO count resolved:2mono in/2mono out,16/24bit. Otherdriver-mode matrix,currenthosts,44category/13vs15basis,visualcontrols,expression/outputcoverage andqualifiedIDR remain;392partial.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -124752,5 +124752,12 @@
     "navigation": "BankUP/DOWN presetnavigationinScene/Stomp;PresetmodebanksplusA-H.",
     "coverage": "Phonesyes;EXPbypass/phones/tails/recordedloopunknown;290x195failsfit.",
     "next": "Remainingno-treadleinventorystillpartial;prioritizeexactcontrollerwiringandprimarymanualgaps;independentGTProretained."
+  },
+  "gtpro_asio_channel_count_20261028": {
+    "source": "https://cdn.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+    "page": "printed135 indexed original MacOS9 ASIO section",
+    "count": "1stereo input+1stereo output,each2mono;24/16bit",
+    "scope": "Explicit historical ASIO channel count resolved;other modes/current-host compatibility not certified. MIDIControl endpoint/MainSub routing separate.",
+    "next": "44category/13vs15basis,visualcontrols,expressionoutputcoverage andexactShopee remain."
   }
 }
