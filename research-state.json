@@ -123983,5 +123983,26 @@
       }
     ],
     "qualification": "Condition,stock,selected variant,bundle verification,warranty,shipping/tax/voucher/checkout unknown;noHabis isnot stockproof"
+  },
+  "nano_cortex_hawila_offer_20261028": {
+    "url": "https://shopee.co.id/Multi-Effect-Pedal-Neural-DSP-Nano-Cortex-Neural-Nano-Cortex-Original-i.130137603.24641337425",
+    "shop": "130137603",
+    "item": "24641337425",
+    "seller": "HAWILA MUSIK INDONESIA",
+    "region": "KotaSurabaya",
+    "snapshots": [
+      {
+        "idr": 12635999,
+        "access": "Direct month-old cache",
+        "stock": "Habis"
+      },
+      {
+        "idr": 11599999,
+        "access": "Search five-month cache",
+        "stock": "Habis",
+        "voucher": "Dengan Voucher;Rp5m spend/Rp100k text;eligibility/base unresolved"
+      }
+    ],
+    "qualifications": "Condition,variant,bundle,warranty,shipping/tax/checkout unknown;separate cached asks not range"
   }
 }

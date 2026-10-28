@@ -160,6 +160,14 @@ The [official MIDI setup article](https://neuraldsp.com/getting-started/using-mi
 
 Parameter Lock still describes temporary rotary inhibition,not across-preset expression assignment. Global volume/headphone/bypass/tail coverage remains unverified. [Manufacturer MIDI guide](https://neuraldsp.com/getting-started/using-midi-on-nano-cortex) independently confirms message limits and direction. No hardware operation or downloads.
 
+### Nano Cortex — exact HAWILA cache conflict,2026-10-28
+
+| Field | Exact hardware offer / qualification |
+|---|---|
+| IDR / condition-unverified sold-out asks | [HAWILA MUSIK INDONESIA,shop130137603/item24641337425](https://shopee.co.id/Multi-Effect-Pedal-Neural-DSP-Nano-Cortex-Neural-Nano-Cortex-Original-i.130137603.24641337425),KotaSurabaya:directreader month-old cache **Rp12,635,999,Habis**,stale11–12September delivery. Five-month search snapshot **Rp11,599,999,Habis,Dengan Voucher**,withRp5million spend/Rp100,000 discount text andstale29May–1June delivery. Preserve both;voucher eligibility/base-price arithmetic unresolved. No silent subtraction orrange. |
+
+Exact title identifies Nano Cortex hardware. Condition declaration,working state,selected variant,adapter/cables/bundle,regional warranty,authenticity,shipping/tax andcheckout total unknown;not a completed sale orlive-stock proof. Direct late-arrival compensation up toRp10,000 isnot an upfrontdiscount. Earlier SevenStereo offer retained separately. Adapter-only item266947303/27013727938 isexcluded fromprocessor pricing.
+
 ## Quad Cortex
 
 Partial record checked **2026-10-17**. Full Quad Cortex,distinct from Nano Cortex andQuad Cortex mini. Product page advertises CorOS4.1.0;current web manual identifies4.1.1. Seller firmware unverified.

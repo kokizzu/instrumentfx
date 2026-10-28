@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(neural): document Nano MIDI direction and preset address boundaries'))
+    print(git('commit','-m','research(neural): preserve exact Nano Cortex Shopee price snapshot conflict'))
