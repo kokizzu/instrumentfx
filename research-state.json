@@ -124367,5 +124367,12 @@
     "finding": "TS FOOTSW bypass only; no analog EXP or headphone socket in listed inventory; no onboard preset footswitch pair. 191W×99Dmm fits.",
     "boundary": "Current-guide older-hardware applicability/input conflict retained. CC106 wet/dry not global output volume; direct EXP range/position/recall N/A. No download/hardware test.",
     "next": "M350 then M-One XL exact screens; general GT-Pro cursor unchanged."
+  },
+  "m350_expression_screen_20261028": {
+    "source": "https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf",
+    "revision": "Rev1.1/SW1.00; pp6–8",
+    "finding": "TRS momentary tip bypass/ring tap, no analog EXP or headphones; no onboard preset footswitch pair. 483W×105.6Dmm; upstream guitar preamp.",
+    "boundary": "Global tap/bypass not volume assignment; Serial/Dual routing distinctions retained. Direct EXP position/range/recall N/A; tails/looper unverified. No download/test.",
+    "next": "M-One XL exact-model screen; independent general GT-Pro cursor unchanged."
   }
 }

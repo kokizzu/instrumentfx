@@ -203,6 +203,12 @@ Checked 2026-10-19 from the [Rev1.1/SW1.00 manufacturer manual, printed pp30–3
 |---|---|
 | Price / condition-unverified IDR | **Rp6.898.094**, CHdada, Kota Jakarta Pusat; seller1003926059/item20383192872. Checked2026-10-19: two-month indexed exact-item body shows **Pre-Order, dispatched within15days**, with stale13–21August arrival. [Seller-labelled TC-M350 processor](https://shopee.co.id/%E2%9C%85-TC-M350-vocal-reverb-effect-dual-engine-digital-effect-processor-%EF%BC%8Cprofessional-stage-performance-effect-karaoke-i.1003926059.20383192872). Direct page returned cache miss. Condition, selected variant, original-brand authenticity, working state, bundle, warranty, voucher, shipping/tax and checkout stock remain unverified. Rp10.000 late-delivery compensation is not a purchase discount. Historical asking evidence, not current availability or a completed sale; it establishes neither verified new nor used price. |
 
+### M350 — direct-expression capability screening
+
+Checked 2026-10-28 against the [own Rev1.1/SW1.00 manufacturer manual](https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf), rear panel p8 and front overview pp6–7. **No continuous analog EXP input**: quarter-inch TRS pedal socket explicitly uses **momentary bypass on tip, tap on ring**. Complete connector inventory has **no dedicated headphones**. **483W×105.6Dmm** exceeds width preference; guitar needs upstream preamp. No onboard preset footswitch pair: arrows select presets, LOAD recalls, all hand controls.
+
+Direct-expression position/range/recall are inapplicable to the documented input. Global tap tempo and bypass are not global volume assignment. Preserve Serial dry-pass versus Dual Input mute, and routing-dependent MIX rules; MIDI input-level/mix controls do not prove analog expression or tail/looper attenuation. Historical preorder/variant offers remain qualified. No download, hardware operation or model admission.
+
 ## M-One XL
 
 Checked 2026-10-17; partial. [Original English manual, mirrored][M1XL-M], Rev4, product E60500152: SW2.07 XL versus1.43 Standard. Manufacturer download inaccessible; mirror adds watermarks. Text-only review.

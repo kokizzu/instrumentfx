@@ -16,4 +16,4 @@ if __name__ == '__main__':
     assert changed <= allowed, changed - allowed
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(tc): screen M100 TS bypass versus analog expression'))
+    print(git('commit','-m','research(tc): screen M350 momentary pedal input and routing'))
