@@ -124316,5 +124316,12 @@
     "finding": "Complete connector inventory has FS01 on/off only, no analog EXP or dedicated headphone socket. Guitar preamp/effect required; 482W×115Dmm; no onboard preset footswitch pair.",
     "boundary": "Physical OUTPUT/MIX not expression assignment. Direct EXP position/range/recall N/A; bypass topology and tails unverified. No sibling transfer, stock refresh, local download or hardware test.",
     "next": "Screen exact RFX-1100 next; independent general GT-Pro cursor retained."
+  },
+  "rfx1100_expression_screen_20261028": {
+    "source": "https://zoomcorp.com/media/documents/E_RFX1100.pdf",
+    "pages": "2–3,15",
+    "finding": "Complete panel/specifications list FS01 only, no analog EXP or headphone socket. Guitar needs preamp/effect; 482W×115Dmm; no onboard preset footswitch pair.",
+    "boundary": "Direct EXP range/position/recall N/A; fully-WET effects-off silence documented, not universal dry bypass/tail guarantee. No stock refresh/download/hardware test.",
+    "next": "Exact RFX-2000 then RFX-2200 screens; general GT-Pro cursor unchanged."
   }
 }

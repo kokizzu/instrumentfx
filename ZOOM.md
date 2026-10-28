@@ -4506,6 +4506,12 @@ Rack multi-effects, checked 2026-10-17. Partial verification; unknown is not No.
 
 Remaining: complete per-variation parameters,simultaneous maximum,user-memory behavior,display/control confirmation,power draw,software andqualified offers. Category inventory is saved. Screenshot retrieval failed; no visual panel verification claimed. Manufacturer’s363 preset-program figure is now separated from writable memory. No sibling specifications substituted.
 
+### RFX-1100 — direct-expression capability screening
+
+Checked 2026-10-28 against [own official manual](https://zoomcorp.com/media/documents/E_RFX1100.pdf), pp2–3,15. **No analog EXP input or dedicated headphones** in the complete panel/specification inventory; FS01 switches effects only. This resolves the earlier physical-expression/headphone uncertainty. Guitar pickups require a preamp/effect first. **482W×115Dmm** fails preferred width; no onboard footswitch pair selects presets. Hand selectors are separate.
+
+Physical OUTPUT/MIX controls do not provide external continuous expression assignment. Direct-EXP position/range/recall are inapplicable. Own troubleshooting confirms effects-off with fully WET MIX can silence output; this is not proof of an unconditional dry bypass or tail coverage. Retain historical mains-power and exact-offer qualifications. No stock refresh, local download or device test.
+
 ## RFX-2000
 
 Checked2026-10-17;partial. Own manual guitar setup and dynamic-microphone vocal path establish guitar/vocal scope. Bass applicability unclassified;ownership unestablished.
