@@ -422,3 +422,7 @@ GT-Pro [downstream-generator boundary](BOSS.md#gt-pro--downstream-generators-and
 ### BOSS VE-22 — global vocal volume, guitar-input exclusion
 
 [Exact-model qualification](BOSS.md#ve-22--global-expression-volume-and-input-eligibility): EXP VOLUME withSYSTEM preference is global;heel/toe endpoints each0–100. Mic INPUT anduneffected AUX do not provide requested normal-guitar path,so outside guitar capability table.218W×143Dmm fails preference;dedicated PHONES/LINE documented,pedal output/tail/loop coverage unknown.
+
+### BOSS VE-2 — detection/thru path exclusion
+
+[Exact-model screen](BOSS.md#ve-2--original-control-census-and-guitar-volume-exclusion): fits156W×116Dmm,but no analog EXP andno processed guitar path;guitar absent fromphones/XLR/USB. Onboard A–C memory selection is timed cycling afterbypass,not independent down/up controls. Remains vocal inventory,outside guitar capability table.

@@ -3969,6 +3969,14 @@ Checked 2026-10-18. Support pages were read only; no driver downloaded or instal
 | Editor / macOS driver | Official listing names **1.0.5 for Sonoma14.x and later**, directing users to the current compatibility table for exact support. The US regional page opened; global detail returned cache miss. No unrestricted future-OS or CPU compatibility inferred from the title. | [Official regional driver page](https://www.boss.info/us/support/by_product/ve-2/updates_drivers/b86ca8dd-e332-4a86-a590-32c810adfd3c/) |
 | Editor / macOS compatibility status | Table updated2026-09-16: VE-2 Hardware & Driver is **Yes(Download) for macOS15/26; Under Testing for27**. Exclusive Application is a dash for all three, not evidence of an editor. BOSS defines Download as requiring dedicated software; this is published compatibility, not a local hardware test. | [Official compatibility table](https://www.boss.info/global/support/support_news/25090811m1/) |
 
+### VE-2 — original control census and guitar-volume exclusion
+
+Checked2026-10-28 against [own English e04 manual][VE2-M],single-sheet PDF,original numbered panel text. **5 rotaries/1 footswitch/4 buttons**:BALANCE,TYPE,KEY,ECHO,rearMIC SENS;VARIATION,AUTO HARMONIST,ENHANCE,MEMORY. Rear POWER/PHANTOM/GND switches are additional. This resolves the text-based control-count gap;not fresh visual inspection.
+
+Onboard memory selection first requires bypass byholding the pedal≥2seconds,then another hold cycles A–C atone-second intervals;release selects the displayed memory. This is **timed selection,not independent preset down/up switches**. MEMORY button also selects memories.
+
+GuitarTHRU is unchanged;guitar audio is absent from XLR,PHONES/LINE andUSB recording. The external VARIATION/MEMORY socket accepts switches,not analog EXP. Thus156W×116Dmm fits,but fails the required processed-guitar/direct-analog path. Vocal membership retained,outside guitar-volume table. Pedal volume position/range/recall/bypass/tails/recorded-loop coverage has no documented analog path. No hardware test ordownload.
+
 ## VE-5
 
 Vocal multi-effects,tabletop/micstand;notVE-500. Checked2026-10-17;partial. Ownershipunknown. Noestablished independentguitar/bass processing.

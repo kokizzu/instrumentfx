@@ -125359,5 +125359,22 @@
     ],
     "next": "Remaining vocal/no-treadle eligibility screens;priority Mini/Nano/GP50/controller gaps",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "ve2_expression_scope_20261028": {
+    "checked": "2026-10-28",
+    "document": "BOSS.md#ve-2--original-control-census-and-guitar-volume-exclusion",
+    "source": "https://static.roland.com/assets/media/pdf/VE-2_eng04_W.pdf",
+    "revision": "English e04 single-sheet manual",
+    "controls": {
+      "rotaries": 5,
+      "footswitches": 1,
+      "buttons": 4
+    },
+    "navigation": "Bypass≥2s thenhold timedA–C cycle1s;not independent down/up",
+    "eligibility": "Guitar detection/unprocessedTHRU only;no analogEXP;outside guitar capability table",
+    "fit": "156W116D fits",
+    "guitar_outputs": "Absent fromPHONES/XLR/USB recording",
+    "next": "Remaining vocal/no-treadle eligibility screens;priority Mini/Nano/GP50/controller gaps",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
