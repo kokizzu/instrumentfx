@@ -123066,6 +123066,23 @@
       "memory": "P01-P99 read-only; U01-U99 writable; historical98/99conflict retained",
       "inventory": "existing model; count unchanged",
       "next": "Remaining no-treadle inventory and exact Shopee offers; preserve unresolved Mini/Nano scope"
+    },
+    "ax3g_screening_20261028": {
+      "sources": [
+        "https://cdn.korg.com/us/support/download/files/ca195967ff7882df4b0a35a580860922.pdf?response-content-disposition=inline%3Bfilename%3DAX3G_EFG3.pdf&response-content-type=application%2Fpdf%3B",
+        "https://manualzilla.com/doc/6736482/ax3g-owner-s-manual"
+      ],
+      "access": "official indexed p7 and identity-matched manufacturer-authored transcript pp4–5; no visual inspection",
+      "scope": "wah when PRE FX WAH; volume otherwise; global override unverified",
+      "placement": "NR→VOLUME PEDAL→MOD→DELAY/REVERB",
+      "onboard": "Program Down/Up; Edit mode type/value separate",
+      "fit": "178W142D; depth2mm over",
+      "remaining": [
+        "volume endpoints and recall",
+        "bypass/headphone/tail/looper coverage",
+        "exact condition-qualified Shopee offer"
+      ],
+      "next": "Continue AX3B from its own manual, not inherited AX3G specifications; preserve independent general queue"
     }
   },
   "brand_navigation": {

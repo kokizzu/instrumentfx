@@ -78,6 +78,15 @@ Guitar multi-effects; separate from AX3B/AX3A. Checked 2026-10-17; partial. Owne
 | Editor / software | Editor,driver,updater platforms unverified. | Unresolved |
 | Looper / drums / live | Bypass with both footswitches; hold about1s for mute/tuner. Either exits without patch change. Delay/reverb carryover requires same settings. Amp/Line P5 applies to amp models,not drive models. Wah/auto-wah/vibe-phase can precede or follow amp processing. Drive/amp selection chooses an associated cabinet. Looper,drums,scenes unverified. | [Manual p9][AX3G-M];[EasyStart pp1–3][AX3G-E];[Parameter guide pp2–6][AX3G-F] |
 
+### AX3G — conditional expression volume 2026-10-28
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / assignment scope | Own manufacturer-authored manual, printed p5: EXP-2/XVP-10 controls wah when PRE FX uses WAH, and volume otherwise. **Conditional fallback**, not a verified global volume override. No built-in treadle in complete front-panel inventory; text inspection only. [Original manual transcript](https://manualzilla.com/doc/6736482/ax3g-owner-s-manual). |
+| Controls / foot preset down-up | Same p5: Program Up increments and Program Down decrements in Program mode. In Edit mode they show parameter value/type instead. Separate from hand buttons that step10 programs. |
+| Expression / position and coverage | [Official original manual p7](https://cdn.korg.com/us/support/download/files/ca195967ff7882df4b0a35a580860922.pdf?response-content-disposition=inline%3Bfilename%3DAX3G_EFG3.pdf&response-content-type=application%2Fpdf%3B), indexed signal-flow description: NR→VOLUME PEDAL→MOD→DELAY/REVERB; volume available with connected pedal. This is before downstream effects, not proven final-output mute. Min/max, recall, bypass/headphone attenuation and surviving-tail coverage remain unknown. No looper coverage established. |
+| Dimensions / shortlist |178W×142Dmm per own specifications:2mm too deep for preferred200×140mm. Shared OUTPUT accepts headphones; that does not establish expression attenuation there. Existing prices and source conflicts remain qualified. |
+
 ### Separate IDR hardware offers
 
 | Condition | Evidence and limits | Source |
