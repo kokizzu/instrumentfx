@@ -124015,5 +124015,16 @@
       "attenuation coverage"
     ],
     "hardware_test": false
+  },
+  "hxe_analog_bypass_volume_20261028": {
+    "source": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "page": 11,
+    "finding": "Analog relay dry path excludes digital Volume block,explicitly labelled inference",
+    "remaining": [
+      "DSP bypass expression/tail attenuation",
+      "recorded-loop coverage"
+    ],
+    "excluded_price_lead": "LCD part102307979/28994765376",
+    "hardware_test": false
   }
 }

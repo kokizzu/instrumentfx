@@ -502,6 +502,12 @@ This narrows the earlier voltage/polarity gap through named-part documentation;i
 
 [Own 3.0 manual](https://manuals.plus/m/ff08ad3171b7d8f884b0dae7cb15112b31393baa4f86aa63179f5d368bf0b98a), pp46–47, documents FS1/FS4 preset up/down in4Switch mode; this is historical revision-qualified evidence, not HX Stomp behavior. [Complete manufacturer connector inventory](https://line6.com/hx-effects/) has no dedicated headphone socket. Existing rounded274×201mm dimensions exceed the preferred footprint. [Capability comparison](EXPRESSION-VOLUME.md). No downloads or device operations.
 
+### HX Effects — Analog All Bypass volume boundary,2026-10-28
+
+[Exact manufacturer3.80 RevD manual](https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf),indexed printedp11,explicitly distinguishes **Analog All Bypass** (relays,direct input→output,no processing orA/D/A) from **DSP bypass** (delay/reverb tails decay). Analog is documented default. **Inference from that explicit path:the digital Volume block cannot attenuate the analog-bypassed dry signal.** This qualifies the prior all-bypass unknown;it doesnot establish EXP behavior orfull attenuation ofDSP-bypass tails/recorded loops.
+
+No new condition-qualified used Shopee hardware offer surfaced. LCD-only item102307979/28994765376,withBaru/Copotan variants,is a replacement part,not aprocessor price. ExistingRp7,900,000 sold-out hardware ask remains historical. No downloads,firmware changes orhardware test.
+
 ## HX One
 
 Effects-only multi-category guitar/bass processor;distinct from HX Effects/HX Stomp. One selected model,not a multi-block chain. Checked2026-10-17;partial. Ownership/vocal suitability unknown.
