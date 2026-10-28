@@ -123701,5 +123701,17 @@
       "hand-volume tail coverage"
     ],
     "hardware_test": false
+  },
+  "pod_black_master_distinction_20261028": {
+    "source": "https://line6.com/data/6/0a00051a59316717d96603e6a/application/pdf/POD%20Express%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "page": 21,
+    "access": "indexed original RevE; full file exceeds reader limit",
+    "finding": "Black amp Master via ALT+TAP+MOD is distinct from EXP Volume; Crux no Presence",
+    "remaining": [
+      "expression output coverage",
+      "Black exact chassis dimensions",
+      "qualified Shopee item"
+    ],
+    "hardware_test": false
   }
 }

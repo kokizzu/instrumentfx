@@ -120,6 +120,12 @@ Checked2026-10-19. [Line6 electrical specification](https://kb.line6.com/pod-exp
 
 The entry also separates the global Volume Wheel Control setting (main+headphones or headphones only) from expression-volume scope; thumbwheel coverage does not prove EXP coverage. Official Black Cheat Sheet RevA,40-00-0663©2024 independently identifies the wheel, PHONES and data-only USB: [manufacturer PDF](https://line6.com/data/6/0a00051a58516717cdc19d2ba/application/pdf/POD%20Express%20%7C%20Black%20Cheat%20Sheet%20-%20English%20.pdf). Joint RevE PDF again exceeded web retrieval size; no download, firmware installation or hardware test. Black remains a partial lead outside active counts; chassis dimensions and exact Shopee hardware offer remain unresolved.
 
+### Black — amp Master Volume versus expression Volume (2026-10-28)
+
+[Official RevE manual, printed p21, indexed original text](https://line6.com/data/6/0a00051a59316717d96603e6a/application/pdf/POD%20Express%20Owner%27s%20Manual%20-%20English%20.pdf): Black amp **Master Volume uses ALT+TAP+MOD**; Presence uses ALT+TAP+DELAY VERB. For **Crux (Orange Rockerverb100MkIII)** no Presence parameter exists, so that operation changes nothing. These amp parameters are separate from the fixed expression Volume stage and hardware output thumbwheel; the Master label does not establish global expression assignment or all-output attenuation.
+
+Full official and alternate RevE PDF opens exceeded the reader size limit; evidence here is indexed manufacturer text, not successful rendering. No later-firmware or device behavior claimed. Black remains a partial lead; no new Shopee price/stock evidence established.
+
 ### HX family distinction
 
 HX Effects, HX Stomp and HX Stomp XL remain **not certified in this audit as zero-per-preset-setup global volume solutions**. Their existing records stay intact. A Global EXP Position setting must never be treated as proof of a globally inserted volume block or output-controller assignment. A fresh firmware-matched check of output-level controller scope remains on the audit queue.

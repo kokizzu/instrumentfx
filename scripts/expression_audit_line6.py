@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(line6): record Black expression-triggered looper firmware fix'))
+    print(git('commit','-m','research(line6): distinguish Black amp Master from expression Volume'))
