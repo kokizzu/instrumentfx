@@ -91,6 +91,11 @@ The [third-party instruction page](https://manuals.plus/asin/B0CR157S8T) labels 
 
 Checked 2026-10-19. The [original one-page SONICAKE B FACTORY leaflet transcription](https://manuals.plus/m/64d86baaf679d0aa26bccedd0e39484621545533cf8697ec5dc761b09c2833d7) matches QDS-05 identity, 395 g, dimensions and three impedance specifications. It is distinct from the rejected generated ASIN guide. Its functional annotations support the qualified controls, routing and ground-lift findings above. The PDF and official images remain uninspectable; no visual verification orrevision match is claimed. Its 92 mA transcription conflicts with the [current manufacturer page’s 70 mA](https://www.sonicake.com/products/b-factory); both are retained pending direct original-image confirmation. No new hardware offer, stock or price claim.
 
+### B Factory — qualified expression capability screen
+
+Checked2026-10-28 against the [exact manufacturer page](https://www.sonicake.com/products/b-factory). Bass use is documented; ordinary guitar suitability remains unclassified. Global volume cannot be inferred from EQ PRE/POST placement, clean/driven BLEND or an output knob. Direct analog EXP/global assignment, position/endpoints/recall, headphones, preset down/up and bypass/tail/recorded-loop attenuation remain **unverified**. Both published90×124mm axis interpretations fit the preferred rectangle; axis conflict retained. Buffered bypass and70mA remain current product specifications; the earlier92mA leaflet discrepancy is preserved. The qualified leaflet mirror could not be reopened, so no new connector/panel verification is claimed. No local download or hardware test.
+
+
 ## Black Hammer QCE-30
 
 Guitar multi-effects strip; manufacturer identifies QCE-30. Checked2026-10-17; partial.
