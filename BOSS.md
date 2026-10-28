@@ -1539,6 +1539,37 @@ Printedp14 reconfirms SYSTEM function sharing without proving SYSTEM override of
 
 ## GT-Pro
 
+Current comparison summary, reviewed 2026-10-28. Discontinued rack guitar multi-effects; ownership and bass/vocal suitability remain unverified. Detailed dated sources, earlier summaries and contradictions are retained below. The comparison uses this summary rather than concatenating every historical parameter table.
+
+<!-- comparison evidence begins -->
+| Field | Evidence / qualification |
+|---|---|
+| Expression | No built-in treadle. EXP1 and shared EXP2/CTL3,4 accept external control; CTL1,2 is separate. EV-5/FV-300L specified; set pedal minimum to MIN. Global SYSTEM Foot Volume role documented, but precedence over patch FV enable/MIN/MAX remains unknown. Auto can switch to wah/bend; it is not a volume lock. External toe capability unverified. |
+| Knobs / footswitches / buttons | **12 / 0 / 30**, derived from manual text; POWER and ground-lift counted separately. Panel-image corroboration pending. No onboard preset footswitch down/up. |
+| Display | Backlit **16×2-character LCD** plus **2-character seven-segment LED**. Diagonal, color and touch remain unverified. |
+| Dimensions / mass | **482 W × 305 D × 89 H mm; 4.8 kg**. Far exceeds preferred 200 W × 140 D mm. |
+| Processing / categories | **44 catalogue entries: 22 shared FX families + 11 FX2-only + 11 other entries**, including external LOOP and FV. FX1 selects one of 22 families; FX2 one of 33. Catalogue says 15 reorderable blocks, while exact-model specifications also say 13 simultaneous effects; counting basis unresolved. |
+| Processing / menu choices | **46 named preamps + 3 custom definitions**, two amp channels combinable. OD/DS **30+3 custom**; WAH **6+3 custom**; dedicated COMP **2 modes**; DELAY **12 types**; REVERB **7**; CHORUS **3 modes**. FX-family subtypes and full lists are in the detailed record; these are not additional simultaneous slots. |
+| Memory | **200 writable User + 200 protected Preset = 400**. Initial user tones are documented, including U1-1 STACK DRIVE and U20-10 GUITAR + PAD; complete initial-fill census unverified. Shared custom definitions affect all referencing patches. |
+| Synth / acoustic | Guitar Synth, Wave Synth, acoustic/sitar simulation and Acoustic Processor documented. Harmonist and Intelligent Ring Modulator require single notes; Pitch Shifter supports chords except Mono mode. No blanket polyphony claim or special-pickup requirement inferred. |
+| Audio I/O | Front/rear guitar inputs, front priority; dedicated PHONES and DIRECT/TUNER out. MAIN L/R and SUB quarter-inch L/R are unbalanced; SUB XLR L/R balanced and fixed +4 dBu, unaffected by SUB knob/OUT Level. Coaxial 24-bit S/PDIF. Nominal levels/impedances retained below; headphone power/load unverified. |
+| Routing / loops | PRE LOOP fixed before input level and unavailable with USB In. LOOP1/2 can combine stereo or operate series/parallel, but cannot occupy separate chain positions. MAIN/SUB source selection and digital-output tap documented. FV is movable; downstream Synth/Feedbacker OSC can defeat intended volume response. |
+| Data / control | USB, MIDI IN/OUT/THRU; AMP CTRL1/2; EXP1, shared EXP2/CTL3,4, CTL1,2. USB control/editor requires Advanced mode; rear DIN MIDI cannot act as a computer MIDI interface. |
+| Power | Regional **AC 117/230/240 V; 16 W consumption**. Battery and USB-powered operation unverified; do not infer bus power from USB audio. |
+| USB audio | **44.1 kHz**; Special **24-bit**, Standard **16-bit**. Historical Mac OS9 ASIO explicitly has **one stereo input and one stereo output**; other driver-mode channel counts and current hosts unverified. MAIN+SUB is a mix, not four USB channels. Dry tap/reamping documented; software Thru must be disabled for USB In. |
+| Editor / platforms | Historical Windows/Mac editor/librarian and separate drivers. Mac editor evidence includes 10.2.3–10.6.8, explicitly not 10.7+; Mountain Lion driver support does not establish editor support. BOSS marks Windows10/11 hardware/driver and application incompatible (Aug2026). Current macOS/Linux unverified. |
+| IR / NAM / capture | Import support unverified. Two parameter-based custom speaker definitions are not evidence of IR/NAM/capture loading. |
+| Looper / drums / live | Hold delay **2.8 seconds**, overdub, mode/patch-change erasure restrictions. Solo and picking-dynamics amp switching. Smooth patch changes offer conditional delay/reverb decay, with chain/parameter restrictions and possible switching delay; not universal spillover. Drums/scenes unverified. |
+| Expression / recall and coverage | Patch FV endpoints **0–100**, four curves; Assign Hold has target-dependent recall. Global-role interaction remains unknown. EXP1/FC-200 volume documented in mono tuner bypass; other bypass, headphone, tail and recorded-Hold attenuation unverified. |
+| IDR verified used | Unknown; no condition-qualified exact hardware offer established. |
+| IDR verified new | Unknown; no condition-qualified exact hardware offer established. |
+| IDR condition-unverified ask | No qualified exact Shopee GT-PRO item retained. Seller/item, condition, stock, bundle, warranty, region, voucher and current price remain unverified. Search non-results do not establish market absence. |
+<!-- comparison evidence ends -->
+
+### GT-Pro — retained earlier overview
+
+The following earlier summary is preserved for provenance. Later dated findings and the current summary above supersede its unresolved fields where explicitly established.
+
 Checked 2026-10-19;partial. [Exact manufacturer product/specification](https://www.boss.info/global/products/gt-pro/) marks discontinued. Rack guitar multi-effects,not GT-8;ownership andbass/vocal suitability unverified.
 
 | Field | Evidence / qualification |
