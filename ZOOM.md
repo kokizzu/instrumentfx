@@ -4204,12 +4204,13 @@ Manufacturer model **MS-70CDR+**,catalogued as MS-70CDR Plus to keep its identit
 
 ### Separate IDR hardware offers
 
-Checked2026-10-17. **Used IDR:?;verified new-condition IDR:?**
+Checked2026-10-17;additional exact offer checked2026-10-28. **Used IDR:?;verified new-condition IDR:?**
 
 | Condition / seller | IDR evidence and qualifications | Exact item |
 |---|---|---|
 | Used | Unknown;no condition-verified exact Indonesian used offer established. | — |
 | Condition unverified / GALERI MUSIK SIMFONI_PIM,Kota Jakarta Selatan | **Rp2.694.400**,cached exactplus hardware ask. Index5months old;reopened JS-limited page retains8May delivery wording. No current stock,condition,adapter/bundle,warranty region,selected variant,shipping,tax orvoucher eligibility established. Late-delivery10k compensation is not a product discount. Seller identity/authentication not inferred from its name/rating. | [1030145984/27223502580](https://shopee.co.id/ZOOM-MS-70CDR-MS-70CDR-PLUS-MS-70-CDR-PLUS-MultiStomp-for-Guitar-and-Bass-i.1030145984.27223502580) |
+| Condition unverified / Zoom Official Shop,Kota Jakarta Barat | **Rp2.460.720 with voucher;Habis** in direct-reader snapshot crawled2days before2026-10-28 check. Banner says spendRp70.000,8%discount;eligibility/cap,checkout total andbase price unverified. Search cache fromlastmonth insteadRp2.567.426 with1%voucher/minimumRp1.5million. Different cached states,not a verified price drop. Exact+hardware title despiteURL lackingplus;condition,selectedbundle,adapter,warranty,live stock andseller authentication unverified. | [348182890/25390698286](https://shopee.co.id/Zoom-MS-70CDR-MultiStomp-Guitar-Multi-Effects-Pedal-i.348182890.25390698286) |
 
 ### Remaining checks
 
