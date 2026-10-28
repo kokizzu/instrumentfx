@@ -476,6 +476,23 @@ Checked 2026-10-28. [Exact official product/specifications](https://www.boss.inf
 
 No local downloads or hardware tests. Exact Shopee hardware, separate used/new IDR, control census, full processing/IR/NAM/capture profile, current software, acoustic/synth restrictions, global FV range/recall and output coverage remain open.
 
+### GS-10 — brochure processing census and physical controls
+
+Checked 2026-10-28 against [original manufacturer brochure](https://cdn.roland.com/assets/media/pdf/gs10_brochure.pdf), **August2003,RAM-3733**, two PDF pages; exact GS-10 title. Parsed text inspected; no visual-panel certification.
+
+| Field | Count / qualification |
+|---|---|
+| Processing / simultaneous | Brochure explicitly says **up to11 effects simultaneously**. Its fixed sections are COMP,OD/DS,PREAMP/SPEAKER,EQ,NS,FV,DELAY,CHORUS,REVERB, plus FX1/FX2. Choices within FX slots are not extra simultaneous slots. |
+| Processing / FX1 choices | **11:** Pedal Wah,Auto Wah,Tone Modify,Advanced Compressor,Limiter,Enhancer,Slow Gear,Tremolo,Defretter,Ring Mod,Feedbacker. |
+| Processing / FX2 choices | **18:** Phaser,Flanger,Harmonist,Pitch Shifter,Octave,Pedal Bend,2x2 Chorus,Pan,Vibrato,Uni-V,Rotary,Short Delay,Humanizer,Slicer,Auto Riff,Guitar Synth,Bass Simulator,Stereo Equalizer. |
+| Processing / other menus | Brochure lists **45 named preamp entries**,including Mic Preamp, **22 OD/DS**, **7 wah models**. Original manual separately documents Custom1–3 preamps;45+3 yields48 selectable definitions,consistent numerically with the website headline,not proof of identical counting/revision basis. |
+
+The retained [original manual](https://manualzz.com/doc/2026468/boss-gs-10-guitar-effects-system-owner%E2%80%99s-manual), control specification and front-panel text, supports a derived **16 rotary /0 onboard footswitches /30 separate front buttons**. Rotaries: six preamp,COMP, two OD/DS, two DELAY,CHORUS,REVERB,AUX,OUTPUT,PATCH/VALUE. Buttons: preamp On/Off plus three A/B/C selectors; COMP,OD/DS,DELAY On/Off+TAP,CHORUS,REVERB; FX1,FX2,EQ,NAME/NS/MASTER,ASSIGN,INPUT SELECT,QUICK FX,two PARAMETER,EXIT,WRITE,TUNER,USB,SPEAKER,METER,SYSTEM,four DIRECT PATCH. POWER is separate.
+
+[Roland’s initialization article](https://support.roland.com/hc/en-us/articles/201958139-GS-10-Initializing-Restoring-the-Factory-Settings) independently refers to holding CHANNEL SELECT A and B **buttons**,supporting separate selectors rather than one three-way button. No reset performed.
+
+Counts are text-derived,not a visual/hardware audit. Full subtype/firmware census,custom-count explanation,imports,volume coverage and qualified Shopee offers remain open;GS-10 stays a partial lead outside active counts.
+
 ## GT-1
 
 Consolidated and refreshed **2026-10-16**; partial technical verification. Original dates, prices and limitations remain below. Historical next-model notes are provenance; use research-state.json for the current queue.

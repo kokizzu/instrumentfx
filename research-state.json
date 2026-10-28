@@ -128141,5 +128141,60 @@
     "speaker": "1.5W+1.5W, not phones power",
     "patch_access": "PATCH/VALUE or four direct buttons in Play screen; not footswitch down/up",
     "remaining": "Full controls/categories/processing/imports/currentsoftware/qualifiedIDR andvolume coverage"
+  },
+  "gs10_processing_controls_20261028": {
+    "checked": "2026-10-28",
+    "source": "https://cdn.roland.com/assets/media/pdf/gs10_brochure.pdf",
+    "identity": "August2003 RAM-3733, two-page original brochure",
+    "active": false,
+    "simultaneous_max": 11,
+    "fx1_choices": [
+      "Pedal Wah",
+      "Auto Wah",
+      "Tone Modify",
+      "Advanced Compressor",
+      "Limiter",
+      "Enhancer",
+      "Slow Gear",
+      "Tremolo",
+      "Defretter",
+      "Ring Mod",
+      "Feedbacker"
+    ],
+    "fx2_choices": [
+      "Phaser",
+      "Flanger",
+      "Harmonist",
+      "Pitch Shifter",
+      "Octave",
+      "Pedal Bend",
+      "2x2 Chorus",
+      "Pan",
+      "Vibrato",
+      "Uni-V",
+      "Rotary",
+      "Short Delay",
+      "Humanizer",
+      "Slicer",
+      "Auto Riff",
+      "Guitar Synth",
+      "Bass Simulator",
+      "Stereo Equalizer"
+    ],
+    "brochure_menu_counts": {
+      "named_preamps": 45,
+      "od_ds": 22,
+      "wah": 7
+    },
+    "custom_preamp": "Manual Custom1–3;45+3=48 consistent numerically with website, counting/revision basis not proved",
+    "controls": {
+      "rotary": 16,
+      "onboard_footswitch": 0,
+      "separate_front_buttons": 30,
+      "power": "separate",
+      "basis": "manual text list and separate A/B/C selectors; no visual corroboration"
+    },
+    "channel_button_source": "https://support.roland.com/hc/en-us/articles/201958139-GS-10-Initializing-Restoring-the-Factory-Settings",
+    "remaining": "subtypes,firmware/imports,volume coverage,qualifiedShopee;partiallead"
   }
 }
