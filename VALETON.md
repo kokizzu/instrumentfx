@@ -886,6 +886,12 @@ The manufacturer-linked1.1.0 manual remains inaccessible at res.diversitone.com;
 **IDR recheck:** [HOLY MUSIC seller945642322/item55704518866](https://shopee.co.id/VALETON-GP-50-MULTI-EFFECT-PROCESSOR-Gp50-efek-valeton-gp50-i.945642322.55704518866), Jakarta Utara, cached last-month body reopened2026-10-19: Rp2.255.000. No Habis displayed; relative delivery is not stock confirmation. Condition, bundle, warranty, shipping/tax and checkout remain unverified. Late-delivery compensation is not a hardware discount. Earlier snapshots retained.
 
 
+### GP-50 — exact used-condition Shopee ask,2026-10-28
+
+| Field | Seller evidence / qualification |
+|---|---|
+| Used IDR / historical seller ask | **Rp1,800,000;Habis**, [Gitaris Gendut,shop34702407/item47862332300](https://shopee.co.id/-used-Valeton-GP-50-GP50-Second-Like-New-i.34702407.47862332300),Kab.Probolinggo. Exact GP-50 title explicitly says **[used],Second Like New**;condition is seller wording,not inspection. Direct reader reopened two-month cache,with stale29August–1September delivery. Working state,selected variant,firmware,battery condition,adapter/cables/bundle,regional warranty,authenticity,shipping/tax andcheckout total unknown. Late-delivery compensation up toRp10,000 is not a hardware discount. Sold-out historical ask,not live stock,a completed sale orused-market range. Earlier no-qualified-used observations remain dated history. |
+
 ## GP-100
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
