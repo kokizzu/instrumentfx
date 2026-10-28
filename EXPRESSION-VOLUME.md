@@ -418,3 +418,7 @@ GT-Pro [downstream-generator boundary](BOSS.md#gt-pro--downstream-generators-and
 ### BOSS VE-500 — vocal-path scope exclusion
 
 [Exact-model qualification](BOSS.md#ve-500--expression-hold-and-guitar-path-scope): fits170W×138Dmm andaccepts analog EXP,but guitarTHRU is unprocessed;retained as vocal processor,outside normal-guitar capability table. EXP HLD requires matching FUNCTION across patches;position recall does not establish global assignment. No dedicated headphone socket in published inventory.
+
+### BOSS VE-22 — global vocal volume, guitar-input exclusion
+
+[Exact-model qualification](BOSS.md#ve-22--global-expression-volume-and-input-eligibility): EXP VOLUME withSYSTEM preference is global;heel/toe endpoints each0–100. Mic INPUT anduneffected AUX do not provide requested normal-guitar path,so outside guitar capability table.218W×143Dmm fails preference;dedicated PHONES/LINE documented,pedal output/tail/loop coverage unknown.

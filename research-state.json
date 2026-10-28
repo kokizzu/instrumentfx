@@ -125341,5 +125341,23 @@
     "phones": "No dedicated socket in published inventory",
     "next": "Continue remaining vocal/guitar eligibility screens andpriority Mini/Nano/GP50/controller gaps",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "ve22_global_expression_scope_20261028": {
+    "checked": "2026-10-28",
+    "document": "BOSS.md#ve-22--global-expression-volume-and-input-eligibility",
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/VE-22_eng01_W.pdf",
+      "https://support.roland.com/hc/en-us/articles/22184017569563-VE-22-Can-I-connect-an-instrument-such-as-a-guitar-or-keyboard-to-apply-effects"
+    ],
+    "assignment": "EXP FUNCTION VOLUME,PREF SYSTEM applies globally;distinct fromHOLD",
+    "range": "HeelMIN/toeMAX each0–100",
+    "eligibility": "Microphone INPUT;AUX noeffects;outside normal-guitar capability table",
+    "fit": false,
+    "unknown": [
+      "volume position",
+      "bypass/headphone/tail/recorded-loop attenuation"
+    ],
+    "next": "Remaining vocal/no-treadle eligibility screens;priority Mini/Nano/GP50/controller gaps",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

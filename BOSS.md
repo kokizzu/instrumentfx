@@ -4331,6 +4331,12 @@ Checked 2026-10-18 against own specifications and reference manual revision01.
 | I/O / volume-control scope | PHONES/LINE knob adjusts only PHONES/LINE OUT; it does **not** adjust OUTPUT L/R volume. AUX volume is adjusted on the connected playback device. | [VE22-M] pp2–3 |
 | Physical controls / panel lock | Long-press EXIT on the play screen locks MEMORY/HARMONY/EFFECT/ECHO knobs and MENU; long-press again unlocks. The documented lock scope does not include PHONES/LINE or MIC SENS. | [VE22-M] p2 |
 
+### VE-22 — global expression volume and input eligibility
+
+Checked2026-10-28 against [own reference manual,p16][VE22-M],English revision01,indexed original table. EXP **FUNCTION=VOLUME**, **PREF=SYSTEM** applies the function globally across memories;MEMORY selects per-memory behavior. **MIN andMAX each0–100**,respectively heel andtoe,are unavailable withFUNCTION=OFF. PREF itself is a system parameter. Follow the documented MEMORY WRITE step for edited settings;no setup was performed. This is assignment-scope evidence,distinct from the previously documented EXP HOLD recall. Position relative to effects,bypass,headphone,tail andrecorded-loop attenuation remain unverified.
+
+The [manufacturer instrument-input answer](https://support.roland.com/hc/en-us/articles/22184017569563-VE-22-Can-I-connect-an-instrument-such-as-a-guitar-or-keyboard-to-apply-effects),updated2026-06-19,limits INPUT to microphones andstates AUX receives no effects. Thus global vocal-volume support does not qualify the requested direct normal-guitar path. Retain vocal membership,outside guitar capability table;218W×143Dmm also exceeds preference. Dedicated PHONES/LINE remains separate. No hardware test ordownload.
+
 ## VE-500
 
 Vocal multi-effects with guitar/MIDI-guided harmony and vocoder. Consolidated/researched2026-10-16;partial verification.
