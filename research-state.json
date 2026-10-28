@@ -122687,8 +122687,7 @@
       "document": "NUX.md#amp-academy-ngs-6--partial-capability-lead",
       "checked": "2026-10-19",
       "remaining": [
-        "Readable original connector/panel evidence",
-        "Direct analog expression support",
+        "Complete physical control/screen andmemory profile; current category/import/synth/acoustic/NAM/power details",
         "Complete required model fields",
         "Exact offers saved; verify condition,current stock,bundle,warranty and checkout"
       ],
@@ -122714,7 +122713,23 @@
           "stock_snapshot": "unverified",
           "access": "three-month-old search index;direct page inaccessible"
         }
-      ]
+      ],
+      "connector_checked": "2026-10-28",
+      "connector_source": "https://www.manualslib.com/manual/3994930/Nux-Amp-Academy-Ngs-6.html?page=5",
+      "global_product": "https://nuxaudio.com/product/ampacademy/",
+      "direct_analog_exp": "absent from complete original connector inventory; INSERT audio not EXP",
+      "footprint_mm": {
+        "length": 105,
+        "width": 115,
+        "height": 58
+      },
+      "weight_g": 440,
+      "mobile_editor": [
+        "iOS",
+        "Android"
+      ],
+      "usb_midi": "explicit manufacturer page",
+      "next": "Complete remaining profile before inventory admission; no repeated analogEXP search without new connector evidence"
     },
     "ir200_lead": {
       "status": "partial, outside active inventory",

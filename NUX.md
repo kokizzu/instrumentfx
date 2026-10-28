@@ -51,6 +51,25 @@ Neither provides condition-confirmed new/used,exact bundle,regional warranty,aut
 
 [Current NUX USA exact-model page](https://www.nux.us/products/amp-academy) explicitly advertises **1024-sample IR processing,third-party IR import with editor auto-formatting**,and an included insert Y-cable. Included-cable statement describes its manufacturer package,not either Shopee bundle. [Support hub](https://www.nux.us/blogs/support/amp-academy-support-hub) still lists4.0.2 firmware and2.4.2.3 Windows/macOS editor. No packages fetched or installed;generic NAM A2 site navigation does not establish NGS-6 NAM support.
 
+### NGS-6 — readable connector evidence and exact global page, 2026-10-28
+
+[Original manufacturer manual reproduced at ManualsLib](https://www.manualslib.com/manual/3994930/Nux-Amp-Academy-Ngs-6.html?page=5),2021Cherub copyright,NGS-6 panel identity,original body pp3–5;16-page bilingual copy versus eight-page English source. Original body text used,not generated FAQs;no new visual inspection.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / direct expression screening | Complete manual connector section lists INPUT,OUTPUT,TRS INSERT send/return,balanced XLR DI,USB,DC,AUX andPHONE. **No analog EXP socket in this inventory**. INSERT is an audio loop,not expression. Built-in treadle absent from numbered control inventory;external direct-expression requirement fails on documented connectors. USB MIDI is a separate path. |
+| Power / headphones | Manual says9V negative-tip500mA supply and draw<300mA. PHONE is3.5mm and related to DI OUT;this is not proof of expression attenuation. |
+
+[Current manufacturer global NGS-6 page](https://nuxaudio.com/product/ampacademy/),read2026-10-28:
+
+| Field | Exact-model evidence / qualification |
+|---|---|
+| Dimensions / mass / power | **105L×115W×58H mm;440g**,rectangle fits preference.9VDC negative-tip,draw<300mA. Battery/USB power unverified. |
+| Categories / named choices | EFX lists **nine**:ROSE COMP,K COMP,KATANA,RC BOOST,AC BOOST,T SCREAM,MORNING DRV,RED DIRT,CRUNCH. Reverb lists **five**:ROOM,HALL,PLATE,SPRING,DAMP. Six-band guitar EQ;seven movable blocks. These are published current-page lists,not a complete firmware4.0.2 census. |
+| Editor / MIDI / audio | **EFX Mobile iOS/Android** explicitly advertised;USB MIDI implementation via editor. USB audio page describes four tracks for dry/reamp,not an unambiguous full channel matrix. USB host/controller wiring and OS-version compatibility unverified. |
+
+Still partial,outside392active models. Remaining:complete controls/screen andmemory profile,current category census,synth/acoustic andNAM distinctions,import restrictions,power-operation scope andqualified stock/condition. Earlier unreadable-PDF findings andoffers remain historical.
+
 ## Amp Academy Stomp
 
 Checked2026-10-17;partial. Separate hardware from original Amp Academy;not previously inventoried. Guitar multi-effects eligibility follows independent effects architecture. Bass/vocal suitability and ownership unresolved.
