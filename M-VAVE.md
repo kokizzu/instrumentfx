@@ -52,6 +52,13 @@ Sources: [original manufacturer ANN manual mirrored PDF](https://device.report/m
 
 <!-- comparison evidence ends -->
 
+
+### ANN Blackbox — direct expression screening,2026-10-28
+
+No dedicated analog EXP exists in the complete recorded panel inventory,so this model fails the required direct pedal path. USB/wireless MIDI expansion is a separate control route;continuous expression mapping remains unverified. [ANN manual-body extraction](https://device.report/manual/20316441),cover ANNBLACK BOX despite incorrect mirror P14/097 title,distinguishes hand MASTER from current-preset volume and states **MASTER excludes Bluetooth and USB input volume**. Main Display uses left/right footswitches for preset down/up;other screens repurpose them. Tuner offers Bypass/Mute,not a documented universal expression override.
+
+Existing113×109mm horizontal footprint fits either orientation;dedicated3.5mm stereo phones remain recorded. DirectEXP range/position recall are inapplicable;hand-volume bypass/headphone/tail/recorded-loop attenuation remains unknown. Both original/optimized PDF endpoints failed reopening;the text has OCR artifacts and no new visual inspection or printed revision verification is claimed. No older Blackbox identity equivalence inferred.
+
 ### Preserved original finding
 
 Complete dated source below retains its original page-specific evidence, source-quality cautions, hardware identity and price qualifications. The new index observation above does not constitute a new manual inspection or stock confirmation.

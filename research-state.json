@@ -123817,5 +123817,16 @@
       "power-on volume recall"
     ],
     "hardware_test": false
+  },
+  "annblackbox_expression_screen_20261028": {
+    "source": "https://device.report/manual/20316441",
+    "identity": "Cover ANNBLACK BOX; erroneous mirror P14/097 title and OCR artifacts retained",
+    "classification": "No dedicated analog EXP",
+    "remaining": [
+      "continuous MIDI mapping",
+      "attenuation coverage",
+      "printed revision"
+    ],
+    "hardware_test": false
   }
 }

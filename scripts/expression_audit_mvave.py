@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(mvave): screen TANK MINI expression and bypass volume'))
+    print(git('commit','-m','research(mvave): screen ANN Blackbox direct expression limitations'))
