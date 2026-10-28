@@ -128196,5 +128196,25 @@
     },
     "channel_button_source": "https://support.roland.com/hc/en-us/articles/201958139-GS-10-Initializing-Restoring-the-Factory-Settings",
     "remaining": "subtypes,firmware/imports,volume coverage,qualifiedShopee;partiallead"
+  },
+  "gs10_recall_bypass_20261028": {
+    "checked": "2026-10-28",
+    "source": "https://manualzz.com/doc/2026468/boss-gs-10-guitar-effects-system-owner%E2%80%99s-manual",
+    "pages": "64–66",
+    "assign_hold_on": "Carries Assign state; same volume target follows pedal; destination wah restores saved volume and follows angle for wah",
+    "assign_hold_off": "Saved destination volume until movement",
+    "toggle": "Assign Hold does not operate",
+    "scope": "Ordinary Assign examples; fixed SYSTEM Foot Volume recall/range interaction unverified",
+    "tuner": {
+      "options": [
+        "Mute",
+        "Bypass"
+      ],
+      "default": "Bypass",
+      "expression_exception": "not established, do not transfer GT-Pro guarantee"
+    },
+    "coverage": "headphone/tail/recorded-loop expression attenuation unknown",
+    "active": false,
+    "downloads": false
   }
 }

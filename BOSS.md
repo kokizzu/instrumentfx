@@ -493,6 +493,18 @@ The retained [original manual](https://manualzz.com/doc/2026468/boss-gs-10-guita
 
 Counts are text-derived,not a visual/hardware audit. Full subtype/firmware census,custom-count explanation,imports,volume coverage and qualified Shopee offers remain open;GS-10 stays a partial lead outside active counts.
 
+### GS-10 — Assign Hold recall and tuner bypass boundary
+
+Checked 2026-10-28 against the retained [manufacturer-authored manual](https://manualzz.com/doc/2026468/boss-gs-10-guitar-effects-system-owner%E2%80%99s-manual), printedpp64–66. Exact original GS-10 body; no hardware test.
+
+| Field | Documented behavior / limitation |
+|---|---|
+| Expression / Assign Hold On | Carries ordinary Assign operational state across patches. Volume→volume example follows current pedal angle; volume→wah uses destination patch volume while wah follows the angle. This is target-dependent recall,not a global assignment lock. |
+| Expression / Assign Hold Off | Destination volume starts at its saved patch value; subsequent pedal movement changes it. Assign Hold does not operate with Toggle source mode. Fixed SYSTEM Foot Volume behavior is not independently resolved by these Assign examples. |
+| Bypass / tuner | Tuner offers **Mute** or **Bypass**;Bypass sends input without processing and is the documented factory default. No explicit expression-volume exception is stated here,so do not borrow GT-Pro’s tuner-volume guarantee. Headphone,tail and recorded-loop coverage remain unknown. |
+
+Physical knob Current Setting mode is a separate pickup behavior,not expression recall. The documented global pedal role remains supported;range precedence,universal output attenuation and actual M-VAVE compatibility remain unverified. Partial lead stays outside active counts. No local file downloaded ordevice operated.
+
 ## GT-1
 
 Consolidated and refreshed **2026-10-16**; partial technical verification. Original dates, prices and limitations remain below. Historical next-model notes are provenance; use research-state.json for the current queue.
