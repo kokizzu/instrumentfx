@@ -129196,5 +129196,15 @@
     "remaining": "Analog/headphone, bypass, tails and recorded-loop attenuation; primary dimensions, full profile and qualified Shopee.",
     "active": false,
     "downloads": false
+  },
+  "pod_black_amp_cab_20261028": {
+    "checked": "2026-10-28",
+    "source": "https://manualzz.com/doc/81729734/line-6-pod-express---black-owner-s-manual",
+    "revision": "Rev E / 2.00 pp19,21–23",
+    "finding": "Seven matched amp/cab rows recorded; post-amp gate senses raw input.",
+    "active": false,
+    "market_search": "Targeted exact Black Shopee search returned no qualified hit; not absence proof.",
+    "next": "Complete remaining Black profile and qualified hardware discovery; primary dimensions and output coverage unresolved. Preserve independent GT-Pro cursor.",
+    "downloads": false
   }
 }

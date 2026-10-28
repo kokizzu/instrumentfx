@@ -593,3 +593,5 @@ AM4 [catalogue admission](FRACTAL-AUDIO.md#am4),2026-10-28: active **partial** g
 POD Express Black [effects and tempo boundary](LINE6.md#black--named-effects-census-and-modulation-sync-behavior):17choices include a shared delay/reverb/looper category;Black modulation defaults unsynced toTap. These settings do not establish final-output expression attenuation. Manufacturer chassis dimensions remain unknown.
 
 Black [USB coverage exception](LINE6.md#black--usb-dry-recording-volume-exception): Rev E explicitly includes Black; fixed dry USB recording bypasses volume/gain. Other output-coverage gaps remain.
+
+Black [amp/cab and gate clarification](LINE6.md#black--ampcab-menu-and-gate-placement): separate from expression-volume coverage.

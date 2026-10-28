@@ -169,6 +169,22 @@ Numerical Black chassis/mass andexactShopee hardware remain unverified;retailer 
 
 Checked 2026-10-28 against the manufacturer-authored [Rev E / firmware 2.00 manual reproduction](https://manualzz.com/doc/81729734/line-6-pod-express---black-owner-s-manual), printed pages 36–37. Its title explicitly includes Black; this is not transferred from a pre-Black revision. Device-to-host USB 1/2 carries processed audio; USB 3/4 carries input-direct DI at a fixed level unaffected by volume or gain parameters. Thus expression volume is not an all-recording-output mute. Processed USB recording level follows AMP CH VOL. Host-to-device USB 1/2 is unprocessed playback; USB 3/4 feeds re-amping. These are opposite directions, not additional physical sockets. Analog/headphone, bypass, tail and recorded-loop expression attenuation remain separately unverified. No hardware or software was run or downloaded.
 
+### Black — amp/cab menu and gate placement
+
+Checked 2026-10-28: manufacturer-authored [Rev E / 2.00 manual](https://manualzz.com/doc/81729734/line-6-pod-express---black-owner-s-manual), printed pp19,21–23. Black-specific table:
+
+| Selector | Amp basis | Matched cabinet / speaker |
+|---|---|---|
+| PURE | PRS Archon, Clean | 1×12 MESA/Boogie Extension, EVM12L |
+| DIRGE | Sunn Model T, Brite | 4×12 Sunn, G12T-75 |
+| CRUX | Orange Rockerverb 100 MkIII, Dirty | 2×12 Orange, V30 |
+| ANVIL | Line 6 Badonk | 4×12 MESA/Boogie 4FB, V30 |
+| SLAY | PRS Archon, Lead | 4×12 Marshall Basketweave, G12M-25 |
+| MEGA | Diezel VH4, Mega | 4×12 Bogner Überkab, V30 |
+| AVANT | Revv Generator 120, Red/High Gain | 4×12 ENGL XXL, V30 |
+
+Amp selection loads its matched cabinet; another of the seven cabinets or cabinet Off can be selected independently. Amp/cab models are mono. Black’s gate is placed after the amp but keyed from the device input; the generic input-gate description is not its processing position. These are fixed-chain functions, not additional selectable effects or parallel amp paths. Exact chassis dimensions, qualified Shopee hardware and remaining volume coverage are unresolved.
+
 ## Floor POD Plus
 
 Guitar multi-effects;checked2026-10-17;partial. [Own Spanish manual][FPP-M],40-00-0116RevB,©2009,36pages,sections1,2,3,4. Not original FloorPOD. Bass direct-box use documented below;live-vocal suitability andownership unverified.
