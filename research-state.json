@@ -129084,5 +129084,32 @@
     "remaining": "ExactIRfile/lengthlimits,currentcensus,profile/qualifiedoffers,globalvolumeoutputcoverage",
     "active": false,
     "downloads": false
+  },
+  "am4_memory_editor_headphones_20261028": {
+    "checked": "2026-10-28",
+    "sources": [
+      "https://www.fractalaudio.com/downloads/manuals/AM4/AM4-Owners-Manual.pdf",
+      "https://www.fractalaudio.com/am4-edit"
+    ],
+    "memory": {
+      "total": 104,
+      "writable": 104,
+      "factory_fill": "Severalblank;exactsplitunverified"
+    },
+    "scenes": 4,
+    "channels_per_block": 4,
+    "scope": "Channelschangeparameters/subtype,notcategory;AmpincludesCab;modifiersapplyallchannels",
+    "split": "Summedmonobothoutputs,Lcab/Rnoc ab;phonesinherit;cabstagechainend",
+    "expression_phones_attenuation": "unknown",
+    "editor": {
+      "version": "1.00.09",
+      "date": "2026-09-08",
+      "mac": "10.13+",
+      "windows": "11+64-bitmain,requiredUSBdriver;32bitoptionnotcertifiedequivalent",
+      "mobile_linux": "unknown"
+    },
+    "active": false,
+    "next": "AM4fullpartialprofileandqualifiedhardwareoffers;resolveUSB/control/massconflictsandIRformats",
+    "downloads": false
   }
 }

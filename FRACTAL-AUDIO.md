@@ -83,6 +83,18 @@ Cab section mixes **two DynaCabs or user IRs**, with blend/pan; each amp channel
 
 Partial lead remains outside active counts. ExactShopee hardware,remaining profile fields andglobal-volume output coverage stay open. No local download ordevice test.
 
+### AM4 — writable presets, scene scope, headphones and editor
+
+Checked 2026-10-28 against [own v1.0.2 manual](https://www.fractalaudio.com/downloads/manuals/AM4/AM4-Owners-Manual.pdf), printed pp20,31,38,64. **104 slots =26banks×4; all writable**, including factory tones. Several are intentionally empty; exact initial-filled/blank split remains unverified, not104 protected factory presets plus user memory.
+
+**Four scenes per preset;four channels per block.** Channels change subtype/parameters, not category; Amp channels include both amp/cab settings. Scene changes must be saved with the preset; modifiers apply across channels. These variations do not multiply simultaneous slots orstorage locations.
+
+**Split Mode** sums both outputs to mono, with cab simulation onLeft butnotRight, andmoves the cab stage tochainend. Headphones inherit that split,including uncabbedRight. This documents headphone signal content, not globalEXP attenuation ofphones,bypass orloops. Specialtemplate exceptions remain.
+
+[Current AM4-Edit page](https://www.fractalaudio.com/am4-edit) lists **1.00.09,2026-09-08**: macOS10.13+; mainWindows package11+64-bit andrequiredUSBdriver. It also links a32-bit version without equivalent support certification. Full editor/librarian handles presets/usercabs,BlockLibrary,ChannelCopy andSceneSwap;Fractal-Bot updater/backup isembedded. Linux/mobile support unverified; no VP4minimum copied.
+
+Partial lead remains outside activecounts;exactShopee hardware,import-format limits,source conflicts andvolume coverage remain. No download,installation ordevice test.
+
 ## FM3 MKII Turbo
 
 Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; original FM3 offers are not merged. Manufacturer's 7.x manual expressly covers both revisions; current firmware listing is newer. Unknown means unverified.

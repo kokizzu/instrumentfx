@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(fractal): document AM4 block limits and dual-cab behavior'))
+    print(git('commit','-m','research(fractal): qualify AM4 memory editor and headphone split'))
