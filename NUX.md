@@ -1460,11 +1460,13 @@ Own [NUX legacy page][PG2-P] links [English V1 PDF][PG2-M],one page with no brow
 
 ## Stageman Floor NAP-5
 
+<!-- comparison evidence begins -->
+
 Checked2026-10-17;partial. Acoustic guitar multi-effects: analog preamp plus independently controlled chorus/reverb/freeze and looper, not inferred from EQ alone. Bass/vocal capability unestablished. [Manufacturer](https://nuxaudio.com/product/stagemanfloor/).
 
 | Field | Finding |
 |---|---|
-| Expression | No treadle/toe/EXP in manual layout; external control unverified. |
+| Expression | No built-in treadle or analog EXP in complete manual inventory; INSERT is audio send/return. Direct pedal volume unavailable; attenuation coverage unknown. |
 | Knobs / footswitches / buttons |7 knobs;2 footswitches;0 pushbuttons;4 toggles(Scoop,Notch,Pickup,Lift). |
 | Display | LEDs;no screen documented;diagonal/color/touch specification unavailable. |
 | Processing / choices | Analog preamp,3-band EQ,notch;digital chorus/reverb with freeze on held Chorus switch. Both effect knobs control multiple parameters. Freely assignable block capacity and alternative algorithm banks unverified. [Product](https://nuxaudio.com/product/stagemanfloor/). |
@@ -1509,6 +1511,8 @@ All identify NAP-5 Stageman Floor hardware. New/used condition, working status, 
 | EQ / published ranges | English PDFp7 specifies **±10dB** at **80Hz bass,1.8kHz middle,15kHz treble**. Chorus combinesmix/depth/rate;reverb combinesmix/decay ratherthan independently exposedparameters(PDFp3). [Manual](https://manuals.plus/m/f2352c8d06dea0a95dfb47fb49c7a5dc93cc13ed45c44bf91264d334231177c2_optim.pdf) |
 | Audio / source-unit qualification | English PDFp7:20Hz–20kHz±1dB,noise−110dBu A-weighted;dynamicrange printed **120dBu** inbothlanguage tables. Retainthis questionableunit ratherthan silentlyrewriteas120dB;measurementconditions/reference unresolved. [Manual](https://manuals.plus/m/f2352c8d06dea0a95dfb47fb49c7a5dc93cc13ed45c44bf91264d334231177c2_optim.pdf) |
 | Ports / published jack sizes | [NUX product](https://nuxaudio.com/product/stagemanfloor/) specifies1/4inchTRSinsert,**1/8inchAUX andheadphones**,Micro-BUSB2.0updater. Chinese manualPDFp11prints3.55mm forAUX/phones;preservetypographicdifference,notadifferentconfirmedconnectorstandard. |
+
+<!-- comparison evidence ends -->
 
 ### Stageman Floor — direct expression screening,2026-10-28
 

@@ -123880,5 +123880,9 @@
       "attenuation coverage"
     ],
     "hardware_test": false
+  },
+  "stageman_comparison_scope_20261028": {
+    "change": "Explicit comparison evidence boundary retains prior tables and sources, excludes detailed audit prose from repeated generated columns",
+    "preservation": "All detailed audit paragraphs retained in NUX.md; concise expression table updated"
   }
 }
