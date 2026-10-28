@@ -422,6 +422,15 @@ Checked **2026-10-17**, partial. Guitar desktop multi-effects; distinct from ori
 | **Condition unknown Rp1,100,000** | [sitiadiran, item 59084647/2820560961][V2-O1], Kabupaten Jember. Indexed last week, delivery 8–11 October; exact open failed. Bundle, warranty, condition and stock **?**. Late-delivery voucher up to Rp10,000 not deducted. |
 
 Sources checked 2026-10-17. Manufacturer manual text inspected in the web viewer; no local manual, software, firmware or dependency downloads. Complete manual audit remains unfinished. Vocal-track preamp use in the manual does not establish an independently documented live microphone path; bass membership remains unverified.
+### V-AMP 2 — direct analog expression screening, 2026-10-28
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / complete inventory | [Manufacturer RevC manual reproduction](https://manuals.plus/m/836b05fe83f96462273bd99c2bba228a02286e5ca0b7f38e51c7cea10d4013ad),v1.2 September2002,26pages,pp7–10:complete numbered controls1–23 include **no analog EXP input**. FS112V socket is for switches;DINMIDI accepts a MIDI controller. Directanalog path fails. Current primaryPDF returned500;own-model identity/revision matches existing source. |
+| Controls / volume scope | MASTER is overall volume;VOLUME belongs to selected preset. MASTER/AUXLEVEL are conventional controls,others encoder-type. This doesnot establish MIDI pedal range/recall or bypass/headphone/tail/loop attenuation. |
+| Controls / onboard switching | **No onboard footswitches**;hand BANKdown/up andA–E. External FS112V’s within-bank versus bank-switch wording conflict remains unresolved;not silently described as onboard preset−/+. |
+| Dimensions / screening | Existing236W×180Dmm exceeds200W×140Dpreference;dedicated stereoPHONES. AnalogEXP position/range/coverage N/A;MIDIbehavior remains separate. |
+
 <!-- comparison evidence ends -->
 
 [V2-P]: https://www.behringer.com/en/products/0709-AAD
