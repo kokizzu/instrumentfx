@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(soran): qualify exact Dual Stomp Lite Shopee snapshots'))
+    print(git('commit','-m','research(soran): qualify Dual Stomp Lite preset-fill claim'))

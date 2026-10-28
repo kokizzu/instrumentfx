@@ -126023,5 +126023,17 @@
     ],
     "scope": "Condition/bundle/firmware/livecheckoutunknown;separateasksnotrange;technicaleligibilityunchanged",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "dualstomplite_prefill_claim_20261028": {
+    "source": "https://soranaudio.com/products/27.html",
+    "finding": "Manufacturer explicitlyadvertises99ready-to-use userpresets,80guitar/19bass;not99factory+99user.",
+    "qualification": "Manufacturerprefillclaim,notindependentreset/unitverification;protectedbank/resetbehaviorunknown.",
+    "manual": "OriginalV1.0.0still403;alternatePDFpartialtextnotoperatingproof;noavailablebrowser",
+    "remaining": [
+      "Originalmanualidentity/fullbody",
+      "No-treadle/EXPcontrols/presetdirection",
+      "Firmware-qualifiedretention/reset"
+    ],
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

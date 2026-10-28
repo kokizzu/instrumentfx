@@ -81,7 +81,7 @@ Guitar/bass multi-effects, checked 2026-10-18; partial. Separate hardware from D
 | K/F/B | Separate counts unverified; manufacturer calls it Dual Footswitch, but complete control enumeration pending manual. [DSL-P] |
 | Display | 2-inch color TFT; touch unverified. [DSL-P] |
 | Processing / choices | Advertised 125 effects; ten simultaneous modules: GATE, OD/FX, AMP, CAB, EQ, MOD, DEL, REV, LOOP, DRUM. Own category enumeration pending; do not transfer Tiny’s count audit. [DSL-P] |
-| Factory / user memory | 99 user locations; 01–80 guitar, 81–99 bass. Factory/user relationship needs manual verification. [DSL-P] |
+| Factory / user memory | **99 user locations**,01–80 guitar/81–99 bass. Current manufacturer page explicitly advertises **99 ready-to-use user presets**,a manufacturer prefill claim,not99 factory+99 user orindependent factory-memory verification. Protected-bank structure andreset behavior remain unverified. [DSL-P] |
 | Synth / acoustic | Specific synthesis/acoustic simulation unverified. |
 | Dimensions / mass | 135L×116W×48H mm; 378 g. [DSL-P] |
 | I/O | Mono¼TS input; two¼unbalanced TRS-labelled mono outputs;⅛stereo phones;⅛TRRS AUX in/out;USB-C. TRS label does not establish balanced outputs. [DSL-P] |
@@ -140,6 +140,12 @@ Checked 2026-10-28. Separate hardware offers; none establishes a completed sale 
 | IDR / TOKOAUDIOPRO hardware ask | **Rp1,500,000,Habis**, TOKOAUDIOPRO.COM,Kota Jakarta Pusat,shop253483262/item23506294895. [Exact Lite item](https://shopee.co.id/Soran-Audio-Dual-Stomp-Lite-Amp-Modeling-Multi-effects-Processor-Efek-Gitar-i.253483262.23506294895). | Two-week search body;directreopen onlyJavaScript shell. Relative same-day delivery does not override sold-out label. |
 
 All three explicitly name Dual Stomp Lite hardware. Condition/new-versus-used,working state,selected variant,bundle/adapter,firmware,battery health,warranty/authenticity,shipping/tax,voucher eligibility andcheckout total remain unverified. Up-toRp10,000late-arrival compensation is not an upfrontdiscount. No used/new range inferred;earlier cveriask retained. None resolves no-treadle/EXP eligibility orglobal-volume scope. No downloads ordevice operation.
+
+### Dual Stomp Lite — manufacturer preset-fill claim
+
+Checked 2026-10-28: [exact manufacturer page](https://soranaudio.com/products/27.html),“99 Ready-to-Use Presets” andspecification table,explicitly describes99 user presets,01–80guitar and81–99bass. Current comparison now distinguishes this claimed initial content from99storage locations. The manufacturer doesnot describe an additional protected99-preset bank here;none is added. Independent unit/reset inspection andfirmware-matched manual confirmation remain pending.
+
+The linked original V1.0.0 manual still returns403. The alternate JME-02/AE-100M PDF remains only partly text-readable;generated retail-manual prose is not accepted as operating documentation. No analog EXP,control-count,preset-direction orretention conclusion follows fromthat access failure. Existing prices,source conflicts andpending capability-screen status remain. No localdownloads ordeviceoperation.
 
 ## Go Rig B
 
