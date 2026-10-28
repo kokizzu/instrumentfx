@@ -57,6 +57,15 @@ Bass multi-effects;partial,checked2026-10-18. Distinct fromAX3G/AX5B. [Own manua
 | Memory / reload source conflict | AX3B manual p10 says poweron holding both program switches plus **WRITE**;thenCANCEL aborts orWRITE confirms. Shared [EasyStart p2](https://cdn.korg.com/us/support/download/files/1920f44acd69ffde968ab9fb92940e11.pdf) instead says both switches plus **CANCEL** atentry. Preserve conflicting entry instructions;no hardware reset tested. Both describe factory programs replacing user memory. [Own manual](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
 | Power / low-battery indication | Manual p10 documents blinking **Lo** when batteries runlow. This is a low-battery indicator,not a numeric remaining-charge gauge. Unitcurrent remainsunverified;compatibleadapterpolarity evidence isqualified inthePowerrow. [Own manual](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B). |
 
+### AX3B — conditional expression volume 2026-10-28
+
+| Field | Finding / qualification |
+|---|---|
+| Expression / across-preset scope | Exact AX3B_EFG1 original manual p5 reconfirms EXP-2/XVP-10: wah when PRE FX uses WAH, volume otherwise. **Conditional**, not a documented global volume override. No built-in treadle in own control inventory; no visual/hardware test. [Manufacturer manual](https://cdn.korg.com/us/support/download/files/cce52e3645a8240eb2fccf9ccf84ba65.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3B_EFG1.pdf&response-content-type=application%2Fpdf%3B), indexed pp5,7,11. |
+| Controls / preset down-up | Own p5: Program Up increases, Program Down decreases program number. In Edit mode these show parameter value/type instead. Hand WRITE/CANCEL buttons step10 programs; these are separate controls. |
+| Expression / remaining coverage | Own p7 explicitly requires a connected pedal for VOLUME PEDAL. Exact routing arrows were not visually inspected; no borrowed AX3G placement claim. Volume position,min/max,recall,bypass/headphone attenuation,tails and recorded-loop coverage remain unverified. |
+| Dimensions / preferred fit | Own p11:178W×142Dmm;2mm deeper than preferred limit. Shared stereo OUTPUT accepts phones; no independent expression-headphone coverage proof. Guitar suitability remains unclassified despite ordinary instrument input. |
+
 <!-- comparison evidence ends -->
 
 ## AX3G
