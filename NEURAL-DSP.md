@@ -94,7 +94,7 @@ The [complete original comparison](MULTI-EFFECTS.md)<!-- historical-link:neural-
 
 | Field | Evidence and qualification |
 |---|---|
-| Expression | No built-in pedal; one external EXP/MIDI Type A socket, mutually exclusive modes. Toe behavior unverified. [M] |
+| Expression | No built-in pedal; one external EXP/MIDI Type A socket, mutually exclusive modes. Latching/momentary documented; momentary needs Latching Emulation. Setup-article conflict retained below. [M] |
 | K/F/B | 7 knobs **plus2 rotary footswitch encoders /2 footswitches /5 digital buttons**; two analog switches additional. [M] |
 | W×D×H; weight | **144×103×62mm;620g**. [M] |
 | Size class | Compact. |
@@ -123,7 +123,7 @@ The [complete original comparison](MULTI-EFFECTS.md)<!-- historical-link:neural-
 
 ### Remaining verification
 
-External toe-switch behavior, precise live-vocal/capture-mic limitations, internal battery, published graphical-screen attributes, native/converted NAM, synth/acoustic algorithms and looper/drum/scene support remain open. Source absence is not proof of absence. Price condition, regional warranty, accessories, discounts and current availability require direct seller/checkout confirmation. All model records remain partial.
+Exact external controller wiring/behavior, precise live-vocal/capture-mic limitations, internal battery, published graphical-screen attributes, native/converted NAM, synth/acoustic algorithms and looper/drum/scene support remain open. Source absence is not proof of absence. Price condition, regional warranty, accessories, discounts and current availability require direct seller/checkout confirmation. All model records remain partial.
 
 ### Nano Cortex — global expression-volume audit, 2026-10-19
 
@@ -142,6 +142,14 @@ External toe-switch behavior, precise live-vocal/capture-mic limitations, intern
 | External expression / unresolved volume scope | LEVEL still appears in the manual target list but not the setup article. Preset-wide assignment, headphone attenuation and bypass/tail coverage remain unverified. Knob Parameter Lock only prevents accidental rotary adjustment; it is not volume-assignment persistence. |
 
 Manual and [setup article](https://neuraldsp.com/getting-started/using-midi-on-nano-cortex) rechecked; preserve their disagreement and the separate capture-volume/main-output/headphone paths. No hardware operation or local downloads.
+
+### Nano Cortex — calibration context and conflicting toe instructions, rechecked 2026-10-28
+
+The [official NanOS 2.2.0 manual](https://neuraldsp.com/manual/nano-cortex) places its explicit OUTPUT 1L/headphone **OUTPUT LEVEL** control in **New Neural Capture → Calibration Settings**. That capture-monitoring context does not prove expression attenuation of headphones during performance. Its expression section still lists LEVEL without stating across-preset assignment persistence.
+
+The [official MIDI setup article](https://neuraldsp.com/getting-started/using-midi-on-nano-cortex) instead ties momentary toe operation to Cortex Control’s knob-latching setting. This conflicts with the manual’s explicit **Latching Emulation** instruction; preserve the discrepancy rather than treating physical-knob latching as toe-switch configuration. Earlier toe support is documented, but exact controller wiring and actual behavior remain untested.
+
+[Exact Shopee hardware offer](https://shopee.co.id/Neural-DSP-Nano-Cortex-Digital-Effects-Processor-i.16879370.51902266280), seller16879370/item51902266280, Seven Stereo Music & Audio Store, Kota Bandung: reader reopened 2026-10-28 returns a month-old **Rp11.900.000 / Habis** snapshot. This refresh does not establish live stock, condition, bundle, voucher eligibility or checkout price; used IDR remains unknown. Earlier dated observations remain above.
 
 ## Quad Cortex
 

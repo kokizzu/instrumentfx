@@ -122571,9 +122571,9 @@
   "expression_volume_audit": {
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
-    "checked": "2026-10-22",
-    "current": "GP-50 additional exact offer and current documentation access",
-    "finding": "Patch pedal wah/pitch takes priority over volume; no universal override established. EQ→MOD; bypass/phones/range remain unknown.",
+    "checked": "2026-10-28",
+    "current": "Nano Cortex manual context, toe-instruction conflict and exact cached Shopee offer rechecked",
+    "finding": "Global assignment remains unverified; capture-calibration headphone control does not establish performance EXP attenuation. Manual Latching Emulation conflicts with setup article knob-latching instructions.",
     "next": [
       "Ampero Mini/Nano Cortex across-preset volume assignment remains unverified; manufacturer confirmation or readable exact-revision evidence needed",
       "Exact HX and GT-1000CORE documentation and headphone/tail/looper coverage",
@@ -122688,6 +122688,32 @@
       },
       "manual": "Official1.1.0 entry exists; linkedPDF inaccessible; product FAQ still links1.0.5",
       "global_volume": "unverified"
+    },
+    "nano_recheck_20261028": {
+      "sources": [
+        "https://neuraldsp.com/manual/nano-cortex",
+        "https://neuraldsp.com/getting-started/using-midi-on-nano-cortex",
+        "https://shopee.co.id/Neural-DSP-Nano-Cortex-Digital-Effects-Processor-i.16879370.51902266280"
+      ],
+      "manual_revision": "NanOS 2.2.0 HTML",
+      "global_volume": "unverified",
+      "capture_calibration_not_performance": true,
+      "toe_instruction_conflict": true,
+      "offer": {
+        "seller": "16879370",
+        "item": "51902266280",
+        "seller_name": "Seven Stereo Music & Audio Store",
+        "region": "Kota Bandung",
+        "idr": 11900000,
+        "snapshot_stock": "Habis",
+        "cache_age": "month-old",
+        "condition": "unverified",
+        "bundle": "unverified",
+        "voucher": "unverified",
+        "checkout": "unverified",
+        "used_idr": null
+      },
+      "next": "Ampero Mini global-volume assignment scope; keep independent general queue and GT-Pro cursor intact."
     }
   },
   "brand_navigation": {
