@@ -982,6 +982,12 @@ Additional [Sahabat Amanah Store,410272868/56412857608](https://shopee.co.id/NEW
 The indexed [V01_250925 quick leaflet](https://newgearday.com/image/catalog/files/GP-50_Manual_EN_V01_250925.pdf) returned404;its search snippet is not adopted as current electrical or1.1.0 manual evidence. Existing exact1.1.0 access gap/global-volume uncertainty remain. No downloads ordevice operation.
 
 
+### GP-50 — exact Solo hardware asking-price evidence
+
+Checked **2026-10-28**: [Liam_shop exact item](https://shopee.co.id/Valeton-GP-50-i.106037376.41181463437?extraParams=%7B%22display_model_id%22%3A336016447769%2C%22model_selection_logic%22%3A3%7D),shop106037376/item41181463437,**Kota Surakarta(Solo),Rp2.300.000**. Direct reader body is a **month-old cache**,with2–3September delivery text;noHabis label is exposed,which doesnot confirm stock. The URL carries display_model_id336016447769 butthe body doesnot name a selected variant. Title identifies GP50 hardware,not a controller orGP5. Condition andwhether sold as new orsecondhand remain unverified;variant,bundle/adapter,installed firmware,regional warranty,shipping/tax,usable vouchers andcheckout availability are unknown. Late-deliveryRp10.000 compensation is not an upfront discount. Preserve other sellers/amounts independently;this is not a completed sale orlive range.
+
+The exact manufacturer1.1.0 manual route remains inaccessible inthispass;no analog global-volume finding is inferred fromthis offer orfromMIDI master-volume support. Existing1.0.5 technical qualifications remain. No file download.
+
 ## GP-100
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
