@@ -122634,8 +122634,8 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-28",
-    "current": "PowerHead MK2 monitor-volume boundary",
-    "finding": "Separate current Rack connector/footprint evidence; volume lock is documented with revision and output-coverage limitations.",
+    "current": "Nano Cortex dated LEVEL-menu discrepancy",
+    "finding": "Official2.2.0 manual lists LEVEL;dated user reports describe missing menu target without version orstaff resolution.",
     "next": [
       "Ampero Mini/Nano Cortex across-preset volume assignment remains unverified; manufacturer confirmation or readable exact-revision evidence needed",
       "Exact HX and GT-1000CORE documentation and headphone/tail/looper coverage",
@@ -124827,6 +124827,22 @@
     "document": "KEMPER.md#powerhead-mk2--monitor-volume-target-boundary",
     "finding": "Manufacturer13.0 p183 separately targets monitor/internal amplifier with Monitor Volume;not whole-output attenuation proof",
     "remaining": "Ordinary volume lock/current MK2 scope andcomplete coverage;do not inherit Head row automatically",
+    "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "nano_level_menu_reports_20261028": {
+    "checked": "2026-10-28",
+    "source": "https://unity.neuraldsp.com/t/can-the-expression-pedal-be-assigned-to-global-output-level/21384",
+    "report_dates": [
+      "2026-02-24",
+      "2026-05-09"
+    ],
+    "evidence_class": "Firsthand user reports on manufacturer forum;not staff technical confirmation",
+    "unknown": [
+      "Installed firmware/app versions",
+      "Whether LEVEL removed or renamed",
+      "Global assignment andcomplete output coverage"
+    ],
+    "next": "Manufacturer/version-qualified clarification of manual-listed LEVEL versus reported UI;do not conflate Capture Volume",
     "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

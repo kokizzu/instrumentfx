@@ -190,6 +190,12 @@ Condition, working state, selected variant, firmware, adapter/cables/bundle, sel
 Checked2026-10-28: [manufacturer NanOS2.1.0 notes,2025-07-24](https://neuraldsp.com/nano-cortex-updates/nanos-2-1-0-is-now-available), Preset management, fix expression assignments being deleted from an **unsaved preset** after entering/exiting the Capture menu. This explicitly associates assignment state with a preset; it does **not** document a separate global override or prove one absent. Across-every-preset volume therefore remains unverified. Preserve the later2.2.0 reload/knob-interaction corrections and2.2.1 boot hotfix above. The same2.1.0 notes separately introduce USB playback level, analog-input direct-monitor mute and analog-output mute; those functions do not establish analog EXP control of all audio paths. No firmware/software downloaded or hardware tested.
 
 
+### Nano Cortex — external expression LEVEL-menu discrepancy reports
+
+Checked **2026-10-28**. [Manufacturer-hosted discussion](https://unity.neuraldsp.com/t/can-the-expression-pedal-be-assigned-to-global-output-level/21384): user rkkk reports missing expression **LEVEL** on2026-02-24 andasks whether Capture Volume replaced it;gleighsd reports the same issue on2026-05-09. The retrieved thread has **no manufacturer staff answer**,andneither report establishes installed firmware/app version. These are firsthand user reports,not manufacturer-certified removal orglobal-scope specifications.
+
+The [current official manual2.2.0](https://neuraldsp.com/manual/nano-cortex),Expression Pedal Assignments,still lists LEVEL. Preserve the conflict andearlier setup-article omission. Do not label LEVEL available on every current unit,removed universally,orCapture Volume equivalent to final master. The precise next evidence needed is firmware/app-qualified manufacturer clarification ordevice observation. Across-preset assignment andheadphone/bypass/tail coverage remain **unverified**. No software downloaded ordevice operated.
+
 ## Quad Cortex
 
 Partial record checked **2026-10-17**. Full Quad Cortex,distinct from Nano Cortex andQuad Cortex mini. Product page advertises CorOS4.1.0;current web manual identifies4.1.1. Seller firmware unverified.

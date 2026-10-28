@@ -352,3 +352,5 @@ GT-1000CORE tuner boundary,2026-10-28: [original2020 parameter guide,p55](https:
 HX Stomp snapshot boundary,2026-10-28: [manufacturer3.50 notes](https://kb.line6.com/helix-3-50-release-notes) explicitly allow per-parameter Snapshot Control Off,defaultOn. This is separate from block Snapshot Bypass and global EXP-position recall; none creates an all-preset volume assignment.
 
 HX Stomp XL loop boundary,2026-10-28: [own3.80 RevD manual,pp41–42](https://device.report/m/7e506bff9341be7f9712b0e10533b9bdee5aaf9de1a0a08688b58130ea5d5e35) requires matching looper algorithm and mono/stereo type in the destination preset for continued playback. Continuity is separate from expression attenuation of recorded audio; that coverage remains unverified.
+
+Nano Cortex [dated LEVEL-menu reports](NEURAL-DSP.md#nano-cortex--external-expression-level-menu-discrepancy-reports): February/May2026 users report a missing target;no staff answer orfirmware/app version established. Official2.2.0 manual still lists LEVEL. This corroborates a documentation/UI question,not confirmed removal;global volume remains unverified.
