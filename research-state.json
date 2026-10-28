@@ -124235,5 +124235,16 @@
     "footprint": "480W×324.4Dmm includingattachments too large",
     "presets": "No onboard footswitch;externalINCDEC separate",
     "remaining": "MIDIheldangle/bypass/tail/Freeze attenuation andprior technical gaps."
+  },
+  "spx1000_expression_screen_20261028": {
+    "source": "https://jp.yamaha.com/files/download/other_assets/3/325543/SPX1000E.pdf",
+    "identity": "Own79-page manual printed3–5,10–11,33/Add-31 text reopened.",
+    "expression": "TwoFC7 analogcontroller inputs;target/range stored peruser41–99;unsaved assignments lost;PERPROGRAM globaloverride unknown.",
+    "midi": "CC mapped to assignedtargets;CC7Volume label not independentglobalvolume.",
+    "headphones": "No socket in complete panel inventory.",
+    "footprint": "480W×319Dmm too large.",
+    "guitar": "Line-level preamp/mixer path.",
+    "presets": "No onboard footswitch;handselection+RECALL;externalmemorycycle separate.",
+    "remaining": "Heldangle/bypass/tail/Freezeattenuation,pinout andprior gaps."
   }
 }

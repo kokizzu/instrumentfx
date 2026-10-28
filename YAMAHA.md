@@ -670,7 +670,7 @@ Checked2026-10-17;partial. Own compressor description includes electric guitar a
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | No built-in pedal/toe; two front EXT CTRL/FOOT VOL sockets accept FC7 controllers with assignable parameters and min/max range. | [Manual pp3–4,10–11][S1-M] |
+| Expression | No built-in pedal/toe; two front EXT CTRL/FOOT VOL sockets accept FC7 controllers with target/min/max stored per user program41–99;global target override unverified. | [Manual pp3–4,10–11][S1-M] |
 | K/F/B | **2 rotary /0 footswitches /15 buttons**: concentric L/R input;PARAM,LEVEL,EQ,INT PARAM,SCROLL BACK,EXT CTRL ASSIGN,two parameter arrows,two program arrows,RECALL,STORE,UTILITY,TRIGGER,BYPASS. Power/rear switches additional; text-derived,visual corroboration pending. | [Manual pp3–4][S1-M] |
 | Display | 16×2 character LCD;two-digit memory LED;stereo eight-segment level meters. Diagonal,color/touch unverified. | [Manual Add-31][S1-M] |
 | Processing / categories | 40 preset programs include reverbs,delay,modulation,dynamics,multi-effect and independent two-channel programs. 44.1kHz;each program has two-band parametric EQ/dynamic-filter parameters. Catalogue counts below; elemental simultaneous ceiling pending. | [Manual introduction][S1-M] |
@@ -738,6 +738,14 @@ Working condition,stock,voltage variant,authenticity,bundle,mains cable,warranty
 
 [S1-M]: https://usa.yamaha.com/files/download/other_assets/3/325543/SPX1000E.pdf
 [S1-O]: https://shopee.co.id/Yamaha-SPX1000-i.137354453.25909747809
+
+### SPX1000 — direct expression assignment scope (2026-10-28)
+
+Reopened own79-page [Yamaha Operation Manual](https://jp.yamaha.com/files/download/other_assets/3/325543/SPX1000E.pdf),printed3–5,10–11,33/Add-31. Exact SPX1000 title/controls match earlier primary evidence.
+
+Two front EXT CTRL/FOOT VOL inputs acceptFC7 controllers;targets/ranges are stored with user programs **41–99**. Unsaved assignments are lost onmemorychange: **PER PROGRAM**,not a documented all-preset override. Recall range caution remains above. MIDI CTRL ASSIGN routes incomingCC to those assigned targets;selecting **CC7 Volume** does not create a separate global master-volume destination.
+
+No built-in treadle,onboard footswitch orheadphone socket in complete panel inventory. Guitar use remains suitable line-level preamp/mixer routing;480W×319Dmm too large. Hand selection requiresRECALL;external memory-switch cycle is separate. Endpoint units depend on target;held-angle recall,bypass/tail/Freeze-audio attenuation andFC7 electrical pinout remain unverified. No headphone capability inferred from outputs. Text-only review;no download ordevice operation.
 
 ## SPX2000
 
