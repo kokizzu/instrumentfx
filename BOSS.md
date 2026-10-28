@@ -1451,9 +1451,9 @@ Checked 2026-10-19;partial. [Exact manufacturer product/specification](https://w
 | Memory | 200 writable User+200 protected Preset=400;initial user factory fill unverified. |
 | Synth / acoustic | Acoustic/sitar emulation plusGuitar/Wave Synth documented;tracking/polyphony unverified. |
 | Dimensions / mass | 482 W×305 D×89 H mm;4.8kg. |
-| I/O | FrontINPUT/PHONES;rearINPUT,direct/tunerout,mainL/R,subL/R,subXLRL/R,PRELOOPsend/return,LOOP1/2send/return,AMPCTRL1/2,EXP1,CTL1/2,EXP2/CTL3/4,coaxdigital,USB,MIDIin/out/thru. LOOP1+2 combine forstereo orseries/parallel;not independently positioned. PRELOOPfixed beforeinputlevel,unavailable withUSBIn. |
+| I/O | FrontINPUT/PHONES;rearINPUT,direct/tunerout,mainL/R,subL/R,subXLRL/R,PRELOOPsend/return,LOOP1/2send/return,AMPCTRL1/2,EXP1,CTL1/2,EXP2/CTL3/4,coaxdigital,USB,MIDIin/out/thru. LOOP1+2 combine forstereo orseries/parallel;not independently positioned. PRELOOPfixed beforeinputlevel,unavailable withUSBIn. Input 1 MΩ; loop returns 220 kΩ; listed analog outputs 2 kΩ except SUB XLR 600 Ω. Nominal-level qualifications below. |
 | Power | RegionalAC117/230/240V;16Wconsumption. Battery/USBpower unverified. |
-| USB / recording | USBaudio;coax24-bitS/PDIF;44.1kHzinternal sampling. USB24-bit/44.1kHzSpecial or16-bit/44.1kHzStandard;channelcount unverified. |
+| USB / recording | USB audio; coaxial 24-bit S/PDIF; internal sampling 44.1 kHz. Special: 24-bit/44.1 kHz; Standard: 16-bit/44.1 kHz. **Historical Mac OS 9 ASIO: one stereo input + one stereo output (two mono channels each), 16/24-bit**, explicitly documented on [manual p135](https://cdn.roland.com/assets/media/pdf/GT-PRO_OM.pdf). Other driver modes and modern-host channel behavior remain unverified. |
 | IR / NAM / capture | User import unverified. |
 | Editor / platforms | Mac/PCeditor/librarian;Maceditor10.2.3–10.6.8,explicitly not10.7+. Legacydrivers separate;BOSS marks hardware/driver andapplication incompatible withWindows10/11 (Aug2026);currentmacOS unverified. |
 | Looper / drums / live | Solo mode,picking-dynamics amp switching;Hold delay2.8seconds withoverdub andmode-change erasure;drums/scenes/trails unverified. |
