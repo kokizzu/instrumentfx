@@ -2161,3 +2161,7 @@ expression-audit-commit-vox:
 .PHONY: expression-audit-commit-audota
 expression-audit-commit-audota:
 	python3 scripts/expression_audit_audota.py commit
+
+.PHONY: expression-audit-commit-behringer
+expression-audit-commit-behringer:
+	python3 scripts/expression_audit_behringer.py commit

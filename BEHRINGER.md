@@ -317,6 +317,8 @@ Remaining: original panel visual corroboration,exact seller hardware suffix,full
 
 ## FX600
 
+<!-- comparison evidence begins -->
+
 Digital Stereo Multi-FX pedal; distinct from FX2000. Checked2026-10-18;partial. Manufacturer identifies six different effect families,one selected at a time;no minimum simultaneous-count requirement for multi-effects inclusion. Bass/vocal suitability andownership unverified.
 
 | Field | Finding / qualification | Evidence |
@@ -375,6 +377,14 @@ Newer manual endpoint: https://mediadl.musictribe.com/media/PLM/data/docs/P0596/
 |---|---|
 | Power / consumption conflict | The manufacturer-authored **©2012,two-page FX600 manual**,matching model heading,numbered controls andMusic Group imprint,lists **90mA consumption** and **9V/100mA regulated PSU-SB**. [Inspected copy](https://r2.gear4music.com/media/25/252920/download_252920.pdf),p2. The **V3.0,©2024** copy instead lists **130mA consumption** and **9V/1.7A PSU-HSB ALL**,[p43][FX6-V3]. Preserve both editions;no serial-number boundary,hardware change orerratum is documented here. Supply capacity is not unitdraw. |
 | I/O / analog impedance | Both cited editions specify **IN A500kΩ,mono250kΩ;IN B500kΩ;OUT A/B1kΩ each**. These are impedances,not maximum input/output levels orproof of instrument-specific bass suitability. |
+
+<!-- comparison evidence ends -->
+
+### FX600 — direct expression screening,2026-10-28
+
+[Original FX600 manual copy,V3.0,©2024MusicTribe](https://www.adorama.com/col/productManuals/BEFX600.pdf) reopened as47page PDF text,matching model identity andolder inspected operating sections. Complete documented connector inventory has audioA/B in/out andpower,no analog EXP orheadphone socket. It fails the direct pedal requirement. Existing70W×123Dmm chassis fits.
+
+Six selector positions are effect choices,not documented saved presets;the single footswitch bypasses the effect,not preset down/up. DirectEXP assignment/position/minmax/recall are inapplicable. LEVEL’s output-level versusmix wording conflict andbypass/tail attenuation remain unresolved;no full-output volume claim follows. No new visual audit,hardware test or2012/2024power-conflict resolution.
 
 ## FX2000
 

@@ -124046,5 +124046,14 @@
       "attenuation coverage"
     ],
     "hardware_test": false
+  },
+  "fx600_expression_screen_20261028": {
+    "source": "https://www.adorama.com/col/productManuals/BEFX600.pdf",
+    "classification": "No analog EXP/headphone connector",
+    "remaining": [
+      "LEVEL scope conflict",
+      "bypass/tail attenuation"
+    ],
+    "hardware_test": false
   }
 }
