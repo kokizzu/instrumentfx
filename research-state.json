@@ -125859,5 +125859,23 @@
       "Current firmware and setting retention"
     ],
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "brand_sort_recheck_20261028": {
+    "files": [
+      "HOTONE.md",
+      "LINE6.md",
+      "JOYO.md",
+      "SONICAKE.md",
+      "TECH21.md"
+    ],
+    "change": "Lossless natural A-Z section/index reconciliation. Section-body multiset preserved;all47 root brands now pass sorted/idempotent verification.",
+    "comparisons": "Generated outputs unchanged after sorting;392active/327guitar/170bass/71vocal counts unchanged.",
+    "checks": [
+      "brand-sort-apply verification",
+      "brand-sort-test",
+      "research-verify",
+      "comparison-verify"
+    ],
+    "remaining": "Technical research and overall migration remain incomplete;AM4 is a partial lead outside active inventory."
   }
 }

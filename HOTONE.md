@@ -669,7 +669,6 @@ Sources: [effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md](HOTONE.md
 
 Checked2026-10-28 in [own firmwareV2.2 manual,printedpp20–21](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf). Global EXP/FS offers EXP,Single FS,Dual FS; **EXP mode makes every other option in that menu unavailable**. FS3/FS4 assignments include Patch+/Patch− and Bank+/Bank− in switch modes; these are external-switch functions,not additional onboard switches or proof they coexist with direct analog EXP on the shared socket. A split cable or unidentified M-VAVE controller does not establish simultaneous support. This mode limitation is separate from the unresolved all-preset volume assignment. The documented physical volume knob affects all output connections; that statement is not transferred to EXP coverage of headphones,USB,bypass,tails orrecorded loops. No device/software operation ordownload.
 
-
 ## Ampero Mini MP-50
 
 <!-- comparison evidence begins -->

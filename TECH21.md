@@ -54,7 +54,6 @@ Distinct guitar/acoustic/bass multi-effects; checked 2026-10-18, partial. [Own p
 
 Checked2026-10-28 against [own ©2017 manual](https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf),printedpp1–6. Normal guitar/bass input use is documented. Headphone mode shares the quarter-inch output,drives both sides andincreases output;not a separate socket orproof ofstereo processing. Disengage for amp/mixer use permanufacturer. **Volume governs output when SansAmp is engaged**;that conditional physical control is not global EXP assignment. No EXP connection is described in the inspected connector/function text;full visual absence audit incomplete,so direct EXP remains **unverified**. Preset down/up,position/endpoints/recall,bypass/headphone/tail/recorded-loop pedal attenuation remain unknown. Published12.5×2.75inch footprint converts to317.5×69.85mm,failing either preferred orientation. No local download orhardware test.
 
-
 ## Bass Fly Rig v2
 
 Bass-focused multi-effects; v2 only. Distinct from original Bass Fly Rig and guitar Fly Rig 5 v2. Checked 2026-10-17; partial. Ownership unestablished.
@@ -140,7 +139,6 @@ Next: physical control census, precise full signal order, preset-storage/import/
 ### Bass Fly Rig v2 — qualified expression and headphone screen
 
 Checked2026-10-28 in [own ©2021 v2 manual][BFR2-M],Ins and Outs/Effect Loop. Bass use documented;ordinary guitar remains unclassified. Instrument input,quarter-inch output,XLR,Send/Return andpower are described;no EXP/headphone connection is established by that text. Full visual absence audit remains incomplete,so these stay **unverified**. The original Bass Fly Rig’s headphone button is not transferred to v2. Audio Send/Return and channel Drive/Level pairs do not establish global expression assignment or programmable preset browsing. Position/endpoints/recall,bypass/phones/tail/recorded-loop attenuation remain unknown. Published12.5×2.75inch footprint converts to317.5×69.85mm andfails either preferred orientation. No local download orhardware test.
-
 
 ## Fly Rig 5 v2
 

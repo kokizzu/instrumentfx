@@ -424,7 +424,6 @@ Manufacturer page lists TC-1 Manual.pdf,2019-11-26,without a retrievable PDF lin
 
 Checked2026-10-28 against [exact JOYO product][TC1-P]. Ordinary guitar use documented;345×83mm footprint fails preferred rectangle in either orientation,with manufacturer axes unlabeled. Direct analog EXP/global volume,position/endpoints/recall,headphones andpreset down/up remain **unverified**. Module Level controls andaudio FX LOOP do not establish a remote master assignment. Pedal attenuation during bypass,throughphones oroverdelaytails/recordedloops remains unknown. Original manual access remains incomplete;regional product URL returned cache miss. No TC-2 feature,unrelated timecode-device specification,local download orhardware test used.
 
-
 ## Tone Chain TC-2
 
 Guitar effects-only strip, distinct from TC-1. Checked2026-10-18; partial. Ownership and bass/vocal applicability unverified.

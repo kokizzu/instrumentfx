@@ -53,7 +53,6 @@ Checked 2026-10-18; partial acoustic-guitar multi-effects. [Exact manufacturer p
 
 Checked2026-10-28 against the [manufacturer product/FAQ](https://www.sonicake.com/products/a-factory). DI operation continues with preamp and reverb off; module bypass therefore does not establish silence or a global volume assignment. Acoustic instruments are documented; ordinary electric-guitar suitability remains unverified. Both90W×124D and regional124W×90D interpretations fit the preferred rectangle; axis conflict retained. Direct analog EXP/global scope, position/endpoints/recall, headphones, preset down/up and bypass/tail/recorded-loop attenuation remain **unknown**. Original English manual image exposed no readable content; Japanese original returned cache miss. Generated ASIN/marketplace manual summaries are excluded, including their unsupported master-volume/control claims. No full panel/connector inspection or local download claimed.
 
-
 ## B Factory QDS-05
 
 Checked 2026-10-18; partial bass-focused multi-effects. [Sonicake exact product](https://www.sonicake.com/products/b-factory) (P) identifies QDS-05 and distinct compression,overdrive andpreamp functions;[regional distributor](https://www.hotone.jp/brands/sonicake/products/b-factory) (J) corroborates. No guitar membership inferred.
@@ -95,7 +94,6 @@ Checked 2026-10-19. The [original one-page SONICAKE B FACTORY leaflet transcript
 
 Checked2026-10-28 against the [exact manufacturer page](https://www.sonicake.com/products/b-factory). Bass use is documented; ordinary guitar suitability remains unclassified. Global volume cannot be inferred from EQ PRE/POST placement, clean/driven BLEND or an output knob. Direct analog EXP/global assignment, position/endpoints/recall, headphones, preset down/up and bypass/tail/recorded-loop attenuation remain **unverified**. Both published90×124mm axis interpretations fit the preferred rectangle; axis conflict retained. Buffered bypass and70mA remain current product specifications; the earlier92mA leaflet discrepancy is preserved. The qualified leaflet mirror could not be reopened, so no new connector/panel verification is claimed. No local download or hardware test.
 
-
 ## Black Hammer QCE-30
 
 Guitar multi-effects strip; manufacturer identifies QCE-30. Checked2026-10-17; partial.
@@ -135,7 +133,6 @@ Official page also displays Sold out, without proving Indonesian availability. I
 ### Black Hammer — direct expression and boost boundary
 
 Checked2026-10-28 against the [manufacturer product page][BH-P]. The **pre-gain boost changes distortion gain and level**; it is not evidence of an expression-controlled final master volume. Direct analog EXP/global assignment, position/endpoints/recall, headphone support and preset down/up remain **unverified**. Bypass, headphone, tail and recorded-loop attenuation are unknown. Stated64W×262Dmm fails the preferred rectangle in either orientation. The original manual image exposed no readable content; the [regional product](https://www.hotone.jp/brands/sonicake/products/black-hammer) returned cache miss. No full connector/panel inspection or local download is claimed. Sold-out manufacturer and Shopee observations remain separate, dated availability evidence.
-
 
 ## Consolidation provenance
 
@@ -179,7 +176,6 @@ Checked2026-10-19 using the [manufacturer-leaflet transcription on a mirror](htt
 ### Levitate — expression, headphones and bypass tails
 
 Checked2026-10-28: the [manufacturer’s own FAQ](https://www.sonicake.com/products/levitate) explicitly supports **mono headphone use but does not recommend it**; a dedicated headphone socket is not established. It also confirms delay tails survive bypass and REVERB hold engages trails for both effects. This independently corroborates the earlier qualified leaflet transcription; it does not prove expression attenuation of those tails. Direct analog EXP/global volume, position/endpoints/recall, headphone/recorded-loop coverage and preset down/up remain **unverified**. Independent dry/wet controls are not a global master assignment. Both published90×124mm axis interpretations fit the preferred rectangle; the axis conflict remains. English and Japanese manual images exposed no readable content; no visual inspection, local download or hardware test claimed.
-
 
 ## Matribox II Pro QME-200
 
@@ -668,7 +664,6 @@ The Hotone Japan SONICAKE listing identifies QCE-10 and independently repeats 13
 ### RockStage — qualified direct expression screen
 
 Checked2026-10-28 against the [manufacturer product page][RS-P]. Ordinary electric guitar use is documented. The stated64W×262Dmm chassis fails the preferred200W×140Dmm rectangle in either orientation; manufacturer axis labels are retained. Direct analog EXP, global volume assignment, volume position/endpoints/recall, headphones and onboard preset down/up remain **unverified**. Module controls and cab simulation do not establish those functions. Pedal attenuation during bypass, through headphones, or over tails/recorded loops is unknown. The English manual-image link exposed no readable content and the Japanese original returned cache miss; no full connector or panel inspection is claimed. No local file or software was downloaded. Earlier sold-out Shopee evidence remains dated and qualified.
-
 
 ## Smart Box QME-20
 
