@@ -471,3 +471,7 @@ M-VAVE [host-panel electrical-label check](M-VAVE.md#footctrlplus-host-panel-man
 ### BOSS VE-20 — vocal input, mode-dependent sound down/up
 
 [Exact-model screen](BOSS.md#ve-20--direct-control-exclusion-and-sound-selection-mode): no analog EXP in complete inventory;direct microphone input documented,normal guitar suitability unclassified. Vocal-only,outside main table.173W×158Dmm fails depth;stereo PHONES/LINE present. Hold HARMONY≥2s forON/OFF previous,HARMONY next;not global expression assignment.
+
+### BOSS VE-5 — global switch functions are not expression volume
+
+[Exact-model screen](BOSS.md#ve-5--switch-controls-versus-continuous-expression): CTL1/2 documents switches,not analog EXP. Bare178W×108Dmm fits;holder raises depth159mm. Stereo-mini PHONES/LINE present. Vocal-only,outside main guitar table;ordinary-guitar suitability unclassified. No onboard footswitches;external sound/favorite Inc/Dec andglobal settings are separate fromcontinuous volume.

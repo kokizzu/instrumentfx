@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(boss): qualify VE-20 input and sound navigation'))
+    print(git('commit','-m','research(boss): distinguish VE-5 switch assignments from expression'))

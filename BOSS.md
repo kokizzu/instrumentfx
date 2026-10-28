@@ -4080,6 +4080,12 @@ Checked2026-10-18 against the [manufacturer-authored2012 VE-5 manual copy][VE5-C
 | Memory / copy,exchange andfactory recovery | **COPY TO overwrites destination**;EXCHANGE swaps two sound locations. **COPY PRESET** loads afactory preset into the currently selected sound,distinct from resetting allsounds/system. Names support up to12characters. These operations do not add slots orpreserve overwritten custom settings automatically. Manual p18. |
 | Processing / dynamics parameter count | DYNAMICS has Depth andEnhance controls;Enhance increases definition. These are two parameters within thecategory,not two newly counted effects. MASTER NoiseThres is a separate sound-level noise adjustment,not a documented second dynamics engine. Manual pp16–17. |
 
+### VE-5 — switch controls versus continuous expression
+
+Checked **2026-10-28** against identity-matched [2012 manufacturer manual copy][VE5-COPY],pp9–11,15,20,andindexed [original p15][VE5-PDF]. Complete inventory has no treadle/analog EXP;CTL1/2 is documented forfoot switches,not continuous expression. CTL functions include SOUND Inc/Dec,FAV Inc/Dec,effect/harmony toggles andloop actions. Their system-wide persistence does not establish global volume assignment. No onboard footswitches;hand SOUND/favorites are separate fromexternal navigation.
+
+Microphone input is documented;manual warns against another processor’s output. Normal guitar-pickup suitability remains unclassified;retain vocal-only membership,outside requested guitar capability table. Bare178W×108Dmm fits;withholder178W×159Dmm exceeds depth. Stereo-mini PHONES/LINE confirmed. Direct-pedal position/endpoints/recall are inapplicable to documented inventory;pedal bypass/headphone/tail/recorded-loop attenuation remains unverified. Existing headphone electrical conflict andvisual-control qualifications remain open;no hardware test.
+
 ## VE-8
 
 Separate acoustic-guitar and vocal multi-effects;consolidated/researched2026-10-16;partial verification.

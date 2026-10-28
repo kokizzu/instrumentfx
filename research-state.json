@@ -125609,5 +125609,24 @@
     ],
     "next": "VE-5/VE-1 remaining exact-model screens andpriority global-volume questions",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "ve5_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "BOSS.md#ve-5--switch-controls-versus-continuous-expression",
+    "sources": [
+      "https://www.scribd.com/document/467271239/VE-5-OM",
+      "https://static.roland.com/assets/media/pdf/VE-5_OM.pdf"
+    ],
+    "identity": "Manufacturer-authored2012 manual copy;indexed original p15 corroboration",
+    "result": "CTL1/2 switches;no analog EXP in inventory;global switch assignments not volume;normal guitar unclassified",
+    "fit": "178W108D bare fits;178W159D withholder fails",
+    "navigation": "No onboard footswitches;external SOUND/FAV Inc/Dec documented",
+    "unknown": [
+      "guitar suitability",
+      "pedal attenuation coverage",
+      "retained headphone electrical conflict"
+    ],
+    "next": "VE-1 exact-model capability screen",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
