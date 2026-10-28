@@ -128478,5 +128478,30 @@
     },
     "next": "Continue full VP4 current library/import/editor/loop profile and exact Shopee discovery; do not promote lead prematurely",
     "downloads": false
+  },
+  "vp4_usb_editor_conflict_20261028": {
+    "checked": "2026-10-28",
+    "sources": [
+      "https://www.fractalaudio.com/downloads/manuals/VP4/VP4-Owners-Manual.pdf",
+      "https://www.fractalaudio.com/vp4-edit",
+      "https://www.fractalaudio.com/vp4-downloads/"
+    ],
+    "usb": {
+      "revision": "1.06",
+      "page15": "2×2 prose; recording processed1/2,dry3/4; playback output1/2,processing3/4",
+      "page53": "2input+2output",
+      "status": "Internal conflict; actual enumeration unknown",
+      "supersedes": "Prior definitive not4×4 conclusion only; prior source observation preserved"
+    },
+    "editor": {
+      "version": "1.01.12",
+      "date": "2026-08-20",
+      "windows": "10+64-bit main package; separate32-bit option mentioned",
+      "mac": "Available; current minimum not stated",
+      "linux_mobile": "unknown"
+    },
+    "required_windows_driver": "11+; editor minimum alone not supported-connected-system proof",
+    "next": "Resolve USB via manufacturer clarification; current IRPlayer limits/library and exact Shopee hardware; preserve partial status",
+    "downloads": false
   }
 }

@@ -189,3 +189,11 @@ Checked 2026-10-28 against [own v1.06 manual](https://www.fractalaudio.com/downl
 | Routing / bypass | **4CM is mono** and requires matching global and preset configuration. Either mismatch forces bypass; enabling global4CM ignores ordinary input/output modes except MUTE. Preset split supports0–4 pre effects with the remainder post. This restriction does not prove EXP attenuation through bypass. |
 
 Full current library, factory-fill census, exact Shopee hardware and analog volume coverage remain open. Partial lead remains outside active inventory. No local download or device operation.
+
+### VP4 — USB channel conflict and current editor requirements
+
+Checked 2026-10-28. [Original v1.06 manual](https://www.fractalaudio.com/downloads/manuals/VP4/VP4-Owners-Manual.pdf), printed p15 versus p53: p15 calls USB2×2 but labels recording1/2 processed and3/4 dry; playback1/2 goes to output and3/4 to processing. P53 explicitly specifies two inputs/two outputs. **Internal channel-count conflict unresolved**; the earlier “not4×4” conclusion is superseded, with its source observation retained. No driver enumeration or device test establishes the actual exposed streams.
+
+[Current VP4-Edit page](https://www.fractalaudio.com/vp4-edit) lists **1.01.12,2026-08-20**,Mac andWindows. Main Windows package requires10+64-bit, mentions a separate32-bit option and requires the USB driver. [Current driver page](https://www.fractalaudio.com/vp4-downloads/) instead requiresWindows11+; these are separate requirements, so editor compatibility alone does not establish a supported Windows10 connection. Current Mac editor minimum is not stated there. Manual p15's macOS10.13+Intel/AppleSilicon applies to historical USB audio, not automatically the current editor. Linux/mobile editor support remains unverified.
+
+No installers, archives or documents downloaded locally. IR Player format/slot limits and full current library remain open. Partial lead remains outside active inventory.

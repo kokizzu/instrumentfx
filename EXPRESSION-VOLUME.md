@@ -571,3 +571,5 @@ GP-50 [looper persistence qualification](VALETON.md#gp-50--looper-screen-exit-ve
 VP4 [local-pedal startup boundary](FRACTAL-AUDIO.md#vp4--local-pedal-startup-boundary-and-exact-interfaces): MIDI External Controller Initial Value explicitly excludes local analog pedals. Global volume assignment remains documented separately; analog startup recall and bypass/tail/loop attenuation remain unverified. Partial lead, outside active counts.
 
 VP4 [4CM bypass boundary](FRACTAL-AUDIO.md#vp4--writable-memory-scenes-and-4cm-bypass-boundary): global/preset 4CM mismatch forces bypass; 4CM is mono. Scene-mode holds1/4 provide preset down/up. These facts do not establish expression attenuation during bypass; lead remains partial.
+
+VP4 [USB/editor qualification](FRACTAL-AUDIO.md#vp4--usb-channel-conflict-and-current-editor-requirements): manual routing labels1–4 conflict with the two-input/two-output specification; channel count remains unresolved. Current editor Windows10 requirement does not override its required driver’s Windows11 minimum. Global analog-volume evidence is unchanged.
