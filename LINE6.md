@@ -508,6 +508,12 @@ This narrows the earlier voltage/polarity gap through named-part documentation;i
 
 No new condition-qualified used Shopee hardware offer surfaced. LCD-only item102307979/28994765376,withBaru/Copotan variants,is a replacement part,not aprocessor price. ExistingRp7,900,000 sold-out hardware ask remains historical. No downloads,firmware changes orhardware test.
 
+### HX Effects — historical global-position recall fixes (2026-10-28)
+
+[Manufacturer firmware history](https://line6.com/software/index.html?hardware=Helix&name=Flash+Memory&os=All&submit_form=set),indexed original release text explicitly scoped **HX Effects only**,records fixes for Global EXP position failing to apply globally andfor position not being recalled immediately afterpreset changes,allowing undesired signal through. This is historical firmware behavior,not proof of installed firmware or a present3.80 defect. The long index combines releases;exact first-fix version is not certified from the extracted excerpt.
+
+Position-recall fixes do not insert Volume/Pan into every preset orlock its target/range globally. Keep all-preset assignment unverified andretain the separate analog-All-Bypass boundary. No hands-on recall test,update,download ordevice operation. FreshShopee checks returned only the already recorded sold-out hardware item andexcludedLCD parts;no new qualified offer orstock confirmation.
+
 ## HX One
 
 Effects-only multi-category guitar/bass processor;distinct from HX Effects/HX Stomp. One selected model,not a multi-block chain. Checked2026-10-17;partial. Ownership/vocal suitability unknown.

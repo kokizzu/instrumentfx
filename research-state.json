@@ -124256,5 +124256,13 @@
     "guitar": "Suitable linelevelpreamp/mixer",
     "presets": "No onboard footswitch;handarrows+RECALL",
     "remaining": "Indirectvolume/range/recall/bypass/tail/Freezeattenuation andprior gaps."
+  },
+  "hxe_global_position_fixes_20261028": {
+    "source": "https://line6.com/software/index.html?hardware=Helix&name=Flash+Memory&os=All&submit_form=set",
+    "evidence": "Indexed original manufacturer firmwarehistory explicitly HXEffectsOnly:GlobalEXP position sometimes notglobally applied;position not immediatelyrecalled afterpreset change allowing undesiredsignal;listedFIXED.",
+    "revision": "Index combinesreleases;exactfirstfix version notcertified;notpresent3.80 defect orinstalledfirmware claim.",
+    "scope": "Globalpositionrecall notglobalVolumePan insertion,target orrange.",
+    "market": "Only previouslyrecorded7.9mHabis processor andexcludedLCD parts;no newoffer adopted.",
+    "hardware_test": false
   }
 }
