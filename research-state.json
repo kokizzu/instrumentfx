@@ -124469,5 +124469,14 @@
     ],
     "finding": "No analog EXP,LINEOUT not headphones,73W129D fits. e01:55mA/6h/450g inclbattery versus current65mA/5h/420g; seller revision unknown.",
     "next": "Continue unscreened no-treadle inventory; keep independent GT-Pro cursor and unresolved Mini/Nano global-volume scope."
+  },
+  "dapper_ves1_expression_screen_20261028": {
+    "sources": [
+      "https://www.valeton.net/product/dapper/",
+      "https://www.manualslib.com/manual/4001764/Valeton-Dapper.html"
+    ],
+    "finding": "320W65D fails fit; EXP/phones/globalvolume unknown. Original mirror confirms tuner mute;indexed page2 SENDRETURN between DIST and DELAY,not EXP.",
+    "access": "Official PDF timeout;mirror page2 direct cachemiss;no image inspection.",
+    "next": "Continue other unscreened Dapper exact models; do not inherit connector absence. Independent GT-Pro cursor retained."
   }
 }

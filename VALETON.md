@@ -505,6 +505,12 @@ Official Dapper_Manual_EN_V01_160111 resolves to2-page PDF without extracted tex
 [VES1-M]: https://www.valeton.net/download/172/dapperdiscontinued/18458/dapper_manual_en_v01_160111-2.pdf
 [VES1-O]: https://shopee.co.id/Valeton-Dapper-VES-1-Effect-Strip-Full-Set-i.821383657.23453728698
 
+### Dapper VES-1 — qualified expression screen and loop placement
+
+Checked2026-10-28. [Manufacturer original Dapper page][VES1-P] specifies320W×65Dmm:too wide;rotation is too deep. No sibling Mini/Dark specifications transferred. Analog EXP,headphones,volume placement/endpoints/recall andall-preset assignment remain **unverified** because complete original connector text is unavailable. Module switches/tap are not proof of preset down/up.
+
+[Manufacturer-authored original Dapper manual mirror](https://www.manualslib.com/manual/4001764/Valeton-Dapper.html),2pages,identifies Dapper without Mini,and OD/DIST/DELAY architecture consistent with own product. Readable original page1 states tuner activation mutes output. Indexed page2 original text locates SEND/RETURN between DIST and DELAY;these are audio-loop connections,not EXP. Page2 direct reader failed cache miss;official PDF retry timed out. No visual inspection claimed. Tuner mute is not continuous expression-volume control orproof oftail attenuation.
+
 ## GP-5
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. NAM compatibility and qualified Shopee snapshots were additionally checked2026-10-17; complete firmware contents and checkout stock remain unverified. Historical next-model notes are provenance; use research-state.json for current work.
