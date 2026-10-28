@@ -124186,5 +124186,15 @@
       "qualification": "No exact item/shop IDs orcondition declaration;not adopted asqualified used/new price,stock orselleridentity proof."
     },
     "downloads": false
+  },
+  "nano_expression_fixes_20261028": {
+    "source": "https://neuraldsp.com/nano-cortex-updates/nanos-2-2-0-is-now-available",
+    "release_date": "2025-11-26",
+    "fixes": [
+      "Unexpected volume increase when reloading preset with expression assignments",
+      "Expression-assigned parameter reverting to maximum after physical knob adjustment"
+    ],
+    "boundary": "Documented2.2.0 fixes;not installed/newest-firmware proof,global assignment,held-angle recall guarantee orheadphone/bypass/tail coverage. Retain prior2.2.1 pedal-connected boot fix.",
+    "hardware_test": false
   }
 }

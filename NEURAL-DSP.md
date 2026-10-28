@@ -168,6 +168,17 @@ Parameter Lock still describes temporary rotary inhibition,not across-preset exp
 
 Exact title identifies Nano Cortex hardware. Condition declaration,working state,selected variant,adapter/cables/bundle,regional warranty,authenticity,shipping/tax andcheckout total unknown;not a completed sale orlive-stock proof. Direct late-arrival compensation up toRp10,000 isnot an upfrontdiscount. Earlier SevenStereo offer retained separately. Adapter-only item266947303/27013727938 isexcluded fromprocessor pricing.
 
+### Nano Cortex — expression recall fixes and firmware boundary (2026-10-28)
+
+[Manufacturer NanOS2.2.0 release notes,2025-11-26](https://neuraldsp.com/nano-cortex-updates/nanos-2-2-0-is-now-available),Hardware/expression/MIDI fixes:
+
+| Field | Documented correction / limit |
+|---|---|
+| Expression / preset reload | Fixes an **unexpected volume increase when reloading a preset with expression assignments**. This establishes a historical recall defect and a documented2.2.0 correction,not guaranteed held-pedal behavior across all presets orscope ofassignment storage. |
+| Expression / knob interaction | Assigned parameters **no longer revert to maximum after physical knob adjustment**. Keep separate from knob-latching/ParameterLock and globalvolume assignment. Exact LEVEL/headphone/bypass/tail coverage is not specified by this fix. |
+
+Retain the already recorded2.2.1 connected-pedal boot hotfix;2.2.0 is not asserted newest orinstalled on an offered unit. No bug reproduction,update,download or hardware operation. All-preset volume assignment and actual M-VAVE wiring remain unresolved.
+
 ## Quad Cortex
 
 Partial record checked **2026-10-17**. Full Quad Cortex,distinct from Nano Cortex andQuad Cortex mini. Product page advertises CorOS4.1.0;current web manual identifies4.1.1. Seller firmware unverified.
