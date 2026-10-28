@@ -463,3 +463,7 @@ M-VAVE [host-panel electrical-label check](M-VAVE.md#footctrlplus-host-panel-man
 ### JOYO R-16 Vocal Lab — eligibility remains outside guitar table
 
 [Exact-model qualification](JOYO.md#r-16--instrument-path-and-expression-eligibility): instrument reverb butno instrument harmony;vocal-only membership retained. Stereo3.5mm headphones documented. Analog EXP/layout,axis-labelled fit andstored-preset down/up remain unknown;unreadable manual is not No. Generic bypass wording does not establish tail orpedal-volume coverage.
+
+### Roland VT-4 — microphone scope and direct-control exclusion
+
+[Exact-model screen](ROLAND.md#vt-4--direct-expression-eligibility-and-scene-controls): no analog EXP in complete manual inventory. Fits174W×133Dmm andhasstereo-mini phones,but ordinary-guitar suitability remains unclassified. Vocal-only,outside main table. No footswitches;hand scene selection is not independent down/up. Controller pickup andphysical VOLUME do not establish expression assignment.

@@ -125576,5 +125576,22 @@
     ],
     "next": "Remaining inventory;readable exact original R16 manual remains needed",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "vt4_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "ROLAND.md#vt-4--direct-expression-eligibility-and-scene-controls",
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/VT-4_eng04_W.pdf",
+      "https://support.roland.com/hc/en-us/articles/360062335471-VT-4-Is-it-possible-to-input-audio-other-than-a-microphone-into-the-MIC-IN-jack"
+    ],
+    "result": "No analog EXP/treadle/footswitch socket in complete inventory;mic scope;ordinary guitar unclassified;vocal-only outside main table",
+    "fit": "174W133Dmm fits",
+    "navigation": "No footswitches;hand direct scene1–4 orMANUAL+button5–8;down/up not established",
+    "unknown": [
+      "normal guitar suitability",
+      "pedal attenuation coverage"
+    ],
+    "next": "Remaining no-treadle inventory andpriority global-volume questions",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

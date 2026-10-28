@@ -219,3 +219,9 @@ USB stream-rate support was not recovered from the checked driver landing pages.
 | Synth / external vocoder carrier | [Roland FAQ,2024-03-01](https://support.roland.com/hc/en-us/articles/360061935632-VT-4-Even-when-the-VOCODER-button-is-pressed-vocoder-voice-is-not-produced-Why): with External carrier enabled,the vocoder needs USB synth carrier audio plus the microphone voice. VOCODER alone may otherwise produce no sound;character still depends on selected vocoder type. |
 
 USB stream-rate support remains unresolved after the checked primary FAQs;no inferred conversion-rate equivalence. No files or software downloaded.
+
+### VT-4 — direct-expression eligibility and scene controls
+
+Checked **2026-10-28** against own [eng04 manual][VT4-OM],pp1–3,6. Complete panel/connector inventory lists no treadle,analog EXP orfootswitch socket. MIDI control is separate. Ordinary guitar-pickup suitability remains unclassified:the retained Roland MIC IN FAQ specifies microphone levels andwarns of suboptimal effects/distortion fromother sources. Keep vocal-only membership,outside normal-guitar capability table.174W×133Dmm fits;dedicated stereo-mini headphones remain documented.
+
+No onboard footswitches;hand scene buttons1–4 directly select scenes,MANUAL+button accesses5–8. This is direct selection,not documented independent preset down/up. Scene recall may differ fromphysical slider/KEY/AUTO PITCH positions;moving a controller applies its setting. This is controller pickup behavior,not expression recall. Physical VOLUME covers line/phones ordinarily;Monitor mode separates them. Neither proves global pedal assignment. Direct-pedal position/range/recall are inapplicable to documented inventory;pedal bypass/headphone/tail/recorded-loop coverage unverified. No hardware test orfresh visual inspection.
