@@ -125974,5 +125974,26 @@
       "Expressionbypass/headphone/tail/loop coverage"
     ],
     "status": "Partiallead outside activecounts;generalGTPro cursorpreserved"
+  },
+  "vp4_output_inventory_20261028": {
+    "source": "https://www.fractalaudio.com/downloads/manuals/VP4/VP4-Owners-Manual.pdf",
+    "revision": "v1.06 2024-10-23",
+    "pages": [
+      9,
+      11,
+      12,
+      53
+    ],
+    "findings": [
+      "No dedicated headphone socket in complete manual inventory;no shared mode established",
+      "AutomaticVP4Bypass engages analogpath whenall4effectsbypassed",
+      "TunerInmute preservestails;Outmute silences;notEXPplacementproof"
+    ],
+    "remaining": [
+      "EXPanalogbypass/tail/loopcoverage",
+      "Globalvolume endpoints/recall",
+      "ExactShopee hardware andcompleteprofile"
+    ],
+    "status": "Partiallead outsideactiveinventory;generalGTPro cursorpreserved"
   }
 }

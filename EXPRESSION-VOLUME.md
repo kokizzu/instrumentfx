@@ -538,4 +538,4 @@ GT-1000CORE [owner-guide retention qualification](BOSS.md#gt-1000core--recovered
 
 ### Fractal VP4 — partial effects-only discovery lead
 
-[Manufacturer-backed lead](FRACTAL-AUDIO.md#vp4--partial-discovery-lead-outside-active-inventory): global direct-pedal volume documented;preferred footprint exceeded. Current firmware3 IR support remains separate from2024manual evidence. ExactShopee hardware,complete profile andoutputcoverage pending;outside activeinventory/table.
+[Manufacturer-backed lead](FRACTAL-AUDIO.md#vp4--partial-discovery-lead-outside-active-inventory): global direct-pedal volume documented;preferred footprint exceeded. Current firmware3 IR support remains separate from2024manual evidence. ExactShopee hardware,complete profile andoutputcoverage pending;outside activeinventory/table. [Headphone/tuner qualification](FRACTAL-AUDIO.md#vp4--headphone-inventory-and-tuner-mute-placement): no dedicated phones in the manual inventory; tuner input/output mute treats tails differently.

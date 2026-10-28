@@ -142,9 +142,17 @@ Checked2026-10-28. [Current manufacturer page](https://www.fractalaudio.com/vp4/
 | Guitar / analog expression | Ordinary guitar/bass input documented;two shared pedal/switch jacks. Global Input Volume orOutput Volume can usePEDAL1/2 without preset Volume blocks. No treadle inpanelinventory. |
 | Pedal requirements / ranges | Linear10–100kΩ maximum,TRS-to-TRS;calibration0–100 isnot independentlyadjustable volume endpoints. Position recall andactual M-VAVE wiring unverified. |
 | Onboard navigation | Custom global hold assignments offer Preset+1/−1 across modes. Default Gig/Scene/Preset behavior must remain separate. |
-| Bypass / audio coverage | Buffered analog bypass explicitly avoids digital conversion/processing. EXP attenuation duringbypass,headphone support,tail andrecorded-loop coverage remain unverified. |
+| Bypass / audio coverage | Buffered analog bypass explicitly avoids digital conversion/processing. EXP attenuation duringbypass,tail andrecorded-loop coverage remain unverified. No dedicated headphone socket in the complete manual inventory;see qualification below. |
 | Chassis / power | **254W×160.3D×66Hmm,1.56kg;fails preference**.9V1.3A,2.1mmcentre-negative;internal batteryNone. No AM4power transfer. |
 
 ### VP4 — separate local-retailer discovery ask
 
 [Melodia exact product](https://www.melodiamusik.com/product/fractal-vp4-virtual-pedalboard/):**Rp14,000,000**,crossedRp20,700,000,last-week searchcache;directreopen cache miss. Condition,new/used,stock,variant,bundle,adapter,warranty,firmware,shipping/tax,voucher anddeliveredtotal unverified. Not Shopee,completed sale orverified used/new range. Thai/Singapore Shopee results are not Indonesian availability orIDR prices;noFX conversion. Complete required-field profile,current firmware/library andoutput coverage remain pending. No localdownloads orhardware test.
+
+### VP4 — headphone inventory and tuner-mute placement
+
+Checked 2026-10-28 against [own v1.06 manual](https://www.fractalaudio.com/downloads/manuals/VP4/VP4-Owners-Manual.pdf), printed pp9,11–12,53. Complete connection inventory gives stereo analog inputs/outputs, S/PDIF in/out, USB, MIDI in/out, two pedal sockets and power; **no dedicated headphone socket**. Analog outputs are specified as two unbalanced quarter-inch jacks,600Ω,maximum+16dBu,not a headphone-power rating. No shared headphone mode established.
+
+**Automatic VP4 Bypass** can engage buffered analog bypass when all four effects are bypassed. This is separate from an individual block’s bypass mode and does not establish expression-volume attenuation through the analog path.
+
+Tuner **Auto In/Manual In** mute at input andallow tails; **Auto Out/Manual Out** mute at output andsilence tails. Auto engages mute onopening the tuner;Manual requires switch3. These documented tuner controls are not proof ofglobal EXP placement,range orloop coverage. Older headphone uncertainty is narrowed to the published inventory;no AM4 headphone capability transferred. Partial lead remains outside active counts. No download orhardware test.
