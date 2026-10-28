@@ -342,6 +342,15 @@ Checked 2026-10-18. [Yamaha library](https://usa.yamaha.com/support/manuals/inde
 | Synth / instrument compatibility | **Shared bass-capable classification** follows explicit bass-input instructions in the MK2-linked manual. Bass-specific amp inventory, low-end performance and equal suitability of every effect remain unverified. No algorithms imported from the separate Bass edition. |
 | Dimensions / power evidence scope | Base dimensions/mass/power remain labeled as such; no independent MK2 hardware measurement or explicit unchanged-spec statement found. Supplement corrections govern changed functions and ports. |
 
+
+### Magicstomp Guitar MK2 — headphone volume scope 2026-10-28
+
+| Field | Finding / qualification |
+|---|---|
+| I/O / headphone volume | [Official MK2 supplement](https://fr.yamaha.com/files/download/other_assets/4/334074/magicstomp_mk2_fr.pdf), indexed English p1: **physical Volume knob adjusts PHONES**; main OUTPUT remains active when headphones are connected. This is not expression-pedal coverage. Existing−10dBm/150Ω rating is an output specification, not a recommended headphone load or wattage. |
+| Expression / evidence boundary | Manufacturer-linked [MK2 base manual](https://usa.yamaha.com/files/download/other_assets/3/334073/magicstomp_mk2_en.pdf) has no analog EXP in complete inventory, but omits the supplement’s PHONES addition. Full supplement reopen remains inaccessible; no complete current connector recertification or analog global-volume claim. No hardware test. |
+| Controls / separate patch stepping | Base pp12–13 explicitly gives−/+ previous/next in UP/DOWN mode; Performance mode instead toggles three adjacent patches and holds change sets. Supplement’s AFR bypass-gesture exception remains as previously documented. |
+
 <!-- comparison evidence ends -->
 
 ## Magicstomp original Guitar

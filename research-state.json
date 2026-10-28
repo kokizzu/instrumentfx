@@ -123121,6 +123121,19 @@
       "usb": "patch/parameter data; digital coverage unverified",
       "inventory": "existing model; count unchanged",
       "next": "MK2 requires readable exact supplement before complete connector certification; continue remaining no-treadle inventory and exact Shopee offers"
+    },
+    "magicstomp_mk2_phones_20261028": {
+      "sources": [
+        "https://fr.yamaha.com/files/download/other_assets/4/334074/magicstomp_mk2_fr.pdf",
+        "https://usa.yamaha.com/files/download/other_assets/3/334073/magicstomp_mk2_en.pdf"
+      ],
+      "access": "original supplement indexed Englishp1;full supplement inaccessible;base readable",
+      "phones": "physical Volume controls headphones; main outputs remain active",
+      "rating": "-10dBm/150ohm;not headphone load/wattage",
+      "analog_exp": "not established;complete current connector audit incomplete",
+      "preset_switches": "base UP/DOWN versus Performance;AFR exception retained",
+      "next": "Seek readable complete exact supplement without repeating unchanged access failures;continue remaining no-treadle inventory and Shopee discovery",
+      "inventory": "existing model;counts unchanged"
     }
   },
   "brand_navigation": {
