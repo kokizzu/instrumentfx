@@ -125258,5 +125258,22 @@
     "dimensions": "311×67.5×49.7mm axes unlabelled;fit unverified",
     "next": "Reconcile V02 library against later firmware separately;continue remaining no-treadle inventory and priority scope questions",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "harley_core_expression_20261028": {
+    "checked": "2026-10-28",
+    "document": "HARLEY-BENTON.md#dnafx-git-core--direct-expression-capability",
+    "source": "https://images.thomann.de/pics/atg/atgdata/document/manual/578764_c_578764_en_online.pdf",
+    "revision": "03.07.2024 ID578764",
+    "result": "Direct expression volume documented;global preset scope unverified",
+    "fit": "Manual175W141D exceeds depth1mm;product conflict unresolved",
+    "unknown": [
+      "assignment persistence/overrides",
+      "position/independent endpoints/recall",
+      "bypass/headphones/tails/recorded-loop attenuation",
+      "exact preset down/up pairing",
+      "qualified Shopee offer"
+    ],
+    "next": "Continue remaining no-treadle inventory and priority Mini/Nano/GP50/controller gaps",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

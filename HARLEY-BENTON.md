@@ -81,3 +81,13 @@ These conflicts remain explicit; no sibling-model specification resolves them.
 | Dimensions / mass corroboration limit | Retailer repeats175 ×138 ×30 mm and0.80kg;does not resolve manual175W ×52H ×141D mm/507g. No revision explanation found. |
 
 Broader exact-brand Shopee query returned no results;qualified IDR hardware offer remains unknown. Foreign-currency asks are not converted into IDR.
+
+### DNAfx GiT Core — direct expression capability
+
+Checked2026-10-28 against the [original manual](https://images.thomann.de/pics/atg/atgdata/document/manual/578764_c_578764_en_online.pdf),03.07.2024,ID578764; text inspection,not hardware testing.
+
+Normal electromagnetic pickups are supported (p8). The complete controls inventory has no treadle; external EXP and dedicated3.5mm stereo headphones are documented (pp18–22).
+
+EXP offers Level/Volume/MST and FUNCTION targets. Calibration is separate. EXP VOL shows MIN000…MST100 (pp27–29); retain MST wording rather than infer independent heel/toe limits. **Global assignment across presets remains unverified**,including persistence,overrides and pedal-position recall. Signal-chain placement,pinout/resistance,full mute,bypass,headphone,tail and recorded-loop attenuation remain unknown.
+
+Manual175W×141Dmm exceeds preferred depth by1mm; conflicting product dimensions remain unresolved. Presets can be selected using either footswitch or VALUE (p23); exact down/up pairing is not identified in readable text. Separate looper playback level and preset-independent recorded sound do not prove expression coverage. No new exact Shopee offer established.
