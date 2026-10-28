@@ -124973,5 +124973,21 @@
     "status": "DirectEXP andfit retained;global assignment/coverage unknown",
     "next": "Exact full-menu globalVOL assignment,persistence andspeaker/headphone coverage",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "fb100_global_target_text_20261028": {
+    "checked": "2026-10-28",
+    "source": "https://www.musicving.com/static/upload/file/20250214/1739510269538589.pdf",
+    "document_title": "OFAM-10(VING)_英文说明书_20250119.cdr",
+    "section": "GLOBAL SETTINGS, printed6",
+    "evidence": "Indexed original explanatory text: EXP Mode uses Target for function; VOL pedal function; Calibrate separately.",
+    "result": "Global-menu VOL target documented; preset/power persistence and patch overrides unverified",
+    "limitations": [
+      "Full PDF opening timed out",
+      "No fresh visual verification",
+      "Firmware revision not established",
+      "Position/range/recall/bypass/headphone/speaker/tails/loop coverage unknown"
+    ],
+    "next": "Verify assignment persistence and patch override rules, then exact qualified Shopee hardware offer",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
