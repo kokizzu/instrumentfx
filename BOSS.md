@@ -305,6 +305,20 @@ Delay TIME is **1–2000 ms or BPM**, with type-dependent values and an explicit
 
 Reverb TIME is **0.1–10.0 s**, PRE-DELAY **0–200 ms**. Compressor sustain applies to all listed types except X-BASS, which instead exposes THRESHOLD; the common relative0–100 controls are not published milliseconds or dB. Bass-specific choices here corroborate shared guitar/bass suitability, not a new vocal classification. Remaining family subtypes, current-firmware completeness, volume coverage and exact Shopee hardware remain unresolved. Partial lead remains outside active counts; no downloads or hardware tests.
 
+### EX-4 — pedal recall, jack modes and further subtype limits
+
+Checked 2026-10-28 against original ©2026 Roland HTML; minimum firmware remains unestablished. [HARDWARE SETTINGS](https://static.roland.com/manuals/ex-4_parameter/en-US/632261259637726091.html) explicitly documents **EXP HOLD On: carry the pedal tilt state across memory changes; Off: do not carry it**. This narrows earlier recall uncertainty. It does not set the pedal target, globally relocate Foot Volume, or establish power-on recall, endpoint precedence or bypass/tail attenuation. SYSTEM ASSIGN is the separately documented target-sharing mechanism.
+
+The same table makes **STEREO I/O versus SEND/RETURN mutually selected modes** for INPUT R/RETURN and OUTPUT R/SEND. The right jacks cannot simultaneously provide independent stereo I/O and a separate loop. BOSS instructs disconnecting and correctly reconnecting those cables when changing mode to avoid audio loops. COLOR=FULL gives a color display; the named single-color themes instead use black-and-white screen rendering with colored indicators. Those themes do not make the physical display monochrome-only.
+
+| Family | Original table choices / qualification |
+|---|---|
+| [LIMITER](https://static.roland.com/manuals/ex-4_parameter/en-US/583902987637676427.html) | **3:** BOSS, RACK 160D, VTG RACK U. Ratio1:1–INF:1; relative attack/release0–100 are not published milliseconds. |
+| [CHORUS](https://static.roland.com/manuals/ex-4_parameter/en-US/668389003668411787.html) | **3 TYPE modes:** MONO, DIR/EFX, STEREO. MONO duplicates toL/R;DIR/EFX sends dryL/effectR;STEREO uses different chorusesL/R. TRI/SINE are separate waveform choices,not two more TYPE entries. Pre-delay0–40ms. |
+| [PHASER](https://static.roland.com/manuals/ex-4_parameter/en-US/584306315637684107.html) | **3 STAGE choices:**4,8,12. STEP RATE Off/relative0–100/BPM is a parameter,not an additional freely placed family. No bass-phaser subtype transfer. |
+
+The 120-type headline is still not reconciled by summing unlike mode,stage andwaveform parameters. Exact Shopee hardware,complete remaining profile anduniversal volume coverage remain pending. No files downloaded orhardware operated;lead remains outside active counts.
+
 ## GM-800
 
 Consolidated and refreshed **2026-10-16**; partial verification. This processor qualifies through independent MFX architecture; it requires specialized input hardware for guitar/bass playing. No excluded specialist model is added.

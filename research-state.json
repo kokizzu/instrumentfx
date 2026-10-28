@@ -25004,7 +25004,41 @@
           ],
           "source": "https://static.roland.com/manuals/ex-4_parameter/en-US/583960587637677963.html"
         },
-        "qualification": "Four families only;120typeheadline not yet reconciled;outsideactiveinventory"
+        "qualification": "Four families only;120typeheadline not yet reconciled;outsideactiveinventory",
+        "limiter": {
+          "count": 3,
+          "types": [
+            "BOSS",
+            "RACK 160D",
+            "VTG RACK U"
+          ],
+          "source": "https://static.roland.com/manuals/ex-4_parameter/en-US/583902987637676427.html"
+        },
+        "chorus": {
+          "count": 3,
+          "types": [
+            "MONO",
+            "DIR/EFX",
+            "STEREO"
+          ],
+          "source": "https://static.roland.com/manuals/ex-4_parameter/en-US/668389003668411787.html",
+          "qualification": "TRI/SINEwaveformseparate"
+        },
+        "phaser": {
+          "stages": [
+            4,
+            8,
+            12
+          ],
+          "source": "https://static.roland.com/manuals/ex-4_parameter/en-US/584306315637684107.html",
+          "qualification": "Stages notadditionalfamilies;noBassPhasertransfer"
+        }
+      },
+      "recall_hardware": {
+        "source": "https://static.roland.com/manuals/ex-4_parameter/en-US/632261259637726091.html",
+        "exp_hold": "On retains pedal tilt across memory changes;Offdoesnot;not targetassignment orpoweronrecall",
+        "jack_modes": "STEREO I/O versusSEND/RETURNuses rightpair;not simultaneousindependentconnections",
+        "display": "FULLcolor versusmonochromescreen themes;notmonochromehardware"
       }
     }
   ],
