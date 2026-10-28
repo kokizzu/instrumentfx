@@ -124790,5 +124790,14 @@
     "manual": "2PDFpages metadata266-00TC2-0010;bodytextonlyUKbranding,nooperatingcontentverified",
     "finding": "Guitar documented;345x83axesunlabeledfailsfit;EXP/globalvolume/headphones/presetnavigation/coverageunknown.NoTC1transfer.",
     "next": "Remainingno-treadleinventorystillpartial;originalTC2visual/manualauditneeded;priorityscopegapsandindependentGTProretained."
+  },
+  "h8_expression_screen_20261028": {
+    "date": "2026-10-28",
+    "model": "CUVAVE::H8",
+    "source": "https://manuals.plus/sinco-intelligent-technology/h8-multi-effects-headphone-guitar-amplifier-manual",
+    "basis": "Sinco original numbered manual,FCC2ARCP-H8;complete connector and PRESET sections",
+    "result": "No analog EXP input;required direct path fails.81W×85Dmm fits;3.5mm headphones mono/stereo unknown;no footswitches,hand-button previous/next documented;master buttons are not EXP assignment.",
+    "remaining": "Weight,connector subtypes,USB audio,editor scope,current qualified offers and master-button output coverage remain unresolved.",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

@@ -119,3 +119,11 @@ Historical2026-10-14/15 shared comparison wording,not a new technical verificati
 - **Original findings commit** (Saved individual commits): `8c0bb751797bb3dfeca61849245a79393c032b63`
 
 [Original shared comparison](MULTI-EFFECTS.md)<!-- historical-link:cuvave-003 -->,retained pending complete navigation/provenance audits.
+
+### H8 — direct expression and preset navigation screen
+
+Checked **2026-10-28** against the [Sinco-authored numbered H8 manual](https://manuals.plus/sinco-intelligent-technology/h8-multi-effects-headphone-guitar-amplifier-manual), FCC2ARCP-H8. Its complete four-connection inventory has **no analog EXP input**: USB data/charge, phone-recording data, headphones and male guitar plug. The required direct analog expression path therefore fails. Pedal placement, endpoints, recall and bypass/headphone/tail/recorded-loop attenuation are not applicable to that absent path; master-button output coverage remains unverified.
+
+**Onboard preset footswitch down/up: No. Hand-button down/up: Yes in PRESET mode**, using short On/Off and Store presses respectively. Separate short Bypass−/Tuner+ presses change master volume; that does not establish remote expression assignment. Dedicated3.5mm headphones and81W×85Dmm preferred fit retain their earlier evidence; stereo/mono and garbled mass remain unresolved.
+
+The [current manufacturer product URL](https://www.cuvave.com/product?id=h8) returned navigation only in this reader; no current specification or firmware guarantee is inferred. Older sources and price qualifications above remain intact.
