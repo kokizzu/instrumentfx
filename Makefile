@@ -2141,3 +2141,7 @@ expression-audit-commit-korg:
 .PHONY: expression-audit-commit-fender
 expression-audit-commit-fender:
 	python3 scripts/expression_audit_fender.py commit
+
+.PHONY: expression-audit-commit-kemper
+expression-audit-commit-kemper:
+	python3 scripts/expression_audit_kemper.py commit

@@ -107,6 +107,18 @@ Remaining:exact feature transition dates,complete category census and remaining1
 
 14.2 source is a manufacturer-authored manuscript reproduced on Scribd,not its AI description:Player/OS14.2 title,July2026 copyright/revision,numbered control sequence and core ports match the earlier Player manual and official specifications. The original manufacturer download page remained inaccessible as a regional shell on the previous pass. Only manuscript text was used;no files downloaded and no screenshot inspection claimed. This supplements the older manual without erasing it.
 
+### PROFILER Player — global target versus Rig-dependent volume, 2026-10-28
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / assignment | [Matched OS14.2 Player manuscript][kp-m142],pp80–85:Volume Pedal target **globally assigned**,no effect slot required. Location/range remain Rig-dependent;Off disables it. Universal active volume without Rig edits/global lock **unverified**. Default WahPedal→Volume instead controls active wah,volume only otherwise. |
+| Expression / range and placement | Input/beforeA;PreStack;PostStack preservesdelay/reverb tails;Output afterREV attenuatestails. Bipolar range:centerinactive,leftsetsheelminimum,extremeleftzero;rightboostsupto+24dB. Held-positionrecall,bypass,phones andrecorded-loopcoverage unknown. |
+| Expression / wiring and toe | DirectTRS,SystemSettings;automaticcalibration bysweep. EP-1KP separate toe switch cannotbeused whilePlayer’sonesocket servesexpression. Thisdoesnotcertify M-VAVEpinout. |
+| Controls / preset navigation | Same manuscript,p14:defaultFS1 **RigPrevious**,FS3 **RigNext**,throughbanks. Combinationsaddswitchingtimeout;noextraphysicalswitches. |
+| Dimensions / screening | Existing145W×166Dmm:depth26mmoverpreference. Dedicatedphones. Existing10–100kΩspec retained;nohardwaretest. |
+
+Manufacturer manuscript identity/revision established above;no downloads. Current offer/Level/firmware remains unverified;all earlier sources preserved.
+
 ## PROFILER PowerHead MK2
 
 Partial record checked **2026-10-17**. Exact manufacturer SKU18300000 and Shopee MK2 title; distinct from unpowered Head,PowerRack and Remote bundles.
