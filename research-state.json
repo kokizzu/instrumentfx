@@ -25091,7 +25091,35 @@
           "bundle": "AdvertisedPSA-Sadapter,fourfeet;notinspected"
         }
       ],
-      "local_offer_qualification": "NotShopee;condition,warranty,currentstock,voucher,shipping/tax/checkoutunknown;notverifiednewusedrange"
+      "local_offer_qualification": "NotShopee;condition,warranty,currentstock,voucher,shipping/tax/checkoutunknown;notverifiednewusedrange",
+      "system_output_volume": {
+        "target_source": "https://static.roland.com/manuals/ex-4_parameter/en-US/632117771637723787.html",
+        "system_source": "https://static.roland.com/manuals/ex-4_parameter/en-US/631124107637712523.html",
+        "configuration": "ASSIGN On,PREF SYSTEM,SOURCE EXP,MANUAL,CATEGORY MASTER,TARGET OUT LEVEL,target-dependent MIN/MAX",
+        "scope": "System output parameter instead ofpatchFV;globalmappingdocumented;not hardwaretested",
+        "range_conflict": {
+          "english": "1–200",
+          "japanese": "0–200",
+          "japanese_source": "https://static.roland.com/manuals/ex-4_parameter/ja-JP/631124107637712523.html"
+        },
+        "remaining": [
+          "minimumzero/fullmute",
+          "bypass andtailcoverage",
+          "competingassignments",
+          "startuprecall"
+        ]
+      },
+      "usb_backup": {
+        "source": "https://static.roland.com/manuals/ex-4_reference/en-US/580586379589802763.html",
+        "driver": "StandardOSUSBdriver",
+        "data": [
+          "SYSTEM",
+          "GEAR SUITE",
+          "U001–U128"
+        ],
+        "scope": "SysExDAW/sequencer backuprestore;notaudio/power/editorproof",
+        "hardware_operated": false
+      }
     }
   ],
   "inventory_by_brand": {

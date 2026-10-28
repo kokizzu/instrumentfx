@@ -547,3 +547,5 @@ VP4 [firmware/offer follow-up](FRACTAL-AUDIO.md#vp4--current-firmware-listing-an
 [Partial manufacturer-backed lead](BOSS.md#ex-4--partial-no-treadle-discovery-lead):117W×138Dmmfits;SYSTEM ASSIGN can share EXP→FV across memories. Placement/endpoints/competingassignments,recall andbypass/tails/loopattenuation remainqualified. No dedicatedphones ininventory;onboardmemorydown/up documented. ExactShopee andcompleteprofile pending;outsideactivecounts andmaintable.
 
 EX-4 [recall and jack-mode qualification](BOSS.md#ex-4--pedal-recall-jack-modes-and-further-subtype-limits):EXP HOLD explicitly retains pedal tilt across memory changes when On. This is separate from SYSTEM assignment anddoesnot resolve range/placement orpower-on behavior. Stereo I/O andsend/return share the rightpair andcannot provide independent simultaneousconnections.
+
+EX-4 [system output-volume alternative](BOSS.md#ex-4--system-output-level-assignment-and-usb-backup-scope):SYSTEM ASSIGN can targetMASTER OUT LEVEL,a system parameter,instead ofplacedFV. English1–200 versusJapanese0–200 leavesminimumzero/mute unresolved. Bypass/tail coverage andstartuprecall remainunverified.

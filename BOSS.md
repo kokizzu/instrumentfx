@@ -330,6 +330,14 @@ Checked 2026-10-28 against exact original manufacturer parameter pages. [WAH](ht
 
 These are exact hardware asks **outside Shopee**,not verified new/used sales orcurrentstock. Equal asks do not establish independentmarkettransactions. ExactShopee item andcompleteprofile remainpending;no currency conversion ornewprice-range claim. No manuals,packages orsoftware downloaded;nohardwaretested.
 
+### EX-4 — system output-level assignment and USB backup scope
+
+Checked 2026-10-28. The original [TARGET list](https://static.roland.com/manuals/ex-4_parameter/en-US/632117771637723787.html) includes **MASTER → OUT LEVEL**, separate from FV position/min/max/curve. The [English MASTER page](https://static.roland.com/manuals/ex-4_parameter/en-US/631124107637712523.html) explicitly calls OUT LEVEL a system parameter shared by all memories. Combined with the documented [ASSIGN controls](https://static.roland.com/manuals/ex-4_parameter/en-US/632079883637723019.html), this supports a second configuration: **SW On; PREF SYSTEM; SOURCE EXP; ASSIGN MODE MANUAL; CATEGORY MASTER; TARGET OUT LEVEL**, with target-dependent MIN/MAX. This targets the system output parameter rather than the patch’s placed FV control. It is stronger evidence for a shared output-volume target, but not a hardware-tested mute or proof of action during ALL BYPASS. Competing assignments, routing coverage, startup recall and tails remain unverified.
+
+**Language conflict:** English MASTER lists MEM LEVEL and OUT LEVEL **1–200**; [Japanese MASTER](https://static.roland.com/manuals/ex-4_parameter/ja-JP/631124107637712523.html) lists both **0–200**. Preserve both; minimum-zero availability and actual silence cannot be certified from the conflicting documents. Do not derive dB attenuation from these relative values. Earlier FV placement/range qualifications remain relevant to the FV-target configuration; they must not be silently applied as requirements of this distinct OUT LEVEL target.
+
+The [original MIDI BULK DUMP instructions](https://static.roland.com/manuals/ex-4_reference/en-US/580586379589802763.html) establish **standard operating-system USB driver** use and a computer DAW/MIDI sequencer that can record SysEx. Transfer range separates SYSTEM, GEAR SUITE and U001–U128; retransmitting saved bulk data restores those settings. iPhone/iPad cabling is mentioned, but no dedicated mobile editor is established. This is documented MIDI backup/restore, not a USB audio interface, USB bus-power specification or BOSS Tone Studio editor. Exact OS-version matrix and power details remain unresolved. No backup, restore, reset, installation, download or hardware operation performed. EX-4 remains a partial lead outside active counts.
+
 ## GM-800
 
 Consolidated and refreshed **2026-10-16**; partial verification. This processor qualifies through independent MFX architecture; it requires specialized input hardware for guitar/bass playing. No excluded specialist model is added.
