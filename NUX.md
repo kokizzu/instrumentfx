@@ -1510,6 +1510,12 @@ All identify NAP-5 Stageman Floor hardware. New/used condition, working status, 
 | Audio / source-unit qualification | English PDFp7:20Hz–20kHz±1dB,noise−110dBu A-weighted;dynamicrange printed **120dBu** inbothlanguage tables. Retainthis questionableunit ratherthan silentlyrewriteas120dB;measurementconditions/reference unresolved. [Manual](https://manuals.plus/m/f2352c8d06dea0a95dfb47fb49c7a5dc93cc13ed45c44bf91264d334231177c2_optim.pdf) |
 | Ports / published jack sizes | [NUX product](https://nuxaudio.com/product/stagemanfloor/) specifies1/4inchTRSinsert,**1/8inchAUX andheadphones**,Micro-BUSB2.0updater. Chinese manualPDFp11prints3.55mm forAUX/phones;preservetypographicdifference,notadifferentconfirmedconnectorstandard. |
 
+### Stageman Floor — direct expression screening,2026-10-28
+
+The [original NAP-5 bilingual manual,©2018](https://manuals.plus/m/f2352c8d06dea0a95dfb47fb49c7a5dc93cc13ed45c44bf91264d334231177c2_optim.pdf),PDFpp2–4,fully inventories controls/ports without analog EXP. **INSERT is a serial audio send/return,not an expression input.** Gain controls preamp level;the Reverb knob becomes loop level in Loop mode. Neither is global expression assignment. No addressable patch bank or preset down/up is documented.
+
+Published115W×105Lmm horizontal footprint fits;dedicated1/8inch phones are independently listed by [NUX](https://nuxaudio.com/product/stagemanfloor/). Acoustic piezo/magnetic pickups are supported;ordinary electric-guitar tonal suitability remains unverified. DirectEXP position/range/recall are inapplicable;gain/bypass/headphone/tail/recorded-loop attenuation coverage remains unknown. No hardware tested or new visual audit claimed.
+
 ## TRIDENT NME-5
 
 <!-- comparison evidence begins -->

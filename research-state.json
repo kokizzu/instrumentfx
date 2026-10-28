@@ -123871,5 +123871,14 @@
       "39/70page content identity",
       "newer PT/IP1/IP2 scope"
     ]
+  },
+  "stageman_expression_screen_20261028": {
+    "source": "https://manuals.plus/m/f2352c8d06dea0a95dfb47fb49c7a5dc93cc13ed45c44bf91264d334231177c2_optim.pdf",
+    "classification": "No analog EXP; INSERT is serial audio",
+    "remaining": [
+      "ordinary electric tone",
+      "attenuation coverage"
+    ],
+    "hardware_test": false
   }
 }
