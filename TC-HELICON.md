@@ -553,6 +553,12 @@ USB audio and preset-bank claims found in retailer/mirror summaries remain unver
 
 [PVG-O-PRE]: https://shopee.co.id/TC-Helicon-PERFORM-VG-Mic-Stand-Mount-Vocal-and-acoustic-guitar-effects-processor-for-studio-quality-i.1637889504.41079043503
 
+### PERFORM-VG — switched boost versus continuous volume
+
+Checked **2026-10-28**,[manufacturer-authored Rev1.0/2017 manual][PVG-M],pp4–5,13–14. Independent acoustic-guitar BodyRez/chorus/echo/reverb supports existing guitar-category membership. Normal electric-pickup suitability remains unclassified;keep outside the stricter normal-guitar expression shortlist pendingqualification. PEDAL documents Switch-3/6;continuous analog EXP/global volume remains unverified. MIX remote assignment is a switched **+6dB boost**,not pedal sweep;Headphone Level cannot be remotely assigned.
+
+Default knob reassignment lasts only thecurrent power cycle;it is not global expression assignment. No onboard footswitches;harmony-style switching is not preset down/up. Headphones documented;connector detail andfootprint remain pending exact documentation. Pedal position,endpoints,recall andbypass/headphone/tail/recorded-loop attenuation remain unknown. Guitar THRU/mix behavior andstartup knob modes above retain their own qualifications. No fresh visual inspection orhardware test.
+
 ## PERFORM-VK
 
 Keyboard-guided vocal multi-effects,distinct from V/VG/VE. Checked2026-10-17;initial partial profile. Keyboard guidance does not establish guitar/bass multi-effects;vocal-only comparison membership. Ownership unestablished.

@@ -125660,5 +125660,21 @@
     ],
     "next": "PERFORM-VG exact-model capability screen;priority global-volume questions remain",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "performvg_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "TC-HELICON.md#perform-vg--switched-boost-versus-continuous-volume",
+    "source": "https://device.report/m/41c9e7a9189b970b66abce1cc7fec8af176268ec87e2f75f7611498e19d053bd",
+    "identity": "Manufacturer-authored Rev1.0/2017 mirror",
+    "result": "Acoustic guitar multi-effects retained;normal electric suitability unclassified;Switch3/6 boost switched+6dB not sweep;headphone level unassignable",
+    "scope": "Startup knob mode volatile;not global expression",
+    "unknown": [
+      "continuous analog EXP/global assignment",
+      "footprint/headphone connector detail",
+      "preset down/up",
+      "pedal position/endpoints/recall/attenuation coverage"
+    ],
+    "next": "PERFORM-VK exact-model capability screen",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

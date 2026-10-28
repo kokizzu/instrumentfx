@@ -483,3 +483,7 @@ M-VAVE [host-panel electrical-label check](M-VAVE.md#footctrlplus-host-panel-man
 ### TC-Helicon PERFORM-V — revision-qualified eligibility pending
 
 [Exact-model screen](TC-HELICON.md#perform-v--revision-qualified-pedal-and-guitar-eligibility):2015manual documents Switch-3/6,not continuous volume;headphone level cannot be switch-assigned. Delayed AUX is unsuitable forlive instruments. Vocal-only,outside main table;current product conflicts retained. Stereo-mini phones confirmed;footprint/global EXP scope unknown. No onboard footswitches;remote direct presets are separate.
+
+### TC-Helicon PERFORM-VG — acoustic processing, continuous control pending
+
+[Exact-model qualification](TC-HELICON.md#perform-vg--switched-boost-versus-continuous-volume): acoustic-guitar multi-effects retained,but normal electric-pickup suitability unclassified. Switch-3/6 MIX mapping gives switched+6dB boost,not continuous volume;EXP/global scope unknown. Outside stricter main table. Headphones documented,footprint unknown;no onboard footswitches orverified preset down/up.
