@@ -485,6 +485,13 @@ Official indexed manual p4 andQSG pp10–11 used;both directPDFs502. Full Compas
 | Processing / Morph control ranges | Panel Morph Shift: **±12 semitones**; MIDI CC expands this to **±36**. Green Morph Mode selects polyphony/release; red selects monophony/portamento. Audible release needs continued vocal or sample input. | [Rev.1.2 p11][PVE-R] |
 | Memory / sample playback | Re-trigger starts at each new note; Legato synchronizes new voices to existing playback; looped modes repeat while notes remain held. PLAY auditions the original recording. The sample remains until replaced or power-off. This differs from persistent effect presets. | [Rev.1.2 p22][PVE-R] |
 | External control / manual mapping qualification | PEDAL explicitly supports Switch-3/6. Page24 lists preset1–3 defaults, then Harmony/Reverb/Echo for switches4–6. Those names do not match the six named VE effect sections; preserve this mapping uncertainty rather than infer additional blocks. | [Rev.1.2 pp5,24][PVE-R] |
+
+### PERFORM-VE — global blend versus pedal volume
+
+Checked 2026-10-28 against the manufacturer-authored Rev.1.2 manual. The global Control Knob blends lead and MIDI voices across three presets and resets at power-off; this is not master-volume assignment. PEDAL documents Switch-3/6 over TRS, not continuous expression. Analog EXP, placement, endpoints, recall and bypass/tail/recorded-loop attenuation remain unknown. [pp5–6,24][PVE-R]
+
+Headphone level spans −60…0dB and cannot be footswitch-assigned; loop erasure is required before adjusting it. Remote switches directly recall presets1–3, rather than independent down/up. No onboard footswitches are documented; visual census remains pending. Normal-guitar suitability is unclassified, so vocal-only membership remains outside the guitar capability table. Regional167W×170Dmm fails the preferred depth, pending manufacturer corroboration. [pp8,24][PVE-R]
+
 <!-- comparison evidence ends -->
 
 ## PERFORM-VG

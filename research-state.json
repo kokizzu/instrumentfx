@@ -125805,5 +125805,16 @@
     ],
     "next": "Remaining inventory andpriorityglobalvolume questions",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "performve_expression_screen_20261028": {
+    "source": "https://www.fullcompass.com/common/files/32341-TCHeliconPERFORMVEUserManual.pdf",
+    "revision": "Rev.1.2; manufacturer-authored mirror",
+    "finding": "Global lead/MIDI blend is not master-volume assignment. Analog EXP/global scope unverified; vocal-only outside guitar capability table.",
+    "remaining": [
+      "Analog expression support and assignment scope",
+      "Placement/endpoints/recall; bypass, headphone, tails and recorded-loop attenuation",
+      "Manufacturer footprint corroboration; visual control census"
+    ],
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

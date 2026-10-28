@@ -519,3 +519,7 @@ M-VAVE [host-panel electrical-label check](M-VAVE.md#footctrlplus-host-panel-man
 ### TC-Helicon Mic Mechanic 2 — tap mode is not preset control
 
 [Exact-model screen](TC-HELICON.md#mic-mechanic-2--direct-control-exclusion-and-impedance-conflict): older complete inventory lists no analog EXP/headphones. Mic Control switches effects; hold enters tap mode. Vocal-only, outside guitar table. Axis-labelled fit and preset down/up unverified; revision conflicts preserved.
+
+### TC-Helicon PERFORM-VE — global voice blend, analog scope unknown
+
+[Exact-model audit](TC-HELICON.md#perform-ve--global-blend-versus-pedal-volume): global blend is not master volume; analog EXP remains unverified. Vocal-only, outside guitar table. Headphones present; external direct preset recall is separate from onboard down/up. Regional footprint fails preferred depth, pending manufacturer corroboration.
