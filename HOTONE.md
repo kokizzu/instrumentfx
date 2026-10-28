@@ -675,8 +675,37 @@ The complete supporting comparison was read before merging. Its model-specific v
 Sources: [effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md](HOTONE.md#ampero-ii-stomp-mp-300)<!-- historical-link:hotone-012 -->, [effects/shopee-multifx-7.md](research-state.json)<!-- historical-link:hotone-013 -->. No legacy file was deleted.
 
 ## Ampero Mini MP-50
+Current comparison summary, reconciled 2026-10-28 from the exact-model sources retained below. This does not certify current stock or every technical field. Earlier observations, revision conflicts and source bodies remain unchanged below.
 
 <!-- comparison evidence begins -->
+| Field | Current evidence / qualification |
+|---|---|
+| Expression | No built-in treadle; one TRS EXP/FS socket. Japan specifies **10–25 kΩ** in indexed exact-model specifications; pinout and actual M-VAVE compatibility remain unknown. EXP mode excludes external Single/Dual FS functions on that socket. |
+| Expression / across-preset volume | V2.2 VOLUME enable is patch-stored; **global override remains unverified**, not No. Pre/Post placement; fixed heel/toe volume endpoints independent of four effect-target ranges. Four effect targets allow reversible 0–100 limits and Line/Exp/Log curves. Calibration and global socket mode are not global volume assignment. Recall, bypass, headphone, tail and recorded-loop coverage remain unverified. |
+| Knobs / footswitches / buttons | **1 rotary / 2 footswitches / 0 separate buttons**, from numbered manufacturer manual text. Rear volume knob controls all outputs; that coverage is not transferred to EXP. FS1/FS2 provide previous/next patch; external FS3/4 require switch mode. Toe-pressure calibration alone does not establish a toe switch. |
+| Display | Published **4-inch, 800×480, color touchscreen**; not photo-measured. |
+| Dimensions / weight | Published **134×120×49 mm; 529 g**. Fits preferred 200×140 mm chassis envelope; cable clearance additional. |
+| Processing | **9 simultaneous modules**, subject to processor overload limits. V2.2 says **200+ effects**; older 199 remains historical. Exact complete category census unverified. V2.2 adds Precise Attack and Match30 Clean; do not derive a new total by adding to199. |
+| Presets | **99 factory + 99 user** documented. This storage split does not establish every factory preset's VOLUME-enable default. |
+| Synth / acoustic | Electric-to-acoustic steel/nylon examples; five documented bass amp/preamp choices justify shared bass membership. Pitch Shift is polyphonic, ±24 semitones; Classic PS monophonic. Sweller is an automatic envelope, not global EXP volume. Dedicated synth engine remains unverified. |
+| Audio I/O | ¼-inch TS instrument input; ⅛-inch stereo AUX; single ¼-inch stereo TRS main output; dedicated ⅛-inch headphones. English evidence: **unbalanced, tip=L/ring=R**; Japanese indexed balanced-stereo wording conflicts. AUX bypasses effects and USB audio. |
+| Data / control | USB-C; one ¼-inch TRS EXP/FS input. No MIDI function inferred from USB connector. Input 4.7 MΩ, AUX 10 kΩ, main out 1 kΩ, headphones 22 Ω; these are impedances, not headphone power or load ratings. |
+| Power | **9 V DC, center-negative, 500 mA maximum**. Battery/USB-powered operation unverified; adapter bundles are separate offers. |
+| IR / NAM / capture | **10 user IR slots**, mono WAV 24-bit/44.1 kHz/1024 points; empty selected slot silences output in documented revision. Ten imported Sound Clone files, one active, separate from IR; V2.2 manual wording about upload count remains qualified below. **NAM A2 conversion with PC software1.6.0+** documented; native execution, arbitrary architectures and onboard capture creation unverified. |
+| Editor / USB audio | Windows/macOS editor; mobile audio is not a mobile editor. Windows recording requires driver; macOS plug-and-play claim lacks current version guarantee. L/R recording independently Dry/Effect; gain−20…+20 dB, monitor−20…+6 dB. Complete stream matrix/formats remain unverified. |
+| Looper / drums / live | **100 s mono / 50 s stereo; 100 rhythms**. Pre records mono dry; Post stereo effected, with recorded phrase retained across patch changes. Moving running looper position erases it; REC/LOOP levels0–99. Effect-bypass Trail options do not establish preset spillover or EXP attenuation. Global No Cab L/R override is separate from volume assignment. |
+| IDR verified used | Historical **Rp2.800.000 PRELOVED, sold out**, [seller87936304/item46555574691](https://shopee.co.id/HOTONE-AMPERO-MINI-PRELOVED-i.87936304.46555574691). Reopen failed2026-10-28; working state/bundle/warranty unknown. Not a current available offer. |
+| IDR verified new | No independently condition-qualified current new offer established; retail titles below do not establish condition or stock. |
+| IDR / Purple Taro adapter title | Historical **Rp4.315.000**, [306155985/21384344851](https://shopee.co.id/Multi-Efek-Pedal-Hotone-Ampero-Mini-MP-50PT-w-9V-adapter-Purple-Taro-i.306155985.21384344851); stock unconfirmed, reopen failed2026-10-28. Separate **Rp3.250.000 sold-out** retail observation [171167271/48456875050](https://shopee.co.id/HOTONE-AMPERO-MINI-EFEK-GITAR-PEDAL-DIGITAL-MULTIEFEK-ONE-EFX-GUITAR-i.171167271.48456875050). |
+| IDR / Macha adapter title | **Rp4.315.000**, [Swee Lee799119783/29769916384](https://shopee.co.id/Hotone-MP-50MC-Ampero-Mini-Multieffects-Pedal-w-9V-adapter-Macha-i.799119783.29769916384), Jakarta Utara; checked2026-10-28, direct two-week/search three-month cache. Condition/stock unverified; shop name and Mall badge are not independent authentication. |
+| IDR / Marigold adapter title | **Rp4.127.000**, [Dooit1051758555/28151908243](https://shopee.co.id/Hotone-MP-50MG-Ampero-Mini-Multieffects-Efek-Pedal-w-9V-adapter-Marigold-i.1051758555.28151908243), Tasikmalaya; checked2026-10-28, month-old cache/stale15September delivery. Condition/stock unknown; crossed-price promotion not validated savings. |
+| IDR / Malang condition unknown | **Rp3.500.000**, [Koko DC4074307/4761850216](https://shopee.co.id/hotone-ampero-mini-i.4074307.4761850216); checked2026-10-28, two-month cache/stale24–27August delivery. Color, variant, condition, working state and bundle unknown. |
+| IDR / White title condition unknown | **Rp4.199.000; Habis**, [Major Seven37428558/28272464923](https://shopee.co.id/M7-HOTONE-Ampero-Mini-White-Amp-Pedal-Modelling-Digital-Multi-Effects-Guitar-Pedal-i.37428558.28272464923), Bandung; checked2026-10-28, five-month index/direct cache miss. Revision, selected variant, condition and bundle unknown. |
+<!-- comparison evidence ends -->
+
+All asks are separate dated observations, not a new/used range. Unless explicitly established, stock, warranty region, authenticity, adapter/bundle details, shipping/tax, vouchers and checkout total remain unknown. Late-delivery compensation is not an upfront discount. Full observations and sources follow.
+
+
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- HOTONE-AMPERO-MINI source begins -->
@@ -849,7 +878,6 @@ Own [firmwareV2.2 manufacturer manual,printedp30](https://res.hotoneaudio.com/pr
 | Processing / Pitch Shift versus Classic PS | **Pitch Shift explicitly polyphonic**,Pitch−24…+24semitones,Position0–100,Volume0–100 andDry0–100. **Classic PS explicitly monophonic**,Whammy-like,withRange0–100,Position0–100 andMix0–100. Its Range scale is not itself a published semitone scale. These are distinct FX choices,not additional simultaneous modules or dedicated synthesis proof. |
 | Expression / effect position versus global volume | Manual suggests assigning pitch Position to expression. This bends pitch within the selected effect;its Volume parameter is effect output,not universal master volume. **Sweller** is an automatic violin-like swell withAttack0–100 andLine/Exp/Log curves;not pedal assignment orposition recall. |
 
-<!-- comparison evidence ends -->
 
 Patch VOLUME enable/global-override uncertainty remains unchanged. FreshShopee search found a four-month indexed GuitarSecondStore homepage teaser atRp3,630,000,but no exact item/shop IDs orcondition declaration;the name alone is not used-condition proof. [Store lead](https://shopee.co.id/guitarsecond) directbody isJS-limited andomits the product. Keep it as an unresolved lead,not a qualified price orstock update. No files downloaded orsoftware/devices operated.
 

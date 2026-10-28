@@ -22,4 +22,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','docs(hotone): preserve Stomp archive and separate later evidence'))
+    print(git('commit','-m','docs(hotone): reconcile Ampero Mini comparison evidence'))

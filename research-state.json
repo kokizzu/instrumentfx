@@ -127995,5 +127995,24 @@
       "Historical driver modes and editor support kept separate"
     ],
     "remaining": "Global FV precedence, 13/15 counting basis, current offers and other original gaps remain unknown."
+  },
+  "ampero_mini_current_comparison_20261028": {
+    "date": "2026-10-28",
+    "basis": "Previously saved exact-model evidence reconciled into one explicit current comparison block.",
+    "preservation": "Original body and every dated follow-up retained; only comparison-selection markers relocated.",
+    "resolved_stale_summary": [
+      "1 rotary/2 footswitches/0 buttons",
+      "200+ V2.2 versus historical199",
+      "10 IR slots and separate Sound Clone capacity",
+      "Converted NAM A2 versus unknown native support",
+      "Post-selection Malang/White offers now represented without invented condition"
+    ],
+    "remaining": [
+      "Global volume override and output coverage",
+      "Exact library census",
+      "USB full matrix",
+      "Current condition-qualified stock",
+      "Actual controller pinout/compatibility"
+    ]
   }
 }
