@@ -124260,7 +124260,7 @@
   "hxe_global_position_fixes_20261028": {
     "source": "https://line6.com/software/index.html?hardware=Helix&name=Flash+Memory&os=All&submit_form=set",
     "evidence": "Indexed original manufacturer firmwarehistory explicitly HXEffectsOnly:GlobalEXP position sometimes notglobally applied;position not immediatelyrecalled afterpreset change allowing undesiredsignal;listedFIXED.",
-    "revision": "Delayedrecallfix verifiedunder2.70 released2018-10-17;separateglobalapplicationfix releaseunassigned. Earlier unassigned-excerpt observation superseded byfullsection context;notpresent3.80 defect.",
+    "revision": "Full official section context identifies Global-position application fixes in 2.60 (2018-07-02), separately from delayed preset-recall fix in 2.70 (2018-10-17). Supersedes earlier unassigned excerpts; no installed-firmware or present 3.80 defect claim.",
     "scope": "Globalpositionrecall notglobalVolumePan insertion,target orrange.",
     "market": "Only previouslyrecorded7.9mHabis processor andexcludedLCD parts;no newoffer adopted.",
     "hardware_test": false,
@@ -124268,7 +124268,13 @@
       "version": "2.70",
       "release_date": "2018-10-17",
       "verification": "Official complete firmware index section Version2.70/BugFixes explicitly HXEffectsOnly delayed EXP Global position recall afterpresetchange,undesired signal;direct sectioncontext inspected.",
-      "boundary": "Separate globally-applied-position fix release stillunassigned;notfirstever orinstalledfirmware proof."
+      "boundary": "Distinct from 2.60 Global-position application fixes; neither is proof of first-ever fix or installed firmware."
+    },
+    "global_position_application_release": {
+      "version": "2.60",
+      "release_date": "2018-07-02",
+      "verification": "Official Version 2.60 Spring Cleaning Update Bug Fixes explicitly scopes both Global EXP application failure and Global behaving as Per Preset to HX Effects only.",
+      "boundary": "Position behavior does not establish global Volume/Pan insertion, target or range; no device test or firmware download."
     }
   }
 }
