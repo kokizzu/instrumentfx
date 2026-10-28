@@ -230,6 +230,12 @@ Checked 2026-10-18. The [current support page](https://www.soranaudio.com/Downlo
 
 The exact [CH MUSIC offer][GR2-S] now opens directly with the same two-month cached Rp1,040,000 ask. No used/new condition, stock or bundle confirmation is added; relative delivery remains insufficient. This access check does not replace the original observation date or create a second price point.
 
+### Go Rig II — direct expression capability screen
+
+Checked **2026-10-28** against [fully indexed original manufacturer manual,JCMS-G3B V3 filename](https://www.soranaudio.com/upload/files/article/20251124/17639478809117099.pdf). Direct fetch timed out;indexed complete numbered text,not generated image descriptions,is the evidence. Controls1–15 andconnections16–22 enumerate **no treadle oranalog EXP input**. Rear inventory:TS input,L/R TS outputs,Tempo Sync,USB-C charging,power indicator/switch. **No dedicated headphone socket documented**;TS amp outputs are not certified headphone outputs. Required direct analog volume path fails.
+
+Footswitches perform section bypass,tap andReverb Freeze;**preset down/up is not documented**,andstorage remains unverified. Pedal position/range/recall andpedal bypass/phones/tail/loop attenuation are N/A for the absent direct path.200×86mm indexed dimensions fit withlong axis across width;retain alternateChinese dimensions and535/538g conflict above. A separately retrievedJCMS-G3A manual explicitly saysGo Rig I andis rejected forII. No hardware test ordownload.
+
 ## Tiny Stomp
 
 Desktop guitar/bass multi-effects;checked2026-10-18,partial. Own manufacturer manual read as PDF text;no image audit or downloads. Distinct from Dual Stomp/Lite.
