@@ -129,6 +129,18 @@ Checked **2026-10-28**, [exact manufacturer product](https://soranaudio.com/prod
 
 **No-treadle eligibility,analog EXP,global volume,position,min/max,recall,bypass/headphone/tail/loop attenuation andonboard preset down/up remain unverified.** Keep in pending screening outside the main capability table. FullDual Stomp’s WAH/VOL treadle andTiny Stomp’s EXP/CTRL socket are not transferred. Existingmanual-identity caution,prices andsoftware qualifications remain. No hardware test ordownload.
 
+### Dual Stomp Lite — exact Shopee snapshots and cache conflicts
+
+Checked 2026-10-28. Separate hardware offers; none establishes a completed sale or current stock.
+
+| Field | Exact seller/item and observed ask | Access / qualification |
+|---|---|---|
+| IDR / Seven Stereo hardware ask | **Rp1,050,000**, Seven Stereo Music & Audio Store, Kota Bandung,shop16879370/item54561597137. [Exact Lite item](https://shopee.co.id/Soran-Dual-Stomp-Lite-Multi-Effect-Processor-i.16879370.54561597137). | Month-old search says **Habis**,15–17September delivery; direct month-old cached body omits Habis andsays3September. Preserve access conflict;omission is not stock proof. |
+| IDR / Eleven Music hardware ask | **Rp1,025,000** in four-month search index; **Rp1,040,000** in direct month-old cache. Eleven Music,Kota Jakarta Pusat,shop12356205/item27994294718. [Exact Lite item](https://shopee.co.id/Soran-Dual-Stomp-Lite-Dual-Footswitch-Amp-Modeling-Multi-Effect-Processor-i.12356205.27994294718). | Older index says delivery service unavailable; newer cache has relative same-day delivery. Neither establishes checkout availability orprice movement. This exact-model item is distinct from rejected mixed-model item13073834841. |
+| IDR / TOKOAUDIOPRO hardware ask | **Rp1,500,000,Habis**, TOKOAUDIOPRO.COM,Kota Jakarta Pusat,shop253483262/item23506294895. [Exact Lite item](https://shopee.co.id/Soran-Audio-Dual-Stomp-Lite-Amp-Modeling-Multi-effects-Processor-Efek-Gitar-i.253483262.23506294895). | Two-week search body;directreopen onlyJavaScript shell. Relative same-day delivery does not override sold-out label. |
+
+All three explicitly name Dual Stomp Lite hardware. Condition/new-versus-used,working state,selected variant,bundle/adapter,firmware,battery health,warranty/authenticity,shipping/tax,voucher eligibility andcheckout total remain unverified. Up-toRp10,000late-arrival compensation is not an upfrontdiscount. No used/new range inferred;earlier cveriask retained. None resolves no-treadle/EXP eligibility orglobal-volume scope. No downloads ordevice operation.
+
 ## Go Rig B
 
 Bass-specific multi-effects;checked2026-10-18,partial. No Tiny/Dual Stomp specifications transferred. Ownership unverified.
