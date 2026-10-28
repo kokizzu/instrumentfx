@@ -83,6 +83,12 @@ Source access: English and German exact-model product bodies opened as browser t
 
 [SL1B-K]: https://www.korg.com/jp/products/tuners/pitchblack_x_mini/specifications.php
 
+### StompLab 1B — direct expression screening,2026-10-28
+
+[Own VOX IB EFGSJ1 manual](https://voxamps.com/wp-content/uploads/2019/12/SL_IB_OM_EFGSJ1.pdf),printedpp4–6,confirms no analog EXP in complete rear inventory and sequential Program UP/DOWN footswitches in Program select mode;Edit repurposes them. Thus this bass model fails the direct pedal requirement. Shared OUTPUT/PHONES is not a separate headphone socket. Existing145W×125Dmm footprint fits. Ordinary electric-guitar tonal suitability remains unverified.
+
+Its documented global hand master and7.0 startup reset are not global pedal assignment or pedal-position recall. DirectEXP min/max/position and output coverage are inapplicable;hand-master bypass/headphone/tail/recorded-loop attenuation remains unknown. No sibling expression behavior,hardware test ornew visual audit claimed.
+
 ## StompLab 1G
 
 Guitar multi-effects;distinct from2G,1B,2B. Checked2026-10-17;partial. Bass suitability andownership unestablished.

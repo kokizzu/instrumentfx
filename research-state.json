@@ -123892,5 +123892,14 @@
       "hand master attenuation coverage"
     ],
     "hardware_test": false
+  },
+  "stomplab1b_expression_screen_20261028": {
+    "source": "https://voxamps.com/wp-content/uploads/2019/12/SL_IB_OM_EFGSJ1.pdf",
+    "classification": "No analog EXP",
+    "remaining": [
+      "ordinary guitar suitability",
+      "hand-master attenuation"
+    ],
+    "hardware_test": false
   }
 }
