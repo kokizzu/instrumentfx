@@ -85,6 +85,17 @@ Checked **2026-10-17**. Desktop model; rack PRO remains separate. Manufacturer p
 | Processing / cabinet andpresence control | Selecting anamp automatically selects acabinet;Edit>Cabinets andbank arrows canoverride that choice. HoldingTap repurposesTreble asPresence. This documents factory-model selection,not importedIR/capture support. [Current product page][BV-P] |
 | Routing / Live-mode use | L1 appliesamp,cabinet,effects andadditional three-bandEQ fordirect mixer use. L2 isdescribed forFXreturns oftwo amps,letting theirphysical speakers providecabinet coloration. L3 splitsleft tostageampFXreturn/right tomixer. Manufacturer’s five-mode prose doesnot supersede the2005manual’s six-mode table(S3 included). [Current product page][BV-P] |
 
+### Bass V-AMP — direct expression screening, 2026-10-28
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / desktop inventory | [Own manufacturer v1.2 December2005 manual][BV-M],Control Elements anddesktop-side connectors,pp5–8: **no analog EXP input**;FS112V stereo socket takes switches,andDINMIDI accepts a MIDI pedal/controller. PRO-specific connections are excluded. Directanalog path fails;MIDI volume behavior remains separately unverified. |
+| Controls / master scope | Same manual,p7:MASTER controls overall volume;MASTER anddesktop AUXLEVEL are non-programmable,other rotary values can be stored in presets. This is physical control scope,not a global expression assignment or MIDI coverage guarantee. |
+| Controls / preset access | No onboard footswitches;hand BANK/A–E controls. ExternalFS112V selects within a bank;holdDOWN>2s toggles tuner. Do not label external switches as onboard preset−/+. |
+| Dimensions / screening | Existing236W×180Dmm fails preferred200W×140D. DedicatedPHONES. AnalogEXP position/range/bypass/phones/tail/recorded-loop coverage N/A;digital coverage unknown. |
+
+Text-only manufacturer-authored manual review;no hardware test or download. Existing source conflicts,offers andmodel counts retained.
+
 <!-- comparison evidence ends -->
 
 ### Provenance and remaining checks
