@@ -2137,3 +2137,7 @@ expression-audit-commit-zoom-607:
 .PHONY: expression-audit-commit-korg
 expression-audit-commit-korg:
 	python3 scripts/expression_audit_korg.py commit
+
+.PHONY: expression-audit-commit-fender
+expression-audit-commit-fender:
+	python3 scripts/expression_audit_fender.py commit

@@ -52,6 +52,16 @@ Original PR5833;checked2026-10-17;partial,ownership unverified. Separate from Mi
 | I/O / input and headphone load | **Input1MΩ; headphones30mW/channel**, with published headphone working range **greater than16Ω**. Output power is not a maximum voltage/input-headroom specification; no test load is attached to the30mW line in this table. The input plug rotates up to270degrees. |
 | Memory / factory reset | Reset restores **AMP,EQ,EFFECTS,MODIFY** selections and clears the Bluetooth paired-device list. These are resettable operating settings, not proof of a user-preset bank, per-combination memory count or power-cycle persistence. The retained preset-memory count remains unresolved. |
 
+
+### Mustang Micro — original direct expression screening 2026-10-28
+
+| Field | Finding / qualification |
+|---|---|
+| Expression / direct path | [Original PR5833 manual p2](https://www.fmicassets.com/Damroot/Original/10001/OM_2311300000_Mustang_Micro_US.pdf): complete controls/connections have **no analog EXP** andno onboard footswitches. AMP/EFFECTS± are hand selectors,not separate foot preset down/up. Micro Plus controls are not transferred. |
+| Controls / volume and playback | Samep6: Master Volume changes instrument/overall headphone level;Bluetooth-source volume sets the instrument/playback balance. This hand control does not establish external expression coverage. Existing1.0.54 USB-recording/master decoupling remains firmware-qualified. |
+| Dimensions / fit | [Exact original manufacturer specifications](https://uk.fender.com/products/mustang-micro):38.1W×28.7D×80Hmm,51g;stored-plug body fits preferred rectangle. Instrument-mounted orientation/rotating plug is separate from chassis footprint. Dedicated3.5mm stereo phones. |
+
+No hardware ornew visual test. No qualified new offer this pass:indie_musicstore191485301/26444289932 direct reopen cache miss;previous dated ask andall condition/stock/bundle qualifications retained.
 <!-- comparison evidence ends -->
 
 Historical indexed asks checked2026-10-17,not checkout or current stock. Condition,variant,bundle,warranty,authenticity,shipping,tax,vouchers unresolved;no qualified used/new allocation. No files downloaded or images visually inspected. Exact algorithm lists are preserved above;memory/software/import gaps remain.

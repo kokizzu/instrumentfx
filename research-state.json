@@ -123186,6 +123186,22 @@
       },
       "inventory": "existingmodel;counts unchanged",
       "next": "Continue remaining no-treadle models and qualified exact offers;Mini/Nano unresolved global-volume scope retained"
+    },
+    "mustangmicro_original_20261028": {
+      "source": "https://www.fmicassets.com/Damroot/Original/10001/OM_2311300000_Mustang_Micro_US.pdf",
+      "pages": "2,6",
+      "product": "https://uk.fender.com/products/mustang-micro",
+      "direct_exp": "absent complete inventory",
+      "onboard_footswitches": 0,
+      "volume": "Master instrument/overall;Bluetooth balance at sender;USB1.0.54qualification retained",
+      "dimensions_mm": {
+        "width": 38.1,
+        "depth": 28.7,
+        "height": 80
+      },
+      "phones": "dedicated3.5mmstereo",
+      "market": "191485301/26444289932cachemiss;previousasknotrecertified",
+      "next": "Original model screened;MicroPlus requires ownmanual;continue remainingno-treadleinventory andexactoffers"
     }
   },
   "brand_navigation": {
