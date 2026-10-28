@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro PedalBend/Octave inputranges saved;remainingUniV/SubEQ,44category/13vs15basis,USBchannelcount andqualifiedIDR;392partial.",
+    "task": "GT-Pro queuedUniV/SubEQ definitions saved;44category/13vs15basis,USBchannelcount,visualcontrols,expression/outputqualifications andqualifiedIDR remain;392partial.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -123322,5 +123322,16 @@
       "fourthstring2fretE"
     ],
     "next": "UniV/SubEQ;headlinecountbasis;USBchannelcount;exactShopee"
+  },
+  "gtpro_univ_subeq_20261028": {
+    "sources": [
+      "https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-41.html",
+      "https://roland.manymanuals.de/supplementary-music-equipment/GT-PRO/owners-manual-5239/44"
+    ],
+    "access": "indexed exact original manual;no visual/hardware inspection",
+    "univ": "rate0–100/BPM;depth/level0–100",
+    "subeq": "two parametric mids20Hz–10kHz,Q0.5–16;fourgains+-20dB;LC55–800Hz/Flat;HC700Hz–11kHz/Flat;preEQlevel+-20dB",
+    "queue": "listed UniV/SubEQ definitions saved;not exhaustive model certification",
+    "next": "44category/13vs15basis,USBchannelcount,qualifiedIDR andremainingmodelgaps"
   }
 }

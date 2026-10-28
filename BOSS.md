@@ -1759,6 +1759,15 @@ Exact-model manufacturer text only; no visual/device inspection. Family/block co
 
 Existing FX2 family/block counts remain unchanged. Uni-V/SubEQ details,44-category/13-versus15basis,USBchannelcount andqualified IDR offers remain open.
 
+### GT-Pro — Uni-V and Sub Equalizer controls 2026-10-28
+
+| Field | Finding / qualification |
+|---|---|
+| Processing / Uni-V | Manufacturer-authored [own manual p41](https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-41.html), indexed: phaser-like undulation with Rate **0–100 or patch MasterBPM**,Depth/Level **0–100**. No Hz conversion inferred from the relative rate scale; not a second Phaser mode or another simultaneous slot. |
+| Processing / Sub Equalizer | [Exact-model original manual p44](https://roland.manymanuals.de/supplementary-music-equipment/GT-PRO/owners-manual-5239/44), indexed English table: low/high EQ andboth mid gains **−20…+20dB**. Each mid center **20Hz–10kHz**,Q **0.5–16**,higherQ narrower. Low Cut **Flat/55–800Hz**;High Cut **700Hz–11kHz/Flat**. Flat disables the respective cut. Level **−20…+20dB**,described as before EQ. This FX-slot EQ is separate from Main/Sub GlobalEQ. |
+
+Queued Uni-V/SubEQ definition gaps are resolved at text-table level;this is not exhaustive parameter/hardware validation. Remaining headline count basis,USBchannelcount,control visual corroboration,expression/output qualifications andexactShopee IDR evidence remain open.
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.
