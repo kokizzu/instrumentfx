@@ -196,6 +196,12 @@ Checked **2026-10-28**. [Manufacturer-hosted discussion](https://unity.neuraldsp
 
 The [current official manual2.2.0](https://neuraldsp.com/manual/nano-cortex),Expression Pedal Assignments,still lists LEVEL. Preserve the conflict andearlier setup-article omission. Do not label LEVEL available on every current unit,removed universally,orCapture Volume equivalent to final master. The precise next evidence needed is firmware/app-qualified manufacturer clarification ordevice observation. Across-preset assignment andheadphone/bypass/tail coverage remain **unverified**. No software downloaded ordevice operated.
 
+### Nano Cortex — reported per-preset MIDI expression workaround
+
+Checked **2026-10-28**: [firsthand manufacturer-community post](https://unity.neuraldsp.com/t/to-use-an-expression-pedal-through-a-midi-foot-controller-connected-to-the-trs-midi-in-of-the-nano-cortex-nc/19858),user **mhlkman,18October2025**, reports using a Blackstar Live Logic controller and Dunlop expression pedal,CC1 range0–127. Their procedure temporarily selects expression mode to edit assignments,saves the preset,then restores MIDI mode;they explicitly say the setup must be repeated per preset. This is a dated user report,not staff confirmation,an official supported workaround orproof about current direct analog mode. Firmware/app versions andexact Dunlop model are unspecified.
+
+The [official NanOS2.2.0 manual](https://neuraldsp.com/manual/nano-cortex),Incoming MIDI CC List,independently identifies CC1 as **pedal position**,not a separate master-volume target. Thus this report does not provide a global-MIDI-volume escape from patch assignments. Keep the direct-analog every-preset verdict **unverified**,with this additional preset-scope evidence;retain the documented LEVEL/setup-article conflict andseparate headphone/bypass/tail uncertainties. No controller wiring oractual-M-VAVE compatibility inferred,andno hardware test.
+
 ## Quad Cortex
 
 Partial record checked **2026-10-17**. Full Quad Cortex,distinct from Nano Cortex andQuad Cortex mini. Product page advertises CorOS4.1.0;current web manual identifies4.1.1. Seller firmware unverified.

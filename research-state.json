@@ -125043,5 +125043,18 @@
     "access": "Manufacturer image fetches cache miss; manual index no entries",
     "next": "Remaining Mosky exact-model no-treadle screening, then DemonFX Dual Mod; preserve Mini/Nano/GP50/controller priorities",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "nano_midi_expression_scope_report_20261028": {
+    "checked": "2026-10-28",
+    "source": "https://unity.neuraldsp.com/t/to-use-an-expression-pedal-through-a-midi-foot-controller-connected-to-the-trs-midi-in-of-the-nano-cortex-nc/19858",
+    "author": "mhlkman",
+    "posted": "2025-10-18",
+    "equipment": "Blackstar Live Logic and unspecified Dunlop expression pedal",
+    "reported": "Configure expression assignments,save per preset,restore MIDI mode; CC1 0–127",
+    "authority": "Firsthand user report,not manufacturer support guarantee; firmware/app unspecified",
+    "official_crosscheck": "NanOS2.2.0 Incoming MIDI CC List: CC1 pedal position",
+    "result": "Additional preset-scope evidence; direct analog global volume remains unverified",
+    "next": "Seek explicit manufacturer assignment storage/override documentation; do not equate reported MIDI procedure with analog proof",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
