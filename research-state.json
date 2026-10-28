@@ -125088,5 +125088,34 @@
     ],
     "next": "Remaining no-treadle inventory and priority Mini/Nano/GP50/controller questions",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "powerrack_mk2_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "KEMPER.md#expression-assignment-and-volume-lock",
+    "sources": [
+      "https://www.kemper-amps.com/store/en_ca/profiler-powerrack-b.html",
+      "https://www.kemper-amps.com/profiler/technical-specifications",
+      "https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf",
+      "https://forum.kemper-amps.com/forum/thread/63352-volume-pedal/"
+    ],
+    "direct_exp": "Two TRS10–100kohm",
+    "fit": false,
+    "dimensions_mm": [
+      483,
+      220
+    ],
+    "assignment": "Global pedal assignment plus Volume Pedal Lock; Browse/Performance separately",
+    "position": [
+      "Off",
+      "Input",
+      "Pre Stack",
+      "Post Stack",
+      "Output"
+    ],
+    "range": "−5=0–100%;center ineffective;+5 up to24dB boost",
+    "coverage": "PostStack preserves tails;Output cuts;phones,bypass,recorded-loop unknown",
+    "qualification": "Main Manual13.0 May2025 plus historical manufacturer support; not current MK2 test",
+    "next": "Remaining inventory screening and unresolved Mini/Nano/GP50/controller scope",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

@@ -222,6 +222,14 @@ Partial record checked **2026-10-17**. Manufacturer SKU19300000 and exact Shopee
 
 Manufacturer foreign stock does not verify Indonesian stock. No exchange-rate conversion,downloads or visual inspection claimed. All technical/market gaps remain explicit.
 
+### Expression assignment and volume lock
+
+Checked **2026-10-28**. [Current exact MK2 store identity](https://www.kemper-amps.com/store/en_ca/profiler-powerrack-b.html),SKU19300000,and[manufacturer specifications](https://www.kemper-amps.com/profiler/technical-specifications) establish ordinary guitar input,two quarter-inch TRS10–100kΩ pedal/switch sockets,dedicated quarter-inch stereo headphones,and483W×220Dmm footprint: **fails preference**. Remote sockets are additional hardware. The [manufacturer-authored Main Manual13.0,May2025][kp-m],front-control inventory pp28–41,describes PowerRack rack controls without a treadle;not a fresh current-panel visual count. Onboard preset down/up footswitches remain unverified.
+
+Manualpp175–178 explicitly include PowerRack direct pedal connections anddescribe Volume Pedal Location/Range plus **Lock Volume Pedal**. Locations Off/Input/PreStack/PostStack/Output;Off disables control. Range−5 gives0–100%;center has no effect;+5 permits up to24dB boost. PostStack preserves delay/reverb decay;Output attenuates those tails. [Kemper Support,7April2024](https://forum.kemper-amps.com/forum/thread/63352-volume-pedal/),answering a600W Rack question,separates global assignment from Rig-stored location/range andinstructs locking separately in Browse andPerformance. Together these document a global settings path,not merely calibration. Historical firmware/manuscript evidence is not a current MK2 hardware test.
+
+Held-position recall,bypass,headphone andrecorded-loop attenuation remain unknown. Ordinary Volume Pedal is separate from Monitor Volume/CC73 andthe powered monitor path;no all-output mute guarantee inferred. Current firmware UI/persistence andactual controller pinout/taper still need confirmation. Older mains,power-stage andoffer qualifications preserved.
+
 ## PROFILER Rack MK2
 
 Partial record checked **2026-10-17**. Exact manufacturer SKU17300000 and Shopee MK2 title. Distinct from PowerRack, original Rack and Remote bundles.
