@@ -1298,6 +1298,16 @@ Checked2026-10-17;partial. Own product explicitly supports guitar/bass;separate 
 | Unverified | **Rp1.140.000**,Soundstationstore,shop250276993/item25710410858,Kota Tangerang Selatan;two months indexed crawl. | [Item][MP2-O2] |
 | Unverified | **Rp994.400**,GH MUSIC STORE,shop71552895/item25110576797,Kota Tangerang Selatan;five months indexed crawl. | [Item][MP2-O3] |
 
+### Mighty Plug MP-2 — direct expression screening 2026-10-28
+
+| Field | Finding / qualification |
+|---|---|
+| Expression / controls | Exact MP-2 manufacturer manual body identifies Cherub and FCC2AOAA-MP-2. Complete interface list has no analog EXP,treadle or footswitch. Hand Adjust cycles channels;hold2s selects guitar/bass mode. Power/MUTE toggles mute;RESET handles crashes. Current PDF revision equivalence unverified;not MP-3 controls. [Manual body][MP2-T] |
+| I/O / screening | 6.35mm instrument plug,3.5mm stereo phones,Micro-B charge/update/audio. Direct analog volume position/range/bypass N/A;digital headphone/tail/USB/loop attenuation unknown. [Manual body][MP2-T] |
+| Processing / revision conflict | Mirror manual:20IRs versus product19;ECO3min without phones versus product2min. Firmware mapping unresolved. [Manual body][MP2-T];[product][MP2-P] |
+| Dimensions / screening | Own manufacturer-authored mirror repeats81L×41W×30H mm;body fits preferred rectangle. Output rating125mW×2 lacks load/distortion conditions. [Manual body][MP2-T] |
+| IDR / access | Exact HAWILA item130137603/3008444335 returned cache miss2026-10-28;no refreshed ask or stock proof. Preserve older offers above. [Exact item][MP2-O1] |
+
 <!-- comparison evidence ends -->
 
 Checked2026-10-17;historical asks,not live checkout. No qualified used/new allocation. Stock,variant,bundle,authenticity,warranty,shipping/tax/vouchers unresolved.
@@ -1313,6 +1323,11 @@ Official own manual6pages has no substantive extracted text;no visual verificati
 [MP2-A]: https://www.ariaguitars.com/jp/items/other-brands/nux/amplifier/mighty-plug/
 
 Aria links mp2_manual.pdf(one page,no extracted text);no visual equivalence claimed. A Manuals+ converted summary was located but panel/reset claims were not adopted without readable manufacturer body. Regional specification page used for the qualified measurements above;no download.
+
+[MP2-T]: https://manuals.plus/nux/mp-2-mighty-plug-guitar-and-bass-amp-modeling-earphone-amplug-manual
+
+MP-2 mirror review used manufacturer manual body only,not generated summaries/FAQs. The alternate Musicalstore PDF resolves as10pages without extracted text,versus6-page official source;no visual revision equivalence claimed.
+
 
 ## Mighty Plug Pro MP-3
 

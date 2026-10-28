@@ -123240,6 +123240,15 @@
       ],
       "limitations": "Current PDF revision equivalence, digital volume scope, USB/tails/recorded-loop coverage unknown. Existing IR allocation conflict retained.",
       "next": "Screen Mighty Plug MP-2 using its own complete manual; continue unresolved Mini/Nano global scope and exact controller wiring independently."
+    },
+    "mp2_screening_20261028": {
+      "checked": "2026-10-28",
+      "finding": "Exact Cherub MP-2 FCC2AOAA-MP-2 manufacturer manual body complete interface lacks analog EXP/treadle/footswitch;hand Adjust cycles channels,guitar/bass hold;Power/Mute and reset separate.",
+      "source": "https://manuals.plus/nux/mp-2-mighty-plug-guitar-and-bass-amp-modeling-earphone-amplug-manual",
+      "conflicts": "Manual20IR vs product19;ECO3min vs product2min. Current PDF revision equivalence unknown. Alternate Musicalstore PDF10pages unreadable vs official6.",
+      "dimensions": "81L41W30H mm body fits;125mW×2 output lacks load/distortion conditions",
+      "offer": "HAWILA130137603/3008444335 cache miss;historical asks retained,no refreshed price/stock",
+      "next": "Return to unresolved Mini/Nano global assignment scope,GP-50 current manual,and exact M-VAVE revision/wiring;independent GT-Pro cursor retained."
     }
   },
   "brand_navigation": {
