@@ -166,6 +166,11 @@ Levitate regional source check2026-10-18:Hotone Japan exactQDS-02 page corrobora
 
 Checked2026-10-19 using the [manufacturer-leaflet transcription on a mirror](https://manuals.plus/m/2e377079d6dbef273f27dad2ad8a4a69ec62033e70eea084ccbb203be42cf107). SONICAKE/LEVITATE branding,exact QDS-02 document identity,and matching 9V/92mA,impedances anddimensions support identity. This is the original one-page leaflet transcription,not the mirror’s generated ASIN guide. Original manufacturer-hosted image andmirrored PDF remain uninspectable,so no visual census claimed. Corrupted OCR weight “37g” is not adopted;official371g remains. The tap-timing reset rule andswitch instructions above supersede the earlier sequence-unverified status while retaining the stated gaps.
 
+### Levitate — expression, headphones and bypass tails
+
+Checked2026-10-28: the [manufacturer’s own FAQ](https://www.sonicake.com/products/levitate) explicitly supports **mono headphone use but does not recommend it**; a dedicated headphone socket is not established. It also confirms delay tails survive bypass and REVERB hold engages trails for both effects. This independently corroborates the earlier qualified leaflet transcription; it does not prove expression attenuation of those tails. Direct analog EXP/global volume, position/endpoints/recall, headphone/recorded-loop coverage and preset down/up remain **unverified**. Independent dry/wet controls are not a global master assignment. Both published90×124mm axis interpretations fit the preferred rectangle; the axis conflict remains. English and Japanese manual images exposed no readable content; no visual inspection, local download or hardware test claimed.
+
+
 ## Matribox II Pro QME-200
 
 <!-- comparison evidence begins -->
