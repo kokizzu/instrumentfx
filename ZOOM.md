@@ -4662,6 +4662,12 @@ No controller,editor or hardware was operated. Currentdraw,display,universal con
 
 The manufacturer defines its dBm notation using0dBm=0.775Vrms; retain that convention rather than silently relabel these figures. Line-level sources belong on rear inputs; front MIC IN sensitivity is optimized for microphones. Phantom-power availability remains unverified.
 
+### RFX-2200 — direct-expression capability screening
+
+Checked 2026-10-28 against [own manufacturer manual][R2200-M], pp2–3,6,25. Complete physical inventory has **no analog EXP input or dedicated headphone socket**; FS01 is effects on/off only. MIDI parameter movement is a separate digital path. **VALUE UP selects higher patches, VALUE DOWN lower**, but these are hand keys, not onboard footswitches. **482W×115Dmm** exceeds preferred width; guitar still requires the documented upstream effect/preamp path.
+
+Direct analog expression position/range/recall are inapplicable to this socket inventory. Retain algorithm-specific WET MUTE/DRY THRU and analog OUTPUT control excluding S/PDIF; none establishes global continuous volume through MIDI or tail/looper coverage. Earlier statement that dedicated EXP was absent is now reflected in the capability comparison; no new hardware admission. Historical sold-out offer remains qualified; no download, reset or device test.
+
 ## V3
 
 Vocal multi-effects; hand-operated desktop/mic-stand unit. Consolidated and researched 2026-10-16; partial verification. No guitar processing membership inferred from vocal effects.

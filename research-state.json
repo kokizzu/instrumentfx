@@ -124330,5 +124330,12 @@
     "finding": "No analog EXP or headphone socket in complete inventory. FS01 only switches effects; MIDI separate. VALUE UP/DOWN hand keys not footswitches; 482W×115Dmm.",
     "boundary": "Direct EXP position/range/recall N/A. OUTPUT knob excludes S/PDIF; algorithm bypass qualifications retained. No MIDI global-volume guarantee, market refresh, download or device test.",
     "next": "Screen RFX-2200 exact manual next; independent GT-Pro general cursor unchanged."
+  },
+  "rfx2200_expression_screen_20261028": {
+    "source": "https://zoomcorp.com/media/documents/E_RFX2200.pdf",
+    "pages": "2–3,6,25",
+    "finding": "No analog EXP or headphone socket in complete inventory. FS01 switching only; MIDI separate. VALUE UP higher/DOWN lower are hand keys, not onboard footswitches. 482W×115Dmm.",
+    "boundary": "Direct analog position/range/recall N/A; preserve bypass/output/tail qualifications and old sold-out offer. No hardware test or download.",
+    "next": "Remaining no-treadle rack inventory: Behringer FX2000/DSP2024P exact-model screening; independent general GT-Pro cursor retained."
   }
 }
