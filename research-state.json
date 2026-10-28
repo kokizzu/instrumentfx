@@ -124688,5 +124688,12 @@
     "release": "2022-11-03 firmware3.50",
     "finding": "HX Stomp explicitly included: per-parameter Snapshot Control defaultOn, Off excludes snapshot value control. Separate from block Snapshot Bypass/globalEXPposition; not universal volume insertion/assignment.",
     "next": "Continue exact3.80 Stomp/XL documentation, controller wiring and coverage; retain Mini/Nano/GP50 unresolved and independentGTPro cursor."
+  },
+  "hx_xl_loop_coverage_boundary_20261028": {
+    "source": "https://device.report/m/7e506bff9341be7f9712b0e10533b9bdee5aaf9de1a0a08688b58130ea5d5e35",
+    "identity": "40-00-0500 RevD3.80 copyright2024;printed41–42 original body",
+    "finding": "Continued playback requires same looper algorithm and mono/stereo type in destination preset. Playback level separate from Overdub decay;90percent means10percent reduction per overdub pass.",
+    "coverage": "Continuity not EXP attenuation proof; preset Volume placement/global mapping gaps retained.",
+    "next": "Prioritize fresh exactShopee and GP50 original1.1 access alternatives; retain Mini/Nano scope and independentGTPro."
   }
 }

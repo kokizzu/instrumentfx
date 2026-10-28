@@ -339,3 +339,5 @@ Ampero Mini external-control boundary,2026-10-28: [ownV2.2 manual,pp20–21](htt
 GT-1000CORE tuner boundary,2026-10-28: [original2020 parameter guide,p55](https://files.kraftmusic.com/media/ownersmanual/Boss_GT-1000CORE_Parameter_Guide.pdf) distinguishes dry/all-effects-off BYPASS from effected THRU and MUTE. Pedal sweep during each mode remains unverified; older polyphonic-tuner content is not current2.02 certification.
 
 HX Stomp snapshot boundary,2026-10-28: [manufacturer3.50 notes](https://kb.line6.com/helix-3-50-release-notes) explicitly allow per-parameter Snapshot Control Off,defaultOn. This is separate from block Snapshot Bypass and global EXP-position recall; none creates an all-preset volume assignment.
+
+HX Stomp XL loop boundary,2026-10-28: [own3.80 RevD manual,pp41–42](https://device.report/m/7e506bff9341be7f9712b0e10533b9bdee5aaf9de1a0a08688b58130ea5d5e35) requires matching looper algorithm and mono/stereo type in the destination preset for continued playback. Continuity is separate from expression attenuation of recorded audio; that coverage remains unverified.
