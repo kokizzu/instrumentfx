@@ -123736,5 +123736,16 @@
       "separate attenuation coverage"
     ],
     "hardware_test": false
+  },
+  "blacktruck_expression_screen_20261028": {
+    "source": "https://manualzz.com/doc/68316423/mooer-black-truck-combined-pedals-owner-s-manual",
+    "identity": "manufacturer-authored exact Black Truck body, not generated FAQ",
+    "classification": "no analog EXP in complete connector inventory",
+    "remaining": [
+      "PHONES diameter/EN-CN routing conflicts",
+      "dimension axis interpretation",
+      "separate attenuation coverage"
+    ],
+    "hardware_test": false
   }
 }

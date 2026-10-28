@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(mooer): screen Red Truck direct expression and preset limitations'))
+    print(git('commit','-m','research(mooer): screen Black Truck expression and independent phones control'))

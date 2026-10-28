@@ -47,7 +47,7 @@ Checked 2026-10-17; partial. Guitar multi-effects;ownership,bass/vocal suitabili
 
 | Field | Finding / qualification |
 |---|---|
-| Expression | Built-in/external/toe expression unverified. |
+| Expression | No analog EXP input in complete own-manual connector inventory; direct analog path fails. Integrated treadle/toe not listed. [Manufacturer-authored manual][BT-M] |
 | K/F/B | **6 footswitches**:TAP plus1–5;rotary/button totals pending. EQ sliders and selectors counted separately. [Manual layout][BT-M] |
 | Display | Mode/tuner display;published diagonal,color/touch unverified. [Manual layout][BT-M] |
 | Processing / categories | **6 sections**:COMP,OD,HI-GAIN,EQ,MOD,SPACE. Analog dynamics/drive/EQ plus digital MOD/SPACE. MOD selects tremolo/phaser/flanger. SPACE selects delay,reverb,or both. Full simultaneous accounting pending. [Manual][BT-M] |
@@ -92,6 +92,10 @@ Used/new condition-confirmed offers not established. Checked2026-10-17:indexed h
 | Power / adapter qualification | Chinese specification says **9V DC adapter≥1000mA**;English page says9V1A. These are supply ratings,not measured current consumption. Existing polarity wording,barrel-size andbattery/USB gaps remain. |
 
 Text inspection only. The newly retrieved page does not resolve retained EN/CN PHONES routing orsize conflicts. No downloads orinstallations.
+
+### Black Truck — direct-expression screening (2026-10-28)
+
+[Exact manufacturer-authored manual][BT-M], Connections and Operation Modes: input, FX loop, outputs, PHONES and DC inventory has no analog EXP socket. **Fails direct analog expression-volume path**. Independent PHONES level is hand-operated; it does not establish external volume assignment. Five direct switches recall bypass combinations only, not parameter values or sequential preset up/down. Existing370D×96Wmm labels remain;370mm exceeds preference whichever orientation. Preserve PHONES diameter and EN/CN routing conflicts. Pedal position/endpoints N/A; separate attenuation/bypass/tail/recorded-loop coverage unknown. No hardware test or sibling specification transfer.
 
 <!-- comparison evidence ends -->
 
