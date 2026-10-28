@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 396,
+  "active_model_count": 397,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 396,
+  "canonical_root_model_count": 397,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "396 unique active/root-canonical;0 legacy-only;48 brands;six excluded;all partial.",
+  "count_reconciliation": "397 unique active/root-canonical;0 legacy-only;48 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro catalogue list reconciled:22 shared+11 FX2-only+11 other entries=44,including external LOOP andFV;not44simultaneous internal effects. Continue13vs15basis,otherUSBmodes,visual controls,globalFVprecedence andqualifiedIDR;394partial.",
+    "task": "GT-Pro catalogue list reconciled:22 shared+11 FX2-only+11 other entries=44,including external LOOP andFV;not44simultaneous internal effects. Continue13vs15basis,otherUSBmodes,visual controls,globalFVprecedence andqualifiedIDR; catalogue counts derive from current inventory.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -25691,7 +25691,8 @@
     "Fractal Audio": [
       "FM3 MKII Turbo",
       "FM9 MKII Turbo",
-      "VP4"
+      "VP4",
+      "AM4"
     ],
     "Kemper": [
       "PROFILER Player",
@@ -26185,7 +26186,8 @@
     "FRACTAL-AUDIO.md": [
       "FM3 MKII Turbo",
       "FM9 MKII Turbo",
-      "VP4"
+      "VP4",
+      "AM4"
     ],
     "KEMPER.md": [
       "PROFILER Player",
@@ -26249,14 +26251,14 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 331,
+      "record_count": 332,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 172,
+      "record_count": 173,
       "bass_focused_record_count": 40,
-      "shared_bass_capable_count": 132,
+      "shared_bass_capable_count": 133,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -26279,10 +26281,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 331 guitar, 172 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 332 guitar, 173 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "396 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "397 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -46726,18 +46728,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 396,
-    "canonical_root_models": 396,
+    "unique_brand_model_pairs": 397,
+    "canonical_root_models": 397,
     "legacy_only_models": 0,
-    "guitar_view_models": 331,
+    "guitar_view_models": 332,
     "bass_focused_models": 40,
     "vocal_only_models": 25,
     "vocal_view_models": 71,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 172,
-    "bass_shared_models": 132,
+    "bass_view_models": 173,
+    "bass_shared_models": 133,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -47130,6 +47132,7 @@
       "Fractal Audio::FM3 MKII Turbo",
       "Fractal Audio::FM9 MKII Turbo",
       "Fractal Audio::VP4",
+      "Fractal Audio::AM4",
       "Kemper::PROFILER Player",
       "Kemper::PROFILER Stage MK2",
       "Kemper::PROFILER Rack MK2",
@@ -47318,6 +47321,7 @@
       "Fractal Audio::FM3 MKII Turbo",
       "Fractal Audio::FM9 MKII Turbo",
       "Fractal Audio::VP4",
+      "Fractal Audio::AM4",
       "Kemper::PROFILER Player",
       "Kemper::PROFILER Stage MK2",
       "Kemper::PROFILER Rack MK2",
@@ -47409,6 +47413,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Fractal Audio::AM4": "Own AM4 manufacturer product explicitly supports guitar/bass amp and cab processing; not sibling or generic EQ inference. https://www.fractalaudio.com/am4/",
     "Fractal Audio::VP4": "Own VP4 manual v1.06 p24 explicitly lists Bank S bass presets; effects-only guitar/bass processing, no sibling inference. https://www.fractalaudio.com/downloads/manuals/VP4/VP4-Owners-Manual.pdf",
     "BOSS::GS-10": "Own manufacturer product explicitly supports guitar and bass and bass amp modeling; no sibling or generic EQ inference. https://www.boss.info/global/products/gs-10/",
     "BOSS::GX-1": "Own GX-1 OD/DS table explicitly documents bass-tuned drives and bass DI models; not GX-1B equivalence. https://static.roland.com/manuals/gx-1_parameter/en-US/358369163362518667.html",
@@ -50257,6 +50262,13 @@
     },
     "Fractal Audio::VP4": {
       "link": "FRACTAL-AUDIO.md#vp4",
+      "source_files": [
+        "FRACTAL-AUDIO.md"
+      ],
+      "finding_files": []
+    },
+    "Fractal Audio::AM4": {
+      "link": "FRACTAL-AUDIO.md#am4",
       "source_files": [
         "FRACTAL-AUDIO.md"
       ],
@@ -129111,5 +129123,25 @@
     "active": false,
     "next": "AM4fullpartialprofileandqualifiedhardwareoffers;resolveUSB/control/massconflictsandIRformats",
     "downloads": false
+  },
+  "am4_comparison_admission_20261028": {
+    "active": true,
+    "fully_verified": false,
+    "views": [
+      "ALL-GUITAR.md",
+      "ALL-BASS.md"
+    ],
+    "supersedes": "Lead-stage inventory status only;original bodies andanchors retained.",
+    "basis": "Own product guitar/bass amp/cab multi-effects;model-specific manual/profile fields with explicitgaps",
+    "remaining": [
+      "Control/mass/USB conflicts",
+      "Exact Shopee hardware",
+      "IR file/length limits",
+      "Native/converted NAM/capture",
+      "Full current census",
+      "Displaydiagonal/touch",
+      "Analog recall/endpoints/outputcoverage"
+    ],
+    "next": "Resume no-treadle priorities and fresh Shopee discovery;independent GT-Pro generalcursor preserved."
   }
 }

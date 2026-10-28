@@ -5,13 +5,43 @@
 <!-- brand-index begins -->
 **Model and section index — A–Z, natural numeric order**
 
-- [AM4 — partial discovery lead, outside active inventory](#am4--partial-discovery-lead-outside-active-inventory)
+- [AM4](#am4)
 - [FM3 MKII Turbo](#fm3-mkii-turbo)
 - [FM9 MKII Turbo](#fm9-mkii-turbo)
 - [VP4](#vp4)
 <!-- brand-index ends -->
 
-## AM4 — partial discovery lead, outside active inventory
+## AM4
+
+Admitted 2026-10-28 as an **active partial guitar/bass model**, not fully verified. The complete earlier discovery record follows unchanged apart from heading depth; its outside-inventory status is historical. Admission does not certify stock, ownership or unresolved specifications.
+
+<!-- comparison evidence begins -->
+| Field | Evidence / qualification |
+|---|---|
+| Built-in / external expression | No built-in treadle in panel inventory. Two shared pedal/switch TRS inputs; linear10–100kΩ maximum, TRS-to-TRS. Global Input Volume, Output Volume and Amp Block Out Volume accept PEDAL1/2 without per-preset volume blocks. External toe capability and actual M-VAVE wiring unknown. |
+| Expression placement / range / recall | Amp-output target preserves amp gain and following tails. Other target output coverage, independent endpoints and analog recall remain unknown; MIDI Initial Value explicitly excludes local pedals. Calibration0–100 is not range assignment. |
+| Controls | **4 footswitches /6 buttons**. Rotary conflict: specification5, panel prose LEVEL +SELECT +A–D derives6. Physical verification pending. |
+| Dimensions / mass | Specification **254 W×160.3 D×66 H mm,1.56kg**; drawing text1.63kg and height references including75.5mm. Reference points unresolved. Width/depth exceed preferred200×140mm. |
+| Display | **480×272 color LCD**. Published diagonal and touch status unknown. |
+| Simultaneous processing | Integrated **Amp+Cab plus three additional effect slots**, with preset gate/EQ/levels separate. Dynamic85%CPU limit may force bypass; not every combination guaranteed. |
+| Categories / choices | Manual1.0.2: AMP245+ versus product240+; 45+DynaCabs. Other category types: Chorus18, Compressor20+, Delay28, Drive70+, Enhancer3, Filter18, Flanger32, Gate4, GEQ18, PEQ1, Phaser17, Reverb79, Rotary1, Tremolo7, Volume2, Wah9. Drive permits2 instances, other listed categories1; total slots/CPU still constrain. Not a certified firmware2.02 census. |
+| Preset / user memory | **104 writable locations**,26banks×4; supplied factory tones occupy these slots. Some blank, exact initial-fill split unknown; no extra protected factory bank established. |
+| Synth / acoustic | Guitar/bass processing documented. Dedicated synth, pitch, acoustic simulator and looper remain unverified; no VP4 transfer. User cabinet IRs are not proof of arbitrary synthesis or capture loading. |
+| Audio I/O / headphones | One unbalanced quarter-inch instrument input; two balancedTRS main outputs; stereoTRS insert send/return tipL/ringR; dedicated3.5mm stereo phones,35Ω output impedance and recommended headphone impedance<600Ω. RCAcoax S/PDIF in/out,48kHzPCM. Headphone power unknown. |
+| Control / USB ports | Two quarter-inch TRS pedal inputs; USB TypeC audio/MIDI. Separate3.5mmTRS TypeA MIDIin/out, configurable merge rather than dedicatedThru, from own specifications. |
+| USB audio / conflict | Product advertises4×4; manual specification says4total,2in/2out. Model-specific conflict retained; actual enumeration untested. USB2.0 class-compliant,48kHz fixed does not prove USB power or all modern hosts. |
+| Power | **9VDC1.5A,2.1mm center-negative; internal batteryNone**. USB-powered operation unknown. |
+| IR / NAM / capture | **256 user cabinet slots**,Standard/UltraRes; cab section mixes up to2 DynaCabs or userIRs, with extraCPU cost. Exact file/length limits unknown. NativeNAM,convertedNAM and proprietaryampcapture unverified. |
+| Editor / platforms | **AM4-Edit1.00.09,2026-09-08**,macOS10.13+,Windows11+64-bit mainpackage plus requiredUSBdriver. Separate32-bit link is not equivalent support certification. Full editor/librarian; embeddedFractal-Bot for updates/backups. Mobile/Linux unknown. |
+| Firmware / scenes | Downloads list **2.02,2026-09-02**; DynaCabs1.09 separately. Manual1.0.2 dated2025-12-16. **4scenes/preset,4channels/block**; channels change subtype/settings, not category, and Amp channels include cab. Modifiers span channels. Installed versions unknown. |
+| Routing / output coverage | Split Mode: summedmono outputs,Left withcab/Right without; phones inherit uncabbedRight. Cab moved tochainend. Amp-type changes generally reset cab and load matching model; linking can be disabled or retained for achange. These are routing/cab-persistence facts, not universal EXP coverage of bypass/phones/loops. |
+| Onboard preset navigation | SceneMode hold1 previous/hold4 next; PresetMode taps choose bank slots, holds1/4 changebanks. Custom globalholds separately configurable; assigninghold delays tap untilrelease. |
+| Used IDR | **Unknown**; no qualified exactShopee processor offer established. Seller/item,condition,stock,bundle,warranty,region,voucher and delivered price unknown. |
+| New IDR | **Unknown**; exact hardware offer unestablished. GearDivision’s cachedRp198,000 “Cover fractalAM4” is an accessory and excluded. Search non-results do not establish market absence. |
+<!-- comparison evidence ends -->
+
+### AM4 — partial discovery lead, outside active inventory
+
 
 Checked2026-10-28. [Manufacturer product page](https://www.fractalaudio.com/am4/) identifies guitar/bass instrument input, amp/cab modeling and multi-effects, two expression/switch ports, headphone practice and4×4USB audio. It advertises104presets,240+amps and45+guitar/bassDynaCabs; these are not simultaneous-effect counts. Exact Shopee Indonesia processor hardware offer remains unestablished, so this lead is not added to active counts or instrument comparisons.
 
