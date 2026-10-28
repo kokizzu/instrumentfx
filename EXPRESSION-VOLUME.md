@@ -331,3 +331,5 @@ Nano Cortex [additional indexed hardware ask](NEURAL-DSP.md#nano-cortex--additio
 [Own original-model evidence](ZOOM.md#g2-original--partial-capability-lead): per-patch FP01/FP02 assignment, with volume forced during bypass. Shared headphone output;156W×162Dmm exceeds preferred depth. Full profile, exact hardware offer and output-coverage checks remain incomplete. Not added to active model counts or the main capability table.
 
 Original G2 [control and offer follow-up](ZOOM.md#original-g2--controls-memory-and-offer-screening): own manual confirms onboard patch down/up;exact Shopee original-model offer remains unresolved. This does not admit the partial lead or establish all-preset volume.
+
+Nano Cortex scope evidence,2026-10-28: [official NanOS2.1.0 preset-management fix](https://neuraldsp.com/nano-cortex-updates/nanos-2-1-0-is-now-available) explicitly refers to expression assignments in an unsaved preset. This supports preset-associated state; a separate global override remains unverified. USB playback level and monitor/output mute settings are separate functions, not analog EXP coverage proof.

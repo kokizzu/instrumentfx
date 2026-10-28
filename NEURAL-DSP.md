@@ -185,6 +185,11 @@ Checked 2026-10-28: [behaviouristy, seller1435419712/item27275381109](https://sh
 
 Condition, working state, selected variant, firmware, adapter/cables/bundle, seller authenticity, warranty/import region, shipping/tax and checkout total remain unknown. Index displays Dengan Voucher and Rp100RB spend/Rp1RB discount; eligibility, cap and base-price arithmetic are unresolved, so no discount is subtracted. Seller rating shown as N/A does not establish fraud or reliability. This is an isolated historical ask, not a verified used/new range, completed sale or purchasing recommendation. Existing Seven Stereo and HAWILA observations remain separate. Global analog expression-volume scope is unchanged.
 
+### Nano Cortex — preset-associated expression evidence
+
+Checked2026-10-28: [manufacturer NanOS2.1.0 notes,2025-07-24](https://neuraldsp.com/nano-cortex-updates/nanos-2-1-0-is-now-available), Preset management, fix expression assignments being deleted from an **unsaved preset** after entering/exiting the Capture menu. This explicitly associates assignment state with a preset; it does **not** document a separate global override or prove one absent. Across-every-preset volume therefore remains unverified. Preserve the later2.2.0 reload/knob-interaction corrections and2.2.1 boot hotfix above. The same2.1.0 notes separately introduce USB playback level, analog-input direct-monitor mute and analog-output mute; those functions do not establish analog EXP control of all audio paths. No firmware/software downloaded or hardware tested.
+
+
 ## Quad Cortex
 
 Partial record checked **2026-10-17**. Full Quad Cortex,distinct from Nano Cortex andQuad Cortex mini. Product page advertises CorOS4.1.0;current web manual identifies4.1.1. Seller firmware unverified.
