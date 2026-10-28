@@ -125816,5 +125816,20 @@
       "Manufacturer footprint corroboration; visual control census"
     ],
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "gtpro_consistency_review_20261028": {
+    "source": "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+    "pages": [
+      99,
+      102
+    ],
+    "change": "Corrected stale blanket bypass/recall unknowns in five GT-Pro paragraphs;preserved dated source findings. EXP1/FC-200 TunerBypass volume and AssignHold examples are documented,not generalized to EXP2 or fixed SYSTEM-role precedence.",
+    "remaining": [
+      "SYSTEM role versus patch FV enable/range precedence",
+      "Other bypass states;headphone/tail/recorded-Hold attenuation",
+      "44-category/13-versus15 reconciliation;other USB modes;visual controls;qualified IDR"
+    ],
+    "mini_retry": "Current official V2.2 manual timed out;no new conclusion",
+    "nano_recheck": "Current search did not resolve global scope;no status change"
   }
 }

@@ -1729,7 +1729,7 @@ Original manufacturer manual,exact GT-PRO title/sections:[indexed p63](https://r
 |---|---|
 | Expression / global function | **SYSTEM→EXP1 Func orEXP2 Func→Foot Volume** assigns the pedal role globally. **Auto** is different:EXP1 changes toWah/Bend when those effects are active. Assignable instead uses patchASSIGNs. Global role is supported;unconditional full-range control across every existing patch remains qualified below. |
 | Expression / patch enable and range | P65 documents patch-storedEXP1/CC7FV **On/Off andMIN/MAX0–100**,saved withWRITE. GlobalFootVolume interaction withthese patchfields is not established bythese excerpts. Do not assume everypatchneedsediting orallpatchesworkwithoutit. |
-| Expression / placement and curves | FVLevel0–100;fourcurvesSlow1,Slow2,Normal,Fast. P55 warns FVmaynotworkproperly whenFeedbackerOSC orGuitarSynth followsit inchain. This isnot a universal final-output mute. Bypass/headphone/tail/recorded-Hold coverage andpositionrecall remainunverified. |
+| Expression / placement and curves | FVLevel0–100;fourcurvesSlow1,Slow2,Normal,Fast. P55 warns FVmaynotworkproperly whenFeedbackerOSC orGuitarSynth followsit inchain. This isnot a universal final-output mute. TunerBypass volume viaEXP1/FC-200 is documented below;other bypass/output/tail/recorded-Hold coverage remains unverified. AssignHold recall is qualified below;fixed SYSTEM-role interaction remains unknown. |
 
 DirectanalogEXP isdocumented;482W×305Dmm rackchassis far exceeds preferredfootprint. DedicatedPHONES exists;noonboardfootswitches.33FXfamilies and44-category headline remainunreconciled;no countforcedtofit.
 
@@ -1812,7 +1812,7 @@ Queued Uni-V/SubEQ definition gaps are resolved at text-table level;this is not 
 | Field | Finding / qualification |
 |---|---|
 | Expression / competing global roles | [Original manufacturer manual p64](https://cdn.roland.com/assets/media/pdf/GT-PRO_OM.pdf), indexed: when EXP1,EXP2 andCC7 roles operate together, assign different functions to the pedals. With a shared function,the **last pedal adjusted normally determines the value**; **Assign Hold=On may prevent intended operation**. A fixed global FootVolume role therefore does not prove independent or predictable simultaneous control from multiple sources. |
-| Expression / recall boundary | This warning identifies a concrete competing-source/recall interaction. It does not resolve dedicated FV MIN/MAX versus SYSTEM precedence,held-position recall with one source,bypass,phones,tails orrecorded-Hold attenuation. No hardware test. |
+| Expression / recall boundary | This warning identifies a concrete competing-source/recall interaction. It does not resolve dedicated FV MIN/MAX versus SYSTEM precedence,fixed-role held-position recall,other bypass states,phones,tails orrecorded-Hold attenuation;the documented tuner-bypass path remains qualified above. No hardware test. |
 
 The official catalogue’s indexed effect list remains incomplete;44-category counting basis and13-versus15 conflict remain unresolved. No guessed category added to force44.
 
@@ -1832,7 +1832,7 @@ Manufacturer-authored original **GT-PRO manual p99**, indexed [English PDF repro
 | Assign Hold Off | Destination volume initially uses its saved patch value; subsequent pedal movement/information changes it according to the pedal. No uninterrupted held-position volume guarantee. |
 | Toggle source | Assign Hold does not operate when Assign Source mode is Toggle. This restriction is distinct from a continuous analog pedal’s calibration. |
 
-This resolves the documented ASSIGN recall examples, not SYSTEM fixed FootVolume versus dedicated FV enable/MIN/MAX precedence or EXP2 memo ambiguity. The earlier competing-source warning remains applicable. Bypass/phones/tails/recorded-Hold coverage remains qualified separately.
+This resolves the documented ASSIGN recall examples, not SYSTEM fixed FootVolume versus dedicated FV enable/MIN/MAX precedence or EXP2 memo ambiguity. The earlier competing-source warning remains applicable. EXP1/FC-200 tuner-bypass volume remains documented;other bypass states,phones,tails/recorded-Hold coverage remain unknown.
 
 ### GT-Pro — pedal minimum and ASSIGN active range (2026-10-28)
 
@@ -1854,7 +1854,7 @@ The same section advises disabling application monitoring or using ASIO Direct M
 
 Checked 2026-10-28 against [original manufacturer manual, indexed printed p54](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf), exact MASTER/NS table. **Detect selects Input, NS Input or FV Out**: input-jack signal, noise-suppressor input or signal after Foot Volume respectively. **Threshold and Release each0–100**, not stated dB/milliseconds. High threshold can silence quiet guitar-volume settings. The manufacturer recommends NS before reverberation effects to avoid interrupting decay.
 
-Thus Foot Volume can affect the detector signal when FV Out is selected; this is a documented control-path interaction, not proof of final-output placement or universal tail muting. MASTER button itself does not toggle NS; the on/off parameter uses PATCH/VALUE. Global FV assignment/range precedence and bypass/phones/recorded-Hold coverage remain qualified. The44-category/13-versus15 counting discrepancy is still unresolved; no invented category added to force agreement. No download or device test.
+Thus Foot Volume can affect the detector signal when FV Out is selected; this is a documented control-path interaction, not proof of final-output placement or universal tail muting. MASTER button itself does not toggle NS; the on/off parameter uses PATCH/VALUE. Global FV assignment/range precedence remains unknown. Documented EXP1/FC-200 tuner-bypass control does not establish other bypass states,phones orrecorded-Hold attenuation. The44-category/13-versus15 counting discrepancy is still unresolved; no invented category added to force agreement. No download or device test.
 
 ### GT-Pro — explicit historical ASIO audio channel count
 
@@ -1884,7 +1884,7 @@ This resolves the earlier unqualified spillover uncertainty to **conditional doc
 
 Checked2026-10-28 against indexed original [manufacturer manual,p55](https://cdn.roland.com/assets/media/pdf/GT-PRO_OM.pdf). BOSS warns that Foot Volume may not operate properly with certain chain orders: examples are **Feedbacker in OSC mode orSynth positioned after FV**. This is a documented downstream-generator restriction,not merely a calibration issue. Global pedal-role selection therefore does not prove universal final-output muting across arbitrary existing patches. The warning does not establish how patch FV MIN/MAX interact with the fixed SYSTEM role;that precedence remains unknown.
 
-The same FV table specifies Level0–100 andfour response choices:Slow1,Slow2,Normal,Fast. These are response-curve names,not published resistance/taper specifications orfour additional effects. Headphone,bypass,tail andrecorded-Hold attenuation remain unverified. Text evidence only;no downloaded document orhardware test.
+The same FV table specifies Level0–100 andfour response choices:Slow1,Slow2,Normal,Fast. These are response-curve names,not published resistance/taper specifications orfour additional effects. EXP1/FC-200 tuner-bypass volume is documented above;headphone,other bypass states,tail andrecorded-Hold attenuation remain unverified. Text evidence only;no downloaded document orhardware test.
 
 ## GX-1
 
