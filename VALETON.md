@@ -988,6 +988,12 @@ Checked **2026-10-28**: [Liam_shop exact item](https://shopee.co.id/Valeton-GP-5
 
 The exact manufacturer1.1.0 manual route remains inaccessible inthispass;no analog global-volume finding is inferred fromthis offer orfromMIDI master-volume support. Existing1.0.5 technical qualifications remain. No file download.
 
+### GP-50 — default-chain qualification for volume tails
+
+Checked2026-10-28 against [own regional manufacturer manual,printedp17](https://www.hotone.jp/manuals/valeton/GP-50.pdf),title explicitlyfirmware1.0.5. The Pre-position explanation explicitly applies **in the default effects-chain order**:time-based effects decay naturally when pedal volume is cut. Post is described afterall effects andcuts their sound. Do not generalize the Pre statement to every reordered chain;MOD/DLY/RVB are movable under the separately documented routing rules. No tested reordered-chain outcome orplacement-relative schematic established.
+
+The capability row now preserves this missing condition. This is neither current1.1.0 certification norproof of globalassignment,headphone,bypass,USB orrecorded-loop attenuation. New searches yielded older1.0.5manual reproductions andunofficial editor prose,not readable exact1.1.0 assignment documentation;no third-party implementation promoted to manufacturer evidence. No file downloaded orsoftware/device operated.
+
 ## GP-100
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

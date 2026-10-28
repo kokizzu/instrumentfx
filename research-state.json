@@ -125389,5 +125389,21 @@
     "eligibility": "Acoustic guitar established;ordinary electric pickups unknown;outside main capability table",
     "next": "Current exactmodel firmware/manual andremaining no-treadle inventory;priorityscope gaps retained",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "gp50_pre_tail_chain_20261028": {
+    "checked": "2026-10-28",
+    "document": "VALETON.md#gp-50--default-chain-qualification-for-volume-tails",
+    "source": "https://www.hotone.jp/manuals/valeton/GP-50.pdf",
+    "revision": "1.0.5",
+    "page": 17,
+    "finding": "Pre tail-preservation explanation explicitly scoped todefault effect-chain order",
+    "correction": "Capability row no longer implies every reorderedchain",
+    "unknown": [
+      "reordered-chain behavior",
+      "1.1.0 global assignment",
+      "headphone/bypass/USB/recorded-loop attenuation"
+    ],
+    "next": "Seek readable exact1.1.0 original documentation;continue remaining inventory without repeating failedroutes",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
