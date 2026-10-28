@@ -395,3 +395,5 @@ POD Express Black [bundle/size-source check](LINE6.md#black--manufacturer-bundle
 Chocolate/Player [receiver-routing evidence](M-VAVE.md#chocolate--receiver-routing-is-separate-from-wiring-verification): Kemper staff explicitly exclude DI Analog/DI Low sources fromthe Volume Pedal path. This is not a certified Chocolate wiring solution orall-output mute;[Player qualification](KEMPER.md#player--di-output-sources-exclude-volume-pedal).
 
 GP-50 [additional exact Solo offer](VALETON.md#gp-50--exact-solo-hardware-asking-price-evidence): Liam_shop Rp2.300.000,month-old cache,condition/variant/checkout stock unverified. This hardware ask doesnot resolve current1.1.0 direct analog global-volume assignment.
+
+Keeley Delay Workstation [manual-menu reconciliation](KEELEY.md#delay-workstation--bank-menu-transcription-and-source-conflict) identifies its two Reverb-bank delays andpreserves Room-versus-Spring source conflict. Neither bank menus norducking compression provide global expression volume.

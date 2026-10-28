@@ -125186,5 +125186,35 @@
     ],
     "next": "Continue remaining no-treadle inventory; preserve priority Mini/Nano/GP50/controller unknowns",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "keeley_delay_menus_20261028": {
+    "checked": "2026-10-28",
+    "source": "https://media.rockboard.de/erp_article/Product-Pictures/Keeley/KE%20DELAY%20WORKSTATION/WSDelayWorkstation_Manual%20_EN.pdf",
+    "document": "KEELEY.md#delay-workstation--bank-menu-transcription-and-source-conflict",
+    "delay": [
+      "Slapback",
+      "Tape",
+      "Multi-Head",
+      "Analog",
+      "Digital",
+      "Subdivided",
+      "Ducking",
+      "Pitch"
+    ],
+    "reverb": [
+      "Room",
+      "Chamber",
+      "Hall",
+      "Plate",
+      "Shimmer",
+      "Flanged",
+      "Tape Delay",
+      "Digital Delay"
+    ],
+    "conflict": "Original-format unversioned manual Room versus manufacturer archive Spring; no revision explanation",
+    "parameters": "Subdivision quarter-note triplet; Slapback30–500ms/up to5repeats;Ducking−50dB ratio1:1–20:1",
+    "qualification": "Text transcription,not fresh visual orhardware test",
+    "next": "Resume remaining no-treadle inventory and priority assignment questions",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
