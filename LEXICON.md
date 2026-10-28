@@ -140,12 +140,13 @@ Direct guitar input is explicit. No onboard footswitches; programs use hand PROG
 
 ## MX200
 
+<!-- comparison evidence begins -->
 Dual-engine rack multi-effects for live/studio mixer paths. Checked2026-10-17. Guitar/vocal use is **through appropriate mixer or preamp routing**;not a direct mic or high-impedance instrument preamp claim. Discontinued [MX-P].
 
 | Field | Evidence / qualification |
 |---|---|
 | Instrument scope | Guitar/vocal via mixer or suitable preamp at line level. Own compressor description explicitly includes bass tracks; shared bass inclusion requires appropriate preamp/mixer or recorded-track routing. No direct passive-bass, Hi-Z or microphone-preamp capability inferred [MX-M pp.1,19] |
-| Expression |No built-in pedal/toe;external EXP unverified. Two-button TRS bypass footswitch:tip P2,ring P1,sleeve ground [MX-M p.6] |
+| Expression |No built-in pedal/toe;no analog EXP in complete own panel inventory. Two-button TRS bypass footswitch:tip P2,ring P1,sleeve ground [MX-M p.6] |
 | Knobs / footswitches / buttons |10 rotary derived:Input,2Mix,6parameter,Program.0built-in footswitches;complete button count unresolved. Encoder push counted separately only after inventory verification [MX-P] |
 | Display |**2-character LED** program display;lower-right dot identifiesuserbank. Also showsutility/parameter values. Diagonal,color andtouch remainunverified;matrix/control LEDs separate [MX-M p.5] |
 | Processing / categories |2simultaneous processors;32choices:16reverbs,6delays,2dynamics,8other effects. Four routes:DualMono,Cascade,DualStereoParallel,MonoSplit [MX-S] |
@@ -233,6 +234,16 @@ Checked 2026-10-18 from the manufacturer-indexed [own guide, printed p19][MX-M].
 | Bass capability | Compressor description explicitly lists bass tracks among its applications. Use suitable line-level preamp/mixer routing or recorded tracks; this does not establish direct passive-bass input or equal suitability of every effect. |
 | Processing / dynamics channel mode | Compressor and De-Esser are labelled **Mono (Wet only)**. Keep that restriction beside the general two-processor/stereo routing claim; it does not mean every algorithm preserves a stereo input. |
 | Processing / dynamics controls | Compressor threshold −70 to0dBFS, ratio1:1 through infinity:1, makeup0 to+12dB. De-Esser frequency1600Hz–10kHz in40steps and bandwidth in6steps. These are parameter ranges, not additional algorithm choices. |
+
+<!-- comparison evidence ends -->
+
+### MX200 — manufacturer manual recovery and direct-expression screening (2026-10-28)
+
+The exact **52-page User Guide5073493-B** is now readable from [Harman manufacturer hosting](https://adn.harmanpro.com/product_documents/documents/913_1473885738/MX200_Manual_5073493-B_original.pdf). Printed pp4–6 provide the complete panel inventory: no built-in treadle, analog EXP or headphone socket. TRS Footswitch controls only processor bypass:tip=P2,ring=P1,sleeve=ground. **Fails the required direct analog expression-volume path**; MIDI/USB control remains separate. Direct passive-guitar input is not certified: retain the documented line-level preamp/mixer path.
+
+No onboard footswitches;hand Program Select stages a program and its push loads it unless AutoLoad is enabled. Existing19W×4.75Dinch body converts exactly to482.6W×120.65Dmm,too wide. Analog EXP position/range N/A;indirect volume assignment and bypass/tail/RepeatHold attenuation remain unknown. No headphone coverage inferred from line outputs. The guide still namesPS0913DC;the older9VAC product conflict remains unresolved for actual units.
+
+Earlier403/indexed-only observations remain historical access evidence;this recovery supersedes the source-access gap for these sections,not all outstanding fields. No complete control-image audit,local download,installation or hardware operation.
 
 ## MX300
 

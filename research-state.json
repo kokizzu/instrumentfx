@@ -124101,5 +124101,15 @@
     "onboard_preset_foot_down_up": false,
     "coverage": "AnalogEXP N/A;handOUTPUT analog;digital/bypass/tails/recorded-loop coverage unknown.",
     "counts_changed": false
+  },
+  "mx200_expression_screen_20261028": {
+    "source": "https://adn.harmanpro.com/product_documents/documents/913_1473885738/MX200_Manual_5073493-B_original.pdf",
+    "identity": "52-page original manufacturer guide5073493-B;complete panel pp4–6 text;earlier indexed model/sections match.",
+    "direct_analog_expression": "No analog EXP or built-in treadle;TRS footswitch tipP2/ringP1/sleeveground bypass only.",
+    "guitar": "Line-level mixer/preamp required;direct passive pickup suitability not certified.",
+    "headphones": "No socket in complete panel inventory;no line-output headphone capability inferred.",
+    "footprint": "Original19W×4.75D inches;exact482.6×120.65mm,too wide.",
+    "onboard_preset_foot_down_up": false,
+    "remaining": "Indirect volume scope/output/tail/RepeatHold coverage;powerAC/DC conflict,button visual audit,other technical gaps;earlier access history preserved."
   }
 }
