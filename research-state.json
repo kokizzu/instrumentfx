@@ -122989,6 +122989,17 @@
       "wireless": "separate path;coverageunverified",
       "inventory": "existingmodel;countunchanged",
       "next": "Continue existingcompact no-treadle models not yet screened;retain unresolved globalvolume candidates"
+    },
+    "pocketpod_screening_20261028": {
+      "source": "https://line6.com/data/l/0a06007212036468013d917d3a/application/pdf/Pocket_POD_Reference_Manual.pdf",
+      "revision": "RevA2007",
+      "sections": "1•1–1•5",
+      "direct_exp": "absent completeconnectorinventory",
+      "onboard_footswitches": 0,
+      "headphones": "shared3.5mmstereo",
+      "global_analog_volume": "N/A",
+      "next": "Continue existingcompactno-treadle inventory;digitalcontrolnotaudited",
+      "inventory": "existingmodel;countunchanged"
     }
   },
   "brand_navigation": {

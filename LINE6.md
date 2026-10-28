@@ -906,7 +906,7 @@ Handheld multi-effects;distinct from Pocket POD Express. Checked2026-10-17;parti
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | Built-in/external/toe unverified. No standardMIDI/Line6 footcontroller compatibility perFAQ. | [FAQ][PP-Q] |
+| Expression | No built-in treadle oranalogEXPsocket inReferenceRevAcompletecontrols/connectors. ToeN/A fordirectpath;USBMIDI separate. No standardMIDI/Line6 footcontroller compatibility perFAQ. | [FAQ][PP-Q] |
 | K/F/B | **4 rotary /0 listed footswitches /3 physical button assemblies**,text-derived:Drive,Effects,Delay,ChanVol;Save,Tap,4-wayNav. Directional contacts distinguished from assemblies. | [Reference §§1•1–3][PP-M] |
 | Display | LCD confirmed by official product page;diagonal,color,touch unknown. | [Reference §1•2][PP-M];[Product indexed text][PP-R] |
 | Processing / category choices | **32amp,16cabinet choices**;manual advertises15effectmodels plus separate reverb/gate. Reference§4•5 lists **8single selections+7delay-combinations+Bypass=16positions**;15processing selections when bypass excluded. Productpage advertises16effectmodels;count basis differs,not16independent algorithms. Singles:compressor,tremolo,chorus1/2,flanger1/2,rotary,delay. Combinations:delay with comp,tremolo,chorus1/2,flanger1/2,swell. Reverb spring/room selected byamp;gate separate. Explicit simultaneousceiling pending. | [Reference §§1•1,3•1,4•1–5][PP-M];[Product indexed text][PP-R] |
@@ -959,6 +959,18 @@ Checked 2026-10-18 against [original Reference RevA §§3•11–12,4•4][PP-M]
 | Processing / cabinet-count basis | The published **16 choices include No Cab: 15 modeled cabinets plus that bypass choice**. Tube Preamp defaults to No Cab. Amp selection loads a paired cabinet; Vyzex permits mixing other amp/cab combinations. This qualifies the earlier16-choice figure, not16 additional effect slots or user-IR support. |
 | Routing / Amp Out destination modes | **A**: power-amp input/closed-back cab; **B**: power-amp input/open-back; **C (default)**: instrument input/open-back; **D**: instrument input/closed-back; **Direct**: recorder/mixer/PA without speaker cab. Enter Cab Select by holding SAVE+DOWN while connecting guitar input; SAVE stores selection. These are output-tuning modes, not five additional cabinet models. |
 | Processing / gate control | SAVE+TAP with LEFT/RIGHT adjusts gate threshold; repeated LEFT eventually disables it. Tuner sensitivity remains a separate saved control. No numeric threshold range established here. |
+
+### Pocket POD — direct analog expression screening, 2026-10-28
+
+[Original manufacturer ReferenceRevA,©2007,§§1•1–1•5][PP-M] reopened as browser text;complete numbered controls/connectors read. No new visual orhardwaretest,download orsoftwareexecution.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / direct path | **No analogEXPinput** in complete inventory:guitarinput,CD/MP3input,monoAmpOut,stereoDirectOut/Phones,DC,USB. No built-in treadle incontrolinventory. USBMIDI isseparate anddoesnot addananalogsocket. Failsrequested directanalogpath;globalEXPvolume N/A. |
+| Controls / volume andpatch navigation | Mastervolume:holdSAVE+TAP,pressUp/Down;four-wayNav browsespresets. Handcontrols,not onboardpresetfootswitches. Physicalmasteradjustment doesnot establish externalpedalcontrol orfinal-outputcoverage. |
+| I/O / headphone path | DirectOut/Phones isshared3.5mmstereo forheadphones/PA/recording;AmpOut isseparatemono6.35mm. Preserve distinctoutputs;digitalcontrolcoverage remainsunaudited. |
+
+Existingmanufacturer5inlength×3½inwidth×2indepth axiswording retained;documentedhorizontalrectangle corresponds127×88.9mm,without relabelingdepthasheight. Noexactofferrefreshclaimed;olderprices andUSBpower/recordinglimitations preserved.
 
 ## POD Express Bass
 
