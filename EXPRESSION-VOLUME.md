@@ -426,3 +426,7 @@ GT-Pro [downstream-generator boundary](BOSS.md#gt-pro--downstream-generators-and
 ### BOSS VE-2 — detection/thru path exclusion
 
 [Exact-model screen](BOSS.md#ve-2--original-control-census-and-guitar-volume-exclusion): fits156W×116Dmm,but no analog EXP andno processed guitar path;guitar absent fromphones/XLR/USB. Onboard A–C memory selection is timed cycling afterbypass,not independent down/up controls. Remains vocal inventory,outside guitar capability table.
+
+### TC-Helicon Play Acoustic — revision-qualified eligibility boundary
+
+[Exact-model screen](TC-HELICON.md#play-acoustic--direct-control-capability-boundary):2014manual documents Switch-3 TRS control,not continuousEXP. Preset down/up withhold-to-scroll anddedicated stereo headphones confirmed;200W×156Dmm fails depth. Acoustic processing established,ordinary electric-pickup suitability/current EXP behavior unknown;outside main table pendingqualification. Global guitar effects do not establish global volume assignment.

@@ -820,6 +820,14 @@ Complete original source body,URLs,firmware1.0 category/reverb-duplicate qualifi
 
 No files/dependencies downloaded or new PDF visual inspection performed. Remaining: accessible current official firmware/change notes, later manual comparison, preset/guitar-setting behavior, looper duration, factory/user split, screen diagonal/color/touch, current USB/driver compatibility (dated formats now recovered above), power polarity/battery/bus operation, present VoiceSupport compatibility and qualified current local offers.
 
+### Play Acoustic — direct-control capability boundary
+
+Checked2026-10-28 against [original-format manufacturer reference manual](https://c3.zzounds.com/media/manual-59d26e4cea87ce459a68b6f22b9c2f6f.pdf),firmware1.0,2014-05-09,64PDFpages. Exact title,date andrear-panel identity match the preserved source;readable original text,not fresh visual inspection.
+
+PEDAL is documented for **Switch-3 overTRS**,not continuous analog EXP. No alternative EXP socket occurs in the complete rear inventory. This establishes the documented switch-control path,not a current-firmware guarantee against undocumented behavior. Across-preset analog volume assignment remains unverified. Global guitar-effect settings are a separate function.
+
+Normal preset operation has **DOWN/UP previous/next**,withhold-to-scroll. Loop/key-selection modes repurpose combinations;Switch-3 mode qualifications above remain. Dedicated stereo headphones documented.200W×156Dmm exceeds preferred depth. Acoustic processing qualifies for general guitar inventory;ordinary electric-pickup suitability is not established. Keep outside main normal-guitar capability table pending that qualification andcurrent direct-EXP evidence. Volume position,endpoints,recall,bypass,headphone,tail andrecorded-loop attenuation remain unknown. No download ordevice test.
+
 ## VoiceLive 3 Extreme
 
 Guitar/vocal multi-effects; distinct from standard VoiceLive3. Checked2026-10-17, partial. Manufacturer PDF endpoints failed. Manufacturer-authored mirror identifies VL3X, firmware2.1.00 build346, reference manual2015-10-20; model/title/section identity checked against official indexed Extreme manual. Current firmware/revision equivalence unverified; generated mirror FAQs excluded.

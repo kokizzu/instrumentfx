@@ -125376,5 +125376,18 @@
     "guitar_outputs": "Absent fromPHONES/XLR/USB recording",
     "next": "Remaining vocal/no-treadle eligibility screens;priority Mini/Nano/GP50/controller gaps",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "playacoustic_expression_scope_20261028": {
+    "checked": "2026-10-28",
+    "document": "TC-HELICON.md#play-acoustic--direct-control-capability-boundary",
+    "source": "https://c3.zzounds.com/media/manual-59d26e4cea87ce459a68b6f22b9c2f6f.pdf",
+    "revision": "firmware1.0,2014-05-09",
+    "direct_control": "Documented Switch-3 TRS;continuous analog EXP not established",
+    "navigation": "Normalpreset down/up,hold-to-scroll;modes separate",
+    "phones": "Dedicated stereo",
+    "fit": "200W156D failsdepth",
+    "eligibility": "Acoustic guitar established;ordinary electric pickups unknown;outside main capability table",
+    "next": "Current exactmodel firmware/manual andremaining no-treadle inventory;priorityscope gaps retained",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
