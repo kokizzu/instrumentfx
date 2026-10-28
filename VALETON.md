@@ -151,6 +151,12 @@ Own2-page V01_200414 manual text read;no download/visual inspection. Cab-toggle 
 [DAM-O1]: https://shopee.co.id/VALETON-DAPPER-AMP-MINI-i.16416856.2504929501
 [DAM-O2]: https://shopee.co.id/Valeton-Dapper-Amp-Mini-Multi-Effect-Strip-i.338305078.12251090181
 
+### Dapper Amp Mini — expression and channel-navigation boundary
+
+Checked 2026-10-28 against [own V01_200414 manual][DAM-M], two pages. Guitar input and dedicated PHONES are documented. PHONES knob changes headphone level; AMP VOL belongs to the amplifier module. Neither proves analog expression control, final-output coverage or an all-preset volume assignment. External EXP, minimum/maximum, placement/recall and bypass/tail/recorded-loop attenuation remain **unverified**, with complete control-port evidence unresolved.
+
+AMP footswitch advances channels; backward channel selection uses the hand CHANNEL toggle. This is not a documented onboard full-preset down/up pair. Saved AMP settings do not establish FX/reverb recall. At power connection all modules start bypassed. Preserve the manual conflict between fixed headphone cab simulation in the diagram and toggle-dependent PHONES prose. Product197W×65Dmm fits; manual axes reverse and require rotation. No boost or master-volume pedal mode is established.
+
 ## Dapper Bass Mini MES-2
 
 A compact bass multi-effects strip, separate from the full-size VES-2. Checked 2026-10-17; partial. Official manual metadata identifies MES-2, V01_231219.
