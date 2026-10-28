@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(behringer): screen FX2000 control path and sold-out offer'))
+    print(git('commit','-m','research(behringer): screen DSP2024P expression and MIDI mix boundaries'))

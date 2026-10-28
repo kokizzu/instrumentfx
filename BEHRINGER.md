@@ -315,6 +315,12 @@ Checked2026-10-18 against the [manufacturer-authored Version1.1,February2002 man
 
 Remaining: original panel visual corroboration,exact seller hardware suffix,full algorithm census,simultaneous limits,display details,software/import capabilities andcondition-qualified prices. No download,dependencies,firmware,device test orworkflow.
 
+### DSP2024P — direct-expression screening and MIDI mix distinction
+
+Checked 2026-10-28 against [manufacturer-authored Version1.1, February2002 manual copy](https://dannychesnut.com/Music/Behringer/Rev2496/DSP2024P-Manual.pdf), original cover/model verified, pp9–10,28–29. Complete panel inventory has **no analog EXP or dedicated headphone socket**. No onboard preset footswitches; PRESET/JOG are hand controls. **482.6W×204.4Dmm** exceeds preference; documented guitar use requires appropriate preamplification.
+
+MIDI example sets **CC116=1 for Mix Internal**, then **CC111 values0–100 for effect mix**; **CC113=0 OUT/1 IN** controls bypass. This is digital wet/dry control, not proof of global final-output volume. MIX/BYPASS is normally dry-to-wet, while parametric/graphic EQ use it for gain correction. Direct analog position/range/recall are inapplicable; MIDI output/tail/sampler coverage remains unverified. Older revision supplements, not replaces, Version1.2. Exact-suffix Shopee search yielded no qualified new offer; shortened DSP2024 sold-out lead remains unresolved. No download or hardware test.
+
 ## FX600
 
 <!-- comparison evidence begins -->

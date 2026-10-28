@@ -124353,5 +124353,12 @@
       "qualification": "Regional mains/bundle/warranty/voucher/shipping/tax/checkout unverified; compensation not discount"
     },
     "next": "DSP2024P exact model screening; retain general GT-Pro cursor."
+  },
+  "dsp2024p_expression_screen_20261028": {
+    "source": "https://dannychesnut.com/Music/Behringer/Rev2496/DSP2024P-Manual.pdf",
+    "revision": "Manufacturer-authored V1.1 February2002 original cover; pp9–10,28–29; supplements V1.2",
+    "finding": "No analog EXP/headphone socket or onboard preset footswitches. CC116=1 Mix Internal; CC111 0–100 effect mix; CC113 0 OUT/1 IN bypass. Wet/dry control not final volume. 482.6W×204.4Dmm.",
+    "boundary": "Direct EXP position/range/recall N/A; MIDI tail/sampler/output scope unverified. No new qualified exact-suffix offer; no download/hardware test.",
+    "next": "Continue remaining no-treadle TC Electronic M100/M350/M-One XL exact screens; retain independent GT-Pro cursor."
   }
 }
