@@ -349,6 +349,12 @@ Search index exposes the manufacturer EVA V01_160825 manual text: control lists,
 
 [DD-I]: https://www.valeton.net/download/122/dapper/18030/dapper-dark_manual_en_eva_v01_160825.pdf
 
+### Dapper Dark — qualified expression capability screen
+
+Checked 2026-10-28 against [own product][DD-P] and indexed [EVA V01_160825 manual][DD-I]. The current linked PDF retry timed out; no full-page or visual inspection claimed. Guitar use is documented. External analog EXP, global volume, placement/endpoints/recall, bypass/headphone/tail/loop attenuation remain **unverified**. No headphone socket is established from the incomplete connector evidence; Dark Mini headphones must not be transferred.
+
+Indexed original text identifies SEND/RETURN as an audio loop between Chorus and Delay. HiGain VOL is a module control, DELAY MIX a dry/wet ratio and TAP a tempo action; none proves global final-output volume or preset down/up. Hold BOOST activates muted tuning, which is not continuous volume control. Product320W×65Dmm exceeds preferred width; reversed manual axes still fail in either orientation. Added as an existing-model screen, not a verified match.
+
 ## Dapper Indie
 
 Guitar multi-effects strip; distinct from other Dappers. Checked 2026-10-17; partial. Exact model code awaits primary corroboration.

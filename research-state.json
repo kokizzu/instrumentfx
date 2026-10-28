@@ -124508,5 +124508,14 @@
     "source": "https://www.valeton.net/download/180/dapper-mdr%E5%B7%B2%E5%81%9C%E4%BA%A7/18581/dapper-mdr_manual_en_v01_181108-2.pdf",
     "finding": "Dedicated PHONES physicallevel and REVERBhold trailtoggle do not establish globalEXP/finalmute. EXP unknown, axes conflict retained.",
     "next": "Continue remaining Dapper Dark/DarkMini/AmpMini/Indie exact-model screening; preserve independent GT-Pro cursor and Mini/Nano questions."
+  },
+  "dapper_dark_expression_screen_20261028": {
+    "sources": [
+      "https://www.valeton.net/product/dapper-darkdiscontinued/",
+      "https://www.valeton.net/download/122/dapper/18030/dapper-dark_manual_en_eva_v01_160825.pdf"
+    ],
+    "finding": "Width fails;EXP/phones/globalvolume unknown. Indexed own manual audio-loop andmoduleVOL/MIX/TAP do not prove finalvolume.",
+    "access": "Linked18524PDFtimeout;indexed manual retained,not full/visual verification.",
+    "next": "Dapper DarkMini,AmpMini,Indie exact-model screens;independent GT-Pro and Mini/Nano questions retained."
   }
 }
