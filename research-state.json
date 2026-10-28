@@ -125919,5 +125919,24 @@
       "Exact offeredhardware revision andoriginalChocolate relationship"
     ],
     "scope": "Controller only,not active audio processor;general GT-Pro cursor unchanged"
+  },
+  "gt1000core_owner_eng03_20261028": {
+    "source": "https://images.static-thomann.de/pics/atg/atgdata/document/manual/504096_gt-1000core_eng03_w.pdf",
+    "identity": "18page manufacturer Owner manual,eng03 filename,COREpanel/menu;not Parameter Guide;2.02 applicability unestablished",
+    "pages": [
+      14,
+      16
+    ],
+    "findings": [
+      "Looper off orpoweroff loses recordings",
+      "FactoryP246–P250/U246–U250 CTL1LOOPER assignments",
+      "LoopLEVEL100default relativeplayback,notexpressionmapping"
+    ],
+    "remaining": [
+      "CurrentParameterGuide fullbody",
+      "SYSTEM rangeoverride andcompetingASSIGN precedence",
+      "EXP bypass/headphone/tails/loop attenuation"
+    ],
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

@@ -1450,6 +1450,18 @@ Checked2026-10-28: official [eng12 MIDI implementation](https://static.roland.co
 
 Eng12 address-map legend marks GT-1000-only entries with(*),CORE-only with(**). The unstarred **Patch→PatchEfct** table contains FV MIN/MAX/position,encoded0–1000 for0.0–100.0,andcurve Slow1/Slow2/Normal/Fast. Thus patch storage is documented beyond the older2020 map;encoding precision is not physical pedal resolution. This doesnot establish aSYSTEM range override,competing-ASSIGN priority oruniform placement/output coverage. No download,MIDI transmission orhardware test.
 
+### GT-1000CORE — recovered owner guide and loop retention
+
+Checked2026-10-28: [manufacturer-authored Owner’s Manual,eng03 filename](https://images.static-thomann.de/pics/atg/atgdata/document/manual/504096_gt-1000core_eng03_w.pdf),18pages,©2020Roland,exactCOREpanel/menu identity. This is **not the eng03 Parameter Guide**. No explicit firmware2.02 applicability established;filename suffix alone is insufficient.
+
+| Field | Original-manual evidence / qualification |
+|---|---|
+| Looper / retention | Printedp16: recorded audio is lost when **Looper is turned off or power is removed**. Exiting an unrelated menu is not asserted equivalent toturning theblock off.38smono/19sstereo remain capacity limits. |
+| Looper / factory control assignments | **P246–P250 andU246–U250** factory settings mapCTL1toLOOPER. Otherpatches require controlassignment;SYSTEM preference can share functions. These patch numbers are not extra loop memories. |
+| Looper / playback level | LEVEL100(default) matches performance/loop playback level;lower values reduce playback relative toperformance. This is a looper parameter,not proof that analogEXP controls playback globally. |
+
+Printedp14 reconfirms SYSTEM function sharing without proving SYSTEM override ofpatchFVranges. Existing bypass,headphone,tail/loop attenuation andcompetingASSIGN qualifications remain. No downloads orhardware operation.
+
 ## GT-Pro
 
 Checked 2026-10-19;partial. [Exact manufacturer product/specification](https://www.boss.info/global/products/gt-pro/) marks discontinued. Rack guitar multi-effects,not GT-8;ownership andbass/vocal suitability unverified.
