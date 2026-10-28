@@ -49,6 +49,11 @@ Checked 2026-10-18; partial acoustic-guitar multi-effects. [Exact manufacturer p
 
 [Official English manual image](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/QDS-04_A-Factory__Manual_EN_V01_230814_Curve___623000019.jpg?v=1709603180) returned no inspectable content; filename V01/230814 alone does not validate its contents. Seller's “3D Dimension” title is not an independently verified extra processing block. Remaining: panel/manual, controls, expression, display, memory, full I/O, loading/software and fresh condition-qualified offers. No downloads, installation or hardware tests.
 
+### A Factory — expression and DI bypass boundary
+
+Checked2026-10-28 against the [manufacturer product/FAQ](https://www.sonicake.com/products/a-factory). DI operation continues with preamp and reverb off; module bypass therefore does not establish silence or a global volume assignment. Acoustic instruments are documented; ordinary electric-guitar suitability remains unverified. Both90W×124D and regional124W×90D interpretations fit the preferred rectangle; axis conflict retained. Direct analog EXP/global scope, position/endpoints/recall, headphones, preset down/up and bypass/tail/recorded-loop attenuation remain **unknown**. Original English manual image exposed no readable content; Japanese original returned cache miss. Generated ASIN/marketplace manual summaries are excluded, including their unsupported master-volume/control claims. No full panel/connector inspection or local download claimed.
+
+
 ## B Factory QDS-05
 
 Checked 2026-10-18; partial bass-focused multi-effects. [Sonicake exact product](https://www.sonicake.com/products/b-factory) (P) identifies QDS-05 and distinct compression,overdrive andpreamp functions;[regional distributor](https://www.hotone.jp/brands/sonicake/products/b-factory) (J) corroborates. No guitar membership inferred.

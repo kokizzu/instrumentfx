@@ -124649,5 +124649,11 @@
     "finding": "Manufacturer FAQ corroborates bypass delay trails and both-effect trail hold; supports mono headphone use but discourages it, dedicated socket unknown. Both dimension axis interpretations fit; EXP/global assignment and attenuation coverage unknown.",
     "manual_access": "English QDS-2.jpg and Japanese QDS-02-JP.webp exposed no readable content; no local download or visual inspection.",
     "next": "Continue A Factory/B Factory exact-model inventory; retain Mini/Nano unresolved scope and independent GT-Pro cursor."
+  },
+  "a_factory_expression_screen_20261028": {
+    "source": "https://www.sonicake.com/products/a-factory",
+    "finding": "Acoustic documented; ordinary electric guitar and directEXP/global volume unknown. Both axis interpretations fit. DI with modules off is not mute or master assignment.",
+    "source_limits": "Original EN image unreadable, JP cache miss. Generated ASIN/marketplace manual master-volume claims rejected; full connector/panel unknown. No local download.",
+    "next": "Continue B Factory exact-model capability inventory; Mini/Nano unresolved and independent GT-Pro cursor retained."
   }
 }
