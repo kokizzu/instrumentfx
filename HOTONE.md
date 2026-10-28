@@ -583,7 +583,7 @@ Reviewed **2026-10-15**. Guitar/bass multi-effects; **medium**, no built-in expr
 
 | Required field | Established value or qualification |
 |---|---|
-| Expression | No built-in pedal; **one 6.35 mm TRS EXP/CTRL input**. EXP1/2 are two switchable assignments for one pedal, not two physical expression sockets [M,P] Manufacturer FAQ specifiesTRS pot≤10kΩ;expression-pedal toe on/off cannot switch modules,asqualified below. |
+| Expression | No built-in pedal; **one 6.35 mm TRS EXP/CTRL input**. EXP1/2 are two switchable assignments for one pedal, not two physical expression sockets [M,P] |
 | Knobs / footswitches / buttons | **5 / 3 / 1**: volume, MENU/VALUE, three quick-access knobs; three assignable footswitches; screen-lock button. Power switch separate; encoder pushes counted once. Verified through the manufacturer's numbered manual text, not a successfully rendered panel photograph [M] |
 | Dimensions / weight | **185 W × 145 D × 58 H mm; 1050 g**. Medium: depth exceeds the 140 mm compact limit by 5 mm. Plug clearance additional [P] |
 | Display | **4-inch, 800×480, color touchscreen** [P] |
@@ -606,15 +606,6 @@ Reviewed **2026-10-15**. Guitar/bass multi-effects; **medium**, no built-in expr
 | Power | **9–18 V DC center-negative; 800 mA maximum at 9 V**. Internal battery and USB-powered operation not established; USB Audio 2.0 does not imply bus power [P] |
 | Editing | Full **Windows/macOS editor**, firmware/patch/IR management. Android/iOS/Linux full editing not established for MP-300; do not copy Stage's mobile application support [P,M] |
 | USB audio | **8-in/8-out**, reamp supported. Internal effect processing 24-bit/44.1 kHz; exact current host sample-rate options not transcribed in this pass [P] |
-
-
-### Ampero II Stomp — expression-volume audit, 2026-10-19
-
-**Across-preset global volume assignment not established.** The manufacturer-authored [V2.5.0 manual body](https://www.scribd.com/document/1074310624/Ampero-II-Stomp-Online-Manual-EN-Firmware-V2-5-0-1785405982280), printed pp50,54–55,67–70, places EXP target settings under Patch Settings and says controls change with patches. Target ranges follow parameter limits,can reverse; Line/Exp/Log curves. Global socket mode/calibration is not target assignment. Patch Volume versus a placed VOL effect are distinct targets; universal signal position and bypass/headphone/tail/recorded-loop coverage remain unverified. Patch mode selects three patches within a bank; general onboard sequential down/up remains unverified.
-
-Hotone's [support index](https://www.hotone.com/support/1?pid=43&tid=17) lists V2.5.0. The mirror body identifies that revision, but its About illustration still saysV2.4.0 and an EXP passage mentions two sockets despite this unit having one. Preserve these inconsistencies; no Stage socket transfer. [Direct official V2.3.1 manual](https://res.hotoneaudio.com/prod/support/Ampero%20II%20Stomp_Online%20Manual_EN_Firmware%20V2.3.1.1742958961280.pdf) independently documents TRS expression cabling and3.5mm phones. No local manual download or hardware test. Existing185×145mm chassis evidence exceeds preferred depth by5mm.
-
-Exact [Seven Stereo shop16879370/item11690807851](https://shopee.co.id/Hotone-MP300-MP-300-Ampero-II-Stomp-Multi-Effects-Pedal-i.16879370.11690807851) reopened2026-10-19: cached **Rp9.090.000**,13–15September delivery text. This updates the older August-cache/access observation without establishing current stock. Condition,bundle,warranty region,shipping and used offer remain unknown; late-delivery voucher is not deducted.
 
 ### IDR evidence
 
@@ -639,6 +630,21 @@ Anniversary/limited finishes, voucher-dependent offers and sold-out listings are
 Remaining: current category subtotals, current factory-filled memory, exact synth/acoustic algorithms, USB power/host-rate details and condition-specific current offers. **Next Shopee-first model: Line 6 POD Go.**
 <!-- HOTONE-AMPERO-MP300 source ends -->
 
+### Ampero II Stomp — later expression summary
+
+The following updated summary is retained separately from the unchanged 2026-10-15 source archive:
+
+| Field | Later evidence / qualification |
+|---|---|
+| Expression | No built-in pedal; **one 6.35 mm TRS EXP/CTRL input**. EXP1/2 are two switchable assignments for one pedal, not two physical expression sockets [M,P] Manufacturer FAQ specifiesTRS pot≤10kΩ;expression-pedal toe on/off cannot switch modules,asqualified below. |
+
+### Ampero II Stomp — expression-volume audit, 2026-10-19
+
+**Across-preset global volume assignment not established.** The manufacturer-authored [V2.5.0 manual body](https://www.scribd.com/document/1074310624/Ampero-II-Stomp-Online-Manual-EN-Firmware-V2-5-0-1785405982280), printed pp50,54–55,67–70, places EXP target settings under Patch Settings and says controls change with patches. Target ranges follow parameter limits,can reverse; Line/Exp/Log curves. Global socket mode/calibration is not target assignment. Patch Volume versus a placed VOL effect are distinct targets; universal signal position and bypass/headphone/tail/recorded-loop coverage remain unverified. Patch mode selects three patches within a bank; general onboard sequential down/up remains unverified.
+
+Hotone's [support index](https://www.hotone.com/support/1?pid=43&tid=17) lists V2.5.0. The mirror body identifies that revision, but its About illustration still saysV2.4.0 and an EXP passage mentions two sockets despite this unit having one. Preserve these inconsistencies; no Stage socket transfer. [Direct official V2.3.1 manual](https://res.hotoneaudio.com/prod/support/Ampero%20II%20Stomp_Online%20Manual_EN_Firmware%20V2.3.1.1742958961280.pdf) independently documents TRS expression cabling and3.5mm phones. No local manual download or hardware test. Existing185×145mm chassis evidence exceeds preferred depth by5mm.
+
+Exact [Seven Stereo shop16879370/item11690807851](https://shopee.co.id/Hotone-MP300-MP-300-Ampero-II-Stomp-Multi-Effects-Pedal-i.16879370.11690807851) reopened2026-10-19: cached **Rp9.090.000**,13–15September delivery text. This updates the older August-cache/access observation without establishing current stock. Condition,bundle,warranty region,shipping and used offer remain unknown; late-delivery voucher is not deducted.
 
 ### Ampero II Stomp — manufacturer controller resistance and toe-switch limit
 

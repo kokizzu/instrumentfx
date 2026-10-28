@@ -2189,3 +2189,7 @@ expression-audit-commit-keeley:
 .PHONY: research-commit-gfi
 research-commit-gfi:
 	python3 scripts/gfi_catalogue.py commit
+
+.PHONY: research-review-hotone
+research-review-hotone:
+	python3 scripts/hotone_catalogue.py review

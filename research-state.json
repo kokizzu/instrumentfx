@@ -46650,6 +46650,17 @@
       "reason": "Project instruction explicitly retains old anchors;technical verifier requires exact redirects. Removing them would break that contract;no deletion selection created.",
       "remaining_markdown_compatibility_paths": 114,
       "overall_complete": false
+    },
+    "preservation_repair_20261028": {
+      "date": "2026-10-28",
+      "source_head": "5462d3c60851179edb4761a7de5fd872b8b4b3be",
+      "target": "make consolidation-audit-body-differences",
+      "before_mismatches": 1,
+      "after_mismatches": 0,
+      "complete_source_bodies": 82,
+      "other_entries_outside_scope": 92,
+      "repair": "Restored pinned Ampero II Stomp source body; moved the later expression summary and complete 2026-10-19 audit outside its archive markers without dropping evidence.",
+      "limitation": "Registered whole-body equality only; compatibility paths and technical/market verification remain incomplete."
     }
   },
   "deferred_work": {

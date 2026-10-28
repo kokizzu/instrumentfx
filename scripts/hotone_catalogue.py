@@ -5,6 +5,11 @@ from research_tools import git, verify
 import comparison_views
 
 if __name__ == '__main__':
+    if sys.argv[1:] == ['review']:
+        from pathlib import Path
+        Path('/tmp/instrumentfx-hotone-base-ledger.json').write_text(git('show', 'HEAD:research-state.json'))
+        print(git('diff', '--', 'HOTONE.md', 'research-state.json', 'scripts/hotone_catalogue.py', 'Makefile', 'ALL-GUITAR.md', 'ALL-BASS.md'))
+        raise SystemExit(0)
     assert sys.argv[1:] == ['commit']
     verify()
     comparison_views.verify_views()
@@ -17,4 +22,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','docs(hotone): place Mini volume audits under the correct model'))
+    print(git('commit','-m','docs(hotone): preserve Stomp archive and separate later evidence'))
