@@ -124443,5 +124443,11 @@
     "pages": "printed11,15,18,25",
     "finding": "Master Mix0 retains dry; loop level independent. MIDI CC42/43 level0–100 separate from Expression CC34 selector0–19; not analog target proof. A/B preset navigation only Preset Selection; Patch Detail toggles delays; preset selection exits bypass.",
     "next": "Original EXP target screen remains unresolved; continue no-treadle inventory without treating global mix as volume."
+  },
+  "ocean_original_expression_screen_20261028": {
+    "source": "https://medias.audiofanzine.com/files/mooer-ocean-machine-manual-480472.pdf",
+    "revision": "EN_V01",
+    "finding": "19 displayed globally assigned targets omit IN/OUT levels; global volume unverified. Original navigation DelayB previous/DelayA next on Preset Selection, not II mapping. No dedicated phones;127W×215D fails fit in either orientation.",
+    "next": "Continue systematic unscreened no-treadle models; retain unresolved original-volume target/coverage, Mini/Nano scope and independent GT-Pro cursor."
   }
 }

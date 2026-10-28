@@ -2046,6 +2046,12 @@ Own product pages andoriginalmanufacturer-authored manual text used;no II-specif
 
 [Own manual p6][OM-M] explicitly describes a red selection border,providing textual color-UI evidence;display diagonal,resolution andtouch specification remain unverified. No image inspection claimed. The reset page gives confirmation/cancel controls butno factory-filled slot count oritemized reset scope;these remain unresolved.
 
+### Original Ocean Machine — direct expression capability screen
+
+Checked2026-10-28 against [own EN_V01 manual][OM-M],printedpp7,14, and [own dimensions][OM-P]. EXP screen lists19 targets:Shimmer,Decay,R.Tone,R.Mix,R.P1,R.P2,F.BackB,TimeB,ToneB,D.MixB,B.P1,B.P2,F.BackA,TimeA,ToneA,D.MixA,A.P1,A.P2,Master Mix. Input/output levels are absent from this displayed list. **Global volume remains unverified**;global target selection alone is insufficient. Heel minimum percent documented;toe maximum,recall,volume placement,bypass/tail/recorded-loop attenuation unknown.
+
+Preset-selection screen:DelayB previous,DelayA next;Patch Control instead toggles effects. No dedicated headphones in own rear inventory. 127W×215Dmm fails preference;rotation215W×127D also fails. No II resistance or firmware specifications transferred.
+
 ## PE100
 
 Portable desktop guitar multi-effects; first pass checked **2026-10-17**. Separate from GE100 and ordinary single-function pedals. Bass suitability is unresolved; no vocal processing claim. No ownership is inferred from discovery.
