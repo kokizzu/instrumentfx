@@ -515,3 +515,7 @@ M-VAVE [host-panel electrical-label check](M-VAVE.md#footctrlplus-host-panel-man
 ### TC-Helicon Harmony Singer 2 — guitar guidance, not processing
 
 [Exact-model screen](TC-HELICON.md#harmony-singer-2--untouched-guitar-and-level-boundary): current manufacturer confirms untouched guitar thru. Vocal-only, outside main table. Older manual inventory has no analog EXP/headphones; LEVEL controls harmonies. Axis-labelled fit and preset down/up unverified; newer control/bypass qualifications retained.
+
+### TC-Helicon Mic Mechanic 2 — tap mode is not preset control
+
+[Exact-model screen](TC-HELICON.md#mic-mechanic-2--direct-control-exclusion-and-impedance-conflict): older complete inventory lists no analog EXP/headphones. Mic Control switches effects; hold enters tap mode. Vocal-only, outside guitar table. Axis-labelled fit and preset down/up unverified; revision conflicts preserved.

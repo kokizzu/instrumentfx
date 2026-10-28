@@ -305,6 +305,12 @@ Remaining: phantom/bypass/power revision conflicts; dimension axes; polarity/cur
 [MM2-O]: https://www.zikinf.com/manuels/tc-helicon-mic-mechanic-2-manuel-utilisateur-en-74710.pdf
 [MM2-O2]: https://images.equipboard.com/uploads/item/manual/59423/tc-helicon-mic-mechanic-2-manual.pdf
 
+### Mic Mechanic 2 — direct-control exclusion and impedance conflict
+
+Checked **2026-10-28** against [own six-page Rev.1 manual][MM2-O], title metadata2016-11-21. Complete numbered inventory lists no treadle, analog EXP or headphone socket. ECHO/REVERB knobs set effect amount/type; Mic Control switches effects, not continuous master volume. Footswitch bypass leaves Tone active; holding enters tap mode, not preset navigation. Stored-preset capacity/down/up remain unverified. Normal guitar-pickup suitability is unclassified; retain vocal-only membership outside guitar capability table.
+
+Rev.1 p5 prints mic impedance **3k4/1k7Ω**, whereas the later indexed manufacturer manual above gives **2.68kΩ balanced**. Preserve both with revision/access limits; do not silently reconcile. Dimensions140×90×60mm remain axis-unlabelled. Direct-pedal position/endpoints/recall are inapplicable to documented inventory; pedal bypass/tail/recorded-loop attenuation unknown. Existing phantom/bypass/power conflicts remain open. Current primary multilingual PDF returned500; no hardware test or fresh visual inspection.
+
 ## PERFORM-V
 
 Mic-stand vocal multi-effects;not VK/VG/VE. Checked2026-10-17;partial. No guitar multi-effects classification;AUX chord detection is not an instrument effect path. Ownership unestablished.

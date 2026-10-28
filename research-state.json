@@ -125788,5 +125788,22 @@
     ],
     "next": "Mic Mechanic2 exact-model screen;priorityglobalvolumequestions",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "mm2_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "TC-HELICON.md#mic-mechanic-2--direct-control-exclusion-and-impedance-conflict",
+    "source": "https://www.zikinf.com/manuels/tc-helicon-mic-mechanic-2-manuel-utilisateur-en-74710.pdf",
+    "identity": "ManufacturerRev1metadata2016-11-21,sixpages",
+    "result": "No analogEXP/headphones in completeinventory;tap/bypass notpresetnavigation;vocalonly",
+    "conflict": "Older3k4/1k7ohm mic versuslater2.68kohm balanced;not resolved",
+    "unknown": [
+      "axis-labelledfit",
+      "presetmemory/navigation",
+      "normalguitarsuitability",
+      "pedalattenuationcoverage",
+      "revisionconflicts"
+    ],
+    "next": "Remaining inventory andpriorityglobalvolume questions",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
