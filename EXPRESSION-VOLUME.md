@@ -573,3 +573,5 @@ VP4 [local-pedal startup boundary](FRACTAL-AUDIO.md#vp4--local-pedal-startup-bou
 VP4 [4CM bypass boundary](FRACTAL-AUDIO.md#vp4--writable-memory-scenes-and-4cm-bypass-boundary): global/preset 4CM mismatch forces bypass; 4CM is mono. Scene-mode holds1/4 provide preset down/up. These facts do not establish expression attenuation during bypass; lead remains partial.
 
 VP4 [USB/editor qualification](FRACTAL-AUDIO.md#vp4--usb-channel-conflict-and-current-editor-requirements): manual routing labels1–4 conflict with the two-input/two-output specification; channel count remains unresolved. Current editor Windows10 requirement does not override its required driver’s Windows11 minimum. Global analog-volume evidence is unchanged.
+
+VP4 [firmware-era limits](FRACTAL-AUDIO.md#vp4--ir-player-limits-and-later-usb-recording-control): oneIRPlayer/preset mixes up to two of256storedIRs; firmware4.01 separately documentsUSB3/4 dry-record control. Neither resolves global expression-output coverage;lead remains partial.

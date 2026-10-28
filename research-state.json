@@ -128503,5 +128503,33 @@
     "required_windows_driver": "11+; editor minimum alone not supported-connected-system proof",
     "next": "Resolve USB via manufacturer clarification; current IRPlayer limits/library and exact Shopee hardware; preserve partial status",
     "downloads": false
+  },
+  "vp4_ir_player_release_evidence_20261028": {
+    "checked": "2026-10-28",
+    "sources": [
+      "https://www.scribd.com/document/1006543596/VP4-Release-Notes",
+      "https://www.fractalaudio.com/vp4/"
+    ],
+    "identity": "Nine-page original4.01 Jan15,2026 notes;3.0 Sep9,2025 history andFractal trademark footer;official product corroboratesIRintroduction",
+    "ir": {
+      "stored": 256,
+      "blocks_per_preset": 1,
+      "mixed_per_block": 2,
+      "parallel": "left/right",
+      "series": "sequential mono",
+      "file_length_limits": "unknown",
+      "nam_capture": "unverified"
+    },
+    "usb": "4.01 USB3/4 Record Source=None documents dry recording pair;manual2-in conflict retained;enumeration untested",
+    "metronome": "4.0 On/Off MIDI remote,notdrumcount",
+    "published_category_counts": {
+      "drive": 69,
+      "reverb": 78,
+      "compressor": 16,
+      "delay": "128+ across four delay families"
+    },
+    "active": false,
+    "next": "CompletecurrentVP4library/IRformats andqualified exactShopee;retainanalogvolumeoutputgaps",
+    "downloads": false
   }
 }

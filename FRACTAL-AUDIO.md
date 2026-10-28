@@ -197,3 +197,17 @@ Checked 2026-10-28. [Original v1.06 manual](https://www.fractalaudio.com/downloa
 [Current VP4-Edit page](https://www.fractalaudio.com/vp4-edit) lists **1.01.12,2026-08-20**,Mac andWindows. Main Windows package requires10+64-bit, mentions a separate32-bit option and requires the USB driver. [Current driver page](https://www.fractalaudio.com/vp4-downloads/) instead requiresWindows11+; these are separate requirements, so editor compatibility alone does not establish a supported Windows10 connection. Current Mac editor minimum is not stated there. Manual p15's macOS10.13+Intel/AppleSilicon applies to historical USB audio, not automatically the current editor. Linux/mobile editor support remains unverified.
 
 No installers, archives or documents downloaded locally. IR Player format/slot limits and full current library remain open. Partial lead remains outside active inventory.
+
+### VP4 — IR Player limits and later USB recording control
+
+Checked 2026-10-28. [Manufacturer release-note reproduction](https://www.scribd.com/document/1006543596/VP4-Release-Notes), nine-page original body headed **4.01,2026-01-15**, with3.0 history dated2025-09-09 andFractal trademark footer. Exact VP4/product/version content matches the [official product’s firmware3 IR announcement](https://www.fractalaudio.com/vp4/). Original note text used, not the host’s AI description; current4.04 equivalence remains unchecked.
+
+| Field | Revision-qualified finding |
+|---|---|
+| IR / storage and processing | Firmware3.0: **256 stored IRs;one IR Player block per preset;up to two IRs mixed**. Manage Cabs orFractal-Bot inVP4-Edit manages them. Parallel/Stereo processes left/right;Series processes sequentially inmono. Level/pan/length adjustable;muting an unused IR saves CPU. Exact file/length limits remain unverified. IR playback does not establish nativeNAM,convertedNAM oramp-capture support. |
+| USB / later recording evidence | Firmware4.01 adds USB3/4 Record Source=None to suppress dry-input recording for applications that mix all inputs. This supports recording-channel3/4 existence beyond the older specification’s2-in wording;actual exposed streams andplayback enumeration remain untested. Preserve the original manual conflict. |
+| Practical / metronome | Firmware4.0 adds metronome On/Off with MIDI/Remote control;not a drum-pattern count. |
+
+[Current official product page](https://www.fractalaudio.com/vp4/) separately advertises **69 drive emulations,78 reverbs,16 compressors and128+delay effects** across Delay/Multitap/Plex/Megatap. Publication counts, not a complete firmware4.04 census orsimultaneous-slot count;four simultaneous effect slots remain distinct.
+
+Partial lead remains outside active inventory. ExactShopee hardware,full library,import formats andvolume coverage remain open. No local download ordevice test.
