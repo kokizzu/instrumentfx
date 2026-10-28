@@ -565,3 +565,5 @@ Manufacturer-filed [Chocolate Plus model-name declaration](M-VAVE.md#chocolate-p
 [BOSS GS-10 partial lead](BOSS.md#gs-10--partial-lead): own manual explicitly supports a global Foot Volume role;329×231mm exceeds preferred size. Range/recall and output coverage remain unverified. Outside active model counts pending full profile and exact Shopee evidence.
 
 GS-10 [Assign Hold and tuner qualifications](BOSS.md#gs-10--assign-hold-recall-and-tuner-bypass-boundary): ordinary Assign recall is target-dependent; fixed global Foot Volume recall and output coverage remain unverified. Tuner bypass does not inherit GT-Pro’s separately documented volume behavior.
+
+GP-50 [looper persistence qualification](VALETON.md#gp-50--looper-screen-exit-versus-recording-persistence): firmware1.0.5 retains looper state when its screen is closed,but does not save recordings permanently. Separate record/playback levels do not verify expression attenuation. Current1.1.0 behavior remains unverified.

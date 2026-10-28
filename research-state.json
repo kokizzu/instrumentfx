@@ -128273,5 +128273,23 @@
     ],
     "vocal": "Unclassified pending processing-path evidence",
     "market": "Unknown exact Shopee offer;admission does not certify availability"
+  },
+  "gp50_looper_screen_persistence_20261028": {
+    "checked": "2026-10-28",
+    "source": "https://www.hotone.jp/manuals/valeton/GP-50.pdf",
+    "firmware": "1.0.5",
+    "page": "printed13/PDF15",
+    "screen_exit": "Both switches or EXIT;looper state retained",
+    "recording": "Not permanently saved;no inferred power-off retention",
+    "controls": "A record/play/overdub;B stop;holdBclear;PARApatchselect",
+    "levels": {
+      "record_min": 0,
+      "record_max": 100,
+      "playback_min": 0,
+      "playback_max": 100
+    },
+    "expression_loop_attenuation": "Unverified",
+    "current_manual": "1.1.0 route still inaccessible;no revision transfer",
+    "downloads": false
   }
 }

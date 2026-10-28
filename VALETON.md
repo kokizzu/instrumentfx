@@ -836,7 +836,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 | Audio / control connections | ¼″ input; 2 × ¼″ outputs; 3.5 mm phones; EXP/FS; 3.5 mm TRS MIDI IN/THRU; USB-C |
 | Power and battery | 1450 mAh rechargeable; DC 9 V centre-negative/500 mA or **USB operation at 5 V/1 A**; DC/USB charging |
 | Configuration software | iOS/Android editing; Windows/macOS file/firmware management |
-| Other relevant features | USB2-in/2-out/reamp; **1.0.5 looper20s**,Pre dry mono/Post processed stereo,recording not stored; **10 onboard metronomes**,additional patterns need app/Bluetooth. Earlier100-rhythm shorthand is retained above as history,not100onboard. Analog/DSP tuner bypass;EXP attenuation during bypass unverified. [Own regional manual pp12–13,22](https://www.hotone.jp/manuals/valeton/GP-50.pdf). |
+| Other relevant features | USB2-in/2-out/reamp; **1.0.5 looper20s**,Pre dry mono/Post processed stereo;exiting looper screen retains state,but recording not stored;record/playback levels0–100; **10 onboard metronomes**,additional patterns need app/Bluetooth. Earlier100-rhythm shorthand is retained above as history,not100onboard. Analog/DSP tuner bypass;EXP attenuation during bypass unverified. [Own regional manual pp12–13,22](https://www.hotone.jp/manuals/valeton/GP-50.pdf). |
 | New / retail Shopee IDR observations | Checked2026-10-17: [HOLY MUSIC](https://shopee.co.id/VALETON-GP-50-MULTI-EFFECT-PROCESSOR-Gp50-efek-valeton-gp50-i.945642322.55704518866), seller945642322/item55704518866,Kota Jakarta Utara: search **Rp2.245.000**, reopening **Rp2.255.000**; preserve snapshot discrepancy, no authenticated stock. [Diana Musik](https://shopee.co.id/Valeton-GP-50-GP50-Multi-Effects-Processor-i.495337904.56105944082), seller495337904/item56105944082,Kota Yogyakarta: **Rp2.255.000,Habis**, stale8September delivery. Exact hardware retail asks, not completed transactions. Condition, accessory bundle, warranty region, delivered charges and voucher eligibility unconfirmed. No qualified used IDR quote established. |
 
 Prices are individual asking/listed observations checked **2026-10-14**, not completed sales or statistically established market ranges. Stock is described as displayed by the seller, not checkout-confirmed. Delivery, taxes, warranty region and accessories are not silently included.
@@ -993,6 +993,17 @@ The exact manufacturer1.1.0 manual route remains inaccessible inthispass;no anal
 Checked2026-10-28 against [own regional manufacturer manual,printedp17](https://www.hotone.jp/manuals/valeton/GP-50.pdf),title explicitlyfirmware1.0.5. The Pre-position explanation explicitly applies **in the default effects-chain order**:time-based effects decay naturally when pedal volume is cut. Post is described afterall effects andcuts their sound. Do not generalize the Pre statement to every reordered chain;MOD/DLY/RVB are movable under the separately documented routing rules. No tested reordered-chain outcome orplacement-relative schematic established.
 
 The capability row now preserves this missing condition. This is neither current1.1.0 certification norproof of globalassignment,headphone,bypass,USB orrecorded-loop attenuation. New searches yielded older1.0.5manual reproductions andunofficial editor prose,not readable exact1.1.0 assignment documentation;no third-party implementation promoted to manufacturer evidence. No file downloaded orsoftware/device operated.
+
+### GP-50 — looper screen exit versus recording persistence
+
+Checked2026-10-28 against [own regional manufacturer manual](https://www.hotone.jp/manuals/valeton/GP-50.pdf),cover **firmware1.0.5**,printedp13 (PDFp15);original Japanese body directly read.
+
+| Field | Documented behavior / qualification |
+|---|---|
+| Looper / screen transition | Press both switches together or EXIT to leave the looper interface. **Looper state is retained after leaving that screen**;the manual advises stopping/clearing it first when no longer needed. This does not mean recordings survive power-off orare saved as files. |
+| Looper / controls and level | A records/plays/overdubs;B stops;holding B clears recorded content including overdubs. PARA selects a patch within the looper interface. Record/playback levels each **0–100**. These independent loop controls do not establish analog-expression attenuation of existing playback. |
+
+The same section retains20-second capacity,Pre dry-mono/Post effected-stereo andthe warning that recorded content is not saved. Patch selection during the interface is documented;seamless changes andevery-preset loop/tail volume coverage are not. No recording erased,no device operated andno local file downloaded. The unreadable1.1.0 manual is not certified from this older revision.
 
 ## GP-100
 
