@@ -846,6 +846,16 @@ Checked 2026-10-22. [Jojomusicstore hardware listing](https://shopee.co.id/Valet
 | IDR / condition-unverified indexed ask | **Rp2.255.000; Habis** on direct reader reopening of a month-old cache. Search result omitted Habis. Exact GP-50 title, not GP-5 or an expression-pedal accessory. Condition, selected variant, bundle/adapter, warranty, shipping/tax, voucher eligibility, checkout total and live stock remain unverified. September12–13 delivery text is stale; late-delivery compensation is not an upfront discount. Not a verified new/used sale. |
 | External expression / manual revision boundary | [Official V1.1.0 entry](https://www.valeton.net/wpfd_file/gp-50_online-manual_en_firmware-v1-1-0-pdf/) remains available; its linked PDF remains inaccessible to the reader. The product page's FAQ link still opens the V1.0.5 manual. Neither certifies V1.1.0 global volume behavior. Earlier technical evidence and offers remain unchanged. |
 
+### GP-50 — electrical I/O and current manual access, 2026-10-28
+
+| Field | Exact-model manufacturer evidence / qualification |
+|---|---|
+| I/O / electrical specifications | [Current GP-50 product](https://www.valeton.net/product/gp-50/) gives **input1MΩ;main outputs100Ω;headphones22Ω**. MainL/R are separate6.35mm unbalancedTS;phones3.5mm stereoTRS. Outputimpedance isnot headphonepower,minimumrecommendedload ormaximumsignallevel. |
+| USB / MIDI | Same page explicitly supports **USB MIDI**,separately fromUSB2-in/2-out audio andphysical3.5mmTRSMIDIIN/THRU. This doesnot establishTRSMIDItypeA/B,pinout,USBhostability oruniversalEXP-to-mastercontrol. |
+| Processing / converter specifications | **24-bit A/D/A,44.1kHz,106dBSNR**;SNRweighting unspecified. Converterresolution isnot acompleteUSBstreambitdepth/formatlist. |
+
+[Official1.1.0 entry](https://www.valeton.net/wpfd_file/gp-50_online-manual_en_firmware-v1-1-0-pdf/) anditsdownloadredirect were reopened;thelinkedres.diversitone.comPDF remainsinaccessible. No1.1.0global-volumecontents certified,none downloaded. Existing1.0.5category/routing scope,olderoffers andqualifications preserved;no stockrefresh claimed.
+
 ## GP-100
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

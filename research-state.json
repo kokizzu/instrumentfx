@@ -122965,6 +122965,17 @@
       "priority": "OrdinaryASSIGN activeonlyAssignable/Auto;dedicatedFVrangeinteractionstillunknown",
       "bypass": "TunerBypass mono,directvolumeviaEXP1/FC200CC7;notEXP2proof",
       "additional_source": "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf indexedpp61/102"
+    },
+    "gp50_electrical_20261028": {
+      "source": "https://www.valeton.net/product/gp-50/",
+      "input_ohm": 1000000,
+      "main_output_ohm": 100,
+      "phones_output_ohm": 22,
+      "usb_midi": "explicit",
+      "converter": "24bit44.1kHz;106dBSNRweightingunspecified",
+      "manual110": "officialentryandredirectrechecked;PDFstillinaccessible",
+      "global_volume": "unverified",
+      "next": "Seek new readable exact1.1.0evidence;do not repeat unchanged inaccessiblelink checks as technical verification"
     }
   },
   "brand_navigation": {

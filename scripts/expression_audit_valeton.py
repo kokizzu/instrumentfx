@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(valeton): census GP-200JR PRE choices and qualify EXP conflict'))
+    print(git('commit','-m','research(valeton): document GP-50 electrical I/O and USB MIDI'))
