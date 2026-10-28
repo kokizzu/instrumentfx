@@ -487,3 +487,7 @@ M-VAVE [host-panel electrical-label check](M-VAVE.md#footctrlplus-host-panel-man
 ### TC-Helicon PERFORM-VG — acoustic processing, continuous control pending
 
 [Exact-model qualification](TC-HELICON.md#perform-vg--switched-boost-versus-continuous-volume): acoustic-guitar multi-effects retained,but normal electric-pickup suitability unclassified. Switch-3/6 MIX mapping gives switched+6dB boost,not continuous volume;EXP/global scope unknown. Outside stricter main table. Headphones documented,footprint unknown;no onboard footswitches orverified preset down/up.
+
+### TC-Helicon PERFORM-VK — MIDI targets do not prove analog volume
+
+[Exact-model screen](TC-HELICON.md#perform-vk--midi-expression-versus-analog-pedal-scope):CC11HarmonyLevel differs fromCC102OverallOutputAnalog;both volatile,range unspecified. Direct analog EXP/global mapping unverified. Vocal-only,outside main guitar table. Headphones documented,footprint unknown;no onboard footswitches. External direct preset recall does not establish down/up.

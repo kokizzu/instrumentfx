@@ -687,6 +687,12 @@ Checked2026-10-18. Original fifteen-page manufacturer manual: PERFORM-VK title, 
 
 <!-- comparison evidence ends -->
 
+### PERFORM-VK — MIDI expression versus analog pedal scope
+
+Checked **2026-10-28**,[2017 manufacturer-authored15-page manual][PVK-J],pp11–13. **CC11 is Harmony Level;CC102 is Mixer OverallOutputAnalog**,both volatile. Values are dashes in these rows:do not infer calibrated dB endpoints,heel silence orheadphone coverage. Neither MIDI target proves a direct analog expression input orglobal analog assignment across presets. PEDAL section documents Switch-3/6 andexcludes Headphone Level fromswitch assignment.
+
+Keyboard audio/MIDI guides vocal harmony;normal guitar-pickup processing remains unclassified. Retain vocal-only membership,outside requested guitar capability table. No onboard footswitches;external switches directly recall presets1–3,not independent down/up. Headphones documented;exact connector detail/footprint remain pending. Pedal placement,endpoints,recall andbypass/headphone/tail/recorded-loop attenuation remain unknown. Existing USB/analog-routing andmanual-revision conflicts are retained;no hardware operation orfresh visual inspection.
+
 ## Play Acoustic
 
 Separate acoustic-guitar and vocal processor, not VoiceLive Play, Play Electric or GTX. Consolidated **2026-10-17**; complete original2014 firmware/manual context retained. BodyRez processing is not proof of IR import or electric-to-acoustic simulation.

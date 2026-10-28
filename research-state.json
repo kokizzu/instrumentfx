@@ -125676,5 +125676,21 @@
     ],
     "next": "PERFORM-VK exact-model capability screen",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "performvk_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "TC-HELICON.md#perform-vk--midi-expression-versus-analog-pedal-scope",
+    "source": "https://imagescdn.juno.co.uk/manual/643242-01U.pdf",
+    "identity": "2017manufacturer15page original manual copy;exactfirmware unknown",
+    "result": "CC11HarmonyLevel/CC102OverallOutputAnalog volatile,values unspecified;not direct analog proof;Switch3/6;normal guitar unclassified,vocal-only",
+    "navigation": "No onboard footswitches;external directpresets1–3",
+    "unknown": [
+      "analog EXP/global assignment",
+      "range/placement/recall/attenuation coverage",
+      "headphone connector andfootprint",
+      "revision conflicts"
+    ],
+    "next": "Remaining TC-Helicon no-treadle inventory andpriorityscope gaps",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
