@@ -124989,5 +124989,37 @@
     ],
     "next": "Verify assignment persistence and patch override rules, then exact qualified Shopee hardware offer",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "fb100_offers_20261028": {
+    "checked": "2026-10-28",
+    "offers": [
+      {
+        "url": "https://shopee.co.id/Ving-FB100-Flybro-100-Portable-Multi-Effects-Processor-8-Effect-Modules-Bluetooth-i.331131666.50204588293",
+        "seller": "kitharraguitarshop",
+        "region": "Kota Bandung",
+        "shop": "331131666",
+        "item": "50204588293",
+        "idr": 1375000,
+        "stock_label": "Habis",
+        "variants": 4,
+        "index_age": "four months",
+        "delivery": "29 Jun–2 Jul"
+      },
+      {
+        "url": "https://shopee.co.id/Efek-Digital-ir-loader-Ving-FB100-All-In-One-Effect-Gitar-dan-Bass-Speaker-i.11170212.43372599545",
+        "seller": "Hurtrock Music Store",
+        "region": "Kota Bandung",
+        "shop": "11170212",
+        "item": "43372599545",
+        "idr": 1450000,
+        "stock_label": "not established",
+        "variants": 5,
+        "index_age": "last week",
+        "delivery": "21 Okt"
+      }
+    ],
+    "qualifications": "Indexed historical asks; direct open cache miss; condition,selected bundle,variant-price mapping,warranty,checkout stock,shipping/tax,vouchers unverified; not live price range",
+    "next": "Continue unresolved Mini/Nano assignment scope and systematic no-treadle inventory; FB100 persistence unresolved",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
