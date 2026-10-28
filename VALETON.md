@@ -756,6 +756,36 @@ Earlierfirmware1.0.3algorithms,July2025USBhostFAQ,laterNAMconversionevidence and
 
 ## GP-50
 
+Current comparison summary, reconciled2026-10-28 from the exact-model sources retained below. Firmware1.0.5 technical observations are not silently promoted to1.1.0. All original bodies, prices, URLs and historical unknowns remain below this selected summary.
+
+<!-- comparison evidence begins -->
+| Field | Current evidence / qualification |
+|---|---|
+| Expression | No built-in treadle; TRS EXP/FS input selects EXP,Single FS orDual FS. Analog default VOL,target and0–100 endpoints editable per patch in1.0.5. **Across-preset global target override unverified**. Global calibration is separate;toe support and actual M-VAVE pinout remain unknown. |
+| Expression / position and coverage | Pre/Post. Pre preserves time-effect decay **in the default chain**;reordered-chain outcome unverified. Post is described after all effects andcuts their sound. Pedal-position recall,bypass,headphones,USB andrecorded-loop attenuation unknown. MIDI CC1 Master Volume,CC7 Patch Volume andCC11 EXP are separate paths,not analog-assignment proof. |
+| Knobs / footswitches / buttons | **4 /2 /4**:PARA+three quick knobs;A/B;SAVE,EXIT/BT,GLOBAL,DRUM. Push encoder counted once. Patch Mode changes patches with A/B;directional mapping remains text-unverified. Pedal Mode permits3 modules per switch,6 total,one switch per module. |
+| Display | **1.77-inch full-color LCD**;pixels/touch unknown. Knob navigation does not prove no touchscreen. |
+| Dimensions / weight | **122 W×82 D×54 H mm;430g**;fits preferred200×140mm,excluding cable clearance. |
+| Processing / categories | **Firmware1.0.5:9 simultaneous;112 named algorithms:** NR1,PRE12,DST10,AMP32,CAB21,EQ5,MOD11,DLY10,RVB10. Excludes user IR/SnapTone files. N→S disables AMP/CAB. NR/PRE/MOD/DLY/RVB reorderable;DST/N→S/AMP/CAB/EQ fixed. Exact1.1.0 contents unverified. |
+| Memory | **100 total,55 factory-filled,45 remaining slots**;factory fill is a subset,not100+55. |
+| Synth / acoustic |1.0.5 PRE AC Sim:Standard/Jumbo/Enhanced/Piezo;CAB AC:dreadnought simulation. AC Pre1/2 are separate acoustic preamps. Classic/Foxy/Mess Bass andBass OD support shared bass membership. Dedicated synth unverified. Dizz VH regional description copies Orange text;conflict retained. |
+| IR / NAM / capture | **20 user IR slots;80 SnapTone slots/50 supplied**,converted NAM. **NAM A2 conversion:GP-50 firmware1.1.0+ andmobile2.1.0+**,regional manufacturer notice. Native NAM andunrestricted A2 architectures unverified;not onboard capture creation. |
+| Audio I/O |¼-inch TS input,1MΩ;separate L/R¼-inch unbalanced TS outputs,100Ω;dedicated3.5mm stereo TRS phones,22Ω. Impedance is not headphone power/load guidance. BT audio supports playback/USB recording;no AUX jack inferred. |
+| Data / control |USB-C audio/MIDI;separate3.5mm TRS MIDI IN andTHRU;TRS EXP/FS. MIDI TypeA/B,host ability andcontroller pinout unverified. Earlier1.0.5 ordinary Bluetooth-MIDI limitation must not be assumed current1.1.0. |
+| Power |**1450mAh rechargeable;9V DC center-negative orUSB5V operation/charging**,5.5×2.1mm DC. Manufacturer labels500mA DC/1A USB as Current Consumption;not measured draw. SAVE+GLOBAL battery power toggle. |
+| Editor / USB audio |iOS/Android editing;Windows/macOS file/firmware management. Suite2.1.0 supports GP-50 firmware1.1.0;iOS/iPadOS14+. Mobile app’s M1/macOS11 availability is marked not verified for macOS,not desktop-suite requirements. **USB2-in/2-out,reamp;24-bit converters/44.1kHz** do not certify every USB stream format. |
+| Looper / drums / live |1.0.5 **20s looper**,Pre dry mono/Post effected stereo;screen exit retains state,recording not saved. Record/playback0–100. **10 onboard metronomes**;additional patterns require app/BT,not100onboard. Analog/DSP tuner bypass;USB interface also bypassed in documented Bypass mode,EXP coverage unknown. |
+| Firmware / documentation |Official1.1.0 manual andfirmware entries located,computer/mobile2.1.0 compatibility explicit. Exact1.1.0 manual body still inaccessible;no current global-volume claim,installed-version certification or local download. |
+| Used IDR |**Rp1.800.000,Habis**, [Gitaris Gendut34702407/47862332300](https://shopee.co.id/-used-Valeton-GP-50-GP50-Second-Like-New-i.34702407.47862332300),Probolinggo;checked2026-10-28,two-month cache,staleAug29–Sep1 delivery. Seller says used/Second Like New;working state uninspected. Historical sold-out ask,not current stock. |
+| New IDR |Historical **Rp1.985.000,new,Sold out**, [Smosyu](https://smosyumusic.com/products/valeton-gp-50),checked2026-10-14. Separate Indonesian retailer,not Shopee orcurrent availability. Bundle/warranty/delivered cost unknown. |
+| IDR / HOLY MUSIC condition unknown |[945642322/55704518866](https://shopee.co.id/VALETON-GP-50-MULTI-EFFECT-PROCESSOR-Gp50-efek-valeton-gp50-i.945642322.55704518866),JakartaUtara;2026-10-17 search **Rp2.245.000** versus direct **Rp2.255.000**,retained discrepancy. Reopened2026-10-19 month-old cache atRp2.255.000;relative delivery/noHabis not stock proof. |
+| IDR / sold-out condition-unknown asks |**Rp2.255.000,Habis** each,independent observations: [Diana495337904/56105944082](https://shopee.co.id/Valeton-GP-50-GP50-Multi-Effects-Processor-i.495337904.56105944082),Yogyakarta,checked2026-10-17,staleSep8;[Red Musik198150809/54604918835](https://shopee.co.id/Valeton-GP-50-Efek-Gitar-Compact-Multi-Effects-GP50-GP-50-i.198150809.54604918835),Denpasar,checked2026-10-18,month-old cache;[Jojo382833846/52005015889](https://shopee.co.id/Valeton-GP50-GP-50-Next-Generation-Compact-Multi-Effects-i.382833846.52005015889),Surabaya,checked2026-10-22,month-old cache,staleSep12–13. |
+| IDR / Gianyar condition unknown |**Rp2.255.000**, [Rockpizz440269597/43928304060](https://shopee.co.id/Valeton-GP-50-Multi-Effect-Processor-Gp50-Efek-Valeton-Gp50-i.440269597.43928304060);checked2026-10-28,three-month index/direct cache miss,staleJul21–26. NoHabis exposed is not stock proof. |
+| IDR / Solo condition unknown |**Rp2.300.000**, [Liam106037376/41181463437](https://shopee.co.id/Valeton-GP-50-i.106037376.41181463437),Surakarta;checked2026-10-28,month-old cache/staleSep2–3. Display-model ID336016447769 doesnot establish selected variant;noHabis not stock proof. |
+| IDR qualification |Separate dated asks,not a used/new market range orcompleted sales. Unless stated,condition,working state,firmware,variant,adapter/bundle,warranty region,authenticity,shipping/tax,voucher andcheckout total unknown. Late-delivery compensation is not an upfront discount. Sahabat2195000IDR unresolved bundle/hidden variations remains excluded from qualified prices. |
+<!-- comparison evidence ends -->
+
+
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. NAM compatibility and qualified Shopee snapshots were additionally checked2026-10-17; complete firmware contents and checkout stock remain unverified. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- VALETON-GP-50 source begins -->

@@ -128291,5 +128291,20 @@
     "expression_loop_attenuation": "Unverified",
     "current_manual": "1.1.0 route still inaccessible;no revision transfer",
     "downloads": false
+  },
+  "gp50_current_comparison_20261028": {
+    "checked": "2026-10-28",
+    "change": "Select current consolidated summary instead of aggregating every historical table/paragraph.",
+    "preservation": "Complete previous GP-50 section retained byte-for-byte after new summary;no historical source orprice removed.",
+    "corrections": [
+      "Historical used unknown no longer competes with later sold-out used observation",
+      "Jojo seller/item link made explicit",
+      "112algorithms and10onboard metronomes kept firmware1.0.5",
+      "Analog globalvolume unknown and1.1.0 access boundary explicit",
+      "MIDI controls andconvertedNAM not conflated with directanalog/nativeexecution"
+    ],
+    "technical_refresh": false,
+    "market_refresh": false,
+    "remaining": "Current1.1.0 body,globalassignment/coverage,currentstock,touch andwiring stillunverified"
   }
 }
