@@ -1981,6 +1981,13 @@ Checked2026-10-28 against indexed original [manufacturer manual p152](https://st
 Checked 2026-10-28. The [exact Japanese BOSS product page](https://www.boss.info/jp/products/gt-pro/support/) states that the included GT-Pro librarian converts **GT-6/GT-8 effect parameters into GT-Pro format**. This documents a software conversion path; it does not establish native interchangeability, conversion of every system/controller setting, identical tone, or a modern supported host. Earlier editor/driver compatibility restrictions remain.
 
 The separate [Roland patch-compatibility FAQ](https://support.roland.com/hc/ja/articles/4404885542171), updated 2022-01-18, explicitly says the data are not inherently compatible. **GT-10 Librarian can convert incoming GT-Pro/GT-8/GT-6 patches for GT-10**, potentially changing tone or behavior because effects/parameters differ; adjustment may be required. **GT-10 patch data cannot be used in GT-Pro/GT-8/GT-6**. These are distinct directional conversions, not a reversible common preset format. The FAQ labels its information launch-era and warns that it is not maintained for later changes. No librarian, patch, driver or dependency downloaded or executed.
+### GT-Pro — MIDI chain inventory versus effect-count headlines
+
+Checked 2026-10-28. BOSS’s [exact GT-Pro manual index](https://www.boss.info/global/support/by_product/gt-pro/owners_manuals/) separately lists MIDI Implementation. A [manufacturer-authored reproduction](https://manuzoid.com/manuals/bwqb9-Roland%20GT-PRO%20Owner%27s%20manual) identifies **Model GT-PRO, 2005-04-01, Version 1.00, copyright BOSS** despite the mirror’s generic owner-manual label. The [indexed original implementation table](https://www.notice-facile.com/en/manual/1898061/boss%2Bgt-pro-midi-implementation) specifies **FX CHAIN output fixed at 14 bytes**, with Chain1–Chain14 at offsets **11 00–11 0D**.
+
+Its entry codes **00–0D** are **FX1, CS, WAH, LP, OD, PRE, EQ, FX2, DD, CE, RV, NS, FV, DGT**. This is a serialized chain inventory, including the digital-output entry; it is not evidence of fourteen independent effect algorithms or freely duplicated slots. It narrows the architecture evidence but does not explain the manufacturer’s conflicting thirteen/fifteen simultaneous-effect headlines or reconcile forty-four effect categories. PRE LOOP remains fixed under the separate owner-manual instructions.
+
+Evidence is indexed manufacturer-authored text, not generated mirror Q&A. Direct mirror retrieval failed (403/inaccessible); the complete official implementation PDF and device behavior were not inspected. No document, software or driver downloaded; no MIDI messages sent.
 
 ## GX-1
 

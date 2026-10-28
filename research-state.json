@@ -127706,5 +127706,16 @@
     ],
     "finding": "GT-Pro librarian converts GT-6/GT-8 parameters into GT-Pro. Separate launch-era FAQ updated2022-01-18: GT-10 Librarian converts GT-Pro/8/6 incoming patches, with tone/behavior differences; GT-10 data cannot be used in GT-Pro/8/6. Not native or reversible compatibility, modern host support or NAM/capture import.",
     "remaining": "GT-Pro cursor unchanged:44-category/13-versus15basis,other USB modes,visual controls,global FV scope andqualified exact Shopee IDR."
+  },
+  "gt_pro_midi_chain_inventory_20261028": {
+    "checked_date": "2026-10-28",
+    "sources": [
+      "https://www.boss.info/global/support/by_product/gt-pro/owners_manuals/",
+      "https://manuzoid.com/manuals/bwqb9-Roland%20GT-PRO%20Owner%27s%20manual",
+      "https://www.notice-facile.com/en/manual/1898061/boss%2Bgt-pro-midi-implementation"
+    ],
+    "identity": "Manufacturer-authored exact GT-PRO MIDI Implementation; indexed alternate reproduction header Apr1,2005Version1.00 BOSS copyright. Direct mirrors403/inaccessible, official full PDF not inspected.",
+    "finding": "FX CHAIN fixed14bytes;Chain1–14offset11 00–11 0D,entrycodes00–0D:FX1,CS,WAH,LP,OD,PRE,EQ,FX2,DD,CE,RV,NS,FV,DGT. Serialized inventory includes digital-output entry, not14effectalgorithm guarantee.",
+    "remaining": "13/15simultaneous counting basis and44categories remain unresolved. No hardware/MIDI/download test."
   }
 }
