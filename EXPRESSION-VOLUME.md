@@ -362,3 +362,7 @@ Ampero Mini [effect-bypass trail boundary](HOTONE.md#ampero-mini--effect-bypass-
 M-VAVE controller [source-provenance check](M-VAVE.md#chocolate--wiring-source-provenance-and-unresolved-reports): a file called Chocolate manual is a user-tutorial export;the Resolved compatibility thread provides no successful wiring solution. Pinout andactual-controller compatibility remain unverified.
 
 Tiny Stomp [global input/loop-level boundary](SORAN.md#tiny-stomp--global-input-and-independent-loop-levels): explicitly persistent INPUT/EQ settings are distinct from unresolved EXP assignment;separate loop REC/PLAYBACK controls do not establish pedal coverage.
+
+### EROK Pocket Sonic — inventory screening pending
+
+[Existing active model](EROK.md#pocket-sonic--expression-audit-identity-hold),not a new admission. Manufacturer confirms guitar/headphone practice;built-in treadle,analog EXP,footprint andpreset controls remain unknown. Outside the capability table until no-treadle eligibility is established. Pocket Amp family identity does not supply retail specifications.

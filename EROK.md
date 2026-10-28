@@ -132,3 +132,9 @@ Checked2026-10-18 against original **GTSL2025110472F02**,issued2025-12-30,printe
 | Power / regulatory sample | Tested model is **POCKET AMP**,engineering sample **GTSL2025110472-1**,hardware **V08E1**,software **V05**. Report lists **5.0VDC adapter or3.7VDC lithium battery** for that sample. It does not verify Pocket Sonic retail connector,current,capacity,runtime orUSB-power behavior;those remain unresolved. |
 
 This qualifies the previous identity uncertainty without merging records ortransferring Pocket Amp manual specifications. Original Pocket Sonic manual remains unread. No downloads ordevice/software operation.
+
+### Pocket Sonic — expression audit identity hold
+
+Checked **2026-10-28**. [Own manufacturer catalogue](https://erokmusic.com/) confirms Pocket Sonic guitar multi-effects andheadphone practice. [Manual index](https://erokmusic.com/index.html) lists Pocket Sonic PDF19.7MB,2026-06-22;the current[download route](https://erokmusic.com/download) returns only site controls without the file URL. No manual contents newly inspected.
+
+**No-treadle eligibility,analog EXP presence,global volume,footprint,headphone connector andonboard preset down/up remain unverified.** Keep this existing active model in the pending-screen inventory,not among confirmed no-treadle matches. Regulatory hardware-family evidence above is not retail firmware/feature equivalence;do not inherit Pocket Amp connectors,dimensions orassignment behavior. Volume position,min/max,recall,bypass/headphone/tail/loop coverage all remain unknown. Exact manual recovery is the next technical action;older offer andsource qualifications remain intact. No downloads ordevice operation.

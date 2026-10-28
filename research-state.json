@@ -124911,5 +124911,12 @@
     "document": "SORAN.md#tiny-stomp--global-input-and-independent-loop-levels",
     "finding": "INPUT±10dB andEQ explicit global persistence;loop REC/PLAYBACK independent. EXP coverage remains unresolved.",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "pocketsonic_expression_hold_20261028": {
+    "checked": "2026-10-28",
+    "document": "EROK.md#pocket-sonic--expression-audit-identity-hold",
+    "status": "Existing active model;no-treadle eligibility unknown;outside capability table",
+    "next": "Recover exact Pocket Sonic manual URL/panel before assigning connector orvolume scope",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
