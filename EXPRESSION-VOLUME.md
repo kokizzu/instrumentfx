@@ -467,3 +467,7 @@ M-VAVE [host-panel electrical-label check](M-VAVE.md#footctrlplus-host-panel-man
 ### Roland VT-4 — microphone scope and direct-control exclusion
 
 [Exact-model screen](ROLAND.md#vt-4--direct-expression-eligibility-and-scene-controls): no analog EXP in complete manual inventory. Fits174W×133Dmm andhasstereo-mini phones,but ordinary-guitar suitability remains unclassified. Vocal-only,outside main table. No footswitches;hand scene selection is not independent down/up. Controller pickup andphysical VOLUME do not establish expression assignment.
+
+### BOSS VE-20 — vocal input, mode-dependent sound down/up
+
+[Exact-model screen](BOSS.md#ve-20--direct-control-exclusion-and-sound-selection-mode): no analog EXP in complete inventory;direct microphone input documented,normal guitar suitability unclassified. Vocal-only,outside main table.173W×158Dmm fails depth;stereo PHONES/LINE present. Hold HARMONY≥2s forON/OFF previous,HARMONY next;not global expression assignment.

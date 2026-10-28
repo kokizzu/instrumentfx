@@ -4241,6 +4241,12 @@ Checked2026-10-18. Earlier observations remain dated above.
 | I/O / phantom supply and input filtering | [Own manual p16][VE20-M] specifies **48 V DC, 10 mA maximum phantom power**. This is the microphone supply limit, not unit current draw; it does not resolve the retained 180/190 mA conflict. System LowCut can be switched on/off; cutoff frequency is not stated in the inspected parameter text. Display contrast is adjustable, without a numeric range established here. |
 | IDR / separate sold-out hardware offer | **Rp4.355.000; Habis**, [BORNEO BROTHER AUDIO, shop684472204/item23055109101](https://shopee.co.id/BOSS-VE-20-VE-20-VE20-Original-Efek-Vokal-Stompbox-i.684472204.23055109101), Kota Jakarta Barat. Direct JavaScript-limited reader and search show a three-month cache. Exact VE-20 title; condition/new versus used, working status, selected variant, adapter/bundle, warranty/import region, authenticity and shipping/tax unverified. Two-hour delivery banner does not override sold-out status. Late-arrival compensation up to Rp20.000 is not a price discount. Historical ask, not a completed sale or current available price. |
 
+### VE-20 — direct-control exclusion and sound-selection mode
+
+Checked **2026-10-28** against own [20-page original manual][VE20-M],pp8–9,14,20. Complete controls/connectors list no treadle oranalog EXP input. Combo INPUT is documented for a direct microphone;manual warns against another effects processor’s output because distortion/undesired effects can result. Normal guitar-pickup suitability remains unclassified;retain vocal-only membership,outside requested guitar capability table.173W×158Dmm fails preferred depth;shared quarter-inch stereo PHONES/LINE confirmed.
+
+Hold HARMONY≥2seconds to enter sound-selection mode:ON/OFF selects preceding sound,HARMONY next;hold HARMONY again≥2seconds restores normal pedal functions. Thus onboard down/up is documented in a dedicated mode. Parameter-guide Level controls the selected sound’s volume;not global pedal assignment. Direct-pedal position,endpoints andrecall are inapplicable to documented inventory;pedal bypass/headphone/tail/recorded-loop attenuation remains unknown. Existing current/nominal-level source conflicts remain unresolved. No hardware test orfresh visual inspection.
+
 ## VE-22
 
 Vocal multi-effects;consolidated/researched2026-10-16;partial verification.

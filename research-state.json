@@ -125593,5 +125593,21 @@
     ],
     "next": "Remaining no-treadle inventory andpriority global-volume questions",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "ve20_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "BOSS.md#ve-20--direct-control-exclusion-and-sound-selection-mode",
+    "source": "https://static.roland.com/assets/media/pdf/VE-20_OM.pdf",
+    "identity": "20page original English manual",
+    "result": "No analog EXP/treadle;direct mic input,normal guitar unclassified;vocal-only outside guitar table",
+    "navigation": "Hold HARMONY>=2s;ON/OFF preceding,HARMONY next;hold again exits",
+    "fit": "173W158Dmm fails depth",
+    "unknown": [
+      "normal guitar suitability",
+      "pedal attenuation coverage",
+      "retained current/nominal-level conflicts"
+    ],
+    "next": "VE-5/VE-1 remaining exact-model screens andpriority global-volume questions",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
