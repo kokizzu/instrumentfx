@@ -124730,5 +124730,12 @@
     "finding": "Bass documented,guitar unclassified;noEXP/headphone established in connector prose,visualabsence incomplete,remainunknown. Originalv1 headphone feature not transferred. Audio loop/channel levels notglobalassignment.",
     "footprint": "317.5x69.85mm converted from12.5x2.75inch fails either orientation",
     "next": "Acoustic Fly Rig own manual next; Mini/Nano/GP50 scope and independentGTPro retained."
+  },
+  "acousticflyrig_expression_screen_20261028": {
+    "source": "https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf",
+    "identity": "copyright2017 original manual printed1–6",
+    "finding": "Shared quarterinch headphone mode confirmed;both sides not stereo processing proof. PhysicalVolume conditional onSansAmp engaged,notglobalEXP. EXP unverified,no completevisualabsence audit.",
+    "footprint": "317.5x69.85mm converted fails either orientation",
+    "next": "Continue remaining no-treadle exactmodels including Anagram/QuadCortex; priorityMini/Nano/GP50 and independentGTPro retained."
   }
 }

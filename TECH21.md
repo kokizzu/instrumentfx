@@ -50,6 +50,11 @@ Distinct guitar/acoustic/bass multi-effects; checked 2026-10-18, partial. [Own p
 
 [Own manual,©2017](https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf), text read; no device/software operation or file download. Product low-pass endpoint **16kHz** differs from manual **20kHz**; both extend down to 1.5kHz. Revision reason unresolved. Physical controls, full ports, memory and software require further verification.
 
+### Acoustic Fly Rig — expression and headphone scope
+
+Checked2026-10-28 against [own ©2017 manual](https://www.tech21nyc.com/t21manuals/AcousticFlyRig_OM.pdf),printedpp1–6. Normal guitar/bass input use is documented. Headphone mode shares the quarter-inch output,drives both sides andincreases output;not a separate socket orproof ofstereo processing. Disengage for amp/mixer use permanufacturer. **Volume governs output when SansAmp is engaged**;that conditional physical control is not global EXP assignment. No EXP connection is described in the inspected connector/function text;full visual absence audit incomplete,so direct EXP remains **unverified**. Preset down/up,position/endpoints/recall,bypass/headphone/tail/recorded-loop pedal attenuation remain unknown. Published12.5×2.75inch footprint converts to317.5×69.85mm,failing either preferred orientation. No local download orhardware test.
+
+
 ## Bass Fly Rig v2
 
 Bass-focused multi-effects; v2 only. Distinct from original Bass Fly Rig and guitar Fly Rig 5 v2. Checked 2026-10-17; partial. Ownership unestablished.
