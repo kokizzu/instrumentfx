@@ -8,6 +8,7 @@ Canonical root brand profiles; all retain explicit verification gaps. Preserved 
 - [AD-2](#ad-2)
 - [AD-8](#ad-8)
 - [AD-10](#ad-10)
+- [EX-4 — partial no-treadle discovery lead](#ex-4--partial-no-treadle-discovery-lead)
 - [GM-800](#gm-800)
 - [GT-1](#gt-1)
 - [GT-001](#gt-001)
@@ -262,6 +263,22 @@ Checked2026-10-18 against [eng04_W manual pp7–8,10–12][AD10-PDF]. No hardwar
 [Own eng04_W manual][AD10-PDF], printed pp11–12, places pedal-function assignment under System Settings: **EF→ov (OUTPUT LEVEL)**, alternatively AN (ambience) or LP (loop). This establishes a shared assignment, distinct from per-memory stomp-effect settings. Exact volume endpoints/location and held-position recall remain unverified. PHONES/XLR fixed-versus-follow-output settings and output routing remain separate coverage qualifications; no blanket bypass/tail/recorded-loop attenuation claim.
 
 Own p5 confirms foot memory browsing both directions in Memory mode. L/PHONES is a **shared** output, not a separate headphone socket. Acoustic piezo/magnetic pickup blending is documented; ordinary electric-guitar tonal suitability remains unverified. Existing217W×161Dmm exceeds both preferred limits. Controller pinout/resistance remains unverified; no hardware test.
+
+## EX-4 — partial no-treadle discovery lead
+
+Checked2026-10-28;effects-only guitar/bass multi-effects,not a single-function pedal. **Outside active inventory pending exact Shopee hardware andcomplete required-field profile.** No ownership assertion.
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| Processing / memory | **120types;4FXslots**,including repeat instances,plus6utility categories:divider/mixer,send/return,FV,twoNS,globalEQ. **128User+128Preset=256**;initial writable-bank fill unverified. GearSuite effect settings are separate from whole-memory capacity. [Product](https://www.boss.info/global/products/ex-4/support/);[specification](https://www.boss.info/jp/products/ex-4/) |
+| Expression / global mapping | **ASSIGN1–8:SW On,PREF SYSTEM,SOURCE EXP,PRESET FV PDL POSITION** documents shared all-memory control assignment. MEMORY is the contrasting per-memory mode. This is actual assignment scope,not calibration/recall/globalEQ. Manual-target mode has target-dependentMIN/MAX. Whether arbitrary memories retain compatibleFV placement/endpoints orcompeting assignments remains unverified;not a universal final-output mute certification. [Own ASSIGN guide](https://static.roland.com/manuals/ex-4_parameter/en-US/632079883637723019.html) |
+| Volume / position and range | FV:POSITION0–100;FV:MIN/MAX0–100 forheel/toe;SLOW1/SLOW2/NORMAL/FAST curves. PLACE includesINPUT,FX1–4,SEND/RETURN,DIV(A/B),MIX,OUTPUT,withrouting-dependent options. Storage/override precedence ofthese fields versusSYSTEM ASSIGN andposition recall remain unverified. ALL BYPASS passes input unchanged withall effects off;EXP attenuation throughthat state isnot established. [MASTER guide](https://static.roland.com/manuals/ex-4_parameter/en-US/631124107637712523.html) |
+| Chassis / controls / display | **117W×138D×63Hmm,65Hwithfeet;800g**,fits preference. No built-in treadle in completecontrolinventory. **5rotaries/2footswitches/6buttons**,encoderpushes not double-counted. **2.4inch320×240colorLCD**;touchunverified. [Global product](https://www.boss.info/global/products/ex-4/);[Japanese specification](https://www.boss.info/jp/products/ex-4/) |
+| I/O / phones / power | Twoquarter-inchinputs/twooutputs;rightpair doubles asreturn/send. TRSCTL/EXP,miniMIDIIN/OUT,USB-C,DC. No dedicatedphones in completeinventory;sharedheadphone mode unverified. Input1MΩ,max+7dBu;output1kΩ,recommendedload≥10kΩ. PSA-Sadapter,300mAdraw;voltage/polarity,USBbuspower andbattery requirements pending primarycheck. [Specification](https://www.boss.info/jp/products/ex-4/) |
+| USB / navigation | USB exchanges MIDI;audiointerface not established. DCconnection switches power. OnboardDOWN/1 andUP/2 can controlmemorydown/up,mode/assignmentdependent. ExternalEXP shares thefootswitchsocket. Toe-switch compatibility/resistance/pinout unknown. [Panel reference](https://static.roland.com/manuals/ex-4_reference/en-US/561779083589756683.html);[product](https://www.boss.info/global/products/ex-4/support/) |
+| Other required fields / IDR | Categorysubtotals,synth/acoustic,IR/NAM/capture,editorplatforms,looper/drums andvolumecontrol overtails/recordedloops remain unverified. Manufacturer advertises conditionaldelay/reverb carryover,not universalcontinuity. ExactShopeeIndonesia search yieldednoqualifiedhardwareitem;used/newIDR,condition,stock,bundle,warranty,voucher andregionunknown. NoFXconversion. |
+
+Original manufacturer HTML inspected;no localmanual,firmware,software ordependency downloaded,installed orrun. No hardwaretest. Continuecompleteprofile andexactShopee discovery beforeactiveadmission;preserve theindependentGT-Pro cursor.
 
 ## GM-800
 
@@ -1901,7 +1918,6 @@ The same FV table specifies Level0–100 andfour response choices:Slow1,Slow2,No
 ### GT-Pro — named initial user-bank patches
 
 Checked2026-10-28 against indexed original [manufacturer manual p152](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf),[matching original p152 reproduction](https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-152.html),[p153 reproduction](https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-153.html),andofficial PDF indexed p155. Exact GT-PRO Patch List,not generated advice. The User Patch table names U1-1 STACK DRIVE andU20-10 GUITAR + PAD,with intervening user-bank entries. This establishes manufacturer-published initial tones in writable user memory rather than an entirely blank user bank. It does **not yet verify every one of200 rows**,nor prove that a secondhand unit retains its initial contents. The separate200 protected Preset slots remain distinct;400 total storage positions must not be described as400 protected presets. Earlier initial-fill uncertainty is narrowed by these named entries,not silently removed. Direct HTML openings missed cache;indexed original body was used. No file downloaded ordevice reset/test.
-
 
 ## GX-1
 

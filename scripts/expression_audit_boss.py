@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(boss): document GT-Pro initial user-bank patch evidence'))
+    print(git('commit','-m','research(boss): record compact EX-4 global-assignment discovery lead'))

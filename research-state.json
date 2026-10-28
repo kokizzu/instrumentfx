@@ -24837,6 +24837,20 @@
         "Completerequiredfields",
         "Headphones,bypass/tails/loopattenuation,endpoints/recall"
       ]
+    },
+    {
+      "model": "BOSS EX-4",
+      "checked_date": "2026-10-28",
+      "status": "Partial no-treadle lead,outsideactiveinventory",
+      "manufacturer": "https://www.boss.info/global/products/ex-4/",
+      "assign_source": "https://static.roland.com/manuals/ex-4_parameter/en-US/632079883637723019.html",
+      "finding": "117W138Dfits;SYSTEM ASSIGN EXP→FV documented;FV placement/range anduniversalattenuation remainqualified;no dedicatedphonesincompleteinventory",
+      "shopee": "No exact qualified Indonesian hardwareitem established",
+      "next": [
+        "Complete requiredfields andexactShopee hardware",
+        "Resolve FVfield storage/assignmentprecedence,recall andbypass/tails/loopcoverage"
+      ],
+      "general_cursor_preserved": "BOSS GT-Pro"
     }
   ],
   "inventory_by_brand": {
