@@ -128964,5 +128964,25 @@
     "dedup": "SmartGate/FastGaterepeatNR;parametermodes,micchoices,userIRandSoundClone slots separate",
     "remaining": "Per-slotmapping,headlinecountbasis,globalEXPassignmentandoutputcoverage;exactqualifiedoffers",
     "downloads": false
+  },
+  "am4_hardware_conflicts_20261028": {
+    "checked": "2026-10-28",
+    "sources": [
+      "https://www.fractalaudio.com/downloads/manuals/AM4/AM4-Owners-Manual.pdf",
+      "https://www.fractalaudio.com/am4-downloads/"
+    ],
+    "revision": "1.0.2",
+    "power": "9VDC1.5A,2.1mmcenternegative,nobattery;USBpowerunknown",
+    "controls": "Spec5knobs/4FS/6buttons;panelproseLEVELSELECTABCDderives6knobs",
+    "mass": "Spec1.56kgversusdrawing1.63kg",
+    "height": "Spec66mm;drawingreferencesincl75.5mmunresolved",
+    "outputs": "Two balancedTRSmain;stereoTRSinsert;dedicated3.5mmphones35Ω,recommendedload<600Ω",
+    "usb": "Product4×4vsmanualspec2in2out;unresolved",
+    "user_ir": "256Standard/UltraRes",
+    "cpu": "85%dynamic,excessbypass",
+    "firmware": "2.02Sep2,2026;DynaCabs1.09separate",
+    "active": false,
+    "next": "FullAM4profileandexactShopee;manufacturerclarifyinternalconflicts;retainglobalvolumequalifications",
+    "downloads": false
   }
 }

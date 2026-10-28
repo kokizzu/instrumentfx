@@ -582,3 +582,5 @@ VP4 [CPU/spillover limits](FRACTAL-AUDIO.md#vp4--historical-category-census-cpu-
 VP4 [catalogue admission](FRACTAL-AUDIO.md#vp4),2026-10-28: now an active **partial** guitar/bass record. Earlier outside-inventory descriptions above are historical;technical/market gaps persist.
 
 Chocolate [XVP-20 troubleshooting lead](M-VAVE.md#chocolate--xvp-20-tipring-swap-report-not-certified-pinout): one user reports success after swapping tip/ring; exact controller revision and post-fix sweep measurements are absent. This is not a certified wiring prescription or direct analog processor-volume qualification.
+
+AM4 [exact-model specification conflicts](FRACTAL-AUDIO.md#am4--exact-electrical-specifications-and-internal-conflicts): own power is9V1.5A; manual knob/mass/USB counts conflict internally orwithproduct text. CPU-triggered bypass doesnot establish EXP coverage through bypass. Partial lead remains outside active counts.

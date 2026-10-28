@@ -37,6 +37,21 @@ Follow-up2026-10-28, same [v1.0.2 manual](https://www.fractalaudio.com/downloads
 
 Signal-flow screenshot returned no inspectable image;no diagram-derived output coverage claimed. Repeated exact Shopee searches still found the cover accessory andunrelated computers,not processor hardware. Lead remains outside active inventory;no stock/price orhardware compatibility conclusion added.
 
+### AM4 — exact electrical specifications and internal conflicts
+
+Checked 2026-10-28 in [own v1.0.2 manual](https://www.fractalaudio.com/downloads/manuals/AM4/AM4-Owners-Manual.pdf), printed pp8,58–59,68. Original text, no image inspection.
+
+| Field | Model-specific evidence / qualification |
+|---|---|
+| Power | **9VDC1.5A,2.1mm center-negative;internal batteryNone**. USB-powered operation unknown; VP4’s1.3A is not transferred. |
+| Controls / display conflict | Specification: **5 knobs,4 footswitches,6 buttons**; panel prose names LEVEL,SELECT,A–D,which derives6 rotary controls. Preserve5-versus6 pending physical verification. LCD480×272,color;diagonal/touch unknown. |
+| Dimensions / mass conflict | Specification254W×160.3D×66Hmm,**1.56kg**; drawing text **1.63kg** andmultiple height references including75.5mm. Reference points not visually established; no selected universal mass/height. Footprint still exceeds preference. |
+| Audio I/O | Mono unbalanced input;two **balancedTRS main outputs**. StereoTRS insert send/return uses tipL/ringR,not balancedmono. Dedicated3.5mm stereo phones:35Ω output impedance,recommended headphone impedance<600Ω;not output power. RCAcoaxS/PDIFin/out48kHz. |
+| USB conflict | Product advertises4×4; manual specification says4total(2in/2out). Keep model-specific conflict open; no driver enumeration. |
+| CPU / user IR | Appendix specifies85%CPU ceiling,dynamic underplay;excess forcesbypass. **256usercabs**,Standard/UltraRes;not borrowed VP4 IRPlayer architecture. |
+
+[Current downloads](https://www.fractalaudio.com/am4-downloads/) list2.02,2026-09-02,andDynaCabs1.09 separately;not installed-version evidence. Partial lead stays outside active inventory;exactShopee processor,fullprofile andvolume coverage pending. No local download ordevice test.
+
 ## FM3 MKII Turbo
 
 Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; original FM3 offers are not merged. Manufacturer's 7.x manual expressly covers both revisions; current firmware listing is newer. Unknown means unverified.
