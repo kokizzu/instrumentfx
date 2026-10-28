@@ -1730,6 +1730,16 @@ DirectanalogEXP isdocumented;482W×305Dmm rackchassis far exceeds preferredfootp
 
 Original section/model/pagination match prior GT-PRO manual checks. Text evidence only; no visual ordevice test. Existing33 FX-family count and44-category/13-versus15 conflicts remain unchanged.
 
+### GT-Pro — Flanger, Pan and Tremolo definitions 2026-10-28
+
+| Field | Finding / qualification |
+|---|---|
+| Processing / Flanger | Own manufacturer-authored [manual p40](https://roland.manymanuals.de/supplementary-music-equipment/GT-PRO/owners-manual-5239/40), indexed English table: **Separation0–100** increases diffusion; Low Cut **Flat or55–800Hz**. Flat disables this filter. Effect/Direct Level each0–100; these are wet/dry controls, not additional algorithm choices. |
+| Processing / Pan | Samep40: stereo effect changes left/right volume alternately. Wave Shape/Depth0–100; Rate0–100 or patch MasterBPM synchronization. Mono output is not evidence of stereo movement. |
+| Processing / Tremolo | [Own manual p39](https://roland.manymanuals.com/supplementary-music-equipment/gt-pro/owners-manual-5239/39), indexed: cyclic volume change, Wave Shape0–100 andRate0–100 orMasterBPM. Continuous wave-shape control is not101 separate effect types. |
+
+Exact model and Chapter4 pagination match earlier original-manual checks; no visual/device test. Existing33 FX families andunreconciled44-category headline remain unchanged. ExactShopee GT-Pro query yielded no qualified hardware item;no absence-of-market claim.
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.

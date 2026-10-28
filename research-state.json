@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro SitarSimulator/triggeredVibrato definitions saved;remainingFXdefinitions,44category/13vs15basis,USBchannelcount andqualifiedIDR unresolved;392partial.",
+    "task": "GT-Pro Flanger/Pan/Tremolo definitions saved;remainingACS/Limiter/AutoWah/UniV/SubEQ/Octave/PedalBend,44category/13vs15basis,USBchannelcount andqualifiedIDR;392partial.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -123280,5 +123280,17 @@
     "vibrato": "TriggerOffOn;RiseTime0–100 relative;rate0–100/BPM;Depth0–100",
     "counts": "unchanged existing families",
     "next": "Remaining FX definitions,headlinecount conflicts,USBchannelcount and exactIDR"
+  },
+  "gtpro_flanger_pan_tremolo_20261028": {
+    "sources": [
+      "https://roland.manymanuals.de/supplementary-music-equipment/GT-PRO/owners-manual-5239/40",
+      "https://roland.manymanuals.com/supplementary-music-equipment/gt-pro/owners-manual-5239/39"
+    ],
+    "access": "indexed original exact-model tables;no visual test",
+    "flanger": "Separation0–100;LowCutFlat/55–800Hz;wet/dry0–100",
+    "pan": "alternating stereo levels;WaveShape/Depth0–100;Rate0–100/BPM",
+    "tremolo": "cyclic volume;WaveShape0–100;Rate0–100/BPM",
+    "market": "no qualified exact Shopee GT-Pro item returned;IDR unknown",
+    "next": "Remaining ACS/Limiter/AutoWah/UniV/SubEQ/Octave/PedalBend definitions;headlinecounts,USBchannels,qualified offers"
   }
 }
