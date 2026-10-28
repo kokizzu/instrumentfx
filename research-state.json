@@ -125405,5 +125405,22 @@
     ],
     "next": "Seek readable exact1.1.0 original documentation;continue remaining inventory without repeating failedroutes",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "hxstomp_socket_roles_20261028": {
+    "checked": "2026-10-28",
+    "document": "LINE6.md#hx-stomp--socket-roles-and-polarity-controls",
+    "source": "https://line6.com/data/6/0a00051afdda673cccdb61c9c/application/pdf/HX%20Stomp%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "revision": "3.80 RevF pp57–58,indexed original text",
+    "roles": "TipEXP1/FS4,RingEXP2/FS5",
+    "direction": "Tip/Ring Polarity Invert",
+    "switches": "Momentary recommended;poweroff connection;switch roles consumecontact",
+    "firmware_listing": "3.80.0 released2024-11-19;not installedversion",
+    "unknown": [
+      "particular M-VAVE pinout/resistance/taper",
+      "universal volume assignment",
+      "output/tail/loop coverage"
+    ],
+    "next": "Exactcontroller wiring evidence;remaining no-treadle inventory andpriorityscope gaps",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

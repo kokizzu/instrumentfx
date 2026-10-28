@@ -430,3 +430,5 @@ GT-Pro [downstream-generator boundary](BOSS.md#gt-pro--downstream-generators-and
 ### TC-Helicon Play Acoustic — revision-qualified eligibility boundary
 
 [Exact-model screen](TC-HELICON.md#play-acoustic--direct-control-capability-boundary):2014manual documents Switch-3 TRS control,not continuousEXP. Preset down/up withhold-to-scroll anddedicated stereo headphones confirmed;200W×156Dmm fails depth. Acoustic processing established,ordinary electric-pickup suitability/current EXP behavior unknown;outside main table pendingqualification. Global guitar effects do not establish global volume assignment.
+
+HX Stomp [socket-role/polarity qualification](LINE6.md#hx-stomp--socket-roles-and-polarity-controls): own3.80manual maps TipEXP1/FS4,RingEXP2/FS5 andprovides inversion. These settings are not a particular controller’s electrical compatibility proof orglobal volume assignment. External switch functions consume their corresponding contacts.

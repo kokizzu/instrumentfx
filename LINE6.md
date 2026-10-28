@@ -667,6 +667,14 @@ Shopee pages reopened2026-10-28 retain **Rp8.900.000/Habis** for [otnielsusanto�
 Checked2026-10-28 against [official Helix/HX3.50 release notes](https://kb.line6.com/helix-3-50-release-notes),2022-11-03, “Disable Snapshot Control over Parameter Assignments”; **HX Stomp explicitly included**. Controller Assign offers per-parameter Snapshot Control,defaultOn. Off prevents snapshots from controlling that assigned parameter; it is separate from a block’s Snapshot Bypass setting and global EXP-position recall. It does not create a universal Volume block,target mapping or final-output mute. Existing per-preset block/routing,all-bypass,headphone/tail/recorded-loop qualifications remain. This original release text establishes applicability without borrowing HX Effects behavior; no full3.80 PDF inspection, software operation ordownload claimed.
 
 
+### HX Stomp — socket roles and polarity controls
+
+Checked2026-10-28 against indexed original [3.80 RevF manual,Preferences/Footswitches pp57–58](https://line6.com/data/6/0a00051afdda673cccdb61c9c/application/pdf/HX%20Stomp%203.80%20Owner%27s%20Manual%20-%20English%20.pdf). **Tip selects EXP1 orFS4;Ring selects EXP2 orFS5**. Tip/Ring Polarity provides **Invert** for reversed response,such as maximum volume atheel. These are input-role/direction controls,not controller resistance,wiper wiring,taper orvoltage specifications. They do not certify any particular M-VAVE hardware.
+
+FS4/FS5 functions only apply when the corresponding contact is configured as a switch. The manual recommends momentary(unlatched) external switches andconnecting with poweroff toavoid toggling the current switch state. Sharing the socket doesnot provide twoexpression inputs plus twoindependent switches simultaneously.
+
+[Exact firmware listing](https://line6.com/software/index.html?hardware=HX+Stomp&name=Firmware&submit_form=set) still exposes3.80.0,2024-11-19;installed firmware unknown. These settings do not replace per-preset Volume/Pan blocks/assignments. Existing global-position,all-bypass,headphone/tail/loop limitations remain. No device test,download orfirmware update.
+
 ## HX Stomp XL
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
