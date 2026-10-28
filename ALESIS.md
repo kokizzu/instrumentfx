@@ -357,3 +357,9 @@ Manufacturer-authored Reference Manual on [UNS mirror][NV-M]: ALESIS/NanoVerb co
 [NV-C]: https://shopee.co.id/search?keyword=harga+efek+alesis+original
 
 [NV-CAT]: https://device.report/m/aaec17b5c58b84afd384358662a1749e3c80fa1beece85dd7d680fa09dcda1fd.pdf
+
+### NanoVerb — direct-expression screening (2026-10-28)
+
+Reopened original **ALESIS NanoVerb Reference Manual**,29PDFpages,[manufacturer-authored mirror](https://www.uns.nu/pdf/Alesis_Nanoverb_Reverb.pdf),printed pp20,25–26,29. Cover,five controls and16-ROM-program inventory match the retained original-model record;not NanoVerb2. Complete panels list no treadle,analog EXP,headphone,MIDI orUSB socket. BYPASS is a mono two-conductor momentary-switch input. **Fails direct analog expression-volume path**;range/recall N/A. No continuous-control compatibility inferred from the pedal connector.
+
+No onboard footswitch or foot-operated preset stepping;hand PROGRAM selects16ROM choices. Existing catalogue140W×115Dmm fits the preferred rectangle,with knob-inclusion uncertainty retained. Guitar input use is documented. Bypass removes effects while dry continues;troubleshooting specifically warns **Bypass+100%wet MIX yields no audio**. This qualifies the dry-through statement,not a global volume assignment ortail/loop coverage guarantee. No headphone output inferred from line ports. Text-only review;no download,installation or device operation.

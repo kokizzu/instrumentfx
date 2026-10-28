@@ -124151,5 +124151,15 @@
     "presets": "No onboard footswitches;externalAdvance127→00;decrement not documented.",
     "footprint": "483W×178Dmm exceeds both limits",
     "remaining": "Indirect volume scope/range/recall/bypass/tail/loop coverage andprior technical gaps."
+  },
+  "nanoverb_expression_screen_20261028": {
+    "source": "https://www.uns.nu/pdf/Alesis_Nanoverb_Reverb.pdf",
+    "identity": "Manufacturer-authored original NanoVerb29PDFpages;cover5controls16ROM choices match;notNanoVerb2;pp20,25–26,29 text inspected.",
+    "expression": "No analogEXP/treadle in complete inventory;mono momentary bypass not continuous input.",
+    "headphones": "No socket;noMIDI/USB in complete inventory.",
+    "footprint": "Catalogue140W×115Dmm fits;knob inclusion unknown.",
+    "presets": "No onboard footswitch or foot-preset stepping;hand16-ROM selector.",
+    "bypass": "Wet suppressed,dry retained;troubleshooting qualifies100%wetMIX+Bypass=noaudio.",
+    "remaining": "Tail/recorded-loop coverage,other prior technical/offer gaps;no hardware test."
   }
 }
