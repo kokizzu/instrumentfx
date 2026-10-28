@@ -65,6 +65,12 @@ Working state, authenticity, hardware revision, bundle, adapter, warranty, shipp
 [M100-M]: https://mediadl.musictribe.com/media/PLM/data/docs/P0CAH/QSG_TE_0828-AAH_M100_WW.pdf
 [M100-O]: https://shopee.co.id/TC-Electronic-M100-Stereo-Multi-Effects-Processor-i.19576516.6955147985
 
+### M100 — direct-expression capability screening
+
+Checked 2026-10-28 against [manufacturer-indexed current QSG][M100-M], pp24–25. **FOOTSW is a quarter-inch TS bypass-switch input**, not a documented continuous expression input. Complete listed connections contain **no analog EXP or dedicated headphones**; MIDI DIN remains revision-qualified as above. **191W×99Dmm fits** the preferred rectangle, but not the direct analog-pedal requirement. No onboard preset down/up footswitches; EFFECTS is a hand selector.
+
+Direct analog position/range/recall are inapplicable to the documented inventory. OUTPUT level differs from wet/dry MIX; current-guide CC106 is mix, not proof of global output-volume assignment. Bypass leaves the sound unaffected per the guide, but tail/looper attenuation remains unverified. Keep input-impedance/source conflict and older-hardware applicability open; no assumed passive-pickup match. Historical preorder/condition qualifications remain. No download or device test.
+
 ## M350
 
 Checked2026-10-17. Partial dual-engine rack multi-effects. [Manufacturer English manual](https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf),34pages,Rev1.1/SW1.00,productE60505812;webtext only,no download/visualaudit.

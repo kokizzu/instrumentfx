@@ -124360,5 +124360,12 @@
     "finding": "No analog EXP/headphone socket or onboard preset footswitches. CC116=1 Mix Internal; CC111 0–100 effect mix; CC113 0 OUT/1 IN bypass. Wet/dry control not final volume. 482.6W×204.4Dmm.",
     "boundary": "Direct EXP position/range/recall N/A; MIDI tail/sampler/output scope unverified. No new qualified exact-suffix offer; no download/hardware test.",
     "next": "Continue remaining no-treadle TC Electronic M100/M350/M-One XL exact screens; retain independent GT-Pro cursor."
+  },
+  "m100_expression_screen_20261028": {
+    "source": "https://mediadl.musictribe.com/media/PLM/data/docs/P0CAH/QSG_TE_0828-AAH_M100_WW.pdf",
+    "pages": "Current QSG24–25 indexed manufacturer text",
+    "finding": "TS FOOTSW bypass only; no analog EXP or headphone socket in listed inventory; no onboard preset footswitch pair. 191W×99Dmm fits.",
+    "boundary": "Current-guide older-hardware applicability/input conflict retained. CC106 wet/dry not global output volume; direct EXP range/position/recall N/A. No download/hardware test.",
+    "next": "M350 then M-One XL exact screens; general GT-Pro cursor unchanged."
   }
 }
