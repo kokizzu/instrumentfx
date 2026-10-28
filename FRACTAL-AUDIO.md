@@ -8,7 +8,7 @@
 - [AM4 — partial discovery lead, outside active inventory](#am4--partial-discovery-lead-outside-active-inventory)
 - [FM3 MKII Turbo](#fm3-mkii-turbo)
 - [FM9 MKII Turbo](#fm9-mkii-turbo)
-- [VP4 — partial discovery lead, outside active inventory](#vp4--partial-discovery-lead-outside-active-inventory)
+- [VP4](#vp4)
 <!-- brand-index ends -->
 
 ## AM4 — partial discovery lead, outside active inventory
@@ -131,7 +131,37 @@ Official sources read2026-10-17;manual2022-08,firmware3.x,original/Turbo cover. 
 
 Own pedal specification: TRS10–100kΩ; tip supply/ring return/sleeve ground. Volume endpoints, position recall, bypass/phones/recorded-loop coverage remain unknown. Existing historical513W×237Dmm exceeds preference, but exact MKII dimensions remain unresolved. Dedicated phones are already documented; sequential onboard preset down/up is not newly verified. No device operated or firmware installed.
 
-## VP4 — partial discovery lead, outside active inventory
+## VP4
+
+Admitted 2026-10-28 as a **partial model**, not fully verified. Own manufacturer product/manual establish effects-only guitar/bass multi-effects. All earlier lead-stage bodies and anchors remain below; their outside-inventory status is historical and superseded only by this admission. No ownership or live-market availability inferred.
+
+<!-- comparison evidence begins -->
+| Field | Evidence / qualification |
+|---|---|
+| Built-in / external expression | No treadle in complete panel inventory; two shared pedal/switch jacks. Linear10–100kΩ TRS-to-TRS; global Input orOutput Volume can usePEDAL1/2 without per-preset Volume blocks. External toe capability andactual M-VAVE wiring unverified. |
+| Expression range / recall / coverage | Calibration0–100 is not independent endpoint assignment. Analog startup recall unknown; MIDI Initial Value explicitly excludes local pedals. Global role does not certify bypass,headphone,tail orrecorded-loop attenuation. |
+| Controls | **5 rotary /4 footswitches /6 buttons**, manufacturer specification. |
+| Dimensions / mass | **254 W×160.3 D×66 H mm;1.56kg**; exceeds preference. Drawing text also contains63.6/69.9mm height references, not visually resolved; specification retained. |
+| Display | **480×272 color LCD**; published diagonal andtouch status unknown. |
+| Simultaneous processing | **Four effect slots**, plus preset gate/EQ/levels. About80%CPU triggers bypass; bypassed blocks still consume CPU. Historical Pitch/Reverb/RingMod/Synth maximumtwo instances each; most other categories four, within total-slot/CPU limits. |
+| Categories / choices | Historical v1.06 **24 categories**, complete count table below; later IRPlayer separate. Current website advertises400+effects,69drive/78reverb/16compressor/128+delay-family choices. Different publication revisions; not full4.04 census. |
+| Preset / user memory | **104 writable slots**,26banks×4; factory tones share these locations, not extra protected storage. V–Z blank in old overview; U andcomplete initial-fill count unresolved. |
+| Synth / acoustic | Historical three-voice monophonic synth. BankS bass presets/acoustic template; IRPlayer supports acoustic body resonance, not proof of nativeNAM oramp capture. Exact acoustic-simulator algorithms/current tracking limits remain qualified. |
+| Audio I/O / headphones | Two unbalanced quarter-inch inputs,1MΩ before impedance settings,+20dBu maximum;two unbalanced outputs,600Ω,+16dBu maximum. RCA coax S/PDIF in/out48kHzPCM. No dedicated phones in complete inventory; shared headphone mode unverified. |
+| Control / USB ports | Two quarter-inchTRS pedal sockets;3.5mmTRS TypeA MIDIin/out,configurable merge,no dedicatedThru;USB2.0TypeC audio/MIDI. |
+| USB audio conflict | Manual says2×2 andspec2-in/2-out butdiagram labels1–4 each direction. Firmware4.01 explicitly addsUSB3/4dry-record suppression. Recording3/4 documented;actual stream enumeration/playback count untested. Fixed48kHz;no silent conflict resolution. |
+| Power | **9VDC1.3A,2.1mm center-negative**;internal batteryNone. USB-powered operation unknown. |
+| IR / NAM / capture | Firmware3: **256storedIRs,oneIRPlayer/preset,mixuptotwo**;parallelstereo orserialmono. ManageCabs/Fractal-Bot. Exactformats/lengthlimits unknown;nativeNAM,convertedNAM andproprietaryampcapture unverified. |
+| Editor / platforms | VP4-EditMac/Windows1.01.12,2026-08-20;Windowsmainpackage10+64bit,separate32bitoption mentioned. Required currentUSBdriver11+x86/x64/ARM;editor minimum alone not supportedconnection proof. CurrentMaceditor minimum/Linux/mobile unknown;oldMac10.13audio requirement separate. |
+| Firmware / practical features | Downloads list4.04,2026-09-02;manualv1.06 predates it. **4scenes/preset,4channels/block**,subtype/settings variants not additional slots. Metronome4.0;drums/dedicated looper unverified. |
+| Routing / switching | Mono4CM requires matching global/preset settings; mismatch forcesbypass. Four slots can split0–4pre/remainderpost. Bufferedanalogbypass;conditionalspillover requires matchingblocktype/number/compatibleparameters. Gapless andtails are separate concepts. |
+| Onboard preset navigation | SceneMode hold1−1/hold4+1;PresetMode taps choose bank slots andholds1/4 changebanks. Globalcustomholds separate. |
+| Used IDR | No qualified exactShopeeoffer. Carousell1451552917 cachedRp12mnegotiable,Sepertibaru,Depok;unit/adapter/converter/box claimed,MIDI/USBcables missing. Sellerzaidanalla64732 versuscontainerx identityconflict;three-monthcache,directmiss;notcurrentstock orcondition-testedvalue. |
+| New / retail IDR | Verifiednew unknown;no exactShopeehardware. MelodiaRp14m,crossedRp20.7m,last-weekcache,directmiss;condition/stock/bundle/adapter/warranty/region/voucher/shipping/tax unknown. Seller’s15mnewclaim isnot independentpriceevidence. |
+<!-- comparison evidence ends -->
+
+### VP4 — partial discovery lead, outside active inventory
+
 
 Checked2026-10-28. [Current manufacturer page](https://www.fractalaudio.com/vp4/) establishes effects-only multi-effects: **four simultaneous effect slots,400+effect choices,104presets**,plus preset gate/EQ/levels. Firmware3 adds **IR Player**,including speaker/body-resonance uses;do not infer nativeNAM oramp captures. This differs from the older manual. ExactShopee Indonesia hardware remains unestablished;lead stays outside activecounts.
 

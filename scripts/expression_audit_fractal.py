@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(fractal): qualify VP4 category instances CPU and spillover'))
+    print(git('commit','-m','research(fractal): add partial VP4 guitar and bass comparisons'))
