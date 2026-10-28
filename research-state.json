@@ -124142,5 +124142,14 @@
     "footprint": "483W×102Dmm too wide",
     "onboard_preset_foot_down_up": false,
     "remaining": "Indirect volume scope/range/recall/bypass/tail/loop coverage;prior other gaps preserved."
+  },
+  "midiverb4_expression_screen_20261028": {
+    "source": "https://www.alesis.com/rscdn/982/documents/midiverb_iv_refmanual.pdf",
+    "identity": "Own69-page Reference Manual pp25–26,46,49–50 text inspected.",
+    "expression": "No analogEXP/headphone socket or built-in treadle in complete inventory;SPST momentaryswitch distinct from MIDIglobalX/Y fixed destinations.",
+    "switch_conflict": "Utility explicitly3 roles Advance/Bypass/Control;rear p49 describes only2. Preserve omission.",
+    "presets": "No onboard footswitches;externalAdvance127→00;decrement not documented.",
+    "footprint": "483W×178Dmm exceeds both limits",
+    "remaining": "Indirect volume scope/range/recall/bypass/tail/loop coverage andprior technical gaps."
   }
 }

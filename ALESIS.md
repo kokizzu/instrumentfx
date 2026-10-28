@@ -143,12 +143,13 @@ Documented guitar input remains valid;no onboard footswitches,hand VALUE/BANK se
 
 ## MIDIverb 4
 
+<!-- comparison evidence begins -->
 Dual-channel rack multi-effects,notMicroVerb4. Checked2026-10-17;partial,discontinued [MD-P].
 
 | Field | Evidence / qualification |
 |---|---|
 | Instrument scope |Instrument direct/mixer paths;guitar andvocal examples inown manual. No direct mic preamp inferred; bass unclassified [MD-M pp.19–22,34] |
-| Expression | No built-in pedal/toe;continuous external EXP unverified. Momentary footswitch accepts normally-open/closed;assignable bypass/advance/control. MIDI X/Y sources select pitch bend,aftertouch,note,velocity orCC000–119 with−99 to+99 amounts;fixed destinations and exclusions detailed below [MD-M pp.34,49,60–61,68] |
+| Expression | No built-in pedal/toe;no analog EXP in complete own connector inventory. Momentary footswitch accepts normally-open/closed;assignable bypass/advance/control. MIDI X/Y sources select pitch bend,aftertouch,note,velocity orCC000–119 with−99 to+99 amounts;fixed destinations and exclusions detailed below [MD-M pp.34,49,60–61,68] |
 | Knobs / footswitches / buttons |**1/0/10**:VALUE;PROG,EDIT/PAGE,UTIL,STORE,INPUT,OUTPUT,A/NAME,B/ESC,C/left,D/right. Power switch separate;text-derived [MD-M p.67] |
 | Display |Custom LCD;**2005 catalogue explicitly backlit**,with signal monitors. Diagonal,color/touch unresolved [MD-M p.67];[Own catalogue p49](https://device.report/m/aaec17b5c58b84afd384358662a1749e3c80fa1beece85dd7d680fa09dcda1fd.pdf) |
 | Processing / categories | **32 configurations:15 Single+3 Double+7 Dual Mono+7 Multi Chain;up to3 simultaneous effects**. To choose a configuration,copy an existing preset using it;factory096–127 covers all32. Fixed alternatives,not arbitrary block routing. Complete named census below [MD-P,MD-M pp.27–29,39,61] |
@@ -265,6 +266,14 @@ Checked 2026-10-18 against the [original manufacturer manual, pp43–46,57–59]
 | Condition-unverified category ask | **Rp3.700.000** | [Exact hardware item](https://shopee.co.id/Efek-Vocal-Alesis-Midiverb-4-Ori-Malaysia-Full-Ori-i.230530551.29571902985),shop230530551/item29571902985; seller name unknown,Kab.Sukoharjo. Checked2026-10-18: two-month cached [category](https://shopee.co.id/search?keyword=harga+efek+alesis+original) links the exact MIDIverb4 title; search agrees on amount. Direct base and category variant URLs failed; exact-ID searches returned no result. Category links display_model_id223643059602,selected variant unverified. Condition,new/used,working state,stock,adapter/bundle,warranty,shipping/tax,voucher anddelivered total unknown. Malaysia/original wording is a seller claim,not an established revision or authenticity finding. Cached ask,not live stock or a completed sale. |
 
 The separate used-title item1186125751/27025664286 still does not name a generation; its Rp2.600.000 is not assigned to MIDIverb4. No qualified new-condition offer was established by this search.
+
+<!-- comparison evidence ends -->
+
+### MIDIverb 4 — direct-expression screening (2026-10-28)
+
+Own69-page [manufacturer Reference Manual](https://www.alesis.com/rscdn/982/documents/midiverb_iv_refmanual.pdf),pp25–26,46,49–50: complete connector inventory has no analog EXP or headphone socket;no built-in treadle. Pedal input is a momentary SPST switch,not continuous expression. **Fails the direct analog volume path**. MIDI global X/Y sources retain configuration-fixed destinations;they are not global volume assignment. Analog range/recall N/A;indirect volume/bypass/tail/loop coverage unknown.
+
+Utility pp25–26,46 document three switch roles:Advance,Bypass,Control(tap/Lezlie speed). Rear-description p49 abbreviates this to two roles;preserve that omission rather than reject the explicit Utility Control mode. External Advance wraps127→00;no onboard footswitch or documented external decrement. Normal guitar input is documented;483W×178Dmm body exceeds preferred limits. No headphone drive inferred from outputs. Prior DryDefeat/bypass qualifications remain valid. Text-only review;no downloads or device test.
 
 ## MIDIverb III
 
