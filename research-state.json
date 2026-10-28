@@ -124171,5 +124171,20 @@
     "footprint": "19W×7D inches=482.6×177.8mm too wide/deep.",
     "presets": "No onboard footswitch;handVALUE/keypad;3digits within4seconds.",
     "remaining": "Indirect volume/range/recall/bypass/tail/loop coverage andprior technical gaps."
+  },
+  "mini_pitch_scope_20261028": {
+    "source": "https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf",
+    "identity": "MiniV2.2 54PDFpages printed30 direct original text.",
+    "pitch_shift": "Polyphonic;Pitch−24…+24semitones;Position/Volume/Dry0–100.",
+    "classic_ps": "Monophonic Whammy-like;Range/Position/Mix0–100;Range not semitone unit.",
+    "sweller": "Automaticswell Attack0–100,Line/Exp/Log;not global volume assignment orrecall.",
+    "global_volume": "Still unverified;effectPosition/Volume not allpreset override.",
+    "shopee_lead": {
+      "url": "https://shopee.co.id/guitarsecond",
+      "indexed_ask": 3630000,
+      "cache": "4months indexed;direct2monthJSshell omits product",
+      "qualification": "No exact item/shop IDs orcondition declaration;not adopted asqualified used/new price,stock orselleridentity proof."
+    },
+    "downloads": false
   }
 }
