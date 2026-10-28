@@ -127349,5 +127349,18 @@
     },
     "qualification": "Condition,bundle,livecheckout andseller authentication unknown;cached state conflict notprice trend. No specification transferred from original MS-70CDR.",
     "next": "Find condition-qualified in-stock hardware;preserve independent GT-Pro and expression-volume cursors"
+  },
+  "ampero_ii_stomp_controller_faq_20261028": {
+    "source": "https://www.hotone.com/support/6",
+    "model": "MP-300 Ampero II Stomp",
+    "resistance": "Maximum10kΩ TRS expression potentiometer",
+    "toe": "Manufacturer explicitly excludes expression-pedal on/off switch for module on/off",
+    "revision": "FAQ undated;not complete current firmware feature matrix",
+    "remaining": [
+      "M-VAVE exact pinout/taper",
+      "global volume assignment",
+      "attenuation coverage"
+    ],
+    "next": "Mini/Nano global volume remains unresolved;continue current exact-model documentation and Shopee hardware discovery;GT-Pro cursor preserved"
   }
 }

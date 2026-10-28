@@ -583,7 +583,7 @@ Reviewed **2026-10-15**. Guitar/bass multi-effects; **medium**, no built-in expr
 
 | Required field | Established value or qualification |
 |---|---|
-| Expression | No built-in pedal; **one 6.35 mm TRS EXP/CTRL input**. EXP1/2 are two switchable assignments for one pedal, not two physical expression sockets [M,P] |
+| Expression | No built-in pedal; **one 6.35 mm TRS EXP/CTRL input**. EXP1/2 are two switchable assignments for one pedal, not two physical expression sockets [M,P] Manufacturer FAQ specifiesTRS pot≤10kΩ;expression-pedal toe on/off cannot switch modules,asqualified below. |
 | Knobs / footswitches / buttons | **5 / 3 / 1**: volume, MENU/VALUE, three quick-access knobs; three assignable footswitches; screen-lock button. Power switch separate; encoder pushes counted once. Verified through the manufacturer's numbered manual text, not a successfully rendered panel photograph [M] |
 | Dimensions / weight | **185 W × 145 D × 58 H mm; 1050 g**. Medium: depth exceeds the 140 mm compact limit by 5 mm. Plug clearance additional [P] |
 | Display | **4-inch, 800×480, color touchscreen** [P] |
@@ -638,6 +638,13 @@ Anniversary/limited finishes, voucher-dependent offers and sold-out listings are
 
 Remaining: current category subtotals, current factory-filled memory, exact synth/acoustic algorithms, USB power/host-rate details and condition-specific current offers. **Next Shopee-first model: Line 6 POD Go.**
 <!-- HOTONE-AMPERO-MP300 source ends -->
+
+
+### Ampero II Stomp — manufacturer controller resistance and toe-switch limit
+
+Checked2026-10-28 against [Hotone’s actual manufacturer FAQ](https://www.hotone.com/support/6),question specifically titled for **Ampero II Stomp**,not Mini orStage. It specifies a6.35mmTRS expression controller with **maximum10kΩ potentiometer**,or a momentary footswitch. Hotone recommends Soul Press,Soul Press II andAmpero Press,but explicitly says the expression pedals’ on/off switches cannot switch the processor’s modules on/off. This resolves that documented toe-switch function limit;it does not prove an arbitrary M-VAVE controller’s pinout,taper orcompatibility. Mini’s separately sourced10–25kΩ specification must not be copied here.
+
+The FAQ carries no firmware/revision date andits adjacent footswitch-MIDI statement anticipates future updates;do not treat it as a complete firmware2.5.0 change log. Resistance/cabling guidance is manufacturer evidence,not a hardware test. Across-preset global volume assignment,signal placement/range precedence andbypass/headphone/tail/recorded-loop attenuation remain unverified. No file downloaded ordevice operated.
 
 ### Ampero II Stomp MP-300 — supporting comparison provenance
 
