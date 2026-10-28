@@ -124395,6 +124395,27 @@
     "source": "https://thirdmanrecords.com/blogs/news/third-man-hardware-and-donner-release-the-triple-threat",
     "finding": "Module toggles and buffered bypass manufacturer confirmed; not preset down/up evidence. Module VOL/LEVEL not global output assignment.",
     "boundary": "External EXP/headphones/complete connector inventory unknown. Official PDF endpoints failed; generated mirror diagram paragraph excluded. Provisional dimensions retain axes qualification. No download/device test.",
-    "next": "Recover original connector diagram before No claims; continue remaining compact no-treadle inventory; general GT-Pro cursor unchanged."
+    "next": "Recover original connector diagram before No claims; continue remaining compact no-treadle inventory; general GT-Pro cursor unchanged.",
+    "mirror_pdf_followup": {
+      "url": "https://manuals.plus/m/db7410b48c993c1e6d073b4b15c9a03eedc23e66bdc640daa6d30aaa9f0897a1.pdf",
+      "result": "Cache miss; original connector questions remain unknown."
+    }
+  },
+  "keeley_delay_expression_screen_20261028": {
+    "source": "https://robertkeeley.com/product/delay-workstation/",
+    "finding": "Manufacturer explicitly expression on Reverb side, tap on Delay side. Added qualified row, no global final-output or preset-navigation proof.",
+    "unknown": [
+      "target",
+      "wiring",
+      "range",
+      "position",
+      "recall",
+      "bypass",
+      "headphones",
+      "tail/looper attenuation",
+      "dimensions"
+    ],
+    "boundary": "No sibling Mod/Super Mod specifications transferred; no download/device test.",
+    "next": "Continue compact multi-effects inventory and original-manual recovery; general GT-Pro cursor retained."
   }
 }

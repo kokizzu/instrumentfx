@@ -2181,3 +2181,7 @@ expression-audit-commit-ammoon:
 .PHONY: expression-audit-commit-donner
 expression-audit-commit-donner:
 	python3 scripts/expression_audit_donner.py commit
+
+.PHONY: expression-audit-commit-keeley
+expression-audit-commit-keeley:
+	python3 scripts/expression_audit_keeley.py commit

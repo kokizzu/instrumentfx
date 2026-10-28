@@ -57,3 +57,9 @@ The manufacturer lists 14 named descriptions while advertising two eight-choice 
 
 [KDW-P]: https://robertkeeley.com/product/delay-workstation/
 [KDW-O]: https://shopee.co.id/KEELEY-DELAY-WORKSTATION-DELAY-DAN-REVERB-PEDAL-GITAR-i.113576870.19358013800
+
+### Delay Workstation — qualified expression-volume screen
+
+Checked 2026-10-28 against [own manufacturer archive][KDW-P]. External expression is explicitly confined to the **Reverb side**, while onboard tap belongs to Delay. This does not establish control of final output volume or either bank's dry path. Exact target, controller wiring, endpoints, position, recall and all-preset assignment remain **unverified**; two effect banks are not proof of saved preset navigation. Headphones and chassis fit remain unknown because no complete primary connector/specification record was recovered.
+
+Added as a qualified existing-model capability row, not a fully verified match. Super Mod/Mod Workstation size, power and expression examples are not transferred. No local download, software or hardware operation. Historical exact Shopee offer retains its condition/stock qualifications.
