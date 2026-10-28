@@ -119,6 +119,15 @@ Remaining:exact feature transition dates,complete category census and remaining1
 
 Manufacturer manuscript identity/revision established above;no downloads. Current offer/Level/firmware remains unverified;all earlier sources preserved.
 
+### PROFILER Player — manufacturer-confirmed global volume lock, 2026-10-28
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / global settings lock | [Kemper Support #1,identified as Kemper GmbH,Player-specific reply2024-03-24](https://forum.kemper-amps.com/forum/thread/63242-player-volume-pedal-location/) explicitly confirms using **Volume Pedal Lock** to make volume-pedal settings global rather than saving locations individually per Rig. This is manufacturer support evidence for a global settings path,not merely calibration or held-position recall. It resolves the prior missing lock documentation;exact OS/RigManager versions and current UI operation unverified. |
+| Expression / setup qualification | Combine the manual’s globally assigned dedicated **Volume Pedal** function with the supported lock for consistent Rig settings. The default WahPedal→Volume link remains conditional and isnot a guarantee of volume while wah isactive. Lock doesnot byitself prove final-output mute,headphone/bypass coverage orrecorded-loop attenuation. Earlier range/placement evidence retained. |
+
+The earlier OS14.2 review’s unverified-lock statement is historical;this added manufacturer reply isPlayer-specific and doesnot borrow a larger PROFILER manual. Generic effect-module locking is a separate question. No settings changed orhardware tested;145W×166Dmm still exceeds preferred depth.
+
 ## PROFILER PowerHead MK2
 
 Partial record checked **2026-10-17**. Exact manufacturer SKU18300000 and Shopee MK2 title; distinct from unpowered Head,PowerRack and Remote bundles.
