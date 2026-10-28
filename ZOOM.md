@@ -2552,6 +2552,12 @@ Rp10,000late-delivery compensation isnot anupfrontdiscount. No sellercontact ord
 
 Checked2026-10-19 against [official HTML manual][ZOOM-G2-FOUR-M], Using a pedal, Memory Screen and Specifications. **The external FP02M controls a pedal effect selected inside the patch memory**; no global volume-target override established. Global master-volume retention is separate. Pedal-effect position/range, bypass, headphone attenuation and tail/looper coverage remain unverified. G2X FOUR toe/calibration instructions do not apply to G2 FOUR. Dedicated3.5mm PHONES and onboard lower/higher patch selection via foot-operable direction buttons are documented. Existing184×145mm chassis exceeds preferred depth by5mm. Preserve all older price/bundle/voucher qualifications; no stock refresh or hardware test.
 
+### G2 FOUR — two volume-pedal types and range qualification
+
+Checked 2026-10-28 against the [manufacturer Effect Types and Parameters list](https://zoomcorp.com/media/documents/E_G2FOUR_EffectsList.pdf), copyright 2024, printed p29. **OUTPUT VOLUME PEDAL** controls product output level and retains its volume across patch changes; its row exposes no adjustable parameters. Separately, **PEDAL VOLUME** provides VOL, MIN and MAX each **0–100**, plus **A/B curve**. These are distinct entries, not one globally adjustable endpoint setting.
+
+The [operation manual][ZOOM-G2-FOUR-M], Using a pedal, still describes selecting the pedal-category effect inside a patch. Output-level retention does not prove that OUTPUT VOLUME PEDAL remains assigned in every destination patch, including patches selecting wah or pitch. Global assignment, exact signal position, bypass, headphone, tails and recorded-loop attenuation remain unverified. This supplements the earlier range-unknown observation for PEDAL VOLUME only; it does not establish the output-pedal range or recall response. No downloads or hardware test; existing size and dated Shopee qualifications remain.
+
 ## G2.1Nu
 
 Distinct guitar multi-effects model, not G2.1u or G2Nu. Manufacturer identity: [own support page][ZNU-S]. Checked2026-10-18; partial. Ownership and bass/vocal suitability unverified.

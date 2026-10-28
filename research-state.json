@@ -124276,5 +124276,13 @@
       "verification": "Official Version 2.60 Spring Cleaning Update Bug Fixes explicitly scopes both Global EXP application failure and Global behaving as Per Preset to HX Effects only.",
       "boundary": "Position behavior does not establish global Volume/Pan insertion, target or range; no device test or firmware download."
     }
+  },
+  "g2four_volume_types_20261028": {
+    "source": "https://zoomcorp.com/media/documents/E_G2FOUR_EffectsList.pdf",
+    "revision": "Copyright 2024, printed p29",
+    "finding": "OUTPUT VOLUME PEDAL retains product output level across patch changes; no parameters listed. Separate PEDAL VOLUME has VOL/MIN/MAX 0–100 and curve A/B.",
+    "boundary": "Retained level is not universal assignment. Operation manual selects pedal effect per patch; all-preset override, exact position, output-pedal range, bypass/headphones/tails/recorded loops unresolved.",
+    "hardware_test": false,
+    "next": "Trace Output Volume Pedal selection and destination-patch behavior before promoting scope; general GT-Pro cursor unchanged."
   }
 }
