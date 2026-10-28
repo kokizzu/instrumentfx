@@ -71,6 +71,21 @@ Checked 2026-10-28 against [original Rev J manual reproduction, pp1–4/25/28/31
 
 Rev N applicability and axis-labelled size remain unverified. Text evidence only; no power cycling,rewiring,download,firmware operation or hardware test.
 
+### Algorithm census by revision and recovered primary reference
+
+Checked 2026-10-28: [manufacturer-authored Japanese reference, Rev C, December2024](https://storage.mixwave.co.jp/files/pro_audio/manual/gfi/SV-Algorithms-Reference-jp.pdf),27PDFpages, exact Solis Ventus title. Opening contents table read directly.
+
+| Rev C category | Count | Entries |
+|---|---:|---|
+| Delay | 15 | Analog, Tape, Digital, LoFi, Modulated, Filter, 3-Heads, Ping-Pong, Android, Ambiental, Dual(Digital-Digital), Dual(Digital-Analog), Dual(Digital-Pitch), Diffuse, Reverse |
+| Reverb | 9 | Aether, Chamber, Spring, Plate, Spatium, Shimmer, Marble, Modulated, Tremble |
+
+These are historical named entries, not current16/11 reconciliation, subtype totals or simultaneous capacity. Page numbers/ranges are not extra algorithms.
+
+The [manufacturer Algorithm FAQ](https://gfisystem.com/blog/solis-ventus-algorithm-faq) explains that Shimmer merges earlier Shimmer/Anti-shimmer; Diffusive consolidates six hybrid variations. Three parallel variants use Spatium alongside delay; three series variants reverberate only delay tails, leaving dry audio outside that reverb. These are variations, not six additional selectable slots. Spectral maps to Modulated and MultiTap3 to Triple Heads; MultiTap4 and Formant did not carry over from Specular Tempus. Model names/menus must not be copied between units.
+
+FAQ’s original link establishes the [manufacturer Rev D asset](https://github.com/gfisystem/downloads/releases/download/solis-ventus-newest/solis-ventus-algorithm-reference-rev-d.pdf). Web reader failed on its expired signed redirect; body remains unread, not a local download. Release-page reader also missed cache. This is a primary-hosting lead, not successful Rev D inspection or current-library verification. No software or GitHub Actions used.
+
 ## Synesthesia
 
 Checked 2026-10-28; **partial active guitar multi-effects record**, not fully verified. Dual-engine filtering, octave, EQ, echo and modulation plus explicit guitar-pickup guidance establish eligibility; no specialized pickup required by the inspected instructions. Bass/vocal suitability and ownership unverified. Earlier discovery wording below is retained as dated research history; this summary governs current admission.

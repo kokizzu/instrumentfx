@@ -25209,6 +25209,20 @@
         "power": "9VDC>340mAcapacity,2.1mminnerdiametercentre-negative;separate<350mAdrawclaim",
         "startup": "Slowrampbootissue;manualspecificallynamesVoodooLabPedalPowerX8;othersamebrandunitsonlyspeculative;manufacturerworkaroundpowerfirstorreconnectDC,nottestperformed",
         "remaining": "RevNcurrentapplicability,axislabelledsize,mass,fullI/O/headphonesandalgorithmcensus"
+      },
+      "algorithm_followup": {
+        "checked_date": "2026-10-28",
+        "rev_c_source": "https://storage.mixwave.co.jp/files/pro_audio/manual/gfi/SV-Algorithms-Reference-jp.pdf",
+        "identity": "OriginalexactmodelRevCDec2024Japanese27pagePDF,openingcontentsread",
+        "counts": {
+          "delay": 15,
+          "reverb": 9
+        },
+        "qualification": "Historicalnamedentriesnotcurrent16/11reconciliation",
+        "faq": "https://gfisystem.com/blog/solis-ventus-algorithm-faq",
+        "finding": "MergedShimmer/Anti-shimmerandDiffusivesixhybridvariations,notextraslots;Spectral->Modulated,MultiTap3->TripleHeads,MultiTap4/Formantnotcarriedover",
+        "rev_d_asset": "https://github.com/gfisystem/downloads/releases/download/solis-ventus-newest/solis-ventus-algorithm-reference-rev-d.pdf",
+        "rev_d_access": "Expiredsignedredirectwebfailure;releasepagecachemiss;notdownloaded/bodyunread"
       }
     }
   ],
