@@ -844,6 +844,17 @@ Own [firmwareV2.2 manufacturer manual,printedp30](https://res.hotoneaudio.com/pr
 
 Patch VOLUME enable/global-override uncertainty remains unchanged. FreshShopee search found a four-month indexed GuitarSecondStore homepage teaser atRp3,630,000,but no exact item/shop IDs orcondition declaration;the name alone is not used-condition proof. [Store lead](https://shopee.co.id/guitarsecond) directbody isJS-limited andomits the product. Keep it as an unresolved lead,not a qualified price orstock update. No files downloaded orsoftware/devices operated.
 
+### Ampero Mini — exact Malang and white-unit Shopee asks
+
+Checked 2026-10-28. These are separate hardware-title observations, not a verified new/used range or current-stock guarantee.
+
+| Condition | Exact offer and access qualification |
+|---|---|
+| Unverified | **Rp3.500.000**, [Koko DC Musik Shop, seller4074307/item4761850216](https://shopee.co.id/hotone-ampero-mini-i.4074307.4761850216), Kab. Malang. Direct reader exposes a two-month cache and exact Ampero Mini title. No Habis displayed; stale24–27August delivery is not stock confirmation. Color,selected variation,condition,working state,adapter/bundle,warranty,authenticity,shipping/tax,voucher andcheckout total unknown. |
+| Unverified | **Rp4.199.000; Habis**, [Major Seven, seller37428558/item28272464923](https://shopee.co.id/M7-HOTONE-Ampero-Mini-White-Amp-Pedal-Modelling-Digital-Multi-Effects-Guitar-Pedal-i.37428558.28272464923), Kab. Bandung. Five-month indexed cache; direct item cache miss. Title explicitly says White; exact revision,condition,working state,selected variant,adapter/bundle,warranty,shipping/tax,voucher andcheckout total unknown. Layanan Tidak Tersedia is not current delivery evidence. |
+
+Late-arrival compensation up toRp10.000 is not a purchase discount. No used condition is inferred from price, seller name or photographs. Existing Purple Taro/Macha/Marigold bundles and PRELOVED sold-out observation retain their own dates and qualifications. This market evidence does not resolve global expression-volume scope.
+
 ## Ampero MP-100
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
