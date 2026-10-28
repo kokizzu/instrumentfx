@@ -124390,5 +124390,11 @@
     "finding": "Complete manufacturer-authored panel inventory no EXP; dedicated3.5mm phones and physical VOL. No onboard preset footswitches. Both conflicting footprints fit.",
     "boundary": "Mirror revision unprinted; physical VOL not external assignment. Direct EXP range/position/recall N/A; headphone/bypass/tail/drum/looper attenuation unknown. No offer refresh/download/device test.",
     "next": "Review remaining compact no-treadle inventory, including Donner Triple Threat; retain independent GT-Pro cursor."
+  },
+  "triplethreat_expression_screen_20261028": {
+    "source": "https://thirdmanrecords.com/blogs/news/third-man-hardware-and-donner-release-the-triple-threat",
+    "finding": "Module toggles and buffered bypass manufacturer confirmed; not preset down/up evidence. Module VOL/LEVEL not global output assignment.",
+    "boundary": "External EXP/headphones/complete connector inventory unknown. Official PDF endpoints failed; generated mirror diagram paragraph excluded. Provisional dimensions retain axes qualification. No download/device test.",
+    "next": "Recover original connector diagram before No claims; continue remaining compact no-treadle inventory; general GT-Pro cursor unchanged."
   }
 }

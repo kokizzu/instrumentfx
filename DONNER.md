@@ -244,6 +244,12 @@ Checked **2026-10-17**. Partial guitar multi-effects record; bass/vocal suitabil
 
 Checked2026-10-17: [Donner Mexico’s exact product page](https://mx.donnermusic.com/products/donner-triple-threat-pedal-de-efectos-para-guitarra) links a second [official-storage manual](https://storage.donnermusic.com/official-user/202403/Donner_Triple_Threat_Manual.pdf). The web reader rejected application/octet-stream; contents and revision were not inspected. This is a source-access lead, not connector confirmation or evidence that the manual matches the Rev01 transcription byte-for-byte. The page’s customer bass-use review and unrelated Alpha BASS review are excluded from instrument eligibility and I/O evidence. No download attempted.
 
+### Triple Threat — qualified no-treadle capability screen
+
+Checked 2026-10-28: [Third Man Hardware original launch](https://thirdmanrecords.com/blogs/news/third-man-hardware-and-donner-release-the-triple-threat) confirms three effects in order, nine knobs and footswitches that toggle effects, with buffered bypass. These are documented **module switches, not a verified preset down/up pair**. A physical VOL on distortion and separate effect LEVEL controls do not establish global output-volume assignment. No treadle is described; external expression, dedicated headphones and complete connector inventory remain **unverified**.
+
+Both official-storage manual endpoints failed again (Shopify inaccessible; Donner storage unsupported octet-stream). The mirror now labels its connector paragraph a generated diagram description; that paragraph is excluded from connector proof. Preserve provisional Rev01 textual specifications,196×64×45mm with axes unlabelled, and original-manual access limitations. Rectangle appears within preference, but width/depth orientation remains qualified. Global scope,position,range,recall,bypass/headphone/tail coverage remain unknown. Existing active multi-effects record,not a newly verified model;no download or device test.
+
 ## Unresolved Donner discovery
 
 ### Alpha FX source-recovery lead
