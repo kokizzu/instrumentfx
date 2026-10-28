@@ -150,6 +150,21 @@ Checked 2026-10-28. The [joint manufacturer FAQ](https://kb.line6.com/pod-expres
 
 The separate [manufacturer I/O specification](https://kb.line6.com/pod-express-input-and-output-specs), also explicitly including Black, instead describes approximately **2 Ω output impedance**, designed for **12.8 Ω to about 2 kΩ** headphones. These load ranges differ; neither page supplies a revision that establishes precedence. Preserve both rather than merging them into one certified compatibility range. Headphone power and impedance ratings do not establish expression-volume attenuation, bypass/tail/looper coverage, or chassis dimensions. Black remains a partial lead outside active counts.
 
+### Black — named effects census and modulation-sync behavior
+
+Checked 2026-10-28. Indexed original [manufacturer RevE/2.00 manual,printedp26](https://line6.com/data/6/0a00051a59316717d96603e6a/application/pdf/POD%20Express%20Owner%27s%20Manual%20-%20English%20.pdf) and [manufacturer-authored reproduction](https://manualzz.com/doc/81729734/line-6-pod-express---black-owner-s-manual). Exact Guitar/Black/Bass title,2.00 andBlack-specific tables match;host summaries not used. Official fullPDF remains over reader size limit.
+
+| Category | Black choices / boundary |
+|---|---|
+| Distortion4 | OPAMP, LED, DIST, FUZZ; mono. |
+| Boost4 | COMP, MIDS, DIRTY, CLEAN; mono. COMP is the AshlyCLX-52-based model,not four concurrent compressors. |
+| Modulation4 | CHORUS, FLANGER, PHASER, TREMOLO; stereo. |
+| Delay2 / Reverb2 / Looper1 | DIGITAL,TAPE /AMBIENCE,HALL /LOOPER. Shared DELAY VERB selector;choices are not independent simultaneous blocks. |
+
+These sum to **17 named effect choices**, separate from7amps/7cabs andnoise gate. Black modulation defaults **not tempo-synced**;POD Express Edit can enable Sync/subdivisions. Changing models restores defaultSync;save a preset to retain customizedSync. Delay defaults quarter-note tap sync. No sibling default transferred.
+
+Numerical Black chassis/mass andexactShopee hardware remain unverified;retailer measurements not promoted toprimary evidence. Globalanalogassignment remains documented buttail/recorded-loop/output attenuation unresolved. Partial lead stays outside activecounts;no local download orhardware test.
+
 ## Floor POD Plus
 
 Guitar multi-effects;checked2026-10-17;partial. [Own Spanish manual][FPP-M],40-00-0116RevB,©2009,36pages,sections1,2,3,4. Not original FloorPOD. Bass direct-box use documented below;live-vocal suitability andownership unverified.

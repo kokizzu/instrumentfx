@@ -129143,5 +129143,49 @@
       "Analog recall/endpoints/outputcoverage"
     ],
     "next": "Resume no-treadle priorities and fresh Shopee discovery;independent GT-Pro generalcursor preserved."
+  },
+  "pod_black_effect_census_20261028": {
+    "checked": "2026-10-28",
+    "sources": [
+      "https://line6.com/data/6/0a00051a59316717d96603e6a/application/pdf/POD%20Express%20Owner%27s%20Manual%20-%20English%20.pdf",
+      "https://manualzz.com/doc/81729734/line-6-pod-express---black-owner-s-manual"
+    ],
+    "revision": "RevE/2.00",
+    "effects": {
+      "distortion": [
+        "OPAMP",
+        "LED",
+        "DIST",
+        "FUZZ"
+      ],
+      "boost": [
+        "COMP",
+        "MIDS",
+        "DIRTY",
+        "CLEAN"
+      ],
+      "modulation": [
+        "CHORUS",
+        "FLANGER",
+        "PHASER",
+        "TREMOLO"
+      ],
+      "delay": [
+        "DIGITAL",
+        "TAPE"
+      ],
+      "reverb": [
+        "AMBIENCE",
+        "HALL"
+      ],
+      "looper": 1
+    },
+    "total_named_effect_choices": 17,
+    "scope": "Not17simultaneousblocks;sharedDELAYVERBselector;amps/cabs/gateseparate",
+    "tempo": "Blackmodulationdefaultunsynced;editorcanenable;modelchangerestoresdefaults;savecustomsync",
+    "dimensions": "Stillprimaryunknown;no siblingtransfer",
+    "active": false,
+    "next": "ExactBlackamp/cabmenu,remainingprofile andqualifiedShopee;manufacturerchassissource",
+    "downloads": false
   }
 }
