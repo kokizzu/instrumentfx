@@ -247,6 +247,12 @@ Checked2026-10-18 against [eng04_W manual pp7–8,10–12][AD10-PDF]. No hardwar
 | I/O / fixed output levels | XLRlevel andheadphonelevel eachselect **fixed0–99 orfollowOUTPUT LEVEL knob**. Thesearecontrolvalues,notdBu. They areseparatefromloopplaybacklevel andUSBinput/outputlevels. |
 | Power / automatic shutdown | FactoryAutoOff shutsdownafter **10hours withoutplaying/operation**; disableoptionavailable. This doesnot resolve looppersistence afterpowerloss or replace thesix-houralkalineestimate. |
 
+### AD-10 — system expression-volume screening (2026-10-28)
+
+[Own eng04_W manual][AD10-PDF], printed pp11–12, places pedal-function assignment under System Settings: **EF→ov (OUTPUT LEVEL)**, alternatively AN (ambience) or LP (loop). This establishes a shared assignment, distinct from per-memory stomp-effect settings. Exact volume endpoints/location and held-position recall remain unverified. PHONES/XLR fixed-versus-follow-output settings and output routing remain separate coverage qualifications; no blanket bypass/tail/recorded-loop attenuation claim.
+
+Own p5 confirms foot memory browsing both directions in Memory mode. L/PHONES is a **shared** output, not a separate headphone socket. Acoustic piezo/magnetic pickup blending is documented; ordinary electric-guitar tonal suitability remains unverified. Existing217W×161Dmm exceeds both preferred limits. Controller pinout/resistance remains unverified; no hardware test.
+
 ## GM-800
 
 Consolidated and refreshed **2026-10-16**; partial verification. This processor qualifies through independent MFX architecture; it requires specialized input hardware for guitar/bass playing. No excluded specialist model is added.

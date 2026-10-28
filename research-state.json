@@ -123678,5 +123678,17 @@
       "sequential foot navigation"
     ],
     "hardware_test": false
+  },
+  "ad10_expression_screen_20261028": {
+    "source": "https://static.roland.com/assets/media/pdf/AD-10_eng04_W.pdf",
+    "classification": "System EF ov Output Level assignment",
+    "instrument": "acoustic pickup documented; ordinary electric tonal suitability unverified",
+    "remaining": [
+      "location/endpoints/recall",
+      "pinout/resistance",
+      "headphone/XLR fixed/follow coverage",
+      "bypass/tails/recorded-loop attenuation"
+    ],
+    "hardware_test": false
   }
 }
