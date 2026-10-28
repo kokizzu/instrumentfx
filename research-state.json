@@ -123862,5 +123862,14 @@
       "attenuation coverage"
     ],
     "hardware_test": false
+  },
+  "tankpro_expression_revision_20261028": {
+    "source": "https://device.report/m/3544d1e57e0069ad2be035b67327d578bba8627e5ef3f4374741e51704264f55.pdf",
+    "revision": "2026-06-12",
+    "volume_algorithm": "Exp_Vol/Exp_Pan in FX1/FX2",
+    "remaining": [
+      "39/70page content identity",
+      "newer PT/IP1/IP2 scope"
+    ]
   }
 }
