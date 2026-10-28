@@ -358,3 +358,5 @@ HX Stomp XL loop boundary,2026-10-28: [own3.80 RevD manual,pp41–42](https://de
 Nano Cortex [dated LEVEL-menu reports](NEURAL-DSP.md#nano-cortex--external-expression-level-menu-discrepancy-reports): February/May2026 users report a missing target;no staff answer orfirmware/app version established. Official2.2.0 manual still lists LEVEL. This corroborates a documentation/UI question,not confirmed removal;global volume remains unverified.
 
 Ampero Mini [effect-bypass trail boundary](HOTONE.md#ampero-mini--effect-bypass-trails-versus-expression-coverage): V2.2 Trail controls do not establish preset-change spillover or expression attenuation of tails. Global assignment andfull output coverage remain unverified.
+
+M-VAVE controller [source-provenance check](M-VAVE.md#chocolate--wiring-source-provenance-and-unresolved-reports): a file called Chocolate manual is a user-tutorial export;the Resolved compatibility thread provides no successful wiring solution. Pinout andactual-controller compatibility remain unverified.

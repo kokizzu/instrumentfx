@@ -157,6 +157,12 @@ Checked 2026-10-19. [Original cbix protocol research README](https://github.com/
 
 The author reports configuration limitations involving the official app and unsuccessful BLE SysEx; these are historical observations about that setup, not proof of current transport behavior. No commands, SysEx, code or software from this repository were downloaded or run. Exact hardware/firmware revision, tip/ring/sleeve roles, resistance, analog output direction, continuous CC endpoints and simultaneous USB/BLE routing remain unverified. Current official Chocolate product reopening returned only the site shell; earlier manufacturer observations stay preserved without recertification. This lead supplies no new processor-model admission or direct analog volume qualification.
 
+### Chocolate — wiring-source provenance and unresolved reports
+
+Checked **2026-10-28**. The search hit named [m-vave-chocolate-manual.pdf](https://images.equipboard.com/uploads/item/manual/117746/m-vave-chocolate-manual.pdf) is an exported [MOD Audio user tutorial](https://forum.mod.audio/t/midi-chocolate-controller-with-the-mod-dwarf-an-introduction/7003),not an original manufacturer manual. Its copied [document mirror](https://device.report/m/8d07f2d1b7dee1d56c93adc627022eda541e773bbfe75aa743c77007d8992716) does not improve authorship. Do not adopt it as certified pinout,resistance ortransport evidence.
+
+[Kemper-hosted compatibility discussion](https://forum.kemper-amps.com/forum/thread/63873-mvave-chocolate-trs-expression-pedal-howto-rack-or-player/) is marked Resolved,but the original poster says on2026-02-11 that they gave up. It contains user reports about DVP4/original Chocolate andlater Chocolate Plus,not a staff-approved wiring solution. No hardware/firmware identity orsuccessful sweep is established. This does not prove universal incompatibility. Actual tip/ring/sleeve roles,resistance,continuous CC mapping andsimultaneous transports remain unknown. MIDI controller routing still does not satisfy direct analog processor EXP. No software/PDF downloaded ordevice operated.
+
 ### Chocolate Plus — exact-title software guide and Shopee offer, 2026-10-28
 
 [Manufacturer-hosted Chocolate Plus Software Instructions](https://manualf.oss-cn-hongkong.aliyuncs.com/manual/CUBE-TURNER/Chocolate%20Plus-Software%20instructions.pdf),26-page bilingual document,title plus m-vave.com/CubeSuite links match Chocolate Plus. This is separate from the earlier FootCtrlPlus-linked PD41 guide;no dated revision or offered-hardware match established.

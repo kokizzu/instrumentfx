@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(soran): screen Tiny Stomp expression and hand navigation'))
+    print(git('commit','-m','research(mvave): qualify Chocolate wiring source provenance'))
