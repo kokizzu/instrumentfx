@@ -123551,5 +123551,17 @@
       "chassis dimensions"
     ],
     "hardware_test": false
+  },
+  "pg2_expression_screen_20261028": {
+    "source": "https://manualzz.com/doc/24271438/nux-pg-2-effects-processor-user-manual",
+    "identity": "PG-2 original manufacturer body, copyright2013 Cherub; no generated FAQ used",
+    "classification": "no analog EXP in complete documented connector inventory",
+    "remaining": [
+      "current official V1 equivalence",
+      "visual controls",
+      "MASTER bypass/tail/metronome coverage",
+      "dimension orientation"
+    ],
+    "hardware_test": false
   }
 }

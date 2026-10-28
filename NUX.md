@@ -1407,7 +1407,7 @@ Checked 2026-10-17; partial. Portable guitar multi-effects; ownership,bass/vocal
 
 | Field | Finding / qualification |
 |---|---|
-| Expression | Built-in/external/toe expression not established; handheld format alone is not proof of absence. |
+| Expression | Earlier absence was unverified. Complete own-manual transcription inventory now lists no analog EXP input: direct analog expression path fails on that documented inventory. Current V1 equivalence/visual confirmation remain unresolved; no inference from handheld shape. [Manual][PG2-T2] |
 | K/F/B | **Four rotary controls** with ALT pre-level/three-band EQ functions; footswitch and separate button totals pending corroboration. Slide selectors are separate. [Manual][PG2-T] |
 | Display | Backlit LCD;diagonal,color/touch unverified. [Manual][PG2-T] |
 | Processing / categories | Three amp choices Clean/Blues/Rock;three modulation Chorus/Flanger/Tremolo;ambience selects Delay/Room/Spring. Independent sections and combined factory settings establish multifx;maximum simultaneous blocks unverified. Noise gate documented. [Manual][PG2-T] |
@@ -1441,6 +1441,10 @@ Checked 2026-10-19 against the matching manufacturer-authored transcriptions [Sp
 | I/O / analog ratings | Nominal instrument input **1 MΩ**; AUX input **−10 dBu / 22 kΩ**. Headphone rating **125 mW + 125 mW into 32 Ω**, with the plus sign explicit in the first transcription; the second mirror corrupts that separator. Main-output maximum level/impedance and connector sizes remain unresolved. [Manual specifications][PG2-T]; [second transcription][PG2-T2] |
 | Live / tuner calibration | Chromatic/Guitar modes and flat tuning; published frequency span **27.5–4186.0 Hz**, reference **A4 435–445 Hz**. Lowest-note subscript is corrupted in the transcriptions and is not silently supplied. Select and up/down adjust the settings. [Manual][PG2-T] |
 | Live / metronome controls | SELECT with up/down sets rhythm style, beat and tempo; TAP supplies tempo, and up/down changes volume while the metronome runs. The rhythm icons are not legible enough to certify pattern count. [Original manual][PG2-T2] |
+
+### PG-2 — direct-expression screening (2026-10-28)
+
+The matching ©2013 Cherub/NUX PG-2 original-manual body lists instrument input, AUX IN, headphones, output and DC, with no EXP socket. It therefore does not supply the requested direct analog pedal path. PRESET-mode selection uses hand buttons; no documented footswitch interface. MASTER remains adjustable in PRESET mode, but that does not establish pedal control. Pedal position/range is inapplicable to this documented connector set; bypass, tail and metronome attenuation by MASTER remain unverified. Published 114L×82W×36D labels stay unchanged rather than silently treating D as height. Current official V1 equivalence and visual confirmation remain gaps. [Manufacturer-authored transcription, excluding generated FAQ][PG2-T2]
 
 <!-- comparison evidence ends -->
 
