@@ -496,6 +496,17 @@ Checked2026-10-18 against indexed manufacturer manualp5, [same exact V-AMP 3 PDF
 | Controls / secondary functions and LED resolution | HoldTAP whileturningTREBLE toadjustPresence,orAMPS toselectmodels17–32. SevenknobLEDrings eachuse nineLEDs withsingle/adjacentpairs toshow **17 positions**; thisdisplayresolution isnot17 algorithms or physicalrotaries. ExistingEFFECTS/EFFECTSSELECT labellingconflict remains. |
 | I/O / MIDI OUT role | InEDIT→MIDI, TAPchangesMIDIOUT toMIDITHRU. This isaselectableportfunction,not evidenceof asecondphysicaloutput or USBMIDI. Exactmessageforwarding/filteringbehavior remainsunverified. |
 
+### V-AMP 3 — direct expression screening, 2026-10-28
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / complete connector inventory | [Matched manufacturer manual reproduction](https://manualsfile.com/product/k51hyizquft.html),18pages,VIRTUAL AMPLIFICATION V-AMP3,Controls/Connectors pp5–7: **no analog EXP input**;TRS socket accepts FS112V switches. MIDI controller pedals use a separate digital route. Current original PDF inaccessible;matching numbered1–24 controls and existing manual structure checked,text only. |
+| Controls / MIDI volume distinction | Same manual’s MIDI chart receives **CC7 Volume Pedal**,separate **CC16 Amp Volume**. Cross-preset value persistence,position/endpoints,bypass/headphone/tail/loop coverage not established. MASTER’s headphone/main scope doesnot transfer to CC7. |
+| Controls / preset access | Onboard BANKup/down plus A–E hand buttons;**no onboard footswitches**. Optional FS112V scrolls presets;holdingDOWN invokes tuner. This isnot an included onboard down/up pair. |
+| Dimensions / preferred fit | Existing267W×180Dmm manual dimensions fail≤200W×140D;preliminary brochure axis conflict preserved. Dedicated6.35mmTRS headphones. DirectanalogEXP range/coverage N/A;MIDIcoverage unknown. |
+
+No hardware test or download;existing offers and other specifications retained. Fails requested direct analog path even though MIDI volume control exists.
+
 ## X V-AMP LX1-X
 
 Checked2026-10-18;partial guitar multi-effects. Bass/vocal suitability andownership unverified;no sibling specifications transferred.
