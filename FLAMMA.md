@@ -123,6 +123,12 @@ Remaining: visual controls,simultaneous/order,firmware library reconciliation,fa
 [FG2-I]: https://www.flamma.shop/pages/manual
 [FG2-D]: https://flammainnovation.com/download.html
 
+### FG200 — direct analog expression audit
+
+Checked **2026-10-28** against [manufacturer-hosted FG200 manual](https://flammainnovation.com/file/pdf?fileName=FG200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0E%2FwKgA0GgZqkmAJcBXABS9iszc5hA508.pdf),PDF title **FG200_Manual_EN_V02.05.06.cdr**,31pages. This is distinct fromthe preserved V01/2025-03-12 copy;the title doesnot establish aninstalled firmware version orcomplete calendar date. Own panel/connector inventorypp05–07 confirms no treadle oranalog EXP,ordinary instrument input anddedicated3.5mm stereo phones. **Fails the documented direct analog volume path**.
+
+Printedp12 describes A/B/C/D preset slots andA+B/C+D group navigation,then a singleswitch toload a slot;exact down/up pairing is not textually identified. Printedp16 explicitly excludes Bluetooth audio fromMASTER;its source-device level remains separate. No pedal range/position/recall applies tothis connector set;no headphone/bypass/tail/loop pedal-attenuation claim. Dimensions311×67.5×49.7mm retain unlabeled axes,so preferred W×Dfit stays unverified. Older firmware-library andcharging qualifications remain;no FB200 substitutions,downloads orhardware test.
+
 ## FV02 Doubling
 
 Checked **2026-10-17**; partial. Vocal chorus/doubling plus independently controlled reverb and tone processing. Included in vocal comparison only; guitar reverb is a supporting path, not guitar multi-effects. FV01 exclusion remains unchanged.

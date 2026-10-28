@@ -125243,5 +125243,20 @@
     "unknown": "Ordinary guitar suitability,axes,coverage; prior live mapping conflict retained",
     "next": "Screen FG200 exact model separately; continue remaining inventory and priority Mini/Nano/GP50/controller evidence",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "fg200_expression_v02_20261028": {
+    "checked": "2026-10-28",
+    "document": "FLAMMA.md#fg200--direct-analog-expression-audit",
+    "source": "https://flammainnovation.com/file/pdf?fileName=FG200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0E%2FwKgA0GgZqkmAJcBXABS9iszc5hA508.pdf",
+    "title": "FG200_Manual_EN_V02.05.06.cdr",
+    "pdf_pages": 31,
+    "revision_limit": "Distinct fromV01/2025-03-12;no installed firmware/date inferred",
+    "direct_exp": "No treadle/EXP in complete panel inventory",
+    "headphones": "Dedicated3.5mm stereo",
+    "navigation": "ABCDslots;AB/CDgroups;direction pairing unverified",
+    "coverage": "MASTER excludes Bluetooth playback,p16;pedal coverage no documented path",
+    "dimensions": "311×67.5×49.7mm axes unlabelled;fit unverified",
+    "next": "Reconcile V02 library against later firmware separately;continue remaining no-treadle inventory and priority scope questions",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
