@@ -128061,5 +128061,39 @@
       "body": "not readable in this pass; metadata only"
     },
     "access": "Manufacturer-authored declaration mirrored from filing; linked FCC.gov retrieval cache miss; no local download."
+  },
+  "gs10_partial_lead_20261028": {
+    "checked": "2026-10-28",
+    "active": false,
+    "fully_verified": false,
+    "source": "https://manualzz.com/doc/2026468/boss-gs-10-guitar-effects-system-owner%E2%80%99s-manual",
+    "identity": "03342912 03-8-1N copyright2003 BOSS, exact GS-10 title",
+    "global_role": "p58 SYSTEM EXP PDL Func Foot Volume; Auto and patch Assign1–8 are separate",
+    "volume": "p54 level0–100, movable chain; range/recall and output coverage unknown",
+    "dimensions_mm": {
+      "width": 329,
+      "depth": 231,
+      "height": 85
+    },
+    "preferred_fit": false,
+    "headphones": "Listed in exact-model specifications appendix",
+    "compatible_pedals": {
+      "source": "https://support.roland.com/hc/en-us/articles/201959089-GS-10-Compatible-Expression-Pedals",
+      "updated": "2023-04-11",
+      "models": [
+        "Roland EV-5",
+        "Roland FV-300L"
+      ]
+    },
+    "shopee": {
+      "queries": [
+        "site:shopee.co.id \"BOSS GS-10\"",
+        "site:shopee.co.id \"Boss GS10\""
+      ],
+      "exact_offer": null,
+      "qualification": "No exact item established; not market absence"
+    },
+    "next": "Full model-specific profile; exact Shopee hardware; volume coverage/range/recall; do not transfer GT-Pro specs.",
+    "downloads": false
   }
 }

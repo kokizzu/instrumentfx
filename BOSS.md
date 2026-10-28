@@ -10,6 +10,7 @@ Canonical root brand profiles; all retain explicit verification gaps. Preserved 
 - [AD-10](#ad-10)
 - [EX-4 — partial no-treadle discovery lead](#ex-4--partial-no-treadle-discovery-lead)
 - [GM-800](#gm-800)
+- [GS-10 — partial lead](#gs-10--partial-lead)
 - [GT-1](#gt-1)
 - [GT-001](#gt-001)
 - [GT-1B](#gt-1b)
@@ -441,6 +442,21 @@ The complete five-model dedicated-effect archive was moved losslessly to [SINGLE
 [Complete preserved archive](SINGLE-GUITAR.md#archive-sources).
 
 <!-- specialist page context ends -->
+
+## GS-10 — partial lead
+
+Checked 2026-10-28; outside active inventory and instrument counts. Not GT-Pro or a fully verified profile. Exact Shopee Indonesia GS-10 hardware/IDR evidence was not established by the targeted searches; this does not prove market absence.
+
+[Manufacturer-authored GS-10 manual reproduction](https://manualzz.com/doc/2026468/boss-gs-10-guitar-effects-system-owner%E2%80%99s-manual), **03342912,03-8-1N,©2003 BOSS**, exact title matched; original body inspected, not host-generated FAQ.
+
+| Field | Evidence / remaining qualification |
+|---|---|
+| Expression / global role | Printedp58 explicitly distinguishes a global pedal function from patch Assign1–8. **SYSTEM→EXP PDL Func→Foot Volume** fixes the volume role; Auto instead changes to wah/bend. This is assignment evidence, not just calibration. |
+| Volume / coverage | FV Level **0–100**, reorderable chain, printedp54. Range precedence, held-position recall, bypass, headphone, tail and recorded-loop attenuation remain unverified. |
+| Size / fit | Specifications appendix: **329 W×231 D×85 H mm**; exceeds preferred200×140mm. |
+| Headphones / instrument | Specifications appendix lists guitar/bass input, PHONES and microphone inputs. This does not alone complete vocal-category qualification. Full controls, onboard preset down/up, library, memory, power, imports and software profile remain to audit. |
+
+[Roland’s exact-model compatibility article](https://support.roland.com/hc/en-us/articles/201959089-GS-10-Compatible-Expression-Pedals), updated2023-04-11, names **EV-5 and FV-300L**. No M-VAVE compatibility or pinout inferred. No local download or device test.
 
 ## GT-1
 

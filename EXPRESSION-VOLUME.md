@@ -561,3 +561,5 @@ Nano Cortex [historical support-report qualification](NEURAL-DSP.md#nano-cortex-
 [Exact hardware/manufacturer lead](GFI-SYSTEM.md#solis-ventus--partial-discovery-lead): two EXP/CV inputs and independent dual engines documented. No-treadle layout, normal-pickup details, axis-labelled footprint, headphones and global analog volume remain unverified. Cached Shopee ask separately qualified; now a partial active guitar record after Rev J profile review, while current global-volume qualification and main capability-table admission remain pending.
 
 Manufacturer-filed [Chocolate Plus model-name declaration](M-VAVE.md#chocolate-plus--manufacturer-filed-model-name-equivalence-limited-to-the-filing) relates CHOCOLATE PLUS/chocolate/ChocⅡ within its January2025 filing only. It does not identify every older or offered controller, and supplies no verified analog pinout or processor-volume scope.
+
+[BOSS GS-10 partial lead](BOSS.md#gs-10--partial-lead): own manual explicitly supports a global Foot Volume role;329×231mm exceeds preferred size. Range/recall and output coverage remain unverified. Outside active model counts pending full profile and exact Shopee evidence.
