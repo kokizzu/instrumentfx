@@ -577,6 +577,12 @@ Checked2026-10-18 against own manual1201-5000,printed pp4,6–7. Documentation o
 | Power / automatic activation | Connecting the supplied adapter tomains automatically powers the unit. Regional adapter compatibility remainsseparate from9VDC device input;polarity/current beyond the retained specification are not inferred. [Manual p4][Z1201-M] |
 | Live / effects-off source conflict | Rear-panel description says FS01 effects-off leaves **only original sound**. Troubleshooting instead lists **effects-off withMIX towardWET** as a no/low-sound cause andsays adjustMIX. Preserve both;unconditional dry bypass at everyMIX position is not verified. Analog relay/true bypass remainsunestablished. [Manual pp4,7][Z1201-M] |
 
+### 1201 — direct-expression capability screening
+
+Checked 2026-10-28 against the complete [manufacturer manual 1201-5000](https://zoomcorp.com/media/documents/E_1201.pdf), pp3–7. **No analog EXP input and no dedicated headphones** in the exhaustive connector inventory; FS01 is effects on/off only. Ordinary passive guitar pickups require a preamp or compact effect. **482W×115Dmm** exceeds the preferred width. **No onboard footswitches** for preset down/up; programs use rotary selectors and BANK switch. Physical OUTPUT level is not expression assignment.
+
+Direct-expression position, range and recall are inapplicable to the documented socket inventory. Preserve the earlier effects-off/MIX-WET contradiction; it does not establish unconditional dry bypass, tail muting or digital volume control. No newly qualified market offer or hardware test; historical sold-out asking price remains separately qualified. Existing active model, not a new admission.
+
 ## A1 FOUR
 
 Reviewed **2026-10-17** after exact Shopee hardware discovery. Acoustic multi-effects,including documented upright-bass processing;separate from A1X FOUR,no ownership assertion. Partial:official indexed documentation and page text only;no dependency,manual,software or firmware file downloaded.
