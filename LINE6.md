@@ -620,6 +620,18 @@ Checked2026-10-19 against [own firmware listing](https://line6.com/software/inde
 
 Current listing still exposes3.80; the [official3.80 notes](https://line6.com/support/page/kb/effects-controllers/helix/helixhx-380-release-notes-r1079/) date release2024-11-19. **HXOne-only tuner/true-bypass changes are not transferred to Stomp**. Exact3.80 manual retrieval remains blocked/size-limited; earlier indexed passages retained. No new headphone/all-bypass/tail/looper attenuation guarantee,download,update orhardware test.
 
+### HX Stomp — all-bypass and unprocessed-source limits, 2026-10-28
+
+[Own 3.80 manual](https://line6.com/data/6/0a00051afdda673cccdb61c9c/application/pdf/HX%20Stomp%203.80%20Owner%27s%20Manual%20-%20English%20.pdf), indexed Global Settings → Preferences and Ins/Outs, printed pp56–57. Full reopening still exceeds the reader’s13,604,725-byte limit; indexed original tables, not a complete-PDF review.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / coverage limits | All Bypass bypasses every block: Analog routes directly; DSP preserves delay/reverb tails. Thus block-based Volume/Pan control is bypassed, not a master mute. USB1/2 playback and Aux avoid processing. Headphone/loop attenuation remains routing-dependent and untested. |
+
+Physical VOLUME’s Main+HP/Phones setting is not an expression assignment. Across-preset volume insertion remains unverified. Earlier unknown all-bypass coverage is narrowed here, without claiming pedal attenuation of surviving tails.
+
+Shopee pages reopened2026-10-28 retain **Rp8.900.000/Habis** for [otnielsusanto’s explicitly used unit](https://shopee.co.id/Line-6-HX-Stomp-%28Second-Bekas-Preloved%29-Digital-Multi-Effects-Electric-Guitar-Bass-Keyboard-Efek-Gitar-Elektrik-Akustik-i.91725285.26545060709),shop91725285/item26545060709,Kota Surabaya, month-old cache; and **Rp11.229.000** for [ROCKPIZZ MUSIC’s black retail hardware](https://shopee.co.id/LINE-6-HX-STOMP-MULTI-EFFECTS-GUITAR-PEDAL-BLACK-i.440477624.23519849983),shop440477624/item23519849983,Kota Denpasar, two-month-old cache. The retail extract does not establish stock or explicit new condition. Bundle, warranty region, delivered cost and checkout vouchers remain unverified; late-delivery compensation is not a purchase discount. Earlier dates and qualifications remain above.
+
 ## HX Stomp XL
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

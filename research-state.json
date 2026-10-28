@@ -122572,8 +122572,8 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-28",
-    "current": "Ampero Mini original V2.2 manual and exact offer access rechecked",
-    "finding": "Global volume override remains unverified. V2.2 says200+effects; editor file-extension support is not native NAM proof; one-file upload wording retained.",
+    "current": "HX Stomp all-bypass/unprocessed-source boundary and qualified exact offers",
+    "finding": "All Bypass bypasses Volume/Pan blocks; USB1/2 and Aux avoid processing. Global assignment and other attenuation coverage remain qualified.",
     "next": [
       "Ampero Mini/Nano Cortex across-preset volume assignment remains unverified; manufacturer confirmation or readable exact-revision evidence needed",
       "Exact HX and GT-1000CORE documentation and headphone/tail/looper coverage",
@@ -122724,6 +122724,41 @@
       "clone_upload_wording": "ten tones versus maximum one clone file; upload/concurrency interpretation unverified",
       "offers_reopen": "46555574691 and21384344851 inaccessible; prior asks preserved, no live stock confirmation",
       "next": "Exact HX/GT-1000CORE expression coverage; remaining inventory and seller offers; independent general cursor retained"
+    },
+    "hx_stomp_recheck_20261028": {
+      "manual": "https://line6.com/data/6/0a00051afdda673cccdb61c9c/application/pdf/HX%20Stomp%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+      "revision": "3.80",
+      "printed_pages": "56–57",
+      "access": "Indexed original tables; full13,604,725-byte file exceeds reader limit",
+      "global_volume": "unverified",
+      "all_bypass": "Volume/Pan block bypassed; no master-mute claim",
+      "coverage_remaining": [
+        "headphone routing",
+        "surviving tails",
+        "recorded looper playback"
+      ],
+      "offers": [
+        {
+          "seller": "91725285",
+          "item": "26545060709",
+          "idr": 8900000,
+          "condition": "Second/Bekas/Preloved",
+          "snapshot_stock": "Habis",
+          "cache": "month-old",
+          "region": "Kota Surabaya"
+        },
+        {
+          "seller": "440477624",
+          "item": "23519849983",
+          "idr": 11229000,
+          "condition": "retail title; explicit new grade unverified",
+          "snapshot_stock": "unverified",
+          "cache": "two-month-old",
+          "region": "Kota Denpasar"
+        }
+      ],
+      "offer_qualification": "2026-10-28 reader reopening; bundle, regional warranty, delivery and checkout vouchers unverified",
+      "next": "GT-1000CORE exact FOOT VOL path, preferences and output coverage; do not transfer HX Stomp behavior to XL/Effects."
     }
   },
   "brand_navigation": {
