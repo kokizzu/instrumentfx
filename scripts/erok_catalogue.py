@@ -14,6 +14,7 @@ if __name__ == '__main__':
     allowed = {'EROK.md','README.md','MULTI-EFFECTS.md','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md','research-state.json','scripts/comparison_views.py','scripts/erok_catalogue.py','Makefile'}
     changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
     assert changed <= allowed, changed - allowed
+    git('diff','--check')
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(erok): qualify Pocket Sonic regulatory hardware family'))
+    print(git('commit','-m','research(erok): qualify MP-10 warranty and expression evidence'))

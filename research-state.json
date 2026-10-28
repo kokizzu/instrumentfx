@@ -124055,5 +124055,16 @@
       "bypass/tail attenuation"
     ],
     "hardware_test": false
+  },
+  "erok_mp10_warranty_expression_20261028": {
+    "checked_date": "2026-10-28",
+    "manufacturer": "https://erokmusic.com/",
+    "warranty": "One year worldwide; original buyer, new unit, authorized dealer/official channel, purchase proof; non-transferable; unauthorized/second-hand channels excluded. Exact shop1736925571/item45705646832 eligibility unknown.",
+    "product_route": "https://erokmusic.com/product/multi-effects/MP-10",
+    "access": "Dynamic shell now readable; no model-specific panel/manual body. No enabled browser surfaces.",
+    "expression_status": "Unknown: built-in treadle, analog EXP, global assignment, range/position, bypass/phones/tails/recorded-loop coverage, chassis and onboard sequential presets. Do not classify no-treadle from missing evidence.",
+    "next": "Recover original MP-10 manual via manufacturer preview; verify exact panel/revision before capability classification.",
+    "counts_changed": false,
+    "older_evidence_preserved": true
   }
 }

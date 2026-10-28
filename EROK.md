@@ -12,6 +12,7 @@
 
 ## MP-10
 
+<!-- comparison evidence begins -->
 Checked2026-10-18; partial. Manufacturer identifies a portable guitar multi-effects unit with drums and recording. [Manufacturer](https://erokmusic.com/index.html). Bass/vocal suitability and ownership remain unverified. Seller Tank Pro wording does not establish identity with M-VAVE TANK-PRO.
 
 | Field | Evidence / qualification |
@@ -39,6 +40,14 @@ Checked2026-10-18; partial. Manufacturer identifies a portable guitar multi-effe
 | IDR condition-unverified hardware ask | **Rp1.399.999**, crossedRp1.699.999/18%; EROK MUSIC,shop1736925571/item45705646832. [Exact MP-10 item](https://shopee.co.id/EROK-MP-10-Multi-Efek-Gitar-Bass-Loop-Mesin-Drum-Baterai-8-Jam-%E2%80%93-Portable-Tank-Pro-Oleh-M-vave-Technology-i.1736925571.45705646832). Direct JS-limited two-month cache and week-old search cache agree on the ask,checked2026-10-18. Search also displayed Rp1.329.999 for00:00 October10,an expired teaser,not adopted. Direct delivery August15–17 conflicts with indexed October10–12; neither proves stock. Condition,new/used,working state,selected variant,region,adapter/bundle,warranty,authenticity,voucher,shipping/tax andcheckout total unverified. Late-delivery compensation is not a purchase discount. Seller affiliation and Tank Pro equivalence unverified. |
 
 No files/dependencies downloaded or software/devices operated. MP-9/MP-20/M-VAVE specifications are not borrowed.
+
+<!-- comparison evidence ends -->
+
+### MP-10 — warranty eligibility and expression evidence boundary
+
+Checked2026-10-28. The [manufacturer warranty](https://erokmusic.com/) states one-year worldwide coverage for the original buyer of a new unit through an authorized dealer/official channel, with purchase proof; rights are non-transferable. It excludes unauthorized channels and second-hand platforms. This is a general policy, **not confirmation that shop1736925571 or item45705646832 qualifies**. Authorization, item condition and warranty eligibility remain unverified; the earlier cached ask is unchanged.
+
+The [MP-10 product route](https://erokmusic.com/product/multi-effects/MP-10) now returns a dynamic shell rather than the earlier access error, but exposes no model-specific panel/manual contents. No available browser surface could recover its preview. Built-in treadle, analog EXP, global assignment, position/range, bypass/phones/tail/recorded-loop coverage, chassis fit and preset down/up all remain **unknown**, not No. The indexed manual listing is not a connector inventory. No model equivalence, downloads or device operation are inferred.
 
 ## MP-20
 
