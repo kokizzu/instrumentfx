@@ -271,6 +271,12 @@ Rechecked **2026-10-17**: [Official importer V1.2.3 announcement,2026-09-02](htt
 
 The manufacturer AME100EN product page timed out on two attempts. September11 importer page reopened without usable body text, so the historical80/200 preset conflict remains qualified by its original evidence date rather than newly resolved. Touch, precise concurrent limit/category breakdown, USB channels, driver and NAM architecture limits remain unknown. Targeted Shopee Indonesia searches for Audota AME-100/AME100 yielded no exact indexed hardware offer; used/new IDR, seller, condition, stock, bundle, warranty region, vouchers and delivered charges remain unverified. No foreign price was converted.
 
+### AME-100 — direct expression screening,2026-10-28
+
+[Exact manufacturer body](https://en.audota.com/AME100EN.html),despite incorrect ACE100 browser title,reopens with AME-100 identity and complete connector inventory without analog EXP. It fails the required direct pedal path. BLE-MIDI footswitch expansion establishes another control route,not continuous volume mapping. Hand MASTER controls overall output;its bypass/headphone/tail/recorded-loop coverage is not specified here.
+
+Minus/plus footswitches step presets left/right in Effect Chain view and take different looper/drum roles. Shared1/4inch OUTPUT accepts stereo headphones;there is no separate phones socket. Existing109×88mm footprint fits either horizontal orientation. DirectEXP endpoints,position recall andglobal assignment are inapplicable to the absent analog connector. No hardware tested,installedfirmware assumed or80/200memory conflict resolved.
+
 ## AME-200
 
 Standard model, not Pro. Consolidated **2026-10-17**, preserving the complete dated finding and all supporting model fields. Historical next-model notes are provenance; current task is in research-state.json.

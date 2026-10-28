@@ -123921,5 +123921,14 @@
       "hand volume scope and coverage"
     ],
     "hardware_test": false
+  },
+  "ame100_expression_screen_20261028": {
+    "source": "https://en.audota.com/AME100EN.html",
+    "classification": "No analog EXP",
+    "remaining": [
+      "continuous BLE volume mapping",
+      "MASTER attenuation coverage"
+    ],
+    "hardware_test": false
   }
 }
