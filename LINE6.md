@@ -185,6 +185,12 @@ Checked 2026-10-28: manufacturer-authored [Rev E / 2.00 manual](https://manualzz
 
 Amp selection loads its matched cabinet; another of the seven cabinets or cabinet Off can be selected independently. Amp/cab models are mono. Black’s gate is placed after the amp but keyed from the device input; the generic input-gate description is not its processing position. These are fixed-chain functions, not additional selectable effects or parallel amp paths. Exact chassis dimensions, qualified Shopee hardware and remaining volume coverage are unresolved.
 
+### Black — bypass scope and loop retention
+
+Checked 2026-10-28, manufacturer-authored [Rev E / 2.00 manual](https://manualzz.com/doc/81729734/line-6-pod-express---black-owner-s-manual), pp15–17,27,31,42. Black’s ON All disables processing; ON Effects disables Volume and gate alongside the four categories. TAP Effects lists only those categories. Page31 incorrectly repeats “Guitar” above the Black-specific Boost/DelayVerb table; preserve this labeling error. Expression is not an always-active master through ON bypass.
+
+Pedal sweep is documented as 0–100%; unplugged defaults to 100%. Adjustable endpoints and preset-position recall remain unverified. Of 21 writable locations, 1–7 are factory-filled. Instant loading differs from queued Load requiring both switches. The final stereo looper records up to 30 seconds; preset changes, leaving looper mode or power-off erase it. Editor-only loop level/EQ are not expression-attenuation proof. Other headphone/tail/loop output coverage remains unresolved.
+
 ## Floor POD Plus
 
 Guitar multi-effects;checked2026-10-17;partial. [Own Spanish manual][FPP-M],40-00-0116RevB,©2009,36pages,sections1,2,3,4. Not original FloorPOD. Bass direct-box use documented below;live-vocal suitability andownership unverified.
