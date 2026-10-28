@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro ACS8/Limiter3/AutoWah definitions saved;remainingUniV/SubEQ/Octave/PedalBend,44category/13vs15basis,USBchannelcount andqualifiedIDR;392partial.",
+    "task": "GT-Pro PedalBend/Octave inputranges saved;remainingUniV/SubEQ,44category/13vs15basis,USBchannelcount andqualifiedIDR;392partial.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -123306,5 +123306,21 @@
     "autowah": "LPF/BPF;relative Frequency0–100;rate0–100/BPM",
     "counts": "subtypes of existing families;no block increase",
     "next": "UniV/SubEQ/Octave/PedalBend definitions;headlinebasis,USBchannels,exactIDR"
+  },
+  "gtpro_bend_octave_20261028": {
+    "sources": [
+      "https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-47.html",
+      "https://www.manualslib.de/manual/965096/Boss-Gt-Pro.html?page=47"
+    ],
+    "access": "indexed original exact-model manual;directEnglishcachemiss",
+    "bend": "MinMax-24…+24;position0–100;single-noteonly",
+    "octave": "oneoctavebelow;4input-note ranges,not4transpositions",
+    "range_upper_notes": [
+      "firststring24fretE",
+      "firststring12fretE",
+      "firststringopenE",
+      "fourthstring2fretE"
+    ],
+    "next": "UniV/SubEQ;headlinecountbasis;USBchannelcount;exactShopee"
   }
 }

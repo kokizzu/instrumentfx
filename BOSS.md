@@ -1750,6 +1750,15 @@ Exact model and Chapter4 pagination match earlier original-manual checks; no vis
 
 Exact-model manufacturer text only; no visual/device inspection. Family/block counts and44-category/13-versus15 conflicts remain unchanged.
 
+### GT-Pro — Pedal Bend and Octave input ranges 2026-10-28
+
+| Field | Finding / qualification |
+|---|---|
+| Processing / Pedal Bend | Manufacturer-authored [own manual p47](https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-47.html), indexed: PitchMin/PitchMax each **−24…+24**, for fully lifted/depressed pedal;PdlPosition0–100. Pitch analysis requires **single notes;chords unsupported**. Auto EXP1/FC-200 behavior is separately configurable,not a universal replacement of fixed FootVolume mode. Direct page cache miss;no hardware test. |
+| Processing / Octave | Exact-model [German original manual p47](https://www.manualslib.de/manual/965096/Boss-Gt-Pro.html?page=47), indexed: adds **one octave below**. Four input ranges all start atopen seventh-stringB;upper limits respectively first-string24th-fretE,12th-fretE,openE,or fourth-stringsecond-fretE. These select affected input notes,not four transposition intervals. Octave/Direct levels0–100. No inferred unrestricted polyphony or bass classification. |
+
+Existing FX2 family/block counts remain unchanged. Uni-V/SubEQ details,44-category/13-versus15basis,USBchannelcount andqualified IDR offers remain open.
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.
