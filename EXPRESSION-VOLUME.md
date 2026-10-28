@@ -207,3 +207,5 @@ Zoom607 scope reconciliation2026-10-28: [own manual](https://zoomcorp.com/media/
 Ampero Mini electrical compatibility: [Hotone Japan indexed exact-model specifications](https://www.hotone.jp/brands/hotone/products/ampero-mini) publish **10–25 kΩ TRS expression**. Current direct text omits the specification tab; source-access and output-wording conflict are preserved in [the brand record](HOTONE.md#ampero-mini--regional-exp-resistance-evidence-2026-10-28). Resistance is not pinout, controller compatibility or global assignment.
 
 Smart Box [MIDI distinction](SONICAKE.md#smart-box--distinct-midi-volumes-and-power-currents-2026-10-28): own1.0.1 manual separates Master Volume from Preset Volume/EXP but duplicates CC7 for the latter two. This does not resolve direct analog EXP-to-master assignment or across-preset scope.
+
+NGS-6 [exact hardware offers](NUX.md#ngs-6--exact-shopee-hardware-leads-2026-10-28) now recorded with sold-out/indexed qualifications. It remains a partial lead outside active inventory and this capability table; direct analog EXP support is still unverified.

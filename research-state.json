@@ -122690,7 +122690,30 @@
         "Readable original connector/panel evidence",
         "Direct analog expression support",
         "Complete required model fields",
-        "Exact qualified Shopee hardware offer"
+        "Exact offers saved; verify condition,current stock,bundle,warranty and checkout"
+      ],
+      "market_checked": "2026-10-28",
+      "offers": [
+        {
+          "seller": "382833846",
+          "item": "18195232847",
+          "seller_name": "Jojomusicstore",
+          "region": "KotaSurabaya",
+          "idr": 2983680,
+          "condition": "unverified",
+          "stock_snapshot": "Habis",
+          "access": "month-old cached page reopened"
+        },
+        {
+          "seller": "195817632",
+          "item": "15666002048",
+          "seller_name": "CH MUSIC",
+          "region": "KotaJakartaPusat",
+          "idr": 2500000,
+          "condition": "unverified",
+          "stock_snapshot": "unverified",
+          "access": "three-month-old search index;direct page inaccessible"
+        }
       ]
     },
     "ir200_lead": {
@@ -122918,5 +122941,18 @@
     "section_index": true,
     "checked": "2026-10-22",
     "evidence_preserved": true
+  },
+  "discovery_search_pass_20261028_followup": {
+    "queries": [
+      "ValetonGP5",
+      "MOOERGE150Pro",
+      "ZoomMS80IR",
+      "ZoomG2original",
+      "DigiTechRP360nonXP",
+      "NUXNGS6"
+    ],
+    "result": "NGS6exactofferssavedinpartiallead;otherqueriescategorynoiseorXPvariant",
+    "admission": "No new active models",
+    "next": "Continue exact-model discovery beyond category-page noise; finish NGS6 connector/full-profile evidence before admission"
   }
 }

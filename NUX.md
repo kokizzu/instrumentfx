@@ -38,6 +38,19 @@ Checked 2026-10-19; **outside active inventory and main capability table**. Dist
 
 [Exact support hub](https://www.nux.us/blogs/support/amp-academy-support-hub), updated2026-09-27, lists firmware4.0.2 and editor2.4.2.3 for Windows/macOS; versions were not installed or tested. Its [manufacturer English manual](https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/AmpAcademy_NGS6/NUX_NGS6_UserManual_English.pdf) returned eight PDF pages but no text. [Alternate original-PDF lead](https://manuals.plus/m/10d430209a345576a1a610aa2fc344772209d71a61bb7a68a025bf369bc22ed5_optim.pdf) likewise yielded no text; generated host summary not adopted. **Analog EXP socket, global volume, range, bypass/tail/looper coverage, footprint and controller wiring remain unverified**. No sibling specification or price transferred. Exact Shopee hardware offer, condition, stock and other full-profile fields remain open. No downloads or hardware operation.
 
+### NGS-6 — exact Shopee hardware leads, 2026-10-28
+
+Still **partial and outside active inventory**. These are exact NGS-6 offers, not NMA-3AAP prices.
+
+| Class | IDR ask | Exact item / qualification |
+|---|---:|---|
+| Retail-style,condition unverified | **Rp2.983.680** | [Jojomusicstore,382833846/18195232847](https://shopee.co.id/Nux-NGS-6-Amp-Academy-i.382833846.18195232847),KotaSurabaya. Month-old cached page reopened;**Habis**. Old18–19September delivery and late-delivery voucher≤Rp10.000 do not establish live stock or checkout discount. |
+| Indexed retail-style,condition unverified | **Rp2.500.000** | [CH MUSIC,195817632/15666002048](https://shopee.co.id/Nux-NGS-6-Amp-Academy-Amp-Modeler-NGS6-Verdugo-Series-Stompboxes-Effect-Gitar-i.195817632.15666002048),KotaJakartaPusat. Three-month-old indexed text;direct reopening inaccessible. Stock not exposed;relative two-hour delivery and late-delivery compensation≤Rp20.000 are not inventory or hardware discounts. |
+
+Neither provides condition-confirmed new/used,exact bundle,regional warranty,authenticity,shipping or current checkout confirmation. Do not turn these separate asks into a current market range.
+
+[Current NUX USA exact-model page](https://www.nux.us/products/amp-academy) explicitly advertises **1024-sample IR processing,third-party IR import with editor auto-formatting**,and an included insert Y-cable. Included-cable statement describes its manufacturer package,not either Shopee bundle. [Support hub](https://www.nux.us/blogs/support/amp-academy-support-hub) still lists4.0.2 firmware and2.4.2.3 Windows/macOS editor. No packages fetched or installed;generic NAM A2 site navigation does not establish NGS-6 NAM support.
+
 ## Amp Academy Stomp
 
 Checked2026-10-17;partial. Separate hardware from original Amp Academy;not previously inventoried. Guitar multi-effects eligibility follows independent effects architecture. Bass/vocal suitability and ownership unresolved.
