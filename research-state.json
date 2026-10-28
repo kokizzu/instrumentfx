@@ -25004,7 +25004,7 @@
           ],
           "source": "https://static.roland.com/manuals/ex-4_parameter/en-US/583960587637677963.html"
         },
-        "qualification": "Four families only;120typeheadline not yet reconciled;outsideactiveinventory",
+        "qualification": "Partial TYPE/STAGE census;120headline taxonomy unresolved;do not mix waveform/mode selections into a forcedtotal",
         "limiter": {
           "count": 3,
           "types": [
@@ -25032,6 +25032,37 @@
           ],
           "source": "https://static.roland.com/manuals/ex-4_parameter/en-US/584306315637684107.html",
           "qualification": "Stages notadditionalfamilies;noBassPhasertransfer"
+        },
+        "wah": {
+          "count": 7,
+          "types": [
+            "CRY WAH",
+            "VO WAH",
+            "FAT WAH",
+            "LIGHT WAH",
+            "7STRING WAH",
+            "RESO WAH",
+            "BASS WAH"
+          ],
+          "source": "https://static.roland.com/manuals/ex-4_parameter/en-US/667056011668355339.html",
+          "qualification": "Wahendpoints controltone notFVvolume"
+        },
+        "ac_reso": {
+          "count": 3,
+          "types": [
+            "NATURAL",
+            "WIDE",
+            "BRIGHT"
+          ],
+          "source": "https://static.roland.com/manuals/ex-4_parameter/en-US/584116235637682571.html"
+        },
+        "bass_phaser": {
+          "stages": [
+            4,
+            8,
+            12
+          ],
+          "source": "https://static.roland.com/manuals/ex-4_parameter/en-US/593872267637704843.html"
         }
       },
       "recall_hardware": {
@@ -25039,7 +25070,28 @@
         "exp_hold": "On retains pedal tilt across memory changes;Offdoesnot;not targetassignment orpoweronrecall",
         "jack_modes": "STEREO I/O versusSEND/RETURNuses rightpair;not simultaneousindependentconnections",
         "display": "FULLcolor versusmonochromescreen themes;notmonochromehardware"
-      }
+      },
+      "local_retail_leads": [
+        {
+          "url": "https://www.blibli.com/p/boss-ex-4-effects-expander/ps--BOI-70024-00316",
+          "seller": "BOSS Indonesia Flagship Store",
+          "region": "Warehouse PT SVI,Kota Tangerang Selatan",
+          "idr": 7539500,
+          "crossed_idr": 8870000,
+          "access": "Two-week searchcache;directcachemiss",
+          "stock": "Cachedone remaining;notlive"
+        },
+        {
+          "url": "https://www.melodiamusik.com/product/boss-ex-4-effects-expander-pedal/",
+          "seller": "Melodia",
+          "idr": 7539500,
+          "crossed_idr": 8870000,
+          "access": "Monthsearchcache;directcachemiss",
+          "stock": "CachedRolandStoreJakartaavailable;otherlistedbranchesunavailable",
+          "bundle": "AdvertisedPSA-Sadapter,fourfeet;notinspected"
+        }
+      ],
+      "local_offer_qualification": "NotShopee;condition,warranty,currentstock,voucher,shipping/tax/checkoutunknown;notverifiednewusedrange"
     }
   ],
   "inventory_by_brand": {

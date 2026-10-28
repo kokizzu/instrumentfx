@@ -319,6 +319,17 @@ The same table makes **STEREO I/O versus SEND/RETURN mutually selected modes** f
 
 The 120-type headline is still not reconciled by summing unlike mode,stage andwaveform parameters. Exact Shopee hardware,complete remaining profile anduniversal volume coverage remain pending. No files downloaded orhardware operated;lead remains outside active counts.
 
+### EX-4 — wah/acoustic choices and Indonesian retail leads
+
+Checked 2026-10-28 against exact original manufacturer parameter pages. [WAH](https://static.roland.com/manuals/ex-4_parameter/en-US/667056011668355339.html) has **7 types:** CRY WAH, VO WAH, FAT WAH, LIGHT WAH, 7STRING WAH, RESO WAH, BASS WAH. Wah MIN/MAX adjust heel/toe **tone**, not the Foot Volume amplitude endpoints. [AC RESO](https://static.roland.com/manuals/ex-4_parameter/en-US/584116235637682571.html) has **3 types: NATURAL, WIDE, BRIGHT**,with resonance/direct balance; these process acoustic-electric pickup tone rather than providing three electric-to-acoustic simulator blocks. [BASS PHASER](https://static.roland.com/manuals/ex-4_parameter/en-US/593872267637704843.html) independently documents **4/8/12 stages**;this is now exact-model evidence rather than a transfer from guitar PHASER. The120-type counting basis remains unresolved.
+
+| Exact local hardware offer | Cached IDR and qualifications |
+|---|---|
+| [Blibli BOI-70024-00316](https://www.blibli.com/p/boss-ex-4-effects-expander/ps--BOI-70024-00316), BOSS Indonesia Flagship Store, Warehouse PT SVI, Kota Tangerang Selatan | **Rp7,539,500**,crossedRp8,870,000/15%;two-week searchcache saysone remaining. Directreopen cachemiss. Condition,selectedbundle,adapter,warranty,shipping/tax,vouchereligibility andcheckout total unknown. Seller name isnot independentauthentication. |
+| [Melodia exact EX-4 product](https://www.melodiamusik.com/product/boss-ex-4-effects-expander-pedal/),SKU EX-4 | **Rp7,539,500**,crossedRp8,870,000;month-old searchcache showsRoland Store Jakarta available butotherlistedbranches unavailable. Directreopen cachemiss. Advertised boxcontents includePSA-Sadapter andfourfeet;not inspectedbundle. Condition,warranty,currentstock anddeliveredtotal unknown. Seller’s1kgcommerceweight isnot the manufacturer’s800gunitmass. |
+
+These are exact hardware asks **outside Shopee**,not verified new/used sales orcurrentstock. Equal asks do not establish independentmarkettransactions. ExactShopee item andcompleteprofile remainpending;no currency conversion ornewprice-range claim. No manuals,packages orsoftware downloaded;nohardwaretested.
+
 ## GM-800
 
 Consolidated and refreshed **2026-10-16**; partial verification. This processor qualifies through independent MFX architecture; it requires specialized input hardware for guitar/bass playing. No excluded specialist model is added.
