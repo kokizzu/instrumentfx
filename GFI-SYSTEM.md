@@ -44,6 +44,20 @@ Checked 2026-10-28: [manufacturer-authored Rev J, March2026, pp6/19–21](https:
 
 An [older manufacturer quickstart reproduction](https://manuals.plus/m/5c4af74a3dc8eea0d40651d04bf882fbae3b0ee8a748817a6fe8e3df79afe235_optim.pdf) instead labels both expression connections10kΩ. Undated revision; do not normalize EXP2’s differing requirement or transfer Synesthesia’s10–25kΩ range. No current Rev N, hardware wiring, firmware or output-attenuation test. No download.
 
+### Rev J bypass, dry path and looper-memory restrictions
+
+Checked 2026-10-28 in [manufacturer-authored Rev J, March2026, pp21–26](https://www.scribd.com/document/1072569196/Solis-Ventus-User-Manual-rev-J), matching original model/revision above. Selected complete setting descriptions read; Rev N applicability unverified.
+
+| Setting | Documented behavior / qualification |
+|---|---|
+| Bypass trails | Per-preset On fades wet audio after bypass and **overrides global true bypass with buffered bypass** for that preset. Off cuts wet audio immediately. DSP-X/Y trails are separately set. |
+| Spillover | Per-preset maximum tail cap: Off,0.5,1,2,4,8(default),16 seconds,or unbounded. This caps existing decay; it does not create that duration. |
+| Dry signal | Global Off disables dry audio even during bypass; On enables it. This is a global path switch, not continuous pedal-volume assignment. |
+| Memory allocation | From1.8.0: **2.2s delay/40s looper(default);4.4s/26s;8.6s/0s**. The longest-delay allocation disables the looper. Per-preset Options setting; do not advertise simultaneous8.6s delay and40s recording. |
+| Looper settings | Global playback Volume1.0–10.0; Pre FX or Post FX(default). Exit STOP(default) halts playback; PLAY continues after leaving looper mode. The numerical volume scale is not labelled dB. |
+
+None establishes EXP attenuation of bypass audio, existing tails or recorded loops. Expression assignments remain preset-stored under the earlier evidence; position recall and global master-volume mapping remain unknown. No download, update or hardware test.
+
 ## Synesthesia
 
 Checked 2026-10-28; **partial active guitar multi-effects record**, not fully verified. Dual-engine filtering, octave, EQ, echo and modulation plus explicit guitar-pickup guidance establish eligibility; no specialized pickup required by the inspected instructions. Bass/vocal suitability and ownership unverified. Earlier discovery wording below is retained as dated research history; this summary governs current admission.

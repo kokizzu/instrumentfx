@@ -25190,6 +25190,16 @@
         "navigation": "ShortB+Cbankup,A+Bbankdown",
         "source_conflict": "Undatedolderoriginalquickstartlabels10kohmforboth;preserveEXP2difference",
         "unresolved": "RevNcurrentbehavior,completeprofile,output/bypass/phones/tails/loopercoverageandrecall"
+      },
+      "rev_j_output_memory_followup": {
+        "source": "https://www.scribd.com/document/1072569196/Solis-Ventus-User-Manual-rev-J",
+        "revision": "RevJMar2026pp21–26,RevNunknown",
+        "bypass": "PresetBypassTrailsOnoverridesglobaltruebypasstobuffered;Offcutswet,DSPtrailsseparate",
+        "spillover": "Off,0.5,1,2,4,8default,16s,Infmaximumcapnotactualdecay",
+        "dry": "GlobalOffdisablesdryevenbypass;notcontinuousEXPvolume",
+        "memory": "1.8.0+perpreset2.2sdelay40sloopdefault,4.4s26s,8.6s0sdisabled",
+        "looper": "GlobalVolume1.0–10.0non-dB;Pre/Postdefault,exitSTOPdefaultvsPLAY",
+        "unresolved": "EXPoutput/tail/recordedloopattenuation,globalassignmentandpositionrecall"
       }
     }
   ],
