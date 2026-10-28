@@ -124090,5 +124090,16 @@
     "physical": "EV-5/FV-300L; pedal minimum-volume control MIN for EXP1/2.",
     "assign": "Target endpoints reversible; changing target can alter endpoint settings. Active source range limits travel; outside span holds endpoint. 40–80 example on 0–127 scale is not output-volume range.",
     "unresolved": "Arbitrary/M-VAVE controller pinout/resistance/taper; SYSTEM FootVolume versus patch FV enable/range; output coverage."
+  },
+  "mpx100_expression_screen_20261028": {
+    "source": "https://adn.harmanpro.com/product_documents/documents/1089_1340212512/MPX100_User_Guide_Eng_Rev0_original.pdf",
+    "identity": "Own User Guide Rev0 part070-11935 ©1998 55pages; pp2,4–7 text inspected.",
+    "direct_analog_expression": "No socket in complete connector inventory;momentary TRS Tap/Bypass not EXP;MIDI separate.",
+    "normal_guitar": true,
+    "footprint": "483W×102Dmm too wide",
+    "headphones": "Shared left output with right empty,modest volume;older brochure conflict retained.",
+    "onboard_preset_foot_down_up": false,
+    "coverage": "AnalogEXP N/A;handOUTPUT analog;digital/bypass/tails/recorded-loop coverage unknown.",
+    "counts_changed": false
   }
 }

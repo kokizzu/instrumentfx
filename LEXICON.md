@@ -13,11 +13,12 @@ Partial manufacturer-backed records;unknown is not No.
 
 ## MPX100
 
+<!-- comparison evidence begins -->
 Checked2026-10-17. Partial guitar/vocal dual-channel multi-effects;notMPX110/MX200. [Manufacturer User Guide onmirror](https://prosoundonline.com/wp-content/uploads/Lexicon_MPX100_Manual.pdf),55pages,©1998,part070-11935. Official product/manual pages403;webtext only,no download/visualaudit.
 
 | Field | Evidence / gaps |
 |---|---|
-| Expression | No builtin pedal;¼TRS momentary tap/bypass. MIDI-learn control;analogcontinuousEXP/toe unknown. |
+| Expression | No builtin pedal;¼TRS momentary tap/bypass. MIDI-learn control;no analogcontinuousEXP in complete connector inventory;external toe unsupported through that direct path. |
 | Controls | Text-derived **7rotary/0integratedfoot/3buttons**:Input,Output,Mix,Adjust,EffectsLvl/Bal,Program,Variation;Tap,Bypass,Store. |
 | Display | StatusLEDs;screen diagonal/color/touch unknown. |
 | Processing / choices | **112single variations+112dual+16SpecialFX=240presets**. Up to2independent effects;dualrouting fixedbyvariation,notfreeblockselection. See breakdown below. |
@@ -128,6 +129,14 @@ Checked2026-10-18 against the original Lexicon Service Manual,©1998,part070-120
 | Power / measurement boundary | The service power-up current check uses a Variac/adapter setup. Its exposed text does not resolve the measurement point sufficiently to publish a9VAC device-draw value;actual unit current remains unknown. |
 
 Documentation only;no equipment operated or files downloaded.
+
+<!-- comparison evidence ends -->
+
+### MPX100 — direct-expression screening (2026-10-28)
+
+Reopened own **User Guide Rev0**,part070-11935,©1998,55pages,from [manufacturer hosting](https://adn.harmanpro.com/product_documents/documents/1089_1340212512/MPX100_User_Guide_Eng_Rev0_original.pdf),printed pp2,4–7. Complete panel inventory has no built-in treadle or analog EXP socket. The1/4inchTRS port accepts momentary Tap/Bypass switches; MIDI control is a separate indirect path. **Fails the requested direct analog expression-volume path**; analog range/recall N/A. MIDI volume scope remains unaudited.
+
+Direct guitar input is explicit. No onboard footswitches; programs use hand PROGRAM/VARIATION knobs. Headphones share the left output only with right empty,at modest volume;not a separate socket. Existing483W×102Dmm chassis is too wide. Hand OUTPUT controls analog output;digital/bypass/tail attenuation coverage is not proved. No recorded-loop coverage established. Original brochure headphone-side conflict and all prior qualifications remain above. Text-only review;no downloads or hardware operation.
 
 ## MX200
 
