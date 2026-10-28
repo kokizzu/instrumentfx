@@ -125509,5 +125509,20 @@
     ],
     "next": "FV04 exact-model capability screen",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "fv04_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "FLAMMA.md#fv04--direct-control-and-level-boundary",
+    "source": "https://device.report/m/1af19f560d9c4c45de465fccbed8c8cf7c25a055e7157b9075bbc29c06828ffe_optim.pdf",
+    "identity": "Manufacturer-authored12page older copy;revision unknown",
+    "result": "No analog EXP/headphones in inventory;LEVEL contextually harmony/vocal reverb/guitar reverb,not global guitar volume;vocal-only",
+    "unknown": [
+      "stored-preset down/up",
+      "axis-labelled fit",
+      "current revision andexisting power conflicts",
+      "bypass/tail/recorded-loop volume coverage"
+    ],
+    "next": "FV05 exact-model capability screen",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

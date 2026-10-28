@@ -260,6 +260,12 @@ Checked **2026-10-17**; partial. Vocal harmony plus reverb,not guitar multi-effe
 
 <!-- comparison evidence ends -->
 
+### FV04 — direct-control and LEVEL boundary
+
+Checked **2026-10-28** against the readable12-page [manufacturer-authored older manual copy][FV4-R];revision remains unknown. Printed pp03–04 list no treadle,analog EXP or headphone socket. LEVEL adjusts harmony volume normally,vocal reverb while holding SHARP,andguitar reverb in the held-footswitch hidden mode (pp06–07). None documents a global guitar master-volume assignment.
+
+The guitar path supports reverb;output mixing does not establish guitar harmony processing. Retain vocal-only membership,outside normal-guitar multi-effects capability table. Stored-preset down/up is unverified;11harmony modes are not stored memories. Direct-pedal position,endpoints andrecall are inapplicable to the documented inventory;volume coverage of bypass,tails andrecorded loops is unknown. Axis-unlabelled86.6×125×60mm does not prove W/D fit. No fresh visual-panel check orrevision/power reconciliation claimed.
+
 ### Exact Shopee hardware evidence
 
 Checked **2026-10-17**. [GH MUSIC STORE,71552895/16911185364](https://shopee.co.id/FLAMMA-FV04-HARMONY-VOCAL-PEDAL-WITH-REVERB-EFFECTS-i.71552895.16911185364),Kota Tangerang Selatan: **Rp1,864,000,Habis**; earlier three-month index,reopened two-week cache. [AFY AUDIO JAKARTA,1377710940/40350494437](https://shopee.co.id/efek-HARMONY-FLAMMA-FV04-masih-full-original-dan-berfungsi-dengan-baik-i.1377710940.40350494437),Kota Jakarta Barat: **Rp1,100,000,Habis**,one-month cache. AFY title claims original/working,but does not explicitly label sale condition; do not manufacture a used-price range. Delivery banners do not override Habis.

@@ -447,3 +447,7 @@ M-VAVE [host-panel electrical-label check](M-VAVE.md#footctrlplus-host-panel-man
 ### Flamma FV03 — supporting guitar path and MIX boundary
 
 [Own V03 manual screen](FLAMMA.md#fv03--direct-control-and-guitar-path-boundary): no analog EXP or headphones in complete inventory. MIX blends dry/voice-changer signals;guitar reverb andmixed outputs do not qualify the vocal processor as guitar multi-effects. Outside main table;stored-preset navigation andaxis-labelled footprint unverified.
+
+### Flamma FV04 — context-dependent LEVEL, vocal-only scope
+
+[Exact-model screen](FLAMMA.md#fv04--direct-control-and-level-boundary): older original manual copy lists no analog EXP or headphones. LEVEL adjusts harmony orreverb,not documented global guitar master volume. Supporting guitar reverb does not qualify guitar multi-effects;outside main table. Preset down/up,axis-labelled fit andcurrent-revision applicability remain unverified.
