@@ -123602,5 +123602,23 @@
       "footprint"
     ],
     "hardware_test": false
+  },
+  "pod_black_expression_looper_fix_20261028": {
+    "source": "https://line6.com/software/index.html?os=All&submit_form=set",
+    "firmware": "2.00.0",
+    "released": "2024-09-12",
+    "explicit_compatible_models": [
+      "Guitar",
+      "Bass",
+      "Black"
+    ],
+    "finding": "expression-triggered looper halt fixed; not recorded-loop attenuation proof",
+    "latest_version_claim": false,
+    "remaining": [
+      "Black chassis dimensions",
+      "exact Shopee hardware offer",
+      "bypass/headphone/tail/recorded-loop attenuation"
+    ],
+    "hardware_test": false
   }
 }

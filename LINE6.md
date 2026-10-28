@@ -114,6 +114,12 @@ Checked2026-10-19. [Line6 electrical specification](https://kb.line6.com/pod-exp
 
 [Yamaha Singapore exact Black+DC1G bundle page](https://shop.sg.yamaha.com/products/pedals/helix-series/pod-exp-blk-set.html), SKU155144/POD EXP BL SET, indexed specification listsL7.5×W16.2×H9.3cm,600g. Direct open failed. Chassis versus packaging/bundle basis is unspecified; do **not** certify fit or replace unknown device mass with600g. Its amp/effect labels also differ from the Black library already preserved above. No sibling dimensions transferred. Targeted exact Black/Shopee Indonesia searches yielded no qualified item this pass;not proof of market absence. IDR,condition,stock andbundle remain unknown;partial lead stays outside active inventory.
 
+### Black — firmware-qualified expression/looper fix (2026-10-28)
+
+[Official Line6 software release catalogue](https://line6.com/software/index.html?os=All&submit_form=set) lists **POD Express Firmware2.00.0, released2024-09-12**, explicitly compatible with Guitar, Bass and Black. Its fixes include a looper halting during expression-pedal use. This is a documented firmware fix, **not proof that expression attenuates existing loop playback**, tails or every output. Do not treat2.00 as the newest available firmware solely from this historical entry.
+
+The entry also separates the global Volume Wheel Control setting (main+headphones or headphones only) from expression-volume scope; thumbwheel coverage does not prove EXP coverage. Official Black Cheat Sheet RevA,40-00-0663©2024 independently identifies the wheel, PHONES and data-only USB: [manufacturer PDF](https://line6.com/data/6/0a00051a58516717cdc19d2ba/application/pdf/POD%20Express%20%7C%20Black%20Cheat%20Sheet%20-%20English%20.pdf). Joint RevE PDF again exceeded web retrieval size; no download, firmware installation or hardware test. Black remains a partial lead outside active counts; chassis dimensions and exact Shopee hardware offer remain unresolved.
+
 ### HX family distinction
 
 HX Effects, HX Stomp and HX Stomp XL remain **not certified in this audit as zero-per-preset-setup global volume solutions**. Their existing records stay intact. A Global EXP Position setting must never be treated as proof of a globally inserted volume block or output-controller assignment. A fresh firmware-matched check of output-level controller scope remains on the audit queue.
