@@ -3471,6 +3471,18 @@ Checked 2026-10-18; published compatibility, not local testing.
 | Editor / macOS compatibility | Matrix separately lists hardware/driver and exclusive application as Yes(Download) for **macOS15 Sequoia and26 Tahoe**. A source column labelled **macOS27 Golden Gate** is Under Testing for both. This records the retrieved table wording, not independent OS-release verification or unconditional future support. | [BOSS macOS matrix](https://www.boss.info/global/support/support_news/25090811m1/) |
 | Editor / Mac release and prerequisites | Mac Tone Studio **1.3.4 (February2026)** documents the same YouTube Session fix as Windows. Corresponding OS driver is required separately; minimum resolution1280×768. No application installed. | [Mac editor page](https://www.boss.info/global/support/by_product/pocket-gt/updates_drivers/b6636992-05ce-466f-9bb8-32c323a10804/) |
 
+### Pocket GT — direct analog expression screening, 2026-10-28
+
+[Exact BOSS product specifications](https://www.boss.info/global/products/pocket-gt/) reopened as manufacturer text;no new visual inspection orhardware test.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / direct path | Complete connectors:INPUT,PHONES/RECOUT,AUXIN,USBMicro-B. **No analogEXPinput**. EV-1-WL/FS-1-WL wirelesscontrol isseparate;their sockets do not become PocketGT sockets. Fails requested directanalogpath despitecompact71W×129Dmm chassis. |
+| I/O / headphones andlevels | Sharedstereo3.5mmPHONES/RECOUT: **2Ω outputimpedance;recommendedload≥16Ω**,nominal−10dBu. INPUTnominal−10dBu/maximum+7dBu/1MΩ;AUXnominal−13dBu/maximum0dBu/22kΩ. Thesearepublishedratings,not headphonepower ormeasured performance. |
+| Controls / onboard patch stepping | No onboardfootswitches inexistingcomplete inventory;hand-operatedVALUE memoryselection andexternalwirelesscontrol remainseparate. DirectEXPposition/range/bypasscoverage isnotapplicable;wirelessvolumecoverage stillunverified. |
+
+Earlierfirmware/software,serial-dependentconverterrevision andhistoricalIDRqualifications retained;noofferrefreshclaimed.
+
 ## SE-50
 
 Checked2026-10-17;partial. Half-rack stereo multi-effects,distinct from SE-70. Manufacturer documents guitar effects and vocal-specific processing. Bass support is documented in the French own-manual follow-up below;exact offered revision andownership remainunresolved.

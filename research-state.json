@@ -122976,6 +122976,19 @@
       "manual110": "officialentryandredirectrechecked;PDFstillinaccessible",
       "global_volume": "unverified",
       "next": "Seek new readable exact1.1.0evidence;do not repeat unchanged inaccessiblelink checks as technical verification"
+    },
+    "pocketgt_screening_20261028": {
+      "source": "https://www.boss.info/global/products/pocket-gt/",
+      "direct_exp": "absent from complete connector list",
+      "fit_mm": [
+        71,
+        129
+      ],
+      "phones": "shared3.5mm;2ohmoutput;load>=16ohm",
+      "onboard_footswitches": 0,
+      "wireless": "separate path;coverageunverified",
+      "inventory": "existingmodel;countunchanged",
+      "next": "Continue existingcompact no-treadle models not yet screened;retain unresolved globalvolume candidates"
     }
   },
   "brand_navigation": {
