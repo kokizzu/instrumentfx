@@ -290,6 +290,20 @@ Checked2026-10-28 against original ©2026 Roland HTML Parameter Guide/Sound List
 
 [Carryover instructions](https://static.roland.com/manuals/ex-4_reference/en-US/581404299589796619.html) saydestinationmemory settings affect thedecay. Fornatural transitions,BOSS recommends matching effecttypes andchainarrangement across preceding/following memories,whilechangingparameters/on-off states. EnableCARRYOVER inMASTER and**save thememory**. This isconditional memory-transition behavior,not globalvolume assignment,universal gaplessswitching orverified EXPattenuation ofdecayingtails. Other unresolved profilefields andexactShopee hardware remainpending;EX-4 staysoutsideactivecounts. No downloads ordevice test.
 
+### EX-4 — drive, delay, reverb and compressor subtype census
+
+Checked 2026-10-28 against original ©2026 Roland parameter tables. These are choices within four families, not extra simultaneous blocks or a completed reconciliation of the advertised 120 types.
+
+| Family | Complete TYPE enumeration in the checked page |
+|---|---|
+| [OD/DS](https://static.roland.com/manuals/ex-4_parameter/en-US/584045067637679499.html) | **35:** MID BOOST, CLEAN BST, TREBLE BST, NATURAL OD, WARM OD, BLUES OD, OVERDRIVE, CRUNCH, T-SCREAM, TURBO OD, CENTA OD, X-OD, DIST, A-DIST, FAT DS, LEAD DS, RAT, GUV DS, DIST+, X-DIST, METAL DS, METAL ZONE, HVY METAL, METAL CORE, OCT FUZZ, 60S FUZZ, MUFF FUZZ, BASS OD, X-BASS OD, BASS DS, BASS DI, SA DI DRIVE, HI BAND DRV, BASS MT, BASS FUZZ. |
+| [DELAY](https://static.roland.com/manuals/ex-4_parameter/en-US/584607499637695627.html) | **13:** STANDARD, PAN, REVERSE, ANALOG, SPACE ECHO, BIN ECHO, GIGA DELAY, VINT.DIGITAL, SLOW ATTACK, SHIMMER, WARP, TWIST, GLITCH. |
+| [REVERB](https://static.roland.com/manuals/ex-4_parameter/en-US/584640779637697163.html) | **8:** HALL S, HALL M, PLATE, ROOM S, ROOM L, AMBIENCE, SPRING, SHIMMER. |
+| [COMPRESSOR](https://static.roland.com/manuals/ex-4_parameter/en-US/583960587637677963.html) | **6:** BOSS COMP, D-COMP, ORANGE, X-COMP, STEREO, X-BASS. |
+
+Delay TIME is **1–2000 ms or BPM**, with type-dependent values and an explicit exception for TWIST. Tempo values outside the allowed span are synchronized at one-half or one-quarter instead. Footnote7 says TAP TIME applies only to **TAP**, but no TAP type appears in this page’s TYPE enumeration. Preserve this internal naming inconsistency; do not invent a fourteenth delay or silently substitute PAN. TRIGGER is stored Off when the memory is written, under the page’s type restrictions; it is not persistent phrase storage.
+
+Reverb TIME is **0.1–10.0 s**, PRE-DELAY **0–200 ms**. Compressor sustain applies to all listed types except X-BASS, which instead exposes THRESHOLD; the common relative0–100 controls are not published milliseconds or dB. Bass-specific choices here corroborate shared guitar/bass suitability, not a new vocal classification. Remaining family subtypes, current-firmware completeness, volume coverage and exact Shopee hardware remain unresolved. Partial lead remains outside active counts; no downloads or hardware tests.
 
 ## GM-800
 

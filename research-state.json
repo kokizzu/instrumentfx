@@ -24912,6 +24912,99 @@
       "carryover": {
         "source": "https://static.roland.com/manuals/ex-4_reference/en-US/581404299589796619.html",
         "scope": "Memorysaved;destinationsettingsaffecttail;matchingtype/orderrecommended;notEXPtailcoverage"
+      },
+      "subtype_census": {
+        "checked": "2026-10-28",
+        "odds": {
+          "count": 35,
+          "types": [
+            "MID BOOST",
+            "CLEAN BST",
+            "TREBLE BST",
+            "NATURAL OD",
+            "WARM OD",
+            "BLUES OD",
+            "OVERDRIVE",
+            "CRUNCH",
+            "T-SCREAM",
+            "TURBO OD",
+            "CENTA OD",
+            "X-OD",
+            "DIST",
+            "A-DIST",
+            "FAT DS",
+            "LEAD DS",
+            "RAT",
+            "GUV DS",
+            "DIST+",
+            "X-DIST",
+            "METAL DS",
+            "METAL ZONE",
+            "HVY METAL",
+            "METAL CORE",
+            "OCT FUZZ",
+            "60S FUZZ",
+            "MUFF FUZZ",
+            "BASS OD",
+            "X-BASS OD",
+            "BASS DS",
+            "BASS DI",
+            "SA DI DRIVE",
+            "HI BAND DRV",
+            "BASS MT",
+            "BASS FUZZ"
+          ],
+          "source": "https://static.roland.com/manuals/ex-4_parameter/en-US/584045067637679499.html"
+        },
+        "delay": {
+          "count": 13,
+          "types": [
+            "STANDARD",
+            "PAN",
+            "REVERSE",
+            "ANALOG",
+            "SPACE ECHO",
+            "BIN ECHO",
+            "GIGA DELAY",
+            "VINT.DIGITAL",
+            "SLOW ATTACK",
+            "SHIMMER",
+            "WARP",
+            "TWIST",
+            "GLITCH"
+          ],
+          "source": "https://static.roland.com/manuals/ex-4_parameter/en-US/584607499637695627.html",
+          "conflict": "TAP TIME footnote names TAP absent from TYPE enum;no14thtypeinferred",
+          "time": "1–2000ms/BPM,typequalified;TWISTexception"
+        },
+        "reverb": {
+          "count": 8,
+          "types": [
+            "HALL S",
+            "HALL M",
+            "PLATE",
+            "ROOM S",
+            "ROOM L",
+            "AMBIENCE",
+            "SPRING",
+            "SHIMMER"
+          ],
+          "source": "https://static.roland.com/manuals/ex-4_parameter/en-US/584640779637697163.html",
+          "time": "0.1–10s;predelay0–200ms"
+        },
+        "compressor": {
+          "count": 6,
+          "types": [
+            "BOSS COMP",
+            "D-COMP",
+            "ORANGE",
+            "X-COMP",
+            "STEREO",
+            "X-BASS"
+          ],
+          "source": "https://static.roland.com/manuals/ex-4_parameter/en-US/583960587637677963.html"
+        },
+        "qualification": "Four families only;120typeheadline not yet reconciled;outsideactiveinventory"
       }
     }
   ],
