@@ -1704,6 +1704,15 @@ DirectanalogEXP isdocumented;482W×305Dmm rackchassis far exceeds preferredfootp
 | Expression / tuner bypass | **TUNER Out=Bypass** retains direct-signal volume control via **EXP PEDAL1 orFC-200EXP(CC7)**;bypass output is **mono**. Exact documented path,not extrapolated toEXP2,allotherbypassstates orindependentoutputcoverage. |
 | Live / tuner output choices | Mute silences output;Current tunes usingcurrentpatchsound andmaymisbehave withpitch-detectioneffects. Bypass isnot proof ofrelay/analogtruebypass. Headphone,tails andrecordedHoldattenuation remainunverified. |
 
+### GT-Pro — USB routing and MIDI interface boundary 2026-10-28
+
+| Field | Finding / qualification |
+|---|---|
+| USB / source versus channel count | [Original BOSS manual](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf), indexed Chapter9: USB/DGT Out Ch selects MAIN,SUB or **MAIN+SUB mixed**, not separately exposed computer channels. MAIN/SUB includes its respective Global EQ; selection applies to chains ending DGT. Actual USB channel count remains unverified. |
+| USB / level and computer return | USB/DGT Out Level **0–200** controls USB and DIGITAL OUT level. With Input Select=Guitar In, USB Mix Channel sends computer return to MAIN,SUB or both; USB Mix Level **0–200**. These are routing/level choices, not extra USB audio channels or expression-volume coverage. |
+| USB / MIDI limitation | Same manual pp110,123: Special mode supplies GT-PRO Control MIDI ports for device SysEx/data, but rear MIDI IN/OUT cannot serve as the computer’s MIDI interface in either driver mode. Historical WDM/MME/ASIO2 support does not override current Windows10/11 incompatibility. |
+
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.

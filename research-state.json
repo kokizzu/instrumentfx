@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro globalFootVolume role saved;patchFVenable/range anddownstreamSynth limits qualified. Continue44category/13vs15reconciliation,remainingFXdefinitions,USBchannels,qualifiedIDR;392partial.",
+    "task": "GT-Pro USBMAIN+SUBmix andDIN MIDI-interface restriction saved;exactUSBchannelcount,44category/13vs15basis,remainingFXdefinitions andqualifiedIDR unresolved;392partial.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -123250,5 +123250,15 @@
     "meaning": "manufacturer notcompatible/no support planned;not a standaloneuse limitation",
     "device_test": false,
     "remaining": "macOS/Linux,USBchannelcount,categoryreconciliation andexactIDR"
+  },
+  "gtpro_usb_routing_20261028": {
+    "source": "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+    "access": "indexed original Chapter9,pp110,123",
+    "usb_source": "MAIN,SUB or mixedMAIN+SUB;not multichannel count proof",
+    "levels": "USB/DGTOut0–200;USBMix0–200",
+    "computer_return": "MAIN/SUB/both when GuitarIn",
+    "midi": "device Control port distinct from rearDIN;no computerDIN MIDI interface in either mode",
+    "channel_count": "unverified",
+    "next": "Exact USB channel count,44category/13vs15reconciliation andqualified Shopee GT-Pro offers"
   }
 }
