@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(line6): identify HX Effects global-position fix in 2.60'))
+    print(git('commit','-m','research(line6): qualify HX Stomp snapshot parameter control'))

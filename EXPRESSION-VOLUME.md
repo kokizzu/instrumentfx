@@ -337,3 +337,5 @@ Nano Cortex scope evidence,2026-10-28: [official NanOS2.1.0 preset-management fi
 Ampero Mini external-control boundary,2026-10-28: [ownV2.2 manual,pp20–21](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf) makes the other EXP/FS menu options unavailable in EXP mode. External Patch+/Patch− assignments belong to switch modes and are not verified simultaneous with analog EXP. Onboard navigation and global volume scope remain separate.
 
 GT-1000CORE tuner boundary,2026-10-28: [original2020 parameter guide,p55](https://files.kraftmusic.com/media/ownersmanual/Boss_GT-1000CORE_Parameter_Guide.pdf) distinguishes dry/all-effects-off BYPASS from effected THRU and MUTE. Pedal sweep during each mode remains unverified; older polyphonic-tuner content is not current2.02 certification.
+
+HX Stomp snapshot boundary,2026-10-28: [manufacturer3.50 notes](https://kb.line6.com/helix-3-50-release-notes) explicitly allow per-parameter Snapshot Control Off,defaultOn. This is separate from block Snapshot Bypass and global EXP-position recall; none creates an all-preset volume assignment.

@@ -124682,5 +124682,11 @@
     "finding": "Tuner BYPASS dry/all-effects-off, THRU current effect sound, MUTE silence. Do not infer SYSTEM FOOTVOL coverage in all modes; sweep not explicit.",
     "qualification": "Guide retains polyphonic tuner removed2.01; exact2.02 revision equivalence unverified.",
     "next": "Exact current parameter guide and headphone/tail/recorded-loop coverage; HX exact revision next; independentGTPro retained."
+  },
+  "hx_stomp_snapshot_parameter_boundary_20261028": {
+    "source": "https://kb.line6.com/helix-3-50-release-notes",
+    "release": "2022-11-03 firmware3.50",
+    "finding": "HX Stomp explicitly included: per-parameter Snapshot Control defaultOn, Off excludes snapshot value control. Separate from block Snapshot Bypass/globalEXPposition; not universal volume insertion/assignment.",
+    "next": "Continue exact3.80 Stomp/XL documentation, controller wiring and coverage; retain Mini/Nano/GP50 unresolved and independentGTPro cursor."
   }
 }

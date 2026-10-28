@@ -656,6 +656,11 @@ Physical VOLUME’s Main+HP/Phones setting is not an expression assignment. Acro
 
 Shopee pages reopened2026-10-28 retain **Rp8.900.000/Habis** for [otnielsusanto’s explicitly used unit](https://shopee.co.id/Line-6-HX-Stomp-%28Second-Bekas-Preloved%29-Digital-Multi-Effects-Electric-Guitar-Bass-Keyboard-Efek-Gitar-Elektrik-Akustik-i.91725285.26545060709),shop91725285/item26545060709,Kota Surabaya, month-old cache; and **Rp11.229.000** for [ROCKPIZZ MUSIC’s black retail hardware](https://shopee.co.id/LINE-6-HX-STOMP-MULTI-EFFECTS-GUITAR-PEDAL-BLACK-i.440477624.23519849983),shop440477624/item23519849983,Kota Denpasar, two-month-old cache. The retail extract does not establish stock or explicit new condition. Bundle, warranty region, delivered cost and checkout vouchers remain unverified; late-delivery compensation is not a purchase discount. Earlier dates and qualifications remain above.
 
+### HX Stomp — snapshot parameter control is not global assignment
+
+Checked2026-10-28 against [official Helix/HX3.50 release notes](https://kb.line6.com/helix-3-50-release-notes),2022-11-03, “Disable Snapshot Control over Parameter Assignments”; **HX Stomp explicitly included**. Controller Assign offers per-parameter Snapshot Control,defaultOn. Off prevents snapshots from controlling that assigned parameter; it is separate from a block’s Snapshot Bypass setting and global EXP-position recall. It does not create a universal Volume block,target mapping or final-output mute. Existing per-preset block/routing,all-bypass,headphone/tail/recorded-loop qualifications remain. This original release text establishes applicability without borrowing HX Effects behavior; no full3.80 PDF inspection, software operation ordownload claimed.
+
+
 ## HX Stomp XL
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
