@@ -125465,5 +125465,19 @@
     ],
     "next": "Exactmodel original wiring documentation;remaining no-treadle inventory andpriorityscope gaps",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "fx50_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "FLAMMA.md#fx50--direct-expression-capability",
+    "source": "https://manuals.plus/m/73e3ec7d0ea3fef78ff36424166808448005effadf28230eea4ac09b131d7d22",
+    "evidence": "Manufacturer manual transcription;original PDF/panel revision verification pending",
+    "result": "No analog EXP or treadle in complete numbered inventory;guitar input,stereo phones,128W85Dmm fit",
+    "navigation": "No footswitches;DRUM/VALUE clockwise forward,anticlockwise reverse in Patch mode",
+    "scope": "VOL remains active in Patch mode;not global expression assignment",
+    "unknown": [
+      "bypass/headphone/aux/drum/tail/recorded-loop volume coverage",
+      "original PDF/panel verification"
+    ],
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

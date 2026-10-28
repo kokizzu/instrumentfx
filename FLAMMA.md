@@ -400,6 +400,12 @@ Checked **2026-10-17**; partial. Portable guitar multi-effects; no bass/vocal cl
 
 <!-- comparison evidence ends -->
 
+### FX50 — direct expression capability
+
+Checked **2026-10-28**, using the revision-qualified [manufacturer-manual transcription][F50-M] identified below. Complete numbered controls/connectors list no treadle or analog EXP input; this fails the documented direct-pedal path. Original PDF/panel verification remains pending. Guitar input, dedicated stereo3.5mm headphones and128W×85Dmm chassis are documented; footprint fits.
+
+There are no onboard footswitches. In Patch mode, DRUM/VALUE rotates clockwise for forward presets and anticlockwise for reverse. VOL controls output and remains active in Patch mode; this hand control does not establish global expression assignment. Direct-pedal position, endpoints and recall are inapplicable to the documented inventory. Bypass, headphone,aux/drum,tail andrecorded-loop volume coverage remain unverified.
+
 ### Exact Shopee candidate and variation limitation
 
 Checked **2026-10-17**: [NEO MUSIC,shop158235298/item52052193549](https://shopee.co.id/FLAMMA-FX50-Portable-Multi-Effects-Guitar-Pedal-i.158235298.52052193549),Kota Sukabumi: **Rp609,760**,two variations. Three-month search cache,reopened one-month cache. Exact FX50 title,but variation identities and per-variation hardware/bundle prices unresolved. No Habis marker does not confirm stock. Sale/working condition,selected color/variant,adapter/battery bundle,warranty,shipping/tax,voucher and final total unknown. Tomorrow delivery and late compensation do not establish availability or a discount. Not a completed sale or qualified used/new range. Manufacturer Green/Orange colors do not prove these seller variations are colors.
