@@ -123202,6 +123202,29 @@
       "phones": "dedicated3.5mmstereo",
       "market": "191485301/26444289932cachemiss;previousasknotrecertified",
       "next": "Original model screened;MicroPlus requires ownmanual;continue remainingno-treadleinventory andexactoffers"
+    },
+    "mustangmicroplus_20261028": {
+      "sources": [
+        "https://www.manualslib.com/manual/3639033/Fender-Mustang-Micro-Plus.html?page=3",
+        "https://www.manualslib.com/manual/3639033/Fender-Mustang-Micro-Plus.html?page=10"
+      ],
+      "identity": "manufacturer-authored PR6171 original,printedpp2,9;not originalMicro",
+      "direct_exp": "absent complete inventory",
+      "footswitches": 0,
+      "headphones": "3.5mmstereo,>=16ohm,30mW/channel;load/distortionunspecified",
+      "size_mm": [
+        38.1,
+        30.7,
+        80
+      ],
+      "offer": {
+        "seller": "16879370",
+        "item": "26916147755",
+        "idr": 2635000,
+        "access": "week-old direct cache",
+        "condition_stock_bundle_checkout": "unverified"
+      },
+      "next": "Continue unscreened no-treadle inventory andqualified offers;preserve compact global-volume uncertainties"
     }
   },
   "brand_navigation": {

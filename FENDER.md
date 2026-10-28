@@ -159,6 +159,16 @@ Checked2026-10-18: [Fender-authored filing manual](https://fccid.io/XQW-MUMPPR61
 | I/O / USB manual conflict | Filing printed p8 says USB is **source-only, without return monitoring**. The later [manual p7][MMP-L8] and [current product][MMP-P] instead say **bidirectional**. Preserve both versions; the filing restriction does not override later documentation. USB channels, sample rates and dry/reamp/loopback routing remain unresolved. |
 | I/O / filing electrical specifications | Printed p9 lists **1MΩ instrument input**, **30mW per headphone channel** and headphones **16Ω or greater**. These are filing-manual specifications, not independent measurements or confirmation of every production revision. |
 
+
+### Mustang Micro Plus — direct expression and headphone specification 2026-10-28
+
+| Field | Finding / qualification |
+|---|---|
+| Expression / connector screening | Manufacturer-authored [PR6171 manual printedp2](https://www.manualslib.com/manual/3639033/Fender-Mustang-Micro-Plus.html?page=3), exact model/features: complete inventory has **no analog EXP or onboard footswitch**. Preset± are hand buttons. Bluetooth Tone editing is separate from direct analog expression. No visual/device test. |
+| I/O / headphone electrical limits | Same [own manual printedp9](https://www.manualslib.com/manual/3639033/Fender-Mustang-Micro-Plus.html?page=10): input1MΩ;stereo3.5mm output **30mW/channel**,headphone working range **≥16Ω**. Test load/distortion for rated power unstated. These are not original Micro specifications. |
+| Dimensions / volume scope | OwnPR6171 specification38.1W×30.7D×80Hmm,54g,plug stored:fits rectangle. PhysicalMaster controls instrument/Bluetooth overall level;does not prove external expression. DirectEXP position/range/bypass/tail/looper coverage inapplicable;digital control coverage unverified. |
+| IDR / exact offer recheck |2026-10-28 [Seven Stereo16879370/26916147755](https://shopee.co.id/Fender-Mustang-Micro-Plus-Guitar-Combo-Amplifier-Headphone-Guitar-Amp-i.16879370.26916147755),week-old direct cache:Rp2.635.000. Condition,currentstock,variant,bundle,warranty,vouchers,shipping/tax andcheckout unverified. EarlierKotaBandung seller qualification retained;historical ask,not completed sale orverified new/used range. |
+
 <!-- comparison evidence ends -->
 
 No condition-confirmed used/new allocation. Variant,bundle,workingcondition,authenticity,warranty,shipping/tax/vouchers unresolved.
