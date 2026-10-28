@@ -877,6 +877,15 @@ Checked 2026-10-22. [Jojomusicstore hardware listing](https://shopee.co.id/Valet
 
 The manufacturer-linked1.1.0 manual remains inaccessible at res.diversitone.com;the same filename on res.valeton.net also failed. No current expression-scope claim follows. Third-party reports of Bluetooth MIDI additions remain leads,not verified firmware facts. Earlier1.0.5controller limitations and separate later-version compatibility are retained.
 
+### GP-50 — across-preset expression-volume audit, 2026-10-19
+
+[Manufacturer-authored firmware 1.0.5 manual](https://manuals.plus/m/62ee73765be68fba94241219c8e998d6763ec022993418a85a41cc932830b64d.pdf), identified by its title page and exact GP-50 panel, printed pp16–17: expression defaults to VOL; target and 0–100 endpoints are editable per patch. Pre preserves time-effect decays; Post cuts them. Controls may change with patches. **No every-preset global target override verified.** Global calibration/socket mode does not prove assignment scope. Bypass, headphone and looper attenuation remain unknown. Onboard A/B switch patches in Patch Mode; directional mapping not text-verified here.
+
+[Official firmware 1.1.0 listing](https://www.valeton.net/wpfd_file/gp-50-firmware-v1-1-0-zip%EF%BC%88compatible-with-computer-software-v2-1-0-and-mobile-software-v2-1-0%EF%BC%89/) names computer/mobile software 2.1.0; the older manual does not certify current expression behavior. No archive downloaded. [Capability comparison](EXPRESSION-VOLUME.md).
+
+**IDR recheck:** [HOLY MUSIC seller945642322/item55704518866](https://shopee.co.id/VALETON-GP-50-MULTI-EFFECT-PROCESSOR-Gp50-efek-valeton-gp50-i.945642322.55704518866), Jakarta Utara, cached last-month body reopened2026-10-19: Rp2.255.000. No Habis displayed; relative delivery is not stock confirmation. Condition, bundle, warranty, shipping/tax and checkout remain unverified. Late-delivery compensation is not a hardware discount. Earlier snapshots retained.
+
+
 ## GP-100
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
@@ -1636,10 +1645,13 @@ Checked 2026-10-18. [Two-page V02 manual copy](https://www.scribd.com/document/7
 
 A [second mirror](https://manuals.plus/m/185037a00bd2a4db6dc63b0316b7e896d001043744755b36254364e31de13747) links an original two-page483.86KB PDF matching the official file-size listing, but its PDF yields no extracted text. Its generated diagram-description section is not used as a panel audit. Distributor Music Alliance exact product endpoint returned403. No file download or image inspection performed.
 
-### GP-50 — across-preset expression-volume audit, 2026-10-19
 
-[Manufacturer-authored firmware 1.0.5 manual](https://manuals.plus/m/62ee73765be68fba94241219c8e998d6763ec022993418a85a41cc932830b64d.pdf), identified by its title page and exact GP-50 panel, printed pp16–17: expression defaults to VOL; target and 0–100 endpoints are editable per patch. Pre preserves time-effect decays; Post cuts them. Controls may change with patches. **No every-preset global target override verified.** Global calibration/socket mode does not prove assignment scope. Bypass, headphone and looper attenuation remain unknown. Onboard A/B switch patches in Patch Mode; directional mapping not text-verified here.
+### RH-100 — volume controls and screening boundary, 2026-10-28
 
-[Official firmware 1.1.0 listing](https://www.valeton.net/wpfd_file/gp-50-firmware-v1-1-0-zip%EF%BC%88compatible-with-computer-software-v2-1-0-and-mobile-software-v2-1-0%EF%BC%89/) names computer/mobile software 2.1.0; the older manual does not certify current expression behavior. No archive downloaded. [Capability comparison](EXPRESSION-VOLUME.md).
+| Field | Evidence / qualification |
+|---|---|
+| Controls / volume | [Matched V02 manual body](https://www.scribd.com/document/702238767/RH-100-Rushead-Max-Manual-en-V02-211025) describes **VOL as output volume**,GAIN as amp gain,and separate MOD/AMBIENT amount controls. This documents hand controls,not global analog expression assignment. Complete connector inventory remains unverified;no analog EXP or preset-storage absence asserted from incomplete text. |
+| Dimensions / screening | [Exact regional manufacturer page](https://www.hotone.jp/brands/valeton/products/rushead-max) corroborates100W×88.5D×31.5H mm,68g;fits preferred body rectangle. Existing Chinese axis-label conflict remains above. Direct Japanese manual-image link failed;no visual panel audit claimed. |
+| IDR / qualified refresh | [Salomo Musik exact item1776275/26704878084](https://shopee.co.id/Valeton-RH-100-Rushead-Max-Pocket-Guitar-Headphone-Amp-Original-i.1776275.26704878084),KotaJakartaUtara,reopened2026-10-28:week-old cache **Rp785.000 Dengan Voucher**,minimumRp10.000/10% banner. Cap/eligibility/display treatment unknown;no second subtraction. Condition,new/used,stock,variant,bundle,warranty,shipping/tax andfinal checkout remain unknown. Relative same-day delivery isnot stock proof. |
 
-**IDR recheck:** [HOLY MUSIC seller945642322/item55704518866](https://shopee.co.id/VALETON-GP-50-MULTI-EFFECT-PROCESSOR-Gp50-efek-valeton-gp50-i.945642322.55704518866), Jakarta Utara, cached last-month body reopened2026-10-19: Rp2.255.000. No Habis displayed; relative delivery is not stock confirmation. Condition, bundle, warranty, shipping/tax and checkout remain unverified. Late-delivery compensation is not a hardware discount. Earlier snapshots retained.
+The older GP-50 audit previously filed beneath this model has been transferred intact to GP-50;its sources and qualifications are preserved and do not describe RH-100.
