@@ -126,3 +126,9 @@ Checked 2026-10-18. [KosmOS 1.17 PDF][ANA-M], PDF pp.61, 66–68, 73–76; later
 | Firmware / mixer persistence | [Official Suite changelog](https://www.darkglass.com/products/darkglass-suite), KosmOS **1.18.1**, fixes mixer/global-EQ values not persisting after numpad entry. It also fixes saving to the wrong preset area and retains the chosen user area when trying Suite presets. Manual persistence statements therefore require firmware/method qualification. No update performed. |
 
 USB direction remains unresolved: the 1.17 PDF labels 12 channels as 3in/9out without a complete readable host-direction routing table. Do not borrow Exponent 500 or ADAM channel assignments. The product/Suite 126-versus127 user-area conflict remains open.
+
+### Anagram — preset expression bindings and global mixer boundary
+
+Checked2026-10-28 in [official PDF][ANA-M],coverKosmOS1.17,PDFpp6,51–53,95. Presets explicitly contain bindings;Binding Settings configures expression interaction with parameters in the preset,including minimum/maximum andmacro targets. Thus documented binding configuration is **per preset**;a separate universal volume override remains unverified. Persistent mixer levels/Master links do not establish an EXP mapping toMaster. RETURN/EXP requires ring-signal RTS wiring andexcludes simultaneous stereo-return use;dedicated3.5mm phones documented. Bass use established,guitar suitability unclassified.210×105mm fails preferred rectangle either orientation. Bypass/headphone/tail/recorded-loop attenuation andheld-position recall remain unknown;onboard preset down/up needs exact-mode verification.
+
+The [official web block list](https://www.darkglass.com/en-gb/pages/anagram-manual) now labels **v1.19.0**;PDF remains1.17. This is a version observation,not a new firmware/category census orproof of1.19global-volume behavior. No package downloaded orhardware operated.

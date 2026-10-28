@@ -124737,5 +124737,12 @@
     "finding": "Shared quarterinch headphone mode confirmed;both sides not stereo processing proof. PhysicalVolume conditional onSansAmp engaged,notglobalEXP. EXP unverified,no completevisualabsence audit.",
     "footprint": "317.5x69.85mm converted fails either orientation",
     "next": "Continue remaining no-treadle exactmodels including Anagram/QuadCortex; priorityMini/Nano/GP50 and independentGTPro retained."
+  },
+  "anagram_expression_screen_20261028": {
+    "source": "https://api.darkglass.com/static/Anagram-Manual.pdf",
+    "revision": "KosmOS1.17 PDFpp6,51–53,95",
+    "finding": "Bindings stored in presets;expression minmax/macros preset context. Global mixer persistence not EXPmaster assignment;separateglobaloverrideunknown. RETURNshared RTS ring wiring;phonesyes;210x105failsfit.",
+    "new_revision": "Official en-gb web blocklist1.19.0 vsPDF1.17;no1.19category/behavioraudit claimed.",
+    "next": "Remaining no-treadle inventory; Mini/Nano/GP50 scope and independentGTPro retained."
   }
 }
