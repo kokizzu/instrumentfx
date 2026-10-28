@@ -261,6 +261,16 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | Conversion / internal audio | **31.25 kHz** sampling; **20-bit ADC with64× oversampling;20-bit DAC with8× oversampling**. These are internal converter specifications, not USB audio. [Own manual p38][Z606-M] |
 | I/O / analog ratings | Input **−20dBm nominal,470kΩ**; output **+5dBm maximum into≥10kΩ**. The manual defines0dBm=0.775Vrms; retain its convention. Separate headphone power and measured headroom remain unverified. [Own manual p38][Z606-M] |
 | Live / preselection | Start while holding UP to stage patch choices without changing sound. Both footswitches confirm the displayed choice; VALUE± can select banks. Restart restores direct selection. This is patch staging, not scenes or gapless-switching proof. [Own manual pp20–21][Z606-M] |
+### 606 — no-treadle shortlist reconciliation, 2026-10-28
+
+[Original 606 manual][Z606-M], printed pp3,6–7,10–11, was reopened as browser text. The manufacturer explicitly describes the integrated expression pedal; no new visual panel inspection is claimed.
+
+| Field | Scope decision / qualification |
+|---|---|
+| Expression / shortlist eligibility | **Built-in treadle: excluded from the no-treadle shortlist**, retained as an active guitar multi-effects model. The complete connector inventory has no external EXP input. Built-in bypass-volume behavior does not qualify the requested direct external-expression path. |
+
+The [mixed606/607 hardware item][Z606-O] remained inaccessible on2026-10-28. The older Rp1.099.000 listing-level ask is still not an exact606 used/new price; variant, condition, origin, bundle, voucher and live stock remain unresolved.
+
 <!-- comparison evidence ends -->
 
 Seller, stock, working state, authenticity/origin, bundle, adapter, warranty, shipping, tax and vouchers unresolved. No current-stock claim. Browser manual text only; no filesystem download or visual inspection.

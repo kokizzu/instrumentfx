@@ -5,7 +5,7 @@ from research_tools import git, verify
 import comparison_views
 
 if __name__ == '__main__':
-    assert sys.argv[1:] in (['commit'], ['commit-505'])
+    assert sys.argv[1:] in (['commit'], ['commit-505'], ['commit-606'], ['commit-607'])
     verify()
     comparison_views.verify_views()
     comparison_views.test_readme_brand_counts()
@@ -14,7 +14,11 @@ if __name__ == '__main__':
     allowed = {'ZOOM.md','EXPRESSION-VOLUME.md','README.md','MULTI-EFFECTS.md','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md','research-state.json','scripts/comparison_views.py','scripts/expression_audit_zoom.py','Makefile'}
     changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
     assert changed <= allowed, changed - allowed
+    assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
     message = 'research(zoom): document original 505 conditional expression volume' if sys.argv[1]=='commit-505' else 'research(zoom): document original G1 patch expression and bypass volume'
+    if sys.argv[1] in ['commit-606','commit-607']:
+        model=sys.argv[1].split('-')[1]
+        message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     print(git('commit','-m',message))

@@ -2127,3 +2127,9 @@ brand-sort-test:
 .PHONY: expression-audit-commit-zoom-505
 expression-audit-commit-zoom-505:
 	python3 scripts/expression_audit_zoom.py commit-505
+
+.PHONY: expression-audit-commit-zoom-606 expression-audit-commit-zoom-607
+expression-audit-commit-zoom-606:
+	python3 scripts/expression_audit_zoom.py commit-606
+expression-audit-commit-zoom-607:
+	python3 scripts/expression_audit_zoom.py commit-607

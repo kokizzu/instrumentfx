@@ -199,3 +199,5 @@ Nano Cortex [volume-target distinction](NEURAL-DSP.md#nano-cortex--three-distinc
 GP-50 [MIDI target distinction](VALETON.md#gp-50--midi-master-volume-is-a-separate-control-path): master, patch and EXP commands are separate. This does not resolve direct analog global-volume assignment.
 
 M-VAVE [protocol-lead screening](M-VAVE.md#chocolate--protocol-research-lead-is-not-expression-verification): switch CC examples do not verify expression sweep; exact controller wiring and revision remain open.
+
+Zoom606 scope reconciliation2026-10-28: [own manual](https://zoomcorp.com/media/documents/E_606.pdf) explicitly documents its built-in treadle. Excluded from this no-treadle shortlist; retained in [general guitar inventory](ZOOM.md#606). No external EXP input appears in the complete connector inventory. Its built-in bypass-volume behavior is not direct external analog expression support.
