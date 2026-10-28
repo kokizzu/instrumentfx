@@ -567,3 +567,5 @@ Manufacturer-filed [Chocolate Plus model-name declaration](M-VAVE.md#chocolate-p
 GS-10 [Assign Hold and tuner qualifications](BOSS.md#gs-10--assign-hold-recall-and-tuner-bypass-boundary): ordinary Assign recall is target-dependent; fixed global Foot Volume recall and output coverage remain unverified. Tuner bypass does not inherit GT-Pro’s separately documented volume behavior.
 
 GP-50 [looper persistence qualification](VALETON.md#gp-50--looper-screen-exit-versus-recording-persistence): firmware1.0.5 retains looper state when its screen is closed,but does not save recordings permanently. Separate record/playback levels do not verify expression attenuation. Current1.1.0 behavior remains unverified.
+
+VP4 [local-pedal startup boundary](FRACTAL-AUDIO.md#vp4--local-pedal-startup-boundary-and-exact-interfaces): MIDI External Controller Initial Value explicitly excludes local analog pedals. Global volume assignment remains documented separately; analog startup recall and bypass/tail/loop attenuation remain unverified. Partial lead, outside active counts.

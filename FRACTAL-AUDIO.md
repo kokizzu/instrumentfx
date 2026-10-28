@@ -162,3 +162,17 @@ Tuner **Auto In/Manual In** mute at input andallow tails; **Auto Out/Manual Out*
 Checked2026-10-28. [Manufacturer downloads page](https://www.fractalaudio.com/vp4-downloads/) currently lists **firmware4.04,2026-09-02**,separate from the2024v1.06 manual andfirmware3 IR introduction. The sharedAM4/VP4 Windows USB driver specifies **Windows11 ornewer,x86/x64/ARM**;older systems may work butare explicitly unsupported. This is driver support,not a full editor OS matrix. The separately dated2025-04-10 factory-presets archive targets firmware2.00+ andoverwrites existing presets;its listing doesnot prove current factory-fill count. No archive orinstaller opened/downloaded.
 
 [Carousell exact item1451552917](https://id.carousell.com/p/efek-gitar-fractal-vp4-1451552917/),three-month searchcache,asks **Rp12,000,000 negotiable**,labelled Seperti baru,Depok. Seller description claims normal condition andunit,adapter,adapterconverter,box;MIDI/USB cables missing. These are seller claims,not inspected condition orverified accessory ratings. The itemcache names **zaidanalla64732**,while[profile/searchcache](https://id.carousell.com/u/containerx/) associates the sameitem with **containerx**;seller identity unresolved. Directitem reopening missedcache;relative5hours posting text isstale,not a currentpostingdate. Seller’s claimed15million newprice isnot independentnew-price evidence. NotShopee,liveavailability,completed sale orcondition-tested marketrange. ExactShopee hardware andcompleteprofile stillpending;outsideactivecounts.
+
+### VP4 — local-pedal startup boundary and exact interfaces
+
+Checked 2026-10-28 in [manufacturer v1.06 manual,2024-10-23](https://www.fractalaudio.com/downloads/manuals/VP4/VP4-Owners-Manual.pdf), printed pp48–49,53–54. Historical revision, not certification of firmware4.04 behavior.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / startup | External Controllers1–4 Initial Value applies only to MIDI CC assignments, explicitly excluding local pedals/switches. It cannot establish analog-pedal startup recall. Global Input/Output Volume assignment remains separately documented; bypass, tails and recorded-loop attenuation remain unknown. |
+| Controls / display | **5 knobs /4 footswitches /6 buttons**; **480×272 color LCD**. Published diagonal and touch status remain unverified. |
+| USB / digital audio | USB2.0 class-compliant Type-C, **2 input +2 output channels**, fixed48kHz. This is four total channels, not4×4. S/PDIF uses RCA coaxial input/output, PCM48kHz. USB power remains unverified. |
+| MIDI | Separate3.5mm TRS Type-A input/output. No dedicated THRU socket; configurable merge to OUT. |
+| Dimensions / discrepancy | Specification gives66.0mm height; dimension drawing text also contains63.6/69.9mm. Their physical reference points need visual verification; no silent replacement of the published specification. Width254mm/depth160.3mm still exceed preference. |
+
+No local download or device test. Exact Shopee hardware, full library/profile and output coverage remain unresolved; this lead stays outside active counts.

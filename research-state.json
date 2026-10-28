@@ -128408,5 +128408,43 @@
     "change": "Restore already-documented regional distinction to selected comparison; do not imply universal-voltage operation.",
     "preservation": "All detailed and historical paragraphs unchanged.",
     "next": "Continue unresolved GT-Pro fields and independent no-treadle expression audit; fresh exact Shopee hardware discovery remains open."
+  },
+  "vp4_local_pedal_startup_interfaces_20261028": {
+    "checked": "2026-10-28",
+    "source": "https://www.fractalaudio.com/downloads/manuals/VP4/VP4-Owners-Manual.pdf",
+    "revision": "1.06,2024-10-23",
+    "pages": [
+      48,
+      49,
+      53,
+      54
+    ],
+    "active": false,
+    "initial_value": "MIDI CC only; excludes locally connected pedals and switches",
+    "controls": {
+      "knobs": 5,
+      "footswitches": 4,
+      "buttons": 6
+    },
+    "display": {
+      "pixels": [
+        480,
+        272
+      ],
+      "color": true,
+      "diagonal": "unknown",
+      "touch": "unknown"
+    },
+    "usb": {
+      "inputs": 2,
+      "outputs": 2,
+      "sample_rate_hz": 48000,
+      "class_compliant": true,
+      "power": "unknown"
+    },
+    "midi": "3.5mm TRS Type A input/output; configurable merge, no dedicated THRU",
+    "height": "spec66mm; drawing text63.6/69.9mm reference points unverified",
+    "remaining": "Exact Shopee hardware; full profile/library; analog startup recall, endpoints and output/bypass/tail/loop coverage",
+    "downloads": false
   }
 }
