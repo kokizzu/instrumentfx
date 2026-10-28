@@ -475,3 +475,7 @@ M-VAVE [host-panel electrical-label check](M-VAVE.md#footctrlplus-host-panel-man
 ### BOSS VE-5 — global switch functions are not expression volume
 
 [Exact-model screen](BOSS.md#ve-5--switch-controls-versus-continuous-expression): CTL1/2 documents switches,not analog EXP. Bare178W×108Dmm fits;holder raises depth159mm. Stereo-mini PHONES/LINE present. Vocal-only,outside main guitar table;ordinary-guitar suitability unclassified. No onboard footswitches;external sound/favorite Inc/Dec andglobal settings are separate fromcontinuous volume.
+
+### BOSS VE-1 — switched levels and timed memory cycling
+
+[Exact-model screen](BOSS.md#ve-1--direct-control-exclusion-and-timed-memory-cycle): no analog EXP;FOOT SW levels are switched.156W×116Dmm fits;stereo-mini phones present. Normal-guitar suitability unclassified,vocal-only outside main table. Onboard hold cycles memories;external increment only,not independent down/up. Enhance remains active during pedal bypass.

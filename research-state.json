@@ -125628,5 +125628,21 @@
     ],
     "next": "VE-1 exact-model capability screen",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "ve1_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "BOSS.md#ve-1--direct-control-exclusion-and-timed-memory-cycle",
+    "source": "https://static.roland.com/assets/media/pdf/VE-1_s01_W.pdf",
+    "identity": "Original Spanish single-sheet2014Roland manual",
+    "result": "No analog EXP;switch-level targets not continuous volume;normal guitar unclassified,vocal-only outside main table",
+    "fit": "156W116Dmm fits;stereo-mini phones",
+    "navigation": "Onboard >=2s hold cycles A/B/C/manual each1s;external MEMORY INC,no decrement in options",
+    "bypass": "Enhance remains active",
+    "unknown": [
+      "guitar suitability",
+      "pedal attenuation coverage"
+    ],
+    "next": "Remaining no-treadle inventory;priority global-volume scope questions",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

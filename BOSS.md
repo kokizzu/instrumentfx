@@ -3916,6 +3916,12 @@ Checked 2026-10-18 against model-specific support and dated compatibility docume
 | Editor / macOS hardware-driver status | Manufacturer table updated **2026-09-16** lists VE-1 Hardware & Driver **Yes(Download) on macOS15/26**, **Under Testing on27**. Exclusive Application is **—** for all three; driver compatibility does not establish a full editor. This is dated manufacturer status, not local testing. | [Official macOS table](https://www.boss.info/global/support/support_news/25090811m1/) |
 | I/O / USB computer-return level | Model-specific Japanese support answer states that the computer-to-VE-1 audio level must be adjusted **on the computer**. It confirms the dedicated driver requirement and the four documented routing modes; it publishes no numerical channel, rate, bit-depth or bus-power specification. | [Official VE-1 USB answer](https://support.roland.com/hc/ja/articles/4404884877083) |
 
+### VE-1 — direct-control exclusion and timed memory cycle
+
+Checked **2026-10-28** against original [Spanish owner manual][VE1-M],single-sheet2014Roland document. Complete panel/connector inventory lists no treadle/analog EXP;FOOT SW supports switched functions. ECHO LEVEL switches aneffect level,not continuous master volume. MIC IN is documented formicrophones;normal guitar-pickup suitability remains unclassified. Retain vocal-only membership,outside requested guitar capability table.156W×116Dmm fits;stereo-mini PHONES/LINE documented.
+
+Hold onboard pedal≥2seconds:memory cycles A/B/C/manual at1second intervals;release selects. This is not independent down/up. External MEMORY INC advances only;no decrement function in the seven-option table. Pedal bypass switches echo/pitch correction butleavesEnhance active. Direct-pedal position,endpoints andrecall are inapplicable to documented inventory;pedal headphone/bypass/tail/recorded-loop attenuation remains unverified. No hardware test orfresh visual inspection.
+
 ## VE-2
 
 Vocal multi-effects;guitar chord detection does not establish guitar multi-effects. Consolidated/researched2026-10-16;partial verification.

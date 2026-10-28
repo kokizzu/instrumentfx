@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(boss): distinguish VE-5 switch assignments from expression'))
+    print(git('commit','-m','research(boss): qualify VE-1 switched levels and memory cycle'))
