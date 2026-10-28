@@ -680,6 +680,18 @@ Checked 2026-10-18.
 
 Sources: [Developer-authored Indonesian App Store listing](https://apps.apple.com/id/app/valeton-suite/id6739420888); [regional conversion notice](https://www.hotone.jp/announcements/nama2allbrand); algorithm evidence above.
 
+### GP-5 — direct analog expression screening, 2026-10-28
+
+[Current exact-model manufacturer specifications](https://www.valeton.net/product/gp-5/) reopened asbrowsertext;no newvisualinspection,hardwaretest ordownload.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / direct path | Complete connector specification listsTSinstrumentinput,sharedunbalancedTRSstereo/headphoneoutput,USB-C andDCpower;**no analogEXPsocket**. No built-in treadle inexistingnumberedpanelinventory. Failsrequested directanalogpath. GP-50’sEXP/FS isnot aGP-5feature. |
+| Dimensions / mass | Manufacturerlabels **93.5W×42D×52Hmm**,237g;fits preferredrectangle. Headphonesuse shared6.35mmTRSoutput,notadedicated3.5mmjack. |
+| Controls / navigation qualification | OnefootswitchwithalternativePatch/Songlist/StompCTL/TunerBypassmodes;not separatepresetdown/upfootcontrols. Wireless/USBcontrolscope remainsseparatefromdirectanalogEXP. DirectEXPposition/range/bypasscoverage N/A. |
+
+Earlierfirmware1.0.3algorithms,July2025USBhostFAQ,laterNAMconversionevidence andprices remainpreserved. Noofferrefreshorcurrentcontrollercompatibilitytest claimed.
+
 ## GP-50
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. NAM compatibility and qualified Shopee snapshots were additionally checked2026-10-17; complete firmware contents and checkout stock remain unverified. Historical next-model notes are provenance; use research-state.json for current work.

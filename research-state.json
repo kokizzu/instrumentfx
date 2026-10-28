@@ -123015,6 +123015,20 @@
       "foot_control": "one-switchcycle;notseparatedownup",
       "inventory": "existingmodel;countunchanged",
       "next": "Continue compactno-treadle models notyet screened;preserve globalvolumeuncertainties"
+    },
+    "gp5_screening_20261028": {
+      "source": "https://www.valeton.net/product/gp-5/",
+      "direct_exp": "absent completeconnector specification",
+      "chassis_mm": {
+        "width": 93.5,
+        "depth": 42,
+        "height": 52
+      },
+      "phones": "shared6.35mmTRSstereo",
+      "preset_down_up": "onealternative-modefootswitch;notseparatepair",
+      "digital": "unaudited;notdirectanalog",
+      "inventory": "existingmodel,countunchanged",
+      "next": "Continue remainingno-treadle models andunresolved Mini/Nano scope usingnewexactevidence"
     }
   },
   "brand_navigation": {
