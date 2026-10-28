@@ -262,3 +262,9 @@ Checked2026-10-18 against original manual [effect list][TS-M],printedpp21–26;P
 | Simultaneous processing | Eight tone modules pluslooper/drum make advertised10modules;105/125 arechoices/positions,not simultaneousblocks. Repeated-category instances andDSP-dependent restrictions remainunverified. |
 
 The cited appendix is dated only byits source context;laterfirmware/library changes require separate evidence. Empty slots are notfactory sounds. NAMconversion architecture/size limits,qualifiedused/newprices andscreen touch remainunresolved.
+
+### Tiny Stomp — expression-volume capability screen
+
+Checked **2026-10-28** in [manufacturer Tiny Stomp manual,JME-03A](https://www.soranaudio.com/upload/files/article/20260106/17676658354117637.pdf),printedpp5–10,30. Direct TRS EXP is documented **for volume**,10–100kΩ;the shared socket alternatively accepts dual switches,ring preset down/tip up. No concurrent EXP plus dual-switch operation established. Numbered panel has hand Left/Right buttons for preset down/up,**no onboard footswitches or treadle**.
+
+109×84mm horizontal dimensions fit either orientation;shared quarter-inch stereo OUT/PHONES is documented. Physical global Master andpreset-stored Preset Volume are separate from expression scope. **Across-preset volume assignment,placement,min/max,recall,bypass/headphone/tail/recorded-loop attenuation remain unverified.** Manual revision date remains unprinted;no device test ordownload. All earlier prices,conversion andfirmware qualifications retained.

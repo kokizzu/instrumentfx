@@ -124890,5 +124890,11 @@
       "new_offer_verified": false
     },
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "tinystomp_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "SORAN.md#tiny-stomp--expression-volume-capability-screen",
+    "status": "Partial,direct volume documented;global assignment andcoverage unverified",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
