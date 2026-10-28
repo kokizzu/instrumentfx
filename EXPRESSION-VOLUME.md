@@ -507,3 +507,7 @@ M-VAVE [host-panel electrical-label check](M-VAVE.md#footctrlplus-host-panel-man
 ### TC-Helicon Critical Mass — group MIX is not volume assignment
 
 [Exact-model screen](TC-HELICON.md#critical-mass--direct-control-and-mix-boundary): no analog EXP or headphones in complete inventory. MIX blends group/lead vocals; Mic Control and onboard bypass are switched functions. Vocal-only, outside guitar table; normal-guitar suitability, axis-labelled fit and preset down/up remain unverified.
+
+### TC-Helicon Duplicator — doubling level is not master volume
+
+[Exact Rev.1 screen](TC-HELICON.md#duplicator--added-voice-level-and-direct-control-boundary): no analog EXP/headphones in complete inventory. DOUBLING sets added-voice level; Mic Control is switched. Vocal-only, outside guitar table. Preset down/up and axis-labelled fit unverified; newer bypass/phantom conflicts retained.

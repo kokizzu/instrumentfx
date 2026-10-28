@@ -149,6 +149,12 @@ Remaining: phantom/voice-count/bypass/power revision differences; expression; di
 [DUP-Q]: https://cdn.mediavalet.com/aunsw/musictribe/MfGe9GHeqUqwunXsAFRvQA/kQwtATa7aE2g5PQK24beWQ/Original/QSG_TH_0726-AAN_DUPLICATOR_WW.pdf
 [DUP-P]: https://www.tchelicon.com/en/products/0726-AAN
 
+### Duplicator — added-voice level and direct-control boundary
+
+Checked **2026-10-28**, [own manufacturer Rev.1 manual][DUP-M], filename2016-12-05, six pages. Complete numbered controls/connectors list no treadle, analog EXP or headphones. DOUBLING adjusts the additional voice level within the selected type; it is not master volume. MP-75 Mic Control and momentary/latching footswitch operation switch doubling, not a continuous volume assignment.
+
+Rev.1 footswitch bypass leaves reverb, correction and Tone unchanged. Preserve newer quick-start hold-bypass wording as a separate revision claim, not a universal behavior. No preset down/up operation is documented; stored-memory capacity remains unverified. Microphone input is documented, normal guitar-pickup suitability unclassified; retain vocal-only membership outside guitar capability table. Dimensions140×90×60mm remain axis-unlabelled. Direct-pedal position/endpoints/recall are inapplicable to documented inventory; pedal tail/recorded-loop attenuation unknown. Existing phantom/voice-count/power conflicts remain open. No hardware test or fresh visual inspection.
+
 ## Harmony Singer 2
 
 Checked **2026-10-17**; partial. Vocal multi-effects, second-generation unit. Guitar-controlled harmony plus vocal reverb/Tone qualifies for ALL-VOCAL. The [manufacturer page][HS2-P] describes an untouched guitar-through path; this does not qualify it for ALL-GUITAR or ALL-BASS.

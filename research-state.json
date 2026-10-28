@@ -125753,5 +125753,22 @@
     ],
     "next": "Duplicator/Harmony Singer2/Mic Mechanic2 remaining exact screens;priority global-volume gaps",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "duplicator_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "TC-HELICON.md#duplicator--added-voice-level-and-direct-control-boundary",
+    "source": "https://cdn.mediavalet.com/aunsw/musictribe/Kvs-h-U7m0qFvYaMTDIYcA/8CRY5ULrck-UO6wzRcgjFg/Original/tchelicon-duplicator-en.pdf",
+    "identity": "ManufacturerRev1filename2016-12-05,sixpages",
+    "result": "No analogEXP/headphones ininventory;doubling secondvoicelevel not master;vocalonly",
+    "bypass": "Rev1 leavesreverb/correction/Tone;newerQSGconflictretained",
+    "unknown": [
+      "normalguitarsuitability",
+      "axis-labelledfit",
+      "presetmemory/navigation",
+      "pedalattenuationcoverage",
+      "revisionconflicts"
+    ],
+    "next": "Harmony Singer2 thenMic Mechanic2;priority global-volume gaps retained",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
