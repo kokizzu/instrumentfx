@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','docs(boss): consolidate GT-1000CORE comparison qualifications'))
+    print(git('commit','-m','docs(boss): preserve regional GT-Pro mains ratings in comparisons'))

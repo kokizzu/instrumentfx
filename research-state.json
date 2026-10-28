@@ -128389,5 +128389,24 @@
         }
       ]
     }
+  },
+  "gtpro_regional_power_comparison_repair_20261028": {
+    "checked": "2026-10-28",
+    "source": "https://www.boss.info/jp/products/gt-pro/support/",
+    "japanese": {
+      "volts_ac": 100,
+      "consumption_watts": 15
+    },
+    "other_regional": {
+      "volts_ac": [
+        117,
+        230,
+        240
+      ],
+      "consumption_watts": 16
+    },
+    "change": "Restore already-documented regional distinction to selected comparison; do not imply universal-voltage operation.",
+    "preservation": "All detailed and historical paragraphs unchanged.",
+    "next": "Continue unresolved GT-Pro fields and independent no-treadle expression audit; fresh exact Shopee hardware discovery remains open."
   }
 }
