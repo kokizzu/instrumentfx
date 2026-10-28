@@ -127362,5 +127362,24 @@
       "attenuation coverage"
     ],
     "next": "Mini/Nano global volume remains unresolved;continue current exact-model documentation and Shopee hardware discovery;GT-Pro cursor preserved"
+  },
+  "vp4_current_firmware_used_lead_20261028": {
+    "manufacturer": "https://www.fractalaudio.com/vp4-downloads/",
+    "firmware": "4.04,2026-09-02",
+    "driver": "Windows11+ x86/x64/ARM;sharedAM4/VP4;olderunsupported",
+    "offer": {
+      "url": "https://id.carousell.com/p/efek-gitar-fractal-vp4-1451552917/",
+      "idr": 12000000,
+      "condition": "Seller Seperti baru claim;not inspected",
+      "region": "Depok",
+      "bundle": "Claimsunit,adapter,converter,box;MIDI/USBcablesmissing",
+      "seller_conflict": [
+        "zaidanalla64732 itemcache",
+        "containerx profilecache"
+      ],
+      "access": "Three-month searchcache;directcachemiss;notShopee"
+    },
+    "status": "Partial lead outsideactiveinventory;no downloadedarchive orhardwaretest",
+    "next": "ExactShopee hardware,completeprofile,editorOS andcurrentfirmware changes;Mini/Nano andindependentGTPro unresolved"
   }
 }
