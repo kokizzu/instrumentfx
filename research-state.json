@@ -125171,6 +125171,14 @@
       "dimensions": "5W6.5L2H inches=127W165.1L50.8H mm;depthfailsifLfrontback",
       "controls": "PresetDownUpPerformance;pedalmovementrestorestunervolume,notbypass/phones/tail/drum/loopcoverageproof;recallunknown",
       "next": "Screen unsurveyed RP155 own-model directexpression scope;preserve independentGT-Procursor. No10kpedal compatibility inference."
+    },
+    "rp155_bypass_20261028": {
+      "checked": "2026-10-28",
+      "source": "https://digitech.com/wp-content/uploads/2022/09/RP155_OM_EN.pdf",
+      "revision": "18-6409V-B pp2–4,38",
+      "finding": "Analog bypass and hand master level do not certify unconditional pedal volume.",
+      "next": "Continue unscreened no-treadle inventory after checking existing rows; preserve independent GT-Pro and no-treadle priority cursors.",
+      "downloads": false
     }
   },
   "brand_navigation": {

@@ -612,6 +612,7 @@ Checked **2026-10-17**, partial. Manufacturer-confirmed guitar multi-effects pro
 | Power / battery / USB | **PS0913B: 9 V AC, 1.3 A maximum output**, barrel 5.5 mm width/2.5 mm pin/9.5 mm length. AC has no DC center polarity. This is supply rating, not measured draw. [Supply list][R155-S] Battery/USB-powered operation **?**. |
 | Editing / platforms | **X-Edit 2.7.0 Windows; 2.7.1 Intel Mac OS X**, historical listings, current OS support **?**. **USB 2-in/2-out**; manufacturer mentions iPad audio, not an iPad editor. [Product][R155-P] **44.1 kHz, 16/24-bit**; USB1.1 Full Speed compatible with USB2.0. [Manual][R155-M] |
 | Practical features | **20-second looper, 60 drum patterns**, tuner, Lexicon reverbs. [Product][R155-P] **Drums unavailable during looping**. Headphones become mono when only L/Mono output is connected. [Manual][R155-M] Looper overdubs while Down is held; Up still changes presets (hold to scroll backward). **Whammy moves before amp modeling**. Scenes, power-off loop retention and spillover **?**. [Manual][R155-M] (pp.31,36–37) |
+| Expression / bypass and global level distinction | True analog bypass; tuner output muted. Hand Master Level spans presets, but Control In volume remains conditional on Wah/Whammy being inactive. EXP bypass/output coverage unverified. [Manual pp2–4,38][R155-M] |
 | IDR qualified observations | **Used IDR: ?; new IDR: ?**. A shop-index lead has an ambiguous “manual” title; it is not a qualified processor price. See provenance. |
 
 | Field | Finding / qualification | Evidence |
@@ -638,6 +639,12 @@ Follow-up 2026-10-17: category counts above are derived from the named model tab
 [R155-M]: https://digitech.com/wp-content/uploads/2022/09/RP155_OM_EN.pdf
 [R155-S]: https://digitech.com/support/powersupplylist/
 [R155-O]: https://shopee.co.id/Digitech-RP155-manual-i.743972454.16385212667
+
+### RP155 — analog bypass and manual master-level boundary
+
+Checked 2026-10-28 against [manufacturer manual 18-6409V-B][R155-M], printed pp2–4. Both footswitches together enter the documented true analog bypass, supplying clean unprocessed guitar; either switch restores the last preset. Holding both enters the tuner, whose output is muted. This is not evidence that Control In can attenuate the analog bypass path, headphones, tails or recorded loops.
+
+Master Level (knob4) controls overall volume across presets. Effects Level (knob3) instead changes post-amp Chorus/FX, Delay and Reverb mix. Neither hand control establishes an unconditional global expression target. Retain the p38 restriction: active Wah/Whammy take over pedal control. Volume endpoints, placement and position recall remain unverified; shipping measurements do not certify chassis fit.
 
 ## RP200
 
