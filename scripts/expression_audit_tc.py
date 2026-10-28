@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff', '--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(tc-helicon): qualify VoiceLive Play direct control scope'))
+    print(git('commit','-m','research(tc-helicon): qualify Create XT mix and preset cycle'))

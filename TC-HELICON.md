@@ -1357,3 +1357,9 @@ Vocal multi-effects; partial, checked2026-10-18. Distinct from original Create. 
 Source for the added block, routing and software qualifications: [same manufacturer manual pp19–27](https://cdn.mediavalet.com/aunsw/musictribe/AfNQj7j9P0yp8zAMDDvzKg/xRpgZnExo0WpQgKVX45fYA/Original/User-Manual_Voicetone-Create-XT_2020-10-16_Rev.pdf), checked2026-10-18. No software or device executed.
 
 Audio source: [same manufacturer manual p29](https://cdn.mediavalet.com/aunsw/musictribe/AfNQj7j9P0yp8zAMDDvzKg/xRpgZnExo0WpQgKVX45fYA/Original/User-Manual_Voicetone-Create-XT_2020-10-16_Rev.pdf), checked2026-10-18.
+
+### VoiceTone Create XT — global MIX and preset-cycle boundary
+
+Checked **2026-10-28**,[manufacturer manual revision1.0,E60523011](https://cdn.mediavalet.com/aunsw/musictribe/AfNQj7j9P0yp8zAMDDvzKg/xRpgZnExo0WpQgKVX45fYA/Original/User-Manual_Voicetone-Create-XT_2020-10-16_Rev.pdf),pp10–17,25. MIX globally balances dry voice against reverb/delay;not master volume orglobal pedal assignment. PEDAL documents Switch-3 toggles forFX/µMod/Delay. No analog EXP orheadphone socket in complete inventory. Mic-only input leaves normal guitar suitability unclassified;vocal-only,outside guitar capability table.
+
+Hold A/B approximately1s forPreset mode,then taps advance cyclically;independent down/up is not documented. P25 explicitly defaults to10accessible presets,configurable3–10 (0means10);1/2 unavailable. This is cycle length,not added memory. Retain p17’sfive-preset sentence as aconflict rather than asserting a5-slot capacity. Dimensions130×132×41mm remain axis-unlabelled;W/D fit unverified. Direct-pedal position/endpoints/recall N/A toinventory;pedal bypass/tail/recorded-loop coverage unknown. No hardware test orfresh visual inspection.

@@ -499,3 +499,7 @@ M-VAVE [host-panel electrical-label check](M-VAVE.md#footctrlplus-host-panel-man
 ### TC-Helicon VoiceLive Play — vocal-only path, onboard down/up
 
 [Exact-model screen](TC-HELICON.md#voicelive-play--direct-control-and-onboard-navigation-boundary):v1.0documents Switch-3,not continuous EXP;no guitar input. RoomSense guidance does not qualify normal-guitar processing. Outside main table. Onboard down/up withhold scrolling confirmed;headphones present. Regional200W×156Dmm fails depth,pendingmanufacturer corroboration. Current EXP/global volume unknown.
+
+### TC-Helicon VoiceTone Create XT — global mix is not pedal volume
+
+[Exact-model screen](TC-HELICON.md#voicetone-create-xt--global-mix-and-preset-cycle-boundary):no analog EXP/headphones ininventory;Switch-3 toggles effects. Global MIX iswet/dry. Vocal-only,outside guitar table. Onboard cyclic advance,not independent down/up;3–10cycle setting retained alongsidefive-preset conflict. Axis-labelled fit unknown.

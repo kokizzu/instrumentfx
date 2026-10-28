@@ -125723,5 +125723,20 @@
     ],
     "next": "Remaining no-treadle inventory andpriority globalvolume questions",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "creatext_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "TC-HELICON.md#voicetone-create-xt--global-mix-and-preset-cycle-boundary",
+    "source": "https://cdn.mediavalet.com/aunsw/musictribe/AfNQj7j9P0yp8zAMDDvzKg/xRpgZnExo0WpQgKVX45fYA/Original/User-Manual_Voicetone-Create-XT_2020-10-16_Rev.pdf",
+    "identity": "Primary manualrevision1.0,E60523011",
+    "result": "Global wet/dry MIX not pedalvolume;Switch3effects;no analogEXP/headphones ininventory;vocalonly",
+    "navigation": "ABhold~1s then cyclicadvance;cycle3–10default10;five-preset sentenceconflict retained",
+    "unknown": [
+      "axis-labelledfit",
+      "normalguitarsuitability",
+      "pedalattenuationcoverage"
+    ],
+    "next": "Remaining inventory;priorityMini/Nano/GP50/HX/CORE/MVAVE/POD/Shopee gaps",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
