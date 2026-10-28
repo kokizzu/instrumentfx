@@ -124374,5 +124374,12 @@
     "finding": "TRS momentary tip bypass/ring tap, no analog EXP or headphones; no onboard preset footswitch pair. 483W×105.6Dmm; upstream guitar preamp.",
     "boundary": "Global tap/bypass not volume assignment; Serial/Dual routing distinctions retained. Direct EXP position/range/recall N/A; tails/looper unverified. No download/test.",
     "next": "M-One XL exact-model screen; independent general GT-Pro cursor unchanged."
+  },
+  "monexl_expression_screen_20261028": {
+    "source": "https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf",
+    "revision": "Manufacturer-authored Rev4 XL SW2.07/E60500152; pp8,12",
+    "finding": "Momentary pedal only; no continuous EXP/headphone socket or onboard preset footswitch pair. 483W×195Dmm metric/inch conflict retained.",
+    "boundary": "Routing Lock not volume assignment. FXInput decay/FXOutput cut retain dry. Direct EXP range/position/recall N/A; MIDI global-volume/looper coverage unresolved. No download/test.",
+    "next": "Systematic frontier review of remaining no-treadle models; preserve GT-Pro general research cursor."
   }
 }

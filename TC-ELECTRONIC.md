@@ -291,6 +291,12 @@ Checked2026-10-18 in original Rev4 manufacturer manual mirror,printedpp27–31.
 | Processing / pitch voices | Pitch Shift adds **two fixed voices**,each **−1200…+1200cents**,independent level/pan and0–100ms delay. Detune instead gives eachvoice **−50…+50cents**. Fixed transposition doesnot establish scale-aware harmony,polyphonic tracking orsound-generating synthesis. [Manual p31](https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf). |
 | Processing / modulation structure | Classic Chorus andFlanger use two voices;4Voice versions combine twoClassic blocks internally. Both rates span **0.05–19.2Hz**. Internal voices do not increase the processor’s twoengine limit. [Manual pp29–30](https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf). |
 
+### M-One XL — direct-expression capability screening
+
+Checked 2026-10-28 against [manufacturer-authored Rev4 manual mirror][M1XL-M], exact XL rear inventory p8 and Pedal Setup p12. **No continuous analog EXP**: pedal jack accepts momentary switches only for engine1/2/both bypass or tap. **No dedicated headphone socket** in the complete XL inventory. No onboard preset down/up footswitches; CONTROL plus confirmation are hand-operated. Existing **483W×195Dmm** fails preference; metric/inch depth conflict remains. No direct passive-pickup suitability inferred from XLR.
+
+Direct analog position/endpoints/recall are inapplicable. Routing Lock is global routing, not global volume assignment. Retain **FXInput** letting effects decay versus **FXOutput** cutting effects immediately, both retaining dry; these are not complete-output expression attenuation. Existing 0%Mix bypass remains separate. MIDI global-volume scope, looper coverage and current offer condition remain unverified. Original mirrored manufacturer identity/revision verified; no visual or hardware test, local download or sibling transfer.
+
 ## NOVA System
 
 Checked 2026-10-18. Guitar multi-effects, distinct from NOVA Drive/Modulator and G-System. Manufacturer manual revision1.2,SW1.10,E60508712: identity verified from original text on mirror. Official PDF endpoints failed;generated mirror summary/FAQ excluded. Bass/vocal suitability unresolved.
