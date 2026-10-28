@@ -812,6 +812,15 @@ The preserved [PRELOVED offer](https://shopee.co.id/HOTONE-AMPERO-MINI-PRELOVED-
 
 The former All Access product URL now redirects to its distributor-closure notice; the older Japanese manual could not be directly reopened. Indexed older manual excerpts corroborate the resistance range but are not a complete current-revision manual review. No new Shopee offer check, hardware test or universal-volume conclusion is claimed.
 
+### Ampero Mini — explicit global bypass versus expression scope, 2026-10-28
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / global CAB bypass | [Own V2.2 manual,printedp20](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf) explicitly documents **No Cab Mode** overriding saved CAB settings independently for L/R output channels;defaultOff. This is a specific global CAB override,not an expression-volume override. Headphone/USB application of this setting is not established by this passage. |
+| Processing / capacity qualification | Same manual,printedp14,warns that extreme configurations can overload the processor and display System Overload. Nine modules therefore describes architecture,not a guarantee that every combination runs. |
+
+The previously saved Mini retail item171167271/48456875050 was inaccessible2026-10-28;older sold-out ask retained,with no fresh price or stock conclusion. Global EXP volume remains unverified;no hardware test or download.
+
 ## Ampero MP-100
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

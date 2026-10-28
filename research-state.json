@@ -123249,6 +123249,12 @@
       "dimensions": "81L41W30H mm body fits;125mW×2 output lacks load/distortion conditions",
       "offer": "HAWILA130137603/3008444335 cache miss;historical asks retained,no refreshed price/stock",
       "next": "Return to unresolved Mini/Nano global assignment scope,GP-50 current manual,and exact M-VAVE revision/wiring;independent GT-Pro cursor retained."
+    },
+    "mini_global_override_boundary_20261028": {
+      "source": "https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf",
+      "finding": "Printedp20 explicitly global independent L/R No Cab Mode overrides saved CAB settings,defaultOff;does not establish global EXP volume or headphone/USB CAB coverage. Printedp14 warns extreme DSP overload despite nine-module architecture.",
+      "offer": "171167271/48456875050 inaccessible2026-10-28;older sold-out ask retained",
+      "next": "Mini global EXP volume still unverified;seek manufacturer clarification or later explicit override,do not repeat existing V2.2 menu checks. Continue Nano current parameter-lock versus assignment scope and GP-50 manual."
     }
   },
   "brand_navigation": {
