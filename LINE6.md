@@ -740,6 +740,12 @@ Sources: [effects/findings/2026-10-14-line6-hx-stomp-xl.md](LINE6.md#hx-stomp-xl
 
 FS1/FS4 can select previous/next presets when Up/Down Switches=Presets; Stomp mode needs4Switch layout. Direction can be swapped. Existing manufacturer dimensions316×120mm exceed preferred width. Dedicated headphones remain documented independently. [Capability comparison](EXPRESSION-VOLUME.md). No sibling specifications or downloads used; full official PDF reader failed this pass.
 
+### HX Stomp XL — All Bypass volume boundary,2026-10-28
+
+[Own manufacturer3.80 RevD manual](https://line6.com/data/6/0a00051afe12673ccd29b29f5/application/pdf/HX%20Stomp%20XL%203.80%20Owner%27s%20Manual%20-%20English%20.pdf),indexed **Global Settings→Preferences→Bypass Type**,states All Bypass bypasses every block. Analog routes input directly to output without processing/A/D/A;DSP lets delay/reverb tails decay. Consequently the preset Volume/Pan block is not an all-bypass master mute. Surviving DSP-tail,headphone andrecorded-loop attenuation byEXP remain unverified.
+
+This narrows prior all-bypass uncertainty using XL-specific documentation,not Stomp/HXEffects transfer. TAP Function can toggleAllBypass;this switch option isnot global expression assignment. Existing global-position versus preset-target distinction remains. Indexed original table only;no completePDF/visual audit,download orhardware test.
+
 ## M5
 
 Effects-only multi-category processor; one selected model plus gate,not a chain processor. Eligible under multi-category scope; distinct from dedicated single-purpose pedals and M9/M13. Checked2026-10-17;partial. Ownership and vocal suitability unverified. Bass suitability documented for Bass Octaver;not every model is certified equally suitable.

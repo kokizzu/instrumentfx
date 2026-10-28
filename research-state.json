@@ -124026,5 +124026,14 @@
     ],
     "excluded_price_lead": "LCD part102307979/28994765376",
     "hardware_test": false
+  },
+  "hxstompxl_allbypass_volume_20261028": {
+    "source": "https://line6.com/data/6/0a00051afe12673ccd29b29f5/application/pdf/HX%20Stomp%20XL%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "scope": "Indexed own3.80RevD Preferences table",
+    "finding": "AllBypass bypasses every block;volume block not universal mute",
+    "remaining": [
+      "DSP tails/phones/recorded-loop EXP attenuation"
+    ],
+    "hardware_test": false
   }
 }
