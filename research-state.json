@@ -24850,7 +24850,69 @@
         "Complete requiredfields andexactShopee hardware",
         "Resolve FVfield storage/assignmentprecedence,recall andbypass/tails/loopcoverage"
       ],
-      "general_cursor_preserved": "BOSS GT-Pro"
+      "general_cursor_preserved": "BOSS GT-Pro",
+      "effect_family_census": {
+        "source": "https://static.roland.com/manuals/ex-4_parameter/en-US/583875851637650315.html",
+        "count": 46,
+        "families": [
+          "COMPRESSOR",
+          "LIMITER",
+          "SLOW GEAR",
+          "BASS SLOW GEAR",
+          "PITCH SHIFT",
+          "HARMONIST",
+          "OCTAVE",
+          "BASS OCTAVE",
+          "HEAVY OCT",
+          "S-BEND",
+          "PEDAL BEND",
+          "TUNE DOWN",
+          "DEFRETTER",
+          "BASS DEFRETTER",
+          "AC. GTR SIM",
+          "AC RESO",
+          "AC BASS",
+          "SITAR SIM",
+          "GUITAR SYNTH",
+          "BASS SYNTH",
+          "OD/DS",
+          "PARA EQ",
+          "GEQ",
+          "ENHANCER",
+          "TOUCH WAH",
+          "BASS TOUCH WAH",
+          "AUTO WAH",
+          "WAH",
+          "ENV FILTER",
+          "FEEDBACKER",
+          "HUMANIZER",
+          "CHORUS",
+          "FLANGER",
+          "BASS FLANGER",
+          "PHASER",
+          "BASS PHASER",
+          "SCRIPT PH",
+          "CLASSIC-VIBE",
+          "ROTARY",
+          "VIBRATO",
+          "TREMOLO",
+          "PAN",
+          "RING MOD",
+          "SLICER",
+          "DELAY",
+          "REVERB"
+        ],
+        "qualification": "Row count not120subtypes orsimultaneouscount;subtypereconciliationpending"
+      },
+      "synth_acoustic": {
+        "guitar_synth": "Saw/Square,monophonic",
+        "bass_synth": "Saw/Square,single-note",
+        "acoustic": "Electric-to-acoustic preset11;ACReso pickup-to-mic-like;ACBass separate"
+      },
+      "carryover": {
+        "source": "https://static.roland.com/manuals/ex-4_reference/en-US/581404299589796619.html",
+        "scope": "Memorysaved;destinationsettingsaffecttail;matchingtype/orderrecommended;notEXPtailcoverage"
+      }
     }
   ],
   "inventory_by_brand": {

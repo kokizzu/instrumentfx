@@ -280,6 +280,17 @@ Checked2026-10-28;effects-only guitar/bass multi-effects,not a single-function p
 
 Original manufacturer HTML inspected;no localmanual,firmware,software ordependency downloaded,installed orrun. No hardwaretest. Continuecompleteprofile andexactShopee discovery beforeactiveadmission;preserve theindependentGT-Pro cursor.
 
+### EX-4 — original effect-family census and carryover limits
+
+Checked2026-10-28 against original ©2026 Roland HTML Parameter Guide/Sound List andReference Manual;no explicit firmware minimum established.
+
+**46selectable families**,derived by counting eachrow once in the [FX1–4 table](https://static.roland.com/manuals/ex-4_parameter/en-US/583875851637650315.html): COMPRESSOR, LIMITER, SLOW GEAR, BASS SLOW GEAR, PITCH SHIFT, HARMONIST, OCTAVE, BASS OCTAVE, HEAVY OCT, S-BEND, PEDAL BEND, TUNE DOWN, DEFRETTER, BASS DEFRETTER, AC. GTR SIM, AC RESO, AC BASS, SITAR SIM, GUITAR SYNTH, BASS SYNTH, OD/DS, PARA EQ, GEQ, ENHANCER, TOUCH WAH, BASS TOUCH WAH, AUTO WAH, WAH, ENV FILTER, FEEDBACKER, HUMANIZER, CHORUS, FLANGER, BASS FLANGER, PHASER, BASS PHASER, SCRIPT PH, CLASSIC-VIBE, ROTARY, VIBRATO, TREMOLO, PAN, RING MOD, SLICER, DELAY, REVERB. Samefamilies can occupy multipleFXslots. This is not the120-type marketingcensus:subtype counts stillneed reconciliation.
+
+[Guitar Synth](https://static.roland.com/manuals/ex-4_parameter/en-US/666975243666986635.html) and[Bass Synth](https://static.roland.com/manuals/ex-4_parameter/en-US/593776779637701003.html) each offerSaw/Square andrequire single-note playing;guitarguide explicitly rejects chords andrequires muting previousstrings/clearattack. These are tracked-input synth effects,not generic “synth-like” presetnames orpolyphonic synthesis. [Preset11](https://static.roland.com/manuals/ex-4_parameter/en-US/637727371637742731.html) explicitly changes single-coil tone toacousticguitar. AC RESO instead processes anacoustic-electric pickup toward close-mic tone;AC BASS simulates acousticbass. This narrows theearlier synth/acoustic unknowns without implying captureimport.
+
+[Carryover instructions](https://static.roland.com/manuals/ex-4_reference/en-US/581404299589796619.html) saydestinationmemory settings affect thedecay. Fornatural transitions,BOSS recommends matching effecttypes andchainarrangement across preceding/following memories,whilechangingparameters/on-off states. EnableCARRYOVER inMASTER and**save thememory**. This isconditional memory-transition behavior,not globalvolume assignment,universal gaplessswitching orverified EXPattenuation ofdecayingtails. Other unresolved profilefields andexactShopee hardware remainpending;EX-4 staysoutsideactivecounts. No downloads ordevice test.
+
+
 ## GM-800
 
 Consolidated and refreshed **2026-10-16**; partial verification. This processor qualifies through independent MFX architecture; it requires specialized input hardware for guitar/bass playing. No excluded specialist model is added.
