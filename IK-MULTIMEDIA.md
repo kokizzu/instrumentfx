@@ -113,6 +113,16 @@ TONEX ONE is added to the shared bass comparison because the standard-model anno
 
 The source body retains the original20/30 conflict and historical USD199.99 quote. Updated custom-IR, power and USB facts supersede their historical unknowns for the documented manual revision. Complete current delay/modulation/reverb choices and simultaneous architecture need matching firmware documentation; software descriptions do not automatically establish onboard blocks. Exact NAM compatibility, synth/acoustic algorithms, looper/drums/scenes, editor OS versions and firmware release requirements remain unverified. Capturing one's own rig is a documented companion-software workflow, not onboard hardware capture.
 
+### TONEX ONE — direct expression and volume scopes 2026-10-28
+
+| Field | Finding / qualification |
+|---|---|
+| Expression / direct path | Exact standard ONE [manufacturer-authored manual1.0rev05](https://www.dlxmusic.no/storage/C4DD59BE093554E6A03FCB475D76A724779D0AC890B654D94F944E14CE1A904F/b7557a90e3bd4196a7a49786bb2d0bc0/pdf/media/f5a0f1b04f054ed4b4182b51109983d9/TONEX_ONE_User_Manual.pdf),p18 complete connection inventory: **no analog EXP**. USB is separate. One footswitch offers A/B orStomp on/off,not separate preset down/up. |
+| Controls / volume scope | Samepp24–28: ordinary main-knob Volume changes preset ToneModel volume when compressor isPre,or compressor makeup gain whenPost. Setup’s main knob instead adjusts **Global Volume**. Neither establishes analog pedal control. Min/max,recall,bypass/tail coverage for digital control remain unverified. |
+| Dimensions / phones | [Current exact standard product](https://ikmultimedia.com/products/tonexone) reconfirms48W×94Dmm,160g;fits. Shared stereo output supports phones per ownmanual;no separate dedicated phones socket. Current20spec/30marketing conflict remains. |
+| IDR / exact offer recheck |2026-10-28 [Seven Stereo16879370/28250929069](https://shopee.co.id/IK-Multimedia-TONEX-ONE-Stompbox-Modeler-i.16879370.28250929069),Kota Bandung,month-old direct cache:Rp3.420.000. Condition,currentstock,workingstate,variant,bundle/license transfer,warranty,shipping/tax/checkout unknown. Relative next-day delivery is stale;up-toRp10.000 late-arrival compensation is not a checkout discount. Historical ask,not verified new/used range. |
+
+
 ## TONEX Pedal
 
 Standard guitar/bass TONEX Pedal, not TONEX ONE, Bass Edition or an anniversary bundle. Consolidated and partially refreshed **2026-10-17**; no new unique model.
