@@ -144,6 +144,12 @@ Condition,new/used,actual seller,working state,firmware,battery condition,adapte
 
 ExactShopee hardware andmanufacturer-backed Black dimensions remain unresolved afterrenewed searches. Guitar/Bass measurements are not transferred. Black remains a partial lead outside active counts;earlier bundle/source qualifications preserved.
 
+### Black — conflicting published headphone load ranges
+
+Checked 2026-10-28. The [joint manufacturer FAQ](https://kb.line6.com/pod-express-guitar-pod-express-bass-pod-express-black-faq) explicitly includes Black. Its additional specifications, marked subject to change, rate the load-dependent headphone output for **8–1000 Ω**, approximately **120 mW maximum**, and approximately **85 mW into 32 Ω**. The FAQ does not specify the load at maximum power or whether those power figures are per channel; neither is inferred.
+
+The separate [manufacturer I/O specification](https://kb.line6.com/pod-express-input-and-output-specs), also explicitly including Black, instead describes approximately **2 Ω output impedance**, designed for **12.8 Ω to about 2 kΩ** headphones. These load ranges differ; neither page supplies a revision that establishes precedence. Preserve both rather than merging them into one certified compatibility range. Headphone power and impedance ratings do not establish expression-volume attenuation, bypass/tail/looper coverage, or chassis dimensions. Black remains a partial lead outside active counts.
+
 ## Floor POD Plus
 
 Guitar multi-effects;checked2026-10-17;partial. [Own Spanish manual][FPP-M],40-00-0116RevB,©2009,36pages,sections1,2,3,4. Not original FloorPOD. Bass direct-box use documented below;live-vocal suitability andownership unverified.

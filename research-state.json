@@ -127688,5 +127688,14 @@
     "other_thread": "https://unity.neuraldsp.com/t/expression-pedal-volume-control-after-amp-and-before-post-amp-effects/20603",
     "result": "Adds historicalconflictevidence;currentglobalvolume notproven ordisproven",
     "next": "Seek direct manufacturer clarification orversion-specificpublishedproof;continue remaining no-treadleinventory andexactShopee;independentGTPro preserved"
+  },
+  "pod_express_black_headphone_conflict_20261028": {
+    "checked_date": "2026-10-28",
+    "sources": [
+      "https://kb.line6.com/pod-express-guitar-pod-express-bass-pod-express-black-faq",
+      "https://kb.line6.com/pod-express-input-and-output-specs"
+    ],
+    "finding": "Both explicitly include Black. FAQ load 8–1000 ohms, approx120mW maximum (load unspecified), approx85mW at32ohms; per-channel basis unspecified. I/O page approx2ohm source, designed12.8ohm–about2kohm loads. No revision precedence established; preserve conflict.",
+    "remaining": "Manufacturer-backed chassis dimensions, exact Shopee hardware and expression output/bypass/tail/loop coverage remain unresolved; partial lead outside counts."
   }
 }
