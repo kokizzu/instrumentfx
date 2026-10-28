@@ -317,3 +317,7 @@ GP-50 [published-current and MIDI-jack clarification](VALETON.md#gp-50--publishe
 Ampero Mini [additional exact hardware asks](HOTONE.md#ampero-mini--exact-malang-and-white-unit-shopee-asks): Koko DC Musik Rp3.500.000 condition-unverified cache; Major Seven white unit Rp4.199.000,Habis,index-only. Neither establishes live stock,used/new condition or global-volume capability.
 
 Nano Cortex [additional indexed hardware ask](NEURAL-DSP.md#nano-cortex--additional-indexed-hardware-ask): behaviouristy Rp16.303.000, condition/stock/checkout unknown, direct cache miss. This historical offer does not resolve global expression-volume scope or establish a purchase-ready match.
+
+### Zoom G2 original — partial lead outside active inventory
+
+[Own original-model evidence](ZOOM.md#g2-original--partial-capability-lead): per-patch FP01/FP02 assignment, with volume forced during bypass. Shared headphone output;156W×162Dmm exceeds preferred depth. Full profile, exact hardware offer and output-coverage checks remain incomplete. Not added to active model counts or the main capability table.

@@ -11,13 +11,13 @@ if __name__ == '__main__':
     comparison_views.test_readme_brand_counts()
     comparison_views.test_validation_counts()
     assert not git('diff', '--cached', '--name-only').strip(), 'Existing staged changes'
-    allowed = {'ZOOM.md','EXPRESSION-VOLUME.md','README.md','MULTI-EFFECTS.md','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md','research-state.json','scripts/comparison_views.py','scripts/expression_audit_zoom.py','Makefile'}
+    allowed = {'VALETON.md','NUX.md','IK-MULTIMEDIA.md','ZOOM.md','EXPRESSION-VOLUME.md','README.md','MULTI-EFFECTS.md','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md','research-state.json','scripts/comparison_views.py','scripts/expression_audit_zoom.py','Makefile'}
     changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
     assert changed <= allowed, changed - allowed
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    message = 'research(zoom): document original 505 conditional expression volume' if sys.argv[1]=='commit-505' else 'research(zoom): screen RFX-2200 direct expression and preset controls'
+    message = 'research(zoom): document original 505 conditional expression volume' if sys.argv[1]=='commit-505' else 'research(zoom): record original G2 partial expression lead'
     if sys.argv[1] in ['commit-606','commit-607']:
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'

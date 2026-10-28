@@ -1328,7 +1328,6 @@ Aria links mp2_manual.pdf(one page,no extracted text);no visual equivalence clai
 
 MP-2 mirror review used manufacturer manual body only,not generated summaries/FAQs. The alternate Musicalstore PDF resolves as10pages without extracted text,versus6-page official source;no visual revision equivalence claimed.
 
-
 ## Mighty Plug Pro MP-3
 
 Checked 2026-10-17; partial. Guitar/bass processing explicitly documented; ownership unverified. [Official product](https://nuxaudio.com/product/mightyplugpro/).

@@ -1707,7 +1707,6 @@ The Chinese page says up to five hours; retain the English over-five-hours prose
 | Dimensions / screening | [Own regional RH-101 page](https://www.hotone.jp/brands/valeton/products/rushead-max-bass) corroborates **88.5W×100D×31.5H mm,68g**,fits preferred body rectangle. Its Japanese manual image could not be fetched;no visual panel audit or sibling specification transfer. |
 | IDR / exact offer refresh | [Kurnia Musik Semarang32743136/25340849312](https://shopee.co.id/Valeton-RH-101-Headphone-Amplifier-Rushead-Max-Bass-RH101-i.32743136.25340849312),KotaSemarang,**Rp786.000**,reopened2026-10-28,two-month cache with stale26August delivery. Condition,new/used,stock,variant,bundle,warranty,shipping/tax,voucher andfinal checkout remain unknown. Late-arrival compensation isnot upfront discount;older dated ask preserved. |
 
-
 ## Rushead Max RH-100
 
 Checked 2026-10-18; partial. Guitar multi-effects headphone amplifier, distinct from bass RH-101 and older Rushead variants. Ownership unconfirmed.

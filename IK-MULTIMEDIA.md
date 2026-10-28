@@ -122,7 +122,6 @@ The source body retains the original20/30 conflict and historical USD199.99 quot
 | Dimensions / phones | [Current exact standard product](https://ikmultimedia.com/products/tonexone) reconfirms48W×94Dmm,160g;fits. Shared stereo output supports phones per ownmanual;no separate dedicated phones socket. Current20spec/30marketing conflict remains. |
 | IDR / exact offer recheck |2026-10-28 [Seven Stereo16879370/28250929069](https://shopee.co.id/IK-Multimedia-TONEX-ONE-Stompbox-Modeler-i.16879370.28250929069),Kota Bandung,month-old direct cache:Rp3.420.000. Condition,currentstock,workingstate,variant,bundle/license transfer,warranty,shipping/tax/checkout unknown. Relative next-day delivery is stale;up-toRp10.000 late-arrival compensation is not a checkout discount. Historical ask,not verified new/used range. |
 
-
 ## TONEX Pedal
 
 Standard guitar/bass TONEX Pedal, not TONEX ONE, Bass Edition or an anniversary bundle. Consolidated and partially refreshed **2026-10-17**; no new unique model.

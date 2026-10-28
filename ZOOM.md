@@ -37,6 +37,7 @@ Canonical root-level brand document. New research is added here, not to dated fi
 - [G1Xnext](#g1xnext)
 - [G1Xon](#g1xon)
 - [G2 FOUR](#g2-four)
+- [G2 original — partial capability lead](#g2-original--partial-capability-lead)
 - [G2.1Nu](#g21nu)
 - [G2.1u](#g21u)
 - [G2Nu](#g2nu)
@@ -2569,6 +2570,14 @@ The [operation manual][ZOOM-G2-FOUR-M], Using a pedal, still describes selecting
 Checked 2026-10-28: [original operation PDF](https://zoomcorp.com/media/documents/E_G2FOUR_.pdf), ©2023, document **Z2I-4646-02**, printed pp56–57. Its indexed screen descriptions explicitly show **OUTPUT VOLUME PEDAL → BLACK WAH** in the pedal-selection example. The accompanying text selects one pedal-category effect per patch. This establishes that the output pedal is a replaceable patch selection, rather than proving a system target lock; continued expression control after a destination patch replaces it remains unverified. Screen-description evidence is indexed, not a claimed hands-on or visual inspection.
 
 Printed p62 separately states that changing patch stops rhythm playback; opening the Library also stops rhythm. This is a transition restriction, not evidence that expression attenuates rhythm. Preserve the previously documented looper stop/erase restrictions separately. The output-pedal retention statement remains valid, but universal assignment, bypass, headphones and tails remain unresolved. Further promotion requires an explicit manufacturer explanation or hardware test; no device operation or local download performed.
+
+## G2 original — partial capability lead
+
+Outside active inventory and main capability table; distinct from G2Nu, G2.1u and G2 FOUR. Checked 2026-10-28 against [own manufacturer Operation Manual](https://zoomcorp.com/media/documents/E_G2.pdf), printed pp18–19,30–31, document code G2-5000-2. No hardware test or download.
+
+Guitar input and CONTROL IN accept FP01/FP02 expression; connect before power-on. **Pedal function is saved per patch**. VL selects volume; bypass forces volume regardless of the patch target. Global footswitch-function wording applies to FS01, not the expression assignment. Volume placement, adjustable minimum/maximum, recall, headphone/tail/rhythm/recorded-loop attenuation remain unverified. U/D/H/L curves are specified for starred effect-module targets, not proof of configurable VL endpoints.
+
+Chassis **156W×162D×65H mm** exceeds preferred depth; rotation still fails. OUTPUT doubles as line/headphone socket. No built-in treadle in own panel inventory; toe support unverified. Full field audit, exact Indonesian hardware offer and catalogue admission remain pending. Do not transfer any G2Nu or G2.1u price or specification.
 
 ## G2.1Nu
 
