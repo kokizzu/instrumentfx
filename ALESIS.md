@@ -13,12 +13,13 @@ Partial manufacturer-backed records. Unknown is not No.
 
 ## MicroVerb 4
 
+<!-- comparison evidence begins -->
 Rack multi-effects,distinct from MIDIverb4. Checked2026-10-17;discontinued [MV-P]. Original chart explicitly includes vocal andguitar programs [MV-C]. Offered-unit authenticity is not certified.
 
 | Field | Evidence / qualification |
 |---|---|
 | Instrument scope |Guitar direct orvia mixer;vocal program examples documented. No direct mic preamp inferred [MV-M,MV-C] |
-| Expression |No built-in pedal/toe;external EXP unverified. Momentary TRS footswitch:tip bypass,ring control;normally-open/closed accepted. Connect before power-on. Ring controls Lezlie speed orDelay tap;other programs ignore it [MV-M pp.21–22,34] |
+| Expression |No built-in pedal/toe;no analog EXP in complete own connector inventory. Momentary TRS footswitch:tip bypass,ring control;normally-open/closed accepted. Connect before power-on. Ring controls Lezlie speed orDelay tap;other programs ignore it [MV-M pp.21–22,34] |
 | Knobs / footswitches / buttons |**6rotary/0foot/2buttons**:INPUT,MIX,OUTPUT,VALUE,EDIT A/B;STORE,BANK/MIDI. Text-derived,not new visual inspection [MV-M p.42] |
 | Display |**2005 catalogue explicitly3-digit LED plus4-segment level LEDs**;specifications/control inventory also sayLED display;effects prose pp.26,28 calls itLCD. Conflicting terminology retained;diagonal,color/touch unresolved [MV-M pp.26,28,42] |
 | Processing / categories |Up to3simultaneous effects;fixed configurations,not arbitrary free routing. Manual names7 Multi Chain and3 Dual Send configurations;five reverb families andfour delay forms. These are alternatives,not simultaneous block counts;complete unique-algorithm census unresolved. Full named inventory below [MV-P,MV-M p.43] |
@@ -131,6 +132,14 @@ Checked2026-10-18 against the manufacturer-authored Spring2005 catalogue,52PDFpa
 | Controls / abbreviated catalogue list | Catalogue names Input,Mix,Output,EditA,EditB but omits VALUE. Retain manual-derived6rotaries;this abbreviated five-name summary does not prove VALUE absent. |
 
 [Original Alesis catalogue,p49](https://device.report/m/aaec17b5c58b84afd384358662a1749e3c80fa1beece85dd7d680fa09dcda1fd.pdf). Body dimensions andsample rate now sourced;mass,current,display diagonal/color/touch andqualified new prices remain unresolved.
+
+<!-- comparison evidence ends -->
+
+### MicroVerb 4 — direct-expression screening (2026-10-28)
+
+Reopened own44-page [manufacturer Reference Manual](https://www.alesis.com/rscdn/981/documents/microverb4_manual.pdf),pp21–22,34–35: complete inventory has no built-in treadle,analog EXP or headphone socket. TRS tip is momentary Bypass;ring is Control for Lezlie speed or delay tap,ignored by other programs. **Fails direct analog expression-volume path**. CC1/CC11’s fixed program-specific modulation is separate,not proof of global volume assignment.
+
+Documented guitar input remains valid;no onboard footswitches,hand VALUE/BANK selection only. Existing483W×102Dmm body is too wide. Analog range/recall N/A;indirect volume and bypass/tail attenuation unknown. Bypass suppresses effects,not a demonstrated final-output mute. No recorded-loop orheadphone coverage inferred. Prior source/count/display/power conflicts remain intact. Text-only review;no downloads or hardware operation.
 
 ## MIDIverb 4
 

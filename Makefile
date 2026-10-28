@@ -2169,3 +2169,7 @@ expression-audit-commit-behringer:
 .PHONY: expression-audit-commit-lexicon
 expression-audit-commit-lexicon:
 	python3 scripts/expression_audit_lexicon.py commit
+
+.PHONY: expression-audit-commit-alesis
+expression-audit-commit-alesis:
+	python3 scripts/expression_audit_alesis.py commit

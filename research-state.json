@@ -124133,5 +124133,14 @@
     "onboard_preset_foot_down_up": false,
     "external_presets": "ProgramUp/Down overall/A/B global roles;RingKnobA,TipKnobB.",
     "remaining": "Indirect volume scope/range/recall/bypass/tail/RepeatHold coverage;other prior gaps unchanged."
+  },
+  "microverb4_expression_screen_20261028": {
+    "source": "https://www.alesis.com/rscdn/981/documents/microverb4_manual.pdf",
+    "identity": "Own44-page Reference Manual pp21–22,34–35 text reopened.",
+    "expression": "No analogEXP or treadle in complete connector inventory;TRS tip momentaryBypass,ring LezlieSpeed/DelayTap;CC11 fixed destinations not global-volume proof.",
+    "headphones": "No socket in complete inventory.",
+    "footprint": "483W×102Dmm too wide",
+    "onboard_preset_foot_down_up": false,
+    "remaining": "Indirect volume scope/range/recall/bypass/tail/loop coverage;prior other gaps preserved."
   }
 }
