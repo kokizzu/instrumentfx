@@ -1660,6 +1660,17 @@ Indexed original manufacturer manual sections: [p48](https://roland.manymanuals.
 
 Remaining:Slicer/Rotary andother outstanding FX definitions,44-category reconciliation,USBchannelcount andqualified IDR. Existingfamily andpatchcounts unchanged.
 
+### GT-Pro — Slicer/Rotary and simultaneous-count conflict, 2026-10-28
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / Slicer | [Indexed original manual p43](https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-43.html) gives **20patterns,P1–P20**;Rate0–100 orBPM,TriggerSens0–100. Picking can retrigger the selected chopping pattern;these are not drum samples or20extra effect families. |
+| Processing / Rotary | [Exact GT-PRO manufacturer manual p47,German reproduction](https://www.manualslib.de/manual/965096/Boss-Gt-Pro.html?page=47):Slow/Fast selector,independent rates0–100 orBPM;Rise/FallTime0–100 control acceleration/deceleration. Relative ranges are not seconds orHz;two speeds are not two blocks. |
+| Processing / simultaneous-count conflict | [Japanese BOSS GT-Pro page](https://www.boss.info/jp/products/gt-pro/support/) feature text states **maximum15 simultaneous block types**,but its specifications state **13 simultaneous effects**. Both publish44effect types. Preserve the unresolved counting-basis conflict;neither proves44simultaneous effects or15freely duplicated slots. |
+| Power / Japanese regional variant | Same Japanese specification: **AC100V,15W**. Preserve separately from earlier117/230/240V,16W regional evidence;not a universal voltage or consumption replacement. |
+
+Original manufacturer sections/identity match prior checks;indexed manual body anddirect BOSS text only,no new visual ordevice test. Remaining:remainingFXdefinitions,44-category reconciliation,13/15counting basis,USBchannelcount andqualified IDR.
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.

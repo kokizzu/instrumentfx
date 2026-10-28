@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro splitChorus100Hz–4kHz,SoundHold single-note andSubDelay400ms saved. Continue Slicer/Rotary/remainingFXdefinitions,44category audit,USBchannelcount,qualifiedIDR;392partial,migration incomplete.",
+    "task": "GT-Pro Slicer20/Rotaryspeeds saved;Japanese officialfeature15 versus spec13 simultaneous conflict and100V15W region preserved. Next44category/13vs15reconciliation,remainingFXdefinitions,USBchannels,qualifiedIDR;392partial.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -123014,5 +123014,20 @@
     ],
     "acoustic_processor": "acoustic-electric pickup treatment;not electric-to-acoustic simulation",
     "next": "Slicer/Rotary/remainingFXdefinitions;44categoryreconciliation;USBchannels;qualifiedIDR"
+  },
+  "gtpro_counts_followup_20261028": {
+    "slicer_patterns": 20,
+    "rotary": "Slow/Fast;relativeRise/Fall0–100",
+    "manufacturer": "https://www.boss.info/jp/products/gt-pro/support/",
+    "simultaneous_conflict": {
+      "feature_text": 15,
+      "specifications": 13,
+      "basis": "unresolved"
+    },
+    "japan_power": {
+      "ac_v": 100,
+      "watts": 15
+    },
+    "next": "Resolve13/15basis and44category list;remainingFXdefinitions,USBchannels,exactIDR"
   }
 }
