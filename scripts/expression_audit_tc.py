@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff', '--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(joyo): qualify R-16 expression eligibility and bypass evidence'))
+    print(git('commit','-m','research(tc-helicon): qualify PERFORM-V pedal and guitar scope'))

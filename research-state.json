@@ -125644,5 +125644,21 @@
     ],
     "next": "Remaining no-treadle inventory;priority global-volume scope questions",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "performv_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "TC-HELICON.md#perform-v--revision-qualified-pedal-and-guitar-eligibility",
+    "source": "https://www.bhphotovideo.com/lit_files/1188880.pdf",
+    "identity": "Manufacturer original firmware1.0/reference2015-11-17",
+    "result": "Switch3/6TRS;headphone level excluded fromremote assignment;delayed AUX not live-instrument path;vocal-only outside main table",
+    "navigation": "No onboard footswitches;external direct presets1/2/3 not independent down/up",
+    "unknown": [
+      "current product/manual conflicts",
+      "continuous analog EXP/global volume",
+      "footprint",
+      "pedal position/endpoints/recall/attenuation coverage"
+    ],
+    "next": "PERFORM-VG exact-model capability screen;priority global-volume questions remain",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

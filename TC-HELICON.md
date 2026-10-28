@@ -400,6 +400,12 @@ Italian manufacturer-authored mirror identifies firmware1.0/reference2015-11-17;
 
 <!-- comparison evidence ends -->
 
+### PERFORM-V — revision-qualified pedal and guitar eligibility
+
+Checked **2026-10-28** in [original firmware1.0/reference2015-11-17 manual][PV-B],pp42,44–45,49. PEDAL supports Switch-3/6 viaTRS;continuous analog expression/global volume remains unverified. Headphone Level is explicitly excluded fromswitch assignment. Switch-3 directly selects presets1/2/3;Switch-6 adds effect toggles. No onboard footswitches;hand preset selection is not independent down/up.
+
+Manual AUX is delayed forchord detection andexplicitly unsuitable forlive instruments;RoomSense chord guidance likewise is not guitar processing. Retain vocal-only membership,outside normal-guitar capability table. Current product-page guitar/USB/control conflicts remain unresolved,not proof ofrevised hardware. Dedicated stereo-mini headphones confirmed;footprint unknown. Pedal position,endpoints,recall andbypass/headphone/tail/recorded-loop attenuation remain unknown. Neither TALK assignment norheadphone-level exclusion establishes an all-output volume mapping. No hardware test orfresh visual inspection.
+
 ## PERFORM-VE
 
 Mic-stand vocal multi-effects,distinct fromV/VK/VG. Checked2026-10-17;initial partial profile. MIDI-controlled vocal synthesis does not establish guitar/bass processing. Ownership unestablished.

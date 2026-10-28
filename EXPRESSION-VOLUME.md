@@ -479,3 +479,7 @@ M-VAVE [host-panel electrical-label check](M-VAVE.md#footctrlplus-host-panel-man
 ### BOSS VE-1 — switched levels and timed memory cycling
 
 [Exact-model screen](BOSS.md#ve-1--direct-control-exclusion-and-timed-memory-cycle): no analog EXP;FOOT SW levels are switched.156W×116Dmm fits;stereo-mini phones present. Normal-guitar suitability unclassified,vocal-only outside main table. Onboard hold cycles memories;external increment only,not independent down/up. Enhance remains active during pedal bypass.
+
+### TC-Helicon PERFORM-V — revision-qualified eligibility pending
+
+[Exact-model screen](TC-HELICON.md#perform-v--revision-qualified-pedal-and-guitar-eligibility):2015manual documents Switch-3/6,not continuous volume;headphone level cannot be switch-assigned. Delayed AUX is unsuitable forlive instruments. Vocal-only,outside main table;current product conflicts retained. Stereo-mini phones confirmed;footprint/global EXP scope unknown. No onboard footswitches;remote direct presets are separate.
