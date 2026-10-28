@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro Windows10/11 hardwaredriver+application officiallyNo (Aug2026). Continue44category/13vs15reconciliation,remainingFXdefinitions,USBchannels,qualifiedIDR;392partial.",
+    "task": "GT-Pro globalFootVolume role saved;patchFVenable/range anddownstreamSynth limits qualified. Continue44category/13vs15reconciliation,remainingFXdefinitions,USBchannels,qualifiedIDR;392partial.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -122948,6 +122948,20 @@
       },
       "offer_reopen": "1563832992/54263539629 inaccessible; historical ask unchanged",
       "next": "Exact current firmware/controller mapping evidence; do not equate MIDI master with direct analog EXP. Continue remaining inventory and qualified offers."
+    },
+    "gtpro_20261028": {
+      "sources": [
+        "https://www.manualslib.es/manual/12527/Boss-Gt-Pro.html?page=63",
+        "https://www.manualslib.com/manual/499099/Boss-Gt-Pro.html?page=65",
+        "https://medias.audiofanzine.com/files/gt-pro-manual-476544.pdf"
+      ],
+      "global_role": "SYSTEM EXP1/EXP2Func FootVolume",
+      "patch_fields": "EXP1/CC7FVOnOff andMINMAX0–100;globaloverrideinteractionunknown",
+      "placement_warning": "downstreamFeedbackerOSC/GuitarSynth can defeatexpectedFV",
+      "coverage": "bypass/phones/tails/recordedHoldunknown",
+      "preferred_fit": false,
+      "onboard_footswitches": 0,
+      "next": "Resolve role-versus-patchenable/range interaction before universalvolumeclaim"
     }
   },
   "brand_navigation": {

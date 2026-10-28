@@ -1682,6 +1682,18 @@ Original manufacturer sections/identity match prior checks;indexed manual body a
 
 The legend defines No as not compatible with no support planned for that targetWindows version. This supersedes the earlier Windows10/11 uncertainty,not historical driver/editor specifications orstandalone processing capability. OldWindows7/8 andmacOS driver downloads do not establish current support. No driver was downloaded,installed or tested;unsupported workarounds are not certified. CurrentmacOS/Linux compatibility andUSBchannelcount remain unresolved.
 
+### GT-Pro — global pedal function versus patch volume range, 2026-10-28
+
+Original manufacturer manual,exact GT-PRO title/sections:[indexed p63](https://roland.manymanuals.es/supplementary-music-equipment/gt-pro/owners-manual-5239/63),[Spanish p63](https://www.manualslib.es/manual/12527/Boss-Gt-Pro.html?page=63),[readable p65](https://www.manualslib.com/manual/499099/Boss-Gt-Pro.html?page=65),[original manual p55 mirror](https://medias.audiofanzine.com/files/gt-pro-manual-476544.pdf). Indexed original text exceptp65direct;no visual/device test ordownload.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / global function | **SYSTEM→EXP1 Func orEXP2 Func→Foot Volume** assigns the pedal role globally. **Auto** is different:EXP1 changes toWah/Bend when those effects are active. Assignable instead uses patchASSIGNs. Global role is supported;unconditional full-range control across every existing patch remains qualified below. |
+| Expression / patch enable and range | P65 documents patch-storedEXP1/CC7FV **On/Off andMIN/MAX0–100**,saved withWRITE. GlobalFootVolume interaction withthese patchfields is not established bythese excerpts. Do not assume everypatchneedsediting orallpatchesworkwithoutit. |
+| Expression / placement and curves | FVLevel0–100;fourcurvesSlow1,Slow2,Normal,Fast. P55 warns FVmaynotworkproperly whenFeedbackerOSC orGuitarSynth followsit inchain. This isnot a universal final-output mute. Bypass/headphone/tail/recorded-Hold coverage andpositionrecall remainunverified. |
+
+DirectanalogEXP isdocumented;482W×305Dmm rackchassis far exceeds preferredfootprint. DedicatedPHONES exists;noonboardfootswitches.33FXfamilies and44-category headline remainunreconciled;no countforcedtofit.
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.
