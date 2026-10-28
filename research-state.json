@@ -125692,5 +125692,20 @@
     ],
     "next": "Remaining TC-Helicon no-treadle inventory andpriorityscope gaps",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "vlt2_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "TC-HELICON.md#voicelive-touch-2--footswitch-navigation-and-expression-boundary",
+    "source": "https://manuals.plus/m/c1f8cc4a4abc2a367883eac728407a9346bab2fd63a0d71f58cae3ecdb316a59",
+    "identity": "Manufacturer referencev1.2,firmware1.0.02build37",
+    "result": "Switch3 defaults1down2up3HitTalk;external not onboard;global guitar effects not EXP assignment",
+    "eligibility": "Acoustic guitar membership retained;ordinary electric suitability unclassified",
+    "unknown": [
+      "analog EXP/global volume",
+      "dimension axes/fit",
+      "placement/endpoints/recall/output/tail/loop coverage"
+    ],
+    "next": "VoiceLive Play orremaining no-treadle inventory;priorityglobal-volume questions",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

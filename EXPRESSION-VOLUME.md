@@ -491,3 +491,7 @@ M-VAVE [host-panel electrical-label check](M-VAVE.md#footctrlplus-host-panel-man
 ### TC-Helicon PERFORM-VK — MIDI targets do not prove analog volume
 
 [Exact-model screen](TC-HELICON.md#perform-vk--midi-expression-versus-analog-pedal-scope):CC11HarmonyLevel differs fromCC102OverallOutputAnalog;both volatile,range unspecified. Direct analog EXP/global mapping unverified. Vocal-only,outside main guitar table. Headphones documented,footprint unknown;no onboard footswitches. External direct preset recall does not establish down/up.
+
+### TC-Helicon VoiceLive Touch 2 — global guitar settings, pedal scope unknown
+
+[Exact-model screen](TC-HELICON.md#voicelive-touch-2--footswitch-navigation-and-expression-boundary): global guitar effects do not prove expression assignment. Switch-3 defaults external down/up/Hit&Talk;no onboard footswitches. Direct analog EXP/global volume andW/D fit unknown. Stereo⅛-inch phones retained. Acoustic membership preserved;normal electric-pickup suitability unclassified,outside stricter main table.

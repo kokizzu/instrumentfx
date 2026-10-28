@@ -1309,6 +1309,12 @@ Original publisher endpoints retained: https://mediadl.musictribe.com/download/s
 
 [VLT2-P]: https://service-tcgroup.tcelectronic.com/files/tech_service/voicelivetouch2/spareparts_voicelive_touch2.pdf
 
+### VoiceLive Touch 2 — footswitch navigation and expression boundary
+
+Checked **2026-10-28**,[manufacturer reference v1.2 reproduction](https://manuals.plus/m/c1f8cc4a4abc2a367883eac728407a9346bab2fd63a0d71f58cae3ecdb316a59),firmware1.0.02build37,printedpp70–73. Default Switch-3 profile is **1Preset Down,2Preset Up,3Hit&Talk**. These are external switches;no onboard footswitches. Custom loop/effect assignments do not establish continuous analog EXP orglobal volume.
+
+Global guitar EQ/compression/modulation/reverb remains documented,not pedal-target assignment. Acoustic-guitar processing qualifies existing guitar membership;normal electric-pickup suitability remains unclassified,so outside stricter expression shortlist pendingqualification. Dedicated stereo⅛-inch headphones retained;Analog Out andheadphone levels are separate. Exact W/D fit unresolved:230×100×180 dimensions lack reliable extracted axes/metric units. Direct-pedal support,placement,endpoints,recall andbypass/headphone/tail/recorded-loop attenuation remain unknown. No first-generation Touch features transferred,no hardware test orfresh visual inspection.
+
 ## VoiceTone Create XT
 
 Vocal multi-effects; partial, checked2026-10-18. Distinct from original Create. [Manufacturer-authored English manual on Music Tribe CDN](https://cdn.mediavalet.com/aunsw/musictribe/AfNQj7j9P0yp8zAMDDvzKg/xRpgZnExo0WpQgKVX45fYA/Original/User-Manual_Voicetone-Create-XT_2020-10-16_Rev.pdf),pp10–13,16–19,25–29. Older mediadl endpoint returned502.
