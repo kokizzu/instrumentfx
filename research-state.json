@@ -125436,6 +125436,19 @@
       "competing ASSIGN precedence"
     ],
     "next": "Recover readable original eng11 title/applicability/FV tables;preserve dated08 untilverified",
+    "general_cursor_preserved": "BOSS GT-Pro",
+    "followup": "Indexed originalheader nowidentified2024-10-01,CORE2.00;readableeng12found separately,see core_midi_eng12_20261028"
+  },
+  "core_midi_eng12_20261028": {
+    "checked": "2026-10-28",
+    "document": "BOSS.md#gt-1000core--readable-2026-midi-map-and-patch-fv-storage",
+    "source": "https://static.roland.com/assets/media/pdf/GT-1000_GT-1000CORE_MIDI_Imple_eng12_W.pdf",
+    "pages": 42,
+    "header": "2026-03-01;GT-1000 4.01/CORE2.01",
+    "conflict": "Finalchart2024-10-01;4.00/2.00",
+    "finding": "Unstarred Patch→PatchEfct storesFVmin/max/position0–1000=0.0–100.0 andcurve",
+    "scope": "Advances beyond2020 map;not physicalresolution or2.02certification",
+    "next": "Current2.02 parameter-guide mapping,ASSIGN precedence,output coverage;remaining inventory",
     "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

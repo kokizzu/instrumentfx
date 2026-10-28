@@ -1444,6 +1444,12 @@ Checked2026-10-28: search exposes official [GT-1000/GT-1000CORE MIDI file withen
 
 The [exact CORE manual index](https://www.boss.info/global/support/by_product/gt-1000core/owners_manuals/) links a [joint MIDI implementation landing page](https://www.boss.info/global/support/by_product/gt-1000core/owners_manuals/8423878f-f6ca-4906-bebb-e3f8b087ee42/),whose readable body exposes an agreement rather than the underlying file. The landing page doesnot itself prove eng11 is its current payload. Exact current parameter-guide revision,CORE applicability exclusions,patch/system FV storage andcompeting ASSIGN precedence still require readable original tables. No inferred change to globalFOOT VOL,range,placement oroutput coverage. No file downloaded ordevice/software operated.
 
+### GT-1000CORE — readable 2026 MIDI map and patch FV storage
+
+Checked2026-10-28: official [eng12 MIDI implementation](https://static.roland.com/assets/media/pdf/GT-1000_GT-1000CORE_MIDI_Imple_eng12_W.pdf),42PDFpages,readable original text. Header: **March1,2026;GT-1000 4.01 /CORE2.01**. Final chart instead retains **October1,2024;4.00/2.00**;preserve internal metadata conflict. Not2.02 certification. Indexed eng11 header separately identifies2024/CORE2.00,resolving its earlier date lead without fullbody access.
+
+Eng12 address-map legend marks GT-1000-only entries with(*),CORE-only with(**). The unstarred **Patch→PatchEfct** table contains FV MIN/MAX/position,encoded0–1000 for0.0–100.0,andcurve Slow1/Slow2/Normal/Fast. Thus patch storage is documented beyond the older2020 map;encoding precision is not physical pedal resolution. This doesnot establish aSYSTEM range override,competing-ASSIGN priority oruniform placement/output coverage. No download,MIDI transmission orhardware test.
+
 ## GT-Pro
 
 Checked 2026-10-19;partial. [Exact manufacturer product/specification](https://www.boss.info/global/products/gt-pro/) marks discontinued. Rack guitar multi-effects,not GT-8;ownership andbass/vocal suitability unverified.
