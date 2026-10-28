@@ -1647,6 +1647,19 @@ Indexed manufacturer-authored GT-PRO manual body, [p41](https://www.manualshelf.
 
 Remaining FX subtype census,44-category reconciliation,USB channel count andqualified IDR remain unresolved. Existing33-family count is unchanged.
 
+### GT-Pro — split chorus, acoustic processing and hold limits, 2026-10-28
+
+Indexed original manufacturer manual sections: [p48](https://roland.manymanuals.cz/supplementary-music-equipment/gt-pro/owners-manual-5239/48), [p50](https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-50.html), [p51](https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-51.html),corroborated by [Spanish p51](https://www.manualslib.es/manual/12527/Boss-Gt-Pro.html?page=51). Exact GT-PRO title andsection pagination;indexed original text,not generated FAQs. No full-page visual review,download or device test.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / 2×2 Chorus | Two stereo choruses process separate low/high frequency bands;**crossover100Hz–4.00kHz**. Internal frequency split within one FX-2 family,not two freely placed chorus blocks or two guitar inputs. |
+| Synth / Acoustic Processor | Processes an acoustic-electric pickup toward a close-microphone-like sound. Distinct from Guitar Simulator electric-to-acoustic transformations;does not require or establish a physical mic input. |
+| Looper / Sound Hold | Sustains a played note while later melody is played;**two or more simultaneously played notes do not work properly**. Hold Off/On,relative RiseTime0–100,EffectLevel0–120;normally controlled via external CTL/FC-200. Not a specified-duration phrase looper or evidence of audio-file storage. |
+| Processing / Sub Delay | Separate FX-2-only delay with **0–400ms** delay-time range and BPM synchronization. Not the dedicated DELAY block’s1800ms Single type or2.8second Hold recording. |
+
+Remaining:Slicer/Rotary andother outstanding FX definitions,44-category reconciliation,USBchannelcount andqualified IDR. Existingfamily andpatchcounts unchanged.
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.

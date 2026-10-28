@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro RingMod2/Humanizer3modes andAntiFeedback3points saved. Continue remainingFXsubtypes,44category audit,USBchannelcount,qualifiedIDR;392partial,migration incomplete.",
+    "task": "GT-Pro splitChorus100Hz–4kHz,SoundHold single-note andSubDelay400ms saved. Continue Slicer/Rotary/remainingFXdefinitions,44category audit,USBchannelcount,qualifiedIDR;392partial,migration incomplete.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -122995,5 +122995,24 @@
     ],
     "anti_feedback": "3fixedcancellationpoints;relativefrequencyrange",
     "next": "Remaining Slicer/Rotary/2x2Chorus/AcousticProcessor/SoundHold/SubDelay definitions;44category reconciliation,USBchannels andexactIDR"
+  },
+  "gtpro_fx_hold_followup_20261028": {
+    "sources": [
+      "https://roland.manymanuals.cz/supplementary-music-equipment/gt-pro/owners-manual-5239/48",
+      "https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-50.html",
+      "https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-51.html"
+    ],
+    "access": "indexed original manufacturer exact-model sections;no visual/fullPDFreview",
+    "chorus_crossover_hz": [
+      100,
+      4000
+    ],
+    "sound_hold": "single note;not phrase looper",
+    "sub_delay_ms": [
+      0,
+      400
+    ],
+    "acoustic_processor": "acoustic-electric pickup treatment;not electric-to-acoustic simulation",
+    "next": "Slicer/Rotary/remainingFXdefinitions;44categoryreconciliation;USBchannels;qualifiedIDR"
   }
 }
