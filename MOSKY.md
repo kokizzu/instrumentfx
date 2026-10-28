@@ -40,6 +40,12 @@ Effects-only guitar multi-effects strip, checked2026-10-18; partial. Ownership u
 
 [DC-P]: https://www.moskyaudio.com/product/product-25-548.html
 
+### DC5 — expression-audit footprint and eligibility screen
+
+Checked **2026-10-28**: [own manufacturer page](https://www.moskyaudio.com/product/product-25-548.html) still publishes230L×65W×36Hmm. Even allowing the manufacturer long axis to run across the pedalboard, **230×65mm fails the preferred200W×140Dmm rectangle in either orientation**. This is a footprint exclusion,not evidence that an expression input is absent. Ordinary-guitar multi-effects eligibility is already documented by the listed effect families.
+
+No-treadle layout,analog EXP,headphones,onboard preset down/up andmemory support remain **unknown**. Product-description images20200313090553_74926.jpg and20191211031345_69705.jpg returned cache misses;the [manufacturer manual index](https://www.moskyaudio.com/mosky.html) exposed no manual entries. No visual count orcomplete socket inventory claimed. Keep this existing model outside the main no-treadle capability comparison pending layout evidence. Volume assignment,position,min/max,recall,bypass,headphone andtail/recorded-loop coverage remain unknown;no RC5/RD5/SOL918 specifications transferred.
+
 ## RC5
 
 Effects-only guitar multi-effects strip, checked2026-10-18; partial. Ownership unverified. Bass/vocal suitability lacks exact primary confirmation.

@@ -378,3 +378,7 @@ Soran Dual Stomp [scope reconciliation](SORAN.md#dual-stomp--built-in-treadle-sc
 ### Soran Dual Stomp Lite — eligibility pending
 
 [Exact-model screen](SORAN.md#dual-stomp-lite--compact-eligibility-screen):135×116mm fits;dedicated3.5mm stereo phones documented. No-treadle layout,analog EXP,global volume andonboard preset navigation remain unknown;outside main table pending original manual/panel verification.
+
+### Mosky DC5 — footprint screen, eligibility pending
+
+[Exact-model manufacturer screen](MOSKY.md#dc5--expression-audit-footprint-and-eligibility-screen):230×65mm fails the preferred rectangle either orientation. No-treadle layout,analog EXP,headphones andpreset navigation remain unknown;outside the main capability table pending original panel/manual evidence. Existing active guitar model,not a new admission.
