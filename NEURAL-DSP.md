@@ -107,7 +107,7 @@ The [complete original comparison](MULTI-EFFECTS.md)<!-- historical-link:neural-
 | Power / battery / USB | **9–12V DC≥600mA,center-negative,2.1/5.5mm**, or **USB-C5V/1.5A**. USB-A supports data but insufficient operating power. Internal battery unverified; external USB battery-pack support is not an internal battery. [M,P] |
 | Configuration apps and USB functions | **Cortex Cloud iOS/Android**, Bluetooth editing/update workflow. Desktop full editor unverified. **USB4-in/3-out,24-bit/48kHz**; Windows driver, macOS class-compliant. [M] |
 | Display | LED interface; published graphical-screen diagonal, color technology and touch specifications unverified. |
-| Other relevant features | Tuner. Capture mic connector does not prove live vocal processing. Preserved no-phantom assertion is not independently reverified here. [M] NanOS2.2 adds Tremolo, optional mono summing, offline app mode, five cloud backups and capture auditioning. [R] Looper, drums, scenes and parallel routing remain unverified. |
+| Other relevant features | Tuner. Capture mic connector does not prove live vocal processing. Preserved no-phantom assertion is not independently reverified here. [M] **2-Preset Mode:** FS I recalls A/B; FS II global bypass. **4-Preset Mode:** both switches recall four assignments. Delay/reverb bypass Trails works outside 4-Preset Mode; not preset spillover or EXP tail coverage. NanOS2.2 adds Tremolo, optional mono summing, offline app mode, five cloud backups and capture auditioning. [R] Looper, drums, scenes and parallel routing remain unverified. |
 | Used IDR | ? — no dependable condition-qualified used offer established. |
 | New / retail IDR | **Rp11.900.000,Habis**: [Seven Stereo Music & Audio Store exact hardware](https://shopee.co.id/Neural-DSP-Nano-Cortex-Digital-Effects-Processor-i.16879370.51902266280),shop16879370/item51902266280,Kota Bandung; indexed reopening checked2026-10-17. Historical retail ask, not checkout-confirmed stock or completed sale. Condition grade, warranty region, accessory bundle, shipping/tax and voucher eligibility unverified. |
 
@@ -209,6 +209,17 @@ Checked 2026-10-28. In the [manufacturer-hosted LEVEL discussion](https://unity.
 On **2025-12-30**, Anxel reports using the level of a post-EQ block as a workaround. This consumes an effect slot and does not establish one setup across all presets, final-output mute, headphone coverage or tail attenuation. Do not promote that workaround to a verified global volume feature. Capture Volume’s documented −24dB minimum remains distinct from silence and from master LEVEL.
 
 The [separate after-amp-volume thread](https://unity.neuraldsp.com/t/expression-pedal-volume-control-after-amp-and-before-post-amp-effects/20603), December2025–January2026, leaves the explicit global preset-recall question unanswered. Its suggested capture-output route and perceived tone changes are user observations,not calibrated measurements or manufacturer routing specifications. The [official device list](https://neuraldsp.com/nano-cortex-device-list) remains the primary basis for the Volume utility’s pre-slot restriction. Across-every-preset direct analog volume stays **unverified**;no download orhardwaretest.
+
+### Nano Cortex — expression connector requirements and bypass-mode tails
+
+Checked 2026-10-28 against the [official NanOS 2.2.0 manual](https://neuraldsp.com/manual/nano-cortex), Expression Pedal Support and Device Settings.
+
+| Field | Manufacturer evidence / boundary |
+|---|---|
+| Expression / controller requirements | Requires a **single TRS expression output**; audio wah/volume outputs are unsupported. **Linear and logarithmic curves** work after calibration; optional range controls and polarity switches are supported. This is not a published potentiometer-resistance range or tip/ring wiper pinout, nor certification of a particular M-VAVE controller. |
+| Looper / live bypass modes | In **2-Preset Mode**, footswitch I recalls A/B and footswitch II is **global bypass**. In **4-Preset Mode**, both switches recall IA/IB/IIA/IIB. The **Trails setting enables delay/reverb decay when bypassing** and has **no effect in 4-Preset Mode**. It does not establish preset-change spillover or expression attenuation of existing tails. |
+
+These mode-specific findings do not resolve the conflicting LEVEL target lists or all-preset assignment. Headphone, tail and recorded-loop expression coverage remain unverified. Text inspected without a local download or device operation.
 
 ## Quad Cortex
 

@@ -128014,5 +128014,29 @@
       "Current condition-qualified stock",
       "Actual controller pinout/compatibility"
     ]
+  },
+  "nano_expression_connector_bypass_modes_20261028": {
+    "checked": "2026-10-28",
+    "source": "https://neuraldsp.com/manual/nano-cortex",
+    "revision": "2.2.0",
+    "expression": {
+      "connector": "single TRS expression output, not audio wah/volume output",
+      "curves": [
+        "linear",
+        "logarithmic"
+      ],
+      "optional": [
+        "range control",
+        "polarity switch"
+      ],
+      "resistance_and_wiper_pinout": "unpublished in inspected section; actual M-VAVE compatibility unknown"
+    },
+    "bypass": {
+      "two_preset": "FS I A/B; FS II global bypass",
+      "four_preset": "IA/IB/IIA/IIB; Trails no effect",
+      "trails": "delay/reverb bypass decay, not preset spillover or expression attenuation proof"
+    },
+    "global_volume": "Unverified; LEVEL target-list conflict preserved",
+    "downloads": false
   }
 }
