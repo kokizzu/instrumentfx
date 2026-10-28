@@ -1438,6 +1438,12 @@ Exact eng03 equivalence/current2.02 coverage ofthis mirror remains unverified;th
 Checked2026-10-28 in [original BOSS parameter guide mirror](https://files.kraftmusic.com/media/ownersmanual/Boss_GT-1000CORE_Parameter_Guide.pdf),57pages,©2020Roland,printedp55. Tuner **MUTE** suppresses output; **BYPASS** passes the incoming guitar unchanged with all effects off; **THRU** retains the current effect sound. These are tuner modes,not three generic descriptions of normal operation. Foot-volume sweep during BYPASS versus THRU is not explicitly established; SYSTEM target sharing cannot be promoted to all-mode attenuation from these descriptions. This older guide still lists a polyphonic tuner removed in2.01,so it is not certified as current2.02 documentation. Existing firmware qualifications,patch-stored range/routing andheadphone/tail/recorded-loop gaps remain. No device test ordownload.
 
 
+### GT-1000CORE — additional official MIDI documentation lead
+
+Checked2026-10-28: search exposes official [GT-1000/GT-1000CORE MIDI file witheng11 filename](https://static.roland.com/assets/media/pdf/GT-1000_GT-1000CORE_MIDI_Imple_eng11_W.pdf),distinct from the earlierImplementation08. Indexed original effect-table text is available,but directbody andtargeted retrieval return403. Filename suffix is not proof of firmware applicability,date orcomplete parameter-map identity. **Unverified lead**,not a replacement for the explicitly dated older08 evidence.
+
+The [exact CORE manual index](https://www.boss.info/global/support/by_product/gt-1000core/owners_manuals/) links a [joint MIDI implementation landing page](https://www.boss.info/global/support/by_product/gt-1000core/owners_manuals/8423878f-f6ca-4906-bebb-e3f8b087ee42/),whose readable body exposes an agreement rather than the underlying file. The landing page doesnot itself prove eng11 is its current payload. Exact current parameter-guide revision,CORE applicability exclusions,patch/system FV storage andcompeting ASSIGN precedence still require readable original tables. No inferred change to globalFOOT VOL,range,placement oroutput coverage. No file downloaded ordevice/software operated.
+
 ## GT-Pro
 
 Checked 2026-10-19;partial. [Exact manufacturer product/specification](https://www.boss.info/global/products/gt-pro/) marks discontinued. Rack guitar multi-effects,not GT-8;ownership andbass/vocal suitability unverified.

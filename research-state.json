@@ -125422,5 +125422,20 @@
     ],
     "next": "Exactcontroller wiring evidence;remaining no-treadle inventory andpriorityscope gaps",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "core_midi_eng11_lead_20261028": {
+    "checked": "2026-10-28",
+    "document": "BOSS.md#gt-1000core--additional-official-midi-documentation-lead",
+    "source": "https://static.roland.com/assets/media/pdf/GT-1000_GT-1000CORE_MIDI_Imple_eng11_W.pdf",
+    "landing": "https://www.boss.info/global/support/by_product/gt-1000core/owners_manuals/8423878f-f6ca-4906-bebb-e3f8b087ee42/",
+    "status": "Official-domain indexed lead;fullbody403;landing payload equivalence unproven",
+    "unknown": [
+      "date/firmware applicability",
+      "CORE exclusions",
+      "FV patch/system storage",
+      "competing ASSIGN precedence"
+    ],
+    "next": "Recover readable original eng11 title/applicability/FV tables;preserve dated08 untilverified",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
