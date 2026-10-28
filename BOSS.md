@@ -1472,7 +1472,7 @@ Checked 2026-10-19;partial. [Exact manufacturer product/specification](https://w
 | Knobs / footswitches / buttons | 12 rotary controls,0 onboard footswitches,30 front buttons derived from manual controls list;POWER/ground-lift separate. Visual corroboration pending. |
 | Display | Backlit16×2-characterLCD plus2-character7-segmentLED;diagonal,color,touch unverified. |
 | Processing / categories | 46amp models,two combinable;44effect categories,15reorderable blocks. Simultaneous ceiling and44-category reconciliation unverified;DELAY12,REVERB7,COMP2;FX1=22,FX2=33;ODDS30+3custom;WAH6+3custom. Detailed evidence below. |
-| Memory | 200 writable User+200 protected Preset=400;initial user factory fill unverified. |
+| Memory | 200 writable User+200 protected Preset=400;manufacturer lists named initial user-bank patches,including U1-1 andU20-10. Complete200-slot initial-fill census unverified;not400 protected factory presets. |
 | Synth / acoustic | Acoustic/sitar emulation plusGuitar/Wave Synth documented;tracking/polyphony unverified. |
 | Dimensions / mass | 482 W×305 D×89 H mm;4.8kg. |
 | I/O | FrontINPUT/PHONES;rearINPUT,direct/tunerout,mainL/R,subL/R,subXLRL/R,PRELOOPsend/return,LOOP1/2send/return,AMPCTRL1/2,EXP1,CTL1/2,EXP2/CTL3/4,coaxdigital,USB,MIDIin/out/thru. LOOP1+2 combine forstereo orseries/parallel;not independently positioned. PRELOOPfixed beforeinputlevel,unavailable withUSBIn. Input 1 MΩ; loop returns 220 kΩ; listed analog outputs 2 kΩ except SUB XLR 600 Ω. Nominal-level qualifications below. |
@@ -1897,6 +1897,11 @@ This resolves the earlier unqualified spillover uncertainty to **conditional doc
 Checked2026-10-28 against indexed original [manufacturer manual,p55](https://cdn.roland.com/assets/media/pdf/GT-PRO_OM.pdf). BOSS warns that Foot Volume may not operate properly with certain chain orders: examples are **Feedbacker in OSC mode orSynth positioned after FV**. This is a documented downstream-generator restriction,not merely a calibration issue. Global pedal-role selection therefore does not prove universal final-output muting across arbitrary existing patches. The warning does not establish how patch FV MIN/MAX interact with the fixed SYSTEM role;that precedence remains unknown.
 
 The same FV table specifies Level0–100 andfour response choices:Slow1,Slow2,Normal,Fast. These are response-curve names,not published resistance/taper specifications orfour additional effects. EXP1/FC-200 tuner-bypass volume is documented above;headphone,other bypass states,tail andrecorded-Hold attenuation remain unverified. Text evidence only;no downloaded document orhardware test.
+
+### GT-Pro — named initial user-bank patches
+
+Checked2026-10-28 against indexed original [manufacturer manual p152](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf),[matching original p152 reproduction](https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-152.html),[p153 reproduction](https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-153.html),andofficial PDF indexed p155. Exact GT-PRO Patch List,not generated advice. The User Patch table names U1-1 STACK DRIVE andU20-10 GUITAR + PAD,with intervening user-bank entries. This establishes manufacturer-published initial tones in writable user memory rather than an entirely blank user bank. It does **not yet verify every one of200 rows**,nor prove that a secondhand unit retains its initial contents. The separate200 protected Preset slots remain distinct;400 total storage positions must not be described as400 protected presets. Earlier initial-fill uncertainty is narrowed by these named entries,not silently removed. Direct HTML openings missed cache;indexed original body was used. No file downloaded ordevice reset/test.
+
 
 ## GX-1
 

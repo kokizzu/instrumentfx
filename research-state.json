@@ -127321,5 +127321,15 @@
       "Firmware-qualifiedretention/reset"
     ],
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "gtpro_initial_user_patch_evidence_20261028": {
+    "source": "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+    "pages": [
+      152,
+      153,
+      155
+    ],
+    "finding": "Manufacturer initial User Patch list names U1-1 and U20-10; writable bank is not wholly blank. Complete 200-row census remains unverified; used-unit contents unknown.",
+    "next": "Complete row census before certifying all200 user slots prefilled; preserve independent expression-volume and count/routing gaps"
   }
 }

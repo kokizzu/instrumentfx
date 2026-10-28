@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(boss): qualify GT-1000CORE loop retention by owner guide'))
+    print(git('commit','-m','research(boss): document GT-Pro initial user-bank patch evidence'))
