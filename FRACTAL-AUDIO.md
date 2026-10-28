@@ -23,6 +23,19 @@ Checked2026-10-28. [Manufacturer product page](https://www.fractalaudio.com/am4/
 
 [Shopee Gear Division storefront](https://shopee.co.id/geardivision) indexes **Cover fractal AM4,Rp198,000**,checked2026-10-28,three-week cache. This buys an accessory,not the processor; excluded from hardware pricing. No used/new hardware price,live stock,bundle orwarranty verified. No local downloads orhardware test. Next: exact processor item,complete required-field profile andoutput-path coverage.
 
+### AM4 — analog calibration, global holds and tail boundary
+
+Follow-up2026-10-28, same [v1.0.2 manual](https://www.fractalaudio.com/downloads/manuals/AM4/AM4-Owners-Manual.pdf),pp10,51–54,69:
+
+| Field | Verified qualification |
+|---|---|
+| Expression electrical requirements | **Linear taper,10–100kΩ maximum,TRS-to-TRS**. Calibration meter should span0–100;this is not independently adjustable volume minimum/maximum. Wiper pinout andactual M-VAVE compatibility remain unverified. |
+| Recall | **External Controller Initial Value applies only to MIDI CC assignments**,explicitly excluding local pedals/switches. It cannot establish analog held-position recall. |
+| Onboard preset navigation | Custom Press & Hold permits global **Preset+1/−1** assignments across all modes. Hold timeout0.25–2seconds,default0.50;assigning hold delays tap action until release. This supplements the default Scene-mode mapping above. |
+| Volume position / tails | The Levels Overview explicitly says the amp-volume target preserves gain andallows tails to ring. This is target-specific,not proof that Output Volume preserves tails orcontrols headphones/bypass/recorded loops. |
+
+Signal-flow screenshot returned no inspectable image;no diagram-derived output coverage claimed. Repeated exact Shopee searches still found the cover accessory andunrelated computers,not processor hardware. Lead remains outside active inventory;no stock/price orhardware compatibility conclusion added.
+
 ## FM3 MKII Turbo
 
 Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; original FM3 offers are not merged. Manufacturer's 7.x manual expressly covers both revisions; current firmware listing is newer. Unknown means unverified.

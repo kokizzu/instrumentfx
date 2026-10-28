@@ -125877,5 +125877,25 @@
       "comparison-verify"
     ],
     "remaining": "Technical research and overall migration remain incomplete;AM4 is a partial lead outside active inventory."
+  },
+  "am4_analog_followup_20261028": {
+    "source": "https://www.fractalaudio.com/downloads/manuals/AM4/AM4-Owners-Manual.pdf",
+    "revision": "v1.0.2 2025-12-16",
+    "pages": [
+      10,
+      51,
+      52,
+      54,
+      69
+    ],
+    "findings": [
+      "Linear10–100kΩ TRS pedal requirement;calibration0–100 is not adjustable volume endpoints",
+      "Initial Value explicitly MIDI-only,not local pedal recall",
+      "Custom global preset+1/-1 holds;0.25–2s timeout/default0.50",
+      "Amp volume explicitly preserves tails;other target/output coverage unresolved"
+    ],
+    "market": "Repeated exact Shopee queries produced only cover and unrelated computers;not exact processor hardware evidence.",
+    "visual": "Screenshot returned reference only,no inspectable image;no diagram inference",
+    "status": "Partial lead,outside active inventory;general GT-Pro cursor unchanged"
   }
 }
