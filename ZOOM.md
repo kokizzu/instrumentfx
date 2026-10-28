@@ -2944,6 +2944,12 @@ Multi-model Hope Music listing G3/G3X/G3XN, shop703817770/item11099808237, showe
 
 Remaining: physical controls, screen details, revision/category counts, full connector formats, current software, imports/MIDI, scenes/trails and qualified current used/new offers. Original G3-only manual retrieval failed; shared G3/G3X manual is the inspected primary text.
 
+### G3 — original-manual revision and pickup-input clarification
+
+Checked 2026-10-28: indexed original [G3-only operation manual](https://zoomcorp.com/media/documents/G3_OperationManual_English.pdf), printed p9, documents **three simultaneous effects**, overflow labelled **THRU**, and unchanged DSP use for effects switched off. The full PDF reader rejected its 18,240,699-byte size; only the indexed section was inspected, not a complete original-manual recovery. Preserve this earlier baseline separately from the later six-effect firmware2.00+ evidence above. It is not a new model or proof of installed firmware.
+
+The [manufacturer shared manual][G3-MC], printed p5, explicitly specifies **PASSIVE, switch not pushed in**, for a directly connected passive-pickup guitar; **ACTIVE, pushed in**, for active pickups or an intervening effect pedal. This supports the ordinary-pickup input path, without proving any global expression assignment. INPUT/OUTPUT VOL, per-patch TOTAL and rhythm/looper exclusion remain as qualified above. Tuner BYPASS/MUTE options on p26 do not independently prove expression operation while bypassed. Fresh exact-item search exposed only the already-recorded sold-out used listing; no new qualified offer adopted. No downloads, hardware operation or assumed pedal compatibility.
+
 [G3-P]: https://www.zoom.co.jp/node/49
 [G3-J]: https://www.zoom.co.jp/ja/products/guitar/g3-guitar-effects-amp-simulator-pedal
 [G3-M]: https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G3_G3X_1.pdf
