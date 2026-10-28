@@ -165,6 +165,10 @@ These sum to **17 named effect choices**, separate from7amps/7cabs andnoise gate
 
 Numerical Black chassis/mass andexactShopee hardware remain unverified;retailer measurements not promoted toprimary evidence. Globalanalogassignment remains documented buttail/recorded-loop/output attenuation unresolved. Partial lead stays outside activecounts;no local download orhardware test.
 
+### Black — USB dry-recording volume exception
+
+Checked 2026-10-28 against the manufacturer-authored [Rev E / firmware 2.00 manual reproduction](https://manualzz.com/doc/81729734/line-6-pod-express---black-owner-s-manual), printed pages 36–37. Its title explicitly includes Black; this is not transferred from a pre-Black revision. Device-to-host USB 1/2 carries processed audio; USB 3/4 carries input-direct DI at a fixed level unaffected by volume or gain parameters. Thus expression volume is not an all-recording-output mute. Processed USB recording level follows AMP CH VOL. Host-to-device USB 1/2 is unprocessed playback; USB 3/4 feeds re-amping. These are opposite directions, not additional physical sockets. Analog/headphone, bypass, tail and recorded-loop expression attenuation remain separately unverified. No hardware or software was run or downloaded.
+
 ## Floor POD Plus
 
 Guitar multi-effects;checked2026-10-17;partial. [Own Spanish manual][FPP-M],40-00-0116RevB,©2009,36pages,sections1,2,3,4. Not original FloorPOD. Bass direct-box use documented below;live-vocal suitability andownership unverified.

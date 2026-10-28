@@ -129187,5 +129187,14 @@
     "active": false,
     "next": "ExactBlackamp/cabmenu,remainingprofile andqualifiedShopee;manufacturerchassissource",
     "downloads": false
+  },
+  "pod_black_usb_coverage_20261028": {
+    "checked": "2026-10-28",
+    "source": "https://manualzz.com/doc/81729734/line-6-pod-express---black-owner-s-manual",
+    "revision": "Rev E / 2.00 pp36–37 explicitly includes Black",
+    "finding": "Fixed input-direct dry USB recording bypasses volume/gain; expression is not an all-recording-output mute.",
+    "remaining": "Analog/headphone, bypass, tails and recorded-loop attenuation; primary dimensions, full profile and qualified Shopee.",
+    "active": false,
+    "downloads": false
   }
 }

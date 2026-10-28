@@ -591,3 +591,5 @@ AM4 [Split Mode/headphone boundary](FRACTAL-AUDIO.md#am4--writable-presets-scene
 AM4 [catalogue admission](FRACTAL-AUDIO.md#am4),2026-10-28: active **partial** guitar/bass profile. Earlier lead-stage outside-inventory descriptions are historical;all technical conflicts andmarket gaps remain.
 
 POD Express Black [effects and tempo boundary](LINE6.md#black--named-effects-census-and-modulation-sync-behavior):17choices include a shared delay/reverb/looper category;Black modulation defaults unsynced toTap. These settings do not establish final-output expression attenuation. Manufacturer chassis dimensions remain unknown.
+
+Black [USB coverage exception](LINE6.md#black--usb-dry-recording-volume-exception): Rev E explicitly includes Black; fixed dry USB recording bypasses volume/gain. Other output-coverage gaps remain.
