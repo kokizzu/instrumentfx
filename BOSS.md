@@ -1475,6 +1475,34 @@ Checked **2026-10-16**; cached exact hardware asking evidence,not live checkout/
 
 ## GT-1000CORE
 
+### GT-1000CORE — current comparison summary
+
+Selected 2026-10-28 from the complete dated evidence below; no new hardware test or market refresh. All older sources and qualifications remain intact.
+
+<!-- comparison evidence begins -->
+| Field | Evidence / qualification |
+|---|---|
+| Built-in / external expression | No built-in treadle or toe switch; two shared CTL/EXP sockets for direct analog pedals. SYSTEM preference + EXP1/EXP2 FOOT VOL shares the target across patches. Competing patch ASSIGN priority remains unverified. |
+| Expression volume placement / range / recall | Movable FV block, including parallel chains; uniform factory placement unknown. MIN/MAX/position 0–100 and four curves are patch parameters; no SYSTEM range override established. EXP HOLD retains angle when the destination function matches; recall is separate from assignment. |
+| Expression volume coverage / bypass | Headphone, tail and recorded-loop attenuation unverified. Tuner MUTE/BYPASS/THRU are distinct; no explicit pedal-sweep guarantee in bypass. NS detection at FV OUT versus NS INPUT affects tail behavior separately. |
+| Headphones / preset navigation | L/PHONES shares OUTPUT signal, not SUB OUT; leave R/MONO empty for phones. Onboard patch down/up documented. |
+| Controls | 7 rotary controls / 3 footswitches / 5 separate buttons. |
+| Dimensions / mass | 173 W × 135 D × 65 H mm including rubber feet; 920 g. Fits preferred ≤200 W ×140 D footprint. |
+| Display | Graphic LCD 256×80; historically inspected official image shows monochrome-style readout, not a color-depth specification. Published diagonal and touchscreen status unknown. |
+| Simultaneous processing / choices | 24 blocks including two amps; current product page lists 185 effect types and eight bass drive types. Full current category census remains unresolved. |
+| Preset / user memory | 250 factory preset +250 user locations; initial user filling not established here. |
+| Synth / acoustic | Exact algorithms remain unresolved; no sibling-model transfer. |
+| IR / NAM / capture | 16 user WAV IR slots; exact format limits unresolved. Native NAM, converted NAM and capture import unestablished. |
+| Audio / controller I/O | Stereo quarter-inch input/output; L output shared with phones; two mono effects loops; two shared CTL/EXP; 3.5 mm TRS MIDI IN/OUT; micro-USB. |
+| Power | Supplied DC adapter; 670 mA draw. Exact voltage/polarity, battery and USB bus operation remain unverified in this record. |
+| Editor / USB | BOSS Tone Studio Windows/macOS; drivers separate. USB audio/reamping documented, exact channel/mode limits unresolved. |
+| Looper / routing | 38 s mono /19 s stereo; audio lost when looper is turned off or power removed. P/U246–250 initially map CTL1 to looper; other patches need assignment or SYSTEM sharing. Serial/parallel routing, 96 kHz and qualified carryover documented. |
+| Firmware / documentation | Official support lists system 2.02 and Tone Studio 4.1.1. July2026 2.02 notes concern PLAY OPTION and switching fixes. Readable eng12 MIDI map header covers CORE2.01, with older chart metadata; not 2.02 certification. Owner eng03 mirror is not the eng03 Parameter Guide; exact current guide mapping unresolved. |
+| Used IDR | Unknown; no exact condition-verified Indonesian used offer established. |
+| Shopee retail-style IDR | Boss Official Shop, Tangerang Selatan, [341882414 /15035629131](https://shopee.co.id/BOSS-GT-1000CORE-Guitar-Effects-Processor-Pedal-Multi-Efek-i.341882414.15035629131): Rp14.450.000 /Habis in three-month-old snapshot reopened2026-10-28. Crossed Rp17.000.000, advertised15% reduction and unspecified free gift. Condition grade, bundle/adapter, affiliation, warranty, checkout stock and delivered price unconfirmed; late-delivery voucher is not a checkout discount. |
+| Separate non-Shopee IDR asks | GMI Rp14.535.000 available label and older Blibli Rp13.600.000 indexed stock1 retain their original dates/channel limits below; not live Shopee stock or a used/new range. |
+<!-- comparison evidence ends -->
+
 Consolidated 2026-10-16;technical dates below retained. Partial verification;historical next-model notes are provenance,not the current queue. No legacy source deleted.
 
 <!-- BOSS-GT-1000CORE source begins -->
