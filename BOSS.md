@@ -1768,6 +1768,15 @@ Existing FX2 family/block counts remain unchanged. Uni-V/SubEQ details,44-catego
 
 Queued Uni-V/SubEQ definition gaps are resolved at text-table level;this is not exhaustive parameter/hardware validation. Remaining headline count basis,USBchannelcount,control visual corroboration,expression/output qualifications andexactShopee IDR evidence remain open.
 
+### GT-Pro — competing expression sources and Assign Hold 2026-10-28
+
+| Field | Finding / qualification |
+|---|---|
+| Expression / competing global roles | [Original manufacturer manual p64](https://cdn.roland.com/assets/media/pdf/GT-PRO_OM.pdf), indexed: when EXP1,EXP2 andCC7 roles operate together, assign different functions to the pedals. With a shared function,the **last pedal adjusted normally determines the value**; **Assign Hold=On may prevent intended operation**. A fixed global FootVolume role therefore does not prove independent or predictable simultaneous control from multiple sources. |
+| Expression / recall boundary | This warning identifies a concrete competing-source/recall interaction. It does not resolve dedicated FV MIN/MAX versus SYSTEM precedence,held-position recall with one source,bypass,phones,tails orrecorded-Hold attenuation. No hardware test. |
+
+The official catalogue’s indexed effect list remains incomplete;44-category counting basis and13-versus15 conflict remain unresolved. No guessed category added to force44.
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.
