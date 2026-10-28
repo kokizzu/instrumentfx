@@ -123041,6 +123041,17 @@
       "preset_control": "one-switch configured cycle",
       "inventory": "existing model; counts unchanged",
       "next": "Continue remaining no-treadle inventory; preserve Mini/Nano global-volume uncertainty"
+    },
+    "zoom506ii_connection_20261028": {
+      "source": "https://zoomcorp.com/media/documents/E_506II.pdf",
+      "printed_pages": "18,24",
+      "control_socket": "FP01/FP02 or FS01; single shared socket",
+      "connection": "before power; manufacturer warns of malfunction when connected powered",
+      "edit_mode": "pedal remains active",
+      "pedal_dist": "GAIN1–30; not master-volume range",
+      "global_volume": "unverified; existing conditional fallback retained",
+      "switch_mapping": "arrow glyphs absent from extracted text; screenshot cache miss; no visual claim",
+      "next": "Continue remaining no-treadle inventory and exact offers; preserve Mini/Nano unresolved global-volume scope"
     }
   },
   "brand_navigation": {
