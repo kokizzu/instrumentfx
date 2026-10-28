@@ -124035,5 +124035,16 @@
       "DSP tails/phones/recorded-loop EXP attenuation"
     ],
     "hardware_test": false
+  },
+  "lekato_me01_expression_screen_20261028": {
+    "source": "https://device.report/manual/20953279",
+    "classification": "No analog EXP in model manual",
+    "remaining": [
+      "manual revision",
+      "dimensions/mass conflict",
+      "continuous MIDI volume",
+      "attenuation coverage"
+    ],
+    "hardware_test": false
   }
 }

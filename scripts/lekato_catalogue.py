@@ -11,9 +11,10 @@ if __name__ == '__main__':
     comparison_views.test_readme_brand_counts()
     comparison_views.test_validation_counts()
     assert not git('diff', '--cached', '--name-only').strip(), 'Existing staged changes'
-    allowed = {'LEKATO.md','README.md','MULTI-EFFECTS.md','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md','research-state.json','scripts/comparison_views.py','scripts/lekato_catalogue.py','Makefile'}
+    allowed = {'LEKATO.md','EXPRESSION-VOLUME.md','README.md','MULTI-EFFECTS.md','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md','research-state.json','scripts/comparison_views.py','scripts/lekato_catalogue.py','Makefile'}
     changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
     assert changed <= allowed, changed - allowed
+    assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(lekato): qualify ME01 loopback live controls and corrupted mass'))
+    print(git('commit','-m','research(lekato): screen ME-01 direct expression and preset navigation'))

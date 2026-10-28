@@ -10,6 +10,8 @@
 
 ## ME-01
 
+<!-- comparison evidence begins -->
+
 Checked2026-10-18; partial. Own brand productSKU M03397 establishes general multi-effects eligibility; Shopee exact-model attribution remains unconfirmed. Ownership unverified. No equivalence with M-VAVE MINI-X,TANK-G,orPA-4 established; no sibling specifications transferred.
 
 | Field | Evidence / qualification |
@@ -56,3 +58,11 @@ Reproduced owner-manual body namesLEKATO ME-01 andlekatotech.com;technical modul
 | Memory / save and swap | Edit-encoderhold1s opensSaveTo;2s opensSwapTo. HOME cancels. These explicit workflows donot establish automatic saving orIRimportpersistence. [MEM] |
 
 Manual andproduct-page mass remain unresolved:both original-bodymirror transcriptions read425q,not a verified425g. No visualPDF orphysicalmeasurement performed. Exact Shopee ME-01/ME01 queries yieldedno newmodel-bound item;the existing generic80-presetlead remains unconfirmed. No software downloaded ordevice operated.
+
+<!-- comparison evidence ends -->
+
+### ME-01 — direct expression screening,2026-10-28
+
+[Model-specific owner-manual body](https://device.report/manual/20953279) reopens with LEKATO ME-01 cover identity,matching six modules andcontrols. Complete ports contain no analog EXP,so it fails the direct pedal requirement. USB MIDI pedal support is separate from direct analog orverified continuous volume mapping. Left/right switches select preset down/up in Main Display;module/edit screens repurpose them.
+
+Existing manual118L×115Wmm horizontal dimensions fit,butconflict with product dimensions/unit-package qualification above remains. Dedicated3.5mm stereo phones retained. DirectEXP range/position recall are inapplicable;hand MASTER excludes BT/USB playback,while bypass/phones/tails/recorded-loop attenuation remains unknown. No revision equivalence,corrupt425q mass normalization,visual inspection orhardware test claimed.
