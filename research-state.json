@@ -125908,5 +125908,16 @@
       "Physical preset down/up mapping"
     ],
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "chocolate_plus_primary_hardware_20261028": {
+    "source": "https://manualf.oss-cn-hongkong.aliyuncs.com/manual/CUBE-TURNER/Chocolate-Plus.pdf",
+    "identity": "Manufacturer-hosted filename Chocolate-Plus;generic body,no datedrevision;hostpanel/footctrlplus matches earliermirror,offered-unit match unverified.",
+    "finding": "Four physical switches;E=A+B,F=C+D. Unit212L36W17H280g distinctboxed2275535mm350g.",
+    "unresolved": [
+      "Pedal pinout/resistance/continuous CC endpoints",
+      "Host current budget andsimultaneous transport",
+      "Exact offeredhardware revision andoriginalChocolate relationship"
+    ],
+    "scope": "Controller only,not active audio processor;general GT-Pro cursor unchanged"
   }
 }

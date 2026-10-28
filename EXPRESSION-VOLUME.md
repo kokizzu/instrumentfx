@@ -531,3 +531,5 @@ M-VAVE [host-panel electrical-label check](M-VAVE.md#footctrlplus-host-panel-man
 ### Fractal AM4 — manufacturer-backed discovery lead
 
 [Partial lead](FRACTAL-AUDIO.md#am4--partial-discovery-lead-outside-active-inventory): global direct-pedal volume documented, but chassis exceeds preference. Separate headphone and mode-dependent preset controls recorded. Exact Shopee hardware offer and complete profile pending; outside active inventory and capability table. [Follow-up](FRACTAL-AUDIO.md#am4--analog-calibration-global-holds-and-tail-boundary) qualifies linear pedal requirements, MIDI-only initial values and global custom navigation; output coverage remains unresolved.
+
+Chocolate Plus [manufacturer-hosted hardware source](M-VAVE.md#chocolate-plus--recovered-manufacturer-hosted-hardware-source) confirms four switches withE/F combinations. It improves document provenance butdoes notresolve actual pedal wiring. Controllers remain outside audio-processor counts.

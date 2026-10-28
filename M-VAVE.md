@@ -181,6 +181,14 @@ Englishp1/Chinesep5 specify **5V±10% charging,working voltage below6V**;technic
 
 The body calls connector12a pedal jack,but gives no tip/ring/sleeve roles,resistance orcontinuous-CC mapping. Renewed fulltext access doesnot resolve electrical compatibility. No local file,firmware,app ordriver downloaded;no hardware test.
 
+### Chocolate Plus — recovered manufacturer-hosted hardware source
+
+Checked2026-10-28: [manufacturer-hosted Chocolate-Plus.pdf](https://manualf.oss-cn-hongkong.aliyuncs.com/manual/CUBE-TURNER/Chocolate-Plus.pdf),nine-page bilingual hardware manual. The filename identifies Plus;body cover remains generic andhasno dated revision. Its host-equipped panel, Bluetooth **footctrlplus** andtechnical-table errors match the earlier mirrored document. This strengthens provenance,not retail-unit ororiginal-Chocolate equivalence.
+
+Englishp2/Chinesep6 explicitly identify **four physical footswitches A–D**. **E=A+B andF=C+D are combinations**,not two additional switches. Type-C andMIDI-host modes remain mutually qualified asabove;English describes a host whileChinese labels the connector generically MIDI. No new transport compatibility inferred.
+
+Englishp3/Chinesep7 list unit **212L×36W×17Hmm,280g**,separately fromboxed227×55×35mm,350g. These controller measurements are not processor footprint evidence. The manual still lacks pedal tip/ring/sleeve roles,potentiometer resistance,continuous CC endpoint mapping andhost-current budget. Actual M-VAVE wiring compatibility remains unknown;no speculative adapter orrewiring recommendation. No local download,software orhardware operation.
+
 ## CUBE BABY AC
 
 <!-- comparison evidence begins -->
