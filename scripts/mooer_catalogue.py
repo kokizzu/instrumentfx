@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(mooer): qualify Ocean Machine II global expression scope'))
+    print(git('commit','-m','research(mooer): distinguish Ocean Machine II mix and preset navigation'))

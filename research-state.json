@@ -124437,5 +124437,11 @@
     "finding": "Global EXP target selection explicit; volume target unverified. Heel minimum percent, endpoint calibration; toe maximum/recall/bypass/tails/recorded-loop attenuation unknown. No dedicated phones. Onboard Patch A down/B up. 127W×215D fails footprint in either orientation.",
     "next": "Inspect original EXP target screen when readable; do not infer volume from global IN/OUT controls.",
     "downloads": false
+  },
+  "ocean_machine_ii_mix_navigation_20261028": {
+    "source": "https://manuals.plus/m/cf9989c8f66e3263a8a62903b0f180f428d853ad786400f9921e4b3cb47d8d83_optim.pdf",
+    "pages": "printed11,15,18,25",
+    "finding": "Master Mix0 retains dry; loop level independent. MIDI CC42/43 level0–100 separate from Expression CC34 selector0–19; not analog target proof. A/B preset navigation only Preset Selection; Patch Detail toggles delays; preset selection exits bypass.",
+    "next": "Original EXP target screen remains unresolved; continue no-treadle inventory without treating global mix as volume."
   }
 }

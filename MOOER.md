@@ -1987,6 +1987,8 @@ Checked 2026-10-28 against the same manufacturer-authored V2.7-20240417 [manual]
 
 Heel minimum is adjustable in percent; calibration measures both endpoints. Adjustable toe maximum, volume placement, preset-position recall, bypass attenuation and recorded-loop coverage remain unknown. DSP trails and Merge settings do not establish pedal attenuation of tails. The complete rear inventory has no dedicated headphone socket. Patch mode provides onboard A=preset down and B=preset up. Published 215L×127W mm means 127W×215D; rotating gives215W×127D: neither meets200W×140D. TRS10–50kΩ compatibility does not establish tip/ring wiring for an unidentified M-VAVE pedal.
 
+Further original-manual check (printed pp.11,15,18,25): **Master Mix is wet/dry balance; zero retains dry audio**, so it cannot establish silence at heel. Looper playback level is independent of Master Mix. MIDI separately lists Input Level CC42 and Output Level CC43 (0–100), Expression selection CC34 (0–19), and Min Value CC35 (0–100); these do not identify the analog EXP target list. Preset down/up applies specifically in **Preset Selection** screen: hold A/B to scroll; selecting also exits bypass. In **Patch Detail**, A/B toggle delays instead. No hardware tested.
+
 ## Ocean Machine original
 
 Checked2026-10-18;partial. Original model,not Ocean Machine II. Independent delays plus reverb qualify as effects-only guitar multi-effects. Bass/vocal suitability andownership unverified.
