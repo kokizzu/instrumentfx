@@ -128701,5 +128701,32 @@
       "CurrentMaceditorrequirements"
     ],
     "next": "Resume no-treadle priority gaps and fresh exact Shopee discovery;independentGT-Procursor remains."
+  },
+  "chocolate_xvp20_wiring_report_20261028": {
+    "checked": "2026-10-28",
+    "source": "https://www.reddit.com/r/guitarpedals/comments/1uumdqt/mvave_chocolate_with_korg_xvp20_pedal_doesnt_work/",
+    "evidence": "Firsthand user troubleshooting,notmanufacturer specification",
+    "reported_models": [
+      "M-VAVE Chocolate",
+      "Korg XVP-20"
+    ],
+    "intended": {
+      "cc": 11,
+      "min": 0,
+      "max": 127
+    },
+    "reported_before": "Minimum11,earlyjump toward90,maximum127",
+    "reported_fix": "Originalposter says pedalwiperonring;swappedcabletip/ring;reportsworksperfectly",
+    "missing": [
+      "Controllerrevision",
+      "Firmwarenumber",
+      "Resistance/taper",
+      "Sleevewiring",
+      "Postfixmeasuredendpoints",
+      "Repeatability"
+    ],
+    "scope": "Onlyreportedsetup;notPlus/FootCtrlPluscertification;notdirectanalogprocessorEXP",
+    "next": "Seek manufacturer pinout or controlled exact-unit sweep evidence;keep actualusercontroller identity unresolved",
+    "downloads": false
   }
 }

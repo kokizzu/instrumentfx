@@ -580,3 +580,5 @@ VP4 [firmware-era limits](FRACTAL-AUDIO.md#vp4--ir-player-limits-and-later-usb-r
 VP4 [CPU/spillover limits](FRACTAL-AUDIO.md#vp4--historical-category-census-cpu-and-spillover-limits): four total slots remain subject to per-category instance limits and CPU-triggered bypass. Conditional tail continuity is separate from expression attenuation.
 
 VP4 [catalogue admission](FRACTAL-AUDIO.md#vp4),2026-10-28: now an active **partial** guitar/bass record. Earlier outside-inventory descriptions above are historical;technical/market gaps persist.
+
+Chocolate [XVP-20 troubleshooting lead](M-VAVE.md#chocolate--xvp-20-tipring-swap-report-not-certified-pinout): one user reports success after swapping tip/ring; exact controller revision and post-fix sweep measurements are absent. This is not a certified wiring prescription or direct analog processor-volume qualification.

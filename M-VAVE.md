@@ -203,6 +203,14 @@ The [related user-manual record7998994](https://fccid.io/2ARCP-CHOCOLATE/Users-M
 
 Neither declaration nor metadata supplies expression tip/ring/sleeve roles, potentiometer limits, continuous CC sweep or direct analog output. Those remain unknown. Prior software/revision distinctions and all earlier sources remain; no local download, controller operation or new active processor admission.
 
+### Chocolate — XVP-20 tip/ring swap report, not certified pinout
+
+Checked 2026-10-28. [Firsthand troubleshooting thread](https://www.reddit.com/r/guitarpedals/comments/1uumdqt/mvave_chocolate_with_korg_xvp20_pedal_doesnt_work/): original poster IFOXTERRTORY names **Chocolate and Korg XVP-20**, configured in CubeSuite for CC11 and intended0–127 travel. They report actual minimum11, abrupt rise toward90 early in travel, and maximum127 over TRS, with wired/wireless attempts. In their follow-up, they identify the pedal wiper on ring and report that swapping cable tip/ring made the setup work.
+
+This narrows a **setup-specific wiring hypothesis**, not manufacturer electrical specifications. Exact Chocolate revision/firmware, resistance/taper, sleeve wiring, transport details, measured post-fix endpoints and repeatability are absent. The generic pinout claim in another comment is not adopted as a universal standard. Relative posting age is stale; no exact event date inferred. No video/image inspection, rewiring or device test performed.
+
+Do not transfer this result to Chocolate Plus, FootCtrlPlus, the user’s unidentified controller, or direct processor EXP sockets. A MIDI CC11 route still needs receiver assignment/global-volume proof. The official Chocolate product reopening again exposed only a site shell; certified pinout/resistance remain unknown. No local downloads. Controller-only evidence does not change active processor counts.
+
 ## CUBE BABY AC
 
 <!-- comparison evidence begins -->
