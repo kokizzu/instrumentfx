@@ -1811,6 +1811,16 @@ Manufacturer-authored original **GT-PRO manual p99**, indexed [English PDF repro
 
 This resolves the documented ASSIGN recall examples, not SYSTEM fixed FootVolume versus dedicated FV enable/MIN/MAX precedence or EXP2 memo ambiguity. The earlier competing-source warning remains applicable. Bypass/phones/tails/recorded-Hold coverage remains qualified separately.
 
+### GT-Pro — pedal minimum and ASSIGN active range (2026-10-28)
+
+| Field | Finding / qualification |
+|---|---|
+| Expression / physical pedal minimum | [Own original manufacturer manual p16](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf), indexed and corroborated by [matching English reproduction](https://roland.manymanuals.de/supplementary-music-equipment/GT-PRO/owners-manual-5239/16): set the connected pedal’s **Minimum Volume control to MIN** for EXP1/EXP2. Specified pedals are **EV-5 or FV-300L**. This physical endpoint adjustment is separate from patch FV MIN/MAX and does not establish an arbitrary controller’s wiring, resistance or taper. |
+| Expression / ASSIGN target endpoints | [Original manual p68 reproduction](https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-68.html): target-dependent Min/Max may be inverted for reversed response; changing target can change those settings, so recheck them. These ordinary ASSIGN limits are not proved global FV limits. |
+| Expression / active source range | [Own manual p69, indexed English body](https://roland.manymanuals.cz/supplementary-music-equipment/gt-pro/owners-manual-5239/69): source travel outside Act.Range Lo/Hi holds the endpoint. The **40–80 example on a0–127 source scale** illustrates a limited operating span, not volume percentages or pedal resistance. Source Mode Normal is specified for non-footswitch controllers. |
+
+Exact GT-PRO title/chapter/pagination corroborated; indexed manufacturer-authored text, not generated advice or GT-8 transfer. No visual/hardware test or download. Actual M-VAVE-controller compatibility remains unresolved; no tip/ring pinout inferred. Global fixed FootVolume versus patch enable/range precedence and output coverage remain open.
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.

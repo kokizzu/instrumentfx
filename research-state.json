@@ -124078,5 +124078,17 @@
     "off": "Destination volume saved value until pedal moved/information received.",
     "toggle": "Assign Hold does not function with Toggle source.",
     "unresolved": "Fixed SYSTEM FootVolume versus dedicated patchFV enable/range; EXP2 memo; output coverage unchanged. Recall does not establish global target assignment."
+  },
+  "gtpro_pedal_endpoints_20261028": {
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+      "https://roland.manymanuals.de/supplementary-music-equipment/GT-PRO/owners-manual-5239/16",
+      "https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-68.html",
+      "https://roland.manymanuals.cz/supplementary-music-equipment/gt-pro/owners-manual-5239/69"
+    ],
+    "evidence": "Indexed manufacturer-authored exact GT-PRO manual pp16,68,69; no visual/hardware test.",
+    "physical": "EV-5/FV-300L; pedal minimum-volume control MIN for EXP1/2.",
+    "assign": "Target endpoints reversible; changing target can alter endpoint settings. Active source range limits travel; outside span holds endpoint. 40–80 example on 0–127 scale is not output-volume range.",
+    "unresolved": "Arbitrary/M-VAVE controller pinout/resistance/taper; SYSTEM FootVolume versus patch FV enable/range; output coverage."
   }
 }
