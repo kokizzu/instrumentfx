@@ -277,11 +277,12 @@ Utility pp25–26,46 document three switch roles:Advance,Bypass,Control(tap/Lezl
 
 ## MIDIverb III
 
+<!-- comparison evidence begins -->
 Checked2026-10-17. Partial instrument/microphone multi-effects;not MIDIverb4. [Manufacturer Reference Manual onmirror](https://www.zikinf.com/manuels/alesis-midiverb-iii-manuel-utilisateur-en-46789.pdf),63pages,exact Alesis MidiVerb3 title;revision/date unestablished. Official oldmanualURL inaccessible;webtext only,no download/visualaudit.
 
 | Field | Evidence / gaps |
 |---|---|
-| Expression | No builtin pedal;momentary bypass socket. MIDI controller modulation;continuous analogEXP/toe unknown. |
+| Expression | No builtin pedal;momentary bypass socket. MIDI controller modulation;no analogEXP in complete own connector inventory;direct toe path N/A. |
 | Controls | Text-derived **3rotary/0integratedfoot/16buttons**;INPUT,MIX,OUTPUT. Power separate. |
 | Display | Threecharacters;LED/7segment descriptions conflict withspecification’sLCD wording. Diagonal/color/touch unknown. |
 | Processing / choices | Up to **4simultaneous:delay,reverb,chorus,EQ;15configurations**. Reverb20;chorus/flange24;EQ31+Off. |
@@ -314,6 +315,14 @@ Checked2026-10-17 against the [manufacturer Reference Manual mirror](https://www
 Chorus reaches output in1–6,13,14;it isoneffects only in7–12,15. These are15routing choices,not15simultaneous effects.
 
 Controls3/0/16 derive fromINPUT/MIX/OUTPUT rotaries;VALUEup/down,PROGRAM,STORE,EDIT,BYPASS andten numberedfunctionbuttons. No diagram visual audit. MIDI modulation offers8controller sources×6destinations,plusOff;this iscontrol routing,not48audioalgorithms.
+
+<!-- comparison evidence ends -->
+
+### MIDIverb III — direct-expression screening (2026-10-28)
+
+Own manufacturer-authored **63-page Alesis MIDIverb III Reference Manual**,[original reproduction](https://www.zikinf.com/manuels/alesis-midiverb-iii-manuel-utilisateur-en-46789.pdf),PDFpp18–21,26–27 (printed14–17,22–23): complete panel inventory has no analog EXP,headphone orUSB socket;no built-in treadle. BYPASS accepts a momentary switch and sends direct signal to stereo outputs. **Fails direct analog expression-volume path**;MIDI modulation is separate. Analog range/recall N/A;indirect volume/bypass/tail/loop coverage unverified.
+
+High-impedance instrument input is explicit;right input/output for mono. No onboard footswitches;VALUEup/down and keypad are hand controls. Keypad selection completes on the third digit,with4seconds allowed;MIDI recall requires ProgramChange enabled. Existing19W×7Dinch chassis is482.6W×177.8Dmm,too wide/deep. No headphones inferred from line outputs. Earlier display-wording andother qualifications remain intact. Text-only review;no download or hardware operation.
 
 ## NanoVerb
 

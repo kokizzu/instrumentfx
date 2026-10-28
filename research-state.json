@@ -124161,5 +124161,15 @@
     "presets": "No onboard footswitch or foot-preset stepping;hand16-ROM selector.",
     "bypass": "Wet suppressed,dry retained;troubleshooting qualifies100%wetMIX+Bypass=noaudio.",
     "remaining": "Tail/recorded-loop coverage,other prior technical/offer gaps;no hardware test."
+  },
+  "midiverb3_expression_screen_20261028": {
+    "source": "https://www.zikinf.com/manuels/alesis-midiverb-iii-manuel-utilisateur-en-46789.pdf",
+    "identity": "Own manufacturer-authored63-page Reference Manual PDF18–21,26–27;printed14–17,22–23;exact model/controls match.",
+    "expression": "No analogEXP/treadle in complete panel inventory;momentaryBypass only,MIDI separate.",
+    "headphones": "No socket;noUSB in complete inventory.",
+    "guitar": "High-impedance instrument;right input/output for mono.",
+    "footprint": "19W×7D inches=482.6×177.8mm too wide/deep.",
+    "presets": "No onboard footswitch;handVALUE/keypad;3digits within4seconds.",
+    "remaining": "Indirect volume/range/recall/bypass/tail/loop coverage andprior technical gaps."
   }
 }
