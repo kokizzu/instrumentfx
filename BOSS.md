@@ -1433,6 +1433,11 @@ Effect-chain placement is editable, including parallel arrangements; no single f
 
 Exact eng03 equivalence/current2.02 coverage ofthis mirror remains unverified;the official eng03 endpoint still returns403. SYSTEM target-sharing andpatch-stored range/placement qualifications remain intact. No new exact Shopee offer surfaced;old asks are not relabelled current. No hardware test ordownload.
 
+### GT-1000CORE — tuner bypass versus through sound
+
+Checked2026-10-28 in [original BOSS parameter guide mirror](https://files.kraftmusic.com/media/ownersmanual/Boss_GT-1000CORE_Parameter_Guide.pdf),57pages,©2020Roland,printedp55. Tuner **MUTE** suppresses output; **BYPASS** passes the incoming guitar unchanged with all effects off; **THRU** retains the current effect sound. These are tuner modes,not three generic descriptions of normal operation. Foot-volume sweep during BYPASS versus THRU is not explicitly established; SYSTEM target sharing cannot be promoted to all-mode attenuation from these descriptions. This older guide still lists a polyphonic tuner removed in2.01,so it is not certified as current2.02 documentation. Existing firmware qualifications,patch-stored range/routing andheadphone/tail/recorded-loop gaps remain. No device test ordownload.
+
+
 ## GT-Pro
 
 Checked 2026-10-19;partial. [Exact manufacturer product/specification](https://www.boss.info/global/products/gt-pro/) marks discontinued. Rack guitar multi-effects,not GT-8;ownership andbass/vocal suitability unverified.

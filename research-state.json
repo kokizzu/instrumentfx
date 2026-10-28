@@ -124675,5 +124675,12 @@
     "finding": "EXP mode disables all other EXP/FS menu options; external FS3/FS4 Patch/Bank navigation is switch-mode functionality, not verified concurrent analogEXP control. Do not infer splitter/M-VAVE coexistence.",
     "coverage": "Physical volume knob all-output wording not transferred to EXP; global assignment and attenuation coverage unresolved.",
     "next": "Exact HX/GT-1000CORE current documentation; GP50 inaccessible1.1 original remains unresolved; keep independent GT-Pro cursor."
+  },
+  "core_tuner_bypass_boundary_20261028": {
+    "source": "https://files.kraftmusic.com/media/ownersmanual/Boss_GT-1000CORE_Parameter_Guide.pdf",
+    "revision": "57pages copyright2020;printed55",
+    "finding": "Tuner BYPASS dry/all-effects-off, THRU current effect sound, MUTE silence. Do not infer SYSTEM FOOTVOL coverage in all modes; sweep not explicit.",
+    "qualification": "Guide retains polyphonic tuner removed2.01; exact2.02 revision equivalence unverified.",
+    "next": "Exact current parameter guide and headphone/tail/recorded-loop coverage; HX exact revision next; independentGTPro retained."
   }
 }
