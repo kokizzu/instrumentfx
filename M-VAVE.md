@@ -1320,3 +1320,10 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 Checked2026-10-19. [Own manufacturer product](https://www.cuvave.com/product?id=tank-pro) explicitly advertises volume/pan expression mapping and **PT/IP1/IP2 switching**. Definitions,persistence andwhether one volume assignment overrides every preset remain unverified;do not interpret mode labels asglobal control. LIVE locks performancecontrols,not documented volume assignment. Numericmin/max,position recall,bypass/headphone/tail/looper attenuation andexactonboard presetdown/up remain unresolved. Dedicated3.5mm phones and260×100mm footprint retained;widthfails.
 
 [Official downloads](https://www.cuvave.com/download) now lists **V38,2026-10-13** underNAMA2,while anotherPCFirmware section retains **V36,2026-09-24**. Newerlisting isnotinstalled-firmware proof,unrestrictednativeNAM certification orrevalidation ofoldcategorycounts. EarlierV36 observation preserved. The [original manual](https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/TANK-PRO.pdf) couldnotbereopened;no newfullmanualinspection. No downloads ordeviceoperation.
+
+
+### TANK-PRO — preset-bound EXP mapping,2026-10-28
+
+[Original branded bilingual PDF mirror](https://device.report/m/3544d1e57e0069ad2be035b67327d578bba8627e5ef3f4374741e51704264f55.pdf),39pages,Englishpp4–5,14:custom EXP mappings and P1/P2 state are **saved with each preset**. GLOBAL/PEDAL calibration precedes mapping;PEDAL SWITCH explicitly is not global. Thus this documented path is **PER PATCH**,not all-preset volume. Newer PT/IP1/IP2 product wording remains unresolved. This copy differs from the older70-page source;revision/firmware equivalence is not certified.
+
+Englishpp2–4 distinguish hand MASTER,covering instrument/drums/loop but excluding USB/BT,from preset VOL mode. This does not prove EXP coverage. CTRL offers assignable PRESET−1/+1;main/LIVE use bank switching. Numeric EXP range,physical-position recall,resistance/pinout,bypass/phones/tails/recorded-loop attenuation remain unknown. Existing260×100mm footprint fails width;dedicated3.5mm stereo phones retained. No hardware tested.

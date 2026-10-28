@@ -123851,5 +123851,16 @@
       "state retention"
     ],
     "hardware_test": false
+  },
+  "tankpro_expression_patch_scope_20261028": {
+    "source": "https://device.report/m/3544d1e57e0069ad2be035b67327d578bba8627e5ef3f4374741e51704264f55.pdf",
+    "classification": "PER PATCH documented; newer global override unverified",
+    "remaining": [
+      "39 versus70page revision",
+      "PT/IP1/IP2 scope",
+      "endpoints/pinout",
+      "attenuation coverage"
+    ],
+    "hardware_test": false
   }
 }
