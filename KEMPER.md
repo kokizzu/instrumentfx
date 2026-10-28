@@ -255,6 +255,12 @@ Partial record checked **2026-10-17**. Exact manufacturer SKU17300000 and Shopee
 
 Manufacturer UK availability is not Indonesian stock evidence. No currency conversion or files downloaded. Current shared specifications explicitly distinguish MK2 USB channels; remaining revision-sensitive physical and software details need the matching manual.
 
+### Rack MK2 — direct pedal and volume-lock scope
+
+Checked **2026-10-28**. [Current manufacturer specifications](https://www.kemper-amps.com/profiler/technical-specifications) explicitly include Rack: **two TRS pedal inputs,10–100kΩ**,dedicated quarter-inch stereo headphones32–600Ω,**483W×220Dmm**. Preferred fit fails. Remote sockets are additional hardware.
+
+[Manufacturer German Main Manual13.0,Rev.May2025,pp175–178](https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf) explicitly covers direct Rack connections. Volume placement/range are rig settings retained across changes by **Lock Volume Pedal**: Off/Input/Pre Stack/Post Stack/Output;−5 gives0–100%,+5 up to24dB boost. Post Stack preserves delay/reverb tails;Output cuts them. [Kemper Support,2024-04-07](https://forum.kemper-amps.com/forum/thread/63352-volume-pedal/) says pedal assignment is global and lock must be enabled separately in Browse/Performance. **Revision-qualified global assignment plus lock**,not current MK2 firmware certification. Held-position recall,bypass,headphone andrecorded-loop attenuation remain unknown. Onboard preset footswitch down/up unverified;external Rig up/down switches are separate. Existing model-specific controls,memory,prices andrevision gaps remain intact.
+
 ## PROFILER Stage MK2
 
 Partial record checked **2026-10-17**. Exact MK2 search-item identity;generic Stage offer not assigned MK2 capabilities. Stage is an independent processor,not the Remote controller. Original Stage remains a separate unresolved lead.
