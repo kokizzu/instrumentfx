@@ -123806,5 +123806,16 @@
       "ordinary guitar tone"
     ],
     "hardware_test": false
+  },
+  "tankmini_expression_screen_20261028": {
+    "source": "https://files.zohopublic.com.cn/public/workdrive-public/download/i4mj1528ac63d95fb47d18e0eea7ec4a74346",
+    "pages": "Printed3–6; original37page PDF text; revision unestablished",
+    "classification": "No analog EXP",
+    "remaining": [
+      "ordinary bypass attenuation",
+      "phones/tails/recorded-loop attenuation",
+      "power-on volume recall"
+    ],
+    "hardware_test": false
   }
 }

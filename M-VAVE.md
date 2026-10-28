@@ -916,6 +916,13 @@ Source: [manufacturer-authored manual distributed through TankPedal](https://fil
 
 <!-- comparison evidence ends -->
 
+
+### TANK MINI — direct expression and bypass volume,2026-10-28
+
+The manufacturer-authored37-page manual linked above reopened as original PDF text,with TANK MINI cover and manufacturer website;no printed revision established. Printedpp3–5 confirm the complete connector inventory has no analog EXP. The hand wheel **excludes Bluetooth and USB input volume**. Tuner uses bypass sound with software **BYPASS VOL0–100**;this setting is not a pedal assignment or calibrated pedal endpoint range. A+B selects bank down,B+C bank up,then a single switch confirms the preset;not sequential preset stepping. Printedp6 distinguishes loopback mixed recording from instrument-only recording;it does not establish pedal attenuation.
+
+Thus the direct expression requirement fails. Existing165×60mm footprint fits;dedicated3.5mm stereo phones and normal guitar/bass input remain documented. Wheel behavior during ordinary bypass,headphone/tail/recorded-loop attenuation and power-on volume recall remain unverified. No hardware tested or renewed visual audit.
+
 ### Preserved original finding
 
 The complete 2026-10-14 source is preserved below. The editor and firmware observations above are separately dated; no new manual inspection or live-stock confirmation is claimed.
