@@ -451,3 +451,7 @@ M-VAVE [host-panel electrical-label check](M-VAVE.md#footctrlplus-host-panel-man
 ### Flamma FV04 — context-dependent LEVEL, vocal-only scope
 
 [Exact-model screen](FLAMMA.md#fv04--direct-control-and-level-boundary): older original manual copy lists no analog EXP or headphones. LEVEL adjusts harmony orreverb,not documented global guitar master volume. Supporting guitar reverb does not qualify guitar multi-effects;outside main table. Preset down/up,axis-labelled fit andcurrent-revision applicability remain unverified.
+
+### Flamma FV05 — playback volume is separate from live expression
+
+[Exact V02 screen](FLAMMA.md#fv05--playback-level-and-direct-control-boundary): no analog EXP orheadphones in inventory;125W×86.6Dmm fits. PLAY LEVEL adjusts recording playback orhidden guitar reverb. SONG selects recording slots,not effect presets. Vocal-only membership retained,outside main guitar table;live/bypass/tail/output attenuation coverage unverified.

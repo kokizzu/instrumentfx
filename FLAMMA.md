@@ -309,6 +309,12 @@ Checked2026-10-17;partial. Vocal multi-effects/looper; guitar input supplies rev
 
 Source for manual-specific fields: [original manufacturer V02_2024.01.08](https://www.flammainnovation.com/file/pdf?fileName=FV05_Manual_EN_V02_2024.01.08.pdf&url=group1/M00/00/0B/wKgA0GWbkB2AUXYXAA5wQI7WXeY356.pdf),14PDFpages/11printed,complete text read. TONE is called a knob in hidden-mode prose despite push-button layout;no extra rotary inferred. Manual lists supplied power adapter;product accessory list omits it,so seller bundle must be checked. No visual verification claimed. Product specifications above came from indexed manufacturer copy;2026-10-17 reopens of both www/non-www product URLs returned empty templates,not a retraction of those specifications. Original PDF remained readable.
 
+### FV05 — playback level and direct-control boundary
+
+Checked **2026-10-28** against the original V02_2024-01-08 manual linked above,14PDFpages. Printed pp03–04 enumerate no treadle,analog EXP orheadphone socket;the documented direct analog pedal path therefore fails. Printed p11 explicitly gives **125W×86.6D×60H mm**,which fits the preferred footprint;do not transfer these axes to other FV models.
+
+PLAY LEVEL controls recorded playback (p09),andguitar reverb in hidden mode (p07);neither function establishes global live-guitar volume assignment. SONG selects recording slots,not effect presets;onboard effect-preset down/up remains unverified. Direct-pedal position,endpoints andrecall are inapplicable to this inventory. Bypass,live/recorded balance,tails andall-output volume coverage remain unverified. Retain vocal-only multi-effects membership withsupporting guitar reverb,outside the requested normal-guitar capability table. No fresh visual verification orhardware test claimed.
+
 | Condition / IDR evidence | Seller / item / qualifications |
 |---|---|
 | New | No condition-qualified hardware quote verified. |

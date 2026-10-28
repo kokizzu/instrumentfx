@@ -125524,5 +125524,19 @@
     ],
     "next": "FV05 exact-model capability screen",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "fv05_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "FLAMMA.md#fv05--playback-level-and-direct-control-boundary",
+    "source": "https://www.flammainnovation.com/file/pdf?fileName=FV05_Manual_EN_V02_2024.01.08.pdf&url=group1/M00/00/0B/wKgA0GWbkB2AUXYXAA5wQI7WXeY356.pdf",
+    "identity": "Original V02_2024-01-08,14PDFpages",
+    "result": "No analog EXP/headphones in inventory;125W86.6Dmm fits;PLAY LEVEL playback/hidden guitar reverb,not global live-guitar assignment;SONG recording slots not presets",
+    "unknown": [
+      "effect-preset down/up",
+      "bypass/live-recorded balance/tail/all-output volume coverage",
+      "visual panel verification"
+    ],
+    "next": "Remaining no-treadle inventory andpriority global-volume gaps",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
