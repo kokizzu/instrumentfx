@@ -124860,5 +124860,21 @@
     "status": "Qualified inventory screen;global scope andcoverage unknown;visual no-treadle check pending",
     "next": "Reopen original full-manual expression/global pages;actual controller wiring andrange;fresh exact hardware offers",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "ie350_global_target_20261028": {
+    "checked": "2026-10-28",
+    "document": "DK.md#ie-350--global-menu-vol-target-evidence",
+    "sources": [
+      "https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=6",
+      "https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=7"
+    ],
+    "finding": "Expression Target explicitly Global Settings;VOL overall chain output. Stronger than calibration;not complete all-source/persistence proof.",
+    "remaining": [
+      "Firmware digits",
+      "Across-preset/power persistence",
+      "Endpoints andheld recall",
+      "Bypass/headphone/drums/backing/tails/loop attenuation"
+    ],
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

@@ -57,6 +57,12 @@ Checked **2026-10-28** using the [manufacturer bilingual quick guide,V01 filenam
 
 Chinese specifications give122×103mm length×width,so preferred fit holds whichever horizontal axis interpretation applies. The earlier full-manual VOL-chain target remains preserved,but full-manual p7 could not be reopened today. **Global assignment across all presets,placement,min/max,held-position recall,bypass,headphone,tail andrecorded-loop attenuation remain unverified.** Connector presence andGLOBAL button are not global volume evidence. No iE-550 specifications transferred,software downloaded orhardware operated.
 
+### iE-350 — global-menu VOL target evidence
+
+Checked **2026-10-28**. [Original manufacturer manual,p6](https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=6) and[p7](https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=7) became readable through contents links. **Expression Target is explicitly under Global Settings**;VOL controls the overall effect-chain output,whereas FX/DRV/AMP/MOD/DLY/RVB select effect-specific parameters. This is a documented global-menu target,not merely global calibration.
+
+The manual does not expressly promise across-preset/power-cycle persistence in these pages;firmware digits remain unreadable. Record a **promising global-menu VOL assignment,not a fully verified all-preset/output match**. Page6 separately stores Preset Volume andprovides USB Record,BT REC andMonitor levels;none proves those sources are attenuated by EXP. Position,min/max,held-pedal recall,bypass,headphone,drum/backing/tail andrecorded-loop coverage remain unknown. Previous access-failure observations retain their date;no download orhardware test.
+
 ## iE-550
 
 Checked 2026-10-18. Partial exact-model record. Manufacturer product identity and independent effect modules support guitar multi-effects inclusion. Color offers are not separate models. Ownership, bass and vocal suitability remain unverified.
