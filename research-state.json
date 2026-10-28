@@ -122572,8 +122572,8 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-28",
-    "current": "Ampero Mini exact-model indexed regional EXP resistance qualification",
-    "finding": "Hotone Japan publishes10–25kΩ TRS EXP; current text omits tab. Pinout and across-preset global volume remain unverified.",
+    "current": "Smart Box MIDI master/EXP distinction and exact power current review",
+    "finding": "CC6 Master Volume separate from duplicateCC7 PresetVolume/EXP; analog global assignment remains unverified.",
     "next": [
       "Ampero Mini/Nano Cortex across-preset volume assignment remains unverified; manufacturer confirmation or readable exact-revision evidence needed",
       "Exact HX and GT-1000CORE documentation and headphone/tail/looper coverage",
@@ -122824,6 +122824,30 @@
       "output_conflict": "Japanese balanced stereo wording versus retained English unbalanced stereo tipL/ringR",
       "former_distributor": "AllAccess product redirects to closure notice; olderJPmanual inaccessible",
       "next": "Do not repeat unchanged Mini menu rechecks; seek exact new firmware evidence or manufacturer clarification. Continue eligible inventory and exact Shopee offers."
+    },
+    "smartbox_recheck_20261028": {
+      "source": "https://sonicake.oss-accelerate.aliyuncs.com/res/kU5Y9sWnzs/QME20total.pdf",
+      "revision": "firmware1.0.1",
+      "printed_pages": "30–32",
+      "access": "original browser text; no new visual inspection",
+      "cc6": "MasterVolume0–100",
+      "cc7_conflict": [
+        "PresetVolume0–100",
+        "EXP0–100"
+      ],
+      "global_analog_volume": "unverified",
+      "dc_current_ma": {
+        "operation": 160,
+        "charging": 700,
+        "supply_min": 700
+      },
+      "usb_current_ma": {
+        "operation": 300,
+        "charging": 1000,
+        "supply_min": 1000
+      },
+      "offer_reopen": "1563832992/54263539629 inaccessible; historical ask unchanged",
+      "next": "Exact current firmware/controller mapping evidence; do not equate MIDI master with direct analog EXP. Continue remaining inventory and qualified offers."
     }
   },
   "brand_navigation": {

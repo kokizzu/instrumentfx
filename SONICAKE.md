@@ -713,6 +713,17 @@ These earlier observations were recorded on **2026-10-14** before the IDR revisi
 
 Historical source key: `FSB` means the [original Smart Box finding](SONICAKE.md#smart-box-qme-20)<!-- historical-link:sonicake-007 -->; `manual` means the [manufacturer multilingual manual](https://sonicake.oss-accelerate.aliyuncs.com/res/kU5Y9sWnzs/QME20total.pdf); `smartbox` means the [official model page](https://www.sonicake.com/products/smart-box). The shared firmware paragraph discusses distinct devices and is not permission to transfer their firmware or architecture limits.
 
+### Smart Box — distinct MIDI volumes and power currents, 2026-10-28
+
+[Original firmware1.0.1 manual](https://sonicake.oss-accelerate.aliyuncs.com/res/kU5Y9sWnzs/QME20total.pdf), printed pp30–32, reopened as browser text; no new visual inspection or hardware test.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / MIDI distinction | Table lists **CC6 Master Volume0–100**, but **CC7** appears twice: Preset Volume0–100 and EXP0–100. Preserve the duplicate-number ambiguity. MIDI master control does not establish an analog EXP-to-master assignment, global persistence, or final-output coverage. |
+| Power / operating versus charging | DC9V center-negative **5.5×2.1mm**, supply≥700mA; documented operation160mA and charging700mA. USB5V supply≥1A; operation300mA and charging1A. Battery2000mAh,3.7V. Manufacturer figures, not measurements; do not sum currents or infer runtime. |
+
+Exact Shopee item1563832992/54263539629 could not be reopened on2026-10-28. Earlier Rp1.840.000 remains historical, with current condition, stock, bundle and vouchers unverified. Global analog volume and bypass/headphone/tail/recorded-loop coverage remain unresolved.
+
 <!-- comparison evidence ends -->
 
 ### Preserved original Smart Box finding
