@@ -569,3 +569,5 @@ GS-10 [Assign Hold and tuner qualifications](BOSS.md#gs-10--assign-hold-recall-a
 GP-50 [looper persistence qualification](VALETON.md#gp-50--looper-screen-exit-versus-recording-persistence): firmware1.0.5 retains looper state when its screen is closed,but does not save recordings permanently. Separate record/playback levels do not verify expression attenuation. Current1.1.0 behavior remains unverified.
 
 VP4 [local-pedal startup boundary](FRACTAL-AUDIO.md#vp4--local-pedal-startup-boundary-and-exact-interfaces): MIDI External Controller Initial Value explicitly excludes local analog pedals. Global volume assignment remains documented separately; analog startup recall and bypass/tail/loop attenuation remain unverified. Partial lead, outside active counts.
+
+VP4 [4CM bypass boundary](FRACTAL-AUDIO.md#vp4--writable-memory-scenes-and-4cm-bypass-boundary): global/preset 4CM mismatch forces bypass; 4CM is mono. Scene-mode holds1/4 provide preset down/up. These facts do not establish expression attenuation during bypass; lead remains partial.

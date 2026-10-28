@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(fractal): clarify VP4 analog startup and exact interfaces'))
+    print(git('commit','-m','research(fractal): document VP4 writable memory and 4CM bypass'))

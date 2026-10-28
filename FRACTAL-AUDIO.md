@@ -176,3 +176,16 @@ Checked 2026-10-28 in [manufacturer v1.06 manual,2024-10-23](https://www.fractal
 | Dimensions / discrepancy | Specification gives66.0mm height; dimension drawing text also contains63.6/69.9mm. Their physical reference points need visual verification; no silent replacement of the published specification. Width254mm/depth160.3mm still exceed preference. |
 
 No local download or device test. Exact Shopee hardware, full library/profile and output coverage remain unresolved; this lead stays outside active counts.
+
+### VP4 — writable memory, scenes and 4CM bypass boundary
+
+Checked 2026-10-28 against [own v1.06 manual](https://www.fractalaudio.com/downloads/manuals/VP4/VP4-Owners-Manual.pdf), printed pp19,23–24,34–36; revision remains2024-10-23, not firmware4.04 certification.
+
+| Field | Evidence / qualification |
+|---|---|
+| Memory | **26 banks A–Z ×4 =104 locations; every preset editable/erasable**. Factory tones occupy this same writable storage, not an additional protected bank. Manual lists V–Z blank, but does not classify U in its overview; complete initial-filled/blank count remains unverified. Bank S includes bass presets/acoustic template. |
+| Scenes / channels | **4 scenes per preset;4 channels A–D per block**. Channels may change effect subtype/settings, not block category. Shared-channel edits affect every scene using it; these variants do not multiply the four simultaneous slots. |
+| Onboard selection | Scene mode: hold1 preset−1, hold4 preset+1. Preset mode: taps select four bank slots; holds1/4 select previous/next bank. |
+| Routing / bypass | **4CM is mono** and requires matching global and preset configuration. Either mismatch forces bypass; enabling global4CM ignores ordinary input/output modes except MUTE. Preset split supports0–4 pre effects with the remainder post. This restriction does not prove EXP attenuation through bypass. |
+
+Full current library, factory-fill census, exact Shopee hardware and analog volume coverage remain open. Partial lead remains outside active inventory. No local download or device operation.

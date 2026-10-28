@@ -128446,5 +128446,37 @@
     "height": "spec66mm; drawing text63.6/69.9mm reference points unverified",
     "remaining": "Exact Shopee hardware; full profile/library; analog startup recall, endpoints and output/bypass/tail/loop coverage",
     "downloads": false
+  },
+  "vp4_memory_scene_4cm_20261028": {
+    "checked": "2026-10-28",
+    "source": "https://www.fractalaudio.com/downloads/manuals/VP4/VP4-Owners-Manual.pdf",
+    "revision": "1.06,2024-10-23",
+    "pages": [
+      19,
+      23,
+      24,
+      34,
+      35,
+      36
+    ],
+    "active": false,
+    "memory": {
+      "total": 104,
+      "writable": 104,
+      "protected_additional_bank": false,
+      "initial_blank": "V–Z explicit; U not classified in overview; complete fill census unknown"
+    },
+    "scenes_per_preset": 4,
+    "channels_per_block": 4,
+    "channel_scope": "Subtype/settings may change; category cannot; shared edits affect referencing scenes",
+    "onboard": "Scene mode holds1/4 preset−1/+1; Preset mode holds1/4 bank−1/+1",
+    "four_cable_method": {
+      "mono": true,
+      "global_preset_mismatch": "forced bypass",
+      "split": "0–4 pre, remainder post",
+      "expression_bypass_coverage": "unknown"
+    },
+    "next": "Continue full VP4 current library/import/editor/loop profile and exact Shopee discovery; do not promote lead prematurely",
+    "downloads": false
   }
 }
