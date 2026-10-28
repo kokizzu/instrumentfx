@@ -123,6 +123,12 @@ The [mirror transcription][DSL-QH] is retained for locating a readable original;
 [DSL-Q]: https://device.report/m/3a927c202f4a099de41749af0c98d7c544b926bdf6a02678d84be32686b95e00.pdf
 [DSL-QH]: https://device.report/manual/19170657
 
+### Dual Stomp Lite — compact eligibility screen
+
+Checked **2026-10-28**, [exact manufacturer product](https://soranaudio.com/products/27.html):135L×116Wmm fits preferred rectangle either orientation;dedicated3.5mm stereo headphones explicitly specified. The page calls this a dual-footswitch processor,but does not provide a complete control inventory oranalog EXP specification in its text. Product-image retrieval returned403;no visual absence claimed.
+
+**No-treadle eligibility,analog EXP,global volume,position,min/max,recall,bypass/headphone/tail/loop attenuation andonboard preset down/up remain unverified.** Keep in pending screening outside the main capability table. FullDual Stomp’s WAH/VOL treadle andTiny Stomp’s EXP/CTRL socket are not transferred. Existingmanual-identity caution,prices andsoftware qualifications remain. No hardware test ordownload.
+
 ## Go Rig B
 
 Bass-specific multi-effects;checked2026-10-18,partial. No Tiny/Dual Stomp specifications transferred. Ownership unverified.

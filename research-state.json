@@ -124949,5 +124949,13 @@
     "status": "Built-in treadle confirmed;excluded from no-treadle audit;general inventory unchanged",
     "next": "Dual Stomp Lite exact-model no-treadle/EXP screen",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "dualstomplite_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "SORAN.md#dual-stomp-lite--compact-eligibility-screen",
+    "source": "https://soranaudio.com/products/27.html",
+    "status": "Fit/headphones documented;no-treadle/EXP eligibility pending;outside table",
+    "next": "Original exact Lite manual/control-panel verification;no sibling transfer",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
