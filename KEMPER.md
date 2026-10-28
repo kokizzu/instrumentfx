@@ -136,6 +136,10 @@ Manufacturer manuscript identity/revision established above;no downloads. Curren
 
 The earlier OS14.2 review’s unverified-lock statement is historical;this added manufacturer reply isPlayer-specific and doesnot borrow a larger PROFILER manual. Generic effect-module locking is a separate question. No settings changed orhardware tested;145W×166Dmm still exceeds preferred depth.
 
+### Player — DI output sources exclude Volume Pedal
+
+Checked **2026-10-28**: [Kemper official administrator reply,19December2025](https://forum.kemper-amps.com/forum/thread/67053-kemper-player-m-vave-chocolate-and-lehle-dual-expression/),Player-specific discussion,states **DI Analog/DI Low output sources omit Volume Pedal**;Location Off orRange0 also make it ineffective. CC7 support at the receiver is distinct fromverification that a Chocolate controller sends a compatible continuous sweep. This qualifies any all-output volume claim;headphones,bypass andrecorded-loop coverage remain independently unresolved. No current firmware/device test orpinout inferred.
+
 ## PROFILER PowerHead MK2
 
 Partial record checked **2026-10-17**. Exact manufacturer SKU18300000 and Shopee MK2 title; distinct from unpowered Head,PowerRack and Remote bundles.

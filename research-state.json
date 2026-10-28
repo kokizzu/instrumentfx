@@ -125135,5 +125135,21 @@
     "result": "Bundle identity resolved; exact device dimensions/mass and Shopee Indonesia offer unresolved",
     "next": "Seek Black-specific manufacturer chassis measurements and exact IDR offer; preserve Guitar/Bass verified dimensions",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "chocolate_player_routing_20261028": {
+    "checked": "2026-10-28",
+    "source": "https://forum.kemper-amps.com/forum/thread/67053-kemper-player-m-vave-chocolate-and-lehle-dual-expression/",
+    "authority": "Burkhard,administrator,official post5,2025-12-19",
+    "finding": "Player DI Analog/DI Low omit Volume Pedal; Location Off andRange0 also ineffective",
+    "scope": "Receiver control-path qualification,not M-VAVE pinout orcontinuous CC verification",
+    "unknown": [
+      "Chocolate revision",
+      "pinout/resistance",
+      "continuous CC sweep",
+      "simultaneous transport",
+      "headphone/bypass/recorded-loop coverage"
+    ],
+    "next": "Obtain exact controller hardware manual/pinout and confirm destination source/assignment independently",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
