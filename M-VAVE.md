@@ -1088,6 +1088,13 @@ Sources: [manufacturer-authored multilingual manual hosted on Amazon](https://m.
 
 <!-- comparison evidence ends -->
 
+
+### TANK-G — direct expression screening,2026-10-28
+
+The original revision’s complete panel inventory above has no analog EXP, so it fails the direct pedal requirement despite its hand MASTER control. [Manual operating-text reproduction](https://device.report/m/08d3541cfde925d82a2977ac9bee9f896cdc3af5a64f91c9085e3837915dd172) distinguishes AMP VOLUME from final MASTER: the latter remains lit in bypass. This is hand control, not a global expression assignment, and does not independently prove headphone/tail/recorded-loop attenuation. Navigation is **bank down/up, then A/B/C/D confirmation** across nine banks; it is not single-step preset down/up. Dedicated3.5mm phones and310W×65Dmm chassis are retained; width exceeds the preferred limit. No expression range/position recall applies to this absent analog path.
+
+New provenance lead: [Sinco filed original](https://device.report/m/032e9ad86d5604322dfe45899868dce63ffd13b873b993f6adc67c8baf5e0034.pdf),title identifies PD34,V02,2024-01-03. Its one-sheet extraction exposes mainly panel labels; the operating text above is a reformatted reproduction, not a newly inspected original operating section. Amazon original could not reopen; no renewed visual claim or transfer to TANK-GV2.
+
 ### TANK-G — version boundary and complete original finding
 
 The2026-10-17 follow-up used manufacturerHTML andplain-text release notes only. Theoriginalproduct endpoint still exposed a shell;themanufacturer preset-PDF link returnedunsupportedcontent-type. No manual/package/dependency downloaded ordevice executed. AM3support is tied tooriginalv96;AM4v97notes explicitlylabelGV2,despiteindexoverlap. Available conversion software doesnotprove unrestrictednativeNAM playback. Original2026-10-14 manual/panel observations,prices andlimitations are preserved below withouta renewedvisual-inspection claim.

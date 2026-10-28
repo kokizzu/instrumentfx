@@ -123782,5 +123782,16 @@
       "attenuation coverage"
     ],
     "hardware_test": false
+  },
+  "tankg_expression_screen_20261028": {
+    "classification": "No analog EXP in original recorded panel inventory",
+    "navigation": "Bank selection followed by direct preset confirmation",
+    "source": "https://device.report/m/08d3541cfde925d82a2977ac9bee9f896cdc3af5a64f91c9085e3837915dd172",
+    "source_limit": "Reformatted operating reproduction; filed PD34 V02 original extraction mainly labels; no renewed visual audit",
+    "remaining": [
+      "output attenuation coverage",
+      "original versus V2 revision"
+    ],
+    "hardware_test": false
   }
 }
