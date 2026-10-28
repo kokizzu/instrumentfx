@@ -3015,6 +3015,16 @@ Checked2026-10-19; partial. [Official manual p41](https://zoomcorp.com/media/doc
 
 The separate [2017 PDL Vol entry](https://zoomcorp.com/media/documents/E_G5n_G3n_G3Xn_FX-list.pdf.pdf), p23, has Min/Max0–100 and curvesA/B; these specifications are **not transferred to OutputVP**. Existing234×181mm chassis fails the preferred footprint. Combined headphone output and older exact-offer qualifications remain above; exact item49050618880 search returned no refreshed evidence. No hardware operation.
 
+### G3n — bank switching and headphone load qualification, 2026-10-28
+
+| Field | Evidence / qualification |
+|---|---|
+| Controls / patch versus bank switching | [Own shared G3n/G3Xn manual,p16](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf),indexed original text:MEMORY mode FS1/2/3 selects one of three patches;BANK down/up changes banks,holding repeats. These are **bank** down/up controls,not a documented sequential patch−/+ pair. PRESELECT can defer patch changes until selection;existing workflow must not be generalized to unrestricted preset browsing. |
+| I/O / headphone output | [Manufacturer Spanish G3n/G3Xn manual,p51](https://zoomcorp.com/media/documents/S_G3n_G3Xn.pdf) specifies shared L/MONO/PHONES stereo socket,**15mW+15mW into32Ω**. This is a power-rating test load,not a published minimum headphone impedance or expression-attenuation guarantee. Main line output+5dBm into≥10kΩ;retain source unit,dBm,without inventing conversion. |
+| Controls / master volume | [Manufacturer Italian manual,p22](https://zoomcorp.com/media/documents/I_G3n_G3Xn.pdf):M.LVL **0–120**,accessible in STOMP/MEMORY. This is master-level editing,not OutputVP’s range or a global pedal assignment. |
+
+Indexed manufacturer original sections used;no PDF visuals,downloads or hardware test. Existing234W×181Dmm size exceeds preferred limits,and OutputVP placement/assignment/bypass/headphone/tail/loop coverage remains unverified.
+
 ## G3X
 
 Original guitar multi-effects with expression; distinct from G3 and G3Xn. Manufacturer marks discontinued. Checked2026-10-17; partial. Bass/vocal suitability and ownership unestablished.
