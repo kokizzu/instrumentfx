@@ -554,4 +554,4 @@ Nano Cortex [historical support-report qualification](NEURAL-DSP.md#nano-cortex-
 
 ### GFI System Synesthesia — partial discovery screen
 
-[Manufacturer-backed lead](GFI-SYSTEM.md#synesthesia--partial-no-treadle-discovery-lead):120×120mm fits; directEXP10–25kΩ,wiper-to-tip documented in2.3+manual. Assignment endpoints are preset-stored; per-preset Master Volume is separate. Global volume remains unverified. Exact cached Shopee hardware ask preserved with unknown condition/stock. Complete eligibility/profile pending; outside active counts and main table.
+[Manufacturer-backed lead](GFI-SYSTEM.md#synesthesia--partial-no-treadle-discovery-lead):120×120mm fits; directEXP10–25kΩ,wiper-to-tip documented in2.3+manual. Assignment endpoints are preset-stored; per-preset Master Volume is separate. Global volume remains unverified. Exact cached Shopee hardware ask preserved with unknown condition/stock. Admitted as a partial active guitar record after eligibility/profile review; historical lead anchor retained. Global-volume qualification remains unverified.

@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 392,
+  "active_model_count": 393,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 392,
+  "canonical_root_model_count": 393,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "392 unique active/root-canonical;0 legacy-only;47brands;sixexcluded;allpartial.",
+  "count_reconciliation": "393 unique active/root-canonical;0 legacy-only;48brands;sixexcluded;allpartial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -5699,6 +5699,18 @@
       "date": "2026-10-18",
       "source": "https://shopee.co.id/Donner-Arena-2000-Multi-Effect-Guitar-Pedal-AMP-Modeling-Multiple-Effects-Processor-i.495337904.26851341708",
       "finding": "Additional exact Diana Musik offer saved as sold-out condition-unverified historical ask;reopened cache adds Habis missing from search."
+    },
+    {
+      "model": "GFI System Synesthesia",
+      "path": "GFI-SYSTEM.md#synesthesia",
+      "checked_date": "2026-10-28",
+      "status": "partial",
+      "eligibility": "Normalguitarpickupguidance,dualengineindependent38algorithmreference,exactqualifiedShopeehardware",
+      "unresolved": [
+        "CompletevisualI/O/controlreview,headphones,factoryfill,displaydetails",
+        "Currenteditorplatforms,firmwarelibrary,globalexpressioncoverage",
+        "Condition-verifiedused/newhardwareandcheckoutstock"
+      ]
     }
   ],
   "consolidation_and_price_findings": [
@@ -25124,8 +25136,8 @@
     {
       "model": "GFI System Synesthesia",
       "checked_date": "2026-10-28",
-      "status": "Partial lead,outsideactiveinventory",
-      "path": "GFI-SYSTEM.md#synesthesia--partial-no-treadle-discovery-lead",
+      "status": "Admittedpartialactiveguitarmodel2026-10-28;notfullyverified",
+      "path": "GFI-SYSTEM.md#synesthesia",
       "manufacturer": "https://gfisystem.com/pedals/synesthesia",
       "shopee": {
         "seller_item": "16879370/15064144120",
@@ -25135,12 +25147,12 @@
       },
       "finding": "120x120mm fits;two algorithms;EXP10–25kohm wiper-to-tip,primaryparameterendpointsstoredperpreset;master−3…+3dBperpreset,no globalvolume established;2.5.1listedSep18,2026",
       "next": [
-        "Complete I/O/control/display census;38-name algorithm census now saved",
-        "Headphones,onboarddown/up,globalvolume/currentfirmware",
-        "Separate used/new conditionandcheckoutstock",
-        "Admitonlyaftercompleteprofile;do notincrementactivecounts"
+        "CompletevisualI/O/controlreview,headphones,factoryfill,displaydetails",
+        "Currenteditorplatforms,firmwarelibrary,globalexpressioncoverage",
+        "Condition-verifiedused/newhardwareandcheckoutstock"
       ],
-      "algorithm_census": "38tablechoices:5Amplitude+5Filters+7Swirls/Shimmers+4Phase+10Misc+7Sequencer;V2.x.xreference,currentinstalledlibraryunverified"
+      "algorithm_census": "38tablechoices:5Amplitude+5Filters+7Swirls/Shimmers+4Phase+10Misc+7Sequencer;V2.x.xreference,currentinstalledlibraryunverified",
+      "initial_status": "Partial lead,outsideactiveinventory"
     }
   ],
   "inventory_by_brand": {
@@ -25629,6 +25641,9 @@
     ],
     "Harley Benton": [
       "DNAfx GiT Core"
+    ],
+    "GFI System": [
+      "Synesthesia"
     ]
   },
   "root_brand_content": {
@@ -26117,11 +26132,14 @@
     ],
     "HARLEY-BENTON.md": [
       "DNAfx GiT Core"
+    ],
+    "GFI-SYSTEM.md": [
+      "Synesthesia"
     ]
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 327,
+      "record_count": 328,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -26151,10 +26169,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 327 guitar, 170 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 328 guitar, 170 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "392 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "393 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -46587,10 +46605,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 392,
-    "canonical_root_models": 392,
+    "unique_brand_model_pairs": 393,
+    "canonical_root_models": 393,
     "legacy_only_models": 0,
-    "guitar_view_models": 327,
+    "guitar_view_models": 328,
     "bass_focused_models": 40,
     "vocal_only_models": 25,
     "vocal_view_models": 71,
@@ -47015,7 +47033,8 @@
       "EROK::MP-20",
       "EROK::MP-10",
       "EROK::Pocket Sonic",
-      "Harley Benton::DNAfx GiT Core"
+      "Harley Benton::DNAfx GiT Core",
+      "GFI System::Synesthesia"
     ],
     "ALL-BASS.md": [
       "Audota::AME-200",
@@ -50301,6 +50320,13 @@
       "link": "HARLEY-BENTON.md#dnafx-git-core",
       "source_files": [
         "HARLEY-BENTON.md"
+      ],
+      "finding_files": []
+    },
+    "GFI System::Synesthesia": {
+      "link": "GFI-SYSTEM.md#synesthesia",
+      "source_files": [
+        "GFI-SYSTEM.md"
       ],
       "finding_files": []
     }
