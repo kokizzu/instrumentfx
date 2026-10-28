@@ -441,6 +441,12 @@ Official product DELAY prose duplicates reverb;own manual used to distinguish th
 [MDR-M]: https://www.valeton.net/download/180/dapper-mdr%E5%B7%B2%E5%81%9C%E4%BA%A7/18581/dapper-mdr_manual_en_v01_181108-2.pdf
 [MDR-O]: https://shopee.co.id/Valeton-Dapper-MDR-Effects-Strip-Guitar-Effect-i.141177049.2861386191
 
+### Dapper MDR — expression, phones and trail boundaries
+
+Checked 2026-10-28 against [own V01_181108 manual][MDR-M], two pages. Guitar input and dedicated PHONES with a physical headphone-level knob are explicit. Direct analog EXP and global-volume assignment remain **unverified**; the readable text does not establish a complete control-connector inventory. Minimum/maximum, volume placement, recall and pedal action on bypass, headphones, tails or recorded loops remain unknown.
+
+REVERB hold toggles the documented effect-trail setting; four LED pulses confirm a change. The passage does not establish independent delay/reverb trail controls, a universal mute or expression attenuation of existing tails. MOD/DELAY holds instead enter tap mode; DELAY+REVERB holds activate muted tuning. These functions are not preset down/up. Product197W×65Dmm fits preference; manual65W×197Dmm requires rotation and remains an axis conflict. No other Dapper model supplies missing capabilities.
+
 ## Dapper Mini MES-1
 
 Guitar multi-effects strip, separate from Bass Mini MES-2 and Acoustic Mini. Checked 2026-10-17; partial. MES-1 code is seller identification pending readable manual corroboration.
