@@ -1713,6 +1713,14 @@ DirectanalogEXP isdocumented;482W×305Dmm rackchassis far exceeds preferredfootp
 | USB / MIDI limitation | Same manual pp110,123: Special mode supplies GT-PRO Control MIDI ports for device SysEx/data, but rear MIDI IN/OUT cannot serve as the computer’s MIDI interface in either driver mode. Historical WDM/MME/ASIO2 support does not override current Windows10/11 incompatibility. |
 
 
+### GT-Pro — Slow Gear and Defretter parameter meaning 2026-10-28
+
+| Field | Finding / qualification |
+|---|---|
+| Processing / Slow Gear | [Own original manual p41](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf), indexed: violin-like volume swell; Sens and Rise Time each **0–100**, with no milliseconds stated. Low sensitivity requires stronger picking; high sensitivity responds to weaker picking. This envelope effect is not global expression volume or another simultaneous block. |
+| Processing / Defretter | Same exact-model page: simulates **fretless guitar**. Tone **−50…+50** adjusts note blurring; Sens,Attack,Depth,Resonance,Effect Level andDirect Level each **0–100**. Depth describes harmonic behavior; no time/frequency units inferred. This does not establish acoustic-body modeling or bass suitability. |
+
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.

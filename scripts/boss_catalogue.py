@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(boss): clarify GT-Pro USB mix routing and MIDI interface limits'))
+    print(git('commit','-m','research(boss): document GT-Pro Slow Gear and Defretter parameter limits'))

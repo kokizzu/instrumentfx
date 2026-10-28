@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro USBMAIN+SUBmix andDIN MIDI-interface restriction saved;exactUSBchannelcount,44category/13vs15basis,remainingFXdefinitions andqualifiedIDR unresolved;392partial.",
+    "task": "GT-Pro SlowGear/Defretter definitions saved;remainingFXdefinitions,44category/13vs15basis,exactUSBchannelcount andqualifiedIDR unresolved;392partial.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -123260,5 +123260,14 @@
     "midi": "device Control port distinct from rearDIN;no computerDIN MIDI interface in either mode",
     "channel_count": "unverified",
     "next": "Exact USB channel count,44category/13vs15reconciliation andqualified Shopee GT-Pro offers"
+  },
+  "gtpro_slowgear_defretter_20261028": {
+    "source": "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+    "page": 41,
+    "access": "indexed manufacturer original;no visual/hardware test",
+    "slowgear": "Sens/RiseTime0–100;relative not milliseconds;strong/weak picking threshold",
+    "defretter": "fretless guitar;Tone-50…+50;other controls0–100",
+    "counts": "existing shared FX families;no new algorithm/block count",
+    "next": "Remaining FX definitions and44category/13vs15basis;USBchannelcount;qualified IDR"
   }
 }
