@@ -495,3 +495,7 @@ M-VAVE [host-panel electrical-label check](M-VAVE.md#footctrlplus-host-panel-man
 ### TC-Helicon VoiceLive Touch 2 — global guitar settings, pedal scope unknown
 
 [Exact-model screen](TC-HELICON.md#voicelive-touch-2--footswitch-navigation-and-expression-boundary): global guitar effects do not prove expression assignment. Switch-3 defaults external down/up/Hit&Talk;no onboard footswitches. Direct analog EXP/global volume andW/D fit unknown. Stereo⅛-inch phones retained. Acoustic membership preserved;normal electric-pickup suitability unclassified,outside stricter main table.
+
+### TC-Helicon VoiceLive Play — vocal-only path, onboard down/up
+
+[Exact-model screen](TC-HELICON.md#voicelive-play--direct-control-and-onboard-navigation-boundary):v1.0documents Switch-3,not continuous EXP;no guitar input. RoomSense guidance does not qualify normal-guitar processing. Outside main table. Onboard down/up withhold scrolling confirmed;headphones present. Regional200W×156Dmm fails depth,pendingmanufacturer corroboration. Current EXP/global volume unknown.

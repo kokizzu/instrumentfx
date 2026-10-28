@@ -125707,5 +125707,21 @@
     ],
     "next": "VoiceLive Play orremaining no-treadle inventory;priorityglobal-volume questions",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "vlplay_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "TC-HELICON.md#voicelive-play--direct-control-and-onboard-navigation-boundary",
+    "source": "https://www.fullcompass.com/common/files/16302-TCHeliconVoiceLivePlayUserManual.pdf",
+    "identity": "Original manufacturer v1.0 manual,blue Play notGTX/Acoustic",
+    "result": "Switch3not continuousEXP;no directguitarinput;vocal-only outside main table",
+    "navigation": "Onboard UP/DOWN step/holdscroll;loop repurposes controls",
+    "fit": "Regional200W156Dmm failsdepth;primarycorroborationpending",
+    "unknown": [
+      "currentEXP/globalvolume",
+      "placement/endpoints/recall/attenuationcoverage",
+      "currentfirmware/marketingconflicts"
+    ],
+    "next": "Remaining no-treadle inventory andpriority globalvolume questions",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

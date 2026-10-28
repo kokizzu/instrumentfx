@@ -1176,6 +1176,12 @@ Checked2026-10-17:manufacturer-authoredv2.1 mirror pp20,21,23,27 confirmsµMod24
 
 A separate [originalv2.0 manual copy](https://manualzz.com/doc/9871012/tc-helicon-voicelive-play-user-manual) identifies revision oncover andmatching32-page contents. Originalbody pp17–18,22,25,28 establishes:15sloop withundo/30swithout;LeadDly AUTO follows enabledblocks;GlobalTempo overrides butdoesnot overwrite savedpresettempo;manualharmony has6scale choices;Transducer8styles,OUTPUT/FXrouting,independentgate. These arev2.0 findings,not silently substituted forthe inaccessiblev2.1 pages. Only originaldocumentbody used;generatedintro/FAQs excluded. No filedownloads.
 
+### VoiceLive Play — direct-control and onboard navigation boundary
+
+Checked **2026-10-28** against [original v1.0 manufacturer manual](https://www.fullcompass.com/common/files/16302-TCHeliconVoiceLivePlayUserManual.pdf),printedpp3–8. Rear inventory documents Switch-3 TRS,not continuous EXP,andno direct guitar input. RoomSense listens to instruments forharmony guidance;it does not supply a normal pickup-input multi-effects path. Retain vocal-only membership,outside requested guitar capability table. Current analog EXP/global volume remains unverified;later marketing/MIDI conflicts above are retained.
+
+Onboard UP/DOWN each step presets;hold scrolls rapidly. Loop mode repurposes controls;exit permits preset selection whileloop continues. Headphone output documented. Regional200W×156Dmm fails preferred depth,withmanufacturer corroboration stillpending. Direct-pedal position,endpoints,recall andbypass/headphone/tail/recorded-loop attenuation remain unknown. Separate output/headphone mix controls are not pedal assignment. Older15/30s loop limits andlater60s announcement remain revision-qualified;no hardware test orfresh visual inspection.
+
 ## VoiceLive Touch 2
 
 Distinct from original Touch and VoiceLive Play. Checked2026-10-18;partial. Reference manual v1.2 targets firmware1.0.02 build37; current firmware unverified. Official PDF endpoints returned502; mirrored manufacturer document bodies used,not generated summaries. Ownership unverified.
