@@ -965,6 +965,14 @@ Own [regional manufacturer manual](https://www.hotone.jp/manuals/valeton/GP-50.p
 
 Global socket mode and calibration are still distinct from all-preset assignment. Existing Pre/Post tail behavior remains qualified separately;all older offers andversion gaps retained. No files downloaded,device operated orfirmware installed.
 
+### GP-50 — published current labels and separate MIDI jacks
+
+Checked 2026-10-28 against [current manufacturer product specifications](https://www.valeton.net/product/gp-50/). The page labels **500mA at DC9V / 1A at USB5V as Current Consumption**, separately from power requirements. Preserve that manufacturer label rather than describing these solely as adapter capacity. They are not measured draw, a transient maximum, battery-life calculation or a promise of operation with every nominally rated supply.
+
+The page explicitly says dual1/8inchTRS MIDI jacks and lists MIDI IN and MIDI THRU separately. This clarifies the earlier compact IN/THRU shorthand: not a single software-selectable IN-or-THRU jack. TypeA/B wiring remains unverified; neither is an analog expression input.
+
+[Official1.1.0 manual entry](https://www.valeton.net/wpfd_file/gp-50_online-manual_en_firmware-v1-1-0-pdf/) still redirects through download312/online-manual/24248 to the previously recorded res.diversitone.comPDF, inaccessible to the reader. No new1.1.0 expression contents certified. Historical1.0.5 scope and all older qualifications remain.
+
 ## GP-100
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

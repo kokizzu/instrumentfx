@@ -311,3 +311,5 @@ Smart Box [MIDI distinction](SONICAKE.md#smart-box--distinct-midi-volumes-and-po
 NGS-6 [exact hardware offers](NUX.md#ngs-6--exact-shopee-hardware-leads-2026-10-28) now recorded with sold-out/indexed qualifications. It remains a partial lead outside active inventory and this capability table; direct analog EXP support is still unverified.
 
 NGS-6 [connector screening](NUX.md#ngs-6--readable-connector-evidence-and-exact-global-page-2026-10-28): readable original-manual connector inventory has **no analog EXP input**;INSERT is audio send/return. Direct analog path fails on that documented inventory. Remains a partial lead outside active counts/table;USB MIDI andEFX Mobile do not supply an analog socket.
+
+GP-50 [published-current and MIDI-jack clarification](VALETON.md#gp-50--published-current-labels-and-separate-midi-jacks): manufacturer specifies separate MIDI IN/THRU jacks and labels DC/USB consumption separately. Neither resolves direct analog volume scope; official1.1.0 manual redirect remains inaccessible.
