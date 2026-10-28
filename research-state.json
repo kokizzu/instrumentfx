@@ -127381,5 +127381,14 @@
     },
     "status": "Partial lead outsideactiveinventory;no downloadedarchive orhardwaretest",
     "next": "ExactShopee hardware,completeprofile,editorOS andcurrentfirmware changes;Mini/Nano andindependentGTPro unresolved"
+  },
+  "hotone_mini_section_ownership_20261028": {
+    "sections": [
+      "Ampero Mini — across-preset volume audit, 2026-10-19",
+      "Ampero Mini — external switch versus expression mode"
+    ],
+    "correction": "Moved verbatim from Stomp parent to Mini MP-50 parent;heading anchors unchanged",
+    "preservation": "Exact1665-character block and complete document line multiset preserved",
+    "next": "Continue unresolved Mini/Nano global volume andexactShopee discovery;independentGTPro cursor retained"
   }
 }

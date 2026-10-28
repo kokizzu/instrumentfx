@@ -668,14 +668,6 @@ The complete supporting comparison was read before merging. Its model-specific v
 
 Sources: [effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md](HOTONE.md#ampero-ii-stomp-mp-300)<!-- historical-link:hotone-012 -->, [effects/shopee-multifx-7.md](research-state.json)<!-- historical-link:hotone-013 -->. No legacy file was deleted.
 
-### Ampero Mini — across-preset volume audit, 2026-10-19
-
-[Official firmware V2.2 manual](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf), printed pp5,13–20: control settings change with patches and need saving. **No global volume-target override established.** Volume position is Pre/Post; volume endpoints are fixed and unaffected by the four target ranges. FS1/FS2 select previous/next patches. EXP mode shares the switch socket. Bypass, headphone, tail and looper attenuation remain unverified; rear master-knob coverage is not expression coverage. Earlier V1.0 post-only wording is retained as revision history. See [capability comparison](EXPRESSION-VOLUME.md).
-
-### Ampero Mini — external switch versus expression mode
-
-Checked2026-10-28 in [own firmwareV2.2 manual,printedpp20–21](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf). Global EXP/FS offers EXP,Single FS,Dual FS; **EXP mode makes every other option in that menu unavailable**. FS3/FS4 assignments include Patch+/Patch− and Bank+/Bank− in switch modes; these are external-switch functions,not additional onboard switches or proof they coexist with direct analog EXP on the shared socket. A split cable or unidentified M-VAVE controller does not establish simultaneous support. This mode limitation is separate from the unresolved all-preset volume assignment. The documented physical volume knob affects all output connections; that statement is not transferred to EXP coverage of headphones,USB,bypass,tails orrecorded loops. No device/software operation ordownload.
-
 ## Ampero Mini MP-50
 
 <!-- comparison evidence begins -->
@@ -871,6 +863,14 @@ Late-arrival compensation up toRp10.000 is not a purchase discount. No used cond
 Checked **2026-10-28**, [own manufacturer V2.2 manual,printedpp44–47](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf). DLY entries including Tape Echo,Sweep Eko,Trem Eko andLofi Eko expose **Trail Off/On**. Reverb entries also expose Trail;the later detailed reverb parameter text explicitly describes trails **when the effect is bypassed**.
 
 This is effect-bypass decay evidence. It does not certify spillover when changing presets,global VOLUME assignment,orwhether expression Pre/Post attenuates existing tails. Keep these questions separate from the previously documented Post-looper phrase persistence. Global assignment,headphone/bypass/tail/recorded-loop pedal coverage remain unverified. No sibling firmware,hardware test ordownload used.
+
+### Ampero Mini — across-preset volume audit, 2026-10-19
+
+[Official firmware V2.2 manual](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf), printed pp5,13–20: control settings change with patches and need saving. **No global volume-target override established.** Volume position is Pre/Post; volume endpoints are fixed and unaffected by the four target ranges. FS1/FS2 select previous/next patches. EXP mode shares the switch socket. Bypass, headphone, tail and looper attenuation remain unverified; rear master-knob coverage is not expression coverage. Earlier V1.0 post-only wording is retained as revision history. See [capability comparison](EXPRESSION-VOLUME.md).
+
+### Ampero Mini — external switch versus expression mode
+
+Checked2026-10-28 in [own firmwareV2.2 manual,printedpp20–21](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf). Global EXP/FS offers EXP,Single FS,Dual FS; **EXP mode makes every other option in that menu unavailable**. FS3/FS4 assignments include Patch+/Patch− and Bank+/Bank− in switch modes; these are external-switch functions,not additional onboard switches or proof they coexist with direct analog EXP on the shared socket. A split cable or unidentified M-VAVE controller does not establish simultaneous support. This mode limitation is separate from the unresolved all-preset volume assignment. The documented physical volume knob affects all output connections; that statement is not transferred to EXP coverage of headphones,USB,bypass,tails orrecorded loops. No device/software operation ordownload.
 
 ## Ampero MP-100
 
