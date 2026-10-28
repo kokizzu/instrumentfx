@@ -134,6 +134,10 @@ Lo/Hi controls belong toAMP/DR andstop with that block. ACOUSTIC distortion trou
 
 <!-- comparison evidence ends -->
 
+### StompLab 1G — direct expression screening,2026-10-28
+
+[Own VOX EFGSJ2 manual](https://voxamps.com/wp-content/uploads/2019/12/SL_IG_OM_EFGSJ2.pdf),printedpp4–6,confirms complete rear inventory without EXP. The global hand master is not an external pedal assignment;documented7.0 power-on reset is not pedal-position recall. It therefore fails the required direct analog path. Program UP/DOWN footswitches explicitly step programs in Program select mode;Edit mode changes their role. OUTPUT/PHONES is shared,not a dedicated phones socket. Existing145W×125Dmm dimensions fit. DirectEXP range/position/bypass/phones/tail/recorded-loop coverage is inapplicable;hand-master attenuation coverage remains unverified. No StompLab2G pedal behavior imported orhardware tested.
+
 ## StompLab 2B
 
 Bass multi-effects,also named IIB/SL2B; distinct from IB/IIG. Checked2026-10-18;partial. Ownership unestablished.

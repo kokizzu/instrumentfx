@@ -2153,3 +2153,7 @@ expression-audit-commit-flamma:
 .PHONY: expression-audit-commit-fractal
 expression-audit-commit-fractal:
 	python3 scripts/expression_audit_fractal.py commit
+
+.PHONY: expression-audit-commit-vox
+expression-audit-commit-vox:
+	python3 scripts/expression_audit_vox.py commit

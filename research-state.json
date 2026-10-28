@@ -123884,5 +123884,13 @@
   "stageman_comparison_scope_20261028": {
     "change": "Explicit comparison evidence boundary retains prior tables and sources, excludes detailed audit prose from repeated generated columns",
     "preservation": "All detailed audit paragraphs retained in NUX.md; concise expression table updated"
+  },
+  "stomplab1g_expression_screen_20261028": {
+    "source": "https://voxamps.com/wp-content/uploads/2019/12/SL_IG_OM_EFGSJ2.pdf",
+    "classification": "No analog EXP",
+    "remaining": [
+      "hand master attenuation coverage"
+    ],
+    "hardware_test": false
   }
 }
