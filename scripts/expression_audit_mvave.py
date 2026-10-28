@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(dk): verify iE-350 global-menu VOL target'))
+    print(git('commit','-m','research(dk): reconcile iE-350 comparison with global target evidence'))

@@ -124876,5 +124876,19 @@
       "Bypass/headphone/drums/backing/tails/loop attenuation"
     ],
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "ie350_summary_reconciliation_20261028": {
+    "checked": "2026-10-28",
+    "finding": "Promoted previously verified global-menu Target/VOL distinction into canonical expression field andgenerated guitar/bass comparisons;retained persistence/output unknowns",
+    "market": {
+      "seller": 271847827,
+      "item": 52002438174,
+      "idr": 1380000,
+      "access": "Three-month search index;direct cache miss",
+      "condition": "unverified",
+      "stock": "unverified",
+      "new_offer_verified": false
+    },
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

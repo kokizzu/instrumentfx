@@ -15,7 +15,7 @@ Checked 2026-10-18. Partial guitar multi-effects record; separate from iE-550. M
 
 | Field | Evidence / qualification |
 |---|---|
-| Expression | **External expression:6.35mm TRS jack**. Built-in/toe behavior unverified. [I350-Q] Manualp7 offers None/FX/DRV/AMP/MOD/DLY/RVB/VOL targets;VOL controls overall chain output. Calibrate at both travel endpoints with VALUE;EXIT cancels. |
+| Expression | **External expression:6.35mm TRS jack**. Built-in/toe behavior unverified. [I350-Q] Manualp7 offers None/FX/DRV/AMP/MOD/DLY/RVB/VOL targets;VOL controls overall chain output. Calibrate at both travel endpoints with VALUE;EXIT cancels. **Target selector belongs to Global Settings**, [original manual pp6–7](https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=7);VOL is overall effect-chain output. Across-preset/power persistence andfull-source attenuation remain unverified;firmware digits unreadable. |
 | K/F/B | **One VALUE push encoder,four named buttons(EXIT,GLOBAL,BT,DRUM),two footswitches;separate POWER switch**. Encoder press confirms,hold opens SAVE. [I350-Q] |
 | Display | **1.7-inch color LCD**,Chinese original-guide text;English numerical glyphs missing. Touch unverified. [I350-Q] |
 | Processing / choices | **Eight simultaneous modules**; Manualpp11–13 extracted library counts:**NR1,FX9,drive6,AMP17,CAB15 factory+5userIR,MOD6,DLY7,RVB7**. Counts reflect listed choices,not simultaneous copies;table-label alignment remains subject to visual check. Manualp5 permits module rearrangement except fixed DRV/AMP/CAB. [I350-M] |
