@@ -194,6 +194,16 @@ Checked2026-10-18 against original Yamaha manual,printedp23. Documentation only;
 |---|---|
 | MIDI / footswitch CC output | In **EFF mode**, switches1–3 can each transmit **Off orCC1–32/64–95**,with independently configured **0–127 values for ON andOFF**. Their local modulation/delay/reverb assignments remain separate from transmitted values. This range differs from incoming expression-assignment CC1–31/64–95;do not normalize the ranges. [Own manual][DGS-M] |
 | I/O / MIDI receive mode | Manual states **MIDI messages cannot be received in Utility mode**;use Play mode. The restriction is broader than the previously documented BulkIn requirement. It doesnot establish a physical input disconnect ordisable merged-output forwarding inevery mode. [Own manual][DGS-M] |
+
+### DG-Stomp — global external volume assignment 2026-10-28
+
+| Field | Finding / qualification |
+|---|---|
+| Expression / global scope | [Exact original Yamaha manual](https://jp.yamaha.com/files/download/other_assets/7/313717/dgstomp_en.pdf), indexed pp21,25: Utility→DRIVE1→CtL has **GLb** (Utility mapping always available), **PrG** (patch mapping), **oFF**. GLb supports global assignments rather than individual preset editing. No built-in treadle appears in own control inventory; text-only audit. |
+| Expression / setup and range | Utility control numbers1–8; choose controller **EP** for EXP.PEDAL/FC-7, then volume **b.Pr** before preamp, **A.Pr** after preamp or **A.rE** after reverb. Utility MIN/MAX each **0.0–10.0**. These global target/range settings differ from patch settings onp21; not merely calibration or position recall. |
+| Expression / output qualifications | Held-position recall,bypass,headphone attenuation,surviving tails and recorded-loop coverage remain unverified. Post-reverb target alone is not proof of complete-output mute. Check all eight mappings for competing targets; no hardware test. |
+| Dimensions / phones / foot control |280W×184Dmm:too large. Dedicated stereo PHONES. Four footswitches use banks and patch selectors; exact sequential preset down/up not verified here. |
+
 <!-- comparison evidence ends -->
 
 [DGS-M]: https://usa.yamaha.com/files/download/other_assets/7/313717/dgstomp_en.pdf
