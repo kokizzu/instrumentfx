@@ -125179,6 +125179,15 @@
       "finding": "Analog bypass and hand master level do not certify unconditional pedal volume.",
       "next": "Continue unscreened no-treadle inventory after checking existing rows; preserve independent GT-Pro and no-treadle priority cursors.",
       "downloads": false
+    },
+    "rp100_discovery_20261028": {
+      "checked": "2026-10-28",
+      "source": "https://digitech.com/wp-content/uploads/2025/07/Digitech_RP100_UsersGuide.pdf",
+      "revision": "18-6360-A August2000",
+      "active": false,
+      "fully_verified": false,
+      "next": "Finish full RP100 profile/qualified hardware. Continue unscreened models; retain priority scope and independent GT-Pro cursor.",
+      "downloads": false
     }
   },
   "brand_navigation": {

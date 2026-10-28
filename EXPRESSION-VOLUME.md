@@ -595,3 +595,7 @@ POD Express Black [effects and tempo boundary](LINE6.md#black--named-effects-cen
 Black [USB coverage exception](LINE6.md#black--usb-dry-recording-volume-exception): Rev E explicitly includes Black; fixed dry USB recording bypasses volume/gain. Other output-coverage gaps remain.
 
 Black [amp/cab and gate clarification](LINE6.md#black--ampcab-menu-and-gate-placement): separate from expression-volume coverage.
+
+### DigiTech RP100 — partial discovery lead
+
+[Exact-model screening](DIGITECH.md#rp100--partial-no-treadle-discovery-lead): conditional volume; footprint exceeds preference. Outside active inventory pending full profile and qualified offers.

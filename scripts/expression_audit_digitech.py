@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(digitech): distinguish RP155 analog bypass and master level'))
+    print(git('commit','-m','research(digitech): screen original RP100 as partial expression lead'))

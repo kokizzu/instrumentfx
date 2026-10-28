@@ -13,6 +13,7 @@ Manufacturer-backed partial profiles;unknown does not mean No.
 - [RP70](#rp70)
 - [RP80](#rp80)
 - [RP90](#rp90)
+- [RP100 — partial no-treadle discovery lead](#rp100--partial-no-treadle-discovery-lead)
 - [RP150](#rp150)
 - [RP155](#rp155)
 - [RP200](#rp200)
@@ -559,6 +560,14 @@ Checked2026-10-18 in [manufacturer-authored RP90 manual text](https://manualzz.c
 | Categories / amp identities | Twelve: Fender Tweed Deluxe1957,Twin Reverb1965;Marshall Super Lead1968,Master Volume1977,JCM8001983;Vox AC30 TopBoost1963;Mesa DualRectifier2001;Matchless DC30 1996;DigiTech Solo,Metal,Bright Clean,Clean Tube. Eachhas assignedcabinet andnine gainsettings,notnine distinctmodels. [Manufacturer manual pp23–24](https://manualzz.com/doc/9658242/digitech-rp90-owner-s-manual). |
 | Categories / drive identities | Six: TS9, DOD250, DS1, Grunge, Death Metal, Big Muff Pi. Acoustic simulation isseparate;Direct appearsinprose butnot enumeratedselectorlisting. Preserve thatgap. [Same manual pp23–24](https://manualzz.com/doc/9658242/digitech-rp90-owner-s-manual). |
 | I/O / headphone andmixer guidance | Manualp11 recommends **≤100Ω headphones** andMixer switchposition forproperfrequencyresponse. Stereo mixerchannels shouldpanfullyleft/right toretainseparation(pp14–15). Not an impedance measurement orproof ofuserIR loading. [Same manual](https://manualzz.com/doc/9658242/digitech-rp90-owner-s-manual). |
+
+## RP100 — partial no-treadle discovery lead
+
+Checked 2026-10-28. Original RP100, not RP100A or RP1000. Manufacturer [User’s Guide 18-6360-A, August 2000](https://digitech.com/wp-content/uploads/2025/07/Digitech_RP100_UsersGuide.pdf), pp2–5,25,27: guitar input, no treadle in complete panel inventory, separate ⅛-inch stereo phones, left/right preset decrease/increase. Text audit only.
+
+Control In accepts a passive volume pedal’s output. Volume control is **conditional on Wah and Whammy being disabled**; either active effect takes control. No unconditional global-volume override established. Resistance, pinout, volume placement/endpoints, held-position recall, bypass/headphone/tail/drum/recorded-loop attenuation remain unverified. Reset calibration is not global assignment.
+
+Published 8.25L×6.25W×2.25H inches equals 209.55L×158.75W×57.15H mm; exceeds preferred depth if length is front-to-back. Full profile, current software/imports and qualified Shopee hardware remain pending. Exact-name Shopee search found no qualified hit, not proof of absence. **Partial lead outside active inventory and main capability table**; no sibling specifications transferred, downloads or device operation.
 
 ## RP150
 
