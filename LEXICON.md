@@ -253,7 +253,7 @@ Rack multi-effects for guitar amp loops and vocal/mixer paths. Checked 2026-10-1
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | No built-in pedal/toe on this rack unit; external EXP unverified. Quarter-inch TRS foot-pedal connection documented; control functions detailed below. | [Manual specifications][M300-M] |
+| Expression | No built-in pedal/toe on this rack unit; no analog EXP in complete own panel inventory. Quarter-inch TRS accepts a two-button footswitch; control functions detailed below. | [Manual specifications][M300-M] |
 | K/F/B | **6 / 0 / 6**, text-derived: Input,Page/Select,A/B/C,Program/Load; Exit,Tempo,Effect Bypass,Store,System,Program Bypass. Two encoder pushes and power switch additional. Visual corroboration pending. | [Manual E pp4–5,14][M300-E] |
 | Display | Main LCD plus separate program-number display and status LEDs. Supersedes LED-only summary; diagonal,color/touch unverified. | [Manual E pp4–5][M300-E] |
 | Dimensions / mass | **483W×44H×185D mm including knobs;162mm depth without knobs;2.6kg**. 1U rack footprint. | [Manual p50][M300-M] |
@@ -317,6 +317,12 @@ Initial product/manual C direct opens returned403; those indexed sources remain 
 
 [M300-E]: https://adn.harmanpro.com/product_documents/documents/916_1515793555/MX300_Manual_18-0473V-E_original.pdf
 [M300-S]: https://lexiconpro.com/en-US/product_documents/mx300_datasheetpdf
+
+### MX300 — direct-expression screening (2026-10-28)
+
+Reopened own **Rev E User Guide18-0473V-E**,60pages,from [manufacturer hosting](https://adn.harmanpro.com/product_documents/documents/916_1515793555/MX300_Manual_18-0473V-E_original.pdf),printed pp4–7,33. Complete panels show no analog EXP or headphone socket and no built-in treadle. LEX-DFS two-button TRS input has global program up/down,bypass and tap functions; **global switch assignment is not continuous volume assignment**. Fails the requested direct analog path; MIDI/USB volume scope remains unverified.
+
+No onboard footswitches;hand Program/Load and external switch stepping are separate. Keep normal-guitar use qualified to an amp loop or suitable line-level preamp. Existing483W×185Dmm including knobs exceeds both preferred limits;162mm without knobs is also too deep. Analog position/range N/A;indirect bypass/tail/RepeatHold attenuation unknown. No headphone coverage inferred from line outputs. Earlier MIDI-label,power-frequency andother conflicts remain preserved. Text-only review;no download,installation or device test.
 
 ## MX400
 

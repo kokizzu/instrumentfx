@@ -124111,5 +124111,16 @@
     "footprint": "Original19W×4.75D inches;exact482.6×120.65mm,too wide.",
     "onboard_preset_foot_down_up": false,
     "remaining": "Indirect volume scope/output/tail/RepeatHold coverage;powerAC/DC conflict,button visual audit,other technical gaps;earlier access history preserved."
+  },
+  "mx300_expression_screen_20261028": {
+    "source": "https://adn.harmanpro.com/product_documents/documents/916_1515793555/MX300_Manual_18-0473V-E_original.pdf",
+    "identity": "Own RevE18-0473V-E,60pages;printed4–7,33 text inspected.",
+    "expression": "No analogEXP/socket/treadle in complete panel inventory;global TRS switch functions not continuous global volume.",
+    "headphones": "No socket in complete own inventory.",
+    "guitar": "Amp loop/line-level preamp;direct passive pickup not certified.",
+    "footprint": "483W×185D including knobs;162D without;fails preferred limits.",
+    "onboard_preset_foot_down_up": false,
+    "external_presets": "ProgramUp/Down global switch roles documented.",
+    "remaining": "Indirect volume scope,range/recall,bypass/tail/RepeatHold coverage;prior MIDI/power conflicts preserved."
   }
 }
