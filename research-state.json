@@ -25153,6 +25153,35 @@
       ],
       "algorithm_census": "38tablechoices:5Amplitude+5Filters+7Swirls/Shimmers+4Phase+10Misc+7Sequencer;V2.x.xreference,currentinstalledlibraryunverified",
       "initial_status": "Partial lead,outsideactiveinventory"
+    },
+    {
+      "model": "GFI System Solis Ventus",
+      "checked_date": "2026-10-28",
+      "status": "Partialdiscovery,outsideactivecounts",
+      "path": "GFI-SYSTEM.md#solis-ventus--partial-discovery-lead",
+      "manufacturer": "https://gfisystem.com/pedals/solis-ventus",
+      "documentation": "https://gfisystem.com/downloads/solis-ventus",
+      "shopee": {
+        "url": "https://shopee.co.id/GFI-System-SOLISVENTUS-Solis-Ventus-Delay-And-Reverb-Pedal-i.16879370.28719878539",
+        "seller": "Seven Stereo Music & Audio Store",
+        "region": "Bandung",
+        "idr": 7899000,
+        "access": "direct2month/search4monthcache;staleAugust13–15delivery",
+        "condition": "unknown"
+      },
+      "secondary_shopee": {
+        "url": "https://shopee.co.id/GFI-System-SOLISVENTUS-Solis-Ventus-Delay-And-Reverb-Pedal-i.1408254222.25989553157",
+        "access": "2monthindex/directcachemiss",
+        "price_seller_condition": "unknown"
+      },
+      "finding": "Dualindependentalgorithms16delay11reverb,twoEXP/CV,96presets,40sstereolooper.17x12cmaxesunknown,globalvolumeunknown;1.8.18historyversuscatalogue1.8.19freshnessdifference.",
+      "next": [
+        "ReadRevNmanualandRevDalgorithmbodies",
+        "Verify no-treadle/normalpickupeligibility,fullcontrols/display/I/O",
+        "EXPglobalassignment,range,recall,headphone/bypass/tails/loopcoverage",
+        "Preserveexactretailcondition/stocklimits;noactiveadmissionyet"
+      ],
+      "general_cursor_preserved": "BOSS GT-Pro"
     }
   ],
   "inventory_by_brand": {

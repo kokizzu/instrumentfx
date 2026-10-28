@@ -5,8 +5,34 @@ Source-backed guitar multi-effects; all records retain verification gaps.
 <!-- brand-index begins -->
 **Model and section index — A–Z, natural numeric order**
 
+- [Solis Ventus — partial discovery lead](#solis-ventus--partial-discovery-lead)
 - [Synesthesia](#synesthesia)
 <!-- brand-index ends -->
+
+## Solis Ventus — partial discovery lead
+
+Checked 2026-10-28. Exact Shopee hardware lead; outside active counts pending manual/profile review. Ownership, normal-pickup details, bass/vocal membership and no-treadle layout remain unverified.
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| Processing | Two simultaneous algorithms, arbitrary pairings/order; series, parallel or dual mono. Advertised16 delays/11 reverbs; named census pending. Independent post-X/Y ducking/gating and crossover documented. [SV-P] |
+| Memory / live | 96 presets; factory/user split unknown. Independent40-second stereo looper, Pre/Post, speed/reverse/pitch playback; spillover advertised, conditions unknown. [SV-P] |
+| Expression | Two EXP/CV inputs; auxiliary switches and MIDI. Global volume, placement, min/max, recall, bypass/phones/tail/loop coverage unknown. ±3dB trim is not pedal assignment. [SV-P] |
+| Ports / electronics | Audio¼-inchTS; MIDIIn/Thru¼-inchTRS;USB-C. Input1MΩ/output500Ω;24bit/40kHz;selectable buffered/true bypass. Complete socket count, headphones and USB roles unknown. [SV-P] |
+| Size / power | 17×12cm; axes/height/mass unknown. Preferred170W×120D fit not certified without orientation. 9V DC centre-negative,<350mA;supply excluded. Battery/USB operation unknown. [SV-P] |
+| Editor / other gaps | SV Studio Windows/macOS. Exact OS, controls, display, synth/acoustic, IR/nativeNAM/conversion/capture remain unverified. [SV-P] |
+
+### Software revision boundary
+
+[SV-P]: https://gfisystem.com/pedals/solis-ventus
+
+[Manufacturer download page](https://gfisystem.com/downloads/solis-ventus), direct three-day cache: firmware1.8.0+ requires **SV Studio1.6.0+**. Manual RevN listed2026-09-16; MIDI RevF2026-03-04; Algorithm RevD2025-05-01. Bodies not retrieved. Visible history ends1.8.18,2026-09-16 (Tempo Lock and FILTER Lowpass improvement), while [downloads catalogue](https://www.gfisystem.com/downloads) indexes1.8.19. Preserve differing page freshness; no asserted newest installed firmware. Neither tempo lock nor display-update inhibition is global volume assignment.
+
+### Exact Indonesian hardware ask
+
+[Seven Stereo Music & Audio Store, Shopee16879370/28719878539](https://shopee.co.id/GFI-System-SOLISVENTUS-Solis-Ventus-Delay-And-Reverb-Pedal-i.16879370.28719878539), Bandung: **Rp7,899,000**. Direct two-month cache versus four-month search; August13–15 delivery stale. Condition, variant, bundle, warranty, working state, stock, shipping/tax and checkout total unknown. Late-delivery voucher up toRp10,000 is not upfront saving. No verified used/new range.
+
+[Second exact-title item1408254222/25989553157](https://shopee.co.id/GFI-System-SOLISVENTUS-Solis-Ventus-Delay-And-Reverb-Pedal-i.1408254222.25989553157) indexed two months ago; direct cache miss. Seller/price/condition unknown; not assigned Seven Stereo’s price. No foreign-currency conversion, software/document download or device operation.
 
 ## Synesthesia
 
