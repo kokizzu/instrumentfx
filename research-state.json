@@ -125479,5 +125479,20 @@
       "original PDF/panel verification"
     ],
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "fv02_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "FLAMMA.md#fv02--direct-control-and-guitar-path-boundary",
+    "source": "https://m.media-amazon.com/images/I/A1obTll9GiL.pdf",
+    "identity": "Manufacturer-authored11page V01 filename2021-06-18;shop source inaccessible on revisit",
+    "result": "No treadle/analog EXP/headphones in numbered inventory;LEVEL is chorus volume;guitar reverb does not qualify as guitar multi-effects",
+    "navigation": "Stored-preset down/up not established",
+    "unknown": [
+      "current V02 applicability and power/phantom conflicts",
+      "axis-labelled footprint",
+      "bypass/tail/recorded-loop volume coverage"
+    ],
+    "next": "Screen FV03 exact manual;retain independent GT-Pro cursor",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

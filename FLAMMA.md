@@ -155,6 +155,12 @@ Checked **2026-10-17**; partial. Vocal chorus/doubling plus independently contro
 
 <!-- comparison evidence ends -->
 
+### FV02 — direct-control and guitar-path boundary
+
+Checked **2026-10-28** against a readable [manufacturer-authored V01 mirror](https://m.media-amazon.com/images/I/A1obTll9GiL.pdf), filename2021-06-18,11pages matching the older manual above;current revision applicability unverified. Printed pp03–04 enumerate no treadle,analog EXP or headphone socket. LEVEL is chorus-effect volume,not master guitar volume. Printed pp05–06 expose guitar reverb through a held-footswitch menu;mixed output combines signals but does not establish vocal chorus/tone processing of guitar. Retain vocal-only classification,outside the normal-guitar multi-effects capability table.
+
+No stored-preset down/up operation is documented;mode positions andeffect switching are separate. Direct-pedal position,endpoints andrecall are inapplicable to the documented inventory;volume coverage of bypass,tails andrecorded loops is unverified. Dimensions86.6×125×60mm remain axis-unlabelled;do not assert W/D fit. The original shop PDF failed on this revisit;mirror text is not a fresh visual-panel check. Existing V02 power/phantom conflicts remain open.
+
 ### Exact Shopee asking-price evidence
 
 Checked **2026-10-17**; historical indexed asks,not completed sales. Sale/working condition,selected variation,adapter/bundle,warranty,current stock,shipping/tax,voucher and final total unknown for all. No Habis marker is not stock confirmation; late-delivery compensation not deducted.
