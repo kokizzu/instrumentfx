@@ -123255,6 +123255,13 @@
       "finding": "Printedp20 explicitly global independent L/R No Cab Mode overrides saved CAB settings,defaultOff;does not establish global EXP volume or headphone/USB CAB coverage. Printedp14 warns extreme DSP overload despite nine-module architecture.",
       "offer": "171167271/48456875050 inaccessible2026-10-28;older sold-out ask retained",
       "next": "Mini global EXP volume still unverified;seek manufacturer clarification or later explicit override,do not repeat existing V2.2 menu checks. Continue Nano current parameter-lock versus assignment scope and GP-50 manual."
+    },
+    "nano_midi_boundaries_20261028": {
+      "source": "https://neuraldsp.com/manual/nano-cortex",
+      "corroboration": "https://neuraldsp.com/getting-started/using-midi-on-nano-cortex",
+      "finding": "USB/TRS input versus USB outbound;12 simultaneous messages per preset load or footswitch. PC0–63 preset slot addresses. Reorder paragraph calls unchanged slot assignments CC despite PC view;preserve terminology conflict,not expression persistence proof.",
+      "global_scope": "Still unverified;Parameter Lock temporary rotary inhibition already documented;do not repeat as a new finding.",
+      "next": "Seek explicit manufacturer assignment storage definition;continue current GP-50 manual and exact M-VAVE identity/pinout instead of rereading unchanged Nano sections."
     }
   },
   "brand_navigation": {

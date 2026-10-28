@@ -151,6 +151,15 @@ The [official MIDI setup article](https://neuraldsp.com/getting-started/using-mi
 
 [Exact Shopee hardware offer](https://shopee.co.id/Neural-DSP-Nano-Cortex-Digital-Effects-Processor-i.16879370.51902266280), seller16879370/item51902266280, Seven Stereo Music & Audio Store, Kota Bandung: reader reopened 2026-10-28 returns a month-old **Rp11.900.000 / Habis** snapshot. This refresh does not establish live stock, condition, bundle, voucher eligibility or checkout price; used IDR remains unknown. Earlier dated observations remain above.
 
+### Nano Cortex — MIDI direction and preset-location boundaries, 2026-10-28
+
+| Field | Evidence / qualification |
+|---|---|
+| Control / MIDI routing | [Own NanOS2.2.0 manual](https://neuraldsp.com/manual/nano-cortex),USB MIDI Out/Incoming MIDI Support: receives over USB-C or TRS Type-A;documented outbound messages use USB. Up to **12 simultaneous CC/PC messages per preset load**,or **12 per footswitch press**,with channel1–16 andCCnumber/value orPCbank/program. These are outbound automation,not global analog volume assignments. |
+| Preset / MIDI addressing | Preset slots map to **PC0–63**. Dragging a preset to another slot inherits the destination slot’s address;the manual’s reorder paragraph calls these CC assignments despite its PC-view instructions. Preserve that wording inconsistency;do not infer expression assignments move or persist from it. |
+
+Parameter Lock still describes temporary rotary inhibition,not across-preset expression assignment. Global volume/headphone/bypass/tail coverage remains unverified. [Manufacturer MIDI guide](https://neuraldsp.com/getting-started/using-midi-on-nano-cortex) independently confirms message limits and direction. No hardware operation or downloads.
+
 ## Quad Cortex
 
 Partial record checked **2026-10-17**. Full Quad Cortex,distinct from Nano Cortex andQuad Cortex mini. Product page advertises CorOS4.1.0;current web manual identifies4.1.1. Seller firmware unverified.
