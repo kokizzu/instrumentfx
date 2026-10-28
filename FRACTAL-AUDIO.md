@@ -211,3 +211,40 @@ Checked 2026-10-28. [Manufacturer release-note reproduction](https://www.scribd.
 [Current official product page](https://www.fractalaudio.com/vp4/) separately advertises **69 drive emulations,78 reverbs,16 compressors and128+delay effects** across Delay/Multitap/Plex/Megatap. Publication counts, not a complete firmware4.04 census orsimultaneous-slot count;four simultaneous effect slots remain distinct.
 
 Partial lead remains outside active inventory. ExactShopee hardware,full library,import formats andvolume coverage remain open. No local download ordevice test.
+
+### VP4 — historical category census, CPU and spillover limits
+
+Checked 2026-10-28 in [manufacturer v1.06 manual](https://www.fractalaudio.com/downloads/manuals/VP4/VP4-Owners-Manual.pdf), printed pp26–27,32. These **24 historical categories** predate IR Player; not the current4.04 census. Types and maximum category instances are separate from the four total slots.
+
+| Category | Historical types | Maximum instances |
+|---|---:|---:|
+| Chorus | 20 | 4 |
+| Compressor | 16 | 4 |
+| Delay | 28 | 4 |
+| Drive | 63 | 4 |
+| Enhancer | 3 | 4 |
+| Filter | 18 | 4 |
+| Flanger | 32 | 4 |
+| Formant | 1 | 4 |
+| Gate/Expander | 4 | 4 |
+| Graphic EQ | 16 | 4 |
+| Megatap | 20 | 4 |
+| Multitap Delay | 34+ | 4 |
+| Parametric EQ | 1 | 4 |
+| Phaser | 16 | 4 |
+| Pitch Shift | 16 | 2 |
+| Plex Delay | 44 | 4 |
+| Resonator | 1 | 4 |
+| Reverb | 66+ | 2 |
+| Ring Mod | 1 | 2 |
+| Rotary | 1 | 4 |
+| Synth | 1 | 2 |
+| Tremolo | 5 | 4 |
+| Volume/Pan | 1 | 4 |
+| Wah | 8 | 4 |
+
+About80% CPU triggers bypass; bypassed blocks still consume CPU. Thus four slots do not guarantee every combination. Synth is described as three-voice monophonic, not unrestricted polyphony.
+
+Preset spillover requires matching block type/number and compatible settings/placement; global ALL covers five delay/reverb families. Channel changes share memory and can sweep tails. Block bypass needs MUTE FX IN, or MUTE IN for parallel routing. These continuity rules do not establish expression attenuation of tails.
+
+Exact Shopee search again found no qualified hardware item; not proof of market absence. IR file limits, current census and volume coverage remain unresolved. Partial lead stays outside active counts; no download ordevice test.

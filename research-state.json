@@ -128531,5 +128531,143 @@
     "active": false,
     "next": "CompletecurrentVP4library/IRformats andqualified exactShopee;retainanalogvolumeoutputgaps",
     "downloads": false
+  },
+  "vp4_historical_category_cpu_spillover_20261028": {
+    "checked": "2026-10-28",
+    "source": "https://www.fractalaudio.com/downloads/manuals/VP4/VP4-Owners-Manual.pdf",
+    "revision": "1.06,2024-10-23",
+    "pages": [
+      26,
+      27,
+      32
+    ],
+    "historical_categories": [
+      {
+        "category": "Chorus",
+        "types": 20,
+        "maximum_instances": 4
+      },
+      {
+        "category": "Compressor",
+        "types": 16,
+        "maximum_instances": 4
+      },
+      {
+        "category": "Delay",
+        "types": 28,
+        "maximum_instances": 4
+      },
+      {
+        "category": "Drive",
+        "types": 63,
+        "maximum_instances": 4
+      },
+      {
+        "category": "Enhancer",
+        "types": 3,
+        "maximum_instances": 4
+      },
+      {
+        "category": "Filter",
+        "types": 18,
+        "maximum_instances": 4
+      },
+      {
+        "category": "Flanger",
+        "types": 32,
+        "maximum_instances": 4
+      },
+      {
+        "category": "Formant",
+        "types": 1,
+        "maximum_instances": 4
+      },
+      {
+        "category": "Gate/Expander",
+        "types": 4,
+        "maximum_instances": 4
+      },
+      {
+        "category": "Graphic EQ",
+        "types": 16,
+        "maximum_instances": 4
+      },
+      {
+        "category": "Megatap",
+        "types": 20,
+        "maximum_instances": 4
+      },
+      {
+        "category": "Multitap Delay",
+        "types": "34+",
+        "maximum_instances": 4
+      },
+      {
+        "category": "Parametric EQ",
+        "types": 1,
+        "maximum_instances": 4
+      },
+      {
+        "category": "Phaser",
+        "types": 16,
+        "maximum_instances": 4
+      },
+      {
+        "category": "Pitch Shift",
+        "types": 16,
+        "maximum_instances": 2
+      },
+      {
+        "category": "Plex Delay",
+        "types": 44,
+        "maximum_instances": 4
+      },
+      {
+        "category": "Resonator",
+        "types": 1,
+        "maximum_instances": 4
+      },
+      {
+        "category": "Reverb",
+        "types": "66+",
+        "maximum_instances": 2
+      },
+      {
+        "category": "Ring Mod",
+        "types": 1,
+        "maximum_instances": 2
+      },
+      {
+        "category": "Rotary",
+        "types": 1,
+        "maximum_instances": 4
+      },
+      {
+        "category": "Synth",
+        "types": 1,
+        "maximum_instances": 2
+      },
+      {
+        "category": "Tremolo",
+        "types": 5,
+        "maximum_instances": 4
+      },
+      {
+        "category": "Volume/Pan",
+        "types": 1,
+        "maximum_instances": 4
+      },
+      {
+        "category": "Wah",
+        "types": 8,
+        "maximum_instances": 4
+      }
+    ],
+    "census_boundary": "24categories beforeIRPlayer; not4.04library",
+    "cpu": "About80%forcesbypass;bypassedblocksconsumeCPU",
+    "spillover": "Samecategory/number,compatibleparameters/placement;channelssharememory;notEXPtailattenuation",
+    "active": false,
+    "next": "CurrentIRfilelimits/library;exactShopee;fullprofileandanalogoutputcoverage",
+    "downloads": false
   }
 }
