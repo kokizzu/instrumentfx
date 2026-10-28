@@ -124799,5 +124799,16 @@
     "result": "No analog EXP input;required direct path fails.81W×85Dmm fits;3.5mm headphones mono/stereo unknown;no footswitches,hand-button previous/next documented;master buttons are not EXP assignment.",
     "remaining": "Weight,connector subtypes,USB audio,editor scope,current qualified offers and master-button output coverage remain unresolved.",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "headmk2_expression_lock_20261028": {
+    "document": "KEMPER.md#head-mk2--revision-qualified-volume-lock",
+    "checked": "2026-10-28",
+    "sources": [
+      "https://forum.kemper-amps.com/forum/thread/63352-volume-pedal/",
+      "https://www.kemper-amps.com/faqs",
+      "https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf"
+    ],
+    "status": "Revision-qualified lock behavior;current MK2 UI and complete output coverage unverified;not fully verified",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

@@ -51,6 +51,14 @@ Partial record checked **2026-10-17**. Exact manufacturer **SKU 15300000**, dist
 
 Manual13.0 is manufacturer-authored,Rev.May2025,identity checked on mirrored PDF;not a claim to be current OS14 documentation. Manufacturer foreign stock does not prove Indonesian availability. No downloads,exchange-rate conversion or visual inspection claimed.
 
+### Head MK2 — revision-qualified volume lock
+
+Checked **2026-10-28**. [Manufacturer-authored German Main Manual13.0,Rev.May2025,pp175–178](https://manuals.plus/m/4d9ba53ba1e4942c8c47b9ed090ae87c4bf3efb6382613b4952700e86a74decd.pdf) documents direct Head pedal connections and **Lock Volume Pedal** retaining rig-stored placement/range across rig changes. Positions: Off,Input,Pre Stack,Post Stack,Output. Post Stack preserves delay/reverb tails;Output cuts them. Range−5 gives0–100%;+5 permits up to24dB boost;center is ineffective.
+
+[Kemper Support,2024-04-07](https://forum.kemper-amps.com/forum/thread/63352-volume-pedal/) explicitly separates **global pedal assignment** from rig-stored placement/range, and requires Volume Pedal Lock separately in Browse and Performance modes. This is manufacturer support for Head/Rack,not a current MK2 firmware test. The [current FAQ](https://www.kemper-amps.com/faqs) confirms two direct pedal sockets on all Head models;its conditional Wah-to-Volume link is a separate setup.
+
+Disposition: **documented global assignment plus locked rig settings,revision-qualified**;current MK2 UI/persistence untested. Existing378W×173Dmm fails preferred fit. Headphone, bypass, recorded-loop attenuation and held-position recall remain unknown. Dedicated stereo phones are documented above. Onboard preset footswitch down/up remains unverified;Remote/external switches are separate hardware. No Player dimensions or controls transferred.
+
 ## PROFILER Player
 
 Partial record checked **2026-10-17**. One hardware model; paid Levels are feature entitlements,not separate inventory models. The offer does not establish its installed OS or upgrade Level.
