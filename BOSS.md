@@ -1721,6 +1721,15 @@ DirectanalogEXP isdocumented;482W×305Dmm rackchassis far exceeds preferredfootp
 | Processing / Defretter | Same exact-model page: simulates **fretless guitar**. Tone **−50…+50** adjusts note blurring; Sens,Attack,Depth,Resonance,Effect Level andDirect Level each **0–100**. Depth describes harmonic behavior; no time/frequency units inferred. This does not establish acoustic-body modeling or bass suitability. |
 
 
+### GT-Pro — Sitar Simulator and triggered Vibrato 2026-10-28
+
+| Field | Finding / qualification |
+|---|---|
+| Processing / Sitar Simulator | Manufacturer-authored [exact GT-PRO manual p42](https://roland.manymanuals.fr/supplementary-music-equipment/gt-pro/owners-manual-5239/42), indexed English body: Tone **−50…+50**, Sens/Depth/Resonance/Buzz/Effect Level/Direct Level each **0–100**. Buzz models string contact with a sitar’s buzz bridge; sensitivity changes how strongly picking must trigger the effect. These are parameters within the existing family, not separate sitar algorithms or imported captures. |
+| Processing / Vibrato trigger | [Own manual p40](https://roland.manymanuals.de/supplementary-music-equipment/GT-PRO/owners-manual-5239/40), indexed English body: Trigger **Off/On**, intended for footswitch assignment; Rise Time **0–100** is the interval from trigger activation to the selected vibrato. Rate0–100 or BPM synchronization; Depth0–100. No rise-time milliseconds or unrestricted pedal assignment inferred. |
+
+Original section/model/pagination match prior GT-PRO manual checks. Text evidence only; no visual ordevice test. Existing33 FX-family count and44-category/13-versus15 conflicts remain unchanged.
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.

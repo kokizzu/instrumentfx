@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro SlowGear/Defretter definitions saved;remainingFXdefinitions,44category/13vs15basis,exactUSBchannelcount andqualifiedIDR unresolved;392partial.",
+    "task": "GT-Pro SitarSimulator/triggeredVibrato definitions saved;remainingFXdefinitions,44category/13vs15basis,USBchannelcount andqualifiedIDR unresolved;392partial.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -123269,5 +123269,16 @@
     "defretter": "fretless guitar;Tone-50…+50;other controls0–100",
     "counts": "existing shared FX families;no new algorithm/block count",
     "next": "Remaining FX definitions and44category/13vs15basis;USBchannelcount;qualified IDR"
+  },
+  "gtpro_sitar_vibrato_20261028": {
+    "sources": [
+      "https://roland.manymanuals.fr/supplementary-music-equipment/gt-pro/owners-manual-5239/42",
+      "https://roland.manymanuals.de/supplementary-music-equipment/GT-PRO/owners-manual-5239/40"
+    ],
+    "access": "indexed exact original manufacturer English sections;no visual test",
+    "sitar": "Tone-50…+50;other6controls0–100;Buzz bridge simulation",
+    "vibrato": "TriggerOffOn;RiseTime0–100 relative;rate0–100/BPM;Depth0–100",
+    "counts": "unchanged existing families",
+    "next": "Remaining FX definitions,headlinecount conflicts,USBchannelcount and exactIDR"
   }
 }
