@@ -80,7 +80,10 @@ def commit():
     comparison_views.verify_views()
     research_tools.git('add','--',*sorted(changed))
     print(research_tools.git('diff','--cached','--stat'))
-    print(research_tools.git('commit','-m','research: refresh uncertainty index for all 388 models'))
+    state = json.loads((ROOT/'research-state.json').read_text())
+    count = state['verification_gap_index']['model_count']
+    assert count == state['active_model_count'], 'Uncertainty index count is stale'
+    print(research_tools.git('commit','-m',f'research: refresh uncertainty index for all {count} models'))
 
 if __name__=='__main__':
     assert len(sys.argv)==2 and sys.argv[1] in ('plan','apply','commit','test')
