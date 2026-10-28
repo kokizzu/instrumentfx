@@ -25120,6 +25120,27 @@
         "scope": "SysExDAW/sequencer backuprestore;notaudio/power/editorproof",
         "hardware_operated": false
       }
+    },
+    {
+      "model": "GFI System Synesthesia",
+      "checked_date": "2026-10-28",
+      "status": "Partial lead,outsideactiveinventory",
+      "path": "GFI-SYSTEM.md#synesthesia--partial-no-treadle-discovery-lead",
+      "manufacturer": "https://gfisystem.com/pedals/synesthesia",
+      "shopee": {
+        "seller_item": "16879370/15064144120",
+        "idr": 5599000,
+        "condition": "unknown",
+        "cache": "direct3months/search5months;stalemidJuly delivery"
+      },
+      "finding": "120x120mm fits;two algorithms;EXP10–25kohm wiper-to-tip,primaryparameterendpointsstoredperpreset;master−3…+3dBperpreset,no globalvolume established;2.5.1listedSep18,2026",
+      "next": [
+        "Complete algorithm/menu andI/O/control/display census",
+        "Normalpickupandmulti-effects eligibility review",
+        "Headphones,onboarddown/up,globalvolume/currentfirmware",
+        "Separate used/new conditionandcheckoutstock",
+        "Admitonlyaftercompleteprofile;do notincrementactivecounts"
+      ]
     }
   ],
   "inventory_by_brand": {

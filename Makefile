@@ -2185,3 +2185,7 @@ expression-audit-commit-donner:
 .PHONY: expression-audit-commit-keeley
 expression-audit-commit-keeley:
 	python3 scripts/expression_audit_keeley.py commit
+
+.PHONY: research-commit-gfi
+research-commit-gfi:
+	python3 scripts/gfi_catalogue.py commit

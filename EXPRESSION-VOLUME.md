@@ -551,3 +551,7 @@ EX-4 [recall and jack-mode qualification](BOSS.md#ex-4--pedal-recall-jack-modes-
 EX-4 [system output-volume alternative](BOSS.md#ex-4--system-output-level-assignment-and-usb-backup-scope):SYSTEM ASSIGN can targetMASTER OUT LEVEL,a system parameter,instead ofplacedFV. English1–200 versusJapanese0–200 leavesminimumzero/mute unresolved. Bypass/tail coverage andstartuprecall remainunverified.
 
 Nano Cortex [historical support-report qualification](NEURAL-DSP.md#nano-cortex--earlier-reported-support-response-and-post-eq-workaround):August2025 user account sayssupport denied LEVEL control;originalstaffreply/version absent. Decemberpost-EQ workaround consumesaslot anddoesnotproveglobalsetup. Currentall-presetvolume remainsunverified.
+
+### GFI System Synesthesia — partial discovery screen
+
+[Manufacturer-backed lead](GFI-SYSTEM.md#synesthesia--partial-no-treadle-discovery-lead):120×120mm fits; directEXP10–25kΩ,wiper-to-tip documented in2.3+manual. Assignment endpoints are preset-stored; per-preset Master Volume is separate. Global volume remains unverified. Exact cached Shopee hardware ask preserved with unknown condition/stock. Complete eligibility/profile pending; outside active counts and main table.
