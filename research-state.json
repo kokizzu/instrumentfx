@@ -123225,6 +123225,21 @@
         "condition_stock_bundle_checkout": "unverified"
       },
       "next": "Continue unscreened no-treadle inventory andqualified offers;preserve compact global-volume uncertainties"
+    },
+    "mp3_screening_20261028": {
+      "checked": "2026-10-28",
+      "model": "NUX Mighty Plug Pro MP-3",
+      "finding": "Complete manufacturer-authored 2022 manual inventory has no analog EXP or onboard footswitch. Hand headphone volume/mute differs from per-preset Patch Level. USB/Bluetooth do not establish analog control.",
+      "dimensions": "81L×41W×30H mm,70g;body fits preferred rectangle;protrusion clearance unknown",
+      "electrical": "Input1MΩ;headphone output impedance10Ω is not recommended load",
+      "price": "Seven Stereo shop16879370/item18538785877 Rp1799000,2-day cached JS-limited page;condition/stock/variant/bundle/warranty/checkout unknown",
+      "sources": [
+        "https://nuxaudio.com/product/mightyplugpro/",
+        "https://manuals.plus/nux/mp-3-mighty-plug-pro-headphone-amplifier-manual",
+        "https://shopee.co.id/Nux-MP3-MP-3-Mighty-Plug-Pro-Headphone-Amp-for-Guitar-Bass-i.16879370.18538785877"
+      ],
+      "limitations": "Current PDF revision equivalence, digital volume scope, USB/tails/recorded-loop coverage unknown. Existing IR allocation conflict retained.",
+      "next": "Screen Mighty Plug MP-2 using its own complete manual; continue unresolved Mini/Nano global scope and exact controller wiring independently."
     }
   },
   "brand_navigation": {

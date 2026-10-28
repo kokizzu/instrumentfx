@@ -1355,6 +1355,16 @@ Indexed historical asks checked 2026-10-17; no condition-confirmed used/new allo
 | Unverified | **Rp1.000.000**, Mc Garage Store, shop1011216793/item26376266354, Kota Tasikmalaya; two days crawl, **Habis**. | [Item][MP3-O3] |
 | Unverified | **Rp1.799.000**, Seven Stereo Music & Audio Store, shop16879370/item18538785877, Kota Bandung; two days crawl. | [Item][MP3-O4] |
 
+### Mighty Plug Pro MP-3 — direct expression and headphone control screening 2026-10-28
+
+| Field | Finding / qualification |
+|---|---|
+| Expression / controls | Complete ©2022 Cherub MP-3 manual control/connector inventory has **no analog EXP socket, built-in treadle or onboard footswitch**. Hand PRESET cycles selected ACTIVE memories; no separate down/up footswitch pair. USB and Bluetooth control are separate from analog expression. Text inventory screened; current official PDF revision equivalence remains unverified. [Manufacturer-authored manual body][MP3-T] |
+| Controls / volume scope | Volume ± controls headphones; short POWER/MUTE press mutes that output. Direct analog EXP position/range/bypass coverage is N/A. Other digital-control, USB-stream, tail and recorded-loop attenuation remain unverified. Primary page separately calls Patch Level a setting for each preset; neither physical buttons nor patch level establishes global pedal assignment. [Manual][MP3-T], [product][MP3-P] |
+| I/O / electrical | Ordinary guitar/bass input; primary specification gives input impedance **1MΩ**, earphone output impedance **10Ω**. The latter is not a recommended headphone load. [Product][MP3-P] |
+| Dimensions / screening | Own dimensions **81L×41W×30H mm**,70g; body fits preferred rectangle, retaining manufacturer axes. Plug/protrusion clearance not specified. [Product][MP3-P] |
+| IDR / exact offer refresh | Reopened2026-10-28: Seven Stereo Music & Audio Store,Kota Bandung,shop16879370/item18538785877,**Rp1.799.000**. Two-day-cached JavaScript-limited hardware page; stale27–28Oct delivery text and up-toRp10.000 late-arrival compensation are not current stock or checkout-discount proof. New/used condition,working state,selected variant,bundle/adapter/license,warranty,voucher eligibility,shipping/tax and final checkout remain unverified. Earlier2026-10-17 ask preserved above. [Exact item][MP3-O4] |
+
 <!-- comparison evidence ends -->
 
 Indexed historical asks, not live checkout. Condition, stock except cached Habis, variant/bundle, warranty/authenticity, shipping/tax and vouchers unverified. Older cveri variant URL indexed Rp1469400 three months ago is not same-date price proof.
