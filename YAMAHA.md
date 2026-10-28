@@ -278,6 +278,12 @@ Checked 2026-10-19 against the [exact Acoustic owner manual, printed pp9,25–27
 
 <!-- comparison evidence ends -->
 
+### Magicstomp Acoustic — direct expression and phones volume,2026-10-28
+
+[Own Yamaha Acoustic manual](https://usa.yamaha.com/files/download/other_assets/9/334079/magicstomp_acoustic_en.pdf),printedpp8–10,fully inventories ports without analog EXP. It fails the required direct pedal path. VOLUME explicitly adjusts dedicated stereo-mini headphones;main outputs remain active. The existing non-stored hand-volume finding is not a global expression assignment. Acoustic/electroacoustic input is explicit;ordinary electric-guitar tonal suitability remains unverified.
+
+Existing164W×176Dmm chassis fails depth. UP/DOWN versus three-adjacent Performance selection remains mode-dependent,with the previously documented AFR override retained. DirectEXP min/max/position recall are inapplicable;hand-volume bypass/tail/recorded-loop attenuation remains unknown. No Bass/Guitar edition specifications transferred orhardware tested.
+
 ## Magicstomp Bass
 
 Checked 2026-10-18; partial. Separate Bass edition. [Own Yamaha manual](https://usa.yamaha.com/files/download/other_assets/1/334091/magicstomp_bass_en.pdf),35PDFpages,pp7–12,33; browser text. Acoustic/electric bass patches establish bass membership. No sibling specifications substituted.

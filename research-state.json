@@ -123938,5 +123938,14 @@
       "hand-volume bypass/tail/recorded-loop coverage"
     ],
     "hardware_test": false
+  },
+  "magicstomp_acoustic_expression_screen_20261028": {
+    "source": "https://usa.yamaha.com/files/download/other_assets/9/334079/magicstomp_acoustic_en.pdf",
+    "classification": "No analog EXP",
+    "remaining": [
+      "ordinary electric-guitar tone",
+      "hand-volume attenuation coverage"
+    ],
+    "hardware_test": false
   }
 }
