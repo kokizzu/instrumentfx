@@ -268,3 +268,9 @@ The cited appendix is dated only byits source context;laterfirmware/library chan
 Checked **2026-10-28** in [manufacturer Tiny Stomp manual,JME-03A](https://www.soranaudio.com/upload/files/article/20260106/17676658354117637.pdf),printedpp5–10,30. Direct TRS EXP is documented **for volume**,10–100kΩ;the shared socket alternatively accepts dual switches,ring preset down/tip up. No concurrent EXP plus dual-switch operation established. Numbered panel has hand Left/Right buttons for preset down/up,**no onboard footswitches or treadle**.
 
 109×84mm horizontal dimensions fit either orientation;shared quarter-inch stereo OUT/PHONES is documented. Physical global Master andpreset-stored Preset Volume are separate from expression scope. **Across-preset volume assignment,placement,min/max,recall,bypass/headphone/tail/recorded-loop attenuation remain unverified.** Manual revision date remains unprinted;no device test ordownload. All earlier prices,conversion andfirmware qualifications retained.
+
+### Tiny Stomp — global input and independent loop levels
+
+Checked **2026-10-28**, [own manufacturer manual,printedpp11–14](https://www.soranaudio.com/upload/files/article/20260106/17676658354117637.pdf). INPUT gain/attenuation spans **±10dB**,automatically saved,unchanged by presets. GLOBAL EQ has Bass100Hz,Mid1kHz,Treble4kHz,each±12dB,withthe same persistence statement. This explicit global wording applies to those settings;it does not establish expression target persistence.
+
+Looper **REC** and**PLAYBACK** levels are independent. Loop Sync starts drums with an empty recording;recorded content locks drum BPM until cleared. Tuner selects Mute/Bypass. None of these passages identifies looper position relative to EXP orproves pedal attenuation ofrecorded audio,tuner bypass,headphones ordecays. Keep direct EXP volume documented butglobal assignment/range/coverage unknown. No hardware test ordownload.

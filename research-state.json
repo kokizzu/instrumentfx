@@ -124905,5 +124905,11 @@
     "compatibility_thread": "https://forum.kemper-amps.com/forum/thread/63873-mvave-chocolate-trs-expression-pedal-howto-rack-or-player/",
     "next": "Seek original exact-revision manufacturer hardware document;do not rely on mirror filename orResolved badge",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "tinystomp_global_input_loop_20261028": {
+    "checked": "2026-10-28",
+    "document": "SORAN.md#tiny-stomp--global-input-and-independent-loop-levels",
+    "finding": "INPUT±10dB andEQ explicit global persistence;loop REC/PLAYBACK independent. EXP coverage remains unresolved.",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

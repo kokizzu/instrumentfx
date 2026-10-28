@@ -360,3 +360,5 @@ Nano Cortex [dated LEVEL-menu reports](NEURAL-DSP.md#nano-cortex--external-expre
 Ampero Mini [effect-bypass trail boundary](HOTONE.md#ampero-mini--effect-bypass-trails-versus-expression-coverage): V2.2 Trail controls do not establish preset-change spillover or expression attenuation of tails. Global assignment andfull output coverage remain unverified.
 
 M-VAVE controller [source-provenance check](M-VAVE.md#chocolate--wiring-source-provenance-and-unresolved-reports): a file called Chocolate manual is a user-tutorial export;the Resolved compatibility thread provides no successful wiring solution. Pinout andactual-controller compatibility remain unverified.
+
+Tiny Stomp [global input/loop-level boundary](SORAN.md#tiny-stomp--global-input-and-independent-loop-levels): explicitly persistent INPUT/EQ settings are distinct from unresolved EXP assignment;separate loop REC/PLAYBACK controls do not establish pedal coverage.
