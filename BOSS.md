@@ -82,6 +82,12 @@ Acoustic fixed-chain processor; partial, checked 2026-10-18. Included for distin
 
 <!-- comparison evidence ends -->
 
+### AD-2 — expression screening and published specification conflict
+
+Checked2026-10-28 against the [original English e01 manual](https://static.roland.com/assets/media/pdf/AD-2_e01_W.pdf),©2016,and [current product specifications](https://www.boss.info/global/products/ad-2/). Published connector inventory has no analog EXP;LINE OUT explicitly cannot serve as headphones. Single pedal switch operates effects/mute,not documented preset down/up. Acoustic-electric input is documented;ordinary electric-to-acoustic simulation is not established. 73W×129Dmm fits preference,without meeting direct-expression requirement.
+
+**Revision/source conflict retained:**e01 specifies55mA,approximately6h alkaline life and450g including battery;current product lists65mA,approximately5h and420g including battery. Do not average these or infer which revision a seller supplies. Direct analog volume placement/range/recall are inapplicable;tail/loop attenuation remains unverified. Existing buffered-bypass andmute qualifications remain.
+
 ## AD-8
 
 Acoustic-guitar multi-effects: body modeling, EQ, reverb and feedback suppression; distinct from AD-10 and single-function acoustic simulators. Checked 2026-10-17; partial. No documented bass/vocal membership adopted.

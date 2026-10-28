@@ -124461,5 +124461,13 @@
     "identity": "Original BOSS©1990 French manual, rear inventory and footswitch sections",
     "finding": "No direct analog EXP in complete documented rear inventory; EFFECT REMOTE/NUMBER SHIFT are switches. FC50MIDI separate. No dedicated phones/onboard footswitches. Fit and MIDI attenuation scope unknown.",
     "next": "Continue unscreened no-treadle inventory; retain separate GT-Pro cursor and Mini/Nano global-volume questions."
+  },
+  "ad2_expression_spec_conflict_20261028": {
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/AD-2_e01_W.pdf",
+      "https://www.boss.info/global/products/ad-2/"
+    ],
+    "finding": "No analog EXP,LINEOUT not headphones,73W129D fits. e01:55mA/6h/450g inclbattery versus current65mA/5h/420g; seller revision unknown.",
+    "next": "Continue unscreened no-treadle inventory; keep independent GT-Pro cursor and unresolved Mini/Nano global-volume scope."
   }
 }
