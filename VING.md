@@ -127,3 +127,9 @@ Historical2026-10-14/15 shared comparison wording,not a new technical verificati
 - **Original findings commit** (Saved individual commits): `7962a72f6ecc5864e54fd2437cad25ed93507a5b`
 
 [Original shared comparison](MULTI-EFFECTS.md)<!-- historical-link:ving-003 -->,retained pending complete navigation/provenance audits.
+
+### FB-100 — revision-qualified expression-volume screen
+
+Checked **2026-10-28** against the complete preserved record above. The previously visually inspected **quick guide623000066,V03/2025-07-02** establishes no treadle,onboard footswitches0,one sharedTRS FS/EXP,dedicated3.5mm stereo headphones and140.3W×115.1Dmm fit. These retain their original evidence date;this is comparison integration,not a fresh visual certification. [Exact guide](https://device.report/m/e935ff101992b27286e13876ab8f8bb9eaadef72d6c3e11d17200efe06fe7863_optim.pdf) now yields only paper-dimension text,andpage-image retrieval failed.
+
+**Across-every-preset analog expression volume remains unverified**. The earlier comparison lead mentioning Global VOL is not a substitute for readable full-menu assignment/persistence evidence. Volume placement,min/max,held-position recall,bypass,headphone,speaker,tail/recorded-loop coverage remain unknown. Hand PARA/PATCH is not onboard preset down/up footswitches. Existing405/450g andpower conflicts remain;noBG300 mapping orcontroller pinout transferred. No download ordevice test.
