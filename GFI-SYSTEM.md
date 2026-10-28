@@ -34,6 +34,16 @@ Checked 2026-10-28. Exact Shopee hardware lead; outside active counts pending ma
 
 [Second exact-title item1408254222/25989553157](https://shopee.co.id/GFI-System-SOLISVENTUS-Solis-Ventus-Delay-And-Reverb-Pedal-i.1408254222.25989553157) indexed two months ago; direct cache miss. Seller/price/condition unknown; not assigned Seven Stereo’s price. No foreign-currency conversion, software/document download or device operation.
 
+### Rev J expression scope and memory/navigation evidence
+
+Checked 2026-10-28: [manufacturer-authored Rev J, March2026, pp6/19–21](https://www.scribd.com/document/1072569196/Solis-Ventus-User-Manual-rev-J). Exact model/revision matches the official index; original body read, not generated summary. Rev N not retrieved.
+
+- **EXP1¼-inch**, shared with auxiliary switches; globally select socket mode. Optimized for **10kΩ, tip-to-wiper**. **EXP2⅛-inch** accepts any potentiometer resistance, tip-to-wiper, or selectable **5V/10V CV**. Disable unused EXP2 to avoid false sensing.
+- Expression target/endpoints are **per-preset Options**; default heel/toe0%/100%. Targets include algorithm Time/Wet/Dry/parameters. Global socket configuration does not establish global volume assignment. **Volume Trim−3…+3dB affects wet and dry**, also per preset. Position recall/output coverage remain unknown.
+- **96 writable locations**,32banks×3; first24 factory-filled, remaining72 described as effectively empty. Factory tones are overwriteable, not extra protected slots. Bank up=B+C, down=A+B, short simultaneous presses.
+
+An [older manufacturer quickstart reproduction](https://manuals.plus/m/5c4af74a3dc8eea0d40651d04bf882fbae3b0ee8a748817a6fe8e3df79afe235_optim.pdf) instead labels both expression connections10kΩ. Undated revision; do not normalize EXP2’s differing requirement or transfer Synesthesia’s10–25kΩ range. No current Rev N, hardware wiring, firmware or output-attenuation test. No download.
+
 ## Synesthesia
 
 Checked 2026-10-28; **partial active guitar multi-effects record**, not fully verified. Dual-engine filtering, octave, EQ, echo and modulation plus explicit guitar-pickup guidance establish eligibility; no specialized pickup required by the inspected instructions. Bass/vocal suitability and ownership unverified. Earlier discovery wording below is retained as dated research history; this summary governs current admission.
