@@ -860,6 +860,12 @@ Checked 2026-10-28. These are separate hardware-title observations, not a verifi
 
 Late-arrival compensation up toRp10.000 is not a purchase discount. No used condition is inferred from price, seller name or photographs. Existing Purple Taro/Macha/Marigold bundles and PRELOVED sold-out observation retain their own dates and qualifications. This market evidence does not resolve global expression-volume scope.
 
+### Ampero Mini — effect-bypass trails versus expression coverage
+
+Checked **2026-10-28**, [own manufacturer V2.2 manual,printedpp44–47](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf). DLY entries including Tape Echo,Sweep Eko,Trem Eko andLofi Eko expose **Trail Off/On**. Reverb entries also expose Trail;the later detailed reverb parameter text explicitly describes trails **when the effect is bypassed**.
+
+This is effect-bypass decay evidence. It does not certify spillover when changing presets,global VOLUME assignment,orwhether expression Pre/Post attenuates existing tails. Keep these questions separate from the previously documented Post-looper phrase persistence. Global assignment,headphone/bypass/tail/recorded-loop pedal coverage remain unverified. No sibling firmware,hardware test ordownload used.
+
 ## Ampero MP-100
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

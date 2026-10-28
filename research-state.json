@@ -124844,5 +124844,13 @@
     ],
     "next": "Manufacturer/version-qualified clarification of manual-listed LEVEL versus reported UI;do not conflate Capture Volume",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "mini_trail_boundary_20261028": {
+    "checked": "2026-10-28",
+    "document": "HOTONE.md#ampero-mini--effect-bypass-trails-versus-expression-coverage",
+    "source": "https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf",
+    "pages": "44–47",
+    "finding": "Effect-bypass Trail controls;not preset-change spillover orEXP tail attenuation proof",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
