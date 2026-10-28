@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro p55 downstream OSC Feedbacker/Synth limits FV effectiveness;fixed SYSTEM role versus patch FV range precedence remains unknown. Continue44category/13vs15basis,other USB modes,visual controls andqualified IDR;394partial.",
+    "task": "GT-Pro catalogue list reconciled:22 shared+11 FX2-only+11 other entries=44,including external LOOP andFV;not44simultaneous internal effects. Continue13vs15basis,otherUSBmodes,visual controls,globalFVprecedence andqualifiedIDR;394partial.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -127950,5 +127950,38 @@
     "finding": "WahFilterinsertedinFiltergroup,lateralgorithmIDs+1(Chorus11->12);onboardpresetsautomigrated,unversionedofflinefilesnotmigrated. HistoricalSymmLabload/correctalgorithms/resaveprocedure.",
     "implication": "One-entrylibrarychangeandlegacyofflineimporthazard;38versusCC0–36notfullyreconciled,noinferredcurrentmap",
     "remaining": "Current2.5.1algorithmmap,offlinecompatibilityandglobalanalogvolumeunknown"
+  },
+  "gtpro_catalogue_category_reconciliation_20261028": {
+    "checked": "2026-10-28",
+    "source": "https://device.report/m/dbad6cf6184c3d1da9f210201693fcf12e942da75bd16993e24636b5120e67c6.pdf",
+    "identity": "BOSS Products Catalog 2005 Vol.1; exact GT-PRO pp15–16, PDF page9",
+    "counts": {
+      "shared_fx_families": 22,
+      "fx2_only_families": 11,
+      "other_entries": 11,
+      "total": 44
+    },
+    "other_entries": [
+      "COMP",
+      "EQ",
+      "WAH",
+      "LOOP",
+      "OD/DS",
+      "PREAMP/SPEAKER",
+      "DELAY",
+      "CHORUS",
+      "REVERB",
+      "NOISE SUPPRESSOR",
+      "FOOT VOLUME"
+    ],
+    "basis": "Derived count of complete published Effect List, not explicit manufacturer arithmetic or simultaneous internal algorithm ceiling.",
+    "access": "Parsed original PDF body read; screenshot cache miss. No local download.",
+    "remaining": [
+      "13-versus-15 block basis",
+      "Global FV enable/range precedence",
+      "Other USB driver-mode channel counts",
+      "Visual controls",
+      "Exact condition-qualified Shopee hardware offers"
+    ]
   }
 }

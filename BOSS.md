@@ -1546,7 +1546,7 @@ Checked 2026-10-19;partial. [Exact manufacturer product/specification](https://w
 | Expression | EXP1,EXP2/CTL3,4 andCTL1,2 sockets;externalEV-5/FV-300L listed. No built-in treadle;external toe capability unverified. |
 | Knobs / footswitches / buttons | 12 rotary controls,0 onboard footswitches,30 front buttons derived from manual controls list;POWER/ground-lift separate. Visual corroboration pending. |
 | Display | Backlit16×2-characterLCD plus2-character7-segmentLED;diagonal,color,touch unverified. |
-| Processing / categories | 46amp models,two combinable;44effect categories,15reorderable blocks. Simultaneous ceiling and44-category reconciliation unverified;DELAY12,REVERB7,COMP2;FX1=22,FX2=33;ODDS30+3custom;WAH6+3custom. Detailed evidence below. |
+| Processing / categories | 46 amp models, two combinable; **44 catalogue entries = 22 shared FX families + 11 FX2-only + 11 other entries**, including external LOOP and FV. Catalogue advertises 15 reorderable blocks; simultaneous ceiling and 13-versus-15 basis remain unresolved. DELAY 12, REVERB 7, COMP 2; FX1=22, FX2=33; ODDS 30+3 custom; WAH 6+3 custom. Detailed evidence below. |
 | Memory | 200 writable User+200 protected Preset=400;manufacturer lists named initial user-bank patches,including U1-1 andU20-10. Complete200-slot initial-fill census unverified;not400 protected factory presets. |
 | Synth / acoustic | Acoustic/sitar emulation plusGuitar/Wave Synth documented;tracking/polyphony unverified. |
 | Dimensions / mass | 482 W×305 D×89 H mm;4.8kg. |
@@ -1988,6 +1988,17 @@ Checked 2026-10-28. BOSS’s [exact GT-Pro manual index](https://www.boss.info/g
 Its entry codes **00–0D** are **FX1, CS, WAH, LP, OD, PRE, EQ, FX2, DD, CE, RV, NS, FV, DGT**. This is a serialized chain inventory, including the digital-output entry; it is not evidence of fourteen independent effect algorithms or freely duplicated slots. It narrows the architecture evidence but does not explain the manufacturer’s conflicting thirteen/fifteen simultaneous-effect headlines or reconcile forty-four effect categories. PRE LOOP remains fixed under the separate owner-manual instructions.
 
 Evidence is indexed manufacturer-authored text, not generated mirror Q&A. Direct mirror retrieval failed (403/inaccessible); the complete official implementation PDF and device behavior were not inspected. No document, software or driver downloaded; no MIDI messages sent.
+
+### GT-Pro — catalogue reconciliation of 44 effect categories
+
+Checked 2026-10-28 against the manufacturer-authored **BOSS Products Catalog 2005 Vol.1**, [original catalogue reproduction, printed pp15–16, PDF page9](https://device.report/m/dbad6cf6184c3d1da9f210201693fcf12e942da75bd16993e24636b5120e67c6.pdf). Cover/title and exact GT-PRO spread match the manufacturer catalogue identity. Parsed original text was read; the screenshot request failed, so this is not visual panel verification.
+
+| Field | Count / qualification |
+|---|---|
+| Processing / category reconciliation | The complete Effect List contains **22 shared FX-1/2 families + 11 FX-2-only families + 11 other entries = 44**. The other entries are COMP, EQ, WAH, LOOP, OD/DS, PREAMP/SPEAKER, DELAY, CHORUS, REVERB, NOISE SUPPRESSOR and FOOT VOLUME. This is a count of the published list, not an explicit manufacturer explanation of its arithmetic. |
+| Processing / count boundary | LOOP is an external-effects path; preamp and drive subtypes are not individually counted here. Forty-four therefore does not mean forty-four simultaneous internal effects. The catalogue separately advertises fifteen reorderable blocks; the earlier thirteen/fifteen discrepancy and MIDI chain inventory remain unresolved. |
+
+This supersedes earlier missing category-list reconciliation only. Global FV range precedence, other USB modes, exact Shopee offers and physical controls remain unverified. No local download or device operation.
 
 ## GX-1
 
