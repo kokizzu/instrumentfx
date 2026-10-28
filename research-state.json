@@ -123771,5 +123771,16 @@
       "operation while charging"
     ],
     "hardware_test": false
+  },
+  "cubebaby_bass_expression_screen_20261028": {
+    "source": "https://manuals.plus/m/4f3b9d5d9f5a73a68b2671d7dbac089ead3ced8c5603e9a86a69dc61bcbf1a9b.pdf",
+    "classification": "No analog EXP in complete connector inventory",
+    "remaining": [
+      "visual panel audit",
+      "ordinary guitar suitability",
+      "small jack details",
+      "attenuation coverage"
+    ],
+    "hardware_test": false
   }
 }

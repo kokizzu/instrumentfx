@@ -307,6 +307,11 @@ Sources: [26-page-labelled manualtranscription](https://manuals.plus/m/4f3b9d5d9
 
 <!-- comparison evidence ends -->
 
+
+### CUBE BABY BASS — direct expression screening,2026-10-28
+
+The [model-specific 26-page manual](https://manuals.plus/m/4f3b9d5d9f5a73a68b2671d7dbac089ead3ced8c5603e9a86a69dc61bcbf1a9b.pdf),Englishpp2–3,6–9, inventories all connectors without analog EXP. It therefore fails the required direct pedal path. PRESET hand VOLUME controls final output; LIVE defaults final output to **80%**, with the knob controlling chain level; EDIT retains prior output. These are not external pedal assignments. A/B/C directly select three presets, not documented sequential down/up. Dedicated phones are listed, but diameter and hand-volume bypass/phones/tails/recorded-loop coverage remain unknown. Bass is the documented instrument; ordinary guitar tone is unverified. Existing161×57mm horizontal dimensions fit. PDF text reopened; panel screenshots returned cache misses, so visual inspection remains incomplete.
+
 ### Preserved original finding
 
 Complete original dated finding follows, retaining the distinction between provisional manual transcription and manufacturer-confirmed software support. This preservation audit does not claim a new PDF/panel inspection or refresh the historical asks.
