@@ -125117,5 +125117,23 @@
     "qualification": "Main Manual13.0 May2025 plus historical manufacturer support; not current MK2 test",
     "next": "Remaining inventory screening and unresolved Mini/Nano/GP50/controller scope",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "podexpress_black_bundle_identity_20261028": {
+    "checked": "2026-10-28",
+    "document": "LINE6.md#black--manufacturer-bundle-identity-and-size-source-limits",
+    "source": "https://shop.sg.yamaha.com/products/pod-exp-blk-set.html",
+    "access": "Direct body readable",
+    "bundle": {
+      "sku": "155144",
+      "model": "POD EXP BL SET",
+      "processor_sku": "152883",
+      "adapter_sku": "134175",
+      "contents": "One Black processor plus one DC1G adapter"
+    },
+    "rejected_as_chassis_certification": "75L×162W×93Hmm/600g;device/package basis unspecified; table library labels conflict with Black documentation",
+    "black_announcement": "https://www.yamaha.com/ja/news_release/2024/24102301/",
+    "result": "Bundle identity resolved; exact device dimensions/mass and Shopee Indonesia offer unresolved",
+    "next": "Seek Black-specific manufacturer chassis measurements and exact IDR offer; preserve Guitar/Bass verified dimensions",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

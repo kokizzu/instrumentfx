@@ -126,6 +126,12 @@ The entry also separates the global Volume Wheel Control setting (main+headphone
 
 Full official and alternate RevE PDF opens exceeded the reader size limit; evidence here is indexed manufacturer text, not successful rendering. No later-firmware or device behavior claimed. Black remains a partial lead; no new Shopee price/stock evidence established.
 
+### Black — manufacturer bundle identity and size-source limits
+
+Checked **2026-10-28**: [Yamaha Singapore Black page](https://shop.sg.yamaha.com/products/pod-exp-blk-set.html) now opens directly. It explicitly bundles **one DC1G adapter plus one Black processor**,SKU155144/POD EXP BL SET;the exposed component selection distinguishes processorSKU152883 fromadapterSKU134175. This resolves bundle identity,not chassis measurements. Its75L×162W×93Hmm/600g specification still lacks device-versus-package/bundle basis;its Clean/Special/Chime/Dynamic/Crunch/Heavy/Lead amp labels andfour-reverb/four-delay wording conflict with the established Black library. Do not use this table to certify footprint,mass oralgorithms. Older indexed-only access remains historical.
+
+[Yamaha original23October2024 Black announcement](https://www.yamaha.com/ja/news_release/2024/24102301/),[two-page manufacturer PDF](https://www.yamaha.com/ja/news_release/files/news/24102301/pdf/2410230101.pdf),independently confirms Black as the high-gain model butcontains **no numerical chassis dimensions**. Guitar/Bass92×130×56mm therefore remain specific to their named March2024 announcement. Black fit/mass andexact Shopee Indonesia hardware offer remain unknown;targeted Shopee searches returned no qualified Black item,not proof ofabsence. No foreign-price conversion orlocal download. Partial lead remains outside active counts.
+
 ### HX family distinction
 
 HX Effects, HX Stomp and HX Stomp XL remain **not certified in this audit as zero-per-preset-setup global volume solutions**. Their existing records stay intact. A Global EXP Position setting must never be treated as proof of a globally inserted volume block or output-controller assignment. A fresh firmware-matched check of output-level controller scope remains on the audit queue.
