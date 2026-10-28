@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(hotone): recheck Mini revision headline and clone import limits'))
+    print(git('commit','-m','research(hotone): qualify Mini expression resistance and regional source conflict'))

@@ -122572,8 +122572,8 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-28",
-    "current": "Zoom606 and607 no-treadle eligibility reconciled from separate original manuals",
-    "finding": "Both have built-in treadles and no external EXP connectors; retain guitar606/bass607 profiles outside no-treadle shortlist.",
+    "current": "Ampero Mini exact-model indexed regional EXP resistance qualification",
+    "finding": "Hotone Japan publishes10–25kΩ TRS EXP; current text omits tab. Pinout and across-preset global volume remain unverified.",
     "next": [
       "Ampero Mini/Nano Cortex across-preset volume assignment remains unverified; manufacturer confirmation or readable exact-revision evidence needed",
       "Exact HX and GT-1000CORE documentation and headphone/tail/looper coverage",
@@ -122811,6 +122811,19 @@
       "shortlist": "excluded; general bass record retained",
       "offer": "No new offer access claimed; mixed606/607 ask remains model-unqualified",
       "next": "Continue eligible no-treadle inventory and unresolved global-volume/output coverage; preserve independent general cursor"
+    },
+    "ampero_electrical_20261028": {
+      "source": "https://www.hotone.jp/brands/hotone/products/ampero-mini",
+      "access": "month-old indexed specification tab; direct reader omits tab",
+      "exp_resistance_kohm": [
+        10,
+        25
+      ],
+      "pinout": "unverified",
+      "global_volume": "unverified",
+      "output_conflict": "Japanese balanced stereo wording versus retained English unbalanced stereo tipL/ringR",
+      "former_distributor": "AllAccess product redirects to closure notice; olderJPmanual inaccessible",
+      "next": "Do not repeat unchanged Mini menu rechecks; seek exact new firmware evidence or manufacturer clarification. Continue eligible inventory and exact Shopee offers."
     }
   },
   "brand_navigation": {

@@ -803,6 +803,15 @@ Editor import accepts .nam/.tone/.clo and describes ten stored tones, yet also s
 
 The preserved [PRELOVED offer](https://shopee.co.id/HOTONE-AMPERO-MINI-PRELOVED-i.87936304.46555574691) and [Purple Taro/adapter offer](https://shopee.co.id/Multi-Efek-Pedal-Hotone-Ampero-Mini-MP-50PT-w-9V-adapter-Purple-Taro-i.306155985.21384344851) could not be reopened on2026-10-28. Their older asking prices, condition and availability qualifications remain intact; no new price or stock confirmation is claimed. Headphone/bypass/tail/looper expression coverage remains unverified.
 
+### Ampero Mini — regional EXP resistance evidence, 2026-10-28
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / compatible resistance | [Hotone Japan’s exact Mini specifications](https://www.hotone.jp/brands/hotone/products/ampero-mini), month-old indexed specification text, state **10–25 kΩ** for the TRS expression input. The current direct text reader omits this specification tab; retain the indexed-access qualification. This establishes a published resistance range, not TRS wiper/polarity wiring, compatibility with a particular M-VAVE unit, or global volume assignment. |
+| I/O / regional wording conflict | The same indexed Japanese specifications call the TRS output balanced stereo, whereas the retained [English Mini product/manual evidence](https://www.hotone.com/products/multi-effects/Ampero%20Mini) identifies unbalanced stereo with tip=L/ring=R. Preserve this source conflict; do not reinterpret the socket as balanced mono. |
+
+The former All Access product URL now redirects to its distributor-closure notice; the older Japanese manual could not be directly reopened. Indexed older manual excerpts corroborate the resistance range but are not a complete current-revision manual review. No new Shopee offer check, hardware test or universal-volume conclusion is claimed.
+
 ## Ampero MP-100
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
