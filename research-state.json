@@ -122566,7 +122566,34 @@
       "HeadRush Prime",
       "MOOER GE300"
     ],
-    "instruction": "Independent general research queue retained per user; existing technical cursor preserved."
+    "instruction": "Independent general research queue retained per user; existing technical cursor preserved.",
+    "last_finding": {
+      "model": "Valeton GP-200JR",
+      "checked": "2026-10-28",
+      "manual_revision": "1.8.0",
+      "source": "previously saved original manual extraction; current official redirect inaccessible",
+      "pre_named_choices": 27,
+      "pre_breakdown": {
+        "compressor": 3,
+        "boost": 7,
+        "overdrive": 5,
+        "acoustic": 2,
+        "filter": 3,
+        "pitch": 6,
+        "special": 1
+      },
+      "expression": "patch targets; two-external-pedal prose conflicts with panel",
+      "offer": {
+        "seller": "3086066",
+        "item": "25864478892",
+        "idr": 4980000,
+        "access": "three-week-old cache",
+        "stock": "unverified",
+        "condition": "unverified"
+      },
+      "remaining": "Other category subtotals,manual corrections,toe count,touch,power/import restrictions and condition-specific offers",
+      "next": "HeadRush Prime follow-up, then MOOER GE300; retain independent expression audit and GT-Pro cursor"
+    }
   },
   "expression_volume_audit": {
     "status": "partial",

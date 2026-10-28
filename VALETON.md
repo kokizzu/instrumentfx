@@ -1452,6 +1452,19 @@ Checked **2026-10-16**, public indexed/page-text evidence, not authenticated che
 
 Remaining: authoritative corrections for the manual errors, full category subtotals, toe-switch count, touchscreen/battery/USB-power statements, IR conversion rules, supported NAM architectures/concurrency, scene behavior and condition/stock-qualified IDR. This is a useful partial record, not full verification.
 
+### GP-200JR — PRE census and EXP scope, 2026-10-28
+
+Read the complete printed pp24–28 PRE section and pp8,10,15–16 in the previously saved [manufacturer firmware1.8.0 manual](https://www.valeton.net/download/121/gp-200jr/22452/gp-200jr_online-manual_en_firmware-v1-8-0-pdf.pdf). Its current redirect to res.valeton.net was inaccessible in the browser; no new download or visual inspection.
+
+| Field | Evidence / qualification |
+|---|---|
+| Categories / PRE | **27 named choices**, derived census:3 compressors (COMP,COMP4,S-Comp);7 boosts (Micro Boost,AC Boost,B-Boost,P-Boost,14 Boost,FAT BB,Boost);5 overdrives (OD9,Yellow OD,Penesas,Super OD,Blues OD);2 acoustic (AC Refiner,AC Sim);3 filters (T-Wah,A-WAH,Step Filter);6 pitch (OCTA,Pitch,P-Bend,Hammy,Harmonizer1,Harmonizer2);1 special (Ring Mod). These are alternatives within PRE, not27 simultaneous effects. Other category totals remain unresolved. |
+| Synth / acoustic detail | AC Sim modes:Standard,Jumbo,Enhanced,Piezo. AC Refiner instead processes acoustic instruments. Step Filter is a four-step filter with synth-like timbres, not proof of a dedicated synth engine. Harmonizer1/2 are monophonic single/dual-voice harmonizers, unlike the polyphonic Pitch/P-Bend entries. |
+| Expression / assignment scope | Selected-patch EXP1A/1B/2 targets allow three parameters each with MIN/MAX. Global EXP2 socket setup explicitly refers back to Patch Settings→EXP Settings. No universal volume override established. Built-in treadle excludes JR from the no-treadle shortlist. |
+| Expression / copied prose conflict | P8 claims two external pedals; panel shows one EXP/FS socket plus the built-in pedal. Preserve the contradiction rather than claim two external analog inputs. Calibration curves and strong toe-press step do not resolve separate toe-switch count. |
+
+[RD Music item3086066/25864478892](https://shopee.co.id/VALETON-GP200JR-GP-200JR-efek-digital-multi-effect-gitar-bass-i.3086066.25864478892) reopened2026-10-28 as three-week-old cached text:Rp4.980.000,old7October delivery banner. Late-delivery voucher up toRp10.000 is compensation, not an immediate hardware discount. Current stock,condition,bundle,warranty and checkout remain unverified; prior offers preserved.
+
 ## GP-200LT
 
 Guitar/bass/acoustic-instrument multi-effects; **medium** footprint; no built-in expression. This is GP-200LT, not GP-200, JR or a color variant.
