@@ -17,7 +17,7 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    message = 'research(zoom): document original 505 conditional expression volume' if sys.argv[1]=='commit-505' else 'research(zoom): screen 1201 direct expression and pickup requirements'
+    message = 'research(zoom): document original 505 conditional expression volume' if sys.argv[1]=='commit-505' else 'research(zoom): screen RFX-1000 direct expression connectors'
     if sys.argv[1] in ['commit-606','commit-607']:
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'

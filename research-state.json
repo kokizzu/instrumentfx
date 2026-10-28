@@ -124309,5 +124309,12 @@
     "finding": "No analog EXP or dedicated headphone socket in complete inventory. FS01 only effect on/off. Passive guitar requires preamp/compact effect. 482W×115Dmm; no onboard preset footswitch pair.",
     "boundary": "Direct EXP position/range/recall N/A; earlier bypass/MIX-WET conflict and tail uncertainty retained. No new market offer, download or hardware test.",
     "next": "Continue remaining rack/no-treadle inventory such as Zoom RFX families; general GT-Pro cursor unchanged."
+  },
+  "rfx1000_expression_screen_20261028": {
+    "source": "https://zoomcorp.com/media/documents/E_RFX1000.pdf",
+    "revision": "RFX-1000-5000; panel pp2–3/specifications p15",
+    "finding": "Complete connector inventory has FS01 on/off only, no analog EXP or dedicated headphone socket. Guitar preamp/effect required; 482W×115Dmm; no onboard preset footswitch pair.",
+    "boundary": "Physical OUTPUT/MIX not expression assignment. Direct EXP position/range/recall N/A; bypass topology and tails unverified. No sibling transfer, stock refresh, local download or hardware test.",
+    "next": "Screen exact RFX-1100 next; independent general GT-Pro cursor retained."
   }
 }

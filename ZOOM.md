@@ -4464,6 +4464,12 @@ Checked2026-10-18 against [own manual,pp2,6,15][R1K-M] and the separate seller i
 | Processing / vocoder control | INPUT L supplies the carrier;MIC IN andINPUT R supply the control signal. Right input can substitute for microphone control;set MIX fully wet. This uses an external carrier,not an internal synthesizer. |
 | IDR / additional condition-unverified ask | **Rp1.200.000**,electronic88,Kota Jakarta Barat,[shop4896483/item1811483791](https://shopee.co.id/EFFECT-VOCAL-ZOOM-RFX1000-RFX-1000-ZOOM-EFEK-VOCAL-i.4896483.1811483791). Three-month search cache;direct fetch cache miss. New/used condition,stock,working state,variant,adapter/bundle,warranty,voucher,shipping/tax unknown. Separate from the Rp898.500 sold-out offer;not a current-stock or used/new price bound. |
 
+### RFX-1000 — direct-expression capability screening
+
+Checked 2026-10-28 against [own manufacturer manual RFX-1000-5000][R1K-M], panel inventory pp2–3 and specifications p15. **No analog EXP input, no dedicated headphone socket** in the complete inventory; BYPASS accepts **FS01 for effects on/off only**. This resolves the earlier continuous-EXP/headphone uncertainty for the documented physical connections. Ordinary guitar pickups require a preamp or guitar effect first. **482W×115Dmm** fails preferred width; no onboard footswitches provide preset down/up. Hand-operated bank/type/variation selectors remain separate.
+
+Physical OUTPUT adjusts output level; MIX blends dry/wet. Neither supplies external continuous expression assignment. Direct-EXP position, endpoints and recall are inapplicable to this connector inventory. Bypass topology, tail attenuation and looper coverage are not established by FS01 switching. Preserve all older model-specific power and sold-out/condition-unverified asks; no new stock verification, local download or device operation.
+
 ## RFX-1100
 
 Rack multi-effects, checked 2026-10-17. Partial verification; unknown is not No.
