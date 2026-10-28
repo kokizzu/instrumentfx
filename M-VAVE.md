@@ -195,6 +195,14 @@ Checked 2026-10-28. In a [Musiker-Board discussion dated 2024-10-17](https://www
 
 This is a firsthand, setup-specific report, not M-VAVE or Line 6 certification. It supplies **no tip/ring/sleeve-to-pot mapping, taper, firmware number, measured CC endpoints or complete configuration**. The successful contact change does not establish a universal 15 kΩ requirement, compatibility with Chocolate Plus, or a safe adapter prescription. It does show why a pedal modified for direct HX use cannot be assumed electrically interchangeable with a controller input. Current exact pinout, resistance limits and offered-unit identity remain unknown. MIDI conversion also remains separate from direct analog processor EXP and global volume assignment. No rewiring, download or device test performed.
 
+### Chocolate Plus — manufacturer-filed model-name equivalence, limited to the filing
+
+Checked 2026-10-28: Sinco Intelligent Technology’s **Model Difference Declaration**, dated **2025-01-16**, [manufacturer-authored one-page exhibit7999027](https://fccid.io/2ARCP-CHOCOLATE/Letter/Model-Difference-7999027.pdf), associated with FCC ID **2ARCP-CHOCOLATE**. The signed declaration names **CHOCOLATE PLUS, chocolate and ChocⅡ**, with **CHOCOLATE PLUS as the test sample**, and states identical function, software and electrical circuit within that declared group. This resolves an explicit manufacturer naming relationship for this filing; it does **not** identify every older Chocolate, FootCtrlPlus, or an uninspected seller unit as that revision.
+
+The [related user-manual record7998994](https://fccid.io/2ARCP-CHOCOLATE/Users-Manual/User-manual-7998994) identifies a PD41/CHOTOLATE PLUS multilingual document created2024-08-14 and submitted2025-01-21. The exhibit PDF yielded no readable body in this pass; metadata is not a full hardware-manual inspection. The linked FCC.gov declaration retrieval missed cache; the manufacturer-authored mirrored declaration body was readable.
+
+Neither declaration nor metadata supplies expression tip/ring/sleeve roles, potentiometer limits, continuous CC sweep or direct analog output. Those remain unknown. Prior software/revision distinctions and all earlier sources remain; no local download, controller operation or new active processor admission.
+
 ## CUBE BABY AC
 
 <!-- comparison evidence begins -->

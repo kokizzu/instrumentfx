@@ -128038,5 +128038,28 @@
     },
     "global_volume": "Unverified; LEVEL target-list conflict preserved",
     "downloads": false
+  },
+  "chocolate_fcc_model_identity_20261028": {
+    "checked": "2026-10-28",
+    "source": "https://fccid.io/2ARCP-CHOCOLATE/Letter/Model-Difference-7999027.pdf",
+    "manufacturer": "Sinco Intelligent Technology Co., Ltd.",
+    "declaration_date": "2025-01-16",
+    "fcc_id": "2ARCP-CHOCOLATE",
+    "declared_models": [
+      "CHOCOLATE PLUS",
+      "chocolate",
+      "ChocⅡ"
+    ],
+    "test_sample": "CHOCOLATE PLUS",
+    "claim": "Same function, software and electrical circuit within declared group",
+    "boundary": "Not every historical Chocolate, FootCtrlPlus or uninspected seller hardware; no pinout/resistance/continuous CC evidence.",
+    "manual_metadata": {
+      "url": "https://fccid.io/2ARCP-CHOCOLATE/Users-Manual/User-manual-7998994",
+      "created": "2024-08-14",
+      "submitted": "2025-01-21",
+      "identity": "PD41 CHOTOLATE PLUS multilingual document",
+      "body": "not readable in this pass; metadata only"
+    },
+    "access": "Manufacturer-authored declaration mirrored from filing; linked FCC.gov retrieval cache miss; no local download."
   }
 }

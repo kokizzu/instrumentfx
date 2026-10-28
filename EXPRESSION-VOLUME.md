@@ -559,3 +559,5 @@ Nano Cortex [historical support-report qualification](NEURAL-DSP.md#nano-cortex-
 ### GFI System Solis Ventus — discovery qualification pending
 
 [Exact hardware/manufacturer lead](GFI-SYSTEM.md#solis-ventus--partial-discovery-lead): two EXP/CV inputs and independent dual engines documented. No-treadle layout, normal-pickup details, axis-labelled footprint, headphones and global analog volume remain unverified. Cached Shopee ask separately qualified; now a partial active guitar record after Rev J profile review, while current global-volume qualification and main capability-table admission remain pending.
+
+Manufacturer-filed [Chocolate Plus model-name declaration](M-VAVE.md#chocolate-plus--manufacturer-filed-model-name-equivalence-limited-to-the-filing) relates CHOCOLATE PLUS/chocolate/ChocⅡ within its January2025 filing only. It does not identify every older or offered controller, and supplies no verified analog pinout or processor-volume scope.
