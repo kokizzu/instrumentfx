@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(boss): screen AD-8 direct expression and memory navigation'))
+    print(git('commit','-m','research(boss): preserve GT-Pro EXP2 assignment instruction ambiguity'))

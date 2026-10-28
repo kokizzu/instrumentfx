@@ -1787,6 +1787,12 @@ Queued Uni-V/SubEQ definition gaps are resolved at text-table level;this is not 
 
 The official catalogue’s indexed effect list remains incomplete;44-category counting basis and13-versus15 conflict remain unresolved. No guessed category added to force44.
 
+### GT-Pro — EXP2 instruction ambiguity (2026-10-28)
+
+[Exact original manual p55, matched manufacturer-authored mirror](https://medias.audiofanzine.com/files/gt-pro-manual-476544.pdf), indexed: its EXP2 memo lists two bullets—set EXP2 function to Foot Volume, and set ordinary ASSIGN target FV:Level/source EXP PEDAL2. The text does not clarify whether these are alternatives or cumulative instructions. Read alongside the preserved p61 rule requiring Assignable/Auto for ordinary ASSIGN: **do not prescribe both as a verified working combination**. SYSTEM role versus dedicated patch FV range precedence remains unresolved. No device test.
+
+USB input/output-device searches still yielded no explicit channel total; MAIN+SUB mixing is not channel-count evidence. Existing USB count stays unknown. No downloaded driver, software or document.
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.

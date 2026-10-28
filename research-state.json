@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro queuedUniV/SubEQ definitions saved;44category/13vs15basis,USBchannelcount,visualcontrols,expression/outputqualifications andqualifiedIDR remain;392partial.",
+    "task": "GT-Pro EXP2 memo ambiguity saved;44category/13vs15basis,USBchannelcount,visualcontrols,expression/outputqualifications andqualifiedIDR remain;392partial.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -123711,6 +123711,18 @@
       "expression output coverage",
       "Black exact chassis dimensions",
       "qualified Shopee item"
+    ],
+    "hardware_test": false
+  },
+  "gtpro_exp2_memo_20261028": {
+    "source": "https://medias.audiofanzine.com/files/gt-pro-manual-476544.pdf",
+    "page": 55,
+    "access": "indexed original manufacturer manual, matching exact model/pagination",
+    "finding": "EXP2 fixed FV and ASSIGN bullets ambiguous; compare existing p61 Assignable/Auto rule",
+    "remaining": [
+      "alternatives versus cumulative instruction",
+      "dedicated patch FV range precedence",
+      "USB channel count"
     ],
     "hardware_test": false
   }
