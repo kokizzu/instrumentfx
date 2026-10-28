@@ -123747,5 +123747,17 @@
       "separate attenuation coverage"
     ],
     "hardware_test": false
+  },
+  "cubebaby_electric_expression_screen_20261028": {
+    "source": "https://device.report/manual/2644279",
+    "identity": "Sinco FCC2ARCP-CUBE-BABY; electric library, not AC/Bass",
+    "classification": "no analog EXP in complete connector inventory",
+    "navigation": "three direct A/B/C preset switches",
+    "remaining": [
+      "hardware revision/dimensions/battery conflict",
+      "small headphone connector",
+      "hand-volume attenuation coverage"
+    ],
+    "hardware_test": false
   }
 }

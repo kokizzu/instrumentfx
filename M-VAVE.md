@@ -401,6 +401,10 @@ Retail **Rp560.000** [triple3music52744568/27345068914](https://shopee.co.id/M-V
 
 Sources: **Sinco FCC2ARCP-CUBE-BABY originalmanual** [text](https://device.report/manual/2644279),numberedpanels,chain,memory,specs read. Translatedintro saysbassbutactualelectriclibrary,currentBassseparate. [Laterguide](https://www.manualslib.com/guide/3772678/m-vave-cube-baby-manual.html) flagsdim/batteryconflict,not silent replacement;PDF/imagesfailed. [Official downloads](https://www.m-vave.com/download),[catalogue](https://www.m-vave.com/products),dynamicdetailshelllimited. Exactrevision andsmallports/IR/USB remainopen.
 
+### CUBE BABY electric — direct-expression screening (2026-10-28)
+
+[Sinco manufacturer-filed exact CUBE-BABY manual](https://device.report/manual/2644279), complete numbered rear inventory: **no analog EXP socket**, so direct analog pedal-volume requirement fails. Its save tutorial adjusts VOLUME before storing the tone; this does not establish an independent global master assignment. A/B/C select three presets directly, not sequential down/up. Dedicated headphone output is documented; diameter remains unverified. Existing dimensional/battery revision conflicts stay intact; published horizontal envelopes fit the preferred rectangle. Direct-pedal endpoints/recall N/A; hand-volume bypass/tail/recorded-loop coverage unknown. No hardware test; AC/Bass not transferred.
+
 <!-- comparison evidence ends -->
 
 ### Preserved original electric CUBE BABY finding
