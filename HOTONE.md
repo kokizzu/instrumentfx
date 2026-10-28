@@ -821,6 +821,15 @@ The former All Access product URL now redirects to its distributor-closure notic
 
 The previously saved Mini retail item171167271/48456875050 was inaccessible2026-10-28;older sold-out ask retained,with no fresh price or stock conclusion. Global EXP volume remains unverified;no hardware test or download.
 
+### Ampero Mini — additional exact Shopee hardware offers,2026-10-28
+
+| Field | Exact seller evidence / qualification |
+|---|---|
+| IDR / Macha adapter bundle,condition unverified | **Rp4,315,000**, [Swee Lee Official Shop799119783/29769916384](https://shopee.co.id/Hotone-MP-50MC-Ampero-Mini-Multieffects-Pedal-w-9V-adapter-Macha-i.799119783.29769916384),KotaJakartaUtara. Title names MP-50MC,Macha,9Vadapter. Directreader two-week cache versus three-month search;relative four-hour delivery not stock proof. “Official” shop name/Mall badge/100%Original banner not independent authentication orwarranty verification. |
+| IDR / Marigold adapter bundle,condition unverified | **Rp4,127,000**, [Dooit Music Store1051758555/28151908243](https://shopee.co.id/Hotone-MP-50MG-Ampero-Mini-Multieffects-Efek-Pedal-w-9V-adapter-Marigold-i.1051758555.28151908243),KotaTasikmalaya. Title names MP-50MG,Marigold,9Vadapter. Directreader month-old cache,stale15September delivery. Rp4,291,268 crossed reference and−4% display retained as seller promotion,not an independently validated saving. |
+
+Neither extract displaysHabis;this does not establish stock. Condition declaration,working state,selected variant,adapter authenticity/remaining bundle,regional warranty,shipping/tax,voucher eligibility andcheckout total remain unknown. Late-arrival compensation up toRp10,000 isnot an upfrontdiscount. Separate cached asks,not a bare-unit range orcompleted sales;older observations and their distinct condition/availability evidence retained.
+
 ## Ampero MP-100
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

@@ -123959,5 +123959,29 @@
     "region": "Kab.Probolinggo",
     "checked": "2026-10-28",
     "qualifications": "Variant,working state,battery,firmware,bundle,warranty,shipping/tax,voucher/checkout unknown; late compensation not discount"
+  },
+  "ampero_mini_exact_offers_20261028": {
+    "checked": "2026-10-28",
+    "offers": [
+      {
+        "shop": "799119783",
+        "item": "29769916384",
+        "seller": "Swee Lee Official Shop",
+        "idr": 4315000,
+        "variant": "MP-50MC Macha with9Vadapter",
+        "region": "KotaJakartaUtara",
+        "access": "Direct two-week cache"
+      },
+      {
+        "shop": "1051758555",
+        "item": "28151908243",
+        "seller": "Dooit Music Store",
+        "idr": 4127000,
+        "variant": "MP-50MG Marigold with9Vadapter",
+        "region": "KotaTasikmalaya",
+        "access": "Direct month cache;stale15September"
+      }
+    ],
+    "qualification": "Condition,stock,selected variant,bundle verification,warranty,shipping/tax/voucher/checkout unknown;noHabis isnot stockproof"
   }
 }
