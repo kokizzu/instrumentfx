@@ -123563,5 +123563,20 @@
       "dimension orientation"
     ],
     "hardware_test": false
+  },
+  "tmp_expression_screen_20261028": {
+    "sources": [
+      "https://support.fender.com/hc/en-gb/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+      "https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=24"
+    ],
+    "scope": "EXP Live Mode position recall still requires Volume Pedal block per preset",
+    "release": "1.3.74,2024-06-03",
+    "remaining": [
+      "independent global analog assignment",
+      "controller wiring/resistance",
+      "output/tail/recorded-loop coverage",
+      "current sequential preset footswitch behavior"
+    ],
+    "hardware_test": false
   }
 }
