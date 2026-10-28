@@ -124497,5 +124497,11 @@
     "source": "https://www.valeton.net/download/178/dapper-acoustic-mini/18591/dapper-acoustic-mini_manual_en_v01_170213-2.pdf",
     "finding": "Dedicated PHONES and simultaneousoutputs not proof of common volume control; EXP/globalvolume unverified. Acoustic use only documented. Axis conflict retained.",
     "next": "Continue remaining Dapper exact-model inventory; retain Mini/Nano globalvolume questions and separate GT-Pro cursor."
+  },
+  "dapper_bass_expression_screen_20261028": {
+    "source": "https://www.hotone.jp/brands/valeton/products/dapperbass",
+    "finding": "Regional own-model THRU/OUTPUT/XLR three-output enumeration lacks dedicated headphones; unaffectedTHRU distinct from moduleVOL. EXP/globalvolume unknown;guitar unclassified;320W65D failsfit.",
+    "qualification": "Rejected stray Indie features in page;regional brand-distributor source,not hardwaretest.",
+    "next": "Continue remaining exact-model Dapper screens; preserve Mini/Nano priorityquestions and independent GT-Pro cursor."
   }
 }

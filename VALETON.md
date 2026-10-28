@@ -264,6 +264,12 @@ All three additional offers are historical asking observations, not completed sa
 | Chorus / category control scope | Manualp2 identifies DEPTH as chorusdepth and describes analogchorus;no separate rate/mix controls are listed for thismodule. This does not prove the whole strip is analog or establish total simultaneous count. [Manual][DB-MM] |
 | IDR condition-unverified indexed offer | **Rp3.240.000;Habis**, [Dooit Music Store,shop1051758555/item23157251802](https://shopee.co.id/VALETON-DAPPER-effect-BASS-Analog-Multi-7in1-preamp-chorus-octaver-fuzz-tuner-booster-compessor-i.1051758555.23157251802),KotaTasikmalaya. Four-month search cache,9June delivery,shop on holiday;direct cache miss. Full-sizeDapperBass title;condition,workingstate,stock,revision,variant,adapter/bundle,warranty andvoucher unverified. Title7in1 is seller wording,not verified simultaneous architecture;late-deliveryRp10k compensation notdiscount. |
 
+### Dapper Bass — qualified expression and output screen
+
+Checked 2026-10-28 against [Hotone Japan exact-model page](https://www.hotone.jp/brands/valeton/products/dapperbass), regional brand-distributor evidence, not a hardware test. Its specific THRU/XLR section enumerates three outputs: input-branched THRU, unbalanced OUTPUT and balanced XLR. No dedicated headphones among those outputs; Mini PHONES specifications do not transfer. The same page contains stray Indie Drive/Fuzz Wall/Echoes/Ambient copy, excluded from this model evidence.
+
+Bass use is documented; ordinary guitar suitability and direct analog EXP remain unverified. FX LOOP is a mono audio insert between Bass Amp and Octave, not an expression input. Global volume, placement/endpoints/recall and bypass/tail/loop attenuation remain unknown. Unaffected THRU prevents assuming a module VOL mutes every output. Module/tuner foot actions do not prove preset down/up. 320W×65Dmm fails preferred fit in either orientation; existing reversed manual-axis qualification remains.
+
 ## Dapper Dark Mini
 
 Separate compact guitar multi-effects, not full-size VES-3. Manufacturer marks discontinued. Checked2026-10-17; partial. Exact model code unverified. Product page's stray Dapper Indie heading conflicts with its Dark Mini body/manual; no Indie specifications transferred.
