@@ -22,4 +22,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(hotone): count Mini NR and EQ choices with source limits'))
+    print(git('commit','-m','research(hotone): count Mini cabinets delays and reverbs'))

@@ -128753,5 +128753,59 @@
     "global_volume": "Stillunverified;nonewcross-presetoverrideproof",
     "next": "RemainingMini categorycensus andprimaryglobalvolumeclarification;retainindependentGT-Progeneralcursor",
     "downloads": false
+  },
+  "mini_v22_cab_delay_reverb_census_20261028": {
+    "checked": "2026-10-28",
+    "source": "https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf",
+    "revision": "2.2",
+    "pages": "40–47",
+    "cabinet": {
+      "factory": 50,
+      "page40": 28,
+      "page41": 22,
+      "factory_acoustic_ir": 10,
+      "user_slots": 10,
+      "microphones": 10,
+      "microphone_off_separate": true,
+      "conflicts": [
+        "UK Trad2x12 description4x12",
+        "Mark2x10 description4x10"
+      ]
+    },
+    "delay": [
+      "Sweetie",
+      "Recaller",
+      "Pure Eko",
+      "Analog Eko",
+      "Mag Eko",
+      "Tube Eko",
+      "Backmask",
+      "Ping Pong",
+      "Multi Head",
+      "Slapback",
+      "Vintage Rack",
+      "Sweep Eko",
+      "Trem Eko",
+      "Lofi Eko",
+      "Ring Eko",
+      "Ekoverb",
+      "2290 Mod"
+    ],
+    "reverb": [
+      "Room",
+      "Hall",
+      "Church",
+      "Plate",
+      "Spring",
+      "Izumi",
+      "Northstar",
+      "Oceandeep",
+      "Sweet Space",
+      "Shimmer",
+      "Cloud"
+    ],
+    "not_extra_algorithms": "MultiHead12variations,micpositions,userstorage andparameterchoices",
+    "remaining": "AMP/FXcensus;globalEXPassignment,range/recallandoutputcoverage;qualifiedcurrentoffers",
+    "downloads": false
   }
 }

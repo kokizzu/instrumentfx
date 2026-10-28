@@ -685,7 +685,7 @@ Current comparison summary, reconciled 2026-10-28 from the exact-model sources r
 | Knobs / footswitches / buttons | **1 rotary / 2 footswitches / 0 separate buttons**, from numbered manufacturer manual text. Rear volume knob controls all outputs; that coverage is not transferred to EXP. FS1/FS2 provide previous/next patch; external FS3/4 require switch mode. Toe-pressure calibration alone does not establish a toe switch. |
 | Display | Published **4-inch, 800×480, color touchscreen**; not photo-measured. |
 | Dimensions / weight | Published **134×120×49 mm; 529 g**. Fits preferred 200×140 mm chassis envelope; cable clearance additional. |
-| Processing | **9 simultaneous modules**, subject to processor overload limits. V2.2 says **200+ effects**; older 199 remains historical. V2.2 category tables establish NR2 and EQ7; complete remaining category census unverified. V2.2 adds Precise Attack and Match30 Clean; do not derive a new total by adding to199. |
+| Processing | **9 simultaneous modules**, subject to processor overload limits. V2.2 says **200+ effects**; older 199 remains historical. V2.2 tables: NR2, EQ7, DLY17, RVB11; CAB50 factory cabinets +10 factory acoustic IRs, with10 user slots separately. AMP/FX census remains unverified. V2.2 adds Precise Attack and Match30 Clean; do not derive a new total by adding to199. |
 | Presets | **99 factory + 99 user** documented. This storage split does not establish every factory preset's VOLUME-enable default. |
 | Synth / acoustic | Electric-to-acoustic steel/nylon examples; five documented bass amp/preamp choices justify shared bass membership. Pitch Shift is polyphonic, ±24 semitones; Classic PS monophonic. Sweller is an automatic envelope, not global EXP volume. Dedicated synth engine remains unverified. |
 | Audio I/O | ¼-inch TS instrument input; ⅛-inch stereo AUX; single ¼-inch stereo TRS main output; dedicated ⅛-inch headphones. English evidence: **unbalanced, tip=L/ring=R**; Japanese indexed balanced-stereo wording conflicts. AUX bypasses effects and USB audio. |
@@ -917,6 +917,19 @@ Checked 2026-10-28 against [own manufacturer V2.2 manual](https://res.hotoneaudi
 | Processing / EQ units and source anomaly | Guitar/Bass/V-EQ gains use−50…+50 relative scales; do not label these dB. Para/Graphic EQ explicitly use±12dB. V-EQ’s final band is printed **6.6Hz**, following80Hz/240Hz/750Hz/2.2kHz; preserve the apparent source anomaly pending correction rather than assert6.6kHz. |
 
 These findings narrow the category-count gap only. Global EXP volume override, factory-preset enable defaults, output/bypass/tail/loop coverage and remaining category census stay unresolved. No local downloads or hardware operation.
+
+### Ampero Mini — V2.2 cabinet, delay and reverb census
+
+Checked 2026-10-28 against [manufacturer V2.2 manual](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf), printed pp40–47. Table-entry counts, not simultaneous modules or a complete unique-library total.
+
+| Field | Count / qualification |
+|---|---|
+| Processing / CAB-IR | **50 factory cabinets**:28 on p40,22 on p41. Separately **10 factory acoustic IRs** and **10 user slots**. User slots are storage, not supplied algorithms. Microphone menu has10 models plusOff; microphone positions do not add cabinets. |
+| Processing / cabinet source conflicts | **UK Trad2x12** describes a4x12 cabinet; **Mark2x10** describes4x10. Names and descriptions conflict; no silent normalization. |
+| Processing / DLY | **17:** Sweetie, Recaller, Pure Eko, Analog Eko, Mag Eko, Tube Eko, Backmask, Ping Pong, Multi Head, Slapback, Vintage Rack, Sweep Eko, Trem Eko, Lofi Eko, Ring Eko, Ekoverb, 2290 Mod. Multi Head’s12 head variations are within one choice, not12 additional algorithms. |
+| Processing / RVB | **11:** Room, Hall, Church, Plate, Spring, Izumi, Northstar, Oceandeep, Sweet Space, Shimmer, Cloud. Decay andTrail options do not increase category count. |
+
+Factory acoustic IRs include steel/nylon-family instruments,mandolin,fretless acoustic bass anddouble bass; these tonal responses are distinct from synth tracking. Existing NR2/EQ7 and all historical sources remain. AMP/FX category census and universal expression-volume/output coverage stay unresolved. No local download ordevice test.
 
 ## Ampero MP-100
 
