@@ -24817,6 +24817,26 @@
         "Complete model fields before active admission",
         "Volume endpoints/recall,bypass/phones/tails/recorded-loop coverage"
       ]
+    },
+    {
+      "model": "Fractal Audio VP4",
+      "checked_date": "2026-10-28",
+      "status": "Partiallead,outsideactiveinventory",
+      "manufacturer": "https://www.fractalaudio.com/vp4/",
+      "manual": "https://www.fractalaudio.com/downloads/manuals/VP4/VP4-Owners-Manual.pdf",
+      "manual_revision": "v1.06 2024-10-23;currentproductfirmware3 distinct",
+      "finding": "Global analog Input/OutputVolume;254W160.3D exceeds preference;currentIRPlayer documented.",
+      "local_offer": {
+        "url": "https://www.melodiamusik.com/product/fractal-vp4-virtual-pedalboard/",
+        "idr": 14000000,
+        "crossed_idr": 20700000,
+        "qualification": "Lastweeksearchcache,directcachemiss;condition/stock/bundle/warranty/deliveredtotalunknown.NotShopee."
+      },
+      "next": [
+        "ExactShopeeIndonesiahardware",
+        "Completerequiredfields",
+        "Headphones,bypass/tails/loopattenuation,endpoints/recall"
+      ]
     }
   ],
   "inventory_by_brand": {

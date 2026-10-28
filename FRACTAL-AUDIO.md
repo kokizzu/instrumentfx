@@ -8,6 +8,7 @@
 - [AM4 — partial discovery lead, outside active inventory](#am4--partial-discovery-lead-outside-active-inventory)
 - [FM3 MKII Turbo](#fm3-mkii-turbo)
 - [FM9 MKII Turbo](#fm9-mkii-turbo)
+- [VP4 — partial discovery lead, outside active inventory](#vp4--partial-discovery-lead-outside-active-inventory)
 <!-- brand-index ends -->
 
 ## AM4 — partial discovery lead, outside active inventory
@@ -129,3 +130,21 @@ Official sources read2026-10-17;manual2022-08,firmware3.x,original/Turbo cover. 
 [Own FM9 manual][f9-m], August2022 firmware3.x, printed pp10–11: MIDI/Remote→Other assigns PEDAL1/2/3 to global Input1/2/3 or Output1/2/3 Volume, without per-preset modifiers. Output control includes tails; input control changes gain-dependent behavior. Cover specifies original/Turbo, not MKII: **current MKII/firmware12 equivalence remains unverified**. This is FM9 evidence, not borrowed FM3 behavior.
 
 Own pedal specification: TRS10–100kΩ; tip supply/ring return/sleeve ground. Volume endpoints, position recall, bypass/phones/recorded-loop coverage remain unknown. Existing historical513W×237Dmm exceeds preference, but exact MKII dimensions remain unresolved. Dedicated phones are already documented; sequential onboard preset down/up is not newly verified. No device operated or firmware installed.
+
+## VP4 — partial discovery lead, outside active inventory
+
+Checked2026-10-28. [Current manufacturer page](https://www.fractalaudio.com/vp4/) establishes effects-only multi-effects: **four simultaneous effect slots,400+effect choices,104presets**,plus preset gate/EQ/levels. Firmware3 adds **IR Player**,including speaker/body-resonance uses;do not infer nativeNAM oramp captures. This differs from the older manual. ExactShopee Indonesia hardware remains unestablished;lead stays outside activecounts.
+
+[Own manual v1.06,2024-10-23](https://www.fractalaudio.com/downloads/manuals/VP4/VP4-Owners-Manual.pdf),61PDFpages,printedpp9,13,46–49,53:
+
+| Field | Revision-qualified finding |
+|---|---|
+| Guitar / analog expression | Ordinary guitar/bass input documented;two shared pedal/switch jacks. Global Input Volume orOutput Volume can usePEDAL1/2 without preset Volume blocks. No treadle inpanelinventory. |
+| Pedal requirements / ranges | Linear10–100kΩ maximum,TRS-to-TRS;calibration0–100 isnot independentlyadjustable volume endpoints. Position recall andactual M-VAVE wiring unverified. |
+| Onboard navigation | Custom global hold assignments offer Preset+1/−1 across modes. Default Gig/Scene/Preset behavior must remain separate. |
+| Bypass / audio coverage | Buffered analog bypass explicitly avoids digital conversion/processing. EXP attenuation duringbypass,headphone support,tail andrecorded-loop coverage remain unverified. |
+| Chassis / power | **254W×160.3D×66Hmm,1.56kg;fails preference**.9V1.3A,2.1mmcentre-negative;internal batteryNone. No AM4power transfer. |
+
+### VP4 — separate local-retailer discovery ask
+
+[Melodia exact product](https://www.melodiamusik.com/product/fractal-vp4-virtual-pedalboard/):**Rp14,000,000**,crossedRp20,700,000,last-week searchcache;directreopen cache miss. Condition,new/used,stock,variant,bundle,adapter,warranty,firmware,shipping/tax,voucher anddeliveredtotal unverified. Not Shopee,completed sale orverified used/new range. Thai/Singapore Shopee results are not Indonesian availability orIDR prices;noFX conversion. Complete required-field profile,current firmware/library andoutput coverage remain pending. No localdownloads orhardware test.

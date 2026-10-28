@@ -535,3 +535,7 @@ M-VAVE [host-panel electrical-label check](M-VAVE.md#footctrlplus-host-panel-man
 Chocolate Plus [manufacturer-hosted hardware source](M-VAVE.md#chocolate-plus--recovered-manufacturer-hosted-hardware-source) confirms four switches withE/F combinations. It improves document provenance butdoes notresolve actual pedal wiring. Controllers remain outside audio-processor counts.
 
 GT-1000CORE [owner-guide retention qualification](BOSS.md#gt-1000core--recovered-owner-guide-and-loop-retention): turning off the looper orpower loses recordings. Factory looper control assignments andplayback LEVEL are separate fromglobal expression attenuation,which remains unverified.
+
+### Fractal VP4 — partial effects-only discovery lead
+
+[Manufacturer-backed lead](FRACTAL-AUDIO.md#vp4--partial-discovery-lead-outside-active-inventory): global direct-pedal volume documented;preferred footprint exceeded. Current firmware3 IR support remains separate from2024manual evidence. ExactShopee hardware,complete profile andoutputcoverage pending;outside activeinventory/table.
