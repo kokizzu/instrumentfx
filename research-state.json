@@ -124337,5 +124337,21 @@
     "finding": "No analog EXP or headphone socket in complete inventory. FS01 switching only; MIDI separate. VALUE UP higher/DOWN lower are hand keys, not onboard footswitches. 482W×115Dmm.",
     "boundary": "Direct analog position/range/recall N/A; preserve bypass/output/tail qualifications and old sold-out offer. No hardware test or download.",
     "next": "Remaining no-treadle rack inventory: Behringer FX2000/DSP2024P exact-model screening; independent general GT-Pro cursor retained."
+  },
+  "fx2000_expression_screen_20261028": {
+    "source": "https://mediadl.musictribe.com/media/PLM/data/docs/P0A3P/FX2000_P0A3P_M_EN.pdf",
+    "evidence": "Indexed p19 explicitly MIDI foot controller preset switching; earlier exhaustive inventory no analog EXP/headphones/onboard footswitches. Both chassis variants too large.",
+    "access": "Direct manual/QSG inaccessible; indexed manufacturer text inspected; no new visual test.",
+    "market": {
+      "url": "https://shopee.co.id/Behringer-FX2000-High-Performance-3D-Multi-Engine-Effects-Processor-i.158235298.10932719769",
+      "seller": "NEO MUSIC",
+      "region": "Kota Sukabumi",
+      "idr": 3378000,
+      "stock": "Habis",
+      "cache": "two months; August9–10 stale delivery",
+      "condition": "unknown",
+      "qualification": "Regional mains/bundle/warranty/voucher/shipping/tax/checkout unverified; compensation not discount"
+    },
+    "next": "DSP2024P exact model screening; retain general GT-Pro cursor."
   }
 }

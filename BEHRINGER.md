@@ -424,6 +424,14 @@ VIRTUALIZER3D rack multi-effects;manufacturer explicitly names guitar,bass andvo
 
 No files downloaded. Remaining:fullmanual visual/revision check,display diagonal,software/routing andqualified offers.
 
+### FX2000 — direct-expression screening and exact sold-out offer
+
+Checked 2026-10-28. The previously inspected complete rear inventory has **no analog EXP or dedicated headphone socket**; **no onboard preset footswitch pair**. [Manufacturer full manual](https://mediadl.musictribe.com/media/PLM/data/docs/P0A3P/FX2000_P0A3P_M_EN.pdf), indexed p19, explicitly uses a **MIDI foot controller** for preset switching. This digital path is separate from direct analog expression. Full manual and quick-guide direct retrieval failed again; indexed manufacturer text supplements the earlier panel inventory, not a new visual inspection. Both conflicting manufacturer chassis dimensions above exceed the preferred footprint.
+
+Direct analog position/range/recall are inapplicable to the listed connections. MIDI global-volume assignment, bypass/headphone/tail/sampler attenuation remain unverified. MIX is wet/dry, not a universal volume target; [own quick-guide indexed p14](https://mediadl.musictribe.com/media/PLM/data/docs/P0A3P/QSG_BE_0828-AAG_FX2000_WW.pdf) documents pushing it for bypass.
+
+Additional exact hardware ask: **Rp3,378,000, Habis**, NEO MUSIC, Kota Sukabumi, [shop158235298/item10932719769](https://shopee.co.id/Behringer-FX2000-High-Performance-3D-Multi-Engine-Effects-Processor-i.158235298.10932719769), two-month search cache showing stale August9–10 delivery. Condition, regional mains variant, bundle, warranty, voucher, shipping/tax and checkout remain unverified. Late-delivery compensation is not a discount. Not a live-stock or confirmed new/used quote. No downloads or device test.
+
 ## V-AMP 2
 
 <!-- comparison evidence begins -->
