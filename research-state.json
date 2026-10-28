@@ -123095,6 +123095,17 @@
       "market": "exact Shopee query no qualified hardware offer; prices remain unknown",
       "inventory": "existing model; unchanged counts",
       "next": "Continue remaining no-treadle models and exact market discovery; preserve independent GT-Pro and general cursors"
+    },
+    "ax30g_wiring_20261028": {
+      "source": "https://manualzz.com/doc/22367070/korg-ax30g-owner-s-manual",
+      "access": "manufacturer-authored AX30G transcript pp1,3; generated FAQ excluded",
+      "sockets": "separate Volume and Parameter; EXP-2/XVP-10 stereo shielded cables",
+      "pinout": "special conventional-volume-pedal diagram unreadable; unknown",
+      "warning": "INVALID PEDAL absence not compatibility proof; brief warning possible with supported pedal",
+      "scope": "across-preset volume and output coverage unverified",
+      "built_in": "pressure control; disclosed separately from treadle",
+      "fit": "410W160D; too large",
+      "next": "Remaining no-treadle inventory and exact offers; retain unresolved Mini/Nano, GT-Pro and independent general queue"
     }
   },
   "brand_navigation": {

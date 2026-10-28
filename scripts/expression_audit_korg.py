@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(korg): screen AX3B conditional expression volume and preset switches'))
+    print(git('commit','-m','research(korg): qualify AX30G separate volume socket and controller wiring'))

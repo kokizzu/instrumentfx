@@ -490,6 +490,16 @@ Checked **2026-10-17**, partial. Guitar multi-effects, distinct from AX300G/AX30
 | Condition / asking observation | Evidence / limitations |
 |---|---|
 | **Condition unknown Rp1,350,000** | [totok.zulianto, item57900729/18875773031][AX30-O], Kabupaten Tuban. Two-month search cache, **Habis**, delivery13–15August; exact open failed. “Langka” means rare and does not establish sale condition. Working condition, adapter, bundle, warranty and current stock **?**. Late-delivery voucher up to Rp10,000 not deducted. |
+
+### AX30G — external volume wiring qualification 2026-10-28
+
+| Field | Finding / qualification |
+|---|---|
+| Expression / separate sockets | Manufacturer-authored [AX30G original manual transcript](https://manualzz.com/doc/22367070/korg-ax30g-owner-s-manual), printed pp1,3: dedicated Volume and separate Parameter inputs accept EXP-2/XVP-10. Both specify **stereo shielded cables**. Ordinary guitar volume pedals require the manual’s special cable diagram; pinout not readable here, so no generic TRS compatibility claim. |
+| Expression / warning | Same p3: incompatible pedal/cable can show **INVALID PEDAL**; a high pedal minimum may hide that warning. A brief warning during connection can also occur with a compatible pedal. Absence of warning is not compatibility proof. Connect with equipment powered off. |
+| Expression / scope boundary | Dedicated Volume socket supports a separate volume function, but exact across-preset persistence, position,min/max,bypass,phones,tails and Hold Delay attenuation remain unverified. Built-in pressure controller is separate from external volume and remains explicitly disclosed. |
+| Dimensions / headphone shortlist | Existing own-manual410W×160Dmm is too large. Dedicated stereo mini phones; banks plus Program1–4 are not yet verified as sequential preset down/up. No hardware test. |
+
 <!-- comparison evidence ends -->
 
 ### AX30G — source access and audit limits
