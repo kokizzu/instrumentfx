@@ -125450,5 +125450,20 @@
     "scope": "Advances beyond2020 map;not physicalresolution or2.02certification",
     "next": "Current2.02 parameter-guide mapping,ASSIGN precedence,output coverage;remaining inventory",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "footctrlplus_hardware_labels_20261028": {
+    "checked": "2026-10-28",
+    "document": "M-VAVE.md#footctrlplus-host-panel-manual--electrical-labels-and-identity-limits",
+    "source": "https://manuals.plus/m/e8395d2a1afc748eb57cf4bcd34a8bef1099d12fce30b420b4cbf4b1e9585676.pdf",
+    "identity": "Generic9page cover;hostpanel/BLEfootctrlplus;exactrevision unverified",
+    "power": "5V±10% charging,working<6V;45mA average nothostcapacity",
+    "conflict": "Batterycapacity3.7V/nominalvoltage300mA inbothlanguages;not silentlycorrected",
+    "unknown": [
+      "expressionpinout/resistance/continuousCC",
+      "hostpowerbudget",
+      "originalChocolate/retailrevisionmatch"
+    ],
+    "next": "Exactmodel original wiring documentation;remaining no-treadle inventory andpriorityscope gaps",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

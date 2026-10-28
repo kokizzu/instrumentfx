@@ -436,3 +436,5 @@ HX Stomp [socket-role/polarity qualification](LINE6.md#hx-stomp--socket-roles-an
 GT-1000CORE [official eng11 MIDI-document lead](BOSS.md#gt-1000core--additional-official-midi-documentation-lead) is now recorded separately fromImplementation08. Fullbody403 andfirmware applicability unknown;no currentFVrange/assignment conclusion follows fromthe filename orjoint landing page.
 
 GT-1000CORE [2026 MIDI-map follow-up](BOSS.md#gt-1000core--readable-2026-midi-map-and-patch-fv-storage): readable eng12 header namesCORE2.01,but finalchart retains2.00metadata. FVrange/position/curve remain patch-stored;SYSTEM rangeoverride andcurrent2.02 applicability unverified. Earliereng11 access limitations retained as history.
+
+M-VAVE [host-panel electrical-label check](M-VAVE.md#footctrlplus-host-panel-manual--electrical-labels-and-identity-limits): readable hardware manual still lacks expression pinout/resistance.45mA is average working current,not host-power capacity;mislabelled batterytable retained. ExactoriginalChocolate/Plus/offered-unit identity remains separate.

@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(rowin): qualify RE-05 expression eligibility and footprint'))
+    print(git('commit','-m','research(m-vave): qualify host-panel electrical labels'))

@@ -173,6 +173,14 @@ Checked **2026-10-28**. The search hit named [m-vave-chocolate-manual.pdf](https
 
 [Exact Shopee controller](https://shopee.co.id/M-VAVE-CHOCOLATE-PLUS-WIRELESS-MIDI-CONTROLLER-i.656068322.47254109551):**Rp440.000**,rockpizz_singaraja,Kab.Buleleng,seller656068322/item47254109551,reopened2026-10-28,two-week cached JavaScript-limited body. Title saysChocolatePlus;actual revision,condition,new/used,stock,selected variant,expression-pedal inclusion,cables,bundle,warranty,shipping/tax,voucher and checkout total unverified. Stale18–20Oct delivery and up-toRp10.000 late compensation do not establish current availability or upfront discount. Controller-only lead stays outside active multi-effects counts.
 
+### FootCtrlPlus host-panel manual — electrical labels and identity limits
+
+Checked2026-10-28: [nine-page bilingual original-format hardware PDF](https://manuals.plus/m/e8395d2a1afc748eb57cf4bcd34a8bef1099d12fce30b420b4cbf4b1e9585676.pdf) readable again. Its generic USER MANUAL cover gives no exact model/revision;host port andBluetooth **footctrlplus** identify the documented panel,not a verified original-Chocolate oroffered-unit match. Existing U/H connection qualifications retained.
+
+Englishp1/Chinesep5 specify **5V±10% charging,working voltage below6V**;technical tables give **45mA average working current**,not host-output current capacity. Both language tables mislabel batterycapacity **3.7V** andnominalvoltage **300mA**. Preserve this source error;do not silently convert300mA to300mAh orcopy battery figures between revisions. Host powerbudget andbatteryruntime withconnected devices remain unknown.
+
+The body calls connector12a pedal jack,but gives no tip/ring/sleeve roles,resistance orcontinuous-CC mapping. Renewed fulltext access doesnot resolve electrical compatibility. No local file,firmware,app ordriver downloaded;no hardware test.
+
 ## CUBE BABY AC
 
 <!-- comparison evidence begins -->
