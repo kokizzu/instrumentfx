@@ -122958,10 +122958,13 @@
       "global_role": "SYSTEM EXP1/EXP2Func FootVolume",
       "patch_fields": "EXP1/CC7FVOnOff andMINMAX0–100;globaloverrideinteractionunknown",
       "placement_warning": "downstreamFeedbackerOSC/GuitarSynth can defeatexpectedFV",
-      "coverage": "bypass/phones/tails/recordedHoldunknown",
+      "coverage": "phones/tails/recordedHoldunknown",
       "preferred_fit": false,
       "onboard_footswitches": 0,
-      "next": "Resolve role-versus-patchenable/range interaction before universalvolumeclaim"
+      "next": "Resolve role-versus-patchenable/range interaction before universalvolumeclaim",
+      "priority": "OrdinaryASSIGN activeonlyAssignable/Auto;dedicatedFVrangeinteractionstillunknown",
+      "bypass": "TunerBypass mono,directvolumeviaEXP1/FC200CC7;notEXP2proof",
+      "additional_source": "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf indexedpp61/102"
     }
   },
   "brand_navigation": {

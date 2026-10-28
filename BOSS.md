@@ -1694,6 +1694,16 @@ Original manufacturer manual,exact GT-PRO title/sections:[indexed p63](https://r
 
 DirectanalogEXP isdocumented;482W×305Dmm rackchassis far exceeds preferredfootprint. DedicatedPHONES exists;noonboardfootswitches.33FXfamilies and44-category headline remainunreconciled;no countforcedtofit.
 
+### GT-Pro — pedal priority and tuner-bypass volume, 2026-10-28
+
+[Official original manual](https://cdn.roland.com/assets/media/pdf/GT-PRO_OM.pdf),indexed printedp61,and[official p102](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf),corroborated by[exact p102 mirror](https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-102.html). Manufacturer-authored body forGT-PRO;no download,visual orhardwaretest.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / ordinary ASSIGN priority | P61 says ordinaryASSIGN requires controllerfunction **Assignable orAuto**;other fixed functions prevent thoseASSIGNs from functioning. GlobalFootVolume therefore differs from ordinarypatchASSIGN. This doesnot resolve interaction withthe dedicatedEXP1/CC7FVOn/Off/MIN/MAX fields. |
+| Expression / tuner bypass | **TUNER Out=Bypass** retains direct-signal volume control via **EXP PEDAL1 orFC-200EXP(CC7)**;bypass output is **mono**. Exact documented path,not extrapolated toEXP2,allotherbypassstates orindependentoutputcoverage. |
+| Live / tuner output choices | Mute silences output;Current tunes usingcurrentpatchsound andmaymisbehave withpitch-detectioneffects. Bypass isnot proof ofrelay/analogtruebypass. Headphone,tails andrecordedHoldattenuation remainunverified. |
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.
