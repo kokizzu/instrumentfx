@@ -164,6 +164,17 @@ Checked **2026-10-17**. Separate rack model; selected manufacturer manual sectio
 | Live / MIDI control | Appendix p19 assigns **CC1 wah,CC7 volume;CC55–60 record/play/stop/speed/reverse/play-once**,the latter only withDelay/Loop selected. ProgramChange0–124 recalls125locations;127toggles tuner. **CC61 changes amp without changing cabinet**,unlikeCC19’s default-cabinet selection. No MIDI-clock synchronization established:implementation chart marks SystemRealTime receptionN. [Manual][BV-M] |
 | Tuner / live reference | Manual p15 starts at440Hz,adjusts in1Hz steps up/down by15Hz,andautomatically stores the reference. AppendixCC83range25–55 corroborates425–455Hz. This does not resolve pitch-bend/velocity conflicts with the other revision. [Manual][BV-M] |
 
+### Bass V-AMP PRO — rack expression and output boundary, 2026-10-28
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / PRO connector inventory | [Own v1.2 December2005 manual][BV-M],pp5–8:PROfront/rear inventory has **no analog EXP input**;external controller uses DINMIDI. Desktop-only AUX/FS112Vsocket isnot imported. Shared standard-setup prose mentions FS112V with both names despite desktop-specific socket listing;retain this wording conflict,not a new PRO socket. |
+| Controls / volume and outputs | MASTER is described as overall/non-programmable;that doesnot prove attenuation at every PROdigital/insert/DI/phones output. Existing CC7volume isMIDI,not directanalog EXP. Cross-preset value persistence,endpoints,bypass,tail andrecorded-loop coverage remain unknown. |
+| Controls / onboard preset access | **No onboard footswitches**;hand BANK/A–E controls. Do not count external MIDI controller switches as included onboard presetdown/up. |
+| Dimensions / preferred fit | Existing482.6W×135Dmm:depthfits,widthfails200mm preference. Dedicated6.35mmTRSphones. AnalogEXP range/coverage N/A;MIDIpath separate. |
+
+Exact-model text inventory reviewed;no visual hardware audit,download oroperation. Older sources,connector details,weight/MIDI conflicts andprice qualifications retained.
+
 <!-- comparison evidence ends -->
 
 ### PRO provenance and practical qualifications
