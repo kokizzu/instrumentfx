@@ -125557,5 +125557,24 @@
     ],
     "next": "Remaining inventory;Mini PDF timed out this pass;Nano global-scope conflict unchanged",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "r16_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "JOYO.md#r-16--instrument-path-and-expression-eligibility",
+    "sources": [
+      "https://www.joyoaudio.co.uk/VocalLab-Harmoniser",
+      "https://www.joyoaudio.com/product/205.html",
+      "https://www.joyoaudio.co.uk/manuals/R-series/JOYO-R-16-VOCAL-LAB.pdf"
+    ],
+    "result": "Instrument reverb without instrument harmony;vocal-only outside guitar table;stereo phones;EXP/layout unknown",
+    "access": "Two-page266-00R16-0010 text watermarks only;screenshot results not inspectable",
+    "unknown": [
+      "analog EXP andno-treadle layout",
+      "axis-labelled fit",
+      "stored-preset navigation",
+      "placement/endpoints/recall/bypass/phone/tail/loop attenuation"
+    ],
+    "next": "Remaining inventory;readable exact original R16 manual remains needed",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

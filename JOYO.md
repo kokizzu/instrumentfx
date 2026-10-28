@@ -356,6 +356,12 @@ Checked **2026-10-17**; partial. Vocal harmony/reverb multi-effects; vocal-only 
 
 <!-- comparison evidence ends -->
 
+### R-16 — instrument path and expression eligibility
+
+Checked **2026-10-28** against [JOYO UK][R16-U],linked as UK fromthe [global manufacturer page][R16-P]. Instrument input supports reverb but explicitly does not process instrument harmony. Retain vocal-only membership,outside requested normal-guitar multi-effects capability table. Dedicated stereo3.5mm headphones are documented. Harmony Mix changes wet/dry harmony balance,not a global guitar master-volume target. Two footswitches control harmony/reverb independently;stored-preset down/up remains unverified.
+
+Analog EXP,no-treadle layout andpedal assignment remain **Unknown** pending readable complete original manual/panel evidence. The two-page266-00R16-0010 PDF again exposes only watermarks;screen captures supplied no inspectable image here. Do not turn missing readable ports into No.130×110×50mm lacks axis labels,so W/D fit remains unverified. Manufacturer “Signal Bypass Type: Bypass” does not specify topology,tail preservation orpedal attenuation. Pedal placement,endpoints,recall andheadphone/bypass/tail/recorded-loop coverage remain unknown.
+
 ### Exact Shopee evidence
 
 Checked **2026-10-17**. All historical asks,not completed sales;condition,working state,selected variation,bundle/adapter,warranty,shipping/tax,voucher and final total unknown. Delivery banners do not establish stock;late compensation not deducted.

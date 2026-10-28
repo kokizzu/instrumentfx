@@ -459,3 +459,7 @@ M-VAVE [host-panel electrical-label check](M-VAVE.md#footctrlplus-host-panel-man
 ### HeadRush VX5 — guitar-thru exclusion
 
 [Exact-model qualification](HEADRUSH.md#vx5--guitar-thru-exclusion-and-published-latency-examples): manufacturer explicitly describes unchanged guitar thru. Vocal processor stays outside normal-guitar table;no analog EXP in published inventory. Dedicated stereo3.5mm phones confirmed;manual167W×152Dmm fails depth,product conflict retained. USB preset/mode automation is not continuous volume assignment.
+
+### JOYO R-16 Vocal Lab — eligibility remains outside guitar table
+
+[Exact-model qualification](JOYO.md#r-16--instrument-path-and-expression-eligibility): instrument reverb butno instrument harmony;vocal-only membership retained. Stereo3.5mm headphones documented. Analog EXP/layout,axis-labelled fit andstored-preset down/up remain unknown;unreadable manual is not No. Generic bypass wording does not establish tail orpedal-volume coverage.
