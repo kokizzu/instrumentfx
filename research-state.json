@@ -122572,8 +122572,8 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-28",
-    "current": "Nano Cortex manual context, toe-instruction conflict and exact cached Shopee offer rechecked",
-    "finding": "Global assignment remains unverified; capture-calibration headphone control does not establish performance EXP attenuation. Manual Latching Emulation conflicts with setup article knob-latching instructions.",
+    "current": "Ampero Mini original V2.2 manual and exact offer access rechecked",
+    "finding": "Global volume override remains unverified. V2.2 says200+effects; editor file-extension support is not native NAM proof; one-file upload wording retained.",
     "next": [
       "Ampero Mini/Nano Cortex across-preset volume assignment remains unverified; manufacturer confirmation or readable exact-revision evidence needed",
       "Exact HX and GT-1000CORE documentation and headphone/tail/looper coverage",
@@ -122714,6 +122714,16 @@
         "used_idr": null
       },
       "next": "Ampero Mini global-volume assignment scope; keep independent general queue and GT-Pro cursor intact."
+    },
+    "ampero_recheck_20261028": {
+      "source": "https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf",
+      "revision": "V2.2",
+      "printed_pages": "11,14,16–20,52",
+      "global_volume": "unverified",
+      "effect_headline": "200+; exact census unresolved",
+      "clone_upload_wording": "ten tones versus maximum one clone file; upload/concurrency interpretation unverified",
+      "offers_reopen": "46555574691 and21384344851 inaccessible; prior asks preserved, no live stock confirmation",
+      "next": "Exact HX/GT-1000CORE expression coverage; remaining inventory and seller offers; independent general cursor retained"
     }
   },
   "brand_navigation": {

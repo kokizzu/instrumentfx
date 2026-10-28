@@ -791,6 +791,18 @@ Checked 2026-10-19 against [Mini V2.2 manual, printed pp8–10,19–21](https://
 
 Looper Pre records mono dry audio; Post records stereo effected audio. Post-mode recorded phrases survive patch changes unchanged. Moving the looper position while running stops and erases the loop; this was not performed. REC LEVEL and LOOP LEVEL independently span0–99. These controls and patch persistence do not establish expression attenuation of existing loops. Tuner offers Thru/Bypass/Mute; its bypass option does not prove expression behavior. No hardware operation or downloads.
 
+### Ampero Mini — original V2.2 manual recheck, 2026-10-28
+
+[Hotone-hosted V2.2 manual](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf), printed pp11,14,16–20,52: title/revision and relevant complete sections inspected directly.
+
+| Field | Evidence / qualification |
+|---|---|
+| Processing / revision headline | V2.2 specifies **200+ effects**, not an exact census; earlier199 remains historical. Nine simultaneous modules remain separate. |
+
+Editor import accepts .nam/.tone/.clo and describes ten stored tones, yet also says one clone file may be uploaded. Preserve that wording ambiguity; extensions do not prove native NAM execution. Existing conversion evidence remains separate. Patch-stored volume enable and global socket mode still do not establish a universal volume override.
+
+The preserved [PRELOVED offer](https://shopee.co.id/HOTONE-AMPERO-MINI-PRELOVED-i.87936304.46555574691) and [Purple Taro/adapter offer](https://shopee.co.id/Multi-Efek-Pedal-Hotone-Ampero-Mini-MP-50PT-w-9V-adapter-Purple-Taro-i.306155985.21384344851) could not be reopened on2026-10-28. Their older asking prices, condition and availability qualifications remain intact; no new price or stock confirmation is claimed. Headphone/bypass/tail/looper expression coverage remains unverified.
+
 ## Ampero MP-100
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
