@@ -410,3 +410,7 @@ Keeley Delay Workstation [manual-menu reconciliation](KEELEY.md#delay-workstatio
 [Exact-model screen](ROWIN.md#re-05--expression-eligibility-and-footprint): manufacturer60W×112Dmm fits. No-treadle layout,analog EXP,headphones andpreset navigation remain unknown;outside main capability table pending original manual/panel evidence. LEVEL knob andloop controls do not establish global expression volume. Existing active guitar model,not a new admission.
 
 GT-Pro [downstream-generator boundary](BOSS.md#gt-pro--downstream-generators-and-volume-response): ownp55 warns Foot Volume may fail with OSC Feedbacker orSynth afterFV. Global role is not universal final-output mute proof;fixed SYSTEM versus patchFVrange precedence remains unknown. Four documented FV curves do not establish controller wiring/taper.
+
+### BOSS VE-8 — acoustic scope and direct-control exclusion
+
+[Exact-model screen](BOSS.md#ve-8--direct-expression-and-memory-navigation-boundary): no analog EXP in complete inventory;MEMORY TRS accepts footswitches. Acoustic processing documented;ordinary electric-pickup suitability unclassified,so outside main guitar capability table.217W×161Dmm fails preference;dedicated stereo-mini headphones andonboard memory switching documented,exact physical down/up pairing unverified. Knob pickup is not expression recall.

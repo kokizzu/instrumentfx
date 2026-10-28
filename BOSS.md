@@ -4131,6 +4131,14 @@ Remaining:rotary/button totals,screen diagonal/color/touch,full processing ceili
 |---|---|---|
 | Unknown | **Rp6,640,000**, LYN AUDIO, Kota Jakarta Barat; shop1203229574/item28960136338. Checked2026-10-18; exact HTML, month-old cache. No explicit Habis label; current stock unverified. “Original Garansi1Tahun” is a title claim, not authenticated warranty coverage. Condition, working state, revision, variant and adapter/bundle unknown. Same-day delivery text is stale; Rp10,000 late compensation is not discount. Shipping/tax/checkout unknown. | [Exact item](https://shopee.co.id/BOSS-VE8-ORIGINAL-GARANSI-1-TAHUN-EFEK-ACOUSTIC-SINGER-VE-8-i.1203229574.28960136338) |
 
+### VE-8 — direct expression and memory-navigation boundary
+
+Checked2026-10-28 against [original manual][VE8-M],copyright2016,e02 filename,printedpp5–7,13,15,and[exact manufacturer specifications][VE8-S]. The complete connector list provides **MEMORY INC/DEC TRS for footswitches,not analog EXP**. Its compatible FS-5U/FS-6/FS-7 switching is not continuous pedal control. Existing no-built-in-treadle classification retained.
+
+Dedicated stereo-mini headphones have an independent0–99 level,default50. Memory mode supports onboard footswitch memory switching;the text extraction does not reliably identify the physical down/up pairing. Manual/Stomp effect toggles are separate. Knob pickup waits until the physical knob crosses the recalled setting;this is not expression-position recall.
+
+217W×161Dmm fails both preferred limits. Acoustic-guitar processing is established;ordinary electric-pickup suitability remains unclassified. The documented direct analog volume path fails;placement,range,recall,bypass,headphone,tail andrecorded-loop pedal coverage have no documented analog path. No hardware test ordownload.
+
 ## VE-20
 
 Vocal multi-effects;manufacturer page marks discontinued. Consolidated/researched2026-10-16;partial verification.

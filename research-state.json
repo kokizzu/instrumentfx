@@ -125311,5 +125311,24 @@
     "scope": "Chain-dependent volume effectiveness;not universal final mute",
     "unknown": "SYSTEM role versus dedicated patch FV enable/range precedence;output coverage",
     "next": "Resolve dedicated patch range precedence andremaining category/block count basis;no sibling transfer"
+  },
+  "ve8_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "BOSS.md#ve-8--direct-expression-and-memory-navigation-boundary",
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/VE-8_e02_W.pdf",
+      "https://www.boss.info/global/products/ve-8/specifications/"
+    ],
+    "direct_exp": "No analog EXP in complete connector inventory;MEMORY footswitches only",
+    "fit": false,
+    "dimensions_mm": [
+      217,
+      161
+    ],
+    "guitar_scope": "Acoustic documented;ordinary electric pickups unclassified;outside main capability table",
+    "phones": "Dedicated stereo mini;level0–99 default50",
+    "navigation": "Onboard memory switching;physical directional pairing unverified",
+    "next": "Continue remaining vocal/no-treadle guitar-eligibility screens;Mini global override still unverified",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
