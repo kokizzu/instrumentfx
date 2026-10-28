@@ -22,7 +22,7 @@ Checked2026-10-28; **partial active guitar multi-effects record**, not fully ver
 | Factory / user memory | 32 onboard locations;factory-filled/protected/writable split unknown. Computer offline files do not enlarge hardware memory. |
 | Synth / acoustic | Octave/arpeggiator/filter processing documented;dedicated synthesis/acoustic simulation andpolyphony unverified. |
 | Dimensions / mass | 120×120×55mm;fits200W×140D preference eitherhorizontalorientation. Manufacturer800g versus1.6lb mismatch preserved. |
-| I/O | Mono-in/stereo-out ormono-in/mono-out+send/return;externalprocessingcannot sitbetweenX/Y. Audio¼-inchTS;USB-B;sharedACE acceptsEXP/CV/aux switches;MIDIIn/Thru. Completephysicalportcount/sizes anddedicatedheadphones unknown. |
+| I/O | Mono-in/stereo-out ormono-in/mono-out+send/return;externalprocessingcannot sitbetweenX/Y. Audio¼-inchTS;USB-B;sharedACE acceptsEXP/CV/aux switches;MIDIIn/Thru. MIDI Expression defaultCC42/0–127 emulatespedal;PatchDown/Up defaultCC43 values0/127,added2.4.6. [MIDI reference](https://www.gfisystem.com/_files/ugd/9deb14_139bd5982c704feda5895c78677ab0f8.pdf). Completephysicalportcount/sizes anddedicatedheadphones unknown. |
 | Power / battery / USB | 9V DC centre-negative;240mA requirement,approx240mA draw;supplyexcluded. Manual2.1mmDCconnector;barrelouterdiameter,battery/USBpower unknown. |
 | IR / NAM / capture | User IR,nativeNAM,convertedNAM andproprietarycapture unverified. |
 | Editor / software | SymmLabWindows/Mac:real-timeediting,presetbackup/restore/offline,library/firmwareupdates,reset. ModernOS/architecture,mobile/Linux,USBaudio/drivers unknown. Currentdownloadindex2.5.1Sep18,2026fixesintermittentlockups;no installationtest. |
@@ -89,3 +89,15 @@ Checked 2026-10-28 against [own manufacturer-authored2.3+ manual](https://manual
 | Offline versus hardware memory | Computer preset files do not enlarge the **32 onboard locations**. Manual warns moving/deleting/renaming those files manually breaks its preset database; use editor management. Factory-fill split still unknown. |
 
 Text-only manual evidence; no complete visual port audit, headphone absence claim, installation or device operation. Older qualifications retained. Partial lead remains outside active counts.
+
+### MIDI expression, navigation and algorithm-range qualification
+
+Checked 2026-10-28: [official four-page MIDI Implementation PDF](https://www.gfisystem.com/_files/ugd/9deb14_139bd5982c704feda5895c78677ab0f8.pdf), filename title v2.4.x; body header firmware2.3.0+. Direct original text read.
+
+- **Expression default CC42, values0–127**, introduced2.3.0, simulates the pedal. This does not establish a master-volume target or bypass preset assignments.
+- **Patch Down/Up default CC43, values0/127**, explicitly introduced2.4.6 despite the general2.3+ header. Remote navigation does not prove onboard down/up.
+- CC numbers are remappable to0–99 in SymmLab. MIDI channel defaults1, selectable1–16 globally.
+- Program Changes0–31 select32 stored patches. Bypass-on-PC is configured individually for each preset from2.3.0; it is not global volume control.
+- X/Y algorithm selectors defaultCC20/21 list **0–36**, thirty-seven numerical values. This does not directly reconcile the38-choice algorithm reference; mapping/current-library basis remains unresolved. Do not infer a removed algorithm or substitute37 for the documented38-name census.
+
+No MIDI messages sent or software/firmware downloaded. Current2.5.1 behavior, direct analog global volume, recall and output/tail/loop attenuation remain unverified.

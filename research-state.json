@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro p55 downstream OSC Feedbacker/Synth limits FV effectiveness;fixed SYSTEM role versus patch FV range precedence remains unknown. Continue44category/13vs15basis,other USB modes,visual controls andqualified IDR;392partial.",
+    "task": "GT-Pro p55 downstream OSC Feedbacker/Synth limits FV effectiveness;fixed SYSTEM role versus patch FV range precedence remains unknown. Continue44category/13vs15basis,other USB modes,visual controls andqualified IDR;393partial.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -127810,5 +127810,19 @@
       "Offlinefilesnotadditionalhardwarememory;manualfilechangesbreakdatabase"
     ],
     "remaining": "FullvisualI/O/controlreview,headphones,factoryfill,displaydetails,currenteditorplatformsupport,globalexpressioncoverage;partialleadnotactive"
+  },
+  "synesthesia_midi_followup_20261028": {
+    "checked_date": "2026-10-28",
+    "source": "https://www.gfisystem.com/_files/ugd/9deb14_139bd5982c704feda5895c78677ab0f8.pdf",
+    "access": "Directofficial4pagePDFtext",
+    "revision": "filenamev2.4.x,body2.3+;CC43explicit2.4.6",
+    "findings": [
+      "CC42defaultExpression0–127introduced2.3.0emulatespedal,notglobalmasterproof",
+      "CC43defaultPatchDown/Up0/127introduced2.4.6,notonboardcontrols",
+      "CCremap0–99;channeldefault1globally1–16",
+      "PC0–31=32slots;BypassOnPCperpreset2.3+",
+      "AlgorithmCC20/21range0–36notreconciledwith38-namecensus"
+    ],
+    "remaining": "Current2.5.1map/library,globalanalogvolumeandoutputcoverageunverified"
   }
 }
