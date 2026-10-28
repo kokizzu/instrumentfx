@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(valeton): qualify Dapper Amp Mini channel navigation'))
+    print(git('commit','-m','research(valeton): qualify Dapper Indie headphone volume scope'))

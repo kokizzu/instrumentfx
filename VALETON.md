@@ -410,6 +410,12 @@ Chinese manufacturer page identifies an LED numeric tuner display and confirms a
 
 [DI-C]: https://zh.valeton.net/product/dapper-indie/
 
+### Dapper Indie — qualified expression and headphone scope
+
+Checked 2026-10-28 against [own English V01_181229 manual][DI-M], two pages. Guitar input and dedicated cab-simulated PHONES are documented. Headphone volume follows module settings; this does not prove a global pedal target, independent headphone master or final-output mute. External analog EXP, assignment scope, placement/endpoints/recall and bypass/tail/recorded-loop attenuation remain **unverified**; no complete control-port absence claim.
+
+AMBIENT hold toggles effect trails; FUZZ WALL hold enters muted tuning. Tap modes belong to LIQUID FX/ECHOES. These functions do not establish preset down/up. Product320W×65Dmm fails preference; reversed manual axes also fail, with conflict preserved. The Chinese V01_190322 PDF retry timed out; indexed filename metadata mentions VES-5, but no fresh body or physical-revision verification is claimed. No sibling PHONES knob or cab-sim switch transferred.
+
 ## Dapper MDR
 
 Checked2026-10-17;partial. Effects-only guitar multi-effects;discontinued. Bass/vocal suitability and ownership unverified.

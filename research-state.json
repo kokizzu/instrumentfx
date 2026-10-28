@@ -124528,5 +124528,11 @@
     "source": "https://www.valeton.net/download/175/dapper-amp-minidiscontinued/18505/dapper-amp-mini_manual_en_v01_200414-2.pdf",
     "finding": "AMPfoot channel-forward vs handtoggle backward;not fullpresetdownup. PHONES physicallevel separate; EXP/globalvolume unknown;cabtoggle andaxes conflicts preserved.",
     "next": "DapperIndie exact-model capability screen,then remaining inventory;independentGTPro and Mini/Nano questions retained."
+  },
+  "dapper_indie_expression_screen_20261028": {
+    "source": "https://www.valeton.net/download/176/dapper-indie/18538/dapper-indie_manual_en_v01_181229-2.pdf",
+    "finding": "PHONES follows modules,not globalEXP proof; EXP/globalvolume unknown;320W65D excluded;preserve axes andcab-switch source conflicts.",
+    "access": "English2page text readable;CN190322retrytimeout;indexedVES5metadata only.",
+    "next": "All10 recordedDapper variants now have qualified capabilityrows; continue other unscreened no-treadle inventory,priorityMini/Nano and independentGTPro."
   }
 }
