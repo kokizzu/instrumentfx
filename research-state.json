@@ -124430,5 +124430,12 @@
     "finding": "NS Detect Input/NS Input/FV Out; latter senses post Foot Volume. Threshold/Release0–100, units not dB/ms; NS before reverb recommended to preserve decay. MASTER button not NS toggle.",
     "boundary": "Detector behavior not global volume assignment, final-output/tail/recorded-Hold coverage. Counts44 and13/15 remain unresolved; no invented reconciliation or hardware test.",
     "next": "Continue exact category/block basis and current priority expression scope; retain GT-Pro cursor."
+  },
+  "ocean_machine_ii_expression_scope_20261028": {
+    "source": "https://manuals.plus/m/cf9989c8f66e3263a8a62903b0f180f428d853ad786400f9921e4b3cb47d8d83_optim.pdf",
+    "revision": "V2.7-20240417",
+    "finding": "Global EXP target selection explicit; volume target unverified. Heel minimum percent, endpoint calibration; toe maximum/recall/bypass/tails/recorded-loop attenuation unknown. No dedicated phones. Onboard Patch A down/B up. 127W×215D fails footprint in either orientation.",
+    "next": "Inspect original EXP target screen when readable; do not infer volume from global IN/OUT controls.",
+    "downloads": false
   }
 }

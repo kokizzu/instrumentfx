@@ -1981,6 +1981,12 @@ Checked 2026-10-18; partial active guitar multi-effects record. Original Ocean M
 
 Remaining:visual corroboration,diagonal/touch,factory fill,actual draw,battery/USB capabilities,editorOS,loading formats,undo/redo revision andfresh stock/condition. Product/manual are revision-qualified;none were run ordownloaded.
 
+### Ocean Machine II — global expression scope and footprint
+
+Checked 2026-10-28 against the same manufacturer-authored V2.7-20240417 [manual](https://manuals.plus/m/cf9989c8f66e3263a8a62903b0f180f428d853ad786400f9921e4b3cb47d8d83_optim.pdf), printed pp.19–21,23 and top-panel inventory. EXP target selection explicitly applies globally, independently of presets; this is stronger evidence than calibration alone. However, the readable text does not enumerate every selectable target or establish an input/output-volume target. **Global volume remains unverified.** Separate global IN/OUT level controls do not prove EXP assignment to those controls.
+
+Heel minimum is adjustable in percent; calibration measures both endpoints. Adjustable toe maximum, volume placement, preset-position recall, bypass attenuation and recorded-loop coverage remain unknown. DSP trails and Merge settings do not establish pedal attenuation of tails. The complete rear inventory has no dedicated headphone socket. Patch mode provides onboard A=preset down and B=preset up. Published 215L×127W mm means 127W×215D; rotating gives215W×127D: neither meets200W×140D. TRS10–50kΩ compatibility does not establish tip/ring wiring for an unidentified M-VAVE pedal.
+
 ## Ocean Machine original
 
 Checked2026-10-18;partial. Original model,not Ocean Machine II. Independent delays plus reverb qualify as effects-only guitar multi-effects. Bass/vocal suitability andownership unverified.
