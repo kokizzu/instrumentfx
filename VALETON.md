@@ -892,6 +892,17 @@ The manufacturer-linked1.1.0 manual remains inaccessible at res.diversitone.com;
 |---|---|
 | Used IDR / historical seller ask | **Rp1,800,000;Habis**, [Gitaris Gendut,shop34702407/item47862332300](https://shopee.co.id/-used-Valeton-GP-50-GP50-Second-Like-New-i.34702407.47862332300),Kab.Probolinggo. Exact GP-50 title explicitly says **[used],Second Like New**;condition is seller wording,not inspection. Direct reader reopened two-month cache,with stale29August–1September delivery. Working state,selected variant,firmware,battery condition,adapter/cables/bundle,regional warranty,authenticity,shipping/tax andcheckout total unknown. Late-delivery compensation up toRp10,000 is not a hardware discount. Sold-out historical ask,not live stock,a completed sale orused-market range. Earlier no-qualified-used observations remain dated history. |
 
+### GP-50 — tuner bypass and USB-audio boundary (2026-10-28)
+
+Own [regional manufacturer manual](https://www.hotone.jp/manuals/valeton/GP-50.pdf),59PDFpages,printed12/22;same GP-50 manual identity and older1.0.5 scope established above. Direct Japanese text inspected;not a1.1.0 firmware test.
+
+| Field | Finding / qualification |
+|---|---|
+| Expression / bypass boundary | Global Bypass Mode chooses **Analog Bypass orDSP Bypass** for the tuner screen. Analog is described as pure hardware bypass retaining the unprocessed signal path;DSP is buffered. This does not establish that the digital EXP volume remains active on the bypassed path;do not promise heel-down silence during Analog Bypass. No inferred relay schematic ormeasured bypass test. |
+| I/O / tuner USB behavior | Tuner mode separately selects Bypass/Mute,defaultMute;Bypass type defaultsAnalog. The manual states **USB audio-interface functionality is also bypassed in Bypass mode**. It does not specify every host-recording/playback consequence or certify behavior forcurrent1.1.0. Headphone,recorded-loop andUSB-volume attenuation remain unverified. |
+
+Global socket mode and calibration are still distinct from all-preset assignment. Existing Pre/Post tail behavior remains qualified separately;all older offers andversion gaps retained. No files downloaded,device operated orfirmware installed.
+
 ## GP-100
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

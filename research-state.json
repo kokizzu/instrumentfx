@@ -124196,5 +124196,14 @@
     ],
     "boundary": "Documented2.2.0 fixes;not installed/newest-firmware proof,global assignment,held-angle recall guarantee orheadphone/bypass/tail coverage. Retain prior2.2.1 pedal-connected boot fix.",
     "hardware_test": false
+  },
+  "gp50_bypass_boundary_20261028": {
+    "source": "https://www.hotone.jp/manuals/valeton/GP-50.pdf",
+    "identity": "Own regional GP-50 59PDFpages printed12,22;older1.0.5 scope per prior checks;Japanese direct text.",
+    "bypass": "Tuner Bypass/Mute defaultsMute;Global Analog/DSP defaultsAnalog. Analog pure hardware unprocessed,DSP buffered.",
+    "usb": "Manual states USB audio-interface function also bypassed inBypass;exact host consequences not established.",
+    "volume": "Do not promise EXP heelmute in analog bypass;actual bypass/headphone/recordedloop/USB attenuation unknown.",
+    "revision": "Do not extend to1.1.0;current manual contents unresolved.",
+    "hardware_test": false
   }
 }
