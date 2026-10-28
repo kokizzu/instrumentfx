@@ -123643,5 +123643,16 @@
       "bypass/tail/recorded-loop attenuation"
     ],
     "hardware_test": false
+  },
+  "fm3_turbo_expression_screen_20261028": {
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+    "revision": "7.x, explicitly covers MKII Turbo",
+    "classification": "global Input/Output1/2 Volume assignment confirmed",
+    "remaining": [
+      "endpoints/recall",
+      "bypass/headphone/recorded-loop coverage",
+      "firmware13 confirmation"
+    ],
+    "hardware_test": false
   }
 }

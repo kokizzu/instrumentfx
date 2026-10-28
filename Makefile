@@ -2149,3 +2149,7 @@ expression-audit-commit-kemper:
 .PHONY: expression-audit-commit-flamma
 expression-audit-commit-flamma:
 	python3 scripts/expression_audit_flamma.py commit
+
+.PHONY: expression-audit-commit-fractal
+expression-audit-commit-fractal:
+	python3 scripts/expression_audit_fractal.py commit

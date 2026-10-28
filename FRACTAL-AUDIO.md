@@ -50,6 +50,12 @@ The Rp11.999 Pianeta preset and acrylic covers are not processor prices. Origina
 
 Remaining:per-category algorithms and concurrency, factory occupancy, display diagonal/touch, expression/toe details, synth/acoustic engines, IR format limits,NAM/capture status, looper/drums and current-condition Indonesian offers. This adds one partial model,not a verified-complete record.
 
+### FM3 MKII Turbo — global expression-volume audit (2026-10-28)
+
+[Official firmware7.x manual](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf), cover expressly includes MKII Turbo, printed pp12–13: **MIDI/Remote → Other → Input1/2 or Output1/2 Volume → PEDAL1/2 (EXP/SW TIP)** provides global volume without preset-by-preset assignment. Input control changes gain-dependent behavior; output control includes effect tails. This is separate from per-preset External Controller modifiers.
+
+Linear10–100kΩ pedal, TRS: manual describes tip supply, ring return, sleeve ground. Calibration precedes assignment. Numeric volume endpoints and held-position recall remain unverified. Printed p108 distinguishes Volume Increment/Decrement: these save preset levels and are unsuitable for an expression sweep. Headphone/bypass/recorded-loop coverage remains unverified. Existing281W×236Dmm fails preferred fit. Onboard preset increment/decrement functions are documented separately from MIDI; default layout uses three preset choices with held bank previous/next. Firmware13 behavior not tested.
+
 ## FM9 MKII Turbo
 
 Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI seller item remains separate. Current product/store establish revision. Linked2022 manual covers original/Turbo but predates MKII display revision;historical physical figures below require current corroboration.
