@@ -122572,13 +122572,13 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-28",
-    "current": "Zoom606 no-treadle eligibility reconciled against original manual",
-    "finding": "606 has a built-in treadle and no external EXP connector; retain guitar profile but exclude no-treadle shortlist.",
+    "current": "Zoom606 and607 no-treadle eligibility reconciled from separate original manuals",
+    "finding": "Both have built-in treadles and no external EXP connectors; retain guitar606/bass607 profiles outside no-treadle shortlist.",
     "next": [
       "Ampero Mini/Nano Cortex across-preset volume assignment remains unverified; manufacturer confirmation or readable exact-revision evidence needed",
       "Exact HX and GT-1000CORE documentation and headphone/tail/looper coverage",
       "Manufacturer-backed POD Express dimensions and actual M-VAVE controller revision/pinout/CC wiring",
-      "Reconcile original Zoom607 separately;606 is confirmed built-in-treadle and outside no-treadle shortlist; continue remaining eligible inventory",
+      "Expand remaining eligible no-treadle inventory;606 and607 confirmed built-in-treadle and excluded from shortlist",
       "IR-200/RP360/NGS-6 and other partial leads: finish required fields before admitting to active inventory",
       "Fresh exact Shopee Indonesia offers; separate condition/stock/variant/bundle evidence"
     ],
@@ -122800,6 +122800,17 @@
       "shortlist": "excluded; general guitar record retained",
       "offer_reopen": "703817770/20045443371 inaccessible; previous mixed-model ask not assigned to606",
       "next": "Verify607 from its own manufacturer manual before closing the remaining queue entry"
+    },
+    "zoom607_scope_20261028": {
+      "source": "https://zoomcorp.com/media/documents/E_607.pdf",
+      "manual": "607-5000-1",
+      "printed_pages": "3,6–11",
+      "access": "original browser text; no new visual inspection or device test",
+      "built_in_treadle": true,
+      "external_exp_connector": false,
+      "shortlist": "excluded; general bass record retained",
+      "offer": "No new offer access claimed; mixed606/607 ask remains model-unqualified",
+      "next": "Continue eligible no-treadle inventory and unresolved global-volume/output coverage; preserve independent general cursor"
     }
   },
   "brand_navigation": {

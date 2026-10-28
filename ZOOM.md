@@ -362,6 +362,16 @@ Checked 2026-10-18 against the [manufacturer manual, printed pp24–38](https://
 | Live / tuner and bypass access | Tuner requires **PLAY** selector position. Press/release both patch switches for bypass,hold both at least1second for mute;either switch returns to Play. These mode labels do not establish analog/relay true bypass or effect-tail retention. |
 | I/O / master volume | Hold both VALUE keys over1second to access **0–50** master volume;power cycling resets it to **40**. Manual explicitly permits headphone listening adjustment. This is global output adjustment,not extra patch memory or stored preset gain. |
 
+### 607 — no-treadle shortlist reconciliation, 2026-10-28
+
+[Own 607 manual][Z607-M], printed pp3,6–11, explicitly identifies the integrated expression pedal and lists INPUT, OUTPUT and DC9V connections. Reopened original browser text; no new visual inspection or device test.
+
+| Field | Scope decision / qualification |
+|---|---|
+| Expression / shortlist eligibility | **Built-in treadle: excluded from the no-treadle shortlist**, retained as an active bass multi-effects model. No external EXP input appears in the complete connector inventory. Patch-stored pedal assignments and built-in bypass-volume behavior do not establish the requested direct external analog expression path. |
+
+The existing mixed606/607 Japan/China item remains unqualified for an exact607 used/new amount. No new price, stock, variant, condition or bundle confirmation is claimed.
+
 <!-- comparison evidence ends -->
 
 Seller, stock, authenticity/origin, working state, bundle, adapter, warranty, shipping/tax and vouchers unresolved. Browser manual text; no download or visual inspection claimed. [Official support][Z607-S] independently categorizes 607 under bass effects.

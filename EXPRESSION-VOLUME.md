@@ -201,3 +201,5 @@ GP-50 [MIDI target distinction](VALETON.md#gp-50--midi-master-volume-is-a-separa
 M-VAVE [protocol-lead screening](M-VAVE.md#chocolate--protocol-research-lead-is-not-expression-verification): switch CC examples do not verify expression sweep; exact controller wiring and revision remain open.
 
 Zoom606 scope reconciliation2026-10-28: [own manual](https://zoomcorp.com/media/documents/E_606.pdf) explicitly documents its built-in treadle. Excluded from this no-treadle shortlist; retained in [general guitar inventory](ZOOM.md#606). No external EXP input appears in the complete connector inventory. Its built-in bypass-volume behavior is not direct external analog expression support.
+
+Zoom607 scope reconciliation2026-10-28: [own manual](https://zoomcorp.com/media/documents/E_607.pdf) confirms its built-in treadle and complete connector list without external EXP. Excluded from this no-treadle shortlist; retained in [general bass inventory](ZOOM.md#607). Built-in bypass-volume and patch assignments do not qualify as direct external analog expression.
