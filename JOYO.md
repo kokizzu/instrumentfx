@@ -414,6 +414,11 @@ Manufacturer page lists TC-1 Manual.pdf,2019-11-26,without a retrievable PDF lin
 
 [JOYO UK’s manual index](https://www.joyoaudio.co.uk/support/Other-JOYO-Manuals) links the exact [TC1.pdf](https://www.joyoaudio.co.uk/manuals/other/TC1.pdf). The web reader rejected the response as too large (11,918,355 bytes); **the manual’s contents were not inspected**. Its revision, panel/port inventory, expression support and routing remain unverified. No file was downloaded. The UK TC-1 product link also returned a cache miss. Search results for unrelated TC-1 timecode boxes and retailer USB/battery/bypass claims were not promoted to manufacturer evidence.
 
+### TC-1 — qualified direct expression screen
+
+Checked2026-10-28 against [exact JOYO product][TC1-P]. Ordinary guitar use documented;345×83mm footprint fails preferred rectangle in either orientation,with manufacturer axes unlabeled. Direct analog EXP/global volume,position/endpoints/recall,headphones andpreset down/up remain **unverified**. Module Level controls andaudio FX LOOP do not establish a remote master assignment. Pedal attenuation during bypass,throughphones oroverdelaytails/recordedloops remains unknown. Original manual access remains incomplete;regional product URL returned cache miss. No TC-2 feature,unrelated timecode-device specification,local download orhardware test used.
+
+
 ## Tone Chain TC-2
 
 Guitar effects-only strip, distinct from TC-1. Checked2026-10-18; partial. Ownership and bass/vocal applicability unverified.
