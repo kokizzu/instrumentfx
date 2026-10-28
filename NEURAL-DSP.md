@@ -202,6 +202,14 @@ Checked **2026-10-28**: [firsthand manufacturer-community post](https://unity.ne
 
 The [official NanOS2.2.0 manual](https://neuraldsp.com/manual/nano-cortex),Incoming MIDI CC List,independently identifies CC1 as **pedal position**,not a separate master-volume target. Thus this report does not provide a global-MIDI-volume escape from patch assignments. Keep the direct-analog every-preset verdict **unverified**,with this additional preset-scope evidence;retain the documented LEVEL/setup-article conflict andseparate headphone/bypass/tail uncertainties. No controller wiring oractual-M-VAVE compatibility inferred,andno hardware test.
 
+### Nano Cortex — earlier reported support response and post-EQ workaround
+
+Checked 2026-10-28. In the [manufacturer-hosted LEVEL discussion](https://unity.neuraldsp.com/t/no-level-control-via-expression-pedal/19257), Bryceboulie reports on **2025-08-18** that Neural support said expression LEVEL control was unavailable, despite the manual listing it. This is a user’s account of a support reply: the original correspondence, installed firmware/app versions and a direct staff response are not published. It is stronger historical context for the discrepancy, **not manufacturer-authored confirmation of present firmware behavior**. The later February/May2026 reports remain separately retained.
+
+On **2025-12-30**, Anxel reports using the level of a post-EQ block as a workaround. This consumes an effect slot and does not establish one setup across all presets, final-output mute, headphone coverage or tail attenuation. Do not promote that workaround to a verified global volume feature. Capture Volume’s documented −24dB minimum remains distinct from silence and from master LEVEL.
+
+The [separate after-amp-volume thread](https://unity.neuraldsp.com/t/expression-pedal-volume-control-after-amp-and-before-post-amp-effects/20603), December2025–January2026, leaves the explicit global preset-recall question unanswered. Its suggested capture-output route and perceived tone changes are user observations,not calibrated measurements or manufacturer routing specifications. The [official device list](https://neuraldsp.com/nano-cortex-device-list) remains the primary basis for the Volume utility’s pre-slot restriction. Across-every-preset direct analog volume stays **unverified**;no download orhardwaretest.
+
 ## Quad Cortex
 
 Partial record checked **2026-10-17**. Full Quad Cortex,distinct from Nano Cortex andQuad Cortex mini. Product page advertises CorOS4.1.0;current web manual identifies4.1.1. Seller firmware unverified.

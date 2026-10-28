@@ -549,3 +549,5 @@ VP4 [firmware/offer follow-up](FRACTAL-AUDIO.md#vp4--current-firmware-listing-an
 EX-4 [recall and jack-mode qualification](BOSS.md#ex-4--pedal-recall-jack-modes-and-further-subtype-limits):EXP HOLD explicitly retains pedal tilt across memory changes when On. This is separate from SYSTEM assignment anddoesnot resolve range/placement orpower-on behavior. Stereo I/O andsend/return share the rightpair andcannot provide independent simultaneousconnections.
 
 EX-4 [system output-volume alternative](BOSS.md#ex-4--system-output-level-assignment-and-usb-backup-scope):SYSTEM ASSIGN can targetMASTER OUT LEVEL,a system parameter,instead ofplacedFV. English1–200 versusJapanese0–200 leavesminimumzero/mute unresolved. Bypass/tail coverage andstartuprecall remainunverified.
+
+Nano Cortex [historical support-report qualification](NEURAL-DSP.md#nano-cortex--earlier-reported-support-response-and-post-eq-workaround):August2025 user account sayssupport denied LEVEL control;originalstaffreply/version absent. Decemberpost-EQ workaround consumesaslot anddoesnotproveglobalsetup. Currentall-presetvolume remainsunverified.
