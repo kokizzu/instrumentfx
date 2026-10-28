@@ -125897,5 +125897,16 @@
     "market": "Repeated exact Shopee queries produced only cover and unrelated computers;not exact processor hardware evidence.",
     "visual": "Screenshot returned reference only,no inspectable image;no diagram inference",
     "status": "Partial lead,outside active inventory;general GT-Pro cursor unchanged"
+  },
+  "gp50_comparison_supersession_20261028": {
+    "change": "Updated current comparison source fields to lead with already-verified1.0.5 category census,acoustic simulation andonboard/app rhythm distinction;retained original supporting observations andall dated sources.",
+    "source": "https://www.hotone.jp/manuals/valeton/GP-50.pdf",
+    "current_manual_status": "Official1.1.0 redirect still inaccessible;third-party summary not promoted to proof. Physical A/B directional mapping remains unverified in readable text.",
+    "remaining": [
+      "Exact1.1.0 expression/global scope",
+      "Analog bypass/headphone/loop attenuation",
+      "Physical preset down/up mapping"
+    ],
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

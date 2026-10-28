@@ -828,15 +828,15 @@ The complete supporting comparison was read before merging. Its model-specific v
 | Weight | 430 g |
 | Used IDR observation | ? |
 | New / retail IDR observation | **Rp1.985.000**, Smosyu; **sold out**, not active offer [detail](VALETON.md#gp-50) |
-| Simultaneous blocks / categories and choices | 9 simultaneous; 100+ effects; category breakdown ? |
+| Simultaneous blocks / categories and choices | **Firmware1.0.5:** nine simultaneous; **NR1/PRE12/DST10/AMP32/CAB21/EQ5/MOD11/DLY10/RVB10 =112 named algorithms**, excluding user slots/SnapTone files. N→S disables AMP/CAB. This supersedes the2026-10-14 unknown breakdown retained above;1.1.0 contents unverified. [Completed census below](#gp-50--completed-firmware-105-category-census). |
 | Presets and user storage | 100 total / 55 factory-filled; 45 remaining slots |
-| Synth / acoustic functions | Exact synth/acoustic choices ? |
+| Synth / acoustic functions | **Firmware1.0.5:** PRE AC Sim offers Standard/Jumbo/Enhanced/Piezo; CAB AC is a dreadnought simulation. AC Pre1/2 are separate acoustic preamps. Dedicated synth remains unverified. Supersedes the earlier combined unknown retained above. [Own regional manual pp31–48](https://www.hotone.jp/manuals/valeton/GP-50.pdf). |
 | Third-party IR | 20 user slots |
 | NAM / captured models | **SnapTone converted NAM**,80 model slots/50 supplied. **NAM A2 conversion requires hardware firmware1.1.0+ and mobile app2.1.0+**, explicitly named for GP-50 in the [official regional notice dated2026-08-18](https://www.hotone.jp/announcements/nama2allbrand), rechecked2026-10-17. Native NAM, exact supported A2 architectures and simultaneous capture limits remain unverified. Preserve older firmware1.0.5 manual context separately. |
 | Audio / control connections | ¼″ input; 2 × ¼″ outputs; 3.5 mm phones; EXP/FS; 3.5 mm TRS MIDI IN/THRU; USB-C |
 | Power and battery | 1450 mAh rechargeable; DC 9 V centre-negative/500 mA or **USB operation at 5 V/1 A**; DC/USB charging |
 | Configuration software | iOS/Android editing; Windows/macOS file/firmware management |
-| Other relevant features | USB 2-in/2-out/reamp; looper; 100 rhythms; analog/digital bypass |
+| Other relevant features | USB2-in/2-out/reamp; **1.0.5 looper20s**,Pre dry mono/Post processed stereo,recording not stored; **10 onboard metronomes**,additional patterns need app/Bluetooth. Earlier100-rhythm shorthand is retained above as history,not100onboard. Analog/DSP tuner bypass;EXP attenuation during bypass unverified. [Own regional manual pp12–13,22](https://www.hotone.jp/manuals/valeton/GP-50.pdf). |
 | New / retail Shopee IDR observations | Checked2026-10-17: [HOLY MUSIC](https://shopee.co.id/VALETON-GP-50-MULTI-EFFECT-PROCESSOR-Gp50-efek-valeton-gp50-i.945642322.55704518866), seller945642322/item55704518866,Kota Jakarta Utara: search **Rp2.245.000**, reopening **Rp2.255.000**; preserve snapshot discrepancy, no authenticated stock. [Diana Musik](https://shopee.co.id/Valeton-GP-50-GP50-Multi-Effects-Processor-i.495337904.56105944082), seller495337904/item56105944082,Kota Yogyakarta: **Rp2.255.000,Habis**, stale8September delivery. Exact hardware retail asks, not completed transactions. Condition, accessory bundle, warranty region, delivered charges and voucher eligibility unconfirmed. No qualified used IDR quote established. |
 
 Prices are individual asking/listed observations checked **2026-10-14**, not completed sales or statistically established market ranges. Stock is described as displayed by the seller, not checkout-confirmed. Delivery, taxes, warranty region and accessories are not silently included.
