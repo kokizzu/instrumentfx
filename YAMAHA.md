@@ -542,12 +542,13 @@ Guitar use remains qualified to suitable line-level preamp/mixer routing,not dir
 
 ## SPX900
 
+<!-- comparison evidence begins -->
 Rack multi-effects; checked 2026-10-17. Guitar/vocal processing requires suitable preamp/mixer routing, not a direct microphone-input claim. Bass suitability remains unclassified.
 
 | Field | Evidence / qualification |
 |---|---|
 | Instrument scope | Guitar distortion and vocal reverb applications documented; line-level routing [S9-M, S9-A] |
-| Expression | No built-in pedal/toe; two front EXT CTRL/FOOT VOL sockets accept FC7 parameter controllers [S9-M pp.4,8] |
+| Expression | No built-in pedal/toe; two front EXT CTRL/FOOT VOL sockets accept FC7 parameter controllers;assignments/ranges stored per user program51–99,global override unverified [S9-M pp.4,8] |
 | Knobs / footswitches / buttons | 1 Input rotary; 0 built-in footswitches; 15 buttons derived from named keys, counting parameter and memory arrows separately; power separate [S9-M pp.3–4] |
 | Display | 16×2 character LCD, two-digit memory LED, seven-segment input meter; diagonal/color/touch unverified [S9-M p.4] |
 | Processing / categories | Up to five simultaneous effects claimed by archive. Programs 38–47 combine compression, distortion, EQ/filter and other effects; configuration-specific, not arbitrary blocks [S9-A; S9-M p.23] |
@@ -575,6 +576,19 @@ Rack multi-effects; checked 2026-10-17. Guitar/vocal processing requires suitabl
 - [Official Yamaha manual index](https://jp.yamaha.com/products/contents/proaudio/downloads/manuals/index.html?c=proaudio&k=spx900&l=ja) lists the image manual; current redirect did not expose its asset link. US index returned 403.
 
 Remaining: full routing diagrams, category totals, factory fill, impedance conflict, exact digital/remote connector identity, display/software gaps, bass applicability and qualified new/live-stock offers. No filesystem downloads.
+
+<!-- comparison evidence ends -->
+
+### SPX900 — per-program external expression and recall (2026-10-28)
+
+Own79-page Yamaha-authored [Operation Manual reproduction](https://thehistoryofrecording.com/Manuals/Yamaha/Yamaha_spx900.pdf),printed pp3–5,8–9 (PDF5–7,10–11),exact SPX900 cover/sections match prior identity checks.
+
+| Field | Finding / qualification |
+|---|---|
+| Expression / assignment scope | Two EXT CTRL/FOOT VOL inputs accept recommendedFC7 controllers. Assign a PARAM/LEVEL/EQ/INT PARAM destination andMIN/MAX within the selected program;**STORE in user51–99 retains assignments with that program**. Changing memory without storing loses them. **PER PROGRAM** documented;no global target override established. |
+| Expression / range and recall | Endpoint units depend on target;20–80% is only the manual example. Preset values must lie inside the assigned range or **the controller may not respond after recall**. This is not held-angle recall orcalibration persistence. OUT LVL spans0–200%;BALANCE0–100% changes wet/dry,not final master volume. Dual programs48–50 have separate channel levels. |
+
+No built-in treadle/onboard footswitches orheadphone socket in complete panels. Suitable line-level guitar routing remains required;480W×319Dmm exceeds preferred limits. Hand memory selection requiresRECALL;rear memory-switch input is separate. Expression bypass/tail/Freeze-sample attenuation andexact pedal pinout remain unknown. Original text only;no download ordevice test.
 
 ## SPX990
 

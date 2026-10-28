@@ -124215,5 +124215,16 @@
     "footprint": "480W×227.9Dmm exceeds bothlimits.",
     "presets": "No onboard footswitch;hand−/+ differs fromexternal mappedadvance.",
     "remaining": "Indirect volume/range/recall/bypass/tail/loop attenuation;prior gaps retained."
+  },
+  "spx900_expression_screen_20261028": {
+    "source": "https://thehistoryofrecording.com/Manuals/Yamaha/Yamaha_spx900.pdf",
+    "identity": "Own Yamaha-authored79-page manual printed3–5,8–9;PDF5–7,10–11;exact title/sections match.",
+    "expression": "TwoFC7 inputs;assignments/ranges stored with userprogram51–99;unsaved changes lost onmemorychange;PERPROGRAM,globaloverride unknown.",
+    "range_recall": "TargetdependentMIN/MAX;stored value must be inside range orcontroller maynotrespond afterrecall;notheldangle guarantee.",
+    "levels": "OUTLVL0–200%,BALANCE0–100% wetdry;dual48–50 independentlevels.",
+    "headphones": "No socket in complete panel inventory.",
+    "guitar": "Suitable line-levelpreamp/mixer;480W×319Dmm too large.",
+    "presets": "No onboard footswitches;handselection+RECALL,external memoryswitch separate.",
+    "remaining": "Pinout/bypass/tails/Freeze-sample attenuation andprior broader gaps."
   }
 }
