@@ -586,6 +586,20 @@ Checked 2026-10-28, [own manual 18-6360-A](https://digitech.com/wp-content/uploa
 
 The [current manufacturer FAQ](https://digitech.com/faqs/) warns that historical 1300 mA labels sometimes repeated adapter capacity rather than actual draw. It separately lists RP100 with PS0913B: 9 VAC, 1.3 A, barrel 5.5 mm / 2.5 mm pin / 9.5 mm length. Preserve the manual claim; actual measured draw remains unknown. AC has no DC center polarity. This does not certify RP100A equivalence. Still a partial lead outside active counts.
 
+### RP100 — named algorithm census
+
+Checked 2026-10-28: [original manufacturer manual 18-6360-A](https://digitech.com/wp-content/uploads/2025/07/Digitech_RP100_UsersGuide.pdf), pp16–24. Codes preserve menu identity; bypass is excluded from counts.
+
+| Category | Exact choices / basis |
+|---|---|
+| Amp/guitar: 12 | bf: Fender Twin Reverb (1965); bo: Matchless DC30; re: Mesa Dual Rectifier; hr: Mesa Mark II C; td: Fender Tweed Deluxe (1957); C1: Vox AC30 Top Boost; C2: clean combo; St: Marshall JCM900; Cr: crunchy combo; Hg: Johnson JM150 high-gain; Fu: vintage fuzz; AC: acoustic guitar. |
+| Pickup: 2 / wah: 3 | hb, sC / cr Cry, bt Boutique, fr Full Range. |
+| Cab: 3 | Dark 4×12, Warm 4×12, Bright 2×12; each has four mic placements. |
+| Shared FX: 12 | Chorus, Flanger, Phaser, Tremolo, Panner, Vibrato, Rotary, AutoYah, Envelope Filter, Pitch Shift, Detune, Whammy. One at a time. |
+| Delay: 3 / reverb: 10 | Digital, Analog, Ping Pong / Studio, Wood Room, Club, Plate, Hall, Amphitheater, Church, Parking Garage, Arena, Spring. |
+
+Compressor attack 1–3 and AutoSwell A1–A9 are parameter variants, not extra independently usable blocks. Acoustic simulation is in the amp/guitar selector. No dedicated synth identified in this complete named menu; import/editor support remains unverified. Shopee searches for RP100/RP 100 yielded no qualified exact Indonesian offer; availability remains unknown.
+
 ## RP150
 
 Guitar multi-effects;partial,checked2026-10-18. Distinct fromRP155/RP250. [Manufacturer product](https://digitech.com/dp/rp150/),[own manual RevB](https://digitech.com/wp-content/uploads/2022/09/RP150Manual18-0429V-B_original.pdf),printedpp6–11,38–39.

@@ -125199,6 +125199,16 @@
       "fully_verified": false,
       "next": "Exact RP100 hardware offer and remaining fields; no RP100A transfer. Continue no-treadle priorities and independent GT-Pro cursor.",
       "downloads": false
+    },
+    "rp100_census_20261028": {
+      "checked": "2026-10-28",
+      "source": "https://digitech.com/wp-content/uploads/2025/07/Digitech_RP100_UsersGuide.pdf",
+      "revision": "18-6360-A pp16–24",
+      "active": false,
+      "fully_verified": false,
+      "market": "No qualified exact Shopee hit from RP100/RP 100 queries; overseas and RP100A offers rejected.",
+      "next": "Qualified offers and remaining import/editor/volume coverage; continue priorities and independent GT-Pro cursor.",
+      "downloads": false
     }
   },
   "brand_navigation": {

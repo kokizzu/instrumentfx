@@ -601,3 +601,5 @@ Black [amp/cab and gate clarification](LINE6.md#black--ampcab-menu-and-gate-plac
 [Exact-model screening](DIGITECH.md#rp100--partial-no-treadle-discovery-lead): conditional volume; footprint exceeds preference. Outside active inventory pending full profile and qualified offers.
 
 RP100 [profile qualification](DIGITECH.md#rp100--processing-memory-and-power-profile): original lead remains partial; added processing, memory and power evidence does not change conditional-volume classification.
+
+RP100 [named library](DIGITECH.md#rp100--named-algorithm-census) now distinguishes shared choices from concurrent blocks. Global-volume classification and partial admission status are unchanged.
