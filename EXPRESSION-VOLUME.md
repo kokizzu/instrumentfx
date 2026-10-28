@@ -527,3 +527,7 @@ M-VAVE [host-panel electrical-label check](M-VAVE.md#footctrlplus-host-panel-man
 ### Audota AVE-100 — input and switched-pad boundary
 
 [Exact-model audit](AUDOTA.md#ave-100--direct-control-and-input-eligibility): no analog EXP; normal-pickup suitability unclassified. Vocal-only, outside main guitar table. Stereo-mini phones present; pads switch effects, not presets. Native113W×142Dmm exceeds depth preference; rotated142×113 fits geometrically.
+
+### Fractal AM4 — manufacturer-backed discovery lead
+
+[Partial lead](FRACTAL-AUDIO.md#am4--partial-discovery-lead-outside-active-inventory): global direct-pedal volume documented, but chassis exceeds preference. Separate headphone and mode-dependent preset controls recorded. Exact Shopee hardware offer and complete profile pending; outside active inventory and capability table.

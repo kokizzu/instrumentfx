@@ -24801,6 +24801,22 @@
         "revision": "Preset1.00",
         "finding": "75numberedrigs:10DNAAmp+10DNAStomp+50Song+5Routing. Program/Stompmodes specified;not75additionalprotectedslots."
       }
+    },
+    {
+      "model": "Fractal Audio AM4",
+      "checked_date": "2026-10-28",
+      "status": "Partial manufacturer-backed discovery lead;not active inventory",
+      "manufacturer": "https://www.fractalaudio.com/am4/",
+      "manual": "https://www.fractalaudio.com/downloads/manuals/AM4/AM4-Owners-Manual.pdf",
+      "revision": "v1.0.2 2025-12-16;search metadata1.0.1 stale",
+      "finding": "Direct global Input/Output/Amp Block Out Volume pedal assignment documented;254W160.3D exceeds preference;mode-qualified onboard preset down/up.",
+      "shopee": "https://shopee.co.id/geardivision",
+      "qualification": "Only Rp198000 Cover fractal AM4 accessory found;excluded from processor pricing. No exact hardware offer.",
+      "next": [
+        "Exact Shopee processor hardware offer",
+        "Complete model fields before active admission",
+        "Volume endpoints/recall,bypass/phones/tails/recorded-loop coverage"
+      ]
     }
   ],
   "inventory_by_brand": {

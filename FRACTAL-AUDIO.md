@@ -5,9 +5,23 @@
 <!-- brand-index begins -->
 **Model and section index — A–Z, natural numeric order**
 
+- [AM4 — partial discovery lead, outside active inventory](#am4--partial-discovery-lead-outside-active-inventory)
 - [FM3 MKII Turbo](#fm3-mkii-turbo)
 - [FM9 MKII Turbo](#fm9-mkii-turbo)
 <!-- brand-index ends -->
+
+## AM4 — partial discovery lead, outside active inventory
+
+Checked2026-10-28. [Manufacturer product page](https://www.fractalaudio.com/am4/) identifies guitar/bass instrument input, amp/cab modeling and multi-effects, two expression/switch ports, headphone practice and4×4USB audio. It advertises104presets,240+amps and45+guitar/bassDynaCabs; these are not simultaneous-effect counts. Exact Shopee Indonesia processor hardware offer remains unestablished, so this lead is not added to active counts or instrument comparisons.
+
+[Original manufacturer manual](https://www.fractalaudio.com/downloads/manuals/AM4/AM4-Owners-Manual.pdf) currently reads **v1.0.2,2025-12-16**, superseding search metadata1.0.1. Printedpp10,31,54,58:
+
+- **Global analog volume documented:** SETUP→MIDI/Remote→Input Volume, Output Volume or Amp Block Out Volume→PEDAL1/2; no preset Volume block needed. Amp-block target preserves amp gain/tone and sits before following time effects.
+- TwoTRS pedal inputs,10–100kΩ maximum; dedicated3.5mm stereo phones. No treadle in the manual panel inventory. Actual M-VAVE wiring remains unverified.
+- Scene mode: hold1 for previous preset, hold4 for next. Preset mode instead selects four slots and holds change banks.
+- **254W×160.3Dmm exceeds preference.** Endpoint adjustment, held-position recall and pedal coverage of bypass/phones/tails/recorded loops remain unverified.
+
+[Shopee Gear Division storefront](https://shopee.co.id/geardivision) indexes **Cover fractal AM4,Rp198,000**,checked2026-10-28,three-week cache. This buys an accessory,not the processor; excluded from hardware pricing. No used/new hardware price,live stock,bundle orwarranty verified. No local downloads orhardware test. Next: exact processor item,complete required-field profile andoutput-path coverage.
 
 ## FM3 MKII Turbo
 

@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(fractal): qualify FM9 global volume by manual revision'))
+    print(git('commit','-m','research(fractal): record AM4 global-volume discovery lead'))
