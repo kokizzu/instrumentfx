@@ -896,6 +896,12 @@ Checked 2026-10-18 against the manufacturer v2.0 Advanced Guide, printed §§4�
 |---|---|
 | Dimensions / mass | [Manufacturer processor chart](https://line6.com/data/6/0a020a41033e604695e606367/application/pdf/) assigns M9 **3lb/1.36kg**, **10.5in/27cm width** and **6.5in/17cm depth**. [M9 FAQ][M9-Q] instead gives **2.3lb**,10.5L×7W×3H inches. Preserve original axes and rounded unit pairs: these sources differ in mass and footprint labeling/values. No documented revision,measurement method or packaging explanation resolves the conflict. Chart evidence is text/indexed column extraction; screenshot returned no usable image,so no visual audit or physical measurement is claimed. |
 
+### M9 — expression-volume scope screening (2026-10-28)
+
+[Own v2.0 Advanced Guide RevA][M9-A], §§2•3,3•3,4•1: FX pedal assignments and heel/toe settings belong to each Scene. Only **looper pedal control** is explicitly global; that is not global live-guitar volume assignment. No independent all-scene volume override is established. Volume-effect placement and bypass matter; exact volume endpoints, held-position recall, tail and recorded-loop attenuation remain unverified. Existing true-bypass conditions route around processing, so an FX-based attenuator must not be claimed to cover relay bypass.
+
+[Exact-model FAQ][M9-Q] specifies passive10kΩ linear with mono¼-inch cable. Its I/O inventory gives no dedicated headphone socket. Existing manufacturer footprint claims both exceed the preferred width; retain their conflicting axes and mass. Scene selection is six direct footswitch choices plus hand-selected folders, not verified sequential preset down/up. No hardware testing performed.
+
 ## Other Line 6 records awaiting consolidation
 
 HX Stomp and HX Stomp XL already have research in legacy pages and are not newly discovered models. HX Effects is now root-canonical above. Merge the complete remaining records and sources before retiring the old files. POD Express Black is a distinct sound library but **an exact Indonesian Shopee hardware listing was not established in this pass**; Thai marketplace results must not be labelled Indonesian evidence. Ampero One is already recorded; do not restart that stale cursor. Keep brand/category/instrument documents at repository root and do not create or run GitHub workflows.

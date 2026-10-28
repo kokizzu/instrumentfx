@@ -123578,5 +123578,17 @@
       "current sequential preset footswitch behavior"
     ],
     "hardware_test": false
+  },
+  "m9_expression_screen_20261028": {
+    "source": "https://line6.com/data/6/0a060b316ac34f0593fca717b/application/pdf/M9%20Advanced%20Guide%20-%20English%20%28%20Rev%20A%20%29.pdf",
+    "revision": "v2.0 RevA",
+    "scope": "FX assignment/endpoints per Scene; global looper assignment not global guitar volume",
+    "remaining": [
+      "independent global volume override",
+      "exact volume endpoints/recall",
+      "tails/recorded-loop coverage",
+      "sequential scene footswitch navigation"
+    ],
+    "hardware_test": false
   }
 }
