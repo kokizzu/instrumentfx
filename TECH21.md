@@ -229,3 +229,7 @@ Revision checks against exact primary records:
 - [Current RK5v3 product](https://www.tech21nyc.com/products/flyrig/rk5v3/): adds **pre/postboost,effectloop andpreconfigured phantompower forRK KillerWail**. This doesnot identify theShopee unit orauthorize assigning v3features toolderRK5.
 
 Keep offer family-qualified until a legible sellerpanel/rearlabel orrevision-explicit offer establishes exacthardware. Searches forShopee RK5v2,RK5 12V andAcousticFlyRig returned noadditional exact result;not proof ofabsence. No downloads orseller contact.
+
+### Fly Rig 5 v2 — qualified direct expression screen
+
+Checked2026-10-28 against [own OM3 manual,rev12/20](https://www.tech21nyc.com/t21manuals/FlyRig5_v2_OM3.pdf),Ins and Outs/Effect Loop. Ordinary guitar input is explicit. Documented connections are instrument input,quarter-inch output,XLR,Send/Return andpower;no EXP orheadphone connection is described. Full panel absence verification remains incomplete,so direct EXP/headphones stay **unverified**,not an inferred absolute No. Send/Return is audio,not controller input. Physical level hierarchy andoptional modified wah phantom power do not establish global volume assignment. Position/endpoints/recall,bypass/tail/recorded-loop attenuation andpreset down/up remain unknown. Published12.5×2.75inch footprint is317.5×69.85mm byconversion;fails preferred rectangle either orientation. No local download orhardware operation.

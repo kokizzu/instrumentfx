@@ -124717,5 +124717,11 @@
     },
     "manual_lead": "newgearday GP-50_Manual_EN_V01_250925.pdf 404; search snippet not adopted",
     "next": "Continue exact1.1.0 manufacturer manual alternatives and remaining no-treadle inventory; independentGTPro retained."
+  },
+  "flyrig5v2_expression_screen_20261028": {
+    "source": "https://www.tech21nyc.com/t21manuals/FlyRig5_v2_OM3.pdf",
+    "revision": "OM3 rev12/20",
+    "finding": "No EXP/phones in documented connection prose; no complete visual absence verification,remain unknown. Audio loop and modified wah power not controller mapping.317.5x69.85mm converted fails fit.",
+    "next": "Continue own Bass Fly Rig v2 and Acoustic Fly Rig manual screens; priority unresolved Mini/Nano/GP50 and independentGTPro retained."
   }
 }
