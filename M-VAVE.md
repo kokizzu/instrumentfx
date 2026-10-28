@@ -833,6 +833,13 @@ The linked [manufacturer manual PDF reproduction](https://device.report/m/f9b8d1
 The [FCC-indexed User Manual exhibit9023824](https://fccid.io/2ARCPPOCKETAMP/User-Manual/User-Manual-9023824) publishes SHA-256 **f9b8d1442f8ebd368babed461787355a648aeffdd0fa3e36a8c552fc13bcef72**, matching the recovered mirror file identifier. This links the PDF to the **2ARCP-POCKETAMP filing**, not to the separate40-page importer guide. It is a published-metadata match; no locally downloaded file was hashed. Alternate original-PDF routes were inaccessible and [label exhibit9023845](https://fccid.io/2ARCP-POCKETAMP/Label/Label-and-location-9023845) contents remain unread. Filing metadata does not establish retail revision,resolve mass/AUX discrepancies orverify rewritten HTML instructions. Checked2026-10-18; no files downloaded ordevice/software operated.
 <!-- comparison evidence ends -->
 
+
+### Pocket Amp — direct expression screening,2026-10-28
+
+Recorded importer panel inventory contains no analog EXP;the manufacturer-original cross-check remains incomplete,including the AUX/revision conflict above. [Reproduced Pocket AMP manual body](https://device.report/manual/19072004) distinguishes **preset VOL−/VOL+** from hand MASTER,which excludes Bluetooth/USB input volume. Its left/right preset controls are hand buttons,not onboard footswitches. USB/wireless MIDI expansion does not prove direct analog expression or continuous volume mapping.
+
+Existing93×71.5mm horizontal footprint fits either orientation;dedicated3.5mm stereo phones remain importer-documented. The required analog path is not documented in that inventory;do not promote this to verified manufacturer-original absence while the filed PDF remains unread. Global expression assignment,position/range/recall,bypass/headphone/tail/recorded-loop attenuation remain unverified. The filed PDF failed reopening;the new body reproduction is not a renewed original visual audit. Conflicting generated /ae guides about MASTER coverage were rejected.
+
 ### Preserved original finding
 
 Complete 2026-10-15 finding follows. Its unresolved native-NAM statement describes the earlier guide evidence; official v105 notes checked on 2026-10-17 provide the separate qualified update above. All provenance and historical seller qualifications are retained.

@@ -123828,5 +123828,16 @@
       "printed revision"
     ],
     "hardware_test": false
+  },
+  "pocketamp_expression_screen_20261028": {
+    "source": "https://device.report/manual/19072004",
+    "classification": "No analog EXP in importer inventory; manufacturer-original absence not newly certified",
+    "remaining": [
+      "filed manual visual inspection",
+      "AUX/revision conflict",
+      "continuous MIDI volume",
+      "global assignment and attenuation coverage"
+    ],
+    "hardware_test": false
   }
 }
