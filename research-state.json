@@ -123930,5 +123930,13 @@
       "MASTER attenuation coverage"
     ],
     "hardware_test": false
+  },
+  "magicstomp_bass_expression_screen_20261028": {
+    "source": "https://usa.yamaha.com/files/download/other_assets/1/334091/magicstomp_bass_en.pdf",
+    "classification": "No analog EXP",
+    "remaining": [
+      "hand-volume bypass/tail/recorded-loop coverage"
+    ],
+    "hardware_test": false
   }
 }

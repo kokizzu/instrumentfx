@@ -325,6 +325,12 @@ Checked 2026-10-18; partial. Separate Bass edition. [Own Yamaha manual](https://
 
 <!-- comparison evidence ends -->
 
+### Magicstomp Bass — direct expression and phones volume,2026-10-28
+
+[Own Yamaha Bass manual](https://usa.yamaha.com/files/download/other_assets/1/334091/magicstomp_bass_en.pdf),printedpp8–10,lists all connectors without analog EXP and explicitly permits bass,guitar orline-level input. It fails the required direct pedal path. Hand VOLUME controls overall output and dedicated stereo-mini headphones;main outputs remain active with phones connected. Printedp18 says the knob setting is **not stored with patch data**. This hand-control persistence is not an external expression assignment.
+
+Printedpp12–13:factory UP/DOWN mode uses−/+ for sequential patch selection (hold scrolls);Performance mode selects three adjacent patches directly. Existing164W×176Dmm chassis fails depth. DirectEXP range/position recall are inapplicable;hand-volume bypass/tails/recorded-loop attenuation remains unknown. AFR switch override qualifications above remain. No sibling specifications orhardware test.
+
 ## Magicstomp Guitar MK2
 
 Checked 2026-10-18; partial. Yamaha's MK2 library link supplies a [base owner manual](https://usa.yamaha.com/files/download/other_assets/3/334073/magicstomp_mk2_en.pdf),31 PDF pages,pp7–12,29, retaining original-style controls and omitting headphones. The [official MK2 supplement](https://fr.yamaha.com/files/download/other_assets/4/334074/magicstomp_mk2_fr.pdf),English pp1–5 within36 multilingual PDF pages, explicitly replaces those details. Browser text inspected; no cross-edition substitution.
