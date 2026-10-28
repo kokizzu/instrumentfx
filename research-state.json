@@ -125831,5 +125831,17 @@
     ],
     "mini_retry": "Current official V2.2 manual timed out;no new conclusion",
     "nano_recheck": "Current search did not resolve global scope;no status change"
+  },
+  "ave100_expression_screen_20261028": {
+    "source": "https://www.audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/AVE-100_Manual_EN_V1.0.0.pdf",
+    "revision": "filename V1.0.0;internal V01/2025-07-24",
+    "finding": "No analog EXP;quarter-inch bypasses mic gain and diagram requests interface/preamp output. Pads switch effect groups,not preset navigation. Vocal-only;ordinary pickup eligibility unclassified.",
+    "footprint": "Manufacturer142L113W51H;native113W142D exceeds preferred depth2mm;rotated142W113D fits geometrically. Corrects older either-orientation claim.",
+    "remaining": [
+      "Normal-pickup suitability",
+      "Bypass/headphone/tail/recorded-loop attenuation",
+      "Current firmware and setting retention"
+    ],
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

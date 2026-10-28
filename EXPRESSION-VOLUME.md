@@ -523,3 +523,7 @@ M-VAVE [host-panel electrical-label check](M-VAVE.md#footctrlplus-host-panel-man
 ### TC-Helicon PERFORM-VE — global voice blend, analog scope unknown
 
 [Exact-model audit](TC-HELICON.md#perform-ve--global-blend-versus-pedal-volume): global blend is not master volume; analog EXP remains unverified. Vocal-only, outside guitar table. Headphones present; external direct preset recall is separate from onboard down/up. Regional footprint fails preferred depth, pending manufacturer corroboration.
+
+### Audota AVE-100 — input and switched-pad boundary
+
+[Exact-model audit](AUDOTA.md#ave-100--direct-control-and-input-eligibility): no analog EXP; normal-pickup suitability unclassified. Vocal-only, outside main guitar table. Stereo-mini phones present; pads switch effects, not presets. Native113W×142Dmm exceeds depth preference; rotated142×113 fits geometrically.

@@ -595,6 +595,15 @@ Sources: [Original finding](AUDOTA.md#ave-100)<!-- historical-link:audota-013 --
 | Used IDR | **?**,no condition-verified current offer obtained |
 | Retail IDR | **Rp2.390.000,SOLD OUT**,RedMusikBali,Shopee shop198150809/item56354336751;indexed,directreopenfailed. Historical asking evidence,not an active new-price orcompleted-sale assertion [S] Exact listing reopened2026-10-17: same amount, **Habis**,seller Red Musik Bali,Kota Denpasar. Condition, bundle, warranty region, delivered charges and usable voucher eligibility unverified; relative delivery/seller activity does not prove stock. No used-price inference. |
 
+
+### AVE-100 — direct-control and input eligibility
+
+Checked 2026-10-28: [original V1.0.0 manual, internal V01/2025-07-24, pp5–8,12](https://www.audota.com/AUDOTA/%E8%AF%B4%E6%98%8E%E4%B9%A6/AVE-100_Manual_EN_V1.0.0.pdf). No analog EXP in the complete connection inventory. Quarter-inch input bypasses mic gain; the diagram specifies an interface/preamp output, and overall level must be adjusted at the source. Its 1MΩ rating alone does not establish normal-pickup processing suitability. Vocal-only membership remains outside the guitar capability table.
+
+PITCH switches correction/harmony; EFFECTS switches delay/reverb. Default latching or power-on-selected momentary operation is switched effect control, not continuous volume or preset down/up. Direct pedal placement/endpoints/recall are N/A to this inventory; bypass, headphone, tail and recorded-loop attenuation remain unverified.
+
+The [manufacturer specifications](https://en.audota.com/AVE100EN.html) confirm stereo3.5mm headphones and142L×113W×51Hmm. Width113/depth142 exceeds preferred depth by2mm; a rotated142×113 footprint fits geometrically, with controls/cabling orientation still to consider. Earlier “either horizontal orientation” wording is corrected here. No new image or hardware inspection.
+
 <!-- comparison evidence ends -->
 
 ### Current primary-source and marketplace review
