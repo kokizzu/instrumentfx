@@ -1849,6 +1849,13 @@ Thus Foot Volume can affect the detector signal when FV Out is selected; this is
 Checked2026-10-28 against [original manufacturer manual,printedp135](https://cdn.roland.com/assets/media/pdf/GT-PRO_OM.pdf),indexed Mac OS9 “Installing the ASIO driver” section. It explicitly lists **audio input:one stereo channel(two mono),audio output:one stereo channel(two mono),24/16bit**. These are audio channels,not the BOSS GT-PRO Control MIDI endpoint orMain/Sub analog routing. This resolves the missing explicit count **for that documented historical ASIO context**;other driver modes/current-host operation are not certified from it. The section requires MIDI-driver installation before ASIO andexcludes Macintosh Sound Manager playback;these are historical compatibility instructions,not a present installation recommendation. No driver ormanual downloaded orrun.
 
 
+### GT-Pro — electrical port ratings and count boundary
+
+Checked2026-10-28 against [exact official regional specifications](https://www.boss.info/hu/products/gt-pro/). INPUT is **1MΩ**;PRE LOOP RETURN andLOOP1/2RETURN **220kΩ**. Nominal input/PREreturn **−10dBu**;LOOP1/2return **−10/+4dBu**. DIRECT/TUNER,MAIN/SUBquarter-inch,PREsend andLOOP1/2send outputimpedance **2kΩ**;SUBXLR **600Ω**. DIRECT/PREsend nominal **−10dBu**;MAIN/SUBquarter-inch andLOOP1/2send **−10/+4dBu**;SUBXLR **+4dBu**. These are nominal levels/impedances,not measured maximum headroom,headphone power orminimum load ratings.
+
+The same page repeats44effectcategories and15reorderableblocks butdoes not reconcile13-versus15or enumeratea universal simultaneous algorithm ceiling. Keep that discrepancy open;do not transfer another GTmodel’s architecture. EarlierhistoricalASIO count andallsourcequalifications remain. No download orhardware test.
+
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.

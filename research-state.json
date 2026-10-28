@@ -124759,5 +124759,11 @@
     "count": "1stereo input+1stereo output,each2mono;24/16bit",
     "scope": "Explicit historical ASIO channel count resolved;other modes/current-host compatibility not certified. MIDIControl endpoint/MainSub routing separate.",
     "next": "44category/13vs15basis,visualcontrols,expressionoutputcoverage andexactShopee remain."
+  },
+  "gtpro_electrical_ports_20261028": {
+    "source": "https://www.boss.info/hu/products/gt-pro/",
+    "finding": "INPUT1Mohm,returns220kohm;SUBXLR600ohm,otherlistedoutputs2kohm. Nominallevels qualified inrootbrand;notmaximumheadroomorphonesrating.",
+    "count_boundary": "Officialpage44categories/15reorderableblocks doesnotresolve13vs15oruniversalconcurrency.",
+    "next": "ContinueGTPro countbasis/visualcontrols/outputcoverage/exactIDR;historicalASIOcountalreadyresolved."
   }
 }
