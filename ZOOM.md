@@ -2579,6 +2579,14 @@ Guitar input and CONTROL IN accept FP01/FP02 expression; connect before power-on
 
 Chassis **156W×162D×65H mm** exceeds preferred depth; rotation still fails. OUTPUT doubles as line/headphone socket. No built-in treadle in own panel inventory; toe support unverified. Full field audit, exact Indonesian hardware offer and catalogue admission remain pending. Do not transfer any G2Nu or G2.1u price or specification.
 
+### Original G2 — controls, memory and offer screening
+
+Checked 2026-10-28 against [own G2-5000-2 manual](https://zoomcorp.com/media/documents/E_G2.pdf),printedpp4–9,31. Text-derived controls: **4 rotary /2 footswitches /5 buttons** (module selector+3 parameters;down/up;STORE,BANK−/+,TAP,RHYTHM). Rear POWER switch separate;visual audit pending. Onboard footswitches select previous/next patch in Play.
+
+**80 patches=40 writable(A–d)+40 read-only(0–3)**;factory-filled writable count unresolved. **54 effect types,max9 simultaneous including ZNR**. Display:two-digit seven-segment LED;diagonal/color/touch unknown. Power:AD-0006,9VDC300mA center-negative adapter rating,or4AA alkaline,approximately7.5h;actual draw unknown. Mass700g without batteries.
+
+Exact original-model Shopee searches returned G2 FOUR/G2X/G2.1 variants andaccessories,not an accepted original G2 hardware offer. No price copied;used/new IDR unknown. Still a partial lead outside active counts;category-choice census,imports/editor andremaining complete profile fields need review before admission.
+
 ## G2.1Nu
 
 Distinct guitar multi-effects model, not G2.1u or G2Nu. Manufacturer identity: [own support page][ZNU-S]. Checked2026-10-18; partial. Ownership and bass/vocal suitability unverified.

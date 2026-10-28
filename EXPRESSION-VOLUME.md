@@ -321,3 +321,5 @@ Nano Cortex [additional indexed hardware ask](NEURAL-DSP.md#nano-cortex--additio
 ### Zoom G2 original — partial lead outside active inventory
 
 [Own original-model evidence](ZOOM.md#g2-original--partial-capability-lead): per-patch FP01/FP02 assignment, with volume forced during bypass. Shared headphone output;156W×162Dmm exceeds preferred depth. Full profile, exact hardware offer and output-coverage checks remain incomplete. Not added to active model counts or the main capability table.
+
+Original G2 [control and offer follow-up](ZOOM.md#original-g2--controls-memory-and-offer-screening): own manual confirms onboard patch down/up;exact Shopee original-model offer remains unresolved. This does not admit the partial lead or establish all-preset volume.
