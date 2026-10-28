@@ -503,3 +503,7 @@ M-VAVE [host-panel electrical-label check](M-VAVE.md#footctrlplus-host-panel-man
 ### TC-Helicon VoiceTone Create XT — global mix is not pedal volume
 
 [Exact-model screen](TC-HELICON.md#voicetone-create-xt--global-mix-and-preset-cycle-boundary):no analog EXP/headphones ininventory;Switch-3 toggles effects. Global MIX iswet/dry. Vocal-only,outside guitar table. Onboard cyclic advance,not independent down/up;3–10cycle setting retained alongsidefive-preset conflict. Axis-labelled fit unknown.
+
+### TC-Helicon Critical Mass — group MIX is not volume assignment
+
+[Exact-model screen](TC-HELICON.md#critical-mass--direct-control-and-mix-boundary): no analog EXP or headphones in complete inventory. MIX blends group/lead vocals; Mic Control and onboard bypass are switched functions. Vocal-only, outside guitar table; normal-guitar suitability, axis-labelled fit and preset down/up remain unverified.

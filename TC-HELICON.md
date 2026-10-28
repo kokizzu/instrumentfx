@@ -85,6 +85,12 @@ Checked2026-10-18 against the [2017 manufacturer manual,pp3,5](https://www.handl
 | Power / operating environment | [Ownmanual,p5](https://www.handleiding.guide/pdf/817823):operation **0–50°C**,storage **−30–70°C**,maximumhumidity **90% non-condensing**. These are publishedlimits,not measured battery runtime orheat performance. |
 | Live / bypass recovery | [Ownmanual,p3](https://www.handleiding.guide/pdf/817823) saysa tap resumes normalfunction afterholdingthefootswitch bypassesgroupandreverb. No exactholdtime orTonebypassstate isestablished;donot treat thisas programmable scene recall. |
 
+### Critical Mass — direct control and MIX boundary
+
+Checked **2026-10-28** against the [manufacturer-authored 2017 manual](https://www.handleiding.guide/pdf/817823), six pages, printed pp3–5. Complete numbered inventory lists no treadle, analog EXP or headphone socket. MIX blends group vocals with the lead; it is not master volume or pedal assignment. Mic Control switches effects through an MP-75 microphone, not a continuous expression pedal.
+
+The onboard footswitch bypasses group vocals on tap and group plus reverb on hold; no preset down/up operation is documented. Stored-preset capacity remains unverified. Normal guitar-pickup suitability is unclassified; retain vocal-only membership outside the guitar capability table. Dimensions 140×90×60 mm lack axis labels, so W/D fit remains unverified. Direct-pedal position, endpoints and recall are inapplicable to the documented inventory; pedal bypass, tail and recorded-loop attenuation remain unknown. No hardware test or fresh visual inspection.
+
 ## Duplicator
 
 Checked **2026-10-17**; partial. Independent vocal doubling, reverb, correction and Tone qualify this processor for ALL-VOCAL. No guitar/bass membership is inferred from seller categories. Specifications below come from Duplicator documents, not Mic Mechanic 2.

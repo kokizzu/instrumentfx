@@ -125738,5 +125738,20 @@
     ],
     "next": "Remaining inventory;priorityMini/Nano/GP50/HX/CORE/MVAVE/POD/Shopee gaps",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "criticalmass_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "TC-HELICON.md#critical-mass--direct-control-and-mix-boundary",
+    "source": "https://www.handleiding.guide/pdf/817823",
+    "identity": "Manufacturer-authored2017 six-page manual",
+    "result": "No analog EXP/headphones in complete inventory;MIX group/lead blend;MicControl switches not sweep;vocal-only",
+    "unknown": [
+      "normal guitar suitability",
+      "axis-labelled fit",
+      "stored memory/preset navigation",
+      "pedal attenuation coverage"
+    ],
+    "next": "Duplicator/Harmony Singer2/Mic Mechanic2 remaining exact screens;priority global-volume gaps",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
