@@ -25136,11 +25136,11 @@
       "finding": "120x120mm fits;two algorithms;EXP10–25kohm wiper-to-tip,primaryparameterendpointsstoredperpreset;master−3…+3dBperpreset,no globalvolume established;2.5.1listedSep18,2026",
       "next": [
         "Complete algorithm/menu andI/O/control/display census",
-        "Normalpickupandmulti-effects eligibility review",
         "Headphones,onboarddown/up,globalvolume/currentfirmware",
         "Separate used/new conditionandcheckoutstock",
         "Admitonlyaftercompleteprofile;do notincrementactivecounts"
-      ]
+      ],
+      "algorithm_census": "38tablechoices:5Amplitude+5Filters+7Swirls/Shimmers+4Phase+10Misc+7Sequencer;V2.x.xreference,currentinstalledlibraryunverified"
     }
   ],
   "inventory_by_brand": {
@@ -127752,5 +127752,24 @@
       "Chocolate Plus applicability",
       "direct analog global-volume scope"
     ]
+  },
+  "synesthesia_algorithm_census_20261028": {
+    "checked_date": "2026-10-28",
+    "sources": [
+      "https://www.scribd.com/document/1075834567/Synesthesia-Algorithms-v2x-x",
+      "https://www.gfisystem.com/_files/ugd/9deb14_0d772418fba9421bbc7750e4ee86dbec.pdf"
+    ],
+    "revision": "FirmwareV2.x.x original manufacturer reference;officialurl404,reproducedopeningtableandSlowVolume/DynamicTremolosectionsread",
+    "category_counts": {
+      "Amplitude": 5,
+      "Filters": 5,
+      "Swirls & Shimmers": 7,
+      "Phase": 4,
+      "Miscellaneous": 10,
+      "Sequencer": 7
+    },
+    "derived_total": 38,
+    "eligibility": "Explicit guitar pickup-output guidance andindependent echo/EQ/filter/octave/modulation algorithms supportnormalguitarmulti-effects;notactiveadmissionuntilremainingprofilereview",
+    "remaining": "Full I/O,display,editorplatforms,factoryfill,currentlibrary,phones,pedalscopeandqualifiedused/new offers"
   }
 }

@@ -30,3 +30,18 @@ EXP requires **10–25 kΩ, wiper-to-tip**; ring-wiper pedals are explicitly uns
 [D] [Manufacturer model downloads index](https://gfisystem.com/downloads/synesthesia), separately lists manualv2.3.x, MIDIv2.4.x, algorithms and current firmware.
 
 [M] [Manufacturer-authored manual reproduction](https://manuals.plus/m/c645c453677b834bfe7cb54a03a4d1057c3bc8b25e640efe6e906a59ba5c232e), matching title/model/revision and sections; original body, not generated FAQ. [Juno original PDF reproduction](https://imagescdn.juno.co.uk/manual/860850-01U.pdf) indexes the same revision. Earlier [official2.0+ manual URL](https://www.gfisystem.com/_files/ugd/9deb14_ac20b916e988434c9eed5919354108bc.pdf) now404; no current full PDF visual inspection claimed. No file/software/firmware/dependency downloaded or device operated.
+
+### Revision-qualified algorithm census and guitar eligibility
+
+Checked 2026-10-28. [Manufacturer-authored Algorithms Reference, firmware V2.x.x, opening table](https://www.scribd.com/document/1075834567/Synesthesia-Algorithms-v2x-x), matching exact Synesthesia title and [indexed official reference](https://www.gfisystem.com/_files/ugd/9deb14_0d772418fba9421bbc7750e4ee86dbec.pdf). Official URL now404; original reproduced body inspected, not Scribd’s generated summary.
+
+| Group | Count | Named algorithms |
+|---|---:|---|
+| Amplitude | 5 | Tremolo, Harmonic Tremolo, Chopper, Dynamic Tremolo, Slow Volume |
+| Filters | 5 | Filter, Envelope Filter, S&H Filter, Formant, Wah Filter |
+| Swirls & Shimmers | 7 | Dimension C, Chorus, Tri-Chorus, Detune, Dyna Flanger, Tape Flanger, S&H Flanger |
+| Phase | 4 | Phaser, Envelope Phaser, S&H Phaser, UniVibe |
+| Miscellaneous | 10 | Octave, Vibrato, Ring Modulator, Parametric EQ, Bit Crusher, Pressed Junk, Record Antics, Phono Filters, Horn (Rotary), Drum (Rotary) |
+| Sequencer | 7 | Arp Tremolo, Arp Filter, Arp Formant, Arp Flanger, Arp Phaser, Arp RingMod, Arpeggiator |
+
+Derived total **38 choices**, not simultaneous capacity. Slow Volume includes echo, independently usable with Swell Time zero. Dynamic Tremolo explicitly references guitar pickup output. This supports normal-pickup multi-effects eligibility; current installed library, full profile and active admission remain pending. Slow Volume’s automatic onset swell is not global pedal-volume assignment. No download or device test.
