@@ -70,3 +70,9 @@ Manufacturer-hosted text only; no visual audit, hardware operation or downloads.
 
 [DMW-M]: https://www.demon-fx.com/uploadfile/202404/b1a86a7081609f2.pdf
 [DMW-O]: https://shopee.co.id/Efek-Gitar-DemonFX-DUAL-MOD-WORKSTATION-Multi-Effect-Harmonic-Trem-Phaser-Chorus-Vibrato-Flanger-Rotary-Digital-Hall-Plate-Reverb-Tremolo-Filter-Wah-ADT-Digital-Analog-Delay-Tap-Tempo-Expression-Super-MOD-Electric-Guitar-Effect-Gitar-Elektrik-Pedal-i.19700013.26274795531
+
+### Dual Mod Workstation — expression-volume eligibility screen
+
+Checked **2026-10-28** against the complete [manufacturer two-page manual][DMW-M],original readable text. The direct quarter-inch TRS input has a **fixed documented Bank2 RATE target**. The complete Bank2 table maps that control to modulation speed in modes1–5,delay feedback in6,andreverb decay in7–8. Bank output LEVEL anddelay/reverb mix levels are separate controls;neither tremolo amplitude modulation norrotary horn/drum blend establishes a pedal-controlled master volume. **The documented expression path does not supply the requested volume function**. Undocumented remapping remains unknown,not a verified capability.
+
+Keep this existing active guitar model outside the main no-treadle capability table until built-in-treadle absence is established. Footprint,headphones,onboard preset down/up,writable memory,controller resistance/pinout andrange/recall remain unknown. PDF page-image requests yielded no inspectable image this pass;no fresh visual control count claimed. Global volume,bypass/headphone/tail/recorded-loop attenuation therefore remain unverified rather than borrowed from Keeley oranother DemonFX model. No local download orhardware test.

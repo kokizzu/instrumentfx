@@ -125067,5 +125067,26 @@
     "source_conflict": "Fast English table says reverb/chorus versus Smooth reverb/delay; preserved",
     "unknown": "EXP tail attenuation,headphones,global FV versus patch range precedence",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "dualmod_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "DEMONFX.md#dual-mod-workstation--expression-volume-eligibility-screen",
+    "source": "https://www.demon-fx.com/uploadfile/202404/b1a86a7081609f2.pdf",
+    "basis": "Complete manufacturer two-page manual text, Bank2 RATE mapping",
+    "direct_exp": "Quarter-inch TRS",
+    "documented_target": "Modes1–5 speed,6 delay feedback,7–8 reverb decay; not master volume",
+    "verdict": "Documented path does not supply requested volume; undocumented remapping unknown",
+    "eligibility": "No-treadle layout unknown; outside main capability table",
+    "unknown": [
+      "footprint",
+      "headphones",
+      "onboard preset down/up",
+      "writable preset memory",
+      "expression resistance/pinout",
+      "range/recall",
+      "bypass/tail/recorded-loop volume coverage"
+    ],
+    "next": "Remaining no-treadle inventory and priority Mini/Nano/GP50/controller questions",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

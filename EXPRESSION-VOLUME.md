@@ -384,3 +384,7 @@ Soran Dual Stomp [scope reconciliation](SORAN.md#dual-stomp--built-in-treadle-sc
 [Exact-model manufacturer screen](MOSKY.md#dc5--expression-audit-footprint-and-eligibility-screen):230×65mm fails the preferred rectangle either orientation. No-treadle layout,analog EXP,headphones andpreset navigation remain unknown;outside the main capability table pending original panel/manual evidence. Existing active guitar model,not a new admission.
 
 Nano Cortex [dated per-preset MIDI workaround report](NEURAL-DSP.md#nano-cortex--reported-per-preset-midi-expression-workaround): October2025 user describes saving assignments separately per preset. It is not current direct-analog orstaff verification;CC1 carries pedal position,not an independent global master-volume assignment. Global analog scope remains unverified.
+
+### DemonFX Dual Mod Workstation — documented target mismatch
+
+[Exact-model expression screen](DEMONFX.md#dual-mod-workstation--expression-volume-eligibility-screen): TRS expression controls Bank2 RATE,speed/feedback/decay depending onmode. Documented path is not volume;undocumented remapping unknown. No-treadle layout,footprint,headphones andpreset controls remain unverified;outside main table pending eligibility evidence.
