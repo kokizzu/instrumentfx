@@ -58,6 +58,19 @@ Checked 2026-10-28 in [manufacturer-authored Rev J, March2026, pp21–26](https:
 
 None establishes EXP attenuation of bypass audio, existing tails or recorded loops. Expression assignments remain preset-stored under the earlier evidence; position recall and global master-volume mapping remain unknown. No download, update or hardware test.
 
+### Rev J controls, display and startup-power qualification
+
+Checked 2026-10-28 against [original Rev J manual reproduction, pp1–4/25/28/31](https://www.scribd.com/document/1072569196/Solis-Ventus-User-Manual-rev-J), exact model and March2026 revision.
+
+| Field | Documented evidence / qualification |
+|---|---|
+| Controls | Derived **8 push-rotaries,3 footswitches,2 touch sliders**: ALGO,TIME,PARAM,MIX for each engine; A/Y,B/X,C/TAP. Rotary push actions are not separate buttons. No treadle in this text inventory; separate-button count/visual corroboration pending. |
+| Display | Feature list explicitly specifies **high-contrast OLED**; global brightness menu instead says LCD Brightness,range1–10. Preserve terminology mismatch. Diagonal,resolution,color/monochrome and touchscreen unverified; touch sliders do not prove touchscreen. |
+| Power / connector | Stable **9V DC,>340mA supply capacity**,2.1mm inner diameter,centre-negative. Requirement is distinct from published **<350mA draw**; not a measured value. Barrel outer diameter,battery/USB operation remain unknown. |
+| Startup compatibility | Manual reports failure with slowly ramping supply voltage, specifically identifies **Voodoo Lab Pedal Power X8**, and describes powering the supply before connection or reconnecting DC as a workaround. Broader product-line applicability is only the manufacturer’s assumption; not established. No tested compatibility claim. |
+
+Rev N applicability and axis-labelled size remain unverified. Text evidence only; no power cycling,rewiring,download,firmware operation or hardware test.
+
 ## Synesthesia
 
 Checked 2026-10-28; **partial active guitar multi-effects record**, not fully verified. Dual-engine filtering, octave, EQ, echo and modulation plus explicit guitar-pickup guidance establish eligibility; no specialized pickup required by the inspected instructions. Bass/vocal suitability and ownership unverified. Earlier discovery wording below is retained as dated research history; this summary governs current admission.
