@@ -685,7 +685,7 @@ Current comparison summary, reconciled 2026-10-28 from the exact-model sources r
 | Knobs / footswitches / buttons | **1 rotary / 2 footswitches / 0 separate buttons**, from numbered manufacturer manual text. Rear volume knob controls all outputs; that coverage is not transferred to EXP. FS1/FS2 provide previous/next patch; external FS3/4 require switch mode. Toe-pressure calibration alone does not establish a toe switch. |
 | Display | Published **4-inch, 800×480, color touchscreen**; not photo-measured. |
 | Dimensions / weight | Published **134×120×49 mm; 529 g**. Fits preferred 200×140 mm chassis envelope; cable clearance additional. |
-| Processing | **9 simultaneous modules**, subject to processor overload limits. V2.2 says **200+ effects**; older 199 remains historical. V2.2 tables: NR2, EQ7, DLY17, RVB11; CAB50 factory cabinets +10 factory acoustic IRs, with10 user slots separately. AMP55 named choices (11 Clean/19 Drive/18 HiGain/5 Bass/2 Acoustic); FX census remains unverified. V2.2 adds Precise Attack and Match30 Clean; do not derive a new total by adding to199. |
+| Processing | **9 simultaneous modules**, subject to processor overload limits. V2.2 says **200+ effects**; older 199 remains historical. V2.2 tables: NR2, EQ7, DLY17, RVB11; CAB50 factory cabinets +10 factory acoustic IRs, with10 user slots separately. AMP55 named choices (11 Clean/19 Drive/18 HiGain/5 Bass/2 Acoustic); Combined FX table59 (8 Dynamic/17 Frequency/17 OD-DS/17 Modulation); per-slot restrictions remain qualified. V2.2 adds Precise Attack and Match30 Clean; do not derive a new total by adding to199. |
 | Presets | **99 factory + 99 user** documented. This storage split does not establish every factory preset's VOLUME-enable default. |
 | Synth / acoustic | Electric-to-acoustic steel/nylon examples; five documented bass amp/preamp choices justify shared bass membership. Pitch Shift is polyphonic, ±24 semitones; Classic PS monophonic. Sweller is an automatic envelope, not global EXP volume. Dedicated synth engine remains unverified. |
 | Audio I/O | ¼-inch TS instrument input; ⅛-inch stereo AUX; single ¼-inch stereo TRS main output; dedicated ⅛-inch headphones. English evidence: **unbalanced, tip=L/ring=R**; Japanese indexed balanced-stereo wording conflicts. AUX bypasses effects and USB audio. |
@@ -946,6 +946,21 @@ Checked 2026-10-28 in [manufacturer V2.2 manual](https://res.hotoneaudio.com/pro
 Numbered/channel variants are separate menu entries; their parameter settings do not create further algorithms. The two Acoustic entries model preamp switch combinations, distinct from electric-to-acoustic effects and factory acoustic IRs. Sound Clone1–10 are separately documented imported-file slots, not ten additional named factory AMP models. Earlier200+effect headline and all revision/source qualifications remain.
 
 FX1/FX2/FX3 census and deduplication across shared categories remain open. No new universal EXP assignment oroutput-coverage proof, hardware test orlocal download.
+
+### Ampero Mini — V2.2 FX table census and shared-entry boundary
+
+Checked 2026-10-28 in [manufacturer V2.2 manual](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf), printed pp28–34: **59 named entries** in the combined FX1/FX2/FX3 table. This is a table census, not independently verified per-slot availability. Earlier model-specific release notes place Precise Attack in FX1/FX2; retain that narrower qualification.
+
+| Table group | Entries |
+|---|---|
+| Dynamic (8) | Comprosso, Squeezer, Affinity Boost, FET Boost, Enhancer, Smart Gate, Fast Gate, Gated Boost |
+| Frequency (17) | Acoustic Refiner, AC Sim, Toucher, Crier, Voxy Wah, Cry Wah, Bass Press, Clean Octa, Harmony, Telephone Line, Satisfaction, Path Filter, Bit Krusher, Ring Mod, Sweller, Pitch Shift, Classic PS |
+| Overdrive/Distortion (17) | Green Drive, Super Drive, Screamood, Zen Garden, Big Pie, Face Fuzz, Bend Fuzz, Black Tail, Smooth Dist, Governor, Crunchist, Bass Crusher, Solid Steel, Dr. Blues, Blues Butter, Magic T, Precise Attack |
+| Modulation (17) | Aozora Chorus, Grand Choruium, Liquid C, Choruium B, Detune, Jetter, Jetter B, Jetter N, Trem Jet, Pulser, Grand Vibrato, Shiver T, 90 Phaser, Green Phaser, Revolver, Helicopter, Custom Trem |
+
+Smart Gate/Fast Gate repeat the dedicated NR choices and count once in a unique-library calculation. Parameter modes, numbered head combinations, microphone choices, user IR slots and imported Sound Clone slots remain separate. The combined table heading does not resolve every slot restriction; the NR section specifically mentions FX1/FX2. No universal FX3 availability asserted.
+
+AC Sim’s four modes and Acoustic Refiner are tonal processing, separate from acoustic IRs and AMP preamps. Path Filter is synth-like filtering, not proof of a dedicated synth engine. Complete per-slot mapping, manufacturer headline-count reconciliation and global EXP/output coverage remain unresolved. No local download ordevice test.
 
 ## Ampero MP-100
 

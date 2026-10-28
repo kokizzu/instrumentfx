@@ -22,4 +22,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(hotone): enumerate Mini V22 amp choices separately from clones'))
+    print(git('commit','-m','research(hotone): enumerate Mini FX table and retain slot restrictions'))
