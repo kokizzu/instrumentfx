@@ -124449,5 +124449,11 @@
     "revision": "EN_V01",
     "finding": "19 displayed globally assigned targets omit IN/OUT levels; global volume unverified. Original navigation DelayB previous/DelayA next on Preset Selection, not II mapping. No dedicated phones;127W×215D fails fit in either orientation.",
     "next": "Continue systematic unscreened no-treadle models; retain unresolved original-volume target/coverage, Mini/Nano scope and independent GT-Pro cursor."
+  },
+  "gs1000_li_expression_scope_20261028": {
+    "source": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GS1000_Manual_EN.pdf",
+    "identity": "Cover explicitly GS1000 / GS1000 Li,97PDFpages",
+    "finding": "Volume/expression mode preset-stored; global calibration/PrePost not universal assignment. Min/max/enable documented; recall/bypass/headphone/recordedloop coverage unknown. Dedicated phones,161W×240D too large.",
+    "next": "Continue remaining no-treadle inventory; preserve Li software applicability gaps and independent GT-Pro cursor."
   }
 }

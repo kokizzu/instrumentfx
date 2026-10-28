@@ -1947,6 +1947,10 @@ Shared software/library/routing evidence is expanded in [standard GS1000](#gs100
 [GSL-M]: https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GS1000_Manual_EN.pdf
 [GSL-P]: https://cn.mooeraudio.com/product/94.html
 
+### GS1000 Li — preset mode versus global placement
+
+Checked2026-10-28 using the manufacturer-authored shared GS1000/GS1000 Li [manual][GSL-M],whose cover names both editions,printedpp31–34,66. Volume/expression mode and assignments must be stored per preset;calibration is global. **PER PATCH**,not a verified universal volume override. Volume minimum/maximum and enable switch are provided. Global Pre/Post sets placement,not per-preset mode:Pre preserves downstream tails;Post can mute the chain at minimum. Recall,bypass,headphone andrecorded-loop attenuation remain unverified. Dedicated phones documented separately. 161W×240Dmm fails preference in either orientation;no standard-edition mass orfirmware transferred. Onboard A–D preset selection does not by itself prove sequential down/up.
+
 ## Ocean Machine II
 
 Checked 2026-10-18; partial active guitar multi-effects record. Original Ocean Machine is a distinct revision.
