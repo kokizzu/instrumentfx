@@ -235,6 +235,12 @@ Remaining: manufacturer original and hardware applicability of quick-start revis
 [HS2-Q5]: https://device.report/manuals/harmony-singer-2-quick-start-guide
 [HS2-Q5INDEX]: https://www.manualslib.com/manual/3373982/Tc-Helicon-Harmony-Singer-2.html
 
+### Harmony Singer 2 — untouched guitar and LEVEL boundary
+
+Checked **2026-10-28**: [current manufacturer page][HS2-P] explicitly sends guitar to the amp untouched. It guides vocal harmony, not guitar multi-effects; retain vocal-only membership outside the guitar capability table. [Own 2016 manufacturer manual][HS2-M], pp3–6, lists no analog EXP or headphone socket in controls/connections. LEVEL adjusts harmony voices, not guitar or master output volume. Mic Control and momentary/latching operation switch harmony rather than continuous volume.
+
+No stored-preset down/up operation is documented; eight harmony settings are not established memories. Dimensions140×90×60mm remain axis-unlabelled; fit unverified. Direct-pedal position/endpoints/recall are inapplicable to this older inventory; pedal bypass/tail/recorded-loop attenuation unknown. Preserve newer ground-lift/control and hold-bypass differences rather than certifying all current units from the older manual. No hardware test or fresh visual inspection.
+
 ## Mic Mechanic 2
 
 Checked **2026-10-17**; partial. Vocal multi-effects with independent echo, reverb and correction controls; included in ALL-VOCAL only. This is the second-generation unit, not the original Mic Mechanic. No guitar or bass capability is inferred from seller category labels.

@@ -511,3 +511,7 @@ M-VAVE [host-panel electrical-label check](M-VAVE.md#footctrlplus-host-panel-man
 ### TC-Helicon Duplicator — doubling level is not master volume
 
 [Exact Rev.1 screen](TC-HELICON.md#duplicator--added-voice-level-and-direct-control-boundary): no analog EXP/headphones in complete inventory. DOUBLING sets added-voice level; Mic Control is switched. Vocal-only, outside guitar table. Preset down/up and axis-labelled fit unverified; newer bypass/phantom conflicts retained.
+
+### TC-Helicon Harmony Singer 2 — guitar guidance, not processing
+
+[Exact-model screen](TC-HELICON.md#harmony-singer-2--untouched-guitar-and-level-boundary): current manufacturer confirms untouched guitar thru. Vocal-only, outside main table. Older manual inventory has no analog EXP/headphones; LEVEL controls harmonies. Axis-labelled fit and preset down/up unverified; newer control/bypass qualifications retained.

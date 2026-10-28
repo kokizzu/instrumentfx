@@ -125770,5 +125770,23 @@
     ],
     "next": "Harmony Singer2 thenMic Mechanic2;priority global-volume gaps retained",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "hs2_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "TC-HELICON.md#harmony-singer-2--untouched-guitar-and-level-boundary",
+    "sources": [
+      "https://www.tchelicon.com/en/products/0726-AAB",
+      "https://images.thomann.de/pics/atg/atgdata/document/manual/404710_harmony_singer_2_manual_en_404710.pdf"
+    ],
+    "identity": "Current manufacturer page;2016eightpage manual",
+    "result": "Guitar untouched percurrentpage;vocalonly;LEVEL harmonyvolume;no analogEXP/headphones inolderinventory",
+    "unknown": [
+      "currentrevision controls/bypass",
+      "axis-labelledfit",
+      "presetmemory/navigation",
+      "pedalattenuationcoverage"
+    ],
+    "next": "Mic Mechanic2 exact-model screen;priorityglobalvolumequestions",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }
