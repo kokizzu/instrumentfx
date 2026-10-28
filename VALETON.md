@@ -102,6 +102,12 @@ Checked 2026-10-18; web text only, no downloads or image inspection.
 |---|---|
 | Controls / shared tuner footswitch | Checked2026-10-18 against [own V01_170213 manual pp1–2][DA-M]: the three module ON/OFF labels support the text-derived three-foot count. The tuner shares REVERB hold and mutes output. Seven note LEDs and three pitch LEDs are indicators,not buttons. PDF text is readable; screenshot references did not expose inspectable images and the in-app browser was unavailable. No visual verification,additional-port absence or screen diagonal inferred. |
 
+### Dapper Acoustic Mini — qualified expression capability screen
+
+Checked 2026-10-28 against [own V01_170213 manual][DA-M] and [product specifications][DA-P]. Acoustic instrument use and dedicated PHONES are documented; ordinary electric-guitar suitability remains unverified. PHONES, COMP VOL and PREAMP VOL are hand controls, not direct analog EXP assignments. External EXP support and global-volume scope remain **unverified** because complete control-port evidence is still missing.
+
+All outputs may operate together, but that does not prove a common volume-control path. Pedal attenuation of headphones, bypass, reverb tails and recorded loops remains unknown; minimum/maximum, volume placement and recall likewise. Three module switches and REVERB hold-to-tune do not establish preset down/up. Product197W×65Dmm fits preference; manual65W×197Dmm requires rotation and retains the axis conflict. No sibling cab-simulation, connector or preset specification transferred.
+
 ## Dapper Amp Mini
 
 Checked2026-10-17;partial. Guitar multi-effects;discontinued. Bass/vocal suitability and ownership unverified.

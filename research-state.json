@@ -124492,5 +124492,10 @@
     ],
     "finding": "Bass-only documented suitability; guitar unclassified. PHONES physical control headphone-only,not globalEXP. EXP/controlinventory unverified. Preserve axes,current,mass conflicts.",
     "next": "Continue exact-model Dapper no-treadle inventory;Mini/Nano questions and independent GT-Pro cursor retained."
+  },
+  "dapper_acoustic_mini_expression_screen_20261028": {
+    "source": "https://www.valeton.net/download/178/dapper-acoustic-mini/18591/dapper-acoustic-mini_manual_en_v01_170213-2.pdf",
+    "finding": "Dedicated PHONES and simultaneousoutputs not proof of common volume control; EXP/globalvolume unverified. Acoustic use only documented. Axis conflict retained.",
+    "next": "Continue remaining Dapper exact-model inventory; retain Mini/Nano globalvolume questions and separate GT-Pro cursor."
   }
 }
