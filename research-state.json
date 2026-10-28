@@ -124631,5 +124631,11 @@
     "finding": "Manufacturerexplicitlynoheadphoneuse;EXP/globalvolumeunknown,originalfullrearunverified.262x64failsfit;axes/heightconflictretained;acoustic use only.",
     "rejected": "GeneratedASINmanual500mAincludedadapter/allanalog claims notaccepted.",
     "next": "Continue Sonicbar exact-model no-treadle inventory;Mini/Nano questions and independentGTPro retained."
+  },
+  "rockstage_expression_screen_20261028": {
+    "source": "https://www.sonicake.com/products/rockstage",
+    "finding": "Guitar use documented;64W262D fails preferred rectangle either orientation. DirectEXP/globalvolume/headphones/preset downup unknown; module/cabsim controls insufficient.",
+    "manual_access": "English original image no readable content; Japanese original cache miss. No full connector/panel inspection or local download.",
+    "next": "Continue Sonicbar exact-model no-treadle inventory; retain Mini/Nano unresolved scope and independent GT-Pro cursor."
   }
 }

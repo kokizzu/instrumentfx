@@ -645,6 +645,11 @@ The Hotone Japan SONICAKE listing identifies QCE-10 and independently repeats 13
 [RS-J]: https://www.hotone.jp/brands/sonicake/products/rockstage
 [RS-M]: https://cdn.shopifycdn.net/s/files/1/0100/1950/4185/files/Rockstage-User_Manual.jpg?v=1647482298
 
+### RockStage — qualified direct expression screen
+
+Checked2026-10-28 against the [manufacturer product page][RS-P]. Ordinary electric guitar use is documented. The stated64W×262Dmm chassis fails the preferred200W×140Dmm rectangle in either orientation; manufacturer axis labels are retained. Direct analog EXP, global volume assignment, volume position/endpoints/recall, headphones and onboard preset down/up remain **unverified**. Module controls and cab simulation do not establish those functions. Pedal attenuation during bypass, through headphones, or over tails/recorded loops is unknown. The English manual-image link exposed no readable content and the Japanese original returned cache miss; no full connector or panel inspection is claimed. No local file or software was downloaded. Earlier sold-out Shopee evidence remains dated and qualified.
+
+
 ## Smart Box QME-20
 
 <!-- comparison evidence begins -->
