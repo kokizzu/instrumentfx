@@ -136,6 +136,14 @@ Checked **2026-10-28**: [Yamaha Singapore Black page](https://shop.sg.yamaha.com
 
 HX Effects, HX Stomp and HX Stomp XL remain **not certified in this audit as zero-per-preset-setup global volume solutions**. Their existing records stay intact. A Global EXP Position setting must never be treated as proof of a globally inserted volume block or output-controller assignment. A fresh firmware-matched check of output-level controller scope remains on the audit queue.
 
+### Black — separate Indonesian import-price lead
+
+Checked2026-10-28: [Ubuy Indonesia exact Black page](https://www.ubuy.co.id/en/product/MVC3490D4-pod-express-black),item120939967,manufacturer-part99-060-3300,UPC614252361675,**IDR4,081,396**,crossedIDR4,188,563/3%display. Five-month search cache;directreopen cache miss. Page selected Black andstates US import,**shipping/customs excluded**,calculated atcheckout. Cached In stock/May20delivery is not currentavailability. Red variation also appears;checkout selection isunverified.
+
+Condition,new/used,actual seller,working state,firmware,battery condition,adapter/bundle,regional warranty,authenticity,tax/duties anddelivered total remain unverified. Listing mentions threeAA batteries butdoes notverify delivered accessories. This is an isolated importask,not a localShopee quote,completed sale orverified used/new range. No currency conversion applied. Retail specifications are not used toresolve chassis measurements ormanufacturer electrical claims.
+
+ExactShopee hardware andmanufacturer-backed Black dimensions remain unresolved afterrenewed searches. Guitar/Bass measurements are not transferred. Black remains a partial lead outside active counts;earlier bundle/source qualifications preserved.
+
 ## Floor POD Plus
 
 Guitar multi-effects;checked2026-10-17;partial. [Own Spanish manual][FPP-M],40-00-0116RevB,©2009,36pages,sections1,2,3,4. Not original FloorPOD. Bass direct-box use documented below;live-vocal suitability andownership unverified.
