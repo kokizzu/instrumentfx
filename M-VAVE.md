@@ -182,6 +182,12 @@ Retail **Rp520.000** [Imagination19576516/28086638429](https://shopee.co.id/M-VA
 
 Source: **original eight-page AC manual**,[Scribd originalsectionsI–VIII](https://www.scribd.com/document/826512660/M008-Cube-golden). Actualmanualbody/chain/controls/preset/IR/table read,notAI-enhancedtitleor summary;no fetchedPDFobject/screenshots. [Officialdownloads](https://www.m-vave.com/download),[catalogue](https://www.m-vave.com/products) confirmdistinctmodel/desktopcompatibility. Currentrevision,smallports,IRlimits/USBchannelsremainopen.
 
+### CUBE BABY AC — mode-dependent volume screening (2026-10-28)
+
+[Own eight-page AC manual, sectionsII/V](https://www.scribd.com/document/826512660/M008-Cube-golden), original body only: complete rear inventory has **no analog EXP**, so direct pedal-volume path fails. PRESET-mode VOLUME controls final output; LIVE fixes final output at **70%** while VOLUME adjusts chain level. EDIT retains prior final output and uses VOLUME for chain level; the manual advises returning the knob to its previous performance position after exiting. These are distinct levels/modes, not global expression assignment.
+
+Three direct A/B/C presets, not sequential down/up. Dedicated headphones; small-jack details unresolved. Existing161L×57Wmm fits; acoustic-electric target does not certify ordinary electric-guitar tone. Direct-pedal position/range N/A; bypass/headphone/tail/recorded-loop attenuation unknown. AC charging-operation gap remains; no electric-model rule transferred. No hardware test.
+
 <!-- comparison evidence ends -->
 
 ### Preserved original finding

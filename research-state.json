@@ -123759,5 +123759,17 @@
       "hand-volume attenuation coverage"
     ],
     "hardware_test": false
+  },
+  "cubebaby_ac_expression_screen_20261028": {
+    "source": "https://www.scribd.com/document/826512660/M008-Cube-golden",
+    "identity": "original AC manual sectionsII/V, not AI summary",
+    "classification": "no analog EXP; hand output/chain volume distinct by mode",
+    "mode_qualification": "PRESET final; LIVE final70%/chain knob; EDIT retains prior output",
+    "remaining": [
+      "small ports",
+      "attenuation coverage",
+      "operation while charging"
+    ],
+    "hardware_test": false
   }
 }
