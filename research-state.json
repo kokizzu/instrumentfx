@@ -122568,27 +122568,14 @@
     ],
     "instruction": "Independent general research queue retained per user; existing technical cursor preserved.",
     "last_finding": {
-      "model": "HeadRush Prime",
+      "model": "MOOER GE300",
       "checked": "2026-10-28",
-      "source": "previously saved originalUserGuide5.2.0 pp26–27,58",
-      "cabinet_ir": "300+included;2048/1024sample processing",
-      "convolution_ir": {
-        "included": "50+",
-        "instances_per_rig": 1,
-        "max_seconds": 10,
-        "multichannel": "first2channels",
-        "cpu": "length-dependent"
-      },
-      "storage_ceiling": "unverified",
-      "offer": {
-        "seller": "1149776042",
-        "item": "54402465704",
-        "idr": 15400000,
-        "condition": "Second/Bekas",
-        "stock_snapshot": "Habis",
-        "access": "month-old cache"
-      },
-      "next": "MOOER GE300 follow-up; independent expression audit and GT-Pro cursor preserved"
+      "source": "saved original manufacturer manual pp19–22,86–88; current official firmware history",
+      "synth": "3parallelvoices;5waveforms;pitch±24;staticfilter60Hz–10kHz;dryparallelmix;inputtrackingfixed/outputtap0–13",
+      "expression": "preset FUNCTION and MERGE;globalvolumeunverified;builtin treadle",
+      "offer_reopen": "31173885/29362925028 cachemiss;oldasknotrefreshed",
+      "next": "Fresh exact Shopee discovery by brand/series; retain generalqueue provenance, expression audit and GT-Pro technical cursor",
+      "remaining": "Current algorithm census,memorysplit,pixels/touch,portablepower,IR/NAMsubvariants,USBMIDI,drums/scenes and qualified prices"
     },
     "completed_followups": [
       {
@@ -122617,6 +122604,29 @@
         },
         "remaining": "Other category subtotals,manual corrections,toe count,touch,power/import restrictions and condition-specific offers",
         "next": "HeadRush Prime follow-up, then MOOER GE300; retain independent expression audit and GT-Pro cursor"
+      },
+      {
+        "model": "HeadRush Prime",
+        "checked": "2026-10-28",
+        "source": "previously saved originalUserGuide5.2.0 pp26–27,58",
+        "cabinet_ir": "300+included;2048/1024sample processing",
+        "convolution_ir": {
+          "included": "50+",
+          "instances_per_rig": 1,
+          "max_seconds": 10,
+          "multichannel": "first2channels",
+          "cpu": "length-dependent"
+        },
+        "storage_ceiling": "unverified",
+        "offer": {
+          "seller": "1149776042",
+          "item": "54402465704",
+          "idr": 15400000,
+          "condition": "Second/Bekas",
+          "stock_snapshot": "Habis",
+          "access": "month-old cache"
+        },
+        "next": "MOOER GE300 follow-up; independent expression audit and GT-Pro cursor preserved"
       }
     ]
   },

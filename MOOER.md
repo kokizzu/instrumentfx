@@ -1499,6 +1499,19 @@ Selected condition/variant,bundle,region,warranty,voucher,shipping and live stoc
 
 Remaining: complete current algorithms,factory/user memory split,pixels/touch,explicit battery/USB operation,current IR source formats,NAM subvariant/quality limits,USB MIDI,drums/scenes,qualified used and live-stock IDR evidence. No whole-model verification claim.
 
+### GE300 — synth topology and expression revision limits, 2026-10-28
+
+Complete printed pp19–22,86–88 read from the previously saved [original GE300 manufacturer manual](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf). No new download, visual inspection or device operation; original revision, not a recertification of every5.1.4 parameter.
+
+| Field | Evidence / qualification |
+|---|---|
+| Synth / per-voice controls | Three independent parallel voices each offer **five waveforms** (sine,sawtooth,triangle,square,pulse),pitch−24.0…+24.0 semitones,Attack/Level0–100. Attack100 is fastest. Filter Off/LP/HP/BP/Peak;Static/Touch/LFO control,static cutoff60Hz–10kHz,resonance0–100. These settings do not add separate block instances. |
+| Synth / arpeggiator | Each voice has Pattern0–100 and speed0.2–20Hz or tempo divisions. Pattern parameter range is not an independently verified count of101 unique active patterns; Off appears in the illustrated screen. |
+| Routing / synth master | Dry Thru Level0–100 runs parallel to the whole synth. Input feeds each voice directly;SYNTH stays first for tracking,while Effect out port to0–13 routes its output later in the chain. This is not permission to move synth tracking behind other processing or a complete dual-rig architecture. |
+| Expression / original scope | FUNCTION assigns one parameter within the preset;EXP1 toe switch optionally toggles its block. MERGE learns reversible heel/toe endpoints for multiple parameters across blocks. This does not establish global volume assignment or headphone/bypass/tail/looper attenuation. Built-in treadle excludes GE300 from the no-treadle shortlist. |
+
+[Exact-model firmware history](https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html) reopened2026-10-28 still lists5.1.4;3.0.1 notes a volume-expression Linear/Exponential fix,which does not prove assignment scope. [Shopee item31173885/29362925028](https://shopee.co.id/-Ready-Stock-mooer-ge300-amp-modelling-synth-multy-efek-multy-effect-mooer-Original-ge-300-i.31173885.29362925028) returned cache miss;olderRp11.928.000 remains historical with condition,stock,bundle and voucher unresolved.
+
 ## GE300 Lite
 
 Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no sibling specifications adopted. [Own product page](https://www.mooeraudio.com/product/GE300Lite-239.html). Bass/vocal suitability remains unclassified.
