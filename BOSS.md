@@ -1821,6 +1821,12 @@ This resolves the documented ASSIGN recall examples, not SYSTEM fixed FootVolume
 
 Exact GT-PRO title/chapter/pagination corroborated; indexed manufacturer-authored text, not generated advice or GT-8 transfer. No visual/hardware test or download. Actual M-VAVE-controller compatibility remains unresolved; no tip/ring pinout inferred. Global fixed FootVolume versus patch enable/range precedence and output coverage remain open.
 
+### GT-Pro — historical USB device names and channel-count boundary
+
+Checked 2026-10-28 against [original manufacturer manual, indexed printed p123](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf), exact GT-PRO Windows driver-settings section. Audio input/output use **BOSS GT-PRO** under WDM, **MME BOSS GT-PRO In/Out** under MME, and **BOSS GT-PRO** as ASIO device. MIDI input/output instead use **BOSS GT-PRO Control**, for editor/sequencer SysEx communication with the unit. These driver-era endpoint names do not establish USB audio channel count or DIN-MIDI bridging.
+
+The same section advises disabling application monitoring or using ASIO Direct Monitor to avoid feedback/double monitoring. Its MME fallback concerns applications lacking WDM/ASIO, including24-bit recording/playback; not a current Windows compatibility certification. Existing Standard/Special resolution and modern-host restrictions remain. USB channel count still requires explicit documentation; MAIN+SUB mixing is not evidence of four recording channels. No driver/software download or device test.
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.
