@@ -123590,5 +123590,17 @@
       "sequential scene footswitch navigation"
     ],
     "hardware_test": false
+  },
+  "m5_expression_screen_20261028": {
+    "source": "https://line6.com/data/6/0a06434d12155507f39d011ad3/application/pdf/M5%20Pilot%27s%20Guide%20-%20English%20%28%20Rev%20B%20%29.pdf",
+    "scope": "per-preset assignments/endpoints; no independent global volume established",
+    "preset_navigation": "previous/next in Preset mode, LOAD confirmation or INSTANT",
+    "remaining": [
+      "global override",
+      "volume range/recall",
+      "bypass/tail attenuation",
+      "footprint"
+    ],
+    "hardware_test": false
   }
 }

@@ -787,6 +787,10 @@ Checked 2026-10-18 against the Rev B guide; documentation verification, not a de
 | Live / tempo and expression limits | Manual tempo range **30–240 BPM**, global or per preset; holding TAP permits0.1-BPM edits. Tempo-enabled effects follow incoming MIDI Beat Clock. Parameters assigned to tap-tempo control are excluded from expression-pedal adjustment. Separate setup gate has threshold/decay controls but no footswitch control. | [Rev B PDF pp5,7–8][M5-M] |
 | Expression / assignment reset | Heel/toe endpoints are stored per preset. To clear selected parameter assignments, the guide describes disconnecting the pedal, changing those parameters, then reconnecting. This is distinct from factory reset, which resets presets and global settings. | [Rev B PDF pp7–8][M5-M] |
 
+### M5 — direct-expression volume screening (2026-10-28)
+
+[Own RevB Handbook][M5-M], PDF pp4–8: expression assignments/endpoints are per preset; no separate global volume override established. The documented mono10kΩ linear connection must not be replaced with sibling TRS wiring. No dedicated headphone socket appears in the rear inventory. Preset mode provides previous/next foot browsing: LOAD needs confirmation, INSTANT loads upon selection. Exact volume range, held-position recall, bypass/tail attenuation and footprint remain unverified. DSP tails are documented, but do not prove expression coverage. No hardware testing performed.
+
 ## M9
 
 Effects-only guitar/shared-bass multi-effects; distinct from M5/M13. Checked2026-10-17;partial. Ownership/vocal suitability unknown.
