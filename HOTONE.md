@@ -685,7 +685,7 @@ Current comparison summary, reconciled 2026-10-28 from the exact-model sources r
 | Knobs / footswitches / buttons | **1 rotary / 2 footswitches / 0 separate buttons**, from numbered manufacturer manual text. Rear volume knob controls all outputs; that coverage is not transferred to EXP. FS1/FS2 provide previous/next patch; external FS3/4 require switch mode. Toe-pressure calibration alone does not establish a toe switch. |
 | Display | Published **4-inch, 800×480, color touchscreen**; not photo-measured. |
 | Dimensions / weight | Published **134×120×49 mm; 529 g**. Fits preferred 200×140 mm chassis envelope; cable clearance additional. |
-| Processing | **9 simultaneous modules**, subject to processor overload limits. V2.2 says **200+ effects**; older 199 remains historical. V2.2 tables: NR2, EQ7, DLY17, RVB11; CAB50 factory cabinets +10 factory acoustic IRs, with10 user slots separately. AMP/FX census remains unverified. V2.2 adds Precise Attack and Match30 Clean; do not derive a new total by adding to199. |
+| Processing | **9 simultaneous modules**, subject to processor overload limits. V2.2 says **200+ effects**; older 199 remains historical. V2.2 tables: NR2, EQ7, DLY17, RVB11; CAB50 factory cabinets +10 factory acoustic IRs, with10 user slots separately. AMP55 named choices (11 Clean/19 Drive/18 HiGain/5 Bass/2 Acoustic); FX census remains unverified. V2.2 adds Precise Attack and Match30 Clean; do not derive a new total by adding to199. |
 | Presets | **99 factory + 99 user** documented. This storage split does not establish every factory preset's VOLUME-enable default. |
 | Synth / acoustic | Electric-to-acoustic steel/nylon examples; five documented bass amp/preamp choices justify shared bass membership. Pitch Shift is polyphonic, ±24 semitones; Classic PS monophonic. Sweller is an automatic envelope, not global EXP volume. Dedicated synth engine remains unverified. |
 | Audio I/O | ¼-inch TS instrument input; ⅛-inch stereo AUX; single ¼-inch stereo TRS main output; dedicated ⅛-inch headphones. English evidence: **unbalanced, tip=L/ring=R**; Japanese indexed balanced-stereo wording conflicts. AUX bypasses effects and USB audio. |
@@ -930,6 +930,22 @@ Checked 2026-10-28 against [manufacturer V2.2 manual](https://res.hotoneaudio.co
 | Processing / RVB | **11:** Room, Hall, Church, Plate, Spring, Izumi, Northstar, Oceandeep, Sweet Space, Shimmer, Cloud. Decay andTrail options do not increase category count. |
 
 Factory acoustic IRs include steel/nylon-family instruments,mandolin,fretless acoustic bass anddouble bass; these tonal responses are distinct from synth tracking. Existing NR2/EQ7 and all historical sources remain. AMP/FX category census and universal expression-volume/output coverage stay unresolved. No local download ordevice test.
+
+### Ampero Mini — complete V2.2 AMP menu census
+
+Checked 2026-10-28 in [manufacturer V2.2 manual](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf), printed pp34–39. **55 named AMP choices**, counted from the complete table; not55 simultaneous amps or an inferred whole-library total.
+
+| Manual group | Named choices |
+|---|---|
+| Clean (11) | Tweed Lux, Baseman Norm, Black Twin, Voxy 30HW Norm, Jazz Clean, Emperor Clean, Superstar Clean, Glacian Clean, Tweed Prince, Black Prince, Match 30 Clean |
+| Drive (19) | Baseman Bright, Voxy 30HW TB, Emperor Drive, Superstar Drive, Marshell 45, Marshell 45+, Marshell 45 Jump, Marshell 50, Marshell 50+, Marshell 50 Jump, Hot Kitty Drive, Messe IIC+ 1, Messe IIC+ 2, Messe IIC+ 3, Soloist 100 Crunch, Marshell 800, Fryman B1, Fryman B2, Glacian Drive |
+| HiGain (18) | Marshell 900, Dizzle VH B, Dizzle VH S, Engle Saga 1, Engle Saga 2, Fryman HB, Fryman HB+, Eddie 51, Soloist 100 Lead, Messe IV Lead 1, Messe IV Lead 2, Messe IV Lead 3, Tangerine R100, Rector Dual V, Rector Dual M, Dizzle VH+ B, Dizzle VH+ S, Boger XT Red M |
+| Bass (5) | Alchemy Pre, Ampage Classic, Ampage Flip, Voxy Bass, Messe Bass 400 |
+| Acoustic (2) | Acoustic Preamp 1, Acoustic Preamp 2 |
+
+Numbered/channel variants are separate menu entries; their parameter settings do not create further algorithms. The two Acoustic entries model preamp switch combinations, distinct from electric-to-acoustic effects and factory acoustic IRs. Sound Clone1–10 are separately documented imported-file slots, not ten additional named factory AMP models. Earlier200+effect headline and all revision/source qualifications remain.
+
+FX1/FX2/FX3 census and deduplication across shared categories remain open. No new universal EXP assignment oroutput-coverage proof, hardware test orlocal download.
 
 ## Ampero MP-100
 

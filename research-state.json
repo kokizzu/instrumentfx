@@ -128807,5 +128807,82 @@
     "not_extra_algorithms": "MultiHead12variations,micpositions,userstorage andparameterchoices",
     "remaining": "AMP/FXcensus;globalEXPassignment,range/recallandoutputcoverage;qualifiedcurrentoffers",
     "downloads": false
+  },
+  "mini_v22_amp_census_20261028": {
+    "checked": "2026-10-28",
+    "source": "https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf",
+    "revision": "2.2",
+    "pages": "34–39",
+    "named_choices": 55,
+    "groups": {
+      "Clean": [
+        "Tweed Lux",
+        "Baseman Norm",
+        "Black Twin",
+        "Voxy 30HW Norm",
+        "Jazz Clean",
+        "Emperor Clean",
+        "Superstar Clean",
+        "Glacian Clean",
+        "Tweed Prince",
+        "Black Prince",
+        "Match 30 Clean"
+      ],
+      "Drive": [
+        "Baseman Bright",
+        "Voxy 30HW TB",
+        "Emperor Drive",
+        "Superstar Drive",
+        "Marshell 45",
+        "Marshell 45+",
+        "Marshell 45 Jump",
+        "Marshell 50",
+        "Marshell 50+",
+        "Marshell 50 Jump",
+        "Hot Kitty Drive",
+        "Messe IIC+ 1",
+        "Messe IIC+ 2",
+        "Messe IIC+ 3",
+        "Soloist 100 Crunch",
+        "Marshell 800",
+        "Fryman B1",
+        "Fryman B2",
+        "Glacian Drive"
+      ],
+      "HiGain": [
+        "Marshell 900",
+        "Dizzle VH B",
+        "Dizzle VH S",
+        "Engle Saga 1",
+        "Engle Saga 2",
+        "Fryman HB",
+        "Fryman HB+",
+        "Eddie 51",
+        "Soloist 100 Lead",
+        "Messe IV Lead 1",
+        "Messe IV Lead 2",
+        "Messe IV Lead 3",
+        "Tangerine R100",
+        "Rector Dual V",
+        "Rector Dual M",
+        "Dizzle VH+ B",
+        "Dizzle VH+ S",
+        "Boger XT Red M"
+      ],
+      "Bass": [
+        "Alchemy Pre",
+        "Ampage Classic",
+        "Ampage Flip",
+        "Voxy Bass",
+        "Messe Bass 400"
+      ],
+      "Acoustic": [
+        "Acoustic Preamp 1",
+        "Acoustic Preamp 2"
+      ]
+    },
+    "boundary": "SoundClone1–10separateimportslots;channels/numberedvariantscountasmenuchoices;notwholelibrarytotal",
+    "remaining": "FX1/2/3censusandsharedcategorydedup;globalEXPassignment/outputcoverage;qualifiedoffers",
+    "downloads": false
   }
 }
