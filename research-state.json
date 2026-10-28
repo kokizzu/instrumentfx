@@ -123901,5 +123901,16 @@
       "hand-master attenuation"
     ],
     "hardware_test": false
+  },
+  "ame200_expression_system_volume_20261028": {
+    "source": "https://manuals.plus/m/e83dfa8d3d3ef2939052a142e66f922ba406bc6d9f9b8cfad226ccaaa2266893",
+    "classification": "System volume enable; all-preset persistence unverified",
+    "remaining": [
+      "assignment persistence",
+      "numeric endpoints",
+      "wiring",
+      "attenuation coverage"
+    ],
+    "hardware_test": false
   }
 }

@@ -373,6 +373,12 @@ Checked **2026-10-17**: [English manufacturer page](https://en.audota.com/AME200
 
 Complete source bodies retain all original source URLs, revision conflicts and acoustic algorithms. Remaining gaps: toe behavior, touch, exact concurrent DSP budget, factory/user split, NAM conversion/native architecture, USB channels/drivers, battery/bus-power and current condition-specific price/stock. Do not substitute Pro battery or expression specifications.
 
+### AME-200 — system volume-pedal setting,2026-10-28
+
+[Own V01 manual,2025-07-25](https://manuals.plus/m/e83dfa8d3d3ef2939052a142e66f922ba406bc6d9f9b8cfad226ccaaa2266893),printedpp26–29:external1/4inch TRS pedal requires calibration,then **Volume Pedal Function** enable. Independent minimum/maximum correspond to raised/depressed positions;maximum below minimum reverses direction. System Settings points to this pedal section,so there is a system-level volume-target setup rather than calibration alone. **All-preset persistence/override is not explicit**,and remains unverified. Wah separately depends on a filter Position parameter in the chain.
+
+Printedp15 documents bank changes with A+B/C+D then direct A/B/C/D selection;PLAY editing context does not certify dedicated sequential down/up. Dedicated1/8inch stereo phones retained. Existing240×143.4mm horizontal dimensions exceed preferred limits in either orientation. Numeric endpoint scale,pedal resistance/pinout,physical-position recall,volume insertion point,bypass/headphone/tail/recorded-loop coverage remain unknown. No hardware test orPro specification borrowed.
+
 ## AME-200 Pro
 
 Distinct Pro hardware: built-in toe-switch expression, CTRL footswitch and rechargeable battery. Consolidated **2026-10-17**; the complete original finding and supporting facts retain their dates and disagreements. Historical next notes are provenance; use research-state.json for current tasks.
