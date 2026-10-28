@@ -122,6 +122,11 @@ Official page also displays Sold out, without proving Indonesian availability. I
 [BH-M]: https://cdn.shopifycdn.net/s/files/1/0100/1950/4185/files/Black_Hammer-User_Manual.jpg?v=1647482298
 [BH-O]: https://shopee.co.id/Efek-Gitar-SONICAKE-Black-Hammer-Multi-Effects-Pedal-4-In-1-Distortion-i.19700013.19281940040
 
+### Black Hammer — direct expression and boost boundary
+
+Checked2026-10-28 against the [manufacturer product page][BH-P]. The **pre-gain boost changes distortion gain and level**; it is not evidence of an expression-controlled final master volume. Direct analog EXP/global assignment, position/endpoints/recall, headphone support and preset down/up remain **unverified**. Bypass, headphone, tail and recorded-loop attenuation are unknown. Stated64W×262Dmm fails the preferred rectangle in either orientation. The original manual image exposed no readable content; the [regional product](https://www.hotone.jp/brands/sonicake/products/black-hammer) returned cache miss. No full connector/panel inspection or local download is claimed. Sold-out manufacturer and Shopee observations remain separate, dated availability evidence.
+
+
 ## Consolidation provenance
 
 All Sonicake-specific values,source URLs,firmware qualifications,price caveats and original inspection limits were merged from compact comparison blob `c87f40aa634e7bf06c6682277b78c6890cc0fb84`,floorboard comparison `4394e367d3744ee519829bac4bc98cb60e40e89f`,and individual Matribox/Smart Box/Pocket Master notes `079d05d15a535051907880a4aee5dcbb75ce7c84`,`c4ebe51e2d487055435951113635d3b894a72d4d`,`bdd0153a008414526ad4756492e13e80bca0f415`. Stale progress cursors are superseded by root research-state.json. Five consolidations add no models;Sonic Wood adds one. Shared legacy tables and incoming links still need retirement validation,so no whole-migration completion is claimed.
