@@ -10,7 +10,7 @@ Canonical root brand profiles; all retain explicit verification gaps. Preserved 
 - [AD-10](#ad-10)
 - [EX-4 — partial no-treadle discovery lead](#ex-4--partial-no-treadle-discovery-lead)
 - [GM-800](#gm-800)
-- [GS-10 — partial lead](#gs-10--partial-lead)
+- [GS-10](#gs-10)
 - [GT-1](#gt-1)
 - [GT-001](#gt-001)
 - [GT-1B](#gt-1b)
@@ -443,7 +443,38 @@ The complete five-model dedicated-effect archive was moved losslessly to [SINGLE
 
 <!-- specialist page context ends -->
 
-## GS-10 — partial lead
+## GS-10
+
+**Active partial profile,2026-10-28; not fully verified.** Discontinued desktop guitar/bass multi-effects, supported by its [own manufacturer product page](https://www.boss.info/global/products/gs-10/), [original brochure](https://cdn.roland.com/assets/media/pdf/gs10_brochure.pdf) and exact-model manual cited below. No exact Shopee offer established. Earlier partial-lead notes remain dated provenance, superseded only in admission status.
+
+<!-- comparison evidence begins -->
+| Field | Current evidence / qualification |
+|---|---|
+| Expression | No built-in treadle; shared EXP PEDAL/CTL1,2. SYSTEM EXP PDL Func→Foot Volume sets a global role; Auto can change to wah/bend. EV-5/FV-300L manufacturer-listed; actual M-VAVE pinout/compatibility and external toe operation unverified. |
+| Expression / volume coverage | FV Level0–100; movable in chain. Ordinary Assign Hold retains target-dependent state; fixed-global range/recall precedence unknown. Headphone,bypass,tail and recorded-loop attenuation unverified. Global assignment is not certified final-output mute. |
+| Knobs / footswitches / buttons | **16 rotary /0 onboard footswitches /30 front buttons**, derived from manual text. Three A/B/C selectors count separately; POWER separate. Visual corroboration pending. Four DIRECT PATCH buttons and PATCH/VALUE operate in Play screen; no onboard preset footswitch down/up. |
+| Display | **16×2-character backlit LCD**; published diagonal,color and touch unverified. |
+| Dimensions / mass | **329 W×231 D×85 H mm**; fails preferred200×140mm. Manual/brochure **2.25kg** versus website **2.3kg**; discrepancy retained. |
+| Processing | **Up to11 simultaneous effects**, manufacturer brochure. Fixed COMP,OD/DS,PREAMP/SPEAKER,EQ,NS,FV,DELAY,CHORUS,REVERB plusFX1/FX2. Reorderable; alternatives do not add slots. |
+| Processing / category choices | **FX1:11;FX2:18**, full names below. Brochure **45 named preamps**,including Mic Preamp;manual Custom1–3 gives48 selectable definitions,consistent numerically with website48 but counting/revision basis not proved. **OD/DS22;WAH7** brochure;remaining subtype census unverified. |
+| Memory | **100 writable User U001–U100 +100 protected Preset P101–P200 =200**. Edited preset can save to User;initial User fill unverified. Unsaved edits lost on patch change. |
+| Synth / acoustic | Guitar Synth and Bass Simulator documented; normal guitar/bass input. Tracking/polyphony and electric-to-acoustic capability unverified. Mic input and Mic Preamp do not alone complete vocal-category qualification. |
+| Audio I/O | Guitar/bass input; alternative balanced XLR/¼-inch TRS mic sockets, **no phantom**; stereo RCA AUX and RCA output; guitar-amp out; PHONES; coax S/PDIF. |
+| Data / control | EXP/CTL1,2;MIDI IN/OUT;USB;AC input. Advanced USB exposes GS-10 Control and separate MIDI In/Out for DIN bridging. Do not transfer GT-Pro’s different MIDI restriction. |
+| Output ratings | Website nominal main/amp outputs **0dBu** versus manual/brochure **−10dBu**. Main impedance1kΩ,amp out1.5kΩ agree. No published headphone power/load established. |
+| Power | **14V AC,BRC-series adapter;800mA draw** in manual. AC has no DC center polarity. Battery/USB-powered operation unverified. |
+| USB audio | Historical Special **24-bit/44.1kHz**,Standard **16-bit/44.1kHz**;stereo simultaneous recording/playback documented. Standard Audio&MIDI menu is driver-dependent with manual-era compatibility warnings;not current-host certification. |
+| Editor / platforms | Historical Windows/Mac GS-10 editor/librarian and separate legacy drivers;modern Windows/macOS/Linux/mobile full editing unverified. Bundled Cakewalk recording software is separate from onboard functions. |
+| IR / NAM / capture | User IR,native/converted NAM and capture import unverified. Preset/system MIDI backups and parameter-based modeling are not proof of these formats. |
+| Looper / drums / live | Tuner Mute/Bypass documented;Bypass factory default. Onboard stereo speakers **1.5W+1.5W**,not headphone power. Looper,drums,scenes and universal spillover unverified;bundled DAW loops are not onboard looping. |
+| IDR verified used | Unknown;no exact condition-qualified Shopee hardware offer established. |
+| IDR verified new | Unknown;no exact condition-qualified Shopee hardware offer established. |
+| IDR market qualification | Seller/item,condition,working state,firmware,adapter/bundle,stock,warranty region,shipping/tax,voucher andcheckout total remain unknown. Search non-results do not establish absence. |
+<!-- comparison evidence ends -->
+
+### GS-10 — partial lead
+
+Historical lead-stage notes follow; current partial admission above does not erase their source/access qualifications.
 
 Checked 2026-10-28; outside active inventory and instrument counts. Not GT-Pro or a fully verified profile. Exact Shopee Indonesia GS-10 hardware/IDR evidence was not established by the targeted searches; this does not prove market absence.
 

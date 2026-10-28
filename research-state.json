@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 394,
+  "active_model_count": 395,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 394,
+  "canonical_root_model_count": 395,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "394 unique active/root-canonical;0 legacy-only;48brands;sixexcluded;allpartial.",
+  "count_reconciliation": "395 unique active/root-canonical;0 legacy-only;48 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -5723,6 +5723,19 @@
         "FullphysicalI/O/headphones,axislabelleddimensions,mass,displaydetails",
         "GlobalEXPmapping,recall,bypass/tails/loopcoverage",
         "Conditionverifiedused/newhardwareandcheckoutstock"
+      ]
+    },
+    {
+      "model": "BOSS GS-10",
+      "path": "BOSS.md#gs-10",
+      "checked_date": "2026-10-28",
+      "status": "partial",
+      "eligibility": "Manufacturer-documented desktop guitar/bass multi-effects,11 simultaneous effects; normal inputs,no treadle.",
+      "unresolved": [
+        "Exact Shopee hardware/condition-qualified used/new IDR",
+        "Volume range/recall precedence and output coverage",
+        "Imports,current hosts,subtype census,display details",
+        "Visual controls and source rating/count conflicts"
       ]
     }
   ],
@@ -25301,7 +25314,8 @@
       "GT-10B",
       "MS-3",
       "AD-2",
-      "GT-Pro"
+      "GT-Pro",
+      "GS-10"
     ],
     "CUVAVE": [
       "H8"
@@ -26022,7 +26036,8 @@
       "GT-10B",
       "MS-3",
       "AD-2",
-      "GT-Pro"
+      "GT-Pro",
+      "GS-10"
     ],
     "IK-MULTIMEDIA.md": [
       "TONEX ONE",
@@ -26232,7 +26247,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 329,
+      "record_count": 330,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -26262,10 +26277,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 329 guitar, 170 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 330 guitar, 170 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "394 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "395 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -46709,10 +46724,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 394,
-    "canonical_root_models": 394,
+    "unique_brand_model_pairs": 395,
+    "canonical_root_models": 395,
     "legacy_only_models": 0,
-    "guitar_view_models": 329,
+    "guitar_view_models": 330,
     "bass_focused_models": 40,
     "vocal_only_models": 25,
     "vocal_view_models": 71,
@@ -46849,6 +46864,7 @@
       "BOSS::MS-3",
       "BOSS::AD-2",
       "BOSS::GT-Pro",
+      "BOSS::GS-10",
       "CUVAVE::H8",
       "Donner::Arena2000",
       "Donner::Triple Threat",
@@ -47891,6 +47907,13 @@
     },
     "BOSS::GT-Pro": {
       "link": "BOSS.md#gt-pro",
+      "source_files": [
+        "BOSS.md"
+      ],
+      "finding_files": []
+    },
+    "BOSS::GS-10": {
+      "link": "BOSS.md#gs-10",
       "source_files": [
         "BOSS.md"
       ],
@@ -128237,5 +128260,16 @@
     "imports": "Preset/device data not proof of IR/NAM/capture import",
     "active": false,
     "downloads": false
+  },
+  "gs10_comparison_admission_20261028": {
+    "active": true,
+    "fully_verified": false,
+    "supersedes": "Earlier lead-stage admission status only;all technical gaps and historical bodies retained",
+    "views": [
+      "ALL-GUITAR.md",
+      "ALL-BASS.md"
+    ],
+    "vocal": "Unclassified pending processing-path evidence",
+    "market": "Unknown exact Shopee offer;admission does not certify availability"
   }
 }

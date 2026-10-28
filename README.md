@@ -1,6 +1,6 @@
 # InstrumentFX — Guitar, Bass and Vocal Multi-effects
 
-**394 active model records · 48 brands · 6 excluded archival models.** All records retain explicit verification gaps; this is not exhaustive market coverage or a current-stock guarantee.
+**395 active model records · 48 brands · 6 excluded archival models.** All records retain explicit verification gaps; this is not exhaustive market coverage or a current-stock guarantee.
 
 Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eligible multi-effects unit the owner has ever owned. Work belongs only in **kokizzu/instrumentfx**. No GitHub Actions workflows,scheduled jobs or background research are part of this project.
 
@@ -8,11 +8,11 @@ Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eli
 
 | View | Contents |
 |---|---|
-| **[ALL-GUITAR.md](ALL-GUITAR.md)** |329 guitar/acoustic multi-effects, including **Line 6 HX Effects**, compared across hardware, processing, I/O/power/software and separate IDR tables |
+| **[ALL-GUITAR.md](ALL-GUITAR.md)** |330 guitar/acoustic multi-effects, including **Line 6 HX Effects**, compared across hardware, processing, I/O/power/software and separate IDR tables |
 | **[ALL-BASS.md](ALL-BASS.md)** |170 documented bass-capable models: 40 bass-focused plus 130 shared processors, with full comparison tables and explicit capability evidence |
 | **[ALL-VOCAL.md](ALL-VOCAL.md)** |71 vocal/live mic-path processors across the same four comparison tables; harmony, pitch correction and guitar paths remain distinct |
 | **[EXPRESSION-VOLUME.md](EXPRESSION-VOLUME.md)** |Partial audit of direct analog expression volume across presets on processors without built-in treadles |
-| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Short expression/footprint/display comparison of 14 selected profiles; 394 detailed models are root-canonical |
+| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Short expression/footprint/display comparison of 14 selected profiles; 395 detailed models are root-canonical |
 | **[SINGLE-GUITAR.md](SINGLE-GUITAR.md)** |Dedicated synth, acoustic-simulation, vocoder and pitch pedals; separate from active multi-effects |
 | **[SINGLE-BASS.md](SINGLE-BASS.md)** |Bass-related dedicated effects, linked to their complete shared archive |
 | **[SINGLE-VOCAL.md](SINGLE-VOCAL.md)** |Explicitly excluded FV01 and dedicated-vocoder cross-reference, outside vocal multi-effects counts |
@@ -31,7 +31,7 @@ Root navigation links directly to canonical root documents. Historical link spel
 | [BEHRINGER.md](BEHRINGER.md) | Bass V-AMP, Bass V-AMP PRO, DSP2024P, FX600, FX2000, V-AMP 2, V-AMP 3, X V-AMP LX1-X |
 | [BLACKSTAR.md](BLACKSTAR.md) | ID:X Floor One, ID:X Floor Three |
 | [BOIN-AUDIO.md](BOIN-AUDIO.md) | BG300 |
-| [BOSS.md](BOSS.md) | AD-2, AD-8, AD-10, GM-800, GT-1, GT-001, GT-1B, GT-3, GT-5, GT-6, GT-8, GT-10, GT-10B, GT-100, GT-1000, GT-1000CORE, GT-Pro, GX-1, GX-1B, GX-10, GX-100, KATANA:GO, ME-5, ME-8, ME-20, ME-20B, ME-25, ME-30, ME-50, ME-50B, ME-70, ME-80, ME-90, ME-90B, MS-3, Pocket GT, SE-50, VE-1, VE-2, VE-5, VE-8, VE-20, VE-22, VE-500 |
+| [BOSS.md](BOSS.md) | AD-2, AD-8, AD-10, GM-800, GS-10, GT-1, GT-001, GT-1B, GT-3, GT-5, GT-6, GT-8, GT-10, GT-10B, GT-100, GT-1000, GT-1000CORE, GT-Pro, GX-1, GX-1B, GX-10, GX-100, KATANA:GO, ME-5, ME-8, ME-20, ME-20B, ME-25, ME-30, ME-50, ME-50B, ME-70, ME-80, ME-90, ME-90B, MS-3, Pocket GT, SE-50, VE-1, VE-2, VE-5, VE-8, VE-20, VE-22, VE-500 |
 | [CUVAVE.md](CUVAVE.md) | H8 |
 | [DARKGLASS.md](DARKGLASS.md) | Anagram |
 | [DEMONFX.md](DEMONFX.md) | Dual Mod Workstation |
@@ -74,7 +74,7 @@ Root navigation links directly to canonical root documents. Historical link spel
 | [YAMAHA.md](YAMAHA.md) | AG-Stomp, DG-Stomp, Magicstomp Acoustic, Magicstomp Bass, Magicstomp Guitar MK2, Magicstomp original Guitar, REV500, SPX900, SPX990, SPX1000, SPX2000 |
 | [ZOOM.md](ZOOM.md) | 505 original, 505II, 506II, 606, 607, 707II, 708II, 1201, A1 FOUR, A1X FOUR, A2, A3, B1 FOUR, B1on, B1X FOUR, B1X original, B1Xon, B2, B2 FOUR, B2.1u, B3, B3n, B6, G1 FOUR, G1 original, G1on, G1X FOUR, G1Xnext, G1Xon, G2 FOUR, G2.1Nu, G2.1u, G2Nu, G2X FOUR, G3, G3n, G3X, G3Xn, G5, G5n, G6, G7.1ut, G11, GFX-3, GFX-4, GFX-5, GFX-707, MS-50G, MS-50G Plus, MS-60B, MS-60B Plus, MS-70CDR, MS-70CDR Plus, MS-80IR Plus, MS-100BT, NEURIG, RFX-1000, RFX-1100, RFX-2000, RFX-2200, V3, V6-SP |
 
-All recorded models are compared in their applicable instrument pages, with full-record links. All 394 recorded models have root brand sections. Legacy content preservation and local navigation checks have passed; compatibility paths remain and technical/market verification is incomplete. The comparison-table rebuild does not certify all fields or finish that migration. Do not create a new dated finding, progress part or document under `effects/`.
+All recorded models are compared in their applicable instrument pages, with full-record links. All 395 recorded models have root brand sections. Legacy content preservation and local navigation checks have passed; compatibility paths remain and technical/market verification is incomplete. The comparison-table rebuild does not certify all fields or finish that migration. Do not create a new dated finding, progress part or document under `effects/`.
 
 ## Research ledger
 
@@ -84,7 +84,7 @@ The [research ledger](research-state.json) records source provenance, model comm
 
 Technical verification and Shopee discovery remain incomplete. The ledger’s current cursor identifies the next task; a missing field means unverified, not No. Cached asking prices do not establish live stock.
 
-**Organization migration is incomplete:** 394 detailed models are root-canonical; 0 still rely on legacy source records. Compatibility files retain historical paths and anchors. Preservation checks do not certify technical specifications, current stock or exhaustive market coverage. See the ledger for preservation manifests, rollback metadata and remaining migration work.
+**Organization migration is incomplete:** 395 detailed models are root-canonical; 0 still rely on legacy source records. Compatibility files retain historical paths and anchors. Preservation checks do not certify technical specifications, current stock or exhaustive market coverage. See the ledger for preservation manifests, rollback metadata and remaining migration work.
 
 ## Scope and ownership
 
