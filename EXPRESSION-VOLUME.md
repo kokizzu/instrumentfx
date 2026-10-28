@@ -398,3 +398,7 @@ Chocolate/Player [receiver-routing evidence](M-VAVE.md#chocolate--receiver-routi
 GP-50 [additional exact Solo offer](VALETON.md#gp-50--exact-solo-hardware-asking-price-evidence): Liam_shop Rp2.300.000,month-old cache,condition/variant/checkout stock unverified. This hardware ask doesnot resolve current1.1.0 direct analog global-volume assignment.
 
 Keeley Delay Workstation [manual-menu reconciliation](KEELEY.md#delay-workstation--bank-menu-transcription-and-source-conflict) identifies its two Reverb-bank delays andpreserves Room-versus-Spring source conflict. Neither bank menus norducking compression provide global expression volume.
+
+### Flamma FB200 — bass eligibility boundary
+
+[Exact-model screen](FLAMMA.md#fb200--bass-only-eligibility-and-direct-expression-screen): no analog EXP in complete manufacturer inventory;stereo phones documented. Ordinary-guitar suitability unverified,so outside main guitar table. Preset group/slot switching is documented withan FG200-label error;exact directional mapping unresolved. Existing active bass record,not a new model.

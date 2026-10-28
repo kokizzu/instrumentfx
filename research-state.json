@@ -125230,5 +125230,18 @@
     "result": "Existing active model added to capability comparison; documented direct analog path fails",
     "next": "Continue unscreened no-treadle inventory,including exact guitar suitability for vocal units;priority Mini/Nano/GP50/controller gaps remain",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "fb200_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "FLAMMA.md#fb200--bass-only-eligibility-and-direct-expression-screen",
+    "source": "https://www.flammainnovation.com/file/pdf?fileName=FB200_Manual_EN.pdf&url=group1%2FM00%2F00%2F0F%2FwKgA0Ghcs82AOmZKABRLE2iOyS0799.pdf",
+    "revision": "V01/2025-05-22",
+    "eligibility": "Bass documented; ordinary guitar unverified; outside main guitar capability table",
+    "direct_exp": "None in complete controls/connections inventory",
+    "headphones": "Dedicated3.5mm stereo",
+    "preset_controls": "A/B/C/D slots;A+B/C+D groups;exact down/up mapping not textually identified; page12 erroneously saysFG200",
+    "unknown": "Ordinary guitar suitability,axes,coverage; prior live mapping conflict retained",
+    "next": "Screen FG200 exact model separately; continue remaining inventory and priority Mini/Nano/GP50/controller evidence",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

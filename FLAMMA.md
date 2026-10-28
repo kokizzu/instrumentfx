@@ -75,6 +75,12 @@ Remaining: verify footswitch/panel discrepancy,complete simultaneous processing/
 [FB2-P]: https://www.flamma.shop/en-au/products/flamma-fb200-bass-guitar-intelligent-combined-multi-effects-pedal
 [FB2-I]: https://www.flamma.shop/pages/manual
 
+### FB200 — bass-only eligibility and direct-expression screen
+
+Checked **2026-10-28**,own manufacturer **FB200 V01/2025-05-22** manual [FB2-M],pp05–07: complete controls/connections contain no treadle oranalog EXP;dedicated3.5mm stereo phones. **Documented direct analog volume path fails**. Manufacturer product explicitly describes bass-specific processing;ordinary-guitar suitability remains unverified. Keep this existing bass model outside the main normal-guitar capability table.
+
+Manualp12 describes A/B/C/D preset selection andA+B/C+D group navigation,followed bysingle-switch selection within that group. It doesnot textually identify which combination is down versus up. The page mistakenly labels the unit FG200;retain that inconsistency,not sibling substitution. No unrestricted sequential preset down/up claim. MASTER andAMP VOL knobs do not provide pedal control;position/range/recall N/A for this connector inventory,whilebypass/headphone/tail/drum attenuation remains unverified. Existing311×67.5×49.7mm axes andlive-switch conflict stay unresolved. No downloads orhardware test.
+
 ## FG200
 
 Checked **2026-10-17**; partial. Guitar multi-effects strip; distinct from FB200. Bass/vocal membership unverified; a Bassman guitar-amp model is not evidence of bass support.
