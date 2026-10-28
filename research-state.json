@@ -128728,5 +128728,30 @@
     "scope": "Onlyreportedsetup;notPlus/FootCtrlPluscertification;notdirectanalogprocessorEXP",
     "next": "Seek manufacturer pinout or controlled exact-unit sweep evidence;keep actualusercontroller identity unresolved",
     "downloads": false
+  },
+  "mini_v22_nr_eq_census_20261028": {
+    "checked": "2026-10-28",
+    "source": "https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf",
+    "revision": "2.2",
+    "pages": "39–43",
+    "nr": [
+      "Smart Gate",
+      "Fast Gate"
+    ],
+    "nr_boundary": "FastGateI/II modes;alsoinFX1/2,notextrauniquealgorithms",
+    "eq": [
+      "Guitar EQ1",
+      "Guitar EQ2",
+      "Bass EQ1",
+      "Bass EQ2",
+      "Para EQ",
+      "Graphic EQ",
+      "V-EQ"
+    ],
+    "units": "Guitar/Bass/V-EQrelative−50…+50;Para/Graphicexplicit±12dB",
+    "source_anomaly": "V-EQlastband6.6Hzprinted,not silentlyconvertedtokHz",
+    "global_volume": "Stillunverified;nonewcross-presetoverrideproof",
+    "next": "RemainingMini categorycensus andprimaryglobalvolumeclarification;retainindependentGT-Progeneralcursor",
+    "downloads": false
   }
 }
