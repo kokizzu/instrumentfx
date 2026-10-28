@@ -4570,6 +4570,12 @@ Older indexedAug20–23delivery is historical cache. Seller “ORIGINAL JAPAN”
 [R2-M]: https://zoomcorp.com/media/documents/E_RFX2000.pdf
 [R2-O]: https://shopee.co.id/Effect-vokal-zoom-rfx-2000-Efek-vokal-zoom-2000-ORIGINAL-JAPAN-i.377580114.19279006266
 
+### RFX-2000 — direct-expression capability screening
+
+Checked 2026-10-28 against [own official manual][R2-M], pp2–4,25. **No analog EXP input or dedicated headphone socket** in the complete physical inventory. FS01 is effects on/off; MIDI IN/OUT/THRU is a separate digital path, not an analog pedal connection. Guitar requires the previously documented preamp/effect path. **482W×115Dmm** fails preferred width. VALUE UP/DOWN are hand keys, **not onboard preset footswitches**.
+
+Direct-EXP position/range/recall are inapplicable to this inventory. OUTPUT knob control excludes S/PDIF; it cannot be assumed to mute every output. Preserve algorithm-dependent WET MUTE versus DRY THRU behavior and unresolved tail/looper coverage. No MIDI-to-global-volume guarantee is inferred from CC automation. Historical offers remain unchanged; no download or hardware test.
+
 ## RFX-2200
 
 Checked2026-10-17;partial. Separate discontinued rack multi-effects,notRFX-2000. [Manufacturer][R2200-P]. Ownership unverified;guitar/vocal classification from ownmanual,not marketplace title. Bass suitability unresolved.

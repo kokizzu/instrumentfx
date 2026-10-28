@@ -124323,5 +124323,12 @@
     "finding": "Complete panel/specifications list FS01 only, no analog EXP or headphone socket. Guitar needs preamp/effect; 482W×115Dmm; no onboard preset footswitch pair.",
     "boundary": "Direct EXP range/position/recall N/A; fully-WET effects-off silence documented, not universal dry bypass/tail guarantee. No stock refresh/download/hardware test.",
     "next": "Exact RFX-2000 then RFX-2200 screens; general GT-Pro cursor unchanged."
+  },
+  "rfx2000_expression_screen_20261028": {
+    "source": "https://zoomcorp.com/media/documents/E_RFX2000.pdf",
+    "pages": "2–4,25",
+    "finding": "No analog EXP or headphone socket in complete inventory. FS01 only switches effects; MIDI separate. VALUE UP/DOWN hand keys not footswitches; 482W×115Dmm.",
+    "boundary": "Direct EXP position/range/recall N/A. OUTPUT knob excludes S/PDIF; algorithm bypass qualifications retained. No MIDI global-volume guarantee, market refresh, download or device test.",
+    "next": "Screen RFX-2200 exact manual next; independent GT-Pro general cursor unchanged."
   }
 }
