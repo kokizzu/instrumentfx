@@ -125538,5 +125538,24 @@
     ],
     "next": "Remaining no-treadle inventory andpriority global-volume gaps",
     "general_cursor_preserved": "BOSS GT-Pro"
+  },
+  "vx5_expression_screen_20261028": {
+    "checked": "2026-10-28",
+    "document": "HEADRUSH.md#vx5--guitar-thru-exclusion-and-published-latency-examples",
+    "source": "https://support.headrushfx.com/en/support/solutions/articles/69000870979-headrush-autotune-vx5-frequently-asked-questions",
+    "result": "Unprocessed guitar thru;vocal-only outside guitar capability table;no analog EXP in inventory;stereo3.5mm phones",
+    "latency_examples_ms": {
+      "empty_preset250": 6,
+      "hard_tune_preset1": 10,
+      "stress_test_preset99": 31
+    },
+    "qualification": "Manufacturer examples;conditions/firmware unspecified;not universal bounds orhardware measurements",
+    "unknown": [
+      "onboard preset down/up",
+      "pedal attenuation coverage",
+      "dimensional source conflict"
+    ],
+    "next": "Remaining inventory;Mini PDF timed out this pass;Nano global-scope conflict unchanged",
+    "general_cursor_preserved": "BOSS GT-Pro"
   }
 }

@@ -517,3 +517,9 @@ The linkedthree-page updateinstructions say to confirm **1.2.2** onboot (p.1),ye
 Preset retention is saved afterfive seconds orpower-button shutdown. MIDI isreceived onallchannels:CC32 selects128/122-preset banks,ProgramChange selectswithinbank;CC16 controlsA/B,CC17 Talk. Neither thismapping norbrowserupdater proves a full editor. [Update PDF,p.2][VX-U], [Manual,p.18][VX-M]
 
 [VX-U]: https://cdn.inmusicbrands.com/HeadRush/vx5/VX5-Day1Firmware_v3.pdf
+
+### VX5 — guitar-thru exclusion and published latency examples
+
+Checked **2026-10-28** in the [manufacturer FAQ][VX-Q]. Guitar input passes through without added gain,coloration orsignal changes;it supplies harmony guidance,not guitar multi-effects. Retain vocal-only membership,outside normal-guitar expression-volume table. Published connector inventory includes no analog EXP;dedicated3.5mm TRS phones can also monitor stereo output. USB preset/mode automation does not establish continuous expression volume.
+
+FAQ latency examples are **6ms Empty/preset250,10ms Hard Tune/preset1,31ms Stress Test/preset99**. These are manufacturer examples,not measurements here oruniversal bounds;measurement conditions andfirmware are unstated. Talk mode bypasses vocal FX;it does not prove guitar-volume control. Manual167W×152Dmm fails preferred depth;product dimensional conflict remains open. Direct-pedal position/range/recall are inapplicable to documented inventory;headphone/bypass/tail/recorded-loop pedal attenuation andexact onboard preset down/up remain unverified.
