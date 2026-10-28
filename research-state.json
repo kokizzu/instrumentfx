@@ -26252,9 +26252,9 @@
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 170,
+      "record_count": 171,
       "bass_focused_record_count": 40,
-      "shared_bass_capable_count": 130,
+      "shared_bass_capable_count": 131,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -26277,7 +26277,7 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 330 guitar, 170 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 330 guitar, 171 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
     "warning": "395 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
@@ -46734,8 +46734,8 @@
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 170,
-    "bass_shared_models": 130,
+    "bass_view_models": 171,
+    "bass_shared_models": 131,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -47176,6 +47176,7 @@
       "BOSS::SE-50",
       "BOSS::GT-10B",
       "BOSS::MS-3",
+      "BOSS::GS-10",
       "Donner::Arena2000",
       "Fender::Tone Master Pro",
       "Fender::Mustang Micro Plus",
@@ -47404,6 +47405,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "BOSS::GS-10": "Own manufacturer product explicitly supports guitar and bass and bass amp modeling; no sibling or generic EQ inference. https://www.boss.info/global/products/gs-10/",
     "BOSS::GX-1": "Own GX-1 OD/DS table explicitly documents bass-tuned drives and bass DI models; not GX-1B equivalence. https://static.roland.com/manuals/gx-1_parameter/en-US/358369163362518667.html",
     "Yamaha::Magicstomp Guitar MK2": "Yamaha MK2 library-linked base manual p10 explicitly permits bass input; MK2 supplement refers to that owner manual. Input suitability only, not Bass-edition algorithms or universal low-end performance. https://usa.yamaha.com/files/download/other_assets/3/334073/magicstomp_mk2_en.pdf",
     "Yamaha::Magicstomp original Guitar": "Original Guitar owner manual p10 explicitly supports bass input alongside guitar and line-level instruments; no Bass-edition algorithms borrowed. https://ca.yamaha.com/files/download/other_assets/7/334107/magicstomp_en.pdf",
