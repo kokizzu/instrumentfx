@@ -468,6 +468,14 @@ Manufacturer-authored two-page Owner’s Manual on ManualMachine matches Dapper 
 
 [DM-MM]: https://manualmachine.com/valeton/dappermini/2574559-user-manual/
 
+### Dapper Mini — expression and footprint qualification
+
+Checked2026-10-28 against [own product][DM-P] and a readable [manufacturer-authored two-page manual PDF mirror](https://www.zikinf.com/manuels/valeton-dapper-manuel-utilisateur-en-62245.pdf). Host filename omits Mini,but body explicitly names Dapper Mini andmatches DRIVE/CHORUS/DELAY,110mA and417g. Revision/byte identity with official V03 remains unverified.
+
+Dedicated unbalanced PHONES has cabinet simulation andits own TAP/PHONES level;main OUTPUT is labelled without cab simulation. These are physical audio controls,not EXP assignment. Direct analog EXP,global volume,range/recall,bypass andtail/looper coverage remain unknown;readable text does not establish complete connector absence. Module/tap/tuner switching is not proof ofpreset down/up.
+
+Fit is **axis-qualified**:product197W×65Dmm fits;manual65W×197Dmm exceeds preferred depth. Rotation makes that rectangle fit,but published axis conflict is unresolved. No sibling strip dimensions transferred.
+
 ## Dapper VES-1
 
 Checked 2026-10-17; partial. Original Dapper,discontinued on own product page; separate from Mini,Dark,Bass and Indie. Guitar multi-effects; bass/vocal suitability and ownership unverified.
