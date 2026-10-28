@@ -973,6 +973,15 @@ The page explicitly says dual1/8inchTRS MIDI jacks and lists MIDI IN and MIDI TH
 
 [Official1.1.0 manual entry](https://www.valeton.net/wpfd_file/gp-50_online-manual_en_firmware-v1-1-0-pdf/) still redirects through download312/online-manual/24248 to the previously recorded res.diversitone.comPDF, inaccessible to the reader. No new1.1.0 expression contents certified. Historical1.0.5 scope and all older qualifications remain.
 
+### GP-50 — additional Gianyar ask and unresolved bundle lead
+
+Checked2026-10-28. [Rockpizz_Batubulan,shop440269597/item43928304060](https://shopee.co.id/Valeton-GP-50-Multi-Effect-Processor-Gp50-Efek-Valeton-Gp50-i.440269597.43928304060),Kab.Gianyar: **Rp2.255.000**,exact GP-50 hardware title,three-month search-index body;direct request cache miss. No Habis exposed,not stock confirmation;21–26July delivery stale. Condition,selected variant,firmware,adapter/bundle,warranty,authenticity,shipping/tax,voucher andcheckout total unverified. Late-delivery compensation is not an upfront discount. This is not a new-condition certification orcompleted sale.
+
+Additional [Sahabat Amanah Store,410272868/56412857608](https://shopee.co.id/NEW-ORIGINAL-GARANSI-VALETON-GP-50-MULTI-EFFECT-GUITAR-PROCESSOR-GP-50-GP50-EFEK-GITAR-i.410272868.56412857608),JakartaBarat,direct month-old cache,title claims NEW/ORIGINAL/GARANSI. **Unresolved bundle/price lead only:** displayed asking amount2195000IDR accompanies Bonus Tripod/Stand Mic andthree hidden variations;selected hardware/bonus price not established. Excluded from qualified new-price comparison. Warranty terms,stock,adapter andauthenticity unknown;9September delivery stale.
+
+The indexed [V01_250925 quick leaflet](https://newgearday.com/image/catalog/files/GP-50_Manual_EN_V01_250925.pdf) returned404;its search snippet is not adopted as current electrical or1.1.0 manual evidence. Existing exact1.1.0 access gap/global-volume uncertainty remain. No downloads ordevice operation.
+
+
 ## GP-100
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
