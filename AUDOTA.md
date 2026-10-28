@@ -123,6 +123,12 @@ Reopened **2026-10-17**: [Manufacturer English ACE-100 page](https://en.audota.c
 
 All original manufacturer-filed quick-guide identity, printing-dimension warning, table-label correction, failed visual inspection and full source URLs remain preserved above. No software, dependencies or document files downloaded. Remaining fields: visual rotary corroboration, readout diagonal/color/touch, precise IR/ADT partition,NAM architecture/workflow, USB channels/driver/OS minimums, charging-operation limits and current qualified local prices.
 
+### ACE-100 — direct expression screening,2026-10-28
+
+[Exact manufacturer product](https://en.audota.com/ACE100EN.html) reopens with complete numbered connectors and no analog EXP,corroborating the filed quick guide above. It fails the required direct pedal path. Dedicated1/8inch stereo phones and329×68mm horizontal body are confirmed;too wide for the preference. PRESET “cycle through presets” and LIVE stomp/save descriptions do not establish exact sequential down/up mapping. B+C switches operating mode.
+
+Normal guitar input documented;no acoustic-specialist classification inferred from the ACE name. DirectEXP position/range/recall are inapplicable. Hand MASTER/chain-volume distinctions and bypass/headphone/tail/recorded-loop attenuation remain unverified;Bluetooth/app control is not analog expression. No new physical-panel visual audit orhardware test.
+
 ## AME-100
 
 Consolidated **2026-10-17**. The complete original finding retains its2026-10-15 date, contradictions and historical next-model notes. Current cursor is in research-state.json. AME-100 ownership does not establish AVE-100 ownership.

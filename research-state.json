@@ -123912,5 +123912,14 @@
       "attenuation coverage"
     ],
     "hardware_test": false
+  },
+  "ace100_expression_screen_20261028": {
+    "source": "https://en.audota.com/ACE100EN.html",
+    "classification": "No analog EXP in complete manufacturer inventory",
+    "remaining": [
+      "exact preset navigation",
+      "hand volume scope and coverage"
+    ],
+    "hardware_test": false
   }
 }
