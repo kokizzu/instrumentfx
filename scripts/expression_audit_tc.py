@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff', '--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(tc): identify Plethora X5 per-switch display layout'))
+    print(git('commit','-m','research(tc): identify Plethora X3 per-switch display layout'))

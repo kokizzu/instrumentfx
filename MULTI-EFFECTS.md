@@ -407,3 +407,4 @@ This layout comparison follows the requested HX Effects-style per-switch labels.
 | Model | Separate switch displays | Processor scope | Qualification |
 |---|---|---|---|
 | [TC Electronic PLETHORA X5](TC-ELECTRONIC.md#plethora-x5) | Five LCD slot displays for five effect switches | TonePrint multi-effects | Diagonal/color/touch unverified; indexed manufacturer controls, not visual inspection. |
+| [TC Electronic PLETHORA X3](TC-ELECTRONIC.md#plethora-x3) | Three LCD slot displays for three effect switches | TonePrint multi-effects | No external analog EXP socket in complete inventory; MASH and MIDI expression are separate. |
