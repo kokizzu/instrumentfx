@@ -129253,5 +129253,25 @@
     "next": "Remaining profile, primary chassis evidence and exact Shopee hardware; keep GT-Pro cursor.",
     "active": false,
     "downloads": false
+  },
+  "footswitch_display_audit_20261029": {
+    "request": "Find HX Effects-style separate displays above effect footswitches; distinguish from a single central screen.",
+    "status": "partial",
+    "verified_models": [
+      "TC Electronic PLETHORA X5"
+    ],
+    "remaining_candidates": [
+      "TC Electronic PLETHORA X3",
+      "Line 6 HX Effects",
+      "Fender Tone Master Pro",
+      "HeadRush Prime",
+      "HeadRush Pedalboard",
+      "Line 6 Helix Floor",
+      "Line 6 Helix Stadium XL Floor"
+    ],
+    "qualification": "Existing profiles are not new admissions or proof of recent launch. Controller-only products excluded.",
+    "source": "https://cdn.mediavalet.com/aunsw/musictribe/sSjbS7aFnE6cqRC8D2gfUg/HooGpCuT9kurBB7T-lgWaQ/Original/QSG_TE_0709-AIK_PLETHORA-X5_WW.pdf",
+    "access": "Indexed manufacturer controls readable; direct500; no visual audit.",
+    "downloads": false
   }
 }

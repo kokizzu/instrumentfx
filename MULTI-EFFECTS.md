@@ -399,3 +399,11 @@ No guessed exchange rate or used-price percentage. No seller authentication or c
 **Next Shopee-first model: Hotone Ampero One MP-80.** The previously saved Audota,Cube Baby andBOSS review are not pending new models. Preserve the six remaining original display/IDR page migrations and owner identity checks.
 
 Original finding references: [Source1](NUX.md#trident-nme-5)<!-- historical-link:multi-131 --> · [Source2](ZOOM.md#g6)<!-- historical-link:multi-132 --> · [Source3](HOTONE.md#ampero-ii-stomp-mp-300)<!-- historical-link:multi-133 --> · [Source4](LINE6.md#pod-go-and-pod-go-wireless)<!-- historical-link:multi-134 --> · [Source5](ZOOM.md#g11)<!-- historical-link:multi-135 --> · [Source6](LINE6.md#pod-go-and-pod-go-wireless)<!-- historical-link:multi-136 --> · [Source7](LINE6.md#pod-express-guitar)<!-- historical-link:multi-137 --> · [Source8](LINE6.md#pod-express-bass)<!-- historical-link:multi-138 -->.
+
+## Separate displays for effect footswitches
+
+This layout comparison follows the requested HX Effects-style per-switch labels. It does not certify launch recency, full profiles or current stock.
+
+| Model | Separate switch displays | Processor scope | Qualification |
+|---|---|---|---|
+| [TC Electronic PLETHORA X5](TC-ELECTRONIC.md#plethora-x5) | Five LCD slot displays for five effect switches | TonePrint multi-effects | Diagonal/color/touch unverified; indexed manufacturer controls, not visual inspection. |
