@@ -129259,10 +129259,10 @@
     "status": "partial",
     "verified_models": [
       "TC Electronic PLETHORA X5",
-      "TC Electronic PLETHORA X3"
+      "TC Electronic PLETHORA X3",
+      "Line 6 HX Effects"
     ],
     "remaining_candidates": [
-      "Line 6 HX Effects",
       "Fender Tone Master Pro",
       "HeadRush Prime",
       "HeadRush Pedalboard",
@@ -129278,6 +129278,12 @@
       "identity": "Manufacturer-authored X3 V0.0 guide, ©2022, printed18–19",
       "checked": "2026-10-29",
       "scope": "Text-only layout confirmation; existing active model, not new admission."
+    },
+    "hx_effects": {
+      "source": "https://line6.com/hx-effects/",
+      "checked": "2026-10-29",
+      "finding": "Six LCD strips correspond to FS1–6; eight total switches including MODE/TAP.",
+      "inventory": "Existing active model; no new admission."
     }
   }
 }

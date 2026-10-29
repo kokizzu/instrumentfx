@@ -408,3 +408,4 @@ This layout comparison follows the requested HX Effects-style per-switch labels.
 |---|---|---|---|
 | [TC Electronic PLETHORA X5](TC-ELECTRONIC.md#plethora-x5) | Five LCD slot displays for five effect switches | TonePrint multi-effects | Diagonal/color/touch unverified; indexed manufacturer controls, not visual inspection. |
 | [TC Electronic PLETHORA X3](TC-ELECTRONIC.md#plethora-x3) | Three LCD slot displays for three effect switches | TonePrint multi-effects | No external analog EXP socket in complete inventory; MASH and MIDI expression are separate. |
+| [Line 6 HX Effects](LINE6.md#hx-effects) | Six LCD strips for switches1–6; eight total footswitches | Effects-only; nine DSP-limited blocks | MODE/TAP do not have two extra strips; touch switches are not touchscreens. |
