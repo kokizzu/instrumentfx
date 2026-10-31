@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Zoom G3Xn: remaining exact-model LCD/control and qualified Indonesia hardware gaps; preserve LCD-first priority and independent BOSS GT-Pro cursor. FM9 response/clock qualification saved; analog endpoints/recall remain open.",
+      "next_check": "Zoom G3X: remaining exact-model LCD/control and hardware evidence; retain individual-LCD-first priority and independent BOSS GT-Pro cursor. G3Xn pedal range/OutputVP scope saved, with unresolved coverage preserved.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133303,6 +133303,11 @@
       "file": "FRACTAL-AUDIO.md",
       "model": "FM9 MKII Turbo",
       "heading": "### FM9 — firmware-qualified pedal response and MIDI clock"
+    },
+    {
+      "file": "ZOOM.md",
+      "model": "G3Xn",
+      "heading": "### G3Xn — pedal-volume range versus OutputVP carryover"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -133487,6 +133492,18 @@
     "identity": "Original release history12.00 matches current official listing; selected historical sections.",
     "finding": "Response, presence detection and clock revision boundaries recorded in root profile.",
     "remaining": "Exact MKII analog endpoints/startup recall/output coverage and qualified offers remain open.",
+    "downloads": false,
+    "hardware_test": false
+  },
+  "g3xn_pedal_range_outputvp_20261101": {
+    "model": "G3Xn",
+    "checked": "2026-11-01",
+    "sources": [
+      "https://zoomcorp.com/documents/874/J_G5n_G3n_G3Xn_EffectsList.pdf",
+      "https://zoomcorp.com/documents/3433/G3n_System_Firmware_Version_History_ver220_en.pdf"
+    ],
+    "finding": "Effect-level range and cross-patch carryover distinguished; firmware and web publication dates kept separate.",
+    "remaining": "Every-patch assignment, startup recall and output coverage unverified; no external CONTROL IN inferred.",
     "downloads": false,
     "hardware_test": false
   }

@@ -3740,6 +3740,19 @@ Rechecked **2026-10-31** using indexed original text from [Zoom’s exact G3Xn p
 
 The manual’s adapter-startup instruction remains independent evidence, not an explicit denial of USB power. No download, cable connection or hardware test.
 
+
+### G3Xn — pedal-volume range versus OutputVP carryover
+
+Checked **2026-11-01** in Zoom’s [shared2020 effects list,pp24–25](https://zoomcorp.com/documents/874/J_G5n_G3n_G3Xn_EffectsList.pdf),©2020,Z2I-2555-04,and [G3n/G3Xn firmware history](https://zoomcorp.com/documents/3433/G3n_System_Firmware_Version_History_ver220_en.pdf),Z2I-3323-03. Exact shared-model scope;not originalG3/G3X.
+
+| Field | Documented distinction / qualification |
+|---|---|
+| Expression / PDL Vol range | VOL,Min andMax each **0–100**;Curve **A/B**. These are effect parameters,not measured output gain ordocumented global endpoints. |
+| Expression / OutputVP | Controls product output level andretains volume when patches change. List exposes no Min/Max parameters forit. Neither source establishes assignment across every patch,position/startup recall,bypass,phones,tail orrecorded-loop coverage. |
+| Firmware / carryover timing | History dates OutputVP to **2.00,April2018**. [Regional news page](https://zoomcorp.com/en/ca/news/firmware-update-v20-zoom-b3n-g3n-and-g3xn/) is datedJanuary1,2020;do not replace the release-history date with web publication date. |
+
+Built-in treadle remains distinct from direct external analog expression;G3n-only CONTROL IN is not transferred. No download ordevice test.
+
 <!-- comparison evidence ends -->
 
 ### G3Xn sources and next verification
