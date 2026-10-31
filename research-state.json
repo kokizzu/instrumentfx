@@ -131638,7 +131638,8 @@
     },
     "faq": "10.8x7.9x2.8in;4.75lb;approx274x201x71mm/2.15kg",
     "qualification": "Chart headings in/cm conflict with printed metric numbers;inch/mm interpretation conversion-supported. Model revision and weighing conditions unknown. No measured tolerance range. Both fail preferred200Wx140Dmm;200mm size-bin depth conflict retained.",
-    "next": "Continue individual LCD models first; independent BOSS GT-Pro cursor preserved"
+    "next": "Continue individual LCD models first; independent BOSS GT-Pro cursor preserved",
+    "collection_sync": "FOOTSWITCH-DISPLAYS.md now retains both source footprints,links canonical conflict,and keeps preferred-fit failure separate from unresolved200mm size-bin boundary."
   },
   "fm3_output_copy_mute_20261031": {
     "checked": "2026-10-31",

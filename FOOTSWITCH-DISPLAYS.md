@@ -40,7 +40,7 @@ Synthesis of the linked,revision-qualified audits as of2026-10-31. **None is yet
 | [Fender Tone Master Pro](FENDER.md#tone-master-pro) |371×261.6;fails;older261.4D conflict | Documented EXP Live Mode requires a Volume block per preset;independent global role unknown |
 | [Fractal FM3 MKII Turbo](FRACTAL-AUDIO.md#fm3-mkii-turbo) |281×236;fails |7.x manual expressly covers Turbo and global Input/Output volume;range/recall/current-firmware gaps remain |
 | [Fractal FM9 MKII Turbo](FRACTAL-AUDIO.md#fm9-mkii-turbo) | Historical FM9 dimensions only;exact MKII unresolved |2022 FM9 global role documented;current MKII equivalence unverified |
-| [Line6 HX Effects](LINE6.md#hx-effects) | Approx.274×201;fails | Global position recall does not create preset Volume blocks/assignments |
+| [Line6 HX Effects](LINE6.md#hx-effects) | FAQ approx.274×201;manufacturer chart274×199;both fail preferred footprint;[source conflict](LINE6.md#hx-effects--published-body-and-weight-discrepancy) | Global position recall does not create preset Volume blocks/assignments |
 | [TC PLETHORA X3](TC-ELECTRONIC.md#plethora-x3) |176.53×116.75;fits | No analog EXP socket in complete inventory;MASH/MIDI separate |
 | [TC PLETHORA X5](TC-ELECTRONIC.md#plethora-x5) | Axis-label conflict;fit unknown | Board-level assignment documented;later global override unknown |
 | [Zoom B3](ZOOM.md#b3) |234×170;fails | Per-patch TOTAL;OUTPUT VOL excludes rhythm/looper;guitar voicing unclassified |
