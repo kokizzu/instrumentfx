@@ -129407,6 +129407,14 @@
       "source": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3/",
       "finding": "Three individual stomp-style displays each with dedicated footswitch and knobs.",
       "scope": "Original G3, not G3X/G3n; existing model, no inventory admission."
+    },
+    "priority": "User2026-10-31: prioritize separate LCD/mini displays at footswitches before other research.",
+    "zoom_g3n": {
+      "checked": "2026-10-31",
+      "source": "https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf",
+      "revision": "Shared G3n/G3Xn manual, printed p3",
+      "finding": "Three display/four-knob/footswitch units.",
+      "access": "Manufacturer indexed text; direct reader failed size limit; no download or visual inspection."
     }
   }
 }
