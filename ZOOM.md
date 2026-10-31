@@ -4588,7 +4588,7 @@ Checked 2026-10-18. Announced guitar multi-effects; planned early-November launc
 | Synth / acoustic | Acoustic Simulator explicitly converts electric-guitar tone toward acoustic guitar. Mono Pitch Shifter and Poly Pitch Shifter are distinct; polyphonic pitch shifting is not polyphonic synthesis. Synth inventory unresolved. | [Effect list][NEU-F] |
 | I/O | Mono INPUT, RETURN/SUB IN, SEND/SUB OUT, L/R outputs;3.5mm phones/MIDI IN/OUT;CONTROL;USB-C. TRS MIDI wiring type pending. | [Manual][NEU-M] |
 | Analog levels | INPUT1MΩ,+12.4dBu max;RETURN1MΩ,INST/LINE+12.4/+18.4dBu max. Outputs330Ω,+12.4/+18.4dBu;phones24+24mW into32Ω,56Ω impedance. | [Manual][NEU-M] |
-| Conversion / USB | 48kHz;24-bit AD/DA64× oversampling;32-bit float processing. USB2in/2out48kHz32-bit float/24-bit;USB MIDI. | [Manual][NEU-M] |
+| Conversion / USB | 48kHz;current Japanese-02/English manuals specify32-bit AD/DA;earlier Japanese-01 reading24-bit/64× retained below.32-bit float processing. USB2in/2out48kHz32-bit float/24-bit;USB MIDI. | [Manual][NEU-M] |
 | Power / battery / USB | USB bus power;5V2A(10W) minimum supply, not measured draw. Internal3.7V nominal/4.2V max2900mAh Li-ion;~3h charge/~4.5h runtime, condition-dependent. Barrel polarity N/A to documented USB supply. | [Manual][NEU-M] |
 | IR / NAM / capture | Native **NAM A2 Lite** advertised;22 multilayer cabinet IRs and50 user IR slots. Other NAM architectures/conversion restrictions pending. NAM A2 capture uses Wi-Fi/TONE3000 server and is planned for December; not verified shipping capability or offline training. | [Product][NEU-P] |
 | Editor / software | SessionZ Pedal iOS/Android advertised; current app availability/OS minima and desktop editor unresolved. Store/capture planned for December. Audio drivers remain separate. | [Product][NEU-P] |
@@ -4624,6 +4624,15 @@ Checked2026-10-31: [manufacturer English manual](https://zoomcorp.com/manuals/ne
 | Display / shared-switch layout | **Two240×320 touch LCDs serve four footswitches**;HOME shows assigned effect/Program names along the screen bottoms. Stage View enlarges labels. This is not four individual footswitch displays;diagonal remains unresolved. |
 | Expression / Rig scope | EXT Pedal assignment is configured for the selected **Rig**:No Assign,Auto Assign,Input Volume orOutput Volume,with Min/Max for volume roles. This documents Rig-level setup,not a verified system-wide override;numeric range,recall,bypass/phones/tails/loop coverage and compatible pedal wiring remain unknown. |
 | Conversion / language-document conflict | English specifications state **32-bit A/D and32-bit D/A**,versus earlier Japanese24-bit/64× evidence. Preserve both;no hardware-revision explanation established.32-bit float DSP/USB formats are separate specifications. |
+
+### NEURIG — Japanese revision02 and loop lifetime
+
+Checked2026-10-31: [current Japanese manufacturer manual](https://zoomcorp.com/manuals/neurig-ja/) now identifies **Z2I-5930-02**,superseding the earlier inspected-01 revision.
+
+| Field | Evidence / qualification |
+|---|---|
+| Conversion / current-language reconciliation | Japanese-02 and EnglishZ2I-5931-01 both specify **32-bit A/D and32-bit D/A**. The earlier24-bit/64× reading remains historical provenance,not a current Japanese-versus-English disagreement. Publication timing/reason and physical converter architecture remain unverified. |
+| Looper / lifetime | Japanese-02 states **changing Rigs or powering off erases the phrase**. HOME/other screens can retain recording/playback;opening Rig Menu stops it. Tempo changes erase phrases recorded with timed1–64quarter-note settings. These are distinct from gapless Program changes within one Rig or global expression-volume coverage. |
 <!-- comparison evidence ends -->
 
 [NEU-P]: https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/neurig/
