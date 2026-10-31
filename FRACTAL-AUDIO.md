@@ -527,6 +527,17 @@ Checked **2026-10-31**, [Okada’s exact MKII Turbo page](https://www.okada-web.
 
 Earlier unknowns above retain their historical source scope; this supplement supplies the new regional evidence. No sibling-model transfer, download or device test.
 
+### FM9 — headphone route and conditional output copying
+
+Checked2026-10-31 in the [manufacturer FM9 manual](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf), August2022 firmware3.x Original/Turbo, printedpp21,95,100. Current MKII/firmware12 equivalence remains unverified.
+
+Headphones monitor **Output1**. Combined with the documented global Output1 Volume target at the Output1 block, this supports a **routing inference** that processed grid audio reaching that block is attenuated in headphones. A looper routed through that block should follow the same control; alternate routes are not covered. Neither inference proves numeric endpoints, pedal-position recall, bypass behavior or attenuation of separately mixed direct USB playback. No device test confirms it.
+
+**Output2 Copy Output1** creates an extra copy with its own front-panel level control, but **only when the preset has no Output2 block**. It explicitly excludes USB audio. Therefore enabling this global switch alone does not certify identical Out2 routing or volume coverage across arbitrary presets. Output mode (stereo/sum/copy-left) also excludes direct USB audio, while nominal Output1/2 level selection does affect USB levels. These are separate controls and routes.
+
+No download, preset edit or hardware operation.
+
+
 ## VP4
 
 Admitted 2026-10-28 as a **partial model**, not fully verified. Own manufacturer product/manual establish effects-only guitar/bass multi-effects. All earlier lead-stage bodies and anchors remain below; their outside-inventory status is historical and superseded only by this admission. No ownership or live-market availability inferred.

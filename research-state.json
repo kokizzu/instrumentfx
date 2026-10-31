@@ -131990,5 +131990,18 @@
     "record": "ZOOM.md#g5n--loop-continuity-across-modes-versus-patches",
     "qualification": "Mode changes distinct from patch changes; USB channels still unknown",
     "next": "Continue other individual-LCD processor gaps; independent GT-Pro cursor preserved"
+  },
+  "fm9_headphone_copy_scope_20261031": {
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "revision": "August2022 firmware3.x Original/Turbo",
+    "record": "FRACTAL-AUDIO.md#fm9--headphone-route-and-conditional-output-copying",
+    "qualification": "Conditional routing inference; no current hardware test",
+    "remaining": [
+      "Numeric global endpoints",
+      "Position recall",
+      "Bypass",
+      "Current MKII equivalence"
+    ],
+    "next": "Continue individual-LCD capability gaps and exact Shopee hardware offers; general GT-Pro cursor preserved"
   }
 }
