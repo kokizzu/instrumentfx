@@ -132164,5 +132164,38 @@
       "No downloaded files,software installation ordevice operation"
     ],
     "next": "G3Xn exact catalogue column;commit this model before next;individualLCD models remain priority;BOSS GT-Pro independent general cursor unchanged"
+  },
+  "g3xn_catalogue_controls_usb_20261031": {
+    "checked": "2026-10-31",
+    "model": "Zoom G3Xn",
+    "sources": [
+      {
+        "url": "https://zoomrussia.ru/manuals/FX_Catalog_2019_E.pdf",
+        "identity": "Manufacturer-authored Effects and Preamps2019;ZoomCorporation,January2019",
+        "scope": "Exact G3Xn column printedpp5–6,indexed original text;regional mirror;not completePDF orvisual review"
+      },
+      {
+        "url": "https://zoomcorp.com/media/documents/D_G3n_G3Xn.pdf",
+        "identity": "Manufacturer German shared manual,©2016,Z2I-2796-01",
+        "scope": "Printedpp3–5,unit definition andcontrol inventory"
+      }
+    ],
+    "findings": [
+      "13rotary derived:3units×4parameter knobs+control encoder",
+      "6footswitches explicitly published",
+      "USB Audio×in exact G3Xn column;USB MIDI separate"
+    ],
+    "superseded_summary_rows": [
+      "| Controls: knobs / footswitches / buttons | Exact K/F/B counts **?**, pending original panel inspection. Manual names parameter knobs, TYPE keys,FS1–FS3,BANK/SCROLL,mode switch,control/enter andMENU. Do not report three total foot controls from FS1–FS3 alone. Power and pedal switching separate. [G3-M][g3xn-m] |",
+      "| Editor / USB / recording | **Guitar Lab** edits parameters/chains and manages effects/patches. Support lists7.3:Windows8.1/10/11,macOS10.13–26; separate G3Xn firmware2.20 installers forWindows/Mac. Manual labelsUSB MIDI/Micro-B. USB audio,driver and mobile editor support **not established**; no software downloaded or run. [G3-P][g3xn-p], [G3-S][g3xn-s], [G3-M][g3xn-m] |"
+    ],
+    "qualifications": [
+      "Treadle switch separately named;no seventh standalone chassis switch inferred",
+      "Separate buttons andvisual corroboration unresolved",
+      "Dated USB audio exclusion not later-firmware orhands-on certification",
+      "USB power-source conflict retained",
+      "No local download,installation orhardware operation"
+    ],
+    "next": "Continue individual-LCD model gaps;unresolved OutputVP scope requires specific instructions,not another retained-position announcement;BOSS GT-Pro independent general cursor unchanged"
   }
 }
