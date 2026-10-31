@@ -273,6 +273,18 @@ Checked **2026-10-31** against [manufacturer7.x manual,printedp41](https://www.f
 No factory restore,download ordevice operation. Analog global-volume endpoints/recall andcurrent firmware-equivalent behavior remain open.
 
 
+### FM3 — USB clock, selectable routes and level controls
+
+Checked **2026-10-31** against the [manufacturer 7.x manual](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf), whose cover includes MKII Turbo; printed pp26–28,31,102,104,139. Firmware13 equivalence remains untested.
+
+| Field | Documented route / qualification |
+|---|---|
+| USB / clock and recording | **4×4 USB Audio Class 2.0, fixed 48kHz**. The tutorial records DI through computer Input3 and processed preset audio through Inputs1/2. These are computer channels, not physical input numbers. |
+| USB / selectable sources | USB3/4 Record Source lists **Input1, Input2, Output2**, while its description mentions only Input1/2. USB1/2 playback selects Out1(default) or Out2; its extracted options line repeats Out2, but the description names both. Preserve these discrepancies. |
+| USB / reamp and playback levels | USB3/4 playback selects Input1(default), Out1 or Out2. Reamping also requires Input1 Source=USB3/4. Separate USB1/2 and3/4 playback trims span **−40…+20dB**. The hand-operated OUT1 knob controls computer playback and processed audio. These controls do not establish global EXP attenuation of USB returns. |
+
+Global pedal endpoints, startup recall and bypass coverage remain unresolved. No download or device operation.
+
 ## FM9 MKII Turbo
 
 Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI seller item remains separate. Current product/store establish revision. Linked2022 manual covers original/Turbo but predates MKII display revision;historical physical figures below require current corroboration.

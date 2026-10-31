@@ -131533,5 +131533,24 @@
     "main_touch": "Original design non-touch;October10,2015 first-person product-development explanation. Same account publishes official KB release notes. Not Stadium.",
     "remaining": "Auxiliary strip diagonal/color/touch andphysical visual corroboration;otherpower/factory/offer qualifications retained",
     "next": "Continue LCD-first unresolved exact-model fields; avoid repeated empty searches; independent general BOSS GT-Pro cursor retained."
+  },
+  "fm3_usb_routes_levels_20261031": {
+    "checked": "2026-10-31",
+    "record": "FRACTAL-AUDIO.md#fm3--usb-clock-selectable-routes-and-level-controls",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+    "basis": "7.x manual explicitly covers MKII; printed pp26–28,31,102,104,139; no firmware13 hardware test",
+    "clock_hz": 48000,
+    "usb_class": "2.0",
+    "channels": "4x4",
+    "record_tutorial": "Computer Input3 DI; Inputs1/2 processed",
+    "record_source_conflict": "USB3/4 table lists Input1/Input2/Output2; description mentions only Input1/2",
+    "playback_12": "Out1(default) or Out2; extracted options repeat Out2, but prose names both",
+    "playback_34": "Input1(default), Out1 or Out2; reamp also requires Input1 Source=USB3/4",
+    "playback_trim_db": [
+      -40,
+      20
+    ],
+    "remaining": "USB return global EXP coverage, analog endpoints/startup and bypass remain unverified",
+    "next": "Continue individual LCD models with unresolved fields and exact offers; independent BOSS GT-Pro general cursor retained."
   }
 }
