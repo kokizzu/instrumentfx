@@ -130352,8 +130352,8 @@
       "checked": "2026-10-31",
       "instruction": "Prioritize one with LCD on footswitch first",
       "next_models": [
-        "Fractal Audio FM3 MKII Turbo remaining global-volume endpoints and coverage",
-        "Line 6 HX Effects exact Volume model ranges and qualified IDR offers"
+        "Zoom B3n OutputVP exact insertion requirements and coverage",
+        "Fractal Audio FM3 MKII Turbo global endpoints and recall"
       ],
       "task": "Continue unresolved exact-model documentation and qualified hardware offers for individual LCD processors before OLED models. Retain the independent BOSS GT-Pro cursor.",
       "qualification": "Queue order is a research priority, not a recommendation or declaration of full verification.",
@@ -130476,6 +130476,12 @@
       "region": "Kota Bogor",
       "access": "Two-week cached body; exact hardware title only; condition/stock/authenticity/bundle unknown, stale delivery and miscellaneous home category.",
       "existing_preorder_recheck": "11170212/27200713719 newer last-week index says Habis at Rp25552000, 7-day preorder with stale 27Oct delivery; direct JS shell."
+    },
+    "b3n_outputvp_scope": {
+      "checked": "2026-10-31",
+      "source": "https://zoomcorp.com/en/us/news/firmware-update-v20-zoom-b3n-g3n-and-g3xn/",
+      "finding": "Carry OutputVP v2 retained-volume qualification into external expression comparison; not merely original PDL Vol.",
+      "unresolved": "Whether OutputVP requires insertion per destination patch; global range and bypass/phones/tails/loop coverage; installed firmware."
     }
   },
   "gt_pro_global_patch_level_20261031": {
