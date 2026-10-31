@@ -22,5 +22,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): complete G3n connector inventory boundaries'
+        message='research(zoom): distinguish G5n tuner output and toe state'
     print(git('commit','-m',message))

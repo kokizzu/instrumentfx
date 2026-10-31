@@ -131975,5 +131975,13 @@
     "qualification": "Historical manual explicitly includes model; current-equivalence unknown; power and memory conflicts retained",
     "market": "Exact Shopee queries returned no indexed item; local availability unknown",
     "next": "Return to individual-LCD audio processor gaps; independent GT-Pro cursor retained"
+  },
+  "g5n_tuner_toe_scope_20261031": {
+    "source": "https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf",
+    "revision": "V2",
+    "printed_pages": "35–38,46,51",
+    "record": "ZOOM.md#g5n--tuner-output-and-toe-switch-state-boundaries",
+    "qualification": "Tuner modes and temporary toe state distinguished; not global volume or output coverage proof",
+    "next": "Continue LCD-first processor technical gaps; general GT-Pro cursor retained"
   }
 }

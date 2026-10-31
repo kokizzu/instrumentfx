@@ -3840,6 +3840,18 @@ Checked **2026-10-31** against the complete one-page [manufacturer V2 patch list
 The same sheet advises enabling the cabinet effect’s MIC parameter for headphone use. This is a patch-effect setting,not a global headphone-volume mapping. Original text only;no download,reset,update ordevice test.
 
 
+### G5n — tuner output and toe-switch state boundaries
+
+Checked2026-10-31 against the [manufacturer V2 manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf), printedpp35–38,46,51:
+
+- Tuner OUTPUT has **BYPASS** (dry without effects), **MUTE** (no output) and **EFFECT** (selected patch processing). These are tuner modes; the text does not establish separate headphone/USB, tail or looper behavior for each mode.
+- Tuner reference is **A435–445Hz**. Types: Chromatic, Guitar (including seven strings), Open A/D/E/G and DADGAD. Flat tuning lowers by1–3 semitones; unavailable with Chromatic.
+- Pressing the expression treadle’s front end toggles its effect without changing the saved ON/OFF setting; the alternative effect-switch operation changes that setting. This distinction does not establish all-preset volume assignment or pedal-position recall.
+- Pedal sensitivity calibration is documented separately from effect selection. It does not establish volume endpoints or global assignment.
+
+Physical switch totals remain unresolved because extracted panel symbols are incomplete; no visual count, hardware operation or local download was performed. Built-in treadle still excludes G5n from the no-treadle shortlist.
+
+
 ## G6
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
