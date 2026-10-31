@@ -22,5 +22,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): qualify G5 volume exclusions and individual LCD controls'
+        message='research(zoom): reconcile G5 historical patch-sheet allocation'
     print(git('commit','-m',message))
