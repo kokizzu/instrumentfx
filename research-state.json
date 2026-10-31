@@ -138049,5 +138049,14 @@
     "remaining": "Global all-preset volume target, numeric endpoints and universal output coverage not established. Built-in treadle excludes XL from no-treadle shortlist; OLED labels remain separate from LCD candidates.",
     "downloads": false,
     "hardware_test": false
+  },
+  "gtpro_driver_monitor_limits_20261101": {
+    "checked": "2026-11-01",
+    "source": "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+    "access": "Indexed original GT-PRO manufacturer manual p141; full PDF reader size limit remains",
+    "finding": "Recorded Advanced-mode buffer-adjustment/application-restart requirement and documented unexpected ASIO Direct Monitor switching boundary.",
+    "remaining": "Other driver-mode channel counts, current host operation, global FV range precedence, visual controls and qualified Shopee offers remain unresolved.",
+    "downloads": false,
+    "hardware_test": false
   }
 }
