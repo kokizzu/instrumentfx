@@ -523,6 +523,18 @@ Checked **2026-11-01**, [manufacturer3.80 RevG manual reproduction,pp8,54–57,7
 
 No pedal connected orpreset changed. DirectUSB1/2 playback still bypasses processing as documented above;these assignments do not establish its pedal attenuation. Built-in treadle excludes Floor fromthe no-treadle shortlist;it remains an individual-LCD comparison model. No download.
 
+### Helix Floor — controller range and pedal-bypass distinction
+
+Checked **2026-11-01** in the [manufacturer-authored3.80 RevG manual reproduction,printedpp55,58–59](https://manualzz.com/doc/81729721/line-6-helix-owner-s-manual),original document text;host-generated answers excluded.
+
+| Field | Documentation / qualification |
+|---|---|
+| Expression / assignment range | Controller Assign provides **Min Value/Max Value**;swapping them reverses response. This verifies adjustable per-parameter ranges,not numeric Volume Pedal attenuation endpoints orone global assignment across presets. |
+| Expression / threshold bypass | Bypass Assign uses a separate **Position threshold,0%heel to99%toe**,and **Wait** delay. Toggle changes the current bypass state when crossing;Heel Down/Toe Down force bypass at the designated end regardless ofstarting state. The99%threshold label is not a volume maximum orpedal calibration range. |
+| Expression / snapshot interaction | The manual’s footnote says Variax-knob,footswitch andMIDI assignments receive snapshot control by default;page2 **Snapshot Control=Off** disables that interaction. This is per-assignment behavior,not global EXP Position recall. No universal mute oroutput coverage is inferred. |
+
+No preset edited,pedal connected,local download ordevice test. Existing directUSB1/2 bypass andbuilt-in-treadle exclusions remain.
+
 <!-- comparison evidence ends -->
 
 ### Helix Floor provenance and gaps

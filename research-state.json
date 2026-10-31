@@ -137434,5 +137434,21 @@
     "access": "two-month search snapshot versus three-month opened sports-product storefront; no X5 exact item link recovered",
     "qualification": "Produk Baru badge does not verify item condition; shop/item IDs,BMJ identity,variant,bundle,stock,condition,adapter,warranty,region,vouchers and checkout unknown. No fraud or ownership-change inference.",
     "next": "Continue individual-LCD processor capability and exact hardware gaps; avoid unchanged X5 product/firmware searches; preserve independent BOSS GT-Pro cursor."
+  },
+  "helix_floor_pedal_bypass_range_20261101": {
+    "status": "partial manufacturer-authored manual finding",
+    "source": "https://manualzz.com/doc/81729721/line-6-helix-owner-s-manual",
+    "revision": "3.80 RevG, printed55,58–59",
+    "findings": [
+      "Per-parameter Min/Max assignment ranges adjustable and reversible",
+      "Position0%heel–99%toe is bypass threshold, not attenuation endpoint; Wait andToggle/HeelDown/ToeDown differ",
+      "Manual footnote names Variax knob,footswitch andMIDI assignments for default snapshot control; Off disables this interaction; not analog EXP recall proof"
+    ],
+    "unresolved": [
+      "numeric Volume Pedal attenuation endpoints",
+      "universal bypass/headphone/tail/loop coverage",
+      "global volume assignment across presets"
+    ],
+    "next": "Continue individual-LCD exact-model gaps; preserve independent general BOSS GT-Pro cursor."
   }
 }
