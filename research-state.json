@@ -131621,5 +131621,23 @@
     "host_check": "Windows11/Tahoe26 omit B3/Edit&Share; omission is not No",
     "market_check": "Exactgyulalis1220839369/41075001096 direct clean andtitleURL inaccessible;cachedask unchanged",
     "next": "Continue individual LCD models with stronger remaining leads; independent BOSS GT-Pro cursor preserved"
+  },
+  "hx_effects_body_source_conflict_20261031": {
+    "checked": "2026-10-31",
+    "record": "LINE6.md#hx-effects--published-body-and-weight-discrepancy",
+    "sources": [
+      "https://line6.com/data/6/0a020a41033e604695e606367/application/pdf/",
+      "https://kb.line6.com/hx-effects-faq"
+    ],
+    "chart": {
+      "width_mm": 274,
+      "depth_mm": 199,
+      "height_mm": 71,
+      "weight_kg": 2.22,
+      "weight_lb": 4.9
+    },
+    "faq": "10.8x7.9x2.8in;4.75lb;approx274x201x71mm/2.15kg",
+    "qualification": "Chart headings in/cm conflict with printed metric numbers;inch/mm interpretation conversion-supported. Model revision and weighing conditions unknown. No measured tolerance range. Both fail preferred200Wx140Dmm;200mm size-bin depth conflict retained.",
+    "next": "Continue individual LCD models first; independent BOSS GT-Pro cursor preserved"
   }
 }
