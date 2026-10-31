@@ -146,7 +146,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; origina
 | Dimensions / weight | **281W×236D×103H mm;3.22kg**. Large. Manual p.140. |
 | Power / battery / USB operation | **90–264VAC,47–63Hz,<40W**, grounded mains. CR2032 is backup memory battery, not operating battery. DC polarity/current not applicable to mains inlet; USB/battery operation unverified. Manual pp.24,140. |
 | Simultaneous blocks / categories | CPU-limited; **12×4 grid is not guaranteed48 effects**. Own7.x p46 documents per-type ceilings:one Amp/Cab/Pitch/Reverb/Synth/Looper;two Drive/Chorus/Delay;four Filter/Mixer. These are CPU-limited maxima,not a guaranteed simultaneous combination. [Complete own7.x table](#fm3--block-choice-and-instance-table) below;current firmware13 inventory unresolved. Manual pp.2,50. Current product lists300+ amp models; factory cabs2200+ and1024 user IR locations, not simultaneous blocks. [Product](https://www.fractalaudio.com/fm3/) |
-| Preset / factory / user memory | **512 editable locations;8 scenes each**. Factory-filled subset unresolved. Manual pp.2,9,49. |
+| Preset / factory / user memory | **512 editable locations;8 scenes each**. Own7.x manual printedp41 specifies **first384 factory-filled**,all overwriteable;current shipping allocation/installed contents unverified. See [revision-qualified occupancy](#fm3--factory-occupancy-versus-editable-capacity). |
 | Synth / acoustic functions | **Synth yes:three-voice monophonic Synth block**,one instance/four channels in own7.x p46; resolves the earlier synth unknown. Acoustic instrument input documented;dedicated acoustic simulation remains unverified. Channels are stored variations,not four simultaneous synth blocks. [Own manual](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf) |
 | IR / NAM / captures | **1024 user cab IRs**, UltraRes/DynaCab; DynaCab introduced firmware7. **7.x manual p2 lists.ir/.syx/.wav and16 scratchpads; p118 specifies.syx transfer and distinguishes.IR as Cab-Lab remix format**. Preserve summary/workflow distinction; direct support for every format,source rate/length limits and firmware13 equivalence unresolved. Native NAM, converted NAM and user amp capture import unverified. [Product](https://www.fractalaudio.com/fm3/) |
 | Audio / control ports | Mono¼-inch unbalanced instrument in; balanced stereo¼-inch Input2/return; balanced XLR stereo Out1; unbalanced Humbuster¼-inch stereo Out2;¼-inch stereo phones; two TRS pedal jacks; FASLINK II; MIDI IN/OUT; S/PDIF out48kHz; USB-B; unused USB-A; mains. Manual pp.23–24. |
@@ -231,7 +231,7 @@ The Rp11.999 Pianeta preset and acrylic covers are not processor prices. Origina
 - [Official FM3 Owner's Manual,7.x](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf), listed2023-07-12; cover explicitly includes standard and MKII Turbo. Printed page numbers above. Text read through web reader; no local download or new visual inspection.
 - [Current product](https://www.fractalaudio.com/fm3/), [downloads](https://www.fractalaudio.com/fm3-downloads/), and [editor](https://www.fractalaudio.com/fm3-edit/) checked2026-10-17. Firmware packages and software were not downloaded or executed.
 
-Remaining:per-category algorithms and concurrency, factory occupancy, display diagonal/touch, expression/toe details, synth/acoustic engines, IR format limits,NAM/capture status, looper/drums and current-condition Indonesian offers. This adds one partial model,not a verified-complete record.
+Remaining:per-category algorithms and concurrency, current factory occupancy, display diagonal/touch, expression/toe details, synth/acoustic engines, IR format limits,NAM/capture status, looper/drums and current-condition Indonesian offers. This adds one partial model,not a verified-complete record.
 
 ### FM3 MKII Turbo — global expression-volume audit (2026-10-28)
 
@@ -260,6 +260,18 @@ Checked **2026-10-31**,[own7.x manual](https://www.fractalaudio.com/downloads/ma
 | Display / message timing | Message Hold sets temporary footswitch-message duration on the FM3 main screen or connectedFC display. It is distinct from contrast,brightness and Tap/Hold label selection. |
 
 These settings do not establish strip diagonal,touch or color-pixel specifications. No hardware operation,reset,download or visual inspection.
+### FM3 — factory occupancy versus editable capacity
+
+Checked **2026-10-31** against [manufacturer7.x manual,printedp41](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf),whose cover expressly includes standard andMKII Turbo.
+
+| Field | Verified scope / qualification |
+|---|---|
+| Memory / documented factory filling | **First384 locations factory-filled;512 total editable locations**,eight scenes per preset. Any location can be overwritten;factory content is not a separate protected bank added to512. The remaining128 locations are an arithmetic difference,not an independently inspected blank-state guarantee. This resolves the earlier factory-subset unknown for this manual revision. |
+| Memory / current replacement package | [Current downloads page](https://www.fractalaudio.com/fm3-downloads/) lists a **June4,2025** factory package for firmware10.00+,with banksA/B/C andan ALL BANKS file. The archive was not downloaded orinspected;its actual preset count andcurrent factory-shipping allocation are not independently verified. Firmware13 listing does not establish installed content. |
+| Controls / preset-directory sorting | Manualp41 documents numeric directory order by default and **SORT A–Z** via push-knobE. This changes browsing order,not preset addresses,storage capacity orphysical footswitch count. |
+
+No factory restore,download ordevice operation. Analog global-volume endpoints/recall andcurrent firmware-equivalent behavior remain open.
+
 
 ## FM9 MKII Turbo
 

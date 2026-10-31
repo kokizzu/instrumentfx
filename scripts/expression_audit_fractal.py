@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(fractal): qualify FM9 LCD layouts and preset overrides'))
+    print(git('commit','-m','research(fractal): verify FM3 revision-qualified factory occupancy'))

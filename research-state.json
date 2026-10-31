@@ -131150,5 +131150,16 @@
     "record": "LINE6.md#hx-effects--snapshot-bypass-versus-parameter-recall",
     "correction": "Snapshot parameter opt-out concerns values,not reassignment of the physical controller",
     "next": "LCD model gaps remain prioritized; no all-preset global-volume qualification for HX Effects."
+  },
+  "fm3_factory_occupancy_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+    "printed_page": 41,
+    "scope": "7.x manual covers standard and MKII Turbo",
+    "factory_filled": 384,
+    "total_editable": 512,
+    "scenes_per_preset": 8,
+    "record": "FRACTAL-AUDIO.md#fm3--factory-occupancy-versus-editable-capacity",
+    "remaining": "Current factory allocation and installed contents; current global analog volume endpoints/recall. Prioritize individual LCD models; independent general cursor stays BOSS GT-Pro."
   }
 }
