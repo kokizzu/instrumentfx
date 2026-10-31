@@ -130802,5 +130802,10 @@
     ],
     "finding": "Developer1.9.0Sep29 release claims now recorded;importer explicitlynineFSwithownminidisplays remainsqualifiedlead.",
     "limits": "No manufacturerLCD/OLED/countconfirmation;browserinventoryempty;manualreaderinaccessible. No download,newactiveadmissionorvisualclaim."
+  },
+  "hx_effects_380_assignment_scope_20261031": {
+    "source": "https://line6.com/support/page/kb/effects-controllers/helix/helixhx-380-release-notes-r1079/",
+    "finding": "HXEffects supported forTeardropBassQ;EXP1default andMinMaxwahsweep. Amp/cab additions have different supported-model lists.",
+    "limits": "No globalvolume range,installedfirmwareornewcensusinferred;currenteditor3.82notfirmware3.82. No download/test."
   }
 }
