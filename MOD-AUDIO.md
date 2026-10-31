@@ -36,4 +36,10 @@ Four user profiles A–D store input, output and sync/MIDI settings; they are no
 
 Hardware bypass connects each input directly to its corresponding output, engages while powered off and disengages after the pedalboard loads. Each channel can also be bypassed separately. Headphone, effect-tail and looper coverage through this bypass remains unverified.
 
+### Duo — footswitch assignments and snapshot scope
+
+Checked **2026-11-01** against the manufacturer-hosted [WebGUI guide for OS 1.13](https://wiki.mod.audio/wiki/MOD_Web_GUI_User_Guide), including its explicit **MOD Duo** assignment subsection. Knobs can hold multiple parameter assignments; each footswitch holds only one. This is not evidence of a single switch directly toggling multiple arbitrary plugin parameters. A snapshot-list assignment is a separate documented route to changing several saved settings.
+
+Snapshots store parameter states inside a pedalboard and switch those states without reloading the board. After creating or editing a snapshot, the containing pedalboard must also be saved or the changes are lost. WebGUI snapshot lists cannot be reordered in the documented revision. No numerical snapshot capacity, guaranteed gapless switching, tail/looper continuity or global across-pedalboard assignment is established. Dwarf-specific on-device saving/reordering is not borrowed for Duo.
+
 Next:establish LCD-to-actuator placement fromprimary text orinspectable originalpanel,verify complete profile andexact hardware offers before active admission. No files,software,firmware,plugins ordependencies downloaded;no device operation.

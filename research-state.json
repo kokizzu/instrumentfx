@@ -134618,7 +134618,8 @@
       "https://wiki.mod.audio/wiki/MOD_Duo_User_Guide",
       "https://wiki.mod.audio/wiki/MOD_Duo_Technical_Specs",
       "https://wiki.mod.audio/wiki/Developers",
-      "https://wiki.mod.audio/wiki/MOD_Duo_Device_Settings"
+      "https://wiki.mod.audio/wiki/MOD_Duo_Device_Settings",
+      "https://wiki.mod.audio/wiki/MOD_Web_GUI_User_Guide"
     ],
     "lcd": "2LCDs;2.7in vs2.8in sourceconflict;dedicatedswitchplacementunresolved",
     "direct_analog_expression": "No,explicitguide;MIDI/ControlChain conversion separate",
@@ -134629,6 +134630,10 @@
       "lcd_roles": "Left main menu; right submenu; per-foot label placement still unresolved",
       "persistence": "Four I/O and sync/MIDI profiles are not pedalboard capacity; saved plugin states are not global expression assignment",
       "bypass": "Per-channel physical input-output bypass; on when powered off, disabled after pedalboard loads; phones/tails/looper coverage unknown"
+    },
+    "control_snapshot_os113": {
+      "controls": "Duo knobs multiple assignments; each footswitch one; snapshot list distinct from arbitrary multi-parameter mapping",
+      "snapshot_scope": "Parameter states within pedalboard; save containing board after snapshot edits; WebGUI list cannot reorder; numerical capacity and tails/looper continuity unknown"
     }
   }
 }
