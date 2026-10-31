@@ -134860,5 +134860,18 @@
       "exact hardware offers"
     ],
     "next": "Continue individual-LCD audio-processor gaps before OLED/shared-screen candidates; preserve independent BOSS GT-Pro general cursor"
+  },
+  "g5n_internal_ir_20261101": {
+    "source": "https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf",
+    "revision": "V2 Z2I-2449-03, printed p3",
+    "finding": "Built-in cabinets explicitly modeled using impulse responses; not proof of user IR-file import",
+    "remaining": [
+      "USB channel count/routing",
+      "USB/battery power",
+      "complete button census",
+      "display diagonal/color/touch",
+      "third-party IR/NAM/capture import"
+    ],
+    "next": "Continue individual-LCD processor unresolved fields; independent general cursor unchanged"
   }
 }
