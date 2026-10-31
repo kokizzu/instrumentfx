@@ -1923,6 +1923,16 @@ Checked 2026-10-19. [Own operation manual, pp10–14,22,41](https://zoomcorp.com
 
 FP02 uses CONTROL IN; normal bass pickups need no divided pickup. Guitar voicing remains unclassified. Existing234W×181Dmm fails preferred footprint. Preserve the headphone-layout conflict above. Bypass, headphone, tail and recorded-loop attenuation, plus held-pedal recall remain unknown; do not transfer original B3’s rhythm/loop exclusion. MEMORY mode uses bank switching and three patch selectors; unrestricted sequential preset down/up is not established. No downloads or device operation.
 
+### B3n — footswitch-display operating modes, 2026-10-31
+
+[Own original manual](https://zoomcorp.com/media/documents/E_B3n.pdf),copyright2016,Z2I-2783-01,printedpp7–8,16,22,25,27. Text-only inspection; web screenshot returned no inspectable image.
+
+| Field | Evidence / qualification |
+|---|---|
+| Display / live labels | STOMP can show effect names or parameter names/values. Some large effects assign SOLO or another special switch function,indicated by light text on a dark background. MEMORY shows patch number/name and highlights the selected patch with a light background; it can temporarily show and scroll the patch’s effects. These are operating views on the three physical LCDs,not additional screens. Color depth,touch and diagonal remain unverified. |
+| Live / bank selection | Holding bank switches changes banks continuously; PRESELECT still requires a patch selector to confirm. This is bank navigation,not proof of an unrestricted sequential preset-down/up pair. |
+| Live / master and ECO distinction | M.LVL0–120 can be adjusted in STOMP and MEMORY; this is hand control,not a global EXP role. ECO turns the unused unit off after10hours,not merely its displays; default state is not specified here. Individual LCD contrast1–13 remains separately documented. |
+
 ## B6
 
 Bass multi-effects; large body, external-only expression. Consolidated and refreshed 2026-10-16; partial. All 15 legacy model fields below retain the original 2026-10-14 observation date. New manual details and IDR evidence are dated separately.

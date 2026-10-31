@@ -129713,6 +129713,13 @@
       "source": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
       "finding": "English page now1.8.58;historical1.7.75 blank-strip/view fixes;current iOS15 minimum supersedes June13.1 entry.",
       "scope": "Individual LCD priority;no device/app operation;older sources retained."
+    },
+    "b3n_live_display": {
+      "checked": "2026-10-31",
+      "source": "https://zoomcorp.com/media/documents/E_B3n.pdf",
+      "revision": "Z2I-2783-01,pp7–8,16,22,25,27",
+      "finding": "STOMP names/parameters and special switch-function text;MEMORY patch labels/selection;bank hold and10hunitpoweroff distinct.",
+      "remaining": "No inspectable panel screenshot;physical totals,color/touch/diagonal and global EXP scope unresolved."
     }
   },
   "gt_pro_global_patch_level_20261031": {
