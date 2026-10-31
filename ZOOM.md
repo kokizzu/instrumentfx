@@ -3356,6 +3356,14 @@ Reviewed **2026-10-17** after fresh exact Shopee hardware discovery. New catalog
 | USB audio | **USB audio:16-bit/44.1kHz** (V2 manual p.50), separate from **24-bit ADC/DAC and32-bit DSP** (p.58). Monitor balance100 selects DAW-return monitoring; other blends can cause flanging. Channel count,loopback/reamp routing remain unverified. | [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
 | Looper / drums / live | **Mono1.5–80s;stereo1.5–40s**. Undo ON halves maxima to40s/20s. Recording time:MANUAL or1–64 quarter notes; changing it deletes the phrase. 68 rhythms,tuner,output boost and TAP. Older V2 processing chart:LP-MONO/LP-MN2=7 points;LP-STEREO/LP-ST2=10. Current chart/revision equivalence,unit-slot cost,scenes and tails still unresolved. | [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/); [V2 manual,p.44](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf); [older V2 cost chart](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G5n-V2.0_FX-power-chart.pdf) |
 
+### G5n — additional exact Shopee evidence, 2026-10-31
+
+| Class | IDR ask | Exact offer / qualification |
+|---|---:|---|
+| Condition-unverified,sold-out cached hardware | **Rp5.000.856** | [NEO MUSIC,shop158235298/item18080922968](https://shopee.co.id/ZOOM-G5N-Guitar-Multi-Effect-Processor-i.158235298.18080922968),Kota Sukabumi. Exact G5n title;three-week search cache says **Habis**,delivery10October. Direct reader cache miss. New/used,variant,bundle,adapter,warranty,authenticity,shipping/tax and checkout unknown. Late-delivery voucher not deducted. |
+
+Excluded pending variation check: [shop280735381/item54869023932](https://shopee.co.id/Efek-Gitar-Zoom-G5N-Multi-Effects-Processor-Pedal-Digital-i.280735381.54869023932),indexedRp2.775.000 with selected model441597194469; both parameterized and clean reader failed. Seller name,variation contents and condition unknown; **not a qualified hardware-price lower bound**. Earlier used/retail asks below remain independent historical observations.
+
 ### Exact IDR hardware offers and condition limitations
 
 Initial check2026-10-17 found no explicit used-condition statement in the three offers below; a seller name containing second is insufficient. **Follow-up2026-10-18 found a separate explicitly used ask ofRp3.000.000**,qualified below. Retail/other asks below are not certified new-condition prices, a used-to-new range or live inventory.

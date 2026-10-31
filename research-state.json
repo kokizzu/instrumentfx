@@ -129678,6 +129678,20 @@
       "revision": "2020,Z2I-2556-04,p25",
       "finding": "Output VP product-output control/retention documented;no numeric parameters.",
       "remaining": "Universal assignment,coverage,wiring unverified;18PEDAL entries not installed census."
+    },
+    "g5n_shopee_followup": {
+      "checked": "2026-10-31",
+      "offer": "https://shopee.co.id/ZOOM-G5N-Guitar-Multi-Effect-Processor-i.158235298.18080922968",
+      "seller": "NEO MUSIC",
+      "idr": 5000856,
+      "stock": "Habis in three-week cache;direct miss",
+      "condition": "Unknown",
+      "pending": {
+        "item": "280735381/54869023932",
+        "idr": 2775000,
+        "variation": "441597194469",
+        "qualification": "Unresolved hardware variation;excluded from price lower bound."
+      }
     }
   }
 }
