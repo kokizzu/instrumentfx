@@ -129553,7 +129553,15 @@
       "root": "SINGULAR-SOUND.md#midi-maestro-gold-edition",
       "active": false,
       "finding": "Six1.9-inch screens/six switches; publisher saysdot-matrixLED,notLCD; exactpairingpending.",
-      "next": "Confirm panel layout/technology and exact Shopee hardware; original Maestro remains separate."
+      "next": "Confirm panel layout/technology and exact Shopee hardware; original Maestro remains separate.",
+      "app_followup": {
+        "checked": "2026-10-31",
+        "source": "https://apps.apple.com/us/app/singular-sound-midi-maestro/id1528913800",
+        "via": "https://www.singularsound.com/pages/support",
+        "version": "1.8.1,2025-04-22",
+        "minimum": "iOS15.6",
+        "scope": "Manufacturer-linked configuration app; no app installation or current-iOS compatibility test. Fullmanual403/forumPDFsize-limit; physical pairing unresolved."
+      }
     }
   }
 }
