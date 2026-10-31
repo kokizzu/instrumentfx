@@ -22,6 +22,17 @@ Checked 2026-10-31. The [exact GT/10 page](https://rjmmusic.com/products/masterm
 
 The [manufacturer GT comparison page](https://rjmmusic.com/pages/mastermind-gt-10-16-22) labels its product-manual link “Mastermind GT Manual”, but that link currently resolves to [PBC6X Manual-4.2.pdf](https://docs.rjmmusic.com/download-content/PBC6X/PBC6X%20Manual-4.2.pdf), whose internal text identifies Mastermind PBC, version4.2, dated2019-04-07. **This is a mismatched model document and is not used for GT/10 specifications.** The older GT4.1 link is retained above; it was inaccessible on this pass. Current GT/10 manual corroboration, the XLR wording conflict, display dimensions and exact Shopee Indonesia offers remain unresolved. No file downloaded or hardware operated.
 
+### GT/10 — recovered manufacturer manual, revision4.1
+
+The [manufacturer GT manual](https://docs.rjmmusic.com/download-content/MMGT/Mastermind%20GT%20Manual-4.1.pdf), version4.1 dated2018-09-11, explicitly includes GT/10. Printedpp2,4,59,72 establish:
+
+- Ten footswitches plus **two setup soft buttons**; button LCDs have **RGB backlighting**, which does not establish full-color pixel graphics. Brightness/contrast adjustment is documented; numeric ranges remain unknown.
+- GT/10 dimensions and mass corroborate the existing product figures. Its **700mA** rating differs from the current page’s **800mA**; generic rear-panel text separately requests a supply rated at least2A. These are revision-qualified statements, not measured draw.
+- Auxiliary outputs: **9VDC, center-negative,100mA total shared**, not100mA each.
+- XLR connectors are explicitly **GT/22-only** in this revision, conflicting with the current GT/10 phantom-power wording. No current hardware inspection resolves that discrepancy.
+
+This restores historical manual corroboration; it does not certify current firmware/hardware equivalence or resolve display diagonal, touch, exact Indonesian offers or global audio-volume coverage. Earlier inaccessible and mislabeled links remain preserved.
+
 ## Mastermind GT/16
 
 Checked 2026-10-31 against the [exact manufacturer page](https://rjmmusic.com/products/mastermind-gt-16-midi-foot-controller). Controller only, outside active audio counts.

@@ -131937,5 +131937,12 @@
     ],
     "priority": "Individual footswitch LCD models first; general GT-Pro cursor preserved",
     "download_or_device_test": false
+  },
+  "rjm_gt10_recovered_manual_20261031": {
+    "source": "https://docs.rjmmusic.com/download-content/MMGT/Mastermind%20GT%20Manual-4.1.pdf",
+    "revision": "4.1,2018-09-11",
+    "record": "RJM-MUSIC.md#gt10--recovered-manufacturer-manual-revision41",
+    "qualification": "Historical specifications; current product conflicts retained. No download or device test.",
+    "next": "Continue individual-LCD technical gaps and exact Shopee offers; independent GT-Pro cursor retained."
   }
 }
