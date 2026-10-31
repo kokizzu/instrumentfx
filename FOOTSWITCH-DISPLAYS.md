@@ -77,6 +77,7 @@ These match the separate-display layout, with OLED technology rather than LCD.
 
 | Brand / model | Display-layout status | Record / next check |
 |---|---|---|
+| TC Electronic **PLETHORA X1** — partial | Manufacturer documents one effect/parameter display and one MASH switch; LCD/OLED and placement unverified | [Exact 0709-AJN partial lead](TC-ELECTRONIC.md#plethora-x1--partial-discovery-lead). 74×122 mm footprint; no analog EXP socket in published inventory. Outside active counts; individual LCD match unconfirmed. |
 | MELOFTY **AXOM MAX** | **Footswitch/pedal mini screens documented**; exact count, placement and LCD/OLED technology unresolved | [Partial discovery record](MELOFTY.md#axom-max--partial-discovery-lead). Separate7-inch color touchscreen confirmed; [capture and memory workflows](MELOFTY.md#axom-max--manufacturer-memory-and-capture-workflows) now manufacturer-backed. [Recovered quick-guide navigation qualifications](MELOFTY.md#axom-max--recovered-quick-guide-navigation-boundaries). Partial; outside active counts. |
 
 ## Foot controllers

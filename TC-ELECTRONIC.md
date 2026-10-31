@@ -9,6 +9,7 @@
 - [M350](#m350)
 - [M-One XL](#m-one-xl)
 - [NOVA System](#nova-system)
+- [PLETHORA X1 — partial discovery lead](#plethora-x1--partial-discovery-lead)
 - [PLETHORA X3](#plethora-x3)
 - [PLETHORA X5](#plethora-x5)
 <!-- brand-index ends -->
@@ -404,6 +405,27 @@ Official original endpoints retained forprovenance: https://service-tcgroup.tcel
 [NOVA-SP]: https://service-tcgroup.tcelectronic.com/media/Nova_Sys_SP.pdf
 
 [NOVA-FW12]: https://service-tcgroup.tcelectronic.com/media/novasystem-1_2-installation-guide.pdf
+
+## PLETHORA X1 — partial discovery lead
+
+Checked **2026-10-31**. Exact **0709-AJN**, manufacturer-described multi-effects TonePrint loader. **Partial discovery, outside active counts and ALL-instrument rows**, pending a full profile and qualified Indonesian hardware evidence. X1 Neo, X3 and X5 specifications are separate.
+
+[Current manufacturer product](https://tcelectronic.com/en/products/0709-AJN) lists 14 TonePrint pedals, firmware **1.1.13**, and TonePrint **4.7.2 for Windows/macOS**. Mobile Bluetooth editing names iOS/Android; host minima and driver/audio roles remain unverified. Stored TonePrints persist after power-off.
+
+[Manufacturer manual](https://cdn-media.empowertribe.com/209f2ffd656a4bedaf2ee9da6a24aeba/FACE-PRIN-PH1_M_TE_0709-AJN_PLETHORA-X1_A4_WW_2023-10-18_Rev-0.pdf), filename 2023-10-18 Rev0, 18 PDF pages; English printed pp6–9 and specifications PDF p15 inspected as text. No download or visual panel inspection.
+
+| Field | Partial exact-model evidence / boundary |
+|---|---|
+| Controls / expression | Three parameter knobs plus BOARD SELECTOR knob; one MASH footswitch, one CONNECT button and separate two-way toggle. No treadle in inventory. MASH pressure expression is not an analog external pedal. Visual corroboration pending. |
+| Display | Shows effect, bypass, parameter values, MASH/RAMP animation and BPM. Manufacturer says DISPLAY; LCD/OLED, diagonal, color, touch and placement remain unverified. |
+| Body / footprint | **74 W ×122 D ×50 H mm**, from labelled H×W×D 50×74×122 mm; fits the 200 W ×140 D preference. Weight unverified here. |
+| I/O | Two quarter-inch TS inputs, **1 MΩ**; two quarter-inch TS outputs, USB-C, DC. Ordinary guitar uses MONO input. No EXP, headphone or DIN MIDI socket in published inventory; USB audio/MIDI unknown. |
+| Power | **9 V DC centre-negative, ≥250 mA supply**, 5.5/2.1 mm; adapter not included. Not measured draw; USB/battery operation unresolved. |
+| Memory / processing | Factory table lists **seven Boards ×A/B slots**. A/B switches slots; not 14 simultaneous effects. Current type census, factory revision and concurrency remain unverified. |
+| Live | True/buffered bypass; tap tempo, RAMP and MASH secondary functions. Global expression volume, endpoints, recall and headphone/tail/loop coverage unverified. |
+| Remaining | IR/native NAM/converted NAM/capture, synth/acoustic, looper/drums, current library, screen proof and qualified offers require research. Unknown is not No. |
+
+**Separate IDR hardware evidence:** new and used unknown. Exact Shopee Indonesia searches recovered no qualified item. [Thai Shopee item119771659/54057670117](https://shopee.co.th/เอฟเฟคกีตาร์-TC-Electronic-Plethora-X1-i.119771659.54057670117) is a different market/currency/shipping region; excluded from IDR prices. Search absence does not prove Indonesian unavailability. No currency conversion, installation or hardware test.
 
 ## PLETHORA X3
 

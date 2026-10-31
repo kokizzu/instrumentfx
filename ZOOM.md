@@ -3509,7 +3509,6 @@ Checked **2026-10-31** against the [complete legacy manufacturer G3X product pag
 | Expression / preset persistence | Own product page states that pedal ranges are independently adjustable **for every patch**;manualp16 says TOTAL settings are saved separately per patch. Global MASTER0–120 remains a separate level control,not proof of global pedal assignment. Built-in pedal,external volume andoptional footswitch roles retain their existing distinctions. |
 | I/O / exact output formats | Own specifications identify **quarter-inch mono R** and**quarter-inch stereo L/MONO/PHONES**,in addition to balancedXLR. Shared headphones are not an additional dedicated socket;USB/control connector subtypes remain unverified. |
 
-
 ## G3Xn
 
 Guitar multi-effects; checked **2026-10-17**, partial first pass. Exact G3Xn, not G3n, G3X or G3. Bass capability unresolved; no ownership inferred. Manufacturer UK page marks discontinued; aftermarket offers do not reverse that status.
@@ -3688,7 +3687,6 @@ Checked **2026-10-31**. [Shopee category snapshot](https://shopee.co.id/search?k
 
 Seller display names,selected hardware/bundle contents,working state,adapter,warranty,stock,voucher eligibility,shipping/tax andcheckout totals remain unknown. No inferred price range ordiscount. Existing spring-return used offer is separate;no manufacturer specifications come from these listings.
 
-
 ## G5
 
 Original guitar multi-effects; distinct from G5n. Manufacturer marks discontinued. Checked2026-10-17; partial. Bass/vocal suitability and ownership unestablished.
@@ -3848,7 +3846,6 @@ Checked **2026-10-31**. [Archived manufacturer G5 FAQ](https://www.zoom.co.jp/no
 | Live / tap tempo | FAQ requires external **FS01**,TOTAL→CTRL SW→TAP TEMPO,andnote-based TIME/RATE. It explicitly excludes using onboard footswitches for this task in the documented revision. Current installed behavior untested. |
 
 [Original G5 firmware history1.20](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G5_v1.20_E.pdf),one-page body explicitly G5 despite web title“G3”,reaches **May2013**:hi-hat/tempo fix,Windows8 andUSB3.0 host support. This extends the earlier1.10 history endpoint;USB3.0 compatibility is not a faster audio format. No download ordevice operation.
-
 
 ## G5n
 

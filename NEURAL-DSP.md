@@ -233,7 +233,6 @@ Checked **2026-10-31**, [manufacturer HTML manual,NanOS2.2.0](https://neuraldsp.
 
 Global LEVEL assignment across presets,held-pedal recall,andbypass/headphone/tail coverage remain unresolved. No download,installation ordevice test.
 
-
 ## Quad Cortex
 
 Partial record checked **2026-10-17**. Full Quad Cortex,distinct from Nano Cortex andQuad Cortex mini. Product page advertises CorOS4.1.0;current web manual identifies4.1.1. Seller firmware unverified.

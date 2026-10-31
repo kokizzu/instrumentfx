@@ -157,7 +157,6 @@ Checked **2026-10-31**;controller only,outside active audio counts.
 
 Body dimensions/weight are stated unchanged fromoriginal. Power voltage/current/polarity,complete physical counts,pinout andexact Shopee offers remain unresolved. No download ordevice operation.
 
-
 ## FM3 MKII Turbo
 
 Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; original FM3 offers are not merged. Manufacturer's 7.x manual expressly covers both revisions; current firmware listing is newer. Unknown means unverified.
@@ -392,7 +391,6 @@ Checked **2026-10-31**. [Own7.x FM3 manual,p104](https://www.fractalaudio.com/do
 | Expression / separate EV-1 audio path | EV-1 IN/OUT uses a separate **500kΩ audio-taper** volume circuit with TS audio cables. The guide says not to use expression and audio-volume functions simultaneously because ground loops can occur. This audio path is not FM3’s analog control input orproof of processor headphone/tail/loop attenuation. |
 
 EV-1 remains an accessory,outside processor counts. No local download orpedal operation.
-
 
 ## FM9 MKII Turbo
 
