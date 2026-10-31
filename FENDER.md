@@ -339,3 +339,24 @@ Checked **2026-10-31** in the [manufacturer Model Guide reproduction](https://ma
 | Processing / historical pitch limits | Chromatic spans **−2…+2octaves**,best with single notes. Diatonic offers **22 intervals,12 keys,nine scales**,also described as best with single notes. Pedal Shifter has10 interval choices;Pedal Detune hasShallow/Deep modes. Modes/intervals are not additional algorithms. |
 
 These are complete **sections of the older guide**,not the current nine-category library or a full older-guide census. Later category separation/additions remain independently dated;do not add update increments to these lists to invent current totals. Volume Pedal is a block,not proof ofglobal all-preset assignment. Current IR formats/capacity remain unknown. No download orhardware test.
+
+### Tone Master Pro — complete historical effect-section totals
+
+Checked **2026-10-31**, [manufacturer Model Guide1.2.55,RevB](https://manuals.plus/m/d661a03ee5f2fdaec47d00be1862b903155245a8345018b802c063be4985be26),printedpp22–68. Every named entry in all six effect sections was read;original-document identity is qualified above.
+
+| Historical section | Named entries | Printed pages |
+|---|---:|---|
+| Stompbox |21|22–32|
+| Modulation |21|33–43|
+| Delay |14|44–50|
+| Reverb |14|51–57|
+| Dynamics+EQ |13|58–64|
+| Filter+Pitch |8|65–68|
+
+| Field | Census / qualification |
+|---|---|
+| Categories / historical effect total | **21+21+14+14+13+8=91 named effects** in this guide,excluding amp/cabinet/microphone sections. Separate mono/stereo andsilicon/germanium entries count as listed;internal mode choices do not. This is a document census,not current installed inventory or simultaneous capacity. |
+| Categories / historical Delay names | Autoswell Delay;Digital Delay Mono;Dynamic Delay;Echo Filter Mono;Echo Filter Stereo;Memory Delay;Stereo Memory Delay;Ping Pong Delay;Reverse Delay;Space Delay;Stereo Space Delay;Tape Echo;Stereo Tape Echo;Studio Delay. |
+| Processing / convolution limit | The guide allows **one convolution reverb at a time**,whether standalone or included in a combo-amp model. This is a specific historical DSP restriction,not a one-reverb orone-effect ceiling. Current equivalence remains unverified. |
+
+Later renamed models,split categories andfirmware additions remain separately documented. Do not add later update increments mechanically to91. Current GuideH census,IR-file limits andglobal volume gaps remain open. No download ordevice test.

@@ -131696,5 +131696,25 @@
     "pitch_limits": "Chromatic±2octaves;Diatonic22intervals/12keys/9scales;single-note best;PedalShifter10intervals;Detune2modes",
     "remaining": "Other historicalsections,currentGuideH census andIR capacity/formats;globalEXPvolume unresolved",
     "next": "Continue LCD-first exactmodels andcurrent documentation;BOSS GT-Pro independentcursor retained"
+  },
+  "tone_master_historical_effect_sections_20261031": {
+    "checked": "2026-10-31",
+    "record": "FENDER.md#tone-master-pro--complete-historical-effect-section-totals",
+    "source": "https://manuals.plus/m/d661a03ee5f2fdaec47d00be1862b903155245a8345018b802c063be4985be26",
+    "revision": "1.2.55 RevB",
+    "pages": "22–68",
+    "counts": {
+      "Stompbox": 21,
+      "Modulation": 21,
+      "Delay": 14,
+      "Reverb": 14,
+      "Dynamics+EQ": 13,
+      "Filter+Pitch": 8
+    },
+    "total": 91,
+    "basis": "Allsixeffectsectionsread;separatemono/stereo/Ge/Si namedentriescounted;modesnotadditional;amps/cabs/micsexcluded",
+    "restriction": "Oneconvolutionreverb acrossstandaloneandcomboampinclusion;notoneeffectceiling",
+    "remaining": "CurrentGuideH countsandremainingfullprofilegaps;noinstalledfirmwaretest",
+    "next": "LCDfirstcontinues;independentBOSS GT-Pro cursor preserved"
   }
 }
