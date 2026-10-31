@@ -132033,5 +132033,11 @@
     "record": "FENDER.md#tone-master-pro--block-preset-pool-and-midi-expression-scope",
     "qualification": "Reusable block settings distinct from whole-rig user locations; no device test",
     "next": "Guide H current census still unresolved; continue individual-LCD gaps; GT-Pro cursor preserved"
+  },
+  "g3_auto_assign_targets_20261031": {
+    "source": "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf",
+    "record": "ZOOM.md#g3--exact-automatic-pedal-mappings-and-separate-loop-level",
+    "qualification": "Named per-patch mappings; not global-volume assignment. No hardware test.",
+    "next": "Continue LCD-first inventory/market gaps; independent GT-Pro cursor preserved"
   }
 }

@@ -3119,6 +3119,22 @@ Checked 2026-10-31 against the [manufacturer G3/G3X manual](https://zoomcorp.com
 | Memory / patch level versus global master | Patch LEVEL and global MASTER each span **0–120**. Patch LEVEL is stored per patch; MASTER affects all patches. Neither range establishes analog expression endpoints or overrides the per-patch TOTAL assignment. The OUTPUT VOL rhythm/looper exclusion remains separate. [Own manual pp16,20](https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf). |
 | Display / tuner feedback | The keys above the displays also illuminate to indicate tuning accuracy. This is auxiliary feedback, not another LCD, a color-depth specification or evidence of touch input. [Own manual p27](https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf). |
 
+### G3 — exact automatic-pedal mappings and separate loop level
+
+Checked2026-10-31 in the [manufacturer G3/G3X manual](https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf),printedpp18–19,33–35. G3 external-pedal support is explicit; built-in G3X toe mechanics are not transferred.
+
+| AUTO ASSIGN effect | Assigned parameter |
+|---|---|
+| PedalVx | Freq |
+| PedalCry | Freq |
+| TheVibe | Speed |
+| PDL Pitch | Bend |
+| PDL MnPitch | Bend |
+
+The manual permits simultaneous control of these parameters when multiple supporting effects are active. AUTO ASSIGN fixes their minimum/maximum automatically; manual endpoint editing applies to other assignments. TOTAL assignments remain **per patch**. These five mappings are not five extra effects,universal volume control or a certified external toe switch.
+
+Loop playback level and rhythm level each have a separate **0–100** setting. Returning Home permits continued loop playback; this does not independently prove patch-change retention. STOP/FINISH/FADE OUT can be overridden by holding the stop switch for immediate stopping; the extracted icon does not identify that switch reliably here. Fade duration remains unspecified. The documented OUTPUT VOL exclusion of rhythm/looper remains in force. No download orhardware operation.
+
 <!-- comparison evidence ends -->
 
 Multi-model Hope Music listing G3/G3X/G3XN, shop703817770/item11099808237, showed Rp1,899,000–2,699,000 across five unresolved variations. Not assigned to G3. [Listing](https://shopee.co.id/Efek-Zoom-G3-G3X-G3XN-i.703817770.11099808237).
