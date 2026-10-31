@@ -138010,5 +138010,18 @@
       }
     ],
     "remaining": "Current installed effects, separate buttons/visual census, selective factory recovery, global analog-volume assignment/range/recall/output coverage and qualified live offers remain open."
+  },
+  "fm3_mkii_indonesia_retail_offers_20261101": {
+    "checked": "2026-11-01",
+    "model": "Fractal Audio FM3 MKII Turbo",
+    "sources": [
+      "https://nafiriguitar.com/id/products/fractal-fm3-mkii-turbo-amp-modeler-fx-processor",
+      "https://nafiriguitar.com/id/collections/all-ready-stock-collections?page=7",
+      "https://www.melodiamusik.com/product/fractal-fm3-mark-ii-turbo-amp-modeler-multi-fx-processor/"
+    ],
+    "finding": "Added separate non-Shopee retail asks: Nafiri Rp25,300,000 sold-out product page versus ready-stock collection naming; Melodia SKU FAS-037 Rp27,200,000 with cached preorder/branch-availability disagreement.",
+    "remaining": "No live checkout,condition,firmware,bundle orwarranty confirmation. Existing Shopee asks andtechnical qualifications preserved.",
+    "downloads": false,
+    "transaction": false
   }
 }
