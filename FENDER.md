@@ -232,13 +232,13 @@ Four send/return pairs: **loops1/2 are fixed analog pre-conversion loops**, usef
 
 **Power: universal100–240 V AC,50/60 Hz,40 W**, supplied IEC cable; no DC pedal-adapter polarity applies. Regional store120V/230V labels are not a substitute for the manufacturer's universal input specification. Internal battery and USB-powered operation are not documented. [MS,M4]
 
-**Pro Control full editor: Windows10 x64 22H2/Windows11,macOS12.7+,iOS13.1+,Android8 arm64-v8a+.** Mobile editing is documented, not merely Bluetooth audio. Linux editor unverified. Firmware and app release generation must match. [R,J]
+**Pro Control full editor: Windows 10 x64 22H2 / Windows 11, macOS 12.7+, iOS 15+, Android 8 arm64-v8a+.** These are the current retrieved requirements in the July 15, 2026 firmware 1.8.58 entry; its desktop app builds are Mac 1.8.4.9728 and PC 1.8.4.9733. The June 3 entry listed iOS 13.1+; retain that as historical compatibility, not the current minimum. Mobile editing is documented, not merely Bluetooth audio. Linux editor remains unverified. Firmware and app release generation must match. [R,J]
 
 **USB4-in/4-out**, standard dry/processed recording and reamping; internal44.1 kHz, project synchronization44.1/48/88.2/96 kHz. In standard mode computer-return3/4 are disabled; reamp mode enables them for instrument/mic reamping and mutes the physical inputs. Windows ASIO driver is separate from the editor. [P,M35,R]
 
 ### Firmware and stage/practice distinctions
 
-The English support page retrieved here starts with **1.8.45,2026-06-03**; the Japanese official page documents **1.8.58,2026-07-15**, with later fixes. Do not label the older English headline the latest known firmware. The newer version also renames FBE/Freeman models to Forge; old names in an earlier guide are not additional models. [R,J]
+An earlier retrieval of the English support page started with **1.8.45,2026-06-03**, while the Japanese official page documented **1.8.58,2026-07-15**. That was an access-time discrepancy: the current English retrieval also heads with **1.8.58,July15,2026**, as documented below. Do not label the older English headline the latest known firmware. The newer version also renames FBE/Freeman models to Forge; old names in an earlier guide are not additional models. [R,J]
 
 **Looper expanded from the product page's60 seconds to three minutes in1.7.53.** Three polysynths and MIDI-over-USB support were added in that same release. The June2026 update adds8 amps,8 cabinets and15 effects; these are update increments, not the complete library and not to be added again to an updated model list. Scene/snapshot functions, songs/setlists,tuner and delay/reverb spillover are documented; no measured global latency is asserted. [R,J,P]
 

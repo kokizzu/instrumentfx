@@ -132778,5 +132778,11 @@
     ],
     "finding": "Recorded3.80 guide internal3.10/3.00 minimum conflict andexplicit HX Effects Global EQ exclusion.",
     "limits": "No3.82 minimum,global volume orinstalled-device test inferred."
+  },
+  "tone_master_summary_requirements_sync_20261031": {
+    "source": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+    "finding": "Corrected stale canonical overview to current iOS15 requirement andEnglish1.8.58 heading;retained June iOS13.1 andearlier retrieval discrepancy as history.",
+    "basis": "Current original manufacturer entry andalready preserved detailed root findings.",
+    "limits": "NAM original announcement still unverified;no shipped NAM claim ordevice test."
   }
 }
