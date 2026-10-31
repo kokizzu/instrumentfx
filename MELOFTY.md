@@ -138,3 +138,15 @@ Checked **2026-11-01**, [German V1.7.4 manual, PDFpp4,54,63](https://shop.warwic
 | Display / brightness scope | System settings list SCREEN BRIGHTNESS separately from AMBIENT LIGHT MODE. The text does not certify independent mini-screen brightness, LCD/OLED technology or numeric ranges. |
 
 Partial lead remains outside active counts. No local download, firmware change, device operation or visual count.
+
+### AXOM MAX — audio monitoring and recorded-loop backup
+
+Checked **2026-11-01**, [German V1.7.4 manual,PDFpp4,6,49–50,54–55,58](https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347). Original text;no device operation orlocal download.
+
+| Field | Documented scope / qualification |
+|---|---|
+| Audio / wireless and output controls | Bluetooth **audio input** supports backing tracks,separate from app control. UNBAL,BAL andPHONES each have global level/EQ controls,with linked orindependent L/R levels. These controls do not establish external EXP3 global-volume assignment orattenuation of every source. |
+| Editor / recorded-loop backup | AXOM Controller documents looper-audio import/export;full backup/restore includes presets,samples,global settings andlooper recordings. This is a documented transfer workflow,not verified automatic power-cycle retention,file-format compatibility orour restore test. |
+| Headphones / internal German conflict | PDFp6 explicitly says **6.35mm stereo**,while its specification tablePDFp62 says **3.5mm**. Thus the discrepancy is internal to this German document as well as between language versions. Both statements remain;physical jack size is unresolved. |
+
+Mini-screen count/technology andqualified Indonesian hardware remain unresolved. This partial lead stays outside active counts.

@@ -137086,5 +137086,19 @@
       "complete separate-button count"
     ],
     "next": "Keep individualLCD processor gaps first;general GT-Pro cursor remains independent."
+  },
+  "axom_max_monitoring_loop_backup_20261101": {
+    "model": "MELOFTY AXOM MAX",
+    "checked": "2026-11-01",
+    "source": "https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347",
+    "finding": "V1.7.4 documents Bluetooth audio input,per-output global EQ/level,andlooper-recording import/export/full backup. German panel6.35mm versus specification3.5mm is an internal headphone conflict.",
+    "limits": [
+      "no external EXP3 global-volume certification",
+      "no automatic power-cycle loop-retention certification",
+      "mini-screen count/LCD-OLED unresolved",
+      "partial lead,outside active counts"
+    ],
+    "next": "Obtain exact manufacturer screen specification andqualified Shopee hardware;do not promote retailer OLED claims.",
+    "downloads": false
   }
 }
