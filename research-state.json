@@ -134990,5 +134990,20 @@
       "current editor support"
     ],
     "next": "Other missing individual-LCD candidates; preserve independent general cursor"
+  },
+  "midi_maestro_ios26_family_advisory_20261101": {
+    "root": "SINGULAR-SOUND.md#gold-edition--family-ios-26-advisory-revision-scope-unverified",
+    "source": "https://forum.singularsound.com/t/midi-maestro-firmware-updater-desktop-app-fix-for-ios-26/41951",
+    "source_followup": "https://forum.singularsound.com/t/midi-maestro-firmware-updater-desktop-app-fix-for-ios-26/41951?page=2",
+    "finding": "Manufacturer support describes1.1.9/iOS26 connection issue and1.1.11 firmware viaMac/WindowsBLEupdater0.0.4; updater isnot desktopeditor",
+    "date_conflict": "postMarch3,2026 versus embedded EDITED3/16/25; no normalizedrelease date",
+    "scope": "Family software advisory;Goldhardware applicability notexplicit,remainsunverified. Communitymanual-equivalence reply notprimaryconfirmation.",
+    "remaining": [
+      "Goldspecific firmware applicability",
+      "LCD/LEDtechnology andplacement",
+      "desktopOSminimum",
+      "qualifiedShopeehardware"
+    ],
+    "next": "Continue individual-LCD priority; preserve independent general cursor"
   }
 }

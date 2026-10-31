@@ -21,6 +21,8 @@ if sys.argv[1:] == ["morningstar"]:
     message = "research(morningstar): distinguish MC8 PRO screens and switches"
 if "RJM-MUSIC.md" in changed:
     message = "research(rjm): document GT10 supported pedal and toe connection"
+if "SINGULAR-SOUND.md" in changed:
+    message = "research(singular): qualify MIDI Maestro iOS 26 firmware advisory"
 if sys.argv[1:] == ["famc"]:
     assert "FAMC.md" in changed, "Missing FAMC controller record"
     message = "research(famc): collect JR+ individual-display candidate with limits"
