@@ -131964,5 +131964,16 @@
     "qualification": "Historical manual explicitly includes model; current-equivalence unknown; power and memory conflicts retained",
     "market": "No exact Shopee result; local availability unknown",
     "next": "Continue individual-LCD processor gaps; independent GT-Pro cursor retained"
+  },
+  "rjm_gt22_manual_profile_20261031": {
+    "checked": "2026-10-31",
+    "sources": [
+      "https://rjmmusic.com/products/mastermind-gt-22-midi-foot-controller",
+      "https://docs.rjmmusic.com/download-content/MMGT/Mastermind%20GT%20Manual-4.1.pdf"
+    ],
+    "record": "RJM-MUSIC.md#gt22--historical-controls-and-xlr-power-boundaries",
+    "qualification": "Historical manual explicitly includes model; current-equivalence unknown; power and memory conflicts retained",
+    "market": "Exact Shopee queries returned no indexed item; local availability unknown",
+    "next": "Return to individual-LCD audio processor gaps; independent GT-Pro cursor retained"
   }
 }

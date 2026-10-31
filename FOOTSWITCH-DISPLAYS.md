@@ -90,7 +90,7 @@ These match the separate-display layout, with OLED technology rather than LCD.
 | Line 6 **Helix Control** | **Twelve individual LCD scribble strips**, one per capacitive footswitch | [Manufacturer-backed controller record](LINE6.md#helix-control--controller). Helix Rack companion; outside audio processor counts. |
 | RJM Music **Mastermind GT/10** | **Ten individual footswitch LCDs**, plus separate main LCD | [Exact GT/10 controller record](RJM-MUSIC.md#mastermind-gt10). Own power/body specifications; [MIDI limits and mismatched manual link](RJM-MUSIC.md#gt10--midi-limits-and-mislabeled-manual-link). [Recovered4.1 manual qualifications](RJM-MUSIC.md#gt10--recovered-manufacturer-manual-revision41); [Expression wiring conflict](RJM-MUSIC.md#gt10--expression-wiring-conflict-and-midi-scope); GT/22 values not transferred. |
 | RJM Music **Mastermind GT/16** | **16 individual footswitch LCDs**, plus separate main LCD | [Exact GT/16 controller record](RJM-MUSIC.md#mastermind-gt16). [Manual/current power conflict and LCD controls](RJM-MUSIC.md#gt16--revision-qualified-lcd-controls-and-power); separate from GT/10 and GT/22. |
-| RJM Music **Mastermind GT/22** | **22 individual footswitch LCDs**, plus separate main LCD | [Exact manufacturer-backed controller record](RJM-MUSIC.md#mastermind-gt22). Controller only; separate from GT/10 and GT/16. |
+| RJM Music **Mastermind GT/22** | **22 individual footswitch LCDs**, plus separate main LCD | [Exact manufacturer-backed controller record](RJM-MUSIC.md#mastermind-gt22). [Historical LCD controls and XLR power boundaries](RJM-MUSIC.md#gt22--historical-controls-and-xlr-power-boundaries). Controller only; separate from GT/10 and GT/16. |
 
 ### Screens shared by pairs of switches
 

@@ -78,3 +78,14 @@ Checked 2026-10-31 against the [exact manufacturer page](https://rjmmusic.com/pr
 | Remaining | Full current firmware/profile and exact Shopee Indonesia used/new hardware prices, condition, stock and bundles pending. |
 
 No download, purchase, software installation or device test.
+
+### GT/22 — historical controls and XLR power boundaries
+
+[Manufacturer Manual4.1](https://docs.rjmmusic.com/download-content/MMGT/Mastermind%20GT%20Manual-4.1.pdf), dated2018-09-11, explicitly covers GT/22 (printedpp1–7,72–73):
+
+- **22 footswitches plus two setup soft buttons**; individual LCDs have RGB backlighting, not verified full-color pixel graphics. IA Mode can expose21 IA switches. Default six-preset banks preview before preset confirmation; this is configurable navigation.
+- Body/mass corroborate the product figures. Manual **12VDC/1.5A** differs from current **1.6A**; generic supply guidance requests at least2A. Revision explanation and measured draw remain unknown.
+- Male6-pin XLR MIDI OUT and female6-pin XLR Remote IN are parallel to DIN; manual says use only one connector set at a time. Phantom input uses DIN OUT pins6/7 or XLR OUT pins1/2. Manual prohibits simultaneous phantom and adapter power.
+- Two accessory outputs share **100mA total**,9VDC center-negative. These outputs differ from the center-positive main input.
+
+The [exact product page](https://rjmmusic.com/products/mastermind-gt-22-midi-foot-controller) specifies16 connected devices and up to20 CC/PC/Note messages per IA button. These MIDI limits do not imply audio processing. Historical768 versus current-page384 presets remains unresolved. Exact Shopee GT22/GT/22 queries returned no indexed hardware item on2026-10-31; no IDR, condition, stock or bundle claim added. Display dimensions/touch, current firmware equivalence and processor-side volume coverage remain unverified. No download or hardware test.

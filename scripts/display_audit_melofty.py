@@ -20,5 +20,5 @@ message = "docs: compare no-treadle LCD volume scope and footprint" if sys.argv[
 if sys.argv[1:] == ["morningstar"]:
     message = "research(morningstar): distinguish MC8 PRO screens and switches"
 if "RJM-MUSIC.md" in changed:
-    message = "research(rjm): qualify GT16 LCD controls and power revisions"
+    message = "research(rjm): qualify GT22 controls and XLR power boundaries"
 print(git("commit", "-m", message))
