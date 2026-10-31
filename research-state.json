@@ -133179,7 +133179,8 @@
       96
     ],
     "scope": "7.x manual expressly includes MKII Turbo; tuner mute and footswitch indication documented, current13 equivalence untested.",
-    "global_volume_gaps": "Endpoints, analog recall, bypass and separate USB playback coverage remain unresolved."
+    "global_volume_gaps": "Endpoints, analog recall, bypass and separate USB playback coverage remain unresolved.",
+    "placement_correction": "Moved exact note from VP4 into FM3 MKII Turbo; content and anchor preserved."
   },
   "plethora_x5_regional_dimensions_20261101": {
     "sources": [
@@ -133204,6 +133205,40 @@
       33
     ],
     "finding": "Patch/master scales and tuner limits qualified; OutputVP range/global coverage unresolved.",
-    "visual_access": "Browser inventory returned no enabled surfaces; no visual count."
+    "visual_access": "Browser inventory returned no enabled surfaces; no visual count.",
+    "placement_correction": "Moved exact note from G3Xn into G3n; content and anchor preserved."
+  },
+  "model_note_scope_guards": [
+    {
+      "file": "ZOOM.md",
+      "model": "G3n",
+      "heading": "### G3n — patch level versus pedal range and tuner limits"
+    },
+    {
+      "file": "FRACTAL-AUDIO.md",
+      "model": "FM3 MKII Turbo",
+      "heading": "### FM3 — tuner mute placement and footswitch indication"
+    },
+    {
+      "file": "LINE6.md",
+      "model": "HX Effects",
+      "heading": "### HX Effects — expression-controlled block bypass"
+    },
+    {
+      "file": "TC-ELECTRONIC.md",
+      "model": "PLETHORA X5",
+      "heading": "### PLETHORA X5 — regional footprint and battery qualifications"
+    },
+    {
+      "file": "FENDER.md",
+      "model": "Tone Master Pro",
+      "heading": "### Tone Master Pro — tuner path scope and tap LCD readout"
+    }
+  ],
+  "model_note_scope_correction_20261101": {
+    "problem": "Unbounded comparison-end marker search crossed model headings in two notes.",
+    "fix": "Relocated exact notes and added model-heading ownership, uniqueness and presence guards for five recent findings.",
+    "regression": "Wrong-owner, duplicate and absent notes rejected by comparison-test-extraction; actual misplaced G3n note reproduced comparison-verify failure before correction.",
+    "scope": "No new hardware capabilities, model admission or source claim."
   }
 }

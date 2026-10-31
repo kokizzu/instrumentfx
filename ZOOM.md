@@ -3440,6 +3440,16 @@ Checked **2026-10-31**, indexed original [G3n manufacturer page](https://www.zoo
 | I/O / legacy headphone conflict | Features say **dedicated stereo headphones**,butthe same page’s specifications say **combined L/Mono/Phone**,with15+15mW into32Ω. Headphone availability is documented;separate-versus-shared socket layout remains unresolved. The load used for the power rating is not a minimum-impedance specification. |
 
 No download ordevice operation. USB audio andglobal analog-volume assignment are separate capabilities;neither follows from this power claim.
+### G3n — patch level versus pedal range and tuner limits
+
+Checked **2026-11-01**, [manufacturer German shared G3n/G3Xn manual](https://zoomcorp.com/media/documents/D_G3n_G3Xn.pdf), ©2016,Z2I-2796-01, printed pp17–18,22,31–33. Original text only; G3Xn built-in-pedal instructions excluded.
+
+**PATCH→LEVEL spans0–120**, distinct from **MASTER LEVEL/M.LVL0–120**. Neither scale is a verified OutputVP endpoint or global analog-volume assignment; the earlier PDL Vol Min/Max remains separate.
+
+Tuner reference **A435–445Hz**; types comprise Chromatic plus Guitar,OpenA/OpenD/OpenE/OpenG andDADGAD. Flat shifts one,two orthree semitones but is unavailable in Chromatic mode. Guitar mode includes seven-string tuning. Tuner bypass/mute does not establish expression attenuation of headphones,tails orloops.
+
+Full separate-button/visual control census andOutputVP assignment/coverage remain open. No browser surface was available for panel inspection;no image-count claim,local download ordevice test.
+
 
 ## G3X
 
@@ -3686,16 +3696,6 @@ Rechecked **2026-10-31** using indexed original text from [Zoom’s exact G3Xn p
 | USB / legacy connector versus protocol | The row labels the connector **USB2.0 Micro-B** and the standard **USB1.1 Full Speed**, then explicitly permits power through USB. Preserve connector and protocol labels separately; neither establishes USB audio. A power-only cable prevents data functions. Required power/current and present hardware applicability are not specified. The overview now reflects this qualified claim rather than a blanket unknown. |
 
 The manual’s adapter-startup instruction remains independent evidence, not an explicit denial of USB power. No download, cable connection or hardware test.
-
-### G3n — patch level versus pedal range and tuner limits
-
-Checked **2026-11-01**, [manufacturer German shared G3n/G3Xn manual](https://zoomcorp.com/media/documents/D_G3n_G3Xn.pdf), ©2016,Z2I-2796-01, printed pp17–18,22,31–33. Original text only; G3Xn built-in-pedal instructions excluded.
-
-**PATCH→LEVEL spans0–120**, distinct from **MASTER LEVEL/M.LVL0–120**. Neither scale is a verified OutputVP endpoint or global analog-volume assignment; the earlier PDL Vol Min/Max remains separate.
-
-Tuner reference **A435–445Hz**; types comprise Chromatic plus Guitar,OpenA/OpenD/OpenE/OpenG andDADGAD. Flat shifts one,two orthree semitones but is unavailable in Chromatic mode. Guitar mode includes seven-string tuning. Tuner bypass/mute does not establish expression attenuation of headphones,tails orloops.
-
-Full separate-button/visual control census andOutputVP assignment/coverage remain open. No browser surface was available for panel inspection;no image-count claim,local download ordevice test.
 
 <!-- comparison evidence ends -->
 

@@ -409,6 +409,12 @@ Checked **2026-10-31**. [Own7.x manual,printedpp79–80](https://www.fractalaudi
 
 Preset/power-cycle retention,current firmware equivalence andglobal EXP endpoints remain unresolved. No download,device operation orvisual inspection.
 
+### FM3 — tuner mute placement and footswitch indication
+
+Checked **2026-11-01**, [own 7.x manual, printed pp93,96](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf), cover expressly including MKII Turbo. Tuner Mute offers **Off/Input/Output**: Input mutes at the noise gate and allows tails; Output silences tails; Off passes audio. This documents tuner behavior, not global expression attenuation during bypass, USB playback or every routing.
+
+**A4 calibration 430–450Hz**, default440; Downtune0–4 semitones also transposes blocks using pitch information when active. Per-string offsets are±25cents. **Footswitch Tuner Mode** can make the first three footswitches visually assist tuning; it does not add displays. Current firmware13 equivalence remains untested. No download or device operation.
+
 
 ## FM9 MKII Turbo
 
@@ -713,12 +719,6 @@ Admitted 2026-10-28 as a **partial model**, not fully verified. Own manufacturer
 | Onboard preset navigation | Scene Mode hold 1 −1 / hold 4 +1; Preset Mode taps choose bank slots and holds 1/4 change banks. Global custom holds separate. |
 | Used IDR | No qualified exact Shopee offer. [Carousell 1451552917](https://id.carousell.com/p/efek-gitar-fractal-vp4-1451552917/), cached Rp12m negotiable, Seperti baru, Depok; unit/adapter/converter/box claimed, MIDI/USB cables missing. Seller zaidanalla64732 versus containerx identity conflict; three-month cache, direct miss; not current stock orcondition-tested value. |
 | New / retail IDR | Verified new unknown; no exact Shopee hardware. [Melodia](https://www.melodiamusik.com/product/fractal-vp4-virtual-pedalboard/), Rp14m, crossed Rp20.7m, last-week cache, direct miss; condition/stock/bundle/adapter/warranty/region/voucher/shipping/tax unknown. Seller’s 15m new claim is not independent price evidence. |
-### FM3 — tuner mute placement and footswitch indication
-
-Checked **2026-11-01**, [own 7.x manual, printed pp93,96](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf), cover expressly including MKII Turbo. Tuner Mute offers **Off/Input/Output**: Input mutes at the noise gate and allows tails; Output silences tails; Off passes audio. This documents tuner behavior, not global expression attenuation during bypass, USB playback or every routing.
-
-**A4 calibration 430–450Hz**, default440; Downtune0–4 semitones also transposes blocks using pitch information when active. Per-string offsets are±25cents. **Footswitch Tuner Mode** can make the first three footswitches visually assist tuning; it does not add displays. Current firmware13 equivalence remains untested. No download or device operation.
-
 <!-- comparison evidence ends -->
 
 ### VP4 — partial discovery lead, outside active inventory

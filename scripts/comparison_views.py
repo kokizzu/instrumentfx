@@ -445,8 +445,38 @@ def verify_output_freshness(expected, actual):
             'Stale generated comparison: ' + filename +
             '; run comparison-plan, review its outputs, then comparison-apply')
 
+def verify_note_scopes(documents, guards):
+    """Keep protected model notes under their intended root model heading."""
+    for guard in guards:
+        text = documents[guard['file']]
+        heading = guard['heading']
+        pattern = r'^' + re.escape(heading) + r'$'
+        assert len(re.findall(pattern, text, re.M)) == 1, 'Missing/duplicate note: ' + heading
+        owned = [body for name, body in sections(text) if name == guard['model']]
+        assert len(owned) == 1 and re.search(pattern, owned[0], re.M), (
+            guard['file'] + ': note outside ' + guard['model'] + ': ' + heading)
+
+
+def test_note_scopes():
+    guard = {'file': 'BRAND.md', 'model': 'One', 'heading': '### One — verified note'}
+    good = '## One\n\n### One — verified note\nEvidence.\n\n## Two\nOther.\n'
+    verify_note_scopes({'BRAND.md': good}, [guard])
+    for bad in ('## One\nEvidence.\n## Two\n### One — verified note\n',
+                good + '\n### One — verified note\n', good.replace(guard['heading'], '### Other note')):
+        try:
+            verify_note_scopes({'BRAND.md': bad}, [guard])
+        except AssertionError:
+            pass
+        else:
+            raise AssertionError('Accepted misplaced, duplicate or missing model note')
+    print('PASS: model notes reject wrong owners, duplicate headings and missing headings')
+
+
 def verify_views():
     identity()
+    scope_state = json.loads((ROOT/'research-state.json').read_text())
+    scope_guards = scope_state.get('model_note_scope_guards', [])
+    verify_note_scopes({g['file']: (ROOT/g['file']).read_text() for g in scope_guards}, scope_guards)
     # Re-extract current brand evidence; never trust an old preview or row counts.
     current = make_plan(persist=False)
     verify_output_freshness(current['outputs'],
@@ -974,6 +1004,7 @@ if __name__=='__main__':
         test_validation_counts()
     elif sys.argv[1]=='test-extraction':
         test_field_extraction()
+        test_note_scopes()
     elif sys.argv[1]=='test-fields':
         test_field_projection()
     elif sys.argv[1]=='test-selection':
