@@ -210,7 +210,7 @@ Controllers exists outside the grid. Differences from other revisions remain sou
 
 ### FM3 — looper scope, checked2026-10-31
 
-[Own7.x manual,p122](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf) requires a Looper block in the preset for its controller layout. A Looper footswitch layout alone does not add the audio block. [Manufacturer Blocks Guide,June2023,pp50–51](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf) supplies the revision-qualified120s maximum above; current speed/quality mapping,preset-change continuity,power-cycle retention and global expression attenuation remain unverified. No audio/device test or download.
+[Own7.x manual,p122](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf) requires a Looper block in the preset for its controller layout. A Looper footswitch layout alone does not add the audio block. [Manufacturer Blocks Guide,June2023,pp50–51](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf) supplies the revision-qualified120s maximum above; current speed/quality mapping,preset-change continuity andpower-cycle retention remain unverified. Global-output attenuation is conditionally inferred for loops routed through Out1 above;this does not cover every routing. No audio/device test or download.
 
 ### Separate IDR asking-price evidence
 
@@ -237,7 +237,7 @@ Remaining:per-category algorithms and concurrency, current factory occupancy, di
 
 [Official firmware7.x manual](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf), cover expressly includes MKII Turbo, printed pp12–13: **MIDI/Remote → Other → Input1/2 or Output1/2 Volume → PEDAL1/2 (EXP/SW TIP)** provides global volume without preset-by-preset assignment. Input control changes gain-dependent behavior; output control includes effect tails. This is separate from per-preset External Controller modifiers.
 
-Linear10–100kΩ pedal, TRS: manual describes tip supply, ring return, sleeve ground. Calibration precedes assignment. Numeric volume endpoints and held-position recall remain unverified. Printed p108 distinguishes Volume Increment/Decrement: these save preset levels and are unsuitable for an expression sweep. Headphone/bypass/recorded-loop coverage remains unverified. Existing281W×236Dmm fails preferred fit. Onboard preset increment/decrement functions are documented separately from MIDI; default layout uses three preset choices with held bank previous/next. Firmware13 behavior not tested.
+Linear10–100kΩ pedal, TRS: manual describes tip supply, ring return, sleeve ground. Calibration precedes assignment. Numeric volume endpoints and held-position recall remain unverified. Printed p108 distinguishes Volume Increment/Decrement: these save preset levels and are unsuitable for an expression sweep. The later global-output-coverage row above supplies a conditional headphone/tail/loop routing inference for audio through Out1; bypass and other routing remain unverified. Existing281W×236Dmm fails preferred fit. Onboard preset increment/decrement functions are documented separately from MIDI; default layout uses three preset choices with held bank previous/next. Firmware13 behavior not tested.
 
 ### FM3 — pedal sockets, switches and Auto-Engage
 
@@ -284,6 +284,18 @@ Checked **2026-10-31** against the [manufacturer 7.x manual](https://www.fractal
 | USB / reamp and playback levels | USB3/4 playback selects Input1(default), Out1 or Out2. Reamping also requires Input1 Source=USB3/4. Separate USB1/2 and3/4 playback trims span **−40…+20dB**. The hand-operated OUT1 knob controls computer playback and processed audio. These controls do not establish global EXP attenuation of USB returns. |
 
 Global pedal endpoints, startup recall and bypass coverage remain unresolved. No download or device operation.
+
+### FM3 — global output copying and USB mute boundary
+
+Checked **2026-10-31**, [own7.x manual](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf),printedpp102–103;cover includes MKII Turbo. Current firmware13 behavior was not tested.
+
+| Field | Documented route / qualification |
+|---|---|
+| Routing / Output2 Copy | Global **Output2 Copy=Output1,Input1 orNone** duplicates processed output or creates an instrument DI. It operates **only when the preset has no Output2 block**. Copying Output1 avoids adding that block to every preset and permits independent physical output knobs/Global EQ. This conditional audio-copy function is distinct from global expression assignment. |
+| Routing / mono and mute modes | Output modes include Stereo,SumL+R,CopyL>R;Mute is available only for Output1. **Direct USB audio goes to converters and is unaffected by these modes**,including that Mute setting. Do not call it a universal all-audio mute orinfer global EXP coverage from it. |
+| USB / combined Output2 monitoring | Manual explicitly pairs **Output2 Copy=Output1** with **USB1/2 Playback Destination=Output2** to hear preset audio andcomputer playback at Output2. Those are separate routing choices;output-block volume does not by itself certify attenuation ofboth. |
+
+No download, device operation ornew all-preset volume claim.
 
 ## FM9 MKII Turbo
 

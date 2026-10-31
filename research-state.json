@@ -131639,5 +131639,19 @@
     "faq": "10.8x7.9x2.8in;4.75lb;approx274x201x71mm/2.15kg",
     "qualification": "Chart headings in/cm conflict with printed metric numbers;inch/mm interpretation conversion-supported. Model revision and weighing conditions unknown. No measured tolerance range. Both fail preferred200Wx140Dmm;200mm size-bin depth conflict retained.",
     "next": "Continue individual LCD models first; independent BOSS GT-Pro cursor preserved"
+  },
+  "fm3_output_copy_mute_20261031": {
+    "checked": "2026-10-31",
+    "record": "FRACTAL-AUDIO.md#fm3--global-output-copying-and-usb-mute-boundary",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+    "scope": "7.x coversMKII;printedpp102–103;firmware13 untested",
+    "findings": [
+      "Output2 Copy selectsOutput1/Input1/None;only works without presetOutput2block",
+      "Output modes Stereo/Sum/Copy;MuteOut1only;USBdirect unaffected",
+      "Output2 processed-plus-USB needsCopyOut1 plusUSBdestinationOut2"
+    ],
+    "correction": "Older headphone/loop broad unknowns now point to later conditional Out1 routing inference;original sources andbypass/range/recall uncertainty preserved",
+    "remaining": "Global analog EXP USB-return/copyroute coverage,numericendpoints,recall andbypass unresolved",
+    "next": "Continue individual LCD priority;independent BOSS GT-Pro cursor retained"
   }
 }
