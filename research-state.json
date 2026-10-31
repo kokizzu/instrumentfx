@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Zoom G3Xn then G3X: remaining exact-model LCD/control/profile gaps; preserve built-in-treadle distinction and do not transfer G3n external input. Continue confirmed individual-LCD models before OLED/shared-screen leads.",
+      "next_check": "Zoom B3n: exact-model individual-LCD/control/profile gaps and qualified Shopee hardware. G3Xn control census remains unresolved; do not repeat exhausted text-only count attempts. Preserve G3X built-in treadle and distinct external-volume support.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133233,6 +133233,11 @@
       "file": "FENDER.md",
       "model": "Tone Master Pro",
       "heading": "### Tone Master Pro — tuner path scope and tap LCD readout"
+    },
+    {
+      "file": "ZOOM.md",
+      "model": "G3X",
+      "heading": "### G3X — input selection for pickups and upstream pedals"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -133240,5 +133245,11 @@
     "fix": "Relocated exact notes and added model-heading ownership, uniqueness and presence guards for five recent findings.",
     "regression": "Wrong-owner, duplicate and absent notes rejected by comparison-test-extraction; actual misplaced G3n note reproduced comparison-verify failure before correction.",
     "scope": "No new hardware capabilities, model admission or source claim."
+  },
+  "g3x_input_selection_20261101": {
+    "source": "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf",
+    "page": 5,
+    "finding": "Qualified direct-pickup/upstream-pedal input switch selection; ACTIVE resistance and pad unstated.",
+    "g3xn_followup": "Exact offer-ID searches yielded no usable new evidence; original pedal instructions and current effects notice repeat existing findings. No new capability or price asserted."
   }
 }
