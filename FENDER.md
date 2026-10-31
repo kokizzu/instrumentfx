@@ -469,3 +469,20 @@ Current1.8 equivalence untested; GuideH census remains open.
 Checked **2026-11-01** in the [manufacturer firmware1.5 manual reproduction, printed pp31–32](https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual). Original document text only; exact-model/revision identity established above. Holding TAP/TUNER **two seconds** opens the tuner. Mute defaults on but applies only to the input being tuned; Instrument,Mic/Line orboth are selectable. This is not a documented universal mute of backing audio,USB returns,tails orrecorded loops.
 
 Tap tempo uses at least two taps,shows BPM on its LCD strip,andopens a **three-second touchscreen adjustment view**. Tempo is preset-stored by default;global tempo is separately selectable. These are existing-display states,not extra LCDs. Current1.8 equivalence andglobal analog-volume coverage remain unverified. No download ordevice operation.
+
+### Tone Master Pro — firmware1.5 routing-template census
+
+Checked **2026-11-01**, [manufacturer firmware1.5 manual,printedpp12,18](https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual),original text with identity established above. **Twelve named templates** were read;not twelve simultaneous paths orcurrent-firmware certification.
+
+| Group | Complete names |
+|---|---|
+| Instrument | Instrument Series;Instrument Parallel1;Instrument Parallel2;Instrument Split |
+| Mic/Line | Mic/Line Series;Mic/Line Parallel1;Mic/Line Split |
+| Combined | Instrument+Mic/Line Parallel;Instrument+Mic/Line Mix1;Instrument+Mic/Line Mix2;Instrument+Mic/Line Series;Instrument+Mic/Line Mix3 |
+
+| Field | Routing boundary |
+|---|---|
+| Processing / template capacity | **4+3+5=12 templates**. Splitters are fixed template components,not freely added effects. Changing template repopulates the new layout with existing blocks. |
+| I/O / output assignment | Upper Path,Lower Path andUSB1/2 can separately feed **Headphones,Output1 andOutput2**. This is audio routing,not global analog volume;an assigned Volume block does not thereby establish attenuation ofindependent USB playback. |
+
+Current GuideH census,IR import limits andexpression output coverage remain open. No download,software launch orhardware test.

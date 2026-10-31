@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Fender Tone Master Pro: current exact manufacturer model guide andLCD/global-expression gaps;then remaining individualLCD models. X5 directparameter0-100 isnotVolume endpoints;globaloverride remainsunverified. Independent BOSS GT-Pro unchanged.",
+      "next_check": "Zoom G3n/G3Xn: exact current effect-library andOutputVP insertion scope;prioritize resolving a material capability gap overrepeating calibration/recall. ToneMasterGuideH/currentIR limitsremainopen. Independent BOSS GT-Pro unchanged.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133283,6 +133283,11 @@
       "file": "TC-ELECTRONIC.md",
       "model": "PLETHORA X5",
       "heading": "### PLETHORA X5 — modifier range versus volume and post-change MIDI"
+    },
+    {
+      "file": "FENDER.md",
+      "model": "Tone Master Pro",
+      "heading": "### Tone Master Pro — firmware1.5 routing-template census"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -133395,5 +133400,12 @@
     "finding": "Distributor firmware1.3.11 p6 direct effect-parameter assignment fixed0-100,distinct from editable predefined modifier mapping andseparateVolume. Manufacturer1.4.3 fixes CC discarded immediately afterBoardchange.",
     "limits": "No global analog volume override/range/heldposition/output coverage established. ExactShopee18280216311 remainsinaccessible;no new priced offer.",
     "next": "Tone Master Pro current original guide/library gaps,then further LCD-first models;preserveGT-Pro independentcursor."
+  },
+  "tone_master_routing_census_20261101": {
+    "source": "https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual",
+    "revision": "Manufacturer firmware1.5 original text,pp12,18;identity previously established",
+    "finding": "Complete12-template name census:4instrument,3micline,5combined. Fixedsplitter;changingtemplate repopulatesblocks. Upper/lower/USB1/2 independently assignheadphones/out1/out2.",
+    "qualification": "Historicalrouting,not currentGuideH/library census orglobal EXPall-source coverage. No download/device test.",
+    "next": "Remaining confirmedindividualLCD processors;qualifiedShopee hardware. Preserve independentBOSSGT-Pro cursor."
   }
 }

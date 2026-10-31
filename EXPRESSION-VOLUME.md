@@ -619,3 +619,5 @@ G3n [level-scale qualification](ZOOM.md#g3n--patch-level-versus-pedal-range-and-
 B3 [exact patch/bank navigation](ZOOM.md#b3--exact-patch-and-bank-footswitch-navigation): patch mode FS2 down/FS3 up; bank pairs1+2 down/2+3 up. Per-patch TOTAL and OUTPUT VOL rhythm/looper exclusions remain; ordinary-guitar suitability stays unclassified.
 
 HX Effects [assignment/Favorite qualification](LINE6.md#hx-effects--assignment-capacity-and-favorite-bypass-conflict): editor-guide bypass-retention wording differs from the owner manual. Neither establishes global volume assignment; numeric attenuation endpoints remain unverified.
+
+Tone Master Pro [firmware1.5 routing census](FENDER.md#tone-master-pro--firmware15-routing-template-census): twelve named templates;upper/lower paths andUSB playback have separate output assignments. Global expression attenuation ofall routed sources remains unverified.
