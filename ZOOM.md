@@ -1670,7 +1670,7 @@ Original bass multi-effects, distinct from B3n. Checked2026-10-17; partial. Disc
 | Display | Three backlit dot-matrix LCDs, each paired with its own effect footswitch and knobs; exact B3 manufacturer page rechecked2026-10-31. Diagonal, color depth and touch remain unverified. | [Product][B3-P] |
 | Dimensions / weight | 234 W×170 D×54 H mm;1.2kg **excluding batteries**, explicit in Japanese product specifications; English manual leaves battery inclusion unstated. Large footprint. | [Manual specifications][B3-S]; [Japanese product][B3-J] |
 | Simultaneous effects | Up to3, freely ordered; DSP overflow bypasses an effect with THRU. Disabled effects still consume DSP. Do not inherit G3 firmware’s six-effect ceiling. | [Manual][B3-M] p9; [Product][B3-P] |
-| Categories / choices | **111 numbered types: 99 non-amp effects plus 12 amps.** Manual census, grouped here by function rather than official category labels: dynamics/noise **8 (001–008)**; EQ/filter **14 (009–022)**; boost/drive/preamp **15 (023–037)**; amps **12 (038–049)**; modulation/pitch/special **24 (050–073)**; synth/organ **7 (074–080)**; fretless simulation **1 (081)**; delay **12 (082–093)**; reverb/ambience **8 (094–101)**; combined effects **5 (102–106)**; pedal effects **5 (107–111)**. These sum to 111, not simultaneous blocks. Cabinet Table1 has 12 named cabinets plus ORGN automatic selection within amp parameters; do not add another 12 to the numbered total. | [Product][B3-P]; [Manual][B3-M] pp33–49; checked2026-10-18 |
+| Categories / choices | **111 numbered types: 99 non-amp effects plus 12 amps.** Manual census, grouped here by function rather than official category labels: dynamics/noise **8 (001–008)**; EQ/filter **14 (009–022)**; boost/drive/preamp **15 (023–037)**; amps **12 (038–049)**; modulation/pitch/special **24 (050–073)**; synth/organ **7 (074–080)**; fretless simulation **1 (081)**; delay **12 (082–093)**; reverb/ambience **8 (094–101)**; combined effects **5 (102–106)**; pedal effects **5 (107–111)**. These sum to 111, not simultaneous blocks. Cabinet Table1 has 12 named cabinets plus ORGN automatic selection within amp parameters; do not add another 12 to the numbered total. See [named amp/cabinet choices](#b3--named-amplifiers-cabinets-and-cabinet-mix). | [Product][B3-P]; [Manual][B3-M] pp33–49; checked2026-10-18 |
 | Factory / user memory | 100 editable memories (10×10), first50 factory-filled; not150 total. Parameter changes save automatically;Store/Swap copies or exchanges with another destination,the current patch cannot be its own destination. All Initialize restores patches/settings;firmware update preserves saved patches. | [Product][B3-P]; [Manual][B3-M] pp12–13,30–31 |
 | Synth / acoustic | Seven synth/organ types: MonoSyn, StdSyn, SynTlk, V-Syn, 4VoiceSyn, Z-Syn and Z-Organ (074–080). MonoSyn detects single-note pitch; 4VoiceSyn adds harmony to single notes with nine modes and two scale variations per mode, not polyphonic input tracking. StdSyn has four sound variations. Defret (081) simulates fretless bass; this does not establish upright/acoustic-body conversion. Dedicated acoustic/upright simulation remains unverified; Acoustic (043) models the Acoustic 360 amplifier. | [Manual][B3-M] pp39,44–45,49; [Product][B3-P]; checked2026-10-18 |
 | I/O | Mono quarter-inch INPUT with active/passive switch; mono R and stereo L/MONO/PHONES; XLR balanced PRE/POST and ground lift; CONTROL IN,USB,DC. USB/control subtype unknown. | [Product][B3-P]; [Specifications][B3-S] |
@@ -1749,6 +1749,19 @@ Checked **2026-10-31**, [own manufacturer manual pp14–16](https://zoomcorp.com
 | Expression / range boundary | The manual permits minimum above maximum to reverse response,but does not state numeric bounds for the Input/Output Volume endpoints in readable prose. Do not transfer BAL’s0–100 range to these volume roles. Patch-specific assignment andthe existing rhythm/looper exclusion of OUTPUT VOL remain. |
 
 The current Windows11 andTahoe26 compatibility lists omit originalB3 andEdit&Share;omission is neither a compatibility certification nor a documented incompatibility. [Windows11 matrix](https://zoomcorp.com/en/jp/news/Windows11/);[Tahoe26 matrix](https://zoomcorp.com/en/gb/news/macos_tahoe/). Exact gyulalis item41075001096 still could not be read directly;no new condition/stock claim. No downloads ordevice operation.
+
+
+### B3 — named amplifiers, cabinets and cabinet mix
+
+Checked **2026-10-31**,[own manufacturer manual pp38–40,49](https://zoomcorp.com/media/documents/E_B3.pdf). These names expand the existing census;no new models added.
+
+| Field | Documented choices / qualification |
+|---|---|
+| Categories / amps038–049 | **12**:SVT;B-Man;HRT3500;SMR;Flip Top;Acoustic;Ag Amp;Monotone;SuperB;G-Krueger;Heaven;Mark B. Acoustic is an amp model,not acoustic-body conversion. |
+| Categories / cabinet parameters | **12**:8x10 AG;4x12 SB;4x12 BM;4x10 HA;4x10 SWR;4X10 AL;4x10 GK;4x10 E;1x18 AC;1x15 PT;1x15 AG;1x12 MB. **ORGN automatically chooses the recommended cabinet**,not a thirteenth named cabinet. These are amp parameters,not additional numbered effects. |
+| Processing / cabinet mix | Amp **Mix0–100** blends the signal after preamp with the signal after cabinet. It is distinct from patch dry/effected balance andexternal INPUT/OUTPUT VOL;no global master-volume assignment follows. |
+
+Original text only;no download,visual panel count orhardware test.
 
 <!-- comparison evidence ends -->
 

@@ -131821,5 +131821,13 @@
     "empty": 76,
     "total": 200,
     "qualification": "Documented V2 initial state;current unit and later factory allocation unverified."
+  },
+  "b3_named_amp_cab_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://zoomcorp.com/media/documents/E_B3.pdf",
+    "printed_pages": "38–40,49",
+    "amps": 12,
+    "cabinets": 12,
+    "qualification": "Names added to existing counts;ORGN selects recommended cabinet. CAB Mix is not global output volume. Text only;device untested."
   }
 }
