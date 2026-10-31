@@ -134735,6 +134735,20 @@
       "manufacturer_scope": "AIDA-X/neuralmarketing explicitlyDwarf/computers;omissionnotNoDuo",
       "remaining": "ExactoriginalDuo compatiblepackage/buildandmodelarchitecture/CPUperformance;looper/synth applicability;LCDplacement;completeprofile",
       "local_downloads": false
+    },
+    "neural_build_followup": {
+      "checked": "2026-11-01",
+      "sources": [
+        "https://raw.githubusercontent.com/mod-audio/mod-plugin-builder/master/plugins/package/neural-amp-modeler-lv2/neural-amp-modeler-lv2.mk",
+        "https://raw.githubusercontent.com/mod-audio/mod-plugin-builder/master/plugins/package/aidadsp-lv2/aidadsp-lv2.mk",
+        "https://github.com/mod-audio/mod-live-usb"
+      ],
+      "nam_revision": "9574e74a8eddcd54a5c65c5748e3ff226c7c4f55",
+      "configuration": "NAMCoreON;RTNeural/staticRTNeuralOFF;A2FastON;staticWaveNet/LSTMON;quality0.49;SmartBypassOFF",
+      "aida_revision": "f86e21dcb3b481246f0406c5f003f1a0c7d93d37",
+      "boundary": "Buildrequests only;no verifiedDuo compilation/storebinarymapping/installedbehavior;LiveUSBPCprojectnotDuo certification",
+      "resolved": "Previouslyunreadable manufacturerrecipe nowreadable;avoidrepeatingrawmoddevices URLfailure",
+      "next": "ExactDuo-compatible release/buildmanifest andmodel limits stillneeded;looper/synthprofile andLCDplacement remainopen"
     }
   },
   "zoom_g5_additional_shopee_20261101": {
