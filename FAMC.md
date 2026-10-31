@@ -25,6 +25,16 @@ Same archived manufacturer guide,printed pp9,41:
 
 No powered connection orhardware test performed;current firmware behavior remains unverified.
 
+## Liquid Foot JR+ — pending controller lead
+
+Checked **2026-11-01**. Distinct from the original Liquid-Foot Jr., Mini, 12+ and Pro+. Controller only; outside active audio-processor counts and confirmed individual-LCD matches.
+
+The [manufacturer LF+ series guide reproduction](https://manualzz.com/doc/23278544/famc-liquid-foot---series-12--12---jr---pro--midi-control...) explicitly names JR+ and gives it different page-menu button combinations from 12/12+/Pro+. However, the guide’s explicit LCD-above-each-button example identifies **12+**; the host’s JR+ manual title is not an exact JR+ screen census. Do not transfer the 12+ display count, dimensions or power requirements.
+
+An [exact JR+ used-hardware listing](https://reverb.com/item/86977433-famc-liquid-foot-jr-midi-foot-controller-liquid-foot-jr), Charlies Gear Depot, Irvine, US, is marked **sold / Used–Excellent**. It describes eight buttons and LCD labels above each button, with **2×8 characters**, and says this text was copied from FAMC’s website. That attribution has not been independently authenticated: the manufacturer homepage was inaccessible. Its phrase “seven color LCD” is not treated as a count of seven screens or proof of full-color pixels. A [separate exact JR+ seller](https://reverb.com/item/15764729-famc-liquid-foot-jr-midi-controller) instead calls the button screens LED; retain the LCD/LED terminology conflict as seller-level evidence. No foreign asking price converted to IDR.
+
+Targeted Shopee Indonesia search found no qualified exact hardware offer; new/used IDR, stock, bundle, warranty and delivered total remain unknown. Remaining: primary exact-model display count/technology/diagonal, full controls/ports, body/mass, power, expression wiring and current editor support. No local download, device operation or visual screen count.
+
 ## Liquid Foot Pro+ — pending controller lead
 
 Checked **2026-10-31**;distinct from original Liquid Foot Pro and12+. [Manufacturer LF+ manual reproduction](https://manualzz.com/doc/27981410/famc-pro--user-manual),printedpp5,18,85,explicitly names Pro+ anddescribes shared interface/display functions. Undated document;host’s Pro+ title alone does not certify model-specific physical specifications. Its interface description onprintedp18 still numbers only1–12;that is not a full Pro+ hardware census.

@@ -134970,5 +134970,25 @@
       "exactShopeehardware andcondition-specific prices"
     ],
     "next": "Continue unresolved individual-LCD evidence when new sources available; maintain independent GT-Pro cursor"
+  },
+  "famc_jrplus_lcd_discovery_20261101": {
+    "status": "pending controller; outside active processor inventory andconfirmedLCDmatches",
+    "root": "FAMC.md#liquid-foot-jr--pending-controller-lead",
+    "sources": [
+      "https://manualzz.com/doc/23278544/famc-liquid-foot---series-12--12---jr---pro--midi-control...",
+      "https://reverb.com/item/86977433-famc-liquid-foot-jr-midi-foot-controller-liquid-foot-jr",
+      "https://reverb.com/item/15764729-famc-liquid-foot-jr-midi-controller"
+    ],
+    "finding": "Family manual namesJR+; exact seller claims8buttons/individual2x8characterLCDlabels, another saysLED. Manufacturer exactmodelcount notverified; seven-color wording not7screens.",
+    "manufacturer_access": "famcmusic.com inaccessible",
+    "shopee": "No qualified exact hardware hit; IDR/stock/condition unknown",
+    "remaining": [
+      "primary displaycensus/technology",
+      "dimensions/mass/power",
+      "complete controls/ports",
+      "expression wiring",
+      "current editor support"
+    ],
+    "next": "Other missing individual-LCD candidates; preserve independent general cursor"
   }
 }
