@@ -137327,5 +137327,14 @@
     "qualification": "No row-specificdate/driverexplanation. NotmodernmacOS/Linux conclusion orstandaloneanalogfailure. No download/install/test.",
     "priority": "LCD-first MKII census alreadycorrect;FenderNAM lead remainsunverified;independent generalGT-Pro cursor advanced.",
     "next": "Continue LCD-first fresh primaryevidence;GT-Pro13vs15,otherUSBmodes,globalFVprecedence andqualifiedhardware stillopen."
+  },
+  "tmp_xptmp_compatibility_20261101": {
+    "status": "accessorymanufacturerdocumented;partial",
+    "source": "https://www.jimdunlop.com/dunlop-xp-series-expression-pedal-for-tmp/",
+    "destination": "FENDER.md#tone-master-pro",
+    "finding": "DunlopXPTMP specificallysupportsTMPvolume/wah andtoeFXonoff;requiresoneTRSandoneinstrumentcable.",
+    "qualification": "Noresistance/taper/wiper/switch-contactspecification transferredfromMission;notglobalvolumeorprocessorpriceevidence.",
+    "next": "IndividualLCD priority;seekreadablecurrentFendermanual/GuideH andallpresetEXPscope. IndependentGT-Procursor retained.",
+    "downloads": false
   }
 }
