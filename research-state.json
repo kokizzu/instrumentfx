@@ -130459,6 +130459,15 @@
       ],
       "finding": "Global controller targets corresponding Output block; headphone jack monitors Out1. Routing inference covers processed Out1/headphones and loop routed through Out1, not USB playback mixed separately.",
       "unresolved": "Global numeric endpoints, position recall, bypass and firmware13 behavior remain unknown; no hardware test."
+    },
+    "fm3_spillover_20261031": {
+      "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+      "printed_pages": [
+        99,
+        133
+      ],
+      "finding": "Preset spillover defaults OFF; Delay/Reverb/Both requires matching block numbers in both presets, with settings/routing/bypass caveats. Block bypass MUTE FX IN or parallel MUTE IN retains tails.",
+      "limits": "Not looper continuity, gapless preset changes, global-volume position recall or firmware13 verification."
     }
   },
   "gt_pro_global_patch_level_20261031": {
