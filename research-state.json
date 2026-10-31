@@ -132510,5 +132510,24 @@
     },
     "status": "Original manual qualification added;partial model remains outside active counts.",
     "next": "Resolve mini-screen count/technology with primary evidence;complete category census and exact Shopee offer still open. LCD-first/general BOSS GT-Pro cursors retained."
+  },
+  "g3xn_pending_condition_conflicts_20261031": {
+    "checked": "2026-10-31",
+    "model": "Zoom G3Xn",
+    "source": "https://shopee.co.id/search?keyword=%2CG3XN",
+    "items": [
+      {
+        "seller": "18731802",
+        "item": "52666285304",
+        "variation": "331387936229"
+      },
+      {
+        "seller": "91489634",
+        "item": "2351869533",
+        "variation": "52739085970"
+      }
+    ],
+    "status": "Pending original Shopee linked offers;condition/cache conflicts in root;excluded from new/used projections.",
+    "next": "Resolve direct item and variation contents;LCD-first audit remains;general BOSS GT-Pro cursor unchanged."
   }
 }

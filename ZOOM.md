@@ -3538,6 +3538,17 @@ The [own German shared manual](https://zoomcorp.com/media/documents/D_G3n_G3Xn.p
 - [Guitar Lab current release notice](https://zoomcorp.com/en/us/news/zoomclassics/) names G3Xn among models receivingDynaDelay inApril2026 andBitCrush inFebruary2026; available library content is not proof of installed content.
 
 Excluded from price evidence: preset packs,LCD replacement parts,rental offers and unresolved mixedG3/G3X/G3Xn variations. Remaining: exact controls,complete ports/headphone conflict,display physical specifications,category census,synth/acoustic,looper/CPU limits,power negatives,import/editor/audio distinctions and verified current condition/bundle/stock.
+### G3Xn — pending exact offers with condition and cache conflicts
+
+Checked **2026-10-31**. [Shopee category snapshot](https://shopee.co.id/search?keyword=%2CG3XN),last-month crawl,links these exact items. Parameterized/direct retrieval failed;these remain **discovery leads excluded from verified new/used projections**,not live stock orcompleted sales.
+
+| Pending item | Cached evidence / unresolved scope |
+|---|---|
+| [18731802/52666285304](https://shopee.co.id/ZOOM-G3XN-Multifx-ORIGINAL-Like-New-G3-XN-G3-XN-i.18731802.52666285304) | JakartaBarat;title“Like New” versuscategory“Produk Baru”. Opened category shows **Rp2.450.000**;search snapshot **Rp2.750.000**. Neither establishes current condition/price. Selectedvariation331387936229;contents unknown. |
+| [91489634/2351869533](https://shopee.co.id/ASIAPP-%21%21-Efek-Gitar-Zoom-G3XN-Zoom-G-3XN-Zoom-G-3-X-N-baru-100-garansi-KM53-i.91489634.2351869533) | JakartaSelatan;title claims“baru100%”,**Rp3.220.000**,selectedvariation52739085970. This title is not independent new-condition orwarranty verification. |
+
+Seller display names,selected hardware/bundle contents,working state,adapter,warranty,stock,voucher eligibility,shipping/tax andcheckout totals remain unknown. No inferred price range ordiscount. Existing spring-return used offer is separate;no manufacturer specifications come from these listings.
+
 
 ## G5
 
