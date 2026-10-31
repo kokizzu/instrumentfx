@@ -130720,5 +130720,13 @@
       "Delay": 15
     },
     "document_total": 148
+  },
+  "fm9_dynacab_compatibility_20261031": {
+    "sources": [
+      "https://www.fractalaudio.com/fm9-downloads/",
+      "https://support.fractalaudio.com/en-US/how-to-resolve-dyna-cabs-not-installed-or-incorrect-version-286538"
+    ],
+    "finding": "Current support table maps FM9 firmware11.0+ to DynaCabs1.09; firmware12.0 listed by downloads. Cabinet data version separate from firmware/user IR capacity.",
+    "limits": "Owner manual remains August2022 3.x; no new MKII physical corroboration. Community11.0 mini-LCD contrast lead lacks inspected primary release text; not adopted. No downloads or updates."
   }
 }
