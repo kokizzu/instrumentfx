@@ -129264,10 +129264,10 @@
       "Fractal Audio FM9 MKII Turbo",
       "Fractal Audio FM3 MKII Turbo",
       "HeadRush Prime",
-      "HeadRush Pedalboard"
+      "HeadRush Pedalboard",
+      "Fender Tone Master Pro"
     ],
     "remaining_candidates": [
-      "Fender Tone Master Pro",
       "Line 6 Helix Floor",
       "Line 6 Helix Stadium XL Floor"
     ],
@@ -129350,6 +129350,11 @@
       "checked": "2026-10-31",
       "source": "https://www.headrushfx.com/products/pedalboard/index.html",
       "finding": "Twelve individual OLED strips; own manual1.2-inch monochrome distinction retained."
+    },
+    "fender_tmp": {
+      "checked": "2026-10-31",
+      "source": "https://www.fender.com/products/tone-master-pro",
+      "finding": "Ten dedicated footswitch LCD screens; other navigation/master displays counted separately."
     }
   }
 }
