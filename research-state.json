@@ -129719,6 +129719,43 @@
             "FlipTop",
             "SUN CB",
             "Monotone"
+          ],
+          "Cabinet": [
+            "MS4x12",
+            "MS4x12GB",
+            "MS4x12AL",
+            "FD2x12",
+            "FD-B4x10",
+            "FD-DX1x12",
+            "FD MA2x12",
+            "UK2x12",
+            "MK1 1x12",
+            "MK3 1x12",
+            "BGN4x12",
+            "HW4x12",
+            "RCT4x12",
+            "ORG4x12",
+            "DZ4x12F",
+            "MA2x12",
+            "KP4x12",
+            "RED4x10",
+            "VT4x12",
+            "MD1x12",
+            "7H4x12",
+            "PL4x12",
+            "STM4x12",
+            "SVT8x10",
+            "SVT4x10TW",
+            "FD-B4x12",
+            "SMR4x10TW",
+            "AG4x10TW",
+            "TE4x10",
+            "AC1x18",
+            "MkB2x8TW",
+            "EB4x10TW",
+            "AM1x15",
+            "SN2x15",
+            "MT1x15"
           ]
         },
         "counts": {
@@ -129731,10 +129768,11 @@
           "Filter": 25,
           "Dynamics": 15,
           "Drive": 45,
-          "Amp": 34
+          "Amp": 34,
+          "Cabinet": 35
         },
         "finding": "PDLVolMinMax0–100curvesAB;OutputVPrecallnotuniversalassignment;monopitchsingle-note.",
-        "remaining": "Cabinet and Modulation still need complete V2 counts;postV2currentinventory and otherprofilegaps remainopen.",
+        "remaining": "Modulation still needs complete V2 count;postV2currentinventory and allotherprofilegaps remainopen.",
         "drive_pages": {
           "first_printed_page": 8,
           "subtotals": [
@@ -129769,6 +129807,29 @@
             "EBH360",
             "FlipTop",
             "SUN CB"
+          ]
+        },
+        "cabinet_pages": {
+          "first_printed_page": 22,
+          "subtotals": [
+            6,
+            6,
+            7,
+            8,
+            8
+          ],
+          "explicit_bass_entries": [
+            "SVT8x10",
+            "SVT4x10TW",
+            "FD-B4x12",
+            "SMR4x10TW",
+            "AG4x10TW",
+            "TE4x10",
+            "AC1x18",
+            "MkB2x8TW",
+            "EB4x10TW",
+            "AM1x15",
+            "SN2x15"
           ]
         }
       }
