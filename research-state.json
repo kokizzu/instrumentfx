@@ -134887,5 +134887,19 @@
       "qualified used/new offers"
     ],
     "next": "Continue individual-LCD processor gaps; preserve independent general research cursor"
+  },
+  "g3n_looper_firmware_boundary_20261101": {
+    "sources": [
+      "https://zoomcorp.com/documents/3433/G3n_System_Firmware_Version_History_ver220_en.pdf",
+      "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/g3ng3xn-support/"
+    ],
+    "finding": "1.10 November2016 fixes simultaneous rhythm/looper recording failure; initial1.00 October2016; currently offered exact G3n2.20, installed version unknown",
+    "specific_evidence_limits": [
+      "OutputVP search returns retention only, no all-preset assignment/endpoints/output coverage",
+      "legacy USB power claim remains unreconciled",
+      "304055616/11313397137 direct item inaccessible",
+      "separate button count still lacks inspectable panel"
+    ],
+    "next": "Other individual-LCD processor unresolved fields; revisit these only with new documentation or access; independent general cursor preserved"
   }
 }
