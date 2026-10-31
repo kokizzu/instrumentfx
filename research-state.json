@@ -129941,6 +129941,13 @@
       "pages": "7,10–11,25,29",
       "finding": "Two-switchbankgesturemaytriggerfirstswitch;rhythmcancontinuewithpatchselection;Home-returnlooppersistence separate.",
       "remaining": "Exactsymbolmapping,patch-changeloopcontinuityandfullprofilegapsremain."
+    },
+    "fm3_pedal_modes": {
+      "checked": "2026-10-31",
+      "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+      "pages": "12–14,70–72,104",
+      "finding": "EachjackEXPorswitches;modifierAutoEngagenotphysicaltoe;0–10modifierexamplesnotglobalendpoints.",
+      "remaining": "Exactpedaltoewiring,currentfirmware13andglobalrange/recallunknown."
     }
   },
   "gt_pro_global_patch_level_20261031": {

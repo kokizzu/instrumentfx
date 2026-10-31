@@ -234,6 +234,16 @@ Remaining:per-category algorithms and concurrency, factory occupancy, display di
 
 Linear10–100kΩ pedal, TRS: manual describes tip supply, ring return, sleeve ground. Calibration precedes assignment. Numeric volume endpoints and held-position recall remain unverified. Printed p108 distinguishes Volume Increment/Decrement: these save preset levels and are unsuitable for an expression sweep. Headphone/bypass/recorded-loop coverage remains unverified. Existing281W×236Dmm fails preferred fit. Onboard preset increment/decrement functions are documented separately from MIDI; default layout uses three preset choices with held bank previous/next. Firmware13 behavior not tested.
 
+### FM3 — pedal sockets, switches and Auto-Engage
+
+Checked2026-10-31: [own7.x manual](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf),expressly covering MKII Turbo,printedpp12–14,70–72,104. Firmware13 behavior and actual pedal wiring remain untested.
+
+| Field | Documented boundary / qualification |
+|---|---|
+| Expression / socket modes | Each local pedal jack supports **one expression pedal OR one/two switches**,configured in I/O→Pedal. Switch mode exposes TIP and RING sources,with type/polarity settings. This is not simultaneous expression-plus-toe-switch certification on one TRS socket. A separate toe output could be considered as a switch only after exact pedal wiring/connector verification;none is certified here. |
+| Expression / Auto-Engage alternative | A block modifier can engage/bypass by controller position or movement speed,with FAST/MEDIUM/SLOW response. Off Value selects the position threshold;the manual illustrates heel-bypass5% and toe-bypass95%. This is block/modifier configuration,not global volume assignment or proof of an independent physical toe switch. |
+| Expression / range distinction | Manual’s volume-modifier examples use0.00–10.0 and reversible ranges. These are **per-block modifier examples**,not verified endpoints for MIDI/Remote global Input/Output Volume. That global endpoint/recall gap remains open. |
+
 ## FM9 MKII Turbo
 
 Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI seller item remains separate. Current product/store establish revision. Linked2022 manual covers original/Turbo but predates MKII display revision;historical physical figures below require current corroboration.
