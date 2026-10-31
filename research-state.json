@@ -132139,5 +132139,30 @@
       "Condition-qualified new Shopee offer"
     ],
     "next": "Continue remaining individual-foot-LCD models before OLED/shared/unconfirmed candidates;BOSS GT-Pro independent general cursor unchanged"
+  },
+  "g3n_catalogue_controls_usb_20261031": {
+    "checked": "2026-10-31",
+    "model": "Zoom G3n",
+    "source": {
+      "url": "https://zoomrussia.ru/manuals/FX_Catalog_2019_E.pdf",
+      "identity": "Manufacturer-authored Effects and Preamps2019,Zoom Corporation;January2019 printedUnitedStates",
+      "location": "Printedpp5–6 exact G3n comparison column",
+      "access": "Indexed original PDF table andimprint;not complete PDF orvisual inspection;regional mirror"
+    },
+    "findings": [
+      "Six footswitches explicitly published",
+      "USB Audio marked×;USB MIDI separately documented by own manual"
+    ],
+    "superseded_summary_rows": [
+      "| K/F/B | **13 rotary controls derived**:three units×four parameter knobs+control/enter encoder. Complete main footswitch/button counts require panel confirmation;FS1–FS3,BANK/SCROLL and mode named. Encoder counted once;power separate. | [Manual,pp.3–5](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf) |",
+      "| USB / GCE-3 emulation boundary | Guitar Lab7.0 guide p32 lists G3n emulation and patch exchange using **GCE-3**;the explicit USB audio-interface statement applies to that separate DSP hardware. Do not transfer it to G3n or assume Guitar Lab alone processes audio. G3n’s own USB MIDI remains distinct;USB audio status still unverified. | [Manufacturer Guitar Lab guide p32](https://zoomcorp.com/media/documents/E_GuitarLab_v7.0.pdf),checked2026-10-31. |",
+      "| USB / recording | Manual specifies USB MIDI and Micro-B,not an established USB audio interface. No G3/G5n USB recording specifications imported. | [Manual](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf) |"
+    ],
+    "qualifications": [
+      "Dated publication scope;not hardware test orlater-firmware certification",
+      "Separate button count,USB power andglobal volume assignment unresolved",
+      "No downloaded files,software installation ordevice operation"
+    ],
+    "next": "G3Xn exact catalogue column;commit this model before next;individualLCD models remain priority;BOSS GT-Pro independent general cursor unchanged"
   }
 }
