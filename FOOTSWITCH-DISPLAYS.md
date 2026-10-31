@@ -8,19 +8,16 @@ Separate physical displays, labels drawn on one shared screen, and LED rings are
 
 ## Audio processors
 
-### Individual displays at effect footswitches — priority
+### Individual LCDs at effect footswitches — first priority
 
-These have separate physical screens for the documented effect switches. Extra navigation switches may have no screen; exact totals and unresolved technology remain qualified in each row.
+Research these LCD matches before OLED, shared-screen and unconfirmed-technology candidates. Extra navigation switches may lack a screen; screen counts do not imply total switch counts.
 
 | Brand / model | Display-layout status | Record / next check |
 |---|---|---|
 | Fender **Tone Master Pro** | **Ten dedicated LCD screens**, one per footswitch/encoder; separate7-inch color touchscreen | [Verified exact-model record](FENDER.md#tone-master-pro). Navigation/master readouts are separate; firmware1.8’s16 paged assignments do not add physical LCDs. |
 | Fractal Audio **FM3 MKII Turbo** | **Three individual mini LCDs**, one per footswitch; separate color main screen | [Current manufacturer-backed record](FRACTAL-AUDIO.md#fm3-mkii-turbo). Virtual switch layouts do not add physical displays. |
 | Fractal Audio **FM9 MKII Turbo** | **Nine individual mini LCDs**, one per footswitch; separate color main screen | [Current manufacturer-backed record](FRACTAL-AUDIO.md#fm9-mkii-turbo). Enlarged MKII strips; do not transfer their size to original FM9. |
-| HeadRush **Pedalboard** | **Twelve individual monochrome OLED strips**, one per footswitch; separate main touchscreen | [Exact model/manual record](HEADRUSH.md#pedalboard). Manual strips1.2-inch; main6.9-inch versus marketed7-inch retained. |
-| HeadRush **Prime** | **Twelve individual OLED scribble strips**, one per footswitch; separate7-inch main touchscreen | [Verified exact-model record](HEADRUSH.md#prime). OLED strips and color LED rings are distinct. |
 | Line 6 **Helix Floor** | **13 LCD strips total per manual**; text-based accounting12 switch strips +1 pedal readout | [Own-manual reconciliation](LINE6.md#helix-floor). Manual explicitly describes pedal strip; product wording conflict preserved and visual corroboration pending. |
-| Line 6 **Helix Stadium XL Floor** | **Twelve OLED scribble strips**, plus separate8-inch color touchscreen | [Current manufacturer-backed record](LINE6.md#helix-stadium-xl-floor). Manufacturer marks strips XL-only; non-XL Stadium Floor is different. |
 | Line 6 **HX Effects** — reference | **Six LCD strips**, for switches1–6; eight total switches including MODE/TAP | [Verified layout and source](LINE6.md#hx-effects). Capacitive switches are not touchscreens. |
 | TC Electronic **PLETHORA X3** — reference | **Three LCD slot displays**, corresponding to three effect switches | [Verified layout and source](TC-ELECTRONIC.md#plethora-x3). External analog EXP socket absent from documented inventory; MASH/MIDI separate. |
 | TC Electronic **PLETHORA X5** — reference | **Five LCD slot displays**, corresponding to five effect switches | [Verified layout and source](TC-ELECTRONIC.md#plethora-x5). Exact diagonal/color/touch remain unverified. |
@@ -30,9 +27,26 @@ These have separate physical screens for the documented effect switches. Extra n
 | Zoom **G3n** | **Three individual LCD units**, each paired with four knobs and an effect footswitch | [Exact G3n record](ZOOM.md#g3n). Shared manual explicitly covers this model; no built-in treadle. |
 | Zoom **G3X** | **Three individual backlit LCD panels**, each paired with effect footswitch and knobs | [Exact original G3X record](ZOOM.md#g3x). Built-in treadle; distinct from G3Xn. |
 | Zoom **G3Xn** | **Three individual LCD effect units**, each with four knobs and footswitch | [Exact G3Xn record](ZOOM.md#g3xn). Shared manual covers this treadle-equipped model; do not transfer G3n external EXP socket. |
+| Zoom **G11** | **Five effect LCD panels**, plus separate amplifier LCD and5-inch main touchscreen | [V2 manual-backed record](ZOOM.md#g11). Five effect switches are separate from navigation switches; longer chains scroll across the panels. |
+
+### Individual OLEDs at effect footswitches — secondary priority
+
+These match the separate-display layout, with OLED technology rather than LCD.
+
+| Brand / model | Display-layout status | Record / next check |
+|---|---|---|
+| HeadRush **Pedalboard** | **Twelve individual monochrome OLED strips**, one per footswitch; separate main touchscreen | [Exact model/manual record](HEADRUSH.md#pedalboard). Manual strips1.2-inch; main6.9-inch versus marketed7-inch retained. |
+| HeadRush **Prime** | **Twelve individual OLED scribble strips**, one per footswitch; separate7-inch main touchscreen | [Verified exact-model record](HEADRUSH.md#prime). OLED strips and color LED rings are distinct. |
+| Line 6 **Helix Stadium XL Floor** | **Twelve OLED scribble strips**, plus separate8-inch color touchscreen | [Current manufacturer-backed record](LINE6.md#helix-stadium-xl-floor). Manufacturer marks strips XL-only; non-XL Stadium Floor is different. |
+
+### Individual displays — technology still to verify
+
+Separate displays are documented, but the evidence summarized here does not establish LCD versus OLED. Keep these candidates below confirmed LCD matches.
+
+| Brand / model | Display-layout status | Record / next check |
+|---|---|---|
 | Zoom **G5** | **Four individual backlit effect displays**, each with dedicated footswitch and knobs | [Exact original G5 record](ZOOM.md#g5). Separate from G5n; display diagonal/color/touch remain unverified. |
 | Zoom **G5n** | **Four individual Unit Displays**, each paired with an effect footswitch; separate Overview Display | [V2 manual-backed record](ZOOM.md#g5n). Four screens do not count every navigation switch; other Zoom models need their own evidence. |
-| Zoom **G11** | **Five effect LCD panels**, plus separate amplifier LCD and5-inch main touchscreen | [V2 manual-backed record](ZOOM.md#g11). Five effect switches are separate from navigation switches; longer chains scroll across the panels. |
 
 ### Displays shared by groups of effect switches
 

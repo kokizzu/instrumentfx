@@ -129572,8 +129572,8 @@
     },
     "collection_layout": {
       "checked": "2026-10-31",
-      "order": "Individual effect-switch displays first, group/shared-main layouts and pending separately; controllers independently grouped.",
-      "preservation": "All28 model rows preserved byte-for-byte; no technical verification status promoted."
+      "order": "Confirmed individual LCD audio processors first; individual OLEDs second; unconfirmed technology third; grouped/shared screens and pending candidates follow. Controllers remain separate.",
+      "preservation": "All existing model rows preserved byte-for-byte; only grouping and priority changed. No verification promoted."
     },
     "singular_maestro_gold": {
       "checked": "2026-10-31",
@@ -129948,6 +129948,18 @@
       "pages": "12–14,70–72,104",
       "finding": "EachjackEXPorswitches;modifierAutoEngagenotphysicaltoe;0–10modifierexamplesnotglobalendpoints.",
       "remaining": "Exactpedaltoewiring,currentfirmware13andglobalrange/recallunknown."
+    },
+    "lcd_first_queue": {
+      "checked": "2026-10-31",
+      "instruction": "Prioritize one with LCD on footswitch first",
+      "next_models": [
+        "Line 6 Helix Floor",
+        "Fender Tone Master Pro",
+        "Fractal Audio FM9 MKII Turbo",
+        "TC Electronic PLETHORA X5"
+      ],
+      "task": "Continue unresolved exact-model documentation and qualified hardware offers for individual LCD processors before OLED models. Retain the independent BOSS GT-Pro cursor.",
+      "qualification": "Queue order is a research priority, not a recommendation or declaration of full verification."
     }
   },
   "gt_pro_global_patch_level_20261031": {
