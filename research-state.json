@@ -137493,5 +137493,22 @@
       "installed firmware behavior"
     ],
     "next": "Continue individual-LCD model gaps usingnew evidence; preserve independent BOSS GT-Pro general cursor."
+  },
+  "fm3_original_backup_transport_20261101": {
+    "status": "primary-manual partial finding",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+    "revision": "7.x Standard-covered,printed111",
+    "findings": [
+      "SYSTEM includesSETUP/FC settings butnot presets/cabs;presets use128entry banks orindividual backups",
+      "Restore each file separately;SYSTEM transmission requiresimmediate reboot",
+      "5pinMIDI backup/dumping unsupported;incomingbackupfiles possible butslow/discouraged",
+      "Older1024cab backup-bank text notused tooverride firmware12capacity512"
+    ],
+    "unresolved": [
+      "original display diagonal/resolution formini LCDs/touch remainunknown",
+      "actual backup restoration andinstalledfirmware",
+      "global analog-volume fullcoverage"
+    ],
+    "next": "Continue another individual-LCD model’s unresolved fields withnew exactsource evidence;preserve independent BOSS GT-Pro cursor."
   }
 }
