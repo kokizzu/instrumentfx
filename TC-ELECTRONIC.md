@@ -503,7 +503,7 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | Live / MIDI looper | CC110 Record,111 Play,112 Clear,113 Pause; values0–24 target slot1,25–50 slot2,51–76 slot3. Table marks slots4–5 **X5-only**. CC92 tap,93 tuner,94/95 Board down/up. This proves X3 looper command support, not recording duration. | [Official MIDI CC table][PX3-C] |
 | Processing / published latency | **0.8–2.4ms** in own-model specification table. Not a fixed value for every Board,measured result or Board-change/loading time. | [QSG p23][PX3-M];[original copy p63][PX3-QM] |
 | Editor / Bluetooth operating limits | **4.2 Low Energy,2.402–2.48GHz,40 RF channels,8dBm**;range≤10m measured in open space,obstacles reduce it. RF channels are not audio channels;audio streaming remains unverified. | [Original QSG copy p63][PX3-QM] |
-| Preset memory | **Up to127 boards;75 TonePrint slots per effect**; separate from three simultaneous slots. EDIT settings auto-save; PLAY HOT KNOB tweaks do not. Factory-filled subset unresolved. | [Product][PX3-P] |
+| Preset memory | **Up to127 boards;75 TonePrint slots per effect**; separate from three simultaneous slots. EDIT settings auto-save; PLAY HOT KNOB tweaks do not. Manufacturer factory-filled subset unresolved;[independent2022 review reports Boards1–28](#plethora-x3--independent-historical-board-navigation-and-factory-subset). | [Product][PX3-P] |
 | Synth / acoustic | Dedicated synth/acoustic conversion unresolved; octave/pitch/harmony do not establish these. | Unresolved |
 | I/O | Two unbalanced quarter-inch TS inputs (**1MΩ**), two unbalanced TS outputs; MIDI In/Thru five-pin DIN; Mini-B USB; DC input. USB audio/power unverified. | [QSG p23][PX3-M] |
 | Power / battery / USB | **9V DC center-negative**,5.5/2.1mm; guide specifies **>600mA included supply**. Actual draw/battery/USB power unresolved. | [QSG p23][PX3-M] |
@@ -620,6 +620,17 @@ Checked **2026-11-01** in the [manufacturer-authored X3 release-note reproductio
 For Flashback II and Alter Ego,the notes say1.3.6 capped feedback at80% when disengaged in **buffered bypass**;1.3.11 respects higher feedback settings and permits self-oscillating bypass trails. Thus X3-specific historical documentation establishes a buffered-bypass context alongside the product’s True Bypass specification. It does not establish the full mode menu,current defaults,power-failure behavior,Board-change spillover,looper continuity orglobal expression-volume coverage.
 
 The notes also fix PLAY/EDIT switching slowdown and improve heavy-load Board-change stability;no numerical loading-time guarantee follows. TonePrint4.5.5+ is the historical companion requirement,not a replacement for later Infinite requirements. Installed behavior remains untested. No downloads,update ordevice operation.
+
+### PLETHORA X3 — independent historical Board navigation and factory subset
+
+Checked **2026-11-01** in [Haiko Heinz’s firsthand Bonedo X3 review,June23,2022](https://www.bonedo.de/artikel/tc-electronic-plethora-x3-test/). It identifies available firmware1.3.11 as ofJune2022,but does not unambiguously identify the installed test version. Independent test reporting,not manufacturer specifications orour hardware test.
+
+| Field | Historical observation / qualification |
+|---|---|
+| Live / onboard Board down/up | The reviewer reports simultaneous **switches1+2 or2+3** for foot-operated Board/bank stepping in either direction. Exact pair-to-direction mapping andmenu prerequisites are not assigned from this prose. This supplies X3-specific historical evidence without transferring PX5-only release notes;current firmware behavior remains untested. |
+| Memory / supplied subset | The reviewed unit reportedly had **factory Boards in locations1–28** within the127-location architecture. This is28 observed supplied Boards,not a manufacturer-certified allocation for every firmware/reset,28additional protected slots orproof of factory-filled TonePrint counts. |
+
+Earlier manufacturer-only navigation/factory-subset unknowns remain qualified by source type. No local download,device operation ornew price observation.
 
 <!-- comparison evidence ends -->
 

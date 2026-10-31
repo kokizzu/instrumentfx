@@ -137630,5 +137630,21 @@
       "No download,installation orhardware operation."
     ],
     "next": "Continue remaining individual-LCD models before OLED/shared-screen leads;independent BOSS GT-Pro cursor unchanged."
+  },
+  "px3_independent_board_controls_20261101": {
+    "model": "TC Electronic::PLETHORA X3",
+    "status": "independent firsthand historical evidence; manufacturer/current firmware gaps retained",
+    "source": "https://www.bonedo.de/artikel/tc-electronic-plethora-x3-test/",
+    "source_identity": "Haiko Heinz;June23,2022;exact X3 test. Mentions1.3.11 available,not unambiguous installed firmware.",
+    "findings": [
+      "Foot-operated Board stepping reported with paired1+2 or2+3;exact pair/direction andmenu prerequisites not assigned.",
+      "Factory Boards1–28 reported onreviewed unit;not firmware-independent/reset-certified filling."
+    ],
+    "qualifications": [
+      "No X5-only release-note transfer.",
+      "No hardware test,download ornew offer claim.",
+      "No analogEXP socket still failsdirectanalogvolume requirement."
+    ],
+    "next": "Prioritize missing individual-LCD models andremaining exact-model gaps;BOSS GT-Pro general cursor preserved."
   }
 }
