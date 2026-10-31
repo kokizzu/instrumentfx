@@ -129728,6 +129728,14 @@
       "midi": "https://cdn-media.empowertribe.com/c4ab468ba07f481080559bfc432c679c/PX5_3_MIDI_CC_table.pdf",
       "finding": "OriginalV0.0 guide reachable;TonePrint4.7.2desktop listed;firmwarelist1.4.3 differs from preserved1.5.6notes;CC100 printed0–125.",
       "remaining": "No inferred withdrawal;no downloads or hardware test;current OS minima and auxiliary display properties unresolved."
+    },
+    "x5_primary_restore": {
+      "checked": "2026-10-31",
+      "product": "https://www.tcelectronic.com/en/products/0709-AIK",
+      "manual": "https://cdn-media.empowertribe.com/069d07f7d9a3476e87a799ebe17a7483/QSG_TE_0709-AIK_PLETHORA%20X5_WW.pdf",
+      "revision": "V3.0,©2021,25PDFpages",
+      "finding": "Official guide reachable;TonePrint4.7.2desktop;StoreToProduct survivespoweroff,not audio-loop persistence.",
+      "remaining": "Global EXP scope,wiring conflict,dimension axes,screen diagonal/color/touch remain unresolved;no firmware withdrawal inferred."
     }
   },
   "gt_pro_global_patch_level_20261031": {

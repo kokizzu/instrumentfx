@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff', '--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(tc): restore X3 primary documentation and qualify current listing'))
+    print(git('commit','-m','research(tc): verify X5 stored TonePrint persistence and original guide'))

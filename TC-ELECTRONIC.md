@@ -574,6 +574,17 @@ Checked 2026-10-17; partial. Guitar/bass shared processor; ownership and vocal s
 
 Exact NEO MUSIC item27271818642 returned cache miss on this pass; preserve the historical Rp9.105.200 ask without claiming current stock or condition.
 
+
+### PLETHORA X5 — restored original guide and persistence scope, 2026-10-31
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / current exact-model listing | [Current manufacturer X5 page](https://www.tcelectronic.com/en/products/0709-AIK) lists **TonePrint4.7.2 for Windows/macOS**. OS minima and tested compatibility remain unknown. Its retrieved Files section has no firmware heading;this does not prove firmware withdrawal or supersede the preserved1.5.6 history. X3’s firmware listing is not transferred. |
+| Memory / stored TonePrint persistence | Same page explicitly says **Store To Product retains TonePrints after power-off**. This establishes saved TonePrint persistence,not persistent recorded loops,held EXP position or global all-Board volume assignment. |
+| Display / direct original guide | The page links a readable [manufacturer-hosted X5 QSG](https://cdn-media.empowertribe.com/069d07f7d9a3476e87a799ebe17a7483/QSG_TE_0709-AIK_PLETHORA%20X5_WW.pdf),**V3.0,©2021,25PDFpages**. It corroborates the already recorded five slot LCDs and TRS EXP,without resolving screen diagonal/color/touch or the distributor TS conflict. Printedp33 still labels298.5×116×53mm as H×W×D;axis ambiguity remains. Old endpoints and mirrored evidence are retained. |
+
+Text-only review;no local download,installation or hardware operation.
+
 <!-- comparison evidence ends -->
 
 Variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers unresolved. No download or visual inspection claimed. All facts from own-model sources; no X3 specification substitution.
