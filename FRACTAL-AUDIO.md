@@ -191,7 +191,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI selle
 | Knobs / footswitches / buttons | Current:**nine footswitches** and **five main-display push encoders**, explicitly named by exact MKII Turbo manufacturer store2026-10-31. Five describes editing encoders,not all rotary controls or push functions. Historical manual:**9/9/12**,six push-knobs counted once; power/ground lifts separate. Current full MKII rotary/button totals remain unverified. [Product][f9-p];[Store][f9-s];[Manual][f9-m] p.128. |
 | Display | **Nine individual mini LCDs, one per onboard footswitch**, plus a separate color main display. Current exact MKII Turbo product confirms enlarged strips with almost twice the original viewing area; checked2026-10-31. Colored LED rings are separate from LCD technology. Historical main800×480; diagonal/touch unverified. [Current manufacturer](https://www.fractalaudio.com/fm9/);[Store][f9-s];[Manual][f9-m] p.128. |
 | Dimensions / weight | Historical original/Turbo manual:**513W×237D×89H mm;5.44kg**,large. Exact MKII body/mass corroboration unresolved;do not borrow FM3 figures. [Manual][f9-m] p.128. |
-| Simultaneous blocks / category choices | Two amp blocks,four channels each;**325+ amp choices**,57+drive,50+reverb current product headlines. CPU-dependent concurrency,complete category census unresolved.2022manual instead59+drive/60+reverb;retain revision/source conflict.14×6grid is not84 guaranteed effects. [Product][f9-p];[Manual][f9-m] p.2. |
+| Simultaneous blocks / category choices | Two amp blocks,four channels each;**325+ amp choices**,57+drive,50+reverb current product headlines. CPU-dependent concurrency,current category census unresolved. [June2023 FM9 type/instance table](#fm9--historical-block-inventory) is retained below,not current MKII certification.2022manual instead59+drive/60+reverb;retain revision/source conflict.14×6grid is not84 guaranteed effects. [Product][f9-p];[Manual][f9-m] p.2. |
 | Preset / factory / user memory | **512 presets,8 scenes,four channels in most blocks**. Historical manual permits overwriting every location;factory-filled subset unknown. [Store][f9-s];[Manual][f9-m] p.39. |
 | IR / NAM / captures | **2200+factory cabs,1024user IRs**,UltraRes/DynaCab.2022manual lists WAV/IR/SYX import and16scratchpads;current format/length limits unresolved. Native NAM,converted NAM,user amp capture import unverified. [Store][f9-s];[Manual][f9-m] p.2. |
 | Synth / acoustic | Synth algorithms explicitly named;acoustic/piezo routing documented historically. Dedicated acoustic-simulation algorithm inventory unresolved;body IR enhancement differs. [Product][f9-p];[Manual][f9-m] p.38. |
@@ -202,6 +202,52 @@ Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI selle
 | Firmware / software revision | Downloads list**12.0,2026-07-07**,original/Turbo compatible;requires latest editor. WindowsUSBdriver6.16,2026-06-10,Windows10+x86/x64/ARM;older7/8need5.12. Factory presets9.02,2025-06-04,target9.x+. USBfirmware1.04separate hardware-revision update. Installed firmware unknown;manual remains3.x. [Downloads][f9-d]. |
 | Practical features | Current product lists**two-minute looper**,eight tap/hold switch layouts,up to twoFC6/FC12controllers;store claims gapless switching,minimum firmware unresolved. Mono/stereo/speed looper duration qualifications anddrums remain unverified. [Product][f9-p];[Store][f9-s]. |
 | Bass capability | Exact MKII Turbo store explicitly supports guitar/bass;shared bass,not inferred from amp controls. [Store][f9-s]. |
+
+### FM9 — historical block inventory
+
+Checked2026-10-31: [manufacturer Blocks Guide](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf),June2023,p3,linked by current FM9 page. **Historical FM9 column**,not firmware12/MKII certification. Types are choices; instances are per-type ceilings subject to DSP,not an additive simultaneous guarantee.
+
+| Block | Types | Instances |
+|---|---:|---:|
+| Amp | 309+ | 2 |
+| Cab | 2150+ | 2 |
+| Chorus | 17 | 2 |
+| Compressor | 16 | 2 |
+| Crossover | 1 | 2 |
+| Delay | 27+ | 2 |
+| Drive | 65+ | 3 |
+| Enhancer | 3 | 2 |
+| Filter | 15 | 4 |
+| Flanger | 31 | 2 |
+| Formant | 1 | 2 |
+| Gate/Expander | 3 | 4 |
+| Graphic EQ | 16 | 4 |
+| Input | 1 | 4 |
+| Looper | 1 | 1 |
+| Megatap | 20 | 2 |
+| Mixer | 1 | 4 |
+| Multi-Delay | 34+ | 2 |
+| Multiband Comp | 1 | 2 |
+| Multiplexer | 1 | 2 |
+| Output | 1 | 3 |
+| Parametric EQ | 1 | 4 |
+| Phaser | 16 | 2 |
+| Pitch | 16 | 1 |
+| Plex Delay | 44 | 1 |
+| Resonator | 1 | 2 |
+| Return | 1 | 2 |
+| Reverb | 66+ | 2 |
+| Ring Mod | 1 | 1 |
+| Rotary | 1 | 2 |
+| Scene MIDI | 1 | 1 |
+| Send | 1 | 2 |
+| Synth | 1 | 1 |
+| Ten-Tap Delay | 2 | 2 |
+| Tremolo | 5 | 2 |
+| Volume/Pan | 1 | 4 |
+| Wah | 8 | 2 |
+
+That revision lists zero FM9 instances for Dynamic Distortion,IR Player,RTA,Tone Match,Vocoder. Later availability requires checking; absence here is not a current No. Published amp prose290+ versus Types309+ conflicts internally. Current57+drive/50+reverb headlines remain separate.
 
 ### FM9 MKII Turbo — separate IDR asking-price evidence
 

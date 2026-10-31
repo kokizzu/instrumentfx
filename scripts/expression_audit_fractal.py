@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(fractal): verify current FM9 MKII display encoders'))
+    print(git('commit','-m','research(fractal): retain exact historical FM9 block inventory'))

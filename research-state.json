@@ -129634,6 +129634,14 @@
       "revision": "3.80 RevD,pp11,15,33,51",
       "finding": "Custom stomp/snapshot labels separate from switch LED colors;global Display settings concern LEDs,not LCD brightness or technology.",
       "remaining": "LCD size/color/touch and installed firmware remain unverified."
+    },
+    "fm9_block_inventory": {
+      "checked": "2026-10-31",
+      "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+      "revision": "June2023,p3,FM9 column",
+      "root": "FRACTAL-AUDIO.md#fm9--historical-block-inventory",
+      "finding": "37 nonzero block rows retained with type/instance counts;5 zero rows revision-qualified.",
+      "remaining": "Current MKII/firmware12 inventory and DSP concurrency unverified."
     }
   }
 }
