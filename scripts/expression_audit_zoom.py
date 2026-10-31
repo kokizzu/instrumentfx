@@ -22,5 +22,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): distinguish G3 LCD dimming and ECO standby'
+        message='research(zoom): distinguish G3 rhythm and loop continuity'
     print(git('commit','-m',message))

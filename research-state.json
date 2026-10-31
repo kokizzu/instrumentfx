@@ -130572,6 +130572,21 @@
       ],
       "finding": "Backlight ON or1–30second dimming; separate left/center/right contrast. Distinct from ECO standby.",
       "qualification": "Shared manual covers original G3. Numeric contrast and screen pixel-color/touch/diagonal remain unknown; no hardware/visual test."
+    },
+    "zoom_g3_rhythm_and_offer_followup_20261031": {
+      "source": "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf",
+      "printed_pages": [
+        28,
+        29
+      ],
+      "finding": "Rhythm level0–100, shared tempo40–250bpm, rhythm persists through patch selection/Home. Not loop continuity.",
+      "offer_lead": {
+        "title": "zoom g3 efek gitar digital",
+        "ask_idr": 1350000,
+        "region": "Kab. Bantul",
+        "source": "https://shopee.co.id/search?category=11043572&keyword=efek+gitar+zoom&subcategory=11043648",
+        "qualification": "Search-grid only, no seller/item identity; excluded from model price evidence until exact hardware item resolved."
+      }
     }
   },
   "gt_pro_global_patch_level_20261031": {
