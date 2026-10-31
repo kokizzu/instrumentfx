@@ -130857,6 +130857,15 @@
       "finding": "Added already-active no-treadle individual-LCD records to volume/footprint synthesis;all exceed200W×140D;globalrole documented butremaining coverage/recall not closed",
       "history": "Pre-admission discovery checkpoints retained under each original ledger entry",
       "inventory_changed": false
+    },
+    "g5n_recheck_20261101": {
+      "sources": [
+        "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g5n/g5n-support/",
+        "https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf"
+      ],
+      "result": "No newexact-model primary resolution forUSBchannels,power orseparatebuttons;G5FAQ andGCE3 claims excluded aswronghardware",
+      "visual": "Current CUA apps[]/browsers[];physical count remainspending",
+      "next": "Revisit whennew primaryevidence orvisualsurface exists;independentgeneralGT-Pro cursor retained"
     }
   },
   "gt_pro_global_patch_level_20261031": {
@@ -133639,6 +133648,11 @@
       "file": "ZOOM.md",
       "model": "G11",
       "heading": "### G11 — mobile-editor OS and firmware requirements"
+    },
+    {
+      "file": "BOSS.md",
+      "model": "GT-Pro",
+      "heading": "### GT-Pro — Mavericks driver listing versus legacy editor"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -134715,5 +134729,13 @@
     "os": "iOS13.0+ AppStore;manufacturer January2026 matrix confirmsiOS26/iPadOS26;no separateiPadOS minimum inretrievedlisting",
     "historical": "Launch2020-10-10 requiredfirmware1.20;preservedseparately",
     "boundary": "BTA-1required;wireless IR/editing notBluetooth audio,NAM orglobal volume;noinstallation"
+  },
+  "gtpro_mavericks_driver_20261101": {
+    "sources": [
+      "https://www.boss.info/us/support/by_product/gt-pro/updates_drivers/a1f1bdc4-ec34-44cb-93a8-ddcb65b0bd2b/",
+      "https://www.boss.info/us/products/gt-pro/features/"
+    ],
+    "finding": "Listed USBdriverv1.0.1 forMavericks10.9;MacEditor10.2.3–10.6.8 explicitlynot10.7+;driver/editor distinct",
+    "limits": "Legacylisting notinstall/currentmacOS/architecture orchannel-map proof;no agreement/download/run"
   }
 }
