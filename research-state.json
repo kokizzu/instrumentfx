@@ -129934,6 +129934,13 @@
       "manual": "https://manualzz.com/doc/51424546/zoom-music-pedal-g5-operation-manual",
       "finding": "G5bodyidentitymatched;genericappendedCubaseguide notadoptedasG5battery/USBpowerproof.",
       "remaining": "ExactHopeitem,conditionqualifiedoffers,model-specificpowerconfirmationandfullprofilegaps."
+    },
+    "b3_live_switching": {
+      "checked": "2026-10-31",
+      "source": "https://zoomcorp.com/media/documents/E_B3.pdf",
+      "pages": "7,10–11,25,29",
+      "finding": "Two-switchbankgesturemaytriggerfirstswitch;rhythmcancontinuewithpatchselection;Home-returnlooppersistence separate.",
+      "remaining": "Exactsymbolmapping,patch-changeloopcontinuityandfullprofilegapsremain."
     }
   },
   "gt_pro_global_patch_level_20261031": {

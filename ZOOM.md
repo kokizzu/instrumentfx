@@ -1713,6 +1713,19 @@ Original bass multi-effects, distinct from B3n. Checked2026-10-17; partial. Disc
 | Editor / parameter editing | Edit&Share edits effect on/off,type,parameters,patch names andstored patches,not merely a librarian. Reordering appears only for devices supporting it;B3’s separately documented three-effect architecture remains the limit. Guide also covers patch/group import/export anddevice updates;file imports do not establish IR/NAM/capture loading. |
 | Editor / initialization and sleep | In the patch-list view,**Delete** (Mac:fn+Delete) is the documented **initialize-patch** operation. It is not evidence of an empty memory slot orfactory-filled count. The guide says sleep mode is unsupported;restart Edit&Share ifcommunication stops aftercomputer sleep. No app was run orpatch modified. |
 
+
+### B3 — live bank switching and rhythm continuity
+
+Checked2026-10-31: [own manufacturer manual](https://zoomcorp.com/media/documents/E_B3.pdf),printedpp7,10–11,25,29. Original B3 only;B3n behavior is not transferred.
+
+| Field | Documented behavior / qualification |
+|---|---|
+| Live / bank-change interaction | Manual warns that simultaneous two-switch bank selection can affect sound through the switch pressed slightly earlier;it advises not sounding notes during that gesture. This qualifies the product’s1ms patch-change claim;it is not a measured latency or a promise of silent switching. Exact switch-symbol mapping still requires visual corroboration. |
+| Looper / rhythm continuity distinction | Rhythm screen offers patch selection or Home return **while rhythm keeps playing**. A separate completion action stops rhythm. The looper chapter confirms Home return while playing without erasing the loop;this does not independently establish loop survival across a patch change. Existing power-off/time/tempo erasure limits remain. |
+| Display / operating views | Home shows the current patch’s effect graphics;Edit shows parameter names/values and page tabs for larger parameter sets. These are views on three physical LCDs,not additional screens. Color/touch/diagonal remain unverified. |
+
+No download,hardware operation or successful new visual inspection.
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified historical hardware ask
