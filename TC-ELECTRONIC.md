@@ -613,6 +613,14 @@ No seller contacted,purchase initiated,download orhardware operation. Earlier Sh
 
 Checked **2026-11-01** against the one-page [manufacturer X5/X3 MIDI table](https://cdn-media.empowertribe.com/c4ab468ba07f481080559bfc432c679c/PX5_3_MIDI_CC_table.pdf), recovered through the exact X3 regional product page. Slots1–3 parameter knobs use CC67–69,72–74 and77–79 respectively; each maps0–127 to0–100%. MASH uses CC70/75/80 with **0 explicitly Off**, and1–127 mapped to0–100%. The separate expression modifiers CC71/76/81 use0–127. These are normalized MIDI mappings, not physical pressure calibration or a global master-volume target. Values for slots4–5 are explicitly X5-only. Preserve the previously documented unusual CC100 maximum125; do not normalize it to127. No device operation or local download.
 
+### PLETHORA X3 — own-model buffered-bypass delay trails
+
+Checked **2026-11-01** in the [manufacturer-authored X3 release-note reproduction](https://device.report/m/b58c0f8548c8e41483b625e48bd30dcf751d08036660e186e2e6fa3445d37736),one page,heading **1.3.11,26 May2022**,TC guitar-team signoff and Music Tribe copyright. Original extracted text opened;direct PDF rendering failed. This is separate from the shared history’s **March3 PX5-only** entry.
+
+For Flashback II and Alter Ego,the notes say1.3.6 capped feedback at80% when disengaged in **buffered bypass**;1.3.11 respects higher feedback settings and permits self-oscillating bypass trails. Thus X3-specific historical documentation establishes a buffered-bypass context alongside the product’s True Bypass specification. It does not establish the full mode menu,current defaults,power-failure behavior,Board-change spillover,looper continuity orglobal expression-volume coverage.
+
+The notes also fix PLAY/EDIT switching slowdown and improve heavy-load Board-change stability;no numerical loading-time guarantee follows. TonePrint4.5.5+ is the historical companion requirement,not a replacement for later Infinite requirements. Installed behavior remains untested. No downloads,update ordevice operation.
+
 <!-- comparison evidence ends -->
 
 Checked2026-10-17; historical indexed asks, not current stock/checkout. Condition,variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers unresolved. No download or visual inspection claimed.

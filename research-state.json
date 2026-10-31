@@ -137160,5 +137160,13 @@
     "qualification": "Original hands-on review supports historical27/11 count;not manufacturer visual verification. Launch-era memory andIR figures remain superseded.",
     "next": "Confirmed individual-LCD gaps;do not repeat unchanged inaccessible panel screenshots.",
     "g5n_recheck": "No new power/display proof from exact-model searches;V2 screenshot returned no inspectable image. Existing unknowns retained."
+  },
+  "plethora_x3_own_bypass_history_20261101": {
+    "status": "partial;historical manufacturer-authored source",
+    "source": "https://device.report/m/b58c0f8548c8e41483b625e48bd30dcf751d08036660e186e2e6fa3445d37736",
+    "destination": "TC-ELECTRONIC.md#plethora-x3--own-model-buffered-bypass-delay-trails",
+    "identity": "X3-specific1.3.11 note dated2022-05-26;distinct from PX5-only shared-history entry",
+    "limits": "No full current bypass menu,Board-change spillover,global expression coverage ordevice test. Exact Shopee searches reproduced existing offer;no new stock claim.",
+    "next": "Continue confirmed individual-LCD unresolved fields using new evidence;general cursor retained."
   }
 }
