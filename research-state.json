@@ -137555,5 +137555,25 @@
       "current1.8hardwarebehavior"
     ],
     "next": "Continue LCDmodel remainingcapabilities;retain currentmanual/modelguideH accessblocker andindependent BOSS GT-Pro cursor."
+  },
+  "lcd_treadle_comparison_20261101": {
+    "status": "comparison of existing qualified records; no new model admission or fully verified status",
+    "view": "FOOTSWITCH-DISPLAYS.md",
+    "models": [
+      "LINE6::Helix Floor",
+      "ZOOM::G3X",
+      "ZOOM::G3Xn",
+      "ZOOM::G5",
+      "ZOOM::G5n",
+      "ZOOM::G11"
+    ],
+    "scope": "Individual LCD processors with built-in treadles: exact-model body dimensions, mass and LCD accounting; separate from no-treadle volume shortlist.",
+    "qualifications": [
+      "Helix Floor KB versus older FAQ inch-height and mass discrepancy preserved; metric footprint explicitly calculated.",
+      "G3Xn and G11 pedal-up measurement uncertainty retained; clearance not included.",
+      "G11 five effect displays versus separate amp LCD and main touchscreen distinguished; two-part effect layouts retained.",
+      "No global-volume, wiring, offer or full-verification claim."
+    ],
+    "next": "Continue missing individual-LCD models and remaining G5/G5n/G11 source gaps before OLED/shared screens; independent general BOSS GT-Pro cursor unchanged."
   }
 }

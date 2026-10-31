@@ -56,6 +56,21 @@ Synthesis of the linked,revision-qualified audits as of2026-11-01. **None is yet
 | [Zoom G3](ZOOM.md#g3) |234×170;fails | Per-patch TOTAL;OUTPUT VOL excludes rhythm/looper |
 | [Zoom G3n](ZOOM.md#g3n) |234×181;fails | PDL Vol and OutputVP documented;all-preset scope unknown |
 
+### Individual LCD processors with built-in treadles — size and weight
+
+Comparison of the existing qualified brand records, checked 2026-11-01. These models remain first-priority LCD matches, but their built-in treadles exclude them from the separate no-treadle shortlist. **All exceed the preferred 200 W ×140 D mm chassis footprint.** Dimensions describe the body; pedal travel and cable clearance are not established by these figures. Screen counts do not imply total footswitch counts or simultaneous-effect capacity.
+
+| Processor | Chassis W×D×H | Published mass | Individual LCD layout / expression qualification |
+|---|---|---|---|
+| [Line 6 Helix Floor](LINE6.md#helix-floor) | KB 22.05×11.85×3.58 inches; older FAQ 22.05×11.85×3.6 inches. W×D ≈560.1×301.0 mm, calculated at25.4 mm/inch | KB14.7 lb; older FAQ14.6 lb; measurement basis unspecified | Own manual13 strips total:12 switch strips +1 pedal readout; separate6.2-inch main LCD. Built-in toe toggles EXP1/2; connecting external EXP2 makes built-in EXP1-only; two external sockets EXP2/3 |
+| [Zoom G3X](ZOOM.md#g3x) |323×175×66 mm |1.6 kg; no battery-inclusion qualification established in the linked record | Three backlit dot-matrix effect LCDs; built-in treadle. Distinct from G3Xn; do not transfer G3 external-pedal specifications |
+| [Zoom G3Xn](ZOOM.md#g3xn) |318×181×64 mm; pedal-up measurement conditions unknown |1.84 kg; G3n1.28 kg is a different model | Three128×32 effect LCDs; built-in treadle. G3n-only CONTROL IN is not transferred |
+| [Zoom G5](ZOOM.md#g5) |470×190×90 mm |3.1 kg | Four backlit dot-matrix effect LCDs; built-in multidirectional Z-Pedal; external FP01/FP02 or FS01 via CONTROL IN. Toe-switch construction unverified |
+| [Zoom G5n](ZOOM.md#g5n) |454×225×75 mm |3.4 kg | Four128×32 Unit LCDs plus separate256×32 Overview LCD; built-in treadle. Overview is not another effect-foot-switch display |
+| [Zoom G11](ZOOM.md#g11) |495×253×64 mm; pedal-up maximum height unverified |2.8 kg | Five effect LCDs plus separate amp LCD (six128×32 auxiliary LCDs total), and5-inch main touchscreen. Built-in treadle plus external FP02M; external pedal-effect insertion remains patch-specific |
+
+These are comparison extracts, not new verification of global volume assignment, pedal electrical compatibility, display diagonal/color/touch, or current offers. Follow each brand link for original sources, firmware scope and remaining gaps. In particular, G11 effects can occupy two visible Effects Section parts, so five effect LCDs do not guarantee five independent effects visible at once.
+
 ### Individual OLEDs at effect footswitches — secondary priority
 
 These match the separate-display layout, with OLED technology rather than LCD.
