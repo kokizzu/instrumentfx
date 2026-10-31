@@ -1684,7 +1684,7 @@ Current comparison summary, reviewed 2026-10-28. Discontinued rack guitar multi-
 | Dimensions / mass | **482 W × 305 D × 89 H mm; 4.8 kg**. Far exceeds preferred 200 W × 140 D mm. |
 | Processing / categories | **44 catalogue entries: 22 shared FX families + 11 FX2-only + 11 other entries**, including external LOOP and FV. FX1 selects one of 22 families; FX2 one of 33. Catalogue says 15 reorderable blocks, while exact-model specifications also say 13 simultaneous effects; counting basis unresolved. |
 | Processing / menu choices | **46 named preamps + 3 custom definitions**, two amp channels combinable. OD/DS **30+3 custom**; WAH **6+3 custom**; dedicated COMP **2 modes**; DELAY **12 types**; REVERB **7**; CHORUS **3 modes**. FX-family subtypes and full lists are in the detailed record; these are not additional simultaneous slots. |
-| Memory | **200 writable User + 200 protected Preset = 400**. Initial user tones are documented, including U1-1 STACK DRIVE and U20-10 GUITAR + PAD; complete initial-fill census unverified. Shared custom definitions affect all referencing patches. |
+| Memory | **200 writable User + 200 protected Preset = 400**. Original patch list now verified for **150 named User entries,U1-1 throughU15-10**,onpp152–154. U16–U20 remain incompletely inspected;full200-slot initial-fill census andused-unit contents unverified. Shared custom definitions affect all referencing patches. |
 | Synth / acoustic | Guitar Synth, Wave Synth, acoustic/sitar simulation and Acoustic Processor documented. Harmonist and Intelligent Ring Modulator require single notes; Pitch Shifter supports chords except Mono mode. No blanket polyphony claim or special-pickup requirement inferred. |
 | Audio I/O | Front/rear guitar inputs, front priority; dedicated PHONES and DIRECT/TUNER out. MAIN L/R and SUB quarter-inch L/R are unbalanced; SUB XLR L/R balanced and fixed +4 dBu, unaffected by SUB knob/OUT Level. Coaxial 24-bit S/PDIF. Nominal levels/impedances retained below; headphone power/load unverified. |
 | Routing / loops | PRE LOOP fixed before input level and unavailable with USB In. LOOP1/2 can combine stereo or operate series/parallel, but cannot occupy separate chain positions. MAIN/SUB source selection and digital-output tap documented. FV is movable; downstream Synth/Feedbacker OSC can defeat intended volume response. |
@@ -1698,6 +1698,20 @@ Current comparison summary, reviewed 2026-10-28. Discontinued rack guitar multi-
 | IDR verified used | Unknown; no condition-qualified exact hardware offer established. |
 | IDR verified new | Unknown; no condition-qualified exact hardware offer established. |
 | IDR condition-unverified ask | No qualified exact Shopee GT-PRO item retained. Seller/item, condition, stock, bundle, warranty, region, voucher and current price remain unverified. Search non-results do not establish market absence. |
+### GT-Pro — first150 User patch-list entries verified
+
+Checked **2026-11-01** in the original manufacturer manual reproduced byManualsLib:exact GT-PRO title,164-page structure andmatching Patch List columns corroborate the established2005manual identity. Original table bodies only;host FAQs excluded.
+
+| Manual page | Fully inspected address range | Named entries |
+|---|---|---:|
+| [152](https://www.manualslib.com/manual/499099/Boss-Gt-Pro.html?page=152) | U1-1–U5-10 |50|
+| [153](https://www.manualslib.com/manual/499099/Boss-Gt-Pro.html?page=153) | U6-1–U10-10 |50|
+| [154](https://www.manualslib.com/manual/499099/Boss-Gt-Pro.html?page=154) | U11-1–U15-10 |50|
+
+**Memory / documented initial filling:** allten numbered entries ineach ofthese15banks have names,**150total**. This narrows the older two-example evidence;it does not certify the remaining50User entries,all400storage positions asa singlefactory bank,orcurrent used-unit content. Protected Preset memory remains separate.
+
+Page155reopening failed,including the alternative manual ID;the earlier indexed U20-10 example remains provenance,not proof every intervening row was checked. The official fullPDFstill exceeds the reader limit. No local download,reset,patch write orvisual inspection.
+
 <!-- comparison evidence ends -->
 
 ### GT-Pro — alternate global Patch Level role, 2026-10-31

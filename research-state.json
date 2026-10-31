@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro catalogue list reconciled:22 shared+11 FX2-only+11 other entries=44,including external LOOP andFV;not44simultaneous internal effects. Continue13vs15basis,otherUSBmodes,visual controls,globalFVprecedence andqualifiedIDR; catalogue counts derive from current inventory.",
+    "task": "GT-Pro:150namedUserpatches U1-1–U15-10 verified onoriginalpp152–154;finishp155U16–U20 census. Continue13vs15basis,otherUSBmodes,visualcontrols,globalFVprecedence andqualifiedIDR. KeepLCD-first audit priority independently.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -133119,5 +133119,16 @@
     "finding": "33factorybanks×3permittemporaryadjustmentbutnot saving;33playerbanks×3editable. Not198writableuserlocations.",
     "remaining": "Globalvolumeoverride andfactoryVOLUMEdefaults unverified. G3n recheck yieldedno newassignmentproof;existingfirmwarefixalreadyrecorded.",
     "next": "ContinueLCDfirst andoriginal expressionaudit; independentGT-Pro cursor preserved."
+  },
+  "gtpro_user_fill_partial_20261101": {
+    "model": "BOSS GT-Pro",
+    "checked": "2026-11-01",
+    "sources": [
+      "https://www.manualslib.com/manual/499099/Boss-Gt-Pro.html?page=152",
+      "https://www.manualslib.com/manual/499099/Boss-Gt-Pro.html?page=153",
+      "https://www.manualslib.com/manual/499099/Boss-Gt-Pro.html?page=154"
+    ],
+    "finding": "All50namedUserentrieson eachpage inspected:U1-1–U15-10=150. Notfull200Useror400totalfactorycertification.",
+    "remaining": "Page155/U16–U20full50rowsnotinspected;official11.46MBPDFlimit,HTMLcachemiss. G3nPDFscreenshotreturnedstringcitationwithoutviewableimage;physicalcountunchanged."
   }
 }
