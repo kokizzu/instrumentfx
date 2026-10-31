@@ -22,5 +22,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): qualify B3n catalogue effect counting basis'
+        message='research(zoom): document B3n looper switch gestures'
     print(git('commit','-m',message))

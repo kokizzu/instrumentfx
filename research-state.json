@@ -132841,5 +132841,12 @@
     "finding": "Possible counting basis for manual80,not verified identical inventory;source differs from67-stomp product snapshot. Preserved89-entry parameter sheet and83-entry power chart remain separate.",
     "limits": "Current pool/installed count,OutputVP assignment,USB audio andphysical control census remain unverified.",
     "next": "Continue individual-LCD exact-model evidence andShopee discovery;independent BOSS GT-Pro cursor preserved."
+  },
+  "b3n_looper_gestures_20261031": {
+    "source": "https://zoomcorp.com/media/documents/E_B3n.pdf",
+    "revision": "Copyright2016,Z2I-2783-01,printed37–40",
+    "finding": "Added state-dependent one-/two-unit stop,undo/redo anddelete gestures;local loop volume0–100 is distinct fromglobal EXP assignment.",
+    "limits": "Text inspection only. Screenshot tool returned reference without image payload;physical census remains unresolved. No device operation.",
+    "next": "Continue LCD-first exact-model evidence andqualified Shopee discovery;independent BOSS GT-Pro cursor preserved."
   }
 }

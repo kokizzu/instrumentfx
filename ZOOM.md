@@ -2059,6 +2059,19 @@ Checked **2026-10-31** against indexed original text in [Zoom’s January2019 Ef
 
 This does not add effects to a unit, certify OutputVP insertion or establish USB audio. No local download, installation or hardware operation.
 
+
+### B3n — looper footswitch operations and local level
+
+Checked **2026-10-31**, [original manufacturer manual](https://zoomcorp.com/media/documents/E_B3n.pdf), ©2016, Z2I-2783-01, printed pp37–40. Text evidence only; the panel screenshot remained unavailable. These instructions refer to switches for the occupied looper units, not fixed FS numbers.
+
+| Field | Manual operation / qualification |
+|---|---|
+| Looper / one-unit gestures (2016 manual) | During playback, **double-press stops**; with UNDO enabled, **hold one second** to undo the latest overdub, then repeat to redo. **While stopped, holding deletes the phrase**. The stopped and playing states therefore matter; this does not add a separate dedicated undo switch. |
+| Looper / two-unit gestures (2016 manual) | **Second unit: press to stop**; while stopped, its press deletes the phrase. **First unit: double-press during playback** to undo, then double-press again to redo, with UNDO enabled. Two occupied display units remain one looper, not two loop recordings. |
+| Looper / local volume (2016 manual) | Looper volume spans **0–100**. This is a block-level control, not a global analog EXP assignment or evidence of attenuation at every output. Existing UNDO duration limits and patch-change erasure remain applicable. |
+
+No device was operated or recording changed. Physical control totals, OutputVP assignment and coverage remain unresolved.
+
 <!-- comparison evidence ends -->
 
 ### B3n — ambiguous B3/B3n hardware-title exclusion
