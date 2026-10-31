@@ -632,3 +632,7 @@ HX Effects [assignment/Favorite qualification](LINE6.md#hx-effects--assignment-c
 Tone Master Pro [firmware1.5 routing census](FENDER.md#tone-master-pro--firmware15-routing-template-census): twelve named templates;upper/lower paths andUSB playback have separate output assignments. Global expression attenuation ofall routed sources remains unverified.
 
 Nano Cortex [community desktop-editor lead](NEURAL-DSP.md#nano-cortex--official-mobile-app-and-community-desktop-editor):author describes per-preset expression mappings andseparate masterLEVEL/Capture Volume. Unofficial,untested software;not manufacturer confirmation ofglobal analog volume oronboard looper. Official Cortex Cloud2.8.1 remains a separate mobile release.
+
+### Hologram Chroma Console — partial no-treadle discovery
+
+[Exact-model record](HOLOGRAM.md#chroma-console--partial-discovery-lead), checked2026-11-01; outside active counts. Analog EXP mapping is **preset-stored** and limited to one primary control; secondary OUTPUT LEVEL/MIDI CC78 is a separate path. A global analog-volume assignment is unverified. Two onboard switches navigate backward/forward within the preset browser, with hold-to-load; no dedicated headphone socket in the published inventory. Manufacturer dimensions6×5×3in have unlabeled axes, so preferred W×D fit remains qualified. Exact Shopee hardware/IDR and output coverage remain unknown. This new partial lead does not displace the LCD-first queue.

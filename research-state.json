@@ -137876,5 +137876,29 @@
     "status": "Partial lead; outside confirmed LCD matches and active inventory",
     "next": "Seek primary manufacturer screen specification or inspectable original panel evidence. Do not repeat this seller claim as confirmation.",
     "downloads": false
+  },
+  "hologram_chroma_console_discovery_20261101": {
+    "checked": "2026-11-01",
+    "root": "HOLOGRAM.md#chroma-console--partial-discovery-lead",
+    "status": "Partial no-treadle multi-effects lead; outside active model/brand counts; not fully verified",
+    "sources": {
+      "product": "https://www.hologramelectronics.com/pages/chroma-console",
+      "manual": "https://cdn.shopify.com/s/files/1/0920/2928/8752/files/CC_manual_WEB.pdf?v=1758823440",
+      "manual_identity": "50-page firmware1.04 manual linked from manufacturer manual page",
+      "shop": "https://www.hologramelectronics.com/products/chroma-console?variant=50128739533104",
+      "support": "https://www.hologramelectronics.com/pages/support",
+      "firmware": "https://www.hologramelectronics.com/pages/chroma-console-firmware"
+    },
+    "expression": {
+      "scope": "Per-preset primary-control mapping",
+      "socket": "TRS, recommended >10kΩ; pinout/taper/max unverified",
+      "global_volume": "Unverified; OUTPUT LEVEL secondary/MIDI CC78 not listed among analog EXP targets",
+      "coverage": "Bypass/headphones/tails/loop attenuation and recall unknown"
+    },
+    "processing": "Four reorderable modules, five named effects each; 80 user presets",
+    "dimensions": "6x5x3in, axes unlabelled; preferred fit unverified",
+    "shopee": "Exact-title searches found no qualified item; no absence claim",
+    "next": "Dimension axes/mass, electrical/panel checks, output coverage and exact qualified Indonesia hardware offers. Keep individual-LCD priority and independent BOSS GT-Pro cursor.",
+    "downloads": false
   }
 }

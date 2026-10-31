@@ -2213,3 +2213,7 @@ research-commit-famc-display:
 .PHONY: expression-audit-commit-mod
 expression-audit-commit-mod:
 	python3 scripts/expression_audit_mod.py commit
+
+.PHONY: expression-audit-commit-hologram
+expression-audit-commit-hologram:
+	python3 scripts/expression_audit_mod.py commit-hologram
