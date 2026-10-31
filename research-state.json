@@ -130794,5 +130794,13 @@
     ],
     "finding": "MiniLCDcontrast/combinedbrightness/inversion;MIDIInitialValue excludeslocalFCpedals.",
     "limits": "Not currentMKII numericrange/recall;newercontrastannouncementnotprimarycorroborated. No download/test."
+  },
+  "axom_app_display_followup_20261031": {
+    "sources": [
+      "https://apps.apple.com/us/app/melofty/id6762972347",
+      "https://shop.warwick.de/effektpedale-multieffekt-prozessorenmelofty-axom-max-hybrid-audio-processor"
+    ],
+    "finding": "Developer1.9.0Sep29 release claims now recorded;importer explicitlynineFSwithownminidisplays remainsqualifiedlead.",
+    "limits": "No manufacturerLCD/OLED/countconfirmation;browserinventoryempty;manualreaderinaccessible. No download,newactiveadmissionorvisualclaim."
   }
 }

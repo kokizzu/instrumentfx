@@ -76,3 +76,9 @@ Checked2026-10-31,[ownV1.7.4 manual pp33–35](https://shop.warwick.de/media/23/
 |---|---|
 | USB / route directions | Computer playback1/2 bypasses the effects chain;3/4,5/6,7/8 can feed chain inputs for reamping. Device-to-computer1/2,3/4,5/6 can carry chain outputs;7/8 carries dry A/B inputs. USB-only output nodes avoid duplicate hardware/software monitoring. This is routing,not proof of192kHz operation or master-pedal attenuation of computer playback. |
 | Looper / navigation | Within Looper,holdFS1 to select FS8/9 preset−/+ or Subpatch−/+ navigation. OrdinaryFS8/9 instead control reverse/half-speed. Context-dependent navigation does not establish a permanent preset-down/up pair or uninterrupted loop playback across presets. |
+
+### AXOM MAX — app revision and display lead qualifications
+
+Checked2026-10-31. [Developer Apple history](https://apps.apple.com/us/app/melofty/id6762972347) lists **1.9.0,September29**:Synth/Inst Subpatch model switching and dynamic-response changes;long-press module copy/paste;Delay note range1/64–1/1 plus High/Low Cut;Pitch CPU reduction;MFIM(AMP/ENTIRE) Sharpness. These are developer release claims,not measured performance or confirmation of the required hardware firmware.1.9.2 remains separately listed as fixes.
+
+[Importer exact-product text](https://shop.warwick.de/effektpedale-multieffekt-prozessorenmelofty-axom-max-hybrid-audio-processor) explicitly describes **nine footswitches with their own mini displays**. This strengthens the earlier retailer layout lead but does not resolve manufacturer-confirmed count,LCD/OLED technology,diagonal or color. A separate retailer’s OLED claim is not adopted as manufacturer evidence. Browser surfaces were unavailable and original manual retrieval failed;no new visual count. Partial status and existing source qualifications remain.
