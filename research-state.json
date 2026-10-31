@@ -130872,7 +130872,16 @@
     "mod_duo": {
       "root": "MOD-AUDIO.md#duo",
       "status": "Active partial guitar/bass/voice;LCDtechnologyknown,placementpending;notconfirmedindividualLCDmatch",
-      "next": "Verify originalpanel/LCD-to-actuator layout,complete profile/market andsourceconflicts beforeactiveadmission. Do notborrowDuoX CVinputs."
+      "next": "Verify originalpanel/LCD-to-actuator layout,complete profile/market andsourceconflicts beforeactiveadmission. Do notborrowDuoX CVinputs.",
+      "settings_followup": {
+        "checked": "2026-11-01",
+        "sources": [
+          "https://wiki.mod.audio/wiki/MOD_Duo_Device_Settings",
+          "https://wiki.mod.audio/wiki/MOD_Duo_Technical_Specs"
+        ],
+        "finding": "OS1.13 five LCD brightness steps0/25/50/75/100%;MIDI pedalboard/snapshot PC navigation unavailable withWebGUI open;independent input gain stages+6/+15/+20dB and±12dB finein0.5dB.",
+        "remaining": "PhysicalLCD-to-foot placement,color/touch anddiagonal conflict unresolved;no directanalogEXP;not promoted toconfirmedindividualLCDlayout. No hardware/software downloads oroperations."
+      }
     },
     "fm9_turbo": {
       "root": "FRACTAL-AUDIO.md#fm9-turbo",
