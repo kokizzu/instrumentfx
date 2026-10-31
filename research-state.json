@@ -132453,5 +132453,17 @@
     ],
     "finding": "See root impedance/digital-output/headphone-routing audit;USB connector subtype remains unresolved.",
     "next": "Individual LCD processors first;do not infer global expression assignment from monitor settings. Independent BOSS GT-Pro cursor unchanged."
+  },
+  "fm3_firmware12_capacity_contrast_20261031": {
+    "checked": "2026-10-31",
+    "model": "FM3 MKII Turbo",
+    "source": "https://manuals.plus/m/7de5caf1ac45bf1cdf36c9adfdb9d248e0cfeebd9524cbad9fbd8d3f94baf9eb.pdf",
+    "source_identity": "Original37-page FM3 release history;13.00 July16,2026 matches own listing;12.0 January19,2026 section PDFpp3,5.",
+    "correction": "Root distinguishes historical1024 user IRs from512 in12.0;MarkII contrast default50%.",
+    "previous_rows": [
+      "| Simultaneous blocks / categories | CPU-limited; **12×4 grid is not guaranteed48 effects**. Own7.x p46 documents per-type ceilings:one Amp/Cab/Pitch/Reverb/Synth/Looper;two Drive/Chorus/Delay;four Filter/Mixer. These are CPU-limited maxima,not a guaranteed simultaneous combination. [Complete own7.x table](#fm3--block-choice-and-instance-table) below;current firmware13 inventory unresolved. Manual pp.2,50. Current product lists300+ amp models; factory cabs2200+ and1024 user IR locations, not simultaneous blocks. [Product](https://www.fractalaudio.com/fm3/) |",
+      "| IR / NAM / captures | **1024 user cab IRs**, UltraRes/DynaCab; DynaCab introduced firmware7. **7.x manual p2 lists.ir/.syx/.wav and16 scratchpads; p118 specifies.syx transfer and distinguishes.IR as Cab-Lab remix format**. Preserve summary/workflow distinction; direct support for every format,source rate/length limits and firmware13 equivalence unresolved. Native NAM, converted NAM and user amp capture import unverified. [Product](https://www.fractalaudio.com/fm3/) |"
+    ],
+    "next": "Prioritize individual LCD processors. Global pedal endpoints/recall and complete current library remain unresolved. General BOSS GT-Pro cursor unchanged."
   }
 }

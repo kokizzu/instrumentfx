@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(fractal): qualify FM3 DynaCab dependency and Windows architectures'))
+    print(git('commit','-m','research(fractal): correct FM3 firmware-qualified IR capacity and LCD contrast'))
