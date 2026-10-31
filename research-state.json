@@ -130858,5 +130858,30 @@
     ],
     "market": "RecheckedexactHurtrock item25331147281:Rp44.395.000 cached lastmonth;condition/stocknotverified",
     "next": "LCDfirst remains FM9 currentmanual/physicalspecs,Fender currentguidecensus;independentBOSSGTProcursorpreserved"
+  },
+  "fender_named_release_census_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+    "release": "1.7.53 December3,2025",
+    "counts": {
+      "Stompbox": 4,
+      "Delay": 7,
+      "Reverb": 4,
+      "EQ": 5,
+      "Synth": 3
+    },
+    "total_additions": 23,
+    "scope": "Release increments only;notcurrentlibrarycensus",
+    "later_release": "1.8.58 July15,2026",
+    "later_findings": [
+      "Threebassmodelslouderafterrenormalization",
+      "Undoclearing/OneShotoverdubfixes",
+      "ProControlSeamlessTapTempoDelayoptiondistinctfromspillover"
+    ],
+    "remaining": [
+      "CurrentguideHcompletecensus;PDFreaderunsupported",
+      "Numericblockceiling,currentIRlimits",
+      "GlobalanalogEXPcoverageandverifiedusedShopeeoffer"
+    ]
   }
 }

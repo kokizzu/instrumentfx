@@ -280,3 +280,14 @@ Official [release history](https://support.fender.com/hc/en-gb/articles/46768129
 ### Tone Master Pro — current product-page count conflicts
 
 Checked **2026-10-31**. [Own product page][P] now features over200 amp/effect models,over20,000 factory IRs,and a three-minute stereo looper. Its detailed specifications/highlights still say over100 models,6000 factory IRs and60seconds stereo. Preserve both presentations:release1.7.53 independently documents the looper extension;none of these promotional totals resolves the current category census,user IR capacity or installed firmware. Exact Shopee used-hardware search produced no qualified new evidence;older asks retain their original condition/access limits.
+
+### Tone Master Pro — named 1.7 additions and later live-behavior fixes
+
+Checked2026-10-31 against [manufacturer release history](https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates). These are version-specific additions,not full-library totals or simultaneous slots.
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| Category choices /1.7.53 additions | **December3,2025:23 effects**. Stompbox4:SDD-Boost,XO Boost,Sapphire Drive,Namaste Drive. Delay7:Stereo Digital Delay,Digital Hold Delay,Stereo Digital Hold Delay,Echelon Delay,Stereo Echelon Delay,Prime Delay,Stereo Prime Delay. Reverb4:Vast Convolution Chamber,Ethereal Convolution Hall,Retrograde Convolution Hall,Alkaline Convolution Plate. EQ5:EQ-5 Parametric EQ,Low/High Cut Filter,High Cut Filter,Low Cut Filter,Notch Filter. Synth3:Aethon Polysynth,Cerberus Polysynth,Wavemorph Polysynth. **4+7+4+5+3=23**;do not add again to an updated guide inventory. [Release notes](https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates). |
+| Live /1.8.58 qualifications | **July15,2026:** bass-model normalization makes Super Bassman Vintage,Rampage Blueline and ’66 Flip-Top louder;existing presets may need level adjustment. Notes also report fixes for Undo not always clearing overdubs and1-Shot omitting overdubs. These are manufacturer claims,not hardware tests. Pro Control gains the Seamless Tap Tempo Delay option underGlobal Settings→Preferences;this is not preset-change spillover. [Release notes](https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates). |
+
+Current guide-H category census remains unresolved:manufacturer PDF reader reports unsupported content type;third-party168-effect claims are not adopted as verified counts. No downloads,updates ordevice operations.
