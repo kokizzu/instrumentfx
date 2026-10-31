@@ -137372,5 +137372,18 @@
     "qualification": "Notmanufacturerconfirmedcapacity/currentfactoryallocation;NAMarchitectures/conversion/slotsharingunknown. Noactiveadmission.",
     "next": "Seekprimaryscreen/countandloaderdocs;exactShopeehardware. ConfirmedindividualLCDprocessorpriority preserved.",
     "downloads": false
+  },
+  "g11_fp02m_cable_20261101": {
+    "status": "manufacturerregionalaccessoryevidence;partial",
+    "sources": [
+      "https://zoomcorp.com/documents/461/E_G11v2.pdf",
+      "https://zoomcorp.com/ja/jp/accessories/mic-capsules-foot-switches-and-pedals/fp02m/",
+      "https://zoomcorp.com/en/us/accessories/mic-capsules-foot-switches-and-pedals/fp02m/"
+    ],
+    "destination": "ZOOM.md#g11--recommended-pedal-cable-evidence",
+    "finding": "OwnG11manual recommendsFP02M;Japaneseaccessorypage explicitlyincludesstandardstereophonecable,Englishonlyquarter-inch.",
+    "qualification": "Resistance/taper/wiper/toeelectricalunknown;notG11pinoutorM-VAVEcompatibilityproof. IRformat/capacityrecheckfoundalreadyrecorded.",
+    "next": "ContinueLCDpriorityexactmodelgaps;retainindependentGT-Procursor.",
+    "downloads": false
   }
 }

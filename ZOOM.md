@@ -4423,7 +4423,7 @@ Guitar and bass multi-effects; large; built-in expression. Specifications below 
 <!-- comparison evidence begins -->
 | Required field | Verified specification / remaining uncertainty |
 |---|---|
-| Built-in / external expression | Built-in pedal with toe-operated effect on/off; one CONTROL IN for an external ZOOM FP02M. Separate rear power switch is not an expression control. [G11-M] |
+| Built-in / external expression | Built-in pedal with toe-operated effect on/off; one CONTROL IN for an external ZOOM FP02M. [Japanese FP02M cable evidence](#g11--recommended-pedal-cable-evidence) identifies a supplied stereo phone cable;resistance/pinout remain unverified. Separate rear power switch is not an expression control. [G11-M] |
 | Expression / external patch assignment and toe state | **V2 pp51–56:** enable EXTERNAL PEDAL,select the patch,then add its pedal effect;**EXT** identifies the external assignment. Connecting an external pedal permits **two PEDAL-category effects**,not two arbitrary unrestricted destinations orautomatic all-preset volume. Front-end treadle toggles are **not saved**;Effects Section footswitch toggles **are saved**. Calibration adjusts sensitivity separately from assignment. [Own V2 manual](https://zoomcorp.com/documents/461/E_G11v2.pdf),checked2026-10-31;no device test. |
 | Physical controls | **11 footswitches**: five effect switches plus six SCROLL/PATCH/BANK navigation switches; **1 separate AMPLIFIER button**. Six amp rotary controls and a rear MASTER are explicit; complete rotary total across the five effect panels remains **unverified** pending successful visual inspection. Toe switch and rear power switch are separate. Marketing's five stomp switches must not erase the navigation switches. [G11-M, pp.11–14,23] |
 | Main display | **5-inch, 800×480 TFT color touchscreen**. [G11-P, G11-M p.104] |
@@ -4651,6 +4651,14 @@ The [ZOOM Corporation Indonesian App Store listing](https://apps.apple.com/id/ap
 ### G11 — IR library import and per-patch insertion
 
 Checked **2026-11-01**, [own V2 manual,printed pp86–88](https://zoomcorp.com/documents/461/E_G11v2.pdf),©2021,Z2I-3886-02. USB HOST flash-drive loading assigns IR data to the onboard library;the documented user range is107–300. A separate workflow first selects a patch,then selects an IR and positions it in that patch’s chain. Loading an IR into storage does not replace cabinets across every patch orcreate a global IR assignment. The import screen permits renaming before confirmation. File bit depth,mono/stereo conversion andoverlength truncation/rejection remain unspecified in the inspected instructions;do not infer them from the WAV extension or2048-sample limit. No file imported,downloaded orhardware operated.
+
+
+
+### G11 — recommended pedal cable evidence
+
+Checked **2026-11-01**. G11’s [ownV2 manual,pp14,104](https://zoomcorp.com/documents/461/E_G11v2.pdf) explicitly names **FP02M** forCONTROL IN. Zoom’s [Japanese FP02M page](https://zoomcorp.com/ja/jp/accessories/mic-capsules-foot-switches-and-pedals/fp02m/) lists a **standard stereo phone cable forFP02M** among included items;the [English FP02M page](https://zoomcorp.com/en/us/accessories/mic-capsules-foot-switches-and-pedals/fp02m/) only says¼-inch-to¼-inch cable. Thus the stereo-contact description has primary regional support,not a guess from plug diameter.
+
+This narrows the recommended accessory’s cable description only. Neither page supplies resistance,taper,wiper pinout ortoe-switch electrical specification. Do not transfer another manufacturer’s recommended FP02M-compatible input wiring toG11,orcertify aM-VAVE controller from connector shape. Patch pedal-effect insertion,OutputVP assignment scope andheadphone/bypass/tail/recorded-loop attenuation remain separate unresolved fields. No cable,pedal ordevice tested;no local download.
 
 <!-- comparison evidence ends -->
 
