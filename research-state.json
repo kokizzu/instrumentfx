@@ -131840,5 +131840,21 @@
       "send/return"
     ],
     "qualification": "USB MIDI remains documented. Control wiring,phantom,USB audio/power remain unverified;no visual/hardware inspection."
+  },
+  "fm3_okada_lcd_dimensions_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://www.okada-web.com/fractal-audio-systems/fm3-mark-ii-turbo",
+    "basis": "Exact-model regional distributor page;not manufacturer dimensional drawing",
+    "mkii_mm": [
+      50,
+      17.5
+    ],
+    "original_mm": [
+      36,
+      12.5
+    ],
+    "character_height_mkii_mm": 9.2,
+    "character_height_original_mm": 4.6,
+    "qualification": "Two axes,not diagonal. Active area,color,touch andphysical measurement remain unverified;no sibling transfer."
   }
 }

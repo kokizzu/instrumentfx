@@ -141,7 +141,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; origina
 | Manufacturer identity / revision | MKII Turbo launched July2023: over10% more DSP and larger footswitch displays than original; dimensions/mass unchanged. [Product](https://www.fractalaudio.com/fm3/) |
 | Built-in / external / toe expression | No built-in pedal; two shared external pedal/switch jacks. External toe configuration unverified. [Product](https://www.fractalaudio.com/fm3/) |
 | Knobs / footswitches / buttons | **8/3/12**; five push-knobs counted once. Rear power/ground-lift switches separate. Manual pp.21–24,140. |
-| Display | **Three individual mini LCDs**, one per onboard footswitch, plus **800×480 color main LCD**. Current manufacturer FM3 MKII Turbo page explicitly confirms three switch displays and enlarged MKII lettering; checked2026-10-31. Virtual12-switch layouts do not add physical screens. Diagonal/touch unverified; colored rings do not establish color mini-LCDs. [Current product](https://www.fractalaudio.com/fm3/); manual p.140. |
+| Display | **Three individual mini LCDs**, one per onboard footswitch, plus **800×480 color main LCD**. Current manufacturer FM3 MKII Turbo page explicitly confirms three switch displays and enlarged MKII lettering; checked2026-10-31. Virtual12-switch layouts do not add physical screens. **Regional distributor Okada lists mini-LCD50×17.5mm**,two-axis dimensions,not diagonal;[qualified source](#fm3--regional-mini-lcd-dimensions). Diagonal/touch unverified; colored rings do not establish color mini-LCDs. [Current product](https://www.fractalaudio.com/fm3/); manual p.140. |
 | Display / tap-hold labels | **7.x manual pp11,86:** normal mini-screen text describes Tap; pressing reveals Hold even before its action fires. Release restores Tap. Automatic/custom labels and a Reveal Hold function are documented. Separate ring colors do not establish mini-LCD color. Firmware13 behavior untested. [Own manual](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf) |
 | Dimensions / weight | **281W×236D×103H mm;3.22kg**. Large. Manual p.140. |
 | Power / battery / USB operation | **90–264VAC,47–63Hz,<40W**, grounded mains. CR2032 is backup memory battery, not operating battery. DC polarity/current not applicable to mains inlet; USB/battery operation unverified. Manual pp.24,140. |
@@ -296,6 +296,17 @@ Checked **2026-10-31**, [own7.x manual](https://www.fractalaudio.com/downloads/m
 | USB / combined Output2 monitoring | Manual explicitly pairs **Output2 Copy=Output1** with **USB1/2 Playback Destination=Output2** to hear preset audio andcomputer playback at Output2. Those are separate routing choices;output-block volume does not by itself certify attenuation ofboth. |
 
 No download, device operation ornew all-preset volume claim.
+
+### FM3 — regional mini-LCD dimensions
+
+Checked **2026-10-31**,[Okada exact FM3 MARK II Turbo page](https://www.okada-web.com/fractal-audio-systems/fm3-mark-ii-turbo). This is regional distributor evidence,not a newly verified manufacturer dimensional drawing orphysical measurement.
+
+| Field | Published regional claim / qualification |
+|---|---|
+| Display / mini-LCD dimensions | MKII **50.0×17.5mm (1.9×0.7in)** versus original **36.0×12.5mm (1.4×0.5in)**;character height **9.2mm versus4.6mm**. Two axes,not a diagonal;active area,color andtouch remain unverified. Exact FM3 evidence,not FM9 specifications transferred by similarity. |
+
+The page also says body size/weight are unchanged,consistent with preserved manufacturer evidence. Its older editor OS claims are not adopted over the current manufacturer editor listing. No download,visual measurement orhardware operation.
+
 
 ## FM9 MKII Turbo
 
