@@ -132410,6 +132410,36 @@
       "Capturecreation versusplayback"
     ],
     "next": "Locate originalmanufacturerpost andfuture officialrelease/importdocumentation;do not promote pressreport to shippedNAM;continueLCD-first;BOSS GT-Proindependentgeneralcursor unchanged",
-    "operations": "No downloads,firmwaremodification ordeviceoperation"
+    "operations": "No downloads,firmwaremodification ordeviceoperation",
+    "followup_trace": {
+      "checked": "2026-10-31",
+      "result": "GuitarWorld linked Reddit shared-URL thread which points back topressreport;Guitarristas update quotes attributedpost butoriginalaccountcontext notobtained",
+      "urls": [
+        "https://www.guitarworld.com/gear/amp-modeler-pedals/tone-master-pro-nam-a2-tease",
+        "https://www.reddit.com/r/NAM_NeuralAmpModeler/comments/1xee02g/confirmed_nam_a2_is_officially_coming_to_fender/",
+        "https://www.guitarristas.info/noticias/fender-tone-master-pro-podria-incorporar-nam-competir-pedaleras-admiten-capturas-tone3000/12107"
+      ],
+      "status": "No promotion toverifiedannouncement orreleasedcapability"
+    }
+  },
+  "tone_master_known_issues_20261031": {
+    "checked": "2026-10-31",
+    "model": "Fender Tone Master Pro",
+    "source": {
+      "url": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+      "scope": "Firmware1.8.58July15,2026KnownIssues"
+    },
+    "findings": [
+      "RocketMan subtle noise onaddition",
+      "NashvilleOverdrive low-level artifacts withguitarvolumedown",
+      "SWRRedhead occasionalTurbo-switchthump",
+      "Rock-Bottom400Mid-Contour/Hi-boosttoggles canclick duringplaying"
+    ],
+    "qualifications": [
+      "Manufacturer-listed releaseissues,notmeasurements orall-unitfailures",
+      "No laterfirmwarepersistence inferred",
+      "No download,installation ordeviceoperation"
+    ],
+    "next": "Continue LCD-first documentedgaps;NAMoriginalpost unresolved afterpress/reposttrace,awaitdistinctprimarysource ratherthanrepeatnewssearch;BOSS GT-Proindependentgeneralcursor unchanged"
   }
 }
