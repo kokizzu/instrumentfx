@@ -138182,5 +138182,14 @@
     ],
     "next": "Continue LCD gaps when neworiginal evidence isavailable;remaining independent no-treadle audit canprogress without declaring LCD models complete.",
     "general_cursor_preserved": true
+  },
+  "b3n_independent_switch_count_20261101": {
+    "checked": "2026-11-01",
+    "source": "https://morgancayre.com/liseuse-pdf-url/gp339.pdf",
+    "identity": "Guitar Part issue339,printed79;original B3n review",
+    "finding": "Original text explicitly reports six footswitches;three displays eachwithfour knobs. Independent review observation,not manufacturer specification orour visual census.",
+    "access": "Targeted indexed original text read;full39.8MB PDF exceeds readerlimit;no localdownload.",
+    "remaining": "Exact publication date/firmware andmanufacturer/visual switch census unresolved;separate buttons stillunknown. No change to globalvolume orUSB capability.",
+    "active_counts_changed": false
   }
 }
