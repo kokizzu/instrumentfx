@@ -129562,16 +129562,48 @@
           ],
           "IR": [
             "IR"
+          ],
+          "Delay": [
+            "Delay",
+            "AnalogDly",
+            "TapeEcho",
+            "ReverseDL",
+            "ModDelay",
+            "Hold DLY",
+            "P-P Delay",
+            "FilterDly",
+            "Dual DLY",
+            "Pitch DLY",
+            "SlapBackD",
+            "A-Pan DLY",
+            "PhaseDly",
+            "TapeEcho3",
+            "ICE Delay",
+            "SlwAtkDly",
+            "SoftEcho"
+          ],
+          "SFX": [
+            "Bomber",
+            "AutoPan",
+            "LoopRoll",
+            "HotSpice",
+            "Z-Syn",
+            "Defret",
+            "PH+Dist",
+            "BaStdSyn",
+            "BaSynTlk"
           ]
         },
         "counts": {
           "Pedal": 21,
           "SendReturn": 9,
           "Reverb": 17,
-          "IR": 1
+          "IR": 1,
+          "Delay": 17,
+          "SFX": 9
         },
         "finding": "PDLVolMinMax0–100curvesAB;OutputVPrecallnotuniversalassignment;monopitchsingle-note.",
-        "remaining": "Othercategories/postV2currentinventory,globalvolumeoutputcoverageandphysicaldisplaygaps."
+        "remaining": "Filter,Drive,Amp,Cabinet,Modulation still need complete V2 count;postV2currentinventory and outputcoverage remain open."
       }
     },
     "zoom_g3": {
