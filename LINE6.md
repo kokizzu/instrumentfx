@@ -443,6 +443,18 @@ Checked **2026-10-31**,[original3.80 RevG manual reproduction,pp69,71–72](http
 
 No download,reset,update ordevice test.
 
+### Helix Floor — 3.80 impedance and monitor-routing limits
+
+Checked **2026-10-31** in the [original RevG manual reproduction,pp9,68](https://www.scribd.com/document/812017479/Helix-3-80-Owner-s-Manual-English);identity established above.
+
+| Field | Revision-qualified finding |
+|---|---|
+| I/O / impedance | AUX input **10kΩ**,intended for active-pickup guitar/bass;PHONES output **12Ω**,not a headphone-load requirement. Low-impedance headphones may distort at maximum PHONES setting. |
+| I/O / digital selection | S/PDIF uses **75Ω RCA**,AES/EBU **110Ω XLR**. Only one digital output is active;L6 LINK disables S/PDIF output. USB audio is unaffected. |
+| Live / level and monitor scope | Global Volume Knob Controls selects affected outputs;Headphones Monitor independently selects Multi,quarter-inch orXLR monitoring. These are not universal pedal-volume assignments. Connector subtype for USB remains unresolved. |
+
+No download orhardware operation.
+
 <!-- comparison evidence ends -->
 
 ### Helix Floor provenance and gaps
