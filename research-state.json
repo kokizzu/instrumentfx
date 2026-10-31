@@ -130705,14 +130705,20 @@
       "Reverb": 14,
       "Pedal": 17
     },
-    "remaining": [
-      "Drive",
-      "Amp",
-      "Cabinet",
-      "Modulation",
-      "SFX",
-      "Delay"
-    ],
-    "qualification": "Document subset only; preloaded/additional markers and newer library not conflated."
+    "remaining": [],
+    "qualification": "Completed2017 document census only; original partial counts preserved. Headline126/128/159 and installed/current library remain separate.",
+    "completed_counts": {
+      "Dynamics": 10,
+      "Filter": 14,
+      "Reverb": 14,
+      "Pedal": 17,
+      "Drive": 21,
+      "Amp": 16,
+      "Cabinet": 16,
+      "Modulation": 22,
+      "SFX": 3,
+      "Delay": 15
+    },
+    "document_total": 148
   }
 }

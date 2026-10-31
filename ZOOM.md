@@ -3587,7 +3587,9 @@ Checked2026-10-31 against [manufacturer V2 manual](https://zoomcorp.com/media/do
 
 ### G5n — partial category census, 2017 shared sheet
 
-Checked2026-10-31: [manufacturer shared effect list](https://zoomcorp.com/media/documents/E_G5n_G3n_G3Xn_FX-list.pdf.pdf),©2017,Z2I-2556-04,pp3–6,21–25. G5n is explicitly covered;V2 preloaded markers differ from Guitar Lab additions. This is a document census,not an installed/current-library total.
+The earlier four-category pass is now completed below;heading retained for link compatibility.
+
+Checked2026-10-31: [manufacturer shared effect list](https://zoomcorp.com/media/documents/E_G5n_G3n_G3Xn_FX-list.pdf.pdf),©2017,Z2I-2556-04,pp3–25. G5n is explicitly covered;V2 preloaded markers differ from Guitar Lab additions. This is a document census,not an installed/current-library total.
 
 | Field | Named choices |
 |---|---|
@@ -3595,8 +3597,15 @@ Checked2026-10-31: [manufacturer shared effect list](https://zoomcorp.com/media/
 | Categories / Filter | **14**: AutoWah; Resonance; Cry; SeqFLTR; Gt GEQ; Gt GEQ7; St Gt GEQ; ParaEQ; EG FLTR; RndmFLTR; LowPassFL; Exciter; Step; LFO FLTR. |
 | Categories / Reverb | **14**: Air; Room; Hall; HD Hall; Spring; FD Spring; Plate; EarlyRef; SpaceHole; Church; Ambience; ParticleR; Chamber; GateRev. |
 | Categories / Pedal | **17**: PDL Vol; BlackWah; ChromeWah; WAH100; PDL Pitch; PDL MnPit; PDL Vibe; PDL Drive; PDL PHSR; PDL Delay; PDL Rev; OSC Echo; VoiceWah; PDL Roto; P-BitCRSH; PDL FLNGR; PDL Reso. |
+| Categories / Drive | **21**: TS Drive; EP Stomp; RC Boost; GoldDrive; SweetDrv; DYN Drive; RedCrunch; MetalWRLD; TB MK1.5; OctFuzz; SpotBoost; Aco.Sim; NYC Muff; HG THRTTL; BG GRID; TS+Boost; RedCR+BST; DIST 1; Squeak; UpOctBSTR; OutputBST. |
+| Categories / Amp | **16**: MS 800; MS 1959; MS 45os; FD TWNR; FD B-MAN; FD DLXR; FD MASTER; UK 30A; BG MK1; BG MK3; XtasyBlue; HW 100; Recti ORG; ORG120; DZ DRV; MATCH30. |
+| Categories / Cabinet | **16**: MS4x12; MS4x12GB; MS4x12AL; FD2x12; FD-B4x10; FD-DX1x12; FD MA2x12; UK2x12; MK1 1x12; MK3 1x12; BGN4x12; HW4x12; RCT4x12; ORG4x12; DZ4x12F; MA2x12. |
+| Categories / Modulation | **22**: Tremolo; Chorus; StereoCho; Phaser; VinFLNGR; TheVibe; Vibrato; Octave; RingMod; Detune; PitchSHFT; MonoPitch; HPS; Kick FLNG; Slicer; CloneCho; SuperCho; StonePha; CoronaTri; BendCho; AnalogCho; WarpPhase. |
+| Categories / SFX | **3**: Bomber; AutoPan; LoopRoll. |
+| Categories / Delay | **15**: Delay; AnalogDly; TapeEcho; ReverseDL; ModDelay; Hold DLY; P-P Delay; FilterDly; Dual DLY; Pitch DLY; SlapBackD; A-Pan DLY; PhaseDly; TapeEcho3; ICE Delay. |
 
-Drive,amp,cabinet,modulation,SFX and delay remain to count. Preserve the separate126/128/159 headline scopes. Pedal-category entries are not a global assignment;Tail parameters describe effect bypass,not preset-change spillover.
+**Complete sheet count:148 entries**,including16amps+16cabinets;not a current/installed total. Preserve126/128/159 headline scopes. Pedal entries do not establish global assignment;Tail parameters describe effect bypass,not preset-change spillover.
+
 
 ## G6
 

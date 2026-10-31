@@ -22,5 +22,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): enumerate four G5n effect-sheet categories'
+        message='research(zoom): complete 148-entry G5n document census'
     print(git('commit','-m',message))
