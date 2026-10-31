@@ -3002,6 +3002,34 @@ Checked2026-10-31: [manufacturer G3/G3X operation manual](https://zoomcorp.com/m
 | Display / chain viewport | Three effects are visible at once;scrolling exposes other positions in a six-effect chain. Three LCDs do not limit the firmware2.00+ chain to three effects;the original three-effect baseline remains revision-qualified. |
 
 
+
+### G3 — complete numbered model census
+
+Checked2026-10-31: [own shared manual](https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf),printedpp40–57. **116 unique numbered models**,001–116. Groups below are an editorial partition by documented function,not manufacturer menu headings. Every number appears exactly once. Installed firmware remains unverified.
+
+| Comparison grouping | Choices | Manual model numbers |
+|---|---:|---|
+| Dynamics/gates | 7 | 001–007 |
+| EQ | 2 | 008–009 |
+| Filter/step | 8 | 010–017 |
+| Boost/drive/preamp | 20 | 018–037 |
+| Acoustic simulation | 1 | 038 |
+| Amp | 22 | 039–060 |
+| Modulation | 14 | 061–066,068–074,114 |
+| Pitch/detune | 6 | 067,075–079 |
+| Special/synth/organ | 5 | 080–084 |
+| Delay | 12 | 085–096 |
+| Reverb/ambience | 8 | 097–104 |
+| Combined effects | 7 | 105–111 |
+| Pedal wah/pitch | 4 | 112–113,115–116 |
+
+| Field | Reconciliation |
+|---|---|
+| Categories / grouped choices | Editorial counts: dynamics/gates7;EQ2;filter/step8;boost/drive/preamp20;acoustic1;amp22;modulation14;pitch/detune6;special/synth/organ5;delay12;reverb/ambience8;combined7;pedal wah/pitch4. [Number mapping](ZOOM.md#g3--complete-numbered-model-census). |
+| Categories / count basis | **94 non-amp +22 amp models=116**. Table1 separately lists22 cabinet selections plus OFF,chosen through amp CAB parameters;these are not22 additional numbered blocks. Grouping does not establish simultaneous capacity or independent slots within combined models. |
+
+Earlier product totals and original three-effect baseline remain preserved;this resolves the numbered-list grouping gap,not a firmware-independent installed census. No download or device test.
+
 <!-- comparison evidence ends -->
 
 Multi-model Hope Music listing G3/G3X/G3XN, shop703817770/item11099808237, showed Rp1,899,000–2,699,000 across five unresolved variations. Not assigned to G3. [Listing](https://shopee.co.id/Efek-Zoom-G3-G3X-G3XN-i.703817770.11099808237).

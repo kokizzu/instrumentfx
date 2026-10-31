@@ -22,5 +22,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): verify original G3 headphone and output ratings'
+        message='research(zoom): reconcile complete G3 numbered model census'
     print(git('commit','-m',message))

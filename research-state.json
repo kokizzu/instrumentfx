@@ -129766,6 +129766,163 @@
       "finding": "Currentmobile minimum differsfromdistributor11+;notdesktopAXOMController.",
       "manual_candidate": "https://device.report/m/63a022bc23df064392ad6523fb0e69573ed5ae7b06aa019d4e8601c2f649aa85_optim.pdf",
       "remaining": "PDFcachemiss,generatedoverviewnotadopted;screenLCD/OLED/countandexactShopeestillunresolved;outsideactivecounts."
+    },
+    "g3_model_census": {
+      "checked": "2026-10-31",
+      "source": "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf",
+      "pages": "40–57",
+      "models": 116,
+      "amps": 22,
+      "nonamps": 94,
+      "groups": [
+        {
+          "name": "Dynamics/gates",
+          "ranges": [
+            [
+              1,
+              7
+            ]
+          ],
+          "count": 7
+        },
+        {
+          "name": "EQ",
+          "ranges": [
+            [
+              8,
+              9
+            ]
+          ],
+          "count": 2
+        },
+        {
+          "name": "Filter/step",
+          "ranges": [
+            [
+              10,
+              17
+            ]
+          ],
+          "count": 8
+        },
+        {
+          "name": "Boost/drive/preamp",
+          "ranges": [
+            [
+              18,
+              37
+            ]
+          ],
+          "count": 20
+        },
+        {
+          "name": "Acoustic simulation",
+          "ranges": [
+            [
+              38,
+              38
+            ]
+          ],
+          "count": 1
+        },
+        {
+          "name": "Amp",
+          "ranges": [
+            [
+              39,
+              60
+            ]
+          ],
+          "count": 22
+        },
+        {
+          "name": "Modulation",
+          "ranges": [
+            [
+              61,
+              66
+            ],
+            [
+              68,
+              74
+            ],
+            [
+              114,
+              114
+            ]
+          ],
+          "count": 14
+        },
+        {
+          "name": "Pitch/detune",
+          "ranges": [
+            [
+              67,
+              67
+            ],
+            [
+              75,
+              79
+            ]
+          ],
+          "count": 6
+        },
+        {
+          "name": "Special/synth/organ",
+          "ranges": [
+            [
+              80,
+              84
+            ]
+          ],
+          "count": 5
+        },
+        {
+          "name": "Delay",
+          "ranges": [
+            [
+              85,
+              96
+            ]
+          ],
+          "count": 12
+        },
+        {
+          "name": "Reverb/ambience",
+          "ranges": [
+            [
+              97,
+              104
+            ]
+          ],
+          "count": 8
+        },
+        {
+          "name": "Combined effects",
+          "ranges": [
+            [
+              105,
+              111
+            ]
+          ],
+          "count": 7
+        },
+        {
+          "name": "Pedal wah/pitch",
+          "ranges": [
+            [
+              112,
+              113
+            ],
+            [
+              115,
+              116
+            ]
+          ],
+          "count": 4
+        }
+      ],
+      "basis": "Editorial partition of every unique numbered model;22CABparameter choicesnotadditionalblocks;installedfirmwareunknown."
     }
   },
   "gt_pro_global_patch_level_20261031": {
