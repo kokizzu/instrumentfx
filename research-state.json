@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Fresh manufacturer-backed individual-LCD processor discovery, then resume Ampero Mini/Nano Cortex unresolved no-treadle scope. Do not recycle completed model passes without new sources. AXOM MAX remains partial and unclassified by mini-screen technology. Independent BOSS GT-Pro cursor unchanged.",
+      "next_check": "Nano Cortex: exact current analog-expression global-volume scope, endpoints/recall and output/bypass/tail/loop coverage. Fresh LCD discovery remains prioritized when new exact-model evidence appears; no new LCD model admitted this pass. Independent BOSS GT-Pro cursor unchanged.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133323,6 +133323,11 @@
       "file": "ZOOM.md",
       "model": "B3n",
       "heading": "### B3n — storefront-only leads excluded from exact-item prices"
+    },
+    {
+      "file": "HOTONE.md",
+      "model": "Ampero Mini MP-50",
+      "heading": "### Ampero Mini — numbered panel versus lock-button wording"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -133574,5 +133579,20 @@
     "active_inventory_change": false,
     "downloads": false,
     "hardware_test": false
+  },
+  "ampero_mini_lock_panel_conflict_20261101": {
+    "model": "Ampero Mini MP-50",
+    "checked": "2026-11-01",
+    "source": "https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf",
+    "pages": "4,6",
+    "finding": "Separate-button inventory qualified against inconsistent physical-lock prose; global volume remains unverified.",
+    "remaining": "Hardware corroboration and all-preset expression assignment/output coverage.",
+    "downloads": false,
+    "hardware_test": false
+  },
+  "lcd_discovery_recheck_20261101": {
+    "scope": "Individual-LCD processor search, including Shopee Indonesia",
+    "result": "No additional manufacturer-backed exact model admitted; existing HX Effects, Helix, Fractal and Zoom hits were duplicates. Generated third-party claims of eight HX Effects LCDs rejected against existing six-strip primary evidence.",
+    "next": "Do not repeat completed LCD passes without new sources; continue unresolved no-treadle audit."
   }
 }

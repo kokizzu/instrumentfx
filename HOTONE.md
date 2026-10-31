@@ -682,7 +682,7 @@ Current comparison summary, reconciled 2026-10-28 from the exact-model sources r
 |---|---|
 | Expression | No built-in treadle; one TRS EXP/FS socket. Japan specifies **10–25 kΩ** in indexed exact-model specifications; pinout and actual M-VAVE compatibility remain unknown. EXP mode excludes external Single/Dual FS functions on that socket. |
 | Expression / across-preset volume | V2.2 VOLUME enable is patch-stored; **global override remains unverified**, not No. Pre/Post placement; fixed heel/toe volume endpoints independent of four effect-target ranges. Four effect targets allow reversible 0–100 limits and Line/Exp/Log curves. Calibration and global socket mode are not global volume assignment. Recall, bypass, headphone, tail and recorded-loop coverage remain unverified. |
-| Knobs / footswitches / buttons | **1 rotary / 2 footswitches / 0 separate buttons**, from numbered manufacturer manual text. Rear volume knob controls all outputs; that coverage is not transferred to EXP. FS1/FS2 provide previous/next patch; external FS3/4 require switch mode. Toe-pressure calibration alone does not establish a toe switch. |
+| Knobs / footswitches / buttons | **1 rotary / 2 footswitches / 0 separate buttons named in the numbered panel**; V2.2 lock-button prose conflicts with that inventory, so the separate-button total remains qualified. Rear volume knob controls all outputs; that coverage is not transferred to EXP. FS1/FS2 provide previous/next patch; external FS3/4 require switch mode. Toe-pressure calibration alone does not establish a toe switch. |
 | Display | Published **4-inch, 800×480, color touchscreen**; not photo-measured. |
 | Display / idle behavior | **V2.2 p21:** display timeout Always On or1/5/10/20/30/40/50/60minutes,default30minutes; touch,footswitch orEXP activity wakes it. Seven themes and patch-number/name modes do not establish individual footswitch LCDs. [Own manual](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf),checked2026-10-31. |
 | Dimensions / weight | Published **134×120×49 mm; 529 g**. Fits preferred 200×140 mm chassis envelope; cable clearance additional. |
@@ -707,6 +707,18 @@ Current comparison summary, reconciled 2026-10-28 from the exact-model sources r
 Checked **2026-11-01**,[manufacturer V2.2 manual,printedp3](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf). Its bank definition specifies three patches perbank,33editable player banks and33factory banks F01–F33. Factory banks permit adjustments **without saving those changes**;do not count all198locations asoverwriteable user storage. This narrows the older99+99 shorthand without asserting a factory-reset result orinspecting installed contents.
 
 The patch-stored EXP VOLUME workflow andseparate GLOBAL settings remain unchanged bythis memory distinction. Factory-patch VOLUME defaults andan all-preset override are still unverified. No download,patch save,reset orhardware operation.
+
+
+### Ampero Mini — numbered panel versus lock-button wording
+
+Checked **2026-11-01** in the [manufacturer firmwareV2.2 manual, printed pp4,6](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf). The numbered panel names the volume rotary andtwo footswitches,with **no separate button**. The main-screen lock instructions nevertheless refer to pressing a **lock button on the device**,without identifying it in that panel inventory.
+
+| Field | Source conflict / qualification |
+|---|---|
+| Controls / separate buttons | Earlier zero-button result is an inventory-derived count,not fully reconciled hardware verification. The lock prose does not justify inventing an extra button or transferring another Ampero panel. Actual hardware/revision corroboration remains open. |
+| Display / lock operation | Holding the onscreen lock icon locks the interface;entering Tuner orLooper with footswitches unlocks it. This is interface locking,not expression-position hold,volume recall orglobal assignment. |
+
+No visual inspection,device operation orlocal download. Existing patch-scoped volume evidence andall-preset uncertainty remain unchanged.
 
 <!-- comparison evidence ends -->
 
