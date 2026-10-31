@@ -4507,6 +4507,7 @@ Guitar and bass multi-effects; large; built-in expression. Specifications below 
 | Instrument / aux | One6.35mm mono input,500kΩ; one3.5mm stereo AUX IN,10kΩ. No microphone input/phantom power in the full published connector list. [G11-M p.104] |
 | Outputs / loops | Two6.35mm mono main L/MONO,R outputs; dedicated6.35mm stereo headphones; two6.35mm SEND and two RETURN sockets, usable as two mono loops or stereo send/return processing. Nine routing choices include mono/stereo loops,send-only andreturn-only entries;positions are patch-stored andconsume effect capacity. INST/LINE output-level selection. No XLR output in the published list. [G11-M pp.13–14,77–79,104] |
 | MIDI / USB | Separate five-pin DIN MIDI IN/OUT; USB-C DEVICE for audio/Guitar Lab; USB-A HOST for IR/update flash drives; dedicated optional-BTA-1 REMOTE connector. [G11-M] |
+| MIDI / controller limits | Per-patch PC/CC transmission does not establish received expression CC support. The V2 manual’s embedded March2020 chart marks CC reception unsupported; BANK/DIRECT program-change modes and clock are separate. [Revision-qualified MIDI audit](#g11--midi-transmission-and-reception-boundaries). |
 | Live / master level and recall | **V2 pp7,18–19:master knob −∞ to+6dB,center0dB**; overall volume retained across patch changes. This is hand-operated master level,not a verified global expression assignment or pedal endpoint range. Startup-state restoration is broadly stated p18; exact held-pedal recall remains unknown. [Own manual](https://zoomcorp.com/documents/461/E_G11v2.pdf) |
 | Power | **12V DC,center-positive,2000mA AD-19 supply**. Supply rating, not measured operating draw. **USB bus power explicitly unsupported**. Internal battery operation is not documented. [G11-M p.104] |
 | Editor platforms | **Guitar Lab Windows/macOS**; support page lists7.3 for Windows8.1/10/11 and macOS10.13–26. **Handy Guitar Lab iOS/iPadOS requires optional BTA-1**. Android/Linux full editor not established. Driver support is a separate field. [G11-D,G11-I] |
@@ -4726,6 +4727,18 @@ Checked **2026-11-01**, [own V2 manual,printed pp86–88](https://zoomcorp.com/d
 Checked **2026-11-01**. G11’s [ownV2 manual,pp14,104](https://zoomcorp.com/documents/461/E_G11v2.pdf) explicitly names **FP02M** forCONTROL IN. Zoom’s [Japanese FP02M page](https://zoomcorp.com/ja/jp/accessories/mic-capsules-foot-switches-and-pedals/fp02m/) lists a **standard stereo phone cable forFP02M** among included items;the [English FP02M page](https://zoomcorp.com/en/us/accessories/mic-capsules-foot-switches-and-pedals/fp02m/) only says¼-inch-to¼-inch cable. Thus the stereo-contact description has primary regional support,not a guess from plug diameter.
 
 This narrows the recommended accessory’s cable description only. Neither page supplies resistance,taper,wiper pinout ortoe-switch electrical specification. Do not transfer another manufacturer’s recommended FP02M-compatible input wiring toG11,orcertify aM-VAVE controller from connector shape. Patch pedal-effect insertion,OutputVP assignment scope andheadphone/bypass/tail/recorded-loop attenuation remain separate unresolved fields. No cable,pedal ordevice tested;no local download.
+
+### G11 — MIDI transmission and reception boundaries
+
+Checked **2026-11-01** in [Zoom’s own V2 manual](https://zoomcorp.com/media/documents/E_G11v2.pdf), printed pp80–85,105.
+
+| Field | Documented capability / limit |
+|---|---|
+| MIDI / patch-triggered output | Each patch selects OFF, PC or CC output. PC includes bank MSB/LSB and program; CC selects number/value. BASE uses the global channel. The manual says MIDI PROGRAM CHANGE SEND OFF prevents this output, including the documented CC setup. This is a patch-load message, not proof of continuous pedal transmission. |
+| MIDI / reception and clock | BASE CHANNEL accepts a selected channel or OMNI; MIDI IN-THRU and clock receive/send have independent switches. PROGRAM CHANGE MODE offers BANK or DIRECT for controllers without bank-change messages; reception has its own enable switch. Exact 500-location mapping is not supplied here. |
+| MIDI / implementation revision | The included chart is dated **March16,2020,version1.00**, despite appearing in the V2 manual. It marks **CC transmission yes, reception no**, program changes and clock both ways, and SysEx unsupported. Preserve that revision boundary and the BANK-mode instructions; do not infer a received CC-volume assignment or firmware2.10 behavior. |
+
+Direct analog FP02M assignment, calibration and global-volume scope remain separate. No controller connected, software installed or local download performed.
 
 <!-- comparison evidence ends -->
 

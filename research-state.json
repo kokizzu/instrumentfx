@@ -137849,5 +137849,22 @@
     "remaining": "External volume endpoints, recall and coverage; USB connector subtype, separate button census and exact qualified hardware offers.",
     "downloads": false,
     "hardware_test": false
+  },
+  "g11_midi_direction_boundaries_20261101": {
+    "source": "https://zoomcorp.com/media/documents/E_G11v2.pdf",
+    "printed_pages": [
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      105
+    ],
+    "chart_revision": "March 16, 2020; version 1.00 embedded in V2 manual",
+    "finding": "Per-patch PC/CC transmit choices differ from incoming control. Chart marks CC reception unsupported, PC and clock both ways, SysEx unsupported. BANK/DIRECT modes retained without inventing all-500 patch address mapping.",
+    "remaining": "Current firmware2.10 equivalence, continuous pedal transmission and direct analog global-volume scope remain unverified.",
+    "downloads": false,
+    "hardware_test": false
   }
 }
