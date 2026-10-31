@@ -132478,5 +132478,16 @@
     ],
     "scope": "Original FM3 release text;13.00 named additions and12.0 Synth/RingMod tracking;not sibling-derived or full current census.",
     "next": "Individual LCD processors first;global-volume endpoints/recall still unresolved. Independent BOSS GT-Pro cursor retained."
+  },
+  "fm3_gapless_prerequisites_20261031": {
+    "checked": "2026-10-31",
+    "model": "FM3 MKII Turbo",
+    "source": "https://manuals.plus/m/7de5caf1ac45bf1cdf36c9adfdb9d248e0cfeebd9524cbad9fbd8d3f94baf9eb.pdf",
+    "pages": [
+      13,
+      15
+    ],
+    "scope": "8.0 and9.01 original release text;see root prerequisite qualification.",
+    "next": "LCD-first audit continues;global pedal endpoints/recall unresolved;independent BOSS GT-Pro cursor unchanged."
   }
 }

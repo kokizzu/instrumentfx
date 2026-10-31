@@ -358,6 +358,17 @@ Checked **2026-10-31** in the [original FM3 release-history PDF](https://manuals
 
 Installed firmware andcomplete current choice/instance census remain unverified. No download ordevice operation.
 
+### FM3 — gapless-switching prerequisites
+
+Checked **2026-10-31** in the [original FM3 release-history PDF](https://manuals.plus/m/7de5caf1ac45bf1cdf36c9adfdb9d248e0cfeebd9524cbad9fbd8d3f94baf9eb.pdf),identity established above;PDFpp13,15.
+
+| Field | Revision-qualified behavior |
+|---|---|
+| Live / gapless preset switching | **8.0,April29,2024:** Global Settings→Config→Gapless Changes offers Off,Channel & Scene,All. For gapless presets,use **All**,set**Spillover=All**,and save presets under8.x ornewer. Such saves become incompatible with earlier firmware. |
+| Display / older-preset indicator | **9.01,October11,2024** adds inverted preset-number text on the large-font Home screen when a preset was created under older firmware. Re-save under the **currently running firmware** for Gapless Changes–All compatibility;current-version presets also generally load faster. This refines the8.x threshold. |
+
+These documented prerequisites supersede the profile’s older switching unknown,not its7.x tail-routing qualifications. They do not prove persistent loops,global pedal position recall,universal tail continuity ormeasured zero latency. Installed behavior untested;no download ordevice operation.
+
 
 ## FM9 MKII Turbo
 
