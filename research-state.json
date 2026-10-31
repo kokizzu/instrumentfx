@@ -130613,6 +130613,11 @@
       ],
       "finding": "Current product corroborates preset/Scenes/Tap-Tuner/Master Layout navigation and optional OMG9-style setup.",
       "limits": "No primary dimensions published in checked current page/store; exact MKII footprint and factory sequential pair remain unresolved. Community wiki leads not adopted as current physical proof."
+    },
+    "tone_master_electrical_20261031": {
+      "source": "https://www.fender.com/products/tone-master-pro",
+      "finding": "Added current input headroom and line output electrical ratings to canonical record; published voltage notation retained without peak/RMS assumption.",
+      "limits": "Full1.8 guide mirror not located; category census and expression endpoints still unresolved."
     }
   },
   "gt_pro_global_patch_level_20261031": {
