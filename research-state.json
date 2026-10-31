@@ -133810,5 +133810,23 @@
     ],
     "qualification": "Different controls,not globalEXP endpoints/recall/bypass coverage. Original/Turbo historical scope,currentMKII behavior untested.",
     "downloads": false
+  },
+  "m13_parameter_census_synth_20261101": {
+    "source": "https://line6.com/data/6/0a060b316ac34f0593fabe278/application/pdf/M13/M9/M5%20FX%20Parameters%20-%20English%20(%20Rev%20B%20).pdf",
+    "identity": "FX Parameters RevB ©2011 M5/M9/M13,53PDFpages",
+    "category_counts": {
+      "delay": 19,
+      "modulation": 22,
+      "distortion_group": 30,
+      "filter": 26,
+      "reverb": 12
+    },
+    "count_basis": "Delay15rows+4DryThru;dist17drive/octave+6comp+5EQ+gate+volume;filter16+8wah+2pitch;total109",
+    "source_conflict": "Filterreferencechart includes8wah;§4•11 prose calls them Distortion.",
+    "synth": "OctisynthVCO;SynthOMatic8waveforms;AttackSynthSquare/PWM/Ramp,twooctaves;no polyphony claim.",
+    "volume": "VolumePedal occupiesFXunit;Knob1minimum,no numeric endpoints. ExistingScene-stored scope preserved.",
+    "active": false,
+    "remaining": "No qualifiedexactShopeeM13processor;screen diagonal/touch,fullprofile/globaloverride andfactoryfill unresolved.",
+    "downloads": false
   }
 }

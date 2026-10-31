@@ -1395,6 +1395,26 @@ Checked2026-10-31 from [manufacturer v2.0 Advanced Guide](https://line6.com/data
 
 Shopee search still produced no qualified exact M13 processor offer;adapter prices andM9 units excluded. Partial lead remains outside active counts.
 
+### M13 — parameter-guide census, synth and volume-slot scope
+
+Checked **2026-11-01**:[manufacturer M5/M9/M13 FX Parameters,RevB,©2011](https://line6.com/data/6/0a060b316ac34f0593fabe278/application/pdf/M13/M9/M5%20FX%20Parameters%20-%20English%20(%20Rev%20B%20).pdf). Exact M13 coverage;historical document census,not installed-firmware verification.
+
+| Category | Count / basis |
+|---|---|
+| Delay | **19**:15 reference-table rows,expanding four paired DryThru variants (§1•1). |
+| Modulation | **22** (§2•1). |
+| Distortion group | **30**:17 drive/octave entries +6 compressors +5 EQs +1 gate +1 volume (§§3•1–9). |
+| Filter | **26**:16 base entries +8 wahs +2 pitch models (§4•1). |
+| Reverb | **12** (§5•1). |
+
+Total**109** agrees with the separate FAQ;not109 simultaneous effects. The chart groups wahs under Filter,although §4•11 calls them Distortion. Preserve that wording conflict.
+
+- **Synth:**Octisynth combines ring modulation,VCO andvibrato;Synth O Matic selects **eight waveforms**. Attack Synth offers Square/PWM/Ramp andtwo-octave pitch control (§§4•8–9). Polyphonic tracking remains unverified.
+- **Volume:**Volume Pedal occupies one FX unit;Knob1 sets its minimum (§3•7). Numeric attenuation limits are unspecified. Combine with the preserved Scene-stored assignment scope;this is not a documented global master override.
+
+Still partial,outside active counts;no qualified exact Shopee hardware offer. No download ordevice operation.
+
+
 ## Other Line 6 records awaiting consolidation
 
 HX Stomp and HX Stomp XL already have research in legacy pages and are not newly discovered models. HX Effects is now root-canonical above. Merge the complete remaining records and sources before retiring the old files. POD Express Black is a distinct sound library but **an exact Indonesian Shopee hardware listing was not established in this pass**; Thai marketplace results must not be labelled Indonesian evidence. Ampero One is already recorded; do not restart that stale cursor. Keep brand/category/instrument documents at repository root and do not create or run GitHub workflows.
