@@ -131552,5 +131552,19 @@
     ],
     "remaining": "USB return global EXP coverage, analog endpoints/startup and bypass remain unverified",
     "next": "Continue individual LCD models with unresolved fields and exact offers; independent BOSS GT-Pro general cursor retained."
+  },
+  "axom_manufacturer_capture_memory_20261031": {
+    "checked": "2026-10-31",
+    "record": "MELOFTY.md#axom-max--manufacturer-memory-and-capture-workflows",
+    "source": "https://shop.warwick.de/media/23/53/74/1790324346/4on4_MEL_AXOM_MAX_Manual_EN.pdf?ts=1790324346",
+    "revision": "V1.7.4,2026-08-31; printed pp28–30,50,55",
+    "preset_slots": 504,
+    "module_count": 19,
+    "published_model_total": "880+; not a category census or simultaneous capacity",
+    "quick_presets": "Audition preserves working preset; download-icon load replaces active preset and module parameters",
+    "mfim": "On-device capture of drive pedals, preamps, complete amp rigs and speaker cabinets; Cloud sharing. Full-amp example requires microphone.",
+    "limits": "Proprietary capture distinct from IR and NAM import; NAM export and architecture compatibility unverified",
+    "status": "Partial lead; no active inventory admission",
+    "next": "Continue LCD-first exact model gaps; AXOM mini-screen technology remains unconfirmed; independent BOSS GT-Pro cursor retained."
   }
 }

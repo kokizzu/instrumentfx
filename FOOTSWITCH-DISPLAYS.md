@@ -77,7 +77,7 @@ These match the separate-display layout, with OLED technology rather than LCD.
 
 | Brand / model | Display-layout status | Record / next check |
 |---|---|---|
-| MELOFTY **AXOM MAX** | **Footswitch/pedal mini screens documented**; exact count, placement and LCD/OLED technology unresolved | [Partial discovery record](MELOFTY.md#axom-max--partial-discovery-lead). Separate7-inch color touchscreen confirmed; not admitted to active model counts. |
+| MELOFTY **AXOM MAX** | **Footswitch/pedal mini screens documented**; exact count, placement and LCD/OLED technology unresolved | [Partial discovery record](MELOFTY.md#axom-max--partial-discovery-lead). Separate7-inch color touchscreen confirmed; [capture and memory workflows](MELOFTY.md#axom-max--manufacturer-memory-and-capture-workflows) now manufacturer-backed. Partial; outside active counts. |
 
 ## Foot controllers
 

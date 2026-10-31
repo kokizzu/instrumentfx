@@ -82,3 +82,15 @@ Checked2026-10-31,[ownV1.7.4 manual pp33–35](https://shop.warwick.de/media/23/
 Checked2026-10-31. [Developer Apple history](https://apps.apple.com/us/app/melofty/id6762972347) lists **1.9.0,September29**:Synth/Inst Subpatch model switching and dynamic-response changes;long-press module copy/paste;Delay note range1/64–1/1 plus High/Low Cut;Pitch CPU reduction;MFIM(AMP/ENTIRE) Sharpness. These are developer release claims,not measured performance or confirmation of the required hardware firmware.1.9.2 remains separately listed as fixes.
 
 [Importer exact-product text](https://shop.warwick.de/effektpedale-multieffekt-prozessorenmelofty-axom-max-hybrid-audio-processor) explicitly describes **nine footswitches with their own mini displays**. This strengthens the earlier retailer layout lead but does not resolve manufacturer-confirmed count,LCD/OLED technology,diagonal or color. A separate retailer’s OLED claim is not adopted as manufacturer evidence. Browser surfaces were unavailable and original manual retrieval failed;no new visual count. Partial status and existing source qualifications remain.
+
+### AXOM MAX — manufacturer memory and capture workflows
+
+Checked **2026-10-31** against the [manufacturer V1.7.4 manual](https://shop.warwick.de/media/23/53/74/1790324346/4on4_MEL_AXOM_MAX_Manual_EN.pdf?ts=1790324346), printed pp28–30,50,55. Retrieved through the importer’s exact-model manual link; no local download or device operation.
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| Memory / capacity and model count | Specification table gives **504 preset tone slots,19 modules,880+ total effect models**. These are published totals, not a complete category census or880 simultaneous effects. Factory-filled versus empty allocation remains unverified. |
+| Memory / DeepSynth quick presets | Browsing auditions a quick preset without changing the working preset. Loading it with the download icon **replaces the active user preset and its module parameters**; subsequent edits can be saved separately. Quick presets are not proven additional user locations. |
+| Captures / on-device MFIM | Manual documents capturing overdrive pedals, amp preamps, complete amp rigs and speaker cabinets as digital models, with MELOFTY Cloud sharing. The full-amp example requires a microphone. This establishes a proprietary on-device capture workflow, distinct from cabinet IR import and `.nam` loading; it does not certify NAM export or every NAM architecture. |
+
+The lead remains outside active counts. Mini-screen technology/count confirmation, category inventory, factory allocation and qualified Indonesian hardware evidence remain open.
