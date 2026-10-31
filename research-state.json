@@ -130728,5 +130728,17 @@
     ],
     "finding": "Current support table maps FM9 firmware11.0+ to DynaCabs1.09; firmware12.0 listed by downloads. Cabinet data version separate from firmware/user IR capacity.",
     "limits": "Owner manual remains August2022 3.x; no new MKII physical corroboration. Community11.0 mini-LCD contrast lead lacks inspected primary release text; not adopted. No downloads or updates."
+  },
+  "tone_master_host_exp_20261031": {
+    "source": "https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual",
+    "identity": "Manufacturer owner manual firmware1.5;504presets/USB-C/ten-switch model match;original body inspected,not generated FAQ",
+    "printed_pages": [
+      34,
+      38,
+      45
+    ],
+    "finding": "TRS tip signal/ring power,linear taper;selectable polarity;TS toe input selectable latching/momentary.",
+    "conflict": "10k–500kΩ rear-panel prose versus1k–500kΩ specifications;do not collapse lower limits or infer every pedal compatible.",
+    "limits": "Current1.8 behavior and global analog volume still unverified;no download or hardware test."
   }
 }
