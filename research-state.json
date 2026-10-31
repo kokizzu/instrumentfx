@@ -137168,5 +137168,13 @@
     "identity": "X3-specific1.3.11 note dated2022-05-26;distinct from PX5-only shared-history entry",
     "limits": "No full current bypass menu,Board-change spillover,global expression coverage ordevice test. Exact Shopee searches reproduced existing offer;no new stock claim.",
     "next": "Continue confirmed individual-LCD unresolved fields using new evidence;general cursor retained."
+  },
+  "fm3_original_user_cab_capacity_20261101": {
+    "status": "active summary corrected;firmware-qualified",
+    "source": "https://manuals.plus/m/7de5caf1ac45bf1cdf36c9adfdb9d248e0cfeebd9524cbad9fbd8d3f94baf9eb.pdf",
+    "manufacturer_scope": "https://www.fractalaudio.com/fm3-downloads/",
+    "destination": "FRACTAL-AUDIO.md#fm3-original--firmware-qualified-user-cab-capacity",
+    "revision": "12.0;2026-01-19;PDFp3",
+    "qualification": "Generic FM3 change;Original/MKII current firmware support explicit. Older capacities retained. Installed firmware andcontents untested."
   }
 }
