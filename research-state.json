@@ -138236,5 +138236,14 @@
     ],
     "qualification": "Summary correction using existing qualified findings. Japanese connector wording re-read; no new visual inspection, hardware test, inventory admission or global-volume conclusion.",
     "active_counts_changed": false
+  },
+  "g5_rhythm_setting_persistence_20261101": {
+    "checked": "2026-11-01",
+    "source": "https://www.zoom.co.jp/node/708",
+    "identity": "Original exact G5 manufacturer FAQ",
+    "finding": "Rhythm pattern, tempo and level are automatically saved across power-off. This is settings persistence, not loop-audio storage; existing manual power-off loop erasure remains.",
+    "access": "Original indexed FAQ text read; direct-access limitation retained.",
+    "remaining": "Per-patch rhythm allocation, startup playback, external/global expression scope and output coverage not established.",
+    "active_counts_changed": false
   }
 }
