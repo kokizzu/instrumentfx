@@ -130660,5 +130660,14 @@
     "printed_page": 106,
     "finding": "External Control1–16 Initial Value is MIDI-CC-only and excludes local/FC pedals or switches.",
     "limits": "Does not resolve direct-analog startup recall or global volume endpoints; firmware13 not tested."
+  },
+  "g3_usb_power_gain_20261031": {
+    "source": "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf",
+    "printed_pages": [
+      25,
+      36
+    ],
+    "finding": "Recording gain ±6dB controls DAW send; USB bus operation works with POWER switch OFF.",
+    "limits": "Neither control is a global analog expression target. Exact USB/control connector formats and full physical control counts remain unresolved; original product/mirror access failed."
   }
 }
