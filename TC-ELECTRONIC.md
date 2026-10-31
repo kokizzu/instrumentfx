@@ -472,6 +472,17 @@ Checked2026-10-18.
 | Memory / Board management | In EDIT, BOARD UP opens **CREATE/DUPLICATE**; BOARD DOWN presents **DELETE/CLEAR** for the current Board. This confirms management functions, without assigning an undocumented difference between Delete and Clear or adding memory capacity. |
 | I/O / mono connection | For mono operation use only each pair’s **MONO input and MONO output**; both TS jacks provide stereo connections when used together. This does not establish a dedicated headphone output or balanced TRS operation. |
 
+
+### PLETHORA X3 — restored primary documents and current listing, 2026-10-31
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / current desktop listing | [Current exact-model page](https://www.tcelectronic.com/en/products/0709-AIS) lists **TonePrint4.7.2 for Windows/macOS**. Listed availability does not establish OS minima or tested compatibility. Its firmware list heads **1.4.3**,with1.3.11 previous;preserve the separate manufacturer1.5.6 release notes above. Omission does not prove withdrawal,unsupported hardware or a downgrade recommendation. |
+| Display / original primary source restored | The page now links [manufacturer-hosted X3 guide](https://cdn-media.empowertribe.com/a7147f29903640918cc9bc9fc6e097dc/QSG_TE_0709-AIS_PLETHORA-X3_WW.pdf),**V0.0,©2022,35PDFpages**;printed18–19 independently confirms the existing LCD slot/PLAY/EDIT description. This is the same original revision,not proof of a newer V1.0 guide. Old mirror and failed endpoints retained. |
+| Expression / exact MIDI range | [Newly linked official X5/X3 table](https://cdn-media.empowertribe.com/c4ab468ba07f481080559bfc432c679c/PX5_3_MIDI_CC_table.pdf) prints **CC100:0–125→0–100%**,unlike adjacent0–127 mappings. Preserve this unusual range;126/127 behavior unverified. CC94/95 trigger Board down/up at64–127,0–63 inactive. MIDI expression still does not establish direct analog EXP or global master-volume assignment. |
+
+No local files downloaded,software installed or hardware tested.
+
 <!-- comparison evidence ends -->
 
 Checked2026-10-17; historical indexed asks, not current stock/checkout. Condition,variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers unresolved. No download or visual inspection claimed.
