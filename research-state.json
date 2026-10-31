@@ -133101,5 +133101,14 @@
     "revision": "3.80 RevD pp14–15",
     "finding": "Favoritesandmodeldefaults excludecontrollerassignments;changes donotpropagateexistingpresets. Favoritesautoassignmentuponinsertionisnotglobalvolume. .favisassetformatnotcapture.",
     "next": "ContinueLCDfirst; globalvolume endpoints/coverage andqualifiedIDR remainopen;independentGT-Pro cursor preserved."
+  },
+  "fm9_metronome_tempo_20261101": {
+    "model": "FM9 MKII Turbo",
+    "checked": "2026-11-01",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "revision": "August2022 firmware3.x Original/Turbo pp69,85–86",
+    "finding": "Metronomelevels persistacrosspresets/resetOFFpoweron;tempo20–250wholeBPM;PRESET/GLOBAL precedence;clockreceiveDIN/USB,noMIDIclocktransmission.",
+    "qualification": "HistoricalFM9source,currentMKII/firmware12equivalenceunknown",
+    "next": "ContinueLCD-first unresolvedmodels;preserve independentGT-Pro cursor."
   }
 }

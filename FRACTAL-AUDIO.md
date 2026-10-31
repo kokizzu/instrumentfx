@@ -673,6 +673,19 @@ Checked2026-10-31,[manufacturer mini manual](https://www.fractalaudio.com/downlo
 
 No layout package,installer orfirmware downloaded;no device settings changed.
 
+### FM9 — historical metronome and tempo scope
+
+Checked **2026-11-01**,[own FM9 manual](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf),August2022 firmware3.x,printedpp69,85–86. Exact Original/Turbo scope;current MKII/firmware12 equivalence remains unverified.
+
+| Field | Documented practice/control boundary |
+|---|---|
+| Practice / metronome | Tempo-page metronome has selectable output levels. Levels **persist across presets butreset OFF at power-on**. This establishes a historical click source,not a drum-pattern library ornonvolatile loop storage. |
+| Live / tempo precedence | **20–250BPM,whole-number values**. Each preset’s **Tempo To Use** selects GLOBAL orPRESET;loading a preset-specific tempo does not erase the background global tempo. Manual tempo changes update global tempo too. Controllers-block channels can store different choices. This is tempo scope,not volume assignment. |
+| MIDI / clock direction | Manual explicitly allows clock reception over **DIN orUSB** andsays FM9 **does not transmit MIDI Clock**. This is historical clock-direction evidence,not proof of arbitrary MIDI-message routing orcurrent firmware behavior. |
+
+Preset/factory occupancy,global pedal endpoints/recall andcurrent revision compatibility remain open. No download ordevice operation.
+
+
 ## VP4
 
 Admitted 2026-10-28 as a **partial model**, not fully verified. Own manufacturer product/manual establish effects-only guitar/bass multi-effects. All earlier lead-stage bodies and anchors remain below; their outside-inventory status is historical and superseded only by this admission. No ownership or live-market availability inferred.
