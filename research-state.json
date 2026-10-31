@@ -129611,6 +129611,15 @@
       "identity": "Original Pedalboard2.7,August2024,pp1–3",
       "finding": "Historical OLED protection/Looper strip fixes separated from scene LED color; dated updater OS minimum retained.",
       "remaining": "Exact current firmware,editor/driver compatibility and installed unit behavior unverified."
+    },
+    "axom_document_followup": {
+      "checked": "2026-10-31",
+      "filing": "https://fccid.io/2BYCHSFT40",
+      "exhibit": "https://fccid.io/2BYCH-SFT40/User-Manual/User-manual-9716561",
+      "attachment": "https://apps.fcc.gov/eas/GetApplicationAttachment.html?id=9716561",
+      "identity_lead": "SFT40 CN/EN Quick Guide V03,2026-06-18,3pages331.93KB; original body inaccessible",
+      "display_lead": "Thomann indexed nine individual displays; retailer only,direct cache miss; manufacturer LCD/OLED/count unresolved",
+      "next": "Retrieve identified original quick guide/panel evidence; remain outside active counts."
     }
   }
 }
