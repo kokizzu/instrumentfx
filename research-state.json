@@ -130798,6 +130798,11 @@
       "root": "FRACTAL-AUDIO.md#fm3-original--partial-historical-lcd-discovery",
       "status": "ConfirmedindividualLCDlayout;partialhistoricalprofile,notactive",
       "next": "Complete original-revision profile andheadphone variants,controls,power/dimensions,memory,categories/global analog volume before active admission. KeepMKII physical specs separate."
+    },
+    "fm9_original": {
+      "root": "FRACTAL-AUDIO.md#fm9-original--partial-lcd-discovery",
+      "status": "ConfirmedindividualLCDlayout;partialinactiveprofile",
+      "next": "Complete originalFM9 processing/memory/expression/I/O/IR/editor/looper profile andexactrevision market evidence before admission. Then review FM9Turbo separately;do notborrow MKII strip specifications."
     }
   },
   "gt_pro_global_patch_level_20261031": {
@@ -134239,5 +134244,29 @@
       "remaining": "All records retain gaps;no full verification or migration-completion claim."
     },
     "next": "Continue LCD-first exact-model discovery and remaining confirmed-LCD gaps;review originalFM9/Turbo variant coverage next. Independent BOSS GT-Pro cursor remains unchanged."
+  },
+  "fm9_original_lcd_discovery_20261101": {
+    "checked": "2026-11-01",
+    "active": false,
+    "fully_verified": false,
+    "root": "FRACTAL-AUDIO.md#fm9-original--partial-lcd-discovery",
+    "sources": [
+      "https://www.fractalaudio.com/downloads/manuals/FM9/Fractal-Audio-FM9-Press-Release.pdf",
+      "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+      "https://www.fractalaudio.com/fm9-downloads/"
+    ],
+    "identity": "2021Originalpressrelease;2022manualexplicitOriginal+Turbo,notMKII",
+    "layout": "NineindividualminiLCDs,oneperfoot;separatecolormain",
+    "offer": {
+      "shop_id": "1354606623",
+      "item_id": "43322190869",
+      "ask_idr": 36000000,
+      "revision": "Unknown;FM9MKI title andconflictingFM3MKIITurbo slug",
+      "condition": "Unknown",
+      "live_stock": "Unknown;indexed evidence does notverify current stock",
+      "range_eligible": false
+    },
+    "next": "Complete originalFM9 processing/memory/expression/I/O/IR/editor/looper profile andexactrevision market evidence before admission. Then review FM9Turbo separately;do notborrow MKII strip specifications.",
+    "downloads": false
   }
 }

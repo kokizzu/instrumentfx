@@ -10,6 +10,7 @@
 - [FM3 MKII Turbo](#fm3-mkii-turbo)
 - [FM3 original](#fm3-original)
 - [FM9 MKII Turbo](#fm9-mkii-turbo)
+- [FM9 original — partial LCD discovery](#fm9-original--partial-lcd-discovery)
 - [VP4](#vp4)
 <!-- brand-index ends -->
 
@@ -865,6 +866,23 @@ Checked **2026-11-01**;original manufacturer text only,no device test orlocal do
 | I/O / global EQ coverage | [Own FM9 manual,August2022 firmware3.x,printedp93](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf):global output EQ/level applies to analog balanced,unbalanced andheadphone outputs,**excluding USB/digital outputs**. This defines that separate process,not global expression-volume coverage. Original/Turbo scope;current MKII equivalence remains untested. |
 
 Global EXP numeric endpoints,held-position recall andbypass/direct-USB coverage remain unresolved. Earlier headphone/loop routing inferences retain their stated scope.
+
+## FM9 original — partial LCD discovery
+
+Checked **2026-11-01**; **partial discovery outside active model counts**. Separate original FM9,FM9 Turbo andMKII Turbo;shared firmware does not establish identical hardware.
+
+The [manufacturer press release,August27,2021](https://www.fractalaudio.com/downloads/manuals/FM9/Fractal-Audio-FM9-Press-Release.pdf) explicitly gives **nine footswitches,each with a mini LCD andvariable-color LED ring**,plus a color main screen. LCD color,touch,mini diagonal/resolution remain unknown;LED color is separate. It documents instrument input,stereo auxiliary I/O,8×8 USB audio,three pedal/switch jacks andFM9-EDIT. Launch availability is historical,not current stock.
+
+| Field | Exact-revision evidence / qualification |
+|---|---|
+| Manual scope | [Manufacturer3.x manual,August2022](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf) expressly covers **Original andTurbo**;MKII is not named. |
+| Controls / display | Printedp128: **9 knobs,12 buttons**,six knobs withpush functions included. Nine footswitches independently documented above. Main **800×480 color LCD**;main diagonal/touch unknown. No visual census;do not transfer MKII knob-press accounting. |
+| Dimensions / mass / power | Printedp128: **51.3W×23.7D×8.9H cm =513W×237D×89H mm;5.44kg**. Also prints20.2W×9.3D×3.5Hinches;retain rounded source units. **90–264VAC,47–63Hz,<40W**;CR2032 is backup,not operating-battery evidence. USB power unknown;DC polarity notapplicable toAC specification. |
+| Pedal / live display | Printedpp9–10,128: three TRS pedal/switch inputs;linear10–100kΩ pedals. Mini labels show Tap,thenHold while depressed. Default banks step five presets;bank stepping is notindividual preset down/up. Global assignment,endpoints,recall andoutput coverage await exact-model profiling. |
+
+**IDR hardware lead,revision unresolved:** [shop1354606623/item43322190869](https://shopee.co.id/Fractal-Audio-Systems-FM9-MKI-i.1354606623.43322190869),Bersih Jaya Cleaning,KotaSurabaya,**Rp36.000.000**,four-month indexed snapshot withservice unavailable. The same item’s [older conflicting FM3-MKII-Turbo slug](https://shopee.co.id/Fractal-Audio-Systems-FM3-MKII-Turbo-i.1354606623.43322190869) has a two-month snapshot titledFM9MKI,August6–8 delivery text andthe same ask. Title/slug conflict remains;notproof ofOriginal versusTurbo hardware,working condition,new/used status orlive stock. Accessories,warranty,adapter andcheckout total unknown;excluded from exact-revision new/used ranges. Voucher compensation notdeducted.
+
+[Current manufacturer download listing](https://www.fractalaudio.com/fm9-downloads/) explicitly supports Original andTurbo withfirmware12.0,July7,2026. This establishes listed support,not installed firmware orcompatibility ofevery historical behavior. Full processing/category census,memory,synth/acoustic,I/O,IR/NAM/capture,editor requirements andlooper scope remain incomplete. No local download,device operation,purchase orvisual inspection.
 
 ## VP4
 
