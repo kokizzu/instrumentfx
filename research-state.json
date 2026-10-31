@@ -129407,7 +129407,14 @@
       "checked": "2026-10-31",
       "source": "https://line6.com/helix/helix-guitar-processor.html",
       "status": "Individual strips confirmed; exact count unresolved",
-      "conflict": "Product13 footswitch strips versus cheat sheetFS1–12 plus expression toe; no inferred resolution."
+      "conflict": "Product13 footswitch strips versus cheat sheetFS1–12 plus expression toe; no inferred resolution.",
+      "manual_reconciliation": {
+        "checked": "2026-10-31",
+        "source": "https://line6.com/data/6/0a00051afda2673ccc1cc8e68/application/pdf/Helix%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+        "revision": "3.80,RevG,indexedp8",
+        "finding": "Manual13total plus explicit EXPpedalstrip; cheatFS1–12 supports12+1 accounting.",
+        "qualification": "Text-based reconciliation; no visual count; manufacturer wording conflict retained. Direct reader size limit."
+      }
     },
     "stadium_xl": {
       "checked": "2026-10-31",

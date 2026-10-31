@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(line6): verify M13 AC supply and service control counts'))
+    print(git('commit','-m','research(line6): account for Helix expression pedal display'))
