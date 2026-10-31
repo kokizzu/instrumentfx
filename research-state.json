@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Zoom G11: remaining exact-model LCD/control, expression coverage and qualified Indonesia hardware evidence. G3X automatic targets/chain window saved; keep independent BOSS GT-Pro cursor.",
+      "next_check": "Zoom B3n: remaining exact-model LCD/control, volume-coverage and qualified Indonesia hardware evidence; preserve independent BOSS GT-Pro cursor. G11 large-effect LCD behavior saved; no full physical verification claimed.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133313,6 +133313,11 @@
       "file": "ZOOM.md",
       "model": "G3X",
       "heading": "### G3X — automatic pedal targets and three-screen chain view"
+    },
+    {
+      "file": "ZOOM.md",
+      "model": "G11",
+      "heading": "### G11 — large-effect LCD layout and special switch functions"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -133519,6 +133524,16 @@
     "pages": "3,18–19",
     "finding": "Exact automatic targets and chain-window behavior recorded in root brand and display collection.",
     "remaining": "Visual control census, numeric assignment endpoints and global/external volume coverage remain unresolved.",
+    "downloads": false,
+    "hardware_test": false
+  },
+  "g11_large_effect_lcd_switches_20261101": {
+    "model": "G11",
+    "checked": "2026-11-01",
+    "source": "https://zoomcorp.com/documents/461/E_G11v2.pdf",
+    "pages": "23,28–29",
+    "finding": "Large-effect layout, special switch indication and default save behavior recorded in the root profile.",
+    "remaining": "Full visual control census, auxiliary LCD properties, expression coverage and qualified live offers remain open.",
     "downloads": false,
     "hardware_test": false
   }

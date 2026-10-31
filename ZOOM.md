@@ -4543,6 +4543,19 @@ Checked **2026-11-01**, [own V2 manual,printed pp77–79](https://zoomcorp.com/d
 
 Positions are saved per patch;send/return counts toward effect capacity. Nine choices do not mean nine hardware loops oradditional free effects. These routing settings do not establish external-expression attenuation,bypass/tail coverage orunrestricted parallel routing. No device operation orlocal download.
 
+
+### G11 — large-effect LCD layout and special switch functions
+
+Checked **2026-11-01** in the [manufacturer V2 manual, printed pp23,28–29](https://zoomcorp.com/documents/461/E_G11v2.pdf),©2021,Z2I-3886-02. Original text only; no visual panel inspection.
+
+| Field | Practical control distinction |
+|---|---|
+| Display / large-effect layout | Some effects spread their parameters across **two parts of the Effects Section**. Five physical effect LCDs therefore do not guarantee five independent effects visible simultaneously. This does not establish double DSP cost or two algorithms. |
+| Display / special switch indication | Some large effects assign a special function to a section switch; its parameter appears **light on dark** on the effect display. Do not assume every visible section switch only toggles the whole effect. Missing switch icons prevent an exact left/right mapping here. |
+| Memory / default save behavior | Manual p29 explicitly says **AUTOSAVE is ON by default**. With it OFF, edits require saving; an unsaved-change icon opens the save screen. This does not override the separately documented unsaved toe-switch state. |
+
+Display inversion does not prove color depth or touch support. No download or hardware operation.
+
 <!-- comparison evidence ends -->
 
 ### G11 — complete original finding and unresolved control-count conflict
