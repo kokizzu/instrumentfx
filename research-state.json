@@ -134931,5 +134931,19 @@
       "condition-specific offers"
     ],
     "next": "Other individual-LCD model gaps; independent general cursor preserved"
+  },
+  "px3_midi_control_values_20261101": {
+    "source": "https://cdn-media.empowertribe.com/c4ab468ba07f481080559bfc432c679c/PX5_3_MIDI_CC_table.pdf",
+    "retrieval": "current exact X3 regional product link; one-page manufacturer table",
+    "finding": "Slots1-3 parameter triplets67-69/72-74/77-79 map0-127to0-100%;MASH70/75/80 has0Off and1-127to0-100%;expression modifiers71/76/81 use0-127",
+    "boundary": "MIDI normalized mappings; not pressure calibration,analogEXP orglobal mastervolume. X5-onlyslots excluded; CC1000-125 preserved.",
+    "remaining": [
+      "LCD diagonal/color/touch",
+      "looper duration",
+      "global MIDI volume role andoutput coverage",
+      "battery/USB power",
+      "qualified condition-specific current offers"
+    ],
+    "next": "Remaining individual-LCD processor gaps; preserve independent general cursor"
   }
 }

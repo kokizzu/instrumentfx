@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff', '--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(tc): clarify X1 bypass roles and LCD evidence limits'))
+    print(git('commit','-m','research(tc): specify X3 MIDI parameter and MASH value ranges'))
