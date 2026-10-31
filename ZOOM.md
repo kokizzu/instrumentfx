@@ -4390,6 +4390,17 @@ Checked **2026-10-31**,[manufacturer V2 manual,printedp104](https://zoomcorp.com
 
 These electrical ratings do not establish global expression assignment,bypass/tail/looper attenuation orheadphone coverage. No hardware test.
 
+
+### G11 — V2 MIDI direction and controller limits
+
+Checked **2026-10-31**,original [manufacturer V2 manual](https://zoomcorp.com/documents/461/E_G11v2.pdf),©2021,Z2I-3886-02,printedpp80–85,105. Text only;no hardware orMIDI test.
+
+| Field | Revision-qualified behavior / boundary |
+|---|---|
+| MIDI / patch-triggered transmission (V2) | Each patch can select OFF,PC orCC output. PC settings include bankMSB/LSB andprogram;CC settings include number/value. Manualp82 warns that **MIDI PROGRAM CHANGE SEND OFF suppresses MIDI output**,despite the setting name. This is patch-selection output,not a documented continuous pedal-CC stream. |
+| MIDI / receive limits (V2) | Implementation chartp105 marks **CC0–127 transmitted butnot recognized**;program changes are recognized. Do not treat MIDIIN as a documented CC-volume orremote-effect-toggle input. This is the V2 chart’s boundary,not a tested claim about every later firmware. |
+| MIDI / forwarding andtempo (V2) | MIDI IN-THRU optionally forwards DIN input tooutput;forwarding is not local CC recognition. Clock receive/send are separately switchable. BANK/DIRECT governs program-change reception;DIRECT is for controllers unable tosend bank messages. Exact500-patch addressing remains unverified. |
+
 <!-- comparison evidence ends -->
 
 ### G11 — complete original finding and unresolved control-count conflict
