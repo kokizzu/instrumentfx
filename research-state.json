@@ -129756,6 +129756,41 @@
             "AM1x15",
             "SN2x15",
             "MT1x15"
+          ],
+          "Modulation": [
+            "Tremolo",
+            "Chorus",
+            "StereoCho",
+            "Phaser",
+            "VinFLNGR",
+            "TheVibe",
+            "Vibrato",
+            "SwellVibe",
+            "Octave",
+            "RingMod",
+            "Detune",
+            "PitchSHFT",
+            "PolyShift",
+            "MonoPitch",
+            "HPS",
+            "Kick FLNG",
+            "Slicer",
+            "CloneCho",
+            "SuperCho",
+            "StonePha",
+            "CoronaTri",
+            "BendCho",
+            "AnalogCho",
+            "WarpPhase",
+            "Duo Phase",
+            "GEMINOS",
+            "BassStCho",
+            "BaVinFLNG",
+            "Ba Octave",
+            "Ba Detune",
+            "BaMnPitch",
+            "BassPhase",
+            "Ba AnaOct"
           ]
         },
         "counts": {
@@ -129769,10 +129804,11 @@
           "Dynamics": 15,
           "Drive": 45,
           "Amp": 34,
-          "Cabinet": 35
+          "Cabinet": 35,
+          "Modulation": 33
         },
         "finding": "PDLVolMinMax0–100curvesAB;OutputVPrecallnotuniversalassignment;monopitchsingle-note.",
-        "remaining": "Modulation still needs complete V2 count;postV2currentinventory and allotherprofilegaps remainopen.",
+        "remaining": "PostV2library/currentinstalledreconciliation,fullmodelverification,displayphysicalproperties,prices and otherprofilegaps remainopen.",
         "drive_pages": {
           "first_printed_page": 8,
           "subtotals": [
@@ -129831,7 +129867,19 @@
             "AM1x15",
             "SN2x15"
           ]
-        }
+        },
+        "modulation_pages": {
+          "first_printed_page": 27,
+          "subtotals": [
+            8,
+            7,
+            7,
+            8,
+            3
+          ]
+        },
+        "v2_category_count_complete": true,
+        "total_named_category_entries": 261
       }
     },
     "zoom_g3": {
@@ -130304,8 +130352,7 @@
       "checked": "2026-10-31",
       "instruction": "Prioritize one with LCD on footswitch first",
       "next_models": [
-        "TC Electronic PLETHORA X3",
-        "Zoom G11 remaining V2 categories"
+        "TC Electronic PLETHORA X3"
       ],
       "task": "Continue unresolved exact-model documentation and qualified hardware offers for individual LCD processors before OLED models. Retain the independent BOSS GT-Pro cursor.",
       "qualification": "Queue order is a research priority, not a recommendation or declaration of full verification.",
