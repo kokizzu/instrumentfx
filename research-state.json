@@ -133037,5 +133037,20 @@
       "global EXP endpoints"
     ],
     "next": "Continue individualLCD exact-model gaps; independent BOSS GT-Pro cursor preserved."
+  },
+  "axom_max_looper_controls_20261101": {
+    "model": "MELOFTY AXOM MAX",
+    "checked": "2026-11-01",
+    "source": "https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347",
+    "revision": "V1.7.4,63pages,PDFpp34–35 and5",
+    "finding": "FS6 record/play/overdub;FS7stop/holdclear;FS2undo/redo whenstopped withmultiplelayers;AutoRecord threshold armed byFS6. Displaytext still only mini display.",
+    "unknown": [
+      "LCD/OLED",
+      "manufacturer-confirmed mini-screen count",
+      "threshold range",
+      "loop duration/retention",
+      "installed firmware"
+    ],
+    "next": "ContinueLCD-first exactmodel documentation andqualifiedShopee discovery; independentBOSS GT-Pro cursor unchanged."
   }
 }

@@ -16,7 +16,7 @@ assert changed <= allowed, changed - allowed
 assert not git("diff", "--check").strip()
 git("add", "--", *sorted(changed))
 print(git("diff", "--cached", "--stat"))
-message = "research(melofty): qualify recovered quick-guide navigation" if sys.argv[1:] == ["collection"] else "research(melofty): qualify CPU limits scene linkage and headphone conflict"
+message = "research(melofty): qualify recovered quick-guide navigation" if sys.argv[1:] == ["collection"] else "research(melofty): document revision-qualified AXOM looper controls"
 if sys.argv[1:] == ["morningstar"]:
     message = "research(morningstar): distinguish MC8 PRO screens and switches"
 if "RJM-MUSIC.md" in changed:

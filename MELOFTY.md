@@ -114,3 +114,15 @@ Checked **2026-10-31** through the importer’s current links;original documents
 | I/O / headphones conflict | Englishp57 specifies **¼-inch stereo**,matching its panel inventory. [German guide,p62](https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347) instead prints **3.5mm stereo**. Both list6Ω output impedance,not a required headphone load. Physical jack size awaits corroboration;preserve the contradiction. |
 
 Mini-screen count/technology,complete category census andqualified Indonesian offers remain unresolved. Still partial,outside active counts;no local download ordevice operation.
+
+### AXOM MAX — revision-qualified looper controls
+
+Checked **2026-11-01** in the [German V1.7.4 manual,PDFpp34–35](https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347),63pages,exact AXOM MAX title andmatching named controls. English endpoint unavailable this check;no translation-based reconciliation ofexisting conflicts.
+
+| Field | Documented operation / boundary |
+|---|---|
+| Looper / record andstop | FS6 cycles **Record→Play→Overdub**;FS7 short-press stops,long-press erases. With multiple recorded layers andplayback stopped,FS2 invokes **Undo/Redo**. Current firmware behavior untested. |
+| Looper / automatic start | Enable **Auto Record**,choose a threshold andpressFS6 toarm;recording starts when input reaches that threshold. With Auto Record off,FS6 starts immediately. Numeric threshold range is not established here. |
+| Display / evidence boundary | GermanPDFp5 calls the footswitch/pedal readouts **mini displays**;no LCD/OLED classification established. It separately describes the LED light strip. Manufacturer-confirmed screen count andtechnology remain open. |
+
+These actions supplement the preserved contextual FS8/9 navigation. They do not establish preset-change loop continuity,persistent storage orrecording duration. No download,device operation orvisual count;partial status andactive inventory unchanged.
