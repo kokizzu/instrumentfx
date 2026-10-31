@@ -137214,5 +137214,12 @@
     "destination": "FRACTAL-AUDIO.md#fm9-original--preset-bank-backups-and-source-range-error",
     "qualification": "Printed BankC range inconsistent;arithmetic expectation clearly distinguished. Factory-filled count andbackup contents remain unverified.",
     "market_recheck": "FM9/Helix/Fender/B3n/Plethora exact searches reproduced saved offers;no newcondition-qualified stock orprice asserted."
+  },
+  "fm9_original_preset_navigation_20261101": {
+    "status": "configurable capability documented;partial",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Footswitch-Functions-Guide.pdf",
+    "revision": "v1.3;April2022;pp2,5–6",
+    "destination": "FRACTAL-AUDIO.md#fm9-original--configurable-onboard-preset-down-and-up",
+    "qualification": "Explicit FM9 onboard scope supersedes stale unknown;factory defaults,current firmware andexpression coverage remain unverified."
   }
 }
