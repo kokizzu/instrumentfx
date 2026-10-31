@@ -414,7 +414,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI selle
 | I/O | Instrument¼-inch input;two balanced stereo¼-inch input pairs;three stereo outputs:Out1 XLR+Humbuster¼-inch,Out2 XLR,Out3 Humbuster¼-inch;phones;three pedal jacks;FASLINKII;S/PDIFin/out48kHz. Manual addsUSB-B,MIDIDINin/out-thru,mains. Humbuster is not ordinary balanced output. [Product][f9-p];[Manual][f9-m] pp.21–22,128. |
 | USB functions | **8×8audio plusUSB MIDI**,record/play/reamp;computer playback1/2→main outs,3/4→Out2,5/6→Input1 block,7/8→USB grid block. Direct output playback and grid processing are different routes;see [routing qualification](FRACTAL-AUDIO.md#fm9--usb-playback-and-record-routing). Distinct from FM3 proprietaryCOMM-only MIDI limitation. USB audio does not prove USB power. [Product][f9-p];[Store][f9-s]. |
 | Power / battery / USB operation | Historical manual:**90–264VAC,47–63Hz,<40W**;CR2032backs memory,not operating battery. Current MKII consumption confirmation unresolved. DCpolarity/current not applicable to mains inlet;USB/battery operation unverified. [Manual][f9-m] p.128. |
-| Editor platforms / drivers | **FM9-Edit Mac/Windows**,full editor/librarian. Current1.03.22,2026-08-25;macOS10.13+Intel/M1,Windows10+64bit;Windows7unsupported. Mobile/Linux editor unresolved. [Editor][f9-e]. |
+| Editor platforms / drivers | **FM9-Edit Mac/Windows**,full editor/librarian. Current1.03.22,2026-08-25;macOS10.13+Intel/M1. Windows page requires10+ and says **64-bit only**,but also links **32-bit Version1.03.22**;supported32-bit scope unresolved. Windows7may work but is officially unsupported. Driver ARM support does not certify a native ARM editor. Mobile/Linux editor unresolved. [Editor][f9-e],rechecked2026-10-31;no installer fetched. |
 | Firmware / software revision | Downloads list**12.0,2026-07-07**,original/Turbo compatible;requires latest editor. WindowsUSBdriver6.16,2026-06-10,Windows10+x86/x64/ARM;older7/8need5.12. Factory presets9.02,2025-06-04,target9.x+. USBfirmware1.04separate hardware-revision update. Installed firmware unknown;manual remains3.x. [Downloads][f9-d]. |
 | Firmware / DynaCab data compatibility | Current support table specifies **FM9 firmware11.0+ → DynaCabs1.09**;the downloads page currently lists firmware12.0. Missing/incorrect DynaCab data can produce a startup error. This is cabinet-data compatibility,not a firmware version,additional user-IR capacity or amp-capture format. Support uses FM9-Edit’s embedded Fractal-Bot for transfer;the latest editor and Refresh After New Firmware are advised if hardware is updated but editor cabinets remain absent. No file downloaded,update performed or device tested. [Manufacturer support](https://support.fractalaudio.com/en-US/how-to-resolve-dyna-cabs-not-installed-or-incorrect-version-286538);[downloads][f9-d],checked2026-10-31. |
 | Controls / current factory navigation | Current **MKII-headed product page**,checked2026-10-31,describes an out-of-box preset-selection layout,one-switch access to Scenes,Tap/Tuner,and Master Layout Menu access to effects/looper layouts;OMG9-style setup is an option. This corroborates current navigation capabilities,not a dedicated factory preset−/+ pair or unchanged2022 switch mapping. Current page/store text publish no dimensions;historical figures remain qualified. [Current product][f9-p];[Store][f9-s]. |
@@ -644,6 +644,18 @@ Checked **2026-10-31**, [manufacturer-authored original release history](https:/
 
 These are release-specific increments,not a full current census orproof of installed content. No download,update ordevice test.
 
+
+### FM9 — setlist memory and LCD navigation
+
+Checked2026-10-31,[manufacturer mini manual](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Setlists-Songs-Mini-Manual.pdf),v1.04,2023-10-30,PDFpp1–4. It explicitly requires FM9 firmware3.0+;predates MKII,current firmware12 behavior untested.
+
+| Field | Documented capability / qualification |
+|---|---|
+| Memory / historical setlists | **128 songs**,six sections each;**four setlists**,up to32 song positions each. Sections select a preset andscene1–8 orDEFAULT;NONE disables a section. Names allow10characters. These are references,not extra preset slots. |
+| Display / song navigation | Setlist,Song andSection switch functions offer select,toggle andincrement/decrement;empty entries are skipped. Mini-display options label these actions. FM9 sample layout8 assigns six sections plus previous/next song andtap-tempo/hold-tuner;it lacks active-setlist switching. Song stepping differs from sequential preset down/up. |
+| Live / setup and source conflict | Assignments require configured songs/setlists/layouts. Changes apply immediately andenter System backup. P4 calls layout8 factory-default for3.0+,then describes it as empty by default in import instructions;retain that conflict. Neither current factory assignments nor untouched MKII setup is certified. |
+
+No layout package,installer orfirmware downloaded;no device settings changed.
 
 ## VP4
 
