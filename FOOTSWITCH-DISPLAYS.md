@@ -79,7 +79,7 @@ These match the separate-display layout, with OLED technology rather than LCD.
 |---|---|---|
 | HeadRush **Pedalboard** | **Twelve individual monochrome OLED strips**, one per footswitch; separate main touchscreen | [Exact model/manual record](HEADRUSH.md#pedalboard). Manual strips1.2-inch; main6.9-inch versus marketed7-inch retained. |
 | HeadRush **Prime** | **Twelve individual OLED scribble strips**, one per footswitch; separate7-inch main touchscreen | [Verified exact-model record](HEADRUSH.md#prime). OLED strips and color LED rings are distinct. |
-| Line 6 **Helix Stadium XL Floor** | **Twelve OLED scribble strips**, plus separate8-inch color touchscreen | [Current manufacturer-backed record](LINE6.md#helix-stadium-xl-floor). Manufacturer marks strips XL-only; non-XL Stadium Floor is different. |
+| Line 6 **Helix Stadium XL Floor** | **Twelve OLED scribble strips**, plus separate8-inch color touchscreen | [Current manufacturer-backed record](LINE6.md#helix-stadium-xl-floor). Global brightness cannot switch strips fully off; preset stepping and pedal-position recall are separately qualified in the record. Manufacturer marks strips XL-only; non-XL Stadium Floor is different. |
 
 ### Displays shared by groups of effect switches
 

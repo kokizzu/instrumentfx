@@ -138037,5 +138037,17 @@
     "remaining": "Working state, firmware, bundle/adapter, warranty, tax, shipping, vouchers and checkout total unknown. Shopee historical asks preserved; no technical specification transferred.",
     "downloads": false,
     "transaction": false
+  },
+  "stadium_xl_controller_display_scope_20261101": {
+    "checked": "2026-11-01",
+    "sources": [
+      "https://manuals.line6.com/en/helix-stadium/live/global-settings",
+      "https://manuals.line6.com/en/helix-stadium/live/external-pedal-and-switch-controller-configuration"
+    ],
+    "identity": "Manufacturer live v1.4 manual; shared chapters use explicit XL-only distinctions",
+    "finding": "Added global position-recall boundary, exact XL external-controller conductors and EX2 configuration, automatic onboard pedal targets, OLED minimum-brightness limit and mode-dependent FS1/FS7 preset stepping.",
+    "remaining": "Global all-preset volume target, numeric endpoints and universal output coverage not established. Built-in treadle excludes XL from no-treadle shortlist; OLED labels remain separate from LCD candidates.",
+    "downloads": false,
+    "hardware_test": false
   }
 }
