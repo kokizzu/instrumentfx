@@ -131292,5 +131292,47 @@
     "total_rows": 88,
     "record": "ZOOM.md#b3n--complete-power-chart-census-and-missing-cost-entries",
     "remaining": "OutputVP cost and global volume scope unverified; do not transfer guitar-series chart cost. Keep LCD priority and independent general cursor."
+  },
+  "g11_factory_usb_levels_20261031": {
+    "checked": "2026-10-31",
+    "patch_source": "https://zoomcorp.com/media/documents/E_G11v2_PatchMemoryList.pdf",
+    "basis": "Indexed manufacturer printedp2; full29MB reader rejected",
+    "factory_filled": 300,
+    "empty": 200,
+    "total": 500,
+    "ranges": [
+      [
+        "001–060",
+        "Original PA",
+        60
+      ],
+      [
+        "061–100",
+        "Original guitar amp",
+        40
+      ],
+      [
+        "101–240",
+        "Empty",
+        140
+      ],
+      [
+        "241–340",
+        "New guitar PA",
+        100
+      ],
+      [
+        "341–440",
+        "New bass PA",
+        100
+      ],
+      [
+        "441–500",
+        "Empty",
+        60
+      ]
+    ],
+    "record": "ZOOM.md#g11--v2-factory-allocation-and-usb-level-controls",
+    "next": "Remaining LCD models and current offers; keep independent general BOSS GT-Pro cursor."
   }
 }

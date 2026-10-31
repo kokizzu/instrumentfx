@@ -3907,7 +3907,7 @@ Guitar and bass multi-effects; large; built-in expression. Specifications below 
 | Dimensions / weight | **495 W ×253 D ×64 H mm;2.8 kg**. Large by the project's size bins. Pedal-up maximum height and cable clearance are additional/unverified. [G11-M p.104] |
 | Simultaneous processing | Specification: **one amplifier plus nine effects**, DSP-limited. Operation pp.26,32 also describes up to ten freely combined effects; preserve that wording rather than assuming ten arbitrary high-load engines or unlimited duplicate amps. Overflow bypasses the excess effect. [G11-M] |
 | Categories / choices | V2 effect list: Dynamics, Filter, Drive, Amp, Cabinet, Modulation, SFX, Delay, Reverb, Pedal, Send/Return and IR. The preserved2026-10-15 V2-list finding records **15 Dynamics choices**; Additional V2 table-entry counts checked2026-10-31:**Modulation33,Cabinet35,Amp34,Drive45,Filter25,Delay17,SFX9,Reverb17,Pedal21,Send/Return9,IR1**;see [partial census](ZOOM.md#g11--partial-v2-category-census-and-volume-controls). All twelve V2 category counts are now transcribed;current installed totals remain unverified. This historical count is not a reconciled installed-library census. V2 added one guitar amp, nine bass amps and57 bass effects; additional OverDrive, BitCrush and DynaDelay were distributed in2025–2026. Do not sum the site's overlapping/launch-era totals as a current installed inventory. [G11-E,G11-F,G11-P] |
-| Presets / user memory | **500 editable patch memories,125 banks×4** in V2. This replaces the earlier240 total. Factory-filled subset is not established;500 is not500 factory plus500 user. The V2 release added200 supplied patches. [G11-M pp.4,8,104; G11-F] |
+| Presets / user memory | **500 editable patch memories,125 banks×4** in V2. This replaces the earlier240 total. V2 patch-listp2 establishes **300 factory-filled and200 empty**;see [allocation](#g11--v2-factory-allocation-and-usb-level-controls). Current unit contents remain unverified;500 is not500 factory plus500 user. The V2 release added200 supplied patches. [G11-M pp.4,8,104; G11-F] |
 | Synth | **Yes:** Z-Syn, BaStdSyn and BaSynTlk bass-synth algorithms in the V2 SFX list. Their documented bass purpose is retained, not asserted to be unrestricted polyphonic guitar synthesis. [G11-E p.32] |
 | Electric-to-acoustic simulation | **Yes: Aco.Sim**, specifically described as converting an electric guitar's tone toward acoustic guitar, in the Drive category. Not merely an acoustic amp or body IR. [G11-E p.9] |
 | User IR loading | **300 total locations:001–106 supplied;107–300 available for user assignment**, hence **194 remaining user locations** by arithmetic. WAV,44.1–192kHz,up to2048 samples. This supersedes launch-page70 supplied+130 user figures. The source's remaining-user-location description is not a claim all factory IR slots are freely overwriteable. [G11-M pp.3,86–88;G11-F] |
@@ -3939,7 +3939,7 @@ These are individual asking observations, not completed-sale statistics or an ac
 
 [G11-M] [ZOOM V2 Operation Manual](https://zoomcorp.com/media/documents/E_G11v2.pdf), especially printed pp.3–4,8,11–14,23,26,32,86–91,104. Original text was read. Web screenshots of control/specification pages failed and direct PDF download failed; **no successful visual inspection is claimed**. Full rotary count and auxiliary-display properties remain unresolved accordingly.
 
-[G11-E] [Official V2 Effects List](https://zoomcorp.com/media/documents/E_G11v2_FX-list.pdf), category contents and specifically read acoustic/synth entries. Screenshot failed; complete category-count transcription is still pending, not represented as completed.
+[G11-E] [Official V2 Effects List](https://zoomcorp.com/media/documents/E_G11v2_FX-list.pdf), category contents and specifically read acoustic/synth entries. Screenshot failed;the V2 table-entry census below is now complete. Current pool/installed-content reconciliation remains pending.
 
 [G11-F] [Official firmware2.0 announcement,2021-12-24](https://zoomcorp.com/en/gb/news/g11_updat/):240→500 patches;200→300 IR locations;added bass processing. This is a dated feature change, not a claim the owner's unit was updated.
 
@@ -3988,6 +3988,27 @@ Checked2026-10-31 using exact-model manufacturer compatibility lists;no download
 | Categories / post-V2 additions | Guitar Lab News dates **OverDrive December22,2025;BitCrush February20,2026;DynaDelay March18,2026** and explicitly includes G11. The [G11 product page](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g11/) instead labels DynaDelay **April2026**:retain the date conflict. Effect Pool availability does not verify installation,factory filling orcategory placement;do not declare261+3 a verified current inventory. [Dated news index](https://zoomcorp.com/en/guitarlab-news/). |
 | Processing / added-effect behavior | [DynaDelay](https://zoomcorp.com/en/guitarlab-news/dynadelay/) offers input-sensitive ducking and the converse gate-delay behavior. [BitCrush](https://zoomcorp.com/en/guitarlab-news/bitcrush/) reduces sampling frequency/bit rate with one resolution control. [OverDrive](https://zoomcorp.com/en/guitarlab-news/overdrive/) describes a pick-sensitive,mid-focused overdrive/amp booster;the article does not name the modeled pedal. Parameters,DSP costs andnumeric delay range remain unverified here. |
 | Firmware /2.10 fix scope | [Own English firmware history](https://zoomcorp.com/documents/3432/G11_FirmwareVersionHistory_ver210_en.pdf) dates2.10 **February2025**:fixes unexpected bank-name changes andstalled screen scrolling during CHANGE BANK ORDER. It does not present the later Effect Pool releases as firmware2.10 additions. Its2.00 entry says66bass effects;the separate announcement’s9bass amps+57bass effects is retained as a different grouping,not another66 to add. |
+
+### G11 — V2 factory allocation and USB level controls
+
+Checked **2026-10-31**. The [support-linked V2 Patch Memory List](https://zoomcorp.com/media/documents/E_G11v2_PatchMemoryList.pdf),indexed printedp2,explicitly maps these ranges. Direct full-PDF reading exceeded the tool limit;no complete patch-list inspection is claimed.
+
+| V2 locations | Documented initial contents | Count |
+|---|---|---:|
+| 001–060 | Original PA presets |60|
+| 061–100 | Original guitar-amp presets |40|
+| 101–240 | Empty |140|
+| 241–340 | New guitar PA presets |100|
+| 341–440 | New bass PA presets,including acoustic bass |100|
+| 441–500 | Empty |60|
+
+| Field | Evidence / qualification |
+|---|---|
+| Memory / V2 filling | **300 factory-filled +200 empty =500 editable locations**,not500additional factory patches. This resolves the V2 factory-subset gap;current used-unit contents remain unverified. [Manufacturer list,p2](https://zoomcorp.com/media/documents/E_G11v2_PatchMemoryList.pdf). |
+| Memory / V2 update exception | [December24,2021 V2 announcement](https://zoomcorp.com/en/us/news/g11_update_v20/) explicitly says **patch memories andIRs are overwritten by this update**;Guitar Lab7.2+ orHandy Guitar Lab1.2+ is required forV2 connection. This is update-specific history,not a claim that every update erases data orpermission to operate a unit. |
+| USB audio / independent trims | [V2 manual pp89–92](https://zoomcorp.com/documents/461/E_G11v2.pdf):separate processed anddry recording gains,each **−6…+6dB**;REAMP GAIN also **−6…+6dB**. MONITOR BALANCE0–100 selects direct-only at0,computer-only at100. These are USB-level controls,not global expression endpoints orproof of every output’s attenuation. |
+
+No local download,update,reset ordevice test. Current pool counts,auxiliary-display specifications andfull rotary corroboration remain unresolved.
 
 <!-- comparison evidence ends -->
 
