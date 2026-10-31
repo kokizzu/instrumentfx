@@ -291,3 +291,16 @@ Checked2026-10-31 against [manufacturer release history](https://support.fender.
 | Live /1.8.58 qualifications | **July15,2026:** bass-model normalization makes Super Bassman Vintage,Rampage Blueline and ’66 Flip-Top louder;existing presets may need level adjustment. Notes also report fixes for Undo not always clearing overdubs and1-Shot omitting overdubs. These are manufacturer claims,not hardware tests. Pro Control gains the Seamless Tap Tempo Delay option underGlobal Settings→Preferences;this is not preset-change spillover. [Release notes](https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates). |
 
 Current guide-H category census remains unresolved:manufacturer PDF reader reports unsupported content type;third-party168-effect claims are not adopted as verified counts. No downloads,updates ordevice operations.
+
+### Tone Master Pro — LCD brightness, layouts and scene-count basis
+
+Checked **2026-10-31** against the [manufacturer-authored firmware1.5 manual reproduction](https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual),printedpp3,20–21,33–36. Its exact-model cover,controls,504-preset architecture andrear connections match the earlier manual;firmware1.5 includes later scene/backup behavior. Only original document text is used,not generated FAQs. Current1.8 equivalence remains unverified.
+
+| Field | Revision-qualified evidence |
+|---|---|
+| Display / brightness | Automatic brightness follows ambient light;the manual slider adjusts touchscreen,scribble strips andfootswitch LEDs. Independent per-strip adjustment andnumeric range are not specified here. P3 also names strips above Navigation andMaster controls;their technology/physical count is not inferred as additional footswitch LCDs. |
+| Controls / effect layout | Six-effect layout retains left-side bank up/down;eight-effect layout reassigns those two switches to effects. FS MODE/LOOPER andTAP/TUNER remain available. These are bank controls,not a verified dedicated sequential preset−/+ pair. |
+| Memory / scene counting | **Eight assigned scenes plus base preset = nine states**. Scenes share blocks,order androuting;storing with a scene active recalls that scene. This does not add preset locations orphysical displays. |
+| Controls / master versus expression | Mixer independently assigns headphones,Output1 andOutput2 to the hand-operated Master knob. That feature does not establish global external-expression volume assignment. |
+
+Current model-guide-H census remains unresolved;the reader again rejected its content type. No local download orhardware operation.

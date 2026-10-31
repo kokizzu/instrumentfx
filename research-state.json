@@ -131121,5 +131121,18 @@
     "revision": "v1.3 April2022; current MKII equivalence unverified",
     "record": "FRACTAL-AUDIO.md#fm9--layout-count-lcd-functions-and-preset-overrides",
     "next": "Continue current MKII physical corroboration and remaining individual-LCD models; independent general cursor remains BOSS GT-Pro."
+  },
+  "fender_lcd_layout_scope_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual",
+    "revision": "Manufacturer-authored firmware1.5 reproduction; current equivalence unverified",
+    "pages": "3,20–21,33–36",
+    "record": "FENDER.md#tone-master-pro--lcd-brightness-layouts-and-scene-count-basis",
+    "remaining": [
+      "Guide H full census; reader rejects content type",
+      "Auxiliary strip technology and numeric adjustment ranges",
+      "Global analog EXP coverage; qualified used hardware offers"
+    ],
+    "next": "Continue unresolved individual footswitch LCD model fields; preserve independent general BOSS GT-Pro cursor."
   }
 }
