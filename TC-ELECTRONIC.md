@@ -467,6 +467,17 @@ Checked **2026-10-31**. [Exact manufacturer0709-AMO page](https://www.tcelectron
 **Separate new/used IDR offers:unknown.** Exact Shopee Indonesia Neo/0709-AMO searches yielded no qualified item;NEO MUSIC listings are X3/X5 sold by that shop,not X1 Neo hardware. No currency conversion,download,device operation orvisual inspection. Partial X1 status and397 active records unchanged.
 
 
+### PLETHORA X1 — direct manufacturer bypass and control scope
+
+Checked **2026-11-01**, [exact manufacturer0709-AJN page](https://www.tcelectronic.com/en/products/0709-AJN),direct original text.
+
+| Field | Primary evidence / remaining boundary |
+|---|---|
+| Live / bypass anddry path | **Buffered Bypass enables reverb trails anddelay spillover**;True Bypass isolates the guitar signal. **Kill-dry removes the direct signal forparallel-loop use**. This does not certify trails across A/B changes,power-failure operation oruniform Kill Dry support in every algorithm;Infinite’s documented exception remains above. |
+| Controls / expression versus switching | MASH uses pressure,with LED brightness following pressure;A/B toggles two effects orTonePrints. Tap tempo is named forFlashback2,Vintage Echo andPipeline. These are alternative control functions,not a direct analog external expression input or14 simultaneous effects. |
+
+The page still lists firmware1.1.13 andTonePrint4.7.2. Its current retrieved text does not identify LCD technology;preserve the independently qualified regional1-inch IPS LCD andNeo-specific primary evidence. No new IDR offer,inventory admission,local download ordevice operation.
+
 ## PLETHORA X3
 
 Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified.

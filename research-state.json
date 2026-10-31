@@ -130687,7 +130687,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Zoom B3n next,then B3 no-treadle individual-LCD gaps. G3 memory/update/reset distinction saved;globalEXP stillperpatch withrhythm/looper exclusion,not a qualifiedallpresetvolume solution. Seek new exactmodel evidence;preserve independent BOSS GT-Pro anddeferred no-treadle tasks;OLED/shared-screen/controllers secondary.",
+      "next_check": "Fresh individual-LCD discovery pass andremaining G5/G5n/G11 currentmodel gaps;do not loop unchanged B3/B3n sources. WhitePLETHORAX1 remainspartial;primarybypassroles clarified,technology/placement stillqualified. Revisit a gap when new evidence orvisualsurface becomesavailable. Preserve independent BOSS GT-Pro anddeferred no-treadle tasks;OLED/sharedscreen/controllers secondary.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -130725,6 +130725,29 @@
       "scope": "Sixeffectsharedmanual pp14–15,24,39;originalG3 supported,notG3Xpedalmechanics",
       "finding": "AutoSaveONautomaticsaves andexcludescurrentpatchasStoreSwapdestination;firmwareupdatepreservessavedpatches;AllInitialize restoresallsettingsincludingpatches.",
       "remaining": "USB/control subtype andvisualcontrols unresolved;PDFscreenshot returnednoinspectableimage;no imagecount claimed. Exactusedoffer remainsold/soldout,no newverifiedstock."
+    },
+    "zoom_b3n_no_new_primary_answer_20261101": {
+      "checked": "2026-11-01",
+      "sources": [
+        "https://zoomcorp.com/media/documents/E_B3n.pdf",
+        "https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/"
+      ],
+      "result": "No new primary resolution for OutputVP allpatchscope/endpoints/outputcoverage,USBaudio orheadphonelayout. Knownexactoffersalreadyrecorded.",
+      "access": "CUA inventory apps[] browsers[];2018catalogue15.2MB readerlimit. No downloads,no visualcount."
+    },
+    "zoom_b3_no_new_primary_answer_20261101": {
+      "checked": "2026-11-01",
+      "sources": [
+        "https://zoomcorp.com/media/documents/E_B3.pdf",
+        "https://zoomcorp.com/en/us/multi-effects/bass-effects/b3/b3-support/"
+      ],
+      "result": "Current support stillolderOS/editorlist;originalmanual numericInputOutputVolendpointprose andUSB/controlsubtypes not recovered. Existingfacts unchanged."
+    },
+    "plethora_x1_primary_bypass_20261101": {
+      "source": "https://www.tcelectronic.com/en/products/0709-AJN",
+      "finding": "Buffered bypass trails/spillover;killdry removesdirectpath;MASHpressureLED,A/Bcontrol andnamedtapapplicability. Not guarantee ofA/Btransitiontails orInfiniteKillDry.",
+      "active": false,
+      "remaining": "PrimarywhiteX1LCDtech/placement,fullprofile andexactIDR stillunresolved;Neo evidence not transferred."
     }
   },
   "gt_pro_global_patch_level_20261031": {

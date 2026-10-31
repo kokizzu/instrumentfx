@@ -1,4 +1,4 @@
-"""Validate and commit the reviewed BOSS catalogue integration locally."""
+"""Validate and commit the reviewed TC capability audit locally."""
 import sys
 sys.dont_write_bytecode = True
 from research_tools import git, verify
@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff', '--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(tc): qualify X5 expression modifier curves'))
+    print(git('commit','-m','research(tc): clarify X1 bypass roles and LCD evidence limits'))
