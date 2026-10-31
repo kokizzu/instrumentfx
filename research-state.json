@@ -134266,7 +134266,19 @@
       "live_stock": "Unknown;indexed evidence does notverify current stock",
       "range_eligible": false
     },
-    "next": "Complete originalFM9 processing/memory/expression/I/O/IR/editor/looper profile andexactrevision market evidence before admission. Then review FM9Turbo separately;do notborrow MKII strip specifications.",
+    "next": "Complete exact originalFM9 I/O/USB andIR/editor/looper/category evidence;retain unknown global endpoints/recall/outputcoverage andexactrevisionmarketproof.",
+    "downloads": false
+  },
+  "fm9_original_expression_memory_20261101": {
+    "checked": "2026-11-01",
+    "active": false,
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "revision": "3.x August2022 Original+Turbo,pp10–11,39,48",
+    "root": "FRACTAL-AUDIO.md#fm9-original--global-volume-memory-and-cpu-scope",
+    "global_volume": "DirectlocalPEDAL1/2/3→Input/Output1/2/3;no per-presetblocks",
+    "memory": "512editable;eightScenes;factoryfilledunknown",
+    "cpu": "Recommendedmeter~80%;dedicatedAmp/Delay/Reverb barelyreflected;notallDSP capacity",
+    "next": "Complete exact originalFM9 I/O/USB andIR/editor/looper/category evidence;retain unknown global endpoints/recall/outputcoverage andexactrevisionmarketproof.",
     "downloads": false
   }
 }

@@ -884,6 +884,19 @@ The [manufacturer press release,August27,2021](https://www.fractalaudio.com/down
 
 [Current manufacturer download listing](https://www.fractalaudio.com/fm9-downloads/) explicitly supports Original andTurbo withfirmware12.0,July7,2026. This establishes listed support,not installed firmware orcompatibility ofevery historical behavior. Full processing/category census,memory,synth/acoustic,I/O,IR/NAM/capture,editor requirements andlooper scope remain incomplete. No local download,device operation,purchase orvisual inspection.
 
+### FM9 original — global volume, memory and CPU scope
+
+Checked **2026-11-01**, [manufacturer3.x manual,August2022,pp10–11,39,48](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf);cover explicitly includes Original andTurbo. This resolves selected earlier discovery gaps,not a complete/current-firmware profile.
+
+| Field | Documented boundary |
+|---|---|
+| Global analog volume | MIDI/Remote→Other assigns local PEDAL1/2/3 to Input1/2/3 orOutput1/2/3 Volume without preset blocks. Input affects drive/dynamics;output scales tails. Avoid assigning the same pedal as both globalVolume andExternalController. |
+| Wiring / range / recall | TRS:tip supplies voltage,ring returns position,sleeve ground. Linear10–100kΩ. Calibration is separate;numeric volume endpoints,held-position recall andbypass/phones/USB/recorded-loop attenuation remain unknown. Actual M-VAVE wiring untested. |
+| Memory | **512 editable presets**,including overwritable factory entries;**eight scenes each**. Factory-filled count unresolved;not512 plusprotected presets. |
+| DSP | **14×6 grid**. Recommended meter load approximately80%;overload mutes processing,insertion can be refused. Amp,Delay andReverb run on dedicated cores andbarely affect this meter;meter percentage is notcomplete capacity. Currentfirmware12 equivalence untested. |
+
+No downloads ordevice operation. This partial profile remains outside active counts;headphone socket andpreset down/up must remain separately tracked.
+
 ## VP4
 
 Admitted 2026-10-28 as a **partial model**, not fully verified. Own manufacturer product/manual establish effects-only guitar/bass multi-effects. All earlier lead-stage bodies and anchors remain below; their outside-inventory status is historical and superseded only by this admission. No ownership or live-market availability inferred.
