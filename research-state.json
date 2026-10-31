@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "FM9 MKII Turbo: remaining exact-model analog volume range/recall, LCD control and qualified Indonesia hardware evidence. Helix Floor label limits saved; category/amp/cab census already complete. Preserve independent BOSS GT-Pro cursor.",
+      "next_check": "Zoom G3Xn: remaining exact-model LCD/control and qualified Indonesia hardware gaps; preserve LCD-first priority and independent BOSS GT-Pro cursor. FM9 response/clock qualification saved; analog endpoints/recall remain open.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133298,6 +133298,11 @@
       "file": "LINE6.md",
       "model": "Helix Floor",
       "heading": "### Helix Floor — editable LCD labels and multi-action visibility"
+    },
+    {
+      "file": "FRACTAL-AUDIO.md",
+      "model": "FM9 MKII Turbo",
+      "heading": "### FM9 — firmware-qualified pedal response and MIDI clock"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -133472,6 +133477,16 @@
     "pages": "51,55–56,63–65",
     "finding": "LCD labeling and multi-action limits recorded in root model and display collection.",
     "remaining": "Power draw, factory occupancy, USB connector subtype and visual corroboration remain unknown.",
+    "downloads": false,
+    "hardware_test": false
+  },
+  "fm9_pedal_response_clock_20261101": {
+    "model": "FM9 MKII Turbo",
+    "checked": "2026-11-01",
+    "source": "https://manuals.plus/m/fc4c88f09cdfe1684d4526d72c54e4e86b0de29352a33b47c153a1dc5715d9b1.pdf",
+    "identity": "Original release history12.00 matches current official listing; selected historical sections.",
+    "finding": "Response, presence detection and clock revision boundaries recorded in root profile.",
+    "remaining": "Exact MKII analog endpoints/startup recall/output coverage and qualified offers remain open.",
     "downloads": false,
     "hardware_test": false
   }

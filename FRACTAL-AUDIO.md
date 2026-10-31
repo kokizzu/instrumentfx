@@ -699,9 +699,21 @@ Checked **2026-11-01**,[own FM9 manual](https://www.fractalaudio.com/downloads/m
 |---|---|
 | Practice / metronome | Tempo-page metronome has selectable output levels. Levels **persist across presets butreset OFF at power-on**. This establishes a historical click source,not a drum-pattern library ornonvolatile loop storage. |
 | Live / tempo precedence | **20–250BPM,whole-number values**. Each preset’s **Tempo To Use** selects GLOBAL orPRESET;loading a preset-specific tempo does not erase the background global tempo. Manual tempo changes update global tempo too. Controllers-block channels can store different choices. This is tempo scope,not volume assignment. |
-| MIDI / clock direction | Manual explicitly allows clock reception over **DIN orUSB** andsays FM9 **does not transmit MIDI Clock**. This is historical clock-direction evidence,not proof of arbitrary MIDI-message routing orcurrent firmware behavior. |
+| MIDI / clock direction | Manual explicitly allows clock reception over **DIN orUSB** andsays FM9 **does not transmit MIDI Clock**. This is historical clock-direction evidence;[8.01 adds transmission](#fm9--firmware-qualified-pedal-response-and-midi-clock). |
 
 Preset/factory occupancy,global pedal endpoints/recall andcurrent revision compatibility remain open. No download ordevice operation.
+
+### FM9 — firmware-qualified pedal response and MIDI clock
+
+Checked **2026-11-01**, [manufacturer-authored release history](https://manuals.plus/m/fc4c88f09cdfe1684d4526d72c54e4e86b0de29352a33b47c153a1dc5715d9b1.pdf),12.00 identity matching the [current manufacturer listing](https://www.fractalaudio.com/fm9-downloads/).
+
+| Field | Revision-qualified change |
+|---|---|
+| Expression / response | **5.00,2023-08-07,p28:** reduced MIDI/Remote Input/Output volume-pedal filtering for quicker response;no numeric latency orendpoints. |
+| Expression / presence detection | **8.01,2024-10-11,pp15–16:** activity sensing prevents Auto-Engage with disconnected local/FC pedals orcontrollers. **9.0,p13** fixes local pedal jacks configured as switches being ignored by sensing. Neither establishes analog startup-position recall. |
+| MIDI / superseding historical clock limit | **8.01,p15:** Send MIDI Clock supports DIN,USB,both oroff;default DIN. USB transmission requires **USB firmware1.03+**. Receive selects DIN,USB oroff. This supersedes the3.x manual’s no-transmission statement. |
+
+Installed versions andcurrent MKII pedal range/output coverage remain unverified. No download ordevice operation.
 
 
 ## VP4
