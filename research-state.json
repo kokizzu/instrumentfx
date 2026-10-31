@@ -130764,5 +130764,12 @@
     ],
     "finding": "Six middle encoders show parameter values;PAGE accesses more. Ambient auto/manual brightness;default bank± by6,repurposed in8effect layout.",
     "limits": "No numeric/individual-strip brightness range,sequential preset± or new physical switches asserted;current firmware behavior untested."
+  },
+  "neurig_display_expression_20261031": {
+    "source": "https://zoomcorp.com/manuals/neurig-en/",
+    "revision": "Z2I-5931-01 English",
+    "finding": "Two shared touchLCDs/fourFS;Rig-menu Input/Output Volume withMin/Max,not verified global override.",
+    "conversion_conflict": "English32bitAD/DA versus earlierJapanese24bit64×;hardwarebasisunknown.",
+    "limits": "Pre-release;not newinventory;noexactShopeeoffer;no download/device test."
   }
 }

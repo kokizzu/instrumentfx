@@ -4614,6 +4614,16 @@ Checked2026-10-18 against original manual Z2I-5930-01, sections on RIG effect co
 |---|---|
 | Processing / selection ceiling | Effects exceeding the processing budget are **greyed out and unselectable**;tapping shows **Process Overflow** and individual effect loads. Change/delete effects to stay within **100%**. DNA drive/amp models consume substantial processing. Fourteen slots therefore do not guarantee every combination, and this is a selection restriction rather than documented overload bypass behavior. [Manual][NEU-M] |
 | Memory / effect parameter slots | **Program mode stores up to three parameter settings per effect**;Stomp mode stores one. Stored parameter slots can be linked to program recall. These are variations within the existing RIG/effect architecture, not three extra effects or additional independent RIG memories. [Manual][NEU-M] |
+
+### NEURIG — English manual display and expression scope
+
+Checked2026-10-31: [manufacturer English manual](https://zoomcorp.com/manuals/neurig-en/),Z2I-5931-01. Pre-release/shipping qualifications above remain.
+
+| Field | Evidence / qualification |
+|---|---|
+| Display / shared-switch layout | **Two240×320 touch LCDs serve four footswitches**;HOME shows assigned effect/Program names along the screen bottoms. Stage View enlarges labels. This is not four individual footswitch displays;diagonal remains unresolved. |
+| Expression / Rig scope | EXT Pedal assignment is configured for the selected **Rig**:No Assign,Auto Assign,Input Volume orOutput Volume,with Min/Max for volume roles. This documents Rig-level setup,not a verified system-wide override;numeric range,recall,bypass/phones/tails/loop coverage and compatible pedal wiring remain unknown. |
+| Conversion / language-document conflict | English specifications state **32-bit A/D and32-bit D/A**,versus earlier Japanese24-bit/64× evidence. Preserve both;no hardware-revision explanation established.32-bit float DSP/USB formats are separate specifications. |
 <!-- comparison evidence ends -->
 
 [NEU-P]: https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/neurig/

@@ -63,6 +63,7 @@ These match the separate-display layout, with OLED technology rather than LCD.
 | Brand / model | Display-layout status | Record / next check |
 |---|---|---|
 | Line 6 **M13** — partial | **Four LCD effect-unit displays with category-colored backlights**, serving A/B/C memories per unit | [Manufacturer guide-backed lead](LINE6.md#m13--partial-display-discovery). Multiple displays, not one per effect switch; outside active counts pending full profile. |
+| Zoom **NEURIG** — pre-release | **Two240×320 touch LCDs**,serving four footswitches;shared HOME/Stage View labels | [Exact-model English-manual qualification](ZOOM.md#neurig--english-manual-display-and-expression-scope). Not one LCD per switch;catalogue admission does not verify shipping or Shopee stock. |
 
 ### Shared main-screen layouts
 
