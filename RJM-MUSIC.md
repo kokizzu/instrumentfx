@@ -16,6 +16,12 @@ Checked 2026-10-31 against the [exact GT/10 manufacturer page](https://rjmmusic.
 
 No download, installation or hardware operation.
 
+### GT/10 — MIDI limits and mislabeled manual link
+
+Checked 2026-10-31. The [exact GT/10 page](https://rjmmusic.com/products/mastermind-gt-10-midi-foot-controller) specifies **16 connected devices**: one preset-button tap can send a program change to all 16; an IA button can send **up to 20 messages**, combining CC, PC and Note. These are MIDI-control limits, not simultaneous audio effects. It also lists **two auxiliary 9VDC outlets**; their available current and polarity remain unverified. USB-thumb-drive settings backup/restore and onboard editing are documented; USB audio or bus powering is not established.
+
+The [manufacturer GT comparison page](https://rjmmusic.com/pages/mastermind-gt-10-16-22) labels its product-manual link “Mastermind GT Manual”, but that link currently resolves to [PBC6X Manual-4.2.pdf](https://docs.rjmmusic.com/download-content/PBC6X/PBC6X%20Manual-4.2.pdf), whose internal text identifies Mastermind PBC, version4.2, dated2019-04-07. **This is a mismatched model document and is not used for GT/10 specifications.** The older GT4.1 link is retained above; it was inaccessible on this pass. Current GT/10 manual corroboration, the XLR wording conflict, display dimensions and exact Shopee Indonesia offers remain unresolved. No file downloaded or hardware operated.
+
 ## Mastermind GT/16
 
 Checked 2026-10-31 against the [exact manufacturer page](https://rjmmusic.com/products/mastermind-gt-16-midi-foot-controller). Controller only, outside active audio counts.

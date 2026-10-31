@@ -131917,5 +131917,25 @@
     "mass_kg": 5,
     "internal_firmware_listing": "MarkII1.13,2022-12-20",
     "qualification": "Host feature firmware andown basic firmware are distinct;FC6 wording corrected. No package/device test;power,pinout andIDR remain unverified."
+  },
+  "rjm_gt10_midi_manual_boundary_20261031": {
+    "checked": "2026-10-31",
+    "sources": [
+      "https://rjmmusic.com/products/mastermind-gt-10-midi-foot-controller",
+      "https://rjmmusic.com/pages/mastermind-gt-10-16-22",
+      "https://docs.rjmmusic.com/download-content/PBC6X/PBC6X%20Manual-4.2.pdf"
+    ],
+    "connected_devices": 16,
+    "ia_message_limit": 20,
+    "auxiliary_outputs": "Two9VDC; current/polarity unknown",
+    "manual_link_mismatch": "GT comparison page label resolves to PBC6X4.2 dated2019-04-07; rejected for GT10 specs",
+    "remaining": [
+      "Correct current GT manual",
+      "XLR connector conflict",
+      "Display dimensions",
+      "Exact Shopee Indonesia hardware offers"
+    ],
+    "priority": "Individual footswitch LCD models first; general GT-Pro cursor preserved",
+    "download_or_device_test": false
   }
 }
