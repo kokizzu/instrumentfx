@@ -3576,6 +3576,15 @@ Checked **2026-10-31** against indexed [manufacturer V2 manual,p58](https://zoom
 
 Resolution does not establish diagonal,monochrome/color or touch. Nine-effect processing and DSP limits remain separate from the four visible effect units. Existing1–13contrast evidence is retained;no new visual inspection,download or device operation.
 
+### G5n — LCD operating views and level stages
+
+Checked2026-10-31 against [manufacturer V2 manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf),printedpp7–9,17,19–20. Text inspection;no visual count or hardware test.
+
+| Field | Evidence / qualification |
+|---|---|
+| Display / operating views | STOMP switches between effect names and parameters. The Overview highlights the effects visible on the four Unit Displays; some effect-specific switch functions use light text on a dark background. MEMORY shows patch numbers/names. These views do not add physical screens or establish LCD color/touch. |
+| Live / level stages | Patch LEVEL spans **0–120**. The separate MASTER LEVEL spans **−∞…+6dB**,center0dB. Output booster acts just before output,emulating a tube booster;fully left disables boost. TONE is neutral at center,emphasizes lows left and highs right. No numeric boost range or global analog expression assignment established. |
+
 ## G6
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

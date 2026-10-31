@@ -130681,5 +130681,19 @@
     "status_as_of": "January2026",
     "finding": "B3n and Guitar Lab Yes on both Apple silicon and Intel macOS Tahoe26 tables.",
     "limits": "Not USB audio, a local test, Windows ARM support or global-volume assignment. Current OutputVP search reproduces retained-volume wording only; existing used Shopee offer remains stale/sold out."
+  },
+  "g5n_lcd_level_stages_20261031": {
+    "source": "https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf",
+    "revision": "V2",
+    "printed_pages": [
+      7,
+      8,
+      9,
+      17,
+      19,
+      20
+    ],
+    "finding": "LCD STOMP effect-name/parameter and MEMORY patch views; patch0–120 separate from master−∞…+6dB and output booster.",
+    "limits": "No new screen-count/visual inspection, global EXP assignment or numeric boost range; full switch/button count and current library remain unresolved."
   }
 }
