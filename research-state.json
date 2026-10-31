@@ -134820,5 +134820,23 @@
     ],
     "finding": "Listed USBdriverv1.0.1 forMavericks10.9;MacEditor10.2.3–10.6.8 explicitlynot10.7+;driver/editor distinct",
     "limits": "Legacylisting notinstall/currentmacOS/architecture orchannel-map proof;no agreement/download/run"
+  },
+  "fractal_fc6_original_lcd_20261101": {
+    "status": "partial controller; outside active processor inventory",
+    "root": "FRACTAL-AUDIO.md#fc-6-original--controller",
+    "sources": [
+      "https://www.fractalaudio.com/downloads/manuals/FC-X/FC6%2B12-Owners-Manual.pdf",
+      "https://www.fractalaudio.com/fc-controllers/"
+    ],
+    "manual_revision": "2.1 May 2021; original pre-Mark-II",
+    "finding": "Six individual 128x32 LCD labels; original 36x12.5mm strip size; body 283x233x88mm/3kg; four expression and two dual-switch TRS sockets. Adapter safety/specification voltage conflict retained.",
+    "shopee": "No exact-original qualified indexed offer found; prices unknown",
+    "next": "Original FC-12 LCD controller profile; preserve independent BOSS GT-Pro general cursor",
+    "unresolved": [
+      "display diagonal/color/touch",
+      "complete rotary/button census",
+      "exact original hardware offers",
+      "host-specific global volume and coverage"
+    ]
   }
 }

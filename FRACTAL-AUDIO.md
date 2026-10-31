@@ -7,6 +7,7 @@
 
 - [AM4](#am4)
 - [FC-6 Mark II and FC-12 Mark II — controllers](#fc-6-mark-ii-and-fc-12-mark-ii--controllers)
+- [FC-6 original — controller](#fc-6-original--controller)
 - [FM3 MKII Turbo](#fm3-mkii-turbo)
 - [FM3 original](#fm3-original)
 - [FM9 MKII Turbo](#fm9-mkii-turbo)
@@ -159,6 +160,14 @@ Checked **2026-10-31**;controller only,outside active audio counts.
 | Firmware / revision separation | Samepage separates original-controller1.12 fromMarkII packages;they are not interchangeable. This corrects any implication that allFC firmware resides only in thehost. No package inspected orinstalled. |
 
 Body dimensions/weight are stated unchanged fromoriginal. Power voltage/current/polarity,complete physical counts,pinout andexact Shopee offers remain unresolved. No download ordevice operation.
+
+## FC-6 original — controller
+
+Checked 2026-11-01. **Controller, outside active audio-processor counts; partial profile.** The original FC-6 has six footswitches with individual 128×32 mini LCDs, a separate 2×20 transflective main LCD and separate LED rings. Tap/hold functions and labels are configurable. Four TRS expression inputs accept expression pedals (10–100 kΩ recommended); two TRS switch inputs accept up to four switches. Expression assignment and resulting audio-volume coverage depend on the host; calibration alone proves no global volume assignment.
+
+Original specifications: 283×233×88 mm (axes not explicitly labeled), 3 kg; footprint exceeds the preferred 200×140 mm. FASLINK II XLR supplies host communication/power to the first controller; downstream controllers require an adapter. Specifications list 9–12 V DC, 1000 mA, 2.5 mm centre-negative barrel, ≤12 W, while the safety page specifies 9 V DC/1000 mA: retain this voltage discrepancy. [Original manual v2.1, May 2021, pp.1–4, 36](https://www.fractalaudio.com/downloads/manuals/FC-X/FC6%2B12-Owners-Manual.pdf).
+
+The manufacturer separately identifies original mini displays as **36×12.5 mm**, versus Mark II 50×17.5 mm; these are width/height, not diagonals. [Current manufacturer comparison](https://www.fractalaudio.com/fc-controllers/). No qualified exact-original Shopee Indonesia hardware offer was found in the indexed search on 2026-11-01; new/used IDR prices remain unknown. Display diagonal, color/touch classification, complete rotary/button census and host-specific volume position/range, bypass, headphones, tails and looper coverage remain unverified. Do not transfer Mark II firmware or prices.
 
 ## FM3 MKII Turbo
 
