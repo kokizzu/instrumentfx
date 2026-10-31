@@ -132312,5 +132312,26 @@
       "No local download,installation ordeviceoperation"
     ],
     "next": "Continue LCD-first capability gaps;avoid re-auditing known counts as unknown;BOSS GT-Pro independent generalcursor unchanged"
+  },
+  "hx_effects_reserved_midi_lcd_20261031": {
+    "checked": "2026-10-31",
+    "model": "Line6 HX Effects",
+    "source": {
+      "url": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+      "identity": "40-00-0399RevD,firmware3.80,©2024",
+      "pages": "Printed11,53–54"
+    },
+    "findings": [
+      "CC1/2 emulate EXP1/2;75–77 parameterknobs1–3 labelled globalcontrol",
+      "CC70 AllBypass threshold0–63bypass/64–127on;CC72 previous/nextpresets atsamethreshold",
+      "Analog/DSPAllBypass warning movesacrosssixLCDs;MODE+TAPtoggles"
+    ],
+    "qualifications": [
+      "Reserved globalMIDIfunction labels do not establish globalmastervolume",
+      "No analog all-presetassignment,endpoints orDSP-bypass coverage inferred",
+      "No newdisplaycount,color,touch ordiagonal claim",
+      "No download,installation orhardwareoperation"
+    ],
+    "next": "Continue individual-LCD models;globalvolume gaps require assignment-specific evidence;independent BOSS GT-Pro generalcursor unchanged"
   }
 }
