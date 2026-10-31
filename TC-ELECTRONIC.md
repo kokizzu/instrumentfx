@@ -603,6 +603,18 @@ Checked **2026-10-31**. [Current own-model page][PX5-P] says unlimited custom pe
 
 The page also links this [manufacturer Chinese guide](https://cdn-media.empowertribe.com/0bb85b0f67404ae0b72c68ed476f083c/QSG_TE_0709-AIK_PLETHORA-X5_CN.pdf),sevenPDFpages,exactX5title. Its specifications,PDFp5,repeat298.5×116×53mm labelledheight×width×depth,1.4kg. This does not independently correct the multilingual guide’s axis ambiguity. No inferred footprint fit,local download or visual inspection.
 
+### PLETHORA X5 — distributor-qualified screen colors and insert cost
+
+Checked **2026-10-31** against [ELECTORI’s exact X5 Rev1.3 manual](https://www.electori.co.jp/tc-electronic/assets/pdf/PLETHORA_X5_MANUAL_JP_REV_1_3.pdf),©2022,explicitly firmware1.3.11. This is distributor documentation,not new manufacturer certification orcurrent-firmware testing.
+
+| Field | Revision-qualified finding |
+|---|---|
+| Display / color settings | P5 lists global PLAY-display color modes:OFF uses black/white effect graphics;DOTS orLINES adds colored markers. This supports historical color graphics from the distributor;primary confirmation,current revision equivalence,diagonal andtouch remain unresolved. Selecting black/white graphics does not establish monochrome hardware. |
+| Processing / insert slot tradeoff | Pp6–7:assigning INSERT LOOP FX to an effect slot allows onboard switching but consumes one of five slots. Positioning it through Board settings preserves all five internal slots but removes onboard loop on/off control. Volume can follow the insert before SEND orafter RETURN;this remains Board-level configuration. |
+| Looper / synchronization limit | P8 explicitly says the up-to-five loopers **cannot synchronize**. Playback level can use Hot Knobz;stopping returns to the phrase beginning. These do not establish persistent storage orglobal expression attenuation. |
+
+Manufacturer1.5.6 notes separately claim fixes for tap-tempo/TempoSync freezes,tuner LED blinking andreverb stopping;no installed-version orhardware verification. [Preserved original release text][PX5-FM]. No download ordevice operation.
+
 <!-- comparison evidence ends -->
 
 Variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers unresolved. No download or visual inspection claimed. All facts from own-model sources; no X3 specification substitution.

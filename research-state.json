@@ -131134,5 +131134,13 @@
       "Global analog EXP coverage; qualified used hardware offers"
     ],
     "next": "Continue unresolved individual footswitch LCD model fields; preserve independent general BOSS GT-Pro cursor."
+  },
+  "plethora_x5_display_insert_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://www.electori.co.jp/tc-electronic/assets/pdf/PLETHORA_X5_MANUAL_JP_REV_1_3.pdf",
+    "basis": "Distributor ©2022 Rev1.3 for firmware1.3.11; not current manufacturer certification",
+    "pages": "5–8",
+    "record": "TC-ELECTRONIC.md#plethora-x5--distributor-qualified-screen-colors-and-insert-cost",
+    "next": "Primary color/display confirmation, firmware-qualified full category list and exact offer variation; LCD models remain prioritized."
   }
 }
