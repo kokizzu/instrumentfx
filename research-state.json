@@ -137477,5 +137477,21 @@
       "owner-manualp16 blanket no-sharing wording remains contradictory"
     ],
     "next": "Continue remaining individual-LCD model capability gaps; avoid repeating resolved blanket preset-sharing question; preserve independent BOSS GT-Pro general cursor."
+  },
+  "fm3_original_display_tuner_modifier_20261101": {
+    "status": "partial Standard-covered primary-manual finding",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+    "revision": "7.x expressly covers Standard andMKII,printed4,70,93",
+    "findings": [
+      "Large Fonts preview usesVALUE thenENTER;NAVpreview ±1/±10 differs fromscene navigation afterloading",
+      "Tuner OUTPUT mute silences tails;INPUT mutes noisegate whiletails decay;not globalEXPcoverage",
+      "ModifierPCReset uses saved parameter untilsource changes;not globalMIDI/Remote volume recall proof"
+    ],
+    "unresolved": [
+      "original main/mini display diagonal andtouch",
+      "global volume endpoints/held-position recall andfulloutput coverage",
+      "installed firmware behavior"
+    ],
+    "next": "Continue individual-LCD model gaps usingnew evidence; preserve independent BOSS GT-Pro general cursor."
   }
 }
