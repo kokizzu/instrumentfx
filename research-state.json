@@ -130986,5 +130986,21 @@
       "Publishedauxiliaryscreenphysicalproperties"
     ],
     "qualification": "Textonly;nohardwaretest,downloadsorupdates;G3Xnbuilt-inpedalnottransferred"
+  },
+  "fm9_family_table_scope_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://www.fractalaudio.com/family/",
+    "column": "FM9 Turbo;notexplicitMKII",
+    "findings": [
+      "NoonboardIRCapture/ToneMatching;AxeFxIIIexportsloadable",
+      "GlobalBlocksNoisnotglobalpedalvolumeNo",
+      "Ninefamilylayoutsversuseightproductlayoutsunresolved",
+      "NamedTurbodimensionscorroborated;exactMKIIstillunverified"
+    ],
+    "remaining": [
+      "ExactMKIIrevisionandfirmware12equivalence",
+      "Native/convertedNAMandnonlinearcaptureloading",
+      "Layoutcountbasisandcurrentphysicalspecs"
+    ]
   }
 }

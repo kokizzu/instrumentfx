@@ -394,6 +394,19 @@ Checked2026-10-31 against [manufacturer Blocks Guide](https://www.fractalaudio.c
 | Looper / level and filter boundaries | Playback Level controls recorded-loop output;Dry Level controls signal passing through;Overdub Level attenuates older layers during overdubbing. **0dB prevents deliberate layer decay,but accumulated layers can clip**. Low/High Cut filter playback only,not newly recorded material. These are block controls,not proof ofglobal analog-pedal attenuation ofloops,phones orUSB. [Guide p51](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). |
 
 
+### FM9 — manufacturer family-table scope and capture distinctions
+
+Checked 2026-10-31 against the [manufacturer family comparison](https://www.fractalaudio.com/family/). Its column says **FM9 Turbo**, not explicitly MKII; its older amp/count wording is not a firmware12 inventory.
+
+| Field | Published distinction / qualification |
+|---|---|
+| IR / capture creation versus loading | The table says **No onboard IR Capture or Tone Matching for FM9**, but permits loading IRs captured on Axe-Fx III and exported Tone Match captures. This is documented cabinet/filter-data interoperability, not native NAM, a NAM converter or an onboard nonlinear amp-cloning engine. Exact current MKII format/length and firmware equivalence remain unverified. [Family table](https://www.fractalaudio.com/family/). |
+| Controls / Global Blocks distinction | FM9’s **Global Blocks:No** is a different feature from the MIDI/Remote global Input/Output Volume roles in its own manual. Do not convert it into No global pedal-volume assignment. [Family table](https://www.fractalaudio.com/family/). |
+| Display / layout-count conflict | Family table says **nine sets of switch layouts**, while the current FM9 product page says **eight layouts**. These are switch configurations, not extra LCDs; counting convention/revision is unresolved. Nine physical switches/LCDs remain separately documented. [Family table](https://www.fractalaudio.com/family/);[FM9 product](https://www.fractalaudio.com/fm9/). |
+
+The family table repeats513W×237D×89Hmm and5.44kg for its FM9 Turbo column;this is additional manufacturer corroboration for that named version,not an explicit MKII physical specification. No downloads ordevice test.
+
+
 ## VP4
 
 Admitted 2026-10-28 as a **partial model**, not fully verified. Own manufacturer product/manual establish effects-only guitar/bass multi-effects. All earlier lead-stage bodies and anchors remain below; their outside-inventory status is historical and superseded only by this admission. No ownership or live-market availability inferred.
