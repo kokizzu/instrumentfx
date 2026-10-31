@@ -321,6 +321,7 @@ Checked **2026-10-17**. Original Helix Floor; distinct from LT,Rack and Stadium.
 | Class | Amount | Exact offer and qualifications |
 |---|---:|---|
 | Indexed hardware ask;condition unverified | **Rp30.609.000** | [W Musik Official Shop,shop37016589/item24212177775][HF-O1],JakartaUtara;retrieved 2026-10-17,cache last month. Earlier 4-month index **Rp28.999.000**,June 3 delivery, retained as an older observation. Condition,variant,bundle,warranty, checkout stock **?**;mall badge does not establish condition. Late-delivery voucher not deducted. |
+| Cached hardware ask; condition unverified | **Rp30.719.700** | [Gelora Musik Serpong,shop306155985/item9603791651](https://shopee.co.id/Multi-Effect-Line-6-Helix-Floor-i.306155985.9603791651),Kab.Tangerang;retrieved **2026-10-31**,direct reader cache last month,arrival October2–3 already past. Earlier 3-month search index **Rp29.255.490**,arrival August1–3,retained as older evidence. No sold-out marker exposed; live stock,condition,variant,bundle and warranty **?**. Late-delivery voucher not deducted; this is neither a verified new nor used price. |
 | Historical hardware ask;condition unverified;**sold out** | **Rp19.850.000** | [SMOSYU MUSIC,shop397175630/item27006529188][HF-O2],Bekasi;retrieved 2026-10-17,cache last month,**Habis**. Condition/accessories/warrantyunknown;not a verified used price. |
 | Verified used offer | **?** | Not established |
 | Verified new offer | **?** | Sale condition not verified |

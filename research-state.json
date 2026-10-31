@@ -131334,5 +131334,41 @@
     ],
     "record": "ZOOM.md#g11--v2-factory-allocation-and-usb-level-controls",
     "next": "Remaining LCD models and current offers; keep independent general BOSS GT-Pro cursor."
+  },
+  "helix_floor_shopee_followup_20261031": {
+    "checked": "2026-10-31",
+    "record": "LINE6.md#helix-floor--separate-idr-offers",
+    "priority": "Individual LCD above footswitch models first",
+    "offer": {
+      "seller": "Gelora Musik Serpong",
+      "shop": "306155985",
+      "item": "9603791651",
+      "url": "https://shopee.co.id/Multi-Effect-Line-6-Helix-Floor-i.306155985.9603791651",
+      "region": "Kab.Tangerang",
+      "direct_cached_idr": 30719700,
+      "older_search_idr": 29255490,
+      "condition": "unverified",
+      "stock": "unverified; no sold-out marker exposed",
+      "bundle": "unverified",
+      "voucher": "not deducted",
+      "access": "Direct reader cached last month; October2–3 arrival stale. Older search cache three months,August1–3 arrival."
+    },
+    "unconfirmed_search_leads": [
+      {
+        "seller": "Seven Stereo Music & Audio Store",
+        "shop": "16879370",
+        "item": "1156364342",
+        "search_idr": 29590000,
+        "direct": "Cache miss; not promoted to verified offer"
+      },
+      {
+        "seller": "Tempo Music",
+        "shop": "18437660",
+        "item": "6815711065",
+        "search_idr": 20400000,
+        "direct": "Cache miss; search seller last active three years ago; not promoted to verified offer"
+      }
+    ],
+    "remaining": "No authenticated new/used condition or checkout stock. Continue exact LCD-model offers and unresolved technical fields; independent general cursor retained."
   }
 }
