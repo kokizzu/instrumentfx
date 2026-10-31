@@ -244,6 +244,18 @@ Checked2026-10-31: [own7.x manual](https://www.fractalaudio.com/downloads/manual
 | Expression / Auto-Engage alternative | A block modifier can engage/bypass by controller position or movement speed,with FAST/MEDIUM/SLOW response. Off Value selects the position threshold;the manual illustrates heel-bypass5% and toe-bypass95%. This is block/modifier configuration,not global volume assignment or proof of an independent physical toe switch. |
 | Expression / range distinction | Manual’s volume-modifier examples use0.00–10.0 and reversible ranges. These are **per-block modifier examples**,not verified endpoints for MIDI/Remote global Input/Output Volume. That global endpoint/recall gap remains open. |
 
+### FM3 — mini-display appearance and main-screen brightness
+
+Checked **2026-10-31**,[own7.x manual](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf),expressly covering MKII Turbo,printedpp97,109. Firmware13 behavior remains untested.
+
+| Field | Documented setting / qualification |
+|---|---|
+| Display / mini-screen appearance | **Mini-Display Contrast** adjusts onboard mini-LCD contrast;**Mini-Display + Ring Brightness** jointly sets their master brightness and ring brightness. **Invert Mini Displays** selects light text on a dark background. Numeric ranges/defaults and independent per-strip adjustment are not established here. |
+| Display / main-screen control | Utilities→Display has a Brightness slider for the built-in LCD. Do not equate it to the mini-display controls. |
+| Display / message timing | Message Hold sets temporary footswitch-message duration on the FM3 main screen or connectedFC display. It is distinct from contrast,brightness and Tap/Hold label selection. |
+
+These settings do not establish strip diagonal,touch or color-pixel specifications. No hardware operation,reset,download or visual inspection.
+
 ## FM9 MKII Turbo
 
 Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI seller item remains separate. Current product/store establish revision. Linked2022 manual covers original/Turbo but predates MKII display revision;historical physical figures below require current corroboration.

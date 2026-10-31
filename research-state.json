@@ -129966,7 +129966,9 @@
       "checked": "2026-10-31",
       "instruction": "Prioritize one with LCD on footswitch first",
       "next_models": [
-        "Fractal Audio FM3 MKII Turbo"
+        "Zoom G5n",
+        "Zoom G11",
+        "TC Electronic PLETHORA X3"
       ],
       "task": "Continue unresolved exact-model documentation and qualified hardware offers for individual LCD processors before OLED models. Retain the independent BOSS GT-Pro cursor.",
       "qualification": "Queue order is a research priority, not a recommendation or declaration of full verification.",
@@ -130003,6 +130005,13 @@
       "pages": "11,27",
       "finding": "UNIT1/2/3independentcontrast1–13;scrollingchain;ADDabsentat7effects;illustrated8notdefaultproof.",
       "remaining": "LCDdiagonal/color/touch,physicalcounts,fullcurrentlibraryandportconflictsremainopen."
+    },
+    "fm3_display_controls": {
+      "checked": "2026-10-31",
+      "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+      "pages": "97,109",
+      "finding": "MiniContrast,jointMini/RingBrightness,InvertMini;mainBrightnessseparate;MessageHolddurationnotappearance.",
+      "remaining": "Ranges/defaults/perstripindependence,screenphysicalpropertiesandfirmware13equivalenceunverified."
     }
   },
   "gt_pro_global_patch_level_20261031": {
