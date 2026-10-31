@@ -133460,6 +133460,11 @@
       "file": "ZOOM.md",
       "model": "G11",
       "heading": "### G11 — patch level, bank preselection and additional cached offer"
+    },
+    {
+      "file": "FRACTAL-AUDIO.md",
+      "model": "FM9 MKII Turbo",
+      "heading": "### FM9 — output mute, tuner mute and global EQ coverage"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -133783,6 +133788,27 @@
       "qualification": "Revision/bundle/adapter/warranty/authenticity/shipping/tax/checkout unknown;cached next-day banner not stock proof;voucher not deducted."
     },
     "remaining": "G11 full rotary visual corroboration,auxiliary-LCD dimensions/color/touch,current installed inventory and expression coverage remain unresolved.",
+    "downloads": false
+  },
+  "fm9_mute_eq_scope_20261101": {
+    "release_history": "https://manuals.plus/m/fc4c88f09cdfe1684d4526d72c54e4e86b0de29352a33b47c153a1dc5715d9b1.pdf",
+    "identity": "Original FM9 manufacturer12.00 history;matches manufacturer12.0 2026-07-07 listing",
+    "findings": [
+      {
+        "revision": "2.01,2022-04-15,PDF39,integrated2.0beta notes",
+        "finding": "Output1/2 Mode MUTE suppresses processed audio but leaves USB audible."
+      },
+      {
+        "revision": "5.00,2023-08-07,PDF29",
+        "finding": "Tuner INPUT mute only selected input."
+      },
+      {
+        "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+        "revision": "August2022 3.x,p93",
+        "finding": "GlobalEQ covers analog balanced/unbalanced/phones,not USB/digital."
+      }
+    ],
+    "qualification": "Different controls,not globalEXP endpoints/recall/bypass coverage. Original/Turbo historical scope,currentMKII behavior untested.",
     "downloads": false
   }
 }

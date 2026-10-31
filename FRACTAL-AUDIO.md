@@ -740,6 +740,19 @@ Checked **2026-11-01**, [manufacturer Blocks Guide,June2023,pp3,91](https://www.
 
 Later firmware11 Guitar/Bass tracking selection remains separately qualified above. Current complete category inventory,global EXP endpoints/recall andexact MKII physical corroboration remain open. No download ordevice operation.
 
+### FM9 — output mute, tuner mute and global EQ coverage
+
+Checked **2026-11-01**;original manufacturer text only,no device test orlocal download. These routes are distinct from continuous analog-pedal volume.
+
+| Field | Revision-qualified boundary |
+|---|---|
+| Live / output MUTE andUSB | [Manufacturer-authored release history](https://manuals.plus/m/fc4c88f09cdfe1684d4526d72c54e4e86b0de29352a33b47c153a1dc5715d9b1.pdf),**2.01,2022-04-15,PDFp39**,incorporating2.0beta notes:Output1/2 Mode **MUTE silences processed audio while USB playback remains audible**. This is not an all-source mute,whole-device bypass orproof of EXP attenuation. Document12.00 identity matches the current manufacturer listing already checked above. |
+| Live / tuner INPUT mute | Same original history,**5.00,2023-08-07,PDFp29**:tuner INPUT mute affects **only the selected input source**. Do not extend it to every input,USB return orrecorded loop. |
+| I/O / global EQ coverage | [Own FM9 manual,August2022 firmware3.x,printedp93](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf):global output EQ/level applies to analog balanced,unbalanced andheadphone outputs,**excluding USB/digital outputs**. This defines that separate process,not global expression-volume coverage. Original/Turbo scope;current MKII equivalence remains untested. |
+
+Global EXP numeric endpoints,held-position recall andbypass/direct-USB coverage remain unresolved. Earlier headphone/loop routing inferences retain their stated scope.
+
+
 ## VP4
 
 Admitted 2026-10-28 as a **partial model**, not fully verified. Own manufacturer product/manual establish effects-only guitar/bass multi-effects. All earlier lead-stage bodies and anchors remain below; their outside-inventory status is historical and superseded only by this admission. No ownership or live-market availability inferred.
