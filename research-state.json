@@ -138245,5 +138245,18 @@
     "access": "Original indexed FAQ text read; direct-access limitation retained.",
     "remaining": "Per-patch rhythm allocation, startup playback, external/global expression scope and output coverage not established.",
     "active_counts_changed": false
+  },
+  "gp50_suite_stem_splitter_scope_20261101": {
+    "checked": "2026-11-01",
+    "source": "https://apps.apple.com/us/app/valeton-suite/id6739420888",
+    "finding": "Developer Suite 2.1.0 release notes add Stem Splitter alongside explicit GP-50 firmware 1.1.0 support. Software feature, not onboard processing or native NAM.",
+    "remaining": "Stem count, formats, offline behavior and export unverified; app not installed or tested.",
+    "documentation_recheck": {
+      "manual": "https://www.valeton.net/download/312/online-manual/24248/gp-50_online-manual_en_firmware-v1-1-0-pdf.pdf",
+      "effect_list": "https://www.valeton.net/download/314/effect-list/24255/gp-50_effect-list_en_firmware-v1-1-0-pdf.pdf",
+      "effect_list_redirect": "https://res.diversitone.com/Uploads/wp/download/1787706039757.GP-50_Effect%20List_EN_Firmware%20V1.1.0.pdf",
+      "access": "Both redirect to inaccessible manufacturer resource host; no current contents or global EXP scope certified. Tonelify used only to locate original links; generated manual summaries excluded."
+    },
+    "active_counts_changed": false
   }
 }
