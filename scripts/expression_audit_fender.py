@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(fender): qualify firmware locales and microSD backup scope'))
+    print(git('commit','-m','research(fender): preserve exact UK-plug retail snapshot conflicts'))

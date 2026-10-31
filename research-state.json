@@ -138119,5 +138119,35 @@
     "finding": "Exact G11 Mac, iOS and iPadOS tested combinations transcribed in root brand record, separately from Handy Guitar Lab editor support.",
     "qualification": "Dated manufacturer testing, not our test or iOS/iPadOS26 USB-audio certification; no new global expression or routing inference.",
     "downloads": false
+  },
+  "tonemaster_sweelee_offer_conflicts_20261101": {
+    "checked": "2026-11-01",
+    "sources": [
+      "https://www.sweelee.co.id/products/fender-tone-master-pro-multi-effects-guitar-processor-uk-plug",
+      "https://www.sweelee.co.id/en/products/fender-tone-master-pro-multi-effects-guitar-processor-uk-plug"
+    ],
+    "product_code": "F03-227-4904-000",
+    "variant": "UK Plug",
+    "observations": [
+      {
+        "source": "https://www.sweelee.co.id/products/fender-tone-master-pro-multi-effects-guitar-processor-uk-plug",
+        "access": "Opened old cached body; reader age two years",
+        "idr": 33585000,
+        "stock": "Available wording conflicts with waitlist and explicit unavailable text",
+        "delivery": "Snapshot claims included tax/shipping; checkout not checked"
+      },
+      {
+        "source": "https://www.sweelee.co.id/products/fender-tone-master-pro-multi-effects-guitar-processor-uk-plug",
+        "access": "Search-only four-month cache",
+        "idr": 34145000
+      },
+      {
+        "source": "https://www.sweelee.co.id/en/products/fender-tone-master-pro-multi-effects-guitar-processor-uk-plug",
+        "access": "Search-only two-day cache; direct cache miss",
+        "idr": 37600000
+      }
+    ],
+    "qualification": "No verified temporal price trend,live range,current stock orused/new allocation. Not transferred to a different plug variant orShopee offer.",
+    "active_counts_changed": false
   }
 }
