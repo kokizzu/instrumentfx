@@ -137747,5 +137747,22 @@
       "No hardware, service request, local download or seller contact"
     ],
     "next": "General cursor remains GT-Pro:13/15 basis,otherUSB modes,globalFV precedence,visualcontrols andqualifiedIDR;individualLCD research keepspriority."
+  },
+  "fm3_original_conditional_copy_20261101": {
+    "model": "Fractal Audio::FM3 original",
+    "status": "partial direct Standard-covered routing evidence",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+    "revision": "7.x Standard andMKII covered,printed102–103",
+    "findings": [
+      "Output2Copy Input1/Output1/None works only if current preset has no Output2 block.",
+      "Output1 copying andUSB1/2 playback destinationOutput2 separately combine processed andcomputer audio."
+    ],
+    "qualifications": [
+      "Global audio copying is not global expression assignment",
+      "No inferred universal copy route or all-audio pedal attenuation",
+      "Endpoints,held-position recall,bypass/output coverage remain unresolved",
+      "No download,hardware operation orpreset edit"
+    ],
+    "next": "Continue individual-LCD capability gaps; independent BOSS GT-Pro cursor unchanged."
   }
 }
