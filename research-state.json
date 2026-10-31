@@ -132333,5 +132333,29 @@
       "No download,installation orhardwareoperation"
     ],
     "next": "Continue individual-LCD models;globalvolume gaps require assignment-specific evidence;independent BOSS GT-Pro generalcursor unchanged"
+  },
+  "b3n_connector_noise_boundary_20261031": {
+    "checked": "2026-10-31",
+    "model": "Zoom B3n",
+    "source": {
+      "url": "https://zoomcorp.com/media/documents/E_B3n.pdf",
+      "identity": "Ownmanual,©2016,Z2I-2783-01",
+      "pages": "Printed4–5completepanel inventory;47specifications",
+      "access": "Originalreadertext;notvisualinspection"
+    },
+    "findings": [
+      "No separate DIN MIDI,XLR orsend/return sockets in completepublished lists;USB MIDI explicit",
+      "Equivalentinputnoise printed119dBuwithoutminus;residualnoise−100dBu"
+    ],
+    "superseded_audio_summary_row": "| Audio / control ports | Mono standard instrument input;stereo mini AUX;R and L outputs;FP02 control;USB Micro-B. **Headphone arrangement conflicted:** manual rear-panel labels and product describe separate PHONES,while English/Japanese specifications say combined L/MONO/PHONES. Physical socket layout unresolved;do not silently prefer either description. Exact control wiring and MIDI/loop/XLR/phantom exclusions ?. | [Manual,p.47](https://zoomcorp.com/media/documents/E_B3n.pdf) |",
+    "qualifications": [
+      "Headphone separate-versus-combined wordingconflict preserved",
+      "Pinout/polarity,phantom,USB audio,poweralternatives andswitchtotals unresolved",
+      "No G3n/G3Xn catalogue count orUSB-audio exclusion transferred",
+      "No negative capability inferred from unsuccessful indexed searches",
+      "No download,installation ordeviceoperation"
+    ],
+    "search_result": "Exact2019catalogue B3n section lacks G3n/G3Xn USB-audio comparison table;retailer descriptions andimage captions notpromoted to manufacturercontrol counts",
+    "next": "Continue LCD-first withassignment-specific/globalvolume evidence orcondition-qualified hardwareoffers;avoid repeating unresolved B3ncount/audio searches withoutnewprimarysource;BOSS GT-Pro independentgeneralcursor unchanged"
   }
 }
