@@ -129533,6 +129533,13 @@
         "finding": "Category-colored LCDs;109effects,48scenes,model-specific ports/power/dimensions retained in root.",
         "shopee": "No qualified exact hardware offer found; IDR/condition/stock unknown.",
         "remaining": "Complete control inventory,AC/DC/polarity,editor and full profile reconciliation before admission."
+      },
+      "handbook": {
+        "checked": "2026-10-31",
+        "source": "https://line6.com/data/l/0a060072cb6448318d836f1b6/application/pdf/M13_Stompbox_Modeler_Users_Manual.pdf",
+        "identity": "RevC,40-00-0167,10PDFpages",
+        "finding": "A/B/C display state,one memory per unit;mono28/56s versusFAQ30/60 conflict.",
+        "remaining": "PowerAC/DC not established by model text;3FXunits typo and factory-fill ambiguity preserved."
       }
     },
     "collection_layout": {

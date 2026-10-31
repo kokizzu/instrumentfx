@@ -1039,6 +1039,14 @@ FAQ ports: stereo instrument input/output and stereo send/return,all unbalanced 
 
 Looper30s/60s half-speed,continues while changing scenes/effects. MIDI scene backup is documented; full editor platform support remains pending. Targeted exact M13 Shopee searches found no qualified offer; used/new IDR and stock stay unknown. Non-Shopee/overseas results were not substituted. This profile remains partial and outside active counts.
 
+### M13 — Rev C handbook operation and source conflicts
+
+Checked 2026-10-31 from the original [Pilot’s Handbook Rev C,40-00-0167](https://line6.com/data/l/0a060072cb6448318d836f1b6/application/pdf/M13_Stompbox_Modeler_Users_Manual.pdf),10 PDF pages. PDFpp4–5: display color follows category,with active A/B/C memory letter; only one memory per FX unit operates at once. Pressing its active switch bypasses that unit. TAP-synchronized parameters are excluded from expression control while synchronized.
+
+PDFp6 gives **28s mono /56s half-speed**,even when effects run stereo; FAQ30/60 remains a source conflict,not a confirmed firmware upgrade. The handbook describes four folders/48 scenes,but its adjacent scene paragraph says “3 FX Units” despite its four-unit architecture; retain that textual inconsistency. Twelve example scene names are provided,not proof that all48 locations are factory-filled.
+
+Rear inventory documents MIDI IN/OUT and normal guitar L/MONO input. Power text only says included Line6 supply; model-specific AC/DC and measured draw remain unresolved here. No community-post current estimates or sibling-device power specifications substituted. No download or visual audit.
+
 ## Other Line 6 records awaiting consolidation
 
 HX Stomp and HX Stomp XL already have research in legacy pages and are not newly discovered models. HX Effects is now root-canonical above. Merge the complete remaining records and sources before retiring the old files. POD Express Black is a distinct sound library but **an exact Indonesian Shopee hardware listing was not established in this pass**; Thai marketplace results must not be labelled Indonesian evidence. Ampero One is already recorded; do not restart that stale cursor. Keep brand/category/instrument documents at repository root and do not create or run GitHub workflows.
