@@ -131016,5 +131016,76 @@
       "Native/convertedNAMandnonlinearcaptureloading",
       "Layoutcountbasisandcurrentphysicalspecs"
     ]
+  },
+  "g5_regular_census_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://manualzz.com/doc/8594044/zoom-g-5-guitar-effects-and-amp-simulator-operation-manual",
+    "pages": "41–57",
+    "identity": "Original Zoom G5 operation-manual body;identity previously matched",
+    "regular_identifiers": {
+      "first": 1,
+      "last": 125,
+      "seen": 125,
+      "missing": []
+    },
+    "groups": [
+      {
+        "group": "Dynamics/gates",
+        "count": 8,
+        "numbers": "001–008"
+      },
+      {
+        "group": "EQ/filter",
+        "count": 13,
+        "numbers": "009–021"
+      },
+      {
+        "group": "Boost/drive/preamp",
+        "count": 20,
+        "numbers": "022–041"
+      },
+      {
+        "group": "Acoustic simulation",
+        "count": 1,
+        "numbers": "042"
+      },
+      {
+        "group": "Amp",
+        "count": 22,
+        "numbers": "043–064"
+      },
+      {
+        "group": "Modulation/pitch/special/synth",
+        "count": 28,
+        "numbers": "065–092"
+      },
+      {
+        "group": "Delay",
+        "count": 12,
+        "numbers": "093–104"
+      },
+      {
+        "group": "Reverb/ambience",
+        "count": 8,
+        "numbers": "105–112"
+      },
+      {
+        "group": "Combined effects",
+        "count": 7,
+        "numbers": "113–119"
+      },
+      {
+        "group": "Pedal-oriented final group",
+        "count": 6,
+        "numbers": "120–125"
+      }
+    ],
+    "total": 125,
+    "basis": "Editorial partition,notmanufacturer menuheadings;separate20ZPedalentriesandcabinetparametersnotaddedhere",
+    "remaining": [
+      "Firmwareeditionequivalence",
+      "Physicalcontrolandauxiliarydisplaydetails",
+      "Power/USBoperationandconditionqualifiedoffers"
+    ]
   }
 }

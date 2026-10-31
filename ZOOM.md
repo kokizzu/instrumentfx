@@ -3398,7 +3398,7 @@ Original guitar multi-effects; distinct from G5n. Manufacturer marks discontinue
 | K/F/B | **14 rotary controls** derived from four sections×three parameter knobs plus BOOST/TONE. Four numbered effect footswitches; pedal and booster switching are additional. Complete footswitch/button totals and visual corroboration pending. | [Product][ZG5-P]; [Manual p34][ZG5-M]; [Reproduced parts p4][ZG5-R4] |
 | Display | Four separate backlit displays, each with its own effect footswitch and control knobs, on the exact-model product page. Manufacturer-authored G5 manual reproduction p63 explicitly specifies **four LCDs**; checked2026-10-31. This confirms LCD classification independently of G5n; diagonal, graphics color and touch remain unverified. | [Product][ZG5-P]; [Indexed specifications][ZG5-M]; [Reproduced manufacturer specifications p63][ZG5-R63] |
 | Dimensions / mass | 190 D ×470 W ×90 H mm;3.1kg. | [Indexed specifications][ZG5-M] |
-| Processing / category choices | Up to9: eight regular effects plus one Z-Pedal effect. Product advertises123 effects plus22 amp/cabinet models; manual specifications say125 types plus Z-Pedal effects. Reproduced manufacturer manual p63 instead states145 types, arithmetically matching123+22 but not proving identical revision/content. Regular versus Z-Pedal counting is clarified below; product-total arithmetic is explained below; full functional subtotals and edition identity remain unresolved. | [Product][ZG5-P]; [Indexed manual introduction/specifications][ZG5-M]; [Reproduced specifications][ZG5-R63] |
+| Processing / category choices | Up to9: eight regular effects plus one Z-Pedal effect. Product advertises123 effects plus22 amp/cabinet models; manual specifications say125 types plus Z-Pedal effects. Reproduced manufacturer manual p63 instead states145 types, arithmetically matching123+22 but not proving identical revision/content. Regular versus Z-Pedal counting is clarified below; product-total arithmetic is explained below; the complete regular-list functional partition is recorded below; edition identity remains unresolved. | [Product][ZG5-P]; [Indexed manual introduction/specifications][ZG5-M]; [Reproduced specifications][ZG5-R63] |
 | Categories / regular and Z-Pedal census | Reproduced manual regular list ends at **125 PDL MnPit** (p57); separate Z-Pedal list runs **#1–#20** (pp59–61). Thus **125+20=145 listed entries**, explaining the p63 total versus indexed “125 plus Z-Pedal” wording. The 20 include **Custom**, a mapping mode for other effects, so 145 is not a claim of 145 unique audio algorithms. Cabinet Table1 has **22 named cabinets plus OFF** as amp parameters, not extra regular-numbered blocks. Product “123 effects+22 amp/cab models” is arithmetically explained in the next row; revision equivalence is not proven by arithmetic. | [Reproduced manual p57][ZG5-R57], [p58][ZG5-R58], [pp59–61][ZG5-R59]; checked2026-10-18 |
 | Categories / product-total reconciliation | Manufacturer-manual text on a second mirror identifies **22 amp entries 043–064** (FD COMBO through REVO-1), followed by Tremolo065. Arithmetic: **125 regular −22 amps =103 regular non-amp entries; 103+20 Z-Pedal =123; 123+22=145**. This provides a consistent counting explanation for the product wording, not proof of identical firmware editions or 145 distinct algorithms. Cabinet choices remain parameters. Second mirror matches the existing reproduction’s numbering, Z-Pedal list, 297 patches and G5 architecture; site FAQs are excluded. | [Manufacturer manual reproduction pp45–49][ZG5-R2]; checked2026-10-18 |
 | Processing / overload | DSP FULL bypasses **all effects**; disabled effects still consume the same processing allocation. Change types or select THRU to reduce demand. Do not inherit G3/G3X overflow behavior. | [Manufacturer manual reproduction p10][ZG5-R2]; checked2026-10-18 |
@@ -3462,6 +3462,30 @@ Checked2026-10-31;original G5,notG5n.
 | Power / appendix qualification | [Another original-manual reproduction](https://manualzz.com/doc/51424546/zoom-music-pedal-g5-operation-manual) matches G5’s Z-Pedal,tube booster,297patches and G5-5000-1 imprint,but appends a separately titled **USB/Cubase LE Startup Guide** with generic“this unit”,battery diagrams and USB-bus-power advice. That appendix does not independently settle G5 battery/USB operation;retain unknown and seek model-specific confirmation. The reproduced operation-manual pagination also differs from the existing mirror;do not merge its page numbers silently. |
 
 Hope Music shop/search snapshots also expose a Tube Booster offer with differing asks,but no exact item ID was recovered;not admitted as another priced hardware record. No local downloads or device operation.
+
+### G5 — complete regular-list functional census
+
+Checked **2026-10-31** in the [manufacturer-authored G5 manual reproduction](https://manualzz.com/doc/8594044/zoom-g-5-guitar-effects-and-amp-simulator-operation-manual), printed pp41–57. Exact document identity is established above. All regular identifiers **001–125** were inspected with no missing number. Groups are an editorial partition, not manufacturer menu headings.
+
+| Comparison grouping | Choices | Manual model numbers |
+|---|---:|---|
+| Dynamics/gates | 8 | 001–008 |
+| EQ/filter | 13 | 009–021 |
+| Boost/drive/preamp | 20 | 022–041 |
+| Acoustic simulation | 1 | 042 |
+| Amp | 22 | 043–064 |
+| Modulation/pitch/special/synth | 28 | 065–092 |
+| Delay | 12 | 093–104 |
+| Reverb/ambience | 8 | 105–112 |
+| Combined effects | 7 | 113–119 |
+| Pedal-oriented final group | 6 | 120–125 |
+
+| Field | Reconciliation |
+|---|---|
+| Categories / functional totals | Dynamics/gates8;EQ/filter13;boost/drive/preamp20;acoustic1;amp22;modulation/pitch/special/synth28;delay12;reverb/ambience8;combined7;pedal-oriented6: **125 regular entries**. [Number mapping](ZOOM.md#g5--complete-regular-list-functional-census);[original manufacturer text](https://manualzz.com/doc/8594044/zoom-g-5-guitar-effects-and-amp-simulator-operation-manual). |
+
+The separate20-entry Z-Pedal list includes Custom mapping. Cabinet selections remain amp parameters. Thus125+20=145 is a documented-entry total,not145 distinct audio algorithms;this census does not certify installed firmware or resolve edition equivalence. No downloads orvisual/hardware test.
+
 
 ## G5n
 
