@@ -130352,7 +130352,8 @@
       "checked": "2026-10-31",
       "instruction": "Prioritize one with LCD on footswitch first",
       "next_models": [
-        "Line 6 HX Effects remaining profile gaps"
+        "Fractal Audio FM3 MKII Turbo remaining global-volume endpoints and coverage",
+        "Line 6 HX Effects exact Volume model ranges and qualified IDR offers"
       ],
       "task": "Continue unresolved exact-model documentation and qualified hardware offers for individual LCD processors before OLED models. Retain the independent BOSS GT-Pro cursor.",
       "qualification": "Queue order is a research priority, not a recommendation or declaration of full verification.",
@@ -130436,6 +130437,17 @@
       ],
       "supported": "EP1-L6 explicitly lists HX Effects: 10k ohm linear pot, single TS cable. General Helix/HX note also names EX-1.",
       "limits": "Supported combination only, not full input resistance tolerance/internal schematic or compatibility of unrelated pedals. No global volume assignment, endpoints or physical test established."
+    },
+    "hx_effects_reuse_scope": {
+      "checked": "2026-10-31",
+      "source": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+      "pages": [
+        13,
+        14,
+        15
+      ],
+      "finding": "Favorites and User Model Defaults do not propagate edits into existing presets; controller assignments excluded. Pedal Edit temporarily adjusts selected parameter using EXP or switches, not global target assignment.",
+      "unresolved": "Numeric Volume model endpoints, newer/installed firmware library, display details, condition-qualified IDR hardware offers and global-volume coverage remain open."
     }
   },
   "gt_pro_global_patch_level_20261031": {
