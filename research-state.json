@@ -129327,7 +129327,14 @@
     "fm3": {
       "checked": "2026-10-31",
       "source": "https://www.fractalaudio.com/fm3/",
-      "finding": "Three individual mini LCDs; virtual12-switch layouts distinguished from physical displays."
+      "finding": "Three individual mini LCDs; virtual12-switch layouts distinguished from physical displays.",
+      "shopee_followup": {
+        "checked": "2026-10-31",
+        "source": "https://shopee.co.id/Fractal-FM3-MKII-Turbo-Amp-Modeler-Multi-FX-i.182719800.55801628505",
+        "idr": 25502000,
+        "status": "Habis,with voucher",
+        "qualification": "Same item as historical25552000; snapshot voucher terms conflict. No independent new/used or stock confirmation."
+      }
     },
     "fractal_fc": {
       "checked": "2026-10-31",

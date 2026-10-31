@@ -161,6 +161,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; origina
 |---|---:|---|
 | Condition-unverified indexed preorder | **Rp25.552.000** | [Hurtrock Music Store Bandung,seller11170212/item27200713719](https://shopee.co.id/Fractal-FM3-MKII-Turbo-Amp-Modeler-Multi-FX-i.11170212.27200713719). KotaBandung;three-month index says7day preorder/22July delivery;direct reader returns JavaScript shell. Checked2026-10-17;current stock,new/used,bundle,warranty,variant,voucher unverified. |
 | Condition-unverified sold-out indexed ask | **Rp25.552.000** | [HurtrockMusicStore,seller182719800/item55801628505](https://shopee.co.id/Fractal-FM3-MKII-Turbo-Amp-Modeler-Multi-FX-i.182719800.55801628505). KotaBandung;three-month index says **Habis**. Separate seller/item,not independent confirmed stock or sale. |
+| Later sold-out voucher snapshot,checked2026-10-31 | **Rp25.502.000** | Same [HurtrockMusicStore182719800/item55801628505](https://shopee.co.id/Fractal-FM3-MKII-Turbo-Amp-Modeler-Multi-FX-i.182719800.55801628505),Bandung; **Habis,Dengan Voucher**. Search last-week snapshot advertisesRp1m spend/Rp50k discount; direct two-month snapshot insteadRp100k/10%. Eligibility/cap/checkout unverified; no further subtraction. EarlierRp25.552.000 observation above remains dated history,not a second unit. Condition,bundle,adapter,warranty and current stock unknown. |
 | Verified new IDR | ? | Retail identity alone does not prove new condition. |
 | Verified used IDR | ? | Not established. |
 
