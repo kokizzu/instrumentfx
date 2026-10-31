@@ -863,3 +863,9 @@ Checked **2026-11-01** against the [manufacturer-authored1.5.6 release history,u
 Units running **1.0.101 must first update to1.1.55 before1.2.18 ornewer**,according to the maker. This is a documented migration prerequisite,not a claim about a seller’s installed version orcurrent download availability.
 
 System Export reboots the unit andplaces a restore file onits USB drive. To expose System Import,the guide places a **`.restore` file onthe Plethora USB drive andthen reboots**. Import applies that snapshot andoverwrites the locally stored restore point;applying/importing also replaces user content andfirmware as already qualified above. Exported contents were not inspected;this does not prove preserved recorded loops,held expression position orcross-model compatibility. No update,restore ordevice operation performed.
+
+### PLETHORA X5 — storefront-only Indonesia lead
+
+Checked **2026-11-01**. A two-month search snapshot of [chillshopping.id](https://shopee.co.id/chillshopping.id?entryPoint=ShopByPDP) lists **TC ELECTRONIC PLETHORA X5 BMJ,Rp20.916.000**,beside a Produk Baru badge. That storefront badge is not an item-level condition verification. The opened three-month snapshot instead contains sports products andno X5 item link;different retrieved copies do not prove stock loss,store ownership change orfraud.
+
+Exact shop/item IDs,meaning ofBMJ,processor/variant/bundle contents,condition,working state,adapter,warranty,region,voucher andcheckout remain unknown. **Discovery lead only,excluded from comparison prices andnew/used ranges.** No contact,purchase,local download ordevice operation. Existing exact-item offers andtheir historical qualifications remain unchanged.
