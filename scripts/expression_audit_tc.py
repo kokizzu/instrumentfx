@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff', '--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(tc): qualify X5 Board capacity and dimension labels'))
+    print(git('commit','-m','research(tc): date X3 inventory claims against current product page'))

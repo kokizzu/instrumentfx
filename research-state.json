@@ -130352,7 +130352,8 @@
       "checked": "2026-10-31",
       "instruction": "Prioritize one with LCD on footswitch first",
       "next_models": [
-        "TC Electronic PLETHORA X3"
+        "Line 6 HX Effects remaining profile gaps",
+        "Zoom G5 LCD technology"
       ],
       "task": "Continue unresolved exact-model documentation and qualified hardware offers for individual LCD processors before OLED models. Retain the independent BOSS GT-Pro cursor.",
       "qualification": "Queue order is a research priority, not a recommendation or declaration of full verification.",
@@ -130396,6 +130397,24 @@
       "pages": "97,109",
       "finding": "MiniContrast,jointMini/RingBrightness,InvertMini;mainBrightnessseparate;MessageHolddurationnotappearance.",
       "remaining": "Ranges/defaults/perstripindependence,screenphysicalpropertiesandfirmware13equivalenceunverified."
+    },
+    "x3_current_inventory_scope": {
+      "checked": "2026-10-31",
+      "source": "https://www.tcelectronic.com/en/products/0709-AIS",
+      "finding": "Currentpage127Boards/75perpedal,omitsolder16names;TapeDeckexclusivewordingconflictswithownX5history,noremovalinferred. Technicaltablecorroboratesbody/ports/bypass.",
+      "offers": [
+        {
+          "item": "158235298/28021818540",
+          "idr": 6180000,
+          "access": "4monthindex,condition/stockunknown"
+        },
+        {
+          "item": "306155985/23943061836",
+          "idr": 7508100,
+          "access": "6monthindex,serviceunavailable,condition/stockunknown"
+        }
+      ],
+      "remaining": "Currentcompleteinventory,looperlimits,screenphysicalpropertiesandqualifiedconditionoffersunresolved."
     }
   },
   "gt_pro_global_patch_level_20261031": {

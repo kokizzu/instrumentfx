@@ -416,8 +416,8 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | Expression | No built-in treadle; **three pressure-sensitive MASH footswitches** provide assignable expression. External EXP socket absent from complete specification connector list; toe separate unresolved. | [Product][PX3-P]; [QSG p23][PX3-M] |
 | K/F/B | **5 rotary /3 footswitches /0 separate buttons** from complete textual control inventory:Effect,TonePrint,three parameter knobs;three MASH. Play/Edit and Board selector switches separate;push encoders counted once. Earlier button uncertainty resolved by inventory,not visual inspection. | [QSG controls/specifications][PX3-M];[original V0.0 copy pp18–19,63][PX3-QM] |
 | Display | **Three LCD slot displays**, corresponding to the three effect footswitches. PLAY shows each slot’s active effect; EDIT uses them for pedal/TonePrint lists and parameter settings. Diagonal/color/touch unresolved. Own V0.0 guide, printed18–19, reopened2026-10-29; text evidence, not visual inspection. | [Manufacturer-authored guide][PX3-QM] |
-| Processing / categories | **Three effect slots**, flexible order; numerical DSP restrictions pending. Current product lists Phaser, Vibe, Looper, Reverb, Delay, Octaver, Pitch Shifter, Chorus, Compressor, Doubler, Flanger, Tremolo, Harmony, Gate, Vibrato, Vintage Echo. Later own-applicable additions and count basis below;complete latest library unverified. | [Product][PX3-P] |
-| Categories / documented choice counts | Product lists **16**:modulation6,pitch/octave/harmony3,delay2,and reverb/compression/doubler/gate/looper1 each. **1.5.6 adds Infinite Sample Sustainer**,giving17 known effects;Tap/Tuner utility separate. Derived union,not a certified complete newest library. | [Own product][PX3-P];[Shared release notes][PX3-F156] |
+| Processing / categories | **Three effect slots**, flexible order; numerical DSP restrictions pending. Product snapshot checked2026-10-17 lists Phaser, Vibe, Looper, Reverb, Delay, Octaver, Pitch Shifter, Chorus, Compressor, Doubler, Flanger, Tremolo, Harmony, Gate, Vibrato, Vintage Echo. Later own-applicable additions and count basis below;complete latest library unverified. | [Product][PX3-P] |
+| Categories / documented choice counts | Historical product snapshot lists **16**:modulation6,pitch/octave/harmony3,delay2,and reverb/compression/doubler/gate/looper1 each. **1.5.6 adds Infinite Sample Sustainer**,giving17 known effects;Tap/Tuner utility separate. Derived union,not a certified complete newest library. | [Own product][PX3-P];[Shared release notes][PX3-F156] |
 | Categories / Infinite restriction | Firmware**1.5.6,2025-03-23** sustainer holds notes/chords but omits standalone Infinite’s reverb and Kill Dry;reverb needs another slot. Sample sustain does not establish an oscillator synth. | [Shared release notes][PX3-F156] |
 | Editor / newer effect requirement | Infinite editing needs **TonePrint4.6.18 and refreshed content**. Earlier4.2+ guide requirement is not enough for this later effect. Installed versions/currentOS support unverified. | [Shared release notes][PX3-F156] |
 | Live / newer footswitch modes | **1.5.6 adds momentary and momentary+MASH**;effect engages while held. Second-foot-function None renamed Latching. | [Shared release notes][PX3-F156] |
@@ -460,7 +460,7 @@ Checked2026-10-18.
 | Field | Evidence / qualification |
 |---|---|
 | I/O / bypass specification | Own-model quick guide V0.0,printedp63,lists **True Bypass**. This is a manufacturer specification,not a measured bypass test orproof of trails/power-failure behavior. [Manufacturer-authored copy][PX3-QM] |
-| Category choices / exact base names16 | HELIX PHASER;VISCOUS VIBE;TAPE DECK LOOPER;HALL OF FAME2 REVERB;FLASHBACK2 DELAY;SUB N UP OCTAVER;BRAINWAVES PITCH SHIFTER;CORONA CHORUS;HYPERGRAVITY COMPRESSOR;MIMIQ DOUBLER;VORTEX FLANGER;PIPELINE TAP TREMOLO;QUINTESSENCE HARMONY;SENTRY NOISE GATE;SHAKER VIBRATO;ALTER EGO VINTAGE ECHO. These are the own-model product page’s16base entries already counted above,not16simultaneous effects;laterInfinite addition remains separate. [Exact manufacturer product][PX3-P] |
+| Category choices / exact base names16 | HELIX PHASER;VISCOUS VIBE;TAPE DECK LOOPER;HALL OF FAME2 REVERB;FLASHBACK2 DELAY;SUB N UP OCTAVER;BRAINWAVES PITCH SHIFTER;CORONA CHORUS;HYPERGRAVITY COMPRESSOR;MIMIQ DOUBLER;VORTEX FLANGER;PIPELINE TAP TREMOLO;QUINTESSENCE HARMONY;SENTRY NOISE GATE;SHAKER VIBRATO;ALTER EGO VINTAGE ECHO. These are the saved2026-10-17 own-model product snapshot’s16base entries already counted above,not16simultaneous effects;laterInfinite addition remains separate. [Exact manufacturer product][PX3-P] |
 
 ### PLETHORA X3 — factory content and Board operations, 2026-10-18
 
@@ -482,6 +482,14 @@ Checked2026-10-18.
 | Expression / exact MIDI range | [Newly linked official X5/X3 table](https://cdn-media.empowertribe.com/c4ab468ba07f481080559bfc432c679c/PX5_3_MIDI_CC_table.pdf) prints **CC100:0–125→0–100%**,unlike adjacent0–127 mappings. Preserve this unusual range;126/127 behavior unverified. CC94/95 trigger Board down/up at64–127,0–63 inactive. MIDI expression still does not establish direct analog EXP or global master-volume assignment. |
 
 No local files downloaded,software installed or hardware tested.
+
+### PLETHORA X3 — current page versus historical inventory
+
+Checked **2026-10-31**,[current exact-model manufacturer page][PX3-P]. It still specifies **127 Boards,75 TonePrints per pedal**,but no longer enumerates the saved16base effect names. Keep those names and the separate1.5.6 Infinite addition as dated evidence;do not certify a complete current17-effect library. The page calls Tape Deck Looper X3-exclusive,while own X5 history documents it there too;this wording is not proof of X5 removal or a different algorithm.
+
+Its technical table independently corroborates **True Bypass,1MΩ inputs,Mini-B USB,176.53W×116.75D×56.02Hmm and0.775kg**. No newly established analogEXP,phones or looper-duration specification follows.
+
+Exact Shopee recheck:NEO item158235298/28021818540 remainsRp6.180.000,four-month cache;Gelora306155985/23943061836 remainsRp7.508.100,six-month cache andservice unavailable. No new condition/stock or checkout verification;older observations retained.
 
 <!-- comparison evidence ends -->
 
