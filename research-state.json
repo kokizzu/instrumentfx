@@ -132242,5 +132242,38 @@
       "No download,installation ordevice operation"
     ],
     "next": "Continue individual-LCD model gaps;exact used/newcondition evidence remains needed;BOSS GT-Pro independent general cursor preserved"
+  },
+  "fm3_current_dynacab_drivers_20261031": {
+    "checked": "2026-10-31",
+    "model": "Fractal Audio FM3 MKII Turbo",
+    "sources": [
+      {
+        "url": "https://support.fractalaudio.com/en-US/how-to-resolve-dyna-cabs-not-installed-or-incorrect-version-286538",
+        "identity": "Manufacturer support article linked directly by current FM3 downloads",
+        "scope": "FM3-specific12.0+row;1.09DynaCabs;original articletext"
+      },
+      {
+        "url": "https://www.fractalaudio.com/fm3-downloads/",
+        "scope": "Original/Turbo firmware13.0July16,2026;Windows bundleJune10,2026"
+      }
+    ],
+    "findings": [
+      "FM3 firmware12.0+requires DynaCabs1.09,covering listed13.0",
+      "Missing/wrongcabdata startupwarning;separate .syx maintenance path through editorFractal-Bot",
+      "Current Windows audio6.16+serial1.3bothrequired,Windows10+x86/x64/ARM;7/8legacy1.1"
+    ],
+    "qualifications": [
+      "No native ARM editor certification inferred from driver listing",
+      "Malformed/incomplete older support table rows andreused download links not generalized",
+      "No actual installedcab/firmware/editor content inspected",
+      "No binarylinks followed,downloads,installation ordevice operation",
+      "Not NAM/amp capture support"
+    ],
+    "remaining": [
+      "Global analog-volume endpoints,startup position andbypass coverage",
+      "Current algorithm census andshippingfactorycontents",
+      "LCDdiagonal,touch andverifiedIndonesian new/usedoffers"
+    ],
+    "next": "Continue individual-LCD models before OLED/shared/unconfirmed models;independent BOSS GT-Pro general cursor unchanged"
   }
 }
