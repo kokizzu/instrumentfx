@@ -129356,6 +129356,12 @@
         "finding": "Computerrecord1/2main,3/4Out2;playback1/2mainmix,3/4Out2,5/6Input1block,7/8USBblock. Aux/DIrecordchannelnumbersnotassignedbyparagraph.",
         "remaining": "GlobalEXPcoverageofUSBplayback/phones/bypass/tails/loopunknown;currentMKIIphysicalratingsstilluncorroborated.",
         "offer_recheck": "Hurtrock11170212/25331147281 unchanged44395000,lastmonthindex,directJSonly;stock/conditionunknown."
+      },
+      "synth_20261101": {
+        "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+        "identity": "June2023 pp3,91,explicitFM9column",
+        "finding": "OneSynth/fourchannels/threeoscillators,monophonicinput;7waveformsplusOff;Off/EnvOnly/PitchEnv tracking. No polyphonicinput inference.",
+        "remaining": "CurrentMKIIequivalence/fullcensus unknown;downloads stillv12July7,2026 andmanual3.xAugust2022;no newglobalvolume endpoints/recall evidence."
       }
     },
     "fm3": {
@@ -130675,7 +130681,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Continue remaining confirmed individual-LCD processors: FM9 MKII Turbo then Helix Floor current-model gaps,followed by Zoom no-treadle LCD models. First four priority sources rechecked;retain unresolved globalEXP/range/recall andsourceaccess blockers rather than treating a pass as completion. OLED/shared-screen/controllers stay secondary. Preserve independent BOSS GT-Pro cursor anddeferred no-treadle tasks.",
+      "next_check": "Helix Floor remaining exact-current LCD/control gaps,then Zoom no-treadle LCD processors. FM9 oscillator architecture saved;globalEXP endpoints/recall/currentMKIIphysical corroboration still unresolved. Prioritize new evidence over repeating unchanged manuals. Preserve independent BOSS GT-Pro cursor anddeferred no-treadle tasks;OLED/shared-screen/controllers secondary.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133379,6 +133385,11 @@
       "file": "FENDER.md",
       "model": "Tone Master Pro",
       "heading": "### Tone Master Pro — compound switch functions and historical response fixes"
+    },
+    {
+      "file": "FRACTAL-AUDIO.md",
+      "model": "FM9 MKII Turbo",
+      "heading": "### FM9 — oscillator synthesis versus polyphonic tracking"
     }
   ],
   "model_note_scope_correction_20261101": {

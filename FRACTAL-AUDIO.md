@@ -456,7 +456,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI selle
 | Simultaneous blocks / category choices | Two amp blocks,four channels each;**325+ amp choices**,57+drive,50+reverb current product headlines. CPU-dependent concurrency,current category census unresolved. [June2023 FM9 type/instance table](#fm9--historical-block-inventory) is retained below,not current MKII certification.2022manual instead59+drive/60+reverb;retain revision/source conflict.14×6grid is not84 guaranteed effects. [Product][f9-p];[Manual][f9-m] p.2. |
 | Preset / factory / user memory | **512 presets,8 scenes,four channels in most blocks**. Historical manual permits overwriting every location;factory-filled subset unknown. [Store][f9-s];[Manual][f9-m] p.39. |
 | IR / NAM / captures | **2200+factory cabs,1024user IRs**,UltraRes/DynaCab.2022manual lists WAV/IR/SYX import and16scratchpads;current format/length limits unresolved. Native NAM,converted NAM,user amp capture import unverified. [Store][f9-s];[Manual][f9-m] p.2. |
-| Synth / acoustic | Synth algorithms explicitly named;acoustic/piezo routing documented historically. Dedicated acoustic-simulation algorithm inventory unresolved;body IR enhancement differs. [Product][f9-p];[Manual][f9-m] p.38. |
+| Synth / acoustic | **Three-oscillator monophonic Synth**,one block/four stored channels inJune2023 guide;[waveforms andtracking modes](#fm9--oscillator-synthesis-versus-polyphonic-tracking). Acoustic/piezo routing documented historically;dedicated acoustic simulation remains unverified. Current MKII equivalence untested. [Product][f9-p];[Manual][f9-m] p.38. |
 | I/O | Instrument¼-inch input;two balanced stereo¼-inch input pairs;three stereo outputs:Out1 XLR+Humbuster¼-inch,Out2 XLR,Out3 Humbuster¼-inch;phones;three pedal jacks;FASLINKII;S/PDIFin/out48kHz. Manual addsUSB-B,MIDIDINin/out-thru,mains. Humbuster is not ordinary balanced output. [Product][f9-p];[Manual][f9-m] pp.21–22,128. |
 | USB functions | **8×8audio plusUSB MIDI**,record/play/reamp;computer playback1/2→main outs,3/4→Out2,5/6→Input1 block,7/8→USB grid block. Direct output playback and grid processing are different routes;see [routing qualification](FRACTAL-AUDIO.md#fm9--usb-playback-and-record-routing). Distinct from FM3 proprietaryCOMM-only MIDI limitation. USB audio does not prove USB power. [Product][f9-p];[Store][f9-s]. |
 | Power / battery / USB operation | Historical manual:**90–264VAC,47–63Hz,<40W**;CR2032backs memory,not operating battery. Current MKII consumption confirmation unresolved. DCpolarity/current not applicable to mains inlet;USB/battery operation unverified. [Manual][f9-m] p.128. |
@@ -727,6 +727,18 @@ Checked **2026-11-01**, [manufacturer-authored release history](https://manuals.
 
 Installed versions andcurrent MKII pedal range/output coverage remain unverified. No download ordevice operation.
 
+
+### FM9 — oscillator synthesis versus polyphonic tracking
+
+Checked **2026-11-01**, [manufacturer Blocks Guide,June2023,pp3,91](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf),explicit FM9 column;[own FM9 manual3.x,p44](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf) independently describes three-voice monophonic synthesis. Historical Original/Turbo documentation,not current MKII firmware12 testing.
+
+| Field | Documented synthesis / limit |
+|---|---|
+| Synth / architecture | **One Synth block,four stored channels,three oscillators**;tracks single-note playing. Three generated voices do not establish polyphonic input tracking orthree simultaneous Synth blocks. |
+| Synth / waveform choices | **Seven:** Sine,Triangle,Square,Sawtooth,Random,White Noise,Pink Noise;OFF disables a voice to conserve CPU. These are oscillator choices,not seven independently loaded effects. |
+| Synth / tracking modes | **OFF** manually sets frequency/level;**ENV ONLY** follows input level with manual frequency;**PITCH+ENV** follows input pitch andlevel. Each voice has its own filter andlevel. This establishes an oscillator synth,not merely a synth-like filter oramp capture. |
+
+Later firmware11 Guitar/Bass tracking selection remains separately qualified above. Current complete category inventory,global EXP endpoints/recall andexact MKII physical corroboration remain open. No download ordevice operation.
 
 ## VP4
 
