@@ -1028,6 +1028,14 @@ Checked 2026-10-31 using the manufacturer’s [M13 v2.0 Advanced Guide, ©2009](
 
 This is a partial lead outside active counts. Complete controls,I/O,power,dimensions,mass,category census,software and qualified Shopee Indonesia used/new hardware offers remain pending. The guide distinguishes per-Scene FX expression assignments from global looper-pedal assignment (§2•2); the latter does not prove global guitar-volume control. No local download, device operation or visual inspection.
 
+### M13 — manufacturer FAQ profile follow-up
+
+Checked 2026-10-31: [exact-model Line6 FAQ](https://kb.line6.com/m13-stompbox-modeler-faq) confirms category-colored LCDs with per-screen color matching; touch/diagonal remain unknown. Firmware2.04: **109 effects =30 distortion/compressor/EQ/volume +22 modulation +26 filter/pitch +19 delay +12 reverb**; no amp/cab models. **Four simultaneous**,12 available per scene; firmware2.01 provides **48 scenes (4×12)**,not additional protected factory memory. Initial fill remains unknown.
+
+FAQ ports: stereo instrument input/output and stereo send/return,all unbalanced quarter-inch;two EXP jacks. External pedals: passive10kΩ linear,mono quarter-inch cable. Included PX-2 rating9V/2000mA/2.5mm;FAQ does not specify AC/DC/polarity here. Battery operation explicitly absent. Published dimensions15.5L×12W×3.5H inches;10.2lb. Preserve axes; no silent conversion to chassis W/D.
+
+Looper30s/60s half-speed,continues while changing scenes/effects. MIDI scene backup is documented; full editor platform support remains pending. Targeted exact M13 Shopee searches found no qualified offer; used/new IDR and stock stay unknown. Non-Shopee/overseas results were not substituted. This profile remains partial and outside active counts.
+
 ## Other Line 6 records awaiting consolidation
 
 HX Stomp and HX Stomp XL already have research in legacy pages and are not newly discovered models. HX Effects is now root-canonical above. Merge the complete remaining records and sources before retiring the old files. POD Express Black is a distinct sound library but **an exact Indonesian Shopee hardware listing was not established in this pass**; Thai marketplace results must not be labelled Indonesian evidence. Ampero One is already recorded; do not restart that stale cursor. Keep brand/category/instrument documents at repository root and do not create or run GitHub workflows.

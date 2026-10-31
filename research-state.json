@@ -129474,7 +129474,14 @@
       "identity": "M13 v2.0 Advanced Guide,©2009,37PDFpages",
       "finding": "Four LCD FX units with A/B/C memories each; not one display per effect switch.",
       "active": false,
-      "next": "Complete exact-model profile and Shopee discovery before inventory admission."
+      "next": "Complete exact-model profile and Shopee discovery before inventory admission.",
+      "faq_followup": {
+        "checked": "2026-10-31",
+        "source": "https://kb.line6.com/m13-stompbox-modeler-faq",
+        "finding": "Category-colored LCDs;109effects,48scenes,model-specific ports/power/dimensions retained in root.",
+        "shopee": "No qualified exact hardware offer found; IDR/condition/stock unknown.",
+        "remaining": "Complete control inventory,AC/DC/polarity,editor and full profile reconciliation before admission."
+      }
     }
   }
 }
