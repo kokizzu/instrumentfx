@@ -132611,5 +132611,19 @@
     "product_reconciliation": "67 stomp effects plus five amps and five cabinets =77. Twelve starred additions yield89 parameter-sheet entries. Product modulation17 combines11 modulation+six SFX.",
     "limits": "Manual80-type scope, later Effect Pool and installed library remain unresolved. Images provided no inspectable visual data; headphone-layout conflict remains.",
     "next": "Continue individual-LCD models; do not repeat B3n 67-versus89 as unexplained. Independent BOSS GT-Pro cursor unchanged."
+  },
+  "fm9_firmware11_bass_additions_20261031": {
+    "checked": "2026-10-31",
+    "model": "Fractal Audio FM9 MKII Turbo",
+    "source": "https://manuals.plus/m/fc4c88f09cdfe1684d4526d72c54e4e86b0de29352a33b47c153a1dc5715d9b1.pdf",
+    "revision": "FM9 11.00, 2026-01-19, PDF pp3–5; original manufacturer release body",
+    "findings": [
+      "Four bass Drive choices, including distinct NoAmp DI versus Pre behavior",
+      "Deluxe6G3, Citrus Juicer, two graphic EQ types and Surround Delay",
+      "Three DynaCabs plus corresponding impedance curves",
+      "Synth/Ring Mod bass tracking down to approximately F-sharp0"
+    ],
+    "limits": "Not a complete current inventory, DSP concurrency guarantee or installed-content confirmation; no download or device test.",
+    "next": "Continue individual-LCD processor gaps before OLED/shared-screen research. Independent BOSS GT-Pro cursor unchanged."
   }
 }

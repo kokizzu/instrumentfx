@@ -607,6 +607,19 @@ Checked2026-10-31 in the [manufacturer-authored release PDF](https://manuals.plu
 
 These are documented update increments,not complete current category totals,simultaneous instances or proof of installation. They do not certify that every older model remains unchanged or that all models can run together. Product325+/57+/50+ headlines and the historical block inventory retain separate scope. No download,update ordevice operation.
 
+### FM9 — firmware11 bass models and tracking
+
+Checked **2026-10-31**, [manufacturer-authored original release history](https://manuals.plus/m/fc4c88f09cdfe1684d4526d72c54e4e86b0de29352a33b47c153a1dc5715d9b1.pdf), **11.00,2026-01-19**,PDFpp3–5. Exact FM9 document;its12.00 heading matches the current manufacturer download listing.
+
+| Field | Version11 additions / qualification |
+|---|---|
+| Category choices / bass drives | **Four:** PI Fuzz–Bass;NoAmp Bass DI;NoAmp Bass Pre;Royal Bass DI. NoAmp Bass Pre bypasses the modeled speaker emulation and can feed a Cabinet block or boost an Amp. DI model names do not add physical XLR inputs oroutputs. |
+| Category choices / other additions | Amp **Deluxe6G3**;compressor **Citrus Juicer**;Graphic EQ **7 Band Pedal,7 Band Bass Pedal**;Delay **Surround Delay**. These are named processing choices,not additional simultaneous blocks. |
+| IR / DynaCab additions | **1×8 Princetone,1×12 Black Magick,8×10 SV Bass**,with corresponding impedance curves. Included DynaCabs are distinct from user-IR slots oramp captures. |
+| Synth / bass tracking | **Synth and Ring Mod** gain Guitar/Bass Tracking Mode. Bass shifts detection down an octave,to approximately **F♯0**;this does not establish polyphonic oscillators ortracking accuracy on every instrument. |
+
+These are release-specific increments,not a full current census orproof of installed content. No download,update ordevice test.
+
 
 ## VP4
 
