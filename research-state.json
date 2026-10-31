@@ -132848,5 +132848,15 @@
     "finding": "Added state-dependent one-/two-unit stop,undo/redo anddelete gestures;local loop volume0–100 is distinct fromglobal EXP assignment.",
     "limits": "Text inspection only. Screenshot tool returned reference without image payload;physical census remains unresolved. No device operation.",
     "next": "Continue LCD-first exact-model evidence andqualified Shopee discovery;independent BOSS GT-Pro cursor preserved."
+  },
+  "helix_floor_io_specs_20261031": {
+    "sources": [
+      "https://kb.line6.com/helix-floor-rack-lt-hx-effects-input-and-output-specs",
+      "https://kb.line6.com/helix-support-faq",
+      "https://line6.com/data/6/0a0643391bb055fca90096a38/application/pdf/Helix%20Cheat%20Sheet%20-%20English%20(%20Rev%20A%20).pdf"
+    ],
+    "finding": "Dedicated own Floor/Rack/LT section establishes impedance-balanced TRS mains/sends andmode-specific return impedances. Corrected unsupported TS-main overview;preserved AUX47.5k versusFAQ10k conflict.",
+    "scope": "Exact manufacturer group names Floor;separate HX Effects section not transferred. Article firmware/date basis unstated;no measurement.",
+    "next": "Continue individual-LCD documentation andqualified Shopee hardware research;independent BOSS GT-Pro cursor unchanged."
   }
 }

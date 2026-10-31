@@ -311,7 +311,7 @@ Checked **2026-10-17**. Original Helix Floor; distinct from LT,Rack and Stadium.
 | Factory / user presets | **1,024 locations** (8×32×4);factory-filled subset **?**;up to 8 snapshots per preset. Snapshots are variations,not additional preset slots. [Chart][HF-C], [Floor product][HF-P] |
 | Synth / acoustic simulation | Manufacturer3.80 model page confirms **Acoustic Sim** and**3 OSC Synth**;generator versus polyphonic pitch restrictions are recorded in the [census](#helix-floor--complete-380-effect-category-census). Not borrowed from LT. [Cheat sheet][HF-S] |
 | IR / NAM / capture | User IRs supported;older manufacturer FAQ **128 slots, 1024/2048 points, up to 4 simultaneous DSP-permitting**;[3.80 resolution/path limits](#helix-floor--380-ir-limits-and-spillover-mode-boundary) qualify this broad claim. Native NAM, converted NAM, proprietary capture loading **?**;Stadium Proxy not inferred. [FAQ][HF-Q] |
-| Audio/control I/O | Guitar/active-instrument AUX;XLR mic with 48 V;4 send/return pairs;stereo XLR and¼″TS mains;stereo phones;VDI;EXP2/3;ExtAmpTRS;CV/EXPout;DIN MIDI in/out-thru;RCA S/PDIF in/out;AES/EBU/L6 LINK out;USB;groundedAC. Exact remaining jack types/USB connector pending manual. [Cheat sheet][HF-S], [Floor product][HF-P] |
+| Audio/control I/O | Guitar/active-instrument AUX;XLR mic with 48 V;4 send/return pairs;stereo XLR and¼″TRS impedance-balanced mains (dedicated manufacturer I/O article;correction below);stereo phones;VDI;EXP2/3;ExtAmpTRS;CV/EXPout;DIN MIDI in/out-thru;RCA S/PDIF in/out;AES/EBU/L6 LINK out;USB;groundedAC. Exact remaining jack types/USB connector pending manual. [Cheat sheet][HF-S], [Floor product][HF-P] |
 | Power / battery / USB | Grounded **100–240V AC** confirmed by current manufacturer supply FAQ;original Floor RevB manual specifies **50–60Hz**. Wattage/current draw andcurrent hardware-label corroboration remain **?**. [Rating sources](#helix-floor--mains-rating-and-factory-restore-boundaries). DC polarity N/A. Battery/USB-powered operation **?**;USB interface does not prove bus power. [Cheat sheet][HF-S] |
 | Editor / USB audio | **HX Edit** editor distinct from Helix Native plugin/updater;Mac/Windows documented; Listing checked2026-10-31: **HX Edit3.82,2024-12-03**,Windows10/11;Mac labels include Catalina,BigSur,Monterey,Ventura,Sonoma,Sequoia,Tahoe plus generic MacOSX and “Golden Gate”;these labels are not a tested minimum-version matrix. Hardware listing **3.80.0,2024-11-19**,not editor3.82. [Current listing][HF-DS]. **8-in/8-out,24-bit/up to 96 kHz**,DI/reamp/MIDI;iPad with camera adapter. [Driver/routing qualifications](#helix-floor--380-usb-drivers-and-dry-signal-routes). [Cheat sheet][HF-S], [Floor product][HF-P], [Software][HF-D] |
 | Looper / snapshots / routing | One looper per preset. Manufacturer KB gives **60 s mono/30 s stereo at full speed**, doubled at half speed. Across presets, KB requires matching mono/stereo type, path and footswitch assignment; indexed Floor manual additionally specifies matching 6 Switch/1 Switch/Shuffle model. Shuffle has no half-speed extension. **True Preset Spillover mode excludes looper carryover**;[mode boundary](#helix-floor--380-ir-limits-and-spillover-mode-boundary). Retention and drums **?**. [Looper KB][HF-L], [Indexed Floor manual][HF-M0] 8snapshots;true preset spillover uses only 2 paths per current product. Mic processing supports vocal membership; intelligent vocal harmony is unverified. [FAQ][HF-Q], [Floor product][HF-P] |
@@ -449,11 +449,24 @@ Checked **2026-10-31** in the [original RevG manual reproduction,pp9,68](https:/
 
 | Field | Revision-qualified finding |
 |---|---|
-| I/O / impedance | AUX input **10kΩ**,intended for active-pickup guitar/bass;PHONES output **12Ω**,not a headphone-load requirement. Low-impedance headphones may distort at maximum PHONES setting. |
+| I/O / impedance | AUX input **10kΩ in support FAQ versus47.5kΩ in dedicated manufacturer I/O article**;source/revision conflict unresolved. Intended for active-pickup guitar/bass;PHONES output **12Ω**,not a headphone-load requirement. Low-impedance headphones may distort at maximum PHONES setting. |
 | I/O / digital selection | S/PDIF uses **75Ω RCA**,AES/EBU **110Ω XLR**. Only one digital output is active;L6 LINK disables S/PDIF output. USB audio is unaffected. |
 | Live / level and monitor scope | Global Volume Knob Controls selects affected outputs;Headphones Monitor independently selects Multi,quarter-inch orXLR monitoring. These are not universal pedal-volume assignments. Connector subtype for USB remains unresolved. |
 
 No download orhardware operation.
+
+
+### Helix Floor — manufacturer I/O specifications and AUX conflict
+
+Checked **2026-10-31**. The [dedicated Line6 I/O article](https://kb.line6.com/helix-floor-rack-lt-hx-effects-input-and-output-specs) explicitly groups **Helix Floor/Rack/LT**;its separate HX Effects section is not transferred here. Publication/firmware basis is unstated.
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| I/O / AUX source conflict | Dedicated article: **47.5kΩ,unbalanced TS**. [Helix support FAQ](https://kb.line6.com/helix-support-faq): **10kΩ**. Both are manufacturer sources;no revision explanation ormeasurement resolves them. |
+| I/O / returns and guitar input | Returns: **1MΩ unbalanced TS in Instrument mode;10kΩ unbalanced TS in Line mode**. Guitar input is unbalanced TS with Auto impedance determined by the first block under the described setting. These are input impedances,not maximum levels orglobal volume assignments. |
+| I/O / quarter-inch output correction | Dedicated article calls L/R Main Out andSends **impedance-balanced TRS**. The earlier overview’sTS-main label was unsupported by the [RevA cheat sheet](https://line6.com/data/6/0a0643391bb055fca90096a38/application/pdf/Helix%20Cheat%20Sheet%20-%20English%20(%20Rev%20A%20).pdf),which says¼-inch cables without specifying contacts;corrected above. Impedance-balanced does not mean a differential signal pair. Separate balanced XLR outputs remain independently documented. |
+
+No electrical measurement,hardware operation ordownload. These findings do not establish power draw,headphone minimum load orLCD specifications.
 
 <!-- comparison evidence ends -->
 
