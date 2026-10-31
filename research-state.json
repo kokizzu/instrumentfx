@@ -132003,5 +132003,15 @@
       "Current MKII equivalence"
     ],
     "next": "Continue individual-LCD capability gaps and exact Shopee hardware offers; general GT-Pro cursor preserved"
+  },
+  "fm9_current_lcd_firmware_20261031": {
+    "sources": [
+      "https://manuals.plus/m/fc4c88f09cdfe1684d4526d72c54e4e86b0de29352a33b47c153a1dc5715d9b1.pdf",
+      "https://www.fractalaudio.com/fm9-downloads/"
+    ],
+    "record": "FRACTAL-AUDIO.md#fm9-mkii-turbo--firmware-qualified-lcd-contrast",
+    "identity": "Original release PDF;12.00 date andDynaCabs matched manufacturer listing; host summary excluded",
+    "qualification": "Selected sections only; not full changelog census or device validation",
+    "next": "Continue LCD-first gaps; full current model census and global-volume endpoints/recall unresolved; GT-Pro general cursor preserved"
   }
 }

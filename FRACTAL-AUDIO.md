@@ -538,6 +538,18 @@ Headphones monitor **Output1**. Combined with the documented global Output1 Volu
 No download, preset edit or hardware operation.
 
 
+### FM9 MKII Turbo — firmware-qualified LCD contrast
+
+Checked2026-10-31. The [manufacturer-authored release-notes PDF reproduced on Manuals+](https://manuals.plus/m/fc4c88f09cdfe1684d4526d72c54e4e86b0de29352a33b47c153a1dc5715d9b1.pdf) identifies FM9 firmware12.00,2026-07-07,DynaCabs1.09, matching the [current manufacturer listing](https://www.fractalaudio.com/fm9-downloads/). Evidence comes from the original PDF text, not the host’s shortened HTML summary or generated answers.
+
+- **12.00**,PDFp2: FM9 Mk II footswitch-LCD contrast default changed **50%→60%**. This establishes a revision-specific default, not the complete adjustment range, independent brightness or physical measurement.
+- **11.00**,PDFp5: Mk II mini-LCD contrast adjustment changed for finer control over a more usable range. Numeric endpoints remain unspecified.
+- **10.00**,PDFp6: reduced rear-panel pedal-input filtering for faster response to rapid movement. No timing figure or changed wiring/volume-assignment scope is established.
+- **12.00**,PDFp2: fixes rare muting during preset/scene/channel changes. This is a release-note claim, not a hardware validation of tail, bypass or global-volume coverage.
+
+Installed firmware remains unknown. Global pedal-volume endpoints and recall remain unresolved; absence of a change in selected release sections does not certify historical behavior across all later revisions. No package downloaded, firmware installed or device operated.
+
+
 ## VP4
 
 Admitted 2026-10-28 as a **partial model**, not fully verified. Own manufacturer product/manual establish effects-only guitar/bass multi-effects. All earlier lead-stage bodies and anchors remain below; their outside-inventory status is historical and superseded only by this admission. No ownership or live-market availability inferred.

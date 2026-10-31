@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(fractal): qualify FM9 headphone and output-copy coverage'))
+    print(git('commit','-m','research(fractal): verify FM9 MkII firmware LCD contrast changes'))
