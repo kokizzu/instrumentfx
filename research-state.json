@@ -133977,7 +133977,20 @@
     "revision": "Manual1/Firmware1.x,pp21–26",
     "root": "FRACTAL-AUDIO.md#fm3-original--connector-inventory-and-usb-signal-paths",
     "scope": "Complete named connector inventory andrecord/playback routing fordocumented revision;notallphysicalvariants.",
-    "next": "Complete original-model category-choice census,IR/NAM/capture distinctions,editor OS andlooper details;keep exactrevision IDR,headphone variants andglobal-volume endpoints/recall/outputcoverage open.",
+    "next": "Complete dated category-choice census andlooper details;review model admission only after full profile. Headphone variants,exactrevision IDR,volume endpoints/recall/coverage remain open.",
+    "downloads": false
+  },
+  "fm3_original_ir_editor_20261101": {
+    "checked": "2026-11-01",
+    "active": false,
+    "sources": [
+      "https://manualzz.com/doc/61301482/fractal-fm3-owner-s-manual",
+      "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+      "https://www.fractalaudio.com/fm3-edit/"
+    ],
+    "root": "FRACTAL-AUDIO.md#fm3-original--ir-capacity-transfer-formats-and-editor-platforms",
+    "conflicts": "Launch2000+userIR vsmanual1024;7.x format summary vsSysEx transfer procedure;Windows64-bitsupport vs32-bitlink preserved.",
+    "next": "Complete dated category-choice census andlooper details;review model admission only after full profile. Headphone variants,exactrevision IDR,volume endpoints/recall/coverage remain open.",
     "downloads": false
   }
 }

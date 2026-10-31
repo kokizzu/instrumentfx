@@ -489,6 +489,21 @@ Checked **2026-11-01** in the [original 1.x manual reproduction](https://manualz
 
 No local download ordevice operation. This completes the named connector inventory for this manual revision;phantom tolerance,exact subtype/electrical details andearly headphone variants remain open.
 
+### FM3 original — IR capacity, transfer formats and editor platforms
+
+Checked **2026-11-01**. [Original 1.x manual,p107](https://manualzz.com/doc/61301482/fractal-fm3-owner-s-manual),identity established above,documents **1,024 user cab locations**,contrasting with the preserved [2019 launch claim of2000+](https://www.fractalaudio.com/fm3-old/). No hardware-capacity change is inferred.
+
+| Field | Evidence / qualification |
+|---|---|
+| IR / capacity | [Manufacturer7.x manual,pp2,118](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf),explicitly covering Standard,also gives **1,024 user locations**,16 scratchpads andup to two IRs inCab. Its factory wording is2,048 choices plus189Legacy;retain the wording without manufacturing a reconciled installed total. |
+| IR / file workflow | 7.x summary lists **.ir,.syx,.wav** compatibility,but p118 transfer instructions require **SysEx .syx** anddescribe .IR as Cab-Lab remix material. Original1.x gives the same transfer distinction. FM3-Edit Manage Cabs orFractal-Bot transfers cabs;source-format compatibility does not establish identical direct hardware loading. |
+| IR / backups | Original1.x p107 separates User Cabs fromSYSTEM backup;restoringSYSTEM does not overwrite them. Preset backup alone is not a verified complete cab backup. |
+| NAM / capture | IR loading does not establish nativeNAM,convertedNAM orproprietary amp-capture import. Those workflows remain unverified. |
+
+The [current manufacturer FM3-Edit page](https://www.fractalaudio.com/fm3-edit/) lists **1.07.17,August25,2026**,forMac andWindows: **macOS10.13+**; **Windows10+,64-bit**,withWindows7 explicitly unsupported although it may work. The page also links a32-bit1.07.17 build;that link alone does not override its stated supported requirements. Windows editing depends on both audio andserial drivers. Editor functions include preset/block editing,templates andlibrary management;driver andfirmware utilities remain separate. Mobile editor support andcurrent Apple/Windows architecture testing remain unverified.
+
+No downloads,installation ordevice operation. Full category-choice census,looper details,headphone variants andvolume endpoints/recall/coverage remain open;this is still a partial lead outside active counts.
+
 ## FM9 MKII Turbo
 
 Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI seller item remains separate. Current product/store establish revision. Linked2022 manual covers original/Turbo but predates MKII display revision;historical physical figures below require current corroboration.
