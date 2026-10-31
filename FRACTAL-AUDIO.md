@@ -358,7 +358,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI selle
 | Firmware / software revision | Downloads list**12.0,2026-07-07**,original/Turbo compatible;requires latest editor. WindowsUSBdriver6.16,2026-06-10,Windows10+x86/x64/ARM;older7/8need5.12. Factory presets9.02,2025-06-04,target9.x+. USBfirmware1.04separate hardware-revision update. Installed firmware unknown;manual remains3.x. [Downloads][f9-d]. |
 | Firmware / DynaCab data compatibility | Current support table specifies **FM9 firmware11.0+ → DynaCabs1.09**;the downloads page currently lists firmware12.0. Missing/incorrect DynaCab data can produce a startup error. This is cabinet-data compatibility,not a firmware version,additional user-IR capacity or amp-capture format. Support uses FM9-Edit’s embedded Fractal-Bot for transfer;the latest editor and Refresh After New Firmware are advised if hardware is updated but editor cabinets remain absent. No file downloaded,update performed or device tested. [Manufacturer support](https://support.fractalaudio.com/en-US/how-to-resolve-dyna-cabs-not-installed-or-incorrect-version-286538);[downloads][f9-d],checked2026-10-31. |
 | Controls / current factory navigation | Current **MKII-headed product page**,checked2026-10-31,describes an out-of-box preset-selection layout,one-switch access to Scenes,Tap/Tuner,and Master Layout Menu access to effects/looper layouts;OMG9-style setup is an option. This corroborates current navigation capabilities,not a dedicated factory preset−/+ pair or unchanged2022 switch mapping. Current page/store text publish no dimensions;historical figures remain qualified. [Current product][f9-p];[Store][f9-s]. |
-| Practical features | Current product lists**two-minute looper**,eight tap/hold switch layouts,up to twoFC6/FC12controllers;store claims gapless switching,minimum firmware unresolved. Mono/stereo/speed looper duration qualifications anddrums remain unverified. [Product][f9-p];[Store][f9-s]. |
+| Practical features | Current product lists**two-minute looper**,eight tap/hold switch layouts,up to twoFC6/FC12controllers;store claims gapless switching; [firmware6.00 prerequisites](#fm9--gapless-switching-prerequisites) now documented, not an unconditional all-preset guarantee. Mono/stereo/speed looper duration qualifications anddrums remain unverified. [Product][f9-p];[Store][f9-s]. |
 | Bass capability | Exact MKII Turbo store explicitly supports guitar/bass;shared bass,not inferred from amp controls. [Store][f9-s]. |
 
 ### FM9 — historical block inventory
@@ -548,6 +548,15 @@ Checked2026-10-31. The [manufacturer-authored release-notes PDF reproduced on Ma
 - **12.00**,PDFp2: fixes rare muting during preset/scene/channel changes. This is a release-note claim, not a hardware validation of tail, bypass or global-volume coverage.
 
 Installed firmware remains unknown. Global pedal-volume endpoints and recall remain unresolved; absence of a change in selected release sections does not certify historical behavior across all later revisions. No package downloaded, firmware installed or device operated.
+
+
+### FM9 — gapless switching prerequisites
+
+The [manufacturer-authored release PDF](https://manuals.plus/m/fc4c88f09cdfe1684d4526d72c54e4e86b0de29352a33b47c153a1dc5715d9b1.pdf), whose12.00 identity was checked above, records **6.00,2024-02-09** (PDFp21) introducing gapless preset/scene/channel switching.
+
+Global Settings offers **Off**, **Channel & Scene**, and **All**. For gapless preset changes, the notes require **All**, Global Spillover **All**, and presets saved under the running firmware. They require resaving even without other edits and warn that the resulting preset is no longer compatible with earlier firmware. This documents conditions, not a guarantee for arbitrary unconverted presets or physical testing of a current MKII.
+
+Gapless transition, delay/reverb spillover, looper continuity and global analog-volume assignment are separate capabilities. This finding does not establish retained loop recordings, continuous pedal endpoints, startup recall or universal output coverage. Historical manual3.x remains separately qualified. No save, update, download or hardware operation was performed.
 
 
 ## VP4
