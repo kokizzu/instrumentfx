@@ -137461,5 +137461,21 @@
       "Full backup list includes presets,IRs,Favorites,user defaults andglobal settings; not proof of recorded-loop orfirmware backup"
     ],
     "next": "Continue individual-LCD capability gaps andnew exact hardware evidence;do not repeat unchanged HX Effects Shopee queries; preserve general BOSS GT-Pro cursor."
+  },
+  "hx_effects_editor_translation_20261101": {
+    "status": "conditional sharing documented; owner-manual conflict preserved",
+    "source": "https://manuals.plus/m/b70879be1d47f40789ba529cd4636f498a30cf65672b083c6b1f50b011912725",
+    "original": "https://line6.com/data/6/0a00051aff0e673cd37585ccd/application/pdf/HX%20Edit%20Pilots%20Guide%203.80%20-%20English%20.pdf",
+    "revision": "HX Edit3.80 RevY,printed4–7,27",
+    "findings": [
+      "Translation explicitly includesHX Effects,subject toblock/path/DSP support;unsupported controller assignments removed andI/O generally remapped",
+      "Matching Native HC mode supports device format;3.50+ exported/saved presets notbackward-compatible before3.50",
+      "HX Effects full.hxb backups specific toHX Effects;Native doesnot create/open full.hxb backups"
+    ],
+    "unresolved": [
+      "actual translated preset equivalence andcurrent installed versions",
+      "owner-manualp16 blanket no-sharing wording remains contradictory"
+    ],
+    "next": "Continue remaining individual-LCD model capability gaps; avoid repeating resolved blanket preset-sharing question; preserve independent BOSS GT-Pro general cursor."
   }
 }

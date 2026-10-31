@@ -883,6 +883,18 @@ Checked **2026-11-01**, [own3.80 RevD manual,printedpp5,16–17,26](https://line
 
 No export,restore,download ordevice operation. Fresh Shopee searches found onlythe previously preserved sold-out processor andexcluded replacement LCDs;no newqualified offer.
 
+### HX Effects — editor-qualified preset translation
+
+Checked **2026-11-01** in **HX Edit3.80 Pilot’s Guide RevY,printedpp4–7,27**, [identified manufacturer-authored reproduction](https://manuals.plus/m/b70879be1d47f40789ba529cd4636f498a30cf65672b083c6b1f50b011912725);[own original](https://line6.com/data/6/0a00051aff0e673cd37585ccd/application/pdf/HX%20Edit%20Pilots%20Guide%203.80%20-%20English%20.pdf). Version,revision andcopyright match the earlier source identification.
+
+| Field | Qualified compatibility |
+|---|---|
+| Editor / preset translation | Guide explicitly includes **HX Effects** in cross-device translation. Import fails ifblock types,path/block counts orDSP exceed destination capability;its example rejects anAmp-containing Helix preset onHX Effects. Unsupported I/O generally maps toMain In/Out;unsupported controller assignments are removed. Translation is therefore not guaranteed tonal/routing/control equivalence. |
+| Editor / Native andversion boundary | Matching Helix Native Hardware Compatibility mode supports the corresponding device format. Presets saved/exported with3.50+ are incompatible with earlier versions. Native HC Off can exceed hardware limits. This supplies a documented conditional sharing path;the owner manual’sp16 blanket rejection remains preserved as conflicting text. |
+| Memory / backup compatibility | **HX Effects .hxb backups restore only toHX Effects**,distinct from individual-preset translation;Helix Native cannot open/create these full backups. No firmware rollback orrecorded-loop preservation established. |
+
+No application installed,preset translated,backup restored orfile downloaded;device behavior untested.
+
 <!-- comparison evidence ends -->
 
 ### Preserved original shared-source HX Effects fields
