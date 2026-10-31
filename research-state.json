@@ -137256,5 +137256,14 @@
     ],
     "next": "IndividualLCD processor gaps first;independent general GT-Pro cursor preserved.",
     "downloads": false
+  },
+  "plethora_x5_update_restore_20261101": {
+    "status": "manufacturer-authored historical operation;partial",
+    "source": "https://device.report/m/fab495897f61212f13d7fd3403d4a371bcb2d147dc9c72fd72db55684cdb91f7",
+    "destination": "TC-ELECTRONIC.md#plethora-x5--update-bridge-and-restore-file-import",
+    "finding": "1.0.101 requires1.1.55 bridge before1.2.18+;System Export reboots, .restore file plusreboot exposesSystem Import;import overwrites localrestorepoint.",
+    "qualification": "No update orrestore performed;actualsnapshotcontents,loop/EXPstate,cross-model compatibility andcurrentfileavailability unverified.",
+    "next": "Continue individualLCD processor gaps;preserve independentGT-Pro generalcursor.",
+    "downloads": false
   }
 }
