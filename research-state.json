@@ -136994,5 +136994,26 @@
       "global expression endpoints and held-position recall"
     ],
     "next": "Individual-LCD processor gaps remain first; independent general BOSS GT-Pro cursor preserved."
+  },
+  "g3n_patch_save_swap_20261101": {
+    "model": "Zoom G3n",
+    "checked": "2026-11-01",
+    "source": "https://zoomcorp.com/media/documents/D_G3n_G3Xn.pdf",
+    "revision": "©2016 Z2I-2796-01,printed pp19–21",
+    "finding": "SAVE chooses a destination and confirms YES/NO;SWAP exchanges current and selected patches after confirmation. Distinct from AUTO SAVE and all-settings factory initialization.",
+    "remaining": [
+      "OutputVP all-preset assignment,endpoints,bypass/headphone/tail/loop coverage",
+      "individual factory recovery/write-protection",
+      "separate button census andactual panel inspection"
+    ],
+    "research_boundaries": {
+      "outputvp_japanese_source": "https://zoomcorp.com/documents/1173/J_G5n_G3n_G3Xn_EffectsList_bIDYgSG.pdf",
+      "outputvp_result": "2020 p25 repeats product-output/retention wording with dashed parameter row;no all-preset assignment or numeric endpoints established.",
+      "official_rear_image": "https://zoomcorp.com/media/original_images/Zoom_G3n_Rear.jpg.800x482_q70_crop_size_canvas.jpg",
+      "visual_result": "Reader returned image reference only;no visual layout verification claimed.",
+      "unlinked_shopee_lead": "Search-only Rp1.663.000 G3n title claims original adapter andsix changed knobs,Kab.Pati. No exact seller/item recovered;excluded from verified hardware/new/used prices."
+    },
+    "next": "Continue individualLCD exact-model gaps ahead of shared/OLED/controllers; independent general GT-Pro cursor preserved.",
+    "downloads": false
   }
 }

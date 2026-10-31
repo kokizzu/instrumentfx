@@ -22,5 +22,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): verify G5n Tahoe compatibility on both Mac architectures'
+        message='research(zoom): document G3n patch save and swap workflows'
     print(git('commit','-m',message))
