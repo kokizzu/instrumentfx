@@ -70,6 +70,12 @@ These have separate physical screens for the documented effect switches. Extra n
 | Morningstar **MC6 PRO** | **Three color LCDs for six switches**, rather than six individual displays | [Manufacturer-backed controller record](MORNINGSTAR.md#mc6-pro). Switches use nearest displayed preset labels; outside audio processor counts. |
 | Morningstar **MC8 PRO** | **Four color LCD screens for eight switches**, rather than eight individual displays | [Exact manufacturer manual/product record](MORNINGSTAR.md#mc8-pro). Controller only; original MC8 and MC6 PRO remain separate. |
 
+### Additional screen technology / layout pending
+
+| Brand / model | Display-layout status | Record / next check |
+|---|---|---|
+| Singular Sound **MIDI Maestro Gold Edition** | **Six1.9-inch screens /six switches**; manufacturer specification says dot-matrix LED | [Exact Gold Edition controller lead](SINGULAR-SOUND.md#midi-maestro-gold-edition). LCD/OLED and one-per-switch placement not certified; outside audio counts. |
+
 ## Evidence and pending work
 
 Confirmed-layout entries link to canonical brand evidence with document revisions and access limits. Other rows are explicit research candidates. Further matching models from the requested brands can be added after exact-model identification. The structured queue and remaining work are maintained in [research-state.json](research-state.json), under `footswitch_display_audit_20261029`.

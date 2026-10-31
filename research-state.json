@@ -129546,6 +129546,14 @@
       "checked": "2026-10-31",
       "order": "Individual effect-switch displays first, group/shared-main layouts and pending separately; controllers independently grouped.",
       "preservation": "All28 model rows preserved byte-for-byte; no technical verification status promoted."
+    },
+    "singular_maestro_gold": {
+      "checked": "2026-10-31",
+      "source": "https://www.singularsound.com/products/midi-maestro",
+      "root": "SINGULAR-SOUND.md#midi-maestro-gold-edition",
+      "active": false,
+      "finding": "Six1.9-inch screens/six switches; publisher saysdot-matrixLED,notLCD; exactpairingpending.",
+      "next": "Confirm panel layout/technology and exact Shopee hardware; original Maestro remains separate."
     }
   }
 }
