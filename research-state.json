@@ -137911,5 +137911,18 @@
     "publication": "Sort commit now asserts changed/untracked paths against its allowlist and stages only explicit changed paths, protecting unrelated work.",
     "inventory_changed": false,
     "research_complete": false
+  },
+  "hx_effects_ex2_pedal_wiring_20261101": {
+    "checked": "2026-11-01",
+    "sources": [
+      "https://line6.com/data/6/0a0004cf005769d5300a58de5/application/pdf/EX2%20Cheat%20Sheet%20-%20English%20.pdf",
+      "https://missionengineering.com/wp-content/uploads/2022/06/Mission-L6_QS-Guide.pdf"
+    ],
+    "identity": "Line6 EX2 RevA,©2025,2pages,exact HX Effects connection p1;Mission own L6 QS manufacturer-indexed specifications",
+    "finding": "EX2 rated10kΩ, TS-to-TS PEDAL to HX Effects PEDAL. Supported EP1-L6 specified10kΩ linear, TS tip-to-wiper variable resistor. Combined EXP/toe TRS instruction is for Stadium,not HX Effects.",
+    "access": "Line6 original readable;Mission direct error,manufacturer-indexed text only.",
+    "remaining": "M-VAVE electrical compatibility,host input tolerance,global analog target,endpoints,recall andoutput coverage remain unverified.",
+    "downloads": false,
+    "hardware_test": false
   }
 }
