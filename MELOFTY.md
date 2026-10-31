@@ -55,3 +55,15 @@ Checked2026-10-31: [manufacturer V1.7.4 manual](https://shop.warwick.de/media/23
 | USB / source conflict | p57: **USB2.0,8-in/8-out,48kHz/24bit**. Distributor192kHz claim remains separately qualified;do not treat32bit converter processing as USB resolution. |
 
 Still a partial discovery lead outside active counts. New quick-guide link surfaced but web reader rejects its23.3MB size: [importer-linked guide](https://shop.warwick.de/media/96/42/2c/1791505539/7fj5_MEL_Axom_Max_Quick_Guide_EN.pdf?ts=1791505539).
+
+### AXOM MAX — mini-screen labels and master-pedal scope
+
+Checked2026-10-31,[own V1.7.4 manual pp22–24](https://shop.warwick.de/media/23/53/74/1790324346/4on4_MEL_AXOM_MAX_Manual_EN.pdf?ts=1790324346);manufacturer text only.
+
+| Field | Evidence / qualification |
+|---|---|
+| Display / STOMP labels | Single-module control shows its module name;multi-module control shows **MULTIPLE**. Green/orange status refers to the footswitch icon/LED,not proof of color mini-screen pixels. Latching and momentary control are selectable. Physical screen count and LCD/OLED remain unresolved. |
+| Expression / built-in MASTER | **MASTER+EXP1** selects master-volume/parameter roles via toe switch;master position can be **Pre/Post**,with minimum/maximum **0–100**. Alternative **EXP1+EXP2** provides two parameter roles. This documents the built-in treadle,not externalEXP3 master assignment or every-preset coverage. Headphone/tail/loop attenuation remains unknown. |
+| Expression / naming conflict | p23 introduces externalEXP3 but then says externalEXP2;rear-panelp6 and controller selectorp24 identify **EXP3(EXT)**. Preserve this internal typo/conflict;do not invent a second external socket. Parameter assignments offer individual minimum/maximum values. |
+
+Built-in treadle keeps this model outside the no-built-in-expression shortlist. No pedal operation or display visual inspection.

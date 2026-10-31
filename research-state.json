@@ -130529,6 +130529,16 @@
       "revision": "V1.7.4",
       "finding": "Controls, external pedal/supply, .nam import workflow and USB specification now primary-manual backed; root detail retained. Still outside active counts; display technology/count unresolved.",
       "next": "Resolve mini-screen count/technology; verify remaining profile and Shopee offers before inventory admission."
+    },
+    "axom_master_scope_20261031": {
+      "source": "https://shop.warwick.de/media/23/53/74/1790324346/4on4_MEL_AXOM_MAX_Manual_EN.pdf?ts=1790324346",
+      "pages": [
+        22,
+        23,
+        24
+      ],
+      "finding": "Root now distinguishes STOMP labels/LED colors, built-in MASTER range/position and conflicting external EXP numbering.",
+      "limits": "Mini-screen technology/count and external master/global coverage unresolved; no-treadle exclusion retained."
     }
   },
   "gt_pro_global_patch_level_20261031": {
