@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Return to compact/no-treadle individual-LCD priorities: HX Effects exact Volume endpoints and supported assignments; FM3 global volume endpoints/recall; qualified Shopee hardware. Independent BOSS GT-Pro cursor unchanged.",
+      "next_check": "FM3 MKII Turbo: global volume range/analog recall andqualified Shopee offers. HX Effects numeric attenuation endpoints remain unverified; avoid repeating generic Min/Max or global position as proof. Independent BOSS GT-Pro cursor unchanged.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133268,6 +133268,11 @@
       "file": "ZOOM.md",
       "model": "B3",
       "heading": "### B3 — exact patch and bank footswitch navigation"
+    },
+    {
+      "file": "LINE6.md",
+      "model": "HX Effects",
+      "heading": "### HX Effects — assignment capacity and Favorite bypass conflict"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -133348,5 +133353,15 @@
     "finding": "Procedural indexed text identifies patch FS2 down/FS3 up, bank1+2 down/2+3 up,holdFS1one second Home. Entry control label HOLD FOR PATCH recovered; number not independently recovered.",
     "access": "Original procedural text only; generated visual descriptions excluded; no downloads or device test.",
     "offer_recheck": "Existing gyulalis used ask1999999 reproduced by shop index; no fresh exact-item condition/stock verification."
+  },
+  "hx_effects_assignment_favorite_conflict_20261101": {
+    "sources": [
+      "https://line6.com/data/6/0a00051aff0e673cd37585ccd/application/pdf/HX%20Edit%20Pilots%20Guide%203.80%20-%20English%20.pdf",
+      "https://manuals.plus/m/b70879be1d47f40789ba529cd4636f498a30cf65672b083c6b1f50b011912725"
+    ],
+    "revision": "HX Edit3.80 RevY,pp20,40-42;owner3.80RevD p14",
+    "finding": "Eight assignments per switch/controller; hardware bypass reassignment moves source, independent MIDI bypass may coexist. Guide excludes HX Effects Favorite bypass assignment,while owner says customized bypass retained; source distinction unresolved.",
+    "remaining": "Numeric Volume attenuation endpoints/global analog assignment not established; no download/device test.",
+    "next": "FM3 global volume ranges andanalog recall;LCD-first priority preserved;independentGT-Pro unchanged."
   }
 }

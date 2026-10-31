@@ -617,3 +617,5 @@ Tone Master Pro [tuner path qualification](FENDER.md#tone-master-pro--tuner-path
 G3n [level-scale qualification](ZOOM.md#g3n--patch-level-versus-pedal-range-and-tuner-limits): patch LEVEL andmaster M.LVL are separate from OutputVP’s unverified endpoints andglobal assignment.
 
 B3 [exact patch/bank navigation](ZOOM.md#b3--exact-patch-and-bank-footswitch-navigation): patch mode FS2 down/FS3 up; bank pairs1+2 down/2+3 up. Per-patch TOTAL and OUTPUT VOL rhythm/looper exclusions remain; ordinary-guitar suitability stays unclassified.
+
+HX Effects [assignment/Favorite qualification](LINE6.md#hx-effects--assignment-capacity-and-favorite-bypass-conflict): editor-guide bypass-retention wording differs from the owner manual. Neither establishes global volume assignment; numeric attenuation endpoints remain unverified.

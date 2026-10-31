@@ -779,7 +779,7 @@ Checked **2026-11-01**,[own3.80 RevD manual,printedpp14–15](https://line6.com/
 
 | Field | Saved-content boundary / qualification |
 |---|---|
-| Memory / Favorites | Favorites retain parameter settings andcustomized bypass assignment,but **exclude existing footswitch,controller andsnapshot assignments**. Inserting one receives the normal automatic switch/EXP assignment. Replacing a Favorite leaves existing preset instances unchanged;they must be reloaded toadopt it. Split/Merge Mixer are excluded. |
+| Memory / Favorites | Ownmanual says Favorites retain parameter settings andcustomized bypass assignment,but **exclude existing footswitch,controller andsnapshot assignments**;the [editor-guide exception](#hx-effects--assignment-capacity-and-favorite-bypass-conflict) excludes existing bypass assignments forHX Effects,so exact bypass retention remains source-qualified. Inserting one receives the normal automatic switch/EXP assignment. Replacing a Favorite leaves existing preset instances unchanged;they must be reloaded toadopt it. Split/Merge Mixer are excluded. |
 | Expression / user defaults | Model defaults store parameters/bypass state for**future insertions**,excluding MIDI,bypass,snapshot andcontroller assignments. **Existing presets are unaffected**;Split/Merge Mixer settings are excluded. Thus neither defaults norFavorites establish global volume-target propagation orinsert Volume into every preset. |
 | Editor / portability | HX Edit exports Favorites as **.fav** files forreimport/sharing. This is an effects-setting asset,not a new processing engine,user IR,NAM oramp-capture format. |
 
@@ -790,6 +790,18 @@ No asset exported,software installed ordevice operated. Global EXP Position rema
 Checked **2026-11-01**, [own 3.80 Rev D manual, printed p37](https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf). EXP1/2 can control block bypass separately from parameter assignment. **Position: 0% heel, 99% toe**; Wait delays bypass. Toggle changes the current state when crossing the threshold; Heel Down/Toe Down enforce bypass at the designated end irrespective of starting state. Multiple blocks may use different thresholds on one pedal.
 
 Inference: check a Volume block’s expression-bypass assignment as well as its controlled parameter and snapshot bypass. The threshold scale is not an attenuation range or global volume mapping. Global Pedals still documents polarity and position recall only; all-preset volume assignment remains unverified. Text inspection only; no device operation or download.
+
+
+### HX Effects — assignment capacity and Favorite bypass conflict
+
+Checked **2026-11-01**,manufacturer **HX Edit3.80 Pilot’s Guide RevY**,printedpp20,40–42. [Original](https://line6.com/data/6/0a00051aff0e673cd37585ccd/application/pdf/HX%20Edit%20Pilots%20Guide%203.80%20-%20English%20.pdf) exceeds the reader limit; [original-text reproduction](https://manuals.plus/m/b70879be1d47f40789ba529cd4636f498a30cf65672b083c6b1f50b011912725) matches cover,revision,copyright andHX Effects applicability already established above. Host-generated answers excluded.
+
+| Field | Evidence / qualification |
+|---|---|
+| Controls / assignment capacity | Guide permits **eight assignments per footswitch/controller**,with bypass,parameter andCommand Center roles sharing controls. One block’s hardware bypass assignment moves when reassigned;multiple blocks can share acontrol. MIDI bypass may independently coexist onthe same block. This does not add processing slots orLCDs. |
+| Memory / Favorite bypass conflict | Guidep20 expressly **excludes existing bypass assignments from HX Effects Favorites**. Own3.80 RevD manualp14 instead says customized bypass assignment is retained,while excluding footswitch/controller/snapshot assignments. Preserve both wordings;no hardware test resolves their exact distinction. Existing presets still require reloading anupdated Favorite. |
+
+The checked controller chapters do not publish numeric Volume attenuation endpoints. Global position recall still does not establish all-preset assignment;no download ordevice operation.
 
 <!-- comparison evidence ends -->
 
