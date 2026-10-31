@@ -3521,7 +3521,6 @@ Checked **2026-11-01**;no download ordevice operation.
 
 The [Shopee search page](https://shopee.co.id/search?category=11043572&keyword=efek+gitar+zoom&page=3&sortBy=relevancy&subcategory=11043648) links **seller304055616/item11313397137**,selected **variation76077716055**,for **“Zoom G3N G 3N G-3N Guitar Multi Effect Pedal & Looper” atRp2.450.000**,Jakarta Barat. Search metadata says yesterday;the opened category snapshot says last month. [Exact clean item](https://shopee.co.id/Zoom-G3N-G-3N-G-3N-Guitar-Multi-Effect-Pedal-Looper-i.304055616.11313397137) is inaccessible;its parameterized variation link returned cache miss. **Pending hardware lead only:**seller display name,new/used condition,variation contents,actual processor/bundle identity,stock,adapter,warranty,shipping/tax,vouchers andcheckout total remain unverified. Excluded from verified new/used prices andavailable-price ranges;not a completed sale. Older offers remain independently qualified. OutputVP all-patch assignment,endpoints andoutput coverage remain unresolved.
 
-
 ## G3X
 
 Original guitar multi-effects with expression; distinct from G3 and G3Xn. Manufacturer marks discontinued. Checked2026-10-17; partial. Bass/vocal suitability and ownership unestablished.
