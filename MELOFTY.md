@@ -16,3 +16,11 @@ Checked 2026-10-31. Manufacturer-authored **Axom Max User Manual V1.7.4, 2026-08
 | Remaining profile | Controls, algorithm census, memory, complete I/O, power, mass/dimensions, IR/native-versus-converted NAM/capture, editor platforms and live-feature limits require full verification. |
 
 **Partial lead outside active model/brand counts.** No files, apps, firmware or dependencies downloaded; no device operation or successful visual audit claimed.
+
+### AXOM MAX — distributor flyer leads
+
+Checked 2026-10-31: [English three-page flyer](https://shop.warwick.de/media/df/39/ee/1790778142/yf9_Melofty-Flyer_EN_ONLINE.pdf?ts=1790778142), exact Axom Max branding and ©2026 Warwick/W-Music Distribution identity. This is distributor-authored technical evidence, not manufacturer confirmation; original PDF text was readable but screenshot failed.
+
+The flyer lists nine customizable footswitches,504 preset slots,six scenes per preset and two paths with up to nine slots each. None states the mini-screen count. It lists381×230×73mm (axes unlabeled),3.45kg,and included9VDC supply; polarity/current require independent verification. Ports: quarter-inch TS guitar,combo XLR/TRS mic-line,EXP,two sends/two returns,stereo quarter-inch phones,two XLR and two TS main outputs,5-pin MIDI IN/OUT-THRU,USB-C.
+
+Software leads: AXOM Controller Windows10+/macOS10.11+; mobile Bluetooth management Android5+/iOS11+. NAM A2 support is claimed,not verified native `.nam` compatibility. Earlier unknowns remain dated provenance; this partial lead stays outside active counts pending manufacturer reconciliation.

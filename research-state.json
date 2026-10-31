@@ -129308,7 +129308,14 @@
       "layout": "Mini screens documented; count/placement/technology unresolved; screenshot failed.",
       "next": "Render original panel or obtain explicit per-switch screen count; finish exact-model profile and qualified Shopee discovery.",
       "downloads": false,
-      "recheck_20261031": "Both parameterized and clean importer manual URLs inaccessible through web reader; exact screen count remains unresolved. No download attempted."
+      "recheck_20261031": "Both parameterized and clean importer manual URLs inaccessible through web reader; exact screen count remains unresolved. No download attempted.",
+      "flyer": {
+        "source": "https://shop.warwick.de/media/df/39/ee/1790778142/yf9_Melofty-Flyer_EN_ONLINE.pdf?ts=1790778142",
+        "identity": "Three-page Axom Max flyer,©2026 Warwick/W-Music Distribution",
+        "scope": "Distributor technical leads only; mini-screen count not stated; screenshot cache miss.",
+        "checked": "2026-10-31",
+        "next": "Reconcile flyer profile with manufacturer manual; verify individual screen count without equating footswitches to screens."
+      }
     },
     "collection": "FOOTSWITCH-DISPLAYS.md",
     "collection_scope": "All requested brands collected with exact models; unresolved layouts and further model discovery remain explicit. No new inventory admissions.",
