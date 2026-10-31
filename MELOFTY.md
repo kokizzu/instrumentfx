@@ -126,3 +126,15 @@ Checked **2026-11-01** in the [German V1.7.4 manual,PDFpp34–35](https://shop.w
 | Display / evidence boundary | GermanPDFp5 calls the footswitch/pedal readouts **mini displays**;no LCD/OLED classification established. It separately describes the LED light strip. Manufacturer-confirmed screen count andtechnology remain open. |
 
 These actions supplement the preserved contextual FS8/9 navigation. They do not establish preset-change loop continuity,persistent storage orrecording duration. No download,device operation orvisual count;partial status andactive inventory unchanged.
+
+### AXOM MAX — documented loop duration and pedal readout
+
+Checked **2026-11-01**, [German V1.7.4 manual, PDFpp4,54,63](https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347),63-page exact-model document. English endpoint remained unavailable; the manufacturer website returned no readable text.
+
+| Field | Documented evidence / boundary |
+|---|---|
+| Looper / published maximum | Overview explicitly specifies a **stereo phrase looper, maximum3,600seconds =60minutes**. This narrows the previous duration gap. Half-speed capacity, overdub storage, power-cycle retention and preset-change continuity remain unverified. |
+| Display / pedal status | Troubleshooting identifies **MASTER on the pedal’s mini display** when in volume mode. This corroborates a pedal readout, not nine switch LCDs or additional analog EXP assignment. |
+| Display / brightness scope | System settings list SCREEN BRIGHTNESS separately from AMBIENT LIGHT MODE. The text does not certify independent mini-screen brightness, LCD/OLED technology or numeric ranges. |
+
+Partial lead remains outside active counts. No local download, firmware change, device operation or visual count.

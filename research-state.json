@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Review fresh LCD-model discovery and unresolved MELOFTY AXOM MAX screen technology next. Avoid recycling completed confirmed-LCD documentation passes without new evidence. Preserve no-treadle Ampero Mini/Nano Cortex tasks and independent BOSS GT-Pro cursor.",
+      "next_check": "Fresh manufacturer-backed individual-LCD processor discovery, then resume Ampero Mini/Nano Cortex unresolved no-treadle scope. Do not recycle completed model passes without new sources. AXOM MAX remains partial and unclassified by mini-screen technology. Independent BOSS GT-Pro cursor unchanged.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133561,6 +133561,17 @@
     ],
     "status": "Discovery only; excluded from comparison prices and verified-model status.",
     "technical_check": "No new primary evidence resolves USB audio, OutputVP insertion/range/coverage or full switch totals. Catalogue direct reader still rejects29578666bytes; third-party forum claims not adopted.",
+    "downloads": false,
+    "hardware_test": false
+  },
+  "axom_loop_duration_pedal_readout_20261101": {
+    "model": "AXOM MAX",
+    "checked": "2026-11-01",
+    "source": "https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347",
+    "identity": "Exact-model German V1.7.4,63pages; selected original sections.",
+    "finding": "Published loop duration and pedal readout documented; mini-screen technology remains unverified.",
+    "remaining": "Manufacturer mini-screen count/technology, category census, factory allocation and qualified Indonesia offers.",
+    "active_inventory_change": false,
     "downloads": false,
     "hardware_test": false
   }
