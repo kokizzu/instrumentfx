@@ -6,6 +6,7 @@ Root brand records with individual observation dates. Both recorded TONEX ONE an
 **Model and section index — A–Z, natural numeric order**
 
 - [Incoming capability evidence, 2026-10-18](#incoming-capability-evidence-2026-10-18)
+- [TONEX Board — partial discovery](#tonex-board--partial-discovery)
 - [TONEX ONE](#tonex-one)
 - [TONEX Pedal](#tonex-pedal)
 <!-- brand-index ends -->
@@ -38,6 +39,20 @@ Exact current Shopee hardware offer, condition-verified new/used IDR, live stock
 ### TONEX Pedal — expression macro scope
 
 Checked2026-10-19. [Manufacturer-authored Englishv1.0.4 manual,2023/04/12,pp22,25–27](https://files.kraftmusic.com/media/ownersmanual/TONEX_Pedal_User_Manual.pdf): global EXT.CTRL selectsTRS/RTS controller type;assignment uses **PRESET SETUP→EXT.CTRL ON→EXT.LEARN A/B**. **Master VOLUME cannot be macro-assigned**;manual recommendsMODEL.VOL orpost-compressorCMP GAIN forselected-preset volume. Thus persistent physicalVOLUME0–10 isnotglobal expression assignment. A/B representheel/toe;exact mapped endpoints depend onthelearned preset. GlobalMAIN VOL−40…+3dB affectsactive/bypassed analogsignal,butdoesnotestablish expression control. Position,bypass/headphone/tail/looper attenuation remainunknown forlearned targets. Manualp15documentsbankdownA+B/upB+C,thenA/B/Cpresetselection;notsequentialpatchdown/up. Laterfirmware globaloverride remainsunverified;currenteffectsarenotassumedidentical to2023. No software,hardwareorstock test.
+
+## TONEX Board — partial discovery
+
+Checked **2026-10-31**. Distinct from TONEX ONE/Pedal; **outside active inventory and comparison counts**, pending full profile and exact Shopee hardware evidence. [Manufacturer announcement](https://ikmultimedia.com/en-us/blogs/news/ik-launches-tonex-board),displayed date **2026-10-02**.
+
+| Field | Announcement evidence / qualification |
+|---|---|
+| Display / controls | **5-inch color touchscreen;six push-rotary controls**. Individual footswitch LCDs,complete switch/button counts andbuilt-in treadle status unverified;shared touchscreen specification does not establish switch strips. |
+| Processing / scope | Guitar/bass;up to **four Tone Models**,two signal paths and **12 total model/effect slots**. **76 effects=51 AmpliTube-derived+15 TONEX+10 new**,across nine unnamed categories. These are library/slot claims,not16 simultaneous blocks or a complete category census. |
+| Audio / routing | Two stereo output pairs,one XLR;stereo loop divisible into two mono paths;MIDI andexpression control. Full connectors,wiring,global volume andheadphone coverage unknown. |
+| Capture / software | Capture creation uses **TONEX Modeler software**;2,000 included Tone Models are content,not onboard preset capacity. Dedicated Board Editor handles transfers;full realtime editing is promised for Q4 2026. No onboard capture,NAM orIR-format conclusion. |
+| USB / chronology conflict | Announces **4-in/2-out USB audio via an October1 update**,andPlayer2.1 release October1,using future tense despite the page’s October2 date. Delivery/firmware confirmation required;not verified operating USB audio. |
+
+Exact Shopee search surfaced sibling products andsoftware,not a qualified Board item. IDR,new/used,stock,bundle,dimensions,mass,power,preset allocation,expression ranges/recall,looper/drums,editor OS minima andscreen-strip technology remain unverified. Linked exact product page returned cache miss. No downloads,installation ordevice operation.
 
 ## TONEX ONE
 

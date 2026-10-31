@@ -131654,5 +131654,22 @@
     "correction": "Older headphone/loop broad unknowns now point to later conditional Out1 routing inference;original sources andbypass/range/recall uncertainty preserved",
     "remaining": "Global analog EXP USB-return/copyroute coverage,numericendpoints,recall andbypass unresolved",
     "next": "Continue individual LCD priority;independent BOSS GT-Pro cursor retained"
+  },
+  "tonex_board_partial_discovery_20261031": {
+    "checked": "2026-10-31",
+    "record": "IK-MULTIMEDIA.md#tonex-board--partial-discovery",
+    "status": "Partial lead;outside active counts;not a verified individual-LCD model",
+    "source": "https://ikmultimedia.com/en-us/blogs/news/ik-launches-tonex-board",
+    "source_date": "2026-10-02",
+    "findings": [
+      "5inchcolor touchscreen,sixpushrotaries",
+      "4ToneModels within12total slots across2paths",
+      "76effects51+15+10,ninecategories unnamed",
+      "SoftwareModeler capture;2000includedcontent notpresetcapacity"
+    ],
+    "date_conflict": "PageOct2 future-promisesOct1 USB4in2out/Player2.1;deliverynotverified;BoardEditor realtimeQ4promise",
+    "market": "ExactShopeesearchonlysiblings/software;noqualifieditemorIDR",
+    "remaining": "Full requiredprofile,exacthardwareoffer,globalEXPvolume/coverage,displaylayout,currentfirmware andeditor functionality",
+    "next": "IndividualLCD priority retained;TONEXBoard secondarypartialdiscovery only;BOSS GT-Pro generalcursor unchanged"
   }
 }

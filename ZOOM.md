@@ -1996,7 +1996,6 @@ Checked **2026-10-31** against all five pages of the [manufacturer B3n power cha
 
 The83-versus89 difference concerns these two2017 documents,not a reconciled current pool total. No local download,software installation ordevice operation.
 
-
 ## B6
 
 Bass multi-effects; large body, external-only expression. Consolidated and refreshed 2026-10-16; partial. All 15 legacy model fields below retain the original 2026-10-14 observation date. New manual details and IDR evidence are dated separately.

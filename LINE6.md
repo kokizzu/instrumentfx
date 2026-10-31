@@ -431,7 +431,6 @@ Original2.0 RevC manual also exceeds reader limit (12,183,388bytes);no download.
 [HF-DS]: https://line6.com/software/index.html?hardware=Helix&locale=de_DE&name=All&submit_form=set
 [HF-RN]: https://line6.com/support/page/kb/effects-controllers/helix/helixhx-380-release-notes-r1079/
 
-
 ## Helix LT
 
 Guitar/bass multi-effects; checked **2026-10-16**. First pass, not fully verified. The LT-specific manufacturer chart explicitly lists bass amps and bass inputs; this is not inferred from Helix Floor.
@@ -1207,7 +1206,6 @@ Checked2026-10-31 from [manufacturer v2.0 Advanced Guide](https://line6.com/data
 | Live / bypass and tails | Relay True Bypass requires all four FX units bypassed,looper stopped,andLooper Controls inactive. DSP Bypass is required for loop playback ordelay/reverb trails while all FX are bypassed. This does not prove pedal attenuation of tails/recordedloops orscene-change spillover. |
 
 Shopee search still produced no qualified exact M13 processor offer;adapter prices andM9 units excluded. Partial lead remains outside active counts.
-
 
 ## Other Line 6 records awaiting consolidation
 
