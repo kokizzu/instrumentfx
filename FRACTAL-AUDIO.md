@@ -484,7 +484,6 @@ Checked **2026-11-01**. The [manufacturer listing](https://www.fractalaudio.com/
 
 No local download,installation,reset,device operation oraudio test. The7.x global-volume procedure remains documented;current endpoints,held-position recall,bypass andevery-route coverage remain unverified.
 
-
 ## FM3 original
 
 Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct from MKII Turbo; not fully verified and no ownership assertion. The earlier discovery heading and complete body follow as historical evidence. Their outside-inventory statements describe pre-admission checkpoints. This admission does not settle hardware variants, market availability or remaining specifications.

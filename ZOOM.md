@@ -4068,7 +4068,6 @@ Checked **2026-11-01** in the [manufacturer-authored original G5 manual reproduc
 
 No download, device test or visual panel inspection. Built-in Z-Pedal exclusion from the no-treadle shortlist remains.
 
-
 ## G5n
 
 Reviewed **2026-10-17** after fresh exact Shopee hardware discovery. New catalogue record, no ownership assertion. Discontinued according to Zoom; reseller offers can remain historical. Partial: no software, firmware, manual file or dependency downloaded or installed. Official manual evidence below is search-indexed text, not a fresh PDF/image inspection.
@@ -4346,7 +4345,6 @@ The separate [manufacturer DSP chart](https://zoomcorp.com/documents/1326/E_G5n_
 | **Calculated total** |**103**|
 
 This example exceeds the published DSP ceiling even with only four selected types. It illustrates why **unit occupation andDSP budget must both be checked**;it is not a device test,a measured CPU percentage ora claim about which effect becomes bypassed. Later pool additions/current installed costs remain unverified. Existing PROCESS OVERFLOW behavior andfirmware efficiency qualifications are retained. No local download,software installation orhardware operation.
-
 
 ## G6
 
@@ -4839,7 +4837,6 @@ Checked **2026-11-01**. [G11 support](https://zoomcorp.com/en/us/multi-effects/g
 | Memory / patch backups | Guide pp17–18 documents individual **Save To Patch Pool**, **Backup All**, file drag-export/import, **Copy To Device** and **Restore All**. IR import is a separate pp19–20 workflow;the inspected patch-backup instructions do not establish IR audio,global settings orfirmware coverage. Preserve IR originals separately;complete system-backup capability remains unverified. |
 
 No application installed,backup created,device connected orlocal file downloaded. These editor operations do not establish global expression-volume assignment orcurrent installed effect totals.
-
 
 ## GFX-3
 

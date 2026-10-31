@@ -96,7 +96,9 @@ elif mode=='commit':
         assert collections.Counter(b.rstrip() for _,b in sections(original+'\n')[1])==collections.Counter(b.rstrip() for _,b in sections(current)[1]),'Evidence changed: '+name
     names=list(json.loads((ROOT/'research-state.json').read_text())['root_brand_content'])+['README.md','scripts/brand_sort.py','scripts/comparison_views.py','Makefile','AGENTS.md','research-state.json','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md','MULTI-EFFECTS.md']
     assert not git('diff','--cached','--name-only')
-    subprocess.run(['git','add','--',*names],cwd=ROOT,check=True)
+    changed=set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
+    assert changed and changed <= set(names), 'Unexpected paths: '+repr(changed-set(names))
+    subprocess.run(['git','add','--',*sorted(changed)],cwd=ROOT,check=True)
     assert set(git('diff','--cached','--name-only').splitlines())<=set(names)
     subprocess.run(['git','diff','--cached','--check'],cwd=ROOT,check=True)
     print(git('diff','--cached','--stat'))

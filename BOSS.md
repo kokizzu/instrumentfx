@@ -359,7 +359,6 @@ Checked **2026-11-01** in the original ©2026 Roland HTML Reference Manual. No m
 
 Headphone provision and expression-volume range, bypass, tails and startup recall remain separate unresolved fields. The shared main LCD does not enter the individual-foot-LCD shortlist. EX-4 remains a partial discovery lead outside active counts; no download, write, reset or hardware operation was performed.
 
-
 ## GM-800
 
 Consolidated and refreshed **2026-10-16**; partial verification. This processor qualifies through independent MFX architecture; it requires specialized input hardware for guitar/bass playing. No excluded specialist model is added.
