@@ -130618,6 +130618,14 @@
       "source": "https://www.fender.com/products/tone-master-pro",
       "finding": "Added current input headroom and line output electrical ratings to canonical record; published voltage notation retained without peak/RMS assumption.",
       "limits": "Full1.8 guide mirror not located; category census and expression endpoints still unresolved."
+    },
+    "g3n_tahoe_usb_boundary_20261031": {
+      "sources": [
+        "https://zoomcorp.com/en/gb/news/macos_tahoe/",
+        "https://zoomcorp.com/media/documents/E_GuitarLab_v7.0.pdf"
+      ],
+      "finding": "Tahoe26 Apple silicon/Intel matrix marks G3n/G3Xn and Guitar Lab compatible as ofJan2026. GCE-3 audio-interface claim belongs to separate emulator hardware.",
+      "limits": "G3n USB audio remains unverified; no downloads or hardware tests."
     }
   },
   "gt_pro_global_patch_level_20261031": {

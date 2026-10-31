@@ -22,5 +22,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): distinguish G3 rhythm and loop continuity'
+        message='research(zoom): verify G3n host support and emulator USB boundary'
     print(git('commit','-m',message))
