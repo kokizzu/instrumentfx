@@ -137936,5 +137936,14 @@
     "remaining": "Completebackupcontents,loopaudio,crossversionrestore andmicroSDformat/capacity notverified;LCDphysicalspecs/globalanalogvolumegapsremain.",
     "downloads": false,
     "hardware_test": false
+  },
+  "helix_floor_ex2_wiring_20261101": {
+    "checked": "2026-11-01",
+    "source": "https://line6.com/data/6/0a0004cf005769d5300a58de5/application/pdf/EX2%20Cheat%20Sheet%20-%20English%20.pdf",
+    "identity": "Line 6 EX2 Cheat Sheet, Rev A, 40-00-0659, ©2025, p1; explicitly names Helix Floor",
+    "finding": "EX2 PEDAL to Helix Floor EXP with TS-to-TS cable; pedal rated 10 kΩ. Combined expression/toe TRS instructions explicitly apply to Stadium, not Floor.",
+    "remaining": "Host resistance tolerance, arbitrary M-VAVE compatibility, external toe support and universal analog-volume assignment remain unverified. Built-in treadle excludes Floor from no-treadle shortlist. Individual LCD specifications and power draw remain open.",
+    "downloads": false,
+    "hardware_test": false
   }
 }
