@@ -129322,7 +129322,13 @@
     "fm9": {
       "checked": "2026-10-31",
       "source": "https://www.fractalaudio.com/fm9/",
-      "finding": "Nine individual mini LCDs; current MKII model enlargement distinguished from original."
+      "finding": "Nine individual mini LCDs; current MKII model enlargement distinguished from original.",
+      "control_followup": {
+        "checked": "2026-10-31",
+        "source": "https://shop.fractalaudio.com/products/fm9-mark-ii-turbo-amp-modeler-multi-fx-floor-unit",
+        "finding": "Exact current MKII store confirms five main-display push encoders,not complete rotary/push count.",
+        "remaining": "Current store supplies no dimensions/mass; older physical figures remain revision-qualified. Direct old manual reader timeout; no file download."
+      }
     },
     "fm3": {
       "checked": "2026-10-31",
