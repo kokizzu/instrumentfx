@@ -129467,6 +129467,12 @@
         "source": "https://line6.com/software/index.html?hardware=Helix&locale=de_DE&name=All&submit_form=set",
         "finding": "Firmware3.80.0 distinct from HXEdit3.82;3.81 Apple-silicon backup fix;historical2.80 EXP strip0–100% Temporary/Persistent supports separate pedal readout.",
         "remaining": "Generic and unusual OS labels not a tested matrix;full3.80 manual/visual count/current category inventory unresolved;RevC also reader size limit."
+      },
+      "exp2_routing_20261101": {
+        "source": "https://manualzz.com/doc/81729721/line-6-helix-owner-s-manual",
+        "identity": "Manufacturer3.80RevG pp8,54–57,71;originaltext",
+        "finding": "ExternalEXP2 makesinternaltreadleEXP1only;Volume/PanPositiondefaultEXP2,otherpedalmodelsEXP1;EXPToebypass latching;64controllerassignments/preset. Globalpositionrecallnot globaltargetassignment.",
+        "remaining": "Numericvolumeendpoints,powerdraw,factoryoccupancy,stripcolor/touch/axis andvisualcountunverified;USB subtype not established bychecked originaltext."
       }
     },
     "stadium_xl": {
@@ -130681,7 +130687,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Helix Floor remaining exact-current LCD/control gaps,then Zoom no-treadle LCD processors. FM9 oscillator architecture saved;globalEXP endpoints/recall/currentMKIIphysical corroboration still unresolved. Prioritize new evidence over repeating unchanged manuals. Preserve independent BOSS GT-Pro cursor anddeferred no-treadle tasks;OLED/shared-screen/controllers secondary.",
+      "next_check": "Zoom no-treadle individual-LCD processors next: G3n then G3/B3n/B3 unresolved exact-model physical/control andcurrent documentation gaps. HelixFloor EXP2/Toe/position-scope saved;unresolved hardware fields remain explicit. Seek new evidence rather than repeating unchanged sourcepasses. Preserve independent BOSS GT-Pro anddeferred no-treadle tasks;OLED/shared-screen/controllers secondary.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133390,6 +133396,11 @@
       "file": "FRACTAL-AUDIO.md",
       "model": "FM9 MKII Turbo",
       "heading": "### FM9 — oscillator synthesis versus polyphonic tracking"
+    },
+    {
+      "file": "LINE6.md",
+      "model": "Helix Floor",
+      "heading": "### Helix Floor — external EXP2 routing and preset assignment scope"
     }
   ],
   "model_note_scope_correction_20261101": {

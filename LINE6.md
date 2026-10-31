@@ -302,7 +302,7 @@ Checked **2026-10-17**. Original Helix Floor; distinct from LT,Rack and Stadium.
 
 | Required field | Finding |
 |---|---|
-| Built-in / external / toe expression | Built-in pedal; toe toggles EXP1/2;two external EXP2/3 inputs. CV/expression output and amp-switch output separate. [Cheat sheet][HF-S], [Floor product][HF-P] |
+| Built-in / external / toe expression | Built-in pedal; toe toggles EXP1/2;two external EXP2/3 inputs. [EXP2 connection makes built-in treadle EXP1-only](#helix-floor--external-exp2-routing-and-preset-assignment-scope). CV/expression output and amp-switch output separate. [Cheat sheet][HF-S], [Floor product][HF-P] |
 | Knobs / footswitches / buttons | **10 rotaries including rotary joystick /12 footswitches /8 separate front buttons**:Preset,Volume,Phones,6parameter knobs,joystick;Save,Menu,Home,Amp,Bypass,Action,2Page buttons. Push encoders counted once; toe, rear power/ground lift additional. Text-derived; product’s thirteen-strip wording conflicts with FS1–12 cheat sheet. [Cheat sheet][HF-S], [Floor product][HF-P] |
 | Display | **6.2-inch,800×480 color LCD**;**non-touch original design**,per the launch-era design explanation linked below. **13 LCD strips documented in own3.80 manual**, which separately describes the expression-pedal strip showing EXP1/2. With cheat sheet FS1–12, **12 switch strips +1 pedal readout** is the text-based accounting,not a visual count. Product’s13-foot-switch-strip wording remains imprecise; strip diagonal/color/touch still unverified. [Indexed own manual,p8](https://line6.com/data/6/0a00051afda2673ccc1cc8e68/application/pdf/Helix%203.80%20Owner%27s%20Manual%20-%20English%20.pdf),checked2026-10-31;direct reader size limit. [Comparison KB][HF-K], [Floor product][HF-P] |
 | Dimensions / weight | KB **22.05 W×11.85 D×3.58 H inches;14.7lb**;older manufacturer FAQ **22.05×11.85×3.6 inches;14.6lb**. Preserve rounding/mass difference; basis unspecified. [Comparison KB][HF-K], [FAQ][HF-Q] |
@@ -493,6 +493,20 @@ Checked **2026-11-01** in the [qualified original3.80 RevG manual reproduction,p
 | Display / multi-action commands | HX Snapshot/Looper press-release orpress-hold assignments show **only the press action** onthe stomp label/LED. Command Center custom-label option is unavailable forHX Preset,Snapshot andLooper commands. |
 
 No download orhardware test.
+
+
+
+### Helix Floor — external EXP2 routing and preset assignment scope
+
+Checked **2026-11-01**, [manufacturer3.80 RevG manual reproduction,pp8,54–57,71](https://manualzz.com/doc/81729721/line-6-helix-owner-s-manual),original-document identity established above;host-generated answers excluded.
+
+| Field | Exact Floor behavior / qualification |
+|---|---|
+| Expression / external EXP2 connection | Plugging an external pedal into **EXP2 makes the built-in treadle EXP1-only**. The separate pedal strip identifies the active controller;two external sockets do not mean two additional built-in treadles. |
+| Expression / automatic assignment | Inserting Volume Pedal/Pan assigns Position to **EXP2**;Wah/Pitch Wham/Poly Wham to **EXP1**. These blocks also receive a latching **EXP Toe** bypass assignment. The toe switch’s block-bypass role is separate from the parameter sweep. |
+| Expression / preset versus global scope | **64 controller assignments per preset**. Global EXP1/2/3 Position chooses snapshot,preset orglobal position recall;it does not insert a Volume block orpropagate its assignment to other presets. Numeric volume endpoints remain unverified. |
+
+No pedal connected orpreset changed. DirectUSB1/2 playback still bypasses processing as documented above;these assignments do not establish its pedal attenuation. Built-in treadle excludes Floor fromthe no-treadle shortlist;it remains an individual-LCD comparison model. No download.
 
 <!-- comparison evidence ends -->
 
