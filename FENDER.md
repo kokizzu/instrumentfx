@@ -439,3 +439,14 @@ Checked **2026-10-31** in [Fender’s original update article](https://www.fende
 | Processing / default cabinet scope | Rumble800 defaults to4×10 Bassman Pro Neo;allthree newEVH channels default to1×12 5150 G12H. A default pairing does not mean a newcabinet for each channel ormandatory fixed routing. |
 
 Current complete GuideH census andinstalled content remain unverified. No download ordevice operation.
+
+### Tone Master Pro — firmware-qualified LCD and live-edit fixes
+
+Checked **2026-10-31** against [Fender’s original release history](https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates).
+
+| Field | Release-specific finding / qualification |
+|---|---|
+| Display / firmware1.7.75 fixes | **January28,2026:** notes address blank scribble strips after selecting Setlist mode in Pro Control or Preset View within a setlist;Gig View disappearance;incorrect strip view after leaving DAW Mode;andscene rearrangement confusing footswitch positions in Discard Mode. These are software-state fixes,not changes to ten physical LCDs. |
+| Live / firmware1.8.58 fixes | **July15,2026:** notes fix editing pre-1.8 Songs sometimes removing an assigned preset from its song footswitch,uneven loudness at some cabinet/mic IR positions,andpotential crashes involving Step Filter,Step Filter Delay,Pitch Sequencer orStep Tremolo. These are manufacturer claims for that release,not installed-version orhardware validation. |
+
+Guide-H category counts,user-IR limits andglobal analog expression-volume coverage remain unresolved. No download,update,preset edit ordevice operation.

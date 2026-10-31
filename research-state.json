@@ -132800,5 +132800,15 @@
     "limits": "Historical3.0+ FM9 scope;current MKII/firmware12 operation and untouched factory assignments unverified. No downloads ordevice changes.",
     "next": "Continue individual-LCD exact-model gaps;do not treat song stepping as preset stepping,or driver ARM support as editor ARM certification. Independent BOSS GT-Pro cursor preserved.",
     "comparison_scope": "Each added field retains 2023 guide qualification when extracted into instrument comparison cells."
+  },
+  "tone_master_lcd_live_edit_fixes_20261031": {
+    "source": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+    "versions": [
+      "1.7.75,2026-01-28",
+      "1.8.58,2026-07-15"
+    ],
+    "finding": "Added blank-strip/setlist/DAW view fixes andlater song assignment,IR level andstep-effect crash corrections;ten physical LCDs remain unchanged.",
+    "limits": "Manufacturer release claims only;installed behavior untested. Current GuideH reader still rejects document/pdf;no category census,IR limit orglobal-volume capability inferred.",
+    "next": "Continue exact-model individual-LCD documentation/qualified hardware offers;avoid repeating inaccessible GuideH as a completed census. Independent BOSS GT-Pro cursor preserved."
   }
 }
