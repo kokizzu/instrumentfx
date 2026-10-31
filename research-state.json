@@ -129268,7 +129268,6 @@
       "Fender Tone Master Pro"
     ],
     "remaining_candidates": [
-      "Line 6 Helix Floor",
       "Line 6 Helix Stadium XL Floor"
     ],
     "qualification": "Existing profiles are not new admissions or proof of recent launch. Controller-only products excluded.",
@@ -129355,6 +129354,12 @@
       "checked": "2026-10-31",
       "source": "https://www.fender.com/products/tone-master-pro",
       "finding": "Ten dedicated footswitch LCD screens; other navigation/master displays counted separately."
+    },
+    "helix_floor": {
+      "checked": "2026-10-31",
+      "source": "https://line6.com/helix/helix-guitar-processor.html",
+      "status": "Individual strips confirmed; exact count unresolved",
+      "conflict": "Product13 footswitch strips versus cheat sheetFS1–12 plus expression toe; no inferred resolution."
     }
   }
 }
