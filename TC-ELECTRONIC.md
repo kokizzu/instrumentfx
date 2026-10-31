@@ -785,6 +785,18 @@ Checked **2026-11-01** in ELECTORI’s [exact X5 Rev1.3 manual, p13](https://www
 
 The regional page explicitly excludes battery operation. This narrows the regional battery claim only, not USB power or measured current. Distributor evidence does not establish current all-Board expression-volume scope. No local download, visual inspection or device test.
 
+
+### PLETHORA X5 — modifier range versus volume and post-change MIDI
+
+Checked **2026-11-01**;no download ordevice operation.
+
+| Field | Source-qualified finding |
+|---|---|
+| Expression / direct parameter range | [ELECTORI Rev1.3 manual,Board-settings table](https://www.electori.co.jp/tc-electronic/assets/pdf/PLETHORA_X5_MANUAL_JP_REV_1_3.pdf),firmware1.3.11,printedp6:direct assignment of selected effect parameters uses a **fixed0–100 range that cannot be adjusted**. The separate predefined EXPRESSION MODIFIER mapping is editable through TonePrint Editor. This is distributor documentation;do not transfer that range to the separate VOLUME mode orclaim primary confirmation of physical pedal attenuation. |
+| MIDI / post-Board-change delivery | [Manufacturer1.4.3 notes,2023-10-19,PDFp4](https://cdn-media.empowertribe.com/de6f97186ddb4d5d9a494639112a03ea/Plethora_X5_X3_Release_notes_FW_v1_4_3.pdf) fix MIDI CC messages being discarded immediately after aBoard change. Historical fix,not a measured delay,analog EXP recall guarantee orproof of a global volume target. |
+
+Existing Board-level EXP Assignment andglobal calibration distinction remains. Volume endpoints,held-position recall,bypass/tail/loop coverage andcurrent installed behavior remain unresolved. ExactShopee item18280216311 was still inaccessible;no new condition orstock claim.
+
 <!-- comparison evidence ends -->
 
 Variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers unresolved. No download or visual inspection claimed. All facts from own-model sources; no X3 specification substitution.

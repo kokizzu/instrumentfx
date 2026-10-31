@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "PLETHORA X5: exact global-versus-Board EXP volume setup andqualified hardware offers;seek current manufacturer manual. FM3 startup fixes saved withoutclosing analog recall/endpoints. Independent BOSS GT-Pro cursor unchanged.",
+      "next_check": "Fender Tone Master Pro: current exact manufacturer model guide andLCD/global-expression gaps;then remaining individualLCD models. X5 directparameter0-100 isnotVolume endpoints;globaloverride remainsunverified. Independent BOSS GT-Pro unchanged.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133278,6 +133278,11 @@
       "file": "FRACTAL-AUDIO.md",
       "model": "FM3 MKII Turbo",
       "heading": "### FM3 — firmware-qualified pedal startup and activity sensing"
+    },
+    {
+      "file": "TC-ELECTRONIC.md",
+      "model": "PLETHORA X5",
+      "heading": "### PLETHORA X5 — modifier range versus volume and post-change MIDI"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -133381,5 +133386,14 @@
     ],
     "finding": "3.02 March10 2021 globalInput/OutputVolume pedal initialization fix;9.01 Oct11 2024 activity sensing forabsentcontroller AutoEngage;11.0 Oct1 2025 startup External/FC modifier fixes andfaster pedal response.",
     "limits": "No numeric globalvolume endpoints,analog recall/fallback,currentinstalledbehavior orUSB/bypass coverage established. No download/device test."
+  },
+  "plethora_x5_modifier_range_midi_20261101": {
+    "sources": [
+      "https://www.electori.co.jp/tc-electronic/assets/pdf/PLETHORA_X5_MANUAL_JP_REV_1_3.pdf",
+      "https://cdn-media.empowertribe.com/de6f97186ddb4d5d9a494639112a03ea/Plethora_X5_X3_Release_notes_FW_v1_4_3.pdf"
+    ],
+    "finding": "Distributor firmware1.3.11 p6 direct effect-parameter assignment fixed0-100,distinct from editable predefined modifier mapping andseparateVolume. Manufacturer1.4.3 fixes CC discarded immediately afterBoardchange.",
+    "limits": "No global analog volume override/range/heldposition/output coverage established. ExactShopee18280216311 remainsinaccessible;no new priced offer.",
+    "next": "Tone Master Pro current original guide/library gaps,then further LCD-first models;preserveGT-Pro independentcursor."
   }
 }
