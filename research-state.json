@@ -129436,6 +129436,12 @@
         "source": "https://support.fender.com/hc/en-gb/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
         "version": "1.8.45,2026-06-03",
         "finding": "16 paged assignments,8scene maximum; hardware remains10 switches/LCDs. New looper assignments control global looper."
+      },
+      "compound_and_response_20261101": {
+        "manual": "https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual",
+        "release_history": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+        "finding": "fw1.5 fivefunctions/switch;ONOFF multipleblocks withno statedlimit withinpresetDSP,ParameterChange oneblock.1.5.21 fixesEXP lag/graphicsswitching;1.6.48 fixesstripname refresh andInstrumentSplit tuner mute.",
+        "remaining": "Current1.8manual/GuideH unsupportedcontenttype;NAM originalaccount not recovered,no shippedclaim;globalanalogEXP endpoints/outputcoverage andLCDphysicalspecs unverified."
       }
     },
     "helix_floor": {
@@ -130669,7 +130675,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Fender Tone Master Pro remaining LCD/control gaps andexact-current analog-volume documentation. HXEffects/FM3/X5 latest source checks retained;unresolved EXP endpoints/recall remain unknown andneed new evidence,not repetitive rechecks. Then remaining confirmed individual-LCD processors before OLED/shared-screen/controllers;preserve independent BOSS GT-Pro anddeferred no-treadle tasks.",
+      "next_check": "Continue remaining confirmed individual-LCD processors: FM9 MKII Turbo then Helix Floor current-model gaps,followed by Zoom no-treadle LCD models. First four priority sources rechecked;retain unresolved globalEXP/range/recall andsourceaccess blockers rather than treating a pass as completion. OLED/shared-screen/controllers stay secondary. Preserve independent BOSS GT-Pro cursor anddeferred no-treadle tasks.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133368,6 +133374,11 @@
       "file": "TC-ELECTRONIC.md",
       "model": "PLETHORA X5",
       "heading": "### PLETHORA X5 — regional editor expression-curve scope"
+    },
+    {
+      "file": "FENDER.md",
+      "model": "Tone Master Pro",
+      "heading": "### Tone Master Pro — compound switch functions and historical response fixes"
     }
   ],
   "model_note_scope_correction_20261101": {

@@ -486,3 +486,16 @@ Checked **2026-11-01**, [manufacturer firmware1.5 manual,printedpp12,18](https:/
 | I/O / output assignment | Upper Path,Lower Path andUSB1/2 can separately feed **Headphones,Output1 andOutput2**. This is audio routing,not global analog volume;an assigned Volume block does not thereby establish attenuation ofindependent USB playback. |
 
 Current GuideH census,IR import limits andexpression output coverage remain open. No download,software launch orhardware test.
+
+
+### Tone Master Pro — compound switch functions and historical response fixes
+
+Checked **2026-11-01**;no download or device operation.
+
+| Field | Source-qualified finding |
+|---|---|
+| Controls / compound assignments | [Manufacturer firmware1.5 manual,pp19–20](https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual):**up to five control functions per footswitch**. An ON/OFF function can control multiple blocks with **no stated block-count limit**,while one Parameter Change assignment targets one block. This is bounded by existing preset/DSP capacity;it does not establish unlimited processing or80 independently visible functions under later assignment paging. |
+| Display / historical response | [Official release history](https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates):**1.5.21,2025-03-26**,improves preset/scene touchscreen and strip switching and fixes lag with multiple EXP assignments in large presets. **1.6.48,2025-08-27**,fixes saved preset names failing to update promptly on strips. No numerical latency orcurrent defect inferred. |
+| Live / historical tuner exception | Same **1.6.48** fixes Instrument Split outputs not both muting with the tuner. Earlier1.6.38 lists the lower-path issue andworkaround of selecting both Instrument and Mic/Line inTuner. This is tuner-state coverage,not global EXP attenuation of USB,headphones,tails orloops. |
+
+The current owner-manual and Guide H links still return unsupported document/pdf through the reader;their current full contents remain unverified. The NAM A2 original-account post was not recovered from the newer press links;the existing pending lead is not promoted to shipped functionality.
