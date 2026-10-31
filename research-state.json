@@ -137646,5 +137646,24 @@
       "No analogEXP socket still failsdirectanalogvolume requirement."
     ],
     "next": "Prioritize missing individual-LCD models andremaining exact-model gaps;BOSS GT-Pro general cursor preserved."
+  },
+  "fm3_mkii_v13_recall_routing_20261101": {
+    "model": "Fractal Audio::FM3 MKII Turbo",
+    "status": "partial revision-qualified manufacturer documentation",
+    "sources": [
+      "https://www.fractalaudio.com/fm3-downloads/",
+      "https://manuals.plus/m/7de5caf1ac45bf1cdf36c9adfdb9d248e0cfeebd9524cbad9fbd8d3f94baf9eb.pdf"
+    ],
+    "identity": "13.00 July16,2026 matches current maker Original/MKII listing;owner manual remains7.x.",
+    "findings": [
+      "Invalid/duplicate modifiers removed onpreset recall;not global analog volume-position recall.",
+      "Existing preset amp sound may change with modeling/taper/default updates;model-specific soft-reset recommendation recorded,not executed.",
+      "Mixer micro-delay up to64samples forparallel alignment,not echo/newblocks."
+    ],
+    "unresolved": [
+      "Global analog-volume endpoints,held-position recall,bypass/every-route coverage",
+      "Current complete effect census andremaining display specifications"
+    ],
+    "next": "Continue missing individual-LCD models andremaining substantive source gaps first;independent BOSS GT-Pro cursor unchanged."
   }
 }

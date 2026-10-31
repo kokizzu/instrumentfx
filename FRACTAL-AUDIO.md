@@ -204,6 +204,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; origina
 | USB functions | **4×4 audio**, recording/reamping. **Not USB MIDI**: proprietary COMM for editor. Manual pp.24–25; [Product](https://www.fractalaudio.com/fm3/). Do not infer USB power. |
 | Editor platforms / drivers | Free **FM3-Edit Mac/Windows** full editor. Listed1.07.17,2026-08-25:macOS10.13+,Windows10+64bit; Windows7 unsupported. Windows editor depends on USB audio+serial drivers. Android/iOS/Linux editor unverified. [Editor](https://www.fractalaudio.com/fm3-edit/) |
 | Editor / current Windows driver architectures | **June10,2026 bundle:** audio6.16 andserial1.3,**both required**,lists Windows10+ **x86,x64,ARM**. Windows7/8 instead references legacy1.1. Driver architecture support is not certification of native ARM FM3-Edit,every Windows release orlocal operation;editor requirements remain separately qualified. [Own FM3 downloads](https://www.fractalaudio.com/fm3-downloads/),checked2026-10-31. |
+| Firmware /13.00 preset compatibility | Release notes remove invalid/duplicate modifiers during preset recall andchange several amp control tapers/defaults;existing presets can need audition/adjustment. Mixer gains up to64-sample alignment delays. These are not global pedal-position recall ornew delay-block capacity;[revision-qualified details](#fm3-mkii-turbo--1300-preset-recall-and-routing-qualifications). |
 | Firmware / software revision | Downloads list **firmware13.0,2026-07-16**, compatible original/Turbo, requiring latest editor. Windows drivers listed2026-06-10:audio6.16/serial1.3; both needed. Factory presets2025-06-04 target10.00+. These listings do not verify installed firmware or every7.x manual feature against13.0. [Downloads](https://www.fractalaudio.com/fm3-downloads/) |
 | Practical / tail continuity | **Own7.x manual pp99,133:** preset spillover is globally OFF by default; options enable Delay, Reverb or both. Matching numbered blocks must exist in both presets (Delay1→Delay1, etc.). Settings, placement and bypass modes can alter the tail. For individual-block bypass, MUTE FX IN preserves tails; parallel routing uses MUTE IN. Scene spillover is not controlled by that global preset-spillover switch. This does not establish loop continuity, seamless preset changes or position recall for global volume. [Own manual](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf) |
 | Practical features | Looper,tuner,programmable tap/hold footswitches,eight layouts; FASLINK II supports up to two FC6/FC12 controllers. [June2023 Blocks Guide pp50–51](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf) explicitly names FM3: **stereo looper,120s maximum**; speed/quality basis and firmware13 equivalence unverified. Undo/redo,reverse,one-shot,threshold recording,beat quantization and loop-end crossfade documented. Playback/Dry/Overdub levels are separate; playback filters do not affect recording. Drum machine remains unresolved. [Product](https://www.fractalaudio.com/fm3/) |
@@ -470,6 +471,19 @@ Checked **2026-11-01**, [own 7.x manual, printed pp12,14,104](https://www.fracta
 Expression requires **10–100kΩ linear resistance and TRS cable**. Calibration: select Calibrate, ENTER, move through the full range several times, ENTER again. Calibration alone does not assign global volume or establish endpoints/recall.
 
 Single switches connect tip–sleeve; dual switches add ring–sleeve. One-switch mode disables the ring source. Switches need no calibration; Follow Hardware preserves physical behavior, while Virtual Toggle turns momentary actions into alternating states. Normal assumes momentary-make; Reverse accommodates momentary-break. Current firmware13 behavior remains untested.
+
+### FM3 MKII Turbo — 13.00 preset-recall and routing qualifications
+
+Checked **2026-11-01**. The [manufacturer listing](https://www.fractalaudio.com/fm3-downloads/) still pairs the **July12,2023 owner’s manual7.x** with **firmware13.0,July16,2026**,expressly supporting Original andMarkII Turbo. The [qualified manufacturer release-note reproduction](https://manuals.plus/m/7de5caf1ac45bf1cdf36c9adfdb9d248e0cfeebd9524cbad9fbd8d3f94baf9eb.pdf),PDFpp1–2,matches that heading. Original document text,not host summaries.
+
+| Field | 13.00 behavior / boundary |
+|---|---|
+| Expression / modifier recall | **Invalid orduplicate modifiers are removed during preset recall**. This concerns preset modifier validity,not specified retention of a directly connected pedal’s position,global-volume endpoints orautomatic all-preset assignment. |
+| Processing / existing-preset sound | Amp modeling updates automatically update existing presets;several corrected control tapers require audition/adjustment. Notes recommend a soft reset for remastered PVH6160,PVH6160+Lead and5153Red models to load new defaults. This documents a recommendation,not an operation performed here orproof of bit-identical preset sound after update. |
+| Routing / Mixer alignment | Mixer adds per-signal **micro delays up to64samples** for phase/latency alignment in parallel routes. These are alignment controls,not audible echo algorithms,extra physical outputs oradditional simultaneous blocks. |
+
+No local download,installation,reset,device operation oraudio test. The7.x global-volume procedure remains documented;current endpoints,held-position recall,bypass andevery-route coverage remain unverified.
+
 
 ## FM3 original
 
