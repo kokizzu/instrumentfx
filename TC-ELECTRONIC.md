@@ -421,7 +421,7 @@ Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ow
 | Categories / Infinite restriction | Firmware**1.5.6,2025-03-23** sustainer holds notes/chords but omits standalone Infinite’s reverb and Kill Dry;reverb needs another slot. Sample sustain does not establish an oscillator synth. | [Shared release notes][PX3-F156] |
 | Editor / newer effect requirement | Infinite editing needs **TonePrint4.6.18 and refreshed content**. Earlier4.2+ guide requirement is not enough for this later effect. Installed versions/currentOS support unverified. | [Shared release notes][PX3-F156] |
 | Live / newer footswitch modes | **1.5.6 adds momentary and momentary+MASH**;effect engages while held. Second-foot-function None renamed Latching. | [Shared release notes][PX3-F156] |
-| Live / tempo synchronization | **1.4.3,2023-10-19** adds per-slot global Tempo Sync,MIDI clock,and Tap/Tuner utility. MIDI expression explicitly works without an analog EXP socket. | [Original release-history conversion][PX3-FM] |
+| Live / tempo synchronization | **1.4.3,2023-10-19** adds opt-in per-slot Tempo Sync,MIDI clock,and Tap/Tuner utility. Slot modifiers temporarily override tempo before returning to global;see [scope](#plethora-x3--tempo-sync-opt-in-and-temporary-overrides). MIDI expression explicitly works without an analog EXP socket. | [Original release-history conversion][PX3-FM] |
 | Memory / restore points | **1.4.3** supports restore-point create/apply/export/import;apply/import replaces user TonePrints,Boards/settings **and firmware version**. Import also replaces local restore point. Not an IR loader. | [Original release-history conversion][PX3-FM] |
 | Live / saving exception | EDIT-mode parameter changes auto-save. **PLAY-mode HOT KNOB tweaks do not auto-save** and serve live adjustment only. This qualifies the product’s broad auto-save statement. HOT KNOBZ are assigned in Board settings. | [QSG pp18–19][PX3-M] |
 | Controls / push encoders | EFFECT and TONEPRINT both have documented press actions; TonePrint hold opens UniTune, press again or any footswitch exits. These presses belong to the rotary encoders, not extra separate buttons. PLAY/EDIT and BOARD remain selector switches. | [QSG pp18–19][PX3-M] |
@@ -501,6 +501,18 @@ Checked **2026-10-31** in [manufacturer-authored V1.0 guide reproduction](https:
 | Controls / mode dependence | EFFECT knob has no PLAY function;PARAMETER knobs require Board HOT KNOBZ assignment there. EDIT changes auto-save,PLAY HOT KNOB tweaks do not. These corroborate the earlier exception;no extra knobs/screens are added. |
 
 This supplements the earlier inaccessible-V1.0 observation;it does not establish all V0.0/V1.0 differences,current firmware equivalence,looper duration oranalog EXP. The40s stereo/80s mono release-note entry belongs to historical **PX5-only1.2.18**,not independent X3 evidence. No download ordevice test.
+
+
+### PLETHORA X3 — Tempo Sync opt-in and temporary overrides
+
+Checked **2026-10-31** against the [manufacturer release-history reproduction][PX3-FM],1.4.3 section explicitly coveringPX5/PX3. Original conversion,not host FAQ;current manufacturer PDF retrieval failed.
+
+| Field | Revision-qualified evidence / limit |
+|---|---|
+| Live / tempo scope | Enable Tempo Sync **for each desired slot** under SETTING > BOARD > TEMPO SYNC. Global changes update enabled slots;not every slot automatically. Sources are a synchronized slot’s secondary tap function,Tap/Tuner,MIDI CC tap orMIDI clock. |
+| Live / temporary override | Knobs,HotKnobz,MASH or expression can temporarily change a synchronized slot’s tempo;it subsequently returns to global. The notes give no numeric timeout. This is tempo synchronization,not global volume assignment. |
+
+Older1.2.18 dual-press Board navigation is labeledPX5-only;it does not close X3’s onboard foot-operated navigation gap. No download or device test.
 
 <!-- comparison evidence ends -->
 

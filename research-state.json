@@ -131803,5 +131803,12 @@
     "patch_selection_during_playback": "Documented",
     "aux_recording": false,
     "qualification": "Text-only documentation;hardware untested. Duration/tempo changes erase data;output expression coverage and persistent storage remain unverified."
+  },
+  "plethora_x3_tempo_scope_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://manuals.plus/m/fab495897f61212f13d7fd3403d4a371bcb2d147dc9c72fd72db55684cdb91f7",
+    "revision": "1.4.3, explicitly PX5/PX3",
+    "scope": "Per-slot opt-in; temporary modifier overrides return to global tempo",
+    "remaining": "Override timeout unspecified; X5-only older dual-press navigation not transferred to X3. Analog EXP remains absent."
   }
 }
