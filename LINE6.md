@@ -18,6 +18,7 @@ Root-level brand comparison. **Checked 2026-10-15.** POD Go Wireless and POD Exp
 - [HX Stomp XL](#hx-stomp-xl)
 - [M5](#m5)
 - [M9](#m9)
+- [M13 — partial display discovery](#m13--partial-display-discovery)
 - [Other Line 6 records awaiting consolidation](#other-line-6-records-awaiting-consolidation)
 - [Pocket POD](#pocket-pod)
 - [POD Express Bass](#pod-express-bass)
@@ -1020,6 +1021,12 @@ Checked 2026-10-18 against the manufacturer v2.0 Advanced Guide, printed §§4�
 [Own v2.0 Advanced Guide RevA][M9-A], §§2•3,3•3,4•1: FX pedal assignments and heel/toe settings belong to each Scene. Only **looper pedal control** is explicitly global; that is not global live-guitar volume assignment. No independent all-scene volume override is established. Volume-effect placement and bypass matter; exact volume endpoints, held-position recall, tail and recorded-loop attenuation remain unverified. Existing true-bypass conditions route around processing, so an FX-based attenuator must not be claimed to cover relay bypass.
 
 [Exact-model FAQ][M9-Q] specifies passive10kΩ linear with mono¼-inch cable. Its I/O inventory gives no dedicated headphone socket. Existing manufacturer footprint claims both exceed the preferred width; retain their conflicting axes and mass. Scene selection is six direct footswitch choices plus hand-selected folders, not verified sequential preset down/up. No hardware testing performed.
+
+## M13 — partial display discovery
+
+Checked 2026-10-31 using the manufacturer’s [M13 v2.0 Advanced Guide, ©2009](https://line6.com/data/l/0a0600729b4f4af8b8d2e9557/application/pdf/M13_Advanced_Users_Guide.pdf). Four LCDs serve four FX units, each with A/B/C effect memories; this is a multi-display layout, not twelve individual switch screens (§§1•1,4•1,A•2). Each LCD has six parameter/model knobs. Screen diagonal and touch capability remain unverified.
+
+This is a partial lead outside active counts. Complete controls,I/O,power,dimensions,mass,category census,software and qualified Shopee Indonesia used/new hardware offers remain pending. The guide distinguishes per-Scene FX expression assignments from global looper-pedal assignment (§2•2); the latter does not prove global guitar-volume control. No local download, device operation or visual inspection.
 
 ## Other Line 6 records awaiting consolidation
 

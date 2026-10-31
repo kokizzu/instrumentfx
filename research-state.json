@@ -129467,6 +129467,14 @@
       "finding": "Twelve individual LCD strips; Helix Rack companion controller.",
       "active": false,
       "root": "LINE6.md#helix-control--controller"
+    },
+    "m13": {
+      "checked": "2026-10-31",
+      "source": "https://line6.com/data/l/0a0600729b4f4af8b8d2e9557/application/pdf/M13_Advanced_Users_Guide.pdf",
+      "identity": "M13 v2.0 Advanced Guide,©2009,37PDFpages",
+      "finding": "Four LCD FX units with A/B/C memories each; not one display per effect switch.",
+      "active": false,
+      "next": "Complete exact-model profile and Shopee discovery before inventory admission."
     }
   }
 }
