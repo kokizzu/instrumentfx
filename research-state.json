@@ -129482,6 +129482,11 @@
         "shopee": "No qualified exact hardware offer found; IDR/condition/stock unknown.",
         "remaining": "Complete control inventory,AC/DC/polarity,editor and full profile reconciliation before admission."
       }
+    },
+    "collection_layout": {
+      "checked": "2026-10-31",
+      "order": "Individual effect-switch displays first, group/shared-main layouts and pending separately; controllers independently grouped.",
+      "preservation": "All28 model rows preserved byte-for-byte; no technical verification status promoted."
     }
   }
 }

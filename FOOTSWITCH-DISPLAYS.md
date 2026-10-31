@@ -8,20 +8,20 @@ Separate physical displays, labels drawn on one shared screen, and LED rings are
 
 ## Audio processors
 
+### Individual displays at effect footswitches — priority
+
+These have separate physical screens for the documented effect switches. Extra navigation switches may have no screen; exact totals and unresolved technology remain qualified in each row.
+
 | Brand / model | Display-layout status | Record / next check |
 |---|---|---|
 | Fender **Tone Master Pro** | **Ten dedicated LCD screens**, one per footswitch/encoder; separate7-inch color touchscreen | [Verified exact-model record](FENDER.md#tone-master-pro). Navigation/master readouts are not additional footswitch displays. |
 | Fractal Audio **FM3 MKII Turbo** | **Three individual mini LCDs**, one per footswitch; separate color main screen | [Current manufacturer-backed record](FRACTAL-AUDIO.md#fm3-mkii-turbo). Virtual switch layouts do not add physical displays. |
 | Fractal Audio **FM9 MKII Turbo** | **Nine individual mini LCDs**, one per footswitch; separate color main screen | [Current manufacturer-backed record](FRACTAL-AUDIO.md#fm9-mkii-turbo). Enlarged MKII strips; do not transfer their size to original FM9. |
-| Fractal Audio **VP4** — shared-screen comparison | **Shared color LCD with separate footswitch LEDs** in manual v1.06 panel inventory | [Exact VP4 record](FRACTAL-AUDIO.md#vp4). Individual switch LCDs are not documented; FM3/FM9 mini-screen layouts do not transfer. |
 | HeadRush **Pedalboard** | **Twelve individual monochrome OLED strips**, one per footswitch; separate main touchscreen | [Exact model/manual record](HEADRUSH.md#pedalboard). Manual strips1.2-inch; main6.9-inch versus marketed7-inch retained. |
 | HeadRush **Prime** | **Twelve individual OLED scribble strips**, one per footswitch; separate7-inch main touchscreen | [Verified exact-model record](HEADRUSH.md#prime). OLED strips and color LED rings are distinct. |
 | Line 6 **Helix Floor** | **Individual assignment scribble strips confirmed**; count remains qualified | [Manufacturer-source conflict](LINE6.md#helix-floor): product says13 footswitch strips; cheat sheet enumerates FS1–12 plus expression toe. Presence confirmed, exact strip total unresolved. |
 | Line 6 **Helix Stadium XL Floor** | **Twelve OLED scribble strips**, plus separate8-inch color touchscreen | [Current manufacturer-backed record](LINE6.md#helix-stadium-xl-floor). Manufacturer marks strips XL-only; non-XL Stadium Floor is different. |
 | Line 6 **HX Effects** — reference | **Six LCD strips**, for switches1–6; eight total switches including MODE/TAP | [Verified layout and source](LINE6.md#hx-effects). Capacitive switches are not touchscreens. |
-| Line 6 **M13** — partial | **Four category-colored LCD effect-unit displays**, serving A/B/C memories per unit | [Manufacturer guide-backed lead](LINE6.md#m13--partial-display-discovery). Multiple displays, not one per effect switch; outside active counts pending full profile. |
-| MELOFTY **AXOM MAX** | **Footswitch/pedal mini screens documented**; exact count, placement and LCD/OLED technology unresolved | [Partial discovery record](MELOFTY.md#axom-max--partial-discovery-lead). Separate7-inch color touchscreen confirmed; not admitted to active model counts. |
-| Neural DSP **Quad Cortex** | **Shared7-inch main-screen Gig View**, showing switch assignments rather than separate strip screens | [Manufacturer4.1.1 manual qualification](NEURAL-DSP.md#quad-cortex). Preset/Scene/Stomp/Hybrid labels are screen layouts, not extra hardware displays. |
 | TC Electronic **PLETHORA X3** — reference | **Three LCD slot displays**, corresponding to three effect switches | [Verified layout and source](TC-ELECTRONIC.md#plethora-x3). External analog EXP socket absent from documented inventory; MASH/MIDI separate. |
 | TC Electronic **PLETHORA X5** — reference | **Five LCD slot displays**, corresponding to five effect switches | [Verified layout and source](TC-ELECTRONIC.md#plethora-x5). Exact diagonal/color/touch remain unverified. |
 | Zoom **B3** — bass | **Three individual effect LCD panels**, each with dedicated footswitch and knobs | [Exact original B3 record](ZOOM.md#b3). Bass processor; guitar suitability remains unclassified. |
@@ -34,13 +34,39 @@ Separate physical displays, labels drawn on one shared screen, and LED rings are
 | Zoom **G5n** | **Four individual Unit Displays**, each paired with an effect footswitch; separate Overview Display | [V2 manual-backed record](ZOOM.md#g5n). Four screens do not count every navigation switch; other Zoom models need their own evidence. |
 | Zoom **G11** | **Five effect LCD panels**, plus separate amplifier LCD and5-inch main touchscreen | [V2 manual-backed record](ZOOM.md#g11). Five effect switches are separate from navigation switches; longer chains scroll across the panels. |
 
+### Displays shared by groups of effect switches
+
+| Brand / model | Display-layout status | Record / next check |
+|---|---|---|
+| Line 6 **M13** — partial | **Four category-colored LCD effect-unit displays**, serving A/B/C memories per unit | [Manufacturer guide-backed lead](LINE6.md#m13--partial-display-discovery). Multiple displays, not one per effect switch; outside active counts pending full profile. |
+
+### Shared main-screen layouts
+
+| Brand / model | Display-layout status | Record / next check |
+|---|---|---|
+| Fractal Audio **VP4** — shared-screen comparison | **Shared color LCD with separate footswitch LEDs** in manual v1.06 panel inventory | [Exact VP4 record](FRACTAL-AUDIO.md#vp4). Individual switch LCDs are not documented; FM3/FM9 mini-screen layouts do not transfer. |
+| Neural DSP **Quad Cortex** | **Shared7-inch main-screen Gig View**, showing switch assignments rather than separate strip screens | [Manufacturer4.1.1 manual qualification](NEURAL-DSP.md#quad-cortex). Preset/Scene/Stomp/Hybrid labels are screen layouts, not extra hardware displays. |
+
+### Mini-screen layout awaiting confirmation
+
+| Brand / model | Display-layout status | Record / next check |
+|---|---|---|
+| MELOFTY **AXOM MAX** | **Footswitch/pedal mini screens documented**; exact count, placement and LCD/OLED technology unresolved | [Partial discovery record](MELOFTY.md#axom-max--partial-discovery-lead). Separate7-inch color touchscreen confirmed; not admitted to active model counts. |
+
 ## Foot controllers
 
-| Brand / model | Status | Next check |
+### Individual footswitch displays
+
+| Brand / model | Display-layout status | Record / next check |
 |---|---|---|
 | Fractal Audio **FC-6 Mark II** | **Six individual LCD mini displays**, plus separate2×20 main display | [Manufacturer-backed controller record](FRACTAL-AUDIO.md#fc-6-mark-ii-and-fc-12-mark-ii--controllers). Requires compatible Fractal host; not an audio processor. |
 | Fractal Audio **FC-12 Mark II** | **Twelve individual LCD mini displays**, plus separate2×20 main display | [Manufacturer-backed controller record](FRACTAL-AUDIO.md#fc-6-mark-ii-and-fc-12-mark-ii--controllers). Keep separate from original FC-12 and processor counts. |
 | Line 6 **Helix Control** | **Twelve individual LCD scribble strips**, one per capacitive footswitch | [Manufacturer-backed controller record](LINE6.md#helix-control--controller). Helix Rack companion; outside audio processor counts. |
+
+### Screens shared by pairs of switches
+
+| Brand / model | Display-layout status | Record / next check |
+|---|---|---|
 | Morningstar **MC6 PRO** | **Three color LCDs for six switches**, rather than six individual displays | [Manufacturer-backed controller record](MORNINGSTAR.md#mc6-pro). Switches use nearest displayed preset labels; outside audio processor counts. |
 | Morningstar **MC8 PRO** | **Four color LCD screens for eight switches**, rather than eight individual displays | [Exact manufacturer manual/product record](MORNINGSTAR.md#mc8-pro). Controller only; original MC8 and MC6 PRO remain separate. |
 
