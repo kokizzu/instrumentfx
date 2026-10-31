@@ -8,6 +8,7 @@ Root-level brand comparison. **Checked 2026-10-15.** POD Go Wireless and POD Exp
 - [AMPLIFi FX100](#amplifi-fx100)
 - [External expression-volume audit](#external-expression-volume-audit)
 - [Floor POD Plus](#floor-pod-plus)
+- [Helix Control — controller](#helix-control--controller)
 - [Helix Floor](#helix-floor)
 - [Helix LT](#helix-lt)
 - [Helix Stadium XL Floor](#helix-stadium-xl-floor)
@@ -286,6 +287,12 @@ Checked2026-10-17 against the [manufacturer Floor POD/Floor POD Plus FAQ][FPP-F]
 |---|---|
 | Expression / calibration sequence | For **Plus**, hold the toe switch during power-on: FAQ says displayPC then000. At toe position pressA; at heel position pressB; pressC to inspect values, then press toe switch to inspect the effect-encoder lights. HoldTap **2seconds** to save. FAQ prints **100 after both A andB**; retain this wording rather than inventing a0/100 endpoint distinction. |
 | Expression / original-model separation | The same FAQ gives original FloorPOD a different procedure involving **DIST** and power disconnection. That sequence is not the Plus procedure. Toe-switch calibration establishes switching/position control,not an external-expression socket or extra user-memory bank. |
+
+## Helix Control — controller
+
+Checked 2026-10-31 against the [manufacturer Helix Rack/Control page](https://line6.com/helix/helix-rack.html). **Twelve LCD scribble strips** show individual footswitch assignments; strip labels and switch LED colors are customizable. The controller has twelve capacitive-touch switches and three expression-pedal inputs. Touch-sensitive switches are not evidence of touchscreen LCDs.
+
+Helix Control is a companion for **Helix Rack**, not an independent audio multi-effects processor. It remains outside active processor counts. Mini-screen diagonal, resolution, color mode, full physical profile and exact Shopee Indonesia used/new hardware offers remain unverified; no sibling or bundle specifications transferred. No download or device test performed.
 
 ## Helix Floor
 

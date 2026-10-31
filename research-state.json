@@ -129453,6 +129453,13 @@
       "revision": "v1.06,2024-10-23,pp7–8,51",
       "classification": "Shared main LCD and separate switch LEDs; individual footswitch LCDs absent from documented panel inventory.",
       "scope": "Not classified as individual-display match; no hardware/visual inspection."
+    },
+    "helix_control": {
+      "checked": "2026-10-31",
+      "source": "https://line6.com/helix/helix-rack.html",
+      "finding": "Twelve individual LCD strips; Helix Rack companion controller.",
+      "active": false,
+      "root": "LINE6.md#helix-control--controller"
     }
   }
 }
