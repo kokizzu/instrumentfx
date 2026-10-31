@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Fender Tone Master Pro: current manufacturer expression Live Mode/global assignment, range and output coverage; then remaining individual-LCD processors. X5 primary axes/global override remain open; regional width exceeds preference.",
+      "next_check": "Remaining confirmed individual-LCD processors: Zoom G3n first for direct expression assignment/output coverage and remaining control census; do not repeat established OutputVP retention as global target proof. Preserve all earlier model gaps.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133187,5 +133187,10 @@
       "https://www.electori.co.jp/tc-electronic/product.php?id=plethora-x5"
     ],
     "qualification": "Regional sources agree width exceeds preference; conflicting H/D retained; primary axes unresolved. Regional page excludes battery. USB power and global EXP scope unverified."
+  },
+  "tone_master_tuner_path_20261101": {
+    "source": "https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual",
+    "revision": "Manufacturer firmware1.5 manual,pp31–32",
+    "finding": "Selected-input tuner mute and tap LCD readout qualified; current1.8/output coverage unverified."
   }
 }

@@ -463,3 +463,9 @@ Checked **2026-10-31** against the [original Fender firmware1.5 manual reproduct
 | Expression / switchless dwell (firmware1.5) | Options **OFF,heel-down,toe-down**. Assigned blocks turn on when the pedal leaves the selected position and off after returning for **300ms or longer**. Assigned-block bypass; global volume/headphone/looper coverage unverified. [Manual p24](https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual). |
 
 Current1.8 equivalence untested; GuideH census remains open.
+
+### Tone Master Pro — tuner path scope and tap LCD readout
+
+Checked **2026-11-01** in the [manufacturer firmware1.5 manual reproduction, printed pp31–32](https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual). Original document text only; exact-model/revision identity established above. Holding TAP/TUNER **two seconds** opens the tuner. Mute defaults on but applies only to the input being tuned; Instrument,Mic/Line orboth are selectable. This is not a documented universal mute of backing audio,USB returns,tails orrecorded loops.
+
+Tap tempo uses at least two taps,shows BPM on its LCD strip,andopens a **three-second touchscreen adjustment view**. Tempo is preset-stored by default;global tempo is separately selectable. These are existing-display states,not extra LCDs. Current1.8 equivalence andglobal analog-volume coverage remain unverified. No download ordevice operation.

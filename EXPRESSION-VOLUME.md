@@ -611,3 +611,5 @@ RP100 [named library](DIGITECH.md#rp100--named-algorithm-census) now distinguish
 HX Effects [expression-bypass qualification](LINE6.md#hx-effects--expression-controlled-block-bypass): threshold-controlled block bypass is separate from volume parameter range, snapshot bypass and global position recall. All-preset volume assignment remains unverified.
 
 FM3 [tuner-mute placement](FRACTAL-AUDIO.md#fm3--tuner-mute-placement-and-footswitch-indication) distinguishes tail-preserving input mute from tail-silencing output mute; it does not resolve global expression attenuation through bypass or USB playback.
+
+Tone Master Pro [tuner path qualification](FENDER.md#tone-master-pro--tuner-path-scope-and-tap-lcd-readout): selected-input tuner mute does not establish universal expression attenuation or backing-audio mute.
