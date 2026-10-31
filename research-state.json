@@ -133966,8 +133966,18 @@
     "manual": "https://manualzz.com/doc/61301482/fractal-fm3-owner-s-manual",
     "identity": "Manual1/Firmware1.x;February2020firstedition;architecturecorroboratedby2019primaryannouncement",
     "current_support": "https://www.fractalaudio.com/fm3-downloads/",
-    "next": "Complete full original-model category/choice census andI/O;obtain manufacturer evidence forheadphone-less earlyhardware;qualify exact-revision IDR. Keep global-volume endpoints/recall/coverage open.",
+    "next": "Complete original-model category-choice census,IR/NAM/capture distinctions,editor OS andlooper details;keep exactrevision IDR,headphone variants andglobal-volume endpoints/recall/outputcoverage open.",
     "headphone_blocker": "No readable manufacturer confirmation from official-forum indexed search;secondary reports not promoted.",
+    "downloads": false
+  },
+  "fm3_original_io_usb_20261101": {
+    "checked": "2026-11-01",
+    "active": false,
+    "source": "https://manualzz.com/doc/61301482/fractal-fm3-owner-s-manual",
+    "revision": "Manual1/Firmware1.x,pp21–26",
+    "root": "FRACTAL-AUDIO.md#fm3-original--connector-inventory-and-usb-signal-paths",
+    "scope": "Complete named connector inventory andrecord/playback routing fordocumented revision;notallphysicalvariants.",
+    "next": "Complete original-model category-choice census,IR/NAM/capture distinctions,editor OS andlooper details;keep exactrevision IDR,headphone variants andglobal-volume endpoints/recall/outputcoverage open.",
     "downloads": false
   }
 }

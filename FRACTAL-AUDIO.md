@@ -475,6 +475,20 @@ Checked **2026-11-01**. [Manufacturer-authored 1.x manual reproduction](https://
 
 Headphone-less early units remain a secondary-source lead:official-forum search yielded no readable manufacturer confirmation. Existing documented headphone socket is not a guarantee for every original unit. No local download,installation ordevice operation. Full category-choice census,I/O andheadphone variants remain open;profile stays outside active counts.
 
+### FM3 original — connector inventory and USB signal paths
+
+Checked **2026-11-01** in the [original 1.x manual reproduction](https://manualzz.com/doc/61301482/fractal-fm3-owner-s-manual), pp21–26; identity established above. Historical documentation, not inspection of every hardware revision.
+
+| Field | Documented inventory / routing |
+|---|---|
+| Analog audio | Mono unbalanced¼-inch instrument input; stereo balanced XLR Output1; stereo balanced¼-inch Input2/FX-return; stereo unbalanced¼-inch Humbuster Output2. Headphones:¼-inch stereo,monitoring Output1;early-hardware availability remains unresolved. |
+| Control / other ports | Two pedal/switch inputs; FASLINKII forFC controllers; MIDI In/Out-Thru;48kHz S/PDIF output;USB;grounded AC inlet andpower switch. FASLINKII does not work with MFC-101 FASLINK. |
+| USB function | **4×4 audio**,recording/playback/reamping; explicitly **not a DAW USB-MIDI device**. FM3-Edit/Fractal-Bot use separate USB communications. Connector subtype unverified. |
+| Recording | Computer inputs1/2 take Output1 block. Inputs3/4 select dry instrument input (mono duplicated) orstereoInput2. Instrument DI requires Input1 Source=ANALOG. |
+| Playback | Computer outputs1/2 mix with grid audio at Output1/phones. Outputs3/4 select Input1 block forprocessing orOutput2. Grid-only attenuation therefore does not prove control ofdirect computer playback;global-pedal coverage remains unverified. |
+
+No local download ordevice operation. This completes the named connector inventory for this manual revision;phantom tolerance,exact subtype/electrical details andearly headphone variants remain open.
+
 ## FM9 MKII Turbo
 
 Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI seller item remains separate. Current product/store establish revision. Linked2022 manual covers original/Turbo but predates MKII display revision;historical physical figures below require current corroboration.
