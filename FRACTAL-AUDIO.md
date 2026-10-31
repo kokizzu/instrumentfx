@@ -481,7 +481,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 |---|---|
 | Instrument scope | Original 1.x manual p21 explicitly permits electric guitar, acoustic and bass at the instrument input. No special pickup required. Vocal suitability unclassified. [Original manual](https://manualzz.com/doc/61301482/fractal-fm3-owner-s-manual). |
 | Built-in / external / toe expression | No built-in treadle in the complete panel inventory. Two shared TRS pedal/switch inputs; linear10–100kΩ pedals. Separate external toe configuration remains unverified. [Panel and ports](#fm3-original--connector-inventory-and-usb-signal-paths);[global setup](#fm3-original--shared-manual-global-volume-and-hardware-scope). |
-| Expression / global volume / range / recall | Global Input1/2 or Output1/2 Volume can use local PEDAL1/2 without preset blocks. Input changes drive;output scales tails. Endpoints,held-position recall,bypass/USB/phones/recorded-loop coverage unknown. Calibration and modifier defaults are separate. [Standard-applicable manual](#fm3-original--shared-manual-global-volume-and-hardware-scope). |
+| Expression / global volume / range / recall | Global Input1/2 or Output1/2 Volume can use local PEDAL1/2 without preset blocks. Input changes drive;output scales tails. Endpoints,held-position recall,bypass/USB/phones/recorded-loop coverage unknown. Calibration and modifier defaults are separate. [MIDI startup fallback excludes local pedals](#fm3-original--pedal-wiring-and-startup-value-boundary). [Standard-applicable manual](#fm3-original--shared-manual-global-volume-and-hardware-scope). |
 | Knobs / footswitches / buttons | **8 rotary /3 footswitches /12 buttons**;five knob presses included,not extra buttons. Manufacturer text,not visual census. Power andground-lift controls separate. [Physical evidence](#fm3-original--shared-manual-global-volume-and-hardware-scope);[original panel](https://manualzz.com/doc/61301482/fractal-fm3-owner-s-manual). |
 | Display | Three individual mini LCDs,one perfoot;separate **800×480 color main display**. Mini size,resolution,color andtouch;main diagonal/touch unknown. MKII larger strips are not transferred. [Original discovery](#fm3-original--partial-historical-lcd-discovery);[panel](https://manualzz.com/doc/61301482/fractal-fm3-owner-s-manual). |
 | Dimensions / weight | **281W×236D×103H mm;3.22kg**. Exceeds preferred200W×140D footprint. [Standard-covered7.x specifications](#fm3-original--shared-manual-global-volume-and-hardware-scope). |
@@ -608,6 +608,18 @@ No downloads ordevice tests. Full category-choice census remains open;this parti
 Checked **2026-11-01**,[manufacturer Footswitch Functions Guide,v1.3,April2022,pp2,5–6](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Footswitch-Functions-Guide.pdf). FM3 onboard switches explicitly use its FC functions. **Preset Inc/Dec** supports−1/+1,wrap andlower/upper limits,assigned through EZ orEdit Layout/Switch. Thus configurable sequential navigation is documented without an external controller;the untouched factory pair remains unverified.
 
 The guide says enabled **PC Mapping** redirects lower FC preset selections through the custom map,andmay select another preset/scene;it describes the map as off by default. Therefore stepping selection numbers is not an unconditional guarantee of adjacent stored-preset playback when mapping is enabled. Preserve the guide’s “first127” versus “above#127” wording without inventing a corrected boundary. Current firmware13 behavior,installed maps andglobal expression coverage remain untested. No download ordevice operation.
+
+
+### FM3 original — pedal wiring and startup-value boundary
+
+Checked **2026-11-01** against the [own7.x manual,cover explicitly Standard andMKII Turbo,printedpp12,104,106](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf). This applies to the original Standard without borrowing MKII-only hardware.
+
+| Field | Manufacturer documentation / qualification |
+|---|---|
+| Expression / local wiring | TRS cable: **tip supplies the full control voltage,ring returns the position-dependent voltage,sleeve is ground**. Linear10–100kΩ remains the published pedal requirement. A TRS plug alone does not prove compatible wiring for a third-party pedal/controller;no M-VAVE wiring oradapter compatibility inferred. |
+| Expression / startup fallback | MIDI/Remote General’s sixteen **External Control Initial Value** settings persist until controller data arrives. The manual explicitly restricts them to **MIDI CC-assigned controllers**,excluding local andFC pedals/switches. Setting100% for a missing MIDI controller therefore does not prove held-position recall orfallback for a directly connected analog pedal. |
+
+Calibration remains separate from assignment andvolume endpoints. Local pedal startup/preset-change recall,bypass/headphone/USB/recorded-loop coverage andcurrent firmware13 equivalence remain untested. No download,rewiring ordevice operation.
 
 ## FM9 MKII Turbo
 

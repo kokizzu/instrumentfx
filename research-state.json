@@ -137265,5 +137265,24 @@
     "qualification": "No update orrestore performed;actualsnapshotcontents,loop/EXPstate,cross-model compatibility andcurrentfileavailability unverified.",
     "next": "Continue individualLCD processor gaps;preserve independentGT-Pro generalcursor.",
     "downloads": false
+  },
+  "fm3_original_pedal_wiring_initial_20261101": {
+    "status": "Standard-applicable manufacturer documentation;partial",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+    "pages": [
+      12,
+      104,
+      106
+    ],
+    "destination": "FRACTAL-AUDIO.md#fm3-original--pedal-wiring-and-startup-value-boundary",
+    "finding": "TRS tip supplies controlvoltage,ring returnsposition,sleeveground. ExternalControllerInitialValue appliesonlyMIDI CC assignments,notlocal/FCpedals.",
+    "remaining": [
+      "Exactthirdpartypedalwiring",
+      "Localstartupandheldpositionrecall",
+      "Numericglobalvolumeendpoints",
+      "Bypass/headphone/USB/recordedloopcoverage"
+    ],
+    "next": "Continue individualLCD processor evidence;independent generalGT-Pro cursor preserved.",
+    "downloads": false
   }
 }

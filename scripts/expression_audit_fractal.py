@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(fractal): resolve pre-MKII FM9 Turbo preset navigation'))
+    print(git('commit','-m','research(fractal): qualify original FM3 pedal wiring and startup fallback'))
