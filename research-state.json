@@ -131887,5 +131887,19 @@
     "revision": "3.80 RevG",
     "printed_pages": "69,71–72",
     "qualification": "LCD readout/navigation documented;cab-link default OFF conflicts with older3.50 ON wording. Hardware default/reset explanation unverified."
+  },
+  "fc6_mkii_controller_profile_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://www.fractalaudio.com/fc-controllers/",
+    "dimensions_mm": [
+      283,
+      233,
+      88
+    ],
+    "axes": "Unlabeled in source row",
+    "mass_kg": 3,
+    "expression_inputs": 4,
+    "external_switch_jacks": 2,
+    "qualification": "Controller only;host-dependent configuration/power andchain limits. Pinout,power ratings,complete controls andexact IDR remain unverified."
   }
 }

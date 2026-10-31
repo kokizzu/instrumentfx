@@ -132,6 +132,19 @@ Checked2026-10-31: [manufacturer exact Mark II page](https://www.fractalaudio.co
 
 These are **controllers for Axe-Fx III/FM9/FM3**, not audio multi-effects processors or universal standalone MIDI pedals. FASLINK II carries host control/power; MIDI messages can be generated through the connected processor’s MIDI output. Keep them outside active processor counts. Current exact Shopee hardware, condition, price and complete controller profiles remain unverified. Do not transfer enlarged Mark II screen dimensions to original controllers, FM3 or FM9.
 
+### FC-6 Mark II — body, external controls and host dependence
+
+Checked **2026-10-31**, [manufacturer FC-controller page](https://www.fractalaudio.com/fc-controllers/),whose heading explicitly identifies MarkII. FC-6-specific body row used;FC-12 mass not transferred.
+
+| Field | Published specification / qualification |
+|---|---|
+| Body / mass | **283×233×88mm;3kg (6.7lb)**. Page also gives11.2×9.2×3.5in;axes are not explicitly labeled. Original/MarkII dimensions andweight are stated unchanged. Not a measured installation template. |
+| Controls / external inputs | **Six onboard switches**,four expression-pedal inputs andtwo external-switch jacks supporting upto four switches. Main2×20 display andsix miniLCDs are separate. Exact pedal pinout,resistance,toe compatibility andcomplete rotary/button count remain unverified. |
+| Power / configuration | FASLINKII supplies the first controller;downstream controllers need anACadapter. Voltage/current/polarity remain unknown. Settings/firmware reside in the compatible host;host-generated MIDI does not establish standaloneMIDI operation. |
+
+The page’supto-four-controller chain claim is a family maximum,not proof of every host’s limit;existing FM3 evidence permits two. No exact Shopee hardware item surfaced;condition-specific IDR remains unknown. No downloads ordevice operation.
+
+
 ## FM3 MKII Turbo
 
 Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; original FM3 offers are not merged. Manufacturer's 7.x manual expressly covers both revisions; current firmware listing is newer. Unknown means unverified.

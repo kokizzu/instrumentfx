@@ -85,7 +85,7 @@ These match the separate-display layout, with OLED technology rather than LCD.
 
 | Brand / model | Display-layout status | Record / next check |
 |---|---|---|
-| Fractal Audio **FC-6 Mark II** | **Six individual LCD mini displays**, plus separate2×20 main display | [Manufacturer-backed controller record](FRACTAL-AUDIO.md#fc-6-mark-ii-and-fc-12-mark-ii--controllers). Requires compatible Fractal host; not an audio processor. |
+| Fractal Audio **FC-6 Mark II** | **Six individual LCD mini displays**, plus separate2×20 main display | [Manufacturer-backed controller record](FRACTAL-AUDIO.md#fc-6-mark-ii-and-fc-12-mark-ii--controllers);[FC-6 body/control/power scope](FRACTAL-AUDIO.md#fc-6-mark-ii--body-external-controls-and-host-dependence). Requires compatible Fractal host; not an audio processor. |
 | Fractal Audio **FC-12 Mark II** | **Twelve individual LCD mini displays**, plus separate2×20 main display | [Manufacturer-backed controller record](FRACTAL-AUDIO.md#fc-6-mark-ii-and-fc-12-mark-ii--controllers). Keep separate from original FC-12 and processor counts. |
 | Line 6 **Helix Control** | **Twelve individual LCD scribble strips**, one per capacitive footswitch | [Manufacturer-backed controller record](LINE6.md#helix-control--controller). Helix Rack companion; outside audio processor counts. |
 | RJM Music **Mastermind GT/10** | **Ten individual footswitch LCDs**, plus separate main LCD | [Exact GT/10 controller record](RJM-MUSIC.md#mastermind-gt10). Own power/body specifications; GT/22 values not transferred. |
