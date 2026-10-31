@@ -130448,6 +130448,17 @@
       ],
       "finding": "Favorites and User Model Defaults do not propagate edits into existing presets; controller assignments excluded. Pedal Edit temporarily adjusts selected parameter using EXP or switches, not global target assignment.",
       "unresolved": "Numeric Volume model endpoints, newer/installed firmware library, display details, condition-qualified IDR hardware offers and global-volume coverage remain open."
+    },
+    "fm3_output_coverage_20261031": {
+      "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+      "printed_pages": [
+        13,
+        23,
+        103,
+        108
+      ],
+      "finding": "Global controller targets corresponding Output block; headphone jack monitors Out1. Routing inference covers processed Out1/headphones and loop routed through Out1, not USB playback mixed separately.",
+      "unresolved": "Global numeric endpoints, position recall, bypass and firmware13 behavior remain unknown; no hardware test."
     }
   },
   "gt_pro_global_patch_level_20261031": {
