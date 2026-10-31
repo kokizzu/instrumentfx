@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Zoom B3n: exact-model individual-LCD/control/profile gaps and qualified Shopee hardware. G3Xn control census remains unresolved; do not repeat exhausted text-only count attempts. Preserve G3X built-in treadle and distinct external-volume support.",
+      "next_check": "Zoom G5n: remaining exact-model individual-LCD/profile and qualified Shopee gaps. B3n controls/OutputVP unresolved; bounded primary searches repeated established data. Resolve pending shop-only B3n offers only after exact item identity; do not promote them to verified prices.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133238,6 +133238,11 @@
       "file": "ZOOM.md",
       "model": "G3X",
       "heading": "### G3X — input selection for pickups and upstream pedals"
+    },
+    {
+      "file": "ZOOM.md",
+      "model": "B3n",
+      "heading": "### B3n — pitch tracking and effect-level controls"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -133251,5 +133256,27 @@
     "page": 5,
     "finding": "Qualified direct-pickup/upstream-pedal input switch selection; ACTIVE resistance and pad unstated.",
     "g3xn_followup": "Exact offer-ID searches yielded no usable new evidence; original pedal instructions and current effects notice repeat existing findings. No new capability or price asserted."
+  },
+  "b3n_pitch_tracking_20261101": {
+    "source": "https://zoomcorp.com/media/documents/E_B3n_FX-list_3.pdf",
+    "pages": [
+      12,
+      13,
+      14
+    ],
+    "finding": "BaMnPitch single-note restriction, synth blend controls and per-effect tail boundary qualified.",
+    "unresolved": "Synth polyphony and OutputVP global scope remain unknown.",
+    "pending_offers": [
+      {
+        "source": "https://shopee.co.id/mmmusicstore",
+        "indexed_ask_idr": 2500000,
+        "qualification": "Two-month search shop snapshot only; newer direct shop body omits B3n; exact item/condition/stock unknown."
+      },
+      {
+        "source": "https://shopee.co.id/mr.baron87",
+        "indexed_ask_idr": 2200000,
+        "qualification": "Four-month search shop snapshot only; direct cache miss; exact item/condition/stock unknown."
+      }
+    ]
   }
 }

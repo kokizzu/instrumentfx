@@ -22,5 +22,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): qualify original G3X input switch selection'
+        message='research(zoom): qualify B3n pitch tracking and blend scope'
     print(git('commit','-m',message))
