@@ -130593,6 +130593,18 @@
       "model_count": 10,
       "basis": "Existing qualified root and EXPRESSION-VOLUME records; no new model admissions.",
       "conclusion": "No candidate yet verified against all normal-guitar/direct-global-analog-volume/preferred-footprint requirements together. LCD priority remains; unknown not No."
+    },
+    "capability_summary_sync_20261031": {
+      "file": "EXPRESSION-VOLUME.md",
+      "basis_commits": [
+        "656239b",
+        "216162f"
+      ],
+      "corrections": [
+        "Tone Master Pro supported SP1-TMP wiring now reflected without treating it as full host input tolerance.",
+        "PLETHORA X5 Board scope now cites manufacturer release menu path in addition to distributor manual."
+      ],
+      "qualification": "No new global-volume capability asserted; all unresolved range/coverage qualifications retained."
     }
   },
   "gt_pro_global_patch_level_20261031": {
