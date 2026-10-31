@@ -310,11 +310,11 @@ Checked **2026-10-17**. Original Helix Floor; distinct from LT,Rack and Stadium.
 | Category choices | Indexed chart 96amps/268effects,firmware basis unstated; older KB 62amps/37cabs/16mics/104FX is historical. Current3.80 manufacturer web tables yield **274 named effects**,plus3loopers separately;[complete effect-category census](#helix-floor--complete-380-effect-category-census). The [amp/cab census](#helix-floor--380-ampcab-census-and-microphone-scopes) adds111amps+1micpreamp and87cab rows;mic lists remain revision-qualified andinstalled content unresolved. Do not presentolder totals as the current installed library. [Chart][HF-C], [Comparison KB][HF-K] |
 | Factory / user presets | **1,024 locations** (8×32×4);factory-filled subset **?**;up to 8 snapshots per preset. Snapshots are variations,not additional preset slots. [Chart][HF-C], [Floor product][HF-P] |
 | Synth / acoustic simulation | Manufacturer3.80 model page confirms **Acoustic Sim** and**3 OSC Synth**;generator versus polyphonic pitch restrictions are recorded in the [census](#helix-floor--complete-380-effect-category-census). Not borrowed from LT. [Cheat sheet][HF-S] |
-| IR / NAM / capture | User IRs supported;older manufacturer FAQ **128 slots, 1024/2048 points, up to 4 simultaneous DSP-permitting**. Native NAM, converted NAM, proprietary capture loading **?**;Stadium Proxy not inferred. [FAQ][HF-Q] |
+| IR / NAM / capture | User IRs supported;older manufacturer FAQ **128 slots, 1024/2048 points, up to 4 simultaneous DSP-permitting**;[3.80 resolution/path limits](#helix-floor--380-ir-limits-and-spillover-mode-boundary) qualify this broad claim. Native NAM, converted NAM, proprietary capture loading **?**;Stadium Proxy not inferred. [FAQ][HF-Q] |
 | Audio/control I/O | Guitar/active-instrument AUX;XLR mic with 48 V;4 send/return pairs;stereo XLR and¼″TS mains;stereo phones;VDI;EXP2/3;ExtAmpTRS;CV/EXPout;DIN MIDI in/out-thru;RCA S/PDIF in/out;AES/EBU/L6 LINK out;USB;groundedAC. Exact remaining jack types/USB connector pending manual. [Cheat sheet][HF-S], [Floor product][HF-P] |
 | Power / battery / USB | Grounded **100–240V AC** confirmed by current manufacturer supply FAQ;original Floor RevB manual specifies **50–60Hz**. Wattage/current draw andcurrent hardware-label corroboration remain **?**. [Rating sources](#helix-floor--mains-rating-and-factory-restore-boundaries). DC polarity N/A. Battery/USB-powered operation **?**;USB interface does not prove bus power. [Cheat sheet][HF-S] |
 | Editor / USB audio | **HX Edit** editor distinct from Helix Native plugin/updater;Mac/Windows documented; Listing checked2026-10-31: **HX Edit3.82,2024-12-03**,Windows10/11;Mac labels include Catalina,BigSur,Monterey,Ventura,Sonoma,Sequoia,Tahoe plus generic MacOSX and “Golden Gate”;these labels are not a tested minimum-version matrix. Hardware listing **3.80.0,2024-11-19**,not editor3.82. [Current listing][HF-DS]. **8-in/8-out,24-bit/up to 96 kHz**,DI/reamp/MIDI;iPad with camera adapter. [Cheat sheet][HF-S], [Floor product][HF-P], [Software][HF-D] |
-| Looper / snapshots / routing | One looper per preset. Manufacturer KB gives **60 s mono/30 s stereo at full speed**, doubled at half speed. Across presets, KB requires matching mono/stereo type, path and footswitch assignment; indexed Floor manual additionally specifies matching 6 Switch/1 Switch/Shuffle model. Shuffle has no half-speed extension. Retention and drums **?**. [Looper KB][HF-L], [Indexed Floor manual][HF-M0] 8snapshots;true preset spillover uses only 2 paths per current product. Mic processing supports vocal membership; intelligent vocal harmony is unverified. [FAQ][HF-Q], [Floor product][HF-P] |
+| Looper / snapshots / routing | One looper per preset. Manufacturer KB gives **60 s mono/30 s stereo at full speed**, doubled at half speed. Across presets, KB requires matching mono/stereo type, path and footswitch assignment; indexed Floor manual additionally specifies matching 6 Switch/1 Switch/Shuffle model. Shuffle has no half-speed extension. **True Preset Spillover mode excludes looper carryover**;[mode boundary](#helix-floor--380-ir-limits-and-spillover-mode-boundary). Retention and drums **?**. [Looper KB][HF-L], [Indexed Floor manual][HF-M0] 8snapshots;true preset spillover uses only 2 paths per current product. Mic processing supports vocal membership; intelligent vocal harmony is unverified. [FAQ][HF-Q], [Floor product][HF-P] |
 
 ### Helix Floor — separate IDR offers
 
@@ -390,6 +390,19 @@ Checked **2026-10-31**. The [manufacturer comparison chart,p1](https://line6.com
 [Digital_Igloo’s October10,2015 design explanation](https://line6.com/support/topic/15984-helix-reviews-please/#comment-117982) says an earlier touchscreen design was rejected in favor of capacitive footswitches. This supports a **non-touch main display on original Helix Floor**,superseding the earlier unknown for that design;it does not apply to Stadium. The [same account](https://line6.com/support/profile/1928801-digital_igloo/) publishes Line6 knowledge-base release notes,which corroborates its product-development source role beyond a generic user reply. No unsupported personal-name attribution is required.
 
 Auxiliary strip color/touch/diagonal andsuccessful visual control-count verification remain unresolved. No download ordevice operation.
+
+
+### Helix Floor — 3.80 IR limits and spillover-mode boundary
+
+Checked **2026-10-31**,[manufacturer-authored manual reproduction](https://www.scribd.com/document/812017479/Helix-3-80-Owner-s-Manual-English),RevG,90-20-0358,©2024. Floor panel/IEC mains/13strips and3.80 cover establish identity;not Rack,LT orhost summaries. Selected chapters read,not a complete manual audit.
+
+| Field | Revision-qualified evidence / limit |
+|---|---|
+| IR / concurrency | Pp22,40–41:up to **four1024-point Singles (two/path),two2048-point Singles (one/path),ortwoDualIR blocks (one/path)**,DSP-permitting. IR limits share capacity with current-engine Cab/DualCab/Amp+Cab blocks;not independent additive maxima. |
+| IR / import preparation | **.hir/.wav**;WAV import converts to48kHz,32-bit,mono,2048samples. Stereo source selection:left,right ormix. Conversion is cabinet-IR preparation,not NAM support. |
+| Looper / True Preset Spillover | Pp21–22:this mode reserves oneDSP andloads onlyPath1. **Looper recording/playback does not spill across presets in this mode**. Switching A→B→C cuts A’s remaining tail. Ordinary-mode matching-looper guidance remains separate. |
+
+No download,update,import ordevice test.
 
 <!-- comparison evidence ends -->
 

@@ -131856,5 +131856,12 @@
     "character_height_mkii_mm": 9.2,
     "character_height_original_mm": 4.6,
     "qualification": "Two axes,not diagonal. Active area,color,touch andphysical measurement remain unverified;no sibling transfer."
+  },
+  "helix_floor_380_ir_spillover_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://www.scribd.com/document/812017479/Helix-3-80-Owner-s-Manual-English",
+    "identity": "Original Floor 3.80,RevG,90-20-0358,©2024;selected chapters",
+    "printed_pages": "21–22,40–41",
+    "qualification": "Resolution/path IR ceilings share cab capacity;True Preset Spillover excludes looper carryover. Ordinary matching-looper guidance remains separate;no device test."
   }
 }
