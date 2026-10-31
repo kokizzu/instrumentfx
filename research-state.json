@@ -134873,5 +134873,19 @@
       "third-party IR/NAM/capture import"
     ],
     "next": "Continue individual-LCD processor unresolved fields; independent general cursor unchanged"
+  },
+  "g11_ir_library_patch_scope_20261101": {
+    "source": "https://zoomcorp.com/documents/461/E_G11v2.pdf",
+    "revision": "V2 Z2I-3886-02 pp86-88",
+    "finding": "USB HOST IR-library loading and patch-chain IR insertion are separate operations; no global replacement documented",
+    "remaining": [
+      "IR file bit depth",
+      "mono/stereo handling",
+      "overlength truncation/rejection",
+      "complete visually corroborated rotary count",
+      "auxiliary LCD dimensions/color/touch",
+      "qualified used/new offers"
+    ],
+    "next": "Continue individual-LCD processor gaps; preserve independent general research cursor"
   }
 }

@@ -22,5 +22,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): clarify G5n internal IR cabinet modeling'
+        message='research(zoom): distinguish G11 IR library and patch assignment'
     print(git('commit','-m',message))
