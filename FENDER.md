@@ -234,6 +234,7 @@ The English support page retrieved here starts with **1.8.45,2026-06-03**; the J
 |---|---:|---|
 | Retail indexed hardware ask | **Rp33.585.000** | [Seven Stereo,shop16879370/item21195037830](https://shopee.co.id/Fender-Tone-Master-Pro-Multi-effects-Guitar-Processor-Tonemaster-i.16879370.21195037830). Cached July delivery text; not checkout-confirmed stock or condition |
 | Separate indexed hardware ask | **Rp33.585.000** | [shop1408254222/item27020240400](https://shopee.co.id/Fender-Tone-Master-Pro-Multi-effects-Guitar-Processor-tonemaster-Multi-FX-Efek-Gitar-Elektrik-Electric-Listrik-i.1408254222.27020240400). Cached October8–9 text; direct reopening failed |
+| Additional condition-unverified hardware ask,checked2026-10-31 | **Rp41.360.000** | [GH MUSIC STORE,shop71552895/item40320736069](https://shopee.co.id/FENDER-Tone-Master-Pro-Multi-effects-Guitar-Processor-Efek-Gitar-i.71552895.40320736069),Kota Tangerang Selatan. Exact processor title; search and direct page agree on two-month-old cache. Current stock,condition,variant,bundle,accessories,warranty region and delivered total unknown. Relative four-hour delivery and late-delivery compensation do not authenticate availability or reduce the product price. |
 | Condition-verified used offer | **?** | No verified used-price evidence obtained |
 
 Neither a seller name nor cached delivery text authenticates a shop, confirms accessories/regional warranty, or supplies a current delivered-price range. No percentage-of-new used estimate or currency conversion is used.

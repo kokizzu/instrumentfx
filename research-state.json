@@ -129371,7 +129371,18 @@
     "fender_tmp": {
       "checked": "2026-10-31",
       "source": "https://www.fender.com/products/tone-master-pro",
-      "finding": "Ten dedicated footswitch LCD screens; other navigation/master displays counted separately."
+      "finding": "Ten dedicated footswitch LCD screens; other navigation/master displays counted separately.",
+      "shopee_followup": {
+        "checked": "2026-10-31",
+        "source": "https://shopee.co.id/FENDER-Tone-Master-Pro-Multi-effects-Guitar-Processor-Efek-Gitar-i.71552895.40320736069",
+        "seller": "GH MUSIC STORE",
+        "shop_id": "71552895",
+        "item_id": "40320736069",
+        "idr": 41360000,
+        "condition": "unverified",
+        "access": "Two-month-old search/direct cache; stock/bundle/warranty/checkout unknown.",
+        "scope": "Additional qualified historical ask; not a verified new-price range."
+      }
     },
     "helix_floor": {
       "checked": "2026-10-31",
