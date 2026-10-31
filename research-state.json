@@ -129269,7 +129269,7 @@
       "Line 6 Helix Stadium XL Floor"
     ],
     "remaining_candidates": [],
-    "qualification": "Existing profiles are not new admissions or proof of recent launch. Controller-only products excluded.",
+    "qualification": "Existing profiles are not new admissions or proof of recent launch. Controller-only products are collected separately and excluded from active processor counts.",
     "source": "https://cdn.mediavalet.com/aunsw/musictribe/sSjbS7aFnE6cqRC8D2gfUg/HooGpCuT9kurBB7T-lgWaQ/Original/QSG_TE_0709-AIK_PLETHORA-X5_WW.pdf",
     "access": "Indexed manufacturer controls readable; direct500; no visual audit.",
     "downloads": false,
@@ -129310,7 +129310,7 @@
       "downloads": false
     },
     "collection": "FOOTSWITCH-DISPLAYS.md",
-    "collection_scope": "All requested brands collected; pending exact Zoom/Morningstar models and unverified layouts remain explicit. No new inventory admissions.",
+    "collection_scope": "All requested brands collected with exact models; unresolved layouts and further model discovery remain explicit. No new inventory admissions.",
     "fm9": {
       "checked": "2026-10-31",
       "source": "https://www.fractalaudio.com/fm9/",
@@ -129387,6 +129387,13 @@
       "revision": "4.1.1",
       "classification": "Shared-main-screen Gig View; not individual physical switch strips.",
       "scope": "Original full Quad Cortex only; no Mini transfer."
+    },
+    "zoom_g5n": {
+      "checked": "2026-10-31",
+      "source": "https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf",
+      "revision": "V2.0, printed pp3–5",
+      "finding": "Four display/knob/footswitch units plus separate Overview Display.",
+      "scope": "Existing model; no inventory admission or visual inspection."
     }
   }
 }
