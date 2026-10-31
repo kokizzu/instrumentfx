@@ -137176,5 +137176,15 @@
     "destination": "FRACTAL-AUDIO.md#fm3-original--firmware-qualified-user-cab-capacity",
     "revision": "12.0;2026-01-19;PDFp3",
     "qualification": "Generic FM3 change;Original/MKII current firmware support explicit. Older capacities retained. Installed firmware andcontents untested."
+  },
+  "fm3_original_usb_electrical_20261101": {
+    "status": "partial;Standard-applicable own manual",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+    "pages": [
+      25,
+      139
+    ],
+    "destination": "FRACTAL-AUDIO.md#fm3-original--usb-connectors-and-published-electrical-ratings",
+    "qualification": "Published electrical ratings andUSB connector roles;no hardware measurements. Primary confirmation ofheadphone-less batches still unavailable;do not repeat same forum searches without new leads."
   }
 }
