@@ -722,6 +722,19 @@ Checked **2026-10-31**, [manufacturer matrix,p1](https://line6.com/data/6/0a020a
 
 **Source-label qualification:** dimension rows say in/cm despite numbers such as274;inch/mm is a conversion-supported interpretation. Do not treat the discrepancy as a measured tolerance range. Both footprints exceed200W×140Dmm;the earlier FAQ-based200mm-depth size-bin decision remains qualified. No download ordevice measurement.
 
+
+### HX Effects — historical loop continuity and LCD fixes
+
+Checked **2026-10-31** against [Line 6’s original release history](https://line6.com/software/index.html?hardware=Helix&locale=en_US&name=Flash+Memory&os=All&submit_form=set), **2.60, released2018-07-02**. The individual bullets explicitly identify HX Effects, despite the page’s Helix hardware filter.
+
+| Field | Historical manufacturer fix / qualification |
+|---|---|
+| Looper / preset-change faults | Fixes unexpected recording/playback stops when the destination contains the matching mono/stereo looper, and playback continuing into an empty preset with no looper. Also fixes Undo failing to remove the latest overdub. These are historical defects; current3.80 still requires the same looper model and mono/stereo type for continuity. |
+| Display / snapshot labels | Fixes snapshot names sometimes missing from scribble strips. This concerns the existing six LCDs, not extra displays or a new screen specification. |
+| I/O / preset level and pan recall | Fixes Send1/2 and MainL/R pan/level settings carrying across preset changes. This is parameter-state recovery, not a global analog expression-volume assignment. |
+
+No installed-firmware or hardware test. These notes neither establish current defects nor resolve global volume, DSP-bypass attenuation or recorded-loop expression coverage.
+
 <!-- comparison evidence ends -->
 
 ### Preserved original shared-source HX Effects fields

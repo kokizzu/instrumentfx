@@ -132585,5 +132585,17 @@
     "source": "https://www.fender.com/articles/instruments/the-latest-tone-master-pro-update-is-here",
     "scope": "Eight named amps andeight cabinet collections recorded;full current census still unresolved.",
     "next": "LCD-first audit continues;GuideH original readability/current category totals andIR import limits remain open. Independent BOSS GT-Pro cursor unchanged."
+  },
+  "hx_effects_260_loop_lcd_fixes_20261031": {
+    "checked": "2026-10-31",
+    "model": "Line 6 HX Effects",
+    "source": "https://line6.com/software/index.html?hardware=Helix&locale=en_US&name=Flash+Memory&os=All&submit_form=set",
+    "revision": "2.60, released 2018-07-02; explicitly HX Effects-only bullets",
+    "findings": [
+      "Historical matching-looper preset stops, playback into empty presets and overdub Undo fixes",
+      "Snapshot-name LCD disappearance fix",
+      "Send/Main pan and level carryover fix; not global expression assignment"
+    ],
+    "next": "Continue individual-LCD processor gaps; current installed behavior and global volume coverage remain unverified. Independent BOSS GT-Pro cursor unchanged."
   }
 }
