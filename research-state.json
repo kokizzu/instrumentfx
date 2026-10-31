@@ -129636,6 +129636,53 @@
             "MB Comp",
             "DYN Comp",
             "Glam Comp"
+          ],
+          "Drive": [
+            "TS Drive",
+            "EP Stomp",
+            "RC Boost",
+            "GoldDrive",
+            "SweetDrv",
+            "DYN Drive",
+            "RedCrunch",
+            "MetalWRLD",
+            "TB MK1.5",
+            "OctFuzz",
+            "SpotBoost",
+            "Aco.Sim",
+            "NYC Muff",
+            "HG THRTTL",
+            "BG GRID",
+            "TS+Boost",
+            "RedCR+BST",
+            "DIST 1",
+            "Squeak",
+            "UpOctBSTR",
+            "OutputBST",
+            "DIST Plus",
+            "Zen O.DRV",
+            "VioletDST",
+            "WaveSHPR",
+            "Razor DRV",
+            "Bass DRV",
+            "D.I Plus",
+            "Dark Pre",
+            "Bass BB",
+            "DI-5",
+            "Bass Pre",
+            "Bass OD",
+            "BassTsDRV",
+            "Dark OD",
+            "BlueB BOD",
+            "VooDoo-B",
+            "BaFzSmile",
+            "BassMetal",
+            "BassOctFZ",
+            "Pre1073",
+            "SolidPre",
+            "Clear DRV",
+            "SpLoPre",
+            "BaDjntPre"
           ]
         },
         "counts": {
@@ -129646,10 +129693,23 @@
           "Delay": 17,
           "SFX": 9,
           "Filter": 25,
-          "Dynamics": 15
+          "Dynamics": 15,
+          "Drive": 45
         },
         "finding": "PDLVolMinMax0–100curvesAB;OutputVPrecallnotuniversalassignment;monopitchsingle-note.",
-        "remaining": "Drive,Amp,Cabinet,Modulation still need complete V2 counts;postV2inventory/currentinstalledstate and othermodelgaps remainopen."
+        "remaining": "Amp,Cabinet,Modulation still need complete V2 counts;postV2currentinstalledinventory and otherprofilegaps remainopen.",
+        "drive_pages": {
+          "first_printed_page": 8,
+          "subtotals": [
+            4,
+            8,
+            7,
+            8,
+            7,
+            7,
+            4
+          ]
+        }
       }
     },
     "zoom_g3": {
