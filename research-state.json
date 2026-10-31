@@ -131142,5 +131142,13 @@
     "pages": "5–8",
     "record": "TC-ELECTRONIC.md#plethora-x5--distributor-qualified-screen-colors-and-insert-cost",
     "next": "Primary color/display confirmation, firmware-qualified full category list and exact offer variation; LCD models remain prioritized."
+  },
+  "hx_effects_snapshot_volume_boundary_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "pages": "31–34,41",
+    "record": "LINE6.md#hx-effects--snapshot-bypass-versus-parameter-recall",
+    "correction": "Snapshot parameter opt-out concerns values,not reassignment of the physical controller",
+    "next": "LCD model gaps remain prioritized; no all-preset global-volume qualification for HX Effects."
   }
 }
