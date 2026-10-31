@@ -137954,5 +137954,14 @@
     "remaining": "Current firmware behavior, analog recall/output coverage, physical LCD specifications and qualified Indonesia offers remain open.",
     "downloads": false,
     "hardware_test": false
+  },
+  "m13_backup_scope_20261101": {
+    "checked": "2026-11-01",
+    "source": "https://line6.com/data/l/0a0600729b4f4af8b8d2e9557/application/pdf/M13_Advanced_Users_Guide.pdf",
+    "revision": "M13 v2.0 Advanced Guide, ©2009, §§2•5,5•3,B•1,B•4",
+    "finding": "Scene dump scope, single-scene versus folder restore persistence, multi-message Mac capture and explicit lack of loop archiving are now qualified in LINE6.md.",
+    "remaining": "Current host/editor support, power-cycle loop retention and full-system backup remain unverified.",
+    "downloads": false,
+    "hardware_test": false
   }
 }
