@@ -137196,5 +137196,15 @@
     ],
     "destination": "FRACTAL-AUDIO.md#fm3-original--output-mode-mute-and-usb-playback",
     "qualification": "Output mode distinction;global expression andcurrent firmware coverage remain unresolved. FM9 output-mode options not transferred."
+  },
+  "duo_stable_factory_content_20261101": {
+    "status": "partial;manufacturer documentation",
+    "sources": [
+      "https://wiki.mod.audio/wiki/Releases",
+      "https://wiki.mod.audio/wiki/MOD_Web_GUI_User_Guide"
+    ],
+    "destination": "MOD-AUDIO.md#duo--listed-stable-firmware-and-factory-content",
+    "qualification": "Listed original-Duo stable build andOS1.13 content organization;no firmware download ordevice operation. Exact LCDplacement unresolved;browser inventory empty.",
+    "next": "New inspectable primary panel evidence required for individual-LCD classification;confirmed LCD processors retain priority."
   }
 }
