@@ -16,7 +16,7 @@ assert changed <= allowed, changed - allowed
 assert not git("diff", "--check").strip()
 git("add", "--", *sorted(changed))
 print(git("diff", "--cached", "--stat"))
-message = "research: prioritize individual footswitch LCD audit" if sys.argv[1:] == ["collection"] else "research(melofty): document audio backup and internal headphone conflict"
+message = "research: prioritize individual footswitch LCD audit" if sys.argv[1:] == ["collection"] else "research(melofty): qualify independent firmware 1.9 review leads"
 if sys.argv[1:] == ["morningstar"]:
     message = "research(morningstar): distinguish MC8 PRO screens and switches"
 if "RJM-MUSIC.md" in changed:

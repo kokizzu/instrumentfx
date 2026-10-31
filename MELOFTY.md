@@ -150,3 +150,16 @@ Checked **2026-11-01**, [German V1.7.4 manual,PDFpp4,6,49–50,54–55,58](https
 | Headphones / internal German conflict | PDFp6 explicitly says **6.35mm stereo**,while its specification tablePDFp62 says **3.5mm**. Thus the discrepancy is internal to this German document as well as between language versions. Both statements remain;physical jack size is unresolved. |
 
 Mini-screen count/technology andqualified Indonesian hardware remain unresolved. This partial lead stays outside active counts.
+
+
+### AXOM MAX — independent firmware1.9 review leads
+
+Checked **2026-11-01** in [Thomas Dill’s original Bonedo hands-on review,2026-10-21](https://www.bonedo.de/artikel/test-melofty-axom-max-konkurrenz-fuer-line-6-neural-kemper-und-co/),which lists tested firmware**1.9.0**. This is independent firsthand reporting,not manufacturer specifications orour device test.
+
+| Field | Review report / remaining qualification |
+|---|---|
+| Memory / supplied content | Reports **252 supplied presets in two folders**,within504 locations arranged asfour×126. This is a dated review-unit observation,not verified current factory allocation orproof the other252 areblank. Manufacturer factory-fill confirmation remains open. |
+| Loading / capacity lead | Reports Loader capacity **100 NAM files(A1/A2) and100 cabinet IRs**. Exact supported architecture sizes,conversion,firmware dependency,slot sharing andfull-capacity behavior remain unverified;do not promote this to unrestricted native NAM certification. |
+| Capture / firsthand operation | Author describes capturing his MarshallPlexi/4×12 rig withtwo microphones mixed through aChandlerTG2. This corroborates proprietary capture operation independently;it doesnot establish NAM export orall capture types tested. |
+
+The article lists381W×230D×73Hmm,3.45kg;this is independent corroboration ofaxes,not a manufacturer drawing that resolves earlier unlabeled dimensions. Original manufacturer [shop page](https://www.meloftyaudio.com/shop/axom-max),linked byPremierGuitar,still exposes no readable text. Mini-screen technology/count andqualifiedShopee hardware remain unresolved. **Partial lead outside active counts**;no downloads ordevice operations.
