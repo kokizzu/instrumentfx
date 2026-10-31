@@ -12,6 +12,8 @@ Separate physical displays, labels drawn on one shared screen, and LED rings are
 
 Research these LCD matches before OLED, shared-screen and unconfirmed-technology candidates. Extra navigation switches may lack a screen; screen counts do not imply total switch counts.
 
+Continuation order: **HX Effects → FM3 MKII Turbo → PLETHORA X5 → Tone Master Pro → remaining confirmed LCD processors**. First resolve each model’s direct analog expression-volume assignment, range/recall and output coverage, then remaining physical/control and qualified Indonesia-offer gaps. This is a research queue, not a ranking or a claim that these meet all requirements. Preserve the independent general-model cursor.
+
 | Brand / model | Display-layout status | Record / next check |
 |---|---|---|
 | Fender **Tone Master Pro** | **Ten dedicated LCD screens**, one per footswitch/encoder; separate7-inch color touchscreen | [Verified exact-model record](FENDER.md#tone-master-pro). Navigation/master readouts are separate; firmware1.8’s16 paged assignments do not add physical LCDs. [Revision-qualified LCD/live-edit fixes](FENDER.md#tone-master-pro--firmware-qualified-lcd-and-live-edit-fixes) cover blank labels andsong assignments. |

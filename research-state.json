@@ -130645,6 +130645,27 @@
       ],
       "finding": "Tahoe26 Apple silicon/Intel matrix marks G3n/G3Xn and Guitar Lab compatible as ofJan2026. GCE-3 audio-interface claim belongs to separate emulator hardware.",
       "limits": "G3n USB audio remains unverified; no downloads or hardware tests."
+    },
+    "priority_queue_20261101": {
+      "instruction": "Individual LCDs at footswitches first; OLED, shared-screen and unconfirmed technology remain secondary.",
+      "models": [
+        "Line 6 HX Effects",
+        "Fractal Audio FM3 MKII Turbo",
+        "TC Electronic PLETHORA X5",
+        "Fender Tone Master Pro"
+      ],
+      "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
+      "next_check": "HX Effects: seek exact manufacturer evidence for any global volume-target override beyond position recall and per-preset Volume block assignments. Preserve unknown if documentation does not establish it.",
+      "criteria": [
+        "normal guitar pickups",
+        "direct analog external expression volume across all presets without individual editing",
+        "volume position and min/max",
+        "bypass, headphones, tails and recorded loops",
+        "preferred chassis <=200 W x140 D mm",
+        "onboard preset down/up separately",
+        "exact qualified Shopee Indonesia hardware offers"
+      ],
+      "independent_general_cursor": "BOSS GT-Pro"
     }
   },
   "gt_pro_global_patch_level_20261031": {
