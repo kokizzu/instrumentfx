@@ -129966,6 +129966,12 @@
       ],
       "task": "Continue unresolved exact-model documentation and qualified hardware offers for individual LCD processors before OLED models. Retain the independent BOSS GT-Pro cursor.",
       "qualification": "Queue order is a research priority, not a recommendation or declaration of full verification."
+    },
+    "fender_product_conflicts": {
+      "checked": "2026-10-31",
+      "source": "https://www.fender.com/products/tone-master-pro",
+      "finding": "Current features over200 models/over20000 IR/3minute stereo loop;detail/highlights retain over100/6000/60s. Headphone load33ohmx2 minimum16ohmx2,maximum110mWx2 with test load unstated.",
+      "remaining": "Category census,IRcapacity/formats,LCDproperties,globalEXPscope and conditionverified used offer unresolved."
     }
   },
   "gt_pro_global_patch_level_20261031": {
