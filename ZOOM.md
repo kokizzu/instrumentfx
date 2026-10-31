@@ -1959,6 +1959,31 @@ FP02 uses CONTROL IN; normal bass pickups need no divided pickup. Guitar voicing
 | Display / live labels | STOMP can show effect names or parameter names/values. Some large effects assign SOLO or another special switch function,indicated by light text on a dark background. MEMORY shows patch number/name and highlights the selected patch with a light background; it can temporarily show and scroll the patch’s effects. These are operating views on the three physical LCDs,not additional screens. Color depth,touch and diagonal remain unverified. |
 | Live / bank selection | Holding bank switches changes banks continuously; PRESELECT still requires a patch selector to confirm. This is bank navigation,not proof of an unrestricted sequential preset-down/up pair. |
 | Live / master and ECO distinction | M.LVL0–120 can be adjusted in STOMP and MEMORY; this is hand control,not a global EXP role. ECO turns the unused unit off after10hours,not merely its displays; default state is not specified here. Individual LCD contrast1–13 remains separately documented. |
+### B3n — complete power-chart census and missing cost entries
+
+Checked **2026-10-31** against all five pages of the [manufacturer B3n power chart](https://zoomcorp.com/media/documents/E_B3n_FX-power-chart.pdf),©2017,Z2I-2960-01,currently linked by [B3n support](https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/b3n-support/). Extracted name order is sometimes reversed.
+
+| Chart category | Entries |
+|---|---:|
+| Dynamics | 9 |
+| Filter | 11 |
+| Drive | 16 |
+| Modulation | 13 |
+| SFX | 6 |
+| Delay | 5 |
+| Reverb | 6 |
+| Pedal | 5 |
+| Amp | 6 |
+| Cabinet | 6 |
+
+| Field | Reconciliation / qualification |
+|---|---|
+| Categories / chart versus effect sheet | **83 effect/amp/cab entries**,plusfour looper variants andRhythm = **88 chart entries**. The separately preserved89-entry parameter sheet has six additional choices:Low EQ,RC Boost,BassOctFZ,BassPhase,Mini MkB,MkB2x8TW. Their absence here means **cost unverified**,not unavailable effects. [Own chart](https://zoomcorp.com/media/documents/E_B3n_FX-power-chart.pdf);[own parameter sheet](https://zoomcorp.com/media/documents/E_B3n_FX-list_3.pdf). |
+| Expression / OutputVP cost boundary | This chart does **not list OutputVP**. Its **PDL Vol=4points** is a different entry;the guitar-series chart’s OutputVP cost is not transferred to B3n. OutputVP cost,all-patch insertion andcoverage remain unverified despite the later firmware announcement. |
+| Processing / capacity | The chart’s ceiling remains100points;seven units are a separate limit. Document counts andmissing cost rows do not establish installed firmware/library contents orany seven-effect combination. |
+
+The83-versus89 difference concerns these two2017 documents,not a reconciled current pool total. No local download,software installation ordevice operation.
+
 
 ## B6
 

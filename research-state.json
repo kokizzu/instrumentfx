@@ -131269,5 +131269,28 @@
     "frequency_hz": "50–60; historical firmware1.00 manual",
     "remaining": "Wattage/current,current label,factory-filled count,remaining LCD specifications; no device operation",
     "next": "Continue individual LCD-model unresolved fields; independent BOSS GT-Pro cursor retained."
+  },
+  "b3n_power_chart_census_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://zoomcorp.com/media/documents/E_B3n_FX-power-chart.pdf",
+    "revision": "©2017 Z2I-2960-01; five pages",
+    "groups": {
+      "Dynamics": 9,
+      "Filter": 11,
+      "Drive": 16,
+      "Modulation": 13,
+      "SFX": 6,
+      "Delay": 5,
+      "Reverb": 6,
+      "Pedal": 5,
+      "Amp": 6,
+      "Cabinet": 6
+    },
+    "core_entries": 83,
+    "looper_variant_rows": 4,
+    "rhythm_rows": 1,
+    "total_rows": 88,
+    "record": "ZOOM.md#b3n--complete-power-chart-census-and-missing-cost-entries",
+    "remaining": "OutputVP cost and global volume scope unverified; do not transfer guitar-series chart cost. Keep LCD priority and independent general cursor."
   }
 }
