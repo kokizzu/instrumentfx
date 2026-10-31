@@ -138076,5 +138076,13 @@
     },
     "downloads": false,
     "transaction": false
+  },
+  "plethora_x3_midi_switch_ranges_20261101": {
+    "checked": "2026-11-01",
+    "source": "https://cdn-media.empowertribe.com/c4ab468ba07f481080559bfc432c679c/PX5_3_MIDI_CC_table.pdf",
+    "finding": "Recorded exact CC92 nonzero tap trigger, CC93 tuner split and CC102–104 X3 slot on/off split. X5-only CC105/106 excluded.",
+    "remaining": "Current looper duration lacks new primary X3 evidence; MIDI rules do not establish analog expression or global volume, physical switch mapping or relay bypass.",
+    "downloads": false,
+    "hardware_test": false
   }
 }
