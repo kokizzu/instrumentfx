@@ -137396,5 +137396,16 @@
       "B3n USB audio remains unverified; do not transfer B3 or GCE-3 capabilities"
     ],
     "next": "Continue remaining individual-LCD processor gaps before OLED, shared-screen and broader no-treadle candidates; preserve independent BOSS GT-Pro cursor."
+  },
+  "g5n_gce3_library_boundary_20261101": {
+    "status": "manufacturer-qualified editor limitation; partial model remains",
+    "source": "https://zoomcorp.com/ja/jp/audio-interface/audio-interfaces/gce-3/",
+    "finding": "GCE-3 emulating G5n cannot use B3n bass effects. Emulated model limits effect counts/combinations; aggregate emulator library is not G5n hardware contents or bass-suitability evidence.",
+    "unresolved": [
+      "G5n primary USB channel/routing specification",
+      "separate button census and visual controls",
+      "global expression volume and current installed-library reconciliation"
+    ],
+    "next": "Continue individual-LCD processor gaps with new exact-model evidence; do not repeat unchanged USB searches or transfer older G5 specifications. Preserve general BOSS GT-Pro cursor."
   }
 }
