@@ -30,7 +30,8 @@ Separate physical displays, labels drawn on one shared screen, and LED rings are
 |---|---|---|
 | Fractal Audio **FC-6 Mark II** | **Six individual LCD mini displays**, plus separate2×20 main display | [Manufacturer-backed controller record](FRACTAL-AUDIO.md#fc-6-mark-ii-and-fc-12-mark-ii--controllers). Requires compatible Fractal host; not an audio processor. |
 | Fractal Audio **FC-12 Mark II** | **Twelve individual LCD mini displays**, plus separate2×20 main display | [Manufacturer-backed controller record](FRACTAL-AUDIO.md#fc-6-mark-ii-and-fc-12-mark-ii--controllers). Keep separate from original FC-12 and processor counts. |
-| **Morningstar — exact model pending** | Requested brand collected; model, display count and layout not yet verified | Identify the exact controller and distinguish multiple switches sharing one display from separate per-switch screens. Check manufacturer documentation; do not count a controller as an audio processor. |
+| Morningstar **MC6 PRO** | **Three color LCDs for six switches**, rather than six individual displays | [Manufacturer-backed controller record](MORNINGSTAR.md#mc6-pro). Switches use nearest displayed preset labels; outside audio processor counts. |
+| Morningstar **MC8 PRO** | Candidate identified; exact display audit pending | Verify from its own manual; do not transfer MC6 PRO screen counts or specifications. |
 
 ## Evidence and pending work
 

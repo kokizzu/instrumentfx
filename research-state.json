@@ -129364,6 +129364,14 @@
       "checked": "2026-10-31",
       "source": "https://line6.com/helix-stadium/",
       "finding": "Twelve OLED strips; explicitlyXL-only, not transferred to smaller StadiumFloor."
+    },
+    "morningstar_mc6pro": {
+      "checked": "2026-10-31",
+      "source": "https://help.morningstar.io/en/article/mc6-pro-user-manual-psevjy/",
+      "root": "MORNINGSTAR.md#mc6-pro",
+      "switches": 6,
+      "lcd_screens": 3,
+      "scope": "Multi-screen MIDI controller, not one screen per switch; outside audio counts."
     }
   }
 }

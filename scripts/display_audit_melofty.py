@@ -10,11 +10,13 @@ comparison_views.verify_views()
 comparison_views.test_readme_brand_counts()
 comparison_views.test_validation_counts()
 assert not git("diff", "--cached", "--name-only").strip(), "Existing staged work"
-allowed = {"MELOFTY.md", "MULTI-EFFECTS.md", "research-state.json", "Makefile", "scripts/display_audit_melofty.py", "FOOTSWITCH-DISPLAYS.md", "README.md"}
+allowed = {"MELOFTY.md", "MULTI-EFFECTS.md", "research-state.json", "Makefile", "scripts/display_audit_melofty.py", "FOOTSWITCH-DISPLAYS.md", "README.md", "MORNINGSTAR.md"}
 changed = set(git("diff", "--name-only").splitlines()) | set(git("ls-files", "--others", "--exclude-standard").splitlines())
 assert changed <= allowed, changed - allowed
 assert not git("diff", "--check").strip()
 git("add", "--", *sorted(changed))
 print(git("diff", "--cached", "--stat"))
 message = "docs: collect requested footswitch display processors and controllers" if sys.argv[1:] == ["collection"] else "research(melofty): add AXOM MAX footswitch display lead"
+if sys.argv[1:] == ["morningstar"]:
+    message = "research(morningstar): distinguish MC6 PRO screens and switches"
 print(git("commit", "-m", message))
