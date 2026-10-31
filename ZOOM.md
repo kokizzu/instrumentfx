@@ -3386,6 +3386,17 @@ Manufacturer-authored mirror identity check: Zoom copyright, G5 operation-manual
 
 [ZG5-R2]: https://manualzz.com/doc/8594044/zoom-g-5-guitar-effects-and-amp-simulator-operation-manual
 
+### G5 — additional exact offer and USB-power evidence boundary
+
+Checked2026-10-31;original G5,notG5n.
+
+| Field | Evidence / qualification |
+|---|---|
+| IDR condition unknown;sold out | **Rp1.100.000;Habis**,Sandyndy453,Kab.Lombok Utara;shop29830299/item20784646637. [Exact hardware listing](https://shopee.co.id/ZOOM-G5-i.29830299.20784646637),four-month search cache;direct reader cache miss,shipping unavailable in indexed text. Condition,working state,revision,bundle,adapter,warranty,voucher andcheckout unknown. Historical ask,not a qualified used/new range or completed sale. ExistingRp2.2m offer retained separately. |
+| Power / appendix qualification | [Another original-manual reproduction](https://manualzz.com/doc/51424546/zoom-music-pedal-g5-operation-manual) matches G5’s Z-Pedal,tube booster,297patches and G5-5000-1 imprint,but appends a separately titled **USB/Cubase LE Startup Guide** with generic“this unit”,battery diagrams and USB-bus-power advice. That appendix does not independently settle G5 battery/USB operation;retain unknown and seek model-specific confirmation. The reproduced operation-manual pagination also differs from the existing mirror;do not merge its page numbers silently. |
+
+Hope Music shop/search snapshots also expose a Tube Booster offer with differing asks,but no exact item ID was recovered;not admitted as another priced hardware record. No local downloads or device operation.
+
 ## G5n
 
 Reviewed **2026-10-17** after fresh exact Shopee hardware discovery. New catalogue record, no ownership assertion. Discontinued according to Zoom; reseller offers can remain historical. Partial: no software, firmware, manual file or dependency downloaded or installed. Official manual evidence below is search-indexed text, not a fresh PDF/image inspection.
