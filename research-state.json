@@ -130751,5 +130751,18 @@
     ],
     "finding": "Two IR blocks afterLoop2;SIC/Level/LowCut/HighCut/Bypass. USBreamping bypasses analog loops1/2 and mutes physical inputs;powercycle restores standard mode.",
     "limits": "IRformat/length/rate/slot capacity,current1.8 behavior and EXPcoverage unknown. SecondaryNAMroadmap lead not adopted as shipped capability without primaryconfirmation."
+  },
+  "tone_master_lcd_editing_navigation_20261031": {
+    "source": "https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual",
+    "revision": "Manufacturer firmware1.5",
+    "printed_pages": [
+      5,
+      9,
+      13,
+      33,
+      34
+    ],
+    "finding": "Six middle encoders show parameter values;PAGE accesses more. Ambient auto/manual brightness;default bank± by6,repurposed in8effect layout.",
+    "limits": "No numeric/individual-strip brightness range,sequential preset± or new physical switches asserted;current firmware behavior untested."
   }
 }
