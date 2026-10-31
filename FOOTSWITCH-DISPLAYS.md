@@ -24,10 +24,12 @@ Separate physical displays, labels drawn on one shared screen, and LED rings are
 | TC Electronic **PLETHORA X5** — reference | **Five LCD slot displays**, corresponding to five effect switches | [Verified layout and source](TC-ELECTRONIC.md#plethora-x5). Exact diagonal/color/touch remain unverified. |
 | **Zoom — exact model pending** | Brand collected; no individual model certified here | [Existing Zoom catalogue](ZOOM.md). Identify which model has separate displays or shared-screen footswitch labels; do not mark all Zoom units as matches. |
 
-## MIDI controllers
+## Foot controllers
 
 | Brand / model | Status | Next check |
 |---|---|---|
+| Fractal Audio **FC-6 Mark II** | **Six individual LCD mini displays**, plus separate2×20 main display | [Manufacturer-backed controller record](FRACTAL-AUDIO.md#fc-6-mark-ii-and-fc-12-mark-ii--controllers). Requires compatible Fractal host; not an audio processor. |
+| Fractal Audio **FC-12 Mark II** | **Twelve individual LCD mini displays**, plus separate2×20 main display | [Manufacturer-backed controller record](FRACTAL-AUDIO.md#fc-6-mark-ii-and-fc-12-mark-ii--controllers). Keep separate from original FC-12 and processor counts. |
 | **Morningstar — exact model pending** | Requested brand collected; model, display count and layout not yet verified | Identify the exact controller and distinguish multiple switches sharing one display from separate per-switch screens. Check manufacturer documentation; do not count a controller as an audio processor. |
 
 ## Evidence and pending work

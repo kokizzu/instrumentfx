@@ -6,6 +6,7 @@
 **Model and section index — A–Z, natural numeric order**
 
 - [AM4](#am4)
+- [FC-6 Mark II and FC-12 Mark II — controllers](#fc-6-mark-ii-and-fc-12-mark-ii--controllers)
 - [FM3 MKII Turbo](#fm3-mkii-turbo)
 - [FM9 MKII Turbo](#fm9-mkii-turbo)
 - [VP4](#vp4)
@@ -124,6 +125,12 @@ Checked 2026-10-28 against [own v1.0.2 manual](https://www.fractalaudio.com/down
 [Current AM4-Edit page](https://www.fractalaudio.com/am4-edit) lists **1.00.09,2026-09-08**: macOS10.13+; mainWindows package11+64-bit andrequiredUSBdriver. It also links a32-bit version without equivalent support certification. Full editor/librarian handles presets/usercabs,BlockLibrary,ChannelCopy andSceneSwap;Fractal-Bot updater/backup isembedded. Linux/mobile support unverified; no VP4minimum copied.
 
 Partial lead remains outside activecounts;exactShopee hardware,import-format limits,source conflicts andvolume coverage remain. No download,installation ordevice test.
+
+## FC-6 Mark II and FC-12 Mark II — controllers
+
+Checked2026-10-31: [manufacturer exact Mark II page](https://www.fractalaudio.com/fc-controllers/) documents **six individual LCD mini displays on FC-6 Mark II** and **twelve on FC-12 Mark II**, one per switch. Published mini-display width×height is **50.0×17.5mm**, versus original36.0×12.5mm; these are not diagonal sizes. Both also have a separate2×20 transflective main display and colored switch rings.
+
+These are **controllers for Axe-Fx III/FM9/FM3**, not audio multi-effects processors or universal standalone MIDI pedals. FASLINK II carries host control/power; MIDI messages can be generated through the connected processor’s MIDI output. Keep them outside active processor counts. Current exact Shopee hardware, condition, price and complete controller profiles remain unverified. Do not transfer enlarged Mark II screen dimensions to original controllers, FM3 or FM9.
 
 ## FM3 MKII Turbo
 

@@ -129322,6 +129322,24 @@
       "checked": "2026-10-31",
       "source": "https://www.fractalaudio.com/fm3/",
       "finding": "Three individual mini LCDs; virtual12-switch layouts distinguished from physical displays."
+    },
+    "fractal_fc": {
+      "checked": "2026-10-31",
+      "source": "https://www.fractalaudio.com/fc-controllers/",
+      "models": [
+        "FC-6 Mark II",
+        "FC-12 Mark II"
+      ],
+      "mini_lcd_counts": [
+        6,
+        12
+      ],
+      "mini_display_mm": [
+        50,
+        17.5
+      ],
+      "scope": "Host-dependent controllers, outside processor counts; MIDI via connected processor.",
+      "active": false
     }
   }
 }
