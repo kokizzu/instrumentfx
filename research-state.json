@@ -130819,19 +130819,44 @@
       "remaining": "PrimarywhiteX1LCDtech/placement,fullprofile andexactIDR stillunresolved;Neo evidence not transferred."
     },
     "fm3_original": {
-      "root": "FRACTAL-AUDIO.md#fm3-original--partial-historical-lcd-discovery",
-      "status": "ConfirmedindividualLCDlayout;partialhistoricalprofile,notactive",
-      "next": "Complete original-revision profile andheadphone variants,controls,power/dimensions,memory,categories/global analog volume before active admission. KeepMKII physical specs separate."
+      "root": "FRACTAL-AUDIO.md#fm3-original",
+      "status": "Active partial guitar/bass profile admitted2026-11-01;individual LCD layout confirmed;not fully verified",
+      "next": "Exact-revision condition-qualified IDR,mini-display specifications,current category census andglobal-volume endpoints/recall/output coverage remain unresolved.",
+      "pre_admission_checkpoint": {
+        "root": "FRACTAL-AUDIO.md#fm3-original--partial-historical-lcd-discovery",
+        "status": "ConfirmedindividualLCDlayout;partialhistoricalprofile,notactive",
+        "next": "Complete original-revision profile andheadphone variants,controls,power/dimensions,memory,categories/global analog volume before active admission. KeepMKII physical specs separate."
+      }
     },
     "fm9_original": {
-      "root": "FRACTAL-AUDIO.md#fm9-original--partial-lcd-discovery",
-      "status": "ConfirmedindividualLCDlayout;partialinactiveprofile",
-      "next": "Complete originalFM9 processing/memory/expression/I/O/IR/editor/looper profile andexactrevision market evidence before admission. Then review FM9Turbo separately;do notborrow MKII strip specifications."
+      "root": "FRACTAL-AUDIO.md#fm9-original",
+      "status": "Active partial guitar/bass profile admitted2026-11-01;individual LCD layout confirmed;not fully verified",
+      "next": "Exact-revision condition-qualified IDR,mini-display specifications,current category census andglobal-volume endpoints/recall/output coverage remain unresolved.",
+      "pre_admission_checkpoint": {
+        "root": "FRACTAL-AUDIO.md#fm9-original--partial-lcd-discovery",
+        "status": "ConfirmedindividualLCDlayout;partialinactiveprofile",
+        "next": "Complete originalFM9 processing/memory/expression/I/O/IR/editor/looper profile andexactrevision market evidence before admission. Then review FM9Turbo separately;do notborrow MKII strip specifications."
+      }
     },
     "mod_duo": {
       "root": "MOD-AUDIO.md#duo--partial-lcd-discovery",
       "status": "KnownLCDtechnology;placementpending;inactivepartial",
       "next": "Verify originalpanel/LCD-to-actuator layout,complete profile/market andsourceconflicts beforeactiveadmission. Do notborrowDuoX CVinputs."
+    },
+    "fm9_turbo": {
+      "root": "FRACTAL-AUDIO.md#fm9-turbo",
+      "status": "Active partial guitar/bass profile admitted2026-11-01;pre-MKII Turbo;individualLCDs confirmed",
+      "next": "Exactpre-MKII market evidence,mini specifications,currentcategories andglobalvolume endpoints/recall/coverage remain unresolved"
+    },
+    "shortlist_reconciliation_20261101": {
+      "models": [
+        "FM3 original",
+        "FM9 original",
+        "FM9 Turbo"
+      ],
+      "finding": "Added already-active no-treadle individual-LCD records to volume/footprint synthesis;all exceed200W×140D;globalrole documented butremaining coverage/recall not closed",
+      "history": "Pre-admission discovery checkpoints retained under each original ledger entry",
+      "inventory_changed": false
     }
   },
   "gt_pro_global_patch_level_20261031": {

@@ -38,12 +38,15 @@ Continuation checkpoint (2026-11-01): **missing individual-LCD models → remain
 
 ### LCD processors without built-in treadles — volume and footprint
 
-Synthesis of the linked,revision-qualified audits as of2026-10-31. **None is yet verified to meet all requirements together**:normal guitar pickups,direct analog EXP volume across every preset without individual editing,and≤200W×140Dmm. Unknown is not No. Headphones and onboard preset navigation remain separate columns in [EXPRESSION-VOLUME.md](EXPRESSION-VOLUME.md);prices/stock are not assessed here.
+Synthesis of the linked,revision-qualified audits as of2026-11-01. **None is yet verified to meet all requirements together**:normal guitar pickups,direct analog EXP volume across every preset without individual editing,and≤200W×140Dmm. Unknown is not No. Headphones and onboard preset navigation remain separate columns in [EXPRESSION-VOLUME.md](EXPRESSION-VOLUME.md);prices/stock are not assessed here.
 
 | Processor | Chassis W×D mm / preferred fit | Across-preset analog expression-volume evidence |
 |---|---|---|
 | [Fender Tone Master Pro](FENDER.md#tone-master-pro) |371×261.6;fails;older261.4D conflict | Documented EXP Live Mode requires a Volume block per preset;independent global role unknown |
+| [Fractal FM3 original](FRACTAL-AUDIO.md#fm3-original) |281×236;fails | Standard-covered7.x manual documents global Input/Output Volume without preset blocks; endpoints,held-position recall andbypass/phones/USB/recorded-loop coverage unresolved |
 | [Fractal FM3 MKII Turbo](FRACTAL-AUDIO.md#fm3-mkii-turbo) |281×236;fails |7.x manual expressly covers Turbo and global Input/Output volume;range/recall/current-firmware gaps remain;[Input/Output block-bypass distinction](FRACTAL-AUDIO.md#fm3--input-through-versus-output-mute-bypass) does not prove universal EXP mute |
+| [Fractal FM9 original](FRACTAL-AUDIO.md#fm9-original) |513×237;fails | Original/Turbo3.x manual documents local-pedal global Input/Output Volume without preset blocks; endpoints,recall andbypass/phones/USB/recorded-loop coverage unresolved |
+| [Fractal FM9 Turbo,pre-MKII](FRACTAL-AUDIO.md#fm9-turbo) |513×237;fails | Explicitly Turbo-covered3.x global-volume procedure; endpoints,recall andoutput-coverage gaps remain;MKII strip specifications not transferred |
 | [Fractal FM9 MKII Turbo](FRACTAL-AUDIO.md#fm9-mkii-turbo) | Okada exact MKII513×237;fails;direct manufacturer corroboration pending |2022 FM9 global role documented; [headphone/copy-routing limits](FRACTAL-AUDIO.md#fm9--headphone-route-and-conditional-output-copying); current MKII equivalence unverified |
 | [Line6 HX Effects](LINE6.md#hx-effects) | FAQ approx.274×201;manufacturer chart274×199;both fail preferred footprint;[source conflict](LINE6.md#hx-effects--published-body-and-weight-discrepancy) | Global position recall does not create preset Volume blocks/assignments |
 | [TC PLETHORA X3](TC-ELECTRONIC.md#plethora-x3) |176.53×116.75;fits | No analog EXP socket in complete inventory;MASH/MIDI separate |
