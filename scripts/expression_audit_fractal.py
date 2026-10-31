@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(fractal): separate FC Mark II display controllers'))
+    print(git('commit','-m','research(fractal): distinguish VP4 shared screen from switch LCDs'))

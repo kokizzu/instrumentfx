@@ -129446,6 +129446,13 @@
       "source": "https://zoomcorp.com/media/documents/E_B3n.pdf",
       "finding": "Manual p3: three display/four-knob/footswitch units; product independently confirms three LCDs.",
       "scope": "Bass processor; original B3 remains distinct; no guitar classification added."
+    },
+    "vp4": {
+      "checked": "2026-10-31",
+      "source": "https://www.fractalaudio.com/downloads/manuals/VP4/VP4-Owners-Manual.pdf",
+      "revision": "v1.06,2024-10-23,pp7–8,51",
+      "classification": "Shared main LCD and separate switch LEDs; individual footswitch LCDs absent from documented panel inventory.",
+      "scope": "Not classified as individual-display match; no hardware/visual inspection."
     }
   }
 }

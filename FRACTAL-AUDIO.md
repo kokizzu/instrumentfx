@@ -237,7 +237,7 @@ Admitted 2026-10-28 as a **partial model**, not fully verified. Own manufacturer
 | Expression range / recall / coverage | Calibration0–100 is not independent endpoint assignment. Analog startup recall unknown; MIDI Initial Value explicitly excludes local pedals. Global role does not certify bypass, headphone, tail orrecorded-loop attenuation. |
 | Controls | **5 rotary /4 footswitches /6 buttons**, manufacturer specification. |
 | Dimensions / mass | **254 W×160.3 D×66 H mm; 1.56kg**; exceeds preference. Drawing text also contains63.6/69.9mm height references, not visually resolved; specification retained. |
-| Display | **480×272 color LCD**; published diagonal and touch status unknown. |
+| Display | **480×272 shared color LCD**; manual v1.06 pp7–8 describes one Home/display area and four mode-dependent footswitches, with switch LEDs separately specified p51. No individual switch LCDs documented in that panel inventory. Diagonal and touch status unknown. Layout rechecked2026-10-31. |
 | Simultaneous processing | **Four effect slots**, plus preset gate/EQ/levels. About 80% CPU triggers bypass; bypassed blocks still consume CPU. Historical Pitch/Reverb/RingMod/Synth maximum two instances each; most other categories four, within total-slot/CPU limits. |
 | Categories / choices | Historical v1.06 **24 categories**, complete count table below; later IR Player separate. Current website advertises 400+ effects, 69 drive / 78 reverb / 16 compressor / 128+ delay-family choices. Different publication revisions; not full 4.04 census. |
 | Preset / user memory | **104 writable slots**, 26 banks×4; factory tones share these locations, not extra protected storage. V–Z blank in old overview; U and complete initial-fill count unresolved. |
