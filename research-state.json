@@ -129743,6 +129743,13 @@
       "revision": "v1.3,April2022,pp2,5–6",
       "finding": "FM9 onboard Preset±1 configurable wrap/limits;selectable current/destination/custom/action mini-display labels,10character names.",
       "remaining": "MKII/currentfirmware/defaultassignments notverified;historical capability preserved separately."
+    },
+    "hx_effects_current_navigation": {
+      "checked": "2026-10-31",
+      "source": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+      "revision": "3.80 RevD,pp11,50",
+      "finding": "4Switch FS1/4 Preset up/down immediate without bank queue;Swapdirection;4stomps tradeoff.",
+      "remaining": "Settings/installedfirmware nottested;global EXP position distinct from assignment;display specifications remain open."
     }
   },
   "gt_pro_global_patch_level_20261031": {

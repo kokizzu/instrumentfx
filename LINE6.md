@@ -521,6 +521,17 @@ Checked 2026-10-18 against the [official HX Edit release listing](https://line6.
 | Editor / macOS | The3.82 entry lists Catalina,BigSur,Monterey,Ventura,Sonoma,Sequoia,Tahoe plus generic MacOSX and an unexplained GoldenGate label. Retain that source anomaly; not proof of every OS/CPU combination or a compatibility test. |
 | Editor / backup restore | **3.81**,released2024-11-20, fixes some global settings failing to restore from backups on **Apple silicon**. This qualifies earlier generic editor/backup support; no local restore was attempted. |
 
+
+### HX Effects — 3.80 sequential navigation and LCD roles
+
+Checked2026-10-31 against [own3.80 RevD manual](https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf),printedpp11,50;direct manufacturer text,not HX Stomp XL documentation.
+
+| Field | Current manual evidence / qualification |
+|---|---|
+| Controls / sequential preset down-up | In **4Switch** mode,FS1/FS4 replace two stomp assignments with navigation. Global **Up/Dn Switch=Preset** makes them instantly select previous/next presets without a bank queue;Snapshot is a separate choice. Holding both cycles Bank/Preset/Snapshot;**Swap Up/Down** reverses direction. This supersedes the older3.0-only evidence,not confirmation of an offered unit’s settings. |
+| Display / mode tradeoff | Four-switch mode retains four stomp assignments; six-switch mode is the documented default. Navigation uses existing LCD-equipped FS1/FS4,not additional screens. Custom Command Center preset/snapshot commands are another programmable path,not an automatic global-volume solution. |
+
+
 <!-- comparison evidence ends -->
 
 ### Preserved original shared-source HX Effects fields

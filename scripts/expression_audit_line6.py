@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(line6): document HX Effects live strip labels'))
+    print(git('commit','-m','research(line6): verify HX Effects 3.80 sequential navigation'))
