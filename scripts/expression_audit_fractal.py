@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(fractal): qualify FM3 tuner mute and footswitch indication'))
+    print(git('commit','-m','research(fractal): document FM3 pedal startup revision limits'))

@@ -416,6 +416,18 @@ Checked **2026-11-01**, [own 7.x manual, printed pp93,96](https://www.fractalaud
 **A4 calibration 430–450Hz**, default440; Downtune0–4 semitones also transposes blocks using pitch information when active. Per-string offsets are±25cents. **Footswitch Tuner Mode** can make the first three footswitches visually assist tuning; it does not add displays. Current firmware13 equivalence remains untested. No download or device operation.
 
 
+### FM3 — firmware-qualified pedal startup and activity sensing
+
+Checked **2026-11-01** in the [manufacturer FM3 release-history reproduction](https://manuals.plus/m/7de5caf1ac45bf1cdf36c9adfdb9d248e0cfeebd9524cbad9fbd8d3f94baf9eb.pdf),identity and13.00 heading established above;PDFpp6–7,12–13,33. Original release text only.
+
+| Field | Revision-qualified finding |
+|---|---|
+| Expression / global-volume initialization | **3.02,2021-03-10:** fixes expression-pedal initialization of global Input/Output Volume in MIDI/Remote→Other. This predates MKII;it is firmware-history evidence,not a test of MKII startup position,disconnect behavior orpreset-change recall. |
+| Expression / activity sensing | **9.01,2024-10-11:** adds pedal/controller activity sensing to prevent Auto-Engage activating blocks when the controller is absent. **11.0,2025-10-01:** corrects startup sensing for certain External-controller configurations andstartup modifiers usingFC pedals;also reduces rear-pedal filtering for faster motion response. Missing-controller Auto-Engage protection is not a specified global-volume fallback. |
+
+Numeric global-volume endpoints,current installed behavior andbypass/USB attenuation remain unverified. These fixes do not justify treating MIDI-only Initial Value as analog-pedal recall. No download,firmware update orhardware test.
+
+
 ## FM9 MKII Turbo
 
 Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI seller item remains separate. Current product/store establish revision. Linked2022 manual covers original/Turbo but predates MKII display revision;historical physical figures below require current corroboration.

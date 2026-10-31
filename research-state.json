@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "FM3 MKII Turbo: global volume range/analog recall andqualified Shopee offers. HX Effects numeric attenuation endpoints remain unverified; avoid repeating generic Min/Max or global position as proof. Independent BOSS GT-Pro cursor unchanged.",
+      "next_check": "PLETHORA X5: exact global-versus-Board EXP volume setup andqualified hardware offers;seek current manufacturer manual. FM3 startup fixes saved withoutclosing analog recall/endpoints. Independent BOSS GT-Pro cursor unchanged.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133273,6 +133273,11 @@
       "file": "LINE6.md",
       "model": "HX Effects",
       "heading": "### HX Effects — assignment capacity and Favorite bypass conflict"
+    },
+    {
+      "file": "FRACTAL-AUDIO.md",
+      "model": "FM3 MKII Turbo",
+      "heading": "### FM3 — firmware-qualified pedal startup and activity sensing"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -133363,5 +133368,18 @@
     "finding": "Eight assignments per switch/controller; hardware bypass reassignment moves source, independent MIDI bypass may coexist. Guide excludes HX Effects Favorite bypass assignment,while owner says customized bypass retained; source distinction unresolved.",
     "remaining": "Numeric Volume attenuation endpoints/global analog assignment not established; no download/device test.",
     "next": "FM3 global volume ranges andanalog recall;LCD-first priority preserved;independentGT-Pro unchanged."
+  },
+  "fm3_pedal_startup_history_20261101": {
+    "source": "https://manuals.plus/m/7de5caf1ac45bf1cdf36c9adfdb9d248e0cfeebd9524cbad9fbd8d3f94baf9eb.pdf",
+    "identity": "Manufacturer original FM3 release history,13.00 July16 2026 header previously matched own downloads",
+    "pages": [
+      6,
+      7,
+      12,
+      13,
+      33
+    ],
+    "finding": "3.02 March10 2021 globalInput/OutputVolume pedal initialization fix;9.01 Oct11 2024 activity sensing forabsentcontroller AutoEngage;11.0 Oct1 2025 startup External/FC modifier fixes andfaster pedal response.",
+    "limits": "No numeric globalvolume endpoints,analog recall/fallback,currentinstalledbehavior orUSB/bypass coverage established. No download/device test."
   }
 }
