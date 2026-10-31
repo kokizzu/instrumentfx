@@ -3486,6 +3486,25 @@ Checked **2026-10-31** in the [manufacturer-authored G5 manual reproduction](htt
 
 The separate20-entry Z-Pedal list includes Custom mapping. Cabinet selections remain amp parameters. Thus125+20=145 is a documented-entry total,not145 distinct audio algorithms;this census does not certify installed firmware or resolve edition equivalence. No downloads orvisual/hardware test.
 
+### G5 — separate Z-Pedal census and assignment boundary
+
+Checked **2026-10-31** against [manufacturer-authored manual pp59–61][ZG5-R2]; document identity qualified above.
+
+| Numbers | Listed choices |
+|---|---|
+| 1–5 | VolBoostZ; Filter-Z; Tremolo-Z; Flanger-Z; Echo-Z |
+| 6–10 | Rotary-Z; TalkPDL-Z; TRM&PHSR; CHO&REV; FLNG&DLY |
+| 11–15 | OctPitch; W-Shift; HotSpice; ChaosDLY; Starship |
+| 16–20 | RNDM Talk; FuzzyBack; Granular; SpaceWorm; Custom |
+
+| Field | Finding / qualification |
+|---|---|
+| Categories / Z-Pedal | All **20 numbered choices** inspected; #20 maps other effects rather than supplying another audio algorithm. See [complete separate list](ZOOM.md#g5--separate-z-pedal-census-and-assignment-boundary). |
+| Expression / mapping | #20 offers independent vertical, left and right targets; vertical heel/toe endpoints and separate lateral endpoint/center values. #1 stores vertical/horizontal starting values, replaced by physical position after movement; this does not establish global assignment across presets. Its lateral volume values span10–300; output level0–150, distinct from vertical position0–100. |
+| Processing / restrictions | #11/#12 specify single-note operation; #17 generates overtone feedback from single notes. #13 simulates sitar; #19 is ring modulation. #18 samples periodically or on picking in Hold mode; persistent loop storage is unestablished. |
+
+Built-in treadle keeps G5 outside the no-treadle shortlist. Headphone, bypass and tail/looper coverage of volume mappings remain unresolved. No device test or download.
+
 
 ## G5n
 

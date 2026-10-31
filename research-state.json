@@ -131087,5 +131087,19 @@
       "Physicalcontrolandauxiliarydisplaydetails",
       "Power/USBoperationandconditionqualifiedoffers"
     ]
+  },
+  "g5_zpedal_census_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://manualzz.com/doc/8594044/zoom-g-5-guitar-effects-and-amp-simulator-operation-manual",
+    "pages": "59–61",
+    "identifiers": {
+      "first": 1,
+      "last": 20,
+      "seen": 20,
+      "missing": []
+    },
+    "record": "ZOOM.md#g5--separate-z-pedal-census-and-assignment-boundary",
+    "status": "Partial; see canonical record for mapping scope and restrictions",
+    "next": "Prioritize remaining individual LCD model gaps, including G5n current library and physical controls; preserve independent BOSS GT-Pro cursor."
   }
 }
