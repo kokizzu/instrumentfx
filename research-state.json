@@ -137206,5 +137206,13 @@
     "destination": "MOD-AUDIO.md#duo--listed-stable-firmware-and-factory-content",
     "qualification": "Listed original-Duo stable build andOS1.13 content organization;no firmware download ordevice operation. Exact LCDplacement unresolved;browser inventory empty.",
     "next": "New inspectable primary panel evidence required for individual-LCD classification;confirmed LCD processors retain priority."
+  },
+  "fm9_original_backup_ranges_20261101": {
+    "status": "partial;own Original/Turbo3.x manual",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "page": 103,
+    "destination": "FRACTAL-AUDIO.md#fm9-original--preset-bank-backups-and-source-range-error",
+    "qualification": "Printed BankC range inconsistent;arithmetic expectation clearly distinguished. Factory-filled count andbackup contents remain unverified.",
+    "market_recheck": "FM9/Helix/Fender/B3n/Plethora exact searches reproduced saved offers;no newcondition-qualified stock orprice asserted."
   }
 }
