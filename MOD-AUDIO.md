@@ -70,4 +70,12 @@ Its **Trails** setting preserves reverb decay on plugin bypass when enabled;disa
 
 Duo-specific changes add pedalboard/snapshot names to display headers. Foot-navigation readouts show **previous/next pedalboard names**,withLED blinking until loading finishes. This resolves a practical readout detail,not exact physical LCD-to-foot placement orzero-latency switching. The new LV2 State extension enables plugins to implement persistent data,but does not guarantee every looper saves recordings afterpower-off. No files,plugins orfirmware downloaded;no device operation.
 
+### Duo — neural-model file acceptance versus playback compatibility
+
+Checked **2026-11-01**. [Manufacturer-hosted release history](https://wiki.mod.audio/wiki/Releases),**1.13.2,June28,2023**,adds acceptance of **.aidax/.nam extensions**. This establishes a file-handling change,not supported model architectures,CPU feasibility ornative-versus-converted playback on original Duo.
+
+The [MOD-hosted Neural Amp Modeler plugin entry](https://pedalboards.moddevices.com/plugins/aHR0cDovL2dpdGh1Yi5jb20vbWlrZW9saXBoYW50L25ldXJhbC1hbXAtbW9kZWxlci1sdjI=) lists **v1:2.3-19**,NAM andRTNeural Keras/AIDA-X models. The [upstream developer README](https://github.com/mikeoliphant/neural-amp-modeler-lv2) now describes **NAM A1/A2 plusRTNeural JSON**,atom:Path host support andmatching host/model sample rates;even-multiple oversampling is the stated exception. The README is a current upstream scope,not certification of that older store build orDuo-specific operation.
+
+MOD’s [AIDA-X page](https://mod.audio/aida-x/) explicitly advertises **Dwarf andcomputers**;its [neural-modeling page](https://mod.audio/neural-modelling/) likewise names **Dwarf** forAIDA-X/NAM. Omission does not prove original Duo incompatibility. **Original-Duo native NAM,converted NAM,AIDA-X andcapture playback remain unverified**;Dwarf marketing,shared resource folders andblank Duo cells in a community CPU table are insufficient. The manufacturer build-recipe page exposed metadata butnot readable source;no build result is claimed. No clone,download,training,plugin installation ordevice operation.
+
 Next:establish LCD-to-actuator placement fromprimary text orinspectable originalpanel,verify complete profile andexact hardware offers before active admission. No files,software,firmware,plugins ordependencies downloaded;no device operation.

@@ -134720,6 +134720,21 @@
       "lcd_os110": "Headerspedalboard/snapshot;FootNavprevious/nextnames;LEDblinkuntilloaded;momentarymode/LEDlistcolorsseparate",
       "admission": "Stillpartialinactive:completeplugin/categoryprofile andpanelplacement notclosed;newIRfindingnotfullyverifiedmodel",
       "next": "Inspectcompatibleplugin-specificNAM/synth/looper evidence andfullprofile beforeadmission;avoidrepeatingmenus"
+    },
+    "neural_model_followup": {
+      "checked": "2026-11-01",
+      "sources": [
+        "https://wiki.mod.audio/wiki/Releases",
+        "https://pedalboards.moddevices.com/plugins/aHR0cDovL2dpdGh1Yi5jb20vbWlrZW9saXBoYW50L25ldXJhbC1hbXAtbW9kZWxlci1sdjI=",
+        "https://github.com/mikeoliphant/neural-amp-modeler-lv2",
+        "https://mod.audio/aida-x/",
+        "https://mod.audio/neural-modelling/"
+      ],
+      "file_handling": "1.13.2 June28,2023 accepts. aidax/.nam extensions;notplayback proof",
+      "version_boundary": "Storev1:2.3-19 vs currentupstreamA1/A2+RTNeuralJSON;equivalenceandDuooperationunverified",
+      "manufacturer_scope": "AIDA-X/neuralmarketing explicitlyDwarf/computers;omissionnotNoDuo",
+      "remaining": "ExactoriginalDuo compatiblepackage/buildandmodelarchitecture/CPUperformance;looper/synth applicability;LCDplacement;completeprofile",
+      "local_downloads": false
     }
   },
   "zoom_g5_additional_shopee_20261101": {
