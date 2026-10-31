@@ -133022,5 +133022,20 @@
     "status": "Named finish variant within partial X1 record; outside397active andconfirmedLCDlayout matches",
     "offer": "No exact qualified Shopee ID Neo item; NEO MUSIC X3/X5 are seller-name false matches",
     "next": "Seek exact original panel/socket documentation andqualifiedIDR;do nottransfer Neo LCDspecification silently towhiteX1. IndependentGT-Pro cursor preserved."
+  },
+  "fm3_switch_timing_looper_undo_20261031": {
+    "model": "FM3 MKII Turbo",
+    "checked": "2026-10-31",
+    "sources": [
+      "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+      "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf"
+    ],
+    "finding": "7.x covers MKII Turbo: Tap press withoutHold,release withHold;default0.50s timeout. Layout5 two looper views. June2023 guide: stopped Undo clearsall,playback Undo removes/restoreslatestlayer.",
+    "unknown": [
+      "firmware13 equivalence",
+      "preset/power-cycle loop retention",
+      "global EXP endpoints"
+    ],
+    "next": "Continue individualLCD exact-model gaps; independent BOSS GT-Pro cursor preserved."
   }
 }

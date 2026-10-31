@@ -392,6 +392,24 @@ Checked **2026-10-31**. [Own7.x FM3 manual,p104](https://www.fractalaudio.com/do
 
 EV-1 remains an accessory,outside processor counts. No local download orpedal operation.
 
+### FM3 — footswitch timing and stopped-loop Undo
+
+Checked **2026-10-31**. [Own7.x manual,printedpp79–80](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf),cover expressly including MKII Turbo;not a firmware13 hardware test.
+
+| Field | Documented behavior / qualification |
+|---|---|
+| Controls / Tap-Hold timing | Tap fires **on press when no Hold function exists**,but **on release when a Hold function is assigned**,provided release precedes the timeout. Hold fires at the timeout without firing Tap. Default **0.50seconds** is adjustable in FC Controllers→Config;an optional release-triggered Hold mode is also documented. LCD Tap/Hold labels alone do not establish identical action timing. |
+| Looper / factory layout | Layout5 first view: **Record,Play/Stop,Undo**;second view: **Once,Reverse,Half Speed**. Left/right Holds change views;middle Hold opens Master Layout Menu. These are factory assignments,not additional switches orguarantees of an unchanged user layout. |
+
+[Manufacturer June2023 Blocks Guide,pp50–51](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf),explicitly naming FM3,adds this state-dependent distinction:
+
+| Field | Looper-state boundary |
+|---|---|
+| Looper / Undo anderase | **Undo while stopped clears all loop data**. During playback it removes the latest layer;another Undo restores it. Separate Erase is available only while stopped. Do not treat Undo as harmless layer removal in every state. |
+
+Preset/power-cycle retention,current firmware equivalence andglobal EXP endpoints remain unresolved. No download,device operation orvisual inspection.
+
+
 ## FM9 MKII Turbo
 
 Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI seller item remains separate. Current product/store establish revision. Linked2022 manual covers original/Turbo but predates MKII display revision;historical physical figures below require current corroboration.
