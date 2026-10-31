@@ -129474,6 +129474,13 @@
         "pages": "97–98",
         "finding": "Touchscreen brightness separate from LCD1–5/AMP contrast;ECO is10-hour unused unit poweroff,not display-only sleep.",
         "remaining": "Auxiliary size/color/touch and numeric adjustment ranges unverified."
+      },
+      "master_and_eco": {
+        "checked": "2026-10-31",
+        "source": "https://zoomcorp.com/documents/461/E_G11v2.pdf",
+        "pages": "7,18–19",
+        "finding": "Master−infinity…+6dB,center0dB;patch retention;ECOdefaultON.",
+        "qualification": "Master knob not EXP assignment;panel screenshot returned no inspectable image,rotary count remains unresolved."
       }
     },
     "zoom_g3": {
