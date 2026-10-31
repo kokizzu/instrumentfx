@@ -131566,5 +131566,20 @@
     "limits": "Proprietary capture distinct from IR and NAM import; NAM export and architecture compatibility unverified",
     "status": "Partial lead; no active inventory admission",
     "next": "Continue LCD-first exact model gaps; AXOM mini-screen technology remains unconfirmed; independent BOSS GT-Pro cursor retained."
+  },
+  "fm9_usb_record_clock_20261031": {
+    "checked": "2026-10-31",
+    "record": "FRACTAL-AUDIO.md#fm9--historical-usb-recording-selectors-and-clock",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "scope": "August2022 firmware3.x Original/Turbo; printed pp26,29,94,96,128",
+    "findings": [
+      "Computer Input5 raw Instrument DI",
+      "Recording7/8 selects analog Input2 or Input3",
+      "Playback1/2 and3/4 output destinations swappable",
+      "USB Class2.0 8x8 fixed48kHz; valid48kHz S/PDIF external clock required",
+      "Four playback-pair trims -40 to+20dB"
+    ],
+    "remaining": "Current MKII/firmware12 equivalence and global analog EXP coverage of USB returns,phones,bypass and loops unverified",
+    "next": "Individual LCD models first; independent general BOSS GT-Pro cursor preserved"
   }
 }

@@ -455,6 +455,18 @@ Checked **2026-10-31**,[own FM9 manual][f9-m],August2022 firmware3.x,printedp100
 
 No device was operated or preset saved. The current support page still links this2022 manual;its newer factory9.02 package listing alone does not prove factory-filled count.
 
+### FM9 — historical USB recording selectors and clock
+
+Checked **2026-10-31**, [own manual][f9-m], August2022 firmware3.x Original/Turbo, printed pp26,29,94,96,128. Current MKII/firmware12 equivalence remains unverified.
+
+| Field | Documentation / qualification |
+|---|---|
+| USB / recording selectors | Re-amping tutorial records the unprocessed Instrument input on **computer Input5**, separately from processed1/2. **USB7/8 Record Source selects analog Input2 or Input3**. This fills the historical channel mapping omitted by the current product paragraph; do not infer a current MKII default. |
+| USB / playback and clock | USB Output Mapping can swap playback1/2 and3/4 between physical Out1 andOut2. USB Audio Class2.0,8×8,**fixed48kHz**; S/PDIF external clock requires a valid48kHz input stream. |
+| USB / level controls | Four playback-pair trims span **−40 to+20dB**. OUT1 hand control adjusts processed audio and computer playback together in the documented monitor setup. These controls do not prove global analog-EXP attenuation of USB returns,headphones,bypass or recorded loops. |
+
+No file downloaded, driver installed or device operated.
+
 ## VP4
 
 Admitted 2026-10-28 as a **partial model**, not fully verified. Own manufacturer product/manual establish effects-only guitar/bass multi-effects. All earlier lead-stage bodies and anchors remain below; their outside-inventory status is historical and superseded only by this admission. No ownership or live-market availability inferred.
