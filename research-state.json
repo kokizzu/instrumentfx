@@ -132749,5 +132749,10 @@
     "access": "Indexed original B3_E1 text;direct timed out",
     "finding": "Center-switch tuner and analog PRE path added;40/41 rhythm discrepancy preserved.",
     "limits": "No full-document,visual orhardware test."
+  },
+  "plethora_x5_midi_bypass_mash_20261031": {
+    "source": "https://cdn-media.empowertribe.com/c4ab468ba07f481080559bfc432c679c/PX5_3_MIDI_CC_table.pdf",
+    "finding": "Explicit slot bypass CC102–106 and MASH release mappings added;not master mute oranalog global volume.",
+    "limits": "Undated table;installed firmware andcoverage untested."
   }
 }

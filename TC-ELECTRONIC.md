@@ -662,6 +662,18 @@ Checked **2026-10-31** against [manufacturer release history](https://cdn-media.
 
 No device content changed, app installed or file downloaded; installed-version behavior remains untested.
 
+
+### PLETHORA X5 — explicit MIDI bypass and MASH release values
+
+Checked **2026-10-31**,[manufacturer-hosted X5/X3 MIDI table](https://cdn-media.empowertribe.com/c4ab468ba07f481080559bfc432c679c/PX5_3_MIDI_CC_table.pdf),one-page original. Linked through the current product documentation;undated table,installed firmware untested.
+
+| Field | Exact X5 mapping / qualification |
+|---|---|
+| MIDI / individual effect bypass | **CC102/103/104/105/106→slots1/2/3/4/5**;values0–63 turn the slot OFF,64–127 ON. Slots4/5 explicitly X5-only. These are individual effect states,not a documented whole-device mute orglobal volume command. |
+| Expression / MIDI MASH release | **CC70/75/80/85/90→slots1–5**;value**0=Off**,while**1–127→0–100%**. Releasing a modifier is distinct from muting audio;its assigned parameter determines the result. Physical pedal endpoints andbypass attenuation remain unverified. |
+
+The same table’s unusual CC100 range remains0–125→0–100%;126/127 behavior is unspecified. No analog-global-volume assignment inferred. No download ordevice operation.
+
 <!-- comparison evidence ends -->
 
 Variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers unresolved. No download or visual inspection claimed. All facts from own-model sources; no X3 specification substitution.
