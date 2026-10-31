@@ -4001,6 +4001,10 @@ Checked **2026-11-01**. The search-indexed [original English G5 manufacturer pag
 
 For frequency response, that English page specifies **20Hz–20kHz +1/−6dB into10kΩ**. The [Japanese original G5 manufacturer page](https://www.zoom.co.jp/ja/node/333) instead specifies **+1/−3dB** at the same load, agreeing with the existing reproduced manualp63. Preserve this manufacturer-language discrepancy; neither figure is a measurement here or evidence of a hardware revision. No downloads or device tests.
 
+### G5 — additional sold-out original-model hardware offer
+
+Checked **2026-11-01**: **Rp1.000.000; Habis**, seller **riechairunnisa**, Kab. Karawang, shop108443546/item24876132144, [exact “efek Zoom G5” hardware listing](https://shopee.co.id/efek-Zoom-G5-i.108443546.24876132144). Two-month search cache; direct reader returned cache miss. The cached text also says seven-day pre-order with stale September8–11 delivery; this does not override sold-out status or establish current checkout. Condition, working state, revision, adapter, bundle, warranty and voucher eligibility remain unknown. The late-delivery voucher is not an immediate purchase discount. Historical condition-unknown ask only, excluded from new/used ranges and completed-sale claims; older offers retained.
+
 ## G5n
 
 Reviewed **2026-10-17** after fresh exact Shopee hardware discovery. New catalogue record, no ownership assertion. Discontinued according to Zoom; reseller offers can remain historical. Partial: no software, firmware, manual file or dependency downloaded or installed. Official manual evidence below is search-indexed text, not a fresh PDF/image inspection.
