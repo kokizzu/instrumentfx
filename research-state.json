@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Remaining individualLCD processors: PLETHORA X3 currenteffect/looper documentation andqualifiedoffers;avoid repeating OutputVP retention sources withoutnew assignmentproof. G3n/G3Xn OutputVPscope remainsopen. Independent BOSS GT-Pro unchanged.",
+      "next_check": "Line6 Helix Floor: remaining exact3.80 category/physicalcontrol evidence andqualifiedhardwareoffers. X3 no-result primary-source recheck saved;looperduration/footBoardnavigation remainopen pendingnewdocumentation. Independent BOSS GT-Pro unchanged.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133421,5 +133421,42 @@
     "finding": "Launch amp2effectunits,cab1,total3 of7;separate DSP ceiling. ExactJPmanufacturer signed−119dBu inputnoise;English unsigned119dBu extraction preserved. JP5+15mWphones conflictsmanual15+15mW.",
     "limits": "No currentalgorithmcost extrapolation,physical headphone resolution ornew globalOutputVP proof. No downloads/device test.",
     "outputvp_recheck": "2020JPparameterlist alsoonlyretainedvolume wording/dashrange;alreadyknownENevidence notduplicated asnew capability."
+  },
+  "plethora_x3_unresolved_source_recheck_20261101": {
+    "model": "PLETHORA X3",
+    "checked": "2026-11-01",
+    "status": "No new capability or price admitted; keep existing partial profile.",
+    "readable_sources": [
+      "https://www.tcelectronic.com/en/products/0709-AIS",
+      "https://cdn-media.empowertribe.com/a7147f29903640918cc9bc9fc6e097dc/QSG_TE_0709-AIS_PLETHORA-X3_WW.pdf"
+    ],
+    "guide_identity": "V0.0,Copyright2022,35PDFpages;already saved source,rechecked original controlspp18-19.",
+    "outcome": "Current product andreadable guide do not establish looper duration,onboard foot-operated Board down/up ornew directanalogEXP hardware. X5-only1.2.18 remains excluded. No newmodel,fullyverifiedstatus orcomparisonchange.",
+    "unreadable_sources": [
+      {
+        "url": "https://cdn-media.empowertribe.com/11a41b397b5141299a2483e69ffb5b2d/QSG_TE_0709-AIS_PLETHORA-X3_JP.pdf",
+        "result": "Cache miss"
+      },
+      {
+        "url": "https://cdn-media.empowertribe.com/36cfe41bb57d45e1882f2ba3523fbdc6/QSG_TE_0709-AIS_PLETHORA-X3_JP.pdf",
+        "result": "Cache miss"
+      },
+      {
+        "url": "https://cdn-media.empowertribe.com/ac297fc7b3e84982ac9d5b4d86ba708b/QSG_TE_0709-AIS_PLETHORA-X3_CN.pdf",
+        "result": "Cache miss"
+      },
+      {
+        "url": "https://cdn-media.empowertribe.com/53e18ddcd3874272981ee15497327d14/QSG_TE_0709-AIS_PLETHORA-X3_WW.pdf",
+        "result": "Cache miss"
+      },
+      {
+        "url": "https://mediadl.musictribe.com/media/PLM/data/docs/P0EB4/PLETHORA-X3_QSG_EN.pdf",
+        "result": "Indexed original snippet readable;direct502,not fullguide recovery."
+      }
+    ],
+    "offers": "ExactShopee158235298/28021818540 still6180000 fourmonthcache;306155985/23943061836 still7508100 sixmonthcache/serviceunavailable. No newcondition,stock orcheckout evidence.",
+    "next": "Require newlyreadable exactX3 manufacturer documentation toclose these gaps;avoid repeating current product/QSG asnew findings. Continue otherindividualLCD models.",
+    "downloads": false,
+    "hardware_test": false
   }
 }
