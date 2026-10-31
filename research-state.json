@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Nano Cortex: exact current analog-expression global-volume scope, endpoints/recall and output/bypass/tail/loop coverage. Fresh LCD discovery remains prioritized when new exact-model evidence appears; no new LCD model admitted this pass. Independent BOSS GT-Pro cursor unchanged.",
+      "next_check": "Actual M-VAVE external controller wiring: identify exact documented controller/pedal combination before compatibility claims; revisit GP-50/HX/GT-1000CORE remaining exact documentation. Nano global scope remains unresolved; avoid repeating unchanged LEVEL sources as new findings. Preserve independent BOSS GT-Pro cursor.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133328,6 +133328,11 @@
       "file": "HOTONE.md",
       "model": "Ampero Mini MP-50",
       "heading": "### Ampero Mini — numbered panel versus lock-button wording"
+    },
+    {
+      "file": "NEURAL-DSP.md",
+      "model": "Nano Cortex",
+      "heading": "### Nano Cortex — USB channel directions and output-mute exception"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -133594,5 +133599,15 @@
     "scope": "Individual-LCD processor search, including Shopee Indonesia",
     "result": "No additional manufacturer-backed exact model admitted; existing HX Effects, Helix, Fractal and Zoom hits were duplicates. Generated third-party claims of eight HX Effects LCDs rejected against existing six-strip primary evidence.",
     "next": "Do not repeat completed LCD passes without new sources; continue unresolved no-treadle audit."
+  },
+  "nano_usb_routes_mute_boundary_20261101": {
+    "model": "Nano Cortex",
+    "checked": "2026-11-01",
+    "source": "https://neuraldsp.com/manual/nano-cortex",
+    "revision": "NanOS2.2.0 HTML; selected Host Monitoring and Device Settings prose.",
+    "finding": "USB directions and analog-output mute exception recorded; global EXP scope remains unverified.",
+    "release_check": "Current public update index still leads with2.2.1 dated2025-12-10; not installed-version evidence.",
+    "downloads": false,
+    "hardware_test": false
   }
 }

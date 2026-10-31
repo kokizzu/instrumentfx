@@ -233,6 +233,18 @@ Checked **2026-10-31**, [manufacturer HTML manual,NanOS2.2.0](https://neuraldsp.
 
 Global LEVEL assignment across presets,held-pedal recall,andbypass/headphone/tail coverage remain unresolved. No download,installation ordevice test.
 
+### Nano Cortex — USB channel directions and output-mute exception
+
+Checked **2026-11-01**, [official NanOS2.2.0 HTML manual](https://neuraldsp.com/manual/nano-cortex), Host Monitoring and Device Settings. Channel numbers below use the **DAW viewpoint**.
+
+| Field | Documented route / boundary |
+|---|---|
+| USB / recording and reamp | DAW **Input1 records dry instrument;Input3/4 records processed stereo**. DAW **Output3 feeds Nano INPUT for reamping**. The inspected prose does not identify recording channel2;no capture-input route inferred. |
+| USB / analog monitoring mute | **Mute Guitar Input** removes analog input from the processing chain while USB dry recording remains active. **Mute Guitar Output** suppresses processed guitar at1L/2R but **DAW playback still passes through**. This is not an all-audio output mute. |
+
+Neither route establishes expression attenuation of computer playback orheadphones. The conflicting LEVEL lists andacross-preset assignment verdict remain unresolved. No download ordevice operation.
+
+
 ## Quad Cortex
 
 Partial record checked **2026-10-17**. Full Quad Cortex,distinct from Nano Cortex andQuad Cortex mini. Product page advertises CorOS4.1.0;current web manual identifies4.1.1. Seller firmware unverified.
