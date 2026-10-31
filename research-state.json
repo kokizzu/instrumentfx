@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Zoom G3n/G3Xn: exact current effect-library andOutputVP insertion scope;prioritize resolving a material capability gap overrepeating calibration/recall. ToneMasterGuideH/currentIR limitsremainopen. Independent BOSS GT-Pro unchanged.",
+      "next_check": "Remaining individualLCD processors: PLETHORA X3 currenteffect/looper documentation andqualifiedoffers;avoid repeating OutputVP retention sources withoutnew assignmentproof. G3n/G3Xn OutputVPscope remainsopen. Independent BOSS GT-Pro unchanged.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133288,6 +133288,11 @@
       "file": "FENDER.md",
       "model": "Tone Master Pro",
       "heading": "### Tone Master Pro — firmware1.5 routing-template census"
+    },
+    {
+      "file": "ZOOM.md",
+      "model": "G3n",
+      "heading": "### G3n — launch unit costs and signed noise-source qualification"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -133407,5 +133412,14 @@
     "finding": "Complete12-template name census:4instrument,3micline,5combined. Fixedsplitter;changingtemplate repopulatesblocks. Upper/lower/USB1/2 independently assignheadphones/out1/out2.",
     "qualification": "Historicalrouting,not currentGuideH/library census orglobal EXPall-source coverage. No download/device test.",
     "next": "Remaining confirmedindividualLCD processors;qualifiedShopee hardware. Preserve independentBOSSGT-Pro cursor."
+  },
+  "g3n_unit_cost_noise_20261101": {
+    "sources": [
+      "https://www.zoom.co.jp/sites/default/files/press-release-pdfs/G3n_G3Xn_leaflet.pdf",
+      "https://www.zoom.co.jp/ja/node/749"
+    ],
+    "finding": "Launch amp2effectunits,cab1,total3 of7;separate DSP ceiling. ExactJPmanufacturer signed−119dBu inputnoise;English unsigned119dBu extraction preserved. JP5+15mWphones conflictsmanual15+15mW.",
+    "limits": "No currentalgorithmcost extrapolation,physical headphone resolution ornew globalOutputVP proof. No downloads/device test.",
+    "outputvp_recheck": "2020JPparameterlist alsoonlyretainedvolume wording/dashrange;alreadyknownENevidence notduplicated asnew capability."
   }
 }
