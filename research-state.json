@@ -131465,5 +131465,48 @@
     "common_limits": "No current stock/checkout,revision,working condition,bundle,adapter,warranty,delivered total verified;vouchers not deducted",
     "visual_access": "No browsers available;manufacturer top image not visually inspected. No full control-count inference.",
     "next": "Continue LCD-first Zoom G3n/B3n unresolved global volume and control fields;independent general BOSS GT-Pro cursor retained."
+  },
+  "g3n_chart_census_20261031": {
+    "checked": "2026-10-31",
+    "record": "ZOOM.md#g3n--2020-chart-census-and-outputvp-scope",
+    "source": "https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf",
+    "revision": "2020 Z2I-2808-02; G3n explicitly included;all6pages",
+    "counts": {
+      "Dynamics": 10,
+      "Filter": 14,
+      "Drive": 24,
+      "Modulation": 23,
+      "SFX": 4,
+      "Delay": 17,
+      "Reverb": 15,
+      "Pedal": 18,
+      "Amp": 16,
+      "Cabinet": 16
+    },
+    "effect_amp_cab_rows": 157,
+    "looper_variants": 4,
+    "rhythm_rows": 1,
+    "total_rows": 162,
+    "difference_from_2017": [
+      "DIST Plus",
+      "VioletDST",
+      "Zen O.DRV",
+      "Duo Phase",
+      "HotSpice",
+      "SlwAtkDly",
+      "SoftEcho",
+      "HoldVerb",
+      "OutputVP"
+    ],
+    "dsp": {
+      "budget": 100,
+      "OutputVP": 3,
+      "PDLVol": 4,
+      "mono_looper": 7,
+      "stereo_looper": 10,
+      "Rhythm": 8
+    },
+    "remaining": "OutputVP all-preset assignment,position/endpoints,bypass/phones/tail/loop coverage; current pool andhardware/price gaps retained",
+    "next": "B3n exact-model unresolved fields; independent BOSS GT-Pro general cursor retained."
   }
 }

@@ -3216,6 +3216,18 @@ Checked 2026-10-31 against the manufacturer’s [German G3n/G3Xn manual](https:/
 The specification table repeats **119dBu without a minus sign** for equivalent input noise; earlier unit/sign qualification remains unresolved. English PDF size failure does not make this a new firmware revision.
 
 
+### G3n — 2020 chart census and OutputVP scope
+
+Checked **2026-10-31** against all six pages of the [manufacturer processing chart](https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf),©2020,Z2I-2808-02. Its heading explicitly includes **G3n**,with100DSP points. G5n3.0 wording does not assign that firmware number to G3n.
+
+| Field | Evidence / qualification |
+|---|---|
+| Categories / later chart census | Dynamics10,Filter14,Drive24,Modulation23,SFX4,Delay17,Reverb15,Pedal18,Amp16,Cabinet16: **157 entries**,plus four looper variants andRhythm gives **162 chart rows**. Not a simultaneous-block orinstalled-library total. |
+| Categories / difference from2017 list | Nine additions:Drive **DIST Plus,VioletDST,Zen O.DRV**;Modulation **Duo Phase**;SFX **HotSpice**;Delay **SlwAtkDly,SoftEcho**;Reverb **HoldVerb**;Pedal **OutputVP**. Label word order is normalized from reversed extraction. Earlier148-entry census stays dated. |
+| Expression / OutputVP cost | OutputVP costs **3DSP points**,versusPDL Vol4. Mono loopers cost7,stereo10,andRhythm8. Listed costs do not establish OutputVP placement,endpoints,bypass,phones/tail/loop coverage orassignment across every preset. |
+
+No local download,installation orhardware operation. Later Guitar Lab additions remain separate from this2020 document census.
+
 ## G3X
 
 Original guitar multi-effects with expression; distinct from G3 and G3Xn. Manufacturer marks discontinued. Checked2026-10-17; partial. Bass/vocal suitability and ownership unestablished.
