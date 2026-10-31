@@ -685,6 +685,27 @@ Checked **2026-10-31**,[manufacturer-hosted X5/X3 MIDI table](https://cdn-media.
 
 The same table’s unusual CC100 range remains0–125→0–100%;126/127 behavior is unspecified. No analog-global-volume assignment inferred. No download ordevice operation.
 
+
+### PLETHORA X5 — distributor-qualified firmware1.5.6 pedal census
+
+Checked **2026-10-31**,[ELECTORI exact X5 product page](https://www.electori.co.jp/tc-electronic/product.php?id=plethora-x5). Its list explicitly names **firmware1.5.6**. This supplements the manufacturer release history;it is distributor evidence,not independent manufacturer certification orinstalled-unit inspection.
+
+| Number | Named pedal | Number | Named pedal |
+|---|---|---|---|
+|1|Hall of Fame2 Reverb|9|HyperGravity Compressor|
+|2|Flashback2 Delay|10|Viscous Vibe|
+|3|Corona Chorus|11|Helix Phaser|
+|4|Brainwaves Pitch Shifter|12|Shaker Vibrato|
+|5|Quintessence Harmony|13|Sub'N'Up Octaver|
+|6|Infinite Sample Sustainer|14|Vortex Flanger|
+|7|Pipeline Tap Tremolo|15|Alter Ego Vintage Echo|
+|8|Sentry Noise Gate|16|Mimiq Doubler|
+
+| Field | Count basis / qualification |
+|---|---|
+| Categories / distributor1.5.6 census | **16 named TonePrint pedal types**,listed above. The same page describes **Tape Deck Looper separately**,so16 does not encompass every utility orprocessing choice. TonePrint variations are not additional pedal types;maximumfive simultaneous remains separate. Primary complete firmware-qualified catalogue andseller-installed contents remain unverified. |
+| Memory / distributor capacity | Page retains **127 Boards and75 TonePrints per pedal** alongside its1.5.6 list. This is additional regional evidence,not a firmware-specific capacity test;the current manufacturer’s unquantified unlimited-board wording remains a source difference. Factory-filled subset unresolved. |
+
 <!-- comparison evidence ends -->
 
 Variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers unresolved. No download or visual inspection claimed. All facts from own-model sources; no X3 specification substitution.
