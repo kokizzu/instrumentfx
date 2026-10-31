@@ -130550,6 +130550,12 @@
       ],
       "correction": "192kHz claim also in manufacturer p33, versus48kHz p57; not solely distributor discrepancy.",
       "finding": "Root now records directional USB channel routing and contextual FS8/9 navigation. Playback bypasses chain; attenuation unknown."
+    },
+    "plethora_x5_assignment_scope_20261031": {
+      "source": "https://manuals.plus/m/fab495897f61212f13d7fd3403d4a371bcb2d147dc9c72fd72db55684cdb91f7",
+      "revision": "Manufacturer release text1.3.6,2022-01-13",
+      "finding": "BOARD menu path independently supports assignment scope. Modifier priority/recovery and EXP-to-volume Hot Knob fix added to root.",
+      "limits": "Not global-volume assignment/range/recall. Installed firmware unknown."
     }
   },
   "gt_pro_global_patch_level_20261031": {
