@@ -131256,5 +131256,18 @@
     "mic_scope": "3.50 guitar12/bass12 overlapping sets; current3.80 equivalence unverified",
     "record": "LINE6.md#helix-floor--380-ampcab-census-and-microphone-scopes",
     "next": "Helix Floor exact power and factory occupancy; keep LCD priority and independent BOSS GT-Pro cursor."
+  },
+  "helix_floor_power_restore_20261031": {
+    "checked": "2026-10-31",
+    "record": "LINE6.md#helix-floor--mains-rating-and-factory-restore-boundaries",
+    "sources": [
+      "https://kb.line6.com/power-supply-battery-specs-and-faq",
+      "https://line6.com/data/6/0a06439cb91a5609df67966ca/application/pdf/Helix%2520Owners%2520Manual%2520REV%2520B%2520-%2520English%2520%2520Rev%2520B%2520.pdf",
+      "https://line6.com/support/page/kb/effects-controllers/helix/helixhx-380-release-notes-r1079/"
+    ],
+    "voltage_ac": "100–240V",
+    "frequency_hz": "50–60; historical firmware1.00 manual",
+    "remaining": "Wattage/current,current label,factory-filled count,remaining LCD specifications; no device operation",
+    "next": "Continue individual LCD-model unresolved fields; independent BOSS GT-Pro cursor retained."
   }
 }

@@ -312,7 +312,7 @@ Checked **2026-10-17**. Original Helix Floor; distinct from LT,Rack and Stadium.
 | Synth / acoustic simulation | Manufacturer3.80 model page confirms **Acoustic Sim** and**3 OSC Synth**;generator versus polyphonic pitch restrictions are recorded in the [census](#helix-floor--complete-380-effect-category-census). Not borrowed from LT. [Cheat sheet][HF-S] |
 | IR / NAM / capture | User IRs supported;older manufacturer FAQ **128 slots, 1024/2048 points, up to 4 simultaneous DSP-permitting**. Native NAM, converted NAM, proprietary capture loading **?**;Stadium Proxy not inferred. [FAQ][HF-Q] |
 | Audio/control I/O | Guitar/active-instrument AUX;XLR mic with 48 V;4 send/return pairs;stereo XLR and¼″TS mains;stereo phones;VDI;EXP2/3;ExtAmpTRS;CV/EXPout;DIN MIDI in/out-thru;RCA S/PDIF in/out;AES/EBU/L6 LINK out;USB;groundedAC. Exact remaining jack types/USB connector pending manual. [Cheat sheet][HF-S], [Floor product][HF-P] |
-| Power / battery / USB | Grounded AC in confirmed;voltage/frequency/current **?**. DC polarity N/A. Battery/USB-powered operation **?**;USB interface does not prove bus power. [Cheat sheet][HF-S] |
+| Power / battery / USB | Grounded **100–240V AC** confirmed by current manufacturer supply FAQ;original Floor RevB manual specifies **50–60Hz**. Wattage/current draw andcurrent hardware-label corroboration remain **?**. [Rating sources](#helix-floor--mains-rating-and-factory-restore-boundaries). DC polarity N/A. Battery/USB-powered operation **?**;USB interface does not prove bus power. [Cheat sheet][HF-S] |
 | Editor / USB audio | **HX Edit** editor distinct from Helix Native plugin/updater;Mac/Windows documented; Listing checked2026-10-31: **HX Edit3.82,2024-12-03**,Windows10/11;Mac labels include Catalina,BigSur,Monterey,Ventura,Sonoma,Sequoia,Tahoe plus generic MacOSX and “Golden Gate”;these labels are not a tested minimum-version matrix. Hardware listing **3.80.0,2024-11-19**,not editor3.82. [Current listing][HF-DS]. **8-in/8-out,24-bit/up to 96 kHz**,DI/reamp/MIDI;iPad with camera adapter. [Cheat sheet][HF-S], [Floor product][HF-P], [Software][HF-D] |
 | Looper / snapshots / routing | One looper per preset. Manufacturer KB gives **60 s mono/30 s stereo at full speed**, doubled at half speed. Across presets, KB requires matching mono/stereo type, path and footswitch assignment; indexed Floor manual additionally specifies matching 6 Switch/1 Switch/Shuffle model. Shuffle has no half-speed extension. Retention and drums **?**. [Looper KB][HF-L], [Indexed Floor manual][HF-M0] 8snapshots;true preset spillover uses only 2 paths per current product. Mic processing supports vocal membership; intelligent vocal harmony is unverified. [FAQ][HF-Q], [Floor product][HF-P] |
 
@@ -369,6 +369,18 @@ Checked **2026-10-31** in the [manufacturer3.80 model tables](https://line6.com/
 | Processing / cab controls | Same3.50 notes give mic distance **1–12inches in¼-inch steps**,angle **0°/45°**,andlateral position. Dual Cab linking defaults ON;disabling it permits independently chosen cabs. These are cab parameters,not extra effects blocks oronboard capture capability. |
 
 Together with the separate274-effect/three-looper census,this resolves published model-table counting,not installed content orDSP-guaranteed concurrency. Power,factory occupancy andremaining LCD specifications remain open. No local download ordevice operation.
+
+### Helix Floor — mains rating and factory-restore boundaries
+
+Checked **2026-10-31**. No power-up,reset,backup restoration ordownload performed.
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| Power / mains input | [Current supply FAQ](https://kb.line6.com/power-supply-battery-specs-and-faq) explicitly lists **Helix Floor:100–240V AC**. [Original Floor manual RevB,firmware1.00,printedp2](https://line6.com/data/6/0a06439cb91a5609df67966ca/application/pdf/Helix%2520Owners%2520Manual%2520REV%2520B%2520-%2520English%2520%2520Rev%2520B%2520.pdf) specifies **50–60Hz** andgrounded mains. Cover/control inventory match original Floor,not Rack/Control. Wattage/current draw andcurrent hardware-label verification remain unknown;Rack’s100W marking is not transferred. |
+| Memory /3.80 factory content versus backup | [Own3.80 release notes](https://line6.com/support/page/kb/effects-controllers/helix/helixhx-380-release-notes-r1079/) say factory reset loads new factory presets,while subsequent backup restoration overwrites them. Excluding the first setlist during restore retains the new FACTORY1 content. These are content-management rules,not an exact factory-filled count,additional memory capacity orpermission to reset an actual unit. |
+| Memory / global reset distinction | Original RevB printedp41 expressly says resetting Global Settings leaves user presets unaffected. This does not describe full factory reset orprove preservation ofIRs under other reset modes. Historical firmware scope retained. |
+
+The current1,024-location capacity remains separate from unresolved factory occupancy. Battery/USB-powered operation is unverified;USB audio functionality does not establish supply capability. LCD diagonal/touch andvisual strip-count corroboration remain open.
 
 <!-- comparison evidence ends -->
 
