@@ -78,6 +78,7 @@ These match the separate-display layout, with OLED technology rather than LCD.
 | Brand / model | Display-layout status | Record / next check |
 |---|---|---|
 | TC Electronic **PLETHORA X1** — partial | One display/one MASH switch; ELECTORI specifies **1-inch IPS LCD**, with primary technology and placement corroboration pending | [Exact 0709-AJN partial lead](TC-ELECTRONIC.md#plethora-x1--partial-discovery-lead); [regional evidence](TC-ELECTRONIC.md#plethora-x1--own-firmware-history-and-regional-display-evidence). 74×122 mm footprint; no analog EXP socket documented. Outside active counts and confirmed LCD matches. |
+| TC Electronic **PLETHORA X1 Neo** — finish variant,partial | Own exact0709-AMO page specifies **1-inch IPS LCD** andone MASH switch;placement,color/touch remain unverified | [Variant evidence](TC-ELECTRONIC.md#plethora-x1-neo--manufacturer-confirmed-finish-variant). Manufacturer calls it black-finish X1;not another active model orconfirmed individual-switch-layout match. Exact IDR offers unknown. |
 | MELOFTY **AXOM MAX** | **Footswitch/pedal mini screens documented**; exact count, placement and LCD/OLED technology unresolved | [Partial discovery record](MELOFTY.md#axom-max--partial-discovery-lead). Separate7-inch color touchscreen confirmed; [capture and memory workflows](MELOFTY.md#axom-max--manufacturer-memory-and-capture-workflows) now manufacturer-backed. [Recovered quick-guide navigation qualifications](MELOFTY.md#axom-max--recovered-quick-guide-navigation-boundaries). Partial; outside active counts. |
 
 ## Foot controllers

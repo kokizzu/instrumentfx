@@ -133011,5 +133011,16 @@
     "finding": "PASSIVE direct passive guitar; ACTIVE active guitar or upstream effects pedal. XLR POST after effects, PRE before effects. Balanced ground LIFT/CONNECT separate from bypass.",
     "qualification": "Original manufacturer text only; established G5 identity. No claim of volume mapping coverage at PRE/headphones or separate active input impedance.",
     "next": "Continue individual footswitch LCD models; independent BOSS GT-Pro cursor preserved."
+  },
+  "plethora_x1_neo_variant_20261031": {
+    "checked": "2026-10-31",
+    "model": "PLETHORA X1 Neo",
+    "manufacturer_id": "0709-AMO",
+    "source": "https://www.tcelectronic.com/id/products/0709-AMO",
+    "regional_source": "https://www.electori.co.jp/tc-electronic/product.php?id=plethora-x1-neo",
+    "finding": "Manufacturer explicitly same X1 black finish; own page confirms 1-inch IPS LCD, one MASH, seven dual-slot boards and14 stored TonePrints. Regional16type list conflicts with14feature andmanufacturer count.",
+    "status": "Named finish variant within partial X1 record; outside397active andconfirmedLCDlayout matches",
+    "offer": "No exact qualified Shopee ID Neo item; NEO MUSIC X3/X5 are seller-name false matches",
+    "next": "Seek exact original panel/socket documentation andqualifiedIDR;do nottransfer Neo LCDspecification silently towhiteX1. IndependentGT-Pro cursor preserved."
   }
 }

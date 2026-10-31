@@ -446,6 +446,27 @@ Checked **2026-10-31**. [Manufacturer X1 release history](https://cdn.mediavalet
 
 Partial status and397 active records unchanged. Exact Indonesian offer discovery and full profile verification remain required.
 
+### PLETHORA X1 Neo — manufacturer-confirmed finish variant
+
+Checked **2026-10-31**. [Exact manufacturer0709-AMO page](https://www.tcelectronic.com/id/products/0709-AMO),search-indexed yesterday;direct fetch cache miss. Manufacturer explicitly describes the **same X1 in a black finish**,retaining14 effects andone-switch operation. Preserve the Neo identifier andexact sources here,without adding another active model orborrowing sibling offer prices.
+
+| Field | Neo-specific evidence / boundary |
+|---|---|
+| Display / controls | Own page expressly specifies **1-inch IPS LCD**,one MASH footswitch andthree universal parameter knobs. Screen shows type/parameters. Color,touch,exact screen-to-switch placement andcomplete rotary/button count remain unverified;three is not a complete control census. |
+| Memory / software | Own page: **seven boards ×two slots =14 stored TonePrints**,A/B selection by holding the footswitch. Not14 simultaneous blocks. Seven named factory types;not proof of every slot’s occupancy. Firmware1.1.13 andTonePrint4.7.2 Windows/macOS listed;current device installation untested. |
+| I/O / expression | Own page confirms stereo I/O,USB/Bluetooth editing,MASH andanalog dry-through,true/buffered bypass. MASH is not direct analog external expression;complete socket inventory,USB audio/power/MIDI andglobal volume scope need exact documentation. |
+
+[Exact ELECTORI Neo page](https://www.electori.co.jp/tc-electronic/product.php?id=plethora-x1-neo),direct text checked separately,qualifies regional evidence:
+
+| Field | Regional evidence / conflict |
+|---|---|
+| Body / power | **74W×122D×50Hmm;0.34kg**;fits preferred footprint. Regional9V centre-negative250mA,5.5/2.1mm,adapter separate;**battery unavailable**. Supply requirement versus measured draw remains unresolved. |
+| Categories / revision | Regional heading andenumerated list give **16 types**,including Infinite andAlter Ego;the same page retains14 inits feature bullet. Own manufacturer says14. Preserve discrepancy;not a reconciled installed census or16 concurrent effects. |
+| Expression / modes | Regional MASH mapping reaches **three parameters simultaneously**. Its seven mode names include MOMENTARY+MASH;not seven physical switches orproof of across-preset external volume. |
+
+**Separate new/used IDR offers:unknown.** Exact Shopee Indonesia Neo/0709-AMO searches yielded no qualified item;NEO MUSIC listings are X3/X5 sold by that shop,not X1 Neo hardware. No currency conversion,download,device operation orvisual inspection. Partial X1 status and397 active records unchanged.
+
+
 ## PLETHORA X3
 
 Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified.
