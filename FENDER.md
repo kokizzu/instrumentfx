@@ -396,3 +396,15 @@ Checked **2026-10-31** in the [manufacturer Model Guide 1.2.55, Rev B](https://m
 | Categories / historical amp descriptions | **12+12+3=27 named descriptions**, not an exact selectable-version count. Bassbreaker’s description specifies three versions: low, medium and high gain. Combo/half-stack models also have head-only versions. Paired cabinets and alternate presentations are not automatically additional independent amp algorithms. |
 
 Retain historical FBE100 naming; later Forge renaming is separately documented. This does not establish current amp totals, concurrency or installed contents. No downloads or hardware test.
+
+### Tone Master Pro — remaining historical named effect lists
+
+Checked **2026-10-31**, [manufacturer Model Guide 1.2.55, Rev B](https://manuals.plus/m/d661a03ee5f2fdaec47d00be1862b903155245a8345018b802c063be4985be26). These complete the named lists behind the historical census, not current firmware coverage.
+
+| Category / pages | Complete historical choices |
+|---|---|
+| Categories / Stompbox (21), pp22–32 | Boost; Ranger Boost; Blues Maker; Royal Tone; Enchanter; Greenbox; Mythic Drive; Nashville Overdrive; Tube OD; Orangebox; Hardclip Distortion; Maximus Drive; Pugilist Distortion; Rodent; Big Green Fuzz; Big Horn Fuzz; Round Fuzz (Germanium); Round Fuzz (Silicon); Vari Fuzz; Octave Fuzz; Octobot. |
+| Categories / Modulation (21), pp33–43 | Tube Bias Tremolo; Harmonic Tremolo; Optical Tremolo; Tremolo; JC Chorus; JC Vibrato; Vibratone; Universe Vibe; Rotary Speaker 122; Rotary Speaker 147; Flanger Mono; Flanger Stereo; ’70s Flanger; Electric Flanger; Phaser 90; Phaser; Chorus Mono; Chorus Stereo; 3D Chorus; Tripledouble Chorus; Orbit Stereo Panner. |
+| Categories / Reverb (14), pp51–57 | ’63 Spring Reverb; ’63 Spring Reverb Convolution; ’65 Spring Reverb; ’65 Spring Reverb Convolution; Large Hall Reverb; Small Hall Reverb; Large Plate Reverb; Large Room Reverb; Modulated Large Hall Reverb; Modulated Small Hall Reverb; Cloud Reverb; Celestial Reverb; Nebula Reverb; Shimmer Reverb. |
+
+Together with the earlier Delay, Dynamics+EQ and Filter+Pitch lists, all **91 historical effect names** are recorded. Current names, additions and category splits remain separately qualified. No download or device test.
