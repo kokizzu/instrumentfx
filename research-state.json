@@ -133731,5 +133731,34 @@
     "release_check": "Current public update index still leads with2.2.1 dated2025-12-10; not installed-version evidence.",
     "downloads": false,
     "hardware_test": false
+  },
+  "lcd_priority_checkpoint_20261101": {
+    "instruction": "Prioritize individual LCDs at effect footswitches before OLED/shared screens/controllers.",
+    "checked": "2026-11-01",
+    "discovery": {
+      "candidate": "Harley Benton DNAfx GiT Advanced",
+      "source": "https://harleybenton.com/product/dnafx-git-advanced/",
+      "result": "Manufacturer product describes a large display; no primary individual-foot-switch LCD evidence recovered. Not admitted to individual-LCD collection."
+    },
+    "rechecks": [
+      {
+        "model": "Zoom G5",
+        "source": "https://zoomcorp.com/media/documents/G5_operationManual_english.pdf",
+        "result": "Indexed search did not resolve numeric LCD contrast or USB connector subtype. No specification changed."
+      },
+      {
+        "model": "Zoom G5n",
+        "source": "https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf",
+        "result": "Four unit LCDs plus Overview already recorded; no new USB-channel answer recovered."
+      },
+      {
+        "model": "Zoom G11",
+        "source": "https://zoomcorp.com/documents/3432/G11_FirmwareVersionHistory_ver210_en.pdf",
+        "result": "2.10 February2025 bank-name/scroll fixes already recorded; no new firmware finding."
+      }
+    ],
+    "next": "Continue fresh exact-model individual-LCD discovery; reopen G5/G5n/G11 gaps with new primary evidence. Keep global-volume and visual blockers explicit. Independent BOSS GT-Pro cursor preserved.",
+    "downloads": false,
+    "new_model_admissions": 0
   }
 }
