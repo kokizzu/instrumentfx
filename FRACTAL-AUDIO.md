@@ -1052,13 +1052,19 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, not fully ve
 | IR / NAM / capture | **1,024 userIR slots**; FM9-Edit explicitly imports.wav/.ir alongside.syx transfers. NativeNAM,convertedNAM andproprietary capture-import workflows unverified. [Turbo-covered p108](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Editor / platforms | FM9-Edit **1.03.22,August25,2026**:macOS10.13+,Intel/M1;Windows10+64-bit. Windows7 unsupported; separate32-bit link not a support guarantee. Later architectures/mobile editing unknown. Presets/scenes/blocks/library/footswitch editing separate fromdrivers/updater. [Current manufacturer listing](https://www.fractalaudio.com/fm9-edit/). |
 | Firmware / drivers | **12.0,July7,2026**,explicit Original/Turbo compatibility. Windows driver6.16,June10,2026,forWindows10+x86/x64/ARM;legacy7/8 uses5.12. Driver support noteditor support. Installed versions untested. [Manufacturer listing](https://www.fractalaudio.com/fm9-downloads/). |
-| Looper / drums / live | Dated stereo looper,max120s;Undo while stopped erases all;Playback Undo removes/restores last layer. Record2ndPress Overdub/Play/Stop,tempo quantization. Retention/current revision/global-volume coverage unknown. Drums andexact onboard preset down/up unknown;default banks step five presets. [June2023 guide pp50–51](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf);[manual p9](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
+| Looper / drums / live | Dated stereo looper,max120s;Undo while stopped erases all;Playback Undo removes/restores last layer. Record2ndPress Overdub/Play/Stop,tempo quantization. Retention/current revision/global-volume coverage unknown. Drums unknown. **Configurable onboard preset−1/+1 supported**;factory pair andcurrentfirmware untested. [Turbo-applicable navigation](#fm9-turbo--configurable-onboard-preset-navigation);default banks step five presets. [June2023 guide pp50–51](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf);[manual p9](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Used IDR | No exact pre-MKII Turbo condition-confirmed Shopee offer established by2026-11-01 search. |
 | New IDR | No exact pre-MKII Turbo condition-confirmed Shopee offer established. Search returned MKII Turbo hardware;its ask is not transferred. Original/MKI title withconflictingFM3slug remains revision-unresolved,not a Turbo quote. [Existing full offer qualification](#fm9-original--partial-lcd-discovery). Unknown is not unavailable. |
 
 <!-- comparison evidence ends -->
 
 No files,software,firmware,IRs ordependencies downloaded; no device operation. Partial admission does not certify current installed behavior, stock, ownership or complete market coverage. Older source tables, prices and revision qualifications remain unchanged.
+
+### FM9 Turbo — configurable onboard preset navigation
+
+Checked **2026-11-01**. The [3.x August2022 manual](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf) explicitly covers Original andTurbo anddirects readers on printedp18 to the shared Footswitch Functions Guide. That [manufacturer guide,v1.3,April2022,pp2,5–6](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Footswitch-Functions-Guide.pdf) covers FM9 onboard assignments:Preset Inc/Dec provides−1/+1,wrap andlower/upper limits. This applicability chain establishes configurable sequential navigation forpre-MKII Turbo without borrowing MKII hardware specifications.
+
+Assign through EZ orEdit Layout/Switch. Mini labels offer current/destination names,numbers,custom text orstep action. Neither guide proves a dedicated untouched factory down/up pair orcurrentfirmware12 behavior. Physical LCD count remains nine;global expression coverage andpreset mapping behavior remain separately qualified. No download ordevice operation.
 
 ## VP4
 

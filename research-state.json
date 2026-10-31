@@ -137228,5 +137228,14 @@
     "revision": "v1.3;April2022;pp2,5–6",
     "destination": "FRACTAL-AUDIO.md#fm3-original--configurable-preset-navigation-and-mapping",
     "qualification": "Explicit onboard FM3 scope;mapping caveat retained without resolving sourceboundary wording. Factory pair,currentfirmware andexpression coverage untested."
+  },
+  "fm9_turbo_preset_navigation_20261101": {
+    "status": "configurable capability documented;partial",
+    "sources": [
+      "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+      "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Footswitch-Functions-Guide.pdf"
+    ],
+    "destination": "FRACTAL-AUDIO.md#fm9-turbo--configurable-onboard-preset-navigation",
+    "qualification": "ExplicitTurbo-covered manual references sharedfunctions;not inferred fromMKII hardware. Factory pair,currentfirmware andglobalvolume coverage remain untested."
   }
 }
