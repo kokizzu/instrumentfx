@@ -8,6 +8,7 @@
 - [AM4](#am4)
 - [FC-6 Mark II and FC-12 Mark II — controllers](#fc-6-mark-ii-and-fc-12-mark-ii--controllers)
 - [FM3 MKII Turbo](#fm3-mkii-turbo)
+- [FM3 original — partial historical LCD discovery](#fm3-original--partial-historical-lcd-discovery)
 - [FM9 MKII Turbo](#fm9-mkii-turbo)
 - [VP4](#vp4)
 <!-- brand-index ends -->
@@ -439,6 +440,14 @@ Checked **2026-11-01**, [manufacturer Blocks Guide,June2023,pp4–6](https://www
 | Expression / remaining coverage | This narrows the meaning of block bypass;it does not specify global pedal attenuation while bypassed. Direct USB playback remains separately routed,so output-block mute does not certify universal headphone/USB silence. |
 
 No download ordevice operation. Global-volume numeric endpoints andanalog held-position recall remain unresolved.
+
+## FM3 original — partial historical LCD discovery
+
+Checked **2026-11-01**; **partial lead outside active model counts**. Separate original hardware from MKII Turbo. [Fractal’s April23,2019 announcement](https://www.fractalaudio.com/fm3-old/) explicitly documents **three footswitches,each with a mini LCD**,plus a color main screen. Variable-color LED rings do not establish LCD color;mini diagonal,resolution andtouch remain unknown. Eight switch layouts are software configurations,not extra screens.
+
+The announcement describes a normal instrument input,4×4USB audio,two pedal/switch jacks,FM3-EDIT andFractal-Bot. These are historical claims,not current firmware or global analog-volume proof. The [manufacturer timeline](https://www.fractalaudio.com/about/) dates announcement toApril2019 andshipping toFebruary2020;announcement is not the shipping date. Complete original-revision controls,ports,headphone hardware variants,memory,power,dimensions,category census andvolume behavior still require model-specific review. MKII screen dimensions andperformance are not transferred.
+
+**IDR revision-unverified hardware lead:** [Shopee shop1435419712/item29175380674](https://shopee.co.id/Fractal-Audio-Systems-Fm3-Amp-Modeler-And-Multi-Fx-%28Ready-Stock%29-i.1435419712.29175380674),behaviouristy,Kab.Banyuwangi,**Rp29.030.000**,five-month index;shipping service unavailable. GenericFM3 title does not establish original versusMKII,condition orcurrent stock despite“Ready Stock”. Bundle,adapter,warranty,working state andcheckout total unknown;excluded from exact-revision new/used ranges. Earlier placement as an original-FM3 offer is therefore qualified,not confirmation of its revision. No local download,visual inspection,purchase ordevice operation.
 
 ## FM9 MKII Turbo
 

@@ -130781,6 +130781,11 @@
       "finding": "Buffered bypass trails/spillover;killdry removesdirectpath;MASHpressureLED,A/Bcontrol andnamedtapapplicability. Not guarantee ofA/Btransitiontails orInfiniteKillDry.",
       "active": false,
       "remaining": "PrimarywhiteX1LCDtech/placement,fullprofile andexactIDR stillunresolved;Neo evidence not transferred."
+    },
+    "fm3_original": {
+      "root": "FRACTAL-AUDIO.md#fm3-original--partial-historical-lcd-discovery",
+      "status": "ConfirmedindividualLCDlayout;partialhistoricalprofile,notactive",
+      "next": "Complete original-revision profile andheadphone variants,controls,power/dimensions,memory,categories/global analog volume before active admission. KeepMKII physical specs separate."
     }
   },
   "gt_pro_global_patch_level_20261031": {
@@ -133923,6 +133928,25 @@
     "range_eligible": false,
     "qualification": "Historical ask; working state,revision,bundle,adapter,warranty andcheckout unknown. Voucher not deducted.",
     "remaining": "USB channels,power alternatives,separate-button count andLCD diagonal/color/touch remain unknown; earlier manufacturer sources did not resolve them.",
+    "downloads": false
+  },
+  "fm3_original_lcd_discovery_20261101": {
+    "checked": "2026-11-01",
+    "active": false,
+    "fully_verified": false,
+    "root": "FRACTAL-AUDIO.md#fm3-original--partial-historical-lcd-discovery",
+    "primary": "https://www.fractalaudio.com/fm3-old/",
+    "finding": "April23,2019 exact original-model announcement confirms3individual miniLCDs,one perfoot;maincolor screen separate. MiniLCD color,touch,size notconfirmed.",
+    "lifecycle": "https://www.fractalaudio.com/about/ confirmsApr2019announcement/Feb2020shipping.",
+    "offer": {
+      "source": "https://shopee.co.id/Fractal-Audio-Systems-Fm3-Amp-Modeler-And-Multi-Fx-%28Ready-Stock%29-i.1435419712.29175380674",
+      "ask_idr": 29030000,
+      "revision": "Unknown;genericFM3 title",
+      "condition": "Unknown",
+      "stock": "Five-monthindex;serviceunavailable;ReadyStock title notliveproof",
+      "range_eligible": false
+    },
+    "next": "Complete original-revision profile andheadphone variants,controls,power/dimensions,memory,categories/global analog volume before active admission. KeepMKII physical specs separate.",
     "downloads": false
   }
 }
