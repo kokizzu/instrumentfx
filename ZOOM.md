@@ -1798,6 +1798,19 @@ Checked **2026-10-31**,[manufacturer B3_E1 brochure reproduction](https://cdn-do
 
 No local download orhardware test.
 
+### B3 — exact FAQ switch mapping and repeated effects
+
+Checked **2026-11-01** in the [original manufacturer B3 FAQ](https://www.zoom.co.jp/node/709),direct text readable;exact B3 heading,not B3n.
+
+| Field | Manufacturer clarification / qualification |
+|---|---|
+| Looper / rhythm entry gesture | Start rhythm with RHYTHM;press **footswitch3** toreturn Home;then **hold footswitch3 forone second** toenter Looper. Note-valued TIME synchronizes phrase recording torhythm. This resolves that control’s missing manual icon,not every looper gesture orpreset-change continuity. |
+| Live / foot-operated tap | FAQ expressly excludes onboard footswitch tap tempo fordelay/modulation;requires external **FS01**. The panel TAP key is separate. |
+| Processing / repeated types | **Three instances ofthe same effect** are permitted;FAQ illustrates threedelays withdifferent settings. Existing three-block/DSP limits remain;not proof every costly combination fits. |
+| Memory / rhythm retention | Rhythm **pattern,tempo andlevel** automatically survive power-off. These are settings,not phrase-audio storage;the existing power-off loop-erasure rule remains. |
+
+No local download orhardware operation. Current firmware behavior,remaining switch mappings andqualified new/used offers stay unresolved.
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified historical hardware ask

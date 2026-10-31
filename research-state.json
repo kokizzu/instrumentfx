@@ -133052,5 +133052,18 @@
       "installed firmware"
     ],
     "next": "ContinueLCD-first exactmodel documentation andqualifiedShopee discovery; independentBOSS GT-Pro cursor unchanged."
+  },
+  "b3_exact_faq_live_20261101": {
+    "model": "Zoom B3",
+    "checked": "2026-11-01",
+    "source": "https://www.zoom.co.jp/node/709",
+    "finding": "Exact footswitch3 returns Home from rhythm andhold1s activateslooper;FS01required forfoot tap,not onboardFS. Three sameeffect instances allowedwithinDSP;rhythmsettings retainedafterpoweroff,notloopaudio.",
+    "unknown": [
+      "other symbolic gestures",
+      "current firmware behavior",
+      "preset loop continuity",
+      "qualified new/used offers"
+    ],
+    "next": "ContinueindividualLCD gaps andexactShopee discovery; preserve independentGT-Pro cursor."
   }
 }
