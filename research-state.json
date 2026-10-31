@@ -133946,7 +133946,18 @@
       "stock": "Five-monthindex;serviceunavailable;ReadyStock title notliveproof",
       "range_eligible": false
     },
-    "next": "Complete original-revision profile andheadphone variants,controls,power/dimensions,memory,categories/global analog volume before active admission. KeepMKII physical specs separate.",
+    "next": "Complete original hardware/headphone variants,memory/category inventory andremaining volume endpoints/recall/coverage. No active admission.",
+    "downloads": false
+  },
+  "fm3_original_manual_followup_20261101": {
+    "checked": "2026-11-01",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+    "revision": "7.x;cover explicitly Standard+MKII",
+    "root": "FRACTAL-AUDIO.md#fm3-original--shared-manual-global-volume-and-hardware-scope",
+    "global_assignment": true,
+    "physical_fit": false,
+    "active": false,
+    "next": "Complete original hardware/headphone variants,memory/category inventory andremaining volume endpoints/recall/coverage. No active admission.",
     "downloads": false
   }
 }

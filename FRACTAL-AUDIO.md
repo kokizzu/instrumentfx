@@ -449,6 +449,18 @@ The announcement describes a normal instrument input,4×4USB audio,two pedal/swi
 
 **IDR revision-unverified hardware lead:** [Shopee shop1435419712/item29175380674](https://shopee.co.id/Fractal-Audio-Systems-Fm3-Amp-Modeler-And-Multi-Fx-%28Ready-Stock%29-i.1435419712.29175380674),behaviouristy,Kab.Banyuwangi,**Rp29.030.000**,five-month index;shipping service unavailable. GenericFM3 title does not establish original versusMKII,condition orcurrent stock despite“Ready Stock”. Bundle,adapter,warranty,working state andcheckout total unknown;excluded from exact-revision new/used ranges. Earlier placement as an original-FM3 offer is therefore qualified,not confirmation of its revision. No local download,visual inspection,purchase ordevice operation.
 
+### FM3 original — shared-manual global volume and hardware scope
+
+Checked **2026-11-01** in the [manufacturer 7.x manual](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf), whose cover explicitly includes Standard and MKII Turbo. This follow-up resolves selected earlier gaps; the profile remains partial.
+
+| Field | Documented scope |
+|---|---|
+| Direct global volume | pp12–13: two TRS inputs accept linear10–100kΩ pedals. SETUP→MIDI/Remote→Other assigns PEDAL1/2 to Input1/2 or Output1/2 Volume without preset edits. Input changes drive; output scales tails. Avoid double-assigning the pedal as an External Controller. Calibration is separate. |
+| Physical / controls | p140: **281W×236D×103H mm;3.22kg;8 knobs,12 buttons**. Five knob presses are included,not extra buttons. The original launch separately documents three footswitches. No visual census. |
+| Power | p140: **90–264VAC,47–63Hz,<40W**. CR2032 is backup,not operating-battery proof. DC polarity and adapter-current figures do not apply to this AC specification. USB-powered operation remains unverified. |
+
+Numeric volume endpoints,held-position recall,bypass,headphone,USB andrecorded-loop coverage remain unresolved. Headphone hardware variants still need primary confirmation. No local download orhardware test;current installed firmware untested.
+
 ## FM9 MKII Turbo
 
 Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI seller item remains separate. Current product/store establish revision. Linked2022 manual covers original/Turbo but predates MKII display revision;historical physical figures below require current corroboration.
