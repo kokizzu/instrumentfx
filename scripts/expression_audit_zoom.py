@@ -22,5 +22,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): document B3 complete delay choices and timing limits'
+        message='research(zoom): reconcile B3n factory grouping and marked additions'
     print(git('commit','-m',message))

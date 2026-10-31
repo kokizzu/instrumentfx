@@ -132597,5 +132597,19 @@
       "Send/Main pan and level carryover fix; not global expression assignment"
     ],
     "next": "Continue individual-LCD processor gaps; current installed behavior and global volume coverage remain unverified. Independent BOSS GT-Pro cursor unchanged."
+  },
+  "b3n_starred_addition_reconciliation_20261031": {
+    "checked": "2026-10-31",
+    "model": "Zoom B3n",
+    "source": "https://zoomcorp.com/media/documents/E_B3n_FX-list_3.pdf",
+    "revision": "2017 Z2I-2890-02; pp2–16",
+    "old_summary": "| Categories / choices | Product67stomp effects:19dynamics/filter,15drive/distortion,17modulation,11delay/reverb,and other effects;five amps+five cabs. Manual80types. Category wording and total scope differ;remaining categories not guessed from subtraction. Effect-sheet SFX section lists six:Bomber,StdSyn,SynTlk,Z-Syn,Defret,PH+Dist. | [SFX sheet](https://zoomcorp.com/media/documents/E_B3n_FX-list_3.pdf); [Product](https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/); [manual](https://zoomcorp.com/media/documents/E_B3n.pdf) |",
+    "old_census_qualification": "Counts include documented additions; installed contents and base/addition split remain unverified.",
+    "old_remaining": "Full F/B counts,explicit display specifications,all category choices and revision totals,synth/acoustic architecture,complete wiring/exclusions,IR/NAM/capture workflows,power alternatives,USB audio status,scenes/tails and condition-specific current offers. No sibling specifications substituted.",
+    "starred_additions": 12,
+    "unstarred_entries": 77,
+    "product_reconciliation": "67 stomp effects plus five amps and five cabinets =77. Twelve starred additions yield89 parameter-sheet entries. Product modulation17 combines11 modulation+six SFX.",
+    "limits": "Manual80-type scope, later Effect Pool and installed library remain unresolved. Images provided no inspectable visual data; headphone-layout conflict remains.",
+    "next": "Continue individual-LCD models; do not repeat B3n 67-versus89 as unexplained. Independent BOSS GT-Pro cursor unchanged."
   }
 }
