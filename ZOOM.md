@@ -3323,6 +3323,27 @@ Checked **2026-11-01**, [manufacturer shared G3/G3X operation manual,printedpp14
 
 The exact usedShopee item28976797436 still appears sold out atits historical ask;no refreshed live condition orstock established. USB/control connector subtypes,visual control census andexpression bypass/headphone/tail coverage remain unverified. No download orhardware operation.
 
+### G3 — exact older-patch delay migration limits
+
+Checked **2026-11-01**, [manufacturer Edit&Share manual,Edit&Share-Manual-E-5,printedp12](https://zoomcorp.com/media/documents/EditShare_Operation_Manual_English_2.pdf). Its exact migration direction is **G3≤1.12 patches imported intoG3≥2.00**. Numeric delay settings above these limits are clamped. This expands the earlier warning;it is not a firmware-independent limit for every model.
+
+| Effect / parameter | Over-limit value before import | Resulting maximum |
+|---|---:|---:|
+| Delay / Time |≥2501|2500|
+| AnalogDly / Time |≥2501|2500|
+| ReverseDL / Time |≥1251|1250|
+| MultiTapD / Time |≥2501|2500|
+| StereoDly / TimeL,TimeR |≥1001|1000|
+| Dly+Rev / DlyTime |≥1501|1500|
+
+The [shared G3/G3X parameter list,printedpp52–53,55](https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf) independently corroborates the corresponding numeric maxima. It labels the combined effect’s parameter **DlyTm**,while the editor migration table uses**DlyTime**;preserve that spelling distinction. Musical-note glyphs in the migration table are not reliably extracted here,so no additional synchronized-note mapping is inferred.
+
+| Field | Qualification |
+|---|---|
+| Editor / migration fidelity | Six documented delay-parameter caps can change imported older G3 patches. Successful import doesnot prove identical timing orsound;newer/current editor compatibility remains untested. |
+
+No patch imported,software downloaded ordevice operated. Physical control census,USB/control connector subtypes andglobal-volume coverage remain unresolved.
+
 <!-- comparison evidence ends -->
 
 Multi-model Hope Music listing G3/G3X/G3XN, shop703817770/item11099808237, showed Rp1,899,000–2,699,000 across five unresolved variations. Not assigned to G3. [Listing](https://shopee.co.id/Efek-Zoom-G3-G3X-G3XN-i.703817770.11099808237).
