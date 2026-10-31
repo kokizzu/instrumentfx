@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Line6 Helix Floor: remaining exact3.80 category/physicalcontrol evidence andqualifiedhardwareoffers. X3 no-result primary-source recheck saved;looperduration/footBoardnavigation remainopen pendingnewdocumentation. Independent BOSS GT-Pro unchanged.",
+      "next_check": "FM9 MKII Turbo: remaining exact-model analog volume range/recall, LCD control and qualified Indonesia hardware evidence. Helix Floor label limits saved; category/amp/cab census already complete. Preserve independent BOSS GT-Pro cursor.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133293,6 +133293,11 @@
       "file": "ZOOM.md",
       "model": "G3n",
       "heading": "### G3n — launch unit costs and signed noise-source qualification"
+    },
+    {
+      "file": "LINE6.md",
+      "model": "Helix Floor",
+      "heading": "### Helix Floor — editable LCD labels and multi-action visibility"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -133456,6 +133461,17 @@
     ],
     "offers": "ExactShopee158235298/28021818540 still6180000 fourmonthcache;306155985/23943061836 still7508100 sixmonthcache/serviceunavailable. No newcondition,stock orcheckout evidence.",
     "next": "Require newlyreadable exactX3 manufacturer documentation toclose these gaps;avoid repeating current product/QSG asnew findings. Continue otherindividualLCD models.",
+    "downloads": false,
+    "hardware_test": false
+  },
+  "helix_floor_lcd_label_limits_20261101": {
+    "model": "Helix Floor",
+    "checked": "2026-11-01",
+    "source": "https://manualzz.com/doc/81729721/line-6-helix-owner-s-manual",
+    "identity": "3.80 RevG 90-20-0358-G ©2024; previously qualified Floor reproduction.",
+    "pages": "51,55–56,63–65",
+    "finding": "LCD labeling and multi-action limits recorded in root model and display collection.",
+    "remaining": "Power draw, factory occupancy, USB connector subtype and visual corroboration remain unknown.",
     "downloads": false,
     "hardware_test": false
   }

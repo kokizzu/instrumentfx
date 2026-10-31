@@ -481,6 +481,19 @@ Checked **2026-10-31** in the [manufacturer manual reproduction](https://manualz
 
 No download,device operation orvolume change. Power draw,factory occupancy andremaining LCD specifications stay open.
 
+
+### Helix Floor — editable LCD labels and multi-action visibility
+
+Checked **2026-11-01** in the [qualified original3.80 RevG manual reproduction,pp51,55–56,63–65](https://manualzz.com/doc/81729721/line-6-helix-owner-s-manual). Original document text;host summaries excluded.
+
+| Field | Practical display limit |
+|---|---|
+| Display / custom labels | Stomp labels can be edited;LED-ring color is separately selected anddoes not establish LCD color. Up to8assignments per switch. |
+| Display / snapshot names | Maximum10characters;names andLED colors persist only after saving the preset. |
+| Display / multi-action commands | HX Snapshot/Looper press-release orpress-hold assignments show **only the press action** onthe stomp label/LED. Command Center custom-label option is unavailable forHX Preset,Snapshot andLooper commands. |
+
+No download orhardware test.
+
 <!-- comparison evidence ends -->
 
 ### Helix Floor provenance and gaps
