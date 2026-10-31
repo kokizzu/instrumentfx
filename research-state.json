@@ -129656,6 +129656,13 @@
       "revision": "June2023,pp50–51",
       "finding": "FM3 explicitly120s maximum;stereo;separate playback/dry/overdub levels;requires preset Looper block.",
       "remaining": "Speed/quality basis,firmware13,continuity,retention and global-volume attenuation unverified."
+    },
+    "fm3_ir_workflow": {
+      "checked": "2026-10-31",
+      "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+      "revision": "7.x,pp2,111,118",
+      "finding": "Broad format list differs from.syx transfer chapter;SYSTEM excludes presets/cabs;16scratchpads.",
+      "remaining": "Direct per-format support,current firmware13 and rate/length limits unverified."
     }
   }
 }
