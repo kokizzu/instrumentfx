@@ -137924,5 +137924,17 @@
     "remaining": "M-VAVE electrical compatibility,host input tolerance,global analog target,endpoints,recall andoutput coverage remain unverified.",
     "downloads": false,
     "hardware_test": false
+  },
+  "tone_master_locale_backup_20261101": {
+    "checked": "2026-11-01",
+    "sources": {
+      "us": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+      "uk": "https://support.fender.com/hc/en-gb/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates"
+    },
+    "locale_difference": "US heads1.8.58 July15,2026;UK heads1.8.45 June3,2026. Prior generic English access-time explanation now qualified by exactlocale.",
+    "backup": "1.3.74 June3,2024 adds up to25 local microSD backups via User Preferences;not25preset slots. Current US warns downgrades unsupported andmayrequire reset.",
+    "remaining": "Completebackupcontents,loopaudio,crossversionrestore andmicroSDformat/capacity notverified;LCDphysicalspecs/globalanalogvolumegapsremain.",
+    "downloads": false,
+    "hardware_test": false
   }
 }
