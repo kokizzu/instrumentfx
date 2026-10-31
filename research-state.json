@@ -137015,5 +137015,28 @@
     },
     "next": "Continue individualLCD exact-model gaps ahead of shared/OLED/controllers; independent general GT-Pro cursor preserved.",
     "downloads": false
+  },
+  "g5n_independent_usb_recording_lead_20261101": {
+    "model": "Zoom G5n",
+    "checked": "2026-11-01",
+    "source": "https://www.dtmstation.com/archives/51971906.html",
+    "source_kind": "Original firsthand independent recording test;not manufacturer documentation",
+    "published": "2016-02-24",
+    "page_revised": "2021-08-13",
+    "reported": [
+      "2-in/2-out interface to DAW",
+      "effect-processed stereo guitar recording",
+      "AUX input excluded from recorded signal",
+      "onboard Rhythm included in recording"
+    ],
+    "qualification": "Firmware anddriver versions unspecified;historical observation only. No local download,test orsoftware operation. Not promoted to manufacturer-verified/current capability.",
+    "remaining": [
+      "manufacturer-confirmed channel count androuting",
+      "current firmware/driver behavior",
+      "dry/reamping/loopback modes",
+      "USB power",
+      "complete separate-button census"
+    ],
+    "next": "Manufacturer corroboration for exact G5n;retain individualLCD priority andindependent general GT-Pro cursor."
   }
 }
