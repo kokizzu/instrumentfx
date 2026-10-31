@@ -4436,6 +4436,18 @@ Checked **2026-10-31**,original [manufacturer V2 manual](https://zoomcorp.com/do
 | MIDI / receive limits (V2) | Implementation chartp105 marks **CC0–127 transmitted butnot recognized**;program changes are recognized. Do not treat MIDIIN as a documented CC-volume orremote-effect-toggle input. This is the V2 chart’s boundary,not a tested claim about every later firmware. |
 | MIDI / forwarding andtempo (V2) | MIDI IN-THRU optionally forwards DIN input tooutput;forwarding is not local CC recognition. Clock receive/send are separately switchable. BANK/DIRECT governs program-change reception;DIRECT is for controllers unable tosend bank messages. Exact500-patch addressing remains unverified. |
 
+### G11 — V2 rhythm continuity, tuner and return levels
+
+Checked **2026-11-01**, [manufacturer V2 manual](https://zoomcorp.com/documents/461/E_G11v2.pdf),©2021,Z2I-3886-02;PDFpp57–59,63–65,104 (one-based PDF numbering). Text only,not a current-device test.
+
+| Field | Revision-qualified finding / limit |
+|---|---|
+| Practice / rhythm continuity | Rhythm keeps playing after Home return while selecting patches orusing the looper. **Tempo40–250** is shared byeffects andlooper;rhythm level separately spans **0–100**. This does not establish rhythm attenuation byexternal expression orall-output mute coverage. |
+| Tuner / reference andflat limits | Middle-A calibration **435–445Hz**. Chromatic andsix named string-tuning modes are documented;flat offsets **one,two orthree semitones** are unavailable inCHROMATIC. Tuner’s mute control is not a documented global pedal-volume assignment. Exact footswitch icons remain uncorroborated. |
+| I/O / return input ratings | Each RETURN:**−20dBu rated,1MΩ**;instrument INPUT:**−20dBu,500kΩ**;AUX:**−10dBu,10kΩ**. These are input ratings,not maximum unclipped levels oroutput impedances. |
+
+Existing USB/headphone ratings,looper capacity andauxiliary-LCD unknowns remain. No download orhardware operation.
+
 <!-- comparison evidence ends -->
 
 ### G11 — complete original finding and unresolved control-count conflict

@@ -133078,5 +133078,20 @@
       "exact offer18280216311 still inaccessible"
     ],
     "next": "ContinueLCD-first sources;generalGT-Pro cursor preserved."
+  },
+  "g11_rhythm_tuner_input_ratings_20261101": {
+    "model": "Zoom G11",
+    "checked": "2026-11-01",
+    "source": "https://zoomcorp.com/documents/461/E_G11v2.pdf",
+    "identity": "©2021 Z2I-3886-02,106PDFpages",
+    "pages": "PDF57–59,63–65,104 (one-based)",
+    "finding": "RhythmcontinuouswhileHome/patchselection/looper;tempo40–250shared,rhythmlevel0–100;A4 435–445Hz,flat1–3semitones excludesCHROMATIC;RETURN1MΩ−20dBu",
+    "unknown": [
+      "expression rhythm attenuation",
+      "auxiliaryLCDdiagonal/color/touch",
+      "currentinstalledcontent",
+      "fullphysicalcount"
+    ],
+    "next": "ContinueLCDfirst exactmodel gaps;independentBOSS GT-Pro cursor unchanged."
   }
 }
