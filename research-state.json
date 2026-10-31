@@ -132115,5 +132115,29 @@
       "Modern OS compatibility"
     ],
     "next": "Continue individual-LCD model gaps before OLED/shared/unconfirmed screen models; independent general cursor remains BOSS GT-Pro"
+  },
+  "g5n_catalogue_footswitch_count_20261031": {
+    "checked": "2026-10-31",
+    "model": "Zoom G5n",
+    "source": {
+      "url": "https://zoomrussia.ru/manuals/FX_Catalog_2019_E.pdf",
+      "identity": "Effects and Preamps2019;Zoom Corporation copyright;January2019,printedUnitedStates",
+      "scope": "Indexed original PDF table and publication imprint only;not complete PDF or visual inspection",
+      "access": "Direct reader rejects29578666-byte file;manufacturer-host candidate paths inaccessible"
+    },
+    "finding": "Own catalogue exact G5n column reports9foot switches;manual separately identifies expression-pedal switch",
+    "superseded_summary_row": "| K/F/B | **20 rotary / ? footswitches / ? separate buttons**. Text-derived subtotal: four units ×four parameter knobs plus CONTROL,MASTER LEVEL,BOOST,TONE (pp3–5). Encoder press is not a separate button. Four effect switches plus TAP are not the complete footswitch count; no visual count claimed. | [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) ; [V2 manual pp3–5](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |",
+    "qualifications": [
+      "Separate buttons still unresolved",
+      "No tenth standalone chassis footswitch inferred from pedal switch",
+      "No visual count,download orhardware operation"
+    ],
+    "remaining": [
+      "Visual corroboration and separate-button census",
+      "Screen diagonal,color andtouch",
+      "USBchannels/routing andpower operation",
+      "Condition-qualified new Shopee offer"
+    ],
+    "next": "Continue remaining individual-foot-LCD models before OLED/shared/unconfirmed candidates;BOSS GT-Pro independent general cursor unchanged"
   }
 }

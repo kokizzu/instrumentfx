@@ -3663,7 +3663,7 @@ Reviewed **2026-10-17** after fresh exact Shopee hardware discovery. New catalog
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | Built-in pedal; FP01/FP02 external control input in V2 manual; product page offers FP02M. **Toe-down switches pedal effect ON/OFF** (p46). **EXT PDL assigns the second selected pedal effect to the external pedal**, enabling two pedal effects (p29); external toe behavior remains unverified. | [Toe instruction](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G5n-V2.0.pdf); [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf); [product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) |
-| K/F/B | **20 rotary / ? footswitches / ? separate buttons**. Text-derived subtotal: four units ×four parameter knobs plus CONTROL,MASTER LEVEL,BOOST,TONE (pp3–5). Encoder press is not a separate button. Four effect switches plus TAP are not the complete footswitch count; no visual count claimed. | [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) ; [V2 manual pp3–5](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
+| K/F/B | **20 rotary / 9 footswitches (published catalogue count) / separate buttons unresolved**. Rotary subtotal:four units×four parameter knobs+CONTROL,MASTER LEVEL,BOOST,TONE. Zoom’s January2019 catalogue explicitly lists9 for G5n;the manual separately names the expression-pedal switch,so do not count it as a tenth standalone chassis switch. Encoder press counted once;visual/button census pending. | [V2 manual pp3–5](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf);[manufacturer-authored2019 catalogue,regional mirror](https://zoomrussia.ru/manuals/FX_Catalog_2019_E.pdf) |
 | Display | Four 128×32 LCD Unit Displays plus one 256×32 Overview LCD. Each unit combines its display, four parameter knobs and a footswitch (V2 pp3–5); extra navigation switches do not imply extra screens. Published diagonals, explicit monochrome/color and touch ? | [V2 manual, p.58](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
 | Dimensions / weight | **454 W ×225 D ×75 H mm;3.4 kg**. Large; plug/pedal clearance additional. | [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
 | Processing | Up to **nine effects**, reorderable; V2 improves DSP efficiency. **V3 DSP budget100 points**; effect costs differ. Exceeding DSP or unit limits triggers PROCESS OVERFLOW and bypasses effects; remove/change effects to recover. Exact per-category totals ? | [V3 chart](https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf); [V2 manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf); [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) |
@@ -3889,6 +3889,12 @@ Four looper types are documented: mono/stereo, each in one-unit or two-unit form
 
 USB channel count, dry recording, loopback and reamping remain unverified after an exact-model support/manual recheck; original G5 specifications are excluded. No local download or device operation.
 
+
+### G5n — manufacturer catalogue footswitch count
+
+Checked **2026-10-31**: [Zoom’s Effects and Preamps2019 catalogue](https://zoomrussia.ru/manuals/FX_Catalog_2019_E.pdf),regional distributor-hosted original,identifies copyright Zoom Corporation,January2019,printed in the United States. Its G3n/G3Xn/G5n comparison explicitly gives **G5n nine footswitches**. Exact-model row and publication identity were read through indexed PDF text;direct reader rejected the29.6MB document,so no complete-document or visual inspection is claimed. Manufacturer-host guesses were inaccessible.
+
+This resolves the published total only. The [own V2 manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) separately identifies the treadle’s switch;its construction and a complete separate-button count remain outside this result. Four Unit LCDs are not a nine-screen claim. Earlier unknown-count statements above record the prior evidence limit and are superseded only for the catalogue-reported footswitch total. No local download or device operation.
 
 ## G6
 
