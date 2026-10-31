@@ -137835,5 +137835,19 @@
     "page_index": 3,
     "result": "web screenshot tool returned string reference only; no image payload available to forward or inspect",
     "scope": "No visual control-count verification. Do not use generated visual descriptions or infer counts from inaccessible pixels."
+  },
+  "g5_dsp_external_volume_20261101": {
+    "source": "https://www.manuallib.com/download/pdf1/ZOOM-G5-MANUAL.PDF",
+    "identity": "Manufacturer-authored original G5 manual; previously qualified exact-model reproduction",
+    "printed_pages": [
+      10,
+      11,
+      18,
+      19
+    ],
+    "finding": "DSP FULL bypasses all effects; OFF retains processing cost; THRU or different effects are remedies. Four LCDs form a scrolling chain window. FP01/FP02 external volume is explicit, but its all-preset assignment and output coverage remain unverified.",
+    "remaining": "External volume endpoints, recall and coverage; USB connector subtype, separate button census and exact qualified hardware offers.",
+    "downloads": false,
+    "hardware_test": false
   }
 }
