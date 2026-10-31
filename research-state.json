@@ -132735,5 +132735,13 @@
     "finding": "Exact FAQ closes USB-power and channel-count gaps;1.20 original history recovered.",
     "access": "FAQ indexed only;direct502. PDF original body read.",
     "limits": "Battery and current installed behavior remain unresolved."
+  },
+  "famc_proplus_pending_lcd_20261031": {
+    "root": "FAMC.md#liquid-foot-pro--pending-controller-lead",
+    "status": "Pending controller only;outside confirmed LCD matches andactive counts",
+    "manufacturer_source": "https://manualzz.com/doc/27981410/famc-pro--user-manual",
+    "seller_lead": "https://www.amusicstoreonmainstreet.com/shop/Electronics/Effects-PedalsProcessors/p/Used-FAMC-Liquid-Foot-Series-Pro-MIDI-Foot-Contoller.htm",
+    "next": "Verify exact Pro+ physical display census in original manufacturer documentation;do not transfer12+ values.",
+    "shopee": "No qualified exact hit;not proof of absence."
   }
 }

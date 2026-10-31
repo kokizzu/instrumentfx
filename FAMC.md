@@ -24,3 +24,11 @@ Same archived manufacturer guide,printed pp9,41:
 - **EXP PDL Resend defaults No** and is a per-preset option to retransmit current continuous-controller pedal values. It does not establish automatic host volume assignment across presets.
 
 No powered connection orhardware test performed;current firmware behavior remains unverified.
+
+## Liquid Foot Pro+ — pending controller lead
+
+Checked **2026-10-31**;distinct from original Liquid Foot Pro and12+. [Manufacturer LF+ manual reproduction](https://manualzz.com/doc/27981410/famc-pro--user-manual),printedpp5,18,85,explicitly names Pro+ anddescribes shared interface/display functions. Undated document;host’s Pro+ title alone does not certify model-specific physical specifications. Its18-page interface description still numbers only1–12;that is not a full Pro+ hardware census.
+
+[Exact Pro+ used-hardware seller](https://www.amusicstoreonmainstreet.com/shop/Electronics/Effects-PedalsProcessors/p/Used-FAMC-Liquid-Foot-Series-Pro-MIDI-Foot-Contoller.htm) claims **24 switches with individual multicolored LCDs**,plus main LCD. Treat count,placement andtechnology as **seller leads**,not manufacturer verification. Its supply/editor claims are likewise unadopted. No foreign price converted to IDR.
+
+Manufacturer product endpoint was inaccessible;targeted Shopee Indonesia searches found no qualified exact offer. This does not establish market absence. Remaining:primary exact-model screen census,dimensions/weight,power,complete ports,current editor/firmware andcondition-qualified IDR hardware offers. Controller only;outside active processor/brand counts andconfirmed-LCD table. No local download ordevice test.
