@@ -138157,5 +138157,30 @@
     "finding": "Volume Increment/Decrement changes MAIN1dB pertrigger andsaves currentpreset including unrelated unsaved parameter/bypass changes. MomentaryCC127on/0off;manualwarns expression sweep canchange20dB,not a continuousglobalrange.",
     "remaining": "Continuous global endpoints,held-position recall,bypass/directUSB coverage stillunverified;nohardwaretest.",
     "active_counts_changed": false
+  },
+  "ampero_mini_named_analog_pedal_20261101": {
+    "checked": "2026-11-01",
+    "sources": [
+      "https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf",
+      "https://hotoneaudio.oss-cn-shenzhen.aliyuncs.com/prod/support/Ampero%20Press_Manual_EN_V01.1649233215371.pdf"
+    ],
+    "finding": "Mini V2.2 names Ampero Press; exact SP-30 original manual distinguishes10kEXP TRS output from100k audio-volume potentiometer. Mini handmaster covers all outputconnections,not proof ofEXP outputcoverage.",
+    "remaining": "No visual schematic/wiper confirmation orM-VAVE test;global volume override andheld-position recall remainunverified.",
+    "active_counts_changed": false
+  },
+  "lcd_priority_access_checkpoint_20261101": {
+    "checked": "2026-11-01",
+    "finding": "No new exact individual-LCD audio processor established in this pass. Known X5 offer and primary TRS wording repeated;do not count asnew specification evidence.",
+    "sources": [
+      "https://www.tcelectronic.com/en/products/0709-AIK",
+      "https://mediadl.musictribe.com/media/PLM/data/docs/P0D9M/QSG_TE_0709-AIK_PLETHORA-X5_JP.pdf"
+    ],
+    "specific_limits": [
+      "X5 global-volume override,endpoints,held-position recall andwiper stillunresolved;regional TS versusprimary TRS conflict retained.",
+      "No enabled apps orbrowser surfaces available forvisual panel/manual inspection.",
+      "Exact used-X5 Shopee search returned onlyexisting NEO item158235298/27271818642;nonewcondition-qualified offer."
+    ],
+    "next": "Continue LCD gaps when neworiginal evidence isavailable;remaining independent no-treadle audit canprogress without declaring LCD models complete.",
+    "general_cursor_preserved": true
   }
 }
