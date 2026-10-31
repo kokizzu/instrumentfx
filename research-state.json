@@ -132052,5 +132052,18 @@
     ],
     "correction": "Current overview now reflects saved116-model census and separates manual LCD proof from current product display wording; no new model or physical count",
     "next": "Continue LCD-first unresolved model fields and marketplace discovery; independent GT-Pro cursor retained"
+  },
+  "b3n_ambiguous_offer_exclusion_20261031": {
+    "url": "https://shopee.co.id/Efek-Pedal-Bass-Zoom-B3-B3N-not-NUX-Boss-MXR-i.65245619.17399777546",
+    "ask_idr": 1700000,
+    "stock": "Cached Habis",
+    "identity": "B3 versus B3n unresolved",
+    "seller_labels": {
+      "search": "TrueByFuzz",
+      "direct": "STONED MAGHRIB"
+    },
+    "classification": "Lead only; excluded from both model price evidence",
+    "remaining": "Exact hardware/condition/variant; OutputVP insertion and coverage still unknown",
+    "next": "Continue other LCD-first gaps; independent GT-Pro cursor preserved"
   }
 }

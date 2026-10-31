@@ -1792,6 +1792,8 @@ FP01/FP02 use CONTROL IN; normal bass pickups require no special divided pickup.
 
 Reviewed **2026-10-17** following fresh exact Shopee hardware discovery. Bass-focused multi-effects;separate from B3 and guitar G3n,no ownership assertion. US manufacturer page marks discontinued. Partial:indexed primary manual text and ordinary page text only;no dependency,software,firmware or manual file downloaded.
 
+<!-- comparison evidence begins -->
+
 | Field | Finding / qualification | Evidence |
 |---|---|---|
 | Expression | No built-in pedal in complete front-panel inventory;external FP02 control input. Current accessory listing names FP02M;built-in toe N/A. | [Manual,pp.4–5,47](https://zoomcorp.com/media/documents/E_B3n.pdf); [product](https://zoomcorp.com/en/us/multi-effects/bass-effects/b3n/) |
@@ -2008,6 +2010,14 @@ Checked **2026-10-31** against all five pages of the [manufacturer B3n power cha
 | Processing / capacity | The chart’s ceiling remains100points;seven units are a separate limit. Document counts andmissing cost rows do not establish installed firmware/library contents orany seven-effect combination. |
 
 The83-versus89 difference concerns these two2017 documents,not a reconciled current pool total. No local download,software installation ordevice operation.
+
+<!-- comparison evidence ends -->
+
+### B3n — ambiguous B3/B3n hardware-title exclusion
+
+Checked2026-10-31: [shop65245619/item17399777546](https://shopee.co.id/Efek-Pedal-Bass-Zoom-B3-B3N-not-NUX-Boss-MXR-i.65245619.17399777546), **Rp1.700.000,Habis**,KotaDepok. Title names both **B3 and B3N**; neither exact model is established. Three-month search snapshot names TrueByFuzz; one-month direct cache names STONED MAGHRIB for the same shop/item. These labels do not prove an ownership change. Condition,revision,working state,accessories,variant,bundle,warranty andcheckout remain unknown. Next-day delivery/late-arrival voucher banners are not live stock or an applied discount. **Excluded from both models’ price evidence** pending exact hardware identity; no image inspection claimed.
+
+OutputVP-specific insertion,range andcoverage searches still found no manufacturer instruction resolving all-preset assignment. Existing qualified volume findings remain unchanged. No local download ordevice operation.
 
 ## B6
 
