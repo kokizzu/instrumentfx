@@ -427,3 +427,15 @@ Current Guide H category census remains unfinished; unsuccessful mirror searches
 Checked **2026-10-31**. [GuitarBomb’s October24 report](https://guitarbomb.com/blog/nam-a2-officially-coming-fender-tone/) attributes planned NAM A2 support to a Fender product-team forum post. **Pending research lead only:**the original post/account context andscreenshot were not independently inspected. No implementation,architecture subtype,release date,firmware version,import path,DSP limit orcapture-creation capability is verified from that report.
 
 The [retrieved official firmware history](https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates) still heads with **1.8.58,July15,2026**,andits retrieved text has no NAM entry. That does not prove no later announcement exists. Existing NAM status remains **not established**;next evidence needed is the original manufacturer announcement andeventual release/import documentation. No files downloaded,firmware modified ordevice operated.
+
+### Tone Master Pro — eight amp and cabinet-set additions
+
+Checked **2026-10-31** in [Fender’s original update article](https://www.fender.com/articles/instruments/the-latest-tone-master-pro-update-is-here),matching the preserved1.8.45 release additions. This supplements historical lists without extrapolating current totals.
+
+| Field | Complete additions listed in the article |
+|---|---|
+| Categories / amps8 | ’57 Champ;’68 Custom Deluxe Reverb;’68 Custom Princeton Reverb;’65 Twin Custom15;Rumble800;EVH5150III50W6L6 Green,Blue,Red. The threeEVH channels count as three named models,not one orsix. |
+| Categories / cabinet IR sets8 | **1×8** ’57 Champ;**1×10** ’65 Princeton GB;**1×10** ’68 Princeton;**1×12** ’65 Deluxe GB;**1×12** ’68 Deluxe;**1×15** Twin Custom;**1×12** EVH5150 G12H;**4×12** British G12H. These are eight collections,not eight individual impulse files oruser-import locations. |
+| Processing / default cabinet scope | Rumble800 defaults to4×10 Bassman Pro Neo;allthree newEVH channels default to1×12 5150 G12H. A default pairing does not mean a newcabinet for each channel ormandatory fixed routing. |
+
+Current complete GuideH census andinstalled content remain unverified. No download ordevice operation.

@@ -132578,5 +132578,12 @@
     ],
     "scope": "Original PX5/PX3 release sections;X5-only historical sections not transferred.",
     "next": "LCD-first audit;current desktop OS minimum andexact X3 looper duration remain unknown;general BOSS GT-Pro cursor unchanged."
+  },
+  "tone_master_18_amp_cab_additions_20261031": {
+    "checked": "2026-10-31",
+    "model": "Fender Tone Master Pro",
+    "source": "https://www.fender.com/articles/instruments/the-latest-tone-master-pro-update-is-here",
+    "scope": "Eight named amps andeight cabinet collections recorded;full current census still unresolved.",
+    "next": "LCD-first audit continues;GuideH original readability/current category totals andIR import limits remain open. Independent BOSS GT-Pro cursor unchanged."
   }
 }
