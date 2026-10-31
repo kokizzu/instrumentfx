@@ -450,3 +450,16 @@ Checked **2026-10-31** against [Fender’s original release history](https://sup
 | Live / firmware1.8.58 fixes | **July15,2026:** notes fix editing pre-1.8 Songs sometimes removing an assigned preset from its song footswitch,uneven loudness at some cabinet/mic IR positions,andpotential crashes involving Step Filter,Step Filter Delay,Pitch Sequencer orStep Tremolo. These are manufacturer claims for that release,not installed-version orhardware validation. |
 
 Guide-H category counts,user-IR limits andglobal analog expression-volume coverage remain unresolved. No download,update,preset edit ordevice operation.
+
+### Tone Master Pro — preset pickup loading and switchless bypass
+
+Checked **2026-10-31** against the [original Fender firmware1.5 manual reproduction](https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual), printed pp17,24. Manufacturer text only; no download or device test.
+
+| Field | Revision-qualified evidence / boundary |
+|---|---|
+| I/O / preset pickup loading (firmware1.5) | **1MΩ,330kΩ or22kΩ**, each available with or without **330pF capacitance**: six fixed combinations. Default **AUTO-IMPEDANCE** selects impedance/capacitance from the **first active amp/effect** in the path. Preset-level analog loading; not speaker/EXP impedance. [Manual p17](https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual). |
+| Memory / preset level (firmware1.5) | PRESET VOLUME spans **0–100%** for level normalization; it is a preset setting, not the master knob or universal expression endpoints. [Manual p17](https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual). |
+| Live / preset spillover setting (firmware1.5) | PRESET SPILLOVER is an **on/off setting per preset** for delay/reverb tails during preset changes. Not a guarantee for every route/effect or EXP attenuation. [Manual p17](https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual). |
+| Expression / switchless dwell (firmware1.5) | Options **OFF,heel-down,toe-down**. Assigned blocks turn on when the pedal leaves the selected position and off after returning for **300ms or longer**. Assigned-block bypass; global volume/headphone/looper coverage unverified. [Manual p24](https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual). |
+
+Current1.8 equivalence untested; GuideH census remains open.
