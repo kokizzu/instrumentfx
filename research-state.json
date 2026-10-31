@@ -137100,5 +137100,20 @@
     ],
     "next": "Obtain exact manufacturer screen specification andqualified Shopee hardware;do not promote retailer OLED claims.",
     "downloads": false
+  },
+  "fm3_original_factory_eq_scope_20261101": {
+    "model": "Fractal FM3 original",
+    "checked": "2026-11-01",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+    "scope": "7.x cover explicitly includes Standard;not a sibling-only transfer.",
+    "finding": "p41 documents first384 factory-filled of512 editable slots. p101 internally conflicts on global EQ USB/digital coverage;analog/headphones remain documented.",
+    "qualifications": [
+      "128 remaining is arithmetic,not inspected blank contents",
+      "original1.x factory-subset unknown retained as historical evidence",
+      "global EQ is not global EXP volume assignment",
+      "current firmware13,USB playback attenuation,endpoints/recall untested"
+    ],
+    "next": "Continue individualLCD models;original FM3 early headphone hardware andexact-revision Shopee offers still unresolved.",
+    "downloads": false
   }
 }
