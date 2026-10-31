@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Original Zoom G5: remaining exact-model individual-LCD/profile gaps and qualified hardware offers. Preserve G11 routing-mode versus physical-loop distinction; its visual rotary census and expression-output coverage remain open.",
+      "next_check": "Original Zoom G3, then B3: remaining individual-LCD exact-model fields and qualified hardware offers. Preserve G5 manufacturer frequency-response discrepancy; independent BOSS GT-Pro cursor unchanged.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133253,6 +133253,11 @@
       "file": "ZOOM.md",
       "model": "G11",
       "heading": "### G11 — V2 external-loop routing choices"
+    },
+    {
+      "file": "ZOOM.md",
+      "model": "G5",
+      "heading": "### G5 — primary LCD wording and response discrepancy"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -133304,5 +133309,16 @@
     ],
     "finding": "Distinguished nine software routing choices from two physical loop pairs; patch-stored placement consumes effect capacity.",
     "limits": "No global-expression, parallel-routing oroutput-coverage guarantee."
+  },
+  "g5_primary_lcd_response_20261101": {
+    "model": "Zoom G5",
+    "checked": "2026-11-01",
+    "sources": [
+      "https://www.zoom.co.jp/node/51",
+      "https://www.zoom.co.jp/ja/node/333"
+    ],
+    "finding": "English original manufacturer explicitly four backlit dot-matrix LCDs, each effect display paired with switch/knobs. English response +1/-6dB versus Japanese +1/-3dB, both20Hz-20kHz at10kohm; discrepancy preserved.",
+    "access": "Search-indexed original bodies; English direct502. No download, visual inspection or hardware test.",
+    "remaining": "LCD diagonal/color/touch; complete physical control census; global pedal mapping coverage; qualified condition offers."
   }
 }
