@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "PLETHORA X5: remaining global analog volume scope and exact manufacturer footprint-axis evidence; preserve documented Board scope and axis conflict if unresolved.",
+      "next_check": "Fender Tone Master Pro: current manufacturer expression Live Mode/global assignment, range and output coverage; then remaining individual-LCD processors. X5 primary axes/global override remain open; regional width exceeds preference.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133180,5 +133180,12 @@
     ],
     "scope": "7.x manual expressly includes MKII Turbo; tuner mute and footswitch indication documented, current13 equivalence untested.",
     "global_volume_gaps": "Endpoints, analog recall, bypass and separate USB playback coverage remain unresolved."
+  },
+  "plethora_x5_regional_dimensions_20261101": {
+    "sources": [
+      "https://www.electori.co.jp/tc-electronic/assets/pdf/PLETHORA_X5_MANUAL_JP_REV_1_3.pdf",
+      "https://www.electori.co.jp/tc-electronic/product.php?id=plethora-x5"
+    ],
+    "qualification": "Regional sources agree width exceeds preference; conflicting H/D retained; primary axes unresolved. Regional page excludes battery. USB power and global EXP scope unverified."
   }
 }

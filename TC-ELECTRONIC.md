@@ -665,7 +665,7 @@ Checked 2026-10-17; partial. Guitar/bass shared processor; ownership and vocal s
 | Synth / acoustic | Dedicated synth/acoustic conversion unresolved. | Unresolved |
 | I/O | Stereo quarter-inch TS inputs/outputs; TS Send/Return insert; TRS EXP; MIDI In/Thru; **Mini-B USB** for computer TonePrint/update; DC input. USB audio/power unresolved. | [QSG pp14–15][PX5-M] |
 | Power / battery / USB | **9V DC,>600mA included supply**,5.5/2.1mm centre-negative. Actual draw,battery/USB operation unresolved. | [QSG controls/specifications][PX5-M] |
-| Dimensions / mass | Guide prints **298.5×116×53mm under H×W×D**,1.4kg. Axis-label inconsistency preserved; no silent normalization or size-bin assignment. | [QSG specifications][PX5-M] |
+| Dimensions / mass | Guide prints **298.5×116×53mm under H×W×D**,1.4kg. Axis-label inconsistency preserved; no silent normalization or size-bin assignment. ELECTORI manual p13 instead gives **298.5W×53H×116Dmm**; its product page gives **298.5W×116H×53Dmm**. Both regional sources exceed200mm width; primary-axis reconciliation remains open. | [QSG specifications][PX5-M] |
 | Categories / global cabinet census | **1.2.18,2020-12-18:** nine proprietary choices—**Jose30 4x12,Vintage4x12,Creamy4x12,65 4x12,Greenery4x12,Bluey2x12,Creamy1x12,Golden1x12,BASS1x15**. Cabinet simulation is global and,when enabled,stays at the **end of the signal chain**;menu GLOBAL→PRODUCT SETTINGS→CAB SIMULATION. This is a documented global audio process,unlike Board EXP Assignment;it does not establish global expression-volume control,user IR loading or nine extra pedal slots. Firmware-qualified list,not installed-version confirmation. | [Manufacturer release text1.2.18][PX5-FM],rechecked2026-10-31. |
 | IR / NAM / capture | **Nine global proprietary cabinet simulations**, including bass use. User IR/native or converted NAM/capture support unresolved. | [Product][PX5-P] |
 | Editor / dated mobile compatibility | Developer listings explicitly name **Plethora X5** Bluetooth editing. Apple lists **TonePrint4.6.18,2025-04-01**, requiring **iOS16.0/iPadOS16.0+**; Google Play lists Android TonePrint,updated2025-03-26. Checked2026-10-18; minimum Android OS,desktop OS/architecture and every-device operation remain unverified. This narrows the older platform uncertainty without treating historical firmware notes as current OS requirements. | [Developer Apple listing](https://apps.apple.com/us/app/toneprint/id432767616);[Developer Android listing](https://play.google.com/store/apps/details?hl=en&id=com.tcelectronic.toneprint) |
@@ -778,6 +778,12 @@ Checked **2026-11-01** in the [manufacturer Japanese QSG,V3.0,©2022,PDFp3](http
 | Editor / Bluetooth pairing | Guide selects device **Global Settings→Bluetooth Pairing**,then the app’s **Bluetooth MIDI Pairing** andX5 entry. This establishes the documented TonePrint-app connection path;it does not certify arbitrary wireless MIDI controllers,USB MIDI audio transport orBluetooth audio. |
 
 The [current direct product reader](https://www.tcelectronic.com/en/products/0709-AIK) still says unlimited custom boards,while its month-old search snapshot retains127Boards/75TonePrint slots. This is differing retrieved copy,not evidence of a firmware capacity increase. Qualified historical capacity remains;dimension-axis andglobal EXP gaps stay open. No download ordevice operation.
+
+### PLETHORA X5 — regional footprint and battery qualifications
+
+Checked **2026-11-01** in ELECTORI’s [exact X5 Rev1.3 manual, p13](https://www.electori.co.jp/tc-electronic/assets/pdf/PLETHORA_X5_MANUAL_JP_REV_1_3.pdf), ©2022, firmware1.3.11, and [own regional product page](https://www.electori.co.jp/tc-electronic/product.php?id=plethora-x5). Manual dimensions are W×H×D=298.5×53×116mm; product dimensions W×H×D=298.5×116×53mm. These agree on width but disagree on height/depth. **Regional width exceeds the preferred200mm**; no corrected primary footprint or size bin asserted. Earlier manufacturer H×W×D wording remains unresolved.
+
+The regional page explicitly excludes battery operation. This narrows the regional battery claim only, not USB power or measured current. Distributor evidence does not establish current all-Board expression-volume scope. No local download, visual inspection or device test.
 
 <!-- comparison evidence ends -->
 

@@ -44,7 +44,7 @@ Synthesis of the linked,revision-qualified audits as of2026-10-31. **None is yet
 | [Fractal FM9 MKII Turbo](FRACTAL-AUDIO.md#fm9-mkii-turbo) | Okada exact MKII513×237;fails;direct manufacturer corroboration pending |2022 FM9 global role documented; [headphone/copy-routing limits](FRACTAL-AUDIO.md#fm9--headphone-route-and-conditional-output-copying); current MKII equivalence unverified |
 | [Line6 HX Effects](LINE6.md#hx-effects) | FAQ approx.274×201;manufacturer chart274×199;both fail preferred footprint;[source conflict](LINE6.md#hx-effects--published-body-and-weight-discrepancy) | Global position recall does not create preset Volume blocks/assignments |
 | [TC PLETHORA X3](TC-ELECTRONIC.md#plethora-x3) |176.53×116.75;fits | No analog EXP socket in complete inventory;MASH/MIDI separate |
-| [TC PLETHORA X5](TC-ELECTRONIC.md#plethora-x5) | Axis-label conflict;fit unknown | Board-level assignment documented;later global override unknown |
+| [TC PLETHORA X5](TC-ELECTRONIC.md#plethora-x5) | Primary axes unresolved;regional298.5W exceeds preference;H/D conflict | Board-level assignment documented;later global override unknown |
 | [Zoom B3](ZOOM.md#b3) |234×170;fails | Per-patch TOTAL;OUTPUT VOL excludes rhythm/looper;guitar voicing unclassified |
 | [Zoom B3n](ZOOM.md#b3n) |234×181;fails | Patch PDL Vol;OutputVP retention does not prove every-patch assignment;guitar voicing unclassified |
 | [Zoom G3](ZOOM.md#g3) |234×170;fails | Per-patch TOTAL;OUTPUT VOL excludes rhythm/looper |
