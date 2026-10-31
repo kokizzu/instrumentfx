@@ -138149,5 +138149,13 @@
     ],
     "qualification": "No verified temporal price trend,live range,current stock orused/new allocation. Not transferred to a different plug variant orShopee offer.",
     "active_counts_changed": false
+  },
+  "fm3_mkii_increment_save_scope_20261101": {
+    "checked": "2026-11-01",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+    "revision": "7.x,printed108;cover includesMKII Turbo",
+    "finding": "Volume Increment/Decrement changes MAIN1dB pertrigger andsaves currentpreset including unrelated unsaved parameter/bypass changes. MomentaryCC127on/0off;manualwarns expression sweep canchange20dB,not a continuousglobalrange.",
+    "remaining": "Continuous global endpoints,held-position recall,bypass/directUSB coverage stillunverified;nohardwaretest.",
+    "active_counts_changed": false
   }
 }
