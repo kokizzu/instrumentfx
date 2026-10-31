@@ -132065,5 +132065,15 @@
     "classification": "Lead only; excluded from both model price evidence",
     "remaining": "Exact hardware/condition/variant; OutputVP insertion and coverage still unknown",
     "next": "Continue other LCD-first gaps; independent GT-Pro cursor preserved"
+  },
+  "g11_jensen_usb_modes_20261031": {
+    "sources": [
+      "https://zoomcorp.com/en/gb/news/jensen-ir-collection/",
+      "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g11/g11-support/",
+      "https://zoomcorp.com/documents/461/E_G11v2.pdf"
+    ],
+    "record": "ZOOM.md#g11--optional-jensen-ir-collection-and-usb-modes",
+    "qualification": "Optional IR files do not add capacity; USB modes and rear switch distinct; package not downloaded",
+    "next": "Continue other individual-LCD gaps and remaining inventory; independent GT-Pro cursor retained"
   }
 }

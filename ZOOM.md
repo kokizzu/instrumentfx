@@ -4152,6 +4152,19 @@ Checked **2026-10-31**,original [manufacturer V2 manual,pp67–75](https://zoomc
 | Looper / playback and routing | The manual permits patch selection from Home while playback continues. **AUX input is excluded from recording**;PRE/POST places the loop before/after effects. This does not prove every output’s expression-volume coverage or persistent storage. |
 | Looper / level and stopping | Loop VOL0–100;stop immediately,at phrase end,orwith fade. Fade duration is unspecified. |
 
+### G11 — optional Jensen IR collection and USB modes
+
+Checked2026-10-31. Zoom’s [Jensen IR announcement](https://zoomcorp.com/en/gb/news/jensen-ir-collection/),dated2022-05-02,explicitly includes G11 and offers **30 IR files**,created with Jensen/Overloud and adapted with Zoom. It specifies **Guitar Lab7.3+** for drag-and-drop import. The [current exact-model support page](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g11/g11-support/) still lists the collection. This is an optional file collection,not30 additional memory locations,proof of factory installation,a new cabinet-block count or an amp-capture/NAM feature. Package contents were not downloaded or inspected.
+
+[Own V2 manual](https://zoomcorp.com/documents/461/E_G11v2.pdf),printedpp13,89,104,also distinguishes:
+
+| Field | Evidence / qualification |
+|---|---|
+| USB / protocol and route scope | Guitar Lab uses **USB1.1 Full Speed**;the audio interface uses **USB2.0 High Speed**. One Type-C device port serves these roles. Four recording channels comprise two before and two after processing;computer returns likewise offer two before/two after. Exact channel numbers are not identified by the inspected prose;diagram labels alone are not assigned a routing order here. |
+| Controls / separate rear pedal switch | Rear-panel **Pedal switch** turns the expression-pedal effect on/off;it is distinct from the rear POWER switch and the documented toe operation. The11 footswitch count and1 front AMPLIFIER button are not a count of all rear selectors. No new visual count claimed. |
+
+No software installed orhardware operated. Current installed effect-pool census and auxiliary-display details remain unresolved.
+
 <!-- comparison evidence ends -->
 
 ### G11 — complete original finding and unresolved control-count conflict

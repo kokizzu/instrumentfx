@@ -22,5 +22,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): exclude ambiguous B3 and B3n hardware ask'
+        message='research(zoom): qualify G11 Jensen IR collection and USB modes'
     print(git('commit','-m',message))
