@@ -131161,5 +131161,16 @@
     "scenes_per_preset": 8,
     "record": "FRACTAL-AUDIO.md#fm3--factory-occupancy-versus-editable-capacity",
     "remaining": "Current factory allocation and installed contents; current global analog volume endpoints/recall. Prioritize individual LCD models; independent general cursor stays BOSS GT-Pro."
+  },
+  "b3_controls_power_hosts_20261031": {
+    "checked": "2026-10-31",
+    "record": "ZOOM.md#b3--rotary-subtotal-battery-chemistry-and-historical-usb-hosts",
+    "sources": [
+      "https://zoomcorp.com/media/documents/E_B3.pdf",
+      "https://www.zoom.co.jp/node/47"
+    ],
+    "rotary_subtotal": 9,
+    "basis": "Text-derived three sections × three parameter knobs; no visual count",
+    "remaining": "Complete buttons, screen details, global-volume endpoint/recall and bypass coverage; LCD models prioritized."
   }
 }

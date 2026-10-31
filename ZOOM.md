@@ -1666,7 +1666,7 @@ Original bass multi-effects, distinct from B3n. Checked2026-10-17; partial. Disc
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression / K/F/B | External FP01/FP02 expression or FS01 through CONTROL IN. No integrated pedal; toe N/A. Three main footswitches; complete knob/button count remains unverified. | [Manual][B3-M] pp4–5,51 |
+| Expression / K/F/B | External FP01/FP02 expression or FS01 through CONTROL IN. No integrated pedal; toe N/A. **Nine parameter knobs** by text-derived3×3 accounting;three main footswitches. Complete button count andvisual corroboration remain unverified. | [Manual][B3-M] pp4–5,51 |
 | Display | Three backlit dot-matrix LCDs, each paired with its own effect footswitch and knobs; exact B3 manufacturer page rechecked2026-10-31. Diagonal, color depth and touch remain unverified. | [Product][B3-P] |
 | Dimensions / weight | 234 W×170 D×54 H mm;1.2kg **excluding batteries**, explicit in Japanese product specifications; English manual leaves battery inclusion unstated. Large footprint. | [Manual specifications][B3-S]; [Japanese product][B3-J] |
 | Simultaneous effects | Up to3, freely ordered; DSP overflow bypasses an effect with THRU. Disabled effects still consume DSP. Do not inherit G3 firmware’s six-effect ceiling. | [Manual][B3-M] p9; [Product][B3-P] |
@@ -1725,6 +1725,18 @@ Checked2026-10-31: [own manufacturer manual](https://zoomcorp.com/media/document
 | Display / operating views | Home shows the current patch’s effect graphics;Edit shows parameter names/values and page tabs for larger parameter sets. These are views on three physical LCDs,not additional screens. Color/touch/diagonal remain unverified. |
 
 No download,hardware operation or successful new visual inspection.
+
+### B3 — rotary subtotal, battery chemistry and historical USB hosts
+
+Checked **2026-10-31**;original B3,not B3n.
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| K/F/B / text-derived rotary subtotal | **Nine parameter knobs**,derived from three effect sections with their own knobs andthe numbered1–3 parameter controls ([own manual pp3–5](https://zoomcorp.com/media/documents/E_B3.pdf)). Three main footswitches remain documented separately. This is textual accounting,not a fresh visual count;complete button count stays unknown. |
+| Power / supported AA chemistry | [Own manual p2](https://zoomcorp.com/media/documents/E_B3.pdf) explicitly permits **four AA alkaline ornickel-metal-hydride batteries**. Existing six-hour runtime is alkaline-specific;Ni-MH capacity/runtime andonboard charging are not established. Battery-type selection concerns the charge indicator,not charging. |
+| USB audio / historical host requirements | [Original product specifications](https://www.zoom.co.jp/node/47) list **XP SP3 32-bit**,Vista SP1 32/64-bit,Windows7 32/64-bit,andIntel **Mac OS X10.5/10.6/10.7**. These are historical interface requirements,separate from Edit&Share’s later editor OS list andthe Windows ASIO driver listing. They do not certify current Windows/macOS,USB MIDI ormobile editing. |
+
+Power andmemory findings already recorded remain unchanged. Numeric expression endpoints,held-position recall,bypass attenuation andscreen diagonal/color/touch are still unresolved. No download,installation ordevice operation.
 
 <!-- comparison evidence ends -->
 
