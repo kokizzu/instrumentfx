@@ -816,6 +816,20 @@ Checked **2026-11-01**,manufacturer **HX Edit3.80 Pilot’s Guide RevY**,printed
 
 The checked controller chapters do not publish numeric Volume attenuation endpoints. Global position recall still does not establish all-preset assignment;no download ordevice operation.
 
+
+
+### HX Effects — multi-action LCD visibility
+
+Checked **2026-11-01**, [manufacturer3.80 RevD manual,printedpp7,45–46](https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf).
+
+| Field | Documented LCD behavior / limit |
+|---|---|
+| Display / combined assignments | Shared assignments may show **MULTIPLE (X)**;touching the switch repeatedly selects its assigned items. Custom labels can replace the default summary. |
+| Display / secondary actions | HX Snapshot andHX Looper labels/LEDs identify **only the Press action**,although Release/Hold can have another action. Inference:the strip does not expose every assigned action simultaneously. |
+| Controls / label movement | Touch-holding two switches swaps all their assignments,including custom labels andLED colors;touch-to-select can be disabled globally. This changes existing switch roles,not the six-LCD count. |
+
+These are documented behavior,not a device test orcolor/touchscreen specification. No download. Global analog-volume assignment remains unverified.
+
 <!-- comparison evidence ends -->
 
 ### Preserved original shared-source HX Effects fields

@@ -129297,7 +129297,14 @@
       "source": "https://line6.com/hx-effects/",
       "checked": "2026-10-29",
       "finding": "Six LCD strips correspond to FS1–6; eight total switches including MODE/TAP.",
-      "inventory": "Existing active model; no new admission."
+      "inventory": "Existing active model; no new admission.",
+      "multi_action_visibility": {
+        "checked": "2026-11-01",
+        "source": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+        "revision": "3.80 RevD pp7,45–46",
+        "finding": "MULTIPLE(X) assignment summary;Snapshot/Looper label and LED expose Press only,not secondary Release/Hold;touch-swap carries labels/colors.",
+        "remaining": "Global analog volume,attenuation endpoints andDSP-bypass/loop coverage unresolved;no new qualified Shopee hardware offer;LCD technology confirmed,size axis/color/touch still unverified."
+      }
     },
     "user_scope_20261031": {
       "brands": [
@@ -130655,7 +130662,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "User reaffirmed individual footswitch LCD priority: resume unresolved exact-current HX Effects documentation, then FM3 MKII Turbo range/recall and output coverage, PLETHORA X5 all-Board analog volume scope, and Tone Master Pro remaining LCD/control gaps; continue remaining confirmed LCD processors before OLED/shared-screen/unknown technology or M-VAVE controller wiring. Prior source passes do not close unresolved fields. Preserve deferred GP-50/GT-1000CORE/Nano/M-VAVE tasks and independent BOSS GT-Pro cursor.",
+      "next_check": "FM3 MKII Turbo: current exact-model range/recall and output coverage first. HX Effects current3.80 source rechecked;global analog target andnumeric attenuation remain undocumented in checked material,not No. Then PLETHORA X5 andTone Master Pro unresolved LCD/control andanalog-volume gaps;remaining confirmed LCD processors before OLED/shared-screen/controller work. Preserve deferred no-treadle tasks andindependent BOSS GT-Pro cursor.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133333,6 +133340,11 @@
       "file": "NEURAL-DSP.md",
       "model": "Nano Cortex",
       "heading": "### Nano Cortex — USB channel directions and output-mute exception"
+    },
+    {
+      "file": "LINE6.md",
+      "model": "HX Effects",
+      "heading": "### HX Effects — multi-action LCD visibility"
     }
   ],
   "model_note_scope_correction_20261101": {
