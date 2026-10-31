@@ -31,6 +31,23 @@ Research these LCD matches before OLED, shared-screen and unconfirmed-technology
 | Zoom **G5** | **Four individual backlit LCD effect displays**, each with dedicated footswitch and knobs | [Exact original G5 record](ZOOM.md#g5). Own manufacturer manual reproduction p63 explicitly specifies four LCDs; separate from G5n. Diagonal/color/touch remain unverified. |
 | Zoom **G5n** | **Four individual128×32 dot-matrix LCD Unit Displays**, each paired with an effect footswitch; separate256×32 Overview LCD | [V2 manual-backed record](ZOOM.md#g5n). Ownmanualp58 explicitly identifies LCD technology;diagonal/color/touch and total navigation-switch count remain unresolved. |
 
+### LCD processors without built-in treadles — volume and footprint
+
+Synthesis of the linked,revision-qualified audits as of2026-10-31. **None is yet verified to meet all requirements together**:normal guitar pickups,direct analog EXP volume across every preset without individual editing,and≤200W×140Dmm. Unknown is not No. Headphones and onboard preset navigation remain separate columns in [EXPRESSION-VOLUME.md](EXPRESSION-VOLUME.md);prices/stock are not assessed here.
+
+| Processor | Chassis W×D mm / preferred fit | Across-preset analog expression-volume evidence |
+|---|---|---|
+| [Fender Tone Master Pro](FENDER.md#tone-master-pro) |371×261.6;fails;older261.4D conflict | Documented EXP Live Mode requires a Volume block per preset;independent global role unknown |
+| [Fractal FM3 MKII Turbo](FRACTAL-AUDIO.md#fm3-mkii-turbo) |281×236;fails |7.x manual expressly covers Turbo and global Input/Output volume;range/recall/current-firmware gaps remain |
+| [Fractal FM9 MKII Turbo](FRACTAL-AUDIO.md#fm9-mkii-turbo) | Historical FM9 dimensions only;exact MKII unresolved |2022 FM9 global role documented;current MKII equivalence unverified |
+| [Line6 HX Effects](LINE6.md#hx-effects) | Approx.274×201;fails | Global position recall does not create preset Volume blocks/assignments |
+| [TC PLETHORA X3](TC-ELECTRONIC.md#plethora-x3) |176.53×116.75;fits | No analog EXP socket in complete inventory;MASH/MIDI separate |
+| [TC PLETHORA X5](TC-ELECTRONIC.md#plethora-x5) | Axis-label conflict;fit unknown | Board-level assignment documented;later global override unknown |
+| [Zoom B3](ZOOM.md#b3) |234×170;fails | Per-patch TOTAL;OUTPUT VOL excludes rhythm/looper;guitar voicing unclassified |
+| [Zoom B3n](ZOOM.md#b3n) |234×181;fails | Patch PDL Vol;OutputVP retention does not prove every-patch assignment;guitar voicing unclassified |
+| [Zoom G3](ZOOM.md#g3) |234×170;fails | Per-patch TOTAL;OUTPUT VOL excludes rhythm/looper |
+| [Zoom G3n](ZOOM.md#g3n) |234×181;fails | PDL Vol and OutputVP documented;all-preset scope unknown |
+
 ### Individual OLEDs at effect footswitches — secondary priority
 
 These match the separate-display layout, with OLED technology rather than LCD.
