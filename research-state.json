@@ -131101,5 +131101,17 @@
     "record": "ZOOM.md#g5--separate-z-pedal-census-and-assignment-boundary",
     "status": "Partial; see canonical record for mapping scope and restrictions",
     "next": "Prioritize remaining individual LCD model gaps, including G5n current library and physical controls; preserve independent BOSS GT-Pro cursor."
+  },
+  "g5n_effect_pool_additions_20261031": {
+    "checked": "2026-10-31",
+    "record": "ZOOM.md#g5n--current-effect-pool-additions-separate-from-installed-totals",
+    "sources": [
+      "https://zoomcorp.com/en/us/news/zoomclassics/",
+      "https://zoomcorp.com/en/guitarlab-news/overdrive/",
+      "https://zoomcorp.com/en/guitarlab-news/bitcrush/",
+      "https://zoomcorp.com/en/guitarlab-news/dynadelay/"
+    ],
+    "status": "Three later additions verified for exact G5n; installed/current aggregate not verified",
+    "next": "Keep individual footswitch LCD models first; resolve remaining G5n physical and current-library gaps without borrowing G5 data. Independent general cursor remains BOSS GT-Pro."
   }
 }

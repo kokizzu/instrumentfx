@@ -3685,6 +3685,17 @@ Checked2026-10-31 against the [manufacturer processing chart](https://zoomcorp.c
 
 The separate [manufacturer VioletDST update](https://zoomcorp.com/en/guitarlab-news/violetdst-update/) explicitly offers G5n patches and describes VioletDST as a Suhr Riot Reloaded model,Duo Phase as two combined phasers,HotSpice as sitar simulation,andSoftEcho as a soft echo with modulation. Sitar simulation does not establish polyphonic synth tracking. OutputVP’s chart entry andDSP cost do not establish global pedal assignment orall-preset insertion. No downloads,installation orhardware operation.
 
+### G5n — current effect-pool additions, separate from installed totals
+
+Checked **2026-10-31**. Zoom’s [current product page](https://zoomcorp.com/en/gb/multi-effects/guitar-effects/zoom-g5n/) and [ZoomClassics release list](https://zoomcorp.com/en/us/news/zoomclassics/) explicitly include G5n for these additions.
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| Categories / later pool additions | **OverDrive — December2025**,drive/boost; **BitCrush — February2026**,sample-rate/bit-depth reduction; **DynaDelay — April2026**,input-responsive ducking/gated delay. Exact-model compatibility is independently listed on the [OverDrive](https://zoomcorp.com/en/guitarlab-news/overdrive/),[BitCrush](https://zoomcorp.com/en/guitarlab-news/bitcrush/) and [DynaDelay](https://zoomcorp.com/en/guitarlab-news/dynadelay/) notices. Functional groupings here are editorial,not verified Guitar Lab category headings. |
+| Editor / availability scope | Notices describe delivery to Guitar Lab’s **Effect Pool**;this does not establish installation on a particular G5n,available device storage,per-effect DSP cost or inclusion in factory presets. The three additions are not automatically added to the earlier126/128/159 headlines or157-entry2020 chart census. Those different scopes remain independently qualified. |
+
+No download,app installation,firmware update ordevice operation. Full current-library reconciliation,physical footswitch/button totals and display diagonal/color/touch remain open.
+
 
 ## G6
 
