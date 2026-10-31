@@ -138023,5 +138023,19 @@
     "remaining": "No live checkout,condition,firmware,bundle orwarranty confirmation. Existing Shopee asks andtechnical qualifications preserved.",
     "downloads": false,
     "transaction": false
+  },
+  "plethora_x5_nafiri_offer_20261101": {
+    "checked": "2026-11-01",
+    "source": "https://nafiriguitar.com/products/tc-electronic-plethora-x5-toneprint-multi-fx-pedalboard",
+    "model": "TC Electronic PLETHORA X5",
+    "amount_idr": 8840000,
+    "seller": "Nafiri Music",
+    "region": "Kelapa Gading, Jakarta Utara",
+    "condition": "Unverified",
+    "stock": "Opened three-day-crawled snapshot explicitly Sold out; not live checkout verification",
+    "variant": "One variant shown",
+    "remaining": "Working state, firmware, bundle/adapter, warranty, tax, shipping, vouchers and checkout total unknown. Shopee historical asks preserved; no technical specification transferred.",
+    "downloads": false,
+    "transaction": false
   }
 }

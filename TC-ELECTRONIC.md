@@ -723,6 +723,7 @@ Checked 2026-10-17; partial. Guitar/bass shared processor; ownership and vocal s
 |---|---|---|
 | Used | No qualified offer. | — |
 | New | No condition-confirmed offer. | — |
+| Indonesian retailer; condition unverified; sold out | **Rp8.840.000**, Nafiri Music, Kelapa Gading, Jakarta Utara. Checked **2026-11-01**: opened product snapshot crawled three days ago explicitly says **Sold out**, with one variant. Retail presentation does not establish new/used condition, working state, firmware, included adapter, warranty or tax. Shipping is calculated at checkout; delivered total and vouchers remain unknown. This non-Shopee ask is not a currently purchasable lower bound. Seller specifications do not resolve the manufacturer dimension conflict or global expression-volume scope. | [Exact X5 hardware page](https://nafiriguitar.com/products/tc-electronic-plethora-x5-toneprint-multi-fx-pedalboard) |
 | Unverified condition | **Rp9.105.200**,NEO MUSIC,shop158235298/item27271818642,Kota Sukabumi. Checked2026-10-17; three-month indexed crawl,July2 delivery text. Historical ask, not current stock/checkout. | [Item][PX5-O] |
 
 ### PLETHORA X5 — readable V3.0 guide, 2026-10-31
