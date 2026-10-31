@@ -138084,5 +138084,16 @@
     "remaining": "Current looper duration lacks new primary X3 evidence; MIDI rules do not establish analog expression or global volume, physical switch mapping or relay bypass.",
     "downloads": false,
     "hardware_test": false
+  },
+  "axom_mobile_update_scope_20261101": {
+    "checked": "2026-11-01",
+    "sources": [
+      "https://play.google.com/store/apps/details?id=com.melofty.axommax",
+      "https://apps.apple.com/us/app/melofty/id6762972347"
+    ],
+    "finding": "Google Play update date now October23,2026; preserved September27 observation as history. Added remaining Apple1.9.0 noise-gate,Wah andtuner change claims with hardware-firmware boundary.",
+    "remaining": "Android minimum/version and device firmware dependency unverified; app listings do not confirm mini-screen technology/count. Maker shop still inaccessible; no active admission.",
+    "downloads": false,
+    "hardware_test": false
   }
 }

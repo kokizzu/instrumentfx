@@ -11,7 +11,7 @@ Checked 2026-10-31. Manufacturer-authored **Axom Max User Manual V1.7.4, 2026-08
 | Hardware identity | Audio multi-effects/modeling processor, not merely a MIDI controller. Manual pp4–6 documents instrument input, effects processing and audio outputs. |
 | Display layout | **7-inch color touchscreen plus footswitch/pedal mini screens** displaying assigned functions (manual p5). Exact mini-screen count, LCD/OLED technology, dimensions and one-per-switch placement remain unverified; panel screenshot retrieval failed. Nine numbered footswitches do not prove nine mini screens. |
 | Expression | Built-in treadle; external EXP3 uses a stereo quarter-inch cable. Therefore outside the no-built-in-treadle shortlist. Global-volume scope/coverage and wiring remain unverified. |
-| Software lead | Manufacturer’s [MELOFTY Android app](https://play.google.com/store/apps/details?id=com.melofty.axommax), published by Changsha Melofty Audio Technology, identifies Axom-series Bluetooth tone/hardware control; updated2026-09-27. App identity is not proof of every hardware feature. |
+| Software lead | Manufacturer’s [MELOFTY Android app](https://play.google.com/store/apps/details?id=com.melofty.axommax), published by Changsha Melofty Audio Technology, identifies Axom-series Bluetooth tone/hardware control; initially observed update2026-09-27; the later October listing is qualified below. App identity is not proof of every hardware feature. |
 | Indonesian hardware | Exact Shopee offer and separate used/new IDR, condition, stock, bundle and warranty unverified; targeted search found no qualified hit. |
 | Remaining profile | Controls, algorithm census, memory, complete I/O, power, mass/dimensions, IR/native-versus-converted NAM/capture, editor platforms and live-feature limits require full verification. |
 
@@ -163,3 +163,12 @@ Checked **2026-11-01** in [Thomas Dill’s original Bonedo hands-on review,2026-
 | Capture / firsthand operation | Author describes capturing his MarshallPlexi/4×12 rig withtwo microphones mixed through aChandlerTG2. This corroborates proprietary capture operation independently;it doesnot establish NAM export orall capture types tested. |
 
 The article lists381W×230D×73Hmm,3.45kg;this is independent corroboration ofaxes,not a manufacturer drawing that resolves earlier unlabeled dimensions. Original manufacturer [shop page](https://www.meloftyaudio.com/shop/axom-max),linked byPremierGuitar,still exposes no readable text. Mini-screen technology/count andqualifiedShopee hardware remain unresolved. **Partial lead outside active counts**;no downloads ordevice operations.
+
+### AXOM MAX — dated mobile update and remaining display boundary
+
+Checked **2026-11-01** against the developer-published [Android listing](https://play.google.com/store/apps/details?id=com.melofty.axommax) and [Apple version history](https://apps.apple.com/us/app/melofty/id6762972347).
+
+- Google Play now gives **2026-10-23** as the update date, superseding the earlier September27 observation for that listing. The retrieved page supplies no app version or minimum Android OS; “Fixed known issues” is not a specific hardware-firmware changelog.
+- Apple’s **1.9.0, September29** notes additionally claim a **Simplified Noise Gate**, noise-gate performance changes, improved Wah audio quality, and tuner UI/bass-tuning improvements. These supplement the previously recorded Delay/Pitch/MFIM/Synth changes; they are developer claims, not measured results or proof of the required device firmware.
+
+The current Apple listing still shows1.9.2 with a relative release label; no absolute date inferred. Neither app listing identifies the mini screens as LCD or OLED or confirms their physical count. The maker’s exact AXOM MAX shop page remains inaccessible in this reader. Existing manual, importer and retailer qualifications remain; this is still a partial lead outside active counts. No app, manual or firmware downloaded or run.
