@@ -129708,5 +129708,10 @@
       "classification": "Shared-screen comparison,not individual strip match.",
       "remaining": "Diagonal/touch unverified;no visual/device test."
     }
+  },
+  "gt_pro_global_patch_level_20261031": {
+    "source": "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+    "pages": "55,63",
+    "finding": "Global direct PatchLevel role,parameter0–200;coverage/endpoints/recall unverified."
   }
 }

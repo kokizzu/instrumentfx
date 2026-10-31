@@ -1678,7 +1678,7 @@ Current comparison summary, reviewed 2026-10-28. Discontinued rack guitar multi-
 <!-- comparison evidence begins -->
 | Field | Evidence / qualification |
 |---|---|
-| Expression | No built-in treadle. EXP1 and shared EXP2/CTL3,4 accept external control; CTL1,2 is separate. EV-5/FV-300L specified; set pedal minimum to MIN. Global SYSTEM Foot Volume role documented, but precedence over patch FV enable/MIN/MAX remains unknown. Auto can switch to wah/bend; it is not a volume lock. External toe capability unverified. |
+| Expression | No built-in treadle. EXP1 and shared EXP2/CTL3,4 accept external control; CTL1,2 is separate. EV-5/FV-300L specified; set pedal minimum to MIN. Global SYSTEM **Foot Volume and Patch Level** roles documented;Patch Level is a separate direct target,not a per-patch ASSIGN. Foot Volume precedence over patch FV enable/MIN/MAX remains unknown. Auto can switch to wah/bend; it is not a volume lock. External toe capability unverified. |
 | Knobs / footswitches / buttons | **12 / 0 / 30**, derived from manual text; POWER and ground-lift counted separately. Panel-image corroboration pending. No onboard preset footswitch down/up. |
 | Display | Backlit **16×2-character LCD** plus **2-character seven-segment LED**. Diagonal, color and touch remain unverified. |
 | Dimensions / mass | **482 W × 305 D × 89 H mm; 4.8 kg**. Far exceeds preferred 200 W × 140 D mm. |
@@ -1699,6 +1699,10 @@ Current comparison summary, reviewed 2026-10-28. Discontinued rack guitar multi-
 | IDR verified new | Unknown; no condition-qualified exact hardware offer established. |
 | IDR condition-unverified ask | No qualified exact Shopee GT-PRO item retained. Seller/item, condition, stock, bundle, warranty, region, voucher and current price remain unverified. Search non-results do not establish market absence. |
 <!-- comparison evidence ends -->
+
+### GT-Pro — alternate global Patch Level role, 2026-10-31
+
+[Own manufacturer manual,pp55,63](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf),indexed original text: SYSTEM→EXP1/2 Func offers **Patch Level** separately from Foot Volume and Assignable. Thus a global direct patch-level target is documented without setting ordinary ASSIGN in each patch. **Patch Level parameter0–200** is distinct from FV0–100; neither proves the physical pedal’s effective endpoints,held-position recall orattenuation ofphones,bypass,tails/recordedHold. Do not equate Patch Level with final hardware master output orassume it inherits FVcurves. This adds an alternate volume-role lead;dedicated FVOn/Off/MIN/MAX precedence remains unresolved. No hardware test/download.
 
 ### GT-Pro — retained earlier overview
 
