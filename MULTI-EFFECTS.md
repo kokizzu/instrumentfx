@@ -402,6 +402,8 @@ Original finding references: [Source1](NUX.md#trident-nme-5)<!-- historical-link
 
 ## Separate displays for effect footswitches
 
+[Complete requested-brand collection, including pending models and controllers](FOOTSWITCH-DISPLAYS.md).
+
 This layout comparison follows the requested HX Effects-style per-switch labels. It does not certify launch recency, full profiles or current stock.
 
 | Model | Separate switch displays | Processor scope | Qualification |

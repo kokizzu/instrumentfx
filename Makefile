@@ -2197,3 +2197,7 @@ research-review-hotone:
 .PHONY: research-commit-melofty-display
 research-commit-melofty-display:
 	python3 scripts/display_audit_melofty.py
+
+.PHONY: research-commit-display-collection
+research-commit-display-collection:
+	python3 scripts/display_audit_melofty.py collection
