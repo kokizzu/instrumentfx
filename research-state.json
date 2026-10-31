@@ -130498,6 +130498,22 @@
       ],
       "finding": "Original p28 loop continues across presets, global settings and 0.5dB volume steps. 1.2.56 dated2024-02-15 adds instrument-path pre/post looper placement, MIDI master/looper commands and EXP switchless bypass.",
       "limits": "No direct global analog EXP assignment or numeric coverage inferred; current firmware untested."
+    },
+    "tone_master_1845_effect_additions": {
+      "source": "https://support.fender.com/hc/en-gb/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+      "counts": {
+        "Stompbox": 6,
+        "Modulation": 1,
+        "Delay": 2,
+        "Reverb": 3,
+        "Dynamics": 1,
+        "Filter": 1,
+        "Pitch": 1
+      },
+      "total": 15,
+      "qualification": "Update increments only. Complete current census not established. Primary guide H link discovered through third-party source but web reader rejected document/pdf; third-party counts not adopted.",
+      "pending_guide": "https://www.fmicassets.com/Damroot/Original/10146/OM_2274900000_Tone-Master-Pro-Model-Guide-H_EN.pdf",
+      "pending_manual": "https://www.fmicassets.com/Damroot/Original/10032/OM_2274900000_Tone-Master-Pro_EN.pdf"
     }
   },
   "gt_pro_global_patch_level_20261031": {
