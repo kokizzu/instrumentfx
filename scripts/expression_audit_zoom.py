@@ -22,5 +22,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): reconcile NEURIG manual revision and loop lifetime'
+        message='research(zoom): census G5n V3 chart and utility processing costs'
     print(git('commit','-m',message))

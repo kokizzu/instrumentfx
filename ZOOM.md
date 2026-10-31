@@ -3607,6 +3607,18 @@ Checked2026-10-31: [manufacturer shared effect list](https://zoomcorp.com/media/
 **Complete sheet count:148 entries**,including16amps+16cabinets;not a current/installed total. Preserve126/128/159 headline scopes. Pedal entries do not establish global assignment;Tail parameters describe effect bypass,not preset-change spillover.
 
 
+### G5n — V3 processing-chart census, 2020 revision
+
+Checked2026-10-31 against the [manufacturer processing chart](https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf),©2020,Z2I-2808-02,all six pages. The chart explicitly covers **G5n firmware3.0**;the filename’s v2 is not a firmware designation. Text extraction reverses some label word order;no visual control count inferred.
+
+| Field | Evidence / qualification |
+|---|---|
+| Categories / chart-entry census | Dynamics10,Filter14,Drive24,Modulation23,SFX4,Delay17,Reverb15,Pedal18,Amp16,Cabinet16: **157 entries**,plus **four looper variants and one Rhythm entry=162 chart entries**. This is a document census,not installed/factory availability ([2020 V3 chart](https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf));it does not reconcile the separate159-model Japan headline. The older148-entry2017 census remains independently dated. |
+| Processing / V3 utility costs | Both mono looper variants cost **7**,both stereo variants **10**,Rhythm **8**,OutputVP **3**,against the documented100-point ceiling ([2020 V3 chart](https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf)). This corroborates the older looper costs for this chart’s G5n3.0 scope;future/current firmware equivalence andarbitrary nine-effect combinations remain unverified. |
+
+The separate [manufacturer VioletDST update](https://zoomcorp.com/en/guitarlab-news/violetdst-update/) explicitly offers G5n patches and describes VioletDST as a Suhr Riot Reloaded model,Duo Phase as two combined phasers,HotSpice as sitar simulation,andSoftEcho as a soft echo with modulation. Sitar simulation does not establish polyphonic synth tracking. OutputVP’s chart entry andDSP cost do not establish global pedal assignment orall-preset insertion. No downloads,installation orhardware operation.
+
+
 ## G6
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
