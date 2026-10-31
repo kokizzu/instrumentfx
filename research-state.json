@@ -130784,5 +130784,15 @@
     "section": "1.3.6 dated2022-01-13,printedp5",
     "finding": "PLAY IN/OUT direction indicators,HotKnobz graphical feedback,BUFFERED/NO TRAILS disengage cuts delay/reverb tails.",
     "limits": "Currentdimensionaxisconflictunchanged;notglobalEXPcoverage. No newqualifiedusedShopeeoffer;no downloads/device test."
+  },
+  "fm9_historical_display_startup_20261031": {
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "revision": "August2022 firmware3.x Original/Turbo",
+    "printed_pages": [
+      90,
+      98
+    ],
+    "finding": "MiniLCDcontrast/combinedbrightness/inversion;MIDIInitialValue excludeslocalFCpedals.",
+    "limits": "Not currentMKII numericrange/recall;newercontrastannouncementnotprimarycorroborated. No download/test."
   }
 }
