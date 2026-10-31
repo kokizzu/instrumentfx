@@ -129368,6 +129368,13 @@
         "idr": 25502000,
         "status": "Habis,with voucher",
         "qualification": "Same item as historical25552000; snapshot voucher terms conflict. No independent new/used or stock confirmation."
+      },
+      "bypass_boundary": {
+        "checked": "2026-11-01",
+        "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+        "revision": "June2023 pp4–6,explicit FM3 applicability",
+        "finding": "Input bypass=THRU/grid pass;Output bypass=MUTE/corresponding output andgrid mute;not whole-system analog bypass orverified global EXP during bypass.",
+        "remaining": "Global EXP endpoints/held-position recall andUSB-playback attenuation unverified in checked original sources;do not repeat per-block modifier ranges as global ranges."
       }
     },
     "fractal_fc": {
@@ -130662,7 +130669,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "FM3 MKII Turbo: current exact-model range/recall and output coverage first. HX Effects current3.80 source rechecked;global analog target andnumeric attenuation remain undocumented in checked material,not No. Then PLETHORA X5 andTone Master Pro unresolved LCD/control andanalog-volume gaps;remaining confirmed LCD processors before OLED/shared-screen/controller work. Preserve deferred no-treadle tasks andindependent BOSS GT-Pro cursor.",
+      "next_check": "PLETHORA X5 all-Board analog expression-volume scope,then Tone Master Pro remaining LCD/control gaps. FM3 current endpoints/recall sources remain insufficient;block-bypass distinction saved separately,not proof of universal EXP mute. Continue remaining confirmed individual-LCD processors before OLED/shared-screen/controllers. Preserve independent BOSS GT-Pro anddeferred no-treadle tasks.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133345,6 +133352,11 @@
       "file": "LINE6.md",
       "model": "HX Effects",
       "heading": "### HX Effects — multi-action LCD visibility"
+    },
+    {
+      "file": "FRACTAL-AUDIO.md",
+      "model": "FM3 MKII Turbo",
+      "heading": "### FM3 — input-through versus output-mute bypass"
     }
   ],
   "model_note_scope_correction_20261101": {

@@ -428,6 +428,18 @@ Checked **2026-11-01** in the [manufacturer FM3 release-history reproduction](ht
 Numeric global-volume endpoints,current installed behavior andbypass/USB attenuation remain unverified. These fixes do not justify treating MIDI-only Initial Value as analog-pedal recall. No download,firmware update orhardware test.
 
 
+### FM3 — input-through versus output-mute bypass
+
+Checked **2026-11-01**, [manufacturer Blocks Guide,June2023,pp4–6](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf),explicitly including FM3. This is block behavior,not a newly established whole-unit bypass mode orfirmware13 hardware test.
+
+| Field | Documented boundary / qualification |
+|---|---|
+| Routing / Input block bypass | Fixed **THRU**:the bypassed block passes its grid input like a shunt;an engaged Input block instead discards grid input. This is not analog relay bypass. |
+| Routing / Output block bypass | Fixed **MUTE**:bypassing silences the corresponding output andthe onward grid signal. Do not transfer the Input block’s THRU behavior to Output. |
+| Expression / remaining coverage | This narrows the meaning of block bypass;it does not specify global pedal attenuation while bypassed. Direct USB playback remains separately routed,so output-block mute does not certify universal headphone/USB silence. |
+
+No download ordevice operation. Global-volume numeric endpoints andanalog held-position recall remain unresolved.
+
 ## FM9 MKII Turbo
 
 Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI seller item remains separate. Current product/store establish revision. Linked2022 manual covers original/Turbo but predates MKII display revision;historical physical figures below require current corroboration.
