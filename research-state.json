@@ -137385,5 +137385,16 @@
     "qualification": "Resistance/taper/wiper/toeelectricalunknown;notG11pinoutorM-VAVEcompatibilityproof. IRformat/capacityrecheckfoundalreadyrecorded.",
     "next": "ContinueLCDpriorityexactmodelgaps;retainindependentGT-Procursor.",
     "downloads": false
+  },
+  "b3n_fp02m_cable_20261101": {
+    "status": "partial manufacturer clarification; individual-LCD priority",
+    "source": "https://zoomcorp.com/ja/jp/accessories/mic-capsules-foot-switches-and-pedals/fp02m/",
+    "finding": "Japanese manufacturer included-items list explicitly names standard stereo phone cable for FP02M. Preserve older B3n FP02 manual name and English page quarter-inch-only observation.",
+    "unresolved": [
+      "resistance/taper/electrical pinout",
+      "global volume assignment, endpoints, recall and output coverage",
+      "B3n USB audio remains unverified; do not transfer B3 or GCE-3 capabilities"
+    ],
+    "next": "Continue remaining individual-LCD processor gaps before OLED, shared-screen and broader no-treadle candidates; preserve independent BOSS GT-Pro cursor."
   }
 }
