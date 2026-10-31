@@ -129265,11 +129265,10 @@
       "Fractal Audio FM3 MKII Turbo",
       "HeadRush Prime",
       "HeadRush Pedalboard",
-      "Fender Tone Master Pro"
-    ],
-    "remaining_candidates": [
+      "Fender Tone Master Pro",
       "Line 6 Helix Stadium XL Floor"
     ],
+    "remaining_candidates": [],
     "qualification": "Existing profiles are not new admissions or proof of recent launch. Controller-only products excluded.",
     "source": "https://cdn.mediavalet.com/aunsw/musictribe/sSjbS7aFnE6cqRC8D2gfUg/HooGpCuT9kurBB7T-lgWaQ/Original/QSG_TE_0709-AIK_PLETHORA-X5_WW.pdf",
     "access": "Indexed manufacturer controls readable; direct500; no visual audit.",
@@ -129360,6 +129359,11 @@
       "source": "https://line6.com/helix/helix-guitar-processor.html",
       "status": "Individual strips confirmed; exact count unresolved",
       "conflict": "Product13 footswitch strips versus cheat sheetFS1–12 plus expression toe; no inferred resolution."
+    },
+    "stadium_xl": {
+      "checked": "2026-10-31",
+      "source": "https://line6.com/helix-stadium/",
+      "finding": "Twelve OLED strips; explicitlyXL-only, not transferred to smaller StadiumFloor."
     }
   }
 }
