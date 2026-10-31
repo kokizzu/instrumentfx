@@ -626,6 +626,19 @@ Checked **2026-10-31** against [ELECTORI’s exact X5 Rev1.3 manual](https://www
 
 Manufacturer1.5.6 notes separately claim fixes for tap-tempo/TempoSync freezes,tuner LED blinking andreverb stopping;no installed-version orhardware verification. [Preserved original release text][PX5-FM]. No download ordevice operation.
 
+
+### PLETHORA X5 — Board organization and TonePrint deletion
+
+Checked **2026-10-31** against [manufacturer release history](https://cdn-media.empowertribe.com/de6f97186ddb4d5d9a494639112a03ea/Plethora_X5_X3_Release_notes_FW_v1_4_3.pdf), PDF pp7–9,11. These sections explicitly concern X5, not X3.
+
+| Field | Revision-qualified behavior |
+|---|---|
+| Memory / deletion boundary | **1.2.18,2020-12-18:** deleting a TonePrint from the unit’s list preserves existing Boards’ settings/sound instead of resetting their pedals to the default TonePrint. This is distinct from deleting or clearing a Board and does not establish retained audio loops. |
+| Memory / Board organization | Same release lets Create/Duplicate choose among empty Board locations; in EDIT, Board toggle up offers Create/Duplicate and down offers Delete/Clear. **1.1.43,2020-04-15** adds app Board reordering/renaming and synchronization on connection. Neither supplies a new onboard capacity or a factory-filled count. |
+| Live / reordering and app transport | **1.2.18** preserves a pedal’s bypass state during Quick Swap and permits switching USB/Bluetooth app connections without reboot. This is not Bluetooth audio or guaranteed preset-change spillover. |
+
+No device content changed, app installed or file downloaded; installed-version behavior remains untested.
+
 <!-- comparison evidence ends -->
 
 Variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers unresolved. No download or visual inspection claimed. All facts from own-model sources; no X3 specification substitution.

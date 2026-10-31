@@ -131581,5 +131581,19 @@
     ],
     "remaining": "Current MKII/firmware12 equivalence and global analog EXP coverage of USB returns,phones,bypass and loops unverified",
     "next": "Individual LCD models first; independent general BOSS GT-Pro cursor preserved"
+  },
+  "plethora_x5_memory_organization_20261031": {
+    "checked": "2026-10-31",
+    "record": "TC-ELECTRONIC.md#plethora-x5--board-organization-and-toneprint-deletion",
+    "source": "https://cdn-media.empowertribe.com/de6f97186ddb4d5d9a494639112a03ea/Plethora_X5_X3_Release_notes_FW_v1_4_3.pdf",
+    "scope": "X5-specific1.2.18 and1.1.43 sections; PDFpp7–9,11",
+    "findings": [
+      "Deleting TonePrint preserves settings/sound of Boards using it",
+      "Create/Duplicate can choose empty Board location; distinct Delete/Clear operations",
+      "App reorder/rename and Board synchronization",
+      "Quick Swap retains bypass; USB/Bluetooth app transport switching without reboot"
+    ],
+    "remaining": "Capacity127 versus unlimited wording, factory-filled count, recorded-loop persistence, current-firmware behavior and global analog volume remain unresolved",
+    "next": "Continue individual LCD models first; preserve independent BOSS GT-Pro cursor"
   }
 }
