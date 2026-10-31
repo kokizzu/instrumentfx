@@ -4050,6 +4050,7 @@ Guitar and bass multi-effects; large; built-in expression. Specifications below 
 | Required field | Verified specification / remaining uncertainty |
 |---|---|
 | Built-in / external expression | Built-in pedal with toe-operated effect on/off; one CONTROL IN for an external ZOOM FP02M. Separate rear power switch is not an expression control. [G11-M] |
+| Expression / external patch assignment and toe state | **V2 pp51–56:** enable EXTERNAL PEDAL,select the patch,then add its pedal effect;**EXT** identifies the external assignment. Connecting an external pedal permits **two PEDAL-category effects**,not two arbitrary unrestricted destinations orautomatic all-preset volume. Front-end treadle toggles are **not saved**;Effects Section footswitch toggles **are saved**. Calibration adjusts sensitivity separately from assignment. [Own V2 manual](https://zoomcorp.com/documents/461/E_G11v2.pdf),checked2026-10-31;no device test. |
 | Physical controls | **11 footswitches**: five effect switches plus six SCROLL/PATCH/BANK navigation switches; **1 separate AMPLIFIER button**. Six amp rotary controls and a rear MASTER are explicit; complete rotary total across the five effect panels remains **unverified** pending successful visual inspection. Toe switch and rear power switch are separate. Marketing's five stomp switches must not erase the navigation switches. [G11-M, pp.11–14,23] |
 | Main display | **5-inch, 800×480 TFT color touchscreen**. [G11-P, G11-M p.104] |
 | Additional displays | **Six 128×32 dot-matrix LCDs**, one amp plus five effect displays. V2 pp12,23,97 pair effect displays with stomp controls and identify LCD1–5 separately from AMP; five effect panels are operated at once, with scrolling for longer chains. Their diagonals, explicit color mode and touch status remain unverified; the main screen's five inches do not apply. [G11-M] |
@@ -4082,6 +4083,17 @@ Guitar and bass multi-effects; large; built-in expression. Specifications below 
 | Condition-verified used offer | **?** | Not established in this pass. No arbitrary percentage of a retail ask used. |
 
 These are individual asking observations, not completed-sale statistics or an active new/used market range. Confirm actual unit,region,accessories,warranty,shipping and stock independently. No exchange-rate assumption.
+
+### G11 — additional exact Shopee asks
+
+Checked **2026-10-31**. Neither offer establishes verified used/new condition orcurrent checkout stock;older offers remain independently qualified.
+
+| Class | IDR ask | Exact offer / access limits |
+|---|---:|---|
+| Condition-unverified cached hardware | **Rp11.200.000** | [jayapratamamusic,shop969726322/item20786758023](https://shopee.co.id/Zoom-G11-Multi-Effect-Guitar-Processor-Original-Efek-Pedal-Gitar-G-11-i.969726322.20786758023),KotaJakartaPusat. Four-month search snapshot gives26June arrival;direct one-month cache instead givesfour-hour delivery. Neither banner proves current stock. Condition,revision,working state,adapter/bundle,warranty,vouchers,shipping/tax anddelivered total unknown. Late-delivery compensation not deducted. |
+| Condition-unverified;service unavailable | **Rp11.200.000** | [Eleven Music,shop12356205/item28560180011](https://shopee.co.id/ZOOM-G-11-Guitar-Multi-effects-Pedal-Original-Zoom-G11-i.12356205.28560180011),KotaJakartaPusat. Four-month indexed body explicitly says **Layanan Tidak Tersedia**;direct reader cache miss. Condition,revision,bundle,adapter,warranty,stock andcheckout unknown;not a currently purchasable lower bound. |
+
+Equal asks do not establish the same seller orunit. No screenshots,downloads orcheckout operations.
 
 ### G11 — official sources and inspection limits
 
