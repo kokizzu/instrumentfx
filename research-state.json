@@ -130687,7 +130687,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Zoom G3 next,then B3n/B3 remaining no-treadle individual-LCD gaps. G3n specialswitch LCD labels andexact pendingShopee item11313397137 saved withoutcondition/stock validation. Preserve unresolvedOutputVP scope andothertechnical gaps;seek new evidence ratherthan repeat unchangedpages. Independent BOSS GT-Pro anddeferred no-treadle tasks retained;OLED/sharedscreen/controllers secondary.",
+      "next_check": "Zoom B3n next,then B3 no-treadle individual-LCD gaps. G3 memory/update/reset distinction saved;globalEXP stillperpatch withrhythm/looper exclusion,not a qualifiedallpresetvolume solution. Seek new exactmodel evidence;preserve independent BOSS GT-Pro anddeferred no-treadle tasks;OLED/shared-screen/controllers secondary.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -130719,6 +130719,12 @@
         "status": "Partialpendinghardwarelead;condition/variationcontents/stockunknown,excludedfromverifiedprice ranges"
       },
       "remaining": "No newOutputVPglobalassignment/range/coverage evidence;buttonquantity/visualcensus unverified."
+    },
+    "zoom_g3_memory_20261101": {
+      "source": "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf",
+      "scope": "Sixeffectsharedmanual pp14–15,24,39;originalG3 supported,notG3Xpedalmechanics",
+      "finding": "AutoSaveONautomaticsaves andexcludescurrentpatchasStoreSwapdestination;firmwareupdatepreservessavedpatches;AllInitialize restoresallsettingsincludingpatches.",
+      "remaining": "USB/control subtype andvisualcontrols unresolved;PDFscreenshot returnednoinspectableimage;no imagecount claimed. Exactusedoffer remainsold/soldout,no newverifiedstock."
     }
   },
   "gt_pro_global_patch_level_20261031": {
@@ -133421,6 +133427,11 @@
       "file": "ZOOM.md",
       "model": "G3n",
       "heading": "### G3n — special switch labels and exact pending hardware offer"
+    },
+    {
+      "file": "ZOOM.md",
+      "model": "G3",
+      "heading": "### G3 — automatic storage, update and reset boundaries"
     }
   ],
   "model_note_scope_correction_20261101": {

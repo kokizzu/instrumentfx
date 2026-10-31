@@ -3300,6 +3300,20 @@ Checked **2026-10-31** against the original ZOOM effects catalogue on its [regio
 
 Checked **2026-11-01** in the search-indexed [original G3 manufacturer page][G3-P]: **three backlit dot-matrix LCDs**, with corresponding effect switches and knobs. Its six-effect/116-model specification,100 patches and234W×170D×54H mm body identify original G3. The [shared manufacturer manual][G3-MC], tuner chapter, explicitly identifies435–445Hz as the standard pitch for middle A and retains it after power-off; this does not specify detection bandwidth. No diagonal, graphics-color or touch claim follows from dot-matrix technology. No download, visual inspection or hardware test.
 
+
+
+### G3 — automatic storage, update and reset boundaries
+
+Checked **2026-11-01**, [manufacturer shared G3/G3X operation manual,printedpp14–15,24,39](https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf). This is the six-effect shared-manual revision;G3X treadle instructions are not transferred.
+
+| Field | Documented memory behavior / qualification |
+|---|---|
+| Memory / Auto Save anddestination | Auto Save ON stores adjusted parameters automatically;OFF requires manual saving. WithON,the active patch cannot be selected as a Store/Swap destination. This does not create another preset bank orchange the100-location capacity. |
+| Firmware / saved patch preservation | The manual expressly says firmware updating does **not erase saved patches**. This is documented normal-update behavior,not a guarantee against interrupted-update failures;no update was performed. |
+| Memory / factory initialization | **All Initialize restores all settings,including patches,to factory defaults**. This is different from updating firmware;the described procedure does not establish selective single-patch recovery orfactory write protection. No reset performed. |
+
+The exact usedShopee item28976797436 still appears sold out atits historical ask;no refreshed live condition orstock established. USB/control connector subtypes,visual control census andexpression bypass/headphone/tail coverage remain unverified. No download orhardware operation.
+
 <!-- comparison evidence ends -->
 
 Multi-model Hope Music listing G3/G3X/G3XN, shop703817770/item11099808237, showed Rp1,899,000–2,699,000 across five unresolved variations. Not assigned to G3. [Listing](https://shopee.co.id/Efek-Zoom-G3-G3X-G3XN-i.703817770.11099808237).
