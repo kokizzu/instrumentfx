@@ -525,6 +525,17 @@ Checked **2026-10-31**,[original manufacturer release-history PDF reproduction](
 
 Installed behavior untested. Current X3 product listing still heads1.4.3 while the preserved manufacturer history includes1.5.6;no downgrade recommendation. Desktop OS minima remain unresolved. No local download,installation ordevice operation.
 
+
+### PLETHORA X3 — supplemental Indonesian used hardware offer
+
+Checked **2026-10-31**. Fresh Shopee searches reproduced the existing NEO MUSIC listing rather than establishing a new condition-qualified offer. This separate marketplace observation does not resolve Shopee stock orused pricing.
+
+| Field | Asking-price evidence / qualification |
+|---|---|
+| Used IDR / Carousell cached offer (checked 2026-10-31) | [Carousell item1346874212,seller@m_r_farhan](https://id.carousell.com/p/tc-electronic-plethora-x3-multi-effects-n-strymon-jhs-boss-keeley-gfi-electro-harmonix-1346874212/),Manggarai. Heading **Rp4.999.000**;description instead asks **Rp4.500.000 direct transfer /Rp5.000.000 intermediary payment**. Preserve the mismatch andpayment basis;no single current price inferred. Seller marks like-new/second lightly-used,claims normal/original,andlists **unit+box+adapter**,with cosmetic wear. These are seller claims,not inspection orauthenticity verification. Three-month search cache says posted one year earlier;direct reader cache miss. Live stock,working condition,firmware,revision,shipping,tax,warranty anddelivered total unknown;no voucher ordiscount applied. **Non-Shopee supplemental evidence**,not a completed sale orcheckout quote. |
+
+No seller contacted,purchase initiated,download orhardware operation. Earlier Shopee asks andtheir access/condition limits remain unchanged.
+
 <!-- comparison evidence ends -->
 
 Checked2026-10-17; historical indexed asks, not current stock/checkout. Condition,variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers unresolved. No download or visual inspection claimed.
@@ -552,16 +563,6 @@ Control-count recheck2026-10-17 uses the complete13-callout own-model text and s
 **176.53 W×116.75 Dmm** fits preference. Master-volume position,min/max,bypass/tail/looper coverage throughMIDI remain unverified;not inferred fromTrueBypass specification. OnboardBOARD selector isseparate fromfoot-operated boarddown/up,whose currentmapping remains unverified. PriorCC100GlobalExpression evidence isMIDI-only,not necessarily globalmastervolume. OfficialMIDI table failedretrieval thispass;older sourcequalification retained.
 
 [Official V1.0 QSG][PX3-M] returned502;readthe matchingX3 V0.0 manufacturerbody,notgeneratedFAQ. Newerguide differences remain unverified. [ExactNEOMUSIC shop158235298/item28021818540][PX3-O1] returnedcachemiss2026-10-19. PreserveRp6.180.000 andseparateGeloraRp7.508.100 historicalasks;currentstock,condition,bundle,warranty,shipping andusedoffers unknown. No localdownload orhardwaretest.
-
-### PLETHORA X3 — supplemental Indonesian used hardware offer
-
-Checked **2026-10-31**. Fresh Shopee searches reproduced the existing NEO MUSIC listing rather than establishing a new condition-qualified offer. This separate marketplace observation does not resolve Shopee stock orused pricing.
-
-| Field | Asking-price evidence / qualification |
-|---|---|
-| Used IDR / Carousell cached offer | [Carousell item1346874212,seller@m_r_farhan](https://id.carousell.com/p/tc-electronic-plethora-x3-multi-effects-n-strymon-jhs-boss-keeley-gfi-electro-harmonix-1346874212/),Manggarai. Heading **Rp4.999.000**;description instead asks **Rp4.500.000 direct transfer /Rp5.000.000 intermediary payment**. Preserve the mismatch andpayment basis;no single current price inferred. Seller marks like-new/second lightly-used,claims normal/original,andlists **unit+box+adapter**,with cosmetic wear. These are seller claims,not inspection orauthenticity verification. Three-month search cache says posted one year earlier;direct reader cache miss. Live stock,working condition,firmware,revision,shipping,tax,warranty anddelivered total unknown;no voucher ordiscount applied. **Non-Shopee supplemental evidence**,not a completed sale orcheckout quote. |
-
-No seller contacted,purchase initiated,download orhardware operation. Earlier Shopee asks andtheir access/condition limits remain unchanged.
 
 ## PLETHORA X5
 
