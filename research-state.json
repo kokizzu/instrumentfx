@@ -130539,6 +130539,17 @@
       ],
       "finding": "Root now distinguishes STOMP labels/LED colors, built-in MASTER range/position and conflicting external EXP numbering.",
       "limits": "Mini-screen technology/count and external master/global coverage unresolved; no-treadle exclusion retained."
+    },
+    "axom_usb_routing_20261031": {
+      "source": "https://shop.warwick.de/media/23/53/74/1790324346/4on4_MEL_AXOM_MAX_Manual_EN.pdf?ts=1790324346",
+      "pages": [
+        33,
+        34,
+        35,
+        57
+      ],
+      "correction": "192kHz claim also in manufacturer p33, versus48kHz p57; not solely distributor discrepancy.",
+      "finding": "Root now records directional USB channel routing and contextual FS8/9 navigation. Playback bypasses chain; attenuation unknown."
     }
   },
   "gt_pro_global_patch_level_20261031": {

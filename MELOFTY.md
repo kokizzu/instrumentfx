@@ -52,7 +52,7 @@ Checked2026-10-31: [manufacturer V1.7.4 manual](https://shop.warwick.de/media/23
 | Controls | p5: **4 rotaries,9 footswitches,4 named panel buttons** HOME/SYSTEM/SAVE/EXP;separate power/lock button. Encoder pushes not counted twice. Mini-screen count/technology still unresolved. |
 | Expression / power | p57: external **10–100kΩ TRS** pedal;**9VDC,3A,center-negative** supply. Rating is not measured draw. |
 | IR / NAM loading | pp51–52,55–56: AXOM Controller imports **.nam** files;WAV IR specifications48kHz/32bit/up to2048samples. Supported NAM architectures,conversion requirements and live import test unresolved;this supersedes the earlier lack of a manufacturer .nam workflow. |
-| USB / source conflict | p57: **USB2.0,8-in/8-out,48kHz/24bit**. Distributor192kHz claim remains separately qualified;do not treat32bit converter processing as USB resolution. |
+| USB / source conflict | p57: **USB2.0,8-in/8-out,48kHz/24bit**; **own manualp33 also claims24bit,44.1–192kHz**. Thus the rate discrepancy is internal as well as distributor-versus-specification; supported rates remain unresolved. Do not treat32bit processing as USB resolution. |
 
 Still a partial discovery lead outside active counts. New quick-guide link surfaced but web reader rejects its23.3MB size: [importer-linked guide](https://shop.warwick.de/media/96/42/2c/1791505539/7fj5_MEL_Axom_Max_Quick_Guide_EN.pdf?ts=1791505539).
 
@@ -67,3 +67,12 @@ Checked2026-10-31,[own V1.7.4 manual pp22–24](https://shop.warwick.de/media/23
 | Expression / naming conflict | p23 introduces externalEXP3 but then says externalEXP2;rear-panelp6 and controller selectorp24 identify **EXP3(EXT)**. Preserve this internal typo/conflict;do not invent a second external socket. Parameter assignments offer individual minimum/maximum values. |
 
 Built-in treadle keeps this model outside the no-built-in-expression shortlist. No pedal operation or display visual inspection.
+
+### AXOM MAX — USB routing and looper navigation
+
+Checked2026-10-31,[ownV1.7.4 manual pp33–35](https://shop.warwick.de/media/23/53/74/1790324346/4on4_MEL_AXOM_MAX_Manual_EN.pdf?ts=1790324346). Panel screenshot still fails cache access;no visual count inferred.
+
+| Field | Revision-qualified evidence |
+|---|---|
+| USB / route directions | Computer playback1/2 bypasses the effects chain;3/4,5/6,7/8 can feed chain inputs for reamping. Device-to-computer1/2,3/4,5/6 can carry chain outputs;7/8 carries dry A/B inputs. USB-only output nodes avoid duplicate hardware/software monitoring. This is routing,not proof of192kHz operation or master-pedal attenuation of computer playback. |
+| Looper / navigation | Within Looper,holdFS1 to select FS8/9 preset−/+ or Subpatch−/+ navigation. OrdinaryFS8/9 instead control reverse/half-speed. Context-dependent navigation does not establish a permanent preset-down/up pair or uninterrupted loop playback across presets. |
