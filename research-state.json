@@ -130906,5 +130906,25 @@
       "VisualrotarycountandauxLCDphysicalspecifications",
       "QualifiedusedShopeehardwareoffer"
     ]
+  },
+  "m13_expression_scope_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://line6.com/data/l/0a0600729b4f4af8b8d2e9557/application/pdf/M13_Advanced_Users_Guide.pdf",
+    "sections": [
+      "2•2–3",
+      "3•3",
+      "4•1",
+      "5•1"
+    ],
+    "findings": [
+      "LCDpixelmarkersshowheel/toeendpoints",
+      "FXmapping/endpointsScene-stored;globallooperrouteplayback/overdub/EQ",
+      "Truebypassconditional;DSPbypassforloop/trails"
+    ],
+    "remaining": [
+      "Independentglobalguitarvolume,endpoints,startuprecall,outputcoverage",
+      "QualifiedShopeeprocessoroffer;adapter/M9resultsexcluded"
+    ],
+    "admission": "Partialleadoutsideactivecounts;notfullyverified"
   }
 }

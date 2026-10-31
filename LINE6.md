@@ -1088,6 +1088,19 @@ Checked 2026-10-31: [manufacturer-authored service manual reproduction](https://
 
 No disassembly,service mode,test procedure or file download performed. Earlier unknown power/control statements remain dated provenance; these historical specifications supersede only the fields established above.
 
+### M13 — LCD endpoint markers and expression/bypass boundaries
+
+Checked2026-10-31 from [manufacturer v2.0 Advanced Guide](https://line6.com/data/l/0a0600729b4f4af8b8d2e9557/application/pdf/M13_Advanced_Users_Guide.pdf),§§2•2–3,3•3,4•1,5•1;no hardware operation orlocal download.
+
+| Field | Evidence / qualification |
+|---|---|
+| Display / heel-toe feedback | V2 adds pixel cutouts in parameter graphics to show heel/toe values;absent markers mean no endpoints set for that parameter. Endpoints are set by moving the pedal then adjusting the chosen parameter. Multiple parameters can move together. These markers are not pedal-position recall orscreen touch evidence. |
+| Expression / scope | FX pedal assignments andheel/toe settings are Scene-stored. The global looper-pedal route addresses playback,overdub andEQ;it is not documented live-guitar mastervolume. An independent global guitar-volume assignment,universal volume endpoints andstartup recall remain unverified. |
+| Live / bypass and tails | Relay True Bypass requires all four FX units bypassed,looper stopped,andLooper Controls inactive. DSP Bypass is required for loop playback ordelay/reverb trails while all FX are bypassed. This does not prove pedal attenuation of tails/recordedloops orscene-change spillover. |
+
+Shopee search still produced no qualified exact M13 processor offer;adapter prices andM9 units excluded. Partial lead remains outside active counts.
+
+
 ## Other Line 6 records awaiting consolidation
 
 HX Stomp and HX Stomp XL already have research in legacy pages and are not newly discovered models. HX Effects is now root-canonical above. Merge the complete remaining records and sources before retiring the old files. POD Express Black is a distinct sound library but **an exact Indonesian Shopee hardware listing was not established in this pass**; Thai marketplace results must not be labelled Indonesian evidence. Ampero One is already recorded; do not restart that stale cursor. Keep brand/category/instrument documents at repository root and do not create or run GitHub workflows.
