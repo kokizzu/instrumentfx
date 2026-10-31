@@ -132726,5 +132726,14 @@
     "printed_page": 104,
     "finding": "Added headphone power and qualified maximum line levels; source terminology preserved.",
     "limits": "No measured results or expression coverage inferred."
+  },
+  "g5_exact_faq_usb_firmware_20261031": {
+    "sources": [
+      "https://www.zoom.co.jp/node/708",
+      "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G5_v1.20_E.pdf"
+    ],
+    "finding": "Exact FAQ closes USB-power and channel-count gaps;1.20 original history recovered.",
+    "access": "FAQ indexed only;direct502. PDF original body read.",
+    "limits": "Battery and current installed behavior remain unresolved."
   }
 }
