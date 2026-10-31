@@ -3587,6 +3587,18 @@ Checked **2026-11-01**, [own G3/G3X manual, printed p5](https://zoomcorp.com/med
 
 This confirms ordinary-pickup setup choices,not external expression wiring,global volume orcurrent host compatibility. No device operation,visual count orlocal download.
 
+### G3X — automatic pedal targets and three-screen chain view
+
+Checked **2026-11-01** in the [manufacturer G3/G3X manual, printed pp3,18–19](https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf), linked by exact G3X support. Shared original-model document; G3Xn behavior is not transferred.
+
+| Field | Documented operation / boundary |
+|---|---|
+| Expression / AUTO ASSIGN targets | **PedalVx→Freq; PedalCry→Freq; TheVibe→Speed; PDL Pitch→Bend; PDL MnPitch→Bend.** Multiple eligible active effects receive their corresponding assignments together. AUTO ASSIGN endpoints are fixed automatically; adjustable numeric endpoints are not established here. |
+| Display / chain window | Three effects appear at once; **SCROLL keys change the visible effects** within the up-to-six-effect chain. Three physical LCDs do not limit processing to three effects. DSP restrictions still apply. |
+
+These are patch-level control and display behaviors, not global volume assignment, external-pedal wiring or a visual button census. No download or device test.
+
+
 ## G3Xn
 
 Guitar multi-effects; checked **2026-10-17**, partial first pass. Exact G3Xn, not G3n, G3X or G3. Bass capability unresolved; no ownership inferred. Manufacturer UK page marks discontinued; aftermarket offers do not reverse that status.
