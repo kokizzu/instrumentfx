@@ -3585,6 +3585,19 @@ Checked2026-10-31 against [manufacturer V2 manual](https://zoomcorp.com/media/do
 | Display / operating views | STOMP switches between effect names and parameters. The Overview highlights the effects visible on the four Unit Displays; some effect-specific switch functions use light text on a dark background. MEMORY shows patch numbers/names. These views do not add physical screens or establish LCD color/touch. |
 | Live / level stages | Patch LEVEL spans **0–120**. The separate MASTER LEVEL spans **−∞…+6dB**,center0dB. Output booster acts just before output,emulating a tube booster;fully left disables boost. TONE is neutral at center,emphasizes lows left and highs right. No numeric boost range or global analog expression assignment established. |
 
+### G5n — partial category census, 2017 shared sheet
+
+Checked2026-10-31: [manufacturer shared effect list](https://zoomcorp.com/media/documents/E_G5n_G3n_G3Xn_FX-list.pdf.pdf),©2017,Z2I-2556-04,pp3–6,21–25. G5n is explicitly covered;V2 preloaded markers differ from Guitar Lab additions. This is a document census,not an installed/current-library total.
+
+| Field | Named choices |
+|---|---|
+| Categories / Dynamics | **10**: Comp; RackComp; SlowATTCK; ZNR; MuteSW; GrayComp; NoiseGate; OptComp; BlackOpt; LMT-76. |
+| Categories / Filter | **14**: AutoWah; Resonance; Cry; SeqFLTR; Gt GEQ; Gt GEQ7; St Gt GEQ; ParaEQ; EG FLTR; RndmFLTR; LowPassFL; Exciter; Step; LFO FLTR. |
+| Categories / Reverb | **14**: Air; Room; Hall; HD Hall; Spring; FD Spring; Plate; EarlyRef; SpaceHole; Church; Ambience; ParticleR; Chamber; GateRev. |
+| Categories / Pedal | **17**: PDL Vol; BlackWah; ChromeWah; WAH100; PDL Pitch; PDL MnPit; PDL Vibe; PDL Drive; PDL PHSR; PDL Delay; PDL Rev; OSC Echo; VoiceWah; PDL Roto; P-BitCRSH; PDL FLNGR; PDL Reso. |
+
+Drive,amp,cabinet,modulation,SFX and delay remain to count. Preserve the separate126/128/159 headline scopes. Pedal-category entries are not a global assignment;Tail parameters describe effect bypass,not preset-change spillover.
+
 ## G6
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
