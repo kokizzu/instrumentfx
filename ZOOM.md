@@ -2989,6 +2989,19 @@ Original guitar multi-effects, distinct from G3X and G3n. Checked 2026-10-17; pa
 ### G3 — expression-volume scope audit
 
 Checked2026-10-19 against [official shared manual][G3-MC], pp12–13,16–20. **TOTAL settings, including expression assignment, are saved separately per patch.** Global master level is distinct; no global expression-target override established. OUTPUT VOL explicitly excludes rhythm/looper. INPUT VOL and adjustable/invertible endpoints are separate choices; bypass, headphone-specific attenuation and tail coverage remain unverified. Onboard lower/higher patch selection exists in patch mode. Original G3 has CONTROL IN forFP01/FP02; built-in G3X pedal behavior is not transferred. Existing234×170mm footprint fails the preferred limit. Exact Shopee search returned no refreshed offer; older sold-out price remains historical. No downloads or hardware test.
+
+### G3 — headphone load and original output ratings
+
+Checked2026-10-31: [manufacturer G3/G3X operation manual](https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf),printedpp11,59. Shared specifications explicitly apply to G3;model-specific dimensions remain separate. No download or hardware measurement.
+
+| Field | Published rating / qualification |
+|---|---|
+| I/O / pickup input | **−20dBm rated input,1MΩ**,with ACTIVE/PASSIVE switch. Preserve the manufacturer’s dBm label;this is not a maximum unclipped-input rating or a separately published impedance for each switch position. |
+| I/O / phones and line | R is mono-phone;L/MONO/PHONES is a **standard stereo phone jack combining line/headphones**. Both line outputs specify **+5dBm maximum into≥10kΩ**;phones **20+20mW into32Ω**. The32Ω figure is a stated test load,not a certified minimum impedance. |
+| I/O / balanced output | XLR output impedance **100Ω HOT–GND/COLD–GND;200Ω HOT–COLD**. PRE/POST and ground lift remain separate controls;this does not establish headphone or expression attenuation coverage. |
+| Display / chain viewport | Three effects are visible at once;scrolling exposes other positions in a six-effect chain. Three LCDs do not limit the firmware2.00+ chain to three effects;the original three-effect baseline remains revision-qualified. |
+
+
 <!-- comparison evidence ends -->
 
 Multi-model Hope Music listing G3/G3X/G3XN, shop703817770/item11099808237, showed Rp1,899,000–2,699,000 across five unresolved variations. Not assigned to G3. [Listing](https://shopee.co.id/Efek-Zoom-G3-G3X-G3XN-i.703817770.11099808237).
