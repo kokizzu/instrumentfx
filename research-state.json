@@ -132784,5 +132784,11 @@
     "finding": "Corrected stale canonical overview to current iOS15 requirement andEnglish1.8.58 heading;retained June iOS13.1 andearlier retrieval discrepancy as history.",
     "basis": "Current original manufacturer entry andalready preserved detailed root findings.",
     "limits": "NAM original announcement still unverified;no shipped NAM claim ordevice test."
+  },
+  "g5n_lcd_priority_summary_sync_20261031": {
+    "finding": "Removed stale present-tense footswitch-total uncertainty from two later summaries; nine is manufacturer-catalogue reported, separate buttons and visual corroboration remain unknown.",
+    "basis": "Existing original-manual and manufacturer-catalogue findings in ZOOM.md; no new hardware test or model admission.",
+    "priority": "Individual LCD processors remain first. G5n current effect pool and V2 factory-memory findings linked from display comparison; no complete current installed-library claim.",
+    "next": "Seek exact G5n original panel/button evidence and current effect manifest. Do not repeat completed catalogue-count or V2 memory research; preserve independent BOSS GT-Pro cursor."
   }
 }

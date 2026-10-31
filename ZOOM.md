@@ -3947,7 +3947,7 @@ Checked **2026-10-31**. Zoom’s [current product page](https://zoomcorp.com/en/
 | Categories / later pool additions | **OverDrive — December2025**,drive/boost; **BitCrush — February2026**,sample-rate/bit-depth reduction; **DynaDelay — April2026**,input-responsive ducking/gated delay. Exact-model compatibility is independently listed on the [OverDrive](https://zoomcorp.com/en/guitarlab-news/overdrive/),[BitCrush](https://zoomcorp.com/en/guitarlab-news/bitcrush/) and [DynaDelay](https://zoomcorp.com/en/guitarlab-news/dynadelay/) notices. Functional groupings here are editorial,not verified Guitar Lab category headings. |
 | Editor / availability scope | Notices describe delivery to Guitar Lab’s **Effect Pool**;this does not establish installation on a particular G5n,available device storage,per-effect DSP cost or inclusion in factory presets. The three additions are not automatically added to the earlier126/128/159 headlines or157-entry2020 chart census. Those different scopes remain independently qualified. |
 
-No download,app installation,firmware update ordevice operation. Full current-library reconciliation,physical footswitch/button totals and display diagonal/color/touch remain open.
+No download,app installation,firmware update ordevice operation. Full current-library reconciliation,separate-button census and display diagonal/color/touch remain open. The later manufacturer-catalogue finding below establishes nine footswitches; visual corroboration remains pending.
 
 
 ### G5n — additional exact indexed hardware asks
@@ -3981,7 +3981,7 @@ Checked2026-10-31 against the [manufacturer V2 manual](https://zoomcorp.com/medi
 - Pressing the expression treadle’s front end toggles its effect without changing the saved ON/OFF setting; the alternative effect-switch operation changes that setting. This distinction does not establish all-preset volume assignment or pedal-position recall.
 - Pedal sensitivity calibration is documented separately from effect selection. It does not establish volume endpoints or global assignment.
 
-Physical switch totals remain unresolved because extracted panel symbols are incomplete; no visual count, hardware operation or local download was performed. Built-in treadle still excludes G5n from the no-treadle shortlist.
+At this manual-only checkpoint, physical switch totals were unresolved because extracted panel symbols were incomplete. The later catalogue finding below supplies nine footswitches; separate buttons and visual corroboration remain unresolved. No visual count, hardware operation or local download was performed. Built-in treadle still excludes G5n from the no-treadle shortlist.
 
 
 ### G5n — loop continuity across modes versus patches
