@@ -131983,5 +131983,12 @@
     "record": "ZOOM.md#g5n--tuner-output-and-toe-switch-state-boundaries",
     "qualification": "Tuner modes and temporary toe state distinguished; not global volume or output coverage proof",
     "next": "Continue LCD-first processor technical gaps; general GT-Pro cursor retained"
+  },
+  "g5n_loop_continuity_20261031": {
+    "source": "https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf",
+    "revision": "V2",
+    "record": "ZOOM.md#g5n--loop-continuity-across-modes-versus-patches",
+    "qualification": "Mode changes distinct from patch changes; USB channels still unknown",
+    "next": "Continue other individual-LCD processor gaps; independent GT-Pro cursor preserved"
   }
 }

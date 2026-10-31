@@ -3852,6 +3852,15 @@ Checked2026-10-31 against the [manufacturer V2 manual](https://zoomcorp.com/medi
 Physical switch totals remain unresolved because extracted panel symbols are incomplete; no visual count, hardware operation or local download was performed. Built-in treadle still excludes G5n from the no-treadle shortlist.
 
 
+### G5n — loop continuity across modes versus patches
+
+Checked2026-10-31 against the [manufacturer V2 manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf), printedpp39–45. **Changing patches stops recording/playback and deletes the phrase**; switching to MEMORY mode during recording/playback does not interrupt it. Rhythm playback survives a STOMP/MEMORY mode change but stops on a patch change. Changing rhythm tempo during loop playback erases the phrase.
+
+Four looper types are documented: mono/stereo, each in one-unit or two-unit form; **one looper per patch**. Stop choices are immediate STOP, end-of-loop FINISH and FADE OUT (duration unspecified). Looper level is0–100. Rhythm tempo is40–250bpm and rhythm level0–100; tempo is shared with effects and the looper. These controls do not establish global expression-volume assignment or headphone/tail coverage.
+
+USB channel count, dry recording, loopback and reamping remain unverified after an exact-model support/manual recheck; original G5 specifications are excluded. No local download or device operation.
+
+
 ## G6
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
