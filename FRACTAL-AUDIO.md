@@ -11,6 +11,7 @@
 - [FM3 original](#fm3-original)
 - [FM9 MKII Turbo](#fm9-mkii-turbo)
 - [FM9 original](#fm9-original)
+- [FM9 Turbo](#fm9-turbo)
 - [VP4](#vp4)
 <!-- brand-index ends -->
 
@@ -960,6 +961,39 @@ The84 allowance sum also equals the14×6 grid size,but doesnot prove that all bl
 [Guide pp50–51](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf):**stereo looper,max120seconds**. Undo while stopped erases everything;during playback it removes/restores thelatest layer. Erase requires stopped playback. Record2ndPress chooses Overdub/Play/Stop;tempo quantization andseparate playback/dry levels documented. Preset/power retention andglobal-pedal attenuation remain unknown.
 
 [Original/Turbo3.x manual,p44](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf) explicitly describes a **three-voice monophonic tracking synth**;notthree-note polyphony. Acoustic input is separately supported;electric-to-acoustic conversion remains unverified. No downloads ordevice tests. Full comparison summary/admission review remains pending.
+
+## FM9 Turbo
+
+Admitted **2026-11-01** as an **active partial guitar/bass model**, not fully verified. This is the August2022 Turbo, distinct from original FM9 and February2024 MKII Turbo. [Manufacturer timeline](https://www.fractalaudio.com/about/) and [family comparison](https://www.fractalaudio.com/family/) specify **10+% more DSP than original**, not a measured latency or guaranteed effect-count increase. The [3.x August2022 manual](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf) explicitly covers **Original and TURBO**; its shared facts below are not inferred from a sibling or current MKII advertising. No ownership assertion.
+
+<!-- comparison evidence begins -->
+
+| Field | Evidence / qualification |
+|---|---|
+| Instrument scope | Shared Original/Turbo manual p21 explicitly supports normal guitar/bass at Input1 and instruments at Inputs2/3. Vocal classification unknown. [Manufacturer manual](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
+| Built-in / external / toe expression | No built-in treadle in complete panel inventory. Three shared TRS pedal/switch jacks; linear10–100kΩ. Tip supply, ring return, sleeve ground. External toe setup and actual M-VAVE wiring unverified. [Shared manual pp10,21–22,128](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
+| Expression / global volume | PEDAL1/2/3 globally assignable to Input1/2/3 or Output1/2/3 Volume without preset blocks. Input changes drive; output scales tails. Endpoints, recall and bypass/phones/USB/recorded-loop coverage unknown. Calibration is separate. [Own-applicable p11 procedure](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
+| Knobs / footswitches / buttons | **9 rotary /9 footswitches /12 buttons**. Six knob-push functions included, not extra buttons. Power/ground-lift switches separate. Text inventory; no visual census. [Manual pp19–22,128](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
+| Display | **Nine individual mini LCDs**, one per footswitch; separate **800×480 color main LCD**. Mini size/resolution/color/touch and main diagonal/touch unknown. MKII enlarged strips and regional50×17.5mm figures not transferred. [Turbo-covered manual pp1–2,128](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
+| Dimensions / weight | **513W×237D×89H mm;5.44kg**, from51.3W×23.7D×8.9Hcm. Printed20.2W×9.3D×3.5Hinches independently rounded. Exceeds preferred200W×140D. [Manual p128](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf);[Turbo-named manufacturer family table](https://www.fractalaudio.com/family/). |
+| Processing / concurrency | **14×6 grid**,DSP-limited; Turbo10+% DSP advantage, not additional guaranteed block instances. Historical meter recommendation about80%; dedicated Amp/Delay/Reverb cores barely reflected. [Manual pp39,48](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
+| Categories / choices | June2023 exactFM9 column has37 available classes,84 summed allowances including routing/control; not84 simultaneous effects. Shared TYPES column and290+/309+ amp conflict preserved; current exact Turbo choice census unknown. [Retained dated table](#fm9--historical-block-inventory);[manufacturer guide](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). |
+| Preset memory | **512 editable locations**,including overwritable factory entries; **eight scenes each**. Factory-filled count unknown; not512 plus a protected factory bank. [Shared manual p39](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
+| Synth / acoustic | **Three-voice monophonic tracking synth**; voice count is not note polyphony. Acoustic input documented separately; electric-to-acoustic simulation remains unknown. [Own-applicable manual p44](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
+| Audio I/O | Mono unbalanced¼-inch Input1; stereo balanced¼-inch Input2/3 pairs. Out1:balanced stereo XLR and same-signal¼-inch Humbuster pair;Out2:balanced stereo XLR;Out3:stereo¼-inch Humbuster. Dedicated¼-inch stereo phones monitorOut1. [Manual p21](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
+| Control / digital I/O | Three pedal/switch inputs; FASLINKII forFC controllers,notMFC-101; RCA S/PDIF in/out,fixed48kHz withinternal/external clock; MIDI In/Out-Thru; USB; grounded AC inlet/switch. USB subtype andphantom tolerance unknown. [Manual pp21–22](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
+| USB audio / MIDI | **8×8 audio plus DAW-visible MIDI-over-USB**. Text confirms processedrecord1/2,DIrecord5 andUSB5/6 reamping; remaining channel map notinferred fromflattened diagram. Windows driver required;Mac none perhistorical manual. Global-volume coverage unknown. [Manual pp23–26](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
+| Power | **90–264VAC,47–63Hz,<40W**. CR2032 is backup,not operating-battery proof. Battery/USB operation unknown;DC polarity/adapter-current fields notapplicable toAC specification. [Manual p128](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
+| IR / NAM / capture | **1,024 userIR slots**; FM9-Edit explicitly imports.wav/.ir alongside.syx transfers. NativeNAM,convertedNAM andproprietary capture-import workflows unverified. [Turbo-covered p108](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
+| Editor / platforms | FM9-Edit **1.03.22,August25,2026**:macOS10.13+,Intel/M1;Windows10+64-bit. Windows7 unsupported; separate32-bit link not a support guarantee. Later architectures/mobile editing unknown. Presets/scenes/blocks/library/footswitch editing separate fromdrivers/updater. [Current manufacturer listing](https://www.fractalaudio.com/fm9-edit/). |
+| Firmware / drivers | **12.0,July7,2026**,explicit Original/Turbo compatibility. Windows driver6.16,June10,2026,forWindows10+x86/x64/ARM;legacy7/8 uses5.12. Driver support noteditor support. Installed versions untested. [Manufacturer listing](https://www.fractalaudio.com/fm9-downloads/). |
+| Looper / drums / live | Dated stereo looper,max120s;Undo while stopped erases all;Playback Undo removes/restores last layer. Record2ndPress Overdub/Play/Stop,tempo quantization. Retention/current revision/global-volume coverage unknown. Drums andexact onboard preset down/up unknown;default banks step five presets. [June2023 guide pp50–51](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf);[manual p9](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
+| Used IDR | No exact pre-MKII Turbo condition-confirmed Shopee offer established by2026-11-01 search. |
+| New IDR | No exact pre-MKII Turbo condition-confirmed Shopee offer established. Search returned MKII Turbo hardware;its ask is not transferred. Original/MKI title withconflictingFM3slug remains revision-unresolved,not a Turbo quote. [Existing full offer qualification](#fm9-original--partial-lcd-discovery). Unknown is not unavailable. |
+
+<!-- comparison evidence ends -->
+
+No files,software,firmware,IRs ordependencies downloaded; no device operation. Partial admission does not certify current installed behavior, stock, ownership or complete market coverage. Older source tables, prices and revision qualifications remain unchanged.
 
 ## VP4
 

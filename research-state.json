@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 400,
+  "active_model_count": 401,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 400,
+  "canonical_root_model_count": 401,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "400 unique active/root-canonical;0 legacy-only;48 brands;six excluded;all partial.",
+  "count_reconciliation": "401 unique active/root-canonical;0 legacy-only;48 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -25724,7 +25724,8 @@
       "VP4",
       "AM4",
       "FM3 original",
-      "FM9 original"
+      "FM9 original",
+      "FM9 Turbo"
     ],
     "Kemper": [
       "PROFILER Player",
@@ -26222,7 +26223,8 @@
       "VP4",
       "AM4",
       "FM3 original",
-      "FM9 original"
+      "FM9 original",
+      "FM9 Turbo"
     ],
     "KEMPER.md": [
       "PROFILER Player",
@@ -26286,14 +26288,14 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 335,
+      "record_count": 336,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 175,
+      "record_count": 176,
       "bass_focused_record_count": 40,
-      "shared_bass_capable_count": 135,
+      "shared_bass_capable_count": 136,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -26316,10 +26318,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 335 guitar, 175 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 336 guitar, 176 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "400 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "401 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -46771,18 +46773,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 400,
-    "canonical_root_models": 400,
+    "unique_brand_model_pairs": 401,
+    "canonical_root_models": 401,
     "legacy_only_models": 0,
-    "guitar_view_models": 335,
+    "guitar_view_models": 336,
     "bass_focused_models": 40,
     "vocal_only_models": 25,
     "vocal_view_models": 71,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 175,
-    "bass_shared_models": 135,
+    "bass_view_models": 176,
+    "bass_shared_models": 136,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -47179,6 +47181,7 @@
       "Fractal Audio::AM4",
       "Fractal Audio::FM3 original",
       "Fractal Audio::FM9 original",
+      "Fractal Audio::FM9 Turbo",
       "Kemper::PROFILER Player",
       "Kemper::PROFILER Stage MK2",
       "Kemper::PROFILER Rack MK2",
@@ -47370,6 +47373,7 @@
       "Fractal Audio::AM4",
       "Fractal Audio::FM3 original",
       "Fractal Audio::FM9 original",
+      "Fractal Audio::FM9 Turbo",
       "Kemper::PROFILER Player",
       "Kemper::PROFILER Stage MK2",
       "Kemper::PROFILER Rack MK2",
@@ -47461,6 +47465,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Fractal Audio::FM9 Turbo": "Own3.x manual explicitly coversTurbo andaccepts guitar/bass atInput1,p21;notMKII sibling inference. https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
     "Fractal Audio::FM9 original": "Original/Turbo3.x own manualp21 explicitly accepts guitar/bass atInput1 andalso permits instruments atInputs2/3;notMKII model inference. https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
     "Fractal Audio::FM3 original": "Original1.x manufacturer manualp21 explicitly permits electric guitar,acoustic andbass atinstrument input;notMKII specification transfer. https://manualzz.com/doc/61301482/fractal-fm3-owner-s-manual",
     "Fractal Audio::AM4": "Own AM4 manufacturer product explicitly supports guitar/bass amp and cab processing; not sibling or generic EQ inference. https://www.fractalaudio.com/am4/",
@@ -50340,6 +50345,13 @@
     },
     "Fractal Audio::FM9 original": {
       "link": "FRACTAL-AUDIO.md#fm9-original",
+      "source_files": [
+        "FRACTAL-AUDIO.md"
+      ],
+      "finding_files": []
+    },
+    "Fractal Audio::FM9 Turbo": {
+      "link": "FRACTAL-AUDIO.md#fm9-turbo",
       "source_files": [
         "FRACTAL-AUDIO.md"
       ],
@@ -134560,6 +134572,36 @@
       ],
       "result": "400active;335guitar/175bass/71vocal;82registered complete-source bodies zero mismatches. Entire previous originalFM9 body retained atoldanchor.",
       "remaining": "All models retainverification gaps;no exhaustivecoverage/migrationcompletion claim."
+    }
+  },
+  "fm9_turbo_catalogue_admission_20261101": {
+    "status": "partial_active",
+    "sources": [
+      "https://www.fractalaudio.com/about/",
+      "https://www.fractalaudio.com/family/",
+      "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+      "https://www.fractalaudio.com/fm9-downloads/",
+      "https://www.fractalaudio.com/fm9-edit/"
+    ],
+    "root": "FRACTAL-AUDIO.md#fm9-turbo",
+    "reason": "ExactTurbo identity andexplicitOriginal/Turbo manualcoverage support comprehensive guitar/bass profile;notMKII specification transfer. Alluncertainties retained.",
+    "market": "Search only surfacedMKII hardware;noexactpreMKIITurbo condition-confirmed ask. No prices copied.",
+    "counts": {
+      "active": 401,
+      "fully_verified": 0
+    },
+    "next": "Continue fresh individual-LCD model discovery andremaining specific blockers;independent general BOSS GT-Pro cursor unchanged.",
+    "downloads": false,
+    "validation": {
+      "checks": [
+        "make research-verify",
+        "make comparison-verify",
+        "make brand-sort-test",
+        "make comparison-test-counts",
+        "make consolidation-audit-body-differences"
+      ],
+      "result": "401active;336guitar/176bass/71vocal;all7priorFractal section bodies intact;82registeredsourcebodies zero mismatches.",
+      "scope": "Notfulltechnicalverification orfullmigrationcompletion."
     }
   }
 }
