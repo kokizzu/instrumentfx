@@ -131944,5 +131944,14 @@
     "record": "RJM-MUSIC.md#gt10--recovered-manufacturer-manual-revision41",
     "qualification": "Historical specifications; current product conflicts retained. No download or device test.",
     "next": "Continue individual-LCD technical gaps and exact Shopee offers; independent GT-Pro cursor retained."
+  },
+  "rjm_gt10_expression_conflict_20261031": {
+    "source": "https://docs.rjmmusic.com/download-content/MMGT/Mastermind%20GT%20Manual-4.1.pdf",
+    "revision": "4.1",
+    "record": "RJM-MUSIC.md#gt10--expression-wiring-conflict-and-midi-scope",
+    "wiring": "Manual ring versus current product tip; unresolved",
+    "shopee": "Exact queries returned no indexed item; unknown is not unavailable",
+    "next": "Other individual-LCD model gaps; preserve general GT-Pro cursor",
+    "hardware_test": false
   }
 }

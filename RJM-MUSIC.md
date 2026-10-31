@@ -10,15 +10,15 @@ Checked 2026-10-31 against the [exact GT/10 manufacturer page](https://rjmmusic.
 |---|---|
 | Displays / memory | **Ten individual LCDs, one above each switch**, plus separate main LCD. **768 presets,16 button pages**; pages are not extra screens. Diagonal, resolution and touch remain unverified. |
 | Power | **12VDC/800mA, center-positive, 2.1mm ID/5.5mm OD** published requirement; MIDI phantom powering also documented. Not GT/22’s1.6A requirement; measured draw unknown. |
-| Ports / expression | Four TRS EXP inputs, linear/log, wiper-to-tip; two TRS momentary-switch inputs supporting four switches;7-pin MIDI IN/OUT;USB-A storage/USB-B computer. Page mentions phantom power through XLR but omits XLR from its GT/10 connector list: unresolved wording,not a confirmed XLR socket. |
-| Body / software | Published **19.4W×8.1D×3.25H inches,6lb/2.7kg**; manual corroboration pending. PC/Mac editor; minimum OS unknown. |
+| Ports / expression | Four TRS EXP inputs, linear/log, current page says wiper-to-tip but manual4.1 says wiper-to-ring (see below); two TRS momentary-switch inputs supporting four switches;7-pin MIDI IN/OUT;USB-A storage/USB-B computer. Page mentions phantom power through XLR but omits XLR from its GT/10 connector list: unresolved wording,not a confirmed XLR socket. |
+| Body / software | Published **19.4W×8.1D×3.25H inches,6lb/2.7kg**; corroborated by manual4.1 below; current revision equivalence unverified. PC/Mac editor; minimum OS unknown. |
 | Remaining | Complete revision/profile and exact Shopee used/new IDR,condition,stock,bundle and warranty unverified. |
 
 No download, installation or hardware operation.
 
 ### GT/10 — MIDI limits and mislabeled manual link
 
-Checked 2026-10-31. The [exact GT/10 page](https://rjmmusic.com/products/mastermind-gt-10-midi-foot-controller) specifies **16 connected devices**: one preset-button tap can send a program change to all 16; an IA button can send **up to 20 messages**, combining CC, PC and Note. These are MIDI-control limits, not simultaneous audio effects. It also lists **two auxiliary 9VDC outlets**; their available current and polarity remain unverified. USB-thumb-drive settings backup/restore and onboard editing are documented; USB audio or bus powering is not established.
+Checked 2026-10-31. The [exact GT/10 page](https://rjmmusic.com/products/mastermind-gt-10-midi-foot-controller) specifies **16 connected devices**: one preset-button tap can send a program change to all 16; an IA button can send **up to 20 messages**, combining CC, PC and Note. These are MIDI-control limits, not simultaneous audio effects. It also lists **two auxiliary 9VDC outlets**; the product page omits their available current and polarity; manual4.1 qualifications appear below. USB-thumb-drive settings backup/restore and onboard editing are documented; USB audio or bus powering is not established.
 
 The [manufacturer GT comparison page](https://rjmmusic.com/pages/mastermind-gt-10-16-22) labels its product-manual link “Mastermind GT Manual”, but that link currently resolves to [PBC6X Manual-4.2.pdf](https://docs.rjmmusic.com/download-content/PBC6X/PBC6X%20Manual-4.2.pdf), whose internal text identifies Mastermind PBC, version4.2, dated2019-04-07. **This is a mismatched model document and is not used for GT/10 specifications.** The older GT4.1 link is retained above; it was inaccessible on this pass. Current GT/10 manual corroboration, the XLR wording conflict, display dimensions and exact Shopee Indonesia offers remain unresolved. No file downloaded or hardware operated.
 
@@ -32,6 +32,14 @@ The [manufacturer GT manual](https://docs.rjmmusic.com/download-content/MMGT/Mas
 - XLR connectors are explicitly **GT/22-only** in this revision, conflicting with the current GT/10 phantom-power wording. No current hardware inspection resolves that discrepancy.
 
 This restores historical manual corroboration; it does not certify current firmware/hardware equivalence or resolve display diagonal, touch, exact Indonesian offers or global audio-volume coverage. Earlier inaccessible and mislabeled links remain preserved.
+
+### GT/10 — expression wiring conflict and MIDI scope
+
+[Manual4.1](https://docs.rjmmusic.com/download-content/MMGT/Mastermind%20GT%20Manual-4.1.pdf), printedpp39–40,68–69, describes **TRS wiper-to-ring**, conflicting with the current product page’s **wiper-to-tip**. It describes swapping tip/ring for Roland/BOSS-type pedals. Revision or documentation error remains unresolved; neither wiring is certified for current hardware here.
+
+The controller converts pedal position to MIDI CC. Global settings select destination, CC and heel/toe values; presets can override them. A second CC destination is available. **SndOnPrst** sends current CC values on preset changes; this is distinct from target assignment. Calibration is also separate. These controller functions do not establish the receiving processor’s all-preset volume, headphone, bypass, tail or looper coverage, or make this a direct analog audio-volume processor.
+
+Exact GT/10 Shopee Indonesia searches on2026-10-31 returned no indexed hardware item; used/new IDR, seller, stock and bundle remain unknown. No wiring or hardware test performed.
 
 ## Mastermind GT/16
 
