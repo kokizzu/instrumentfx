@@ -2072,6 +2072,18 @@ Checked **2026-10-31**, [original manufacturer manual](https://zoomcorp.com/medi
 
 No device was operated or recording changed. Physical control totals, OutputVP assignment and coverage remain unresolved.
 
+
+### B3n — Japanese product count versus utility-inclusive catalogue
+
+Checked **2026-10-31** in [Zoom’s exact Japanese B3n product page](https://zoomcorp.com/ja/jp/multi-effects/bass-effects/b3n/). This is primary regional wording, not a new firmware census or evidence of installed contents.
+
+| Field | Published scope / qualification |
+|---|---|
+| Categories / Japanese product count | Intro states **70 effects +five amps +five cabinets**. Its effects section names19 dynamics/filter,15 drive,17 modulation,11 delay/reverb andthree bass synths as examples. These examples are not demonstrated to be an exhaustive, disjoint partition; do not infer a missing category by subtraction. The English67-stomp summary remains separately preserved. |
+| Categories / same-number distinction | Japanese70 is presented as effects, while the preserved2019 catalogue explicitly splits its70 DSP entries into **68 effects +looper +rhythm**. Equal numbers do not establish equal inventories, a firmware transition or matching inclusion rules. The89-entry parameter sheet and83-entry power chart retain their separate bases. |
+
+Full footswitch/button counts, current installed library and both headphone descriptions remain unresolved. No visual inspection, local download or device test.
+
 <!-- comparison evidence ends -->
 
 ### B3n — ambiguous B3/B3n hardware-title exclusion
