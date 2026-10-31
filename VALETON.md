@@ -773,7 +773,7 @@ Current comparison summary, reconciled2026-10-28 from the exact-model sources re
 | Audio I/O |¼-inch TS input,1MΩ;separate L/R¼-inch unbalanced TS outputs,100Ω;dedicated3.5mm stereo TRS phones,22Ω. Impedance is not headphone power/load guidance. BT audio supports playback/USB recording;no AUX jack inferred. |
 | Data / control |USB-C audio/MIDI;separate3.5mm TRS MIDI IN andTHRU;TRS EXP/FS. MIDI TypeA/B,host ability andcontroller pinout unverified. Earlier1.0.5 ordinary Bluetooth-MIDI limitation must not be assumed current1.1.0. |
 | Power |**1450mAh rechargeable;9V DC center-negative orUSB5V operation/charging**,5.5×2.1mm DC. Manufacturer labels500mA DC/1A USB as Current Consumption;not measured draw. SAVE+GLOBAL battery power toggle. |
-| Editor / USB audio |iOS/Android editing;Windows/macOS file/firmware management. Suite2.1.0 supports GP-50 firmware1.1.0;iOS/iPadOS14+. Mobile app’s M1/macOS11 availability is marked not verified for macOS,not desktop-suite requirements. **USB2-in/2-out,reamp;24-bit converters/44.1kHz** do not certify every USB stream format. |
+| Editor / USB audio |iOS/Android editing;Windows/macOS file/firmware management. [Unofficial VLTN Tone Studio lead](#gp-50--unofficial-desktop-editor-and-experimental-expression-commands) is separate anduntested. Suite2.1.0 supports GP-50 firmware1.1.0;iOS/iPadOS14+. Mobile app’s M1/macOS11 availability is marked not verified for macOS,not desktop-suite requirements. **USB2-in/2-out,reamp;24-bit converters/44.1kHz** do not certify every USB stream format. |
 | Looper / drums / live |1.0.5 **20s looper**,Pre dry mono/Post effected stereo;screen exit retains state,recording not saved. Record/playback0–100. **10 onboard metronomes**;additional patterns require app/BT,not100onboard. Analog/DSP tuner bypass;USB interface also bypassed in documented Bypass mode,EXP coverage unknown. |
 | Firmware / documentation |Official1.1.0 manual andfirmware entries located,computer/mobile2.1.0 compatibility explicit. Exact1.1.0 manual body still inaccessible;no current global-volume claim,installed-version certification or local download. |
 | Used IDR |**Rp1.800.000,Habis**, [Gitaris Gendut34702407/47862332300](https://shopee.co.id/-used-Valeton-GP-50-GP50-Second-Like-New-i.34702407.47862332300),Probolinggo;checked2026-10-28,two-month cache,staleAug29–Sep1 delivery. Seller says used/Second Like New;working state uninspected. Historical sold-out ask,not current stock. |
@@ -1034,6 +1034,15 @@ Checked2026-10-28 against [own regional manufacturer manual](https://www.hotone.
 | Looper / controls and level | A records/plays/overdubs;B stops;holding B clears recorded content including overdubs. PARA selects a patch within the looper interface. Record/playback levels each **0–100**. These independent loop controls do not establish analog-expression attenuation of existing playback. |
 
 The same section retains20-second capacity,Pre dry-mono/Post effected-stereo andthe warning that recorded content is not saved. Patch selection during the interface is documented;seamless changes andevery-preset loop/tail volume coverage are not. No recording erased,no device operated andno local file downloaded. The unreadable1.1.0 manual is not certified from this older revision.
+
+
+### GP-50 — unofficial desktop editor and experimental expression commands
+
+Checked **2026-11-01** in the [VLTN Tone Studio author’s own repository](https://github.com/grzmol/VLTN-Tone-Studio),README advertisingv0.8.1. **Unofficial software lead,not Valeton-supported orlocally tested**. The author names GP-50 live USB-MIDI editing,100-slot library,backup/restore and`.prst` import/export. Packages are described forWindowsx64,macOSApple-silicon/Intel andLinuxamd64;Chrome/Edge browser operation isalso claimed. This adds no certification ofOSminimums,devicefirmware,backup integrity orhardware memory totals.
+
+GP-50 expression settings,live footswitch/order/tempo changes,reading anunselected slot anddevice-side delete/copy/move sit behind **Experimental pedal commands**. The [0.5.0 changelog](https://github.com/grzmol/VLTN-Tone-Studio/blob/main/CHANGELOG.md),2026-10-11,describes these commands as known fromValeton’s software butnot tried onreal hardware. That release also says the project’s whole GP-50 path hadnot been tried onreal hardware;read/write/Program Change evidence came from another reverse-engineering project. The current README keeps the experimental opt-in boundary;it doesnot independently establish later hardware validation. A simulator isnot adevice test.
+
+The author describes NAM A1/A2→**SnapTone conversion**,not native NAM playback. No software,dependencies,presets ormodels downloaded orrun;no driver changes orUSBcommands sent. Official Suite support,unreadable1.1.0 documentation andunknown all-preset analog-volume scope remain separate.
 
 ## GP-100
 

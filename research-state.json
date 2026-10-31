@@ -137336,5 +137336,25 @@
     "qualification": "Noresistance/taper/wiper/switch-contactspecification transferredfromMission;notglobalvolumeorprocessorpriceevidence.",
     "next": "IndividualLCD priority;seekreadablecurrentFendermanual/GuideH andallpresetEXPscope. IndependentGT-Procursor retained.",
     "downloads": false
+  },
+  "gp50_unofficial_editor_20261101": {
+    "status": "author-documented unofficialsoftwarelead;untested",
+    "sources": [
+      "https://github.com/grzmol/VLTN-Tone-Studio",
+      "https://github.com/grzmol/VLTN-Tone-Studio/blob/main/CHANGELOG.md"
+    ],
+    "destination": "VALETON.md#gp-50--unofficial-desktop-editor-and-experimental-expression-commands",
+    "version_seen": "README0.8.1",
+    "finding": "AuthorclaimsGP50USBediting,backup/restore,prst andWindows/macOS/Linux/browser. GP50EXP/livecontrols remainexperimental;0.5.0Oct11saysnottriedonrealhardware.",
+    "qualification": "Notmanufacturer-certified,notexecuted;NAM-to-SnapToneconversion notnative. Noglobalanalogvolumeproof.",
+    "new_document_lead": {
+      "entry": "https://www.valeton.net/wpfd_file/gp-50-pdf/",
+      "listed_size": "65.06KB",
+      "listed_date": "2026-07-10",
+      "linked_pdf": "https://res.valeton.net/Uploads/wp/download/1783673416879.GP-50.pdf",
+      "status": "unreadable;contentsnotidentified,nottechnicalevidence"
+    },
+    "next": "LCDfirst research preserved;seekexactreadable1.1.0manual andcontrollerwiring. AmperoMini recheckfoundnonewglobalassignmentproof.",
+    "downloads": false
   }
 }
