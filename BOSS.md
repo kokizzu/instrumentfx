@@ -347,6 +347,19 @@ Published audio engine: **48 kHz**, **24-bit AD with AF method**, **32-bit DA**,
 
 Fresh exact Shopee Indonesia search yielded no qualified EX-4 hardware item. Existing non-Shopee offers remain historical and independently qualified. Shared main LCD is not an individual-foot-LCD match; the lead remains partial and outside active counts. No downloads or hardware operation.
 
+### EX-4 — exact onboard memory navigation and Gear Suite scope
+
+Checked **2026-11-01** in the original ©2026 Roland HTML Reference Manual. No minimum firmware is stated on these pages.
+
+| Field | Manufacturer instructions / qualification |
+|---|---|
+| Controls / onboard previous and next | [Memory-mode footswitch settings](https://static.roland.com/manuals/ex-4_reference/en-US/582644747589778699.html): select **MEMORY** mode, then its **MEM down/up** function. DOWN/1 selects the previous memory; UP/2 selects the next. Alternate **BYPASS/MEM up** assigns DOWN/1 to All Bypass and UP/2 to next memory, removing previous-memory stepping from that pair. FX1/FX2 and FX3/FX4 are other alternatives. These are selectable functions, not additional switches or evidence of current factory settings. |
+| Memory / Gear Suite versus whole memories | [Gear Suite recall](https://static.roland.com/manuals/ex-4_reference/en-US/569265291589775883.html) distinguishes protected **P01–** effect settings from writable **U01–** settings. These belong to each effect type, not extra complete user/preset memories. Default list order is User then Preset; Favorites sorting prioritizes marked entries. The inspected prose does not publish the maximum slot count, so no10-slot total is adopted from review wording. |
+| Memory / saving an effect setting | [Gear Suite saving](https://static.roland.com/manuals/ex-4_reference/en-US/581585419589799691.html) uses **GEAR SUITE WRITE**, selects an effect block and destination, permits a **12-character name**, and confirms with TYPE/VALUE. This saves an effect setting, not a global expression assignment or another simultaneous effect. |
+
+Headphone provision and expression-volume range, bypass, tails and startup recall remain separate unresolved fields. The shared main LCD does not enter the individual-foot-LCD shortlist. EX-4 remains a partial discovery lead outside active counts; no download, write, reset or hardware operation was performed.
+
+
 ## GM-800
 
 Consolidated and refreshed **2026-10-16**; partial verification. This processor qualifies through independent MFX architecture; it requires specialized input hardware for guitar/bass playing. No excluded specialist model is added.

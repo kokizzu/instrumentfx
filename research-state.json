@@ -137780,5 +137780,31 @@
       "Dimensions,mass,power,current firmware/editor andqualifiedShopeeIDR"
     ],
     "next": "Primary site still inaccessible;do not promote repeated seller claims. KeepLCD-priority queue andindependentBOSS GT-Pro cursor."
+  },
+  "ex4_navigation_gearsuite_20261101": {
+    "model": "BOSS::EX-4",
+    "status": "partial discovery lead; not admitted",
+    "sources": [
+      "https://static.roland.com/manuals/ex-4_reference/en-US/582644747589778699.html",
+      "https://static.roland.com/manuals/ex-4_reference/en-US/569265291589775883.html",
+      "https://static.roland.com/manuals/ex-4_reference/en-US/581585419589799691.html"
+    ],
+    "findings": [
+      "Memory mode MEMdown/up:DOWN1 previous,UP2 next;BYPASS/MEMup alternative losesprevious.",
+      "GearSuite protectedP01– andwritableU01– effect settings separate fromwholememorycapacity;maximumcountunpublishedinreadprose.",
+      "GearSuiteWrite12charactername,block/destinationselect;notglobalassignment."
+    ],
+    "qualifications": [
+      "SharedmainLCD,notindividualfootLCD",
+      "No sourcefirmwareminimum,deviceoperation ordownload",
+      "EX4outsideactivecounts;earliervolumeminimumlanguageconflictandcoveragegapsretained"
+    ],
+    "next": "LCD candidates retain priority;EX4 remainingprofile/exactShopee gaps andindependentGTPro cursor remain."
+  },
+  "visual_screenshot_transport_check_20261101": {
+    "source": "https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf",
+    "page_index": 3,
+    "result": "web screenshot tool returned string reference only; no image payload available to forward or inspect",
+    "scope": "No visual control-count verification. Do not use generated visual descriptions or infer counts from inaccessible pixels."
   }
 }

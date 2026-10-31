@@ -551,6 +551,8 @@ VP4 [firmware/offer follow-up](FRACTAL-AUDIO.md#vp4--current-firmware-listing-an
 
 ### BOSS EX-4 — compact global-assignment discovery lead
 
+Onboard navigation is independently documented: [Memory mode with MEM down/up](BOSS.md#ex-4--exact-onboard-memory-navigation-and-gear-suite-scope) assigns previous to DOWN/1 and next to UP/2. The alternative bypass/next pairing removes previous stepping. These switch roles do not establish headphone provision or global expression-volume coverage.
+
 Manufacturer-listed expression options: **FV-500L, FV-500H, EV-30 and Roland EV-5**; [exact compatibility boundary](BOSS.md#ex-4--supported-pedals-and-converter-specifications). Named compatibility does not certify arbitrary controller wiring or resolve global-volume mute coverage.
 
 [Partial manufacturer-backed lead](BOSS.md#ex-4--partial-no-treadle-discovery-lead):117W×138Dmmfits;SYSTEM ASSIGN can share EXP→FV across memories. Placement/endpoints/competingassignments,recall andbypass/tails/loopattenuation remainqualified. No dedicatedphones ininventory;onboardmemorydown/up documented. ExactShopee andcompleteprofile pending;outsideactivecounts andmaintable.
