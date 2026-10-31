@@ -131172,5 +131172,29 @@
     "rotary_subtotal": 9,
     "basis": "Text-derived three sections × three parameter knobs; no visual count",
     "remaining": "Complete buttons, screen details, global-volume endpoint/recall and bypass coverage; LCD models prioritized."
+  },
+  "g3xn_chart_census_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf",
+    "revision": "©2020 Z2I-2808-02; six pages; explicitly covers G3Xn",
+    "groups": {
+      "Dynamics": 10,
+      "Filter": 14,
+      "Drive": 24,
+      "Modulation": 23,
+      "SFX": 4,
+      "Delay": 17,
+      "Reverb": 15,
+      "Pedal": 18,
+      "Amp": 16,
+      "Cabinet": 16
+    },
+    "core_total": 157,
+    "looper_variant_rows": 4,
+    "rhythm_rows": 1,
+    "chart_total": 162,
+    "record": "ZOOM.md#g3xn--complete-2020-chart-census-and-headline-counting-basis",
+    "scope": "159 arithmetic counts the four loop variants as one family; revision/installed equivalence unproven",
+    "next": "Continue remaining individual LCD model fields; independent general BOSS GT-Pro cursor unchanged."
   }
 }

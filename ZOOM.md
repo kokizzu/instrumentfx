@@ -3285,7 +3285,7 @@ Guitar multi-effects; checked **2026-10-17**, partial first pass. Exact G3Xn, no
 | Display | **Three 128×32 dot-matrix LCDs**, in three display/four-knob/footswitch units per shared G3n/G3Xn manual p3; exact model coverage rechecked2026-10-31. Each UNIT1/2/3 contrast independently adjustable **1–13**,viaSETUP→LCD CNTRST (ownmanualp27,indexed2026-10-31). Numerical diagonals, explicit color mode and touch remain unverified. [G3-M][g3xn-m] |
 | Dimensions / weight | **318 W ×181 D ×64 H mm;1.84kg**, G3Xn-specific. G3n1.28kg is not this model. Pedal-up height/measurement conditions **?**. [G3-M][g3xn-m] |
 | Simultaneous processing | **Up to seven** effects/amp/cab models in arbitrary serial order; **100-point DSP budget**,per ownsupport-linked2020 chart;seven slots do not guarantee anycombination. [G3-P][g3xn-p] |
-| Effect library / category choices | Product page qualifies **v2.0:127 DSP effects =125 effects +looper +rhythm**, plus32 amp/cab emulators, broken down16 amps/16 cabs. Older manual says80 types; retain revision context. Complete installed per-category counts **?**; newer library additions are not automatically installed on a used unit. [G3-P][g3xn-p], [G3-M][g3xn-m] |
+| Effect library / category choices | Product page qualifies **v2.0:127 DSP effects =125 effects +looper +rhythm**, plus32 amp/cab emulators, broken down16 amps/16 cabs. Older manual says80 types; retain revision context. The complete2020 chart category census appears below;installed/current per-category counts remain **?**. Newer library additions are not automatically installed on a used unit. [G3-P][g3xn-p], [G3-M][g3xn-m] |
 | Factory / user memory | **150 user patch locations**; product advertises75 prepared patches. Do not add75 to150 as extra memory. Exact factory-fill state of a listed used unit **?**. [G3-P][g3xn-p], [G3-M][g3xn-m] |
 | Synth / acoustic | Ownsupport-linked2017 effectslist p7 explicitly identifies **Aco.Sim: electric-guitar-to-acoustic simulation**,withTop,Body,Tone,VOL. Dedicated synth engine remains unverified;library availability is not proof of installed effects. |
 | Audio/control ports | Instrument input,stereo aux,dual L/R outputs,headphones,Micro-B USB,DC input. **Conflict:** manual specification table labels L/MONO/PHONES as combined; rear diagram describes PHONES, while the shared product page’s dedicated-headphone paragraph specifically names G3n and cannot independently verify G3Xn. Connector sizes and complete routing require reconciliation. CONTROL IN applies only to G3n. No microphone/XLR/FX-loop path established. [G3-M][g3xn-m], [G3-P][g3xn-p] |
@@ -3384,6 +3384,30 @@ Checked **2026-10-31**,indexed [original G3n/G3Xn manual](https://zoomcorp.com/m
 | Display / longer chains | Effect displays scroll through the chain;three physical LCDs do not impose a three-effect ceiling. ADD disappears when seven effects are already in use. Existing DSP/unit-overflow restrictions still apply. |
 
 No new visual inspection,download or hardware operation. Numeric LCD dimensions and full physical control counts remain open.
+
+### G3Xn — complete 2020 chart census and headline counting basis
+
+Checked **2026-10-31** against all six pages of the [manufacturer processing chart](https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf),©2020,Z2I-2808-02. It explicitly names G3n/G3Xn andtheir100-point ceiling;this is exact shared-document coverage,not a G5n-only specification. Extracted model word order is sometimes reversed.
+
+| Chart category | Entries |
+|---|---:|
+| Dynamics | 10 |
+| Filter | 14 |
+| Drive | 24 |
+| Modulation | 23 |
+| SFX | 4 |
+| Delay | 17 |
+| Reverb | 15 |
+| Pedal | 18 |
+| Amp | 16 |
+| Cabinet | 16 |
+
+| Field | Count reconciliation / qualification |
+|---|---|
+| Categories / complete chart partition | **157 entries** across the ten categories above,plusfour looper variants andRhythm = **162 chart rows**. Counts include OutputVP within Pedal;no extra slot is implied. [Complete chart](https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf). |
+| Processing /159 headline basis | Arithmetic:157−32amp/cab =125other entries;counting four looper variants as **one looper family**,plusRhythm,gives127;adding32amp/cab gives159. This matches the own-product v2.0 headline’s125+looper+rhythm breakdown,not proof of identical revisions orinstalled content. Current later pool additions remain separately qualified. |
+
+OutputVP costs3points,each mono looper7,each stereo looper10,andRhythm8. Document counts are choices,not simultaneous capacity;seven-unit and100-point limits remain independent. No download,installation orhardware test. Physical controls,pedal-up dimensions andport-label conflicts remain open.
 
 <!-- comparison evidence ends -->
 
