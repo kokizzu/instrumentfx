@@ -129620,6 +129620,13 @@
       "identity_lead": "SFT40 CN/EN Quick Guide V03,2026-06-18,3pages331.93KB; original body inaccessible",
       "display_lead": "Thomann indexed nine individual displays; retailer only,direct cache miss; manufacturer LCD/OLED/count unresolved",
       "next": "Retrieve identified original quick guide/panel evidence; remain outside active counts."
+    },
+    "hx_effects_live_labels": {
+      "checked": "2026-10-31",
+      "source": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+      "revision": "3.80 RevD,pp11,15,33,51",
+      "finding": "Custom stomp/snapshot labels separate from switch LED colors;global Display settings concern LEDs,not LCD brightness or technology.",
+      "remaining": "LCD size/color/touch and installed firmware remain unverified."
     }
   }
 }
