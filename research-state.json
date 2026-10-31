@@ -132082,5 +132082,38 @@
     "record": "FRACTAL-AUDIO.md#fm9--named-firmware12-model-additions",
     "qualification": "Named update increments only; no installed/full-current census or automatic headline arithmetic",
     "next": "Continue LCD-first unresolved fields/market offers; independent GT-Pro cursor retained"
+  },
+  "g3x_firmware_history_20261031": {
+    "checked": "2026-10-31",
+    "model": "Zoom G3X",
+    "priority": "Individual footswitch LCD processors first",
+    "sources": [
+      {
+        "url": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G3_v2.10_E.pdf",
+        "identity": "Manufacturer-hosted one-page G3 / G3X System Firmware Version History",
+        "read": "Entire extracted original text; version2.10 May2013"
+      },
+      {
+        "url": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3x/g3x-support/",
+        "identity": "Current exact-model G3X support page lists Windows/Mac2.10"
+      }
+    ],
+    "findings": [
+      "2.10 fixes rhythm hi-hats occasionally not sounding at particular tempo settings",
+      "2.10 adds Windows8 and USB3.0 compatibility"
+    ],
+    "qualifications": [
+      "No SuperSpeed audio or changed USB audio format inferred",
+      "Earlier1.00/1.12/2.00 chronology is shared historical text, not proof G3X shipped in2011",
+      "Installed firmware and current OS operation untested",
+      "No local download, installation or hardware operation"
+    ],
+    "remaining": [
+      "Complete separate-button inventory with visual corroboration",
+      "LCD diagonal/color/touch",
+      "Condition-qualified new Shopee hardware offer",
+      "Modern OS compatibility"
+    ],
+    "next": "Continue individual-LCD model gaps before OLED/shared/unconfirmed screen models; independent general cursor remains BOSS GT-Pro"
   }
 }
