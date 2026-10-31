@@ -735,6 +735,18 @@ Checked **2026-10-31** against [Line 6’s original release history](https://lin
 
 No installed-firmware or hardware test. These notes neither establish current defects nor resolve global volume, DSP-bypass attenuation or recorded-loop expression coverage.
 
+
+### HX Effects — editor3.80 scope and firmware-minimum conflict
+
+Checked **2026-10-31**,manufacturer **HX Edit3.80 Pilot’s Guide RevY**,©2024 Yamaha Guitar Group. [Own indexed original](https://line6.com/data/6/0a00051aff0e673cd37585ccd/application/pdf/HX%20Edit%20Pilots%20Guide%203.80%20-%20English%20.pdf);[matching original-text reproduction](https://manuals.plus/m/b70879be1d47f40789ba529cd4636f498a30cf65672b083c6b1f50b011912725),printedpp2,50. Cover/version/copyright andopening text match;full PDF exceeds reader size limit. Host-generated answers excluded.
+
+| Field | Exact-model qualification |
+|---|---|
+| Editor /3.80 hardware-firmware minimum | Main text specifies **3.10+** for Helix/HX,explicitly including HX Effects;the same page’s IMPORTANT callout instead specifies **3.00+**. Preserve this internal conflict. Older2.60 full-editor introduction does not establish compatibility with this later application. No3.82 minimum orinstalled-device compatibility inferred. |
+| Processing / Global EQ exclusion | Printedp50 explicitly says **HX Effects does not include Global EQ**. Its ordinary preset EQ effects remain available. The shared editor’s global-EQ feature andlevel slider must not be transferred to HX Effects orglobal analog-volume assignment. |
+
+No local download,software launch,update ordevice test.
+
 <!-- comparison evidence ends -->
 
 ### Preserved original shared-source HX Effects fields
