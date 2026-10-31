@@ -11,6 +11,7 @@ Separate physical displays, labels drawn on one shared screen, and LED rings are
 | Brand / model | Display-layout status | Record / next check |
 |---|---|---|
 | Fender **Tone Master Pro** | Candidate collected; per-switch display audit pending | [Existing model record](FENDER.md#tone-master-pro). Verify individual scribble strips, number, technology and switch roles. |
+| Fractal Audio **FM3 MKII Turbo** | **Three individual mini LCDs**, one per footswitch; separate color main screen | [Current manufacturer-backed record](FRACTAL-AUDIO.md#fm3-mkii-turbo). Virtual switch layouts do not add physical displays. |
 | Fractal Audio **FM9 MKII Turbo** | **Nine individual mini LCDs**, one per footswitch; separate color main screen | [Current manufacturer-backed record](FRACTAL-AUDIO.md#fm9-mkii-turbo). Enlarged MKII strips; do not transfer their size to original FM9. |
 | HeadRush **Pedalboard** | Candidate collected; display audit pending | [Existing model record](HEADRUSH.md#pedalboard). Verify individual displays independently of its central touchscreen. |
 | HeadRush **Prime** | Candidate collected; display audit pending | [Existing model record](HEADRUSH.md#prime). Check exact model rather than borrowing Pedalboard/Core specifications. |

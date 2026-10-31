@@ -129261,7 +129261,8 @@
       "TC Electronic PLETHORA X5",
       "TC Electronic PLETHORA X3",
       "Line 6 HX Effects",
-      "Fractal Audio FM9 MKII Turbo"
+      "Fractal Audio FM9 MKII Turbo",
+      "Fractal Audio FM3 MKII Turbo"
     ],
     "remaining_candidates": [
       "Fender Tone Master Pro",
@@ -129316,6 +129317,11 @@
       "checked": "2026-10-31",
       "source": "https://www.fractalaudio.com/fm9/",
       "finding": "Nine individual mini LCDs; current MKII model enlargement distinguished from original."
+    },
+    "fm3": {
+      "checked": "2026-10-31",
+      "source": "https://www.fractalaudio.com/fm3/",
+      "finding": "Three individual mini LCDs; virtual12-switch layouts distinguished from physical displays."
     }
   }
 }
