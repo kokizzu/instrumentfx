@@ -551,6 +551,8 @@ VP4 [firmware/offer follow-up](FRACTAL-AUDIO.md#vp4--current-firmware-listing-an
 
 ### BOSS EX-4 — compact global-assignment discovery lead
 
+Manufacturer-listed expression options: **FV-500L, FV-500H, EV-30 and Roland EV-5**; [exact compatibility boundary](BOSS.md#ex-4--supported-pedals-and-converter-specifications). Named compatibility does not certify arbitrary controller wiring or resolve global-volume mute coverage.
+
 [Partial manufacturer-backed lead](BOSS.md#ex-4--partial-no-treadle-discovery-lead):117W×138Dmmfits;SYSTEM ASSIGN can share EXP→FV across memories. Placement/endpoints/competingassignments,recall andbypass/tails/loopattenuation remainqualified. No dedicatedphones ininventory;onboardmemorydown/up documented. ExactShopee andcompleteprofile pending;outsideactivecounts andmaintable.
 
 EX-4 [recall and jack-mode qualification](BOSS.md#ex-4--pedal-recall-jack-modes-and-further-subtype-limits):EXP HOLD explicitly retains pedal tilt across memory changes when On. This is separate from SYSTEM assignment anddoesnot resolve range/placement orpower-on behavior. Stereo I/O andsend/return share the rightpair andcannot provide independent simultaneousconnections.

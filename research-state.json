@@ -134945,5 +134945,30 @@
       "qualified condition-specific current offers"
     ],
     "next": "Remaining individual-LCD processor gaps; preserve independent general cursor"
+  },
+  "ex4_pedal_converter_scope_20261101": {
+    "source": "https://www.boss.info/global/products/ex-4/",
+    "status": "partial lead; outside active counts; shared main LCD, not individual-foot LCD",
+    "supported_expression": [
+      "FV-500L",
+      "FV-500H",
+      "EV-30",
+      "Roland EV-5"
+    ],
+    "audio": {
+      "sample_rate_khz": 48,
+      "ad": "24bit + AF",
+      "da": "32bit",
+      "processing": "32bit float"
+    },
+    "boundary": "Named pedal compatibility not generic resistance/pinout. Converter ratings not USBaudio/power proof.",
+    "remaining": [
+      "PSA-S voltage/polarity andportable power",
+      "arbitrary pedal pinout/resistance",
+      "globalOUTLEVELminimum0 versus1 language conflict",
+      "ALLBYPASS andtail attenuation",
+      "exactShopeehardware andcondition-specific prices"
+    ],
+    "next": "Continue unresolved individual-LCD evidence when new sources available; maintain independent GT-Pro cursor"
   }
 }

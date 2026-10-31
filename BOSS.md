@@ -339,6 +339,14 @@ Checked 2026-10-28. The original [TARGET list](https://static.roland.com/manuals
 
 The [original MIDI BULK DUMP instructions](https://static.roland.com/manuals/ex-4_reference/en-US/580586379589802763.html) establish **standard operating-system USB driver** use and a computer DAW/MIDI sequencer that can record SysEx. Transfer range separates SYSTEM, GEAR SUITE and U001–U128; retransmitting saved bulk data restores those settings. iPhone/iPad cabling is mentioned, but no dedicated mobile editor is established. This is documented MIDI backup/restore, not a USB audio interface, USB bus-power specification or BOSS Tone Studio editor. Exact OS-version matrix and power details remain unresolved. No backup, restore, reset, installation, download or hardware operation performed. EX-4 remains a partial lead outside active counts.
 
+### EX-4 — supported pedals and converter specifications
+
+Checked **2026-11-01** against the [exact manufacturer product specifications](https://www.boss.info/global/products/ex-4/). BOSS explicitly lists **FV-500L, FV-500H, EV-30 and Roland EV-5** as optional expression pedals. This establishes named compatibility, not an arbitrary pedal resistance range, universal TRS pinout, a separate toe-switch input or automatic volume assignment. External switches listed separately are FS-5U, FS-5L, FS-6 and FS-7; sharing the CTL/EXP socket still requires choosing the appropriate operating mode.
+
+Published audio engine: **48 kHz**, **24-bit AD with AF method**, **32-bit DA**, and **32-bit floating-point processing**. These are separate converter/processing specifications; they do not establish USB audio, its resolution, USB bus power or battery operation. The exact panel reference still describes USB for MIDI exchange and DC IN as the power switch. PSA-S supply and300 mA draw remain documented; voltage/polarity and portable-power operation remain unverified.
+
+Fresh exact Shopee Indonesia search yielded no qualified EX-4 hardware item. Existing non-Shopee offers remain historical and independently qualified. Shared main LCD is not an individual-foot-LCD match; the lead remains partial and outside active counts. No downloads or hardware operation.
+
 ## GM-800
 
 Consolidated and refreshed **2026-10-16**; partial verification. This processor qualifies through independent MFX architecture; it requires specialized input hardware for guitar/bass playing. No excluded specialist model is added.
