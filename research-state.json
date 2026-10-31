@@ -129713,5 +129713,13 @@
     "source": "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
     "pages": "55,63",
     "finding": "Global direct PatchLevel role,parameter0–200;coverage/endpoints/recall unverified."
+  },
+  "ampero_mini_global_recheck_20261031": {
+    "sources": [
+      "https://www.hotone.com/support/3",
+      "https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf"
+    ],
+    "finding": "Editor1.6.0 explicitly compatibleMini2.2;displayidledefault30min,wakeEXP;globaloverride stillnotestablished.",
+    "scope": "Full global-menu text reviewed;patchCTRL/EXP distinct;Unknown not No. OSminima and outputcoverage remain open."
   }
 }
