@@ -129263,11 +129263,11 @@
       "Line 6 HX Effects",
       "Fractal Audio FM9 MKII Turbo",
       "Fractal Audio FM3 MKII Turbo",
-      "HeadRush Prime"
+      "HeadRush Prime",
+      "HeadRush Pedalboard"
     ],
     "remaining_candidates": [
       "Fender Tone Master Pro",
-      "HeadRush Pedalboard",
       "Line 6 Helix Floor",
       "Line 6 Helix Stadium XL Floor"
     ],
@@ -129345,6 +129345,11 @@
       "checked": "2026-10-31",
       "source": "https://www.headrushfx.com/products/prime/index.html",
       "finding": "Twelve OLED scribble strips explicitly assigned one per footswitch."
+    },
+    "headrush_pedalboard": {
+      "checked": "2026-10-31",
+      "source": "https://www.headrushfx.com/products/pedalboard/index.html",
+      "finding": "Twelve individual OLED strips; own manual1.2-inch monochrome distinction retained."
     }
   }
 }
