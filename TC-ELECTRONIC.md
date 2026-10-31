@@ -467,6 +467,14 @@ Checked **2026-10-31**. [Exact manufacturer0709-AMO page](https://www.tcelectron
 **Separate new/used IDR offers:unknown.** Exact Shopee Indonesia Neo/0709-AMO searches yielded no qualified item;NEO MUSIC listings are X3/X5 sold by that shop,not X1 Neo hardware. No currency conversion,download,device operation orvisual inspection. Partial X1 status and397 active records unchanged.
 
 
+### PLETHORA X1 Neo — supplemental Indonesian retailer ask
+
+Checked **2026-11-01**. [Nafiri Guitar’s effects catalogue](https://nafiriguitar.com/collections/effect-pedals) lists **“TC Electronic Plethora X1 Neo TonePrint Multi-effects Pedal in Black” at Rp2.510.000** and links to an [exact Neo product URL](https://nafiriguitar.com/products/tc-electronic-plethora-x1-neo-toneprint-multi-effects-pedal-in-black). The catalogue was readable; the item page returned cache miss. Its country/currency selector is Indonesia/IDR.
+
+This is a **non-Shopee, condition-unverified catalogue ask** for the black finish. The visible card has no sold-out marker, but that does not prove stock or checkout availability. The catalogue-wide in/out-of-stock counts cannot establish this item’s status. Exact product/variant ID, new/used condition, working state, firmware, adapter and bundle contents, warranty, voucher eligibility, shipping/tax and delivered total remain unknown. No discount is inferred from repeated identical price text.
+
+Keep this observation separate from the original white X1 and from NEO MUSIC, which is a seller name on unrelated X3/X5 listings. Earlier absence of qualified Shopee Neo offers remains unresolved. This does not qualify a new/used market range, establish LCD placement or admit another active model. No checkout, seller contact, local download or hardware operation.
+
 ### PLETHORA X1 — direct manufacturer bypass and control scope
 
 Checked **2026-11-01**, [exact manufacturer0709-AJN page](https://www.tcelectronic.com/en/products/0709-AJN),direct original text.

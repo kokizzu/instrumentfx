@@ -137706,5 +137706,27 @@
       "No LCD-layout/specification evidence"
     ],
     "next": "Recover exact item before qualification;do not repeat unchanged category snapshots. LCD-priority queue andBOSS GT-Pro cursor preserved."
+  },
+  "px1_neo_nafiri_ask_20261101": {
+    "model": "TC Electronic::PLETHORA X1 Neo",
+    "status": "partial finish-variant lead; supplemental non-Shopee condition-unverified catalogue ask",
+    "ask_idr": 2510000,
+    "seller": "Nafiri Guitar",
+    "source": "https://nafiriguitar.com/collections/effect-pedals",
+    "exact_product_url": "https://nafiriguitar.com/products/tc-electronic-plethora-x1-neo-toneprint-multi-effects-pedal-in-black",
+    "access": "Catalogue readable, exact item cache miss; no sold-out marker in item card is not stock verification.",
+    "unresolved": [
+      "Product/variant ID, condition and working state",
+      "Firmware, adapter/bundle, warranty, voucher eligibility",
+      "Stock, shipping/tax and delivered total",
+      "LCD-to-switch placement and full profile"
+    ],
+    "qualifications": [
+      "Black Neo only; no transfer to original white X1",
+      "Not NEO MUSIC seller listings or a Shopee offer",
+      "No active admission or new/used range",
+      "No download, checkout, seller contact or hardware operation"
+    ],
+    "next": "Continue LCD-priority source gaps; independent BOSS GT-Pro cursor preserved."
   }
 }
