@@ -42,3 +42,16 @@ Checked2026-10-31 against Changsha Melofty Audio Technology’s [MELOFTY Apple l
 | Editor / function scope | Developer describes Bluetooth preset/Subpatch control,global settings and stomp/expression mappings. Generic global-settings support does not prove global-volume assignment or coverage. App version is not hardware firmware. |
 
 A newly surfaced [manual index](https://device.report/manual/21300124) links [an original-file candidate](https://device.report/m/63a022bc23df064392ad6523fb0e69573ed5ae7b06aa019d4e8601c2f649aa85_optim.pdf);the PDF returned cache miss. Its cleaned overview/troubleshooting text is not independently authenticated manufacturer documentation and is not adopted for specifications. Screen count/technology remain unresolved;no qualified Shopee hardware surfaced. No download,installation or active-inventory admission.
+
+### AXOM MAX — manufacturer manual follow-up
+
+Checked2026-10-31: [manufacturer V1.7.4 manual](https://shop.warwick.de/media/23/53/74/1790324346/4on4_MEL_AXOM_MAX_Manual_EN.pdf?ts=1790324346),text readable again;no local download or visual inspection. Earlier gaps are narrowed only as follows.
+
+| Field | Revision-qualified evidence |
+|---|---|
+| Controls | p5: **4 rotaries,9 footswitches,4 named panel buttons** HOME/SYSTEM/SAVE/EXP;separate power/lock button. Encoder pushes not counted twice. Mini-screen count/technology still unresolved. |
+| Expression / power | p57: external **10–100kΩ TRS** pedal;**9VDC,3A,center-negative** supply. Rating is not measured draw. |
+| IR / NAM loading | pp51–52,55–56: AXOM Controller imports **.nam** files;WAV IR specifications48kHz/32bit/up to2048samples. Supported NAM architectures,conversion requirements and live import test unresolved;this supersedes the earlier lack of a manufacturer .nam workflow. |
+| USB / source conflict | p57: **USB2.0,8-in/8-out,48kHz/24bit**. Distributor192kHz claim remains separately qualified;do not treat32bit converter processing as USB resolution. |
+
+Still a partial discovery lead outside active counts. New quick-guide link surfaced but web reader rejects its23.3MB size: [importer-linked guide](https://shop.warwick.de/media/96/42/2c/1791505539/7fj5_MEL_Axom_Max_Quick_Guide_EN.pdf?ts=1791505539).

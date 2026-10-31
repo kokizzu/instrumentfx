@@ -130523,6 +130523,12 @@
       "finding": "Fender names SP1-TMP; indexed exact Mission specification: 10k linear TRS tip-to-wiper expression, separate TS latching toe output.",
       "access": "Mission search-indexed manufacturer text readable; direct open minimal shell.",
       "limits": "Supported exact combination only; input tolerance, unrelated pedals, global assignment and hands-on operation not verified."
+    },
+    "axom_manual_followup_20261031": {
+      "source": "https://shop.warwick.de/media/23/53/74/1790324346/4on4_MEL_AXOM_MAX_Manual_EN.pdf?ts=1790324346",
+      "revision": "V1.7.4",
+      "finding": "Controls, external pedal/supply, .nam import workflow and USB specification now primary-manual backed; root detail retained. Still outside active counts; display technology/count unresolved.",
+      "next": "Resolve mini-screen count/technology; verify remaining profile and Shopee offers before inventory admission."
     }
   },
   "gt_pro_global_patch_level_20261031": {
