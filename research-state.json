@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro:150namedUserpatches U1-1–U15-10 verified onoriginalpp152–154;finishp155U16–U20 census. Continue13vs15basis,otherUSBmodes,visualcontrols,globalFVprecedence andqualifiedIDR. KeepLCD-first audit priority independently.",
+    "task": "GT-Pro documented200User initial-name census complete. Continue13vs15basis,otherUSBmodes,visualcontrols,globalFVprecedence andqualifiedIDR independently; individual LCD-at-footswitch models take research priority.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -133130,5 +133130,19 @@
     ],
     "finding": "All50namedUserentrieson eachpage inspected:U1-1–U15-10=150. Notfull200Useror400totalfactorycertification.",
     "remaining": "Page155/U16–U20full50rowsnotinspected;official11.46MBPDFlimit,HTMLcachemiss. G3nPDFscreenshotreturnedstringcitationwithoutviewableimage;physicalcountunchanged."
+  },
+  "gtpro_user_fill_complete_20261101": {
+    "model": "BOSS GT-Pro",
+    "sources": [
+      "https://www.manualslib.com/manual/499099/Boss-Gt-Pro.html?page=152",
+      "https://www.manualslib.com/manual/499099/Boss-Gt-Pro.html?page=153",
+      "https://www.manualslib.com/manual/499099/Boss-Gt-Pro.html?page=154",
+      "https://www.manualslib.de/manual/965096/Boss-Gt-Pro.html?page=155"
+    ],
+    "english_entries": 150,
+    "german_entries": 50,
+    "total_named_user_addresses": 200,
+    "range": "U1-1–U20-10",
+    "qualification": "Documented initial User-bank occupancy only; English164-page/German165-page editions distinguished. Current device contents, cross-edition parameter identity and volume defaults unverified."
   }
 }
