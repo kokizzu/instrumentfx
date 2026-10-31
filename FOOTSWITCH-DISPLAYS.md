@@ -2,7 +2,7 @@
 
 [Repository](README.md) · [Multi-effects comparison](MULTI-EFFECTS.md#separate-displays-for-effect-footswitches)
 
-This collection includes **every brand requested**: HeadRush, Line 6 beyond HX Effects, Neural DSP / Quad Cortex, Zoom, Morningstar, Fender Tone Master and MELOFTY. TC Electronic and HX Effects are retained as references. Inclusion means collected for comparison, not confirmation that every candidate has a separate LCD above each switch.
+This collection includes **every brand requested**: HeadRush, Line 6 beyond HX Effects, Neural DSP / Quad Cortex, Zoom, Morningstar, Fender Tone Master, Fractal Audio and MELOFTY. TC Electronic and HX Effects are retained as references. Inclusion means collected for comparison, not confirmation that every candidate has a separate LCD above each switch.
 
 Separate physical displays, labels drawn on one shared screen, and LED rings are different layouts. LCD/OLED technology and screen-to-switch counts need exact-model evidence. Audio processors and MIDI controllers remain separate; controller entries do not enter active multi-effects counts. This collection does not certify launch recency, complete profiles, prices or stock.
 
@@ -11,6 +11,7 @@ Separate physical displays, labels drawn on one shared screen, and LED rings are
 | Brand / model | Display-layout status | Record / next check |
 |---|---|---|
 | Fender **Tone Master Pro** | Candidate collected; per-switch display audit pending | [Existing model record](FENDER.md#tone-master-pro). Verify individual scribble strips, number, technology and switch roles. |
+| Fractal Audio **FM9 MKII Turbo** | **Nine individual mini LCDs**, one per footswitch; separate color main screen | [Current manufacturer-backed record](FRACTAL-AUDIO.md#fm9-mkii-turbo). Enlarged MKII strips; do not transfer their size to original FM9. |
 | HeadRush **Pedalboard** | Candidate collected; display audit pending | [Existing model record](HEADRUSH.md#pedalboard). Verify individual displays independently of its central touchscreen. |
 | HeadRush **Prime** | Candidate collected; display audit pending | [Existing model record](HEADRUSH.md#prime). Check exact model rather than borrowing Pedalboard/Core specifications. |
 | Line 6 **Helix Floor** | Candidate collected; display audit pending | [Existing model record](LINE6.md#helix-floor). Verify strip count and which switches they label. |

@@ -129260,7 +129260,8 @@
     "verified_models": [
       "TC Electronic PLETHORA X5",
       "TC Electronic PLETHORA X3",
-      "Line 6 HX Effects"
+      "Line 6 HX Effects",
+      "Fractal Audio FM9 MKII Turbo"
     ],
     "remaining_candidates": [
       "Fender Tone Master Pro",
@@ -129293,7 +129294,8 @@
         "Zoom",
         "Morningstar",
         "Fender Tone Master",
-        "MELOFTY"
+        "MELOFTY",
+        "Fractal Audio"
       ],
       "instruction": "Prioritize these brands; distinguish shared-screen labels and controller-only products from audio processors."
     },
@@ -129309,6 +129311,11 @@
       "downloads": false
     },
     "collection": "FOOTSWITCH-DISPLAYS.md",
-    "collection_scope": "All requested brands collected; pending exact Zoom/Morningstar models and unverified layouts remain explicit. No new inventory admissions."
+    "collection_scope": "All requested brands collected; pending exact Zoom/Morningstar models and unverified layouts remain explicit. No new inventory admissions.",
+    "fm9": {
+      "checked": "2026-10-31",
+      "source": "https://www.fractalaudio.com/fm9/",
+      "finding": "Nine individual mini LCDs; current MKII model enlargement distinguished from original."
+    }
   }
 }
