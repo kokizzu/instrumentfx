@@ -14,7 +14,7 @@ These have separate physical screens for the documented effect switches. Extra n
 
 | Brand / model | Display-layout status | Record / next check |
 |---|---|---|
-| Fender **Tone Master Pro** | **Ten dedicated LCD screens**, one per footswitch/encoder; separate7-inch color touchscreen | [Verified exact-model record](FENDER.md#tone-master-pro). Navigation/master readouts are not additional footswitch displays. |
+| Fender **Tone Master Pro** | **Ten dedicated LCD screens**, one per footswitch/encoder; separate7-inch color touchscreen | [Verified exact-model record](FENDER.md#tone-master-pro). Navigation/master readouts are separate; firmware1.8’s16 paged assignments do not add physical LCDs. |
 | Fractal Audio **FM3 MKII Turbo** | **Three individual mini LCDs**, one per footswitch; separate color main screen | [Current manufacturer-backed record](FRACTAL-AUDIO.md#fm3-mkii-turbo). Virtual switch layouts do not add physical displays. |
 | Fractal Audio **FM9 MKII Turbo** | **Nine individual mini LCDs**, one per footswitch; separate color main screen | [Current manufacturer-backed record](FRACTAL-AUDIO.md#fm9-mkii-turbo). Enlarged MKII strips; do not transfer their size to original FM9. |
 | HeadRush **Pedalboard** | **Twelve individual monochrome OLED strips**, one per footswitch; separate main touchscreen | [Exact model/manual record](HEADRUSH.md#pedalboard). Manual strips1.2-inch; main6.9-inch versus marketed7-inch retained. |

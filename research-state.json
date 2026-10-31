@@ -129395,6 +129395,12 @@
         "condition": "unverified",
         "access": "Two-month-old search/direct cache; stock/bundle/warranty/checkout unknown.",
         "scope": "Additional qualified historical ask; not a verified new-price range."
+      },
+      "assignment_pages": {
+        "checked": "2026-10-31",
+        "source": "https://support.fender.com/hc/en-gb/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+        "version": "1.8.45,2026-06-03",
+        "finding": "16 paged assignments,8scene maximum; hardware remains10 switches/LCDs. New looper assignments control global looper."
       }
     },
     "helix_floor": {
