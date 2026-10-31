@@ -137186,5 +137186,15 @@
     ],
     "destination": "FRACTAL-AUDIO.md#fm3-original--usb-connectors-and-published-electrical-ratings",
     "qualification": "Published electrical ratings andUSB connector roles;no hardware measurements. Primary confirmation ofheadphone-less batches still unavailable;do not repeat same forum searches without new leads."
+  },
+  "fm3_original_output_mute_20261101": {
+    "status": "partial;own Standard-covered7.x manual",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+    "pages": [
+      26,
+      103
+    ],
+    "destination": "FRACTAL-AUDIO.md#fm3-original--output-mode-mute-and-usb-playback",
+    "qualification": "Output mode distinction;global expression andcurrent firmware coverage remain unresolved. FM9 output-mode options not transferred."
   }
 }

@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(fractal): document original FM3 USB and electrical specifications'))
+    print(git('commit','-m','research(fractal): distinguish FM3 output mute from USB playback'))
