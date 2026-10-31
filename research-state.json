@@ -131520,5 +131520,18 @@
     "index_discrepancy": "Search conversion of200729matrix says2.75cm,butunderlying primaryPDFp1reads2in/5cm;not adopted ashardwarevariation",
     "remaining": "Actual diagonal/active-area,color andtouch;globalvolume assignment/coverage gaps unchanged",
     "next": "Continue LCD-first exact-model gaps,including Helix Floor separate published strip dimensions;independent BOSS GT-Pro cursor retained."
+  },
+  "helix_floor_strip_touch_20261031": {
+    "checked": "2026-10-31",
+    "record": "LINE6.md#helix-floor--nominal-strip-size-and-original-non-touch-design",
+    "nominal_strip_size": "13x2in/5cm;manufacturer chart,p1;axis unspecified",
+    "sources": [
+      "https://line6.com/data/6/0a020a41bf435f876fd2b5e0e/application/pdf/",
+      "https://line6.com/support/topic/15984-helix-reviews-please/#comment-117982",
+      "https://line6.com/support/profile/1928801-digital_igloo/"
+    ],
+    "main_touch": "Original design non-touch;October10,2015 first-person product-development explanation. Same account publishes official KB release notes. Not Stadium.",
+    "remaining": "Auxiliary strip diagonal/color/touch andphysical visual corroboration;otherpower/factory/offer qualifications retained",
+    "next": "Continue LCD-first unresolved exact-model fields; avoid repeated empty searches; independent general BOSS GT-Pro cursor retained."
   }
 }
