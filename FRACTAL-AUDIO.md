@@ -432,6 +432,17 @@ Checked **2026-10-31** in the [manufacturer Footswitch Functions Guide](https://
 Exact MKII dimensions,mass andcomplete physical control count remain unverified. No download,device operation orpreset modification.
 
 
+### FM9 — continuous volume versus saved level steps
+
+Checked **2026-10-31**,[own FM9 manual][f9-m],August2022 firmware3.x,printedp100. Original/Turbo scope;current MKII/firmware12 equivalence remains unverified.
+
+| Field | Documented distinction / qualification |
+|---|---|
+| Expression / continuous global role | Input1–3 and Output1–3 Volume control corresponding block levels globally. These roles differ from the separate Output1/2 Volume Increment/Decrement functions. |
+| Expression / saved output-level steps | Increment/Decrement changes the currently loaded preset’s output-block MAIN level in **1dB steps and saves the preset**,including other unsaved parameters/bypass states. The manual specifies momentary-switch CC127/0 control and explicitly excludes expression-pedal use,which can cause a large level change in one sweep. These steps do not establish continuous pedal endpoints or a universal minimum/maximum. |
+
+No device was operated or preset saved. The current support page still links this2022 manual;its newer factory9.02 package listing alone does not prove factory-filled count.
+
 ## VP4
 
 Admitted 2026-10-28 as a **partial model**, not fully verified. Own manufacturer product/manual establish effects-only guitar/bass multi-effects. All earlier lead-stage bodies and anchors remain below; their outside-inventory status is historical and superseded only by this admission. No ownership or live-market availability inferred.

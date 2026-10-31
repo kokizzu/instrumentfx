@@ -131392,5 +131392,16 @@
     ],
     "remaining": "Global-volume assignment, numeric attenuation endpoints and DSP-bypass tail/loop coverage remain unverified. No new qualified Shopee offer; LCD spare part excluded.",
     "next": "Continue LCD-footwitch priority, exact FM9/Fender/Zoom offers and remaining technical fields; preserve independent BOSS GT-Pro cursor."
+  },
+  "fm9_global_vs_saved_level_20261031": {
+    "checked": "2026-10-31",
+    "record": "FRACTAL-AUDIO.md#fm9--continuous-volume-versus-saved-level-steps",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "manual_scope": "August2022 firmware3.x Original/Turbo; printedp100",
+    "continuous": "Input/Output1–3Volume global roles",
+    "increment_decrement": "Output1/2MAIN plus/minus1dB and automatically save current preset including unsaved parameter/bypass edits; momentary CC127/0, not EXP",
+    "remaining": "Current MKII/firmware12 equivalence, numeric continuous endpoints, analog startup recall and bypass/phones/loop coverage remain unverified",
+    "offer_recheck": "Hurtrock indexed44,395,000 same item11170212/25331147281; direct JS shell; no new condition/stock evidence",
+    "next": "Continue exact LCD models first; independent BOSS GT-Pro general cursor retained."
   }
 }
