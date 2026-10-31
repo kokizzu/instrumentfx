@@ -4149,6 +4149,10 @@ Checked **2026-10-31**: [Zoom’s Effects and Preamps2019 catalogue](https://zoo
 
 This resolves the published total only. The [own V2 manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) separately identifies the treadle’s switch;its construction and a complete separate-button count remain outside this result. Four Unit LCDs are not a nine-screen claim. Earlier unknown-count statements above record the prior evidence limit and are superseded only for the catalogue-reported footswitch total. No local download or device operation.
 
+### G5n — firmware-qualified Overview LCD fix
+
+Checked **2026-11-01**, [manufacturer G5n version history,Z2I-2935-02](https://zoomcorp.com/documents/3435/G5n_System_Firmware_Version_History_ver300_en.pdf),one-page original. **2.00,February2017** fixes a white square on the Overview screen when entering PC Mode during patch-name editing,andshortens Guitar Lab connection time. **3.00,April2018** separately improves tuner display. These are revision-specific software fixes,not current defect claims,new physical screens orchanged LCD specifications. Installed-version behavior remains untested. No download ordevice operation.
+
 ## G6
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

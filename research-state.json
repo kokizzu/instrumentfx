@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Zoom G5n: remaining exact-model individual-LCD/profile and qualified Shopee gaps. B3n controls/OutputVP unresolved; bounded primary searches repeated established data. Resolve pending shop-only B3n offers only after exact item identity; do not promote them to verified prices.",
+      "next_check": "Zoom G11 then original G5: remaining exact-model individual-LCD/profile and qualified hardware offers. G5n USB channels/power/subtype and visual census remain unresolved; do not repeat exhausted count queries or treat firmware display fixes as hardware changes.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133243,6 +133243,11 @@
       "file": "ZOOM.md",
       "model": "B3n",
       "heading": "### B3n — pitch tracking and effect-level controls"
+    },
+    {
+      "file": "ZOOM.md",
+      "model": "G5n",
+      "heading": "### G5n — firmware-qualified Overview LCD fix"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -133278,5 +133283,11 @@
         "qualification": "Four-month search shop snapshot only; direct cache miss; exact item/condition/stock unknown."
       }
     ]
+  },
+  "g5n_overview_lcd_fix_20261101": {
+    "source": "https://zoomcorp.com/documents/3435/G5n_System_Firmware_Version_History_ver300_en.pdf",
+    "identity": "G5n,Z2I-2935-02,one page",
+    "finding": "Historical Overview/PC-mode and tuner display fixes documented; installed behavior untested.",
+    "remaining": "USB channel count, power negatives, subtype and visual control census remain unresolved after bounded primary searches."
   }
 }
