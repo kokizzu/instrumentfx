@@ -129592,6 +129592,50 @@
             "PH+Dist",
             "BaStdSyn",
             "BaSynTlk"
+          ],
+          "Filter": [
+            "AutoWah",
+            "Resonance",
+            "Cry",
+            "SeqFLTR",
+            "Gt GEQ",
+            "Gt GEQ7",
+            "St Gt GEQ",
+            "ParaEQ",
+            "EG FLTR",
+            "RndmFLTR",
+            "LowPassFL",
+            "Exciter",
+            "Step",
+            "LFO FLTR",
+            "BassA-Wah",
+            "Z Tron",
+            "A-Filter",
+            "Bass Cry",
+            "BassGEQ",
+            "St Ba GEQ",
+            "BassPEQ",
+            "Splitter",
+            "Low EQ",
+            "High EQ",
+            "EnvFilter"
+          ],
+          "Dynamics": [
+            "Comp",
+            "RackComp",
+            "SlowATTCK",
+            "ZNR",
+            "MuteSW",
+            "GrayComp",
+            "NoiseGate",
+            "OptComp",
+            "BlackOpt",
+            "LMT-76",
+            "160 Comp",
+            "DualComp",
+            "MB Comp",
+            "DYN Comp",
+            "Glam Comp"
           ]
         },
         "counts": {
@@ -129600,10 +129644,12 @@
           "Reverb": 17,
           "IR": 1,
           "Delay": 17,
-          "SFX": 9
+          "SFX": 9,
+          "Filter": 25,
+          "Dynamics": 15
         },
         "finding": "PDLVolMinMax0–100curvesAB;OutputVPrecallnotuniversalassignment;monopitchsingle-note.",
-        "remaining": "Filter,Drive,Amp,Cabinet,Modulation still need complete V2 count;postV2currentinventory and outputcoverage remain open."
+        "remaining": "Drive,Amp,Cabinet,Modulation still need complete V2 counts;postV2inventory/currentinstalledstate and othermodelgaps remainopen."
       }
     },
     "zoom_g3": {
