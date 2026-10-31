@@ -132878,5 +132878,16 @@
     "finding": "Synchronized overview with preserved explicit USB-power claim;added distinct USB2.0 Micro-B connector andUSB1.1 Full Speed protocol labels.",
     "limits": "Manufacturer legacy web claim;current hardware applicability,required USB current andactual operation unknown. NoUSB audio inferred;manual adapter-startup instruction retained.",
     "next": "Check G3n own-model USB wording independently;do not transfer this claim between variants. LCD-first priority andindependent BOSS GT-Pro cursor preserved."
+  },
+  "g3n_legacy_usb_headphones_20261031": {
+    "source": "https://www.zoom.co.jp/node/747",
+    "access": "Indexed original exact-model body;direct502",
+    "finding": "Recorded G3n own USB power claim/protocol independently;qualified headphone shared-versus-dedicated contradiction within same manufacturer page.",
+    "limits": "USB current/current hardware applicability andactual operation unverified. Headphones present,butphysical arrangement unresolved. No globalEXP orUSB audio inference.",
+    "affected": [
+      "ZOOM.md#g3n",
+      "EXPRESSION-VOLUME.md"
+    ],
+    "next": "Continue individual-LCD model evidence andqualified Shopee discovery;independent BOSS GT-Pro cursor preserved."
   }
 }

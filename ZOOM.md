@@ -3245,8 +3245,8 @@ Reviewed **2026-10-17**,new exact-model Shopee discovery. Separate from G3Xn and
 | Choice / revision conflict | Manual80types versus current product V2:127 DSP entries (125effects+looper+rhythm)+32 amp/cabs (16amps+16cabs). Keep revision wording;not one stable total. | [Manual](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf); [product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/) |
 | Memory | **150 patches total;75 supplied**;official G3n patch sheet says **76–150 empty by default**. Not150+75. Three patches per bank;overwrite/restore behavior needs operation review. | [G3n patch sheet](https://zoomcorp.com/media/documents/E_G3n_patch-list.pdf); [Manual](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf); [product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/) |
 | Synth / acoustic | **Aco.Sim electric-to-acoustic simulation confirmed** by exact G3n patch036 Tacoustic (Aco.Sim+RackComp). Patch042 Loopertron uses OctFuzz+TapeEcho for synth-style octave sound;patch043 Gayageum uses Aco.Sim+PitchSHFT. Composite presets do not establish a dedicated synth engine,polyphony or extra independent simulator algorithms. Built-in IR-modeled cabs do not establish user IR import. | [G3n patch list](https://zoomcorp.com/media/documents/E_G3n_patch-list.pdf); [manual](https://zoomcorp.com/documents/140/E_G3n_G3Xn.pdf) |
-| Audio / control ports | Mono standard instrument input;stereo mini AUX;mono R output;**stereo L/MONO/PHONES combined output**;G3n FP02 control;**USB Micro-B,USB MIDI**. Complete rear/specification inventory lists **no separate DIN MIDI,XLR orsend/return sockets**;USB MIDI remains documented. Control wiring andphantom capability remain unverified. [Inventory cross-check](#g3n--complete-connector-inventory-boundary). | [Manual,p.51](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf) |
-| Power | **DC9V,500mA,center-negative AD-16**. Battery/USB operation not established;USB connector alone is insufficient. | [Manual](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf) |
+| Audio / control ports | Mono standard instrument input;stereo mini AUX;mono R output;**L/MONO/PHONES combined output in specifications,versus dedicated-headphone wording in own legacy features;physical arrangement unresolved**;G3n FP02 control;**USB Micro-B,USB MIDI**. Complete rear/specification inventory lists **no separate DIN MIDI,XLR orsend/return sockets**;USB MIDI remains documented. Control wiring andphantom capability remain unverified. [Inventory cross-check](#g3n--complete-connector-inventory-boundary). | [Manual,p.51](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf) |
+| Power | **DC9V,500mA,center-negative AD-16**. Battery operation unverified. [Exact G3n legacy manufacturer page](https://www.zoom.co.jp/node/747) explicitly claims USB-port power; required USB current, current hardware applicability and actual operation remain unverified. This is a documented claim,not a connector-based inference. | [Manual](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf) |
 | IR / NAM / capture | Third-party IR loading,native NAM,converted NAM and user capture import not established. Built-in IR-modeled cabs are separate. | Workflow verification pending |
 | Editor / platforms | Guitar Lab full Windows/macOS effect-chain/patch editing;support lists7.3 (Windows8.1/10/11;macOS10.13–26),separate G3n firmware2.20 Windows/Mac. Mobile editor ?. | [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/); [support](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/g3ng3xn-support/) |
 | Editor / dated Tahoe verification | Manufacturer matrix published **2026-01-23**,statusJanuary2026,marks **G3n/G3Xn and Guitar Lab Yes on macOS Tahoe26**,separately for Apple silicon and Intel. This is model/host compatibility evidence,not every-feature testing or USB audio certification. [Official matrix](https://zoomcorp.com/en/gb/news/macos_tahoe/),checked2026-10-31. | Manufacturer verification status;no local host/device test. |
@@ -3294,7 +3294,7 @@ Condition,revision,complete accessories,warranty region,stock quantity,shipping/
 
 ### Remaining checks
 
-Remaining: complete footswitch/button inventory; published screen diagonal/color/touch; current installed library beyond the documented 2017 category census; factory overwrite/restore; synth-engine verification; control-port wiring/phantom capability (connector exclusions documented below); IR/NAM/capture workflows; battery/USB power and USB audio status; scenes/patch-change tails; and qualified condition-specific current offers. Bass applicability stays unclassified. Numerical DSP costs, looper block costs/retention, autosave prompts and the 2017 category names are documented in the dated rows above; these do not fully verify the model.
+Remaining: complete footswitch/button inventory; published screen diagonal/color/touch; current installed library beyond the documented 2017 category census; factory overwrite/restore; synth-engine verification; control-port wiring/phantom capability (connector exclusions documented below); IR/NAM/capture workflows; battery operation,USB-power requirements/current applicability andlater USB-audio status; scenes/patch-change tails; and qualified condition-specific current offers. Bass applicability stays unclassified. Numerical DSP costs, looper block costs/retention, autosave prompts and the 2017 category names are documented in the dated rows above; these do not fully verify the model.
 
 ### Exact-model patch and practice follow-up
 
@@ -3348,7 +3348,7 @@ Checked **2026-10-31**,[manufacturer German shared manual](https://zoomcorp.com/
 | Field | Evidence / qualification |
 |---|---|
 | I/O / complete published inventory | INPUT,AUX IN,R,L/MONO/PHONES,CONTROL IN,USB Micro-B andDC9V;POWER is a switch. **No separate DIN MIDI,XLR orsend/return sockets** in the complete panel/specification lists. USB MIDI is expressly specified;absence of DIN does not mean noMIDI. |
-| I/O / remaining electrical boundary | L/MONO/PHONES is a shared stereo line/headphone socket,not a separate headphone output. Complete socket enumeration does not establish CONTROL IN pinout/polarity,pedal compatibility beyond namedFP02,phantom capability,USB audio orUSB power. |
+| I/O / remaining electrical boundary | Manual specifications label L/MONO/PHONES a shared stereo line/headphone socket;the exact legacy product feature list instead says dedicated headphones. Physical arrangement remains unresolved. Complete socket enumeration does not establish CONTROL IN pinout/polarity,pedal compatibility beyond namedFP02,phantom capability,USB audio orUSB power. |
 
 This closes the earlier physical-connector exclusion gap only. Original text inspection;no visual panel count,download orhardware operation.
 
@@ -3370,6 +3370,17 @@ Checked **2026-10-31**,original manufacturer histories [English](https://zoomcor
 
 The [current exact-model support page](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/g3ng3xn-support/) still links the ©2017 parameter list,which predates OutputVP. Numeric endpoints,assignment scope andbypass/phones/tail/loop coverage remain unresolved. No download,update ordevice operation.
 
+
+### G3n — exact legacy USB claim and headphone conflict
+
+Checked **2026-10-31**, indexed original [G3n manufacturer page](https://www.zoom.co.jp/node/747);direct502. Its234×181mm body,150 locations andFP02M control identify G3n,independently ofG3Xn.
+
+| Field | Manufacturer wording / qualification |
+|---|---|
+| USB / legacy power and protocol | Own USB row explicitly permits **USB-port power**,labels the connector **USB2.0 Micro-B** andthe protocol **USB1.1 Full Speed**. Power-only cables disable data functions. Required current andcurrent hardware applicability remain unspecified;no hardware test confirms operation. The manual’s adapter-startup instruction does not explicitly deny USB power. |
+| I/O / legacy headphone conflict | Features say **dedicated stereo headphones**,butthe same page’s specifications say **combined L/Mono/Phone**,with15+15mW into32Ω. Headphone availability is documented;separate-versus-shared socket layout remains unresolved. The load used for the power rating is not a minimum-impedance specification. |
+
+No download ordevice operation. USB audio andglobal analog-volume assignment are separate capabilities;neither follows from this power claim.
 
 ## G3X
 
