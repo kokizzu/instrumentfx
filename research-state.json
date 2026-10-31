@@ -132384,5 +132384,32 @@
       "No download,reset,installation ordeviceoperation"
     ],
     "next": "Continue individual-LCD model gaps;G3Xn initialallocation nowdocumented,do not requeue asunknown;independent BOSS GT-Pro generalcursor unchanged"
+  },
+  "tone_master_nam_a2_pending_lead_20261031": {
+    "checked": "2026-10-31",
+    "model": "Fender Tone Master Pro",
+    "status": "Pending secondary-news lead;not verified capability",
+    "lead": {
+      "url": "https://guitarbomb.com/blog/nam-a2-officially-coming-fender-tone/",
+      "published": "2026-10-24",
+      "scope": "Reports a Fender product-team forum announcement ofplanned NAM A2;originalpost/accountcontext/screenshotnot independently inspected"
+    },
+    "primary_recheck": {
+      "url": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+      "retrieved_heading": "1.8.58,2026-07-15",
+      "nam_entry": "NoNAMmatchinretrievedtext;notproofnolaterannouncementexists"
+    },
+    "superseded_summary_row": "| NAM / captures | Native NAM, NAM conversion and user amp-capture loading/creation **not established** by the checked manufacturer documentation. Factory cabinet IR capture is not onboard amp-capture functionality. |",
+    "capability_status": "Native NAM,conversion,captureimport andcapturecreation remain notestablished",
+    "unverified": [
+      "Original manufacturer announcement",
+      "A1/A2Full/A2Lite coverage",
+      "Public firmwareversion/release date",
+      "Importworkflow/conversion",
+      "DSP/blocklimits",
+      "Capturecreation versusplayback"
+    ],
+    "next": "Locate originalmanufacturerpost andfuture officialrelease/importdocumentation;do not promote pressreport to shippedNAM;continueLCD-first;BOSS GT-Proindependentgeneralcursor unchanged",
+    "operations": "No downloads,firmwaremodification ordeviceoperation"
   }
 }

@@ -221,7 +221,7 @@ Original11-page PR6171 owner-manual pages corroborate the mirrored guide's effec
 | USB / analog-loop boundary | Same manual printedpp34,37: reamp playback enters digital processing and **bypasses analog Loops1/2**,while physical instrument/mic inputs are muted. Power cycling returns to standard recording mode. This does not establish global expression attenuation of USB returns or recorded loops. |
 | I/O / published input ratings | Current product:instrument maximum **5.6V,or2.8V with pad off**;line input **1MΩ,7.8V balanced/4.5V unbalanced**;mic preamp **1.8kΩ balanced,4.7V maximum**;AUX **10kΩ,2.4V maximum**. Effect-loop impedance10kΩ. Voltage labels do not specify peak/RMS here;do not convert them into assumed dBu ratings. [P],checked2026-10-31. |
 | I/O / line output ratings | Out1 maxima:**12V line/3.9V instrument balanced;6.1V line/2.8V instrument unbalanced**. Out2:**4.7V line/2.8V instrument**. Out1 impedance:**200Ω line;290Ω balanced/400Ω unbalanced instrument**;Out2 **170Ω**. Manufacturer notation retained;these are not expression-control endpoints or headphone power ratings. [P],checked2026-10-31. |
-| NAM / captures | Native NAM, NAM conversion and user amp-capture loading/creation **not established** by the checked manufacturer documentation. Factory cabinet IR capture is not onboard amp-capture functionality. |
+| NAM / captures | Native NAM, NAM conversion and user amp-capture loading/creation **not established** by the checked manufacturer documentation. Factory cabinet IR capture is not onboard amp-capture functionality. [Recent NAM A2 report remains a pending lead](#tone-master-pro--nam-a2-report-awaiting-primary-verification);no shipped capability is added here. |
 
 ### I/O, power and software
 
@@ -420,3 +420,9 @@ Checked2026-10-31 against [Fender’s original release history](https://support.
 | Expression / outbound MIDI | EXP1/2 can send MIDI CC expression messages to external devices. A separate fix addresses MIDI EXP4 potentially affecting Master Volume. Neither establishes direct analog all-preset master-volume assignment or universal output coverage. |
 
 Current Guide H category census remains unfinished; unsuccessful mirror searches do not validate third-party totals. No download,software installation,preset edit ordevice operation.
+
+### Tone Master Pro — NAM A2 report awaiting primary verification
+
+Checked **2026-10-31**. [GuitarBomb’s October24 report](https://guitarbomb.com/blog/nam-a2-officially-coming-fender-tone/) attributes planned NAM A2 support to a Fender product-team forum post. **Pending research lead only:**the original post/account context andscreenshot were not independently inspected. No implementation,architecture subtype,release date,firmware version,import path,DSP limit orcapture-creation capability is verified from that report.
+
+The [retrieved official firmware history](https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates) still heads with **1.8.58,July15,2026**,andits retrieved text has no NAM entry. That does not prove no later announcement exists. Existing NAM status remains **not established**;next evidence needed is the original manufacturer announcement andeventual release/import documentation. No files downloaded,firmware modified ordevice operated.
