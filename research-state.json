@@ -129597,6 +129597,13 @@
       "root": "RJM-MUSIC.md#mastermind-gt16",
       "active": false,
       "finding": "16 individual LCDs; exact model body and power retained;384/768 memory conflict pending."
+    },
+    "plethora_x5_v3": {
+      "checked": "2026-10-31",
+      "source": "https://device.report/m/2fae0bfbda2091158a57d1b22482ef6f5af083e6db2ff7851088282e301026b9",
+      "identity": "Own X5 V3.0 guide,Music Tribe2021,pp14–15,33",
+      "finding": "Corresponding slot LCDs;Mini-B USB/True Bypass; screen diagonal/color/touch unknown.",
+      "offer": "Exact NEO MUSIC item cache miss; historical ask retained."
     }
   }
 }

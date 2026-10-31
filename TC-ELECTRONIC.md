@@ -534,7 +534,7 @@ Checked 2026-10-17; partial. Guitar/bass shared processor; ownership and vocal s
 | Live / MIDI looper mapping | CC110 Record,111 Play,112 Clear,113 Pause. Values0–24/25–50/51–76/77–102/103–127 target slots1–5 respectively. Slots4–5 explicitly X5-only. CC92 tap,93 tuner,94/95 Board down/up. | [Official X5/X3 MIDI table][PX5-C] |
 | Preset memory | **127 custom Boards;75 TonePrint slots per pedal**. Factory-filled subset unresolved; Board count is not simultaneous block count. | [Product][PX5-P] |
 | Synth / acoustic | Dedicated synth/acoustic conversion unresolved. | Unresolved |
-| I/O | Stereo quarter-inch TS inputs/outputs; TS Send/Return insert; TRS EXP; MIDI In/Thru; USB for computer TonePrint/update; DC input. USB audio/power unresolved. | [QSG pp14–15][PX5-M] |
+| I/O | Stereo quarter-inch TS inputs/outputs; TS Send/Return insert; TRS EXP; MIDI In/Thru; **Mini-B USB** for computer TonePrint/update; DC input. USB audio/power unresolved. | [QSG pp14–15][PX5-M] |
 | Power / battery / USB | **9V DC,>600mA included supply**,5.5/2.1mm centre-negative. Actual draw,battery/USB operation unresolved. | [QSG controls/specifications][PX5-M] |
 | Dimensions / mass | Guide prints **298.5×116×53mm under H×W×D**,1.4kg. Axis-label inconsistency preserved; no silent normalization or size-bin assignment. | [QSG specifications][PX5-M] |
 | IR / NAM / capture | **Nine global proprietary cabinet simulations**, including bass use. User IR/native or converted NAM/capture support unresolved. | [Product][PX5-P] |
@@ -552,6 +552,16 @@ Checked 2026-10-17; partial. Guitar/bass shared processor; ownership and vocal s
 | Used | No qualified offer. | — |
 | New | No condition-confirmed offer. | — |
 | Unverified condition | **Rp9.105.200**,NEO MUSIC,shop158235298/item27271818642,Kota Sukabumi. Checked2026-10-17; three-month indexed crawl,July2 delivery text. Historical ask, not current stock/checkout. | [Item][PX5-O] |
+
+### PLETHORA X5 — readable V3.0 guide, 2026-10-31
+
+[Manufacturer-authored mirrored guide](https://device.report/m/2fae0bfbda2091158a57d1b22482ef6f5af083e6db2ff7851088282e301026b9), exact X5 title, V3.0, Music Tribe©2021, printed pp14–15,33. Read extracted original text, not generated FAQs; no download or visual inspection.
+
+- LCDs correspond to effect switches1–5; separate status LEDs are not additional screens. EDIT selects/edits a slot; PLAY switches its effect. Screen diagonal/color/touch remain unverified.
+- Specifications identify **Mini-B USB** and **True Bypass**. This does not establish bus power, USB audio, trailing behavior or power-failure bypass.
+- EFFECT/TONEPRINT encoder presses assign the selected item in EDIT; both have no PLAY function in this revision. Do not infer unchanged behavior in later firmware.
+
+Exact NEO MUSIC item27271818642 returned cache miss on this pass; preserve the historical Rp9.105.200 ask without claiming current stock or condition.
 
 <!-- comparison evidence ends -->
 
