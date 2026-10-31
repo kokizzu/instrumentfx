@@ -346,6 +346,18 @@ Checked **2026-10-31** in the [manufacturer-authored release-history PDF reprodu
 | Display / MarkII contrast | Same12.0 section,PDFp5: finer mini-LCD contrast adjustment and**50% default for FM3 MarkII**. Numeric adjustment endpoints remain unknown;do not borrow FM9’s60% default. |
 
 No firmware,manual orsoftware saved locally;no update,backup ordevice operation performed. Global pedal endpoints/recall remain unresolved.
+### FM3 — firmware13 named additions and bass tracking
+
+Checked **2026-10-31** in the [original FM3 release-history PDF](https://manuals.plus/m/7de5caf1ac45bf1cdf36c9adfdb9d248e0cfeebd9524cbad9fbd8d3f94baf9eb.pdf),identity established above;PDFpp1–4.
+
+| Field | Revision-qualified finding |
+|---|---|
+| Categories /13.00 additions | **Five new amps:** Brit JVM Crunch Green/Orange/Red,PVH6160 Block Clean,Deluxe Tweed Normal. Existing Deluxe Tweed becomes Bright,a rename rather than sixth addition. **Swedish Metal Drive** added. |
+| Categories /13.00 Chorus | **Nine new choices:** Japan CE-1 Chorus,Japan CE-1 Vibrato,Japan CH-1,MX234,Small Copy,Japan CE-2 Bass,Vibrato,Rockguy,MX134 Stereo. Japan CE-2 is remastered,not a tenth new choice. This updates the historical7.x census without claiming a complete current total. |
+| Synth /12.0 tracking | Synth andRing Mod gain Guitar/Bass Tracking Mode;Bass shifts detection down an octave to approximatelyF♯0. This does not establish polyphonic oscillator synthesis. |
+
+Installed firmware andcomplete current choice/instance census remain unverified. No download ordevice operation.
+
 
 ## FM9 MKII Turbo
 
