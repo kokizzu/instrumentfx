@@ -138058,5 +138058,23 @@
     "remaining": "Other driver-mode channel counts, current host operation, global FV range precedence, visual controls and qualified Shopee offers remain unresolved.",
     "downloads": false,
     "hardware_test": false
+  },
+  "g11_sincere_offer_20261101": {
+    "checked": "2026-11-01",
+    "source": "https://sinceremusic.co.id/product/zoom-g11-guitar-effects-processor-with-expression-pedal/",
+    "model": "Zoom G11",
+    "seller": "PT Sinceremusic",
+    "sku": "ZOOM00040",
+    "amount_idr": 11900000,
+    "condition": "Unverified",
+    "stock": "Four-month opened snapshot says In stock; current inventory unverified",
+    "remaining": "Region, firmware, working state, condition, bundle/adapter, warranty, tax, shipping and delivered total unverified.",
+    "excluded_used_lead": {
+      "source": "https://www.olx.co.id/cakung_g5000492/alat-musik-aksesoris_c217/q-gitar-%2B-efek?page=1",
+      "amount_idr": 7000000,
+      "reason": "Category-only G11 result, Jati Sampurna Bekasi; exact item/seller/condition not recovered. Bekas category filter count is not item condition. Not admitted to used-price evidence."
+    },
+    "downloads": false,
+    "transaction": false
   }
 }
