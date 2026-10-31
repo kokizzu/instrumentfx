@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(fractal): correct original FM3 button counting explanation'))
+    print(git('commit','-m','research(fractal): qualify original FM3 firmware migration and pedal fixes'))

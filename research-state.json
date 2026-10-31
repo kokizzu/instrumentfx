@@ -137407,5 +137407,23 @@
       "global expression volume and current installed-library reconciliation"
     ],
     "next": "Continue individual-LCD processor gaps with new exact-model evidence; do not repeat unchanged USB searches or transfer older G5 specifications. Preserve general BOSS GT-Pro cursor."
+  },
+  "fm3_original_firmware_migration_20261101": {
+    "status": "partial, revision-qualified original-model evidence",
+    "sources": [
+      "https://manuals.plus/m/7de5caf1ac45bf1cdf36c9adfdb9d248e0cfeebd9524cbad9fbd8d3f94baf9eb.pdf",
+      "https://www.fractalaudio.com/fm3-downloads/"
+    ],
+    "findings": [
+      "10.0 older factory presets may exceed80% CPU especially Standard/non-Turbo; replacement banks separate, current listing June4,2025",
+      "11.0 rear-pedal response,External activity sensing and FC-pedal modifier startup fixes",
+      "12.0 corrected11.0 Pedal1/2 MIDI CC regression; not proof of direct analog global volume recall"
+    ],
+    "unresolved": [
+      "global-volume endpoints/held-position recall/output coverage",
+      "current installed preset and firmware behavior",
+      "qualified exact original-revision IDR hardware"
+    ],
+    "next": "Continue individual-LCD processor unresolved capabilities and fresh exact hardware evidence; preserve independent BOSS GT-Pro general cursor."
   }
 }
