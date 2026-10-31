@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 399,
+  "active_model_count": 400,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 399,
+  "canonical_root_model_count": 400,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "399 unique active/root-canonical;0 legacy-only;48 brands;six excluded;all partial.",
+  "count_reconciliation": "400 unique active/root-canonical;0 legacy-only;48 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -25723,7 +25723,8 @@
       "FM9 MKII Turbo",
       "VP4",
       "AM4",
-      "FM3 original"
+      "FM3 original",
+      "FM9 original"
     ],
     "Kemper": [
       "PROFILER Player",
@@ -26220,7 +26221,8 @@
       "FM9 MKII Turbo",
       "VP4",
       "AM4",
-      "FM3 original"
+      "FM3 original",
+      "FM9 original"
     ],
     "KEMPER.md": [
       "PROFILER Player",
@@ -26284,14 +26286,14 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 334,
+      "record_count": 335,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
     "ALL-BASS.md": {
-      "record_count": 174,
+      "record_count": 175,
       "bass_focused_record_count": 40,
-      "shared_bass_capable_count": 134,
+      "shared_bass_capable_count": 135,
       "scope": "All positively documented bass-capable records in current classification, compared across four tables; remaining guitar classification explicitly unresolved",
       "technical_refresh": false
     },
@@ -26314,10 +26316,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 334 guitar, 174 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 335 guitar, 175 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "399 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "400 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -46769,18 +46771,18 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 399,
-    "canonical_root_models": 399,
+    "unique_brand_model_pairs": 400,
+    "canonical_root_models": 400,
     "legacy_only_models": 0,
-    "guitar_view_models": 334,
+    "guitar_view_models": 335,
     "bass_focused_models": 40,
     "vocal_only_models": 25,
     "vocal_view_models": 71,
     "excluded_overlap": 0,
     "count_method": "Locally checked sum of inventory list lengths, unique pairs and instrument partition; consolidation does not add models",
     "date": "2026-10-17",
-    "bass_view_models": 174,
-    "bass_shared_models": 134,
+    "bass_view_models": 175,
+    "bass_shared_models": 135,
     "comparison_tables_per_instrument": 4,
     "specialists_segregated": true,
     "workflow_files": 0,
@@ -47176,6 +47178,7 @@
       "Fractal Audio::VP4",
       "Fractal Audio::AM4",
       "Fractal Audio::FM3 original",
+      "Fractal Audio::FM9 original",
       "Kemper::PROFILER Player",
       "Kemper::PROFILER Stage MK2",
       "Kemper::PROFILER Rack MK2",
@@ -47366,6 +47369,7 @@
       "Fractal Audio::VP4",
       "Fractal Audio::AM4",
       "Fractal Audio::FM3 original",
+      "Fractal Audio::FM9 original",
       "Kemper::PROFILER Player",
       "Kemper::PROFILER Stage MK2",
       "Kemper::PROFILER Rack MK2",
@@ -47457,6 +47461,7 @@
     ]
   },
   "comparison_bass_basis": {
+    "Fractal Audio::FM9 original": "Original/Turbo3.x own manualp21 explicitly accepts guitar/bass atInput1 andalso permits instruments atInputs2/3;notMKII model inference. https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
     "Fractal Audio::FM3 original": "Original1.x manufacturer manualp21 explicitly permits electric guitar,acoustic andbass atinstrument input;notMKII specification transfer. https://manualzz.com/doc/61301482/fractal-fm3-owner-s-manual",
     "Fractal Audio::AM4": "Own AM4 manufacturer product explicitly supports guitar/bass amp and cab processing; not sibling or generic EQ inference. https://www.fractalaudio.com/am4/",
     "Fractal Audio::VP4": "Own VP4 manual v1.06 p24 explicitly lists Bank S bass presets; effects-only guitar/bass processing, no sibling inference. https://www.fractalaudio.com/downloads/manuals/VP4/VP4-Owners-Manual.pdf",
@@ -50328,6 +50333,13 @@
     },
     "Fractal Audio::FM3 original": {
       "link": "FRACTAL-AUDIO.md#fm3-original",
+      "source_files": [
+        "FRACTAL-AUDIO.md"
+      ],
+      "finding_files": []
+    },
+    "Fractal Audio::FM9 original": {
+      "link": "FRACTAL-AUDIO.md#fm9-original",
       "source_files": [
         "FRACTAL-AUDIO.md"
       ],
@@ -133555,6 +133567,26 @@
       "file": "FRACTAL-AUDIO.md",
       "model": "FM3 original",
       "heading": "### FM3 original — dated block inventory and looper"
+    },
+    {
+      "file": "FRACTAL-AUDIO.md",
+      "model": "FM9 original",
+      "heading": "### FM9 original — global volume, memory and CPU scope"
+    },
+    {
+      "file": "FRACTAL-AUDIO.md",
+      "model": "FM9 original",
+      "heading": "### FM9 original — connector inventory and USB boundaries"
+    },
+    {
+      "file": "FRACTAL-AUDIO.md",
+      "model": "FM9 original",
+      "heading": "### FM9 original — IR import distinction and current editor"
+    },
+    {
+      "file": "FRACTAL-AUDIO.md",
+      "model": "FM9 original",
+      "heading": "### FM9 original — dated processing census, synth and looper"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -134301,7 +134333,233 @@
       "https://www.fractalaudio.com/fm9-downloads/"
     ],
     "root": "FRACTAL-AUDIO.md#fm9-original--ir-import-distinction-and-current-editor",
-    "next": "Complete dated originalFM9 category-instance census,synth/looper andfull comparison summary;retain NAM/capture,globalvolume coverage andexactrevisionprice unknowns before admission.",
+    "next": "Build complete originalFM9 comparison summary andadmission review;preserve unknown endpoints/recall/outputcoverage,exactrevisionIDR,current choices andremaining display/power details. Then review Turbo separately.",
     "downloads": false
+  },
+  "fm9_original_processing_20261101": {
+    "checked": "2026-11-01",
+    "active": false,
+    "sources": [
+      "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+      "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf"
+    ],
+    "root": "FRACTAL-AUDIO.md#fm9-original--dated-processing-census-synth-and-looper",
+    "revision": "June2023guidep3/50–51;OriginalTurbo3.xp44",
+    "available_classes": 37,
+    "summed_instances": 84,
+    "qualification": "Perclass inventory sum,notconcurrency;sharedTYPES notcurrent exactFM9census.",
+    "inventory": [
+      {
+        "block": "Amp",
+        "types": "309+",
+        "instances": 2
+      },
+      {
+        "block": "Cab",
+        "types": "2150+",
+        "instances": 2
+      },
+      {
+        "block": "Chorus",
+        "types": "17",
+        "instances": 2
+      },
+      {
+        "block": "Compressor",
+        "types": "16",
+        "instances": 2
+      },
+      {
+        "block": "Crossover",
+        "types": "1",
+        "instances": 2
+      },
+      {
+        "block": "Delay",
+        "types": "27+",
+        "instances": 2
+      },
+      {
+        "block": "Drive",
+        "types": "65+",
+        "instances": 3
+      },
+      {
+        "block": "Enhancer",
+        "types": "3",
+        "instances": 2
+      },
+      {
+        "block": "Filter",
+        "types": "15",
+        "instances": 4
+      },
+      {
+        "block": "Flanger",
+        "types": "31",
+        "instances": 2
+      },
+      {
+        "block": "Formant",
+        "types": "1",
+        "instances": 2
+      },
+      {
+        "block": "Gate/Expander",
+        "types": "3",
+        "instances": 4
+      },
+      {
+        "block": "Graphic EQ",
+        "types": "16",
+        "instances": 4
+      },
+      {
+        "block": "Input",
+        "types": "1",
+        "instances": 4
+      },
+      {
+        "block": "Looper",
+        "types": "1",
+        "instances": 1
+      },
+      {
+        "block": "Megatap",
+        "types": "20",
+        "instances": 2
+      },
+      {
+        "block": "Mixer",
+        "types": "1",
+        "instances": 4
+      },
+      {
+        "block": "Multi-Delay",
+        "types": "34+",
+        "instances": 2
+      },
+      {
+        "block": "Multiband Comp",
+        "types": "1",
+        "instances": 2
+      },
+      {
+        "block": "Multiplexer",
+        "types": "1",
+        "instances": 2
+      },
+      {
+        "block": "Output",
+        "types": "1",
+        "instances": 3
+      },
+      {
+        "block": "Parametric EQ",
+        "types": "1",
+        "instances": 4
+      },
+      {
+        "block": "Phaser",
+        "types": "16",
+        "instances": 2
+      },
+      {
+        "block": "Pitch",
+        "types": "16",
+        "instances": 1
+      },
+      {
+        "block": "Plex Delay",
+        "types": "44",
+        "instances": 1
+      },
+      {
+        "block": "Resonator",
+        "types": "1",
+        "instances": 2
+      },
+      {
+        "block": "Return",
+        "types": "1",
+        "instances": 2
+      },
+      {
+        "block": "Reverb",
+        "types": "66+",
+        "instances": 2
+      },
+      {
+        "block": "Ring Mod",
+        "types": "1",
+        "instances": 1
+      },
+      {
+        "block": "Rotary",
+        "types": "1",
+        "instances": 2
+      },
+      {
+        "block": "Scene MIDI",
+        "types": "1",
+        "instances": 1
+      },
+      {
+        "block": "Send",
+        "types": "1",
+        "instances": 2
+      },
+      {
+        "block": "Synth",
+        "types": "1",
+        "instances": 1
+      },
+      {
+        "block": "Ten-Tap Delay",
+        "types": "2",
+        "instances": 2
+      },
+      {
+        "block": "Tremolo",
+        "types": "5",
+        "instances": 2
+      },
+      {
+        "block": "Volume/Pan",
+        "types": "1",
+        "instances": 4
+      },
+      {
+        "block": "Wah",
+        "types": "8",
+        "instances": 2
+      }
+    ],
+    "next": "Build complete originalFM9 comparison summary andadmission review;preserve unknown endpoints/recall/outputcoverage,exactrevisionIDR,current choices andremaining display/power details. Then review Turbo separately.",
+    "downloads": false
+  },
+  "fm9_original_catalogue_admission_20261101": {
+    "status": "partial_active",
+    "previous_status": "partial discovery outside counts",
+    "reason": "Manufacturer original launch andOriginal-covered3.x manual establish guitar/bass multifx;full required-field profile assembled withunknowns andconflicts retained.",
+    "root": "FRACTAL-AUDIO.md#fm9-original",
+    "preservation": "Complete prior originalFM9 body retained;firstheading now subsection atsameanchor. Earlierinactive flags are historical checkpoints.",
+    "counts": {
+      "active": 400,
+      "fully_verified": 0
+    },
+    "next": "Review FM9Turbo distinct LCD hardware next;continue LCD-first inventory. Independent BOSS GT-Pro cursor unchanged.",
+    "downloads": false,
+    "validation": {
+      "checks": [
+        "make research-verify",
+        "make comparison-verify",
+        "make brand-sort-test",
+        "make comparison-test-counts",
+        "make consolidation-audit-body-differences"
+      ],
+      "result": "400active;335guitar/175bass/71vocal;82registered complete-source bodies zero mismatches. Entire previous originalFM9 body retained atoldanchor.",
+      "remaining": "All models retainverification gaps;no exhaustivecoverage/migrationcompletion claim."
+    }
   }
 }

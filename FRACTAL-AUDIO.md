@@ -10,7 +10,7 @@
 - [FM3 MKII Turbo](#fm3-mkii-turbo)
 - [FM3 original](#fm3-original)
 - [FM9 MKII Turbo](#fm9-mkii-turbo)
-- [FM9 original — partial LCD discovery](#fm9-original--partial-lcd-discovery)
+- [FM9 original](#fm9-original)
 - [VP4](#vp4)
 <!-- brand-index ends -->
 
@@ -867,7 +867,39 @@ Checked **2026-11-01**;original manufacturer text only,no device test orlocal do
 
 Global EXP numeric endpoints,held-position recall andbypass/direct-USB coverage remain unresolved. Earlier headphone/loop routing inferences retain their stated scope.
 
-## FM9 original — partial LCD discovery
+## FM9 original
+
+Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct from Turbo and MKII Turbo. Not fully verified; no ownership or live-stock assertion. The complete discovery body follows under its old anchor. Earlier outside-inventory statements are historical checkpoints, not the current admission status.
+
+<!-- comparison evidence begins -->
+
+| Field | Evidence / qualification |
+|---|---|
+| Instrument scope | Original/Turbo 3.x manual explicitly accepts normal guitar and bass at Input1; Inputs2/3 also permit instruments. Vocal suitability unclassified. [Own connector inventory](#fm9-original--connector-inventory-and-usb-boundaries). |
+| Built-in / external / toe expression | No built-in treadle in complete panel inventory. Three shared TRS pedal/switch inputs, linear10–100kΩ; tip supply/ring return/sleeve ground. External toe configuration unverified. [Original hardware](#fm9-original--partial-lcd-discovery);[wiring](#fm9-original--global-volume-memory-and-cpu-scope). |
+| Expression / global volume | Local PEDAL1/2/3 can globally control Input1/2/3 or Output1/2/3 Volume without preset blocks. Input changes drive; output scales tails. Endpoints, held-position recall, bypass/phones/USB/recorded-loop coverage unknown. Actual M-VAVE wiring untested. [Own setup](#fm9-original--global-volume-memory-and-cpu-scope). |
+| Knobs / footswitches / buttons | **9 rotary /9 footswitches /12 buttons**. Six knob-push functions included, not extra buttons. Power and ground-lift switches separate. Text count; visual corroboration pending. [Original release/manual](#fm9-original--partial-lcd-discovery). |
+| Display | **Nine individual mini LCDs**, one per footswitch, plus **800×480 color main LCD**. Mini diagonal/resolution/color/touch and main diagonal/touch unknown. MKII larger strip dimensions not transferred. [Exact original evidence](#fm9-original--partial-lcd-discovery). |
+| Dimensions / weight | **513W×237D×89H mm;5.44kg**, from printed51.3W×23.7D×8.9Hcm. Rounded20.2W×9.3D×3.5Hinches retained independently. Fails preferred200W×140D. [Own specifications](#fm9-original--partial-lcd-discovery). |
+| Processing / concurrency | **14×6 grid**,DSP-limited. June2023 FM9 column:37 available classes,84 summed instance allowances, including routing/control; not84 simultaneous effects. Meter recommendation about80%; dedicated Amp/Delay/Reverb cores barely reflected. [Census](#fm9-original--dated-processing-census-synth-and-looper);[CPU scope](#fm9-original--global-volume-memory-and-cpu-scope). |
+| Categories / choices | Amp,cab,drive,modulation,pitch,dynamics,EQ,delay,reverb,synth,looper androuting/control documented. Shared TYPES column andamp290+/309+ conflict retained; exact current FM9 choice census unknown. Historical FM9 excludes DynamicDistortion,IRPlayer,RTA,ToneMatch,Vocoder;not a current universal No. [Dated table](#fm9--historical-block-inventory). |
+| Preset memory | **512 editable presets**,including overwritable factory entries; **eight scenes each**. Factory-filled count unknown;not512 plus protected presets. [Own memory](#fm9-original--global-volume-memory-and-cpu-scope). |
+| Synth / acoustic | **Three-voice monophonic tracking synth**;notthree-note polyphony. Acoustic input support does not establish electric-to-acoustic simulation,which remains unverified. [Original manual evidence](#fm9-original--dated-processing-census-synth-and-looper). |
+| Audio I/O | Mono unbalanced¼-inch Input1;separate stereo balanced¼-inch Input2/3 pairs. Out1:balanced stereo XLR plus same-signal¼-inch Humbuster pair;Out2:balanced stereo XLR;Out3:stereo¼-inch Humbuster. Dedicated¼-inch stereo phones monitorOut1. [Complete named inventory](#fm9-original--connector-inventory-and-usb-boundaries). |
+| Control / digital I/O | Three pedal/switch inputs;FASLINKII forFC,notMFC-101;coaxial RCA S/PDIF in/out,fixed48kHz withinternal/external sync;MIDI In/Out-Thru;USB;grounded AC inlet/switch. USB subtype andphantom tolerance unknown. [Own inventory](#fm9-original--connector-inventory-and-usb-boundaries). |
+| USB audio / MIDI | **8×8 audio plus DAW-visible MIDI-over-USB**. Prose confirms processedrecord1/2,monoDIrecord5 andUSB5/6 reamping viaInput1=DIGITAL. Other channels notassigned fromflattened diagram. Windows driver required;Mac no driver perdated manual. [Routing](#fm9-original--connector-inventory-and-usb-boundaries). |
+| Power | **90–264VAC,47–63Hz,<40W**. CR2032 is backup;operating battery/USB power unknown. DC polarity/adapter-current fields notapplicable tothis AC specification. [Original/Turbo specifications](#fm9-original--partial-lcd-discovery). |
+| IR / NAM / capture | **1,024 userIR slots**;FM9-Edit imports.wav/.ir alongside.syx transfer. NativeNAM,convertedNAM andproprietary capture-import workflows unverified. [Import evidence](#fm9-original--ir-import-distinction-and-current-editor). |
+| Editor / platforms | FM9-Edit **1.03.22,August25,2026**:macOS10.13+,Intel/M1;Windows10+64-bit. Windows7 unsupported;separate32-bit link retained. Mobile/later architecture support unknown. Preset/scene/block/library/footswitch editor distinct fromdriver/updater. [Current listing](#fm9-original--ir-import-distinction-and-current-editor). |
+| Firmware | Manufacturer12.0,July7,2026,explicitly supports Original/Turbo. Installed version andcurrent equivalence ofhistorical behavior untested. [Support](#fm9-original--partial-lcd-discovery). |
+| Looper / drums / live | Dated stereo looper,max120s;Undo while stopped erases all. Erase stopped-only;Record2ndPress Overdub/Play/Stop;tempo quantization. Retention andglobal-volume attenuation unknown. Drums andexact onboard preset down/up unverified;default five-preset bank stepping separate. [Looper](#fm9-original--dated-processing-census-synth-and-looper);[LCD navigation](#fm9-original--partial-lcd-discovery). |
+| Used IDR | No original-revision,condition-confirmed Shopee offer established. |
+| New IDR | No original-revision,condition-confirmed Shopee offer established. |
+| IDR revision-unverified hardware | **Rp36.000.000**,Bersih Jaya Cleaning,KotaSurabaya,[shop1354606623/item43322190869](https://shopee.co.id/Fractal-Audio-Systems-FM9-MKI-i.1354606623.43322190869),four-month index checked2026-11-01;service unavailable. Same item has conflicting FM3-MKII-Turbo URL slug,two-month FM9MKI snapshot andstaleAugust6–8 delivery. Original/Turbo revision,condition,stock,working state,bundle,warranty,adapter andcheckout unknown. Excluded fromexact-revision new/used ranges;voucher compensation notdeducted. [Full conflict](#fm9-original--partial-lcd-discovery). |
+
+<!-- comparison evidence ends -->
+
+### FM9 original — partial LCD discovery
 
 Checked **2026-11-01**; **partial discovery outside active model counts**. Separate original FM9,FM9 Turbo andMKII Turbo;shared firmware does not establish identical hardware.
 
@@ -918,6 +950,16 @@ Checked **2026-11-01**. [Original/Turbo3.x manual,p108](https://www.fractalaudio
 [Current manufacturer FM9-Edit listing](https://www.fractalaudio.com/fm9-edit/) gives **1.03.22,August25,2026** forMac/Windows. **macOS10.13+**,explicitIntel/M1 compatibility;**Windows10+,64-bit**. Windows7 may work butis unsupported. The separate32-bit download link doesnot override the stated supported requirements. Later Apple/Windows architectures andmobile editing remain unverified.
 
 The editor manages presets,scenes,blocks,templates,libraries andonboard/FC footswitch assignments;it is notmerely a driver orupdater. [Original-compatible firmware listing](https://www.fractalaudio.com/fm9-downloads/) supplies the model-support context. No app,driver,firmware orIR downloaded/installed;no device test. Exact currentcategory choices andlooper behavior remain pending.
+
+### FM9 original — dated processing census, synth and looper
+
+Checked **2026-11-01** against the [manufacturer June2023 Blocks Guide,p3](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). The exact FM9 instance column has **37 nonzero block classes,84 summed allowances**,including routing/control. The [complete retained historical table](#fm9--historical-block-inventory) preserves each entry andshared TYPES column. This source predates MKII;current firmware12 equivalence remains unverified.
+
+The84 allowance sum also equals the14×6 grid size,but doesnot prove that all blocks fit their routing orDSP budget simultaneously. Two Amp blocks,three Drives,four Filters andone Synth plusone Looper are examples ofper-class allowances,not algorithm counts. Five classes havezero FM9 instances:Dynamic Distortion,IR Player,RTA,Tone Match,Vocoder. Shared TYPES totals andinternal amp290+/309+ conflict remain qualified;no current exact-choice census claimed.
+
+[Guide pp50–51](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf):**stereo looper,max120seconds**. Undo while stopped erases everything;during playback it removes/restores thelatest layer. Erase requires stopped playback. Record2ndPress chooses Overdub/Play/Stop;tempo quantization andseparate playback/dry levels documented. Preset/power retention andglobal-pedal attenuation remain unknown.
+
+[Original/Turbo3.x manual,p44](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf) explicitly describes a **three-voice monophonic tracking synth**;notthree-note polyphony. Acoustic input is separately supported;electric-to-acoustic conversion remains unverified. No downloads ordevice tests. Full comparison summary/admission review remains pending.
 
 ## VP4
 
