@@ -3679,6 +3679,18 @@ Checked **2026-10-31** in [manufacturer-authored manual reproduction](https://ww
 | Drums / document census | Printedp63 lists **41 numbered rhythm patterns**,including metronome entries. This counts documented choices,not simultaneous drum parts or user-import capability. |
 
 No local download, visual inspection or hardware test.
+### G5 — output-volume exclusions and LCD adjustment
+
+Checked **2026-10-31** in the [original G5 manual reproduction](https://www.manuallib.com/download/pdf1/ZOOM-G5-MANUAL.PDF),printedpp13,20,23;document identity established above.
+
+| Field | Documented boundary |
+|---|---|
+| Expression / OUTPUT VOL coverage | Z-Pedal assignments include INPUT VOL andOUTPUT VOL;**OUTPUT VOL does not affect rhythm orlooper volume**. Parameter endpoints can be reversed. This narrows the older loop-coverage unknown for this named target,not every possible volume mapping orheadphone route. |
+| Expression / global master distinction | GLOBAL **MASTER LEVEL0–120** affects all patches. This hand-adjusted setting is not proof of a global analog-pedal assignment orcross-preset position recall. |
+| Display / individual contrast | GLOBAL LCDI page selects LCD1/2;LCDII selects LCD3/4,corresponding to Effects1–4. Each display’s contrast is adjustable. Numeric contrast range/defaults,diagonal,color andtouch remain unverified;do not transfer G3Xn’s1–13 range. |
+
+Built-in Z-Pedal retains G5’s no-treadle exclusion. No download ordevice operation.
+
 
 ## G5n
 

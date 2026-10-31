@@ -132529,5 +132529,17 @@
     ],
     "status": "Pending original Shopee linked offers;condition/cache conflicts in root;excluded from new/used projections.",
     "next": "Resolve direct item and variation contents;LCD-first audit remains;general BOSS GT-Pro cursor unchanged."
+  },
+  "g5_volume_lcd_scope_20261031": {
+    "checked": "2026-10-31",
+    "model": "Zoom G5",
+    "source": "https://www.manuallib.com/download/pdf1/ZOOM-G5-MANUAL.PDF",
+    "pages": [
+      13,
+      20,
+      23
+    ],
+    "status": "Root documents named volume-target exclusions and independent LCD controls;other coverage remains qualified.",
+    "next": "LCD-first audit continues;numeric LCD specifications and full switch/button census unresolved;independent BOSS GT-Pro cursor retained."
   }
 }
