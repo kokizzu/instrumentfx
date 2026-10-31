@@ -729,9 +729,9 @@ Checked **2026-10-31** against [Line 6’s original release history](https://lin
 
 | Field | Historical manufacturer fix / qualification |
 |---|---|
-| Looper / preset-change faults | Fixes unexpected recording/playback stops when the destination contains the matching mono/stereo looper, and playback continuing into an empty preset with no looper. Also fixes Undo failing to remove the latest overdub. These are historical defects; current3.80 still requires the same looper model and mono/stereo type for continuity. |
-| Display / snapshot labels | Fixes snapshot names sometimes missing from scribble strips. This concerns the existing six LCDs, not extra displays or a new screen specification. |
-| I/O / preset level and pan recall | Fixes Send1/2 and MainL/R pan/level settings carrying across preset changes. This is parameter-state recovery, not a global analog expression-volume assignment. |
+| Looper / preset-change faults | **2.60 (2018-07-02):** fixes unexpected recording/playback stops when the destination contains the matching mono/stereo looper, and playback continuing into an empty preset with no looper. Also fixes Undo failing to remove the latest overdub. These are historical defects; current3.80 still requires the same looper model and mono/stereo type for continuity. |
+| Display / snapshot labels | **2.60 (2018-07-02):** fixes snapshot names sometimes missing from scribble strips. This concerns the existing six LCDs, not extra displays or a new screen specification. |
+| I/O / preset level and pan recall | **2.60 (2018-07-02):** fixes Send1/2 and MainL/R pan/level settings carrying across preset changes. This is parameter-state recovery, not a global analog expression-volume assignment. |
 
 No installed-firmware or hardware test. These notes neither establish current defects nor resolve global volume, DSP-bypass attenuation or recorded-loop expression coverage.
 
