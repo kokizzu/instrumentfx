@@ -304,3 +304,15 @@ Checked **2026-10-31** against the [manufacturer-authored firmware1.5 manual rep
 | Controls / master versus expression | Mixer independently assigns headphones,Output1 andOutput2 to the hand-operated Master knob. That feature does not establish global external-expression volume assignment. |
 
 Current model-guide-H census remains unresolved;the reader again rejected its content type. No local download orhardware operation.
+
+### Tone Master Pro — switchless bypass and USB level boundaries
+
+Checked **2026-10-31** in [manufacturer firmware1.5 manual reproduction](https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual),printedpp24,36–37;original document text,not generated FAQ. Current1.8 equivalence remains unverified.
+
+| Field | Revision-qualified distinction |
+|---|---|
+| Expression / switchless bypass | Options are Off,heel-down or toe-down. Leaving the selected position engages assigned blocks;remaining there for **300ms or longer** bypasses them. This is separate from continuous parameter values andEXP Live Mode,which still requires a Volume Pedal block per preset. Numeric attenuation endpoints remain unresolved. |
+| USB / standard recording routes | To computer:**1/2 processed stereo**,instrument,mic/line or their sum according to routing;**3 dry instrument;4 dry mic/line**. From computer:**1/2 monitoring** can route to Out1,Out2 orheadphones;3/4disabled. Direction is explicit,not physical port numbering. |
+| USB / dry-feed level | Mixer **PRE(default)** sends USB3/4 before faders;**POST** follows their faders. These are dry-feed mixer controls,not proof of EXP attenuation of recording,monitor playback,headphones,tails orloops. |
+
+No download ordevice operation. IR import formats/slot capacity andcurrent full-category census remain unresolved.

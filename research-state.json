@@ -131403,5 +131403,25 @@
     "remaining": "Current MKII/firmware12 equivalence, numeric continuous endpoints, analog startup recall and bypass/phones/loop coverage remain unverified",
     "offer_recheck": "Hurtrock indexed44,395,000 same item11170212/25331147281; direct JS shell; no new condition/stock evidence",
     "next": "Continue exact LCD models first; independent BOSS GT-Pro general cursor retained."
+  },
+  "tone_master_bypass_usb_levels_20261031": {
+    "checked": "2026-10-31",
+    "record": "FENDER.md#tone-master-pro--switchless-bypass-and-usb-level-boundaries",
+    "source": "https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual",
+    "basis": "Manufacturer-authored firmware1.5 manual,printedpp24,36–37; current1.8 equivalence not verified",
+    "switchless_bypass": "Off/heel-down/toe-down; selected-position dwell300ms or longer bypasses assigned blocks; leaving position engages",
+    "standard_to_computer": {
+      "3": "Dry instrument",
+      "4": "Dry mic/line",
+      "1/2": "Processed stereo instrument/mic or sum by routing"
+    },
+    "standard_from_computer": {
+      "1/2": "Monitoring selectable Out1/Out2/phones",
+      "3/4": "Disabled"
+    },
+    "dry_feed": "PRE default ignores fader;POST follows fader;not global EXP proof",
+    "remaining": "Numeric attenuation endpoints, global analog assignment,tail/looper/phones/USB EXP coverage,IR format/capacity andcurrent category census",
+    "source_access": "Current manufacturer manual/guideH PDFs unsupported content-type document/pdf. No downloads;previous failed-access qualifications retained.",
+    "next": "LCD footswitch priority continues with Zoom/TC unresolved fields; independent BOSS GT-Pro cursor retained."
   }
 }
