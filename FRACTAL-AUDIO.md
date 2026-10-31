@@ -382,6 +382,18 @@ Checked **2026-10-31** in the [manufacturer-authored FM3 release history](https:
 The earlier documented512-user-IR reduction remains in force from12.0. Named additions are not a complete current category census orproof of installed content. No download,update ordevice test.
 
 
+### FM3 — recommended EV-1 connection and separate audio-volume mode
+
+Checked **2026-10-31**. [Own7.x FM3 manual,p104](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf) explicitly recommends EV-1/EV-2;its cover includes MKII Turbo. [Manufacturer EV-1 guide,p1](https://www.fractalaudio.com/downloads/manuals/ev-1/EV-1_Product-Guide.PDF),listedFebruary17,2015 by the [current EV page](https://www.fractalaudio.com/p-ev1-expression-pedal-volume-pedal/),provides exact EV-1 electrical details.
+
+| Field | Supported connection / qualification |
+|---|---|
+| Expression / recommended EV-1 | **100kΩ linear**,EXPRESSION output→FM3 PEDAL using **¼-inch TRS-to-TRS**;calibrate using the FM3 procedure. A TS guitar cable does not substitute. This is a documented compatible pedal,not a hardware test orproof of global-volume endpoints/position recall. |
+| Expression / separate EV-1 audio path | EV-1 IN/OUT uses a separate **500kΩ audio-taper** volume circuit with TS audio cables. The guide says not to use expression and audio-volume functions simultaneously because ground loops can occur. This audio path is not FM3’s analog control input orproof of processor headphone/tail/loop attenuation. |
+
+EV-1 remains an accessory,outside processor counts. No local download orpedal operation.
+
+
 ## FM9 MKII Turbo
 
 Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI seller item remains separate. Current product/store establish revision. Linked2022 manual covers original/Turbo but predates MKII display revision;historical physical figures below require current corroboration.
