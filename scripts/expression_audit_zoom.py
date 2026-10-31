@@ -22,5 +22,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): document original B3 looper timing and stop override'
+        message='research(zoom): qualify original G5 reset and bank-switch timing'
     print(git('commit','-m',message))

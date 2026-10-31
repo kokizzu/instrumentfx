@@ -137139,5 +137139,17 @@
     "reason": "LCD discovery lead checked;manufacturer page newly accessible. Exact control,bank allocation andslot-scope conflicts retained;individual strips not established.",
     "next": "Own manual andexact Shopee hardware evidence;confirmed individual-LCD processors retain priority.",
     "technical_retirement_recheck": "99 technical sources/99 retired;all original headings/root destinations and2 incoming link occurrences passed"
+  },
+  "g5_reset_navigation_20261101": {
+    "status": "partial original-model finding",
+    "source": "https://www.manuallib.com/download/pdf1/ZOOM-G5-MANUAL.PDF",
+    "pages": [
+      14,
+      15,
+      37
+    ],
+    "destination": "ZOOM.md#g5--patch-preservation-initialization-and-bank-switch-timing",
+    "qualification": "Own manual text on previously identity-checked mirror;no hardware test orcomplete visual census. Firmware-specific reset contents andexact icon-only gestures unresolved.",
+    "priority": "Confirmed individual-LCD processor;independent general cursor preserved"
   }
 }

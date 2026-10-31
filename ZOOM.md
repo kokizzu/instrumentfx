@@ -4008,6 +4008,12 @@ For frequency response, that English page specifies **20Hz–20kHz +1/−6dB int
 
 Checked **2026-11-01**: **Rp1.000.000; Habis**, seller **riechairunnisa**, Kab. Karawang, shop108443546/item24876132144, [exact “efek Zoom G5” hardware listing](https://shopee.co.id/efek-Zoom-G5-i.108443546.24876132144). Two-month search cache; direct reader returned cache miss. The cached text also says seven-day pre-order with stale September8–11 delivery; this does not override sold-out status or establish current checkout. Condition, working state, revision, adapter, bundle, warranty and voucher eligibility remain unknown. The late-delivery voucher is not an immediate purchase discount. Historical condition-unknown ask only, excluded from new/used ranges and completed-sale claims; older offers retained.
 
+### G5 — patch preservation, initialization and bank-switch timing
+
+Checked **2026-11-01**, original G5. The [manufacturer manual reproduction](https://www.manuallib.com/download/pdf1/ZOOM-G5-MANUAL.PDF), printed p37, says firmware updates preserve saved patches, whereas **All Initialize restores all settings, including patches, to factory defaults**. These are different operations. This does not identify the reset patch contents of each firmware revision or the contents of a used unit. Missing button icons prevent a verified reset-key sequence; no device operation was performed.
+
+Pages14–15 show patch names/numbers on displays1–3 and the bank on display4. The manual warns that a slightly earlier press of one switch in a two-switch bank gesture can affect the sound, and recommends silence during bank changes. Exact paired-switch identities remain unverified from the extracted text. LCD presence does not establish seamless switching.
+
 ## G5n
 
 Reviewed **2026-10-17** after fresh exact Shopee hardware discovery. New catalogue record, no ownership assertion. Discontinued according to Zoom; reseller offers can remain historical. Partial: no software, firmware, manual file or dependency downloaded or installed. Official manual evidence below is search-indexed text, not a fresh PDF/image inspection.
