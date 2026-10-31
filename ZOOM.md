@@ -1720,7 +1720,7 @@ Checked2026-10-31: [own manufacturer manual](https://zoomcorp.com/media/document
 
 | Field | Documented behavior / qualification |
 |---|---|
-| Live / bank-change interaction | Manual warns that simultaneous two-switch bank selection can affect sound through the switch pressed slightly earlier;it advises not sounding notes during that gesture. This qualifies the product’s1ms patch-change claim;it is not a measured latency or a promise of silent switching. Exact switch-symbol mapping still requires visual corroboration. |
+| Live / bank-change interaction | Manual warns that simultaneous two-switch bank selection can affect sound through the switch pressed slightly earlier;it advises not sounding notes during that gesture. This qualifies the product’s1ms patch-change claim;it is not a measured latency or a promise of silent switching. The later indexed-text navigation check below identifies the patch/bank switch numbers; visual corroboration remains pending. |
 | Looper / rhythm continuity distinction | Rhythm screen offers patch selection or Home return **while rhythm keeps playing**. A separate completion action stops rhythm. The looper chapter confirms Home return while playing without erasing the loop;this does not independently establish loop survival across a patch change. Existing power-off/time/tempo erasure limits remain. |
 | Display / operating views | Home shows the current patch’s effect graphics;Edit shows parameter names/values and page tabs for larger parameter sets. These are views on three physical LCDs,not additional screens. Color/touch/diagonal remain unverified. |
 
@@ -1811,6 +1811,18 @@ Checked **2026-11-01** in the [original manufacturer B3 FAQ](https://www.zoom.co
 
 No local download orhardware operation. Current firmware behavior,remaining switch mappings andqualified new/used offers stay unresolved.
 
+
+### B3 — exact patch and bank footswitch navigation
+
+Checked **2026-11-01**, indexed original [B3 manufacturer manual pp10–11][B3-M]. Numbers were readable in procedural text; generated image descriptions were not used as visual evidence.
+
+| Field | Documented operation / qualification |
+|---|---|
+| Controls / sequential patch selection | In patch-selection mode, **FS2 selects the next lower patch; FS3 the next higher patch**. Hold the PATCH-labelled control one second to enter; **hold FS1 one second to return Home**. Entry control number is not independently recovered here. |
+| Controls / bank selection | **FS1+FS2 selects the lower bank; FS2+FS3 the higher bank**. Existing earlier-switch sound-interaction warning remains. This is mode-dependent navigation, not three direct patch-slot selectors or proof of gapless changes. |
+
+No hardware test, download or visual count. This resolves numbered navigation only; global pedal assignment, wrap behavior and loop/tail continuity remain unverified.
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified historical hardware ask
@@ -1834,7 +1846,7 @@ Remaining: physical counts,screen details,connector formats,power draw,imports/M
 
 Checked 2026-10-19 against [own manufacturer manual, pp10,14–18](https://zoomcorp.com/media/documents/E_B3.pdf). TOTAL settings are saved **separately per patch**, including expression destination/range. INPUT VOL and OUTPUT VOL select input/output level; min/max can invert response. Numeric endpoint bounds remain unverified. GLOBAL master level is separate, not a global expression assignment. **OUTPUT VOL does not affect rhythm or looper output levels.**
 
-FP01/FP02 use CONTROL IN; normal bass pickups require no special divided pickup. Guitar voicing suitability stays unclassified. Existing234W×170Dmm fails preferred size. Shared L/MONO/PHONES supports headphones, but expression attenuation there and during bypass remains unknown; tails and held-pedal recall unverified. Patch-selection mode documents lower/higher patches; extracted switch symbols are missing, so exact footswitch mapping needs visual corroboration. No downloads or hardware operation.
+FP01/FP02 use CONTROL IN; normal bass pickups require no special divided pickup. Guitar voicing suitability stays unclassified. Existing234W×170Dmm fails preferred size. Shared L/MONO/PHONES supports headphones, but expression attenuation there and during bypass remains unknown; tails and held-pedal recall unverified. Patch-selection mode provides lower/higher patches; the later [indexed-text navigation check](#b3--exact-patch-and-bank-footswitch-navigation) identifies FS2/FS3. Visual corroboration remains pending. No downloads or hardware operation.
 
 ## B3n
 

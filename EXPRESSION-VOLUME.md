@@ -615,3 +615,5 @@ FM3 [tuner-mute placement](FRACTAL-AUDIO.md#fm3--tuner-mute-placement-and-footsw
 Tone Master Pro [tuner path qualification](FENDER.md#tone-master-pro--tuner-path-scope-and-tap-lcd-readout): selected-input tuner mute does not establish universal expression attenuation or backing-audio mute.
 
 G3n [level-scale qualification](ZOOM.md#g3n--patch-level-versus-pedal-range-and-tuner-limits): patch LEVEL andmaster M.LVL are separate from OutputVP’s unverified endpoints andglobal assignment.
+
+B3 [exact patch/bank navigation](ZOOM.md#b3--exact-patch-and-bank-footswitch-navigation): patch mode FS2 down/FS3 up; bank pairs1+2 down/2+3 up. Per-patch TOTAL and OUTPUT VOL rhythm/looper exclusions remain; ordinary-guitar suitability stays unclassified.

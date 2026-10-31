@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Original Zoom B3: remaining individual-LCD exact-model gaps and qualified hardware offers. Keep independent BOSS GT-Pro cursor.",
+      "next_check": "Return to compact/no-treadle individual-LCD priorities: HX Effects exact Volume endpoints and supported assignments; FM3 global volume endpoints/recall; qualified Shopee hardware. Independent BOSS GT-Pro cursor unchanged.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133263,6 +133263,11 @@
       "file": "ZOOM.md",
       "model": "G3",
       "heading": "### G3 — original manufacturer display and tuner specifications"
+    },
+    {
+      "file": "ZOOM.md",
+      "model": "B3",
+      "heading": "### B3 — exact patch and bank footswitch navigation"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -133333,5 +133338,15 @@
     "limits": "Diagonal/color/touch and complete controls remain unresolved; no download/visual/device test.",
     "manual": "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf",
     "calibration": "Tuner chapter explicitly middle A435-445Hz; setting retained after power off."
+  },
+  "b3_numbered_navigation_20261101": {
+    "source": "https://zoomcorp.com/media/documents/E_B3.pdf",
+    "pages": [
+      10,
+      11
+    ],
+    "finding": "Procedural indexed text identifies patch FS2 down/FS3 up, bank1+2 down/2+3 up,holdFS1one second Home. Entry control label HOLD FOR PATCH recovered; number not independently recovered.",
+    "access": "Original procedural text only; generated visual descriptions excluded; no downloads or device test.",
+    "offer_recheck": "Existing gyulalis used ask1999999 reproduced by shop index; no fresh exact-item condition/stock verification."
   }
 }
