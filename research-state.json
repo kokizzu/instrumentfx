@@ -131681,5 +131681,20 @@
     "guide_provenance": "OfficialIrelandproductDownload39 linksGuideH;contenttypeerrorpersists;notread",
     "remaining": "Completecurrentcategorycensus,globalEXPassignment/coverage,screenphysicalspecifications andqualifiedhardwareoffers",
     "next": "ContinueindividualLCDpriority;BOSS GT-Pro independentcursor preserved"
+  },
+  "tone_master_historical_dynamics_pitch_census_20261031": {
+    "checked": "2026-10-31",
+    "record": "FENDER.md#tone-master-pro--historical-dynamicseq-and-filterpitch-census",
+    "source": "https://manuals.plus/m/d661a03ee5f2fdaec47d00be1862b903155245a8345018b802c063be4985be26",
+    "revision": "Firmware1.2.55 RevB PN7729032000 copyright2024",
+    "pages": "58–68",
+    "counts": {
+      "Dynamics+EQ": 13,
+      "Filter+Pitch": 8
+    },
+    "basis": "Every named entry in both complete sections inspected;historical sections notcurrentcompleteinventory",
+    "pitch_limits": "Chromatic±2octaves;Diatonic22intervals/12keys/9scales;single-note best;PedalShifter10intervals;Detune2modes",
+    "remaining": "Other historicalsections,currentGuideH census andIR capacity/formats;globalEXPvolume unresolved",
+    "next": "Continue LCD-first exactmodels andcurrent documentation;BOSS GT-Pro independentcursor retained"
   }
 }

@@ -327,3 +327,15 @@ Checked **2026-10-31** against [manufacturer release history](https://support.fe
 | USB /1.7.69 DAW control | **January13,2026:** hold FS MODE+TAP two seconds for DAW Mode with **Fender Studio Pro8.0**. Functions:Play,Stop,Record,Return-to-Zero,Loop,Click,Punch,Pre-Roll. This is documented DAW integration,not compatibility certification for every DAW ornew standalone looper capacity. |
 
 Fender’s [Ireland product Downloads](https://ie.fender.com/products/tone-master-pro?variant=50608278241567) directly links [Model GuideH](https://www.fmicassets.com/Damroot/Original/10146/OM_2274900000_Tone-Master-Pro-Model-Guide-H_EN.pdf),corroborating manufacturer provenance beyond the earlier community lead. The reader still rejects its document/pdf content type;full current category census remains unfinished. No download,installation ordevice operation.
+
+### Tone Master Pro — historical Dynamics/EQ and Filter/Pitch census
+
+Checked **2026-10-31** in the [manufacturer Model Guide reproduction](https://manuals.plus/m/d661a03ee5f2fdaec47d00be1862b903155245a8345018b802c063be4985be26),**firmware1.2.55,RevB,PN7729032000,©2024**. Cover,title,model descriptions andmanufacturer imprint establish original-document identity;site-generated material excluded.
+
+| Historical category | Complete named choices in that section |
+|---|---|
+| Categories / Dynamics+EQ,pp58–64 | **13:** Dynamic Compressor;Pedal Comp;Simple Compressor;Studio Compressor;Sustain;EQ3 Parametric;EQ5 Graphic;EQ7 Graphic;Metal Gate;Noise Gate;Simple Gate;Volume Pedal;Auto Swell. |
+| Categories / Filter+Pitch,pp65–68 | **8:** Custom Wah;Teardrop Wah;Vocal Wah;Chromatic Pitch Shifter;Diatonic Pitch Shifter;Feedback Generator;Pedal Detune;Pedal Shifter. |
+| Processing / historical pitch limits | Chromatic spans **−2…+2octaves**,best with single notes. Diatonic offers **22 intervals,12 keys,nine scales**,also described as best with single notes. Pedal Shifter has10 interval choices;Pedal Detune hasShallow/Deep modes. Modes/intervals are not additional algorithms. |
+
+These are complete **sections of the older guide**,not the current nine-category library or a full older-guide census. Later category separation/additions remain independently dated;do not add update increments to these lists to invent current totals. Volume Pedal is a block,not proof ofglobal all-preset assignment. Current IR formats/capacity remain unknown. No download orhardware test.
