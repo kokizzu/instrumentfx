@@ -130963,5 +130963,28 @@
       "Condition-qualifiedexactShopeeoffers"
     ],
     "lcd_priority": "LCDgapsremainopen;secondaryOLEDmodelcheckedafterLCDsource/offerrechecks"
+  },
+  "g3n_german_manual_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://zoomcorp.com/media/documents/D_G3n_G3Xn.pdf",
+    "revision": "©2016 Z2I-2796-01;shared G3n/G3Xn original manual",
+    "pages": [
+      6,
+      27,
+      48,
+      51
+    ],
+    "findings": [
+      "Individual LCD contrast1–13",
+      "Last operating mode restored at poweron;not analogpedalrecall",
+      "Firmwareupdate preserves savedpatches;notfactoryreset"
+    ],
+    "remaining": [
+      "OutputVPglobalassignmentandcoverage",
+      "Completephysicalcontrolcount",
+      "USBpower/audioandbatteryoperation",
+      "Publishedauxiliaryscreenphysicalproperties"
+    ],
+    "qualification": "Textonly;nohardwaretest,downloadsorupdates;G3Xnbuilt-inpedalnottransferred"
   }
 }

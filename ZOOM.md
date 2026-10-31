@@ -3166,6 +3166,19 @@ The separate [2017 PDL Vol entry](https://zoomcorp.com/media/documents/E_G5n_G3n
 
 Indexed manufacturer original sections used;no PDF visuals,downloads or hardware test. Existing234W×181Dmm size exceeds preferred limits,and OutputVP placement/assignment/bypass/headphone/tail/loop coverage remains unverified.
 
+### G3n — readable manufacturer manual and display range
+
+Checked 2026-10-31 against the manufacturer’s [German G3n/G3Xn manual](https://zoomcorp.com/media/documents/D_G3n_G3Xn.pdf), ©2016, Z2I-2796-01. The shared document explicitly covers G3n; built-in G3Xn pedal instructions are excluded from these findings. Original text inspection, not visual panel verification.
+
+| Field | Evidence / qualification | Evidence |
+|---|---|---|
+| Display / individual contrast range | SETUP → LCD CNTRST selects a display, then adjusts its contrast from **1–13**. This does not establish diagonal, pixel color depth, touch input or brightness range. | [Own German manual, printed p27](https://zoomcorp.com/media/documents/D_G3n_G3Xn.pdf) |
+| Memory / startup mode versus pedal recall | Printed p6 says startup restores the mode active when POWER was switched off. This is operating-mode retention, not OutputVP assignment, held-pedal position or restoration of unsaved parameter edits. | [Own German manual, printed p6](https://zoomcorp.com/media/documents/D_G3n_G3Xn.pdf) |
+| Firmware / saved patch preservation | Printed p48 expressly says firmware updating does not delete saved patches. This is not a backup guarantee for every failure or a claim that factory initialization preserves patches; All Initialize remains separate. No update performed. | [Own German manual, printed p48](https://zoomcorp.com/media/documents/D_G3n_G3Xn.pdf) |
+
+The specification table repeats **119dBu without a minus sign** for equivalent input noise; earlier unit/sign qualification remains unresolved. English PDF size failure does not make this a new firmware revision.
+
+
 ## G3X
 
 Original guitar multi-effects with expression; distinct from G3 and G3Xn. Manufacturer marks discontinued. Checked2026-10-17; partial. Bass/vocal suitability and ownership unestablished.
