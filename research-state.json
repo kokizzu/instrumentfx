@@ -137595,5 +137595,22 @@
       "Global expression endpoints/recall/output coverage"
     ],
     "next": "Continue priority individual-LCD model gaps; no downloads or Actions. Independent BOSS GT-Pro cursor preserved."
+  },
+  "g5_editor_import_direction_20261101": {
+    "model": "Zoom::G5",
+    "status": "partial manufacturer manual finding",
+    "source": "https://zoomcorp.com/media/documents/EditShare_Operation_Manual_English_2.pdf",
+    "identity": "Edit&Share-Manual-E-5;13pages;G5 explicitly named in pp7 and10.",
+    "findings": [
+      "G3 andG3X individual patches andpatch groups may be imported into G5.",
+      "User Area import versus Store/Replace device operations distinguished.",
+      "Sleep unsupported per historical p12; no current-OS test."
+    ],
+    "qualifications": [
+      "No reverse-transfer,B3,G3n/G3Xn ornew-algorithm compatibility inferred.",
+      "OldG3→G3v2 delay-clamping table not transferred toG5.",
+      "No software install,hardware operation orlocal download."
+    ],
+    "next": "Continue missing individual-LCD model discovery andremaining G5/G5n/G11 gaps. General BOSS GT-Pro cursor unchanged."
   }
 }

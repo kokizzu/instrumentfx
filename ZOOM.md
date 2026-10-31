@@ -3876,6 +3876,7 @@ Original guitar multi-effects; distinct from G5n. Manufacturer marks discontinue
 | Power / eco and pedal adjustment | Eco automatically turns power off after 10 hours of non-use; ON keeps it on. Manual startup specifies connecting AD-16 before switching on, without establishing battery or USB-bus operation. Z-Pedal vertical and horizontal torque adjust separately using a 5 mm hex key: side screw for vertical, bottom screw for horizontal; clockwise tightens. Calibration is documented, but extracted control icons and six movement diagrams are missing, so exact calibration gestures remain unverified. | [Manufacturer manual reproduction pp7,38–39][ZG5-R2]; checked2026-10-18 |
 | IR / NAM / capture | User IR, native/converted NAM and capture imports unverified; factory amp/cab modeling does not establish import support. | Unresolved |
 | USB audio / monitoring | **16-bit, 44.1 kHz**, explicitly in the reproduced audio-interface chapter; distinct from 24-bit A/D and D/A. Direct/DAW balance and recording level adjustable; set USB AUDIO MONITOR to 100 when monitoring through DAW software to avoid mixed/flanger-like output. Historical interface OS list: XP SP3 32-bit, Vista SP1 32/64-bit, Windows7 32/64-bit; Intel Mac OS X10.5/10.6/10.7. This is separate from Edit&Share compatibility and does not establish current OS support, USB MIDI or bus power;the later FAQ below separately resolves channel count and USB power. | [Reproduced manufacturer manual p35][ZG5-R35]; checked2026-10-18 |
+| Editor / patch compatibility | Edit&Share manufacturer manualE-5 pp7,10 explicitly permits **G3/G3X patches and patch groups imported into G5**. Reverse transfer, B3 or G3n/G3Xn compatibility is not established. See [direction-qualified editor finding](#g5--editshare-import-direction-and-library-scope). | [Original editor manual](https://zoomcorp.com/media/documents/EditShare_Operation_Manual_English_2.pdf),checked2026-11-01 |
 | Editor / software | Edit&Share editor/librarian: Windows XP/Vista/7/8/8.1/10; MacOSX10.9–10.12. Separate G-Series ASIO2.0.1 driver lists Windows7/8/8.1/10. Firmware1.20 Windows/Mac listed. Current OS compatibility unverified. | [Support][ZG5-S] |
 | Looper / drums / live | Rhythms, chromatic tuner and12AX7 tube booster. Looper up to60s with rhythm synchronization; **UNDO ON reduces maximum to30s**, with last-overdub undo/redo by holding the switch1s. STOP ends immediately; FINISH ends after the loop; FADE OUT fades, with another press stopping immediately. Tube booster offers0–16dB, may be silent~5s while warming, starts OFF and cannot amplify USB-recorded signals. Scenes/trails unresolved. | [Product][ZG5-P]; [Indexed manual pp32,34][ZG5-M]; [Reproduced manual p33][ZG5-R33] |
 
@@ -4042,6 +4043,19 @@ Checked **2026-11-01**: **Rp1.000.000; Habis**, seller **riechairunnisa**, Kab. 
 Checked **2026-11-01**, original G5. The [manufacturer manual reproduction](https://www.manuallib.com/download/pdf1/ZOOM-G5-MANUAL.PDF), printed p37, says firmware updates preserve saved patches, whereas **All Initialize restores all settings, including patches, to factory defaults**. These are different operations. This does not identify the reset patch contents of each firmware revision or the contents of a used unit. Missing button icons prevent a verified reset-key sequence; no device operation was performed.
 
 Pages14–15 show patch names/numbers on displays1–3 and the bank on display4. The manual warns that a slightly earlier press of one switch in a two-switch bank gesture can affect the sound, and recommends silence during bank changes. Exact paired-switch identities remain unverified from the extracted text. LCD presence does not establish seamless switching.
+
+### G5 — Edit&Share import direction and library scope
+
+Checked **2026-11-01** in [Zoom’s original Edit&Share operation manual](https://zoomcorp.com/media/documents/EditShare_Operation_Manual_English_2.pdf),imprint **Edit&Share-Manual-E-5**,13pages. G5 is named explicitly in the compatibility instructions;not a generic editor-support inference.
+
+| Field | Documented scope / remaining limit |
+|---|---|
+| Software / cross-model patch import | Printedp7 permits **G3 andG3X individual patches imported into G5**;p10 independently permits their **patch groups imported into G5**. The instructions do not establish reverse G5→G3/G3X transfer,B3 compatibility,orcompatibility with the distinct G3n/G3Xn generation. No conversion was tested. |
+| Memory / library versus device | Individual-patch operations distinguish import to User Area from **Store** to the connected device;group operations use **Replace**. Imported library data is not proof of changed device contents orfactory occupancy. These patch-management operations do not establish additional algorithms,user IR/NAM support orfull-system backup. |
+| Software / connection caveat | Printedp12 says computer sleep is unsupported andcalls for restarting Edit&Share after sleep. This is historical software documentation,not a newly tested defect orcurrent-OS compatibility claim. |
+
+The same guide’s delay-clamping table expressly addresses **old G3→G3v2** migration;its limits are not automatically attributed to G5 imports. Existing G5 firmware,library-total anddisplay qualifications remain. No software installed,device connected orlocal download performed.
+
 
 ## G5n
 
