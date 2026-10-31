@@ -130866,6 +130866,14 @@
       "result": "No newexact-model primary resolution forUSBchannels,power orseparatebuttons;G5FAQ andGCE3 claims excluded aswronghardware",
       "visual": "Current CUA apps[]/browsers[];physical count remainspending",
       "next": "Revisit whennew primaryevidence orvisualsurface exists;independentgeneralGT-Pro cursor retained"
+    },
+    "plethora_x3_recheck_20261101": {
+      "sources": [
+        "https://www.tcelectronic.com/id/products/0709-AIS",
+        "https://cdn-media.empowertribe.com/a7147f29903640918cc9bc9fc6e097dc/QSG_TE_0709-AIS_PLETHORA-X3_WW.pdf"
+      ],
+      "finding": "Currentpage/offers repeatknownfacts;primaryguideinaccessible;no newLCDsize/looper/desktopminimum resolution",
+      "next": "Seek exactprimaryevidence;do notborrow X5looper durations orold2013TonePrint minimums"
     }
   },
   "gt_pro_global_patch_level_20261031": {
@@ -134668,7 +134676,8 @@
       "https://wiki.mod.audio/wiki/MOD_Duo_Technical_Specs",
       "https://wiki.mod.audio/wiki/Developers",
       "https://wiki.mod.audio/wiki/MOD_Duo_Device_Settings",
-      "https://wiki.mod.audio/wiki/MOD_Web_GUI_User_Guide"
+      "https://wiki.mod.audio/wiki/MOD_Web_GUI_User_Guide",
+      "https://mod.audio/mod-duo/"
     ],
     "lcd": "2LCDs;2.7in vs2.8in sourceconflict;dedicatedswitchplacementunresolved",
     "direct_analog_expression": "No,explicitguide;MIDI/ControlChain conversion separate",
@@ -134690,6 +134699,15 @@
       "resources": "Technical 1GB RAM/8GB flash vs developer 4GB flash; no preset count inferred",
       "concurrency": "Plugin-dependent CPU/RAM; OS1.13 optional256-frame buffer increases latency; fixed block count unknown",
       "next": "Prefer independent LCD model discovery now; retain Duo placement, format compatibility, category census and exact Shopee gaps without repeating unchanged menu evidence"
+    },
+    "product_page_followup": {
+      "checked": "2026-11-01",
+      "dimensions": "Manufacturer180W×160D×74.7Hmm/1.2kg conflictswiki160W×186L×75H;bothfailpreferredfootprint;revisionbasisunknown",
+      "instrument_scope": "Manufacturerexplicitguitar/bass/voice andMIDIvirtualinstruments;nomicrophone/phantomorpolyphonyinference",
+      "routing": "Explicit split/join/feedback across2independentaudiochannels",
+      "library": "Over400freeplugins available notinstalled/algorithm/concurrencycount",
+      "adapter": "100–240VAC50–60Hz input,notunitDCrequirement",
+      "active": false
     }
   },
   "zoom_g5_additional_shopee_20261101": {

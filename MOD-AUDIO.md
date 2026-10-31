@@ -48,4 +48,12 @@ Checked **2026-11-01**. The [manufacturer-hosted developer reference](https://wi
 
 The [OS 1.13 WebGUI guide](https://wiki.mod.audio/wiki/MOD_Web_GUI_User_Guide) says individual plugins consume different CPU/RAM resources. Its Advanced Audio Server option allows a **256-frame buffer** for heavier processing at increased latency; this is not a guaranteed effect-count increase. No fixed arbitrary-plugin concurrency, complete installed category census or preset capacity is established. Shared file-manager folders for IRs/models alone do not certify a particular Duo-compatible IR/NAM/capture plugin.
 
+### Duo — manufacturer product-page dimensions and instrument scope
+
+Checked **2026-11-01**, [exact original Duo manufacturer page](https://mod.audio/mod-duo/),not Duo X orDwarf. It gives **180W×160D×74.7H mm;1.2kg**,contrasting with the wiki’s **160W×186L×75H mm**. Neither published footprint meets200W×140D;revision/measurement basis remains unresolved. The mass is a manufacturer claim,not a measurement.
+
+The page explicitly names **guitar,bass andvoice simultaneously with independent channels**,and MIDI-controlled virtual instruments. This establishes advertised instrument scope,not a microphone/phantom specification,polyphonic guitar tracking orautomatic electric-to-acoustic conversion. Its routing description explicitly permits **split,join andfeedback paths** across two independent audio channels.
+
+“Over400 free plugins” describes available effects,amps,instruments andMIDI utilities,not installed contents,400 distinct guitar algorithms orsimultaneous capacity. The supplied adapter’s **100–240VAC,50–60Hz** input range is separate from the already-documented12VDC unit supply anddoes not resolve the guide’s current/wattage discrepancy. No local download ordevice operation. LCD placement anddirect-analog-expression failure remain unchanged.
+
 Next:establish LCD-to-actuator placement fromprimary text orinspectable originalpanel,verify complete profile andexact hardware offers before active admission. No files,software,firmware,plugins ordependencies downloaded;no device operation.
