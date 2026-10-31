@@ -130468,6 +130468,14 @@
       ],
       "finding": "Preset spillover defaults OFF; Delay/Reverb/Both requires matching block numbers in both presets, with settings/routing/bypass caveats. Block bypass MUTE FX IN or parallel MUTE IN retains tails.",
       "limits": "Not looper continuity, gapless preset changes, global-volume position recall or firmware13 verification."
+    },
+    "fm3_shopee_20261031": {
+      "additional_item": "https://shopee.co.id/Fractal-audio-fm-3-fm3-turbo-mkII-amp-modeller-i.1653859734.54450336270",
+      "ask_idr": 32900250,
+      "seller": "ikarinistore",
+      "region": "Kota Bogor",
+      "access": "Two-week cached body; exact hardware title only; condition/stock/authenticity/bundle unknown, stale delivery and miscellaneous home category.",
+      "existing_preorder_recheck": "11170212/27200713719 newer last-week index says Habis at Rp25552000, 7-day preorder with stale 27Oct delivery; direct JS shell."
     }
   },
   "gt_pro_global_patch_level_20261031": {
