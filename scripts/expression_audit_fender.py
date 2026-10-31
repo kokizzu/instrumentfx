@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(fender): distinguish analog and MIDI expression assignments'))
+    print(git('commit','-m','research(fender): document looper placement and master control boundaries'))

@@ -130490,6 +130490,14 @@
       "revision": "Original firmware1.1.100, printed22",
       "finding": "Five parameters per EXP and five blocks per toe; EXP1/2 analog versus MIDI EXP3/4; five named tapers and per-assignment heel/toe values.",
       "limits": "Not global assignment or universal numeric endpoints; current firmware behavior untested."
+    },
+    "tone_master_looper_routing_20261031": {
+      "sources": [
+        "https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=30",
+        "https://support.fender.com/hc/en-gb/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates"
+      ],
+      "finding": "Original p28 loop continues across presets, global settings and 0.5dB volume steps. 1.2.56 dated2024-02-15 adds instrument-path pre/post looper placement, MIDI master/looper commands and EXP switchless bypass.",
+      "limits": "No direct global analog EXP assignment or numeric coverage inferred; current firmware untested."
     }
   },
   "gt_pro_global_patch_level_20261031": {
