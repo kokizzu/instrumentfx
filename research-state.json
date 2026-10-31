@@ -130687,7 +130687,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Zoom no-treadle individual-LCD processors next: G3n then G3/B3n/B3 unresolved exact-model physical/control andcurrent documentation gaps. HelixFloor EXP2/Toe/position-scope saved;unresolved hardware fields remain explicit. Seek new evidence rather than repeating unchanged sourcepasses. Preserve independent BOSS GT-Pro anddeferred no-treadle tasks;OLED/shared-screen/controllers secondary.",
+      "next_check": "Zoom G3 next,then B3n/B3 remaining no-treadle individual-LCD gaps. G3n specialswitch LCD labels andexact pendingShopee item11313397137 saved withoutcondition/stock validation. Preserve unresolvedOutputVP scope andothertechnical gaps;seek new evidence ratherthan repeat unchangedpages. Independent BOSS GT-Pro anddeferred no-treadle tasks retained;OLED/sharedscreen/controllers secondary.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -130704,6 +130704,21 @@
       "identity": "ELECTORI TonePrintV4 JPRev1.3 January2022,copyright2021–2022",
       "finding": "Supported expression mapping upto3parameters,curves at5pedalpositions;MASH separate. Regional genericeditor capability with explicitX5connection/Board applicability,not globalvolume.",
       "remaining": "Analog allBoard assignment,endpoints,held recall andbypass/tail/loopcoverage unresolved;exactShopee18280216311inaccessible,27271818642cachemiss,no newprice/stock."
+    },
+    "zoom_g3n_recheck_20261101": {
+      "manual": "https://zoomcorp.com/media/documents/D_G3n_G3Xn.pdf",
+      "finding": "STOMP parameter/effectname views;largeeffects SOLO/specialswitchfunction useswhiteondark label,notoneeffectperLCD guarantee.",
+      "offer": {
+        "url": "https://shopee.co.id/Zoom-G3N-G-3N-G-3N-Guitar-Multi-Effect-Pedal-Looper-i.304055616.11313397137",
+        "shop_id": "304055616",
+        "item_id": "11313397137",
+        "variation": "76077716055",
+        "idr": 2450000,
+        "region": "Jakarta Barat",
+        "access": "Searchcategory link;searchyesterday/directcategorylastmonth;iteminaccessible/variantcachemiss",
+        "status": "Partialpendinghardwarelead;condition/variationcontents/stockunknown,excludedfromverifiedprice ranges"
+      },
+      "remaining": "No newOutputVPglobalassignment/range/coverage evidence;buttonquantity/visualcensus unverified."
     }
   },
   "gt_pro_global_patch_level_20261031": {
@@ -133401,6 +133416,11 @@
       "file": "LINE6.md",
       "model": "Helix Floor",
       "heading": "### Helix Floor — external EXP2 routing and preset assignment scope"
+    },
+    {
+      "file": "ZOOM.md",
+      "model": "G3n",
+      "heading": "### G3n — special switch labels and exact pending hardware offer"
     }
   ],
   "model_note_scope_correction_20261101": {
