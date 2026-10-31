@@ -129434,6 +129434,12 @@
       "checked": "2026-10-31",
       "source": "https://www.zoom.co.jp/node/50",
       "finding": "Three LCD panels each paired with footswitch and parameter knobs; original G3X only."
+    },
+    "zoom_b3": {
+      "checked": "2026-10-31",
+      "source": "https://zoomcorp.com/en/us/multi-effects/bass-effects/b3/",
+      "finding": "Three individual effect displays each with dedicated footswitch and knobs.",
+      "scope": "Bass model, not newly classified for guitar; original B3, not B3n."
     }
   }
 }
