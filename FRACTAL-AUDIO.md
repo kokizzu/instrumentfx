@@ -498,7 +498,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | NAM / capture | NativeNAM,convertedNAM andproprietary amp-capture import unverified. Dated absence ofToneMatch block doesnot settle all import workflows. [Distinctions](#fm3-original--ir-capacity-transfer-formats-and-editor-platforms). |
 | Editor / platforms | FM3-Edit **1.07.17,August25,2026**:macOS10.13+,Windows10+64-bit;32-bitbuild link separately qualified. Windows editing depends on audio+serial drivers. Mobile editor/current architecture tests unknown. Fractal-Bot backup/updater distinct. [Current listing](#fm3-original--ir-capacity-transfer-formats-and-editor-platforms). |
 | Firmware / driver scope | Manufacturer13.0 explicitly supports Original/MKII,July16,2026. Windows bundle June10,2026:audio6.16+serial1.3;legacy7/8 uses1.1. Driver availability noteditor support. No software installed. [Current support](#fm3-original--initial-memory-dsp-and-current-support). |
-| Looper / drums / live | Dated guide:stereo,max120s;Undo while stopped erases all. Record2ndPress Overdub/Play/Stop,tempo quantization. Retention/current revision unverified. Drums andexact onboard preset down/up unknown;default bank navigation separate. [Looper](#fm3-original--dated-block-inventory-and-looper). |
+| Looper / drums / live | Dated guide:stereo,max120s;Undo while stopped erases all. Record2ndPress Overdub/Play/Stop,tempo quantization. Retention/current revision unverified. Drums unknown. **Configurable onboard preset−1/+1 documented**;PC Mapping can redirect selections;factory pair unverified. [Navigation scope](#fm3-original--configurable-preset-navigation-and-mapping). Default bank navigation remains separate. [Looper](#fm3-original--dated-block-inventory-and-looper). |
 | Used IDR | No exact-original-revision,condition-confirmed Shopee ask established. |
 | New IDR | No exact-original-revision,condition-confirmed Shopee ask established. |
 | IDR revision-unverified hardware | **Rp29.030.000**,behaviouristy,Kab.Banyuwangi,[shop1435419712/item29175380674](https://shopee.co.id/Fractal-Audio-Systems-Fm3-Amp-Modeler-And-Multi-Fx-%28Ready-Stock%29-i.1435419712.29175380674),five-month index checked2026-11-01;service unavailable. GenericFM3 title leaves Original/MKII unresolved despite ReadyStock. Condition,working state,bundle,adapter,warranty andcheckout unknown;excluded fromexact-revision new/used ranges andlive-stock claims. No voucher applied. |
@@ -602,6 +602,12 @@ Checked **2026-11-01**, [manufacturer Blocks Guide,June2023,pp3,50–51](https:/
 **Looper:** stereo,max120seconds;Undo during playback removes/restores thelatest layer,butUndo while stopped erases all data. Separate Erase requires stopped playback. Record2ndPress chooses Overdub,Play orStop;quantization aligns length totempo beats. Playback/dry levels are separate;global-pedal coverage,preset/power retention andcurrent firmware equivalence remain unknown.
 
 No downloads ordevice tests. Full category-choice census remains open;this partial lead is not yet an active model.
+
+### FM3 original — configurable preset navigation and mapping
+
+Checked **2026-11-01**,[manufacturer Footswitch Functions Guide,v1.3,April2022,pp2,5–6](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Footswitch-Functions-Guide.pdf). FM3 onboard switches explicitly use its FC functions. **Preset Inc/Dec** supports−1/+1,wrap andlower/upper limits,assigned through EZ orEdit Layout/Switch. Thus configurable sequential navigation is documented without an external controller;the untouched factory pair remains unverified.
+
+The guide says enabled **PC Mapping** redirects lower FC preset selections through the custom map,andmay select another preset/scene;it describes the map as off by default. Therefore stepping selection numbers is not an unconditional guarantee of adjacent stored-preset playback when mapping is enabled. Preserve the guide’s “first127” versus “above#127” wording without inventing a corrected boundary. Current firmware13 behavior,installed maps andglobal expression coverage remain untested. No download ordevice operation.
 
 ## FM9 MKII Turbo
 

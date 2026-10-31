@@ -137221,5 +137221,12 @@
     "revision": "v1.3;April2022;pp2,5–6",
     "destination": "FRACTAL-AUDIO.md#fm9-original--configurable-onboard-preset-down-and-up",
     "qualification": "Explicit FM9 onboard scope supersedes stale unknown;factory defaults,current firmware andexpression coverage remain unverified."
+  },
+  "fm3_original_navigation_mapping_20261101": {
+    "status": "configurable capability documented;partial",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Footswitch-Functions-Guide.pdf",
+    "revision": "v1.3;April2022;pp2,5–6",
+    "destination": "FRACTAL-AUDIO.md#fm3-original--configurable-preset-navigation-and-mapping",
+    "qualification": "Explicit onboard FM3 scope;mapping caveat retained without resolving sourceboundary wording. Factory pair,currentfirmware andexpression coverage untested."
   }
 }
