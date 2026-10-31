@@ -129415,6 +129415,12 @@
       "revision": "Shared G3n/G3Xn manual, printed p3",
       "finding": "Three display/four-knob/footswitch units.",
       "access": "Manufacturer indexed text; direct reader failed size limit; no download or visual inspection."
+    },
+    "zoom_g5": {
+      "checked": "2026-10-31",
+      "source": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g5/",
+      "finding": "Four individual backlit displays, each with dedicated footswitch and knobs.",
+      "scope": "Original G5 only; existing model, no new admission."
     }
   }
 }
