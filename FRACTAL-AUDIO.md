@@ -461,6 +461,20 @@ Checked **2026-11-01** in the [manufacturer 7.x manual](https://www.fractalaudio
 
 Numeric volume endpoints,held-position recall,bypass,headphone,USB andrecorded-loop coverage remain unresolved. Headphone hardware variants still need primary confirmation. No local download orhardware test;current installed firmware untested.
 
+### FM3 original — initial memory, DSP and current support
+
+Checked **2026-11-01**. [Manufacturer-authored 1.x manual reproduction](https://manualzz.com/doc/61301482/fractal-fm3-owner-s-manual),original document body only,not generated FAQ: cover identifies manual1/firmware1.x;change log identifies first edition February2020. Its original three-switch architecture,12×4 grid andUSB4×4 agree with the [manufacturer2019 announcement](https://www.fractalaudio.com/fm3-old/);this predates MKII.
+
+| Field | Revision-qualified evidence |
+|---|---|
+| Memory | pp7,39,47: **512 editable preset locations**,including overwritable factory presets;no separate protected factory bank established. Eight scenes per preset are not additional preset memories. Factory-filled count unknown. |
+| Processing | pp42,48: four stereo grid rows do not require parallel paths for stereo. Historical allowable CPU load is **approximately80%**;exceeding it disables processing with CPU LIMIT–Muted. Insertion can be refused before overload. This is a1.x limit,not a current13.0 measurement. |
+| Synth | p44 explicitly describes a **three-voice monophonic tracking synth**. Voice count is not polyphonic note tracking. Acoustic conversion remains unverified. |
+
+[Current manufacturer downloads](https://www.fractalaudio.com/fm3-downloads/) explicitly list **firmware13.0,July16,2026,for Original andMKII Turbo**. Installation requires the latest FM3-Edit;missing current DynaCabs produce a boot error requiring the linked recovery instructions. This does not establish installed firmware. Separate June10,2026 Windows bundle lists audio6.16+serial1.3,both required forWindows10+ includingARM;Windows7/8 use legacy1.1. Driver availability is not editor compatibility.
+
+Headphone-less early units remain a secondary-source lead:official-forum search yielded no readable manufacturer confirmation. Existing documented headphone socket is not a guarantee for every original unit. No local download,installation ordevice operation. Full category-choice census,I/O andheadphone variants remain open;profile stays outside active counts.
+
 ## FM9 MKII Turbo
 
 Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI seller item remains separate. Current product/store establish revision. Linked2022 manual covers original/Turbo but predates MKII display revision;historical physical figures below require current corroboration.

@@ -133957,7 +133957,17 @@
     "global_assignment": true,
     "physical_fit": false,
     "active": false,
-    "next": "Complete original hardware/headphone variants,memory/category inventory andremaining volume endpoints/recall/coverage. No active admission.",
+    "next": "Complete full original-model category/choice census andI/O;obtain manufacturer evidence forheadphone-less earlyhardware;qualify exact-revision IDR. Keep global-volume endpoints/recall/coverage open.",
+    "downloads": false
+  },
+  "fm3_original_memory_support_20261101": {
+    "checked": "2026-11-01",
+    "active": false,
+    "manual": "https://manualzz.com/doc/61301482/fractal-fm3-owner-s-manual",
+    "identity": "Manual1/Firmware1.x;February2020firstedition;architecturecorroboratedby2019primaryannouncement",
+    "current_support": "https://www.fractalaudio.com/fm3-downloads/",
+    "next": "Complete full original-model category/choice census andI/O;obtain manufacturer evidence forheadphone-less earlyhardware;qualify exact-revision IDR. Keep global-volume endpoints/recall/coverage open.",
+    "headphone_blocker": "No readable manufacturer confirmation from official-forum indexed search;secondary reports not promoted.",
     "downloads": false
   }
 }
