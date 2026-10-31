@@ -137665,5 +137665,22 @@
       "Current complete effect census andremaining display specifications"
     ],
     "next": "Continue missing individual-LCD models andremaining substantive source gaps first;independent BOSS GT-Pro cursor unchanged."
+  },
+  "hx_effects_tuner_tempo_limits_20261101": {
+    "model": "Line 6::HX Effects",
+    "status": "partial manufacturer manual finding; source anomaly preserved",
+    "source": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "revision": "3.80 RevD;printed17–18;40-00-0399-D;copyright2024",
+    "findings": [
+      "Global tuner Mute/unprocessedMainLR/Send12 routes;not globalEXP attenuation proof.",
+      "Reference425–455Hz;tableFine/Coarse/Strobe;lowF21.83Hz;offsetsrequireenable.",
+      "Tapfloor40BPM versusmanual20BPM;tempo-follow requiresnotevaluedparameters."
+    ],
+    "qualifications": [
+      "Introduction namesHXStomp/Knob4 incorrectly;control labelsnotadopted.",
+      "Screenshot yieldednoinspectableimage;nohardwaretest ordownload.",
+      "ExistingIRcapacitycontradiction andglobalEXPunknownsretained."
+    ],
+    "next": "Continue substantive individual-LCD gaps andlossless consolidation;independent generalBOSS GT-Pro cursor unchanged."
   }
 }
