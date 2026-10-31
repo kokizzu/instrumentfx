@@ -28,6 +28,7 @@ Research these LCD matches before OLED, shared-screen and unconfirmed-technology
 | Zoom **G3X** | **Three individual backlit LCD panels**, each paired with effect footswitch and knobs | [Exact original G3X record](ZOOM.md#g3x). Built-in treadle; distinct from G3Xn. |
 | Zoom **G3Xn** | **Three individual LCD effect units**, each with four knobs and footswitch | [Exact G3Xn record](ZOOM.md#g3xn). Shared manual covers this treadle-equipped model; do not transfer G3n external EXP socket. |
 | Zoom **G11** | **Five effect LCD panels**, plus separate amplifier LCD and5-inch main touchscreen | [V2 manual-backed record](ZOOM.md#g11). Five effect switches are separate from navigation switches; longer chains scroll across the panels. |
+| Zoom **G5** | **Four individual backlit LCD effect displays**, each with dedicated footswitch and knobs | [Exact original G5 record](ZOOM.md#g5). Own manufacturer manual reproduction p63 explicitly specifies four LCDs; separate from G5n. Diagonal/color/touch remain unverified. |
 | Zoom **G5n** | **Four individual128×32 dot-matrix LCD Unit Displays**, each paired with an effect footswitch; separate256×32 Overview LCD | [V2 manual-backed record](ZOOM.md#g5n). Ownmanualp58 explicitly identifies LCD technology;diagonal/color/touch and total navigation-switch count remain unresolved. |
 
 ### Individual OLEDs at effect footswitches — secondary priority
@@ -39,14 +40,6 @@ These match the separate-display layout, with OLED technology rather than LCD.
 | HeadRush **Pedalboard** | **Twelve individual monochrome OLED strips**, one per footswitch; separate main touchscreen | [Exact model/manual record](HEADRUSH.md#pedalboard). Manual strips1.2-inch; main6.9-inch versus marketed7-inch retained. |
 | HeadRush **Prime** | **Twelve individual OLED scribble strips**, one per footswitch; separate7-inch main touchscreen | [Verified exact-model record](HEADRUSH.md#prime). OLED strips and color LED rings are distinct. |
 | Line 6 **Helix Stadium XL Floor** | **Twelve OLED scribble strips**, plus separate8-inch color touchscreen | [Current manufacturer-backed record](LINE6.md#helix-stadium-xl-floor). Manufacturer marks strips XL-only; non-XL Stadium Floor is different. |
-
-### Individual displays — technology still to verify
-
-Separate displays are documented, but the evidence summarized here does not establish LCD versus OLED. Keep these candidates below confirmed LCD matches.
-
-| Brand / model | Display-layout status | Record / next check |
-|---|---|---|
-| Zoom **G5** | **Four individual backlit effect displays**, each with dedicated footswitch and knobs | [Exact original G5 record](ZOOM.md#g5). Separate from G5n; display diagonal/color/touch remain unverified. |
 
 ### Displays shared by groups of effect switches
 

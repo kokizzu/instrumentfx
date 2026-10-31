@@ -130352,8 +130352,7 @@
       "checked": "2026-10-31",
       "instruction": "Prioritize one with LCD on footswitch first",
       "next_models": [
-        "Line 6 HX Effects remaining profile gaps",
-        "Zoom G5 LCD technology"
+        "Line 6 HX Effects remaining profile gaps"
       ],
       "task": "Continue unresolved exact-model documentation and qualified hardware offers for individual LCD processors before OLED models. Retain the independent BOSS GT-Pro cursor.",
       "qualification": "Queue order is a research priority, not a recommendation or declaration of full verification.",
@@ -130361,7 +130360,8 @@
         "Line 6 Helix Floor editor/readout",
         "Fender Tone Master Pro currentproduct conflicts",
         "Fractal Audio FM9 MKII Turbo USB routes",
-        "TC Electronic PLETHORA X5 capacitywording/dimensionscrosscheck"
+        "TC Electronic PLETHORA X5 capacitywording/dimensionscrosscheck",
+        "Zoom G5: original manufacturer manual p63 confirms four LCDs; moved from technology-unconfirmed group"
       ]
     },
     "fender_product_conflicts": {
@@ -130415,6 +130415,12 @@
         }
       ],
       "remaining": "Currentcompleteinventory,looperlimits,screenphysicalpropertiesandqualifiedconditionoffersunresolved."
+    },
+    "zoom_g5_lcd": {
+      "checked": "2026-10-31",
+      "source": "https://www.manualslib.com/manual/500497/Zoom-G5.html?page=63",
+      "finding": "Manufacturer-authored G5 operation manual reproduction p63 explicitly specifies LCD x 4. Existing identity match includes Z-Pedal, 297 patches and G5 dimensions. Product page establishes separate backlit footswitch displays but does not explicitly say LCD.",
+      "qualification": "Text evidence; no new visual inspection. Diagonal, color and touch unresolved. Original G5, not G5n; no inventory addition."
     }
   },
   "gt_pro_global_patch_level_20261031": {
