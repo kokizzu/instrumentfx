@@ -131370,5 +131370,27 @@
       }
     ],
     "remaining": "No authenticated new/used condition or checkout stock. Continue exact LCD-model offers and unresolved technical fields; independent general cursor retained."
+  },
+  "hx_effects_mixer_looper_levels_20261031": {
+    "checked": "2026-10-31",
+    "record": "LINE6.md#hx-effects--mixer-and-looper-level-scope",
+    "source": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "printed_pages": [
+      27,
+      36,
+      38,
+      39,
+      41,
+      42,
+      49
+    ],
+    "findings": [
+      "Mixer A/B levels and overall Level are preset routing controls; mixer cannot be bypassed",
+      "Path B Send1/2 is separate from Path A MainL/R",
+      "Controller min/max adjustable; no universal numeric attenuation range established",
+      "Loop playback differs from live guitar level; overdub90percent retains90percent per pass"
+    ],
+    "remaining": "Global-volume assignment, numeric attenuation endpoints and DSP-bypass tail/loop coverage remain unverified. No new qualified Shopee offer; LCD spare part excluded.",
+    "next": "Continue LCD-footwitch priority, exact FM9/Fender/Zoom offers and remaining technical fields; preserve independent BOSS GT-Pro cursor."
   }
 }

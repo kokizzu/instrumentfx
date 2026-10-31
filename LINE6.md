@@ -631,6 +631,16 @@ Checked **2026-10-31** against [own3.80 RevD manual](https://line6.com/data/6/0a
 
 Snapshot Control’s parameter-value opt-out remains separate from Snapshot Bypass’s block-state opt-out. Neither inserts Volume into every preset. Analog All Bypass still bypasses digital attenuation;DSP-bypass tail/looper coverage andnumeric volume endpoints remain unresolved. No device test ordownload.
 
+### HX Effects — mixer and looper level scope
+
+Checked **2026-10-31** against [own3.80 RevD manual](https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf),printedpp27,36,38–39,41–42,49. No device test.
+
+| Field | Documented scope / qualification |
+|---|---|
+| Expression / mixer versus global output | Mixer A Level and B Level adjust their respective paths; its separate Level adjusts the mixer output. The mixer cannot be bypassed. Sending Path B to Send1/2 separates its output from Path A MainL/R. These are preset routing controls; global Inst/Line output selection is not an expression-volume assignment. |
+| Expression / range | Controller Assign exposes adjustable minimum/maximum values for the selected parameter; swapping them reverses direction. Numeric attenuation endpoints and a universal cross-preset range remain unverified. |
+| Looper / playback versus overdub | Playbk adjusts recorded-loop playback separately from live guitar. Ovrdub reduces the existing loop on successive overdub passes:90% retains90% each pass. This is not master attenuation or an all-preset mapping; full DSP-bypass tail/loop coverage remains unverified. |
+
 <!-- comparison evidence ends -->
 
 ### Preserved original shared-source HX Effects fields
