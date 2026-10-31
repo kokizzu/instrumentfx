@@ -138202,5 +138202,16 @@
       "current": "Actualsuppliedregionaladapter/label remainsopen;namedDC3g anddirectDC3h ratings nowqualified."
     },
     "active_counts_changed": false
+  },
+  "fm9_mkii_regional_electrical_20261101": {
+    "checked": "2026-11-01",
+    "source": "https://www.okada-web.com/fractal-audio-systems/fm9-mark-ii-turbo",
+    "finding": "Exact MKII regional specifications: 90–264 VAC, 47–63 Hz, ≤40 W; three TRS pedal jacks, 10–100 kΩ center-wiper rating; normally open/closed and latching/non-latching switch support.",
+    "qualification": "Distributor corroboration, not a direct current manufacturer update; ≤40 W versus historical <40 W preserved. Center-wiper wording does not map contacts; no M-VAVE test or global-volume proof.",
+    "summary_reconciliation": {
+      "previous": "Existing historical513W×237Dmm exceeds preference, but exact MKII dimensions remain unresolved.",
+      "current": "Existing513W×237Dmm exceeds preference;the later Okada exact-MKII finding supplies regional corroboration,while direct current manufacturer confirmation remains open."
+    },
+    "active_counts_changed": false
   }
 }
