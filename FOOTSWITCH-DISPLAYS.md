@@ -14,7 +14,7 @@ Separate physical displays, labels drawn on one shared screen, and LED rings are
 | Fractal Audio **FM3 MKII Turbo** | **Three individual mini LCDs**, one per footswitch; separate color main screen | [Current manufacturer-backed record](FRACTAL-AUDIO.md#fm3-mkii-turbo). Virtual switch layouts do not add physical displays. |
 | Fractal Audio **FM9 MKII Turbo** | **Nine individual mini LCDs**, one per footswitch; separate color main screen | [Current manufacturer-backed record](FRACTAL-AUDIO.md#fm9-mkii-turbo). Enlarged MKII strips; do not transfer their size to original FM9. |
 | HeadRush **Pedalboard** | Candidate collected; display audit pending | [Existing model record](HEADRUSH.md#pedalboard). Verify individual displays independently of its central touchscreen. |
-| HeadRush **Prime** | Candidate collected; display audit pending | [Existing model record](HEADRUSH.md#prime). Check exact model rather than borrowing Pedalboard/Core specifications. |
+| HeadRush **Prime** | **Twelve individual OLED scribble strips**, one per footswitch; separate7-inch main touchscreen | [Verified exact-model record](HEADRUSH.md#prime). OLED strips and color LED rings are distinct. |
 | Line 6 **Helix Floor** | Candidate collected; display audit pending | [Existing model record](LINE6.md#helix-floor). Verify strip count and which switches they label. |
 | Line 6 **Helix Stadium XL Floor** | Candidate collected; display audit pending | [Existing model record](LINE6.md#helix-stadium-xl-floor). Keep separate from Helix Floor and non-XL variants. |
 | Line 6 **HX Effects** — reference | **Six LCD strips**, for switches1–6; eight total switches including MODE/TAP | [Verified layout and source](LINE6.md#hx-effects). Capacitive switches are not touchscreens. |

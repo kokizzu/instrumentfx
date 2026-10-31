@@ -129262,11 +129262,11 @@
       "TC Electronic PLETHORA X3",
       "Line 6 HX Effects",
       "Fractal Audio FM9 MKII Turbo",
-      "Fractal Audio FM3 MKII Turbo"
+      "Fractal Audio FM3 MKII Turbo",
+      "HeadRush Prime"
     ],
     "remaining_candidates": [
       "Fender Tone Master Pro",
-      "HeadRush Prime",
       "HeadRush Pedalboard",
       "Line 6 Helix Floor",
       "Line 6 Helix Stadium XL Floor"
@@ -129340,6 +129340,11 @@
       ],
       "scope": "Host-dependent controllers, outside processor counts; MIDI via connected processor.",
       "active": false
+    },
+    "headrush_prime": {
+      "checked": "2026-10-31",
+      "source": "https://www.headrushfx.com/products/prime/index.html",
+      "finding": "Twelve OLED scribble strips explicitly assigned one per footswitch."
     }
   }
 }
