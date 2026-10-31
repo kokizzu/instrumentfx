@@ -11,7 +11,7 @@ Checked 2026-10-31 against the [exact GT/10 manufacturer page](https://rjmmusic.
 | Displays / memory | **Ten individual LCDs, one above each switch**, plus separate main LCD. **768 presets,16 button pages**; pages are not extra screens. Diagonal, resolution and touch remain unverified. |
 | Power | **12VDC/800mA, center-positive, 2.1mm ID/5.5mm OD** published requirement; MIDI phantom powering also documented. Not GT/22’s1.6A requirement; measured draw unknown. |
 | Ports / expression | Four TRS EXP inputs, linear/log, current page says wiper-to-tip but manual4.1 says wiper-to-ring (see below); two TRS momentary-switch inputs supporting four switches;7-pin MIDI IN/OUT;USB-A storage/USB-B computer. Page mentions phantom power through XLR but omits XLR from its GT/10 connector list: unresolved wording,not a confirmed XLR socket. |
-| Body / software | Published **19.4W×8.1D×3.25H inches,6lb/2.7kg**; corroborated by manual4.1 below; current revision equivalence unverified. PC/Mac editor; minimum OS unknown. |
+| Body / software | Published **19.4W×8.1D×3.25H inches,6lb/2.7kg**; corroborated by manual4.1 below; current revision equivalence unverified. PC/Mac editor;[version-qualified OS requirements](#gt10--editor-versions-and-macos-requirements) below. |
 | Remaining | Complete revision/profile and exact Shopee used/new IDR,condition,stock,bundle and warranty unverified. |
 
 No download, installation or hardware operation.
@@ -52,6 +52,17 @@ Checked **2026-10-31**. Manufacturer [version history](https://docs.rjmmusic.com
 | Editor / historical requirements | [Online editor manual](https://docs.rjmmusic.com/books/mastermind-editor-manual) explicitly reflects **5.2.x**. Its [requirements](https://docs.rjmmusic.com/books/mastermind-editor-manual/page/system-requirements) list Windows7+32/64-bit ormacOS10.13+64-bit,2GBRAM andUSB-B connection. Do not certify current5.5 Windows architectures from that older manual. |
 
 [Downloads guidance](https://rjmmusic.com/pages/downloads) requires firmware/editor first-two-version-digits to match;patch digits may differ. Generic iPad-app wording is only for supported products anddoesnot establish GT/10 iPad editing. No download,installation ordevice operation.
+
+### GT/10 — supported pedal and toe-switch connection
+
+Checked **2026-10-31**. Mission’s [SP1-RJM manufacturer listing](https://missionengineering.com/shop/sp1-rjm/) explicitly names Mastermind GT compatibility. Indexed original text supplies the specifications;direct retrieval returned only a privacy shell.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / supported accessory | SP1-RJM uses a **10kΩ linear potentiometer** and **momentary toe switch**. Two TRS cables carry expression and switching separately. Powered by the RJM host;no separate pedal supply/battery required. This does not establish the controller’s complete resistance tolerance or USB-power capability. |
+| Expression / GT connection | [GT manual4.1,pp39–40](https://docs.rjmmusic.com/download-content/MMGT/Mastermind%20GT%20Manual-4.1.pdf),explicitly including GT/10,connects pedal Output1→EXP andOutput2→External Switch. The toe switch is configured as an external button;its effect depends on programmed MIDI commands and the receiving processor. |
+
+Mission’s checked listing does not specify wiper contacts;the existing GT product/manual tip-versus-ring conflict remains unresolved. The controller converts expression to MIDI,not analog audio-volume processing. No download,wiring ordevice test.
 
 ## Mastermind GT/16
 

@@ -132660,5 +132660,17 @@
     "finding": "Root GT/10 now records5.5 Mac requirement and GT-specific patch-version guidance;5.2.x OS specifications retained as historical.",
     "limits": "Current Windows architecture/minimums and GT/10 iPad editor unverified; no downloaded software or local device test.",
     "next": "Continue exact-model LCD controller gaps. Independent BOSS GT-Pro cursor unchanged."
+  },
+  "rjm_gt10_sp1_rjm_connection_20261031": {
+    "checked": "2026-10-31",
+    "model": "RJM Mastermind GT/10",
+    "sources": [
+      "https://missionengineering.com/shop/sp1-rjm/",
+      "https://docs.rjmmusic.com/download-content/MMGT/Mastermind%20GT%20Manual-4.1.pdf"
+    ],
+    "finding": "Supported accessory and independent GT manual document separate expression/toe connections; root and controller collection linked.",
+    "limits": "Mission specifications from indexed manufacturer body; direct privacy shell. Wiper conflict and processor-side global-volume behavior remain unresolved.",
+    "previous_body_summary": "| Body / software | Published **19.4W×8.1D×3.25H inches,6lb/2.7kg**; corroborated by manual4.1 below; current revision equivalence unverified. PC/Mac editor; minimum OS unknown. |",
+    "next": "Continue LCD-first controller/processor audit;GT4.3 PDF exceeded reader size limit. Independent BOSS GT-Pro cursor unchanged."
   }
 }
