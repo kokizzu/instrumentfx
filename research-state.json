@@ -137539,5 +137539,21 @@
       "SerialMUTEFXIN versusparallelMUTEIN blockbypass tailpaths;not globalEXPcoverage oruniversalgaplesschanges"
     ],
     "next": "Continue individual-LCD model remaining capabilities andqualifiedIDR;do not treat historical3.x as current12 testing;preserve BOSS GT-Pro general cursor."
+  },
+  "tmp_mixer_source_routing_20261101": {
+    "status": "partial identified manufacturer-manual evidence",
+    "source": "https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual",
+    "revision": "firmware1.5,printed36,38",
+    "findings": [
+      "AUX andBluetooth route separately tophones/Out1/Out2/USB1/2;AUXlevel externaldevicecontrolled",
+      "MixerMuteperoutput;Soloexcludesotheroutputs withadditionalSoloaddback",
+      "PhonesfollowMasterbydefault;MasterassignmentlinksOut1Out2phonesfaders onlywhen enabled"
+    ],
+    "unresolved": [
+      "directanalogglobalvolumeassignment",
+      "presetVolumeattenuation ofbackingsources/tails/loops",
+      "current1.8hardwarebehavior"
+    ],
+    "next": "Continue LCDmodel remainingcapabilities;retain currentmanual/modelguideH accessblocker andindependent BOSS GT-Pro cursor."
   }
 }
