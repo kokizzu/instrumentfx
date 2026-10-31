@@ -255,3 +255,12 @@ Supplementary original **Fender Owner's Manual firmware1.1.100**, not the host s
 Official [release history](https://support.fender.com/hc/en-gb/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates), v1.3.74 dated June 3, 2024, introduces EXP Live Mode: it reads physical pedal position on preset changes, **requiring a Volume Pedal block in each preset**. This documented method fails the no-individual-preset-editing requirement; an independent global analog-volume assignment remains unverified. The same release documents mono/stereo Volume Pedal operation and a fix for full muting at 0%; this does not prove every output or recorded loop is attenuated.
 
 [Original firmware1.1.100 manual, printed p22](https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=24) assigns EXP to blocks/parameters in preset view, with heel/toe values and five tapers; numeric volume endpoints are not certified here. Position in the signal chain, block bypass and routing matter; headphone, delay/reverb-tail and recorded-loop coverage remain unverified. Existing dedicated headphones and two TRS EXP inputs remain distinct from MIDI control. Current controller resistance/pinout and onboard sequential preset down/up are not newly verified. Existing 371W×261.6Dmm footprint fails both preferred limits; preserve the older manual’s261.4D discrepancy. No hardware test or firmware installation performed.
+
+### Tone Master Pro — current support and strip behavior, 2026-10-31
+
+[Current official English release history](https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates) now heads with **1.8.58,July15,2026**. This supersedes the earlier retrieval’s English/ Japanese headline discrepancy without erasing that dated observation.
+
+| Field | Manufacturer qualification |
+|---|---|
+| Display / historical strip fixes | **1.7.75,January28,2026** records fixes for blank strips when selecting Setlist Mode in Pro Control or Preset View within a Setlist, and incorrect strip view after exiting DAW Mode. These are release-note claims,not tested hardware behavior or extra physical displays. |
+| Editor / current minimums | Current entry lists Pro Control **Mac1.8.4.9728 / PC1.8.4.9733**,macOS12.7+,Windows10x64 22H2+/11,**iOS15+**,Android8+arm64-v8a. The June entry’s iOS13.1+ remains historical. Firmware/app release generations must match; no software installed. |

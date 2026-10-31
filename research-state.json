@@ -129489,7 +129489,7 @@
       "finding": "Three individual stomp-style displays each with dedicated footswitch and knobs.",
       "scope": "Original G3, not G3X/G3n; existing model, no inventory admission."
     },
-    "priority": "User2026-10-31: prioritize separate LCD/mini displays at footswitches before other research.",
+    "priority": "User2026-10-31: prioritize individual LCD displays at footswitches; OLED matches retained distinctly, shared-screen and unresolved candidates separate. Continue exact-model display audit before general cursor.",
     "zoom_g3n": {
       "checked": "2026-10-31",
       "source": "https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf",
@@ -129707,6 +129707,12 @@
       "finding": "Shared main480×272LCD;separate switchLEDs;contrast0–100%,LEDbrightness1–100%.",
       "classification": "Shared-screen comparison,not individual strip match.",
       "remaining": "Diagonal/touch unverified;no visual/device test."
+    },
+    "tone_master_current_support": {
+      "checked": "2026-10-31",
+      "source": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+      "finding": "English page now1.8.58;historical1.7.75 blank-strip/view fixes;current iOS15 minimum supersedes June13.1 entry.",
+      "scope": "Individual LCD priority;no device/app operation;older sources retained."
     }
   },
   "gt_pro_global_patch_level_20261031": {
