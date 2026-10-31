@@ -3240,7 +3240,7 @@ Guitar multi-effects; checked **2026-10-17**, partial first pass. Exact G3Xn, no
 |---|---|
 | Expression | **Built-in**, with front-end press toggling pedal effect; manual warns this differs from the stored ON/OFF setting. External CONTROL IN is **G3n only**, not G3Xn. [G3-M][g3xn-m] |
 | Controls: knobs / footswitches / buttons | Exact K/F/B counts **?**, pending original panel inspection. Manual names parameter knobs, TYPE keys,FS1–FS3,BANK/SCROLL,mode switch,control/enter andMENU. Do not report three total foot controls from FS1–FS3 alone. Power and pedal switching separate. [G3-M][g3xn-m] |
-| Display | **Three 128×32 dot-matrix LCDs**, in three display/four-knob/footswitch units per shared G3n/G3Xn manual p3; exact model coverage rechecked2026-10-31. Numerical diagonals, explicit color mode and touch remain unverified. [G3-M][g3xn-m] |
+| Display | **Three 128×32 dot-matrix LCDs**, in three display/four-knob/footswitch units per shared G3n/G3Xn manual p3; exact model coverage rechecked2026-10-31. Each UNIT1/2/3 contrast independently adjustable **1–13**,viaSETUP→LCD CNTRST (ownmanualp27,indexed2026-10-31). Numerical diagonals, explicit color mode and touch remain unverified. [G3-M][g3xn-m] |
 | Dimensions / weight | **318 W ×181 D ×64 H mm;1.84kg**, G3Xn-specific. G3n1.28kg is not this model. Pedal-up height/measurement conditions **?**. [G3-M][g3xn-m] |
 | Simultaneous processing | **Up to seven** effects/amp/cab models in arbitrary serial order; **100-point DSP budget**,per ownsupport-linked2020 chart;seven slots do not guarantee anycombination. [G3-P][g3xn-p] |
 | Effect library / category choices | Product page qualifies **v2.0:127 DSP effects =125 effects +looper +rhythm**, plus32 amp/cab emulators, broken down16 amps/16 cabs. Older manual says80 types; retain revision context. Complete installed per-category counts **?**; newer library additions are not automatically installed on a used unit. [G3-P][g3xn-p], [G3-M][g3xn-m] |
@@ -3331,6 +3331,17 @@ Checked 2026-10-18 from indexed [original G3n/G3Xn manual p33](https://zoomcorp.
 | I/O / headphone specification | Exact G3Xn specifications corroborate **combined stereo L/Mono/Phone**, alongside mono R; headphone rating15+15mW into32Ω. Prose also mentions a headphone jack, without proving a separate socket. Earlier rear-diagram/shared-page wording remains preserved; no visual panel reconciliation claimed. |
 | Audio / input-noise source difference | Legacy own-product table prints **−119dBu** equivalent input noise, whereas the indexed manual passage lacked the minus sign. Retain both source readings; no measurement or manual correction established. |
 | Power / USB source qualification | Legacy own-product USB row explicitly claims **USB-port power** and warns power-only cables disable other USB functions. Earlier manual passages did not establish bus power; actual operation, required USB current and firmware/revision applicability remain unverified. This is a manufacturer web claim, not a tested result or USB-audio claim. |
+
+### G3Xn — individual LCD adjustment and chain scrolling
+
+Checked **2026-10-31**,indexed [original G3n/G3Xn manual](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf),printedpp11,27.
+
+| Field | Exact-document evidence / qualification |
+|---|---|
+| Display / per-unit contrast | SETUP→LCD CNTRST selects UNIT1,UNIT2 orUNIT3,then sets contrast **1–13** independently. The illustrated8/10 values are examples,not certified factory defaults. Contrast does not establish brightness levels,color,touch or a screen diagonal. |
+| Display / longer chains | Effect displays scroll through the chain;three physical LCDs do not impose a three-effect ceiling. ADD disappears when seven effects are already in use. Existing DSP/unit-overflow restrictions still apply. |
+
+No new visual inspection,download or hardware operation. Numeric LCD dimensions and full physical control counts remain open.
 
 <!-- comparison evidence ends -->
 

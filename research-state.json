@@ -129966,7 +129966,6 @@
       "checked": "2026-10-31",
       "instruction": "Prioritize one with LCD on footswitch first",
       "next_models": [
-        "Zoom G3Xn",
         "Fractal Audio FM3 MKII Turbo"
       ],
       "task": "Continue unresolved exact-model documentation and qualified hardware offers for individual LCD processors before OLED models. Retain the independent BOSS GT-Pro cursor.",
@@ -129997,6 +129996,13 @@
       "pages": "29,31,33",
       "finding": "Rhythmcontinuespatchselection/Home;loopretainedHome;separate0–100loop/rhythmlevels;precountandquantizationwithrhythm.",
       "remaining": "Loopcontinuityonpatchchangeandsymbolgesturesunverified;screenpropertiesandphysicalbuttoncountremainopen."
+    },
+    "g3xn_contrast": {
+      "checked": "2026-10-31",
+      "source": "https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf",
+      "pages": "11,27",
+      "finding": "UNIT1/2/3independentcontrast1–13;scrollingchain;ADDabsentat7effects;illustrated8notdefaultproof.",
+      "remaining": "LCDdiagonal/color/touch,physicalcounts,fullcurrentlibraryandportconflictsremainopen."
     }
   },
   "gt_pro_global_patch_level_20261031": {
