@@ -3335,6 +3335,18 @@ Checked **2026-10-31**:[manufacturer-authored Effects and Preamps2019 catalogue]
 This resolves the published six-switch total anddated USB-audio exclusion only. Earlier unknown statements are superseded within that scope. Separate button totals,USB power andglobal analog-volume assignment remain unresolved;GCE-3 audio processing remains separate hardware. No local download ordevice operation.
 
 
+### G3n — firmware fix scope and OutputVP release date
+
+Checked **2026-10-31**,original manufacturer histories [English](https://zoomcorp.com/documents/3433/G3n_System_Firmware_Version_History_ver220_en.pdf) and[Japanese](https://zoomcorp.com/documents/3492/G3n_System_Firmware_Version_History_ver220_jp.pdf),bothZ2I-3323-03,one page. Both explicitly cover G3n/G3Xn.
+
+| Field | Revision-qualified finding |
+|---|---|
+| Firmware /2.20 USB andeditor fixes | **May2019:** fixes Guitar Lab EDITOR view sometimes being unavailable andUSB disconnecting after a period of time. Both language bodies agree;the Japanese search excerpt omitted its second item,butthe PDF includes it. These are historical fixes,not current local host/device test results. |
+| Expression / OutputVP chronology | **2.00,April2018** introduces OutputVP volume retention. The separate news page’sJanuary2020 publication label is not the firmware release date. Retention still does not establish automatic insertion/assignment in every patch. |
+
+The [current exact-model support page](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/g3ng3xn-support/) still links the ©2017 parameter list,which predates OutputVP. Numeric endpoints,assignment scope andbypass/phones/tail/loop coverage remain unresolved. No download,update ordevice operation.
+
+
 ## G3X
 
 Original guitar multi-effects with expression; distinct from G3 and G3Xn. Manufacturer marks discontinued. Checked2026-10-17; partial. Bass/vocal suitability and ownership unestablished.

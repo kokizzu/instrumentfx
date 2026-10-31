@@ -132762,5 +132762,13 @@
     ],
     "finding": "Added recommended EV-1 expression connection separately from its audio-volume circuit.",
     "limits": "No additional processor,global endpoint,recall orcoverage claim."
+  },
+  "g3n_firmware_chronology_20261031": {
+    "sources": [
+      "https://zoomcorp.com/documents/3433/G3n_System_Firmware_Version_History_ver220_en.pdf",
+      "https://zoomcorp.com/documents/3492/G3n_System_Firmware_Version_History_ver220_jp.pdf"
+    ],
+    "finding": "Original bilingual histories agree on2.20 editor/USB fixes andApril2018 OutputVP introduction.",
+    "next": "Current linked parameter list remains2017;seek later original OutputVP parameter/insertion instructions. Global assignment remains unknown."
   }
 }
