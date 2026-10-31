@@ -130484,6 +130484,12 @@
       "finding": "Carry OutputVP v2 retained-volume qualification into external expression comparison; not merely original PDL Vol.",
       "unresolved": "Whether OutputVP requires insertion per destination patch; global range and bypass/phones/tails/loop coverage; installed firmware.",
       "documentation_recheck": "Current support links unchanged 2017 effects sheet; OutputVP insertion not resolved. FP02M accessory cable 1/4 to 1/4 confirmed, contacts/resistance/pinout not specified. Exact Bekas search only reproduces recorded sold-out item1165451985/26184677935."
+    },
+    "tone_master_assignment_limits_20261031": {
+      "source": "https://www.manualslib.com/manual/3210098/Fender-Tone-Master-Pro.html?page=24",
+      "revision": "Original firmware1.1.100, printed22",
+      "finding": "Five parameters per EXP and five blocks per toe; EXP1/2 analog versus MIDI EXP3/4; five named tapers and per-assignment heel/toe values.",
+      "limits": "Not global assignment or universal numeric endpoints; current firmware behavior untested."
     }
   },
   "gt_pro_global_patch_level_20261031": {
