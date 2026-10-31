@@ -468,11 +468,24 @@ Checked **2026-10-31**. The [dedicated Line6 I/O article](https://kb.line6.com/h
 
 No electrical measurement,hardware operation ordownload. These findings do not establish power draw,headphone minimum load orLCD specifications.
 
+
+### Helix Floor — 3.80 USB bypass and output-control boundaries
+
+Checked **2026-10-31** in the [manufacturer manual reproduction](https://manualzz.com/doc/81729721/line-6-helix-owner-s-manual): **3.80,RevG,90-20-0358-G,©2024**, matching the own-hosted title/revision. Original document text only;generated host summaries excluded. Selected sections were read,not the complete manual.
+
+| Field | Revision-qualified finding |
+|---|---|
+| USB / 3.80 direct playback | Pp68,73–74: playback **USB1/2 bypasses processing blocks**;default Multi monitoring reaches¼-inch,XLR andPhones. USB3/4,5/6,7/8 can instead enter processing through Input blocks. Therefore a preset Volume block does not control the direct1/2 stream;physical monitor controls are separate. |
+| Live / 3.80 hand-volume boundary | P68: selecting **Digital** for Volume Knob Controls leaves¼-inch andXLR outputs at **unity**. Headphones Monitor separately chooses Multi,¼-inch orXLR. This does not assign analog EXP globally. |
+| I/O / 3.80 Global EQ coverage | P66: Global EQ applies to¼-inch,XLR orboth,across presets/setlists;**never Send,Digital orUSB outputs**. A global process is not necessarily present on every output. Headphone EQ coverage is not explicitly certified here. |
+
+No download,device operation orvolume change. Power draw,factory occupancy andremaining LCD specifications stay open.
+
 <!-- comparison evidence ends -->
 
 ### Helix Floor provenance and gaps
 
-Own 3.80 manual URL returned **content too large,14,601,036bytes**;manual was not read or downloaded. Accessible original Rev A cheat sheet, Floor product page, manufacturer KB and older FAQ provide partial evidence. Indexed comparison PDF contains 96/268/32 claims; direct PDF failed, so indexed table evidence is explicit. Current 3.80 firmware index identifies November 19, 2024; this does not date all webpage figures. No LT specification fills missing Floor fields.
+Own 3.80 manual URL returned **content too large,14,601,036bytes**;manual was not read or downloaded at that initial checkpoint. Selected original3.80 sections are now readable through the qualified reproduction above;this is not a complete-manual review. Accessible original Rev A cheat sheet, Floor product page, manufacturer KB and older FAQ provide partial evidence. Indexed comparison PDF contains 96/268/32 claims; direct PDF failed, so indexed table evidence is explicit. Current 3.80 firmware index identifies November 19, 2024; this does not date all webpage figures. No LT specification fills missing Floor fields.
 
 Manufacturer [timeline][HF-T] explicitly says Platinum is identical except finish. Its separate cached **Rp25.000.000** sold-out [MR.GUITAR INDONESIA,shop605621869/item47400474099][HF-O3],Depok,2-month index with August 12 delivery, is variant provenance, not another model or an authenticated new price. Full condition, bundle and warranty remain unknown.
 

@@ -132858,5 +132858,18 @@
     "finding": "Dedicated own Floor/Rack/LT section establishes impedance-balanced TRS mains/sends andmode-specific return impedances. Corrected unsupported TS-main overview;preserved AUX47.5k versusFAQ10k conflict.",
     "scope": "Exact manufacturer group names Floor;separate HX Effects section not transferred. Article firmware/date basis unstated;no measurement.",
     "next": "Continue individual-LCD documentation andqualified Shopee hardware research;independent BOSS GT-Pro cursor unchanged."
+  },
+  "helix_floor_usb_output_scope_20261031": {
+    "source": "https://manualzz.com/doc/81729721/line-6-helix-owner-s-manual",
+    "revision": "3.80,RevG,90-20-0358-G,copyright2024;original document identity matched",
+    "pages": [
+      66,
+      68,
+      73,
+      74
+    ],
+    "finding": "Direct USB1/2 bypasses blocks;Digital hand-knob assignment leaves analog mains unity;Global EQ excludes Send/Digital/USB. Headphone monitoring distinguished fromglobal EXP.",
+    "limits": "Selected original sections only;no full manual review,download ordevice test. Power,factory occupancy andLCD physical gaps remain.",
+    "next": "Continue individual-LCD evidence andqualified Shopee hardware discovery;independent BOSS GT-Pro cursor preserved."
   }
 }
