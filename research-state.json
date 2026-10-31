@@ -137982,5 +137982,33 @@
     "remaining": "Global analog volume assignment, OutputVP range/recall/output coverage, physical panel corroboration and current exact-condition hardware offers remain unresolved.",
     "downloads": false,
     "hardware_test": false
+  },
+  "g3n_summary_reconciliation_20261101": {
+    "checked": "2026-11-01",
+    "basis": "Existing model-specific source rows: 2017 effect list, 2020 DSP chart, German manual save/swap, factory reset and looper-operation sections; January2019 manufacturer catalogue.",
+    "finding": "Removed stale unreviewed claims from the current processing, memory, practice and remaining-check summaries. No capability newly inferred, no active-count change.",
+    "preserved_previous_summary_wording": [
+      {
+        "previous": "Exact category/DSP totals still require review.",
+        "current": "Dated 2017/2020 category censuses and the 100-point DSP budget are documented below; current installed-library totals remain unverified."
+      },
+      {
+        "previous": "Three patches per bank;overwrite/restore behavior needs operation review.",
+        "current": "Three patches per bank. SAVE/SWAP, autosave prompts and All Initialize are documented below; selective factory recovery and write protection remain unverified."
+      },
+      {
+        "previous": "Tuner/bypass/mute;looper block cost,scenes/tails still ?.",
+        "current": "Tuner/bypass/mute. Looper DSP costs and one-/two-unit layouts are documented below; scenes and patch-change tails remain unverified."
+      },
+      {
+        "previous": "Remaining: complete footswitch/button inventory;",
+        "current": "Remaining: separate-button inventory and visual corroboration; the manufacturer catalogue already reports six footswitches;"
+      },
+      {
+        "previous": "factory overwrite/restore; synth-engine verification;",
+        "current": "selective factory recovery/write protection; synth-engine verification;"
+      }
+    ],
+    "remaining": "Current installed effects, separate buttons/visual census, selective factory recovery, global analog-volume assignment/range/recall/output coverage and qualified live offers remain open."
   }
 }
