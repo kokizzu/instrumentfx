@@ -134634,6 +134634,13 @@
     "control_snapshot_os113": {
       "controls": "Duo knobs multiple assignments; each footswitch one; snapshot list distinct from arbitrary multi-parameter mapping",
       "snapshot_scope": "Parameter states within pedalboard; save containing board after snapshot edits; WebGUI list cannot reorder; numerical capacity and tails/looper continuity unknown"
+    },
+    "processing": {
+      "architecture": "LV2 through JACK/mod-host",
+      "clock_conflict": "Developer fixed 912MHz versus technical A7 dual-core 1.0GHz; revision/rating reconciliation not proven",
+      "resources": "Technical 1GB RAM/8GB flash vs developer 4GB flash; no preset count inferred",
+      "concurrency": "Plugin-dependent CPU/RAM; OS1.13 optional256-frame buffer increases latency; fixed block count unknown",
+      "next": "Prefer independent LCD model discovery now; retain Duo placement, format compatibility, category census and exact Shopee gaps without repeating unchanged menu evidence"
     }
   }
 }

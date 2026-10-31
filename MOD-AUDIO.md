@@ -42,4 +42,10 @@ Checked **2026-11-01** against the manufacturer-hosted [WebGUI guide for OS 1.13
 
 Snapshots store parameter states inside a pedalboard and switch those states without reloading the board. After creating or editing a snapshot, the containing pedalboard must also be saved or the changes are lost. WebGUI snapshot lists cannot be reordered in the documented revision. No numerical snapshot capacity, guaranteed gapless switching, tail/looper continuity or global across-pedalboard assignment is established. Dwarf-specific on-device saving/reordering is not borrowed for Duo.
 
+### Duo — processing architecture and resource limits
+
+Checked **2026-11-01**. The [manufacturer-hosted developer reference](https://wiki.mod.audio/wiki/Developers) describes LV2 plugins hosted through JACK/mod-host, with a dual-core Cortex A7 running at a fixed **912 MHz**. The [own technical page](https://wiki.mod.audio/wiki/MOD_Duo_Technical_Specs) instead lists **dual-core ARM A7 1.0 GHz**, **1 GB RAM and 8 GB flash**; the developer reference separately lists **4 GB flash** as preserved above. Rated-versus-operating clock may explain the numbers, but neither document establishes that reconciliation or a hardware-revision mapping.
+
+The [OS 1.13 WebGUI guide](https://wiki.mod.audio/wiki/MOD_Web_GUI_User_Guide) says individual plugins consume different CPU/RAM resources. Its Advanced Audio Server option allows a **256-frame buffer** for heavier processing at increased latency; this is not a guaranteed effect-count increase. No fixed arbitrary-plugin concurrency, complete installed category census or preset capacity is established. Shared file-manager folders for IRs/models alone do not certify a particular Duo-compatible IR/NAM/capture plugin.
+
 Next:establish LCD-to-actuator placement fromprimary text orinspectable originalpanel,verify complete profile andexact hardware offers before active admission. No files,software,firmware,plugins ordependencies downloaded;no device operation.
