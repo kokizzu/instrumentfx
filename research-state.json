@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "FM3 MKII Turbo: current exact-model manual applicability and global output-volume range, analog recall and output coverage. HX expression bypass now qualified; unresolved global target remains unknown.",
+      "next_check": "PLETHORA X5: remaining global analog volume scope and exact manufacturer footprint-axis evidence; preserve documented Board scope and axis conflict if unresolved.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133171,5 +133171,14 @@
     "page": 37,
     "finding": "Added expression block-bypass threshold/behavior qualification; not global-volume proof.",
     "access": "Original manufacturer text; no download or hardware test."
+  },
+  "fm3_tuner_mute_20261101": {
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+    "pages": [
+      93,
+      96
+    ],
+    "scope": "7.x manual expressly includes MKII Turbo; tuner mute and footswitch indication documented, current13 equivalence untested.",
+    "global_volume_gaps": "Endpoints, analog recall, bypass and separate USB playback coverage remain unresolved."
   }
 }
