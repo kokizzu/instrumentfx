@@ -3579,6 +3579,18 @@ Checked **2026-10-31** against [manufacturer-authored manual pp59–61][ZG5-R2];
 Built-in treadle keeps G5 outside the no-treadle shortlist. Headphone, bypass and tail/looper coverage of volume mappings remain unresolved. No device test or download.
 
 
+### G5 — loop retention, tempo and rhythm count
+
+Checked **2026-10-31** in [manufacturer-authored manual reproduction](https://www.manuallib.com/download/pdf1/ZOOM-G5-MANUAL.PDF), printed pp28–31,63. Identity corroboration: G5 Z-Pedal/12AX7 architecture,297patches,fourLCDs,145types and470W×190D×90Hmm match the established manual edition. Its two final patch-list pages are appended material, not extra operation-manual pages.
+
+| Field | Documented behavior / qualification |
+|---|---|
+| Looper / retention | **Patch selection is available during loop playback**; returning to Home does not erase the loop. **Power-off erases it**. This is original G5 evidence; do not transfer B3n patch-change erasure. Continuous spillover of every preset effect remains unverified. |
+| Looper / timing and levels | **1.5–60seconds**,maximum30 with Undo. Changing **TIME or tempo erases the loop**. Tempo40–250 is shared by effects,rhythm andlooper; rhythm-assisted recording uses a precount and quantizes the loop endpoint. Loop and rhythm each have separate0–100 level controls,not documented global analog-EXP roles. |
+| Drums / document census | Printedp63 lists **41 numbered rhythm patterns**,including metronome entries. This counts documented choices,not simultaneous drum parts or user-import capability. |
+
+No local download, visual inspection or hardware test.
+
 ## G5n
 
 Reviewed **2026-10-17** after fresh exact Shopee hardware discovery. New catalogue record, no ownership assertion. Discontinued according to Zoom; reseller offers can remain historical. Partial: no software, firmware, manual file or dependency downloaded or installed. Official manual evidence below is search-indexed text, not a fresh PDF/image inspection.

@@ -131595,5 +131595,20 @@
     ],
     "remaining": "Capacity127 versus unlimited wording, factory-filled count, recorded-loop persistence, current-firmware behavior and global analog volume remain unresolved",
     "next": "Continue individual LCD models first; preserve independent BOSS GT-Pro cursor"
+  },
+  "g5_loop_rhythm_retention_20261031": {
+    "checked": "2026-10-31",
+    "record": "ZOOM.md#g5--loop-retention-tempo-and-rhythm-count",
+    "source": "https://www.manuallib.com/download/pdf1/ZOOM-G5-MANUAL.PDF",
+    "identity": "G5 Z-Pedal/12AX7;297patches;4LCD;145types;470x190x90mm; printedpp28–31,63",
+    "findings": [
+      "Patch selection during loop playback and Home return supported;power-off erases",
+      "TIME/tempo changes erase loop;40–250 shared tempo",
+      "Rhythm precount and loop-end quantization",
+      "Separate0–100 loop/rhythm levels",
+      "41 numbered rhythm patterns including metronomes"
+    ],
+    "remaining": "Global EXP coverage, effect spillover, full physical control count, current OS and condition-confirmed offers unresolved",
+    "next": "Continue individual LCD models first; preserve independent BOSS GT-Pro cursor"
   }
 }
