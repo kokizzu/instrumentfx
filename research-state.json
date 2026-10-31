@@ -130427,6 +130427,15 @@
       "printed_page": 50,
       "finding": "Independent EXP1/EXP2 Normal/Invert polarity and per-snapshot/per-preset/Global position recall. Neither establishes global Volume assignment, universal endpoints, wiring or resistance.",
       "next": "Seek exact supported pedal wiring/resistance and revision-qualified Volume model endpoints; retain unknown all-preset scope and tail/looper attenuation."
+    },
+    "hx_effects_supported_pedal": {
+      "checked": "2026-10-31",
+      "sources": [
+        "https://kb.line6.com/mission-expression-pedals-faq",
+        "https://kb.line6.com/helix-hx-and-external-expression-pedal-usage"
+      ],
+      "supported": "EP1-L6 explicitly lists HX Effects: 10k ohm linear pot, single TS cable. General Helix/HX note also names EX-1.",
+      "limits": "Supported combination only, not full input resistance tolerance/internal schematic or compatibility of unrelated pedals. No global volume assignment, endpoints or physical test established."
     }
   },
   "gt_pro_global_patch_level_20261031": {
