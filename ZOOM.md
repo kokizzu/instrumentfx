@@ -3040,11 +3040,11 @@ Original guitar multi-effects, distinct from G3X and G3n. Checked 2026-10-17; pa
 |---|---|---|
 | Expression / controls K/F/B | External FP01/FP02 expression or FS01 footswitch via CONTROL IN. Built-in pedal belongs to G3X; G3 toe N/A. Three main footswitches; complete knob/button counts pending panel verification. | [Manual][G3-M] pp4–5; [Product][G3-P] |
 | External control assignments | Per-patch TOTAL settings. FP01/FP02 controls volume/effect parameters; OUTPUT VOL excludes rhythm/looper level. Manual min/max can invert response; AUTO ASSIGN can control several supported effects together and fixes their ranges. FS01 supports effect-specific functions, bypass/mute, tap tempo or no assignment; assigned effect must be on. | [Current official manual][G3-MC] pp16–19 |
-| Display | Three backlit dot-matrix LCDs, each paired with its own effect footswitch and knobs, confirmed again on the exact G3 product page2026-10-31. Each has contrast adjustment; backlight dimming reduces consumption. Published diagonal, color depth and touch remain unverified. | [Product][G3-P]; [current manual][G3-MC] pp22–23 |
+| Display | **Three LCDs**, explicitly specified by the shared manual p59. The [current exact G3 product page](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3/) confirms three displays with dedicated switches/knobs but does not independently name LCD technology. Earlier backlit/dot-matrix description remains historical source evidence; contrast/dimming are independently documented below. Diagonal, color depth and touch remain unverified. | [Product][G3-P]; [current manual][G3-MC] pp22–23 |
 | Display / backlight and individual contrast | Shared manufacturer manual printedpp22–23: backlight setting offers **ON or1–30seconds** before dimming;left,center and right displays have separate contrast controls. Do not equate timed dimming with the25-minute ECO standby. Contrast numeric range/default and LCD diagonal/color/touch remain unverified. | [Own shared manual][G3-MC] pp22–23;rechecked2026-10-31 |
 | Dimensions / weight | 234 W ×170 D ×54 H mm; 1.2 kg excluding batteries. Large footprint. | [Japanese specifications][G3-J] |
 | Simultaneous effects | Up to six with firmware **2.00 or later** (June2012), freely ordered, DSP-limited; overflow bypasses an effect. Off effects still consume DSP. Multiple amp models simultaneously are prohibited per FAQ. | [Manual][G3-M] p10; [FAQ][G3-Q]; [Firmware history][G3-F] |
-| Categories / choices | 116 total: 94 effects plus22 amp/cab models in later product description. Version2.00 added amp modeling and an Auto Save ON/OFF setting. Version2.10 (May2013) fixed a rhythm hi-hat/tempo issue and added Windows8/USB3.0 support. Category subtotals and earlier library counts unresolved; USB3.0 host support does not establish USB3 transfer speed. | [Product][G3-P]; [Firmware history][G3-F] |
+| Categories / choices | 116 total: 94 effects plus22 amp/cab models in later product description. Version2.00 expanded the modeling library and added an Auto Save ON/OFF setting. Version2.10 (May2013) fixed a rhythm hi-hat/tempo issue and added Windows8/USB3.0 support. The [complete numbered census](#g3--complete-numbered-model-census) below resolves editorial category subtotals for the shared manual’s116 models; earlier library counts and installed revision remain unresolved. USB3.0 host support does not establish USB3 transfer speed. | [Product][G3-P]; [Firmware history][G3-F] |
 | Presets / memory | 100 editable memories (10×10), factory-filled; not100 factory plus100 additional user slots. Auto Save and Store/Swap. | [Product][G3-P] |
 | Synth / acoustic | MonoSynth detects single-note pitch; Aco.Sim transforms electric-guitar tone toward acoustic. Separate algorithms, not an acoustic preamp claim. | [Manual][G3-M] pp45,52 |
 | I/O | Quarter-inch mono INPUT with active/passive selection; mono R and stereo L/MONO/PHONES outputs; balanced XLR with PRE/POST and ground lift; CONTROL IN, USB and DC. USB/control connector subtype pending. | [Product][G3-P]; [Manual specifications][G3-S] |
@@ -3139,7 +3139,7 @@ Loop playback level and rhythm level each have a separate **0–100** setting. R
 
 Multi-model Hope Music listing G3/G3X/G3XN, shop703817770/item11099808237, showed Rp1,899,000–2,699,000 across five unresolved variations. Not assigned to G3. [Listing](https://shopee.co.id/Efek-Zoom-G3-G3X-G3XN-i.703817770.11099808237).
 
-Remaining: physical controls, screen details, revision/category counts, full connector formats, current software, imports/MIDI, scenes/trails and qualified current used/new offers. Original G3-only manual retrieval failed; shared G3/G3X manual is the inspected primary text.
+Remaining: physical controls, screen details, earlier/installed revision census, full connector formats, current software, imports/MIDI, scenes/trails and qualified current used/new offers. The shared-manual116-model grouping above is established; it does not verify the offered unit’s installed library. Original G3-only manual retrieval failed; shared G3/G3X manual is the inspected primary text.
 
 ### G3 — original-manual revision and pickup-input clarification
 
@@ -3157,6 +3157,8 @@ The [manufacturer shared manual][G3-MC], printed p5, explicitly specifies **PASS
 [G3-F]: https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G3_v2.10_E.pdf
 
 [G3-MC]: https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf
+
+Current primary-product endpoint checked2026-10-31: [exact original G3](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3/). The older node49 link is retained for provenance; it timed out on this pass. Connector subtypes and diagram-dependent control totals remain unknown.
 
 ## G3n
 

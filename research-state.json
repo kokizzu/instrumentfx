@@ -132039,5 +132039,18 @@
     "record": "ZOOM.md#g3--exact-automatic-pedal-mappings-and-separate-loop-level",
     "qualification": "Named per-patch mappings; not global-volume assignment. No hardware test.",
     "next": "Continue LCD-first inventory/market gaps; independent GT-Pro cursor preserved"
+  },
+  "g3_overview_reconciliation_20261031": {
+    "sources": [
+      "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3/",
+      "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf"
+    ],
+    "superseded_summary_rows": [
+      "| Display | Three backlit dot-matrix LCDs, each paired with its own effect footswitch and knobs, confirmed again on the exact G3 product page2026-10-31. Each has contrast adjustment; backlight dimming reduces consumption. Published diagonal, color depth and touch remain unverified. | [Product][G3-P]; [current manual][G3-MC] pp22–23 |",
+      "| Categories / choices | 116 total: 94 effects plus22 amp/cab models in later product description. Version2.00 added amp modeling and an Auto Save ON/OFF setting. Version2.10 (May2013) fixed a rhythm hi-hat/tempo issue and added Windows8/USB3.0 support. Category subtotals and earlier library counts unresolved; USB3.0 host support does not establish USB3 transfer speed. | [Product][G3-P]; [Firmware history][G3-F] |",
+      "Remaining: physical controls, screen details, revision/category counts, full connector formats, current software, imports/MIDI, scenes/trails and qualified current used/new offers. Original G3-only manual retrieval failed; shared G3/G3X manual is the inspected primary text."
+    ],
+    "correction": "Current overview now reflects saved116-model census and separates manual LCD proof from current product display wording; no new model or physical count",
+    "next": "Continue LCD-first unresolved model fields and marketplace discovery; independent GT-Pro cursor retained"
   }
 }
