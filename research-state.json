@@ -130926,5 +130926,25 @@
       "QualifiedShopeeprocessoroffer;adapter/M9resultsexcluded"
     ],
     "admission": "Partialleadoutsideactivecounts;notfullyverified"
+  },
+  "g3_bank_level_scope_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf",
+    "printed_pages": [
+      13,
+      16,
+      20,
+      27
+    ],
+    "findings": [
+      "Two-switch bank change can trigger earlier switch and affect sound",
+      "Patch LEVEL and global MASTER both0–120;not EXP endpoints",
+      "Keys above displays provide tuner feedback"
+    ],
+    "remaining": [
+      "Analog pedal numeric endpoints and startup recall",
+      "Full physical controls and connector subtypes",
+      "Bypass/headphone/tail coverage"
+    ]
   }
 }
