@@ -132684,5 +132684,32 @@
     "prior_capability_row": "| [Neural DSP Nano Cortex](NEURAL-DSP.md#nano-cortex) | Yes / TRS EXP, shared with MIDI | 144 ×103 mm; yes, existing manufacturer evidence | **Unknown; official target lists conflict**, no across-preset guarantee |LEVEL in manual; 0–100% adjustable/reversible; latching toe supported, momentary needs Latching Emulation; position unverified;2.2.0 fixes preset-reload volume rise/knob-induced max;held-pedal recall still unverified | EXP coverage unresolved; capture-calibration HP control is not performance proof; 2-Preset Mode FS II global bypass permits delay/reverb Trails; Trails has no effect in4-Preset Mode | Yes, 3.5 mm | Assigned A/B pairs; general down/up not established |",
     "limits": "Global assignment remains unverified; headphone power is not a minimum impedance or EXP-coverage guarantee.",
     "next": "Retain LCD-first priority. Nano LEVEL/global-scope resolution still needs firmware/app-qualified manufacturer clarification; avoid repeating unchanged manual/setup conflict as a new finding. Independent BOSS GT-Pro cursor unchanged."
+  },
+  "ampero_mini_document_count_reconciliation_20261031": {
+    "checked": "2026-10-31",
+    "model": "Hotone Ampero Mini MP-50",
+    "source": "https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf",
+    "revision": "FirmwareV2.2; existing complete category tables pp28–47, specificationp52",
+    "counts": {
+      "combined_fx": 59,
+      "amp": 55,
+      "cabinet": 50,
+      "factory_acoustic_ir": 10,
+      "NR": 2,
+      "EQ": 7,
+      "delay": 17,
+      "reverb": 11
+    },
+    "sum": 211,
+    "repeated_NR_entries": [
+      "Smart Gate",
+      "Fast Gate"
+    ],
+    "after_counting_repeated_NR_once": 209,
+    "scope": "Document selection entries, including factory cabinet/acousticIR content. Excludes userIR/SoundClone storage. Does not count distinct DSP implementations or establish installed current library.",
+    "previous_processing": "| Processing | **9 simultaneous modules**, subject to processor overload limits. V2.2 says **200+ effects**; older 199 remains historical. V2.2 tables: NR2, EQ7, DLY17, RVB11; CAB50 factory cabinets +10 factory acoustic IRs, with10 user slots separately. AMP55 named choices (11 Clean/19 Drive/18 HiGain/5 Bass/2 Acoustic); Combined FX table59 (8 Dynamic/17 Frequency/17 OD-DS/17 Modulation); per-slot restrictions remain qualified. V2.2 adds Precise Attack and Match30 Clean; do not derive a new total by adding to199. |",
+    "previous_editor_USB": "| Editor / USB audio | **Ampero Editor1.6.0 for Windows/Mac explicitly supports Mini firmware2.2** in the [current manufacturer index](https://www.hotone.com/support/3),checked2026-10-31. This is the original Ampero Editor family,not the separate Ampero II software. Current OS minima/architecture remain unverified. Windows/macOS editor; mobile audio is not a mobile editor. Windows recording requires driver; macOS plug-and-play claim lacks current version guarantee. L/R recording independently Dry/Effect; gain−20…+20 dB, monitor−20…+6 dB. Complete stream matrix/formats remain unverified. |",
+    "limits": "Global EXP override, factory defaults, held-pedal and output/bypass/tail/loop coverage remain unresolved; USB class does not prove USB bus power or every sample format.",
+    "next": "LCD-first priority retained; Mini global scope requires stronger manufacturer evidence than calibration or global-menu boilerplate. Independent BOSS GT-Pro cursor unchanged."
   }
 }

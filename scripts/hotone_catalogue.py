@@ -22,4 +22,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(hotone): verify Mini editor family and global menu boundary'))
+    print(git('commit','-m','research(hotone): reconcile Mini V2.2 document choice totals'))
