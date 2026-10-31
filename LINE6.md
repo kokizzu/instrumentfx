@@ -430,6 +430,17 @@ Checked **2026-10-17** against selected pages of the live **Rev E / firmware1.4*
 | Separate indexed XL hardware ask; service unavailable | **Rp41.220.000** | [Rockpizz_Batubulan,shop440269597/item42029627291](https://shopee.co.id/Line-6-Helix-Stadium-XL-Floor-Amp-And-Effects-Processor-i.440269597.42029627291),Kab.Gianyar. Checked2026-10-31 via four-month-old search snapshot: **Layanan Tidak Tersedia**. Direct reopening cache miss. Condition,variant,bundle,microSD,warranty,shipping/tax and checkout unknown; not an available new-price floor. |
 | Verified used offer | **?** | Not established |
 | Verified new offer | **?** | Sale condition unverified |
+
+### Stadium XL — return sharing, monitoring and output routing
+
+Checked 2026-10-31 against the live manufacturer v1.4 manual. Its navigation still shows earlier revision labels; these are documentation findings, not a test of installed firmware.
+
+| Field | Exact XL qualification |
+|---|---|
+| I/O / Aux and shared returns | XL **Returns3/4** can become always-on Aux inputs, unprocessed by the preset. The smaller Stadium uses Returns1/2; do not transfer that numbering. A return already used by an FX Loop/Return block is unavailable as a separate Input source. Repeated Send instances are allowed, but a particular FX Loop/Return can have only one instance per preset. [Rear panel](https://manuals.line6.com/en/helix-stadium/live/rear-panel);[routing manual](https://manuals.line6.com/en/helix-stadium/live/input-output-and-mix-blocks). |
+| USB audio / monitoring versus processing | Computer playback **USB1/2 bypasses preset blocks** and is not a selectable Input source;USB3/4,5/6,7/8 are selectable stereo sources. Recording outputs7/8 are dedicated DI,not selectable Output blocks. Thus a preset Volume block does not establish attenuation of all computer playback. [Routing manual](https://manuals.line6.com/en/helix-stadium/live/input-output-and-mix-blocks). |
+| Routing / matrix and direct outputs | Matrix routes allow independent mixes for quarter-inch,XLR andphones. The respective Direct output choices bypass that matrix;separate physical outputs do not imply one universal mix or volume-control scope. [Routing manual](https://manuals.line6.com/en/helix-stadium/live/input-output-and-mix-blocks). |
+
 <!-- comparison evidence ends -->
 
 Recheck2026-10-31: the original Denpasar offer remainsRp41.220.000, but search reports a six-day crawl/delivery29October–1November while direct reopening returns three-month-old text/delivery18July. These are conflicting snapshots,not verified current stock; the original dated observations above remain intact.

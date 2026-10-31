@@ -130946,5 +130946,22 @@
       "Full physical controls and connector subtypes",
       "Bypass/headphone/tail coverage"
     ]
+  },
+  "stadium_xl_monitoring_scope_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://manuals.line6.com/en/helix-stadium/live/input-output-and-mix-blocks",
+    "rear_source": "https://manuals.line6.com/en/helix-stadium/live/rear-panel",
+    "findings": [
+      "XLReturns3/4Auxunprocessed;smallerStadiumnumberingnottransferred",
+      "Return/FXLoopinputexclusivity;repeatedSendsallowed",
+      "USBplayback1/2bypassespresetblocks;7/8recorddedicatedDI",
+      "Matrixindependentquarter-inch/XLR/phonesmixes;Directbypassesmatrix"
+    ],
+    "remaining": [
+      "Powerlabelandmeasuredoperatinglimits",
+      "Completeoutput/EXPcoverage",
+      "Condition-qualifiedexactShopeeoffers"
+    ],
+    "lcd_priority": "LCDgapsremainopen;secondaryOLEDmodelcheckedafterLCDsource/offerrechecks"
   }
 }
