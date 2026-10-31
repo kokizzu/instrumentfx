@@ -129671,6 +129671,13 @@
       "root": "FRACTAL-AUDIO.md#fm3--block-choice-and-instance-table",
       "rows": 36,
       "remaining": "Current firmware13 census and CPU concurrency unresolved."
+    },
+    "g3n_outputvp": {
+      "checked": "2026-10-31",
+      "source": "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G5n_G3n_G3Xn_EffectsList_1.pdf",
+      "revision": "2020,Z2I-2556-04,p25",
+      "finding": "Output VP product-output control/retention documented;no numeric parameters.",
+      "remaining": "Universal assignment,coverage,wiring unverified;18PEDAL entries not installed census."
     }
   }
 }
