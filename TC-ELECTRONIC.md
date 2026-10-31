@@ -491,6 +491,17 @@ Its technical table independently corroborates **True Bypass,1MΩ inputs,Mini-B 
 
 Exact Shopee recheck:NEO item158235298/28021818540 remainsRp6.180.000,four-month cache;Gelora306155985/23943061836 remainsRp7.508.100,six-month cache andservice unavailable. No new condition/stock or checkout verification;older observations retained.
 
+### PLETHORA X3 — V1.0 guide and slot indicators
+
+Checked **2026-10-31** in [manufacturer-authored V1.0 guide reproduction](https://manuals.plus/m/d41acf9318fa84fe8b55db29394cc4ac6e7b6acc088d45f7bc1b4a3be0dd45db),printedpp18–23. Exact X3 cover,13 numbered controls,127Board/75TonePrint architecture,connector list and176.53W×116.75Dmm specifications match the earlier manufacturer guide;original text only,not generated summaries. Host pagination differs from printed numbering.
+
+| Field | Revision-qualified evidence / limits |
+|---|---|
+| Display / LCD versus LEDs | V1.0 explicitly names LCD displays with separate indicator LEDs. In EDIT,the LED identifies the selected slot:flashing means bypassed,solid means engaged. In PLAY,it indicates effect on/off or secondary-function status such as tap tempo. These are LED behaviors,not proof of color LCDs. |
+| Controls / mode dependence | EFFECT knob has no PLAY function;PARAMETER knobs require Board HOT KNOBZ assignment there. EDIT changes auto-save,PLAY HOT KNOB tweaks do not. These corroborate the earlier exception;no extra knobs/screens are added. |
+
+This supplements the earlier inaccessible-V1.0 observation;it does not establish all V0.0/V1.0 differences,current firmware equivalence,looper duration oranalog EXP. The40s stereo/80s mono release-note entry belongs to historical **PX5-only1.2.18**,not independent X3 evidence. No download ordevice test.
+
 <!-- comparison evidence ends -->
 
 Checked2026-10-17; historical indexed asks, not current stock/checkout. Condition,variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers unresolved. No download or visual inspection claimed.

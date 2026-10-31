@@ -131423,5 +131423,16 @@
     "remaining": "Numeric attenuation endpoints, global analog assignment,tail/looper/phones/USB EXP coverage,IR format/capacity andcurrent category census",
     "source_access": "Current manufacturer manual/guideH PDFs unsupported content-type document/pdf. No downloads;previous failed-access qualifications retained.",
     "next": "LCD footswitch priority continues with Zoom/TC unresolved fields; independent BOSS GT-Pro cursor retained."
+  },
+  "plethora_x3_v1_guide_20261031": {
+    "checked": "2026-10-31",
+    "record": "TC-ELECTRONIC.md#plethora-x3--v10-guide-and-slot-indicators",
+    "source": "https://manuals.plus/m/d41acf9318fa84fe8b55db29394cc4ac6e7b6acc088d45f7bc1b4a3be0dd45db",
+    "basis": "Manufacturer-authored V1.0 original text;exact cover,13controls,architecture,connectors anddimensions match earlier guide;not generated summary",
+    "new_qualification": "EDIT selected-slot LED flashes bypassed/solid engaged;PLAY shows state orsecondary function. LCD color/touch/diagonal remain unverified.",
+    "revision_gap": "Readable V1.0 now supplements previously unavailable endpoint;full revision diff unverified",
+    "rejected_transfer": "40s stereo/80s mono found inPX5-only1.2.18 historical release section,not adopted forX3",
+    "remaining": "Current full effect census,looper duration,screen specifications,factory content,USB power/audio andcondition-qualifiedIDR",
+    "next": "Continue individual-LCD model gaps;independent BOSS GT-Pro cursor retained."
   }
 }

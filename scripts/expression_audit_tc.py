@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff', '--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(tc): qualify X5 screen colors insert slots and loop sync'))
+    print(git('commit','-m','research(tc): verify X3 V1 guide and slot LED distinctions'))
