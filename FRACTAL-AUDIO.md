@@ -897,6 +897,20 @@ Checked **2026-11-01**, [manufacturer3.x manual,August2022,pp10–11,39,48](http
 
 No downloads ordevice operation. This partial profile remains outside active counts;headphone socket andpreset down/up must remain separately tracked.
 
+### FM9 original — connector inventory and USB boundaries
+
+Checked **2026-11-01**, [manufacturer3.x Original/Turbo manual,pp21–26](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). Named inventory for this documented revision,not device inspection.
+
+| Field | Documented scope |
+|---|---|
+| Inputs | Mono unbalanced¼-inch Input1 explicitly accepts guitar/bass. Inputs2/3 are separate stereo balanced¼-inch pairs forline,return orinstrument use. |
+| Outputs / phones | Output1:balanced stereo XLR plus simultaneous same-signal¼-inch Humbuster pair. Output2:balanced stereo XLR. Output3:stereo¼-inch Humbuster;unity gain atfully clockwise. Dedicated¼-inch stereo headphones monitorOutput1. |
+| Other connectors | Three pedal/switch jacks;FASLINKII forFC controllers,notMFC-101;coaxial RCA S/PDIF in/out fixed48kHz withinternal/external sync;MIDI In/Out-Thru;USB;grounded AC inlet/switch. USB subtype andphantom tolerance unknown. |
+| USB / MIDI | **8×8 audio** plus **DAW-visible MIDI-over-USB**,unlike originalFM3. Windows requires driver;Mac doesnot. These are USB requirements,not current editor requirements. |
+| USB / verified routing | pp25–26:record1/2=processed main output;DI tutorial records monoInput5. Reamping selectsUSB5/6 asdigital source andInput1=DIGITAL;restoreANALOG afterward. Foot-controller actions are notrecorded inthat DI. Complete remaining channel map notassigned fromflattened diagram. |
+
+Global pedal attenuation ofUSB playback,phones,bypass andrecorded loops remains unverified. No downloads,installation ordevice operation. This remains a partial lead outside active counts.
+
 ## VP4
 
 Admitted 2026-10-28 as a **partial model**, not fully verified. Own manufacturer product/manual establish effects-only guitar/bass multi-effects. All earlier lead-stage bodies and anchors remain below; their outside-inventory status is historical and superseded only by this admission. No ownership or live-market availability inferred.

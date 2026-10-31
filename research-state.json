@@ -134278,7 +134278,18 @@
     "global_volume": "DirectlocalPEDAL1/2/3→Input/Output1/2/3;no per-presetblocks",
     "memory": "512editable;eightScenes;factoryfilledunknown",
     "cpu": "Recommendedmeter~80%;dedicatedAmp/Delay/Reverb barelyreflected;notallDSP capacity",
-    "next": "Complete exact originalFM9 I/O/USB andIR/editor/looper/category evidence;retain unknown global endpoints/recall/outputcoverage andexactrevisionmarketproof.",
+    "next": "Complete exact originalFM9 IR/editor/looper anddated category-instance census;keepglobalvolume coverage andexactrevisionmarket evidence open.",
+    "downloads": false
+  },
+  "fm9_original_io_usb_20261101": {
+    "checked": "2026-11-01",
+    "active": false,
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "revision": "3.x Original/Turbo August2022,pp21–26",
+    "root": "FRACTAL-AUDIO.md#fm9-original--connector-inventory-and-usb-boundaries",
+    "scope": "Named connectorinventory;explicitnormalguitar/bass anddedicatedphonesOut1;8x8audio+DAWUSBMIDI",
+    "routing_limit": "Processedrecord1/2 andDIrecord5/reampUSB5/6 supportedbyprose;otherchannelnumbersnotassignedfromflatteneddiagram",
+    "next": "Complete exact originalFM9 IR/editor/looper anddated category-instance census;keepglobalvolume coverage andexactrevisionmarket evidence open.",
     "downloads": false
   }
 }
