@@ -129683,6 +129683,42 @@
             "Clear DRV",
             "SpLoPre",
             "BaDjntPre"
+          ],
+          "Amp": [
+            "MS 800",
+            "MS 1959",
+            "MS 45os",
+            "FD TWNR",
+            "FD B-MAN",
+            "FD DLXR",
+            "FD MASTER",
+            "UK 30A",
+            "BG MK1",
+            "BG MK3",
+            "XtasyBlue",
+            "HW 100",
+            "Recti ORG",
+            "ORG120",
+            "DZ DRV",
+            "MATCH30",
+            "KRAMPUS",
+            "REDLOOM",
+            "VELVET",
+            "MUDDY",
+            "7 HEAVEN",
+            "POLLEX",
+            "SteamRoll",
+            "AMPG SVT",
+            "BMAN100",
+            "SMR400",
+            "AG 750",
+            "TE400SMX",
+            "AC 370",
+            "Mini MkB",
+            "EBH360",
+            "FlipTop",
+            "SUN CB",
+            "Monotone"
           ]
         },
         "counts": {
@@ -129694,10 +129730,11 @@
           "SFX": 9,
           "Filter": 25,
           "Dynamics": 15,
-          "Drive": 45
+          "Drive": 45,
+          "Amp": 34
         },
         "finding": "PDLVolMinMax0–100curvesAB;OutputVPrecallnotuniversalassignment;monopitchsingle-note.",
-        "remaining": "Amp,Cabinet,Modulation still need complete V2 counts;postV2currentinstalledinventory and otherprofilegaps remainopen.",
+        "remaining": "Cabinet and Modulation still need complete V2 counts;postV2currentinventory and otherprofilegaps remainopen.",
         "drive_pages": {
           "first_printed_page": 8,
           "subtotals": [
@@ -129708,6 +129745,30 @@
             7,
             7,
             4
+          ]
+        },
+        "amp_pages": {
+          "first_printed_page": 15,
+          "subtotals": [
+            5,
+            5,
+            5,
+            6,
+            5,
+            5,
+            3
+          ],
+          "explicit_bass_entries": [
+            "AMPG SVT",
+            "BMAN100",
+            "SMR400",
+            "AG 750",
+            "TE400SMX",
+            "AC 370",
+            "Mini MkB",
+            "EBH360",
+            "FlipTop",
+            "SUN CB"
           ]
         }
       }
