@@ -130840,5 +130840,23 @@
       "OutputVP global assignment not established"
     ],
     "supplemental_source": "https://zoomcorp.com/en/guitarlab-news/violetdst-update/"
+  },
+  "fm9_looper_scope_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "June2023 pp50–51;FM9 explicitly included",
+    "findings": [
+      "Stereo;120second maximum",
+      "Undo duringplayback removes/restoreslatestlayer;while stopped erasesall",
+      "Playback,Dry,Overdublevelsseparate;0dBolderlayerdecaycanstillclip",
+      "Playbackfiltersdonotfilterrecording"
+    ],
+    "remaining": [
+      "CurrentMKII/firmware12 equivalence",
+      "Speed-dependent duration,preset/power retention",
+      "GlobalanalogEXPcoverage ofrecordedloops,phones,USB"
+    ],
+    "market": "RecheckedexactHurtrock item25331147281:Rp44.395.000 cached lastmonth;condition/stocknotverified",
+    "next": "LCDfirst remains FM9 currentmanual/physicalspecs,Fender currentguidecensus;independentBOSSGTProcursorpreserved"
   }
 }

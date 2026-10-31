@@ -384,6 +384,16 @@ Product text also permits recording Input1 DI and either stereo auxiliary input,
 
 Exact Hurtrock Shopee item rechecked2026-10-31:search still showsRp44.395.000 in a last-month cache;direct page remains JavaScript-only. This corroborates the historical ask,not current stock,condition or checkout price.
 
+### FM9 — historical stereo-looper and level boundaries
+
+Checked2026-10-31 against [manufacturer Blocks Guide](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf),June2023,printedpp50–51. It explicitly includes FM9;this is historical documentation,not current MKII/firmware12 verification.
+
+| Field | Evidence / qualification |
+|---|---|
+| Looper / stereo and editing | Stereo looper,**120seconds maximum for FM9**,with reverse,trim,threshold recording,beat quantization andundo/redo of the latest layer during playback. **Undo while stopped erases all loop data**;ordinary Erase is available only while stopped. No inferred half-speed duration,nonvolatile storage orpreset-change retention. [Guide pp50–51](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). |
+| Looper / level and filter boundaries | Playback Level controls recorded-loop output;Dry Level controls signal passing through;Overdub Level attenuates older layers during overdubbing. **0dB prevents deliberate layer decay,but accumulated layers can clip**. Low/High Cut filter playback only,not newly recorded material. These are block controls,not proof ofglobal analog-pedal attenuation ofloops,phones orUSB. [Guide p51](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). |
+
+
 ## VP4
 
 Admitted 2026-10-28 as a **partial model**, not fully verified. Own manufacturer product/manual establish effects-only guitar/bass multi-effects. All earlier lead-stage bodies and anchors remain below; their outside-inventory status is historical and superseded only by this admission. No ownership or live-market availability inferred.
