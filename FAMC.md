@@ -42,3 +42,15 @@ Checked **2026-10-31**;distinct from original Liquid Foot Pro and12+. [Manufactu
 [Exact Pro+ used-hardware seller](https://www.amusicstoreonmainstreet.com/shop/Electronics/Effects-PedalsProcessors/p/Used-FAMC-Liquid-Foot-Series-Pro-MIDI-Foot-Contoller.htm) claims **24 switches with individual multicolored LCDs**,plus main LCD. Treat count,placement andtechnology as **seller leads**,not manufacturer verification. Its supply/editor claims are likewise unadopted. No foreign price converted to IDR.
 
 Manufacturer product endpoint was inaccessible;targeted Shopee Indonesia searches found no qualified exact offer. This does not establish market absence. Remaining:primary exact-model screen census,dimensions/weight,power,complete ports,current editor/firmware andcondition-qualified IDR hardware offers. Controller only;outside active processor/brand counts andconfirmed-LCD table. No local download ordevice test.
+
+### Liquid Foot Pro+ — shared-guide capacity and page-count conflict
+
+Checked **2026-11-01** in the [manufacturer-authored LF+ series guide reproduction](https://manualzz.com/doc/27981410/famc-pro--user-manual), printed pp5–7,18. FAMC website references, LF+ family naming and the explicit Pro+ interface subsection corroborate identity. This is an undated shared guide, not an exact Pro+ hardware specification sheet or current firmware test.
+
+| Field | Historical guide evidence / qualification |
+|---|---|
+| Memory / page conflict | Introduction p5 says **50 pages**; feature summary p7 says **60 pages**. Preserve both; no firmware or model mapping is established. |
+| Controls / logical versus physical buttons | Page definitions address up to **60 button positions**, each with **two functions (120 function positions)**. The guide expressly says the controller itself does not have60 switches: MIDI, expanders and other LF+ units extend access. This is not a physical Pro+ switch/LCD count. |
+| Memory / controller libraries | Summary p7 lists **384 presets,254 songs,128 setlists (up to60 songs each),180 IA slots,254 stored SysEx messages (16bytes each, linkable)**. Songs group up to24 presets. These are MIDI-controller structures, not audio presets, simultaneous effects, factory occupancy or a verified current capacity. |
+
+Exact Pro+ LCD census and physical specifications remain unresolved. The manufacturer homepage was inaccessible again; seller/secondary tables are not promoted to manufacturer evidence. No local download, software installation or device operation.

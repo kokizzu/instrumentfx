@@ -137764,5 +137764,21 @@
       "No download,hardware operation orpreset edit"
     ],
     "next": "Continue individual-LCD capability gaps; independent BOSS GT-Pro cursor unchanged."
+  },
+  "famc_pro_shared_capacity_20261101": {
+    "model": "FAMC::Liquid Foot Pro+",
+    "status": "partial controller; exact physical display census still unresolved",
+    "source": "https://manualzz.com/doc/27981410/famc-pro--user-manual",
+    "identity": "Undated manufacturer LF+ shared guide,Pro+ explicitly named p18;FAMC site references.",
+    "findings": [
+      "Page-count conflict:p5 50 versus p7 60,firmware/model basis unknown.",
+      "60 addressable button positions and120 function positions are not60 physical switches/LCDs.",
+      "Historical summary384presets,254songs,128setlists,180IA,254SysEx16bytes;notaudiohardwarecapacities orfactoryoccupancy."
+    ],
+    "unresolved": [
+      "Exact Pro+ LCD/physical button census",
+      "Dimensions,mass,power,current firmware/editor andqualifiedShopeeIDR"
+    ],
+    "next": "Primary site still inaccessible;do not promote repeated seller claims. KeepLCD-priority queue andindependentBOSS GT-Pro cursor."
   }
 }

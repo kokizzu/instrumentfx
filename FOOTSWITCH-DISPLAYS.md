@@ -134,7 +134,7 @@ These match the separate-display layout, with OLED technology rather than LCD.
 | Brand / model | Display-layout status | Record / next check |
 |---|---|---|
 | FAMC **Liquid Foot JR+** — pending | Seller claims eight switches with individual LCD labels; exact manufacturer display census remains unverified | [Qualified JR+ controller lead](FAMC.md#liquid-foot-jr--pending-controller-lead). Original Jr. and Mini are separate; seller LCD/LED wording conflicts. Outside confirmed matches and processor counts. |
-| FAMC **Liquid Foot Pro+** — pending | Seller claims24 individual LCDs plus main;manufacturer exact-model census unresolved | [Qualified controller lead](FAMC.md#liquid-foot-pro--pending-controller-lead). Original Pro and12+ are distinct;outside confirmed matches andprocessor counts. |
+| FAMC **Liquid Foot Pro+** — pending | Seller claims24 individual LCDs plus main;manufacturer exact-model census unresolved | [Qualified controller lead](FAMC.md#liquid-foot-pro--pending-controller-lead). Original Pro and12+ are distinct;[shared-guide capacities and50/60-page conflict](FAMC.md#liquid-foot-pro--shared-guide-capacity-and-page-count-conflict) do not establish the physical LCD census;outside confirmed matches andprocessor counts. |
 | Singular Sound **MIDI Maestro Gold Edition** | **Six1.9-inch screens /six switches**; manufacturer specification says dot-matrix LED | [Exact Gold Edition controller lead](SINGULAR-SOUND.md#midi-maestro-gold-edition); [family iOS26 advisory, Gold scope unverified](SINGULAR-SOUND.md#gold-edition--family-ios-26-advisory-revision-scope-unverified). LCD/OLED and one-per-switch placement not certified; outside audio counts. |
 
 ## Evidence and pending work
