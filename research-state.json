@@ -129642,6 +129642,13 @@
       "root": "FRACTAL-AUDIO.md#fm9--historical-block-inventory",
       "finding": "37 nonzero block rows retained with type/instance counts;5 zero rows revision-qualified.",
       "remaining": "Current MKII/firmware12 inventory and DSP concurrency unverified."
+    },
+    "fm3_labels_and_synth": {
+      "checked": "2026-10-31",
+      "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+      "revision": "7.x expressly coversMKII;pp11,46,86",
+      "finding": "Tap/Hold label behavior and custom text;three-voice mono synth resolves olderunknown;selected own-model per-type ceilings.",
+      "remaining": "Firmware13 equivalence,full current inventory,acoustic sim and auxiliary diagonal/color/touch unresolved."
     }
   }
 }
