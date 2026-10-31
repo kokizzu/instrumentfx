@@ -3156,7 +3156,7 @@ Reviewed **2026-10-17**,new exact-model Shopee discovery. Separate from G3Xn and
 | Choice / revision conflict | Manual80types versus current product V2:127 DSP entries (125effects+looper+rhythm)+32 amp/cabs (16amps+16cabs). Keep revision wording;not one stable total. | [Manual](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf); [product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/) |
 | Memory | **150 patches total;75 supplied**;official G3n patch sheet says **76–150 empty by default**. Not150+75. Three patches per bank;overwrite/restore behavior needs operation review. | [G3n patch sheet](https://zoomcorp.com/media/documents/E_G3n_patch-list.pdf); [Manual](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf); [product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/) |
 | Synth / acoustic | **Aco.Sim electric-to-acoustic simulation confirmed** by exact G3n patch036 Tacoustic (Aco.Sim+RackComp). Patch042 Loopertron uses OctFuzz+TapeEcho for synth-style octave sound;patch043 Gayageum uses Aco.Sim+PitchSHFT. Composite presets do not establish a dedicated synth engine,polyphony or extra independent simulator algorithms. Built-in IR-modeled cabs do not establish user IR import. | [G3n patch list](https://zoomcorp.com/media/documents/E_G3n_patch-list.pdf); [manual](https://zoomcorp.com/documents/140/E_G3n_G3Xn.pdf) |
-| Audio / control ports | Mono standard instrument input;stereo mini AUX;mono R output;**stereo L/MONO/PHONES combined output**;G3n FP02 control;**USB Micro-B,USB MIDI**. Exact control wiring and physical MIDI/FX-loop/XLR/phantom exclusions ?. | [Manual,p.51](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf) |
+| Audio / control ports | Mono standard instrument input;stereo mini AUX;mono R output;**stereo L/MONO/PHONES combined output**;G3n FP02 control;**USB Micro-B,USB MIDI**. Complete rear/specification inventory lists **no separate DIN MIDI,XLR orsend/return sockets**;USB MIDI remains documented. Control wiring andphantom capability remain unverified. [Inventory cross-check](#g3n--complete-connector-inventory-boundary). | [Manual,p.51](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf) |
 | Power | **DC9V,500mA,center-negative AD-16**. Battery/USB operation not established;USB connector alone is insufficient. | [Manual](https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf) |
 | IR / NAM / capture | Third-party IR loading,native NAM,converted NAM and user capture import not established. Built-in IR-modeled cabs are separate. | Workflow verification pending |
 | Editor / platforms | Guitar Lab full Windows/macOS effect-chain/patch editing;support lists7.3 (Windows8.1/10/11;macOS10.13–26),separate G3n firmware2.20 Windows/Mac. Mobile editor ?. | [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/); [support](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/g3ng3xn-support/) |
@@ -3205,7 +3205,7 @@ Condition,revision,complete accessories,warranty region,stock quantity,shipping/
 
 ### Remaining checks
 
-Remaining: complete footswitch/button inventory; published screen diagonal/color/touch; current installed library beyond the documented 2017 category census; factory overwrite/restore; synth-engine verification; complete port wiring/exclusions; IR/NAM/capture workflows; battery/USB power and USB audio status; scenes/patch-change tails; and qualified condition-specific current offers. Bass applicability stays unclassified. Numerical DSP costs, looper block costs/retention, autosave prompts and the 2017 category names are documented in the dated rows above; these do not fully verify the model.
+Remaining: complete footswitch/button inventory; published screen diagonal/color/touch; current installed library beyond the documented 2017 category census; factory overwrite/restore; synth-engine verification; control-port wiring/phantom capability (connector exclusions documented below); IR/NAM/capture workflows; battery/USB power and USB audio status; scenes/patch-change tails; and qualified condition-specific current offers. Bass applicability stays unclassified. Numerical DSP costs, looper block costs/retention, autosave prompts and the 2017 category names are documented in the dated rows above; these do not fully verify the model.
 
 ### Exact-model patch and practice follow-up
 
@@ -3251,6 +3251,18 @@ Checked **2026-10-31** against all six pages of the [manufacturer processing cha
 | Expression / OutputVP cost | OutputVP costs **3DSP points**,versusPDL Vol4. Mono loopers cost7,stereo10,andRhythm8. Listed costs do not establish OutputVP placement,endpoints,bypass,phones/tail/loop coverage orassignment across every preset. |
 
 No local download,installation orhardware operation. Later Guitar Lab additions remain separate from this2020 document census.
+
+### G3n — complete connector inventory boundary
+
+Checked **2026-10-31**,[manufacturer German shared manual](https://zoomcorp.com/media/documents/D_G3n_G3Xn.pdf),printedpp4–5,51,©2016,Z2I-2796-01. G3n-specific FP02 input is independently identified in the existing English evidence.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / complete published inventory | INPUT,AUX IN,R,L/MONO/PHONES,CONTROL IN,USB Micro-B andDC9V;POWER is a switch. **No separate DIN MIDI,XLR orsend/return sockets** in the complete panel/specification lists. USB MIDI is expressly specified;absence of DIN does not mean noMIDI. |
+| I/O / remaining electrical boundary | L/MONO/PHONES is a shared stereo line/headphone socket,not a separate headphone output. Complete socket enumeration does not establish CONTROL IN pinout/polarity,pedal compatibility beyond namedFP02,phantom capability,USB audio orUSB power. |
+
+This closes the earlier physical-connector exclusion gap only. Original text inspection;no visual panel count,download orhardware operation.
+
 
 ## G3X
 

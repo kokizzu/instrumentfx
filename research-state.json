@@ -131829,5 +131829,16 @@
     "amps": 12,
     "cabinets": 12,
     "qualification": "Names added to existing counts;ORGN selects recommended cabinet. CAB Mix is not global output volume. Text only;device untested."
+  },
+  "g3n_connector_inventory_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://zoomcorp.com/media/documents/D_G3n_G3Xn.pdf",
+    "printed_pages": "4–5,51",
+    "absent_from_complete_inventory": [
+      "DIN MIDI",
+      "XLR",
+      "send/return"
+    ],
+    "qualification": "USB MIDI remains documented. Control wiring,phantom,USB audio/power remain unverified;no visual/hardware inspection."
   }
 }
