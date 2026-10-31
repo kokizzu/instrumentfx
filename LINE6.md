@@ -313,7 +313,7 @@ Checked **2026-10-17**. Original Helix Floor; distinct from LT,Rack and Stadium.
 | IR / NAM / capture | User IRs supported;older manufacturer FAQ **128 slots, 1024/2048 points, up to 4 simultaneous DSP-permitting**;[3.80 resolution/path limits](#helix-floor--380-ir-limits-and-spillover-mode-boundary) qualify this broad claim. Native NAM, converted NAM, proprietary capture loading **?**;Stadium Proxy not inferred. [FAQ][HF-Q] |
 | Audio/control I/O | Guitar/active-instrument AUX;XLR mic with 48 V;4 send/return pairs;stereo XLR and¼″TS mains;stereo phones;VDI;EXP2/3;ExtAmpTRS;CV/EXPout;DIN MIDI in/out-thru;RCA S/PDIF in/out;AES/EBU/L6 LINK out;USB;groundedAC. Exact remaining jack types/USB connector pending manual. [Cheat sheet][HF-S], [Floor product][HF-P] |
 | Power / battery / USB | Grounded **100–240V AC** confirmed by current manufacturer supply FAQ;original Floor RevB manual specifies **50–60Hz**. Wattage/current draw andcurrent hardware-label corroboration remain **?**. [Rating sources](#helix-floor--mains-rating-and-factory-restore-boundaries). DC polarity N/A. Battery/USB-powered operation **?**;USB interface does not prove bus power. [Cheat sheet][HF-S] |
-| Editor / USB audio | **HX Edit** editor distinct from Helix Native plugin/updater;Mac/Windows documented; Listing checked2026-10-31: **HX Edit3.82,2024-12-03**,Windows10/11;Mac labels include Catalina,BigSur,Monterey,Ventura,Sonoma,Sequoia,Tahoe plus generic MacOSX and “Golden Gate”;these labels are not a tested minimum-version matrix. Hardware listing **3.80.0,2024-11-19**,not editor3.82. [Current listing][HF-DS]. **8-in/8-out,24-bit/up to 96 kHz**,DI/reamp/MIDI;iPad with camera adapter. [Cheat sheet][HF-S], [Floor product][HF-P], [Software][HF-D] |
+| Editor / USB audio | **HX Edit** editor distinct from Helix Native plugin/updater;Mac/Windows documented; Listing checked2026-10-31: **HX Edit3.82,2024-12-03**,Windows10/11;Mac labels include Catalina,BigSur,Monterey,Ventura,Sonoma,Sequoia,Tahoe plus generic MacOSX and “Golden Gate”;these labels are not a tested minimum-version matrix. Hardware listing **3.80.0,2024-11-19**,not editor3.82. [Current listing][HF-DS]. **8-in/8-out,24-bit/up to 96 kHz**,DI/reamp/MIDI;iPad with camera adapter. [Driver/routing qualifications](#helix-floor--380-usb-drivers-and-dry-signal-routes). [Cheat sheet][HF-S], [Floor product][HF-P], [Software][HF-D] |
 | Looper / snapshots / routing | One looper per preset. Manufacturer KB gives **60 s mono/30 s stereo at full speed**, doubled at half speed. Across presets, KB requires matching mono/stereo type, path and footswitch assignment; indexed Floor manual additionally specifies matching 6 Switch/1 Switch/Shuffle model. Shuffle has no half-speed extension. **True Preset Spillover mode excludes looper carryover**;[mode boundary](#helix-floor--380-ir-limits-and-spillover-mode-boundary). Retention and drums **?**. [Looper KB][HF-L], [Indexed Floor manual][HF-M0] 8snapshots;true preset spillover uses only 2 paths per current product. Mic processing supports vocal membership; intelligent vocal harmony is unverified. [FAQ][HF-Q], [Floor product][HF-P] |
 
 ### Helix Floor — separate IDR offers
@@ -416,6 +416,19 @@ Checked **2026-10-31**,original RevG manual reproduction,pp37,39–40;identity e
 | Processing / Legacy microphones16 | 57 Dynamic;409 Dynamic;421 Dynamic;30 Dynamic;20 Dynamic;121 Ribbon;160 Ribbon;4038 Ribbon;414 Cond;84 Cond;67 Cond;87 Cond;47 Cond;112 Dynamic;12 Dynamic;7 Dynamic. |
 
 **12+12 is not24 distinct labels**;shared labels do not prove identical captures across guitar/bass/Legacy engines. Preserve84 Ribbon versusLegacy84 Cond. These are cabinet parameters,not physical mic inputs oradditional blocks. Installed firmware remains unknown;no download ordevice test.
+
+
+### Helix Floor — 3.80 USB drivers and dry-signal routes
+
+Checked **2026-10-31**,original [3.80 RevG manual reproduction,pp73–77](https://www.scribd.com/document/812017479/Helix-3-80-Owner-s-Manual-English). Document identity established above;selected chapter inspection,not a device test.
+
+| Field | Revision-qualified evidence / boundary |
+|---|---|
+| USB / driver scope | Windows audio requires Helix ASIO;macOS class-compliant audio operates at **48kHz**,with Line6 CoreAudio driver forother rates. iPad/iPhone require no driver;camera adapter separately required. This is audio-driver guidance,not current OS certification. |
+| USB / dry recording | **Helix→computer channels7/8** independently select Guitar,Aux,Variax,Variax Mags orMic as dry sources. The example records processed stereo1/2 alongside Guitar DI7. These are USB channel numbers,not physical jacks. |
+| USB / playback and reamp | Default Multi routing sends **computer→Helix1/2** directly toXLR,quarter-inch andphones,without amp/effects processing. Reamp example instead sends DI to3/4 andselects that pair as preset input. These routes do not establish pedal attenuation ofcomputer playback. |
+
+No driver installation,download,recording orhardware operation.
 
 <!-- comparison evidence ends -->
 

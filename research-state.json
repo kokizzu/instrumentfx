@@ -131873,5 +131873,12 @@
     "bass": 12,
     "legacy": 16,
     "qualification": "Separate lists;shared labels do not prove identical captures. Named choices,not physical inputs."
+  },
+  "helix_floor_380_usb_routes_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://www.scribd.com/document/812017479/Helix-3-80-Owner-s-Manual-English",
+    "revision": "3.80 RevG,90-20-0358",
+    "printed_pages": "73–77",
+    "qualification": "Documented host-driver and dry/playback routes;current host compatibility andpedal coverage untested."
   }
 }
