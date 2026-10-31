@@ -3758,6 +3758,17 @@ Checked **2026-10-31**. Zoom’s [current product page](https://zoomcorp.com/en/
 No download,app installation,firmware update ordevice operation. Full current-library reconciliation,physical footswitch/button totals and display diagonal/color/touch remain open.
 
 
+### G5n — additional exact indexed hardware asks
+
+Checked **2026-10-31**;search-index evidence only,direct reader cache misses. These offers do not replace older condition-qualified used evidence.
+
+| Class | IDR ask | Exact offer / qualification |
+|---|---:|---|
+| Condition-unverified cached hardware | **Rp3.400.000** | [mikayla shop,shop5584624/item25724165176](https://shopee.co.id/zoom-g5n-i.5584624.25724165176),KotaSemarang;exact G5n title,three-week cache,October12–14 arrival stale;seller last active two months in snapshot. No sold-out marker exposed;live stock,working condition,revision,bundle,adapter,warranty anddelivered total unknown. Late-delivery voucher not deducted. |
+| Condition-unverified,sold-out cached hardware | **Rp2.500.000** | [gitarisfales,shop737365058/item22040382018](https://shopee.co.id/zoom-g5n-i.737365058.22040382018),Kab.Nganjuk;exact G5n title,two-month cache explicitly **Habis**,August26–29 arrival stale. Used/new condition,working state,revision,accessories,warranty anddelivered total unknown;not current availability orcompleted sale. Voucher not deducted. |
+
+Full physical control counts remain unresolved:manual text names BANK/SCROLL switches but drops symbols;the manufacturer [top-panel image](https://zoomcorp.com/media/original_images/Zoom_G5n_Top1.jpg.800x482_q70_crop_size_canvas.jpg) was not visually inspected because browser surfaces were unavailable. No inferred count,local download ordevice test.
+
 ## G6
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

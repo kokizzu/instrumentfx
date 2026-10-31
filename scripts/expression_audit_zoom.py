@@ -22,5 +22,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): verify G11 V2 factory allocation and USB trims'
+        message='research(zoom): qualify two additional exact G5n hardware asks'
     print(git('commit','-m',message))
