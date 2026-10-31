@@ -137945,5 +137945,14 @@
     "remaining": "Host resistance tolerance, arbitrary M-VAVE compatibility, external toe support and universal analog-volume assignment remain unverified. Built-in treadle excludes Floor from no-treadle shortlist. Individual LCD specifications and power draw remain open.",
     "downloads": false,
     "hardware_test": false
+  },
+  "m13_midi_scope_20261101": {
+    "checked": "2026-11-01",
+    "source": "https://line6.com/data/l/0a0600729b4f4af8b8d2e9557/application/pdf/M13_Advanced_Users_Guide.pdf",
+    "revision": "M13 v2.0 Advanced Guide, ©2009, Appendix A•1–2",
+    "finding": "Recorded exact expression, FX bypass and Scene messages; model selection unavailable. MIDI controller values do not establish global analog volume.",
+    "remaining": "Current firmware behavior, analog recall/output coverage, physical LCD specifications and qualified Indonesia offers remain open.",
+    "downloads": false,
+    "hardware_test": false
   }
 }

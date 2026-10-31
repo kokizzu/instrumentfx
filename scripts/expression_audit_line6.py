@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(line6): verify Helix Floor EX2 expression wiring'))
+    print(git('commit','-m','research(line6): document M13 V2 MIDI command boundaries'))
