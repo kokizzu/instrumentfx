@@ -651,9 +651,9 @@ Checked2026-10-31,[manufacturer mini manual](https://www.fractalaudio.com/downlo
 
 | Field | Documented capability / qualification |
 |---|---|
-| Memory / historical setlists | **128 songs**,six sections each;**four setlists**,up to32 song positions each. Sections select a preset andscene1–8 orDEFAULT;NONE disables a section. Names allow10characters. These are references,not extra preset slots. |
-| Display / song navigation | Setlist,Song andSection switch functions offer select,toggle andincrement/decrement;empty entries are skipped. Mini-display options label these actions. FM9 sample layout8 assigns six sections plus previous/next song andtap-tempo/hold-tuner;it lacks active-setlist switching. Song stepping differs from sequential preset down/up. |
-| Live / setup and source conflict | Assignments require configured songs/setlists/layouts. Changes apply immediately andenter System backup. P4 calls layout8 factory-default for3.0+,then describes it as empty by default in import instructions;retain that conflict. Neither current factory assignments nor untouched MKII setup is certified. |
+| Memory / setlists (2023 guide) | **128 songs**,six sections each;**four setlists**,up to32 song positions each. Sections select a preset andscene1–8 orDEFAULT;NONE disables a section. Names allow10characters. These are references,not extra preset slots. |
+| Display / song navigation (2023 guide) | Setlist,Song andSection switch functions offer select,toggle andincrement/decrement;empty entries are skipped. Mini-display options label these actions. FM9 sample layout8 assigns six sections plus previous/next song andtap-tempo/hold-tuner;it lacks active-setlist switching. Song stepping differs from sequential preset down/up. |
+| Live / setup and source conflict (2023 guide) | Assignments require configured songs/setlists/layouts. Changes apply immediately andenter System backup. P4 calls layout8 factory-default for3.0+,then describes it as empty by default in import instructions;retain that conflict. Neither current factory assignments nor untouched MKII setup is certified. |
 
 No layout package,installer orfirmware downloaded;no device settings changed.
 

@@ -132798,6 +132798,7 @@
     ],
     "finding": "Added revision-qualified setlist capacity and switch/LCD navigation;preserved layout8 default contradiction and current editor32/64-bit wording conflict.",
     "limits": "Historical3.0+ FM9 scope;current MKII/firmware12 operation and untouched factory assignments unverified. No downloads ordevice changes.",
-    "next": "Continue individual-LCD exact-model gaps;do not treat song stepping as preset stepping,or driver ARM support as editor ARM certification. Independent BOSS GT-Pro cursor preserved."
+    "next": "Continue individual-LCD exact-model gaps;do not treat song stepping as preset stepping,or driver ARM support as editor ARM certification. Independent BOSS GT-Pro cursor preserved.",
+    "comparison_scope": "Each added field retains 2023 guide qualification when extracted into instrument comparison cells."
   }
 }

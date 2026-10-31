@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(fractal): document FM9 setlist navigation and editor limits'))
+    print(git('commit','-m','docs(fractal): retain setlist revision in comparison cells'))
