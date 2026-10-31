@@ -131196,5 +131196,27 @@
     "record": "ZOOM.md#g3xn--complete-2020-chart-census-and-headline-counting-basis",
     "scope": "159 arithmetic counts the four loop variants as one family; revision/installed equivalence unproven",
     "next": "Continue remaining individual LCD model fields; independent general BOSS GT-Pro cursor unchanged."
+  },
+  "helix_floor_effect_census_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://line6.com/helix-models/",
+    "revision": "Helix3.80 manufacturer web tables",
+    "groups": {
+      "Distortion": 61,
+      "EQ": 8,
+      "Dynamics": 19,
+      "Reverb": 25,
+      "Modulation": 56,
+      "Delay": 45,
+      "Pitch/Synth": 29,
+      "Filter": 15,
+      "Wah": 11,
+      "Volume/Pan": 5
+    },
+    "effect_rows": 274,
+    "looper_rows": 3,
+    "basis": "Named rows,not mono/stereo variants or image IDs; amps/cabs/mics excluded",
+    "record": "LINE6.md#helix-floor--complete-380-effect-category-census",
+    "next": "Census amps/cabs/microphones; verify Floor power and factory occupancy. Keep individual LCD priority and independent BOSS GT-Pro cursor."
   }
 }

@@ -307,9 +307,9 @@ Checked **2026-10-17**. Original Helix Floor; distinct from LT,Rack and Stadium.
 | Display | **6.2-inch,800×480 color LCD**;touchscreen **?**. Capacitive foot controls do not prove screen touch. **13 LCD strips documented in own3.80 manual**, which separately describes the expression-pedal strip showing EXP1/2. With cheat sheet FS1–12, **12 switch strips +1 pedal readout** is the text-based accounting,not a visual count. Product’s13-foot-switch-strip wording remains imprecise; diagonal/touch still unverified. [Indexed own manual,p8](https://line6.com/data/6/0a00051afda2673ccc1cc8e68/application/pdf/Helix%203.80%20Owner%27s%20Manual%20-%20English%20.pdf),checked2026-10-31;direct reader size limit. [Comparison KB][HF-K], [Floor product][HF-P] |
 | Dimensions / weight | KB **22.05 W×11.85 D×3.58 H inches;14.7lb**;older manufacturer FAQ **22.05×11.85×3.6 inches;14.6lb**. Preserve rounding/mass difference; basis unspecified. [Comparison KB][HF-K], [FAQ][HF-Q] |
 | Simultaneous blocks | Indexed manufacturer chart **up to32,DSP-permitting**;four stereo paths. Four-amp/IR concurrency claims are DSP-qualified; heavy chains may reach the limit earlier. [Chart][HF-C], [FAQ][HF-Q], [Floor product][HF-P] |
-| Category choices | Indexed chart 96amps/268effects,firmware basis unstated; older KB 62amps/37cabs/16mics/104FX is historical. Current 3.80 category-by-category audit **?**. Do not presentolder totals as the current installed library. [Chart][HF-C], [Comparison KB][HF-K] |
+| Category choices | Indexed chart 96amps/268effects,firmware basis unstated; older KB 62amps/37cabs/16mics/104FX is historical. Current3.80 manufacturer web tables yield **274 named effects**,plus3loopers separately;[complete effect-category census](#helix-floor--complete-380-effect-category-census). Amp/cab/mic census andinstalled content remain unresolved. Do not presentolder totals as the current installed library. [Chart][HF-C], [Comparison KB][HF-K] |
 | Factory / user presets | **1,024 locations** (8×32×4);factory-filled subset **?**;up to 8 snapshots per preset. Snapshots are variations,not additional preset slots. [Chart][HF-C], [Floor product][HF-P] |
-| Synth / acoustic simulation | Own cheat sheet documents the Pitch/Synth category;exact synthesis/acoustic simulator algorithms and restrictions **?**,not borrowed from LT. [Cheat sheet][HF-S] |
+| Synth / acoustic simulation | Manufacturer3.80 model page confirms **Acoustic Sim** and**3 OSC Synth**;generator versus polyphonic pitch restrictions are recorded in the [census](#helix-floor--complete-380-effect-category-census). Not borrowed from LT. [Cheat sheet][HF-S] |
 | IR / NAM / capture | User IRs supported;older manufacturer FAQ **128 slots, 1024/2048 points, up to 4 simultaneous DSP-permitting**. Native NAM, converted NAM, proprietary capture loading **?**;Stadium Proxy not inferred. [FAQ][HF-Q] |
 | Audio/control I/O | Guitar/active-instrument AUX;XLR mic with 48 V;4 send/return pairs;stereo XLR and¼″TS mains;stereo phones;VDI;EXP2/3;ExtAmpTRS;CV/EXPout;DIN MIDI in/out-thru;RCA S/PDIF in/out;AES/EBU/L6 LINK out;USB;groundedAC. Exact remaining jack types/USB connector pending manual. [Cheat sheet][HF-S], [Floor product][HF-P] |
 | Power / battery / USB | Grounded AC in confirmed;voltage/frequency/current **?**. DC polarity N/A. Battery/USB-powered operation **?**;USB interface does not prove bus power. [Cheat sheet][HF-S] |
@@ -324,6 +324,30 @@ Checked **2026-10-17**. Original Helix Floor; distinct from LT,Rack and Stadium.
 | Historical hardware ask;condition unverified;**sold out** | **Rp19.850.000** | [SMOSYU MUSIC,shop397175630/item27006529188][HF-O2],Bekasi;retrieved 2026-10-17,cache last month,**Habis**. Condition/accessories/warrantyunknown;not a verified used price. |
 | Verified used offer | **?** | Not established |
 | Verified new offer | **?** | Sale condition not verified |
+### Helix Floor — complete 3.80 effect-category census
+
+Checked **2026-10-31** against the [manufacturer Helix3.80 model tables](https://line6.com/helix-models/),readable HTML. Helix-family source;Floor applicability is distinct from HX/Stadium restrictions. Counts are named rows,not duplicate mono/stereo forms orunique image-link identifiers.
+
+| Category | Named choices |
+|---|---:|
+| Distortion | 61 |
+| EQ | 8 |
+| Dynamics | 19 |
+| Reverb | 25 |
+| Modulation | 56 |
+| Delay | 45 |
+| Pitch/Synth | 29 |
+| Filter | 15 |
+| Wah | 11 |
+| Volume/Pan | 5 |
+
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / effect census | **274 named effects**,plus **three looper models** counted separately. Excludes amps,cabinets,microphones,IRs,sends/returns androuting. This does not certify installed firmware;older268-effect chart evidence retains its different scope. [Own manufacturer tables](https://line6.com/helix-models/). |
+| Synth / acoustic distinctions | **Acoustic Sim** is listed in EQ,mono/stereo,initial3.00;**3 OSC Synth** is stereo,initial1.00. The two generator models can sound without an instrument anddefault to bypassed;that is not input-pitch tracking. Footnoted polyphonic pitch models are DSP-intensive andcan consume roughly half a path’s DSP;polyphonic pitch shifting does not prove polyphonic oscillator synthesis. [Manufacturer table andfootnotes](https://line6.com/helix-models/). |
+
+Full amp/cab/microphone census,precise power ratings,factory occupancy andremaining LCD specifications stay open. No local download ordevice operation.
+
 <!-- comparison evidence ends -->
 
 ### Helix Floor provenance and gaps
