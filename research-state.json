@@ -129467,6 +129467,13 @@
         "revision": "June2023 pp4–6,explicit FM3 applicability",
         "finding": "Input bypass=THRU/grid pass;Output bypass=MUTE/corresponding output andgrid mute;not whole-system analog bypass orverified global EXP during bypass.",
         "remaining": "Global EXP endpoints/held-position recall andUSB-playback attenuation unverified in checked original sources;do not repeat per-block modifier ranges as global ranges."
+      },
+      "preset_switch_definitions": {
+        "checked": "2026-11-01",
+        "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+        "revision": "7.x; cover includes MKII Turbo; printed pp79,87,96",
+        "finding": "24 per-preset switch-definition slots; factory layout6 exposes first12 Tap placeholders through four Views. Global override disable distinct from placeholders and analog expression assignment.",
+        "remaining": "Firmware13 behavior untested; numeric global-volume endpoints/recall and unconditional output coverage remain unresolved."
       }
     },
     "fractal_fc": {
