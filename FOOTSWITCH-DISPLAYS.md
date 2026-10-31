@@ -10,7 +10,7 @@ Separate physical displays, labels drawn on one shared screen, and LED rings are
 
 ### Individual LCDs at effect footswitches — first priority
 
-Research these LCD matches before OLED, shared-screen and unconfirmed-technology candidates. Extra navigation switches may lack a screen; screen counts do not imply total switch counts.
+Research these LCD matches before OLED, shared-screen and unconfirmed-technology candidates. Extra navigation switches may lack a screen; screen counts do not imply total switch counts. Audio processors with confirmed individual LCDs also take priority over controller-only hardware. The next work is missing exact-model LCD matches and the remaining G5/G5n/G11 gaps; revisit other LCD models when new evidence is available.
 
 Continuation checkpoint (2026-11-01): **missing individual-LCD models → remaining G5/G5n/G11 gaps → other confirmed LCD processors when new evidence becomes available**. HX Effects, FM3 MKII Turbo, PLETHORA X5 and Tone Master Pro have received follow-up passes; their unresolved fields remain open. Avoid repeating unchanged sources merely to keep the queue moving. First resolve each model’s direct analog expression-volume assignment, range/recall and output coverage, then remaining physical/control and qualified Indonesia-offer gaps. This is a research queue, not a ranking or a claim that these meet all requirements. Preserve the independent general-model cursor. A previous documentation pass does not close unresolved fields: keep these LCD candidates ahead of the deferred M-VAVE wiring and broader no-treadle queue until their remaining checks are completed or a specific evidence blocker is recorded.
 

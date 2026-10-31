@@ -132703,13 +132703,12 @@
     "priority_queue_20261101": {
       "instruction": "Individual LCDs at footswitches first; OLED, shared-screen and unconfirmed technology remain secondary.",
       "models": [
-        "Line 6 HX Effects",
-        "Fractal Audio FM3 MKII Turbo",
-        "TC Electronic PLETHORA X5",
-        "Fender Tone Master Pro"
+        "Zoom G5",
+        "Zoom G5n",
+        "Zoom G11"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Fresh individual-LCD discovery pass andremaining G5/G5n/G11 currentmodel gaps;do not loop unchanged B3/B3n sources. WhitePLETHORAX1 remainspartial;primarybypassroles clarified,technology/placement stillqualified. Revisit a gap when new evidence orvisualsurface becomesavailable. Preserve independent BOSS GT-Pro anddeferred no-treadle tasks;OLED/sharedscreen/controllers secondary.",
+      "next_check": "Fresh exact-model individual-LCD discovery, followed by remaining G5/G5n/G11 documentation and qualified hardware-offer gaps. HX Effects, FM3 MKII Turbo, PLETHORA X5 and Tone Master Pro remain eligible for new-evidence follow-up; their earlier queue is preserved as a historical checkpoint. Independent BOSS GT-Pro cursor is unchanged.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -132719,7 +132718,37 @@
         "onboard preset down/up separately",
         "exact qualified Shopee Indonesia hardware offers"
       ],
-      "independent_general_cursor": "BOSS GT-Pro"
+      "independent_general_cursor": "BOSS GT-Pro",
+      "previous_models_checkpoint": [
+        "Line 6 HX Effects",
+        "Fractal Audio FM3 MKII Turbo",
+        "TC Electronic PLETHORA X5",
+        "Fender Tone Master Pro"
+      ],
+      "selection_policy": "Research confirmed individual LCD-at-footswitch audio processors first. Discover missing exact-model LCD matches and resolve substantive outstanding fields with new evidence; do not repeatedly reopen unchanged source blockers. OLED, shared screens, unconfirmed display technology and controller-only hardware are lower priority.",
+      "priority_tiers": [
+        {
+          "priority": 1,
+          "scope": "Audio processors with confirmed individual LCDs at effect footswitches",
+          "next": [
+            "Missing exact-model LCD matches",
+            "Zoom G5",
+            "Zoom G5n",
+            "Zoom G11"
+          ],
+          "qualification": "Other confirmed LCD models remain in scope when new evidence resolves an outstanding field."
+        },
+        {
+          "priority": 2,
+          "scope": "Individual OLED processors; unresolved screen technology or placement; shared-screen processors",
+          "qualification": "Do not describe these as confirmed individual-LCD matches."
+        },
+        {
+          "priority": 3,
+          "scope": "Foot controllers",
+          "qualification": "Keep separate from audio processors and active multi-effects counts."
+        }
+      ]
     },
     "plethora_x5_editor_curve_20261101": {
       "source": "https://www.electori.co.jp/tcelectronic/pdf/TonePrint_Editor_V4_Reference_Manual_ver_JP_rev_1_3.pdf",
