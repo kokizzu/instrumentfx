@@ -130019,6 +130019,13 @@
         },
         "v2_category_count_complete": true,
         "total_named_category_entries": 261
+      },
+      "synth_parameters": {
+        "checked": "2026-11-01",
+        "source": "https://zoomcorp.com/media/documents/E_G11v2_FX-list.pdf",
+        "revision": "V2.00 ©2021, printedp32",
+        "finding": "Z-Syn SAW/SQR; BaStdSyn UP/DOWN filter and octave-below; BaSynTlk IA/UE/UA/OA and octave-below. Bass-oriented algorithms, not confirmed polyphonic synthesis.",
+        "remaining": "Current installed library/tracking untested; auxiliary LCD dimensions/color/touch and visual control census remain unresolved. Panel screenshot call returned references only; no visual count."
       }
     },
     "zoom_g3": {

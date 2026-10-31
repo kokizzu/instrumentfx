@@ -22,5 +22,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='docs(zoom): consolidate G3n firmware recheck without duplication'
+        message='research(zoom): specify G11 bass synth algorithms and scope'
     print(git('commit','-m',message))
