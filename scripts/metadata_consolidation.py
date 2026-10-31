@@ -1,5 +1,6 @@
 """Preserve public ownership/policy source semantics in the root ledger."""
 import hashlib
+import difflib
 import json
 from pathlib import Path
 import re
@@ -193,7 +194,21 @@ def apply():
 def verify():
     research_tools.identity()
     state = json.loads((ROOT/'research-state.json').read_text())
-    assert state['public_metadata'] == build_metadata(state), 'Metadata drift or lost source semantics'
+    expected = build_metadata(state)
+    preserved = state['public_metadata']['remote_87c7d38_preserved']
+    if preserved is not None:
+        assert set(preserved) == {'qualification', 'ledger', 'readme', 'expression_category_before_normalization'}
+        assert preserved['qualification'] == 'Incoming2026-10-18 branch snapshot; inventory/counts superseded by current root ledger. Preserved losslessly during non-force merge; capability leads still partial.'
+        assert preserved['ledger'] == json.loads(research_tools.git('show', '87c7d38:research-state.json')), 'Preserved remote ledger changed'
+        assert preserved['readme'] == research_tools.git('show', '87c7d38:README.md').rstrip('\n'), 'Preserved remote README changed'
+        # This comparison is the later local pre-normalization snapshot, not the remote file.
+        assert digest(preserved['expression_category_before_normalization']) == '6057c38043114721867c7cae40eed6e5d69256cecb6ca04f943e0970c0a71e84', 'Preserved pre-normalization comparison changed'
+        expected['remote_87c7d38_preserved'] = preserved
+    if state['public_metadata'] != expected:
+        before = json.dumps(state['public_metadata'], ensure_ascii=False, indent=2, sort_keys=True).splitlines()
+        after = json.dumps(expected, ensure_ascii=False, indent=2, sort_keys=True).splitlines()
+        print('\n'.join(difflib.unified_diff(before, after, fromfile='saved public_metadata', tofile='derived public_metadata')))
+        raise AssertionError('Metadata drift or lost source semantics')
     assert state['active_model_count'] == len({(b,m) for b,models in state['inventory_by_brand'].items() for m in models})
     for entry in state['public_metadata']['ownership']['entries']:
         if entry['root_profile']:
@@ -210,7 +225,7 @@ def commit():
     assert changed <= set(PATHS), changed-set(PATHS)
     research_tools.git('add','--',*PATHS)
     print(research_tools.git('diff','--cached','--stat'))
-    print(research_tools.git('commit','-m','docs: consolidate typed legacy JSON provenance and reusable record template'))
+    print(research_tools.git('commit','-m','fix: verify preserved merge evidence alongside legacy metadata'))
 
 if __name__ == '__main__':
     {'plan':plan,'apply':apply,'verify':verify,'commit':commit}[sys.argv[1]]()

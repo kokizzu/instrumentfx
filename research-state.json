@@ -46731,6 +46731,19 @@
       "other_ledger_entries_outside_scope": 92,
       "scope": "Registered archive equality only;M13 original discovery body retained verbatim below new comparison summary. Compatibility redirects remain required.",
       "complete": false
+    },
+    "metadata_verifier_repair_20261101": {
+      "status": "validated",
+      "cause": "Base metadata equality rejected the additional remote_87c7d38_preserved archive retained during the earlier non-force merge.",
+      "scope": "Verify incoming ledger and README against pinned87c7d38; independently pin the later local pre-normalization expression comparison hash. Preserve all archive content and the independent general cursor.",
+      "checks": [
+        "metadata-retirement-verify:13 Markdown/3 JSON sources;13 redirects;all headings/incoming anchors/destinations passed",
+        "18 shared-source union audits passed",
+        "82 whole-body archives:0 mismatches",
+        "83 registered finding pairs covered;0 unregistered files",
+        "specialist-retirement-verify passed"
+      ],
+      "qualification": "Preservation checks do not establish current specifications, live stock or complete research."
     }
   },
   "deferred_work": {
