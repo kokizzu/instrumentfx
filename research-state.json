@@ -129757,6 +129757,15 @@
       "pages": "11,59",
       "finding": "G3 combined stereo phones20+20mW32ohm;line+5dBm10kohm;XLR100/200ohm;three-display viewport distinct fromsix-effectchain.",
       "remaining": "Units preserved;loads notminimum/headroom claims;physical counts/screen diagonal/color/touch stillopen."
+    },
+    "axom_apple_app": {
+      "checked": "2026-10-31",
+      "source": "https://apps.apple.com/us/app/melofty/id6762972347",
+      "version": "1.9.2,relative3dago",
+      "minimum": "iOS/iPadOS15.5+;mobileMac12.4+M1,NotverifiedformacOS",
+      "finding": "Currentmobile minimum differsfromdistributor11+;notdesktopAXOMController.",
+      "manual_candidate": "https://device.report/m/63a022bc23df064392ad6523fb0e69573ed5ae7b06aa019d4e8601c2f649aa85_optim.pdf",
+      "remaining": "PDFcachemiss,generatedoverviewnotadopted;screenLCD/OLED/countandexactShopeestillunresolved;outsideactivecounts."
     }
   },
   "gt_pro_global_patch_level_20261031": {

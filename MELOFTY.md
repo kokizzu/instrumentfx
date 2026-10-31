@@ -30,3 +30,15 @@ Software leads: AXOM Controller Windows10+/macOS10.11+; mobile Bluetooth managem
 Checked2026-10-31: [manufacturer filing index](https://fccid.io/2BYCHSFT40) identifies Changsha Melofty Audio Technology and model SFT40. Its [user-manual exhibit9716561](https://fccid.io/2BYCH-SFT40/User-Manual/User-manual-9716561) is a new retrieval lead; [secondary document index](https://device.report/changsha-melofty-audio-technology/SFT40) names **SFT40 quick guide CN/EN V03,2026-06-18**,3 pages,331.93KB. The exhibit and [FCC attachment](https://apps.fcc.gov/eas/GetApplicationAttachment.html?id=9716561) were inaccessible; document-body identity and hardware revision remain unverified. Filing dates do not establish retail launch or installed firmware.
 
 [Thomann’s exact-model search entry](https://www.thomann.pl/melofty_axom_max_audio_processor.htm?type=quickSearch) claims nine switches with individual displays; direct page returned cache miss. This is a **retailer lead**, not manufacturer confirmation of nine LCDs. The manufacturer site again returned zero readable lines. Retain the manufacturer-manual mini-screen evidence and unresolved LCD/OLED/count qualifications above; no active inventory admission. Next: retrieve the identified original quick guide or manufacturer panel documentation.
+
+### AXOM MAX — manufacturer mobile-app requirements
+
+Checked2026-10-31 against Changsha Melofty Audio Technology’s [MELOFTY Apple listing](https://apps.apple.com/us/app/melofty/id6762972347),explicitly titled **Axom Series Control Software**.
+
+| Field | Developer-published scope / qualification |
+|---|---|
+| Editor / Apple mobile minimum | **iOS15.5+ /iPadOS15.5+**,current listed version**1.9.2**,relative release label“3d ago”. This differs from the distributor flyer’s iOS11+ claim;the older figure remains provenance,not current-version compatibility. |
+| Editor / Mac boundary | The mobile app lists **macOS12.4+ with M1 or later**,but explicitly says **Not verified for macOS**. This is not the separate AXOM Controller desktop editor’s minimum or an Intel-Mac compatibility claim. |
+| Editor / function scope | Developer describes Bluetooth preset/Subpatch control,global settings and stomp/expression mappings. Generic global-settings support does not prove global-volume assignment or coverage. App version is not hardware firmware. |
+
+A newly surfaced [manual index](https://device.report/manual/21300124) links [an original-file candidate](https://device.report/m/63a022bc23df064392ad6523fb0e69573ed5ae7b06aa019d4e8601c2f649aa85_optim.pdf);the PDF returned cache miss. Its cleaned overview/troubleshooting text is not independently authenticated manufacturer documentation and is not adopted for specifications. Screen count/technology remain unresolved;no qualified Shopee hardware surfaced. No download,installation or active-inventory admission.
