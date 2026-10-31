@@ -129966,19 +129966,31 @@
       "checked": "2026-10-31",
       "instruction": "Prioritize one with LCD on footswitch first",
       "next_models": [
-        "Line 6 Helix Floor",
-        "Fender Tone Master Pro",
-        "Fractal Audio FM9 MKII Turbo",
-        "TC Electronic PLETHORA X5"
+        "Zoom G3X",
+        "Zoom G3Xn",
+        "Fractal Audio FM3 MKII Turbo"
       ],
       "task": "Continue unresolved exact-model documentation and qualified hardware offers for individual LCD processors before OLED models. Retain the independent BOSS GT-Pro cursor.",
-      "qualification": "Queue order is a research priority, not a recommendation or declaration of full verification."
+      "qualification": "Queue order is a research priority, not a recommendation or declaration of full verification.",
+      "completed_checkpoints": [
+        "Line 6 Helix Floor editor/readout",
+        "Fender Tone Master Pro currentproduct conflicts",
+        "Fractal Audio FM9 MKII Turbo USB routes",
+        "TC Electronic PLETHORA X5 capacitywording/dimensionscrosscheck"
+      ]
     },
     "fender_product_conflicts": {
       "checked": "2026-10-31",
       "source": "https://www.fender.com/products/tone-master-pro",
       "finding": "Current features over200 models/over20000 IR/3minute stereo loop;detail/highlights retain over100/6000/60s. Headphone load33ohmx2 minimum16ohmx2,maximum110mWx2 with test load unstated.",
       "remaining": "Category census,IRcapacity/formats,LCDproperties,globalEXPscope and conditionverified used offer unresolved."
+    },
+    "x5_capacity_followup": {
+      "checked": "2026-10-31",
+      "source": "https://www.tcelectronic.com/en/products/0709-AIK",
+      "finding": "CurrentunlimitedBoardswordingnotnumericcapacity;historical127/75retained. OwnChinesePDFp5repeatssameHWDaxisambiguity.",
+      "manual": "https://cdn-media.empowertribe.com/0bb85b0f67404ae0b72c68ed476f083c/QSG_TE_0709-AIK_PLETHORA-X5_CN.pdf",
+      "remaining": "Onboardcapacity,dimensionsaxes,EXPglobalassignmentandwiring,screenpropertiesunresolved."
     }
   },
   "gt_pro_global_patch_level_20261031": {

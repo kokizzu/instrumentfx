@@ -543,7 +543,7 @@ Checked 2026-10-17; partial. Guitar/bass shared processor; ownership and vocal s
 | Live / buffered no-trails | Firmware1.3.6 adds **Buffered / No Trails**, retaining buffering while cutting delay/reverb tails when disengaged. Distinguish it from buffered trailing behavior and the later1.3.11 feedback change. | [Official release notes][PX5-F] |
 | Expression / MIDI mapping | **CC100 Global Expression** maps0–125 to0–100%; Hot Knobs CC107–109. MASH for slots1–5:CC70/75/80/85/90; expression modifiers CC71/76/81/86/91. Physical EXP and MIDI expression are separate control paths. | [Official X5/X3 MIDI table][PX5-C] |
 | Live / MIDI looper mapping | CC110 Record,111 Play,112 Clear,113 Pause. Values0–24/25–50/51–76/77–102/103–127 target slots1–5 respectively. Slots4–5 explicitly X5-only. CC92 tap,93 tuner,94/95 Board down/up. | [Official X5/X3 MIDI table][PX5-C] |
-| Preset memory | **127 custom Boards;75 TonePrint slots per pedal**. Factory-filled subset unresolved; Board count is not simultaneous block count. | [Product][PX5-P] |
+| Preset memory | Historical product evidence:**127 custom Boards;75 TonePrint slots per pedal**. Current page instead markets **unlimited custom pedalboards**,without a numeric onboard capacity. Preserve this source change;do not infer unlimited device memory or erase127. Factory-filled subset/current capacity unresolved;Board count is not simultaneous block count. | [Product][PX5-P] |
 | Synth / acoustic | Dedicated synth/acoustic conversion unresolved. | Unresolved |
 | I/O | Stereo quarter-inch TS inputs/outputs; TS Send/Return insert; TRS EXP; MIDI In/Thru; **Mini-B USB** for computer TonePrint/update; DC input. USB audio/power unresolved. | [QSG pp14–15][PX5-M] |
 | Power / battery / USB | **9V DC,>600mA included supply**,5.5/2.1mm centre-negative. Actual draw,battery/USB operation unresolved. | [QSG controls/specifications][PX5-M] |
@@ -584,6 +584,12 @@ Exact NEO MUSIC item27271818642 returned cache miss on this pass; preserve the h
 | Display / direct original guide | The page links a readable [manufacturer-hosted X5 QSG](https://cdn-media.empowertribe.com/069d07f7d9a3476e87a799ebe17a7483/QSG_TE_0709-AIK_PLETHORA%20X5_WW.pdf),**V3.0,©2021,25PDFpages**. It corroborates the already recorded five slot LCDs and TRS EXP,without resolving screen diagonal/color/touch or the distributor TS conflict. Printedp33 still labels298.5×116×53mm as H×W×D;axis ambiguity remains. Old endpoints and mirrored evidence are retained. |
 
 Text-only review;no local download,installation or hardware operation.
+
+### PLETHORA X5 — Board capacity and multilingual dimensions
+
+Checked **2026-10-31**. [Current own-model page][PX5-P] says unlimited custom pedalboards but each Board still allows up to five effects. “Unlimited” is not a quantified hardware-memory specification;the historical127-Board/75-TonePrint evidence remains above pending a revision-qualified reconciliation.
+
+The page also links this [manufacturer Chinese guide](https://cdn-media.empowertribe.com/0bb85b0f67404ae0b72c68ed476f083c/QSG_TE_0709-AIK_PLETHORA-X5_CN.pdf),sevenPDFpages,exactX5title. Its specifications,PDFp5,repeat298.5×116×53mm labelledheight×width×depth,1.4kg. This does not independently correct the multilingual guide’s axis ambiguity. No inferred footprint fit,local download or visual inspection.
 
 <!-- comparison evidence ends -->
 
