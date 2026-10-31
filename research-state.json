@@ -137284,5 +137284,25 @@
     ],
     "next": "Continue individualLCD processor evidence;independent generalGT-Pro cursor preserved.",
     "downloads": false
+  },
+  "b3n_patch_swap_20261101": {
+    "status": "manufacturer-documented onboard memory operation;partial",
+    "source": "https://zoomcorp.com/media/documents/E_B3n.pdf",
+    "pages": [
+      19,
+      20,
+      21
+    ],
+    "destination": "ZOOM.md#b3n--save-versus-swap-memory-operations",
+    "finding": "SAVE writesselecteddestination;SWAP exchangescurrentandselectedpatch afterYES;NO cancels.",
+    "remaining": [
+      "Physicalcontrolcensus",
+      "Headphone-layoutconflict",
+      "OutputVP assignment/endpoints/coverage",
+      "QualifiedcurrentShopeeoffers"
+    ],
+    "research_boundaries": "Originalrearimage cachemiss;generatedimageprose excluded. Searchreproduced savedusedsoldout2.125moffer;no newstockclaim.",
+    "next": "IndividualLCD processor gaps remain first;generalGT-Pro cursor preserved.",
+    "downloads": false
   }
 }
