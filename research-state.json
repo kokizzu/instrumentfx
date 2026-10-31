@@ -132275,5 +132275,42 @@
       "LCDdiagonal,touch andverifiedIndonesian new/usedoffers"
     ],
     "next": "Continue individual-LCD models before OLED/shared/unconfirmed models;independent BOSS GT-Pro general cursor unchanged"
+  },
+  "g5n_overview_reconciliation_20261031": {
+    "checked": "2026-10-31",
+    "model": "Zoom G5n",
+    "scope": "Reconcile stale current overview with already-preserved detailed findings,not new algorithm discovery",
+    "superseded_summary_rows": [
+      "| Processing | Up to **nine effects**, reorderable; V2 improves DSP efficiency. **V3 DSP budget100 points**; effect costs differ. Exceeding DSP or unit limits triggers PROCESS OVERFLOW and bypasses effects; remove/change effects to recover. Exact per-category totals ? | [V3 chart](https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf); [V2 manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf); [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) |",
+      "| Looper / drums / live | **Mono1.5–80s;stereo1.5–40s**. Undo ON halves maxima to40s/20s. Recording time:MANUAL or1–64 quarter notes; changing it deletes the phrase. 68 rhythms,tuner,output boost and TAP. Older V2 processing chart:LP-MONO/LP-MN2=7 points;LP-STEREO/LP-ST2=10. Current chart/revision equivalence,unit-slot cost,scenes and tails still unresolved. | [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/); [V2 manual,p.44](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf); [older V2 cost chart](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G5n-V2.0_FX-power-chart.pdf) |",
+      "Remaining: full footswitch/button totals and visual corroboration; display diagonal/color/touch; revision-matched category choices/DSP costs; current/later factory-memory allocation (V2 initial map established below); complete synth inventory; USB subtype/control wiring and phantom specification; IR/NAM/capture import; battery/USB supply; USB channels/routing; looper block cost; qualified used/new condition and checkout stock. Bass suitability remains unclassified. No sibling specifications substituted."
+    ],
+    "sources": [
+      {
+        "url": "https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf",
+        "identity": "©2020,Z2I-2808-02;explicitG5n3.0",
+        "recheck": "Allsixpages original extractedtext;100pointceiling,mono7/stereo10/Rhythm8"
+      },
+      {
+        "url": "https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf",
+        "scope": "Previously saved V2 one/two-unit looper andpatch-deletion evidence"
+      },
+      {
+        "url": "https://zoomcorp.com/en/jp/support/specifications/",
+        "recheck": "G5n row lists included AD-16;search snippets from other model rows not transferred"
+      }
+    ],
+    "changes": [
+      "Overview now links complete dated148/157category inventories instead ofgeneric unknown",
+      "Looper summary includes independently matched V3DSP costs andV2unit-occupancy evidence",
+      "Remaining list distinguishes confirmed catalogue footswitch count,V2factory filling,used historicaloffer andunresolved currentfields"
+    ],
+    "qualifications": [
+      "No battery/USB-bus-power positive ornegative established by recheck",
+      "2017/2020 counts not current installedtotal",
+      "Old dated provenance andoriginalrows preserved",
+      "No local download,installation ordeviceoperation"
+    ],
+    "next": "Continue LCD-first capability gaps;avoid re-auditing known counts as unknown;BOSS GT-Pro independent generalcursor unchanged"
   }
 }
