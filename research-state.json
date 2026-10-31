@@ -131113,5 +131113,13 @@
     ],
     "status": "Three later additions verified for exact G5n; installed/current aggregate not verified",
     "next": "Keep individual footswitch LCD models first; resolve remaining G5n physical and current-library gaps without borrowing G5 data. Independent general cursor remains BOSS GT-Pro."
+  },
+  "fm9_layout_semantics_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Footswitch-Functions-Guide.pdf",
+    "pages": "10–11,16–17,23",
+    "revision": "v1.3 April2022; current MKII equivalence unverified",
+    "record": "FRACTAL-AUDIO.md#fm9--layout-count-lcd-functions-and-preset-overrides",
+    "next": "Continue current MKII physical corroboration and remaining individual-LCD models; independent general cursor remains BOSS GT-Pro."
   }
 }

@@ -406,6 +406,19 @@ Checked 2026-10-31 against the [manufacturer family comparison](https://www.frac
 
 The family table repeats513W×237D×89Hmm and5.44kg for its FM9 Turbo column;this is additional manufacturer corroboration for that named version,not an explicit MKII physical specification. No downloads ordevice test.
 
+### FM9 — layout count, LCD functions and preset overrides
+
+Checked **2026-10-31** in the [manufacturer Footswitch Functions Guide](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Footswitch-Functions-Guide.pdf),v1.3,April2022,pp10–11,16–17,23. FM9 is explicitly included;current MKII/firmware12 equivalence is not established.
+
+| Field | Documented distinction / qualification |
+|---|---|
+| Display / hold-function reveal | Reveal Hold displays hold actions across the mini LCDs. Momentary and latching modes are available;ordinary latching exits after executing an action,while Sticky keeps it active. These are alternate displayed functions,not additional screens. |
+| Controls / ninth-layout basis | Disabling the **Master Layout Menu** makes that slot available as **Layout9**. This supplies a historical counting basis for eight ordinary layouts versus nine including the menu slot;it does not prove the current family/product pages use this convention. |
+| Controls / preset overrides | Layouts are global,but presets hold **24 switch definitions**,usable as overrides or numbered placeholders. They can change tap/hold actions,labels,ring colors andlinks. Overrides can be disabled globally;placeholders are a separate mechanism. Neither establishes global analog-volume assignment. |
+| Controls / linked layout timing | FM9 offers three layout-link targets:onboard switches andtwo external FC controllers. A link executes after its primary action,on switch release;it is not a configurable delay. |
+
+Exact MKII dimensions,mass andcomplete physical control count remain unverified. No download,device operation orpreset modification.
+
 
 ## VP4
 
