@@ -95,6 +95,7 @@ The [complete original comparison](MULTI-EFFECTS.md)<!-- historical-link:neural-
 | Field | Evidence and qualification |
 |---|---|
 | Expression | No built-in pedal; one external EXP/MIDI Type A socket, mutually exclusive modes. Latching/momentary documented; momentary needs Latching Emulation. Setup-article conflict retained below. [M] |
+| Expression / all-preset volume scope | **Unverified**,not No. [Current NanOS2.2.0 manual](https://neuraldsp.com/manual/nano-cortex) lists LEVEL with adjustable/reversible0–100% range;[manufacturer setup article](https://neuraldsp.com/getting-started/using-midi-on-nano-cortex) lists GAIN/BASS/MID/TREBLE/AMOUNT without LEVEL. Neither states universal assignment across presets. Calibration persistence is separate. Physical LEVEL controls mains;HP has its own knob. EXP target identity,held-position recall,bypass/phones/tail/loop coverage remain unresolved. Rechecked2026-10-31;no app/device test. |
 | K/F/B | 7 knobs **plus2 rotary footswitch encoders /2 footswitches /5 digital buttons**; two analog switches additional. [M] |
 | W×D×H; weight | **144×103×62mm;620g**. [M] |
 | Size class | Compact. |

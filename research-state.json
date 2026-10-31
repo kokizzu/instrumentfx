@@ -129721,5 +129721,13 @@
     ],
     "finding": "Editor1.6.0 explicitly compatibleMini2.2;displayidledefault30min,wakeEXP;globaloverride stillnotestablished.",
     "scope": "Full global-menu text reviewed;patchCTRL/EXP distinct;Unknown not No. OSminima and outputcoverage remain open."
+  },
+  "nano_global_scope_comparison_20261031": {
+    "sources": [
+      "https://neuraldsp.com/manual/nano-cortex",
+      "https://neuraldsp.com/getting-started/using-midi-on-nano-cortex"
+    ],
+    "finding": "Current primary LEVEL target-list conflict persists;all-preset scope unknown surfaced in canonical comparison.",
+    "preservation": "Earlier capability supplement retained;calibration not assignment;no hardware/app test."
   }
 }
