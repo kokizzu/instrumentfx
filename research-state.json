@@ -130352,9 +130352,9 @@
       "checked": "2026-10-31",
       "instruction": "Prioritize one with LCD on footswitch first",
       "next_models": [
-        "Zoom G3 remaining exact control inventory and connector formats",
-        "Fractal Audio FM3 MKII Turbo global endpoints and recall",
-        "Zoom B3n OutputVP when new setup source becomes available"
+        "Zoom G5n remaining physical controls and revision-qualified library",
+        "Fractal Audio FM9 MKII Turbo current manual and physical specifications",
+        "Fender Tone Master Pro current model-guide census"
       ],
       "task": "Continue unresolved exact-model documentation and qualified hardware offers for individual LCD processors before OLED models. Retain the independent BOSS GT-Pro cursor.",
       "qualification": "Queue order is a research priority, not a recommendation or declaration of full verification.",
@@ -130364,6 +130364,11 @@
         "Fractal Audio FM9 MKII Turbo USB routes",
         "TC Electronic PLETHORA X5 capacitywording/dimensionscrosscheck",
         "Zoom G5: original manufacturer manual p63 confirms four LCDs; moved from technology-unconfirmed group"
+      ],
+      "deferred_pending_new_evidence": [
+        "Zoom G3 exact control inventory/connector subtype: original page/mirror inaccessible; shared-manual symbols insufficient for complete count",
+        "Fractal FM3 analog global endpoints/startup recall: MIDI Initial Value excludes analog pedals",
+        "Zoom B3n OutputVP all-preset insertion/coverage: current notice retains only volume-carryover wording"
       ]
     },
     "fender_product_conflicts": {
@@ -130669,5 +130674,12 @@
     ],
     "finding": "Recording gain ±6dB controls DAW send; USB bus operation works with POWER switch OFF.",
     "limits": "Neither control is a global analog expression target. Exact USB/control connector formats and full physical control counts remain unresolved; original product/mirror access failed."
+  },
+  "b3n_tahoe_20261031": {
+    "source": "https://zoomcorp.com/en/gb/news/macos_tahoe/",
+    "published": "2026-01-23",
+    "status_as_of": "January2026",
+    "finding": "B3n and Guitar Lab Yes on both Apple silicon and Intel macOS Tahoe26 tables.",
+    "limits": "Not USB audio, a local test, Windows ARM support or global-volume assignment. Current OutputVP search reproduces retained-volume wording only; existing used Shopee offer remains stale/sold out."
   }
 }
