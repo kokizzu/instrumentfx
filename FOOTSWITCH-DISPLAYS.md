@@ -38,7 +38,7 @@ These have separate physical screens for the documented effect switches. Extra n
 
 | Brand / model | Display-layout status | Record / next check |
 |---|---|---|
-| Line 6 **M13** — partial | **Four category-colored LCD effect-unit displays**, serving A/B/C memories per unit | [Manufacturer guide-backed lead](LINE6.md#m13--partial-display-discovery). Multiple displays, not one per effect switch; outside active counts pending full profile. |
+| Line 6 **M13** — partial | **Four LCD effect-unit displays with category-colored backlights**, serving A/B/C memories per unit | [Manufacturer guide-backed lead](LINE6.md#m13--partial-display-discovery). Multiple displays, not one per effect switch; outside active counts pending full profile. |
 
 ### Shared main-screen layouts
 

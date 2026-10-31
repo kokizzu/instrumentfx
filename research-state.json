@@ -129540,6 +129540,13 @@
         "identity": "RevC,40-00-0167,10PDFpages",
         "finding": "A/B/C display state,one memory per unit;mono28/56s versusFAQ30/60 conflict.",
         "remaining": "PowerAC/DC not established by model text;3FXunits typo and factory-fill ambiguity preserved."
+      },
+      "service": {
+        "checked": "2026-10-31",
+        "source": "https://device.report/m/8b6dadc18e1869e1fcfb689afb8d1639af45e0c35440010f9209797309e2d86a",
+        "identity": "Manufacturer-authored66pageM13 servicecopy;99-040-3005;40-00-0167;2008",
+        "finding": "USPX2 output9VAC2A;15FS/4pushencoders;RGBbacklights separate from pixelcolor.",
+        "qualification": "Historical regional packout,not measured draw or Indonesian mains specification; no service execution."
       }
     },
     "collection_layout": {

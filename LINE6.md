@@ -1047,6 +1047,18 @@ PDFp6 gives **28s mono /56s half-speed**,even when effects run stereo; FAQ30/60 
 
 Rear inventory documents MIDI IN/OUT and normal guitar L/MONO input. Power text only says included Line6 supply; model-specific AC/DC and measured draw remain unresolved here. No community-post current estimates or sibling-device power specifications substituted. No download or visual audit.
 
+### M13 — historical service-document corroboration
+
+Checked 2026-10-31: [manufacturer-authored service manual reproduction](https://device.report/m/8b6dadc18e1869e1fcfb689afb8d1639af45e0c35440010f9209797309e2d86a),66 pages. Identity: M13 Stompbox Modeler service title,Line6 repair imprint,US model99-040-3005,handbook part40-00-0167 matching RevC;2008 drawings/test revisions. Host FAQs are not evidence.
+
+| Field | Historical evidence / scope |
+|---|---|
+| Power | US packout lists PX-2 transformer: **120VAC/60Hz input →9VAC/2A output**. This resolves the included supply’s AC output;2A is adapter rating,not measured device draw. DC center polarity does not describe that AC output. US mains input is not an Indonesian adapter specification; regional packout remains unverified. |
+| Controls | Factory test text expressly counts **15 footswitches and4 push encoders**. Combined with the advanced guide’s four sections×six rotary controls, **24 rotaries are derived**,not visually counted. Encoder pushes are not separate buttons; independent front-button total remains unverified. |
+| Display | Test text separately exercises LCD pixels and RGB backlights: category-colored illumination is not evidence of full-color pixel graphics. Diagonal and touch remain unverified. |
+
+No disassembly,service mode,test procedure or file download performed. Earlier unknown power/control statements remain dated provenance; these historical specifications supersede only the fields established above.
+
 ## Other Line 6 records awaiting consolidation
 
 HX Stomp and HX Stomp XL already have research in legacy pages and are not newly discovered models. HX Effects is now root-canonical above. Merge the complete remaining records and sources before retiring the old files. POD Express Black is a distinct sound library but **an exact Indonesian Shopee hardware listing was not established in this pass**; Thai marketplace results must not be labelled Indonesian evidence. Ampero One is already recorded; do not restart that stale cursor. Keep brand/category/instrument documents at repository root and do not create or run GitHub workflows.
