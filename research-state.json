@@ -132026,5 +132026,12 @@
     "record": "MELOFTY.md#axom-max--recovered-quick-guide-navigation-boundaries",
     "qualification": "Encoding-impaired original PDF; matching filing metadata/control architecture; no visual count or revision certification",
     "next": "Resolve manufacturer mini-screen technology/count and exact hardware offers before active admission"
+  },
+  "tone_master_block_preset_pool_20261031": {
+    "source": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+    "release": "1.7.53,2025-12-03",
+    "record": "FENDER.md#tone-master-pro--block-preset-pool-and-midi-expression-scope",
+    "qualification": "Reusable block settings distinct from whole-rig user locations; no device test",
+    "next": "Guide H current census still unresolved; continue individual-LCD gaps; GT-Pro cursor preserved"
   }
 }

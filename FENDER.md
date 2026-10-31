@@ -408,3 +408,15 @@ Checked **2026-10-31**, [manufacturer Model Guide 1.2.55, Rev B](https://manuals
 | Categories / Reverb (14), pp51–57 | ’63 Spring Reverb; ’63 Spring Reverb Convolution; ’65 Spring Reverb; ’65 Spring Reverb Convolution; Large Hall Reverb; Small Hall Reverb; Large Plate Reverb; Large Room Reverb; Modulated Large Hall Reverb; Modulated Small Hall Reverb; Cloud Reverb; Celestial Reverb; Nebula Reverb; Shimmer Reverb. |
 
 Together with the earlier Delay, Dynamics+EQ and Filter+Pitch lists, all **91 historical effect names** are recorded. Current names, additions and category splits remain separately qualified. No download or device test.
+
+### Tone Master Pro — block-preset pool and MIDI expression scope
+
+Checked2026-10-31 against [Fender’s original release history](https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates), **1.7.53,2025-12-03**.
+
+| Field | Revision-qualified evidence / limits |
+|---|---|
+| Memory / reusable block presets | Removes the prior **five block presets per block type** limit, replacing it with **500 total across amps/cabs/effects**. Dual Cabs and dual-microphone combo/half-stack settings gain block-preset support. This pool stores reusable block configurations; it is **not500 additional whole-rig presets**,factory sounds or simultaneous blocks. Existing504 user-preset capacity remains separate. |
+| I/O / Mic-Line loop routing | Loops3/4 can now be inserted in the Mic/Line signal path. This is a firmware-qualified routing addition, not extra physical loops. |
+| Expression / outbound MIDI | EXP1/2 can send MIDI CC expression messages to external devices. A separate fix addresses MIDI EXP4 potentially affecting Master Volume. Neither establishes direct analog all-preset master-volume assignment or universal output coverage. |
+
+Current Guide H category census remains unfinished; unsuccessful mirror searches do not validate third-party totals. No download,software installation,preset edit ordevice operation.
