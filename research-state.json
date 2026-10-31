@@ -137151,5 +137151,14 @@
     "destination": "ZOOM.md#g5--patch-preservation-initialization-and-bank-switch-timing",
     "qualification": "Own manual text on previously identity-checked mirror;no hardware test orcomplete visual census. Firmware-specific reset contents andexact icon-only gestures unresolved.",
     "priority": "Confirmed individual-LCD processor;independent general cursor preserved"
+  },
+  "g11_independent_control_census_20261101": {
+    "status": "independent historical corroboration;partial",
+    "source": "https://www.guitarworld.com/reviews/zoom-g11-review",
+    "publication": "Trevor Curwen;2020-11-26",
+    "destination": "ZOOM.md#g11--independent-historical-control-count-corroboration",
+    "qualification": "Original hands-on review supports historical27/11 count;not manufacturer visual verification. Launch-era memory andIR figures remain superseded.",
+    "next": "Confirmed individual-LCD gaps;do not repeat unchanged inaccessible panel screenshots.",
+    "g5n_recheck": "No new power/display proof from exact-model searches;V2 screenshot returned no inspectable image. Existing unknowns retained."
   }
 }

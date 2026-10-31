@@ -4639,6 +4639,12 @@ Checked **2026-11-01**, [own V2 manual,printed pp86–88](https://zoomcorp.com/d
 
 <!-- comparison evidence ends -->
 
+### G11 — independent historical control-count corroboration
+
+Checked **2026-11-01**. [Trevor Curwen’s original hands-on review, Guitar World,26 November2020](https://www.guitarworld.com/reviews/zoom-g11-review) describes five effect sections with four parameter knobs each. Its specification list independently identifies **20 effect knobs**,six amplifier controls (Gain,Bass,Middle,Treble,Presence,Volume),and Master output: **27 rotaries by arithmetic**. It also distinguishes five effect switches from six other footswitches. This supports the older parsed-manual27/11 count;it is independent historical observation,not a manufacturer specification or our visual inspection.
+
+The review’s240-patch and130-user-IR figures belong to its launch-era context and do not replace the V2 memory map. Separate-button census,auxiliary-display properties and manufacturer visual corroboration remain unresolved. No current price,installed firmware,device test orfully verified status is established.
+
 ### G11 — complete original finding and unresolved control-count conflict
 
 The2026-10-15 original below reports27rotaries from textual panel descriptions; the later root record deliberately leaves the full total unverified pending successful visual corroboration. Preserve both evidence states rather than silently dropping the historical count or claiming visual verification. Its Dynamics15 count and V2 quick-guide URL were also absent from the root record. All original facts,dates,price qualifications and URLs are now retained,with current comparison selection above unchanged except for the qualified Dynamics count. No source deleted or new market check implied.
