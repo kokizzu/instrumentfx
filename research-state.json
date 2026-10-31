@@ -138213,5 +138213,28 @@
       "current": "Existing513W×237Dmm exceeds preference;the later Okada exact-MKII finding supplies regional corroboration,while direct current manufacturer confirmation remains open."
     },
     "active_counts_changed": false
+  },
+  "b3n_summary_reconciliation_20261101": {
+    "checked": "2026-11-01",
+    "basis": [
+      "https://zoomcorp.com/ja/jp/multi-effects/bass-effects/b3n/",
+      "https://morgancayre.com/liseuse-pdf-url/gp339.pdf"
+    ],
+    "changes": [
+      {
+        "previous": "complete footswitch/button totals require panel confirmation.",
+        "current": "Independent Guitar Part issue339 reports six footswitches; manufacturer/visual confirmation and the separate-button census remain open."
+      },
+      {
+        "previous": "Physical layout and headphone socket size remain unresolved.",
+        "current": "Physical socket layout remains unresolved. The later exact Japanese product evidence above supports a 6.35mm stereo headphone connector; it supersedes only the earlier size uncertainty, not the separate-versus-shared socket conflict."
+      },
+      {
+        "previous": "Full F/B counts,explicit display specifications,",
+        "current": "Manufacturer/visual footswitch confirmation (independent review reports six),separate-button count,display diagonal/color/touch,"
+      }
+    ],
+    "qualification": "Summary correction using existing qualified findings. Japanese connector wording re-read; no new visual inspection, hardware test, inventory admission or global-volume conclusion.",
+    "active_counts_changed": false
   }
 }
