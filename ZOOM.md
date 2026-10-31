@@ -3109,7 +3109,7 @@ Original guitar multi-effects, distinct from G3X and G3n. Checked 2026-10-17; pa
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression / controls K/F/B | External FP01/FP02 expression or FS01 footswitch via CONTROL IN. Built-in pedal belongs to G3X; G3 toe N/A. Three main footswitches; complete knob/button counts pending panel verification. | [Manual][G3-M] pp4–5; [Product][G3-P] |
+| Expression / controls K/F/B | External FP01/FP02 expression or FS01 footswitch via CONTROL IN. Built-in pedal belongs to G3X; G3 toe N/A. Three main footswitches; catalogue supports nine parameter knobs (three per effect panel); complete rotary/button census pending panel verification. | [Manual][G3-M] pp4–5; [Product][G3-P] |
 | External control assignments | Per-patch TOTAL settings. FP01/FP02 controls volume/effect parameters; OUTPUT VOL excludes rhythm/looper level. Manual min/max can invert response; AUTO ASSIGN can control several supported effects together and fixes their ranges. FS01 supports effect-specific functions, bypass/mute, tap tempo or no assignment; assigned effect must be on. | [Current official manual][G3-MC] pp16–19 |
 | Display | **Three LCDs**, explicitly specified by the shared manual p59. The [current exact G3 product page](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3/) confirms three displays with dedicated switches/knobs but does not independently name LCD technology. Earlier backlit/dot-matrix description remains historical source evidence; contrast/dimming are independently documented below. Diagonal, color depth and touch remain unverified. | [Product][G3-P]; [current manual][G3-MC] pp22–23 |
 | Display / backlight and individual contrast | Shared manufacturer manual printedpp22–23: backlight setting offers **ON or1–30seconds** before dimming;left,center and right displays have separate contrast controls. Do not equate timed dimming with the25-minute ECO standby. Contrast numeric range/default and LCD diagonal/color/touch remain unverified. | [Own shared manual][G3-MC] pp22–23;rechecked2026-10-31 |
@@ -3229,6 +3229,16 @@ Checked **2026-10-31** against the [manufacturer Edit&Share manual](https://zoom
 | Editor / sleep-state limitation | P12 states **Edit&Share does not support computer sleep**;if device editing stops responding after sleep,the documented recovery is restarting Edit&Share. This is an editor-session restriction,not proof of USB-audio failure orcurrent macOS/Windows compatibility. |
 
 No import,restart,firmware change orhardware test performed. Current host certification remains unresolved;the older listed OS ranges remain separately preserved.
+
+
+### G3 — manufacturer-catalogue parameter controls and switching claim
+
+Checked **2026-10-31** against the original ZOOM effects catalogue on its [regional manufacturer mirror](https://zoomrussia.ru/manuals/FX_Catalog_E.pdf),PDF page6 of8,G3/G3X spread explicitly describing G3 version2.0. The extracted text reverses word order;the model names,manufacturer contact block andversion-specific introduction identify the source. No visual panel inspection ordownload.
+
+| Field | Evidence / qualification |
+|---|---|
+| Controls / parameter-knob subtotal (G3 v2.0 catalogue) | Three effect panels,each with **three knobs**,support **nine parameter knobs**. This is a documented subtotal,not a completed census of all rotary controls orseparate buttons;three main footswitches remain independently documented. |
+| Live / historical patch-switch claim (G3 v2.0 catalogue) | Manufacturer advertises **1ms patch changes**. Test conditions are unpublished here;this is not measured latency,proof of gapless audio ordelay/reverb spillover. The separate two-switch bank-overlap warning still applies. |
 
 <!-- comparison evidence ends -->
 
