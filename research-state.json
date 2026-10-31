@@ -133604,6 +133604,11 @@
       "file": "FRACTAL-AUDIO.md",
       "model": "FM9 original",
       "heading": "### FM9 original — dated processing census, synth and looper"
+    },
+    {
+      "file": "FRACTAL-AUDIO.md",
+      "model": "FM3 MKII Turbo",
+      "heading": "### FM3 MKII Turbo — local pedal and switch socket modes"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -134655,5 +134660,18 @@
     "condition": "Unknown; excluded from used/new ranges",
     "qualifications": "Seven-day preorder/stale Sep8–11 delivery does not prove current checkout; working state/revision/adapter/bundle/warranty/voucher unknown; late-delivery voucher not immediate discount",
     "model": "Original G5; not G5n"
+  },
+  "fm3_mkii_local_socket_modes_20261101": {
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+    "revision": "7.x explicitly includes MKII Turbo",
+    "pages": [
+      12,
+      14,
+      104
+    ],
+    "modes": "One EXP or1tip switch or2tip/ring switches per port; combined EXP+toe on same port not proven",
+    "expression": "10–100k linear TRS; calibration separate from global assignment",
+    "switches": "Tip-sleeve/ring-sleeve; single mode disables ring; follow hardware/virtual toggle; normal make/reverse break",
+    "remaining": "Specific toe compatibility, global endpoints/recall andfirmware13 behavior unknown"
   }
 }

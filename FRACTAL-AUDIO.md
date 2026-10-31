@@ -443,6 +443,14 @@ Checked **2026-11-01**, [manufacturer Blocks Guide,June2023,pp4–6](https://www
 
 No download ordevice operation. Global-volume numeric endpoints andanalog held-position recall remain unresolved.
 
+### FM3 MKII Turbo — local pedal and switch socket modes
+
+Checked **2026-11-01**, [own 7.x manual, printed pp12,14,104](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf), explicitly covering MKII Turbo. Each rear pedal port selects **one expression pedal, one tip switch, or two tip/ring switches**. These are alternative modes; simultaneous expression plus toe switching on one socket is not established. A separately wired toe switch could use the other port only if its electrical type matches; no specific toe-pedal model is certified here.
+
+Expression requires **10–100kΩ linear resistance and TRS cable**. Calibration: select Calibrate, ENTER, move through the full range several times, ENTER again. Calibration alone does not assign global volume or establish endpoints/recall.
+
+Single switches connect tip–sleeve; dual switches add ring–sleeve. One-switch mode disables the ring source. Switches need no calibration; Follow Hardware preserves physical behavior, while Virtual Toggle turns momentary actions into alternating states. Normal assumes momentary-make; Reverse accommodates momentary-break. Current firmware13 behavior remains untested.
+
 ## FM3 original
 
 Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct from MKII Turbo; not fully verified and no ownership assertion. The earlier discovery heading and complete body follow as historical evidence. Their outside-inventory statements describe pre-admission checkpoints. This admission does not settle hardware variants, market availability or remaining specifications.
