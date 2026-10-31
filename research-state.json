@@ -131508,5 +131508,17 @@
     },
     "remaining": "OutputVP all-preset assignment,position/endpoints,bypass/phones/tail/loop coverage; current pool andhardware/price gaps retained",
     "next": "B3n exact-model unresolved fields; independent BOSS GT-Pro general cursor retained."
+  },
+  "hx_effects_strip_size_20261031": {
+    "checked": "2026-10-31",
+    "record": "LINE6.md#hx-effects",
+    "sources": [
+      "https://line6.com/data/6/0a020a41bf435f876fd2b5e0e/application/pdf/",
+      "https://line6.com/data/6/0a020a41033e604695e606367/application/pdf/"
+    ],
+    "finding": "Both primary PDFs specify sixLCDstrips,nominal2in/5cm;axis unspecified",
+    "index_discrepancy": "Search conversion of200729matrix says2.75cm,butunderlying primaryPDFp1reads2in/5cm;not adopted ashardwarevariation",
+    "remaining": "Actual diagonal/active-area,color andtouch;globalvolume assignment/coverage gaps unchanged",
+    "next": "Continue LCD-first exact-model gaps,including Helix Floor separate published strip dimensions;independent BOSS GT-Pro cursor retained."
   }
 }
