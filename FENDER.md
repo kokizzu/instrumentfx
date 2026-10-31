@@ -316,3 +316,14 @@ Checked **2026-10-31** in [manufacturer firmware1.5 manual reproduction](https:/
 | USB / dry-feed level | Mixer **PRE(default)** sends USB3/4 before faders;**POST** follows their faders. These are dry-feed mixer controls,not proof of EXP attenuation of recording,monitor playback,headphones,tails orloops. |
 
 No download ordevice operation. IR import formats/slot capacity andcurrent full-category census remain unresolved.
+
+### Tone Master Pro — looper assignments and DAW transport
+
+Checked **2026-10-31** against [manufacturer release history](https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates). Revision-qualified instructions,not a hardware test.
+
+| Field | Documented behavior / qualification |
+|---|---|
+| Looper /1.8.45 foot assignments | **June3,2026:** EZ Looper cycles Record/Play/Overdub;double-tap stops. Separate Play/Stop andRecord/Overdub assignments andindividual Reverse,Half-Speed,Undo are available. These operate the existing global looper,not additional blocks. Tuner exit on preset change is separately configurable underGlobal Settings→Footswitch. |
+| USB /1.7.69 DAW control | **January13,2026:** hold FS MODE+TAP two seconds for DAW Mode with **Fender Studio Pro8.0**. Functions:Play,Stop,Record,Return-to-Zero,Loop,Click,Punch,Pre-Roll. This is documented DAW integration,not compatibility certification for every DAW ornew standalone looper capacity. |
+
+Fender’s [Ireland product Downloads](https://ie.fender.com/products/tone-master-pro?variant=50608278241567) directly links [Model GuideH](https://www.fmicassets.com/Damroot/Original/10146/OM_2274900000_Tone-Master-Pro-Model-Guide-H_EN.pdf),corroborating manufacturer provenance beyond the earlier community lead. The reader still rejects its document/pdf content type;full current category census remains unfinished. No download,installation ordevice operation.
