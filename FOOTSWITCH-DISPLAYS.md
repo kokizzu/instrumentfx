@@ -44,6 +44,7 @@ These have separate physical screens for the documented effect switches. Extra n
 
 | Brand / model | Display-layout status | Record / next check |
 |---|---|---|
+| Fractal Audio **AM4** — shared-screen comparison | **Shared480×272 color LCD**, with four switches and separate LEDs in own panel inventory | [Exact AM4 record](FRACTAL-AUDIO.md#am4). Contrast and LED brightness are separate; no individual strip LCDs documented. |
 | Fractal Audio **VP4** — shared-screen comparison | **Shared color LCD with separate footswitch LEDs** in manual v1.06 panel inventory | [Exact VP4 record](FRACTAL-AUDIO.md#vp4). Individual switch LCDs are not documented; FM3/FM9 mini-screen layouts do not transfer. |
 | Neural DSP **Quad Cortex** | **Shared7-inch main-screen Gig View**, showing switch assignments rather than separate strip screens | [Manufacturer4.1.1 manual qualification](NEURAL-DSP.md#quad-cortex). Preset/Scene/Stomp/Hybrid labels are screen layouts, not extra hardware displays. |
 

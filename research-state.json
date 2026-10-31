@@ -129692,6 +129692,14 @@
         "variation": "441597194469",
         "qualification": "Unresolved hardware variation;excluded from price lower bound."
       }
+    },
+    "am4": {
+      "checked": "2026-10-31",
+      "source": "https://www.fractalaudio.com/downloads/manuals/AM4/AM4-Owners-Manual.pdf",
+      "revision": "1.0.2,pp7–8,56,58",
+      "finding": "Shared main480×272LCD;separate switchLEDs;contrast0–100%,LEDbrightness1–100%.",
+      "classification": "Shared-screen comparison,not individual strip match.",
+      "remaining": "Diagonal/touch unverified;no visual/device test."
     }
   }
 }
