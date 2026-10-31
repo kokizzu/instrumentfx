@@ -53,6 +53,18 @@ Checked 2026-10-31 against the [exact manufacturer page](https://rjmmusic.com/pr
 | Memory / software | Product384 presets versus [Manual4.1](https://newsite.rjmmusic.com/download-content/MMGT/Mastermind%20GT%20Manual-4.1.pdf)768: revision conflict retained.16 button pages;Mac/PC editor, minimum OS unknown. |
 | Remaining | Complete current profile and exact Shopee Indonesia condition, stock, bundle and used/new IDR evidence pending. No sibling specifications substituted. |
 
+### GT/16 — revision-qualified LCD controls and power
+
+Checked2026-10-31 against [manufacturer Manual4.1,2018-09-11](https://docs.rjmmusic.com/download-content/MMGT/Mastermind%20GT%20Manual-4.1.pdf), printedpp1–7,72. It explicitly covers GT/16:
+
+- **16 footswitches plus two setup soft buttons**. Individual graphic LCDs have RGB backlights; full-color pixel rendering, diagonal, resolution and touch remain unverified.
+- Default five-preset banks: Bank± previews labels; a preset press confirms the change. This is configurable bank navigation, not an immutable sequential preset± pair. IA Mode can expose15 IA switches.
+- GT/16 body/mass corroborate the product figures. Manual **12VDC/1.0A** differs from current **1.2A**; generic supply guidance separately requests at least2A. No measured draw or hardware-revision explanation.
+- Two accessory outputs share **100mA total**,9VDC center-negative. Manual XLR sockets are GT/22-only; no GT/16 XLR inferred.
+- USB-B presents a MIDI interface; this does not establish audio or bus power. Historical768-preset versus product384 conflict remains.
+
+The [exact GT/16 product page](https://rjmmusic.com/products/mastermind-gt-16-midi-foot-controller) additionally specifies16 connected devices, one-tap PC transmission to all16 and IA sequences of up to20 CC/PC/Note messages. These are MIDI limits, not audio-effect capacity. Page says sold out; that is manufacturer-store status, not Indonesian availability. Exact Shopee GT16/GT/16 searches returned no indexed hardware item on this pass. Used/new IDR, seller, condition, bundle and local stock remain unverified. No download or hardware test.
+
 ## Mastermind GT/22
 
 Checked 2026-10-31 against the [exact manufacturer page](https://rjmmusic.com/products/mastermind-gt-22-midi-foot-controller). MIDI controller, outside active audio processor/brand counts. GT/10 and GT/16 specifications are not substituted.

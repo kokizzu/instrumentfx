@@ -131953,5 +131953,16 @@
     "shopee": "Exact queries returned no indexed item; unknown is not unavailable",
     "next": "Other individual-LCD model gaps; preserve general GT-Pro cursor",
     "hardware_test": false
+  },
+  "rjm_gt16_manual_profile_20261031": {
+    "checked": "2026-10-31",
+    "sources": [
+      "https://rjmmusic.com/products/mastermind-gt-16-midi-foot-controller",
+      "https://docs.rjmmusic.com/download-content/MMGT/Mastermind%20GT%20Manual-4.1.pdf"
+    ],
+    "record": "RJM-MUSIC.md#gt16--revision-qualified-lcd-controls-and-power",
+    "qualification": "Historical manual explicitly includes model; current-equivalence unknown; power and memory conflicts retained",
+    "market": "No exact Shopee result; local availability unknown",
+    "next": "Continue individual-LCD processor gaps; independent GT-Pro cursor retained"
   }
 }
