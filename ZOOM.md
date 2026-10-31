@@ -3218,6 +3218,18 @@ Checked **2026-10-31** in indexed original [manufacturer G3/G3X manual](https://
 
 No device operation,preset change ordownload. Per-patch TOTAL expression assignment remains separate from navigation.
 
+
+### G3 — Edit&Share patch migration and sleep limitations
+
+Checked **2026-10-31** against the [manufacturer Edit&Share manual](https://zoomcorp.com/media/documents/EditShare_Operation_Manual_English_2.pdf),13 pages,document identifier **Edit&Share-Manual-E-5**. Its G3-specific version conditions are explicit;the identifier is not an application version. Original text inspected,no software downloaded.
+
+| Field | Documented compatibility / qualification |
+|---|---|
+| Editor / historical G3 patch import | Pp7,10 permit importing **G3 v1.12-or-earlier patches and patch groups into G3 v2.00-or-later**. P12 warns that delay-time values exceeding the later limits are reduced to their maxima during import. Successful import therefore does not guarantee identical parameter values orsound. This is directional patch compatibility,not universal interchange,IR loading orNAM conversion. |
+| Editor / sleep-state limitation | P12 states **Edit&Share does not support computer sleep**;if device editing stops responding after sleep,the documented recovery is restarting Edit&Share. This is an editor-session restriction,not proof of USB-audio failure orcurrent macOS/Windows compatibility. |
+
+No import,restart,firmware change orhardware test performed. Current host certification remains unresolved;the older listed OS ranges remain separately preserved.
+
 <!-- comparison evidence ends -->
 
 Multi-model Hope Music listing G3/G3X/G3XN, shop703817770/item11099808237, showed Rp1,899,000–2,699,000 across five unresolved variations. Not assigned to G3. [Listing](https://shopee.co.id/Efek-Zoom-G3-G3X-G3XN-i.703817770.11099808237).

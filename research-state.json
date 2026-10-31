@@ -132899,5 +132899,17 @@
     "finding": "Added FS2/3 sequential patch pair anddistinct two-switch bank gestures;mode dependence andoverlap preserved.",
     "limits": "No panel image/fullPDF/device test;wrap,latency,spillover andglobal volume not established.",
     "next": "Continue LCD-first exact-model gaps andqualified Shopee discovery;independent BOSS GT-Pro cursor preserved."
+  },
+  "g3_editshare_migration_20261031": {
+    "source": "https://zoomcorp.com/media/documents/EditShare_Operation_Manual_English_2.pdf",
+    "identifier": "Edit&Share-Manual-E-5;13pages",
+    "pages": [
+      7,
+      10,
+      12
+    ],
+    "finding": "Added G3 old-to-new patch/group import conditions,delay-time clamping andeditor sleep limitation.",
+    "limits": "No app/firmware/hardware operation;no new current-OS certification. Numeric per-effect table mapping not adopted fromlost effect-name graphics.",
+    "next": "Continue LCD-first exact-model documentation andqualified Shopee discovery;independent BOSS GT-Pro cursor preserved."
   }
 }
