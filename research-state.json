@@ -129380,6 +129380,13 @@
       "switches": 8,
       "lcd_screens": 4,
       "scope": "Multi-screen controller, not one per switch; outside audio counts."
+    },
+    "quad_cortex": {
+      "checked": "2026-10-31",
+      "source": "https://neuraldsp.com/manual/quad-cortex",
+      "revision": "4.1.1",
+      "classification": "Shared-main-screen Gig View; not individual physical switch strips.",
+      "scope": "Original full Quad Cortex only; no Mini transfer."
     }
   }
 }
