@@ -129394,6 +129394,13 @@
       "revision": "V2.0, printed pp3–5",
       "finding": "Four display/knob/footswitch units plus separate Overview Display.",
       "scope": "Existing model; no inventory admission or visual inspection."
+    },
+    "zoom_g11": {
+      "checked": "2026-10-31",
+      "source": "https://zoomcorp.com/documents/461/E_G11v2.pdf",
+      "revision": "V2, printed pp12,23,97",
+      "finding": "Five effect LCD/control panels; separate amplifier LCD and main touchscreen.",
+      "scope": "Existing model; no new admission. Auxiliary diagonal/color/touch remain unknown."
     }
   }
 }
