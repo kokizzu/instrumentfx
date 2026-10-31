@@ -327,6 +327,15 @@ Official sources read2026-10-17;manual2022-08,firmware3.x,original/Turbo cover. 
 
 Own pedal specification: TRS10–100kΩ; tip supply/ring return/sleeve ground. Volume endpoints, position recall, bypass/phones/recorded-loop coverage remain unknown. Existing historical513W×237Dmm exceeds preference, but exact MKII dimensions remain unresolved. Dedicated phones are already documented; sequential onboard preset down/up is not newly verified. No device operated or firmware installed.
 
+### FM9 — preset navigation and mini-display functions
+
+Checked2026-10-31: [manufacturer Footswitch Functions Guide](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Footswitch-Functions-Guide.pdf),**v1.3,April2022,printedpp2,5–6**,explicitly includes FM9 onboard switches. It predates MKII;current firmware12 equivalence and default assignments remain unverified.
+
+| Field | Documented capability / qualification |
+|---|---|
+| Controls / configurable preset down-up | **Preset Increment/Decrement** supports step**+1 or−1**,configurable wrap and lower/upper preset limits. This is a documented sequential-preset function distinct from Bank Inc/Dec;assign through EZ or Edit Layout/Switch. It does not prove an untouched factory layout already supplies a dedicated down/up pair. |
+| Display / preset-switch labels | Available labels depend on function: target name/number,bank position,custom text,toggle-pair numbers,current/destination name or number,and action/step size. Names use the **first10characters**. A configurable label is not another physical LCD or a published strip diagonal. |
+
 ## VP4
 
 Admitted 2026-10-28 as a **partial model**, not fully verified. Own manufacturer product/manual establish effects-only guitar/bass multi-effects. All earlier lead-stage bodies and anchors remain below; their outside-inventory status is historical and superseded only by this admission. No ownership or live-market availability inferred.
