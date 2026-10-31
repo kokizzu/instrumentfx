@@ -133503,6 +133503,11 @@
       "file": "LINE6.md",
       "model": "M13",
       "heading": "### M13 — manufacturer routing legend and lifecycle"
+    },
+    {
+      "file": "ZOOM.md",
+      "model": "G5n",
+      "heading": "### G5n — additional sold-out Destiny Sound offer"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -133904,6 +133909,20 @@
     "manufacturing_end_as_printed": "12/1/2021",
     "qualification": "Retail inventory mayremain;not liveShopee stock,newcondition orendofallsupport.",
     "next": "Recover original peralgorithm stereo table;retain LCDdiagonal/touch,fullbuttons,globalvolumeoverride andcondition-qualifiedIDR gaps.",
+    "downloads": false
+  },
+  "g5n_destiny_hardware_offer_20261101": {
+    "checked": "2026-11-01",
+    "priority": "Individual LCD at effect footswitch",
+    "source": "https://shopee.co.id/Zoom-G5n-Multi-effects-Processor-with-Expression-Pedal-i.10671590.228226741",
+    "shop_id": "10671590",
+    "item_id": "228226741",
+    "ask_idr": 4239000,
+    "status": "Habis; three/four-month reader snapshots; June11 delivery stale",
+    "condition": "Unknown",
+    "range_eligible": false,
+    "qualification": "Historical ask; working state,revision,bundle,adapter,warranty andcheckout unknown. Voucher not deducted.",
+    "remaining": "USB channels,power alternatives,separate-button count andLCD diagonal/color/touch remain unknown; earlier manufacturer sources did not resolve them.",
     "downloads": false
   }
 }

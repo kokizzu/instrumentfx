@@ -4245,6 +4245,10 @@ This resolves the published total only. The [own V2 manual](https://zoomcorp.com
 
 Checked **2026-11-01**, [manufacturer G5n version history,Z2I-2935-02](https://zoomcorp.com/documents/3435/G5n_System_Firmware_Version_History_ver300_en.pdf),one-page original. **2.00,February2017** fixes a white square on the Overview screen when entering PC Mode during patch-name editing,andshortens Guitar Lab connection time. **3.00,April2018** separately improves tuner display. These are revision-specific software fixes,not current defect claims,new physical screens orchanged LCD specifications. Installed-version behavior remains untested. No download ordevice operation.
 
+### G5n — additional sold-out Destiny Sound offer
+
+Checked **2026-11-01**. [Exact G5n hardware listing](https://shopee.co.id/Zoom-G5n-Multi-effects-Processor-with-Expression-Pedal-i.10671590.228226741),shop10671590/item228226741: **Rp4.239.000,Habis**,Destiny Sound,KotaJakartaUtara. Search and opened reader snapshots are three/four months old;the opened body retains a June11 delivery promise. Condition,working state,firmware,bundle,adapter,warranty andcheckout total are unknown. Historical condition-unverified ask only;excluded from live availability andnew/used price ranges. Late-delivery voucher is not deducted. No transaction,local download ordevice test.
+
 ## G6
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
