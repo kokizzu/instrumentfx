@@ -134677,7 +134677,10 @@
       "https://wiki.mod.audio/wiki/Developers",
       "https://wiki.mod.audio/wiki/MOD_Duo_Device_Settings",
       "https://wiki.mod.audio/wiki/MOD_Web_GUI_User_Guide",
-      "https://mod.audio/mod-duo/"
+      "https://mod.audio/mod-duo/",
+      "https://pedalboards.mod.audio/plugins/aHR0cHM6Ly9tb2QuYXVkaW8vcGx1Z2lucy9Db252b2x1dGlvbkxvYWRlcg==",
+      "https://wiki.mod.audio/wiki/File_handling",
+      "https://mod.audio/mod-mod-os-update/"
     ],
     "lcd": "2LCDs;2.7in vs2.8in sourceconflict;dedicatedswitchplacementunresolved",
     "direct_analog_expression": "No,explicitguide;MIDI/ControlChain conversion separate",
@@ -134708,6 +134711,15 @@
       "library": "Over400freeplugins available notinstalled/algorithm/concurrencycount",
       "adapter": "100–240VAC50–60Hz input,notunitDCrequirement",
       "active": false
+    },
+    "ir_lcd_followup": {
+      "checked": "2026-11-01",
+      "plugin": "MOD/DISTRHOConvolutionLoaderv1:2.0-23 explicitlyDuo,WAV/FLAC,stereoprocessing;48k24bitWAVrecommended",
+      "length": "Less than15sDuoX/Dwarf maximum;Duo numericalmaximumunknown;genericwiki2048samplelimit retainedasconflict",
+      "tails": "PluginTrails enableddecays onpluginbypass,disabledcuts;notglobalvolume/wholedevice/presetswitchproof",
+      "lcd_os110": "Headerspedalboard/snapshot;FootNavprevious/nextnames;LEDblinkuntilloaded;momentarymode/LEDlistcolorsseparate",
+      "admission": "Stillpartialinactive:completeplugin/categoryprofile andpanelplacement notclosed;newIRfindingnotfullyverifiedmodel",
+      "next": "Inspectcompatibleplugin-specificNAM/synth/looper evidence andfullprofile beforeadmission;avoidrepeatingmenus"
     }
   },
   "zoom_g5_additional_shopee_20261101": {
