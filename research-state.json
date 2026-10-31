@@ -129467,7 +129467,14 @@
       "source": "https://zoomcorp.com/documents/461/E_G11v2.pdf",
       "revision": "V2, printed pp12,23,97",
       "finding": "Five effect LCD/control panels; separate amplifier LCD and main touchscreen.",
-      "scope": "Existing model; no new admission. Auxiliary diagonal/color/touch remain unknown."
+      "scope": "Existing model; no new admission. Auxiliary diagonal/color/touch remain unknown.",
+      "adjustments": {
+        "checked": "2026-10-31",
+        "source": "https://zoomcorp.com/documents/461/E_G11v2.pdf",
+        "pages": "97–98",
+        "finding": "Touchscreen brightness separate from LCD1–5/AMP contrast;ECO is10-hour unused unit poweroff,not display-only sleep.",
+        "remaining": "Auxiliary size/color/touch and numeric adjustment ranges unverified."
+      }
     },
     "zoom_g3": {
       "checked": "2026-10-31",
