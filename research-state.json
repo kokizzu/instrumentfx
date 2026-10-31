@@ -136980,5 +136980,19 @@
     "revision": "Manufacturer-authored firmware2.3.0+ manual, pp7,10,12",
     "finding": "ACE controller type sensed only at power-up; B/X tap role loses patchB recall;Mixture can double dry contribution andSplit requires both outputs.",
     "remaining": "Current2.5.1 equivalence,global expression volume,heldposition andbypass/headphone/tail/loop coverage unresolved. No software downloaded ordevice operated;LCD-priority queue unchanged."
+  },
+  "fm3_reveal_hold_modes_20261101": {
+    "model": "FM3 MKII Turbo",
+    "checked": "2026-11-01",
+    "sources": [
+      "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Footswitch-Functions-Guide.pdf",
+      "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf"
+    ],
+    "finding": "Guide v1.3 April2022 pp2,10 expressly includes FM3 onboard switches. Reveal Hold has momentary/latching modes; normal latching permits one tapped Hold action then exits; Sticky persists until manually toggled. 7.x MKII-covered manual references guide; firmware13 untested.",
+    "unknown": [
+      "current firmware equivalence",
+      "global expression endpoints and held-position recall"
+    ],
+    "next": "Individual-LCD processor gaps remain first; independent general BOSS GT-Pro cursor preserved."
   }
 }

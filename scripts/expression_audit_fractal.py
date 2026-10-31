@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(fractal): qualify FM3 preset LCD definitions and overrides'))
+    print(git('commit','-m','research(fractal): document FM3 LCD reveal-hold action modes'))
