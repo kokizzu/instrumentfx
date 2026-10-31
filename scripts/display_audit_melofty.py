@@ -18,5 +18,5 @@ git("add", "--", *sorted(changed))
 print(git("diff", "--cached", "--stat"))
 message = "docs: collect requested footswitch display processors and controllers" if sys.argv[1:] == ["collection"] else "research(melofty): add AXOM MAX footswitch display lead"
 if sys.argv[1:] == ["morningstar"]:
-    message = "research(morningstar): distinguish MC6 PRO screens and switches"
+    message = "research(morningstar): distinguish MC8 PRO screens and switches"
 print(git("commit", "-m", message))

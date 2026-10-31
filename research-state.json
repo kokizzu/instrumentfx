@@ -129372,6 +129372,14 @@
       "switches": 6,
       "lcd_screens": 3,
       "scope": "Multi-screen MIDI controller, not one screen per switch; outside audio counts."
+    },
+    "morningstar_mc8pro": {
+      "checked": "2026-10-31",
+      "source": "https://help.morningstar.io/en/article/mc8-pro-user-manual-1yqqr1r/",
+      "root": "MORNINGSTAR.md#mc8-pro",
+      "switches": 8,
+      "lcd_screens": 4,
+      "scope": "Multi-screen controller, not one per switch; outside audio counts."
     }
   }
 }
