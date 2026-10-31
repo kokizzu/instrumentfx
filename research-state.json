@@ -129350,7 +129350,18 @@
     "headrush_prime": {
       "checked": "2026-10-31",
       "source": "https://www.headrushfx.com/products/prime/index.html",
-      "finding": "Twelve OLED scribble strips explicitly assigned one per footswitch."
+      "finding": "Twelve OLED scribble strips explicitly assigned one per footswitch.",
+      "shopee_followup": {
+        "checked": "2026-10-31",
+        "source": "https://shopee.co.id/HEADRUSH-PRIME-GUITAR-EFFECT-AMP-MODELLING-PROCESSOR-i.440477624.27890256567",
+        "seller": "ROCKPIZZ MUSIC",
+        "shop_id": "440477624",
+        "item_id": "27890256567",
+        "idr": 21500000,
+        "condition": "unverified",
+        "access": "Two-month-old search/direct cache; current stock and checkout unknown.",
+        "excluded": "Flex Prime offers not transferred; existing used offer remains Habis."
+      }
     },
     "headrush_pedalboard": {
       "checked": "2026-10-31",

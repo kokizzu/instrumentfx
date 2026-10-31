@@ -441,6 +441,7 @@ Observed **2026-10-16** through public page text; stock, condition and contents 
 |---|---:|---|
 | Explicit SECOND/BEKAS, **sold out** | **Rp15.400.000** | [BANGBONGMUSICBEKASI,1149776042/54402465704](https://shopee.co.id/Headrush-Prime-Guitar-Multi-Effect-Amp-Modelling-Processor-Second-Bekas-i.1149776042.54402465704), Bekasi. **Habis**; historical ask, not available used stock or a completed sale. Grade/accessories/warranty unknown |
 | Retail, **with voucher** | **Rp22.789.000** | [HOLY MUSIC,945642322/52161712736](https://shopee.co.id/HEADRUSH-PRIME-%E2%80%93-Next-Generation-Guitar-FX-Amp-Modeler-and-Vocal-Processor-Touchscreen-Pedalboard-Original-i.945642322.52161712736), Jakarta Utara. **Dengan Voucher**, eligibility and checkout unknown; cached relative delivery is not current stock. New condition, bundle, region/warranty and shipping unconfirmed |
+| Condition-unverified retail listing, checked2026-10-31 | **Rp21.500.000** | [ROCKPIZZ MUSIC,440477624/27890256567](https://shopee.co.id/HEADRUSH-PRIME-GUITAR-EFFECT-AMP-MODELLING-PROCESSOR-i.440477624.27890256567), Kota Denpasar. Exact Prime hardware title,not Flex Prime. Search and direct reopening agree but both use two-month-old cached text. No Habis in excerpt is not stock confirmation. Condition,variant,bundle,accessories,warranty region,shipping/tax and checkout unknown. Late-delivery compensation is not a product discount. |
 
 These are separate qualified asks, not an authenticated used-to-new market range. Late-delivery compensation is not an additional product discount.
 
