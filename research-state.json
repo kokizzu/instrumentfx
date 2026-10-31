@@ -130669,7 +130669,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "PLETHORA X5 all-Board analog expression-volume scope,then Tone Master Pro remaining LCD/control gaps. FM3 current endpoints/recall sources remain insufficient;block-bypass distinction saved separately,not proof of universal EXP mute. Continue remaining confirmed individual-LCD processors before OLED/shared-screen/controllers. Preserve independent BOSS GT-Pro anddeferred no-treadle tasks.",
+      "next_check": "Fender Tone Master Pro remaining LCD/control gaps andexact-current analog-volume documentation. HXEffects/FM3/X5 latest source checks retained;unresolved EXP endpoints/recall remain unknown andneed new evidence,not repetitive rechecks. Then remaining confirmed individual-LCD processors before OLED/shared-screen/controllers;preserve independent BOSS GT-Pro anddeferred no-treadle tasks.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -130680,6 +130680,12 @@
         "exact qualified Shopee Indonesia hardware offers"
       ],
       "independent_general_cursor": "BOSS GT-Pro"
+    },
+    "plethora_x5_editor_curve_20261101": {
+      "source": "https://www.electori.co.jp/tcelectronic/pdf/TonePrint_Editor_V4_Reference_Manual_ver_JP_rev_1_3.pdf",
+      "identity": "ELECTORI TonePrintV4 JPRev1.3 January2022,copyright2021–2022",
+      "finding": "Supported expression mapping upto3parameters,curves at5pedalpositions;MASH separate. Regional genericeditor capability with explicitX5connection/Board applicability,not globalvolume.",
+      "remaining": "Analog allBoard assignment,endpoints,held recall andbypass/tail/loopcoverage unresolved;exactShopee18280216311inaccessible,27271818642cachemiss,no newprice/stock."
     }
   },
   "gt_pro_global_patch_level_20261031": {
@@ -133357,6 +133363,11 @@
       "file": "FRACTAL-AUDIO.md",
       "model": "FM3 MKII Turbo",
       "heading": "### FM3 — input-through versus output-mute bypass"
+    },
+    {
+      "file": "TC-ELECTRONIC.md",
+      "model": "PLETHORA X5",
+      "heading": "### PLETHORA X5 — regional editor expression-curve scope"
     }
   ],
   "model_note_scope_correction_20261101": {

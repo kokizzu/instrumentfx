@@ -797,6 +797,19 @@ Checked **2026-11-01**;no download ordevice operation.
 
 Existing Board-level EXP Assignment andglobal calibration distinction remains. Volume endpoints,held-position recall,bypass/tail/loop coverage andcurrent installed behavior remain unresolved. ExactShopee item18280216311 was still inaccessible;no new condition orstock claim.
 
+
+
+### PLETHORA X5 — regional editor expression-curve scope
+
+Checked **2026-11-01**, [ELECTORI TonePrint App/Editor V4 Reference Manual,JP Rev1.3(2022.1),pp7–13,15](https://www.electori.co.jp/tcelectronic/pdf/TonePrint_Editor_V4_Reference_Manual_ver_JP_rev_1_3.pdf),©2021–2022 ELECTORI. This is distributor-authored documentation;X5 Bluetooth editing andBoard management are explicitly named. Original prose only;generated image descriptions excluded.
+
+| Field | Regional documentation / qualification |
+|---|---|
+| Expression / editable modifier curve | Where supported,the EXPRESSION PEDAL tab assigns **up to three parameters**,with curves set at **five pedal positions**. MASH has its own three-parameter/five-pressure-position mapping. These are TonePrint modifier curves,not numeric attenuation endpoints forBoard VOLUME mode orall-Board assignment. |
+| Editor / connection scope | X5 mobile editing is explicitly Bluetooth-based;PC/Mac import uses USB. App tabs depend onthe connected pedal’s supported functions. Historical editor scope does not establish current OS minima orarbitrary controller compatibility. |
+
+Fresh exactShopee item18280216311 was inaccessible anditem27271818642 returned cache miss. Preserve older qualified asks;no current condition,stock orvariation contents established. All-Board analog-volume scope,held-position recall andbypass/tail/loop attenuation remain unresolved. No local download,app installation ordevice operation.
+
 <!-- comparison evidence ends -->
 
 Variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers unresolved. No download or visual inspection claimed. All facts from own-model sources; no X3 specification substitution.
