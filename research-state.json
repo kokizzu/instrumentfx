@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Original Zoom G3, then B3: remaining individual-LCD exact-model fields and qualified hardware offers. Preserve G5 manufacturer frequency-response discrepancy; independent BOSS GT-Pro cursor unchanged.",
+      "next_check": "Original Zoom B3: remaining individual-LCD exact-model gaps and qualified hardware offers. Keep independent BOSS GT-Pro cursor.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133258,6 +133258,11 @@
       "file": "ZOOM.md",
       "model": "G5",
       "heading": "### G5 — primary LCD wording and response discrepancy"
+    },
+    {
+      "file": "ZOOM.md",
+      "model": "G3",
+      "heading": "### G3 — original manufacturer display and tuner specifications"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -133320,5 +133325,13 @@
     "finding": "English original manufacturer explicitly four backlit dot-matrix LCDs, each effect display paired with switch/knobs. English response +1/-6dB versus Japanese +1/-3dB, both20Hz-20kHz at10kohm; discrepancy preserved.",
     "access": "Search-indexed original bodies; English direct502. No download, visual inspection or hardware test.",
     "remaining": "LCD diagonal/color/touch; complete physical control census; global pedal mapping coverage; qualified condition offers."
+  },
+  "g3_primary_display_tuner_20261101": {
+    "source": "https://www.zoom.co.jp/node/49",
+    "finding": "Original G3 manufacturer indexed specifications explicitly three backlit dot-matrix LCDs;435-445Hz tuning reference distinguished from detection bandwidth.",
+    "offer_recheck": "Only existing sold-out7439397/28976797436 exact offer recovered; Bantul1350000 search-grid lead still lacks item/seller; not admitted.",
+    "limits": "Diagonal/color/touch and complete controls remain unresolved; no download/visual/device test.",
+    "manual": "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf",
+    "calibration": "Tuner chapter explicitly middle A435-445Hz; setting retained after power off."
   }
 }
