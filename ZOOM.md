@@ -3219,6 +3219,18 @@ Checked2026-10-18 against the [manufacturer editor manual](https://zoomcorp.com/
 | Memory / older patch compatibility | Manual explicitly includes **G3X** as a destination for **G3 firmware1.12-or-earlier patches and patch groups**. Reverse import and G5→G3X compatibility are not established. Its separate delay-clamping warning specifically names G3v2-or-later;do not silently apply that warning’s numeric table to G3X. | [Editor manual pp7,10,12](https://zoomcorp.com/media/documents/EditShare_Operation_Manual_English_2.pdf) |
 | Editor / sleep and filtering | Edit&Share does not support computer sleep;manufacturer advises restarting it after sleep-related unresponsiveness. Effect filtering matches patches with that effect **ON**,and edits appear in results only after saving. Modern OS support remains unverified. | [Editor manual pp11–12](https://zoomcorp.com/media/documents/EditShare_Operation_Manual_English_2.pdf) |
 
+### G3X — rhythm and loop live controls
+
+Checked **2026-10-31**,shared [manufacturer G3/G3X manual][ZG3X-M],printedpp29,31,33. This is originalG3X evidence,notG3Xn.
+
+| Field | Documented behavior / qualification |
+|---|---|
+| Looper / rhythm continuity | Rhythm can continue while selecting a patch or returning to Home. Home return also retains the loop and can occur during loop playback;this alone does not establish loop continuity through a patch change. |
+| Looper / independent levels | Rhythm and recorded-phrase levels each span **0–100**,separately adjusted. These controls are not the expression assignment;the previously documented OUTPUT VOL exclusion of rhythm/loop remains. |
+| Looper / timing | Rhythm playback supplies a precount and quantizes recording timing;slightly mistimed manual stop is corrected for loop alignment. No measured latency or unconditional cross-preset timing guarantee follows. |
+
+Effect-switch symbols are partly missing/encoding-corrupted in reader text;exact button gestures and visual panel totals remain unverified. No local download or device operation.
+
 ## G3Xn
 
 Guitar multi-effects; checked **2026-10-17**, partial first pass. Exact G3Xn, not G3n, G3X or G3. Bass capability unresolved; no ownership inferred. Manufacturer UK page marks discontinued; aftermarket offers do not reverse that status.

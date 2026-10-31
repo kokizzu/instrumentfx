@@ -129966,7 +129966,6 @@
       "checked": "2026-10-31",
       "instruction": "Prioritize one with LCD on footswitch first",
       "next_models": [
-        "Zoom G3X",
         "Zoom G3Xn",
         "Fractal Audio FM3 MKII Turbo"
       ],
@@ -129991,6 +129990,13 @@
       "finding": "CurrentunlimitedBoardswordingnotnumericcapacity;historical127/75retained. OwnChinesePDFp5repeatssameHWDaxisambiguity.",
       "manual": "https://cdn-media.empowertribe.com/0bb85b0f67404ae0b72c68ed476f083c/QSG_TE_0709-AIK_PLETHORA-X5_CN.pdf",
       "remaining": "Onboardcapacity,dimensionsaxes,EXPglobalassignmentandwiring,screenpropertiesunresolved."
+    },
+    "g3x_live_controls": {
+      "checked": "2026-10-31",
+      "source": "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf",
+      "pages": "29,31,33",
+      "finding": "Rhythmcontinuespatchselection/Home;loopretainedHome;separate0–100loop/rhythmlevels;precountandquantizationwithrhythm.",
+      "remaining": "Loopcontinuityonpatchchangeandsymbolgesturesunverified;screenpropertiesandphysicalbuttoncountremainopen."
     }
   },
   "gt_pro_global_patch_level_20261031": {
