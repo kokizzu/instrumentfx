@@ -514,6 +514,17 @@ Checked **2026-10-31** against the [manufacturer release-history reproduction][P
 
 Older1.2.18 dual-press Board navigation is labeledPX5-only;it does not close X3’s onboard foot-operated navigation gap. No download or device test.
 
+### PLETHORA X3 — revision-qualified live-control fixes
+
+Checked **2026-10-31**,[original manufacturer release-history PDF reproduction](https://manuals.plus/m/fab495897f61212f13d7fd3403d4a371bcb2d147dc9c72fd72db55684cdb91f7.pdf),PDFpp2,4–7. Title,dates andexplicitPX5/PX3 headings match the preserved own-hosted release text;olderPX5-only sections excluded.
+
+| Field | Documented fix / boundary |
+|---|---|
+| Live /1.5.6 reliability | **March23,2025:** fixes freezes during tap tempo orloading Boards with too many TempoSync-enabled slots,unwanted tuner-mode LED blinking,andintermittent reverb failure. No exact failing-slot threshold is published;do not infer a two-slot limit. |
+| MIDI /1.4.3 timing | **October19,2023:** fixes MIDI CCs being discarded immediately after a Board change,andcrashes from vigorous HOT KNOBZ adjustment when mapped to multiple delay times with tap enabled. These fixes do not establish zero switching latency orglobal-volume scope. |
+
+Installed behavior untested. Current X3 product listing still heads1.4.3 while the preserved manufacturer history includes1.5.6;no downgrade recommendation. Desktop OS minima remain unresolved. No local download,installation ordevice operation.
+
 <!-- comparison evidence ends -->
 
 Checked2026-10-17; historical indexed asks, not current stock/checkout. Condition,variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers unresolved. No download or visual inspection claimed.

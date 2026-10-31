@@ -132564,5 +132564,19 @@
     ],
     "scope": "All delay identifiers082–093 inspected;timing andhold distinctions recorded in root.",
     "next": "LCD-first audit;remaining global-volume endpoint/recall,display hardware specifications andcondition-qualified offers stay open. Independent BOSS GT-Pro cursor unchanged."
+  },
+  "plethora_x3_live_fixes_20261031": {
+    "checked": "2026-10-31",
+    "model": "PLETHORA X3",
+    "source": "https://manuals.plus/m/fab495897f61212f13d7fd3403d4a371bcb2d147dc9c72fd72db55684cdb91f7.pdf",
+    "pages": [
+      2,
+      4,
+      5,
+      6,
+      7
+    ],
+    "scope": "Original PX5/PX3 release sections;X5-only historical sections not transferred.",
+    "next": "LCD-first audit;current desktop OS minimum andexact X3 looper duration remain unknown;general BOSS GT-Pro cursor unchanged."
   }
 }
