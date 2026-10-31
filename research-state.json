@@ -137304,5 +137304,19 @@
     "research_boundaries": "Originalrearimage cachemiss;generatedimageprose excluded. Searchreproduced savedusedsoldout2.125moffer;no newstockclaim.",
     "next": "IndividualLCD processor gaps remain first;generalGT-Pro cursor preserved.",
     "downloads": false
+  },
+  "fm3_original_button_census_20261101": {
+    "status": "manufacturer text census;previous explanation corrected",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+    "pages": [
+      21,
+      22,
+      140
+    ],
+    "destination": "FRACTAL-AUDIO.md#fm3-original--separate-button-count-and-knob-push-functions",
+    "finding": "12namedseparatebuttons=4HOME/EDIT/STORE/TEMPO+4NAV+2ENTER/EXIT+2PAGE. Fivepushfunctions belongtoA–E knobs,notincludedin12. K/F/B8/3/12unchanged.",
+    "qualification": "Textonly;notvisualhardwareinspection. Historicaloutsideinventoryflags audited:explicitadmissionintro alreadyqualifies them,so unchanged.",
+    "next": "Continue individualLCD gaps;independentGT-Pro cursor preserved.",
+    "downloads": false
   }
 }

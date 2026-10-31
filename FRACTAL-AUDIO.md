@@ -482,7 +482,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | Instrument scope | Original 1.x manual p21 explicitly permits electric guitar, acoustic and bass at the instrument input. No special pickup required. Vocal suitability unclassified. [Original manual](https://manualzz.com/doc/61301482/fractal-fm3-owner-s-manual). |
 | Built-in / external / toe expression | No built-in treadle in the complete panel inventory. Two shared TRS pedal/switch inputs; linear10–100kΩ pedals. Separate external toe configuration remains unverified. [Panel and ports](#fm3-original--connector-inventory-and-usb-signal-paths);[global setup](#fm3-original--shared-manual-global-volume-and-hardware-scope). |
 | Expression / global volume / range / recall | Global Input1/2 or Output1/2 Volume can use local PEDAL1/2 without preset blocks. Input changes drive;output scales tails. Endpoints,held-position recall,bypass/USB/phones/recorded-loop coverage unknown. Calibration and modifier defaults are separate. [MIDI startup fallback excludes local pedals](#fm3-original--pedal-wiring-and-startup-value-boundary). [Standard-applicable manual](#fm3-original--shared-manual-global-volume-and-hardware-scope). |
-| Knobs / footswitches / buttons | **8 rotary /3 footswitches /12 buttons**;five knob presses included,not extra buttons. Manufacturer text,not visual census. Power andground-lift controls separate. [Physical evidence](#fm3-original--shared-manual-global-volume-and-hardware-scope);[original panel](https://manualzz.com/doc/61301482/fractal-fm3-owner-s-manual). |
+| Knobs / footswitches / buttons | **8 rotary /3 footswitches /12 separate buttons**;the five rotary push functions are counted with their knobs,not added to the12 buttons. [Named-button census](#fm3-original--separate-button-count-and-knob-push-functions). Manufacturer text,not visual census. Power andground-lift controls separate. [Physical evidence](#fm3-original--shared-manual-global-volume-and-hardware-scope);[original panel](https://manualzz.com/doc/61301482/fractal-fm3-owner-s-manual). |
 | Display | Three individual mini LCDs,one perfoot;separate **800×480 color main display**. Mini size,resolution,color andtouch;main diagonal/touch unknown. MKII larger strips are not transferred. [Original discovery](#fm3-original--partial-historical-lcd-discovery);[panel](https://manualzz.com/doc/61301482/fractal-fm3-owner-s-manual). |
 | Dimensions / weight | **281W×236D×103H mm;3.22kg**. Exceeds preferred200W×140D footprint. [Standard-covered7.x specifications](#fm3-original--shared-manual-global-volume-and-hardware-scope). |
 | Processing / simultaneous limits | **12×4 grid**,DSP-limited. June2023 exactFM3 inventory:36 available classes,63 summed instance allowances including routing/control;not63 simultaneous effects. Historical1.x CPU limit approximately80%,overload mutes processing. Current13.0 equivalence untested. [Inventory](#fm3-original--dated-block-inventory-and-looper);[CPU](#fm3-original--initial-memory-dsp-and-current-support). |
@@ -520,7 +520,7 @@ Checked **2026-11-01** in the [manufacturer 7.x manual](https://www.fractalaudio
 | Field | Documented scope |
 |---|---|
 | Direct global volume | pp12–13: two TRS inputs accept linear10–100kΩ pedals. SETUP→MIDI/Remote→Other assigns PEDAL1/2 to Input1/2 or Output1/2 Volume without preset edits. Input changes drive; output scales tails. Avoid double-assigning the pedal as an External Controller. Calibration is separate. |
-| Physical / controls | p140: **281W×236D×103H mm;3.22kg;8 knobs,12 buttons**. Five knob presses are included,not extra buttons. The original launch separately documents three footswitches. No visual census. |
+| Physical / controls | p140: **281W×236D×103H mm;3.22kg;8 knobs,12 separate buttons**. Five knobs additionally push;these are not included in the12 named buttons. [Census correction](#fm3-original--separate-button-count-and-knob-push-functions). The original launch separately documents three footswitches. No visual census. |
 | Power | p140: **90–264VAC,47–63Hz,<40W**. CR2032 is backup,not operating-battery proof. DC polarity and adapter-current figures do not apply to this AC specification. USB-powered operation remains unverified. |
 
 Numeric volume endpoints,held-position recall,bypass,headphone,USB andrecorded-loop coverage remain unresolved. Headphone hardware variants still need primary confirmation. No local download orhardware test;current installed firmware untested.
@@ -620,6 +620,13 @@ Checked **2026-11-01** against the [own7.x manual,cover explicitly Standard andM
 | Expression / startup fallback | MIDI/Remote General’s sixteen **External Control Initial Value** settings persist until controller data arrives. The manual explicitly restricts them to **MIDI CC-assigned controllers**,excluding local andFC pedals/switches. Setting100% for a missing MIDI controller therefore does not prove held-position recall orfallback for a directly connected analog pedal. |
 
 Calibration remains separate from assignment andvolume endpoints. Local pedal startup/preset-change recall,bypass/headphone/USB/recorded-loop coverage andcurrent firmware13 equivalence remain untested. No download,rewiring ordevice operation.
+
+
+### FM3 original — separate-button count and knob-push functions
+
+Checked **2026-11-01** against the [manufacturer7.x manual,Standard-covered,printedpp21–22,140](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf). The specification lists12buttons and8knobs,withfive knobs also having push functions. The named panel descriptions independently enumerate **HOME,EDIT,STORE,TEMPO(4),NAV up/down/left/right(4),ENTER/EXIT(2),PAGE left/right(2):12 separate buttons**. The three footswitches are described separately.
+
+The eight rotaries are two output levels,A–E andVALUE;A–E are the five push-knobs. Thus **K/F/B=8/3/12** retains the established total while correcting the earlier claim that five knob presses were included in12. Each rotary still counts once. Rear power/ground-lift switches remain separate. This is a text-derived inventory,not a new visual census orhardware inspection;no MKII-only physical specification transferred. All older sources andother verification gaps remain. No local download ordevice operation.
 
 ## FM9 MKII Turbo
 
