@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(fractal): distinguish original FC-6 LCD controller'))
+    print(git('commit','-m','research(fractal): document original FC-12 individual LCD controller'))

@@ -134838,5 +134838,27 @@
       "exact original hardware offers",
       "host-specific global volume and coverage"
     ]
+  },
+  "fractal_fc12_original_lcd_20261101": {
+    "status": "partial controller; outside active processor counts",
+    "root": "FRACTAL-AUDIO.md#fc-12-original--controller",
+    "sources": [
+      "https://www.fractalaudio.com/downloads/manuals/FC-X/FC6%2B12-Owners-Manual.pdf",
+      "https://www.fractalaudio.com/fc-controllers/"
+    ],
+    "manual_revision": "2.1 May 2021, original pre-Mark-II",
+    "findings": [
+      "12 individual 128x32 LCD labels above switches",
+      "512x233x88mm,5kg; original model documented directly",
+      "USB reserved; adapter voltage and host-compatibility conflicts retained"
+    ],
+    "shopee": "Exact-original indexed query yielded no qualified hardware offers; new/used IDR unknown",
+    "unresolved": [
+      "display diagonal/color/touch",
+      "full rotary/button census",
+      "host-specific global volume coverage",
+      "exact hardware offers"
+    ],
+    "next": "Continue individual-LCD audio-processor gaps before OLED/shared-screen candidates; preserve independent BOSS GT-Pro general cursor"
   }
 }

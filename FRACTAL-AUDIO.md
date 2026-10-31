@@ -8,6 +8,7 @@
 - [AM4](#am4)
 - [FC-6 Mark II and FC-12 Mark II — controllers](#fc-6-mark-ii-and-fc-12-mark-ii--controllers)
 - [FC-6 original — controller](#fc-6-original--controller)
+- [FC-12 original — controller](#fc-12-original--controller)
 - [FM3 MKII Turbo](#fm3-mkii-turbo)
 - [FM3 original](#fm3-original)
 - [FM9 MKII Turbo](#fm9-mkii-turbo)
@@ -168,6 +169,14 @@ Checked 2026-11-01. **Controller, outside active audio-processor counts; partial
 Original specifications: 283×233×88 mm (axes not explicitly labeled), 3 kg; footprint exceeds the preferred 200×140 mm. FASLINK II XLR supplies host communication/power to the first controller; downstream controllers require an adapter. Specifications list 9–12 V DC, 1000 mA, 2.5 mm centre-negative barrel, ≤12 W, while the safety page specifies 9 V DC/1000 mA: retain this voltage discrepancy. [Original manual v2.1, May 2021, pp.1–4, 36](https://www.fractalaudio.com/downloads/manuals/FC-X/FC6%2B12-Owners-Manual.pdf).
 
 The manufacturer separately identifies original mini displays as **36×12.5 mm**, versus Mark II 50×17.5 mm; these are width/height, not diagonals. [Current manufacturer comparison](https://www.fractalaudio.com/fc-controllers/). No qualified exact-original Shopee Indonesia hardware offer was found in the indexed search on 2026-11-01; new/used IDR prices remain unknown. Display diagonal, color/touch classification, complete rotary/button census and host-specific volume position/range, bypass, headphones, tails and looper coverage remain unverified. Do not transfer Mark II firmware or prices.
+
+## FC-12 original — controller
+
+Checked 2026-11-01. **Partial controller profile; outside active audio-processor counts.** Twelve footswitches each have an LCD label above them; mini LCDs are 128×32, separate from the 2×20 transflective main LCD and colored LED rings. Tap/hold functions are independently assignable; eight layouts plus Master Layout Menu are control pages, not audio presets. Original body: 512×233×88 mm (axes unlabeled), 5 kg; exceeds preferred 200×140 mm footprint.
+
+Four TRS expression inputs accept 10–100 kΩ expression pedals; two TRS switch inputs support four switches. USB is reserved for future use in this manual, not documented USB audio/power. FASLINK II connects the host and downstream controllers; the first receives host power, downstream units need adapters. Specifications give 9–12 V DC/1000 mA, 2.5 mm centre-negative, ≤12 W; safety text specifies 9 V DC/1000 mA. Preserve that voltage discrepancy. The specification table says Axe-Fx III only although the same manual discusses FM3: host compatibility is revision-qualified. [Original manual v2.1, May 2021, pp.2–6, 18, 36](https://www.fractalaudio.com/downloads/manuals/FC-X/FC6%2B12-Owners-Manual.pdf).
+
+Original strips measure **36×12.5 mm**, versus Mark II 50×17.5 mm; width/height is not diagonal. [Manufacturer comparison](https://www.fractalaudio.com/fc-controllers/). No qualified exact-original Shopee Indonesia offer surfaced in the indexed 2026-11-01 search; separate new/used IDR prices remain unknown. Complete rotary/button census, display diagonal/color/touch and host-specific volume assignment, position/range, bypass, headphones and tails/looper coverage remain unverified. Calibration is not global volume assignment; do not copy Mark II firmware or offers.
 
 ## FM3 MKII Turbo
 
