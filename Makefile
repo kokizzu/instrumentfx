@@ -2193,3 +2193,7 @@ research-commit-gfi:
 .PHONY: research-review-hotone
 research-review-hotone:
 	python3 scripts/hotone_catalogue.py review
+
+.PHONY: research-commit-melofty-display
+research-commit-melofty-display:
+	python3 scripts/display_audit_melofty.py
