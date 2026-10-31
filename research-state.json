@@ -137038,5 +137038,21 @@
       "complete separate-button census"
     ],
     "next": "Manufacturer corroboration for exact G5n;retain individualLCD priority andindependent general GT-Pro cursor."
+  },
+  "g11_bank_deletion_creation_20261101": {
+    "model": "Zoom G11",
+    "checked": "2026-11-01",
+    "source": "https://zoomcorp.com/documents/461/E_G11v2.pdf",
+    "revision": "©2021 Z2I-3886-02,printed pp42–50",
+    "finding": "Patch deletion leaves an Empty slot;new patch creation needs an opening andis unavailable at500 occupied. New-bank creation assigns selected existing patches. Bank deletion also deletes contained patches andmoves later banks up.",
+    "remaining": [
+      "shared patch assignment behavior andrecovery",
+      "current firmware equivalence",
+      "global external expression assignment/endpoints/output coverage",
+      "auxiliary LCD properties andfull control visual corroboration"
+    ],
+    "next": "Continue individualLCD processor gaps;general BOSS GT-Pro cursor preserved.",
+    "downloads": false,
+    "device_operations": false
   }
 }
