@@ -102,3 +102,15 @@ Checked2026-10-31. The previously inaccessible three-page quick-guide candidate 
 On English PDFp1, FS2 is labeled bank-up/Bank Select (hold: Looper); FS6 bank-down/Bank Select (hold: Tuner). Pressing both cycles selected footswitch modes. This documents **bank navigation**, distinct from the already-recorded contextual FS8/9 preset−/+ function inside Looper. It does not prove a permanent sequential preset pair or loop retention across presets.
 
 The same connector text specifies8-in/8-out24-bit/48kHz USB-C, corroborating the saved manual’s specification table; it does not resolve the manual’s separate44.1–192kHz claim. Mini-screen count and LCD/OLED technology remain unverified; this partial lead remains outside active counts. No local download or device operation.
+### AXOM MAX — CPU, scene linkage and headphone conflict
+
+Checked **2026-10-31** through the importer’s current links;original documents,not generated summaries.
+
+| Field | Manufacturer-document qualification |
+|---|---|
+| Processing / concurrency | [English V1.7.4,p12](https://shop.warwick.de/media/23/53/74/1790324346/4on4_MEL_AXOM_MAX_Manual_EN.pdf?ts=1790324346): **two nine-slot chains**,repeat loading within a category supported;CPU/resources can gray out unavailable models. Eighteen slots are not a guaranteed eighteen arbitrary simultaneous effects. |
+| Memory / scene linkage | Samepp21–22: six SUBPATCH scenes share module types/counts. Bypass/parameters synchronize by default;enable a module’s SUBPATCH control for independent scene values. Saving remembers the active scene for next preset recall. Scenes do not multiply504 user locations. |
+| Dimensions / mass | Samep57 independently corroborates **381×230×73mm;3.45kg**,previously a distributor lead. Axes remain unlabeled;do not silently assign them. |
+| I/O / headphones conflict | Englishp57 specifies **¼-inch stereo**,matching its panel inventory. [German guide,p62](https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347) instead prints **3.5mm stereo**. Both list6Ω output impedance,not a required headphone load. Physical jack size awaits corroboration;preserve the contradiction. |
+
+Mini-screen count/technology,complete category census andqualified Indonesian offers remain unresolved. Still partial,outside active counts;no local download ordevice operation.

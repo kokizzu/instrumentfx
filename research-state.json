@@ -132489,5 +132489,26 @@
     ],
     "scope": "8.0 and9.01 original release text;see root prerequisite qualification.",
     "next": "LCD-first audit continues;global pedal endpoints/recall unresolved;independent BOSS GT-Pro cursor unchanged."
+  },
+  "axom_cpu_scene_headphone_20261031": {
+    "checked": "2026-10-31",
+    "model": "MELOFTY AXOM MAX",
+    "sources": [
+      "https://shop.warwick.de/media/23/53/74/1790324346/4on4_MEL_AXOM_MAX_Manual_EN.pdf?ts=1790324346",
+      "https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347"
+    ],
+    "pages": {
+      "English": [
+        12,
+        21,
+        22,
+        57
+      ],
+      "German": [
+        62
+      ]
+    },
+    "status": "Original manual qualification added;partial model remains outside active counts.",
+    "next": "Resolve mini-screen count/technology with primary evidence;complete category census and exact Shopee offer still open. LCD-first/general BOSS GT-Pro cursors retained."
   }
 }
