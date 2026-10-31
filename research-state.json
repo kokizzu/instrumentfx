@@ -138111,5 +138111,13 @@
     "finding": "Sorting includes eight explicitly declared supplemental brand documents in addition to active brands; union deduplicates promotions without changing active model/brand eligibility.",
     "validation": "Regression covers supplemental selection, deduplication and rejection of non-root paths. Plan/apply verifies section-body preservation.",
     "active_counts_changed": false
+  },
+  "g11_audio_software_matrix_20261101": {
+    "checked": "2026-11-01",
+    "source": "https://zoomcorp.com/documents/1334/EFX_DAW_compatibility_2025JUL_E.pdf",
+    "identity": "July2025 manufacturer tested-software matrix; one page; linked by exact G11 support",
+    "finding": "Exact G11 Mac, iOS and iPadOS tested combinations transcribed in root brand record, separately from Handy Guitar Lab editor support.",
+    "qualification": "Dated manufacturer testing, not our test or iOS/iPadOS26 USB-audio certification; no new global expression or routing inference.",
+    "downloads": false
   }
 }

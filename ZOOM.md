@@ -4511,7 +4511,7 @@ Guitar and bass multi-effects; large; built-in expression. Specifications below 
 | Power | **12V DC,center-positive,2000mA AD-19 supply**. Supply rating, not measured operating draw. **USB bus power explicitly unsupported**. Internal battery operation is not documented. [G11-M p.104] |
 | Editor platforms | **Guitar Lab Windows/macOS**; support page lists7.3 for Windows8.1/10/11 and macOS10.13–26. **Handy Guitar Lab iOS/iPadOS requires optional BTA-1**. Android/Linux full editor not established. Driver support is a separate field. [G11-D,G11-I] |
 | Editor / installed-library and backup scope | Support-linked Guitar Lab7.0 guide distinguishes Effect Pool from explicit device loading;patch view flags missing effects. Patch Backup All/Restore All is documented;complete IR/global/firmware backup is not established. See [qualified editor audit](#g11--guitar-lab-device-loading-and-patch-backup-scope). Current G11 V2 use requires7.2+;current listed release7.3. |
-| USB audio | **4-in/4-out,44.1kHz/32-bit USB interface**; two dry and two processed recording channels, reamp. Internal A/D and D/A24-bit,processing32-bit. Windows ASIO driver; Mac/iOS/iPadOS do not require a dedicated driver. [G11-M pp.89–91,104] |
+| USB audio | **4-in/4-out,44.1kHz/32-bit USB interface**; two dry and two processed recording channels, reamp. Internal A/D and D/A24-bit,processing32-bit. Windows ASIO driver; Mac/iOS/iPadOS do not require a dedicated driver. [G11-M pp.89–91,104] [July2025 tested Mac/iOS/iPadOS audio-software combinations](#g11--dated-usb-audio-software-compatibility) are separate from Handy Guitar Lab editor compatibility. |
 | Practice / stage | **Stereo looper:5min maximum,2min30s withUndo enabled**;independent of effect slots. Loop playback can continue while selecting patches;AUX is not recorded. PRE/POST,68 rhythms,autosave/preselection;see [V2 limits](#g11--v2-looper-capacity-and-playback-boundaries). Do not infer a measured preset-change latency or global spillover guarantee. [G11-M,G11-P] |
 | Firmware / status | Support page lists **system2.10** at this check. V2 memory changes are explicitly documented. ZOOM's UK page labels G11 discontinued; this does not prove no Indonesian retailer has remaining stock. [G11-D,G11-F,G11-UK] |
 
@@ -4839,6 +4839,19 @@ Checked **2026-11-01**. [G11 support](https://zoomcorp.com/en/us/multi-effects/g
 | Memory / patch backups | Guide pp17–18 documents individual **Save To Patch Pool**, **Backup All**, file drag-export/import, **Copy To Device** and **Restore All**. IR import is a separate pp19–20 workflow;the inspected patch-backup instructions do not establish IR audio,global settings orfirmware coverage. Preserve IR originals separately;complete system-backup capability remains unverified. |
 
 No application installed,backup created,device connected orlocal file downloaded. These editor operations do not establish global expression-volume assignment orcurrent installed effect totals.
+
+### G11 — dated USB-audio software compatibility
+
+Checked **2026-11-01**. The [exact G11 support page](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g11/g11-support/) links Zoom’s [July2025 tested-software matrix](https://zoomcorp.com/documents/1334/EFX_DAW_compatibility_2025JUL_E.pdf),one-page original. Its G11 row marks these combinations compatible:
+
+| Platform | Tested software versions |
+|---|---|
+| macOS Sequoia15 | Cubase Pro14;Logic Pro11;GarageBand10.4 |
+| macOS Sonoma14 | Cubase Pro13;Logic Pro10.8;GarageBand10.4 |
+| iOS18 /17 | Cubasis3.7 /3.6 respectively;GarageBand2.3 on both |
+| iPadOS18 /17 | Cubasis3.7 /3.6;GarageBand2.3 on both;Logic Pro2.1 /1.1 respectively |
+
+These are dated manufacturer tests of audio-software combinations,not our tests,universal host certification or iOS/iPadOS26 audio certification. The separate Handy Guitar Lab26 advisory concerns the editor. G11 still needs its own power supply;this matrix does not establish an adapter/cable arrangement,global expression-volume coverage ornew USB routing. No local file/software download orhardware operation.
 
 ## GFX-3
 
