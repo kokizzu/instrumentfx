@@ -129421,6 +129421,13 @@
       "source": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g5/",
       "finding": "Four individual backlit displays, each with dedicated footswitch and knobs.",
       "scope": "Original G5 only; existing model, no new admission."
+    },
+    "zoom_g3xn": {
+      "checked": "2026-10-31",
+      "source": "https://zoomcorp.com/media/documents/E_G3n_G3Xn.pdf",
+      "corroboration": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3n-g3xn/",
+      "finding": "Three display/knob/footswitch units; shared manual explicitly covers G3Xn.",
+      "scope": "Existing model; separate G3n-only external EXP distinction preserved."
     }
   }
 }
