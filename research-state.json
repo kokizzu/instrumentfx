@@ -137054,5 +137054,22 @@
     "next": "Continue individualLCD processor gaps;general BOSS GT-Pro cursor preserved.",
     "downloads": false,
     "device_operations": false
+  },
+  "b3n_japanese_headphone_connector_20261101": {
+    "model": "Zoom B3n",
+    "checked": "2026-11-01",
+    "sources": [
+      "https://zoomcorp.com/ja/jp/multi-effects/bass-effects/b3n/",
+      "https://www.zoom.co.jp/ja/taxonomy/term/7/all/feed"
+    ],
+    "finding": "Current Japanese manufacturer product describes standard-size stereo headphones;legacy maker listing agrees. Supports6.35mm stereo connector class independently of the unresolved shared-versus-separate socket layout.",
+    "qualification": "Text-only evidence;no physical/visual count. Manual shared L/MONO/PHONES wording andseparate PHONES/product wording preserved. Published32-ohm power-rating load isnot a minimum orglobal EXP guarantee.",
+    "remaining": [
+      "physical headphone socket arrangement",
+      "OutputVP insertion/endpoints/bypass/headphone/tail/loop coverage",
+      "complete footswitch/button counts"
+    ],
+    "next": "Continue individualLCD exact-model gaps withnew evidence;preserve general GT-Pro cursor.",
+    "downloads": false
   }
 }
