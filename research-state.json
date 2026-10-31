@@ -131218,5 +131218,43 @@
     "basis": "Named rows,not mono/stereo variants or image IDs; amps/cabs/mics excluded",
     "record": "LINE6.md#helix-floor--complete-380-effect-category-census",
     "next": "Census amps/cabs/microphones; verify Floor power and factory occupancy. Keep individual LCD priority and independent BOSS GT-Pro cursor."
+  },
+  "helix_floor_amp_cab_census_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://line6.com/helix-models/",
+    "revision": "Helix3.80 web tables",
+    "guitar_amps": 94,
+    "bass_amps": 17,
+    "mic_preamps": 1,
+    "amp_table_rows": 112,
+    "current_cab_rows": 46,
+    "legacy_cab_rows": 41,
+    "cab_table_rows": 87,
+    "row_ranges": {
+      "guitar": [
+        235,
+        422
+      ],
+      "bass": [
+        423,
+        456
+      ],
+      "mic_pre": [
+        457,
+        458
+      ],
+      "current_cab": [
+        462,
+        553
+      ],
+      "legacy_cab": [
+        554,
+        635
+      ]
+    },
+    "mic_source": "https://kb.line6.com/helix-3-50-release-notes",
+    "mic_scope": "3.50 guitar12/bass12 overlapping sets; current3.80 equivalence unverified",
+    "record": "LINE6.md#helix-floor--380-ampcab-census-and-microphone-scopes",
+    "next": "Helix Floor exact power and factory occupancy; keep LCD priority and independent BOSS GT-Pro cursor."
   }
 }

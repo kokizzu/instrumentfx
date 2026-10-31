@@ -307,7 +307,7 @@ Checked **2026-10-17**. Original Helix Floor; distinct from LT,Rack and Stadium.
 | Display | **6.2-inch,800×480 color LCD**;touchscreen **?**. Capacitive foot controls do not prove screen touch. **13 LCD strips documented in own3.80 manual**, which separately describes the expression-pedal strip showing EXP1/2. With cheat sheet FS1–12, **12 switch strips +1 pedal readout** is the text-based accounting,not a visual count. Product’s13-foot-switch-strip wording remains imprecise; diagonal/touch still unverified. [Indexed own manual,p8](https://line6.com/data/6/0a00051afda2673ccc1cc8e68/application/pdf/Helix%203.80%20Owner%27s%20Manual%20-%20English%20.pdf),checked2026-10-31;direct reader size limit. [Comparison KB][HF-K], [Floor product][HF-P] |
 | Dimensions / weight | KB **22.05 W×11.85 D×3.58 H inches;14.7lb**;older manufacturer FAQ **22.05×11.85×3.6 inches;14.6lb**. Preserve rounding/mass difference; basis unspecified. [Comparison KB][HF-K], [FAQ][HF-Q] |
 | Simultaneous blocks | Indexed manufacturer chart **up to32,DSP-permitting**;four stereo paths. Four-amp/IR concurrency claims are DSP-qualified; heavy chains may reach the limit earlier. [Chart][HF-C], [FAQ][HF-Q], [Floor product][HF-P] |
-| Category choices | Indexed chart 96amps/268effects,firmware basis unstated; older KB 62amps/37cabs/16mics/104FX is historical. Current3.80 manufacturer web tables yield **274 named effects**,plus3loopers separately;[complete effect-category census](#helix-floor--complete-380-effect-category-census). Amp/cab/mic census andinstalled content remain unresolved. Do not presentolder totals as the current installed library. [Chart][HF-C], [Comparison KB][HF-K] |
+| Category choices | Indexed chart 96amps/268effects,firmware basis unstated; older KB 62amps/37cabs/16mics/104FX is historical. Current3.80 manufacturer web tables yield **274 named effects**,plus3loopers separately;[complete effect-category census](#helix-floor--complete-380-effect-category-census). The [amp/cab census](#helix-floor--380-ampcab-census-and-microphone-scopes) adds111amps+1micpreamp and87cab rows;mic lists remain revision-qualified andinstalled content unresolved. Do not presentolder totals as the current installed library. [Chart][HF-C], [Comparison KB][HF-K] |
 | Factory / user presets | **1,024 locations** (8×32×4);factory-filled subset **?**;up to 8 snapshots per preset. Snapshots are variations,not additional preset slots. [Chart][HF-C], [Floor product][HF-P] |
 | Synth / acoustic simulation | Manufacturer3.80 model page confirms **Acoustic Sim** and**3 OSC Synth**;generator versus polyphonic pitch restrictions are recorded in the [census](#helix-floor--complete-380-effect-category-census). Not borrowed from LT. [Cheat sheet][HF-S] |
 | IR / NAM / capture | User IRs supported;older manufacturer FAQ **128 slots, 1024/2048 points, up to 4 simultaneous DSP-permitting**. Native NAM, converted NAM, proprietary capture loading **?**;Stadium Proxy not inferred. [FAQ][HF-Q] |
@@ -347,6 +347,28 @@ Checked **2026-10-31** against the [manufacturer Helix3.80 model tables](https:/
 | Synth / acoustic distinctions | **Acoustic Sim** is listed in EQ,mono/stereo,initial3.00;**3 OSC Synth** is stereo,initial1.00. The two generator models can sound without an instrument anddefault to bypassed;that is not input-pitch tracking. Footnoted polyphonic pitch models are DSP-intensive andcan consume roughly half a path’s DSP;polyphonic pitch shifting does not prove polyphonic oscillator synthesis. [Manufacturer table andfootnotes](https://line6.com/helix-models/). |
 
 Full amp/cab/microphone census,precise power ratings,factory occupancy andremaining LCD specifications stay open. No local download ordevice operation.
+
+### Helix Floor — 3.80 amp/cab census and microphone scopes
+
+Checked **2026-10-31** in the [manufacturer3.80 model tables](https://line6.com/helix-models/). Every named row in the Amp andCab tables was inspected;image IDs are reused andnot suitable as model identifiers.
+
+| Table / partition | Named rows |
+|---|---:|
+| Guitar amps | 94 |
+| Bass amps | 17 |
+| Mic preamp | 1 |
+| Amp-table total | **112** |
+| Current-engine cabinets,Single/Dual | 46 |
+| Legacy cabinets | 41 |
+| Cabinet-table total | **87** |
+
+| Field | Counting / revision qualification |
+|---|---|
+| Category choices / amp-cab | **111 amps plusone mic preamp;87cabinet rows**. Amp channels count as separate named choices;cab Single/Dual forms are not doubled. Same-named current/Legacy cabinet rows remain separate engine choices,not necessarily different physical cabinets. No added preamp-only duplicate of every amp is inferred. [Tables](https://line6.com/helix-models/). |
+| Processing / microphone distinction | [Manufacturer3.50 release notes](https://kb.line6.com/helix-3-50-release-notes),explicitly including Floor,document **12mic choices for guitar cabs and12for bass cabs**,with differing,overlapping lists;not24unique mics. The earlier16-mic KB headline remains historical andis not substituted for either new-engine set. Later3.80 equivalence ofthose lists remains unverified. |
+| Processing / cab controls | Same3.50 notes give mic distance **1–12inches in¼-inch steps**,angle **0°/45°**,andlateral position. Dual Cab linking defaults ON;disabling it permits independently chosen cabs. These are cab parameters,not extra effects blocks oronboard capture capability. |
+
+Together with the separate274-effect/three-looper census,this resolves published model-table counting,not installed content orDSP-guaranteed concurrency. Power,factory occupancy andremaining LCD specifications remain open. No local download ordevice operation.
 
 <!-- comparison evidence ends -->
 
