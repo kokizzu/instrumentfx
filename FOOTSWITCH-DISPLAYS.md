@@ -23,6 +23,7 @@ Separate physical displays, labels drawn on one shared screen, and LED rings are
 | TC Electronic **PLETHORA X3** — reference | **Three LCD slot displays**, corresponding to three effect switches | [Verified layout and source](TC-ELECTRONIC.md#plethora-x3). External analog EXP socket absent from documented inventory; MASH/MIDI separate. |
 | TC Electronic **PLETHORA X5** — reference | **Five LCD slot displays**, corresponding to five effect switches | [Verified layout and source](TC-ELECTRONIC.md#plethora-x5). Exact diagonal/color/touch remain unverified. |
 | Zoom **G11** | **Five effect LCD panels**, plus separate amplifier LCD and5-inch main touchscreen | [V2 manual-backed record](ZOOM.md#g11). Five effect switches are separate from navigation switches; longer chains scroll across the panels. |
+| Zoom **G3** | **Three individual LCD effect panels**, each with its own footswitch and knobs | [Exact original G3 record](ZOOM.md#g3). G3X/G3n are separate models; screen size/color/touch remain unverified. |
 | Zoom **G5n** | **Four individual Unit Displays**, each paired with an effect footswitch; separate Overview Display | [V2 manual-backed record](ZOOM.md#g5n). Four screens do not count every navigation switch; other Zoom models need their own evidence. |
 
 ## Foot controllers

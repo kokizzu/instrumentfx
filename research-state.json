@@ -129401,6 +129401,12 @@
       "revision": "V2, printed pp12,23,97",
       "finding": "Five effect LCD/control panels; separate amplifier LCD and main touchscreen.",
       "scope": "Existing model; no new admission. Auxiliary diagonal/color/touch remain unknown."
+    },
+    "zoom_g3": {
+      "checked": "2026-10-31",
+      "source": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g3/",
+      "finding": "Three individual stomp-style displays each with dedicated footswitch and knobs.",
+      "scope": "Original G3, not G3X/G3n; existing model, no inventory admission."
     }
   }
 }
