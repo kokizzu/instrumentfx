@@ -132720,5 +132720,11 @@
     ],
     "finding": "Added combined MIDI/power connection restrictions and per-preset pedal recall; not global audio volume.",
     "status": "Archived controller only; current firmware and full physical profile unresolved."
+  },
+  "g11_electrical_output_ratings_20261031": {
+    "source": "https://zoomcorp.com/documents/461/E_G11v2.pdf",
+    "printed_page": 104,
+    "finding": "Added headphone power and qualified maximum line levels; source terminology preserved.",
+    "limits": "No measured results or expression coverage inferred."
   }
 }

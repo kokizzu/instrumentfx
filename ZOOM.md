@@ -4249,6 +4249,18 @@ Checked2026-10-31. Zoom’s [Jensen IR announcement](https://zoomcorp.com/en/gb/
 
 No software installed orhardware operated. Current installed effect-pool census and auxiliary-display details remain unresolved.
 
+
+### G11 — V2 headphone and line-output ratings
+
+Checked **2026-10-31**,[manufacturer V2 manual,printedp104](https://zoomcorp.com/documents/461/E_G11v2.pdf).
+
+| Field | Published rating / qualification |
+|---|---|
+| Headphones / V2 electrical rating | **24mW+24mW at32Ω**,separate stereo PHONES socket. This is the published test load,not a documented minimum headphone impedance ormeasured result. |
+| Outputs / V2 maximum levels | Main L/R:**INST+11.4dBu;LINE+19dBu**. PHONES in line use andSEND1/2:**+11.4dBu**. Source qualifies these voltage-level ratings with “output impedance10kΩ orhigher”;retain its wording without treating10kΩ as the headphone load. |
+
+These electrical ratings do not establish global expression assignment,bypass/tail/looper attenuation orheadphone coverage. No hardware test.
+
 <!-- comparison evidence ends -->
 
 ### G11 — complete original finding and unresolved control-count conflict
