@@ -768,6 +768,17 @@ Checked **2026-10-31**,[ELECTORI exact X5 product page](https://www.electori.co.
 | Categories / distributor1.5.6 census | **16 named TonePrint pedal types**,listed above. The same page describes **Tape Deck Looper separately**,so16 does not encompass every utility orprocessing choice. TonePrint variations are not additional pedal types;maximumfive simultaneous remains separate. Primary complete firmware-qualified catalogue andseller-installed contents remain unverified. |
 | Memory / distributor capacity | Page retains **127 Boards and75 TonePrints per pedal** alongside its1.5.6 list. This is additional regional evidence,not a firmware-specific capacity test;the current manufacturer’s unquantified unlimited-board wording remains a source difference. Factory-filled subset unresolved. |
 
+### PLETHORA X5 — original guide knob mapping and app pairing
+
+Checked **2026-11-01** in the [manufacturer Japanese QSG,V3.0,©2022,PDFp3](https://cdn-media.empowertribe.com/9e029e4a0aa64545a9055542adf9c5d2/QSG_TE_0709-AIK_PLETHORA-X5_JP.pdf),linked from the exact0709-AIK page. Original text,not a generated summary;no app installed.
+
+| Field | Primary documentation / limit |
+|---|---|
+| Processing / knob mapping | TonePrint editing assigns **up to three parameters to one knob**,including normally hidden parameters. This is a controller mapping ceiling,not three extra effects,three simultaneous pedal slots oranalog global volume. Existing Board-level Hot Knob qualifications remain. |
+| Editor / Bluetooth pairing | Guide selects device **Global Settings→Bluetooth Pairing**,then the app’s **Bluetooth MIDI Pairing** andX5 entry. This establishes the documented TonePrint-app connection path;it does not certify arbitrary wireless MIDI controllers,USB MIDI audio transport orBluetooth audio. |
+
+The [current direct product reader](https://www.tcelectronic.com/en/products/0709-AIK) still says unlimited custom boards,while its month-old search snapshot retains127Boards/75TonePrint slots. This is differing retrieved copy,not evidence of a firmware capacity increase. Qualified historical capacity remains;dimension-axis andglobal EXP gaps stay open. No download ordevice operation.
+
 <!-- comparison evidence ends -->
 
 Variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers unresolved. No download or visual inspection claimed. All facts from own-model sources; no X3 specification substitution.
