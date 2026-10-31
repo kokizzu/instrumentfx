@@ -2205,3 +2205,7 @@ research-commit-display-collection:
 .PHONY: research-commit-morningstar-display
 research-commit-morningstar-display:
 	python3 scripts/display_audit_melofty.py morningstar
+
+.PHONY: research-commit-famc-display
+research-commit-famc-display:
+	python3 scripts/display_audit_melofty.py famc

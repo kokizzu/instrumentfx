@@ -132638,5 +132638,14 @@
     ],
     "limits": "Current complete census and installed content remain unverified. Prior512-user-IR reduction retained; no sibling-model transfer.",
     "next": "Continue LCD-first audit; preserve model-specific firmware increments. Independent BOSS GT-Pro cursor unchanged."
+  },
+  "famc_liquid_foot_12plus_display_20261031": {
+    "checked": "2026-10-31",
+    "root": "FAMC.md#liquid-foot-12--controller",
+    "source": "https://manualzz.com/doc/23278544/famc-liquid-foot---series-12--12---jr---pro--midi-control...",
+    "source_scope": "Manufacturer-authored undated LF+ series guide, explicit12+ distinction pp5,18,76,78–80; original text only",
+    "status": "partial controller lead; outside active processor and brand counts",
+    "limits": "Homepage inaccessible; no exact Shopee hardware search results. Full profile and current availability unverified.",
+    "next": "Continue LCD-first inventory; verify12+ full physical and software profile without transferring LED-only12 or other LF+ variants. Independent BOSS GT-Pro cursor unchanged."
   }
 }
