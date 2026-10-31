@@ -132889,5 +132889,15 @@
       "EXPRESSION-VOLUME.md"
     ],
     "next": "Continue individual-LCD model evidence andqualified Shopee discovery;independent BOSS GT-Pro cursor preserved."
+  },
+  "g3_exact_patch_bank_navigation_20261031": {
+    "sources": [
+      "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf",
+      "https://zoomcorp.com/media/documents/G3_OperationManual_English.pdf"
+    ],
+    "pages": "Shared12–13;original10 independently supports sequential selection",
+    "finding": "Added FS2/3 sequential patch pair anddistinct two-switch bank gestures;mode dependence andoverlap preserved.",
+    "limits": "No panel image/fullPDF/device test;wrap,latency,spillover andglobal volume not established.",
+    "next": "Continue LCD-first exact-model gaps andqualified Shopee discovery;independent BOSS GT-Pro cursor preserved."
   }
 }

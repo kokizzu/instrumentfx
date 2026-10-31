@@ -3206,6 +3206,18 @@ The manual permits simultaneous control of these parameters when multiple suppor
 
 Loop playback level and rhythm level each have a separate **0–100** setting. Returning Home permits continued loop playback; this does not independently prove patch-change retention. STOP/FINISH/FADE OUT can be overridden by holding the stop switch for immediate stopping; the extracted icon does not identify that switch reliably here. Fade duration remains unspecified. The documented OUTPUT VOL exclusion of rhythm/looper remains in force. No download orhardware operation.
 
+
+### G3 — exact patch and bank footswitch navigation
+
+Checked **2026-10-31** in indexed original [manufacturer G3/G3X manual](https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf),printedpp12–13. The earlier [G3-only manual,p10](https://zoomcorp.com/media/documents/G3_OperationManual_English.pdf) independently describes lower/higher patch selection;its three-effect baseline remains historical. No panel image orcomplete PDF was inspected.
+
+| Field | Documented operation / boundary |
+|---|---|
+| Controls / exact sequential patch gestures | In **patch-selection mode**,press **FS2 for the next lower patch**,**FS3 for the next higher patch**. Enter by holding the PATCH-labelled switch for one second;holding **FS1 one second returns Home**. The screens show bank,number andname. This is a mode-dependent sequential pair,not three direct bank-position selectors. |
+| Controls / separate bank gestures | **FS1+FS2:lower bank;FS2+FS3:higher bank**. The manual warns that whichever switch lands first can affect the sound;the existing overlap qualification remains. Wrap/end-of-list behavior,switching latency andpatch-change spillover are not established by these instructions. |
+
+No device operation,preset change ordownload. Per-patch TOTAL expression assignment remains separate from navigation.
+
 <!-- comparison evidence ends -->
 
 Multi-model Hope Music listing G3/G3X/G3XN, shop703817770/item11099808237, showed Rp1,899,000–2,699,000 across five unresolved variations. Not assigned to G3. [Listing](https://shopee.co.id/Efek-Zoom-G3-G3X-G3XN-i.703817770.11099808237).
