@@ -22,5 +22,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): qualify G3n simultaneous looper firmware fix'
+        message='docs(zoom): consolidate G3n firmware recheck without duplication'
     print(git('commit','-m',message))
