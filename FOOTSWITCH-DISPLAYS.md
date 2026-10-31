@@ -122,6 +122,12 @@ These match the separate-display layout, with OLED technology rather than LCD.
 | RJM Music **Mastermind GT/16** | **16 individual footswitch LCDs**, plus separate main LCD | [Exact GT/16 controller record](RJM-MUSIC.md#mastermind-gt16). [Manual/current power conflict and LCD controls](RJM-MUSIC.md#gt16--revision-qualified-lcd-controls-and-power); separate from GT/10 and GT/22. |
 | RJM Music **Mastermind GT/22** | **22 individual footswitch LCDs**, plus separate main LCD | [Exact manufacturer-backed controller record](RJM-MUSIC.md#mastermind-gt22). [Historical LCD controls and XLR power boundaries](RJM-MUSIC.md#gt22--historical-controls-and-xlr-power-boundaries). Controller only; separate from GT/10 and GT/16. |
 
+### Individual OLED footswitch displays — secondary priority
+
+| Brand / model | Display-layout status | Record / next check |
+|---|---|---|
+| GigRig **G3S** — controller/switcher lead | **Twelve dedicated OLED label screens plus main TFT LCD**, serving fourteen switches; manufacturer Quicktech uses conflicting all-TFT wording | [Exact G3S discovery record](GIGRIG.md#g3s--controller-discovery-lead). Keep outside confirmed individual-LCD matches and audio-processor counts. Small screens7×25 mm are two-axis measurements, not diagonals. G3 and Atom S are separate. |
+
 ### Screens shared by pairs of switches
 
 | Brand / model | Display-layout status | Record / next check |

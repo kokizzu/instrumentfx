@@ -10,7 +10,7 @@ comparison_views.verify_views()
 comparison_views.test_readme_brand_counts()
 comparison_views.test_validation_counts()
 assert not git("diff", "--cached", "--name-only").strip(), "Existing staged work"
-allowed = {"FAMC.md", "RJM-MUSIC.md", "SINGULAR-SOUND.md", "MELOFTY.md", "MULTI-EFFECTS.md", "research-state.json", "Makefile", "scripts/display_audit_melofty.py", "FOOTSWITCH-DISPLAYS.md", "README.md", "MORNINGSTAR.md"}
+allowed = {"GIGRIG.md", "FAMC.md", "RJM-MUSIC.md", "SINGULAR-SOUND.md", "MELOFTY.md", "MULTI-EFFECTS.md", "research-state.json", "Makefile", "scripts/display_audit_melofty.py", "FOOTSWITCH-DISPLAYS.md", "README.md", "MORNINGSTAR.md"}
 changed = set(git("diff", "--name-only").splitlines()) | set(git("ls-files", "--others", "--exclude-standard").splitlines())
 assert changed <= allowed, changed - allowed
 assert not git("diff", "--check").strip()
@@ -26,4 +26,6 @@ if "SINGULAR-SOUND.md" in changed:
 if sys.argv[1:] == ["famc"]:
     assert "FAMC.md" in changed, "Missing FAMC controller record"
     message = "research(famc): collect JR+ individual-display candidate with limits"
+if "GIGRIG.md" in changed:
+    message = "research(gigrig): collect G3S OLED controller with display conflict"
 print(git("commit", "-m", message))

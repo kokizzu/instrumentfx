@@ -137963,5 +137963,15 @@
     "remaining": "Current host/editor support, power-cycle loop retention and full-system backup remain unverified.",
     "downloads": false,
     "hardware_test": false
+  },
+  "gigrig_g3s_discovery_20261101": {
+    "checked": "2026-11-01",
+    "source": "https://www.thegigrig.com/g3-s",
+    "canonical_root": "GIGRIG.md#g3s--controller-discovery-lead",
+    "status": "Partial controller/switcher discovery lead; outside active counts",
+    "finding": "Detailed manufacturer section distinguishes twelve OLED labels from main TFT LCD; Quicktech all-TFT heading conflicts. Saved exact-model screen axes, role, memory, MIDI, body and supply qualifications.",
+    "remaining": "Manual corroboration of display conflict, complete I/O and control audit, expression wiring/global volume, editor compatibility, headphones and qualified Shopee hardware offers.",
+    "downloads": false,
+    "hardware_test": false
   }
 }

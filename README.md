@@ -107,3 +107,5 @@ Continue through ordinary research and repository file commits. **Do not create,
 Incoming expression-volume sources from origin/main87c7d38 are preserved in the category and brand records; [Strymon Iridium](STRYMON.md#iridium) remains a scope-adjacent partial lead outside active counts. Older incoming navigation/count text is retained in research-state.json public metadata, not used as current totals.
 
 [Hologram Chroma Console](HOLOGRAM.md#chroma-console--partial-discovery-lead) is a manufacturer-backed partial no-treadle discovery lead, outside active counts; preset expression mapping is distinct from global volume.
+
+[GigRig G3S](GIGRIG.md#g3s--controller-discovery-lead) is a partial display-controller lead with manufacturer-qualified OLED labels, outside active multi-effects counts.
