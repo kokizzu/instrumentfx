@@ -131716,5 +131716,25 @@
     "restriction": "Oneconvolutionreverb acrossstandaloneandcomboampinclusion;notoneeffectceiling",
     "remaining": "CurrentGuideH countsandremainingfullprofilegaps;noinstalledfirmwaretest",
     "next": "LCDfirstcontinues;independentBOSS GT-Pro cursor preserved"
+  },
+  "tone_master_historical_cab_mic_census_20261031": {
+    "checked": "2026-10-31",
+    "record": "FENDER.md#tone-master-pro--historical-cabinet-and-microphone-census",
+    "source": "https://manuals.plus/m/d661a03ee5f2fdaec47d00be1862b903155245a8345018b802c063be4985be26",
+    "revision": "1.2.55 RevB",
+    "pages": "15–21,69",
+    "cabinet_layout_counts": {
+      "1x10": 1,
+      "1x12": 6,
+      "2x12": 7,
+      "3x10": 1,
+      "4x10": 2,
+      "4x12": 10
+    },
+    "cabinet_total": 27,
+    "microphone_choices": 7,
+    "qualification": "Fullnamedcabsectionread;collectionsnotindividualIRcapturesoruserslots;Freeman/Forge historicalrename notnewmodel",
+    "remaining": "CurrentGuideH cabinet/effect/ampcensus,userIRformats/capacity andglobalEXPcoverage",
+    "next": "ContinueLCDpriority;BOSS GT-Pro independentcursor retained"
   }
 }

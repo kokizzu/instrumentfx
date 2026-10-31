@@ -360,3 +360,23 @@ Checked **2026-10-31**, [manufacturer Model Guide1.2.55,RevB](https://manuals.pl
 | Processing / convolution limit | The guide allows **one convolution reverb at a time**,whether standalone or included in a combo-amp model. This is a specific historical DSP restriction,not a one-reverb orone-effect ceiling. Current equivalence remains unverified. |
 
 Later renamed models,split categories andfirmware additions remain separately documented. Do not add later update increments mechanically to91. Current GuideH census,IR-file limits andglobal volume gaps remain open. No download ordevice test.
+
+### Tone Master Pro — historical cabinet and microphone census
+
+Checked **2026-10-31**, [manufacturer Model Guide1.2.55,RevB](https://manuals.plus/m/d661a03ee5f2fdaec47d00be1862b903155245a8345018b802c063be4985be26),printedpp15–21,69;original-document identity established above.
+
+| Cabinet layout | Count | Complete historical choices |
+|---|---:|---|
+| 1×10 |1|’65 Princeton C10R|
+| 1×12 |6|’65 Deluxe C12K;’65 Deluxe Creamback;Bassbreaker;Blues Junior A-Type;Blues Junior LTD C12N;Mega EV|
+| 2×12 |7|’65 Twin C12K;’65 Twin Creamback;Vibro-King V30;UK30 Greenback;UK30 Alnico Blue;JC;British Jubilee|
+| 3×10 |1|Vibro-King|
+| 4×10 |2|’59 Bassman;’65 Super Reverb|
+| 4×12 |10|British Blackback;British Greenback;British T75;British Jubilee V30;EVH5150IIIS;Freeman V30;Mega Shadow;Mega V30;Uber T75;Uber V30|
+
+| Field | Census / qualification |
+|---|---|
+| Categories / historical cabinet total | **1+6+7+1+2+10=27 cabinet collections**. These are named cabinet choices,not27 individual IR files oruser-import slots. |
+| IR / historical microphones | **Seven:** Condenser C414,Condenser M23,Dynamic MD421,Ribbon R121,Dynamic RE20,Dynamic SM7B,Dynamic SM57. Microphone selection is not another effect block. |
+
+“Freeman” is retained as this guide’s name;later Forge renaming does not create an extra model. Counts do not replace current6000/20,000capture claims or establish current cabinet totals,userIR limits orinstalled contents. No downloads orhardware test.
