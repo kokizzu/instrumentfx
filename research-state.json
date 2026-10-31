@@ -137071,5 +137071,20 @@
     ],
     "next": "Continue individualLCD exact-model gaps withnew evidence;preserve general GT-Pro cursor.",
     "downloads": false
+  },
+  "b3_looper_time_stop_override_20261101": {
+    "model": "Zoom B3 original",
+    "checked": "2026-11-01",
+    "source": "https://zoomcorp.com/media/documents/E_B3.pdf",
+    "pages": "printed26–29",
+    "finding": "1.5–40s recording,20s maximum withUndo;out-of-range note-count timing automatically adjusted. One-second hold undoes last overdub andsame gesture redoes. Holding stop overridesFINISH/FADE OUT forimmediate stop.",
+    "qualification": "Control icons missing from extraction;do not assign fixed switch numbers. No physical test ordownload. Earlier erasure limits andunverified patch-change continuity retained.",
+    "remaining": [
+      "exact numbered looper switch gestures",
+      "preset-change loop retention",
+      "global EXP scope/range/output coverage",
+      "complete separate-button count"
+    ],
+    "next": "Keep individualLCD processor gaps first;general GT-Pro cursor remains independent."
   }
 }
