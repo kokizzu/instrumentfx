@@ -613,3 +613,5 @@ HX Effects [expression-bypass qualification](LINE6.md#hx-effects--expression-con
 FM3 [tuner-mute placement](FRACTAL-AUDIO.md#fm3--tuner-mute-placement-and-footswitch-indication) distinguishes tail-preserving input mute from tail-silencing output mute; it does not resolve global expression attenuation through bypass or USB playback.
 
 Tone Master Pro [tuner path qualification](FENDER.md#tone-master-pro--tuner-path-scope-and-tap-lcd-readout): selected-input tuner mute does not establish universal expression attenuation or backing-audio mute.
+
+G3n [level-scale qualification](ZOOM.md#g3n--patch-level-versus-pedal-range-and-tuner-limits): patch LEVEL andmaster M.LVL are separate from OutputVP’s unverified endpoints andglobal assignment.

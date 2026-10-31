@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Remaining confirmed individual-LCD processors: Zoom G3n first for direct expression assignment/output coverage and remaining control census; do not repeat established OutputVP retention as global target proof. Preserve all earlier model gaps.",
+      "next_check": "Zoom G3Xn then G3X: remaining exact-model LCD/control/profile gaps; preserve built-in-treadle distinction and do not transfer G3n external input. Continue confirmed individual-LCD models before OLED/shared-screen leads.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133192,5 +133192,18 @@
     "source": "https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual",
     "revision": "Manufacturer firmware1.5 manual,pp31–32",
     "finding": "Selected-input tuner mute and tap LCD readout qualified; current1.8/output coverage unverified."
+  },
+  "g3n_patch_level_tuner_20261101": {
+    "source": "https://zoomcorp.com/media/documents/D_G3n_G3Xn.pdf",
+    "pages": [
+      17,
+      18,
+      22,
+      31,
+      32,
+      33
+    ],
+    "finding": "Patch/master scales and tuner limits qualified; OutputVP range/global coverage unresolved.",
+    "visual_access": "Browser inventory returned no enabled surfaces; no visual count."
   }
 }

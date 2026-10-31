@@ -3687,6 +3687,16 @@ Rechecked **2026-10-31** using indexed original text from [Zoom’s exact G3Xn p
 
 The manual’s adapter-startup instruction remains independent evidence, not an explicit denial of USB power. No download, cable connection or hardware test.
 
+### G3n — patch level versus pedal range and tuner limits
+
+Checked **2026-11-01**, [manufacturer German shared G3n/G3Xn manual](https://zoomcorp.com/media/documents/D_G3n_G3Xn.pdf), ©2016,Z2I-2796-01, printed pp17–18,22,31–33. Original text only; G3Xn built-in-pedal instructions excluded.
+
+**PATCH→LEVEL spans0–120**, distinct from **MASTER LEVEL/M.LVL0–120**. Neither scale is a verified OutputVP endpoint or global analog-volume assignment; the earlier PDL Vol Min/Max remains separate.
+
+Tuner reference **A435–445Hz**; types comprise Chromatic plus Guitar,OpenA/OpenD/OpenE/OpenG andDADGAD. Flat shifts one,two orthree semitones but is unavailable in Chromatic mode. Guitar mode includes seven-string tuning. Tuner bypass/mute does not establish expression attenuation of headphones,tails orloops.
+
+Full separate-button/visual control census andOutputVP assignment/coverage remain open. No browser surface was available for panel inspection;no image-count claim,local download ordevice test.
+
 <!-- comparison evidence ends -->
 
 ### G3Xn sources and next verification
