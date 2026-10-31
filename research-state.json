@@ -132553,5 +132553,16 @@
     "previous_memory_row": "| Factory / user memory | 297 patches,99banks×3; factory-filled/blank split unresolved. Auto-save switch added in firmware1.10. | [Indexed manual][ZG5-M]; [History][ZG5-H] |",
     "scope": "Historical named patch-sheet allocation;later firmware andoffered unit contents remain unknown.",
     "next": "LCD-first technical audit;full control census andscreen physical specifications remain open. Independent BOSS GT-Pro cursor unchanged."
+  },
+  "b3_delay_timing_20261031": {
+    "checked": "2026-10-31",
+    "model": "Zoom B3",
+    "source": "https://zoomcorp.com/media/documents/E_B3.pdf",
+    "printed_pages": [
+      45,
+      46
+    ],
+    "scope": "All delay identifiers082–093 inspected;timing andhold distinctions recorded in root.",
+    "next": "LCD-first audit;remaining global-volume endpoint/recall,display hardware specifications andcondition-qualified offers stay open. Independent BOSS GT-Pro cursor unchanged."
   }
 }

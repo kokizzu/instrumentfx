@@ -1763,6 +1763,28 @@ Checked **2026-10-31**,[own manufacturer manual pp38–40,49](https://zoomcorp.c
 
 Original text only;no download,visual panel count orhardware test.
 
+### B3 — complete delay-choice timing table
+
+Checked **2026-10-31**,[own manufacturer manual,printedpp45–46](https://zoomcorp.com/media/documents/E_B3.pdf). Original B3 only;all twelve numbered delay choices082–093 covered.
+
+| Models | TIME range,ms |
+|---|---:|
+| 082 Delay;085 AnalogDly | 1–5000 |
+| 083 TapeEcho;084 ModDelay | 1–2000 |
+| 086 ReverseDL | 10–2500 |
+| 087 MultiTapD | 1–3000 |
+| 088 DynaDelay;089 FilterDly;090 PitchDly | 1–2000 |
+| 091 StereoDly | 1–2000 separately forL/R |
+| 092 PhaseDly | 1–2000 |
+| 093 TrgHldDly | 10–1000 |
+
+| Field | Scope / qualification |
+|---|---|
+| Categories / delay timing | **Twelve named delay choices**,withmodel-specific limits in the [complete table](#b3--complete-delay-choice-timing-table);not twelve simultaneous blocks orfive seconds for every delay. |
+| Looper / hold distinction | Delay,AnalogDly andReverseDL list optionalFS Hold/InputMute;TrgHldDly samples/holds in response to picking. These are effect controls,not the separate40-second phrase looper,persistent audio storage orguaranteed preset-change tails. |
+
+No download ordevice test;installed revision andfull switch-symbol mapping remain unverified.
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified historical hardware ask
