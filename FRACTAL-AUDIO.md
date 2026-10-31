@@ -260,7 +260,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI selle
 | IR / NAM / captures | **2200+factory cabs,1024user IRs**,UltraRes/DynaCab.2022manual lists WAV/IR/SYX import and16scratchpads;current format/length limits unresolved. Native NAM,converted NAM,user amp capture import unverified. [Store][f9-s];[Manual][f9-m] p.2. |
 | Synth / acoustic | Synth algorithms explicitly named;acoustic/piezo routing documented historically. Dedicated acoustic-simulation algorithm inventory unresolved;body IR enhancement differs. [Product][f9-p];[Manual][f9-m] p.38. |
 | I/O | Instrument¼-inch input;two balanced stereo¼-inch input pairs;three stereo outputs:Out1 XLR+Humbuster¼-inch,Out2 XLR,Out3 Humbuster¼-inch;phones;three pedal jacks;FASLINKII;S/PDIFin/out48kHz. Manual addsUSB-B,MIDIDINin/out-thru,mains. Humbuster is not ordinary balanced output. [Product][f9-p];[Manual][f9-m] pp.21–22,128. |
-| USB functions | **8×8audio plusUSB MIDI**,record/play/reamp;distinct from FM3 proprietaryCOMM-only MIDI limitation. USB audio does not prove USB power. [Product][f9-p];[Store][f9-s]. |
+| USB functions | **8×8audio plusUSB MIDI**,record/play/reamp;computer playback1/2→main outs,3/4→Out2,5/6→Input1 block,7/8→USB grid block. Direct output playback and grid processing are different routes;see [routing qualification](FRACTAL-AUDIO.md#fm9--usb-playback-and-record-routing). Distinct from FM3 proprietaryCOMM-only MIDI limitation. USB audio does not prove USB power. [Product][f9-p];[Store][f9-s]. |
 | Power / battery / USB operation | Historical manual:**90–264VAC,47–63Hz,<40W**;CR2032backs memory,not operating battery. Current MKII consumption confirmation unresolved. DCpolarity/current not applicable to mains inlet;USB/battery operation unverified. [Manual][f9-m] p.128. |
 | Editor platforms / drivers | **FM9-Edit Mac/Windows**,full editor/librarian. Current1.03.22,2026-08-25;macOS10.13+Intel/M1,Windows10+64bit;Windows7unsupported. Mobile/Linux editor unresolved. [Editor][f9-e]. |
 | Firmware / software revision | Downloads list**12.0,2026-07-07**,original/Turbo compatible;requires latest editor. WindowsUSBdriver6.16,2026-06-10,Windows10+x86/x64/ARM;older7/8need5.12. Factory presets9.02,2025-06-04,target9.x+. USBfirmware1.04separate hardware-revision update. Installed firmware unknown;manual remains3.x. [Downloads][f9-d]. |
@@ -345,6 +345,23 @@ Checked2026-10-31: [manufacturer Footswitch Functions Guide](https://www.fractal
 |---|---|
 | Controls / configurable preset down-up | **Preset Increment/Decrement** supports step**+1 or−1**,configurable wrap and lower/upper preset limits. This is a documented sequential-preset function distinct from Bank Inc/Dec;assign through EZ or Edit Layout/Switch. It does not prove an untouched factory layout already supplies a dedicated down/up pair. |
 | Display / preset-switch labels | Available labels depend on function: target name/number,bank position,custom text,toggle-pair numbers,current/destination name or number,and action/step size. Names use the **first10characters**. A configurable label is not another physical LCD or a published strip diagonal. |
+
+### FM9 — USB playback and record routing
+
+Checked **2026-10-31**,current [MKII-headed manufacturer product page][f9-p]. Channel direction below is from the computer viewpoint;not physical input numbering.
+
+| Direction / channels | Documented route |
+|---|---|
+| Record1/2 | Processed main outputs |
+| Record3/4 | Output2 |
+| Playback1/2 | Main outputs,mixed with preset-processed audio |
+| Playback3/4 | Second physical stereo output |
+| Playback5/6 | Input1 grid block,reamp route |
+| Playback7/8 | Special USB grid block,for routing/reamping |
+
+Product text also permits recording Input1 DI and either stereo auxiliary input,but does not assign their channel numbers in this paragraph. Do not infer those assignments. Direct output playback does not establish passage through a preset Volume block;global analog-pedal coverage of USB playback,phones,bypass,tails and recorded loops remains unverified. No interface/device test or download.
+
+Exact Hurtrock Shopee item rechecked2026-10-31:search still showsRp44.395.000 in a last-month cache;direct page remains JavaScript-only. This corroborates the historical ask,not current stock,condition or checkout price.
 
 ## VP4
 

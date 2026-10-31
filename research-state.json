@@ -129328,6 +129328,13 @@
         "source": "https://shop.fractalaudio.com/products/fm9-mark-ii-turbo-amp-modeler-multi-fx-floor-unit",
         "finding": "Exact current MKII store confirms five main-display push encoders,not complete rotary/push count.",
         "remaining": "Current store supplies no dimensions/mass; older physical figures remain revision-qualified. Direct old manual reader timeout; no file download."
+      },
+      "usb_routing": {
+        "checked": "2026-10-31",
+        "source": "https://www.fractalaudio.com/fm9/",
+        "finding": "Computerrecord1/2main,3/4Out2;playback1/2mainmix,3/4Out2,5/6Input1block,7/8USBblock. Aux/DIrecordchannelnumbersnotassignedbyparagraph.",
+        "remaining": "GlobalEXPcoverageofUSBplayback/phones/bypass/tails/loopunknown;currentMKIIphysicalratingsstilluncorroborated.",
+        "offer_recheck": "Hurtrock11170212/25331147281 unchanged44395000,lastmonthindex,directJSonly;stock/conditionunknown."
       }
     },
     "fm3": {
