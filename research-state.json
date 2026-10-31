@@ -137237,5 +137237,24 @@
     ],
     "destination": "FRACTAL-AUDIO.md#fm9-turbo--configurable-onboard-preset-navigation",
     "qualification": "ExplicitTurbo-covered manual references sharedfunctions;not inferred fromMKII hardware. Factory pair,currentfirmware andglobalvolume coverage remain untested."
+  },
+  "g5n_editor_clip_backup_20261101": {
+    "model": "Zoom G5n",
+    "status": "manufacturer-documented editor workflow;partial",
+    "sources": [
+      "https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/g5n-support/",
+      "https://zoomcorp.com/documents/1956/E_GuitarLab_v7.0.pdf",
+      "https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/"
+    ],
+    "destination": "ZOOM.md#g5n--editor-clips-and-patch-backup-scope",
+    "finding": "G5n support links shared7.0 guide;patch pool/individual andall backup/restore,1–4effect clips. Not extra hardware blocks,full-system backup orG5n IR proof.",
+    "remaining": [
+      "USB manufacturer channel/routing confirmation",
+      "current7.3 workflow equivalence",
+      "backup contents andactual restore",
+      "global expression coverage"
+    ],
+    "next": "IndividualLCD processor gaps first;independent general GT-Pro cursor preserved.",
+    "downloads": false
   }
 }
