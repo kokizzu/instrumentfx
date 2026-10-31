@@ -138191,5 +138191,16 @@
     "access": "Targeted indexed original text read;full39.8MB PDF exceeds readerlimit;no localdownload.",
     "remaining": "Exact publication date/firmware andmanufacturer/visual switch census unresolved;separate buttons stillunknown. No change to globalvolume orUSB capability.",
     "active_counts_changed": false
+  },
+  "hx_effects_dc3h_regional_replacement_20261101": {
+    "checked": "2026-11-01",
+    "source": "https://line6.jp/effects-pedals/accessories/",
+    "finding": "Manufacturer regional accessories page explicitly names HX Effects/DC-3h compatibility:9V,up to3000mA,centernegative,120–240VAC50/60Hz aslisted.",
+    "qualification": "Replacement supply evidence,not a renaming oforiginal DC-3g ormeasuredcurrent. Actualregionaladapterlabel,connector dimensions and100Vinput notverified bythisentry. AdjacentHXOneDC1g excluded.",
+    "summary_reconciliation": {
+      "previous": "Remaining summary still listed supplyvoltage/polarity despite existing exact DC3g cross-check.",
+      "current": "Actualsuppliedregionaladapter/label remainsopen;namedDC3g anddirectDC3h ratings nowqualified."
+    },
+    "active_counts_changed": false
   }
 }
