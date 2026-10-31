@@ -309,7 +309,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI selle
 | Display | **Nine individual mini LCDs, one per onboard footswitch**, plus a separate color main display. Current exact MKII Turbo product confirms enlarged strips with almost twice the original viewing area; checked2026-10-31. Colored LED rings are separate from LCD technology. Historical main800×480; diagonal/touch unverified. [Current manufacturer](https://www.fractalaudio.com/fm9/);[Store][f9-s];[Manual][f9-m] p.128. |
 | Display / historical appearance controls | **August2022 firmware3.x manual,p90:** Mini-Display Contrast adjusts onboard strips;Mini-Display + Ring Brightness adjusts their combined master brightness;Invert Mini Displays selects light text on dark. These do not specify current MKII numeric ranges or independent strip brightness. [Own manual][f9-m],checked2026-10-31. |
 | Expression / startup-value boundary | **Same manual p98:** External Control1–16 Initial Value applies only to MIDI CC assignments and explicitly excludes local/FC pedals or switches. It cannot prove analog-pedal startup recall. Global volume endpoints and current MKII/firmware12 behavior remain unverified. |
-| Dimensions / weight | Historical original/Turbo manual:**513W×237D×89H mm;5.44kg**,large. Exact MKII body/mass corroboration unresolved;do not borrow FM3 figures. [Manual][f9-m] p.128. |
+| Dimensions / weight | **513W×237D×89H mm;5.44kg**, large, now explicitly published for **MKII Turbo by regional distributor Okada**. Its exact-model page also says body dimensions/mass are unchanged from Turbo. Historical manufacturer figures match; direct current manufacturer MKII physical certification and measured plug clearance remain unverified. [Okada exact model](https://www.okada-web.com/fractal-audio-systems/fm9-mark-ii-turbo), checked2026-10-31;[historical manual][f9-m] p128. |
 | Simultaneous blocks / category choices | Two amp blocks,four channels each;**325+ amp choices**,57+drive,50+reverb current product headlines. CPU-dependent concurrency,current category census unresolved. [June2023 FM9 type/instance table](#fm9--historical-block-inventory) is retained below,not current MKII certification.2022manual instead59+drive/60+reverb;retain revision/source conflict.14×6grid is not84 guaranteed effects. [Product][f9-p];[Manual][f9-m] p.2. |
 | Preset / factory / user memory | **512 presets,8 scenes,four channels in most blocks**. Historical manual permits overwriting every location;factory-filled subset unknown. [Store][f9-s];[Manual][f9-m] p.39. |
 | IR / NAM / captures | **2200+factory cabs,1024user IRs**,UltraRes/DynaCab.2022manual lists WAV/IR/SYX import and16scratchpads;current format/length limits unresolved. Native NAM,converted NAM,user amp capture import unverified. [Store][f9-s];[Manual][f9-m] p.2. |
@@ -478,6 +478,17 @@ Checked **2026-10-31**, [own manual][f9-m], August2022 firmware3.x Original/Turb
 | USB / level controls | Four playback-pair trims span **−40 to+20dB**. OUT1 hand control adjusts processed audio and computer playback together in the documented monitor setup. These controls do not prove global analog-EXP attenuation of USB returns,headphones,bypass or recorded loops. |
 
 No file downloaded, driver installed or device operated.
+
+### FM9 MKII Turbo — regional physical and mini-display specifications
+
+Checked **2026-10-31**, [Okada’s exact MKII Turbo page](https://www.okada-web.com/fractal-audio-systems/fm9-mark-ii-turbo). This is regional-distributor evidence, not a newly revised manufacturer manual or a hardware measurement.
+
+| Field | Published distinction / qualification |
+|---|---|
+| Display / mini-display dimensions | Reports enlargement from **36×12.5mm (1.4×0.5in)** to **50×17.5mm (1.9×0.7in)**; displayed character height4.6→9.2mm. These are two-axis dimensions, not diagonals. Active-area boundaries, color depth and touch remain unverified. Manufacturer’s own MKII page independently confirms almost twice the viewing area, without these exact dimensions. |
+| Body / exact revision | Explicit MKII specification **513W×237D×89Hmm;5.44kg**, and unchanged body dimensions/weight versus Turbo. This narrows the earlier exact-model corroboration gap on a distributor-qualified basis. It exceeds200W×140Dmm; current direct manufacturer corroboration remains open. |
+
+Earlier unknowns above retain their historical source scope; this supplement supplies the new regional evidence. No sibling-model transfer, download or device test.
 
 ## VP4
 

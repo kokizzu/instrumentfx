@@ -131766,5 +131766,32 @@
     "result": "All91historicaleffectnamesrecorded acrosssixcategories;notcurrentinventory",
     "remaining": "CurrentGuideH unavailable;exactcurrentcategorycounts,IRlimits,globalEXPscope andconditionqualifiedhardwareoffers",
     "next": "ReturntootherLCDmodels remaininggaps;independentBOSS GT-Pro cursor retained"
+  },
+  "fm9_okada_physical_lcd_20261031": {
+    "checked": "2026-10-31",
+    "record": "FRACTAL-AUDIO.md#fm9-mkii-turbo--regional-physical-and-mini-display-specifications",
+    "source": "https://www.okada-web.com/fractal-audio-systems/fm9-mark-ii-turbo",
+    "basis": "Regionaldistributor exactMKII page;notnewmanufacturer manualorhardwaretest",
+    "dimensions_wdh_mm": [
+      513,
+      237,
+      89
+    ],
+    "weight_kg": 5.44,
+    "mini_display_two_axis_mm": [
+      50,
+      17.5
+    ],
+    "prior_mini_mm": [
+      36,
+      12.5
+    ],
+    "character_height_mm": [
+      4.6,
+      9.2
+    ],
+    "qualification": "Pageexplicitunchangedbody/massversusTurbo;twodimensionsnotdiagonal;currentmanufacturerexactphysicalconfirmationstillpending",
+    "remaining": "MiniLCDcolor/touch/activearea,fullphysicalcounts,currentglobalvolume range/recall/bypass/loopcoverage",
+    "next": "ContinueLCDfirst remainingfields;independentBOSS GT-Pro cursor retained"
   }
 }
