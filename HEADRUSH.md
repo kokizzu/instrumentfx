@@ -378,6 +378,7 @@ Checked **2026-10-17**. Original HeadRush Pedalboard, distinct from Prime and Gi
 | IR / NAM / captures | WAV/AIFF imports,up to192kHz/32-bit source files; storage capacity **?**. Firmware2.6 adds **two IRs in one block**. Native/converted NAM and proprietary capture loading **?**, not inferred from Prime/Core. [FAQ][PB-Q], [Firmware,p.2][PB-F] |
 | Audio/control I/O | ¼″ TS instrument in;3.5mm stereo AUX;external¼″TRS EXP;two XLR outs with ground lift;two¼″TRS mains;¼″stereo phones;two¼″sends/two returns;DIN MIDI in/out-thru;USB-B;IEC. No amp-control out per comparison. FAQ/appendix reverse send/return directions; manual rear-panel text correctly identifies sends as outputs and returns as inputs. [Manual,pp.5–6][PB-M], [Comparison][PB-C] |
 | Power / battery / USB | **100–240 V AC,50/60Hz,1.2 A IEC input rating**, not measured consumption; DC barrel polarity N/A. Battery/USB-powered operation **?** [Manual,p.40][PB-M] |
+| Editor / dated updater requirement | **Firmware2.7 notes,August2024:Windows8 or macOS10.15,host USB2.0**. Updater minimum only; not proof of full-editor availability or current driver/OS compatibility. [Firmware,p.1][PB-F] |
 | Editor / USB audio | **4-in/4-out,up to24-bit96kHz**,record/reamp;Windows driver,Mac driverless per FAQ. Full editor/mobile/Linux support and current OS compatibility **?**. Live USB mode feeds computer and hardware outs; DAW/Reamp modes disable hardware outs. USB file transfer is separate from editing; Mac/Windows updaters are not editors. [Manual,p.33][PB-M] [FAQ][PB-Q], [Comparison][PB-C] |
 | Looper / scenes / routing | Comparison **5-minute loop,50 layers,20-minute total audio**; FAQ instead **100 layers/20 minutes**, unresolved revision difference. Own manual2.1.2 pp.29–30 confirms **50 layers/20 minutes**, matching comparison rather than FAQ. PRE/POST looper placement,half/double speed andlength,reverse,mute,save/load,WAV/MP3 import supported. Playback continues after leaving looper; rigs can change between layers. Unsaved-loop power-cycle retention **?**. Scenes,setlists,Song Mode,hands-free editing;drums **?** [Comparison][PB-C], [FAQ][PB-Q], [Manual,contents][PB-M] |
 
@@ -389,6 +390,10 @@ Checked **2026-10-17**. Original HeadRush Pedalboard, distinct from Prime and Gi
 | Verified used offer | **?** | Not established |
 | Verified new offer | **?** | Historical ask has no verified sale condition |
 <!-- comparison evidence ends -->
+
+### Pedalboard — OLED firmware behavior, 2026-10-31
+
+[Own cumulative2.7 notes][PB-F],August2024,printedpp2–3: the2.3.1 section changes OLED burn-in protection from30 to60 minutes and fixes blank footswitch displays on entering Looper. The2.7 section fixes occasional incorrect LED colors for rigs with dual-state scenes. Screen protection, OLED content and switch-LED color are distinct. Historical firmware behavior; seller-installed versions and present device behavior unverified. No firmware download, installation or hardware test.
 
 ### Pedalboard source limits
 

@@ -129604,6 +129604,13 @@
       "identity": "Own X5 V3.0 guide,Music Tribe2021,pp14–15,33",
       "finding": "Corresponding slot LCDs;Mini-B USB/True Bypass; screen diagonal/color/touch unknown.",
       "offer": "Exact NEO MUSIC item cache miss; historical ask retained."
+    },
+    "pedalboard_firmware": {
+      "checked": "2026-10-31",
+      "source": "https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/Pedalboard%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20Pedalboard%20Firmware%20Update%20v2.7.pdf",
+      "identity": "Original Pedalboard2.7,August2024,pp1–3",
+      "finding": "Historical OLED protection/Looper strip fixes separated from scene LED color; dated updater OS minimum retained.",
+      "remaining": "Exact current firmware,editor/driver compatibility and installed unit behavior unverified."
     }
   }
 }
