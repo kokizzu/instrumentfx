@@ -137973,5 +137973,14 @@
     "remaining": "Manual corroboration of display conflict, complete I/O and control audit, expression wiring/global volume, editor compatibility, headphones and qualified Shopee hardware offers.",
     "downloads": false,
     "hardware_test": false
+  },
+  "g3n_looper_control_scope_20261101": {
+    "checked": "2026-11-01",
+    "source": "https://zoomcorp.com/media/documents/D_G3n_G3Xn.pdf",
+    "revision": "G3n/G3Xn German operation manual ©2016,Z2I-2796-01,printed pp36–40",
+    "finding": "Four mono/stereo one-/two-unit layouts, one looper per patch, layout-dependent stop controls, three stop modes and separate loop-level parameter recorded.",
+    "remaining": "Global analog volume assignment, OutputVP range/recall/output coverage, physical panel corroboration and current exact-condition hardware offers remain unresolved.",
+    "downloads": false,
+    "hardware_test": false
   }
 }
