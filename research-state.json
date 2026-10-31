@@ -137612,5 +137612,23 @@
       "No software install,hardware operation orlocal download."
     ],
     "next": "Continue missing individual-LCD model discovery andremaining G5/G5n/G11 gaps. General BOSS GT-Pro cursor unchanged."
+  },
+  "g5n_unit_dsp_example_20261101": {
+    "model": "Zoom::G5n",
+    "status": "partial manufacturer-backed capacity clarification",
+    "sources": [
+      "https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/g5n/",
+      "https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf"
+    ],
+    "findings": [
+      "Exact G5n Japan product:amp2 units,cabinet1,combination3.",
+      "V3 DSP example: MS 800 (30) + MS4x12 (9) + ParticleR (38) + ICE Delay (26) = 103 > 100. Four selected types do not guarantee DSP feasibility."
+    ],
+    "qualifications": [
+      "Calculated published-chart example,not a device test orwhich-effect-bypasses claim.",
+      "2020 chart explicitly G5n3.0;later/current installed costs not verified.",
+      "No download,installation orhardware operation."
+    ],
+    "next": "Continue remaining individual-LCD models before OLED/shared-screen leads;independent BOSS GT-Pro cursor unchanged."
   }
 }

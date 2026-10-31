@@ -4068,6 +4068,7 @@ Reviewed **2026-10-17** after fresh exact Shopee hardware discovery. New catalog
 | Display | Four 128×32 LCD Unit Displays plus one 256×32 Overview LCD. Each unit combines its display, four parameter knobs and a footswitch (V2 pp3–5); extra navigation switches do not imply extra screens. Published diagonals, explicit monochrome/color and touch ? | [V2 manual, p.58](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
 | Dimensions / weight | **454 W ×225 D ×75 H mm;3.4 kg**. Large; plug/pedal clearance additional. | [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
 | Processing | Up to **nine effects**, reorderable; V2 improves DSP efficiency. **V3 DSP budget100 points**; effect costs differ. Exceeding DSP or unit limits triggers PROCESS OVERFLOW and bypasses effects; remove/change effects to recover. Complete dated inventories below:2017 parameter sheet148 entries;2020 V3 processing chart157 category entries+four looper variants+Rhythm=162 rows. [V3 category census](#g5n--v3-processing-chart-census-2020-revision);current/installed totals remain unverified. | [V3 chart](https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf); [V2 manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf); [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) |
+| Processing / unit occupation versus DSP | Japan product page explicitly allocates **amp: 2 units; cabinet: 1 unit; combination: 3 units**. Separate V3 chart: MS 800 (30) + MS4x12 (9) + ParticleR (38) + ICE Delay (26) = **103 DSP points**, exceeding 100 despite four processing types. Arithmetic example,not a hardware test;see [qualified capacity example](#g5n--amp-unit-occupation-and-dsp-capacity-example). | [Manufacturer Japan product](https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/g5n/);[V3 chart](https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf),checked2026-11-01 |
 | Model choices / version conflict | US page:126=100 effects+13 amps+13 cabs. Japan V3 page:159=127 effects+16 amps+16 cabs. V2 manual:128 types. Preserve version/region wording; not interchangeable inventories. | [US](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/); [Japan](https://zoomcorp.com/en/jp/multi-effects/guitar-effects/zoom-g5n/); [V2](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
 | Memory | **200 editable patches;V2 factory map:001–124 supplied,125–200 empty (124+76)**,not200+124. [V2 patch list](https://zoomcorp.com/documents/70/E_G5n-V2.0_patch-list.pdf). V2 SAVE selects and confirms a destination; SWAP exchanges patches (pp21–23). AUTO SAVE OFF prompts to save or discard edits on patch change (p28). All Initialize restores settings/patches (p52); firmware update preserves saved patches (p55). V2 initial allocation is now established;current unit contents and later factory revisions remain unverified. | [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf); [product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) |
 | Synth / acoustic | **Aco.Sim electric-to-acoustic simulator confirmed**,with Top/string character,Body/resonance,Tone and VOL controls (0–100 each). G5n V2 patch037 TAcoustic uses Aco.Sim+RackComp. Patch051 Loopertron uses OctFuzz+TapeEcho for a synth-style octave sound; this establishes a composite sound,not a dedicated synth engine or polyphonic tracking specification. Complete synth/category counts remain ?. | [G5n V2 patch list](https://zoomcorp.com/documents/70/E_G5n-V2.0_patch-list.pdf); [shared effect parameters,p.7](https://zoomcorp.com/media/documents/E_G5n_G3n_G3Xn_FX-list.pdf.pdf) |
@@ -4317,6 +4318,23 @@ Checked **2026-11-01**, [manufacturer V2 manual, printed p3](https://zoomcorp.co
 Checked **2026-11-01**. The [exact G5n support page](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/g5n-support/) links the manufacturer’s [Guitar Lab7.0 reference guide](https://zoomcorp.com/documents/1956/E_GuitarLab_v7.0.pdf),©2020. Its pp17–18 document individual patches copied to the computer-side Patch Pool,Backup All,individual Copy To Device andRestore All;files can be exported/imported by dragging outside/into the application. These are patch workflows,not verified full-system/firmware backups orfactory recovery.
 
 On p25 a **clip holds1–4 effects with their settings**,inserted into a patch by dragging. This is a reusable editor template,not four additional simultaneous hardware blocks orfour onboard preset locations. G5n’s own [product page](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) independently describes its clipboard andCPU-use monitoring. The generic guide’s conditional IR view does **not** establish G5n user-IR loading. Current7.3 equivalence,backup format/contents andactual restoration remain untested. USB channel/routing andglobal expression gaps remain open;no file/software downloaded ordevice operated.
+
+### G5n — amp-unit occupation and DSP-capacity example
+
+Checked **2026-11-01**. [Zoom’s Japanese G5n product page](https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/g5n/) explicitly states that an **amp occupies two effect units**,a **cabinet one**,andtheir combination **three**. The same page presents the159-model count as G5n Ver.3.0,while retaining other older copy;do not infer every statement was newly revised. Four physical Unit LCDs andnine-effect marketing are not guarantees of nine unrestricted processor instances.
+
+The separate [manufacturer DSP chart](https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf),©2020,Z2I-2808-02,expressly covers **G5n3.0 with a100-point ceiling**. Its published costs yield:
+
+| Named processing type | V3 DSP points |
+|---|---:|
+| MS 800 amp |30|
+| MS4x12 cabinet |9|
+| ParticleR reverb |38|
+| ICE Delay |26|
+| **Calculated total** |**103**|
+
+This example exceeds the published DSP ceiling even with only four selected types. It illustrates why **unit occupation andDSP budget must both be checked**;it is not a device test,a measured CPU percentage ora claim about which effect becomes bypassed. Later pool additions/current installed costs remain unverified. Existing PROCESS OVERFLOW behavior andfirmware efficiency qualifications are retained. No local download,software installation orhardware operation.
+
 
 ## G6
 
