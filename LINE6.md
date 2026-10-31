@@ -871,6 +871,18 @@ Checked **2026-11-01**, [manufacturer3.80 RevD manual,printedpp7,45–46](https:
 
 These are documented behavior,not a device test orcolor/touchscreen specification. No download. Global analog-volume assignment remains unverified.
 
+### HX Effects — IR-reference persistence and preset-sharing conflict
+
+Checked **2026-11-01**, [own3.80 RevD manual,printedpp5,16–17,26](https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf),original manufacturer-hosted text.
+
+| Field | Evidence / qualification |
+|---|---|
+| IR / saved reference | Saving a preset,IR Favorite orIR user default creates a filename-based reference toits imported WAV/HIR. Reordering the library retains that association;another HX Effects can find the same IR in a different slot. This is reference behavior,not embedding theIR in a preset orproof that deletion/renaming is safe. |
+| Editor / preset-sharing conflict | P5 describes Helix/HX/Native preset sharing with restrictions andrefers toeditor guides; p16 instead says HX Effects exports cannot beused byHelix/Native,andvice versa. These same-revision statements conflict. Do not turn either into unrestricted compatibility oruniversal incompatibility. Exact destination,firmware andeditor compatibility need separate verification. |
+| Memory / full-backup scope | P17 explicitly lists presets,IRs,Favorites,user model defaults andglobal settings. This does not establish saved recorded-loop audio orfirmware rollback. |
+
+No export,restore,download ordevice operation. Fresh Shopee searches found onlythe previously preserved sold-out processor andexcluded replacement LCDs;no newqualified offer.
+
 <!-- comparison evidence ends -->
 
 ### Preserved original shared-source HX Effects fields

@@ -137450,5 +137450,16 @@
       "global volume assignment across presets"
     ],
     "next": "Continue individual-LCD exact-model gaps; preserve independent general BOSS GT-Pro cursor."
+  },
+  "hx_effects_ir_reference_and_sharing_20261101": {
+    "status": "partial original-manual evidence; internal conflict preserved",
+    "source": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "revision": "3.80 RevD,printed5,16–17,26",
+    "findings": [
+      "Filename-based IR references survive library reordering after preset/Favorite/default saving; not embedded IR proof",
+      "Same manual p5 allows restricted ecosystem preset sharing whilep16 says incompatible; destination/version/editor verification needed",
+      "Full backup list includes presets,IRs,Favorites,user defaults andglobal settings; not proof of recorded-loop orfirmware backup"
+    ],
+    "next": "Continue individual-LCD capability gaps andnew exact hardware evidence;do not repeat unchanged HX Effects Shopee queries; preserve general BOSS GT-Pro cursor."
   }
 }
