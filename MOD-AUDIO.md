@@ -28,4 +28,12 @@ Checked **2026-11-01**; **partial lead outside active models and brand counts**.
 
 Technical page also gives24-bit48kHz ADC/DAC;this is notUSB stream-format proof. [Manufacturer-hosted developer page](https://wiki.mod.audio/wiki/Developers) lists4GB flash forDuo,versus8GB ontechnical page;revision basis unresolved. Do notborrow Duo X CV-expression sockets orDwarf features.
 
+### Device settings — OS 1.13 scope
+
+The [Duo device-settings guide](https://wiki.mod.audio/wiki/MOD_Duo_Device_Settings), explicitly for OS 1.13, describes the left LCD as the main menu and the right LCD as its submenu. This establishes menu roles, not a dedicated label above each footswitch.
+
+Four user profiles A–D store input, output and sync/MIDI settings; they are not four pedalboard slots. Saving a pedalboard stores its plugin parameters; reset or reload restores that saved state. Neither feature establishes a global expression-volume assignment. Banks and current-pedalboard settings require disconnection from the computer.
+
+Hardware bypass connects each input directly to its corresponding output, engages while powered off and disengages after the pedalboard loads. Each channel can also be bypassed separately. Headphone, effect-tail and looper coverage through this bypass remains unverified.
+
 Next:establish LCD-to-actuator placement fromprimary text orinspectable originalpanel,verify complete profile andexact hardware offers before active admission. No files,software,firmware,plugins ordependencies downloaded;no device operation.

@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff', '--check').strip(), 'Whitespace errors'
     git('add', '--', *sorted(changed))
     print(git('diff', '--cached', '--stat'))
-    print(git('commit', '-m', 'research(mod): collect Duo LCD and direct-expression evidence'))
+    print(git('commit', '-m', 'research(mod): qualify Duo LCD menus and saved-state scope'))
