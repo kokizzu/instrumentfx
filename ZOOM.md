@@ -3470,7 +3470,7 @@ Guitar multi-effects; checked **2026-10-17**, partial first pass. Exact G3Xn, no
 | Factory / user memory | **150 editable locations:75 supplied+75 initially empty**. Exact G3Xn patch sheet,©2016,Z2I-2819-01,enumerates001–075 andexplicitly says076–150 empty by default. Not150+75;later firmware allocation andcontents of an offered used unit remain unverified. [Own G3Xn patch list](https://zoomcorp.com/documents/141/E_G3Xn_patch-list_1.pdf),bothpages read2026-10-31. |
 | Synth / acoustic | Ownsupport-linked2017 effectslist p7 identifies **Aco.Sim electric-to-acoustic simulation**,withTop,Body,Tone,VOL. Exact G3Xn sheet:**037 Tacoustic=Aco.Sim+RackComp;048 Loopertron=OctFuzz+TapeEcho;049 Gayageum=Aco.Sim+PitchSHFT;057 Dobro=Aco.Sim+Gt GEQ7**. These are composite sounds,not separate simulator/synth engines orpolyphony proof. Dedicated synth engine andinstalled content remain unverified. [Own G3Xn patch list,p2](https://zoomcorp.com/documents/141/E_G3Xn_patch-list_1.pdf),checked2026-10-31. |
 | Audio/control ports | Instrument input,stereo aux,dual L/R outputs,headphones,Micro-B USB,DC input. **Conflict:** manual specification table labels L/MONO/PHONES as combined; rear diagram describes PHONES, while the shared product page’s dedicated-headphone paragraph specifically names G3n and cannot independently verify G3Xn. Connector sizes and complete routing require reconciliation. CONTROL IN applies only to G3n. No microphone/XLR/FX-loop path established. [G3-M][g3xn-m], [G3-P][g3xn-p] |
-| Power / battery / USB | **9V DC,center-negative,500mA**, AD-16 adapter specification; measured draw **?**. Battery/USB bus-powered operation **not established**. USB connector alone is insufficient. [G3-M][g3xn-m] |
+| Power / battery / USB | **9V DC,center-negative,500mA**, AD-16 adapter specification; measured draw **?**. Battery operation remains unverified. The [exact G3Xn legacy manufacturer page](https://www.zoom.co.jp/node/748) explicitly claims **USB-port power**; required USB current, applicable hardware/firmware and actual operation remain unverified. This qualifies the earlier blanket USB-power unknown; it is not a measured result. [G3-M][g3xn-m] |
 | IR / native NAM / converted NAM / captures | User IR, native NAM, converted NAM and proprietary capture import each **not established**. Built-in cabinet emulation is distinct from user IR loading. |
 | Editor / USB / recording | **Guitar Lab** edits parameters/chains and manages effects/patches. Support lists7.3:Windows8.1/10/11,macOS10.13–26; separate G3Xn firmware2.20 installers forWindows/Mac. Manual labelsUSB MIDI/Micro-B. **USB audio excluded by Zoom’s January2019 catalogue**,exact G3Xn column;USB MIDI remains separate. Driver/mobile editor support unresolved;no software downloaded or run. [Catalogue](https://zoomrussia.ru/manuals/FX_Catalog_2019_E.pdf). [G3-P][g3xn-p], [G3-S][g3xn-s], [G3-M][g3xn-m] |
 | Looper / drums / scenes / routing | Product headline **80 seconds / 68 rhythms**. Original manual pp36–40 qualifies **mono1.5–80s,stereo1.5–40s; Undo ON halves maxima to40s/20s**. One looper per patch,with1-unit/2-unit mono/stereo choices. **Changing patches stops recording/playback and deletes the loop**; switching toMEMORY mode preserves it. Rhythm-tempo changes during loop playback erase it. Scenes/parallel routing remain unverified. [G3-M][g3xn-m], [G3-P][g3xn-p] |
@@ -3595,6 +3595,17 @@ OutputVP costs3points,each mono looper7,each stereo looper10,andRhythm8. Documen
 Checked **2026-10-31** against Zoom’s [Effects and Preamps2019 catalogue](https://zoomrussia.ru/manuals/FX_Catalog_2019_E.pdf),printedpp5–6. The manufacturer-authored regional mirror identifies Zoom Corporation,January2019;indexed original comparison gives six footswitches andUSB Audio×for **G3Xn**,independent ofG3n’s column. Direct reader previously rejected29.6MB;no complete-PDF orvisual inspection claimed.
 
 The [own German shared manual](https://zoomcorp.com/media/documents/D_G3n_G3Xn.pdf),©2016,Z2I-2796-01,printedpp3–5,supports the13-rotary derivation. These findings supersede earlier unknown control/audio wording within the stated source scopes. Separate button census,modern operation andUSB power-source conflict remain unresolved. No local download ordevice operation.
+
+
+### G3Xn — legacy USB connector, protocol and power wording
+
+Rechecked **2026-10-31** using indexed original text from [Zoom’s exact G3Xn page](https://www.zoom.co.jp/node/748); direct retrieval returned502. Its v2.0 specification table and G3Xn dimensions identify the model; this is not a G3X specification.
+
+| Field | Historical manufacturer claim / qualification |
+|---|---|
+| USB / legacy connector versus protocol | The row labels the connector **USB2.0 Micro-B** and the standard **USB1.1 Full Speed**, then explicitly permits power through USB. Preserve connector and protocol labels separately; neither establishes USB audio. A power-only cable prevents data functions. Required power/current and present hardware applicability are not specified. The overview now reflects this qualified claim rather than a blanket unknown. |
+
+The manual’s adapter-startup instruction remains independent evidence, not an explicit denial of USB power. No download, cable connection or hardware test.
 
 <!-- comparison evidence ends -->
 

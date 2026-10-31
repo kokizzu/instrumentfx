@@ -132871,5 +132871,12 @@
     "finding": "Direct USB1/2 bypasses blocks;Digital hand-knob assignment leaves analog mains unity;Global EQ excludes Send/Digital/USB. Headphone monitoring distinguished fromglobal EXP.",
     "limits": "Selected original sections only;no full manual review,download ordevice test. Power,factory occupancy andLCD physical gaps remain.",
     "next": "Continue individual-LCD evidence andqualified Shopee hardware discovery;independent BOSS GT-Pro cursor preserved."
+  },
+  "g3xn_usb_power_summary_20261031": {
+    "source": "https://www.zoom.co.jp/node/748",
+    "access": "Indexed original exact-model body;direct502",
+    "finding": "Synchronized overview with preserved explicit USB-power claim;added distinct USB2.0 Micro-B connector andUSB1.1 Full Speed protocol labels.",
+    "limits": "Manufacturer legacy web claim;current hardware applicability,required USB current andactual operation unknown. NoUSB audio inferred;manual adapter-startup instruction retained.",
+    "next": "Check G3n own-model USB wording independently;do not transfer this claim between variants. LCD-first priority andindependent BOSS GT-Pro cursor preserved."
   }
 }
