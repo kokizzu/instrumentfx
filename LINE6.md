@@ -322,6 +322,7 @@ Checked **2026-10-17**. Original Helix Floor; distinct from LT,Rack and Stadium.
 |---|---:|---|
 | Indexed hardware ask;condition unverified | **Rp30.609.000** | [W Musik Official Shop,shop37016589/item24212177775][HF-O1],JakartaUtara;retrieved 2026-10-17,cache last month. Earlier 4-month index **Rp28.999.000**,June 3 delivery, retained as an older observation. Condition,variant,bundle,warranty, checkout stock **?**;mall badge does not establish condition. Late-delivery voucher not deducted. |
 | Historical hardware ask;condition unverified;**sold out** | **Rp19.850.000** | [SMOSYU MUSIC,shop397175630/item27006529188][HF-O2],Bekasi;retrieved 2026-10-17,cache last month,**Habis**. Condition/accessories/warrantyunknown;not a verified used price. |
+| Separate indexed XL hardware ask; service unavailable | **Rp41.220.000** | [Rockpizz_Batubulan,shop440269597/item42029627291](https://shopee.co.id/Line-6-Helix-Stadium-XL-Floor-Amp-And-Effects-Processor-i.440269597.42029627291),Kab.Gianyar. Checked2026-10-31 via four-month-old search snapshot: **Layanan Tidak Tersedia**. Direct reopening cache miss. Condition,variant,bundle,microSD,warranty,shipping/tax and checkout unknown; not an available new-price floor. |
 | Verified used offer | **?** | Not established |
 | Verified new offer | **?** | Sale condition not verified |
 <!-- comparison evidence ends -->
@@ -418,6 +419,8 @@ Checked **2026-10-17** against selected pages of the live **Rev E / firmware1.4*
 | Verified used offer | **?** | Not established |
 | Verified new offer | **?** | Sale condition unverified |
 <!-- comparison evidence ends -->
+
+Recheck2026-10-31: the original Denpasar offer remainsRp41.220.000, but search reports a six-day crawl/delivery29October–1November while direct reopening returns three-month-old text/delivery18July. These are conflicting snapshots,not verified current stock; the original dated observations above remain intact.
 
 ### Stadium XL provenance and next checks
 

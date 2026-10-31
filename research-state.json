@@ -129393,7 +129393,18 @@
     "stadium_xl": {
       "checked": "2026-10-31",
       "source": "https://line6.com/helix-stadium/",
-      "finding": "Twelve OLED strips; explicitlyXL-only, not transferred to smaller StadiumFloor."
+      "finding": "Twelve OLED strips; explicitlyXL-only, not transferred to smaller StadiumFloor.",
+      "shopee_followup": {
+        "checked": "2026-10-31",
+        "source": "https://shopee.co.id/Line-6-Helix-Stadium-XL-Floor-Amp-And-Effects-Processor-i.440269597.42029627291",
+        "seller": "Rockpizz_Batubulan",
+        "shop_id": "440269597",
+        "item_id": "42029627291",
+        "idr": 41220000,
+        "condition": "unverified",
+        "access": "Four-month-old indexed snapshot; service unavailable; direct cache miss.",
+        "existing_offer_conflict": "Denpasar search recent delivery versus direct July snapshot; neither confirms stock."
+      }
     },
     "morningstar_mc6pro": {
       "checked": "2026-10-31",
