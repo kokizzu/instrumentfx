@@ -130653,5 +130653,12 @@
     "source": "https://www.m-vave.com/download",
     "finding": "SincoConnectorWindows10/11 BT-MIDI explicitlyFootCtrl/FootCtrlPlus;Chocolate separatelyCubeSuite;no inferredaliases.",
     "remaining": "Actualunitrevision,analogdirection,pinout,resistance andCCsweep remain unknown."
+  },
+  "fm3_startup_scope_20261031": {
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+    "revision": "7.x,expressly covers MKII Turbo",
+    "printed_page": 106,
+    "finding": "External Control1–16 Initial Value is MIDI-CC-only and excludes local/FC pedals or switches.",
+    "limits": "Does not resolve direct-analog startup recall or global volume endpoints; firmware13 not tested."
   }
 }
