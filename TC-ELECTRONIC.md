@@ -619,3 +619,8 @@ Newer documentation checked2026-10-17: manufacturer-hosted indexed1.5.6 text exp
 
 [PX5-F156]: https://cdn.mediavalet.com/aunsw/musictribe/7oqt3nY_P0ypQrubxyiAZA/ZxnHhPbDPka4xmUQl3N2-Q/Original/Plethora_X5_X3_Release_notes_FW_v1_5_6.pdf
 [PX5-FM]: https://manuals.plus/m/fab495897f61212f13d7fd3403d4a371bcb2d147dc9c72fd72db55684cdb91f7
+### PLETHORA X5 — exact linked offer lead, variation still pending
+
+Checked **2026-10-31**: the [Shopee category page](https://shopee.co.id/list/Alat%20Musik/Pengatur/Tempo) displays **Rp11.367.000** for “Multi Efek Pedal Gitar TC Electronic Plethora X5 TonePrint Board” and links [seller306155985/item18280216311](https://shopee.co.id/Multi-Efek-Pedal-Gitar-TC-Electronic-Plethora-X5-TonePrint-Board-i.306155985.18280216311), selected variation **216770997079**. The opened category snapshot reports last-week crawling; the search snapshot reports three weeks. Neither is a checkout observation.
+
+Parameterized item retrieval returned cache miss; clean item retrieval was inaccessible. Seller display name/region in this source, selected variation contents, processor-versus-bundle identity, new/used condition, working state, stock, adapter, warranty, vouchers, shipping/tax and delivered total remain unverified. This is a reproducible **pending discovery lead**, excluded from used/new price projections and available-price ranges. Do not substitute the separate X3 offer’s price or specifications. The older NEO MUSIC X5 ask remains independently qualified.

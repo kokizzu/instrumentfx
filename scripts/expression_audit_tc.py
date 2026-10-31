@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff', '--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(tc): document X5 LCD indicators and no-trails bypass'))
+    print(git('commit','-m','research(tc): preserve exact X5 offer lead pending variation check'))

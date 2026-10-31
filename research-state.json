@@ -25257,6 +25257,20 @@
         "algorithms_d": "https://github.com/gfisystem/downloads/releases/download/solis-ventus-manuals/solis-ventus-algorithm-reference-rev-d.pdf",
         "access": "Cataloguebrowserread;bothPDFbodyopenscachemiss;RevNnotlocatedinmontholdcatalogue. NoActionsordownload."
       }
+    },
+    {
+      "model": "TC Electronic PLETHORA X5",
+      "checked_date": "2026-10-31",
+      "url": "https://shopee.co.id/Multi-Efek-Pedal-Gitar-TC-Electronic-Plethora-X5-TonePrint-Board-i.306155985.18280216311",
+      "category_source": "https://shopee.co.id/list/Alat%20Musik/Pengatur/Tempo",
+      "seller_id": "306155985",
+      "item_id": "18280216311",
+      "selected_variation": "216770997079",
+      "indexed_idr": 11367000,
+      "condition": "unverified",
+      "access": "Category links exactitem;parameterizedcachemiss,cleaniteminaccessible",
+      "status": "Pendingvariationverification;excludedused/newandpricefloor",
+      "qualification": "Sellername/region,variationcontents,bundle,workingstate,stock,adapter,warranty,voucher,shipping/taxandcheckoutunknown;categorylastweek/search3weekcache"
     }
   ],
   "inventory_by_brand": {
