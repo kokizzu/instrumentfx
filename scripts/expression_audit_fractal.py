@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(fractal): document original FM3 block and looper limits'))
+    print(git('commit','-m','research(fractal): add original FM3 to guitar and bass comparisons'))

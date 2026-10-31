@@ -8,7 +8,7 @@
 - [AM4](#am4)
 - [FC-6 Mark II and FC-12 Mark II — controllers](#fc-6-mark-ii-and-fc-12-mark-ii--controllers)
 - [FM3 MKII Turbo](#fm3-mkii-turbo)
-- [FM3 original — partial historical LCD discovery](#fm3-original--partial-historical-lcd-discovery)
+- [FM3 original](#fm3-original)
 - [FM9 MKII Turbo](#fm9-mkii-turbo)
 - [VP4](#vp4)
 <!-- brand-index ends -->
@@ -441,7 +441,40 @@ Checked **2026-11-01**, [manufacturer Blocks Guide,June2023,pp4–6](https://www
 
 No download ordevice operation. Global-volume numeric endpoints andanalog held-position recall remain unresolved.
 
-## FM3 original — partial historical LCD discovery
+## FM3 original
+
+Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct from MKII Turbo; not fully verified and no ownership assertion. The earlier discovery heading and complete body follow as historical evidence. Their outside-inventory statements describe pre-admission checkpoints. This admission does not settle hardware variants, market availability or remaining specifications.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification |
+|---|---|
+| Instrument scope | Original 1.x manual p21 explicitly permits electric guitar, acoustic and bass at the instrument input. No special pickup required. Vocal suitability unclassified. [Original manual](https://manualzz.com/doc/61301482/fractal-fm3-owner-s-manual). |
+| Built-in / external / toe expression | No built-in treadle in the complete panel inventory. Two shared TRS pedal/switch inputs; linear10–100kΩ pedals. Separate external toe configuration remains unverified. [Panel and ports](#fm3-original--connector-inventory-and-usb-signal-paths);[global setup](#fm3-original--shared-manual-global-volume-and-hardware-scope). |
+| Expression / global volume / range / recall | Global Input1/2 or Output1/2 Volume can use local PEDAL1/2 without preset blocks. Input changes drive;output scales tails. Endpoints,held-position recall,bypass/USB/phones/recorded-loop coverage unknown. Calibration and modifier defaults are separate. [Standard-applicable manual](#fm3-original--shared-manual-global-volume-and-hardware-scope). |
+| Knobs / footswitches / buttons | **8 rotary /3 footswitches /12 buttons**;five knob presses included,not extra buttons. Manufacturer text,not visual census. Power andground-lift controls separate. [Physical evidence](#fm3-original--shared-manual-global-volume-and-hardware-scope);[original panel](https://manualzz.com/doc/61301482/fractal-fm3-owner-s-manual). |
+| Display | Three individual mini LCDs,one perfoot;separate **800×480 color main display**. Mini size,resolution,color andtouch;main diagonal/touch unknown. MKII larger strips are not transferred. [Original discovery](#fm3-original--partial-historical-lcd-discovery);[panel](https://manualzz.com/doc/61301482/fractal-fm3-owner-s-manual). |
+| Dimensions / weight | **281W×236D×103H mm;3.22kg**. Exceeds preferred200W×140D footprint. [Standard-covered7.x specifications](#fm3-original--shared-manual-global-volume-and-hardware-scope). |
+| Processing / simultaneous limits | **12×4 grid**,DSP-limited. June2023 exactFM3 inventory:36 available classes,63 summed instance allowances including routing/control;not63 simultaneous effects. Historical1.x CPU limit approximately80%,overload mutes processing. Current13.0 equivalence untested. [Inventory](#fm3-original--dated-block-inventory-and-looper);[CPU](#fm3-original--initial-memory-dsp-and-current-support). |
+| Categories / choices | Includes amp,cab,drive,modulation,pitch,dynamics,EQ,delay,reverb,synth,looper androuting/control. Exact FM3 per-category choice census remains unverified;shared guide TYPES column not treated as current FM3 totals. Dated table excludes Crossover,Dynamic Distortion,IR Player,RTA,Tone Match,Vocoder. [Exact-column census](#fm3-original--dated-block-inventory-and-looper). |
+| Preset memory | **512 editable locations**,including overwritable factory presets;**eight scenes per preset**. Factory-filled subset unknown;not512 plusfactory. [Original memory documentation](#fm3-original--initial-memory-dsp-and-current-support). |
+| Synth / acoustic | Three-voice **monophonic tracking synth**,notthree-note polyphony. Acoustic input support is not electric-to-acoustic conversion;conversion remains unverified. [Original synth evidence](#fm3-original--initial-memory-dsp-and-current-support). |
+| Audio I/O | Mono unbalanced¼-inch instrument input;stereo balanced¼-inch Input2/return;stereo balanced XLR Output1;stereo unbalanced¼-inch Humbuster Output2;¼-inch stereo phones documented butearly hardware availability unresolved. [Inventory](#fm3-original--connector-inventory-and-usb-signal-paths). |
+| Control / digital I/O | Two shared pedal/switch inputs;FASLINKII forFC controllers,notMFC-101 FASLINK;MIDI In/Out-Thru;48kHzS/PDIF out;USB;grounded AC inlet. USB connector subtype andphantom tolerance unknown. [Inventory](#fm3-original--connector-inventory-and-usb-signal-paths). |
+| USB audio / MIDI | **4×4 audio**,record/playback/reamping;explicitly notDAW USB-MIDI. Record1/2=Output1 block,3/4=dryInput1 orInput2;play1/2 mixes atOutput1/phones,3/4 selectsInput1 block orOutput2. Editor communication is separate. GlobalEXP coverage unknown. [Routing](#fm3-original--connector-inventory-and-usb-signal-paths). |
+| Power | **90–264VAC,47–63Hz,<40W**. CR2032 is backup;operating battery/USB power unknown. DC polarity/adapter-current fields notapplicable tothis AC specification. [Specifications](#fm3-original--shared-manual-global-volume-and-hardware-scope). |
+| IR / loading | Manuals: **1,024 user cab slots**,contrasting withlaunch2000+;7.x gives16 scratchpads andup totwo IRs inCab. Summary .ir/.syx/.wav versus .syx transfer procedure retained. UserCabs separate fromSYSTEM backup. [Format/capacity qualifications](#fm3-original--ir-capacity-transfer-formats-and-editor-platforms). |
+| NAM / capture | NativeNAM,convertedNAM andproprietary amp-capture import unverified. Dated absence ofToneMatch block doesnot settle all import workflows. [Distinctions](#fm3-original--ir-capacity-transfer-formats-and-editor-platforms). |
+| Editor / platforms | FM3-Edit **1.07.17,August25,2026**:macOS10.13+,Windows10+64-bit;32-bitbuild link separately qualified. Windows editing depends on audio+serial drivers. Mobile editor/current architecture tests unknown. Fractal-Bot backup/updater distinct. [Current listing](#fm3-original--ir-capacity-transfer-formats-and-editor-platforms). |
+| Firmware / driver scope | Manufacturer13.0 explicitly supports Original/MKII,July16,2026. Windows bundle June10,2026:audio6.16+serial1.3;legacy7/8 uses1.1. Driver availability noteditor support. No software installed. [Current support](#fm3-original--initial-memory-dsp-and-current-support). |
+| Looper / drums / live | Dated guide:stereo,max120s;Undo while stopped erases all. Record2ndPress Overdub/Play/Stop,tempo quantization. Retention/current revision unverified. Drums andexact onboard preset down/up unknown;default bank navigation separate. [Looper](#fm3-original--dated-block-inventory-and-looper). |
+| Used IDR | No exact-original-revision,condition-confirmed Shopee ask established. |
+| New IDR | No exact-original-revision,condition-confirmed Shopee ask established. |
+| IDR revision-unverified hardware | **Rp29.030.000**,behaviouristy,Kab.Banyuwangi,[shop1435419712/item29175380674](https://shopee.co.id/Fractal-Audio-Systems-Fm3-Amp-Modeler-And-Multi-Fx-%28Ready-Stock%29-i.1435419712.29175380674),five-month index checked2026-11-01;service unavailable. GenericFM3 title leaves Original/MKII unresolved despite ReadyStock. Condition,working state,bundle,adapter,warranty andcheckout unknown;excluded fromexact-revision new/used ranges andlive-stock claims. No voucher applied. |
+
+<!-- comparison evidence ends -->
+
+### FM3 original — partial historical LCD discovery
 
 Checked **2026-11-01**; **partial lead outside active model counts**. Separate original hardware from MKII Turbo. [Fractal’s April23,2019 announcement](https://www.fractalaudio.com/fm3-old/) explicitly documents **three footswitches,each with a mini LCD**,plus a color main screen. Variable-color LED rings do not establish LCD color;mini diagonal,resolution andtouch remain unknown. Eight switch layouts are software configurations,not extra screens.
 
