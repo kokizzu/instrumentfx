@@ -2209,3 +2209,7 @@ research-commit-morningstar-display:
 .PHONY: research-commit-famc-display
 research-commit-famc-display:
 	python3 scripts/display_audit_melofty.py famc
+
+.PHONY: expression-audit-commit-mod
+expression-audit-commit-mod:
+	python3 scripts/expression_audit_mod.py commit

@@ -130827,6 +130827,11 @@
       "root": "FRACTAL-AUDIO.md#fm9-original--partial-lcd-discovery",
       "status": "ConfirmedindividualLCDlayout;partialinactiveprofile",
       "next": "Complete originalFM9 processing/memory/expression/I/O/IR/editor/looper profile andexactrevision market evidence before admission. Then review FM9Turbo separately;do notborrow MKII strip specifications."
+    },
+    "mod_duo": {
+      "root": "MOD-AUDIO.md#duo--partial-lcd-discovery",
+      "status": "KnownLCDtechnology;placementpending;inactivepartial",
+      "next": "Verify originalpanel/LCD-to-actuator layout,complete profile/market andsourceconflicts beforeactiveadmission. Do notborrowDuoX CVinputs."
     }
   },
   "gt_pro_global_patch_level_20261031": {
@@ -134603,5 +134608,21 @@
       "result": "401active;336guitar/176bass/71vocal;all7priorFractal section bodies intact;82registeredsourcebodies zero mismatches.",
       "scope": "Notfulltechnicalverification orfullmigrationcompletion."
     }
+  },
+  "mod_duo_lcd_discovery_20261101": {
+    "checked": "2026-11-01",
+    "active": false,
+    "fully_verified": false,
+    "root": "MOD-AUDIO.md#duo--partial-lcd-discovery",
+    "sources": [
+      "https://wiki.mod.audio/wiki/MOD_Duo_User_Guide",
+      "https://wiki.mod.audio/wiki/MOD_Duo_Technical_Specs",
+      "https://wiki.mod.audio/wiki/Developers"
+    ],
+    "lcd": "2LCDs;2.7in vs2.8in sourceconflict;dedicatedswitchplacementunresolved",
+    "direct_analog_expression": "No,explicitguide;MIDI/ControlChain conversion separate",
+    "market": "NoexactShopeeoffer established",
+    "next": "Verify originalpanel/LCD-to-actuator layout,complete profile/market andsourceconflicts beforeactiveadmission. Do notborrowDuoX CVinputs.",
+    "downloads": false
   }
 }
