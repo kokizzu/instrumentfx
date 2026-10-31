@@ -607,3 +607,5 @@ RP100 [named library](DIGITECH.md#rp100--named-algorithm-census) now distinguish
 ### Line 6 M13 — partial LCD lead, Scene-stored expression
 
 [Own-guide qualification](LINE6.md#m13--lcd-endpoint-markers-and-expressionbypass-boundaries): FX assignments andheel/toe endpoints are Scene-stored;global looper control is separate fromlive-guitar mastervolume. Independent all-Scene volume,recall andoutput coverage remain unverified. DSP Bypass is required forloop playback/trails when all FX are bypassed. No qualified exactShopee processor offer;outside active counts andmain capability table.
+
+HX Effects [expression-bypass qualification](LINE6.md#hx-effects--expression-controlled-block-bypass): threshold-controlled block bypass is separate from volume parameter range, snapshot bypass and global position recall. All-preset volume assignment remains unverified.

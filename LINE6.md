@@ -785,6 +785,12 @@ Checked **2026-11-01**,[own3.80 RevD manual,printedpp14–15](https://line6.com/
 
 No asset exported,software installed ordevice operated. Global EXP Position remains separate;all-preset volume assignment andDSP-bypass coverage remain unverified.
 
+### HX Effects — expression-controlled block bypass
+
+Checked **2026-11-01**, [own 3.80 Rev D manual, printed p37](https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf). EXP1/2 can control block bypass separately from parameter assignment. **Position: 0% heel, 99% toe**; Wait delays bypass. Toggle changes the current state when crossing the threshold; Heel Down/Toe Down enforce bypass at the designated end irrespective of starting state. Multiple blocks may use different thresholds on one pedal.
+
+Inference: check a Volume block’s expression-bypass assignment as well as its controlled parameter and snapshot bypass. The threshold scale is not an attenuation range or global volume mapping. Global Pedals still documents polarity and position recall only; all-preset volume assignment remains unverified. Text inspection only; no device operation or download.
+
 <!-- comparison evidence ends -->
 
 ### Preserved original shared-source HX Effects fields

@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "HX Effects: seek exact manufacturer evidence for any global volume-target override beyond position recall and per-preset Volume block assignments. Preserve unknown if documentation does not establish it.",
+      "next_check": "FM3 MKII Turbo: current exact-model manual applicability and global output-volume range, analog recall and output coverage. HX expression bypass now qualified; unresolved global target remains unknown.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133165,5 +133165,11 @@
     "total_named_user_addresses": 200,
     "range": "U1-1–U20-10",
     "qualification": "Documented initial User-bank occupancy only; English164-page/German165-page editions distinguished. Current device contents, cross-edition parameter identity and volume defaults unverified."
+  },
+  "hx_effects_expression_bypass_20261101": {
+    "source": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "page": 37,
+    "finding": "Added expression block-bypass threshold/behavior qualification; not global-volume proof.",
+    "access": "Original manufacturer text; no download or hardware test."
   }
 }
