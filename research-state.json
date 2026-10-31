@@ -131610,5 +131610,16 @@
     ],
     "remaining": "Global EXP coverage, effect spillover, full physical control count, current OS and condition-confirmed offers unresolved",
     "next": "Continue individual LCD models first; preserve independent BOSS GT-Pro cursor"
+  },
+  "b3_expression_blend_boundary_20261031": {
+    "checked": "2026-10-31",
+    "record": "ZOOM.md#b3--expression-blend-versus-volume-destinations",
+    "source": "https://zoomcorp.com/media/documents/E_B3.pdf",
+    "pages": "14–16",
+    "finding": "CTRL PDL BAL controls dry/wet blend;0original-only notmute;do nottransfer balance0–100 to volume endpointbounds;INPUTVOL/OUTPUTVOL/NOASSIGN separate",
+    "remaining": "Numeric volume endpoints,global override,held position,bypass/phones coverage and physical controls unresolved",
+    "host_check": "Windows11/Tahoe26 omit B3/Edit&Share; omission is not No",
+    "market_check": "Exactgyulalis1220839369/41075001096 direct clean andtitleURL inaccessible;cachedask unchanged",
+    "next": "Continue individual LCD models with stronger remaining leads; independent BOSS GT-Pro cursor preserved"
   }
 }

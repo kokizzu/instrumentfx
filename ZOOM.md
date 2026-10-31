@@ -1738,6 +1738,18 @@ Checked **2026-10-31**;original B3,not B3n.
 
 Power andmemory findings already recorded remain unchanged. Numeric expression endpoints,held-position recall,bypass attenuation andscreen diagonal/color/touch are still unresolved. No download,installation ordevice operation.
 
+
+### B3 — expression blend versus volume destinations
+
+Checked **2026-10-31**, [own manufacturer manual pp14–16](https://zoomcorp.com/media/documents/E_B3.pdf). TOTAL is explicitly patch-specific.
+
+| Field | Documented distinction / qualification |
+|---|---|
+| Expression / destination choices | CTRL PDL offers **INPUT VOL, OUTPUT VOL, BAL, NO ASSIGN**, plus eligible effect parameters. **BAL controls the original/effected-signal blend**, whose patch balance spans0–100:0 is original-only and100 effected-only. A dry-only blend is not silence or proof of a master-volume role. NO ASSIGN supplies no pedal function. |
+| Expression / range boundary | The manual permits minimum above maximum to reverse response,but does not state numeric bounds for the Input/Output Volume endpoints in readable prose. Do not transfer BAL’s0–100 range to these volume roles. Patch-specific assignment andthe existing rhythm/looper exclusion of OUTPUT VOL remain. |
+
+The current Windows11 andTahoe26 compatibility lists omit originalB3 andEdit&Share;omission is neither a compatibility certification nor a documented incompatibility. [Windows11 matrix](https://zoomcorp.com/en/jp/news/Windows11/);[Tahoe26 matrix](https://zoomcorp.com/en/gb/news/macos_tahoe/). Exact gyulalis item41075001096 still could not be read directly;no new condition/stock claim. No downloads ordevice operation.
+
 <!-- comparison evidence ends -->
 
 ### Condition-unverified historical hardware ask
