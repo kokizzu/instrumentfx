@@ -138095,5 +138095,21 @@
     "remaining": "Android minimum/version and device firmware dependency unverified; app listings do not confirm mini-screen technology/count. Maker shop still inaccessible; no active admission.",
     "downloads": false,
     "hardware_test": false
+  },
+  "supplemental_brand_documents": [
+    "FAMC.md",
+    "GIGRIG.md",
+    "HOLOGRAM.md",
+    "MELOFTY.md",
+    "MORNINGSTAR.md",
+    "RJM-MUSIC.md",
+    "SINGULAR-SOUND.md",
+    "STRYMON.md"
+  ],
+  "supplemental_brand_sort_20261101": {
+    "checked": "2026-11-01",
+    "finding": "Sorting includes eight explicitly declared supplemental brand documents in addition to active brands; union deduplicates promotions without changing active model/brand eligibility.",
+    "validation": "Regression covers supplemental selection, deduplication and rejection of non-root paths. Plan/apply verifies section-body preservation.",
+    "active_counts_changed": false
   }
 }

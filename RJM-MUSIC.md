@@ -2,6 +2,14 @@
 
 [Display collection](FOOTSWITCH-DISPLAYS.md) · [Repository](README.md)
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [Mastermind GT/10](#mastermind-gt10)
+- [Mastermind GT/16](#mastermind-gt16)
+- [Mastermind GT/22](#mastermind-gt22)
+<!-- brand-index ends -->
+
 ## Mastermind GT/10
 
 Checked 2026-10-31 against the [exact GT/10 manufacturer page](https://rjmmusic.com/products/mastermind-gt-10-midi-foot-controller). Controller only, outside active audio counts.

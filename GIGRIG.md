@@ -2,6 +2,12 @@
 
 [Repository](README.md) · [Footswitch displays](FOOTSWITCH-DISPLAYS.md)
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [G3S — controller discovery lead](#g3s--controller-discovery-lead)
+<!-- brand-index ends -->
+
 ## G3S — controller discovery lead
 
 Checked **2026-11-01** against the [manufacturer G3S page](https://www.thegigrig.com/g3-s). Partial controller/switcher record, outside active multi-effects counts. Original G3 and Atom S are separate models.

@@ -2,6 +2,12 @@
 
 [Display collection](FOOTSWITCH-DISPLAYS.md) · [Repository](README.md)
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [MIDI Maestro Gold Edition](#midi-maestro-gold-edition)
+<!-- brand-index ends -->
+
 ## MIDI Maestro Gold Edition
 
 Checked2026-10-31 against the [exact manufacturer product page](https://www.singularsound.com/products/midi-maestro),whose current title/body explicitly identify Gold Edition. Controller only,outside audio processor and active brand counts; original MIDI Maestro specifications are not transferred.

@@ -2,6 +2,12 @@
 
 [External expression-volume comparison](EXPRESSION-VOLUME.md)
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [Iridium](#iridium)
+<!-- brand-index ends -->
+
 ## Iridium
 
 **Checked 2026-10-18. Capability supplement; scope-admission pending.** Iridium combines amp, cabinet and room processing, but is not a general-purpose multi-effects chain with interchangeable drive/modulation/delay blocks. It is recorded as an adjacent answer to the small-pedal volume question, **not silently added to the active multi-effects inventory**. It is not a Deco, Riverside or another Strymon model.

@@ -2,6 +2,13 @@
 
 [Display collection](FOOTSWITCH-DISPLAYS.md#foot-controllers) · [Repository](README.md)
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [MC6 PRO](#mc6-pro)
+- [MC8 PRO](#mc8-pro)
+<!-- brand-index ends -->
+
 ## MC6 PRO
 
 Checked2026-10-31 against the [current manufacturer user manual](https://help.morningstar.io/en/article/mc6-pro-user-manual-psevjy/), its [earlier manufacturer manual](https://manuals.morningstar.io/mc-midi-controller/mc6-pro-user-manual), and [manufacturer introduction](https://www.morningstar.io/post/mc6-pro-release).

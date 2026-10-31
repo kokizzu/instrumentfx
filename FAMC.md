@@ -2,6 +2,14 @@
 
 [Footswitch displays](FOOTSWITCH-DISPLAYS.md) · [Repository](README.md)
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [Liquid Foot 12+ — controller](#liquid-foot-12--controller)
+- [Liquid Foot JR+ — pending controller lead](#liquid-foot-jr--pending-controller-lead)
+- [Liquid Foot Pro+ — pending controller lead](#liquid-foot-pro--pending-controller-lead)
+<!-- brand-index ends -->
+
 ## Liquid Foot 12+ — controller
 
 Partial controller lead,checked **2026-10-31**. [Manufacturer-authored LF+ series guide reproduction](https://manualzz.com/doc/23278544/famc-liquid-foot---series-12--12---jr---pro--midi-control...),original text pp5,8,18,76,78–80. It names FAMCmusic.com and expressly distinguishes **12+** from LED-only **12**. Undated guide;firmware1.68 appears as an example,not verified current firmware. Manufacturer homepage was inaccessible. Generated FAQs and seller descriptions were not used.

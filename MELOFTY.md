@@ -2,6 +2,12 @@
 
 [Comparison](MULTI-EFFECTS.md#separate-displays-for-effect-footswitches) · [Repository](README.md)
 
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [AXOM MAX — partial discovery lead](#axom-max--partial-discovery-lead)
+<!-- brand-index ends -->
+
 ## AXOM MAX — partial discovery lead
 
 Checked 2026-10-31. Manufacturer-authored **Axom Max User Manual V1.7.4, 2026-08-31**, 58 pages, recovered through the importer’s exact-model manual link: [original manual](https://shop.warwick.de/media/23/53/74/1790324346/4on4_MEL_AXOM_MAX_Manual_EN.pdf?ts=1790324346). Title/model/version identity checked; no host-generated FAQ used. Manufacturer website currently exposes no readable text.
