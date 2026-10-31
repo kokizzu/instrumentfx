@@ -4309,7 +4309,7 @@ Guitar and bass multi-effects; large; built-in expression. Specifications below 
 | User IR loading | **300 total locations:001–106 supplied;107–300 available for user assignment**, hence **194 remaining user locations** by arithmetic. WAV,44.1–192kHz,up to2048 samples. This supersedes launch-page70 supplied+130 user figures. The source's remaining-user-location description is not a claim all factory IR slots are freely overwriteable. [G11-M pp.3,86–88;G11-F] |
 | NAM / amp captures | Native NAM, converted NAM and user amp-capture playback/creation are **not established** in the checked official materials. Cabinet IR import alone proves none of them. |
 | Instrument / aux | One6.35mm mono input,500kΩ; one3.5mm stereo AUX IN,10kΩ. No microphone input/phantom power in the full published connector list. [G11-M p.104] |
-| Outputs / loops | Two6.35mm mono main L/MONO,R outputs; dedicated6.35mm stereo headphones; two6.35mm SEND and two RETURN sockets, usable as two mono loops or stereo send/return processing. INST/LINE output-level selection. No XLR output in the published list. [G11-M pp.13–14,77–79,104] |
+| Outputs / loops | Two6.35mm mono main L/MONO,R outputs; dedicated6.35mm stereo headphones; two6.35mm SEND and two RETURN sockets, usable as two mono loops or stereo send/return processing. Nine routing choices include mono/stereo loops,send-only andreturn-only entries;positions are patch-stored andconsume effect capacity. INST/LINE output-level selection. No XLR output in the published list. [G11-M pp.13–14,77–79,104] |
 | MIDI / USB | Separate five-pin DIN MIDI IN/OUT; USB-C DEVICE for audio/Guitar Lab; USB-A HOST for IR/update flash drives; dedicated optional-BTA-1 REMOTE connector. [G11-M] |
 | Live / master level and recall | **V2 pp7,18–19:master knob −∞ to+6dB,center0dB**; overall volume retained across patch changes. This is hand-operated master level,not a verified global expression assignment or pedal endpoint range. Startup-state restoration is broadly stated p18; exact held-pedal recall remains unknown. [Own manual](https://zoomcorp.com/documents/461/E_G11v2.pdf) |
 | Power | **12V DC,center-positive,2000mA AD-19 supply**. Supply rating, not measured operating draw. **USB bus power explicitly unsupported**. Internal battery operation is not documented. [G11-M p.104] |
@@ -4475,6 +4475,12 @@ Checked **2026-11-01**, [manufacturer V2 manual](https://zoomcorp.com/documents/
 | I/O / return input ratings | Each RETURN:**−20dBu rated,1MΩ**;instrument INPUT:**−20dBu,500kΩ**;AUX:**−10dBu,10kΩ**. These are input ratings,not maximum unclipped levels oroutput impedances. |
 
 Existing USB/headphone ratings,looper capacity andauxiliary-LCD unknowns remain. No download orhardware operation.
+
+### G11 — V2 external-loop routing choices
+
+Checked **2026-11-01**, [own V2 manual,printed pp77–79](https://zoomcorp.com/documents/461/E_G11v2.pdf),©2021,Z2I-3886-02. Nine choices: **FxLoop1,FxLoop2,St.FxLoop;Send1,Send2,St.Send;Return1,Return2,St.Return**. FxLoop returns at its send position;standalone send/return entries perform only their respective direction. Stereo entries use both numbered jack pairs.
+
+Positions are saved per patch;send/return counts toward effect capacity. Nine choices do not mean nine hardware loops oradditional free effects. These routing settings do not establish external-expression attenuation,bypass/tail coverage orunrestricted parallel routing. No device operation orlocal download.
 
 <!-- comparison evidence ends -->
 

@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Zoom G11 then original G5: remaining exact-model individual-LCD/profile and qualified hardware offers. G5n USB channels/power/subtype and visual census remain unresolved; do not repeat exhausted count queries or treat firmware display fixes as hardware changes.",
+      "next_check": "Original Zoom G5: remaining exact-model individual-LCD/profile gaps and qualified hardware offers. Preserve G11 routing-mode versus physical-loop distinction; its visual rotary census and expression-output coverage remain open.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133248,6 +133248,11 @@
       "file": "ZOOM.md",
       "model": "G5n",
       "heading": "### G5n — firmware-qualified Overview LCD fix"
+    },
+    {
+      "file": "ZOOM.md",
+      "model": "G11",
+      "heading": "### G11 — V2 external-loop routing choices"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -133289,5 +133294,15 @@
     "identity": "G5n,Z2I-2935-02,one page",
     "finding": "Historical Overview/PC-mode and tuner display fixes documented; installed behavior untested.",
     "remaining": "USB channel count, power negatives, subtype and visual control census remain unresolved after bounded primary searches."
+  },
+  "g11_external_loop_modes_20261101": {
+    "source": "https://zoomcorp.com/documents/461/E_G11v2.pdf",
+    "pages": [
+      77,
+      78,
+      79
+    ],
+    "finding": "Distinguished nine software routing choices from two physical loop pairs; patch-stored placement consumes effect capacity.",
+    "limits": "No global-expression, parallel-routing oroutput-coverage guarantee."
   }
 }
