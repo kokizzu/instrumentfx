@@ -133990,7 +133990,189 @@
     ],
     "root": "FRACTAL-AUDIO.md#fm3-original--ir-capacity-transfer-formats-and-editor-platforms",
     "conflicts": "Launch2000+userIR vsmanual1024;7.x format summary vsSysEx transfer procedure;Windows64-bitsupport vs32-bitlink preserved.",
-    "next": "Complete dated category-choice census andlooper details;review model admission only after full profile. Headphone variants,exactrevision IDR,volume endpoints/recall/coverage remain open.",
+    "next": "Build comprehensive original-FM3 comparison summary andperform admission review;retain unknown category choices,current firmware equivalence,headphone variants,exactrevision IDR,volume endpoints/recall/coverage.",
+    "downloads": false
+  },
+  "fm3_original_block_inventory_20261101": {
+    "checked": "2026-11-01",
+    "active": false,
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "June2023,pp3,50–51",
+    "root": "FRACTAL-AUDIO.md#fm3-original--dated-block-inventory-and-looper",
+    "fm3_instance_allowances": [
+      {
+        "block": "AMP",
+        "instances": 1
+      },
+      {
+        "block": "CAB",
+        "instances": 1
+      },
+      {
+        "block": "CHO",
+        "instances": 2
+      },
+      {
+        "block": "CMP",
+        "instances": 2
+      },
+      {
+        "block": "XVR",
+        "instances": 0
+      },
+      {
+        "block": "DLY",
+        "instances": 2
+      },
+      {
+        "block": "DRV",
+        "instances": 2
+      },
+      {
+        "block": "DND",
+        "instances": 0
+      },
+      {
+        "block": "ENH",
+        "instances": 2
+      },
+      {
+        "block": "FLT",
+        "instances": 4
+      },
+      {
+        "block": "FLG",
+        "instances": 2
+      },
+      {
+        "block": "FOR",
+        "instances": 2
+      },
+      {
+        "block": "GTE",
+        "instances": 2
+      },
+      {
+        "block": "GEQ",
+        "instances": 2
+      },
+      {
+        "block": "IN",
+        "instances": 2
+      },
+      {
+        "block": "IRP",
+        "instances": 0
+      },
+      {
+        "block": "LPR",
+        "instances": 1
+      },
+      {
+        "block": "MGT",
+        "instances": 1
+      },
+      {
+        "block": "MIX",
+        "instances": 4
+      },
+      {
+        "block": "MTD",
+        "instances": 1
+      },
+      {
+        "block": "MBC",
+        "instances": 1
+      },
+      {
+        "block": "MUX",
+        "instances": 2
+      },
+      {
+        "block": "OUT",
+        "instances": 2
+      },
+      {
+        "block": "PEQ",
+        "instances": 2
+      },
+      {
+        "block": "PHA",
+        "instances": 2
+      },
+      {
+        "block": "PIT",
+        "instances": 1
+      },
+      {
+        "block": "PLX",
+        "instances": 1
+      },
+      {
+        "block": "RES",
+        "instances": 2
+      },
+      {
+        "block": "RTN",
+        "instances": 2
+      },
+      {
+        "block": "REV",
+        "instances": 1
+      },
+      {
+        "block": "RNG",
+        "instances": 1
+      },
+      {
+        "block": "ROT",
+        "instances": 2
+      },
+      {
+        "block": "RTA",
+        "instances": 0
+      },
+      {
+        "block": "MIDI",
+        "instances": 1
+      },
+      {
+        "block": "SND",
+        "instances": 2
+      },
+      {
+        "block": "SYN",
+        "instances": 1
+      },
+      {
+        "block": "TTD",
+        "instances": 1
+      },
+      {
+        "block": "TMA",
+        "instances": 0
+      },
+      {
+        "block": "TRM",
+        "instances": 2
+      },
+      {
+        "block": "VOC",
+        "instances": 0
+      },
+      {
+        "block": "VOL",
+        "instances": 2
+      },
+      {
+        "block": "WAH",
+        "instances": 2
+      }
+    ],
+    "available_classes": 36,
+    "summed_inventory_instances": 63,
+    "qualification": "Not simultaneous processing count;shared Types column notcertified exactFM3/current census. 48-cell grid andDSP remain separate.",
+    "next": "Build comprehensive original-FM3 comparison summary andperform admission review;retain unknown category choices,current firmware equivalence,headphone variants,exactrevision IDR,volume endpoints/recall/coverage.",
     "downloads": false
   }
 }

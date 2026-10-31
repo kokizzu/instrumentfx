@@ -504,6 +504,23 @@ The [current manufacturer FM3-Edit page](https://www.fractalaudio.com/fm3-edit/)
 
 No downloads,installation ordevice operation. Full category-choice census,looper details,headphone variants andvolume endpoints/recall/coverage remain open;this is still a partial lead outside active counts.
 
+### FM3 original — dated block inventory and looper
+
+Checked **2026-11-01**, [manufacturer Blocks Guide,June2023,pp3,50–51](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf),explicitly covering FM3. Counted the exact FM3 column,not Axe-Fx III allowances.
+
+| Instances per preset | Guide’s block identifiers |
+|---|---|
+| 1 | AMP,CAB,LPR,MGT,MTD,MBC,PIT,PLX,REV,RNG,MIDI,SYN,TTD |
+| 2 | CHO,CMP,DLY,DRV,ENH,FLG,FOR,GTE,GEQ,IN,MUX,OUT,PEQ,PHA,RES,RTN,ROT,SND,TRM,VOL,WAH |
+| 4 | FLT,MIX |
+| 0 | XVR,DND,IRP,RTA,TMA,VOC |
+
+**36 available classes;63 summed inventory instances**,including routing/control blocks. This is not63 simultaneously runnable effects:the48-cell grid andDSP limits still apply. The shared TYPES column is not independently verified as an exact FM3/current-firmware choice census. Multiplexer hasfour channels onFM3 despite the shared six-channel entry. Tone Match is absent inthis dated table;that does not resolve every capture-import workflow.
+
+**Looper:** stereo,max120seconds;Undo during playback removes/restores thelatest layer,butUndo while stopped erases all data. Separate Erase requires stopped playback. Record2ndPress chooses Overdub,Play orStop;quantization aligns length totempo beats. Playback/dry levels are separate;global-pedal coverage,preset/power retention andcurrent firmware equivalence remain unknown.
+
+No downloads ordevice tests. Full category-choice census remains open;this partial lead is not yet an active model.
+
 ## FM9 MKII Turbo
 
 Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI seller item remains separate. Current product/store establish revision. Linked2022 manual covers original/Turbo but predates MKII display revision;historical physical figures below require current corroboration.
