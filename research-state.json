@@ -130883,5 +130883,28 @@
       "Numericblockceiling,currentIRlimits",
       "GlobalanalogEXPcoverageandverifiedusedShopeeoffer"
     ]
+  },
+  "g11_post_v2_pool_20261031": {
+    "checked": "2026-10-31",
+    "sources": [
+      "https://zoomcorp.com/en/guitarlab-news/",
+      "https://zoomcorp.com/en/guitarlab-news/dynadelay/",
+      "https://zoomcorp.com/en/guitarlab-news/bitcrush/",
+      "https://zoomcorp.com/en/guitarlab-news/overdrive/",
+      "https://zoomcorp.com/documents/3432/G11_FirmwareVersionHistory_ver210_en.pdf"
+    ],
+    "dates": {
+      "OverDrive": "2025-12-22",
+      "BitCrush": "2026-02-20",
+      "DynaDelay_news": "2026-03-18",
+      "DynaDelay_product": "April2026"
+    },
+    "scope": "ExactG11compatibility;EffectPoolnotinstalledlibraryorfirmwareversion",
+    "firmware": "2.10 February2025 banknames/scrollingfixes",
+    "remaining": [
+      "Currentcategoryplacement,DSPcosts,installedcount",
+      "VisualrotarycountandauxLCDphysicalspecifications",
+      "QualifiedusedShopeehardwareoffer"
+    ]
   }
 }

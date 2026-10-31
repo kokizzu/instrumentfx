@@ -3839,6 +3839,17 @@ Checked **2026-10-31**,[own V2 Effects List](https://zoomcorp.com/media/document
 
 Text-only review;no download or hardware operation.
 
+
+### G11 — post-V2 Effect Pool and firmware distinction
+
+Checked2026-10-31 using exact-model manufacturer compatibility lists;no downloads or installation.
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| Categories / post-V2 additions | Guitar Lab News dates **OverDrive December22,2025;BitCrush February20,2026;DynaDelay March18,2026** and explicitly includes G11. The [G11 product page](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g11/) instead labels DynaDelay **April2026**:retain the date conflict. Effect Pool availability does not verify installation,factory filling orcategory placement;do not declare261+3 a verified current inventory. [Dated news index](https://zoomcorp.com/en/guitarlab-news/). |
+| Processing / added-effect behavior | [DynaDelay](https://zoomcorp.com/en/guitarlab-news/dynadelay/) offers input-sensitive ducking and the converse gate-delay behavior. [BitCrush](https://zoomcorp.com/en/guitarlab-news/bitcrush/) reduces sampling frequency/bit rate with one resolution control. [OverDrive](https://zoomcorp.com/en/guitarlab-news/overdrive/) describes a pick-sensitive,mid-focused overdrive/amp booster;the article does not name the modeled pedal. Parameters,DSP costs andnumeric delay range remain unverified here. |
+| Firmware /2.10 fix scope | [Own English firmware history](https://zoomcorp.com/documents/3432/G11_FirmwareVersionHistory_ver210_en.pdf) dates2.10 **February2025**:fixes unexpected bank-name changes andstalled screen scrolling during CHANGE BANK ORDER. It does not present the later Effect Pool releases as firmware2.10 additions. Its2.00 entry says66bass effects;the separate announcement’s9bass amps+57bass effects is retained as a different grouping,not another66 to add. |
+
 <!-- comparison evidence ends -->
 
 ### G11 — complete original finding and unresolved control-count conflict
