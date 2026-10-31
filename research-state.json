@@ -130352,9 +130352,9 @@
       "checked": "2026-10-31",
       "instruction": "Prioritize one with LCD on footswitch first",
       "next_models": [
-        "Fender Tone Master Pro global expression volume endpoints and bypass/looper coverage",
-        "Zoom B3n OutputVP setup documentation when new source becomes available",
-        "Fractal Audio FM3 MKII Turbo global endpoints and recall"
+        "Zoom G3 remaining exact control inventory and connector formats",
+        "Fractal Audio FM3 MKII Turbo global endpoints and recall",
+        "Zoom B3n OutputVP when new setup source becomes available"
       ],
       "task": "Continue unresolved exact-model documentation and qualified hardware offers for individual LCD processors before OLED models. Retain the independent BOSS GT-Pro cursor.",
       "qualification": "Queue order is a research priority, not a recommendation or declaration of full verification.",
@@ -130563,6 +130563,15 @@
       "count": 9,
       "placement": "Global cabinet simulator at end of chain while activated.",
       "qualification": "Not global volume assignment, user IR loading or extra simultaneous pedal slots."
+    },
+    "zoom_g3_display_power_20261031": {
+      "source": "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf",
+      "printed_pages": [
+        22,
+        23
+      ],
+      "finding": "Backlight ON or1–30second dimming; separate left/center/right contrast. Distinct from ECO standby.",
+      "qualification": "Shared manual covers original G3. Numeric contrast and screen pixel-color/touch/diagonal remain unknown; no hardware/visual test."
     }
   },
   "gt_pro_global_patch_level_20261031": {
