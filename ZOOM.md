@@ -1679,7 +1679,7 @@ Original bass multi-effects, distinct from B3n. Checked2026-10-17; partial. Disc
 | Power / battery / USB | AD-16 rating9V DC500mA center-negative;fourAA, approximately6h alkaline; USB bus power supported. Adapter rating is not measured draw; USB electrical requirements unknown. USB bus operation requires POWER switch OFF before connection; standby disables audio input/output. | [Specifications][B3-S]; [Manual][B3-M] pp32,50 |
 | USB audio / MIDI | 2-in/2-out;16-bit44.1kHz. Recording gain ±6dB; monitor balance0–100 mixes processed direct sound with DAW return (0 direct-only,100 DAW-only). For monitoring through DAW software, the manual specifies 100: other settings mix direct and computer returns and can produce a flanger-like sound. USB MIDI/dry/reamp routing unverified. | [Product][B3-P]; [Manual][B3-M] pp20,32; checked2026-10-18 |
 | External control / routing | External-pedal OUTPUT VOL excludes rhythm/looper levels. Manual min/max can invert response. FS01: bypass/mute,tap tempo or effect function; assigned effect must be on. Global signal-flow direction reversible. Per-patch TOTAL level0–120 and original/effected balance0–100 (0 original-only,100 effected-only);master level is global. | [Manual][B3-M] pp14–19 |
-| Tuner / bypass | Chromatic or bass tuner; A4 reference 435–445 Hz. Drop tuning is unavailable in chromatic mode. A one-second tuner activation bypasses effects; two seconds mutes output. The switch icon is missing from extracted text, so the exact physical activation control remains unverified. In eco mode, about 25 minutes without use enters standby; a bass input signal prevents standby. This is not loop-storage or charging evidence. | [Manual][B3-M] pp6,22–23; checked2026-10-18 |
+| Tuner / bypass | Chromatic or bass tuner; A4 reference 435–445 Hz. Drop tuning is unavailable in chromatic mode. A one-second tuner activation bypasses effects; two seconds mutes output. The manual’s switch icon is missing from extracted text;the archived manufacturer brochure below identifies the **center footswitch**. In eco mode, about 25 minutes without use enters standby; a bass input signal prevents standby. This is not loop-storage or charging evidence. | [Manual][B3-M] pp6,22–23; checked2026-10-18 |
 | Battery / backlight settings | Select ALKALINE or Ni-MH for accurate remaining-charge indication;this does not establish onboard charging. Backlight dim delay1–30s orON;LCD contrast adjustable separately for each display. | [Manual][B3-M] pp19–21 |
 | IR / NAM / capture | User IR,native/converted NAM and capture imports unestablished. Factory cabinets do not prove import capability. | Unresolved |
 | Editor / platforms | Edit&Share Windows XP/Vista/7/8/8.1/10 and Mac10.9–10.12. Firmware1.20 updaters and Windows ASIO2.0.1 driver are separate. Driver listing explicitly names Windows7/8/8.1/10. Rechecked manufacturer support2026-10-17; it does not establish Windows11 or newer macOS support. Mobile compatibility unknown. | [Support][B3-D] |
@@ -1784,6 +1784,19 @@ Checked **2026-10-31**,[own manufacturer manual,printedpp45–46](https://zoomco
 | Looper / hold distinction | Delay,AnalogDly andReverseDL list optionalFS Hold/InputMute;TrgHldDly samples/holds in response to picking. These are effect controls,not the separate40-second phrase looper,persistent audio storage orguaranteed preset-change tails. |
 
 No download ordevice test;installed revision andfull switch-symbol mapping remain unverified.
+
+
+### B3 — brochure tuner control and analog DI boundary
+
+Checked **2026-10-31**,[manufacturer B3_E1 brochure reproduction](https://cdn-docs.av-iq.com/brochure/B3.pdf),search-indexed original text. Exact B3 title,three LCDs,12amps/99effects,40-second looper andoptional FP02/FS01 match the established model. Direct PDF retrieval timed out;no full-document orimage inspection claimed.
+
+| Field | Source-qualified finding |
+|---|---|
+| Tuner / activation | Brochure explicitly says **hold the center footswitch**. This resolves the physical control missing from extracted manual symbols;the manual’s separate bypass/mute hold durations remain documented above. |
+| I/O / XLR PRE path | Brochure expressly describes original **analog** bass signal reaching XLR **without A/D conversion**,while main outputs carry effects. This is source wording,not a measured path orproof that expression volume controls PRE. |
+| Drums / count discrepancy | Brochure advertises **40 rhythm patterns**;manual table has41 numbered entries includingGUIDE. The cause is unconfirmed;retain both rather than replacing the inspected table orassuming a firmware change. |
+
+No local download orhardware test.
 
 <!-- comparison evidence ends -->
 

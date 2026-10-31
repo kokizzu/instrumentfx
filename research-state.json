@@ -132743,5 +132743,11 @@
     "seller_lead": "https://www.amusicstoreonmainstreet.com/shop/Electronics/Effects-PedalsProcessors/p/Used-FAMC-Liquid-Foot-Series-Pro-MIDI-Foot-Contoller.htm",
     "next": "Verify exact Pro+ physical display census in original manufacturer documentation;do not transfer12+ values.",
     "shopee": "No qualified exact hit;not proof of absence."
+  },
+  "b3_brochure_tuner_analog_di_20261031": {
+    "source": "https://cdn-docs.av-iq.com/brochure/B3.pdf",
+    "access": "Indexed original B3_E1 text;direct timed out",
+    "finding": "Center-switch tuner and analog PRE path added;40/41 rhythm discrepancy preserved.",
+    "limits": "No full-document,visual orhardware test."
   }
 }
