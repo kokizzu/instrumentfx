@@ -4590,6 +4590,20 @@ Checked **2026-11-01** in the [manufacturer V2 manual, printed pp23,28–29](htt
 
 Display inversion does not prove color depth or touch support. No download or hardware operation.
 
+
+
+### G11 — patch level, bank preselection and additional cached offer
+
+Checked **2026-11-01** against original text in the [manufacturer V2 manual](https://zoomcorp.com/documents/461/E_G11v2.pdf),printed pp37,96.
+
+| Field | Finding / qualification |
+|---|---|
+| Live / patch level | **0–120,separately stored per patch**. This is distinct from the rear MASTER control and does not establish expression-pedal endpoints orglobal assignment. |
+| Live / PRESELECT | With PRESELECT ON,bank navigation leaves the current patch active until another patch is selected. This enables preparing a distant bank;it does not establish scenes,seamless switching ortail retention. |
+| Condition-unverified,sold-out IDR hardware | **Rp11.920.000**,**camera_islands**,shop27104501/item23812457555,KotaJakartaPusat. [Exact G11 offer](https://shopee.co.id/Zoom-G11-Multi-Effects-Processor-for-Electric-Guitar-i.27104501.23812457555):four-month search cache explicitly **Habis**;direct reader cache miss. Next-day delivery banner is cached,not stock proof. New/used,revision,bundle,adapter,warranty,authenticity,shipping/tax andcheckout unknown. Late-delivery voucher not deducted;historical ask only,not a live lower bound. |
+
+No local download,visual inspection ordevice operation. Earlier offers andcontrol/display qualifications remain independent.
+
 <!-- comparison evidence ends -->
 
 ### G11 — complete original finding and unresolved control-count conflict

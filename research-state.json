@@ -133455,6 +133455,11 @@
       "file": "ZOOM.md",
       "model": "G3",
       "heading": "### G3 — automatic storage, update and reset boundaries"
+    },
+    {
+      "file": "ZOOM.md",
+      "model": "G11",
+      "heading": "### G11 — patch level, bank preselection and additional cached offer"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -133760,5 +133765,24 @@
     "next": "Continue fresh exact-model individual-LCD discovery; reopen G5/G5n/G11 gaps with new primary evidence. Keep global-volume and visual blockers explicit. Independent BOSS GT-Pro cursor preserved.",
     "downloads": false,
     "new_model_admissions": 0
+  },
+  "g11_level_preselect_offer_20261101": {
+    "source": "https://zoomcorp.com/documents/461/E_G11v2.pdf",
+    "revision": "V2,2021,Z2I-3886-02,printed37/96",
+    "finding": "Patch LEVEL0–120 separate per patch;PRESELECT delays bank change until patch selection. Not global EXP endpoints or tail guarantee.",
+    "offer": {
+      "source": "https://shopee.co.id/Zoom-G11-Multi-Effects-Processor-for-Electric-Guitar-i.27104501.23812457555",
+      "seller": "camera_islands",
+      "shop_id": "27104501",
+      "item_id": "23812457555",
+      "idr": 11920000,
+      "region": "Kota Jakarta Pusat",
+      "access": "Four-month indexed cache;direct cache miss",
+      "status": "Habis;sold out",
+      "condition": "Unknown",
+      "qualification": "Revision/bundle/adapter/warranty/authenticity/shipping/tax/checkout unknown;cached next-day banner not stock proof;voucher not deducted."
+    },
+    "remaining": "G11 full rotary visual corroboration,auxiliary-LCD dimensions/color/touch,current installed inventory and expression coverage remain unresolved.",
+    "downloads": false
   }
 }

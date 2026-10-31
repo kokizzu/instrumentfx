@@ -22,5 +22,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='docs: refresh LCD-first research continuation checkpoint'
+        message='research(zoom): document G11 patch level and qualified hardware offer'
     print(git('commit','-m',message))
