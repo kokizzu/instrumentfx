@@ -134901,5 +134901,35 @@
       "separate button count still lacks inspectable panel"
     ],
     "next": "Other individual-LCD processor unresolved fields; revisit these only with new documentation or access; independent general cursor preserved"
+  },
+  "helix_control_lcd_power_offer_20261101": {
+    "status": "partial controller; not active audio inventory",
+    "root": "LINE6.md#helix-control--main-lcd-host-power-and-qualified-hardware-offer",
+    "sources": [
+      "https://line6.com/helix/helix-rack.html",
+      "https://kb.line6.com/helix-dimensions",
+      "https://kb.line6.com/helix-support-faq"
+    ],
+    "finding": "Separate20-character mainLCD plus12stripLCDs;Rack hostpower;ControlUSBreserved andupdatesviaRackUSB;officialbody/mass andDC3HvsDC3G distinctions retained",
+    "offer": {
+      "seller": "16879370",
+      "item": "1156419664",
+      "idr": 10060000,
+      "name": "Seven Stereo Music & Audio Store",
+      "region": "Kota Bandung",
+      "access": "last-week direct cache; checked2026-11-01",
+      "status": "shop onholiday; stock/checkout unverified",
+      "condition": "unknown",
+      "bundle": "controller title;Rack inclusion not established",
+      "voucher": "late-delivery compensation not deducted"
+    },
+    "remaining": [
+      "mini LCD diagonal/resolution/color/touch",
+      "adapter electrical ratings and cable-length maximum",
+      "full control census",
+      "host volume assignment andoutput coverage",
+      "condition-specific offers"
+    ],
+    "next": "Other individual-LCD model gaps; independent general cursor preserved"
   }
 }

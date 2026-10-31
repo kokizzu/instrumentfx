@@ -295,6 +295,21 @@ Checked 2026-10-31 against the [manufacturer Helix Rack/Control page](https://li
 
 Helix Control is a companion for **Helix Rack**, not an independent audio multi-effects processor. It remains outside active processor counts. Mini-screen diagonal, resolution, color mode, full physical profile and exact Shopee Indonesia used/new hardware offers remain unverified; no sibling or bundle specifications transferred. No download or device test performed.
 
+### Helix Control — main LCD, host power and qualified hardware offer
+
+Checked **2026-11-01**. Partial controller profile; outside processor counts.
+
+| Field | Exact-model evidence / qualification |
+|---|---|
+| Display / separate main readout | **20-character main LCD**,in addition to **twelve individual LCD strips**. Main shows preset number/name and tuner;strip MULTIPLE(X) indicates multiple assignments,not multiple screens. [Own product](https://line6.com/helix/helix-rack.html). |
+| Navigation / context | FS1/FS7 ordinarily step banks; hold both to cycle Bank/Preset/Snapshot up/down. FS6 toggles Preset/Stomp; hold enters Pedal Edit. These modes do not establish standalone audio processing. [Own product](https://line6.com/helix/helix-rack.html). |
+| Connections / power | Host uses CAT-5 or EtherCON. Control is powered by Helix Rack;leaving Control ON permits host power switching. Its USB is reserved for future use;the FAQ routes controller firmware updates **through Rack’s USB**,not Control’s USB. [Own product](https://line6.com/helix/helix-rack.html);[manufacturer FAQ](https://kb.line6.com/helix-support-faq). |
+| Power / adapter revision | Current product page names **DC-3H** for very long cables;[RevB manual](https://line6.com/data/6/0a06439c4dfc577d5a2aea898/application/pdf/Helix%20Rack%20and%20Control%20-%20Rev%20B%20-%20English%20.pdf) instead names **DC-3G**,also mentioned byFAQ as not included. Preserve both;voltage/current/polarity andexact cable-length limit not verified. FAQ’s speculative 100 ft isnot a certified maximum. |
+| Dimensions / mass conflict | [Dedicated manufacturer dimensions article](https://kb.line6.com/helix-dimensions):**17.2×9.4×2.5in;7.2lb**. [Manufacturer support FAQ](https://kb.line6.com/helix-support-faq):**17.09×9.46×2.58in;7.3lb**. Axes unlabelled;neither a measured reconciliation nor silent averaging. Both exceed preferred footprint;no Rack chassis dimensions transferred. |
+| IDR / exact cached hardware | **Rp10.060.000**,Seven Stereo Music & Audio Store,Kota Bandung,shop 16879370/item 1156419664. [Exact Helix Control listing](https://shopee.co.id/Line-6-Helix-Control-Floor-Controller-For-Helix-Rack-i.16879370.1156419664),last-week direct cache: **Toko Sedang Libur** (shop on holiday),stale October 23–26 arrival. No Habis marker exposed, but stock/checkout unverified. New/used,working condition, firmware, cable/adapter inclusion, bundle, warranty, shipping/tax and delivered total unknown; title establishes controller,not included Helix Rack. Late-delivery voucher not deducted. Historical condition-unverified ask,not live stock or used/new range. |
+
+Earlier unknowns remain provenance; this narrows the main-display,host-power,body andexact-offer gaps only. Mini-screen diagonal/resolution/color/touch,full control census and host-specific global-volume assignment/range/coverage remain unresolved. Current 3.80 manual full reader exceeded size limit;indexed excerpts corroborated the20-character main LCD. No local download, device operation or visual count.
+
 ## Helix Floor
 
 <!-- comparison evidence begins -->
