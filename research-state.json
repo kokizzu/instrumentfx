@@ -133002,5 +133002,14 @@
       "delivered total"
     ],
     "next": "Continue individual footswitch LCD evidence gaps; preserve independent BOSS GT-Pro research cursor."
+  },
+  "g5_pickup_balanced_routing_20261031": {
+    "model": "Zoom G5",
+    "checked": "2026-10-31",
+    "source": "https://manualzz.com/doc/8594044/zoom-g-5-guitar-effects-and-amp-simulator-operation-manual",
+    "pages": "4–5",
+    "finding": "PASSIVE direct passive guitar; ACTIVE active guitar or upstream effects pedal. XLR POST after effects, PRE before effects. Balanced ground LIFT/CONNECT separate from bypass.",
+    "qualification": "Original manufacturer text only; established G5 identity. No claim of volume mapping coverage at PRE/headphones or separate active input impedance.",
+    "next": "Continue individual footswitch LCD models; independent BOSS GT-Pro cursor preserved."
   }
 }

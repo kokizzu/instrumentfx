@@ -3859,6 +3859,19 @@ Checked **2026-10-31**. [Archived manufacturer G5 FAQ](https://www.zoom.co.jp/no
 
 [Original G5 firmware history1.20](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G5_v1.20_E.pdf),one-page body explicitly G5 despite web title“G3”,reaches **May2013**:hi-hat/tempo fix,Windows8 andUSB3.0 host support. This extends the earlier1.10 history endpoint;USB3.0 compatibility is not a faster audio format. No download ordevice operation.
 
+### G5 — pickup selection and balanced-output tap
+
+Checked **2026-10-31** in the [manufacturer-authored G5 manual reproduction](https://manualzz.com/doc/8594044/zoom-g-5-guitar-effects-and-amp-simulator-operation-manual),printedpp4–5;document identity established above.
+
+| Field | Exact-model routing / qualification |
+|---|---|
+| I/O / normal pickups | **PASSIVE (not pushed in)** is specified for a directly connected passive-pickup guitar. **ACTIVE (pushed in)** covers active pickups **or an effects pedal upstream**. This selects input type;the manual does not provide a separate ACTIVE-mode impedance here. |
+| I/O / balanced tap | XLR **POST (pushed in)** takes sound after effects;**PRE (not pushed in)** takes it before effects. These are balanced-output tap settings,not proof that every output bypasses effects orthat a pedal-volume mapping controls the PRE signal. |
+| I/O / ground switch | **LIFT (pushed in)** separates signal path from the grounding pin;CONNECT reconnects them. This is the balanced-output ground control,not a true-bypass orprotective-mains-earth setting. |
+
+No hardware operation,visual inspection ordownload. Headphone/tail coverage of expression mappings remains unresolved.
+
+
 ## G5n
 
 Reviewed **2026-10-17** after fresh exact Shopee hardware discovery. New catalogue record, no ownership assertion. Discontinued according to Zoom; reseller offers can remain historical. Partial: no software, firmware, manual file or dependency downloaded or installed. Official manual evidence below is search-indexed text, not a fresh PDF/image inspection.
