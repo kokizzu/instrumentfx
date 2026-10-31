@@ -418,7 +418,7 @@ Checked **2026-10-31**. Exact **0709-AJN**, manufacturer-described multi-effects
 |---|---|
 | Controls / expression | Three parameter knobs plus BOARD SELECTOR knob; one MASH footswitch, one CONNECT button and separate two-way toggle. No treadle in inventory. MASH pressure expression is not an analog external pedal. Visual corroboration pending. |
 | Display | Shows effect, bypass, parameter values, MASH/RAMP animation and BPM. Manufacturer says DISPLAY; LCD/OLED, diagonal, color, touch and placement remain unverified. |
-| Body / footprint | **74 W ×122 D ×50 H mm**, from labelled H×W×D 50×74×122 mm; fits the 200 W ×140 D preference. Weight unverified here. |
+| Body / footprint | **74 W ×122 D ×50 H mm**, from labelled H×W×D 50×74×122 mm; fits the 200 W ×140 D preference. Regional 0.34 kg evidence appears below; direct manufacturer mass corroboration remains open. |
 | I/O | Two quarter-inch TS inputs, **1 MΩ**; two quarter-inch TS outputs, USB-C, DC. Ordinary guitar uses MONO input. No EXP, headphone or DIN MIDI socket in published inventory; USB audio/MIDI unknown. |
 | Power | **9 V DC centre-negative, ≥250 mA supply**, 5.5/2.1 mm; adapter not included. Not measured draw; USB/battery operation unresolved. |
 | Memory / processing | Factory table lists **seven Boards ×A/B slots**. A/B switches slots; not 14 simultaneous effects. Current type census, factory revision and concurrency remain unverified. |
@@ -426,6 +426,25 @@ Checked **2026-10-31**. Exact **0709-AJN**, manufacturer-described multi-effects
 | Remaining | IR/native NAM/converted NAM/capture, synth/acoustic, looper/drums, current library, screen proof and qualified offers require research. Unknown is not No. |
 
 **Separate IDR hardware evidence:** new and used unknown. Exact Shopee Indonesia searches recovered no qualified item. [Thai Shopee item119771659/54057670117](https://shopee.co.th/เอฟเฟคกีตาร์-TC-Electronic-Plethora-X1-i.119771659.54057670117) is a different market/currency/shipping region; excluded from IDR prices. Search absence does not prove Indonesian unavailability. No currency conversion, installation or hardware test.
+
+### PLETHORA X1 — own firmware history and regional display evidence
+
+Checked **2026-10-31**. [Manufacturer X1 release history](https://cdn.mediavalet.com/aunsw/musictribe/x6V1AUccUUSzVlP2KP1YSw/FInC2ZKrfEe8aq54ZW3wUA/Original/Plethora_X1_Release_notes_FW_v1_1_13.pdf), exact X1 title and TC Electronic footer; original text read remotely. No updater, app or firmware downloaded or run.
+
+| Field | Revision-qualified finding |
+|---|---|
+| Processing / firmware1.1.13 | **March23,2025** adds Infinite Sample Sustainer for holding notes/chords. Requires **TonePrint4.6.18 plus refreshed app content**. It omits the standalone Infinite pedal’s reverb section and Kill Dry; some TonePrints therefore sound different. This is sustainer-specific, not a blanket claim about every X1 effect. |
+| Firmware / historical fixes | **1.0.29,January24,2025** fixes mobile connectivity. **1.0.31,February5,2025** fixes rare startup in “front test” after1.0.29. These are dated fixes, not a guarantee of current host compatibility. |
+
+[ELECTORI’s exact white-X1 page](https://www.electori.co.jp/tc-electronic/product.php?id=plethora-x1), checked separately, supplies regional evidence below. It is distributor documentation; manufacturer certification and installed contents remain unverified.
+
+| Field | Regional evidence / remaining boundary |
+|---|---|
+| Display / regional specification | Explicit **1-inch IPS LCD**. Primary manual still says DISPLAY; primary technology/diagonal corroboration, color/touch and physical placement remain open. No dimensions estimated from photos. |
+| Categories / regional1.1.13 list | **16 named types:** Hall of Fame2, Flashback2, Corona, Brainwaves, Quintessence, Infinite, Pipeline, Sentry, HyperGravity, Viscous Vibe, Helix, Shaker, Sub’N’Up, Vortex, Alter Ego and Mimiq. The same page retains a14-effect feature bullet; current manufacturer copy also says14. Do not call16 a reconciled primary census or infer16 simultaneous blocks. |
+| Body / regional mass and battery | **0.34kg; battery operation expressly unavailable**. Own-manual dimensions remain separate; no measured mass, USB-power result or current-draw measurement. |
+
+Partial status and397 active records unchanged. Exact Indonesian offer discovery and full profile verification remain required.
 
 ## PLETHORA X3
 
