@@ -16,6 +16,18 @@ Checked 2026-10-31 against the [exact GT/10 manufacturer page](https://rjmmusic.
 
 No download, installation or hardware operation.
 
+## Mastermind GT/16
+
+Checked 2026-10-31 against the [exact manufacturer page](https://rjmmusic.com/products/mastermind-gt-16-midi-foot-controller). Controller only, outside active audio counts.
+
+| Field | Evidence / qualification |
+|---|---|
+| Displays | **16 individual LCDs, one above each switch**, plus main LCD. Diagonal, resolution and touch unknown. |
+| Power / body | **12VDC/1.2A, center-positive, 2.1mm ID/5.5mm OD**; MIDI-output phantom powering. **19.4W×11.1D×3.25H inches /49.3×28.2×8.3cm;8lb/3.6kg**. Ratings, not measured draw. |
+| Connections | Four TRS EXP inputs, linear/log, high/low impedance; two TRS momentary-switch sockets supporting four switches;7-pin MIDI IN/OUT;USB-A storage/USB-B computer;two9VDC auxiliary outputs. Exact EXP wiper wiring unverified. |
+| Memory / software | Product384 presets versus [Manual4.1](https://newsite.rjmmusic.com/download-content/MMGT/Mastermind%20GT%20Manual-4.1.pdf)768: revision conflict retained.16 button pages;Mac/PC editor, minimum OS unknown. |
+| Remaining | Complete current profile and exact Shopee Indonesia condition, stock, bundle and used/new IDR evidence pending. No sibling specifications substituted. |
+
 ## Mastermind GT/22
 
 Checked 2026-10-31 against the [exact manufacturer page](https://rjmmusic.com/products/mastermind-gt-22-midi-foot-controller). MIDI controller, outside active audio processor/brand counts. GT/10 and GT/16 specifications are not substituted.

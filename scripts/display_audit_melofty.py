@@ -20,5 +20,5 @@ message = "docs: collect requested footswitch display processors and controllers
 if sys.argv[1:] == ["morningstar"]:
     message = "research(morningstar): distinguish MC8 PRO screens and switches"
 if "RJM-MUSIC.md" in changed:
-    message = "research(rjm): add exact GT10 individual LCD controller"
+    message = "research(rjm): add exact GT16 individual LCD controller"
 print(git("commit", "-m", message))

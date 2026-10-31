@@ -129590,6 +129590,13 @@
       "root": "RJM-MUSIC.md#mastermind-gt10",
       "active": false,
       "finding": "Ten individual LCDs;800mA published supply requirement;XLR wording conflict preserved."
+    },
+    "rjm_gt16": {
+      "checked": "2026-10-31",
+      "source": "https://rjmmusic.com/products/mastermind-gt-16-midi-foot-controller",
+      "root": "RJM-MUSIC.md#mastermind-gt16",
+      "active": false,
+      "finding": "16 individual LCDs; exact model body and power retained;384/768 memory conflict pending."
     }
   }
 }
