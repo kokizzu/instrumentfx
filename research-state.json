@@ -132672,5 +132672,17 @@
     "limits": "Mission specifications from indexed manufacturer body; direct privacy shell. Wiper conflict and processor-side global-volume behavior remain unresolved.",
     "previous_body_summary": "| Body / software | Published **19.4W×8.1D×3.25H inches,6lb/2.7kg**; corroborated by manual4.1 below; current revision equivalence unverified. PC/Mac editor; minimum OS unknown. |",
     "next": "Continue LCD-first controller/processor audit;GT4.3 PDF exceeded reader size limit. Independent BOSS GT-Pro cursor unchanged."
+  },
+  "nano_electrical_headphones_20261031": {
+    "checked": "2026-10-31",
+    "model": "Neural DSP Nano Cortex",
+    "sources": [
+      "https://neuraldsp.com/manual/nano-cortex",
+      "https://neuraldsp.com/downloads"
+    ],
+    "finding": "Root records own-model input/output electrical limits, qualified headphone power test load and separately identified Windows USB driver. Capability headphone column linked.",
+    "prior_capability_row": "| [Neural DSP Nano Cortex](NEURAL-DSP.md#nano-cortex) | Yes / TRS EXP, shared with MIDI | 144 ×103 mm; yes, existing manufacturer evidence | **Unknown; official target lists conflict**, no across-preset guarantee |LEVEL in manual; 0–100% adjustable/reversible; latching toe supported, momentary needs Latching Emulation; position unverified;2.2.0 fixes preset-reload volume rise/knob-induced max;held-pedal recall still unverified | EXP coverage unresolved; capture-calibration HP control is not performance proof; 2-Preset Mode FS II global bypass permits delay/reverb Trails; Trails has no effect in4-Preset Mode | Yes, 3.5 mm | Assigned A/B pairs; general down/up not established |",
+    "limits": "Global assignment remains unverified; headphone power is not a minimum impedance or EXP-coverage guarantee.",
+    "next": "Retain LCD-first priority. Nano LEVEL/global-scope resolution still needs firmware/app-qualified manufacturer clarification; avoid repeating unchanged manual/setup conflict as a new finding. Independent BOSS GT-Pro cursor unchanged."
   }
 }

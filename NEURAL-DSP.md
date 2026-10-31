@@ -221,6 +221,18 @@ Checked 2026-10-28 against the [official NanOS 2.2.0 manual](https://neuraldsp.c
 | Looper / live bypass modes | In **2-Preset Mode**, footswitch I recalls A/B and footswitch II is **global bypass**. In **4-Preset Mode**, both switches recall IA/IB/IIA/IIB. The **Trails setting enables delay/reverb decay when bypassing** and has **no effect in 4-Preset Mode**. It does not establish preset-change spillover or expression attenuation of existing tails. |
 
 These mode-specific findings do not resolve the conflicting LEVEL target lists or all-preset assignment. Headphone, tail and recorded-loop expression coverage remain unverified. Text inspected without a local download or device operation.
+### Nano Cortex — electrical limits and headphone rating
+
+Checked **2026-10-31**, [manufacturer HTML manual,NanOS2.2.0](https://neuraldsp.com/manual/nano-cortex),Hardware Specifications. Published ratings,not measurements;no sibling-model transfer.
+
+| Field | Specification / boundary |
+|---|---|
+| I/O / instrument and capture inputs | Instrument **1MΩ,+10dBu maximum**,¼-inch TRS connector specified;connector type alone does not prove balanced instrument input. Capture combo: **1MΩ TS,45kΩ XLR,+10dBu maximum,+26dB boost gain**. Capture ratings do not establish a live vocal-effects path orphantom power. |
+| I/O / output and headphone limits | Main outputs **560Ω**,maximum **+10dBu unbalanced/+16dBu balanced**. Dedicated3.5mm TRS phones: **55mW into20Ω**;source does not specify per-channel power orminimum headphone impedance here. Separate HP OUT knob remains documented;these ratings do not prove expression attenuation. |
+| Editor / separate Windows driver | [Own downloads index](https://neuraldsp.com/downloads) lists **Nano Cortex Windows driver5.74.0,2025-07-24**. This is a USB audio driver,not a desktop Nano preset editor orfirmware version. Minimum Windows version/architecture for this package remains unverified. |
+
+Global LEVEL assignment across presets,held-pedal recall,andbypass/headphone/tail coverage remain unresolved. No download,installation ordevice test.
+
 
 ## Quad Cortex
 
