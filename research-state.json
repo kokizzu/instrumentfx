@@ -132357,5 +132357,32 @@
     ],
     "search_result": "Exact2019catalogue B3n section lacks G3n/G3Xn USB-audio comparison table;retailer descriptions andimage captions notpromoted to manufacturercontrol counts",
     "next": "Continue LCD-first withassignment-specific/globalvolume evidence orcondition-qualified hardwareoffers;avoid repeating unresolved B3ncount/audio searches withoutnewprimarysource;BOSS GT-Pro independentgeneralcursor unchanged"
+  },
+  "g3xn_factory_patch_allocation_20261031": {
+    "checked": "2026-10-31",
+    "model": "Zoom G3Xn",
+    "source": {
+      "url": "https://zoomcorp.com/documents/141/E_G3Xn_patch-list_1.pdf",
+      "identity": "Own exact G3Xn patch sheet,©2016,Z2I-2819-01",
+      "scope": "Complete two-page originalreadertext;001–075 enumerated,076–150explicitlyempty"
+    },
+    "findings": [
+      "75supplied+75initiallyempty=150editablelocations",
+      "037Tacoustic Aco.Sim+RackComp",
+      "048Loopertron OctFuzz+TapeEcho",
+      "049Gayageum Aco.Sim+PitchSHFT",
+      "057Dobro Aco.Sim+GtGEQ7"
+    ],
+    "superseded_summary_rows": [
+      "| Factory / user memory | **150 user patch locations**; product advertises75 prepared patches. Do not add75 to150 as extra memory. Exact factory-fill state of a listed used unit **?**. [G3-P][g3xn-p], [G3-M][g3xn-m] |",
+      "| Synth / acoustic | Ownsupport-linked2017 effectslist p7 explicitly identifies **Aco.Sim: electric-guitar-to-acoustic simulation**,withTop,Body,Tone,VOL. Dedicated synth engine remains unverified;library availability is not proof of installed effects. |"
+    ],
+    "qualifications": [
+      "Compositepresets not additionalindependentengines orpolyphony evidence",
+      "No G3n/G5npatchnumbers transferred",
+      "Laterfactoryrevisions andactualusedunitcontents unknown",
+      "No download,reset,installation ordeviceoperation"
+    ],
+    "next": "Continue individual-LCD model gaps;G3Xn initialallocation nowdocumented,do not requeue asunknown;independent BOSS GT-Pro generalcursor unchanged"
   }
 }
