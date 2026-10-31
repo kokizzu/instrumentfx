@@ -131810,5 +131810,16 @@
     "revision": "1.4.3, explicitly PX5/PX3",
     "scope": "Per-slot opt-in; temporary modifier overrides return to global tempo",
     "remaining": "Override timeout unspecified; X5-only older dual-press navigation not transferred to X3. Analog EXP remains absent."
+  },
+  "g5n_v2_factory_map_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://zoomcorp.com/documents/70/E_G5n-V2.0_patch-list.pdf",
+    "revision": "VER.2.0;©2017;Z2I-2565-02",
+    "supplied_range": "001–124",
+    "empty_range": "125–200",
+    "supplied": 124,
+    "empty": 76,
+    "total": 200,
+    "qualification": "Documented V2 initial state;current unit and later factory allocation unverified."
   }
 }

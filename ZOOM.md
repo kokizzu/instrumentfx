@@ -3614,7 +3614,7 @@ Reviewed **2026-10-17** after fresh exact Shopee hardware discovery. New catalog
 | Dimensions / weight | **454 W ×225 D ×75 H mm;3.4 kg**. Large; plug/pedal clearance additional. | [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
 | Processing | Up to **nine effects**, reorderable; V2 improves DSP efficiency. **V3 DSP budget100 points**; effect costs differ. Exceeding DSP or unit limits triggers PROCESS OVERFLOW and bypasses effects; remove/change effects to recover. Exact per-category totals ? | [V3 chart](https://zoomcorp.com/documents/1326/E_G5n_G3n_G3Xn_PowerChart_v2.pdf); [V2 manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf); [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) |
 | Model choices / version conflict | US page:126=100 effects+13 amps+13 cabs. Japan V3 page:159=127 effects+16 amps+16 cabs. V2 manual:128 types. Preserve version/region wording; not interchangeable inventories. | [US](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/); [Japan](https://zoomcorp.com/en/jp/multi-effects/guitar-effects/zoom-g5n/); [V2](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
-| Memory | **200 user patches**; product advertises124 supplied patches,not200+124. V2 SAVE selects and confirms a destination; SWAP exchanges patches (pp21–23). AUTO SAVE OFF prompts to save or discard edits on patch change (p28). All Initialize restores settings/patches (p52); firmware update preserves saved patches (p55). Initial/current factory allocation remains unresolved. | [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf); [product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) |
+| Memory | **200 editable patches;V2 factory map:001–124 supplied,125–200 empty (124+76)**,not200+124. [V2 patch list](https://zoomcorp.com/documents/70/E_G5n-V2.0_patch-list.pdf). V2 SAVE selects and confirms a destination; SWAP exchanges patches (pp21–23). AUTO SAVE OFF prompts to save or discard edits on patch change (p28). All Initialize restores settings/patches (p52); firmware update preserves saved patches (p55). V2 initial allocation is now established;current unit contents and later factory revisions remain unverified. | [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf); [product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/zoom-g5n/) |
 | Synth / acoustic | **Aco.Sim electric-to-acoustic simulator confirmed**,with Top/string character,Body/resonance,Tone and VOL controls (0–100 each). G5n V2 patch037 TAcoustic uses Aco.Sim+RackComp. Patch051 Loopertron uses OctFuzz+TapeEcho for a synth-style octave sound; this establishes a composite sound,not a dedicated synth engine or polyphonic tracking specification. Complete synth/category counts remain ?. | [G5n V2 patch list](https://zoomcorp.com/documents/70/E_G5n-V2.0_patch-list.pdf); [shared effect parameters,p.7](https://zoomcorp.com/media/documents/E_G5n_G3n_G3Xn_FX-list.pdf.pdf) |
 | Audio / control ports | Mono instrument INPUT; two mono L/R outputs; stereo mini AUX and phones; FP01/FP02 CONTROL IN; USB; DC9V and POWER. Complete V2 rear inventory lists no separate MIDI,XLR or send/return. INPUT nominal−20 dBu/470 kΩ; AUX nominal−10 dBu/10 kΩ; output maximum+5 dBu into≥10 kΩ; phones20+20mW into32 Ω (p58). USB subtype,control wiring and phantom specification remain unverified. | [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
 | Power | **DC9V,500mA,center-negative AD-16**. V2 requires adapter connection before POWER ON; last-used mode returns. ECO shuts down after10hours unused (p6). Battery/USB-powered operation remains unverified. | [Manual](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf) |
@@ -3648,7 +3648,7 @@ Exact condition, revision, accessories, warranty region, stock quantity, shippin
 
 ### Remaining checks
 
-Remaining: full footswitch/button totals and visual corroboration; display diagonal/color/touch; revision-matched category choices/DSP costs; initial/current factory-memory allocation; complete synth inventory; USB subtype/control wiring and phantom specification; IR/NAM/capture import; battery/USB supply; USB channels/routing; looper block cost; qualified used/new condition and checkout stock. Bass suitability remains unclassified. No sibling specifications substituted.
+Remaining: full footswitch/button totals and visual corroboration; display diagonal/color/touch; revision-matched category choices/DSP costs; current/later factory-memory allocation (V2 initial map established below); complete synth inventory; USB subtype/control wiring and phantom specification; IR/NAM/capture import; battery/USB supply; USB channels/routing; looper block cost; qualified used/new condition and checkout stock. Bass suitability remains unclassified. No sibling specifications substituted.
 
 ### V2 manual text follow-up
 
@@ -3803,6 +3803,17 @@ Checked **2026-10-31**;search-index evidence only,direct reader cache misses. Th
 | Condition-unverified,sold-out cached hardware | **Rp2.500.000** | [gitarisfales,shop737365058/item22040382018](https://shopee.co.id/zoom-g5n-i.737365058.22040382018),Kab.Nganjuk;exact G5n title,two-month cache explicitly **Habis**,August26–29 arrival stale. Used/new condition,working state,revision,accessories,warranty anddelivered total unknown;not current availability orcompleted sale. Voucher not deducted. |
 
 Full physical control counts remain unresolved:manual text names BANK/SCROLL switches but drops symbols;the manufacturer [top-panel image](https://zoomcorp.com/media/original_images/Zoom_G5n_Top1.jpg.800x482_q70_crop_size_canvas.jpg) was not visually inspected because browser surfaces were unavailable. No inferred count,local download ordevice test.
+
+### G5n — V2 factory-memory allocation
+
+Checked **2026-10-31** against the complete one-page [manufacturer V2 patch list](https://zoomcorp.com/documents/70/E_G5n-V2.0_patch-list.pdf),©2017,Z2I-2565-02. It enumerates001–124 and explicitly marks125–200 empty by default.
+
+| Field | Evidence / qualification |
+|---|---|
+| Memory / V2 initial contents | **124 supplied +76 empty =200 editable locations**. This resolves the earlier initial-allocation gap forV2 only;it does not establish current unit contents or a later firmware’s factory map. Factory reset andfirmware-update behavior remain separately qualified above. |
+
+The same sheet advises enabling the cabinet effect’s MIC parameter for headphone use. This is a patch-effect setting,not a global headphone-volume mapping. Original text only;no download,reset,update ordevice test.
+
 
 ## G6
 
