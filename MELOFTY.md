@@ -94,3 +94,11 @@ Checked **2026-10-31** against the [manufacturer V1.7.4 manual](https://shop.war
 | Captures / on-device MFIM | Manual documents capturing overdrive pedals, amp preamps, complete amp rigs and speaker cabinets as digital models, with MELOFTY Cloud sharing. The full-amp example requires a microphone. This establishes a proprietary on-device capture workflow, distinct from cabinet IR import and `.nam` loading; it does not certify NAM export or every NAM architecture. |
 
 The lead remains outside active counts. Mini-screen technology/count confirmation, category inventory, factory allocation and qualified Indonesian hardware evidence remain open.
+
+### AXOM MAX — recovered quick-guide navigation boundaries
+
+Checked2026-10-31. The previously inaccessible three-page quick-guide candidate is now readable through its [PDF reproduction](https://manuals.plus/m/63a022bc23df064392ad6523fb0e69573ed5ae7b06aa019d4e8601c2f649aa85_optim.pdf). Document identity is supported by the matching three-page/331.93KB filing-index metadata and the same named controls, connectors and MASTER/EXP architecture as the saved manufacturer manual. **English extraction has shifted-font encoding errors**; no clean visual inspection, printed revision/date or complete display census is certified. The host’s rewritten summary is excluded.
+
+On English PDFp1, FS2 is labeled bank-up/Bank Select (hold: Looper); FS6 bank-down/Bank Select (hold: Tuner). Pressing both cycles selected footswitch modes. This documents **bank navigation**, distinct from the already-recorded contextual FS8/9 preset−/+ function inside Looper. It does not prove a permanent sequential preset pair or loop retention across presets.
+
+The same connector text specifies8-in/8-out24-bit/48kHz USB-C, corroborating the saved manual’s specification table; it does not resolve the manual’s separate44.1–192kHz claim. Mini-screen count and LCD/OLED technology remain unverified; this partial lead remains outside active counts. No local download or device operation.
