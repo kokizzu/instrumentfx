@@ -130514,6 +130514,15 @@
       "qualification": "Update increments only. Complete current census not established. Primary guide H link discovered through third-party source but web reader rejected document/pdf; third-party counts not adopted.",
       "pending_guide": "https://www.fmicassets.com/Damroot/Original/10146/OM_2274900000_Tone-Master-Pro-Model-Guide-H_EN.pdf",
       "pending_manual": "https://www.fmicassets.com/Damroot/Original/10032/OM_2274900000_Tone-Master-Pro_EN.pdf"
+    },
+    "tone_master_supported_pedal_20261031": {
+      "sources": [
+        "https://www.fender.com/products/tone-master-pro",
+        "https://missionengineering.com/shop/sp1-tmp-fender/"
+      ],
+      "finding": "Fender names SP1-TMP; indexed exact Mission specification: 10k linear TRS tip-to-wiper expression, separate TS latching toe output.",
+      "access": "Mission search-indexed manufacturer text readable; direct open minimal shell.",
+      "limits": "Supported exact combination only; input tolerance, unrelated pedals, global assignment and hands-on operation not verified."
     }
   },
   "gt_pro_global_patch_level_20261031": {
