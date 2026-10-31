@@ -135005,5 +135005,22 @@
       "qualifiedShopeehardware"
     ],
     "next": "Continue individual-LCD priority; preserve independent general cursor"
+  },
+  "tmp_1858_loop_normalization_20261101": {
+    "source": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+    "firmware": "1.8.58 July15,2026",
+    "finding": [
+      "Undo loop-overdub clear fix",
+      "1-Shot overdub playback fix",
+      "Super Bassman Vintage/Rampage Blueline/66Flip-Top normalized louder; manufacturer notes presets may needadjustment"
+    ],
+    "scope": "Release-specific documented changes; no numericgain,hardwaretest orglobalEXPcoverage inference",
+    "remaining": [
+      "currentGuideHfullcensus",
+      "IRfilelimits/capacity",
+      "globalanalogvolume andoutputcoverage",
+      "qualifiedcondition-specific offers"
+    ],
+    "next": "Continue confirmed individual-LCD models with novel evidence; independent general cursor unchanged"
   }
 }
