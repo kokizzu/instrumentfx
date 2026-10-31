@@ -130740,5 +130740,16 @@
     "finding": "TRS tip signal/ring power,linear taper;selectable polarity;TS toe input selectable latching/momentary.",
     "conflict": "10k–500kΩ rear-panel prose versus1k–500kΩ specifications;do not collapse lower limits or infer every pedal compatible.",
     "limits": "Current1.8 behavior and global analog volume still unverified;no download or hardware test."
+  },
+  "tone_master_ir_usb_boundary_20261031": {
+    "source": "https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual",
+    "revision": "Manufacturer firmware1.5 body",
+    "printed_pages": [
+      12,
+      34,
+      37
+    ],
+    "finding": "Two IR blocks afterLoop2;SIC/Level/LowCut/HighCut/Bypass. USBreamping bypasses analog loops1/2 and mutes physical inputs;powercycle restores standard mode.",
+    "limits": "IRformat/length/rate/slot capacity,current1.8 behavior and EXPcoverage unknown. SecondaryNAMroadmap lead not adopted as shipped capability without primaryconfirmation."
   }
 }
