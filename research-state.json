@@ -135043,5 +135043,17 @@
       "qualifiedcondition-specific offers"
     ],
     "next": "Continue confirmed individual-LCD models with novel evidence; independent general cursor unchanged"
+  },
+  "nano_community_editor_scope_20261101": {
+    "checked": "2026-11-01",
+    "sources": [
+      "https://unity.neuraldsp.com/t/nano-cortex-desktop-editor-with-full-functionality-over-bluetooth/23480",
+      "https://github.com/DrD85/nano-cortex-editor",
+      "https://neuraldsp.com/news/cortex-cloud-2-8-1-is-now-available"
+    ],
+    "finding": "October2026 community author identifies Mac/Web Bluetooth editor,per-preset expression mappings anddevice masterLEVEL separate fromCapture Volume. Official July22 CortexCloud2.8.1 remains mobile.",
+    "qualification": "Unofficial,unsupported anduntested;author eightUSBchannel claim conflicts with official seven;computer jam/controller modes do not prove onboard Nano looper. LEVEL-menu conflict andglobalanalogvolume unknown.",
+    "downloads": false,
+    "next": "Seek firmware/app-qualified manufacturer clarification of LEVEL availability and allpreset assignment;individualLCD priority andindependent GT-Pro cursor preserved."
   }
 }

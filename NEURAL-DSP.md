@@ -106,7 +106,7 @@ The [complete original comparison](MULTI-EFFECTS.md)<!-- historical-link:neural-
 | NAM / proprietary capture | **Proprietary Neural Capture**, onboard V1 creation; NanOS2.2.0 adds **V2 playback**. That release explicitly restricts V2 creation to Quad Cortex and describes Nano creation as future development; not an available Nano feature. Native/converted NAM compatibility unverified. [R] |
 | Audio/control ports | ¼-inch instrument in; XLR/¼-inch combo capture in; two balanced ¼-inch outs; 3.5mm phones; shared TRS EXP/MIDI Type A; USB-C; DC. **Output2R doubles as capture send**,1L monitors; no separate capture-out jack. [M] |
 | Power / battery / USB | **9–12V DC≥600mA,center-negative,2.1/5.5mm**, or **USB-C5V/1.5A**. USB-A supports data but insufficient operating power. Internal battery unverified; external USB battery-pack support is not an internal battery. [M,P] |
-| Configuration apps and USB functions | **Cortex Cloud iOS/Android**, Bluetooth editing/update workflow. Desktop full editor unverified. **USB4-in/3-out,24-bit/48kHz**; Windows driver, macOS class-compliant. [M] |
+| Configuration apps and USB functions | **Cortex Cloud iOS/Android**, Bluetooth editing/update workflow;manufacturer2.8.1 release dated2026-07-22. **Unofficial community Mac/Web-Bluetooth editor identified**,not manufacturer-supported or locally tested;[scope andlimits](#nano-cortex--official-mobile-app-and-community-desktop-editor). Official desktop full editor remains unverified. **USB4-in/3-out,24-bit/48kHz**; Windows driver, macOS class-compliant. [M] |
 | Display | LED interface; published graphical-screen diagonal, color technology and touch specifications unverified. |
 | Other relevant features | Tuner. Capture mic connector does not prove live vocal processing. Preserved no-phantom assertion is not independently reverified here. [M] **2-Preset Mode:** FS I recalls A/B; FS II global bypass. **4-Preset Mode:** both switches recall four assignments. Delay/reverb bypass Trails works outside 4-Preset Mode; not preset spillover or EXP tail coverage. NanOS2.2 adds Tremolo, optional mono summing, offline app mode, five cloud backups and capture auditioning. [R] Looper, drums, scenes and parallel routing remain unverified. |
 | Used IDR | ? — no dependable condition-qualified used offer established. |
@@ -243,6 +243,14 @@ Checked **2026-11-01**, [official NanOS2.2.0 HTML manual](https://neuraldsp.com/
 | USB / analog monitoring mute | **Mute Guitar Input** removes analog input from the processing chain while USB dry recording remains active. **Mute Guitar Output** suppresses processed guitar at1L/2R but **DAW playback still passes through**. This is not an all-audio output mute. |
 
 Neither route establishes expression attenuation of computer playback orheadphones. The conflicting LEVEL lists andacross-preset assignment verdict remain unresolved. No download ordevice operation.
+
+### Nano Cortex — official mobile app and community desktop editor
+
+Checked **2026-11-01**. [Neural DSP’s Cortex Cloud2.8.1 release,July22,2026](https://neuraldsp.com/news/cortex-cloud-2-8-1-is-now-available),covers iOS/Android,branding changes andminor fixes;it does not announce a global expression-volume role ordesktop editor. NanOS firmware is a separate version.
+
+[WienerDogStudios’s October2–15,2026 community thread](https://unity.neuraldsp.com/t/nano-cortex-desktop-editor-with-full-functionality-over-bluetooth/23480) introduces **DrD85/nano-cortex-editor**. Its [author README](https://github.com/DrD85/nano-cortex-editor) explicitly disclaims Neural DSP affiliation/support anddescribes a Mac app plus Chrome/Edge Web Bluetooth editing. It describes **per-preset expression mappings**,while device masterLEVEL is separate from saved Capture Volume. These author claims are not manufacturer verification ofhardware behavior,global analog assignment orthe disputed official LEVEL menu. No project cloned,app downloaded,code run ordevice connected.
+
+The README’s eight-USB-channel claim conflicts with the manufacturer’s seven(4IN/3OUT);retain official channel evidence. Its optional computer jam player/controller modes are not proof ofan onboard Nano looper. Exact software/firmware compatibility andactual behavior remain untested;all-preset analog volume remains **unknown**.
 
 ## Quad Cortex
 

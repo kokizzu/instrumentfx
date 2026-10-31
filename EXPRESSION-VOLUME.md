@@ -628,3 +628,5 @@ B3 [exact patch/bank navigation](ZOOM.md#b3--exact-patch-and-bank-footswitch-nav
 HX Effects [assignment/Favorite qualification](LINE6.md#hx-effects--assignment-capacity-and-favorite-bypass-conflict): editor-guide bypass-retention wording differs from the owner manual. Neither establishes global volume assignment; numeric attenuation endpoints remain unverified.
 
 Tone Master Pro [firmware1.5 routing census](FENDER.md#tone-master-pro--firmware15-routing-template-census): twelve named templates;upper/lower paths andUSB playback have separate output assignments. Global expression attenuation ofall routed sources remains unverified.
+
+Nano Cortex [community desktop-editor lead](NEURAL-DSP.md#nano-cortex--official-mobile-app-and-community-desktop-editor):author describes per-preset expression mappings andseparate masterLEVEL/Capture Volume. Unofficial,untested software;not manufacturer confirmation ofglobal analog volume oronboard looper. Official Cortex Cloud2.8.1 remains a separate mobile release.
