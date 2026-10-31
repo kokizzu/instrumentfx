@@ -211,6 +211,12 @@ This narrows a **setup-specific wiring hypothesis**, not manufacturer electrical
 
 Do not transfer this result to Chocolate Plus, FootCtrlPlus, the user’s unidentified controller, or direct processor EXP sockets. A MIDI CC11 route still needs receiver assignment/global-volume proof. The official Chocolate product reopening again exposed only a site shell; certified pinout/resistance remain unknown. No local downloads. Controller-only evidence does not change active processor counts.
 
+### Chocolate / FootCtrlPlus — current transport-software boundary
+
+Checked2026-10-31 against the [manufacturer download index](https://www.m-vave.com/download): **Sinco Connector** is a **Windows10/11 Bluetooth-MIDI connector**, explicitly listing FootCtrl/FootCtrlPlus;Chocolate is not named in that helper list. CubeSuite separately lists Chocolate,while MidiSuite(new) lists FootCtrl/FootCtrlPlus. These are published support lists,not universal incompatibility oralias proof. The [current product catalogue](https://www.m-vave.com/products) separately lists Chocolate andChocolatePlus;both exact detail pages still expose only shells.
+
+No analog tip/ring/sleeve mapping,resistance range,continuous sweep endpoints orsafe adapter prescription established. Software transport support cannot certify the actual controller revision orreplace direct analog processorEXP. No helper,app,firmware ormanual downloaded;no hardware connection,test orrewiring.
+
 ## CUBE BABY AC
 
 <!-- comparison evidence begins -->

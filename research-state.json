@@ -129729,5 +129729,10 @@
     ],
     "finding": "Current primary LEVEL target-list conflict persists;all-preset scope unknown surfaced in canonical comparison.",
     "preservation": "Earlier capability supplement retained;calibration not assignment;no hardware/app test."
+  },
+  "mvave_controller_transport_20261031": {
+    "source": "https://www.m-vave.com/download",
+    "finding": "SincoConnectorWindows10/11 BT-MIDI explicitlyFootCtrl/FootCtrlPlus;Chocolate separatelyCubeSuite;no inferredaliases.",
+    "remaining": "Actualunitrevision,analogdirection,pinout,resistance andCCsweep remain unknown."
   }
 }
