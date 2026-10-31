@@ -137866,5 +137866,15 @@
     "remaining": "Current firmware2.10 equivalence, continuous pedal transmission and direct analog global-volume scope remain unverified.",
     "downloads": false,
     "hardware_test": false
+  },
+  "axom_retailer_oled_source_20261101": {
+    "source": "https://www.essemusic.it/en/shop/1024423-melofty-axom-max-162704",
+    "checked": "2026-11-01",
+    "source_type": "Retailer; not manufacturer",
+    "claim": "Nine configurable footswitches with OLED displays",
+    "qualification": "Makes the older unattributed OLED lead auditable; does not verify screen technology, physical census or exact manufacturer revision. Retailer mass3.1kg and Wi-Fi5GHz differ from retained3.45kg/2.4GHz evidence and are not adopted.",
+    "status": "Partial lead; outside confirmed LCD matches and active inventory",
+    "next": "Seek primary manufacturer screen specification or inspectable original panel evidence. Do not repeat this seller claim as confirmation.",
+    "downloads": false
   }
 }
