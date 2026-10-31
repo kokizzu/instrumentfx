@@ -911,6 +911,14 @@ Checked **2026-11-01**, [manufacturer3.x Original/Turbo manual,pp21–26](https:
 
 Global pedal attenuation ofUSB playback,phones,bypass andrecorded loops remains unverified. No downloads,installation ordevice operation. This remains a partial lead outside active counts.
 
+### FM9 original — IR import distinction and current editor
+
+Checked **2026-11-01**. [Original/Turbo3.x manual,p108](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf): **1,024 userIR slots**;FM9-Edit explicitly imports **.wav/.ir** alongsideSysEx **.syx** transfer. No NAM/capture workflow established.
+
+[Current manufacturer FM9-Edit listing](https://www.fractalaudio.com/fm9-edit/) gives **1.03.22,August25,2026** forMac/Windows. **macOS10.13+**,explicitIntel/M1 compatibility;**Windows10+,64-bit**. Windows7 may work butis unsupported. The separate32-bit download link doesnot override the stated supported requirements. Later Apple/Windows architectures andmobile editing remain unverified.
+
+The editor manages presets,scenes,blocks,templates,libraries andonboard/FC footswitch assignments;it is notmerely a driver orupdater. [Original-compatible firmware listing](https://www.fractalaudio.com/fm9-downloads/) supplies the model-support context. No app,driver,firmware orIR downloaded/installed;no device test. Exact currentcategory choices andlooper behavior remain pending.
+
 ## VP4
 
 Admitted 2026-10-28 as a **partial model**, not fully verified. Own manufacturer product/manual establish effects-only guitar/bass multi-effects. All earlier lead-stage bodies and anchors remain below; their outside-inventory status is historical and superseded only by this admission. No ownership or live-market availability inferred.
