@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Actual M-VAVE external controller wiring: identify exact documented controller/pedal combination before compatibility claims; revisit GP-50/HX/GT-1000CORE remaining exact documentation. Nano global scope remains unresolved; avoid repeating unchanged LEVEL sources as new findings. Preserve independent BOSS GT-Pro cursor.",
+      "next_check": "User reaffirmed individual footswitch LCD priority: resume unresolved exact-current HX Effects documentation, then FM3 MKII Turbo range/recall and output coverage, PLETHORA X5 all-Board analog volume scope, and Tone Master Pro remaining LCD/control gaps; continue remaining confirmed LCD processors before OLED/shared-screen/unknown technology or M-VAVE controller wiring. Prior source passes do not close unresolved fields. Preserve deferred GP-50/GT-1000CORE/Nano/M-VAVE tasks and independent BOSS GT-Pro cursor.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
