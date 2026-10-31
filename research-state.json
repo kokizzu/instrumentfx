@@ -138258,5 +138258,17 @@
       "access": "Both redirect to inaccessible manufacturer resource host; no current contents or global EXP scope certified. Tonelify used only to locate original links; generated manual summaries excluded."
     },
     "active_counts_changed": false
+  },
+  "axom_translated_manual_headphone_20261101": {
+    "checked": "2026-11-01",
+    "sources": [
+      "https://shop.warwick.de/media/f8/d7/95/1790900166/ghaq_MEL_AXOM_MAX_Manual_FR.pdf?ts=1790900166",
+      "https://shop.warwick.de/media/bc/cc/92/1790900167/4bz8_MEL_AXOM_MAX_Manual_PL.pdf?ts=1790900167"
+    ],
+    "identity": "Importer-linked AXOM MAX V1.7.4 manual translations; French 59 pages, Polish 63 pages; cover and panel/connection identity checked.",
+    "finding": "French PDF6/58 and Polish PDF6/62 each identify quarter-inch stereo headphones in panel and specifications, corroborating English/German panel evidence.",
+    "remaining": "German specification3.5mm conflict retained; physical inspection pending. French panel still says mini screen without LCD/OLED classification or census. No active admission or later firmware equivalence.",
+    "downloads": false,
+    "active_counts_changed": false
   }
 }

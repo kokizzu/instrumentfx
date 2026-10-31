@@ -178,3 +178,14 @@ Checked **2026-11-01** against the developer-published [Android listing](https:/
 - Apple’s **1.9.0, September29** notes additionally claim a **Simplified Noise Gate**, noise-gate performance changes, improved Wah audio quality, and tuner UI/bass-tuning improvements. These supplement the previously recorded Delay/Pitch/MFIM/Synth changes; they are developer claims, not measured results or proof of the required device firmware.
 
 The current Apple listing still shows1.9.2 with a relative release label; no absolute date inferred. Neither app listing identifies the mini screens as LCD or OLED or confirms their physical count. The maker’s exact AXOM MAX shop page remains inaccessible in this reader. Existing manual, importer and retailer qualifications remain; this is still a partial lead outside active counts. No app, manual or firmware downloaded or run.
+
+### AXOM MAX — translated-manual headphone corroboration
+
+Checked **2026-11-01** in importer-linked original manual translations: [French V1.7.4](https://shop.warwick.de/media/f8/d7/95/1790900166/ghaq_MEL_AXOM_MAX_Manual_FR.pdf?ts=1790900166),59PDFpages, and [Polish V1.7.4](https://shop.warwick.de/media/bc/cc/92/1790900167/4bz8_MEL_AXOM_MAX_Manual_PL.pdf?ts=1790900167),63PDFpages. Exact model/version covers, panel controls and matching connection architecture identify these as AXOM MAX documents; translations are not independent hardware measurements. Page numbers below are one-based PDF pages.
+
+| Field | Evidence / remaining limit |
+|---|---|
+| Headphones / corroboration | Frenchpp6,58 and Polishpp6,62 each specify **¼-inch/6.35mm stereo** in both panel and specification text. This strengthens the English and German panel wording;the German specification’s3.5mm contradiction remains preserved. Physical socket inspection is still pending. |
+| Display / classification boundary | Frenchp5 still calls the switch/pedal readout a **mini screen** without establishing LCD/OLED technology or a physical census. Nine footswitch identities are not a verified nine-screen count. The retailer OLED statement remains attributed separately. |
+
+Neither translation establishes later-firmware equivalence or a global external EXP3 volume assignment. No local document download,software installation ordevice operation;partial lead remains outside active model counts.
