@@ -559,6 +559,19 @@ Global Settings offers **Off**, **Channel & Scene**, and **All**. For gapless pr
 Gapless transition, delay/reverb spillover, looper continuity and global analog-volume assignment are separate capabilities. This finding does not establish retained loop recordings, continuous pedal endpoints, startup recall or universal output coverage. Historical manual3.x remains separately qualified. No save, update, download or hardware operation was performed.
 
 
+### FM9 — named firmware12 model additions
+
+Checked2026-10-31 in the [manufacturer-authored release PDF](https://manuals.plus/m/fc4c88f09cdfe1684d4526d72c54e4e86b0de29352a33b47c153a1dc5715d9b1.pdf),12.00 dated2026-07-07,PDFp1. Original-document identity and matching manufacturer listing are established above.
+
+| Field | Release-specific entries / qualification |
+|---|---|
+| Category choices / new amps | **Five:** Brit JVM Crunch Green, Brit JVM Crunch Orange, Brit JVM Crunch Red, PVH6160 Block Clean, Deluxe Tweed Normal. Existing Deluxe Tweed is renamed **Deluxe Tweed Bright**;that rename is not a sixth added model. |
+| Category choices / new drive | **Swedish Metal Drive**,based on HM-2. Its diode option for other models is a parameter choice,not another independent drive model. |
+| Category choices / chorus updates | Nine listed new models: Japan CE-1 Chorus, Japan CE-1 Vibrato, Japan CH-1, MX234, Small Copy, Japan CE-2 Bass, Vibrato, Rockguy, MX134 Stereo. Japan CE-2 is separately remastered;do not count that as another new entry. |
+
+These are documented update increments,not complete current category totals,simultaneous instances or proof of installation. They do not certify that every older model remains unchanged or that all models can run together. Product325+/57+/50+ headlines and the historical block inventory retain separate scope. No download,update ordevice operation.
+
+
 ## VP4
 
 Admitted 2026-10-28 as a **partial model**, not fully verified. Own manufacturer product/manual establish effects-only guitar/bass multi-effects. All earlier lead-stage bodies and anchors remain below; their outside-inventory status is historical and superseded only by this admission. No ownership or live-market availability inferred.
