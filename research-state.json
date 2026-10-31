@@ -131901,5 +131901,21 @@
     "expression_inputs": 4,
     "external_switch_jacks": 2,
     "qualification": "Controller only;host-dependent configuration/power andchain limits. Pinout,power ratings,complete controls andexact IDR remain unverified."
+  },
+  "fc12_mkii_body_firmware_20261031": {
+    "checked": "2026-10-31",
+    "sources": [
+      "https://www.fractalaudio.com/fc-controllers/",
+      "https://www.fractalaudio.com/fc-download/"
+    ],
+    "dimensions_mm": [
+      512,
+      233,
+      88
+    ],
+    "axes": "Unlabeled source order",
+    "mass_kg": 5,
+    "internal_firmware_listing": "MarkII1.13,2022-12-20",
+    "qualification": "Host feature firmware andown basic firmware are distinct;FC6 wording corrected. No package/device test;power,pinout andIDR remain unverified."
   }
 }

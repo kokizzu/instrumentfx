@@ -140,9 +140,22 @@ Checked **2026-10-31**, [manufacturer FC-controller page](https://www.fractalaud
 |---|---|
 | Body / mass | **283×233×88mm;3kg (6.7lb)**. Page also gives11.2×9.2×3.5in;axes are not explicitly labeled. Original/MarkII dimensions andweight are stated unchanged. Not a measured installation template. |
 | Controls / external inputs | **Six onboard switches**,four expression-pedal inputs andtwo external-switch jacks supporting upto four switches. Main2×20 display andsix miniLCDs are separate. Exact pedal pinout,resistance,toe compatibility andcomplete rotary/button count remain unverified. |
-| Power / configuration | FASLINKII supplies the first controller;downstream controllers need anACadapter. Voltage/current/polarity remain unknown. Settings/firmware reside in the compatible host;host-generated MIDI does not establish standaloneMIDI operation. |
+| Power / configuration | FASLINKII supplies the first controller;downstream controllers need anACadapter. Voltage/current/polarity remain unknown. Feature settings/updates are host-based,while separatebasic FC firmware also exists;[current manufacturer qualification](#fc-12-mark-ii--body-and-internal-firmware-scope). Host-generated MIDI does not establish standaloneMIDI operation. |
 
 The page’supto-four-controller chain claim is a family maximum,not proof of every host’s limit;existing FM3 evidence permits two. No exact Shopee hardware item surfaced;condition-specific IDR remains unknown. No downloads ordevice operation.
+
+
+### FC-12 Mark II — body and internal-firmware scope
+
+Checked **2026-10-31**;controller only,outside active audio counts.
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| Body / controls | Exact FC-12 row:**512×233×88mm;5kg (11lb)**;20.2×9.2×3.5in,axes unlabeled. **Twelve switches/individual LCDs**,plus2×20 main display. FourEXP inputs andtwo external-switch jacks supporting four switches are family specifications explicitly applying toboth controllers. [Exact MarkII product](https://www.fractalaudio.com/fc-controllers/). |
+| Firmware / host versus internal | Host firmware delivers FC features/fixes,but **FC also has its own basic firmware**. [Current downloads](https://www.fractalaudio.com/fc-download/) listsMarkII **1.13,December20,2022**. It adds nofeatures/fixes versus1.12;units manufactured afterNovember2022 require1.13 andship withit. Installed unit version remains unknown. |
+| Firmware / revision separation | Samepage separates original-controller1.12 fromMarkII packages;they are not interchangeable. This corrects any implication that allFC firmware resides only in thehost. No package inspected orinstalled. |
+
+Body dimensions/weight are stated unchanged fromoriginal. Power voltage/current/polarity,complete physical counts,pinout andexact Shopee offers remain unresolved. No download ordevice operation.
 
 
 ## FM3 MKII Turbo
