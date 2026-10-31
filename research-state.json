@@ -137728,5 +137728,24 @@
       "No download, checkout, seller contact or hardware operation"
     ],
     "next": "Continue LCD-priority source gaps; independent BOSS GT-Pro cursor preserved."
+  },
+  "gtpro_japan_service_20261101": {
+    "model": "BOSS::GT-Pro",
+    "status": "manufacturer regional service evidence",
+    "source": "https://www.boss.info/jp/support/service_repair/1708080000/",
+    "source_date": "October2026",
+    "findings": {
+      "repair_acceptance": "ended, exact row × and page legend",
+      "release_year": 2005,
+      "production_completion_year": 2010,
+      "parts_retention_years": 6
+    },
+    "qualifications": [
+      "Japan only; no worldwide/Indonesia service inference",
+      "Retention period is not warranty or an exact repair-end date",
+      "No exact production month from elapsed-age column",
+      "No hardware, service request, local download or seller contact"
+    ],
+    "next": "General cursor remains GT-Pro:13/15 basis,otherUSB modes,globalFV precedence,visualcontrols andqualifiedIDR;individualLCD research keepspriority."
   }
 }
