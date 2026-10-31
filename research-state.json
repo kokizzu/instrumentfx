@@ -133110,5 +133110,14 @@
     "finding": "Metronomelevels persistacrosspresets/resetOFFpoweron;tempo20–250wholeBPM;PRESET/GLOBAL precedence;clockreceiveDIN/USB,noMIDIclocktransmission.",
     "qualification": "HistoricalFM9source,currentMKII/firmware12equivalenceunknown",
     "next": "ContinueLCD-first unresolvedmodels;preserve independentGT-Pro cursor."
+  },
+  "ampero_mini_factory_write_boundary_20261101": {
+    "model": "Ampero Mini MP-50",
+    "checked": "2026-11-01",
+    "source": "https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf",
+    "page": "printed3",
+    "finding": "33factorybanks×3permittemporaryadjustmentbutnot saving;33playerbanks×3editable. Not198writableuserlocations.",
+    "remaining": "Globalvolumeoverride andfactoryVOLUMEdefaults unverified. G3n recheck yieldedno newassignmentproof;existingfirmwarefixalreadyrecorded.",
+    "next": "ContinueLCDfirst andoriginal expressionaudit; independentGT-Pro cursor preserved."
   }
 }
