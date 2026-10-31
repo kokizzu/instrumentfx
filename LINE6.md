@@ -773,6 +773,18 @@ Checked **2026-10-31**,manufacturer **HX Edit3.80 Pilot’s Guide RevY**,©2024 
 
 No local download,software launch,update ordevice test.
 
+### HX Effects — Favorites and model defaults do not propagate assignments
+
+Checked **2026-11-01**,[own3.80 RevD manual,printedpp14–15](https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf),40-00-0399,©2024 Yamaha Guitar Group.
+
+| Field | Saved-content boundary / qualification |
+|---|---|
+| Memory / Favorites | Favorites retain parameter settings andcustomized bypass assignment,but **exclude existing footswitch,controller andsnapshot assignments**. Inserting one receives the normal automatic switch/EXP assignment. Replacing a Favorite leaves existing preset instances unchanged;they must be reloaded toadopt it. Split/Merge Mixer are excluded. |
+| Expression / user defaults | Model defaults store parameters/bypass state for**future insertions**,excluding MIDI,bypass,snapshot andcontroller assignments. **Existing presets are unaffected**;Split/Merge Mixer settings are excluded. Thus neither defaults norFavorites establish global volume-target propagation orinsert Volume into every preset. |
+| Editor / portability | HX Edit exports Favorites as **.fav** files forreimport/sharing. This is an effects-setting asset,not a new processing engine,user IR,NAM oramp-capture format. |
+
+No asset exported,software installed ordevice operated. Global EXP Position remains separate;all-preset volume assignment andDSP-bypass coverage remain unverified.
+
 <!-- comparison evidence ends -->
 
 ### Preserved original shared-source HX Effects fields
