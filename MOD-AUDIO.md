@@ -137,3 +137,11 @@ Checked **2026-11-01**. The [manufacturer release table](https://wiki.mod.audio/
 The [OS1.13 WebGUI guide](https://wiki.mod.audio/wiki/MOD_Web_GUI_User_Guide),which explicitly covers Duo,separates User andFactory pedalboards:users can delete User boards butnot Factory boards. Banks may contain repeated references to the same pedalboard;deleting a bank does **not** delete its boards. These are organization/retention rules,not numerical factory/user/total capacities. Do not transfer G11’s bank-deletion behavior here.
 
 Exact one-display-per-footswitch placement remains unresolved;the browser inventory was empty,andno image inspection is claimed. Direct analog EXP remains absent.
+
+### Duo — unresolved Indonesian bundle-discovery lead
+
+Checked **2026-11-01**. An [OLX Indonesia category snapshot](https://www.olx.co.id/alat-alat-musik_c217/q-stompbox-efek-gitar),indexed aboutfive months earlier,shows **“Efek Gitar Digital MOD Duo + efek stompbox Ibanez TS7”**, **Rp5.500.000**,MustikaJaya,BekasiKota. It displays **11May without a year**;an [AMP category snapshot](https://www.olx.co.id/amp/alat-alat-musik_c217/q-stompbox-efek-gitar) instead says “Hari ini”. These relative dates do not establish freshness. Direct AMP retrieval returned cache miss.
+
+**Unresolved lead only:** no exact item URL/ID,seller,condition,stock,working state,revision,adapter,warranty,shipping/tax ordelivered total was recovered. The title describes a **Duo+TS7 bundle**,not a standalone Duo price;no price is allocated between its components. This non-Shopee category result is excluded from qualified hardware offers andnew/used ranges. Existing no-condition-qualified-Shopee findings remain unchanged. Next useful step is recovery of the exact item;repeated category snapshots alone will not qualify it.
+
+No seller contacted,purchase initiated,download ordevice operation. LCD-to-footswitch placement remains unresolved;this market lead adds no specification evidence.
