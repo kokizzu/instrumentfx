@@ -137318,5 +137318,14 @@
     "qualification": "Textonly;notvisualhardwareinspection. Historicaloutsideinventoryflags audited:explicitadmissionintro alreadyqualifies them,so unchanged.",
     "next": "Continue individualLCD gaps;independentGT-Pro cursor preserved.",
     "downloads": false
+  },
+  "gtpro_yosemite_boundary_20261101": {
+    "status": "explicitmanufacturer historicalOScompatibility;partial",
+    "source": "https://proav.roland.com/pt/support/support_news/1608101738/",
+    "destination": "BOSS.md#gt-pro--yosemite-hardware-and-application-status",
+    "finding": "OSX10.10 exactGT-Pro row:Hardware&Driver No,BundledApplication No.",
+    "qualification": "No row-specificdate/driverexplanation. NotmodernmacOS/Linux conclusion orstandaloneanalogfailure. No download/install/test.",
+    "priority": "LCD-first MKII census alreadycorrect;FenderNAM lead remainsunverified;independent generalGT-Pro cursor advanced.",
+    "next": "Continue LCD-first fresh primaryevidence;GT-Pro13vs15,otherUSBmodes,globalFVprecedence andqualifiedhardware stillopen."
   }
 }
