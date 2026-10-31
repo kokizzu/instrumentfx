@@ -5,10 +5,43 @@
 <!-- brand-index begins -->
 **Model and section index — A–Z, natural numeric order**
 
-- [Duo — partial LCD discovery](#duo--partial-lcd-discovery)
+- [Duo](#duo)
 <!-- brand-index ends -->
 
-## Duo — partial LCD discovery
+## Duo
+
+Admitted **2026-11-01** as an **active partial guitar/bass/voice processor**, not fully verified. Original Duo is distinct from Duo X/Dwarf. LCD technology is known, but one dedicated screen above each footswitch remains unverified. No ownership, current-stock or complete-library claim. Earlier outside-inventory statements below are preserved historical checkpoints.
+
+<!-- comparison evidence begins -->
+
+| Field | Evidence / qualification |
+|---|---|
+| Instrument scope | Own product explicitly names guitar, bass and voice with independent processing; normal instrument input, not special-pickup equipment. Voice support does not certify microphone gain, phantom power or every vocal algorithm. [Manufacturer](https://mod.audio/mod-duo/). |
+| Built-in / external / toe expression | No built-in treadle in documented panel. **No direct analog EXP port**, explicitly in own guide. MIDI converters/Control Chain adapters are separate hardware; toe support unknown. [Own guide](https://wiki.mod.audio/wiki/MOD_Duo_User_Guide). |
+| Expression / global volume | Requested direct analog path fails. Direct assignment, endpoints and recall N/A for absent port; MIDI/Control Chain global assignment, bypass, headphone, tail and looper coverage unknown. Calibration and saved plugin state do not establish global volume. [Audit](#duo--partial-lcd-discovery). |
+| Knobs / footswitches / buttons | **Two push knobs; two footswitches**. Separate-button census/visual corroboration remain unverified. One parameter assignment per footswitch; knobs can cycle several. [Own guide](https://wiki.mod.audio/wiki/MOD_Duo_User_Guide);[OS1.13 control scope](#duo--footswitch-assignments-and-snapshot-scope). |
+| Display | **Two LCDs**, technical page2.7in versus user guide2.8in. Color, touch and exact physical screen-to-foot placement unresolved; menus use left main/right submenu. LED colors are separate. [Conflict](#duo--partial-lcd-discovery);[LCD navigation](#duo--os-110-lcd-navigation-and-file-loading-scope). |
+| Dimensions / weight | Own product **180W×160D×74.7H mm;1.2kg** versus wiki **160W×186L×75H mm**. Both exceed preferred200W×140D. Revision/measurement basis unknown. [Full source conflict](#duo--manufacturer-product-page-dimensions-and-instrument-scope). |
+| Processing / simultaneous limits | Modular LV2/JACK host; plugin-dependent CPU/RAM, no verified fixed block ceiling. Two independent audio channels support split/join/feedback. Optional256-frame buffer trades latency for processing headroom; not guaranteed extra blocks. [Architecture](#duo--processing-architecture-and-resource-limits);[product](https://mod.audio/mod-duo/). |
+| Categories / choices | Manufacturer advertises over400 available free plugins spanning effects, amps, instruments and MIDI utilities. This is not a complete current category census, installed inventory or400 simultaneous algorithms. [Own product](https://mod.audio/mod-duo/). |
+| Preset memory | Saved pedalboards organized in banks; exact factory/user/total counts unknown. Snapshots store parameters inside boards; save the containing board after edits. Four I/O/MIDI profiles are not four preset slots;4GB/8GB flash disagreement is not preset capacity. [Settings](#device-settings--os-113-scope);[snapshots](#duo--footswitch-assignments-and-snapshot-scope). |
+| Synth / acoustic | MIDI-controlled virtual instruments advertised. This does not establish ordinary-pickup oscillator synthesis, polyphonic tracking or electric-to-acoustic simulation; exact compatible engines remain unverified. [Own product](https://mod.audio/mod-duo/). |
+| Audio I/O | Two independent TS1MΩ inputs; two balanced-compatible TRS outputs;6.35mm stereo phones. Technical page later calls all audio connectors TRS, conflicting with its explicit TS input list. Full connector dimensions and mic/phantom tolerance unknown. [Own specs](https://wiki.mod.audio/wiki/MOD_Duo_Technical_Specs). |
+| Headphones / levels | Phones monitor outputs1/2 or direct inputs, with independent volume. Technical phones+12…−33dB; main0…−127dB in0.5dB steps. These are hand-operated controls, not expression endpoints or proven mute coverage. [Guide](https://wiki.mod.audio/wiki/MOD_Duo_User_Guide);[specs](https://wiki.mod.audio/wiki/MOD_Duo_Technical_Specs). |
+| MIDI / USB / control ports | DIN5 MIDI In/Out; TypeA USB2 host,500mA peripheral-output rating; TypeB USB2 device for network editor/update; Control Chain RJ45 is not Ethernet. Bluetooth uses an adapter. USB audio and USB-powered operation remain unverified. [Own specs](https://wiki.mod.audio/wiki/MOD_Duo_Technical_Specs);[guide](https://wiki.mod.audio/wiki/MOD_Duo_User_Guide). |
+| Power | **12VDC centre-positive, supplied2A adapter**,5.5×2.1×10mm plug. Guide also prints12W/1.5A; arithmetic/source discrepancy retained, not measured draw. Adapter input100–240VAC50–60Hz. Battery/USB operation unknown. [Power qualification](#duo--partial-lcd-discovery);[product](https://mod.audio/mod-duo/). |
+| IR / loading | **User WAV/FLAC IR through Convolution Loader**, explicitly Duo-applicable;48kHz24bit WAV recommended. Duo maximum less than15s for Duo X/Dwarf, exact limit unknown; generic wiki2048-sample claim remains separately qualified. Multichannel files processed stereo. [Exact plugin evidence](#duo--plugin-specific-ir-import-and-tail-behavior). |
+| NAM / capture | Original-Duo native NAM, converted NAM, AIDA-X and capture playback remain unverified. File extension acceptance, upstream A1/A2 claims and build flags do not prove installed hardware compatibility. NAM recipe disables RTNeural; separate AIDA package. [Version/build evidence](#duo--manufacturer-nam-build-configuration-and-provenance). |
+| Editor / platforms | Built-in browser WebGUI via USB network; guide names Chrome/Safari/Firefox. Exact host minima/current OS compatibility unknown. Standalone playing after setup; browser editing distinct from updater, USB audio or Bluetooth streaming. [Own guide](https://wiki.mod.audio/wiki/MOD_Duo_User_Guide). |
+| Firmware / scope | OS1.13 settings and historical1.10/1.13.2 changes documented; current installed firmware/revision equivalence unknown. Developer clock912MHz versus technical1GHz and4GB versus8GB flash retained. [Resource conflict](#duo--processing-architecture-and-resource-limits);[file handling](#duo--neural-model-file-acceptance-versus-playback-compatibility). |
+| Looper / drums / live | Manufacturer advertises loopers, but exact compatible plugin duration, drum engine, retention and transition continuity unknown. With Foot Nav enabled,left previous/right next board; LCDs show adjacent names and LED blinks during loading. Chromatic tuner documented. [Guide](https://wiki.mod.audio/wiki/MOD_Duo_User_Guide);[navigation](#duo--os-110-lcd-navigation-and-file-loading-scope). |
+| Routing / bypass / tails | Physical input1→output1,input2→output2 bypass, enabled powered-off and disabled after board loads; independent channel bypass. Convolution Loader Trails controls its own bypass decay, not global volume/preset spillover. Headphone/loop bypass coverage unknown. [Device settings](#device-settings--os-113-scope);[plugin](#duo--plugin-specific-ir-import-and-tail-behavior). |
+| Used IDR | No exact condition-qualified Shopee Indonesia hardware ask established; unknown is not unavailable. |
+| New IDR | No exact condition-qualified Shopee Indonesia hardware ask established. No sibling price, currency conversion, discount or stock inferred. |
+
+<!-- comparison evidence ends -->
+
+### Duo — partial LCD discovery
 
 Checked **2026-11-01**; **partial lead outside active models and brand counts**. Original MOD Duo,not Duo X orDwarf. Manufacturer-hosted wiki documentation is evidence below;community forum specifications are not promoted. No ownership assertion.
 
