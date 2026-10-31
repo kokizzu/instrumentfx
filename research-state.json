@@ -129649,6 +129649,13 @@
       "revision": "7.x expressly coversMKII;pp11,46,86",
       "finding": "Tap/Hold label behavior and custom text;three-voice mono synth resolves olderunknown;selected own-model per-type ceilings.",
       "remaining": "Firmware13 equivalence,full current inventory,acoustic sim and auxiliary diagonal/color/touch unresolved."
+    },
+    "fm3_looper": {
+      "checked": "2026-10-31",
+      "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+      "revision": "June2023,pp50–51",
+      "finding": "FM3 explicitly120s maximum;stereo;separate playback/dry/overdub levels;requires preset Looper block.",
+      "remaining": "Speed/quality basis,firmware13,continuity,retention and global-volume attenuation unverified."
     }
   }
 }

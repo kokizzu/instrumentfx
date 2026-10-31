@@ -153,8 +153,12 @@ Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; origina
 | USB functions | **4×4 audio**, recording/reamping. **Not USB MIDI**: proprietary COMM for editor. Manual pp.24–25; [Product](https://www.fractalaudio.com/fm3/). Do not infer USB power. |
 | Editor platforms / drivers | Free **FM3-Edit Mac/Windows** full editor. Listed1.07.17,2026-08-25:macOS10.13+,Windows10+64bit; Windows7 unsupported. Windows editor depends on USB audio+serial drivers. Android/iOS/Linux editor unverified. [Editor](https://www.fractalaudio.com/fm3-edit/) |
 | Firmware / software revision | Downloads list **firmware13.0,2026-07-16**, compatible original/Turbo, requiring latest editor. Windows drivers listed2026-06-10:audio6.16/serial1.3; both needed. Factory presets2025-06-04 target10.00+. These listings do not verify installed firmware or every7.x manual feature against13.0. [Downloads](https://www.fractalaudio.com/fm3-downloads/) |
-| Practical features | Looper,tuner,programmable tap/hold footswitches,eight layouts; FASLINK II supports up to two FC6/FC12 controllers. Loop durations/drum machine unresolved. [Product](https://www.fractalaudio.com/fm3/) |
+| Practical features | Looper,tuner,programmable tap/hold footswitches,eight layouts; FASLINK II supports up to two FC6/FC12 controllers. [June2023 Blocks Guide pp50–51](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf) explicitly names FM3: **stereo looper,120s maximum**; speed/quality basis and firmware13 equivalence unverified. Undo/redo,reverse,one-shot,threshold recording,beat quantization and loop-end crossfade documented. Playback/Dry/Overdub levels are separate; playback filters do not affect recording. Drum machine remains unresolved. [Product](https://www.fractalaudio.com/fm3/) |
 | Bass capability | Manufacturer explicitly describes guitar/bass processing; shared bass model, not equal low-end performance certification. [Product](https://www.fractalaudio.com/fm3/) |
+
+### FM3 — looper scope, checked2026-10-31
+
+[Own7.x manual,p122](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf) requires a Looper block in the preset for its controller layout. A Looper footswitch layout alone does not add the audio block. [Manufacturer Blocks Guide,June2023,pp50–51](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf) supplies the revision-qualified120s maximum above; current speed/quality mapping,preset-change continuity,power-cycle retention and global expression attenuation remain unverified. No audio/device test or download.
 
 ### Separate IDR asking-price evidence
 
