@@ -129663,6 +129663,14 @@
       "revision": "7.x,pp2,111,118",
       "finding": "Broad format list differs from.syx transfer chapter;SYSTEM excludes presets/cabs;16scratchpads.",
       "remaining": "Direct per-format support,current firmware13 and rate/length limits unverified."
+    },
+    "fm3_block_inventory": {
+      "checked": "2026-10-31",
+      "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+      "revision": "7.x,p46",
+      "root": "FRACTAL-AUDIO.md#fm3--block-choice-and-instance-table",
+      "rows": 36,
+      "remaining": "Current firmware13 census and CPU concurrency unresolved."
     }
   }
 }

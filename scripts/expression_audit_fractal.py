@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(fractal): qualify FM3 IR import and backup scope'))
+    print(git('commit','-m','research(fractal): complete FM3 firmware7 block inventory'))

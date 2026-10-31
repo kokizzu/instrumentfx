@@ -145,7 +145,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; origina
 | Display / tap-hold labels | **7.x manual pp11,86:** normal mini-screen text describes Tap; pressing reveals Hold even before its action fires. Release restores Tap. Automatic/custom labels and a Reveal Hold function are documented. Separate ring colors do not establish mini-LCD color. Firmware13 behavior untested. [Own manual](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf) |
 | Dimensions / weight | **281W×236D×103H mm;3.22kg**. Large. Manual p.140. |
 | Power / battery / USB operation | **90–264VAC,47–63Hz,<40W**, grounded mains. CR2032 is backup memory battery, not operating battery. DC polarity/current not applicable to mains inlet; USB/battery operation unverified. Manual pp.24,140. |
-| Simultaneous blocks / categories | CPU-limited; **12×4 grid is not guaranteed48 effects**. Own7.x p46 documents per-type ceilings:one Amp/Cab/Pitch/Reverb/Synth/Looper;two Drive/Chorus/Delay;four Filter/Mixer. These are CPU-limited maxima,not a guaranteed simultaneous combination. Current firmware13 inventory unresolved. Manual pp.2,50. Current product lists300+ amp models; factory cabs2200+ and1024 user IR locations, not simultaneous blocks. [Product](https://www.fractalaudio.com/fm3/) |
+| Simultaneous blocks / categories | CPU-limited; **12×4 grid is not guaranteed48 effects**. Own7.x p46 documents per-type ceilings:one Amp/Cab/Pitch/Reverb/Synth/Looper;two Drive/Chorus/Delay;four Filter/Mixer. These are CPU-limited maxima,not a guaranteed simultaneous combination. [Complete own7.x table](#fm3--block-choice-and-instance-table) below;current firmware13 inventory unresolved. Manual pp.2,50. Current product lists300+ amp models; factory cabs2200+ and1024 user IR locations, not simultaneous blocks. [Product](https://www.fractalaudio.com/fm3/) |
 | Preset / factory / user memory | **512 editable locations;8 scenes each**. Factory-filled subset unresolved. Manual pp.2,9,49. |
 | Synth / acoustic functions | **Synth yes:three-voice monophonic Synth block**,one instance/four channels in own7.x p46; resolves the earlier synth unknown. Acoustic instrument input documented;dedicated acoustic simulation remains unverified. Channels are stored variations,not four simultaneous synth blocks. [Own manual](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf) |
 | IR / NAM / captures | **1024 user cab IRs**, UltraRes/DynaCab; DynaCab introduced firmware7. **7.x manual p2 lists.ir/.syx/.wav and16 scratchpads; p118 specifies.syx transfer and distinguishes.IR as Cab-Lab remix format**. Preserve summary/workflow distinction; direct support for every format,source rate/length limits and firmware13 equivalence unresolved. Native NAM, converted NAM and user amp capture import unverified. [Product](https://www.fractalaudio.com/fm3/) |
@@ -155,6 +155,51 @@ Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; origina
 | Firmware / software revision | Downloads list **firmware13.0,2026-07-16**, compatible original/Turbo, requiring latest editor. Windows drivers listed2026-06-10:audio6.16/serial1.3; both needed. Factory presets2025-06-04 target10.00+. These listings do not verify installed firmware or every7.x manual feature against13.0. [Downloads](https://www.fractalaudio.com/fm3-downloads/) |
 | Practical features | Looper,tuner,programmable tap/hold footswitches,eight layouts; FASLINK II supports up to two FC6/FC12 controllers. [June2023 Blocks Guide pp50–51](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf) explicitly names FM3: **stereo looper,120s maximum**; speed/quality basis and firmware13 equivalence unverified. Undo/redo,reverse,one-shot,threshold recording,beat quantization and loop-end crossfade documented. Playback/Dry/Overdub levels are separate; playback filters do not affect recording. Drum machine remains unresolved. [Product](https://www.fractalaudio.com/fm3/) |
 | Bass capability | Manufacturer explicitly describes guitar/bass processing; shared bass model, not equal low-end performance certification. [Product](https://www.fractalaudio.com/fm3/) |
+
+### FM3 — block choice and instance table
+
+Checked2026-10-31 against [own manual,p46](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf),expressly including MKII Turbo. **Types/instances**,not channels or summed simultaneous capacity. CPU limits still apply; firmware13 census pending. Every row of that inventory is retained:
+
+| Block | Types/instances |
+|---|---:|
+| Amp | 300+/1 |
+| Cab | 2237+/1 |
+| Chorus | 17/2 |
+| Compressor | 13/2 |
+| Delay | 25/2 |
+| Drive | 63+/2 |
+| Enhancer | 3/2 |
+| Filter | 15/4 |
+| Flanger | 31/2 |
+| Formant | 1/2 |
+| Gate/Expander | 1/2 |
+| Graphic EQ | 15/2 |
+| Input | 1/2 |
+| Looper | 1/1 |
+| Megatap | 1/1 |
+| Mixer | 1/4 |
+| Multi-Delay | 34/1 |
+| Multiband Comp | 1/1 |
+| Multiplexer | 1/2 |
+| Output | 1/2 |
+| Parametric EQ | 1/2 |
+| Phaser | 16/2 |
+| Pitch | 16/1 |
+| Plex Delay | 44/1 |
+| Resonator | 1/2 |
+| Return | 1/2 |
+| Reverb | 54/1 |
+| Ring Mod | 1/1 |
+| Rotary | 1/2 |
+| Scene MIDI | 1/1 |
+| Send | 1/2 |
+| Synth | 1/1 |
+| Ten-Tap Delay | 2/1 |
+| Tremolo | 4/2 |
+| Volume/Pan | 1/2 |
+| Wah | 8/2 |
+
+Controllers exists outside the grid. Differences from other revisions remain source-specific.
 
 ### FM3 — IR transfer and backup scope, checked2026-10-31
 
