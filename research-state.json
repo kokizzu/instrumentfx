@@ -130905,6 +130905,13 @@
       ],
       "finding": "Currentpage/offers repeatknownfacts;primaryguideinaccessible;no newLCDsize/looper/desktopminimum resolution",
       "next": "Seek exactprimaryevidence;do notborrow X5looper durations orold2013TonePrint minimums"
+    },
+    "g5n_tahoe_compatibility": {
+      "checked": "2026-11-01",
+      "source": "https://zoomcorp.com/ja/jp/news/macos_tahoe/",
+      "publication": "2026-01-23; status as of January2026",
+      "finding": "G5n and Guitar Lab marked compatible in both Apple Silicon and Intel CPU macOS Tahoe26 matrices.",
+      "limits": "Not binary architecture or separate firmware-updater certification. USB audio channel count, battery/bus operation and physical button/display gaps remain unresolved; no software downloaded or tested."
     }
   },
   "gt_pro_global_patch_level_20261031": {
