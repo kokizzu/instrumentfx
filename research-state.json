@@ -129473,7 +129473,14 @@
       "source": "https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf",
       "revision": "V2.0, printed pp3–5",
       "finding": "Four display/knob/footswitch units plus separate Overview Display.",
-      "scope": "Existing model; no inventory admission or visual inspection."
+      "scope": "Existing model; no inventory admission or visual inspection.",
+      "lcd_technology": {
+        "checked": "2026-10-31",
+        "source": "https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf",
+        "page": 58,
+        "finding": "4x128x32LCDplus256x32OverviewLCD;collectionmovedfromunconfirmedtechnologytoconfirmedLCD.",
+        "remaining": "Diagonal/color/touch,totalfootcontrols/currentlibraryunresolved."
+      }
     },
     "zoom_g11": {
       "checked": "2026-10-31",
@@ -129966,7 +129973,6 @@
       "checked": "2026-10-31",
       "instruction": "Prioritize one with LCD on footswitch first",
       "next_models": [
-        "Zoom G5n",
         "Zoom G11",
         "TC Electronic PLETHORA X3"
       ],

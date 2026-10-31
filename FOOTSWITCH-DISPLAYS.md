@@ -28,6 +28,7 @@ Research these LCD matches before OLED, shared-screen and unconfirmed-technology
 | Zoom **G3X** | **Three individual backlit LCD panels**, each paired with effect footswitch and knobs | [Exact original G3X record](ZOOM.md#g3x). Built-in treadle; distinct from G3Xn. |
 | Zoom **G3Xn** | **Three individual LCD effect units**, each with four knobs and footswitch | [Exact G3Xn record](ZOOM.md#g3xn). Shared manual covers this treadle-equipped model; do not transfer G3n external EXP socket. |
 | Zoom **G11** | **Five effect LCD panels**, plus separate amplifier LCD and5-inch main touchscreen | [V2 manual-backed record](ZOOM.md#g11). Five effect switches are separate from navigation switches; longer chains scroll across the panels. |
+| Zoom **G5n** | **Four individual128×32 dot-matrix LCD Unit Displays**, each paired with an effect footswitch; separate256×32 Overview LCD | [V2 manual-backed record](ZOOM.md#g5n). Ownmanualp58 explicitly identifies LCD technology;diagonal/color/touch and total navigation-switch count remain unresolved. |
 
 ### Individual OLEDs at effect footswitches — secondary priority
 
@@ -46,7 +47,6 @@ Separate displays are documented, but the evidence summarized here does not esta
 | Brand / model | Display-layout status | Record / next check |
 |---|---|---|
 | Zoom **G5** | **Four individual backlit effect displays**, each with dedicated footswitch and knobs | [Exact original G5 record](ZOOM.md#g5). Separate from G5n; display diagonal/color/touch remain unverified. |
-| Zoom **G5n** | **Four individual Unit Displays**, each paired with an effect footswitch; separate Overview Display | [V2 manual-backed record](ZOOM.md#g5n). Four screens do not count every navigation switch; other Zoom models need their own evidence. |
 
 ### Displays shared by groups of effect switches
 

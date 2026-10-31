@@ -22,5 +22,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): verify G3Xn individual LCD contrast range'
+        message='docs(zoom): classify G5n as confirmed individual LCD processor'
     print(git('commit','-m',message))

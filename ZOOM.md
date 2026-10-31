@@ -3564,6 +3564,12 @@ USB channel count, AUX-to-recording routing, dry recording, loopback and reampin
 | Looper / phrase lifetime and quantization | Switching to MEMORY mode preserves recording/playback. **Changing patches stops and deletes the phrase**. With rhythm playing, recording follows the precount and its ending is quantized. **Changing rhythm tempo during loop playback erases the phrase**. This is not persistent loop storage. [Own manual p42](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf). |
 | Drums / mode and patch changes | Rhythm continues across STOMP/MEMORY mode changes but **stops on patch change**. Tempo spans **40–250 bpm**, volume **0–100**; shared tempo does not override the effect synchronization prerequisite above. [Own manual pp39–40](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf). |
 
+### G5n — confirmed LCD technology and separate overview
+
+Checked **2026-10-31** against indexed [manufacturer V2 manual,p58](https://zoomcorp.com/media/documents/E_G5n-V2.0.pdf):**four128×32 dot-matrix LCDs plus one256×32 dot-matrix LCD**. Together with pp3–5’s Unit/Overview identification,this resolves LCD technology for the collection’s individual-screen group;the Overview is not another effect footswitch. Earlier collection placement under unconfirmed technology was too cautious and is corrected.
+
+Resolution does not establish diagonal,monochrome/color or touch. Nine-effect processing and DSP limits remain separate from the four visible effect units. Existing1–13contrast evidence is retained;no new visual inspection,download or device operation.
+
 ## G6
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
