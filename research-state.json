@@ -130655,7 +130655,7 @@
         "Fender Tone Master Pro"
       ],
       "then": "Remaining confirmed individual-LCD processors in FOOTSWITCH-DISPLAYS.md; controllers separate.",
-      "next_check": "Zoom B3n: remaining exact-model LCD/control, volume-coverage and qualified Indonesia hardware evidence; preserve independent BOSS GT-Pro cursor. G11 large-effect LCD behavior saved; no full physical verification claimed.",
+      "next_check": "Review fresh LCD-model discovery and unresolved MELOFTY AXOM MAX screen technology next. Avoid recycling completed confirmed-LCD documentation passes without new evidence. Preserve no-treadle Ampero Mini/Nano Cortex tasks and independent BOSS GT-Pro cursor.",
       "criteria": [
         "normal guitar pickups",
         "direct analog external expression volume across all presets without individual editing",
@@ -133318,6 +133318,11 @@
       "file": "ZOOM.md",
       "model": "G11",
       "heading": "### G11 — large-effect LCD layout and special switch functions"
+    },
+    {
+      "file": "ZOOM.md",
+      "model": "B3n",
+      "heading": "### B3n — storefront-only leads excluded from exact-item prices"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -133534,6 +133539,28 @@
     "pages": "23,28–29",
     "finding": "Large-effect layout, special switch indication and default save behavior recorded in the root profile.",
     "remaining": "Full visual control census, auxiliary LCD properties, expression coverage and qualified live offers remain open.",
+    "downloads": false,
+    "hardware_test": false
+  },
+  "b3n_storefront_leads_recheck_20261101": {
+    "model": "B3n",
+    "checked": "2026-11-01",
+    "leads": [
+      {
+        "url": "https://shopee.co.id/mmmusicstore",
+        "ask_idr": 2500000,
+        "access": "Two-month search snapshot; newer three-week direct storefront omits item.",
+        "exact_item": null
+      },
+      {
+        "url": "https://shopee.co.id/mr.baron87",
+        "ask_idr": 2200000,
+        "access": "Four-month search snapshot; direct cache miss.",
+        "exact_item": null
+      }
+    ],
+    "status": "Discovery only; excluded from comparison prices and verified-model status.",
+    "technical_check": "No new primary evidence resolves USB audio, OutputVP insertion/range/coverage or full switch totals. Catalogue direct reader still rejects29578666bytes; third-party forum claims not adopted.",
     "downloads": false,
     "hardware_test": false
   }

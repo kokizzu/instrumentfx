@@ -2125,6 +2125,16 @@ Checked2026-10-31: [shop65245619/item17399777546](https://shopee.co.id/Efek-Peda
 
 OutputVP-specific insertion,range andcoverage searches still found no manufacturer instruction resolving all-preset assignment. Existing qualified volume findings remain unchanged. No local download ordevice operation.
 
+### B3n — storefront-only leads excluded from exact-item prices
+
+Checked **2026-11-01**. These are discovery leads, outside comparison prices.
+
+- [MMmusicstore](https://shopee.co.id/mmmusicstore): two-month search snapshot lists B3n at **Rp2.500.000**; newer direct storefront text, crawled three weeks ago, omits it. No exact item recovered; omission does not prove sold out.
+- [Jatinangor Music Store](https://shopee.co.id/mr.baron87): four-month search snapshot lists B3N at **Rp2.200.000**, with two sold. Direct retrieval failed. Sales counter is not current stock.
+
+Both lack exact hardware-item IDs, current condition, revision, bundle, adapter, warranty, voucher eligibility and checkout evidence. Storefront-wide condition statements are not item-specific evidence. Existing qualified offers remain unchanged. No seller contacted or purchase attempted.
+
+
 ## B6
 
 Bass multi-effects; large body, external-only expression. Consolidated and refreshed 2026-10-16; partial. All 15 legacy model fields below retain the original 2026-10-14 observation date. New manual details and IDR evidence are dated separately.
