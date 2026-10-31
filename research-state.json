@@ -137128,5 +137128,16 @@
     ],
     "next": "Continue individualLCD models;original FM3 early headphone hardware andexact-revision Shopee offers still unresolved.",
     "downloads": false
+  },
+  "tonex_board_product_conflicts_20261101": {
+    "status": "partial;outside active counts",
+    "sources": [
+      "https://ikmultimedia.com/en-us/products/tonexboard",
+      "https://ikmultimedia.com/en-us/blogs/news/ik-launches-tonex-board"
+    ],
+    "destination": "IK-MULTIMEDIA.md#tonex-board--accessible-product-specifications-and-conflicts",
+    "reason": "LCD discovery lead checked;manufacturer page newly accessible. Exact control,bank allocation andslot-scope conflicts retained;individual strips not established.",
+    "next": "Own manual andexact Shopee hardware evidence;confirmed individual-LCD processors retain priority.",
+    "technical_retirement_recheck": "99 technical sources/99 retired;all original headings/root destinations and2 incoming link occurrences passed"
   }
 }

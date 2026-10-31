@@ -54,6 +54,14 @@ Checked **2026-10-31**. Distinct from TONEX ONE/Pedal; **outside active inventor
 
 Exact Shopee search surfaced sibling products andsoftware,not a qualified Board item. IDR,new/used,stock,bundle,dimensions,mass,power,preset allocation,expression ranges/recall,looper/drums,editor OS minima andscreen-strip technology remain unverified. Linked exact product page returned cache miss. No downloads,installation ordevice operation.
 
+### TONEX Board — accessible product specifications and conflicts
+
+Checked **2026-11-01**. The [exact manufacturer product page](https://ikmultimedia.com/en-us/products/tonexboard) now opens. It specifies five encoders and four LED-equipped footswitches beside the5-inch color touchscreen; individual switch LCDs remain unconfirmed. Five encoders conflict with the launch announcement’s six push-rotaries; do not silently reconcile these counts.
+
+The page claims1,440 presets across12 setlists and60 three-preset banks. If60 banks applies per setlist,the arithmetic gives2,160;bank allocation remains unresolved. It also says12 effect slots **per chain**,versus the announcement’s12 total:simultaneous capacity needs the own manual. Published body dimensions235×184×72mm andmass1.6kg are exact-model claims;axis labels await confirmation.
+
+Two EXP/EXT inputs anddedicated headphones do not establish global expression-volume scope. USB audio is now presented as available,without a firmware prerequisite;the earlier future-update qualification remains historical anddelivery is untested. No new Shopee offer orindividual-LCD classification is established. This stays outside active counts.
+
 ## TONEX ONE
 
 Standard TONEX ONE guitar/bass processor, not TONEX ONE+, Bass Edition or an artist variant. Consolidated and partially refreshed **2026-10-17**; no additional active model.
