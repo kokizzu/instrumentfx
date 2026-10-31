@@ -313,7 +313,7 @@ Checked **2026-10-17**. Original Helix Floor; distinct from LT,Rack and Stadium.
 | IR / NAM / capture | User IRs supported;older manufacturer FAQ **128 slots, 1024/2048 points, up to 4 simultaneous DSP-permitting**. Native NAM, converted NAM, proprietary capture loading **?**;Stadium Proxy not inferred. [FAQ][HF-Q] |
 | Audio/control I/O | Guitar/active-instrument AUX;XLR mic with 48 V;4 send/return pairs;stereo XLR and¼″TS mains;stereo phones;VDI;EXP2/3;ExtAmpTRS;CV/EXPout;DIN MIDI in/out-thru;RCA S/PDIF in/out;AES/EBU/L6 LINK out;USB;groundedAC. Exact remaining jack types/USB connector pending manual. [Cheat sheet][HF-S], [Floor product][HF-P] |
 | Power / battery / USB | Grounded AC in confirmed;voltage/frequency/current **?**. DC polarity N/A. Battery/USB-powered operation **?**;USB interface does not prove bus power. [Cheat sheet][HF-S] |
-| Editor / USB audio | **HX Edit** editor distinct from Helix Native plugin/updater;Mac/Windows documented; exact current OS versions **?**. **8-in/8-out,24-bit/up to 96 kHz**,DI/reamp/MIDI;iPad with camera adapter. [Cheat sheet][HF-S], [Floor product][HF-P], [Software][HF-D] |
+| Editor / USB audio | **HX Edit** editor distinct from Helix Native plugin/updater;Mac/Windows documented; Listing checked2026-10-31: **HX Edit3.82,2024-12-03**,Windows10/11;Mac labels include Catalina,BigSur,Monterey,Ventura,Sonoma,Sequoia,Tahoe plus generic MacOSX and “Golden Gate”;these labels are not a tested minimum-version matrix. Hardware listing **3.80.0,2024-11-19**,not editor3.82. [Current listing][HF-DS]. **8-in/8-out,24-bit/up to 96 kHz**,DI/reamp/MIDI;iPad with camera adapter. [Cheat sheet][HF-S], [Floor product][HF-P], [Software][HF-D] |
 | Looper / snapshots / routing | One looper per preset. Manufacturer KB gives **60 s mono/30 s stereo at full speed**, doubled at half speed. Across presets, KB requires matching mono/stereo type, path and footswitch assignment; indexed Floor manual additionally specifies matching 6 Switch/1 Switch/Shuffle model. Shuffle has no half-speed extension. Retention and drums **?**. [Looper KB][HF-L], [Indexed Floor manual][HF-M0] 8snapshots;true preset spillover uses only 2 paths per current product. Mic processing supports vocal membership; intelligent vocal harmony is unverified. [FAQ][HF-Q], [Floor product][HF-P] |
 
 ### Helix Floor — separate IDR offers
@@ -352,6 +352,18 @@ The original Floor manual at a separate 3.0-named URL was also too large for dir
 
 [HF-L]: https://kb.line6.com/the-helix-looper
 [HF-M0]: https://line6.com/data/6/0a00050b287e6643b71cda93a/application/pdf/Helix%203.0%20Owner%27s%20Manual%20-%20English%20.pdf
+
+### Helix Floor — display and editor follow-up
+
+Checked **2026-10-31**. [Manufacturer software listing][HF-DS] records the historical2.80 pedal-position indicator: EXP strip shows0–100%,with Temporary/Persistent visibility. This supports a distinct pedal readout; it does not establish global volume assignment,screen diagonal,color or touch.
+
+The same listing says HX Edit3.81 (2024-11-20) fixes Apple-silicon global-settings backup restoration;3.82 adds graphics updates. The [3.80 release article][HF-RN] still carries the older3.80 warning despite now linking3.82. Preserve the version-specific distinction. No app,firmware,reset or device operation was performed.
+
+Original2.0 RevC manual also exceeds reader limit (12,183,388bytes);no download. Full3.80 manual review and visual strip count remain pending.
+
+[HF-DS]: https://line6.com/software/index.html?hardware=Helix&locale=de_DE&name=All&submit_form=set
+[HF-RN]: https://line6.com/support/page/kb/effects-controllers/helix/helixhx-380-release-notes-r1079/
+
 
 ## Helix LT
 

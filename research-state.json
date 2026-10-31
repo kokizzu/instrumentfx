@@ -129414,6 +129414,12 @@
         "revision": "3.80,RevG,indexedp8",
         "finding": "Manual13total plus explicit EXPpedalstrip; cheatFS1–12 supports12+1 accounting.",
         "qualification": "Text-based reconciliation; no visual count; manufacturer wording conflict retained. Direct reader size limit."
+      },
+      "editor_and_exp_readout": {
+        "checked": "2026-10-31",
+        "source": "https://line6.com/software/index.html?hardware=Helix&locale=de_DE&name=All&submit_form=set",
+        "finding": "Firmware3.80.0 distinct from HXEdit3.82;3.81 Apple-silicon backup fix;historical2.80 EXP strip0–100% Temporary/Persistent supports separate pedal readout.",
+        "remaining": "Generic and unusual OS labels not a tested matrix;full3.80 manual/visual count/current category inventory unresolved;RevC also reader size limit."
       }
     },
     "stadium_xl": {
