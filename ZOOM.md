@@ -4609,6 +4609,15 @@ Checked **2026-11-01** against original text in the [manufacturer V2 manual](htt
 
 No local download,visual inspection ordevice operation. Earlier offers andcontrol/display qualifications remain independent.
 
+
+### G11 — mobile-editor OS and firmware requirements
+
+Checked **2026-11-01**. [Zoom’s January22,2026 compatibility matrix](https://zoomcorp.com/ja/jp/news/ios26compatibility/) marks **Handy Guitar Lab for G11 compatible with both iOS26 and iPadOS26**, separately from its hardware rows. This is manufacturer-declared compatibility,not a local test or universal future-OS guarantee.
+
+The [ZOOM Corporation Indonesian App Store listing](https://apps.apple.com/id/app/handy-guitar-lab-for-g11/id1522240439) lists **version1.2.0,December24,2021**, **iOS13.0+**,and explicit support for **G11 System2.00**. Its retrieved compatibility section does not separately publish an iPadOS minimum;the manufacturer’s iPad support and26 matrix remain the evidence for that platform. App version and hardware firmware are different numbers.
+
+[Zoom’s original October10,2020 announcement](https://zoomcorp.com/en/us/news/zoom-announces-handy-gl-app-g11-available-app-store/) required firmware**1.20** for the launch app. Preserve this historical requirement rather than replacing it with the later app’s2.00 support statement. All wireless editing requires the separately sold **BTA-1**. [Current manufacturer app page](https://zoomcorp.com/en/gb/software-product-page/software-sub-cat/handy-guitar-lab-for-g11/) includes tone,bank,patch,system editing andwireless IR import;this does not prove Bluetooth audio streaming,native NAM or across-preset volume assignment. No app installed orhardware operated.
+
 <!-- comparison evidence ends -->
 
 ### G11 — complete original finding and unresolved control-count conflict

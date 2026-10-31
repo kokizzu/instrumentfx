@@ -133634,6 +133634,11 @@
       "file": "FRACTAL-AUDIO.md",
       "model": "FM3 MKII Turbo",
       "heading": "### FM3 MKII Turbo — local pedal and switch socket modes"
+    },
+    {
+      "file": "ZOOM.md",
+      "model": "G11",
+      "heading": "### G11 — mobile-editor OS and firmware requirements"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -134698,5 +134703,17 @@
     "expression": "10–100k linear TRS; calibration separate from global assignment",
     "switches": "Tip-sleeve/ring-sleeve; single mode disables ring; follow hardware/virtual toggle; normal make/reverse break",
     "remaining": "Specific toe compatibility, global endpoints/recall andfirmware13 behavior unknown"
+  },
+  "g11_mobile_editor_20261101": {
+    "sources": [
+      "https://zoomcorp.com/ja/jp/news/ios26compatibility/",
+      "https://apps.apple.com/id/app/handy-guitar-lab-for-g11/id1522240439",
+      "https://zoomcorp.com/en/us/news/zoom-announces-handy-gl-app-g11-available-app-store/",
+      "https://zoomcorp.com/en/gb/software-product-page/software-sub-cat/handy-guitar-lab-for-g11/"
+    ],
+    "app": "1.2.0 dated2021-12-24;explicitG11System2.00 support",
+    "os": "iOS13.0+ AppStore;manufacturer January2026 matrix confirmsiOS26/iPadOS26;no separateiPadOS minimum inretrievedlisting",
+    "historical": "Launch2020-10-10 requiredfirmware1.20;preservedseparately",
+    "boundary": "BTA-1required;wireless IR/editing notBluetooth audio,NAM orglobal volume;noinstallation"
   }
 }
