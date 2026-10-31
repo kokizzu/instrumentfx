@@ -129501,6 +129501,77 @@
         "pages": "7,18–19",
         "finding": "Master−infinity…+6dB,center0dB;patch retention;ECOdefaultON.",
         "qualification": "Master knob not EXP assignment;panel screenshot returned no inspectable image,rotary count remains unresolved."
+      },
+      "partial_category_census": {
+        "checked": "2026-10-31",
+        "source": "https://zoomcorp.com/media/documents/E_G11v2_FX-list.pdf",
+        "revision": "V2,2021,Z2I-4037-02",
+        "entries": {
+          "Pedal": [
+            "PDL Vol",
+            "BlackWah",
+            "ChromeWah",
+            "WAH100",
+            "PDL Pitch",
+            "PDL MnPit",
+            "PDL Vibe",
+            "PDL Drive",
+            "PDL PHSR",
+            "PDL Delay",
+            "PDL Rev",
+            "OSC Echo",
+            "VoiceWah",
+            "PDL Roto",
+            "P-BitCRSH",
+            "PDL FLNGR",
+            "BassWah",
+            "PDL Reso",
+            "Ba PDLPit",
+            "Ba PDLMnP",
+            "Output VP"
+          ],
+          "SendReturn": [
+            "FxLoop 1",
+            "FxLoop 2",
+            "St.FxLoop",
+            "Send 1",
+            "Send 2",
+            "St.Send",
+            "Return 1",
+            "Return 2",
+            "St.Return"
+          ],
+          "Reverb": [
+            "Air",
+            "Room",
+            "BrghtRoom",
+            "Hall",
+            "BrghtHall",
+            "HD Hall",
+            "Spring",
+            "FD Spring",
+            "Plate",
+            "EarlyRef",
+            "SpaceHole",
+            "Church",
+            "Ambience",
+            "ParticleR",
+            "Chamber",
+            "GateRev",
+            "HoldVerb"
+          ],
+          "IR": [
+            "IR"
+          ]
+        },
+        "counts": {
+          "Pedal": 21,
+          "SendReturn": 9,
+          "Reverb": 17,
+          "IR": 1
+        },
+        "finding": "PDLVolMinMax0–100curvesAB;OutputVPrecallnotuniversalassignment;monopitchsingle-note.",
+        "remaining": "Othercategories/postV2currentinventory,globalvolumeoutputcoverageandphysicaldisplaygaps."
       }
     },
     "zoom_g3": {
@@ -129973,8 +130044,8 @@
       "checked": "2026-10-31",
       "instruction": "Prioritize one with LCD on footswitch first",
       "next_models": [
-        "Zoom G11",
-        "TC Electronic PLETHORA X3"
+        "TC Electronic PLETHORA X3",
+        "Zoom G11 remaining V2 categories"
       ],
       "task": "Continue unresolved exact-model documentation and qualified hardware offers for individual LCD processors before OLED models. Retain the independent BOSS GT-Pro cursor.",
       "qualification": "Queue order is a research priority, not a recommendation or declaration of full verification.",

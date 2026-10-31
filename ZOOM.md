@@ -3718,7 +3718,7 @@ Guitar and bass multi-effects; large; built-in expression. Specifications below 
 | Display / independent adjustments | V2 manual **p97** separates touchscreen brightness from **contrast controls for LCD1–5 and AMP**. Dragging controls adjusts these separately; numeric ranges are not supplied in the text. Contrast adjustment does not establish monochrome/color, touch or auxiliary diagonal. **p98 ECO mode** optionally powers off after10 unused hours; not display-only sleep. **p18 explicitly establishes defaultON**,resolving the earlier default uncertainty. Checked2026-10-31, text only. [Own manual](https://zoomcorp.com/documents/461/E_G11v2.pdf) |
 | Dimensions / weight | **495 W ×253 D ×64 H mm;2.8 kg**. Large by the project's size bins. Pedal-up maximum height and cable clearance are additional/unverified. [G11-M p.104] |
 | Simultaneous processing | Specification: **one amplifier plus nine effects**, DSP-limited. Operation pp.26,32 also describes up to ten freely combined effects; preserve that wording rather than assuming ten arbitrary high-load engines or unlimited duplicate amps. Overflow bypasses the excess effect. [G11-M] |
-| Categories / choices | V2 effect list: Dynamics, Filter, Drive, Amp, Cabinet, Modulation, SFX, Delay, Reverb, Pedal, Send/Return and IR. The preserved2026-10-15 V2-list finding records **15 Dynamics choices**; remaining current per-category subtotals remain unverified. This historical count is not a reconciled installed-library census. V2 added one guitar amp, nine bass amps and57 bass effects; additional OverDrive, BitCrush and DynaDelay were distributed in2025–2026. Do not sum the site's overlapping/launch-era totals as a current installed inventory. [G11-E,G11-F,G11-P] |
+| Categories / choices | V2 effect list: Dynamics, Filter, Drive, Amp, Cabinet, Modulation, SFX, Delay, Reverb, Pedal, Send/Return and IR. The preserved2026-10-15 V2-list finding records **15 Dynamics choices**; Additional V2 table-entry counts checked2026-10-31:**Reverb17,Pedal21,Send/Return9,IR1**;see [partial census](ZOOM.md#g11--partial-v2-category-census-and-volume-controls). Remaining/current subtotals remain unverified. This historical count is not a reconciled installed-library census. V2 added one guitar amp, nine bass amps and57 bass effects; additional OverDrive, BitCrush and DynaDelay were distributed in2025–2026. Do not sum the site's overlapping/launch-era totals as a current installed inventory. [G11-E,G11-F,G11-P] |
 | Presets / user memory | **500 editable patch memories,125 banks×4** in V2. This replaces the earlier240 total. Factory-filled subset is not established;500 is not500 factory plus500 user. The V2 release added200 supplied patches. [G11-M pp.4,8,104; G11-F] |
 | Synth | **Yes:** Z-Syn, BaStdSyn and BaSynTlk bass-synth algorithms in the V2 SFX list. Their documented bass purpose is retained, not asserted to be unrestricted polyphonic guitar synthesis. [G11-E p.32] |
 | Electric-to-acoustic simulation | **Yes: Aco.Sim**, specifically described as converting an electric guitar's tone toward acoustic guitar, in the Drive category. Not merely an acoustic amp or body IR. [G11-E p.9] |
@@ -3760,6 +3760,23 @@ These are individual asking observations, not completed-sale statistics or an ac
 [G11-I] [Official Handy Guitar Lab announcement](https://zoomcorp.com/en/ca/news/zoom-announces-handy-gl-app-g11-available-app-store/), iOS/iPadOS editing and optional Bluetooth adapter requirement.
 
 [G11-UK] [Official UK product/status page](https://zoomcorp.com/en/gb/multi-effects/guitar-effects/g11/).
+
+### G11 — partial V2 category census and volume controls
+
+Checked **2026-10-31**,[own V2 Effects List](https://zoomcorp.com/media/documents/E_G11v2_FX-list.pdf),©2021,Z2I-4037-02. Counts are named table entries,not simultaneous instances or installed-current totals.
+
+| Category | Entries | Printed pages |
+|---|---:|---|
+| Reverb |17|35–37|
+| Pedal |21|38–40|
+| Send/Return |9|40–41|
+| IR |1|42|
+
+**Categories / count qualification:** Pedal includes Output VP;Send/Return counts mono1/2 and stereo variants separately. One IR entry is a processing type,not one file location. Remaining categories and post-V2 additions still need reconciliation.
+
+**Expression / volume distinction:** PDL Vol providesVOL/Min/Max0–100 and curvesA/B. Output VP controls product output and retains volume across patch changes,but lists no parameters. This does not establish automatic assignment across every preset or bypass/phones/tail/loop coverage. PDL MnPit andBa PDLMnP explicitly require single-note playing.
+
+Text-only review;no download or hardware operation.
 
 <!-- comparison evidence ends -->
 
