@@ -380,3 +380,19 @@ Checked **2026-10-31**, [manufacturer Model Guide1.2.55,RevB](https://manuals.pl
 | IR / historical microphones | **Seven:** Condenser C414,Condenser M23,Dynamic MD421,Ribbon R121,Dynamic RE20,Dynamic SM7B,Dynamic SM57. Microphone selection is not another effect block. |
 
 “Freeman” is retained as this guide’s name;later Forge renaming does not create an extra model. Counts do not replace current6000/20,000capture claims or establish current cabinet totals,userIR limits orinstalled contents. No downloads orhardware test.
+
+### Tone Master Pro — historical amplifier-description census
+
+Checked **2026-10-31** in the [manufacturer Model Guide 1.2.55, Rev B](https://manuals.plus/m/d661a03ee5f2fdaec47d00be1862b903155245a8345018b802c063be4985be26), printed pp2–14. Original-document identity is established above.
+
+| Guide section | Named descriptions | Complete entries |
+|---|---:|---|
+| Combo amps, pp2–7 |12|Fender ’59 Bassman; ’65 Princeton Reverb; ’65 Deluxe Reverb; ’65 Twin Reverb; ’65 Super Reverb; Vibro-King; Blues Junior; Bassbreaker; UK30 Normal; UK30 Brilliant; JC Clean; Marksman CH1|
+| Half stacks, pp8–13 |12|British Plexi; British800; British Jubilee Clean; British Jubilee Rhythm; British Jubilee Lead; FBE100; EVH5150IIIS6L6 Green; Blue; Red; Marksman CH2; Double Wreck; Uber|
+| Head-only preamps, p14 |3|Studio Preamp; Tube Preamp; Fender Acoustasonic|
+
+| Field | Counting boundary |
+|---|---|
+| Categories / historical amp descriptions | **12+12+3=27 named descriptions**, not an exact selectable-version count. Bassbreaker’s description specifies three versions: low, medium and high gain. Combo/half-stack models also have head-only versions. Paired cabinets and alternate presentations are not automatically additional independent amp algorithms. |
+
+Retain historical FBE100 naming; later Forge renaming is separately documented. This does not establish current amp totals, concurrency or installed contents. No downloads or hardware test.

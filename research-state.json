@@ -131736,5 +131736,21 @@
     "qualification": "Fullnamedcabsectionread;collectionsnotindividualIRcapturesoruserslots;Freeman/Forge historicalrename notnewmodel",
     "remaining": "CurrentGuideH cabinet/effect/ampcensus,userIRformats/capacity andglobalEXPcoverage",
     "next": "ContinueLCDpriority;BOSS GT-Pro independentcursor retained"
+  },
+  "tone_master_historical_amp_descriptions_20261031": {
+    "checked": "2026-10-31",
+    "record": "FENDER.md#tone-master-pro--historical-amplifier-description-census",
+    "source": "https://manuals.plus/m/d661a03ee5f2fdaec47d00be1862b903155245a8345018b802c063be4985be26",
+    "revision": "1.2.55 RevB",
+    "pages": "2–14",
+    "named_descriptions": {
+      "combo": 12,
+      "half_stack": 12,
+      "head_only": 3
+    },
+    "total_descriptions": 27,
+    "qualification": "Description headings,not exactselectableversions. Bassbreaker3gainversions;combo/halfstackalsoheadversions;pairedcabsnotindependentamps",
+    "remaining": "CurrentGuideH totals,exactvariantcounts/concurrency,IRlimits andglobalEXPscope",
+    "next": "Historicalguidecategorybaseline recorded;continueLCDfirst gaps andexactoffers;independent BOSS GT-Pro cursor retained"
   }
 }
