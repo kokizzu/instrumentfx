@@ -367,7 +367,7 @@ Checked **2026-10-31** in the [manufacturer3.80 model tables](https://line6.com/
 |---|---|
 | Category choices / amp-cab | **111 amps plusone mic preamp;87cabinet rows**. Amp channels count as separate named choices;cab Single/Dual forms are not doubled. Same-named current/Legacy cabinet rows remain separate engine choices,not necessarily different physical cabinets. No added preamp-only duplicate of every amp is inferred. [Tables](https://line6.com/helix-models/). |
 | Processing / microphone distinction | [Manufacturer3.50 release notes](https://kb.line6.com/helix-3-50-release-notes),explicitly including Floor,document **12mic choices for guitar cabs and12for bass cabs**,with differing,overlapping lists;not24unique mics. The earlier16-mic KB headline remains historical andis not substituted for either new-engine set. Own3.80 manual now confirms12per set;[exact lists](#helix-floor--380-microphone-choice-lists) retain separate Legacy scope. |
-| Processing / cab controls | Same3.50 notes give mic distance **1–12inches in¼-inch steps**,angle **0°/45°**,andlateral position. Dual Cab linking defaults ON;disabling it permits independently chosen cabs. These are cab parameters,not extra effects blocks oronboard capture capability. |
+| Processing / cab controls | Same3.50 notes give mic distance **1–12inches in¼-inch steps**,angle **0°/45°**,andlateral position. Those3.50 notes say Dual Cab linking defaults ON;own3.80 manualp69 instead says **OFF by default**. Preserve revision discrepancy;[current manual qualification](#helix-floor--380-navigation-lcd-readouts-and-cab-default-conflict). These are cab parameters,not extra effects blocks oronboard capture capability. |
 
 Together with the separate274-effect/three-looper census,this resolves published model-table counting,not installed content orDSP-guaranteed concurrency. Power,factory occupancy andremaining LCD specifications remain open. No local download ordevice operation.
 
@@ -429,6 +429,19 @@ Checked **2026-10-31**,original [3.80 RevG manual reproduction,pp73–77](https:
 | USB / playback and reamp | Default Multi routing sends **computer→Helix1/2** directly toXLR,quarter-inch andphones,without amp/effects processing. Reamp example instead sends DI to3/4 andselects that pair as preset input. These routes do not establish pedal attenuation ofcomputer playback. |
 
 No driver installation,download,recording orhardware operation.
+
+
+### Helix Floor — 3.80 navigation, LCD readouts and cab-default conflict
+
+Checked **2026-10-31**,[original3.80 RevG manual reproduction,pp69,71–72](https://www.scribd.com/document/812017479/Helix-3-80-Owner-s-Manual-English);identity established above.
+
+| Field | Documented behavior / qualification |
+|---|---|
+| Display / TAP readout | TAP’s strip can show BPM temporarily orpersistently instead ofTAP. The separate pedal strip shows0–100% position temporarily/persistently. Readouts do not establish global volume assignment orLCD color/touch. |
+| Controls / navigation tradeoff | FS1/FS7 can instantly select previous/next presets orsnapshots without bank queue. Holding both cycles Bank/Preset/Snapshot. **Ten-stomp mode repurposes them as stomps**;bank controls remain in other modes. Swap Up/Down applies with eight-stomp mode. |
+| Processing / Link Dual Cabs default | **3.80 p69:OFF by default**,contrasting with preserved3.50 notes’ON. OFF allows independent cab choices;ON makes selectingCabA recall matchingCabB. Revision/reset explanation andactual device default remain unverified. |
+
+No download,reset,update ordevice test.
 
 <!-- comparison evidence ends -->
 

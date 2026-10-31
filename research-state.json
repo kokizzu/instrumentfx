@@ -131880,5 +131880,12 @@
     "revision": "3.80 RevG,90-20-0358",
     "printed_pages": "73–77",
     "qualification": "Documented host-driver and dry/playback routes;current host compatibility andpedal coverage untested."
+  },
+  "helix_floor_380_navigation_display_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://www.scribd.com/document/812017479/Helix-3-80-Owner-s-Manual-English",
+    "revision": "3.80 RevG",
+    "printed_pages": "69,71–72",
+    "qualification": "LCD readout/navigation documented;cab-link default OFF conflicts with older3.50 ON wording. Hardware default/reset explanation unverified."
   }
 }

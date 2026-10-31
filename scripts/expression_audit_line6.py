@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(line6): document Helix Floor USB driver and DI routes'))
+    print(git('commit','-m','research(line6): qualify Helix LCD navigation and cab-link default'))
