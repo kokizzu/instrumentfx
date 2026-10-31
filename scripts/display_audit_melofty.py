@@ -20,7 +20,7 @@ message = "research(melofty): qualify recovered quick-guide navigation" if sys.a
 if sys.argv[1:] == ["morningstar"]:
     message = "research(morningstar): distinguish MC8 PRO screens and switches"
 if "RJM-MUSIC.md" in changed:
-    message = "research(rjm): qualify GT22 controls and XLR power boundaries"
+    message = "research(rjm): qualify GT10 editor versions and macOS requirements"
 if sys.argv[1:] == ["famc"]:
     assert "FAMC.md" in changed, "Missing FAMC controller record"
     message = "research(famc): collect Liquid Foot12+ individual LCD controller"

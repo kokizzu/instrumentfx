@@ -132647,5 +132647,18 @@
     "status": "partial controller lead; outside active processor and brand counts",
     "limits": "Homepage inaccessible; no exact Shopee hardware search results. Full profile and current availability unverified.",
     "next": "Continue LCD-first inventory; verify12+ full physical and software profile without transferring LED-only12 or other LF+ variants. Independent BOSS GT-Pro cursor unchanged."
+  },
+  "rjm_gt10_editor_requirements_20261031": {
+    "checked": "2026-10-31",
+    "model": "RJM Mastermind GT/10",
+    "sources": [
+      "https://docs.rjmmusic.com/books/other-mastermind-information/page/mastermind-version-history-log",
+      "https://docs.rjmmusic.com/books/mastermind-editor-manual",
+      "https://docs.rjmmusic.com/books/mastermind-editor-manual/page/system-requirements",
+      "https://rjmmusic.com/pages/downloads"
+    ],
+    "finding": "Root GT/10 now records5.5 Mac requirement and GT-specific patch-version guidance;5.2.x OS specifications retained as historical.",
+    "limits": "Current Windows architecture/minimums and GT/10 iPad editor unverified; no downloaded software or local device test.",
+    "next": "Continue exact-model LCD controller gaps. Independent BOSS GT-Pro cursor unchanged."
   }
 }

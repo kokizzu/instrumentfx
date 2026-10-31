@@ -41,6 +41,18 @@ The controller converts pedal position to MIDI CC. Global settings select destin
 
 Exact GT/10 Shopee Indonesia searches on2026-10-31 returned no indexed hardware item; used/new IDR, seller, stock and bundle remain unknown. No wiring or hardware test performed.
 
+### GT/10 — editor versions and macOS requirements
+
+Checked **2026-10-31**. Manufacturer [version history](https://docs.rjmmusic.com/books/other-mastermind-information/page/mastermind-version-history-log) covers Mastermind GT;this updates the GT/10 software gap without transferring PBC/LT-only releases.
+
+| Field | Manufacturer documentation / qualification |
+|---|---|
+| Editor /5.5 compatibility | **5.5.0+ requires macOS12 Monterey orlater**,following a development-environment change that enables universal Mac binaries. This supersedes older Mac minimums for that release family;no local Intel/Apple-silicon test performed. |
+| Editor / model-specific version | History says **5.5.1 fixes only PBC/LT editor UI**;GT editor andGT/LT/PBC firmware should remain **5.5.0**. No release date is supplied in that section;installed versions unknown. |
+| Editor / historical requirements | [Online editor manual](https://docs.rjmmusic.com/books/mastermind-editor-manual) explicitly reflects **5.2.x**. Its [requirements](https://docs.rjmmusic.com/books/mastermind-editor-manual/page/system-requirements) list Windows7+32/64-bit ormacOS10.13+64-bit,2GBRAM andUSB-B connection. Do not certify current5.5 Windows architectures from that older manual. |
+
+[Downloads guidance](https://rjmmusic.com/pages/downloads) requires firmware/editor first-two-version-digits to match;patch digits may differ. Generic iPad-app wording is only for supported products anddoesnot establish GT/10 iPad editing. No download,installation ordevice operation.
+
 ## Mastermind GT/16
 
 Checked 2026-10-31 against the [exact manufacturer page](https://rjmmusic.com/products/mastermind-gt-16-midi-foot-controller). Controller only, outside active audio counts.
