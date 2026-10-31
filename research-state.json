@@ -132625,5 +132625,18 @@
     ],
     "limits": "Not a complete current inventory, DSP concurrency guarantee or installed-content confirmation; no download or device test.",
     "next": "Continue individual-LCD processor gaps before OLED/shared-screen research. Independent BOSS GT-Pro cursor unchanged."
+  },
+  "fm3_firmware12_named_additions_20261031": {
+    "checked": "2026-10-31",
+    "model": "Fractal Audio FM3 MKII Turbo",
+    "source": "https://manuals.plus/m/7de5caf1ac45bf1cdf36c9adfdb9d248e0cfeebd9524cbad9fbd8d3f94baf9eb.pdf",
+    "revision": "FM3 12.0, 2026-01-19, PDF pp3–4; original manufacturer document",
+    "findings": [
+      "Four bass Drive models; NoAmp DI/Pre distinguished",
+      "Deluxe6G3, Citrus Juicer, two GEQ choices and Surround Delay",
+      "Four DynaCabs, including1x12 Scholz subset; not FM9 three-cab increment"
+    ],
+    "limits": "Current complete census and installed content remain unverified. Prior512-user-IR reduction retained; no sibling-model transfer.",
+    "next": "Continue LCD-first audit; preserve model-specific firmware increments. Independent BOSS GT-Pro cursor unchanged."
   }
 }

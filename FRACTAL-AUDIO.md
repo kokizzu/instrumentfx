@@ -369,6 +369,18 @@ Checked **2026-10-31** in the [original FM3 release-history PDF](https://manuals
 
 These documented prerequisites supersede the profile’s older switching unknown,not its7.x tail-routing qualifications. They do not prove persistent loops,global pedal position recall,universal tail continuity ormeasured zero latency. Installed behavior untested;no download ordevice operation.
 
+### FM3 — firmware12 named effects and DynaCabs
+
+Checked **2026-10-31** in the [manufacturer-authored FM3 release history](https://manuals.plus/m/7de5caf1ac45bf1cdf36c9adfdb9d248e0cfeebd9524cbad9fbd8d3f94baf9eb.pdf), **12.0,2026-01-19**,PDFpp3–4. The13.00 heading matches the current manufacturer download listing;this uses original PDF text,not generated summaries.
+
+| Field | Exact-model additions / qualification |
+|---|---|
+| Category choices / firmware12 bass drives | **Four:** PI Fuzz–Bass;NoAmp Bass DI;NoAmp Bass Pre;Royal Bass DI. NoAmp Bass Pre excludes modeled speaker emulation,for Cabinet-block use orboosting an Amp. DI model names do not add hardware connectors. |
+| Category choices / firmware12 other models | Amp **Deluxe6G3**;compressor **Citrus Juicer**;Graphic EQ **7 Band Pedal,7 Band Bass Pedal**;Delay **Surround Delay**. These choices do not increase simultaneous block ceilings. |
+| IR / firmware12 DynaCab additions | **Four:**1×12 Scholz;1×8 Princetone;1×12 Black Magick;8×10 SV Bass. Scholz is a subset of the separately sold West Coast Classic pack,not the whole paid pack. This is included cabinet content,not four user slots oramp captures. |
+
+The earlier documented512-user-IR reduction remains in force from12.0. Named additions are not a complete current category census orproof of installed content. No download,update ordevice test.
+
 
 ## FM9 MKII Turbo
 
