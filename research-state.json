@@ -130352,7 +130352,8 @@
       "checked": "2026-10-31",
       "instruction": "Prioritize one with LCD on footswitch first",
       "next_models": [
-        "Zoom B3n OutputVP exact insertion requirements and coverage",
+        "Fender Tone Master Pro global expression volume endpoints and bypass/looper coverage",
+        "Zoom B3n OutputVP setup documentation when new source becomes available",
         "Fractal Audio FM3 MKII Turbo global endpoints and recall"
       ],
       "task": "Continue unresolved exact-model documentation and qualified hardware offers for individual LCD processors before OLED models. Retain the independent BOSS GT-Pro cursor.",
@@ -130481,7 +130482,8 @@
       "checked": "2026-10-31",
       "source": "https://zoomcorp.com/en/us/news/firmware-update-v20-zoom-b3n-g3n-and-g3xn/",
       "finding": "Carry OutputVP v2 retained-volume qualification into external expression comparison; not merely original PDL Vol.",
-      "unresolved": "Whether OutputVP requires insertion per destination patch; global range and bypass/phones/tails/loop coverage; installed firmware."
+      "unresolved": "Whether OutputVP requires insertion per destination patch; global range and bypass/phones/tails/loop coverage; installed firmware.",
+      "documentation_recheck": "Current support links unchanged 2017 effects sheet; OutputVP insertion not resolved. FP02M accessory cable 1/4 to 1/4 confirmed, contacts/resistance/pinout not specified. Exact Bekas search only reproduces recorded sold-out item1165451985/26184677935."
     }
   },
   "gt_pro_global_patch_level_20261031": {
