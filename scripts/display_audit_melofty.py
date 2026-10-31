@@ -23,5 +23,5 @@ if "RJM-MUSIC.md" in changed:
     message = "research(rjm): document GT10 supported pedal and toe connection"
 if sys.argv[1:] == ["famc"]:
     assert "FAMC.md" in changed, "Missing FAMC controller record"
-    message = "research(famc): collect Liquid Foot12+ individual LCD controller"
+    message = "research(famc): qualify Liquid Foot12+ power and pedal recall"
 print(git("commit", "-m", message))

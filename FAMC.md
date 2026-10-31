@@ -12,4 +12,15 @@ Partial controller lead,checked **2026-10-31**. [Manufacturer-authored LF+ serie
 | Display / controls | Main and button-LCD contrast controls are separate. Button readouts can devote line2 to a second function;an option clears inactive IA labels. Adjustment endpoints unverified. |
 | Expression / wiring | Four external ports;TRS,5–25kΩ potentiometer;**tip=wiper,ring=toe end,sleeve=heel end**. This converts pedal movement into MIDI control;it does not supply analog audio-volume processing. |
 
-Not an audio multi-effects processor;excluded from active model/brand counts. Dimensions,weight,power,complete controls/current editor support andqualified Shopee hardware offers remain unresolved. No files downloaded ordevice operated.
+Not an audio multi-effects processor;excluded from active model/brand counts. Dimensions,weight,dedicated supply requirements,complete controls/current editor support andqualified Shopee hardware offers remain unresolved. No files downloaded ordevice operated.
+
+### Liquid Foot12+ — MIDI power and pedal recall
+
+Same archived manufacturer guide,printed pp9,41:
+
+- MIDI OUT accepts5/7-pin connections;optional THRU repeats MIDI IN. Pins6/7 receive phantom power:guide specifies9–12V AC/DC,at least800mA per connected LF+. This does not establish dedicated DC-jack polarity oradapter specifications. Do not power other devices from this port.
+- MIDI IN can instead enter through the combined OUT connection;the separate MIDI IN must then remain disconnected.
+- Expansion A/B uses CAT-5 cable with proprietary signals;it is not Ethernet and is incompatible with original LF PRO.
+- **EXP PDL Resend defaults No** and is a per-preset option to retransmit current continuous-controller pedal values. It does not establish automatic host volume assignment across presets.
+
+No powered connection orhardware test performed;current firmware behavior remains unverified.

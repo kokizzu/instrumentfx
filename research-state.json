@@ -132711,5 +132711,14 @@
     "previous_editor_USB": "| Editor / USB audio | **Ampero Editor1.6.0 for Windows/Mac explicitly supports Mini firmware2.2** in the [current manufacturer index](https://www.hotone.com/support/3),checked2026-10-31. This is the original Ampero Editor family,not the separate Ampero II software. Current OS minima/architecture remain unverified. Windows/macOS editor; mobile audio is not a mobile editor. Windows recording requires driver; macOS plug-and-play claim lacks current version guarantee. L/R recording independently Dry/Effect; gain−20…+20 dB, monitor−20…+6 dB. Complete stream matrix/formats remain unverified. |",
     "limits": "Global EXP override, factory defaults, held-pedal and output/bypass/tail/loop coverage remain unresolved; USB class does not prove USB bus power or every sample format.",
     "next": "LCD-first priority retained; Mini global scope requires stronger manufacturer evidence than calibration or global-menu boilerplate. Independent BOSS GT-Pro cursor unchanged."
+  },
+  "famc_liquid_foot_12plus_power_recall_20261031": {
+    "source": "https://manualzz.com/doc/23278544/famc-liquid-foot---series-12--12---jr---pro--midi-control...",
+    "printed_pages": [
+      9,
+      41
+    ],
+    "finding": "Added combined MIDI/power connection restrictions and per-preset pedal recall; not global audio volume.",
+    "status": "Archived controller only; current firmware and full physical profile unresolved."
   }
 }
