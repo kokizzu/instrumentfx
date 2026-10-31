@@ -2134,7 +2134,6 @@ Checked **2026-11-01**. These are discovery leads, outside comparison prices.
 
 Both lack exact hardware-item IDs, current condition, revision, bundle, adapter, warranty, voucher eligibility and checkout evidence. Storefront-wide condition statements are not item-specific evidence. Existing qualified offers remain unchanged. No seller contacted or purchase attempted.
 
-
 ## B6
 
 Bass multi-effects; large body, external-only expression. Consolidated and refreshed 2026-10-16; partial. All 15 legacy model fields below retain the original 2026-10-14 observation date. New manual details and IDR evidence are dated separately.
@@ -3632,7 +3631,6 @@ Checked **2026-11-01** in the [manufacturer G3/G3X manual, printed pp3,18–19](
 
 These are patch-level control and display behaviors, not global volume assignment, external-pedal wiring or a visual button census. No download or device test.
 
-
 ## G3Xn
 
 Guitar multi-effects; checked **2026-10-17**, partial first pass. Exact G3Xn, not G3n, G3X or G3. Bass capability unresolved; no ownership inferred. Manufacturer UK page marks discontinued; aftermarket offers do not reverse that status.
@@ -4002,7 +4000,6 @@ No hardware operation,visual inspection ordownload. Headphone/tail coverage of e
 Checked **2026-11-01**. The search-indexed [original English G5 manufacturer page](https://www.zoom.co.jp/node/51) explicitly specifies **four backlit dot-matrix LCDs** and pairs each effect display with its own switch and knobs. Its Z-Pedal, tube booster, 297 patches and 470W×190D×90H mm body identify original G5, not G5n. Direct opening returned502; no successful direct fetch or visual inspection is claimed. Diagonal, graphics color and touch remain unknown.
 
 For frequency response, that English page specifies **20Hz–20kHz +1/−6dB into10kΩ**. The [Japanese original G5 manufacturer page](https://www.zoom.co.jp/ja/node/333) instead specifies **+1/−3dB** at the same load, agreeing with the existing reproduced manualp63. Preserve this manufacturer-language discrepancy; neither figure is a measurement here or evidence of a hardware revision. No downloads or device tests.
-
 
 ## G5n
 

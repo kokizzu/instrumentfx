@@ -4,12 +4,12 @@
   "branch": "main",
   "checked_date": "2026-10-18",
   "research_complete": false,
-  "active_model_count": 397,
+  "active_model_count": 398,
   "fully_verified_model_count": 0,
   "excluded_model_count": 6,
-  "canonical_root_model_count": 397,
+  "canonical_root_model_count": 398,
   "legacy_only_model_count": 0,
-  "count_reconciliation": "397 unique active/root-canonical;0 legacy-only;48 brands;six excluded;all partial.",
+  "count_reconciliation": "398 unique active/root-canonical;0 legacy-only;48 brands;six excluded;all partial.",
   "recovered_from_commit": "0fcec3177d55d58922998805ac58ab08b49c648d",
   "read_first": [
     "AGENTS.md",
@@ -5736,6 +5736,21 @@
         "Volume range/recall precedence and output coverage",
         "Imports,current hosts,subtype census,display details",
         "Visual controls and source rating/count conflicts"
+      ]
+    },
+    {
+      "model": "Line 6 M13",
+      "path": "LINE6.md#m13",
+      "checked_date": "2026-11-01",
+      "status": "partial",
+      "eligibility": "Manufacturer-documented four simultaneous multi-effects units;normal guitar input;no built-in treadle.",
+      "unresolved": [
+        "Qualified exact Shopee Indonesia used/new offers",
+        "Full separate-button and visual control census",
+        "LCD diagonal/touch/pixel specifications",
+        "Global live-guitar volume override,recall and output coverage",
+        "Complete factory allocation,editor/host compatibility and import capabilities",
+        "Regional supply and conflicting looper duration"
       ]
     }
   ],
@@ -25408,7 +25423,8 @@
       "POD XT Live",
       "POD HD400",
       "POD HD300",
-      "Floor POD Plus"
+      "Floor POD Plus",
+      "M13"
     ],
     "MOOER": [
       "GE100 original",
@@ -25869,7 +25885,8 @@
       "POD XT Live",
       "POD HD400",
       "POD HD300",
-      "Floor POD Plus"
+      "Floor POD Plus",
+      "M13"
     ],
     "ZOOM.md": [
       "G11",
@@ -26265,7 +26282,7 @@
   },
   "instrument_views": {
     "ALL-GUITAR.md": {
-      "record_count": 332,
+      "record_count": 333,
       "scope": "All recorded eligible guitar/acoustic multi-effects; four complete comparison tables, not navigation only",
       "technical_refresh": false
     },
@@ -26295,10 +26312,10 @@
     "legacy_effects_directory_present": true,
     "new_progress_markdown_created": false,
     "new_effects_directory_documents_created": false,
-    "root_category_and_instrument_views": "Four-table comparisons: 332 guitar, 173 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
+    "root_category_and_instrument_views": "Four-table comparisons: 333 guitar, 173 documented bass-capable, 71 vocal; technical and market verification remain incomplete.",
     "headrush_saved_models_consolidated": true,
     "old_sources_deleted_this_session": false,
-    "warning": "397 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
+    "warning": "398 root-canonical models;0 legacy-only. Legacy compatibility files remain;specification and market research incomplete.",
     "legacy_reference_files": [
       "effects/RESUME.md",
       "effects/SCOPE.md",
@@ -46694,6 +46711,14 @@
       "other_entries_outside_scope": 92,
       "repair": "Restored pinned Ampero II Stomp source body; moved the later expression summary and complete 2026-10-19 audit outside its archive markers without dropping evidence.",
       "limitation": "Registered whole-body equality only; compatibility paths and technical/market verification remain incomplete."
+    },
+    "preservation_recheck_m13_admission_20261101": {
+      "target": "make consolidation-audit-body-differences",
+      "registered_complete_source_bodies": 82,
+      "mismatches": 0,
+      "other_ledger_entries_outside_scope": 92,
+      "scope": "Registered archive equality only;M13 original discovery body retained verbatim below new comparison summary. Compatibility redirects remain required.",
+      "complete": false
     }
   },
   "deferred_work": {
@@ -46742,10 +46767,10 @@
     "BOSS XS-100"
   ],
   "validation": {
-    "unique_brand_model_pairs": 397,
-    "canonical_root_models": 397,
+    "unique_brand_model_pairs": 398,
+    "canonical_root_models": 398,
     "legacy_only_models": 0,
-    "guitar_view_models": 332,
+    "guitar_view_models": 333,
     "bass_focused_models": 40,
     "vocal_only_models": 25,
     "vocal_view_models": 71,
@@ -46936,6 +46961,7 @@
       "Line 6::POD HD400",
       "Line 6::POD HD300",
       "Line 6::Floor POD Plus",
+      "Line 6::M13",
       "MOOER::GE100 original",
       "MOOER::GE150 original",
       "MOOER::GE150 Pro Li",
@@ -48405,6 +48431,13 @@
     },
     "Line 6::Floor POD Plus": {
       "link": "LINE6.md#floor-pod-plus",
+      "source_files": [
+        "LINE6.md"
+      ],
+      "finding_files": []
+    },
+    "Line 6::M13": {
+      "link": "LINE6.md#m13",
       "source_files": [
         "LINE6.md"
       ],
@@ -133827,6 +133860,26 @@
     "volume": "VolumePedal occupiesFXunit;Knob1minimum,no numeric endpoints. ExistingScene-stored scope preserved.",
     "active": false,
     "remaining": "No qualifiedexactShopeeM13processor;screen diagonal/touch,fullprofile/globaloverride andfactoryfill unresolved.",
+    "downloads": false
+  },
+  "m13_catalogue_admission_20261101": {
+    "status": "partial_active",
+    "previous_status": "partial discovery outside active counts",
+    "reason": "Saved original manufacturer manuals/FAQ andidentity-checked service document establish eligible four-unit multi-effects and required profile fields;explicit unknown market and technical fields retained,not fully verified.",
+    "sources": [
+      "https://kb.line6.com/m13-stompbox-modeler-faq",
+      "https://line6.com/data/l/0a0600729b4f4af8b8d2e9557/application/pdf/M13_Advanced_Users_Guide.pdf",
+      "https://line6.com/data/l/0a060072cb6448318d836f1b6/application/pdf/M13_Stompbox_Modeler_Users_Manual.pdf"
+    ],
+    "conversion": "15.5L×12W×3.5H inches *25.4 =393.7L×304.8W×88.9H mm;10.2lb *0.45359237 =4.626642174kg;roundedabout4.63kg;axes not normalized.",
+    "membership": "Guitar only; bass/vocal suitability unclassified.",
+    "counts": {
+      "active": 398,
+      "root_canonical": 398,
+      "fully_verified": 0
+    },
+    "old_anchor": "LINE6.md#m13--partial-display-discovery preserved as historical subsection",
+    "independent_cursor": "BOSS GT-Pro",
     "downloads": false
   }
 }

@@ -244,7 +244,6 @@ Checked **2026-11-01**, [official NanOS2.2.0 HTML manual](https://neuraldsp.com/
 
 Neither route establishes expression attenuation of computer playback orheadphones. The conflicting LEVEL lists andacross-preset assignment verdict remain unresolved. No download ordevice operation.
 
-
 ## Quad Cortex
 
 Partial record checked **2026-10-17**. Full Quad Cortex,distinct from Nano Cortex andQuad Cortex mini. Product page advertises CorOS4.1.0;current web manual identifies4.1.1. Seller firmware unverified.

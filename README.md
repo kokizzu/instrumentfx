@@ -1,6 +1,6 @@
 # InstrumentFX — Guitar, Bass and Vocal Multi-effects
 
-**397 active model records · 48 brands · 6 excluded archival models.** All records retain explicit verification gaps; this is not exhaustive market coverage or a current-stock guarantee.
+**398 active model records · 48 brands · 6 excluded archival models.** All records retain explicit verification gaps; this is not exhaustive market coverage or a current-stock guarantee.
 
 Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eligible multi-effects unit the owner has ever owned. Work belongs only in **kokizzu/instrumentfx**. No GitHub Actions workflows,scheduled jobs or background research are part of this project.
 
@@ -8,12 +8,12 @@ Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eli
 
 | View | Contents |
 |---|---|
-| **[ALL-GUITAR.md](ALL-GUITAR.md)** |332 guitar/acoustic multi-effects, including **Line 6 HX Effects**, compared across hardware, processing, I/O/power/software and separate IDR tables |
+| **[ALL-GUITAR.md](ALL-GUITAR.md)** |333 guitar/acoustic multi-effects, including **Line 6 HX Effects**, compared across hardware, processing, I/O/power/software and separate IDR tables |
 | **[ALL-BASS.md](ALL-BASS.md)** |173 documented bass-capable models: 40 bass-focused plus 133 shared processors, with full comparison tables and explicit capability evidence |
 | **[ALL-VOCAL.md](ALL-VOCAL.md)** |71 vocal/live mic-path processors across the same four comparison tables; harmony, pitch correction and guitar paths remain distinct |
 | **[FOOTSWITCH-DISPLAYS.md](FOOTSWITCH-DISPLAYS.md)** |Individual footswitch-display matches first; HeadRush, Line 6, Fractal Audio, Fender, Zoom, TC Electronic, Morningstar, Quad Cortex and MELOFTY, with shared-screen and pending layouts separated |
 | **[EXPRESSION-VOLUME.md](EXPRESSION-VOLUME.md)** |Partial audit of direct analog expression volume across presets on processors without built-in treadles |
-| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Short expression/footprint/display comparison of 14 selected profiles; 397 detailed models are root-canonical |
+| **[MULTI-EFFECTS.md](MULTI-EFFECTS.md)** |Short expression/footprint/display comparison of 14 selected profiles; 398 detailed models are root-canonical |
 | **[SINGLE-GUITAR.md](SINGLE-GUITAR.md)** |Dedicated synth, acoustic-simulation, vocoder and pitch pedals; separate from active multi-effects |
 | **[SINGLE-BASS.md](SINGLE-BASS.md)** |Bass-related dedicated effects, linked to their complete shared archive |
 | **[SINGLE-VOCAL.md](SINGLE-VOCAL.md)** |Explicitly excluded FV01 and dedicated-vocoder cross-reference, outside vocal multi-effects counts |
@@ -55,7 +55,7 @@ Root navigation links directly to canonical root documents. Historical link spel
 | [KORG.md](KORG.md) | AX3B, AX3G, AX5B, AX5G, AX10B, AX10G, AX30G, AX100G, AX1000G, AX1500G, AX3000B, AX3000G, PANDORA stomp |
 | [LEKATO.md](LEKATO.md) | ME-01 |
 | [LEXICON.md](LEXICON.md) | MPX100, MX200, MX300, MX400 |
-| [LINE6.md](LINE6.md) | AMPLIFi FX100, Floor POD Plus, Helix Floor, Helix LT, Helix Stadium XL Floor, HX Effects, HX One, HX Stomp, HX Stomp XL, M5, M9, Pocket POD, POD Express Bass, POD Express Guitar, POD Go, POD Go Wireless, POD HD300, POD HD400, POD HD500, POD HD500X, POD X3 Live, POD XT Live |
+| [LINE6.md](LINE6.md) | AMPLIFi FX100, Floor POD Plus, Helix Floor, Helix LT, Helix Stadium XL Floor, HX Effects, HX One, HX Stomp, HX Stomp XL, M5, M9, M13, Pocket POD, POD Express Bass, POD Express Guitar, POD Go, POD Go Wireless, POD HD300, POD HD400, POD HD500, POD HD500X, POD X3 Live, POD XT Live |
 | [M-VAVE.md](M-VAVE.md) | ANN Blackbox, CUBE BABY AC, CUBE BABY BASS, CUBE BABY electric, MINI-X, MK-20, MK-300, Pocket Amp, TANK MINI, TANK-B, TANK-G, TANK-PRO |
 | [MOOER.md](MOOER.md) | Black Truck, GE100 original, GE100 Pro, GE100 Pro Li, GE150 Max, GE150 Max Li, GE150 original, GE150 Plus, GE150 Plus Li, GE150 Pro, GE150 Pro Li, GE200 original, GE200 Plus, GE200 Plus Li, GE200 Pro, GE200 Pro Li, GE250, GE300, GE300 Lite, GE1000, GE1000 Li, GS1000, GS1000 Li, Ocean Machine II, Ocean Machine original, PE100, Prime M1, Prime M2, Prime P1, Prime P2, Prime S1, Red Truck |
 | [MOSKY.md](MOSKY.md) | DC5, RC5, RD5, SOL918 |
@@ -75,7 +75,7 @@ Root navigation links directly to canonical root documents. Historical link spel
 | [YAMAHA.md](YAMAHA.md) | AG-Stomp, DG-Stomp, Magicstomp Acoustic, Magicstomp Bass, Magicstomp Guitar MK2, Magicstomp original Guitar, REV500, SPX900, SPX990, SPX1000, SPX2000 |
 | [ZOOM.md](ZOOM.md) | 505 original, 505II, 506II, 606, 607, 707II, 708II, 1201, A1 FOUR, A1X FOUR, A2, A3, B1 FOUR, B1on, B1X FOUR, B1X original, B1Xon, B2, B2 FOUR, B2.1u, B3, B3n, B6, G1 FOUR, G1 original, G1on, G1X FOUR, G1Xnext, G1Xon, G2 FOUR, G2.1Nu, G2.1u, G2Nu, G2X FOUR, G3, G3n, G3X, G3Xn, G5, G5n, G6, G7.1ut, G11, GFX-3, GFX-4, GFX-5, GFX-707, MS-50G, MS-50G Plus, MS-60B, MS-60B Plus, MS-70CDR, MS-70CDR Plus, MS-80IR Plus, MS-100BT, NEURIG, RFX-1000, RFX-1100, RFX-2000, RFX-2200, V3, V6-SP |
 
-All recorded models are compared in their applicable instrument pages, with full-record links. All 397 recorded models have root brand sections. Legacy content preservation and local navigation checks have passed; compatibility paths remain and technical/market verification is incomplete. The comparison-table rebuild does not certify all fields or finish that migration. Do not create a new dated finding, progress part or document under `effects/`.
+All recorded models are compared in their applicable instrument pages, with full-record links. All 398 recorded models have root brand sections. Legacy content preservation and local navigation checks have passed; compatibility paths remain and technical/market verification is incomplete. The comparison-table rebuild does not certify all fields or finish that migration. Do not create a new dated finding, progress part or document under `effects/`.
 
 ## Research ledger
 
@@ -85,7 +85,7 @@ The [research ledger](research-state.json) records source provenance, model comm
 
 Technical verification and Shopee discovery remain incomplete. The ledger’s current cursor identifies the next task; a missing field means unverified, not No. Cached asking prices do not establish live stock.
 
-**Organization migration is incomplete:** 397 detailed models are root-canonical; 0 still rely on legacy source records. Compatibility files retain historical paths and anchors. Preservation checks do not certify technical specifications, current stock or exhaustive market coverage. See the ledger for preservation manifests, rollback metadata and remaining migration work.
+**Organization migration is incomplete:** 398 detailed models are root-canonical; 0 still rely on legacy source records. Compatibility files retain historical paths and anchors. Preservation checks do not certify technical specifications, current stock or exhaustive market coverage. See the ledger for preservation manifests, rollback metadata and remaining migration work.
 
 ## Scope and ownership
 

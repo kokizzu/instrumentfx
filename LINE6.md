@@ -18,7 +18,7 @@ Root-level brand comparison. **Checked 2026-10-15.** POD Go Wireless and POD Exp
 - [HX Stomp XL](#hx-stomp-xl)
 - [M5](#m5)
 - [M9](#m9)
-- [M13 — partial display discovery](#m13--partial-display-discovery)
+- [M13](#m13)
 - [Other Line 6 records awaiting consolidation](#other-line-6-records-awaiting-consolidation)
 - [Pocket POD](#pocket-pod)
 - [POD Express Bass](#pod-express-bass)
@@ -1349,7 +1349,38 @@ Checked 2026-10-18 against the manufacturer v2.0 Advanced Guide, printed §§4�
 
 [Exact-model FAQ][M9-Q] specifies passive10kΩ linear with mono¼-inch cable. Its I/O inventory gives no dedicated headphone socket. Existing manufacturer footprint claims both exceed the preferred width; retain their conflicting axes and mass. Scene selection is six direct footswitch choices plus hand-selected folders, not verified sequential preset down/up. No hardware testing performed.
 
-## M13 — partial display discovery
+## M13
+
+Admitted **2026-11-01 as a partial catalogue record**, after the saved manufacturer-guide, FAQ and service-document passes established its four-unit multi-effects architecture and hardware profile. It is not fully verified. Historical discovery wording below predates this admission and remains for provenance. No qualified Shopee Indonesia processor offer is established; price absence does not establish hardware ineligibility or market unavailability.
+
+<!-- comparison evidence begins -->
+| Field | Evidence / qualification |
+|---|---|
+| Expression | **No built-in treadle;two external EXP inputs**. Manufacturer FAQ specifies passive10kΩ linear,mono quarter-inch cable;EX-1/EP1-L6 recommended. External toe support and arbitrary-controller wiring remain unverified. [FAQ][M13-F] |
+| Expression / volume scope | **Scene-stored FX assignments andheel/toe endpoints**. Volume Pedal occupies one of four FX units;Knob1 sets minimum,without published numeric attenuation endpoints. Separate global looper-pedal assignment controls playback/overdub/EQ;it is not a verified global live-guitar volume override. Held-position recall,bypass/phones/tails/recorded-loop attenuation remain unresolved. [Guide §§2•2–3,3•3][M13-A];[parameter evidence](#m13--parameter-guide-census-synth-and-volume-slot-scope) |
+| K/F/B | **24 derived rotaries /15 footswitches /separate buttons unverified**. Four units×six controls;service test independently counts four push encoders and15switches. Encoder pushes are not additional separate buttons. No visual census claimed. [Historical service evidence](#m13--historical-service-document-corroboration) |
+| Display | **Four effect-unit LCDs**,each serving three A/B/C memories;category-colored RGB backlights. Four screens are not twelve per-switch displays orfull-color pixel graphics. Diagonal,touch andpixel dimensions unverified. [Guide][M13-A];[service distinction](#m13--historical-service-document-corroboration) |
+| Dimensions / weight | FAQ publishes **15.5L×12W×3.5H inches;10.2lb**. Exact conversion:**393.7L×304.8W×88.9H mm;about4.63kg**. Preserve FAQ axes;both planar dimensions exceed the preferred200×140mm footprint. Measurement conditions andplug clearance unknown. [FAQ][M13-F] |
+| Processing / categories | **Four simultaneous FX**,one active memory per unit;twelve selectable memories per Scene. FAQ2.04 and2011 parameter-guide census agree **109 choices**:Distortion group30,Modulation22,Filter26,Delay19,Reverb12. These are categories/choices,not109 concurrent blocks. No amp/cab modeling perFAQ. [FAQ][M13-F];[count basis](#m13--parameter-guide-census-synth-and-volume-slot-scope) |
+| Memory / presets | **48 Scenes,four folders×12**,documented with2.01. Each Scene stores the four FX units andtheir A/B/C choices;these do not add another48 protected factory locations. Complete initial factory allocation/current unit contents unknown. [FAQ][M13-F];[handbook conflict](#m13--rev-c-handbook-operation-and-source-conflicts) |
+| Synth / acoustic | **Synth algorithms documented**:Octisynth includes aVCO;Synth O Matic offers eight waveforms;Attack Synth offers Square/PWM/Ramp andtwo-octave pitch. This is not evidence of polyphonic tracking. Dedicated electric-to-acoustic conversion remains unverified. [Parameter-guide evidence](#m13--parameter-guide-census-synth-and-volume-slot-scope) |
+| Audio I/O | Normal guitar viaL/MONO input;stereo unbalanced quarter-inch instrument inputs/outputs andstereo send/return. No dedicated headphone socket in the documented rear inventory;headphone suitability ofmain outputs remains unverified. Mic/phantom path not established. [Handbook][M13-H];[FAQ][M13-F] |
+| Data / control ports | Two EXP jacks,MIDI IN/OUT,power inlet andswitch. USB is absent from the handbook inventory;no USB audio,power orcomputer-interface capability inferred. MIDI scene backup documented;detailed MIDI implementation remains to audit. [Handbook][M13-H];[FAQ][M13-F] |
+| Power / battery / USB | Historical US packout **PX-2:120VAC60Hz input→9VAC2A output**,2.5mm connection perFAQ. **AC output has no DC center polarity**;2A is adapter rating,not measured draw. Other-region supply unresolved. FAQ explicitly excludes battery operation;USB power not established. [Service evidence](#m13--historical-service-document-corroboration);[FAQ][M13-F] |
+| IR / NAM / capture | User IR,native NAM,converted NAM andproprietary capture import each **unverified**. No amp/cab modeling does not byitself prove every import capability absent. |
+| Editor / platforms | MIDI scene backup documented;full editor/librarian platforms andcurrent host compatibility unverified. Firmware2.04 is the FAQ’s documented effect-count context,not a fresh installed-version orlatest-release certification. [FAQ][M13-F] |
+| Looper / live | Continues while changing Scenes/effects. **30s/60s half-speed FAQ versus28s mono/56s half-speed RevC handbook**;retain conflict. DSP Bypass needed fortrails/loop playback withall FX bypassed;relay True Bypass has additional conditions. Drums,loop-storage persistence andseamless Scene-change guarantees remain unverified. [FAQ][M13-F];[handbook][M13-H];[bypass limits](#m13--lcd-endpoint-markers-and-expressionbypass-boundaries) |
+| Preset down / up | Fifteen onboard switches support Scene selection;general sequential preset−/+ pairing unverified. Direct Scene selection is separate fromglobal volume setup. |
+| Used IDR | **Unknown**;no condition-qualified exact Shopee processor offer found. |
+| New IDR | **Unknown**;no condition-qualified exact Shopee processor offer found. |
+| IDR discovery limits | Searches2026-11-01 returned M9 units,unrelated products andreplacement M13 power supplies. Those prices are excluded. Seller/item,condition,stock,region,bundle,warranty,voucher,shipping/tax andcheckout total remain unknown. |
+<!-- comparison evidence ends -->
+
+[M13-A]: https://line6.com/data/l/0a0600729b4f4af8b8d2e9557/application/pdf/M13_Advanced_Users_Guide.pdf
+[M13-F]: https://kb.line6.com/m13-stompbox-modeler-faq
+[M13-H]: https://line6.com/data/l/0a060072cb6448318d836f1b6/application/pdf/M13_Stompbox_Modeler_Users_Manual.pdf
+
+### M13 — partial display discovery
 
 Checked 2026-10-31 using the manufacturer’s [M13 v2.0 Advanced Guide, ©2009](https://line6.com/data/l/0a0600729b4f4af8b8d2e9557/application/pdf/M13_Advanced_Users_Guide.pdf). Four LCDs serve four FX units, each with A/B/C effect memories; this is a multi-display layout, not twelve individual switch screens (§§1•1,4•1,A•2). Each LCD has six parameter/model knobs. Screen diagonal and touch capability remain unverified.
 
@@ -1413,7 +1444,6 @@ Total**109** agrees with the separate FAQ;not109 simultaneous effects. The chart
 - **Volume:**Volume Pedal occupies one FX unit;Knob1 sets its minimum (§3•7). Numeric attenuation limits are unspecified. Combine with the preserved Scene-stored assignment scope;this is not a documented global master override.
 
 Still partial,outside active counts;no qualified exact Shopee hardware offer. No download ordevice operation.
-
 
 ## Other Line 6 records awaiting consolidation
 

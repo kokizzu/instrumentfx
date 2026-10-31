@@ -752,7 +752,6 @@ Checked **2026-11-01**;original manufacturer text only,no device test orlocal do
 
 Global EXP numeric endpoints,held-position recall andbypass/direct-USB coverage remain unresolved. Earlier headphone/loop routing inferences retain their stated scope.
 
-
 ## VP4
 
 Admitted 2026-10-28 as a **partial model**, not fully verified. Own manufacturer product/manual establish effects-only guitar/bass multi-effects. All earlier lead-stage bodies and anchors remain below; their outside-inventory status is historical and superseded only by this admission. No ownership or live-market availability inferred.
