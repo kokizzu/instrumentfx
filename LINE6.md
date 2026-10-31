@@ -366,7 +366,7 @@ Checked **2026-10-31** in the [manufacturer3.80 model tables](https://line6.com/
 | Field | Counting / revision qualification |
 |---|---|
 | Category choices / amp-cab | **111 amps plusone mic preamp;87cabinet rows**. Amp channels count as separate named choices;cab Single/Dual forms are not doubled. Same-named current/Legacy cabinet rows remain separate engine choices,not necessarily different physical cabinets. No added preamp-only duplicate of every amp is inferred. [Tables](https://line6.com/helix-models/). |
-| Processing / microphone distinction | [Manufacturer3.50 release notes](https://kb.line6.com/helix-3-50-release-notes),explicitly including Floor,document **12mic choices for guitar cabs and12for bass cabs**,with differing,overlapping lists;not24unique mics. The earlier16-mic KB headline remains historical andis not substituted for either new-engine set. Later3.80 equivalence ofthose lists remains unverified. |
+| Processing / microphone distinction | [Manufacturer3.50 release notes](https://kb.line6.com/helix-3-50-release-notes),explicitly including Floor,document **12mic choices for guitar cabs and12for bass cabs**,with differing,overlapping lists;not24unique mics. The earlier16-mic KB headline remains historical andis not substituted for either new-engine set. Own3.80 manual now confirms12per set;[exact lists](#helix-floor--380-microphone-choice-lists) retain separate Legacy scope. |
 | Processing / cab controls | Same3.50 notes give mic distance **1–12inches in¼-inch steps**,angle **0°/45°**,andlateral position. Dual Cab linking defaults ON;disabling it permits independently chosen cabs. These are cab parameters,not extra effects blocks oronboard capture capability. |
 
 Together with the separate274-effect/three-looper census,this resolves published model-table counting,not installed content orDSP-guaranteed concurrency. Power,factory occupancy andremaining LCD specifications remain open. No local download ordevice operation.
@@ -403,6 +403,19 @@ Checked **2026-10-31**,[manufacturer-authored manual reproduction](https://www.s
 | Looper / True Preset Spillover | Pp21–22:this mode reserves oneDSP andloads onlyPath1. **Looper recording/playback does not spill across presets in this mode**. Switching A→B→C cuts A’s remaining tail. Ordinary-mode matching-looper guidance remains separate. |
 
 No download,update,import ordevice test.
+
+
+### Helix Floor — 3.80 microphone choice lists
+
+Checked **2026-10-31**,original RevG manual reproduction,pp37,39–40;identity established in the [preceding audit](#helix-floor--380-ir-limits-and-spillover-mode-boundary). [Manufacturer-authored text](https://www.scribd.com/document/812017479/Helix-3-80-Owner-s-Manual-English).
+
+| Field | Named model labels |
+|---|---|
+| Processing / guitar-cab microphones12 | 57 Dynamic;421 Dynamic;7 Dynamic;906 Dynamic;30 Dynamic;121 Ribbon;160 Ribbon;4038 Ribbon;84 Ribbon;414 Cond;47 Cond FET;67 Cond. |
+| Processing / bass-cab microphones12 | 57 Dynamic;421 Dynamic;7 Dynamic;88 Dynamic;52 Dynamic;112 Dynamic;D6 Dynamic;40 Dynamic;4038 Ribbon;414 Cond;47 Cond FET;67 Cond. |
+| Processing / Legacy microphones16 | 57 Dynamic;409 Dynamic;421 Dynamic;30 Dynamic;20 Dynamic;121 Ribbon;160 Ribbon;4038 Ribbon;414 Cond;84 Cond;67 Cond;87 Cond;47 Cond;112 Dynamic;12 Dynamic;7 Dynamic. |
+
+**12+12 is not24 distinct labels**;shared labels do not prove identical captures across guitar/bass/Legacy engines. Preserve84 Ribbon versusLegacy84 Cond. These are cabinet parameters,not physical mic inputs oradditional blocks. Installed firmware remains unknown;no download ordevice test.
 
 <!-- comparison evidence ends -->
 

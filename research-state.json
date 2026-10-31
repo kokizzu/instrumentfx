@@ -131863,5 +131863,15 @@
     "identity": "Original Floor 3.80,RevG,90-20-0358,©2024;selected chapters",
     "printed_pages": "21–22,40–41",
     "qualification": "Resolution/path IR ceilings share cab capacity;True Preset Spillover excludes looper carryover. Ordinary matching-looper guidance remains separate;no device test."
+  },
+  "helix_floor_380_mic_lists_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://www.scribd.com/document/812017479/Helix-3-80-Owner-s-Manual-English",
+    "revision": "3.80 RevG,90-20-0358",
+    "printed_pages": "37,39–40",
+    "guitar": 12,
+    "bass": 12,
+    "legacy": 16,
+    "qualification": "Separate lists;shared labels do not prove identical captures. Named choices,not physical inputs."
   }
 }
