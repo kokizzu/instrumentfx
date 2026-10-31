@@ -137575,5 +137575,25 @@
       "No global-volume, wiring, offer or full-verification claim."
     ],
     "next": "Continue missing individual-LCD models and remaining G5/G5n/G11 source gaps before OLED/shared screens; independent general BOSS GT-Pro cursor unchanged."
+  },
+  "g11_editor_library_backup_20261101": {
+    "model": "ZOOM::G11",
+    "status": "partial manufacturer document finding",
+    "sources": [
+      "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g11/g11-support/",
+      "https://zoomcorp.com/documents/1956/E_GuitarLab_v7.0.pdf"
+    ],
+    "identity": "Support-linked manufacturer guide7.0 copyright2020 explicitly shows G11 pp4,7; historical procedures not verified in7.3; V2 requires7.2+.",
+    "findings": [
+      "Effect Pool versus explicit Load to device and missing-effect patch indicator: availability is not installed inventory.",
+      "Individual and all-patch backup/restore documented; separate IR workflow does not establish full-system backup coverage."
+    ],
+    "unresolved": [
+      "Current installed library/category reconciliation and numerical DSP costs",
+      "IR/global/firmware inclusion in any complete-system backup",
+      "Auxiliary LCD physical specifications and manufacturer visual control census",
+      "Global expression endpoints/recall/output coverage"
+    ],
+    "next": "Continue priority individual-LCD model gaps; no downloads or Actions. Independent BOSS GT-Pro cursor preserved."
   }
 }

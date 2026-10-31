@@ -4466,6 +4466,7 @@ Guitar and bass multi-effects; large; built-in expression. Specifications below 
 | Live / master level and recall | **V2 pp7,18–19:master knob −∞ to+6dB,center0dB**; overall volume retained across patch changes. This is hand-operated master level,not a verified global expression assignment or pedal endpoint range. Startup-state restoration is broadly stated p18; exact held-pedal recall remains unknown. [Own manual](https://zoomcorp.com/documents/461/E_G11v2.pdf) |
 | Power | **12V DC,center-positive,2000mA AD-19 supply**. Supply rating, not measured operating draw. **USB bus power explicitly unsupported**. Internal battery operation is not documented. [G11-M p.104] |
 | Editor platforms | **Guitar Lab Windows/macOS**; support page lists7.3 for Windows8.1/10/11 and macOS10.13–26. **Handy Guitar Lab iOS/iPadOS requires optional BTA-1**. Android/Linux full editor not established. Driver support is a separate field. [G11-D,G11-I] |
+| Editor / installed-library and backup scope | Support-linked Guitar Lab7.0 guide distinguishes Effect Pool from explicit device loading;patch view flags missing effects. Patch Backup All/Restore All is documented;complete IR/global/firmware backup is not established. See [qualified editor audit](#g11--guitar-lab-device-loading-and-patch-backup-scope). Current G11 V2 use requires7.2+;current listed release7.3. |
 | USB audio | **4-in/4-out,44.1kHz/32-bit USB interface**; two dry and two processed recording channels, reamp. Internal A/D and D/A24-bit,processing32-bit. Windows ASIO driver; Mac/iOS/iPadOS do not require a dedicated driver. [G11-M pp.89–91,104] |
 | Practice / stage | **Stereo looper:5min maximum,2min30s withUndo enabled**;independent of effect slots. Loop playback can continue while selecting patches;AUX is not recorded. PRE/POST,68 rhythms,autosave/preselection;see [V2 limits](#g11--v2-looper-capacity-and-playback-boundaries). Do not infer a measured preset-change latency or global spillover guarantee. [G11-M,G11-P] |
 | Firmware / status | Support page lists **system2.10** at this check. V2 memory changes are explicitly documented. ZOOM's UK page labels G11 discontinued; this does not prove no Indonesian retailer has remaining stock. [G11-D,G11-F,G11-UK] |
@@ -4770,6 +4771,18 @@ Historical2026-10-15 source wording. Current firmware-qualified findings retain 
 - **Commit** (Individual findings commits): `f5d2c130e152a49a6197f8ee4bfa4f8829d36eb6`
 
 [Original shared source](research-state.json)<!-- historical-link:zoom-001 -->,retained pending complete navigation/provenance audits.
+
+### G11 — Guitar Lab device loading and patch-backup scope
+
+Checked **2026-11-01**. [G11 support](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g11/g11-support/) links the [manufacturer Guitar Lab7.0 reference guide](https://zoomcorp.com/documents/1956/E_GuitarLab_v7.0.pdf),©2020;pp4,7 expressly show G11. Historical editor documentation: G11 V2 requires7.2+ andcurrent support lists7.3;this does not establish every7.0 procedure unchanged in7.3.
+
+| Field | Documented procedure / boundary |
+|---|---|
+| Software / library state | Guide pp10–13 separates device memory usage and explicit **Load to device** from the pool. Deleted device effects can be restored;patch view marks patches needing effects absent from the device. Thus pool availability alone does not prove installation. Numeric current DSP costs remain unverified. |
+| Memory / patch backups | Guide pp17–18 documents individual **Save To Patch Pool**, **Backup All**, file drag-export/import, **Copy To Device** and **Restore All**. IR import is a separate pp19–20 workflow;the inspected patch-backup instructions do not establish IR audio,global settings orfirmware coverage. Preserve IR originals separately;complete system-backup capability remains unverified. |
+
+No application installed,backup created,device connected orlocal file downloaded. These editor operations do not establish global expression-volume assignment orcurrent installed effect totals.
+
 
 ## GFX-3
 
