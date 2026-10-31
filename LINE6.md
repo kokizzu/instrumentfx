@@ -1374,6 +1374,19 @@ Admitted **2026-11-01 as a partial catalogue record**, after the saved manufactu
 | Used IDR | **Unknown**;no condition-qualified exact Shopee processor offer found. |
 | New IDR | **Unknown**;no condition-qualified exact Shopee processor offer found. |
 | IDR discovery limits | Searches2026-11-01 returned M9 units,unrelated products andreplacement M13 power supplies. Those prices are excluded. Seller/item,condition,stock,region,bundle,warranty,voucher,shipping/tax andcheckout total remain unknown. |
+
+
+### M13 — manufacturer routing legend and lifecycle
+
+Checked **2026-11-01** using Line6’s current Knowledge Base text;no device operation orlocal download.
+
+| Field | Manufacturer documentation / qualification |
+|---|---|
+| I/O / stereo routing definitions | [M-Series routing page](https://kb.line6.com/stereo-mono-fx-routing-table),filed underM9/M13: **True Stereo** processes left/right independently;**Mono** sums both inputs andsends the result toboth outputs. **Stereo Thru/Mono Effect** preserves separate dry channels butcenters summed wet audio;**Stereo Thru/Stereo Effect** preserves dry channels andadds stereo wet processing. Stereo sockets alone therefore do not establish preserved stereo separation through every effect. |
+| Editor / manufacturing status | [Exact M9/M13 lifecycle notice](https://kb.line6.com/m9-m13-line-end-of-life) says manufacture ended **12/1/2021**,date retained as printed. Retailers may retain inventory;this is not current Shopee stock,new-condition evidence,firmware withdrawal ora declaration that support ended. |
+
+The routing page credits **JimRyanLine6** for the original research. Its per-algorithm table images were not inspected,andthe linked [original DOC attachment](https://line6.com/applications/core/interface/file/attachment.php?id=474) returned404. **No individual model is assigned a routing class here**;complete algorithm-by-algorithm stereo behavior remains unresolved.
+
 <!-- comparison evidence ends -->
 
 [M13-A]: https://line6.com/data/l/0a0600729b4f4af8b8d2e9557/application/pdf/M13_Advanced_Users_Guide.pdf

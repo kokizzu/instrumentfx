@@ -133498,6 +133498,11 @@
       "file": "FRACTAL-AUDIO.md",
       "model": "FM9 MKII Turbo",
       "heading": "### FM9 — output mute, tuner mute and global EQ coverage"
+    },
+    {
+      "file": "LINE6.md",
+      "model": "M13",
+      "heading": "### M13 — manufacturer routing legend and lifecycle"
     }
   ],
   "model_note_scope_correction_20261101": {
@@ -133880,6 +133885,25 @@
     },
     "old_anchor": "LINE6.md#m13--partial-display-discovery preserved as historical subsection",
     "independent_cursor": "BOSS GT-Pro",
+    "downloads": false
+  },
+  "m13_routing_lifecycle_20261101": {
+    "routing_source": "https://kb.line6.com/stereo-mono-fx-routing-table",
+    "scope": "Manufacturer KB under M9/M13;creditsJimRyanLine6originalresearch. Four routingdefinitionsread,not peralgorithm table.",
+    "definitions": [
+      "TrueStereo:independent channels",
+      "Mono:suminput/dualmonooutput",
+      "StereoThruMonoEffect:separate dry/summed wet",
+      "StereoThruStereoEffect:separate dry/stereo wet"
+    ],
+    "missing_table": {
+      "url": "https://line6.com/applications/core/interface/file/attachment.php?id=474",
+      "status": "404;tableimagesnotinspected"
+    },
+    "lifecycle_source": "https://kb.line6.com/m9-m13-line-end-of-life",
+    "manufacturing_end_as_printed": "12/1/2021",
+    "qualification": "Retail inventory mayremain;not liveShopee stock,newcondition orendofallsupport.",
+    "next": "Recover original peralgorithm stereo table;retain LCDdiagonal/touch,fullbuttons,globalvolumeoverride andcondition-qualifiedIDR gaps.",
     "downloads": false
   }
 }
