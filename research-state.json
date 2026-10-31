@@ -131793,5 +131793,15 @@
     "qualification": "Pageexplicitunchangedbody/massversusTurbo;twodimensionsnotdiagonal;currentmanufacturerexactphysicalconfirmationstillpending",
     "remaining": "MiniLCDcolor/touch/activearea,fullphysicalcounts,currentglobalvolume range/recall/bypass/loopcoverage",
     "next": "ContinueLCDfirst remainingfields;independentBOSS GT-Pro cursor retained"
+  },
+  "g11_looper_boundaries_20261031": {
+    "checked": "2026-10-31",
+    "source": "https://zoomcorp.com/documents/461/E_G11v2.pdf",
+    "printed_pages": "67–75",
+    "maximum_seconds": 300,
+    "undo_enabled_maximum_seconds": 150,
+    "patch_selection_during_playback": "Documented",
+    "aux_recording": false,
+    "qualification": "Text-only documentation;hardware untested. Duration/tempo changes erase data;output expression coverage and persistent storage remain unverified."
   }
 }

@@ -22,5 +22,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(ik): record TONEX Board as qualified partial lead'
+        message='research(zoom): qualify G11 looper capacity and playback boundaries'
     print(git('commit','-m',message))

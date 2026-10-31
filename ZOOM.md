@@ -3965,7 +3965,7 @@ Guitar and bass multi-effects; large; built-in expression. Specifications below 
 | Power | **12V DC,center-positive,2000mA AD-19 supply**. Supply rating, not measured operating draw. **USB bus power explicitly unsupported**. Internal battery operation is not documented. [G11-M p.104] |
 | Editor platforms | **Guitar Lab Windows/macOS**; support page lists7.3 for Windows8.1/10/11 and macOS10.13–26. **Handy Guitar Lab iOS/iPadOS requires optional BTA-1**. Android/Linux full editor not established. Driver support is a separate field. [G11-D,G11-I] |
 | USB audio | **4-in/4-out,44.1kHz/32-bit USB interface**; two dry and two processed recording channels, reamp. Internal A/D and D/A24-bit,processing32-bit. Windows ASIO driver; Mac/iOS/iPadOS do not require a dedicated driver. [G11-M pp.89–91,104] |
-| Practice / stage | **Five-minute stereo looper**, independent of the effect slots;68 rhythm patterns;looper PRE/POST placement and rhythm synchronization;autosave and preset preselection. Do not infer a measured preset-change latency or global spillover guarantee. [G11-M,G11-P] |
+| Practice / stage | **Stereo looper:5min maximum,2min30s withUndo enabled**;independent of effect slots. Loop playback can continue while selecting patches;AUX is not recorded. PRE/POST,68 rhythms,autosave/preselection;see [V2 limits](#g11--v2-looper-capacity-and-playback-boundaries). Do not infer a measured preset-change latency or global spillover guarantee. [G11-M,G11-P] |
 | Firmware / status | Support page lists **system2.10** at this check. V2 memory changes are explicitly documented. ZOOM's UK page labels G11 discontinued; this does not prove no Indonesian retailer has remaining stock. [G11-D,G11-F,G11-UK] |
 
 ### G11 — IDR price evidence
@@ -4055,6 +4055,17 @@ Checked **2026-10-31**. The [support-linked V2 Patch Memory List](https://zoomco
 | USB audio / independent trims | [V2 manual pp89–92](https://zoomcorp.com/documents/461/E_G11v2.pdf):separate processed anddry recording gains,each **−6…+6dB**;REAMP GAIN also **−6…+6dB**. MONITOR BALANCE0–100 selects direct-only at0,computer-only at100. These are USB-level controls,not global expression endpoints orproof of every output’s attenuation. |
 
 No local download,update,reset ordevice test. Current pool counts,auxiliary-display specifications andfull rotary corroboration remain unresolved.
+
+
+### G11 — V2 looper capacity and playback boundaries
+
+Checked **2026-10-31**,original [manufacturer V2 manual,pp67–75](https://zoomcorp.com/documents/461/E_G11v2.pdf). Text only;no download or device test.
+
+| Field | Evidence / qualification |
+|---|---|
+| Looper / capacity and timing | **5min maximum;Undo ON reduces this to2min30s**. Recording can end manually or after1–64quarter notes. Changing recording duration or tempo deletes recorded data. |
+| Looper / playback and routing | The manual permits patch selection from Home while playback continues. **AUX input is excluded from recording**;PRE/POST places the loop before/after effects. This does not prove every output’s expression-volume coverage or persistent storage. |
+| Looper / level and stopping | Loop VOL0–100;stop immediately,at phrase end,orwith fade. Fade duration is unspecified. |
 
 <!-- comparison evidence ends -->
 
