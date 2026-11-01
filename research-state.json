@@ -138398,5 +138398,17 @@
     "qualification": "No revision-specific shipping or installed-content certification. Older unknown retained in historical checkpoints;current summary qualified. No transfer into other exact-model profiles this checkpoint.",
     "downloads": false,
     "active_counts_changed": false
+  },
+  "g3n_lifecycle_lcd_overview_20261101": {
+    "checked": "2026-11-01",
+    "sources": [
+      "https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/g3n-g3xn/",
+      "https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/g3n-g3xn/g3ng3xn-support/"
+    ],
+    "destination": "ZOOM.md#g3n",
+    "finding": "Explicit Japanese manufacturer production-completed label;three physical LCDs can form a chain overview,with scrolling effect-unit view.",
+    "qualification": "No discontinuation date,future maintenance or dealer stock guarantee. Existing OutputVP assignment/endpoints/output coverage unknowns unchanged;no new model admission.",
+    "next": "Continue individual-LCD inventory and unresolved exact-model evidence;do not repeat unchanged G3n OutputVP sources as progress. Independent BOSS GT-Pro cursor preserved.",
+    "downloads": false
   }
 }
