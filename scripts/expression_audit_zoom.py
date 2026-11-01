@@ -1,28 +1,50 @@
 """Validate and commit the reviewed Zoom expression audit locally."""
 import sys
+import hashlib
+import json
+from pathlib import Path
 sys.dont_write_bytecode = True
 from research_tools import git, verify
 import comparison_views
 
 if __name__ == '__main__':
-    assert sys.argv[1:] in (['commit'], ['commit-505'], ['commit-606'], ['commit-607'])
+    assert sys.argv[1:] in (['stage'], ['commit'], ['commit-505'], ['commit-606'], ['commit-607'])
     import subprocess
     subprocess.run([sys.executable, "scripts/brand_sort.py", "verify"], check=True)
     verify()
     comparison_views.verify_views()
     comparison_views.test_readme_brand_counts()
     comparison_views.test_validation_counts()
-    assert not git('diff', '--cached', '--name-only').strip(), 'Existing staged changes'
     allowed = {'FRACTAL-AUDIO.md','LINE6.md','FOOTSWITCH-DISPLAYS.md','VALETON.md','NUX.md','IK-MULTIMEDIA.md','ZOOM.md','EXPRESSION-VOLUME.md','README.md','MULTI-EFFECTS.md','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md','research-state.json','scripts/comparison_views.py','scripts/expression_audit_zoom.py','Makefile'}
     changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
-    assert changed <= allowed, changed - allowed
+    staged = set(git('diff','--cached','--name-only').splitlines())
+    assert (changed | staged) <= allowed, (changed | staged) - allowed
     assert not git('diff','--check').strip(), 'Whitespace errors'
-    git('add','--',*sorted(changed))
-    print(git('diff','--cached','--stat'))
+    review_path = Path('/tmp/instrumentfx-zoom-staged-review.json')
+    if sys.argv[1] == 'stage':
+        assert not staged, 'Existing staged changes'
+        assert changed, 'No changes to review'
+        git('add','--',*sorted(changed))
+        diff = git('diff','--cached')
+        Path('/tmp/instrumentfx-zoom-staged.diff').write_text(diff)
+        review_path.write_text(json.dumps({'head': git('rev-parse','HEAD').strip(), 'sha256': hashlib.sha256(diff.encode()).hexdigest()}))
+        print(git('diff','--cached','--stat'))
+        print('Review /tmp/instrumentfx-zoom-staged.diff before make expression-audit-commit-zoom')
+        raise SystemExit(0)
+    if sys.argv[1] == 'commit':
+        assert staged and not changed, 'Stage and review intended changes first'
+        review = json.loads(review_path.read_text())
+        assert review['head'] == git('rev-parse','HEAD').strip(), 'HEAD changed since review'
+        assert review['sha256'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest(), 'Staged diff changed since review'
+        assert not git('diff','--cached','--check').strip(), 'Staged whitespace errors'
+    else:
+        assert not staged, 'Existing staged changes'
+        git('add','--',*sorted(changed))
+        print(git('diff','--cached','--stat'))
     message = 'research(zoom): document original 505 conditional expression volume' if sys.argv[1]=='commit-505' else 'research(zoom): qualify exact MS-70CDR Plus Shopee voucher offer'
     if sys.argv[1] in ['commit-606','commit-607']:
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): qualify G5 analog PRE tap and external switch roles'
+        message='research(zoom): document G11 mobile IR and historical recovery scope'
     print(git('commit','-m',message))

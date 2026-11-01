@@ -138716,5 +138716,20 @@
     "remaining": "Directhardware format/length limits,MKII firmware minima,NAM andglobalvolume endpoints/recall remainunverified.",
     "downloads": false,
     "inventory_change": false
+  },
+  "g11_mobile_ir_recovery_20261101": {
+    "checked": "2026-11-01",
+    "model": "Zoom G11",
+    "root": "ZOOM.md#g11--mobile-ir-import-and-historical-empty-display-recovery",
+    "sources": [
+      "https://zoomcorp.com/media/documents/E_HandyGuitarLab_G11.pdf",
+      "https://zoomcorp.com/en/gb/news/g11_update/"
+    ],
+    "identity": "Handy Guitar Lab G11 ©2021 Z2I-4133-03 pp3–5;dated December28,2020 V1.4 notice",
+    "finding": "Connected mobile app selects IR slot and iOS file,renames,transfers;BTA-1 conditional10m indoor control link. Historical EMPTY display retained underlying IR data,V1.4 restored visibility andrenamed user location IR_71.",
+    "scope": "Not offline authoring,Bluetooth audio,newIRcapacity,globalpatchinsertion,current2.10defect oruniversalrecovery. Original historical Next line retained withexplicit non-live qualifier.",
+    "remaining": "Control-panelvisualandprimaryfullrotarycount,auxLCDspecifications,globalEXPscope/endpoints/recall/coverage andqualifiedmarketdetails remainopen.",
+    "downloads": false,
+    "inventory_change": false
   }
 }

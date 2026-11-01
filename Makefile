@@ -2225,3 +2225,7 @@ research-commit-atomic:
 .PHONY: expression-audit-stage-fractal
 expression-audit-stage-fractal:
 	python3 scripts/expression_audit_fractal.py stage
+
+.PHONY: expression-audit-stage-zoom
+expression-audit-stage-zoom:
+	python3 scripts/expression_audit_zoom.py stage

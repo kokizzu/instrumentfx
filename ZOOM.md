@@ -4567,7 +4567,7 @@ Guitar and bass multi-effects; large; built-in expression. Specifications below 
 | Memory / creation and bank deletion | **V2 printedpp42–50:** deleting a patch leaves an **Empty** location;new-patch creation requires an opening andis unavailable when all500 are occupied. New-bank setup assigns selected existing patch memories. **Deleting a bank also deletes its patches**,andlater banks move up. Bank management is therefore not just display-only grouping;shared-assignment behavior andrecovery remain unverified. [Own manual](https://zoomcorp.com/documents/461/E_G11v2.pdf),checked2026-11-01;no deletion ordevice operation performed. |
 | Synth | **Yes:** three bass-oriented V2 SFX algorithms. **Z-Syn:** SAW/SQR waveforms,low-pass filter modulation and dry/effect balance. **BaStdSyn:** UP/DOWN filter movement,trigger sensitivity,attack and an adjustable octave-below component. **BaSynTlk:** four vowel variations IA/UE/UA/OA,trigger/attack controls and an octave-below component. These are algorithm parameters,not extra simultaneous blocks;polyphonic synthesis andspecial-pickup requirements are not established by this table. [Own V2 effect list,printedp32](https://zoomcorp.com/media/documents/E_G11v2_FX-list.pdf),checked2026-11-01;installed firmware/content andtracking performance untested. |
 | Electric-to-acoustic simulation | **Yes: Aco.Sim**, specifically described as converting an electric guitar's tone toward acoustic guitar, in the Drive category. Not merely an acoustic amp or body IR. [G11-E p.9] |
-| User IR loading | **300 total locations:001–106 supplied;107–300 available for user assignment**, hence **194 remaining user locations** by arithmetic. WAV,44.1–192kHz,up to2048 samples. Import via USB HOST flash drive loads a library location;the IR must then be selected and positioned in the target patch (V2 pp86–88). Library import is not automatic all-patch insertion. This supersedes launch-page70 supplied+130 user figures. The source's remaining-user-location description is not a claim all factory IR slots are freely overwriteable. [G11-M pp.3,86–88;G11-F] |
+| User IR loading | **300 total locations:001–106 supplied;107–300 available for user assignment**, hence **194 remaining user locations** by arithmetic. WAV,44.1–192kHz,up to2048 samples. Import via USB HOST flash drive loads a library location;the IR must then be selected and positioned in the target patch (V2 pp86–88). [Mobile import](#g11--mobile-ir-import-and-historical-empty-display-recovery) also transfers a selected iOS file into an onboard slot. Library import is not automatic all-patch insertion. This supersedes launch-page70 supplied+130 user figures. The source's remaining-user-location description is not a claim all factory IR slots are freely overwriteable. [G11-M pp.3,86–88;G11-F] |
 | NAM / amp captures | Native NAM, converted NAM and user amp-capture playback/creation are **not established** in the checked official materials. Cabinet IR import alone proves none of them. |
 | Instrument / aux | One6.35mm mono input,500kΩ; one3.5mm stereo AUX IN,10kΩ. No microphone input/phantom power in the full published connector list. [G11-M p.104] |
 | Outputs / loops | Two6.35mm mono main L/MONO,R outputs; dedicated6.35mm stereo headphones; two6.35mm SEND and two RETURN sockets, usable as two mono loops or stereo send/return processing. Nine routing choices include mono/stereo loops,send-only andreturn-only entries;positions are patch-stored andconsume effect capacity. INST/LINE output-level selection. No XLR output in the published list. [G11-M pp.13–14,77–79,104] |
@@ -4828,6 +4828,8 @@ Checked **2026-11-01**. [Trevor Curwen’s original hands-on review, Guitar Worl
 
 The review’s240-patch and130-user-IR figures belong to its launch-era context and do not replace the V2 memory map. Separate-button census,auxiliary-display properties and manufacturer visual corroboration remain unresolved. No current price,installed firmware,device test orfully verified status is established.
 
+The following original finding is preserved as a **historical snapshot**. Its pending counts, factory-subset unknown and “Next” instruction are not the live task queue: the current record above documents the V2 census and allocation; the current LCD-first queue remains in the ledger.
+
 ### G11 — complete original finding and unresolved control-count conflict
 
 The2026-10-15 original below reports27rotaries from textual panel descriptions; the later root record deliberately leaves the full total unverified pending successful visual corroboration. Preserve both evidence states rather than silently dropping the historical count or claiming visual verification. Its Dynamics15 count and V2 quick-guide URL were also absent from the root record. All original facts,dates,price qualifications and URLs are now retained,with current comparison selection above unchanged except for the qualified Dynamics count. No source deleted or new market check implied.
@@ -4932,6 +4934,18 @@ Checked **2026-11-01**. The [exact G11 support page](https://zoomcorp.com/en/us/
 | iPadOS18 /17 | Cubasis3.7 /3.6;GarageBand2.3 on both;Logic Pro2.1 /1.1 respectively |
 
 These are dated manufacturer tests of audio-software combinations,not our tests,universal host certification or iOS/iPadOS26 audio certification. The separate Handy Guitar Lab26 advisory concerns the editor. G11 still needs its own power supply;this matrix does not establish an adapter/cable arrangement,global expression-volume coverage ornew USB routing. No local file/software download orhardware operation.
+
+### G11 — mobile IR import and historical EMPTY display recovery
+
+Checked **2026-11-01**. The [original Handy Guitar Lab for G11 manual](https://zoomcorp.com/media/documents/E_HandyGuitarLab_G11.pdf), ©2021, **Z2I-4133-03**, six pages, identifies this exact model. Its imprint is separate from hardware firmware and App Store version numbers.
+
+| Field | Source-qualified behavior | Evidence |
+|---|---|---|
+| IR / mobile import | IMPORT IR selects an onboard slot, then a file from the iOS browser, optionally edits its name, and transfers it on OK. Examples include Dropbox, iCloud and local files. This is another library-loading route, not additional memory or automatic insertion into every patch; no new file-format limits are specified. | [Own app manual p5](https://zoomcorp.com/media/documents/E_HandyGuitarLab_G11.pdf) |
+| Editor / connected mobile operation | Guide requires connection to G11 for the app to operate. Separate BTA-1 is required; the stated **up to 10 m indoors without obstacles** is a conditional control-link claim, not Bluetooth audio support or our range test. | [Own app manual pp3–4](https://zoomcorp.com/media/documents/E_HandyGuitarLab_G11.pdf) |
+| Firmware / historical IR display recovery | **December 28, 2020 V1.4 notice:** IRs could appear EMPTY while data remained in memory. The documented update restored visibility; user-imported locations were renamed “IR_71”, with manual renaming available. This is historical recovery behavior, not a current 2.10 defect, universal recovery guarantee or replacement for the V2 slot map. | [Dated manufacturer notice](https://zoomcorp.com/en/gb/news/g11_update/) |
+
+No app or firmware downloaded, IR transferred, update performed or hardware operated.
 
 ## GFX-3
 
