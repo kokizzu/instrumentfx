@@ -269,7 +269,7 @@ def make_plan(persist=True):
                 if 'Next:' in paragraph or 'Next model' in paragraph or 'next model' in paragraph:
                     continue
                 if re.search(r'Rp[\d\s.]',paragraph):
-                    facts[key].append(dict(field='IDR qualified observations',value=relink(paragraph.replace('\n',' '),path,refs),source=path,context='model-specific price prose'))
+                    facts[key].append(dict(field='IDR observations and qualifications',value=relink(paragraph.replace('\n',' '),path,refs),source=path,context='model-specific price prose'))
                 elif not r['canonical'] and re.search(r'display|screen|rotary|footswitch|current|looper',paragraph,re.I):
                     facts[key].append(dict(field='Follow-up '+('display' if re.search('display|screen',paragraph,re.I) else 'technical correction'),value=relink(paragraph.replace('\n',' '),path,refs),source=path,context='model-specific follow-up prose'))
                 elif r['canonical'] and paragraph.startswith('Ports:'):
@@ -926,6 +926,15 @@ def test_field_projection():
 
 
 def test_field_extraction():
+    # Integration regression: excluded seller prose must not be certified by its generated label.
+    payload = make_plan(persist=False)
+    g5n = payload['records']['Zoom::G5n']
+    excluded = [f for f in g5n['facts'] if f['context'] == 'model-specific price prose' and 'Excluded pending variation check:' in f['value']]
+    assert excluded, 'Regression source no longer exercises excluded variation evidence'
+    assert all('qualified' not in f['field'].lower() for f in excluded), 'Excluded leads labelled qualified'
+    used, other = price_cells(g5n)
+    assert 'Excluded pending variation check:' in other, 'Exclusion qualification lost from price table'
+    assert '54869023932' not in used, 'Excluded variation promoted to used-price evidence'
     # Canonical rows must never disappear because a source column was added.
     for malformed in (
         '| Field | Finding |\n|---|---|\n| Power | 9V | Manufacturer |',

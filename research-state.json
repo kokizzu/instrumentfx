@@ -138528,5 +138528,12 @@
     },
     "next": "ContinueLCD-first unresolvedcapabilities andfreshqualifiedoffers;do not reclassifycachedHabis asliveavailability. GeneralBOSSGT-Procursorpreserved.",
     "downloads": false
+  },
+  "comparison_price_prose_label_20261101": {
+    "problem": "AllpriceproseincludingexplicitlyexcludedvariationleadsreceivedIDRqualifiedobservationslabel.",
+    "fix": "Use neutralIDRobservationsandqualificationslabel;preservefullamounts,sources,exclusionsandconditions. Nooffersreclassified.",
+    "regression": "ActualG5nexcluded54869023932 lead mustretainexclusion,neverqualifiedlabelorusedpricepromotion.",
+    "validation": "Focusedextractionregressionfailedbeforefix;rerunafterfixandregenerateallaffectedviews.",
+    "next": "ResumeLCD-firstresearch;generalBOSSGT-Procursorpreserved."
   }
 }
