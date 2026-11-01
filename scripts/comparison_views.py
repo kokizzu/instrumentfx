@@ -745,6 +745,8 @@ def price_cells(record):
     other=[]
     for fact in record['facts']:
         label=fact['field']
+        if label == 'IDR qualified observations':
+            label = 'IDR observations and qualifications'
         value=clean(fact['value'])
         if not re.search(r'IDR|retail evidence|retail observation|^prices|^idr$',label,re.I):
             continue
@@ -932,6 +934,18 @@ def test_field_extraction():
     excluded = [f for f in g5n['facts'] if f['context'] == 'model-specific price prose' and 'Excluded pending variation check:' in f['value']]
     assert excluded, 'Regression source no longer exercises excluded variation evidence'
     assert all('qualified' not in f['field'].lower() for f in excluded), 'Excluded leads labelled qualified'
+    previous_records = json.loads(json.dumps(payload['records']))
+    for record in previous_records.values():
+        for fact in record['facts']:
+            if fact['context'] == 'model-specific price prose':
+                fact['field'] = 'IDR qualified observations'
+    previous_outputs = render(previous_records, json.loads((ROOT/'research-state.json').read_text()), write_preview=False)['outputs']
+    for name, before in previous_outputs.items():
+        expected = before.replace('**IDR qualified observations:**', '**IDR observations and qualifications:**')
+        actual = payload['outputs'][name]
+        if expected != actual:
+            offset = next(i for i, (left, right) in enumerate(zip(expected, actual)) if left != right)
+            raise AssertionError((name, expected[offset-100:offset+200], actual[offset-100:offset+200]))
     used, other = price_cells(g5n)
     assert 'Excluded pending variation check:' in other, 'Exclusion qualification lost from price table'
     assert '54869023932' not in used, 'Excluded variation promoted to used-price evidence'

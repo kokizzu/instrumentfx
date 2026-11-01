@@ -138533,7 +138533,7 @@
     "problem": "AllpriceproseincludingexplicitlyexcludedvariationleadsreceivedIDRqualifiedobservationslabel.",
     "fix": "Use neutralIDRobservationsandqualificationslabel;preservefullamounts,sources,exclusionsandconditions. Nooffersreclassified.",
     "regression": "ActualG5nexcluded54869023932 lead mustretainexclusion,neverqualifiedlabelorusedpricepromotion.",
-    "validation": "Focusedextractionregressionfailedbeforefix;rerunafterfixandregenerateallaffectedviews.",
+    "validation": "Extraction regression red→green;field tests pass. Explicitlegacyfieldlabels also normalized at rendering;rebuiltoutputs checked forlabel-only changes. Noevidenceorpriceclassificationchanges.",
     "next": "ResumeLCD-firstresearch;generalBOSSGT-Procursorpreserved."
   }
 }
