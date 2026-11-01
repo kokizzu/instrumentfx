@@ -648,3 +648,7 @@ Atomic [processing and memory scope](ATOMIC-AMPS.md#ampli-firebox-mk-ii--process
 ### Neural DSP Quad Cortex mini — partial no-treadle discovery
 
 [Exact-model profile](NEURAL-DSP.md#quad-cortex-mini--partial-discovery), outside active counts. Documents analog EXP,headphones,mode-specific preset navigation andfootprint separately. Block assignments andretained position do not establish global volume across all presets;output coverage remains open. Shared main screen is separate from the first-priority individual-LCD layout.
+
+### Positive Grid Spark PEDAL — partial compact discovery
+
+[Exact-model profile](POSITIVE-GRID.md#spark-pedal--partial-no-treadle-discovery), outside active counts. Manufacturer documents a direct TRS EXP input and a **Device Card Volume target separate from calibration**. All-preset persistence/override, pedal position, endpoints, bypass, headphones and tail/recorded-loop coverage remain unverified. Dedicated3.5mm phones; six presets selected as two banks ofthree, not a documented sequential preset−/+ pair. Published175L×104Wmm fits the preferred rectangle in one orientation. No individual LCD established; the LCD-first queue remains unchanged. Exact IDR hardware offers unknown.

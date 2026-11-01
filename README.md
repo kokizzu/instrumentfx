@@ -113,3 +113,5 @@ Incoming expression-volume sources from origin/main87c7d38 are preserved in the 
 [Atomic Ampli-Firebox MK II](ATOMIC-AMPS.md#ampli-firebox-mk-ii--partial-no-treadle-discovery) is a partial no-treadle hardware lead, outside active counts; direct analog expression qualification remains unsupported by its documented connector inventory.
 
 [Neural DSP Quad Cortex mini](NEURAL-DSP.md#quad-cortex-mini--partial-discovery) is a partial shared-screen,no-treadle discovery, outside active counts; its own expression andnavigation evidence is distinct from Quad Cortex andNano Cortex.
+
+[Positive Grid Spark PEDAL](POSITIVE-GRID.md#spark-pedal--partial-no-treadle-discovery) is a partial compact,no-treadle discovery outside active counts; device-menu EXP Volume is documented,while all-preset persistence andoutput coverage remain unverified. Shared app-list43/44-effect discrepancy retained.

@@ -138103,6 +138103,7 @@
     "HOLOGRAM.md",
     "MELOFTY.md",
     "MORNINGSTAR.md",
+    "POSITIVE-GRID.md",
     "RJM-MUSIC.md",
     "SINGULAR-SOUND.md",
     "STRYMON.md"
@@ -138731,5 +138732,28 @@
     "remaining": "Control-panelvisualandprimaryfullrotarycount,auxLCDspecifications,globalEXPscope/endpoints/recall/coverage andqualifiedmarketdetails remainopen.",
     "downloads": false,
     "inventory_change": false
+  },
+  "spark_pedal_partial_20261101": {
+    "root": "POSITIVE-GRID.md#spark-pedal--partial-no-treadle-discovery",
+    "checked": "2026-11-01",
+    "status": "Partial no-treadle audio processor lead,outside active counts,not fully verified",
+    "sources": [
+      "https://www.positivegrid.com/pages/spark-pedal",
+      "https://www.positivegrid.com/ca/pages/spark-pedal",
+      "https://help.positivegrid.com/hc/en-us/articles/47758018318349-Device-Card-Settings",
+      "https://help.positivegrid.com/hc/en-us/articles/8140276955917-Amp-Effect-List",
+      "https://help.positivegrid.com/hc/en-us/articles/43231630507789-Spark-PEDAL-User-Guide"
+    ],
+    "finding": "DirectTRSEXP;device-menuVolume target distinctfromcalibration;175Lx104Wrectangle;dedicatedphones;sixpresets/bankselection;USB44.1k24bit1In2Out;rechargeable5VUSBpower. NoindividualLCD established.",
+    "library": "Ownproduct33amps43effects;linkedsharedlist36amps-3exclusive=33;51effects-7exclusive=44. ResidualsnotcertifiedPEDALinventory;none arbitrarilyremoved.",
+    "remaining": [
+      "Globalassignmentallpreset/powerpersistence andoverride rules",
+      "Volume endpoints/heldposition/bypass/phones/backing/tail/loop coverage",
+      "Exacteffect inventory/CPUlimits/NAM/IRcapture",
+      "ExactShopee itemcondition/stock/bundle/IDR"
+    ],
+    "lcd_priority": "Known LCD gaps rechecked withoutnew proof;visualsurfaces unavailable andcurrentFenderguide readerblocked. Broaderinventory progression doesnotcloseorreorderLCDpriority.",
+    "general_cursor_preserved": true,
+    "downloads": false
   }
 }

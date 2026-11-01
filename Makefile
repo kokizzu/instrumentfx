@@ -2229,3 +2229,9 @@ expression-audit-stage-fractal:
 .PHONY: expression-audit-stage-zoom
 expression-audit-stage-zoom:
 	python3 scripts/expression_audit_zoom.py stage
+
+.PHONY: research-stage-positive-grid research-commit-positive-grid
+research-stage-positive-grid:
+	python3 scripts/positive_grid_catalogue.py stage
+research-commit-positive-grid:
+	python3 scripts/positive_grid_catalogue.py commit
