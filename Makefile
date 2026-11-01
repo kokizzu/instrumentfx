@@ -2217,3 +2217,7 @@ expression-audit-commit-mod:
 .PHONY: expression-audit-commit-hologram
 expression-audit-commit-hologram:
 	python3 scripts/expression_audit_mod.py commit-hologram
+
+.PHONY: research-commit-atomic
+research-commit-atomic:
+	python3 scripts/atomic_catalogue.py commit

@@ -138097,6 +138097,7 @@
     "hardware_test": false
   },
   "supplemental_brand_documents": [
+    "ATOMIC-AMPS.md",
     "FAMC.md",
     "GIGRIG.md",
     "HOLOGRAM.md",
@@ -138591,5 +138592,17 @@
     "correction": "Reconciled live remaining-work paragraph with existing own7.x category/instance table, three-voice monophonic Synth,384factory-filled locations,revision-qualified120secondstereo looper andglobalanalogvolume role. Preserved current-firmware andendpoint/recall/coverage gaps; no new capability or market claim.",
     "market_check": "Fresh exact-model Shopee searches returned the same three saved seller/item identities; no new ask orstock evidence admitted.",
     "next": "Individual-LCD models remain priority; no repeated unchanged-source passes. Independent BOSS GT-Pro cursor retained."
+  },
+  "atomic_firebox_mkii_partial_20261101": {
+    "root": "ATOMIC-AMPS.md#ampli-firebox-mk-ii--partial-no-treadle-discovery",
+    "status": "Partial no-treadle discovery; outside active counts, not fully verified.",
+    "sources": [
+      "https://atomicamps.com/amplifireboxmkii/",
+      "https://atomicamps.com/wp-content/uploads/2021/04/ATM_Ampli-FireBox-MarkII-Manual-2.pdf",
+      "https://atomicamps.com/atomic-amps-support/"
+    ],
+    "scope": "Exact MKII only; connector, hand-volume, headphone, preset-navigation, footprint and source conflict qualifications recorded in canonical root file.",
+    "market": "No exact Shopee item recovered; no price/stock/condition claim.",
+    "next": "Complete this lead only after LCD-first new-evidence tasks; retain independent BOSS GT-Pro cursor."
   }
 }

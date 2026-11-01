@@ -109,3 +109,5 @@ Incoming expression-volume sources from origin/main87c7d38 are preserved in the 
 [Hologram Chroma Console](HOLOGRAM.md#chroma-console--partial-discovery-lead) is a manufacturer-backed partial no-treadle discovery lead, outside active counts; preset expression mapping is distinct from global volume.
 
 [GigRig G3S](GIGRIG.md#g3s--controller-discovery-lead) is a partial display-controller lead with manufacturer-qualified OLED labels, outside active multi-effects counts.
+
+[Atomic Ampli-Firebox MK II](ATOMIC-AMPS.md#ampli-firebox-mk-ii--partial-no-treadle-discovery) is a partial no-treadle hardware lead, outside active counts; direct analog expression qualification remains unsupported by its documented connector inventory.

@@ -638,3 +638,7 @@ Nano Cortex [community desktop-editor lead](NEURAL-DSP.md#nano-cortex--official-
 [Exact-model record](HOLOGRAM.md#chroma-console--partial-discovery-lead), checked2026-11-01; outside active counts. Analog EXP mapping is **preset-stored** and limited to one primary control; secondary OUTPUT LEVEL/MIDI CC78 is a separate path. A global analog-volume assignment is unverified. Two onboard switches navigate backward/forward within the preset browser, with hold-to-load; no dedicated headphone socket in the published inventory. Manufacturer dimensions6×5×3in have unlabeled axes, so preferred W×D fit remains qualified. Exact Shopee hardware/IDR and output coverage remain unknown. This new partial lead does not displace the LCD-first queue.
 
 FM3 MKII Turbo [increment-control qualification](FRACTAL-AUDIO.md#fm3-mkii-turbo): Volume± triggers save the current preset,including unrelated unsaved edits;these functions are separate from continuous global Input/Output Volume assignment.
+
+### Atomic Ampli-Firebox MK II — partial no-treadle discovery
+
+[Exact-model screening](ATOMIC-AMPS.md#ampli-firebox-mk-ii--partial-no-treadle-discovery), outside active counts. Tracks connector-based analog-expression limitation, headphones, configurable preset navigation and compact footprint separately. Hand-operated LEVEL is not a verified pedal assignment. Remaining profile and market gaps are explicit; this lead does not displace LCD-first research.
