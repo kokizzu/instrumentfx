@@ -4742,6 +4742,18 @@ Checked **2026-11-01** in [Zoom’s own V2 manual](https://zoomcorp.com/media/do
 
 Direct analog FP02M assignment, calibration and global-volume scope remain separate. No controller connected, software installed or local download performed.
 
+
+### G11 — historical interrupted-update and IR-name fixes
+
+Checked **2026-11-01**, [manufacturer G11 firmware history through2.10](https://zoomcorp.com/documents/3432/G11_FirmwareVersionHistory_ver210_en.pdf),one-page original. Its **March2021 /1.50** entry documents two fixes:
+
+| Field | Revision-qualified finding / boundary |
+|---|---|
+| Firmware / interrupted effect-update boot fix | G11 could fail to boot properly after an **effect update through Guitar Lab was interrupted**. This is a documented historical bug fix,not proof of a current-unit failure,a firmware-update failure,or a recovery procedure. No interruption ordevice test performed. |
+| Firmware / USB-import IR-name fix | Imported IR names could display incorrectly after loading via USB memory. The history describes a naming/display issue;it does not establish corrupted IR audio,additional formats orchanged storage capacity. |
+
+The same history labels January2021 /1.41 an IR function update without itemizing its behavior. Do not assign the later March fixes to1.41 merely because its version label precedes them in extracted text. Current support-listed2.10 remains separate from installed-unit firmware. No software orfiles downloaded.
+
 <!-- comparison evidence ends -->
 
 ### G11 — independent historical control-count corroboration

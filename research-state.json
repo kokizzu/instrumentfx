@@ -138277,5 +138277,20 @@
     "change": "Anchor generic feature labels; preserve Other relevant/important features and explicitly live labels. All canonical evidence retained.",
     "validation": "Focused regression failed before fix and passed after; full comparison coverage preview contains 402 records with no missing evidence.",
     "priority": "Individual footswitch LCD processors remain first research priority; general cursor unchanged."
+  },
+  "g11_interrupted_update_history_20261101": {
+    "status": "manufacturer historical fixes recorded; partial model remains",
+    "source": "https://zoomcorp.com/documents/3432/G11_FirmwareVersionHistory_ver210_en.pdf",
+    "revision": "March2021 version1.50 in history through2.10",
+    "findings": [
+      "Interrupted Guitar Lab effect updates could prevent proper boot; historical fix, not a tested current fault or recovery procedure.",
+      "USB-memory IR import could show incorrect names; no inferred audio corruption."
+    ],
+    "limits": [
+      "No local downloads, installation or hardware operation.",
+      "January2021 version1.41 IR update lacks itemized details.",
+      "Installed library and firmware remain unverified; global external-volume gaps unchanged."
+    ],
+    "next": "Continue missing individual-LCD matches and remaining exact G5/G5n/G11 evidence gaps; independent general cursor unchanged."
   }
 }
