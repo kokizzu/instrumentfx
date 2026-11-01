@@ -497,6 +497,18 @@ Checked **2026-11-01**, [ELECTORI X1 manual](https://electori.co.jp/tcelectronic
 
 The manual calls the display LCD butdoesnot independently specify IPS,diagonal,color,touch orper-switch placement. Its reset instructions erase slot effects,TonePrints andfootswitch settings;no reset performed. Partial lead remains outside active counts. No local download ordevice operation.
 
+### PLETHORA X1 — manufacturer-authored V2 factory map and display pickup
+
+Checked2026-11-01 in the [manufacturer-authored Quick Start Guide reproduced by Suono Store](https://shop.suonostore.com/wp-content/uploads/2024/12/GUIDA-RAPIDA-TC-ELECTRONIC-PLETHORA-X1-TONEPRINT-PEDALE-MULTIEFFETTO-PER-CHITARRA.pdf), **V2.0,©2024,17 PDF pages**, English printed pp6–8. Exact X1 title, numbered controls, sockets and factory table identify the document. This differs from the separately retained18-page Rev0 manual; byte/revision equivalence is not claimed. Manufacturer CDN originals were inaccessible; original document text only, not retailer instructions or generated FAQs.
+
+| Field | Revision-qualified evidence / limit |
+|---|---|
+| Memory / manufacturer factory map | Seven Board rows each name A/B factory TonePrints: **14 documented occupied slots**. This corroborates the regional factory map as a manufacturer-authored historical configuration, not current-unit contents, protected factory banks or simultaneous effects. The table labels include “Mimic Doubler” and “Shaker Tremolo”; retain those literal labels without inventing different algorithms. |
+| Display / parameter pickup | With global Parameter Pick-up ON, shared A/B/C knobs must reach a saved value before changing it; the display indicates the pickup position. OFF gives direct knob-position behavior. This is rotary-control handling, not analog external-pedal recall, global volume or screen-technology proof. |
+| Editor / connection scope | Only **one host device** may connect over USB or Bluetooth at a time. This does not establish USB audio, USB power or a second simultaneous editor connection. |
+
+The guide still says DISPLAY without certifying LCD/OLED, IPS, diagonal, color, touch or exact physical screen-to-switch placement. X1 remains a partial lead outside active counts. No local download, device operation or visual inspection.
+
 ## PLETHORA X3
 
 Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified.

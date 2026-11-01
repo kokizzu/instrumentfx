@@ -138648,5 +138648,13 @@
     "finding": "Transcribed exact MKII category choices, constrained routing, described amp census, IR portability and replacement-memory scope; preserved manufacturer amp-count inconsistency.",
     "status": "Partial lead stays outside active counts; current installed firmware and full profile remain unverified.",
     "next": "Continue LCD-first new-evidence tasks; finish Atomic bypass,tail andremaining profile checks before admission. Independent BOSS GT-Pro cursor unchanged."
+  },
+  "plethora_x1_v2_factory_pickup_20261101": {
+    "root": "TC-ELECTRONIC.md#plethora-x1--manufacturer-authored-v2-factory-map-and-display-pickup",
+    "source": "https://shop.suonostore.com/wp-content/uploads/2024/12/GUIDA-RAPIDA-TC-ELECTRONIC-PLETHORA-X1-TONEPRINT-PEDALE-MULTIEFFETTO-PER-CHITARRA.pdf",
+    "identity": "Manufacturer original QSG V2.0,copyright2024,17PDFpages,Englishprinted6–8; not byte-equated to retained18pageRev0.",
+    "finding": "Manufacturer-authored factory-map corroboration,rotary pickup/display feedback andsingle-host connection boundary now recorded.",
+    "limits": "No screen-technology/placement closure,global analogvolume assertion,currentunit filling orinventory admission. Retailer USB audio/power assertions not promoted to manufacturer facts.",
+    "next": "Confirmed individual-LCD models first; X1 remains pending layout/technology and full profile. Independent BOSS GT-Pro cursor unchanged."
   }
 }
