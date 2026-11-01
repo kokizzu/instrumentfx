@@ -17,4 +17,4 @@ if __name__ == '__main__':
     assert not git('diff', '--check').strip(), 'Whitespace errors'
     git('add','--',*sorted(changed))
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(tc): qualify X1 regional factory-slot and library counts'))
+    print(git('commit','-m','research(tc): document X5 historical Board loading safeguards'))
