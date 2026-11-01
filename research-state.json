@@ -138270,5 +138270,12 @@
     "remaining": "German specification3.5mm conflict retained; physical inspection pending. French panel still says mini screen without LCD/OLED classification or census. No active admission or later firmware equivalence.",
     "downloads": false,
     "active_counts_changed": false
+  },
+  "comparison_feature_projection_20261101": {
+    "status": "verified regression fix",
+    "finding": "Unanchored extra/feature matches duplicated editor features and extraction caveats into stage columns.",
+    "change": "Anchor generic feature labels; preserve Other relevant/important features and explicitly live labels. All canonical evidence retained.",
+    "validation": "Focused regression failed before fix and passed after; full comparison coverage preview contains 402 records with no missing evidence.",
+    "priority": "Individual footswitch LCD processors remain first research priority; general cursor unchanged."
   }
 }

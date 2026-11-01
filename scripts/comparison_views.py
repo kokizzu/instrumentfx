@@ -687,7 +687,7 @@ GROUPS = {
     'io': r'^midi\b|^control / usb$|^audio(?: /| levels| noise)|^instrument / input requirements$|^midi / backup$|^analog|^conversion(?: /|$)|^audio(?:/control| inputs?| outputs?)$|^level conflict$|^built-in instrument wireless$|\bports?\b|connections?|i/o|^inputs?|^(?:main )?outputs?|^aux|headphones?|fx loop|microphone|phantom|pickup|midi.*usb|usb.*control|data.*control|control.*data|instrument.*loop|instrument.*aux',
     'power': r'^manual / revision conflicts$|power|battery|^dc|^supply$',
     'editor': r'^usb\b|app|software|edit|config|record|usb.*audio|^audio$|^usb$|^digital|^audio interface$',
-    'live': r'\btuner\b|^save / tuner / gate$|^tuner / bypass$|automation|live|practice|practical|stage|loop|drum|extra|feature|scene|firmware|routing|operation',
+    'live': r'\btuner\b|^save / tuner / gate$|^tuner / bypass$|automation|live|practice|practical|stage|loop|drum|^extra|^other.*feature|^feature|scene|firmware|routing|operation',
 }
 
 def clean(value):
@@ -903,6 +903,13 @@ def test_field_projection():
     for label in ('Editor / IR import', 'Editor / NAM conversion', 'Software / capture loading', 'Editor / synth / imports'):
         record = {'facts': [{'field': label, 'value': 'Tone model loading', 'context': ''}]}
         assert 'Tone model loading' in cell(record, 'loading'), label
+    for label in ('Editor / Suite feature scope', 'Software / feature availability'):
+        record = {'facts': [{'field': label, 'value': 'Application feature', 'context': ''}]}
+        assert 'Application feature' in cell(record, 'editor'), label
+        assert 'Application feature' not in cell(record, 'live'), 'Generic software feature leaked into stage column'
+    for label in ('Features', 'Extra features', 'Other relevant features', 'Other important features', 'Editor / live controls'):
+        record = {'facts': [{'field': label, 'value': 'Stage feature', 'context': ''}]}
+        assert 'Stage feature' in cell(record, 'live'), label
     assert 'Retained qualified evidence' not in cell({'facts': [{'field': 'Manufacturer identity', 'value': 'Retained qualified evidence', 'context': ''}]}, 'processing')
     verify_field_coverage({'Brand::Model': {'facts': [
         {'field': 'USB / mode selection', 'value': 'Documented routing'},
