@@ -536,6 +536,17 @@ Checked **2026-11-01** in the [manufacturer-authored3.80 RevG manual reproductio
 
 No preset edited,pedal connected,local download ordevice test. Existing directUSB1/2 bypass andbuilt-in-treadle exclusions remain.
 
+
+### Helix Floor — Windows ARM driver qualification
+
+Checked **2026-11-01** in the [manufacturer HELIX Support FAQ](https://kb.line6.com/helix-support-faq),specifically its Windows ARM question. The page distinguishes original Helix,Helix Rack/Control andLT elsewhere;this is manufacturer Helix/HX driver-family guidance,not a Stadium-specific transfer.
+
+| Field | Manufacturer statement / practical boundary |
+|---|---|
+| Editor / Windows ARM support | FAQ answers **No** to Windows ARM compatibility andexplains that Helix/HX drivers **have not been tested on ARM CPU platforms**,including Snapdragon. Thus the existing Windows10/11 OS labels do not certify ARM support. “Untested” is not proof of failure on every ARM host;no native ARM build,emulation workaround ordriverless Windows mode is established here. [Exact manufacturer FAQ](https://kb.line6.com/helix-support-faq). |
+
+The FAQ supplies no separate revision/date ordriver version for this answer. It also retains historical feature prose elsewhere,so its page-wide crawl date is not a firmware release date. Existing3.80 hardware/HX Edit3.82,Mac-class-compliant audio anddriver-dependent Windows audio/MIDI qualifications remain independently sourced. Standalone analog processing is not assessed bythis computer-driver statement. No installer,driver ormanual downloaded;no hardware orhost test.
+
 <!-- comparison evidence ends -->
 
 ### Helix Floor provenance and gaps

@@ -138342,5 +138342,14 @@
       "status": "Excluded from exact prices and no-treadle shortlist; no inferred chassis change/global-volume capability"
     },
     "next": "Remaining confirmed individual-LCD evidence gaps and exact offers; general GT-Pro cursor preserved."
+  },
+  "helix_floor_windows_arm_20261101": {
+    "model": "Helix Floor",
+    "source": "https://kb.line6.com/helix-support-faq",
+    "checked": "2026-11-01",
+    "finding": "Manufacturer Helix/HX Windows driver FAQ answers No and explains ARM CPUs including Snapdragon are untested; generic Windows10/11 OS labels do not certify ARM support.",
+    "qualification": "No driver version or per-answer date; mixed historical FAQ not a firmware timestamp. Untested does not establish universal failure; no emulation workaround or native ARM build inferred.",
+    "limits": "No local download,installation orhardware test. Standalone analog processing andexisting Mac audio evidence unaffected.",
+    "next": "Other confirmed individual-LCD substantive gaps; avoid unchanged source loops. Independent general GT-Pro cursor preserved."
   }
 }
