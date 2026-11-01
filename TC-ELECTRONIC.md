@@ -486,6 +486,17 @@ Checked **2026-11-01**, [exact manufacturer0709-AJN page](https://www.tcelectron
 
 The page still lists firmware1.1.13 andTonePrint4.7.2. Its current retrieved text does not identify LCD technology;preserve the independently qualified regional1-inch IPS LCD andNeo-specific primary evidence. No new IDR offer,inventory admission,local download ordevice operation.
 
+### PLETHORA X1 — regional factory-slot occupancy and library conflict
+
+Checked **2026-11-01**, [ELECTORI X1 manual](https://electori.co.jp/tcelectronic/pdf/PLETHORA_X1_manual_jp.pdf),sevenPDFpages,©2025;exactX1cover andnumbered controls match the recorded model. Distributor-authored,not a manufacturer revision certificate;no firmware version printed.
+
+| Field | Regional document finding / boundary |
+|---|---|
+| Memory / documented factory filling | Printedp5 has **seven Board rows,two named A/B TonePrints each:14 occupied slots**. First pair:Hall ofFame2/Mimiq;last pair:Sub’N’Up/Helix. This is the manual’s factory map,not current-unit contents,protected memory,14simultaneous effects ora firmware-independent reset guarantee. |
+| Categories / internal count conflict | Printedp3 enumerates **15 named effect types**,including **Alter Ego**,but **not Infinite**,under14-effect wording. Preserve this separately from the later regional1.1.13 webpage’s16-type list andmanufacturer14 headline;no reconciled current census inferred. |
+
+The manual calls the display LCD butdoesnot independently specify IPS,diagonal,color,touch orper-switch placement. Its reset instructions erase slot effects,TonePrints andfootswitch settings;no reset performed. Partial lead remains outside active counts. No local download ordevice operation.
+
 ## PLETHORA X3
 
 Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified.
