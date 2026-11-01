@@ -60,6 +60,18 @@ Checked **2026-11-01** against the manufacturer articles linked below. Shared ap
 
 No MIDI sent, presets changed, firmware downloaded or hardware tested. Analog Volume target scope, endpoint/recall/coverage and the43/44-effect discrepancy remain unresolved. Partial discovery status and active counts are unchanged.
 
+### Spark PEDAL — app backups and looper applicability conflict
+
+Checked **2026-11-01**. The [exact PEDAL app guide][PG-APPGUIDE],updated September18,2026,links both articles below. Their own scope and revision take precedence over assuming every linked instruction applies unchanged.
+
+| Field | Evidence / qualification |
+|---|---|
+| Memory / app-library backup | [Backup article,updated October18,2026][PG-BACKUP]: **Tone Vault holds up to ten whole app-preset-library snapshots**,introduced in **Spark app4.6.0**. Restoring replaces the current library. Ten snapshots are not ten onboard presets,scenes or complete device images. The article does not establish backup of global EXP settings,firmware or recorded loops. |
+| Editor / backup transition | Same article says **Dropbox backup support is being retired in2027**,recommending Tone Vault. It gives no exact retirement day. The older PEDAL index still describes Dropbox;preserve that dated wording rather than presenting it as the only current method. No account connected or backup performed. |
+| Looper / model-scope conflict | PEDAL index labels its link “Simple Looper and Groove Looper on Spark PEDAL”,but the [linked article,updated October1,2026][PG-LOOPER],explicitly lists **Spark2 and Spark EDGE only**. Its power-cycle loop persistence and Groove drum instructions are therefore **not verified PEDAL capabilities**. Keep the separate own-model60-second looper evidence;PEDAL retention,Groove availability and expression attenuation of loops remain unknown. |
+
+This narrows the app-backup field and records a manufacturer cross-reference conflict;it does not resolve full-system backup or global volume. Partial status and active counts remain unchanged. No local download or device operation.
+
 [PG-P]: https://www.positivegrid.com/pages/spark-pedal
 [PG-CA]: https://www.positivegrid.com/ca/pages/spark-pedal
 [PG-G]: https://help.positivegrid.com/hc/en-us/articles/43231630507789-Spark-PEDAL-User-Guide
@@ -74,3 +86,6 @@ No MIDI sent, presets changed, firmware downloaded or hardware tested. Analog Vo
 [PG-CHAIN]: https://help.positivegrid.com/hc/en-us/articles/8141176035725-Adjusting-Effects-and-Presets
 [PG-MIDI]: https://help.positivegrid.com/hc/en-us/articles/47499545258509-MIDI-Control-Commands-Setup
 [PG-FW]: https://help.positivegrid.com/hc/en-us/articles/43231598990861-Spark-PEDAL-Firmware-Release-Notes
+
+[PG-BACKUP]: https://help.positivegrid.com/hc/en-us/articles/8141122585869-Backup-Restore-Presets-in-the-Spark-app
+[PG-LOOPER]: https://help.positivegrid.com/hc/en-us/articles/47557771640461

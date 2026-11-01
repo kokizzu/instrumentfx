@@ -138799,5 +138799,20 @@
     "root": "ZOOM.md#g5n--independent-historical-panel-control-lead",
     "remaining": "Manufacturer separate-button census/visual corroboration,LCD diagonal/color/touch,current library andqualified new-condition offers",
     "inventory_change": false
+  },
+  "spark_pedal_backup_looper_scope_20261101": {
+    "checked": "2026-11-01",
+    "root": "POSITIVE-GRID.md#spark-pedal--app-backups-and-looper-applicability-conflict",
+    "sources": [
+      "https://help.positivegrid.com/hc/en-us/articles/47499454651789",
+      "https://help.positivegrid.com/hc/en-us/articles/8141122585869-Backup-Restore-Presets-in-the-Spark-app",
+      "https://help.positivegrid.com/hc/en-us/articles/47557771640461"
+    ],
+    "backup": "Tone Vault ten app-library snapshots since app4.6.0;restore replaces library;Dropbox retirement2027 without exactday",
+    "conflict": "PEDAL index labels Simple/Groove looper link forPEDAL;linked guide expressly listsSpark2/EDGE only. Do nottransfer persistence/drums.",
+    "remaining": "Full-device/globalEXP/loop-audio backup;PEDAL power-cycle loop retention/Groove availability;globalvolume range/recall/coverage andlibrary43vs44 conflict",
+    "active": false,
+    "inventory_change": false,
+    "downloads": false
   }
 }
