@@ -138604,5 +138604,26 @@
     "scope": "Exact MKII only; connector, hand-volume, headphone, preset-navigation, footprint and source conflict qualifications recorded in canonical root file.",
     "market": "No exact Shopee item recovered; no price/stock/condition claim.",
     "next": "Complete this lead only after LCD-first new-evidence tasks; retain independent BOSS GT-Pro cursor."
+  },
+  "g3n_exact_soldout_offer_20261101": {
+    "source": "https://shopee.co.id/ZOOM-G3n-Guitar-Multi-Effect-Pedal-Looper-i.517299743.40561908857",
+    "seller": "vendingatang",
+    "shop": "517299743",
+    "item": "40561908857",
+    "idr": 1200000,
+    "region": "Kab. Bandung",
+    "stock": "Both three-month search and three-week opened snapshots say Habis.",
+    "condition": "Unknown; no verified used/new classification.",
+    "qualification": "Historical ask, no current-stock or completed-sale claim; delivery stale and activity discrepancy preserved; no compensation deducted.",
+    "pending_grid_leads": {
+      "source": "https://shopee.co.id/search?category=11043572&keyword=efek+gitar+zoom&page=3&sortBy=relevancy&subcategory=11043648",
+      "checked": "2026-11-01",
+      "access": "Yesterday-crawled search grid only; exact item/seller/variant unresolved. Excluded from hardware price ranges.",
+      "titles": [
+        "efek gitar zoom g3n. mulus fullset like new no minus garansi.normal dan presisi",
+        "Zoom G3n Efek Gitar, Adaptor Ori, Normal, Original, No Minus, Hanya Ganti Knop 6 biji"
+      ]
+    },
+    "next": "Resolve pending exact identities without inferring condition or stock. LCD-first queue and independent BOSS GT-Pro cursor retained."
   }
 }
