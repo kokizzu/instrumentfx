@@ -6,6 +6,7 @@
 - [Incoming capability evidence, 2026-10-18](#incoming-capability-evidence-2026-10-18)
 - [Nano Cortex](#nano-cortex)
 - [Quad Cortex](#quad-cortex)
+- [Quad Cortex mini — partial discovery](#quad-cortex-mini--partial-discovery)
 <!-- brand-index ends -->
 
 ## Incoming capability evidence, 2026-10-18
@@ -294,3 +295,32 @@ No download orvisual inspection claimed;current web documentation does not prove
 ### Quad Cortex — expression assignment, recall and output boundary
 
 Checked2026-10-28 in [own4.1.1 manual](https://neuraldsp.com/manual/quad-cortex),Expression Pedals/Master Volume/Global Controls. Assignments target Grid-block parameters withadjustable/reversible MIN/MAX;Set Parameters as Defaults can retain assignments forblocks. Calibration isglobal. Pedal position/toe state persist onpreset loads rather than being saved;assigned values areexcluded fromScenes. These do not establish an all-preset expression-to-master override. Master knob output-checkbox selection isseparate. Dedicatedphones confirmed;EXP attenuation ofphones,bypass,tails andrecordedloops remains unknown. BANKUP/DOWN selectpresets inScene/Stomp modes;Preset mode insteadbanks thenA–H selection.290×195mm failspreferredrectangleeitherorientation. Existing ordinaryguitar/bass processing andtwoTRSEXP inputs retained;layout lacks abuilt-intreadle. No hardware test ordownload.
+
+## Quad Cortex mini — partial discovery
+
+Checked2026-11-01. Exact **mini**, announced **2026-01-21** as guitar/bass hardware [QCM-N]. Separate from Quad Cortex and Nano Cortex. **Outside active counts and ALL-instrument rows** pending complete profile verification. Earlier ledger search-query mentions were not a model record.
+
+| Field | Exact-model evidence / qualification |
+|---|---|
+| Display / layout | Shared **7-inch color touchscreen**, four rotary footswitches; eight Scene/Stomp assignments use two pages, not eight physical switches or individual LCD strips. [QCM-P] |
+| Controls | Four stomp/rotary encoders; dedicated +/− volume buttons; mechanical power switch separate. Full visual census pending. [QCM-M] |
+| Ordinary guitar / analog expression | Instrument INPUT1; one¼-inch TRS EXP input. Expression2 is MIDI-only. No built-in treadle identified; exact resistance/pinout and mini-specific dual-output toe wiring remain unverified. [QCM-P,M] |
+| Assignment / global-volume scope | Assign parameters from a **Grid block** and set reversible MIN/MAX. Global calibration and held-position retention across preset loads are documented; neither establishes universal volume assignment without per-preset blocks. All-preset global override remains **UNVERIFIED**, not No. [QCM-M] |
+| Volume position / coverage | Calibration indicator0.00–1.00 is not an audio attenuation range. Defaults can retain block assignments. Bypass/headphone/tail/recorded-loop attenuation and global endpoints remain unverified. [QCM-M] |
+| Headphones / navigation | Dedicated3.5mm stereo phones. SCENE/STOMP: hold A+C preset down, B+D up; PRESET mode uses those pairs for banks of four. Separate from expression coverage. [QCM-P,M] |
+| Footprint / mass | Published22.8×11.8×6.5cm;1.5kg. Product calls22.8×11.8cm the footprint;228mm side exceeds preferred200mm even before cable clearance. Axes not silently relabeled. [QCM-N,P] |
+| Processing / categories | Product advertises200+ Virtual Devices,2000+ Captures,1000+ IRs. These are library headlines, not simultaneous-block counts or complete per-category inventories. CPU/routing ceilings remain pending. [QCM-P] |
+| Memory |3072 user presets;2048 user Captures;2048 user IRs. Factory rig-preset filling unverified;2000+ Factory Device Presets are not extra rig slots. [QCM-P] |
+| Audio / control I/O |¼-inch TS input1; combo XLR/TRS input2/capture with phantom; shared TRS SEND1/2 and RETURN1/2; stereo XLR and¼-inch TS outputs; phones; TRS EXP;3.5mm Type-A MIDI IN/OUT-THRU; USB-C; DC. [QCM-P] |
+| Power |12V DC1.2A,center-negative2.1/5.5mm locking connector; supply included. Battery/USB operation and measured draw unverified; original Quad Cortex3A specification not transferred. [QCM-P] |
+| IR / capture / NAM | User IR storage and Neural Capture V1/V2 support listed. Creation/version/online limits,accepted IR formats/lengths and native/converted NAM remain pending. [QCM-P] |
+| Editor / USB | Cortex Control listed; USB audio8-in/8-out. OS/architecture and complete MIDI behavior pending. [QCM-P] |
+| Firmware | Product advertises CorOS4.1.0; own HTML manual identifies4.1.1. No installed-version assertion. [QCM-P,M] |
+| Other features | Scenes,Hybrid andLooper documented; exact looper timing/retention,drums,synth/acoustic distinctions remain unverified. [QCM-P] |
+| IDR / exact hardware | New/used unknown. Exact Shopee Indonesia mini search recovered no qualified item; not evidence of absence. Seller/item,condition,variant,bundle,stock,region,voucher anddelivered total unresolved. |
+
+Partial status preserves the remaining fields explicitly; no inventory admission,hardware test,software installation orlocal download. Shared-screen classification does not displace individual-LCD processors in the priority queue.
+
+[QCM-N]: https://neuraldsp.com/news/introducing-quad-cortex-mini
+[QCM-P]: https://neuraldsp.com/quad-cortex-mini
+[QCM-M]: https://neuraldsp.com/manual/quad-cortex-mini

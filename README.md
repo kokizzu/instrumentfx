@@ -111,3 +111,5 @@ Incoming expression-volume sources from origin/main87c7d38 are preserved in the 
 [GigRig G3S](GIGRIG.md#g3s--controller-discovery-lead) is a partial display-controller lead with manufacturer-qualified OLED labels, outside active multi-effects counts.
 
 [Atomic Ampli-Firebox MK II](ATOMIC-AMPS.md#ampli-firebox-mk-ii--partial-no-treadle-discovery) is a partial no-treadle hardware lead, outside active counts; direct analog expression qualification remains unsupported by its documented connector inventory.
+
+[Neural DSP Quad Cortex mini](NEURAL-DSP.md#quad-cortex-mini--partial-discovery) is a partial shared-screen,no-treadle discovery, outside active counts; its own expression andnavigation evidence is distinct from Quad Cortex andNano Cortex.

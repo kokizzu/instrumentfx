@@ -644,3 +644,7 @@ FM3 MKII Turbo [increment-control qualification](FRACTAL-AUDIO.md#fm3-mkii-turbo
 [Exact-model screening](ATOMIC-AMPS.md#ampli-firebox-mk-ii--partial-no-treadle-discovery), outside active counts. Tracks connector-based analog-expression limitation, headphones, configurable preset navigation and compact footprint separately. Hand-operated LEVEL is not a verified pedal assignment. Remaining profile and market gaps are explicit; this lead does not displace LCD-first research.
 
 Atomic [processing and memory scope](ATOMIC-AMPS.md#ampli-firebox-mk-ii--processing-and-memory-scope) now has an exact-manual category census and explicit library conflicts; this does not change the analog-expression limitation or partial admission status.
+
+### Neural DSP Quad Cortex mini — partial no-treadle discovery
+
+[Exact-model profile](NEURAL-DSP.md#quad-cortex-mini--partial-discovery), outside active counts. Documents analog EXP,headphones,mode-specific preset navigation andfootprint separately. Block assignments andretained position do not establish global volume across all presets;output coverage remains open. Shared main screen is separate from the first-priority individual-LCD layout.
