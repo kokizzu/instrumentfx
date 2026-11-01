@@ -4360,6 +4360,18 @@ The separate [manufacturer DSP chart](https://zoomcorp.com/documents/1326/E_G5n_
 
 This example exceeds the published DSP ceiling even with only four selected types. It illustrates why **unit occupation andDSP budget must both be checked**;it is not a device test,a measured CPU percentage ora claim about which effect becomes bypassed. Later pool additions/current installed costs remain unverified. Existing PROCESS OVERFLOW behavior andfirmware efficiency qualifications are retained. No local download,software installation orhardware operation.
 
+### G5n — revision-qualified rhythm and looper reliability
+
+Checked **2026-11-01** in Zoom’s one-page **Z2I-2935-02** histories: [English through3.00](https://zoomcorp.com/documents/3435/G5n_System_Firmware_Version_History_ver300_en.pdf) and [Japanese through3.00](https://zoomcorp.com/documents/3493/G5n_System_Firmware_Version_History_ver300_jp.pdf). Both identify the same February2017 revision;the Japanese list independently clarifies the English extraction’s trailing version labels.
+
+| Field | Historical finding / boundary |
+|---|---|
+| Firmware / rhythm-looper fixes | **2.00,February2017** documents fixes for slight noise on the rhythm track andoccasional failed loop recording **when looper andrhythm operate together**. This adds reliability context to the capacity/quantization figures;it is not evidence of a current-unit failure,an audio measurement ora newly reproduced defect. [Own English history](https://zoomcorp.com/documents/3435/G5n_System_Firmware_Version_History_ver300_en.pdf). |
+
+Installed firmware andpresent behavior remain untested. These fixes do not establish persistent loops,preset-change continuity,USB channel count orglobal expression-volume coverage. No update,software installation,local download ordevice operation.
+
+A separate [Shopee search-grid lead](https://shopee.co.id/search?keyword=g5N&page=3),two-month snapshot,advertises “efek gitar zoom g5n modifikasi tanpa pedal volume,”Rp1.700.000,Surakarta. Exact seller/item identity,modification details,dimensions,working state andstock remain unresolved. It is **excluded from exact hardware prices andthe no-treadle capability shortlist**;a seller’s pedal-removal wording does not establish a manufacturer variant,smaller chassis orfunctional global external volume.
+
 ## G6
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

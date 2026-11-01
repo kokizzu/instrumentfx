@@ -138323,5 +138323,24 @@
     ],
     "limits": "No live stock, checkout, confirmed new/used range or completed sale. Bundle/adapter/warranty/revision/working state/delivered total unknown; conditional compensation not deducted.",
     "next": "LCD-first queue unchanged; original G5 control census/display properties and expression coverage still unresolved. General GT-Pro cursor preserved."
+  },
+  "g5n_rhythm_looper_reliability_20261101": {
+    "status": "historical manufacturer fixes recorded; partial model remains",
+    "revision": "2.00 February2017; Z2I-2935-02 histories through3.00",
+    "sources": [
+      "https://zoomcorp.com/documents/3435/G5n_System_Firmware_Version_History_ver300_en.pdf",
+      "https://zoomcorp.com/documents/3493/G5n_System_Firmware_Version_History_ver300_jp.pdf"
+    ],
+    "finding": "Fixes slight rhythm-track noise and occasional failed looper recording during simultaneous rhythm/looper operation.",
+    "limits": "Not a current-unit defect or test; no firmware installed or downloaded. Global-volume,USB channel andphysical gaps unchanged.",
+    "modified_offer_lead": {
+      "url": "https://shopee.co.id/search?keyword=g5N&page=3",
+      "title": "efek gitar zoom g5n modifikasi tanpa pedal volume",
+      "ask_idr": 1700000,
+      "region": "Surakarta (Solo)",
+      "access": "two-month search grid; exact seller/item unresolved",
+      "status": "Excluded from exact prices and no-treadle shortlist; no inferred chassis change/global-volume capability"
+    },
+    "next": "Remaining confirmed individual-LCD evidence gaps and exact offers; general GT-Pro cursor preserved."
   }
 }
