@@ -138410,5 +138410,14 @@
     "qualification": "No discontinuation date,future maintenance or dealer stock guarantee. Existing OutputVP assignment/endpoints/output coverage unknowns unchanged;no new model admission.",
     "next": "Continue individual-LCD inventory and unresolved exact-model evidence;do not repeat unchanged G3n OutputVP sources as progress. Independent BOSS GT-Pro cursor preserved.",
     "downloads": false
+  },
+  "g5n_asio_many_thread_fix_20261101": {
+    "checked": "2026-11-01",
+    "source": "https://zoomcorp.com/documents/3434/G5n_Audio_Driver_Version_History_ver120_en.pdf",
+    "destination": "ZOOM.md#g5n",
+    "finding": "G5n ASIO1.2.0 June2023 fixes intermittent audio I/O andDAW freezes forAbletonLive/PreSonusStudioOne onmany-thread WindowsCPUs.",
+    "qualification": "Separate fromfirmware3.0 andGuitarLab;doesnot resolveUSBchannels,routing,power orARM. ExactShopee searches repeatedsavedoffers withoutnewcondition/stock evidence.",
+    "next": "Prioritize remaining individual-LCD discovery andexactmodel blockers;avoid repeating unchangedG5n USBchannel search. GeneralBOSS GT-Pro cursor remains independent.",
+    "downloads": false
   }
 }
