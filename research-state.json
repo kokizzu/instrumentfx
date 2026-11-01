@@ -138389,5 +138389,14 @@
     "status": "Partial lead,outsideactivecounts;notcurrentunit/resetcontentsorprotectedmemory proof",
     "operations": "No localdownload,software,deviceoperationorreset",
     "next": "LCD-first newevidence;X1completeprofile/qualifiedShopeeandprimarydisplayplacementremainopen;GT-Pro generalcursorpreserved."
+  },
+  "fm9_mkii_family_factory_filling_20261101": {
+    "checked": "2026-11-01",
+    "source": "https://support.fractalaudio.com/en-US/installing-factory-presets-1410465",
+    "destination": "FRACTAL-AUDIO.md#fm9-mkii-turbo--manufacturer-family-factory-filling",
+    "finding": "Manufacturer FM9-family support:384 editable factory-loaded locations000–383,offset001–384;not additional to512 total.",
+    "qualification": "No revision-specific shipping or installed-content certification. Older unknown retained in historical checkpoints;current summary qualified. No transfer into other exact-model profiles this checkpoint.",
+    "downloads": false,
+    "active_counts_changed": false
   }
 }
