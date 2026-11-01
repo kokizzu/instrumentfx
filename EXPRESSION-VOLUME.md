@@ -642,3 +642,5 @@ FM3 MKII Turbo [increment-control qualification](FRACTAL-AUDIO.md#fm3-mkii-turbo
 ### Atomic Ampli-Firebox MK II — partial no-treadle discovery
 
 [Exact-model screening](ATOMIC-AMPS.md#ampli-firebox-mk-ii--partial-no-treadle-discovery), outside active counts. Tracks connector-based analog-expression limitation, headphones, configurable preset navigation and compact footprint separately. Hand-operated LEVEL is not a verified pedal assignment. Remaining profile and market gaps are explicit; this lead does not displace LCD-first research.
+
+Atomic [processing and memory scope](ATOMIC-AMPS.md#ampli-firebox-mk-ii--processing-and-memory-scope) now has an exact-manual category census and explicit library conflicts; this does not change the analog-expression limitation or partial admission status.

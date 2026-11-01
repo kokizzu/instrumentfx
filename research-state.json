@@ -138625,5 +138625,28 @@
       ]
     },
     "next": "Resolve pending exact identities without inferring condition or stock. LCD-first queue and independent BOSS GT-Pro cursor retained."
+  },
+  "atomic_firebox_mkii_processing_20261101": {
+    "root": "ATOMIC-AMPS.md#ampli-firebox-mk-ii--processing-and-memory-scope",
+    "source": "https://atomicamps.com/wp-content/uploads/2021/04/ATM_Ampli-FireBox-MarkII-Manual-2.pdf",
+    "pages": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "finding": "Transcribed exact MKII category choices, constrained routing, described amp census, IR portability and replacement-memory scope; preserved manufacturer amp-count inconsistency.",
+    "status": "Partial lead stays outside active counts; current installed firmware and full profile remain unverified.",
+    "next": "Continue LCD-first new-evidence tasks; finish Atomic bypass,tail andremaining profile checks before admission. Independent BOSS GT-Pro cursor unchanged."
   }
 }

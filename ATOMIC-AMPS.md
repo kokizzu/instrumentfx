@@ -32,3 +32,21 @@ Remaining: full effect/category and concurrency census; factory/user memory deta
 [AF-S]: https://atomicamps.com/atomic-amps-support/
 
 Source identity: manufacturer-hosted29-page manual V1, exact MKII front-panel labels; original text inspected, not generated FAQs. Product page contains OUT OF STOCK alongside an undated March15 shipment banner; neither proves current Indonesian availability. No original-model, AmpliFIRE-family or bundle specification transferred.
+
+### Ampli-Firebox MK II — processing and memory scope
+
+Checked2026-11-01 in [manufacturer manual V1,pp8–21][AF-M]. Document census, not a current installed-library inspection.
+
+| Field | Documented choices / qualification |
+|---|---|
+| Architecture | Eight editor blocks; fixed core order. One pre-EQ plus three EQ modules selectable before/after amp; not freely reorderable blocks. |
+| Compressor | Two modes: Studio, Pedal. |
+| Boost | Five: Overdrive, Screamer, Distortion, Fuzz, Clean Boost. |
+| EQ | Thirteen selections including None and Gain Only; first/second-order low/high pass and shelves; Bandpass, Notch, Peaking. Not thirteen simultaneous EQs. |
+| Echo | Five: Digital, Analog, Tape Echo, Dark Tape, Soft Digital; maximum1365ms. |
+| Reverb | Seven: Small, Medium, Large, Spring, Spring2, Plate, Cavern. |
+| Amp description census | US Clean; D Luxe; D Luxe2; ’59 B Man; Top Boost; Top Boost2; Plexi; Brit800; Hot Brit; Recto;5051; Kornfield; SLO; Freeman BE/HBE; Rumble/Bright; Marc IV Lead/EQ; Arkhan; SV Tee; EL34/6L6/KT88/EL84 power models. Expanding paired variants yields **25 described choices**, not reconciliation of the manual’s20/26 claims. |
+| IR / preset portability |1024-point IRs; WAV import; IR data travels with exported presets. Accepted rates/bit depths remain unverified. |
+| Memory | Import replaces the selected Favorite after SAVE; computer preset files do not add onboard locations. |
+
+The partial lead remains outside active counts. Category counts are choices, not a guaranteed concurrency ceiling. Factory reset contents, firmware4.2 equivalence and the older manual’s inconsistent amp totals remain open. Native NAM, converted NAM and captures are not established by cabinet-IR import. No local download or device operation.

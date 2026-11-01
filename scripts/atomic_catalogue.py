@@ -6,6 +6,8 @@ import comparison_views
 
 if __name__ == '__main__':
     assert sys.argv[1:] == ['commit']
+    import subprocess
+    subprocess.run([sys.executable, "scripts/brand_sort.py", "verify"], check=True)
     verify()
     comparison_views.verify_views()
     comparison_views.test_readme_brand_counts()
@@ -18,4 +20,4 @@ if __name__ == '__main__':
     print(git('diff', '--', *sorted(changed)))
     git('add', '--', *sorted(changed))
     print(git('diff', '--cached', '--stat'))
-    print(git('commit', '-m', 'research(atomic): add qualified Ampli-Firebox MK II partial lead'))
+    print(git('commit', '-m', 'research(atomic): document MKII category and memory boundaries'))
