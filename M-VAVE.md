@@ -1064,8 +1064,8 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 | Synth / acoustic | Synth algorithms and acoustic simulation remain unverified. |
 | Ports / power | 6.35 mm TS input/output;XLR balanced output;3.5 mm headphones;phone-recording output;USB-C. **USB5V ≥300mA,200mA draw;3000mAh/3.7V battery**. |
 | IR | User mono WAV, 24-bit/44.1 kHz/1024-point IR. |
-| NAM / amp-format loading | Original TANK-B v96 (2024-12-31) lists AM3 support. Official converter v1.0.7 lists NAM→AM3DATA: together these support a converted-format route, not native NAM. Architecture limits, conversion fidelity and end-to-end file compatibility remain unverified. The v99 (2026-01-31) heading explicitly names TANK-B V2 and AM4; do not transfer that compatibility to original hardware. [Original release notes](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/TANK-B.txt), [V2 notes](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/TANK-BV2.txt), [converter changelog](https://www.cuvave.com/appdownload). |
-| Editor / firmware platforms | M-EFCS Windows/macOS/iOS/Android lists TANK-B explicitly. M-UPGRADE is a separate firmware updater. The download index lists original and V2 at v99, but both linked v99 release headings name V2; original-hardware compatibility needs confirmation. |
+| NAM / amp-format loading | **v100 notes,2026-10-28:** AM-series,NAM andCAB import,audition,adjustment andsaving via companion software. Native `.nam` parsing,conversion requirements andaccepted architectures are not specified here;do not borrow TANK-G’s conversion instruction. Earlier originalv96 AM3 +converter1.0.7 NAM→AM3DATA remains a converted route. The preservedv99 entry explicitly labels TANK-BV2/AM4. [Own current notes](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/TANK-B.txt);[V2 notes](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/TANK-BV2.txt);[converter changelog](https://www.cuvave.com/appdownload). |
+| Editor / firmware platforms | M-EFCS Windows/macOS/iOS/Android;M-UPGRADE separately. **v100 notes explicitly cover TANK-B andTANK-Bv2,requiring the firmware matching hardware**;not one interchangeable binary. Current index listsbothv100 dated2026-10-27,while release headers say2026-10-28. Earlier v99 index/header ambiguity is retained historically;v100 applicability doesnot retroactively settle v99. [Current index](https://www.cuvave.com/download);[notes](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/TANK-B.txt). |
 | Firmware / recording / control | Original v46 (2024-03-27) adds Computer Loopback switching in EFCS v1.2 and MIDI PC selection of 36 presets (PC00–35), with CC control of individual modules in live/preset mode. MIDI transport and exact CC mapping remain unverified; no DIN port inferred. Original v96 describes USB recording/playback timing fixes, not a verified channel count or sample rate. |
 | Extras | USB audio/OTG,selectable loopback,live/preset,Bluetooth backing. A product-search looper claim is not verified by the checked manual. |
 
@@ -1081,6 +1081,19 @@ Historical retail **Rp1.079.000 SOLD OUT**, [Seven Stereo16879370/25087213852](h
 | Conflicting cached ask;opened body sold out | **Rp939.999 search / Rp1.079.000 opened** | [HAWILA MUSIK INDONESIA,shop130137603/item15649372409](https://shopee.co.id/Portable-Efek-Gitar-mvave-M-Vave-Tank-B-Bass-Multi-Effect-Processor-Origin-i.130137603.15649372409),Kota Surabaya. Search two-month crawl;opened two-week crawl explicitly **Habis**,5–6October delivery. Preserve both cache states. |
 
 All three are JS-limited asking-price observations. Original/V2 hardware,used/new condition,working state,selected variant,bundle/charger,warranty,authenticity,live stock,shipping/tax and delivered total remain unverified. Late-delivery compensation is not a price discount. None establishes a completed sale or a qualified new/used range.
+
+
+### TANK-B — v100 import, saving and hardware scope
+
+Checked **2026-11-01**. Read the complete manufacturer [TANK-B notes](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/TANK-B.txt),98lines,and [TANK-BV2 notes](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/TANK-BV2.txt),85lines. Both v100 sections explicitly cover both revisions with hardware-specific firmware. Their headers say **2026-10-28**;the [index](https://www.cuvave.com/download) says **2026-10-27**. Preserve the date conflict.
+
+| Field | Revision-qualified behavior / boundary |
+|---|---|
+| Loading / v100 audition | AM-series,NAM andCAB audition/edit/save through companion software;CAB-off audition restoresCABoff onexit. This doesnot specify native-file loading orNAM architectures. |
+| Firmware / v100 state fixes | Fixes saving model edits/names altering untouched parameters,missing audio after import into anempty slot,andstartup-preset storage after app preset changes. Tuner transitions preserve audition/edits;factory-reset storage/restoration improved. Historical release claims,not reproduced tests. |
+| Memory / upgrade boundary | Older-version upgrades may reset **presets andglobal settings**;the maker advises backup andchecking/restoring afterward. Binary interchangeability andbackup completeness remain unverified. |
+
+The older v99 header still namesBV2;do not infer universal AM4 compatibility fromthe newer v100 applicability statement. No update,reset,backup,model import,software installation orlocal download performed. Original physical I/O andabsence ofanalogEXP remain independent.
 
 <!-- comparison evidence ends -->
 

@@ -138364,5 +138364,19 @@
     "source_conflict": "Current v97 header says TANK-G,earlier2026-10-17 observation said TANK-GV2; preserve both,physical revision compatibility unresolved.",
     "limits": "No local download,software installation ordevice operation; NAM architecture/conversion method/fidelity unknown. Original physical mono ports notchanged by stereo processing.",
     "next": "Commit exact TANK-G finding before another model; LCD priority and independent GT-Pro cursor preserved. Actual M-VAVE controller identity requested separately."
+  },
+  "tank_b_v100_scope_20261101": {
+    "checked": "2026-11-01",
+    "model": "original M-VAVE TANK-B; V2 separately qualified",
+    "sources": [
+      "https://www.cuvave.com/download",
+      "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/TANK-B.txt",
+      "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/TANK-BV2.txt"
+    ],
+    "finding": "v100 explicitly applies to both with hardware-specific files;AM/NAM/CAB import,audition,adjust/save,includingCAB-off audition. Model-save,empty-slot audio,startup-preset,tuner-audition andfactory-reset fixes.",
+    "date_conflict": "Index2026-10-27 versusbothreleaseheaders2026-10-28",
+    "upgrade_boundary": "Older upgrades may resetpresets/globalsettings;backups advised. No device operationperformed.",
+    "limits": "NativeNAM versusconverted route/architectures notspecified;do nottransferTANK-G instructions. v99BV2/AM4boundaryretained. No physicalEXP added.",
+    "next": "Continue LCD-first newevidence whenavailable andremaining no-treadle research;independentGT-Procursorunchanged."
   }
 }
