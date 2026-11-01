@@ -138681,5 +138681,16 @@
     },
     "validation": "All13 first-three cells preserved;each newcell matched sourceaudit. Unknown/factory-layout/firmware qualifiers retained. Active counts unchanged.",
     "next": "Continue individual-LCD new-evidence gaps;independent BOSS GT-Pro cursor retained."
+  },
+  "g5_catalogue_pre_switch_roles_20261101": {
+    "checked": "2026-11-01",
+    "model": "Zoom G5 original",
+    "root": "ZOOM.md#g5--catalogue-pre-tap-and-external-switch-roles",
+    "source": "https://zoomrussia.ru/manuals/FX_Catalog_E.pdf",
+    "identity": "Zoom Winter2015 catalogue,January2015,copyrightZoom;printed7–8/PDF5;regional mirror",
+    "finding": "Original analog XLR PRE alongside processed mains;catalogue prints D/A,not inferred A/D schematic. FS01 roles include delay/reverb input mute andDelay Hold on/off.",
+    "remaining": "Global external volume assignment/endpoints/recall andPRE/phones/tails/loops attenuation remain unverified;built-in-treadle exclusion unchanged.",
+    "downloads": false,
+    "inventory_change": false
   }
 }
