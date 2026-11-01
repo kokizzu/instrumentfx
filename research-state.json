@@ -138692,5 +138692,16 @@
     "remaining": "Global external volume assignment/endpoints/recall andPRE/phones/tails/loops attenuation remain unverified;built-in-treadle exclusion unchanged.",
     "downloads": false,
     "inventory_change": false
+  },
+  "fm3_cablab4_import_workflow_20261101": {
+    "checked": "2026-11-01",
+    "model": "Fractal Audio FM3 MKII Turbo",
+    "source": "https://www.fractalaudio.com/downloads/manuals/cab-lab/4p0/Cab-Lab-4-Manual.pdf",
+    "revision": "v1.01 October30,2025 pp2,12–13;explicit FM3 family applicability,MKII firmware minima unstated",
+    "root": "FRACTAL-AUDIO.md#fm3-mkii-turbo--cab-lab-4-conversion-and-user-cab-storage",
+    "finding": "Computer converts mono deconvolved WAV of any source rate/depth;Standard .syx orUltraRes .syx+.ir,FM3-Edit import;numbered User Cab storage differs from per-preset selection;standalone writeshardware,plugin exportsfiles;capture utility explicitly Axe-FxIII.",
+    "preserved": "7.x .ir remix-format wording retained as older scope;conversion input support does not prove universal direct-hardware WAV import,IR length limits,NAM oronboard amp capture.",
+    "downloads": false,
+    "inventory_change": false
   }
 }

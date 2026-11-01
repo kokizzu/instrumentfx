@@ -2221,3 +2221,7 @@ expression-audit-commit-hologram:
 .PHONY: research-commit-atomic
 research-commit-atomic:
 	python3 scripts/atomic_catalogue.py commit
+
+.PHONY: expression-audit-stage-fractal
+expression-audit-stage-fractal:
+	python3 scripts/expression_audit_fractal.py stage
