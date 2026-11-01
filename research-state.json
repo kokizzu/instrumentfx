@@ -135937,7 +135937,7 @@
     "hardware_test": false
   },
   "lcd_priority_checkpoint_20261101": {
-    "instruction": "Prioritize individual LCDs at effect footswitches before OLED/shared screens/controllers.",
+    "instruction": "Superseded interpretation: user means separate footswitch screens including OLED. Use footswitch_screen_priority_correction_20261101 andrequested shortlist.",
     "checked": "2026-11-01",
     "discovery": {
       "candidate": "Harley Benton DNAfx GiT Advanced",
@@ -135961,7 +135961,7 @@
         "result": "2.10 February2025 bank-name/scroll fixes already recorded; no new firmware finding."
       }
     ],
-    "next": "Continue fresh exact-model individual-LCD discovery; reopen G5/G5n/G11 gaps with new primary evidence. Keep global-volume and visual blockers explicit. Independent BOSS GT-Pro cursor preserved.",
+    "next": "Complete requested separate-screen processor gaps across LCD/OLED;then broader matches. Keep independent BOSS GT-Pro cursor.",
     "downloads": false,
     "new_model_admissions": 0
   },
@@ -138814,5 +138814,18 @@
     "active": false,
     "inventory_change": false,
     "downloads": false
+  },
+  "footswitch_screen_priority_correction_20261101": {
+    "request": "Separate screen per effect footswitch,including OLED;do not useLCDtechnology as exclusion/priority filter",
+    "models": [
+      "Line6 HX Effects",
+      "Line6 Helix Stadium XL Floor",
+      "Fender Tone Master Pro",
+      "MELOFTY AXOM MAX",
+      "HeadRush Prime",
+      "Fractal Audio FM3/FM9 variants"
+    ],
+    "previous_interpretation": "Prioritize individual LCDs at effect footswitches before OLED/shared screens/controllers.",
+    "qualification": "AXOM MAX remains explicit requested partial candidate;count/layout/technology gaps remain. No new specification/market claims oractive admissions."
   }
 }

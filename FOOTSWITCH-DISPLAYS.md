@@ -6,13 +6,28 @@ This collection includes **every brand requested**: HeadRush, Line 6 beyond HX E
 
 Separate physical displays, labels drawn on one shared screen, and LED rings are different layouts. LCD/OLED technology and screen-to-switch counts need exact-model evidence. Audio processors and MIDI controllers remain separate; controller entries do not enter active multi-effects counts. This collection does not certify launch recency, complete profiles, prices or stock.
 
+## Requested separate-screen shortlist — first priority
+
+Here “LCD on the footswitch” means a **separate physical label screen associated with an effect footswitch**,including OLED scribble strips. Display technology is a specification,not a reason to omit or deprioritize a requested model. A shared main-screen label orLED ring alone is different.
+
+| Requested model | Separate footswitch screens | Canonical record / qualification |
+|---|---|---|
+| **Line 6 HX Effects** | **6 LCD strips**,for switches1–6 | [HX Effects](LINE6.md#hx-effects);MODE/TAP have no extra strips. |
+| **Line 6 Helix Stadium XL Floor** | **12 OLED strips** | [Stadium XL](LINE6.md#helix-stadium-xl-floor);XL-specific,with separate8-inch main touchscreen. |
+| **Fender Tone Master Pro** | **10 dedicated LCDs**,one per footswitch/encoder | [Tone Master Pro](FENDER.md#tone-master-pro);separate7-inch main touchscreen. |
+| **MELOFTY AXOM MAX** | Footswitch/pedal mini screens documented;exact count/placement/technology still qualified | [AXOM MAX](MELOFTY.md#axom-max--partial-discovery-lead). Explicit requested candidate stays in this shortlist;manufacturer7-inch main touchscreen is separate. Partial,outside active counts. |
+| **HeadRush Prime** | **12 OLED strips**,one per footswitch | [Prime](HEADRUSH.md#prime);separate7-inch main touchscreen. |
+| **Fractal Audio FM3 / FM9 variants** | **3 /9 individual mini LCDs** | [FM3](FRACTAL-AUDIO.md#fm3-mkii-turbo),[FM9](FRACTAL-AUDIO.md#fm9-mkii-turbo);original,Turbo andMKII revisions remain separate records below. |
+
+Continue unresolved fields for these requested processors before the broader Zoom/TC list andcontroller-only hardware. Unknown screen technology doesnot remove AXOM MAX from the requested queue. Existing source andcapability qualifications remain in each brand record.
+
 ## Audio processors
 
-### Individual LCDs at effect footswitches — first priority
+<a id="individual-lcds-at-effect-footswitches--first-priority"></a>
 
-Research these LCD matches before OLED, shared-screen and unconfirmed-technology candidates. Extra navigation switches may lack a screen; screen counts do not imply total switch counts. Audio processors with confirmed individual LCDs also take priority over controller-only hardware. The next work is missing exact-model LCD matches and the remaining G5/G5n/G11 gaps; revisit other LCD models when new evidence is available.
+### Individual LCDs at effect footswitches
 
-Continuation checkpoint (2026-11-01): **missing individual-LCD models → remaining G5/G5n/G11 gaps → other confirmed LCD processors when new evidence becomes available**. HX Effects, FM3 MKII Turbo, PLETHORA X5 and Tone Master Pro have received follow-up passes; their unresolved fields remain open. Avoid repeating unchanged sources merely to keep the queue moving. First resolve each model’s direct analog expression-volume assignment, range/recall and output coverage, then remaining physical/control and qualified Indonesia-offer gaps. This is a research queue, not a ranking or a claim that these meet all requirements. Preserve the independent general-model cursor. A previous documentation pass does not close unresolved fields: keep these LCD candidates ahead of the deferred M-VAVE wiring and broader no-treadle queue until their remaining checks are completed or a specific evidence blocker is recorded.
+The requested shortlist above determines research priority across LCD andOLED technology. The following tables group existing evidence bytechnology for reference. Extra navigation switches may lack a screen;screen counts do not imply total switch counts orverified global volume. Keep model-specific unresolved fields andthe independent general-model cursor.
 
 | Brand / model | Display-layout status | Record / next check |
 |---|---|---|
@@ -71,7 +86,9 @@ Comparison of the existing qualified brand records, checked 2026-11-01. These mo
 
 These are comparison extracts, not new verification of global volume assignment, pedal electrical compatibility, display diagonal/color/touch, or current offers. Follow each brand link for original sources, firmware scope and remaining gaps. In particular, G11 effects can occupy two visible Effects Section parts, so five effect LCDs do not guarantee five independent effects visible at once.
 
-### Individual OLEDs at effect footswitches — secondary priority
+<a id="individual-oleds-at-effect-footswitches--secondary-priority"></a>
+
+### Individual OLEDs at effect footswitches
 
 These match the separate-display layout, with OLED technology rather than LCD.
 

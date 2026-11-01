@@ -2239,3 +2239,7 @@ research-commit-positive-grid:
 .PHONY: expression-audit-stage-mod
 expression-audit-stage-mod:
 	python3 scripts/expression_audit_mod.py stage
+
+.PHONY: research-stage-display-collection
+research-stage-display-collection:
+	python3 scripts/display_audit_melofty.py stage-collection

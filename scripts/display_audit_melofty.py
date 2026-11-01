@@ -9,6 +9,33 @@ verify()
 comparison_views.verify_views()
 comparison_views.test_readme_brand_counts()
 comparison_views.test_validation_counts()
+if sys.argv[1:] in (["stage-collection"], ["collection"]):
+    import hashlib
+    import json
+    from pathlib import Path
+    allowed = {"FOOTSWITCH-DISPLAYS.md", "MULTI-EFFECTS.md", "README.md", "research-state.json", "scripts/display_audit_melofty.py", "Makefile"}
+    changed = set(git("diff", "--name-only").splitlines()) | set(git("ls-files", "--others", "--exclude-standard").splitlines())
+    staged = set(git("diff", "--cached", "--name-only").splitlines())
+    assert (changed | staged) <= allowed, (changed | staged) - allowed
+    review_path = Path("/tmp/instrumentfx-display-staged-review.json")
+    assert not git("diff", "--check").strip()
+    if sys.argv[1:] == ["stage-collection"]:
+        assert changed and not staged, "Existing staging or no changes"
+        git("add", "--", *sorted(changed))
+        diff = git("diff", "--cached")
+        Path("/tmp/instrumentfx-display-staged.diff").write_text(diff)
+        review_path.write_text(json.dumps({"head": git("rev-parse", "HEAD").strip(), "sha256": hashlib.sha256(diff.encode()).hexdigest()}))
+        print(git("diff", "--cached", "--stat"))
+        print("Review /tmp/instrumentfx-display-staged.diff before make research-commit-display-collection")
+    else:
+        assert staged and not changed, "Stage and review all intended changes first"
+        review = json.loads(review_path.read_text())
+        assert review["head"] == git("rev-parse", "HEAD").strip()
+        assert review["sha256"] == hashlib.sha256(git("diff", "--cached").encode()).hexdigest()
+        assert not git("diff", "--cached", "--check").strip()
+        print(git("commit", "-m", "docs: restore requested separate-screen processor priority"))
+    raise SystemExit(0)
+
 assert not git("diff", "--cached", "--name-only").strip(), "Existing staged work"
 allowed = {"GIGRIG.md", "FAMC.md", "RJM-MUSIC.md", "SINGULAR-SOUND.md", "MELOFTY.md", "MULTI-EFFECTS.md", "research-state.json", "Makefile", "scripts/display_audit_melofty.py", "FOOTSWITCH-DISPLAYS.md", "EXPRESSION-VOLUME.md", "README.md", "MORNINGSTAR.md"}
 changed = set(git("diff", "--name-only").splitlines()) | set(git("ls-files", "--others", "--exclude-standard").splitlines())

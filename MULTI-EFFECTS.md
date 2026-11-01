@@ -404,7 +404,7 @@ Original finding references: [Source1](NUX.md#trident-nme-5)<!-- historical-link
 
 [Complete requested-brand collection, including pending models and controllers](FOOTSWITCH-DISPLAYS.md).
 
-This layout comparison follows the requested HX Effects-style per-switch labels. It does not certify launch recency, full profiles or current stock.
+This layout comparison follows the requested HX Effects-style **separate physical screens**,including OLED scribble strips. The [requested shortlist](FOOTSWITCH-DISPLAYS.md#requested-separate-screen-shortlist--first-priority) includes HX Effects,Helix Stadium XL,Fender Tone Master Pro,MELOFTY AXOM MAX,HeadRush Prime andFractal FM3/FM9. It does not certify launch recency, full profiles or current stock.
 
 | Model | Separate switch displays | Processor scope | Qualification |
 |---|---|---|---|
@@ -412,3 +412,7 @@ This layout comparison follows the requested HX Effects-style per-switch labels.
 | [TC Electronic PLETHORA X3](TC-ELECTRONIC.md#plethora-x3) | Three LCD slot displays for three effect switches | TonePrint multi-effects | No external analog EXP socket in complete inventory; MASH and MIDI expression are separate. |
 | [Line 6 HX Effects](LINE6.md#hx-effects) | Six LCD strips for switches1–6; eight total footswitches | Effects-only; nine DSP-limited blocks | MODE/TAP do not have two extra strips; touch switches are not touchscreens. |
 | [MELOFTY AXOM MAX](MELOFTY.md#axom-max--partial-discovery-lead) — partial lead | Manufacturer manual confirms footswitch/pedal mini screens; exact count/placement/technology pending | Audio multi-effects/modeler, with built-in treadle | Separate 7-inch color touchscreen; outside active inventory pending full profile. |
+| [Line 6 Helix Stadium XL Floor](LINE6.md#helix-stadium-xl-floor) | Twelve OLED scribble strips | Amp/effects processor | XL-specific strips;separate8-inch main touchscreen. |
+| [Fender Tone Master Pro](FENDER.md#tone-master-pro) | Ten individual LCDs | Amp/effects processor | One per footswitch/encoder;separate7-inch touchscreen. |
+| [HeadRush Prime](HEADRUSH.md#prime) | Twelve individual OLED strips | Guitar/vocal amp/effects processor | Separate7-inch main touchscreen;OLED qualifies for this layout. |
+| [Fractal FM3 / FM9](FRACTAL-AUDIO.md#fm3-mkii-turbo) | Three /nine mini LCDs | Amp/effects processors | Revisions remain separate in the full collection. |
