@@ -138755,5 +138755,19 @@
     "lcd_priority": "Known LCD gaps rechecked withoutnew proof;visualsurfaces unavailable andcurrentFenderguide readerblocked. Broaderinventory progression doesnotcloseorreorderLCDpriority.",
     "general_cursor_preserved": true,
     "downloads": false
+  },
+  "spark_pedal_chain_midi_firmware_20261101": {
+    "checked": "2026-11-01",
+    "root": "POSITIVE-GRID.md#spark-pedal--fixed-chain-firmware-and-midi-boundaries",
+    "sources": [
+      "https://help.positivegrid.com/hc/en-us/articles/8141176035725-Adjusting-Effects-and-Presets",
+      "https://help.positivegrid.com/hc/en-us/articles/47499545258509-MIDI-Control-Commands-Setup",
+      "https://help.positivegrid.com/hc/en-us/articles/43231598990861-Spark-PEDAL-Firmware-Release-Notes"
+    ],
+    "finding": "Exact PEDAL guide links fixed7-positionchain including1amp. MIDIpublishedchannel1,PC0–5sixslots,CC0–6effecttoggles,CC7tuner,CC8valuechangetap,CC20min0/max127outputvolume. Firmware2.10.1.175andinitial2.8.1.101bothdatedSeptember9,2026;articleupdatedOctober19.",
+    "remaining": "MIDIvaluesnotanalogendpoints;globalEXPallpresetpersistence,coverage andlibrary43/44discrepancy remainunverified. Partialoutsideactivecounts.",
+    "previous_processing_row": "| Processing / categories | Product advertises **33 amps /43 effects**. Exact simultaneous-block ceiling and DSP/routing restrictions remain unknown. Four FX knobs each have four labeled choices; these are selectors, not16 simultaneous blocks. App can substitute additional effects at those positions. [Product][PG-P];[Modes][PG-MODES] |",
+    "downloads": false,
+    "inventory_change": false
   }
 }
