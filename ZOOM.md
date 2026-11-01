@@ -4071,6 +4071,17 @@ Checked **2026-11-01** in the [manufacturer-authored original G5 manual reproduc
 
 No download, device test or visual panel inspection. Built-in Z-Pedal exclusion from the no-treadle shortlist remains.
 
+### G5 — exact Hope Music and ex-display hardware offers
+
+Checked **2026-11-01**,original G5,notG5n. Exact item identities now distinguish these offers from older shop/search-grid leads. Both are cached **Habis** listings,not current-stock orcompleted-sale evidence.
+
+| Field | Asking evidence / qualification |
+|---|---|
+| IDR / condition unknown; sold out | **Rp2.200.000**,**Hope Music**,KotaBandung,shop703817770/item14399773978,[exact G5 hardware item](https://shopee.co.id/Efek-Gitar-Zoom-G5-i.703817770.14399773978). Two-month search snapshot explicitly saysHabis;direct reader returns only aJavaScript shell. August16–18 delivery andseller activity are cached,not stock proof. New/used,working state,revision,adapter,bundle,warranty,authenticity,shipping/tax andcheckout unknown. Do not merge the shop’s differently titled Tube Booster grid asks into this item. |
+| IDR / seller-described ex-display; sold out | **Rp2.900.000**,**Metz Art Music**,KotaDepok,shop25192604/item21165793518,[exact “Zoom G5 New Ex Display” item](https://shopee.co.id/Zoom-G5-New-Ex-Display-i.25192604.21165793518). Four-month search snapshot andthree-week direct cache both sayHabis andthe same ask. “New Ex Display” is seller wording,not independently verified pristine-new orused condition. Runtime,working state,revision,adapter,bundle,warranty,authenticity,shipping/tax andcheckout unknown. Cached next-day delivery does not override sold-out status. |
+
+Late-delivery vouchers are conditional compensation,not immediate hardware discounts;none deducted. Preserve all older offers independently. No local download,checkout,hardware inspection ornew/used price-range claim.
+
 ## G5n
 
 Reviewed **2026-10-17** after fresh exact Shopee hardware discovery. New catalogue record, no ownership assertion. Discontinued according to Zoom; reseller offers can remain historical. Partial: no software, firmware, manual file or dependency downloaded or installed. Official manual evidence below is search-indexed text, not a fresh PDF/image inspection.
