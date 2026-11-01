@@ -6,6 +6,8 @@ import comparison_views
 
 if __name__ == '__main__':
     assert sys.argv[1:] in (['commit'], ['commit-505'], ['commit-606'], ['commit-607'])
+    import subprocess
+    subprocess.run([sys.executable, "scripts/brand_sort.py", "verify"], check=True)
     verify()
     comparison_views.verify_views()
     comparison_views.test_readme_brand_counts()
@@ -22,5 +24,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): qualify additional exact G3n sold-out offer'
+        message='docs(zoom): enforce brand ordering before research commits'
     print(git('commit','-m',message))

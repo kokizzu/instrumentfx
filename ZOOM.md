@@ -3567,7 +3567,6 @@ Checked **2026-11-01**.
 
 Older exact offers remain independently qualified. No checkout, local download or hardware test.
 
-
 ## G3X
 
 Original guitar multi-effects with expression; distinct from G3 and G3Xn. Manufacturer marks discontinued. Checked2026-10-17; partial. Bass/vocal suitability and ownership unestablished.
