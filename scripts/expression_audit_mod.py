@@ -1,21 +1,39 @@
-"""Validate and commit reviewed MOD Audio research; no workflows."""
+"""Validate and publish a reviewed MOD Audio controller research."""
 import sys
+import hashlib
+from pathlib import Path
 sys.dont_write_bytecode = True
 from research_tools import git, verify
 import comparison_views
 
 if __name__ == '__main__':
-    assert sys.argv[1:] in (['commit'], ['commit-hologram'])
+    assert sys.argv[1:] in (['stage'], ['commit'], ['commit-hologram'])
+    review_path = Path('/tmp/instrumentfx-mod-staged-review.json')
     verify()
     comparison_views.verify_views()
     comparison_views.test_readme_brand_counts()
     comparison_views.test_validation_counts()
-    assert not git('diff', '--cached', '--name-only').strip(), 'Existing staged changes'
-    allowed = {'HOLOGRAM.md', 'MOD-AUDIO.md', 'README.md', 'MULTI-EFFECTS.md', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'scripts/comparison_views.py', 'FOOTSWITCH-DISPLAYS.md', 'EXPRESSION-VOLUME.md', 'research-state.json', 'scripts/expression_audit_mod.py', 'Makefile'}
-    changed = set(git('diff', '--name-only').splitlines()) | set(git('ls-files', '--others', '--exclude-standard').splitlines())
-    assert changed and changed <= allowed, changed - allowed
-    assert not git('diff', '--check').strip(), 'Whitespace errors'
-    git('add', '--', *sorted(changed))
-    print(git('diff', '--cached', '--stat'))
-    message = 'research(hologram): add qualified Chroma Console expression lead' if sys.argv[1:] == ['commit-hologram'] else 'research(mod): preserve unresolved Indonesia Duo bundle lead'
-    print(git('commit', '-m', message))
+    allowed = {'HOLOGRAM.md', 'README.md', 'MULTI-EFFECTS.md', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'EXPRESSION-VOLUME.md', 'scripts/comparison_views.py', 'MOD-AUDIO.md', 'FOOTSWITCH-DISPLAYS.md', 'research-state.json', 'scripts/expression_audit_mod.py', 'Makefile'}
+    changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
+    staged = set(git('diff','--cached','--name-only').splitlines())
+    assert (changed | staged) <= allowed, (changed | staged) - allowed
+    assert not git('diff','--check').strip(), 'Whitespace errors'
+    if sys.argv[1:] == ['stage']:
+        assert not staged, 'Existing staged changes'
+        assert changed, 'No changes to review'
+        git('add','--',*sorted(changed))
+        diff = git('diff','--cached')
+        Path('/tmp/instrumentfx-mod-staged.diff').write_text(diff)
+        import json
+        review_path.write_text(json.dumps({'head': git('rev-parse','HEAD').strip(), 'sha256': hashlib.sha256(diff.encode()).hexdigest()}))
+        print(git('diff','--cached','--stat'))
+        print('Review /tmp/instrumentfx-mod-staged.diff before make expression-audit-commit-mod')
+    else:
+        assert staged and not changed, 'Stage and review all intended changes first'
+        import json
+        review = json.loads(review_path.read_text())
+        assert review['head'] == git('rev-parse','HEAD').strip(), 'HEAD changed since review'
+        assert review['sha256'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest(), 'Staged diff changed since review'
+        assert not git('diff','--cached','--check').strip(), 'Staged whitespace errors'
+        message = 'research(hologram): add qualified Chroma Console expression lead' if sys.argv[1:] == ['commit-hologram'] else 'research(mod): classify XF4 shared-display controller'
+        print(git('commit','-m',message))

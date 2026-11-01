@@ -133,6 +133,7 @@ These match the separate-display layout, with OLED technology rather than LCD.
 
 | Brand / model | Display-layout status | Record / next check |
 |---|---|---|
+| MOD Audio **Footswitch XF4** — partial controller lead | Independent review reports **two LCD screens for four switches**;exact manufacturer screen census/placement pending | [Qualified controller record](MOD-AUDIO.md#footswitch-xf4--partial-controller-discovery). Host-powered Control Chain peripheral;listed0.4.1 feedback revision andpagination limit qualified. Outside confirmed individual-LCD processor matches andactive counts. |
 | Morningstar **MC6 PRO** | **Three color LCDs for six switches**, rather than six individual displays | [Manufacturer-backed controller record](MORNINGSTAR.md#mc6-pro). Switches use nearest displayed preset labels; outside audio processor counts. |
 | Morningstar **MC8 PRO** | **Four color LCD screens for eight switches**, rather than eight individual displays | [Exact manufacturer manual/product record](MORNINGSTAR.md#mc8-pro). Controller only; original MC8 and MC6 PRO remain separate. |
 

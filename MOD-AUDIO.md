@@ -6,6 +6,7 @@
 **Model and section index — A–Z, natural numeric order**
 
 - [Duo](#duo)
+- [Footswitch XF4 — partial controller discovery](#footswitch-xf4--partial-controller-discovery)
 <!-- brand-index ends -->
 
 ## Duo
@@ -145,3 +146,17 @@ Checked **2026-11-01**. An [OLX Indonesia category snapshot](https://www.olx.co.
 **Unresolved lead only:** no exact item URL/ID,seller,condition,stock,working state,revision,adapter,warranty,shipping/tax ordelivered total was recovered. The title describes a **Duo+TS7 bundle**,not a standalone Duo price;no price is allocated between its components. This non-Shopee category result is excluded from qualified hardware offers andnew/used ranges. Existing no-condition-qualified-Shopee findings remain unchanged. Next useful step is recovery of the exact item;repeated category snapshots alone will not qualify it.
 
 No seller contacted,purchase initiated,download ordevice operation. LCD-to-footswitch placement remains unresolved;this market lead adds no specification evidence.
+
+## Footswitch XF4 — partial controller discovery
+
+Checked **2026-11-01**. Host-dependent Control Chain peripheral, **outside active audio-processor counts** and the confirmed one-LCD-per-switch shortlist. Separate from the Duo processor.
+
+| Field | Evidence / qualification |
+|---|---|
+| Display / physical census | Independent [Sound On Sound Duo X review](https://www.soundonsound.com/reviews/mod-devices-mod-duo-x) describes **four footswitches and two LCD screens** on the expansion controller. This is secondary evidence for shared displays,not four dedicated LCDs;manufacturer exact screen-to-switch placement,diagonal,color/touch andcomplete control census remain unverified. |
+| Host / connection / power | [Manufacturer Control Chain documentation](https://wiki.mod.audio/wiki/Control_Chain) describes automatic actuator discovery,host-supplied power via a regular Ethernet patch cable,and Main/Next connectors for chaining. This is Control Chain,not a network Ethernet connection orproof of standalone MIDI/audio processing. Electrical ratings remain unknown. |
+| Firmware / display feedback | [Manufacturer controller release table](https://wiki.mod.audio/wiki/Control_Chain_Releases) lists **0.4.1,March16,2021**,fixing WebGUI addressing-value changes;0.4.0,November26,2020 adds feedback,coloured lists,momentary toggle andtap-tempo. Firmware version is shown onthe right display at boot. Listed releases do not establish installed firmware orcurrent production. |
+| Mapping limit | The [manufacturer FAQ](https://wiki.mod.audio/wiki/FAQ) says control pagination is not yet supported onMOD Footswitch. Do not transfer Duo X/Dwarf pagination tothis peripheral. Revision applicability afterthe page remains untested. |
+| Hardware offers / remaining profile | No exact Shopee Indonesia hardware item recovered byXF4/MOD Footswitch searches. Used/new IDR,seller/item,stock,bundle,warranty,dimensions,mass,connector inventory andanalog expression support remain unknown. No accessory price orforeign-currency conversion adopted. |
+
+Original product URLs were inaccessible through the reader;secondary display counts remain qualified. No firmware,software orfiles downloaded,no update ordevice operation. Confirmed individual-LCD audio processors retain first priority;this controller doesnot satisfy the direct analog global-volume requirement byitself.

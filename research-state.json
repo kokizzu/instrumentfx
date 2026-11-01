@@ -138769,5 +138769,25 @@
     "previous_processing_row": "| Processing / categories | Product advertises **33 amps /43 effects**. Exact simultaneous-block ceiling and DSP/routing restrictions remain unknown. Four FX knobs each have four labeled choices; these are selectors, not16 simultaneous blocks. App can substitute additional effects at those positions. [Product][PG-P];[Modes][PG-MODES] |",
     "downloads": false,
     "inventory_change": false
+  },
+  "mod_footswitch_xf4_display_lead_20261101": {
+    "checked": "2026-11-01",
+    "root": "MOD-AUDIO.md#footswitch-xf4--partial-controller-discovery",
+    "status": "Partial host-dependent controller;outside active counts andconfirmed individual-LCD matches",
+    "display": "Independent SoundOnSound review:two LCD/four switches;manufacturer physical census/placement unresolved",
+    "sources": [
+      "https://www.soundonsound.com/reviews/mod-devices-mod-duo-x",
+      "https://wiki.mod.audio/wiki/Control_Chain",
+      "https://wiki.mod.audio/wiki/Control_Chain_Releases",
+      "https://wiki.mod.audio/wiki/FAQ"
+    ],
+    "firmware": "Listed0.4.1 March16,2021;right-display startup version;not installed/current-production proof",
+    "remaining": [
+      "Primary screen census andplacement",
+      "Complete physical/power/port profile",
+      "Exact qualified Shopee Indonesia hardware"
+    ],
+    "priority": "Individual-LCD audio processors remain first;independent BOSS GT-Pro cursor unchanged",
+    "downloads": false
   }
 }
