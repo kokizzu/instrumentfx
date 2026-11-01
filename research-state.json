@@ -138535,5 +138535,21 @@
     "regression": "ActualG5nexcluded54869023932 lead mustretainexclusion,neverqualifiedlabelorusedpricepromotion.",
     "validation": "Extraction regression red→green;field tests pass. Explicitlegacyfieldlabels also normalized at rendering;rebuiltoutputs checked forlabel-only changes. Noevidenceorpriceclassificationchanges.",
     "next": "ResumeLCD-firstresearch;generalBOSSGT-Procursorpreserved."
+  },
+  "neurig_rig_navigation_release_scope_20261101": {
+    "checked": "2026-11-01",
+    "root": "ZOOM.md#neurig",
+    "sources": [
+      "https://zoomcorp.com/manuals/neurig-en/",
+      "https://zoomcorp.com/en/us/multi-effects/guitar-effects/neurig/",
+      "https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/neurig/",
+      "https://zoomcorp.com/ja/jp/news/tokyogakkiexpo2026/"
+    ],
+    "navigation": "HOME1+2previousRig,3+4nextRig;individualswitchProgramselectionseparate",
+    "range": "PhysicalMASTER MUTEto+6dBcenter0;notEXPendpoints",
+    "availability": "USmakerselectretailersvsJapanearlyNovplan;notIndonesianstockorshippingtest",
+    "qualification": "SessionZ/cloudcaptureDecemberplansremainfuture;Rig-levelEXPsetupnotglobalscope. DualsharedLCDnotoneperswitch.",
+    "next": "Verifyremainingbuiltintreadle/panelcensus,EXPwiring/range/recall/coverageandqualifiedIDR;individualLCDmatchesretainpriority. GeneralBOSSGT-Procursorpreserved.",
+    "downloads": false
   }
 }

@@ -22,5 +22,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='fix(docs): preserve uncertainty in comparison price labels'
+        message='research(zoom): qualify NEURIG navigation and regional release status'
     print(git('commit','-m',message))

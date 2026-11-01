@@ -5577,9 +5577,10 @@ Checked 2026-10-18. Announced guitar multi-effects; planned early-November launc
 |---|---|---|
 | Expression | External FP02M/FS01 CONTROL input; built-in expression/toe status pending full audit. | [Manual][NEU-M] |
 | K/F/B | Two named rotaries (MASTER, CONTROL); four footswitches in rig table. Complete separate-button count unresolved; encoder press counted once, power key separate. Text-derived, not image audit. | [Manual][NEU-M]; [Rig list][NEU-R] |
+| Controls / onboard previous-next Rig | English manufacturer manual describes **press1+2 for previous Rig,3+4 for next Rig** onHOME. Individual1–4 select Programs inProgram mode;these are different actions. **MASTER range:MUTE…+6dB,center0dB** applies to the hand knob,not proven external-pedal endpoints. | [Own English manual](https://zoomcorp.com/manuals/neurig-en/),Z2I-5931-01,checked2026-11-01;no hardware test |
 | Display | Two 240×320 touch LCDs. Diagonal and explicit color specification unresolved. | [Manual][NEU-M] |
 | Dimensions / weight | 236.4 W×120.6 D×54.2 H mm;850 g. | [Manual][NEU-M] |
-| Processing / memory | **Announced/pre-release; planned early-November launch, not verified shipping hardware.** Up to14 effects/RIG;200 user RIGs;up to4 programs/RIG, not800 independent RIGs. DSP-budget restriction detailed below. | [Manual][NEU-M] |
+| Processing / memory | **Regional release status:** Japan early-November plan;US now advertises selected-retailer availability;no inspected shipping unit. [Manufacturer availability qualifications](#neurig--regional-release-status-boundary). Up to14 effects/RIG;200 user RIGs;up to4 programs/RIG, not800 independent RIGs. DSP-budget restriction detailed below. | [Manual][NEU-M] |
 | Factory memory | Preset1.00 enumerates75 RIGs:10 DNA Amp,10 DNA Stomp,50 Song,5 Routing. Initial slot layout/overwrite protection unverified. | [Rig list][NEU-R] |
 | Category choices | Preset1.00 derived census: Dynamics10,Filter15,Drive26,Drive-DNA10,Amp Head22,Amp Head-DNA10,Cabinet22,Amp+Cabinet-DNA10,Modulation26,SFX4,Delay17,Reverb17,Pedal17,Tool7. **213 entries=139 other effects+30 DNA+22 conventional amps+22 cabinets**. Document count, not installed-firmware test; identical names in distinct DNA/standard categories remain separate entries. | [Effect list][NEU-F] |
 | Synth / acoustic | Acoustic Simulator explicitly converts electric-guitar tone toward acoustic guitar. Mono Pitch Shifter and Poly Pitch Shifter are distinct; polyphonic pitch shifting is not polyphonic synthesis. Synth inventory unresolved. | [Effect list][NEU-F] |
@@ -5630,6 +5631,13 @@ Checked2026-10-31: [current Japanese manufacturer manual](https://zoomcorp.com/m
 |---|---|
 | Conversion / current-language reconciliation | Japanese-02 and EnglishZ2I-5931-01 both specify **32-bit A/D and32-bit D/A**. The earlier24-bit/64× reading remains historical provenance,not a current Japanese-versus-English disagreement. Publication timing/reason and physical converter architecture remain unverified. |
 | Looper / lifetime | Japanese-02 states **changing Rigs or powering off erases the phrase**. HOME/other screens can retain recording/playback;opening Rig Menu stops it. Tempo changes erase phrases recorded with timed1–64quarter-note settings. These are distinct from gapless Program changes within one Rig or global expression-volume coverage. |
+
+### NEURIG — regional release-status boundary
+
+Checked **2026-11-01**. [US manufacturer page](https://zoomcorp.com/en/us/multi-effects/guitar-effects/neurig/) says **currently available at select retailers**. [Japanese manufacturer page](https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/neurig/) still gives **earlyNovember planned launch**;[October26 maker exhibition notice](https://zoomcorp.com/ja/jp/news/tokyogakkiexpo2026/) advertises advance demonstrations forOctober31–November1 andNovember release. These are regional manufacturer statements,not independently inspected shipping hardware,live Indonesian stock oran IDR offer. Earlier pre-release observations remain dated provenance;do not generalize one region’s launch wording worldwide.
+
+The product still marks **SessionZ Pedal andcloud capture forDecember2026**. Selected-retailer availability does not certify those future functions are installed orreleased. Current direct-EXP Rig scope,min/max numerical limits,recall andoutput coverage remain unresolved.
+
 <!-- comparison evidence ends -->
 
 [NEU-P]: https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/neurig/
