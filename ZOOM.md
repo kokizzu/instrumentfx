@@ -4413,6 +4413,14 @@ Unqualified additional lead:[shop1877412097/item57516876293](https://shopee.co.i
 
 Earlier pending [shop280735381/item54869023932](https://shopee.co.id/Efek-Gitar-Zoom-G5N-Multi-Effects-Processor-Pedal-Digital-i.280735381.54869023932) now has a yesterday search body identifying **raja_syarif,KotaMedan,Rp2.775.000**,selected model441597194469,withNovember4–7 delivery. Direct variation reader still fails;actual selected contents,condition andstock remain unverified. This narrows seller identity,**not variation validation**;the earlier exclusion fromhardware-price lower bounds remains. No transaction,download ordevice operation.
 
+### G5n — independent historical panel-control lead
+
+Checked **2026-11-01** against indexed original review text: **Guitar Part no.273,December2016,p70,Nicolas Sevestre**,[“Zoom G5n — Back in black”](https://morgancayre.com/liseuse-pdf-url/gp273.pdf). Its cover identifies the issue/date;the full40.3MB issue exceeded the reader limit. No local download or visual inspection.
+
+The reviewer describes **four main effect/patch switches plus five flat switches in a second row** for tuner,bank/effect navigation,mode andtap tempo. This independently corroborates the manufacturer catalogue’s **nine footswitches**;it is not a new manufacturer count or a tenth separate toe switch. The prose also describes **four knobs andtwo buttons with each effect screen**. That supports eight screen-associated buttons by arithmetic,not a complete chassis button census:the manufacturer manual separately names MENU,andits panel symbols remain uninspected.
+
+These are **independent historical observations**,not current manufacturer specifications or our hardware test. Keep the existing manufacturer rotary/LCD evidence and unresolved separate-button/visual fields. Do not adopt the review’s launch-era effect totals,editor restrictions,price orsubjective pedal criticism as current capabilities. Built-in treadle still excludes G5n from the no-treadle shortlist.
+
 ## G6
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

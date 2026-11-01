@@ -138789,5 +138789,15 @@
     ],
     "priority": "Individual-LCD audio processors remain first;independent BOSS GT-Pro cursor unchanged",
     "downloads": false
+  },
+  "g5n_independent_panel_lead_20261101": {
+    "checked": "2026-11-01",
+    "source": "https://morgancayre.com/liseuse-pdf-url/gp273.pdf",
+    "identity": "Guitar Part273 December2016 p70,Nicolas Sevestre,Zoom G5n Back inblack",
+    "finding": "Independent historical text:four main switches+five flat switches;four knobs/two buttons per effect LCD. Eight associated buttons arithmetic,not complete manufacturer census.",
+    "qualification": "Indexed original review text;40.3MB direct reader limit;no visual inspection/local download. Do nottransfer launch counts/editor claims tocurrent firmware.",
+    "root": "ZOOM.md#g5n--independent-historical-panel-control-lead",
+    "remaining": "Manufacturer separate-button census/visual corroboration,LCD diagonal/color/touch,current library andqualified new-condition offers",
+    "inventory_change": false
   }
 }
