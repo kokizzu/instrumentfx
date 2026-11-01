@@ -138571,5 +138571,11 @@
     "finding": "A4 435–445 Hz; chromatic and six named non-chromatic tunings; flat one to three semitones excludes CHROMATIC. Tuner screen sound mute documented.",
     "limits": "No separate headphone/USB/AUX/recorded-loop coverage, all-effects bypass or universal expression-volume assignment established. Exact hold gesture icons unresolved; no hardware/visual test or download.",
     "next": "Continue confirmed individual-LCD model gaps; retain independent BOSS GT-Pro cursor."
+  },
+  "g5n_booster_aux_scope_20261101": {
+    "source": "https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/g5n/",
+    "finding": "Exact-model page identifies final-stage booster as tube-sound emulation and explicitly describes AUX monitoring through headphones while practicing guitar.",
+    "qualification": "No physical valve claim; original G5 12AX7 not transferred. AUX monitoring does not establish USB recording, tuner-mute coverage or expression attenuation. USB/channel/power and display/control gaps remain unresolved.",
+    "next": "Individual-LCD model evidence remains priority; retain general BOSS GT-Pro cursor. Consolidation compatibility redirects remain required by local instructions."
   }
 }
