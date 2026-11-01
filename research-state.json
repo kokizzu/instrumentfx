@@ -138703,5 +138703,18 @@
     "preserved": "7.x .ir remix-format wording retained as older scope;conversion input support does not prove universal direct-hardware WAV import,IR length limits,NAM oronboard amp capture.",
     "downloads": false,
     "inventory_change": false
+  },
+  "fm9_cablab4_import_workflow_20261101": {
+    "checked": "2026-11-01",
+    "model": "Fractal Audio FM9 MKII Turbo",
+    "root": "FRACTAL-AUDIO.md#fm9-mkii-turbo--cab-lab-4-conversion-and-persistent-ir-storage",
+    "source": "https://www.fractalaudio.com/downloads/manuals/cab-lab/4p0/Cab-Lab-4-Manual.pdf",
+    "revision": "v1.01 October30,2025 pp2,12–13;FM9 explicitly named,MKII firmware minima unstated",
+    "finding": "Computer converts mono deconvolved WAV at any source rate/depth;Standard .syx orUltraRes .syx+.ir throughFM9-Edit. Numbered User Cab persists butmustbeselectedinpreset. Standalone writeshardware;plugin exportsfiles;foursoftwarechannels arenothardwareIRconcurrency.",
+    "capacity_source": "https://shop.fractalaudio.com/products/fm9-mark-ii-turbo-amp-modeler-multi-fx-floor-unit",
+    "capacity": "1024userIRslots explicitlycurrentMKII;FM3reductionnottransferred",
+    "remaining": "Directhardware format/length limits,MKII firmware minima,NAM andglobalvolume endpoints/recall remainunverified.",
+    "downloads": false,
+    "inventory_change": false
   }
 }
