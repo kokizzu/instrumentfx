@@ -138577,5 +138577,12 @@
     "finding": "Exact-model page identifies final-stage booster as tube-sound emulation and explicitly describes AUX monitoring through headphones while practicing guitar.",
     "qualification": "No physical valve claim; original G5 12AX7 not transferred. AUX monitoring does not establish USB recording, tuner-mute coverage or expression attenuation. USB/channel/power and display/control gaps remain unresolved.",
     "next": "Individual-LCD model evidence remains priority; retain general BOSS GT-Pro cursor. Consolidation compatibility redirects remain required by local instructions."
+  },
+  "g5_primary_total_switching_claim_20261101": {
+    "source": "https://www.zoom.co.jp/node/51",
+    "access": "Manufacturer page search-indexed original text; direct access limited; no local download or measurement.",
+    "finding": "Explicit manufacturer145 total corroborates reproduced manual and125regular+20Z-Pedal accounting. Manufacturer advertises1.6ms patch changes.",
+    "limits": "Alternative123effects+22amp/cab wording is not extra inventory. Current firmware/installed edition equivalence, test method, patch pair, universal transitions, audio latency and tails remain unverified; preserve manual bank-gesture warning.",
+    "next": "Continue individual-LCD processor gaps with new evidence; unchanged blocked fields remain open. Independent general BOSS GT-Pro cursor retained."
   }
 }
