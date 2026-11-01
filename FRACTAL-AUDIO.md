@@ -982,7 +982,6 @@ Checked **2026-11-01**, [manufacturer Installing Factory Presets support article
 
 The512 editable locations remain the total capacity;384 are not extra protected slots. Reinstalling the complete factory set overwrites Banks A,B,C;selected-bank installation is also supported. Preset version numbers identify their target firmware: newer sets are not backward-compatible and can appear blank on older firmware;forward compatibility may still need adjustments. These are storage/compatibility statements,not a reset-content guarantee,an effect count or global expression assignment. No preset package downloaded,device connected or settings changed.
 
-
 ## FM9 original
 
 Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct from Turbo and MKII Turbo. Not fully verified; no ownership or live-stock assertion. The complete discovery body follows under its old anchor. Earlier outside-inventory statements are historical checkpoints, not the current admission status.

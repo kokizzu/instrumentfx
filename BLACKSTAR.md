@@ -7,6 +7,7 @@
 
 - [ID:X Floor One](#idx-floor-one)
 - [ID:X Floor Three](#idx-floor-three)
+- [ID:X Floor Two — partial discovery](#idx-floor-two--partial-discovery)
 <!-- brand-index ends -->
 
 ## ID:X Floor One
@@ -105,3 +106,19 @@ Direct handbook reading returned403; requirements above come from the manufactur
 
 
 [T3U]: https://blackstaramps.us/en-intl/products/id-x-floor
+
+## ID:X Floor Two — partial discovery
+
+Checked **2026-11-01**;new partial lead,**outside active model counts andinstrument comparisons**. Ownership unknown. Exact Two is named by the [manufacturer US model table](https://blackstaramps.us/products/id-x-floor) andthe [manufacturer-authored family manual](https://www.kirstein.de/docs/manuals/00118929/manual_EN.pdf?h=2b60f8933d3a40a7df062be52bf93b84),256401M-VA-1 01/26,cover andTwo-specific panel/specifications. Retailer-hosted original text inspected;no file downloaded orvisual count.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / navigation | Built-in pedal:VOL/WAH/CUSTOM modes;manualp16 expressly includesTwo. Patch down/up withhold-to-scroll;noexternal analog EXP claim. Built-in treadle excludes the no-treadle shortlist. |
+| Display | Exact Two manufacturer table says **OLED**;individual footswitch-screen layout,diagonal,color andtouch unknown. Not promoted into confirmed LCD matches. |
+| Processing / memory | Manufacturer Two table:12electric amps,3bass amps,2acoustic voices+acoustic simulator;effects14PreFX/10modulation/6delay/5reverb;99patches. Counts describe choices/capacity,not concurrency orfactory fill. |
+| I/O / software | Two table:USB-C,MIDIIN,CabRig headphones/stereoXLR;**noFXloop,noMIDIThru**. Family marketing namesArchitect;exactTwo minimumrelease/OS,USBformat andcomplete connector audit pending. |
+| Dimensions / mass conflict | Manualp30 exactTwo:**315×68×173mm,2.07kg**,axes unstated. US exactTwo table:**8.35W×16.14L×5.31Hinches,5.57lb**;package/unit basis unspecified. Preserve conflict;do not substitute One/Three dimensions. |
+| Power | Familymanualp19:**9VDC500mA center-negative supply**;not measured draw. Battery/USB operation unknown. |
+| IDR offers | Verified new/used unknown. ExactTwo Shopee Indonesia search surfacedOne/Three only;not proof ofabsence. No sibling price copied. |
+
+Next:complete Two-specific control census,expression/toe/range/recall,shared-operation applicability,appendix category conflict,initial memory,I/O/USB,imports/synth,editor andlooper/tail evidence;seek exact qualified hardware offer before catalogue admission. No device orsoftware operation.
