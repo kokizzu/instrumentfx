@@ -138419,5 +138419,15 @@
     "qualification": "Separate fromfirmware3.0 andGuitarLab;doesnot resolveUSBchannels,routing,power orARM. ExactShopee searches repeatedsavedoffers withoutnewcondition/stock evidence.",
     "next": "Prioritize remaining individual-LCD discovery andexactmodel blockers;avoid repeating unchangedG5n USBchannel search. GeneralBOSS GT-Pro cursor remains independent.",
     "downloads": false
+  },
+  "g11_asio_many_thread_fix_20261101": {
+    "checked": "2026-11-01",
+    "source": "https://zoomcorp.com/documents/3431/G11_Driver_Win_Version_History_ver11014_en.pdf",
+    "destination": "ZOOM.md#g11",
+    "finding": "OriginalG11 history1.1.0 June2023 fixesAbletonLive/StudioOne intermittentI/O andfreezes onmany-logical-processor WindowsCPUs.",
+    "identity": "OriginalheadingG11 overridesmisleadingR16 metadata;bodyversion1.1.0 retained,separatefromfilenamever11014.",
+    "qualification": "Notfirmware2.10,editorrevision orhardwaretest;noARM/nativearchitecture orglobalvolume certification.",
+    "next": "Continue individual-LCD discovery andremaining exactcontrol/display/offer gaps. PreservegeneralBOSS GT-Pro cursor.",
+    "downloads": false
   }
 }
