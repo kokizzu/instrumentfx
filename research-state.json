@@ -138351,5 +138351,18 @@
     "qualification": "No driver version or per-answer date; mixed historical FAQ not a firmware timestamp. Untested does not establish universal failure; no emulation workaround or native ARM build inferred.",
     "limits": "No local download,installation orhardware test. Standalone analog processing andexisting Mac audio evidence unaffected.",
     "next": "Other confirmed individual-LCD substantive gaps; avoid unchanged source loops. Independent general GT-Pro cursor preserved."
+  },
+  "tank_g_v98_conversion_20261101": {
+    "model": "M-VAVE TANK-G",
+    "checked": "2026-11-01",
+    "sources": [
+      "https://www.cuvave.com/download",
+      "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/Tank-G.txt"
+    ],
+    "revision": "TANK-G_2026_10_27 v98",
+    "finding": "NAM/NAN import,audition,save; explicit companion-software conversion before NAM import. Not unrestricted native .nam proof. Stereo effect revisions for chorus/phaser/tremolo/delay/reverb; noise-reduction andknob-response revisions.",
+    "source_conflict": "Current v97 header says TANK-G,earlier2026-10-17 observation said TANK-GV2; preserve both,physical revision compatibility unresolved.",
+    "limits": "No local download,software installation ordevice operation; NAM architecture/conversion method/fidelity unknown. Original physical mono ports notchanged by stereo processing.",
+    "next": "Commit exact TANK-G finding before another model; LCD priority and independent GT-Pro cursor preserved. Actual M-VAVE controller identity requested separately."
   }
 }
