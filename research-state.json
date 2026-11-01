@@ -138668,5 +138668,18 @@
     "finding": "Added distinct mini hardware profile,shared-screen classification andqualified no-treadle expression/headphone/navigation screening.",
     "limits": "Global volume override unverified; calibration/retained position notassignment. Footprint exceeds preferred rectangle;fullprocessing,memoryfilling,IR/capture,software andqualifiedmarket gaps retained.",
     "next": "Confirmed individual-LCD models remain priority;continue exact mini-specific fields beforeinventory admission. Independent BOSS GT-Pro cursor retained."
+  },
+  "lcd_headphone_navigation_comparison_20261101": {
+    "file": "FOOTSWITCH-DISPLAYS.md#lcd-processors-without-built-in-treadles--volume-and-footprint",
+    "source": "EXPRESSION-VOLUME.md capability comparison; canonical brand links retained.",
+    "models": 13,
+    "finding": "Added separate headphone andonboardpreset down/up columns. Retained each previous footprint/global-volume cell without changes andcopied qualified sourcefields exactly.",
+    "b3_summary_reconciliation": {
+      "root": "ZOOM.md#b3--exact-patch-and-bank-footswitch-navigation",
+      "previous_navigation_cell": "Lower/higher documented; switch mapping unverified",
+      "status": "Superseded stale summary using already documented numbered mode-dependent gestures; no newhardware claim."
+    },
+    "validation": "All13 first-three cells preserved;each newcell matched sourceaudit. Unknown/factory-layout/firmware qualifiers retained. Active counts unchanged.",
+    "next": "Continue individual-LCD new-evidence gaps;independent BOSS GT-Pro cursor retained."
   }
 }

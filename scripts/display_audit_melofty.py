@@ -10,13 +10,13 @@ comparison_views.verify_views()
 comparison_views.test_readme_brand_counts()
 comparison_views.test_validation_counts()
 assert not git("diff", "--cached", "--name-only").strip(), "Existing staged work"
-allowed = {"GIGRIG.md", "FAMC.md", "RJM-MUSIC.md", "SINGULAR-SOUND.md", "MELOFTY.md", "MULTI-EFFECTS.md", "research-state.json", "Makefile", "scripts/display_audit_melofty.py", "FOOTSWITCH-DISPLAYS.md", "README.md", "MORNINGSTAR.md"}
+allowed = {"GIGRIG.md", "FAMC.md", "RJM-MUSIC.md", "SINGULAR-SOUND.md", "MELOFTY.md", "MULTI-EFFECTS.md", "research-state.json", "Makefile", "scripts/display_audit_melofty.py", "FOOTSWITCH-DISPLAYS.md", "EXPRESSION-VOLUME.md", "README.md", "MORNINGSTAR.md"}
 changed = set(git("diff", "--name-only").splitlines()) | set(git("ls-files", "--others", "--exclude-standard").splitlines())
 assert changed <= allowed, changed - allowed
 assert not git("diff", "--check").strip()
 git("add", "--", *sorted(changed))
 print(git("diff", "--cached", "--stat"))
-message = "research(melofty): qualify translated headphone specifications" if sys.argv[1:] == ["collection"] else "research(melofty): qualify independent firmware 1.9 review leads"
+message = "docs: compare LCD shortlist headphones and preset controls" if sys.argv[1:] == ["collection"] else "research(melofty): qualify independent firmware 1.9 review leads"
 if sys.argv[1:] == ["morningstar"]:
     message = "research(morningstar): distinguish MC8 PRO screens and switches"
 if "RJM-MUSIC.md" in changed:
