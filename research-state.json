@@ -138474,5 +138474,14 @@
     "shopee": "ExactTwo search returnedOne/Three;noqualifiedoffer,noavailabilitynegative",
     "next": "CompleteTwo-specificrequired-fieldprofile andqualifiedmarket evidencebeforeactiveadmission;LCDmatchesfirstwhennewprimaryevidenceavailable. GeneralBOSSGT-Procursorunchanged.",
     "downloads": false
+  },
+  "m13_legacy_usage_support_20261101": {
+    "checked": "2026-11-01",
+    "source": "https://kb.line6.com/limited-support-of-legacy-products",
+    "destination": "LINE6.md#m13",
+    "finding": "M13 explicitlylisted;one15minute liveusagecontact then tickets. Account/webshop/warranty/parts/repair excludedfromusagecontactlimit.",
+    "qualification": "Policy effectiveApril1,2021 distinctfromapproximateM13endofsale12/1/2021;notguaranteedrepairability,parts,firmware orOSsupport. FourLCDunitlayoutnotoneLCDperswitch.",
+    "next": "ContinueindividualLCDprocessor blockers andmissingmodelswithfreshprimaryevidence;keepgeneralBOSSGT-ProcursorandpartialFloorTwo pending.",
+    "downloads": false
   }
 }
