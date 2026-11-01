@@ -138483,5 +138483,50 @@
     "qualification": "Policy effectiveApril1,2021 distinctfromapproximateM13endofsale12/1/2021;notguaranteedrepairability,parts,firmware orOSsupport. FourLCDunitlayoutnotoneLCDperswitch.",
     "next": "ContinueindividualLCDprocessor blockers andmissingmodelswithfreshprimaryevidence;keepgeneralBOSSGT-ProcursorandpartialFloorTwo pending.",
     "downloads": false
+  },
+  "g5n_exact_market_followup_20261101": {
+    "checked": "2026-11-01",
+    "root": "ZOOM.md#g5n--additional-exact-hardware-asks-and-unresolved-variation",
+    "offers": [
+      {
+        "shop": "77738264",
+        "item": "5715490415",
+        "seller": "Praiseyah Shop",
+        "region": "KotaJakartaUtara",
+        "idr": 3990000,
+        "stock": "Habis",
+        "access": "3monthindex;directmiss",
+        "condition": "Unknown"
+      },
+      {
+        "shop": "18522451",
+        "item": "58003023605",
+        "seller": "Fatihsahil",
+        "region": "KabBojonegoro",
+        "idr": 2950000,
+        "stock": "Habis",
+        "access": "3weekopenedcache;2monthsearchomitsstock",
+        "condition": "Unknown"
+      }
+    ],
+    "unqualified_lead": {
+      "shop": "1877412097",
+      "item": "57516876293",
+      "idr": 2600000,
+      "stock": "Habis",
+      "seller_region": "Unknown",
+      "range_eligible": false
+    },
+    "pending_variation_update": {
+      "shop": "280735381",
+      "item": "54869023932",
+      "model": "441597194469",
+      "seller": "raja_syarif",
+      "region": "KotaMedan",
+      "idr": 2775000,
+      "qualification": "Selleridentitynarrowed;variationcontentsnotverified;notqualifiedlowerbound"
+    },
+    "next": "ContinueLCD-first unresolvedcapabilities andfreshqualifiedoffers;do not reclassifycachedHabis asliveavailability. GeneralBOSSGT-Procursorpreserved.",
+    "downloads": false
   }
 }

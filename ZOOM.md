@@ -4375,6 +4375,19 @@ Installed firmware andpresent behavior remain untested. These fixes do not estab
 
 A separate [Shopee search-grid lead](https://shopee.co.id/search?keyword=g5N&page=3),two-month snapshot,advertises “efek gitar zoom g5n modifikasi tanpa pedal volume,”Rp1.700.000,Surakarta. Exact seller/item identity,modification details,dimensions,working state andstock remain unresolved. It is **excluded from exact hardware prices andthe no-treadle capability shortlist**;a seller’s pedal-removal wording does not establish a manufacturer variant,smaller chassis orfunctional global external volume.
 
+### G5n — additional exact hardware asks and unresolved variation
+
+Checked **2026-11-01**. Condition,working state,firmware,adapter/bundle,warranty,authenticity,shipping/tax andcheckout totals remain unverified. These observations do not create a live used/new range;no late-arrival compensation deducted.
+
+| Class | IDR ask | Exact offer / access qualification |
+|---|---:|---|
+| Condition-unverified,sold-out indexed hardware | **Rp3.990.000** | [Praiseyah Shop,shop77738264/item5715490415](https://shopee.co.id/Zoom-G5n-Multi-Effect-Guitar-Original-G5-n-Efek-Gitar-Pedal-i.77738264.5715490415),KotaJakartaUtara. Three-month search body explicitly **Habis**;direct cache miss. Relative next-day delivery is not current stock. Exact G5n title;Original is seller wording,not independent authentication. |
+| Condition-unverified,sold-out cached hardware | **Rp2.950.000** | [Fatihsahil,shop18522451/item58003023605](https://shopee.co.id/Efek-Guitar-ZOOM-G5n-Guitar-Multi-Effects-Processor-i.18522451.58003023605),Kab.Bojonegoro. Two-month search body omits stock marker;opened three-week snapshot explicitly **Habis**,seller last active three months earlier. Next-day delivery does not override sold-out state. |
+
+Unqualified additional lead:[shop1877412097/item57516876293](https://shopee.co.id/ZOOM-G5n-Multi-Effects-Processor-i.1877412097.57516876293),four-day index saysG5n,**Rp2.600.000,Habis**;direct cache miss. Seller name,region,condition,variation andbundle unresolved;excluded fromqualified hardware-price bounds.
+
+Earlier pending [shop280735381/item54869023932](https://shopee.co.id/Efek-Gitar-Zoom-G5N-Multi-Effects-Processor-Pedal-Digital-i.280735381.54869023932) now has a yesterday search body identifying **raja_syarif,KotaMedan,Rp2.775.000**,selected model441597194469,withNovember4–7 delivery. Direct variation reader still fails;actual selected contents,condition andstock remain unverified. This narrows seller identity,**not variation validation**;the earlier exclusion fromhardware-price lower bounds remains. No transaction,download ordevice operation.
+
 ## G6
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
