@@ -139160,5 +139160,19 @@
     "direct": "one-month snapshot;September9–10delivery",
     "qualification": "Historical exacthardware ask;condition,workingstate,firmware,variant,bundle,adapter,warranty andcheckoutunknown. NoHabis isnotstockconfirmation;voucher notdeducted.",
     "inventory_change": false
+  },
+  "gt1000core_acoustic_usb_scope_20261103": {
+    "model": "BOSS GT-1000CORE",
+    "source": "https://files.kraftmusic.com/media/ownersmanual/Boss_GT-1000CORE_Parameter_Guide.pdf",
+    "identity": "57pages;copyright2020Roland;exactCOREnamedinbody",
+    "printed_pages": [
+      13,
+      46
+    ],
+    "acoustic": "AC.G SIM distinct fromacoustic-electricpickup AC RESO;FX1–3 allow sameeffect",
+    "usb": "ComputerMIX0–200% entersfinalOUTPUT/SUBstage;EFXOUT/DRY/TOEFXdistinct;DIRMONnotstored,poweronON",
+    "conflict": "SUBOUTDIRMONtextmentionsPHONES;ownermanualspecifiesOUTPUT-onlyphones",
+    "qualification": "Notcurrent2.02certification,dedicatedsynthproof,unlimitedconcurrency orglobalFVcoverageguarantee",
+    "inventory_change": false
   }
 }

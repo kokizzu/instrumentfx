@@ -1511,11 +1511,12 @@ Selected 2026-10-28 from the complete dated evidence below; no new hardware test
 | Display | Graphic LCD 256×80; historically inspected official image shows monochrome-style readout, not a color-depth specification. Published diagonal and touchscreen status unknown. |
 | Simultaneous processing / choices | 24 blocks including two amps; current product page lists 185 effect types and eight bass drive types. Full current category census remains unresolved. |
 | Preset / user memory | 250 factory preset +250 user locations; initial user filling not established here. |
-| Synth / acoustic | Exact algorithms remain unresolved; no sibling-model transfer. |
+| Synth / acoustic | **AC.G SIM acoustic simulation** documented in the original2020 CORE parameter guide,p13;AC RESO separately enhances an acoustic-electric pickup. Dedicated tracking synth/current2.02 algorithm census remain unverified. [Exact-model guide](https://files.kraftmusic.com/media/ownersmanual/Boss_GT-1000CORE_Parameter_Guide.pdf). |
 | IR / NAM / capture | 16 user WAV IR slots; exact format limits unresolved. Native NAM, converted NAM and capture import unestablished. |
 | Audio / controller I/O | Stereo quarter-inch input/output; L output shared with phones; two mono effects loops; two shared CTL/EXP; 3.5 mm TRS MIDI IN/OUT; micro-USB. |
 | Power | Supplied DC adapter; 670 mA draw. Exact voltage/polarity, battery and USB bus operation remain unverified in this record. |
 | Editor / USB | BOSS Tone Studio Windows/macOS; drivers separate. USB audio/reamping documented, exact channel/mode limits unresolved. |
+| I/O / historical USB mix boundary | [Original2020 CORE parameter guide,p46](https://files.kraftmusic.com/media/ownersmanual/Boss_GT-1000CORE_Parameter_Guide.pdf),checked2026-11-03: computer MIX LEVEL **0–200%** is mixed at the final OUTPUT or SUB OUT stage. EFX OUT controls processed recording level;DRY OUT is unprocessed andTO EFX feeds computer audio through effects. These separate routes do not establish universal FV-block attenuation. DIR MON is not stored andreturnsON atstartup. SUB OUT DIR MON prose also mentions PHONES,conflicting with the owner's OUTPUT-only headphone statement;do not infer SUB playback inphones. Current2.02 equivalence remains unverified. |
 | Looper / routing | 38 s mono /19 s stereo; audio lost when looper is turned off or power removed. P/U246–250 initially map CTL1 to looper; other patches need assignment or SYSTEM sharing. Serial/parallel routing, 96 kHz and qualified carryover documented. |
 | Firmware / documentation | Official support lists system 2.02 and Tone Studio 4.1.1. July2026 2.02 notes concern PLAY OPTION and switching fixes. Readable eng12 MIDI map header covers CORE2.01, with older chart metadata; not 2.02 certification. Owner eng03 mirror is not the eng03 Parameter Guide; exact current guide mapping unresolved. |
 | Used IDR | Unknown; no exact condition-verified Indonesian used offer established. |
@@ -1552,6 +1553,10 @@ The original USD observations remain historical provenance, not replacement IDR 
 
 Next existing-model review: **BOSS GX-10**. Price/display migration is a scoped completed pass with retained unknowns, not certification that every technical field is resolved.
 <!-- BOSS-GT-1000CORE source ends -->
+
+### GT-1000CORE — acoustic simulation versus resonance processing
+
+Checked2026-11-03 against the [original manufacturer parameter guide,printedp13](https://files.kraftmusic.com/media/ownersmanual/Boss_GT-1000CORE_Parameter_Guide.pdf),57pages,©2020Roland;CORE is explicitly named in the original body. **AC.G SIM** provides BODY0–100,LO/HI−50…+50 andLEVEL0–100. **AC RESO** instead processes an acoustic-electric pickup,withNatural/Wide/Bright types. FX1–FX3 can select the same effect;this is not a current185-effect census orunlimited concurrency. The older blanket acoustic unknown is narrowed for this documented revision;dedicated tracking synth andcurrent2.02 equivalence remain unverified. No local download,visual inspection ordevice operation.
 
 ### GT-1000CORE — supporting comparison facts
 

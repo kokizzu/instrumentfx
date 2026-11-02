@@ -2272,3 +2272,7 @@ expression-audit-stage-line6:
 .PHONY: expression-audit-stage-valeton
 expression-audit-stage-valeton:
 	python3 scripts/expression_audit_valeton.py stage
+
+.PHONY: expression-audit-stage-boss
+expression-audit-stage-boss:
+	python3 scripts/expression_audit_boss.py stage
