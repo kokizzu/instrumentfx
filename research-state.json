@@ -142699,5 +142699,29 @@
     ],
     "next": "Continue newer-guide exact-model evidence;prioritize individual footswitch displays;preserve independent GP-200JR -> Prime -> GE300 sequence",
     "no_download_or_device_operation": true
+  },
+  "stadium_xl_matrix_assignment_20261103": {
+    "canonical": "brand/LINE6.md#stadium-xl--matrix-midi-layers-and-assignment-clearing-boundary",
+    "source": "https://kb.line6.com/helix-stadium-1-4-release-notes",
+    "revision": "1.4 October13,2026",
+    "matrix": {
+      "default_channels": {
+        "quarterinch": 3,
+        "XLR": 4,
+        "phones": 5
+      },
+      "levels": "CC11Home16Song17–24Tracks25Click26CountIn27USB1/2 28Bluetooth29Aux;values0–127",
+      "mute_solo": "64plus toggles;not set-on",
+      "scope": "Homeallpaths notall sources;MIDI not directanalogEXPglobalvolume"
+    },
+    "swap": "Mono/stereo effect swaps retainsettings butclear snapshot/controllerassignments;DSP/versionavailability restrictions",
+    "remaining": [
+      "Direct analog global-volume assignment/endpoints/coverage",
+      "OLEDphysicalspecifications",
+      "Powerlabel",
+      "Qualified current exactShopee hardware"
+    ],
+    "next": "Continue individual-foot-display priority;defer unchanged cached offers andinaccessible sources;preserve independent GP-200JR -> Prime -> GE300 cursor",
+    "no_download_or_device_operation": true
   }
 }

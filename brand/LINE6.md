@@ -677,6 +677,7 @@ Checked 2026-10-31 against the live manufacturer v1.4 manual. Its navigation sti
 | Field | Exact XL qualification |
 |---|---|
 | I/O / Aux and shared returns | XL **Returns3/4** can become always-on Aux inputs, unprocessed by the preset. The smaller Stadium uses Returns1/2; do not transfer that numbering. A return already used by an FX Loop/Return block is unavailable as a separate Input source. Repeated Send instances are allowed, but a particular FX Loop/Return can have only one instance per preset. [Rear panel](https://manuals.line6.com/en/helix-stadium/live/rear-panel);[routing manual](https://manuals.line6.com/en/helix-stadium/live/input-output-and-mix-blocks). |
+| MIDI / Matrix and assignment scope | [1.4 qualifications](#stadium-xl--matrix-midi-layers-and-assignment-clearing-boundary):three independently addressed output layers;Home(all paths) differs fromUSB/Bluetooth/Aux sources. Mono/stereo swaps clear snapshot/controller assignments. Direct analog global-volume target remains unverified. |
 | USB audio / monitoring versus processing | Computer playback **USB1/2 bypasses preset blocks** and is not a selectable Input source;USB3/4,5/6,7/8 are selectable stereo sources. Recording outputs7/8 are dedicated DI,not selectable Output blocks. Thus a preset Volume block does not establish attenuation of all computer playback. [Routing manual](https://manuals.line6.com/en/helix-stadium/live/input-output-and-mix-blocks). |
 | Routing / matrix and direct outputs | Matrix routes allow independent mixes for quarter-inch,XLR andphones. The respective Direct output choices bypass that matrix;separate physical outputs do not imply one universal mix or volume-control scope. [Routing manual](https://manuals.line6.com/en/helix-stadium/live/input-output-and-mix-blocks). |
 
@@ -751,6 +752,17 @@ The official current list includes models introduced through version 1.4. Counts
 [SX-ML]: https://line6.com/helix-stadium-models/
 
 The amp table contains 143 rows before removing the identical Cali 2C+ entry. Channel/input options within a row are not expanded; Brit SL100 groups several years. This counting method preserves generation distinctions rather than claiming 142 unique names. [Model list][SX-ML]
+
+### Stadium XL — Matrix MIDI layers and assignment-clearing boundary
+
+Checked **2026-11-03**, [manufacturer1.4 release notes](https://kb.line6.com/helix-stadium-1-4-release-notes), **October13,2026**, applicable to Stadium XL.
+
+| Field | Revision-qualified behavior / limit |
+|---|---|
+| MIDI / output-layer control | Quarter-inch,XLR,Phones Matrix layers default to MIDI channels **3,4,5**. Layer channels cannot equal Global/Assignable channels;layers may share a channel. **Level0–127**:CC11 Home(all paths),16 Song(all tracks),17–24 Tracks1–8,25 Click,26 CountIn,27 USB1/2,28 Bluetooth,29 Aux. Home is not an all-source master. Mute/Solo values≥64 **toggle**,rather than guarantee mute-on. This is MIDI control,not documented analogEXP→global-volume assignment orattenuation endpoints. |
+| Controls / mono-stereo conversion | Swapping an effect’s mono/stereo version retains settings but **clears snapshot andcontroller assignments**. Unavailable versions orinsufficientDSP disable swapping. Retained settings therefore do not imply retained pedal orsnapshot control. |
+
+The source describes1.4 features,not seller-installed firmware orhardware tests. Current volume-position/output-coverage gaps andcached Shopee stock qualifications remain unchanged. No download,MIDI transmission ordevice operation.
 
 ## HX Effects
 
