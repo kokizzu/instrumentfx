@@ -2268,3 +2268,7 @@ expression-audit-stage-headrush:
 .PHONY: expression-audit-stage-line6
 expression-audit-stage-line6:
 	python3 scripts/expression_audit_line6.py stage
+
+.PHONY: expression-audit-stage-valeton
+expression-audit-stage-valeton:
+	python3 scripts/expression_audit_valeton.py stage

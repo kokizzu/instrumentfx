@@ -138966,6 +138966,12 @@
         "mission": "AXOM MAX manufacturer miniscreen technology and direct Shopee hardware offer",
         "blocker": "Maker source inaccessible and exact Shopee offer not surfaced",
         "resume_when": "A new accessible manufacturer source or exact hardware listing appears"
+      },
+      {
+        "mission": "GP-50 current1.1.0 manual global-expression scope",
+        "blocker": "Manufacturer-linked currentPDF inaccessible;alternate manufacturerCDN address also inaccessible on2026-11-03",
+        "resume_when": "Accessible original1.1.0 text or manufacturer clarification appears",
+        "preserve": "1.0.5 per-patch target andglobalcalibration remain separate;globaloverride unknown"
       }
     ],
     "general_cursor_preserved": true
@@ -139140,6 +139146,19 @@
     },
     "layouts": "Eight plus MasterLayoutMenu akaLayout9;historical countingclarification only",
     "qualification": "CurrentMKII equivalence,marketingcountbasis andactualaudiolatency unverified;nohardwareorvisualtest",
+    "inventory_change": false
+  },
+  "gp50_gelora_offer_20261103": {
+    "model": "Valeton GP-50",
+    "source": "https://shopee.co.id/Efek-gitar-Valeton-GP-50-i.306155985.57855336889",
+    "shop": "306155985",
+    "item": "57855336889",
+    "seller": "Gelora Musik Serpong",
+    "region": "Kab.Tangerang",
+    "ask_idr": 2255000,
+    "search": "two-month snapshot;August27–29delivery",
+    "direct": "one-month snapshot;September9–10delivery",
+    "qualification": "Historical exacthardware ask;condition,workingstate,firmware,variant,bundle,adapter,warranty andcheckoutunknown. NoHabis isnotstockconfirmation;voucher notdeducted.",
     "inventory_change": false
   }
 }
