@@ -143745,5 +143745,27 @@
     ],
     "remaining": "Firmware13 equivalence,currentexactrevisionShopeestock,globalvolume numericrange/recall remainunverified.",
     "next": "Continue requestedindividualLCD models;preserve generalGP200JR→Prime→GE300 queue."
+  },
+  "stageman_offers_20261103": {
+    "model": "NUX Stageman Floor NAP-5",
+    "offers": [
+      {
+        "shop_id": "16879370",
+        "item_id": "7866949497",
+        "seller": "Seven Stereo Music & Audio Store",
+        "idr": 2710000,
+        "basis": "Two-month indexed;directcachemiss;staleAugustdelivery"
+      },
+      {
+        "shop_id": "29592914",
+        "item_id": "29373466535",
+        "seller": "INDIERA FASHION & SPORT",
+        "indexed_idr": 2350400,
+        "direct_cached_idr": 2349500,
+        "basis": "Three-monthsearch vsone-monthdirect;vouchermarker200000spend/900discount;staledelivery"
+      }
+    ],
+    "qualification": "Condition/workingstate/variant/bundle/warranty/deliveredtotal/currentstockunknown;do notsubtractvoucheragain.",
+    "next": "ReturntoLCD-first queue;AXOMMAXprimarysearch empty,continueavailable modelwork."
   }
 }

@@ -1539,6 +1539,16 @@ All identify NAP-5 Stageman Floor hardware. New/used condition, working status, 
 | Audio / source-unit qualification | English PDFp7:20Hz–20kHz±1dB,noise−110dBu A-weighted;dynamicrange printed **120dBu** inbothlanguage tables. Retainthis questionableunit ratherthan silentlyrewriteas120dB;measurementconditions/reference unresolved. [Manual](https://manuals.plus/m/f2352c8d06dea0a95dfb47fb49c7a5dc93cc13ed45c44bf91264d334231177c2_optim.pdf) |
 | Ports / published jack sizes | [NUX product](https://nuxaudio.com/product/stagemanfloor/) specifies1/4inchTRSinsert,**1/8inchAUX andheadphones**,Micro-BUSB2.0updater. Chinese manualPDFp11prints3.55mm forAUX/phones;preservetypographicdifference,notadifferentconfirmedconnectorstandard. |
 
+
+### Stageman Floor — exact offer and voucher-cache distinctions,2026-11-03
+
+| Field | Hardware ask / limitations |
+|---|---|
+| IDR / Seven Stereo hardware | [Seven Stereo Music & Audio Store,16879370/7866949497](https://shopee.co.id/Nux-NAP-5-NAP5-NAP-5-Stageman-Floor-Acoustic-Preamp-i.16879370.7866949497),Kota Bandung: two-month indexed **Rp2.710.000**,stale9–11August delivery;direct cache miss. **Condition,variant,bundle,warranty,checkout total andcurrent stock unknown**;no new/used classification or completed-sale claim. |
+| IDR / INDIERA conflicting caches | [INDIERA FASHION & SPORT,29592914/29373466535](https://shopee.co.id/Nux-NAP-5-Stageman-Floor-Acoustic-Preamp-i.29592914.29373466535),Kab.Bantul: three-month search **Rp2.350.400**,stale15–17July delivery;direct last-month cache **Rp2.349.500,Dengan Voucher**,Rp200.000 spend/Rp900 discount,stale25–26September delivery. The900 difference matches advertised discount arithmetically,buteligibility/base-price semantics andcheckout remain unverified;**do not subtract it again**. Condition,working state,variant,adapter/bundle,warranty,shipping/tax andlive stock unknown. |
+
+Exact titles identify NAP-5 processor hardware;these are separate dated asks,not a current range. Relative delivery/activity andabsence ofHabis are not stock proof. Late-arrival compensation is not an upfrontdiscount. Existing offers anddirect-expression failure remain unchanged;no purchase,download ordevice operation.
+
 <!-- comparison evidence ends -->
 
 ### Stageman Floor — direct expression screening,2026-10-28
