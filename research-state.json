@@ -141785,5 +141785,32 @@
       "full field-oriented profile admission"
     ],
     "status": "partial outside active counts"
+  },
+  "ir200_platform_boundary_20261103": {
+    "canonical": "brand/BOSS.md#ir-200--current-loader-and-driver-platform-boundaries",
+    "sources": [
+      "https://www.boss.info/global/support/by_product/ir-200/updates_drivers/ed28c888-ee6a-4035-b127-0f452ec02d00/",
+      "https://www.boss.info/global/support/by_product/ir-200/updates_drivers/eeeccac2-fdb9-4a73-bddb-629365333aa9/",
+      "https://www.boss.info/global/support/by_product/ir-200/updates_drivers/cdb2146e-2b2d-46c8-a258-811ddcd04da9/",
+      "https://www.boss.info/global/support/support_news/25090811m1/"
+    ],
+    "loader": "1.0.0 Windows10/11; separate1.0.0Mac application",
+    "windows_driver": "1.0.0 Windows10/11;ARM/VM/Windows-on-Mac unsupported",
+    "mac_matrix": {
+      "published": "2026-10-30",
+      "hardware_driver_and_exclusive_application": {
+        "Sequoia15": "Yes(Download)",
+        "Tahoe26": "Yes(Download)",
+        "GoldenGate27": "UnderTesting"
+      }
+    },
+    "remaining": [
+      "exact USB channels and sample formats",
+      "full parameter-editor feature scope",
+      "mobile/Linux editing",
+      "complete profile admission"
+    ],
+    "no_download_or_execution": true,
+    "status": "partial outside active counts; original general cursor preserved"
   }
 }

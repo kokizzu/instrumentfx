@@ -2903,6 +2903,21 @@ Checked **2026-11-03** in the original [Sound List 02, ©2021, pp3–8](https://
 
 Current installed content, user stereo-IR handling, final-output expression coverage and full profile admission remain unresolved. The partial lead remains outside active counts.
 
+### IR-200 — current loader and driver platform boundaries
+
+Checked **2026-11-03** by reading manufacturer support pages only. No installer, driver, firmware or archive was downloaded or run.
+
+| Component | Published scope / remaining limit |
+|---|---|
+| IR Loader for Windows | **1.0.0**, release history September2021; current requirements explicitly list **Windows10/11** and require the IR-200 driver first. Connection setup selects IR-200 MIDI IN/OUT. This documents loader communication, not arbitrary USB MIDI routing or a full tone editor. [Exact application page](https://www.boss.info/global/support/by_product/ir-200/updates_drivers/ed28c888-ee6a-4035-b127-0f452ec02d00/) |
+| Windows audio/MIDI driver | **1.0.0**, May2023 history adds Windows11; Windows10 32-bit driver unchanged. **ARM PCs, virtual Windows and Windows running on Mac are unsupported**. These are driver restrictions, not proof every standalone audio path fails. [Exact driver page](https://www.boss.info/global/support/by_product/ir-200/updates_drivers/eeeccac2-fdb9-4a73-bddb-629365333aa9/) |
+| Mac driver versus application | Driver **1.0.1** is listed for Sonoma14 and later, with support delegated to the compatibility matrix. IR Loader remains a separate **1.0.0** application. Do not turn the driver heading into an unlimited future-macOS promise. [Driver](https://www.boss.info/global/support/by_product/ir-200/updates_drivers/cdb2146e-2b2d-46c8-a258-811ddcd04da9/), [loader](https://www.boss.info/global/support/by_product/ir-200/updates_drivers/8635de75-f555-4ce5-8239-caa1bcb74faf/) |
+| Current Mac matrix | **October30,2026** matrix marks both IR-200 Hardware/Driver and Exclusive Application **Yes(Download)** for Sequoia15/Tahoe26, **Under Testing** for Golden Gate27. This is the manufacturer’s dated result, not our hardware test or a full parameter-editor feature claim. [Matrix](https://www.boss.info/global/support/support_news/25090811m1/) |
+
+Exact USB channel counts/sample formats, full parameter-editor availability and mobile/Linux editor support remain unverified. The inspected driver page places detailed usage in archive/install-generated Readme files; those were not fetched.
+
+The [same Seven Stereo item16879370/21523624968](https://shopee.co.id/Boss-IR200-IR-200-Amp-IR-Cabinet-i.16879370.21523624968) still exposes **Rp7.777.500**, Bandung and service unavailable in a five-month snapshot. This recheck adds no current stock, condition, bundle or checkout confirmation; the older observation remains preserved. Partial lead stays outside active counts.
+
 ## KATANA:GO
 
 Checked2026-10-17;partial. Guitar/bass multi-effects;ownership unverified. Current product evidence below;BOSS says latest and earlier models have same sounds/features. Physical revision and seller “GO2” identity need corroboration.
