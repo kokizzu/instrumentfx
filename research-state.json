@@ -141831,5 +141831,36 @@
       "complete profile/admission"
     ],
     "status": "partial outside active counts; no downloads or device operation"
+  },
+  "ngs6_v4_controls_memory_20261103": {
+    "canonical": "brand/NUX.md#ngs-6--v4-amp-choices-panel-controls-and-memory-boundary",
+    "sources": [
+      "https://nuxaudio.com/product/ampacademy/",
+      "https://www.manualslib.com/manual/3994930/Nux-Amp-Academy-Ngs-6.html?page=3",
+      "https://www.manualslib.com/manual/3994930/Nux-Amp-Academy-Ngs-6.html?page=4",
+      "https://www.nux.us/blogs/support/amp-academy-support-hub"
+    ],
+    "amp_choices": 18,
+    "selector_positions": 6,
+    "text_panel": {
+      "rotaries": 8,
+      "footswitches": 2,
+      "top_selectors": 3,
+      "visual_audit": false
+    },
+    "original_memory": "one preset per amp model,3scenes;current total not derived from18x3",
+    "ir_wording": "6associated,12Choptones,16user,10downloadedfactory;overlap unresolved;not44user slots",
+    "drivers": {
+      "Windows10plus": "5.30.0",
+      "Windows7": "3.29.0"
+    },
+    "remaining": [
+      "current memory occupancy",
+      "complete category census",
+      "sourceIR rate/length limits",
+      "NAM capability",
+      "qualified current hardware stock"
+    ],
+    "status": "partial outside active counts;direct analogEXP absent in previously checked inventory"
   }
 }

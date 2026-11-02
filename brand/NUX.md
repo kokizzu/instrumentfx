@@ -70,6 +70,20 @@ Neither provides condition-confirmed new/used,exact bundle,regional warranty,aut
 
 Still partial,outside392active models. Remaining:complete controls/screen andmemory profile,current category census,synth/acoustic andNAM distinctions,import restrictions,power-operation scope andqualified stock/condition. Earlier unreadable-PDF findings andoffers remain historical.
 
+### NGS-6 — V4 amp choices, panel controls and memory boundary
+
+Checked **2026-11-03** against the [current exact-model manufacturer page](https://nuxaudio.com/product/ampacademy/) and original manual text reproduced at [page3](https://www.manualslib.com/manual/3994930/Nux-Amp-Academy-Ngs-6.html?page=3)/[page4](https://www.manualslib.com/manual/3994930/Nux-Amp-Academy-Ngs-6.html?page=4). The same2021 NGS-6/Cherub document was identified above; no generated FAQ, visual census or installed-firmware test.
+
+| Field | Evidence / remaining limit |
+|---|---|
+| Amp choices / revision | Manufacturer now explicitly says **V4:18 amps,three options for each of six selector positions**. Older six-amp prose remains on the same page. Eighteen choices do not establish eighteen concurrent amps or eighteen independently writable presets. |
+| Controls | Manual panel names **eight rotaries**:Gain,Master,Bass,Middle,Treble,Presence,Boost,NR; **two footswitches** A/B andScene; **three top selectors** A,B,Scene. Rear switches and any separate push-button total require their own census. A/B/Scene LED indicators are documented; no display diagonal/technology is inferred from them. |
+| Memory / original save behavior | Original manual gives **one preset per amp model,three scenes**, saved by holding A/B1.5seconds. Scene switch cycles1→2→3;holding it1.5seconds enters Alt reverb editing. Current V4 total writable/factory occupancy remains unverified;do not simply multiply18×3 into54 independent preset slots. |
+| IR capacity wording | Current page says **six amp-associated IR slots,12 Choptones custom IRs and16 user slots**,plus10 free factory IRs with editor download. These refer to association,content andstorage;their overlap is not defined. Do not sum them as44 independent user slots. Editor auto-converts WAV;published processing1024samples,32bit/48kHz. Accepted source-rate/length limits remain unresolved. |
+| Software / exact-model drivers | Current global page and [September27,2026 USA support hub](https://www.nux.us/blogs/support/amp-academy-support-hub) agree on firmware4.0.2/editor2.4.2.3. Exact NGS-6 driver links are **ASIO5.30.0 for Windows10+ /3.29.0 for Windows7**;these are not NMA-3AAP’s5.72.0 listing or editor OS minima. |
+
+No packages downloaded or run. Normal guitar input and absence of analog EXP in the complete documented connector inventory remain unchanged. NAM,full current category/memory census,power operation andcondition-qualified Indonesian stock remain unresolved;partial lead stays outside active counts.
+
 ## Amp Academy Stomp
 
 Checked2026-10-17;partial. Separate hardware from original Amp Academy;not previously inventoried. Guitar multi-effects eligibility follows independent effects architecture. Bass/vocal suitability and ownership unresolved.

@@ -2308,3 +2308,7 @@ expression-audit-stage-fender:
 .PHONY: expression-audit-stage-mvave
 expression-audit-stage-mvave:
 	python3 scripts/expression_audit_mvave.py stage
+
+.PHONY: expression-audit-stage-nux
+expression-audit-stage-nux:
+	python3 scripts/expression_audit_nux.py stage
