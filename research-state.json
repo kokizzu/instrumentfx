@@ -141710,5 +141710,43 @@
     "remaining_scope": "Black chassis/mass only;no sibling/bundle transfer",
     "new_source_boundary": "Line6 dimensions KB links2017/100407 spreadsheets;not downloaded orinspected;Black product endpoint cachemiss",
     "canonical": "brand/LINE6.md#black--dimension-source-scope-and-remaining-task"
+  },
+  "ir200_original_memory_categories_20261103": {
+    "canonical": "brand/BOSS.md#ir-200--original-factory-memory-and-eqambience-census",
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/IR-200_SoundList_eng02_W.pdf",
+      "https://static.roland.com/assets/media/pdf/IR-200_eng01_W.pdf"
+    ],
+    "revision": "2021 SoundList02 andowner01,not current-unit inspection",
+    "memory": {
+      "base_entries": 32,
+      "offsets": [
+        0,
+        32,
+        64,
+        96
+      ],
+      "total_documented_filled": 128,
+      "guitar": 112,
+      "bass": 16,
+      "writable_capacity": 128,
+      "not_unique_tone_count": true
+    },
+    "categories": {
+      "guitar_amp_types": 8,
+      "bass_amp_types": 3,
+      "eq_choices_per_slot": 2,
+      "ambience_types": 3,
+      "thru_separate": true
+    },
+    "conflict": "Some preset AMP cellsBGN UB METAL versusamp-tableBGR UB METAL",
+    "remaining": [
+      "simultaneous-stage census",
+      "current installed factory filling",
+      "stereo userIR interpretation",
+      "global-volume coverage",
+      "complete profile/admission"
+    ],
+    "status": "partial outside active counts; general research cursor preserved"
   }
 }

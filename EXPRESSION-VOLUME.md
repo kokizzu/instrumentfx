@@ -680,3 +680,5 @@ H90 [historical range warning](brand/EVENTIDE.md#h90--historical-global-range-li
 [Exact-model lead](brand/POLY-EFFECTS.md#beebo--partial-no-treadle-discovery), outside active counts. Direct analog EXP and global volume remain unknown. Manufacturer serial-dependent MIDI wiring must not be treated as EXP pinout; footprint axes, headphones and onboard preset directions remain qualified. No exact Shopee hardware offer verified.
 
 FM9 MKII Turbo [historical increment-control qualification](brand/FRACTAL-AUDIO.md#fm9-mkii-turbo): Volume Increment/Decrement saves the current preset andunrelated unsaved edits;an expression sweep is explicitly discouraged. These trigger functions are separate from continuous global Input/Output Volume. Exact MKII/current-firmware equivalence remains unverified.
+
+IR-200 [original memory andcategory census](brand/BOSS.md#ir-200--original-factory-memory-and-eqambience-census): original Sound List accounts forall128locations;EQ/ambience alternatives now documented. These findings do not resolve global AMP LEVEL coverage oradmit thepartial lead totheactiveinventory.

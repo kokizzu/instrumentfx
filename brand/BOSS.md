@@ -2882,6 +2882,16 @@ The documented amp, noise suppression, EQ and ambience stages support multi-effe
 
 Retain the lead outside active tables until a complete field-oriented profile and scope decision are saved. Unknown fields do not imply absent capabilities.
 
+### IR-200 — original factory memory and EQ/ambience census
+
+Checked2026-11-03 in the original [Sound List02,©2021,p2](https://static.roland.com/assets/media/pdf/IR-200_SoundList_eng02_W.pdf). Its complete memory table groups each base entry at offsets0,32,64,96: **32 listed configurations cover all128 locations**,with28 guitar andfour bass entries per group (**112/16 locations**). This resolves original documented filling,not a current unit’s contents,128 unique tones oradditional factory-only memory. All locations remain writable according to the separate owner manual.
+
+The Sound List independently enumerates **eight guitar/three bass amp types**;bass choices are Natural Bass,X-Drive Bass,Concert Bass. Several high-gain preset AMP cells say **BGN UB METAL**,while the amp table says **BGR UB METAL**. Preserve that naming conflict ratherthan invent another amp model. Cabinet selections,microphone/distance variants andamp counts remain distinct.
+
+The [2021 owner manual,pp15–18](https://static.roland.com/assets/media/pdf/IR-200_eng01_W.pdf) gives **two EQ choices per A/B slot**:four-band parametric orten-band graphic;each has±20dB level. Global EQ A/B uses the same parameters. **Three ambience choices**—Room,Studio,Hall—plusThru;time0.1–10s. Stereo andDual Mono are routing modes,not extra reverb types;Dual Mono shares type/parameters acrossA/B. Separate cab A/B andEQ A/B can be linked for editing;linking is not another processing instance.
+
+Earlier factory/census unknowns above are dated research stages. Simultaneous-stage accounting,current installed filling,stereo-user-IR interpretation,full editor andglobal AMP LEVEL coverage remain open. This remains a partial lead outside active counts;no local download,software operation orhardware test.
+
 ## KATANA:GO
 
 Checked2026-10-17;partial. Guitar/bass multi-effects;ownership unverified. Current product evidence below;BOSS says latest and earlier models have same sounds/features. Physical revision and seller “GO2” identity need corroboration.
