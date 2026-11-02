@@ -143823,5 +143823,17 @@
       "scope": "Registered full-body archives only;not complete migration orcurrent-specification verification."
     },
     "next": "Continue unresolved LCD-first primarysources;skip completed Dapper admission work. General GP200JR→Prime→GE300 remains independent."
+  },
+  "gp50_usb_level_scope_20261103": {
+    "model": "Valeton GP-50",
+    "source": "https://www.hotone.jp/manuals/valeton/GP-50.pdf",
+    "basis": "Manufacturer regional original1.0.5,completeprintedp20;no newdownload/device test.",
+    "findings": [
+      "IndependentREC,BTREC,Monitor minus20to plus20dB default0",
+      "Per-channelDry/Wet recording,defaultWet",
+      "Inputgain minus20to plus20dB;globalNoCAB overridepreservespatch"
+    ],
+    "remaining": "No proof ofanalogEXP targetoralloutputcoverage;current1.1.0bodyunreadable,allpresetassignmentstillunknown.",
+    "next": "ContinueLCD-first andremainingno-treadleinventory;preserveGP200JR→Prime→GE300 generalcursor."
   }
 }
