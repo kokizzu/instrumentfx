@@ -141931,5 +141931,23 @@
       "qualified current hardware stock"
     ],
     "next": "Continue requested separate-screen processors;retain GP-200JR -> Prime -> GE300 independent queue"
+  },
+  "fender_midi_switch_addressing_20261103": {
+    "canonical": "brand/FENDER.md#tone-master-pro--midi-footswitch-addressing-and-song-direction-conflict",
+    "source": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+    "revision": "1.7.53 December3,2025;1.7.69 January13,2026;1.8.45 June3,2026",
+    "CC30": {
+      "enable": "0–7 switches1–8",
+      "disable": "10–17 switches1–8"
+    },
+    "song_conflict": "Heading69/70 Previous/Next;bullets69Next/70Previous,64–127",
+    "USB_MIDI_ports": "Control and DAW Mode separate software endpoints",
+    "remaining": [
+      "page-two MIDI address mapping",
+      "Song-direction manufacturer clarification",
+      "current complete MIDI table",
+      "global analog-volume coverage"
+    ],
+    "status": "Documented mapping andinternal conflict;no hardware messages ordownloads. Source-blocked NAM primary/GuideH tasks deferred;continue other requested processors."
   }
 }

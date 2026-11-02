@@ -514,3 +514,11 @@ Checked 2026-11-03 in [manufacturer release history](https://support.fender.com/
 - The previously recorded MIDI EXP4/Master Volume fix belongs to this same release. It is distinct from normal direct analog EXP mapping and does not establish final-output attenuation.
 
 Current1.8 equivalence has not been tested. These improvements do not establish universal tail/looper/headphone coverage, installed firmware or a current full model census. No download,update ordevice operation.
+
+### Tone Master Pro — MIDI footswitch addressing and Song-direction conflict
+
+Checked **2026-11-03** in [manufacturer release history](https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates). **1.7.53,December3,2025** documents alternate **CC30**:values **0–7 enable switches1–8;10–17 disable1–8**. This is MIDI switch-state control,not continuous expression. Later1.8.45 adds16paged assignments butdoesnot extend that mapping in these notes;page-two MIDI addressing remains unverified.
+
+The1.7.53 heading associates **CC69/70 with Previous/Next Song**,butits explicit bullets assign **CC69=Next,CC70=Previous**,both values64–127. Preserve this internal direction conflict rather than recommend an unqualified mapping. Neither message is documented here as previous/next individual preset. No MIDI messages sent orhardware tested.
+
+The1.7.69 Mac DAW setup separately identifies **Control** and **DAW Mode** USB MIDI ports;the published StudioPro8 transport integration doesnot certify arbitrary DAW protocols ornew physical DIN sockets. Current complete MIDI implementation andglobal analog-volume scope remain unresolved. No local download orsoftware operation.
