@@ -2412,6 +2412,12 @@ Checked **2026-11-03**. Exact desktop processor,not HD300/400/500 or HD Pro. Man
 
 FBV parameter targets have separate heel/toe values;global volume assignment,held-position recall,bypass/USB/headphone/tail/loop attenuation remain unknown. Direct analog connector screening isseparate fromthese controller questions. No local download,software installation orhardware operation. Finish remaining profile andqualified offers before active admission;do not transfer floor-unit specifications.
 
+### POD HD Desktop — updater and licence-service boundaries
+
+Checked **2026-11-03**. [Line6Tony’s manufacturer announcement](https://line6.com/support/announcement/120-line-6-monkey-and-line-6-license-manager-retiring-on-april-10th-2026/),datedFebruary5,2026,schedules the **Monkey online-update/License Manager transaction server’s retirement forApril10,2026**. Model packs not transferred before that date become device-locked orunavailable fornew installation/transfer. Old manual instructions are not evidence those online services remain usable. Offline Monkey firmware updating is described without all-system guarantees orsupport forfailed attempts;none was attempted here.
+
+The [manufacturer software index](https://line6.com/software/index.html?locale=ja_JP&os=All&submit_form=set),retrieved as indexed text,lists **Central1.06,September17,2026,Windows10/11**,explicitly including **POD HD**. Its older1.00 list names the desktop **Bean** alongsidePro/500 variants. This supports a firmware-management route,not a replacement full parameter editor orrestored model-pack licensing. The targeted Central-filter page was inaccessible;exact current POD HD Edit/driver OS andarchitecture support remain open. No package downloaded,licence transaction,update ordevice operation performed.
+
 ## POD X3 Live
 
 Checked **2026-10-17**; partial. Floor processor, distinct from desktop X3, rack X3 Pro and XT Live. Model-specific [product documentation][X3L-P] establishes guitar, bass and vocal modeling; all three instrument comparisons include this single canonical record.

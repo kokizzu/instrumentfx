@@ -141977,5 +141977,21 @@
     ],
     "next": "Continue eligible no-treadle inventory after checking existing records;preserve separate-LCD priority andGP-200JR -> Prime -> GE300 independent cursor",
     "downloads": false
+  },
+  "pod_hd_desktop_services_20261103": {
+    "canonical": "brand/LINE6.md#pod-hd-desktop--updater-and-licence-service-boundaries",
+    "sources": [
+      "https://line6.com/support/announcement/120-line-6-monkey-and-line-6-license-manager-retiring-on-april-10th-2026/",
+      "https://line6.com/software/index.html?locale=ja_JP&os=All&submit_form=set",
+      "https://line6.com/software/index.html?hardware=All&locale=en_UK&submit_form=set"
+    ],
+    "retirement": "Manufacturer February5 notice:Monkey onlineupdates/LicenseManager transactions endApril10,2026;offline update unsupported onfailedsystems;no direct server test",
+    "Central": "Indexed1.06September17,2026 Windows10/11 listsPODHD;older1.00 explicitlyBean;notfullparametereditor orlicensingreplacement",
+    "remaining": [
+      "exact current desktopEdit anddriver support",
+      "qualified hardware offers",
+      "fullprofile beforeadmission"
+    ],
+    "status": "Partial lead outside active counts;no downloads ortransactions"
   }
 }
