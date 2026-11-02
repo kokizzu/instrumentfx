@@ -79,6 +79,14 @@ The current [manufacturer Eventide Control page](https://www.eventideaudio.com/s
 
 No download,installation,controller messages orhardware operation. Global gain endpoints/recall/output coverage,exact physical dimensions andqualifiedShopeeGen2hardware remain deferred;continue other missions independently.
 
+### H9 Gen 2 — regional body dimensions and qualified footprint
+
+Checked **2026-11-03** in [Eventide Japan's exact Gen2 product page](https://www.eventideaudio.jp/h9-gen2/),publishedJune26,2026. Its body specification is **133×127×69mm;600g**,separate from **225×180×75mm packaging;1kg packaged**. Body axes are not labeled. These metric body figures agree with rounded conversion ofthe global product's5.25×5×2.7inch triplet,butnot the English/Japanese1.2.2 manual's144×125×67mm table.
+
+**Preferred footprint: qualified fit using the regional product figures.** All three regional dimensions are below140mm,so any two footprint axes fit200W×140D. This is an inference from that source,not an independent measurement orresolution ofthe manual conflict. Cable/plug clearance isnot included. Do not substitute packaging ororiginal-H9 measurements.
+
+The same exact-model regional page explicitly describes **guitar/bass-to-synth processing** andmulti-effect composite algorithms. This supports ordinary-instrument synth capability,not unrestricted polyphony for every algorithm,acoustic simulation or74 independently simultaneous slots. Its Bluetooth-coming-soon text remains qualified by the later1.2.2 documentation already retained. Global pedal gain endpoints,recall andoutput coverage remain unresolved;the model remains a partial lead outside active counts.
+
 ## H9 Max
 
 Checked 2026-10-17; partial. Max is distinct from Standard/Core; ownership unverified.

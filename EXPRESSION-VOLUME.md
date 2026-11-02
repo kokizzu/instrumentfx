@@ -690,3 +690,5 @@ IR-200 [original memory andcategory census](brand/BOSS.md#ir-200--original-facto
 ### Eventide H9 Harmonizer Gen 2 — partial no-treadle discovery
 
 [Exact-model profile](brand/EVENTIDE.md#h9-harmonizer-gen-2--partial-no-treadle-discovery),outside active counts. Manufacturer documents direct analog EXP and global In Gain/Out Gain targets across presets. Calibration is separate. Gain endpoints,held-position recall,bypass/dry-branch/tail/recorded-loop coverage remain unknown. No dedicated phones socket;one switch scrolls both directions with hold-to-reverse andseparate load confirmation. Conflicting dimension axes/conversions prevent unqualified preferred-fit approval. Shared main screen does not replace the individual-foot-LCD priority. Qualified exact Shopee Gen2 hardware still unknown.
+
+Gen2 [regional footprint follow-up](brand/EVENTIDE.md#h9-gen-2--regional-body-dimensions-and-qualified-footprint):133×127×69mm body gives an orientation-independent **qualified preferred fit**,while manual dimensions remain contradictory. No change to unresolved gain endpoints/recall/output coverage orpartial admission status.

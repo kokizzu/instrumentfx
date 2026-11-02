@@ -142098,5 +142098,26 @@
     "conflict": "FAQdrypath prose namesH90;FAQlaunchbeta/importpromises supersededbylaterappnotes",
     "status": "Partial outside active inventory;no downloads",
     "next": "Deferred gainrange/recall/output/dimensions/Shopee;continue other eligible research,with separateLCDpriority andGP-200JR -> Prime -> GE300 retained"
+  },
+  "h9_gen2_regional_body_20261103": {
+    "canonical": "brand/EVENTIDE.md#h9-gen-2--regional-body-dimensions-and-qualified-footprint",
+    "source": "https://www.eventideaudio.jp/h9-gen2/",
+    "body_mm": [
+      133,
+      127,
+      69
+    ],
+    "axes": "unlabeled",
+    "body_g": 600,
+    "package_mm": [
+      225,
+      180,
+      75
+    ],
+    "package_g": 1000,
+    "fit": "Inference:allbodydimensions<140,anyfootprintaxiscombinationfits200x140;qualified because144x125x67manualconflictunresolved",
+    "instrument_evidence": "Ownregionalguitar/bass-to-synth description;notuniversalpolyphony",
+    "active": false,
+    "next": "Defer unresolvedglobalgainrange/recall/output/manualconflict/Shopee;return independent GP-200JR -> Prime -> GE300 cursor andLCDpriority without repeating unchanged failed sources"
   }
 }
