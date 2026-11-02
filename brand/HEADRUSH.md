@@ -430,6 +430,7 @@ Own2.7 cumulative notes,p.4: feedback affects recording/overdub rather than play
 | Vocal | Antares Auto-Tune, De-Esser, Vocal Distortion, Doubler, Harmony, Stutter and Vocoder are separately listed; mic path and routing qualifications above apply. [PR-P, PR-S] |
 | IR / captures | Third-party IR loading, 1024/2048-sample processing; FAQ accepts **WAV/AIFF up to 192 kHz/32-bit** and two IRs in a block. Processing length differs from accepted source-file rate/depth. Dedicated IR-loader browser; shared rigs can require external assets and relinking/saving (see support scope below). Exact conversion rules/slot ceiling unresolved. Proprietary onboard **Amp Cloner**, HeadRush/ReValver clones and SuperClones are separate from NAM; SuperClone assembly is a desktop software workflow. [PR-F, PR-M, PR-R] |
 | Native / converted NAM | **Native NAM A1/A2**, not a conversion-only claim. 5.1 documented one A1 Standard/Lite/Feather/Nano or A2 Full/Lite per rig; **5.2 allows two A2 Full, or four A2 Lite across two NAM blocks**, including doubling modes. Do not apply the newer A2 limits to every A1 architecture. [PR-R] |
+| NAM / stereo and tails restrictions | Own5.2 guide pp24–25: A2 automatically Lite when more than2 captures are loaded or stereo FX precede2 separate NAM blocks; Mode unavailable for A1. Any NAM block disables rig-change reverb/delay tails. Switch Doubling is the documented alternative for capture changes within a rig; not universal spillover. [Detailed qualifications](#prime--nam-stereo-quality-tail-and-level-boundaries). |
 | Audio/control I/O | TS guitar in; balanced XLR/6.35 mm combo mic in with **48 V**; stereo TRS FX send/return; two TRS mains plus two XLR mains; 3.5 mm aux and headphones; EXP, toe, external amp-control TRS; DIN MIDI IN/OUT-THRU; USB-A storage/class-compliant MIDI host; USB-B computer; IEC mains; Wi-Fi and Bluetooth audio. **Send is output, return is input**; FAQ/spec table reverse those direction labels, while operating descriptions are clear. [PR-F, PR-M pp.8–9] |
 | Power / battery / USB | **100–240 V AC, 50/60 Hz, 1.2 A rated input**, IEC. DC voltage/polarity N/A. Internal coin cell disclosed for disposal is **not a rechargeable operating battery**; battery/USB bus-powered operation not established. [PR-M p.85] |
 | Editors | Full **HeadRush Remote browser editor over Wi-Fi**: Windows, macOS, iOS and Android browsers named in release notes; seven-inch-or-larger screen recommended. This differs from desktop Windows/macOS updater and Windows audio driver; Linux full-editor support unverified. [PR-R, PR-M] |
@@ -530,6 +531,19 @@ Checked **2026-11-03** in the already-saved [manufacturer User Guide5.2.0,printe
 
 Most other listed actions trigger onany0–127 value;the guide explicitly distinguishes the continuous targets andswitch press/release exceptions. No MIDI messages sent. Current OLED physical specifications,installed-library census,rig-storage ceiling andcondition-qualified hardware stock remain unresolved.
 
+
+### Prime — NAM stereo quality, tail and level boundaries
+
+Checked **2026-11-03** in the already-saved [original Prime User Guide5.2.0](https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf), complete printedpp24–25. No new download ordevice operation.
+
+| Field | Exact-revision limitation / qualification |
+|---|---|
+| NAM / quality versus routing | A2 **Mode Full/Lite** automatically becomes **Lite** andcannot be changed if more than two captures are loaded, **or a stereo effect precedes two separate NAM blocks**. A1 also disables this selector;the A2 Full/Lite quality choice is not an A1 architecture conversion. Existing two-Full/four-Lite maxima remain subject to these routing andDSP limits. |
+| Practical / NAM tail limitation | **Reverb/Delay Tails unavailable for rig switching whenever any NAM block is present.** The guide suggests Switch Doubling for tails while switching captures inside the rig. This is not guaranteed tails between arbitrary NAM rigs,not a promise every effect spills over,andnot proof that an analog volume pedal attenuates the surviving tails. |
+| NAM / level controls | Input andOutput each span **−20 to+20dB**. Input changes drive/dynamics;Output changes level. These are NAM-block controls,not universal global-volume endpoints. **Calibrate Input** uses capture metadata andis disabled without it. |
+| NAM / output modes | **Raw** retains model-dependent output;**Calibrated** uses stored metadata ifavailable;**Normalize** automatically adjusts toward a target peak. No numerical target orstandardized loudness guarantee supplied. Capture calibration/normalization is separate from expression-pedal calibration andglobal assignment. |
+
+This narrows practical NAM applicability without changing the12OLED hardware layout,native-versus-converted classification orhistorical factory library. Actual installed firmware,complete current category census,rig storage ceiling andqualified current Shopee hardware stock remain unresolved.
 
 ## VX5
 

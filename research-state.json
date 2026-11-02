@@ -142237,5 +142237,23 @@
     ],
     "visual": "Screenshot returned no inspectable image;no visual census",
     "next": "Continue individual-display processors;defer unchanged Shopee caches;independent GP-200JR -> Prime -> GE300 retained"
+  },
+  "prime_nam_quality_tails_20261103": {
+    "canonical": "brand/HEADRUSH.md#prime--nam-stereo-quality-tail-and-level-boundaries",
+    "source": "https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf",
+    "access": "Already saved original guide printed24–25;no download",
+    "limits": [
+      "A2Liteforced above2captures orstereoFXbefore2NAMblocks",
+      "A1Mode selector disabled",
+      "AnyNAM disables rig-change reverb/delay tails;SwitchDoubling withinrig alternative"
+    ],
+    "level_controls": "NAM In/Out -20…+20dB;metadata calibration andNormalize notglobalEXP",
+    "remaining": [
+      "Installed library and firmware",
+      "Rig storage ceiling",
+      "Auxiliary OLED physical specifications",
+      "Qualified current hardware stock"
+    ],
+    "next": "Continue separate-foot-display priority;independent general queue next MOOERGE300 afterPrime;blocked exact offers deferred"
   }
 }
