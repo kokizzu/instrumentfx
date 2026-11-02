@@ -141547,5 +141547,15 @@
     "current_range": "unverified",
     "global_assignment": "manufacturer-supported;unchanged",
     "next": "Exact current range/customization and position/bypass/dual/tail/looper coverage; do not equate calibration or patch ranges with global behavior"
+  },
+  "h90_editor_release_20261103": {
+    "source": "https://www.eventideaudio.com/downloads/?product=H90",
+    "eventide_control_desktop": "2.2.3",
+    "h90_firmware_minimum": "1.9.4",
+    "legacy_h90_control": "1.9.13 Windows/macOS/iPad",
+    "conversion": "1.8.16 auto-converts imported Program/List routing to current pedal mode; distinct storage sets remain",
+    "mapping_fix": "2.2.3 preserves H9Gen2 auxiliary-switch mappings into H90 Program; reverse performance assignment fix is destination-specific",
+    "drag": "1.9.13 copy/swap choice and overwrite/last-copy warnings qualify older manual overwrite behavior",
+    "global_range": "No current range fix established by these editor notes"
   }
 }
