@@ -23971,33 +23971,63 @@
       "url": "https://shopee.co.id/VALETON-GP200JR-GP-200JR-efek-digital-multi-effect-gitar-bass-i.3086066.25864478892",
       "indexed_idr": 4980000,
       "seller": "RD Music",
-      "qualification": "Cached7October delivery; condition, accessories, region and checkout stock unverified"
+      "qualification": "Cached7October delivery; condition, accessories, region and checkout stock unverified",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Valeton::GP-200JR",
+        "canonical_record": "brand/VALETON.md#gp-200jr",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "Valeton GP-200JR",
       "url": "https://shopee.co.id/Valeton-GP-200JR-GP200JR-GP-200-JR-Compact-Multi-Effects-Guitar-Processor-i.2655003.50205711474",
       "indexed_idr": 4970000,
-      "qualification": "WITH VOUCHER; do not merge with unconditional asks or apply unrelated voucher compensation"
+      "qualification": "WITH VOUCHER; do not merge with unconditional asks or apply unrelated voucher compensation",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Valeton::GP-200JR",
+        "canonical_record": "brand/VALETON.md#gp-200jr",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "HeadRush Prime",
       "url": "https://shopee.co.id/HEADRUSH-PRIME-%E2%80%93-Next-Generation-Guitar-FX-Amp-Modeler-and-Vocal-Processor-Touchscreen-Pedalboard-Original-i.945642322.52161712736",
       "indexed_idr": 22789000,
       "seller": "HOLY MUSIC",
-      "qualification": "Indexed hardware ask; not authenticated live stock"
+      "qualification": "Indexed hardware ask; not authenticated live stock",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "HeadRush::Prime",
+        "canonical_record": "brand/HEADRUSH.md#prime",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "HeadRush Prime",
       "url": "https://shopee.co.id/Headrush-Prime-Guitar-Multi-Effect-Amp-Modelling-Processor-Second-Bekas-i.1149776042.54402465704",
       "indexed_idr": 15400000,
-      "qualification": "Explicit SECOND/BEKAS and SOLD OUT; historical used ask, not active stock or proven completed sale"
+      "qualification": "Explicit SECOND/BEKAS and SOLD OUT; historical used ask, not active stock or proven completed sale",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "HeadRush::Prime",
+        "canonical_record": "brand/HEADRUSH.md#prime",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "MOOER GE300",
       "url": "https://shopee.co.id/-Ready-Stock-mooer-ge300-amp-modelling-synth-multy-efek-multy-effect-mooer-Original-ge-300-i.31173885.29362925028",
       "indexed_idr": 11928000,
       "seller": "Vin's Music Store",
-      "qualification": "Ready Stock title has cached8May delivery; current availability not established"
+      "qualification": "Ready Stock title has cached8May delivery; current availability not established",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "MOOER::GE300",
+        "canonical_record": "brand/MOOER.md#ge300",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "MOOER GS1000",
@@ -24006,7 +24036,13 @@
       "seller": "Nafiri Music Store",
       "checked_date": "2026-10-16",
       "qualification": "Cached29June delivery,JakartaUtara; exact hardware title,condition/bundle/stock unverified",
-      "status": "partial profile recorded"
+      "status": "partial profile recorded",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "MOOER::GS1000",
+        "canonical_record": "brand/MOOER.md#gs1000",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "BOSS GT-100",
@@ -24016,7 +24052,13 @@
         "https://shopee.co.id/BOSS-GT-100-i.266296121.3068716612",
         "https://shopee.co.id/Boss-GT-100-COSM-Amp-Effects-Processor-GT100-GT-100-GARANSI-RESMI-i.10763705.3991620791"
       ],
-      "qualification": "Indexed cached asks4.3m/6.645m,Habis;condition/current stock unconfirmed. Not used-price proof."
+      "qualification": "Indexed cached asks4.3m/6.645m,Habis;condition/current stock unconfirmed. Not used-price proof.",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "BOSS::GT-100",
+        "canonical_record": "brand/BOSS.md#gt-100",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "Valeton GP-200X",
@@ -24028,7 +24070,11 @@
       "item_id": "48805823582",
       "indexed_idr": 6620000,
       "reopened_indexed_idr": 6486800,
-      "qualification": "Both with-voucher cached snapshots; discrepant values retained. Condition/bundle/region/checkout stock unconfirmed. Other sold-out exact item548551522/27173361420 indexed6350000; reopen cache miss."
+      "qualification": "Both with-voucher cached snapshots; discrepant values retained. Condition/bundle/region/checkout stock unconfirmed. Other sold-out exact item548551522/27173361420 indexed6350000; reopen cache miss.",
+      "current_resolution": {
+        "status": "exact-name resolution pending",
+        "qualification": "No exact inventory-name match; this is not proof of absence or a new model. Preserve variant, revision and grouped-lead qualifications; inspect canonical records before admission."
+      }
     },
     {
       "model": "Valeton GP-180",
@@ -24038,7 +24084,13 @@
         "https://shopee.co.id/Valeton-GP180-Multi-Effects-Processor-GP-180-i.394955725.48113176759",
         "https://shopee.co.id/Valeton-GP180-Multi-Effects-Processor-GP-180-i.31171541.51763144425"
       ],
-      "qualification": "Bandung Music Gallery indexed3619140/comparison3693000,2% label,stale August delivery. Artech search3693000 Habis versus reopened3619140 without sold-out label. Condition/bundle/region/checkout stock unknown."
+      "qualification": "Bandung Music Gallery indexed3619140/comparison3693000,2% label,stale August delivery. Artech search3693000 Habis versus reopened3619140 without sold-out label. Condition/bundle/region/checkout stock unknown.",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Valeton::GP-180",
+        "canonical_record": "brand/VALETON.md#gp-180",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "Valeton GP-5",
@@ -24048,7 +24100,13 @@
         "https://shopee.co.id/Valeton-GP-5-GP5-GP-5-Multi-FX-Amp-And-IR-Loader-Mini-Pedal-i.703046367.29241009193",
         "https://shopee.co.id/Valeton-GP-5-Multi-Effects-Processor-SnapTone-IR-Loader-Efek-Gitar-i.331131666.43506785697"
       ],
-      "qualification": "Asia Pro Sound1585000 Habis on reopen; search omitted label. kitharraguitarshop1605000 Habis indexed; reopen cache miss. Retail hardware asks, not used-price or live-stock proof. Condition/bundle/region/voucher/delivered charges unconfirmed."
+      "qualification": "Asia Pro Sound1585000 Habis on reopen; search omitted label. kitharraguitarshop1605000 Habis indexed; reopen cache miss. Retail hardware asks, not used-price or live-stock proof. Condition/bundle/region/voucher/delivered charges unconfirmed.",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Valeton::GP-5",
+        "canonical_record": "brand/VALETON.md#gp-5",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "Valeton GP-50",
@@ -24058,7 +24116,13 @@
         "https://shopee.co.id/VALETON-GP-50-MULTI-EFFECT-PROCESSOR-Gp50-efek-valeton-gp50-i.945642322.55704518866",
         "https://shopee.co.id/Valeton-GP-50-GP50-Multi-Effects-Processor-i.495337904.56105944082"
       ],
-      "qualification": "HOLY MUSIC search2245000 versus reopened2255000,stock unconfirmed. Diana Musik2255000 Habis,stale8September delivery. Condition/bundle/region/delivered costs/voucher eligibility unknown."
+      "qualification": "HOLY MUSIC search2245000 versus reopened2255000,stock unconfirmed. Diana Musik2255000 Habis,stale8September delivery. Condition/bundle/region/delivered costs/voucher eligibility unknown.",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Valeton::GP-50",
+        "canonical_record": "brand/VALETON.md#gp-50",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "Line 6 HX Stomp",
@@ -24068,7 +24132,13 @@
         "https://shopee.co.id/Line-6-HX-Stomp-%28Second-Bekas-Preloved%29-Digital-Multi-Effects-Electric-Guitar-Bass-Keyboard-Efek-Gitar-Elektrik-Akustik-i.91725285.26545060709",
         "https://shopee.co.id/LINE-6-HX-STOMP-MULTI-EFFECTS-GUITAR-PEDAL-BLACK-i.440477624.23519849983"
       ],
-      "qualification": "Used8900000,explicitsecond/preloved,Habis,otnielsusanto Surabaya. Retail11229000,ROCKPIZZ MUSIC Denpasar,staleAugust delivery. Condition/accessories/region/checkout stock unconfirmed."
+      "qualification": "Used8900000,explicitsecond/preloved,Habis,otnielsusanto Surabaya. Retail11229000,ROCKPIZZ MUSIC Denpasar,staleAugust delivery. Condition/accessories/region/checkout stock unconfirmed.",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Line 6::HX Stomp",
+        "canonical_record": "brand/LINE6.md#hx-stomp",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "IK Multimedia TONEX ONE",
@@ -24078,7 +24148,13 @@
         "https://shopee.co.id/IK-Multimedia-TONEX-ONE-Stompbox-Modeler-i.16879370.28250929069",
         "https://shopee.co.id/IK-Multimedia-TONEX-ONE-Amplifier-Cab-Pedal-Modeler-Efek-Gitar-Bass-i.253483262.26851077985"
       ],
-      "qualification": "Seven Stereo Bandung3420000 exact standard hardware; condition/license/bundle/region/checkout stock unknown. TOKOAUDIOPRO JakartaPusat3550000–4100000 two unspecified variations, excluded from retail comparison until mapping verified."
+      "qualification": "Seven Stereo Bandung3420000 exact standard hardware; condition/license/bundle/region/checkout stock unknown. TOKOAUDIOPRO JakartaPusat3550000–4100000 two unspecified variations, excluded from retail comparison until mapping verified.",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "IK Multimedia::TONEX ONE",
+        "canonical_record": "brand/IK-MULTIMEDIA.md#tonex-one",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "IK Multimedia TONEX Pedal",
@@ -24088,7 +24164,13 @@
         "https://shopee.co.id/Tonex-Pedal-IK-Multimedia-TONE-X-Pedal-Amplifier-Pedal-Modeler-ToneX-i.12356205.21991009410",
         "https://shopee.co.id/TONEX-Pedal-IK-Multimedia-TONEX-Pedal-Amplifier-Cabinet-Pedal-Modeler-i.195817632.17298184084"
       ],
-      "qualification": "Eleven Music search7640000 versus reopen8150000. CH MUSIC indexed7640000 shipping/service unavailable,reopen failed. All condition/bundle/license/region/checkout stock unconfirmed."
+      "qualification": "Eleven Music search7640000 versus reopen8150000. CH MUSIC indexed7640000 shipping/service unavailable,reopen failed. All condition/bundle/license/region/checkout stock unconfirmed.",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "IK Multimedia::TONEX Pedal",
+        "canonical_record": "brand/IK-MULTIMEDIA.md#tonex-pedal",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "Neural DSP Nano Cortex",
@@ -24097,7 +24179,13 @@
       "urls": [
         "https://shopee.co.id/Neural-DSP-Nano-Cortex-Digital-Effects-Processor-i.16879370.51902266280"
       ],
-      "qualification": "Seven Stereo Music & Audio Store Bandung11900000 Habis indexed. Condition/region/bundle/voucher/final charges unverified; not live stock or used-price evidence."
+      "qualification": "Seven Stereo Music & Audio Store Bandung11900000 Habis indexed. Condition/region/bundle/voucher/final charges unverified; not live stock or used-price evidence.",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Neural DSP::Nano Cortex",
+        "canonical_record": "brand/NEURAL-DSP.md#nano-cortex",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "Valeton Dapper Bass Mini MES-2",
@@ -24114,7 +24202,13 @@
       "condition": "unknown",
       "bundle_variant": "unknown;model identity needs manufacturer check",
       "qualified_used_new": false,
-      "status": "Unrecorded candidate;manufacturer verification required before inventory admission"
+      "status": "Unrecorded candidate;manufacturer verification required before inventory admission",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Valeton::Dapper Bass Mini MES-2",
+        "canonical_record": "brand/VALETON.md#dapper-bass-mini-mes-2",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "Valeton Dapper Bass Mini MES-2",
@@ -24131,7 +24225,13 @@
       "condition": "unknown",
       "bundle_variant": "unknown;model identity needs manufacturer check",
       "qualified_used_new": false,
-      "status": "Unrecorded candidate;manufacturer verification required before inventory admission"
+      "status": "Unrecorded candidate;manufacturer verification required before inventory admission",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Valeton::Dapper Bass Mini MES-2",
+        "canonical_record": "brand/VALETON.md#dapper-bass-mini-mes-2",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "Valeton Dapper Bass VES-2",
@@ -24148,7 +24248,13 @@
       "condition": "unknown",
       "bundle_variant": "unknown;model identity needs manufacturer check",
       "qualified_used_new": false,
-      "status": "Unrecorded candidate;manufacturer verification required before inventory admission"
+      "status": "Unrecorded candidate;manufacturer verification required before inventory admission",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Valeton::Dapper Bass VES-2",
+        "canonical_record": "brand/VALETON.md#dapper-bass-ves-2",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "Valeton Dapper Bass VES-2 identity pending",
@@ -24165,7 +24271,11 @@
       "condition": "unknown",
       "bundle_variant": "unknown;model identity needs manufacturer check",
       "qualified_used_new": false,
-      "status": "Unrecorded candidate;manufacturer verification required before inventory admission"
+      "status": "Unrecorded candidate;manufacturer verification required before inventory admission",
+      "current_resolution": {
+        "status": "exact-name resolution pending",
+        "qualification": "No exact inventory-name match; this is not proof of absence or a new model. Preserve variant, revision and grouped-lead qualifications; inspect canonical records before admission."
+      }
     },
     {
       "model": "Valeton Dapper Mini MES-1",
@@ -24183,7 +24293,13 @@
       "direct_access": "Cache miss",
       "bundle_variant": "Unknown;adapter/warranty/variant not verified",
       "qualified_live_stock": false,
-      "status": "Unrecorded candidate;verify exact model using manufacturer before inventory admission"
+      "status": "Unrecorded candidate;verify exact model using manufacturer before inventory admission",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Valeton::Dapper Mini MES-1",
+        "canonical_record": "brand/VALETON.md#dapper-mini-mes-1",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "Valeton Dapper Mini MES-1 identity pending",
@@ -24201,7 +24317,11 @@
       "direct_access": "Cache miss",
       "bundle_variant": "Unknown;adapter/warranty/variant not verified",
       "qualified_live_stock": false,
-      "status": "Unrecorded candidate;verify exact model using manufacturer before inventory admission"
+      "status": "Unrecorded candidate;verify exact model using manufacturer before inventory admission",
+      "current_resolution": {
+        "status": "exact-name resolution pending",
+        "qualification": "No exact inventory-name match; this is not proof of absence or a new model. Preserve variant, revision and grouped-lead qualifications; inspect canonical records before admission."
+      }
     },
     {
       "model": "Valeton Dapper Acoustic Mini code pending",
@@ -24219,7 +24339,11 @@
       "direct_access": "Cache miss",
       "bundle_variant": "Unknown;adapter/warranty/variant not verified",
       "qualified_live_stock": false,
-      "status": "Unrecorded candidate;verify exact model using manufacturer before inventory admission"
+      "status": "Unrecorded candidate;verify exact model using manufacturer before inventory admission",
+      "current_resolution": {
+        "status": "exact-name resolution pending",
+        "qualification": "No exact inventory-name match; this is not proof of absence or a new model. Preserve variant, revision and grouped-lead qualifications; inspect canonical records before admission."
+      }
     },
     {
       "model": "Valeton Dapper Dark VES-3",
@@ -24236,7 +24360,13 @@
       "bundle_variant": "Unknown;fullsettitleonRK5notverifiedcontents",
       "voucher": "Unknown eligibility/finalcost;latearrivalvoucher isnotautomaticproductdiscount",
       "status": "Unrecorded candidate;manufacturerverificationrequired",
-      "qualified_live_stock": false
+      "qualified_live_stock": false,
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Valeton::Dapper Dark VES-3",
+        "canonical_record": "brand/VALETON.md#dapper-dark-ves-3",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "Tech 21 Fly Rig 5 v2",
@@ -24255,7 +24385,13 @@
       "bundle_variant": "Unknown;fullsettitleonRK5notverifiedcontents",
       "voucher": "Unknown eligibility/finalcost;latearrivalvoucher isnotautomaticproductdiscount",
       "status": "Unrecorded candidate;manufacturerverificationrequired",
-      "qualified_live_stock": false
+      "qualified_live_stock": false,
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Tech 21::Fly Rig 5 v2",
+        "canonical_record": "brand/TECH21.md#fly-rig-5-v2",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "Sonicake Black Hammer",
@@ -24272,7 +24408,11 @@
       "bundle_variant": "Unknown;fullsettitleonRK5notverifiedcontents",
       "voucher": "Unknown eligibility/finalcost;latearrivalvoucher isnotautomaticproductdiscount",
       "status": "Unrecorded candidate;manufacturerverificationrequired",
-      "qualified_live_stock": false
+      "qualified_live_stock": false,
+      "current_resolution": {
+        "status": "exact-name resolution pending",
+        "qualification": "No exact inventory-name match; this is not proof of absence or a new model. Preserve variant, revision and grouped-lead qualifications; inspect canonical records before admission."
+      }
     },
     {
       "model": "Tech 21 RK5 exact revision pending",
@@ -24289,7 +24429,11 @@
       "bundle_variant": "Unknown;fullsettitleonRK5notverifiedcontents",
       "voucher": "Unknown eligibility/finalcost;latearrivalvoucher isnotautomaticproductdiscount",
       "status": "Unrecorded candidate;manufacturerverificationrequired",
-      "qualified_live_stock": false
+      "qualified_live_stock": false,
+      "current_resolution": {
+        "status": "exact-name resolution pending",
+        "qualification": "No exact inventory-name match; this is not proof of absence or a new model. Preserve variant, revision and grouped-lead qualifications; inspect canonical records before admission."
+      }
     },
     {
       "model": "Valeton Dapper Indie",
@@ -24307,7 +24451,13 @@
       "voucher": "unknown",
       "access": "Exactitemlinkfrommonth-oldreadablestorefront;directitemcachemiss",
       "status": "Unrecorded candidate;manufacturerarchitecture/manualverificationrequired",
-      "qualified_used_new": false
+      "qualified_used_new": false,
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Valeton::Dapper Indie",
+        "canonical_record": "brand/VALETON.md#dapper-indie",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "DigiTech RP500",
@@ -24324,19 +24474,37 @@
       "bundle_variant": "unknown",
       "warranty": "unknown",
       "voucher": "late-arrival voucher not immediate discount",
-      "status": "Unrecorded candidate; official manufacturer/manual verification required"
+      "status": "Unrecorded candidate; official manufacturer/manual verification required",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "DigiTech::RP500",
+        "canonical_record": "brand/DIGITECH.md#rp500",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "Zoom GFX-3",
       "url": "https://shopee.co.id/Multi-FX-ZOOM-GFX-3-i.17427578.44205264506",
       "checked_date": "2026-10-17",
-      "qualification": "Searchonly700000Habis3monthcache,HIKARIDISTROBandung;notyetdirect/manufacturerverified."
+      "qualification": "Searchonly700000Habis3monthcache,HIKARIDISTROBandung;notyetdirect/manufacturerverified.",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Zoom::GFX-3",
+        "canonical_record": "brand/ZOOM.md#gfx-3",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "Zoom GFX-5",
       "url": "https://shopee.co.id/EFEK-ZOOM-GFX-5-NORMAL-JAYA-i.240675127.41070755630",
       "checked_date": "2026-10-17",
-      "qualification": "Searchonly1200000Habis3monthcache,johndheJepara;notyetdirect/manufacturerverified."
+      "qualification": "Searchonly1200000Habis3monthcache,johndheJepara;notyetdirect/manufacturerverified.",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Zoom::GFX-5",
+        "canonical_record": "brand/ZOOM.md#gfx-5",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "Fractal FM3 MKII Turbo",
@@ -24346,7 +24514,13 @@
       "indexed_idr": 25552000,
       "seller": "Hurtrock Music Store Bandung",
       "qualification": "Three-month indexed body says preorder7days with22July delivery; direct open yields JavaScript shell only. New/used,bundle,warranty,voucher,current stock unknown. Separate seller182719800/item55801628505 same ask says Habis; do not merge stock states.",
-      "manufacturer": "https://www.fractalaudio.com/fm3/"
+      "manufacturer": "https://www.fractalaudio.com/fm3/",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Fractal Audio::FM3 MKII Turbo",
+        "canonical_record": "brand/FRACTAL-AUDIO.md#fm3-mkii-turbo",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "Kemper PROFILER Player",
@@ -24355,7 +24529,13 @@
       "url": "https://shopee.co.id/KEMPER-PROFILER-Player-Guitar-Amp-Pedal-i.16879370.24561694371",
       "indexed_idr": 13134000,
       "seller": "Seven Stereo Music & Audio Store",
-      "qualification": "KotaBandung; direct reader returns exact hardware title and ask but stale30August delivery. Condition,stock,paidLevelupgrades,bundle,warranty,voucher unknown. Official product page redirected to regional shell; primary manual research required."
+      "qualification": "KotaBandung; direct reader returns exact hardware title and ask but stale30August delivery. Condition,stock,paidLevelupgrades,bundle,warranty,voucher unknown. Official product page redirected to regional shell; primary manual research required.",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Kemper::PROFILER Player",
+        "canonical_record": "brand/KEMPER.md#profiler-player",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "Fractal FM9 MKII Turbo",
@@ -24364,7 +24544,13 @@
       "seller": "Hurtrock Music Store Bandung",
       "qualification": "Two-week index exact Turbo title;KotaBandung. Direct open JavaScript shell;no condition,stock,bundle,warranty or installed firmware confirmation.",
       "checked_date": "2026-10-17",
-      "status": "partial root record saved;do not duplicate"
+      "status": "partial root record saved;do not duplicate",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Fractal Audio::FM9 MKII Turbo",
+        "canonical_record": "brand/FRACTAL-AUDIO.md#fm9-mkii-turbo",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "Fractal FM9 MKI",
@@ -24384,6 +24570,10 @@
         "manufacturer_page": 39,
         "finding": "Manufacturer explicitly distinguishes FM9Turbo fromStandard,with10+%extraDSP. MKI title alone does not select between them;oldFM3slug remains conflicting.",
         "decision": "Do not create a Standard/MKI model or assignTurboDSP pending revision evidence. Retain exact offer once;not discarded."
+      },
+      "current_resolution": {
+        "status": "exact-name resolution pending",
+        "qualification": "No exact inventory-name match; this is not proof of absence or a new model. Preserve variant, revision and grouped-lead qualifications; inspect canonical records before admission."
       }
     },
     {
@@ -24393,7 +24583,11 @@
       "seller": "Seven Stereo Music & Audio Store",
       "qualification": "Direct reader exact Stage title/ask;KotaBandung;stale7–9October delivery. MK1/MK2 revision not stated;new/used,stock,bundle,firmware,warranty unverified. Do not borrow Player orMK2 specs.",
       "checked_date": "2026-10-17",
-      "status": "deferred MK1/MK2unknown;not assigned toMK2record"
+      "status": "deferred MK1/MK2unknown;not assigned toMK2record",
+      "current_resolution": {
+        "status": "exact-name resolution pending",
+        "qualification": "No exact inventory-name match; this is not proof of absence or a new model. Preserve variant, revision and grouped-lead qualifications; inspect canonical records before admission."
+      }
     },
     {
       "model": "Kemper PROFILER Stage MK2",
@@ -24401,7 +24595,13 @@
       "indexed_idr": 32000000,
       "checked_date": "2026-10-17",
       "status": "partial root record",
-      "qualification": "Searchexacttitle;itemcachemiss;selecteddisplaymodel30511615878variationnotverified;JakartaPusat."
+      "qualification": "Searchexacttitle;itemcachemiss;selecteddisplaymodel30511615878variationnotverified;JakartaPusat.",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Kemper::PROFILER Stage MK2",
+        "canonical_record": "brand/KEMPER.md#profiler-stage-mk2",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "TC-Helicon VoiceLive Touch 2",
@@ -24421,7 +24621,13 @@
       "manufacturer_sources_to_read": [
         "https://mediadl.musictribe.com/download/software/tchelicon/vlt2_quick_start_en.pdf",
         "https://mediadl.musictribe.com/download/software/tchelicon/tc-helicon_voicelive_touch_2_reference_manual_en.pdf"
-      ]
+      ],
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "TC-Helicon::VoiceLive Touch 2",
+        "canonical_record": "brand/TC-HELICON.md#voicelive-touch-2",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "Zoom B1 FOUR",
@@ -24432,7 +24638,13 @@
       "indexed_idr": 2899999,
       "checked_date": "2026-10-18",
       "qualification": "Condition/stock/variant/bundle unverified;direct3weekcache versus search2months;relative delivery notlive;latecompensation notdiscount.",
-      "status": "Added to existing model;noinventory increment"
+      "status": "Added to existing model;noinventory increment",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Zoom::B1 FOUR",
+        "canonical_record": "brand/ZOOM.md#b1-four",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "VOX StompLab 2B",
@@ -24443,7 +24655,13 @@
       "displayed_idr": 1367000,
       "checked_date": "2026-10-18",
       "qualification": "Habis;withvoucher spendRp10RB/10%;SL2B/+Adaptor price allocation unresolved. Kept as unallocated listing display,not qualified used/new/bare/bundle price. Direct2weekcache versus initial2months;notlive.",
-      "status": "Existing model;variantprice unresolved,noinventory increment"
+      "status": "Existing model;variantprice unresolved,noinventory increment",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "VOX::StompLab 2B",
+        "canonical_record": "brand/VOX.md#stomplab-2b",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "M-VAVE CUBE BABY BASS",
@@ -24454,7 +24672,13 @@
       "indexed_idr": 706000,
       "checked_date": "2026-10-18",
       "qualification": "Exact Bass title,2monthcache;new/used/bundle/stock unknown;latecompensation notdiscount;no siblingpricing transfer",
-      "status": "Added toexisting root Bass model;no count change"
+      "status": "Added toexisting root Bass model;no count change",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "M-VAVE::CUBE BABY BASS",
+        "canonical_record": "brand/M-VAVE.md#cube-baby-bass",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "Zoom 505 original",
@@ -24473,7 +24697,13 @@
         "https://zoomcorp.com/media/documents/E_505.pdf",
         "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/S_505.pdf"
       ],
-      "initial_primary_findings": "Original English 505 manual cover identifies 24 effects, up to nine simultaneous, 24 user-programmable patches, optional FP01 expression/FS01 bank switching, 9V centre-negative 300mA adapter and one 6LR61 alkaline battery. Spanish S_505 also identifies 505 but says four AA cells and FP01/FP02; preserve language/revision conflict rather than choose or borrow 505II specifications."
+      "initial_primary_findings": "Original English 505 manual cover identifies 24 effects, up to nine simultaneous, 24 user-programmable patches, optional FP01 expression/FS01 bank switching, 9V centre-negative 300mA adapter and one 6LR61 alkaline battery. Spanish S_505 also identifies 505 but says four AA cells and FP01/FP02; preserve language/revision conflict rather than choose or borrow 505II specifications.",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Zoom::505 original",
+        "canonical_record": "brand/ZOOM.md#505-original",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "Donner ALPHA FX — exact identity pending",
@@ -24489,7 +24719,11 @@
       "qualification": "Do not assign Alpha Cruncher EC962 or another Alpha variant from generic ALPHA FX title. No qualified used/new or live price established. No inventory admission.",
       "manufacturer_candidate": "https://us.donnermusic.com/products/donner-alpha-cruncher-guitar-effect-pedal",
       "manufacturer_identity": "Alpha Cruncher EC962 independently documented as distortion/chorus/delay chain; not a match to seller item without identity evidence",
-      "status": "Deferred identity; exact hardware link or panel identity required"
+      "status": "Deferred identity; exact hardware link or panel identity required",
+      "current_resolution": {
+        "status": "exact-name resolution pending",
+        "qualification": "No exact inventory-name match; this is not proof of absence or a new model. Preserve variant, revision and grouped-lead qualifications; inspect canonical records before admission."
+      }
     },
     {
       "checked": "2026-10-18",
@@ -24560,13 +24794,21 @@
         "delay": "Maximum1second;tap tempo",
         "expression_memory_loading_editor": "Not yet established"
       },
-      "next": "Recover exact Shopee hardware item/seller or another qualified offer; then create root TRACE-ELLIOT.md profile with full field gaps and all guitar comparison rows. Preserve category-index omission and no stock claim."
+      "next": "Recover exact Shopee hardware item/seller or another qualified offer; then create root TRACE-ELLIOT.md profile with full field gaps and all guitar comparison rows. Preserve category-index omission and no stock claim.",
+      "current_resolution": {
+        "status": "exact-name resolution pending",
+        "qualification": "No exact inventory-name match; this is not proof of absence or a new model. Preserve variant, revision and grouped-lead qualifications; inspect canonical records before admission."
+      }
     },
     {
       "checked_date": "2026-10-18",
       "model": "Palmer Pocket Amp MK2",
       "source": "https://shopee.co.id/Palmer-Pocket-Amp-MK2-Portable-Guitar-Pre-Amp-i.397175630.21042864947",
-      "finding": "Exact SMOSYU item397175630/21042864947 shows Habis/Rp1.560.000 in four-month cache. Multi-effects eligibility not established; do not add a preamp merely from its name. Separate bass model not inferred."
+      "finding": "Exact SMOSYU item397175630/21042864947 shows Habis/Rp1.560.000 in four-month cache. Multi-effects eligibility not established; do not add a preamp merely from its name. Separate bass model not inferred.",
+      "current_resolution": {
+        "status": "exact-name resolution pending",
+        "qualification": "No exact inventory-name match; this is not proof of absence or a new model. Preserve variant, revision and grouped-lead qualifications; inspect canonical records before admission."
+      }
     },
     {
       "checked": "2026-10-18",
@@ -24608,7 +24850,13 @@
         "url": "https://www.mooeraudio.com/products/206.html",
         "eligibility": "Independent dual delays plus reverb; configurable serial/parallel routing supports multi-effects eligibility, not a mere preset/mode count."
       },
-      "next": "Read exact original manual fully; resolve all required fields, then admit one distinct II model into brand/MOOER.md, inventory and all guitar comparison tables. Do not transfer original Ocean Machine specifications or infer bass membership."
+      "next": "Read exact original manual fully; resolve all required fields, then admit one distinct II model into brand/MOOER.md, inventory and all guitar comparison tables. Do not transfer original Ocean Machine specifications or infer bass membership.",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "MOOER::Ocean Machine II",
+        "canonical_record": "brand/MOOER.md#ocean-machine-ii",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "checked_date": "2026-10-18",
@@ -24622,12 +24870,20 @@
       "model": "Sonicake Twiggy Blues QCE-20",
       "source": "https://www.sonicake.com/products/twiggy-blues",
       "eligibility": "Manufacturer identifies compressor,overdrive,delay,reverb;eligible architecture. Exact Shopee search did not establish a hardware item. Not admitted;do not transfer foreign USD asks to IDR or infer unavailable.",
-      "next": "Broaden exact Twiggy/QCE20 Shopee searches;verify own manual andallfields if hardware offer recovered."
+      "next": "Broaden exact Twiggy/QCE20 Shopee searches;verify own manual andallfields if hardware offer recovered.",
+      "current_resolution": {
+        "status": "exact-name resolution pending",
+        "qualification": "No exact inventory-name match; this is not proof of absence or a new model. Preserve variant, revision and grouped-lead qualifications; inspect canonical records before admission."
+      }
     },
     {
       "checked_date": "2026-10-18",
       "model": "Sonicake Twiggy Blues QCE-20",
-      "finding": "Broader Shopee Twiggy/SonicakeBlues/QCE20 searches returned unrelated lifestyle items or no exact pedal offer. Pending,not unavailable;do not repeat broadTwiggy-only search."
+      "finding": "Broader Shopee Twiggy/SonicakeBlues/QCE20 searches returned unrelated lifestyle items or no exact pedal offer. Pending,not unavailable;do not repeat broadTwiggy-only search.",
+      "current_resolution": {
+        "status": "exact-name resolution pending",
+        "qualification": "No exact inventory-name match; this is not proof of absence or a new model. Preserve variant, revision and grouped-lead qualifications; inspect canonical records before admission."
+      }
     },
     {
       "checked_date": "2026-10-18",
@@ -24695,7 +24951,11 @@
       "rejected_accessories": [
         "https://shopee.co.id/AC-ADAPTOR-BUAT-Zoom-Guitar-Effect-Processor-GFX-4-%28Japan%29-GFX-8-i.14849321.28104902463",
         "https://shopee.co.id/Modul-sensor-Pedal-WAH-pedal-volume-zoom-gfx-8-i.38361451.8214243069"
-      ]
+      ],
+      "current_resolution": {
+        "status": "exact-name resolution pending",
+        "qualification": "No exact inventory-name match; this is not proof of absence or a new model. Preserve variant, revision and grouped-lead qualifications; inspect canonical records before admission."
+      }
     },
     {
       "checked_date": "2026-10-18",
@@ -24730,7 +24990,13 @@
         "identity": "X V-AMP LX1-X Quick Start Guide,English controls pp8–9 indexedmanufacturertext",
         "eligibility": "Separate compressor,modulation,delay,reverb sections;integratedexpression withtoe-switch;notjustdedicatedsingleeffect modes."
       },
-      "next": "Admitted partial guitar profile from ownmanual;next resolve exactamp/cab census,powerconnector/outputtopology andfactoryfill. Preserve50/70mm and0.80/0.75kg sourceconflicts;shop49070533/item1303711852 notstock/newconditionproof."
+      "next": "Admitted partial guitar profile from ownmanual;next resolve exactamp/cab census,powerconnector/outputtopology andfactoryfill. Preserve50/70mm and0.80/0.75kg sourceconflicts;shop49070533/item1303711852 notstock/newconditionproof.",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Behringer::X V-AMP LX1-X",
+        "canonical_record": "brand/BEHRINGER.md#x-v-amp-lx1-x",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "checked_date": "2026-10-18",
@@ -24773,7 +25039,13 @@
         "https://blackstaramps.com/id-x-floor-three/",
         "https://blackstaramps.com/id-x-floor/"
       ],
-      "official_access": "Guessed paths unavailable; no official page identity claimed."
+      "official_access": "Guessed paths unavailable; no official page identity claimed.",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Blackstar::ID:X Floor Three",
+        "canonical_record": "brand/BLACKSTAR.md#idx-floor-three",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "MOOER Ocean Machine original",
@@ -24785,19 +25057,37 @@
       "idr_search": 2300000,
       "condition": "unknown",
       "stock": "unknown",
-      "access": "3weekdirectcache/2monthsearchcache;notlivecheckout"
+      "access": "3weekdirectcache/2monthsearchcache;notlivecheckout",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "MOOER::Ocean Machine original",
+        "canonical_record": "brand/MOOER.md#ocean-machine-original",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "Blackstar ID:X Floor One",
       "status": "Partial canonical guitar+bass record admitted",
       "checked_date": "2026-10-18",
-      "evidence_key": "blackstar_floor_one_20261018"
+      "evidence_key": "blackstar_floor_one_20261018",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Blackstar::ID:X Floor One",
+        "canonical_record": "brand/BLACKSTAR.md#idx-floor-one",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "LEKATO ME-01",
       "checked_date": "2026-10-18",
       "status": "Partialrootguitar+bassprofile;Shopeeidentityunconfirmed",
-      "evidence_key": "lekato_me01_20261018"
+      "evidence_key": "lekato_me01_20261018",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "LEKATO::ME-01",
+        "canonical_record": "brand/LEKATO.md#me-01",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "brand": "Zoom",
@@ -24853,6 +25143,10 @@
         "source": "https://zoomcorp.com/manuals/neurig-rig-list-ja/",
         "revision": "Preset1.00",
         "finding": "75numberedrigs:10DNAAmp+10DNAStomp+50Song+5Routing. Program/Stompmodes specified;not75additionalprotectedslots."
+      },
+      "current_resolution": {
+        "status": "exact-name resolution pending",
+        "qualification": "No exact inventory-name match; this is not proof of absence or a new model. Preserve variant, revision and grouped-lead qualifications; inspect canonical records before admission."
       }
     },
     {
@@ -24869,7 +25163,13 @@
         "Exact Shopee processor hardware offer",
         "Complete model fields before active admission",
         "Volume endpoints/recall,bypass/phones/tails/recorded-loop coverage"
-      ]
+      ],
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Fractal Audio::AM4",
+        "canonical_record": "brand/FRACTAL-AUDIO.md#am4",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "Fractal Audio VP4",
@@ -24889,7 +25189,13 @@
         "ExactShopeeIndonesiahardware",
         "Completerequiredfields",
         "Headphones,bypass/tails/loopattenuation,endpoints/recall"
-      ]
+      ],
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "Fractal Audio::VP4",
+        "canonical_record": "brand/FRACTAL-AUDIO.md#vp4",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "BOSS EX-4",
@@ -25172,6 +25478,10 @@
         ],
         "scope": "SysExDAW/sequencer backuprestore;notaudio/power/editorproof",
         "hardware_operated": false
+      },
+      "current_resolution": {
+        "status": "exact-name resolution pending",
+        "qualification": "No exact inventory-name match; this is not proof of absence or a new model. Preserve variant, revision and grouped-lead qualifications; inspect canonical records before admission."
       }
     },
     {
@@ -25193,7 +25503,13 @@
         "Condition-verifiedused/newhardwareandcheckoutstock"
       ],
       "algorithm_census": "38tablechoices:5Amplitude+5Filters+7Swirls/Shimmers+4Phase+10Misc+7Sequencer;V2.x.xreference,currentinstalledlibraryunverified",
-      "initial_status": "Partial lead,outsideactiveinventory"
+      "initial_status": "Partial lead,outsideactiveinventory",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "GFI System::Synesthesia",
+        "canonical_record": "brand/GFI-SYSTEM.md#synesthesia",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     },
     {
       "model": "GFI System Solis Ventus",
@@ -25271,6 +25587,12 @@
         "manual_k": "https://github.com/gfisystem/downloads/releases/download/solis-ventus-manuals/Solis.Ventus.-.User.Manual.-.rev.K.pdf",
         "algorithms_d": "https://github.com/gfisystem/downloads/releases/download/solis-ventus-manuals/solis-ventus-algorithm-reference-rev-d.pdf",
         "access": "Cataloguebrowserread;bothPDFbodyopenscachemiss;RevNnotlocatedinmontholdcatalogue. NoActionsordownload."
+      },
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "GFI System::Solis Ventus",
+        "canonical_record": "brand/GFI-SYSTEM.md#solis-ventus",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
       }
     },
     {
@@ -25285,7 +25607,13 @@
       "condition": "unverified",
       "access": "Category links exactitem;parameterizedcachemiss,cleaniteminaccessible",
       "status": "Pendingvariationverification;excludedused/newandpricefloor",
-      "qualification": "Sellername/region,variationcontents,bundle,workingstate,stock,adapter,warranty,voucher,shipping/taxandcheckoutunknown;categorylastweek/search3weekcache"
+      "qualification": "Sellername/region,variationcontents,bundle,workingstate,stock,adapter,warranty,voucher,shipping/taxandcheckoutunknown;categorylastweek/search3weekcache",
+      "current_resolution": {
+        "status": "existing partial canonical profile",
+        "model_key": "TC Electronic::PLETHORA X5",
+        "canonical_record": "brand/TC-ELECTRONIC.md#plethora-x5",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
+      }
     }
   ],
   "inventory_by_brand": {
@@ -143224,5 +143552,6 @@
       "M-VAVE wiring compatibility"
     ],
     "status": "Manufacturer documentation;no hardware test"
-  }
+  },
+  "discovery_resolution_scope": "current_resolution supersedes historical discovery status only for queue routing. Exact-name match is not offer authentication, full verification or permission to merge revision-ambiguous leads. Grouped/unnamed leads remain unchanged."
 }

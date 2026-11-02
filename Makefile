@@ -2326,3 +2326,15 @@ comparison-stage:
 	python3 scripts/comparison_publication.py stage
 comparison-commit:
 	python3 scripts/comparison_publication.py commit
+
+.PHONY: discovery-resolution-test discovery-resolution-plan discovery-resolution-apply discovery-resolution-stage discovery-resolution-commit
+discovery-resolution-test:
+	python3 scripts/discovery_resolution.py test
+discovery-resolution-plan:
+	python3 scripts/discovery_resolution.py plan
+discovery-resolution-apply:
+	python3 scripts/discovery_resolution.py apply
+discovery-resolution-stage:
+	python3 scripts/discovery_resolution.py stage
+discovery-resolution-commit:
+	python3 scripts/discovery_resolution.py commit
