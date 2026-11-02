@@ -5537,6 +5537,10 @@ Checked 2026-10-17 against the own HTML manual, Z2I-5301-02. Published ratings, 
 
 [Own HTML manual][M80-M], Functions of parts, lists audio I/O, USB-C and DC without an analog EXP input: **fails direct analog pedal path**. Global master volume persists across patch changes, but does not establish an expression assignment. Direction switches are explicitly foot-operable and select patches; PRESELECT qualifies when recall occurs. Shared output/headphones, not a dedicated separate socket. Existing79W×133Dmm body fits; no sibling dimensions transferred. Direct-pedal position/endpoints are inapplicable to this inventory; digital volume, bypass/tails and recorded-loop coverage remain unverified. No hardware test.
 
+### MS-80IR+ — additional voucher-qualified Shopee lead
+
+Checked **2026-11-03**: [Zoom Official Shop,shop348182890/item29326073126](https://shopee.co.id/Zoom-MS-80IR-Multi-Effects-Processor-i.348182890.29326073126?extraParams=%7B%22display_model_id%22%3A247632045362%2C%22model_selection_logic%22%3A3%7D) indexes the exact **MS-80IR+ hardware** at **Rp3.169.851**, explicitly **Dengan Voucher** (spend Rp1.5m,1% discount). Seller location is Kota Jakarta Barat. This is an indexed ask, not a verified checkout price or live stock; the index reports a one-day crawl, while the plain direct-item retrieval failed. The URL selects display_model_id247632045362, but its variant label, bundle/adapter contents, condition, warranty region and shipping/tax remain unconfirmed. “Official Shop” is the indexed shop name, not independently authenticated authorization. Keep new/used condition unclassified and retain the separate sold-out SIMFONI offer above. This market lead does not change the documented lack of direct analog EXP.
+
 ## MS-100BT
 
 Checked2026-10-18. Discontinued guitar multi-effects;100 effects/amp models. Historical StompShare iPhone/iPad/iPod touch purchasing/loading advertised. The US App Store listing observed on 2026-10-18 specifies iOS 8+; Indonesian availability and working effect transfers remain unverified. [Product][M100BT-P]; [Zoom app listing][M100BT-A]
