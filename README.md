@@ -115,3 +115,5 @@ Incoming expression-volume sources from origin/main87c7d38 are preserved in the 
 [Neural DSP Quad Cortex mini](brand/NEURAL-DSP.md#quad-cortex-mini--partial-discovery) is a partial shared-screen,no-treadle discovery, outside active counts; its own expression andnavigation evidence is distinct from Quad Cortex andNano Cortex.
 
 [Positive Grid Spark PEDAL](brand/POSITIVE-GRID.md#spark-pedal--partial-no-treadle-discovery) is a partial compact,no-treadle discovery outside active counts; device-menu EXP Volume is documented,while all-preset persistence andoutput coverage remain unverified. Shared app-list43/44-effect discrepancy retained.
+
+[Empress ZOIA](brand/EMPRESS.md#zoia--partial-no-treadle-discovery) is a partial no-treadle discovery outside active counts; patch expression routing does not establish a global volume override.

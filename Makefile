@@ -2284,3 +2284,9 @@ research-stage-mooer:
 .PHONY: expression-audit-stage-digitech
 expression-audit-stage-digitech:
 	python3 scripts/expression_audit_digitech.py stage
+
+.PHONY: expression-audit-stage-empress expression-audit-commit-empress
+expression-audit-stage-empress:
+	python3 scripts/expression_audit_empress.py stage
+expression-audit-commit-empress:
+	python3 scripts/expression_audit_empress.py commit

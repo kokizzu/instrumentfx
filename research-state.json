@@ -138142,6 +138142,7 @@
   },
   "supplemental_brand_documents": [
     "brand/ATOMIC-AMPS.md",
+    "brand/EMPRESS.md",
     "brand/FAMC.md",
     "brand/GIGRIG.md",
     "brand/HOLOGRAM.md",
@@ -141441,5 +141442,25 @@
       "current_os_support": "unverified;noinstaller opened"
     },
     "qualification": "ExactnonXP;notXPspecs,bundlemeasurements orhardwaretest"
+  },
+  "empress_zoia_screening_20261103": {
+    "status": "partial discovery outside active counts",
+    "canonical": "brand/EMPRESS.md#zoia--partial-no-treadle-discovery",
+    "expression": "Direct analog TRS tip signal/ring3.3V/sleeve ground; patch-saved expression-input module to VCA. Global volume override unknown.",
+    "market": {
+      "source": "https://shopee.co.id/search?keyword=modular+synthesizer",
+      "ask_idr": 16278000,
+      "region": "Jakarta Barat",
+      "access": "category search cache four days old; no exact item/seller/condition/variant/stock/bundle/voucher",
+      "qualified_offer": false
+    },
+    "next": [
+      "exact hardware offer",
+      "current module/firmware census",
+      "complete ports/controls and memory split",
+      "global assignment and position/endpoints/output coverage",
+      "imports/editor support"
+    ],
+    "queue_policy": "Defer inaccessible exact offers; continue accessible LCD-first and independent general queue without treating blocked items as completed."
   }
 }
