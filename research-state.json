@@ -126479,8 +126479,8 @@
       }
     ],
     "current_task": {
-      "model": "DigiTech RP360",
-      "next": "Continue RP360 full category tables andprofile;requestedLCDsourceblocks andPODBlackchassisdimensions deferred,not substituted",
+      "model": "MOOER GE300",
+      "next": "Independent queue remains GP-200JR -> HeadRush Prime -> MOOER GE300;original category censuses followed up,remaining GE300 current-installed/format/market gaps retained. Separate no-treadle work continues through expression_volume_audit.",
       "completed": "GP-200JR1.8 category census;Prime routing/website corrections;GE300 original named COMP/WAH/FXA-FXB/DSOD/AMP/CAB/NS/EQ/DELAY/REVERB tables checked and saved,withfirmwaredeltas qualified",
       "priority_qualification": "Requested separate-footdisplay processors still first when new accessible evidence is available;source-blocked items deferred",
       "gp200jr_remaining": [
@@ -126505,7 +126505,7 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-28",
-    "current": "Nano Cortex dated LEVEL-menu discrepancy",
+    "current": "RP360 original effects census",
     "finding": "Official2.2.0 manual lists LEVEL;dated user reports describe missing menu target without version orstaff resolution.",
     "next": [
       "Ampero Mini/Nano Cortex across-preset volume assignment remains unverified; manufacturer confirmation or readable exact-revision evidence needed",
@@ -126551,7 +126551,13 @@
         "current software/USB audio/power scope",
         "qualified exact non-XP Shopee hardware offer",
         "global override and bypass/headphone/looper attenuation"
-      ]
+      ],
+      "category_census": {
+        "checked": "2026-11-03",
+        "ledger": "rp360_effect_census_20261103",
+        "status": "85-choice original reconstruction;AMP/CAB andcurrentfirmwareunresolved"
+      },
+      "next": "Finish RP360 original AMP/CAB named census andprofile;exactnonXPShopeeoffer andglobalvolumeoutputcoverage remainunverified"
     },
     "ngs6_lead": {
       "status": "partial, outside active inventory",
@@ -141194,5 +141200,112 @@
     "market": "Exact nonXPsearch still surfaces XP57900729/21171529926 only;nottransferred",
     "status": "partial outside activeinventory",
     "next": "Continue RP360 full category tables andprofile;requestedLCDsourceblocks andPODBlackchassisdimensions deferred,not substituted"
+  },
+  "rp360_effect_census_20261103": {
+    "sources": [
+      "https://www.manualslib.com/manual/819896/Digitech-Rp360.html?page=114",
+      "https://www.manualslib.com/manual/819896/Digitech-Rp360.html?page=115",
+      "https://www.manualslib.com/manual/819896/Digitech-Rp360.html?page=116",
+      "https://www.manualslib.com/manual/819896/Digitech-Rp360.html?page=117"
+    ],
+    "printed_pages": [
+      110,
+      111,
+      112,
+      113
+    ],
+    "counts": {
+      "Wah": 3,
+      "Compressor": 3,
+      "Distortion": 23,
+      "EQ": 1,
+      "Gate": 2,
+      "Volume": 1,
+      "FX": 37,
+      "Delay": 9,
+      "Reverb": 6
+    },
+    "total": 85,
+    "FX": [
+      "CE Chorus",
+      "Danish Chorus",
+      "Pearl Chorus",
+      "Glisten Chorus",
+      "Multi Chorus",
+      "Who Doo Chorus",
+      "Clone Chorus",
+      "Flanger",
+      "Triggered Flanger",
+      "Filter Flanger",
+      "MX Flanger",
+      "EH Flanger",
+      "AD Flanger",
+      "Phaser Beam",
+      "Triggered Phaser",
+      "MX Phaser",
+      "Stone Phase",
+      "Vibrato",
+      "Rotator",
+      "Vibro-Pan",
+      "Uno-Vibe",
+      "Tremolo",
+      "Scatter Tremolo",
+      "Opto Tremolo",
+      "Bias Tremolo",
+      "Panner",
+      "Envelope Filter",
+      "DOD Envelope Filter",
+      "Auto Ya",
+      "Ya Ya",
+      "Synth Talk",
+      "Step Filter",
+      "Whammy",
+      "Pitch",
+      "Detune",
+      "Harmony",
+      "Octaver"
+    ],
+    "Delay": [
+      "Analog Delay",
+      "DM Delay",
+      "Digital Delay",
+      "Modulated Delay",
+      "Ping Pong Delay",
+      "Tape Delay",
+      "Echo Flex",
+      "Lo Fi Delay",
+      "2-Tap Delay"
+    ],
+    "Reverb": [
+      "Spring Reverb",
+      "Lexicon Ambience",
+      "Lexicon Studio",
+      "Lexicon Room",
+      "Lexicon Hall",
+      "Vintage Plate"
+    ],
+    "Gate": [
+      "Silencer Gate",
+      "Swell"
+    ],
+    "Wah": [
+      "Cry Wah",
+      "Clyde Wah",
+      "Full Range"
+    ],
+    "utility": [
+      "EQ",
+      "Volume"
+    ],
+    "qualification": "Derived85 entries includingoneEQ/Volumeeach,not85uniquehardwaremodelsorconcurrentblocks;LFO/EXPexcluded;originalsharedmanualonly;ampcabconflictunresolved",
+    "next": "Finish RP360 original AMP/CAB named census andprofile;exactnonXPShopeeoffer andglobalvolumeoutputcoverage remainunverified"
+  },
+  "cursor_separation_20261103": {
+    "reason": "Preserve user-requested independent general queue;move RP360 next task into expression_volume_audit.rp360_lead rather than replace general-model cursor",
+    "general_queue_unchanged": [
+      "Valeton GP-200JR",
+      "HeadRush Prime",
+      "MOOER GE300"
+    ]
   }
 }

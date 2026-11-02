@@ -1044,6 +1044,19 @@ Checked **2026-11-03** in the manufacturer-authored shared RP360/RP360XP manual 
 
 This completes these two original category lists only. Full amp/cab/modulation/delay/reverb census,remaining profile fields,global expression override andqualified exact non-XP Shopee hardware remain unresolved. RP360 stays a **partial lead outside active counts**;XP offers are not transferred.
 
+### RP360 — original 85-choice effects reconciliation
+
+Checked **2026-11-03** in the same original shared RP360/RP360XP manual: [printedp111/PDFp115](https://www.manualslib.com/manual/819896/Digitech-Rp360.html?page=115),[p112/PDFp116](https://www.manualslib.com/manual/819896/Digitech-Rp360.html?page=116) and[p113/PDFp117](https://www.manualslib.com/manual/819896/Digitech-Rp360.html?page=117),with the previousp110 table. The host’s parameter-column extraction is interleaved;only model names/category boundaries are counted here. No visual ordevice verification.
+
+| Category | Original named selections / scope |
+|---|---|
+| FX | **37**:seven chorus,six flanger,four phaser,then20 remaining models spanningvibrato/rotary/tremolo/filter/pitch. Names retained in the root ledger;these share oneFX category slot,not37 simultaneous modules. Synth Talk doesnot alone certify polyphonic synthesis. |
+| Delay | **9**:Analog Delay;DM Delay;Digital Delay;Modulated Delay;Ping Pong Delay;Tape Delay;Echo Flex;Lo Fi Delay;2-Tap Delay. |
+| Reverb | **6**:Spring Reverb plusLexicon Ambience,Lexicon Studio,Lexicon Room,Lexicon Hall,Vintage Plate. The spring row is onp112;the otherfive continue onp113,so neither page alone is a complete inventory. |
+| Gate / Wah / utility | **2 gates**:Silencer Gate,Swell. **3 wahs**:Cry Wah,Clyde Wah,Full Range. EQ andVolume have no model alternatives in this appendix and each count asone functional entry in the reconstruction. LFO andexternal-expression controllers are not extra audioeffect models. |
+
+Derived total: **3wah+3compressor+23distortion+1EQ+2gate+1Volume+37FX+9delay+6reverb=85**. This reproduces the historical85-effects headline under that counting convention;it is not85 unique modeled stompboxes,an installed-firmware test or a sum ofconcurrentblocks. Amp/cab selections remain separate andtheir55/27 versus54/26 product conflict isstillopen. Exact RP360 hardwareoffers,globalexpression override andoutput coverage remain unresolved;partiallead stays outside activecounts.
+
 ### RP55 — exact controller and bypass follow-up
 
 Checked2026-10-19. [Own18-0838V-A manual, printed pp2,4,10,20](https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP55-Manual-18-0838V-A.pdf): Control In accepts passive mono volume orTS expression;TRS unsupported. No resistance value established;RP360/RP150 values are not transferred. Volume operates only withWah andWhammy disabled. Up/Down switches increment/decrement presets;both together bypass,then either restores last preset. Bypass provides clean unprocessed tone,but text doesnot establish pedal attenuation there. Position,min/max,headphone attenuation andtails/looper coverage remain unknown. SharedTRS audio output supports phones;its stereo wiring is separate fromTS Control In. Cabinet modeling being global doesnot make volume unconditional. Existingmanual/product dimension conflict retained;no hardware test,stock refresh ordownloads.

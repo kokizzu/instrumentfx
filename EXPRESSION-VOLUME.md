@@ -658,3 +658,5 @@ Spark PEDAL [fixed-chain and MIDI qualification](brand/POSITIVE-GRID.md#spark-pe
 Spark PEDAL [backup and looper-source scope](brand/POSITIVE-GRID.md#spark-pedal--app-backups-and-looper-applicability-conflict): app-library snapshots do not establish backup of global EXP settings or loop audio. The linked looper guide excludes PEDAL from its explicit supported-model list; loop retention/Groove availability and volume coverage remain unresolved.
 
 RP360 [original slot/type limits](brand/DIGITECH.md#rp360--ten-slot-limit-and-original-compressordrive-choices):up to10 effects,one per effect type;three compressor and23 distortion choices are model selections,not concurrent blocks. This does not resolve global analog-volume assignment oroutput coverage;partial admission status remains.
+
+RP360 [85-choice reconstruction](brand/DIGITECH.md#rp360--original-85-choice-effects-reconciliation) is revision-qualified library arithmetic,not a change to its preset-stored EXP assignment,volume endpoints oroutput-coverage classification.
