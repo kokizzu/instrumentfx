@@ -143121,5 +143121,29 @@
       "QualifiedShopee stock"
     ],
     "no_local_download_or_device_operation": true
+  },
+  "gp200jr_additional_shopee_scope_20261103": {
+    "canonical": "brand/VALETON.md#gp-200jr--separate-idr-observations",
+    "offers": [
+      {
+        "shop": "394955725",
+        "item": "54506098260",
+        "seller": "Bandung Music Gallery",
+        "idr": 4980000,
+        "status": "DirectcachedHabis;searchJuly21/directAugust27delivery;notcurrentstock"
+      },
+      {
+        "shop": "1409306238",
+        "item": "41421288131",
+        "seller": "SejutaSyukur",
+        "idr": 12922748,
+        "status": "30daypreorder;searchOctober19–22/directNovember8–11estimates;notcurrentstock"
+      }
+    ],
+    "condition_qualified_range": false,
+    "unresolved": "Condition,variants,bundles,adapter,warranty,import/dispatch,deliveredtotal",
+    "deferred_display_gap": "AXOMmanufacturerpageinaccessible;no newprimarymini-screenanswer.",
+    "next": "HeadRush Prime -> MOOER GE300;requested individualdisplay sourcegaps remain independently queued.",
+    "no_local_download_or_device_operation": true
   }
 }
