@@ -1432,6 +1432,8 @@ Official Japanese PDFs failed to load or exceeded the retrieval limit; the mirro
 |---|---|
 | Built-in expression |One EXP1 pedal; forward toe press switches its assignment on/off. Toe actuation is separate from the ten main footswitches |
 | External expression |One EXP2 TRS socket; manual supports 10k–100k pedals. The same socket alternatively switches an external compatible amplifier; do not count two simultaneous connections |
+| Expression / external toe boundary | Original manual pp89–90: **EXP2 has the same assignment functions asEXP1 butdoes not support its toe-down switch**. TRS cable and10k–100k pedal required;calibration precedes assignment. No tip/ring/wiper pinout orglobal volume scope is specified here. |
+| I/O / amplifier-control compatibility | EXP2 instead becomes **EXT CTRL output** witha mono cable;assign CTRL toEXT CTRL andselect latching/momentary for the amp. Maker restricts it to **short-to-sleeve inputs ontraditional dual-channel amps**,warns other inputs can damage both devices,anddoes not guarantee all compatible-looking amps. This is switching output,not analog expression input inparallel,an audio port orMIDI. [Original manual pp89–90][M] |
 | Rotary knobs |**9**: three independent master output knobs (XLR/headphone/jack), SELECT encoder, five parameter knobs |
 | Footswitches |**10**: four CTRL, four A–D and bank up/down; assignable LED colors |
 | Buttons |**23** separate front buttons: 15 module, six menu (DISPLAY/GLB-EQ/CTRL/SYSTEM/SAVE/EXP), two page arrows. SELECT push and rear power switch are separate |

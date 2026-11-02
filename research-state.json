@@ -143668,5 +143668,16 @@
     ],
     "remaining": "Label character ceiling, OLED diagonal/resolution/color and seamless scene preset reload remain unverified.",
     "next_general_model": "MOOER GE300; requested individual footswitch displays and Shopee Indonesia hardware remain priorities"
+  },
+  "ge300_exp2_switching_20261103": {
+    "model": "MOOER GE300",
+    "source": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf",
+    "basis": "Previously saved original manufacturer manual,complete printedpp89–90; no download/device operation.",
+    "findings": [
+      "EXP2 supports EXP1 assignments but not toe-down switching;10k–100k TRS,calibrate beforeassigning",
+      "Alternative EXT CTRL uses mono cable andlatching/momentary CTRL assignment;short-to-sleeve traditional dual-channel amp restrictions andmanufacturer damage warning retained"
+    ],
+    "remaining": "Analog tip/ring/wiper wiring,global expression scope andcurrent5.1.4 equivalence unverified.",
+    "next": "Defer inaccessible current-stock andunpublished fields;continue requested footswitch-display andno-treadle inventory research."
   }
 }
