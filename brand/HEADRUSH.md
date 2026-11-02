@@ -440,6 +440,10 @@ Own2.7 cumulative notes,p.4: feedback affects recording/overdub rather than play
 
 The current product list prints these category headers: HeadRush amps **53**, ReValver amps **44**, ReValver cabinet microphones **31**; vocal **7**, overdrive **16**, distortion/fuzz **11**, EQ **9**, compressor **6**, delay **14**, reverb **7**, chorus **7**, phaser/flanger **10**, vib/trem/rotary **6**, wah/filter **8**, synth **4**, rhythmic **2**, pitch **7**, volume/dynamics **5**, utility **3**. These are **published header counts, not a reconciled installed-library census**. Overdrive visibly lists **18 names beneath its 16 header**; pitch lists eight rows with **Octaves duplicated**. Firmware 5.1 adds Graphic Bass EQ, but the displayed EQ list needs reconciliation. Do not silently sum these into a definitive current total. Cabinet/mic/IR combinations are separate from independent effects. [PR-P, PR-R]
 
+
+
+**Detailed-card reconciliation, checked 2026-11-03:** the same [manufacturer page](https://www.headrushfx.com/products/prime/index.html) has **eight distinct pitch cards**: Up Tune, Chord Wham, Drop Tune, Harm, Octaves, **Octaves Up**, Smart Harm and Wham. Thus the compact list’s repeated Octaves does not establish that the two cards are identical; its seven-count header remains inconsistent. The detailed **DYNAMICS/EQ (10)** heading contains only **nine named cards**, matching the compact EQ(9) list; Graphic Bass EQ is absent from those visible cards. Overdrive has eighteen distinct detailed cards as well as eighteen compact names beneath its sixteen header. These reconcile page representations only, not installed firmware content or a certified total. The saved 5.2 guide does not supply these missing category-name tables. Older header observations above are retained.
+
 ### Prime — separate used / retail IDR evidence
 
 Observed **2026-10-16** through public page text; stock, condition and contents are not independently authenticated.

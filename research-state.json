@@ -139786,5 +139786,37 @@
     "qualification": "Namedcategoryselectors withcross-module repeats andcab/body choices;notuniquealgorithms orsimultaneousblocks. Completecensus fordocument1.8.0 only;othertechnicalfields open.",
     "inventory_change": false,
     "comparison_scope": "Selectedtechnicalsummary,practicalfeatures anddatedIDR;fullnamedcensus andolderbodiesretainedbelow. KeyEXP/synthesis/holdqualifications also retainedinselectedsummary."
+  },
+  "prime_category_card_reconciliation_20261103": {
+    "source": "https://www.headrushfx.com/products/prime/index.html",
+    "checked": "2026-11-03",
+    "pitch": {
+      "header": 7,
+      "compact_rows": 8,
+      "distinct_detailed_cards": 8,
+      "names": [
+        "Up Tune",
+        "Chord Wham",
+        "Drop Tune",
+        "Harm",
+        "Octaves",
+        "Octaves Up",
+        "Smart Harm",
+        "Wham"
+      ]
+    },
+    "eq": {
+      "compact_header": 9,
+      "detailed_header": 10,
+      "detailed_cards": 9,
+      "graphic_bass_eq_present": false
+    },
+    "overdrive": {
+      "header": 16,
+      "compact_names": 18,
+      "detailed_cards": 18
+    },
+    "qualification": "Website representations only; no certified installed total. Saved guide lacks category-name census. Preserve historical counts and firmware-specific addition.",
+    "next": "Continue remaining Prime category tables and firmware reconciliation; then MOOER GE300. Defer unavailable source tasks without stopping independent work."
   }
 }
