@@ -359,6 +359,12 @@ Checked **2026-11-01** in the original ©2026 Roland HTML Reference Manual. No m
 
 Headphone provision and expression-volume range, bypass, tails and startup recall remain separate unresolved fields. The shared main LCD does not enter the individual-foot-LCD shortlist. EX-4 remains a partial discovery lead outside active counts; no download, write, reset or hardware operation was performed.
 
+### EX-4 — conflicting Nafiri asking-price snapshots
+
+Checked **2026-11-03**: [Nafiri exact EX-4 product](https://nafiriguitar.com/products/boss-ex-4-effects-expander-pedal),month-old search cache,lists **Rp7.539.500,Sale Sold out** together with pickup available/usually ready24hours. Direct reopening returned cache miss;pickup boilerplate doesnot override sold-out evidence. The [same retailer’s effects collection](https://nafiriguitar.com/collections/effect-pedals),yesterday’s search cache,shows **Rp6.785.000** against crossedRp7.539.500 for the same named model. These are conflicting dated asks,not an authenticated price change,available price floor orverified discount.
+
+Both are **non-Shopee** evidence. Actual new/used condition,stock,bundle/adapter,warranty,voucher,shipping/tax anddelivered total remain unknown;product shipping is calculated atcheckout. Retailer specifications are not substituted for manufacturer hardware evidence. Exact Shopee searches still yielded no qualified EX-4 item;no unavailable-market conclusion follows. Existing Blibli/Melodia observations remain preserved. **Partial lead stays outside active counts**;no checkout,download ordevice operation.
+
 ## GM-800
 
 Consolidated and refreshed **2026-10-16**; partial verification. This processor qualifies through independent MFX architecture; it requires specialized input hardware for guitar/bass playing. No excluded specialist model is added.

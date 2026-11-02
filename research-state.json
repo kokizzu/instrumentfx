@@ -143569,5 +143569,27 @@
     ],
     "remaining": "Exactcurrentparameterguide body still403;globalFV competing assignment priority,rangeoverride andoutputcoverage notresolved.",
     "no_download_or_hardware_operation": true
+  },
+  "ex4_nafiriprice_conflict_20261103": {
+    "model": "BOSS EX-4",
+    "sources": [
+      "https://nafiriguitar.com/products/boss-ex-4-effects-expander-pedal",
+      "https://nafiriguitar.com/collections/effect-pedals"
+    ],
+    "observations": [
+      {
+        "idr": 7539500,
+        "access": "month-old product search cache;direct cache miss",
+        "stock": "Sold out alongside pickup boilerplate"
+      },
+      {
+        "idr": 6785000,
+        "crossed_idr": 7539500,
+        "access": "yesterday collection search cache",
+        "stock": "unverified"
+      }
+    ],
+    "qualification": "NonShopee conflictingasks;not verified discount,stock,condition orrange. No activeadmission.",
+    "next": "Continue other pending hardware leads;qualified Shopee item remains outstanding."
   }
 }
