@@ -1601,6 +1601,20 @@ Checked **2026-11-03** in complete printedpp6–7,66–67,95–96 ofthe previous
 
 The [current manufacturer product table](https://www.mooeraudio.com/product/GE300-223.html) corroborates the listed main/XLR/send/phone ratings;its historical software/library copy isnot current firmware certification. Global orpreset expression assignment,output attenuation,USB MIDI,drums,factory occupancy,current source-file import rules andqualified live hardware stock remain separate open questions.
 
+### GE300 — Chinese manufacturer USB MIDI and display evidence
+
+Checked **2026-11-03**, [MOOER exact GE300 launch article](https://cn.mooeraudio.com/news/%C3%A9%C2%AD%C2%94%C3%A8%C2%80%C2%B3%C3%A4%C2%B8%C2%93%C3%A4%C2%B8%C2%9A%C3%A7%C2%BA%C2%A7%C3%A5%C2%90%C2%89%C3%A4%C2%BB%C2%96%C3%A9%C2%9F%C2%B3%C3%A8%C2%89%C2%B2%C3%A5%C2%A4%C2%84%C3%A7%C2%90%C2%86%C3%A5%C2%99%C2%A8-GE300%C3%A6%C2%AD%C2%A3%C3%A5%C2%BC%C2%8F%C3%A5%C2%8F%C2%91%C3%A5%C2%B8%C2%83%C3%AF%C2%BC%C2%81-350.html). Undated readable launch text; not a current5.1.4 feature census or device test.
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| I/O / USB MIDI | Article explicitly permits **MIDI command transmission over USB**, alongside physical MIDI ports. It separately describes incomingCC functional control,PC preset selection,outgoing preset changes andMIDI-clock input/output. This resolves the earlier undocumented USB-MIDI status for this published revision;USB-host capability andevery current message/driver remain unverified. |
+| Display / panel technology | Explicit **5-inch IPS** screen,complementing the original manual’s colorTFT description. Pixel resolution,touch support andseparate footswitch LCDs remain unverified;IPS doesnot imply touch. |
+| Synth / arpeggiator count conflict | Article advertises **50 selected arpeggiators**. The manual’s Pattern0–100 range remains separate;neither is certified as101 unique patterns orcurrent installed content. Five waveforms andthree independent polyphonic voices are corroborated. |
+| I/O / output wording conflict | Article calls the quarter-inch outputs **stereoTRS**;original manual/specification says two unbalancedmono jacks. Preserve the source conflict;do not infer balanced operation fromTRS wording. |
+
+No download,software launch,MIDI messages orhardware operation. Earlier unknowns remain dated history;current verification gaps are narrowed only as specified above.
+
+
 ## GE300 Lite
 
 Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no sibling specifications adopted. [Own product page](https://www.mooeraudio.com/product/GE300Lite-239.html). Bass/vocal suitability remains unclassified.

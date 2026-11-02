@@ -143158,5 +143158,19 @@
     "qualification": "Conditionunverified;notliveavailable/newusedrange/completedsale;noimageinspection",
     "next": "MOOER GE300;retainrequestedindividualdisplaygapsandindependentGP-200JR -> Prime -> GE300sequence.",
     "no_local_download_or_device_operation": true
+  },
+  "ge300_chinese_primary_usb_display_20261103": {
+    "canonical": "brand/MOOER.md#ge300--chinese-manufacturer-usb-midi-and-display-evidence",
+    "source": "https://cn.mooeraudio.com/news/%C3%A9%C2%AD%C2%94%C3%A8%C2%80%C2%B3%C3%A4%C2%B8%C2%93%C3%A4%C2%B8%C2%9A%C3%A7%C2%BA%C2%A7%C3%A5%C2%90%C2%89%C3%A4%C2%BB%C2%96%C3%A9%C2%9F%C2%B3%C3%A8%C2%89%C2%B2%C3%A5%C2%A4%C2%84%C3%A7%C2%90%C2%86%C3%A5%C2%99%C2%A8-GE300%C3%A6%C2%AD%C2%A3%C3%A5%C2%BC%C2%8F%C3%A5%C2%8F%C2%91%C3%A5%C2%B8%C2%83%C3%AF%C2%BC%C2%81-350.html",
+    "scope": "UndatedexactGE300launcharticle;notcurrentfirmwarecertification",
+    "finding": "USBMIDIexplicit;5inchIPS;50arpeggiatorsvsPattern0–100;TRSvsunbalancedmonoconflict",
+    "remaining": [
+      "CurrentUSBMIDImessage/driver matrix",
+      "Pixels/touch",
+      "Currentalgorithm andfactoryoccupancy census",
+      "NAMsubvariant limits",
+      "QualifiedShopee stock"
+    ],
+    "no_local_download_or_device_operation": true
   }
 }
