@@ -142192,5 +142192,21 @@
     ],
     "no_download_or_transaction": true,
     "next": "Defer inaccessible sources;continue individual-screen priority and independent GP-200JR -> Prime -> GE300 queue"
+  },
+  "h9_standard_discovery_20261103": {
+    "canonical": "brand/EVENTIDE.md#h9-standard--partial-no-treadle-discovery",
+    "source": "https://cdn.eventideaudio.com/uploads/2020/07/H9-Manual.pdf",
+    "revision": "RevD/ContentsRev21;V5.4+",
+    "active": false,
+    "fully_verified": false,
+    "global_assignment": "UTILS OSW acrosspresets;inactivebypass;specialroutingwetonly",
+    "remaining": [
+      "Full exact-model profile",
+      "Analog wiring/endpoints/recall/coverage",
+      "Qualified Shopee hardware",
+      "Admission review"
+    ],
+    "next": "Defer missing Standard market/body facts;continue individual-foot-display priority and independent GP-200JR -> Prime -> GE300 cursor",
+    "downloads": false
   }
 }

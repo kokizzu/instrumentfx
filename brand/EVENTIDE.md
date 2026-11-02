@@ -5,6 +5,7 @@
 
 - [H9 Harmonizer Gen 2 — partial no-treadle discovery](#h9-harmonizer-gen-2--partial-no-treadle-discovery)
 - [H9 Max](#h9-max)
+- [H9 Standard — partial no-treadle discovery](#h9-standard--partial-no-treadle-discovery)
 - [H90](#h90)
 - [Incoming capability evidence, 2026-10-18](#incoming-capability-evidence-2026-10-18)
 <!-- brand-index ends -->
@@ -159,6 +160,22 @@ These are lineage groups, not five simultaneous blocks. Earlier full-guide acces
 Checked 2026-10-17 against [own H9 User Guide][H9-M], printed pp5,27,43,47. The BASS/SYN.BAS modes explicitly optimize pitch algorithms and filter ranges; they establish bass capability, not uniform performance for every algorithm. This supersedes the earlier unclassified bass scope. USB priority excludes concurrent DIN MIDI, including MIDI thru. A Windows “USB Audio Device” driver name does not by itself establish audio streaming. USB audio, bus power and capture/IR import remain unresolved.
 
 The same manual’s DC connector specification says **2.5×5mm**, whereas the product page says **5.5/2.5mm**; retain this outer-diameter discrepancy alongside the existing EXP mono/stereo wording conflict. Do not silently substitute Gen 2 power specifications. No hardware operation or file download.
+
+## H9 Standard — partial no-treadle discovery
+
+Checked **2026-11-03**. Distinct original Standard edition; **outside active counts** pending complete profile/admission. [Original H9 User Guide](https://cdn.eventideaudio.com/uploads/2020/07/H9-Manual.pdf), RevD/ContentsRev21, softwareV5.4+, explicitly names Standard (printed5,7). The search title SPACE is misleading; the document identifies H9. Text inspection only.
+
+| Field | Standard-applicable evidence / qualification |
+|---|---|
+| Controls / screen | One encoder, five buttons, two footswitches; six-character alphanumeric LED shared display. No built-in treadle; external EXP/AUX supported. Diagonal unknown. |
+| Memory / concurrency | Standard ships99factory presets; edits can be saved. Two presets cannot run together. Algorithm choices are not simultaneous blocks. |
+| Input | Instrument-optimized unbalanced quarter-inch audio; direct guitar connection documented. |
+| Global volume | System UTILS > OSW enables Output Swell independently of preset enable. Attenuates, never boosts; competing parameter mappings automatically disabled globally. |
+| Coverage | Swell inactive in bypass; Pre/Post andWet/Dry wet-only. Input Swell allows decay; Output Swell fades processed output. Numeric endpoints, customizable range, held-position recall andrecorded-loop coverage unknown. |
+
+Current [MaxOut qualification](#original-h9--current-maxout-entitlement-and-used-device-boundary) is separate from the historical factory library and installed content. Do not borrow Max orGen2 dimensions, power, prices orfactory algorithm counts. Complete ports, pedal wiring/resistance, toe control, phones, preset down/up sequence, body dimensions/mass, power, category census, IR/NAM/capture support, synth/acoustic capabilities, editor compatibility andpractice features remain unresolved.
+
+Exact **Shopee Indonesia Standard hardware** search yielded no qualified result on2026-11-03; new/used IDR, seller/item, stock, bundle andwarranty remain unknown. This is not evidence of market absence. No software/manual downloaded, device operated orregistration performed.
 
 ## H90
 
