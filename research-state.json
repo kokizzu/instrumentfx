@@ -139115,5 +139115,31 @@
       "Auxiliary display specifications",
       "Condition-qualified stock"
     ]
+  },
+  "fm9_historical_switch_timing_20261103": {
+    "model": "FM9 MKII Turbo;historical Original/Turbo manual qualification",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "identity": "August2022;firmware3.x;OriginalandTurbo cover",
+    "pages": [
+      9,
+      72,
+      78,
+      89,
+      90
+    ],
+    "display": "Tap label normally;Hold label appearswhilepressed evenifactionneverfires",
+    "timing": {
+      "tap_without_hold": "onpress",
+      "tap_with_hold": "onrelease beforetimeout",
+      "hold_default": "after0.5s",
+      "hold_range_seconds": [
+        0.25,
+        2
+      ],
+      "switch_up": "Hold executesonrelease"
+    },
+    "layouts": "Eight plus MasterLayoutMenu akaLayout9;historical countingclarification only",
+    "qualification": "CurrentMKII equivalence,marketingcountbasis andactualaudiolatency unverified;nohardwareorvisualtest",
+    "inventory_change": false
   }
 }
