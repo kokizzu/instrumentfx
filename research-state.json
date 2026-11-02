@@ -142781,5 +142781,24 @@
     ],
     "next": "Continue individual-foot-display evidence;defer inaccessible current PDFs;retain independent GP-200JR -> HeadRush Prime -> MOOER GE300 sequence",
     "no_download_or_device_operation": true
+  },
+  "prime_clock_save_boundaries_20261103": {
+    "canonical": "brand/HEADRUSH.md#prime",
+    "sources": [
+      "https://support.headrushfx.com/en/support/solutions/articles/69000835150-headrush-prime-looper-setup-and-troubleshooting",
+      "https://support.inmusicstore.com/en/support/solutions/articles/69000881954-headrush-prime-core-and-flex-prime-why-aren-t-my-fx-changes-being-saved-"
+    ],
+    "clock": "Externalclock disables countin;Record waits blinking;DIN/USB-A reception;GlobalTempoSync andlooperMidiBeatClock",
+    "dual_input": "One shared layer;speed/reverse affectboth;outputmix/routing qualifies capture",
+    "saving": "FX library save distinct from MainRigSave ofsettings/routing/footswitchassignments",
+    "qualification": "Unversioned manufacturer support;not tested5.2 equivalence orglobalvolume",
+    "remaining": [
+      "Current category census",
+      "Rig storage ceiling",
+      "OLED physical specifications",
+      "Qualified current exact Shopee stock"
+    ],
+    "next": "Continue requested individual-display models;defer inaccessible sources;preserve GP-200JR -> HeadRush Prime -> MOOER GE300 independent sequence",
+    "no_download_or_device_operation": true
   }
 }
