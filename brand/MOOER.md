@@ -1614,7 +1614,6 @@ Checked **2026-11-03**, [MOOER exact GE300 launch article](https://cn.mooeraudio
 
 No download,software launch,MIDI messages orhardware operation. Earlier unknowns remain dated history;current verification gaps are narrowed only as specified above.
 
-
 ## GE300 Lite
 
 Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no sibling specifications adopted. [Own product page](https://www.mooeraudio.com/product/GE300Lite-239.html). Bass/vocal suitability remains unclassified.

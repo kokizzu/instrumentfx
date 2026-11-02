@@ -54,6 +54,7 @@ Canonical root-level brand document. New research is added here, not to dated fi
 - [GFX-3](#gfx-3)
 - [GFX-4](#gfx-4)
 - [GFX-5](#gfx-5)
+- [GFX-8 — partial discovery lead](#gfx-8--partial-discovery-lead)
 - [GFX-707](#gfx-707)
 - [MS-50G](#ms-50g)
 - [MS-50G Plus](#ms-50g-plus)
@@ -5133,6 +5134,28 @@ Printedpp4–5 name all21buttons;the nine rotary total includes the rear LEVEL c
 |---|---|
 | Expression / calibration and switching point | Power on holding ASSIGN: MIN. With pedal fully raised, press STORE: MAX. Depress pedal, release it, then press STORE to finish. The chosen forward position also sets the target-module on/off point; a somewhat higher position allows lighter activation. ERROR requires repeating from the raised-pedal step. This is a documented calibration-dependent switching point, not a separately published numeric toe-pressure threshold. |
 | Memory / factory reset | Power on holding STORE: ALINIT; another STORE restores patches to factory defaults and returns to play mode. EDIT/EXIT cancels before confirmation. The section specifically describes restoring user-group patches; it does not establish reset behavior for pedal calibration, all global settings, or an external backup mechanism. Existing60user/60preset counts remain unchanged. |
+
+## GFX-8 — partial discovery lead
+
+Checked **2026-11-03** in [Zoom’s original operation manual](https://zoomcorp.com/media/documents/E_GFX8.pdf),printedpp4–6,40–42. Exact GFX-8 title/body;MIDI chart1.00/1999 isnot installed firmware proof. **Outside active inventory**: exact Shopee seller/item still unresolved. No ownership assertion.
+
+| Field | Manufacturer evidence / remaining gap |
+|---|---|
+| Expression | Built-in optical treadle;RTM target/range/controller patch-stored. Direct external EXP absent from rear inventory;toe switch unverified. |
+| Controls | Separate rotary/footswitch/button census pending visual corroboration. |
+| Display | Eight-character alphanumeric LED plus two-digit seven-segment LED;not individual footswitch LCDs. Diagonal,color/touch unverified. |
+| Processing | **69 programs:67effects+amp simulator+ZNR**;four effect modules plus amp simulator/ZNR. DRIVE,MOD,DLY/REV each22choices;SFX disablesMOD. Complete subtype census pending. |
+| Memory | **80read/write+160read-only=240 patches**;initial user filling unverified. |
+| Synth / acoustic | Dedicated algorithms unresolved. |
+| Dimensions / mass | Printed **455W×203H×80Dmm;3.6kg**. Unusual H/D labeling preserved;no silent axis swap ormeasurement. Width alone exceeds preference. |
+| Power | **12V AC,AD-0008**;rear drawing500mA. AC isnot9VDC;DCpolarity inapplicable. Battery/USB operation unresolved. |
+| I/O | Mono guitar input;stereo miniAUX;mono send/return;two mono lineouts;stereo phones;MIDIIN/OUT,OUT selectableTHRU. AUX bypasses effects. |
+| Editor | Original MIDI-linked visual editor/librarian;manufacturer legacy page lists **Windows95/98,MacOS7.5–8**. Current compatibility unresolved. [Legacy product](https://www.zoom.co.jp/products/guitar/gfx-8-guitar-effects-processor) |
+| IR / NAM / capture | User loading andcapture compatibility unresolved;no sibling transfer. |
+| Looper / drums / live | Sampler maximum25seconds;Jam Play separate. Further continuity,drums,trails andcontrol coverage pending. |
+| Used / new IDR | Both unverified. Rp2.100.000 appears only in a search-category snippet;direct category omitsGFX-8 andexposes noexact item. Not an accepted price,stock orcondition observation. |
+
+[Current search-category lead](https://shopee.co.id/search?category=11043572&keyword=efek+gitar+zoom&page=3&sortBy=relevancy&subcategory=11043648): search reports three-day Octobercache,direct reader month-old Septemberbody. Earlier failed searches andexcluded adapters/sensors remain in the ledger. Not proof ofmarket absence. No local download,software installation,visual panel inspection ordevice operation.
 
 ## GFX-707
 

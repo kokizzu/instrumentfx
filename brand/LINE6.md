@@ -779,7 +779,6 @@ Checked **2026-11-03**. The [manufacturer app1.4+ chapter](https://manuals.line6
 
 The [UK manufacturer index](https://line6.com/software/index.html?hardware=All&locale=en_UK&os=All&submit_form=set),last-month search snapshot,labels standalone **Stadium Driver0.0.3,April21,2026,Windows10/11**. The [US index](https://line6.com/software/index.html?locale=en_US&os=All&submit_form=set),last-week search snapshot,identifies the **app1.3.3,August4,2026** installer’s bundled ASIO driver **0.0.3.13**. Both name Stadium/XL;these are package/build labels,not firmware numbers orproof of the latest driver. Directindex openings timed out. Power rating remains primary-unverified;retailer assertions are not substituted. No download,installation,connection orupdate.
 
-
 ## HX Effects
 
 <!-- comparison evidence begins -->

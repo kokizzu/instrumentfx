@@ -1711,7 +1711,6 @@ Checked **2026-11-03**, [manufacturer Tone Studio guide,eng05,©2020,pp1–2,6�
 
 The software library limits above are separate from hardware memory. The IR Loader converts supported WAV files into USER1–16;this does not establish processed IR length. Exact4.1.1 equivalence,channel handling,global FV precedence andoutput coverage remain unverified. No downloads,installation,restore ordevice operation.
 
-
 ## GT-Pro
 
 Current comparison summary, reviewed 2026-10-28. Discontinued rack guitar multi-effects; ownership and bass/vocal suitability remain unverified. Detailed dated sources, earlier summaries and contradictions are retained below. The comparison uses this summary rather than concatenating every historical parameter table.

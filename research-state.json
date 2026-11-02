@@ -143606,5 +143606,29 @@
       "Qualified Shopee hardware"
     ],
     "status": "Partial outsideactiveinventory"
+  },
+  "gfx8_primary_partial_20261103": {
+    "model": "Zoom GFX-8",
+    "status": "Partial technical lead outsideactiveinventory;exactShopee item unresolved",
+    "record": "brand/ZOOM.md#gfx-8--partial-discovery-lead",
+    "sources": [
+      "https://zoomcorp.com/media/documents/E_GFX8.pdf",
+      "https://www.zoom.co.jp/products/guitar/gfx-8-guitar-effects-processor",
+      "https://shopee.co.id/search?category=11043572&keyword=efek+gitar+zoom&page=3&sortBy=relevancy&subcategory=11043648"
+    ],
+    "findings": [
+      "12VAC AD0008;notDC",
+      "80writable/160read-only",
+      "LED readouts;notfootswitchLCDs",
+      "455W203H80Dmm printedlabels retained"
+    ],
+    "remaining": [
+      "Exact hardware seller/item",
+      "Visual controlcensus",
+      "Complete algorithms",
+      "Synth/acoustic andloading compatibility",
+      "Livecontinuity"
+    ],
+    "no_download_or_device_operation": true
   }
 }

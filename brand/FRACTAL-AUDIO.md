@@ -577,7 +577,6 @@ Checked **2026-11-03**,[manufacturer November2026 Blocks Guide,printedpp57–59]
 | Processing / Megatap | **1–64 taps**,not the generic128-tap maximum;**four-second delay line** andup to**one-second predelay**. Tap count anddelay duration describe one algorithm,not64 simultaneous blocks oradditional menu choices. Its built-in envelope follower controls effect input gain;this is automatic swell processing,not global analog expression volume. |
 | Routing / Mixer inputs | **Four stereo inputs onFM3**,hard-wired tothe four grid rows immediately before theblock;empty rows retain their row numbers. Each row hasgain0–100% andbalance;output canremain stereo orsum mono. **Mixer cannot be bypassed**. These are internal grid channels,not four physical stereo input pairs. The previously recorded64-sample alignment delays remain separate. |
 
-
 ## FM3 original
 
 Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct from MKII Turbo; not fully verified and no ownership assertion. The earlier discovery heading and complete body follow as historical evidence. Their outside-inventory statements describe pre-admission checkpoints. This admission does not settle hardware variants, market availability or remaining specifications.
@@ -1168,7 +1167,6 @@ Checked **2026-11-03**,[manufacturer November2026 Blocks Guide,printedpp76–77]
 
 Earlier reference counts,CPU limits andrevision qualifications remain. No local download,device test orglobal-volume conclusion.
 
-
 ## FM9 original
 
 Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct from Turbo and MKII Turbo. Not fully verified; no ownership or live-stock assertion. The complete discovery body follows under its old anchor. Earlier outside-inventory statements are historical checkpoints, not the current admission status.
@@ -1297,7 +1295,6 @@ Expanding the grouped Dimension(1/2/3) yields **27 distinct choices**. Up to eig
 Checked **2026-11-03**, [manufacturer November2026 Blocks Guide,pp3,27–29](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). Complete reference names: Modern VCA Compressor; Classic VCA Compressor; VCA FF Sustainer; VCA Bus Compressor; VCA FB Sustainer; Analog Compressor; Analog Sustainer; Compander; Dynami-Comp Classic; Dynami-Comp Modern; Dynami-Comp Soft; Dynamics Processor; JFET Studio Compressor; JFET Pedal Compressor; Optical Compressor; Econo-Dyno-Comp; Vari-Mu Tube Compressor; Rockguy Compressor; Citrus Juicer.
 
 The19 names reconcile the comparison table’s type count, not an installed-firmware census. Sustainer types raise quieter signals; Dynamics Processor permits downward compression or upward expansion. Look-ahead0–2ms delays both wet and dry audio; it is not measured total hardware latency. Compander combines compression/expansion and lacks a Sidechain page. Parameters vary by type. Older counts and release additions remain dated; do not add them again. No download or device operation.
-
 
 ## FM9 Turbo
 
