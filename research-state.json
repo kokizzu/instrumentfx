@@ -141899,5 +141899,37 @@
       "OS architecture certification"
     ],
     "status": "useful platform/routing finding;volume-source question deferred while other tasks continue"
+  },
+  "prime_switch_timing_oled_20261103": {
+    "canonical": "brand/HEADRUSH.md#prime--selectable-switch-timing-and-practice-tool-oled-labels",
+    "source": "https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf",
+    "access": "Existing saved original extraction;printed52,66–67;no new download orvisual/hardware test",
+    "timing": "On Press/On Release global selection;some functions use hold in On Press mode;qualifies older FAQ",
+    "utility": "FS6 press Looper/Practice/Tuner/Drums;Hold for View FS6/7 separate",
+    "OLED_practice_labels": {
+      "top": [
+        "Speed -",
+        "Speed +",
+        "Volume -",
+        "Volume +",
+        "Track <<",
+        "Track >>"
+      ],
+      "bottom": [
+        "Loop In",
+        "Rwd",
+        "Play",
+        "Fwd",
+        "Loop Out",
+        "Exit"
+      ]
+    },
+    "display_boundary": "Brightness1–5 only main LCD;not aux screen physical specifications",
+    "remaining": [
+      "OLED diagonal/pixels/color/touch",
+      "rig storage ceiling",
+      "qualified current hardware stock"
+    ],
+    "next": "Continue requested separate-screen processors;retain GP-200JR -> Prime -> GE300 independent queue"
   }
 }

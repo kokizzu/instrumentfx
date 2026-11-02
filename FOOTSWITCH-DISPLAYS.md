@@ -16,7 +16,7 @@ Here “LCD on the footswitch” means a **separate physical label screen associ
 | **Line 6 Helix Stadium XL Floor** | **12 OLED strips** | [Stadium XL](brand/LINE6.md#helix-stadium-xl-floor);XL-specific,with separate8-inch main touchscreen. |
 | **Fender Tone Master Pro** | **10 dedicated LCDs**,one per footswitch/encoder | [Tone Master Pro](brand/FENDER.md#tone-master-pro);separate7-inch main touchscreen. |
 | **MELOFTY AXOM MAX** | **9 individual footswitch mini displays, importer-backed**;manufacturer count/technology confirmation pending | [AXOM MAX](brand/MELOFTY.md#axom-max--partial-discovery-lead). Explicit requested candidate stays in this shortlist;manufacturer7-inch main touchscreen is separate. Partial,outside active counts. |
-| **HeadRush Prime** | **12 OLED strips**,one per footswitch | [Prime](brand/HEADRUSH.md#prime);separate7-inch main touchscreen. |
+| **HeadRush Prime** | **12 OLED strips**,one per footswitch | [Prime](brand/HEADRUSH.md#prime);separate7-inch main touchscreen. [5.2 guide’s twelve Practice Tool labels andselectable press/release timing](brand/HEADRUSH.md#prime--selectable-switch-timing-and-practice-tool-oled-labels);main LCD brightness1–5 is not an OLED-strip specification. |
 | **Fractal Audio FM3 / FM9 variants** | **3 /9 individual mini LCDs** | [FM3](brand/FRACTAL-AUDIO.md#fm3-mkii-turbo),[FM9](brand/FRACTAL-AUDIO.md#fm9-mkii-turbo);original,Turbo andMKII revisions remain separate records below. |
 
 Continue unresolved fields for these requested processors before the broader Zoom/TC list andcontroller-only hardware. Unknown screen technology doesnot remove AXOM MAX from the requested queue. Existing source andcapability qualifications remain in each brand record.
