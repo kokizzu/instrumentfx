@@ -143103,5 +143103,23 @@
       "Qualified exactShopee stock"
     ],
     "no_local_download_or_device_operation": true
+  },
+  "stadium_driver_host_scope_20261103": {
+    "canonical": "brand/LINE6.md#stadium-xl--editor-host-requirements-and-driver-version-scope",
+    "sources": [
+      "https://manuals.line6.com/en/helix-stadium/live/helix-stadium-edit-application",
+      "https://line6.com/software/index.html?locale=en_US&os=All&submit_form=set",
+      "https://line6.com/software/index.html?hardware=All&locale=en_UK&os=All&submit_form=set"
+    ],
+    "qualification": "App1.4+requirements distinctfromolderdriverOSlabels;package0.0.3 vsbundledbuild0.0.3.13 notlatestcertification;USBeditvsUSBUpdate separate.",
+    "remaining": [
+      "Primarypower rating",
+      "Currentstandalone driverbuild",
+      "WindowsARM support",
+      "OLEDphysicalspecifications",
+      "Globalanalogvolume scope",
+      "QualifiedShopee stock"
+    ],
+    "no_local_download_or_device_operation": true
   }
 }
