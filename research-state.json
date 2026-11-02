@@ -139041,5 +139041,29 @@
     ],
     "change": "Two later legacy references migrated to MULTI-EFFECTS.md with reversible original tokens;older entries and technical text preserved.",
     "scope": "Canonical navigation correction,not a model research completion"
+  },
+  "stadium_xl_hardware_dsp_limits_20261103": {
+    "model": "Line 6 Helix Stadium XL Floor",
+    "source": "https://manuals.line6.com/en/helix-stadium/live/dynamic-dsp",
+    "manual": "https://manuals.line6.com/en/helix-stadium/live",
+    "revision": "landing footer RevE v1.4.1;title1.4;navigation olderlabels",
+    "locations": {
+      "total": 48,
+      "each_subpath": 12
+    },
+    "ceilings": {
+      "amp_preamp": "4 per preset;2 per primary path",
+      "cab": "4 per preset;2 per primary path;up to2 cab/IR choices each",
+      "clone": "4 per preset;2 per primary path",
+      "poly_high_dsp": "2 per preset;1 per primary path",
+      "looper": "1 per preset"
+    },
+    "qualification": "Model-dependent DSP prevents guaranteed simultaneous combinations. Primary paths independent;split subpaths do not add independent DSP. Existing46-position SuperSerial figure preserved;difference accounting unresolved.",
+    "remaining": [
+      "Exact model combinations under DSP",
+      "Power label",
+      "Condition-qualified stock"
+    ],
+    "inventory_change": false
   }
 }
