@@ -143049,5 +143049,18 @@
       "UnchangedcachedFenderhardwareasks"
     ],
     "no_local_download_or_device_operation": true
+  },
+  "stadium_native_transfer_scope_20261103": {
+    "canonical": "brand/LINE6.md#stadium-xl--native-preset-transfer-and-control-loss",
+    "source": "https://manuals.line6.com/en/helix-stadium/live/presets",
+    "revision": "Livev1.4",
+    "finding": "Directional control-assignment loss;hardwarecompatibilitylimits;independentassetlibraries.",
+    "remaining": [
+      "Power label",
+      "OLEDphysicalspecifications",
+      "Globalanalogvolume scope",
+      "QualifiedShopee stock"
+    ],
+    "no_local_download_or_device_operation": true
   }
 }
