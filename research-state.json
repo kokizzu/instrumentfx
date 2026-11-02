@@ -143767,5 +143767,18 @@
     ],
     "qualification": "Condition/workingstate/variant/bundle/warranty/deliveredtotal/currentstockunknown;do notsubtractvoucheragain.",
     "next": "ReturntoLCD-first queue;AXOMMAXprimarysearch empty,continueavailable modelwork."
+  },
+  "stadium_xl_yamaha_chart_20261103": {
+    "model": "Line 6 Helix Stadium XL Floor",
+    "source": "https://shop.sg.yamaha.com/products/pedals/helix-stadium-xl-floor.html",
+    "basis": "Yamaha Music Asia officialstore,exactXLcolumn;readerlastweekcache;firmwareunstated",
+    "findings": [
+      "12OLEDstrips nominal1.75in/4.45cm;axis/color/touchunverified",
+      "492W257D92Hmm5.25kg;conflictwithsupport498W",
+      "128dynamicsetlists vsmanual122;512presets unchanged",
+      "134models152channels datedtable;notcurrent142entrycensus"
+    ],
+    "remaining": "Powerlabel/stripdiagonal/color/currentfirmwarecount reconciliation/qualifiedIDRstock open.",
+    "next": "ContinueLCD-first sources;retain generalGP200JR→Prime→GE300 sequence."
   }
 }
