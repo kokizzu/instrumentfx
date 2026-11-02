@@ -1609,7 +1609,7 @@ Checked **2026-11-03**, [MOOER exact GE300 launch article](https://cn.mooeraudio
 |---|---|
 | I/O / USB MIDI | Article explicitly permits **MIDI command transmission over USB**, alongside physical MIDI ports. It separately describes incomingCC functional control,PC preset selection,outgoing preset changes andMIDI-clock input/output. This resolves the earlier undocumented USB-MIDI status for this published revision;USB-host capability andevery current message/driver remain unverified. |
 | Display / panel technology | Explicit **5-inch IPS** screen,complementing the original manual’s colorTFT description. Pixel resolution,touch support andseparate footswitch LCDs remain unverified;IPS doesnot imply touch. |
-| Synth / arpeggiator count conflict | Article advertises **50 selected arpeggiators**. The manual’s Pattern0–100 range remains separate;neither is certified as101 unique patterns orcurrent installed content. Five waveforms andthree independent polyphonic voices are corroborated. |
+| Synth / arpeggiator count basis | Article advertises **50 selected arpeggiators**. The manual’s Pattern0–100 range remains separate;neither is certified as101 unique patterns orcurrent installed content. Five waveforms andthree independent polyphonic voices are corroborated. |
 | I/O / output wording conflict | Article calls the quarter-inch outputs **stereoTRS**;original manual/specification says two unbalancedmono jacks. Preserve the source conflict;do not infer balanced operation fromTRS wording. |
 
 No download,software launch,MIDI messages orhardware operation. Earlier unknowns remain dated history;current verification gaps are narrowed only as specified above.
