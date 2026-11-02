@@ -143028,5 +143028,26 @@
       "Qualified current hardware stock"
     ],
     "no_download_or_device_operation": true
+  },
+  "am4_usb_chapter_driver_scope_20261103": {
+    "canonical": "brand/FRACTAL-AUDIO.md#am4",
+    "sources": [
+      "https://www.fractalaudio.com/downloads/manuals/AM4/AM4-Owners-Manual.pdf",
+      "https://www.fractalaudio.com/am4-downloads/"
+    ],
+    "manual": "v1.0.2,2025-12-16,printed15/58",
+    "usb": "Chapter4x4supportsproduct;appendix4total2in2outconflictretained. Processedrecordingexcludesanaloginsert;DI/playback/reampseparate;nochannelpairmapfromflatteneddiagram.",
+    "driver": "OwnAM4downloadWindows11+x86/x64/ARM;notARMeditorcertification. Mac10.13+Intel/AppleSiliconnodriverpermanual.",
+    "remaining": [
+      "Actual USB enumeration",
+      "Global pedal attenuation ofcomputerplayback/phones/insert",
+      "Knob andmass conflicts",
+      "Exact processor Shopee offer"
+    ],
+    "deferred": [
+      "FenderGuideHreaderunsupportedcontenttype",
+      "UnchangedcachedFenderhardwareasks"
+    ],
+    "no_local_download_or_device_operation": true
   }
 }
