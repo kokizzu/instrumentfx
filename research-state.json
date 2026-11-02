@@ -143556,5 +143556,18 @@
     ],
     "status": "Manufacturer documentation;no hardware test"
   },
-  "discovery_resolution_scope": "current_resolution supersedes historical discovery status only for queue routing. Exact-name match is not offer authentication, full verification or permission to merge revision-ambiguous leads. Grouped/unnamed leads remain unchanged."
+  "discovery_resolution_scope": "current_resolution supersedes historical discovery status only for queue routing. Exact-name match is not offer authentication, full verification or permission to merge revision-ambiguous leads. Grouped/unnamed leads remain unchanged.",
+  "core_idle_windows_driver_20261103": {
+    "model": "BOSS GT-1000CORE",
+    "sources": [
+      "https://support.roland.com/hc/en-us/articles/27497005138459-GT-1000CORE-After-updating-to-system-program-Ver-2-the-power-turns-off-automatically",
+      "https://www.boss.info/global/support/by_product/gt-1000core/updates_drivers/1934779a-9286-4202-9708-8ae69ab716ce/"
+    ],
+    "findings": [
+      "Ver2 AUTO OFF20min inactivity;20min/1/5/10hours/off options",
+      "CORE explicitdriver applicability;Win11/Win10x64 1.1.1,Win10x86 1.1.0;ARM/virtual/Windows-on-Mac unsupported"
+    ],
+    "remaining": "Exactcurrentparameterguide body still403;globalFV competing assignment priority,rangeoverride andoutputcoverage notresolved.",
+    "no_download_or_hardware_operation": true
+  }
 }
