@@ -5,9 +5,20 @@
 <!-- brand-index begins -->
 **Model and section index — A–Z, natural numeric order**
 
+- [Beebo — Nano NAM module and external capture workflow](#beebo--nano-nam-module-and-external-capture-workflow)
 - [Beebo — partial no-treadle discovery](#beebo--partial-no-treadle-discovery)
 - [Beebo — recovered manual and regional hardware evidence](#beebo--recovered-manual-and-regional-hardware-evidence)
 <!-- brand-index ends -->
+
+## Beebo — Nano NAM module and external capture workflow
+
+Checked 2026-11-03. [Manufacturer firmware337 release](https://www.polyeffects.com/firmware/firmware-337-amps-spotlight-reverb-browser) explicitly supports importing NAM amp captures into **NAM Amp**, but **Nano models only**, described as CPU-heavy. This is a released-note capability, distinct from the earlier [333 Beta2 announcement](https://www.polyeffects.com/firmware/firmware-333-beta-2-for-testers); neither is proof of installed firmware or a complete current architecture matrix. Full/Lite/Feather,A1/A2 variants,concurrency and storage ceilings remain unverified.
+
+The beta announcement directs users to the [manufacturer amp-capture web service](https://ampcapture.polyeffects.com/) for amp capture or packaging an existing Nano NAM model for Beebo/Hector. The service’s two choices were readable;the existing-NAM path opened an amp-metadata form,while the capture path failed to load. No form submitted,file uploaded,capture made,conversion run orresult downloaded.
+
+**Format boundary:** documented Nano-NAM loading with an external packaging workflow; whether packaging changes the underlying model or merely wraps it is unverified. Do not label this unrestricted native NAM or generic conversion to a proprietary capture. Web-assisted capture does not establish standalone onboard capture creation. Reverb/cab IR import remains a separate path. Hugo’s NAM A2 statement does not transfer to Beebo.
+
+The prior import-unknown checkpoint is narrowed by these exact sources. Current firmware407 compatibility,quality/latency,complete library and global expression-volume questions remain open;partial record stays outside active counts.
 
 ## Beebo — partial no-treadle discovery
 

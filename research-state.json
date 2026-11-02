@@ -141606,5 +141606,16 @@
       "exactShopee",
       "globalvolume/recall/bypass/tail/loop"
     ]
+  },
+  "beebo_nam_20261103": {
+    "sources": [
+      "https://www.polyeffects.com/firmware/firmware-337-amps-spotlight-reverb-browser",
+      "https://www.polyeffects.com/firmware/firmware-333-beta-2-for-testers",
+      "https://ampcapture.polyeffects.com/"
+    ],
+    "support": "Firmware337 NAM Amp, Nano captures only,CPUheavy",
+    "workflow": "Manufacturer external web capture or package existing NanoNAM;no upload/submission/execution/download",
+    "limits": "A1/A2 andotherarchitectures,current407retention,concurrency/storage,packagingtransform/nativeengine unresolved",
+    "onboard_capture": "notestablished;externalservice workflow doesnotprove standalone creation"
   }
 }
