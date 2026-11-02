@@ -141969,7 +141969,7 @@
     ],
     "remaining": [
       "chassis/mass,notpackaging",
-      "full category census/current installed content",
+      "Current installed-library equivalence beyond original2.10 census",
       "exact software/USB matrix",
       "synth/acoustic/import capabilities",
       "global controller-volume range/recall/output coverage",
@@ -141993,5 +141993,27 @@
       "fullprofile beforeadmission"
     ],
     "status": "Partial lead outside active counts;no downloads ortransactions"
+  },
+  "pod_hd_desktop_census_usb_20261103": {
+    "canonical": "brand/LINE6.md#pod-hd-desktop--original-library-census-and-usb-volume-scope",
+    "source": "https://line6.com/data/6/0a06434dc1125085c5933f8db/application/pdf/POD",
+    "revision": "2.10+ original guide;sections6,7,9",
+    "FX": [
+      9,
+      15,
+      22,
+      17,
+      3,
+      6,
+      19,
+      12,
+      2,
+      8
+    ],
+    "derived_total": 113,
+    "amp_rows": 30,
+    "cabinet_rows": 17,
+    "USB_scope": "Processed stereo1–2;Master excluded;HardwareMonitor separate",
+    "active": false
   }
 }

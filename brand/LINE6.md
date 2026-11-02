@@ -2418,6 +2418,19 @@ Checked **2026-11-03**. [Line6Tony’s manufacturer announcement](https://line6.
 
 The [manufacturer software index](https://line6.com/software/index.html?locale=ja_JP&os=All&submit_form=set),retrieved as indexed text,lists **Central1.06,September17,2026,Windows10/11**,explicitly including **POD HD**. Its older1.00 list names the desktop **Bean** alongsidePro/500 variants. This supports a firmware-management route,not a replacement full parameter editor orrestored model-pack licensing. The targeted Central-filter page was inaccessible;exact current POD HD Edit/driver OS andarchitecture support remain open. No package downloaded,licence transaction,update ordevice operation performed.
 
+### POD HD Desktop — original library census and USB volume scope
+
+Checked **2026-11-03** in the [manufacturer Advanced Guide for flash2.10+](https://line6.com/data/6/0a06434dc1125085c5933f8db/application/pdf/POD), sections6•5–15,7•1–16 and9•2–5. Original text; no download or device test.
+
+| Field | Revision-qualified finding |
+|---|---|
+| FX choices | Dynamics9, Distortion15, Modulation22, Filter17, Pitch3, Preamp+EQ6, Delay19, Reverb12, Volume/Pan2, Wah8: **113 named selections**, not concurrent blocks. The older FAQ’s8 Dynamics/5 EQ figures remain dated evidence. |
+| Amp/cab choices | **30 amp/preamp rows:29 guitar/1 bass;17 cabinets**. Disabled/No Cab states are separate. Guitar and bass cabinets each offer eight mic selections; this is not sixteen simultaneous microphones. |
+| Synth | Filter includes Octisynth, Synth O Matic, Attack Synth, Synth String and Growler; polyphonic tracking remains unverified. |
+| USB recording | One stereo **1–2 Main Out** Record Send. Processing levels, including Volume Pedal, affect it; the physical Master does not. Hardware Monitor Level changes monitoring without changing recording. |
+
+Native48kHz uses conversion for44.1/88.2/96kHz. These historical routes do not establish current driver support, global FBV assignment or bypass/headphone/tail/loop coverage. Chassis, exact offers and current installed-library equivalence remain open; partial lead stays outside active counts.
+
 ## POD X3 Live
 
 Checked **2026-10-17**; partial. Floor processor, distinct from desktop X3, rack X3 Pro and XT Live. Model-specific [product documentation][X3L-P] establishes guitar, bass and vocal modeling; all three instrument comparisons include this single canonical record.
