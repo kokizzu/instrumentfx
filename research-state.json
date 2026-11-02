@@ -141472,5 +141472,21 @@
     "sampler": "4.00 mono/stereo WAV8/16/24/32bit,48k playback; individual built-in conversion; not IR/NAM evidence",
     "backward_compatibility": "4.20+ sequencer patches incompatible with earlier firmware",
     "downloaded_or_executed": false
+  },
+  "prime_ir_dependency_20261103": {
+    "canonical": "brand/HEADRUSH.md#prime--ir-browser-and-external-file-dependencies",
+    "sources": [
+      "https://support.headrushfx.com/en/support/solutions/articles/69000836037-headrush-prime-loading-impulse-responses-for-your-rig",
+      "https://support.headrushfx.com/en/support/solutions/articles/69000849643-headrush-fx-faq-why-are-there-red-on-my-ir-s",
+      "https://support.headrushfx.com/en/support/solutions/articles/69000878423-prime-core-and-flex-prime-c-verb-reverb-file-missing-or-corrupt"
+    ],
+    "finding": "Dedicated IR loader browser; missing references require asset/relink/save, no default substitution per family guidance; C-Verb separately requires valid reverb IR",
+    "qualification": "2023 Prime loading article and family missing-IR guide; not tested current installed behavior",
+    "remaining": [
+      "conversion/resampling algorithm",
+      "numeric storage ceilings",
+      "current qualified Shopee stock",
+      "auxiliary display specifications"
+    ]
   }
 }
