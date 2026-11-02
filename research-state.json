@@ -142135,5 +142135,21 @@
     ],
     "no_download_or_system_change": true,
     "next": "HeadRush Prime thenMOOERGE300 independentgeneralcursor;individualLCDpriority retained;defer unreadableGP50manual"
+  },
+  "prime_midi_edges_20261103": {
+    "canonical": "brand/HEADRUSH.md#prime--midi-switch-edges-and-controller-table-qualifications",
+    "source": "https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf",
+    "access": "Already saved original guidepp76–77;no download",
+    "switches": "CC49–60;127press then0release;press-onlyhold",
+    "EXP": "CC1internal/2external;notglobalvolumeevidence",
+    "defect": "CC104PracticeStopduplicaterow",
+    "navigation": "CC16previous17next18previousbank19nextbank",
+    "remaining": [
+      "OLEDphysicalspecs",
+      "rigstorageceiling",
+      "installedlibrarycensus",
+      "qualifiedhardwarestock"
+    ],
+    "next": "MOOERGE300 independentgeneralqueue;LCDpriority retained"
   }
 }

@@ -516,6 +516,20 @@ These sources establish loading/dependency behavior,not resampling algorithms,us
 Checked2026-11-03 against [manufacturer backup compatibility guidance](https://support.headrushfx.com/en/support/solutions/articles/69000834915-headrush-prime-will-my-rig-backups-work-with-the-prime-). Prime accepts Pedalboard/Gigboard/MX5 rigs,setlists,IRs andblock presets,but importing Gigboard/MX5 rigs can remap footswitch assignments,usually toward the bottom three/four switches. **A rig created or edited andsaved on Prime cannot return to those older models,even without Prime-specific features**;unchanged older files retain their return compatibility. Preserve original files independently before editing;this is not a verified lossless round trip orfull-device backup. No transfer ordevice operation was performed.
 
 [Separate factory-rig explanation](https://support.headrushfx.com/en/support/solutions/articles/69000848879-headrush-prime-and-core-where-are-all-the-preset-rigs-) explicitly distinguishes Prime/Core’s50 supplied rigs from the older models’270-file bank. The older bank’s approximately4MB file size does not establish Prime storage capacity orcurrent5.2 factory fill. Existing50-rig observation andnumerical-capacity unknown remain unchanged.
+### Prime — MIDI switch edges and controller-table qualifications
+
+Checked **2026-11-03** in the already-saved [manufacturer User Guide5.2.0,printedpp76–77](https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf). Original complete table/explanatory text,not a device test ornew download.
+
+| Field | Revision-specific evidence |
+|---|---|
+| MIDI / footswitch emulation | **CC49–60** correspond tophysical switches1–12. Send **127 press,then0 release**;press without release activates the assigned hold function. These are MIDI event values,not audio gain endpoints oradditional switches. Global OnPress/OnRelease settings remain separately qualified above. |
+| MIDI / continuous targets | **CC1 internal EXP,CC2 external EXP;CC61/62/63 top/middle/bottom parameter knobs**,values0–127. CC14/15 switch internalA/B andexternalC/D. Emulating EXP isnot proof ofglobal output-volume assignment oranalog pinout compatibility. |
+| MIDI / navigation | **CC16=Rig Up(previous),17=Rig Down(next);18=Bank Up(previous),19=Bank Down(next)**. Preserve the manual's direction labels;these are not memory-capacity limits. |
+| MIDI / documented table defect | **CC104 Practice Tool Stop appears twice**. Treat it as a repeated row,not asecondstop command orproof ofan omitted mapping. |
+| MIDI / controller transport | External MIDI gear uses **DIN input orUSB-A**;USB-A gear must beclass-compliant andrequire nodriver. This doesnot certify every MIDI controller,USB-B host behavior orM-VAVE analog wiring. |
+
+Most other listed actions trigger onany0–127 value;the guide explicitly distinguishes the continuous targets andswitch press/release exceptions. No MIDI messages sent. Current OLED physical specifications,installed-library census,rig-storage ceiling andcondition-qualified hardware stock remain unresolved.
+
 
 ## VX5
 
