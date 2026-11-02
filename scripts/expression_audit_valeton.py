@@ -35,4 +35,4 @@ if __name__ == '__main__':
         assert review['head'] == git('rev-parse','HEAD').strip(), 'HEAD changed since review'
         assert review['sha256'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest(), 'Staged diff changed since review'
         assert not git('diff','--cached','--check').strip(), 'Staged whitespace errors'
-        print(git('commit','-m','research(valeton): count GP-200JR distortion choices apart from imports'))
+        print(git('commit','-m','research(valeton): complete GP-200JR firmware 1.8 category census'))

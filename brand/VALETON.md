@@ -1611,16 +1611,21 @@ Checked2026-10-18.
 
 Guitar/bass/acoustic multi-effects; checked **2026-10-16**. Separate from GP-200LT and full-size GP-200. Primary manual diagrams were rendered and visually inspected; the firmware 1.8.0 manual contains substantial model-copy errors, retained below.
 
+<!-- comparison evidence begins -->
 | Field | Model-specific evidence / qualification |
 |---|---|
 | Expression | Built-in pedal; one external 6.35 mm TRS EXP/FS socket for EXP2 or single/dual switches. Calibration includes a strong toe press; a separate toe-switch count is not explicitly specified. Up to three parameters per expression mode. [JR-P, JR-M pp.10,15–16] |
+| Expression / assignment scope | Selected-patch EXP1A/1B/2 targets allow three parameters each with MIN/MAX. Global EXP2 socket setup explicitly refers back to Patch Settings→EXP Settings. No universal volume override established. Built-in treadle excludes JR from the no-treadle shortlist. |
+| Expression / copied prose conflict | P8 claims two external pedals; panel shows one EXP/FS socket plus the built-in pedal. Preserve the contradiction rather than claim two external analog inputs. Calibration curves and strong toe-press step do not resolve separate toe-switch count. |
 | Knobs / footswitches / buttons | **5 / 3 / 14** from the rendered front diagram: PARA, MASTER, three quick knobs; three floor switches; ten module selectors and BACK/GLOBAL/DRUM/SAVE. PARA push is not counted again. One rear GND/LIFT toggle is additional. Manual prose incorrectly says four footswitches; product page and diagram show three. [JR-P, JR-M pp.3–4] |
 | Screen | **4.3-inch color TFT LCD, 480×272**. Explicit touchscreen specification unverified. [JR-P, JR-M p.3] |
 | Dimensions / weight | **281 W ×166 D ×57 H mm; 1.55 kg**; medium footprint. [JR-M p.75] |
 | Processing | Eleven movable category modules: PRE, WAH, DST, AMP, NR, CAB, EQ, MOD, DLY, RVB, VOL. DSP overload remains possible; not eleven unrestricted duplicate blocks. [JR-P, JR-M pp.9–10] |
-| Choices per category | **Firmware1.8.0 manual: PRE31,WAH6,DST38 named stock choices**,complete named sections pp24–37;five DST SnapTone import slots are separate. PRE corrects the earlier27 count that omitted p29. Hammy appears inboth categories;these are selector entries,not unique-algorithm totals. Product advertises 240+ effects with overlapping 140+ amp/cab and 100+ stomp figures. Other per-category totals remain unverified. Appendix separately shows five AMP and five DST SnapTone locations and twenty user IR slots; these are import locations, not factory algorithm counts. [JR-P, JR-M appendix] |
+| Choices per category | **Firmware1.8.0 complete named-table census:** PRE31,WAH6,DST38,AMP71,NR4,CAB70,EQ6,MOD27,DLY22,RVB12,VOL1. **288 category-menu entries**,including cabinet/body choices andcross-category repeats;not288 unique algorithms orsimultaneous blocks. Excludes five AMP/five DST SnapTone import slots and20 userIR slots. AMP splits18Clean/26Drive/20HiGain/5Bass/2Acoustic;CAB60speaker+10Acoustic. Marketing240+,140+amp/cab and100+stomp figures retain their separate,overlapping scope. Earlier PRE27 was incomplete;31 is the corrected count. [Complete census below](#gp-200jr--complete-firmware180-category-census). |
 | Memory | **255 editable slots, first 99 factory-filled, 156 remaining**. Manual p.5 agrees on 255/99 but also says reset “100”; p.19 retains incompatible 01-A–25-D reset wording. Do not substitute LT's 256/100 layout. [JR-P, JR-M pp.5,12,19,75] |
 | Synth / acoustic | PRE has AC Sim with four modes; acoustic preamps and acoustic/body CAB choices are separate. Step Filter offers synth-like timbres; dedicated synthesizer architecture not established. [JR-M pp.27,50–54] |
+| Processing / Hold versus Freeze | Hold loops a short segment from before activation;Freeze sustains the sound at activation. Activate can be assigned to EXP; with Activate enabled,CTRL can instead toggle the module. These do not establish another general looper,polyphonic synthesizer orwhole-rig scene count. |
+| Synth / acoustic detail | AC Sim modes:Standard,Jumbo,Enhanced,Piezo. AC Refiner instead processes acoustic instruments. Step Filter is a four-step filter with synth-like timbres, not proof of a dedicated synth engine. Harmonizer1/2 are monophonic single/dual-voice harmonizers, unlike the polyphonic Pitch/P-Bend entries. |
 | IR / capture | Twenty user WAV IR locations, 1024-sample processing; appendix says 44 kHz while recording specification says 44.1 kHz. Import conversion/bit-depth rules unresolved. Firmware 1.8.0 documents NAM-format import into AMP/DST via SnapTone; the regional notice specifies **NAM A2 conversion through desktop software 1.8.1+**, not unrestricted native NAM. Architecture support and concurrent capture limits unresolved. [JR-M pp.37,51,55,69; JR-N] |
 | Power | **9 V DC, 1000 mA, center-negative** supply. Battery operation and USB bus power not established. USB audio does not prove power support. [JR-M pp.1,4,75] |
 | Editors | Windows/macOS GP-200 desktop editor for tone/patch/IR/firmware management. iOS/Android are documented USB-audio hosts, not established full-editor platforms; Linux editor unverified. [JR-P, JR-M p.20] |
@@ -1644,6 +1649,8 @@ Checked **2026-10-16**, public indexed/page-text evidence, not authenticated che
 | Sold-out historical retail ask | Rp4.490.000 | [Chemonk_Shop, 75661562/28568871205](https://shopee.co.id/Valeton-GP-200-JR-GP200JR-GP-200-JR-GP-200JR-Multi-Effect-Processor-i.75661562.28568871205), Jakarta Selatan, **Habis**. Not an active lower price bound |
 | Additional indexed hardware ask,checked2026-11-03 | Rp4.980.000 | [Imagination Music Store,shop19576516/item23947937909](https://shopee.co.id/Valeton-GP-200-JR-GP200JR-GP-200-JR-GP-200JR-Multi-Effects-Processor-i.19576516.23947937909),KotaJakartaPusat. Search one-month/direct five-month snapshots agree on ask;relative same-day/next-day delivery andlate compensation differ anddo not establish live stock. Condition,working state,firmware,variation,bundle,adapter,warranty,shipping/tax andcheckout unknown. No voucher deducted. |
 | Condition-verified used / new | ? / ? | No exact used hardware offer with verified condition located; no condition-confirmed new checkout. Retail observations above remain separate |
+
+<!-- comparison evidence ends -->
 
 ### GP-200JR — sources, contradictions and remaining tasks
 
@@ -1679,6 +1686,60 @@ Checked **2026-11-03** in the previously saved [manufacturer firmware1.8.0 manua
 | Boost |7|Micro Boost; AC Boost; B-Boost; P-Boost; 14 Boost; FAT BB; Boost|
 
 **16+3+8+2+2+7=38 named stock choices.** Printedp37 separately lists **SnapTone1–5** for imported files;five storage locations are not five additional stock algorithms orproof of native NAM execution. Earlier regional desktop-conversion requirements remain qualified. PRE/DST reuse some names,so summing section totals doesnot establish a unique library total. These are alternatives in the DST module,not38 simultaneous blocks. AMP andthe other remaining sections are still open. No new download,software run,visual inspection orhardware test.
+
+### GP-200JR — complete firmware1.8.0 category census
+
+Checked **2026-11-03** from the previously saved [manufacturer GP-200JR firmware1.8.0 manual](https://www.valeton.net/download/121/gp-200jr/22452/gp-200jr_online-manual_en_firmware-v1-8-0-pdf.pdf). All named tables andtheir section boundaries onprintedpp24–68 were inspected;no new download orPDF-image review. This completes category counts for that document,not every current-device specification orinstallation.
+
+| Module | Named stock entries | Complete printed-page span |
+|---|---:|---|
+| PRE |31|24–29;corrected earlier27 omission|
+| WAH |6|29–30|
+| DST |38|30–37;five imported SnapTone slots separate|
+| AMP |71|38–51;five imported SnapTone slots separate|
+| NR |4|51–52;includes Auto Swell,not just three gates|
+| CAB |70|52–54;20 userIR slots separately on55|
+| EQ |6|55–56|
+| MOD |27|56–61;includes Freeze on61|
+| DLY |22|61–66|
+| RVB |12|66–68|
+| VOL |1|68|
+
+**31+6+38+71+4+70+6+27+22+12+1=288 category-menu entries.** This includes cabinet/body models andduplicate names selectable inmore thanone module;it isnot a claim of288 unique DSP algorithms orsimultaneous effects. PRE/DST boost/drive names overlap;Hammy spansPRE/WAH;Auto Swell spansPRE/NR/MOD;Hold/Freeze spanPRE/MOD. Import locations are excluded,not treated as stock models. Manual-copy errors andmarketing240+/140+/100+ qualifiers remain preserved.
+
+**Complete AMP named rows:**
+
+| Manual type | Count | Names |
+|---|---:|---|
+| Clean |18|Tweedy; Bellman 59N; Dark Twin; Dark DLX; Dark Vibra; Silver Twin; SUPDual CL; Foxy 15TB; Foxy 30N; J-120 CL; Match CL; L-Star CL; BogSV CL; Z38 CL; Knights CL; Knights CL+; Bad-KT CL; Solo100 CL|
+| Drive |26|Bellman 59B; SUPDual OD; Foxy 30TB; Match OD; L-Star OD; BogSV OD; Bog BlueV; Bog BlueM; Z38 OD; Knights OD; Bad-KT OD; Solo100 OD; UK 45; UK 45+; UK 45JP; UK 50; UK 50+; UK 50JP; UK SLP; UK 800; Flagman 1; Flagman 2; Mess2C+ 1; Mess2C+ 2; Mess 2C+ 3; Juice30 OD|
+| Hi Gain |20|Bog RedV; Bog RedM; Solo100 LD; UK 900; Flagman+ 1; Flagman+ 2; Mess4 LD; Mess4 LD 2; Mess4 LD 3; Mess DualV; Mess DualM; Juice R100; EV 51; Eagle 120; Eagle 120+; Power LD; Dizz VH; Dizz VH S; Dizz VH+; Dizz VH+ S|
+| Bass |5|Classic Bass; Foxy Bass; Mess Bass; Mini Bass; Bass Pre|
+| Acoustic |2|AC Pre; AC Pre 2|
+
+These are named amp/preamp choices,not71 independently loadable amp blocks. AC Pre/AC Pre2 are acoustic-instrument preamps;the separate PRE AC Sim remains the electric-to-acoustic simulation evidence. Model-name spacing is retained from the table,including Mess2C+1/2 versus Mess2C+3's spaced title.
+
+**Complete CAB named rows:**
+
+| Document class | Count | Names |
+|---|---:|---|
+| Speaker cabinets |60|SUP ZEP; TWD CP; TWD PRC; TWD SUP; TWD LUX; Dark LUX; Dark VIT; Dark Twin; Dark CS; Bellman 1; Bellman 2; J-120; UK G12; UK GRN 1; UK LD; UK TD; UK MD; UK GRN 2; UK 75; UK Dark; FOXY 1; FOXY 2; ROUT; BogSV; Bad-KT; Match; TOM OPEN; ACE; Mess; D STAR; SUP Star; US STO; BOUTI; SUP; MATT TWD; Freed; DB Rock; Blue SK; EV; Bog; Eagle; Uban; Solo; Juice; H-WAY; Way; Dumb; Dizz; TRP; King; ADM 1; ADM 2; Workman 1; Workman 2; US BASS; MATT; F-TOP; AMPG 1; AMPG 2; HACK|
+| Acoustic-type/body choices |10|AC; AC Dream; OM; JUMBO; Bird; GA; Classic AC; Mandolin; Fretless Bass; Double Bass|
+
+The Acoustic-type entries include Mandolin,Fretless Bass andDouble Bass as this manual classifies them;these names do not prove tracking-synth engines ornew instrument inputs. UserIR1–20 is a separate import range. Its p55 wording44kHz/1024 remains distinct from44.1kHz recording specifications;bit-depth/conversion rules stay unresolved.
+
+**Complete remaining named rows:**
+
+| Module | Count | Names |
+|---|---:|---|
+| NR |4|Gate 1; Gate 2; Gate 3; Auto Swell|
+| EQ |6|Guitar EQ 1; Guitar EQ 2; Bass EQ 1; Bass EQ 2; Mess EQ; Hyper EQ|
+| MOD |27|A-Chorus; G-Chorus; C-Chorus; B-Chorus; M-Chorus; Jet; B-Jet; N-Jet; Trem Jet; V-Roto; G-Roto; Vibrato; Vibrato T; O-Phase; G-Phase; S-Phase; Pan Phase; M-Vibe; Vibe; O-Trem; Sine Trem; Bias Trem; Detune; Bit Smash; Auto Swell; Hold; Freeze|
+| DLY |22|BBD Delay S; Digital Delay S; Tape Delay S; Ambience 1; Ambience 2; Pure; Analog; Tape; Ping Pong; Slapback; Sweep Echo; Ring Echo; Tube; M-Echo; Sweet Echo; 999 Echo; Vintage Rack; Lofi Echo; Rev Echo; Dual Echo; Ice Delay; Broken Delay|
+| RVB |12|Room; Hall; Church; Plate; Spring; Tube Spring; Amp Spring; Studio; N-Star; Deepsea; Sweet Space; Shimmer|
+| VOL |1|Volume|
+
+Counts describe selectors within the fixed module architecture. Repeated Hold/Freeze orAuto Swell choices do not add independent scene systems orloopers. Current stock/condition,manual-copy corrections,toe-switch census,touch/power statements,NAM architectures/concurrency andIR conversion remain open. No firmware update,software launch orhardware test.
 
 ### GP-200JR — PRE census and EXP scope, 2026-10-28
 

@@ -126479,10 +126479,18 @@
       }
     ],
     "current_task": {
-      "model": "Valeton GP-200JR",
-      "next": "Complete AMP printedpp38–51,thenNR/CAB/EQ/MOD/DLY/RVB/VOL from saved1.8.0 manual",
-      "completed": "Corrected PRE31;WAH6;DST38stock plus5separateSnapToneimports",
-      "priority_qualification": "Requested separate-footdisplay processors still first when new accessible evidence is available;source-blocked items deferred"
+      "model": "HeadRush Prime",
+      "next": "Reconcile current5.2 category names/counts against manufacturer product/release tables;thencontinue MOOERGE300 category census",
+      "completed": "GP-200JR1.8.0 all11 namedmodule tables complete:288selector entries,notuniquealgorithms;imports separate",
+      "priority_qualification": "Requested separate-footdisplay processors still first when new accessible evidence is available;source-blocked items deferred",
+      "gp200jr_remaining": [
+        "Manufacturer corrections forcopiedmodeltext",
+        "Toe-switch count",
+        "Touch/battery/USBpower statements",
+        "IR conversion",
+        "NAMarchitecture/concurrency",
+        "Current condition-qualified stock"
+      ]
     }
   },
   "expression_volume_audit": {
@@ -139299,5 +139307,484 @@
     "snaptone_import_slots": 5,
     "qualification": "Linewrappedtitlesnormalized;namedselectors notsimultaneousblocks oruniquelibrarytotal. SnapToneslots excluded fromstockcount;no nativeNAMclaim.",
     "inventory_change": false
+  },
+  "gp200jr_complete_category_census_20261103": {
+    "model": "Valeton GP-200JR",
+    "source": "https://www.valeton.net/download/121/gp-200jr/22452/gp-200jr_online-manual_en_firmware-v1-8-0-pdf.pdf",
+    "access": "Savedoriginal1.8.0 text;no newdownload orvisualtest",
+    "printed_pages": "24–68",
+    "counts": {
+      "PRE": 31,
+      "WAH": 6,
+      "DST": 38,
+      "AMP": 71,
+      "NR": 4,
+      "CAB": 70,
+      "EQ": 6,
+      "MOD": 27,
+      "DLY": 22,
+      "RVB": 12,
+      "VOL": 1
+    },
+    "entry_sum": 288,
+    "amp_groups": {
+      "Clean": [
+        "Tweedy",
+        "Bellman 59N",
+        "Dark Twin",
+        "Dark DLX",
+        "Dark Vibra",
+        "Silver Twin",
+        "SUPDual CL",
+        "Foxy 15TB",
+        "Foxy 30N",
+        "J-120 CL",
+        "Match CL",
+        "L-Star CL",
+        "BogSV CL",
+        "Z38 CL",
+        "Knights CL",
+        "Knights CL+",
+        "Bad-KT CL",
+        "Solo100 CL"
+      ],
+      "Drive": [
+        "Bellman 59B",
+        "SUPDual OD",
+        "Foxy 30TB",
+        "Match OD",
+        "L-Star OD",
+        "BogSV OD",
+        "Bog BlueV",
+        "Bog BlueM",
+        "Z38 OD",
+        "Knights OD",
+        "Bad-KT OD",
+        "Solo100 OD",
+        "UK 45",
+        "UK 45+",
+        "UK 45JP",
+        "UK 50",
+        "UK 50+",
+        "UK 50JP",
+        "UK SLP",
+        "UK 800",
+        "Flagman 1",
+        "Flagman 2",
+        "Mess2C+ 1",
+        "Mess2C+ 2",
+        "Mess 2C+ 3",
+        "Juice30 OD"
+      ],
+      "Hi Gain": [
+        "Bog RedV",
+        "Bog RedM",
+        "Solo100 LD",
+        "UK 900",
+        "Flagman+ 1",
+        "Flagman+ 2",
+        "Mess4 LD",
+        "Mess4 LD 2",
+        "Mess4 LD 3",
+        "Mess DualV",
+        "Mess DualM",
+        "Juice R100",
+        "EV 51",
+        "Eagle 120",
+        "Eagle 120+",
+        "Power LD",
+        "Dizz VH",
+        "Dizz VH S",
+        "Dizz VH+",
+        "Dizz VH+ S"
+      ],
+      "Bass": [
+        "Classic Bass",
+        "Foxy Bass",
+        "Mess Bass",
+        "Mini Bass",
+        "Bass Pre"
+      ],
+      "Acoustic": [
+        "AC Pre",
+        "AC Pre 2"
+      ]
+    },
+    "cabinets": [
+      {
+        "name": "SUP ZEP",
+        "type": "1 x 6”"
+      },
+      {
+        "name": "TWD CP",
+        "type": "1 x 8”"
+      },
+      {
+        "name": "TWD PRC",
+        "type": "1 x 10”"
+      },
+      {
+        "name": "TWD SUP",
+        "type": "2 x 10”"
+      },
+      {
+        "name": "TWD LUX",
+        "type": "1 x 12”"
+      },
+      {
+        "name": "Dark LUX",
+        "type": "1 x 12”"
+      },
+      {
+        "name": "Dark VIT",
+        "type": "1 x 12”"
+      },
+      {
+        "name": "Dark Twin",
+        "type": "2 x 12”"
+      },
+      {
+        "name": "Dark CS",
+        "type": "2 x 12”"
+      },
+      {
+        "name": "Bellman 1",
+        "type": "2 x 12”"
+      },
+      {
+        "name": "Bellman 2",
+        "type": "4 x 10”"
+      },
+      {
+        "name": "J-120",
+        "type": "2 x 12”"
+      },
+      {
+        "name": "UK G12",
+        "type": "1 x 12”"
+      },
+      {
+        "name": "UK GRN 1",
+        "type": "2 x 12”"
+      },
+      {
+        "name": "UK LD",
+        "type": "4 x 12”"
+      },
+      {
+        "name": "UK TD",
+        "type": "4 x 12”"
+      },
+      {
+        "name": "UK MD",
+        "type": "4 x 12”"
+      },
+      {
+        "name": "UK GRN 2",
+        "type": "4 x 12”"
+      },
+      {
+        "name": "UK 75",
+        "type": "4 x 12”"
+      },
+      {
+        "name": "UK Dark",
+        "type": "4 x 12”"
+      },
+      {
+        "name": "FOXY 1",
+        "type": "1 x 12”"
+      },
+      {
+        "name": "FOXY 2",
+        "type": "2 x 12”"
+      },
+      {
+        "name": "ROUT",
+        "type": "1 x 12”"
+      },
+      {
+        "name": "BogSV",
+        "type": "1 x 12”"
+      },
+      {
+        "name": "Bad-KT",
+        "type": "1 x 12”"
+      },
+      {
+        "name": "Match",
+        "type": "2 x 12”"
+      },
+      {
+        "name": "TOM OPEN",
+        "type": "1 x 12”"
+      },
+      {
+        "name": "ACE",
+        "type": "1 x 12”"
+      },
+      {
+        "name": "Mess",
+        "type": "4 x 12”"
+      },
+      {
+        "name": "D STAR",
+        "type": "1 x 12”"
+      },
+      {
+        "name": "SUP Star",
+        "type": "2 x 12”"
+      },
+      {
+        "name": "US STO",
+        "type": "1 x 12”"
+      },
+      {
+        "name": "BOUTI",
+        "type": "2 x 12”"
+      },
+      {
+        "name": "SUP",
+        "type": "2 x 12”"
+      },
+      {
+        "name": "MATT TWD",
+        "type": "2 x 12”"
+      },
+      {
+        "name": "Freed",
+        "type": "2 x 12”"
+      },
+      {
+        "name": "DB Rock",
+        "type": "2 x 12”"
+      },
+      {
+        "name": "Blue SK",
+        "type": "2 x 12”"
+      },
+      {
+        "name": "EV",
+        "type": "4 x 12”"
+      },
+      {
+        "name": "Bog",
+        "type": "4 x 12”"
+      },
+      {
+        "name": "Eagle",
+        "type": "4 x 12”"
+      },
+      {
+        "name": "Uban",
+        "type": "4 x 12”"
+      },
+      {
+        "name": "Solo",
+        "type": "4 x 12”"
+      },
+      {
+        "name": "Juice",
+        "type": "4 x 12”"
+      },
+      {
+        "name": "H-WAY",
+        "type": "4 x 12”"
+      },
+      {
+        "name": "Way",
+        "type": "4 x 12”"
+      },
+      {
+        "name": "Dumb",
+        "type": "4 x 12”"
+      },
+      {
+        "name": "Dizz",
+        "type": "4 x 12”"
+      },
+      {
+        "name": "TRP",
+        "type": "4 x 12”"
+      },
+      {
+        "name": "King",
+        "type": "4 x 12”"
+      },
+      {
+        "name": "ADM 1",
+        "type": "1 x 15”"
+      },
+      {
+        "name": "ADM 2",
+        "type": "4 x 10”"
+      },
+      {
+        "name": "Workman 1",
+        "type": "1 x 15”"
+      },
+      {
+        "name": "Workman 2",
+        "type": "4 x 10”"
+      },
+      {
+        "name": "US BASS",
+        "type": "2 x 10”"
+      },
+      {
+        "name": "MATT",
+        "type": "2 x 10”"
+      },
+      {
+        "name": "F-TOP",
+        "type": "1 x 15”"
+      },
+      {
+        "name": "AMPG 1",
+        "type": "4 x 10”"
+      },
+      {
+        "name": "AMPG 2",
+        "type": "8 x 10”"
+      },
+      {
+        "name": "HACK",
+        "type": "4 x 12”"
+      },
+      {
+        "name": "AC",
+        "type": "Acoustic"
+      },
+      {
+        "name": "AC Dream",
+        "type": "Acoustic"
+      },
+      {
+        "name": "OM",
+        "type": "Acoustic"
+      },
+      {
+        "name": "JUMBO",
+        "type": "Acoustic"
+      },
+      {
+        "name": "Bird",
+        "type": "Acoustic"
+      },
+      {
+        "name": "GA",
+        "type": "Acoustic"
+      },
+      {
+        "name": "Classic AC",
+        "type": "Acoustic"
+      },
+      {
+        "name": "Mandolin",
+        "type": "Acoustic"
+      },
+      {
+        "name": "Fretless Bass",
+        "type": "Acoustic"
+      },
+      {
+        "name": "Double Bass",
+        "type": "Acoustic"
+      }
+    ],
+    "remaining_named_rows": {
+      "NR": [
+        "Gate 1",
+        "Gate 2",
+        "Gate 3",
+        "Auto Swell"
+      ],
+      "EQ": [
+        "Guitar EQ 1",
+        "Guitar EQ 2",
+        "Bass EQ 1",
+        "Bass EQ 2",
+        "Mess EQ",
+        "Hyper EQ"
+      ],
+      "MOD": [
+        "A-Chorus",
+        "G-Chorus",
+        "C-Chorus",
+        "B-Chorus",
+        "M-Chorus",
+        "Jet",
+        "B-Jet",
+        "N-Jet",
+        "Trem Jet",
+        "V-Roto",
+        "G-Roto",
+        "Vibrato",
+        "Vibrato T",
+        "O-Phase",
+        "G-Phase",
+        "S-Phase",
+        "Pan Phase",
+        "M-Vibe",
+        "Vibe",
+        "O-Trem",
+        "Sine Trem",
+        "Bias Trem",
+        "Detune",
+        "Bit Smash",
+        "Auto Swell",
+        "Hold",
+        "Freeze"
+      ],
+      "DLY": [
+        "BBD Delay S",
+        "Digital Delay S",
+        "Tape Delay S",
+        "Ambience 1",
+        "Ambience 2",
+        "Pure",
+        "Analog",
+        "Tape",
+        "Ping Pong",
+        "Slapback",
+        "Sweep Echo",
+        "Ring Echo",
+        "Tube",
+        "M-Echo",
+        "Sweet Echo",
+        "999 Echo",
+        "Vintage Rack",
+        "Lofi Echo",
+        "Rev Echo",
+        "Dual Echo",
+        "Ice Delay",
+        "Broken Delay"
+      ],
+      "RVB": [
+        "Room",
+        "Hall",
+        "Church",
+        "Plate",
+        "Spring",
+        "Tube Spring",
+        "Amp Spring",
+        "Studio",
+        "N-Star",
+        "Deepsea",
+        "Sweet Space",
+        "Shimmer"
+      ],
+      "VOL": [
+        "Volume"
+      ]
+    },
+    "excluded_imports": {
+      "AMP_SnapTone": 5,
+      "DST_SnapTone": 5,
+      "User_IR": 20
+    },
+    "qualification": "Namedcategoryselectors withcross-module repeats andcab/body choices;notuniquealgorithms orsimultaneousblocks. Completecensus fordocument1.8.0 only;othertechnicalfields open.",
+    "inventory_change": false,
+    "comparison_scope": "Selectedtechnicalsummary,practicalfeatures anddatedIDR;fullnamedcensus andolderbodiesretainedbelow. KeyEXP/synthesis/holdqualifications also retainedinselectedsummary."
   }
 }
