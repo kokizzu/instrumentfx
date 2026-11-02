@@ -2320,3 +2320,9 @@ expression-audit-stage-neural:
 .PHONY: research-stage-hotone
 research-stage-hotone:
 	python3 scripts/hotone_catalogue.py stage
+
+.PHONY: comparison-stage comparison-commit
+comparison-stage:
+	python3 scripts/comparison_publication.py stage
+comparison-commit:
+	python3 scripts/comparison_publication.py commit

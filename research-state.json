@@ -143172,5 +143172,17 @@
       "QualifiedShopee stock"
     ],
     "no_local_download_or_device_operation": true
+  },
+  "comparison_price_condition_regression": {
+    "status": "validated",
+    "scope": "Affirmative used condition required for embedded IDR excerpts; unknown/new-used prose and compensation excluded. Stop before separate retail offers; preserve complete original evidence in other-price column. Preserve image markdown in reference resolution.",
+    "tests": [
+      "comparison-test-fields",
+      "comparison-test-extraction",
+      "comparison-test-counts",
+      "comparison-test-selection",
+      "research-verify"
+    ],
+    "remaining": "Continue queued manufacturer/Shopee research; this does not verify condition or current stock."
   }
 }

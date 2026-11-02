@@ -82,7 +82,7 @@ def relink(value, source, refs):
         absolute = (ROOT / source).parent / unquote(path) if path else ROOT / source
         target = str(absolute.resolve().relative_to(ROOT)) + (sep+anchor if sep else '')
         return '['+m[1]+']('+target+')'
-    return re.sub(r'\[([^\]]+)\]\(([^)]+)\)', link, value)
+    return re.sub(r'(?<!!)\[([^\]]+)\]\(([^)]+)\)', link, value)
 
 def comparison_body(body):
     """Use an explicitly maintained comparison without repeating the retained archive."""
@@ -763,9 +763,22 @@ def price_cells(record):
             other.append(entry)
             # Many canonical records preserve qualified used evidence in a retail/used
             # paragraph. Keep its wording rather than extracting an unqualified number.
-            hit=re.search(r'(?:\*\*)?(?:Explicit\s*)?(?:used|usedlike-new|Used IDR|seller-labelled used)[\s\S]*',value,re.I)
-            if hit and 'Rp' in hit[0] and not re.search(r'(?:not establish|not proof of|not verified as)\s*$',value[:hit.start()]+' ',re.I):
-                used.append(hit[0])
+            # Match affirmative condition labels, not "new/used unknown" caveats.
+            condition = (r'(?<!\w)(?:\*\*)?(?:explicit(?:ly)?\s*used|usedlike-new|used\s+IDR|seller-labelled\s+used)(?=[^.)\]\n]{0,80}Rp)'
+                         r'|(?:^|(?<=[.;])\s+|<br>|\n)(?:\*\*)?used'
+                         r'(?=\s*(?:\*\*)?\s*(?::\s*)?(?:\*\*)?\s*Rp)')
+            for hit in re.finditer(condition, value, re.I):
+                if re.search(r'(?:not establish|not proof of|not verified as|\bno|\bnot|without)\s*$', value[:hit.start()], re.I):
+                    continue
+                tail = value[hit.end():]
+                if re.match(r'[\s:*]*(?:\?|unknown\b|unverified\b|not\b)', tail, re.I):
+                    continue
+                # Preserve condition/stock caveats but stop before another offer.
+                boundary = re.search(r'(?:[.;]\s+|\n|<br>)(?:\*\*)?(?:separate\b|historical\s*retail\b|retail\b|new\b)', tail, re.I)
+                end = hit.end() + boundary.start() if boundary else len(value)
+                excerpt = value[hit.start():end].strip()
+                if 'Rp' in excerpt:
+                    used.append(excerpt)
     return ('<br>'.join(dict.fromkeys(used)) or '? — no qualified used IDR amount established'), ('<br>'.join(dict.fromkeys(other)) or '? — no qualified retail/new IDR amount established; foreign prices are not converted')
 
 def table(records, ids, headers, groups):
@@ -859,6 +872,30 @@ def test_comparison_selection():
 
 
 def test_field_projection():
+    # Condition words in caveats or retailer prose are not used-price evidence.
+    for caveat in (
+        'Rp18.910.000 sold out. Not an available new/used price. Late compensation Rp10.000.',
+        'Rp4.200.000. Used/new condition unknown; compensation Rp10.000 is not deducted.',
+        'Used **?**. Retail **Rp1.650.000**, stock unconfirmed.',
+        'Retail Rp4.999.000. Used **?**. Separate retailer Rp4.773.000, sold out.',
+        'Rp8.900.000 for [explicitly used unit](https://example.com); retail Rp11.229.000.',
+    ):
+        record = {'facts': [{'field': 'IDR observations and qualifications', 'value': caveat, 'context': ''}]}
+        used_cell, other_cell = price_cells(record)
+        assert used_cell.startswith('?'), ('Qualification promoted to used evidence', caveat, used_cell)
+        assert caveat in other_cell, 'Complete qualification must remain in the other-price column'
+    for statement in ('ExplicitusedRp320.000 SOLD OUT; not a current lower bound.',
+                      'Usedlike-newRp320.000; older ask, stock unknown.',
+                      'Used IDR:Rp2.125.000 SOLD OUT; seller title says Bekas.'):
+        record = {'facts': [{'field': 'IDR observations and qualifications', 'value': statement, 'context': ''}]}
+        assert 'Rp' in price_cells(record)[0], ('Explicit used evidence lost', statement)
+    bold = {'facts': [{'field': 'IDR observations', 'value': '**ExplicitusedRp320.000 SOLD OUT**', 'context': ''}]}
+    assert price_cells(bold)[0] == '**ExplicitusedRp320.000 SOLD OUT**', 'Used label formatting lost'
+    mixed = {'facts': [{'field': 'IDR observations and qualifications',
+                        'value': 'Used **Rp320.000**, sold out. Retail **Rp520.000**, stock unknown.', 'context': ''}]}
+    used_cell, other_cell = price_cells(mixed)
+    assert 'Rp320.000' in used_cell and 'Rp520.000' not in used_cell, 'Separate retail amount leaked into used excerpt'
+    assert 'Rp520.000' in other_cell, 'Retail evidence was lost'
     negative = {'facts':[{'field':'IDR qualified observations','value':'Seller name does not establish used condition. Another offer Rp5.929.110 is sold out.','context':''}]}
     assert price_cells(negative)[0].startswith('?'), 'Negated condition leaked into used-price evidence'
     positive = {'facts':[{'field':'Used IDR','value':'Rp3.000.000 seller-labelled used; stock unconfirmed','context':''}]}
