@@ -2280,3 +2280,7 @@ expression-audit-stage-boss:
 .PHONY: research-stage-mooer
 research-stage-mooer:
 	python3 scripts/mooer_catalogue.py stage
+
+.PHONY: expression-audit-stage-digitech
+expression-audit-stage-digitech:
+	python3 scripts/expression_audit_digitech.py stage

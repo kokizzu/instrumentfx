@@ -126479,8 +126479,8 @@
       }
     ],
     "current_task": {
-      "model": "MOOER GE300",
-      "next": "Continue systematic no-built-in-treadle inventory and exact Shopee discovery; prefer requested separate-footdisplay processors when new accessible evidence appears. NEURIG direct-globalvolume scope andnumericendpoints unresolved.",
+      "model": "DigiTech RP360",
+      "next": "Continue RP360 full category tables andprofile;requestedLCDsourceblocks andPODBlackchassisdimensions deferred,not substituted",
       "completed": "GP-200JR1.8 category census;Prime routing/website corrections;GE300 original named COMP/WAH/FXA-FXB/DSOD/AMP/CAB/NS/EQ/DELAY/REVERB tables checked and saved,withfirmwaredeltas qualified",
       "priority_qualification": "Requested separate-footdisplay processors still first when new accessible evidence is available;source-blocked items deferred",
       "gp200jr_remaining": [
@@ -141151,5 +141151,48 @@
     "qualification": "No CC7/11 globalvolume inferred;clockTHRU not internaltemposync;no device/softwaretest",
     "shortlist_search": "Requested separatefootdisplay Shopee queries found existingoffers andreplacementLCD;no newverifiedstockorprice added",
     "deferred": "Original Fender NAMannouncement inaccessible throughpress->Reddit->press chain;AXOMMAX primaryscreenclassificationstillunknown;continue other accessiblemissions"
+  },
+  "rp360_slots_named_models_20261103": {
+    "sources": [
+      "https://www.manualslib.com/manual/819896/Digitech-Rp360.html?page=26",
+      "https://www.manualslib.com/manual/819896/Digitech-Rp360.html?page=114"
+    ],
+    "identity": "Shared RP360/RP360XP original body,120pages,matching footer;printed22/110;not hostsummary",
+    "slots": 10,
+    "per_type_limit": 1,
+    "compressors": [
+      "Main Squeeze",
+      "Blue Compressor",
+      "Red Compressor"
+    ],
+    "distortion": [
+      "Screamer",
+      "Eight-Oh-Eight",
+      "TS Modded",
+      "Supreme Drive",
+      "Over Drive",
+      "Who Do Drive",
+      "Driven Over",
+      "DOD 250",
+      "Redline",
+      "Amp Driver",
+      "Anxiety Disorder",
+      "Rodent",
+      "MX Distortion",
+      "Orange Distortion",
+      "Grunge",
+      "Zone",
+      "Death Metal",
+      "Gonkulator",
+      "8Tavia",
+      "Later Fuzz",
+      "DOD Classic Fuzz",
+      "Face Fuzz",
+      "Big Pi"
+    ],
+    "qualification": "Original table census only;notcurrent85FXreconciliation,not10identicalblocks;product8description preserved;nohardwaretest",
+    "market": "Exact nonXPsearch still surfaces XP57900729/21171529926 only;nottransferred",
+    "status": "partial outside activeinventory",
+    "next": "Continue RP360 full category tables andprofile;requestedLCDsourceblocks andPODBlackchassisdimensions deferred,not substituted"
   }
 }

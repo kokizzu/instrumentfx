@@ -1032,6 +1032,18 @@ Checked2026-10-19 against indexed [own5041674-B manual](https://digitech.com/wp-
 
 **Preset mode:FS1/A down,FS2/B up,FS3/C multi-function looper.** Global footswitch mode is retained across presets;this is not global expression assignment. No externalFS3X required for this mode. Full PDF/panel image remains uninspected; original record’s USB-B comes from exact product specifications. Admission and other unknowns remain open. No downloads ordevice operation.
 
+### RP360 — ten-slot limit and original compressor/drive choices
+
+Checked **2026-11-03** in the manufacturer-authored shared RP360/RP360XP manual reproduced by ManualsLib:120-page structure,matching model footer and printed pages. Only original document text is used,not host summaries. Official and distributor PDFs exceed the web reader size limit;no local download,rendering ordevice operation.
+
+| Field | Original-document evidence / qualification |
+|---|---|
+| Processing / simultaneous slots | [Printedp22,PDFp26](https://www.manualslib.com/manual/819896/Digitech-Rp360.html?page=26) explicitly permits **up to10 effects per preset**,but **one of each effect type** (e.g.Compressor,Distortion,Modulation). Ten slots therefore do not mean ten freely repeated distortion blocks. This supports the product’s10-slot field while preserving its conflicting8-effect description;current firmware equivalence remains untested. |
+| Category choices / compressor | [Printedp110,PDFp114](https://www.manualslib.com/manual/819896/Digitech-Rp360.html?page=114) lists **three**:Main Squeeze,Blue Compressor,Red Compressor. These are selectable models,not three simultaneous compressor blocks. |
+| Category choices / distortion | Same original table lists **23**:Screamer;Eight-Oh-Eight;TS Modded;Supreme Drive;Over Drive;Who Do Drive;Driven Over;DOD250;Redline;Amp Driver;Anxiety Disorder;Rodent;MX Distortion;Orange Distortion;Grunge;Zone;Death Metal;Gonkulator;8Tavia;Later Fuzz;DOD Classic Fuzz;Face Fuzz;Big Pi. Wrapped names are joined;no85-effect grand-total reconciliation claimed. |
+
+This completes these two original category lists only. Full amp/cab/modulation/delay/reverb census,remaining profile fields,global expression override andqualified exact non-XP Shopee hardware remain unresolved. RP360 stays a **partial lead outside active counts**;XP offers are not transferred.
+
 ### RP55 — exact controller and bypass follow-up
 
 Checked2026-10-19. [Own18-0838V-A manual, printed pp2,4,10,20](https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP55-Manual-18-0838V-A.pdf): Control In accepts passive mono volume orTS expression;TRS unsupported. No resistance value established;RP360/RP150 values are not transferred. Volume operates only withWah andWhammy disabled. Up/Down switches increment/decrement presets;both together bypass,then either restores last preset. Bypass provides clean unprocessed tone,but text doesnot establish pedal attenuation there. Position,min/max,headphone attenuation andtails/looper coverage remain unknown. SharedTRS audio output supports phones;its stereo wiring is separate fromTS Control In. Cabinet modeling being global doesnot make volume unconditional. Existingmanual/product dimension conflict retained;no hardware test,stock refresh ordownloads.
