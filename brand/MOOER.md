@@ -1509,7 +1509,7 @@ Original **20 user IR slots** became **50**, with **80 MNRS slots** documented i
 
 **USB audio2-in/2-out,24bit44.1kHz**, selectable dry/effected recording,monitor mix and reamp. Distinguish hardware MIDI sockets from unverified USB MIDI capability. Output tap routing supports simultaneous PA cab simulation and an amplifier path without cab; four-cable rigs and stereo external processing are documented. [M][G]
 
-**30-minute stereo looper**, overdub,undo/redo,reverse,half-speed/one-shot and saved loop import/export/backup. Tuner and tap tempo; built-in drum/rhythm support unknown. Original manual has two footswitch modes; later firmware adds a third. Programmable controls do not establish a specific scene ceiling. [M][F]
+**30-minute stereo looper**, overdub,undo/redo,reverse,half-speed/one-shot and saved loop import/export/backup. Tuner and tap tempo; built-in drum/rhythm support unknown. Original manual has two footswitch modes; **V2.0.6 FS mode3** uses A–D plusCTRL1–4 for eight preset choices,then pressing the current preset enters eight-CTRL mode;Bank± returns to preset selection. These are reused physical switches,not eight extra switches orscenes. [Firmware history][F]. Programmable controls do not establish a specific scene ceiling. [M][F]
 
 ### GE300 — separate IDR evidence
 
@@ -1533,6 +1533,12 @@ Checked2026-11-03. [Manufacturer Chinese exact-model page](https://cn.mooeraudio
 No update,software orfile conversion was run. Old data-loss notices remain historical version-specific evidence,not a claim that every update clears all files.
 
 **Shopee recheck2026-11-03:** exact Vin’s Music Store31173885/29362925028 search snapshot now reports KotaDepok andRp11,928,000,crawledfive days earlier. Direct reopening stillfails(cachemiss). ReadyStock title,relative delivery andabsence ofa Habis marker are not live-stock proof;condition/variant/bundle/warranty/checkout remain unknown. This supplements the original October16 ask ratherthan replacing its date.
+
+### GE300 — control-mode labels and parameter recall
+
+Checked2026-11-03 in the [manufacturer exact-model firmware history](https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html),not an installed-device test. V2.0.6 explicitly defines FS mode3 as described above. V3.0.1 adds **six-character custom CTRL names** andextends AMP/CAB names to31characters,with scrolling beyond18. These are main-UI names;GE300 is not established as an individual footswitch-screen model.
+
+The B2.0.0/V2.0.6 entries describe **PARA PREF**:Default resets parameters when changing a model inside its block;Maintain preserves parameter values for the replacement model. Default is the factory setting. This is model-change behavior,not a guarantee that values retain the same meaning across models,nor global expression assignment orpreset-change recall. V4.0.1 separately expands Mono Pitch from±12 to±24semitones andinstructs users toreadjust its settings. Installed/current-preset state remains unknown. No download,update,editor launch ordevice operation.
 
 ### GE300 — sources and remaining checks
 
