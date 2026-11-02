@@ -142885,5 +142885,22 @@
     ],
     "next": "Continue requested individual displays;preserve GP-200JR -> HeadRush Prime -> MOOER GE300 independent cycle",
     "no_download_or_device_operation": true
+  },
+  "stadium_usb_songloop_20261103": {
+    "canonical": "brand/LINE6.md#helix-stadium-xl-floor",
+    "sources": [
+      "https://manuals.line6.com/en/helix-stadium/live/global-settings",
+      "https://kb.line6.com/helix-stadium-1-4-release-notes"
+    ],
+    "usb_out12": "DirectOut selectable onpreset;Matrixquarterinch/XLR/Phones mirrors removeUSB1/2 frompresetoutputlist;recordingsource notplaybacksource",
+    "looper_conflict": "Livemanual excludesmanualcontrol andcueonly;1.4notes fixsetting formanualcontrol;scope unresolved",
+    "remaining": [
+      "Manual-loop song-stop actual behavior",
+      "Global analog volume endpoints/outputcoverage",
+      "OLEDphysicalspecifications",
+      "Qualified exactShopee stock"
+    ],
+    "next": "Continue requested separate-display models;defer unresolvedsourceconflicts;preserve GP-200JR -> HeadRush Prime -> MOOER GE300 sequence",
+    "no_download_or_device_operation": true
   }
 }
