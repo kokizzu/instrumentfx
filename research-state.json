@@ -142675,5 +142675,29 @@
     ],
     "next": "Continue newer-guide exact-model routing andlooper checks;preserve separate-display priority andindependent GP-200JR -> Prime -> GE300 sequence",
     "downloads": false
+  },
+  "fm9_nov2026_cab_looper_20261103": {
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9--november-guide-cabinet-and-looper-limits",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026;printed19–21,55–56",
+    "cab": {
+      "cabs_per_block": 2,
+      "DynaCab_samples": 1024,
+      "FullRes": false,
+      "level": "IndividualIRLevel normalizedblend;MixpageMasterLevel totalblocklevel"
+    },
+    "looper": {
+      "stereo": true,
+      "max_seconds": 120,
+      "half_speed": "octave lower playback;no larger recording capacity inferred"
+    },
+    "remaining": [
+      "Exact named library reconciliation",
+      "Current global-volume endpoints/recall/coverage",
+      "Preset/power-cycle loop retention",
+      "Qualified hardware stock"
+    ],
+    "next": "Continue newer-guide exact-model evidence;prioritize individual footswitch displays;preserve independent GP-200JR -> Prime -> GE300 sequence",
+    "no_download_or_device_operation": true
   }
 }

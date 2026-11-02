@@ -770,6 +770,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI selle
 | Power / battery / USB operation | Historical manual:**90–264VAC,47–63Hz,<40W**;CR2032backs memory,not operating battery. **Exact MKII regional corroboration:** [Okada](https://www.okada-web.com/fractal-audio-systems/fm9-mark-ii-turbo) specifies **90–264VAC,47–63Hz,≤40W**,checked2026-11-01. Preserve its inclusive≤40W versus the historical manual’s<40W;neither is our measurement. Direct current manufacturer confirmation andactual draw remain unverified. DCpolarity/current not applicable to mains inlet;USB/battery operation unverified. [Manual][f9-m] p.128. |
 | Editor platforms / drivers | **FM9-Edit Mac/Windows**,full editor/librarian. Current1.03.22,2026-08-25;macOS10.13+Intel/M1. Windows page requires10+ and says **64-bit only**,but also links **32-bit Version1.03.22**;supported32-bit scope unresolved. Windows7may work but is officially unsupported. Driver ARM support does not certify a native ARM editor. Mobile/Linux editor unresolved. [Editor][f9-e],rechecked2026-10-31;no installer fetched. |
 | Firmware / software revision | Downloads list**12.0,2026-07-07**,original/Turbo compatible;requires latest editor. WindowsUSBdriver6.16,2026-06-10,Windows10+x86/x64/ARM;older7/8need5.12. Factory presets9.02,2025-06-04,target9.x+. USBfirmware1.04separate hardware-revision update. Installed firmware unknown;manual remains3.x. [Downloads][f9-d]. |
+| IR / newer processing limits | [November2026 guide](#fm9--november-guide-cabinet-and-looper-limits):two cabs perCab block,1024-sample DynaCabs,FullRes unsupported. Individual IR blend differs from Cab master Level;source-file imports/storage remain separately qualified. |
 | Firmware / DynaCab data compatibility | Current support table specifies **FM9 firmware11.0+ → DynaCabs1.09**;the downloads page currently lists firmware12.0. Missing/incorrect DynaCab data can produce a startup error. This is cabinet-data compatibility,not a firmware version,additional user-IR capacity or amp-capture format. Support uses FM9-Edit’s embedded Fractal-Bot for transfer;the latest editor and Refresh After New Firmware are advised if hardware is updated but editor cabinets remain absent. No file downloaded,update performed or device tested. [Manufacturer support](https://support.fractalaudio.com/en-US/how-to-resolve-dyna-cabs-not-installed-or-incorrect-version-286538);[downloads][f9-d],checked2026-10-31. |
 | Controls / current factory navigation | Current **MKII-headed product page**,checked2026-10-31,describes an out-of-box preset-selection layout,one-switch access to Scenes,Tap/Tuner,and Master Layout Menu access to effects/looper layouts;OMG9-style setup is an option. This corroborates current navigation capabilities,not a dedicated factory preset−/+ pair or unchanged2022 switch mapping. Current page/store text publish no dimensions;historical figures remain qualified. [Current product][f9-p];[Store][f9-s]. |
 | Practical features | Current product lists**two-minute looper**,eight tap/hold switch layouts,up to twoFC6/FC12controllers;store claims gapless switching; [firmware6.00 prerequisites](#fm9--gapless-switching-prerequisites) now documented, not an unconditional all-preset guarantee. Mono/stereo/speed looper duration qualifications anddrums remain unverified. [Product][f9-p];[Store][f9-s]. |
@@ -1018,6 +1019,18 @@ Checked **2026-11-03**: [manufacturer Blocks Guide](https://www.fractalaudio.com
 | Wah | 9/2 |
 
 Dash means no numerical type count;∞ is not unlimited user storage. Dynamic Distortion,IR Player,RTA,Tone Match,Vocoder show zero FM9 instances. NAM’s FM9 cell is blank in extracted text;no support inferred from Axe-Fx III’s footnote. No download ordevice test.
+
+### FM9 — November guide cabinet and looper limits
+
+Checked **2026-11-03**, [manufacturer November2026 Blocks Guide](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf), pp19–21,55–56. FM9 named explicitly; revision-specific firmware minima unstated.
+
+| Field | Source-qualified finding |
+|---|---|
+| IR / processing limits | **Two cabs per Cab block;1024-sample DynaCabs;FullRes unsupported on FM9**. These are processing limits,not source-file acceptance oruser-storage capacity. Axe-Fx III’s FullRes slots are not transferred. |
+| IR / level scope | Individual IR Level changes normalized blend;with one IR it has no effect. Cab **Mix-page master Level** controls overall block level. Neither establishes global analog expression-volume assignment orendpoints. |
+| Looper / current documentation | **Stereo,120seconds maximum**. FULL/HALF speed;HALF plays an octave lower. No explicit longer recording capacity derived from half-speed playback. EarlierJune2023 evidence retained. |
+
+The newer guide corroborates the documented looper ceiling and narrows cabinet restrictions;it doesnot verify installed content,per-preset loop continuity,power-cycle retention orpedal attenuation ofUSB/phones/loops. Exact current stock,global-volume endpoints andheld-position recall remain unresolved. No download ordevice operation.
 
 ### FM9 — named firmware12 model additions
 
