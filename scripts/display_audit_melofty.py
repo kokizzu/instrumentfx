@@ -13,7 +13,7 @@ if sys.argv[1:] in (["stage-collection"], ["collection"]):
     import hashlib
     import json
     from pathlib import Path
-    allowed = {"FOOTSWITCH-DISPLAYS.md", "MULTI-EFFECTS.md", "README.md", "research-state.json", "scripts/display_audit_melofty.py", "Makefile"}
+    allowed = {"MELOFTY.md", "FOOTSWITCH-DISPLAYS.md", "MULTI-EFFECTS.md", "README.md", "research-state.json", "scripts/display_audit_melofty.py", "Makefile"}
     changed = set(git("diff", "--name-only").splitlines()) | set(git("ls-files", "--others", "--exclude-standard").splitlines())
     staged = set(git("diff", "--cached", "--name-only").splitlines())
     assert (changed | staged) <= allowed, (changed | staged) - allowed
@@ -33,7 +33,8 @@ if sys.argv[1:] in (["stage-collection"], ["collection"]):
         assert review["head"] == git("rev-parse", "HEAD").strip()
         assert review["sha256"] == hashlib.sha256(git("diff", "--cached").encode()).hexdigest()
         assert not git("diff", "--cached", "--check").strip()
-        print(git("commit", "-m", "docs: restore requested separate-screen processor priority"))
+        message = "research(melofty): distinguish screen census and performance-switch roles" if "MELOFTY.md" in staged else "docs: restore requested separate-screen processor priority"
+        print(git("commit", "-m", message))
     raise SystemExit(0)
 
 assert not git("diff", "--cached", "--name-only").strip(), "Existing staged work"

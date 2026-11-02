@@ -138827,5 +138827,16 @@
     ],
     "previous_interpretation": "Prioritize individual LCDs at effect footswitches before OLED/shared screens/controllers.",
     "qualification": "AXOM MAX remains explicit requested partial candidate;count/layout/technology gaps remain. No new specification/market claims oractive admissions."
+  },
+  "axom_max_performance_screen_roles_20261102": {
+    "checked": "2026-11-02",
+    "root": "MELOFTY.md#axom-max--six-performance-switches-and-hybrid-screen-roles",
+    "manual": "V1.7.4 pp9–12,22–23",
+    "source": "https://shop.warwick.de/media/23/53/74/1790324346/4on4_MEL_AXOM_MAX_Manual_EN.pdf?ts=1790324346",
+    "finding": "FS3/4/5/7/8/9:six performancecontrols;HYBRID threepairings SUB+PRESET,STOMP+PRESET,STOMP+SUB;FS2/6paired-group stepping/preview,not universalpreset±",
+    "display_count": "Nine ownmini displays explicitly importer-backed;not manufacturer orvisual census. Separatepedal readout notsilentlyadded.",
+    "remaining": "Manufacturer count/layout,miniLCD/OLED dimensions/color/touch,currentfirmware equivalence andqualifiedIndonesiahardware",
+    "inventory_change": false,
+    "downloads": false
   }
 }

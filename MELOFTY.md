@@ -189,3 +189,14 @@ Checked **2026-11-01** in importer-linked original manual translations: [French 
 | Display / classification boundary | Frenchp5 still calls the switch/pedal readout a **mini screen** without establishing LCD/OLED technology or a physical census. Nine footswitch identities are not a verified nine-screen count. The retailer OLED statement remains attributed separately. |
 
 Neither translation establishes later-firmware equivalence or a global external EXP3 volume assignment. No local document download,software installation ordevice operation;partial lead remains outside active model counts.
+
+### AXOM MAX — six performance switches and hybrid screen roles
+
+Checked **2026-11-02**,[manufacturer V1.7.4 manual,pp9–12,22–23](https://shop.warwick.de/media/23/53/74/1790324346/4on4_MEL_AXOM_MAX_Manual_EN.pdf?ts=1790324346). Original text,not a visual census orcurrent-firmware test.
+
+- **FS3/4/5/7/8/9 are six performance controls**:RIG shows two preset groups;SUBPATCH shows six scenes;STOMP shows six stomp controls. Nine physical footswitches do not mean nine independent stomp assignments inthese documented modes.
+- **HYBRID has three pairings**:SUB+PRESET,STOMP+PRESET,STOMP+SUB. SUB/STOMP offers123/456 selection. These pages change assignments,not physical screen count.
+- In RIG,FS2/FS6 change paired groups,e.g.01–02→03–04. In SUBPATCH/STOMP,the first press previews the group;another changes it. This is distinct from sequential preset−/+ inside the looper.
+- A momentary stomp action operates while pressed andreturns toits prior state onrelease. Latching retains its toggled state. Module names/MULTIPLE labels andLED colors retain the earlier qualifications.
+
+For the collection’s count field,the [identified importer’s current exact-model page](https://shop.warwick.de/en/effect-pedals-multi-effects-processorsmelofty-axom-max-hybrid-audio-processor) explicitly reports **nine footswitches,each with its own mini-display**. Thus nine is an **importer-backed count**,not wholly unknown;primary confirmation ofthe physical census andLCD/OLED technology remains pending. The separate pedal readout mustnot be silently included inthat nine. Prior source statements remain preserved above. Partial profile,outside active counts;no local download ordevice operation.
