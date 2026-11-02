@@ -696,3 +696,5 @@ Gen2 [regional footprint follow-up](brand/EVENTIDE.md#h9-gen-2--regional-body-di
 ### Original Eventide H9 Standard — partial no-treadle discovery
 
 [Distinct Standard lead](brand/EVENTIDE.md#h9-standard--partial-no-treadle-discovery), outside active counts. Shared original manual explicitly covers Standard and documents global OSW independently of preset enable, separately from calibration. Swell is inactive in bypass andwet-only inPre/Post orWet/Dry;numeric endpoints,held-position recall,phones/tail/loop coverage andcontroller wiring remain unknown. Footprint andqualified exactShopee offer unresolved;do not inherit Max/Gen2 prices orspecifications.
+
+FM3 MKII Turbo [shared-jack restriction](brand/FRACTAL-AUDIO.md#fm3-mkii-turbo--shared-jack-expression-and-switch-exclusion):expression mode disables the ring-switch source;separate toe contacts require a separate supported connection. Actual M-VAVE wiring andglobal-volume range/recall remain unverified.

@@ -211,6 +211,14 @@ Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; origina
 | Practical features | Looper,tuner,programmable tap/hold footswitches,eight layouts; FASLINK II supports up to two FC6/FC12 controllers. [June2023 Blocks Guide pp50–51](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf) explicitly names FM3: **stereo looper,120s maximum**; speed/quality basis and firmware13 equivalence unverified. Undo/redo,reverse,one-shot,threshold recording,beat quantization and loop-end crossfade documented. Playback/Dry/Overdub levels are separate; playback filters do not affect recording. Drum machine remains unresolved. [Product](https://www.fractalaudio.com/fm3/) |
 | Bass capability | Manufacturer explicitly describes guitar/bass processing; shared bass model, not equal low-end performance certification. [Product](https://www.fractalaudio.com/fm3/) |
 
+### FM3 MKII Turbo — shared-jack expression and switch exclusion
+
+Checked **2026-11-03**, [manufacturer FM3 firmware7.x manual](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf), printedpp14,104;cover explicitly includes MKII Turbo. Each local PEDAL jack selects **EXPRESSION PEDAL,1 SWITCH (TIP),or2 SWITCHES (TIP+RING)**. The ring switch source is disabled in expression mode. One switch connects tip-to-sleeve;two use separate tip/sleeve andring/sleeve contacts.
+
+Consequently,the documented modes do **not** support simultaneous expression plus a separate toe contact through one shared TRS socket. A separate pedal/toe assembly would need independent connections andsuitable assignment;the second local jack can serve switches while the first serves expression. This is a connection-path inference,not certification of an actual M-VAVE assembly,cable orswitch polarity. No guarantee of simultaneous external toe with two analog pedals.
+
+Expression remains linear10–100kΩ with calibration separate from global assignment. This resolves the shared-jack restriction,not specific toe hardware compatibility,current firmware13 equivalence,numeric volume endpoints orheld-position recall. Remote PDF screenshot calls yielded no inspectable panel image;no new visual control census claimed. No downloads ordevice operation.
+
 ### FM3 — block choice and instance table
 
 Checked2026-10-31 against [own manual,p46](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf),expressly including MKII Turbo. **Types/instances**,not channels or summed simultaneous capacity. CPU limits still apply; firmware13 census pending. Every row of that inventory is retained:

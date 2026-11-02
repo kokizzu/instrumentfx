@@ -142223,5 +142223,19 @@
     ],
     "next": "Continue requested individual-screen processors;defer unchanged inaccessible manuals andoffers;preserve independent GP-200JR -> Prime -> GE300 cursor",
     "no_device_operation": true
+  },
+  "fm3_mkii_sharedjack_20261103": {
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-mkii-turbo--shared-jack-expression-and-switch-exclusion",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+    "revision": "7.x covers MKII Turbo;printed14/104",
+    "finding": "One EXP or1/2switches perjack;ring disabled inEXPmode;separate toe connection required,not certified specific hardware",
+    "remaining": [
+      "Actual M-VAVE wiring",
+      "Separate toe assembly compatibility",
+      "Current13equivalence",
+      "Global volume endpoints/recall"
+    ],
+    "visual": "Screenshot returned no inspectable image;no visual census",
+    "next": "Continue individual-display processors;defer unchanged Shopee caches;independent GP-200JR -> Prime -> GE300 retained"
   }
 }
