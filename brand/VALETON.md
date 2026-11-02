@@ -1618,7 +1618,7 @@ Guitar/bass/acoustic multi-effects; checked **2026-10-16**. Separate from GP-200
 | Screen | **4.3-inch color TFT LCD, 480×272**. Explicit touchscreen specification unverified. [JR-P, JR-M p.3] |
 | Dimensions / weight | **281 W ×166 D ×57 H mm; 1.55 kg**; medium footprint. [JR-M p.75] |
 | Processing | Eleven movable category modules: PRE, WAH, DST, AMP, NR, CAB, EQ, MOD, DLY, RVB, VOL. DSP overload remains possible; not eleven unrestricted duplicate blocks. [JR-P, JR-M pp.9–10] |
-| Choices per category | Product advertises 240+ effects with overlapping 140+ amp/cab and 100+ stomp figures. Complete current per-category totals remain unverified. Appendix separately shows five AMP and five DST SnapTone locations and twenty user IR slots; these are import locations, not factory algorithm counts. [JR-P, JR-M appendix] |
+| Choices per category | **Firmware1.8.0 manual: PRE31 andWAH6 named choices**,complete sections pp24–30;PRE corrects the earlier27 count that omitted p29. Hammy appears inboth categories;these are selector entries,not unique-algorithm totals. Product advertises 240+ effects with overlapping 140+ amp/cab and 100+ stomp figures. Other per-category totals remain unverified. Appendix separately shows five AMP and five DST SnapTone locations and twenty user IR slots; these are import locations, not factory algorithm counts. [JR-P, JR-M appendix] |
 | Memory | **255 editable slots, first 99 factory-filled, 156 remaining**. Manual p.5 agrees on 255/99 but also says reset “100”; p.19 retains incompatible 01-A–25-D reset wording. Do not substitute LT's 256/100 layout. [JR-P, JR-M pp.5,12,19,75] |
 | Synth / acoustic | PRE has AC Sim with four modes; acoustic preamps and acoustic/body CAB choices are separate. Step Filter offers synth-like timbres; dedicated synthesizer architecture not established. [JR-M pp.27,50–54] |
 | IR / capture | Twenty user WAV IR locations, 1024-sample processing; appendix says 44 kHz while recording specification says 44.1 kHz. Import conversion/bit-depth rules unresolved. Firmware 1.8.0 documents NAM-format import into AMP/DST via SnapTone; the regional notice specifies **NAM A2 conversion through desktop software 1.8.1+**, not unrestricted native NAM. Architecture support and concurrent capture limits unresolved. [JR-M pp.37,51,55,69; JR-N] |
@@ -1642,6 +1642,7 @@ Checked **2026-10-16**, public indexed/page-text evidence, not authenticated che
 | Retail ask, condition unverified | Rp4.980.000 | [RD Music, 3086066/25864478892](https://shopee.co.id/VALETON-GP200JR-GP-200JR-efek-digital-multi-effect-gitar-bass-i.3086066.25864478892), Tangerang Selatan. Cached 7 October delivery; bundle/voucher/warranty and current stock unconfirmed |
 | Conditional retail ask | Rp4.970.000 | [Dave Komputer, 2655003/50205711474](https://shopee.co.id/Valeton-GP-200JR-GP200JR-GP-200-JR-Compact-Multi-Effects-Guitar-Processor-i.2655003.50205711474), Jakarta Utara. Explicit **Dengan Voucher**; eligibility and final checkout unknown. Separate late-delivery compensation is not a hardware discount |
 | Sold-out historical retail ask | Rp4.490.000 | [Chemonk_Shop, 75661562/28568871205](https://shopee.co.id/Valeton-GP-200-JR-GP200JR-GP-200-JR-GP-200JR-Multi-Effect-Processor-i.75661562.28568871205), Jakarta Selatan, **Habis**. Not an active lower price bound |
+| Additional indexed hardware ask,checked2026-11-03 | Rp4.980.000 | [Imagination Music Store,shop19576516/item23947937909](https://shopee.co.id/Valeton-GP-200-JR-GP200JR-GP-200-JR-GP-200JR-Multi-Effects-Processor-i.19576516.23947937909),KotaJakartaPusat. Search one-month/direct five-month snapshots agree on ask;relative same-day/next-day delivery andlate compensation differ anddo not establish live stock. Condition,working state,firmware,variation,bundle,adapter,warranty,shipping/tax andcheckout unknown. No voucher deducted. |
 | Condition-verified used / new | ? / ? | No exact used hardware offer with verified condition located; no condition-confirmed new checkout. Retail observations above remain separate |
 
 ### GP-200JR — sources, contradictions and remaining tasks
@@ -1652,7 +1653,21 @@ Checked **2026-10-16**, public indexed/page-text evidence, not authenticated che
 
 Remaining: authoritative corrections for the manual errors, full category subtotals, toe-switch count, touchscreen/battery/USB-power statements, IR conversion rules, supported NAM architectures/concurrency, scene behavior and condition/stock-qualified IDR. This is a useful partial record, not full verification.
 
+### GP-200JR — corrected complete PRE and WAH census
+
+Checked **2026-11-03** in the previously saved [manufacturer firmware1.8.0 manual](https://www.valeton.net/download/121/gp-200jr/22452/gp-200jr_online-manual_en_firmware-v1-8-0-pdf.pdf),printedpp24–30. No new download or PDF-image inspection. The earlier pp24–28 PRE census below omitted the continuation on p29;its27 is superseded by **31**.
+
+| Field | Complete section result / qualification |
+|---|---|
+| Categories / PRE31 | **3 compressors +7 boosts +5 overdrives +2 acoustic +3 filters +6 pitch +5 special =31**. The first27 names remain recorded below. Page29 adds **Saturate,Auto Swell,Hold,Freeze**;Ring Mod plus these four makes five Special entries. |
+| Categories / WAH6 | **V-Wah,C-Wah,P-Wah,S-Wah,B-Wah,Hammy**,pp29–30. Five Wah choices plus one Pitch choice;Hammy also appears in PRE andis not another unique algorithm merely because it occupies a different category. DST starts later on p30 andis excluded from this count. |
+| Processing / Hold versus Freeze | Hold loops a short segment from before activation;Freeze sustains the sound at activation. Activate can be assigned to EXP; with Activate enabled,CTRL can instead toggle the module. These do not establish another general looper,polyphonic synthesizer orwhole-rig scene count. |
+
+Remaining DST,AMP,NR,CAB,EQ,MOD,DLY,RVB,VOL counts must come from their own complete sections;no definitive total is inferred from the marketing240+ headline orby summing duplicated category entries. Existing copied-model errors andNAM/IR qualifications remain.
+
 ### GP-200JR — PRE census and EXP scope, 2026-10-28
+
+**Historical incomplete census:** the27-entry PRE count below omitted p29;the corrected complete count is31 above. EXP findings retain their separate scope.
 
 Read the complete printed pp24–28 PRE section and pp8,10,15–16 in the previously saved [manufacturer firmware1.8.0 manual](https://www.valeton.net/download/121/gp-200jr/22452/gp-200jr_online-manual_en_firmware-v1-8-0-pdf.pdf). Its current redirect to res.valeton.net was inaccessible in the browser; no new download or visual inspection.
 

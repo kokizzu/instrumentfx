@@ -126477,7 +126477,13 @@
         },
         "next": "MOOER GE300 follow-up; independent expression audit and GT-Pro cursor preserved"
       }
-    ]
+    ],
+    "current_task": {
+      "model": "Valeton GP-200JR",
+      "next": "Complete DST printedpp30–37,thenAMP/NR/CAB/EQ/MOD/DLY/RVB/VOL from saved1.8.0 manual",
+      "completed": "Corrected PRE31;WAH6;earlierPRE27 finding preserved as incomplete history",
+      "priority_qualification": "Requested separate-footdisplay processors still first when new accessible evidence is available;source-blocked items deferred"
+    }
   },
   "expression_volume_audit": {
     "status": "partial",
@@ -139173,6 +139179,54 @@
     "usb": "ComputerMIX0–200% entersfinalOUTPUT/SUBstage;EFXOUT/DRY/TOEFXdistinct;DIRMONnotstored,poweronON",
     "conflict": "SUBOUTDIRMONtextmentionsPHONES;ownermanualspecifiesOUTPUT-onlyphones",
     "qualification": "Notcurrent2.02certification,dedicatedsynthproof,unlimitedconcurrency orglobalFVcoverageguarantee",
+    "inventory_change": false
+  },
+  "gp200jr_corrected_pre_wah_20261103": {
+    "model": "Valeton GP-200JR",
+    "source": "https://www.valeton.net/download/121/gp-200jr/22452/gp-200jr_online-manual_en_firmware-v1-8-0-pdf.pdf",
+    "access": "Previouslysavedoriginal1.8.0 extraction;no newdownload",
+    "printed_pages": [
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "pre": {
+      "corrected_total": 31,
+      "previous_incomplete_total": 27,
+      "omitted": [
+        "Saturate",
+        "Auto Swell",
+        "Hold",
+        "Freeze"
+      ],
+      "special_total": 5
+    },
+    "wah": {
+      "total": 6,
+      "names": [
+        "V-Wah",
+        "C-Wah",
+        "P-Wah",
+        "S-Wah",
+        "B-Wah",
+        "Hammy"
+      ]
+    },
+    "qualification": "Hammy repeated inPRE/WAH;category selectors notunique-algorithm orsimultaneous counts. Earlier source retained with explicit supersession.",
+    "offer": {
+      "shop": "19576516",
+      "item": "23947937909",
+      "seller": "Imagination Music Store",
+      "ask_idr": 4980000,
+      "search": "one-month snapshot",
+      "direct": "five-month snapshot",
+      "condition": "unknown",
+      "stock": "unverified"
+    },
     "inventory_change": false
   }
 }
