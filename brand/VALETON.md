@@ -1629,6 +1629,7 @@ Guitar/bass/acoustic multi-effects; checked **2026-10-16**. Separate from GP-200
 | IR / capture | Twenty user WAV IR locations, 1024-sample processing; appendix says 44 kHz while recording specification says 44.1 kHz. Import conversion/bit-depth rules unresolved. Firmware 1.8.0 documents NAM-format import into AMP/DST via SnapTone; the regional notice specifies **NAM A2 conversion through desktop software 1.8.1+**, not unrestricted native NAM. Architecture support and concurrent capture limits unresolved. [JR-M pp.37,51,55,69; JR-N] |
 | Power | **9 V DC, 1000 mA, center-negative** supply. Battery operation and USB bus power not established. USB audio does not prove power support. [JR-M pp.1,4,75] |
 | Editors | Windows/macOS GP-200 desktop editor for tone/patch/IR/firmware management. iOS/Android are documented USB-audio hosts, not established full-editor platforms; Linux editor unverified. [JR-P, JR-M p.20] |
+| Editor / Windows11 qualification | Manufacturer GP-series [driver/updater advisory](https://www.valeton.net/win11-technical-notice/):recognition may fail with automatically installedMIDI driver;genericUSB Audio Device remedy documented,not performed. NoJR-specific firmware/build matrix. DesktopSetup1.8.1 isnot JRfirmware1.8.1;[scope below](#gp-200jr--windows-11-family-advisory-and-editor-version-boundary). |
 
 ### GP-200JR — I/O, routing and practical features
 
@@ -1763,6 +1764,14 @@ Checked 2026-11-03 against the [exact Chinese manufacturer page](https://zh.vale
 Its connector inventory explicitly calls the6.35mm stereo pair **unbalanced** and the XLR pair **balanced**, corroborating the inspected JR panel rather than the English page’s conflicting TRS wording. The Chinese page also claims an **independent headphone-volume knob**. This conflicts with the previously inspected JR panel/control inventory;do not add another rotary or assume separate analog headphone gain from that sentence alone. Manufacturer correction remains needed.
 
 The255-slot/99-factory/156-user figures corroborate the existing JR allocation, not LT’s layout. Old manual-copy conflicts, touchscreen/battery/USB-power questions and NAM architecture/concurrency limits remain unresolved. No local document/software download or hardware operation.
+### GP-200JR — Windows 11 family advisory and editor-version boundary
+
+Checked **2026-11-03**. Valeton's [Windows11 technical notice](https://www.valeton.net/win11-technical-notice/) describes **GP-series firmware-update recognition failures**,attributed to incompatibility between the automatically installed MIDI driver andthe updater. The published remedy selects the generic USB Audio Device driver manually. This is manufacturer troubleshooting guidance,not a change performed here,a universal failure onWindows11,orproof ofreliable operation on every host.
+
+The notice doesnot provide a JR-specific firmware/Windows-build matrix orcertify preservation ofASIO/DAW behavior afterthe driver change. Record it as a **family-level qualification relevant to checking GP-200JR compatibility**,not an exact-JR tested defect orfix. No driver,device,firmware orcomputer setting was changed;no third-party automated fix was downloaded orrun.
+
+The separate [GP-200 Setup1.8.1 Windows listing](https://www.valeton.net/wpfd_file/gp-200-setup-v1-8-1-for-windows-zip/) names a computer-software release;its metadata readsCreated/Updated **10-08-2026**,151.81MB. Listing metadata isnot verified package size orinstalled-version proof. Together with the retained regional notice explicitly namingJR forNAM A2 conversion throughdesktop1.8.1+,this establishes the software-version distinction. It doesnot promote the JR's inspected **firmware1.8.0** manual tofirmware1.8.1/1.8.2 ortransfer full-sizeGP-200 firmware fixes toJR. OS/architecture minima andexact currentJR firmware/USB behavior remain unresolved. No package retrieved.
+
 
 ## GP-200LT
 

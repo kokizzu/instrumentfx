@@ -142119,5 +142119,21 @@
     "instrument_evidence": "Ownregionalguitar/bass-to-synth description;notuniversalpolyphony",
     "active": false,
     "next": "Defer unresolvedglobalgainrange/recall/output/manualconflict/Shopee;return independent GP-200JR -> Prime -> GE300 cursor andLCDpriority without repeating unchanged failed sources"
+  },
+  "gp200jr_windows_family_scope_20261103": {
+    "canonical": "brand/VALETON.md#gp-200jr--windows-11-family-advisory-and-editor-version-boundary",
+    "sources": [
+      "https://www.valeton.net/win11-technical-notice/",
+      "https://www.valeton.net/wpfd_file/gp-200-setup-v1-8-1-for-windows-zip/"
+    ],
+    "finding": "GPseries Win11 recognition/updater driver advisory;notexactJRtestedfix;Setup1.8.1 computerapp separatefromJRfirmware1.8.0",
+    "remaining": [
+      "JR-specific Windowsbuild/driver matrix",
+      "ASIO/DAW consequences",
+      "current exactJRfirmware changes",
+      "other retainedprofile gaps"
+    ],
+    "no_download_or_system_change": true,
+    "next": "HeadRush Prime thenMOOERGE300 independentgeneralcursor;individualLCDpriority retained;defer unreadableGP50manual"
   }
 }
