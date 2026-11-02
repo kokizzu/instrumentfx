@@ -1618,7 +1618,7 @@ Guitar/bass/acoustic multi-effects; checked **2026-10-16**. Separate from GP-200
 | Screen | **4.3-inch color TFT LCD, 480×272**. Explicit touchscreen specification unverified. [JR-P, JR-M p.3] |
 | Dimensions / weight | **281 W ×166 D ×57 H mm; 1.55 kg**; medium footprint. [JR-M p.75] |
 | Processing | Eleven movable category modules: PRE, WAH, DST, AMP, NR, CAB, EQ, MOD, DLY, RVB, VOL. DSP overload remains possible; not eleven unrestricted duplicate blocks. [JR-P, JR-M pp.9–10] |
-| Choices per category | **Firmware1.8.0 manual: PRE31 andWAH6 named choices**,complete sections pp24–30;PRE corrects the earlier27 count that omitted p29. Hammy appears inboth categories;these are selector entries,not unique-algorithm totals. Product advertises 240+ effects with overlapping 140+ amp/cab and 100+ stomp figures. Other per-category totals remain unverified. Appendix separately shows five AMP and five DST SnapTone locations and twenty user IR slots; these are import locations, not factory algorithm counts. [JR-P, JR-M appendix] |
+| Choices per category | **Firmware1.8.0 manual: PRE31,WAH6,DST38 named stock choices**,complete named sections pp24–37;five DST SnapTone import slots are separate. PRE corrects the earlier27 count that omitted p29. Hammy appears inboth categories;these are selector entries,not unique-algorithm totals. Product advertises 240+ effects with overlapping 140+ amp/cab and 100+ stomp figures. Other per-category totals remain unverified. Appendix separately shows five AMP and five DST SnapTone locations and twenty user IR slots; these are import locations, not factory algorithm counts. [JR-P, JR-M appendix] |
 | Memory | **255 editable slots, first 99 factory-filled, 156 remaining**. Manual p.5 agrees on 255/99 but also says reset “100”; p.19 retains incompatible 01-A–25-D reset wording. Do not substitute LT's 256/100 layout. [JR-P, JR-M pp.5,12,19,75] |
 | Synth / acoustic | PRE has AC Sim with four modes; acoustic preamps and acoustic/body CAB choices are separate. Step Filter offers synth-like timbres; dedicated synthesizer architecture not established. [JR-M pp.27,50–54] |
 | IR / capture | Twenty user WAV IR locations, 1024-sample processing; appendix says 44 kHz while recording specification says 44.1 kHz. Import conversion/bit-depth rules unresolved. Firmware 1.8.0 documents NAM-format import into AMP/DST via SnapTone; the regional notice specifies **NAM A2 conversion through desktop software 1.8.1+**, not unrestricted native NAM. Architecture support and concurrent capture limits unresolved. [JR-M pp.37,51,55,69; JR-N] |
@@ -1664,6 +1664,21 @@ Checked **2026-11-03** in the previously saved [manufacturer firmware1.8.0 manua
 | Processing / Hold versus Freeze | Hold loops a short segment from before activation;Freeze sustains the sound at activation. Activate can be assigned to EXP; with Activate enabled,CTRL can instead toggle the module. These do not establish another general looper,polyphonic synthesizer orwhole-rig scene count. |
 
 Remaining DST,AMP,NR,CAB,EQ,MOD,DLY,RVB,VOL counts must come from their own complete sections;no definitive total is inferred from the marketing240+ headline orby summing duplicated category entries. Existing copied-model errors andNAM/IR qualifications remain.
+
+### GP-200JR — complete DST named-choice census
+
+Checked **2026-11-03** in the previously saved [manufacturer firmware1.8.0 manual,printedpp30–37](https://www.valeton.net/download/121/gp-200jr/22452/gp-200jr_online-manual_en_firmware-v1-8-0-pdf.pdf). All named rows in DST were inspected;line-wrapped names are normalized below. This completes the DST gap left in the preceding checkpoint.
+
+| Manual type | Named stock entries | Complete names |
+|---|---:|---|
+| OD |16|Green OD; OD 9; Yellow OD; Penesas; Swarm; Super OD; Scream OD; Blues OD; Force; Tube; Blues Master; Master OD; TaiChi OD; Timmy OD; Precise OD; Empire OD|
+| Fuzz |3|Lazaro; Red Haze; Sora Fuzz|
+| Distortion |8|Plustortion; SM Dist; Darktale; Chief; Master Dist; La Charger; Revolt; Flagman Dist|
+| Bass Drive |2|Flex OD; Bass OD|
+| Bass Preamp |2|Black Bass; Bass Hammer|
+| Boost |7|Micro Boost; AC Boost; B-Boost; P-Boost; 14 Boost; FAT BB; Boost|
+
+**16+3+8+2+2+7=38 named stock choices.** Printedp37 separately lists **SnapTone1–5** for imported files;five storage locations are not five additional stock algorithms orproof of native NAM execution. Earlier regional desktop-conversion requirements remain qualified. PRE/DST reuse some names,so summing section totals doesnot establish a unique library total. These are alternatives in the DST module,not38 simultaneous blocks. AMP andthe other remaining sections are still open. No new download,software run,visual inspection orhardware test.
 
 ### GP-200JR — PRE census and EXP scope, 2026-10-28
 

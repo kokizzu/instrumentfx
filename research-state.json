@@ -126480,8 +126480,8 @@
     ],
     "current_task": {
       "model": "Valeton GP-200JR",
-      "next": "Complete DST printedpp30–37,thenAMP/NR/CAB/EQ/MOD/DLY/RVB/VOL from saved1.8.0 manual",
-      "completed": "Corrected PRE31;WAH6;earlierPRE27 finding preserved as incomplete history",
+      "next": "Complete AMP printedpp38–51,thenNR/CAB/EQ/MOD/DLY/RVB/VOL from saved1.8.0 manual",
+      "completed": "Corrected PRE31;WAH6;DST38stock plus5separateSnapToneimports",
       "priority_qualification": "Requested separate-footdisplay processors still first when new accessible evidence is available;source-blocked items deferred"
     }
   },
@@ -139227,6 +139227,77 @@
       "condition": "unknown",
       "stock": "unverified"
     },
+    "inventory_change": false
+  },
+  "gp200jr_dst_census_20261103": {
+    "model": "Valeton GP-200JR",
+    "source": "https://www.valeton.net/download/121/gp-200jr/22452/gp-200jr_online-manual_en_firmware-v1-8-0-pdf.pdf",
+    "access": "Previously savedoriginal1.8.0 extraction;no newdownload",
+    "printed_pages": [
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ],
+    "stock_named_total": 38,
+    "groups": {
+      "OD": [
+        "Green OD",
+        "OD 9",
+        "Yellow OD",
+        "Penesas",
+        "Swarm",
+        "Super OD",
+        "Scream OD",
+        "Blues OD",
+        "Force",
+        "Tube",
+        "Blues Master",
+        "Master OD",
+        "TaiChi OD",
+        "Timmy OD",
+        "Precise OD",
+        "Empire OD"
+      ],
+      "Fuzz": [
+        "Lazaro",
+        "Red Haze",
+        "Sora Fuzz"
+      ],
+      "Distortion": [
+        "Plustortion",
+        "SM Dist",
+        "Darktale",
+        "Chief",
+        "Master Dist",
+        "La Charger",
+        "Revolt",
+        "Flagman Dist"
+      ],
+      "Bass Drive": [
+        "Flex OD",
+        "Bass OD"
+      ],
+      "Bass Preamp": [
+        "Black Bass",
+        "Bass Hammer"
+      ],
+      "Boost": [
+        "Micro Boost",
+        "AC Boost",
+        "B-Boost",
+        "P-Boost",
+        "14 Boost",
+        "FAT BB",
+        "Boost"
+      ]
+    },
+    "snaptone_import_slots": 5,
+    "qualification": "Linewrappedtitlesnormalized;namedselectors notsimultaneousblocks oruniquelibrarytotal. SnapToneslots excluded fromstockcount;no nativeNAMclaim.",
     "inventory_change": false
   }
 }
