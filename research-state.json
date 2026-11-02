@@ -143213,5 +143213,16 @@
       "Power label still unresolved"
     ],
     "no_device_operation": true
+  },
+  "mini_singlefs_address_20261103": {
+    "model": "Hotone Ampero Mini MP-50",
+    "source": "https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf",
+    "finding": "SingleFS disables FS3TAP,leaves FS4;DualFS exposes both,EXP disables other menuoptions. Logical address not electricalpinout.",
+    "remaining": [
+      "Global-volume override",
+      "Volume recall/range/bypass/phones/tails/loops",
+      "M-VAVE wiring compatibility"
+    ],
+    "status": "Manufacturer documentation;no hardware test"
   }
 }
