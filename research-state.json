@@ -126480,7 +126480,7 @@
     ],
     "current_task": {
       "model": "MOOER GE300",
-      "next": "Resume requested separate-footdisplay Shopee Indonesia hardware discovery; retain GE300 current installed census,IR/NAMsubvariants,memory,power/display and qualified offers as unresolved.",
+      "next": "Continue systematic no-built-in-treadle inventory and exact Shopee discovery; prefer requested separate-footdisplay processors when new accessible evidence appears. NEURIG direct-globalvolume scope andnumericendpoints unresolved.",
       "completed": "GP-200JR1.8 category census;Prime routing/website corrections;GE300 original named COMP/WAH/FXA-FXB/DSOD/AMP/CAB/NS/EQ/DELAY/REVERB tables checked and saved,withfirmwaredeltas qualified",
       "priority_qualification": "Requested separate-footdisplay processors still first when new accessible evidence is available;source-blocked items deferred",
       "gp200jr_remaining": [
@@ -141123,5 +141123,33 @@
     "ns_scope": "Three original choices;later FXA NoiseReducer separate. Attack/Release opening/closing terminology ambiguous.",
     "eq_scope": "Eight original choices;MooerB guitar label and sixbands versus five frequencies preserved",
     "qualification": "Original named tables completed for these categories;current installed count andotherfields remain unresolved;no inventory membership change"
+  },
+  "neurig_midi_volume_boundary_20261103": {
+    "source": "https://zoomcorp.com/manuals/neurig-en/",
+    "manual": "Z2I-5931-01",
+    "chart": "2026-09-03 v1.00",
+    "recognized_cc": [
+      0,
+      32,
+      69
+    ],
+    "other_cc": "explicitly do not work in this revision",
+    "cc69": "0–3selectProgram1–4;MIDIINorUSB;PCReceiveOnandRXmatch",
+    "rig_address": {
+      "bank_mode": "bank*10+PC",
+      "direct": "bank*128+PC",
+      "rigs": 200
+    },
+    "expression": {
+      "scope": "Rig",
+      "min": "heel full up",
+      "max": "toe full down",
+      "numeric_limits": "unverified",
+      "global_override": "unverified",
+      "coverage": "bypass/phones/tails/recordedloop unverified"
+    },
+    "qualification": "No CC7/11 globalvolume inferred;clockTHRU not internaltemposync;no device/softwaretest",
+    "shortlist_search": "Requested separatefootdisplay Shopee queries found existingoffers andreplacementLCD;no newverifiedstockorprice added",
+    "deferred": "Original Fender NAMannouncement inaccessible throughpress->Reddit->press chain;AXOMMAX primaryscreenclassificationstillunknown;continue other accessiblemissions"
   }
 }

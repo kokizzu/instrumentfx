@@ -5686,6 +5686,17 @@ Checked **2026-11-01**. [US manufacturer page](https://zoomcorp.com/en/us/multi-
 
 The product still marks **SessionZ Pedal andcloud capture forDecember2026**. Selected-retailer availability does not certify those future functions are installed orreleased. Current direct-EXP Rig scope,min/max numerical limits,recall andoutput coverage remain unresolved.
 
+### NEURIG — MIDI volume and Program-selection boundary
+
+Checked **2026-11-03** in the [manufacturer English manual](https://zoomcorp.com/manuals/neurig-en/),Z2I-5931-01,MIDI chart dated **2026-09-03,Version1.00**. Documentation only;no MIDI messages sent orsoftware installed.
+
+| Field | Evidence / qualification |
+|---|---|
+| MIDI / documented CC limits | Recognized **CC0/32 bank select andCC69 Program select**;chart explicitly says otherCCs do not work. Thus generic MIDI support doesnot establish CC7/11 globalvolume orarbitrary continuous effect control inthis documented revision. Later changes remain unverified. |
+| MIDI / Program versus Rig | CC69 values**0–3 selectPrograms1–4** within aRig,viaMIDI IN orUSB,requiringProgramChangeReceive On andmatchingRXchannel. Bank-mode PC uses**bank×10+PC**;Direct uses**bank×128+PC**,addressing200Rigs. Neither creates800 independentRig memories oranalog globalvolume. |
+| Expression / heel-toe meaning | TheRig-level volume setup defines **Min atfull-up heel andMax atfull-down toe**. AutoAssign cancontrol multiplePedal effects inoneRig. Numeric limits,held-position recall,globaloverride andbypass/phone/tail/recorded-loop attenuation remain unverified. |
+| MIDI / clock boundary | Chart doesnot support tempo synchronization;THRU distribution isnot internal clock-following. The documented externalFP02M analog path remains separate fromMIDI. |
+
 <!-- comparison evidence ends -->
 
 [NEU-P]: https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/neurig/
