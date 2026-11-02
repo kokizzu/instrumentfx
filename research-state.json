@@ -142955,5 +142955,37 @@
     ],
     "next": "Defer unavailablepanelrender;continue requested separate-display models;preserve GP-200JR -> HeadRush Prime -> MOOER GE300 independent sequence",
     "no_download_or_device_operation": true
+  },
+  "fm9_pitch_reference_20261103": {
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9--november-pitch-type-names-and-tracking-distinctions",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026,printed76–77",
+    "names": [
+      "Dual Detune",
+      "Dual Detune Delay",
+      "Quad Detune",
+      "Dual Chromatic",
+      "Quad Chromatic",
+      "Quad Chromatic Delay",
+      "Dual Diatonic",
+      "Quad Diatonic",
+      "Quad Diatonic Delay",
+      "Custom Shifter",
+      "Arpeggiator",
+      "Classic Whammy",
+      "Advanced Whammy",
+      "Octave Divider",
+      "Crystal Echoes",
+      "Virtual Capo"
+    ],
+    "qualification": "Referenceinventory16,notinstalledfirmwarecensus;Diatonicmonophonic,Chromaticmono/poly,VirtualCapopoly;stereovoicerouting separate",
+    "remaining": [
+      "Other exactcategory names/exceptions",
+      "Installedlibrary reconciliation",
+      "Global volume endpoints/recall/coverage",
+      "Qualified exactShopee stock"
+    ],
+    "next": "Continue requested individual displays;defer AXOMpanelrender;preserve GP-200JR -> HeadRush Prime -> MOOER GE300 independent sequence",
+    "no_download_or_device_operation": true
   }
 }

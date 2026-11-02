@@ -1149,6 +1149,25 @@ Checked **2026-11-01**: [manufacturer Cab-Lab 4 manual](https://www.fractalaudio
 
 The [current exact MKII store](https://shop.fractalaudio.com/products/fm9-mark-ii-turbo-amp-modeler-multi-fx-floor-unit) separately lists **1,024 user slots**; do not transfer FM3’s reduction. Existing onboard-capture and NAM qualifications remain. No download, conversion or hardware operation.
 
+### FM9 — November pitch-type names and tracking distinctions
+
+Checked **2026-11-03**,[manufacturer November2026 Blocks Guide,printedpp76–77](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). Shared chapter andFM9 comparison column support this **16-type reference inventory**,not a tested installed-firmware census or16 simultaneous blocks. VP4-specific renamed/unique types are not transferred.
+
+| Group | Named reference types |
+|---|---|
+| Detune3 | Dual Detune;Dual Detune Delay;Quad Detune |
+| Chromatic3 | Dual Chromatic;Quad Chromatic;Quad Chromatic Delay |
+| Diatonic3 | Dual Diatonic;Quad Diatonic;Quad Diatonic Delay |
+| Other7 | Custom Shifter;Arpeggiator;Classic Whammy;Advanced Whammy;Octave Divider;Crystal Echoes;Virtual Capo |
+
+| Field | Tracking / routing boundary |
+|---|---|
+| Processing / polyphony distinctions | Chromatic types support fixed mono/polyphonic shifting;Diatonic types use **monophonic intelligent tracking**. Virtual Capo ispolyphonic transposition;Octave Divider isintended forsingle notes. Multiple harmony voices do not themselves establish chord tracking. |
+| Routing / stereo voice assignment | Pitch normally sums inputs tomono. InSTEREO,Dual Detune/Chromatic feedleft→voice1,right→voice2;Quad Detune/Chromatic/Chromatic Delay feedleft→voices1+3,right→2+4. Stereo channel processing isdistinct from polyphonic note detection. |
+
+Earlier reference counts,CPU limits andrevision qualifications remain. No local download,device test orglobal-volume conclusion.
+
+
 ## FM9 original
 
 Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct from Turbo and MKII Turbo. Not fully verified; no ownership or live-stock assertion. The complete discovery body follows under its old anchor. Earlier outside-inventory statements are historical checkpoints, not the current admission status.
