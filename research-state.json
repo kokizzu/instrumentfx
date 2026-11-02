@@ -126545,20 +126545,20 @@
       "assignment": "preset-stored target and MIN/MAX; movable Volume0–99; no global override established",
       "power": "Exact RP360 FAQ: PS0913DC9VDC1.3A center-negative; adapter rating, not device draw",
       "remaining": [
-        "panel/no-treadle visual corroboration",
-        "full category census/revision conflicts",
-        "synth/acoustic and imports",
-        "current software/USB audio/power scope",
-        "qualified exact non-XP Shopee hardware offer",
-        "global override and bypass/headphone/looper attenuation"
+        "Current installed firmware equivalence beyond original manual census",
+        "Current USB stream/editor support and battery/USB operation",
+        "IR/NAM/import capabilities",
+        "Display diagonal/color/touch and visual corroboration",
+        "Qualified exact non-XP Shopee hardware offer",
+        "Global override,position recall and bypass/headphone/tail/loop/USB attenuation"
       ],
       "category_census": {
         "checked": "2026-11-03",
         "ledger": "rp360_effect_census_20261103",
-        "status": "85-choice original reconstruction;AMP/CAB andcurrentfirmwareunresolved",
+        "status": "Original85FX reconstruction and55AMP/27CAB selector census recorded;currentinstalledfirmwareequivalence unverified",
         "amp_cab": "Original55AMP/27CABselections includeDirect;52amps+2acsim+Direct,26cabs+Direct"
       },
-      "next": "Check RP360 current official Nexus/USB compatibility and remaining physical/import fields;exactnonXPShopeeoffer stillneeded. Keep requestedLCDnewsourcepriority.",
+      "next": "Defer unresolved RP360 market/current-host/coverage tasks; continue systematic no-treadle inventory and requested separate-footdisplay models when new sources are accessible.",
       "sampler_usb_checkpoint": "rp360_sampler_usb_scope_20261103"
     },
     "ngs6_lead": {
@@ -141402,5 +141402,44 @@
     "lcd": "contrastadjustment documented;numericrange/diagonal/color/touchunknown",
     "qualification": "Historical originalmanual;currenthost/device anduniversalEXPoutputcoverage untested;noinventoryadmission",
     "next": "Check RP360 current official Nexus/USB compatibility and remaining physical/import fields;exactnonXPShopeeoffer stillneeded. Keep requestedLCDnewsourcepriority."
+  },
+  "rp360_exact_product_specs_20261103": {
+    "source": "https://digitech.com/dp/rp360/",
+    "product_status": "past product;no longer in production",
+    "dimensions_in": {
+      "W": 8.5,
+      "L": 7.5,
+      "H": 2
+    },
+    "dimensions_mm": {
+      "W": 215.9,
+      "L": 190.5,
+      "H": 50.8
+    },
+    "unit_weight_lb": 2.84,
+    "converted_weight_kg": 1.2882023308,
+    "input": {
+      "ohm": 1000000,
+      "max_dbu": 10
+    },
+    "outputs": {
+      "balanced": false,
+      "ohm_per_side": 500,
+      "max_dbu": 8.5
+    },
+    "phones": {
+      "mw_per_channel": 118,
+      "test_load_ohm": 50,
+      "optimized_load_max_ohm": 60
+    },
+    "converters": "24bit ADC/DAC;44.1kHz",
+    "usb": "TypeB,USB1.1 FullSpeed12Mbps,USB2compatible;streamformat/channelcount/power notderived",
+    "editor_listings": {
+      "Mac": "Nexus1.0.1",
+      "Windows": "Nexus1.0.2",
+      "excluded": "macOS10.15Catalina",
+      "current_os_support": "unverified;noinstaller opened"
+    },
+    "qualification": "ExactnonXP;notXPspecs,bundlemeasurements orhardwaretest"
   }
 }

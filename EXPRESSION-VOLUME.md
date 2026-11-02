@@ -664,3 +664,5 @@ RP360 [85-choice reconstruction](brand/DIGITECH.md#rp360--original-85-choice-eff
 RP360 [AMP/CAB counting](brand/DIGITECH.md#rp360--ampcab-direct-option-counting): original 55/27 selections include Direct, while 54/26 exclude it. Two acoustic simulators disable cabinet selection. These library facts do not establish global expression volume or its output coverage.
 
 RP360 [sampler/USB scope](brand/DIGITECH.md#rp360--sampler-position-and-usb-control-scope): normal Looper follows the chain, while Sound Check precedes it. USB Record Level and playback mix are separate controls; universal EXP attenuation remains unverified. Looper and drums cannot run together.
+
+RP360 [exact physical/electrical specifications](brand/DIGITECH.md#rp360--exact-product-specifications-and-listed-editor-versions): 215.9W ×190.5L mm exceeds the preferred rectangle. Dedicated headphone power is now documented; this does not resolve expression attenuation or global assignment.

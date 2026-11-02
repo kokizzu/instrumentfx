@@ -1083,6 +1083,19 @@ Checked **2026-11-03** in the [original shared manual reproduction](https://manu
 
 Global analog-volume override, pedal-position recall and bypass/headphone/tail/USB coverage remain unresolved. Current host support and exact non-XP Shopee hardware also need evidence. Partial lead remains outside active counts.
 
+### RP360 — exact product specifications and listed editor versions
+
+Checked **2026-11-03** on the [manufacturer's non-XP product page](https://digitech.com/dp/rp360/). It labels RP360 a **past product, no longer in production**; that does not prove retailer availability. No linked installers opened or downloaded.
+
+| Field | Exact-model evidence / limit |
+|---|---|
+| Dimensions / mass | **8.5in W ×7.5in L ×2in H; unit weight 2.84lb**. Exact inch conversion: **215.9 W ×190.5 L ×50.8 H mm**; exceeds the preferred rectangle. Unit weight is approximately **1.288kg**, converted rather than measured. |
+| I/O / analog ratings | Input **1MΩ,+10dBu maximum**. L/R **unbalanced,500Ω per side,+8.5dBu maximum**. Dedicated stereo phones: **118mW per channel into50Ω**, optimized for headphones≤60Ω. These ratings do not establish pedal attenuation. |
+| USB / converters | **24-bit A/D/A,44.1kHz**; USB-B supports **USB1.1 Full Speed,12Mbps**, USB2-compatible. Converter resolution and bus bandwidth do not independently specify USB stream bit depth/channel count or bus-powered operation. |
+| Editor / listed packages | Exact RP360 page lists **Nexus1.0.1 for Mac OS X** and **1.0.2 for Windows**. It explicitly excludes macOS10.15 Catalina. Listing links is not an installation test or support certification for current Windows/macOS; Linux/mobile full editing remains unverified. |
+
+Original manual census and global-expression qualifications remain intact. Remaining tasks are current USB/editor support, import capabilities, display/visual corroboration, qualified non-XP hardware offers and expression output coverage. RP360 remains a partial lead outside active counts; defer inaccessible evidence while continuing other models.
+
 ### RP55 — exact controller and bypass follow-up
 
 Checked2026-10-19. [Own18-0838V-A manual, printed pp2,4,10,20](https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP55-Manual-18-0838V-A.pdf): Control In accepts passive mono volume orTS expression;TRS unsupported. No resistance value established;RP360/RP150 values are not transferred. Volume operates only withWah andWhammy disabled. Up/Down switches increment/decrement presets;both together bypass,then either restores last preset. Bypass provides clean unprocessed tone,but text doesnot establish pedal attenuation there. Position,min/max,headphone attenuation andtails/looper coverage remain unknown. SharedTRS audio output supports phones;its stereo wiring is separate fromTS Control In. Cabinet modeling being global doesnot make volume unconditional. Existingmanual/product dimension conflict retained;no hardware test,stock refresh ordownloads.
