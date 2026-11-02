@@ -142987,5 +142987,20 @@
     ],
     "next": "Continue requested individual displays;defer AXOMpanelrender;preserve GP-200JR -> HeadRush Prime -> MOOER GE300 independent sequence",
     "no_download_or_device_operation": true
+  },
+  "hx_effects_historical_transfer_midi_20261103": {
+    "canonical": "brand/LINE6.md#hx-effects",
+    "source": "https://line6.com/support/page/kb/effects-controllers/helix/helixhx-370371-release-notes-r1052/",
+    "revision": "KnownIssues3.70/3.71",
+    "ir": "Afterfactoryreset,128plus inonebatch canfail-8207;workaroundunder128perbatch;notstorageceiling",
+    "looper": "1Switchplaying:firstCC62PlayOnceignored,secondworks",
+    "qualification": "Familyrelease noteswithHXEffects applicability;notcurrent3.80 defect ordevicetest;hardware3.71notHXEditversion",
+    "remaining": [
+      "Conflicting simultaneousIRlimits",
+      "Globalanalogvolume scope",
+      "Qualified exactShopee stock"
+    ],
+    "next": "Defer unresolvedIRcapacity;continue requested separate-display models andpreserve GP-200JR -> HeadRush Prime -> MOOER GE300 sequence",
+    "no_download_or_device_operation": true
   }
 }
