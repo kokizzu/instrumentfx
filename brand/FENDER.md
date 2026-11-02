@@ -522,3 +522,11 @@ Checked **2026-11-03** in [manufacturer release history](https://support.fender.
 The1.7.53 heading associates **CC69/70 with Previous/Next Song**,butits explicit bullets assign **CC69=Next,CC70=Previous**,both values64–127. Preserve this internal direction conflict rather than recommend an unqualified mapping. Neither message is documented here as previous/next individual preset. No MIDI messages sent orhardware tested.
 
 The1.7.69 Mac DAW setup separately identifies **Control** and **DAW Mode** USB MIDI ports;the published StudioPro8 transport integration doesnot certify arbitrary DAW protocols ornew physical DIN sockets. Current complete MIDI implementation andglobal analog-volume scope remain unresolved. No local download orsoftware operation.
+
+### Tone Master Pro — linked-switch exclusivity and parameter-value defaults
+
+Checked **2026-11-03** in [Fender’s original release history](https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates), **1.2.56, February15,2024**. **Switch Link** supports groups A–D with up to eight footswitches assigned to a group; activating one turns off other active switches in that group. Grouped actions are mutually exclusive, not eight simultaneous functions. The notes do not establish how later16-assignment paging extends this limit.
+
+The same release adds a current-value readout to Parameter Change assignment editing and defaults active/inactive values to the current parameter value rather than minimum/maximum. This is an assignment-editing default, not live pedal-position recall, a global expression range or a guaranteed audible change before values are edited. It also permits up to **five custom MIDI PC/CC messages on preset selection**; these are outbound preset messages, not five analog expression assignments.
+
+These historical capabilities do not change the ten physical LCDs, establish current installed firmware, or resolve global-volume output coverage. No download,software launch,editing or MIDI transmission performed.

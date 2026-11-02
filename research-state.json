@@ -142208,5 +142208,20 @@
     ],
     "next": "Defer missing Standard market/body facts;continue individual-foot-display priority and independent GP-200JR -> Prime -> GE300 cursor",
     "downloads": false
+  },
+  "fender_switchlink_defaults_20261103": {
+    "canonical": "brand/FENDER.md#tone-master-pro--linked-switch-exclusivity-and-parameter-value-defaults",
+    "source": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+    "revision": "1.2.56 February15,2024",
+    "finding": "SwitchLink A-D groups up to8 switches mutuallyexclusive;ParameterChange active/inactive defaults current notminmax;5outboundpresetPC/CC separate",
+    "remaining": [
+      "Later16assignment paging group-limit applicability",
+      "Current full GuideH census",
+      "IR import limits",
+      "Global analog-volume coverage",
+      "Qualified current exact hardware stock"
+    ],
+    "next": "Continue requested individual-screen processors;defer unchanged inaccessible manuals andoffers;preserve independent GP-200JR -> Prime -> GE300 cursor",
+    "no_device_operation": true
   }
 }
