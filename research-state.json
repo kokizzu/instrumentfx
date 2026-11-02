@@ -139094,5 +139094,26 @@
     "expression": "1.4 fixes Global position recall;not global assignment",
     "qualification": "Manual footer1.4.1 and earlier app/plugin labels retained as separate versioned observations;installed seller firmware unknown.",
     "inventory_change": false
+  },
+  "prime_control_modes_20261103": {
+    "model": "HeadRush Prime",
+    "source": "https://support.headrushfx.com/en/support/solutions/articles/69000834532-headrush-prime-frequently-asked-questions",
+    "expression": {
+      "classic": "One target per A/B bank;previous target bypassed on toe switch",
+      "advanced": "Up to4 targets per bank;previous targets left active atmaximum",
+      "external": "C/D;onlyC accessible withouttoe switch",
+      "toe": "Momentary/latching configurable"
+    },
+    "footswitch": "Assignments independent ofblockrouting;Rig/Stomp/Hybrid views;oneortwoscenes perswitch",
+    "timing": "Hands-free-edit dual-purpose switch toggles block onrelease;not a numerical preset-audio-latency measurement",
+    "manual_access": "5.2PDFexceeds reader limit;FAQ provides independent primary evidence",
+    "inventory_change": false,
+    "remaining": [
+      "Current category census",
+      "User storage ceiling",
+      "IR restrictions",
+      "Auxiliary display specifications",
+      "Condition-qualified stock"
+    ]
   }
 }
