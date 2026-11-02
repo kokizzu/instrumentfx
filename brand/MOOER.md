@@ -1576,6 +1576,21 @@ Checked **2026-11-03** in the previously saved [original manufacturer manual,pri
 The [current exact-model downloads index](https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html) separately lists **MS_For_GE3005.1.4 Win/Mac** and **MOOER_USBAudio5.70.0 Setup**. Editor/firmware bundle labeling andUSB-driver version are distinct;neither certifies OS/architecture minima orinstalled versions. Its uniformAugust4,2026 file timestamps arenot proven release dates for every older package. Nothing downloaded orinstalled. Current category census,NAM subvariant limits,USB MIDI,qualified stock andother retainedunknowns remain open.
 
 
+### GE300 — USB monitor routing, electrical limits and overload behavior
+
+Checked **2026-11-03** in complete printedpp6–7,66–67,95–96 ofthe previously saved [original GE300 manufacturer manual](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf). Original2019/V1.1.0 examples;current5.1.4 equivalence not assumed. No download,software launch ordevice test.
+
+| Field | Original-revision evidence / qualification |
+|---|---|
+| Processing / overload response | Home-screen explanation says **at100% CPU,the last module enabled is automatically turned off**. The15category buttons therefore do not guarantee every desired combination remains active. No current-firmware threshold ormeasured performance inferred. |
+| USB / recording sources | NORMAL mode independently selects **DIRECT (dry input) orEFFECT (DSP)** for left/right recording channels. REC VOL controls recording send;PLAY VOL controls computer playback;Direct/Playback mixes playback with local DSP monitoring. These are two recording channels,not additional physical inputs orproof of global EXP attenuation. |
+| USB / reamp routing | RE-AMP routes computer playback throughDSP andback tothecomputer;PLAY VOL sets thecomputer send into processing,REC VOL theprocessed return. The illustrated128-sample buffer,5.40ms input and4.49ms output latency are a configuration example,not guaranteed round-trip latency. |
+| I/O / input limits | Instrument input impedance **1MΩ Guitar /10kΩ Line**,maximum+12dBu. Return **1MΩ,+12dBu**. AUX **100kΩ,+12dBu**. These are published electrical ratings,not measurementsof aunit orEXP resistance. |
+| I/O / output limits | Quarter-inch mains **470Ω,+12dBu**;XLR **300Ω,+18dBu**;Send **100Ω,+12dBu**. Dedicated stereo phones table lists **16Ω,+12dBu** under Impedance/Maximum Output Level;it doesnot explicitly call16Ω a minimum headphone load orprovide amplifier wattage. |
+| I/O / AUX source conflict | Rear descriptionp6 calls3.5mm AUX **stereo**;specificationp95 instead callsit **mono**. Existing stereo description retains its source,butthis internal conflict remains unresolved. Do not infer a summed orsingle-channel implementation from either alone. |
+
+The [current manufacturer product table](https://www.mooeraudio.com/product/GE300-223.html) corroborates the listed main/XLR/send/phone ratings;its historical software/library copy isnot current firmware certification. Global orpreset expression assignment,output attenuation,USB MIDI,drums,factory occupancy,current source-file import rules andqualified live hardware stock remain separate open questions.
+
 ## GE300 Lite
 
 Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no sibling specifications adopted. [Own product page](https://www.mooeraudio.com/product/GE300Lite-239.html). Bass/vocal suitability remains unclassified.

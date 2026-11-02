@@ -142255,5 +142255,25 @@
       "Qualified current hardware stock"
     ],
     "next": "Continue separate-foot-display priority;independent general queue next MOOERGE300 afterPrime;blocked exact offers deferred"
+  },
+  "ge300_usb_electrical_overload_20261103": {
+    "canonical": "brand/MOOER.md#ge300--usb-monitor-routing-electrical-limits-and-overload-behavior",
+    "sources": [
+      "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf",
+      "https://www.mooeraudio.com/product/GE300-223.html"
+    ],
+    "revision": "Original2019/V1.1.0 examples;pp6–7,66–67,95–96",
+    "finding": "100percentCPUdisableslastenabledmodule;independentL/Rdry/effectedUSBrecordsources;REC/PLAY/mix distinct;published electricalratings",
+    "conflict": "AUXstereop6vsmonop95",
+    "phones": "16ohm listedimpedance notcertifiedminimumload orwattage",
+    "remaining": [
+      "Current5.1.4equivalence",
+      "USBMIDI",
+      "Currentcensus/factoryoccupancy/importformats",
+      "Globalvolume/outputcoverage",
+      "Qualifiedcurrentstock"
+    ],
+    "next": "General GP-200JR -> Prime -> GE300 checkpoint advanced;return separate-foot-display priority andfresh exactShopee discovery;defer unchanged blocked sources",
+    "no_download_or_device_operation": true
   }
 }
