@@ -142036,5 +142036,30 @@
     "qualification": "Dengan Voucher;Rp1.5m spend/1percent;selected display_model_id247632045362 label unknown;direct failed;indexed notlive stock;condition/bundle/warranty/shipping unknown",
     "status": "additional exact-hardware partial offer;no analogEXP change;prior sold-out offer preserved",
     "next": "Continue remaining exact hardware and no-treadle inventory;defer inaccessible manufacturer-only measurements;preserve separate-LCD priority and GP-200JR -> Prime -> GE300 cursor"
+  },
+  "h9_gen2_discovery_20261103": {
+    "canonical": "brand/EVENTIDE.md#h9-harmonizer-gen-2--partial-no-treadle-discovery",
+    "active": false,
+    "fully_verified": false,
+    "manual_revision": "1.2.2 HTML",
+    "global_assignment": "Direct EXP;Global Pedal Control acrosspresets with In Gain/Out Gain;not calibration",
+    "sources": [
+      "https://cdn.eventideaudio.com/manuals/h9/1.2.2/en/content/hardware.html",
+      "https://cdn.eventideaudio.com/manuals/h9/1.2.2/en/content/system-menu/global.html",
+      "https://cdn.eventideaudio.com/manuals/h9/1.2.2/en/content/appendix/global.html",
+      "https://cdn.eventideaudio.com/manuals/h9/1.2.2/en/content/appendix/specifications.html",
+      "https://www.eventideaudio.com/pedals/h9-harmonizer-gen-2/"
+    ],
+    "remaining": [
+      "gain endpoints/minmax",
+      "held-position recall",
+      "bypass/drybranch/tail/recordedloop coverage",
+      "dimension axis/conversion conflicts",
+      "category census",
+      "full memory and software limits",
+      "exact Shopee hardware"
+    ],
+    "next": "Continue exact Gen2 follow-up before other models;partial outside inventory. Retain independent GP-200JR -> Prime -> GE300 queue and separate-LCD priority.",
+    "downloads": false
   }
 }

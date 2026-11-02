@@ -686,3 +686,7 @@ IR-200 [original memory andcategory census](brand/BOSS.md#ir-200--original-facto
 ### Line 6 POD HD Desktop — partial no-treadle discovery
 
 [Exact desktop profile](brand/LINE6.md#pod-hd-desktop--partial-no-treadle-discovery),outside active counts. Complete handbook connector inventory provides FBV controller connectivity butno direct analog EXP socket;FBV-mediated control fails the direct-input requirement. Hand Master/headphone coverage and512editable locations do not establish global expression assignment. Chassis footprint andqualified exact Shopee hardware remain unknown;carton measurements are not unit dimensions.
+
+### Eventide H9 Harmonizer Gen 2 — partial no-treadle discovery
+
+[Exact-model profile](brand/EVENTIDE.md#h9-harmonizer-gen-2--partial-no-treadle-discovery),outside active counts. Manufacturer documents direct analog EXP and global In Gain/Out Gain targets across presets. Calibration is separate. Gain endpoints,held-position recall,bypass/dry-branch/tail/recorded-loop coverage remain unknown. No dedicated phones socket;one switch scrolls both directions with hold-to-reverse andseparate load confirmation. Conflicting dimension axes/conversions prevent unqualified preferred-fit approval. Shared main screen does not replace the individual-foot-LCD priority. Qualified exact Shopee Gen2 hardware still unknown.

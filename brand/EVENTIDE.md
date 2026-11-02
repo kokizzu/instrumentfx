@@ -3,10 +3,44 @@
 <!-- brand-index begins -->
 **Model and section index — A–Z, natural numeric order**
 
+- [H9 Harmonizer Gen 2 — partial no-treadle discovery](#h9-harmonizer-gen-2--partial-no-treadle-discovery)
 - [H9 Max](#h9-max)
 - [H90](#h90)
 - [Incoming capability evidence, 2026-10-18](#incoming-capability-evidence-2026-10-18)
 <!-- brand-index ends -->
+
+## H9 Harmonizer Gen 2 — partial no-treadle discovery
+
+Checked **2026-11-03** against the exact-model manufacturer HTML manual at revision path **1.2.2** and product/support pages. Distinct from original H9/Core/Max and H90. **Partial lead outside active counts**, pending complete profile and market review; no software, firmware or manual downloaded and no device operated.
+
+| Field | Exact-model evidence / qualification |
+|---|---|
+| Expression / normal guitar | Instrument-level inputs; no built-in treadle in own panel inventory. Dedicated TRS EXP accepts10–25kΩ pedals; separate CTL accepts1–3 momentary normally-open aux switches. CV0–5V tip-signal support is not a complete potentiometer pinout or M-VAVE compatibility proof. External toe assignment unknown. [Hardware][H9G2-H] |
+| Controls | Text-derived **4 rotaries** (Big Knob +3Quick Knobs), **2 footswitches**, four named mode buttons plus left/right LED buttons. Encoder presses are not extra rotaries; final separate-button census/panel corroboration pending. [Hardware][H9G2-H], [cheat sheet][H9G2-C] |
+| Display | **2.5-inch shared display**; not a separate LCD above each footswitch. Pixel count, technology, color and touch remain unverified in inspected primary text. [Product][H9G2-P] |
+| Global volume assignment | **GLOBAL mapping documented:** Global Pedal Control works regardless of loaded preset, and its target chart includes In Gain and Out Gain. This establishes global gain-target assignment, separately from calibration; not complete final-output volume qualification. No preset-by-preset mapping is required for that documented system mapping. [Global][H9G2-G], [mapping chart][H9G2-M] |
+| Position / endpoints / coverage | Physical position recall, minimum/maximum gain and independent range editing unknown. DSP bypass permits tails; Relay directly connects inputs/outputs and disables tails. Gain action during DSP/Relay bypass, dry branches, previous tails and recorded-loop playback remains unverified. Do not copy original H9 Swell behavior. [Global][H9G2-G] |
+| Headphones / I/O | No dedicated phones socket in complete hardware inventory; shared-output headphone operation unverified. Two TS inputs,two TS outputs,EXP,CTL,USB-C,MIDI DIN In/Out-Thru,DC. USB control/MIDI documented; audio-interface function unverified. [Hardware][H9G2-H] |
+| Onboard preset down / up | **Both directions via one scroll switch**, not a dedicated pair: right footswitch cues presets; hold it changes direction; left confirms load. Bank mode holds scroll banks and presses load either preset. [Select Mode][H9G2-S] |
+| Processing / memory | Product advertises74+ algorithms and1,000+ included presets; not74 simultaneous slots or writable capacity. Manual defines a preset as one algorithm plus settings; lists hold up to99presets,editable User versus protected Factory. Total User-list/library capacity and initial filling unverified. [Product][H9G2-P], [Terminology][H9G2-T] |
+| Synth / acoustic / imports | Synth and multi-effect algorithms documented; exact category census,polyphony and acoustic conversion pending. Native/converted NAM,IR loading and proprietary capture support unknown. Existing H9 preset compatibility is separate from these audio-model formats. [Product][H9G2-P] |
+| Dimensions / mass | Own specification table literally gives **5.25H×5W×2.7Din versus144H×125W×67Dmm;0.6kg**. Axes and imperial/metric disagreement remain unresolved; product lists same imperial triplet without axes. **Preferred200W×140D fit unverified**, no original-H9 measurements substituted. [Tech Specs][H9G2-A], [Product][H9G2-P] |
+| Power / conversion | Center-positive5.5/2.5mm; published300mA at12V or400mA at9V; supplied12V1A adapter rating is separate. Battery/USB-powered operation unknown. Internal48kHz,24-bit AD/DA,32-bit floating DSP; stated3.4ms latency is manufacturer specification,not measured USB roundtrip. [Tech Specs][H9G2-A], [Hardware][H9G2-H] |
+| Editor / platforms | Eventide Control2.2.3 Windows/macOS listings require H9Gen2 firmware1.1.2+,or1.2.2+ forBluetooth. Exact OS/architecture limits pending. Bluetooth chapter distinguishes Mac/iPad editor from iOS MIDI control;requiresiPadOS15+,macOS11+,BLE4.2+forControl. Updates require computerUSB,notBluetooth/iPad. Product's Bluetooth coming-soon text is older than this documented support. [Downloads][H9G2-D], [Bluetooth][H9G2-B] |
+| Looper / drums | Own Looper chapter lists stereo maxima60s at2×,120s at1×,240s at½×,480s at¼×,with reduced-speed quality tradeoffs. Its tempo note names H90 despite this being Gen2 documentation; applicability details remain qualified. Power/preset loop retention,drums and scene equivalents unknown. [Looper][H9G2-L] |
+| IDR used / new | Both unknown. Exact Shopee Indonesia Gen2 queries did not yield a qualified seller/item offer; this is not market-absence proof. Do not reuse original H9/H90 prices or convert foreign prices. Stock,condition,variant,bundle,warranty,region,voucher,shipping/tax unknown. |
+
+[H9G2-P]: https://www.eventideaudio.com/pedals/h9-harmonizer-gen-2/
+[H9G2-H]: https://cdn.eventideaudio.com/manuals/h9/1.2.2/en/content/hardware.html
+[H9G2-C]: https://downloads.eventideaudio.com/manuals/H9%20Gen%202/H9%20Harmonizer%20Gen%202%20Cheat%20Sheet.pdf
+[H9G2-G]: https://cdn.eventideaudio.com/manuals/h9/1.2.2/en/content/system-menu/global.html
+[H9G2-M]: https://cdn.eventideaudio.com/manuals/h9/1.2.2/en/content/appendix/global.html
+[H9G2-A]: https://cdn.eventideaudio.com/manuals/h9/1.2.2/en/content/appendix/specifications.html
+[H9G2-S]: https://cdn.eventideaudio.com/manuals/h9/1.2.2/en/content/play-modes/select.html
+[H9G2-T]: https://cdn.eventideaudio.com/manuals/h9/1.2.2/en/content/terminology.html
+[H9G2-D]: https://www.eventideaudio.com/downloads/?product=H9+Harmonizer%C2%AE+Gen+2
+[H9G2-B]: https://cdn.eventideaudio.com/manuals/h9/1.2.2/en/content/system-menu/bluetooth.html
+[H9G2-L]: https://cdn.eventideaudio.com/manuals/h9/1.2.2/en/content/algorithms/looper.html
 
 ## H9 Max
 
