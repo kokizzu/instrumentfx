@@ -18,7 +18,7 @@ Preserved from origin/main87c7d38. References to older inventory counts or incom
 
 ### Nano Cortex — incoming capability supplement
 
-**Expression-volume capability supplement, checked 2026-10-18 against the official NanOS 2.2.0 HTML manual.** Nano Cortex already exists in the catalogue: this is not a new inventory item. Its earlier full technical record remains in [advanced modelers](../effects/advanced-modelers.md); no legacy content is deleted or represented as fully consolidated.
+**Expression-volume capability supplement, checked 2026-10-18 against the official NanOS 2.2.0 HTML manual.** Nano Cortex already exists in the catalogue: this is not a new inventory item. Its earlier full technical record remains in [advanced modelers](../MULTI-EFFECTS.md)<!-- historical-link:neural-dsp-002 -->; no legacy content is deleted or represented as fully consolidated.
 
 | Capability field | Verified finding / explicit uncertainty |
 |---|---|

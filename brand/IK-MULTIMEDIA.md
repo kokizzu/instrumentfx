@@ -16,7 +16,7 @@ Root brand records with individual observation dates. Both recorded TONEX ONE an
 Preserved from origin/main87c7d38. References to older inventory counts or incomplete consolidation describe that branch checkpoint; current root profiles and ledger take precedence. Technical conflicts remain qualified.
 
 
-[Expression-volume comparison](../EXPRESSION-VOLUME.md) · [Existing complete research](../effects/advanced-modelers.md)
+[Expression-volume comparison](../EXPRESSION-VOLUME.md) · [Existing complete research](../MULTI-EFFECTS.md)<!-- historical-link:ik-multimedia-003 -->
 
 ### TONEX Pedal — incoming capability supplement
 

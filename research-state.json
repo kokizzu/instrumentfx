@@ -46058,6 +46058,13 @@
             "after": "](MULTI-EFFECTS.md)<!-- historical-link:ik-multimedia-002 -->",
             "original_target": "effects/advanced-modelers.md",
             "destination": "MULTI-EFFECTS.md"
+          },
+          {
+            "id": "ik-multimedia-003",
+            "before": "](effects/advanced-modelers.md)",
+            "after": "](MULTI-EFFECTS.md)<!-- historical-link:ik-multimedia-003 -->",
+            "original_target": "effects/advanced-modelers.md",
+            "destination": "MULTI-EFFECTS.md"
           }
         ],
         "original_sha256": "e705468aa1a3137eba4b818d6699e66b23951783a2f958ced93f910388b547fe",
@@ -46213,6 +46220,13 @@
             "id": "neural-dsp-001",
             "before": "](effects/advanced-modelers.md)",
             "after": "](MULTI-EFFECTS.md)<!-- historical-link:neural-dsp-001 -->",
+            "original_target": "effects/advanced-modelers.md",
+            "destination": "MULTI-EFFECTS.md"
+          },
+          {
+            "id": "neural-dsp-002",
+            "before": "](effects/advanced-modelers.md)",
+            "after": "](MULTI-EFFECTS.md)<!-- historical-link:neural-dsp-002 -->",
             "original_target": "effects/advanced-modelers.md",
             "destination": "MULTI-EFFECTS.md"
           }
@@ -139012,5 +139026,20 @@
       }
     ],
     "qualification": "Exact hardware-title indexed asks;condition,working state,stock,variation,bundle,adapter,warranty andcheckout unknown. Not verified new/used range or completed sale;no voucher deducted."
+  },
+  "ik_canonical_link_repair_20261103": {
+    "path": "brand/IK-MULTIMEDIA.md",
+    "change": "Later unmarked legacy link now points to MULTI-EFFECTS.md with reversible historical token.",
+    "older_entries_preserved": true,
+    "technical_evidence_change": false,
+    "regression": "canonical-links-verify failed on remaining effects/ target before repair"
+  },
+  "canonical_link_followup_20261103": {
+    "paths": [
+      "brand/IK-MULTIMEDIA.md",
+      "brand/NEURAL-DSP.md"
+    ],
+    "change": "Two later legacy references migrated to MULTI-EFFECTS.md with reversible original tokens;older entries and technical text preserved.",
+    "scope": "Canonical navigation correction,not a model research completion"
   }
 }
