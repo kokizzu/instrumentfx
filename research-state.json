@@ -143643,5 +143643,18 @@
       "Englishp3 up to9 simultaneouseffects distinctfromfourmodulesplusamp/ZNR"
     ],
     "qualification": "No usable page image orhardware measurement;partial outsideactiveinventory;exactShopee identity stillmissing"
+  },
+  "gp200jr_usb_navigation_20261103": {
+    "model": "Valeton GP-200JR",
+    "source": "https://www.valeton.net/download/121/gp-200jr/22452/gp-200jr_online-manual_en_firmware-v1-8-0-pdf.pdf",
+    "source_pdf_sha256": "d88256366e659d2320844cb76762e7db03f6fc48dfefca57e9106e9e55769f80",
+    "basis": "Already-saved original firmware1.8.0 PDF/text,printedpp13–15;no newdownload orrender. Endpoint inaccessible.",
+    "findings": [
+      "DAWOutput3/4 reamp,Input3/4 processedreturn,Input5/6 loopback",
+      "Rec/USBmonitorlevel minus20to plus20dB",
+      "Initial bankchange immediate;defaultWait needs patchconfirmation"
+    ],
+    "remaining": "CompleteUSBmatrix,IR conversion andNAMarchitectures/currentfirmware remainunverified.",
+    "next_general_model": "HeadRush Prime;thenMOOERGE300;requestedindividualdisplaysretainpriority"
   }
 }
