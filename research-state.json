@@ -141877,5 +141877,27 @@
       "qualified hardware stock"
     ],
     "status": "partial outside active counts;no hardware operation or downloads"
+  },
+  "nano_usb_driver_scope_20261103": {
+    "canonical": "brand/NEURAL-DSP.md#nano-cortex--usb-routing-and-current-driver-listing",
+    "sources": [
+      "https://neuraldsp.com/getting-started/using-nano-cortex-as-an-audio-interface",
+      "https://neuraldsp.com/downloads",
+      "https://neuraldsp.com/manual/nano-cortex"
+    ],
+    "routing": {
+      "DAW_input1": "dry instrument",
+      "DAW_inputs3and4": "processed stereo",
+      "DAW_output3": "reamp input"
+    },
+    "Windows_installer": "5.74.0,2025-07-24;not NanOS firmware or full editor",
+    "plugin_compatibility": "Manufacturer says PCOM will not be implemented;computer-hosted plugins via interface distinct from native processing or NAM",
+    "remaining": [
+      "global volume assignment",
+      "held-position recall",
+      "phones/bypass/tails/USB attenuation",
+      "OS architecture certification"
+    ],
+    "status": "useful platform/routing finding;volume-source question deferred while other tasks continue"
   }
 }

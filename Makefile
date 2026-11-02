@@ -2312,3 +2312,7 @@ expression-audit-stage-mvave:
 .PHONY: expression-audit-stage-nux
 expression-audit-stage-nux:
 	python3 scripts/expression_audit_nux.py stage
+
+.PHONY: expression-audit-stage-neural
+expression-audit-stage-neural:
+	python3 scripts/expression_audit_neural.py stage
