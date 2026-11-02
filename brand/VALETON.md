@@ -27,6 +27,8 @@ Root-level brand records. Evidence retains model-specific dates below. All eight
 - [Rushead Max RH-100](#rushead-max-rh-100)
 <!-- brand-index ends -->
 
+Discovery routing checked2026-11-03: earlier “identity pending” leads for Dapper Bass VES-2,Dapper Mini MES-1 andDapper Acoustic Mini point tothe existing records below. Their exact Shopee shop/item pairs were already retained here;this resolves duplicate queue work,not pending model-code corroboration,physical revision,condition orstock. Historical lead status andoffers remain inresearch-state.json.
+
 ## Dapper Acoustic Mini
 
 Distinct acoustic-guitar multi-effects strip, separate from full-size Dapper Acoustic and other Minis. Checked 2026-10-17; partial. Exact model code remains unverified; no MES-4 identity inferred from third-party instructions.

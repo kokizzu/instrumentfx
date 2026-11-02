@@ -24273,8 +24273,11 @@
       "qualified_used_new": false,
       "status": "Unrecorded candidate;manufacturer verification required before inventory admission",
       "current_resolution": {
-        "status": "exact-name resolution pending",
-        "qualification": "No exact inventory-name match; this is not proof of absence or a new model. Preserve variant, revision and grouped-lead qualifications; inspect canonical records before admission."
+        "status": "existing partial canonical profile",
+        "model_key": "Valeton::Dapper Bass VES-2",
+        "canonical_record": "brand/VALETON.md#dapper-bass-ves-2",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model.",
+        "identity_source": "brand/VALETON.md#dapper-bass-ves-2"
       }
     },
     {
@@ -24319,8 +24322,11 @@
       "qualified_live_stock": false,
       "status": "Unrecorded candidate;verify exact model using manufacturer before inventory admission",
       "current_resolution": {
-        "status": "exact-name resolution pending",
-        "qualification": "No exact inventory-name match; this is not proof of absence or a new model. Preserve variant, revision and grouped-lead qualifications; inspect canonical records before admission."
+        "status": "existing partial canonical profile",
+        "model_key": "Valeton::Dapper Mini MES-1",
+        "canonical_record": "brand/VALETON.md#dapper-mini-mes-1",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model.",
+        "identity_source": "brand/VALETON.md#dapper-mini-mes-1"
       }
     },
     {
@@ -24341,8 +24347,11 @@
       "qualified_live_stock": false,
       "status": "Unrecorded candidate;verify exact model using manufacturer before inventory admission",
       "current_resolution": {
-        "status": "exact-name resolution pending",
-        "qualification": "No exact inventory-name match; this is not proof of absence or a new model. Preserve variant, revision and grouped-lead qualifications; inspect canonical records before admission."
+        "status": "existing partial canonical profile",
+        "model_key": "Valeton::Dapper Acoustic Mini",
+        "canonical_record": "brand/VALETON.md#dapper-acoustic-mini",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model.",
+        "identity_source": "brand/VALETON.md#dapper-acoustic-mini"
       }
     },
     {
@@ -143780,5 +143789,39 @@
     ],
     "remaining": "Powerlabel/stripdiagonal/color/currentfirmwarecount reconciliation/qualifiedIDRstock open.",
     "next": "ContinueLCD-first sources;retain generalGP200JR→Prime→GE300 sequence."
+  },
+  "dapper_queue_routing_20261103": {
+    "scope": "Queue routing only;no model admission,technical identity certification orprice refresh.",
+    "evidence": [
+      {
+        "lead": "Valeton Dapper Bass VES-2 identity pending",
+        "model_key": "Valeton::Dapper Bass VES-2",
+        "canonical_record": "brand/VALETON.md#dapper-bass-ves-2",
+        "offer": "https://shopee.co.id/Valeton-Dapper-Bass-Effect-Strip-i.16879370.284845770",
+        "basis": "Same exact shop/item already retained incanonical record;model-code/revision qualifications remain."
+      },
+      {
+        "lead": "Valeton Dapper Mini MES-1 identity pending",
+        "model_key": "Valeton::Dapper Mini MES-1",
+        "canonical_record": "brand/VALETON.md#dapper-mini-mes-1",
+        "offer": "https://shopee.co.id/Efek-Valeton-Dapper-Mini-Second-Hand-i.5640621.40571574068",
+        "basis": "Same exact shop/item already retained incanonical record;model-code/revision qualifications remain."
+      },
+      {
+        "lead": "Valeton Dapper Acoustic Mini code pending",
+        "model_key": "Valeton::Dapper Acoustic Mini",
+        "canonical_record": "brand/VALETON.md#dapper-acoustic-mini",
+        "offer": "https://shopee.co.id/Valeton-Dapper-Mini-Acoustic-Multi-Effect-Analog-Strip-Efek-Preamp-Reverb-Compressor-Gitar-Akustik-i.1051758555.23456048014",
+        "basis": "Same exact shop/item already retained incanonical record;model-code/revision qualifications remain."
+      }
+    ],
+    "preservation_audit": {
+      "target": "make consolidation-audit-body-differences",
+      "registered_complete_bodies": 82,
+      "mismatches": 0,
+      "other_entries_outside_scope": 92,
+      "scope": "Registered full-body archives only;not complete migration orcurrent-specification verification."
+    },
+    "next": "Continue unresolved LCD-first primarysources;skip completed Dapper admission work. General GP200JR→Prime→GE300 remains independent."
   }
 }

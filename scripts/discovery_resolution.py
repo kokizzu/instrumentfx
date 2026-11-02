@@ -9,7 +9,12 @@ from research_tools import identity, git, verify
 ROOT = Path(__file__).resolve().parents[1]
 PLAN = Path('/tmp/instrumentfx-discovery-resolution.json')
 ALIASES = {'Fractal Audio': ('Fractal',), 'TC-Helicon': ('TC-HELICON',)}
-MODEL_ALIASES = {'Sonicake Black Hammer': ('Sonicake::Black Hammer QCE-30', 'https://www.sonicake.com/products/black-hammer')}
+MODEL_ALIASES = {
+    'Sonicake Black Hammer': ('Sonicake::Black Hammer QCE-30', 'https://www.sonicake.com/products/black-hammer'),
+    'Valeton Dapper Bass VES-2 identity pending': ('Valeton::Dapper Bass VES-2', 'brand/VALETON.md#dapper-bass-ves-2'),
+    'Valeton Dapper Mini MES-1 identity pending': ('Valeton::Dapper Mini MES-1', 'brand/VALETON.md#dapper-mini-mes-1'),
+    'Valeton Dapper Acoustic Mini code pending': ('Valeton::Dapper Acoustic Mini', 'brand/VALETON.md#dapper-acoustic-mini'),
+}
 def digest(text):
     return hashlib.sha256(text.encode()).hexdigest()
 def reconcile(state):
@@ -51,6 +56,16 @@ def test():
     assert alias_out[1]['current_resolution']['status']=='exact-name resolution pending'
     alias_state['inventory_by_brand']={}
     assert reconcile(alias_state)[0]['current_resolution']['status']=='exact-name resolution pending'
+    # Explicit historical labels route only to the reviewed existing records.
+    for label, (key, source) in MODEL_ALIASES.items():
+        brand, model = key.split('::', 1)
+        sample = dict(inventory_by_brand={brand:[model]}, comparison_model_sources={key:{'link':source}}, discovery_leads=[{'model':label, 'status':'identity pending', 'idr':123}, {'model':label+' II'}])
+        original = copy.deepcopy(sample)
+        resolved = reconcile(sample)
+        assert sample == original
+        assert resolved[0]['current_resolution']['model_key'] == key
+        assert resolved[0]['status'] == 'identity pending' and resolved[0]['idr'] == 123
+        assert resolved[1]['current_resolution']['status'] == 'exact-name resolution pending'
     print('PASS: exact identity only; sibling/revision/grouped leads not guessed; historical observations unchanged.')
 
 def main(mode):
@@ -77,7 +92,7 @@ def main(mode):
         print('Applied reviewed discovery resolutions; historical fields and inventory unchanged.'); return
     assert mode in ('stage','commit')
     verify()
-    allowed={'scripts/discovery_resolution.py','Makefile','research-state.json','brand/SONICAKE.md','all-guitar.md','all-bass.md','all-vocal.md'}
+    allowed={'scripts/discovery_resolution.py','Makefile','research-state.json','brand/SONICAKE.md','brand/VALETON.md','all-guitar.md','all-bass.md','all-vocal.md'}
     changed=set(git('diff','--name-only').splitlines())|set(git('ls-files','--others','--exclude-standard').splitlines())
     staged=set(git('diff','--cached','--name-only').splitlines())
     assert (changed|staged)<=allowed
@@ -96,6 +111,6 @@ def main(mode):
     r=json.loads(review.read_text())
     assert r['head']==git('rev-parse','HEAD').strip() and r['sha256']==digest(git('diff','--cached'))
     assert not git('diff','--cached','--check').strip()
-    print(git('commit','-m','research(sonicake): resolve Black Hammer QCE-30 discovery identity'))
+    print(git('commit','-m','research(valeton): reconcile stale Dapper discovery routing'))
 if __name__=='__main__':
     main(sys.argv[1])
