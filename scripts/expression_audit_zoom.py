@@ -22,8 +22,11 @@ if __name__ == '__main__':
     assert not git('diff','--check').strip(), 'Whitespace errors'
     review_path = Path('/tmp/instrumentfx-zoom-staged-review.json')
     if sys.argv[1] == 'stage':
-        assert not staged, 'Existing staged changes'
-        assert changed, 'No changes to review'
+        if staged:
+            previous = json.loads(review_path.read_text())
+            assert previous['head'] == git('rev-parse','HEAD').strip(), 'HEAD changed since review'
+            assert previous['sha256'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest(), 'Unreviewed staged changes'
+        assert changed or staged, 'No changes to review'
         git('add','--',*sorted(changed))
         diff = git('diff','--cached')
         Path('/tmp/instrumentfx-zoom-staged.diff').write_text(diff)
@@ -46,5 +49,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): qualify exact MS-80IR Plus Shopee voucher offer'
+        message='research(zoom): qualify historical G11 Shopee voucher snapshot'
     print(git('commit','-m',message))

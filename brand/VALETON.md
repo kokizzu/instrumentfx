@@ -1772,7 +1772,6 @@ The notice doesnot provide a JR-specific firmware/Windows-build matrix orcertify
 
 The separate [GP-200 Setup1.8.1 Windows listing](https://www.valeton.net/wpfd_file/gp-200-setup-v1-8-1-for-windows-zip/) names a computer-software release;its metadata readsCreated/Updated **10-08-2026**,151.81MB. Listing metadata isnot verified package size orinstalled-version proof. Together with the retained regional notice explicitly namingJR forNAM A2 conversion throughdesktop1.8.1+,this establishes the software-version distinction. It doesnot promote the JR's inspected **firmware1.8.0** manual tofirmware1.8.1/1.8.2 ortransfer full-sizeGP-200 firmware fixes toJR. OS/architecture minima andexact currentJR firmware/USB behavior remain unresolved. No package retrieved.
 
-
 ## GP-200LT
 
 Guitar/bass/acoustic-instrument multi-effects; **medium** footprint; no built-in expression. This is GP-200LT, not GP-200, JR or a color variant.
