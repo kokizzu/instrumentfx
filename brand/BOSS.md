@@ -2892,6 +2892,17 @@ The [2021 owner manual,pp15–18](https://static.roland.com/assets/media/pdf/IR-
 
 Earlier factory/census unknowns above are dated research stages. Simultaneous-stage accounting,current installed filling,stereo-user-IR interpretation,full editor andglobal AMP LEVEL coverage remain open. This remains a partial lead outside active counts;no local download,software operation orhardware test.
 
+### IR-200 — cabinet-library arithmetic and routing alternatives
+
+Checked **2026-11-03** in the original [Sound List 02, ©2021, pp3–8](https://static.roland.com/assets/media/pdf/IR-200_SoundList_eng02_W.pdf), with the [current manufacturer product tables](https://www.boss.info/global/products/ir-200/) as corroboration. Text review only; no download or device operation.
+
+- **BOSS library: 144 combinations = 12 cabinet families ×6 mic/mix options ×2 distances.** Eight guitar families supply96 combinations; four bass families supply48. The mic/mix options comprise five individual microphones and one equal-volume two-microphone blend. These are stored IR choices, not144 independently modeled speaker families or simultaneous blocks.
+- **Celestion library: 10 source files**, including one stereo room/multi-mic file with separately listed left/right selections. Counting those channel rows yields11 selections, not11 independent source files. This distinguishes the published154-file library from a raw menu-row count. It does not resolve user stereo import/storage behavior.
+- **Source conflict:** one Celestion entry’s cabinet name begins412 while its speaker column and source filename indicate212. The current product table also says2×12. Preserve the label discrepancy; do not infer another cabinet.
+- **Routing alternatives:** p8 illustrates two cabinet-output modes ×four return modes ×two loop positions = **16 configurations**. They reuse cabinet A/B and EQ A/B; this is not16 simultaneous chains. Mono/stereo return and direct-mix choices remain distinct.
+
+Current installed content, user stereo-IR handling, final-output expression coverage and full profile admission remain unresolved. The partial lead remains outside active counts.
+
 ## KATANA:GO
 
 Checked2026-10-17;partial. Guitar/bass multi-effects;ownership unverified. Current product evidence below;BOSS says latest and earlier models have same sounds/features. Physical revision and seller “GO2” identity need corroboration.

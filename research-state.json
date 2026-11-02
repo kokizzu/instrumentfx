@@ -141748,5 +141748,42 @@
       "complete profile/admission"
     ],
     "status": "partial outside active counts; general research cursor preserved"
+  },
+  "ir200_cabinet_arithmetic_20261103": {
+    "canonical": "brand/BOSS.md#ir-200--cabinet-library-arithmetic-and-routing-alternatives",
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/IR-200_SoundList_eng02_W.pdf",
+      "https://www.boss.info/global/products/ir-200/"
+    ],
+    "boss_library": {
+      "families": 12,
+      "guitar": 8,
+      "bass": 4,
+      "mic_or_mix_options": 6,
+      "distances": 2,
+      "ir_choices": 144
+    },
+    "celestion": {
+      "source_files": 10,
+      "mono": 9,
+      "stereo": 1,
+      "channel_selections": 11,
+      "not_simultaneous_count": true
+    },
+    "routing": {
+      "cabinet_output_modes": 2,
+      "return_modes": 4,
+      "positions": 2,
+      "derived_configurations": 16,
+      "not_concurrent_chains": true
+    },
+    "conflict": "Celestion412 cabinet label versus212 speaker/source filename; current product table says2x12",
+    "remaining": [
+      "user stereo IR import/storage behavior",
+      "current installed content",
+      "final-output expression scope",
+      "full field-oriented profile admission"
+    ],
+    "status": "partial outside active counts"
   }
 }
