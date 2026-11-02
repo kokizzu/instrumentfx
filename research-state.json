@@ -141640,5 +141640,20 @@
     "result": "No electricalpinout/resistance/taper/continuousCC evidence;not manufacturer substitution",
     "official_recheck": "https://www.sincoaudio.com/product?id=chocolate-plus remains shell",
     "queue": "Move exact wiring mission to end of expression audit next list; continue other work"
+  },
+  "prime_legacy_rig_boundary_20261103": {
+    "canonical": "brand/HEADRUSH.md#prime--legacy-rig-compatibility-is-directional",
+    "sources": [
+      "https://support.headrushfx.com/en/support/solutions/articles/69000834915-headrush-prime-will-my-rig-backups-work-with-the-prime-",
+      "https://support.headrushfx.com/en/support/solutions/articles/69000848879-headrush-prime-and-core-where-are-all-the-preset-rigs-"
+    ],
+    "finding": "Legacy rigs import with possible footswitch remapping; Prime-created/edited-saved rigs cannot return even without new features. Original unedited files retain compatibility.",
+    "remaining": [
+      "firmware-current factory fill",
+      "numeric rig/storage ceilings",
+      "current qualified Shopee stock",
+      "auxiliary-display specifications"
+    ],
+    "status": "partial; independent general cursor unchanged"
   }
 }

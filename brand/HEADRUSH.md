@@ -497,6 +497,12 @@ Checked2026-11-03 against manufacturer support text; no files downloaded or devi
 
 These sources establish loading/dependency behavior,not resampling algorithms,user-file/rig ceilings orportable power. Existing accepted-format and10-second C-Verb limits retain their own sources/revisions. Exact currently stocked Shopee offers andauxiliary-screen specifications remain open.
 
+### Prime — legacy-rig compatibility is directional
+
+Checked2026-11-03 against [manufacturer backup compatibility guidance](https://support.headrushfx.com/en/support/solutions/articles/69000834915-headrush-prime-will-my-rig-backups-work-with-the-prime-). Prime accepts Pedalboard/Gigboard/MX5 rigs,setlists,IRs andblock presets,but importing Gigboard/MX5 rigs can remap footswitch assignments,usually toward the bottom three/four switches. **A rig created or edited andsaved on Prime cannot return to those older models,even without Prime-specific features**;unchanged older files retain their return compatibility. Preserve original files independently before editing;this is not a verified lossless round trip orfull-device backup. No transfer ordevice operation was performed.
+
+[Separate factory-rig explanation](https://support.headrushfx.com/en/support/solutions/articles/69000848879-headrush-prime-and-core-where-are-all-the-preset-rigs-) explicitly distinguishes Prime/Core’s50 supplied rigs from the older models’270-file bank. The older bank’s approximately4MB file size does not establish Prime storage capacity orcurrent5.2 factory fill. Existing50-rig observation andnumerical-capacity unknown remain unchanged.
+
 ## VX5
 
 <!-- comparison evidence begins -->
