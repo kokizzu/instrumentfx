@@ -2260,3 +2260,7 @@ brand-filename-commit:
 .PHONY: brand-filename-diff-check
 brand-filename-diff-check:
 	python3 scripts/brand_filename_migration.py diffcheck
+
+.PHONY: expression-audit-stage-headrush
+expression-audit-stage-headrush:
+	python3 scripts/expression_audit_headrush.py stage

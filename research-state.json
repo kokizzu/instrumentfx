@@ -138911,5 +138911,20 @@
     "brand_documents": 59,
     "instruction": "Shopee Indonesia exact hardware offers first;requested separate footswitch screens across LCD/OLED retain priority among available models",
     "historical_namespace": "Pinned metadata and canonical-link inverse tokens retain original spellings;live destinations use new paths"
+  },
+  "headrush_prime_shopee_gitaro_20261102": {
+    "checked": "2026-11-02",
+    "root": "brand/HEADRUSH.md#prime--separate-used--retail-idr-evidence",
+    "url": "https://shopee.co.id/Efek-Headrush-Prime-Guitar-Multi-Effect-Amp-Modelling-Processor-Head-Rush-Prime-i.1643318004.25497455618",
+    "seller": "GITARO STORE INDONESIA",
+    "shop_id": "1643318004",
+    "item_id": "25497455618",
+    "region": "Kota Jakarta Barat",
+    "asking_idr": 21399999,
+    "evidence": "Search anddirect-page text agree;three-month-old snapshots. Exact Prime hardware title;not Flex Prime/accessory.",
+    "condition": "unknown",
+    "stock": "unknown;no Habis marker exposed,not verified available",
+    "qualification": "Variation,bundle,workingstate,accessories,warranty,shipping/tax andcheckoutunknown. Relative next-daydelivery stale;late-delivery voucher notdeducted.",
+    "inventory_change": false
   }
 }
