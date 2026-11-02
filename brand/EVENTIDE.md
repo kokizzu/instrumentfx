@@ -67,6 +67,18 @@ The [own Parameters chapter](https://cdn.eventideaudio.com/manuals/h9/1.2.2/en/c
 
 **HotSwitch1/2** are parameter snapshots,with only one active at a time;they are not two simultaneous algorithms orindependent preset banks. Exact global gain endpoints,held-position recall andbypass/dry/tail/recorded-loop coverage remain unverified. Category census is resolved for this document revision;the lead remains outside active counts pending the remaining full-profile andmarket review.
 
+### H9 Gen 2 — power-supply recommendations and editor requirements
+
+Checked **2026-11-03** in the exact [Gen2 manufacturer FAQ](https://www.eventideaudio.com/faqs/?product=H9+Harmonizer%C2%AE+Gen+2),indexed original answer text;the direct page reader exposes only its shell. The FAQ recommends the supplied12V1A adapter,or **12V600mA /9V800mA,center-positive5.5/2.5mm**. It separately permits a single12V500mA PowerMax/PowerMini output. These recommendations are distinct from the manual's300mA-at12V/400mA-at9V table;do not turn the lower figures into a blanket minimum supply recommendation orclaim independent current measurement.
+
+The FAQ describes a converted wet/dry path during processing and hardwired relay bypass;its explanatory dry-path answer unexpectedly names H90. Preserve this copy/scope issue rather than treating every sentence as Gen2-specific proof. Neither description resolves global gain attenuation in bypass orof separate dry paths. Its launch-era Mac/Windows-only open-beta andH90-import-coming-soon answers are qualified by the later app/download evidence below.
+
+The current [manufacturer Eventide Control page](https://www.eventideaudio.com/software/eventide-control/) specifies **Windows10+ Intel**, **macOS10.14+ Intel/Apple Silicon**, and **iPadOS15+**. These are application requirements,not proof ofWindowsARM/Linux/Android compatibility. The separately documented **Bluetooth Mac minimum11** remains stricter than the general application's10.14 minimum. App parameter editing,pedal settings andUser-list import/export are documented;this is a full editor/manager,not merely an updater. Existing2.2.3 release notes andGen2 firmware1.2.2+Bluetooth requirement remain separate.
+
+[Own preset-save chapter](https://cdn.eventideaudio.com/manuals/h9/1.2.2/en/content/edit-modes/presets.html):99slots **per list**;Factory Lists cannot be overwritten. Library presets may exist outside lists,and auditioning auto-loads without replacing the current list location until saved. Thus1,000+ included presets doesnot establish1,000writable slots,99totalpresets orcomplete initial User-list occupancy. Total editable-library/list ceiling remains unknown.
+
+No download,installation,controller messages orhardware operation. Global gain endpoints/recall/output coverage,exact physical dimensions andqualifiedShopeeGen2hardware remain deferred;continue other missions independently.
+
 ## H9 Max
 
 Checked 2026-10-17; partial. Max is distinct from Standard/Core; ownership unverified.

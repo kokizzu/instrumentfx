@@ -142055,9 +142055,8 @@
       "held-position recall",
       "bypass/drybranch/tail/recordedloop coverage",
       "dimension axis/conversion conflicts",
-      "category census",
-      "full memory and software limits",
-      "exact Shopee hardware"
+      "exact Shopee hardware",
+      "total editable-library/User-list ceiling;device-specific host/architecture limits beyond published app requirements"
     ],
     "next": "Continue exact Gen2 follow-up before other models;partial outside inventory. Retain independent GP-200JR -> Prime -> GE300 queue and separate-LCD priority.",
     "downloads": false
@@ -142085,5 +142084,19 @@
     "qualification": "Preset General isnot SYSTEM Global;per-preset ranges notprovedglobal;2HotSwitch snapshots mutuallyexclusive",
     "active": false,
     "next": "Global gain range/recall/output coverage andcurrent qualifiedhardware;other missions continue independently"
+  },
+  "h9_gen2_power_platform_20261103": {
+    "canonical": "brand/EVENTIDE.md#h9-gen-2--power-supply-recommendations-and-editor-requirements",
+    "sources": [
+      "https://www.eventideaudio.com/faqs/?product=H9+Harmonizer%C2%AE+Gen+2",
+      "https://www.eventideaudio.com/software/eventide-control/",
+      "https://cdn.eventideaudio.com/manuals/h9/1.2.2/en/content/edit-modes/presets.html"
+    ],
+    "supply": "Recommended12V600mA/9V800mA;supplied12V1A;PowerMaxMini12V500mAexception;manual300/400figures separate",
+    "editor": "Win10+Intel;Mac10.14+Intel/AppleSilicon;iPadOS15+;BTMac11minimum separate",
+    "memory": "99perlist;protectedFactory;libraryoutside lists;editableceilingunknown",
+    "conflict": "FAQdrypath prose namesH90;FAQlaunchbeta/importpromises supersededbylaterappnotes",
+    "status": "Partial outside active inventory;no downloads",
+    "next": "Deferred gainrange/recall/output/dimensions/Shopee;continue other eligible research,with separateLCDpriority andGP-200JR -> Prime -> GE300 retained"
   }
 }
