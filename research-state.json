@@ -142179,5 +142179,18 @@
       "qualifiedhardwarestock"
     ],
     "next": "Continue requested individual-screen models and fresh exact Shopee hardware;blocked sources deferred;independent GP-200JR -> Prime -> GE300 retained"
+  },
+  "h9_original_maxout_20261103": {
+    "canonical": "brand/EVENTIDE.md#original-h9--current-maxout-entitlement-and-used-device-boundary",
+    "source": "https://www.eventideaudio.com/h9-maxout/",
+    "finding": "Registered Standard/Core may sync52algorithms;used units require registration eligibility;not proof installed content or concurrent blocks",
+    "remaining": [
+      "Exact Standard/Core full profiles",
+      "Qualified exact-model hardware offers",
+      "Used-device registration status",
+      "Existing volume range and coverage gaps"
+    ],
+    "no_download_or_transaction": true,
+    "next": "Defer inaccessible sources;continue individual-screen priority and independent GP-200JR -> Prime -> GE300 queue"
   }
 }

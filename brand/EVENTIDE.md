@@ -382,3 +382,9 @@ Checked 2026-11-03 in the [manufacturer H90 downloads/release notes](https://www
 - **H90 Control1.9.13** offers copy-or-swap playlist dragging and overwrite/last-copy warnings. The older manual’s unconditional drag-overwrite description therefore needs this app-version qualification.
 
 These notes do not resolve the historical global-volume range lead,current analog endpoints or bypass/tail/looper coverage. No current hardware-firmware release number inferred from the desktop app version.
+
+### Original H9 — current MaxOut entitlement and used-device boundary
+
+Checked **2026-11-03** against [Eventide’s current MaxOut instructions](https://www.eventideaudio.com/h9-maxout/). Registered **H9 Standard and H9 Core** owners can sync all **52 algorithms** through H9 Control. The page also accepts used units, subject to registration; a pedal still registered to its previous owner requires Eventide support and serial-photo evidence. No registration, contact, software download or synchronization was performed.
+
+This is an available upgrade procedure, **not proof a particular seller’s pedal already contains the full library**, and not 52 simultaneous blocks. Confirm registration eligibility and installed content separately when buying used. Existing H9 Max owners need no action according to the same page. Do not transfer this entitlement to H9 Gen 2, copy Max prices to Standard/Core, or assume a current app/service procedure proves identical hardware specifications. Original Standard/Core remain discovery leads outside active counts pending their own full profiles and qualified hardware offers. Global-volume endpoints, bypass restrictions and controller wiring are unchanged by this licensing finding.
