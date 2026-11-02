@@ -143732,5 +143732,18 @@
     ],
     "remaining": "Actualentrythreshold,all-presetanalogvolume andqualifiedused/liveShopeeoffers remainunverified.",
     "next": "Continue requestedindividualdisplay models;keep independentGP200JR→Prime→GE300 cursor."
+  },
+  "fm3_mkii_layout_editing_20261103": {
+    "model": "Fractal Audio FM3 MKII Turbo",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+    "basis": "Original7.x manual cover includesMKII;complete printedpp81,84;remote text,no downloads orhardware operation.",
+    "findings": [
+      "EZedit disables switchactions;exit page totest",
+      "Controller menu changes persistwithoutStore",
+      "Layout names tencharacters;notverified switchlabel limit",
+      "Independent startup layouts;systembackup includeslayouts andeditorseparatebackup"
+    ],
+    "remaining": "Firmware13 equivalence,currentexactrevisionShopeestock,globalvolume numericrange/recall remainunverified.",
+    "next": "Continue requestedindividualLCD models;preserve generalGP200JR→Prime→GE300 queue."
   }
 }
