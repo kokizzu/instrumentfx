@@ -142472,7 +142472,7 @@
       ],
       [
         "Delay",
-        "29/2"
+        "29 reference;27 FM3/2"
       ],
       [
         "Drive",
@@ -142617,6 +142617,63 @@
       "Other Nov2026 model-specific chapters"
     ],
     "next": "Continue newer Fractal guide exact-model routing/looper/cab evidence with separate-display priority;preserve independent GP-200JR -> Prime -> GE300 sequence",
+    "downloads": false
+  },
+  "fm3_nov2026_delay_cab_20261103": {
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3--november-guide-delay-exclusions-and-cabinet-limits",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026;printed19–20,31–32",
+    "delay": {
+      "reference_types": 29,
+      "excluded": [
+        "Diffused Delay",
+        "Zephyr"
+      ],
+      "derived_fm3_choices": 27,
+      "names": [
+        "Digital Mono",
+        "Digital Stereo",
+        "Analog Mono",
+        "Analog Stereo",
+        "Mono Tape",
+        "Stereo Tape",
+        "Ping-Pong",
+        "Dual Delay",
+        "Reverse Delay",
+        "Sweep Delay",
+        "Ducking Delay",
+        "Vintage Digital",
+        "2290 w/ Modulation",
+        "Ambient Stereo",
+        "Deluxe Mind Guy",
+        "Mono BBD",
+        "Stereo BBD",
+        "Lo-Fi Tape",
+        "Stereo Mind Guy",
+        "Graphite Copy Delay",
+        "Worn Tape",
+        "DM-Two Delay",
+        "Stereo Trem Delay",
+        "Wandering Delays",
+        "Pan Delay",
+        "Dual Head Tape",
+        "Surround Delay"
+      ],
+      "instances": 2,
+      "mono_max_seconds": 8
+    },
+    "cab": {
+      "cabs_per_block": 2,
+      "DynaCab_samples": 1024,
+      "FullRes": false
+    },
+    "qualification": "Processing limits not source-file length/import acceptance or user-slot capacity;current installed firmware/library not tested",
+    "remaining": [
+      "Other category-specific exceptions",
+      "Current volume endpoints/recall/coverage",
+      "Qualified hardware stock"
+    ],
+    "next": "Continue newer-guide exact-model routing andlooper checks;preserve separate-display priority andindependent GP-200JR -> Prime -> GE300 sequence",
     "downloads": false
   }
 }

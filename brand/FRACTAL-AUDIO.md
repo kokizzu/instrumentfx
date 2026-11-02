@@ -198,6 +198,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; origina
 | Preset / factory / user memory | **512 editable locations;8 scenes each**. Own7.x manual printedp41 specifies **first384 factory-filled**,all overwriteable;current shipping allocation/installed contents unverified. See [revision-qualified occupancy](#fm3--factory-occupancy-versus-editable-capacity). |
 | Synth / acoustic functions | **Synth yes:three-voice monophonic Synth block**,one instance/four channels in own7.x p46; resolves the earlier synth unknown. Acoustic instrument input documented;dedicated acoustic simulation remains unverified. Channels are stored variations,not four simultaneous synth blocks. [Own manual](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf) |
 | IR / NAM / captures | **1024 user cab IRs in7.x;512 from firmware12.0**,as qualified below. UltraRes/DynaCab; DynaCab introduced firmware7. **7.x manual p2 lists.ir/.syx/.wav and16 scratchpads; p118 specifies.syx transfer and distinguishes.IR as Cab-Lab remix format**. Preserve summary/workflow distinction; [Cab-Lab 4 conversion/export](#fm3-mkii-turbo--cab-lab-4-conversion-and-user-cab-storage) now documents mono deconvolved WAV at any source rate/bit depth and .ir import through FM3-Edit;these are software workflows,not universal direct-hardware formats. Length limits and firmware13 equivalence remain unresolved. Native NAM, converted NAM and user amp capture import unverified. [Product](https://www.fractalaudio.com/fm3/) |
+| Categories / exact FM3 exceptions | [November2026 detailed chapters](#fm3--november-guide-delay-exclusions-and-cabinet-limits) narrow29 shared Delay types to27 FM3 choices;Mono Delay8seconds. Two cabs perCab block,1024-sample DynaCabs;FullRes explicitly unsupported. Processing limits are separate from imported-file formats andstorage. |
 | IR / current DynaCab dependency | **FM3 firmware12.0+ → DynaCabs1.09**,explicit in the current own support table;therefore applies to listed13.0. Missing/incorrect DynaCab data can cause a startup warning. Recovery uses a separate DynaCab.syx through the editor’s Fractal-Bot;editor display can require Refresh After New Firmware. This is proprietary cabinet-data maintenance,not NAM/amp capture orproof of installed content. Older table rows have incomplete labels/reused links and are not generalized here. [Manufacturer support article](https://support.fractalaudio.com/en-US/how-to-resolve-dyna-cabs-not-installed-or-incorrect-version-286538),checked2026-10-31. |
 | Audio / control ports | Mono¼-inch unbalanced instrument in; balanced stereo¼-inch Input2/return; balanced XLR stereo Out1; unbalanced Humbuster¼-inch stereo Out2;¼-inch stereo phones; two TRS pedal jacks; FASLINK II; MIDI IN/OUT; S/PDIF out48kHz; USB-B; unused USB-A; mains. Manual pp.23–24. |
 | Expression / increment versus continuous control | **7.x manual,printedp108**,cover expressly includes MKII Turbo: Output1/2 Volume Increment/Decrement changes the current Output block MAIN by **1.0dB per trigger and saves the preset**,including unrelated unsaved parameter/bypass edits. Intended MIDI switch values are **127 on /0 off**,using momentary switches. Manufacturer warns against expression sweeps because one sweep can change levels by **±20dB**. This is a warning example,not a continuous global pedal range. The separate Input/Output Volume assignments remain the global continuous roles;their endpoints/recall are still unverified. [Own manual](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf),checked2026-11-01;no messages sent orpreset saved. |
@@ -275,7 +276,7 @@ Checked **2026-11-03**: [manufacturer Blocks Guide](https://www.fractalaudio.com
 | Cab | ∞/1 |
 | Chorus | 27/2 |
 | Compressor | 19/2 |
-| Delay | 29/2 |
+| Delay | 29 reference; **27 FM3**/2 |
 | Drive | 87/2 |
 | Enhancer | 3/2 |
 | Filter | 20/4 |
@@ -309,6 +310,18 @@ Checked **2026-11-03**: [manufacturer Blocks Guide](https://www.fractalaudio.com
 | Wah | 9/2 |
 
 Dash means no numerical type count;∞ does not establish unlimited user storage. Crossover,Dynamic Distortion,IR Player,RTA,Tone Match,Vocoder have zero FM3 instances. The extracted NAM cell is blank;Axe-Fx III capability is not transferred. No download ordevice operation.
+
+### FM3 — November guide delay exclusions and cabinet limits
+
+Checked **2026-11-03**, [manufacturer November2026 Blocks Guide](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf), pp19–20,31–32.
+
+| Field | FM3-specific evidence / qualification |
+|---|---|
+| Categories / Delay reconciliation | Shared table29 excludes **Diffused Delay** and **Zephyr** on FM3: **27 listed choices**,derived29−2;two instances remain CPU-limited. Listed: Digital Mono; Digital Stereo; Analog Mono; Analog Stereo; Mono Tape; Stereo Tape; Ping-Pong; Dual Delay; Reverse Delay; Sweep Delay; Ducking Delay; Vintage Digital; 2290 w/ Modulation; Ambient Stereo; Deluxe Mind Guy; Mono BBD; Stereo BBD; Lo-Fi Tape; Stereo Mind Guy; Graphite Copy Delay; Worn Tape; DM-Two Delay; Stereo Trem Delay; Wandering Delays; Pan Delay; Dual Head Tape; Surround Delay . |
+| Processing / delay time | Mono Delay maximum **8seconds on FM3**,versus16seconds onFM9/Axe-Fx III. Not a universal maximum for every delay algorithm. |
+| IR / cabinet processing | FM3 uses **two cabs per Cab block**,**1024-sample DynaCabs**,andexplicitly **does not support FullRes**. These are processing restrictions,not source-file length acceptance oruser-slot counts. |
+
+The reference table above is now explicitly qualified;older7.x evidence remains intact. No installed-firmware/library test,download ordevice operation. Exact shipping contents,global-volume range/recall/coverage andqualified hardware stock remain unresolved.
 
 ### FM3 — IR transfer and backup scope, checked2026-10-31
 
