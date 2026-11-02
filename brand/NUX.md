@@ -84,6 +84,14 @@ Checked **2026-11-03** against the [current exact-model manufacturer page](https
 
 No packages downloaded or run. Normal guitar input and absence of analog EXP in the complete documented connector inventory remain unchanged. NAM,full current category/memory census,power operation andcondition-qualified Indonesian stock remain unresolved;partial lead stays outside active counts.
 
+### NGS-6 — independent output IR bypass
+
+Checked **2026-11-03**. The [manufacturer NGS-6 page](https://nuxaudio.com/product/ampacademy/) explicitly separates quarter-inch output IR switching from DI IR configuration: **IR OUT down bypasses cabinet IR on the quarter-inch output;up enables it**. XLR DI IR is configured separately by holding A/B during power-on;three indicator flashes mean enabled,no flashes disabled. This documents cabinet processing scope,not whole-device bypass,global volume assignment or attenuation of headphones,tails,USB or an external loop. No device was operated.
+
+Original NGS-6 manual body [page5](https://www.manualslib.com/manual/3994930/Nux-Amp-Academy-Ngs-6.html?page=5) names **two rear toggles,DI GND LIFT and IR OUT**;[page6](https://www.manualslib.com/manual/3994930/Nux-Amp-Academy-Ngs-6.html?page=6) corroborates the independent IR paths. Page5 text assigns an IR OUT label to XLR ground lifting under the combined heading;retain this apparent source/transcription error rather than claim IR OUT also controls ground. No new visual census. INSERT is a TRS send/return with editor-adjustable routing;the extracted diagram identifies Tip Send,but a complete electrical pinout is not established here.
+
+Whole-device bypass type and full current profile remain unresolved. The partial lead stays outside active counts;do not borrow buffered-bypass specifications from NMA-3AAP Amp Academy Stomp.
+
 ## Amp Academy Stomp
 
 Checked2026-10-17;partial. Separate hardware from original Amp Academy;not previously inventoried. Guitar multi-effects eligibility follows independent effects architecture. Bass/vocal suitability and ownership unresolved.

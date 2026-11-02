@@ -141862,5 +141862,20 @@
       "qualified current hardware stock"
     ],
     "status": "partial outside active counts;direct analogEXP absent in previously checked inventory"
+  },
+  "ngs6_output_ir_scope_20261103": {
+    "canonical": "brand/NUX.md#ngs-6--independent-output-ir-bypass",
+    "sources": [
+      "https://nuxaudio.com/product/ampacademy/",
+      "https://www.manualslib.com/manual/3994930/Nux-Amp-Academy-Ngs-6.html?page=5",
+      "https://www.manualslib.com/manual/3994930/Nux-Amp-Academy-Ngs-6.html?page=6"
+    ],
+    "finding": "Quarter-inch IR OUT toggle and separately configured XLR DI IR;cabinet bypass is not whole-device bypass or global volume. Two rear toggles named;ground-lift label transcription conflict retained.",
+    "remaining": [
+      "whole-device bypass type",
+      "complete current profile",
+      "qualified hardware stock"
+    ],
+    "status": "partial outside active counts;no hardware operation or downloads"
   }
 }
