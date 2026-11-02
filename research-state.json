@@ -142275,5 +142275,178 @@
     ],
     "next": "General GP-200JR -> Prime -> GE300 checkpoint advanced;return separate-foot-display priority andfresh exactShopee discovery;defer unchanged blocked sources",
     "no_download_or_device_operation": true
+  },
+  "fm9_nov2026_comparison_20261103": {
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9--november-2026-block-comparison",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026;printed3;114pages",
+    "fm9_rows": [
+      [
+        "Amp",
+        "330+/2"
+      ],
+      [
+        "Cab",
+        "∞/2"
+      ],
+      [
+        "Chorus",
+        "27/2"
+      ],
+      [
+        "Compressor",
+        "19/2"
+      ],
+      [
+        "Crossover",
+        "1/2"
+      ],
+      [
+        "Delay",
+        "29/2"
+      ],
+      [
+        "Drive",
+        "87/3"
+      ],
+      [
+        "Enhancer",
+        "3/2"
+      ],
+      [
+        "Filter",
+        "20/4"
+      ],
+      [
+        "Flanger",
+        "31/2"
+      ],
+      [
+        "Formant",
+        "1/2"
+      ],
+      [
+        "Gate/Expander",
+        "4/4"
+      ],
+      [
+        "Graphic EQ",
+        "18/4"
+      ],
+      [
+        "Input",
+        "—/4"
+      ],
+      [
+        "Looper",
+        "—/1"
+      ],
+      [
+        "Megatap",
+        "22/2"
+      ],
+      [
+        "Mixer",
+        "—/4"
+      ],
+      [
+        "Multi-Delay",
+        "39/2"
+      ],
+      [
+        "Multiband Comp",
+        "—/2"
+      ],
+      [
+        "Multiplexer",
+        "—/2"
+      ],
+      [
+        "Output",
+        "—/3"
+      ],
+      [
+        "Parametric EQ",
+        "—/4"
+      ],
+      [
+        "Phaser",
+        "19/2"
+      ],
+      [
+        "Pitch Shift",
+        "16/1"
+      ],
+      [
+        "Plex Delay",
+        "45/1"
+      ],
+      [
+        "Resonator",
+        "—/2"
+      ],
+      [
+        "Return",
+        "—/2"
+      ],
+      [
+        "Reverb",
+        "79/2"
+      ],
+      [
+        "Ring Mod",
+        "—/1"
+      ],
+      [
+        "Rotary",
+        "—/2"
+      ],
+      [
+        "Scene MIDI",
+        "—/1"
+      ],
+      [
+        "Send",
+        "—/2"
+      ],
+      [
+        "Synth",
+        "—/1"
+      ],
+      [
+        "Ten-Tap Delay",
+        "2/2"
+      ],
+      [
+        "Tremolo",
+        "7/2"
+      ],
+      [
+        "Volume/Pan",
+        "2/4"
+      ],
+      [
+        "Wah",
+        "9/2"
+      ]
+    ],
+    "scope": "Reference Types column/FM9 instance ceilings;not installed firmware census or summed concurrency;no MKII-specific firmware minima",
+    "zero_instances": [
+      "Dynamic Distortion",
+      "IR Player",
+      "RTA",
+      "Tone Match",
+      "Vocoder"
+    ],
+    "NAM": "Blank extracted FM9 cell;Axe-FxIII footnote not transferred",
+    "older_sources_preserved": true,
+    "remaining": [
+      "Exact named current FM9 library reconciliation",
+      "Current global-volume endpoints/recall/coverage",
+      "Qualified hardware stock",
+      "Remaining Nov2026 model-specific chapters"
+    ],
+    "next": "Continue November2026 guide exact-model checks before relying on prior June2023-only gaps;individual-foot-display priority andindependent GP-200JR -> Prime -> GE300 retained",
+    "downloads": false
   }
 }

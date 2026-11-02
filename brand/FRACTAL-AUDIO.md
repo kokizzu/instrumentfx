@@ -703,6 +703,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI selle
 | Dimensions / weight | **513W×237D×89H mm;5.44kg**, large, now explicitly published for **MKII Turbo by regional distributor Okada**. Its exact-model page also says body dimensions/mass are unchanged from Turbo. Historical manufacturer figures match; direct current manufacturer MKII physical certification and measured plug clearance remain unverified. [Okada exact model](https://www.okada-web.com/fractal-audio-systems/fm9-mark-ii-turbo), checked2026-10-31;[historical manual][f9-m] p128. |
 | Simultaneous blocks / category choices | Two amp blocks,four channels each;**325+ amp choices**,57+drive,50+reverb current product headlines. CPU-dependent concurrency,current category census unresolved. [June2023 FM9 type/instance table](#fm9--historical-block-inventory) is retained below,not current MKII certification.2022manual instead59+drive/60+reverb;retain revision/source conflict.14×6grid is not84 guaranteed effects. [Product][f9-p];[Manual][f9-m] p.2. |
 | Preset / factory / user memory | **512 presets,8 scenes,four channels in most blocks**. Historical manual permits overwriting every location. Current manufacturer support documents **384 factory-loaded editable locations for the FM9 family**,not an additional protected bank;exact MKII shipping/installed contents remain unverified. [Factory-filling qualification](#fm9-mkii-turbo--manufacturer-family-factory-filling);[Store][f9-s];[Manual][f9-m] p.39. |
+| Categories / newer guide | **November2026** reference choices/FM9 instance ceilings now [tabulated separately](#fm9--november-2026-block-comparison);37 supported block rows. Not summed concurrency orinstalled firmware census. EarlierJune2023 figures remain historical. |
 | IR / NAM / captures | **2200+factory cabs,1024user IRs**,UltraRes/DynaCab.2022manual lists WAV/IR/SYX import and16scratchpads. [Cab-Lab 4 conversion/export](#fm9-mkii-turbo--cab-lab-4-conversion-and-persistent-ir-storage) explicitly names FM9 and permits mono deconvolved WAV at any source rate/depth,exported as .syx/.ir through FM9-Edit. This narrows the computer-workflow gap;universal direct-hardware formats,length limits andMKII firmware minima remain unresolved. Native NAM,converted NAM,user amp capture import unverified. [Store][f9-s];[Manual][f9-m] p.2. |
 | Synth / acoustic | **Three-oscillator monophonic Synth**,one block/four stored channels inJune2023 guide;[waveforms andtracking modes](#fm9--oscillator-synthesis-versus-polyphonic-tracking). Acoustic/piezo routing documented historically;dedicated acoustic simulation remains unverified. Current MKII equivalence untested. [Product][f9-p];[Manual][f9-m] p.38. |
 | I/O | Instrument¼-inch input;two balanced stereo¼-inch input pairs;three stereo outputs:Out1 XLR+Humbuster¼-inch,Out2 XLR,Out3 Humbuster¼-inch;phones;three pedal jacks;FASLINKII;S/PDIFin/out48kHz. Manual addsUSB-B,MIDIDINin/out-thru,mains. Humbuster is not ordinary balanced output. [Product][f9-p];[Manual][f9-m] pp.21–22,128. |
@@ -912,6 +913,52 @@ Global Settings offers **Off**, **Channel & Scene**, and **All**. For gapless pr
 
 Gapless transition, delay/reverb spillover, looper continuity and global analog-volume assignment are separate capabilities. This finding does not establish retained loop recordings, continuous pedal endpoints, startup recall or universal output coverage. Historical manual3.x remains separately qualified. No save, update, download or hardware operation was performed.
 
+
+### FM9 — November 2026 block comparison
+
+Checked **2026-11-03**: [manufacturer Blocks Guide](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf), **November2026**, p3. **Reference type choices / FM9 instance ceiling**, CPU-limited;not summed concurrency orinstalled inventory. The column names FM9,not a specific MKII firmware. EarlierJune2023 evidence remains historical.
+
+| Block | Types/instances |
+|---|---:|
+| Amp | 330+/2 |
+| Cab | ∞/2 |
+| Chorus | 27/2 |
+| Compressor | 19/2 |
+| Crossover | 1/2 |
+| Delay | 29/2 |
+| Drive | 87/3 |
+| Enhancer | 3/2 |
+| Filter | 20/4 |
+| Flanger | 31/2 |
+| Formant | 1/2 |
+| Gate/Expander | 4/4 |
+| Graphic EQ | 18/4 |
+| Input | —/4 |
+| Looper | —/1 |
+| Megatap | 22/2 |
+| Mixer | —/4 |
+| Multi-Delay | 39/2 |
+| Multiband Comp | —/2 |
+| Multiplexer | —/2 |
+| Output | —/3 |
+| Parametric EQ | —/4 |
+| Phaser | 19/2 |
+| Pitch Shift | 16/1 |
+| Plex Delay | 45/1 |
+| Resonator | —/2 |
+| Return | —/2 |
+| Reverb | 79/2 |
+| Ring Mod | —/1 |
+| Rotary | —/2 |
+| Scene MIDI | —/1 |
+| Send | —/2 |
+| Synth | —/1 |
+| Ten-Tap Delay | 2/2 |
+| Tremolo | 7/2 |
+| Volume/Pan | 2/4 |
+| Wah | 9/2 |
+
+Dash means no numerical type count;∞ is not unlimited user storage. Dynamic Distortion,IR Player,RTA,Tone Match,Vocoder show zero FM9 instances. NAM’s FM9 cell is blank in extracted text;no support inferred from Axe-Fx III’s footnote. No download ordevice test.
 
 ### FM9 — named firmware12 model additions
 
