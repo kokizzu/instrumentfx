@@ -141669,5 +141669,18 @@
       "global settings/controller-label migration fidelity",
       "qualified current Shopee stock"
     ]
+  },
+  "fm9_volume_trigger_boundary_20261103": {
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-mkii-turbo",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "revision": "August2022 firmware3.x,p100;Original/Turbo;MKII/current12 equivalence unverified",
+    "finding": "Output1/2 Volume Increment/Decrement alters MAIN by1dB and saves preset including unsaved edits;not an expression assignment orcontinuous attenuation range",
+    "remaining": [
+      "continuous global volume numeric endpoints",
+      "held analog-position recall",
+      "bypass/directUSB/output coverage",
+      "exact current-revision corroboration"
+    ],
+    "general_cursor": "GP-200JR -> Prime -> GE300 preserved"
   }
 }
