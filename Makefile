@@ -2304,3 +2304,7 @@ expression-audit-commit-poly:
 .PHONY: expression-audit-stage-fender
 expression-audit-stage-fender:
 	python3 scripts/expression_audit_fender.py stage
+
+.PHONY: expression-audit-stage-mvave
+expression-audit-stage-mvave:
+	python3 scripts/expression_audit_mvave.py stage

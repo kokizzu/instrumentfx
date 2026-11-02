@@ -126510,10 +126510,11 @@
     "next": [
       "Ampero Mini/Nano Cortex across-preset volume assignment remains unverified; manufacturer confirmation or readable exact-revision evidence needed",
       "Exact HX and GT-1000CORE documentation and headphone/tail/looper coverage",
-      "Manufacturer-backed POD Express dimensions and actual M-VAVE controller revision/pinout/CC wiring",
+      "Manufacturer-backed POD Express dimensions; retain exact-model source restrictions",
       "Expand remaining eligible no-treadle inventory;606 and607 confirmed built-in-treadle and excluded from shortlist",
       "IR-200/RP360/NGS-6 and other partial leads: finish required fields before admitting to active inventory",
-      "Fresh exact Shopee Indonesia offers; separate condition/stock/variant/bundle evidence"
+      "Fresh exact Shopee Indonesia offers; separate condition/stock/variant/bundle evidence",
+      "Deferred M-VAVE controller revision/pinout/resistance/continuous CC wiring: resume on new manufacturer electrical evidence or identified-hardware sweep; reseller manual provenance does not close this gap"
     ],
     "requirements": [
       "Normal pickups",
@@ -141632,5 +141633,12 @@
       "currentinstalledbehavior",
       "globalEXPcoverage"
     ]
+  },
+  "mvave_reseller_manual_20261103": {
+    "source": "https://www.manualslib.com/manual/4522584/M-Vave-Chocolate-Plus.html",
+    "identity": "10page exacttitle/hostpanel,HOEREVwebsiteandGoodsFirst/AISURPRISEcontacts;manufacturerauthorization/revisionunproven",
+    "result": "No electricalpinout/resistance/taper/continuousCC evidence;not manufacturer substitution",
+    "official_recheck": "https://www.sincoaudio.com/product?id=chocolate-plus remains shell",
+    "queue": "Move exact wiring mission to end of expression audit next list; continue other work"
   }
 }
