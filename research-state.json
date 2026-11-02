@@ -142744,5 +142744,23 @@
     ],
     "next": "Continue individual-foot-display models and defer unchanged or blocked sources;retain independent GP-200JR -> HeadRush Prime -> MOOER GE300 cursor",
     "no_download_or_device_operation": true
+  },
+  "hx_effects_processing_fixes_20261103": {
+    "canonical": "brand/LINE6.md#hx-effects",
+    "source": "https://line6.com/support/page/kb/effects-controllers/helix/helixhx-380-release-notes-r1079/",
+    "revision": "3.80;released2024-11-19",
+    "fixes": [
+      "Some delay/modulation processing stopped after many idle hours until preset reload",
+      "Cosmos Echo shared wow/flutter left/right could mask Spread",
+      "Poly Sustain glitches with Random/Random Speed maxed"
+    ],
+    "qualification": "Historical firmware fixes,not present defect ordevice verification;no amp/HXOne/Stomp-only transfer",
+    "remaining": [
+      "All-preset global analog volume assignment",
+      "DSP-bypass tail/looper volume coverage",
+      "Current exact condition-qualified Shopee hardware"
+    ],
+    "next": "Continue requested individual footswitch displays;defer blocked sources;retain GP-200JR -> HeadRush Prime -> MOOER GE300 independent sequence",
+    "no_download_or_device_operation": true
   }
 }
