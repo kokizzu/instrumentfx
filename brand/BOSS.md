@@ -2918,6 +2918,19 @@ Exact USB channel counts/sample formats, full parameter-editor availability and 
 
 The [same Seven Stereo item16879370/21523624968](https://shopee.co.id/Boss-IR200-IR-200-Amp-IR-Cabinet-i.16879370.21523624968) still exposes **Rp7.777.500**, Bandung and service unavailable in a five-month snapshot. This recheck adds no current stock, condition, bundle or checkout confirmation; the older observation remains preserved. Partial lead stays outside active counts.
 
+### IR-200 — loaded assets versus saved assignments and headphone voicing
+
+Checked **2026-11-03** against model-specific Roland support text. No software, firmware, files or device settings were changed.
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| IR storage versus memory assignment | **October10,2025:** USED IN MEMORY=NO means the asset is already loaded but not written into a memory. Select its USER IR in the Cabinet setting and WRITE the destination memory; then the indicator becomes YES. Import alone does not assign that IR across presets. [Exact support article](https://support.roland.com/hc/en-us/articles/40956771382683-IR-200-USED-IN-MEMORY-shows-NO-after-loading-a-custom-IR-in-the-IR-Loader) |
+| Stereo capacity versus channel selection | [December23,2024 support answer](https://support.roland.com/hc/en-us/articles/4407995602331-IR-200-Can-IR-data-created-on-third-party-devices-or-apps-be-loaded-into-the-IR-200) confirms **128 mono /64 stereo files**. [November27,2025 loading instructions](https://support.roland.com/hc/en-us/articles/25853792937627-IR-200-How-do-I-load-IR-data) still require choosing one channel from stereo data. Both statements remain valid evidence; exact pairing/storage and automatic L/R assignment remain unverified. Do not downgrade capacity to mono-only or invent a tested workflow. |
+| Headphones versus output voicing | [October7,2021 support answer](https://support.roland.com/hc/en-us/articles/4407987847963-IR-200-Do-I-need-to-configure-OUTPUT-SELECT-even-if-I-m-just-monitoring-the-sound-via-headphones-or-earphones-connected-to-the-PHONES-OUT-jack): PHONES always uses line-output characteristics; OUTPUT SELECT configures the OUTPUT jacks. This is voicing scope, not headphone power, final volume or expression attenuation. |
+| USB count wording | [IR-2/IR-200 comparison](https://support.roland.com/hc/en-us/articles/19276168695451-IR-2-IR-200-Differences-between-the-IR-2-and-IR-200) lists IR-200 USB as **2 (Stereo×2)**. Retain that exact count basis; it does not independently specify record/playback directions, all driver modes or sample formats. The physical Micro-B connector remains one socket. |
+
+Global AMP LEVEL output coverage, full-editor capability and exact USB stream matrix remain unresolved. Partial lead remains outside active inventory; this evidence does not displace the separate-display priority or the independent GP-200JR → Prime → GE300 cursor.
+
 ## KATANA:GO
 
 Checked2026-10-17;partial. Guitar/bass multi-effects;ownership unverified. Current product evidence below;BOSS says latest and earlier models have same sounds/features. Physical revision and seller “GO2” identity need corroboration.

@@ -141812,5 +141812,24 @@
     ],
     "no_download_or_execution": true,
     "status": "partial outside active counts; original general cursor preserved"
+  },
+  "ir200_assignment_headphone_boundary_20261103": {
+    "canonical": "brand/BOSS.md#ir-200--loaded-assets-versus-saved-assignments-and-headphone-voicing",
+    "sources": [
+      "https://support.roland.com/hc/en-us/articles/40956771382683-IR-200-USED-IN-MEMORY-shows-NO-after-loading-a-custom-IR-in-the-IR-Loader",
+      "https://support.roland.com/hc/en-us/articles/4407995602331-IR-200-Can-IR-data-created-on-third-party-devices-or-apps-be-loaded-into-the-IR-200",
+      "https://support.roland.com/hc/en-us/articles/25853792937627-IR-200-How-do-I-load-IR-data",
+      "https://support.roland.com/hc/en-us/articles/4407987847963-IR-200-Do-I-need-to-configure-OUTPUT-SELECT-even-if-I-m-just-monitoring-the-sound-via-headphones-or-earphones-connected-to-the-PHONES-OUT-jack",
+      "https://support.roland.com/hc/en-us/articles/19276168695451-IR-2-IR-200-Differences-between-the-IR-2-and-IR-200"
+    ],
+    "finding": "Loaded IR differs from saved memory assignment; explicit128mono/64stereo capacity coexists with channel-selection instructions. PHONES line voicing independent of OUTPUT SELECT.",
+    "usb_count_wording": "2(Stereo x2); directions/mode-specific matrix unverified; not two physical USB sockets",
+    "remaining": [
+      "stereo import pairing/storage mechanics",
+      "exact USB stream matrix",
+      "global AMP LEVEL coverage",
+      "complete profile/admission"
+    ],
+    "status": "partial outside active counts; no downloads or device operation"
   }
 }
