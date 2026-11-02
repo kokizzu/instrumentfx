@@ -143656,5 +143656,17 @@
     ],
     "remaining": "CompleteUSBmatrix,IR conversion andNAMarchitectures/currentfirmware remainunverified.",
     "next_general_model": "HeadRush Prime;thenMOOERGE300;requestedindividualdisplaysretainpriority"
+  },
+  "prime_switch_labels_scenes_20261103": {
+    "model": "HeadRush Prime",
+    "source": "https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf",
+    "basis": "Already-saved original guide, complete printed pages34–35 and40; no new download or device operation.",
+    "findings": [
+      "Eight middle switches have rig-level assignments and editable displayed labels",
+      "Scenes recall block presets and On/Off/No Change; doubling/split A/B/No Change; two states with different LED colors",
+      "Hands-free parameter paging, incremental adjustment, IR audition and rig save"
+    ],
+    "remaining": "Label character ceiling, OLED diagonal/resolution/color and seamless scene preset reload remain unverified.",
+    "next_general_model": "MOOER GE300; requested individual footswitch displays and Shopee Indonesia hardware remain priorities"
   }
 }
