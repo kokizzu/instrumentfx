@@ -143002,5 +143002,19 @@
     ],
     "next": "Defer unresolvedIRcapacity;continue requested separate-display models andpreserve GP-200JR -> HeadRush Prime -> MOOER GE300 sequence",
     "no_download_or_device_operation": true
+  },
+  "fm9_volume_block_scope_20261103": {
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-original--volume-block-versus-global-assignment",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026,printed3,109",
+    "qualification": "Four block instances,not pedal inputs. Per-block modifier/taper/bypass andindependentOutputLevel are not global assignment or endpoints.",
+    "remaining": [
+      "Global analog volume adjustable endpoints",
+      "Held-position recall",
+      "Bypass andcomplete headphone/USB/tail/looper coverage",
+      "Qualified exactShopee stock"
+    ],
+    "deferred_source_gaps": "Do not block other research for unavailable sources;retain each unresolved task andcontinue requested displaymodels.",
+    "no_download_or_device_operation": true
   }
 }
