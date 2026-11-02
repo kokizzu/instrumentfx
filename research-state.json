@@ -143184,5 +143184,15 @@
       "research-verify"
     ],
     "remaining": "Continue queued manufacturer/Shopee research; this does not verify condition or current stock."
+  },
+  "fender_ios_locale_conflict_20261103": {
+    "model": "Fender Tone Master Pro",
+    "sources": [
+      "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+      "https://jp-support.fender.com/hc/ja/articles/53331084071451-TONE-MASTER-PRO-ファームウェア-プロトコルのアップデート"
+    ],
+    "finding": "Same July15 firmware1.8.58 entry:US iOS15+,Japan13.1+;desktop builds agree. Preserve contradiction;US15+ planning minimum,actual mobile compatibility pending.",
+    "status": "partial; no installation",
+    "deferred": "AXOM MAX manufacturer PDF unavailable again; defer endpoint/visual check and continue other requested displays."
   }
 }
