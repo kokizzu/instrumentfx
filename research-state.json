@@ -142151,5 +142151,19 @@
       "qualifiedhardwarestock"
     ],
     "next": "MOOERGE300 independentgeneralqueue;LCDpriority retained"
+  },
+  "ge300_looper_conflict_20261103": {
+    "canonical": "brand/MOOER.md#ge300--looper-shortcut-conflict-and-separate-loop-levels",
+    "sources": [
+      "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf",
+      "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html"
+    ],
+    "access": "Savedoriginalmanualprinted4/11/92;no newdownload",
+    "conflict": "p4B+Clooper vsp92C+D;notresolvedbylaterpressholdoption",
+    "alternative": "AssignableLOOPERCTRLroute explicitlydocumented",
+    "levels": "RECVOLrecordinput vsPLAYVOLloopplayback;EXPcoverage unknown",
+    "driver": "USBAudio5.70.0 distinctfromMSGE3005.1.4;hostminimaunknown",
+    "next": "Original GP-200JR -> Prime -> GE300 cycle advanced;fresh exactShopee/no-treadle research next,with individualLCDpriority andsourceblockers deferred",
+    "no_device_operation": true
   }
 }

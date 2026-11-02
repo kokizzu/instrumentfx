@@ -1563,6 +1563,19 @@ Complete printed pp19–22,86–88 read from the previously saved [original GE30
 
 Offer recheck2026-11-03: fresh search exposes a **five-day-old indexed snapshot** of the same Vin’s Music Store item31173885/29362925028 at **Rp11.928.000**,KotaDepok. Direct opening still returns cache miss. “Ready Stock,” relative delivery and recent-activity snippets are not current stock authentication;condition,selected variation,bundle,warranty,shipping andcheckout remain unknown. No qualified used offer established.
 
+### GE300 — looper shortcut conflict and separate loop levels
+
+Checked **2026-11-03** in the previously saved [original manufacturer manual,printedpp4,11,92](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf),matching originalGE300 title/panel,not Lite orcurrent installed firmware. No new download orvisual/hardware test.
+
+| Field | Original-revision evidence / qualification |
+|---|---|
+| Looper / shortcut conflict | Panel textp4 says **A+B=TUNER,B+C=LOOPER**;looper chapterp92 instead says **C+D enters/exits LOOPER**. These are conflicting instructions,not proof both combinations work oranother physical switch bank. Later3.0.1 press-versus-hold access option doesnot identify which pair resolves this conflict. |
+| Footswitch / configurable access | Both CTRL instructions andlooper chapter explicitly support assigning **LOOPER enter/exit toone CTRL switch**. This documents an independently configurable access route without settling the default pair. GLOBAL/PRESET assignment scope isselected inCTRL;not a global EXP-volume lock. |
+| Looper / separate levels and playback | Knob1 **REC VOL** changes loop-recording input;knob2 **PLAY VOL** changes loop playback. A records/dubs,B plays,C once,D stops/hold-clears;CTRL1undo/redo,2reverse,3half-speed,4exit. Half-speed lowers pitch one octave. These are looper-mode reuse ofexisting switches,not extra hardware orproof expression attenuates recorded playback. Numeric level ranges andpower-loss retention are not established bythis passage. |
+
+The [current exact-model downloads index](https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html) separately lists **MS_For_GE3005.1.4 Win/Mac** and **MOOER_USBAudio5.70.0 Setup**. Editor/firmware bundle labeling andUSB-driver version are distinct;neither certifies OS/architecture minima orinstalled versions. Its uniformAugust4,2026 file timestamps arenot proven release dates for every older package. Nothing downloaded orinstalled. Current category census,NAM subvariant limits,USB MIDI,qualified stock andother retainedunknowns remain open.
+
+
 ## GE300 Lite
 
 Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no sibling specifications adopted. [Own product page](https://www.mooeraudio.com/product/GE300Lite-239.html). Bass/vocal suitability remains unclassified.
