@@ -2431,6 +2431,16 @@ Checked **2026-11-03** in the [manufacturer Advanced Guide for flash2.10+](https
 
 Native48kHz uses conversion for44.1/88.2/96kHz. These historical routes do not establish current driver support, global FBV assignment or bypass/headphone/tail/loop coverage. Chassis, exact offers and current installed-library equivalence remain open; partial lead stays outside active counts.
 
+### POD HD Desktop — 2.62 global EQ and optional-pack scope
+
+Checked **2026-11-03** against the [manufacturer’s desktop-named 2.62 release notes](https://kb.line6.com/pod-hd500-hd-desktop-hd-pro-v2-62-release-notes). They distinguish **Flash Memory2.62** from **USB firmware1.04**; neither number is an editor version or proof of installation.
+
+Global EQ applies across setlists/presets and contains **three parametric bands plus low/high cuts**. This is global equalization, not global expression assignment. The shared article’s L6 LINK exception does not add that connector to desktop hardware.
+
+The release supports optional **Metal, Vintage and Bass** amp/cab packs. Support does not establish entitlement, installation or continued authorization availability; the April2026 service-retirement qualification above still applies. Historical Monkey instructions are preserved as release-era instructions. No download, update or licence operation.
+
+The [manufacturer dimensions index](https://kb.line6.com/line-6-product-weights-and-dimensions) supplies spreadsheet links, not readable unit measurements here; none was downloaded. Desktop dimensions/mass and exact condition-qualified Shopee hardware remain deferred. Continue other eligible no-treadle models without substituting carton or sibling dimensions.
+
 ## POD X3 Live
 
 Checked **2026-10-17**; partial. Floor processor, distinct from desktop X3, rack X3 Pro and XT Live. Model-specific [product documentation][X3L-P] establishes guitar, bass and vocal modeling; all three instrument comparisons include this single canonical record.

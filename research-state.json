@@ -142015,5 +142015,17 @@
     "cabinet_rows": 17,
     "USB_scope": "Processed stereo1–2;Master excluded;HardwareMonitor separate",
     "active": false
+  },
+  "pod_hd_desktop_262_boundary_20261103": {
+    "canonical": "brand/LINE6.md#pod-hd-desktop--262-global-eq-and-optional-pack-scope",
+    "sources": [
+      "https://kb.line6.com/pod-hd500-hd-desktop-hd-pro-v2-62-release-notes",
+      "https://kb.line6.com/line-6-product-weights-and-dimensions"
+    ],
+    "firmware": "Flash2.62 vsUSB1.04;not editor orinstalled-version proof",
+    "EQ": "3parametric+low/high cuts,acrosspresets;notglobalEXP",
+    "packs": "Metal/Vintage/Bass optional;eligibility notentitlement/installed/licensingavailability",
+    "status": "Partial outsideactivecounts;dimensions/market deferred;no spreadsheets/packages downloaded",
+    "next": "Continue remaining no-treadle inventory;requested separate-display priority andindependent GP-200JR -> Prime -> GE300 queue preserved"
   }
 }
