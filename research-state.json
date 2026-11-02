@@ -139065,5 +139065,34 @@
       "Condition-qualified stock"
     ],
     "inventory_change": false
+  },
+  "stadium_xl_release_scope_20261103": {
+    "model": "Line 6 Helix Stadium XL Floor",
+    "source": "https://kb.line6.com/helix-stadium-1-4-release-notes",
+    "hardware": {
+      "version": "1.4.2",
+      "date": "2026-10-27",
+      "fixes": [
+        "User-created-setlist selection after restart",
+        "Showcase setlist flags"
+      ]
+    },
+    "earlier_hardware": {
+      "version": "1.4.1",
+      "date": "2026-10-20",
+      "fixes": [
+        "Moved-block SnapshotBypass state",
+        "Showcase EndPause playback"
+      ]
+    },
+    "plugin": {
+      "name": "Helix Stadium Native",
+      "version": "1.4.1",
+      "date": "2026-10-29",
+      "fix": "Cabinet impedance curve;explicitly not hardware"
+    },
+    "expression": "1.4 fixes Global position recall;not global assignment",
+    "qualification": "Manual footer1.4.1 and earlier app/plugin labels retained as separate versioned observations;installed seller firmware unknown.",
+    "inventory_change": false
   }
 }
