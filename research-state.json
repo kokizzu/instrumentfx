@@ -143075,5 +143075,19 @@
       "Qualified hardware stock"
     ],
     "no_local_download_or_device_operation": true
+  },
+  "fm9_chorus_reference_20261103": {
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-original--november-chorus-type-census",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026,printed3/25–26",
+    "reference_type_count": 27,
+    "qualification": "GroupedDimensionexpanded;internalvoices/LFOrestrictionsnotblockcapacity;notinstalledlibrarycertification",
+    "remaining": [
+      "Other exactcategorynames/exceptions",
+      "Installedlibrary reconciliation",
+      "Globalvolume endpoints/recall/coverage",
+      "Qualified exactShopee stock"
+    ],
+    "no_local_download_or_device_operation": true
   }
 }
