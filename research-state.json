@@ -143591,5 +143591,20 @@
     ],
     "qualification": "NonShopee conflictingasks;not verified discount,stock,condition orrange. No activeadmission.",
     "next": "Continue other pending hardware leads;qualified Shopee item remains outstanding."
+  },
+  "axom_filing_photo_leads_20261103": {
+    "model": "MELOFTY AXOM MAX",
+    "index": "https://fccid.io/2BYCH-SFT40",
+    "external_photos": "https://fccid.io/2BYCH-SFT40/External-Photos/psi2604038-C01-R05-Appendix-II-external-photos-9716546",
+    "label": "https://fccid.io/2BYCH-SFT40/Label/Label-and-Label-Location-9716543",
+    "scope": "Index identifies manufacturer SFT40 and2.4GHz grants;exhibit bodies inaccessible. Exact photo/label IDs are future visual-retrieval targets,not verified panelcensus.",
+    "excluded": "Generated image description is not visual inspection;no browser surface available.",
+    "remaining": [
+      "Manufacturer physicalmini-screen count",
+      "LCD/OLED technology",
+      "Actual retail revision",
+      "Qualified Shopee hardware"
+    ],
+    "status": "Partial outsideactiveinventory"
   }
 }

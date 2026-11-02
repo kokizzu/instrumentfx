@@ -211,3 +211,11 @@ Checked **2026-11-03**:the previously inaccessible [original-file candidate](htt
 | Display / remaining access limit | Render requests produced no usable panel image. Physical mini-screen count/technology remain unverified bythis document;the importer-backed nine-screen count remains separately qualified. ExactV03 date/firmware attribution isnot established fromthis extraction. |
 
 This narrows the earlier file-access failure without certifying allquick-guide details,currentfirmware orhardware. Partial lead remains outside active counts;no local download,installation ordevice operation.
+
+### AXOM MAX — filing-photo retrieval leads and RF scope
+
+Checked **2026-11-03** in the [SFT40 filing index](https://fccid.io/2BYCH-SFT40),identifying Changsha Melofty Audio Technology. It links original submission exhibits **[external photos9716546](https://fccid.io/2BYCH-SFT40/External-Photos/psi2604038-C01-R05-Appendix-II-external-photos-9716546)** and **[label/location9716543](https://fccid.io/2BYCH-SFT40/Label/Label-and-Label-Location-9716543)**,alongside the already-recorded quick guide. The exhibit bodies returned cache miss;the [FCC external-photo attachment](https://apps.fcc.gov/eas/GetApplicationAttachment.html?id=9716546) was inaccessible. These are exact next retrieval targets,not inspected panel photographs orproof ofretail hardware revision.
+
+The mirrored grant/index lists **2402–2480MHz and2412–2462MHz** for its2026-10-11 authorizations. This supports a documented2.4GHz regulatory scope,not the retailer’s5GHz claim;it doesnot prove that unlisted5GHz hardware orother regional variants are absent. Filing frequencies do not identify LCD/OLED technology.
+
+The maker-hosted [panel-image lead](https://www.meloftyaudio.com/banner-product-1.png) surfaced in image search butwouldnot open;generated image descriptions were excluded as evidence. Browser inventory was empty. **Nine footswitch mini-displays remain importer-backed**,withmanufacturer/visual count andtechnology pending;the separate pedal readout isnot silently added. Partial lead,outside active counts;no local download ordevice operation.
