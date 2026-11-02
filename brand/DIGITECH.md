@@ -1069,6 +1069,20 @@ Checked **2026-11-03** in the original shared manual reproduced by [ManualMachin
 
 Historical product figures and earlier contradiction reports remain above. This reconciles the original lists, not current installed firmware or every advertised total. Exact non-XP hardware offers, remaining profile fields and global-volume/output coverage still need evidence. RP360 remains a **partial lead outside active counts**.
 
+### RP360 — sampler position and USB control scope
+
+Checked **2026-11-03** in the [original shared manual reproduction](https://manualmachine.com/digitech/rp360/1256376-user-manual/), printed pp5,29–30,46–48,51. Model/section identity follows the preceding audit. Documentation only; no downloads or device test.
+
+| Field | Documented scope / remaining limit |
+|---|---|
+| Expression / built-in distinction | The panel description explicitly limits the integrated pedal and V-Switch to **RP360XP**. Non-XP external control remains a separate path; no visual panel census claimed. |
+| Looper / signal position | Normal **Looper is at the chain end**; **Sound Check is at the beginning**, feeding recorded dry guitar through the effects. Sound Check allows preset changes and effect editing during playback. This does not certify expression attenuation of every recorded-loop or USB route. |
+| Looper / drums | **Looper and Drum Machine cannot operate together**; a recorded loop must be cleared before enabling drums. The 60-pattern headline therefore does not promise drums over loop playback. |
+| USB / level controls | **USB Record Level −12…+24dB** controls audio sent to the computer. USB Play Mix balances computer playback against processed RP audio; its center gives equal levels. These are system audio controls, not analog EXP endpoints or assignments. |
+| Display | A system LCD Contrast adjustment is documented, but its numerical range, diagonal, color and touchscreen status remain unverified. |
+
+Global analog-volume override, pedal-position recall and bypass/headphone/tail/USB coverage remain unresolved. Current host support and exact non-XP Shopee hardware also need evidence. Partial lead remains outside active counts.
+
 ### RP55 — exact controller and bypass follow-up
 
 Checked2026-10-19. [Own18-0838V-A manual, printed pp2,4,10,20](https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP55-Manual-18-0838V-A.pdf): Control In accepts passive mono volume orTS expression;TRS unsupported. No resistance value established;RP360/RP150 values are not transferred. Volume operates only withWah andWhammy disabled. Up/Down switches increment/decrement presets;both together bypass,then either restores last preset. Bypass provides clean unprocessed tone,but text doesnot establish pedal attenuation there. Position,min/max,headphone attenuation andtails/looper coverage remain unknown. SharedTRS audio output supports phones;its stereo wiring is separate fromTS Control In. Cabinet modeling being global doesnot make volume unconditional. Existingmanual/product dimension conflict retained;no hardware test,stock refresh ordownloads.

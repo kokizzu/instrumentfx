@@ -126558,7 +126558,8 @@
         "status": "85-choice original reconstruction;AMP/CAB andcurrentfirmwareunresolved",
         "amp_cab": "Original55AMP/27CABselections includeDirect;52amps+2acsim+Direct,26cabs+Direct"
       },
-      "next": "Complete RP360 remaining USB/editor/import/display andphysical profile;exactnonXPShopee andglobalvolume/outputcoverage pending"
+      "next": "Check RP360 current official Nexus/USB compatibility and remaining physical/import fields;exactnonXPShopeeoffer stillneeded. Keep requestedLCDnewsourcepriority.",
+      "sampler_usb_checkpoint": "rp360_sampler_usb_scope_20261103"
     },
     "ngs6_lead": {
       "status": "partial, outside active inventory",
@@ -141375,5 +141376,31 @@
     "routing": "Acoustic choices disableCAB;AMPDirectallowsCAB;CABDirectremovescabmodeling",
     "qualification": "Original54/55and26/27 consistentwithDirectcounting;manufacturerproductreasonnotexplicit;currentinstalledversionuntested;olderobservationspreserved",
     "next": "Complete RP360 remaining USB/editor/import/display andphysical profile;exactnonXPShopee andglobalvolume/outputcoverage pending"
+  },
+  "rp360_sampler_usb_scope_20261103": {
+    "source": "https://manualmachine.com/digitech/rp360/1256376-user-manual/",
+    "printed_pages": [
+      5,
+      29,
+      30,
+      46,
+      47,
+      48,
+      51
+    ],
+    "built_in_pedal": "RP360XP only in shared panel description;no new visual census",
+    "sampler": {
+      "Looper": "chain end",
+      "SoundCheck": "chain beginning,dry recording through effects,preset changes/editing duringplayback",
+      "drums": "cannot coexist;clearrecording first"
+    },
+    "usb_record_db": {
+      "min": -12,
+      "max": 24
+    },
+    "usb_playmix": "balances computerplayback andprocessedRP signal;center equal;notEXPmapping",
+    "lcd": "contrastadjustment documented;numericrange/diagonal/color/touchunknown",
+    "qualification": "Historical originalmanual;currenthost/device anduniversalEXPoutputcoverage untested;noinventoryadmission",
+    "next": "Check RP360 current official Nexus/USB compatibility and remaining physical/import fields;exactnonXPShopeeoffer stillneeded. Keep requestedLCDnewsourcepriority."
   }
 }
