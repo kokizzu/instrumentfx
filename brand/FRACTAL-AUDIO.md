@@ -194,6 +194,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; origina
 | Dimensions / weight | **281W×236D×103H mm;3.22kg**. Large. Manual p.140. |
 | Power / battery / USB operation | **90–264VAC,47–63Hz,<40W**, grounded mains. CR2032 is backup memory battery, not operating battery. DC polarity/current not applicable to mains inlet; USB/battery operation unverified. Manual pp.24,140. |
 | Simultaneous blocks / categories | CPU-limited; **12×4 grid is not guaranteed48 effects**. Own7.x p46 documents per-type ceilings:one Amp/Cab/Pitch/Reverb/Synth/Looper;two Drive/Chorus/Delay;four Filter/Mixer. These are CPU-limited maxima,not a guaranteed simultaneous combination. [Complete own7.x table](#fm3--block-choice-and-instance-table) below;current firmware13 inventory unresolved. Manual pp.2,50. Current product lists300+ amp models; factory cabs2200+ andhistorical1024 user IR locations;firmware12 reduces user slots to512 as qualified below. These are not simultaneous blocks. [Product](https://www.fractalaudio.com/fm3/) |
+| Categories / newer guide | [November2026 reference types and FM3 instance ceilings](#fm3--november-2026-block-comparison):36 supported block rows. CPU-limited,not summed concurrency orinstalled firmware13 census;older7.x inventory preserved. |
 | Preset / factory / user memory | **512 editable locations;8 scenes each**. Own7.x manual printedp41 specifies **first384 factory-filled**,all overwriteable;current shipping allocation/installed contents unverified. See [revision-qualified occupancy](#fm3--factory-occupancy-versus-editable-capacity). |
 | Synth / acoustic functions | **Synth yes:three-voice monophonic Synth block**,one instance/four channels in own7.x p46; resolves the earlier synth unknown. Acoustic instrument input documented;dedicated acoustic simulation remains unverified. Channels are stored variations,not four simultaneous synth blocks. [Own manual](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf) |
 | IR / NAM / captures | **1024 user cab IRs in7.x;512 from firmware12.0**,as qualified below. UltraRes/DynaCab; DynaCab introduced firmware7. **7.x manual p2 lists.ir/.syx/.wav and16 scratchpads; p118 specifies.syx transfer and distinguishes.IR as Cab-Lab remix format**. Preserve summary/workflow distinction; [Cab-Lab 4 conversion/export](#fm3-mkii-turbo--cab-lab-4-conversion-and-user-cab-storage) now documents mono deconvolved WAV at any source rate/bit depth and .ir import through FM3-Edit;these are software workflows,not universal direct-hardware formats. Length limits and firmware13 equivalence remain unresolved. Native NAM, converted NAM and user amp capture import unverified. [Product](https://www.fractalaudio.com/fm3/) |
@@ -263,6 +264,51 @@ Checked2026-10-31 against [own manual,p46](https://www.fractalaudio.com/download
 | Wah | 8/2 |
 
 Controllers exists outside the grid. Differences from other revisions remain source-specific.
+
+### FM3 — November 2026 block comparison
+
+Checked **2026-11-03**: [manufacturer Blocks Guide](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf), **November 2026**, p3. **Reference types / FM3 instance ceiling**, subject to CPU limits. The column names FM3 without revision-specific firmware minima; this is not installed-content proof. The older7.x table remains preserved above.
+
+| Block | Types/instances |
+|---|---:|
+| Amp | 330+/1 |
+| Cab | ∞/1 |
+| Chorus | 27/2 |
+| Compressor | 19/2 |
+| Delay | 29/2 |
+| Drive | 87/2 |
+| Enhancer | 3/2 |
+| Filter | 20/4 |
+| Flanger | 31/2 |
+| Formant | 1/2 |
+| Gate/Expander | 4/2 |
+| Graphic EQ | 18/2 |
+| Input | —/2 |
+| Looper | —/1 |
+| Megatap | 22/1 |
+| Mixer | —/4 |
+| Multi-Delay | 39/1 |
+| Multiband Comp | —/1 |
+| Multiplexer | —/2 |
+| Output | —/2 |
+| Parametric EQ | —/2 |
+| Phaser | 19/2 |
+| Pitch Shift | 16/1 |
+| Plex Delay | 45/1 |
+| Resonator | —/2 |
+| Return | —/2 |
+| Reverb | 79/1 |
+| Ring Mod | —/1 |
+| Rotary | —/2 |
+| Scene MIDI | —/1 |
+| Send | —/2 |
+| Synth | —/1 |
+| Ten-Tap Delay | 2/1 |
+| Tremolo | 7/2 |
+| Volume/Pan | 2/2 |
+| Wah | 9/2 |
+
+Dash means no numerical type count;∞ does not establish unlimited user storage. Crossover,Dynamic Distortion,IR Player,RTA,Tone Match,Vocoder have zero FM3 instances. The extracted NAM cell is blank;Axe-Fx III capability is not transferred. No download ordevice operation.
 
 ### FM3 — IR transfer and backup scope, checked2026-10-31
 
