@@ -143630,5 +143630,18 @@
       "Livecontinuity"
     ],
     "no_download_or_device_operation": true
+  },
+  "gfx8_language_capacity_20261103": {
+    "model": "Zoom GFX-8",
+    "sources": [
+      "https://zoomcorp.com/media/documents/E_GFX8.pdf",
+      "https://zoomcorp.com/media/documents/J_GFX8.pdf"
+    ],
+    "findings": [
+      "Japanese p42 455W203D80H versusEnglishp42 455W203H80D preserved",
+      "Japanese AC12V500mA confirmsrear rating",
+      "Englishp3 up to9 simultaneouseffects distinctfromfourmodulesplusamp/ZNR"
+    ],
+    "qualification": "No usable page image orhardware measurement;partial outsideactiveinventory;exactShopee identity stillmissing"
   }
 }

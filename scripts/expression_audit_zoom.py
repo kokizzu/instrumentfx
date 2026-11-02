@@ -49,5 +49,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): collect GFX-8 original-manual partial lead'
+        message='research(zoom): qualify GFX-8 language axes and effect capacity'
     print(git('commit','-m',message))

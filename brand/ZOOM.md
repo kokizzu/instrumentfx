@@ -5144,11 +5144,11 @@ Checked **2026-11-03** in [Zoom’s original operation manual](https://zoomcorp.
 | Expression | Built-in optical treadle;RTM target/range/controller patch-stored. Direct external EXP absent from rear inventory;toe switch unverified. |
 | Controls | Separate rotary/footswitch/button census pending visual corroboration. |
 | Display | Eight-character alphanumeric LED plus two-digit seven-segment LED;not individual footswitch LCDs. Diagonal,color/touch unverified. |
-| Processing | **69 programs:67effects+amp simulator+ZNR**;four effect modules plus amp simulator/ZNR. DRIVE,MOD,DLY/REV each22choices;SFX disablesMOD. Complete subtype census pending. |
+| Processing | **69 programs:67effects+amp simulator+ZNR**;four effect modules plus amp simulator/ZNR. **English introductionp3:up to nine simultaneous effects**,a different counting basis from module slots. DRIVE,MOD,DLY/REV each22choices;SFX disablesMOD. Complete subtype census pending. |
 | Memory | **80read/write+160read-only=240 patches**;initial user filling unverified. |
 | Synth / acoustic | Dedicated algorithms unresolved. |
-| Dimensions / mass | Printed **455W×203H×80Dmm;3.6kg**. Unusual H/D labeling preserved;no silent axis swap ormeasurement. Width alone exceeds preference. |
-| Power | **12V AC,AD-0008**;rear drawing500mA. AC isnot9VDC;DCpolarity inapplicable. Battery/USB operation unresolved. |
+| Dimensions / mass | Englishp42 text: **455W×203H×80Dmm;3.6kg**. [Japanese own manualp42](https://zoomcorp.com/media/documents/J_GFX8.pdf): **455W×203D×80Hmm;3.6kg**. Language/extraction axis discrepancy preserved;no usable page image returned,no physical measurement. Width exceeds preference under either reading. |
+| Power | **12V AC,AD-0008**;rear drawing500mA,corroborated by Japanese specificationp42 as **AC12V500mA**. AC isnot9VDC;DCpolarity inapplicable. Battery/USB operation unresolved. |
 | I/O | Mono guitar input;stereo miniAUX;mono send/return;two mono lineouts;stereo phones;MIDIIN/OUT,OUT selectableTHRU. AUX bypasses effects. |
 | Editor | Original MIDI-linked visual editor/librarian;manufacturer legacy page lists **Windows95/98,MacOS7.5–8**. Current compatibility unresolved. [Legacy product](https://www.zoom.co.jp/products/guitar/gfx-8-guitar-effects-processor) |
 | IR / NAM / capture | User loading andcapture compatibility unresolved;no sibling transfer. |
