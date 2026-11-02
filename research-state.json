@@ -143201,5 +143201,17 @@
     "finding": "Fixed Dry Mic processing on guitar-only routings is not arbitrary vocal blocks;Peel LIFO versus Insert overwrite all previous layers insection;one loop atatime.",
     "qualification": "Unversioned manufacturer FAQ;no operation,current5.2 equivalence unresolved.",
     "next": "Continue requested individual-screen models;defer oversized Prime5.2 PDF retrieval rather than download."
+  },
+  "stadium_microsd_scope_20261103": {
+    "model": "Line 6 Helix Stadium XL Floor",
+    "source": "https://kb.line6.com/microsd-card-faq-for-helix-stadium",
+    "finding": "32GB minimum,512GB verified,HC/XC,U1 recommendation;on-deviceexFAT/FAT32partitions,WAVSongs. FAQ unspecified no-size-limit wording doesnot certify>4GB looperfiles.",
+    "remaining": [
+      "Bundle conflict not resolved",
+      "Larger cards under investigation",
+      "Firmware applicability not stated",
+      "Power label still unresolved"
+    ],
+    "no_device_operation": true
   }
 }
