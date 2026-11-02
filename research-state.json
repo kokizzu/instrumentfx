@@ -126480,7 +126480,7 @@
     ],
     "current_task": {
       "model": "MOOER GE300",
-      "next": "Continue GE300 category census against saved original manual and current firmware notes; retain Prime current-installed inventory gaps as deferred research.",
+      "next": "Read original AMP,CAB,NS,EQ full tables; reconcile named counts and later changes; preserve unresolved current-installed census and other fields.",
       "completed": "GP-200JR1.8.0 all11 namedmodule tables complete:288selector entries,notuniquealgorithms;imports separate",
       "priority_qualification": "Requested separate-footdisplay processors still first when new accessible evidence is available;source-blocked items deferred",
       "gp200jr_remaining": [
@@ -139861,5 +139861,565 @@
       "revalver_mic": 31
     },
     "qualification": "Website entries and firmware additions distinct;current installed census incomplete;no device ornewvisualtest"
+  },
+  "ge300_revision_delta_audit_20261103": {
+    "sources": [
+      "saved original manufacturer manual printed pp23,25,28,31,58,60",
+      "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html"
+    ],
+    "named_original_tables": {
+      "COMP": {
+        "printed_page": 23,
+        "rows": [
+          {
+            "n": 1,
+            "name": "S-Comp"
+          },
+          {
+            "n": 2,
+            "name": "Red Comp"
+          },
+          {
+            "n": 3,
+            "name": "Yellow Comp"
+          },
+          {
+            "n": 4,
+            "name": "Blue Comp"
+          },
+          {
+            "n": 5,
+            "name": "Boost Comp"
+          },
+          {
+            "n": 6,
+            "name": "L-Studio Comp"
+          },
+          {
+            "n": 7,
+            "name": "Deluxe Comp"
+          },
+          {
+            "n": 8,
+            "name": "3-Band Comp"
+          },
+          {
+            "n": 9,
+            "name": "Limit"
+          },
+          {
+            "n": 10,
+            "name": "Blood Comp"
+          }
+        ]
+      },
+      "WAH": {
+        "printed_page": 25,
+        "rows": [
+          {
+            "n": 1,
+            "name": "Cry Wah"
+          },
+          {
+            "n": 2,
+            "name": "535 Wah"
+          },
+          {
+            "n": 3,
+            "name": "846 Wah"
+          },
+          {
+            "n": 4,
+            "name": "847 Wah"
+          },
+          {
+            "n": 5,
+            "name": "Mae Wah"
+          },
+          {
+            "n": 6,
+            "name": "Custom Wah"
+          },
+          {
+            "n": 7,
+            "name": "Auto Wah"
+          },
+          {
+            "n": 8,
+            "name": "Touch Wah"
+          },
+          {
+            "n": 9,
+            "name": "Talk Wah Ah"
+          },
+          {
+            "n": 10,
+            "name": "Talk Wah Oh"
+          }
+        ]
+      },
+      "FXA_FXB_numbered_rows": {
+        "printed_page": 28,
+        "rows": [
+          {
+            "n": 1,
+            "name": "3-Band EQ"
+          },
+          {
+            "n": 2,
+            "name": "5-BAND EQ"
+          },
+          {
+            "n": 3,
+            "name": "Studio EQ"
+          },
+          {
+            "n": 4,
+            "name": "Slow Gear"
+          },
+          {
+            "n": 5,
+            "name": "Octave"
+          },
+          {
+            "n": 6,
+            "name": "Phaser"
+          },
+          {
+            "n": 7,
+            "name": "Step Phaser"
+          },
+          {
+            "n": 8,
+            "name": "Fat Phaser"
+          },
+          {
+            "n": 9,
+            "name": "6 Stage Analog Phaser"
+          },
+          {
+            "n": 10,
+            "name": "12 Stage Analog Phaser"
+          },
+          {
+            "n": 11,
+            "name": "Dual Phaser"
+          },
+          {
+            "n": 12,
+            "name": "Modern Phaser"
+          },
+          {
+            "n": 13,
+            "name": "Flanger"
+          },
+          {
+            "n": 14,
+            "name": "Jet-Flanger"
+          },
+          {
+            "n": 15,
+            "name": "Flanger Pro"
+          },
+          {
+            "n": 16,
+            "name": "Triple Flanger"
+          },
+          {
+            "n": 17,
+            "name": "Modern Flanger"
+          },
+          {
+            "n": 18,
+            "name": "Tremolo"
+          },
+          {
+            "n": 19,
+            "name": "Optical Tremolo"
+          },
+          {
+            "n": 20,
+            "name": "60s Tremolo"
+          },
+          {
+            "n": 21,
+            "name": "Stutter"
+          },
+          {
+            "n": 22,
+            "name": "Vibrato"
+          },
+          {
+            "n": 23,
+            "name": "Rotary"
+          },
+          {
+            "n": 24,
+            "name": "Modern Rotary"
+          },
+          {
+            "n": 25,
+            "name": "Ana-Chorus"
+          },
+          {
+            "n": 26,
+            "name": "70’s Chorus"
+          },
+          {
+            "n": 27,
+            "name": "Tri-Chorus"
+          },
+          {
+            "n": 28,
+            "name": "Ring Mod"
+          },
+          {
+            "n": 29,
+            "name": "Delay"
+          },
+          {
+            "n": 30,
+            "name": "Detune"
+          },
+          {
+            "n": 31,
+            "name": "Loﬁ"
+          },
+          {
+            "n": 32,
+            "name": "Low pass ﬁlter"
+          },
+          {
+            "n": 33,
+            "name": "High pass ﬁlter"
+          },
+          {
+            "n": 34,
+            "name": "Q ﬁlter"
+          },
+          {
+            "n": 35,
+            "name": "Mono Pitch (FX A) Poly Pitch (FX B)"
+          },
+          {
+            "n": 36,
+            "name": "808 OD (FX A Only)"
+          },
+          {
+            "n": 37,
+            "name": "Tube Drive (FX A Only)"
+          },
+          {
+            "n": 38,
+            "name": "BB Drive (FX A Only)"
+          },
+          {
+            "n": 39,
+            "name": "Pure Boost (FX A Only)"
+          },
+          {
+            "n": 40,
+            "name": "Flex Boost (FX A Only)"
+          }
+        ]
+      },
+      "DS_OD": {
+        "printed_page": 31,
+        "rows": [
+          {
+            "n": 1,
+            "name": "Tube DR"
+          },
+          {
+            "n": 2,
+            "name": "808"
+          },
+          {
+            "n": 3,
+            "name": "Pure Boost"
+          },
+          {
+            "n": 4,
+            "name": "Flex Boost"
+          },
+          {
+            "n": 5,
+            "name": "Od250"
+          },
+          {
+            "n": 6,
+            "name": "Ddrive"
+          },
+          {
+            "n": 7,
+            "name": "BlackRat"
+          },
+          {
+            "n": 8,
+            "name": "Grey Faze"
+          },
+          {
+            "n": 9,
+            "name": "Muffy"
+          },
+          {
+            "n": 10,
+            "name": "Fuzz Department"
+          },
+          {
+            "n": 11,
+            "name": "MTL Zone"
+          },
+          {
+            "n": 12,
+            "name": "MTL Master"
+          },
+          {
+            "n": 13,
+            "name": "Obsessive Dist"
+          },
+          {
+            "n": 14,
+            "name": "Jimmy OD"
+          },
+          {
+            "n": 15,
+            "name": "Full DRV"
+          },
+          {
+            "n": 16,
+            "name": "Shred"
+          },
+          {
+            "n": 17,
+            "name": "BeeBee Pre"
+          },
+          {
+            "n": 18,
+            "name": "BeeBee +"
+          },
+          {
+            "n": 19,
+            "name": "Riet"
+          },
+          {
+            "n": 20,
+            "name": "Tight DS"
+          },
+          {
+            "n": 21,
+            "name": "Full DS"
+          },
+          {
+            "n": 22,
+            "name": "Gold Clon"
+          },
+          {
+            "n": 23,
+            "name": "Vx Tube OD"
+          },
+          {
+            "n": 24,
+            "name": "Tight Metal"
+          },
+          {
+            "n": 25,
+            "name": "The Juicer"
+          },
+          {
+            "n": 26,
+            "name": "Rumble Drive"
+          },
+          {
+            "n": 27,
+            "name": "Solo"
+          },
+          {
+            "n": 28,
+            "name": "Blues Mood"
+          },
+          {
+            "n": 29,
+            "name": "Blues Crab"
+          },
+          {
+            "n": 30,
+            "name": "Blade"
+          },
+          {
+            "n": 31,
+            "name": "Hustle Drive"
+          }
+        ]
+      },
+      "DELAY": {
+        "printed_page": 58,
+        "rows": [
+          {
+            "n": 1,
+            "name": "Digital"
+          },
+          {
+            "n": 2,
+            "name": "Analog"
+          },
+          {
+            "n": 3,
+            "name": "Dynamic"
+          },
+          {
+            "n": 4,
+            "name": "Real"
+          },
+          {
+            "n": 5,
+            "name": "Tape"
+          },
+          {
+            "n": 6,
+            "name": "Mod"
+          },
+          {
+            "n": 7,
+            "name": "Reverse"
+          },
+          {
+            "n": 8,
+            "name": "Dual Delay"
+          },
+          {
+            "n": 9,
+            "name": "Multi Tap Delay"
+          },
+          {
+            "n": 10,
+            "name": "Ping Pong"
+          },
+          {
+            "n": 11,
+            "name": "Vintage Delay"
+          },
+          {
+            "n": 12,
+            "name": "Galaxy Delay"
+          },
+          {
+            "n": 13,
+            "name": "Fuzz Delay"
+          },
+          {
+            "n": 14,
+            "name": "Crystal Delay"
+          }
+        ]
+      },
+      "REVERB": {
+        "printed_page": 60,
+        "rows": [
+          {
+            "n": 1,
+            "name": "Room"
+          },
+          {
+            "n": 2,
+            "name": "Hall"
+          },
+          {
+            "n": 3,
+            "name": "Plate"
+          },
+          {
+            "n": 4,
+            "name": "Filter-Reverb"
+          },
+          {
+            "n": 5,
+            "name": "Fl-Reverb"
+          },
+          {
+            "n": 6,
+            "name": "Reverse-Reverb"
+          },
+          {
+            "n": 7,
+            "name": "Swell-Reverb"
+          },
+          {
+            "n": 8,
+            "name": "Spring"
+          },
+          {
+            "n": 9,
+            "name": "Mod"
+          },
+          {
+            "n": 10,
+            "name": "Shimmer"
+          },
+          {
+            "n": 11,
+            "name": "Dist-Reverb"
+          }
+        ]
+      }
+    },
+    "original_fx_selections": {
+      "FXA": 40,
+      "FXB": 35,
+      "shared_names": 34,
+      "row35": "Mono Pitch FXA versus Poly Pitch FXB",
+      "FXA_only_rows": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    "conditional_retention_totals": {
+      "FXA": 42,
+      "FXB": 40,
+      "DS_OD": 35,
+      "DELAY": 16,
+      "REVERB": 14
+    },
+    "qualification": "Derived only if all original choices and documented additions retained;not complete installed5.1.4 census;no unique-algorithm sum",
+    "trails": {
+      "version": "1.2.0",
+      "events": [
+        "patch change",
+        "effect off"
+      ],
+      "delay": [
+        "Digital",
+        "Analog",
+        "Dynamic",
+        "Real",
+        "Tape",
+        "Mod",
+        "PingPong"
+      ],
+      "reverb": [
+        "Room",
+        "Hall",
+        "Plate",
+        "Fl-Reverb",
+        "Swell-Reverb",
+        "Spring",
+        "Mod"
+      ],
+      "duration": "unverified",
+      "later_models": "unverified"
+    },
+    "offer": {
+      "seller": "31173885",
+      "item": "29362925028",
+      "idr": 11928000,
+      "search_cache": "5 days old",
+      "direct": "cache miss",
+      "condition": "unverified",
+      "stock": "unverified"
+    },
+    "next": "Read original AMP,CAB,NS,EQ full tables; reconcile named counts and later changes; preserve unresolved current-installed census and other fields."
   }
 }

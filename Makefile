@@ -2276,3 +2276,7 @@ expression-audit-stage-valeton:
 .PHONY: expression-audit-stage-boss
 expression-audit-stage-boss:
 	python3 scripts/expression_audit_boss.py stage
+
+.PHONY: research-stage-mooer
+research-stage-mooer:
+	python3 scripts/mooer_catalogue.py stage

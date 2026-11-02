@@ -1468,7 +1468,20 @@ Numbered original panel and rear descriptions (printed pp3–5) were read; PDF p
 
 The old **317 total types /164 effects /108 amps /43 cabinets** are historical manufacturer counts, not a verified current v5.1.4 inventory. Subsequent releases add harmony,vibe,drives,FX and ambience models; a complete reconciled current per-category count remains unknown. [M][G][F]
 
-**256 preset memories**, save destination selectable and editable; exact current factory-filled subset and separately reserved user count unknown. Factory and user counts must not be added to256. CTRL assignments may be global or per preset; original sub-patches toggle module groups, with v5.1.0 adding parameter changes. Exact sub-patch count and seamless switching/tail guarantees remain unverified. [M][F]
+### GE300 — revision delta audit, checked 2026-11-03
+
+Read the saved original manual’s complete named tables on printed pp23,25,28,31,58,60; expanded names are retained in the root ledger. [Current exact-model firmware history](https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html) is a change log, not a complete installed-library list. No firmware/editor/manual was newly downloaded or operated.
+
+| Field | Revision-qualified finding |
+|---|---|
+| Category choices / original FXA versus FXB | **40 FXA selections,35 FXB selections** in the original table. Rows1–34 share names;row35 is **Mono Pitch for FXA / Poly Pitch for FXB**;rows36–40 are FXA-only drives/boosts. Thus40 numbered rows do not prove40 unique algorithms shared by both blocks. Repeated drive/boost names also occur inDS/OD. |
+| Category choices / later additions | V3.0.1: **Intelligent Harmony→FXA;60s Vibe→FXB**. V4.0.1: **four DS/OD models;Noise Reducer→FXA;Auto Pan/Stereo Enhancer→FXB**. V5.1.0: **Stereo Rotary/Doubling→FXB;Studio/Morph PingPong→DELAY;Theater/Cathedral/Chorus Reverb→REVERB**. These are additions documented for GE300,not borrowed from Lite. |
+| Processing / provisional arithmetic | Assuming every original selection and documented addition remains: **FXA42,FXB40,DS/OD35,DELAY16,REVERB14**. These are derived retention-dependent totals,not certified installed5.1.4 counts. Do not add sharedFXA/FXB choices together as unique algorithms. COMP10/WAH10 original tables remain revision-qualified. |
+| Looper / trails | V1.2.0 documents patch-change and effect-off tails for **seven delays** (Digital,Analog,Dynamic,Real,Tape,Mod,PingPong) and **seven reverbs** (Room,Hall,Plate,Fl-Reverb,Swell-Reverb,Spring,Mod). No duration or blanket all-model guarantee;later added models need their own evidence. Latency fix language is not a measured zero-gap result. |
+
+
+
+**256 preset memories**, save destination selectable and editable; exact current factory-filled subset and separately reserved user count unknown. Factory and user counts must not be added to256. CTRL assignments may be global or per preset; original sub-patches toggle module groups, with v5.1.0 adding parameter changes. Exact sub-patch count and seamless switching remain unverified; model-specific V1.2.0 tail support is qualified in the revision audit above. [M][F]
 
 ### GE300 — IR, NAM and software
 
@@ -1515,6 +1528,8 @@ Complete printed pp19–22,86–88 read from the previously saved [original GE30
 | Expression / original scope | FUNCTION assigns one parameter within the preset;EXP1 toe switch optionally toggles its block. MERGE learns reversible heel/toe endpoints for multiple parameters across blocks. This does not establish global volume assignment or headphone/bypass/tail/looper attenuation. Built-in treadle excludes GE300 from the no-treadle shortlist. |
 
 [Exact-model firmware history](https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html) reopened2026-10-28 still lists5.1.4;3.0.1 notes a volume-expression Linear/Exponential fix,which does not prove assignment scope. [Shopee item31173885/29362925028](https://shopee.co.id/-Ready-Stock-mooer-ge300-amp-modelling-synth-multy-efek-multy-effect-mooer-Original-ge-300-i.31173885.29362925028) returned cache miss;olderRp11.928.000 remains historical with condition,stock,bundle and voucher unresolved.
+
+Offer recheck2026-11-03: fresh search exposes a **five-day-old indexed snapshot** of the same Vin’s Music Store item31173885/29362925028 at **Rp11.928.000**,KotaDepok. Direct opening still returns cache miss. “Ready Stock,” relative delivery and recent-activity snippets are not current stock authentication;condition,selected variation,bundle,warranty,shipping andcheckout remain unknown. No qualified used offer established.
 
 ## GE300 Lite
 
