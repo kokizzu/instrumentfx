@@ -1,20 +1,38 @@
-"""Validate and commit the reviewed FENDER expression audit locally."""
+"""Validate and publish a reviewed Fender catalogue findings."""
 import sys
+import hashlib
+from pathlib import Path
 sys.dont_write_bytecode = True
 from research_tools import git, verify
 import comparison_views
 
 if __name__ == '__main__':
-    assert sys.argv[1:] == ['commit']
+    assert sys.argv[1:] in (['stage'], ['commit'])
+    review_path = Path('/tmp/instrumentfx-fender-staged-review.json')
     verify()
     comparison_views.verify_views()
     comparison_views.test_readme_brand_counts()
     comparison_views.test_validation_counts()
-    assert not git('diff', '--cached', '--name-only').strip(), 'Existing staged changes'
-    allowed = {'brand/FENDER.md','FOOTSWITCH-DISPLAYS.md','EXPRESSION-VOLUME.md','README.md','MULTI-EFFECTS.md','all-guitar.md','all-bass.md','all-vocal.md','research-state.json','scripts/comparison_views.py','scripts/expression_audit_fender.py','Makefile'}
+    allowed = {'EXPRESSION-VOLUME.md', 'brand/FENDER.md', 'README.md', 'research-state.json', 'scripts/expression_audit_fender.py', 'Makefile', 'all-guitar.md', 'all-bass.md', 'all-vocal.md'}
     changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
-    assert changed <= allowed, changed - allowed
+    staged = set(git('diff','--cached','--name-only').splitlines())
+    assert (changed | staged) <= allowed, (changed | staged) - allowed
     assert not git('diff','--check').strip(), 'Whitespace errors'
-    git('add','--',*sorted(changed))
-    print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(fender): preserve exact UK-plug retail snapshot conflicts'))
+    if sys.argv[1:] == ['stage']:
+        assert not staged, 'Existing staged changes'
+        assert changed, 'No changes to review'
+        git('add','--',*sorted(changed))
+        diff = git('diff','--cached')
+        Path('/tmp/instrumentfx-fender-staged.diff').write_text(diff)
+        import json
+        review_path.write_text(json.dumps({'head': git('rev-parse','HEAD').strip(), 'sha256': hashlib.sha256(diff.encode()).hexdigest()}))
+        print(git('diff','--cached','--stat'))
+        print('Review /tmp/instrumentfx-fender-staged.diff before make expression-audit-commit-fender')
+    else:
+        assert staged and not changed, 'Stage and review all intended changes first'
+        import json
+        review = json.loads(review_path.read_text())
+        assert review['head'] == git('rev-parse','HEAD').strip(), 'HEAD changed since review'
+        assert review['sha256'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest(), 'Staged diff changed since review'
+        assert not git('diff','--cached','--check').strip(), 'Staged whitespace errors'
+        print(git('commit','-m','research(fender): qualify Tone Master Pro IR replacement and scene fixes'))

@@ -141617,5 +141617,20 @@
     "workflow": "Manufacturer external web capture or package existing NanoNAM;no upload/submission/execution/download",
     "limits": "A1/A2 andotherarchitectures,current407retention,concurrency/storage,packagingtransform/nativeengine unresolved",
     "onboard_capture": "notestablished;externalservice workflow doesnotprove standalone creation"
+  },
+  "tmp_ir_recall_20261103": {
+    "source": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+    "release": "1.7.53",
+    "date": "2025-12-03",
+    "replacement": "ThirdpartyIRreplacement retains allparameters;notcrosspreset/globalassignment",
+    "fixes": [
+      "IRswappingwithmultipleIRsandScenes",
+      "secondcabpositionnotretainedinsomeinstances"
+    ],
+    "remaining": [
+      "fileformats/rates/depth/length/slots",
+      "currentinstalledbehavior",
+      "globalEXPcoverage"
+    ]
   }
 }

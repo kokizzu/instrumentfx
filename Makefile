@@ -2300,3 +2300,7 @@ expression-audit-stage-poly:
 	python3 scripts/expression_audit_poly.py stage
 expression-audit-commit-poly:
 	python3 scripts/expression_audit_poly.py commit
+
+.PHONY: expression-audit-stage-fender
+expression-audit-stage-fender:
+	python3 scripts/expression_audit_fender.py stage

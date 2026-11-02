@@ -504,3 +504,13 @@ Checked **2026-11-01**;no download or device operation.
 | Live / historical tuner exception | Same **1.6.48** fixes Instrument Split outputs not both muting with the tuner. Earlier1.6.38 lists the lower-path issue andworkaround of selecting both Instrument and Mic/Line inTuner. This is tuner-state coverage,not global EXP attenuation of USB,headphones,tails orloops. |
 
 The current owner-manual and Guide H links still return unsupported document/pdf through the reader;their current full contents remain unverified. The NAM A2 original-account post was not recovered from the newer press links;the existing pending lead is not promoted to shipped functionality.
+
+### Tone Master Pro — third-party IR replacement and Scene recall fixes
+
+Checked 2026-11-03 in [manufacturer release history](https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates), specifically **1.7.53, December3,2025**.
+
+- Selecting a replacement **third-party IR retains all parameters** in this release. This concerns replacing the IR within its processing context, not preservation of a different preset’s settings or automatic global IR assignment. File formats, bit depths, rates, length and slot limits remain unresolved.
+- The same release fixes **IRs being swapped when a preset uses multiple IRs and Scenes**, and instances where a second cabinet did not remain in its assigned position. These are documented historical fixes, not new current-defect claims or hardware tests.
+- The previously recorded MIDI EXP4/Master Volume fix belongs to this same release. It is distinct from normal direct analog EXP mapping and does not establish final-output attenuation.
+
+Current1.8 equivalence has not been tested. These improvements do not establish universal tail/looper/headphone coverage, installed firmware or a current full model census. No download,update ordevice operation.
