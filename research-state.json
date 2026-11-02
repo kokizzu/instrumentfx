@@ -142921,5 +142921,23 @@
     ],
     "next": "Continue individual-foot-display priority;preserve GP-200JR -> HeadRush Prime -> MOOER GE300 independent sequence",
     "no_download_or_device_operation": true
+  },
+  "prime_os_qualification_20261103": {
+    "canonical": "brand/HEADRUSH.md#prime",
+    "sources": [
+      "https://support.headrushfx.com/en/support/solutions/articles/69000804015/",
+      "https://support.headrushfx.com/en/support/solutions/articles/69000872801-headrush-macos-26-tahoe-compatibility"
+    ],
+    "windows": "Windows11supported;PrimeaudioDriver1.0.2;WindowsARMunsupported;InsiderPreviewexcluded",
+    "mac": "Tahoe26 Intel/baseAppleSilicon supported;tableUpdater5.0.1,not5.2certification",
+    "scope": "USBfiletransfer,audiorecording,firmwareupdates;notRemoteeditororallDAW/chip/buildcertification",
+    "remaining": [
+      "Exact current browser and5.2 updater requirements",
+      "OLEDphysicalspecifications",
+      "Rig storage ceiling",
+      "Qualified exactShopee stock"
+    ],
+    "next": "Continue requested individual-foot-display models;preserve GP-200JR -> HeadRush Prime -> MOOER GE300 independent sequence",
+    "no_download_or_device_operation": true
   }
 }
