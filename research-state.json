@@ -143719,5 +143719,18 @@
     ],
     "remaining": "Current1.8 equivalence not device-tested;IR import limits,NAM first-party announcement andqualifiedcurrentShopeestock remain unverified.",
     "next": "Continue requested individual-display models;defer these source gaps without blocking remaining research."
+  },
+  "hxe_pedal_edit_pages_20261103": {
+    "model": "Line 6 HX Effects",
+    "source": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "basis": "Original3.80RevD complete printedpp7,13;remote text,no download/device test",
+    "findings": [
+      "PedalEditFS3MORE blockpages;FS1–3parameters,FS4page,FS5/6value;EXPselectedparameter",
+      "MODEexit vsheldMODE2seconds save",
+      "Panel1second vsprocedure2seconds entry conflict",
+      "Touchspill exposes18parameters acrosssixstrips withknobediting;separatefromPedalEdit"
+    ],
+    "remaining": "Actualentrythreshold,all-presetanalogvolume andqualifiedused/liveShopeeoffers remainunverified.",
+    "next": "Continue requestedindividualdisplay models;keep independentGP200JR→Prime→GE300 cursor."
   }
 }
