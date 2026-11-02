@@ -643,6 +643,7 @@ Checked **2026-10-17** against selected pages of the live **Rev E / firmware1.4*
 | Expression / external wiring and automatic targets | [Exact XL controller chapter](https://manuals.line6.com/en/helix-stadium/live/external-pedal-and-switch-controller-configuration): TRS Control A/B and C/D carry **A/C on tip, B/D on ring**. One TS controller uses A or C; two TS controllers need a splitter. EX2 combined pedal/toe uses TRS: A (or C)=EXP In, B (or D)=Footswitch In. Automatic Volume/Pan assignments use onboard **EXP2**, with toe-switch bypass; Wah/Pitch Wham use EXP1. Those defaults do not establish automatic external-pedal volume across every preset. General pedal resistance/taper compatibility remains unverified. |
 | Knobs / footswitches / buttons | **11 /12 /13** from text inventory:8 parameter rotaries,Volume,Upper,Lower;3 output buttons,3 transport,Home,Song,Amp,Save,XY,2 Page. Encoder presses counted once;toe and rear power additional. [Top panel][SX-T] |
 | Display | **8-inch color touchscreen**; **12 OLED scribble strips on XL**, explicitly reaffirmed2026-10-31 by manufacturer family page. The same page marks these strips XL-only; do not transfer them to non-XL Stadium Floor. Strip diagonal/color specification **?** [Display][SX-D], [Product][SX-P] |
+| Display / strip contents | XL FS2 displays stopwatch time in More Mode; multi-assignment Stomps default to MULTIPLE (X), up to 16 assignments. Stomp A/B's 20 positions reuse 12 physical switches. [Live behavior](#stadium-xl--live-scribble-strip-contents-and-virtual-positions). |
 | Display / brightness and dimming | [Live v1.4 global settings](https://manuals.line6.com/en/helix-stadium/live/global-settings): XL strip brightness **0% is the lowest setting; strips cannot be completely switched off**. Idle dimming affects main screen and strips after the documented input/activity conditions. Brightness and LED-ring settings do not establish OLED pixel color or diagonal. Checked **2026-11-01**; no device test. |
 | Preset down / up | Same [global settings](https://manuals.line6.com/en/helix-stadium/live/global-settings) assigns **FS1/FS7** to Bank, Preset, Snapshot, Song or Marker up/down in Preset/Snapshot/Combo modes; direction can be swapped. Stomp-mode use requires Command Center assignment. This verifies configurable onboard preset stepping, not a dedicated unchangeable pair or global volume. |
 | Dimensions / weight | **498 W × 257 D × 92 H mm; 5.25 kg**. Manufacturer also lists 19.4 W × 10.1 D × 3.6 H inches and 11.5 lb; rounded mixed units retained as published. [Support tips][SX-K] |
@@ -682,6 +683,20 @@ Checked 2026-10-31 against the live manufacturer v1.4 manual. Its navigation sti
 <!-- comparison evidence ends -->
 
 Recheck2026-10-31: the original Denpasar offer remainsRp41.220.000, but search reports a six-day crawl/delivery29October–1November while direct reopening returns three-month-old text/delivery18July. These are conflicting snapshots,not verified current stock; the original dated observations above remain intact.
+
+
+### Stadium XL — live scribble-strip contents and virtual positions
+
+Checked **2026-11-03** in the [manufacturer live top-panel/footswitch chapter](https://manuals.line6.com/en/helix-stadium/live/top-panel-and-footswitches). Documentation findings, not a hardware test.
+
+| Field | Exact XL behavior / qualification |
+|---|---|
+| Display / stopwatch | More Mode FS2 starts the stopwatch; another press pauses, hold resets. On **XL**, elapsed time also appears on the **FS2 strip**, separate from the main clock. |
+| Display / multiple assignments | A Stomp switch supports **up to 16 combined assignments**; its default label becomes **MULTIPLE (X)** with the assignment count. Custom labels/colors are possible. The strip does not therefore list every assigned block by default. |
+| Footswitch / virtual positions | **Stomp A and Stomp B provide 20 positions across modes**, reusing the same 12 physical switches. They do not add 20 screens or guarantee 20 concurrent effects. |
+| Live / mute scope | More and Transport modes assign **FS5 Mute All** to mute all outputs; press again or use onscreen Unmute. This discrete action does not prove continuous global expression attenuation or endpoints. |
+
+The [Global Settings chapter](https://manuals.line6.com/en/helix-stadium/live/global-settings) separately permits the FS12 strip to show BPM persistently instead of TAP/Tuner; temporary display is default. Capacitive switches do not establish touch-sensitive OLED panels. Strip pixel/diagonal/color specifications and qualified hardware stock remain unresolved. No download or device operation.
 
 ### Stadium XL provenance and next checks
 

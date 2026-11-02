@@ -142165,5 +142165,19 @@
     "driver": "USBAudio5.70.0 distinctfromMSGE3005.1.4;hostminimaunknown",
     "next": "Original GP-200JR -> Prime -> GE300 cycle advanced;fresh exactShopee/no-treadle research next,with individualLCDpriority andsourceblockers deferred",
     "no_device_operation": true
+  },
+  "stadium_xl_strip_contents_20261103": {
+    "canonical": "brand/LINE6.md#stadium-xl--live-scribble-strip-contents-and-virtual-positions",
+    "sources": [
+      "https://manuals.line6.com/en/helix-stadium/live/top-panel-and-footswitches",
+      "https://manuals.line6.com/en/helix-stadium/live/global-settings"
+    ],
+    "finding": "XL FS2 elapsed stopwatch;MULTIPLE(X) for up to16 assignments;20virtualStompA/Bpositions reuse12physicalswitches;FS5MuteAll discrete notEXP",
+    "remaining": [
+      "OLEDpixels/diagonal/color",
+      "universalEXPoutputcoverage",
+      "qualifiedhardwarestock"
+    ],
+    "next": "Continue requested individual-screen models and fresh exact Shopee hardware;blocked sources deferred;independent GP-200JR -> Prime -> GE300 retained"
   }
 }
