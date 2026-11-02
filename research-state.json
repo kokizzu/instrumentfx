@@ -142800,5 +142800,21 @@
     ],
     "next": "Continue requested individual-display models;defer inaccessible sources;preserve GP-200JR -> HeadRush Prime -> MOOER GE300 independent sequence",
     "no_download_or_device_operation": true
+  },
+  "fm9_nov2026_looper_states_20261103": {
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9--november-guide-cabinet-and-looper-limits",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026,printed55–56",
+    "max_time": "First reaching configured time invokes Record2ndPress Overdub/Play/Stop",
+    "threshold": "Above-80dB waits for input crossing;blinkingarmed tosolidrecording",
+    "once": "Stopped:playfromstartthenstop;playing:scheduleendstop,pressagainretrigger;recording:stoploop",
+    "qualification": "DocumentedFM9block behavior;notinstalledfirmware orpreset/powerretention",
+    "remaining": [
+      "Loop recording retention across presets/power",
+      "Global volume endpoints/recall/coverage",
+      "Qualified exact Shopee stock"
+    ],
+    "next": "Continue individual-foot-display priority;preserve GP-200JR -> HeadRush Prime -> MOOER GE300 independent cursor",
+    "no_download_or_device_operation": true
   }
 }
