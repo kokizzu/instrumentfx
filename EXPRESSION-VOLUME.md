@@ -672,3 +672,5 @@ RP360 [exact physical/electrical specifications](brand/DIGITECH.md#rp360--exact-
 [Exact-model screening](brand/EMPRESS.md#zoia--partial-no-treadle-discovery), outside active counts. Direct TRS EXP and patch-saved VCA routing are documented; global assignment across all presets remains unknown. Tracks actual tip-signal wiring, preview/load preset navigation, orientation-qualified footprint and unresolved headphones/output coverage separately. Shopee category-index ask is not an exact qualified hardware offer.
 
 ZOIA [firmware qualification](brand/EMPRESS.md#zoia--current-firmware-and-sampler-revision-boundaries): 5.32 retains Bank-mode bypass state across patch changes. This is separate from expression-position recall, global assignment or attenuation during bypass.
+
+H90 [historical range warning](brand/EVENTIDE.md#h90--historical-global-range-limitation-versus-program-mapping): a version-unspecified Eventide-hosted discussion reports−60…+12dB and no global range customization at that time. Current numeric endpoints remain unverified; manual Parameters-mode Start/End editing is separate from all-Program assignment.

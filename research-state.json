@@ -141531,5 +141531,21 @@
     "outputs": "Chinese exact-model page says6.35mm unbalanced/XLR balanced,corroborates inspected panel",
     "conflict": "Independent headphone-volume knob claimed by Chinese prose but absent from prior inspected control inventory; no added count or gain control inferred",
     "memory": "255=99factory+156remaining independently corroborated; no sibling transfer"
+  },
+  "h90_global_range_lead_20261103": {
+    "sources": [
+      "https://www.eventideaudio.com/forums/topic/h90-how-to-use-expression-pedal-as-volume-pedal/",
+      "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/edit-modes/parameters.html",
+      "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/system-menu/global.html"
+    ],
+    "reported_sweep_db": [
+      -60,
+      12
+    ],
+    "qualification": "Historical version/date-unspecified user report and unidentified reply; not current certified numeric endpoint or staff attribution",
+    "finding": "Reply says no custom global range then; per-Program mapping recommended. Manual Parameters range editor not evidence of global range editing.",
+    "current_range": "unverified",
+    "global_assignment": "manufacturer-supported;unchanged",
+    "next": "Exact current range/customization and position/bypass/dual/tail/looper coverage; do not equate calibration or patch ranges with global behavior"
   }
 }
