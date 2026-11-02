@@ -143194,5 +143194,12 @@
     "finding": "Same July15 firmware1.8.58 entry:US iOS15+,Japan13.1+;desktop builds agree. Preserve contradiction;US15+ planning minimum,actual mobile compatibility pending.",
     "status": "partial; no installation",
     "deferred": "AXOM MAX manufacturer PDF unavailable again; defer endpoint/visual check and continue other requested displays."
+  },
+  "prime_drymic_looper_scope_20261103": {
+    "model": "HeadRush Prime",
+    "source": "https://support.headrushfx.com/en/support/solutions/articles/69000834532-headrush-prime-frequently-asked-questions",
+    "finding": "Fixed Dry Mic processing on guitar-only routings is not arbitrary vocal blocks;Peel LIFO versus Insert overwrite all previous layers insection;one loop atatime.",
+    "qualification": "Unversioned manufacturer FAQ;no operation,current5.2 equivalence unresolved.",
+    "next": "Continue requested individual-screen models;defer oversized Prime5.2 PDF retrieval rather than download."
   }
 }
