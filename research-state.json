@@ -141949,5 +141949,33 @@
       "global analog-volume coverage"
     ],
     "status": "Documented mapping andinternal conflict;no hardware messages ordownloads. Source-blocked NAM primary/GuideH tasks deferred;continue other requested processors."
+  },
+  "pod_hd_desktop_discovery_20261103": {
+    "canonical": "brand/LINE6.md#pod-hd-desktop--partial-no-treadle-discovery",
+    "active": false,
+    "fully_verified": false,
+    "sources": [
+      "https://origin.line6.com/data/l/0a06434d156f34dd1b43e2c712/application/pdf/POD%20HD%20Quick%20Start%20Guide%20%28Rev%20C%29%20-%20English.pdf",
+      "https://line6.com/data/6/0a06434dc1125085c5933f8db/application/pdf/POD",
+      "https://kb.line6.com/pod-hd-desktop-faq",
+      "https://line6.com/media/podhddt/podhd-onesheet-np.pdf"
+    ],
+    "direct_analog_exp": "No socket in complete own handbook connector inventory;FBV controller route separate",
+    "controls": "Text-derived14rotaries,0footswitches,11keys+four-way pad;visual corroboration pending",
+    "memory": "512editable=8x64;factory fill unknown",
+    "conflicts": [
+      "HandbookRevD vsURLRevC",
+      "Main output unbalanced handbook vsbalanced one-sheet"
+    ],
+    "remaining": [
+      "chassis/mass,notpackaging",
+      "full category census/current installed content",
+      "exact software/USB matrix",
+      "synth/acoustic/import capabilities",
+      "global controller-volume range/recall/output coverage",
+      "qualified exact Shopee desktop hardware"
+    ],
+    "next": "Continue eligible no-treadle inventory after checking existing records;preserve separate-LCD priority andGP-200JR -> Prime -> GE300 independent cursor",
+    "downloads": false
   }
 }

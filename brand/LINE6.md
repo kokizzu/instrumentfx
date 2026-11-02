@@ -28,6 +28,7 @@ Root-level brand comparison. **Checked 2026-10-15.** POD Go Wireless and POD Exp
 - [POD HD400](#pod-hd400)
 - [POD HD500](#pod-hd500)
 - [POD HD500X](#pod-hd500x)
+- [POD HD Desktop — partial no-treadle discovery](#pod-hd-desktop--partial-no-treadle-discovery)
 - [POD X3 Live](#pod-x3-live)
 - [POD XT Live](#pod-xt-live)
 <!-- brand-index ends -->
@@ -2388,6 +2389,28 @@ No full-manual or installed-firmware audit claimed. FAQ power, dimensions and ph
 [H5X-O1]: https://shopee.co.id/effect-gitar-LINE-6-POD-HD500X-second-i.56303985.2253537586
 [H5X-O2]: https://shopee.co.id/Line-6-pod-hd500x-i.267406637.21071872133
 [H5X-O3]: https://shopee.co.id/pod-Hd500X-mulus-HC-line6-pod-hd-i.58780289.18911697683
+
+## POD HD Desktop — partial no-treadle discovery
+
+Checked **2026-11-03**. Exact desktop processor,not HD300/400/500 or HD Pro. Manufacturer [Pilot’s Handbook](https://origin.line6.com/data/l/0a06434d156f34dd1b43e2c712/application/pdf/POD%20HD%20Quick%20Start%20Guide%20%28Rev%20C%29%20-%20English.pdf) identifies **40-00-0295 RevD** despite RevC URL;[Advanced Guide](https://line6.com/data/6/0a06434dc1125085c5933f8db/application/pdf/POD) covers flash2.10+. Original text only,no visual census. **Partial lead outside active counts**;ownership,bass/vocal membership andcurrent installed contents unverified.
+
+| Field | Exact-model evidence / qualification |
+|---|---|
+| Expression / direct screening | Handbook’s complete connector inventory has **FBV**,not analog EXP. No built-in treadle oronboard footswitch. FBV controller-mediated EXP1/2 andtoe operation do not satisfy direct analog EXP into the processor. |
+| Controls / textual census | **13 front rotaries +mic trim=14;zero feet;11 keys plusfour-way navigation pad**. Push encoders counted once. Rotary census:Presets,four multifunction,Drive,four Tone,Volume,Master,Tweak. Physical corroboration pending. |
+| Display | Backlit LCD;diagonal,color andtouch unverified. No individual footswitch screens. |
+| I/O / connector conflict | Guitar in,XLR mic/trim,stereo quarter-inch outputs,phones,FBV,USB,S/PDIF out,power. Handbook calls main outputs **unbalanced**,while [manufacturer one-sheet](https://line6.com/media/podhddt/podhd-onesheet-np.pdf) says **balanced**. Preserve conflict;jack sizes/USB subtype require complete review. |
+| Volume / hand control | Handbook Master controls overall/headphone level globally,unsaved with presets;this is not FBV expression scope. Hand bank−/+ thenA–D selection is not onboard foot-operated preset−/+. |
+| Looper / continuity | Handbook permits changing presets while looping;Pre/Post changes processing position. [Desktop FAQ](https://kb.line6.com/pod-hd-desktop-faq):**24s full/48s half-speed**. Recorded-loop power retention/drums unknown. |
+| Memory | Desktop FAQ: **eight setlists×64=512 locations**;handbook permits overwriting every preset. Factory-filled subset unverified. Not512factory+512user. |
+| Power | Desktop FAQ:included **DC-3g9VDC3A,2.5mm,center-negative**. Supply rating,not measured draw;USB/battery operation unverified. |
+| Processing / choices | Advanced Guide3•1: **eight FX slots**,DSP-limited;handbook permits two amps inparallelA/B. One-sheet advertises22amps/100+FX;FAQ’s1.31 count22full+22preamp is revision-qualified,not current installed census. Category reconciliation pending. |
+| Editor / recording | Advanced Guide1•6: **POD HD Edit Windows/Mac**,editor/librarian. Current OS/architecture/driver availability unverified. FAQ lists44.1/48/88.2/96kHz,16/24bit;complete USB stream/mode matrix remains open. |
+| Synth / acoustic / imports | Dedicated synth/acoustic simulation,userIR,nativeNAM,convertedNAM andproprietary capture import remain unverified. Factory cabinet modeling is not userIR import. |
+| Chassis / mass | Unknown. One-sheet specifies retail/master-carton dimensions andweights,**not unit dimensions/mass**;do not use them for preferred200×140mm screening. |
+| IDR / exact hardware | Used/new unknown. Shopee search producedHD400 hardware,not an exact desktop offer. Seller/item,condition,stock,variant,bundle,warranty,voucher,region andcheckout remain unresolved. |
+
+FBV parameter targets have separate heel/toe values;global volume assignment,held-position recall,bypass/USB/headphone/tail/loop attenuation remain unknown. Direct analog connector screening isseparate fromthese controller questions. No local download,software installation orhardware operation. Finish remaining profile andqualified offers before active admission;do not transfer floor-unit specifications.
 
 ## POD X3 Live
 
