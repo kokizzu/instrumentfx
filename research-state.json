@@ -138926,5 +138926,34 @@
     "stock": "unknown;no Habis marker exposed,not verified available",
     "qualification": "Variation,bundle,workingstate,accessories,warranty,shipping/tax andcheckoutunknown. Relative next-daydelivery stale;late-delivery voucher notdeducted.",
     "inventory_change": false
+  },
+  "stadium_xl_shopee_cache_reconciliation_20261103": {
+    "model": "Line 6 Helix Stadium XL Floor",
+    "url": "https://shopee.co.id/LINE-6-HELIX-STADIUM-XL-FLOOR-LINE-6-HELIX-STADIUM-XL-FLOOR-i.440477624.53707848703",
+    "seller": "ROCKPIZZ MUSIC",
+    "shop_id": "440477624",
+    "item_id": "53707848703",
+    "ask_idr": 41220000,
+    "search_snapshot": "last week; October29–November1 delivery",
+    "direct_snapshot": "three months old; July18 delivery",
+    "qualification": "Same ask, conflicting cache freshness. Condition, stock, selected variation, bundle, microSD, warranty and checkout remain unknown; no voucher deducted.",
+    "sources_preserved": true
+  },
+  "research_continuation_policy_20261103": {
+    "instruction": "Continue independent remaining missions; defer source-blocked items to the end rather than stopping the whole research.",
+    "priority": "Exact Shopee Indonesia hardware offers, with requested separate physical footswitch-screen processors first.",
+    "deferred": [
+      {
+        "mission": "Visual footswitch/panel source inspection",
+        "blocker": "No browser surface or inspectable screenshot available",
+        "resume_when": "An inspectable primary-source image or browser surface becomes available"
+      },
+      {
+        "mission": "AXOM MAX manufacturer miniscreen technology and direct Shopee hardware offer",
+        "blocker": "Maker source inaccessible and exact Shopee offer not surfaced",
+        "resume_when": "A new accessible manufacturer source or exact hardware listing appears"
+      }
+    ],
+    "general_cursor_preserved": true
   }
 }

@@ -652,7 +652,7 @@ Checked **2026-10-17** against selected pages of the live **Rev E / firmware1.4*
 
 | Class | Amount | Exact hardware offer and qualifications |
 |---|---:|---|
-| Indexed hardware ask; sale condition unverified | **Rp41.220.000** | [ROCKPIZZ MUSIC,shop440477624/item53707848703][SX-O],Denpasar. ExactURL retrieved2026-10-17;cache3months old,delivery18July (olderlead said6July). Condition,variant,bundle,microSD,warranty andcheckoutstock **?**. Relative delivery andlate-deliveryvoucher up toRp10.000 do not prove live stock or reduce this ask. |
+| Indexed hardware ask; sale condition unverified | **Rp41.220.000** | [ROCKPIZZ MUSIC,shop440477624/item53707848703][SX-O],Denpasar. ExactURL retrieved2026-10-17;cache3months old,delivery18July (olderlead said6July). Condition,variant,bundle,microSD,warranty andcheckoutstock **?**. Rechecked2026-11-03: search returned a last-week snapshot withOctober29–November1 delivery;direct open still returned the three-month snapshot withJuly18 delivery. Both quote the same ask; conflicting cache freshness cannot establish current availability. Relative delivery andlate-deliveryvoucher up toRp10.000 do not prove live stock or reduce this ask. |
 | Separate indexed XL hardware ask; service unavailable | **Rp41.220.000** | [Rockpizz_Batubulan,shop440269597/item42029627291](https://shopee.co.id/Line-6-Helix-Stadium-XL-Floor-Amp-And-Effects-Processor-i.440269597.42029627291),Kab.Gianyar. Checked2026-10-31 via four-month-old search snapshot: **Layanan Tidak Tersedia**. Direct reopening cache miss. Condition,variant,bundle,microSD,warranty,shipping/tax and checkout unknown; not an available new-price floor. |
 | Verified used offer | **?** | Not established |
 | Verified new offer | **?** | Sale condition unverified |

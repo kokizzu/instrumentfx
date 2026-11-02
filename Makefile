@@ -2264,3 +2264,7 @@ brand-filename-diff-check:
 .PHONY: expression-audit-stage-headrush
 expression-audit-stage-headrush:
 	python3 scripts/expression_audit_headrush.py stage
+
+.PHONY: expression-audit-stage-line6
+expression-audit-stage-line6:
+	python3 scripts/expression_audit_line6.py stage
