@@ -35,4 +35,4 @@ if __name__ == '__main__':
         assert review['head'] == git('rev-parse','HEAD').strip(), 'HEAD changed since review'
         assert review['sha256'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest(), 'Staged diff changed since review'
         assert not git('diff','--cached','--check').strip(), 'Staged whitespace errors'
-        print(git('commit','-m','research(line6): reconcile Stadium XL offer cache snapshots'))
+        print(git('commit','-m','research(line6): retain two qualified Helix Floor hardware offers'))

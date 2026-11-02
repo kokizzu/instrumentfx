@@ -138987,5 +138987,30 @@
       "current condition-qualified availability"
     ],
     "inventory_change": false
+  },
+  "helix_floor_additional_shopee_20261103": {
+    "model": "Line 6 Helix Floor",
+    "inventory_change": false,
+    "offers": [
+      {
+        "shop": "16879370",
+        "item": "1156364342",
+        "seller": "Seven Stereo Music & Audio Store",
+        "region": "KotaBandung",
+        "ask_idr": 29590000,
+        "cache": "three months;July16–18 delivery",
+        "direct": "cache miss"
+      },
+      {
+        "shop": "18437660",
+        "item": "6815711065",
+        "seller": "Tempo Music",
+        "region": "KotaJakartaBarat",
+        "ask_idr": 20400000,
+        "cache": "five months;May31–June5 delivery;seller last active three years earlier",
+        "direct": "cache miss"
+      }
+    ],
+    "qualification": "Exact hardware-title indexed asks;condition,working state,stock,variation,bundle,adapter,warranty andcheckout unknown. Not verified new/used range or completed sale;no voucher deducted."
   }
 }
