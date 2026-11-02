@@ -24410,8 +24410,11 @@
       "status": "Unrecorded candidate;manufacturerverificationrequired",
       "qualified_live_stock": false,
       "current_resolution": {
-        "status": "exact-name resolution pending",
-        "qualification": "No exact inventory-name match; this is not proof of absence or a new model. Preserve variant, revision and grouped-lead qualifications; inspect canonical records before admission."
+        "status": "existing partial canonical profile",
+        "model_key": "Sonicake::Black Hammer QCE-30",
+        "canonical_record": "brand/SONICAKE.md#black-hammer-qce-30",
+        "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model.",
+        "identity_source": "https://www.sonicake.com/products/black-hammer"
       }
     },
     {

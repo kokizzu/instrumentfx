@@ -9,6 +9,7 @@ from research_tools import identity, git, verify
 ROOT = Path(__file__).resolve().parents[1]
 PLAN = Path('/tmp/instrumentfx-discovery-resolution.json')
 ALIASES = {'Fractal Audio': ('Fractal',), 'TC-Helicon': ('TC-HELICON',)}
+MODEL_ALIASES = {'Sonicake Black Hammer': ('Sonicake::Black Hammer QCE-30', 'https://www.sonicake.com/products/black-hammer')}
 def digest(text):
     return hashlib.sha256(text.encode()).hexdigest()
 def reconcile(state):
@@ -23,10 +24,13 @@ def reconcile(state):
         name = lead.get('model')
         if not name:
             continue
-        key = names.get(name)
+        alias = MODEL_ALIASES.get(name)
+        key = names.get(name) or (alias[0] if alias and alias[0] in names.values() and alias[0] in state['comparison_model_sources'] else None)
         if key:
             source = state['comparison_model_sources'][key]['link']
             lead['current_resolution'] = dict(status='existing partial canonical profile', model_key=key, canonical_record=source, qualification='Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model.')
+            if alias:
+                lead['current_resolution']['identity_source'] = alias[1]
         else:
             lead['current_resolution'] = dict(status='exact-name resolution pending', qualification='No exact inventory-name match; this is not proof of absence or a new model. Preserve variant, revision and grouped-lead qualifications; inspect canonical records before admission.')
     return result
@@ -41,6 +45,12 @@ def test():
     assert out[4]==s['discovery_leads'][4], 'Grouped lead rewritten'
     for old,new in zip(s['discovery_leads'],out):
         assert {k:v for k,v in new.items() if k!='current_resolution'}==old
+    alias_state=dict(inventory_by_brand={'Sonicake':['Black Hammer QCE-30']},comparison_model_sources={'Sonicake::Black Hammer QCE-30':{'link':'brand/SONICAKE.md#black-hammer-qce-30'}},discovery_leads=[{'model':'Sonicake Black Hammer'},{'model':'Sonicake Black Hammer II'}])
+    alias_out=reconcile(alias_state)
+    assert alias_out[0]['current_resolution']['identity_source']==MODEL_ALIASES['Sonicake Black Hammer'][1]
+    assert alias_out[1]['current_resolution']['status']=='exact-name resolution pending'
+    alias_state['inventory_by_brand']={}
+    assert reconcile(alias_state)[0]['current_resolution']['status']=='exact-name resolution pending'
     print('PASS: exact identity only; sibling/revision/grouped leads not guessed; historical observations unchanged.')
 
 def main(mode):
@@ -67,7 +77,7 @@ def main(mode):
         print('Applied reviewed discovery resolutions; historical fields and inventory unchanged.'); return
     assert mode in ('stage','commit')
     verify()
-    allowed={'scripts/discovery_resolution.py','Makefile','research-state.json'}
+    allowed={'scripts/discovery_resolution.py','Makefile','research-state.json','brand/SONICAKE.md','all-guitar.md','all-bass.md','all-vocal.md'}
     changed=set(git('diff','--name-only').splitlines())|set(git('ls-files','--others','--exclude-standard').splitlines())
     staged=set(git('diff','--cached','--name-only').splitlines())
     assert (changed|staged)<=allowed
@@ -86,6 +96,6 @@ def main(mode):
     r=json.loads(review.read_text())
     assert r['head']==git('rev-parse','HEAD').strip() and r['sha256']==digest(git('diff','--cached'))
     assert not git('diff','--cached','--check').strip()
-    print(git('commit','-m','research: reconcile stale discovery labels with canonical inventory'))
+    print(git('commit','-m','research(sonicake): resolve Black Hammer QCE-30 discovery identity'))
 if __name__=='__main__':
     main(sys.argv[1])

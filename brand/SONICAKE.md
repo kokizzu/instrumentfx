@@ -100,6 +100,7 @@ Guitar multi-effects strip; manufacturer identifies QCE-30. Checked2026-10-17; p
 
 | Field | Finding / qualification | Evidence |
 |---|---|---|
+| Manufacturer identity | Rechecked **2026-11-03**: manufacturer explicitly pairs **Black Hammer** with **QCE-30**. The older discovery label “Sonicake Black Hammer” therefore routes to this existing partial profile;it is not another model. This doesnot authenticate the individual seller unit,condition,revision orbundle. Original manual image andpanel image remain inaccessible this check;no visual count claimed. | [Exact manufacturer product][BH-P] |
 | Expression | Built-in, external and toe support unverified. | Unresolved |
 | K/F/B | Separate rotary/footswitch/button totals await readable panel/manual. | Unresolved |
 | Display | LED knobs indicate operating state; screen technology/diagonal/color/touch unverified. | [Product][BH-P] |
