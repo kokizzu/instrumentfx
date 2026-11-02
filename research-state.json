@@ -142902,5 +142902,24 @@
     ],
     "next": "Continue requested separate-display models;defer unresolvedsourceconflicts;preserve GP-200JR -> HeadRush Prime -> MOOER GE300 sequence",
     "no_download_or_device_operation": true
+  },
+  "fender_asio_requirements_20261103": {
+    "canonical": "brand/FENDER.md#tone-master-pro",
+    "sources": [
+      "https://www.fmicassets.com/Damroot/Original/10062/RM_Fender-Universal-ASIO-Driver-Pro-Control_EN.pdf",
+      "https://www.fmicassets.com/Damroot/Original/10045/Pro-Control-ASIO-Audio-Driver-Knowledgebase-Article.pdf",
+      "https://intl.fender.com/products/tone-master-pro"
+    ],
+    "minimum": "Windows10x64 22H2+;Windows11",
+    "driver_listing": "UniversalASIO5.72.0",
+    "scope": "Instructions unversioned;driverupdate not requiredforeveryhardwarefirmwareupdate;noteditor minimum orWindowsARM certification",
+    "remaining": [
+      "Current GuideH category census",
+      "IR sourcefile/slot limits",
+      "Global analog volume coverage",
+      "Qualified current exactShopee stock"
+    ],
+    "next": "Continue individual-foot-display priority;preserve GP-200JR -> HeadRush Prime -> MOOER GE300 independent sequence",
+    "no_download_or_device_operation": true
   }
 }
