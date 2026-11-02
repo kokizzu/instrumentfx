@@ -141462,5 +141462,15 @@
       "imports/editor support"
     ],
     "queue_policy": "Defer inaccessible exact offers; continue accessible LCD-first and independent general queue without treating blocked items as completed."
+  },
+  "empress_zoia_firmware_20261103": {
+    "source": "https://empresseffects.com/pages/firmware-updates",
+    "changelog": "https://empresseffects.com/cdn/shop/files/zoia_changelog_79fc7e0a-a748-4381-a0df-0f0866ff01d6.txt?v=9624477519191733807",
+    "published_release": "5.41",
+    "date": "2026-06-16",
+    "bank_bypass": "5.32 preserves current bypass state across patch changes; not volume assignment/coverage proof",
+    "sampler": "4.00 mono/stereo WAV8/16/24/32bit,48k playback; individual built-in conversion; not IR/NAM evidence",
+    "backward_compatibility": "4.20+ sequencer patches incompatible with earlier firmware",
+    "downloaded_or_executed": false
   }
 }

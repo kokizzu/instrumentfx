@@ -5,8 +5,19 @@
 <!-- brand-index begins -->
 **Model and section index — A–Z, natural numeric order**
 
+- [ZOIA — current firmware and sampler revision boundaries](#zoia--current-firmware-and-sampler-revision-boundaries)
 - [ZOIA — partial no-treadle discovery](#zoia--partial-no-treadle-discovery)
 <!-- brand-index ends -->
+
+## ZOIA — current firmware and sampler revision boundaries
+
+Checked2026-11-03. [Manufacturer firmware page](https://empresseffects.com/pages/firmware-updates) advertises **5.41**; [manufacturer changelog](https://empresseffects.com/cdn/shop/files/zoia_changelog_79fc7e0a-a748-4381-a0df-0f0866ff01d6.txt?v=9624477519191733807) dates it June16,2026. This is a published release, not a claim about installed firmware; no binary downloaded or run.
+
+- 5.41 revises factory patch1 on ZOIA (patch37 on Euroburo); model-specific positions must not be interchanged.
+- 5.40 adds MIDI pitch-bend OUT and aftertouch OUT modules. The product-page module list may lag; no complete current census inferred.
+- **5.32 retains bypass state when changing patches in Bank mode**, fixing earlier toggling. The Rev02 manual describes pressing the selected switch again to bypass. Keep these version-qualified; neither proves that expression volume survives bypass or acts globally.
+- 4.00 sampler supports mono/stereo WAV at8/16/24/32bit, with48kHz required for playback and built-in conversion of individual files. WAV sample import is not IR/NAM/capture support.
+- Sequencer patches saved on4.20+ do not load correctly on earlier firmware. Preserve original backups for backward compatibility. Current preset-volume override and output/tail/looper coverage remain unverified.
 
 ## ZOIA — partial no-treadle discovery
 

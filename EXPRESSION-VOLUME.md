@@ -670,3 +670,5 @@ RP360 [exact physical/electrical specifications](brand/DIGITECH.md#rp360--exact-
 ### Empress ZOIA — partial no-treadle discovery
 
 [Exact-model screening](brand/EMPRESS.md#zoia--partial-no-treadle-discovery), outside active counts. Direct TRS EXP and patch-saved VCA routing are documented; global assignment across all presets remains unknown. Tracks actual tip-signal wiring, preview/load preset navigation, orientation-qualified footprint and unresolved headphones/output coverage separately. Shopee category-index ask is not an exact qualified hardware offer.
+
+ZOIA [firmware qualification](brand/EMPRESS.md#zoia--current-firmware-and-sampler-revision-boundaries): 5.32 retains Bank-mode bypass state across patch changes. This is separate from expression-position recall, global assignment or attenuation during bypass.
