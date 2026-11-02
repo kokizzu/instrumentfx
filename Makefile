@@ -2316,3 +2316,7 @@ expression-audit-stage-nux:
 .PHONY: expression-audit-stage-neural
 expression-audit-stage-neural:
 	python3 scripts/expression_audit_neural.py stage
+
+.PHONY: research-stage-hotone
+research-stage-hotone:
+	python3 scripts/hotone_catalogue.py stage
