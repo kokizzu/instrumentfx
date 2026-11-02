@@ -660,3 +660,5 @@ Spark PEDAL [backup and looper-source scope](brand/POSITIVE-GRID.md#spark-pedal-
 RP360 [original slot/type limits](brand/DIGITECH.md#rp360--ten-slot-limit-and-original-compressordrive-choices):up to10 effects,one per effect type;three compressor and23 distortion choices are model selections,not concurrent blocks. This does not resolve global analog-volume assignment oroutput coverage;partial admission status remains.
 
 RP360 [85-choice reconstruction](brand/DIGITECH.md#rp360--original-85-choice-effects-reconciliation) is revision-qualified library arithmetic,not a change to its preset-stored EXP assignment,volume endpoints oroutput-coverage classification.
+
+RP360 [AMP/CAB counting](brand/DIGITECH.md#rp360--ampcab-direct-option-counting): original 55/27 selections include Direct, while 54/26 exclude it. Two acoustic simulators disable cabinet selection. These library facts do not establish global expression volume or its output coverage.

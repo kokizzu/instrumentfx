@@ -126555,9 +126555,10 @@
       "category_census": {
         "checked": "2026-11-03",
         "ledger": "rp360_effect_census_20261103",
-        "status": "85-choice original reconstruction;AMP/CAB andcurrentfirmwareunresolved"
+        "status": "85-choice original reconstruction;AMP/CAB andcurrentfirmwareunresolved",
+        "amp_cab": "Original55AMP/27CABselections includeDirect;52amps+2acsim+Direct,26cabs+Direct"
       },
-      "next": "Finish RP360 original AMP/CAB named census andprofile;exactnonXPShopeeoffer andglobalvolumeoutputcoverage remainunverified"
+      "next": "Complete RP360 remaining USB/editor/import/display andphysical profile;exactnonXPShopee andglobalvolume/outputcoverage pending"
     },
     "ngs6_lead": {
       "status": "partial, outside active inventory",
@@ -141307,5 +141308,72 @@
       "HeadRush Prime",
       "MOOER GE300"
     ]
+  },
+  "rp360_amp_cab_direct_count_20261103": {
+    "sources": [
+      "https://manualmachine.com/digitech/rp360/1256376-user-manual/",
+      "https://www.manualslib.com/manual/819896/Digitech-Rp360.html?page=68",
+      "https://www.manualslib.com/manual/819896/Digitech-Rp360.html?page=69"
+    ],
+    "identity": "Shared RP360/RP360XP cover,120pages,printed56–66 originalbody;noFAQevidence",
+    "amp_counts_by_printed_page": {
+      "56": 3,
+      "57": 8,
+      "58": 8,
+      "59": 9,
+      "60": 10,
+      "61": 8,
+      "62": 8,
+      "63": 1
+    },
+    "amp_total": 55,
+    "amp_scope": {
+      "amplifier_models": 52,
+      "acoustic_simulators": 2,
+      "direct": 1
+    },
+    "cab_counts_by_printed_page": {
+      "64": 8,
+      "65": 10,
+      "66": 9
+    },
+    "cab_total": 27,
+    "cab_modeled": 26,
+    "CAB": [
+      "1x8: Champ",
+      "1x12: D-Luxe",
+      "1x12: LuxRev",
+      "1x12: AC British",
+      "1x12: Gib-GA",
+      "2x12: Bass Man",
+      "2x12: Twin",
+      "2x12: AC British",
+      "2x12: Jazz",
+      "2x15: JBL",
+      "4x10: Bass Man",
+      "4x12: Classic",
+      "4x12: Green",
+      "4x12: Fane",
+      "4x12: Boutique",
+      "4x12: V30",
+      "4x12: Recto",
+      "4x12: Solo",
+      "2x12: Bright",
+      "4x12: Metal",
+      "4x12: Rock",
+      "4x12: Alternative",
+      "4x12: Vintage",
+      "4x12: Chunk",
+      "4x12: Spank",
+      "2101 Speaker",
+      "Direct"
+    ],
+    "acoustic": [
+      "Dread Acoustic",
+      "Jumbo Acoustic"
+    ],
+    "routing": "Acoustic choices disableCAB;AMPDirectallowsCAB;CABDirectremovescabmodeling",
+    "qualification": "Original54/55and26/27 consistentwithDirectcounting;manufacturerproductreasonnotexplicit;currentinstalledversionuntested;olderobservationspreserved",
+    "next": "Complete RP360 remaining USB/editor/import/display andphysical profile;exactnonXPShopee andglobalvolume/outputcoverage pending"
   }
 }

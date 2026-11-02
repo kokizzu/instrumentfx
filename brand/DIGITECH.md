@@ -1057,6 +1057,18 @@ Checked **2026-11-03** in the same original shared RP360/RP360XP manual: [printe
 
 Derived total: **3wah+3compressor+23distortion+1EQ+2gate+1Volume+37FX+9delay+6reverb=85**. This reproduces the historical85-effects headline under that counting convention;it is not85 unique modeled stompboxes,an installed-firmware test or a sum ofconcurrentblocks. Amp/cab selections remain separate andtheir55/27 versus54/26 product conflict isstillopen. Exact RP360 hardwareoffers,globalexpression override andoutput coverage remain unresolved;partiallead stays outside activecounts.
 
+### RP360 — AMP/CAB Direct-option counting
+
+Checked **2026-11-03** in the original shared manual reproduced by [ManualMachine](https://manualmachine.com/digitech/rp360/1256376-user-manual/), printed pp56–66. Its RP360/RP360XP cover, 120-page structure and section numbering identify the original body; host FAQs are excluded. [Cabinet p64](https://www.manualslib.com/manual/819896/Digitech-Rp360.html?page=68) and [p65](https://www.manualslib.com/manual/819896/Digitech-Rp360.html?page=69) corroborate the first 18 cabinet names. No local download or device test.
+
+| Field | Original-list reconciliation / scope |
+|---|---|
+| Category choices / AMP | Page counts **3+8+8+9+10+8+8+1=55 selections**: **52 amp models, two acoustic simulators and Direct**. Excluding Direct yields 54 modeled choices. This makes 54/55 consistent with counting Direct differently, although the product does not explain its convention. |
+| Category choices / CAB | **8+10+9=27 selections**: **26 cabinet models plus Direct**. The first 18 names match the separately readable pages; the complete list is retained in the ledger. The 26/27 distinction likewise depends on Direct, without requiring a later-added cabinet. |
+| Synth / acoustic routing | Dread Acoustic and Jumbo Acoustic simulate acoustic guitars and disable cabinet selection. AMP Direct removes amp modeling while allowing a cabinet; CAB Direct disables cabinet modeling. These functions do not establish user IR imports or additional simultaneous blocks. |
+
+Historical product figures and earlier contradiction reports remain above. This reconciles the original lists, not current installed firmware or every advertised total. Exact non-XP hardware offers, remaining profile fields and global-volume/output coverage still need evidence. RP360 remains a **partial lead outside active counts**.
+
 ### RP55 — exact controller and bypass follow-up
 
 Checked2026-10-19. [Own18-0838V-A manual, printed pp2,4,10,20](https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP55-Manual-18-0838V-A.pdf): Control In accepts passive mono volume orTS expression;TRS unsupported. No resistance value established;RP360/RP150 values are not transferred. Volume operates only withWah andWhammy disabled. Up/Down switches increment/decrement presets;both together bypass,then either restores last preset. Bypass provides clean unprocessed tone,but text doesnot establish pedal attenuation there. Position,min/max,headphone attenuation andtails/looper coverage remain unknown. SharedTRS audio output supports phones;its stereo wiring is separate fromTS Control In. Cabinet modeling being global doesnot make volume unconditional. Existingmanual/product dimension conflict retained;no hardware test,stock refresh ordownloads.
