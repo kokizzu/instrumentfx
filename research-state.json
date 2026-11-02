@@ -126480,8 +126480,8 @@
     ],
     "current_task": {
       "model": "MOOER GE300",
-      "next": "Read original AMP,CAB,NS,EQ full tables; reconcile named counts and later changes; preserve unresolved current-installed census and other fields.",
-      "completed": "GP-200JR1.8.0 all11 namedmodule tables complete:288selector entries,notuniquealgorithms;imports separate",
+      "next": "Resume requested separate-footdisplay Shopee Indonesia hardware discovery; retain GE300 current installed census,IR/NAMsubvariants,memory,power/display and qualified offers as unresolved.",
+      "completed": "GP-200JR1.8 category census;Prime routing/website corrections;GE300 original named COMP/WAH/FXA-FXB/DSOD/AMP/CAB/NS/EQ/DELAY/REVERB tables checked and saved,withfirmwaredeltas qualified",
       "priority_qualification": "Requested separate-footdisplay processors still first when new accessible evidence is available;source-blocked items deferred",
       "gp200jr_remaining": [
         "Manufacturer corrections forcopiedmodeltext",
@@ -140421,5 +140421,707 @@
       "stock": "unverified"
     },
     "next": "Read original AMP,CAB,NS,EQ full tables; reconcile named counts and later changes; preserve unresolved current-installed census and other fields."
+  },
+  "ge300_remaining_original_tables_20261103": {
+    "source": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf",
+    "access": "previously saved original extraction;no new download",
+    "printed_pages": [
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      52
+    ],
+    "AMP": [
+      {
+        "n": 1,
+        "name": "US Blues JR"
+      },
+      {
+        "n": 2,
+        "name": "65 US DX"
+      },
+      {
+        "n": 3,
+        "name": "65 US TW"
+      },
+      {
+        "n": 4,
+        "name": "US Sonic"
+      },
+      {
+        "n": 5,
+        "name": "US Blues CL"
+      },
+      {
+        "n": 6,
+        "name": "US Blues OD"
+      },
+      {
+        "n": 7,
+        "name": "59 US BASS"
+      },
+      {
+        "n": 8,
+        "name": "UK30 CL"
+      },
+      {
+        "n": 9,
+        "name": "UK30 OD"
+      },
+      {
+        "n": 10,
+        "name": "J800"
+      },
+      {
+        "n": 11,
+        "name": "J900"
+      },
+      {
+        "n": 12,
+        "name": "PLX 100"
+      },
+      {
+        "n": 13,
+        "name": "J2525 CH1"
+      },
+      {
+        "n": 14,
+        "name": "J2525 CH2"
+      },
+      {
+        "n": 15,
+        "name": "J410 CL"
+      },
+      {
+        "n": 16,
+        "name": "J410 DS"
+      },
+      {
+        "n": 17,
+        "name": "US Gold 100 CL"
+      },
+      {
+        "n": 18,
+        "name": "US Gold 100 DS"
+      },
+      {
+        "n": 19,
+        "name": "US Gold 50A"
+      },
+      {
+        "n": 20,
+        "name": "US Gold 50B"
+      },
+      {
+        "n": 21,
+        "name": "Cali LS CH1"
+      },
+      {
+        "n": 22,
+        "name": "Cali LS CH2"
+      },
+      {
+        "n": 23,
+        "name": "Cali Dual 1"
+      },
+      {
+        "n": 24,
+        "name": "Cali Dual 2"
+      },
+      {
+        "n": 25,
+        "name": "TRI REC CL"
+      },
+      {
+        "n": 26,
+        "name": "TRI REC DS"
+      },
+      {
+        "n": 27,
+        "name": "MARKIII CL"
+      },
+      {
+        "n": 28,
+        "name": "MARKIII DS"
+      },
+      {
+        "n": 29,
+        "name": "Cali MK4 A"
+      },
+      {
+        "n": 30,
+        "name": "Cali MK4 B"
+      },
+      {
+        "n": 31,
+        "name": "Cali MK4 C"
+      },
+      {
+        "n": 32,
+        "name": "MARKV CL"
+      },
+      {
+        "n": 33,
+        "name": "MARKV DS"
+      },
+      {
+        "n": 34,
+        "name": "Cali JP A"
+      },
+      {
+        "n": 35,
+        "name": "Cali JP B"
+      },
+      {
+        "n": 36,
+        "name": "Cali JP C"
+      },
+      {
+        "n": 37,
+        "name": "Eagle FB CH1"
+      },
+      {
+        "n": 38,
+        "name": "Eagle FB CH2"
+      },
+      {
+        "n": 39,
+        "name": "Powerbell CL"
+      },
+      {
+        "n": 40,
+        "name": "Powerbell DS"
+      },
+      {
+        "n": 41,
+        "name": "Blacknight CL"
+      },
+      {
+        "n": 42,
+        "name": "Blacknight DS"
+      },
+      {
+        "n": 43,
+        "name": "Eagle 670 CL"
+      },
+      {
+        "n": 44,
+        "name": "Eagle 670 CR"
+      },
+      {
+        "n": 45,
+        "name": "Eagle 670 L1"
+      },
+      {
+        "n": 46,
+        "name": "Eagle 670 L2"
+      },
+      {
+        "n": 47,
+        "name": "Satsuma TH200A"
+      },
+      {
+        "n": 48,
+        "name": "Satsuma TH200B"
+      },
+      {
+        "n": 49,
+        "name": "Satsuma TH30A"
+      },
+      {
+        "n": 50,
+        "name": "Satsuma TH30B"
+      },
+      {
+        "n": 51,
+        "name": "Rock Vrb CL"
+      },
+      {
+        "n": 52,
+        "name": "Rock Vrb DS"
+      },
+      {
+        "n": 53,
+        "name": "Citrus 30"
+      },
+      {
+        "n": 54,
+        "name": "EV 5050 CL"
+      },
+      {
+        "n": 55,
+        "name": "EV 5050 DS"
+      },
+      {
+        "n": 56,
+        "name": "PV 5050 CL"
+      },
+      {
+        "n": 57,
+        "name": "PV 5050 DS"
+      },
+      {
+        "n": 58,
+        "name": "Petey 6550 A"
+      },
+      {
+        "n": 59,
+        "name": "Petey 6550 B"
+      },
+      {
+        "n": 60,
+        "name": "Petey Satch CL"
+      },
+      {
+        "n": 61,
+        "name": "Petey Satch CR"
+      },
+      {
+        "n": 62,
+        "name": "Petey Satch UL"
+      },
+      {
+        "n": 63,
+        "name": "Herby CH1"
+      },
+      {
+        "n": 64,
+        "name": "Herby CH2"
+      },
+      {
+        "n": 65,
+        "name": "Herby CH3"
+      },
+      {
+        "n": 66,
+        "name": "VHS CH1"
+      },
+      {
+        "n": 67,
+        "name": "VHS CH2"
+      },
+      {
+        "n": 68,
+        "name": "VHS CH3"
+      },
+      {
+        "n": 69,
+        "name": "VHS CH4"
+      },
+      {
+        "n": 70,
+        "name": "Hugen CL"
+      },
+      {
+        "n": 71,
+        "name": "Hugen OD"
+      },
+      {
+        "n": 72,
+        "name": "Hugen DS"
+      },
+      {
+        "n": 73,
+        "name": "Randy Devil CL"
+      },
+      {
+        "n": 74,
+        "name": "Randy Devil DS"
+      },
+      {
+        "n": 75,
+        "name": "SLOW 100 CR"
+      },
+      {
+        "n": 76,
+        "name": "SLOW 100 DS"
+      },
+      {
+        "n": 77,
+        "name": "JET 100H CL"
+      },
+      {
+        "n": 78,
+        "name": "JET 100H OD"
+      },
+      {
+        "n": 79,
+        "name": "Koche OD"
+      },
+      {
+        "n": 80,
+        "name": "Koche DS"
+      },
+      {
+        "n": 81,
+        "name": "Blueno UG 30A"
+      },
+      {
+        "n": 82,
+        "name": "Blueno UG 30B"
+      },
+      {
+        "n": 83,
+        "name": "Custom 100 CH1"
+      },
+      {
+        "n": 84,
+        "name": "Custom 100 CH2"
+      },
+      {
+        "n": 85,
+        "name": "Custom 100 CH3"
+      },
+      {
+        "n": 86,
+        "name": "Mr. Smith CL"
+      },
+      {
+        "n": 87,
+        "name": "Mr. Smith DS"
+      },
+      {
+        "n": 88,
+        "name": "Taxidea Taxus A"
+      },
+      {
+        "n": 89,
+        "name": "Taxidea Taxus B"
+      },
+      {
+        "n": 90,
+        "name": "Shittcow GR"
+      },
+      {
+        "n": 91,
+        "name": "Shittcow RD"
+      },
+      {
+        "n": 92,
+        "name": "Doctor3 a"
+      },
+      {
+        "n": 93,
+        "name": "Doctor3 B"
+      },
+      {
+        "n": 94,
+        "name": "Matchbox 30 CL"
+      },
+      {
+        "n": 95,
+        "name": "Matchbox 30 OD"
+      },
+      {
+        "n": 96,
+        "name": "Regal Tone CL"
+      },
+      {
+        "n": 97,
+        "name": "Regal Tone OD1"
+      },
+      {
+        "n": 98,
+        "name": "Regal Tone OD2"
+      },
+      {
+        "n": 99,
+        "name": "Carol CL"
+      },
+      {
+        "n": 100,
+        "name": "Carol OD"
+      },
+      {
+        "n": 101,
+        "name": "Cardeff"
+      },
+      {
+        "n": 102,
+        "name": "Jazz 120"
+      },
+      {
+        "n": 103,
+        "name": "HWT 103"
+      },
+      {
+        "n": 104,
+        "name": "HT Club CL"
+      },
+      {
+        "n": 105,
+        "name": "HT Club DS"
+      },
+      {
+        "n": 106,
+        "name": "Acoustic 1"
+      },
+      {
+        "n": 107,
+        "name": "Acoustic 2"
+      },
+      {
+        "n": 108,
+        "name": "Acoustic 3"
+      }
+    ],
+    "CAB": [
+      {
+        "n": 1,
+        "name": "US DLX 112"
+      },
+      {
+        "n": 2,
+        "name": "US TWN 212"
+      },
+      {
+        "n": 3,
+        "name": "US Bass 410"
+      },
+      {
+        "n": 4,
+        "name": "Sonic 112"
+      },
+      {
+        "n": 5,
+        "name": "Blues 112"
+      },
+      {
+        "n": 6,
+        "name": "1960 412"
+      },
+      {
+        "n": 7,
+        "name": "Eagle P412"
+      },
+      {
+        "n": 8,
+        "name": "Eagle S412"
+      },
+      {
+        "n": 9,
+        "name": "Mark 112"
+      },
+      {
+        "n": 10,
+        "name": "Rec 412"
+      },
+      {
+        "n": 11,
+        "name": "Citrus 412"
+      },
+      {
+        "n": 12,
+        "name": "Citrus 212"
+      },
+      {
+        "n": 13,
+        "name": "Slow 412"
+      },
+      {
+        "n": 14,
+        "name": "DR.ZEE 112"
+      },
+      {
+        "n": 15,
+        "name": "DR.ZEE 212"
+      },
+      {
+        "n": 16,
+        "name": "Jazz 212"
+      },
+      {
+        "n": 17,
+        "name": "UK 212"
+      },
+      {
+        "n": 18,
+        "name": "HWT 412"
+      },
+      {
+        "n": 19,
+        "name": "PV 5050 412"
+      },
+      {
+        "n": 20,
+        "name": "Regal Tone 110"
+      },
+      {
+        "n": 21,
+        "name": "Two Stones 212"
+      },
+      {
+        "n": 22,
+        "name": "Cardeff 112"
+      },
+      {
+        "n": 23,
+        "name": "EV 5050 412"
+      },
+      {
+        "n": 24,
+        "name": "HT 412"
+      },
+      {
+        "n": 25,
+        "name": "Gas Station 412"
+      },
+      {
+        "n": 26,
+        "name": "Blueno 212"
+      },
+      {
+        "n": 27,
+        "name": "Custom 212"
+      },
+      {
+        "n": 28,
+        "name": "Herby 412"
+      },
+      {
+        "n": 29,
+        "name": "VHS 412"
+      },
+      {
+        "n": 30,
+        "name": "Doctor3 112"
+      },
+      {
+        "n": 31,
+        "name": "US Gold 412"
+      },
+      {
+        "n": 32,
+        "name": "US Gold 112"
+      },
+      {
+        "n": 33,
+        "name": "Matchbox 30 112"
+      },
+      {
+        "n": 34,
+        "name": "Cali 412-1"
+      },
+      {
+        "n": 35,
+        "name": "Cali 412-2"
+      },
+      {
+        "n": 36,
+        "name": "Satsuma 212"
+      },
+      {
+        "n": 37,
+        "name": "Petey 412"
+      },
+      {
+        "n": 38,
+        "name": "Petey 212"
+      },
+      {
+        "n": 39,
+        "name": "Mr Smith 112"
+      },
+      {
+        "n": 40,
+        "name": "Randy Devil 412"
+      },
+      {
+        "n": 41,
+        "name": "Taxidea Taxus 112"
+      },
+      {
+        "n": 42,
+        "name": "Shittcow 412"
+      },
+      {
+        "n": 43,
+        "name": "Acoustic 112"
+      }
+    ],
+    "NS": [
+      {
+        "n": 1,
+        "name": "Noise Killer"
+      },
+      {
+        "n": 2,
+        "name": "Intel Reducer"
+      },
+      {
+        "n": 3,
+        "name": "Noise Gate"
+      }
+    ],
+    "EQ": [
+      {
+        "n": 1,
+        "name": "3-Band EQ"
+      },
+      {
+        "n": 2,
+        "name": "Mooer G"
+      },
+      {
+        "n": 3,
+        "name": "Mooer HM"
+      },
+      {
+        "n": 4,
+        "name": "Mooer B"
+      },
+      {
+        "n": 5,
+        "name": "Mooer G-6"
+      },
+      {
+        "n": 6,
+        "name": "Mooer G-10"
+      },
+      {
+        "n": 7,
+        "name": "Custom EQ"
+      },
+      {
+        "n": 8,
+        "name": "Studio EQ Pro"
+      }
+    ],
+    "amp_scope": {
+      "total": 108,
+      "amplifier": 105,
+      "acoustic_simulator": 3,
+      "power_amp_voicings": 10,
+      "off": "bypasses poweramp modeling",
+      "mode": [
+        "Original",
+        "Distinct"
+      ],
+      "qualification": "Modes andvoicings are parameters,not additional AMP entries"
+    },
+    "cab_scope": {
+      "stock": 43,
+      "original_user_ir": 20,
+      "user_range": [
+        44,
+        63
+      ],
+      "microphone_types": 21,
+      "virtual_mics": 2,
+      "name_reference_conflict": {
+        "row": 39,
+        "name": "Mr Smith 112",
+        "reference": "PRS Archon 212"
+      },
+      "revision_boundary": "Original512/1024/2048points;2.0.6 removed POINT selection;laterdualIR separate"
+    },
+    "ns_scope": "Three original choices;later FXA NoiseReducer separate. Attack/Release opening/closing terminology ambiguous.",
+    "eq_scope": "Eight original choices;MooerB guitar label and sixbands versus five frequencies preserved",
+    "qualification": "Original named tables completed for these categories;current installed count andotherfields remain unresolved;no inventory membership change"
   }
 }

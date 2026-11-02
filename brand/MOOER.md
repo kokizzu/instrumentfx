@@ -1466,6 +1466,18 @@ Numbered original panel and rear descriptions (printed pp3–5) were read; PDF p
 | DELAY / REVERB |14 /11 original models |
 | FX LOOP / VOL |Routing and volume categories, not extra independent algorithm inventories |
 
+### GE300 — remaining original tables, checked 2026-11-03
+
+Read complete printed pp32–39,52 of the [previously saved original manufacturer manual](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf). All108 AMP and43 CAB names and the NS/EQ rows are retained in research-state.json;this completes those original named tables,not the current installed firmware census. No new download,visual inspection ordevice test.
+
+| Field | Original-revision evidence / qualification |
+|---|---|
+| Category choices / AMP | **108 numbered choices =105 amplifier entries +three Acoustic1/2/3 simulators**. Those three are inside108,not additional. Original/Distinct modes and10 selectable power-amp voicings plusOff are parameters,not another set of amp models;Off bypasses power-amp modeling. A Bassman-derived guitar-amp name doesnot establish exact-model bass suitability. |
+| Category choices / CAB | **43 stock choices**,separate fromoriginal20 userIR locations44–63. **21 microphone types**,withtwo virtual microphones andindependent type/center/distance plusblend. Microphone combinations are not additional cabinets orphysical microphone inputs. Original512/1024/2048-point selection is superseded by the separately recorded2.0.6 change;currentNAM/dualIR limits remain separate. |
+| Category choices / NS | **Noise Killer;Intel Reducer;Noise Gate**. Three original selections,not the laterFXA Noise Reducer counted asecondtime inNS. Manual’s Attack/Release descriptions reverse the usual opening/closing terminology;preserve that documentation ambiguity ratherthan silently correcting timing behavior. |
+| Category choices / EQ | **3-BandEQ;MooerG;MooerHM;MooerB;MooerG-6;MooerG-10;CustomEQ;StudioEQPro**. Eight original entries. The existingMooerB six-band/five-frequency conflict andguitar wording remain unresolved. |
+| Processing / cabinet naming conflict | CAB39 is named **MrSmith112** butits reference says **PRSArchon212**. This is a source conflict,not evidence of asecondcab model;do not silently correct the name orborrow another model’s specifications. |
+
 The old **317 total types /164 effects /108 amps /43 cabinets** are historical manufacturer counts, not a verified current v5.1.4 inventory. Subsequent releases add harmony,vibe,drives,FX and ambience models; a complete reconciled current per-category count remains unknown. [M][G][F]
 
 ### GE300 — revision delta audit, checked 2026-11-03
