@@ -42,6 +42,31 @@ Checked **2026-11-03** against the exact-model manufacturer HTML manual at revis
 [H9G2-B]: https://cdn.eventideaudio.com/manuals/h9/1.2.2/en/content/system-menu/bluetooth.html
 [H9G2-L]: https://cdn.eventideaudio.com/manuals/h9/1.2.2/en/content/algorithms/looper.html
 
+### H9 Gen 2 — revision-qualified category census and mapping limits
+
+Checked **2026-11-03** in the [own1.2.2 Algorithm Guide index](https://cdn.eventideaudio.com/manuals/h9/1.2.2/en/content/algorithms/index.html). Complete named index,not installed-device inspection.
+
+| Category | Entries | Names |
+|---|---:|---|
+| Delay | 12 | Band Delay, Bouquet Delay, Digital Delay, Ducked Delay, Filter Pong, Head Space, Mod Delay, MultiTap, Reverse, Tape Echo, UltraTap, Vintage Delay |
+| Distortion | 5 | Aggravate, CrushStation, PitchFuzz, Sculpt, WeedWacker |
+| EQ | 1 | EQ Compressor |
+| Granular | 4 | Cosmic Web, Glitch, GrainMod, Stutter |
+| Harmonizer | 13 | Crystals, Diatonic, H910 H949, HarModulator, HarPeggiator, MicroPitch, Octaver, PitchFlex, PolyFlex, Polyphony, Prism Shift, Quadravox, Resonator |
+| Harmonizer+ | 4 | Quadravox+, VocalShift, VocalShiftMIDI, VocalTune |
+| Looper | 1 | Looper |
+| Modulation | 16 | Chorus, Even-Vibe, Flanger, Harmadillo, Instant Flanger, Instant Phaser, ModFilter, Phaser, Q-Wah, RingMod, Rotary, Sticky Tape, TremoloPan, Tricerachorus, Undulator, Vibrato |
+| Multi | 1 | SpaceTime |
+| Reverb | 14 | Blackhole, DualVerb, DynaVerb, Hall, MangledVerb, ModEchoVerb, Plate, Reverse Reverb, Room, SP2016 Reverb, Spring, Shimmer, TremoloVerb, Wormhole |
+| Synth | 3 | HotSawz, PolySynth, Synthonizer |
+| Utility | 2 | Mute, Thru |
+
+Derived **76 entries =74 effects +2 utilities** reconciles the product's74 headline for this index. It does not prove74 simultaneous algorithms,exact factory preset occupancy orunchanged future libraries.
+
+The [own Parameters chapter](https://cdn.eventideaudio.com/manuals/h9/1.2.2/en/content/edit-modes/parameters.html) separately documents **preset-level** mappings with Start/End orMinimum/Maximum,including reversed direction. These controls do not establish that global gain mappings expose the same ranges. Its **[G] General** group contains Input Gain,Output Gain,Bypass Tails,Kill Dry,HotKnob andRouting: “General” here is a preset parameter group,not the SYSTEM global-assignment menu.
+
+**HotSwitch1/2** are parameter snapshots,with only one active at a time;they are not two simultaneous algorithms orindependent preset banks. Exact global gain endpoints,held-position recall andbypass/dry/tail/recorded-loop coverage remain unverified. Category census is resolved for this document revision;the lead remains outside active counts pending the remaining full-profile andmarket review.
+
 ## H9 Max
 
 Checked 2026-10-17; partial. Max is distinct from Standard/Core; ownership unverified.

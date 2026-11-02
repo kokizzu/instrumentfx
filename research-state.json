@@ -142061,5 +142061,29 @@
     ],
     "next": "Continue exact Gen2 follow-up before other models;partial outside inventory. Retain independent GP-200JR -> Prime -> GE300 queue and separate-LCD priority.",
     "downloads": false
+  },
+  "h9_gen2_category_mapping_20261103": {
+    "canonical": "brand/EVENTIDE.md#h9-gen-2--revision-qualified-category-census-and-mapping-limits",
+    "source": "https://cdn.eventideaudio.com/manuals/h9/1.2.2/en/content/algorithms/index.html",
+    "counts": {
+      "Delay": 12,
+      "Distortion": 5,
+      "EQ": 1,
+      "Granular": 4,
+      "Harmonizer": 13,
+      "Harmonizer+": 4,
+      "Looper": 1,
+      "Modulation": 16,
+      "Multi": 1,
+      "Reverb": 14,
+      "Synth": 3,
+      "Utility": 2
+    },
+    "derived_total": 76,
+    "effects_excluding_utilities": 74,
+    "mapping_source": "https://cdn.eventideaudio.com/manuals/h9/1.2.2/en/content/edit-modes/parameters.html",
+    "qualification": "Preset General isnot SYSTEM Global;per-preset ranges notprovedglobal;2HotSwitch snapshots mutuallyexclusive",
+    "active": false,
+    "next": "Global gain range/recall/output coverage andcurrent qualifiedhardware;other missions continue independently"
   }
 }
