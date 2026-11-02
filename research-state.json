@@ -126510,7 +126510,7 @@
     "next": [
       "Ampero Mini/Nano Cortex across-preset volume assignment remains unverified; manufacturer confirmation or readable exact-revision evidence needed",
       "Exact HX and GT-1000CORE documentation and headphone/tail/looper coverage",
-      "Manufacturer-backed POD Express dimensions; retain exact-model source restrictions",
+      "POD Express Black only: manufacturer-backed chassis W/D/H andmass remain unresolved;Guitar/Bass dimensions already verified byYamaha2024-03-06;do not repeat their completed task",
       "Expand remaining eligible no-treadle inventory;606 and607 confirmed built-in-treadle and excluded from shortlist",
       "IR-200/RP360/NGS-6 and other partial leads: finish required fields before admitting to active inventory",
       "Fresh exact Shopee Indonesia offers; separate condition/stock/variant/bundle evidence",
@@ -141703,5 +141703,12 @@
     ],
     "result": "Manufacturer shell andunavailable manual endpoint;no new certified screen count/technology orqualified Shopee offer. Existing importer-backed nine-screen evidence unchanged.",
     "resume_when": "New accessible original panel/specification evidence; do not repeat unchanged source blocker as whole-goal block"
+  },
+  "pod_express_dimension_queue_reconciliation_20261103": {
+    "completed_scope": "Guitar andBass: manufacturer92W130D56H mm350g;source explicitly names both",
+    "source": "https://www.yamaha.com/ja/news_release/2024/24030601/",
+    "remaining_scope": "Black chassis/mass only;no sibling/bundle transfer",
+    "new_source_boundary": "Line6 dimensions KB links2017/100407 spreadsheets;not downloaded orinspected;Black product endpoint cachemiss",
+    "canonical": "brand/LINE6.md#black--dimension-source-scope-and-remaining-task"
   }
 }
