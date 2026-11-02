@@ -143062,5 +143062,18 @@
       "QualifiedShopee stock"
     ],
     "no_local_download_or_device_operation": true
+  },
+  "gt1000core_tonestudio_ir_formats_20261103": {
+    "canonical": "brand/BOSS.md#gt-1000core--core-applicable-tone-studio-ir-formats-and-library-boundaries",
+    "source": "https://static.roland.com/assets/media/pdf/BTS_GT-1000_eng05_W.pdf",
+    "applicability": "p1explicitlyCORE;eng05copyright2020;not4.1.1certification",
+    "finding": "IRsourceformatsandconversion;libraryvsdevicecapacity;distinctbackupobjects.",
+    "remaining": [
+      "IRlength/channelhandling",
+      "Current parameter-guide payload",
+      "FVprecedence andfulloutputcoverage",
+      "Qualified hardware stock"
+    ],
+    "no_local_download_or_device_operation": true
   }
 }

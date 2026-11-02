@@ -1511,8 +1511,9 @@ Selected 2026-10-28 from the complete dated evidence below; no new hardware test
 | Display | Graphic LCD 256×80; historically inspected official image shows monochrome-style readout, not a color-depth specification. Published diagonal and touchscreen status unknown. |
 | Simultaneous processing / choices | 24 blocks including two amps; current product page lists 185 effect types and eight bass drive types. Full current category census remains unresolved. |
 | Preset / user memory | 250 factory preset +250 user locations; initial user filling not established here. |
+| Preset / software library | Tone Studio eng05: **300 patches/liveset,30 livesets**; device restore omits251+. These software limits do not expand250 user slots. Liveset.tsl,Stompbox.stx andall-data.alb are distinct backups. [CORE applicability](#gt-1000core--core-applicable-tone-studio-ir-formats-and-library-boundaries). |
 | Synth / acoustic | **AC.G SIM acoustic simulation** documented in the original2020 CORE parameter guide,p13;AC RESO separately enhances an acoustic-electric pickup. Dedicated tracking synth/current2.02 algorithm census remain unverified. [Exact-model guide](https://files.kraftmusic.com/media/ownersmanual/Boss_GT-1000CORE_Parameter_Guide.pdf). |
-| IR / NAM / capture | 16 user WAV IR slots; exact format limits unresolved. Native NAM, converted NAM and capture import unestablished. |
+| IR / NAM / capture | **16 user WAV IR slots**. Shared Tone Studio guide, explicitly covering CORE: **44.1/48/96kHz,16/24-bit linear** source files, converted before loading. Length/channel limits and current app equivalence unresolved; native/converted NAM and capture import unestablished. [Original-document applicability and librarian scope](#gt-1000core--core-applicable-tone-studio-ir-formats-and-library-boundaries). |
 | Audio / controller I/O | Stereo quarter-inch input/output; L output shared with phones; two mono effects loops; two shared CTL/EXP; 3.5 mm TRS MIDI IN/OUT; micro-USB. |
 | Power | Supplied DC adapter; 670 mA draw. Exact voltage/polarity, battery and USB bus operation remain unverified in this record. |
 | Editor / USB | BOSS Tone Studio Windows/macOS; drivers separate. USB audio/reamping documented, exact channel/mode limits unresolved. |
@@ -1695,6 +1696,13 @@ Checked2026-10-28: [manufacturer-authored Owner’s Manual,eng03 filename](https
 | Looper / playback level | LEVEL100(default) matches performance/loop playback level;lower values reduce playback relative toperformance. This is a looper parameter,not proof that analogEXP controls playback globally. |
 
 Printedp14 reconfirms SYSTEM function sharing without proving SYSTEM override ofpatchFVranges. Existing bypass,headphone,tail/loop attenuation andcompetingASSIGN qualifications remain. No downloads orhardware operation.
+
+### GT-1000CORE — CORE-applicable Tone Studio IR formats and library boundaries
+
+Checked **2026-11-03**, [manufacturer Tone Studio guide,eng05,©2020,pp1–2,6–8,12,14–15](https://static.roland.com/assets/media/pdf/BTS_GT-1000_eng05_W.pdf). Page1 explicitly includes CORE and defines GT-1000 as both models; CORE lacks the larger unit’s Pedalboard function. These are applicable software instructions,not borrowed physical specifications.
+
+The software library limits above are separate from hardware memory. The IR Loader converts supported WAV files into USER1–16;this does not establish processed IR length. Exact4.1.1 equivalence,channel handling,global FV precedence andoutput coverage remain unverified. No downloads,installation,restore ordevice operation.
+
 
 ## GT-Pro
 
