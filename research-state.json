@@ -126479,8 +126479,8 @@
       }
     ],
     "current_task": {
-      "model": "HeadRush Prime",
-      "next": "Reconcile current5.2 category names/counts against manufacturer product/release tables;thencontinue MOOERGE300 category census",
+      "model": "MOOER GE300",
+      "next": "Continue GE300 category census against saved original manual and current firmware notes; retain Prime current-installed inventory gaps as deferred research.",
       "completed": "GP-200JR1.8.0 all11 namedmodule tables complete:288selector entries,notuniquealgorithms;imports separate",
       "priority_qualification": "Requested separate-footdisplay processors still first when new accessible evidence is available;source-blocked items deferred",
       "gp200jr_remaining": [
@@ -126490,6 +126490,14 @@
         "IR conversion",
         "NAMarchitecture/concurrency",
         "Current condition-qualified stock"
+      ],
+      "prime_remaining": [
+        "Certified installed category census beyond inconsistent website lists",
+        "Rig/user storage ceiling",
+        "IR conversion/file capacity",
+        "Display pixel/auxiliary specifications",
+        "Portable-power statement",
+        "Condition/stock-qualified Shopee offers"
       ]
     }
   },
@@ -139818,5 +139826,40 @@
     },
     "qualification": "Website representations only; no certified installed total. Saved guide lacks category-name census. Preserve historical counts and firmware-specific addition.",
     "next": "Continue remaining Prime category tables and firmware reconciliation; then MOOER GE300. Defer unavailable source tasks without stopping independent work."
+  },
+  "prime_routing_amp_revision_20261103": {
+    "sources": [
+      "saved original guide5.2.0 pp15–17",
+      "https://www.headrushfx.com/products/prime/index.html",
+      "https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Prime%20Firmware%20Update%20Instructions%20v5.2.0.pdf"
+    ],
+    "vocal_guitar_slot_allocations": [
+      [
+        7,
+        7
+      ],
+      [
+        4,
+        10
+      ],
+      [
+        2,
+        12
+      ]
+    ],
+    "correction": "Earlier seven-per-input summary incomplete for guitar/vocal modes;DSP limits unchanged",
+    "compact_amp_names": {
+      "headrush": 53,
+      "revalver": 47,
+      "revalver_header": 44
+    },
+    "revalver_delta": "5.0 three25ON1 channels already in47;5.1 90ACM900 missing fromcompactlist,notblindlyaddedtocertifiedinstalledtotal",
+    "cab_mic_counts": {
+      "headrush_cab": 15,
+      "headrush_mic": 10,
+      "revalver_cab": 67,
+      "revalver_mic": 31
+    },
+    "qualification": "Website entries and firmware additions distinct;current installed census incomplete;no device ornewvisualtest"
   }
 }
