@@ -141655,5 +141655,19 @@
       "auxiliary-display specifications"
     ],
     "status": "partial; independent general cursor unchanged"
+  },
+  "stadium_legacy_import_20261103": {
+    "canonical": "brand/LINE6.md#stadium-xl--legacy-preset-import-and-controller-state-boundaries",
+    "sources": [
+      "https://manuals.line6.com/en/helix-stadium/live/presets",
+      "https://line6.com/support/announcement/118-helixhx-preset-transfers-to-helix-stadium/"
+    ],
+    "finding": "HX Effects explicitly supported from3.50 exports; full backups unsupported; new exported formats not backward compatible. IR selection manual;1024 to2048 conversion; EQ replacements and imported Snapshot Control qualification.",
+    "status": "partial; no hardware/software operation",
+    "remaining": [
+      "all-preset analog volume assignment",
+      "global settings/controller-label migration fidelity",
+      "qualified current Shopee stock"
+    ]
   }
 }

@@ -712,6 +712,16 @@ Snapshot edits are retained during snapshot changes by default; enabling Discard
 [SX-I]: https://manuals.line6.com/en/helix-stadium/live/cab-blocks
 [SX-S]: https://manuals.line6.com/en/helix-stadium/live/snapshots
 
+### Stadium XL — legacy-preset import and controller-state boundaries
+
+Checked2026-11-03 in the [live hardware preset chapter](https://manuals.line6.com/en/helix-stadium/live/presets),with the [October16,2025 manufacturer announcement](https://line6.com/support/announcement/118-helixhx-preset-transfers-to-helix-stadium/) retained as launch-era context. These are documentation findings;no import,export,download ordevice operation.
+
+The current chapter expressly includes **HX Effects** among supported sources,requiring source firmware/software **3.50+ before export**. Individual presets,setlists,Favorites andWAV IRs can transfer;full Helix/HX backups cannot. Stadium exports **.hsp/.hsf**,which do not return to original .hlx/.fav products;retain original files. The chapter still excludes Marketplace premium presets/IRs without a promised date.
+
+Imported IR blocks need **manual file selection**;1024-sample IRs become2048-sample. Hybrid cabs are replaced,while Simple EQ,Low andHigh Cut,Low/High Shelf andfive-band Parametric become seven-band Parametric. Filter slopes/Q,parallel-path levels anddual-cab levels can differ. Imported controller-assigned parameters automatically enable Snapshot Control to preserve the older assignment behavior. This is not proof that all switch labels,global settings oranalog-volume mappings transfer unchanged.
+
+Launch-era absent IR automapping is therefore still qualified by the current chapter’s manual-relink instruction;no claim is made about an installed unit orfuture fix. Existing global expression-volume unknowns remain.
+
 ### Model inventory counting basis
 
 The official current list includes models introduced through version 1.4. Counts above are derived from named rows within each effect table, including Legacy entries, without doubling rows marked Mono, Stereo. They are not a manufacturer headline total, a count of simultaneously available blocks or confirmation of an offer’s installed firmware. The amp table repeats Cali 2C+, so its raw row total must not be treated as unique amp count. Polyphonic pitch models are marked as DSP-intensive. [Model list][SX-ML]
