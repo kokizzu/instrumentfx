@@ -1520,6 +1520,20 @@ Original **20 user IR slots** became **50**, with **80 MNRS slots** documented i
 
 Selected condition/variant,bundle,region,warranty,voucher,shipping and live stock remain unverified. This is not a live retail range or completed-sale evidence.
 
+### GE300 — historical total and capture compatibility
+
+Checked2026-11-03. [Manufacturer Chinese exact-model page](https://cn.mooeraudio.com/product/27.html) explicitly lists COMP10,WAH10,DS/OD31,NS3,EQ8,peripheral effects75,DELAY14,REVERB11 plus tuner/volume beneath its164-effects claim. The numerical categories sum to**162**;adding tuner andvolume produces**164**. Peripheral75 equals the original40FXA+35FXB **category selections**,not75 deduplicated shared algorithms. This explains the arithmetic without certifying a current installed census. Likewise108amps+43cabs+164effects=315,so the older317 headline remains unreconciled;do not silently invent two missing models.
+
+[Exact GE300 firmware history](https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html) separately documents:
+
+- **V1.2.0 rejects Tone Capture files created inV1.1.0 andclears those captures**;V1.1.1 captures are accepted. A saved backup doesnot itself make incompatible captures loadable.
+- V2.0.6 changes cabinet microphone models andcan alter older preset tone;the maker advises checking/adjusting presets. With50loaded sample files,the maker gives approximate26-second boot time,not a universal timing guarantee.
+- V5.1.0 resets factory settings;backup withthe previous MOOER Studio version is prescribed. Later NAM conversion support doesnot establish backward-compatible preset/capture interchange.
+
+No update,software orfile conversion was run. Old data-loss notices remain historical version-specific evidence,not a claim that every update clears all files.
+
+**Shopee recheck2026-11-03:** exact Vin’s Music Store31173885/29362925028 search snapshot now reports KotaDepok andRp11,928,000,crawledfive days earlier. Direct reopening stillfails(cachemiss). ReadyStock title,relative delivery andabsence ofa Habis marker are not live-stock proof;condition/variant/bundle/warranty/checkout remain unknown. This supplements the original October16 ask ratherthan replacing its date.
+
 ### GE300 — sources and remaining checks
 
 [G] [Official GE300 product](https://www.mooeraudio.com/product/GE300-223.html).

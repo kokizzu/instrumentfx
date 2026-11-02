@@ -141488,5 +141488,27 @@
       "current qualified Shopee stock",
       "auxiliary display specifications"
     ]
+  },
+  "ge300_compatibility_and_counts_20261103": {
+    "sources": [
+      "https://cn.mooeraudio.com/product/27.html",
+      "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html"
+    ],
+    "original_effect_arithmetic": "10+10+31+3+8+75+14+11=162; tuner+volume gives164. FXA40+FXB35 are selections,not deduplicated algorithms.",
+    "headline_conflict": "108+43+164=315;317 remains unresolved",
+    "capture": "V1.1.0 captures incompatible with1.2.0;1.1.1 accepted",
+    "revision_notes": [
+      "2.0.6 microphone changes may alter old preset tone;about26second startup with50samples",
+      "5.1.0 factory reset and prior-editor backup requirement"
+    ],
+    "market_recheck": {
+      "source": "https://shopee.co.id/-Ready-Stock-mooer-ge300-amp-modelling-synth-multy-efek-multy-effect-mooer-Original-ge-300-i.31173885.29362925028",
+      "seller": "Vin’s Music Store",
+      "region": "Kota Depok",
+      "ask_idr": 11928000,
+      "access": "five-day-old search snapshot; direct cache miss",
+      "stock": "unverified",
+      "condition": "unverified"
+    }
   }
 }
