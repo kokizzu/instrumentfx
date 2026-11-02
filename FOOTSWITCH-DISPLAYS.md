@@ -154,6 +154,12 @@ These match the separate-display layout, with OLED technology rather than LCD.
 | Morningstar **MC6 PRO** | **Three color LCDs for six switches**, rather than six individual displays | [Manufacturer-backed controller record](brand/MORNINGSTAR.md#mc6-pro). Switches use nearest displayed preset labels; outside audio processor counts. |
 | Morningstar **MC8 PRO** | **Four color LCD screens for eight switches**, rather than eight individual displays | [Exact manufacturer manual/product record](brand/MORNINGSTAR.md#mc8-pro). Controller only; original MC8 and MC6 PRO remain separate. |
 
+### One shared screen — outside individual-screen matches
+
+| Brand / model | Display-layout status | Record / next check |
+|---|---|---|
+| Morningstar **MC6 MKII** — partial controller lead | **One shared24×2-character LCD for six switches**;distinct from MC6 PRO | [Manufacturer source and two exact sold-out Shopee offers](brand/MORNINGSTAR.md#mc6-mkii--shared-screen-controller-lead). Character cells are not pixels;generic MC6 offer revision unresolved. Outside individual-screen matches andprocessor counts. |
+
 ### Additional screen technology / layout pending
 
 | Brand / model | Display-layout status | Record / next check |

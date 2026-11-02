@@ -138955,5 +138955,37 @@
       }
     ],
     "general_cursor_preserved": true
+  },
+  "mc6_mkii_shopee_shared_screen_20261103": {
+    "status": "partial controller lead;not an active multi-effects model",
+    "manufacturer": "https://www.morningstar.io/mc6-mkii?fb_comment_id=1091878774242107_1381782618585053&lightbox=dataItem-jeu82kho",
+    "display": "single shared24x2 character LCD;six switches;not individual screens",
+    "offers": [
+      {
+        "shop": "291577753",
+        "item": "27667458701",
+        "seller": "DreamStoreJogja",
+        "ask_idr": 2900000,
+        "stock": "Habis;cached",
+        "condition": "unknown"
+      },
+      {
+        "shop": "52076166",
+        "item": "53058481132",
+        "seller": "My Pedal Store",
+        "ask_idr": 3500000,
+        "stock": "Habis;cached",
+        "condition": "unknown;direct cache miss"
+      }
+    ],
+    "excluded_offer": "808382190/27931268036 generic MC6 revision unresolved",
+    "remaining": [
+      "EXP pinout",
+      "mass",
+      "knob/button census",
+      "firmware",
+      "current condition-qualified availability"
+    ],
+    "inventory_change": false
   }
 }
