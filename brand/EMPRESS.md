@@ -5,9 +5,21 @@
 <!-- brand-index begins -->
 **Model and section index — A–Z, natural numeric order**
 
+- [ZOIA — control-port sharing and patch backup scope](#zoia--control-port-sharing-and-patch-backup-scope)
 - [ZOIA — current firmware and sampler revision boundaries](#zoia--current-firmware-and-sampler-revision-boundaries)
 - [ZOIA — partial no-treadle discovery](#zoia--partial-no-treadle-discovery)
 <!-- brand-index ends -->
+
+## ZOIA — control-port sharing and patch backup scope
+
+Checked 2026-11-03 against [manufacturer Rev02 manual, printed pp24,26,28–30](https://empresseffects.com/cdn/shop/files/ZOIA_User_Manual_rev02_web.pdf?v=9116714327727882529); text only, no hardware test.
+
+- CPort connects **one selected device at a time**. EXP, CV, MIDI and external switch are alternative configurations, not four simultaneous sockets.
+- Dedicated⅛-inch MIDI uses **Type A** adapters and does not accept CV. In CPort MIDI mode, tip receives and ring transmits; a TS cable prevents transmission. With the dedicated MIDI ports in use, CPort MIDI can send but cannot receive. These MIDI pin roles are separate from analog EXP wiring.
+- External switch mode accepts normally-open/closed, momentary/latching operation; tip-to-sleeve closure is the switching connection. It still needs a patch stompswitch module/target.
+- SD patch imports create backups of the currently loaded patches, with up to256 backup folders. Exporting into an existing folder overwrites same-named patches. Patch import names require a three-digit prefix and.bin extension. This does not prove backup of global configuration or sampler audio.
+
+Global analog-volume assignment, position/endpoints and bypass/headphone/tail/loop coverage remain unresolved. Partial lead stays outside active counts.
 
 ## ZOIA — current firmware and sampler revision boundaries
 

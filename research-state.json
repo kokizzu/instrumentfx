@@ -141510,5 +141510,19 @@
       "stock": "unverified",
       "condition": "unverified"
     }
+  },
+  "zoia_control_backup_20261103": {
+    "source": "https://empresseffects.com/cdn/shop/files/ZOIA_User_Manual_rev02_web.pdf?v=9116714327727882529",
+    "pages": [
+      24,
+      26,
+      28,
+      29,
+      30
+    ],
+    "control": "One selected CPort device; dedicated MIDI TypeA/noCV; CPort tipRx/ringTx; dedicated MIDI use prevents CPort MIDI input",
+    "switch": "NO/NC momentary/latching tip-sleeve; patch module required",
+    "backup": "SD import preserves current patches in backup folder,maximum256; existing export names overwritten; global config/audio backup not established",
+    "global_volume": "unresolved"
   }
 }
