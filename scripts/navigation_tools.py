@@ -13,7 +13,7 @@ REPORT=Path('/tmp/instrumentfx-navigation-audit.json')
 def audit():
     research.identity()
     state=json.loads((ROOT/'research-state.json').read_text())
-    paths=sorted(ROOT.glob('*.md'))+sorted((ROOT/'effects').rglob('*.md'))
+    paths=sorted(ROOT.glob('*.md')) + sorted((ROOT/'brand').glob('*.md'))+sorted((ROOT/'effects').rglob('*.md'))
     links=[link for path in paths for link in shared.local_links(str(path.relative_to(ROOT)),path.read_text())]
     errors=[]
     for link in links:
@@ -27,8 +27,12 @@ def audit():
     special='effects/findings/2026-10-14-flamma-fv01.md'
     unclassified=[p for p in legacy if p not in records and p!=special]
     for path,entry in records.items():
-        if shared.digest((ROOT/path).read_text())!=entry['redirect_sha256']:
-            errors.append(dict(source=path,error='redirect hash drift'))
+        if (ROOT/path).is_file():
+            if shared.digest((ROOT/path).read_text())!=entry['redirect_sha256']:
+                errors.append(dict(source=path,error='redirect hash drift'))
+        else:
+            removed=state['migration'].get('json_pointer_removal',{})
+            assert removed.get('status')=='removed' and path in removed.get('records',{}), path
         research.read_preserved_source(path)
     report=dict(scope='Every live local inline/reference/shortcut/definition/HTML link in root and effects Markdown;legacy JSON pointer coverage and pinned-original hashes. External availability and arbitrary JavaScript-generated links not certified.',markdown_files=len(paths),local_link_occurrences=len(links),legacy_files=len(legacy),registered_redirects=len(records),separately_verified_archival_redirect=[special],unclassified_legacy_files=unclassified,errors=errors,root_to_legacy_links=sum(l['source'].find('/')<0 and l['target'].startswith('effects/') for l in links))
     # Keep an exact remaining-link census so retirement is based on callers, not model counts.
@@ -72,11 +76,11 @@ def save():
     vocal_shared = set(comparison_views.VOCAL_SHARED)
     assert not focused & shared_bass and not vocal_only & vocal_shared
     membership = state['comparison_membership']
-    assert set(membership['ALL-BASS.md']) == focused | shared_bass
-    assert set(membership['ALL-VOCAL.md']) == vocal_only | vocal_shared
+    assert set(membership['all-bass.md']) == focused | shared_bass
+    assert set(membership['all-vocal.md']) == vocal_only | vocal_shared
     state['validation'].update(bass_focused_models=len(focused), bass_shared_models=len(shared_bass), vocal_only_models=len(vocal_only))
     state['migration']['warning']=f"{state['canonical_root_model_count']} root-canonical models;{state['legacy_only_model_count']} legacy-only. Legacy compatibility files remain;specification and market research incomplete."
-    state['migration']['root_category_and_instrument_views']=f"Four-table comparisons: {len(membership['ALL-GUITAR.md'])} guitar, {len(membership['ALL-BASS.md'])} documented bass-capable, {len(membership['ALL-VOCAL.md'])} vocal; technical and market verification remain incomplete."
+    state['migration']['root_category_and_instrument_views']=f"Four-table comparisons: {len(membership['all-guitar.md'])} guitar, {len(membership['all-bass.md'])} documented bass-capable, {len(membership['all-vocal.md'])} vocal; technical and market verification remain incomplete."
     readme=(ROOT/'README.md').read_text()
     import re
     readme, n1=re.subn(r'All \d+ recorded models have root brand sections\.', f"All {state['canonical_root_model_count']} recorded models have root brand sections.", readme)
@@ -94,7 +98,7 @@ def commit():
     comparison_views.verify_views()
     assert not research.git('diff','--cached','--name-only').strip(),'Existing staged changes'
     changed=set(research.git('diff','--name-only').splitlines())|set(research.git('ls-files','--others','--exclude-standard').splitlines())
-    allowed={'scripts/navigation_tools.py','scripts/source_retirement.py','scripts/canonical_links.py','scripts/consolidation_tools.py','scripts/technical_retirement.py','scripts/research_tools.py','MULTI-EFFECTS.md','BOSS.md','MOOER.md','VALETON.md','M-VAVE.md','README.md','research-state.json','Makefile','ZOOM.md','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md'}
+    allowed={'scripts/navigation_tools.py','scripts/source_retirement.py','scripts/canonical_links.py','scripts/consolidation_tools.py','scripts/technical_retirement.py','scripts/research_tools.py','MULTI-EFFECTS.md','brand/BOSS.md','brand/MOOER.md','brand/VALETON.md','brand/M-VAVE.md','README.md','research-state.json','Makefile','brand/ZOOM.md','all-guitar.md','all-bass.md','all-vocal.md'}
     from canonical_links import REMAINING
     allowed.update(REMAINING)
     assert changed<=allowed,changed-allowed

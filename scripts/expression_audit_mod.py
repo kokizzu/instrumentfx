@@ -13,7 +13,7 @@ if __name__ == '__main__':
     comparison_views.verify_views()
     comparison_views.test_readme_brand_counts()
     comparison_views.test_validation_counts()
-    allowed = {'HOLOGRAM.md', 'README.md', 'MULTI-EFFECTS.md', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'EXPRESSION-VOLUME.md', 'scripts/comparison_views.py', 'MOD-AUDIO.md', 'FOOTSWITCH-DISPLAYS.md', 'research-state.json', 'scripts/expression_audit_mod.py', 'Makefile'}
+    allowed = {'brand/HOLOGRAM.md', 'README.md', 'MULTI-EFFECTS.md', 'all-guitar.md', 'all-bass.md', 'all-vocal.md', 'EXPRESSION-VOLUME.md', 'scripts/comparison_views.py', 'brand/MOD-AUDIO.md', 'FOOTSWITCH-DISPLAYS.md', 'research-state.json', 'scripts/expression_audit_mod.py', 'Makefile'}
     changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
     staged = set(git('diff','--cached','--name-only').splitlines())
     assert (changed | staged) <= allowed, (changed | staged) - allowed

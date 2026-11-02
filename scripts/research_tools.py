@@ -68,20 +68,20 @@ def verify():
     workflows = list((ROOT / '.github' / 'workflows').glob('*'))
     assert not workflows, workflows
     assert not git('ls-files', '.github/workflows').strip()
-    if 'B1Xon' in state['root_brand_content'].get('ZOOM.md',[]):
+    if 'B1Xon' in state['root_brand_content'].get('brand/ZOOM.md',[]):
         original=read_preserved_source('effects/findings/2026-10-14-zoom-b1xon.md').split('\n',1)[1]
-        preserved=preservation_text('ZOOM.md').split('<!-- B1Xon preserved source begins -->\n',1)[1].split('<!-- B1Xon preserved source ends -->',1)[0]
+        preserved=preservation_text('brand/ZOOM.md').split('<!-- B1Xon preserved source begins -->\n',1)[1].split('<!-- B1Xon preserved source ends -->',1)[0]
         assert preserved.replace('\n### ','\n## ').replace('(effects/OWNERSHIP.md)','(../OWNERSHIP.md)')==original,'B1Xon consolidation lost source material'
     if state.get('separate_specialist_archives'):
         original=git('show','9c8d296:effects/specialist.md')
         marker='## Excluded archive — not part of the multi-effects comparison'
-        preserved=preservation_text('SINGLE-GUITAR.md').split(marker,1)[1].replace('[SCOPE.md](effects/SCOPE.md)','[SCOPE.md](SCOPE.md)')
+        preserved=preservation_text('single-guitar.md').split(marker,1)[1].replace('[SCOPE.md](effects/SCOPE.md)','[SCOPE.md](SCOPE.md)')
         assert original.split(marker,1)[1]==preserved,'Guitar archive lost original material'
         original_fv=git('show','9c8d296:effects/findings/2026-10-14-flamma-fv01.md')
-        body=preservation_text('SINGLE-VOCAL.md').split('## Flamma FV01 Corrector\n',1)[1]
+        body=preservation_text('single-vocal.md').split('## Flamma FV01 Corrector\n',1)[1]
         assert body.replace('(effects/SCOPE.md)','(../SCOPE.md)').replace('\n### ','\n## ')==original_fv.split('\n',1)[1],'FV01 archive lost original material'
     errors = []
-    for path in ROOT.glob('*.md'):
+    for path in [*ROOT.glob('*.md'), *(ROOT/'brand').glob('*.md')]:
         text = path.read_text()
         for link in re.findall(r'\]\(([^)\s]+)(?:\s+"[^"]*")?\)', text):
             if '://' in link or link.startswith('mailto:'):
@@ -130,7 +130,7 @@ def main():
         import comparison_views
         comparison_views.verify_views()
         assert not git('diff', '--cached', '--name-only').strip(), 'Existing staged changes'
-        paths = [({'commit-cerberus':'NUX.md','commit-mx400':'LEXICON.md'}.get(mode,'VALETON.md')),'README.md','MULTI-EFFECTS.md','research-state.json','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md','scripts/comparison_views.py','scripts/research_tools.py','Makefile']
+        paths = [({'commit-cerberus':'brand/NUX.md','commit-mx400':'brand/LEXICON.md'}.get(mode,'brand/VALETON.md')),'README.md','MULTI-EFFECTS.md','research-state.json','all-guitar.md','all-bass.md','all-vocal.md','scripts/comparison_views.py','scripts/research_tools.py','Makefile']
         changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
         assert changed <= set(paths), changed-set(paths)
         git('add','--',*sorted(changed))
@@ -140,7 +140,7 @@ def main():
         verify()
         subprocess.run(['python3',str(ROOT/'scripts/comparison_views.py'),'verify'],check=True)
         assert not git('diff','--cached','--name-only').strip(), 'Existing staged changes'
-        paths=[('ZOOM.md' if mode in ('commit-g1xfour-followup','commit-g1four-market') else 'KORG.md' if mode == 'commit-ax100g' else 'BEHRINGER.md' if mode == 'commit-vamp3' else 'BOSS.md' if mode == 'commit-me30' else 'DIGITECH.md' if mode == 'commit-rp70' else 'BOSS.md' if mode == 'commit-ad10' else 'ZOOM.md' if mode == 'commit-g2four-market' else 'BOSS.md' if mode == 'commit-me50b' else 'DIGITECH.md' if mode == 'commit-rp200' else 'VALETON.md' if mode == 'commit-gp200x' else 'NUX.md' if mode == 'commit-mfx10' else 'DARKGLASS.md' if mode == 'commit-anagram' else 'MOOER.md' if mode in ('commit-blacktruck','commit-prime-s1') else 'AMMOON.md' if mode == 'commit-pockrock' else 'ZOOM.md' if mode == 'commit-v3compat' else 'JOYO.md' if mode in ('commit-tc1','commit-tc2') else 'MOSKY.md' if mode in ('commit-sol918','commit-rd5','commit-rc5','commit-dc5') else 'SORAN.md' if mode in ('commit-gorigb','commit-tinystomp','commit-dualstomp','commit-dualstomplite','commit-gorig2') else 'BEHRINGER.md' if mode == 'commit-fx600' else 'BOSS.md' if mode in ('commit-ms3','commit-me90b-control','commit-ve1','commit-ve22','commit-gt10b') else 'LINE6.md' if mode == 'commit-floorpodplus' else 'YAMAHA.md' if mode == 'commit-spx2000' else 'KORG.md' if mode == 'commit-ax10b' else 'ZOOM.md' if mode in ('commit-b2-conversion','commit-ms80ir') else 'FLAMMA.md' if mode in ('commit-fv05','commit-fx20','commit-fx150b') else 'NUX.md' if mode in ('commit-stageman','commit-aas') else 'MOOER.md' if mode in ('commit-prime-m2','commit-prime-m1','commit-prime-p2') else 'TC-HELICON.md' if mode in ('commit-play-qsg','commit-vlt2') else 'ZOOM.md' if mode in ('commit-v6-live','commit-g1-original') else 'NEURAL-DSP.md' if mode == 'commit-quad' else 'KEMPER.md' if mode == 'commit-player' else 'FRACTAL-AUDIO.md'),'README.md','MULTI-EFFECTS.md','research-state.json','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md','scripts/comparison_views.py','scripts/research_tools.py','Makefile']
+        paths=[('brand/ZOOM.md' if mode in ('commit-g1xfour-followup','commit-g1four-market') else 'brand/KORG.md' if mode == 'commit-ax100g' else 'brand/BEHRINGER.md' if mode == 'commit-vamp3' else 'brand/BOSS.md' if mode == 'commit-me30' else 'brand/DIGITECH.md' if mode == 'commit-rp70' else 'brand/BOSS.md' if mode == 'commit-ad10' else 'brand/ZOOM.md' if mode == 'commit-g2four-market' else 'brand/BOSS.md' if mode == 'commit-me50b' else 'brand/DIGITECH.md' if mode == 'commit-rp200' else 'brand/VALETON.md' if mode == 'commit-gp200x' else 'brand/NUX.md' if mode == 'commit-mfx10' else 'brand/DARKGLASS.md' if mode == 'commit-anagram' else 'brand/MOOER.md' if mode in ('commit-blacktruck','commit-prime-s1') else 'brand/AMMOON.md' if mode == 'commit-pockrock' else 'brand/ZOOM.md' if mode == 'commit-v3compat' else 'brand/JOYO.md' if mode in ('commit-tc1','commit-tc2') else 'brand/MOSKY.md' if mode in ('commit-sol918','commit-rd5','commit-rc5','commit-dc5') else 'brand/SORAN.md' if mode in ('commit-gorigb','commit-tinystomp','commit-dualstomp','commit-dualstomplite','commit-gorig2') else 'brand/BEHRINGER.md' if mode == 'commit-fx600' else 'brand/BOSS.md' if mode in ('commit-ms3','commit-me90b-control','commit-ve1','commit-ve22','commit-gt10b') else 'brand/LINE6.md' if mode == 'commit-floorpodplus' else 'brand/YAMAHA.md' if mode == 'commit-spx2000' else 'brand/KORG.md' if mode == 'commit-ax10b' else 'brand/ZOOM.md' if mode in ('commit-b2-conversion','commit-ms80ir') else 'brand/FLAMMA.md' if mode in ('commit-fv05','commit-fx20','commit-fx150b') else 'brand/NUX.md' if mode in ('commit-stageman','commit-aas') else 'brand/MOOER.md' if mode in ('commit-prime-m2','commit-prime-m1','commit-prime-p2') else 'brand/TC-HELICON.md' if mode in ('commit-play-qsg','commit-vlt2') else 'brand/ZOOM.md' if mode in ('commit-v6-live','commit-g1-original') else 'brand/NEURAL-DSP.md' if mode == 'commit-quad' else 'brand/KEMPER.md' if mode == 'commit-player' else 'brand/FRACTAL-AUDIO.md'),'README.md','MULTI-EFFECTS.md','research-state.json','all-guitar.md','all-bass.md','all-vocal.md','scripts/comparison_views.py','scripts/research_tools.py','Makefile']
         if mode in ('commit-anagram', 'commit-tc1', 'commit-tc2'): paths.append('EXPRESSION-VOLUME.md')
         if mode == 'commit-vamp3':
             paths.append('EXPRESSION-VOLUME.md')
@@ -153,7 +153,7 @@ def main():
     elif mode == 'commit-b1x-original':
         verify()
         assert not git('diff', '--cached', '--name-only').strip(), 'Existing staged changes'
-        paths = ['ZOOM.md', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'Makefile', 'scripts/research_tools.py']
+        paths = ['brand/ZOOM.md', 'all-guitar.md', 'all-bass.md', 'all-vocal.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'Makefile', 'scripts/research_tools.py']
         changed = set(git('diff', '--name-only').splitlines())
         assert changed <= set(paths), changed - set(paths)
         git('add', '--', *paths)
@@ -163,7 +163,7 @@ def main():
         verify()
         subprocess.run(['python3',str(ROOT/'scripts/comparison_views.py'),'verify'],check=True)
         assert not git('diff','--cached','--name-only').strip(), 'Existing staged changes'
-        paths=['ZOOM.md','README.md','MULTI-EFFECTS.md','research-state.json','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md','scripts/research_tools.py','Makefile']
+        paths=['brand/ZOOM.md','README.md','MULTI-EFFECTS.md','research-state.json','all-guitar.md','all-bass.md','all-vocal.md','scripts/research_tools.py','Makefile']
         changed=set(git('diff','--name-only').splitlines())|set(git('ls-files','--others','--exclude-standard').splitlines())
         assert changed <= set(paths), changed-set(paths)
         git('add','--',*sorted(changed))
@@ -183,109 +183,109 @@ def main():
         for check in ('test-fields', 'test-extraction', 'test-selection', 'verify'):
             subprocess.run([sys.executable, str(ROOT/'scripts/comparison_views.py'), check], check=True)
         assert not git('diff', '--cached', '--name-only').strip(), 'Existing staged changes'
-        paths = ['Makefile', 'scripts/research_tools.py', 'scripts/comparison_views.py', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'README.md', 'research-state.json']
+        paths = ['Makefile', 'scripts/research_tools.py', 'scripts/comparison_views.py', 'all-guitar.md', 'all-bass.md', 'all-vocal.md', 'README.md', 'research-state.json']
         if mode == 'commit-ame100':
-            paths += ['AUDOTA.md']
+            paths += ['brand/AUDOTA.md']
         if mode == 'commit-h9max':
-            paths += ['EVENTIDE.md']
+            paths += ['brand/EVENTIDE.md']
         if mode == 'commit-1201':
-            paths += ['ZOOM.md']
+            paths += ['brand/ZOOM.md']
         if mode == 'commit-vt4':
-            paths += ['ROLAND.md']
+            paths += ['brand/ROLAND.md']
         if mode == 'commit-ampero-one':
-            paths += ['HOTONE.md']
+            paths += ['brand/HOTONE.md']
         if mode == 'commit-katana-go':
-            paths += ['BOSS.md']
+            paths += ['brand/BOSS.md']
         if mode == 'commit-microplus':
-            paths += ['FENDER.md']
+            paths += ['brand/FENDER.md']
         if mode in ('commit-pg2', 'commit-mg20'):
-            paths += ['NUX.md']
+            paths += ['brand/NUX.md']
         if mode in ('commit-m350', 'commit-m100'):
-            paths += ['TC-ELECTRONIC.md', 'MULTI-EFFECTS.md']
+            paths += ['brand/TC-ELECTRONIC.md', 'MULTI-EFFECTS.md']
         if mode == 'commit-hxe-price':
-            paths += ['LINE6.md']
+            paths += ['brand/LINE6.md']
         if mode == 'commit-criticalmass':
-            paths += ['TC-HELICON.md']
+            paths += ['brand/TC-HELICON.md']
         if mode in ('commit-b21u', 'commit-rfx1100', 'commit-b1four-followup', 'commit-b1xfour-followup'):
-            paths += ['ZOOM.md']
+            paths += ['brand/ZOOM.md']
         if mode in ('commit-midiverb4', 'commit-microverb4'):
-            paths += ['ALESIS.md', 'MULTI-EFFECTS.md']
+            paths += ['brand/ALESIS.md', 'MULTI-EFFECTS.md']
         if mode in ('commit-dsp2024p', 'commit-fx2000'):
-            paths += ['BEHRINGER.md']
+            paths += ['brand/BEHRINGER.md']
         if mode in ('commit-rev500', 'commit-spx990', 'commit-spx900'):
-            paths += ['YAMAHA.md', 'MULTI-EFFECTS.md']
+            paths += ['brand/YAMAHA.md', 'MULTI-EFFECTS.md']
         if mode == 'commit-ie550':
-            paths += ['DK.md', 'MULTI-EFFECTS.md']
+            paths += ['brand/DK.md', 'MULTI-EFFECTS.md']
         if mode == 'commit-mx200':
-            paths += ['LEXICON.md']
+            paths += ['brand/LEXICON.md']
         if mode in ('commit-gnx3', 'commit-gnx4'):
-            paths += ['DIGITECH.md']
+            paths += ['brand/DIGITECH.md']
         if mode == 'commit-r16':
-            paths += ['JOYO.md', 'MULTI-EFFECTS.md']
+            paths += ['brand/JOYO.md', 'MULTI-EFFECTS.md']
         if mode in ('commit-fx50', 'commit-fg200', 'commit-fv04', 'commit-fv03', 'commit-fb200', 'commit-fv02'):
-            paths += ['FLAMMA.md', 'MULTI-EFFECTS.md']
+            paths += ['brand/FLAMMA.md', 'MULTI-EFFECTS.md']
         if mode in ('commit-vx5', 'commit-pedalboard', 'commit-gigboard'):
-            paths += ['HEADRUSH.md', 'MULTI-EFFECTS.md']
+            paths += ['brand/HEADRUSH.md', 'MULTI-EFFECTS.md']
         if mode in ('commit-gt8', 'commit-gt10', 'commit-me20b', 'commit-me50'):
-            paths += ['BOSS.md', 'MULTI-EFFECTS.md']
+            paths += ['brand/BOSS.md', 'MULTI-EFFECTS.md']
         if mode == 'commit-ve20-followup':
-            paths += ['BOSS.md']
+            paths += ['brand/BOSS.md']
         if mode in ('commit-708ii', 'commit-707ii', 'commit-g71ut', 'commit-gfx4', 'commit-gfx5', 'commit-gfx3', 'commit-g21u', 'commit-g3x', 'commit-g5', 'commit-ms50gplus', 'commit-505ii'):
-            paths += ['ZOOM.md', 'MULTI-EFFECTS.md']
+            paths += ['brand/ZOOM.md', 'MULTI-EFFECTS.md']
         if mode == 'commit-b2-followup':
-            paths += ['ZOOM.md']
+            paths += ['brand/ZOOM.md']
         if mode in ('commit-ax30g', 'commit-ax3g', 'commit-ax1000g', 'commit-ax10g', 'commit-ax1500g', 'commit-ax3000g', 'commit-pandora'):
-            paths += ['KORG.md', 'MULTI-EFFECTS.md']
+            paths += ['brand/KORG.md', 'MULTI-EFFECTS.md']
         if mode in ('commit-harmony-singer2', 'commit-duplicator', 'commit-mic-mechanic2', 'commit-vl3x'):
-            paths += ['TC-HELICON.md', 'MULTI-EFFECTS.md']
+            paths += ['brand/TC-HELICON.md', 'MULTI-EFFECTS.md']
         if mode in ('commit-rp155', 'commit-rp1000', 'commit-rp250', 'commit-rp90', 'commit-rp500', 'commit-rp255', 'commit-rp360xp'):
-            paths += ['DIGITECH.md', 'MULTI-EFFECTS.md']
+            paths += ['brand/DIGITECH.md', 'MULTI-EFFECTS.md']
         if mode in ('commit-pocketgt', 'commit-ve5', 'commit-gt6', 'commit-me20', 'commit-me25', 'commit-me70', 'commit-me80'):
-            paths += ['BOSS.md', 'MULTI-EFFECTS.md']
+            paths += ['brand/BOSS.md', 'MULTI-EFFECTS.md']
         if mode in ('commit-dapper-indie', 'commit-dapper-dark-mini', 'commit-dapper-dark', 'commit-dapper-acoustic-mini', 'commit-dapper-mini', 'commit-dapper-bass', 'commit-dapper-bass-mini'):
-            paths += ['VALETON.md', 'MULTI-EFFECTS.md']
+            paths += ['brand/VALETON.md', 'MULTI-EFFECTS.md']
         if mode == 'commit-flyrig5v2':
-            paths += ['TECH21.md', 'MULTI-EFFECTS.md']
+            paths += ['brand/TECH21.md', 'MULTI-EFFECTS.md']
         if mode in ('commit-bfactory', 'commit-levitate', 'commit-rockstage', 'commit-blackhammer'):
-            paths += ['SONICAKE.md', 'MULTI-EFFECTS.md']
+            paths += ['brand/SONICAKE.md', 'MULTI-EFFECTS.md']
         if mode == 'commit-ving-coverage':
-            paths += ['VING.md']
+            paths += ['brand/VING.md']
         if mode == 'commit-ax5g':
-            paths += ['KORG.md', 'MULTI-EFFECTS.md']
+            paths += ['brand/KORG.md', 'MULTI-EFFECTS.md']
         if mode in ('commit-vamp2', 'commit-bass-vamp-pro', 'commit-bass-vamp'):
-            paths += ['BEHRINGER.md', 'MULTI-EFFECTS.md']
+            paths += ['brand/BEHRINGER.md', 'MULTI-EFFECTS.md']
         if mode in ('commit-hd400', 'commit-xtlive', 'commit-x3live', 'commit-amplifi-fx100', 'commit-hd500x', 'commit-stadiumxl', 'commit-helixfloor', 'commit-hxone', 'commit-pocketpod', 'commit-m9', 'commit-m5', 'commit-hd500'):
-            paths += ['LINE6.md', 'MULTI-EFFECTS.md']
+            paths += ['brand/LINE6.md', 'MULTI-EFFECTS.md']
         if mode == 'commit-pe100':
-            paths += ['MOOER.md', 'MULTI-EFFECTS.md']
+            paths += ['brand/MOOER.md', 'MULTI-EFFECTS.md']
         if mode in ('commit-g1on', 'commit-g1xon', 'commit-b3', 'commit-g3', 'commit-g3xn', 'commit-g3n', 'commit-b3n', 'commit-a1four', 'commit-a1xfour', 'commit-ms50g', 'commit-ms70cdr', 'commit-ms70cdrplus', 'commit-ms60bplus', 'commit-b1on', 'commit-g5n', 'commit-ms60b'):
-            paths += ['ZOOM.md', 'MULTI-EFFECTS.md']
+            paths += ['brand/ZOOM.md', 'MULTI-EFFECTS.md']
         if mode in ('commit-pod-express-guitar-preservation', 'commit-pod-express-bass-preservation'):
-            paths += ['LINE6.md']
+            paths += ['brand/LINE6.md']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         if mode == 'commit-g11-preservation':
-            paths += ['ZOOM.md']
+            paths += ['brand/ZOOM.md']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         if mode == 'commit-arena-preservation':
-            paths += ['DONNER.md']
+            paths += ['brand/DONNER.md']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         if mode in ('commit-fx100-preservation', 'commit-fx200-preservation'):
-            paths += ['FLAMMA.md']
+            paths += ['brand/FLAMMA.md']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         if mode == 'commit-core-preservation':
-            paths += ['HEADRUSH.md']
+            paths += ['brand/HEADRUSH.md']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         if mode in ('commit-gembox-preservation', 'commit-gembox-ii-preservation', 'commit-gembox-iii-preservation'):
-            paths += ['JOYO.md']
+            paths += ['brand/JOYO.md']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         if mode in ('commit-podgo-preservation', 'commit-podgo-wireless-preservation'):
-            paths += ['LINE6.md']
+            paths += ['brand/LINE6.md']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         if mode in ('commit-tank-g-preservation', 'commit-tank-b-preservation', 'commit-tank-mini-preservation', 'commit-mk20-preservation', 'commit-mk300-preservation', 'commit-tankpro-preservation', 'commit-annblackbox-preservation', 'commit-minix-preservation', 'commit-pocketamp-preservation', 'commit-cubebabyac-preservation', 'commit-cubebabybass-preservation', 'commit-cubebabyelectric-preservation'):
-            paths += ['M-VAVE.md']
+            paths += ['brand/M-VAVE.md']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         if mode in ('commit-mg100-preservation', 'commit-mg200-preservation', 'commit-trident-preservation'):
-            paths += ['NUX.md']
+            paths += ['brand/NUX.md']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         if mode == 'commit-cubebabyelectric-preservation':
             paths += ['scripts/consolidation_tools.py']
@@ -294,50 +294,50 @@ def main():
             paths += ['scripts/consolidation_tools.py']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'audit-findings'], check=True)
         if mode in ('commit-floorboard-matribox-ii', 'commit-floorboard-matribox-ii-pro'):
-            paths += ['SONICAKE.md', 'scripts/consolidation_tools.py']
+            paths += ['brand/SONICAKE.md', 'scripts/consolidation_tools.py']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         if mode == 'commit-floorboard-union':
             paths += ['MULTI-EFFECTS.md', 'scripts/consolidation_tools.py']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'audit-floorboard-union'], check=True)
         if mode == 'commit-market2-union':
-            paths += ["M-VAVE.md","BOIN-AUDIO.md","SCORPION.md","JOYO.md","TC-HELICON.md","MULTI-EFFECTS.md","scripts/consolidation_tools.py"]
+            paths += ["brand/M-VAVE.md","brand/BOIN-AUDIO.md","brand/SCORPION.md","brand/JOYO.md","brand/TC-HELICON.md","MULTI-EFFECTS.md","scripts/consolidation_tools.py"]
             for audit in ('audit-market2-union', 'audit-market2-links', 'audit-market1-union', 'audit-owned-union', 'audit-cube-union'):
                 subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), audit], check=True)
         if mode == 'commit-market3-union':
-            paths += ["HEADRUSH.md","DONNER.md","NUX.md","MULTI-EFFECTS.md","scripts/consolidation_tools.py"]
+            paths += ["brand/HEADRUSH.md","brand/DONNER.md","brand/NUX.md","MULTI-EFFECTS.md","scripts/consolidation_tools.py"]
             for audit in ('audit-market3-union', 'audit-market3-links', 'audit-market1-union', 'audit-owned-union', 'audit-cube-union'):
                 subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), audit], check=True)
         if mode == 'commit-market4-union':
-            paths += ["MOOER.md","MULTI-EFFECTS.md","scripts/consolidation_tools.py"]
+            paths += ["brand/MOOER.md","MULTI-EFFECTS.md","scripts/consolidation_tools.py"]
             for audit in ('audit-market4-union', 'audit-market4-links', 'audit-market1-union', 'audit-owned-union', 'audit-cube-union'):
                 subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), audit], check=True)
         if mode == 'commit-market5-union':
-            paths += ["HOTONE.md","MOOER.md","LINE6.md","MULTI-EFFECTS.md","scripts/consolidation_tools.py"]
+            paths += ["brand/HOTONE.md","brand/MOOER.md","brand/LINE6.md","MULTI-EFFECTS.md","scripts/consolidation_tools.py"]
             for audit in ('audit-market5-union', 'audit-market5-links', 'audit-market1-union', 'audit-owned-union', 'audit-cube-union'):
                 subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), audit], check=True)
         if mode == 'commit-market6-union':
-            paths += ["MOOER.md","MULTI-EFFECTS.md","scripts/consolidation_tools.py"]
+            paths += ["brand/MOOER.md","MULTI-EFFECTS.md","scripts/consolidation_tools.py"]
             for audit in ('audit-market6-union', 'audit-market6-links', 'audit-market1-union', 'audit-owned-union', 'audit-cube-union'):
                 subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), audit], check=True)
         if mode == 'commit-market7-union':
-            paths += ["NUX.md","ZOOM.md","HOTONE.md","LINE6.md","MULTI-EFFECTS.md","scripts/consolidation_tools.py"]
+            paths += ["brand/NUX.md","brand/ZOOM.md","brand/HOTONE.md","brand/LINE6.md","MULTI-EFFECTS.md","scripts/consolidation_tools.py"]
             for audit in ('audit-market7-union', 'audit-market7-links', 'audit-market1-union', 'audit-owned-union', 'audit-cube-union'):
                 subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), audit], check=True)
         if mode == 'commit-market1-union':
-            paths += ['M-VAVE.md', 'HOTONE.md', 'MOOER.md', 'ZOOM.md', 'FLAMMA.md', 'MULTI-EFFECTS.md', 'scripts/consolidation_tools.py']
+            paths += ['brand/M-VAVE.md', 'brand/HOTONE.md', 'brand/MOOER.md', 'brand/ZOOM.md', 'brand/FLAMMA.md', 'MULTI-EFFECTS.md', 'scripts/consolidation_tools.py']
             for audit in ('audit-market1-union', 'audit-market1-links', 'audit-owned-union', 'audit-cube-union'):
                 subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), audit], check=True)
         if mode == 'commit-owned-union':
-            paths += ['ROLAND.md', 'ZOOM.md', 'JOYO.md', 'M-VAVE.md', 'CUVAVE.md', 'VING.md', 'MULTI-EFFECTS.md', 'scripts/consolidation_tools.py']
+            paths += ['brand/ROLAND.md', 'brand/ZOOM.md', 'brand/JOYO.md', 'brand/M-VAVE.md', 'brand/CUVAVE.md', 'brand/VING.md', 'MULTI-EFFECTS.md', 'scripts/consolidation_tools.py']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'audit-owned-union'], check=True)
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'audit-owned-links'], check=True)
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'audit-cube-union'], check=True)
         if mode == 'commit-cube-union':
-            paths += ['M-VAVE.md', 'MULTI-EFFECTS.md', 'scripts/consolidation_tools.py']
+            paths += ['brand/M-VAVE.md', 'MULTI-EFFECTS.md', 'scripts/consolidation_tools.py']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'audit-cube-union'], check=True)
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'audit-cube-links'], check=True)
         if mode == 'commit-audota-union':
-            paths += ['AUDOTA.md', 'MULTI-EFFECTS.md', 'scripts/consolidation_tools.py']
+            paths += ['brand/AUDOTA.md', 'MULTI-EFFECTS.md', 'scripts/consolidation_tools.py']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'audit-audota-union'], check=True)
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'audit-audota-links'], check=True)
         if mode == 'commit-boss-history-union':
@@ -353,10 +353,10 @@ def main():
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'audit-advanced-union'], check=True)
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'audit-advanced-links'], check=True)
         if mode == 'commit-advanced-flex-audit':
-            paths += ['HEADRUSH.md', 'scripts/consolidation_tools.py']
+            paths += ['brand/HEADRUSH.md', 'scripts/consolidation_tools.py']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         if mode == 'commit-advanced-hxe-audit':
-            paths += ['LINE6.md', 'scripts/consolidation_tools.py']
+            paths += ['brand/LINE6.md', 'scripts/consolidation_tools.py']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         if mode == 'commit-vocal-union':
             paths += ['MULTI-EFFECTS.md', 'scripts/consolidation_tools.py']
@@ -375,36 +375,36 @@ def main():
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'audit-compact-union'], check=True)
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'audit-compact-links'], check=True)
         if mode in ('commit-nux-mg101-audit', 'commit-nux-mg300-audit', 'commit-nux-mg300mkii-audit', 'commit-nux-mg400-audit', 'commit-nux-mg30-audit', 'commit-nux-mg50li-audit'):
-            paths += ['NUX.md', 'scripts/consolidation_tools.py']
+            paths += ['brand/NUX.md', 'scripts/consolidation_tools.py']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         if mode == 'commit-legacy-audit':
             paths += ['scripts/consolidation_tools.py']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'audit-legacy'], check=True)
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'audit-findings'], check=True)
         if mode in ('commit-compact-gp100-audit', 'commit-compact-gp150-audit'):
-            paths += ['VALETON.md', 'scripts/consolidation_tools.py']
+            paths += ['brand/VALETON.md', 'scripts/consolidation_tools.py']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'audit-compact', 'GP-150' if mode == 'commit-compact-gp150-audit' else 'GP-100'], check=True)
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         if mode == 'commit-compact-matribox-audit':
-            paths += ['SONICAKE.md', 'scripts/consolidation_tools.py']
+            paths += ['brand/SONICAKE.md', 'scripts/consolidation_tools.py']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'audit-compact', 'Matribox'], check=True)
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         if mode in ('commit-compact-gp5-audit', 'commit-compact-gp50-audit'):
-            paths += ['VALETON.md', 'scripts/consolidation_tools.py']
+            paths += ['brand/VALETON.md', 'scripts/consolidation_tools.py']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'audit-compact', 'GP-50' if mode == 'commit-compact-gp50-audit' else 'GP-5'], check=True)
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         if mode == 'commit-compact-gp180-audit':
-            paths += ['VALETON.md', 'scripts/consolidation_tools.py']
+            paths += ['brand/VALETON.md', 'scripts/consolidation_tools.py']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'audit-compact', 'GP-180'], check=True)
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         if mode in ('commit-compact-smartbox-audit', 'commit-compact-pocketmaster-audit'):
-            paths += ['SONICAKE.md', 'scripts/consolidation_tools.py']
+            paths += ['brand/SONICAKE.md', 'scripts/consolidation_tools.py']
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'audit-compact', 'Pocket Master' if mode == 'commit-compact-pocketmaster-audit' else 'Smart Box'], check=True)
             subprocess.run([sys.executable, str(ROOT/'scripts/consolidation_tools.py'), 'verify'], check=True)
         if mode in ('commit-perform-ve', 'commit-perform-vg', 'commit-perform-vk', 'commit-perform-v'):
-            paths += ['TC-HELICON.md', 'MULTI-EFFECTS.md']
+            paths += ['brand/TC-HELICON.md', 'MULTI-EFFECTS.md']
         if mode in ('commit-stomplab2g', 'commit-stomplab1g', 'commit-stomplab2b', 'commit-tonelab-se', 'commit-tonelab-st', 'commit-tonelab-le'):
-            paths += ['VOX.md', 'MULTI-EFFECTS.md']
+            paths += ['brand/VOX.md', 'MULTI-EFFECTS.md']
         changed = set(git('diff', '--name-only').splitlines())
         assert changed <= set(paths), changed - set(paths)
         git('add', '--', *paths)
@@ -868,7 +868,7 @@ def main():
         verify()
         subprocess.run(['python3',str(ROOT/'scripts/comparison_views.py'),'verify'],check=True)
         assert not git('diff','--cached','--name-only').strip(), 'Existing staged changes must be inspected'
-        paths=['VALETON.md','research-state.json','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md','Makefile','scripts/research_tools.py']
+        paths=['brand/VALETON.md','research-state.json','all-guitar.md','all-bass.md','all-vocal.md','Makefile','scripts/research_tools.py']
         print(git('status','--short'))
         print(git('add','--',*paths))
         print(git('diff','--cached','--stat'))
@@ -877,22 +877,22 @@ def main():
         verify()
         print(git('status', '--short', '--branch'))
         assert not git('diff', '--cached', '--name-only').strip(), 'Unrelated staged changes; inspect before committing'
-        paths = ['Makefile', 'scripts/research_tools.py', 'ALL-GUITAR.md', 'ALL-BASS.md', 'MULTI-EFFECTS.md', 'README.md', 'research-state.json']
+        paths = ['Makefile', 'scripts/research_tools.py', 'all-guitar.md', 'all-bass.md', 'MULTI-EFFECTS.md', 'README.md', 'research-state.json']
         if mode in ('commit-comparisons','commit-prime','commit-ge300','commit-gs1000','commit-b1xon','commit-helix-lt','commit-gt100'):
-            paths += ['ALL-VOCAL.md','scripts/comparison_views.py','AGENTS.md','SINGLE-GUITAR.md','SINGLE-BASS.md','SINGLE-VOCAL.md','effects/specialist.md','effects/findings/2026-10-14-flamma-fv01.md']
+            paths += ['all-vocal.md','scripts/comparison_views.py','AGENTS.md','single-guitar.md','single-bass.md','single-vocal.md','effects/specialist.md','effects/findings/2026-10-14-flamma-fv01.md']
             subprocess.run(['python3',str(ROOT/'scripts/comparison_views.py'),'verify'],check=True)
             if mode=='commit-prime':
-                paths.append('HEADRUSH.md')
+                paths.append('brand/HEADRUSH.md')
             elif mode in ('commit-ge300','commit-gs1000'):
-                paths.append('MOOER.md')
+                paths.append('brand/MOOER.md')
             elif mode=='commit-b1xon':
-                paths.append('ZOOM.md')
+                paths.append('brand/ZOOM.md')
             elif mode=='commit-helix-lt':
-                paths.append('LINE6.md')
+                paths.append('brand/LINE6.md')
             elif mode=='commit-gt100':
-                paths.append('BOSS.md')
+                paths.append('brand/BOSS.md')
         else:
-            paths.append('VALETON.md' if mode == 'commit-gp200jr' else 'LINE6.md')
+            paths.append('brand/VALETON.md' if mode == 'commit-gp200jr' else 'brand/LINE6.md')
         print(git('add', '--', *paths))
         print(git('diff', '--cached', '--stat'))
         if mode == 'commit-hx-effects':

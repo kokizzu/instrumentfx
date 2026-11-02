@@ -1,6 +1,6 @@
 # Multi-effects — expression and footprint comparison
 
-[All guitar](ALL-GUITAR.md) · [All bass](ALL-BASS.md) · [All vocal](ALL-VOCAL.md) · [Repository](README.md)
+[All guitar](all-guitar.md) · [All bass](all-bass.md) · [All vocal](all-vocal.md) · [Repository](README.md)
 
 This category view summarizes **14 selected model records from the 402 root-canonical profiles**. The linked ALL-GUITAR, ALL-BASS and ALL-VOCAL pages now contain actual hardware, processing, I/O/power/software and IDR comparison tables for every model in their recorded instrument membership. All recorded models have root brand profiles;technical verification andmarket discovery remain incomplete. Counts in different instrument views overlap and must not be added together.
 
@@ -10,25 +10,25 @@ Each model link opens the full evidence,firmware context,price qualifications an
 
 | Model | Body footprint / size bin | Main screen | Processing architecture | Full record |
 |---|---|---|---|---|
-| Valeton GP-200JR |281×166 mm /medium |4.3-inch color TFT;touch unverified |11 movable categories,DSP-limited |[VALETON](VALETON.md#gp-200jr) |
-| HeadRush MX5 |295×150 mm /medium |4-inch color touchscreen |11 DSP-dependent slots |[HEADRUSH](HEADRUSH.md#mx5) |
-| HeadRush Flex Prime |295×150 mm /medium |4-inch touchscreen; separate color/resolution verification pending in retained record |14 DSP-dependent blocks;5 routing types |[HEADRUSH](HEADRUSH.md#flex-prime) |
-| Hotone Ampero One MP-80 |273×143 mm /medium |4-inch color touchscreen |9 simultaneous category modules;3 flexible FX modules |[HOTONE](HOTONE.md#ampero-one-mp-80) |
-| Line6 POD Go |359×230 mm horizontal envelope /large; source W/D labels retained in brand record |4.3-inch color LCD;touch unverified |10 semifixed blocks,including4 freely selected effects |[LINE6](LINE6.md#pod-go-and-pod-go-wireless) |
-| Line6 POD Go Wireless |Same documented family envelope /large; different mass and wireless hardware |4.3-inch color LCD;touch unverified |Same explicitly documented POD Go architecture |[LINE6](LINE6.md#pod-go-and-pod-go-wireless) |
-| MOOER GE250 |324×163 mm horizontal envelope /large |3.5-inch color TFT;touch unverified |Manual10 effect blocks versus regional11 module types; unresolved |[MOOER](MOOER.md#ge250) |
-| Zoom G11 |495×253 mm /large |5-inch color touchscreen;6 auxiliary LCDs have separate unverified physical specifications |One amp+9 effects,DSP-limited; alternative manual10-effect wording retained |[ZOOM](ZOOM.md#g11) |
+| Valeton GP-200JR |281×166 mm /medium |4.3-inch color TFT;touch unverified |11 movable categories,DSP-limited |[VALETON](brand/VALETON.md#gp-200jr) |
+| HeadRush MX5 |295×150 mm /medium |4-inch color touchscreen |11 DSP-dependent slots |[HEADRUSH](brand/HEADRUSH.md#mx5) |
+| HeadRush Flex Prime |295×150 mm /medium |4-inch touchscreen; separate color/resolution verification pending in retained record |14 DSP-dependent blocks;5 routing types |[HEADRUSH](brand/HEADRUSH.md#flex-prime) |
+| Hotone Ampero One MP-80 |273×143 mm /medium |4-inch color touchscreen |9 simultaneous category modules;3 flexible FX modules |[HOTONE](brand/HOTONE.md#ampero-one-mp-80) |
+| Line6 POD Go |359×230 mm horizontal envelope /large; source W/D labels retained in brand record |4.3-inch color LCD;touch unverified |10 semifixed blocks,including4 freely selected effects |[LINE6](brand/LINE6.md#pod-go-and-pod-go-wireless) |
+| Line6 POD Go Wireless |Same documented family envelope /large; different mass and wireless hardware |4.3-inch color LCD;touch unverified |Same explicitly documented POD Go architecture |[LINE6](brand/LINE6.md#pod-go-and-pod-go-wireless) |
+| MOOER GE250 |324×163 mm horizontal envelope /large |3.5-inch color TFT;touch unverified |Manual10 effect blocks versus regional11 module types; unresolved |[MOOER](brand/MOOER.md#ge250) |
+| Zoom G11 |495×253 mm /large |5-inch color touchscreen;6 auxiliary LCDs have separate unverified physical specifications |One amp+9 effects,DSP-limited; alternative manual10-effect wording retained |[ZOOM](brand/ZOOM.md#g11) |
 
 ## No built-in expression
 
 | Model | External expression | Body footprint / size | Main screen | Full record |
 |---|---|---|---|---|
-| Line6 HX Effects |2 expression sockets shared with amp control |Approx.274×201 mm /large; rounded official dimensions |6 LCD scribble strips; diagonals/color/touch unverified; capacitive switches are separate |[LINE6](LINE6.md#hx-effects) |
-| HeadRush Core |TRS EXP plus separate toe input |408.4×234.6 mm /large |7-inch full-color touchscreen |[HEADRUSH](HEADRUSH.md#core) |
-| Fender Tone Master Pro |2 TRS expression inputs plus separate toe |371×261.6 mm /large; old manual261.4 mm depth conflict retained |7-inch color touchscreen,auxiliary LCDs separately unverified |[FENDER](FENDER.md#tone-master-pro) |
-| Valeton GP-200LT |2 shared EXP/FS sockets |253×165 mm /medium |4.3-inch color TFT;touch unverified |[VALETON](VALETON.md#gp-200lt) |
-| Line6 POD Express Guitar |One shared volume-expression/FS3,4 socket |Primary dimensions remain unverified |No graphical/numeric screen;LED indicators only |[LINE6](LINE6.md#pod-express-guitar) |
-| Line6 POD Express Bass |One shared volume-expression/FS3,4 socket |Primary dimensions remain unverified |No graphical/numeric screen;LED indicators only |[LINE6](LINE6.md#pod-express-bass) |
+| Line6 HX Effects |2 expression sockets shared with amp control |Approx.274×201 mm /large; rounded official dimensions |6 LCD scribble strips; diagonals/color/touch unverified; capacitive switches are separate |[LINE6](brand/LINE6.md#hx-effects) |
+| HeadRush Core |TRS EXP plus separate toe input |408.4×234.6 mm /large |7-inch full-color touchscreen |[HEADRUSH](brand/HEADRUSH.md#core) |
+| Fender Tone Master Pro |2 TRS expression inputs plus separate toe |371×261.6 mm /large; old manual261.4 mm depth conflict retained |7-inch color touchscreen,auxiliary LCDs separately unverified |[FENDER](brand/FENDER.md#tone-master-pro) |
+| Valeton GP-200LT |2 shared EXP/FS sockets |253×165 mm /medium |4.3-inch color TFT;touch unverified |[VALETON](brand/VALETON.md#gp-200lt) |
+| Line6 POD Express Guitar |One shared volume-expression/FS3,4 socket |Primary dimensions remain unverified |No graphical/numeric screen;LED indicators only |[LINE6](brand/LINE6.md#pod-express-guitar) |
+| Line6 POD Express Bass |One shared volume-expression/FS3,4 socket |Primary dimensions remain unverified |No graphical/numeric screen;LED indicators only |[LINE6](brand/LINE6.md#pod-express-bass) |
 
 POD Express Guitar and Bass have different category selections and routing despite shared hardware functions. Wireless transmitter battery does not power a POD Go floorboard. A multi-instrument input or mic side path does not imply every effect applies independently to every instrument.
 
@@ -70,14 +70,14 @@ Connector counts refer to physical sockets. A single TRS stereo output is not tw
 Technical model links lead to manufacturers. The eight findings notes contain the new display/manual and exact Indonesian-price links, observation qualifications and outstanding fields. **Price/display review date: 2026-10-14**. Earlier technical claims retain their original snapshot context; this is not a blanket re-verification of all fields.
 
 - GP-150/180 physical controls: [manufacturer comparison image](https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png). GP-180 button count includes six quick-access and ten module buttons.
-- GP-50 original control photo: [manufacturer image](https://res.valeton.net/Uploads/wp/2025/12/gp-50-20.png); completed button count now uses its manual in [F50](VALETON.md#gp-50)<!-- historical-link:multi-001 -->.
+- GP-50 original control photo: [manufacturer image](https://res.valeton.net/Uploads/wp/2025/12/gp-50-20.png); completed button count now uses its manual in [F50](brand/VALETON.md#gp-50)<!-- historical-link:multi-001 -->.
 - Matribox controls: [manufacturer photo](https://www.sonicake.com/cdn/shop/products/QME-50.jpg?v=1678434988&width=1096); [official manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433).
-- Smart Box original control photo: [manufacturer image](https://www.sonicake.com/cdn/shop/files/QME-20-1.jpg?v=1767506736&width=1440); display size from its manual in [FSB](SONICAKE.md#smart-box-qme-20)<!-- historical-link:multi-002 -->.
-- Pocket Master original controls: [manufacturer photo](https://www.sonicake.com/cdn/shop/files/QME-1001_dc1d58ce-6c19-4bbb-8bc2-1740e5f15f55.jpg?v=1733365197&width=1440); display/USB roles from its manual in [FPM](SONICAKE.md#pocket-master-qme-10)<!-- historical-link:multi-003 -->.
+- Smart Box original control photo: [manufacturer image](https://www.sonicake.com/cdn/shop/files/QME-20-1.jpg?v=1767506736&width=1440); display size from its manual in [FSB](brand/SONICAKE.md#smart-box-qme-20)<!-- historical-link:multi-002 -->.
+- Pocket Master original controls: [manufacturer photo](https://www.sonicake.com/cdn/shop/files/QME-1001_dc1d58ce-6c19-4bbb-8bc2-1740e5f15f55.jpg?v=1733365197&width=1440); display/USB roles from its manual in [FPM](brand/SONICAKE.md#pocket-master-qme-10)<!-- historical-link:multi-003 -->.
 
 Historical URL correction, 2026-10-17: the paragraph above restores the exact pinned source URLs. Later transcription variants were [Matribox manual](https://cdn.shopify.com/s/files/1/0100/1980/4185/files/Matribox_Online_Manual_Firmware_V1.1.0.pdf?v=1763367433) and [Pocket Master image](https://www.sonicake.com/cdn/shop/files/QME-1001_dc1d58ce-6c19-4bbb-8bc2-1740e5f15f55.jpg?v=1733365198&width=1440); these altered URLs are retained as unverified provenance, not replacements for the source evidence. No new visual inspection or download is claimed.
 
-Other compact processors, including HX Stomp, GT-1000CORE, Ampero Mini and compact capture/specialist pedals, are indexed separately as their records are added. Absence from this page does not mean a device fails the size filter. The next saved review page is [BOSS guitar processors](BOSS.md)<!-- historical-link:multi-004 -->; unresolved compact fields remain tracked in [research-state.json](research-state.json)<!-- historical-link:multi-005 -->.
+Other compact processors, including HX Stomp, GT-1000CORE, Ampero Mini and compact capture/specialist pedals, are indexed separately as their records are added. Absence from this page does not mean a device fails the size filter. The next saved review page is [BOSS guitar processors](brand/BOSS.md)<!-- historical-link:multi-004 -->; unresolved compact fields remain tracked in [research-state.json](research-state.json)<!-- historical-link:multi-005 -->.
 
 
 ## Preserved floorboard source context
@@ -96,7 +96,7 @@ For all researched processors organised by size and expression, start at the [co
 
 The following groups preserve the2026-10-14 shared source context. Links are normalized from effects/ to repository root;manual scope and photograph claims retain their original date. This is source preservation,not fresh hardware verification.
 
-[Home](README.md)<!-- historical-link:multi-008 --> · [Guitar index](ALL-GUITAR.md)<!-- historical-link:multi-009 --> · [Methodology](README.md#evidence-and-resuming)<!-- historical-link:multi-010 -->
+[Home](README.md)<!-- historical-link:multi-008 --> · [Guitar index](all-guitar.md)<!-- historical-link:multi-009 --> · [Methodology](README.md#evidence-and-resuming)<!-- historical-link:multi-010 -->
 
 - [MG-300 manufacturer manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300/NUX_MG300_UserManual_English.pdf), control/I/O diagrams and printed p.14 specifications.
 - [MG-300 MKII manufacturer manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300MKII/NUX_MG300MKII_UserManual_English.pdf), front/rear panels and final specifications. Manual predates some GEN2 additions.
@@ -111,7 +111,7 @@ Historical URL correction, 2026-10-17: the source list above restores the pinned
 
 The following groups preserve the2026-10-14 comparison context and source qualifications. Local links are normalized to repository root. Historical price/indexing statements retain their dates;this is not a fresh stock or hardware check.
 
-[Home](README.md)<!-- historical-link:multi-011 --> · [Methodology](README.md#evidence-and-resuming)<!-- historical-link:multi-012 --> · [Guitar/multi-instrument alternatives](ALL-GUITAR.md)<!-- historical-link:multi-013 --> · [Dedicated synth/acoustic effects](SINGLE-GUITAR.md)<!-- historical-link:multi-014 -->
+[Home](README.md)<!-- historical-link:multi-011 --> · [Methodology](README.md#evidence-and-resuming)<!-- historical-link:multi-012 --> · [Guitar/multi-instrument alternatives](all-guitar.md)<!-- historical-link:multi-013 --> · [Dedicated synth/acoustic effects](single-guitar.md)<!-- historical-link:multi-014 -->
 
 - [B1/B1X official manual](https://zoomcorp.com/documents/129/E_B1FOUR.pdf), printed pp.7 and 60 for controls/specifications. The two small arrow buttons are additional to the two large footswitches.
 - [B2 FOUR official manual](https://zoomcorp.com/manuals/b2four-en/), specifications, memory and USB/app sections; [official control image](https://zoomcorp.com/media/original_images/Hero_1_0EAQFMB.png.768x0_q60_focal_area-825%2C633%2C1650%2C1267.png).
@@ -122,13 +122,13 @@ The following groups preserve the2026-10-14 comparison context and source qualif
 - P3: [Indexed used ME-90B $349.99 listing](https://www.guitarcenter.com/Used/Fender/Multi-Effects-Pedals.gc?filters=brand%3ABOSS&page=13), [indexed $399.99 Excellent listing](https://www.guitarcenter.com/Used/Fender/Multi-Effects-Pedals.gc?filters=brand%3ABOSS&page=9). The site's unusual category path is retained rather than inventing an item URL.
 - P4: [GC BOSS bass catalogue](https://www.guitarcenter.com/BOSS/Bass-Effects-Pedals.gc).
 
-Bass is not restricted to products labelled “bass” on the enclosure. The sourced [Valeton GP-100/150/180](ALL-GUITAR.md)<!-- historical-link:multi-015 -->, [BOSS GX-10/GT-1000/GT-1000CORE](BOSS.md)<!-- historical-link:multi-016 -->, and other multi-instrument processors have documented bass-related processing. Compare input headroom, dry blend, DI output, parallel routing and low-end retention rather than assuming every guitar preset is appropriate for bass.
+Bass is not restricted to products labelled “bass” on the enclosure. The sourced [Valeton GP-100/150/180](all-guitar.md)<!-- historical-link:multi-015 -->, [BOSS GX-10/GT-1000/GT-1000CORE](brand/BOSS.md)<!-- historical-link:multi-016 -->, and other multi-instrument processors have documented bass-related processing. Compare input headroom, dry blend, DI output, parallel routing and low-end retention rather than assuming every guitar preset is appropriate for bass.
 
 ### Historical vocal shared-source navigation and evidence context
 
 The following groups preserve the2026-10-14 source context. Local links are normalized to repository root. Manual-page/control-count and seller qualifications retain their original scope. The final backlog statement is historical:current HeadRush and TC-Helicon records are linked from README.md. This is preservation,not fresh stock or hardware verification.
 
-[Home](README.md)<!-- historical-link:multi-017 --> · [Methodology](README.md#evidence-and-resuming)<!-- historical-link:multi-018 --> · [Specialist effects](SINGLE-GUITAR.md)<!-- historical-link:multi-019 -->
+[Home](README.md)<!-- historical-link:multi-017 --> · [Methodology](README.md#evidence-and-resuming)<!-- historical-link:multi-018 --> · [Specialist effects](single-guitar.md)<!-- historical-link:multi-019 -->
 
 - [V6 manufacturer manual](https://zoomcorp.com/media/documents/E_V6_2.pdf), printed pp.7–9 controls, 17–21 algorithms, 38 specifications. Nine rotary controls include the rear headphone-level knob. Seven small buttons include all five harmony buttons plus Store and Enhance.
 - [V3 manufacturer manual](https://zoomcorp.com/documents/1332/E_V3_2.pdf), control diagram, power, USB audio and effect-setting sections. Desktop buttons are not footswitches.
@@ -145,7 +145,7 @@ TC-Helicon, HeadRush vocal processing and other brands remain in the [coverage b
 
 The following groups preserve the2026-10-14 source context,with local links normalized to repository root. Source-list qualifications about launch FAQs,manual sections and indexed prices keep their original scope. Backlog wording is historical;current records and unresolved work are in README.md and research-state.json. This is preservation,not fresh hardware or stock verification.
 
-[Home](README.md)<!-- historical-link:multi-021 --> · [Methodology](README.md#evidence-and-resuming)<!-- historical-link:multi-022 --> · [Guitar floorboards](ALL-GUITAR.md)<!-- historical-link:multi-023 --> · [Compact alternatives](ALL-GUITAR.md)<!-- historical-link:multi-024 -->
+[Home](README.md)<!-- historical-link:multi-021 --> · [Methodology](README.md#evidence-and-resuming)<!-- historical-link:multi-022 --> · [Guitar floorboards](all-guitar.md)<!-- historical-link:multi-023 --> · [Compact alternatives](all-guitar.md)<!-- historical-link:multi-024 -->
 
 - [HX Stomp FAQ](https://kb.line6.com/hx-stomp-faq), ports, dimensions and power; **launch-era block count is superseded** by [Helix 3.0 notes](https://line6.com/support/page/kb/effects-controllers/helix/helix-30-release-notes-r934/).
 - [HX Effects FAQ](https://kb.line6.com/hx-effects-faq), processing, dimensions, memory and explicit absence of USB audio; [current HX Edit downloads and supported OS](https://line6.com/software/index.html?hardware=All&name=HX+Edit&os=All&submit_form=set).
@@ -162,11 +162,11 @@ Other high-end and compact modelers remain explicitly listed in the [coverage ba
 
 The following paragraphs preserve the2026-10-15 shared comparison context and earlier2026-10-14 technical dates,with local links normalized to repository root. The final next-model/migration statement is historical;current work is in research-state.json. These statements do not certify present stock or complete specification verification.
 
-[Home](README.md)<!-- historical-link:multi-026 --> · [Scope](README.md#scope-and-ownership)<!-- historical-link:multi-027 --> · [Bass-specific models](ALL-BASS.md)<!-- historical-link:multi-028 --> · [Compact alternatives](ALL-GUITAR.md)<!-- historical-link:multi-029 --> · [Resume](README.md#evidence-and-resuming)<!-- historical-link:multi-030 -->
+[Home](README.md)<!-- historical-link:multi-026 --> · [Scope](README.md#scope-and-ownership)<!-- historical-link:multi-027 --> · [Bass-specific models](all-bass.md)<!-- historical-link:multi-028 --> · [Compact alternatives](all-guitar.md)<!-- historical-link:multi-029 --> · [Resume](README.md#evidence-and-resuming)<!-- historical-link:multi-030 -->
 
 **Seven existing models; display and IDR review completed 2026-10-15 with explicit evidence gaps.** Every model's follow-up was committed separately. Other technical data retains its2026-10-14 observation date unless the finding explicitly rechecks it. No new models are counted by this review.
 
-All primary price columns now use **IDR**. The [unchanged original comparison](BOSS.md)<!-- historical-link:multi-031 --> preserves every former USD quote, source and technical statement as historical provenance. No foreign price was relabelled or converted using an assumed rate.
+All primary price columns now use **IDR**. The [unchanged original comparison](brand/BOSS.md)<!-- historical-link:multi-031 --> preserves every former USD quote, source and technical statement as historical provenance. No foreign price was relabelled or converted using an assumed rate.
 
 `?` means unverified, not No. K/F/B = rotary controls / main footswitches / separate buttons; push-encoders counted once, toe and rear switches separate. Dimensions are **W×D×H in millimetres**, excluding plugs and cable clearance. All records remain technically partial.
 
@@ -182,7 +182,7 @@ Model totals use different inclusion rules. Multiple selectable alternatives are
 
 Voltage/polarity and current supplied-versus-drawn distinctions must be confirmed from the matching power specification before a supply substitution. USB connectivity is not proof of powering, recording and editing simultaneously. Older unresolved technical fields remain visible.
 
-Primary product/specification links support the technical rows. Each follow-up includes exact price, photo or additional primary references and retrieval limitations. The [original source snapshot](BOSS.md)<!-- historical-link:multi-032 --> preserves all previous references and USD provenance byte-for-byte.
+Primary product/specification links support the technical rows. Each follow-up includes exact price, photo or additional primary references and retrieval limitations. The [original source snapshot](brand/BOSS.md)<!-- historical-link:multi-032 --> preserves all previous references and USD provenance byte-for-byte.
 
 Next original-page review: **NUX MG-101**. Six other original comparison pages still need their display/IDR migration. This completed seven-model pass does not establish exhaustive model discovery or fully verified current prices.
 
@@ -190,7 +190,7 @@ Next original-page review: **NUX MG-101**. Six other original comparison pages s
 
 The following groups preserve the2026-10-14 original USD observations and source qualifications,with local links normalized to repository root. These indexed asks are historical;they are not current IDR offers or completed-sale statistics.
 
-[Home](README.md)<!-- historical-link:multi-033 --> · [Floorboard index](ALL-GUITAR.md)<!-- historical-link:multi-034 --> · [Bass-specific BOSS models](ALL-BASS.md)<!-- historical-link:multi-035 --> · [Compact alternatives](ALL-GUITAR.md)<!-- historical-link:multi-036 -->
+[Home](README.md)<!-- historical-link:multi-033 --> · [Floorboard index](all-guitar.md)<!-- historical-link:multi-034 --> · [Bass-specific BOSS models](all-bass.md)<!-- historical-link:multi-035 --> · [Compact alternatives](all-guitar.md)<!-- historical-link:multi-036 -->
 
 - [N: Guitar Center BOSS catalogue, new and sale prices](https://www.guitarcenter.com/BOSS/Multi-Effects-Pedals.gc). Treat adapter bundles and open-box prices separately.
 - [U1: Guitar Center used BOSS multi-effects listings](https://www.guitarcenter.com/Used/BOSS/Multi-Effects-Pedals.gc).
@@ -218,7 +218,7 @@ Exact shop/item IDs, URLs and stock/revision qualifications are in the findings.
 
 Together with the already-integrated five Audota records, these raise the former96-model checkpoint to **104 integrated active records on17 pages**. Six excluded archives remain separate. This is a count of records, not a claim of exhaustive Shopee stock or complete specification verification.
 
-Original detailed source references: [CUBE BABY electric](M-VAVE.md#cube-baby-electric)<!-- historical-link:multi-040 --> · [CUBE BABY AC](M-VAVE.md#cube-baby-ac)<!-- historical-link:multi-041 --> · [CUBE BABY BASS](M-VAVE.md#cube-baby-bass)<!-- historical-link:multi-042 -->.
+Original detailed source references: [CUBE BABY electric](brand/M-VAVE.md#cube-baby-electric)<!-- historical-link:multi-040 --> · [CUBE BABY AC](brand/M-VAVE.md#cube-baby-ac)<!-- historical-link:multi-041 --> · [CUBE BABY BASS](brand/M-VAVE.md#cube-baby-bass)<!-- historical-link:multi-042 -->.
 
 ### Owned-model shared historical context
 
@@ -230,7 +230,7 @@ JOYO's original product identity is now established by its own Chinese/English p
 
 GR-55 initial `2b637fb61c243776b1a0a9d192ce17848295eeac`,correction `da9ff9bb01b8be8109f5b588c656de3daaf41c9c`;B1Xon `8b6664672c3f0756f754d1b1e10212421e3ca19f`.
 
-Shared finding references: [Original finding1](ROLAND.md#gr-55)<!-- historical-link:multi-047 --> · [Original finding2](ZOOM.md#b1xon)<!-- historical-link:multi-048 --> · [Original finding3](JOYO.md#gem-box-original)<!-- historical-link:multi-049 --> · [Original finding4](M-VAVE.md#mini-x)<!-- historical-link:multi-050 --> · [Original finding5](M-VAVE.md#pocket-amp)<!-- historical-link:multi-051 --> · [Original finding6](CUVAVE.md#h8)<!-- historical-link:multi-052 --> · [Original finding7](VING.md#flybro-fb-100)<!-- historical-link:multi-053 -->.
+Shared finding references: [Original finding1](brand/ROLAND.md#gr-55)<!-- historical-link:multi-047 --> · [Original finding2](brand/ZOOM.md#b1xon)<!-- historical-link:multi-048 --> · [Original finding3](brand/JOYO.md#gem-box-original)<!-- historical-link:multi-049 --> · [Original finding4](brand/M-VAVE.md#mini-x)<!-- historical-link:multi-050 --> · [Original finding5](brand/M-VAVE.md#pocket-amp)<!-- historical-link:multi-051 --> · [Original finding6](brand/CUVAVE.md#h8)<!-- historical-link:multi-052 --> · [Original finding7](brand/VING.md#flybro-fb-100)<!-- historical-link:multi-053 -->.
 
 ### First Shopee expansion: historical shared qualifications
 
@@ -262,7 +262,7 @@ Manufacturer battery runtimes are not independent measurements. Where only charg
 
 The next Shopee-first targets are **TANK-PRO, ANN Blackbox, Boin Audio BG300, Scorpion KMF-10, JOYO GemBox variants**, newer MOOER/Hotone/Zoom, and vocal-capable TC-Helicon/HeadRush/Flamma. They remain discoveries, not completed technical records, until researched. The old BOSS display/IDR task is deferred, not discarded. See [the evidence queue](research-state.json)<!-- historical-link:multi-058 --> and [checkpoint](README.md#evidence-and-resuming)<!-- historical-link:multi-059 -->.
 
-Original finding references: [Source1](M-VAVE.md#tank-g)<!-- historical-link:multi-060 --> · [Source2](M-VAVE.md#tank-b)<!-- historical-link:multi-061 --> · [Source3](M-VAVE.md#tank-mini)<!-- historical-link:multi-062 --> · [Source4](M-VAVE.md#mk-20)<!-- historical-link:multi-063 --> · [Source5](M-VAVE.md#mk-300)<!-- historical-link:multi-064 --> · [Source6](HOTONE.md#ampero-mini-mp-50)<!-- historical-link:multi-065 --> · [Source7](MOOER.md#ge100-original)<!-- historical-link:multi-066 --> · [Source8](MOOER.md#ge150-original)<!-- historical-link:multi-067 --> · [Source9](MOOER.md#ge150-pro-li)<!-- historical-link:multi-068 --> · [Source10](MOOER.md#ge200-original)<!-- historical-link:multi-069 --> · [Source11](ZOOM.md#g1-four)<!-- historical-link:multi-070 --> · [Source12](ZOOM.md#g1x-four)<!-- historical-link:multi-071 --> · [Source13](ZOOM.md#g2-four)<!-- historical-link:multi-072 --> · [Source14](ZOOM.md#g2x-four)<!-- historical-link:multi-073 --> · [Source15](FLAMMA.md#fx100)<!-- historical-link:multi-074 --> · [Source16](FLAMMA.md#fx200)<!-- historical-link:multi-075 -->.
+Original finding references: [Source1](brand/M-VAVE.md#tank-g)<!-- historical-link:multi-060 --> · [Source2](brand/M-VAVE.md#tank-b)<!-- historical-link:multi-061 --> · [Source3](brand/M-VAVE.md#tank-mini)<!-- historical-link:multi-062 --> · [Source4](brand/M-VAVE.md#mk-20)<!-- historical-link:multi-063 --> · [Source5](brand/M-VAVE.md#mk-300)<!-- historical-link:multi-064 --> · [Source6](brand/HOTONE.md#ampero-mini-mp-50)<!-- historical-link:multi-065 --> · [Source7](brand/MOOER.md#ge100-original)<!-- historical-link:multi-066 --> · [Source8](brand/MOOER.md#ge150-original)<!-- historical-link:multi-067 --> · [Source9](brand/MOOER.md#ge150-pro-li)<!-- historical-link:multi-068 --> · [Source10](brand/MOOER.md#ge200-original)<!-- historical-link:multi-069 --> · [Source11](brand/ZOOM.md#g1-four)<!-- historical-link:multi-070 --> · [Source12](brand/ZOOM.md#g1x-four)<!-- historical-link:multi-071 --> · [Source13](brand/ZOOM.md#g2-four)<!-- historical-link:multi-072 --> · [Source14](brand/ZOOM.md#g2x-four)<!-- historical-link:multi-073 --> · [Source15](brand/FLAMMA.md#fx100)<!-- historical-link:multi-074 --> · [Source16](brand/FLAMMA.md#fx200)<!-- historical-link:multi-075 -->.
 
 ### second Shopee expansion: historical shared qualifications
 
@@ -274,7 +274,7 @@ Model links open the full finding, original technical sources, exact seller/item
 
 **Next: HeadRush Core**, then Flamma FV01 and Donner Arena2000, followed by remaining Shopee-listed MOOER/Hotone/NUX/Zoom/Line6 families. Original JOYO GEM BOX remains discovery-only: a similarly titled manual contains MOOER identifiers, so it was not promoted to a JOYO-verified record. The earlier BOSS display/IDR migration remains deferred, not discarded.
 
-Original finding references: [Source1](M-VAVE.md#tank-pro)<!-- historical-link:multi-081 --> · [Source2](M-VAVE.md#ann-blackbox)<!-- historical-link:multi-082 --> · [Source3](BOIN-AUDIO.md#bg300)<!-- historical-link:multi-083 --> · [Source4](SCORPION.md#kmf-10)<!-- historical-link:multi-084 --> · [Source5](JOYO.md#gem-box-ii)<!-- historical-link:multi-085 --> · [Source6](JOYO.md#gem-box-iii)<!-- historical-link:multi-086 --> · [Source7](TC-HELICON.md#voicelive-play)<!-- historical-link:multi-087 --> · [Source8](TC-HELICON.md#play-acoustic)<!-- historical-link:multi-088 -->.
+Original finding references: [Source1](brand/M-VAVE.md#tank-pro)<!-- historical-link:multi-081 --> · [Source2](brand/M-VAVE.md#ann-blackbox)<!-- historical-link:multi-082 --> · [Source3](brand/BOIN-AUDIO.md#bg300)<!-- historical-link:multi-083 --> · [Source4](brand/SCORPION.md#kmf-10)<!-- historical-link:multi-084 --> · [Source5](brand/JOYO.md#gem-box-ii)<!-- historical-link:multi-085 --> · [Source6](brand/JOYO.md#gem-box-iii)<!-- historical-link:multi-086 --> · [Source7](brand/TC-HELICON.md#voicelive-play)<!-- historical-link:multi-087 --> · [Source8](brand/TC-HELICON.md#play-acoustic)<!-- historical-link:multi-088 -->.
 
 ### third Shopee expansion: historical shared qualifications
 
@@ -282,7 +282,7 @@ Preserved2026-10-14 shared evidence. Four eligible models only;FV01 remains an e
 
 [Comparison home](README.md)<!-- historical-link:multi-089 --> · [Scope](README.md#scope-and-ownership)<!-- historical-link:multi-090 --> · [Marketplace evidence](research-state.json)<!-- historical-link:multi-091 --> · [Expansion 1](research-state.json)<!-- historical-link:multi-092 --> · [Expansion 2](research-state.json)<!-- historical-link:multi-093 --> · [Resume](README.md#evidence-and-resuming)<!-- historical-link:multi-094 -->
 
-**2026-10-14 · Four eligible partial multi-effects models.** Flamma FV01 has been removed from all comparison tables under the user's scope correction; its [historical finding](SINGLE-VOCAL.md#flamma-fv01-corrector)<!-- historical-link:multi-095 --> is retained as an excluded specialist reference, not a multi-effects candidate. Earlier five-model/80-record totals predate this correction and must not be repeated as active multi-effects counts.
+**2026-10-14 · Four eligible partial multi-effects models.** Flamma FV01 has been removed from all comparison tables under the user's scope correction; its [historical finding](single-vocal.md#flamma-fv01-corrector)<!-- historical-link:multi-095 --> is retained as an excluded specialist reference, not a multi-effects candidate. Earlier five-model/80-record totals predate this correction and must not be repeated as active multi-effects counts.
 
 Each model was committed separately before the next was researched. This is a first evidence pass, not full verification, an exhaustive Shopee inventory or a recommendation ranking. All prices are **IDR asking/listed observations**, not completed sales. `?` means unverified, not No.
 
@@ -292,11 +292,11 @@ K/F/B means rotary controls / main footswitches / separate buttons. Encoder pres
 
 Unknown size does not mean a unit fails the compact filter. Do not borrow another MG model's chassis, power or I/O.
 
-Sources: [Core](HEADRUSH.md#core)<!-- historical-link:multi-096 -->, [Arena2000](DONNER.md#arena2000)<!-- historical-link:multi-097 -->, [MG-100](NUX.md#mg-100)<!-- historical-link:multi-098 -->, [MG-200](NUX.md#mg-200)<!-- historical-link:multi-099 -->.
+Sources: [Core](brand/HEADRUSH.md#core)<!-- historical-link:multi-096 -->, [Arena2000](brand/DONNER.md#arena2000)<!-- historical-link:multi-097 -->, [MG-100](brand/NUX.md#mg-100)<!-- historical-link:multi-098 -->, [MG-200](brand/NUX.md#mg-200)<!-- historical-link:multi-099 -->.
 
 Each exact item URL is in its dated finding and linked from the marketplace index. Seller names containing Official do not independently authenticate a seller. Voucher eligibility, shipping, taxes, warranty, accessories and selected variants must not be silently included. A sold-out ask is not proof of a completed transaction.
 
-**Core firmware:** official **5.2.0, October 2026** release notes specify **two A2 Full captures or four A2 Lite captures across two NAM blocks**. Earlier A1 architecture support is documented separately; do not transfer A2 concurrency limits to all A1 models. The website's drive and pitch headings disagree with their listed entries, and later firmware additions are not consistently reflected. [Core evidence](HEADRUSH.md#core)<!-- historical-link:multi-100 -->.
+**Core firmware:** official **5.2.0, October 2026** release notes specify **two A2 Full captures or four A2 Lite captures across two NAM blocks**. Earlier A1 architecture support is documented separately; do not transfer A2 concurrency limits to all A1 models. The website's drive and pitch headings disagree with their listed entries, and later firmware additions are not consistently reflected. [Core evidence](brand/HEADRUSH.md#core)<!-- historical-link:multi-100 -->.
 
 For both older NUX units, cabinet choices sit inside amp processing rather than creating an extra simultaneous module. MG-100's 58 includes amps/cabs; MG-200's 55-versus-57 conflict is not silently reconciled. Manual revision dates are not new firmware test dates.
 
@@ -304,9 +304,9 @@ Core's matching user guide could not be fetched; its current product/FAQ and fir
 
 **Next discovery model: MOOER GE100 Pro**, separate from original GE100 and Pro Li. Preserve the ever-owned additions and deferred original BOSS display/IDR queue. The seven original unmigrated pages still need their IDR/display pass; these four eligible additions do not complete the whole-market scope.
 
-Flamma FV01 was originally researched in `35944327d19a9de6ed3debbeaba5a8a037f9f5f3`. Its source and price history remains in [the excluded specialist finding](SINGLE-VOCAL.md#flamma-fv01-corrector)<!-- historical-link:multi-101 -->, but **it is not an active multi-effects comparison row and must not be counted or re-added on resume**. See [SCOPE.md](README.md#scope-and-ownership)<!-- historical-link:multi-102 -->.
+Flamma FV01 was originally researched in `35944327d19a9de6ed3debbeaba5a8a037f9f5f3`. Its source and price history remains in [the excluded specialist finding](single-vocal.md#flamma-fv01-corrector)<!-- historical-link:multi-101 -->, but **it is not an active multi-effects comparison row and must not be counted or re-added on resume**. See [SCOPE.md](README.md#scope-and-ownership)<!-- historical-link:multi-102 -->.
 
-Original finding references: [Source1](HEADRUSH.md#core)<!-- historical-link:multi-103 --> · [Source2](DONNER.md#arena2000)<!-- historical-link:multi-104 --> · [Source3](NUX.md#mg-100)<!-- historical-link:multi-105 --> · [Source4](NUX.md#mg-200)<!-- historical-link:multi-106 -->.
+Original finding references: [Source1](brand/HEADRUSH.md#core)<!-- historical-link:multi-103 --> · [Source2](brand/DONNER.md#arena2000)<!-- historical-link:multi-104 --> · [Source3](brand/NUX.md#mg-100)<!-- historical-link:multi-105 --> · [Source4](brand/NUX.md#mg-200)<!-- historical-link:multi-106 -->.
 
 ### fourth Shopee expansion: historical shared qualifications
 
@@ -330,7 +330,7 @@ Seller names are not independent authentication. The Mandarin warning on a separ
 
 Next marketplace model: **Hotone Ampero MP-100**, then Ampero II MP-350. Preserve the [ever-owned queue](README.md#scope-and-ownership)<!-- historical-link:multi-111 --> and the deferred BOSS display/IDR work. Four reviewed records do not mean all Shopee products or all required fields are complete.
 
-Original finding references: [Source1](MOOER.md#ge100-pro)<!-- historical-link:multi-112 --> · [Source2](MOOER.md#ge100-pro-li)<!-- historical-link:multi-113 --> · [Source3](MOOER.md#ge200-pro)<!-- historical-link:multi-114 --> · [Source4](MOOER.md#ge200-pro-li)<!-- historical-link:multi-115 -->.
+Original finding references: [Source1](brand/MOOER.md#ge100-pro)<!-- historical-link:multi-112 --> · [Source2](brand/MOOER.md#ge100-pro-li)<!-- historical-link:multi-113 --> · [Source3](brand/MOOER.md#ge200-pro)<!-- historical-link:multi-114 --> · [Source4](brand/MOOER.md#ge200-pro-li)<!-- historical-link:multi-115 -->.
 
 ### fifth Shopee expansion: historical shared qualifications
 
@@ -350,7 +350,7 @@ These are **2026-10-14 listed/indexed asking prices**, not current checkout veri
 
 **Continuation:** remaining GE150 Plus/Plus Li/Max/Max Li variants, GE1000 Li, and missing ever-owned models. Preserve the original display/IDR queue; the recovery does not complete those outstanding fields. New model findings must be committed immediately and their next step recorded.
 
-Original finding references: [Source1](HOTONE.md#ampero-mp-100)<!-- historical-link:multi-116 --> · [Source2](HOTONE.md#ampero-ii-mp-350)<!-- historical-link:multi-117 --> · [Source3](MOOER.md#ge1000)<!-- historical-link:multi-118 --> · [Source4](HOTONE.md#ampero-ii-stage-mp-380)<!-- historical-link:multi-119 --> · [Source5](LINE6.md#hx-stomp-xl)<!-- historical-link:multi-120 --> · [Source6](MOOER.md#ge150-pro)<!-- historical-link:multi-121 -->.
+Original finding references: [Source1](brand/HOTONE.md#ampero-mp-100)<!-- historical-link:multi-116 --> · [Source2](brand/HOTONE.md#ampero-ii-mp-350)<!-- historical-link:multi-117 --> · [Source3](brand/MOOER.md#ge1000)<!-- historical-link:multi-118 --> · [Source4](brand/HOTONE.md#ampero-ii-stage-mp-380)<!-- historical-link:multi-119 --> · [Source5](brand/LINE6.md#hx-stomp-xl)<!-- historical-link:multi-120 --> · [Source6](brand/MOOER.md#ge150-pro)<!-- historical-link:multi-121 -->.
 
 ### sixth Shopee expansion: historical shared qualifications
 
@@ -370,7 +370,7 @@ GE150 complete panels have no mic/phantom input, external FX loop, external EXP 
 
 No missing price is replaced with a guessed used discount or exchange rate. Retailer asks, collection-only discoveries, preorders and unselected mixed variants are not combined into a current used-to-new market range. No seller authentication, checkout stock or completed-sale claim is made.
 
-Original finding references: [Source1](MOOER.md#ge150-plus)<!-- historical-link:multi-126 --> · [Source2](MOOER.md#ge150-plus-li)<!-- historical-link:multi-127 --> · [Source3](MOOER.md#ge150-max)<!-- historical-link:multi-128 --> · [Source4](MOOER.md#ge150-max-li)<!-- historical-link:multi-129 --> · [Source5](MOOER.md#ge1000-li)<!-- historical-link:multi-130 -->.
+Original finding references: [Source1](brand/MOOER.md#ge150-plus)<!-- historical-link:multi-126 --> · [Source2](brand/MOOER.md#ge150-plus-li)<!-- historical-link:multi-127 --> · [Source3](brand/MOOER.md#ge150-max)<!-- historical-link:multi-128 --> · [Source4](brand/MOOER.md#ge150-max-li)<!-- historical-link:multi-129 --> · [Source5](brand/MOOER.md#ge1000-li)<!-- historical-link:multi-130 -->.
 
 #### Preserved Plus/Max shared category-count appendix
 
@@ -398,7 +398,7 @@ No guessed exchange rate or used-price percentage. No seller authentication or c
 
 **Next Shopee-first model: Hotone Ampero One MP-80.** The previously saved Audota,Cube Baby andBOSS review are not pending new models. Preserve the six remaining original display/IDR page migrations and owner identity checks.
 
-Original finding references: [Source1](NUX.md#trident-nme-5)<!-- historical-link:multi-131 --> · [Source2](ZOOM.md#g6)<!-- historical-link:multi-132 --> · [Source3](HOTONE.md#ampero-ii-stomp-mp-300)<!-- historical-link:multi-133 --> · [Source4](LINE6.md#pod-go-and-pod-go-wireless)<!-- historical-link:multi-134 --> · [Source5](ZOOM.md#g11)<!-- historical-link:multi-135 --> · [Source6](LINE6.md#pod-go-and-pod-go-wireless)<!-- historical-link:multi-136 --> · [Source7](LINE6.md#pod-express-guitar)<!-- historical-link:multi-137 --> · [Source8](LINE6.md#pod-express-bass)<!-- historical-link:multi-138 -->.
+Original finding references: [Source1](brand/NUX.md#trident-nme-5)<!-- historical-link:multi-131 --> · [Source2](brand/ZOOM.md#g6)<!-- historical-link:multi-132 --> · [Source3](brand/HOTONE.md#ampero-ii-stomp-mp-300)<!-- historical-link:multi-133 --> · [Source4](brand/LINE6.md#pod-go-and-pod-go-wireless)<!-- historical-link:multi-134 --> · [Source5](brand/ZOOM.md#g11)<!-- historical-link:multi-135 --> · [Source6](brand/LINE6.md#pod-go-and-pod-go-wireless)<!-- historical-link:multi-136 --> · [Source7](brand/LINE6.md#pod-express-guitar)<!-- historical-link:multi-137 --> · [Source8](brand/LINE6.md#pod-express-bass)<!-- historical-link:multi-138 -->.
 
 ## Separate displays for effect footswitches
 
@@ -408,11 +408,11 @@ This layout comparison follows the requested HX Effects-style **separate physica
 
 | Model | Separate switch displays | Processor scope | Qualification |
 |---|---|---|---|
-| [TC Electronic PLETHORA X5](TC-ELECTRONIC.md#plethora-x5) | Five LCD slot displays for five effect switches | TonePrint multi-effects | Diagonal/color/touch unverified; indexed manufacturer controls, not visual inspection. |
-| [TC Electronic PLETHORA X3](TC-ELECTRONIC.md#plethora-x3) | Three LCD slot displays for three effect switches | TonePrint multi-effects | No external analog EXP socket in complete inventory; MASH and MIDI expression are separate. |
-| [Line 6 HX Effects](LINE6.md#hx-effects) | Six LCD strips for switches1–6; eight total footswitches | Effects-only; nine DSP-limited blocks | MODE/TAP do not have two extra strips; touch switches are not touchscreens. |
-| [MELOFTY AXOM MAX](MELOFTY.md#axom-max--partial-discovery-lead) — partial lead | Nine individual footswitch mini displays per importer;manufacturer census/technology pending | Audio multi-effects/modeler, with built-in treadle | Separate 7-inch color touchscreen;[six performance-switch/hybrid roles](MELOFTY.md#axom-max--six-performance-switches-and-hybrid-screen-roles). Outside active inventory pending full profile. |
-| [Line 6 Helix Stadium XL Floor](LINE6.md#helix-stadium-xl-floor) | Twelve OLED scribble strips | Amp/effects processor | XL-specific strips;separate8-inch main touchscreen. |
-| [Fender Tone Master Pro](FENDER.md#tone-master-pro) | Ten individual LCDs | Amp/effects processor | One per footswitch/encoder;separate7-inch touchscreen. |
-| [HeadRush Prime](HEADRUSH.md#prime) | Twelve individual OLED strips | Guitar/vocal amp/effects processor | Separate7-inch main touchscreen;OLED qualifies for this layout. |
-| [Fractal FM3 / FM9](FRACTAL-AUDIO.md#fm3-mkii-turbo) | Three /nine mini LCDs | Amp/effects processors | Revisions remain separate in the full collection. |
+| [TC Electronic PLETHORA X5](brand/TC-ELECTRONIC.md#plethora-x5) | Five LCD slot displays for five effect switches | TonePrint multi-effects | Diagonal/color/touch unverified; indexed manufacturer controls, not visual inspection. |
+| [TC Electronic PLETHORA X3](brand/TC-ELECTRONIC.md#plethora-x3) | Three LCD slot displays for three effect switches | TonePrint multi-effects | No external analog EXP socket in complete inventory; MASH and MIDI expression are separate. |
+| [Line 6 HX Effects](brand/LINE6.md#hx-effects) | Six LCD strips for switches1–6; eight total footswitches | Effects-only; nine DSP-limited blocks | MODE/TAP do not have two extra strips; touch switches are not touchscreens. |
+| [MELOFTY AXOM MAX](brand/MELOFTY.md#axom-max--partial-discovery-lead) — partial lead | Nine individual footswitch mini displays per importer;manufacturer census/technology pending | Audio multi-effects/modeler, with built-in treadle | Separate 7-inch color touchscreen;[six performance-switch/hybrid roles](brand/MELOFTY.md#axom-max--six-performance-switches-and-hybrid-screen-roles). Outside active inventory pending full profile. |
+| [Line 6 Helix Stadium XL Floor](brand/LINE6.md#helix-stadium-xl-floor) | Twelve OLED scribble strips | Amp/effects processor | XL-specific strips;separate8-inch main touchscreen. |
+| [Fender Tone Master Pro](brand/FENDER.md#tone-master-pro) | Ten individual LCDs | Amp/effects processor | One per footswitch/encoder;separate7-inch touchscreen. |
+| [HeadRush Prime](brand/HEADRUSH.md#prime) | Twelve individual OLED strips | Guitar/vocal amp/effects processor | Separate7-inch main touchscreen;OLED qualifies for this layout. |
+| [Fractal FM3 / FM9](brand/FRACTAL-AUDIO.md#fm3-mkii-turbo) | Three /nine mini LCDs | Amp/effects processors | Revisions remain separate in the full collection. |

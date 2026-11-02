@@ -10,13 +10,13 @@ if __name__ == '__main__':
     verify()
     comparison_views.verify_views()
     assert not git('diff', '--cached', '--name-only').strip(), 'Existing staged changes'
-    allowed = {'FRACTAL-AUDIO.md', 'BLACKSTAR.md', 'README.md', 'MULTI-EFFECTS.md', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'research-state.json', 'scripts/comparison_views.py', 'scripts/blackstar_catalogue.py', 'Makefile'}
+    allowed = {'brand/FRACTAL-AUDIO.md', 'brand/BLACKSTAR.md', 'README.md', 'MULTI-EFFECTS.md', 'all-guitar.md', 'all-bass.md', 'all-vocal.md', 'research-state.json', 'scripts/comparison_views.py', 'scripts/blackstar_catalogue.py', 'Makefile'}
     changed = set(git('diff', '--name-only').splitlines()) | set(git('ls-files', '--others', '--exclude-standard').splitlines())
     assert changed <= allowed, changed - allowed
     assert not git('diff', '--check').strip(), 'Whitespace errors'
-    if 'FRACTAL-AUDIO.md' in changed:
-        previous = git('show', 'HEAD:FRACTAL-AUDIO.md')
-        current = Path('FRACTAL-AUDIO.md').read_text()
+    if 'brand/FRACTAL-AUDIO.md' in changed:
+        previous = git('show', 'HEAD:brand/FRACTAL-AUDIO.md')
+        current = Path('brand/FRACTAL-AUDIO.md').read_text()
         assert previous.split() == current.split(), 'Unrelated Fractal content changed'
     print(git('diff', '--', *sorted(changed)))
     git('add', '--', *sorted(changed))

@@ -13,7 +13,7 @@ if __name__ == '__main__':
     comparison_views.test_readme_brand_counts()
     comparison_views.test_validation_counts()
     assert not git('diff', '--cached', '--name-only').strip(), 'Existing staged changes'
-    allowed = {'ZOOM.md','NEURAL-DSP.md','FRACTAL-AUDIO.md','FOOTSWITCH-DISPLAYS.md','JOYO.md','TC-HELICON.md','TC-ELECTRONIC.md','EXPRESSION-VOLUME.md','README.md','MULTI-EFFECTS.md','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md','research-state.json','scripts/comparison_views.py','scripts/expression_audit_tc.py','Makefile'}
+    allowed = {'brand/ZOOM.md','brand/NEURAL-DSP.md','brand/FRACTAL-AUDIO.md','FOOTSWITCH-DISPLAYS.md','brand/JOYO.md','brand/TC-HELICON.md','brand/TC-ELECTRONIC.md','EXPRESSION-VOLUME.md','README.md','MULTI-EFFECTS.md','all-guitar.md','all-bass.md','all-vocal.md','research-state.json','scripts/comparison_views.py','scripts/expression_audit_tc.py','Makefile'}
     changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
     assert changed <= allowed, changed - allowed
     assert not git('diff', '--check').strip(), 'Whitespace errors'

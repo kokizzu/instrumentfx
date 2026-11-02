@@ -80,7 +80,7 @@ def local_links(path,text):
 
 def incoming():
     results = []
-    for path in sorted(ROOT.glob('*.md'))+sorted((ROOT/'effects').rglob('*.md')):
+    for path in sorted(ROOT.glob('*.md')) + sorted((ROOT/'brand').glob('*.md'))+sorted((ROOT/'effects').rglob('*.md')):
         key = str(path.relative_to(ROOT))
         results += [link for link in local_links(key,path.read_text()) if link['target'] in SOURCES]
     return results
@@ -219,7 +219,7 @@ def json_pointer(path,entry):
     return json.dumps(dict(status='retired_historical_snapshot',current_ledger='../research-state.json',preserved_content='public_metadata.legacy_json.unique_snapshots.'+entry['source_sha256'],source_commit=entry['source_commit'],source_path=path,source_sha256=entry['source_sha256'],not_current_inventory_or_cursor=True),ensure_ascii=False,indent=2)+'\n'
 
 def json_incoming():
-    return [link for path in sorted(ROOT.glob('*.md'))+sorted((ROOT/'effects').rglob('*.md')) for link in local_links(str(path.relative_to(ROOT)),path.read_text()) if link['target'] in JSON_PATHS]
+    return [link for path in sorted(ROOT.glob('*.md')) + sorted((ROOT/'brand').glob('*.md'))+sorted((ROOT/'effects').rglob('*.md')) for link in local_links(str(path.relative_to(ROOT)),path.read_text()) if link['target'] in JSON_PATHS]
 
 def json_verify():
     research_tools.identity()

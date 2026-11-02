@@ -1,0 +1,202 @@
+# MELOFTY — multi-effects discovery
+
+[Comparison](../MULTI-EFFECTS.md#separate-displays-for-effect-footswitches) · [Repository](../README.md)
+
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [AXOM MAX — partial discovery lead](#axom-max--partial-discovery-lead)
+<!-- brand-index ends -->
+
+## AXOM MAX — partial discovery lead
+
+Checked 2026-10-31. Manufacturer-authored **Axom Max User Manual V1.7.4, 2026-08-31**, 58 pages, recovered through the importer’s exact-model manual link: [original manual](https://shop.warwick.de/media/23/53/74/1790324346/4on4_MEL_AXOM_MAX_Manual_EN.pdf?ts=1790324346). Title/model/version identity checked; no host-generated FAQ used. Manufacturer website currently exposes no readable text.
+
+| Field | Evidence / remaining gap |
+|---|---|
+| Hardware identity | Audio multi-effects/modeling processor, not merely a MIDI controller. Manual pp4–6 documents instrument input, effects processing and audio outputs. |
+| Display layout | **7-inch color touchscreen plus footswitch/pedal mini screens** displaying assigned functions (manual p5). Exact mini-screen count, LCD/OLED technology, dimensions and one-per-switch placement remain unverified; panel screenshot retrieval failed. Nine numbered footswitches do not prove nine mini screens. |
+| Expression | Built-in treadle; external EXP3 uses a stereo quarter-inch cable. Therefore outside the no-built-in-treadle shortlist. Global-volume scope/coverage and wiring remain unverified. |
+| Software lead | Manufacturer’s [MELOFTY Android app](https://play.google.com/store/apps/details?id=com.melofty.axommax), published by Changsha Melofty Audio Technology, identifies Axom-series Bluetooth tone/hardware control; initially observed update2026-09-27; the later October listing is qualified below. App identity is not proof of every hardware feature. |
+| Indonesian hardware | Exact Shopee offer and separate used/new IDR, condition, stock, bundle and warranty unverified; targeted search found no qualified hit. |
+| Remaining profile | Controls, algorithm census, memory, complete I/O, power, mass/dimensions, IR/native-versus-converted NAM/capture, editor platforms and live-feature limits require full verification. |
+
+**Partial lead outside active model/brand counts.** No files, apps, firmware or dependencies downloaded; no device operation or successful visual audit claimed.
+
+### AXOM MAX — distributor flyer leads
+
+Checked 2026-10-31: [English three-page flyer](https://shop.warwick.de/media/df/39/ee/1790778142/yf9_Melofty-Flyer_EN_ONLINE.pdf?ts=1790778142), exact Axom Max branding and ©2026 Warwick/W-Music Distribution identity. This is distributor-authored technical evidence, not manufacturer confirmation; original PDF text was readable but screenshot failed.
+
+The flyer lists nine customizable footswitches,504 preset slots,six scenes per preset and two paths with up to nine slots each. None states the mini-screen count. It lists381×230×73mm (axes unlabeled),3.45kg,and included9VDC supply; polarity/current require independent verification. Ports: quarter-inch TS guitar,combo XLR/TRS mic-line,EXP,two sends/two returns,stereo quarter-inch phones,two XLR and two TS main outputs,5-pin MIDI IN/OUT-THRU,USB-C.
+
+Software leads: AXOM Controller Windows10+/macOS10.11+; mobile Bluetooth management Android5+/iOS11+. NAM A2 support is claimed,not verified native `.nam` compatibility. Earlier unknowns remain dated provenance; this partial lead stays outside active counts pending manufacturer reconciliation.
+
+### AXOM MAX — document identity and remaining display check
+
+Checked2026-10-31: [manufacturer filing index](https://fccid.io/2BYCHSFT40) identifies Changsha Melofty Audio Technology and model SFT40. Its [user-manual exhibit9716561](https://fccid.io/2BYCH-SFT40/User-Manual/User-manual-9716561) is a new retrieval lead; [secondary document index](https://device.report/changsha-melofty-audio-technology/SFT40) names **SFT40 quick guide CN/EN V03,2026-06-18**,3 pages,331.93KB. The exhibit and [FCC attachment](https://apps.fcc.gov/eas/GetApplicationAttachment.html?id=9716561) were inaccessible; document-body identity and hardware revision remain unverified. Filing dates do not establish retail launch or installed firmware.
+
+[Thomann’s exact-model search entry](https://www.thomann.pl/melofty_axom_max_audio_processor.htm?type=quickSearch) claims nine switches with individual displays; direct page returned cache miss. This is a **retailer lead**, not manufacturer confirmation of nine LCDs. The manufacturer site again returned zero readable lines. Retain the manufacturer-manual mini-screen evidence and unresolved LCD/OLED/count qualifications above; no active inventory admission. Next: retrieve the identified original quick guide or manufacturer panel documentation.
+
+### AXOM MAX — manufacturer mobile-app requirements
+
+Checked2026-10-31 against Changsha Melofty Audio Technology’s [MELOFTY Apple listing](https://apps.apple.com/us/app/melofty/id6762972347),explicitly titled **Axom Series Control Software**.
+
+| Field | Developer-published scope / qualification |
+|---|---|
+| Editor / Apple mobile minimum | **iOS15.5+ /iPadOS15.5+**,current listed version**1.9.2**,relative release label“3d ago”. This differs from the distributor flyer’s iOS11+ claim;the older figure remains provenance,not current-version compatibility. |
+| Editor / Mac boundary | The mobile app lists **macOS12.4+ with M1 or later**,but explicitly says **Not verified for macOS**. This is not the separate AXOM Controller desktop editor’s minimum or an Intel-Mac compatibility claim. |
+| Editor / function scope | Developer describes Bluetooth preset/Subpatch control,global settings and stomp/expression mappings. Generic global-settings support does not prove global-volume assignment or coverage. App version is not hardware firmware. |
+
+A newly surfaced [manual index](https://device.report/manual/21300124) links [an original-file candidate](https://device.report/m/63a022bc23df064392ad6523fb0e69573ed5ae7b06aa019d4e8601c2f649aa85_optim.pdf);the PDF returned cache miss. Its cleaned overview/troubleshooting text is not independently authenticated manufacturer documentation and is not adopted for specifications. Screen count/technology remain unresolved;no qualified Shopee hardware surfaced. No download,installation or active-inventory admission.
+
+### AXOM MAX — manufacturer manual follow-up
+
+Checked2026-10-31: [manufacturer V1.7.4 manual](https://shop.warwick.de/media/23/53/74/1790324346/4on4_MEL_AXOM_MAX_Manual_EN.pdf?ts=1790324346),text readable again;no local download or visual inspection. Earlier gaps are narrowed only as follows.
+
+| Field | Revision-qualified evidence |
+|---|---|
+| Controls | p5: **4 rotaries,9 footswitches,4 named panel buttons** HOME/SYSTEM/SAVE/EXP;separate power/lock button. Encoder pushes not counted twice. Mini-screen count/technology still unresolved. |
+| Expression / power | p57: external **10–100kΩ TRS** pedal;**9VDC,3A,center-negative** supply. Rating is not measured draw. |
+| IR / NAM loading | pp51–52,55–56: AXOM Controller imports **.nam** files;WAV IR specifications48kHz/32bit/up to2048samples. Supported NAM architectures,conversion requirements and live import test unresolved;this supersedes the earlier lack of a manufacturer .nam workflow. |
+| USB / source conflict | p57: **USB2.0,8-in/8-out,48kHz/24bit**; **own manualp33 also claims24bit,44.1–192kHz**. Thus the rate discrepancy is internal as well as distributor-versus-specification; supported rates remain unresolved. Do not treat32bit processing as USB resolution. |
+
+Still a partial discovery lead outside active counts. New quick-guide link surfaced but web reader rejects its23.3MB size: [importer-linked guide](https://shop.warwick.de/media/96/42/2c/1791505539/7fj5_MEL_Axom_Max_Quick_Guide_EN.pdf?ts=1791505539).
+
+### AXOM MAX — mini-screen labels and master-pedal scope
+
+Checked2026-10-31,[own V1.7.4 manual pp22–24](https://shop.warwick.de/media/23/53/74/1790324346/4on4_MEL_AXOM_MAX_Manual_EN.pdf?ts=1790324346);manufacturer text only.
+
+| Field | Evidence / qualification |
+|---|---|
+| Display / STOMP labels | Single-module control shows its module name;multi-module control shows **MULTIPLE**. Green/orange status refers to the footswitch icon/LED,not proof of color mini-screen pixels. Latching and momentary control are selectable. Physical screen count and LCD/OLED remain unresolved. |
+| Expression / built-in MASTER | **MASTER+EXP1** selects master-volume/parameter roles via toe switch;master position can be **Pre/Post**,with minimum/maximum **0–100**. Alternative **EXP1+EXP2** provides two parameter roles. This documents the built-in treadle,not externalEXP3 master assignment or every-preset coverage. Headphone/tail/loop attenuation remains unknown. |
+| Expression / naming conflict | p23 introduces externalEXP3 but then says externalEXP2;rear-panelp6 and controller selectorp24 identify **EXP3(EXT)**. Preserve this internal typo/conflict;do not invent a second external socket. Parameter assignments offer individual minimum/maximum values. |
+
+Built-in treadle keeps this model outside the no-built-in-expression shortlist. No pedal operation or display visual inspection.
+
+### AXOM MAX — USB routing and looper navigation
+
+Checked2026-10-31,[ownV1.7.4 manual pp33–35](https://shop.warwick.de/media/23/53/74/1790324346/4on4_MEL_AXOM_MAX_Manual_EN.pdf?ts=1790324346). Panel screenshot still fails cache access;no visual count inferred.
+
+| Field | Revision-qualified evidence |
+|---|---|
+| USB / route directions | Computer playback1/2 bypasses the effects chain;3/4,5/6,7/8 can feed chain inputs for reamping. Device-to-computer1/2,3/4,5/6 can carry chain outputs;7/8 carries dry A/B inputs. USB-only output nodes avoid duplicate hardware/software monitoring. This is routing,not proof of192kHz operation or master-pedal attenuation of computer playback. |
+| Looper / navigation | Within Looper,holdFS1 to select FS8/9 preset−/+ or Subpatch−/+ navigation. OrdinaryFS8/9 instead control reverse/half-speed. Context-dependent navigation does not establish a permanent preset-down/up pair or uninterrupted loop playback across presets. |
+
+### AXOM MAX — app revision and display lead qualifications
+
+Checked2026-10-31. [Developer Apple history](https://apps.apple.com/us/app/melofty/id6762972347) lists **1.9.0,September29**:Synth/Inst Subpatch model switching and dynamic-response changes;long-press module copy/paste;Delay note range1/64–1/1 plus High/Low Cut;Pitch CPU reduction;MFIM(AMP/ENTIRE) Sharpness. These are developer release claims,not measured performance or confirmation of the required hardware firmware.1.9.2 remains separately listed as fixes.
+
+[Importer exact-product text](https://shop.warwick.de/effektpedale-multieffekt-prozessorenmelofty-axom-max-hybrid-audio-processor) explicitly describes **nine footswitches with their own mini displays**. This strengthens the earlier retailer layout lead but does not resolve manufacturer-confirmed count,LCD/OLED technology,diagonal or color. The earlier unattributed OLED lead is now traceable to [Esse Music’s exact AXOM MAX listing](https://www.essemusic.it/en/shop/1024423-melofty-axom-max-162704), reopened **2026-11-01**: it explicitly advertises nine configurable footswitches with OLED displays. This is retailer wording, not manufacturer-confirmed screen technology or a visual census. Its 3.1 kg and 5 GHz Wi-Fi claims also differ from the existing 3.45 kg and 2.4 GHz evidence; do not import those specifications or treat the catalogue price as an Indonesia hardware offer. The model remains outside confirmed LCD matches and active counts. Browser surfaces were unavailable and original manual retrieval failed;no new visual count. Partial status and existing source qualifications remain.
+
+### AXOM MAX — manufacturer memory and capture workflows
+
+Checked **2026-10-31** against the [manufacturer V1.7.4 manual](https://shop.warwick.de/media/23/53/74/1790324346/4on4_MEL_AXOM_MAX_Manual_EN.pdf?ts=1790324346), printed pp28–30,50,55. Retrieved through the importer’s exact-model manual link; no local download or device operation.
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| Memory / capacity and model count | Specification table gives **504 preset tone slots,19 modules,880+ total effect models**. These are published totals, not a complete category census or880 simultaneous effects. Factory-filled versus empty allocation remains unverified. |
+| Memory / DeepSynth quick presets | Browsing auditions a quick preset without changing the working preset. Loading it with the download icon **replaces the active user preset and its module parameters**; subsequent edits can be saved separately. Quick presets are not proven additional user locations. |
+| Captures / on-device MFIM | Manual documents capturing overdrive pedals, amp preamps, complete amp rigs and speaker cabinets as digital models, with MELOFTY Cloud sharing. The full-amp example requires a microphone. This establishes a proprietary on-device capture workflow, distinct from cabinet IR import and `.nam` loading; it does not certify NAM export or every NAM architecture. |
+
+The lead remains outside active counts. Mini-screen technology/count confirmation, category inventory, factory allocation and qualified Indonesian hardware evidence remain open.
+
+### AXOM MAX — recovered quick-guide navigation boundaries
+
+Checked2026-10-31. The previously inaccessible three-page quick-guide candidate is now readable through its [PDF reproduction](https://manuals.plus/m/63a022bc23df064392ad6523fb0e69573ed5ae7b06aa019d4e8601c2f649aa85_optim.pdf). Document identity is supported by the matching three-page/331.93KB filing-index metadata and the same named controls, connectors and MASTER/EXP architecture as the saved manufacturer manual. **English extraction has shifted-font encoding errors**; no clean visual inspection, printed revision/date or complete display census is certified. The host’s rewritten summary is excluded.
+
+On English PDFp1, FS2 is labeled bank-up/Bank Select (hold: Looper); FS6 bank-down/Bank Select (hold: Tuner). Pressing both cycles selected footswitch modes. This documents **bank navigation**, distinct from the already-recorded contextual FS8/9 preset−/+ function inside Looper. It does not prove a permanent sequential preset pair or loop retention across presets.
+
+The same connector text specifies8-in/8-out24-bit/48kHz USB-C, corroborating the saved manual’s specification table; it does not resolve the manual’s separate44.1–192kHz claim. Mini-screen count and LCD/OLED technology remain unverified; this partial lead remains outside active counts. No local download or device operation.
+### AXOM MAX — CPU, scene linkage and headphone conflict
+
+Checked **2026-10-31** through the importer’s current links;original documents,not generated summaries.
+
+| Field | Manufacturer-document qualification |
+|---|---|
+| Processing / concurrency | [English V1.7.4,p12](https://shop.warwick.de/media/23/53/74/1790324346/4on4_MEL_AXOM_MAX_Manual_EN.pdf?ts=1790324346): **two nine-slot chains**,repeat loading within a category supported;CPU/resources can gray out unavailable models. Eighteen slots are not a guaranteed eighteen arbitrary simultaneous effects. |
+| Memory / scene linkage | Samepp21–22: six SUBPATCH scenes share module types/counts. Bypass/parameters synchronize by default;enable a module’s SUBPATCH control for independent scene values. Saving remembers the active scene for next preset recall. Scenes do not multiply504 user locations. |
+| Dimensions / mass | Samep57 independently corroborates **381×230×73mm;3.45kg**,previously a distributor lead. Axes remain unlabeled;do not silently assign them. |
+| I/O / headphones conflict | Englishp57 specifies **¼-inch stereo**,matching its panel inventory. [German guide,p62](https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347) instead prints **3.5mm stereo**. Both list6Ω output impedance,not a required headphone load. Physical jack size awaits corroboration;preserve the contradiction. |
+
+Mini-screen count/technology,complete category census andqualified Indonesian offers remain unresolved. Still partial,outside active counts;no local download ordevice operation.
+
+### AXOM MAX — revision-qualified looper controls
+
+Checked **2026-11-01** in the [German V1.7.4 manual,PDFpp34–35](https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347),63pages,exact AXOM MAX title andmatching named controls. English endpoint unavailable this check;no translation-based reconciliation ofexisting conflicts.
+
+| Field | Documented operation / boundary |
+|---|---|
+| Looper / record andstop | FS6 cycles **Record→Play→Overdub**;FS7 short-press stops,long-press erases. With multiple recorded layers andplayback stopped,FS2 invokes **Undo/Redo**. Current firmware behavior untested. |
+| Looper / automatic start | Enable **Auto Record**,choose a threshold andpressFS6 toarm;recording starts when input reaches that threshold. With Auto Record off,FS6 starts immediately. Numeric threshold range is not established here. |
+| Display / evidence boundary | GermanPDFp5 calls the footswitch/pedal readouts **mini displays**;no LCD/OLED classification established. It separately describes the LED light strip. Manufacturer-confirmed screen count andtechnology remain open. |
+
+These actions supplement the preserved contextual FS8/9 navigation. They do not establish preset-change loop continuity,persistent storage orrecording duration. No download,device operation orvisual count;partial status andactive inventory unchanged.
+
+### AXOM MAX — documented loop duration and pedal readout
+
+Checked **2026-11-01**, [German V1.7.4 manual, PDFpp4,54,63](https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347),63-page exact-model document. English endpoint remained unavailable; the manufacturer website returned no readable text.
+
+| Field | Documented evidence / boundary |
+|---|---|
+| Looper / published maximum | Overview explicitly specifies a **stereo phrase looper, maximum3,600seconds =60minutes**. This narrows the previous duration gap. Half-speed capacity, overdub storage, power-cycle retention and preset-change continuity remain unverified. |
+| Display / pedal status | Troubleshooting identifies **MASTER on the pedal’s mini display** when in volume mode. This corroborates a pedal readout, not nine switch LCDs or additional analog EXP assignment. |
+| Display / brightness scope | System settings list SCREEN BRIGHTNESS separately from AMBIENT LIGHT MODE. The text does not certify independent mini-screen brightness, LCD/OLED technology or numeric ranges. |
+
+Partial lead remains outside active counts. No local download, firmware change, device operation or visual count.
+
+### AXOM MAX — audio monitoring and recorded-loop backup
+
+Checked **2026-11-01**, [German V1.7.4 manual,PDFpp4,6,49–50,54–55,58](https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347). Original text;no device operation orlocal download.
+
+| Field | Documented scope / qualification |
+|---|---|
+| Audio / wireless and output controls | Bluetooth **audio input** supports backing tracks,separate from app control. UNBAL,BAL andPHONES each have global level/EQ controls,with linked orindependent L/R levels. These controls do not establish external EXP3 global-volume assignment orattenuation of every source. |
+| Editor / recorded-loop backup | AXOM Controller documents looper-audio import/export;full backup/restore includes presets,samples,global settings andlooper recordings. This is a documented transfer workflow,not verified automatic power-cycle retention,file-format compatibility orour restore test. |
+| Headphones / internal German conflict | PDFp6 explicitly says **6.35mm stereo**,while its specification tablePDFp62 says **3.5mm**. Thus the discrepancy is internal to this German document as well as between language versions. Both statements remain;physical jack size is unresolved. |
+
+Mini-screen count/technology andqualified Indonesian hardware remain unresolved. This partial lead stays outside active counts.
+
+
+### AXOM MAX — independent firmware1.9 review leads
+
+Checked **2026-11-01** in [Thomas Dill’s original Bonedo hands-on review,2026-10-21](https://www.bonedo.de/artikel/test-melofty-axom-max-konkurrenz-fuer-line-6-neural-kemper-und-co/),which lists tested firmware**1.9.0**. This is independent firsthand reporting,not manufacturer specifications orour device test.
+
+| Field | Review report / remaining qualification |
+|---|---|
+| Memory / supplied content | Reports **252 supplied presets in two folders**,within504 locations arranged asfour×126. This is a dated review-unit observation,not verified current factory allocation orproof the other252 areblank. Manufacturer factory-fill confirmation remains open. |
+| Loading / capacity lead | Reports Loader capacity **100 NAM files(A1/A2) and100 cabinet IRs**. Exact supported architecture sizes,conversion,firmware dependency,slot sharing andfull-capacity behavior remain unverified;do not promote this to unrestricted native NAM certification. |
+| Capture / firsthand operation | Author describes capturing his MarshallPlexi/4×12 rig withtwo microphones mixed through aChandlerTG2. This corroborates proprietary capture operation independently;it doesnot establish NAM export orall capture types tested. |
+
+The article lists381W×230D×73Hmm,3.45kg;this is independent corroboration ofaxes,not a manufacturer drawing that resolves earlier unlabeled dimensions. Original manufacturer [shop page](https://www.meloftyaudio.com/shop/axom-max),linked byPremierGuitar,still exposes no readable text. Mini-screen technology/count andqualifiedShopee hardware remain unresolved. **Partial lead outside active counts**;no downloads ordevice operations.
+
+### AXOM MAX — dated mobile update and remaining display boundary
+
+Checked **2026-11-01** against the developer-published [Android listing](https://play.google.com/store/apps/details?id=com.melofty.axommax) and [Apple version history](https://apps.apple.com/us/app/melofty/id6762972347).
+
+- Google Play now gives **2026-10-23** as the update date, superseding the earlier September27 observation for that listing. The retrieved page supplies no app version or minimum Android OS; “Fixed known issues” is not a specific hardware-firmware changelog.
+- Apple’s **1.9.0, September29** notes additionally claim a **Simplified Noise Gate**, noise-gate performance changes, improved Wah audio quality, and tuner UI/bass-tuning improvements. These supplement the previously recorded Delay/Pitch/MFIM/Synth changes; they are developer claims, not measured results or proof of the required device firmware.
+
+The current Apple listing still shows1.9.2 with a relative release label; no absolute date inferred. Neither app listing identifies the mini screens as LCD or OLED or confirms their physical count. The maker’s exact AXOM MAX shop page remains inaccessible in this reader. Existing manual, importer and retailer qualifications remain; this is still a partial lead outside active counts. No app, manual or firmware downloaded or run.
+
+### AXOM MAX — translated-manual headphone corroboration
+
+Checked **2026-11-01** in importer-linked original manual translations: [French V1.7.4](https://shop.warwick.de/media/f8/d7/95/1790900166/ghaq_MEL_AXOM_MAX_Manual_FR.pdf?ts=1790900166),59PDFpages, and [Polish V1.7.4](https://shop.warwick.de/media/bc/cc/92/1790900167/4bz8_MEL_AXOM_MAX_Manual_PL.pdf?ts=1790900167),63PDFpages. Exact model/version covers, panel controls and matching connection architecture identify these as AXOM MAX documents; translations are not independent hardware measurements. Page numbers below are one-based PDF pages.
+
+| Field | Evidence / remaining limit |
+|---|---|
+| Headphones / corroboration | Frenchpp6,58 and Polishpp6,62 each specify **¼-inch/6.35mm stereo** in both panel and specification text. This strengthens the English and German panel wording;the German specification’s3.5mm contradiction remains preserved. Physical socket inspection is still pending. |
+| Display / classification boundary | Frenchp5 still calls the switch/pedal readout a **mini screen** without establishing LCD/OLED technology or a physical census. Nine footswitch identities are not a verified nine-screen count. The retailer OLED statement remains attributed separately. |
+
+Neither translation establishes later-firmware equivalence or a global external EXP3 volume assignment. No local document download,software installation ordevice operation;partial lead remains outside active model counts.
+
+### AXOM MAX — six performance switches and hybrid screen roles
+
+Checked **2026-11-02**,[manufacturer V1.7.4 manual,pp9–12,22–23](https://shop.warwick.de/media/23/53/74/1790324346/4on4_MEL_AXOM_MAX_Manual_EN.pdf?ts=1790324346). Original text,not a visual census orcurrent-firmware test.
+
+- **FS3/4/5/7/8/9 are six performance controls**:RIG shows two preset groups;SUBPATCH shows six scenes;STOMP shows six stomp controls. Nine physical footswitches do not mean nine independent stomp assignments inthese documented modes.
+- **HYBRID has three pairings**:SUB+PRESET,STOMP+PRESET,STOMP+SUB. SUB/STOMP offers123/456 selection. These pages change assignments,not physical screen count.
+- In RIG,FS2/FS6 change paired groups,e.g.01–02→03–04. In SUBPATCH/STOMP,the first press previews the group;another changes it. This is distinct from sequential preset−/+ inside the looper.
+- A momentary stomp action operates while pressed andreturns toits prior state onrelease. Latching retains its toggled state. Module names/MULTIPLE labels andLED colors retain the earlier qualifications.
+
+For the collection’s count field,the [identified importer’s current exact-model page](https://shop.warwick.de/en/effect-pedals-multi-effects-processorsmelofty-axom-max-hybrid-audio-processor) explicitly reports **nine footswitches,each with its own mini-display**. Thus nine is an **importer-backed count**,not wholly unknown;primary confirmation ofthe physical census andLCD/OLED technology remains pending. The separate pedal readout mustnot be silently included inthat nine. Prior source statements remain preserved above. Partial profile,outside active counts;no local download ordevice operation.

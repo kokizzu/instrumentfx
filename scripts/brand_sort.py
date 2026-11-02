@@ -33,7 +33,7 @@ def brand_names(state):
     names=set(state['root_brand_content']) | set(state.get('supplemental_brand_documents',[]))
     reserved={'AGENTS.md','README.md','EXPRESSION-VOLUME.md','FOOTSWITCH-DISPLAYS.md','MULTI-EFFECTS.md'}
     for name in names:
-        assert re.fullmatch(r'[A-Z0-9-]+\.md',name) and name not in reserved and not name.startswith(('ALL-','SINGLE-')), 'Not a root brand document: '+name
+        assert re.fullmatch(r'brand/[A-Z0-9-]+\.md',name) and name not in reserved and not name.startswith(('ALL-','SINGLE-')), 'Not a root brand document: '+name
     return sorted(names,key=key)
 
 def outputs():
@@ -43,7 +43,7 @@ def outputs():
     before,body=text.split('## Root brand documents\n',1)
     table,after=body.split('\n## Research ledger',1)
     lines=table.splitlines(keepends=True)
-    indexes=[i for i,line in enumerate(lines) if re.match(r'\| \[[A-Z0-9-]+\.md\]',line)]
+    indexes=[i for i,line in enumerate(lines) if re.match(r'\| \[brand/[A-Z0-9-]+\.md\]',line)]
     rows=[]
     for i in indexes:
         cells=lines[i].split('|')
@@ -60,9 +60,9 @@ def test_navigation():
     assert refs['shared']=='https://example.test/powerhead'
     assert cv.model_references(''.join(reversed([fixture[:fixture.index('## Head')],fixture[fixture.index('## Head'):]])),'PowerHead')==refs
     assert sorted(['GP-100','GP-5','GP-50'],key=key)==['GP-5','GP-50','GP-100']
-    fixture_state={'root_brand_content':{'ZOOM.md':{}},'supplemental_brand_documents':['MELOFTY.md','GIGRIG.md','ZOOM.md']}
-    assert brand_names(fixture_state)==['GIGRIG.md','MELOFTY.md','ZOOM.md']
-    assert list(fixture_state['root_brand_content'])==['ZOOM.md'], 'Sorting must not admit partial brands'
+    fixture_state={'root_brand_content':{'brand/ZOOM.md':{}},'supplemental_brand_documents':['brand/MELOFTY.md','brand/GIGRIG.md','brand/ZOOM.md']}
+    assert brand_names(fixture_state)==['brand/GIGRIG.md','brand/MELOFTY.md','brand/ZOOM.md']
+    assert list(fixture_state['root_brand_content'])==['brand/ZOOM.md'], 'Sorting must not admit partial brands'
     try:
         brand_names({'root_brand_content':{},'supplemental_brand_documents':['../OTHER.md']})
     except AssertionError:
@@ -110,7 +110,7 @@ elif mode=='commit':
         original=git('show','HEAD:'+name)
         current=(ROOT/name).read_text()
         assert collections.Counter(b.rstrip() for _,b in sections(original+'\n')[1])==collections.Counter(b.rstrip() for _,b in sections(current)[1]),'Evidence changed: '+name
-    names=brand_names(json.loads((ROOT/'research-state.json').read_text()))+['README.md','scripts/brand_sort.py','scripts/comparison_views.py','Makefile','AGENTS.md','research-state.json','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md','MULTI-EFFECTS.md']
+    names=brand_names(json.loads((ROOT/'research-state.json').read_text()))+['README.md','scripts/brand_sort.py','scripts/comparison_views.py','Makefile','AGENTS.md','research-state.json','all-guitar.md','all-bass.md','all-vocal.md','MULTI-EFFECTS.md']
     assert not git('diff','--cached','--name-only')
     changed=set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
     assert changed and changed <= set(names), 'Unexpected paths: '+repr(changed-set(names))

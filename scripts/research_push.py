@@ -28,7 +28,7 @@ elif mode == 'finalize':
     comparison_views.verify_views()
     comparison_views.test_readme_brand_counts()
     comparison_views.test_validation_counts()
-    names=['DIGITECH.md','EVENTIDE.md','EXPRESSION-VOLUME.md','IK-MULTIMEDIA.md','LINE6.md','NEURAL-DSP.md','README.md','ZOOM.md','STRYMON.md','research-state.json','scripts/research_push.py','Makefile','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md','MULTI-EFFECTS.md']
+    names=['brand/DIGITECH.md','brand/EVENTIDE.md','EXPRESSION-VOLUME.md','brand/IK-MULTIMEDIA.md','brand/LINE6.md','brand/NEURAL-DSP.md','README.md','brand/ZOOM.md','brand/STRYMON.md','research-state.json','scripts/research_push.py','Makefile','all-guitar.md','all-bass.md','all-vocal.md','MULTI-EFFECTS.md']
     for name in names:
         assert not any(line.startswith(('<<<<<<< ','=======','>>>>>>> ')) for line in (ROOT/name).read_text().splitlines()), name
     subprocess.run(['git','add','--',*names],cwd=ROOT,check=True)

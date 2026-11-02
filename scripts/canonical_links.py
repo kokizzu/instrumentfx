@@ -5,12 +5,16 @@ sys.dont_write_bytecode=True
 ROOT=Path(__file__).resolve().parents[1]
 PLAN=Path('/tmp/instrumentfx-canonical-links-plan.json')
 BATCH_PLAN=Path('/tmp/instrumentfx-canonical-links-remaining.json')
-REMAINING={"AUDOTA.md":14,"BOIN-AUDIO.md":4,"CUVAVE.md":3,"DONNER.md":1,"FLAMMA.md":2,"HEADRUSH.md":1,"HOTONE.md":13,"IK-MULTIMEDIA.md":2,"JOYO.md":10,"LINE6.md":8,"NEURAL-DSP.md":1,"NUX.md":4,"ROLAND.md":3,"SCORPION.md":4,"SINGLE-GUITAR.md":1,"SINGLE-VOCAL.md":1,"SONICAKE.md":13,"TC-HELICON.md":8,"VING.md":3}
-EXPECTED={'MULTI-EFFECTS.md':138,'BOSS.md':43,'MOOER.md':41,'VALETON.md':35,'ZOOM.md':25,'M-VAVE.md':20,**REMAINING}
+REMAINING={"brand/AUDOTA.md":14,"brand/BOIN-AUDIO.md":4,"brand/CUVAVE.md":3,"brand/DONNER.md":1,"brand/FLAMMA.md":2,"brand/HEADRUSH.md":1,"brand/HOTONE.md":13,"brand/IK-MULTIMEDIA.md":2,"brand/JOYO.md":10,"brand/LINE6.md":8,"brand/NEURAL-DSP.md":1,"brand/NUX.md":4,"brand/ROLAND.md":3,"brand/SCORPION.md":4,"single-guitar.md":1,"single-vocal.md":1,"brand/SONICAKE.md":13,"brand/TC-HELICON.md":8,"brand/VING.md":3}
+EXPECTED={'MULTI-EFFECTS.md':138,'brand/BOSS.md':43,'brand/MOOER.md':41,'brand/VALETON.md':35,'brand/ZOOM.md':25,'brand/M-VAVE.md':20,**REMAINING}
 def digest(text):
     return hashlib.sha256(text.encode()).hexdigest()
 def preservation_text(path):
+    from brand_filename_migration import original_namespace, layout_mapping
+    mapping=layout_mapping()
+    path=mapping.get(path,path)
     text=(ROOT/path).read_text()
+    if path.endswith('.md'):text=original_namespace(text,path)
     if '<!-- historical-link:' not in text:
         return text
     entry=json.loads((ROOT/'research-state.json').read_text()).get('migration',{}).get('canonical_links',{}).get(path)
@@ -31,7 +35,7 @@ def plan(path='MULTI-EFFECTS.md'):
     research.identity()
     assert not research.git('diff','--cached','--name-only').strip(), 'Existing staged changes'
     changed=set(research.git('diff','--name-only').splitlines())|set(research.git('ls-files','--others','--exclude-standard').splitlines())
-    assert changed <= {'Makefile','scripts/canonical_links.py','scripts/consolidation_tools.py','scripts/navigation_tools.py','BOSS.md','MOOER.md','VALETON.md','ZOOM.md','M-VAVE.md','research-state.json','scripts/research_tools.py'} | set(REMAINING), changed
+    assert changed <= {'Makefile','scripts/canonical_links.py','scripts/consolidation_tools.py','scripts/navigation_tools.py','brand/BOSS.md','brand/MOOER.md','brand/VALETON.md','brand/ZOOM.md','brand/M-VAVE.md','research-state.json','scripts/research_tools.py'} | set(REMAINING), changed
     state=json.loads((ROOT/'research-state.json').read_text())
     assert path in EXPECTED
     assert path not in state['migration'].get('canonical_links',{}), 'Already migrated'
@@ -43,16 +47,16 @@ def plan(path='MULTI-EFFECTS.md'):
         if not key.startswith('effects/'):
             return match[0]
         if key == 'effects/findings/2026-10-14-flamma-fv01.md':
-            dest='SINGLE-VOCAL.md#flamma-fv01-corrector'
+            dest='single-vocal.md#flamma-fv01-corrector'
         else:
             assert key in state['migration']['retired_sources'], key
             dest=state['migration']['retired_sources'][key]['destination']
-        overrides={'effects/specialist.md':'SINGLE-GUITAR.md','effects/guitar-compact.md':'ALL-GUITAR.md','effects/guitar-floorboards.md':'ALL-GUITAR.md','effects/shopee-indonesia.md':'research-state.json'}
+        overrides={'effects/specialist.md':'single-guitar.md','effects/guitar-compact.md':'all-guitar.md','effects/guitar-floorboards.md':'all-guitar.md','effects/shopee-indonesia.md':'research-state.json'}
         if key.startswith('effects/shopee-multifx'):
             dest='research-state.json'
         dest=overrides.get(key,dest)
         if raw == 'effects/specialist.md#eligible-record-boss-gm-800':
-            dest='BOSS.md#gm-800'
+            dest='brand/BOSS.md#gm-800'
         assert not dest.startswith('effects/'), dest
         shared.validate_target(dest)
         ident=path.removesuffix('.md').lower()+'-'+str(len(changes)+1).zfill(3)
@@ -96,7 +100,9 @@ def verify():
         assert not [x for x in shared.local_links(path,text) if x['target'].startswith('effects/')], path
         restored=preservation_text(path)
         for c in entry['changes']:
-            shared.validate_target(c['destination'])
+            from brand_filename_migration import translate
+            mapping=state['document_layout_20261102']['mapping']
+            shared.validate_target(translate(c['destination'],mapping))
             assert c['before'] in restored
     print('PASS: all migrated canonical destinations exist;all historical tokens recoverable')
 
@@ -108,7 +114,7 @@ def test():
     entry=dict(changes=changes)
     text='Fact and date [A'+changes[0]['after']+'; [B'+changes[1]['after']
     assert restore_text(text,entry)=='Fact and date [A](effects/old-a.md); [B](effects/old-b.md)'
-    for broken in (text.replace('historical-link:one','historical-link:unknown'),text+changes[0]['after'],text.replace('](README.md)','](BOSS.md)',1)):
+    for broken in (text.replace('historical-link:one','historical-link:unknown'),text+changes[0]['after'],text.replace('](README.md)','](brand/BOSS.md)',1)):
         try:
             restore_text(broken,entry)
         except AssertionError:
@@ -159,4 +165,4 @@ def apply_remaining():
     print('PASS: 96 reviewed links applied across19 files;every exact inverse verified')
 
 if __name__=='__main__':
-    {'plan':plan,'apply':apply,'verify':verify,'test':test,'plan-boss':lambda:plan('BOSS.md'),'plan-mooer':lambda:plan('MOOER.md'),'plan-valeton':lambda:plan('VALETON.md'),'plan-zoom':lambda:plan('ZOOM.md'),'plan-mvave':lambda:plan('M-VAVE.md'),'plan-remaining':plan_remaining,'apply-remaining':apply_remaining}[sys.argv[1]]()
+    {'plan':plan,'apply':apply,'verify':verify,'test':test,'plan-boss':lambda:plan('brand/BOSS.md'),'plan-mooer':lambda:plan('brand/MOOER.md'),'plan-valeton':lambda:plan('brand/VALETON.md'),'plan-zoom':lambda:plan('brand/ZOOM.md'),'plan-mvave':lambda:plan('brand/M-VAVE.md'),'plan-remaining':plan_remaining,'apply-remaining':apply_remaining}[sys.argv[1]]()

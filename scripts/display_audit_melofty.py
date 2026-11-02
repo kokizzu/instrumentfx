@@ -13,7 +13,7 @@ if sys.argv[1:] in (["stage-collection"], ["collection"]):
     import hashlib
     import json
     from pathlib import Path
-    allowed = {"MELOFTY.md", "FOOTSWITCH-DISPLAYS.md", "MULTI-EFFECTS.md", "README.md", "research-state.json", "scripts/display_audit_melofty.py", "Makefile"}
+    allowed = {"brand/MELOFTY.md", "FOOTSWITCH-DISPLAYS.md", "MULTI-EFFECTS.md", "README.md", "research-state.json", "scripts/display_audit_melofty.py", "Makefile"}
     changed = set(git("diff", "--name-only").splitlines()) | set(git("ls-files", "--others", "--exclude-standard").splitlines())
     staged = set(git("diff", "--cached", "--name-only").splitlines())
     assert (changed | staged) <= allowed, (changed | staged) - allowed
@@ -33,12 +33,12 @@ if sys.argv[1:] in (["stage-collection"], ["collection"]):
         assert review["head"] == git("rev-parse", "HEAD").strip()
         assert review["sha256"] == hashlib.sha256(git("diff", "--cached").encode()).hexdigest()
         assert not git("diff", "--cached", "--check").strip()
-        message = "research(melofty): distinguish screen census and performance-switch roles" if "MELOFTY.md" in staged else "docs: restore requested separate-screen processor priority"
+        message = "research(melofty): distinguish screen census and performance-switch roles" if "brand/MELOFTY.md" in staged else "docs: restore requested separate-screen processor priority"
         print(git("commit", "-m", message))
     raise SystemExit(0)
 
 assert not git("diff", "--cached", "--name-only").strip(), "Existing staged work"
-allowed = {"GIGRIG.md", "FAMC.md", "RJM-MUSIC.md", "SINGULAR-SOUND.md", "MELOFTY.md", "MULTI-EFFECTS.md", "research-state.json", "Makefile", "scripts/display_audit_melofty.py", "FOOTSWITCH-DISPLAYS.md", "EXPRESSION-VOLUME.md", "README.md", "MORNINGSTAR.md"}
+allowed = {"brand/GIGRIG.md", "brand/FAMC.md", "brand/RJM-MUSIC.md", "brand/SINGULAR-SOUND.md", "brand/MELOFTY.md", "MULTI-EFFECTS.md", "research-state.json", "Makefile", "scripts/display_audit_melofty.py", "FOOTSWITCH-DISPLAYS.md", "EXPRESSION-VOLUME.md", "README.md", "brand/MORNINGSTAR.md"}
 changed = set(git("diff", "--name-only").splitlines()) | set(git("ls-files", "--others", "--exclude-standard").splitlines())
 assert changed <= allowed, changed - allowed
 assert not git("diff", "--check").strip()
@@ -47,13 +47,13 @@ print(git("diff", "--cached", "--stat"))
 message = "docs: compare LCD shortlist headphones and preset controls" if sys.argv[1:] == ["collection"] else "research(melofty): qualify independent firmware 1.9 review leads"
 if sys.argv[1:] == ["morningstar"]:
     message = "research(morningstar): distinguish MC8 PRO screens and switches"
-if "RJM-MUSIC.md" in changed:
+if "brand/RJM-MUSIC.md" in changed:
     message = "research(rjm): document GT10 supported pedal and toe connection"
-if "SINGULAR-SOUND.md" in changed:
+if "brand/SINGULAR-SOUND.md" in changed:
     message = "research(singular): qualify MIDI Maestro iOS 26 firmware advisory"
 if sys.argv[1:] == ["famc"]:
-    assert "FAMC.md" in changed, "Missing FAMC controller record"
+    assert "brand/FAMC.md" in changed, "Missing FAMC controller record"
     message = "research(famc): collect JR+ individual-display candidate with limits"
-if "GIGRIG.md" in changed:
+if "brand/GIGRIG.md" in changed:
     message = "research(gigrig): collect G3S OLED controller with display conflict"
 print(git("commit", "-m", message))

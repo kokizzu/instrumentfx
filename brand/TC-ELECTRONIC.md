@@ -1,0 +1,916 @@
+# TC Electronic multi-effects
+
+[Repository](../README.md) · [Guitar](../all-guitar.md) · [Vocal](../all-vocal.md)
+
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [M100](#m100)
+- [M350](#m350)
+- [M-One XL](#m-one-xl)
+- [NOVA System](#nova-system)
+- [PLETHORA X1 — partial discovery lead](#plethora-x1--partial-discovery-lead)
+- [PLETHORA X3](#plethora-x3)
+- [PLETHORA X5](#plethora-x5)
+<!-- brand-index ends -->
+
+## M100
+
+Checked 2026-10-17; partial. Guitar/vocal instrument and mixer-path processor; direct microphone preamp/phantom and bass suitability unverified. Ownership unknown.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | No built-in pedal; external footswitch bypass is documented, expression/toe support unresolved. | [Product][M100-P]; [QSG pp24–25][M100-M] |
+| K/F/B | **5 rotary / 0 built-in footswitches / 2 buttons**: Input, Output, Mix, Effects, Parameter; Bypass, Tap/Select. Text inventory; visual confirmation pending. | [QSG pp24–25][M100-M] |
+| Display | Status/level LEDs; published screen specifications unresolved. | [QSG pp24–25][M100-M] |
+| Processing / categories | **16 selectable programs**, not16 simultaneous blocks: Cathedral, Concert, Club, Chamber, Gold Plate, Gated Reverb, Reverse Reverb, Ambience, Delay, Chorus, Flanger, Phaser, Rotary, Pitch Shift, Delay+Reverb, Chorus+Reverb. Combined programs establish multiple processing functions. | [Product][M100-P]; [QSG pp36–37][M100-M] |
+| Editor / firmware transport | Current QSG has a dedicated **MIDI IN SysEx .syx update procedure**, naming MIDI communication software such as MIDI-OX. This corroborates the MIDI connector statement, but establishes neither a patch editor nor supported OS versions. Applicability to older hardware remains unresolved. No update performed. | [QSG p69][M100-M] |
+| Categories / parameter controls | Reverbs: time + Brilliance toggle; Ambience: room size + Brilliance. Delay: repeats + tap interval. Chorus/Flanger/Phaser: intensity + tap tempo. Rotary: intensity + speed toggle. Pitch Shift: **±12 semitones** + Detune toggle. Combined effects: delay/reverb or chorus/reverb ratio; Tap/Select controls delay interval or reverb time respectively. Numerical timing limits unverified. | [QSG p58][M100-M] |
+| Preset memory | Parameter changes retained temporarily until power-off; user-store capacity unresolved. | [QSG pp24–25][M100-M] |
+| Synth / acoustic | Dedicated synth/acoustic conversion unresolved; pitch shifting is documented. | [QSG pp36–37][M100-M] |
+| I/O | Two quarter-inch inputs, two impedance-balanced TRS outputs, TS footswitch bypass, power. Current QSG also lists **MIDI DIN for CC/control and firmware updates**; hardware revision applicability pending. | [QSG pp24–25,92–93][M100-M] |
+| I/O / input conflict | Product says balanced/unbalanced inputs; QSG specifications say unbalanced TS, approximately7.5kΩ. Preserve discrepancy; output impedance approximately220Ω. | [Product][M100-P]; [QSG pp92–93][M100-M] |
+| Power / battery / USB | **12 V DC/400 mA external supply; approximately3.5 W consumption**. Polarity, actual current, battery and USB operation unresolved. Regional mains supply variants; no universal-mains assumption. | [QSG pp92–93][M100-M] |
+| Dimensions / mass | **46 H ×191 W ×99 D mm;0.6kg**. | [QSG pp92–93][M100-M] |
+| IR / NAM / capture | Import/capture support unresolved. | Unresolved |
+| Editor / platforms | MIDI update statement does not establish computer editor or supported OS. | [QSG pp24–25][M100-M] |
+| Live / routing | Mono/stereo operation; Input1 for mono, dry/wet Mix, tap tempo or parameter selection. Looper/drums/scenes unresolved. | [Product][M100-P]; [QSG pp24–25][M100-M] |
+| Instrument scope | QSG explicitly describes guitar and vocal applications, including combined delay/reverb. Vocal inclusion concerns mixer/instrument processing, not direct microphone input, phantom power or harmony. | [QSG pp36–37][M100-M] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | No qualified offer. | — |
+| New | No condition-confirmed offer. | — |
+| Unverified condition | **Rp1.950.000**, Imagination Music Store, shop19576516/item6955147985, Kota Jakarta Pusat. Checked2026-10-17; index crawled last month, preorder15days with September16 estimate. Historical ask, not live stock/checkout. | [Item][M100-O] |
+
+
+### M100 — current-guide MIDI control mappings
+
+Checked 2026-10-18 from original manufacturer-indexed [QSG English MIDI Communication Guide,p70][M100-M]. The Chinese section p90 corroborates the mapping. Current-guide applicability to older M100 hardware remains unresolved; no MIDI messages or firmware were sent.
+
+| Field | Revision-qualified behavior |
+|---|---|
+| Editor / MIDI channel setup | Hold BYPASS while turning EFFECT SELECTOR; selected effect number becomes the channel. Guide explicitly says no visual or audible confirmation. This is setup, not proof of a patch editor or persistent user-preset storage. |
+| I/O / MIDI CC map | **CC102** bypass0/1; **CC103** effect0–15; **CC104** effect parameter0–127; **CC106** mix0dry–127wet. These map controls, not extra effect blocks or memories. |
+| Live / MIDI tap and select | **CC105** is mode-dependent:tap values1–127 each supply one tap;select uses0Off/1On. Do not interpret the tap value as a BPM number or assume MIDI-clock sync. |
+
+<!-- comparison evidence ends -->
+
+Working state, authenticity, hardware revision, bundle, adapter, warranty, shipping/tax and voucher eligibility unresolved. Direct QSG open failed; indexed official text readable. No filesystem download or visual inspection claimed.
+
+[M100-P]: https://www.tcelectronic.com/en/products/0828-AAH
+[M100-M]: https://mediadl.musictribe.com/media/PLM/data/docs/P0CAH/QSG_TE_0828-AAH_M100_WW.pdf
+[M100-O]: https://shopee.co.id/TC-Electronic-M100-Stereo-Multi-Effects-Processor-i.19576516.6955147985
+
+### M100 — direct-expression capability screening
+
+Checked 2026-10-28 against [manufacturer-indexed current QSG][M100-M], pp24–25. **FOOTSW is a quarter-inch TS bypass-switch input**, not a documented continuous expression input. Complete listed connections contain **no analog EXP or dedicated headphones**; MIDI DIN remains revision-qualified as above. **191W×99Dmm fits** the preferred rectangle, but not the direct analog-pedal requirement. No onboard preset down/up footswitches; EFFECTS is a hand selector.
+
+Direct analog position/range/recall are inapplicable to the documented inventory. OUTPUT level differs from wet/dry MIX; current-guide CC106 is mix, not proof of global output-volume assignment. Bypass leaves the sound unaffected per the guide, but tail/looper attenuation remains unverified. Keep input-impedance/source conflict and older-hardware applicability open; no assumed passive-pickup match. Historical preorder/condition qualifications remain. No download or device test.
+
+## M350
+
+Checked2026-10-17. Partial dual-engine rack multi-effects. [Manufacturer English manual](https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf),34pages,Rev1.1/SW1.00,productE60505812;webtext only,no download/visualaudit.
+
+| Field | Evidence / gaps |
+|---|---|
+| Expression | No builtin pedal;¼TRS socket takes **momentary bypass(tip)/tap(ring)** switches. ContinuousEXP/toe support unestablished. |
+| Controls | **10rotaries**,derived text;integratedfoot0;separatebuttons count unresolved becauseBYPASS described asknob. |
+| Display | Two seven-segmentdigits+LEDs;diagonal/color/touch unknown. |
+| Processing / choices | **2engines:15delay/effects choices+15reverbs**,eachplusOff. Serial ordualinput/commonoutput;analog-only parallel option. |
+| Presets | **99user memories;256factory selector combinations**,not256storedpatches. Advertised355 does notmean355editablememories. |
+| Synth / acoustic | Dedicated synth/acousticconversion unknown. |
+| Dimensions / weight | **483×44×105.6mm;1.5kg**;published19×1.75×4.2inch order. |
+| I/O | Balanced¼L/Rinputs/outputs;RCA S/PDIFin/out;DIN MIDIin/out;¼pedal;ACmains. Headphones/XLR/USB notlisted. |
+| Power | **100–240VAC50–60Hz auto;less than15W**. Internal supply;DCpolarityN/A. Battery/USBpower unknown. |
+| Software | Manufacturer cutsheet advertises **AU/VST editor**;exactOS/currentcompatibility unverified. MIDI control/bulkdump documented;notUSB audio. |
+| IR / NAM / captures | UserIR,native/convertedNAM,capture import unknown. |
+| Looper / drums / live | Looper/drums/scenes unknown;tap/MIDIclock. Bypass mutes indualinput,passes signal inserial. |
+| Instrument scope | Guitar setup requirespreamp;vocal+guitar dualinput example. Bass capability unclassified. |
+
+[Cutsheet](https://service-tcgroup.tcelectronic.com/media/M350_Cutsheet_web.pdf) indexed manufacturer text only;direct502. Editor/355marketing distinguished frommanual memory behavior.
+
+### M350 — separate IDR hardware offers
+
+| Condition / seller | IDR evidence | Exact item |
+|---|---|---|
+| Used | Unknown | — |
+| TitleNEW,condition unverified / PCdada,Kota Jakarta Barat | **Rp6.682.240;indexed PreOrder15days**,index2months,checked2026-10-17;directopenfailed. Currentstock,selectedvariation,bundle,warranty,voucher,shipping/tax unknown;Augustdelivery stale. | [1003923494/15899349001](https://shopee.co.id/%E2%9C%85-NEW-TC-electronic-M350-vocal-reverb-effect-dual-engine-digital-effect-processor-professional-stage-performance-effect-karaoke-i.1003923494.15899349001) |
+| Unallocatedvariation / Puddingstoree,Kota Jakarta Barat | **Rp8.870.555;2variations;PreOrder30days**,index2months. Selectedhardwarevariant andcondition unverified;not aqualifiedmodelprice orliveprice range. | [1696675139/43128792310](https://shopee.co.id/NEW-TC-Electronic-M350-Vocal-Reverb-Effect-Dualengine-gital-Effect-Processor-Professional-Stage-Performance-Effect-Karaoke-i.1696675139.43128792310) |
+### M350 — named engines and pedal control
+
+Checked 2026-10-17 against the [Rev1.1 manufacturer manual](https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf),pp5,8,18–20.
+
+| Engine | Fifteen choices, plus Off |
+|---|---|
+| Delay/effects | Comp;Hard Comp;De-Esser;Smooth Chorus;Lush Chorus;Instrument Flanger;Tremolo;Vintage Phaser;Smooth Phaser;Slapback Delay;PingPong Delay;Soft Delay;Triplets Delay;Studio Delay;Dynamic Delay |
+| Reverb | TC Classic Hall;Cathedral;Vocal Reverb;Live Vocal;Hall Acoustic;Drum Ambience;Drum Room;Ambience;Living Room;Nearfield;Damped Room;Silver Plate;Gold Plate;Spring Vintage;Live Stage |
+
+Hall Acoustic andDrum names describe reverb algorithms,not acoustic-guitar conversion oradrum-pattern generator. The effects selector chooses one delay/modulation/dynamics algorithm,not all simultaneously.
+
+The¼TRS pedal input uses momentary switches: **tip bypass,ring tap tempo**. This verifies footswitch control,not analog continuous-expression support. S/PDIF output runs44.1kHz onanaloginput,or follows avalid44.1/48kHz digitalinput.
+
+The overview’s “BYPASS knob” wording remains acontrol-count ambiguity;button count awaits qualified visual/original diagram evidence. No image was inspected orsoftware downloaded.
+
+### M350 — analog interface and reset limits
+
+Checked 2026-10-18 against the [manufacturer Rev1.1/SW1.00 manual,pp31–32](https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf),productE60505812. Text only;no local download or visual inspection.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / analog input | **21 kΩ balanced/13 kΩ unbalanced**. Maximum/minimum input levels at0dBFS: **+24/0 dBu**;sensitivity **−12 to+12 dBu with12dB headroom**. These describe gain-dependent full-scale limits,not two nominal operating standards. |
+| I/O / analog output | **40 Ω balanced/20 Ω unbalanced;+14 dBu maximum**. Input and output impedances remain distinct. |
+| Processing / conversion | ADC and DAC each **24-bit,128×oversampling**. **24-bit S/PDIF** supports44.1kHz,or44.1/48kHz digital input. Digital processing delay **.08ms at48kHz** is not complete analog round-trip latency. |
+| Memory / factory reset | Hold TAP while reconnecting power;flashingR,then LOAD confirms;power-cycle afterward. **All User presets are lost**. MIDI bulk receive is disabled when receive channel isOF. |
+
+The alternate MusicTribe mediadl endpoint exposed indexed specifications but direct access failed;the existing manufacturer CDN supplied the matching original manual. Editor compatibility,control-button count,screen details and qualified used/new prices remain unresolved.
+
+
+### M350 — routing details and service-version display
+
+Checked 2026-10-18 in the [same Rev1.1 manufacturer manual,pp12,22–23](https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf). Original text only;no local download or hardware operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| Routing / parallel mono setup | **Analog input only**:Dual Input switch IN,left input connected,right empty. Left is internally split to both engines,which share stereo outputs. Mixer aux use requires MIX100%wet. This is not a freely selectable digital parallel routing mode. |
+| Routing / serial versus dual input | Serial passes Delay/Effects then Reverb. Dual Input processes two separate sources through the respective engines with common outputs;it does not provide isolated output pairs per source. |
+| Editor / firmware-display distinction | PRESET ON/OFF held with UP/DOWN selects **AP** application or **Fr** front software version for service. These identify hardware software versions,not AU/VST editor releases or supported desktop operating systems. Existing cutsheet editor claim remains separately qualified. |
+
+Editor installers/current OS compatibility,control-button count,display diagonal/touch and qualified used/new IDR evidence remain unresolved.
+
+
+### M350 — digital clock fallback and MIDI backup
+
+Checked 2026-10-18 from original text in the [Rev1.1/SW1.00 manufacturer manual, printed pp14–15,31](https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf). No download or device operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / digital-lock fallback | For a digital insert, the connected interface supplies master clock. If digital input is selected but no valid signal arrives within5seconds, DIGI IN flashes and M350 returns to internal clock and analog operation while continuing to seek digital input. A selected digital input therefore does not guarantee a permanently digital signal path. |
+| Routing / standalone A/D conversion | With analog input feeding S/PDIF output, M350 supplies master clock and the receiving interface must follow it. Both effect selectors Off provide conversion without added effects. Using Bypass for this purpose requires Serial routing; Dual Input bypass mutes instead. This is S/PDIF conversion, not USB audio. |
+| Editor / MIDI backup operation | Hold PRESET ON/OFF about2.5seconds, select Bulk Dump with arrows, then LOAD sends presets to a recording MIDI device. Receive is automatic unless MIDI Receive Channel isOF. This is backup support, not proof of AU/VST editor compatibility. |
+
+
+### M350 — preset confirmation and MIDI addressing
+
+Checked 2026-10-18 from original text in the [manufacturer Rev1.1/SW1.00 manual, printed pp21–22](https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf). No device operation or download.
+
+| Field | Evidence / qualification |
+|---|---|
+| Memory / recall and store | In Preset On mode, arrows select locations1–99; blinking digits indicate selection before recall. LOAD recalls; an empty location causes no action. Holding LOAD about2.5seconds stores into the selected user location. Selection is not automatic recall or proof of seamless transitions. |
+| Live / panel versus stored state | Preset Off processes according to front-control positions. Returning to Preset On keeps that panel-derived sound until LOAD recalls the blinking stored preset. The mode name does not mean audio bypass; physical knob positions can differ from recalled settings. |
+| I/O / MIDI channel and SysEx ID | Receive channel1–16, O for all channels, or OF to ignore incoming MIDI; factory/reset default ischannel1. SysEx ID follows the selected MIDI channel. LOAD confirms the menu choice. These addressing options do not establish editor operating-system support. |
+
+
+### M350 — historical editor scope and algorithm limits
+
+Checked 2026-10-18 through manufacturer-hosted original indexed text;no local download or software operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / dated feature provenance | [TC Summer2007 catalogue,p11](https://service-tcgroup.tcelectronic.com/media/Touring_Install_DE.pdf) describes a bundled VST editor with parameter/preset automation and realtime control;the [English cutsheet](https://service-tcgroup.tcelectronic.com/media/M350_Cutsheet_web.pdf) also lists AU. This dates the capability claim;recent indexing/upload labels are not new editor releases. Installer availability,OS versions,plugin bitness and current host compatibility remain unverified. |
+| Looper / delay timing limits | Cutsheet advertises **5seconds of delay**. [Rev1.1 manual,printedp24](https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf) gives TIMING **0.5–2×** the tapped interval and power-up tempo120BPM;range depends on algorithm,with Slapback shorter. Do not assign5seconds to every delay type or confuse this with phrase-loop recording. |
+| Processing / compressor controls | Manual pp25–26:TIMING becomes drive/threshold;FEEDBACK/DEPTH sets ratio. Attack is fixed and automatic makeup gain compensates level reduction. No adjustable attack time or numerical ratio range is established here. |
+
+
+### M350 — routing-dependent mix and input-gain ranges
+
+Checked 2026-10-18 from the [manufacturer Rev1.1/SW1.00 manual,printed pp16–17](https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf),original text only. The diagram screenshot attempt failed;no visual control count or hardware operation claimed.
+
+| Field | Evidence / qualification |
+|---|---|
+| Routing / effect mix restrictions | In Serial routing,compressor/de-esser mix is fixed100%;chorus/flanger/phaser/tremolo mix is fixed50%. MIX adjusts delay/reverb,with BALANCE adjusting their relative contribution. In Dual S/R,MIX controls overall wet/dry for both engines. These routing-dependent rules do not establish arbitrary independent wet/dry control for every algorithm. |
+| I/O / input-gain control | INPUT controls both L/R channels:analog gain spans **−10 to+14dB**,digital **−18 to+6dB**,each0dB at center. These are gain ranges,not maximum input levels or dBu nominal sensitivities;the electrical ratings remain separately documented. Unequal source levels require adjustment upstream rather than separate L/R gain knobs. |
+
+
+
+### M350 — MIDI controller map and clock direction
+
+Checked 2026-10-19 from the [Rev1.1/SW1.00 manufacturer manual, printed pp30–31](https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf). The [alternate manufacturer-hosted English index](https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m350_manual_english.pdf) separates Color CC20 from the following page number. Screenshot retrieval failed; this is original text evidence, with no device operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / MIDI general controls | **Input level CC12; Mix CC13; Effect Balance CC14; Digital Input CC15; Bypass CC81**. The chart describes single-byte controllers scaled to each parameter range; this does not supply switch-value polarity or numerical parameter endpoints. |
+| Live / MIDI delay-effects controls | **Type CC50; engine Off CC82; Timing CC16; Tap CC80; Feedback CC17**. These control existing engine parameters, not extra simultaneous blocks. The CC number alone does not establish a BPM-valued payload. |
+| Live / MIDI reverb controls | **Type CC51; engine Off CC83; PreDelay CC18; Decay CC19; Color CC20**. These are MIDI mappings, not proof of analog expression-pedal support or editor OS compatibility. |
+| I/O / MIDI clock and message scope | April2006 implementation chart lists CC, Program Change and SysEx transmission/reception. **Clock received, not transmitted**; MIDI TimeClock sets delay tempo. Note messages, velocity, aftertouch and pitch bend are not implemented in either direction; this is a MIDI-message scope statement, not a verdict on audio algorithms. |
+
+### M350 — additional indexed preorder hardware ask
+
+| Field | Dated asking evidence / limitations |
+|---|---|
+| Price / condition-unverified IDR | **Rp6.898.094**, CHdada, Kota Jakarta Pusat; seller1003926059/item20383192872. Checked2026-10-19: two-month indexed exact-item body shows **Pre-Order, dispatched within15days**, with stale13–21August arrival. [Seller-labelled TC-M350 processor](https://shopee.co.id/%E2%9C%85-TC-M350-vocal-reverb-effect-dual-engine-digital-effect-processor-%EF%BC%8Cprofessional-stage-performance-effect-karaoke-i.1003926059.20383192872). Direct page returned cache miss. Condition, selected variant, original-brand authenticity, working state, bundle, warranty, voucher, shipping/tax and checkout stock remain unverified. Rp10.000 late-delivery compensation is not a purchase discount. Historical asking evidence, not current availability or a completed sale; it establishes neither verified new nor used price. |
+
+### M350 — direct-expression capability screening
+
+Checked 2026-10-28 against the [own Rev1.1/SW1.00 manufacturer manual](https://cdn.mediavalet.com/aunsw/musictribe/oexFf_5Xrkic0GfCn2XAEw/j6PZVTEe-UynlIA4ETJYOA/Original/tc_electronic_m350_manual_english.pdf), rear panel p8 and front overview pp6–7. **No continuous analog EXP input**: quarter-inch TRS pedal socket explicitly uses **momentary bypass on tip, tap on ring**. Complete connector inventory has **no dedicated headphones**. **483W×105.6Dmm** exceeds width preference; guitar needs upstream preamp. No onboard preset footswitch pair: arrows select presets, LOAD recalls, all hand controls.
+
+Direct-expression position/range/recall are inapplicable to the documented input. Global tap tempo and bypass are not global volume assignment. Preserve Serial dry-pass versus Dual Input mute, and routing-dependent MIX rules; MIDI input-level/mix controls do not prove analog expression or tail/looper attenuation. Historical preorder/variant offers remain qualified. No download, hardware operation or model admission.
+
+## M-One XL
+
+Checked 2026-10-17; partial. [Original English manual, mirrored][M1XL-M], Rev4, product E60500152: SW2.07 XL versus1.43 Standard. Manufacturer download inaccessible; mirror adds watermarks. Text-only review.
+
+| Field | Evidence / gaps |
+|---|---|
+| Expression | No integrated treadle. Quarter-inch pedal input explicitly accepts **momentary switches only**: bypass1,2,both or tap; continuous expression is unsupported through this jack. Built-in toe switch absent with treadle;external toe-switch accessory compatibility unverified. [Own manual p12](https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf). |
+| Controls | Text-derived **4 rotaries / 0 integrated footswitches / 14 buttons**, excluding power: three level/mix/balance knobs plus CONTROL wheel; visual verification pending. |
+| Display | **23-character/280-icon STN LCD**; diagonal/color/touch unknown. |
+| Processing / choices | **Two engines**, one selected algorithm each. Eight reverbs: Hall,Room,Small Room,Plate1,Plate2,Spring,Live,Ambience. Three delays: One Tap,Two Tap,PingPong. Chorus/flange each Classic/4-Voice; pitch Detune/Pitch Shift; parametric EQ; Compressor/Limiter; Gate/Expander; De-esser; tremolo Hard/Soft; phaser Vintage/Smooth. Small Room/PingPong explicitly XL-only. Family/mode enumeration is not an independently verified grand algorithm count. |
+| Presets | **200 factory +100 user =300 locations**; factory edits save into user bank. |
+| Synth / acoustic | Dedicated synthesis/acoustic conversion unknown. |
+| Dimensions / weight | **483×44×195mm;1.85kg**. Published19×1.75×8.2inch conflicts with metric depth; preserve both, do not normalize. |
+| I/O | Balanced XLR L/R inputs/outputs; RCA S/PDIF in/out; DIN MIDI in/out/thru; quarter-inch pedal; mains. Headphones/USB unestablished. |
+| Power | **100–240VAC,50–60Hz auto; <15W**. DC polarity N/A; operating current/battery/USB power unverified. |
+| Editor / platforms | MIDI control/SysEx documented. [Historical manufacturer comparison][M1XL-C] lists editor **None**; dated context references summer2003, not current software availability. Third-party editors and current OS support unverified. |
+| IR / NAM / captures | User IR, native/converted NAM and captures unknown. |
+| Looper / drums / routing | Six routings: dual send/return,parallel,parallel/serial,serial,stereo-linked,dual mono. Looper/drums/scenes unknown. |
+| Instrument scope | Guitar-track and lead-vocal examples support guitar/vocal inclusion; bass remains unclassified. XLR does not establish mic preamp/phantom. |
+
+### M-One XL — separate IDR hardware offers
+
+| Condition / seller | IDR evidence | Exact item |
+|---|---|---|
+| Used | Unknown | — |
+| New | Unknown | — |
+| Unverified / d'Acoustic,Kota Pekanbaru | **Rp2.800.000**, shop480855699/item43364186361; checked2026-10-17, two-month cached page. Shop on holiday; current stock unverified. Title original is not authenticity proof. Variant,bundle,warranty,voucher,shipping/tax unknown; August delivery stale. | [Shopee][M1XL-O] |
+
+[M1XL-M]: https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf
+[M1XL-O]: https://shopee.co.id/Efek-TC-Electronic-M-One-XL-original-i.480855699.43364186361
+
+Manual printed pp6–8,12–17,40 support controls, routing, memory and XL specifications. Guitar/vocal examples pp13–14; no direct passive-instrument suitability inferred.
+
+### M-One XL — MIDI and routing qualifications
+
+Checked2026-10-17 against [Rev4 manual][M1XL-M],printed pp12,14–15. **Bank-select conflict:** prose says CC32; map labels CC0, values0/1/2 for factory1–100/factory101–200/user1–100. Preserve mismatch; no hardware test. SysEx changes parameters/algorithms/routing; bulk dump backs up presets.
+
+Stereo-linked copies Engine1 settings into Engine2. Dual mono keeps separate mono channels. Serial MIX controls Engine1 mix; EFFECT BAL controls dry bypass around Engine2. These differ from parallel balance behavior.
+
+[M1XL-C]: https://service-tcgroup.tcelectronic.com/media/Rev_Comparison_02b%281%29.pdf
+
+Comparison sheet is indexed manufacturer evidence only; direct PDF inaccessible. Original manual remains accessed through the watermarked mirror; no download performed.
+
+### M-One XL — manufacturer-hosted electrical specifications
+
+Checked2026-10-18 from indexed manufacturer Spanish manual,p40,explicit **M-One XL** table. English file retrieval failed;this is not a full manual orvisual inspection.
+
+| Field | Exact-model evidence |
+|---|---|
+| I/O / digital format | RCA S/PDIF **24-bit**,EIAJ CP-340/IEC958;**44.1/48kHz**. Output HPF/TPDF dither choices24/20/16/8-bit. Published digitalprocessing delay **0.1ms at48kHz**,not total analog round-trip latency. [Own XL table](https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m-one_xl_manual_spanish.pdf). |
+| I/O / analog limits | XLR input **21kΩ balanced/13kΩ unbalanced**,maximum+24dBu. Output **40Ω**,maximum+20dBu balanced;range choicesbalanced20/14/8/2dBu,unbalanced14/8/2dBu. [Own XL table](https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m-one_xl_manual_spanish.pdf). |
+| Conversion / format | A/D andD/A **24-bit,128× oversampling**. A/Ddelay0.65/0.70ms andD/Adelay0.63/0.68ms at48/44.1kHz respectively;these are stage specifications,not measured fullunit latency. [Own XL table](https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_m-one_xl_manual_spanish.pdf). |
+
+### M-One XL — clock selection and bypass tails
+
+Checked2026-10-18 in manufacturer-authored Rev4 mirror,pp11–12;cover/declaration andE60500152 imprint identify XL SW2.07. Watermarks retained;no hardware test.
+
+| Field | Exact operating distinction |
+|---|---|
+| I/O / source and clock | Analog source initially selects internal44.1kHz;clock options areinternal44.1,internal48 orDigital,including withanalog input. Digital source locks toS/PDIF;outputs mute during lock andunmute when acquired. Internal clock with digitalaudio requires synchronization;slip samples trigger **Rate Mismatch**. XL-only **ANLGLEFT** uses leftXLR input. Input selection isglobal,not anextra input pair. [Own manual p11](https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf). |
+| Live / bypass modes | **0%Mix** passes input tooutput; **FXInput** cuts engineinput while lettingexisting effects decay andretaining dry; **FXOutput** cuts effectoutput immediately while retaining dry. These are enginebypass modes,not proof ofrelay true bypass orpreset-change spillover. [Own manual p12](https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf). |
+| Routing / lock | Routing Lock makes currentrouting global andignores routing stored inrecalled presets. It doesnot create additionalengines orscenes. [Own manual p12](https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf). |
+
+### M-One XL — recall, store and tempo controls
+
+| Field | Own Rev4 manual distinction |
+|---|---|
+| Memory / preview versus recall | CONTROL wheel previews presets with flashing number/ENTER; **ENTER orRECALL** activates, **EXIT** returns tocurrently loadedpreset. Factory locations cannot be overwritten. STORE suggests firstfree userlocation unless editing auserpreset,when it suggests thatsame location;ENTER confirms saving. Empty-slot behavior doesnot establish original userbankfill. [Manual pp16–17](https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf). |
+| Live / tap and MIDI sync | Global TAP can targetEngine1,Engine2 orboth; subdivision canignore taps oruse straight/dotted/triplet values. MIDI Sync locks tempo toincoming MIDIclock;it is distinct fromS/PDIF audio-clock synchronization. [Manual p17](https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf). |
+
+Checked2026-10-18;no presetwrite orhardwareoperation performed.
+
+### M-One XL — delay and pitch limits
+
+Checked2026-10-18 in original Rev4 manufacturer manual mirror,printedpp27–31.
+
+| Field | Algorithm-specific scope |
+|---|---|
+| Processing / delay times | **One Tap0–4000ms;Two Tap0–4000ms per tap**,with rightchannel offset0–200ms. Each tap has feedback,level andpan controls. **XL-only PingPong0–1800ms**,so the4s range must not be assigned toall delays. These are repeat buffers,not verified overdub-loop storage. [Manual pp27–28](https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf). |
+| Processing / pitch voices | Pitch Shift adds **two fixed voices**,each **−1200…+1200cents**,independent level/pan and0–100ms delay. Detune instead gives eachvoice **−50…+50cents**. Fixed transposition doesnot establish scale-aware harmony,polyphonic tracking orsound-generating synthesis. [Manual p31](https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf). |
+| Processing / modulation structure | Classic Chorus andFlanger use two voices;4Voice versions combine twoClassic blocks internally. Both rates span **0.05–19.2Hz**. Internal voices do not increase the processor’s twoengine limit. [Manual pp29–30](https://www.liveline.be/wa_files/tc_electronic_m-one_xl_manual_english.pdf). |
+
+### M-One XL — direct-expression capability screening
+
+Checked 2026-10-28 against [manufacturer-authored Rev4 manual mirror][M1XL-M], exact XL rear inventory p8 and Pedal Setup p12. **No continuous analog EXP**: pedal jack accepts momentary switches only for engine1/2/both bypass or tap. **No dedicated headphone socket** in the complete XL inventory. No onboard preset down/up footswitches; CONTROL plus confirmation are hand-operated. Existing **483W×195Dmm** fails preference; metric/inch depth conflict remains. No direct passive-pickup suitability inferred from XLR.
+
+Direct analog position/endpoints/recall are inapplicable. Routing Lock is global routing, not global volume assignment. Retain **FXInput** letting effects decay versus **FXOutput** cutting effects immediately, both retaining dry; these are not complete-output expression attenuation. Existing 0%Mix bypass remains separate. MIDI global-volume scope, looper coverage and current offer condition remain unverified. Original mirrored manufacturer identity/revision verified; no visual or hardware test, local download or sibling transfer.
+
+## NOVA System
+
+Checked 2026-10-18. Guitar multi-effects, distinct from NOVA Drive/Modulator and G-System. Manufacturer manual revision1.2,SW1.10,E60508712: identity verified from original text on mirror. Official PDF endpoints failed;generated mirror summary/FAQ excluded. Bass/vocal suitability unresolved.
+
+<!-- comparison evidence begins -->
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | External Pedal In accepts expression orG-Switch;calibration required. Built-in/toe audit pending. | [Manual][NOVA-M] pp9,16–17 |
+| K/F/B | **4 / 8 / 15**, derived from manual text: four A–D encoders; eight footswitches; seven effect-edit buttons + four variation keys + Factory Default, Store, Levels and Menu. Encoder rotation counts once; power/toe separate. Diagram/photo corroboration pending. | [Manual][NOVA-M] pp6–9,24 |
+| Display | 24×2 characters;English manual says LCD,Spanish1.0 says LED (conflict below). Diagonal/color/touch unresolved. | [Manual][NOVA-M] p46 |
+| Dimensions / weight | Printed284×89×267mm,axis order unlabelled;1.85kg. Inch-to-mm depth correspondence appears inconsistent;not silently corrected. | [Manual][NOVA-M] p46 |
+| Processing / choices | Analog overdrive/distortion plus six digital blocks:compression,EQ+gate,modulation,pitch,delay,reverb. Section-level category census below;exact simultaneous ceiling remains unverified. | [Manual][NOVA-M] p5 |
+| Factory / user memory | 30factory+60user presets;initial user fill unresolved. | [Manual][NOVA-M] p5 |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified;pitch effects alone do not establish synthesis. | Pending |
+| I/O | Drive In,Line In,two balancedTRS outputs,MIDI In/Out/Thru5-pinDIN,Pedal In,mains. Line In bypasses analog preamp/drive. Other-port audit pending. | [Manual][NOVA-M] pp9,46 |
+| Conversion | AD/DA24-bit128×oversampling;listed converter delay0.63ms at48kHz. Complete operating-rate specification pending. | [Manual][NOVA-M] p46 |
+| Power / battery / USB | 100–240VAC50–60Hz auto-select,<15W. DC-barrel polarity N/A to documented mains supply. Battery/USB operation unverified. | [Manual][NOVA-M] p46 |
+| IR / NAM / capture | UserIR,native/convertedNAM andproprietary capture import unverified. | Pending |
+| Editor / software | Editor/platform/OS support unverified;MIDI connector doesnot prove USB audio/editor compatibility. | Pending |
+| Looper / drums / routing | Looper,drums,scenes andfull routing/spillover audit pending. | Pending |
+| IDR used | Unknown;no qualified exacthardware offer. | Shopee search2026-10-18 |
+| IDR new | Unknown;no exactShopee hit. Seller/item,condition,stock,region,bundle,warranty,voucher andcheckout total unresolved;not proof ofunavailability. | Shopee search2026-10-18 |
+
+### NOVA System — routing, speaker filter and preset transitions
+
+Checked 2026-10-18 against original manufacturer manual revision 1.2, SW1.10, pp12–19; mirrored original text, excluding generated FAQ.
+
+| Field | Evidence / qualification |
+|---|---|
+| Routing / three architectures | **Serial:** successive blocks feed one another. **Semi Parallel:** delay/reverb run independently. **Parallel:** modulation/delay/reverb receive the same signal independently. These are fixed routing alternatives, not arbitrary free block ordering. [Manual][NOVA-M] pp12–13 |
+| Cabinet / EQ restriction | **SpeakerSim is a high-frequency speaker-simulation filter; enabling it disables EQ.** Manufacturer recommends it for direct recording/mixer connections and off into a guitar amplifier. This does not establish cabinet IR loading or an amp-model library. [Manual][NOVA-M] pp18–19 |
+| Live / delay versus reverb tails | FX Mute **Soft** preserves delay repeats across different delay presets;reverb can continue but adopts the new preset's settings. **Hard** mutes both. This is not proof of wholly gapless preset changes. [Manual][NOVA-M] p18 |
+| Expression / volume position | **Pre** places volume after drive,before effects,allowing tails while lowering input to effects;**Post** controls the complete effected signal. [Manual][NOVA-M] p14 |
+| Expression / recall and curve | Master **Preset** recalls stored parameter value;**Pedal** uses physical position at preset change. Min/Mid/Max each0–100% define response;one Pedal In selects Expression orG-Switch,not both concurrently. [Manual][NOVA-M] pp16–17 |
+
+### NOVA System — category census and pitch-range conflict
+
+Checked 2026-10-18 against original manual revision 1.2, SW1.10, printed pp3,26–45. Counts below derive from named sections, not an installed-firmware test or manufacturer total.
+
+| Field | Evidence / qualification |
+|---|---|
+| Category choices / section census | Drive2;compression3;EQ1;noise gate1;modulation6;pitch5;delay6;reverb4. **28 section-level entries**,excluding boost,tuner,speaker filter androuting utilities. EQ/gate are separate entries here but grouped in the manual's six-digital-block headline. This count does not establish28 simultaneous processors. [Manual][NOVA-M] |
+| Category choices / delay and reverb | Delays:Clean,Analog,Tape,PingPong,Dynamic,Dual. Reverbs:Spring,Hall,Room,Plate. **Spillover is behavior,not a seventh delay algorithm.** Internal delay taps andreverb shapes do not add choices. [Manual][NOVA-M] pp41–45 |
+| Processing / time limits | Common delay range0–1800ms;Dual has two independently adjustable taps. Reverb decay0.1–20s,pre-delay0–100ms. These parameters are not phrase-looper duration. [Manual][NOVA-M] pp41–45 |
+| Synth / pitch-range disagreement | Pitch Shifter introduction says±1octave;Voice1 range±1200cents butits explanation says±2octaves;Voice2 lists±2400cents. Preserve this unresolved internal disagreement. Separate intelligent harmony has two voices withkey/scale selection;not evidence ofpolyphonic synthesis. [Manual][NOVA-M] pp39–40 |
+
+### NOVA System — MIDI backup and control scope
+
+Checked 2026-10-18 against original manual revision1.2/SW1.10,printed pp21–23. [Manual][NOVA-M]. No MIDI/software operation performed.
+
+| Field | Evidence / qualification |
+|---|---|
+| Memory / two distinct MIDI dumps | **Dump System sends global settings and excludes presets. Dump Bank sends the entire user bank.** Both are MIDI data dumps to a sequencer;the manual recommends astandard MPU401 interface. A system dump alone is not a complete preset backup,despite the manual's complete-system wording. This does not establish a desktop editor orsupported current OS. |
+| MIDI / receive and program mapping | Receive channelOff,1–16 orOmni. Program-change input/output independently enabled;mapping translates incoming changes to presets andalso affects outgoing program changes onrecall. ChannelOff ignores incoming MIDI. |
+| MIDI / clock and controller assignments | Incoming clock can supply global tempo. Each listed control function acceptsOff orCC0–127 assignments:effect bypass,boost,tap andthe expression-mapped parameter. This is aCC-number assignment range,not a documented on/off value threshold oraccess toevery editable parameter. |
+| MIDI / identification | SysEx deviceID0–126 orALL distinguishes units;it isnot a MIDI channel number. |
+
+### NOVA System — control census and variation memories
+
+Checked 2026-10-18 against original manual revision1.2/SW1.10,pp7–9,24. Text-derived inventory;no photo inspection ordevice operation.
+
+| Field | Evidence / qualification |
+|---|---|
+| Physical controls / count method | **K4/F8/B15.** Manual p24 explicitly identifies seven effect-edit switches;these are distinct from the eight performance footswitches described onp8. Four variation keys andfour additional named front-panel buttons complete B15. Dual functions andlong-press actions do not add switches. Built-in expression/toe hardware still requires diagram corroboration. [Manual][NOVA-M] |
+| Memory / variation scope | Each selected effect type stores **four favorite settings** through the variation keys. Recalling one changes that effect in the current preset;the preset itself still needs saving. These are reusable effect settings,not four additional complete-preset banks orsimultaneous effects. [Manual][NOVA-M] p7 |
+| Memory / factory-default scope | Front-panel Factory Default recalls defaults for the **currently selected effect algorithm**. It isdistinct from Utility Clear System anddoes not establish a whole-unit reset from one button press. [Manual][NOVA-M] pp7,19 |
+
+### NOVA System — direct manufacturer Spanish specification check
+
+Checked 2026-10-18. [Manufacturer Spanish manual][NOVA-SP],revision1.0/SW1.00 (p3),distinct from English1.2/SW1.10. Exact NOVA System cover andmodel declaration verified;English PDF still502. Text inspection only.
+
+| Field | Evidence / qualification |
+|---|---|
+| Display / language-revision conflict | Spanish p46 calls the24×2-character display **LED**;English p46 says **LCD**. Preserve the disagreement;no new color,touch ordiagonal specification established. |
+| Dimensions / repeated unit disagreement | Spanish p46 repeats **284×89×267mm** alongside **11.2×3.5×10.25in**. The final pair is not an exact conversion;this corroborates the printed discrepancy without resolving axis order orreplacing267mm with a calculated value. |
+| I/O / analog specifications | Line impedance **21kΩ balanced/13kΩ unbalanced**;outputs **40Ω**. Maximum balanced/unbalanced output **+20/+14dBu into1200Ω**;selectable output ranges **20/14/8/2dBu**. Output dynamic range **>104dB,20Hz–20kHz**. These are operating/electrical limits,not device current draw oradditional processing choices. Spanish p46. |
+
+### NOVA System — firmware 1.2 qualifications
+
+Checked 2026-10-18 against [manufacturer 1.2 release/install notes][NOVA-FW12],indexed original text;direct PDF returned502. Changes explicitly compare with1.13. This firmware1.2 isdistinct from owner-manual revision1.2 describingSW1.10. No installer downloaded orupdate performed.
+
+| Field | Evidence / qualification |
+|---|---|
+| Memory / restore defect fixed | Firmware1.2 fixes inability torestore saved **system anduser-bank MIDI dumps** (TT471). Documented dump creation in the older manual therefore doesnot prove reliable restore onearlier firmware. Installed version andactual backup/restore operation remain untested. |
+| MIDI / clock and tap restriction | Fixes delay/modulation MIDI-tempo sync (TT604). **Tap tempo isdisabled while synced toMIDI clock**;tempo-dependent displayed parameters now update with MIDI tempo. System-dump reception **ignores SysEx ID**,so the general identification setting isnot a filter forthat transfer. |
+| Expression / preset recall defect | Fixes physical pedal position not being read atpreset change in **Master:Pedal** mode (TT465). Earlier manual describes intended operation;correct behavior should not be assumed forunverified older firmware. |
+| Processing / other fixes | Notes also fix intelligent-harmony scale changes not applying immediately,incorrect Factory Default behavior forsome subtypes,dynamic-delay L/R level mismatch andtuner exit requiring twopresses. These fixes qualify earlier feature descriptions without establishing new algorithms orhigher concurrency. |
+
+### NOVA System — expression-volume capability audit
+
+Checked2026-10-19; partial, original revision1.2/SW1.10 manual body on mirror, not generated FAQ.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / default versus global scope | Volume is the default pedal target. Pedal menu mixes global and preset parameters, distinguished by display **p**; extracted text does not identify the mapping’s marker. **Across-preset assignment remains unverified**; Master:Pedal only establishes position recall. [Manual][NOVA-M] pp14,16–17 |
+| Expression / range and wiring | Volume−100–0dB; response Min/Mid/Max0–100%. TS orTRS depends on controller; one cable, not universal pinout compatibility. [Manual][NOVA-M] |
+| Live / onboard navigation | MOD/PITCH select banks after hold; three switches select presets. This is bank navigation plus slot selection, not dedicated previous/next-preset switches. [Manual][NOVA-M] p19 |
+| Expression / remaining | Built-in-treadle absence still needs panel corroboration; no dedicated headphones in recorded connector inventory. Bypass/looper coverage unknown. Existing Pre/Post, firmware1.2 recall fix and dimension conflict retained. No qualified new Shopee offer found; no download or operation. |
+<!-- comparison evidence ends -->
+
+[NOVA-M]: https://manualzz.com/doc/7256177/tc-electronic-nova-system-guitar-and-bass-owner-s-manual
+
+Official original endpoints retained forprovenance: https://service-tcgroup.tcelectronic.com/media/Nova_Sys_US.pdf (502); https://mediadl.musictribe.com/download/software/tcelectronic/tc_electronic_nova_system_manual_english.pdf (inaccessible). No package/file downloaded ordevice/software operated.
+
+[NOVA-SP]: https://service-tcgroup.tcelectronic.com/media/Nova_Sys_SP.pdf
+
+[NOVA-FW12]: https://service-tcgroup.tcelectronic.com/media/novasystem-1_2-installation-guide.pdf
+
+## PLETHORA X1 — partial discovery lead
+
+Checked **2026-10-31**. Exact **0709-AJN**, manufacturer-described multi-effects TonePrint loader. **Partial discovery, outside active counts and ALL-instrument rows**, pending a full profile and qualified Indonesian hardware evidence. X1 Neo, X3 and X5 specifications are separate.
+
+[Current manufacturer product](https://tcelectronic.com/en/products/0709-AJN) lists 14 TonePrint pedals, firmware **1.1.13**, and TonePrint **4.7.2 for Windows/macOS**. Mobile Bluetooth editing names iOS/Android; host minima and driver/audio roles remain unverified. Stored TonePrints persist after power-off.
+
+[Manufacturer manual](https://cdn-media.empowertribe.com/209f2ffd656a4bedaf2ee9da6a24aeba/FACE-PRIN-PH1_M_TE_0709-AJN_PLETHORA-X1_A4_WW_2023-10-18_Rev-0.pdf), filename 2023-10-18 Rev0, 18 PDF pages; English printed pp6–9 and specifications PDF p15 inspected as text. No download or visual panel inspection.
+
+| Field | Partial exact-model evidence / boundary |
+|---|---|
+| Controls / expression | Three parameter knobs plus BOARD SELECTOR knob; one MASH footswitch, one CONNECT button and separate two-way toggle. No treadle in inventory. MASH pressure expression is not an analog external pedal. Visual corroboration pending. |
+| Display | Shows effect, bypass, parameter values, MASH/RAMP animation and BPM. Manufacturer says DISPLAY; LCD/OLED, diagonal, color, touch and placement remain unverified. |
+| Body / footprint | **74 W ×122 D ×50 H mm**, from labelled H×W×D 50×74×122 mm; fits the 200 W ×140 D preference. Regional 0.34 kg evidence appears below; direct manufacturer mass corroboration remains open. |
+| I/O | Two quarter-inch TS inputs, **1 MΩ**; two quarter-inch TS outputs, USB-C, DC. Ordinary guitar uses MONO input. No EXP, headphone or DIN MIDI socket in published inventory; USB audio/MIDI unknown. |
+| Power | **9 V DC centre-negative, ≥250 mA supply**, 5.5/2.1 mm; adapter not included. Not measured draw; USB/battery operation unresolved. |
+| Memory / processing | Factory table lists **seven Boards ×A/B slots**. A/B switches slots; not 14 simultaneous effects. Current type census, factory revision and concurrency remain unverified. |
+| Live | True/buffered bypass; tap tempo, RAMP and MASH secondary functions. Global expression volume, endpoints, recall and headphone/tail/loop coverage unverified. |
+| Remaining | IR/native NAM/converted NAM/capture, synth/acoustic, looper/drums, current library, screen proof and qualified offers require research. Unknown is not No. |
+
+**Separate IDR hardware evidence:** new and used unknown. Exact Shopee Indonesia searches recovered no qualified item. [Thai Shopee item119771659/54057670117](https://shopee.co.th/เอฟเฟคกีตาร์-TC-Electronic-Plethora-X1-i.119771659.54057670117) is a different market/currency/shipping region; excluded from IDR prices. Search absence does not prove Indonesian unavailability. No currency conversion, installation or hardware test.
+
+### PLETHORA X1 — own firmware history and regional display evidence
+
+Checked **2026-10-31**. [Manufacturer X1 release history](https://cdn.mediavalet.com/aunsw/musictribe/x6V1AUccUUSzVlP2KP1YSw/FInC2ZKrfEe8aq54ZW3wUA/Original/Plethora_X1_Release_notes_FW_v1_1_13.pdf), exact X1 title and TC Electronic footer; original text read remotely. No updater, app or firmware downloaded or run.
+
+| Field | Revision-qualified finding |
+|---|---|
+| Processing / firmware1.1.13 | **March23,2025** adds Infinite Sample Sustainer for holding notes/chords. Requires **TonePrint4.6.18 plus refreshed app content**. It omits the standalone Infinite pedal’s reverb section and Kill Dry; some TonePrints therefore sound different. This is sustainer-specific, not a blanket claim about every X1 effect. |
+| Firmware / historical fixes | **1.0.29,January24,2025** fixes mobile connectivity. **1.0.31,February5,2025** fixes rare startup in “front test” after1.0.29. These are dated fixes, not a guarantee of current host compatibility. |
+
+[ELECTORI’s exact white-X1 page](https://www.electori.co.jp/tc-electronic/product.php?id=plethora-x1), checked separately, supplies regional evidence below. It is distributor documentation; manufacturer certification and installed contents remain unverified.
+
+| Field | Regional evidence / remaining boundary |
+|---|---|
+| Display / regional specification | Explicit **1-inch IPS LCD**. Primary manual still says DISPLAY; primary technology/diagonal corroboration, color/touch and physical placement remain open. No dimensions estimated from photos. |
+| Categories / regional1.1.13 list | **16 named types:** Hall of Fame2, Flashback2, Corona, Brainwaves, Quintessence, Infinite, Pipeline, Sentry, HyperGravity, Viscous Vibe, Helix, Shaker, Sub’N’Up, Vortex, Alter Ego and Mimiq. The same page retains a14-effect feature bullet; current manufacturer copy also says14. Do not call16 a reconciled primary census or infer16 simultaneous blocks. |
+| Body / regional mass and battery | **0.34kg; battery operation expressly unavailable**. Own-manual dimensions remain separate; no measured mass, USB-power result or current-draw measurement. |
+
+Partial status and397 active records unchanged. Exact Indonesian offer discovery and full profile verification remain required.
+
+### PLETHORA X1 Neo — manufacturer-confirmed finish variant
+
+Checked **2026-10-31**. [Exact manufacturer0709-AMO page](https://www.tcelectronic.com/id/products/0709-AMO),search-indexed yesterday;direct fetch cache miss. Manufacturer explicitly describes the **same X1 in a black finish**,retaining14 effects andone-switch operation. Preserve the Neo identifier andexact sources here,without adding another active model orborrowing sibling offer prices.
+
+| Field | Neo-specific evidence / boundary |
+|---|---|
+| Display / controls | Own page expressly specifies **1-inch IPS LCD**,one MASH footswitch andthree universal parameter knobs. Screen shows type/parameters. Color,touch,exact screen-to-switch placement andcomplete rotary/button count remain unverified;three is not a complete control census. |
+| Memory / software | Own page: **seven boards ×two slots =14 stored TonePrints**,A/B selection by holding the footswitch. Not14 simultaneous blocks. Seven named factory types;not proof of every slot’s occupancy. Firmware1.1.13 andTonePrint4.7.2 Windows/macOS listed;current device installation untested. |
+| I/O / expression | Own page confirms stereo I/O,USB/Bluetooth editing,MASH andanalog dry-through,true/buffered bypass. MASH is not direct analog external expression;complete socket inventory,USB audio/power/MIDI andglobal volume scope need exact documentation. |
+
+[Exact ELECTORI Neo page](https://www.electori.co.jp/tc-electronic/product.php?id=plethora-x1-neo),direct text checked separately,qualifies regional evidence:
+
+| Field | Regional evidence / conflict |
+|---|---|
+| Body / power | **74W×122D×50Hmm;0.34kg**;fits preferred footprint. Regional9V centre-negative250mA,5.5/2.1mm,adapter separate;**battery unavailable**. Supply requirement versus measured draw remains unresolved. |
+| Categories / revision | Regional heading andenumerated list give **16 types**,including Infinite andAlter Ego;the same page retains14 inits feature bullet. Own manufacturer says14. Preserve discrepancy;not a reconciled installed census or16 concurrent effects. |
+| Expression / modes | Regional MASH mapping reaches **three parameters simultaneously**. Its seven mode names include MOMENTARY+MASH;not seven physical switches orproof of across-preset external volume. |
+
+**Separate new/used IDR offers:unknown.** Exact Shopee Indonesia Neo/0709-AMO searches yielded no qualified item;NEO MUSIC listings are X3/X5 sold by that shop,not X1 Neo hardware. No currency conversion,download,device operation orvisual inspection. Partial X1 status and397 active records unchanged.
+
+
+### PLETHORA X1 Neo — supplemental Indonesian retailer ask
+
+Checked **2026-11-01**. [Nafiri Guitar’s effects catalogue](https://nafiriguitar.com/collections/effect-pedals) lists **“TC Electronic Plethora X1 Neo TonePrint Multi-effects Pedal in Black” at Rp2.510.000** and links to an [exact Neo product URL](https://nafiriguitar.com/products/tc-electronic-plethora-x1-neo-toneprint-multi-effects-pedal-in-black). The catalogue was readable; the item page returned cache miss. Its country/currency selector is Indonesia/IDR.
+
+This is a **non-Shopee, condition-unverified catalogue ask** for the black finish. The visible card has no sold-out marker, but that does not prove stock or checkout availability. The catalogue-wide in/out-of-stock counts cannot establish this item’s status. Exact product/variant ID, new/used condition, working state, firmware, adapter and bundle contents, warranty, voucher eligibility, shipping/tax and delivered total remain unknown. No discount is inferred from repeated identical price text.
+
+Keep this observation separate from the original white X1 and from NEO MUSIC, which is a seller name on unrelated X3/X5 listings. Earlier absence of qualified Shopee Neo offers remains unresolved. This does not qualify a new/used market range, establish LCD placement or admit another active model. No checkout, seller contact, local download or hardware operation.
+
+### PLETHORA X1 — direct manufacturer bypass and control scope
+
+Checked **2026-11-01**, [exact manufacturer0709-AJN page](https://www.tcelectronic.com/en/products/0709-AJN),direct original text.
+
+| Field | Primary evidence / remaining boundary |
+|---|---|
+| Live / bypass anddry path | **Buffered Bypass enables reverb trails anddelay spillover**;True Bypass isolates the guitar signal. **Kill-dry removes the direct signal forparallel-loop use**. This does not certify trails across A/B changes,power-failure operation oruniform Kill Dry support in every algorithm;Infinite’s documented exception remains above. |
+| Controls / expression versus switching | MASH uses pressure,with LED brightness following pressure;A/B toggles two effects orTonePrints. Tap tempo is named forFlashback2,Vintage Echo andPipeline. These are alternative control functions,not a direct analog external expression input or14 simultaneous effects. |
+
+The page still lists firmware1.1.13 andTonePrint4.7.2. Its current retrieved text does not identify LCD technology;preserve the independently qualified regional1-inch IPS LCD andNeo-specific primary evidence. No new IDR offer,inventory admission,local download ordevice operation.
+
+### PLETHORA X1 — regional factory-slot occupancy and library conflict
+
+Checked **2026-11-01**, [ELECTORI X1 manual](https://electori.co.jp/tcelectronic/pdf/PLETHORA_X1_manual_jp.pdf),sevenPDFpages,©2025;exactX1cover andnumbered controls match the recorded model. Distributor-authored,not a manufacturer revision certificate;no firmware version printed.
+
+| Field | Regional document finding / boundary |
+|---|---|
+| Memory / documented factory filling | Printedp5 has **seven Board rows,two named A/B TonePrints each:14 occupied slots**. First pair:Hall ofFame2/Mimiq;last pair:Sub’N’Up/Helix. This is the manual’s factory map,not current-unit contents,protected memory,14simultaneous effects ora firmware-independent reset guarantee. |
+| Categories / internal count conflict | Printedp3 enumerates **15 named effect types**,including **Alter Ego**,but **not Infinite**,under14-effect wording. Preserve this separately from the later regional1.1.13 webpage’s16-type list andmanufacturer14 headline;no reconciled current census inferred. |
+
+The manual calls the display LCD butdoesnot independently specify IPS,diagonal,color,touch orper-switch placement. Its reset instructions erase slot effects,TonePrints andfootswitch settings;no reset performed. Partial lead remains outside active counts. No local download ordevice operation.
+
+### PLETHORA X1 — manufacturer-authored V2 factory map and display pickup
+
+Checked2026-11-01 in the [manufacturer-authored Quick Start Guide reproduced by Suono Store](https://shop.suonostore.com/wp-content/uploads/2024/12/GUIDA-RAPIDA-TC-ELECTRONIC-PLETHORA-X1-TONEPRINT-PEDALE-MULTIEFFETTO-PER-CHITARRA.pdf), **V2.0,©2024,17 PDF pages**, English printed pp6–8. Exact X1 title, numbered controls, sockets and factory table identify the document. This differs from the separately retained18-page Rev0 manual; byte/revision equivalence is not claimed. Manufacturer CDN originals were inaccessible; original document text only, not retailer instructions or generated FAQs.
+
+| Field | Revision-qualified evidence / limit |
+|---|---|
+| Memory / manufacturer factory map | Seven Board rows each name A/B factory TonePrints: **14 documented occupied slots**. This corroborates the regional factory map as a manufacturer-authored historical configuration, not current-unit contents, protected factory banks or simultaneous effects. The table labels include “Mimic Doubler” and “Shaker Tremolo”; retain those literal labels without inventing different algorithms. |
+| Display / parameter pickup | With global Parameter Pick-up ON, shared A/B/C knobs must reach a saved value before changing it; the display indicates the pickup position. OFF gives direct knob-position behavior. This is rotary-control handling, not analog external-pedal recall, global volume or screen-technology proof. |
+| Editor / connection scope | Only **one host device** may connect over USB or Bluetooth at a time. This does not establish USB audio, USB power or a second simultaneous editor connection. |
+
+The guide still says DISPLAY without certifying LCD/OLED, IPS, diagonal, color, touch or exact physical screen-to-switch placement. X1 remains a partial lead outside active counts. No local download, device operation or visual inspection.
+
+## PLETHORA X3
+
+Checked 2026-10-17; partial. Guitar multi-effects; bass/vocal suitability and ownership unverified.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | No built-in treadle; **three pressure-sensitive MASH footswitches** provide assignable expression. External EXP socket absent from complete specification connector list; toe separate unresolved. | [Product][PX3-P]; [QSG p23][PX3-M] |
+| K/F/B | **5 rotary /3 footswitches /0 separate buttons** from complete textual control inventory:Effect,TonePrint,three parameter knobs;three MASH. Play/Edit and Board selector switches separate;push encoders counted once. Earlier button uncertainty resolved by inventory,not visual inspection. | [QSG controls/specifications][PX3-M];[original V0.0 copy pp18–19,63][PX3-QM] |
+| Display | **Three LCD slot displays**, corresponding to the three effect footswitches. PLAY shows each slot’s active effect; EDIT uses them for pedal/TonePrint lists and parameter settings. Diagonal/color/touch unresolved. Own V0.0 guide, printed18–19, reopened2026-10-29; text evidence, not visual inspection. | [Manufacturer-authored guide][PX3-QM] |
+| Processing / categories | **Three effect slots**, flexible order; numerical DSP restrictions pending. Product snapshot checked2026-10-17 lists Phaser, Vibe, Looper, Reverb, Delay, Octaver, Pitch Shifter, Chorus, Compressor, Doubler, Flanger, Tremolo, Harmony, Gate, Vibrato, Vintage Echo. Later own-applicable additions and count basis below;complete latest library unverified. | [Product][PX3-P] |
+| Categories / documented choice counts | Historical product snapshot lists **16**:modulation6,pitch/octave/harmony3,delay2,and reverb/compression/doubler/gate/looper1 each. **1.5.6 adds Infinite Sample Sustainer**,giving17 known effects;Tap/Tuner utility separate. Derived union,not a certified complete newest library. | [Own product][PX3-P];[Shared release notes][PX3-F156] |
+| Categories / Infinite restriction | Firmware**1.5.6,2025-03-23** sustainer holds notes/chords but omits standalone Infinite’s reverb and Kill Dry;reverb needs another slot. Sample sustain does not establish an oscillator synth. | [Shared release notes][PX3-F156] |
+| Editor / newer effect requirement | Infinite editing needs **TonePrint4.6.18 and refreshed content**. Earlier4.2+ guide requirement is not enough for this later effect. Installed versions/currentOS support unverified. | [Shared release notes][PX3-F156] |
+| Live / newer footswitch modes | **1.5.6 adds momentary and momentary+MASH**;effect engages while held. Second-foot-function None renamed Latching. | [Shared release notes][PX3-F156] |
+| Live / tempo synchronization | **1.4.3,2023-10-19** adds opt-in per-slot Tempo Sync,MIDI clock,and Tap/Tuner utility. Slot modifiers temporarily override tempo before returning to global;see [scope](#plethora-x3--tempo-sync-opt-in-and-temporary-overrides). MIDI expression explicitly works without an analog EXP socket. | [Original release-history conversion][PX3-FM] |
+| Memory / restore points | **1.4.3** supports restore-point create/apply/export/import;apply/import replaces user TonePrints,Boards/settings **and firmware version**. Import also replaces local restore point. Not an IR loader. | [Original release-history conversion][PX3-FM] |
+| Live / saving exception | EDIT-mode parameter changes auto-save. **PLAY-mode HOT KNOB tweaks do not auto-save** and serve live adjustment only. This qualifies the product’s broad auto-save statement. HOT KNOBZ are assigned in Board settings. | [QSG pp18–19][PX3-M] |
+| Controls / push encoders | EFFECT and TONEPRINT both have documented press actions; TonePrint hold opens UniTune, press again or any footswitch exits. These presses belong to the rotary encoders, not extra separate buttons. PLAY/EDIT and BOARD remain selector switches. | [QSG pp18–19][PX3-M] |
+| Live / secondary footswitch functions | PLAY-mode hold can invoke **MASH, RAMP or TAP TEMPO**, configured per Board. MIDI In/Thru can remotely control switches, Board changes and effect parameters. USB Mini-B connects TonePrint App on computer/mobile and performs firmware updates; this is not USB audio/power proof. | [QSG pp18–19][PX3-M] |
+| Expression / MIDI control | Shared official X5/X3 table maps **CC100 Global Expression**, CC107–109 Hot Knobs; slots1–3 MASH on CC70/75/80 (**0 Off;1–127→0–100%**) and expression modifiers CC71/76/81 (**0–127→0–100%**). Slot parameter triplets are **CC67–69,72–74,77–79**,each0–127→0–100%. MIDI expression is distinct from a dedicated analog EXP socket or toe switch. | [Official MIDI CC table][PX3-C] |
+| MIDI / exact tap, tuner and slot-switch ranges | [Manufacturer X5/X3 MIDI table](https://cdn-media.empowertribe.com/c4ab468ba07f481080559bfc432c679c/PX5_3_MIDI_CC_table.pdf), checked **2026-11-01**: **CC92 Global Tap Tempo: 0 inactive, 1–127 tap**. **CC93 Tuner: 0–63 off, 64–127 on**. **CC102/103/104 switch slots1/2/3 off at0–63 and on at64–127**. The high/low on/off split must not be substituted for tap tempo’s nonzero trigger rule. CC105/106 address X5-only slots, not additional X3 slots. These messages do not establish physical footswitch mappings, whole-unit relay-bypass behavior, analog expression support or universal volume attenuation. | Original one-page manufacturer table; no MIDI sent or device tested. |
+| Live / MIDI looper | CC110 Record,111 Play,112 Clear,113 Pause; values0–24 target slot1,25–50 slot2,51–76 slot3. Table marks slots4–5 **X5-only**. CC92 tap,93 tuner,94/95 Board down/up. This proves X3 looper command support, not recording duration. | [Official MIDI CC table][PX3-C] |
+| Processing / published latency | **0.8–2.4ms** in own-model specification table. Not a fixed value for every Board,measured result or Board-change/loading time. | [QSG p23][PX3-M];[original copy p63][PX3-QM] |
+| Editor / Bluetooth operating limits | **4.2 Low Energy,2.402–2.48GHz,40 RF channels,8dBm**;range≤10m measured in open space,obstacles reduce it. RF channels are not audio channels;audio streaming remains unverified. | [Original QSG copy p63][PX3-QM] |
+| Preset memory | **Up to127 boards;75 TonePrint slots per effect**; separate from three simultaneous slots. EDIT settings auto-save; PLAY HOT KNOB tweaks do not. Manufacturer factory-filled subset unresolved;[independent2022 review reports Boards1–28](#plethora-x3--independent-historical-board-navigation-and-factory-subset). | [Product][PX3-P] |
+| Synth / acoustic | Dedicated synth/acoustic conversion unresolved; octave/pitch/harmony do not establish these. | Unresolved |
+| I/O | Two unbalanced quarter-inch TS inputs (**1MΩ**), two unbalanced TS outputs; MIDI In/Thru five-pin DIN; Mini-B USB; DC input. USB audio/power unverified. | [QSG p23][PX3-M] |
+| Power / battery / USB | **9V DC center-negative**,5.5/2.1mm; guide specifies **>600mA included supply**. Actual draw/battery/USB power unresolved. | [QSG p23][PX3-M] |
+| Dimensions / mass | **56.02H ×176.53W ×116.75D mm;0.775kg**. | [QSG p23][PX3-M] |
+| IR / NAM / capture | End-of-chain cabinet simulation documented; user IR, native/converted NAM and capture loading unresolved. | [Product][PX3-P] |
+| Editor / desktop versus mobile functions | Exact X3 V0.0 guide explicitly offers the **desktop TonePrint App with full library and TonePrint Editor**, connected by USB. Its mobile app likewise provides library/editor access via Apple/Google stores. Desktop OS versions, architecture and current compatibility remain unknown; this is not merely a firmware updater. | [Own guide copy, printed p21][PX3-QM] |
+| Expression / multi-parameter mappings | The guide permits **up to three parameters per knob or MASH control** through TonePrint Editor. Its generic EXP wording does not add a physical EXP socket absent from the X3 connector list; MIDI expression remains separately documented. Mapped parameters are not extra simultaneous audio blocks. | [Own guide copy, printed p21][PX3-QM] |
+| Editor / dated Apple OS minimum | Developer listing explicitly names **Plethora X3** Bluetooth editing and requires **iOS16.0 /iPadOS16.0 or later**. Listed TonePrint version **4.6.18**, released **2025-04-01**, adds Infinite support subject to pedal firmware. Checked2026-10-18 in US/Indonesia storefronts; this is the listed app requirement, not an older-version or every-device guarantee. | [TC/MUSIC Tribe App Store listing](https://apps.apple.com/id/app/toneprint/id432767616);[US listing](https://apps.apple.com/us/app/toneprint/id432767616) |
+| Editor / application identity | Android TonePrint is **com.tcelectronic.toneprint**; its listing shows update2025-03-26. The separate **TC app,com.tcelectronic.tcapp**, explicitly excludes TonePrint-generation products and must not replace TonePrint in this record. Android minimum OS and desktop compatibility remain unverified. | [Developer TonePrint listing](https://play.google.com/store/apps/details?hl=en&id=com.tcelectronic.toneprint);[Separate TC listing](https://play.google.com/store/apps/details?hl=en&id=com.tcelectronic.tcapp) |
+| Editor / platforms | TonePrint mobile app **4.2+**, Apple/Google app stores, Bluetooth pairing; only one USB/Bluetooth device connection at once. Editor supports customization, exact desktop OS compatibility pending. Bluetooth4.2LE; audio streaming not established. | [Product][PX3-P]; [QSG pp22–23][PX3-M] |
+| Live / routing | Tape Deck Looper, UniTune tuner, Quick Swap order changes, selectable left/right signal direction, cab sim and MASH mappings. Loop duration/drums/scenes pending. | [Product][PX3-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | No condition-confirmed Shopee offer. Supplemental cached Carousell used listing is qualified below;the earlier2026-10-17 no-offer observation is superseded only for that separate marketplace. | — |
+| New | No condition-confirmed offer. | — |
+| Unverified condition | **Rp6.180.000**, NEO MUSIC, shop158235298/item28021818540,Kota Sukabumi; three-month crawl, July2 arrival text. | [Item1][PX3-O1] |
+| Unverified condition | **Rp7.508.100**, Gelora Musik Serpong,shop306155985/item23943061836,Kab.Tangerang; five-month crawl, delivery unavailable. | [Item2][PX3-O2] |
+
+
+### PLETHORA X3 — bypass specification and named base inventory
+
+Checked2026-10-18.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / bypass specification | Own-model quick guide V0.0,printedp63,lists **True Bypass**. This is a manufacturer specification,not a measured bypass test orproof of trails/power-failure behavior. [Manufacturer-authored copy][PX3-QM] |
+| Category choices / exact base names16 | HELIX PHASER;VISCOUS VIBE;TAPE DECK LOOPER;HALL OF FAME2 REVERB;FLASHBACK2 DELAY;SUB N UP OCTAVER;BRAINWAVES PITCH SHIFTER;CORONA CHORUS;HYPERGRAVITY COMPRESSOR;MIMIQ DOUBLER;VORTEX FLANGER;PIPELINE TAP TREMOLO;QUINTESSENCE HARMONY;SENTRY NOISE GATE;SHAKER VIBRATO;ALTER EGO VINTAGE ECHO. These are the saved2026-10-17 own-model product snapshot’s16base entries already counted above,not16simultaneous effects;laterInfinite addition remains separate. [Exact manufacturer product][PX3-P] |
+
+### PLETHORA X3 — factory content and Board operations, 2026-10-18
+
+[Own V0.0 quick guide, printed pp18–21][PX3-QM]; manufacturer-authored text, no software or device operation.
+
+| Field | Documented scope / qualification |
+|---|---|
+| Memory / initial TonePrint content | The guide explicitly says **a selection of TonePrints is pre-installed**. It gives no filled-slot count and does not say all75 slots per effect or127 Board locations are factory-filled. TonePrint assignments include parameter values and knob/MASH mappings; they are not extra simultaneous effects. |
+| Memory / Board management | In EDIT, BOARD UP opens **CREATE/DUPLICATE**; BOARD DOWN presents **DELETE/CLEAR** for the current Board. This confirms management functions, without assigning an undocumented difference between Delete and Clear or adding memory capacity. |
+| I/O / mono connection | For mono operation use only each pair’s **MONO input and MONO output**; both TS jacks provide stereo connections when used together. This does not establish a dedicated headphone output or balanced TRS operation. |
+
+
+### PLETHORA X3 — restored primary documents and current listing, 2026-10-31
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / current desktop listing | [Current exact-model page](https://www.tcelectronic.com/en/products/0709-AIS) lists **TonePrint4.7.2 for Windows/macOS**. Listed availability does not establish OS minima or tested compatibility. Its firmware list heads **1.4.3**,with1.3.11 previous;preserve the separate manufacturer1.5.6 release notes above. Omission does not prove withdrawal,unsupported hardware or a downgrade recommendation. |
+| Display / original primary source restored | The page now links [manufacturer-hosted X3 guide](https://cdn-media.empowertribe.com/a7147f29903640918cc9bc9fc6e097dc/QSG_TE_0709-AIS_PLETHORA-X3_WW.pdf),**V0.0,©2022,35PDFpages**;printed18–19 independently confirms the existing LCD slot/PLAY/EDIT description. This is the same original revision,not proof of a newer V1.0 guide. Old mirror and failed endpoints retained. |
+| Expression / exact MIDI range | [Newly linked official X5/X3 table](https://cdn-media.empowertribe.com/c4ab468ba07f481080559bfc432c679c/PX5_3_MIDI_CC_table.pdf) prints **CC100:0–125→0–100%**,unlike adjacent0–127 mappings. Preserve this unusual range;126/127 behavior unverified. CC94/95 trigger Board down/up at64–127,0–63 inactive. MIDI expression still does not establish direct analog EXP or global master-volume assignment. |
+
+No local files downloaded,software installed or hardware tested.
+
+### PLETHORA X3 — current page versus historical inventory
+
+Checked **2026-10-31**,[current exact-model manufacturer page][PX3-P]. It still specifies **127 Boards,75 TonePrints per pedal**,but no longer enumerates the saved16base effect names. Keep those names and the separate1.5.6 Infinite addition as dated evidence;do not certify a complete current17-effect library. The page calls Tape Deck Looper X3-exclusive,while own X5 history documents it there too;this wording is not proof of X5 removal or a different algorithm.
+
+Its technical table independently corroborates **True Bypass,1MΩ inputs,Mini-B USB,176.53W×116.75D×56.02Hmm and0.775kg**. No newly established analogEXP,phones or looper-duration specification follows.
+
+Exact Shopee recheck:NEO item158235298/28021818540 remainsRp6.180.000,four-month cache;Gelora306155985/23943061836 remainsRp7.508.100,six-month cache andservice unavailable. No new condition/stock or checkout verification;older observations retained.
+
+### PLETHORA X3 — V1.0 guide and slot indicators
+
+Checked **2026-10-31** in [manufacturer-authored V1.0 guide reproduction](https://manuals.plus/m/d41acf9318fa84fe8b55db29394cc4ac6e7b6acc088d45f7bc1b4a3be0dd45db),printedpp18–23. Exact X3 cover,13 numbered controls,127Board/75TonePrint architecture,connector list and176.53W×116.75Dmm specifications match the earlier manufacturer guide;original text only,not generated summaries. Host pagination differs from printed numbering.
+
+| Field | Revision-qualified evidence / limits |
+|---|---|
+| Display / LCD versus LEDs | V1.0 explicitly names LCD displays with separate indicator LEDs. In EDIT,the LED identifies the selected slot:flashing means bypassed,solid means engaged. In PLAY,it indicates effect on/off or secondary-function status such as tap tempo. These are LED behaviors,not proof of color LCDs. |
+| Controls / mode dependence | EFFECT knob has no PLAY function;PARAMETER knobs require Board HOT KNOBZ assignment there. EDIT changes auto-save,PLAY HOT KNOB tweaks do not. These corroborate the earlier exception;no extra knobs/screens are added. |
+
+This supplements the earlier inaccessible-V1.0 observation;it does not establish all V0.0/V1.0 differences,current firmware equivalence,looper duration oranalog EXP. The40s stereo/80s mono release-note entry belongs to historical **PX5-only1.2.18**,not independent X3 evidence. No download ordevice test.
+
+
+### PLETHORA X3 — Tempo Sync opt-in and temporary overrides
+
+Checked **2026-10-31** against the [manufacturer release-history reproduction][PX3-FM],1.4.3 section explicitly coveringPX5/PX3. Original conversion,not host FAQ;current manufacturer PDF retrieval failed.
+
+| Field | Revision-qualified evidence / limit |
+|---|---|
+| Live / tempo scope | Enable Tempo Sync **for each desired slot** under SETTING > BOARD > TEMPO SYNC. Global changes update enabled slots;not every slot automatically. Sources are a synchronized slot’s secondary tap function,Tap/Tuner,MIDI CC tap orMIDI clock. |
+| Live / temporary override | Knobs,HotKnobz,MASH or expression can temporarily change a synchronized slot’s tempo;it subsequently returns to global. The notes give no numeric timeout. This is tempo synchronization,not global volume assignment. |
+
+Older1.2.18 dual-press Board navigation is labeledPX5-only;it does not close X3’s onboard foot-operated navigation gap. No download or device test.
+
+### PLETHORA X3 — revision-qualified live-control fixes
+
+Checked **2026-10-31**,[original manufacturer release-history PDF reproduction](https://manuals.plus/m/fab495897f61212f13d7fd3403d4a371bcb2d147dc9c72fd72db55684cdb91f7.pdf),PDFpp2,4–7. Title,dates andexplicitPX5/PX3 headings match the preserved own-hosted release text;olderPX5-only sections excluded.
+
+| Field | Documented fix / boundary |
+|---|---|
+| Live /1.5.6 reliability | **March23,2025:** fixes freezes during tap tempo orloading Boards with too many TempoSync-enabled slots,unwanted tuner-mode LED blinking,andintermittent reverb failure. No exact failing-slot threshold is published;do not infer a two-slot limit. |
+| MIDI /1.4.3 timing | **October19,2023:** fixes MIDI CCs being discarded immediately after a Board change,andcrashes from vigorous HOT KNOBZ adjustment when mapped to multiple delay times with tap enabled. These fixes do not establish zero switching latency orglobal-volume scope. |
+
+Installed behavior untested. Current X3 product listing still heads1.4.3 while the preserved manufacturer history includes1.5.6;no downgrade recommendation. Desktop OS minima remain unresolved. No local download,installation ordevice operation.
+
+
+### PLETHORA X3 — supplemental Indonesian used hardware offer
+
+Checked **2026-10-31**. Fresh Shopee searches reproduced the existing NEO MUSIC listing rather than establishing a new condition-qualified offer. This separate marketplace observation does not resolve Shopee stock orused pricing.
+
+| Field | Asking-price evidence / qualification |
+|---|---|
+| Used IDR / Carousell cached offer (checked 2026-10-31) | [Carousell item1346874212,seller@m_r_farhan](https://id.carousell.com/p/tc-electronic-plethora-x3-multi-effects-n-strymon-jhs-boss-keeley-gfi-electro-harmonix-1346874212/),Manggarai. Heading **Rp4.999.000**;description instead asks **Rp4.500.000 direct transfer /Rp5.000.000 intermediary payment**. Preserve the mismatch andpayment basis;no single current price inferred. Seller marks like-new/second lightly-used,claims normal/original,andlists **unit+box+adapter**,with cosmetic wear. These are seller claims,not inspection orauthenticity verification. Three-month search cache says posted one year earlier;direct reader cache miss. Live stock,working condition,firmware,revision,shipping,tax,warranty anddelivered total unknown;no voucher ordiscount applied. **Non-Shopee supplemental evidence**,not a completed sale orcheckout quote. |
+
+No seller contacted,purchase initiated,download orhardware operation. Earlier Shopee asks andtheir access/condition limits remain unchanged.
+
+### PLETHORA X3 — MIDI parameter and MASH value boundaries
+
+Checked **2026-11-01** against the one-page [manufacturer X5/X3 MIDI table](https://cdn-media.empowertribe.com/c4ab468ba07f481080559bfc432c679c/PX5_3_MIDI_CC_table.pdf), recovered through the exact X3 regional product page. Slots1–3 parameter knobs use CC67–69,72–74 and77–79 respectively; each maps0–127 to0–100%. MASH uses CC70/75/80 with **0 explicitly Off**, and1–127 mapped to0–100%. The separate expression modifiers CC71/76/81 use0–127. These are normalized MIDI mappings, not physical pressure calibration or a global master-volume target. Values for slots4–5 are explicitly X5-only. Preserve the previously documented unusual CC100 maximum125; do not normalize it to127. No device operation or local download.
+
+### PLETHORA X3 — own-model buffered-bypass delay trails
+
+Checked **2026-11-01** in the [manufacturer-authored X3 release-note reproduction](https://device.report/m/b58c0f8548c8e41483b625e48bd30dcf751d08036660e186e2e6fa3445d37736),one page,heading **1.3.11,26 May2022**,TC guitar-team signoff and Music Tribe copyright. Original extracted text opened;direct PDF rendering failed. This is separate from the shared history’s **March3 PX5-only** entry.
+
+For Flashback II and Alter Ego,the notes say1.3.6 capped feedback at80% when disengaged in **buffered bypass**;1.3.11 respects higher feedback settings and permits self-oscillating bypass trails. Thus X3-specific historical documentation establishes a buffered-bypass context alongside the product’s True Bypass specification. It does not establish the full mode menu,current defaults,power-failure behavior,Board-change spillover,looper continuity orglobal expression-volume coverage.
+
+The notes also fix PLAY/EDIT switching slowdown and improve heavy-load Board-change stability;no numerical loading-time guarantee follows. TonePrint4.5.5+ is the historical companion requirement,not a replacement for later Infinite requirements. Installed behavior remains untested. No downloads,update ordevice operation.
+
+### PLETHORA X3 — independent historical Board navigation and factory subset
+
+Checked **2026-11-01** in [Haiko Heinz’s firsthand Bonedo X3 review,June23,2022](https://www.bonedo.de/artikel/tc-electronic-plethora-x3-test/). It identifies available firmware1.3.11 as ofJune2022,but does not unambiguously identify the installed test version. Independent test reporting,not manufacturer specifications orour hardware test.
+
+| Field | Historical observation / qualification |
+|---|---|
+| Live / onboard Board down/up | The reviewer reports simultaneous **switches1+2 or2+3** for foot-operated Board/bank stepping in either direction. Exact pair-to-direction mapping andmenu prerequisites are not assigned from this prose. This supplies X3-specific historical evidence without transferring PX5-only release notes;current firmware behavior remains untested. |
+| Memory / supplied subset | The reviewed unit reportedly had **factory Boards in locations1–28** within the127-location architecture. This is28 observed supplied Boards,not a manufacturer-certified allocation for every firmware/reset,28additional protected slots orproof of factory-filled TonePrint counts. |
+
+Earlier manufacturer-only navigation/factory-subset unknowns remain qualified by source type. No local download,device operation ornew price observation.
+
+<!-- comparison evidence ends -->
+
+Checked2026-10-17; historical indexed asks, not current stock/checkout. Condition,variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers unresolved. No download or visual inspection claimed.
+
+[PX3-P]: https://www.tcelectronic.com/en/products/0709-AIS
+[PX3-M]: https://mediadl.musictribe.com/media/PLM/data/docs/P0EB4/PLETHORA-X3_QSG_EN.pdf
+[PX3-O1]: https://shopee.co.id/TC-Electronic-PLETHORA-X3-TonePrint-Pedalboard-with-up-to-127-Boards-3-Pedal-Slots-i.158235298.28021818540
+[PX3-O2]: https://shopee.co.id/Multi-Efek-Pedal-Gitar-TC-Electronic-Plethora-X3-TonePrint-i.306155985.23943061836
+
+[PX3-C]: https://mediadl.musictribe.com/download/software/tcelectronic/Plethora_X5/PX5_3_MIDI_CC_table.pdf
+
+Newer firmware evidence checked2026-10-17. Shared manufacturer notes explicitly mark1.4.3 and1.5.6 forPX5/PX3;older PX5-only entries were not assigned toX3. Original conversion matches manufacturer-hosted indexed1.5.6 text;no generatedFAQ used. No software/firmware was downloaded or installed.
+
+[PX3-F156]: https://cdn.mediavalet.com/aunsw/musictribe/7oqt3nY_P0ypQrubxyiAZA/ZxnHhPbDPka4xmUQl3N2-Q/Original/Plethora_X5_X3_Release_notes_FW_v1_5_6.pdf
+[PX3-FM]: https://manuals.plus/m/fab495897f61212f13d7fd3403d4a371bcb2d147dc9c72fd72db55684cdb91f7
+
+Control-count recheck2026-10-17 uses the complete13-callout own-model text and specifications. Manufacturer endpoint returned502;readable manufacturer-authored35-page multilingual copy identifies PLETHORA X3,V0.0,©2022 andmatches indexed officialcontrols/specifications. Its printedp63 corresponds to official English-onlyp23;pagination differs. Screens/photos were not inspected.
+
+[PX3-QM]: https://www.adorama.com/col/productManuals/TC79AIS861.pdf
+
+### PLETHORA X3 — direct-expression audit, 2026-10-19
+
+**Direct analog external EXP:No**,complete model-specific connector inventory. [Manufacturer-authored V0.0 QSG copy][PX3-QM],printed pp18–19,63,listsTS audio pairs,MIDI DIN,USB andDC,butnoEXP orheadphone socket. ThreeMASH pressure switches areonboard expression,notanalogexternalinputs. Earlier genericEXP editor wording doesnot addmissinghardware. This fails the requested direct path,irrespective ofMIDI capabilities.
+
+**176.53 W×116.75 Dmm** fits preference. Master-volume position,min/max,bypass/tail/looper coverage throughMIDI remain unverified;not inferred fromTrueBypass specification. OnboardBOARD selector isseparate fromfoot-operated boarddown/up,whose currentmapping remains unverified. PriorCC100GlobalExpression evidence isMIDI-only,not necessarily globalmastervolume. OfficialMIDI table failedretrieval thispass;older sourcequalification retained.
+
+[Official V1.0 QSG][PX3-M] returned502;readthe matchingX3 V0.0 manufacturerbody,notgeneratedFAQ. Newerguide differences remain unverified. [ExactNEOMUSIC shop158235298/item28021818540][PX3-O1] returnedcachemiss2026-10-19. PreserveRp6.180.000 andseparateGeloraRp7.508.100 historicalasks;currentstock,condition,bundle,warranty,shipping andusedoffers unknown. No localdownload orhardwaretest.
+
+## PLETHORA X5
+
+Checked 2026-10-17; partial. Guitar/bass shared processor; ownership and vocal suitability unverified.
+
+<!-- comparison evidence begins -->
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression | No built-in treadle; **five MASH pressure switches**, each maps up to three parameters. External TRS EXP input; toe behavior unresolved. | [Product][PX5-P]; [QSG pp14–15][PX5-M] |
+| K/F/B | **5 rotary / 5 footswitches / 0 separate buttons in the textual control inventory**. EFFECT/TONEPRINT push encoders and three parameter knobs. Specifications explicitly classify PLAY/EDIT and BOARD as selector switches, despite the controls prose calling PLAY/EDIT a knob. Encoder presses counted once; visual corroboration pending. | [QSG pp14–15,33][PX5-M] |
+| Display | **Five corresponding LCD slot displays**, one per effect footswitch (slots1–5). PLAY shows loaded/active effects; EDIT shows effect, TonePrint and knob settings. Diagonal/color/touch unresolved. Indexed manufacturer QSG text checked2026-10-29; direct PDF returned500, no visual inspection. | [QSG pp14–15][PX5-M]; [manufacturer-hosted guide](https://cdn.mediavalet.com/aunsw/musictribe/sSjbS7aFnE6cqRC8D2gfUg/HooGpCuT9kurBB7T-lgWaQ/Original/QSG_TE_0709-AIK_PLETHORA-X5_WW.pdf) |
+| Display / chain and live-modifier graphics | Manufacturer release history **1.3.6,2022-01-13**,printedp5: reversing chain direction also changes PLAY-mode **IN/OUT indicators**. Hot Knobz graphics identify assigned pedals and show live adjustment feedback. These are display states,not extra screens. [Own-hosted release history](https://cdn-media.empowertribe.com/de6f97186ddb4d5d9a494639112a03ea/Plethora_X5_X3_Release_notes_FW_v1_4_3.pdf),checked2026-10-31. | Manufacturer1.3.6 release section |
+| Live / buffered bypass without tails | Same1.3.6 section adds **GLOBAL→PRODUCT SETTINGS→BYPASS TYPE→BUFFERED / NO TRAILS**,cutting delay/reverb trails when those pedals are disengaged. Distinct from buffered trails/self-oscillation behavior;does not establish system-bypass EXP attenuation,power-failure passthrough or preset-change spillover. | Manufacturer1.3.6 release section |
+| Processing / categories | **Up to five TonePrint pedals per Board**, freely ordered. Compression, modulation, pitch, gate, reverb/delay documented; complete firmware-qualified catalogue pending. | [Product][PX5-P] |
+| Categories / firmware1.5.6 sustainer | **2025-03-23 adds Infinite Sample Sustainer**,holding notes/chords. PLETHORA version omits its standalone pedal’s reverb section and **Kill Dry**;another Hall of Fame slot can add reverb. Not proof of an oscillator synth. | [Newer official notes][PX5-F156] |
+| Editor / sustainer compatibility | Editing Infinite TonePrints requires **TonePrint4.6.18 plus updated app content**. Historical4.5.5 requirement remains for the older release;not sufficient evidence for this effect. Installed versions unknown. | [Newer official notes1.5.6][PX5-F156] |
+| Live / firmware1.5.6 switching | Adds **momentary**,effect active only while pressed,and momentary+MASH modes. Second-foot-function menu renames None to Latching. This is switch behavior,not extra physical switches. | [Newer official notes][PX5-F156] |
+| Live / firmware1.4.3 tempo | **2023-10-19** adds per-slot Tempo Sync to global tempo,MIDI clock sync,and Tap/Tuner utility. Unsynced slots remain independent;temporary parameter-modifier changes return to global tempo. | [Original release-note conversion][PX5-FM] |
+| Memory / restore-point scope | **1.4.3 restore points cover user content and firmware**. [Update bridge andfile-import procedure](#plethora-x5--update-bridge-and-restore-file-import) remain version-qualified. Applying/importing overwrites stored TonePrints,Boards/settings and changes firmware to the snapshot’s version;system import also overwrites the local restore point. This is not an IR/capture loader. | [Original release-note conversion][PX5-FM] |
+| Firmware / historical Board-load guards | **1.1.52,2020-11-09** release notes document protection ofBoard loading when aTonePrint is corrupt andfix the tuner failing onan empty Board intrue-bypass mode. They also clear audition data atstartup. These are distinct historical safeguards,not a guarantee ofrecovering corrupted data,retaining unsaved sounds orcurrent-unit reliability. [Direct manufacturer original](https://mediadl.musictribe.com/media/PLM/data/docs/P0D9M/Release-Notes_TE_P0D9M_PLETHORA-X5_Firmware-Update_v1.3.11_2022-03-03_Rev.2.pdf),checked2026-11-01;1.3.11/Rev2 document includes the older history. | Manufacturer text;no device test,update orlocal download |
+| Editor / historical firmware requirements | **Firmware1.3.11,2022-03-03** recommends TonePrint app **4.5.5+** for full new-effect benefit. Units on1.0.101 require intermediate1.1.55 before1.2.18 or later. This is historical compatibility evidence, not a latest-firmware claim. | [Official release notes][PX5-F] |
+| Processing / firmware bypass change | Firmware1.3.6 limited FlashbackII/AlterEgo feedback to80% when bypassed in buffered mode. **1.3.11 respects higher feedback**, permitting self-oscillating bypass trails. Modulation/low-end and vibrato-subtype fixes also documented. | [Official release notes][PX5-F] |
+| Editor / firmware transport | Guide describes USB mass-storage transfer of a .bin file followed by power-cycle installation. This proves update transport, not USB audio or bus power. No update or download performed. | [Official release notes][PX5-F] |
+| Processing / latency | Published **0.8–2.4 ms** latency range; do not infer one fixed value for every Board. | [QSG p33][PX5-M] |
+| Editor / Bluetooth specification | **Bluetooth4.2 Low Energy**, up to10m in open space; structures affect range. Pair through global Bluetooth settings and TonePrint app. This establishes app connectivity, not Bluetooth audio streaming. | [QSG pp32–33][PX5-M] |
+| Categories / historical firmware additions | **1.3.6,2022-01-13** adds Alter Ego Vintage Echo. Also documents reversed chain-order display, improved external EXP/MIDI response and faster Board changes. These are dated changes, not a complete current library. | [Official release notes][PX5-F] |
+| Categories / firmware1.2.18 additions | **2020-12-18 adds Viscous Vibe,Helix Phaser,Tape Deck Looper**. Viscous Vibe defaults to Ramp as its second footswitch function;MASH can replace it in Board settings. These dated additions do not establish the complete current catalogue. | [Own X5 release notes][PX5-F] |
+| Live / Board navigation versus Quick Swap | Optional global two-switch navigation:**1+2 Board Down;2+3 Board Up**. While board number shows,1/3 continue down/up. **Disable this mode for Quick Swap**. Introduced1.2.18;not proof of seller firmware. | [Own X5 release notes][PX5-F] |
+| Expression / volume audit2026-10-19 | Japanese distributor ELECTORI’s Rev1.3 manual explicitly covers **firmware1.3.11**: EXP ASSIGNMENT/VOLUME is **Board-level**, unlike global EXP calibration. Volume can precede slot1, follow slot5, sit between slots, or follow the insert before SEND/after RETURN. OFF disables volume; modifier and volume are mutually exclusive. Later global override, volume min/max and position recall remain unverified. | [Distributor manual pp5–7](https://www.electori.co.jp/tc-electronic/assets/pdf/PLETHORA_X5_MANUAL_JP_REV_1_3.pdf) |
+| Expression / own release-note scope | **1.3.6,2022-01-13**,manufacturer-authored release text places EXP Assignment under **SETTINGS→BOARD**,independently supporting Board-level scope. Live modifier priority is **EXP→MASH/Ramp→Hot Knobz→knobs**;disengaging/unplugging returns the effect to normal. Notes fix changing EXP modifier→volume resetting Hot Knobz. These concern parameter control/recovery,not global volume target,universal range or board-change recall. Installed/later behavior untested. | [Original release-note reproduction][PX5-FM],rechecked2026-10-31;direct older CDN unavailable. |
+| Expression / wiring and coverage qualification | Distributor p3 says **TS** EXP, conflicting with own QSG’s **TRS**; controller pinout remains unresolved. Its complete connector list has no dedicated headphones. Bypass, tail and looper attenuation guarantees remain unknown. No local download or device test. | [Distributor manual pp3,5–7](https://www.electori.co.jp/tc-electronic/assets/pdf/PLETHORA_X5_MANUAL_JP_REV_1_3.pdf);[QSG][PX5-M] |
+| Expression / Hot Knob scope | The three Hot Knob assignments are **Board-level settings**,controlling multiple pedal parameters in Play mode;not three additional audio blocks. | [Own X5 release notes1.2.18][PX5-F] |
+| Memory / automatic storage | Product documents automatic settings storage as edits occur. This does not establish a factory-filled Board count or persistent audio-loop storage. | [Product][PX5-P] |
+| Live / buffered no-trails | Firmware1.3.6 adds **Buffered / No Trails**, retaining buffering while cutting delay/reverb tails when disengaged. Distinguish it from buffered trailing behavior and the later1.3.11 feedback change. | [Official release notes][PX5-F] |
+| Expression / MIDI mapping | **CC100 Global Expression** maps0–125 to0–100%; Hot Knobs CC107–109. MASH for slots1–5:CC70/75/80/85/90; expression modifiers CC71/76/81/86/91. Physical EXP and MIDI expression are separate control paths. | [Official X5/X3 MIDI table][PX5-C] |
+| Live / MIDI looper mapping | CC110 Record,111 Play,112 Clear,113 Pause. Values0–24/25–50/51–76/77–102/103–127 target slots1–5 respectively. Slots4–5 explicitly X5-only. CC92 tap,93 tuner,94/95 Board down/up. | [Official X5/X3 MIDI table][PX5-C] |
+| Preset memory | Historical product evidence:**127 custom Boards;75 TonePrint slots per pedal**. Current page instead markets **unlimited custom pedalboards**,without a numeric onboard capacity. Preserve this source change;do not infer unlimited device memory or erase127. Factory-filled subset/current capacity unresolved;Board count is not simultaneous block count. | [Product][PX5-P] |
+| Synth / acoustic | Dedicated synth/acoustic conversion unresolved. | Unresolved |
+| I/O | Stereo quarter-inch TS inputs/outputs; TS Send/Return insert; TRS EXP; MIDI In/Thru; **Mini-B USB** for computer TonePrint/update; DC input. USB audio/power unresolved. | [QSG pp14–15][PX5-M] |
+| Power / battery / USB | **9V DC,>600mA included supply**,5.5/2.1mm centre-negative. Actual draw,battery/USB operation unresolved. | [QSG controls/specifications][PX5-M] |
+| Dimensions / mass | Guide prints **298.5×116×53mm under H×W×D**,1.4kg. Axis-label inconsistency preserved; no silent normalization or size-bin assignment. ELECTORI manual p13 instead gives **298.5W×53H×116Dmm**; its product page gives **298.5W×116H×53Dmm**. Both regional sources exceed200mm width; primary-axis reconciliation remains open. | [QSG specifications][PX5-M] |
+| Categories / global cabinet census | **1.2.18,2020-12-18:** nine proprietary choices—**Jose30 4x12,Vintage4x12,Creamy4x12,65 4x12,Greenery4x12,Bluey2x12,Creamy1x12,Golden1x12,BASS1x15**. Cabinet simulation is global and,when enabled,stays at the **end of the signal chain**;menu GLOBAL→PRODUCT SETTINGS→CAB SIMULATION. This is a documented global audio process,unlike Board EXP Assignment;it does not establish global expression-volume control,user IR loading or nine extra pedal slots. Firmware-qualified list,not installed-version confirmation. | [Manufacturer release text1.2.18][PX5-FM],rechecked2026-10-31. |
+| IR / NAM / capture | **Nine global proprietary cabinet simulations**, including bass use. User IR/native or converted NAM/capture support unresolved. | [Product][PX5-P] |
+| Editor / dated mobile compatibility | Developer listings explicitly name **Plethora X5** Bluetooth editing. Apple lists **TonePrint4.6.18,2025-04-01**, requiring **iOS16.0/iPadOS16.0+**; Google Play lists Android TonePrint,updated2025-03-26. Checked2026-10-18; minimum Android OS,desktop OS/architecture and every-device operation remain unverified. This narrows the older platform uncertainty without treating historical firmware notes as current OS requirements. | [Developer Apple listing](https://apps.apple.com/us/app/toneprint/id432767616);[Developer Android listing](https://play.google.com/store/apps/details?hl=en&id=com.tcelectronic.toneprint) |
+| Editor / distinct TC application | The separate **TC app,com.tcelectronic.tcapp**, expressly excludes TonePrint-generation products. It is not a replacement editor for this X5 record; TonePrint’s Android package is **com.tcelectronic.toneprint**. No app installed or hardware connection tested. | [Developer TC listing](https://play.google.com/store/apps/details?hl=en&id=com.tcelectronic.tcapp) |
+| Editor / platforms | Own X5 release notes, **1.1.55 dated 2020-11-09**, explicitly list TonePrint desktop editor for **Mac and PC**, and mobile app for **iOS and Android**. Historical platform evidence only: desktop/Android OS versions and processor architecture remain unverified; dated mobile-store evidence appears above. Bluetooth/USB app connectivity does not establish USB audio or power. | [Official release notes, version1.1.55 section][PX5-F]; [QSG pp14–15][PX5-M] |
+| Live / looper | RAM looper: **40s stereo/80s mono**, up to five instances per Board. Multiple instances do not imply five times shared memory capacity. Drums/scenes unresolved. | [Product][PX5-P] |
+| Live / routing | Insert allows external drive or four-cable setup; Quick Swap reorders effects. | [Product][PX5-P] |
+| Bass capability | Own product explicitly offers bass-oriented cabinet simulation; shared bass inclusion does not certify every effect equally on bass. | [Product][PX5-P] |
+
+### Separate IDR hardware offers
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Used | No qualified offer. | — |
+| New | No condition-confirmed offer. | — |
+| Indonesian retailer; condition unverified; sold out | **Rp8.840.000**, Nafiri Music, Kelapa Gading, Jakarta Utara. Checked **2026-11-01**: opened product snapshot crawled three days ago explicitly says **Sold out**, with one variant. Retail presentation does not establish new/used condition, working state, firmware, included adapter, warranty or tax. Shipping is calculated at checkout; delivered total and vouchers remain unknown. This non-Shopee ask is not a currently purchasable lower bound. Seller specifications do not resolve the manufacturer dimension conflict or global expression-volume scope. | [Exact X5 hardware page](https://nafiriguitar.com/products/tc-electronic-plethora-x5-toneprint-multi-fx-pedalboard) |
+| Unverified condition | **Rp9.105.200**,NEO MUSIC,shop158235298/item27271818642,Kota Sukabumi. Checked2026-10-17; three-month indexed crawl,July2 delivery text. Historical ask, not current stock/checkout. | [Item][PX5-O] |
+
+### PLETHORA X5 — readable V3.0 guide, 2026-10-31
+
+[Manufacturer-authored mirrored guide](https://device.report/m/2fae0bfbda2091158a57d1b22482ef6f5af083e6db2ff7851088282e301026b9), exact X5 title, V3.0, Music Tribe©2021, printed pp14–15,33. Read extracted original text, not generated FAQs; no download or visual inspection.
+
+- LCDs correspond to effect switches1–5; separate status LEDs are not additional screens. EDIT selects/edits a slot; PLAY switches its effect. Screen diagonal/color/touch remain unverified.
+- Specifications identify **Mini-B USB** and **True Bypass**. This does not establish bus power, USB audio, trailing behavior or power-failure bypass.
+- EFFECT/TONEPRINT encoder presses assign the selected item in EDIT; both have no PLAY function in this revision. Do not infer unchanged behavior in later firmware.
+
+Exact NEO MUSIC item27271818642 returned cache miss on this pass; preserve the historical Rp9.105.200 ask without claiming current stock or condition.
+
+
+### PLETHORA X5 — restored original guide and persistence scope, 2026-10-31
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / current exact-model listing | [Current manufacturer X5 page](https://www.tcelectronic.com/en/products/0709-AIK) lists **TonePrint4.7.2 for Windows/macOS**. OS minima and tested compatibility remain unknown. Its retrieved Files section has no firmware heading;this does not prove firmware withdrawal or supersede the preserved1.5.6 history. X3’s firmware listing is not transferred. |
+| Memory / stored TonePrint persistence | Same page explicitly says **Store To Product retains TonePrints after power-off**. This establishes saved TonePrint persistence,not persistent recorded loops,held EXP position or global all-Board volume assignment. |
+| Display / direct original guide | The page links a readable [manufacturer-hosted X5 QSG](https://cdn-media.empowertribe.com/069d07f7d9a3476e87a799ebe17a7483/QSG_TE_0709-AIK_PLETHORA%20X5_WW.pdf),**V3.0,©2021,25PDFpages**. It corroborates the already recorded five slot LCDs and TRS EXP,without resolving screen diagonal/color/touch or the distributor TS conflict. Printedp33 still labels298.5×116×53mm as H×W×D;axis ambiguity remains. Old endpoints and mirrored evidence are retained. |
+
+Text-only review;no local download,installation or hardware operation.
+
+### PLETHORA X5 — Board capacity and multilingual dimensions
+
+Checked **2026-10-31**. [Current own-model page][PX5-P] says unlimited custom pedalboards but each Board still allows up to five effects. “Unlimited” is not a quantified hardware-memory specification;the historical127-Board/75-TonePrint evidence remains above pending a revision-qualified reconciliation.
+
+The page also links this [manufacturer Chinese guide](https://cdn-media.empowertribe.com/0bb85b0f67404ae0b72c68ed476f083c/QSG_TE_0709-AIK_PLETHORA-X5_CN.pdf),sevenPDFpages,exactX5title. Its specifications,PDFp5,repeat298.5×116×53mm labelledheight×width×depth,1.4kg. This does not independently correct the multilingual guide’s axis ambiguity. No inferred footprint fit,local download or visual inspection.
+
+### PLETHORA X5 — distributor-qualified screen colors and insert cost
+
+Checked **2026-10-31** against [ELECTORI’s exact X5 Rev1.3 manual](https://www.electori.co.jp/tc-electronic/assets/pdf/PLETHORA_X5_MANUAL_JP_REV_1_3.pdf),©2022,explicitly firmware1.3.11. This is distributor documentation,not new manufacturer certification orcurrent-firmware testing.
+
+| Field | Revision-qualified finding |
+|---|---|
+| Display / color settings | P5 lists global PLAY-display color modes:OFF uses black/white effect graphics;DOTS orLINES adds colored markers. This supports historical color graphics from the distributor;primary confirmation,current revision equivalence,diagonal andtouch remain unresolved. Selecting black/white graphics does not establish monochrome hardware. |
+| Processing / insert slot tradeoff | Pp6–7:assigning INSERT LOOP FX to an effect slot allows onboard switching but consumes one of five slots. Positioning it through Board settings preserves all five internal slots but removes onboard loop on/off control. Volume can follow the insert before SEND orafter RETURN;this remains Board-level configuration. |
+| Looper / synchronization limit | P8 explicitly says the up-to-five loopers **cannot synchronize**. Playback level can use Hot Knobz;stopping returns to the phrase beginning. These do not establish persistent storage orglobal expression attenuation. |
+
+Manufacturer1.5.6 notes separately claim fixes for tap-tempo/TempoSync freezes,tuner LED blinking andreverb stopping;no installed-version orhardware verification. [Preserved original release text][PX5-FM]. No download ordevice operation.
+
+
+### PLETHORA X5 — Board organization and TonePrint deletion
+
+Checked **2026-10-31** against [manufacturer release history](https://cdn-media.empowertribe.com/de6f97186ddb4d5d9a494639112a03ea/Plethora_X5_X3_Release_notes_FW_v1_4_3.pdf), PDF pp7–9,11. These sections explicitly concern X5, not X3.
+
+| Field | Revision-qualified behavior |
+|---|---|
+| Memory / deletion boundary | **1.2.18,2020-12-18:** deleting a TonePrint from the unit’s list preserves existing Boards’ settings/sound instead of resetting their pedals to the default TonePrint. This is distinct from deleting or clearing a Board and does not establish retained audio loops. |
+| Memory / Board organization | Same release lets Create/Duplicate choose among empty Board locations; in EDIT, Board toggle up offers Create/Duplicate and down offers Delete/Clear. **1.1.43,2020-04-15** adds app Board reordering/renaming and synchronization on connection. Neither supplies a new onboard capacity or a factory-filled count. |
+| Live / reordering and app transport | **1.2.18** preserves a pedal’s bypass state during Quick Swap and permits switching USB/Bluetooth app connections without reboot. This is not Bluetooth audio or guaranteed preset-change spillover. |
+
+No device content changed, app installed or file downloaded; installed-version behavior remains untested.
+
+
+### PLETHORA X5 — explicit MIDI bypass and MASH release values
+
+Checked **2026-10-31**,[manufacturer-hosted X5/X3 MIDI table](https://cdn-media.empowertribe.com/c4ab468ba07f481080559bfc432c679c/PX5_3_MIDI_CC_table.pdf),one-page original. Linked through the current product documentation;undated table,installed firmware untested.
+
+| Field | Exact X5 mapping / qualification |
+|---|---|
+| MIDI / individual effect bypass | **CC102/103/104/105/106→slots1/2/3/4/5**;values0–63 turn the slot OFF,64–127 ON. Slots4/5 explicitly X5-only. These are individual effect states,not a documented whole-device mute orglobal volume command. |
+| Expression / MIDI MASH release | **CC70/75/80/85/90→slots1–5**;value**0=Off**,while**1–127→0–100%**. Releasing a modifier is distinct from muting audio;its assigned parameter determines the result. Physical pedal endpoints andbypass attenuation remain unverified. |
+
+The same table’s unusual CC100 range remains0–125→0–100%;126/127 behavior is unspecified. No analog-global-volume assignment inferred. No download ordevice operation.
+
+
+### PLETHORA X5 — distributor-qualified firmware1.5.6 pedal census
+
+Checked **2026-10-31**,[ELECTORI exact X5 product page](https://www.electori.co.jp/tc-electronic/product.php?id=plethora-x5). Its list explicitly names **firmware1.5.6**. This supplements the manufacturer release history;it is distributor evidence,not independent manufacturer certification orinstalled-unit inspection.
+
+| Number | Named pedal | Number | Named pedal |
+|---|---|---|---|
+|1|Hall of Fame2 Reverb|9|HyperGravity Compressor|
+|2|Flashback2 Delay|10|Viscous Vibe|
+|3|Corona Chorus|11|Helix Phaser|
+|4|Brainwaves Pitch Shifter|12|Shaker Vibrato|
+|5|Quintessence Harmony|13|Sub'N'Up Octaver|
+|6|Infinite Sample Sustainer|14|Vortex Flanger|
+|7|Pipeline Tap Tremolo|15|Alter Ego Vintage Echo|
+|8|Sentry Noise Gate|16|Mimiq Doubler|
+
+| Field | Count basis / qualification |
+|---|---|
+| Categories / distributor1.5.6 census | **16 named TonePrint pedal types**,listed above. The same page describes **Tape Deck Looper separately**,so16 does not encompass every utility orprocessing choice. TonePrint variations are not additional pedal types;maximumfive simultaneous remains separate. Primary complete firmware-qualified catalogue andseller-installed contents remain unverified. |
+| Memory / distributor capacity | Page retains **127 Boards and75 TonePrints per pedal** alongside its1.5.6 list. This is additional regional evidence,not a firmware-specific capacity test;the current manufacturer’s unquantified unlimited-board wording remains a source difference. Factory-filled subset unresolved. |
+
+### PLETHORA X5 — original guide knob mapping and app pairing
+
+Checked **2026-11-01** in the [manufacturer Japanese QSG,V3.0,©2022,PDFp3](https://cdn-media.empowertribe.com/9e029e4a0aa64545a9055542adf9c5d2/QSG_TE_0709-AIK_PLETHORA-X5_JP.pdf),linked from the exact0709-AIK page. Original text,not a generated summary;no app installed.
+
+| Field | Primary documentation / limit |
+|---|---|
+| Processing / knob mapping | TonePrint editing assigns **up to three parameters to one knob**,including normally hidden parameters. This is a controller mapping ceiling,not three extra effects,three simultaneous pedal slots oranalog global volume. Existing Board-level Hot Knob qualifications remain. |
+| Editor / Bluetooth pairing | Guide selects device **Global Settings→Bluetooth Pairing**,then the app’s **Bluetooth MIDI Pairing** andX5 entry. This establishes the documented TonePrint-app connection path;it does not certify arbitrary wireless MIDI controllers,USB MIDI audio transport orBluetooth audio. |
+
+The [current direct product reader](https://www.tcelectronic.com/en/products/0709-AIK) still says unlimited custom boards,while its month-old search snapshot retains127Boards/75TonePrint slots. This is differing retrieved copy,not evidence of a firmware capacity increase. Qualified historical capacity remains;dimension-axis andglobal EXP gaps stay open. No download ordevice operation.
+
+### PLETHORA X5 — regional footprint and battery qualifications
+
+Checked **2026-11-01** in ELECTORI’s [exact X5 Rev1.3 manual, p13](https://www.electori.co.jp/tc-electronic/assets/pdf/PLETHORA_X5_MANUAL_JP_REV_1_3.pdf), ©2022, firmware1.3.11, and [own regional product page](https://www.electori.co.jp/tc-electronic/product.php?id=plethora-x5). Manual dimensions are W×H×D=298.5×53×116mm; product dimensions W×H×D=298.5×116×53mm. These agree on width but disagree on height/depth. **Regional width exceeds the preferred200mm**; no corrected primary footprint or size bin asserted. Earlier manufacturer H×W×D wording remains unresolved.
+
+The regional page explicitly excludes battery operation. This narrows the regional battery claim only, not USB power or measured current. Distributor evidence does not establish current all-Board expression-volume scope. No local download, visual inspection or device test.
+
+
+### PLETHORA X5 — modifier range versus volume and post-change MIDI
+
+Checked **2026-11-01**;no download ordevice operation.
+
+| Field | Source-qualified finding |
+|---|---|
+| Expression / direct parameter range | [ELECTORI Rev1.3 manual,Board-settings table](https://www.electori.co.jp/tc-electronic/assets/pdf/PLETHORA_X5_MANUAL_JP_REV_1_3.pdf),firmware1.3.11,printedp6:direct assignment of selected effect parameters uses a **fixed0–100 range that cannot be adjusted**. The separate predefined EXPRESSION MODIFIER mapping is editable through TonePrint Editor. This is distributor documentation;do not transfer that range to the separate VOLUME mode orclaim primary confirmation of physical pedal attenuation. |
+| MIDI / post-Board-change delivery | [Manufacturer1.4.3 notes,2023-10-19,PDFp4](https://cdn-media.empowertribe.com/de6f97186ddb4d5d9a494639112a03ea/Plethora_X5_X3_Release_notes_FW_v1_4_3.pdf) fix MIDI CC messages being discarded immediately after aBoard change. Historical fix,not a measured delay,analog EXP recall guarantee orproof of a global volume target. |
+
+Existing Board-level EXP Assignment andglobal calibration distinction remains. Volume endpoints,held-position recall,bypass/tail/loop coverage andcurrent installed behavior remain unresolved. ExactShopee item18280216311 was still inaccessible;no new condition orstock claim.
+
+
+
+### PLETHORA X5 — regional editor expression-curve scope
+
+Checked **2026-11-01**, [ELECTORI TonePrint App/Editor V4 Reference Manual,JP Rev1.3(2022.1),pp7–13,15](https://www.electori.co.jp/tcelectronic/pdf/TonePrint_Editor_V4_Reference_Manual_ver_JP_rev_1_3.pdf),©2021–2022 ELECTORI. This is distributor-authored documentation;X5 Bluetooth editing andBoard management are explicitly named. Original prose only;generated image descriptions excluded.
+
+| Field | Regional documentation / qualification |
+|---|---|
+| Expression / editable modifier curve | Where supported,the EXPRESSION PEDAL tab assigns **up to three parameters**,with curves set at **five pedal positions**. MASH has its own three-parameter/five-pressure-position mapping. These are TonePrint modifier curves,not numeric attenuation endpoints forBoard VOLUME mode orall-Board assignment. |
+| Editor / connection scope | X5 mobile editing is explicitly Bluetooth-based;PC/Mac import uses USB. App tabs depend onthe connected pedal’s supported functions. Historical editor scope does not establish current OS minima orarbitrary controller compatibility. |
+
+Fresh exactShopee item18280216311 was inaccessible anditem27271818642 returned cache miss. Preserve older qualified asks;no current condition,stock orvariation contents established. All-Board analog-volume scope,held-position recall andbypass/tail/loop attenuation remain unresolved. No local download,app installation ordevice operation.
+
+<!-- comparison evidence ends -->
+
+Variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers unresolved. No download or visual inspection claimed. All facts from own-model sources; no X3 specification substitution.
+
+[PX5-P]: https://www.tcelectronic.com/en/products/0709-AIK
+[PX5-M]: https://mediadl.musictribe.com/media/PLM/data/docs/P0D9M/QSG_TE_0709-AIK_PLETHORA-X5_WW.pdf
+[PX5-O]: https://shopee.co.id/TC-Electronic-PLETHORA-X5-TonePrint-Pedal-Board-Loaded-with-Favorite-FX-and-5-MASH-Footswitches-i.158235298.27271818642
+
+[PX5-F]: https://mediadl.musictribe.com/media/PLM/data/docs/P0D9M/Release-Notes_TE_P0D9M_PLETHORA-X5_Firmware-Update_v1.3.11_2022-03-03_Rev.2.pdf
+
+[PX5-C]: https://mediadl.musictribe.com/download/software/tcelectronic/Plethora_X5/PX5_3_MIDI_CC_table.pdf
+
+Newer documentation checked2026-10-17: manufacturer-hosted indexed1.5.6 text explicitly names both PX5/PX3 andmatches the converted16-page release-history body,including older own-X5 revisions already verified. Direct manufacturer CDN fetch failed500;conversion used only as original release text,not generated FAQs. Neither1.5.6 latest-status nor seller-installed firmware certified.
+
+[PX5-F156]: https://cdn.mediavalet.com/aunsw/musictribe/7oqt3nY_P0ypQrubxyiAZA/ZxnHhPbDPka4xmUQl3N2-Q/Original/Plethora_X5_X3_Release_notes_FW_v1_5_6.pdf
+[PX5-FM]: https://manuals.plus/m/fab495897f61212f13d7fd3403d4a371bcb2d147dc9c72fd72db55684cdb91f7
+### PLETHORA X5 — exact linked offer lead, variation still pending
+
+Checked **2026-10-31**: the [Shopee category page](https://shopee.co.id/list/Alat%20Musik/Pengatur/Tempo) displays **Rp11.367.000** for “Multi Efek Pedal Gitar TC Electronic Plethora X5 TonePrint Board” and links [seller306155985/item18280216311](https://shopee.co.id/Multi-Efek-Pedal-Gitar-TC-Electronic-Plethora-X5-TonePrint-Board-i.306155985.18280216311), selected variation **216770997079**. The opened category snapshot reports last-week crawling; the search snapshot reports three weeks. Neither is a checkout observation.
+
+Parameterized item retrieval returned cache miss; clean item retrieval was inaccessible. Seller display name/region in this source, selected variation contents, processor-versus-bundle identity, new/used condition, working state, stock, adapter, warranty, vouchers, shipping/tax and delivered total remain unverified. This is a reproducible **pending discovery lead**, excluded from used/new price projections and available-price ranges. Do not substitute the separate X3 offer’s price or specifications. The older NEO MUSIC X5 ask remains independently qualified.
+
+
+### PLETHORA X5 — update bridge and restore-file import
+
+Checked **2026-11-01** against the [manufacturer-authored1.5.6 release history,updating instructions and1.4.3 restore-point section][PX5-FM]. Original release text on an identified mirror;no firmware orfile downloaded.
+
+Units running **1.0.101 must first update to1.1.55 before1.2.18 ornewer**,according to the maker. This is a documented migration prerequisite,not a claim about a seller’s installed version orcurrent download availability.
+
+System Export reboots the unit andplaces a restore file onits USB drive. To expose System Import,the guide places a **`.restore` file onthe Plethora USB drive andthen reboots**. Import applies that snapshot andoverwrites the locally stored restore point;applying/importing also replaces user content andfirmware as already qualified above. Exported contents were not inspected;this does not prove preserved recorded loops,held expression position orcross-model compatibility. No update,restore ordevice operation performed.
+
+### PLETHORA X5 — storefront-only Indonesia lead
+
+Checked **2026-11-01**. A two-month search snapshot of [chillshopping.id](https://shopee.co.id/chillshopping.id?entryPoint=ShopByPDP) lists **TC ELECTRONIC PLETHORA X5 BMJ,Rp20.916.000**,beside a Produk Baru badge. That storefront badge is not an item-level condition verification. The opened three-month snapshot instead contains sports products andno X5 item link;different retrieved copies do not prove stock loss,store ownership change orfraud.
+
+Exact shop/item IDs,meaning ofBMJ,processor/variant/bundle contents,condition,working state,adapter,warranty,region,voucher andcheckout remain unknown. **Discovery lead only,excluded from comparison prices andnew/used ranges.** No contact,purchase,local download ordevice operation. Existing exact-item offers andtheir historical qualifications remain unchanged.

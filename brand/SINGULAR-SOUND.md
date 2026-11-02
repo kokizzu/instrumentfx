@@ -1,0 +1,36 @@
+# Singular Sound — display controllers
+
+[Display collection](../FOOTSWITCH-DISPLAYS.md) · [Repository](../README.md)
+
+<!-- brand-index begins -->
+**Model and section index — A–Z, natural numeric order**
+
+- [MIDI Maestro Gold Edition](#midi-maestro-gold-edition)
+<!-- brand-index ends -->
+
+## MIDI Maestro Gold Edition
+
+Checked2026-10-31 against the [exact manufacturer product page](https://www.singularsound.com/products/midi-maestro),whose current title/body explicitly identify Gold Edition. Controller only,outside audio processor and active brand counts; original MIDI Maestro specifications are not transferred.
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| Displays / switches | Six screens,six silent comfort+ footswitches. Specification calls screens **6×1.9-inch diagonal dot-matrix LED**; preserve LED wording,not an LCD/OLED certification. Exact individual screen/switch placement and color/touch remain unverified without a successful visual audit. |
+| Connections / software | 5-pin MIDI IN/OUT,Bluetooth,quarter-inch EXP and external TRS footswitch socket; product prints14-inch for the latter,an unresolved apparent typo. iOS/Android customization app; full platform minimums unknown. |
+| Power / dimensions | Included9VDC supply,300mA power-usage claim;polarity and measured draw unknown. 8.4W×5.8D×1.9H inches;1lb2oz. Not a no-treadle audio processor candidate. |
+| Modes / remaining | Custom,BeatBuddy,Aeros modes;10 dynamic pages per preset are not ten physical screens. Qualified Shopee Indonesia hardware,new/used IDR,stock,bundle and complete MIDI/EXP wiring profile remain pending. |
+
+No purchase,software installation,download or device test performed.
+
+### Gold Edition — linked app and manual access
+
+Checked 2026-10-31 through the [manufacturer support index](https://www.singularsound.com/pages/support). Its [iOS app link](https://apps.apple.com/us/app/singular-sound-midi-maestro/id1528913800) identifies Singular Sound’s MIDI Maestro configuration app: custom-mode programming, default-mode and firmware management; version **1.8.1,2025-04-22**,minimum **iOS15.6**. A minimum OS is not evidence of successful operation on every newer iOS release. The [official Android link](https://play.google.com/store/apps/details?id=com.singularsound.midimaestroconfigurator) is separately identified; Android minimum and Gold-specific operation remain untested. No app installed.
+
+Support’s current full-manual link returns403 in the web reader; forum-hosted Manualv2/firmware1.1.9 exceeds reader size limit. No manual file downloaded. These access failures leave screen-to-switch placement and LCD/LED technology unresolved; original Maestro illustrations were not silently treated as Gold Edition evidence.
+
+### Gold Edition — family iOS 26 advisory, revision scope unverified
+
+Checked **2026-11-01**. [Manufacturer support post by BrennanSingularSound](https://forum.singularsound.com/t/midi-maestro-firmware-updater-desktop-app-fix-for-ios-26/41951) reports **MIDI Maestro firmware1.1.9 connection failures with iOS26**, and provides **firmware1.1.11** plus a **Windows/Mac BLE updater v0.0.4**. Computer Bluetooth and both firmware images are required by its procedure. This is a firmware updater, not a full desktop configuration editor. The post says the fix is optional for non-iOS users; it does not publish minimum desktop OS versions.
+
+The displayed post date is **March3,2026**, but its embedded edit label says **3/16/25**; retain this inconsistency rather than treating either as the firmware release date. A [May5,2026 support reply by DanielSingularSound](https://forum.singularsound.com/t/midi-maestro-firmware-updater-desktop-app-fix-for-ios-26/41951?page=2) still directs this update through Mac/Windows rather than iPhone/iOS. Later community reports of restored iOS operation are not universal compatibility certification.
+
+This advisory names the MIDI Maestro family without explicitly naming Gold Edition hardware. Gold-specific applicability remains unverified; the earlier iOS15.6 app minimum alone does not establish iOS26 operation. A separate [Gold-manual forum question](https://forum.singularsound.com/t/just-checking-mm-manual-for-gold-edition/40511) is answered by a community user, not adopted as manufacturer confirmation that every original-model specification transfers. No firmware/app downloaded, installed or run.

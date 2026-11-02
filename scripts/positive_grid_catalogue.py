@@ -13,7 +13,7 @@ if __name__ == '__main__':
     comparison_views.verify_views()
     comparison_views.test_readme_brand_counts()
     comparison_views.test_validation_counts()
-    allowed = {'POSITIVE-GRID.md', 'EXPRESSION-VOLUME.md', 'README.md', 'research-state.json', 'scripts/positive_grid_catalogue.py', 'Makefile'}
+    allowed = {'brand/POSITIVE-GRID.md', 'EXPRESSION-VOLUME.md', 'README.md', 'research-state.json', 'scripts/positive_grid_catalogue.py', 'Makefile'}
     changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
     staged = set(git('diff','--cached','--name-only').splitlines())
     assert (changed | staged) <= allowed, (changed | staged) - allowed

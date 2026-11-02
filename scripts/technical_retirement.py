@@ -10,87 +10,87 @@ import comparison_views
 import source_retirement as shared
 ROOT = research.ROOT
 SOURCES = {
-  "effects/findings/2026-10-14-zoom-b1xon.md": "ZOOM.md#b1xon",
-  "effects/findings/2026-10-15-zoom-g6.md": "ZOOM.md#g6",
-  "effects/findings/2026-10-14-zoom-g1-four.md": "ZOOM.md#g1-four",
-  "effects/findings/2026-10-14-zoom-g1x-four.md": "ZOOM.md#g1x-four",
-  "effects/findings/2026-10-14-zoom-g2-four.md": "ZOOM.md#g2-four",
-  "effects/findings/2026-10-14-zoom-g2x-four.md": "ZOOM.md#g2x-four",
-  "effects/findings/2026-10-15-boss-gt1000core-display-idr.md": "BOSS.md#gt-1000core",
-  "effects/findings/2026-10-15-boss-gx10-display-idr.md": "BOSS.md#gx-10",
-  "effects/findings/2026-10-15-boss-gt1-display-idr.md": "BOSS.md#gt-1",
-  "effects/findings/2026-10-15-boss-gx1-display-idr.md": "BOSS.md#gx-1",
-  "effects/findings/2026-10-15-boss-me90-display-idr.md": "BOSS.md#me-90",
-  "effects/findings/2026-10-15-boss-gx100-display-idr.md": "BOSS.md#gx-100",
-  "effects/findings/2026-10-15-boss-gt1000-display-idr.md": "BOSS.md#gt-1000",
-  "effects/findings/2026-10-14-line6-hx-stomp-xl.md": "LINE6.md#hx-stomp-xl",
-  "effects/findings/2026-10-14-hotone-ampero-mini.md": "HOTONE.md#ampero-mini-mp-50",
-  "effects/findings/2026-10-14-hotone-ampero-mp100.md": "HOTONE.md#ampero-mp-100",
-  "effects/findings/2026-10-14-hotone-ampero-ii-mp350.md": "HOTONE.md#ampero-ii-mp-350",
-  "effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md": "HOTONE.md#ampero-ii-stage-mp-380",
-  "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md": "HOTONE.md#ampero-ii-stomp-mp-300",
-  "effects/findings/2026-10-14-mooer-ge100.md": "MOOER.md#ge100-original",
-  "effects/findings/2026-10-14-mooer-ge150.md": "MOOER.md#ge150-original",
-  "effects/findings/2026-10-14-mooer-ge200.md": "MOOER.md#ge200-original",
-  "effects/findings/2026-10-14-mooer-ge150-pro-li.md": "MOOER.md#ge150-pro-li",
-  "effects/findings/2026-10-14-mooer-ge100-pro.md": "MOOER.md#ge100-pro",
-  "effects/findings/2026-10-14-mooer-ge100-pro-li.md": "MOOER.md#ge100-pro-li",
-  "effects/findings/2026-10-14-mooer-ge200-pro.md": "MOOER.md#ge200-pro",
-  "effects/findings/2026-10-14-mooer-ge200-pro-li.md": "MOOER.md#ge200-pro-li",
-  "effects/findings/2026-10-14-mooer-ge150-pro.md": "MOOER.md#ge150-pro",
-  "effects/findings/2026-10-15-mooer-ge150-plus.md": "MOOER.md#ge150-plus",
-  "effects/findings/2026-10-15-mooer-ge150-plus-li.md": "MOOER.md#ge150-plus-li",
-  "effects/findings/2026-10-15-mooer-ge150-max.md": "MOOER.md#ge150-max",
-  "effects/findings/2026-10-15-mooer-ge150-max-li.md": "MOOER.md#ge150-max-li",
-  "effects/findings/2026-10-14-mooer-ge1000.md": "MOOER.md#ge1000",
-  "effects/findings/2026-10-15-mooer-ge1000-li.md": "MOOER.md#ge1000-li",
-  "effects/findings/2026-10-14-valeton-gp-100.md": "VALETON.md#gp-100",
-  "effects/findings/2026-10-14-valeton-gp-150.md": "VALETON.md#gp-150",
-  "effects/findings/2026-10-14-valeton-gp-180.md": "VALETON.md#gp-180",
-  "effects/findings/2026-10-14-valeton-gp-5.md": "VALETON.md#gp-5",
-  "effects/findings/2026-10-14-valeton-gp-50.md": "VALETON.md#gp-50",
-  "effects/findings/2026-10-15-audota-ame-100.md": "AUDOTA.md#ame-100",
-  "effects/findings/2026-10-15-audota-ame-200.md": "AUDOTA.md#ame-200",
-  "effects/findings/2026-10-15-audota-ame-200-pro.md": "AUDOTA.md#ame-200-pro",
-  "effects/findings/2026-10-15-audota-ace-100.md": "AUDOTA.md#ace-100",
-  "effects/findings/2026-10-15-audota-ave-100.md": "AUDOTA.md#ave-100",
-  "effects/findings/2026-10-14-boin-audio-bg300.md": "BOIN-AUDIO.md#bg300",
-  "effects/findings/2026-10-14-scorpion-kmf-10.md": "SCORPION.md#kmf-10",
-  "effects/findings/2026-10-14-tchelicon-voicelive-play.md": "TC-HELICON.md#voicelive-play",
-  "effects/findings/2026-10-14-tchelicon-play-acoustic.md": "TC-HELICON.md#play-acoustic",
-  "effects/findings/2026-10-15-cuvave-h8.md": "CUVAVE.md#h8",
-  "effects/findings/2026-10-15-ving-fb100.md": "VING.md#flybro-fb-100",
-  "effects/findings/2026-10-14-roland-gr-55.md": "ROLAND.md#gr-55",
-  "effects/findings/2026-10-15-line6-pod-express-guitar.md": "LINE6.md#pod-express-guitar",
-  "effects/findings/2026-10-15-line6-pod-express-bass.md": "LINE6.md#pod-express-bass",
-  "effects/findings/2026-10-15-zoom-g11.md": "ZOOM.md#g11",
-  "effects/findings/2026-10-14-donner-arena2000.md": "DONNER.md#arena2000",
-  "effects/findings/2026-10-14-flamma-fx100.md": "FLAMMA.md#fx100",
-  "effects/findings/2026-10-14-flamma-fx200.md": "FLAMMA.md#fx200",
-  "effects/findings/2026-10-14-headrush-core.md": "HEADRUSH.md#core",
-  "effects/findings/2026-10-15-joyo-gembox-original.md": "JOYO.md#gem-box-original",
-  "effects/findings/2026-10-14-joyo-gembox-ii.md": "JOYO.md#gem-box-ii",
-  "effects/findings/2026-10-14-joyo-gembox-iii.md": "JOYO.md#gem-box-iii",
-  "effects/findings/2026-10-15-line6-pod-go.md": "LINE6.md#pod-go-and-pod-go-wireless",
-  "effects/findings/2026-10-15-line6-pod-go-wireless.md": "LINE6.md#pod-go-and-pod-go-wireless",
-  "effects/findings/2026-10-14-mvave-tank-g.md": "M-VAVE.md#tank-g",
-  "effects/findings/2026-10-14-mvave-tank-b.md": "M-VAVE.md#tank-b",
-  "effects/findings/2026-10-14-mvave-tank-mini.md": "M-VAVE.md#tank-mini",
-  "effects/findings/2026-10-14-mvave-mk-20.md": "M-VAVE.md#mk-20",
-  "effects/findings/2026-10-14-mvave-mk-300.md": "M-VAVE.md#mk-300",
-  "effects/findings/2026-10-14-mvave-tank-pro.md": "M-VAVE.md#tank-pro",
-  "effects/findings/2026-10-14-mvave-ann-blackbox.md": "M-VAVE.md#ann-blackbox",
-  "effects/findings/2026-10-15-mvave-mini-x.md": "M-VAVE.md#mini-x",
-  "effects/findings/2026-10-15-mvave-pocket-amp.md": "M-VAVE.md#pocket-amp",
-  "effects/findings/2026-10-15-mvave-cube-baby-ac.md": "M-VAVE.md#cube-baby-ac",
-  "effects/findings/2026-10-15-mvave-cube-baby-bass.md": "M-VAVE.md#cube-baby-bass",
-  "effects/findings/2026-10-14-nux-mg-100.md": "NUX.md#mg-100",
-  "effects/findings/2026-10-14-nux-mg-200.md": "NUX.md#mg-200",
-  "effects/findings/2026-10-15-nux-trident.md": "NUX.md#trident-nme-5",
-  "effects/findings/2026-10-14-sonicake-matribox.md": "SONICAKE.md#matribox-qme-50",
-  "effects/findings/2026-10-14-sonicake-smart-box.md": "SONICAKE.md#smart-box-qme-20",
-  "effects/findings/2026-10-14-sonicake-pocket-master.md": "SONICAKE.md#pocket-master-qme-10",
-  "effects/findings/2026-10-15-mvave-cube-baby.md": "M-VAVE.md#cube-baby-electric"
+  "effects/findings/2026-10-14-zoom-b1xon.md": "brand/ZOOM.md#b1xon",
+  "effects/findings/2026-10-15-zoom-g6.md": "brand/ZOOM.md#g6",
+  "effects/findings/2026-10-14-zoom-g1-four.md": "brand/ZOOM.md#g1-four",
+  "effects/findings/2026-10-14-zoom-g1x-four.md": "brand/ZOOM.md#g1x-four",
+  "effects/findings/2026-10-14-zoom-g2-four.md": "brand/ZOOM.md#g2-four",
+  "effects/findings/2026-10-14-zoom-g2x-four.md": "brand/ZOOM.md#g2x-four",
+  "effects/findings/2026-10-15-boss-gt1000core-display-idr.md": "brand/BOSS.md#gt-1000core",
+  "effects/findings/2026-10-15-boss-gx10-display-idr.md": "brand/BOSS.md#gx-10",
+  "effects/findings/2026-10-15-boss-gt1-display-idr.md": "brand/BOSS.md#gt-1",
+  "effects/findings/2026-10-15-boss-gx1-display-idr.md": "brand/BOSS.md#gx-1",
+  "effects/findings/2026-10-15-boss-me90-display-idr.md": "brand/BOSS.md#me-90",
+  "effects/findings/2026-10-15-boss-gx100-display-idr.md": "brand/BOSS.md#gx-100",
+  "effects/findings/2026-10-15-boss-gt1000-display-idr.md": "brand/BOSS.md#gt-1000",
+  "effects/findings/2026-10-14-line6-hx-stomp-xl.md": "brand/LINE6.md#hx-stomp-xl",
+  "effects/findings/2026-10-14-hotone-ampero-mini.md": "brand/HOTONE.md#ampero-mini-mp-50",
+  "effects/findings/2026-10-14-hotone-ampero-mp100.md": "brand/HOTONE.md#ampero-mp-100",
+  "effects/findings/2026-10-14-hotone-ampero-ii-mp350.md": "brand/HOTONE.md#ampero-ii-mp-350",
+  "effects/findings/2026-10-14-hotone-ampero-ii-stage-mp380.md": "brand/HOTONE.md#ampero-ii-stage-mp-380",
+  "effects/findings/2026-10-15-hotone-ampero-ii-stomp-mp300.md": "brand/HOTONE.md#ampero-ii-stomp-mp-300",
+  "effects/findings/2026-10-14-mooer-ge100.md": "brand/MOOER.md#ge100-original",
+  "effects/findings/2026-10-14-mooer-ge150.md": "brand/MOOER.md#ge150-original",
+  "effects/findings/2026-10-14-mooer-ge200.md": "brand/MOOER.md#ge200-original",
+  "effects/findings/2026-10-14-mooer-ge150-pro-li.md": "brand/MOOER.md#ge150-pro-li",
+  "effects/findings/2026-10-14-mooer-ge100-pro.md": "brand/MOOER.md#ge100-pro",
+  "effects/findings/2026-10-14-mooer-ge100-pro-li.md": "brand/MOOER.md#ge100-pro-li",
+  "effects/findings/2026-10-14-mooer-ge200-pro.md": "brand/MOOER.md#ge200-pro",
+  "effects/findings/2026-10-14-mooer-ge200-pro-li.md": "brand/MOOER.md#ge200-pro-li",
+  "effects/findings/2026-10-14-mooer-ge150-pro.md": "brand/MOOER.md#ge150-pro",
+  "effects/findings/2026-10-15-mooer-ge150-plus.md": "brand/MOOER.md#ge150-plus",
+  "effects/findings/2026-10-15-mooer-ge150-plus-li.md": "brand/MOOER.md#ge150-plus-li",
+  "effects/findings/2026-10-15-mooer-ge150-max.md": "brand/MOOER.md#ge150-max",
+  "effects/findings/2026-10-15-mooer-ge150-max-li.md": "brand/MOOER.md#ge150-max-li",
+  "effects/findings/2026-10-14-mooer-ge1000.md": "brand/MOOER.md#ge1000",
+  "effects/findings/2026-10-15-mooer-ge1000-li.md": "brand/MOOER.md#ge1000-li",
+  "effects/findings/2026-10-14-valeton-gp-100.md": "brand/VALETON.md#gp-100",
+  "effects/findings/2026-10-14-valeton-gp-150.md": "brand/VALETON.md#gp-150",
+  "effects/findings/2026-10-14-valeton-gp-180.md": "brand/VALETON.md#gp-180",
+  "effects/findings/2026-10-14-valeton-gp-5.md": "brand/VALETON.md#gp-5",
+  "effects/findings/2026-10-14-valeton-gp-50.md": "brand/VALETON.md#gp-50",
+  "effects/findings/2026-10-15-audota-ame-100.md": "brand/AUDOTA.md#ame-100",
+  "effects/findings/2026-10-15-audota-ame-200.md": "brand/AUDOTA.md#ame-200",
+  "effects/findings/2026-10-15-audota-ame-200-pro.md": "brand/AUDOTA.md#ame-200-pro",
+  "effects/findings/2026-10-15-audota-ace-100.md": "brand/AUDOTA.md#ace-100",
+  "effects/findings/2026-10-15-audota-ave-100.md": "brand/AUDOTA.md#ave-100",
+  "effects/findings/2026-10-14-boin-audio-bg300.md": "brand/BOIN-AUDIO.md#bg300",
+  "effects/findings/2026-10-14-scorpion-kmf-10.md": "brand/SCORPION.md#kmf-10",
+  "effects/findings/2026-10-14-tchelicon-voicelive-play.md": "brand/TC-HELICON.md#voicelive-play",
+  "effects/findings/2026-10-14-tchelicon-play-acoustic.md": "brand/TC-HELICON.md#play-acoustic",
+  "effects/findings/2026-10-15-cuvave-h8.md": "brand/CUVAVE.md#h8",
+  "effects/findings/2026-10-15-ving-fb100.md": "brand/VING.md#flybro-fb-100",
+  "effects/findings/2026-10-14-roland-gr-55.md": "brand/ROLAND.md#gr-55",
+  "effects/findings/2026-10-15-line6-pod-express-guitar.md": "brand/LINE6.md#pod-express-guitar",
+  "effects/findings/2026-10-15-line6-pod-express-bass.md": "brand/LINE6.md#pod-express-bass",
+  "effects/findings/2026-10-15-zoom-g11.md": "brand/ZOOM.md#g11",
+  "effects/findings/2026-10-14-donner-arena2000.md": "brand/DONNER.md#arena2000",
+  "effects/findings/2026-10-14-flamma-fx100.md": "brand/FLAMMA.md#fx100",
+  "effects/findings/2026-10-14-flamma-fx200.md": "brand/FLAMMA.md#fx200",
+  "effects/findings/2026-10-14-headrush-core.md": "brand/HEADRUSH.md#core",
+  "effects/findings/2026-10-15-joyo-gembox-original.md": "brand/JOYO.md#gem-box-original",
+  "effects/findings/2026-10-14-joyo-gembox-ii.md": "brand/JOYO.md#gem-box-ii",
+  "effects/findings/2026-10-14-joyo-gembox-iii.md": "brand/JOYO.md#gem-box-iii",
+  "effects/findings/2026-10-15-line6-pod-go.md": "brand/LINE6.md#pod-go-and-pod-go-wireless",
+  "effects/findings/2026-10-15-line6-pod-go-wireless.md": "brand/LINE6.md#pod-go-and-pod-go-wireless",
+  "effects/findings/2026-10-14-mvave-tank-g.md": "brand/M-VAVE.md#tank-g",
+  "effects/findings/2026-10-14-mvave-tank-b.md": "brand/M-VAVE.md#tank-b",
+  "effects/findings/2026-10-14-mvave-tank-mini.md": "brand/M-VAVE.md#tank-mini",
+  "effects/findings/2026-10-14-mvave-mk-20.md": "brand/M-VAVE.md#mk-20",
+  "effects/findings/2026-10-14-mvave-mk-300.md": "brand/M-VAVE.md#mk-300",
+  "effects/findings/2026-10-14-mvave-tank-pro.md": "brand/M-VAVE.md#tank-pro",
+  "effects/findings/2026-10-14-mvave-ann-blackbox.md": "brand/M-VAVE.md#ann-blackbox",
+  "effects/findings/2026-10-15-mvave-mini-x.md": "brand/M-VAVE.md#mini-x",
+  "effects/findings/2026-10-15-mvave-pocket-amp.md": "brand/M-VAVE.md#pocket-amp",
+  "effects/findings/2026-10-15-mvave-cube-baby-ac.md": "brand/M-VAVE.md#cube-baby-ac",
+  "effects/findings/2026-10-15-mvave-cube-baby-bass.md": "brand/M-VAVE.md#cube-baby-bass",
+  "effects/findings/2026-10-14-nux-mg-100.md": "brand/NUX.md#mg-100",
+  "effects/findings/2026-10-14-nux-mg-200.md": "brand/NUX.md#mg-200",
+  "effects/findings/2026-10-15-nux-trident.md": "brand/NUX.md#trident-nme-5",
+  "effects/findings/2026-10-14-sonicake-matribox.md": "brand/SONICAKE.md#matribox-qme-50",
+  "effects/findings/2026-10-14-sonicake-smart-box.md": "brand/SONICAKE.md#smart-box-qme-20",
+  "effects/findings/2026-10-14-sonicake-pocket-master.md": "brand/SONICAKE.md#pocket-master-qme-10",
+  "effects/findings/2026-10-15-mvave-cube-baby.md": "brand/M-VAVE.md#cube-baby-electric"
 }
 SHARED = {
   "effects/guitar-compact.md": "shared_compact_audit",
@@ -115,14 +115,14 @@ SHARED = {
 SOURCES.update({
   "effects/guitar-compact.md": "MULTI-EFFECTS.md",
   "effects/guitar-floorboards.md": "MULTI-EFFECTS.md",
-  "effects/guitar-nux.md": "NUX.md",
-  "effects/bass.md": "ALL-BASS.md",
-  "effects/vocal.md": "ALL-VOCAL.md",
+  "effects/guitar-nux.md": "brand/NUX.md",
+  "effects/bass.md": "all-bass.md",
+  "effects/vocal.md": "all-vocal.md",
   "effects/advanced-modelers.md": "MULTI-EFFECTS.md",
-  "effects/guitar-boss.md": "BOSS.md",
-  "effects/guitar-boss.history-2026-10-14.md": "BOSS.md",
-  "effects/audota.md": "AUDOTA.md",
-  "effects/cube-baby.md": "M-VAVE.md",
+  "effects/guitar-boss.md": "brand/BOSS.md",
+  "effects/guitar-boss.history-2026-10-14.md": "brand/BOSS.md",
+  "effects/audota.md": "brand/AUDOTA.md",
+  "effects/cube-baby.md": "brand/M-VAVE.md",
   "effects/owned-multifx.md": "MULTI-EFFECTS.md",
   "effects/shopee-multifx.md": "MULTI-EFFECTS.md",
   "effects/shopee-multifx-2.md": "MULTI-EFFECTS.md",
@@ -136,7 +136,7 @@ PLAN = Path('/tmp/instrumentfx-technical-retirement-plan.json')
 TOOLS = ['scripts/technical_retirement.py','scripts/consolidation_tools.py','scripts/research_tools.py','Makefile']
 
 def incoming():
-    return [link for path in sorted(ROOT.glob('*.md'))+sorted((ROOT/'effects').rglob('*.md'))
+    return [link for path in sorted(ROOT.glob('*.md')) + sorted((ROOT/'brand').glob('*.md'))+sorted((ROOT/'effects').rglob('*.md'))
             for link in shared.local_links(str(path.relative_to(ROOT)),path.read_text()) if link['target'] in SOURCES]
 
 def redirect(path,original,commit):
@@ -219,7 +219,7 @@ def plan(rollback=False):
     outputs['research-state.json']=json.dumps(state,ensure_ascii=False,indent=2)+'\n'
     inputs={p:shared.digest((ROOT/p).read_text()) for p in sorted(set(SOURCES)|set(TOOLS)|{'research-state.json'}|{d.split('#')[0] for d in SOURCES.values()})}
     # Also guard navigation scanned during preview against concurrent edits.
-    for path in sorted(ROOT.glob('*.md'))+sorted((ROOT/'effects').rglob('*.md')):
+    for path in sorted(ROOT.glob('*.md')) + sorted((ROOT/'brand').glob('*.md'))+sorted((ROOT/'effects').rglob('*.md')):
         inputs[str(path.relative_to(ROOT))]=shared.digest(path.read_text())
     PLAN.write_text(json.dumps(dict(kind='rollback' if rollback else 'retire',selected=selected,inputs=inputs,outputs=outputs),ensure_ascii=False,indent=2)+'\n')
     print('Exact plan: '+str(PLAN)+'; '+str(len(selected))+' source paths: '+json.dumps(selected))
@@ -266,7 +266,7 @@ def specialist_context(original):
 def specialist_stub(original,commit):
     text=''
     for index,heading in enumerate(shared.headings(original)):
-        target='BOSS.md#gm-800' if index<2 else 'SINGLE-GUITAR.md'
+        target='brand/BOSS.md#gm-800' if index<2 else 'single-guitar.md'
         if heading.startswith('### '):
             candidate=next(iter(shared.anchors(heading)))
             target+=' #'+candidate
@@ -279,7 +279,7 @@ def specialist_stub(original,commit):
     return text
 
 def specialist_incoming():
-    return [link for path in sorted(ROOT.glob('*.md'))+sorted((ROOT/'effects').rglob('*.md')) for link in shared.local_links(str(path.relative_to(ROOT)),path.read_text()) if link['target']==SPECIALIST]
+    return [link for path in sorted(ROOT.glob('*.md')) + sorted((ROOT/'brand').glob('*.md'))+sorted((ROOT/'effects').rglob('*.md')) for link in shared.local_links(str(path.relative_to(ROOT)),path.read_text()) if link['target']==SPECIALIST]
 
 def specialist_verify():
     research.identity()
@@ -289,7 +289,7 @@ def specialist_verify():
     original=research.read_preserved_source(SPECIALIST)
     record=state['migration'].get('retired_sources',{}).get(SPECIALIST)
     if record:
-        boss=preservation_text('BOSS.md')
+        boss=preservation_text('brand/BOSS.md')
         body=boss.split(SPECIALIST_MARKER+'\n',1)[1].split('<!-- specialist page context ends -->',1)[0]
         assert body==specialist_context(original)
         assert (ROOT/SPECIALIST).read_text()==specialist_stub(original,record['source_commit'])
@@ -305,28 +305,28 @@ def specialist_plan():
     original=(ROOT/SPECIALIST).read_text()
     commit=research.git('rev-parse','HEAD').strip()
     assert research.git('show',commit+':'+SPECIALIST)==original
-    boss=(ROOT/'BOSS.md').read_text()
+    boss=(ROOT/'brand/BOSS.md').read_text()
     assert SPECIALIST_MARKER not in boss
     before,section=boss.split('\n## GM-800\n',1)
     body,separator,after=section.partition('\n## ')
     context='\n### Preserved specialist scope and archive navigation\n\nHistorical page context;original technical snapshot and excluded-scope wording retained.\n\n'+SPECIALIST_MARKER+'\n'+specialist_context(original)+'<!-- specialist page context ends -->\n'
     boss=before+'\n## GM-800\n'+body+context+(separator+after if separator else '')
     stub=specialist_stub(original,commit)
-    state['migration']['retired_sources'][SPECIALIST]=dict(source_commit=commit,source_sha256=shared.digest(original),redirect_sha256=shared.digest(stub),destination='BOSS.md#gm-800',original_headings=shared.headings(original),incoming_before=specialist_incoming(),status='retired_specialist_redirect',context_destination='BOSS.md#preserved-specialist-scope-and-archive-navigation',excluded_destination='SINGLE-GUITAR.md')
+    state['migration']['retired_sources'][SPECIALIST]=dict(source_commit=commit,source_sha256=shared.digest(original),redirect_sha256=shared.digest(stub),destination='brand/BOSS.md#gm-800',original_headings=shared.headings(original),incoming_before=specialist_incoming(),status='retired_specialist_redirect',context_destination='brand/BOSS.md#preserved-specialist-scope-and-archive-navigation',excluded_destination='single-guitar.md')
     state['cursor'].update(model='Legacy JSON and navigation audit',task='Specialist page now preserves GM-800 body,full original excluded archive and remaining scope/navigation context in root documents. All technical legacy Markdown pages are redirects;verify remaining JSON snapshots and complete navigation coverage. Technical gaps and fresh Shopee discovery remain.')
-    outputs={SPECIALIST:stub,'BOSS.md':boss,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
-    inputs={p:shared.digest((ROOT/p).read_text()) for p in [*outputs,'SINGLE-GUITAR.md','SINGLE-VOCAL.md','scripts/technical_retirement.py','Makefile']}
+    outputs={SPECIALIST:stub,'brand/BOSS.md':boss,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
+    inputs={p:shared.digest((ROOT/p).read_text()) for p in [*outputs,'single-guitar.md','single-vocal.md','scripts/technical_retirement.py','Makefile']}
     SPECIALIST_PLAN.write_text(json.dumps(dict(inputs=inputs,outputs=outputs,rollback=dict(source_commit=commit,exact_paths=list(outputs),method='Restore these exact files from pinned source_commit before any later edits;original Git blobs are retained')),ensure_ascii=False,indent=2)+'\n')
     print('Exact specialist plan: '+str(SPECIALIST_PLAN)+';paths='+json.dumps(list(outputs)))
 
 def specialist_apply():
     research.identity()
     payload=json.loads(SPECIALIST_PLAN.read_text())
-    assert set(payload['outputs'])=={SPECIALIST,'BOSS.md','research-state.json'}
+    assert set(payload['outputs'])=={SPECIALIST,'brand/BOSS.md','research-state.json'}
     for path,sha in payload['inputs'].items():
         live=(ROOT/path).read_text()
         assert shared.digest(live)==sha or payload['outputs'].get(path)==live,'Changed input: '+path
-    for path in ['BOSS.md','research-state.json',SPECIALIST]:
+    for path in ['brand/BOSS.md','research-state.json',SPECIALIST]:
         shared.atomic_write(ROOT/path,payload['outputs'][path])
     specialist_verify()
 
@@ -335,7 +335,7 @@ def specialist_commit():
     comparison_views.verify_views()
     assert not research.git('diff','--cached','--name-only').strip(),'Existing staged work'
     changed=set(research.git('diff','--name-only').splitlines())|set(research.git('ls-files','--others','--exclude-standard').splitlines())
-    allowed={SPECIALIST,'BOSS.md','research-state.json','scripts/technical_retirement.py','Makefile'}
+    allowed={SPECIALIST,'brand/BOSS.md','research-state.json','scripts/technical_retirement.py','Makefile'}
     assert changed<=allowed,changed-allowed
     research.git('add','--',*sorted(changed))
     print(research.git('diff','--cached','--stat'))

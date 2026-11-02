@@ -2243,3 +2243,20 @@ expression-audit-stage-mod:
 .PHONY: research-stage-display-collection
 research-stage-display-collection:
 	python3 scripts/display_audit_melofty.py stage-collection
+
+.PHONY: brand-filename-plan brand-filename-apply brand-filename-verify brand-filename-stage brand-filename-commit
+brand-filename-plan:
+	python3 scripts/brand_filename_migration.py plan
+brand-filename-apply:
+	python3 scripts/brand_filename_migration.py apply
+brand-filename-verify:
+	python3 scripts/brand_filename_migration.py verify
+brand-filename-stage:
+	python3 scripts/brand_filename_migration.py stage
+brand-filename-commit:
+	python3 scripts/brand_filename_migration.py commit
+
+
+.PHONY: brand-filename-diff-check
+brand-filename-diff-check:
+	python3 scripts/brand_filename_migration.py diffcheck

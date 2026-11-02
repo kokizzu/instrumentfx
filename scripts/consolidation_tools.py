@@ -159,7 +159,7 @@ def verify_preserved(state):
 def plan_gp200():
     research_tools.identity()
     model, source_path = MODELS['gp-200']
-    brand_file = 'VALETON.md'
+    brand_file = 'brand/VALETON.md'
     state_text = (ROOT/'research-state.json').read_text()
     state = json.loads(state_text)
     assert model not in state['root_brand_content'][brand_file]
@@ -204,7 +204,7 @@ Separate rotary/button counts and toe operation; complete current category choic
     state['root_brand_content'][brand_file].append(model)
     state['canonical_root_model_count'] += 1
     state['legacy_only_model_count'] -= 1
-    entry = dict(models=['Valeton GP-200'],model_name=model,brand='Valeton',destination='VALETON.md#gp-200',source=source_path,checked_date='2026-10-17',verification_kind='complete-model-rows-v1',source_sha256=digest(source),retained_comparison_facts=facts,retained_context=contexts,retained_source_urls=urls,status='Consolidated; new GP-200X offer and NAM-conversion evidence; partial')
+    entry = dict(models=['Valeton GP-200'],model_name=model,brand='Valeton',destination='brand/VALETON.md#gp-200',source=source_path,checked_date='2026-10-17',verification_kind='complete-model-rows-v1',source_sha256=digest(source),retained_comparison_facts=facts,retained_context=contexts,retained_source_urls=urls,status='Consolidated; new GP-200X offer and NAM-conversion evidence; partial')
     state['consolidation_and_price_findings'].append(entry)
     state['discovery_leads'].append(dict(model='Valeton GP-200X',checked_date='2026-10-17',status='Anniversary variant retained under GP-200; no additional model count',url='https://shopee.co.id/Valeton-GP-200X-Multi-Effects-Processor-GP200X-GP-200-X-GP-200X-GP200-X-i.760002726.48805823582',seller='Gallery Music Bekasi',seller_id='760002726',item_id='48805823582',indexed_idr=6620000,reopened_indexed_idr=6486800,qualification='Both with-voucher cached snapshots; discrepant values retained. Condition/bundle/region/checkout stock unconfirmed. Other sold-out exact item548551522/27173361420 indexed6350000; reopen cache miss.'))
     state['discovery_search_pass_20261017'] = dict(queries=['site:shopee.co.id MOOER GS1000 Li','site:shopee.co.id Valeton GP-200X'],result='No exact GS1000 Li hardware lead returned. GP-200X exact hardware offers found; official shared-feature statement supports variant within existing GP-200 record. Counts unchanged; absence of another exact lead is not market coverage.')
@@ -225,7 +225,7 @@ def plan_hx_stomp():
     model, source_path = MODELS['hx-stomp']
     state_text = (ROOT/'research-state.json').read_text()
     state = json.loads(state_text)
-    assert model not in state['root_brand_content']['LINE6.md']
+    assert model not in state['root_brand_content']['brand/LINE6.md']
     comparison = json.loads(Path('/tmp/instrumentfx-comparison-plan.json').read_text())
     assert comparison['ledger_hash'] == digest(state_text), 'Run make comparison-plan first'
     record = comparison['records']['Line 6::HX Stomp']
@@ -267,18 +267,18 @@ def plan_hx_stomp():
 
 The product page/FAQ still contain six-block wording. Retain the firmware3.0 eight-block correction above; do not revert based on launch copy or equate advertised available-model totals with simultaneous capacity. Firmware-current category counts, exact synth/acoustic algorithms, IR import conversion, NAM/capture support, screen touch/pixels, detailed USB channel/driver/updater requirements and looper/drum limits remain open. No sibling XL specifications are substituted. Published2.4-inch display and numbered control descriptions are model-specific evidence; no screen size was measured from a photo. The3.80 manual/guide details above came from indexed original-document excerpts; full-file reading or visual inspection is not claimed.
 '''
-    brand = (ROOT/'LINE6.md').read_text().replace('Other legacy Line 6 records still require consolidation; no whole-repository migration claim is made.', 'All eight recorded Line 6 models now have root records; specification checks and market discovery remain incomplete.')
+    brand = (ROOT/'brand/LINE6.md').read_text().replace('Other legacy Line 6 records still require consolidation; no whole-repository migration claim is made.', 'All eight recorded Line 6 models now have root records; specification checks and market discovery remain incomplete.')
     old_count, old_legacy = state['canonical_root_model_count'],state['legacy_only_model_count']
-    state['root_brand_content']['LINE6.md'].append(model)
+    state['root_brand_content']['brand/LINE6.md'].append(model)
     state['canonical_root_model_count'] += 1
     state['legacy_only_model_count'] -= 1
-    state['consolidation_and_price_findings'].append(dict(models=['Line 6 HX Stomp'],model_name=model,brand='Line 6',destination='LINE6.md#hx-stomp',source=source_path,checked_date='2026-10-17',verification_kind='complete-model-rows-v1',source_sha256=digest(source),retained_comparison_facts=facts,retained_context=contexts,retained_source_urls=urls,status='Consolidated, partial; primary controls/display and qualified IDR offers added; indexed manual access limits explicit'))
+    state['consolidation_and_price_findings'].append(dict(models=['Line 6 HX Stomp'],model_name=model,brand='Line 6',destination='brand/LINE6.md#hx-stomp',source=source_path,checked_date='2026-10-17',verification_kind='complete-model-rows-v1',source_sha256=digest(source),retained_comparison_facts=facts,retained_context=contexts,retained_source_urls=urls,status='Consolidated, partial; primary controls/display and qualified IDR offers added; indexed manual access limits explicit'))
     state['discovery_leads'].append(dict(model='Line 6 HX Stomp',checked_date='2026-10-17',status='Existing model refreshed; no duplicate count',urls=['https://shopee.co.id/Line-6-HX-Stomp-%28Second-Bekas-Preloved%29-Digital-Multi-Effects-Electric-Guitar-Bass-Keyboard-Efek-Gitar-Elektrik-Akustik-i.91725285.26545060709','https://shopee.co.id/LINE-6-HX-STOMP-MULTI-EFFECTS-GUITAR-PEDAL-BLACK-i.440477624.23519849983'],qualification='Used8900000,explicitsecond/preloved,Habis,otnielsusanto Surabaya. Retail11229000,ROCKPIZZ MUSIC Denpasar,staleAugust delivery. Condition/accessories/region/checkout stock unconfirmed.'))
     state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
-    state['cursor'].update(model='IK Multimedia TONEX ONE — complete legacy consolidation',task='Read complete advanced-modelers source and all model-specific records for TONEX ONE. Preserve20-versus30 preset contradiction and original firmware/software dates; verify model-specific current official evidence and exact Shopee offers, consolidate in root IK-MULTIMEDIA.md and commit before TONEX Pedal. Continue remaining legacy models and fresh discovery.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    state['cursor'].update(model='IK Multimedia TONEX ONE — complete legacy consolidation',task='Read complete advanced-modelers source and all model-specific records for TONEX ONE. Preserve20-versus30 preset contradiction and original firmware/software dates; verify model-specific current official evidence and exact Shopee offers, consolidate in root brand/IK-MULTIMEDIA.md and commit before TONEX Pedal. Continue remaining legacy models and fresh discovery.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
     readme = (ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely').replace('Helix LT,HX Stomp XL |','Helix LT,HX Stomp XL,HX Stomp |')
     multi = (ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
-    outputs={'LINE6.md':brand+section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
+    outputs={'brand/LINE6.md':brand+section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
     payload=dict(model_id='hx-stomp',model=model,inputs={p:digest((ROOT/p).read_text()) for p in list(outputs)+[source_path]},outputs=outputs,rollback_commit=research_tools.git('rev-parse','HEAD').strip())
     PLAN.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
     print('Preview HX Stomp: exact writes '+', '.join(outputs)+f'; canonical {old_count}->{old_count+1}; legacy {old_legacy}->{old_legacy-1}; active unchanged. Rollback '+payload['rollback_commit'])
@@ -289,7 +289,7 @@ The product page/FAQ still contain six-block wording. Retain the firmware3.0 eig
 def plan_tonex_one():
     research_tools.identity()
     model, source_path = MODELS['tonex-one']
-    brand_file = 'IK-MULTIMEDIA.md'
+    brand_file = 'brand/IK-MULTIMEDIA.md'
     assert not (ROOT/brand_file).exists(), 'Inspect existing brand content before merging'
     state_text = (ROOT/'research-state.json').read_text()
     state = json.loads(state_text)
@@ -345,9 +345,9 @@ The source body retains the original20/30 conflict and historical USD199.99 quot
     state['consolidation_and_price_findings'].append(dict(models=['IK Multimedia TONEX ONE'],model_name=model,brand='IK Multimedia',destination=brand_file+'#tonex-one',source=source_path,checked_date='2026-10-17',verification_kind='complete-model-rows-v1',source_sha256=digest(source),retained_comparison_facts=facts,retained_context=contexts,retained_source_urls=urls,manual_source=manual,manual_revision='v1.0 rev05 dated2024/03/17',status='Consolidated, partial;20/30 contradiction preserved; standard bass membership supported by direct primary documentation'))
     state['discovery_leads'].append(dict(model='IK Multimedia TONEX ONE',checked_date='2026-10-17',status='Existing model refreshed; no new unique model',urls=['https://shopee.co.id/IK-Multimedia-TONEX-ONE-Stompbox-Modeler-i.16879370.28250929069','https://shopee.co.id/IK-Multimedia-TONEX-ONE-Amplifier-Cab-Pedal-Modeler-Efek-Gitar-Bass-i.253483262.26851077985'],qualification='Seven Stereo Bandung3420000 exact standard hardware; condition/license/bundle/region/checkout stock unknown. TOKOAUDIOPRO JakartaPusat3550000–4100000 two unspecified variations, excluded from retail comparison until mapping verified.'))
     state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
-    state['cursor'].update(model='IK Multimedia TONEX Pedal — complete legacy consolidation',task='Read complete TONEX Pedal legacy rows and supporting original comparison. Consolidate in existing IK-MULTIMEDIA.md without losing firmware-qualified effects, prices or source URLs. Verify model-specific bass use and current official/manual/Shopee evidence; commit before another model. Continue remaining legacy models and fresh discovery.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    state['cursor'].update(model='IK Multimedia TONEX Pedal — complete legacy consolidation',task='Read complete TONEX Pedal legacy rows and supporting original comparison. Consolidate in existing brand/IK-MULTIMEDIA.md without losing firmware-qualified effects, prices or source URLs. Verify model-specific bass use and current official/manual/Shopee evidence; commit before another model. Continue remaining legacy models and fresh discovery.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
     readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely').replace('55 documented bass-capable models: 11 bass-focused plus 44 shared processors','56 documented bass-capable models: 11 bass-focused plus 45 shared processors')
-    readme=readme.replace('| [JOYO.md](JOYO.md)', '| [IK-MULTIMEDIA.md](IK-MULTIMEDIA.md) |TONEX ONE |\n| [JOYO.md](JOYO.md)')
+    readme=readme.replace('| [brand/JOYO.md](brand/JOYO.md)', '| [brand/IK-MULTIMEDIA.md](brand/IK-MULTIMEDIA.md) |TONEX ONE |\n| [brand/JOYO.md](brand/JOYO.md)')
     multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
     outputs={brand_file:section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
     inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path]}
@@ -362,7 +362,7 @@ The source body retains the original20/30 conflict and historical USD199.99 quot
 def plan_tonex_pedal():
     research_tools.identity()
     model, source_path = MODELS['tonex-pedal']
-    brand_file = 'IK-MULTIMEDIA.md'
+    brand_file = 'brand/IK-MULTIMEDIA.md'
     state_text = (ROOT/'research-state.json').read_text()
     state = json.loads(state_text)
     assert model not in state['root_brand_content'][brand_file]
@@ -416,8 +416,8 @@ Current firmware-specific processing concurrency and complete category algorithm
     state['consolidation_and_price_findings'].append(dict(models=['IK Multimedia TONEX Pedal'],model_name=model,brand='IK Multimedia',destination=brand_file+'#tonex-pedal',source=source_path,checked_date='2026-10-17',verification_kind='complete-model-rows-v1',source_sha256=digest(source),retained_comparison_facts=facts,retained_context=contexts,retained_source_urls=urls,manual_source='https://files.kraftmusic.com/media/ownersmanual/TONEX_Pedal_User_Manual.pdf',manual_revision='English1.0.4 dated2023/04/12;Japanese1.0.2 separate',status='Consolidated, partial; direct model bass evidence, qualified Shopee discrepancies and early manual limitations preserved'))
     state['discovery_leads'].append(dict(model='IK Multimedia TONEX Pedal',checked_date='2026-10-17',status='Existing model refreshed; no new unique model',urls=['https://shopee.co.id/Tonex-Pedal-IK-Multimedia-TONE-X-Pedal-Amplifier-Pedal-Modeler-ToneX-i.12356205.21991009410','https://shopee.co.id/TONEX-Pedal-IK-Multimedia-TONEX-Pedal-Amplifier-Cabinet-Pedal-Modeler-i.195817632.17298184084'],qualification='Eleven Music search7640000 versus reopen8150000. CH MUSIC indexed7640000 shipping/service unavailable,reopen failed. All condition/bundle/license/region/checkout stock unconfirmed.'))
     state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
-    state['cursor'].update(model='Neural DSP Nano Cortex — complete legacy consolidation',task='Read complete Nano Cortex record and original advanced-modelers source. Consolidate in root NEURAL-DSP.md, preserving NanOS2 limits, capture versus mic-path distinctions, power restrictions and original uncertainty. Verify primary manual/current firmware and exact Shopee offers. Commit before another model; continue remaining legacy records and fresh discovery.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
-    readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely').replace('56 documented bass-capable models: 11 bass-focused plus 45 shared processors','57 documented bass-capable models: 11 bass-focused plus 46 shared processors').replace('| [IK-MULTIMEDIA.md](IK-MULTIMEDIA.md) |TONEX ONE |','| [IK-MULTIMEDIA.md](IK-MULTIMEDIA.md) |TONEX ONE,TONEX Pedal |')
+    state['cursor'].update(model='Neural DSP Nano Cortex — complete legacy consolidation',task='Read complete Nano Cortex record and original advanced-modelers source. Consolidate in root brand/NEURAL-DSP.md, preserving NanOS2 limits, capture versus mic-path distinctions, power restrictions and original uncertainty. Verify primary manual/current firmware and exact Shopee offers. Commit before another model; continue remaining legacy records and fresh discovery.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely').replace('56 documented bass-capable models: 11 bass-focused plus 45 shared processors','57 documented bass-capable models: 11 bass-focused plus 46 shared processors').replace('| [brand/IK-MULTIMEDIA.md](brand/IK-MULTIMEDIA.md) |TONEX ONE |','| [brand/IK-MULTIMEDIA.md](brand/IK-MULTIMEDIA.md) |TONEX ONE,TONEX Pedal |')
     multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
     outputs={brand_file:brand+section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
     payload=dict(model_id='tonex-pedal',model=model,inputs={p:digest((ROOT/p).read_text()) for p in list(outputs)+[source_path]},outputs=outputs,rollback_commit=research_tools.git('rev-parse','HEAD').strip())
@@ -430,7 +430,7 @@ Current firmware-specific processing concurrency and complete category algorithm
 def plan_nano_cortex():
     research_tools.identity()
     model, source_path = MODELS['nano-cortex']
-    brand_file = 'NEURAL-DSP.md'
+    brand_file = 'brand/NEURAL-DSP.md'
     assert not (ROOT/brand_file).exists()
     state_text = (ROOT/'research-state.json').read_text()
     state = json.loads(state_text)
@@ -456,9 +456,9 @@ def plan_nano_cortex():
     state['consolidation_and_price_findings'].append(dict(models=['Neural DSP Nano Cortex'],model_name=model,brand='Neural DSP',destination=brand_file+'#nano-cortex',source=source_path,checked_date='2026-10-17',verification_kind='complete-model-rows-v1',source_sha256=digest(source),retained_comparison_facts=facts,retained_context=contexts,retained_source_urls=urls,status='Consolidated; partial verification. Explicit bass capability; NanOS2.2 playback versus creation distinction retained.',new_sources=['https://neuraldsp.com/nano-cortex-device-list','https://neuraldsp.com/nano-cortex-updates/nanos-2-2-0-is-now-available','https://neuraldsp.com/nano-cortex-updates/nanos-2-2-1-is-now-available']))
     state['discovery_leads'].append(dict(model='Neural DSP Nano Cortex',checked_date='2026-10-17',status='Existing model refreshed; no unique addition',urls=['https://shopee.co.id/Neural-DSP-Nano-Cortex-Digital-Effects-Processor-i.16879370.51902266280'],qualification='Seven Stereo Music & Audio Store Bandung11900000 Habis indexed. Condition/region/bundle/voucher/final charges unverified; not live stock or used-price evidence.'))
     state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
-    state['cursor'].update(model='Audota AME-100 — complete legacy consolidation',task='Read all AME-100 legacy findings and supporting comparisons. Consolidate losslessly in root AUDOTA.md; preserve hardware revisions, ownership distinctions and all original prices/URLs/conflicts. Verify model-specific primary documentation and exact Shopee hardware offers; commit before another model. Continue remaining legacy models, fresh discovery and unresolved fields.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    state['cursor'].update(model='Audota AME-100 — complete legacy consolidation',task='Read all AME-100 legacy findings and supporting comparisons. Consolidate losslessly in root brand/AUDOTA.md; preserve hardware revisions, ownership distinctions and all original prices/URLs/conflicts. Verify model-specific primary documentation and exact Shopee hardware offers; commit before another model. Continue remaining legacy models, fresh discovery and unresolved fields.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
     readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely').replace('57 documented bass-capable models: 11 bass-focused plus 46 shared processors','58 documented bass-capable models: 11 bass-focused plus 47 shared processors')
-    readme=readme.replace('| [JOYO.md](JOYO.md)', '| [NEURAL-DSP.md](NEURAL-DSP.md) |Nano Cortex |\n| [JOYO.md](JOYO.md)')
+    readme=readme.replace('| [brand/JOYO.md](brand/JOYO.md)', '| [brand/NEURAL-DSP.md](brand/NEURAL-DSP.md) |Nano Cortex |\n| [brand/JOYO.md](brand/JOYO.md)')
     multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
     outputs={brand_file:section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
     inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path,'scripts/nano_cortex_record.txt']}
@@ -472,7 +472,7 @@ def plan_nano_cortex():
 def plan_ame100():
     research_tools.identity()
     model, source_path = MODELS['ame-100']
-    brand_file = 'AUDOTA.md'
+    brand_file = 'brand/AUDOTA.md'
     assert not (ROOT/brand_file).exists()
     state_text = (ROOT/'research-state.json').read_text()
     state = json.loads(state_text)
@@ -508,9 +508,9 @@ def plan_ame100():
     state['legacy_only_model_count'] -= 1
     state['consolidation_and_price_findings'].append(dict(models=['Audota AME-100'],model_name=model,brand='Audota',destination=brand_file+'#ame-100',source=source_path,checked_date='2026-10-17',verification_kind='complete-source-body-v1',source_sha256=digest(source),marker=prefix,renamed_references=refs,retained_comparison_facts=extra,retained_context=contexts,retained_source_urls=[],supporting_sources=shared,supporting_source_hashes={p:digest((ROOT/p).read_text()) for p in shared},status='Complete finding and supporting fields retained; partial technical verification. NAM+IR concurrency and PC backup/sharing rechecked; no exact Shopee offer.'))
     state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
-    state['cursor'].update(model='Audota AME-200 — complete legacy consolidation',task='Read complete AME-200 finding and supporting Audota comparison. Merge into existing AUDOTA.md without borrowing Pro power/battery/expression specs. Preserve220/221 and supply-current conflicts, all prices/URLs and firmware restrictions. Verify exact primary and Shopee evidence; commit before next model.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    state['cursor'].update(model='Audota AME-200 — complete legacy consolidation',task='Read complete AME-200 finding and supporting Audota comparison. Merge into existing brand/AUDOTA.md without borrowing Pro power/battery/expression specs. Preserve220/221 and supply-current conflicts, all prices/URLs and firmware restrictions. Verify exact primary and Shopee evidence; commit before next model.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
     readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely')
-    readme=readme.replace('| [JOYO.md](JOYO.md)', '| [AUDOTA.md](AUDOTA.md) |AME-100 |\n| [JOYO.md](JOYO.md)')
+    readme=readme.replace('| [brand/JOYO.md](brand/JOYO.md)', '| [brand/AUDOTA.md](brand/AUDOTA.md) |AME-100 |\n| [brand/JOYO.md](brand/JOYO.md)')
     multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
     outputs={brand_file:section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
     inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path]+shared}
@@ -523,7 +523,7 @@ def plan_ame100():
 def plan_ame200():
     research_tools.identity()
     model, source_path = MODELS['ame-200']
-    brand_file = 'AUDOTA.md'
+    brand_file = 'brand/AUDOTA.md'
     assert (ROOT/brand_file).exists()
     assert model not in json.loads((ROOT/'research-state.json').read_text())['root_brand_content'][brand_file]
     state_text = (ROOT/'research-state.json').read_text()
@@ -567,9 +567,9 @@ def plan_ame200():
     state['legacy_only_model_count'] -= 1
     state['consolidation_and_price_findings'].append(dict(models=['Audota AME-200'],model_name=model,brand='Audota',destination=brand_file+'#ame-200',source=source_path,checked_date='2026-10-17',verification_kind='complete-source-body-v1',source_sha256=digest(source),marker=prefix,renamed_references=refs,retained_comparison_facts=extra,retained_context=contexts,retained_source_urls=[],supporting_sources=shared,supporting_source_hashes={p:digest((ROOT/p).read_text()) for p in shared},status='Complete finding/supporting facts retained. English power corroborated; historical Chinese current,220/221 and40/50 conflicts retained; current NAM and Shopee access remain limited.'))
     state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
-    state['cursor'].update(model='Audota AME-200 Pro — complete legacy consolidation',task='Read full Pro finding and supporting Audota comparison. Consolidate in AUDOTA.md, preserving Pro battery/expression differences, charging-time/current/model-count conflicts and all source/price qualifications. Verify exact primary and Shopee evidence; commit before next model.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    state['cursor'].update(model='Audota AME-200 Pro — complete legacy consolidation',task='Read full Pro finding and supporting Audota comparison. Consolidate in brand/AUDOTA.md, preserving Pro battery/expression differences, charging-time/current/model-count conflicts and all source/price qualifications. Verify exact primary and Shopee evidence; commit before next model.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
     readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely')
-    readme=readme.replace('| [AUDOTA.md](AUDOTA.md) |AME-100 |', '| [AUDOTA.md](AUDOTA.md) |AME-100,AME-200 |')
+    readme=readme.replace('| [brand/AUDOTA.md](brand/AUDOTA.md) |AME-100 |', '| [brand/AUDOTA.md](brand/AUDOTA.md) |AME-100,AME-200 |')
     multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
     outputs={brand_file:(ROOT/brand_file).read_text().replace('Standard AME-100 is consolidated below.','Standard AME-100 and AME-200 are consolidated below.')+section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
     inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path]+shared}
@@ -582,7 +582,7 @@ def plan_ame200():
 def plan_ame200pro():
     research_tools.identity()
     model, source_path = MODELS['ame-200-pro']
-    brand_file = 'AUDOTA.md'
+    brand_file = 'brand/AUDOTA.md'
     assert (ROOT/brand_file).exists()
     assert model not in json.loads((ROOT/'research-state.json').read_text())['root_brand_content'][brand_file]
     state_text = (ROOT/'research-state.json').read_text()
@@ -634,9 +634,9 @@ def plan_ame200pro():
     state['legacy_only_model_count'] -= 1
     state['consolidation_and_price_findings'].append(dict(models=['Audota AME-200 Pro'],model_name=model,brand='Audota',destination=brand_file+'#ame-200-pro',source=source_path,checked_date='2026-10-17',verification_kind='complete-source-body-v1',source_sha256=digest(source),marker=prefix,renamed_references=refs,retained_comparison_facts=extra,retained_context=contexts,retained_source_urls=[],supporting_sources=shared,supporting_source_hashes={p:digest((ROOT/p).read_text()) for p in shared},status='Complete Pro finding and all supporting rows retained; firmware-qualified A1/A2 confirmed, charging/control/IR/count conflicts and qualified Shopee offers preserved.'))
     state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
-    state['cursor'].update(model='Audota ACE-100 — complete legacy consolidation',task='Read complete ACE-100 finding and supporting Audota comparison; consolidate losslessly into AUDOTA.md. Verify model-specific controls, load-slot ambiguity, power/application limits and exact Shopee hardware evidence. Preserve all sources/prices/conflicts and commit before another model.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    state['cursor'].update(model='Audota ACE-100 — complete legacy consolidation',task='Read complete ACE-100 finding and supporting Audota comparison; consolidate losslessly into brand/AUDOTA.md. Verify model-specific controls, load-slot ambiguity, power/application limits and exact Shopee hardware evidence. Preserve all sources/prices/conflicts and commit before another model.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
     readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely')
-    readme=readme.replace('| [AUDOTA.md](AUDOTA.md) |AME-100,AME-200 |','| [AUDOTA.md](AUDOTA.md) |AME-100,AME-200,AME-200 Pro |')
+    readme=readme.replace('| [brand/AUDOTA.md](brand/AUDOTA.md) |AME-100,AME-200 |','| [brand/AUDOTA.md](brand/AUDOTA.md) |AME-100,AME-200,AME-200 Pro |')
     multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
     outputs={brand_file:(ROOT/brand_file).read_text().replace('Standard AME-100 and AME-200 are consolidated below.','AME-100, standard AME-200 and AME-200 Pro are consolidated below.')+section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
     inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path]+shared}
@@ -649,7 +649,7 @@ def plan_ame200pro():
 def plan_ace100():
     research_tools.identity()
     model, source_path = MODELS['ace-100']
-    brand_file = 'AUDOTA.md'
+    brand_file = 'brand/AUDOTA.md'
     assert (ROOT/brand_file).exists()
     assert model not in json.loads((ROOT/'research-state.json').read_text())['root_brand_content'][brand_file]
     state_text = (ROOT/'research-state.json').read_text()
@@ -686,9 +686,9 @@ def plan_ace100():
     state['legacy_only_model_count'] -= 1
     state['consolidation_and_price_findings'].append(dict(models=['Audota ACE-100'],model_name=model,brand='Audota',destination=brand_file+'#ace-100',source=source_path,checked_date='2026-10-17',verification_kind='complete-source-body-v1',source_sha256=digest(source),marker=prefix,renamed_references=refs,retained_comparison_facts=extra,retained_context=contexts,retained_source_urls=[],supporting_sources=shared,supporting_source_hashes={p:digest((ROOT/p).read_text()) for p in shared},status='Complete ACE finding and supporting facts retained; manufacturer LED wording and exact Apregio historical ask rechecked; memory/NAM/USB/visual-control gaps preserved.'))
     state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
-    state['cursor'].update(model='Audota AVE-100 — complete legacy consolidation',task='Read complete AVE-100 finding and supporting Audota vocal comparison. Merge losslessly into AUDOTA.md, preserving vocal-only scope, no ownership inference, original routing/phantom/firmware/looper and all source/price qualifications. Check primary and exact Shopee evidence; commit before another model.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    state['cursor'].update(model='Audota AVE-100 — complete legacy consolidation',task='Read complete AVE-100 finding and supporting Audota vocal comparison. Merge losslessly into brand/AUDOTA.md, preserving vocal-only scope, no ownership inference, original routing/phantom/firmware/looper and all source/price qualifications. Check primary and exact Shopee evidence; commit before another model.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
     readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely')
-    readme=readme.replace('| [AUDOTA.md](AUDOTA.md) |AME-100,AME-200,AME-200 Pro |','| [AUDOTA.md](AUDOTA.md) |AME-100,AME-200,AME-200 Pro,ACE-100 |')
+    readme=readme.replace('| [brand/AUDOTA.md](brand/AUDOTA.md) |AME-100,AME-200,AME-200 Pro |','| [brand/AUDOTA.md](brand/AUDOTA.md) |AME-100,AME-200,AME-200 Pro,ACE-100 |')
     multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
     outputs={brand_file:(ROOT/brand_file).read_text().replace('AME-100, standard AME-200 and AME-200 Pro are consolidated below.','AME-100, standard AME-200, AME-200 Pro and ACE-100 are consolidated below.')+section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
     inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path]+shared}
@@ -701,7 +701,7 @@ def plan_ace100():
 def plan_ave100():
     research_tools.identity()
     model, source_path = MODELS['ave-100']
-    brand_file = 'AUDOTA.md'
+    brand_file = 'brand/AUDOTA.md'
     assert (ROOT/brand_file).exists()
     assert model not in json.loads((ROOT/'research-state.json').read_text())['root_brand_content'][brand_file]
     state_text = (ROOT/'research-state.json').read_text()
@@ -744,9 +744,9 @@ def plan_ave100():
     state['legacy_only_model_count'] -= 1
     state['consolidation_and_price_findings'].append(dict(models=['Audota AVE-100'],model_name=model,brand='Audota',destination=brand_file+'#ave-100',source=source_path,checked_date='2026-10-17',verification_kind='complete-source-body-v1',source_sha256=digest(source),marker=prefix,renamed_references=refs,retained_comparison_facts=extra,retained_context=contexts,retained_source_urls=[],supporting_sources=shared,supporting_source_hashes={p:digest((ROOT/p).read_text()) for p in shared},status='Complete AVE finding and supporting vocal rows retained;1.2.0 notes,65s looper and sold-out Shopee quote rechecked; vocal-only/no ownership inference preserved.'))
     state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
-    state['cursor'].update(model='Boin Audio BG300 — complete legacy consolidation',task='Read complete BG300 finding and all supporting comparisons. Consolidate losslessly into root BOIN-AUDIO.md, preserving exact model/source identity, power, firmware, ports, prices and unknowns. Check primary and exact Shopee evidence; commit before next model. Continue remaining legacy consolidation, fresh discovery and unresolved fields.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    state['cursor'].update(model='Boin Audio BG300 — complete legacy consolidation',task='Read complete BG300 finding and all supporting comparisons. Consolidate losslessly into root brand/BOIN-AUDIO.md, preserving exact model/source identity, power, firmware, ports, prices and unknowns. Check primary and exact Shopee evidence; commit before next model. Continue remaining legacy consolidation, fresh discovery and unresolved fields.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
     readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely')
-    readme=readme.replace('| [AUDOTA.md](AUDOTA.md) |AME-100,AME-200,AME-200 Pro,ACE-100 |','| [AUDOTA.md](AUDOTA.md) |AME-100,AME-200,AME-200 Pro,ACE-100,AVE-100 |')
+    readme=readme.replace('| [brand/AUDOTA.md](brand/AUDOTA.md) |AME-100,AME-200,AME-200 Pro,ACE-100 |','| [brand/AUDOTA.md](brand/AUDOTA.md) |AME-100,AME-200,AME-200 Pro,ACE-100,AVE-100 |')
     multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
     outputs={brand_file:(ROOT/brand_file).read_text().replace('AME-100, standard AME-200, AME-200 Pro and ACE-100 are consolidated below. Other recorded Audota models still need their complete root-brand merge. Research remains partial.','All five recorded Audota models are consolidated below: AME-100, standard AME-200, AME-200 Pro, ACE-100 and vocal-only AVE-100. Technical research and market coverage remain partial.')+section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
     inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path]+shared}
@@ -759,7 +759,7 @@ def plan_ave100():
 def plan_bg300():
     research_tools.identity()
     model, source_path = MODELS['bg300']
-    brand_file = 'BOIN-AUDIO.md'
+    brand_file = 'brand/BOIN-AUDIO.md'
     assert not (ROOT/brand_file).exists()
     assert model not in json.loads((ROOT/'research-state.json').read_text())['root_brand_content'].get(brand_file, [])
     state_text = (ROOT/'research-state.json').read_text()
@@ -804,9 +804,9 @@ def plan_bg300():
     state['legacy_only_model_count'] -= 1
     state['consolidation_and_price_findings'].append(dict(models=['Boin Audio BG300'],model_name=model,brand='Boin Audio',destination=brand_file+'#bg300',source=source_path,checked_date='2026-10-17',verification_kind='complete-source-body-v1',source_sha256=digest(source),marker=prefix,renamed_references=refs,retained_comparison_facts=extra,retained_context=contexts,retained_source_urls=[],supporting_sources=shared,supporting_source_hashes={p:digest((ROOT/p).read_text()) for p in shared},link_normalizations=normalizations,status='Complete BG300 finding and supporting fields retained; manual-profile revision/display/power/I-O/count conflicts and qualified Shopee/local asks preserved.'))
     state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
-    state['cursor'].update(model='Scorpion KMF-10 — complete legacy consolidation',task='Read complete KMF-10 finding and supporting comparisons; consolidate losslessly into root SCORPION.md. Preserve brand-source conflicts, power/current/preset uncertainties and exact prices/URLs. Check primary and Shopee evidence; commit before next model. Continue remaining legacy records, fresh discovery and unresolved fields.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    state['cursor'].update(model='Scorpion KMF-10 — complete legacy consolidation',task='Read complete KMF-10 finding and supporting comparisons; consolidate losslessly into root brand/SCORPION.md. Preserve brand-source conflicts, power/current/preset uncertainties and exact prices/URLs. Check primary and Shopee evidence; commit before next model. Continue remaining legacy records, fresh discovery and unresolved fields.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
     readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely')
-    readme=readme.replace('| [JOYO.md](JOYO.md)', '| [BOIN-AUDIO.md](BOIN-AUDIO.md) |BG300 |\n| [JOYO.md](JOYO.md)')
+    readme=readme.replace('| [brand/JOYO.md](brand/JOYO.md)', '| [brand/BOIN-AUDIO.md](brand/BOIN-AUDIO.md) |BG300 |\n| [brand/JOYO.md](brand/JOYO.md)')
     multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
     outputs={brand_file:section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
     inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path]+shared}
@@ -819,7 +819,7 @@ def plan_bg300():
 def plan_kmf10():
     research_tools.identity()
     model, source_path = MODELS['kmf-10']
-    brand_file = 'SCORPION.md'
+    brand_file = 'brand/SCORPION.md'
     assert not (ROOT/brand_file).exists()
     assert model not in json.loads((ROOT/'research-state.json').read_text())['root_brand_content'].get(brand_file, [])
     state_text = (ROOT/'research-state.json').read_text()
@@ -859,9 +859,9 @@ def plan_kmf10():
     state['legacy_only_model_count'] -= 1
     state['consolidation_and_price_findings'].append(dict(models=['Scorpion KMF-10'],model_name=model,brand='Scorpion',destination=brand_file+'#kmf-10',source=source_path,checked_date='2026-10-17',verification_kind='complete-source-body-v1',source_sha256=digest(source),marker=prefix,renamed_references=refs,retained_comparison_facts=extra,retained_context=contexts,retained_source_urls=[],supporting_sources=shared,supporting_source_hashes={p:digest((ROOT/p).read_text()) for p in shared},link_normalizations=normalizations,status='Complete KMF-10 finding and supporting fields retained; brand access unavailable on refresh; exact Shopee ask rechecked; power/preset/amp-cab/USB uncertainty preserved.'))
     state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
-    state['cursor'].update(model='TC-Helicon VoiceLive Play — complete legacy consolidation',task='Read complete VoiceLive Play finding and all supporting comparisons. Consolidate losslessly into root TC-HELICON.md. Preserve original firmware model counts, looper/display/memory/power uncertainties, exact URLs and price qualifications. Check primary and Shopee evidence; commit before next model. Continue Play Acoustic and other remaining legacy records, fresh discovery and unresolved fields.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    state['cursor'].update(model='TC-Helicon VoiceLive Play — complete legacy consolidation',task='Read complete VoiceLive Play finding and all supporting comparisons. Consolidate losslessly into root brand/TC-HELICON.md. Preserve original firmware model counts, looper/display/memory/power uncertainties, exact URLs and price qualifications. Check primary and Shopee evidence; commit before next model. Continue Play Acoustic and other remaining legacy records, fresh discovery and unresolved fields.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
     readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely')
-    readme=readme.replace('| [JOYO.md](JOYO.md)', '| [SCORPION.md](SCORPION.md) |KMF-10 |\n| [JOYO.md](JOYO.md)')
+    readme=readme.replace('| [brand/JOYO.md](brand/JOYO.md)', '| [brand/SCORPION.md](brand/SCORPION.md) |KMF-10 |\n| [brand/JOYO.md](brand/JOYO.md)')
     multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
     outputs={brand_file:section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
     inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path]+shared}
@@ -874,7 +874,7 @@ def plan_kmf10():
 def plan_voiceliveplay():
     research_tools.identity()
     model, source_path = MODELS['voicelive-play']
-    brand_file = 'TC-HELICON.md'
+    brand_file = 'brand/TC-HELICON.md'
     assert not (ROOT/brand_file).exists()
     assert model not in json.loads((ROOT/'research-state.json').read_text())['root_brand_content'].get(brand_file, [])
     state_text = (ROOT/'research-state.json').read_text()
@@ -910,9 +910,9 @@ def plan_voiceliveplay():
     state['legacy_only_model_count'] -= 1
     state['consolidation_and_price_findings'].append(dict(models=['TC-Helicon VoiceLive Play'],model_name=model,brand='TC-Helicon',destination=brand_file+'#voicelive-play',source=source_path,checked_date='2026-10-17',verification_kind='complete-source-body-v1',source_sha256=digest(source),marker=prefix,renamed_references=refs,retained_comparison_facts=extra,retained_context=contexts,retained_source_urls=[],supporting_sources=shared,supporting_source_hashes={p:digest((ROOT/p).read_text()) for p in shared},link_normalizations=normalizations,status='Complete VoiceLive Play finding/supporting rows retained; v1.0 firmware context preserved; manufacturer access limited and exact sold-out Shopee ask rechecked.'))
     state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
-    state['cursor'].update(model='TC-Helicon Play Acoustic — complete legacy consolidation',task='Read complete Play Acoustic finding and supporting comparisons. Merge losslessly into TC-HELICON.md, preserving distinct guitar/vocal paths, BodyRez meaning, global guitar settings, firmware/looper/model-count conflicts and all source/price qualifications. Check primary and exact Shopee evidence; commit before another model. Continue remaining legacy records, discovery and unresolved fields.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    state['cursor'].update(model='TC-Helicon Play Acoustic — complete legacy consolidation',task='Read complete Play Acoustic finding and supporting comparisons. Merge losslessly into brand/TC-HELICON.md, preserving distinct guitar/vocal paths, BodyRez meaning, global guitar settings, firmware/looper/model-count conflicts and all source/price qualifications. Check primary and exact Shopee evidence; commit before another model. Continue remaining legacy records, discovery and unresolved fields.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
     readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely')
-    readme=readme.replace('| [JOYO.md](JOYO.md)', '| [TC-HELICON.md](TC-HELICON.md) |VoiceLive Play |\n| [JOYO.md](JOYO.md)')
+    readme=readme.replace('| [brand/JOYO.md](brand/JOYO.md)', '| [brand/TC-HELICON.md](brand/TC-HELICON.md) |VoiceLive Play |\n| [brand/JOYO.md](brand/JOYO.md)')
     multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
     outputs={brand_file:section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
     inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path]+shared}
@@ -925,7 +925,7 @@ def plan_voiceliveplay():
 def plan_playacoustic():
     research_tools.identity()
     model, source_path = MODELS['play-acoustic']
-    brand_file = 'TC-HELICON.md'
+    brand_file = 'brand/TC-HELICON.md'
     assert (ROOT/brand_file).exists()
     assert model not in json.loads((ROOT/'research-state.json').read_text())['root_brand_content'][brand_file]
     assert model not in json.loads((ROOT/'research-state.json').read_text())['root_brand_content'].get(brand_file, [])
@@ -962,9 +962,9 @@ def plan_playacoustic():
     state['legacy_only_model_count'] -= 1
     state['consolidation_and_price_findings'].append(dict(models=['TC-Helicon Play Acoustic'],model_name=model,brand='TC-Helicon',destination=brand_file+'#play-acoustic',source=source_path,checked_date='2026-10-17',verification_kind='complete-source-body-v1',source_sha256=digest(source),marker=prefix,renamed_references=refs,retained_comparison_facts=extra,retained_context=contexts,retained_source_urls=[],supporting_sources=shared,supporting_source_hashes={p:digest((ROOT/p).read_text()) for p in shared},link_normalizations=normalizations,status='Complete Play Acoustic finding/supporting rows retained; inspected May2014 reference preserved, inaccessible July2014 official manual lead recorded; NEO exact ask rechecked.'))
     state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
-    state['cursor'].update(model='CUVAVE H8 — complete legacy consolidation',task='Read complete H8 finding and supporting comparisons; consolidate losslessly in root CUVAVE.md, preserving CUVAVE versus M-VAVE brand/model distinctions, exact technical variants, source/price dates and unresolved fields. Check primary and Shopee evidence; commit before another model. Continue remaining VING FB-100/Roland GR-55 legacy records, fresh discovery and unresolved fields.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    state['cursor'].update(model='CUVAVE H8 — complete legacy consolidation',task='Read complete H8 finding and supporting comparisons; consolidate losslessly in root brand/CUVAVE.md, preserving CUVAVE versus M-VAVE brand/model distinctions, exact technical variants, source/price dates and unresolved fields. Check primary and Shopee evidence; commit before another model. Continue remaining VING FB-100/Roland GR-55 legacy records, fresh discovery and unresolved fields.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
     readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely')
-    readme=readme.replace('| [TC-HELICON.md](TC-HELICON.md) |VoiceLive Play |','| [TC-HELICON.md](TC-HELICON.md) |VoiceLive Play,Play Acoustic |')
+    readme=readme.replace('| [brand/TC-HELICON.md](brand/TC-HELICON.md) |VoiceLive Play |','| [brand/TC-HELICON.md](brand/TC-HELICON.md) |VoiceLive Play,Play Acoustic |')
     multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
     outputs={brand_file:(ROOT/brand_file).read_text()+section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
     inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path]+shared}
@@ -977,7 +977,7 @@ def plan_playacoustic():
 def plan_h8():
     research_tools.identity()
     model, source_path = MODELS['h8']
-    brand_file = 'CUVAVE.md'
+    brand_file = 'brand/CUVAVE.md'
     assert not (ROOT/brand_file).exists()
     assert model not in json.loads((ROOT/'research-state.json').read_text())['root_brand_content'].get(brand_file, [])
     state_text = (ROOT/'research-state.json').read_text()
@@ -1019,9 +1019,9 @@ def plan_h8():
     state['legacy_only_model_count'] -= 1
     state['consolidation_and_price_findings'].append(dict(models=['CUVAVE H8'],model_name=model,brand='CUVAVE',destination=brand_file+'#h8',source=source_path,checked_date='2026-10-17',verification_kind='complete-source-body-v1',source_sha256=digest(source),marker=prefix,renamed_references=refs,retained_comparison_facts=extra,retained_context=contexts,retained_source_urls=[],supporting_sources=shared,supporting_source_hashes={p:digest((ROOT/p).read_text()) for p in shared},link_normalizations=normalizations,status='Complete H8 finding and supporting facts retained; desktop CubeSuite support and separate qualified Shopee asks rechecked; weight/connector/mobile-editor gaps preserved.'))
     state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
-    state['cursor'].update(model='VING Flybro FB-100 — complete legacy consolidation',task='Read full FB-100 finding and supporting owner comparison; consolidate losslessly in root VING.md. Preserve VING/Flybro identity,400/450g and power-source conflicts, shared FS/EXP socket, developer-app evidence and price discrepancies. Check primary and Shopee evidence; commit before next model. Then consolidate Roland GR-55 and continue fresh discovery/unresolved-field research.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    state['cursor'].update(model='VING Flybro FB-100 — complete legacy consolidation',task='Read full FB-100 finding and supporting owner comparison; consolidate losslessly in root brand/VING.md. Preserve VING/Flybro identity,400/450g and power-source conflicts, shared FS/EXP socket, developer-app evidence and price discrepancies. Check primary and Shopee evidence; commit before next model. Then consolidate Roland GR-55 and continue fresh discovery/unresolved-field research.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
     readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely')
-    readme=readme.replace('| [JOYO.md](JOYO.md)', '| [CUVAVE.md](CUVAVE.md) |H8 |\n| [JOYO.md](JOYO.md)')
+    readme=readme.replace('| [brand/JOYO.md](brand/JOYO.md)', '| [brand/CUVAVE.md](brand/CUVAVE.md) |H8 |\n| [brand/JOYO.md](brand/JOYO.md)')
     multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
     outputs={brand_file:section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
     inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path]+shared}
@@ -1034,7 +1034,7 @@ def plan_h8():
 def plan_fb100():
     research_tools.identity()
     model, source_path = MODELS['fb100']
-    brand_file = 'VING.md'
+    brand_file = 'brand/VING.md'
     assert not (ROOT/brand_file).exists()
     assert model not in json.loads((ROOT/'research-state.json').read_text())['root_brand_content'].get(brand_file, [])
     state_text = (ROOT/'research-state.json').read_text()
@@ -1077,9 +1077,9 @@ def plan_fb100():
     state['legacy_only_model_count'] -= 1
     state['consolidation_and_price_findings'].append(dict(models=['VING Flybro FB-100'],model_name=model,brand='VING',destination=brand_file+'#flybro-fb-100',source=source_path,checked_date='2026-10-17',verification_kind='complete-source-body-v1',source_sha256=digest(source),marker=prefix,renamed_references=refs,retained_comparison_facts=extra,retained_context=contexts,retained_source_urls=[],supporting_sources=shared,supporting_source_hashes={p:digest((ROOT/p).read_text()) for p in shared},link_normalizations=normalizations,status='Complete FB-100 body/supporting facts retained; developer app verified and changed four-variation seller snapshot preserved; power/mass/IR/USB uncertainties remain.'))
     state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
-    state['cursor'].update(model='Roland GR-55 — complete legacy consolidation',task='Read complete GR-55 original finding/corrections and supporting owner comparisons. Consolidate losslessly into root ROLAND.md; preserve GK/divided-pickup restrictions, guitar/bass firmware1.50 memory changes, exact processing counts and all source/price dates. Verify model-specific primary and exact Shopee evidence, update views and commit. Then audit entire root migration and continue fresh discovery/unresolved-field research; zero legacy-only count alone does not complete the full objective.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
+    state['cursor'].update(model='Roland GR-55 — complete legacy consolidation',task='Read complete GR-55 original finding/corrections and supporting owner comparisons. Consolidate losslessly into root brand/ROLAND.md; preserve GK/divided-pickup restrictions, guitar/bass firmware1.50 memory changes, exact processing counts and all source/price dates. Verify model-specific primary and exact Shopee evidence, update views and commit. Then audit entire root migration and continue fresh discovery/unresolved-field research; zero legacy-only count alone does not complete the full objective.',after_queue=f'Continue unresolved-field checks and lossless consolidation of {old_legacy-1} legacy-only models.')
     readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely')
-    readme=readme.replace('| [JOYO.md](JOYO.md)', '| [VING.md](VING.md) |Flybro FB-100 |\n| [JOYO.md](JOYO.md)')
+    readme=readme.replace('| [brand/JOYO.md](brand/JOYO.md)', '| [brand/VING.md](brand/VING.md) |Flybro FB-100 |\n| [brand/JOYO.md](brand/JOYO.md)')
     multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
     outputs={brand_file:section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
     inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path]+shared}
@@ -1092,7 +1092,7 @@ def plan_fb100():
 def plan_gr55():
     research_tools.identity()
     model, source_path = MODELS['gr-55']
-    brand_file = 'ROLAND.md'
+    brand_file = 'brand/ROLAND.md'
     assert not (ROOT/brand_file).exists()
     assert model not in json.loads((ROOT/'research-state.json').read_text())['root_brand_content'].get(brand_file, [])
     state_text = (ROOT/'research-state.json').read_text()
@@ -1104,7 +1104,7 @@ def plan_gr55():
     source = research_tools.read_preserved_source(source_path)
     prefix = 'ROLAND-GR-55'
     body, refs = preserved_body(source, prefix)
-    normalizations={'(../OWNERSHIP.md)':'(effects/OWNERSHIP.md)','(2026-10-14-zoom-b1xon.md)':'(ZOOM.md#b1xon)','(../README.md)':'(README.md)','(../shopee-indonesia.md)':'(effects/shopee-indonesia.md)','(../RESUME.md)':'(effects/RESUME.md)'}
+    normalizations={'(../OWNERSHIP.md)':'(effects/OWNERSHIP.md)','(2026-10-14-zoom-b1xon.md)':'(brand/ZOOM.md#b1xon)','(../README.md)':'(README.md)','(../shopee-indonesia.md)':'(effects/shopee-indonesia.md)','(../RESUME.md)':'(effects/RESUME.md)'}
     for old,new in normalizations.items():
         body=body.replace(old,new)
     extra = [f for f in record['facts'] if f['source'] != source_path]
@@ -1140,7 +1140,7 @@ def plan_gr55():
     state['migration']['warning'] = f'{old_legacy-1} legacy-only models remain;{old_count+1} root-canonical. Full migration and research incomplete.'
     state['cursor'].update(model='Full root migration audit and fresh discovery',task='All126 recorded models now have root-brand records; audit complete legacy-source preservation, incoming links, comparison field coverage and root layout against the full objective. Do not equate canonical count with verified specs or completed migration. Identify uncovered bodies/URLs/fields, repair omissions, then continue fresh Shopee discovery by brand/series and unresolved primary-field research one model per commit. Keep six excluded records and ownership boundaries.',after_queue='Audit migration and unresolved fields; fresh eligible Shopee discovery remains required. No legacy-only active model count does not mean obsolete source archives may be deleted.')
     readme=(ROOT/'README.md').read_text().replace(f'{old_count} detailed',f'{old_count+1} detailed').replace(f'{old_legacy} still rely',f'{old_legacy-1} still rely')
-    readme=readme.replace('| [JOYO.md](JOYO.md)', '| [ROLAND.md](ROLAND.md) |GR-55 |\n| [JOYO.md](JOYO.md)')
+    readme=readme.replace('| [brand/JOYO.md](brand/JOYO.md)', '| [brand/ROLAND.md](brand/ROLAND.md) |GR-55 |\n| [brand/JOYO.md](brand/JOYO.md)')
     multi=(ROOT/'MULTI-EFFECTS.md').read_text().replace(f'{old_count} root-canonical',f'{old_count+1} root-canonical')
     outputs={brand_file:section,'README.md':readme,'MULTI-EFFECTS.md':multi,'research-state.json':json.dumps(state,ensure_ascii=False,indent=2)+'\n'}
     inputs={p:digest((ROOT/p).read_text()) for p in ['README.md','MULTI-EFFECTS.md','research-state.json',source_path]+shared}
@@ -1188,7 +1188,7 @@ def plan(model_id):
     research_tools.identity()
     model, source_path = MODELS[model_id]
     brand = 'Valeton' if model_id in ('gp-5', 'gp-50', 'gp-100', 'gp-150', 'gp-180', 'gp-200') else 'MOOER' if model_id in ('ge100-original','ge150-original','ge200-original','ge150-pro-li','ge100-pro','ge100-pro-li','ge200-pro','ge200-pro-li','ge150-pro','ge150-plus','ge150-plus-li','ge150-max','ge150-max-li','ge1000','ge1000-li') else 'Hotone' if model_id in ('ampero-mini','ampero-mp100','ampero-mp350','ampero-mp380','ampero-mp300') else 'Line 6' if model_id == 'hx-stomp-xl' else 'Zoom'
-    brand_file = {'Valeton':'VALETON.md','MOOER':'MOOER.md','Hotone':'HOTONE.md','Line 6':'LINE6.md','Zoom':'ZOOM.md'}[brand]
+    brand_file = {'Valeton':'brand/VALETON.md','MOOER':'brand/MOOER.md','Hotone':'brand/HOTONE.md','Line 6':'brand/LINE6.md','Zoom':'brand/ZOOM.md'}[brand]
     state = json.loads((ROOT / 'research-state.json').read_text())
     assert model not in state['root_brand_content'][brand_file], 'Already consolidated'
     comparison = json.loads(Path('/tmp/instrumentfx-comparison-plan.json').read_text())
@@ -1204,15 +1204,15 @@ def plan(model_id):
         for old, new in link_normalizations.items():
             body = body.replace(old, new)
     if model_id == 'ge100-pro-li':
-        link_normalizations = {'(2026-10-14-mooer-ge100-pro.md)':'(MOOER.md#ge100-pro)'}
+        link_normalizations = {'(2026-10-14-mooer-ge100-pro.md)':'(brand/MOOER.md#ge100-pro)'}
         for old, new in link_normalizations.items():
             body = body.replace(old, new)
     if model_id == 'ge200-pro-li':
-        link_normalizations = {'(2026-10-14-mooer-ge200-pro.md)':'(MOOER.md#ge200-pro)'}
+        link_normalizations = {'(2026-10-14-mooer-ge200-pro.md)':'(brand/MOOER.md#ge200-pro)'}
         for old, new in link_normalizations.items():
             body = body.replace(old, new)
     if model_id == 'ge1000-li':
-        link_normalizations = {'(2026-10-14-mooer-ge1000.md)':'(MOOER.md#ge1000)'}
+        link_normalizations = {'(2026-10-14-mooer-ge1000.md)':'(brand/MOOER.md#ge1000)'}
         for old, new in link_normalizations.items():
             body = body.replace(old, new)
     if model_id in ('gp-5', 'gp-50', 'gp-100', 'gp-150', 'gp-180', 'gp-200'):
@@ -1303,7 +1303,7 @@ def plan(model_id):
         section += '\n### ' + model + (' comparison fields — dated evidence' if model_id in ('gp-5','gp-50','gp-180') else ' comparison fields from retained snapshot') + '\n\n| Field | Dated evidence |\n|---|---|\n'
         for fact in extra:
             if 'Archived foreign' not in fact['context']:
-                value = fact['value'].replace('[F100]', '[detail](VALETON.md#gp-100)').replace('[F150]', '[detail](VALETON.md#gp-150)').replace('[F180]', '[detail](VALETON.md#gp-180)').replace('[F5]', '[detail](VALETON.md#gp-5)').replace('[F50]', '[detail](VALETON.md#gp-50)').replace('[controls]', '[controls](https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png)')
+                value = fact['value'].replace('[F100]', '[detail](brand/VALETON.md#gp-100)').replace('[F150]', '[detail](brand/VALETON.md#gp-150)').replace('[F180]', '[detail](brand/VALETON.md#gp-180)').replace('[F5]', '[detail](brand/VALETON.md#gp-5)').replace('[F50]', '[detail](brand/VALETON.md#gp-50)').replace('[controls]', '[controls](https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png)')
                 if model_id == 'gp-50' and fact['field'] == 'NAM / captured models':
                     value = '**SnapTone converted NAM**,80 model slots/50 supplied. **NAM A2 conversion requires hardware firmware1.1.0+ and mobile app2.1.0+**, explicitly named for GP-50 in the [official regional notice dated2026-08-18](https://www.hotone.jp/announcements/nama2allbrand), rechecked2026-10-17. Native NAM, exact supported A2 architectures and simultaneous capture limits remain unverified. Preserve older firmware1.0.5 manual context separately.'
                 if model_id == 'gp-5' and fact['field'] == 'NAM / captured models':
@@ -1359,12 +1359,12 @@ def plan(model_id):
     if model_id == 'gp-5':
         entry.update(new_sources=['https://www.hotone.jp/announcements/nama2allbrand'],scope='Complete original GP-5 finding and compact comparison preserved; model-specific NAM A2 conversion app2.1.0+ and qualified sold-out Shopee asks checked2026-10-17. July2025 FAQ remains dated, not a blanket current controller limitation.')
         state['cursor']['model'] = 'Valeton GP-50 — complete legacy consolidation and NAM revision'
-        state['cursor']['task'] = 'Read complete GP-50 finding and compact supporting source; consolidate into VALETON.md, preserve original dates, verify regional NAM A2 conversion firmware1.1.0+ with mobile2.1.0+, and commit before another model. Then continue remaining legacy records and fresh Shopee discovery.'
+        state['cursor']['task'] = 'Read complete GP-50 finding and compact supporting source; consolidate into brand/VALETON.md, preserve original dates, verify regional NAM A2 conversion firmware1.1.0+ with mobile2.1.0+, and commit before another model. Then continue remaining legacy records and fresh Shopee discovery.'
         state['discovery_leads'].append(dict(model='Valeton GP-5',checked_date='2026-10-17',status='Existing model refreshed; no count addition',urls=['https://shopee.co.id/Valeton-GP-5-GP5-GP-5-Multi-FX-Amp-And-IR-Loader-Mini-Pedal-i.703046367.29241009193','https://shopee.co.id/Valeton-GP-5-Multi-Effects-Processor-SnapTone-IR-Loader-Efek-Gitar-i.331131666.43506785697'],qualification='Asia Pro Sound1585000 Habis on reopen; search omitted label. kitharraguitarshop1605000 Habis indexed; reopen cache miss. Retail hardware asks, not used-price or live-stock proof. Condition/bundle/region/voucher/delivered charges unconfirmed.'))
     if model_id == 'gp-50':
         entry.update(new_sources=['https://www.hotone.jp/announcements/nama2allbrand'],scope='Complete original GP-50 finding and compact comparison preserved; NAM A2 conversion firmware1.1.0+/mobile2.1.0+ and qualified exact Shopee observations checked2026-10-17. Older1.0.5 manual and sold-out retail evidence retain dates.')
         state['cursor']['model'] = 'Line 6 HX Stomp — complete legacy consolidation'
-        state['cursor']['task'] = 'Read complete HX Stomp original finding and all supporting comparison material, consolidate losslessly in LINE6.md, verify model-specific unresolved fields where primary evidence is accessible, update views and commit before another model. Continue fresh Shopee discovery and remaining legacy consolidation; all eight current Valeton models are root-canonical but partial.'
+        state['cursor']['task'] = 'Read complete HX Stomp original finding and all supporting comparison material, consolidate losslessly in brand/LINE6.md, verify model-specific unresolved fields where primary evidence is accessible, update views and commit before another model. Continue fresh Shopee discovery and remaining legacy consolidation; all eight current Valeton models are root-canonical but partial.'
         state['discovery_leads'].append(dict(model='Valeton GP-50',checked_date='2026-10-17',status='Existing model refreshed; no count addition',urls=['https://shopee.co.id/VALETON-GP-50-MULTI-EFFECT-PROCESSOR-Gp50-efek-valeton-gp50-i.945642322.55704518866','https://shopee.co.id/Valeton-GP-50-GP50-Multi-Effects-Processor-i.495337904.56105944082'],qualification='HOLY MUSIC search2245000 versus reopened2255000,stock unconfirmed. Diana Musik2255000 Habis,stale8September delivery. Condition/bundle/region/delivered costs/voucher eligibility unknown.'))
     readme = (ROOT / 'README.md').read_text().replace(f'{old_count} detailed', f'{old_count+1} detailed').replace(f'{old_legacy} still rely', f'{old_legacy-1} still rely')
     readme = re.sub(r'(\| \['+re.escape(brand_file)+r'\]\('+re.escape(brand_file)+r'\) \|)([^\n]+) \|', lambda m: m[1]+m[2]+','+model+' |', readme)
@@ -1404,7 +1404,7 @@ def commit(model_id):
     research_tools.verify()
     comparison_views.verify_views()
     assert not research_tools.git('diff', '--cached', '--name-only').strip(), 'Existing staged work must be inspected'
-    paths = ['scripts/ledger_history.py', 'ROLAND.md', 'VING.md', 'CUVAVE.md', 'TC-HELICON.md', 'SCORPION.md', 'BOIN-AUDIO.md', 'AUDOTA.md', 'NEURAL-DSP.md', 'scripts/nano_cortex_record.txt', 'IK-MULTIMEDIA.md', 'VALETON.md', 'MOOER.md', 'HOTONE.md', 'LINE6.md', 'BOSS.md', 'ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'ALL-GUITAR.md', 'ALL-BASS.md', 'ALL-VOCAL.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
+    paths = ['scripts/ledger_history.py', 'brand/ROLAND.md', 'brand/VING.md', 'brand/CUVAVE.md', 'brand/TC-HELICON.md', 'brand/SCORPION.md', 'brand/BOIN-AUDIO.md', 'brand/AUDOTA.md', 'brand/NEURAL-DSP.md', 'scripts/nano_cortex_record.txt', 'brand/IK-MULTIMEDIA.md', 'brand/VALETON.md', 'brand/MOOER.md', 'brand/HOTONE.md', 'brand/LINE6.md', 'brand/BOSS.md', 'brand/ZOOM.md', 'README.md', 'MULTI-EFFECTS.md', 'research-state.json', 'all-guitar.md', 'all-bass.md', 'all-vocal.md', 'Makefile', 'scripts/consolidation_tools.py', 'scripts/comparison_views.py', 'scripts/research_tools.py']
     print(research_tools.git('status', '--short'))
     print(research_tools.git('add', '--', *paths))
     print(research_tools.git('diff', '--cached', '--stat'))
@@ -1522,7 +1522,7 @@ def audit_legacy():
     research_tools.identity()
     state = json.loads(preservation_text('research-state.json'))
     files = sorted((ROOT/'effects').rglob('*.md'))
-    all_md = sorted(ROOT.glob('*.md')) + files
+    all_md = sorted(ROOT.glob('*.md')) + sorted((ROOT/'brand').glob('*.md')) + files
     texts = {str(p.relative_to(ROOT)): p.read_text() for p in all_md}
     incoming = {str(p.relative_to(ROOT)): [] for p in files}
     # Lexical file-link inventory; deliberately does not certify anchors or prose.
@@ -1560,7 +1560,7 @@ def audit_legacy():
 def audit_compact_matribox():
     research_tools.identity()
     source = research_tools.read_preserved_source('effects/guitar-compact.md')
-    destination = preservation_text('SONICAKE.md').split('\n## Matribox QME-50\n',1)[1].split('\n## ',1)[0]
+    destination = preservation_text('brand/SONICAKE.md').split('\n## Matribox QME-50\n',1)[1].split('\n## ',1)[0]
     facts = []
     for headers, rows, context in comparison_views.tables(source):
         for row in rows:
@@ -1579,7 +1579,7 @@ def audit_compact_matribox():
 def audit_compact_smartbox():
     research_tools.identity()
     source = research_tools.read_preserved_source('effects/guitar-compact.md')
-    destination = preservation_text('SONICAKE.md').split('\n## Smart Box QME-20\n',1)[1].split('\n## ',1)[0]
+    destination = preservation_text('brand/SONICAKE.md').split('\n## Smart Box QME-20\n',1)[1].split('\n## ',1)[0]
     facts = []
     for headers, rows, context in comparison_views.tables(source):
         for row in rows:
@@ -1598,7 +1598,7 @@ def audit_compact_smartbox():
 def audit_compact_pocketmaster():
     research_tools.identity()
     source = research_tools.read_preserved_source('effects/guitar-compact.md')
-    destination = preservation_text('SONICAKE.md').split('\n## Pocket Master QME-10\n',1)[1].split('\n## ',1)[0]
+    destination = preservation_text('brand/SONICAKE.md').split('\n## Pocket Master QME-10\n',1)[1].split('\n## ',1)[0]
     facts = []
     for headers, rows, context in comparison_views.tables(source):
         for row in rows:
@@ -1626,7 +1626,7 @@ def audit_compact(model):
     state = json.loads(preservation_text('research-state.json'))
     source_path = 'effects/guitar-compact.md'
     source = research_tools.read_preserved_source(source_path)
-    entry = next(e for e in state['consolidation_and_price_findings'] if e.get('model_name') == model and e.get('destination') == 'VALETON.md#'+model.lower())
+    entry = next(e for e in state['consolidation_and_price_findings'] if e.get('model_name') == model and e.get('destination') == 'brand/VALETON.md#'+model.lower())
     expected = []
     for headers, rows, context in comparison_views.tables(source):
         for row in rows:
@@ -1638,7 +1638,7 @@ def audit_compact(model):
                 expected.append(dict(field=header,value=value,source=source_path,context=context))
     retained = [f for f in entry['retained_comparison_facts'] if f['source'] == source_path]
     assert len(expected) == 23 and expected == retained, 'Shared model row completeness changed'
-    destination = preservation_text('VALETON.md').split('\n## '+model+'\n',1)[1].split('\n## ',1)[0]
+    destination = preservation_text('brand/VALETON.md').split('\n## '+model+'\n',1)[1].split('\n## ',1)[0]
     for fact in expected:
         assert fact['value'] in destination, 'Missing shared fact: '+fact['field']
     if model == 'GP-100':
@@ -1684,7 +1684,7 @@ def audit_floorboard_union():
     assert digest(source) == entry['source_sha256'], 'Floorboard source changed'
     refs = {m[1].lower():m[2] for m in re.finditer(r'^\[([^\]]+)\]:\s*(\S+)', source, re.M)}
     paragraphs = [p for p in re.split(r'\n\s*\n', source) if p.strip() and not re.match(r'^[#|\[]', p.strip())]
-    union = '\n'.join(preservation_text(p) for p in ('VALETON.md','SONICAKE.md','MULTI-EFFECTS.md'))
+    union = '\n'.join(preservation_text(p) for p in ('brand/VALETON.md','brand/SONICAKE.md','MULTI-EFFECTS.md'))
     missing = [comparison_views.relink(p,path,refs) for p in paragraphs if comparison_views.relink(p,path,refs) not in union]
     assert not missing, 'Floorboard prose missing: '+str(missing)
     urls = set(re.findall(r'https?://[^\s)]+', source))
@@ -1726,7 +1726,7 @@ def audit_compact_links(kind='compact'):
     source = research_tools.read_preserved_source(source_key)
     state = json.loads(preservation_text('research-state.json'))
     assert digest(source) == state['migration']['shared_'+kind.replace('-', '_')+'_audit']['source_sha256']
-    paths = sorted(ROOT.glob('*.md')) + sorted((ROOT/'effects').rglob('*.md'))
+    paths = sorted(ROOT.glob('*.md')) + sorted((ROOT/'brand').glob('*.md')) + sorted((ROOT/'effects').rglob('*.md'))
     incoming, outgoing, mentions = [], [], []
     for path in paths:
         text = path.read_text()
@@ -1777,7 +1777,7 @@ def plan_nux_shared(model='MG-101'):
     research_tools.identity()
     source_path = 'effects/guitar-nux.md'
     source = research_tools.read_preserved_source(source_path)
-    destination = (ROOT/'NUX.md').read_text()
+    destination = (ROOT/'brand/NUX.md').read_text()
     facts = []
     for headers, rows, context in comparison_views.tables(source):
         for row in rows:
@@ -1812,18 +1812,18 @@ def audit_nux_union(verify=True, kind='nux'):
     refs = {m[1].lower():m[2] for m in re.finditer(r'^\[([^\]]+)\]:\s*(\S+)', source, re.M)}
     paragraphs = [p for p in re.split(r'\n\s*\n', source) if p.strip() and not re.match(r'^[#|]', p.strip()) and not re.match(r'^\[[^\]]+\]:',p.strip())]
     normalized = [comparison_views.relink(p,path,refs) for p in paragraphs]
-    destinations = ('ZOOM.md','BOSS.md','MULTI-EFFECTS.md') if kind in ('bass','vocal') else ('NUX.md','MULTI-EFFECTS.md')
+    destinations = ('brand/ZOOM.md','brand/BOSS.md','MULTI-EFFECTS.md') if kind in ('bass','vocal') else ('brand/NUX.md','MULTI-EFFECTS.md')
     if kind == 'advanced':
-        destinations = ('LINE6.md','NEURAL-DSP.md','IK-MULTIMEDIA.md','HEADRUSH.md','MULTI-EFFECTS.md')
+        destinations = ('brand/LINE6.md','brand/NEURAL-DSP.md','brand/IK-MULTIMEDIA.md','brand/HEADRUSH.md','MULTI-EFFECTS.md')
     union = '\n'.join(preservation_text(p) for p in destinations)
     missing = [p for p in normalized if p not in union]
     urls = sorted(set(re.findall(r'https?://[^\s)]+',source)))
     manifests = [e for e in state['consolidation_and_price_findings'] if e.get('source') == path and e.get('verification_kind') == 'complete-model-rows-v1']
-    expected = {'ZOOM.md#b1-four','ZOOM.md#b1x-four','ZOOM.md#b2-four','ZOOM.md#b6','BOSS.md#gt-1b','BOSS.md#gx-1b','BOSS.md#me-90b'} if kind == 'bass' else {'NUX.md#'+m for m in ('mg-101','mg-300-original','mg-300-mkii','mg-400','mg-30','mg-50li')}
+    expected = {'brand/ZOOM.md#b1-four','brand/ZOOM.md#b1x-four','brand/ZOOM.md#b2-four','brand/ZOOM.md#b6','brand/BOSS.md#gt-1b','brand/BOSS.md#gx-1b','brand/BOSS.md#me-90b'} if kind == 'bass' else {'brand/NUX.md#'+m for m in ('mg-101','mg-300-original','mg-300-mkii','mg-400','mg-30','mg-50li')}
     if kind == 'vocal':
-        expected = {'ZOOM.md#v3','ZOOM.md#v6-sp'} | {'BOSS.md#'+m for m in ('ve-1','ve-2','ve-500','ve-22','ve-8','ve-20')}
+        expected = {'brand/ZOOM.md#v3','brand/ZOOM.md#v6-sp'} | {'brand/BOSS.md#'+m for m in ('ve-1','ve-2','ve-500','ve-22','ve-8','ve-20')}
     if kind == 'advanced':
-        expected = {'LINE6.md#hx-stomp','LINE6.md#hx-effects','NEURAL-DSP.md#nano-cortex','IK-MULTIMEDIA.md#tonex-one','IK-MULTIMEDIA.md#tonex-pedal','HEADRUSH.md#flex-prime'}
+        expected = {'brand/LINE6.md#hx-stomp','brand/LINE6.md#hx-effects','brand/NEURAL-DSP.md#nano-cortex','brand/IK-MULTIMEDIA.md#tonex-one','brand/IK-MULTIMEDIA.md#tonex-pedal','brand/HEADRUSH.md#flex-prime'}
     assert {e['destination'] for e in manifests} == expected
     fields = sum(len(e['retained_comparison_facts']) for e in manifests)
     assert fields == {'bass':105,'vocal':112,'nux':90,'advanced':90}[kind]
@@ -1840,7 +1840,7 @@ def audit_nux_union(verify=True, kind='nux'):
 def plan_advanced_hxe(model='HX Effects'):
     assert model in ('HX Effects','Flex Prime')
     flex = model == 'Flex Prime'
-    brand_file = 'HEADRUSH.md' if flex else 'LINE6.md'
+    brand_file = 'brand/HEADRUSH.md' if flex else 'brand/LINE6.md'
     research_tools.identity()
     path = 'effects/advanced-modelers.md'
     source = research_tools.read_preserved_source(path)
@@ -1873,7 +1873,7 @@ def audit_boss_shared(verify=True, history=False):
     source = research_tools.read_preserved_source(path)
     state = json.loads(preservation_text('research-state.json'))
     assert digest(source) == state['migration'][state_key]['source_sha256']
-    destination = preservation_text('BOSS.md')
+    destination = preservation_text('brand/BOSS.md')
     models = ('GT-1000CORE','GX-10','GT-1','GX-1','ME-90','GX-100','GT-1000')
     records = []
     for model in models:
@@ -1884,7 +1884,7 @@ def audit_boss_shared(verify=True, history=False):
                     facts += [dict(field=h,value=v,source=path,context=context) for h,v in zip(headers[1:],row[1:])]
         assert len(facts) == field_count, model+' row scope changed'
         section = destination.split('\n## '+model+'\n',1)[1].split('\n## ',1)[0]
-        records.append(dict(model=model,destination='BOSS.md#'+model.lower(),facts=facts,missing_fields=[f for f in facts if f['value'] not in section]))
+        records.append(dict(model=model,destination='brand/BOSS.md#'+model.lower(),facts=facts,missing_fields=[f for f in facts if f['value'] not in section]))
     refs = {m[1].lower():m[2] for m in re.finditer(r'^\[([^\]]+)\]:\s*(\S+)',source,re.M)}
     groups = [p for p in re.split(r'\n\s*\n',source) if p.strip() and not re.match(r'^[#|]',p.strip()) and not re.match(r'^\[[^\]]+\]:',p.strip())]
     normalized = [comparison_views.relink(p,path,refs) for p in groups]
@@ -1908,7 +1908,7 @@ def audit_audota_union(verify=True):
     path = 'effects/audota.md'
     source = research_tools.read_preserved_source(path)
     assert digest(source) == state['migration']['shared_audota_audit']['source_sha256']
-    destination = preservation_text('AUDOTA.md')
+    destination = preservation_text('brand/AUDOTA.md')
     union = destination+'\n'+preservation_text('MULTI-EFFECTS.md')
     aliases = {'AME-100':{'ame100'},'AME-200':{'ame200'},'AME-200 Pro':{'ame200pro','pro'},'ACE-100':{'ace100'},'AVE-100':{'ave100'}}
     records = {model:[] for model in aliases}
@@ -1927,7 +1927,7 @@ def audit_audota_union(verify=True):
             records[matched[0]] += [dict(field=h,value=v,source=path,context=context) for h,v in zip(headers[1:],row[1:])]
     assert [len(records[m]) for m in aliases] == [14,14,14,14,11]
     assert len(appendix) == 11
-    manifests = {e['model_name']:e for e in state['consolidation_and_price_findings'] if e.get('destination','').startswith('AUDOTA.md#')}
+    manifests = {e['model_name']:e for e in state['consolidation_and_price_findings'] if e.get('destination','').startswith('brand/AUDOTA.md#')}
     model_reports = []
     ordered = lambda facts: sorted((f['field'],f['value'],f['source'],f['context']) for f in facts)
     for model,facts in records.items():
@@ -1963,31 +1963,31 @@ def audit_shared_variant_union(verify=True, kind='cube'):
     source = research_tools.read_preserved_source(path)
     assert digest(source) == state['migration']['shared_'+kind+'_audit']['source_sha256']
     aliases = {'CUBE BABY electric':{'electriccubebaby','electric'},'CUBE BABY AC':{'cubebabyac','ac'},'CUBE BABY BASS':{'cubebabybass','bass'}}
-    files = {model:'M-VAVE.md' for model in aliases}
+    files = {model:'brand/M-VAVE.md' for model in aliases}
     if kind == 'owned':
         aliases = {'GR-55':{'rolandgr55','gr55'},'B1Xon':{'zoomb1xon','b1xon'},'GEM BOX original':{'joyogemboxoriginal','gemboxoriginal'},'MINI-X':{'mvaveminix','minix'},'Pocket Amp':{'mvavepocketamp','pocketamp'},'H8':{'cuvaveh8','h8'},'Flybro FB-100':{'vingflybrofb100','vingfb100','fb100'}}
-        files = {'GR-55':'ROLAND.md','B1Xon':'ZOOM.md','GEM BOX original':'JOYO.md','MINI-X':'M-VAVE.md','Pocket Amp':'M-VAVE.md','H8':'CUVAVE.md','Flybro FB-100':'VING.md'}
+        files = {'GR-55':'brand/ROLAND.md','B1Xon':'brand/ZOOM.md','GEM BOX original':'brand/JOYO.md','MINI-X':'brand/M-VAVE.md','Pocket Amp':'brand/M-VAVE.md','H8':'brand/CUVAVE.md','Flybro FB-100':'brand/VING.md'}
     if kind == 'market1':
         aliases = {"TANK MINI":{"mvavetankmini","tankmini"},"TANK-G":{"mvavetankg","tankg","tankgtankb"},"TANK-B":{"mvavetankb","tankb","tankgtankb"},"MK-20":{"mvavemk20","mk20"},"MK-300":{"mvavemk300","mk300"},"Ampero Mini MP-50":{"hotoneamperominimp50","amperomini"},"GE100 original":{"mooerge100original","ge100"},"GE150 original":{"mooerge150original","ge150original"},"GE200 original":{"mooerge200original","ge200original","ge200"},"GE150 Pro Li":{"mooerge150proli","ge150proli"},"G1 FOUR":{"zoomg1four","g1four","g1fourg1xfour"},"G1X FOUR":{"zoomg1xfour","g1xfour","g1fourg1xfour"},"G2 FOUR":{"zoomg2four","g2four","g2fourg2xfour"},"G2X FOUR":{"zoomg2xfour","g2xfour","g2fourg2xfour"},"FX100":{"flammafx100","fx100"},"FX200":{"flammafx200","fx200"}}
-        files = {"TANK MINI":"M-VAVE.md","TANK-G":"M-VAVE.md","TANK-B":"M-VAVE.md","MK-20":"M-VAVE.md","MK-300":"M-VAVE.md","Ampero Mini MP-50":"HOTONE.md","GE100 original":"MOOER.md","GE150 original":"MOOER.md","GE200 original":"MOOER.md","GE150 Pro Li":"MOOER.md","G1 FOUR":"ZOOM.md","G1X FOUR":"ZOOM.md","G2 FOUR":"ZOOM.md","G2X FOUR":"ZOOM.md","FX100":"FLAMMA.md","FX200":"FLAMMA.md"}
+        files = {"TANK MINI":"brand/M-VAVE.md","TANK-G":"brand/M-VAVE.md","TANK-B":"brand/M-VAVE.md","MK-20":"brand/M-VAVE.md","MK-300":"brand/M-VAVE.md","Ampero Mini MP-50":"brand/HOTONE.md","GE100 original":"brand/MOOER.md","GE150 original":"brand/MOOER.md","GE200 original":"brand/MOOER.md","GE150 Pro Li":"brand/MOOER.md","G1 FOUR":"brand/ZOOM.md","G1X FOUR":"brand/ZOOM.md","G2 FOUR":"brand/ZOOM.md","G2X FOUR":"brand/ZOOM.md","FX100":"brand/FLAMMA.md","FX200":"brand/FLAMMA.md"}
     if kind == 'market2':
         aliases = {"TANK-PRO":{"mvavetankpro","tankpro"},"ANN Blackbox":{"mvaveannblackbox","annblackbox"},"BG300":{"boinaudiobg300","bg300"},"KMF-10":{"scorpionkmf10","kmf10"},"GEM BOX II":{"joyogemboxii","gemboxii"},"GEM BOX III":{"joyogemboxiii","gemboxiii"},"VoiceLive Play":{"tcheliconvoiceliveplay","voiceliveplay"},"Play Acoustic":{"tcheliconplayacoustic","playacoustic"}}
-        files = {"TANK-PRO":"M-VAVE.md","ANN Blackbox":"M-VAVE.md","BG300":"BOIN-AUDIO.md","KMF-10":"SCORPION.md","GEM BOX II":"JOYO.md","GEM BOX III":"JOYO.md","VoiceLive Play":"TC-HELICON.md","Play Acoustic":"TC-HELICON.md"}
+        files = {"TANK-PRO":"brand/M-VAVE.md","ANN Blackbox":"brand/M-VAVE.md","BG300":"brand/BOIN-AUDIO.md","KMF-10":"brand/SCORPION.md","GEM BOX II":"brand/JOYO.md","GEM BOX III":"brand/JOYO.md","VoiceLive Play":"brand/TC-HELICON.md","Play Acoustic":"brand/TC-HELICON.md"}
     if kind == 'market3':
         aliases = {"Core":{"headrushcore","core"},"Arena2000":{"donnerarena2000","arena2000"},"MG-100":{"nuxmg100","mg100"},"MG-200":{"nuxmg200","mg200"}}
-        files = {"Core":"HEADRUSH.md","Arena2000":"DONNER.md","MG-100":"NUX.md","MG-200":"NUX.md"}
+        files = {"Core":"brand/HEADRUSH.md","Arena2000":"brand/DONNER.md","MG-100":"brand/NUX.md","MG-200":"brand/NUX.md"}
     if kind == 'market4':
         aliases = {"GE100 Pro":{"ge100pro","mooerge100pro"},"GE100 Pro Li":{"ge100proli","mooerge100proli"},"GE200 Pro":{"ge200pro","mooerge200pro"},"GE200 Pro Li":{"ge200proli","mooerge200proli"}}
-        files = {"GE100 Pro":"MOOER.md","GE100 Pro Li":"MOOER.md","GE200 Pro":"MOOER.md","GE200 Pro Li":"MOOER.md"}
+        files = {"GE100 Pro":"brand/MOOER.md","GE100 Pro Li":"brand/MOOER.md","GE200 Pro":"brand/MOOER.md","GE200 Pro Li":"brand/MOOER.md"}
     if kind == 'market5':
         aliases = {"Ampero MP-100":{"hotoneamperomp100","mp100"},"Ampero II MP-350":{"hotoneamperoiimp350","mp350"},"Ampero II Stage MP-380":{"hotoneamperoiistagemp380","mp380"},"GE1000":{"mooerge1000nonli","ge1000"},"GE150 Pro":{"mooerge150prononli","ge150pro"},"HX Stomp XL":{"line6hxstompxl","hxstompxl"}}
-        files = {"Ampero MP-100":"HOTONE.md","Ampero II MP-350":"HOTONE.md","Ampero II Stage MP-380":"HOTONE.md","GE1000":"MOOER.md","GE150 Pro":"MOOER.md","HX Stomp XL":"LINE6.md"}
+        files = {"Ampero MP-100":"brand/HOTONE.md","Ampero II MP-350":"brand/HOTONE.md","Ampero II Stage MP-380":"brand/HOTONE.md","GE1000":"brand/MOOER.md","GE150 Pro":"brand/MOOER.md","HX Stomp XL":"brand/LINE6.md"}
     if kind == 'market6':
         aliases = {"GE150 Plus":{"ge150plusnonli","ge150plus","plus"},"GE150 Plus Li":{"ge150plusli","plusli"},"GE150 Max":{"ge150maxnonli","ge150max","max"},"GE150 Max Li":{"ge150maxli","maxli"},"GE1000 Li":{"ge1000li"}}
-        files = {"GE150 Plus":"MOOER.md","GE150 Plus Li":"MOOER.md","GE150 Max":"MOOER.md","GE150 Max Li":"MOOER.md","GE1000 Li":"MOOER.md"}
+        files = {"GE150 Plus":"brand/MOOER.md","GE150 Plus Li":"brand/MOOER.md","GE150 Max":"brand/MOOER.md","GE150 Max Li":"brand/MOOER.md","GE1000 Li":"brand/MOOER.md"}
     if kind == 'market7':
         aliases = {"TRIDENT NME-5":{"nuxtridentnme5","trident"},"G6":{"zoomg6","g6"},"G11":{"zoomg11","g11"},"Ampero II Stomp MP-300":{"amperoiistompmp300","mp300","amperoiistomp"},"POD Go":{"podgostandard","podgo","podgowireless","podgovariants"},"POD Go Wireless":{"podgowireless","podgovariants"},"POD Express Guitar":{"podexpressguitar","expressguitar","podexpressguitarbass","expressvariants"},"POD Express Bass":{"podexpressbass","expressbass","podexpressguitarbass","expressvariants"}}
-        files = {"TRIDENT NME-5":"NUX.md","G6":"ZOOM.md","G11":"ZOOM.md","Ampero II Stomp MP-300":"HOTONE.md","POD Go":"LINE6.md","POD Go Wireless":"LINE6.md","POD Express Guitar":"LINE6.md","POD Express Bass":"LINE6.md"}
+        files = {"TRIDENT NME-5":"brand/NUX.md","G6":"brand/ZOOM.md","G11":"brand/ZOOM.md","Ampero II Stomp MP-300":"brand/HOTONE.md","POD Go":"brand/LINE6.md","POD Go Wireless":"brand/LINE6.md","POD Express Guitar":"brand/LINE6.md","POD Express Bass":"brand/LINE6.md"}
     destinations = {name:preservation_text(name) for name in set(files.values())}
     union = '\n'.join(destinations.values())+'\n'+preservation_text('MULTI-EFFECTS.md')
     records = {model:[] for model in aliases}
@@ -2089,7 +2089,7 @@ def commit_preservation_repairs():
     research_tools.identity()
     assert not research_tools.git('diff','--cached','--name-only').strip(), 'Existing staged changes'
     changed = set(research_tools.git('diff','--name-only').splitlines()) | set(research_tools.git('ls-files','--others','--exclude-standard').splitlines())
-    allowed = {'Makefile','scripts/consolidation_tools.py','TC-HELICON.md','MULTI-EFFECTS.md','README.md','research-state.json'}
+    allowed = {'Makefile','scripts/consolidation_tools.py','brand/TC-HELICON.md','MULTI-EFFECTS.md','README.md','research-state.json'}
     assert changed and changed <= allowed, changed - allowed
     research_tools.verify()
     comparison_views.verify_views()

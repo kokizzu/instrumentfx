@@ -15,7 +15,7 @@ if __name__ == '__main__':
     comparison_views.verify_views()
     comparison_views.test_readme_brand_counts()
     comparison_views.test_validation_counts()
-    allowed = {'FRACTAL-AUDIO.md','LINE6.md','FOOTSWITCH-DISPLAYS.md','VALETON.md','NUX.md','IK-MULTIMEDIA.md','ZOOM.md','EXPRESSION-VOLUME.md','README.md','MULTI-EFFECTS.md','ALL-GUITAR.md','ALL-BASS.md','ALL-VOCAL.md','research-state.json','scripts/comparison_views.py','scripts/expression_audit_zoom.py','Makefile'}
+    allowed = {'brand/FRACTAL-AUDIO.md','brand/LINE6.md','FOOTSWITCH-DISPLAYS.md','brand/VALETON.md','brand/NUX.md','brand/IK-MULTIMEDIA.md','brand/ZOOM.md','EXPRESSION-VOLUME.md','README.md','MULTI-EFFECTS.md','all-guitar.md','all-bass.md','all-vocal.md','research-state.json','scripts/comparison_views.py','scripts/expression_audit_zoom.py','Makefile'}
     changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
     staged = set(git('diff','--cached','--name-only').splitlines())
     assert (changed | staged) <= allowed, (changed | staged) - allowed
