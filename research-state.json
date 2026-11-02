@@ -141524,5 +141524,12 @@
     "switch": "NO/NC momentary/latching tip-sleeve; patch module required",
     "backup": "SD import preserves current patches in backup folder,maximum256; existing export names overwritten; global config/audio backup not established",
     "global_volume": "unresolved"
+  },
+  "gp200jr_chinese_primary_20261103": {
+    "source": "https://zh.valeton.net/product/gp-200jr/",
+    "display": "4.3-inch IPS LCD; supplements English TFT; touch unknown",
+    "outputs": "Chinese exact-model page says6.35mm unbalanced/XLR balanced,corroborates inspected panel",
+    "conflict": "Independent headphone-volume knob claimed by Chinese prose but absent from prior inspected control inventory; no added count or gain control inferred",
+    "memory": "255=99factory+156remaining independently corroborated; no sibling transfer"
   }
 }

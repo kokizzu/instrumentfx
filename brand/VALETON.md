@@ -1618,7 +1618,7 @@ Guitar/bass/acoustic multi-effects; checked **2026-10-16**. Separate from GP-200
 | Expression / assignment scope | Selected-patch EXP1A/1B/2 targets allow three parameters each with MIN/MAX. Global EXP2 socket setup explicitly refers back to Patch Settings→EXP Settings. No universal volume override established. Built-in treadle excludes JR from the no-treadle shortlist. |
 | Expression / copied prose conflict | P8 claims two external pedals; panel shows one EXP/FS socket plus the built-in pedal. Preserve the contradiction rather than claim two external analog inputs. Calibration curves and strong toe-press step do not resolve separate toe-switch count. |
 | Knobs / footswitches / buttons | **5 / 3 / 14** from the rendered front diagram: PARA, MASTER, three quick knobs; three floor switches; ten module selectors and BACK/GLOBAL/DRUM/SAVE. PARA push is not counted again. One rear GND/LIFT toggle is additional. Manual prose incorrectly says four footswitches; product page and diagram show three. [JR-P, JR-M pp.3–4] |
-| Screen | **4.3-inch color TFT LCD, 480×272**. Explicit touchscreen specification unverified. [JR-P, JR-M p.3] |
+| Screen | **4.3-inch color TFT LCD, 480×272**; exact Chinese manufacturer page additionally calls it **IPS**. Touchscreen specification remains unverified. [JR-P, JR-M p.3] |
 | Dimensions / weight | **281 W ×166 D ×57 H mm; 1.55 kg**; medium footprint. [JR-M p.75] |
 | Processing | Eleven movable category modules: PRE, WAH, DST, AMP, NR, CAB, EQ, MOD, DLY, RVB, VOL. DSP overload remains possible; not eleven unrestricted duplicate blocks. [JR-P, JR-M pp.9–10] |
 | Choices per category | **Firmware1.8.0 complete named-table census:** PRE31,WAH6,DST38,AMP71,NR4,CAB70,EQ6,MOD27,DLY22,RVB12,VOL1. **288 category-menu entries**,including cabinet/body choices andcross-category repeats;not288 unique algorithms orsimultaneous blocks. Excludes five AMP/five DST SnapTone import slots and20 userIR slots. AMP splits18Clean/26Drive/20HiGain/5Bass/2Acoustic;CAB60speaker+10Acoustic. Marketing240+,140+amp/cab and100+stomp figures retain their separate,overlapping scope. Earlier PRE27 was incomplete;31 is the corrected count. [Complete census below](#gp-200jr--complete-firmware180-category-census). |
@@ -1755,6 +1755,14 @@ Read the complete printed pp24–28 PRE section and pp8,10,15–16 in the previo
 | Expression / copied prose conflict | P8 claims two external pedals; panel shows one EXP/FS socket plus the built-in pedal. Preserve the contradiction rather than claim two external analog inputs. Calibration curves and strong toe-press step do not resolve separate toe-switch count. |
 
 [RD Music item3086066/25864478892](https://shopee.co.id/VALETON-GP200JR-GP-200JR-efek-digital-multi-effect-gitar-bass-i.3086066.25864478892) reopened2026-10-28 as three-week-old cached text:Rp4.980.000,old7October delivery banner. Late-delivery voucher up toRp10.000 is compensation, not an immediate hardware discount. Current stock,condition,bundle,warranty and checkout remain unverified; prior offers preserved.
+
+### GP-200JR — Chinese manufacturer display and panel qualifications
+
+Checked 2026-11-03 against the [exact Chinese manufacturer page](https://zh.valeton.net/product/gp-200jr/). It specifies **4.3-inch IPS LCD**; this supplements the English TFT wording without establishing touch, an individual footswitch screen or a different hardware revision.
+
+Its connector inventory explicitly calls the6.35mm stereo pair **unbalanced** and the XLR pair **balanced**, corroborating the inspected JR panel rather than the English page’s conflicting TRS wording. The Chinese page also claims an **independent headphone-volume knob**. This conflicts with the previously inspected JR panel/control inventory;do not add another rotary or assume separate analog headphone gain from that sentence alone. Manufacturer correction remains needed.
+
+The255-slot/99-factory/156-user figures corroborate the existing JR allocation, not LT’s layout. Old manual-copy conflicts, touchscreen/battery/USB-power questions and NAM architecture/concurrency limits remain unresolved. No local document/software download or hardware operation.
 
 ## GP-200LT
 
