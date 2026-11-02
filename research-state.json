@@ -143089,5 +143089,19 @@
       "Qualified exactShopee stock"
     ],
     "no_local_download_or_device_operation": true
+  },
+  "fm9_compressor_reference_20261103": {
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-original--november-compressor-type-census",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026,printed3/27–29",
+    "reference_type_count": 19,
+    "qualification": "Namedreferencecensus;lookaheadwet/drydelaynotmeasuredtotal;notinstalledlibrarycertification",
+    "remaining": [
+      "Other exactcategorynames/exceptions",
+      "Installedlibrary reconciliation",
+      "Globalvolume endpoints/recall/coverage",
+      "Qualified exactShopee stock"
+    ],
+    "no_local_download_or_device_operation": true
   }
 }
