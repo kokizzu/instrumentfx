@@ -142939,5 +142939,21 @@
     ],
     "next": "Continue requested individual-foot-display models;preserve GP-200JR -> HeadRush Prime -> MOOER GE300 independent sequence",
     "no_download_or_device_operation": true
+  },
+  "axom_quickguide_recovered_20261103": {
+    "canonical": "brand/MELOFTY.md#axom-max--recovered-quick-guide-usb-evidence",
+    "source": "https://manuals.plus/m/63a022bc23df064392ad6523fb0e69573ed5ae7b06aa019d4e8601c2f649aa85_optim.pdf",
+    "pages": 3,
+    "extraction": "Englishglyphs+31character offset restores paragraph;notPDFcodeexecution",
+    "usb": "8in8out24bit48kHz;reamp;USBMIDI;OTGrecordplay",
+    "qualification": "ExactV03date/firmware notestablished;48kHznotexclusive;renderunavailable;hostgeneratedproseexcluded",
+    "remaining": [
+      "Manufacturer physicalscreen count/technology",
+      "Current192kHz compatibility reconciliation",
+      "Qualified exactShopee hardware",
+      "Activeprofileadmission criteria"
+    ],
+    "next": "Defer unavailablepanelrender;continue requested separate-display models;preserve GP-200JR -> HeadRush Prime -> MOOER GE300 independent sequence",
+    "no_download_or_device_operation": true
   }
 }

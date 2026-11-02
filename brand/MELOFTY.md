@@ -200,3 +200,14 @@ Checked **2026-11-02**,[manufacturer V1.7.4 manual,pp9–12,22–23](https://sho
 - A momentary stomp action operates while pressed andreturns toits prior state onrelease. Latching retains its toggled state. Module names/MULTIPLE labels andLED colors retain the earlier qualifications.
 
 For the collection’s count field,the [identified importer’s current exact-model page](https://shop.warwick.de/en/effect-pedals-multi-effects-processorsmelofty-axom-max-hybrid-audio-processor) explicitly reports **nine footswitches,each with its own mini-display**. Thus nine is an **importer-backed count**,not wholly unknown;primary confirmation ofthe physical census andLCD/OLED technology remains pending. The separate pedal readout mustnot be silently included inthat nine. Prior source statements remain preserved above. Partial profile,outside active counts;no local download ordevice operation.
+
+### AXOM MAX — recovered quick-guide USB evidence
+
+Checked **2026-11-03**:the previously inaccessible [original-file candidate](https://manuals.plus/m/63a022bc23df064392ad6523fb0e69573ed5ae7b06aa019d4e8601c2f649aa85_optim.pdf) nowopens as **three PDF pages**,matching the preserved331.93KB quick-guide index. The body has an English panel/connection sheet,a Chinese sheet andFCC text. Its extracted English glyphs are shifted;adding31 to the affected character codes restores contiguous English words andnumbers. This is text decoding,not executing document code. Host-generated overview/troubleshooting prose is excluded.
+
+| Field | Recovered document text / qualification |
+|---|---|
+| USB / quick-guide wording | PDFp1 USB-C paragraph decodes as **8-in/8-out,24-bit/48kHz**,recording,reamp andUSB MIDI;also OTG smartphone/tablet recording/playback. This corroborates48kHz documentation,not exclusive sample-rate support orproof ofthe separate192kHz claim. No USB bus-power ormobile-editor support inferred. |
+| Display / remaining access limit | Render requests produced no usable panel image. Physical mini-screen count/technology remain unverified bythis document;the importer-backed nine-screen count remains separately qualified. ExactV03 date/firmware attribution isnot established fromthis extraction. |
+
+This narrows the earlier file-access failure without certifying allquick-guide details,currentfirmware orhardware. Partial lead remains outside active counts;no local download,installation ordevice operation.
