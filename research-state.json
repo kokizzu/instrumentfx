@@ -141583,5 +141583,28 @@
       "volume range/recall/output coverage",
       "editor/import revisions"
     ]
+  },
+  "beebo_manual_recovery_20261103": {
+    "source": "https://storage.googleapis.com/poly_effects1/manual.pdf",
+    "identity": "ExactBeebo/Hector title,makercontact/license andmatchingcontrols;officialfirmwarebucket",
+    "revision": "unstampedoldermanual,notcurrentcertification",
+    "controls": "2knobs(coarse/fine),3foots Aleft/Bcenter/Cright",
+    "navigation": "center+left/right setliststeps;directionunknown;startupfirstsetlistpreset",
+    "conversion": "48kHz24bitconversion32floatDSP;Hector±5VnotBeebo",
+    "regional_source": "https://fukusan.com/products/poly_effects/beebo/",
+    "regional_body": {
+      "width_mm": 152,
+      "depth_mm": 130,
+      "height_mm": 67,
+      "mass_g": 556,
+      "basis": "includesknobs/protrusions;notmakeraxisreconciliation"
+    },
+    "io": "4audioin/4out pairedonTRS;3.5MIDI;USBflash;directEXP/headphonesunverified",
+    "next": [
+      "directanalog EXP/electricalscope",
+      "currentmodule/memorycensus",
+      "exactShopee",
+      "globalvolume/recall/bypass/tail/loop"
+    ]
   }
 }
