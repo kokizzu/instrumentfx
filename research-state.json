@@ -143706,5 +143706,18 @@
     "qualification": "Hardware titles;condition/workingstate/variant/bundle/warranty/deliveredtotal/voucher/currentstock unverified. No new/used classification ormarket range.",
     "existing_offer_conflict": "BMD1275754364/57400332425 searchlastweek holiday vsdirectfourweek cache active15daysearlier;both1534500IDR;notcurrentstock.",
     "next": "Continue remaining no-treadle inventory andLCD-first research;defer unavailable sources."
+  },
+  "tmp_scene_shared_memory_20261103": {
+    "model": "Fender Tone Master Pro",
+    "source": "https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual",
+    "basis": "Manufacturer-authored firmware1.5 manual body,printedpp20–21,25–29;not generated FAQ;remote text only,no local download.",
+    "findings": [
+      "Scene Edit disable resets block parameters tobase;shareddisabledblocks sync edits;replacement retains bypass states",
+      "Save recalls selected Scene;reusedPreset andSong edits affect all uses",
+      "200Songs;50Setlists;99Songs perSetlist;not extra preset memories",
+      "No automatic save prompt when leaving unsaved preset"
+    ],
+    "remaining": "Current1.8 equivalence not device-tested;IR import limits,NAM first-party announcement andqualifiedcurrentShopeestock remain unverified.",
+    "next": "Continue requested individual-display models;defer these source gaps without blocking remaining research."
   }
 }
