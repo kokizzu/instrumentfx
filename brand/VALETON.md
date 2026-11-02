@@ -754,6 +754,18 @@ Sources: [Developer-authored Indonesian App Store listing](https://apps.apple.co
 
 Earlierfirmware1.0.3algorithms,July2025USBhostFAQ,laterNAMconversionevidence andprices remainpreserved. Noofferrefreshorcurrentcontrollercompatibilitytest claimed.
 
+### GP-5 — additional exact Shopee asks, checked 2026-11-03
+
+| Field | Exact hardware offer / qualification |
+|---|---|
+| IDR / Dooit indexed ask | [Dooit Music Store,1051758555/40476052441](https://shopee.co.id/Valeton-GP-5-GP5-Mini-Multi-Effect-Processor-Efek-Digital-Kecil-Gitar-Bass-i.1051758555.40476052441),Kota Tasikmalaya: two-week search cache **Rp1.585.000**,crossedRp1.664.250,−5%;stale21October delivery. Direct page cache miss. No Habis label in index is not stock proof. |
+| IDR / Feel it indexed ask | [Feel it Store,33532053/43222538612](https://shopee.co.id/Valeton-GP-5-Multi-Effects-Processor-SnapTone-IR-Loader-i.33532053.43222538612),Kota Batam: two-week search cache **Rp1.459.000**,stale22–25October delivery. Seller activity58days andN/A rating are snapshot fields,not authenticity findings. Direct page cache miss. |
+
+Both titles identify GP-5 hardware rather than presets/accessories. **Condition,working state,selected variant,adapter/cables/bundle,regional warranty,shipping/tax,voucher eligibility andcheckout stock/total remain unknown**. These are condition-unverified asks,not new/used classifications,completed sales or a market range. Late-arrival compensation isnot an upfront discount.
+
+Existing [BMD item1275754364/57400332425](https://shopee.co.id/Valeton-GP-5-Multi-Effect-Processor-i.1275754364.57400332425) now has a last-week search snapshot **Rp1.534.500,shop onholiday**;the directreader instead returns a four-week cache withsame ask andselleractive15days earlier. Preserve both timestamps;relative delivery/activity doesnot settle current availability. Previous technical findings anddated prices remain intact.
+
+
 ## GP-50
 
 Current comparison summary, reconciled2026-10-28 from the exact-model sources retained below. Firmware1.0.5 technical observations are not silently promoted to1.1.0. All original bodies, prices, URLs and historical unknowns remain below this selected summary.

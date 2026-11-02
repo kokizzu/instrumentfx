@@ -143679,5 +143679,32 @@
     ],
     "remaining": "Analog tip/ring/wiper wiring,global expression scope andcurrent5.1.4 equivalence unverified.",
     "next": "Defer inaccessible current-stock andunpublished fields;continue requested footswitch-display andno-treadle inventory research."
+  },
+  "gp5_shopee_hardware_20261103": {
+    "model": "Valeton GP-5",
+    "offers": [
+      {
+        "seller": "Dooit Music Store",
+        "shop_id": "1051758555",
+        "item_id": "40476052441",
+        "idr": 1585000,
+        "crossed_idr": 1664250,
+        "location": "Kota Tasikmalaya",
+        "basis": "Two-week indexed cache; direct cache miss;stale21October delivery",
+        "url": "https://shopee.co.id/Valeton-GP-5-GP5-Mini-Multi-Effect-Processor-Efek-Digital-Kecil-Gitar-Bass-i.1051758555.40476052441"
+      },
+      {
+        "seller": "Feel it Store",
+        "shop_id": "33532053",
+        "item_id": "43222538612",
+        "idr": 1459000,
+        "location": "Kota Batam",
+        "basis": "Two-week indexed cache;directcachemiss;stale22–25October delivery",
+        "url": "https://shopee.co.id/Valeton-GP-5-Multi-Effects-Processor-SnapTone-IR-Loader-i.33532053.43222538612"
+      }
+    ],
+    "qualification": "Hardware titles;condition/workingstate/variant/bundle/warranty/deliveredtotal/voucher/currentstock unverified. No new/used classification ormarket range.",
+    "existing_offer_conflict": "BMD1275754364/57400332425 searchlastweek holiday vsdirectfourweek cache active15daysearlier;both1534500IDR;notcurrentstock.",
+    "next": "Continue remaining no-treadle inventory andLCD-first research;defer unavailable sources."
   }
 }
