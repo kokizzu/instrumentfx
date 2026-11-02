@@ -142831,5 +142831,35 @@
     ],
     "next": "Defer unchanged Mini/GP-50 assignment gaps;continue requested individual displays and independent GP-200JR -> HeadRush Prime -> MOOER GE300 sequence",
     "no_download_or_device_operation": true
+  },
+  "ge300_studio_transfer_20261103": {
+    "canonical": "brand/MOOER.md#ge300--historical-studio-file-transfer-boundaries",
+    "source": "https://v4.cecdn.yun300.cn/fsite_1804040320/MOOER_STUDIO_FOR_GE300_EN.pdf",
+    "revision": "OriginalStudio guide,printed7–9;EN_V01_2020.04.28 reproduction",
+    "wav": {
+      "rates_khz": [
+        44.1,
+        48,
+        88.2,
+        96
+      ],
+      "bits": [
+        8,
+        16,
+        24,
+        32
+      ]
+    },
+    "looper": "Import shorterthan30minutes;STOP required;confirmed replacement ofexistingloop;otheroperations unavailable",
+    "preset": "ToneCaptureincluded;singleimportrequiresSave;packautomatic;collisionchoices distinct",
+    "qualification": "Historical editor,not current5.1.4 certification,NAM embedding orpowerretention",
+    "remaining": [
+      "Current sourcefileimport rules",
+      "Rig/factory occupancy",
+      "Exact qualified Shopee stock",
+      "USB MIDI andglobalexpression coverage"
+    ],
+    "next": "Return to requested individual-foot-display models;retain independent GP-200JR -> HeadRush Prime -> MOOER GE300 cycle",
+    "no_download_or_device_operation": true
   }
 }

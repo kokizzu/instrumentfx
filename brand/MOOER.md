@@ -1511,6 +1511,16 @@ Original **20 user IR slots** became **50**, with **80 MNRS slots** documented i
 
 **30-minute stereo looper**, overdub,undo/redo,reverse,half-speed/one-shot and saved loop import/export/backup. Tuner and tap tempo; built-in drum/rhythm support unknown. Original manual has two footswitch modes; **V2.0.6 FS mode3** uses A–D plusCTRL1–4 for eight preset choices,then pressing the current preset enters eight-CTRL mode;Bank± returns to preset selection. These are reused physical switches,not eight extra switches orscenes. [Firmware history][F]. Programmable controls do not establish a specific scene ceiling. [M][F]
 
+### GE300 — historical Studio file-transfer boundaries
+
+Checked **2026-11-03**,manufacturer-authored [MOOER Studio for GE300 Software User Guide](https://v4.cecdn.yun300.cn/fsite_1804040320/MOOER_STUDIO_FOR_GE300_EN.pdf),printedpp7–9;exact GE300 title,manufacturer imprint andmatching EN_V01_2020.04.28 reproduction. This predates redesigned5.1 software;current equivalence unverified. Remote text only,no download orfile operation.
+
+| Field | Historical documented scope |
+|---|---|
+| IR / source-file acceptance | WAV at **44.1/48/88.2/96kHz**,**8/16/24/32bit**. This expands the earlier historical24bit44.1kHz-only description;processing length andcurrent conversion rules remain separately qualified. |
+| Looper / audio import and replacement | Same WAV rates/depths;file **shorter than30minutes**. Import/export require STOP;other operations unavailable during transfer. Existing loop data is **replaced after confirmation**,not appended asanother track. Empty loops cannot export. This doesnot establish power-cycle retention. |
+| Memory / capture and preset transfer | Guide states **Tone Capture is included in preset files**;single-import collisions offer Replace/Save as,pack collisions Replace/Skip/Cancel. This is proprietary Tone Capture,not NAM/IR asset embedding. Single preset import requires Save;packs store automatically. GE300 presets are documented asnot shareable withother MOOER devices inthis guide;not a verified current-format rule. |
+
 ### GE300 — separate IDR evidence
 
 | Price class | Amount | Exact offer and qualification |
