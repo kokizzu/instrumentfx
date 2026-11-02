@@ -117,3 +117,5 @@ Incoming expression-volume sources from origin/main87c7d38 are preserved in the 
 [Positive Grid Spark PEDAL](brand/POSITIVE-GRID.md#spark-pedal--partial-no-treadle-discovery) is a partial compact,no-treadle discovery outside active counts; device-menu EXP Volume is documented,while all-preset persistence andoutput coverage remain unverified. Shared app-list43/44-effect discrepancy retained.
 
 [Empress ZOIA](brand/EMPRESS.md#zoia--partial-no-treadle-discovery) is a partial no-treadle discovery outside active counts; patch expression routing does not establish a global volume override.
+
+[Poly Effects Beebo](brand/POLY-EFFECTS.md#beebo--partial-no-treadle-discovery) is a partial modular/no-treadle discovery outside active counts; direct analog expression and qualified Indonesian hardware remain unverified.

@@ -2294,3 +2294,9 @@ expression-audit-commit-empress:
 .PHONY: expression-audit-stage-eventide
 expression-audit-stage-eventide:
 	python3 scripts/expression_audit_eventide.py stage
+
+.PHONY: expression-audit-stage-poly expression-audit-commit-poly
+expression-audit-stage-poly:
+	python3 scripts/expression_audit_poly.py stage
+expression-audit-commit-poly:
+	python3 scripts/expression_audit_poly.py commit

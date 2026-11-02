@@ -138148,6 +138148,7 @@
     "brand/HOLOGRAM.md",
     "brand/MELOFTY.md",
     "brand/MORNINGSTAR.md",
+    "brand/POLY-EFFECTS.md",
     "brand/POSITIVE-GRID.md",
     "brand/RJM-MUSIC.md",
     "brand/SINGULAR-SOUND.md",
@@ -141557,5 +141558,30 @@
     "mapping_fix": "2.2.3 preserves H9Gen2 auxiliary-switch mappings into H90 Program; reverse performance assignment fix is destination-specific",
     "drag": "1.9.13 copy/swap choice and overwrite/last-copy warnings qualify older manual overwrite behavior",
     "global_range": "No current range fix established by these editor notes"
+  },
+  "beebo_screening_20261103": {
+    "status": "partial discovery outside active counts",
+    "canonical": "brand/POLY-EFFECTS.md#beebo--partial-no-treadle-discovery",
+    "sources": [
+      "https://www.polyeffects.com/polyeffects/p/beebo",
+      "https://www.polyeffects.com/faqs"
+    ],
+    "expression": "direct analog input/global volume unknown; MIDI pinout not EXP proof",
+    "midi_serials": {
+      "typeB": "Pink before475 / Blue before338",
+      "mixed": "Pink475-876 / Blue338-936:TypeA input,TypeB output",
+      "typeA": "Pink877+ / Blue937+"
+    },
+    "power": "Exactly9V centernegative >=500mA supply; dimensions/draw/battery/USB unresolved",
+    "ir": "Space IR48kHz anydepth,max3.5s",
+    "market": "No exact qualified Shopee hardware found; not absence proof",
+    "access": "Product search snapshot available;direct404;maker-linked manual inaccessible",
+    "next": [
+      "complete ports/controls and analog EXP presence",
+      "exact Shopee hardware",
+      "memory/category/DSP census",
+      "volume range/recall/output coverage",
+      "editor/import revisions"
+    ]
   }
 }

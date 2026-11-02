@@ -674,3 +674,7 @@ RP360 [exact physical/electrical specifications](brand/DIGITECH.md#rp360--exact-
 ZOIA [firmware qualification](brand/EMPRESS.md#zoia--current-firmware-and-sampler-revision-boundaries): 5.32 retains Bank-mode bypass state across patch changes. This is separate from expression-position recall, global assignment or attenuation during bypass.
 
 H90 [historical range warning](brand/EVENTIDE.md#h90--historical-global-range-limitation-versus-program-mapping): a version-unspecified Eventide-hosted discussion reports−60…+12dB and no global range customization at that time. Current numeric endpoints remain unverified; manual Parameters-mode Start/End editing is separate from all-Program assignment.
+
+### Poly Effects Beebo — partial no-treadle discovery
+
+[Exact-model lead](brand/POLY-EFFECTS.md#beebo--partial-no-treadle-discovery), outside active counts. Direct analog EXP and global volume remain unknown. Manufacturer serial-dependent MIDI wiring must not be treated as EXP pinout; footprint axes, headphones and onboard preset directions remain qualified. No exact Shopee hardware offer verified.
