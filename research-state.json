@@ -143016,5 +143016,17 @@
     ],
     "deferred_source_gaps": "Do not block other research for unavailable sources;retain each unresolved task andcontinue requested displaymodels.",
     "no_download_or_device_operation": true
+  },
+  "prime_capture_target_scope_20261103": {
+    "canonical": "brand/HEADRUSH.md#prime",
+    "source": "https://support.headrushfx.com/en/support/solutions/articles/69000834532-headrush-prime-frequently-asked-questions",
+    "scope": "Prime own FAQ,not sibling transfer. Certain gatedfuzz andtimebasedtarget restrictions;someolderfuzz requiresreampbox. Separate fromplayableeffects/NAMimport.",
+    "remaining": [
+      "Current exact category census",
+      "Rig storage ceiling",
+      "OLED physical specifications",
+      "Qualified current hardware stock"
+    ],
+    "no_download_or_device_operation": true
   }
 }
