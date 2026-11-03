@@ -146488,5 +146488,21 @@
     ],
     "active_count_unchanged": 402,
     "additional_active_creative_index_unchanged": 33
+  },
+  "ex4_panel_lock_earth_20261103": {
+    "model": "BOSS EX-4 partial lead",
+    "source": "https://static.roland.com/manuals/ex-4_reference/en-US/561779083589756683.html",
+    "revision": "Original copyright2026 HTML;firmware minimum unstated",
+    "findings": [
+      "Rear earthconnector supplements audio/control inventory;notgroundlift switch",
+      "Play-screen longpress GEAR SUITE toggles knob/button lock;notassignment lock"
+    ],
+    "remaining": [
+      "Lock footswitch/pedal exceptions",
+      "Exact adapter polarity andportablepower",
+      "Qualified exact Shopee hardware"
+    ],
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }

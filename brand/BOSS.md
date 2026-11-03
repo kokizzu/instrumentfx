@@ -382,6 +382,14 @@ Checked **2026-11-03** in original ©2026 Roland HTML; no firmware introduction 
 
 Partial lead remains outside active counts; exact Shopee hardware, current firmware and actual tracking quality remain unverified. No downloads or device operation.
 
+### EX-4 — earth connector and front-panel lock
+
+Checked **2026-11-03** in the [original manufacturer Panel descriptions](https://static.roland.com/manuals/ex-4_reference/en-US/561779083589756683.html), ©2026 Roland HTML, firmware minimum unstated. The rear inventory includes a **ground/earth connector** for connection when necessary. This supplements the earlier port census; it is not an audio input/output or a documented ground-lift switch.
+
+Long-pressing **GEAR SUITE while the play screen is displayed** toggles Lock, which prevents accidental knob/button operation. This is a user-interface safeguard, not a freeze effect, preset write protection or a global expression-assignment lock. Footswitch/pedal exceptions are not specified in the checked text.
+
+The earlier PSA-S/300mA evidence remains; the Startup Guide landing page exposed a download-agreement form rather than its body. No agreement submitted or file downloaded. Polarity, USB/battery operation and exact Shopee hardware remain unresolved. Partial lead stays outside active counts.
+
 ## GM-800
 
 Consolidated and refreshed **2026-10-16**; partial verification. This processor qualifies through independent MFX architecture; it requires specialized input hardware for guitar/bass playing. No excluded specialist model is added.
