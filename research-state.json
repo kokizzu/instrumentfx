@@ -147175,5 +147175,19 @@
     "remaining": "CurrentGuideH,measuredlatency,synthtracking andsimultaneouscapacity unverified.",
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "prime_sustain_intro_scope_20261103": {
+    "model": "HeadRush Prime",
+    "checked": "2026-11-03",
+    "sources": [
+      "https://support.headrushfx.com/en/support/solutions/articles/69000858120-headrush-prime-and-core-what-s-new-in-firmware-v3-2-",
+      "https://news.hummingbirdmedia.com/headrush-unveils-feature-update-v32-for-prime-and-core-new-fx-features-and-performance-improvements"
+    ],
+    "canonical": "brand/HEADRUSH.md#prime--sustain-microloop-and-synth-introduction-dates",
+    "finding": "Sustain microloop distinguished from compression and tracking synths; exact three engine descriptions retained. August8 plannedlaunch andAugust13 press availability separately qualified.",
+    "offer_access": "HOLY MUSIC945642322/52161712736 repeatsRp22,789,000 voucher ask inthree-monthcache;notnewstock.",
+    "remaining": "Microloop duration,synth-inputpolyphony,measuredlatency,currentcapacity andqualifiedstock.",
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }
