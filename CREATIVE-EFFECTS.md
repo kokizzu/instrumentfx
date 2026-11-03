@@ -83,6 +83,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 | [BOSS GT-Pro](brand/BOSS.md#gt-pro) | Guitar Synth requires single notes;Wave Synth separate | Harmonist single notes;Pitch Shifter chords exceptMono | Guitar Simulator acoustic types;sitar/defret;Acoustic Processor separate | [Focused SYN check](brand/BOSS.md#gt-pro--guitar-synth-single-note-requirement-and-fx2-trade-offs);Slicer,Auto Riff,Sound Hold,Feedbacker;FX2 alternatives cannot all run independently;not full fresh audit |
 
+| [Zoom G11](brand/ZOOM.md#g11) | Z-Syn;BaStdSyn;BaSynTlk;chord tracking unverified | PolyShift chords;mono pitch variants;HPS scale/key harmony | Aco.Sim;HotSpice sitar;Defret bass | [Focused V2 distinctions](brand/ZOOM.md#g11--creative-instrument-tones-and-harmony-distinctions);Slicer,LoopRoll,Bomber;documented choices are DSP-limited,not current installed census |
+
 ## What remains uncertain
 
 - Actual tracking quality, latency and installed firmware were not measured for these records.

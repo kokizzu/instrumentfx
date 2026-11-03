@@ -10,12 +10,17 @@ import comparison_views
 if __name__ == '__main__':
     assert sys.argv[1:] in (['stage'], ['commit'], ['commit-505'], ['commit-606'], ['commit-607'])
     import subprocess
-    subprocess.run([sys.executable, "scripts/brand_sort.py", "verify"], check=True)
+    subprocess.run([sys.executable, "scripts/brand_sort.py", "test"], check=True)
+    # Check the edited brand order without rewriting unrelated brands for spacing.
+    import re
+    headers = re.findall(r"^## (.+)$", Path("brand/ZOOM.md").read_text(), re.M)
+    natural = lambda text: tuple((0, int(p)) if p.isdigit() else (1, p) for p in re.split(r"(\d+)", text.casefold()))
+    assert headers == sorted(headers, key=natural), "Zoom model sections are not naturally sorted"
     verify()
     comparison_views.verify_views()
     comparison_views.test_readme_brand_counts()
     comparison_views.test_validation_counts()
-    allowed = {'brand/MOOER.md','brand/BOSS.md','brand/FRACTAL-AUDIO.md','brand/LINE6.md','FOOTSWITCH-DISPLAYS.md','brand/VALETON.md','brand/NUX.md','brand/IK-MULTIMEDIA.md','brand/ZOOM.md','EXPRESSION-VOLUME.md','README.md','MULTI-EFFECTS.md','all-guitar.md','all-bass.md','all-vocal.md','research-state.json','scripts/comparison_views.py','scripts/expression_audit_zoom.py','Makefile'}
+    allowed = {'CREATIVE-EFFECTS.md','brand/MOOER.md','brand/BOSS.md','brand/FRACTAL-AUDIO.md','brand/LINE6.md','FOOTSWITCH-DISPLAYS.md','brand/VALETON.md','brand/NUX.md','brand/IK-MULTIMEDIA.md','brand/ZOOM.md','EXPRESSION-VOLUME.md','README.md','MULTI-EFFECTS.md','all-guitar.md','all-bass.md','all-vocal.md','research-state.json','scripts/comparison_views.py','scripts/expression_audit_zoom.py','Makefile'}
     changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
     staged = set(git('diff','--cached','--name-only').splitlines())
     assert (changed | staged) <= allowed, (changed | staged) - allowed
@@ -49,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): document G11 tuner gestures and conversion ratings'
+        message='research(zoom): distinguish G11 instrument tones and pitch tracking'
     print(git('commit','-m',message))

@@ -4846,6 +4846,18 @@ Checked **2026-11-01**, [manufacturer G11 firmware history through2.10](https://
 
 The same history labels January2021 /1.41 an IR function update without itemizing its behavior. Do not assign the later March fixes to1.41 merely because its version label precedes them in extracted text. Current support-listed2.10 remains separate from installed-unit firmware. No software orfiles downloaded.
 
+### G11 — creative instrument tones and harmony distinctions
+
+Checked **2026-11-03**, [manufacturer V2 effect list](https://zoomcorp.com/media/documents/E_G11v2_FX-list.pdf),©2021,Ver.2.002,printedpp28–32,38,40. This is historical documented availability,not a current installed-library census.
+
+| Field | Algorithm distinction / limitation |
+|---|---|
+| Synth / acoustic instrument processing | **HotSpice** simulates sitar tone with bend,buzz andoctave-up controls;**Defret** processes bass toward fretless sound. Both are SFX choices,separate from Drive-category Aco.Sim andthe three documented bass synths. Neither establishes a sampled-instrument engine. |
+| Pitch / harmony and detuning | **HPS** derives harmony from scale/key settings;input-note polyphony remains unverified. **Detune ±25cents** and**Ba Detune ±50cents** differ. Existing **PolyShift ±24semitones** explicitly supports chords;**MonoPitch,BaMnPitch,PDL MnPit andBa PDLMnP** explicitly target single notes. Do not transfer chord support toHPS,the other pedal shifters orthe synths. |
+| Special processing / live buffers | **Slicer** has20patterns;**LoopRoll** footswitch sample/hold differs from the long looper;**Bomber** generates explosive sounds. These are processing choices within existing DSP/slot limits,not additional dedicated blocks orproof all choices coexist. |
+
+Installed content,tracking quality andlatency remain untested. No software,firmware ormedia downloaded; no device operated.
+
 <!-- comparison evidence ends -->
 
 ### G11 — independent historical control-count corroboration
