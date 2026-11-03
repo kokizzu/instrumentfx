@@ -145615,5 +145615,30 @@
     "limitations": "No successful panel image inspection; full rotary count remains visually uncorroborated. Existing Shopee snapshots reappear unchanged and do not establish condition/current stock. No local downloads or hardware operation.",
     "next": "Continue individual-footdisplay manufacturer gaps and exact qualified hardware offers; preserve independent expression and GP-200JR→Prime→GE300 queues.",
     "inventory_changed": false
+  },
+  "ge150max_routing_white_offer_20261103": {
+    "checked": "2026-11-03",
+    "model": "MOOER::GE150 Max",
+    "source": "https://manuals.plus/m/c735a7e12c232a86a0feaf653c6ce0e607926ccd67e022f38488eff377953007.pdf",
+    "revision": "Undated shared GE150 Max/Max Li manufacturer-authored Polish manual,36PDFpages,printed9,18–21;English HTML translation not treated as original English.",
+    "findings": [
+      "CAB ON/THRU channel scope includes phones/OTG;different channel states move CAB to chain end",
+      "Looper playback continues afterexit;presets unavailable inside Looper mode",
+      "Spillover documents prepared copied presets,not arbitrary-switch continuity"
+    ],
+    "offer": {
+      "shop_id": "1875151955",
+      "item_id": "55066460778",
+      "url": "https://shopee.co.id/MOOER-GE150-MAX-White-Multi-Effects-Guitar-Pedal-i.1875151955.55066460778",
+      "opened_brand_list_idr": 3264000,
+      "search_only_idr": 3000000,
+      "access": "Brand-list opened two-month cache;search yesterday-indexed differs;direct item cache miss",
+      "seller_name": "unknown",
+      "condition": "unverified",
+      "stock": "unverified",
+      "qualification": "Exact White hardware title;not checkout or condition confirmation;do not infer seller from another site or transfer Li ratings."
+    },
+    "next": "Continue remaining exact-model dimensions/aux conflicts,current USB and firmware qualifications,visual controls and condition-specific hardware offers. Preserve independent individual-display and expression queues.",
+    "inventory_changed": false
   }
 }

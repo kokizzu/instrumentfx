@@ -447,6 +447,18 @@ Historical2026-10-15 source wording. Current firmware-qualified findings retain 
 
 [Original shared source](../research-state.json)<!-- historical-link:mooer-032 -->,retained pending complete navigation/provenance audits.
 
+### GE150 Max — cabinet routing, loop operation and exact White offer
+
+Checked **2026-11-03**. [Manufacturer-authored shared Max/Max Li manual, Polish reproduction](https://manuals.plus/m/c735a7e12c232a86a0feaf653c6ce0e607926ccd67e022f38488eff377953007.pdf),36PDF pages,printed9,18–21;undated revision,not a current-firmware certification. Exact cover,controls,200-memory/170-model architecture match the retained shared manual. The mirror’s English HTML is a translation;original PDF text was checked. Importer English endpoint failed. No local download or device operation.
+
+| Field | Finding / qualification |
+|---|---|
+| I/O / CAB SIM THRU | Per-channel **ON retains CAB;THRU bypasses CAB**,covering main outputs,phones andOTG. Different L/R states place CAB at chain end by default. These are channel rules,not independently selectable cabinet treatment for phones versus main. Mixed-connection prose is less clear;use the explicit ON/THRU definitions,not the setting name alone. |
+| Looper / controls and preset changes | Hold TUNER about1s to enter;D exits while playback continues. Preset selection is unavailable **inside** Looper mode;exit first. Stopping then requires re-entry. B stops;holdB over1s clears all tracks. Power-cycle retention,undo andall-output expression attenuation remain unverified. |
+| Live / spillover scope | Enable SPILL-OVER,copy a preset to the destination,then alter block states/parameters as documented. This is conditional delay/reverb continuity between prepared presets,not unconditional trails between unrelated sounds. |
+| IDR / exact White hardware lead | [Shopee shop1875151955/item55066460778](https://shopee.co.id/MOOER-GE150-MAX-White-Multi-Effects-Guitar-Pedal-i.1875151955.55066460778),title **MOOER GE150 MAX White Multi-Effects Guitar Pedal**. [Opened brand-list snapshot](https://shopee.co.id/list/Mooer?page=0),two-month cache,links this item at **Rp3.264.000**;yesterday-indexed search instead shows **Rp3.000.000**. Separate cached observations,not a verified current range. Direct item opening fails. Seller name/location,condition,selected variant,bundle/adapter,warranty,stock,vouchers andcheckout total unknown. Title is more specific than the older Pro Max lead,but no Li specifications orprices transferred. |
+
+
 ## GE150 Max Li
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
