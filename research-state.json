@@ -143856,5 +143856,16 @@
     "unresolved": "Exact offered/controller revision, analog direction, TRS pinout, resistance/taper and continuous CC endpoints",
     "queue": "Defer wiring until new model-specific primary evidence; continue other research",
     "downloads": false
+  },
+  "prime_stereo_saved_state_20261103": {
+    "checked": "2026-11-03",
+    "source": "https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf",
+    "printed_pages": [
+      19,
+      20
+    ],
+    "finding": "Bypass,knob andexpression changes do not trigger unsaved asterisk; stereo persists through mono models, but L/Mono-only output orRig Width0 makes mono.",
+    "boundary": "Saved5.2 original text; no device operation,automatic-save orall-NAM stereo certification",
+    "next": "Continue LCD-first research;general GP200JR→Prime→GE300 sequence retained;deferred M-VAVE wiring does not block others"
   }
 }
