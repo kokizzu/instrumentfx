@@ -376,6 +376,8 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 
 ## GE150 Max
 
+<!-- comparison evidence begins -->
+
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
 
 <!-- MOOER-GE150-MAX source begins -->
@@ -457,6 +459,49 @@ Checked **2026-11-03**. [Manufacturer-authored shared Max/Max Li manual, Polish 
 | Looper / controls and preset changes | Hold TUNER about1s to enter;D exits while playback continues. Preset selection is unavailable **inside** Looper mode;exit first. Stopping then requires re-entry. B stops;holdB over1s clears all tracks. Power-cycle retention,undo andall-output expression attenuation remain unverified. |
 | Live / spillover scope | Enable SPILL-OVER,copy a preset to the destination,then alter block states/parameters as documented. This is conditional delay/reverb continuity between prepared presets,not unconditional trails between unrelated sounds. |
 | IDR / exact White hardware lead | [Shopee shop1875151955/item55066460778](https://shopee.co.id/MOOER-GE150-MAX-White-Multi-Effects-Guitar-Pedal-i.1875151955.55066460778),title **MOOER GE150 MAX White Multi-Effects Guitar Pedal**. [Opened brand-list snapshot](https://shopee.co.id/list/Mooer?page=0),two-month cache,links this item at **Rp3.264.000**;yesterday-indexed search instead shows **Rp3.000.000**. Separate cached observations,not a verified current range. Direct item opening fails. Seller name/location,condition,selected variant,bundle/adapter,warranty,stock,vouchers andcheckout total unknown. Title is more specific than the older Pro Max lead,but no Li specifications orprices transferred. |
+
+<!-- comparison evidence ends -->
+
+### GE150 Max — first-pass source and later manual boundary
+
+Preserved2026-11-04 from historical Git blob `5759923034e10262f1990c55cfde25dbff19a5d3`. The complete earlier2026-10-15 source below records indexed-manual access limits andthen-unresolved category,memory andconnector questions. It predates the retained complete shared-manual correction above. Its narrower evidence is historical,not a reversal ofthat correction orfresh stock/firmware verification. Earlier next-model instructions are provenance;the active queue remains in research-state.json.
+
+<!-- MOOER-GE150MAX-EARLY source begins -->
+
+**Checked 2026-10-15; partial, eligible guitar multi-effects.** This is GE150 Max, not a new manufacturer model called Pro Max. Max Li is a separate battery-equipped record. Sources below are manufacturer/official regional documentation and seller evidence.
+
+| Required field | Finding |
+|---|---|
+| Expression | Built-in volume/expression with toe switch; external-expression socket not established [J] |
+| Knobs / footswitches / buttons | **3 / 8 / 6** from official named controls: MASTER, SELECT, MODE; A/B/C/D, bank up/down, TUNER, TAP; separate TAP, RHYTHM, SYSTEM, PLAY, SAVE, EXP buttons. Encoder pushes, rear power/ground and toe switches separate [J] |
+| Screen | **3.5-inch color LCD**, explicit global manufacturer feature. Touchscreen specification **unverified**; color is not proof of touch [G] |
+| Dimensions / weight | **326.5×204.2×55.7 mm L×W×H; 1.63 kg**. Large under either horizontal orientation; cables/pedal-up clearance additional [J] |
+| Power | **9 V DC center-negative, published 300 mA specification**. Standard external-power model, no internal Li battery. USB-powered operation not established [J,G] |
+| Simultaneous effects | **9 modules**, one type per module. **170 total including amps/cabs**, 55 amps,26 cabinets. Remaining exact per-category subtotals not independently transcribed from a Max-specific appendix in this pass [J,G] |
+| Presets | **200 locations,50 banks×4**; manufacturer says factory presets, save/edit supported. Exact dedicated factory versus overwriteable-user allocation not independently verified; not200+200 [J,G] |
+| Synth / acoustic | Specific synth/electric-to-acoustic algorithms unverified; do not transfer Plus/Pro appendix entries solely because the advertised total matches |
+| IR / models | **20 user IRs**, 512-sample24-bit/44.1-kHz WAV;20 separate MNRS amp samples. MNRS/GNR/GIR is not native NAM [G,J] |
+| NAM | **A2 conversion/import with Max V2.1.6**, August2026 global release notes. AMP-only import; preamp/pedal versus amp+cab import destinations distinguished. No native-loading claim [D] |
+| Audio I/O | One6.35-mm unbalanced mono input; two6.35-mm unbalanced outputs; **two balanced XLR outputs**; separate3.5-mm phones and aux. Official regional specification calls aux mono; indexed manufacturer manual calls it stereo, so preserve this conflict [J,M] |
+| Other ports | USB-C for editing/update/audio/OTG; DC input. Physical MIDI, external FX loop and mic/phantom input not established. XLR outputs do not imply microphone input [J,G] |
+| Applications | Windows/macOS MOOER Studio full editor/import/backup/update. Current global package minimum Win10+/macOS10.13+. Mobile OTG audio is not proof of a mobile editor; Linux editor unverified [J,D] |
+| USB audio | Recording/playback/OTG documented; exact channels, USB-MIDI and bus-power capabilities unverified [G,J] |
+| Practice/live | **80s stereo looper,40 rhythms+10 metronomes**, tuner, tap tempo, CTRL multi-module toggling and conditional delay/reverb spillover [J] |
+| Used/new IDR | **? / ? for an exact authenticated non-Li variant**. A related preorder observation is preserved below, not assigned unconditionally |
+
+### Shopee price evidence
+
+[Seven Stereo shop16879370/item29893478067](https://shopee.co.id/Mooer-GE150-Pro-Max-Multi-Effect-Efek-Gitar-Digital-i.16879370.29893478067) displays **Rp3.499.000**, **15-day preorder**, with old August delivery text. Search cache additionally said sold out; reopened text did not expose that label. Title says **GE150 Pro Max**, not an unambiguous manufacturer's exact variant. Until the image/selected variation is established, the amount is **condition/variant-unconfirmed historical or cached listing evidence**, not an active new/used range. The older mixed [item24292677095](https://shopee.co.id/Mooer-GE150-PRO-Li-GE-150-PRO-GE150PRO-GE150-MAX-GE150-MAX-Li-Guitar-Effect-Amp-Modelling-Multi-Effects-Pedal-i.3012339.24292677095) failed to reopen. Case-only results were excluded. No FX conversion or used-price percentage was invented.
+
+### Sources and access limitations
+
+[J] [Official Japan GE150 Max page](https://mooer.jp/products/mooer-ge150max), including control inventory, dimensions, power and signal ports.
+[G] [Manufacturer Max/Max Li page](https://www.mooeraudio.com/products/235.html), indexed full product text; direct access403.
+[D] [Manufacturer GE150-family downloads](https://www.mooeraudio.com/Downloads_xq/6.html), indexed August2026 release notes. Regional installer/version differences remain separate.
+[M] [Manufacturer-authored English Max manual mirrored here](https://www.notice-facile.com/en/manual/1772133/mooer%2Bge150-max), indexed specification text only; full reopening failed. No complete manual or diagram inspection is claimed, and no mirror-generated answer is used. Its stereo-aux statement is kept as a conflict, not a fully resolved panel specification.
+
+Do not copy erroneous maximum-level values into a dynamic-range field; the regional page contains that apparent template error. **Next model: GE150 Max Li.** Outstanding: exact factory/user memory split, per-category subtotals, touch, aux conflict, USB power/channels, full control/port visual verification and unambiguous new/used Indonesian offers.
+<!-- MOOER-GE150MAX-EARLY source ends -->
 
 ## GE150 Max Li
 

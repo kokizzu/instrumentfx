@@ -47191,7 +47191,7 @@
     },
     "technical_source_history_audit_20261104": {
       "checked": "2026-11-04",
-      "source_head": "41fa3832612f3735589ba6d9ee49ff75a2644f81",
+      "source_head": "2698153ade61e2ab19ae4eac94d8314c90ea26eb",
       "target": "make consolidation-audit-source-history",
       "sources": 99,
       "variants": 295,
@@ -47200,18 +47200,12 @@
         "registered-original": 99,
         "pre-layout-compatibility-redirect": 88,
         "verified-link-only-source-variant": 1,
-        "verified-historical-body-archive": 1,
-        "historical-variant-needs-review": 6,
+        "verified-historical-body-archive": 2,
+        "historical-variant-needs-review": 5,
         "verified-shared-source-variant": 1
       },
       "method": "Enumerate unique Git blobs with --full-history and per-parent merge diffs; reject shallow clone history. Exact equality against registered original,current redirect,or inverse-layout redirect;other content stays pending. FX100 accepts only two explicit citation substitutions followed by whole-source equality; technical orprice drift remains pending. Earlier GR-55 body is independently archived andverified against its pinned Git blob;historical corrections are not normalized away.",
       "pending": [
-        {
-          "source": "effects/findings/2026-10-15-mooer-ge150-max.md",
-          "destination": "brand/MOOER.md#ge150-max",
-          "blob": "5759923034e10262f1990c55cfde25dbff19a5d3",
-          "sha256": "c3b0def7ac7aafe6860135a3cbb8ca92a40220b1826b5fe9f1e68be6c6fa71e9"
-        },
         {
           "source": "effects/findings/2026-10-15-mooer-ge150-plus-li.md",
           "destination": "brand/MOOER.md#ge150-plus-li",
@@ -47243,10 +47237,10 @@
           "sha256": "d04e08da201a87eccd703a49efad348a83343f504ac20e9ec52f7404687180cc"
         }
       ],
-      "next": "Continue six variants:three MOOER source revisions,then compact/owned/market3 shared sources. Earlier GR-55 source fullyarchived with later qualification precedence;independent GT-Pro/display/expression queues preserved.",
+      "next": "Continue five variants:GE150 Plus Li,GE150 Plus,then compact/owned/market3 shared sources. Preserve independent GT-Pro/display/expression queues andverify later comparison precedence.",
       "limitations": "HEAD-reachable technical source revisions only; pending variants are not proven loss; shared/metadata files and manufacturer truth need separate audits. Existing original-body verification remains independent;no compatibility path removed andno complete-migration claim.",
       "complete": false,
-      "merge_history_recheck": "Full merge-parent traversal covers295 variants;BOSS andFX100 equivalence verified andearlier GR-55 body preserved separately. Six content variants remain pending.",
+      "merge_history_recheck": "295 revisions checked;BOSS/FX100 equivalence verified andGR-55/GE150 Max earlier bodies retained under exact-model markers. Five variants remain pending.",
       "initial_counts": {
         "current-compatibility-redirect": 99,
         "registered-original": 99,
@@ -47301,6 +47295,20 @@
           "coverage_check": "Complete historical source body retained under marker; inverse heading/reference/link transformations must reproduce pinned Git blob body exactly",
           "qualification": "Earlier partial preset update and stronger Librarian claim are historical,not current proof. Later canonical qualification retained.",
           "destination_section": "GR-55"
+        },
+        {
+          "source": "effects/findings/2026-10-15-mooer-ge150-max.md",
+          "destination": "brand/MOOER.md#ge150-max",
+          "blob": "5759923034e10262f1990c55cfde25dbff19a5d3",
+          "sha256": "c3b0def7ac7aafe6860135a3cbb8ca92a40220b1826b5fe9f1e68be6c6fa71e9",
+          "verification_kind": "historical-source-body-v1",
+          "marker": "MOOER-GE150MAX-EARLY",
+          "renamed_references": [],
+          "link_normalizations": {},
+          "source_title": "# MOOER GE150 Max — standard non-Li",
+          "destination_section": "GE150 Max",
+          "coverage_check": "Entire earlier first-pass body retained; inverse heading-depth transformation must equal pinned Git blob body",
+          "qualification": "Earlier indexed-only manual access and then-unknown fields remain historical;later shared-manual correction retains precedence"
         }
       ]
     }

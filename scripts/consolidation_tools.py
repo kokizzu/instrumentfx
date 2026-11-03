@@ -2143,7 +2143,7 @@ def compact_reference_plan():
 
 def commit_preservation_repairs(stage=False):
     research_tools.identity()
-    allowed = {'Makefile', 'scripts/consolidation_tools.py', 'research-state.json', 'brand/ROLAND.md'}
+    allowed = {'Makefile', 'scripts/consolidation_tools.py', 'research-state.json', 'brand/ROLAND.md', 'brand/MOOER.md'}
     changed = set(research_tools.git('diff', '--name-only').splitlines()) | set(research_tools.git('ls-files', '--others', '--exclude-standard').splitlines())
     staged = set(research_tools.git('diff', '--cached', '--name-only').splitlines())
     assert (changed | staged) <= allowed, (changed | staged) - allowed
@@ -2167,7 +2167,7 @@ def commit_preservation_repairs(stage=False):
         assert review['head'] == research_tools.git('rev-parse', 'HEAD').strip()
         assert review['sha256'] == digest(research_tools.git('diff', '--cached'))
         assert not research_tools.git('diff', '--cached', '--check').strip()
-        print(research_tools.git('commit', '-m', 'docs(roland): preserve earliest GR-55 source qualifications'))
+        print(research_tools.git('commit', '-m', 'docs(mooer): preserve GE150 Max first-pass source scope'))
 
 def audit_historical_sources():
     """Compare the earliest Core/Flex source blobs with the preserved originals."""
