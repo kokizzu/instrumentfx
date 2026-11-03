@@ -2,7 +2,7 @@
 
 [All guitar](../all-guitar.md) · [All bass](../all-bass.md) · [Category](../MULTI-EFFECTS.md) · [Repository](../README.md)
 
-**Six active profiles:** five existing Matribox/Smart Box/Pocket Master records consolidated with their original **2026-10-14** evidence, plus **Sonic Wood newly researched2026-10-15**. All retain explicit verification gaps. The official [digital multi-effects collection](https://www.sonicake.com/collections/multi-effects) and separate [Sonicbar collection](https://www.sonicake.com/collections/multi-effects-pedal) cover different families; searching only one collection misses eligible products.
+**Eleven active partial profiles** are currently recorded. **Historical checkpoint (2026-10-15), six profiles:** five existing Matribox/Smart Box/Pocket Master records consolidated with their original **2026-10-14** evidence, plus **Sonic Wood newly researched2026-10-15**. All retain explicit verification gaps. The official [digital multi-effects collection](https://www.sonicake.com/collections/multi-effects) and separate [Sonicbar collection](https://www.sonicake.com/collections/multi-effects-pedal) cover different families; searching only one collection misses eligible products.
 
 K/F/B means rotary controls / main footswitches / separate buttons; encoder presses count once. Power and expression-toe switches are separate. Screen color does not prove touch. A single TRS stereo output is not a pair of balanced mono outputs. Prices are IDR with dated qualifications; no guessed foreign exchange or used-price percentage.
 
