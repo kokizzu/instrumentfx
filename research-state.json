@@ -148472,5 +148472,14 @@
     ],
     "active_model_count_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "gnx3000_manual_io_followup_20261104": {
+    "source": "https://manualzz.com/doc/51981626/digitech-gnx3000-gnx3000--discontinued--owner-manual",
+    "revision": "18-6288-B",
+    "canonical": "brand/DIGITECH.md#gnx3000--complete-manual-io-and-position-recall-follow-up",
+    "verified_scope": "Port inventory; historical host USB modes; conditional pedal-position recall. See canonical qualification; no current-host/device test.",
+    "next": "Continue same partial GNX3000 control/display and category census before active admission; exact current firmware and offers remain unverified.",
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }

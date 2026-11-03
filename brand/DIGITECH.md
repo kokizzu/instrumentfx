@@ -283,11 +283,11 @@ Checked **2026-11-04**. Exact GNX3000, not GNX3/GNX4. **Outside active inventory
 | Field | Evidence / qualification |
 |---|---|
 | Status / memory | Manufacturer marks this a past product. **65 User +65 Factory1 +65 Factory2 =195 locations** (derived total). [Product](https://digitech.com/dp/gnx3000/). |
-| Expression / controls | Built-in expression with toe-pressure wah switching; **seven footswitches**:1–5 plusDown/Up. External expression, rotary/button totals and global-volume assignment unverified. Original manual pp9–10. |
+| Expression / controls | Built-in expression with toe-pressure wah switching; **seven footswitches**:1–5 plusDown/Up. External expression, rotary/button totals and global-volume assignment unverified; position recall is qualified below. Original manual pp9–10. |
 | Display | Numeric specifications, technology, diagonal, color and touch unverified; no separate footswitch-screen claim. |
 | Processing / creative effects | Whammy/IPS/Talk selects Whammy, IPS, Detune, Pitch Shift orTalker1–5; **one selection at a time**. SynthTalk is dynamic speaking-like processing in the separate Chorus/Mod slot, itself one selection at a time. Dedicated synth architecture, input polyphony, acoustic simulation, total simultaneous capacity and complete category census remain unverified. Original pp53,61,71. |
 | Size / mass | Manufacturer axes retained: **Length18.5in ×Width10.5in ×Height3in;10lb**. Mass inclusion unstated. [Product](https://digitech.com/dp/gnx3000/). |
-| I/O / USB | TypeB, **USB1.1 Full Speed12Mbps**, USB2-compatible; compatibility is not USB2 speed. Full port inventory, audio channels/routing, headphones and MIDI paths pending. [Product](https://digitech.com/dp/gnx3000/). |
+| I/O / USB | TypeB, **USB1.1 Full Speed12Mbps**, USB2-compatible; compatibility is not USB2 speed. Port inventory and historical USB modes below; complete routing/electrical limits pending. [Product](https://digitech.com/dp/gnx3000/). |
 | Power | **21W consumption** product claim. [Manufacturer FAQ](https://digitech.com/faqs/) lists **PSS3,9VAC2.1A**, barrel9.5mm length/5.5mm width/2.5mm pin;2.1A is supply rating, not measured draw. AC has no DC center polarity. Listed supply mains120VAC/TypeA is regional, not universal mains support. Battery/USB power unverified. |
 | IR / NAM / capture | User IR, native/converted NAM and proprietary capture import unverified. Component-Based Modeling marketing does not establish user capture capability. |
 | Editor / firmware / live | Product links **X-Edit2.4.1 Windows**; current OS support, other editor platforms, drivers, device firmware, looper/drum limits, scenes and spillover pending. Editor version is not firmware. |
@@ -300,6 +300,19 @@ Checked **2026-11-04**. Exact GNX3000, not GNX3/GNX4. **Outside active inventory
 ### Source identity and remaining verification
 
 [Official original manual](https://digitech.com/wp-content/uploads/2022/09/GNX3000REVB_Owners_manual_original.pdf) exceeds browser reader size limits; no local download. [Manufacturer-authored reproduction](https://manualmachine.com/digitech/gnx3000/1120205-user-manual/) has GNX3000 Owner’s Manual body, matching controls and June17,2005 declaration; not the host FAQ. Host lists142pages but exposed text stops at printed92. Final revision/footer not exposed, so exact equivalence to official REVB remains unverified; no current-firmware equivalence inferred. Complete controls, I/O, category counts, acoustic/creative algorithms, routing and power/USB operation before considering active admission. Independent expression/display/general queues remain unchanged.
+
+### GNX3000 — complete-manual I/O and position-recall follow-up
+
+Checked2026-11-04. A second [manufacturer-authored reproduction](https://manualzz.com/doc/51981626/digitech-gnx3000-gnx3000--discontinued--owner-manual) exposes footer **18-6288-B**, matching GNX3000 body/organization through printed133. The earlier mirror’s truncation remains an access limitation; official-file byte equivalence and current-firmware mapping remain unverified. Host-generated summaries/FAQs excluded.
+
+| Field | Original-manual finding / qualification |
+|---|---|
+| Ports | Guitar input;XLR mic;balanced¼in L/R line inputs;balanced¼in L/R outputs;XLR L/R outputs;¼in stereo headphones;¼in GNXFC remote;5-pin MIDI IN/OUT-THRU;USB-B;PSS3 power. pp17–19,130. Remote connector does not establish external analog expression. |
+| Mic / output controls | Mic phantom always on. Separate¼in-output andXLR/phones level controls. Stereo headphone plug required; mono plug can damage driver. pp17–18. |
+| USB audio | Historical ASIO/Mac:4record/2playback channels;Windows WDM enumerates2-in/2-out plus2-in/0-out. Current-host compatibility untested. p101. |
+| Expression recall | Volume Pedal Update carries position across presets **only when both already link EXP to volume**;disabled recalls stored level. Position recall is not global assignment. p118. |
+
+Remaining: controls/display census, effects/category limits, creative note handling, acoustic algorithms, modern software support, imports, detailed routing and live functions. This follow-up does not admit an active model or change an independent queue.
 
 ## Incoming capability evidence, 2026-10-18
 
