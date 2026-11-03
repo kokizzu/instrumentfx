@@ -1191,6 +1191,17 @@ Checked **2026-11-03**,[manufacturer November2026 Blocks Guide,printedpp76–77]
 
 Earlier reference counts,CPU limits andrevision qualifications remain. No local download,device test orglobal-volume conclusion.
 
+### FM9 — versioned pitch tracking and arpeggiator triggering
+
+Checked **2026-11-03** against the [manufacturer-authored FM9 release history,12.00 edition](https://manuals.plus/m/fc4c88f09cdfe1684d4526d72c54e4e86b0de29352a33b47c153a1dc5715d9b1.pdf),PDFpp4,6. Its **12.00 /2026-07-07** heading matches the [manufacturer download listing](https://www.fractalaudio.com/fm9-downloads/). Original release text on a mirror,not host advice.
+
+| Field | Firmware-qualified capability / limitation |
+|---|---|
+| Pitch / category choices and tracking | **10.00,2025-10-01:**Off/Chords/Notes tracking choices apply to **chromatic types,including whammy**. Chords trades latency for stability with multiple notes;Notes reduces latency but complex chords may be difficult. **Diatonic types require single notes and automatically use Notes**. This does not establish polyphonic Synth tracking ormeasured latency. |
+| Pitch / changed controls and arpeggiator | **11.00,2026-01-19:**Notes/Chords optimization retained,**Tracking Adjust removed** because handled automatically. Arpeggiator gains threshold triggering when Threshold is notOFF;after completing the sequence it resets to the first step rather than stopping on the last. Trigger threshold is not input-note polyphony or an additional algorithm. |
+
+Installed firmware andactual tracking remain untested. Preserve the older2022 manual andNovember2026 reference inventory separately;do not instruct a current user to adjust aparameter removed in11.00. Global analog-volume endpoints,held-position recall,complete output coverage andqualified Shopee stock remain unresolved. No local download,software installation ordevice operation.
+
 ## FM9 original
 
 Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct from Turbo and MKII Turbo. Not fully verified; no ownership or live-stock assertion. The complete discovery body follows under its old anchor. Earlier outside-inventory statements are historical checkpoints, not the current admission status.

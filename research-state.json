@@ -145003,10 +145003,11 @@
         "key": "Fractal Audio::FM9 MKII Turbo",
         "canonical": "brand/FRACTAL-AUDIO.md#fm9-mkii-turbo",
         "synth": "Three-oscillator monophonic Synth",
-        "pitch": "Pitch block",
+        "pitch": "Chromatic/whammy Notes/Chords tracking; diatonic single notes",
         "instrument": "Acoustic/piezo support is not simulation",
-        "qualification": "June2023 shared guide; current MKII equivalence qualified",
-        "evidence_basis": "Existing canonical record and retained dated manufacturer evidence; not freshly reverified for this index."
+        "qualification": "Focused firmware10/11 pitch follow-up:mode trade-off;Tracking Adjust removed11.00;not a full fresh capability audit",
+        "evidence_basis": "Retained canonical synth/instrument evidence plus focused2026-11-03 manufacturer-release pitch follow-up;not a complete four-category re-audit.",
+        "pitch_followup_source": "https://manuals.plus/m/fc4c88f09cdfe1684d4526d72c54e4e86b0de29352a33b47c153a1dc5715d9b1.pdf"
       },
       {
         "key": "BOSS::GT-10",
@@ -145298,5 +145299,18 @@
     "finding": "Right-hand LCD contrast1–16; Immediate knob changes versus Current Setting pickup at stored patch value.",
     "qualification": "Knob pickup is not Assign Hold or global expression-volume range/coverage. No physical display,USBchannel or13/15count closure.",
     "next": "Confirmed individual-LCD audio processors retain priority when new evidence resolves substantive gaps; independent GT-Pro13/15,otherUSBmodes,visualcontrols,globalFVprecedence andqualifiedIDR remain open."
+  },
+  "fm9_pitch_tracking_revision_20261103": {
+    "model": "Fractal Audio FM9 MKII Turbo",
+    "checked": "2026-11-03",
+    "source": "https://manuals.plus/m/fc4c88f09cdfe1684d4526d72c54e4e86b0de29352a33b47c153a1dc5715d9b1.pdf",
+    "manufacturer_listing": "https://www.fractalaudio.com/fm9-downloads/",
+    "revision": "FM9 release history12.00,2026-07-07;PDFpp4,6",
+    "versions": {
+      "10.00": "2025-10-01:chromatic/whammy Off/Chords/Notes tracking;Chords latency/stability tradeoff;Diatonic single notes,automatic Notes.",
+      "11.00": "2026-01-19:Tracking Adjust removed;automatic optimization. Arpeggiator threshold triggering andreset tofirst step atsequence completion."
+    },
+    "qualification": "FM9 release-specific capability;not installed-firmware/tracking/latency orpolyphonic Synth certification.",
+    "next": "Requested separate-screen processors retain priority;FM9 global-volume endpoints/recall/all-route coverage,exact current hardware controls/diagonal andqualified Shopee offers remain open."
   }
 }

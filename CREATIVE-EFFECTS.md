@@ -42,7 +42,7 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **25 records were not freshly manufacturer-audited for this comparison**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **25 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
@@ -54,7 +54,7 @@ This index reuses existing canonical evidence and its original revision/date qua
 | [HeadRush Prime](brand/HEADRUSH.md#prime) | Hybrid Synth | Chord Wham; Up/Drop Tune; Smart Harm | Electric Piano; DB-33 Organ; Acoustic Sim | Current page category totals conflict; Ambi-Verb classification not proof of another oscillator engine |
 | [Fractal Audio FM3 original](brand/FRACTAL-AUDIO.md#fm3-original) | Three-voice monophonic Synth | Pitch block | Acoustic input is not simulation | Own dated block table; current firmware equivalence qualified |
 | [Fractal Audio FM3 MKII Turbo](brand/FRACTAL-AUDIO.md#fm3-mkii-turbo) | Three-voice monophonic Synth | Pitch block | Acoustic simulation unverified | 7.x manual versus current13 inventory qualification |
-| [Fractal Audio FM9 MKII Turbo](brand/FRACTAL-AUDIO.md#fm9-mkii-turbo) | Three-oscillator monophonic Synth | Pitch block | Acoustic/piezo support is not simulation | June2023 shared guide; current MKII equivalence qualified |
+| [Fractal Audio FM9 MKII Turbo](brand/FRACTAL-AUDIO.md#fm9-mkii-turbo) | Three-oscillator monophonic Synth | Chromatic/whammy Notes/Chords; diatonic single notes | Acoustic/piezo support is not simulation | [Focused firmware10/11 pitch follow-up](brand/FRACTAL-AUDIO.md#fm9--versioned-pitch-tracking-and-arpeggiator-triggering):mode trade-off;Tracking Adjust removed11.00;not a full fresh audit |
 | [BOSS GT-10](brand/BOSS.md#gt-10) | WAVE SYNTH; single-note GUITAR SYNTH | See retained parameter record | GUITAR SIM acoustic choices | Mute unused strings; AC.PROCESSOR separately reshapes acoustic pickups |
 | [BOSS GT-100](brand/BOSS.md#gt-100) | WAVE SYNTH | See retained parameter record | AC.GUITAR SIM; separate AC.PROCESSOR | Algorithm note handling not freshly checked |
 | [BOSS GT-001](brand/BOSS.md#gt-001) | WAVE SYNTH; separate mono guitar-to-MIDI | See retained parameter record | AC.GUITAR SIM; separate AC.PROCESSOR | Guitar-to-MIDI is not the same as audio synth block |

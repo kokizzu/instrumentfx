@@ -13,13 +13,17 @@ if __name__ == '__main__':
     comparison_views.verify_views()
     comparison_views.test_readme_brand_counts()
     comparison_views.test_validation_counts()
-    allowed = {'brand/FRACTAL-AUDIO.md','FOOTSWITCH-DISPLAYS.md','EXPRESSION-VOLUME.md','README.md','MULTI-EFFECTS.md','all-guitar.md','all-bass.md','all-vocal.md','research-state.json','scripts/comparison_views.py','scripts/expression_audit_fractal.py','Makefile'}
+    allowed = {'CREATIVE-EFFECTS.md','brand/FRACTAL-AUDIO.md','FOOTSWITCH-DISPLAYS.md','EXPRESSION-VOLUME.md','README.md','MULTI-EFFECTS.md','all-guitar.md','all-bass.md','all-vocal.md','research-state.json','scripts/comparison_views.py','scripts/expression_audit_fractal.py','Makefile'}
     changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
     staged = set(git('diff','--cached','--name-only').splitlines())
     assert (changed | staged) <= allowed, (changed | staged) - allowed
     assert not git('diff','--check').strip(), 'Whitespace errors'
     if sys.argv[1:] == ['stage']:
-        assert not staged, 'Existing staged changes'
+        if staged:
+            import json
+            previous = json.loads(review_path.read_text())
+            assert previous['head'] == git('rev-parse','HEAD').strip(), 'HEAD changed since review'
+            assert previous['sha256'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest(), 'Unreviewed staged changes'
         assert changed, 'No changes to review'
         git('add','--',*sorted(changed))
         diff = git('diff','--cached')
@@ -35,4 +39,4 @@ if __name__ == '__main__':
         assert review['head'] == git('rev-parse','HEAD').strip(), 'HEAD changed since review'
         assert review['sha256'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest(), 'Staged diff changed since review'
         assert not git('diff','--cached','--check').strip(), 'Staged whitespace errors'
-        print(git('commit','-m','research(fractal): verify original FC-6 panel and power priority'))
+        print(git('commit','-m','research(fractal): qualify FM9 pitch tracking by firmware version'))
