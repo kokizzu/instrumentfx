@@ -1308,6 +1308,18 @@ Checked **2026-11-04** in **HX Edit3.80 Pilot’s Guide RevY**,©2024 Yamaha Gui
 
 DSP limits still apply independently. Current editor3.82,installed firmware andactual concurrency were not tested;this evidence is specifically the3.80 documentation. No download,installation,IR import ordevice operation. Existing synth-note-polyphony,global-volume andmarket uncertainties remain open.
 
+### HX Effects — historical strip and save-dialog fixes
+
+Checked **2026-11-04** in [manufacturer Helix/HX Firmware2.60 release notes](https://line6.com/software/index.html?hardware=Helix&locale=de_DE&name=All&submit_form=set), **July2,2018**, HX Effects-specific bullets. The download index is de_DE locale but the cited release body is English. These are historical manufacturer fix claims, not new fixes applied here or an installed-device test.
+
+| Field | Documented2.60 correction / boundary |
+|---|---|
+| Display / EXP learning and Tuner text | Fixes rare disappearing scribble-strip content after learning the same EXP/parameter twice, and block parameters appearing in Tuner view when moving EXP while holding TAP/TUNER. These UI defects do not establish faulty LCD hardware or global expression-volume assignment. |
+| Memory / Save dialog and Tempo Panel | Fixes touching TAP/TUNER to open Tempo Panel from Save Preset resetting the recently entered custom name or save destination. This describes unsaved dialog state, not deletion of an already stored preset or a factory-reset scope. |
+| Display / four-switch looper visibility | Fixes missing Record/Undo controls in the six-switch looper view when global Stomp mode uses four switches. View behavior does not add physical footswitches or LCDs. |
+
+Current manual3.80 and all existing per-path/per-preset source conflicts remain intact. Fresh Shopee research only resurfaced the recorded sold-out processor and excluded replacement LCD parts; no qualified stock/price update. No download,firmware installation ordevice operation.
+
 ## HX One
 
 Effects-only multi-category guitar/bass processor;distinct from HX Effects/HX Stomp. One selected model,not a multi-block chain. Checked2026-10-17;partial. Ownership/vocal suitability unknown.
