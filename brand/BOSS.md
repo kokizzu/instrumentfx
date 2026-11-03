@@ -1757,6 +1757,8 @@ Current comparison summary, reviewed 2026-10-28. Discontinued rack guitar multi-
 <!-- comparison evidence begins -->
 | Field | Evidence / qualification |
 |---|---|
+| Display / contrast adjustment | Original manual p96: SYSTEM→LCD Contrast offers **1–16**, for the right-hand LCD. This is a contrast parameter,not a diagonal,color-depth,touch or LED-brightness specification. [Indexed manufacturer original](https://cdn.roland.com/assets/media/pdf/GT-PRO_OM.pdf),checked2026-11-03. |
+| Knobs / pickup behavior | Original p99: **Immediate** changes the value as soon as a knob moves; **Current Setting** waits until its physical position reaches the stored patch value. This is front-panel knob pickup,not expression-pedal Assign Hold or a global volume-range override. [Indexed manufacturer original](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf),checked2026-11-03. |
 | Expression | No built-in treadle. EXP1 and shared EXP2/CTL3,4 accept external control; CTL1,2 is separate. EV-5/FV-300L specified; set pedal minimum to MIN. Global SYSTEM **Foot Volume and Patch Level** roles documented;Patch Level is a separate direct target,not a per-patch ASSIGN. Foot Volume precedence over patch FV enable/MIN/MAX remains unknown. Auto can switch to wah/bend; it is not a volume lock. External toe capability unverified. |
 | Knobs / footswitches / buttons | **12 / 0 / 30**, derived from manual text; POWER and ground-lift counted separately. Panel-image corroboration pending. No onboard preset footswitch down/up. |
 | Display | Backlit **16×2-character LCD** plus **2-character seven-segment LED**. Diagonal, color and touch remain unverified. |
@@ -2293,6 +2295,12 @@ Checked 2026-10-28 against the manufacturer-authored **BOSS Products Catalog 200
 | Processing / count boundary | LOOP is an external-effects path; preamp and drive subtypes are not individually counted here. Forty-four therefore does not mean forty-four simultaneous internal effects. The catalogue separately advertises fifteen reorderable blocks; the earlier thirteen/fifteen discrepancy and MIDI chain inventory remain unresolved. |
 
 This supersedes earlier missing category-list reconciliation only. Global FV range precedence, other USB modes, exact Shopee offers and physical controls remain unverified. No local download or device operation.
+
+### GT-Pro — LCD contrast and knob-pickup boundaries
+
+Checked **2026-11-03** against indexed original manufacturer manual **pp96,99**. [Official original PDF](https://cdn.roland.com/assets/media/pdf/GT-PRO_OM.pdf); matching original [p96 reproduction](https://roland.manymanuals.it/supplementary-music-equipment/gt-pro/owners-manual-5239/96). Full PDF still exceeds the web reader limit; targeted original text was available,not a successful panel-image inspection.
+
+The current table records contrast1–16 and Immediate/Current Setting knob behavior. **Current Setting is knob pickup,not pedal-position recall.** The separate Assign Hold rules and unresolved global-FV precedence remain intact. Neither menu establishes physical screen dimensions,all-mode volume attenuation,USB channel totals orresolution of13-versus15 effects. No local download,software installation ordevice operation.
 
 ## GX-1
 

@@ -145281,5 +145281,22 @@
     ],
     "inventory": "Controller outside active audio counts",
     "next": "Continue individual footswitch-display models and compact direct-analog-volume research; defer inaccessible AXOM MAX physical census; preserve GP-200JR→Prime→GE300 queue."
+  },
+  "gtpro_display_knob_scope_20261103": {
+    "model": "BOSS GT-Pro",
+    "checked": "2026-11-03",
+    "sources": [
+      "https://cdn.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+      "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+      "https://roland.manymanuals.it/supplementary-music-equipment/gt-pro/owners-manual-5239/96"
+    ],
+    "pages": [
+      96,
+      99
+    ],
+    "revision": "Original GT-PRO owner manual; indexed exact-model text, full PDF reader-size limitation",
+    "finding": "Right-hand LCD contrast1–16; Immediate knob changes versus Current Setting pickup at stored patch value.",
+    "qualification": "Knob pickup is not Assign Hold or global expression-volume range/coverage. No physical display,USBchannel or13/15count closure.",
+    "next": "Confirmed individual-LCD audio processors retain priority when new evidence resolves substantive gaps; independent GT-Pro13/15,otherUSBmodes,visualcontrols,globalFVprecedence andqualifiedIDR remain open."
   }
 }
