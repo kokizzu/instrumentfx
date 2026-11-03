@@ -145862,5 +145862,23 @@
     "limits": "Regionalratings corroboratehistoricalmanufacturer;not currentdirectmanufacturer electricalcertification ormeasurement. Phonespower/load,EXPcoverage andcurrentfirmware behavior unresolved.",
     "next": "Requested display processors remainpriority;currentphysicalcontrols,mini-screen specifications,global-volume scope andqualified Shopee stock remainopen. Independent queues preserved.",
     "inventory_changed": false
+  },
+  "comparison_adjacent_heading_fix_20261103": {
+    "checked": "2026-11-03",
+    "problem": "ATX headings immediately after prose were merged into values;subsequent paragraphs retained prior heading labels orwere omitted as source/provenance.",
+    "fix": "Recognize line-boundary headings independently ofblank paragraphs while preserving backtick/tilde fenced examples.",
+    "regression": "Actual FM3 firmware13 heading leaked into firmware12 value before fix;focused extraction test failed,thenpassed. Fixture tests cover adjacent headings,EOF,quoted text andfences;Lexicon routing extraction pinned.",
+    "affected_models": [
+      "BOSS::GX-1B",
+      "Line 6::Helix Floor",
+      "Zoom::B3n",
+      "DigiTech::RP70",
+      "VOX::ToneLab EX",
+      "Lexicon::MPX100",
+      "Fractal Audio::FM3 MKII Turbo"
+    ],
+    "source_integrity": "Canonical brand documents unchanged;prior table facts retained. Lexicon routing/qualification prose recovered;RP70 generic no-device-operation provenance no longer misclassified ascategory evidence. No specifications newly researched.",
+    "inventory_changed": false,
+    "next": "Continue requested footswitch-display andindependent expression/general research queues;full catalogue research andremaining qualifications are notcomplete."
   }
 }

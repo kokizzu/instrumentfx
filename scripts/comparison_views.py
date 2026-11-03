@@ -24,6 +24,35 @@ def sections(text):
     matches = list(re.finditer(r'^## (.+)$', text, re.M))
     return [(m[1], text[m.end():matches[i+1].start() if i+1<len(matches) else len(text)]) for i,m in enumerate(matches)]
 
+def prose_paragraphs(text):
+    """Separate ATX headings even without blank lines; preserve fenced examples."""
+    pending = []
+    fence = None
+    for line in text.splitlines():
+        if fence is not None:
+            pending.append(line)
+            if re.fullmatch(r' {0,3}' + re.escape(fence[0]) + r'{' + str(len(fence)) + r',}[ \t]*', line):
+                fence = None
+            continue
+        opening = re.match(r' {0,3}(`{3,}|~{3,})', line)
+        if opening:
+            fence = opening[1]
+            pending.append(line)
+        elif re.match(r' {0,3}#{1,6}(?:[ \t]+|$)', line):
+            if pending:
+                yield '\n'.join(pending).strip()
+                pending = []
+            yield line.strip()
+        elif not line.strip():
+            if pending:
+                yield '\n'.join(pending).strip()
+                pending = []
+        else:
+            pending.append(line)
+    if pending:
+        yield '\n'.join(pending).strip()
+
+
 def tables(text, strict=False, source="comparison evidence"):
     """Reject malformed canonical rows instead of silently losing findings."""
     lines = text.splitlines()
@@ -261,7 +290,7 @@ def make_plan(persist=True):
                         facts[key].append(dict(field='IDR '+row[0],value=relink(' — '.join(row[1:]),path,refs),source=path,context=context))
             # Preserve model-specific prose evidence, excluding source lists and stale next cursors.
             prose_heading=''
-            for paragraph in re.split(r'\n\s*\n',text):
+            for paragraph in prose_paragraphs(text):
                 paragraph=paragraph.strip()
                 if paragraph.startswith('#'):
                     prose_heading=paragraph.lstrip('# ').strip()
@@ -970,8 +999,27 @@ def test_field_projection():
 
 
 def test_field_extraction():
+    fixture = '### Routing\nRetained route.\n### Power\n9V requirement.\n\n```text\n# Example, not a section\n\nretained code\n```\n### Final'
+    assert list(prose_paragraphs(fixture)) == [
+        '### Routing', 'Retained route.', '### Power', '9V requirement.',
+        '```text\n# Example, not a section\n\nretained code\n```', '### Final',
+    ], 'Adjacent headings or fenced text lost their boundaries'
+    assert list(prose_paragraphs('Intro.\n  ### Next\nBody.\n> ### Quoted')) == [
+        'Intro.', '### Next', 'Body.\n> ### Quoted',
+    ]
+    assert list(prose_paragraphs('~~~\n### Fenced\n~~~\n### Real\nTail.')) == [
+        '~~~\n### Fenced\n~~~', '### Real', 'Tail.',
+    ]
     # Integration regression: excluded seller prose must not be certified by its generated label.
     payload = make_plan(persist=False)
+    fm3_prose = [f for f in payload['records']['Fractal Audio::FM3 MKII Turbo']['facts']
+                 if f['context'] == 'canonical model-specific prose']
+    assert not any('### FM3 — firmware13' in f['value'] for f in fm3_prose), 'Adjacent heading leaked into comparison value'
+    assert any(f['field'] == 'FM3 — firmware13 named additions and bass tracking'
+               and 'original FM3 release-history PDF' in f['value'] for f in fm3_prose), 'Firmware13 prose retained under wrong heading'
+    mpx_prose = payload['records']['Lexicon::MPX100']['facts']
+    assert any(f['field'] == 'MPX100 — bank and routing reconciliation'
+               and 'Dualvariations1–6 arestereoparallel' in f['value'] for f in mpx_prose), 'Adjacent routing heading hid technical evidence'
     g5n = payload['records']['Zoom::G5n']
     excluded = [f for f in g5n['facts'] if f['context'] == 'model-specific price prose' and 'Excluded pending variation check:' in f['value']]
     assert excluded, 'Regression source no longer exercises excluded variation evidence'
