@@ -148167,5 +148167,14 @@
     "access": "English manual inaccessible on this recheck; no new specification inferred.",
     "next": "Continue other accessible individual-display models and exact Shopee hardware research; preserve independent GP-200JR -> Prime -> GE300 queue.",
     "active_inventory_changed": false
+  },
+  "fm9_original_midi_note_scope_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "revision": "August2022 Original/Turbo firmware3.x;printed128–129;PDF134–135",
+    "finding": "Matrix marks MIDI notes,velocity,aftertouch,pitchbend unsupported Tx/Rx;CC/PC control separate from note-triggered synthesis. CR2032 is backup,not operating power.",
+    "limits": "No current12.x/MKII inference ordevice test. Exact-revision new/used Shopee stock unresolved.",
+    "next": "Continue other accessible requested individual-display/market gaps;independent GP-200JR -> Prime -> GE300 order preserved.",
+    "active_inventory_changed": false
   }
 }

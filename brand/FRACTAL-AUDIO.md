@@ -1552,6 +1552,16 @@ Checked **2026-11-03**, [manufacturer November2026 Blocks Guide,pp3,27–29](htt
 
 The19 names reconcile the comparison table’s type count, not an installed-firmware census. Sustainer types raise quieter signals; Dynamics Processor permits downward compression or upward expansion. Look-ahead0–2ms delays both wet and dry audio; it is not measured total hardware latency. Compander combines compression/expansion and lacks a Sidechain page. Parameters vary by type. Older counts and release additions remain dated; do not add them again. No download or device operation.
 
+### FM9 original — MIDI note boundary and backup-battery scope
+
+Checked **2026-11-04** in the [manufacturer August2022 Original/Turbo manual,firmware3.x,printedpp128–129 (PDF134–135)](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf).
+
+- The MIDI matrix marks **Note Number,Note On/Off velocity,aftertouch andPitch Bend unsupported in both directions**. MIDI connectivity therefore does not establish keyboard-note triggering of the Synth block or guitar-to-MIDI note output in this documented revision. This does not describe current12.x/MKII behavior by inference.
+- **CC receive/transmit andPC control are supported**. Received CC functions are globally assigned; External Controllers can modify preset parameters. That is control routing,not MIDI-note synthesis or proof of universal analog-pedal volume coverage.
+- The specification lists a **CR-2032 backup battery**,with published life greater than ten years. It is not an operating-power battery or a guaranteed remaining-life measurement. Operating supply remains **90–264VAC,47–63Hz,<40W**;USB bus power is not established.
+
+No MIDI sent,battery serviced ordevice operated. Existing nine-display evidence,revision-conflicted Shopee offer andactive membership remain unchanged.
+
 ## FM9 Turbo
 
 Admitted **2026-11-01** as an **active partial guitar/bass model**, not fully verified. This is the August2022 Turbo, distinct from original FM9 and February2024 MKII Turbo. [Manufacturer timeline](https://www.fractalaudio.com/about/) and [family comparison](https://www.fractalaudio.com/family/) specify **10+% more DSP than original**, not a measured latency or guaranteed effect-count increase. The [3.x August2022 manual](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf) explicitly covers **Original and TURBO**; its shared facts below are not inferred from a sibling or current MKII advertising. No ownership assertion.
