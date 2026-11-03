@@ -148062,5 +148062,14 @@
     "continuation_correction": "Canonical checklist now marks firmware1.8.0 census completed;currentfirmware equivalence remains unknown.",
     "next": "Exact-model firmware/software release listing,IR conversion andNAM architecture limits;preserve GP200JR→Prime→GE300 andLCD/expression queues.",
     "active_inventory_changed": false
+  },
+  "gp200jr_driver_listing_scope_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://www.hotone.jp/brands/valeton/products/gp-200jr",
+    "published_windows_asio": "5.57.2",
+    "revision": "Regional page undated;notlatest-global/installed proof",
+    "retrieval": "Exact product links genericfirmware/software pages;noJR release rows exposed.",
+    "next": "Prime in independent general queue;defer currentJR release/IRconversion/NAM architecture pending accessible exact evidence.",
+    "active_inventory_changed": false
   }
 }

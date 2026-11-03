@@ -1736,6 +1736,12 @@ These choices occupy the existing PRE/MOD module architecture;shared names are n
 
 Remaining: authoritative corrections for the manual errors, toe-switch count, touchscreen/battery/USB-power statements, IR conversion rules, supported NAM architectures/concurrency, scene behavior and condition/stock-qualified IDR. The earlier full-category-subtotal task is **completed for the firmware1.8.0 document** in the census below;current-device equivalence is separate. This is a useful partial record, not full verification.
 
+### GP-200JR — regional ASIO listing and release-index retrieval limit
+
+Checked **2026-11-04**, [exact JR regional product Software section](https://www.hotone.jp/brands/valeton/products/gp-200jr). It lists **Windows Valeton USB ASIO Driver V5.57.2**,separately fromWin/Mac editor software andhardware firmware. Page revision anddriver release date are unstated;this is a regional published version,not verification of the newest global driver,installed driver,WindowsARM support orminimum OS. It doesnot establish editor5.57.2 orJRfirmware5.57.2.
+
+The exact JR manufacturer product’s Firmware andSoftware buttons currently resolve to generic [firmware](https://www.valeton.net/firmware/) and [software](https://www.valeton.net/software/) pages. The reader exposes no per-model release rows there. That retrieval limit is not evidence of no updates. Retain the separately sourced desktopSetup1.8.1 andJRfirmware1.8.0 manual distinctions;current release equivalence andNAM architecture/IRconversion limits remain unresolved. No installer,binary orarchive downloaded orrun. Continue Prime next in the independent general queue while retaining these JR gaps.
+
 ### GP-200JR — product-page IR-slot wording and standard supply
 
 Checked **2026-11-04**, [exact manufacturer JR product page](https://www.valeton.net/product/gp-2oojr/),revision unstated. The overview calls the20 locations **“factory cab IR slots”**,while its feature list explicitly says **20 user IRs storage**. Preserve this internal wording conflict alongside the firmware1.8.0 manual’s20user locations. Do not add them into40locations,substitute CAB model count,or claim a separate factory/user import bank. File conversion,accepted bit depths andcurrent NAM architecture limits remain unresolved.
