@@ -147824,5 +147824,26 @@
       "Qualifiednewusedstock"
     ],
     "next": "Defer source-blocked NGS-6 current-format/memory gaps;continue eligible Shopee inventory and requested separate-footdisplay profiles,retaining independent GP-200JR→Prime→GE300 queue."
+  },
+  "stadium_xl_input_loading_20261104": {
+    "checked": "2026-11-04",
+    "canonical": "brand/LINE6.md#helix-stadium-xl-floor",
+    "sources": [
+      "https://manuals.line6.com/en/helix-stadium/live/input-output-and-mix-blocks",
+      "https://manuals.line6.com/en/helix-stadium/live/setup-examples"
+    ],
+    "revision": "Live v1.4 chapter navigation;not installedfirmwaretest",
+    "findings": [
+      "Input Z10kΩ–1MΩ;First Block includes bypassed block versusFirst Enabled",
+      "Globalpad override anddigitalTrim are inputgain controls,not globalEXP assignment",
+      "Quarter-inch mains impedance-balanced,supportTRSorTS;L/MONO sums stereo"
+    ],
+    "remaining": [
+      "Mainsvoltage/frequency/draw",
+      "Expressionvolumeoutputcoverage",
+      "Qualifiedhardwarestock",
+      "46versus48blockaccounting"
+    ],
+    "active_inventory_changed": false
   }
 }
