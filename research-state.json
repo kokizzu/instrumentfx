@@ -145580,5 +145580,14 @@
     ],
     "inventory_unchanged": 402,
     "continuation": "Continue unresolved manufacturer and exact Shopee hardware evidence in existing independent queues; this parser guard does not resolve model verification gaps."
+  },
+  "g11_parts_conversion_noise_20261103": {
+    "checked": "2026-11-03",
+    "source": "https://zoomcorp.com/documents/461/E_G11v2.pdf",
+    "revision": "ZOOM V2 operation manual ©2021 Z2I-3886-02,printed pp12,104",
+    "finding": "Named parts text resolves BANK down tuner hold and BANK up tap-tempo hold; adds converter precision, response and published noise ratings separately from USB format and maximum headroom.",
+    "limitations": "No successful panel image inspection; full rotary count remains visually uncorroborated. Existing Shopee snapshots reappear unchanged and do not establish condition/current stock. No local downloads or hardware operation.",
+    "next": "Continue individual-footdisplay manufacturer gaps and exact qualified hardware offers; preserve independent expression and GP-200JR→Prime→GE300 queues.",
+    "inventory_changed": false
   }
 }
