@@ -145766,5 +145766,19 @@
     "scope": "Union ofexact source lists,not certified currentinstalled firmware census oruniqueDSPcount. NoPrime HybridSynth transfer. Existingcataloguecreativeindex now26;selectedseven unchanged.",
     "next": "Currentinstalled library,memory/power/IRlimits andconditionqualifiedoffers remainopen;independentqueues retained.",
     "inventory_changed": false
+  },
+  "prime_creative_firmware_scope_20261103": {
+    "model": "HeadRush Prime",
+    "checked": "2026-11-03",
+    "source": "https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Prime%20Firmware%20Update%20Instructions%20v5.2.0.pdf",
+    "revision": "5.2.0 cumulative,October2026,pp4,9,11",
+    "verified": [
+      "Synth trio3.2;arpeggiators4.0",
+      "AmbiVerb synthesized reverb;not certified tracking synth",
+      "DropTune Legacy/Refined5.0.1"
+    ],
+    "limits": "Installed firmware,input-note polyphony,latency andtracking quality untested.",
+    "next": "Requested footswitch-display models retain priority;Prime OLED dimensions,rig ceiling,current-library census andqualified Shopee stock remain open. Preserve independent GP-200JR -> Prime -> original GE300 queue.",
+    "inventory_changed": false
   }
 }
