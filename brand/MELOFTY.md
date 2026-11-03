@@ -219,3 +219,14 @@ Checked **2026-11-03** in the [SFT40 filing index](https://fccid.io/2BYCH-SFT40)
 The mirrored grant/index lists **2402–2480MHz and2412–2462MHz** for its2026-10-11 authorizations. This supports a documented2.4GHz regulatory scope,not the retailer’s5GHz claim;it doesnot prove that unlisted5GHz hardware orother regional variants are absent. Filing frequencies do not identify LCD/OLED technology.
 
 The maker-hosted [panel-image lead](https://www.meloftyaudio.com/banner-product-1.png) surfaced in image search butwouldnot open;generated image descriptions were excluded as evidence. Browser inventory was empty. **Nine footswitch mini-displays remain importer-backed**,withmanufacturer/visual count andtechnology pending;the separate pedal readout isnot silently added. Partial lead,outside active counts;no local download ordevice operation.
+
+### AXOM MAX — tuner sources and global tempo scope
+
+Checked **2026-11-03** against the [German V1.7.4 manufacturer manual,PDFpp19–20,33–34](https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347).
+
+| Field | Revision-qualified evidence / boundary |
+|---|---|
+| Tuner / source and output | Select GUITAR IN,MIC/LINE IN,RETURN1 orRETURN2;choose BYPASS orMUTE. Calibration **430–450Hz,default440Hz**. HoldFS6 opens the tuner;shortFS6 exits. Tuner mute does not establish master-pedal attenuation of headphones,USB,loops or tails. |
+| Tempo / preset scope | Touch drag,touchscreen tap,± controls orFS1 tapping set tempo. **Global Off** keeps tempo preset-specific;**On** applies the current value across presets. This is global tempo,not global expression-volume assignment. Numeric BPM limits andpower-cycle retention remain unverified. |
+
+Mini-screen technology/manufacturer count andqualified exact Shopee Indonesia hardware remain open. The model stays a partial lead outside active counts;no installation,local download ordevice operation.

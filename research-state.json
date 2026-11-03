@@ -144028,5 +144028,14 @@
     "finding": "Hold A tuner, B LOOP, C FS menu; C returns from tuner/LOOP. FS menu A PRESET/B SCENE/C STOMP, auto-exits after 3 seconds idle. LOOP offers N.R./A.R., PRE/POST, LEVEL. PRESET A down/C up is contextual, not three extra controls.",
     "remaining": "Global analog expression-volume assignment, position/range/recall, bypass/headphone/tail/recorded-loop coverage and current full manual remain unresolved.",
     "next": "Continue other no-treadle and individual-footswitch-display models; retain blocked manual/global-volume questions for later."
+  },
+  "axom_max_tuner_tempo_20261103": {
+    "model": "MELOFTY AXOM MAX",
+    "source": "https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347",
+    "revision": "German V1.7.4, PDF pp19–20,33–34",
+    "finding": "Tuner GUITAR IN/MIC-LINE IN/RETURN1/RETURN2; Bypass/Mute;430–450Hz default440;holdFS6 opens/shortFS6 exits. Tempo GlobalOff per-preset, On current value across presets; FS1 tap and touchscreen controls.",
+    "status": "partial lead; outside active counts",
+    "remaining": "Manufacturer mini-screen count/technology; exact Indonesia hardware; BPM bounds/retention; full model verification",
+    "next": "Continue requested individual-display processor gaps; defer inaccessible English manual and unchanged market gaps."
   }
 }
