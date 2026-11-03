@@ -144874,7 +144874,7 @@
           "Acoustic1/2/3; separate guitar Tone Capture",
           "Synth arpeggiators; Stutter; Lofi; Ring Mod"
         ],
-        "qualification": "Original GE300 only. Synth tracking stays first; FXA mono and FXB poly pitch differ. Harmony requires 3.0.1 and single-note playing; NAM conversion into AMP does not expand the synth engine."
+        "qualification": "Original GE300 only. Synth tracking stays first; FXA mono and FXB poly pitch differ. Harmony requires 3.0.1 and single-note playing; NAM conversion into AMP does not expand the synth engine. Original manual Detune±100 cents and Lofi1.5–44.1kHz/1–16bit are effect controls,not converter specifications."
       },
       "Zoom::B1on": {
         "key": "Zoom::B1on",
@@ -146400,6 +146400,32 @@
       "Input pad0/6/12/18dB,default12;automatic increase resets tolast manual value onreboot"
     ],
     "qualification": "Pad recall is not analog-pedal position recall;actual M-VAVE/toe wiring andcurrent firmware behavior unverified.",
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
+  },
+  "ge300_detune_lofi_scope_20261103": {
+    "model": "Original MOOER GE300",
+    "source": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf",
+    "revision": "2019 manufacturer manual,V1.1.0 examples,printedp30",
+    "parameters": {
+      "detune_cents": [
+        -100,
+        100
+      ],
+      "lofi_sample_hz": [
+        1500,
+        44100
+      ],
+      "lofi_bit": [
+        1,
+        16
+      ],
+      "original_mono_poly_pitch_semitones": [
+        -12,
+        12
+      ]
+    },
+    "qualification": "FX parameter ranges,not recording specifications;laterMonoPitch±24 change separate;current installed behavior andDetune note handling untested.",
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
   }
