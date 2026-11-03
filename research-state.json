@@ -148306,5 +148306,21 @@
     ],
     "next": "Continue accessible requested display-priority capability/hardware gaps;preserve independent general queue.",
     "active_inventory_changed": false
+  },
+  "fm9_spillover_reconciliation_20261104": {
+    "checked": "2026-11-04",
+    "model": "Fractal Audio FM9 MKII Turbo",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "revision": "August2022 firmware3.x explicitly Original/Turbo;printed91,121;not current MKII certification",
+    "canonical_section": "brand/FRACTAL-AUDIO.md#fm9--historical-spillover-requirements-and-channel-memory",
+    "summary_correction": "Practical-features row now links existing November2026 looper findings rather than retaining superseded stereo/speed uncertainty.",
+    "remaining": [
+      "Current MKII spillover equivalence",
+      "Loop continuity/retention",
+      "Global analog volume endpoints and held-position recall",
+      "Condition/stock-qualified hardware offers"
+    ],
+    "next": "Continue requested individual-screen processor gaps;preserve general GP-200JR -> Prime -> GE300 order and independent expression queue.",
+    "active_inventory_changed": false
   }
 }

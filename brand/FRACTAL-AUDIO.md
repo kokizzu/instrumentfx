@@ -983,7 +983,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI selle
 | IR / newer processing limits | [November2026 guide](#fm9--november-guide-cabinet-and-looper-limits):two cabs perCab block,1024-sample DynaCabs,FullRes unsupported. Individual IR blend differs from Cab master Level;source-file imports/storage remain separately qualified. |
 | Firmware / DynaCab data compatibility | Current support table specifies **FM9 firmware11.0+ → DynaCabs1.09**;the downloads page currently lists firmware12.0. Missing/incorrect DynaCab data can produce a startup error. This is cabinet-data compatibility,not a firmware version,additional user-IR capacity or amp-capture format. Support uses FM9-Edit’s embedded Fractal-Bot for transfer;the latest editor and Refresh After New Firmware are advised if hardware is updated but editor cabinets remain absent. No file downloaded,update performed or device tested. [Manufacturer support](https://support.fractalaudio.com/en-US/how-to-resolve-dyna-cabs-not-installed-or-incorrect-version-286538);[downloads][f9-d],checked2026-10-31. |
 | Controls / current factory navigation | Current **MKII-headed product page**,checked2026-10-31,describes an out-of-box preset-selection layout,one-switch access to Scenes,Tap/Tuner,and Master Layout Menu access to effects/looper layouts;OMG9-style setup is an option. This corroborates current navigation capabilities,not a dedicated factory preset−/+ pair or unchanged2022 switch mapping. Current page/store text publish no dimensions;historical figures remain qualified. [Current product][f9-p];[Store][f9-s]. |
-| Practical features | Current product lists**two-minute looper**,eight tap/hold switch layouts,up to twoFC6/FC12controllers;store claims gapless switching; [firmware6.00 prerequisites](#fm9--gapless-switching-prerequisites) now documented, not an unconditional all-preset guarantee. Mono/stereo/speed looper duration qualifications anddrums remain unverified. [Product][f9-p];[Store][f9-s]. |
+| Practical features | Current product lists**two-minute looper**,eight tap/hold switch layouts,up to twoFC6/FC12controllers;store claims gapless switching; [firmware6.00 prerequisites](#fm9--gapless-switching-prerequisites) now documented, not an unconditional all-preset guarantee. The [November2026 guide](#fm9--november-guide-cabinet-and-looper-limits) documents stereo,120seconds andFULL/HALF playback;HALF lowers pitch an octave,not a proven doubled recording capacity. Drums,loop retention andinstalled behavior remain unverified. [Historical spillover requirements](#fm9--historical-spillover-requirements-and-channel-memory) are separate from gapless switching. [Product][f9-p];[Store][f9-s]. |
 | Bass capability | Exact MKII Turbo store explicitly supports guitar/bass;shared bass,not inferred from amp controls. [Store][f9-s]. |
 
 ### FM9 — historical block inventory
@@ -1184,6 +1184,16 @@ Global Settings offers **Off**, **Channel & Scene**, and **All**. For gapless pr
 
 Gapless transition, delay/reverb spillover, looper continuity and global analog-volume assignment are separate capabilities. This finding does not establish retained loop recordings, continuous pedal endpoints, startup recall or universal output coverage. Historical manual3.x remains separately qualified. No save, update, download or hardware operation was performed.
 
+
+### FM9 — historical spillover requirements and channel memory
+
+Checked **2026-11-04**, [manufacturer manual](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf), **August2022,firmware3.x,Original/Turbo,printedpp91,121**. Current MKII/12.0 equivalence unverified;the later6.00 gapless prerequisites above retain separate scope.
+
+- Block bypass: **MUTE FX IN**,or **MUTE IN** in parallel,preserves tails. Channels share effect memory;changing delay time/reverb size can disturb tails.
+- Preset changes: enable the global spillover option anduse the same block type **and instance number** in both presets. Settings,grid placement,bypass state/mode also matter;different delay times can reshape existing echoes.
+- The3.x menu is **Off/Delay/Reverb/Both**,defaultOff;it doesnot govern scene/individual-switch spillover. Do not silently substitute these old labels for6.00’s **All** prerequisite.
+
+This narrows switching behavior,not analog-pedal coverage,loop retention ormeasured seamless performance. No device/settings operation.
 
 ### FM9 — scene recall and channel-specific Scene Ignore
 
