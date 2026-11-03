@@ -47191,7 +47191,7 @@
     },
     "technical_source_history_audit_20261104": {
       "checked": "2026-11-04",
-      "source_head": "b4dc829314969d4a6576cafee6bf64d18db89e6a",
+      "source_head": "99fbab144132dc35bbb6b20201ae4ea3399e6b23",
       "target": "make consolidation-audit-source-history",
       "sources": 99,
       "variants": 295,
@@ -47199,7 +47199,8 @@
         "current-compatibility-redirect": 99,
         "registered-original": 99,
         "pre-layout-compatibility-redirect": 88,
-        "historical-variant-needs-review": 9
+        "historical-variant-needs-review": 8,
+        "verified-shared-source-variant": 1
       },
       "method": "Enumerate unique Git blobs with --full-history and per-parent merge diffs; reject shallow clone history. Exact equality against registered original,current redirect,or inverse-layout redirect;other content stays pending.",
       "pending": [
@@ -47234,12 +47235,6 @@
           "sha256": "b286033ce1cdea23b2ed1370000c07bdb0cd78defc466e51280a1fc947beac48"
         },
         {
-          "source": "effects/guitar-boss.md",
-          "destination": "brand/BOSS.md",
-          "blob": "fe18d0eb11fa64fbd3766ad60c0537925f919eea",
-          "sha256": "336a226e00203170c2295beb773cad87c10d034b5beded133d1c51ba39ba24b7"
-        },
-        {
           "source": "effects/guitar-compact.md",
           "destination": "MULTI-EFFECTS.md",
           "blob": "843998022f85297d63fc4285df0d583c6c159d1d",
@@ -47258,10 +47253,33 @@
           "sha256": "d04e08da201a87eccd703a49efad348a83343f504ac20e9ec52f7404687180cc"
         }
       ],
-      "next": "Compare each pending variant against existing shared-source union manifests and historical canonical bodies before calling it lost or restoring duplicate material. One useful model repair per commit if needed. Preserve general GT-Pro andrequested display/expression queues.",
+      "next": "Continue eight pending variants;first FX100 earlier link-only variation,then GR-55 andMOOER originals,then compact/owned/market3 shared sources. Check existing preserved coverage before restoring duplicates;general GT-Pro/display/expression queues remain independent.",
       "limitations": "HEAD-reachable technical source revisions only; pending variants are not proven loss; shared/metadata files and manufacturer truth need separate audits. Existing original-body verification remains independent;no compatibility path removed andno complete-migration claim.",
       "complete": false,
-      "merge_history_recheck": "Full merge-parent traversal reproduced all295 variants andthe same nine pending content variants."
+      "merge_history_recheck": "Full merge-parent traversal covers295 variants;one earlier BOSS source exactly matches separately registered historical source andpasses its canonical row/prose/URL audit;other eight remain pending.",
+      "initial_counts": {
+        "current-compatibility-redirect": 99,
+        "registered-original": 99,
+        "pre-layout-compatibility-redirect": 88,
+        "historical-variant-needs-review": 9
+      },
+      "reviewed_variants": [
+        {
+          "source": "effects/guitar-boss.md",
+          "destination": "brand/BOSS.md",
+          "blob": "fe18d0eb11fa64fbd3766ad60c0537925f919eea",
+          "sha256": "336a226e00203170c2295beb773cad87c10d034b5beded133d1c51ba39ba24b7",
+          "covered_source": "effects/guitar-boss.history-2026-10-14.md",
+          "coverage_check": "audit_boss_shared(history=True): exact source equality plus canonical row/prose/URL coverage",
+          "verified": {
+            "models": 7,
+            "fields": 112,
+            "paragraph_groups": 6,
+            "external_urls": 14,
+            "missing": 0
+          }
+        }
+      ]
     }
   },
   "deferred_work": {

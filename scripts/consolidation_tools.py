@@ -2166,7 +2166,7 @@ def commit_preservation_repairs(stage=False):
         assert review['head'] == research_tools.git('rev-parse', 'HEAD').strip()
         assert review['sha256'] == digest(research_tools.git('diff', '--cached'))
         assert not research_tools.git('diff', '--cached', '--check').strip()
-        print(research_tools.git('commit', '-m', 'fix(audit): include merged technical source history'))
+        print(research_tools.git('commit', '-m', 'fix(audit): bind older BOSS variant to preserved history'))
 
 def audit_historical_sources():
     """Compare the earliest Core/Flex source blobs with the preserved originals."""
@@ -2219,6 +2219,9 @@ def audit_source_history():
     from brand_filename_migration import original_namespace
     research_tools.identity()
     test_source_history_status()
+    boss_history_path = 'effects/guitar-boss.history-2026-10-14.md'
+    boss_history = research_tools.read_preserved_source(boss_history_path)
+    audit_boss_shared(history=True)
     assert research_tools.git('rev-parse', '--is-shallow-repository').strip() == 'false', 'Fetch complete history before auditing variants'
     head = research_tools.git('rev-parse', 'HEAD').strip()
     results = []
@@ -2240,8 +2243,16 @@ def audit_source_history():
                 cache[blob] = research_tools.git('cat-file', '-p', blob)
             body = cache[blob]
             status = source_history_status(body, preserved, current, legacy_redirect)
+            covered_source = None
+            if (status == 'historical-variant-needs-review'
+                    and path == 'effects/guitar-boss.md' and body == boss_history):
+                status = 'verified-shared-source-variant'
+                covered_source = boss_history_path
             row = dict(source=path, destination=destination, blob=blob,
                        sha256=digest(body), status=status)
+            if covered_source:
+                row['covered_source'] = covered_source
+                row['coverage_check'] = 'audit_boss_shared(history=True): exact source equality plus canonical row/prose/URL coverage'
             if status == 'historical-variant-needs-review':
                 row['diff_from_registered'] = ''.join(difflib.unified_diff(
                     preserved.splitlines(True), body.splitlines(True),
