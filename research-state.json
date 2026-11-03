@@ -149438,5 +149438,20 @@
     ],
     "next": "Continue accessible LCD-first model fields andqualifiedShopee hardware;retain independentgeneral/expression queues.",
     "active_inventory_changed": false
+  },
+  "stadium_xl_windows_driver_roles_20261104": {
+    "checked": "2026-11-04",
+    "model": "Line 6 Helix Stadium XL Floor",
+    "source": "https://manuals.line6.com/en/helix-stadium/live/usb-audio",
+    "revision": "Live firmware1.4 navigation;USB Audio ASIO Driver Settings Windows, WDM note",
+    "finding": "Windows multimedia WDM andDAW ASIO selection/settings are independent;ASIO channel/rate specifications not transferred toWDM.",
+    "remaining": [
+      "WDM channel/rate specifications",
+      "Published mains voltage/frequency/draw",
+      "Qualified exact hardware stock",
+      "Other existing canonical gaps"
+    ],
+    "inventory_unchanged": 402,
+    "next": "Continue separate-footdisplay priority andremaining model fields;preserve independent GT-Pro/general andexpression queues."
   }
 }
