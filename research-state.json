@@ -148516,5 +148516,12 @@
     "scope": "Stand-in pointer semantics;not extra mini displays orglobal-volume assignment.",
     "next": "Continue requested individual-display processor remaining source gaps;retain independent GP-200JR -> Prime -> GE300 andexpression queues.",
     "active_inventory_changed": false
+  },
+  "h90_freeze_flex_boundaries_20261104": {
+    "canonical": "brand/EVENTIDE.md#h90--algorithm-specific-freeze-and-flex-behavior",
+    "source": "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/harmonizer.html",
+    "scope": "Algorithm-specific controls and practical boundaries;not actual tracking orcurrent installed firmware.",
+    "next": "Retain unexposed calendar release dates andremaining H90 profile gaps;independent expression/display/general queues unchanged.",
+    "active_inventory_changed": false
   }
 }

@@ -328,6 +328,19 @@ H90 online manual 1.12.5; release 1.12.5 introduces four granular algorithms (ca
 
 [Four-category comparison](../CREATIVE-EFFECTS.md). Ownership not inferred.
 
+### H90 — algorithm-specific freeze and flex behavior
+
+Checked **2026-11-04**, [manufacturer H90 manual1.12.5,Harmonizer chapter](https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/harmonizer.html). Algorithm parameters,not measured latency orinstalled firmware.
+
+| Field | Practical distinction |
+|---|---|
+| Pitch / PolyFlex control | Flex/Return each0–2s;Detune±50cents. Auto Engage bypasses untilFlex activates orManual Flex exceeds0;its hold time0–1s delays disengagement. Performance Flex A/B orDual can latch oract momentarily;the last-used Flex/manual/external control determines pitch. |
+| Processing / PolyFlex Freeze | Dry audio continues. With Auto Engage on,the frozen sound is **inaudible while not flexing**. Freeze does not guarantee an always-audible pad under every setting. |
+| Processing / Prism Shift Freeze | Latching freeze holds **High andLow voices only**;the unshiftedMid voice stays live. Three generated voices are not a three-note input ceiling. |
+| Pitch / Polyphony mode trade-off | Percussive mode prioritizes transients andlower latency andmay suit small fully-wet retuning;Pitched is preferred forlarger intervals. No numeric latency oruniversal tracking-quality result established. |
+
+Two algorithms per Program remains the architecture boundary. No source confirms exact release dates here;earlier version-introduction evidence anddate uncertainty remain. No software/device operation orlocal download.
+
 ## Incoming capability evidence, 2026-10-18
 
 Preserved from origin/main87c7d38. References to older inventory counts or incomplete consolidation describe that branch checkpoint; current root profiles and ledger take precedence. Technical conflicts remain qualified.
