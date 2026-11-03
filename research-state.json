@@ -127668,6 +127668,22 @@
       "market": "No qualified exact Shopee hit from RP100/RP 100 queries; overseas and RP100A offers rejected.",
       "next": "Qualified offers and remaining import/editor/volume coverage; continue priorities and independent GT-Pro cursor.",
       "downloads": false
+    },
+    "helix_rack_partial_20261103": {
+      "canonical": "brand/LINE6.md#helix-rack--partial-no-treadle-discovery",
+      "active": false,
+      "fully_verified": false,
+      "sources": [
+        "https://line6.com/helix/helix-rack.html",
+        "https://line6.com/data/6/0a00051afd4e673ccaf2d15b4/application/pdf/Helix%20Rack%20and%20Control%203.80%20Owner%27s%20Manual%20-%20English%20.pdf?locale=ja_JP",
+        "https://line6.com/documents/processor_comparison_chart/Line_6_Processor_Comparison_Chart.pdf"
+      ],
+      "revision": "Rack/Control3.80 p72 indexed;fullPDF14.6MB readerlimit",
+      "finding": "ThreeEXP plusToe;globalpositionrecall isnotglobaltarget;sharedRackdisplay separatefromControl12LCDs;phonesdedicated.",
+      "market": "Shopee replacementLCD272005224/54012405075 andControl16879370/1156419664 rejectedasRackprocessor offers.",
+      "next": "ExactRackfullI/O,controlcensus,power/bodycorroboration,creativecategories,memoryfill,editorrequirements,globalvolume/outputscope andqualifiedShopee processor offers;keepoutsideactivecounts.",
+      "active_count_unchanged": 402,
+      "independent_queues_preserved": true
     }
   },
   "brand_navigation": {
