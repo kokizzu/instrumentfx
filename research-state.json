@@ -146369,5 +146369,26 @@
     ],
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "am4_factory_census_20261103": {
+    "model": "Fractal Audio AM4",
+    "source": "https://www.fractalaudio.com/downloads/manuals/AM4/AM4-Owners-Manual.pdf",
+    "revision": "v1.0.2,2025-12-16,printed64–66",
+    "census": {
+      "named_banks": "A–V",
+      "named_presets": 88,
+      "unlisted_locations": "W1–Z4",
+      "unlisted_count": 16,
+      "total_writable": 104
+    },
+    "qualification": "Unlisted does not individually prove blank;current installed fill not verified. U3 pitch follower modulates parameters;U4 delay/LFO recipe is not proof of recorded-loop engine.",
+    "remaining": [
+      "Current factory archive/device fill",
+      "Global volume endpoints/recall/output coverage",
+      "Qualified exact Shopee processor hardware",
+      "Existing hardware specification conflicts"
+    ],
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }

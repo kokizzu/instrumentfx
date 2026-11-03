@@ -31,8 +31,8 @@ Admitted 2026-10-28 as an **active partial guitar/bass model**, not fully verifi
 | Display | **480×272 shared color LCD**; own v1.0.2 pp7–8,58 inventories one main display/four switches,with switch LEDs separate. Individual footswitch LCDs are not documented in that complete panel inventory. **p56:LCD contrast0–100%;switch LED on/off brightness independently1–100%**. Published diagonal/touch unknown. Checked2026-10-31,text only. [Own manual](https://www.fractalaudio.com/downloads/manuals/AM4/AM4-Owners-Manual.pdf) |
 | Simultaneous processing | Integrated **Amp+Cab plus three additional effect slots**, with preset gate/EQ/levels separate. Dynamic85%CPU limit may force bypass; not every combination guaranteed. |
 | Categories / choices | Manual1.0.2: AMP245+ versus product240+; 45+DynaCabs. Other category types: Chorus18, Compressor20+, Delay28, Drive70+, Enhancer3, Filter18, Flanger32, Gate4, GEQ18, PEQ1, Phaser17, Reverb79, Rotary1, Tremolo7, Volume2, Wah9. Drive permits2 instances, other listed categories1; total slots/CPU still constrain. Not a certified firmware2.02 census. |
-| Preset / user memory | **104 writable locations**,26banks×4; supplied factory tones occupy these slots. Some blank, exact initial-fill split unknown; no extra protected factory bank established. |
-| Synth / acoustic | Guitar/bass processing documented. Dedicated synth, pitch, acoustic simulator and looper remain unverified; no VP4 transfer. User cabinet IRs are not proof of arbitrary synthesis or capture loading. |
+| Preset / user memory | **104 writable locations**,26banks×4; supplied factory tones occupy these slots. v1.0.2 pp64–66 names **88 presets,A1–V4**; W1–Z4 are unlisted, not individually confirmed blank. No extra protected factory bank. |
+| Synth / acoustic | Guitar/bass processing documented. Dedicated synth, pitch, acoustic simulator and looper remain unverified. U3 pitch-follow modulation and U4 delay/LFO recipe do not prove pitch shifting or looping. User cabinet IRs are not proof of arbitrary synthesis or capture loading. |
 | Audio I/O / headphones | One unbalanced quarter-inch instrument input; two balancedTRS main outputs; stereoTRS insert send/return tipL/ringR; dedicated3.5mm stereo phones,35Ω output impedance and recommended headphone impedance<600Ω. RCAcoax S/PDIF in/out,48kHzPCM. Headphone power unknown. |
 | Control / USB ports | Two quarter-inch TRS pedal inputs; USB TypeC audio/MIDI. Separate3.5mmTRS TypeA MIDIin/out, configurable merge rather than dedicatedThru, from own specifications. |
 | USB audio / conflict | Product and **ownv1.0.2 USB chapter,p15 explicitly say4×4**;same manual specification,p58 says4total,2in/2out. Internal contradiction remains;actual enumeration untested. Chapter distinguishes processed stereo recording **excluding analog insert**,DI capture,computer playback andcomputer audio throughprocessing. No exact channel-pair map inferred fromflattened diagram. USB2.0,48kHz;not USB-power proof. [Manual](https://www.fractalaudio.com/downloads/manuals/AM4/AM4-Owners-Manual.pdf),checked2026-11-03. |
@@ -131,6 +131,12 @@ Checked 2026-10-28 against [own v1.0.2 manual](https://www.fractalaudio.com/down
 [Current AM4-Edit page](https://www.fractalaudio.com/am4-edit) lists **1.00.09,2026-09-08**: macOS10.13+; mainWindows package11+64-bit andrequiredUSBdriver. It also links a32-bit version without equivalent support certification. Full editor/librarian handles presets/usercabs,BlockLibrary,ChannelCopy andSceneSwap;Fractal-Bot updater/backup isembedded. Linux/mobile support unverified; no VP4minimum copied.
 
 Partial lead remains outside activecounts;exactShopee hardware,import-format limits,source conflicts andvolume coverage remain. No download,installation ordevice test.
+
+### AM4 — named factory-preset census and recipe boundaries
+
+Checked **2026-11-03**, [manufacturer manual v1.0.2,2025-12-16,printed pp64–66](https://www.fractalaudio.com/downloads/manuals/AM4/AM4-Owners-Manual.pdf): **22 banks A–V ×4 =88 named presets** within104 writable locations. **W1–Z4:16 unlisted**, not individually certified blank; the introduction only says several empty locations. This narrows the older fill-count uncertainty without claiming current installed contents.
+
+**U3 Pitch Follow Magic LT** modulates effect mix and other parameters by played pitch; **U4 Tape Loops LT** combines analog delay and digital LFO. These recipes do not establish a pitch-shifter or recorded-loop engine. No software or device test.
 
 ## FC-6 Mark II and FC-12 Mark II — controllers
 
