@@ -588,6 +588,9 @@ Checked 2026-10-18 by comparing both manufacturer documents.
 |---|---|
 | Category counts / manual versus firmware conflict | [Release history](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Firmware_V1.3.3_Release_Note.pdf?v=1752654178) says **1.1.0 (2025/1)** added **A BassVT, Voks Bass** to AMP and **Bass Drive** to DRV. None appears in the [English effect list labelled firmware1.3.0, pp13–19](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312User+Manual). The saved AMP20/DRV7 numbers count printed entries only and must not be treated as complete firmware1.3.0 library counts. Renaming, omission or other revision mismatch remains unresolved; do not add three to a supposedly verified installed total. |
 | Acoustic / later addition | Release **1.3.3 (2025/5)** explicitly adds **AC G Guitar simulation in FX1**. Keep separate from the manual’s AC Sim and its four modes; the note does not establish identical algorithms, parameters or FX2 availability. [Release history](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Firmware_V1.3.3_Release_Note.pdf?v=1752654178) |
+| Editor / desktop OS minima | FAQ specifies **Windows10+ and macOS10.15+**. This narrows the earlier unknown desktop minimum;WindowsARM,Intel/Apple Silicon support andcompatibility ofevery OS release remain unverified. Desktop Manager remains file/preset/IR/tone management andfirmware updating,not the mobile app’s tone editor. [Manufacturer FAQ,checked2026-11-03](https://www.sonicake.com/products/pocket-master);no build-specific requirements table. |
+| Software / Windows NAM import recommendation | For import timeouts,the FAQ recommends **one file at a time**,and **Intel9th-generation-or-newer CPU with Windows10+**. CPU wording is a recommendation,not a published universal installation minimum or proof that AMD/older systems cannot work. It doesnot certify every NAM architecture orconversion success. [Manufacturer FAQ,checked2026-11-03](https://www.sonicake.com/products/pocket-master);no build-specific requirements table. |
+
 <!-- comparison evidence ends -->
 
 ### Preserved original Pocket Master finding
@@ -620,6 +623,18 @@ Old indexed social/group asks were not promoted to verified active used offers. 
 
 Explicit touch support, active used-price evidence and remaining algorithm/preset/looper details need further verification. This finishes the **first review pass** over the eight existing compact models, not full verification of every requested field. Aggregate these findings into the compact comparison and update the global checkpoint; the next comparison page is **BOSS guitar processors**, starting with **GT-1000CORE**.
 <!-- SONICAKE-POCKETMASTER source ends -->
+
+### Pocket Master — desktop compatibility and import recommendations
+
+Checked **2026-11-03** in the [exact-model manufacturer product FAQ](https://www.sonicake.com/products/pocket-master). The page lists Manager1.5.2 and firmware1.3.3 separately; its FAQ does not pin these requirements to an individual software build.
+
+| Field | Published requirement / qualification |
+|---|---|
+| Editor / desktop OS minima | FAQ specifies **Windows10+ and macOS10.15+**. This narrows the earlier unknown desktop minimum;WindowsARM,Intel/Apple Silicon support andcompatibility ofevery OS release remain unverified. Desktop Manager remains file/preset/IR/tone management andfirmware updating,not the mobile app’s tone editor. [Manufacturer FAQ,checked2026-11-03](https://www.sonicake.com/products/pocket-master);no build-specific requirements table. |
+| Software / Windows NAM import recommendation | For import timeouts,the FAQ recommends **one file at a time**,and **Intel9th-generation-or-newer CPU with Windows10+**. CPU wording is a recommendation,not a published universal installation minimum or proof that AMD/older systems cannot work. It doesnot certify every NAM architecture orconversion success. [Manufacturer FAQ,checked2026-11-03](https://www.sonicake.com/products/pocket-master);no build-specific requirements table. |
+
+Preserve the separate Windows11 USB-MIDI stall advisory anddated manual/firmware conflicts above. No software,driver ormodel file downloaded,installed orrun. Current condition-qualified Shopee stock andremaining profile gaps are unchanged.
+
 
 ## RockStage QCE-10
 
