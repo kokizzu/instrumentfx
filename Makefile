@@ -2360,3 +2360,9 @@ expression-audit-commit-walrus:
 
 expression-audit-stage-korg:
 	python3 scripts/expression_audit_korg.py stage
+
+.PHONY: expression-audit-stage-fishman expression-audit-commit-fishman
+expression-audit-stage-fishman:
+	python3 scripts/expression_audit_poly.py stage-fishman
+expression-audit-commit-fishman:
+	python3 scripts/expression_audit_poly.py commit-fishman

@@ -708,3 +708,7 @@ Stadium XL [Matrix MIDI scope](brand/LINE6.md#stadium-xl--matrix-midi-layers-and
 ### Korg PANDORA mini — partial no-treadle discovery
 
 [Exact-model screen](brand/KORG.md#pandora-mini--partial-no-treadle-discovery), outside active counts. Fits the preferred rectangle; no analog EXP socket in the complete manual inventory. Dedicated headphones and hand program selection are separate from foot-operated down/up. Metric/inch width discrepancy retained. Exact Shopee hardware remains unverified.
+
+### Fishman ToneDEQ — partial no-treadle discovery
+
+[Exact acoustic multi-effects lead](brand/FISHMAN.md#tonedeq--partial-no-treadle-discovery),outside active counts. Complete manual inventory has no analog EXP orheadphone socket;hand Volume affects amp out while DI hasseparate fixed-level behavior. Both conflicting manufacturer footprints exceed preferred width. Qualified exact Shopee Indonesia offer,preset navigation andcurrent hardware reconciliation remain open.

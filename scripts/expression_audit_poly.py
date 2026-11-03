@@ -7,8 +7,9 @@ from research_tools import git, verify
 import comparison_views
 
 if __name__ == '__main__':
-    assert sys.argv[1:] in (['stage'], ['commit'], ['stage-walrus'], ['commit-walrus'])
+    assert sys.argv[1:] in (['stage'], ['commit'], ['stage-walrus'], ['commit-walrus'], ['stage-fishman'], ['commit-fishman'])
     walrus = sys.argv[1].endswith('-walrus')
+    fishman = sys.argv[1].endswith('-fishman')
     stage_mode = sys.argv[1].startswith('stage')
     review_path = Path('/tmp/instrumentfx-poly-staged-review.json')
     verify()
@@ -19,6 +20,9 @@ if __name__ == '__main__':
     if walrus:
         allowed.remove('brand/POLY-EFFECTS.md')
         allowed.add('brand/WALRUS-AUDIO.md')
+    if fishman:
+        allowed.remove('brand/POLY-EFFECTS.md')
+        allowed.add('brand/FISHMAN.md')
     changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
     staged = set(git('diff','--cached','--name-only').splitlines())
     assert (changed | staged) <= allowed, (changed | staged) - allowed
@@ -41,4 +45,6 @@ if __name__ == '__main__':
         assert review['sha256'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest(), 'Staged diff changed since review'
         assert not git('diff','--cached','--check').strip(), 'Staged whitespace errors'
         message = 'research(walrus): screen ACS1 MKII direct expression and footprint' if walrus else 'research(poly): qualify Beebo Nano NAM and capture workflow'
+        if fishman:
+            message = 'research(fishman): screen ToneDEQ expression and Indonesian offers'
         print(git('commit','-m',message))

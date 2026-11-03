@@ -138511,6 +138511,7 @@
     "brand/ATOMIC-AMPS.md",
     "brand/EMPRESS.md",
     "brand/FAMC.md",
+    "brand/FISHMAN.md",
     "brand/GIGRIG.md",
     "brand/HOLOGRAM.md",
     "brand/MELOFTY.md",
@@ -144469,5 +144470,28 @@
       "No preset-change continuity orloop-end quantization inferred"
     ],
     "next": "Continue current M2 documentation andremaining compact inventory;LCD priority andindependent GP-200JR→Prime→GE300 queue preserved."
+  },
+  "fishman_tonedeq_discovery_20261103": {
+    "model": "Fishman ToneDEQ PRO-DEQ-AFX",
+    "canonical": "brand/FISHMAN.md#tonedeq--partial-no-treadle-discovery",
+    "status": "Partial acoustic no-treadle discovery;outside active counts",
+    "sources": [
+      "https://fishman.com/dp/tonedeq/",
+      "https://fishman.com/wp-content/uploads/2025/07/TONEDEQ-User-Guide.pdf",
+      "https://mg.co.id/product/fishman-tonedeq-eq-afx-preamp-pro-deq-afx/",
+      "https://mg.co.id/brands/music-brands/fishman/",
+      "https://www.sweelee.co.id/en/products/fishman-tonedeq-preamp-eq-effect-pedal"
+    ],
+    "direct_expression": "No analogEXP in complete panel inventory;fails",
+    "headphones": "No dedicatedsocket in inventory",
+    "dimensions": "Current241W×136L×56H/1.1kg versusmanual240.8W×142D×55H/1.0kg;both too wide",
+    "shopee": "No qualified exact Indonesian hardware found;absence not established",
+    "remaining": [
+      "Control/display census",
+      "Reconcile hardware dimensional/mass revision",
+      "Qualified condition/stock offers",
+      "Remaining software/processing scope"
+    ],
+    "next": "Continue no-treadle inventory;preserve LCD-first priority andindependent GP-200JR→Prime→GE300 queue."
   }
 }
