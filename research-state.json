@@ -149057,5 +149057,31 @@
     },
     "next": "Continue remaining named categories/current-firmware reconciliation andqualified hardware offers;preserve independent queues.",
     "active_inventory_changed": false
+  },
+  "fm9_mkii_tremolo_tentap_census_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 printed3,103–104,106–107;FM9 column/shared chapters",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-mkii-turbo--named-tremolo-and-ten-tap-source-details",
+    "tremolo_types": [
+      "Tremolo",
+      "Bias Trem",
+      "Harmonic Trem",
+      "Optical Trem 1",
+      "Optical Trem 2",
+      "Neon Trem",
+      "Panner"
+    ],
+    "ten_tap_types": [
+      "Ten-Tap Delay",
+      "Rhythm Tap Delay"
+    ],
+    "instances": {
+      "tremolo_panner": 2,
+      "ten_tap": 2
+    },
+    "limits": "CPU-qualified;installed-library andintroduction firmware unverified. Tremolo retrigger/ducking is modulation;TenTap decay versusRhythmTap patternfeedback distinct;not performance looper/tail guarantee.",
+    "next": "Continue remaining named category inventories andcurrent-firmware reconciliation,qualified hardware offers;preserve LCD-first,expression/general queues.",
+    "active_inventory_changed": false
   }
 }
