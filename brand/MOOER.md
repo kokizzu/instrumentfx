@@ -1693,6 +1693,17 @@ Checked **2026-11-04**, [manufacturer exact GE300 firmware history](https://www.
 
 The currently exposed index still heads with5.1.4,not proof ofinstalled firmware. Source-file conversion rules,current category census,factory occupancy,drums/scene limits andqualified stock remain open. No backup,reset,update,download orfile conversion performed.
 
+### GE300 — additional exact-item discovery leads, not qualified offers
+
+Checked **2026-11-04**, [Shopee Indonesia category snapshot](https://shopee.co.id/search?keyword=jual+mooer+300), **two-month cache**. Clicking its cards exposed item identities;direct pages failed both with the observed display-model query andwithout it. No current-stock orselected-variant confirmation.
+
+| Lead only | Indexed amount / location | Unresolved selection andseller evidence |
+|---|---|---|
+| [Mooer GE300 hardware title,shop158144224/item28129284656](https://shopee.co.id/Mooer-GE-300-Amp-Modelling-Synth-Multi-Effect-i.158144224.28129284656) |Rp10,923,710;Surabaya |Card title says GE300 amp/synth/multi-effect;display_model_id218300599883 is not inspected variant contents. Seller name,condition,selected hardware/bundle andstock unknown. |
+| [Original GE300 title,shop108313506/item27973845605](https://shopee.co.id/Mooer-ge300-amp-modelling-synth-multy-efek-multy-effect-mooer-Original-ge-300-i.108313506.27973845605) |Rp11,928,000;Depok |Separate fromVin’s shop31173885;display_model_id252491157360 doesnot establish equivalent selected package. Seller name,condition,variant andstock unknown. |
+
+For both,working state,adapter/accessories,warranty/import region,voucher eligibility,shipping/tax andcheckout total remain unresolved. Category location isnot independently verified dispatch origin. These leads do not form acondition-qualified new/used range orsupersede Vin’s existing ask. The separate Vin’s item again returned cache miss;its six-day indexed snapshot repeatsRp11,928,000 rather than proving availability. No seller contacted orpurchase made.
+
 ## GE300 Lite
 
 Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no sibling specifications adopted. [Own product page](https://www.mooeraudio.com/product/GE300Lite-239.html). Bass/vocal suitability remains unclassified.

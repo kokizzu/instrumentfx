@@ -148092,5 +148092,31 @@
     "scope": "Explicit user-data clearing in3.0.1/4.0.1 andreset2.0.6;betaCab.GNR label conflictsfinalAMP.GNR andGIRcabinet notes;notadditive capacities.",
     "next": "Currentcategory/factory/scene/IRconversion gaps;fresh Shopee discovery after saved general pass;preserveLCD/expression queues.",
     "active_inventory_changed": false
+  },
+  "ge300_shopee_leads_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://shopee.co.id/search?keyword=jual+mooer+300",
+    "cache": "two months",
+    "leads": [
+      {
+        "shop": "158144224",
+        "item": "28129284656",
+        "display_model_id": "218300599883",
+        "ask_idr": 10923710,
+        "region": "Surabaya",
+        "qualified": false
+      },
+      {
+        "shop": "108313506",
+        "item": "27973845605",
+        "display_model_id": "252491157360",
+        "ask_idr": 11928000,
+        "region": "Depok",
+        "qualified": false
+      }
+    ],
+    "access": "Cards exposeitemIDs;direct pages fail withandwithoutquery;no seller/variant/condition/stock confirmation.",
+    "next": "Defer inaccessible itemdetail;continue accessibleLCD-first andfreshbrand/series discovery;notcompletedmarketcoverage.",
+    "active_inventory_changed": false
   }
 }
