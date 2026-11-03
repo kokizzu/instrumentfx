@@ -148127,5 +148127,13 @@
     "bass": "Unclassified;noqualifying exactmodel primarysupport recovered;notNo.",
     "next": "Currentformat/factory/scene gaps andaccessibleLCD-first discovery;preserve independentqueues.",
     "active_inventory_changed": false
+  },
+  "ge300_ctrl_target_scope_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf",
+    "revision": "Original2019 printed9–11;modeexamplesV1.0.0",
+    "scope": "ON/OFF max7blocktargets;separateSubPatch originalstates vs5.1.0parameterrecall;4/8CTRLpositions notscene ceiling.",
+    "next": "CurrentSubPatchcount/coverage remainsunknown;continueother accessibleLCD-first/modeldiscovery without conflating limits.",
+    "active_inventory_changed": false
   }
 }

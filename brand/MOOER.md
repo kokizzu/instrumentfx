@@ -1714,6 +1714,16 @@ The guide says the capture is automatically stored as **USER**,thenrenamed withS
 
 The bass-support search produced no qualifying exact-model primary statement;retain **unclassified**,notNo. A bass EQ control,amp-derived name orretailer category doesnot change instrument membership. Current source-format/conversion andlive-offer gaps remain open. No capture,save,connection,download ordevice operation performed.
 
+### GE300 — grouped CTRL targets versus Sub-Patch states
+
+Checked **2026-11-04**, [original manufacturer manual,printedpp9–11](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf),2019 document. The illustrated mode screens includeV1.0.0;this is not aclaim every example usesV1.1.0 ormatchescurrent5.1.4.
+
+- **ON/OFF** assigns a CTRL switch to toggle **at most seven effect blocks together**. This is an assignment target limit,notseven simultaneous DSP blocks orseven stored scenes. The page separately lists **SUB-PATCH** as loop-switcher-style recall ofblock on/off states;it doesnot establish parameter recall inthis original version. Do not transfer the seven-target limit toSub-Patch without its own evidence.
+- CTRL switch type can be **Latching orMomentary**,with LED color selectable. PRESET/GLOBAL selects theassignment’s scope;this doesnot create global expression-volume control. Original Mode1 offers four direct CTRL switches;Mode2 offers eight byreusingA–D,withpreset selection reached throughBank±. These are control positions,not additional switches orproof ofeight independent Sub-Patch memories.
+- Later English **5.1.0** adds Sub-Patch parameter changes alongside block-toggle states;the separately retained Chinese5.0.8 labeling remains unresolved. Current state count,switching continuity andparameter coverage need exact current documentation.
+
+No switch assignment orhardware test performed. Existing preset count,tail restrictions andindependent queues remain unchanged.
+
 ## GE300 Lite
 
 Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no sibling specifications adopted. [Own product page](https://www.mooeraudio.com/product/GE300Lite-239.html). Bass/vocal suitability remains unclassified.
