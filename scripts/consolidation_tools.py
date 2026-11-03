@@ -2143,7 +2143,7 @@ def compact_reference_plan():
 
 def commit_preservation_repairs(stage=False):
     research_tools.identity()
-    allowed = {'Makefile', 'scripts/consolidation_tools.py', 'research-state.json', 'brand/ROLAND.md', 'brand/MOOER.md'}
+    allowed = {'Makefile', 'scripts/consolidation_tools.py', 'research-state.json', 'brand/ROLAND.md', 'brand/MOOER.md', 'MULTI-EFFECTS.md'}
     changed = set(research_tools.git('diff', '--name-only').splitlines()) | set(research_tools.git('ls-files', '--others', '--exclude-standard').splitlines())
     staged = set(research_tools.git('diff', '--cached', '--name-only').splitlines())
     assert (changed | staged) <= allowed, (changed | staged) - allowed
@@ -2167,7 +2167,7 @@ def commit_preservation_repairs(stage=False):
         assert review['head'] == research_tools.git('rev-parse', 'HEAD').strip()
         assert review['sha256'] == digest(research_tools.git('diff', '--cached'))
         assert not research_tools.git('diff', '--cached', '--check').strip()
-        print(research_tools.git('commit', '-m', 'docs(mooer): preserve GE150 Plus display correction provenance'))
+        print(research_tools.git('commit', '-m', 'docs: retain earlier compact comparison source and qualifications'))
 
 def audit_historical_sources():
     """Compare the earliest Core/Flex source blobs with the preserved originals."""
@@ -2200,7 +2200,10 @@ def verify_historical_variant_archives(state, read_blob=None, read_destination=N
     for entry in audit.get('reviewed_variants', []):
         if not entry.get('marker'):
             continue
-        assert entry['verification_kind'] == 'historical-source-body-v1', 'Unknown historical body kind'
+        kind = entry['verification_kind']
+        assert kind in ('historical-source-body-v1', 'historical-shared-body-v1'), 'Unknown historical body kind'
+        if kind == 'historical-shared-body-v1':
+            assert entry['destination'].split('#')[0] == 'MULTI-EFFECTS.md', 'Shared archive destination changed'
         source = read_blob(entry['blob'])
         assert digest(source) == entry['sha256'], 'Changed historical source blob'
         assert source.split('\n', 1)[0] == entry['source_title']
@@ -2216,7 +2219,10 @@ def verify_historical_variant_archives(state, read_blob=None, read_destination=N
             body = body.replace(new, old)
         for ref in entry.get('renamed_references', []):
             body = body.replace('[' + prefix + '-' + ref + ']', '[' + ref + ']')
-        body = re.sub(r'^### ', '## ', body, flags=re.M)
+        if kind == 'historical-shared-body-v1':
+            body = re.sub(r'^(#{3,}) ', lambda match: match[1][1:] + ' ', body, flags=re.M)
+        else:
+            body = re.sub(r'^### ', '## ', body, flags=re.M)
         assert body == source.split('\n', 1)[1], 'Changed historical source body: ' + entry['source']
         verified[(entry['source'], entry['blob'])] = entry
     return verified
@@ -2237,6 +2243,25 @@ def test_historical_variant_archives():
             pass
         else:
             raise AssertionError('Historical evidence corruption accepted')
+    shared_source = '# Shared\n\n## Group\n### Detail\nRp100; unknown [source](old.md)\n'
+    shared_entry = dict(entry, source='shared.md', destination='MULTI-EFFECTS.md',
+                        verification_kind='historical-shared-body-v1', source_title='# Shared',
+                        sha256=digest(shared_source), destination_section='Shared context',
+                        link_normalizations={'[source](old.md)': '[source](README.md)'})
+    shared_state = {'migration': {'technical_source_history_audit_20261104': {'reviewed_variants': [shared_entry]}}}
+    shared_text = '\n## Shared context\n<!-- OLD source begins -->\n\n### Group\n#### Detail\nRp100; unknown [source](README.md)\n<!-- OLD source ends -->'
+    verify_historical_variant_archives(shared_state, lambda _: shared_source, lambda _: shared_text)
+    for changed in (shared_text.replace('Rp100', 'Rp50'), shared_text.replace('unknown', 'No'),
+                    shared_text.replace('#### Detail', '### Detail'),
+                    shared_text.replace('README.md', 'wrong.md'),
+                    shared_text.replace('## Shared context', '## Wrong context')):
+        try:
+            verify_historical_variant_archives(shared_state, lambda _: shared_source, lambda _: changed)
+        except AssertionError:
+            pass
+        else:
+            raise AssertionError('Shared historical evidence corruption accepted')
+    print('PASS: shared archive preserves nested headings/navigation and rejects source drift.')
     print('PASS: historical archive rejects changed price, qualification,missing markers andwrong model placement.')
 
 def source_history_status(body, preserved, current, legacy_redirect):
@@ -2331,7 +2356,7 @@ def audit_source_history():
                 covered_source = path
                 coverage_check = 'Two exact citation additions reproduce registered original; verify_preserved enforces canonical whole-body coverage'
             if status == 'historical-variant-needs-review' and (path, blob) in verified_archives:
-                status = 'verified-historical-body-archive'
+                status = ('verified-historical-shared-archive' if verified_archives[(path, blob)]['verification_kind'] == 'historical-shared-body-v1' else 'verified-historical-body-archive')
                 covered_source = verified_archives[(path, blob)]['destination']
                 coverage_check = 'verify_historical_variant_archives: exact inverse body equality to pinned Git blob'
             row = dict(source=path, destination=destination, blob=blob,

@@ -47191,7 +47191,7 @@
     },
     "technical_source_history_audit_20261104": {
       "checked": "2026-11-04",
-      "source_head": "a36cc1bc01597caa48bca6ba9a40d83a3e6d6a30",
+      "source_head": "d823c24113ecb12a77814192d53c359a18a877ee",
       "target": "make consolidation-audit-source-history",
       "sources": 99,
       "variants": 295,
@@ -47201,17 +47201,12 @@
         "pre-layout-compatibility-redirect": 88,
         "verified-link-only-source-variant": 1,
         "verified-historical-body-archive": 4,
-        "historical-variant-needs-review": 3,
-        "verified-shared-source-variant": 1
+        "historical-variant-needs-review": 2,
+        "verified-shared-source-variant": 1,
+        "verified-historical-shared-archive": 1
       },
       "method": "Enumerate unique Git blobs with --full-history and per-parent merge diffs; reject shallow clone history. Exact equality against registered original,current redirect,or inverse-layout redirect;other content stays pending. FX100 accepts only two explicit citation substitutions followed by whole-source equality; technical orprice drift remains pending. Earlier GR-55 body is independently archived andverified against its pinned Git blob;historical corrections are not normalized away.",
       "pending": [
-        {
-          "source": "effects/guitar-compact.md",
-          "destination": "MULTI-EFFECTS.md",
-          "blob": "843998022f85297d63fc4285df0d583c6c159d1d",
-          "sha256": "38999043da28ef7487e256cbccbfa3dc5540c46804e07564812e406e14e51f61"
-        },
         {
           "source": "effects/owned-multifx.md",
           "destination": "MULTI-EFFECTS.md",
@@ -47225,10 +47220,10 @@
           "sha256": "d04e08da201a87eccd703a49efad348a83343f504ac20e9ec52f7404687180cc"
         }
       ],
-      "next": "Continue three shared variants: compact,owned,market3. Preserve independent GT-Pro/display/expression queues and later comparison precedence.",
+      "next": "Continue two shared variants: owned and market3. Preserve independent GT-Pro/display/expression queues.",
       "limitations": "HEAD-reachable technical source revisions only; pending variants are not proven loss; shared/metadata files and manufacturer truth need separate audits. Existing original-body verification remains independent;no compatibility path removed andno complete-migration claim.",
       "complete": false,
-      "merge_history_recheck": "295 revisions checked; BOSS/FX100 equivalence verified; GR-55,GE150 Max,GE150 Plus Li and GE150 Plus earlier bodies retained in exact model sections. Three shared variants remain pending.",
+      "merge_history_recheck": "295 revisions checked; four model-body archives and one earlier compact shared-body archive verified. Owned and market3 variants remain pending.",
       "initial_counts": {
         "current-compatibility-redirect": 99,
         "registered-original": 99,
@@ -47325,6 +47320,34 @@
           "destination_section": "GE150 Plus",
           "coverage_check": "Complete earlier body; inverse heading-depth transformation must reproduce pinned source blob",
           "qualification": "Earlier screen-color unknown and screenshot limitations remain historical; later manual-text color correction stays current. Touchscreen and physical-specification conflict remain unresolved."
+        },
+        {
+          "source": "effects/guitar-compact.md",
+          "destination": "MULTI-EFFECTS.md",
+          "blob": "843998022f85297d63fc4285df0d583c6c159d1d",
+          "sha256": "38999043da28ef7487e256cbccbfa3dc5540c46804e07564812e406e14e51f61",
+          "verification_kind": "historical-shared-body-v1",
+          "marker": "COMPACT-EARLY",
+          "renamed_references": [
+            "gp5",
+            "gp50",
+            "gp100",
+            "gp150",
+            "gp180",
+            "matribox",
+            "pocket",
+            "smartbox"
+          ],
+          "link_normalizations": {
+            "[Methodology](METHODOLOGY.md)": "[Methodology](README.md#evidence-and-resuming)",
+            "[Larger processors](guitar-floorboards.md)": "[Larger processors](all-guitar.md)",
+            "[Bass](bass.md)": "[Bass](all-bass.md)",
+            "[Vocals](vocal.md)": "[Vocals](all-vocal.md)"
+          },
+          "source_title": "# Compact guitar / multi-instrument processors",
+          "destination_section": "Preserved earlier compact comparison",
+          "coverage_check": "Complete shared body; inverse heading/reference/navigation transformations must equal pinned Git blob",
+          "qualification": "Earlier prices, control unknowns and firmware descriptions are dated context; later canonical corrections remain current."
         }
       ]
     }
