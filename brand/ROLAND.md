@@ -138,6 +138,61 @@ Checked **2026-10-17**: [Roland US GR-55 page](https://www.roland.com/us/product
 
 Global product URL timed out; US primary page provided the corroboration. No original control/signal-flow manual was newly inspected or firmware/software downloaded. Complete original sources and corrections remain above. Open fields: visually checked K/F/B/toe,explicit display diagonal/color/touch, acoustic modeling names,routing concurrency,PSU polarity/battery/bus power,looper duration,USB channels/bit depth,current librarian scope/OS support and condition-qualified new/current used availability.
 
+### GR-55 — earliest source revision and later correction boundary
+
+Historical source blob `87f20f7100dfa10adb4c6c5aec1e271ab2db3786`,checked for lossless preservation2026-11-04. This earlier2026-10-14 text predates the retained90-guitar/18-bass correction and used stronger Librarian wording. It is preserved as history,not a fresh verification that all tone editing is impossible. The current comparison retains the later qualified record;the earlier next-model cursor below is historical. No new ownership orprice evidence.
+
+<!-- ROLAND-GR55-EARLY source begins -->
+
+Checked **2026-10-14**. **Partial technical record**. Ownership is established by the owner's prior GR-55/GK-3/13-pin use statements; see [ownership history](../README.md#scope-and-ownership). This is **Roland GR-55**, not GM-800, GR-20 or a BOSS-branded processor. Public technical sources are separate from private ownership evidence.
+
+### Required comparison fields
+
+| Field | Evidence-backed value or explicit unknown |
+|---|---|
+| Instrument/function | Guitar and bass synthesis, instrument/amp modeling and multi-effects |
+| Built-in expression | **Yes**; published raised-pedal height confirms pedal travel. Toe-switch details need the matching control manual |
+| External expression | No dedicated EXP socket in the complete published connector list; MIDI controller such as FC-300 is supported. MIDI control is not an included expression pedal |
+| Rotary / footswitch / button count | **? / ? / ?** pending a visually checked control diagram; do not count from a related Roland device |
+| Dimensions / weight / size | **405 × 244 × 78 mm W×D×H**, maximum pedal-up height **106 mm**, **3.3 kg**; **large**. Pickup, PSU and cables add installed space/weight |
+| Screen | **240 × 64-dot graphic LCD**. Diagonal **?**; monochrome/color **? pending explicit or visual evidence**; touch **?**. Pixel resolution is not screen size |
+| Sound architecture | Up to **four source layers**: two PCM tones, one modeled tone, normal pickup. This is not four freely assignable effect blocks |
+| Effect architecture / choices | Published categories: **MFX 20, preamp 42, MOD 14, delay 7, reverb 5, chorus 4, EQ 1**. Exact simultaneously enabled routing constraints remain **?** until the signal-flow manual is checked |
+| Sound choices | **910 PCM tones**; instrument modeling **23 guitar-mode / 17 bass-mode** types. These are not additional effect algorithms |
+| Presets / user memory | Base published spec: guitar **270 factory + 297 user**; bass **90 factory + 297 user**. **Firmware 1.50 adds 90 guitar presets**, so updated guitar factory total is **360**. Do not present launch-page 270 as the only current firmware count or add separate mode banks as simultaneous capacity |
+| Synth | **Yes**, two PCM synth sources plus modeled instruments |
+| Acoustic simulation | Instrument-modeling capability is documented; exact acoustic model names/counts **?** pending tone/manual verification. PCM acoustic sounds and modeled acoustic guitars must be distinguished |
+| Inputs / outputs | **13-pin GK IN**; ¼-inch GUITAR OUT; 2 × ¼-inch main outputs L/MONO,R; ¼-inch stereo headphones; 5-pin DIN MIDI IN/OUT; USB COMPUTER; USB MEMORY; DC IN. No ordinary ¼-inch guitar input, microphone input, aux input or FX loop in published list |
+| Required pickup | Compatible divided-pickup/GK system; owner used GK-3 and 13-pin cable. Do not substitute GM-800 Serial GK cabling |
+| Power | **DC 9 V, 700 mA draw**, supplied PSB-1U family adapter. Polarity **?** in checked specification; battery and USB bus powering **not established** |
+| IR loading | User cabinet/body IR import **not established**. WAV/AIFF USB audio playback is not IR loading |
+| NAM/captures | Native NAM, converted NAM and proprietary user amp-capture loading **not established** |
+| Official configuration software | **GR-55 Librarian Windows/macOS** documented. The Windows utility explicitly arranges patch settings; it is not a full tone editor. Drivers and updater are separate |
+| Other editors | Third-party editor availability/platforms **not verified in this pass**; do not claim unsupported Linux/mobile compatibility |
+| USB/audio extras | USB MIDI and USB audio documented; **44.1 kHz** device sampling. USB memory player accepts WAV/AIFF; looper present, duration **?** in checked page |
+| Used IDR | **?** — no verifiable current public offer obtained in this pass |
+| New IDR | **?** — no verifiable current public offer obtained in this pass; owner purchase evidence is not a present market quote |
+
+### Firmware and software evidence
+
+The manufacturer still publishes a launch-era 270-guitar-preset specification alongside system version1.50. Its [version1.50 release notes][ROLAND-GR55-EARLY-firmware] explicitly add90 guitar presets. Record the firmware context rather than silently selecting one figure. The [Windows Librarian page][ROLAND-GR55-EARLY-librarian] describes patch-library organisation, not parameter editing. Current official driver downloads include Windows10/11 and macOS versions; driver compatibility is not editor compatibility or proof of USB bus power.
+
+### Sources
+
+- [Manufacturer product and full specifications][ROLAND-GR55-EARLY-product].
+- [Official system program1.50 release notes][ROLAND-GR55-EARLY-firmware].
+- [Official Windows Librarian description][ROLAND-GR55-EARLY-librarian].
+- [Official downloads index](https://www.roland.com/global/products/gr-55/downloads/).
+
+[ROLAND-GR55-EARLY-product]: https://www.roland.com/global/products/gr-55/
+[ROLAND-GR55-EARLY-firmware]: https://www.roland.com/global/support/by_product/gr-55/updates_drivers/f64a41ce-c897-4fd5-94d7-71ec8ff6f036/
+[ROLAND-GR55-EARLY-librarian]: https://www.roland.com/global/support/by_product/gr-55/updates_drivers/76002a02-dab8-4f94-be90-8d7b54623664/
+
+### Next verification
+
+Inspect the original control/signal-flow manual for controls, toe switch, screen mode/touch, acoustic model names, simultaneous processing and power polarity. Find separate dated Indonesian used/new offers with and without GK pickup. Do not assume an unavailable listing means the owner never owned it. **Next owned-model addition: Zoom B1Xon.**
+<!-- ROLAND-GR55-EARLY source ends -->
+
 ## VT-4
 
 Checked2026-10-17; partial new vocal multi-effects record. Ownership unverified. [Roland product/specifications][VT4-P] explicitly describes combined vocal processing; not merely a dedicated vocoder. Guitar/bass membership unverified.

@@ -181,6 +181,7 @@ def verify_preserved(state):
         section = text.split('\n## ' + model + '\n', 1)[1].split('\n## ', 1)[0]
         for fact in entry['retained_comparison_facts']:
             assert fact['value'] in section, 'Lost supporting evidence: ' + fact['field']
+    verify_historical_variant_archives(state)
     counts = {}
     for entry in state.get('consolidation_and_price_findings', []):
         kind = preservation_kind(entry)
@@ -2142,7 +2143,7 @@ def compact_reference_plan():
 
 def commit_preservation_repairs(stage=False):
     research_tools.identity()
-    allowed = {'Makefile', 'scripts/consolidation_tools.py', 'research-state.json'}
+    allowed = {'Makefile', 'scripts/consolidation_tools.py', 'research-state.json', 'brand/ROLAND.md'}
     changed = set(research_tools.git('diff', '--name-only').splitlines()) | set(research_tools.git('ls-files', '--others', '--exclude-standard').splitlines())
     staged = set(research_tools.git('diff', '--cached', '--name-only').splitlines())
     assert (changed | staged) <= allowed, (changed | staged) - allowed
@@ -2166,7 +2167,7 @@ def commit_preservation_repairs(stage=False):
         assert review['head'] == research_tools.git('rev-parse', 'HEAD').strip()
         assert review['sha256'] == digest(research_tools.git('diff', '--cached'))
         assert not research_tools.git('diff', '--cached', '--check').strip()
-        print(research_tools.git('commit', '-m', 'fix(audit): verify FX100 citation-only historical variant'))
+        print(research_tools.git('commit', '-m', 'docs(roland): preserve earliest GR-55 source qualifications'))
 
 def audit_historical_sources():
     """Compare the earliest Core/Flex source blobs with the preserved originals."""
@@ -2188,6 +2189,55 @@ def audit_historical_sources():
     print('Review /tmp/instrumentfx-historical-source-audit.json; equality is provenance, not manufacturer/current-stock verification.')
 
 
+
+
+def verify_historical_variant_archives(state, read_blob=None, read_destination=None):
+    """Verify explicitly marked earlier source versions without weakening originals."""
+    read_blob = read_blob or (lambda blob: research_tools.git('cat-file', '-p', blob))
+    read_destination = read_destination or (lambda path: (ROOT / path).read_text())
+    verified = {}
+    audit = state.get('migration', {}).get('technical_source_history_audit_20261104', {})
+    for entry in audit.get('reviewed_variants', []):
+        if not entry.get('marker'):
+            continue
+        assert entry['verification_kind'] == 'historical-source-body-v1', 'Unknown historical body kind'
+        source = read_blob(entry['blob'])
+        assert digest(source) == entry['sha256'], 'Changed historical source blob'
+        assert source.split('\n', 1)[0] == entry['source_title']
+        text = read_destination(entry['destination'].split('#')[0])
+        section_heading = '\n## ' + entry['destination_section'] + '\n'
+        assert text.count(section_heading) == 1, 'Historical destination section missing orduplicated'
+        text = text.split(section_heading, 1)[1].split('\n## ', 1)[0]
+        prefix = entry['marker']
+        start, end = '<!-- ' + prefix + ' source begins -->\n', '<!-- ' + prefix + ' source ends -->'
+        assert text.count(start) == text.count(end) == 1, 'Missing orduplicate historical marker'
+        body = text.split(start, 1)[1].split(end, 1)[0]
+        for old, new in entry.get('link_normalizations', {}).items():
+            body = body.replace(new, old)
+        for ref in entry.get('renamed_references', []):
+            body = body.replace('[' + prefix + '-' + ref + ']', '[' + ref + ']')
+        body = re.sub(r'^### ', '## ', body, flags=re.M)
+        assert body == source.split('\n', 1)[1], 'Changed historical source body: ' + entry['source']
+        verified[(entry['source'], entry['blob'])] = entry
+    return verified
+
+
+def test_historical_variant_archives():
+    source = '# Model\n\n## Memory\nRp100; unknown\n'
+    entry = dict(source='old.md', destination='brand/TEST.md#model', blob='a'*40,
+                 sha256=digest(source), source_title='# Model', marker='OLD',
+                 verification_kind='historical-source-body-v1', destination_section='Model')
+    state = {'migration': {'technical_source_history_audit_20261104': {'reviewed_variants': [entry]}}}
+    text = '\n## Model\n<!-- OLD source begins -->\n\n### Memory\nRp100; unknown\n<!-- OLD source ends -->'
+    verify_historical_variant_archives(state, lambda _: source, lambda _: text)
+    for changed in (text.replace('Rp100', 'Rp50'), text.replace('unknown', 'No'), text.replace('source ends', 'end missing'), text.replace('## Model', '## Wrong Model')):
+        try:
+            verify_historical_variant_archives(state, lambda _: source, lambda _: changed)
+        except AssertionError:
+            pass
+        else:
+            raise AssertionError('Historical evidence corruption accepted')
+    print('PASS: historical archive rejects changed price, qualification,missing markers andwrong model placement.')
 
 def source_history_status(body, preserved, current, legacy_redirect):
     if body == preserved:
@@ -2241,6 +2291,8 @@ def audit_source_history():
     from brand_filename_migration import original_namespace
     research_tools.identity()
     test_source_history_status()
+    state = json.loads((ROOT / 'research-state.json').read_text())
+    verified_archives = verify_historical_variant_archives(state)
     boss_history_path = 'effects/guitar-boss.history-2026-10-14.md'
     boss_history = research_tools.read_preserved_source(boss_history_path)
     audit_boss_shared(history=True)
@@ -2278,12 +2330,17 @@ def audit_source_history():
                 status = 'verified-link-only-source-variant'
                 covered_source = path
                 coverage_check = 'Two exact citation additions reproduce registered original; verify_preserved enforces canonical whole-body coverage'
+            if status == 'historical-variant-needs-review' and (path, blob) in verified_archives:
+                status = 'verified-historical-body-archive'
+                covered_source = verified_archives[(path, blob)]['destination']
+                coverage_check = 'verify_historical_variant_archives: exact inverse body equality to pinned Git blob'
             row = dict(source=path, destination=destination, blob=blob,
                        sha256=digest(body), status=status)
             if covered_source:
                 row['covered_source'] = covered_source
                 row['coverage_check'] = coverage_check
             if status == 'historical-variant-needs-review':
+                row['historical_body'] = body
                 row['diff_from_registered'] = ''.join(difflib.unified_diff(
                     preserved.splitlines(True), body.splitlines(True),
                     fromfile='registered:' + path, tofile='historical:' + blob))
@@ -2301,6 +2358,7 @@ def audit_source_history():
 if __name__ == '__main__':
     if sys.argv[1:] == ['test-source-history']:
         test_source_history_status()
+        test_historical_variant_archives()
         raise SystemExit(0)
     if sys.argv[1:] == ['audit-source-history']:
         audit_source_history()

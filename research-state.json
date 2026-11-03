@@ -47191,7 +47191,7 @@
     },
     "technical_source_history_audit_20261104": {
       "checked": "2026-11-04",
-      "source_head": "59d92ac7d7703aad55a1401722f492577b96c803",
+      "source_head": "41fa3832612f3735589ba6d9ee49ff75a2644f81",
       "target": "make consolidation-audit-source-history",
       "sources": 99,
       "variants": 295,
@@ -47200,17 +47200,12 @@
         "registered-original": 99,
         "pre-layout-compatibility-redirect": 88,
         "verified-link-only-source-variant": 1,
-        "historical-variant-needs-review": 7,
+        "verified-historical-body-archive": 1,
+        "historical-variant-needs-review": 6,
         "verified-shared-source-variant": 1
       },
-      "method": "Enumerate unique Git blobs with --full-history and per-parent merge diffs; reject shallow clone history. Exact equality against registered original,current redirect,or inverse-layout redirect;other content stays pending. FX100 accepts only two explicit citation substitutions followed by whole-source equality; technical orprice drift remains pending.",
+      "method": "Enumerate unique Git blobs with --full-history and per-parent merge diffs; reject shallow clone history. Exact equality against registered original,current redirect,or inverse-layout redirect;other content stays pending. FX100 accepts only two explicit citation substitutions followed by whole-source equality; technical orprice drift remains pending. Earlier GR-55 body is independently archived andverified against its pinned Git blob;historical corrections are not normalized away.",
       "pending": [
-        {
-          "source": "effects/findings/2026-10-14-roland-gr-55.md",
-          "destination": "brand/ROLAND.md#gr-55",
-          "blob": "87f20f7100dfa10adb4c6c5aec1e271ab2db3786",
-          "sha256": "fb56e67772f51577766a62e684c4cf6c03660b3fef59ecbe3769401d32f406b2"
-        },
         {
           "source": "effects/findings/2026-10-15-mooer-ge150-max.md",
           "destination": "brand/MOOER.md#ge150-max",
@@ -47248,10 +47243,10 @@
           "sha256": "d04e08da201a87eccd703a49efad348a83343f504ac20e9ec52f7404687180cc"
         }
       ],
-      "next": "Continue seven pending variants:GR-55,three MOOER source revisions,then compact/owned/market3 shared sources. Compare canonical coverage before restoring anything;general GT-Pro/display/expression queues remain independent.",
+      "next": "Continue six variants:three MOOER source revisions,then compact/owned/market3 shared sources. Earlier GR-55 source fullyarchived with later qualification precedence;independent GT-Pro/display/expression queues preserved.",
       "limitations": "HEAD-reachable technical source revisions only; pending variants are not proven loss; shared/metadata files and manufacturer truth need separate audits. Existing original-body verification remains independent;no compatibility path removed andno complete-migration claim.",
       "complete": false,
-      "merge_history_recheck": "Full merge-parent traversal covers295 variants;one earlier BOSS source exactly matches separately registered historical source andpasses its canonical row/prose/URL audit;other eight remain pending.",
+      "merge_history_recheck": "Full merge-parent traversal covers295 variants;BOSS andFX100 equivalence verified andearlier GR-55 body preserved separately. Six content variants remain pending.",
       "initial_counts": {
         "current-compatibility-redirect": 99,
         "registered-original": 99,
@@ -47286,6 +47281,26 @@
             "scope": "Only product-link citations differ; all other source bytes equal registered original",
             "regressions": "Changed price,qualification,extra claim andcitation rejected"
           }
+        },
+        {
+          "source": "effects/findings/2026-10-14-roland-gr-55.md",
+          "destination": "brand/ROLAND.md#gr-55",
+          "blob": "87f20f7100dfa10adb4c6c5aec1e271ab2db3786",
+          "sha256": "fb56e67772f51577766a62e684c4cf6c03660b3fef59ecbe3769401d32f406b2",
+          "verification_kind": "historical-source-body-v1",
+          "marker": "ROLAND-GR55-EARLY",
+          "renamed_references": [
+            "product",
+            "firmware",
+            "librarian"
+          ],
+          "link_normalizations": {
+            "[ownership history](../OWNERSHIP.md)": "[ownership history](../README.md#scope-and-ownership)"
+          },
+          "source_title": "# Roland GR-55 — owner-history addition",
+          "coverage_check": "Complete historical source body retained under marker; inverse heading/reference/link transformations must reproduce pinned Git blob body exactly",
+          "qualification": "Earlier partial preset update and stronger Librarian claim are historical,not current proof. Later canonical qualification retained.",
+          "destination_section": "GR-55"
         }
       ]
     }
