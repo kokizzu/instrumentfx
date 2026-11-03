@@ -148709,7 +148709,16 @@
     "source": "https://support.fractalaudio.com/en-US/installing-factory-presets-1410465",
     "finding": "Manufacturer FM9-family default384in000–383;editable within512capacity. Completefactoryset overwritesABC,notallfouruserbackupbanks.",
     "scope": "Family support article doesnot distinguishOriginal/Turbo/MKII;original shipping allocation andinstalled used-unit content remain unverified. Existing MKII family finding preserved.",
-    "next": "Synchronize same qualified family evidence topre-MKIITurbo ifstillmissing;continue exact-revision hardware,global volume coverage andindependent queues.",
+    "next": "Qualified family evidence now synchronized topre-MKIITurbo;continue exact-revision hardware,global volume coverage andindependent queues.",
+    "active_inventory_changed": false
+  },
+  "fm9_turbo_family_factory_20261104": {
+    "checked_date": "2026-11-04",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-turbo--family-factory-default-and-backup-scope",
+    "source": "https://support.fractalaudio.com/en-US/installing-factory-presets-1410465",
+    "finding": "FM9-family default384editable000–383;factoryset overwritesABC,notadditionalprotectedmemory.",
+    "scope": "Not proof ofpre-MKIITurbo shipping allocation orcurrent unit content. Original/Turbo/MKII remain separate.",
+    "next": "Continue exact pre-MKIITurbo hardware-offer verification,complete algorithm inventory andglobal-volume endpoints/coverage;preserve independent queues.",
     "active_inventory_changed": false
   }
 }
