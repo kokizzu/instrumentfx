@@ -145849,5 +145849,18 @@
     "limits": "Headphone power/load requirements,actual levels,globalEXP endpoints/recall/all-route coverage andinstalled firmware remain unverified. No electrical/device test ordownload.",
     "next": "Requested display processors retain priority;FM3 mini-screen diagonal/technology details,current qualified Shopee stock andglobal-volume gaps remain. Independent general queue preserved.",
     "inventory_changed": false
+  },
+  "fm9_mkii_electrical_connector_scope_20261103": {
+    "model": "Fractal Audio FM9 MKII Turbo",
+    "checked": "2026-11-03",
+    "regional_source": "https://www.okada-web.com/fractal-audio-systems/fm9-mark-ii-turbo",
+    "manufacturer_current": "https://www.fractalaudio.com/fm9/",
+    "historical_source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "revision": "Regional exactMKII page firmware unstated;manufacturer Original/Turbo3.x manual PDFp133",
+    "ratings": "Inputs1MΩ:instrumentmax+16dBu,aux2/3max+20dBu;outputs1/2/3 600Ω,max+20dBu;phones35Ωsourceimpedance.",
+    "conflict": "RegionalOut2 addsquarter-inchHumbusterpair,unconfirmed bycurrentmanufacturer aux-pair inventory andoldermanual Out2XLRonly. Do notaddports.",
+    "limits": "Regionalratings corroboratehistoricalmanufacturer;not currentdirectmanufacturer electricalcertification ormeasurement. Phonespower/load,EXPcoverage andcurrentfirmware behavior unresolved.",
+    "next": "Requested display processors remainpriority;currentphysicalcontrols,mini-screen specifications,global-volume scope andqualified Shopee stock remainopen. Independent queues preserved.",
+    "inventory_changed": false
   }
 }
