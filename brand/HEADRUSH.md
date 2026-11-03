@@ -628,6 +628,19 @@ Checked **2026-11-03** in the previously saved [manufacturer User Guide5.2.0,pri
 
 The FAQ-only destructive-edit row above retains its provenance;this revision-specific qualification narrows its applicability. Screen specifications,global EXP coverage,current stock andstorage ceilings remain open.
 
+### Prime — offline backing tracks and duration scope
+
+Checked **2026-11-03** against manufacturer support articles explicitly covering Prime/Core: [USB backing-track import](https://support.headrushfx.com/en/support/solutions/articles/69000860431-headrush-prime-and-core-how-to-play-backing-tracks-from-a-usb-flash-drive) and [track-duration qualification](https://support.headrushfx.com/en/support/solutions/articles/69000860432-headrush-prime-and-core-is-there-a-limit-to-how-long-a-backing-track-may-be-). These pages specify no firmware revision; this entry applies their Prime evidence without certifying installed firmware.
+
+| Required field | Manufacturer evidence / limitation |
+|---|---|
+| Practice / offline import | **WAV or MP3** on USB flash storage → Browse → Storage → select file → **IMPORT,As Track**. Wait for the success indicator,then double-tap to load the player. Internet is unnecessary for this USB workflow;Dropbox streaming is a separate path. No arbitrary codec,filesystem ordrive-capacity compatibility inferred. |
+| Practice / playback continuity | The support procedure permits returning to rig settings while the backing track continues playing. This establishes background playback during editing,not measured gapless playback for every preset change orautomatic power-cycle retention. |
+| Memory / backing-track duration | Manufacturer states **no specific duration limit**,with available storage and length-dependent loading as practical constraints. USB tracks require import time;Dropbox requires a suitable connection. This is not infinite storage,nor a change to looper length/layer limits. |
+
+Backing-track volume is distinct from the guitar rig Volume block. Direct analog EXP attenuation of this source,headphones,USB,tails andrecorded loops remains unverified. No files imported,software installed ordevice operated;current rig-storage ceiling andcondition-qualified Shopee stock remain unresolved.
+
+
 ## VX5
 
 <!-- comparison evidence begins -->

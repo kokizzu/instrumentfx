@@ -145936,5 +145936,30 @@
     "next": "Continue priority individual-screen processors; preserve independent general and expression queues",
     "partial_outside_active_counts": true,
     "no_device_operation": true
+  },
+  "prime_backing_track_scope_20261103": {
+    "model": "HeadRush Prime",
+    "checked": "2026-11-03",
+    "sources": [
+      "https://support.headrushfx.com/en/support/solutions/articles/69000860431-headrush-prime-and-core-how-to-play-backing-tracks-from-a-usb-flash-drive",
+      "https://support.headrushfx.com/en/support/solutions/articles/69000860432-headrush-prime-and-core-is-there-a-limit-to-how-long-a-backing-track-may-be-"
+    ],
+    "source_scope": "Manufacturer Prime/Core articles; no firmware version; Prime record only updated",
+    "formats": [
+      "WAV",
+      "MP3"
+    ],
+    "workflow": "USB Browse/Storage; IMPORT As Track; await success; load player",
+    "continuity": "Playback can continue while returning to rig editing",
+    "duration": "No specific limit stated; storage and length-dependent import/loading remain practical limits",
+    "boundaries": [
+      "Not infinite storage or a rig-count ceiling",
+      "Not looper capacity",
+      "Every preset transition and power-cycle retention untested",
+      "Analog EXP coverage of backing track/headphones/USB/tails/loops unverified"
+    ],
+    "market_check": "Fresh search reexposed already recorded HOLY MUSIC/ROCKPIZZ/SMOSYU cached asks; no new condition/stock proof",
+    "next": "Continue priority separate-footdisplay evidence and exact Shopee offers; independent GP-200JR -> Prime -> GE300 queue preserved",
+    "no_device_operation": true
   }
 }
