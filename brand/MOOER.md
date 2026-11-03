@@ -1655,6 +1655,19 @@ Original 2019 manufacturer manual (V1.1.0 screen examples), pp19–22,28–30,34
 
 [Four-category comparison](../CREATIVE-EFFECTS.md). Ownership not inferred.
 
+### GE300 — complete original MIDI address map and control boundaries
+
+Checked **2026-11-03** against the previously saved [manufacturer original manual,printedpp68–77](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf),2019 document withV1.1.0 menu examples. Complete RX table checked:256 unique patch entries,no gaps orformula mismatches. This is historical documentation,not a current5.1.4 device test. No local download orMIDI messages sent.
+
+| Field | Original-revision evidence / qualification |
+|---|---|
+| MIDI / complete receive mapping | **1A–32D:bank0,PC0–127;33A–64D:bank1,PC0–127**. Boundary32D=0/127,33A=1/0;64D=1/127. BANK SELECT is**CC0,value0–1**. Incoming PC mappings are customizable;this is the documented default table,not immutable addressing orproof all256 slots are factory-filled. No additional CC32 requirement inferred. |
+| MIDI / block controls | Fixed **CC10–24**,respectively:SYNTH,COMP,WAH,FXA,OD/DS,AMP,CAB,NS,TONE CAP,EQ,FXB,FX LOOP,DELAY,REVERB,VOL On/Off. Each row prints **0–127**,without defining a universal high/low threshold ortrigger rule. Do not substitute another processor’s64/127 convention. |
+| MIDI / loop and utility controls | **CC25** Looper enter/exit;**26** Tuner enter/exit;**30** Tap Tempo;**50–57** REC/DUB,PLAY,ONCE,STOP,CLEAR,UNDO/REDO,REVERSE,half-speed respectively. Allprint0–127;per-command edge/release semantics are unspecified here. These messages control the existing looper,not extra loops. |
+| MIDI / expression and CTRL | **CC58** EXP1 On/Off;**60/61** EXP1/EXP2 pedal;**70–77** CTRL1–4 thenCTRLA–D. Values0–127 are MIDI data,not dB,pedal resistance orglobal-volume endpoint proof. No dedicated direct master-volume target appears inthis table;configurable expression/CTRL targets remain separate. |
+| MIDI / routing and clock | Output port selects **MIDI OUT** transmission or **MIDI THRU** forwarding fromDIN input. Receive-clock synchronizes preset tempo;send-clock follows tap tempo. Incoming/outgoing PC maps are separately editable. Clock support doesnot establish looper beat synchronization;the separate manufacturer USB-MIDI statement doesnot prove every DIN mapping applies unchanged overUSB. |
+
+
 ## GE300 Lite
 
 Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no sibling specifications adopted. [Own product page](https://www.mooeraudio.com/product/GE300Lite-239.html). Bass/vocal suitability remains unclassified.

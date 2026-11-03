@@ -145679,5 +145679,25 @@
     "limits": "No universal expression attenuation,post-override position recall orBluetooth equivalence inferred. ExistingShopee usedask remainsoldHabis;no newconditionqualifiedhardwarefound.",
     "next": "Continue independent MOOER GE300 queue andpriorityindividual-footdisplay gaps;preserve Prime storage/IR/screen/currentlibrary questions.",
     "inventory_changed": false
+  },
+  "ge300_original_midi_census_20261103": {
+    "checked": "2026-11-03",
+    "model": "MOOER::GE300",
+    "source": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf",
+    "revision": "Previously saved original2019 GE300 manual;V1.1.0screens;printed68–77",
+    "rx_table_check": {
+      "entries": 256,
+      "unique_patch_labels": 256,
+      "formula_mismatches": 0,
+      "bank0": "1A–32D,PC0–127",
+      "bank1": "33A–64D,PC0–127",
+      "bank_select": "CC0 values0–1",
+      "mapping_customizable": true
+    },
+    "cc_scope": "38 named CC assignments across bank,15blocks,looper/tuner/tap,expression and8CTRL actions;source0–127 values do not establish switch thresholds.",
+    "limits": "Historical default map,not factory-fill/currentfirmware/USBtransport equivalence/global expression proof;no MIDI sent.",
+    "market_recheck": "Existing Vin31173885/29362925028 search11.928m remains;directcachemiss. No newqualifiedusedoffer.",
+    "next": "Return to priorityindividualdisplay andremaining no-treadle manufacturer/qualifiedhardware gaps;preserve GP-200JR→Prime→GE300 independentqueue andcurrentGE300inventory/IR/NAM/power/memory questions.",
+    "inventory_changed": false
   }
 }
