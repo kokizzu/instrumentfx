@@ -640,6 +640,16 @@ Checked **2026-11-03** against manufacturer support articles explicitly covering
 
 Backing-track volume is distinct from the guitar rig Volume block. Direct analog EXP attenuation of this source,headphones,USB,tails andrecorded loops remains unverified. No files imported,software installed ordevice operated;current rig-storage ceiling andcondition-qualified Shopee stock remain unresolved.
 
+### Prime — recorded-loop retiming and calibration-display scope
+
+Checked **2026-11-03** against the Prime-named manufacturer support articles below. Neither specifies hardware firmware;these findings do not certify installed5.2 behavior.
+
+| Field | Manufacturer evidence / limitation |
+|---|---|
+| Looper / recorded-loop tempo changes | [Core/Prime support](https://support.headrushfx.com/en/support/solutions/articles/69000864188-core-and-prime-can-i-change-the-tempo-of-my-recorded-loop-) documents enabling **Global Tempo Sync**,then **Quantise Changes**,to make Global Tempo retime the recorded loop. Tempo can use the main dial,an assigned onboard tap switch or**MIDI CC64**. The article doesnot establish pitch preservation,stretch-quality limits,quantization interval orindependent layer tempos. MIDI control isnot a passive analog footswitch connection. Core is named bythe source;only Prime’s record isupdated here. |
+| Expression / calibration prompts on an individual display | [Prime calibration procedure](https://support.headrushfx.com/en/support/solutions/articles/69000851456-headrush-prime-how-to-calibrate-the-expression-pedal) enters calibration byholding**FS4+FS11 during startup**. Prompts appear above**FS6**;**FS12** learns toe-up,toe-down andmiddle positions,then saves. This is built-in-pedal calibration,not global volume assignment,automatic external-pedal calibration orproof of all-output attenuation. It supplies a documented use ofthe switch display,not its physical specifications. |
+
+No calibration,recording,MIDI transmission,download ordevice operation performed. Existing OLED dimensions,rig-capacity,IR andcurrent-stock gaps remain open.
 
 ## VX5
 

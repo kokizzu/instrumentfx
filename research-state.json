@@ -146197,5 +146197,18 @@
     "finding": "PitchSHFT andMonoPitch−12…+12plus+24notcontinuous±24;MonoPitchsingle-note;HPSscale/key;Detune±25cents",
     "remaining": "PitchSHFT/HPS chord support,current installed synthesis/library,physical controls,USB routing,power/import gaps andcondition-qualified stock unresolved",
     "inventory_changed": false
+  },
+  "prime_loop_retime_calibration_display_20261103": {
+    "sources": [
+      "https://support.headrushfx.com/en/support/solutions/articles/69000864188-core-and-prime-can-i-change-the-tempo-of-my-recorded-loop-",
+      "https://support.headrushfx.com/en/support/solutions/articles/69000851456-headrush-prime-how-to-calibrate-the-expression-pedal"
+    ],
+    "revision": "Manufacturer support articles,firmware unstated",
+    "findings": [
+      "GlobalTempoSync+QuantiseChanges retime recorded loop;dial/onboardtap/MIDICC64 control",
+      "Builtin pedal calibrationFS4+FS11boot;promptsaboveFS6;FS12 learns3positionsandsaves"
+    ],
+    "remaining": "Retiming pitch preservation/quality/quantization interval,installed behavior,individual display dimensions,rig capacity,IR andqualified stock unresolved",
+    "inventory_changed": false
   }
 }
