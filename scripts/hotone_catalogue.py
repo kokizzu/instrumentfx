@@ -37,4 +37,4 @@ if __name__ == '__main__':
     assert review['sha256'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest()
     assert not git('diff','--cached','--check').strip()
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(hotone): distinguish Mini historical creative algorithms'))
+    print(git('commit','-m','research(hotone): date Mini delay reverb and control additions'))

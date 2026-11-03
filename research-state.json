@@ -147073,5 +147073,15 @@
     "retrieval": "GuideH unsupported document/pdf;targetedShopee searches repeatedexistingoffers only.",
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "ampero_mini_12_effect_control_boundaries_20261103": {
+    "model": "Hotone Ampero Mini MP-50",
+    "checked": "2026-11-03",
+    "source": "https://www.hotone.com/news/Ampero-Mini%E6%96%B0%E5%9B%BA%E4%BB%B6%26%E8%BD%AF%E4%BB%B6%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81",
+    "revision": "Manufacturer1.2 announcement,2024-12-19",
+    "finding": "2290Mod DLY,Cloud RVB;module drag,externalFS main-screen status,parameter-bar touch andPre/Post volume introduced1.2. Existing2.2 inventory not incremented.",
+    "remaining": "Global volume override,recall/endpoints/all-route coverage,physicalcontrollerwiring,qualified exactShopee stock;currentmanual reader timeout.",
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }

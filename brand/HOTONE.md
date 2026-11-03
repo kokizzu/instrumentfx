@@ -689,7 +689,7 @@ Current comparison summary, reconciled 2026-10-28 from the exact-model sources r
 | Display | Published **4-inch, 800×480, color touchscreen**; not photo-measured. |
 | Display / idle behavior | **V2.2 p21:** display timeout Always On or1/5/10/20/30/40/50/60minutes,default30minutes; touch,footswitch orEXP activity wakes it. Seven themes and patch-number/name modes do not establish individual footswitch LCDs. [Own manual](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf),checked2026-10-31. |
 | Dimensions / weight | Published **134×120×49 mm; 529 g**. Fits preferred 200×140 mm chassis envelope; cable clearance additional. |
-| Processing | **9 simultaneous modules**, subject to processor overload limits. V2.2 says **200+ effects**; older 199 remains historical. V2.2 tables: NR2, EQ7, DLY17, RVB11; CAB50 factory cabinets +10 factory acoustic IRs, with10 user slots separately. AMP55 named choices (11 Clean/19 Drive/18 HiGain/5 Bass/2 Acoustic); Combined FX table59 (8 Dynamic/17 Frequency/17 OD-DS/17 Modulation); **211 reviewed table entries;209 after counting Smart Gate/Fast Gate once** (both repeat in FX andNR). This includes50cabinet choices and10factory acoustic IRs,excludes10user IR slots and10Sound Clone locations,andis not209conventional effects orunique DSP algorithms. Per-slot restrictions remain qualified. V2.2 adds Precise Attack and Match30 Clean; do not derive a new total by adding to199. |
+| Processing | **9 simultaneous modules**, subject to processor overload limits. V2.2 says **200+ effects**; older 199 remains historical. V2.2 tables: NR2, EQ7, DLY17, RVB11; CAB50 factory cabinets +10 factory acoustic IRs, with10 user slots separately. AMP55 named choices (11 Clean/19 Drive/18 HiGain/5 Bass/2 Acoustic); Combined FX table59 (8 Dynamic/17 Frequency/17 OD-DS/17 Modulation); **211 reviewed table entries;209 after counting Smart Gate/Fast Gate once** (both repeat in FX andNR). This includes50cabinet choices and10factory acoustic IRs,excludes10user IR slots and10Sound Clone locations,andis not209conventional effects orunique DSP algorithms. Per-slot restrictions remain qualified. V2.2 adds Precise Attack and Match30 Clean; do not derive a new total by adding to199. [V1.2 release boundaries](#ampero-mini--12-effect-and-control-introduction-boundaries) date2290 Mod/Cloud andmodule dragging separately. |
 | Presets | **99 factory +99 user**:V2.2 defines33factory banks×3,temporarily adjustable **butnot saveable**,and33editable user banks×3. Thus198 selectable locations are not198 writable user memories. FactoryVOLUME-enable defaults remain unverified. [Own manual,p3](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf),checked2026-11-01. |
 | Synth / acoustic | Electric-to-acoustic steel/nylon examples; five documented bass amp/preamp choices justify shared bass membership. Pitch Shift is polyphonic, ±24 semitones; Classic PS monophonic. Sweller is an automatic envelope, not global EXP volume. Dedicated synth engine remains unverified. |
 | Audio I/O | ¼-inch TS instrument input; ⅛-inch stereo AUX; single ¼-inch stereo TRS main output; dedicated ⅛-inch headphones. English evidence: **unbalanced, tip=L/ring=R**; Japanese indexed balanced-stereo wording conflicts. AUX bypasses effects and USB audio. |
@@ -1011,6 +1011,19 @@ The [main support index](https://www.hotone.com/support/3) explicitly pairs **Am
 
 The [main Mini product page](https://www.hotone.com/products/multi-effects/Ampero%20Mini) and Japanese page name **Generic USB ASIO5.41.2**. The general support index separately lists5.74.0 and5.57.x packages without model compatibility in the retrieved headings. Their presence doesnot certify Mini support,OS/CPU requirements,orwhich driver is latest appropriate for this device. Audio drivers,editors andhardware firmware remain separate version tracks. Global expression-volume assignment remains unverified.
 
+
+
+### Ampero Mini — 1.2 effect and control introduction boundaries
+
+Checked **2026-11-03** in [Hotone’s exact Ampero Mini1.2 release announcement](https://www.hotone.com/news/Ampero-Mini%E6%96%B0%E5%9B%BA%E4%BB%B6%26%E8%BD%AF%E4%BB%B6%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83%EF%BC%81),dated **2024-12-19**. This is historical feature-introduction evidence,not the latest orinstalled firmware.
+
+| Field | Documented introduction / boundary |
+|---|---|
+| Effects / delay and reverb | **2290 Mod** enters DLY,modeled on TC Electronic2290;**Cloud** enters RVB as a large,dense reverb. These are existing choices in the later2.2 lists,not two additions to add again. |
+| Routing / controls | Adds dragging module positions andexternal-footswitch status onthe main screen. Status icons are not individual footswitch screens oradditional physical switches. Parameter-bar left/right touch also gains increment/decrement orselection changes. |
+| Volume / scope | Adds TEMPO/VOLUME→Vol Position **Pre/Post**;this doesnot document an all-preset volume assignment. Patch-enabled VOLUME andglobal override uncertainty remain distinct. |
+
+The release also reports NR andBackmask optimizations without specifying measured behavior. No new synth engine,note-polyphony ortail-continuity claim follows. Current global-volume scope,actual M-VAVE wiring andqualified Shopee stock remain unresolved. Current manual retrieval timed out;no software,firmware ormanual downloaded ordevice operated.
 
 ## Ampero MP-100
 
