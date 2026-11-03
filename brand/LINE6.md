@@ -610,7 +610,8 @@ Guitar/bass multi-effects; checked **2026-10-16**. First pass, not fully verifie
 | Dimensions / weight | KB:20.87×11.93×3.66 inches,12.5 lb. Chart:20.86×11.87×3.61 inches,12.0 lb. Both published figures retained; reconciliation unresolved. [KB][HLT-K], [chart][HLT-C] |
 | Simultaneous processing / categories | Up to32 DSP-limited blocks; four stereo paths. Chart's **2017** library:50 guitar amps,12 bass amps,37 cabs,16 mics,104 effects; not current firmware totals. Full current category subtotals unresolved. [Chart][HLT-C] |
 | Factory / user / total memory | 1,024 locations,8×128; all overwriteable per indexed RevD manual. Factory-filled subset unresolved. [Chart][HLT-C]; [manual][HLT-M] |
-| Synth / acoustic | Exact current LT algorithms and acoustic-simulation distinctions require firmware/model-list review; unknown. |
+| Synth / acoustic | **3.80 RevF confirms3 OSC Synth,Legacy synths andAcoustic Sim**;generators andpoly pitch are distinct. [Exact LT inventory/limits](#helix-lt--380-creative-algorithms-and-dsp-boundaries). Synth-input polyphony unverified;Acoustic Sim is separate from bodyIRs. |
+| Pitch / special effects | Poly Pitch,Poly Wham,Poly Capo,12 String;Poly Sustain,Poly Detune,Feedbacker;Glitch Delay,Tesselator,Ratchet,Shuffling Looper. Combined high-DSP group **one per path**,notperpreset or guaranteedtwotogether. [Own3.80 source/qualifications](#helix-lt--380-creative-algorithms-and-dsp-boundaries). |
 | IR / NAM / captures | Chart:128 mono IR slots,1024/2048 points; simultaneous four1024 or two2048,DSP permitting. Native NAM,converted NAM,proprietary captures unverified. [Chart][HLT-C] |
 | Audio / control I/O | Variable-impedance guitar,Variax; paired quarter-inch/XLR outputs; headphones; two sends/two returns; DIN MIDI in/out-thru; shared L6 LINK/AES-EBU output; USB. No mic input,AUX,EXP3,dedicated S/PDIF. EXP2 shares tip/ring amp-control outputs. Connector-level routing review pending. [Chart][HLT-C]; [KB][HLT-K] |
 | Power / battery / USB power | Internal AC,IEC inlet. Voltage,current,frequency,battery/USB operation unresolved; DC polarity inapplicable to IEC mains. [Chart][HLT-C] |
@@ -624,7 +625,7 @@ Guitar/bass multi-effects; checked **2026-10-16**. First pass, not fully verifie
 | Used | Unknown; no condition-verified used offer established. |
 | Retail-style hardware offer | **Rp20.040.000**, Seven Stereo Music & Audio Store,Bandung,item1167670551/shop16879370. [Exact hardware][HLT-O]. Reopened2026-10-16 via cached web extraction with **5–7Sep** delivery text; current stock,checkout,new condition,bundle,warranty region,shipping/tax unconfirmed. Late-delivery voucher up toRp10.000 is compensation,not a price discount. |
 
-Remaining:direct complete manual/control inspection,current firmware/category counts,synth/acoustic details,power ratings,IR formats/capture limits,driver/updater requirements,factory subset and condition-verified used/live retail offers. No software,dependencies or project payloads were downloaded or executed for this record.
+Remaining:direct complete manual/control inspection,current firmware/category counts,beyond3.80 synth behavior,power ratings,IR formats/capture limits,driver/updater requirements,factory subset and condition-verified used/live retail offers. No software,dependencies or project payloads were downloaded or executed for this record.
 
 [HLT-K]: https://kb.line6.com/helix-lt-comparison
 [HLT-C]: https://kb.line6.com/__attachments/a_a2761f537d297d89a096c84ee7708fb1fda432484a7b5e3886f8b9d36269c408/Comparison_HELIX_LT.pdf?cb=29d5d8b9fb12df962b8061a40302f54d
@@ -632,6 +633,21 @@ Remaining:direct complete manual/control inspection,current firmware/category co
 [HLT-M]: https://line6.com/data/6/0a020a3f18374611d5dffd3a45/application/pdf/Helix%20LT%203.0%20Owner%27s%20Manual%20-%20Rev%20D%20-%20English%20.pdf
 [HLT-S]: https://line6.com/software/index.html?hardware=All&name=HX+Edit&os=All&submit_form=set
 [HLT-O]: https://shopee.co.id/Line-6-Helix-LT-Streamlined-HX-Guitar-Processor-i.16879370.1167670551
+
+### Helix LT — 3.80 creative algorithms and DSP boundaries
+
+Checked **2026-11-03**: **Helix LT3.80 Owner’s Manual,RevF,2024**,printedpp24,30–33,44–45. [Exact official manual](https://line6.com/data/6/0a00051afd86673ccb96424d9/application/pdf/Helix%2520LT%25203.80%2520Owner%27s%2520Manual%2520-%2520English%2520.pdf) exceeds reader size limit;[manufacturer-authored reproduction](https://manuals.plus/m/bf402c93e2000ff69c06c253eb49f2ccc25eaed2cf6a964de5e39e895321933c) identifies LT,3.80,RevF andYamaha imprint. Original extracted text,not host-generated answers.
+
+| Creative field | Exact-model documented distinction |
+|---|---|
+| Pitch/Synth HX12 | Pitch Wham;Twin Harmony;Simple Pitch;Dual Pitch;Boctaver;3 OSC Synth;Poly Pitch;Poly Wham;Poly Capo;12 String;3 Note Generator;4 OSC Generator. |
+| Pitch/Synth Legacy17 | Bass Octaver;Smart Harmony;Octi Synth;Synth O Matic;Attack Synth;Synth String;Growler;Buzz Wave;Rez Synth;Seismik Synth;Analog Synth;Synth Lead;String Theory;Synth FX;Saturn 5 Ring Mod;Synth Harmony;Double Bass. |
+| Synth / note-handling boundary | Mono/stereo labels describe channels. Polyphonic shifting doesnot certify synth-input polyphony. 3 Note/4 OSC Generators produce sound without aninstrument;oscillator counts arenot tracked-note counts. |
+| Synth / instrument simulation | Acoustic Sim appears inEQ,mono/stereo;separate from acoustic-body IR playback. |
+| Special processing | Poly Sustain,Feedbacker,Poly Detune,Glitch Delay,Tesselator,Ratchet andShuffling Looper;Voice Box/filter effects are separate processing. |
+| Processing / concurrency | Combined Feedbacker/Poly Sustain/Poly Detune/Poly Pitch/Poly Wham/Poly Capo/12 String group: **one per path maximum**,CPU-qualified. Notoneperpreset;notguaranteedtwo simultaneously. |
+
+**29 named Pitch/Synth entries** are choices,not29 concurrent blocks or29 synthesizers. The3.80 inventory doesnot date each feature’s introduction orprove installed firmware,trackingquality orlatency. Earlier2017counts remain historical;full current category census isstill pending. FreshShopee search resurfacedthe existing SevenStereo item1167670551/shop16879370,notverifiedcurrentstock. No local download,software launch ordevice operation.
 
 ## Helix Rack — partial no-treadle discovery
 
