@@ -2958,6 +2958,12 @@ Checked **2026-10-16**; cached asking evidence, not live checkout/stock. New con
 
 ## IR-200 — partial expression capability lead
 
+### IR-200 — MIDI bridging and USB loopback mode qualification
+
+Checked **2026-11-04**, [official owner manual eng02, printed pp19–20](https://static.roland.com/assets/media/pdf/IR-200_eng02_W.pdf). MIDI THRU and USB THRU each offer OFF/USB/MIDI/U+M: received messages can be forwarded to the selected connector(s). This establishes configurable MIDI bridging, not audio channel count or pedal wiring. The PC map independently maps each received program1–128 to memory1–128.
+
+The USB table lists dry output, effect input/output, mix input and loopback controls under VENDOR; GENERIC lists effect output and mix input only. Roland’s [remote-session article, October7,2021](https://support.roland.com/hc/en-us/articles/4407987892507-IR-200-Holding-an-online-session-remote-session-on-your-computer-with-sound-inputted-from-the-IR-200) describes mixing computer playback back into computer recording, gives both desktop Vendor and iOS Generic setup, then presents loopback instructions without a mode qualification. **Generic/iOS loopback availability remains unresolved**; do not generalize desktop controls from the article’s ordering. This is computer-audio loopback, not an onboard phrase looper. Numeric audio stream matrix, sample formats and expression attenuation remain unverified. No software installed or device tested; partial lead remains outside active inventory.
+
 ### IR-200 — English revision 02 is not firmware 1.10 documentation
 
 Checked **2026-11-04** against the [official English owner manual eng02, ©2021, cover code022](https://static.roland.com/assets/media/pdf/IR-200_eng02_W.pdf), printed pp17–19. This additional accessible manufacturer revision supplements, rather than replaces, the retained eng01 source. Its expression table still distinguishes SYSTEM assignment preference, MIN/MAX endpoints and separate pedal-state retention. None establishes final-output coverage.
@@ -2983,7 +2989,7 @@ Reconciled **2026-11-03** from the dated exact-model evidence retained in full b
 | Data / control ports | Shared TRS CTL1,2/EXP; stereo-mini MIDI IN/OUT; Micro-B USB; DC IN andground terminal. MIDI cable model association is not an EXP pinout. |
 | Electrical / power | **9V DC center-negative**,exact PSA association; **335mA device draw**,500mA adapter capacity. Phones recommended≥44Ω,distinct from44Ω output impedance. Battery andUSB bus-power operation unverified. |
 | IR / capture | Factory154 source files; up to two IRs active. **128 mono/64 stereo user files**,44.1/48/96kHz,16/24-bit linear/32-bit float,200/500ms. Loader selecting one stereo channel remains an unresolved workflow qualification. Native NAM, converted NAM andonboard capture creation unverified. |
-| Software / USB | Windows/macOS **IR Loader** handles assets andbackup/restore; full parameter editor andmobile/Linux editing unverified. Vendor/Generic modes differ; USB MIX IN joins final output. Exact stream directions/counts/formats remain open despite support wording2(Stereo×2). Driver/editor/firmware versions remain separate. |
+| Software / USB | Windows/macOS **IR Loader** handles assets andbackup/restore; full parameter editor andmobile/Linux editing unverified. Vendor/Generic modes differ; USB MIX IN joins final output. MIDI bridging is explicitly selectable via MIDI THRU/USB THRU; audio stream directions/counts/formats remain open despite support wording2(Stereo×2). Generic/iOS loopback remains unresolved. Driver/editor/firmware versions remain separate. |
 | Live / practice | Onboard memory down/up; both switches bypass effects. Send/return position/mix options documented. Looper,drums,scenes andpreset-change spillover unverified; no extra functions inferred from the external loop. |
 | Used / new IDR | Neither condition-specific current price verified. Exact Seven Stereo16879370/21523624968 cached **Rp7.777.500**,Bandung,service unavailable; condition,stock,variant,bundle,warranty,voucher,shipping/tax andcheckout unresolved. Separate search-page price is not this item’s history. |
 

@@ -147756,5 +147756,17 @@
     "finding": "Expression settings corroborated; AUTO OFF still OFF/ON ten hours, not firmware1.10 OFF/20MIN/10HRS default20MIN.",
     "limits": "Exact issue date and firmware mapping unknown; global final-output coverage unresolved; partial outside active inventory.",
     "next": "Investigate remaining USB routing and full-profile gaps; preserve firmware history and independent queues."
+  },
+  "ir200_usb_midi_scope_20261104": {
+    "checked": "2026-11-04",
+    "canonical": "brand/BOSS.md#ir-200--midi-bridging-and-usb-loopback-mode-qualification",
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/IR-200_eng02_W.pdf",
+      "https://support.roland.com/hc/en-us/articles/4407987892507-IR-200-Holding-an-online-session-remote-session-on-your-computer-with-sound-inputted-from-the-IR-200"
+    ],
+    "resolved": "MIDI THRU and USB THRU explicitly select OFF/USB/MIDI/U+M; PC mapping1–128 independently selects memories1–128.",
+    "conflict": "Manual exposes loopback controls only under Vendor; support article covers desktop/iOS then gives unqualified loopback steps. Generic/iOS loopback unresolved.",
+    "next": "USB audio stream matrix/formats, global-volume output coverage and qualified hardware offer remain; source-blocked gaps may be deferred without changing independent queues.",
+    "active_inventory_changed": false
   }
 }
