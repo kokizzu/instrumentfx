@@ -144739,5 +144739,39 @@
       "No global-volume or headphone capability inferred"
     ],
     "next": "Continue remaining HX Effects category names and individual-display models; defer inaccessible primary sources and preserve compact expression audit plus GP-200JR→Prime→GE300 queue."
+  },
+  "creative_effects_comparison": {
+    "checked_date": "2026-11-03",
+    "category_document": "CREATIVE-EFFECTS.md",
+    "purpose": "Compare documented synth, pitch, instrument-simulation and special-effects capabilities independently of amp/cab/NAM counts.",
+    "scope": "Selected exact-model source checks plus a separately qualified index of existing catalogue evidence; not a complete re-audit of all active models.",
+    "unknown_policy": "Unverified is not No; a synth-like filter, free-running generator, acoustic IR and instrument-tone engine are distinct.",
+    "inventory_count_unchanged": 402,
+    "models": {
+      "Line 6::HX Effects": {
+        "key": "Line 6::HX Effects",
+        "brand_path": "brand/LINE6.md",
+        "heading": "HX Effects",
+        "label": "Line 6 HX Effects",
+        "revision": "HX Effects 3.80 manual; 3.0 and 3.15 release notes",
+        "sources": [
+          "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+          "https://kb.line6.com/helix-3-15-release-notes",
+          "https://line6.com/support/page/kb/effects-controllers/helix/helix-30-release-notes-r934/"
+        ],
+        "synth": "3 OSC Synth and legacy synths; Double Bass and Seismik Synth explicitly track guitar pitch. Rez Synth is resonant filtering. 3 Note Generator and 4 OSC Generator run without input. Stereo audio is not proof of polyphonic synth tracking.",
+        "pitch": "Poly Pitch, Poly Wham and Poly Capo explicitly support polyphonic processing; also Pitch Wham, Twin Harmony, Simple/Dual Pitch and Smart Harmony.",
+        "instrument": "Acoustic Sim and 12 String. Acoustic Sim is in EQ; acoustic-body IR loading is separate. Manual and 3.0 release notes differ on modeled-hardware attribution.",
+        "special": "Poly Sustain, Feedbacker, Glitch Delay, Tesselator, Ratchet, Shuffling Looper, ring modulation and Voice Box.",
+        "limits": "Nine blocks subject to DSP. Manual p39 specifies one per path for the combined group Feedbacker / Poly Sustain / Poly Detune / Poly Pitch / Poly Wham / Poly Capo / 12 String. Historical 3.0 notes separately say one new poly model per path/DSP. Preserve those scopes; do not claim a fixed one-per-preset cap or guarantee two such effects can run together. Synth tracking polyphony remains unverified.",
+        "matrix": [
+          "Tracking synths + separate generators",
+          "Poly Pitch / Wham / Capo",
+          "Acoustic Sim; 12 String",
+          "Poly Sustain; glitch; feedback; shuffled loops"
+        ],
+        "qualification": "Nine blocks overall, DSP permitting. The 3.80 manual restricts the Feedbacker/poly group to one per path; this is not stated as one per preset."
+      }
+    }
   }
 }
