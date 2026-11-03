@@ -144821,10 +144821,34 @@
           "Granular quartet (1.12.5); freeze; resonator; arpeggiators"
         ],
         "qualification": "Two algorithms per Program. HotSawz’s six oscillators do not provide chord tracking; granular quartet requires 1.12.5. Installed firmware and tracking performance untested."
+      },
+      "MOOER::GE300": {
+        "key": "MOOER::GE300",
+        "brand_path": "brand/MOOER.md",
+        "heading": "GE300",
+        "label": "Original MOOER GE300",
+        "revision": "Original 2019 manufacturer manual (V1.1.0 screen examples), pp19–22,28–30,34; exact-model firmware notes through 5.1.4 (2026-08-04)",
+        "sources": [
+          "https://www.mooeraudio.com/product/GE300-223.html",
+          "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf",
+          "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html"
+        ],
+        "synth": "Dedicated three-layer polyphonic SYNTH with independent waveform, pitch, filter and arpeggiator per voice; ordinary instrument input, no divided pickup required. Three layers do not imply a three-note ceiling.",
+        "pitch": "Mono Pitch in FXA versus Poly Pitch in FXB. Intelligent Harmony added to FXA in 3.0.1; its input polyphony remains unverified. 4.0.1 expands Mono Pitch from ±12 to ±24 semitones; do not extend this change to Poly Pitch by assumption.",
+        "instrument": "Acoustic1/2/3 are dedicated acoustic simulators in AMP entries106–108. GUITAR Tone Capture matches instrument EQ/tonal characteristics, a separate process from synthesis.",
+        "special": "Stutter choppy filter, Lofi sample/bit reduction, Ring Mod, Slow Gear and per-synth-voice arpeggiators. Original FXA/FXB alternatives are not unlimited duplicate blocks.",
+        "limits": "SYNTH tracking remains first, with its output routed later and dry mixed separately. FXA/FXB and AMP choices occupy their own blocks. NAM A2 conversion introduced 5.1.4 (2026-08-04), AMP only; it supplies neither synthesis nor arbitrary effects. Original GE300 only, not Lite; installed firmware and real tracking/latency untested.",
+        "matrix": [
+          "Three-layer polyphonic SYNTH; normal pickup",
+          "Mono Pitch / Poly Pitch; Intelligent Harmony (3.0.1)",
+          "Acoustic1/2/3; separate guitar Tone Capture",
+          "Synth arpeggiators; Stutter; Lofi; Ring Mod"
+        ],
+        "qualification": "Original GE300 only. Synth tracking stays first; FXA mono and FXB poly pitch differ. Harmony requires 3.0.1; NAM conversion into AMP does not expand the synth engine."
       }
     },
-    "publication_model": "Eventide::H90",
-    "next_model": "MOOER::GE300"
+    "publication_model": "MOOER::GE300",
+    "next_model": "Zoom::B1on"
   },
   "hxstomp_own_category_census_20261103": {
     "model": "Line 6 HX Stomp",

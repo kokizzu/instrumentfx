@@ -1629,6 +1629,20 @@ Checked **2026-11-03**, [MOOER exact GE300 launch article](https://cn.mooeraudio
 
 No download,software launch,MIDI messages orhardware operation. Earlier unknowns remain dated history;current verification gaps are narrowed only as specified above.
 
+### GE300 — creative-effects capability check, 2026-11-03
+
+Original 2019 manufacturer manual (V1.1.0 screen examples), pp19–22,28–30,34; exact-model firmware notes through 5.1.4 (2026-08-04). Checked original manufacturer text; no device test. [Source 1](https://www.mooeraudio.com/product/GE300-223.html) · [Source 2](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf) · [Source 3](https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html)
+
+| Field | Exact-model creative capability / qualification |
+|---|---|
+| Synth / acoustic | Dedicated three-layer polyphonic SYNTH with independent waveform, pitch, filter and arpeggiator per voice; ordinary instrument input, no divided pickup required. Three layers do not imply a three-note ceiling. |
+| Pitch / category choices | Mono Pitch in FXA versus Poly Pitch in FXB. Intelligent Harmony added to FXA in 3.0.1; its input polyphony remains unverified. 4.0.1 expands Mono Pitch from ±12 to ±24 semitones; do not extend this change to Poly Pitch by assumption. |
+| Synth / acoustic instrument tones | Acoustic1/2/3 are dedicated acoustic simulators in AMP entries106–108. GUITAR Tone Capture matches instrument EQ/tonal characteristics, a separate process from synthesis. |
+| Special processing | Stutter choppy filter, Lofi sample/bit reduction, Ring Mod, Slow Gear and per-synth-voice arpeggiators. Original FXA/FXB alternatives are not unlimited duplicate blocks. |
+| Architecture / firmware limitations | SYNTH tracking remains first, with its output routed later and dry mixed separately. FXA/FXB and AMP choices occupy their own blocks. NAM A2 conversion introduced 5.1.4 (2026-08-04), AMP only; it supplies neither synthesis nor arbitrary effects. Original GE300 only, not Lite; installed firmware and real tracking/latency untested. |
+
+[Four-category comparison](../CREATIVE-EFFECTS.md). Ownership not inferred.
+
 ## GE300 Lite
 
 Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no sibling specifications adopted. [Own product page](https://www.mooeraudio.com/product/GE300Lite-239.html). Bass/vocal suitability remains unclassified.
