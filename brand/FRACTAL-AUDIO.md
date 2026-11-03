@@ -971,6 +971,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI selle
 | Categories / newer guide | **November2026** reference choices/FM9 instance ceilings now [tabulated separately](#fm9--november-2026-block-comparison);37 supported block rows. Not summed concurrency orinstalled firmware census. EarlierJune2023 figures remain historical. |
 | IR / NAM / captures | **2200+factory cabs,1024user IRs**,UltraRes/DynaCab.2022manual lists WAV/IR/SYX import and16scratchpads. [Cab-Lab 4 conversion/export](#fm9-mkii-turbo--cab-lab-4-conversion-and-persistent-ir-storage) explicitly names FM9 and permits mono deconvolved WAV at any source rate/depth,exported as .syx/.ir through FM9-Edit. This narrows the computer-workflow gap;universal direct-hardware formats,length limits andMKII firmware minima remain unresolved. Native NAM,converted NAM,user amp capture import unverified. [Store][f9-s];[Manual][f9-m] p.2. |
 | Synth / acoustic | **Three-oscillator monophonic Synth**,one block/four stored channels inJune2023 guide;[waveforms andtracking modes](#fm9--oscillator-synthesis-versus-polyphonic-tracking). Acoustic/piezo routing documented historically;dedicated acoustic simulation remains unverified. Current MKII equivalence untested. [Product][f9-p];[Manual][f9-m] p.38. |
+| Special sound / filtering | [Formant, Resonator and Ring Mod distinctions](#fm9--formant-resonator-and-ring-mod-distinctions), November2026 reference; not extra Synth engines or installed-firmware verification. |
 | I/O | Instrument¼-inch input;two balanced stereo¼-inch input pairs;three stereo outputs:Out1 XLR+Humbuster¼-inch,Out2 XLR,Out3 Humbuster¼-inch;phones;three pedal jacks;FASLINKII;S/PDIFin/out48kHz. Manual addsUSB-B,MIDIDINin/out-thru,mains. Humbuster is not ordinary balanced output. [Product][f9-p];[Manual][f9-m] pp.21–22,128. |
 | I/O / revision-qualified electrical ratings | [Okada exact MKII specifications](https://www.okada-web.com/fractal-audio-systems/fm9-mark-ii-turbo), checked **2026-11-03**, give **1MΩ** inputs: instrument maximum **+16dBu**, Inputs2/3 **+20dBu**. Outputs1/2/3 each list **600Ω,max+20dBu**. [Own Original/Turbo3.x manual,PDFp133][f9-m] corroborates these figures historically; regional MKII data is not direct current manufacturer certification or our measurement. |
 | I/O / headphone rating scope | Same two sources specify **¼-inch stereo,35Ω output impedance**. This is source impedance, not a headphone-load recommendation. Minimum/recommended load,power and universal EXP attenuation remain unverified. |
@@ -1385,6 +1386,18 @@ Installed firmware andactual tracking remain untested. Preserve the older2022 ma
 Checked **2026-11-03** in indexed original [FM9 Owner’s Manual][f9-m], August2022,firmware3.x,printed pp12,96. A switch replaces the expression pedal at its local jack;use tip–sleeve make/break andconfigure switch type,polarity andbehavior. A momentary switch can act as a virtual toggle;this is software behavior,not a second physical contact orcontinuous volume control.
 
 The p12 introduction says “two” pedal jacks,but its own source list names PEDAL1/2/3 andthe separately verified hardware specification hasthree. Preserve this internal wording inconsistency;it does not reduce the connector census. This section addresses local jacks,not FC-controller wiring. Combined expression/toe wiring,actual M-VAVE compatibility andcurrent MKII/firmware12 behavior remain unverified. Direct full-PDF reopening timed out;indexed manufacturer text was available. No download,calibration ordevice operation.
+
+### FM9 — Formant, Resonator and Ring Mod distinctions
+
+Checked **2026-11-03**, [manufacturer November2026 Blocks Guide, pp3,51,92,97](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). FM9 reference ceilings are **two Formant, two Resonator and one Ring Mod**; CPU limits apply. Introduction firmware and installed MKII behavior remain unverified.
+
+| Algorithm | Practical distinction |
+|---|---|
+| Formant | Stereo vowel filtering, independently processing left/right. Start/Middle/End vowels can morph under Control, including pedal/LFO modifiers; not a microphone-fed vocoder or dedicated tracking synth. |
+| Resonator | Four parallel feedback delays form tuned comb filters. MANUAL sets individual frequencies; CHORDAL chooses major, major6, dominant7, major7, minor, minor6, minor7, diminished or augmented. Generated chord resonance does not demonstrate tracking input chords. Stereo feeds left→resonators1/2, right→3/4. |
+| Ring Mod | **CLASSIC, SSB UPPER, SSB LOWER**; single-sideband modes yield frequency-shifter effects. Optional pitch tracking changes the modulation oscillator; Guitar/Bass range selection is separate from note polyphony. Earlier firmware11 tracking evidence remains qualified above. |
+
+No local download/device test. Exact Shopee hardware still returns a JavaScript shell; current condition/stock remains unverified. The Zikinf URL labeled MarkII contains the same **August2022,3.x Original/TURBO** manual, not new MKII certification. Preserve earlier sources, global-volume gaps and independent queues.
 
 ## FM9 original
 

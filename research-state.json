@@ -146927,5 +146927,23 @@
     "fully_verified": false,
     "active_count_unchanged": 402,
     "next": "Current import/firmware mapping,named choices,factory fill,loop persistence/export,volume/output coverage,visual controls,qualified stock. Preserve independent LCD-first/general queues."
+  },
+  "fm9_special_processing_20261103": {
+    "model": "Fractal Audio FM9 MKII Turbo",
+    "checked": "2026-11-03",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 pp3,51,92,97;FM9 reference not installedMKII certification",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9--formant-resonator-and-ring-mod-distinctions",
+    "finding": "Named special-processing distinctions now recorded and creative/instrument views synchronized.",
+    "source_rejections": [
+      {
+        "url": "https://www.zikinf.com/manuels/fractal-audio-fm9-mark-ii-manuel-utilisateur-en-91613.pdf",
+        "reason": "Cover August2022,firmware3.x,Original/TURBO;URL does not prove newer MKII documentation."
+      }
+    ],
+    "offer_access": "11170212/25331147281 direct JavaScript shell;no refreshed condition/stock/price",
+    "fully_verified": false,
+    "active_count_unchanged": 402,
+    "next": "Continue LCD-first current exact-model physical/firmware and qualified Shopee gaps;volume endpoints/recall/output coverage remain unresolved. General GP200JR→Prime→GE300 queue unchanged."
   }
 }
