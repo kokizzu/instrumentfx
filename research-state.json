@@ -149453,5 +149453,23 @@
     ],
     "inventory_unchanged": 402,
     "next": "Continue separate-footdisplay priority andremaining model fields;preserve independent GT-Pro/general andexpression queues."
+  },
+  "fm9_mkii_megatap_volume_20261104": {
+    "checked": "2026-11-04",
+    "model": "Fractal Audio FM9 MKII Turbo",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026, printed3,57–58,109, FM9 column",
+    "finding": "FM9 Megatap64tap/4second limit;22reference types not named;two instances. Volume/Auto-Swell two types,four instances;envelope action andblock bypass distinct fromglobal pedal assignment.",
+    "market_check": "Exact existing item25331147281 andFM9 bekas targetedShopee searches returnednoresults;not proof ofmarket absence orcurrentstock. Existingdatedoffers preserved.",
+    "remaining": [
+      "Megatap22 exact names",
+      "GraphicEQ missingtwo names",
+      "Reverb79 named census",
+      "CurrentMKII installed equivalence",
+      "Global volume endpoints/recall/output coverage",
+      "Qualified new/used hardware offers"
+    ],
+    "active_inventory_changed": false,
+    "next": "Continue accessible LCD-first model fields andexactShopee hardware;retain independent GT-Pro/general andexpression queues."
   }
 }
