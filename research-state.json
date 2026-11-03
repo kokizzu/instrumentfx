@@ -146650,5 +146650,16 @@
     },
     "next": "Continue requested separate-footdisplay models and qualified Shopee hardware; preserve general GP-200JR -> Prime -> GE300, GT-Pro cursor and independent expression-volume audit.",
     "active_count_unchanged": 402
+  },
+  "axom_max_body_electrical_20261103": {
+    "model": "MELOFTY AXOM MAX",
+    "checked": "2026-11-03",
+    "source": "https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347",
+    "revision": "Manufacturer V1.7.4 German,PDFpp61–62;original table",
+    "finding": "Manufacturer body/mass and input/output electrical ratings recorded; axis,headphone socket andretailer mass qualifications retained.",
+    "active": false,
+    "fully_verified": false,
+    "next": "LCD/OLED andmanufacturer mini-screen census;fullcategory/factory allocation;qualified Shopee hardware;externalEXP3 coverage. Independent general andexpression queues preserved.",
+    "active_count_unchanged": 402
   }
 }

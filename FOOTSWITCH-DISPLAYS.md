@@ -177,3 +177,5 @@ AXOM MAX [MFIM monitoring and refinement](brand/MELOFTY.md#axom-max--mfim-monito
 Prime [offline backing-track workflow](brand/HEADRUSH.md#prime--offline-backing-tracks-and-duration-scope): manufacturer documents USB WAV/MP3 import andbackground playback during rig editing. Duration is storage/loading-qualified,not the looper limit;this doesnot change the twelve individual OLED count orprove global EXP attenuation.
 
 Original FC-12 [switch timing and external-control details](brand/FRACTAL-AUDIO.md#fc-12-original--control-census-switch-timing-and-external-wiring): v2.1 documents Tap/Hold label changes,press-versus-release triggering andexternal-switch wiring. Controller only,outside audio counts;these findings are not transferred toMarkII.
+
+AXOM MAX [manufacturer body/electrical ratings](brand/MELOFTY.md#axom-max--manufacturer-body-and-electrical-ratings) now supplement its partial profile;mini-screen technology remains unresolved.

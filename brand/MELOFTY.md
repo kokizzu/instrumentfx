@@ -284,3 +284,15 @@ Checked **2026-11-03** in the [manufacturer German V1.7.4 manual,PDFpp31–33](h
 | Capture / refinement | Optional TONE CAPTURE refinement asks the player to cover all six strings,open through high frets,until100% progress. Separate **Gain,Model Volume andten-band EQ** adjustments refine the result. Progress is not a fidelity score;the six-string instruction doesnot prove bass capture is unsupported. |
 
 Saved results remain proprietary MFIM models;no NAM export,arbitrary time-varying effect capture ornew synth capability is established. Mini-screen technology/manufacturer count andqualifiedShopee hardware remain unresolved. Partial lead outside active counts;no capture,download ordevice operation performed.
+
+### AXOM MAX — manufacturer body and electrical ratings
+
+Checked **2026-11-03**, [German manufacturer V1.7.4 manual,PDFpp61–62](https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347). Exact-model original table; no hardware measurement.
+
+| Field | Published rating / boundary |
+|---|---|
+| Body / mass | **381×230×73mm**, axes unlabeled; **3.45kg**. Manufacturer corroborates the distributor figures; retailer3.1kg discrepancy remains. |
+| Audio / inputs | Guitar andReturns **1MΩ,+10dBu maximum**;Mic/Line **2.4kΩ,+10dBu maximum,60dB mic gain**. Fixed ratings do not establish selectable impedance/gain ranges. |
+| Audio / outputs | Unbalanced mains andXLR **600Ω,+18dBu maximum**;Sends **510Ω,+18dBu**;Phones **6Ω,+18dBu**. These are source ratings,not headphone load orpower. The3.5/6.35mm socket conflict remains. |
+
+Partial,outside active counts. Display technology,category census,global external-pedal coverage andqualified Indonesian hardware remain open. No local download ordevice operation.
