@@ -812,6 +812,7 @@ Current comparison summary, reconciled2026-10-28 from the exact-model sources re
 | IDR / Gianyar condition unknown |**Rp2.255.000**, [Rockpizz440269597/43928304060](https://shopee.co.id/Valeton-GP-50-Multi-Effect-Processor-Gp50-Efek-Valeton-Gp50-i.440269597.43928304060);checked2026-10-28,three-month index/direct cache miss,staleJul21–26. NoHabis exposed is not stock proof. |
 | IDR / Solo condition unknown |**Rp2.300.000**, [Liam106037376/41181463437](https://shopee.co.id/Valeton-GP-50-i.106037376.41181463437),Surakarta;checked2026-10-28,month-old cache/staleSep2–3. Display-model ID336016447769 doesnot establish selected variant;noHabis not stock proof. |
 | IDR / additional Gelora hardware ask | **Rp2.255.000**, [Gelora Musik Serpong,shop306155985/item57855336889](https://shopee.co.id/Efek-gitar-Valeton-GP-50-i.306155985.57855336889),Kab.Tangerang;checked2026-11-03. Search two-month/direct one-month snapshots agree on price but show different stale delivery dates:August27–29 versusSeptember9–10. Exact GP-50 hardware title;no sold-out marker exposed is not stock confirmation. Condition,working state,firmware,selected variation,bundle,adapter,warranty,shipping/tax andcheckout remain unknown. Late-delivery compensation not deducted. |
+| IDR / three additional exact hardware asks | **Rp2.255.000 each**,checked2026-11-04: [SCI Music304940515/52704730830](https://shopee.co.id/Valeton-GP50-Guitar-Bass-Multi-Effects-Unit-i.304940515.52704730830),Tangerang Selatan; [Gearvolution63444658/50906152611](https://shopee.co.id/Valeton-GP50-Multi-Effect-i.63444658.50906152611),Makassar; [Kurnia32743136/44754599386](https://shopee.co.id/Valeton-GP50-Next-Generation-Compact-Multi-Effects-Efek-Gitar-Elektrik-i.32743136.44754599386),Semarang. Condition unknown;SCI search Habis versus direct no-status conflict;Gearvolution search-only;Kurnia month-old direct snapshot. [Full qualifications](#gp-50--additional-shopee-hardware-asks-and-stock-snapshot-conflict). |
 | IDR qualification |Separate dated asks,not a used/new market range orcompleted sales. Unless stated,condition,working state,firmware,variant,adapter/bundle,warranty region,authenticity,shipping/tax,voucher andcheckout total unknown. Late-delivery compensation is not an upfront discount. Sahabat2195000IDR unresolved bundle/hidden variations remains excluded from qualified prices. |
 <!-- comparison evidence ends -->
 
@@ -1081,6 +1082,20 @@ Checked **2026-11-03** in the [manufacturer firmware1.0.5 manual reproduction, p
 MIDI In Source selects **TRS, USB or Mixed(default)**. Mixed receives both; TRS and USB each have their own receive-channel setting, **Omni(default) or1–16**. The manual says data received at MIDI IN is forwarded unchanged through MIDI THRU. It doesnot establish USB-to-THRU merging or TRS TypeA/B wiring.
 
 In Single FS/Dual FS socket modes, external functions are **None, Preset+, Preset−, TAP, Tuner, Looper, Drum, Drum+, Drum−**. FS3 denotes the single/left switch and FS4 the dual controller’s right switch. These logical roles do not specify electrical polarity, tip/ring contacts, momentary/latching requirements or simultaneous analog EXP plus switches. The direct analog all-preset volume verdict remains unknown. No download, MIDI message or device operation.
+
+### GP-50 — additional Shopee hardware asks and stock-snapshot conflict
+
+Checked **2026-11-04**;three separate exact hardware titles,not GP-5 oraccessories. **Rp2.255.000 each** is an individual asking price,not a verified new-price range orcompleted sale.
+
+| Seller / exact item | Access and displayed state |
+|---|---|
+| [SCI Music Center,304940515/52704730830](https://shopee.co.id/Valeton-GP50-Guitar-Bass-Multi-Effects-Unit-i.304940515.52704730830),Kota Tangerang Selatan | Search snapshot two weeks old says **Habis**;direct snapshot last month shows same amount butno Habis. Different cache ages/states remain unresolved;not evidence ofrestocking. Four-hour relative delivery text is stale snapshot content. |
+| [Gearvolution,63444658/50906152611](https://shopee.co.id/Valeton-GP50-Multi-Effect-i.63444658.50906152611),Kota Makassar | Search snapshot last week gives exact hardware title,seller andamount;direct open cache miss. No stock/condition confirmation. |
+| [Kurnia Musik Semarang,32743136/44754599386](https://shopee.co.id/Valeton-GP50-Next-Generation-Compact-Multi-Effects-Efek-Gitar-Elektrik-i.32743136.44754599386),Kota Semarang | Search/direct snapshots last month agree on title andamount;no sold-out marker exposed. This doesnot prove current purchasability. |
+
+For all three,condition(new/used),selected variation,working state,installed firmware,bundle/adapter,warranty region,authenticity,shipping/tax andcheckout availability remain unknown. Late-delivery vouchers up toRp10.000 are not deducted. Do not merge these sellers ortransfer other offers’ conditions.
+
+The [official1.1.0 manual landing page](https://www.valeton.net/wpfd_file/gp-50_online-manual_en_firmware-v1-1-0-pdf/) remains readable,created/updated2026-08-26;the linked original PDF redirect still fails in the reader. Listing metadata is not parameter evidence. Keep1.0.5 technical qualifications andunknown across-preset analog-volume assignment. No local download ordevice operation.
 
 ## GP-100
 

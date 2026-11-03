@@ -150143,5 +150143,39 @@
     ],
     "active_inventory_changed": false,
     "independent_queues_preserved": true
+  },
+  "gp50_additional_shopee_20261104": {
+    "checked": "2026-11-04",
+    "canonical": "brand/VALETON.md#gp-50--additional-shopee-hardware-asks-and-stock-snapshot-conflict",
+    "offers": [
+      {
+        "shop": "304940515",
+        "item": "52704730830",
+        "seller": "SCI Music Center",
+        "region": "Kota Tangerang Selatan",
+        "idr": 2255000,
+        "access": "Search two-week Habis versus last-month direct no-Habis conflict"
+      },
+      {
+        "shop": "63444658",
+        "item": "50906152611",
+        "seller": "Gearvolution",
+        "region": "Kota Makassar",
+        "idr": 2255000,
+        "access": "Last-week search;direct cache miss"
+      },
+      {
+        "shop": "32743136",
+        "item": "44754599386",
+        "seller": "Kurnia Musik Semarang",
+        "region": "Kota Semarang",
+        "idr": 2255000,
+        "access": "Last-month search/direct;no stock confirmation"
+      }
+    ],
+    "condition": "Unknown for all;not qualified new/used range;voucher/delivered amount unknown",
+    "manual": "Official1.1.0 landing metadata readable;original PDF redirect inaccessible;no current global-volume evidence",
+    "next": "Preserve independent GT-Pro/general andindividual-display priority;GP-50 needs readable1.1.0 parameter manual,analog assignment scope andexact controller wiring",
+    "active_inventory_changed": false
   }
 }
