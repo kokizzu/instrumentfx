@@ -148020,5 +148020,38 @@
     "ir_followup": "Current original PDFs still unsupported;Choptones own-pack.preset/.wav workflow lead not manufacturer format/limit verification.",
     "next": "Manufacturer IRimport slot/length/rate/format limits,current GuideH census,qualified offers;independent queues retained.",
     "active_inventory_changed": false
+  },
+  "fender_shopee_reconciliation_20261104": {
+    "checked": "2026-11-04",
+    "offers": [
+      {
+        "shop": "16879370",
+        "item": "21195037830",
+        "seller": "Seven Stereo Music & Audio Store",
+        "region": "Kota Bandung",
+        "ask_idr": 33585000,
+        "access": "Direct opened,four-day cache;search older3month snapshot retained.",
+        "qualified_new_or_used": false
+      },
+      {
+        "shop": "1408254222",
+        "item": "27020240400",
+        "seller": "SEVEN STEREO Malang",
+        "region": "Kota Malang",
+        "ask_idr": 33585000,
+        "access": "Four-week indexed snapshot;direct open fails.",
+        "qualified_new_or_used": false
+      }
+    ],
+    "unknown": [
+      "condition",
+      "variant",
+      "bundle/accessories",
+      "stock",
+      "warranty/import region",
+      "checkout total"
+    ],
+    "next": "Continue accessible LCD-first manufacturer gaps;do not repeatedly treat cached delivery wording as live stock.",
+    "active_inventory_changed": false
   }
 }
