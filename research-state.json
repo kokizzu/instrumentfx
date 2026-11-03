@@ -144330,5 +144330,32 @@
       "Qualified Indonesian used/new hardware"
     ],
     "next": "Continue no-treadle inventory and requested individual-display priorities; keep general GP-200JR -> Prime -> GE300 queue independent."
+  },
+  "pandora_mini_category_census_20261103": {
+    "model": "Korg PANDORA mini",
+    "source": "https://cdn.korg.com/us/support/download/files/5ab0d5134486ee0d26e427ea48263a24.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27PANDORAmini_OM_EFGS1.pdf&response-content-type=application%2Fpdf%3B",
+    "pages": "English27,34–41",
+    "counts": {
+      "DYNA": 22,
+      "AMP": 31,
+      "CAB": 23,
+      "MOD": 46,
+      "DLY": 25,
+      "REV": 10
+    },
+    "named_total": 157,
+    "headline_reconciliation": "157 named selections plus separately documented noise reducer =158; derived accounting, not unique algorithms",
+    "distinctions": [
+      "AC SIM vs pickup conversion",
+      "SYNTH single-note; OSC0–7 base/8–15 portamento",
+      "Intelligent harmony excludes chords"
+    ],
+    "editor_sources": [
+      "https://www.korg.com/us/support/download/software/0/313/1464/",
+      "https://www.korg.com/us/support/download/software/0/313/1465/"
+    ],
+    "editor_limit": "Detail pages do not publish OS minima; packaged instructions not downloaded",
+    "status": "Partial outside active counts; no hardware test",
+    "next": "Qualified exact Shopee hardware and remaining platform/loading/USB evidence; continue separate-screen priorities independently."
   }
 }

@@ -923,6 +923,25 @@ Checked **2026-11-03**. Distinct from PANDORA stomp and PX-series. **Partial lea
 
 Remaining: category census, acoustic/synth distinctions, IR/NAM/capture support, USB audio, editor requirements, factory allocation and qualified exact used/new Shopee hardware. Unknown is not No. No software installed or device operated. The no-EXP result does not remove this model from broader discovery scope.
 
+### PANDORA mini — original category census and synth scope
+
+Checked **2026-11-03**, [own manual, English pp27,34–41][PM-M]. Original named-table count, not installed hardware verification.
+
+| Category | Count / basis |
+|---|---|
+| DYNA | **22** dynamics/pickup entries |
+| AMP | **31**, including bass preamp/tone entries and SYNTH |
+| CAB | **23** guitar/bass cabinet choices |
+| MOD | **46**, including pitch, harmony and filters |
+| DLY | **25**: five families × five feedback variants |
+| REV | **10** |
+
+The six tables total **157**; counting the separately documented noise reducer yields **158**, reconciling the headline arithmetically. This does not certify158 distinct underlying algorithms.
+
+DYNA **AC SIM** is separate from SGL>HUM/HUM>SGL pickup conversion. AMP **SYNTH** works on single notes, not chords; OSC0–7 are base choices and8–15 add portamento. Intelligent harmony also excludes chords. These are choices within blocks, not additional simultaneous blocks.
+
+The two manufacturer [Windows](https://www.korg.com/us/support/download/software/0/313/1464/) / [Mac](https://www.korg.com/us/support/download/software/0/313/1465/) editor detail pages call the package1.1.0 but publish no OS minima in the retrieved text. No package downloaded to inspect bundled instructions; current OS compatibility remains unresolved. Partial status and no-analog-EXP result unchanged.
+
 [PM-P]: https://www.korg.com/us/products/effects/pandoramini/page_3.php
 [PM-M]: https://cdn.korg.com/us/support/download/files/5ab0d5134486ee0d26e427ea48263a24.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27PANDORAmini_OM_EFGS1.pdf&response-content-type=application%2Fpdf%3B
 [PM-S]: https://www.korg.com/us/support/download/product/0/313/
