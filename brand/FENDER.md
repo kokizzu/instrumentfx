@@ -593,3 +593,15 @@ Checked **2026-11-03**, manufacturer **Model Guide firmware1.4,printedp88**, [or
 **Virtual Capo** explicitly provides **polyphonic ±12-semitone transposition**. Higher **Resolution** improves polyphony while compromising natural transients; faster **Tracking** also trades transient behavior for lower latency. Blend mixes shifted and dry audio. No numerical latency or synth-note polyphony follows from this description.
 
 This supplements the older pitch inventory; current GuideH remains inaccessible. Current installed behavior and simultaneous DSP capacity are unverified. No download or device test.
+
+### Tone Master Pro — feedback generator and pitch-block dry paths
+
+Checked **2026-11-04** in the manufacturer **Model Guide firmware1.4, printed pp85–87**, [original document reproduction](https://www.scribd.com/document/830997091/OM-2274900000-Tone-Master-Pro-Model-Guide-EN). Cover,contents and Fender imprint identify this revision; generated host descriptions are excluded. Current GuideH remains reader-inaccessible, so current1.8 equivalence and installed behavior are unverified.
+
+| Field | Historical algorithm distinction / qualification |
+|---|---|
+| Processing / Feedback Generator | **Firmware1.4 guide p86:** simulated feedback swells work at low volume or with headphones. **Attack** sets onset speed, **Level** sets effect/dry balance and **Type** selects the emphasized harmonic interval. This is generated feedback processing, not proof of a general instrument-tone engine or synth-input polyphony. |
+| Pitch / delayed harmony and bypass trails | **Firmware1.4 guide pp85–86:** Chromatic and Diatonic provide Delay,Feedback,Tap Division andSpillover. Spillover retains delay trails after **effect bypass**; it does not independently establish preset-change or global-volume coverage. Their single-note recommendation is not an explicit universal chord prohibition. |
+| Pitch / pedal dry-path distinction | **Firmware1.4 guide p87:** Pedal Shifter removes dry audio; Position moves from unison to the selected interval and can use expression or a parameter-change switch. **Pedal Detune** instead blends detuned and dry sound,with Shallow/Deep modes. Neither description certifies input-note polyphony. |
+
+The GH MUSIC STORE Shopee item71552895/40320736069 still exposes the older Rp41.360.000,two-month cache;no price orstock update is claimed. Existing offer qualifications remain. No download,device operation orsignal measurement;current algorithms,exact concurrency andprimary NAM announcement remain unresolved.

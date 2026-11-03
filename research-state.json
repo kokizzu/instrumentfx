@@ -147468,5 +147468,28 @@
     ],
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "tmp_feedback_pitch_scope_20261104": {
+    "model": "Fender Tone Master Pro",
+    "checked": "2026-11-04",
+    "canonical": "brand/FENDER.md#tone-master-pro--feedback-generator-and-pitch-block-dry-paths",
+    "sources": [
+      "https://www.scribd.com/document/830997091/OM-2274900000-Tone-Master-Pro-Model-Guide-EN",
+      "https://www.fmicassets.com/Damroot/Original/10146/OM_2274900000_Tone-Master-Pro-Model-Guide-H_EN.pdf",
+      "https://shopee.co.id/FENDER-Tone-Master-Pro-Multi-effects-Guitar-Processor-Efek-Gitar-i.71552895.40320736069"
+    ],
+    "revision": "Manufacturer Model Guide firmware1.4 pp85–87,mirror original text;currentGuideH unsupported document/pdf",
+    "finding": "FeedbackGenerator low-volume/headphone use;pitch delay trails scope;PedalShifter dry removed versus PedalDetune blend",
+    "offer": "Existing Rp41360000 two-month cache unchanged;not live stock",
+    "remaining": [
+      "Current GuideH algorithm controls",
+      "Synth/poly pitch note handling",
+      "Actual tracking and concurrency",
+      "Primary NAM announcement/release evidence",
+      "Global EXP coverage",
+      "Qualified stock"
+    ],
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }
