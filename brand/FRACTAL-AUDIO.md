@@ -171,6 +171,19 @@ Original specifications: 283×233×88 mm (axes not explicitly labeled), 3 kg; fo
 
 The manufacturer separately identifies original mini displays as **36×12.5 mm**, versus Mark II 50×17.5 mm; these are width/height, not diagonals. [Current manufacturer comparison](https://www.fractalaudio.com/fc-controllers/). No qualified exact-original Shopee Indonesia hardware offer was found in the indexed search on 2026-11-01; new/used IDR prices remain unknown. Display diagonal, color/touch classification, complete rotary/button census and host-specific volume position/range, bypass, headphones, tails and looper coverage remain unverified. Do not transfer Mark II firmware or prices.
 
+### FC-6 original — panel inventory, label behavior and power priority
+
+Checked **2026-11-03**, [manufacturer manual v2.1,May2021,printed pp3–4,7,30–31](https://www.fractalaudio.com/downloads/manuals/FC-X/FC6%2B12-Owners-Manual.pdf). Original revision; not MarkII certification.
+
+| Field | Revision-qualified evidence |
+|---|---|
+| Controls / complete textual inventory | **0 rotary controls /6 footswitches /0 separate panel buttons** in the complete front/rear inventory. The guide explicitly applies the illustrated FC-12 panel description to FC-6 with fewer switches and narrower body. Host editing knobs/buttons are not FC hardware. No visual census claimed. |
+| Display / labels and preset navigation | Mini LCDs can show the destination preset/scene name. FC-6 factory tutorial Layout7 has preset−1/+1 and Scenes1–3;Layout8 exposes effects,Tap/Tuner and Reveal Hold. These are historical host-loaded layouts,not guaranteed installed settings or extra switches. |
+| Power / adapter-plug precedence | Inserting an adapter plug disables FASLINKII power **even when that adapter has no mains connection**. The existing9V versus9–12V documentation discrepancy remains;this finding doesnot choose a voltage or certify MarkII hardware. |
+| Expression / mirroring boundary | Mirroring synchronizes layouts,switches and displays,**not connected pedals/external switches**:assignments address a specific FC number andjack. It doesnot duplicate expression sources or prove global audio-volume coverage. |
+
+No device,adapter orpedal operation. Diagonal,color/touch,qualified Shopee hardware andhost-specific volume coverage remain unresolved. Controller stays outside active processor counts.
+
 ## FC-12 original — controller
 
 Checked 2026-11-01. **Partial controller profile; outside active audio-processor counts.** Twelve footswitches each have an LCD label above them; mini LCDs are 128×32, separate from the 2×20 transflective main LCD and colored LED rings. Tap/hold functions are independently assignable; eight layouts plus Master Layout Menu are control pages, not audio presets. Original body: 512×233×88 mm (axes unlabeled), 5 kg; exceeds preferred 200×140 mm footprint.
