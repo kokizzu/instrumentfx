@@ -51,6 +51,7 @@ Canonical root-level brand document. New research is added here, not to dated fi
 - [G6](#g6)
 - [G7.1ut](#g71ut)
 - [G11](#g11)
+- [GFX-1 — partial discovery lead](#gfx-1--partial-discovery-lead)
 - [GFX-3](#gfx-3)
 - [GFX-4](#gfx-4)
 - [GFX-5](#gfx-5)
@@ -5068,6 +5069,23 @@ Checked **2026-11-01**. The [original Handy Guitar Lab for G11 manual](https://z
 | Firmware / historical IR display recovery | **December 28, 2020 V1.4 notice:** IRs could appear EMPTY while data remained in memory. The documented update restored visibility; user-imported locations were renamed “IR_71”, with manual renaming available. This is historical recovery behavior, not a current 2.10 defect, universal recovery guarantee or replacement for the V2 slot map. | [Dated manufacturer notice](https://zoomcorp.com/en/gb/news/g11_update/) |
 
 No app or firmware downloaded, IR transferred, update performed or hardware operated.
+
+## GFX-1 — partial discovery lead
+
+Checked **2026-11-04**; outside active inventory, not fully verified or owner-confirmed. Exact [manufacturer operation manual](https://zoomcorp.com/media/documents/E_GFX1.pdf), footer **GFX-1 - 5000-1**,40PDF pages; no firmware applicability stated. Printed pages20–23,27,37 inspected as text.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression | FP01/FP02 at CONTROL IN; patch programming selects volume or effect control. Volume applies when no pedal-icon effect is selected. Not a universal volume override. |
+| Footprint / mass | **268W×117D×55H mm;1kg without batteries**. Width exceeds200mm preference. |
+| Memory / processing | **40 editable factory-filled patches**,10banks×4; **34 types,8modules,max9effects**. Combined effects explain why effect and module counts differ; complete category census pending. |
+| Screen / I/O | Two-digit seven-segment **LED**,notLCD. Mono instrument input; shared stereo line/headphone output; CONTROL IN. Exact connector sizes and complete visual/control census pending. |
+| Power | Specified **9VDC center-negative300mA AD-0006** supply; fourAA alkaline,approximately24h. Adapter capacity is not measured draw. |
+| Creative / instrument | **ACOUSTIC** converts electric-guitar tone; MOD/PITCH includes pitch shifting, Ring Mod and Slow Attack. Synth tracking/polyphony unverified. |
+
+No exact **Shopee Indonesia hardware offer** established. The [Thai GFX-1 item57738747/19161435824](https://shopee.co.th/ZOOM-GFX-1-GUITAR-EFFECTS-PROCESSOR-i.57738747.19161435824) is a three-week search cache showing sold-out status and฿3,070; not Indonesian availability or an IDR ask. No currency conversion, condition inference or stock confirmation.
+
+Remaining: complete ports and separate rotary/footswitch/button counts, toe support, category census, minimum/maximum volume and position recall, bypass/headphone/tail/loop coverage, editor/import capabilities and exact Indonesian condition/bundle/warranty offers. No download or device operation. Dedicated single-function exclusions and existing402-model membership remain unchanged.
 
 ## GFX-3
 

@@ -148585,5 +148585,23 @@
     "finding": "Regional page43vs48cabs and30minvs30sec; retain original-manual baseline and versioned50IR capacity. Battery dash is not explicit No.",
     "next": "Resume fresh exact Shopee brand/series discovery after the independent JR -> Prime -> original GE300 pass; preserve root GT-Pro cursor and LCD-first/expression queues. Current GE300 library, memory fill, display, NAM and qualified-stock gaps remain.",
     "active_inventory_changed": false
+  },
+  "gfx1_partial_discovery_20261104": {
+    "canonical": "brand/ZOOM.md#gfx-1--partial-discovery-lead",
+    "manufacturer_manual": "https://zoomcorp.com/media/documents/E_GFX1.pdf",
+    "revision": "GFX-1 - 5000-1;40PDFpages; printed20–23,27,37 text read; no firmware revision",
+    "status": "Partial lead outside active inventory; not owner-confirmed",
+    "expression": "FP01/FP02 conditional patch volume; no pedal-icon effects prerequisite, not universal override",
+    "footprint": "268W117D55Hmm fails preferred width; shared line/headphones",
+    "shopee_indonesia": "No exact qualified hardware item established",
+    "foreign_offer": {
+      "url": "https://shopee.co.th/ZOOM-GFX-1-GUITAR-EFFECTS-PROCESSOR-i.57738747.19161435824",
+      "access": "Three-week search cache",
+      "ask_thb": 3070,
+      "stock": "sold out",
+      "qualification": "Not Indonesia/IDR; no conversion or verified condition"
+    },
+    "next": "Complete controls, categories, ports, output coverage, software/imports and exact Indonesia offers before admission; continue fresh discovery without changing independent LCD-first, expression and GT-Pro queues.",
+    "active_inventory_changed": false
   }
 }

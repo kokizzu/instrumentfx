@@ -36,6 +36,10 @@ def brand_names(state):
         assert re.fullmatch(r'brand/[A-Z0-9-]+\.md',name) and name not in reserved and not name.startswith(('ALL-','SINGLE-')), 'Not a root brand document: '+name
     return sorted(names,key=key)
 
+def selected_outputs(result, names):
+    assert set(names) <= set(result), 'Unknown sort scope'
+    return {name: result[name] for name in names} if names else result
+
 def outputs():
     state=json.loads((ROOT/'research-state.json').read_text())
     result={n:transform((ROOT/n).read_text()) for n in brand_names(state)}
@@ -69,6 +73,14 @@ def test_navigation():
         pass
     else:
         raise AssertionError('Non-root paths must be rejected')
+    assert selected_outputs({'brand/ZOOM.md':'z','brand/GFI-SYSTEM.md':'g'},['brand/ZOOM.md']) == {'brand/ZOOM.md':'z'}
+    assert selected_outputs({'brand/ZOOM.md':'z'},[]) == {'brand/ZOOM.md':'z'}
+    try:
+        selected_outputs({'brand/ZOOM.md':'z'},['../bad'])
+    except AssertionError:
+        pass
+    else:
+        raise AssertionError('Unknown scope accepted')
     print('PASS: natural model order and section-scoped source references survive reordering')
 
 def verify():
@@ -87,7 +99,7 @@ if mode=='sync':
     assert git('symbolic-ref','refs/remotes/origin/HEAD')=='refs/remotes/origin/main'
 elif mode=='plan':
     rows=[]
-    for name,new in outputs().items():
+    for name,new in selected_outputs(outputs(), sys.argv[2:]).items():
         old=(ROOT/name).read_text()
         if old!=new:
             rows.append({'path':name,'before_sha256':hashlib.sha256(old.encode()).hexdigest(),'after_sha256':hashlib.sha256(new.encode()).hexdigest(),'sections':len(sections(old)[1])})
@@ -97,11 +109,18 @@ elif mode=='plan':
 elif mode=='apply':
     plan=json.loads(PLAN.read_text());assert git('rev-parse','HEAD')==plan['head']
     result=outputs()
+    if sys.argv[2:]:
+        assert {row['path'] for row in plan['files']} <= set(sys.argv[2:]) <= set(result), 'Scope differs from plan'
     for row in plan['files']:
         path=ROOT/row['path'];assert hashlib.sha256(path.read_bytes()).hexdigest()==row['before_sha256']
         assert hashlib.sha256(result[row['path']].encode()).hexdigest()==row['after_sha256']
     for row in plan['files']:(ROOT/row['path']).write_text(result[row['path']])
-    verify()
+    if sys.argv[2:]:
+        for name,new in selected_outputs(outputs(), sys.argv[2:]).items():
+            assert (ROOT/name).read_text() == new, 'Not sorted: '+name
+        print('PASS: selected brand sorting is idempotent')
+    else:
+        verify()
 elif mode=='test':test_navigation()
 elif mode=='verify':verify()
 elif mode=='commit':

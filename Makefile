@@ -2398,3 +2398,10 @@ expression-audit-stage-darkglass:
 	python3 scripts/expression_audit_darkglass.py stage
 expression-audit-commit-darkglass:
 	python3 scripts/expression_audit_darkglass.py commit
+
+.PHONY: brand-sort-plan-zoom brand-sort-apply-zoom
+brand-sort-plan-zoom:
+	python3 scripts/brand_sort.py plan brand/ZOOM.md
+
+brand-sort-apply-zoom:
+	python3 scripts/brand_sort.py apply brand/ZOOM.md
