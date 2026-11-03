@@ -1439,6 +1439,9 @@ Official Japanese PDFs failed to load or exceeded the retrieval limit; the mirro
 | Buttons |**23** separate front buttons: 15 module, six menu (DISPLAY/GLB-EQ/CTRL/SYSTEM/SAVE/EXP), two page arrows. SELECT push and rear power switch are separate |
 | Display |**5-inch TFT color GUI**, color corroborated by original rendered panel; pixel resolution and touch support unknown |
 | Body |**410×201×62 mm; 3 kg**, unit dimensions, original specifications; large footprint |
+| I/O / global output EQ | Original [manual,p63](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf),checked2026-11-03: **separate Headphone,Output andXLR EQ**,each switchable independently ofpresets. Three bands each select **40Hz–16kHz**,gain **−10…+10dB**;low cut Off/1–800Hz,high cut Off/1–20kHz. This is system EQ,not a global expression-volume assignment orproof ofevery-source attenuation. |
+| I/O / independent output trim and pan | Same original guide,p65: jack OUTPUT andXLR each have **Level0–100,default100**,attenuation-only trim; **PanL100–Center–R100**,defaultCenter. Headphones are not a third pair inthis output-control chapter. No analog-pedal mapping orcurrent5.1.4 equivalence inferred. |
+| I/O / dry and processed output modes | Samep65: each main output pair selects **Dry/Effect,Effect/Dry,Dry/Dry,Effect/Effect(default)**;the first term isleft,the second right. Dry routes instrument input around signal processing;Effect carries processed input. This doesnot establish a powered-off bypass,USB playback routing,orwhether separate global EQ affects Dry. |
 | Power |**DC9V,3A,center-negative**, supplied adapter specified. Operating battery and USB-bus-power support unknown; USB data does not establish power capability |
 
 Numbered original panel and rear descriptions (printed pp3–5) were read; PDF page6 was rendered and visually inspected locally. Counts include master knobs, not only parameter knobs. [M]

@@ -143867,5 +143867,17 @@
     "finding": "Bypass,knob andexpression changes do not trigger unsaved asterisk; stereo persists through mono models, but L/Mono-only output orRig Width0 makes mono.",
     "boundary": "Saved5.2 original text; no device operation,automatic-save orall-NAM stereo certification",
     "next": "Continue LCD-first research;general GP200JR→Prime→GE300 sequence retained;deferred M-VAVE wiring does not block others"
+  },
+  "ge300_global_output_routing_20261103": {
+    "checked": "2026-11-03",
+    "source": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf",
+    "printed_pages": [
+      63,
+      65
+    ],
+    "revision": "Savedoriginal2019/V1.1.0 examples;not current5.1.4 certification",
+    "finding": "Independent headphone/jack/XLR global EQ;independent main-pair0–100attenuation andpan;fourleft/right dry/effected modes",
+    "remaining": "Dry-globalEQinteraction,EXPmapping andoutputcoverage,currentfirmware andqualifiedliveShopeestock",
+    "next": "General sequence returns toGP200JR;LCD-first andno-treadle priorities remain independent;defer individual source failures"
   }
 }
