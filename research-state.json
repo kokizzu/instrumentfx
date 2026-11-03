@@ -126897,7 +126897,7 @@
     "status": "partial",
     "category": "EXPRESSION-VOLUME.md",
     "checked": "2026-10-28",
-    "current": "RP360 original effects census",
+    "current": "RP360 global-expression coverage and current USB/editor support; original effects census completed",
     "finding": "Official2.2.0 manual lists LEVEL;dated user reports describe missing menu target without version orstaff resolution.",
     "next": [
       "Ampero Mini/Nano Cortex across-preset volume assignment remains unverified; manufacturer confirmation or readable exact-revision evidence needed",
@@ -146428,5 +146428,23 @@
     "qualification": "FX parameter ranges,not recording specifications;laterMonoPitch±24 change separate;current installed behavior andDetune note handling untested.",
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "rp360_usb_bypass_scope_20261103": {
+    "model": "DigiTech RP360 non-XP",
+    "source": "https://manualmachine.com/digitech/rp360/1256376-user-manual/",
+    "revision": "Original shared RP360/RP360XP owner manual,printed7,25–26",
+    "verified": [
+      "USB two channels each direction",
+      "Bypass sends dry guitar toUSB recording;computerUSB playback notheard",
+      "HandMaster/PresetLevel applies toall outputs;notproof ofglobalEXPtarget"
+    ],
+    "remaining": [
+      "USB stream bit depth/currenthost support",
+      "Global expression override andheld-position recall",
+      "Pedal bypass/headphone/AUX/tail/loop coverage",
+      "Qualified non-XP Shopee hardware"
+    ],
+    "active_count_unchanged": 402,
+    "independent_general_queue_preserved": true
   }
 }

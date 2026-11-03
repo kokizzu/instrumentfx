@@ -733,3 +733,5 @@ POD 2.0 [original controller and MIDI follow-up](brand/LINE6.md#pod-20--original
 VP4 [modifier limits and switch priority](brand/FRACTAL-AUDIO.md#vp4--modifier-capacity-channel-sharing-and-switch-priority): 16 per preset, shared across channels; Auto-Engage overrides normal effect on/off switching. Target-specific modifier ranges are separate from global volume endpoints.
 
 AM4 [switch-jack allocation](brand/FRACTAL-AUDIO.md#am4--switch-jack-allocation-and-automatic-pad-recall): a dual switch occupies both pedal jacks. Independent expression/toe wiring still requires verification; automatic input-pad reset is unrelated to pedal-position recall.
+
+RP360 [USB/bypass qualification](brand/DIGITECH.md#rp360--usb-stream-count-bypass-playback-and-master-level-scope): USB is2×2; bypass records dry guitar but silences computer playback. Hand Master affects all outputs; external-pedal coverage and global targeting remain unverified. Partial lead stays outside active counts.

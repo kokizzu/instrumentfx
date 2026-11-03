@@ -1100,6 +1100,16 @@ Original manual census and global-expression qualifications remain intact. Remai
 
 Checked2026-10-19. [Own18-0838V-A manual, printed pp2,4,10,20](https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP55-Manual-18-0838V-A.pdf): Control In accepts passive mono volume orTS expression;TRS unsupported. No resistance value established;RP360/RP150 values are not transferred. Volume operates only withWah andWhammy disabled. Up/Down switches increment/decrement presets;both together bypass,then either restores last preset. Bypass provides clean unprocessed tone,but text doesnot establish pedal attenuation there. Position,min/max,headphone attenuation andtails/looper coverage remain unknown. SharedTRS audio output supports phones;its stereo wiring is separate fromTS Control In. Cabinet modeling being global doesnot make volume unconditional. Existingmanual/product dimension conflict retained;no hardware test,stock refresh ordownloads.
 
+### RP360 — USB stream count, bypass playback and master-level scope
+
+Checked **2026-11-03** in the [manufacturer shared RP360/RP360XP manual reproduction](https://manualmachine.com/digitech/rp360/1256376-user-manual/), printed pp7,25–26; original cover and section numbering match the previously identified document.
+
+- **USB audio: two channels to the computer and two from it**, not four per direction. This resolves the earlier stream-count unknown; stream bit depth and current host support remain unverified.
+- **Preset Bypass** removes preset effects and passes dry guitar to outputs, including USB recording. **Computer USB playback is not heard in bypass**. The manual says other functions are unavailable; this is not an explicit test of pedal attenuation, tails or every AUX/loop route. PRESET/STOMP mode enters via FS1+2; BANK mode uses the active preset switch.
+- **Master Level** changes all presets equally; the manual explicitly applies Master and Preset Level to all outputs. This is hand-level control, not proof that external expression can target Master globally. Preset Level must be saved.
+
+Historical documentation only; no device test, downloads or changes to active membership. Exact non-XP hardware offers, global expression override, held-position recall and route-specific pedal coverage remain open.
+
 ## RP360XP
 
 Expression-equipped guitar processor;not RP360. Checked 2026-10-17. Past-product status does not establish retailer stock. Bass suitability unclassified.
