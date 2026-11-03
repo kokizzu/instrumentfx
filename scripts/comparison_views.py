@@ -29,10 +29,10 @@ def tables(text, strict=False, source="comparison evidence"):
     lines = text.splitlines()
     context = ''
     i = 0
-    while i < len(lines)-1:
+    while i < len(lines):
         if lines[i].startswith('#'):
             context = lines[i].lstrip('# ').strip()
-        if lines[i].startswith('|') and re.fullmatch(r'\|[\s:|\-]+\|', lines[i+1]):
+        if i+1 < len(lines) and lines[i].startswith('|') and re.fullmatch(r'\|[\s:|\-]+\|', lines[i+1]):
             headers = [c.strip() for c in lines[i].strip('|').split('|')]
             i += 2
             rows = []
@@ -48,6 +48,11 @@ def tables(text, strict=False, source="comparison evidence"):
                 i += 1
             yield headers, rows, context
         else:
+            if strict:
+                assert not lines[i].startswith('|'), (
+                    f"{source}: orphan table row {i+1}; missing header/separator "
+                    "or an interrupted evidence table. Repair before rebuilding."
+                )
             i += 1
 
 def aliases(brand, model):
@@ -997,11 +1002,26 @@ def test_field_extraction():
             assert 'BRAND.md#model' in str(error) and 'row 3' in str(error)
         else:
             raise AssertionError('Malformed canonical evidence row was silently discarded')
+    # A blank line ends a Markdown table; later pipe rows must not vanish silently.
+    for malformed in (
+        '| Field | Finding |\n|---|---|\n| Power | 9V |\n\n| Expression | Global volume unknown |',
+        '| Field | Finding |\n| Power | 9V |',
+        '| Expression | Global volume unknown |',
+    ):
+        try:
+            list(tables(malformed, strict=True, source='BRAND.md#model'))
+        except AssertionError as error:
+            assert 'BRAND.md#model' in str(error) and 'orphan table row' in str(error)
+        else:
+            raise AssertionError('Orphan canonical evidence row was silently discarded')
     valid = '| Field | Finding | Evidence |\n|---|---|---|\n| Power | 9V | Manufacturer |'
     assert list(tables(valid, strict=True))[0][1] == [['Power', '9V', 'Manufacturer']]
     # Legacy archive parsing retains its previous permissive behavior.
-    assert list(tables(malformed))[0][1] == []
-    print('PASS: malformed canonical rows fail explicitly; valid and legacy rows retain their behavior.')
+    assert list(tables('| Field | Finding | Evidence |\n|---|---|---|\n| Power | 9V |'))[0][1] == []
+    assert list(tables(malformed)) == []
+    separated = valid + '\n\n### Other evidence\n\n' + valid
+    assert len(list(tables(separated, strict=True))) == 2
+    print('PASS: malformed and orphan canonical rows fail explicitly; valid separate tables and legacy parsing retain their behavior.')
     test_evidence_owners()
     fixture = {'consolidation_and_price_findings': [
         {'verification_kind':'complete-source-body-v1', 'destination':'BRAND.md#model', 'source':'effects/findings/original.md'},

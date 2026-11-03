@@ -145568,5 +145568,17 @@
     ],
     "next": "Defer unresolvedNGS6allocationuntilversion-qualifiedsource;continue othercompact/separate-screenrecords andqualifiedhardware. Preserve independent queues.",
     "inventory_change": false
+  },
+  "comparison_orphan_row_guard_20261103": {
+    "status": "Implemented with failing-then-passing regression; current catalogue checked with strict parsing.",
+    "scope": "Canonical evidence tables reject detached pipe rows, missing header separators and terminal orphan rows instead of silently dropping findings; permissive legacy parsing retained.",
+    "validation": [
+      "make comparison-test-extraction",
+      "make comparison-verify",
+      "make research-verify",
+      "make brand-sort-test"
+    ],
+    "inventory_unchanged": 402,
+    "continuation": "Continue unresolved manufacturer and exact Shopee hardware evidence in existing independent queues; this parser guard does not resolve model verification gaps."
   }
 }
