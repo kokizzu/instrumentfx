@@ -147635,5 +147635,43 @@
     "additional_creative_records": 46,
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "gp200jr_shopee_scope_20261104": {
+    "checked": "2026-11-04",
+    "canonical": "brand/VALETON.md#gp-200jr--separate-idr-observations",
+    "offers": [
+      {
+        "shop": "77199574",
+        "item": "41952160226",
+        "seller": "D-Tuned Guitars",
+        "region": "Kab.Sleman",
+        "idr": 4150000,
+        "condition": "Unverified",
+        "stock": "Habis in cached search/direct bodies",
+        "access": "Search two months/direct five months;not live"
+      },
+      {
+        "shop": "304940515",
+        "item": "23057376701",
+        "seller": "SCI Music Center",
+        "region": "KotaTangerangSelatan",
+        "idr": 4980000,
+        "condition": "Unverified",
+        "stock": "Unknown;relative delivery not stock proof",
+        "bundle": "Title says unit plus bonusIR/presets;contents/license/adapter unknown",
+        "access": "Search two months/direct last month;not live"
+      }
+    ],
+    "rejected_price": {
+      "shop": "1788635181",
+      "item": "51069660759",
+      "seller": "garvil-shop",
+      "idr": 559000,
+      "reason": "Two variations;selected contents unknown;direct inaccessible;mixedGP200/JR title",
+      "classification": "Not accepted ashardware quote;not certified accessory/fraud"
+    },
+    "technical_recheck": "Manufacturer JR product/current regionalNAMnotice retain existing facts;full-sizeGP200FAQ/firmware not transferred",
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }
