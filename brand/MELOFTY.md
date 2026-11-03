@@ -303,6 +303,17 @@ Checked **2026-11-03**. [Manufacturer German V1.7.4 manual, PDFpp19,30](https://
 
 The [identified importer’s exact AXOM MAX page](https://shop.warwick.de/en/effect-pedals-multi-effects-processorsmelofty-axom-max-hybrid-audio-processor), retrieved today, advertises **50+ synth sounds without a MIDI pickup** and **70+ instrument models**, with organ, saxophone, violin, flute and Asian-instrument examples. These are **importer claims and instrument families**, not manufacturer-verified algorithm names or a fresh installed-library census. Its separate vocal-instrument transformation claim likewise does not establish polyphonic voice tracking, simultaneous availability or MIDI-note routing. No electric-to-acoustic algorithm is established by these examples.
 
-MFIM hardware capture, cabinet IRs and NAM import remain distinct from DeepSynth. This is now cross-linked as a partial creative lead, **outside active counts and the35-record catalogue index**. No ownership inferred.
+MFIM hardware capture, cabinet IRs and NAM import remain distinct from DeepSynth. This is now cross-linked as a partial creative lead, **outside active counts and the separate existing-catalogue index**. No ownership inferred.
 
 Maker page and English manual remained inaccessible; German panel rendering failed and no in-app browser was available. A targeted Shopee Indonesia search yielded no qualified exact hardware offer. Preserve importer-backed nine mini displays, unresolved technology, existing contradictions and independent queues. No local download/device operation.
+
+
+### AXOM MAX — touchscreen gestures and bank-window behavior
+
+Checked **2026-11-03**, [manufacturer German V1.7.4 manual, PDFp54](https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347). Original system-settings text; no panel rendering or device test.
+
+- **Gesture** selects Vertical or Rotate touchscreen parameter adjustment. This is a touch interaction setting, not rotary-encoder hardware or mini-display touch support.
+- **BANK SWITCH OVER DISPLAY**: Manual leaves the bank-selection window for a held function-switch action to close; Auto closes it after preset selection. This is window dismissal, not automatic timed preset selection or proof of uninterrupted switching.
+- **AMBIENT LIGHT MODE** offers Preset Sync, Pulse Breath and Signal Reactive. Lighting behavior does not establish LCD/OLED technology, screen color or independent mini-screen brightness.
+
+Fresh targeted Shopee Indonesia searches yielded no qualified exact hardware offer; absence from search is not market absence. The physical mini-screen census remains importer-backed and manufacturer technology remains unresolved. Partial lead stays outside active counts. No local download or device operation.
