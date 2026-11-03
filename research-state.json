@@ -145475,5 +145475,25 @@
     ],
     "next": "Defer actual M-VAVE electrical compatibility pending identified-unit specification;continue other requested separate-screen andcompact inventory. Preserve independent queues.",
     "inventory": "Controller outside active audio counts"
+  },
+  "mini_editor_driver_scope_20261103": {
+    "model": "Hotone Ampero Mini MP-50",
+    "checked": "2026-11-03",
+    "sources": [
+      "https://www.hotone.com/support/3",
+      "https://www.hotone.com/products/multi-effects/Ampero%20Mini",
+      "https://www.hotone.jp/brands/hotone/products/ampero-mini"
+    ],
+    "findings": [
+      "Mainindex explicitlyMini2.2→AmperoEditor1.6.0;Japanprocedure insteadnamesAmperoIIeditor",
+      "ExactMini pageslinkASIO5.41.2;generalsupport listsnewer5.74/5.57withoutretrievedmodelcoverage"
+    ],
+    "limits": [
+      "No AmperoII Mini compatibility inferred",
+      "No newestappropriate-driver orOS/CPU certification",
+      "No globalEXP scope closure",
+      "V2.2manual endpointtimedout;earlierevidencepreserved"
+    ],
+    "next": "Defer inaccessible Mini volume-scope source;continue other requested separate-screen/compact inventory andqualified Shopee offers. Preserve independent queues."
   }
 }

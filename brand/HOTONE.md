@@ -990,6 +990,14 @@ AC Sim’s four modes and Acoustic Refiner are tonal processing, separate from a
 
 [OwnV2.2 manual,pp14–21](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf):control settings change with patches;VOLUME lives in CTRL/EXP. The separate GLOBAL section lists I/O,USB Audio,EXP/FS,Display,About/reset. Its general override statement does not document moving VOLUME assignment into GLOBAL. No universal-volume override established;remain **Unknown**,not No. Calibration and socket mode do not resolve assignment scope. No download,installation ordevice test.
 
+### Ampero Mini — editor naming conflict and driver listing scope
+
+Checked **2026-11-03** against manufacturer sites; no software ordriver downloaded.
+
+The [main support index](https://www.hotone.com/support/3) explicitly pairs **Ampero Editor1.6.0 for Mac/Windows with Mini firmware2.2**. The [Japanese exact Mini page](https://www.hotone.jp/brands/hotone/products/ampero-mini) instead says **Ampero II editor** in its firmware procedure. Preserve this naming conflict: use the explicit main-index compatibility statement as the documented software-family basis, not evidence that Ampero II software supports Mini. No update procedure tested.
+
+The [main Mini product page](https://www.hotone.com/products/multi-effects/Ampero%20Mini) and Japanese page name **Generic USB ASIO5.41.2**. The general support index separately lists5.74.0 and5.57.x packages without model compatibility in the retrieved headings. Their presence doesnot certify Mini support,OS/CPU requirements,orwhich driver is latest appropriate for this device. Audio drivers,editors andhardware firmware remain separate version tracks. Global expression-volume assignment remains unverified.
+
 ## Ampero MP-100
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
