@@ -143962,5 +143962,16 @@
     "finding": "EXP edits do not trigger save reminders;series FX loop silent without external connection;Return cannot precede Send;tuner dry bypass/mute and432–447Hz reference qualified.",
     "remaining": "Current firmware equivalence,output coverage,NAM architecture/concurrency andqualifiedstock remain unresolved",
     "general_next": "HeadRush Prime,then MOOER GE300;independent LCD/no-treadle priorities retained"
+  },
+  "prime_auto_assignment_pairing_20261103": {
+    "checked": "2026-11-03",
+    "source": "https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf",
+    "printed_pages": [
+      66
+    ],
+    "finding": "Auto Assign Footswitches controls next-free-switch assignment on model load;Add Cab with Amp couples cab/mic on newamp orampPreset changes,withmanualoverride. Hybrid row orientation separately configurable.",
+    "scope": "Saved5.2manufacturertext;no device operation,globalvolumeassignment or newhardwarecount",
+    "general_next": "MOOER GE300;LCD-first andno-treadle priorities independent",
+    "remaining": "OLEDphysicalspecs,installedlibrary,storageceiling,conditionqualifiedShopeestock andglobalEXPcoverage"
   }
 }
