@@ -667,7 +667,8 @@ Guitar multi-effects; distinct from AX1000G/AX3000G. Checked 2026-10-17; partial
 | Routing / pedal sharing | VOX WAH through RING MOD replace MODULATION; HOLD DELAY through SAMPLE&PLAY replace AMBIENCE. VOLUME stays enabled; pedal on/off state is not stored per program. AUTO WAH and VOX WAH precede DRIVE-AMP. | [Manual pp10,19–21][AX15-M] |
 | Looper / phrase storage | Phrase Trainer clears on exit/power-off; Sample & Play clears on entering Trainer/power-off. Trainer AUX recording temporarily mutes guitar input; playback25–100% without pitch change. Hold/Tap delays reach3s; Sample & Play has threshold-triggered recording and pedal-controlled loop/reverse modes. | [Manual pp11,21][AX15-M] |
 | Factory / user memory | **96=48 protected preset+48 writable user**; user programs initially duplicate the preset data. A/B channels change drive/cab combinations within each program,not the96-slot count. Reverified2026-10-18;supersedes the earlier initial-fill unknown. | [Manual pp3,7,13][AX15-M] |
-| Synth / acoustic | Acoustic simulation confirmed; synth engine unverified. | [Korg product][AX15-P] |
+| Synth / acoustic | **ACOUSTIC** electric-to-acoustic;TALK is vowel filtering. Dedicated synth unverified. [Creative limits](#ax1500g--creative-algorithms-and-shared-block-trade-offs). | [Own E2 manual pp16,19–21][AX15-M] |
+| Pitch / special | **PITCH SHIFTER/PITCH BEND±24semitones**,fine±15cents;OCTAVE warns against chords/low strings. Ring Mod,Hold Delay,Sample&Play separate. | [Own E2 manual pp18–21][AX15-M] |
 | I/O | Mono guitar input; stereo-mini AUX/headphones; L/MONO,R mono-phone outputs; DC input. No USB, MIDI or FX loop in inventory. | [Manual pp6,15][AX15-M] |
 | Power / battery / USB | **9V DC**; current, polarity and battery operation unverified. No USB connector. KA-189 compatible supply rated **9V/600mA**, not device draw. | [Manual p15][AX15-M]; [Korg adapter][AX15-A] |
 | IR / NAM / capture | User IR, native/converted NAM and captures unverified. | Unresolved |
@@ -693,6 +694,15 @@ Checked 2026-10-18.
 | Memory / factory-filled user slots | [Own manual p7][AX15-M] states **user programs initially contain the same data as presets**:48 writable copies plus48 protected presets,96 total. This resolves the earlier initial-user-content unknown. Reload overwrites all user programs and initializes master level, metronome and input level (p14). |
 | Expression / calibration | [Own manual p14][AX15-M]: use a **hand**, not foot. Power on holding **EXIT+PEDAL block select**: PEDAL then MIN. Move fully back, release, WRITE: MAX. Move fully forward, release, WRITE: COMPLT. EXIT cancels; ERROR returns to MIN. No adjustable toe-switch threshold is established by this procedure. |
 | IDR / separate used-title sold-out ask | **Rp600.000; Habis**, [choki music jakarta, shop158819523/item40125338719](https://shopee.co.id/efek-gitar-korg-ax1500g-bekas-i.158819523.40125338719), Kota Jakarta Timur. Title explicitly **bekas**; search/direct reader two-month cache. Relative tomorrow delivery does not override sold-out status. Actual working state, repairs, selected variation, adapter/bundle, warranty, authenticity, shipping/tax and checkout total unverified. Late-arrival compensation up toRp10.000 is not a price discount. Separate historical seller ask, not a completed sale or current used-market range. |
+
+
+### AX1500G — creative algorithms and shared-block trade-offs
+
+Checked **2026-11-03**, [manufacturer E2 manual,printedpp16,18–21][AX15-M];firmware minimum unstated.
+
+**ACOUSTIC** converts electric guitar andincludes compression. **PITCH SHIFTER/PITCH BEND** span±24semitones,fine±15cents;input polyphony isunspecified. **OCTAVE** generates one octave down andwarns against multiple strings andlow notes. **TALK** morphs vowels;**RING MOD** multiplies input by a sine carrier,not proof oftracking synthesis.
+
+Pedal Pitch Bend/Talk/Ring Mod replace MODULATION;therefore cannot coexist with its Pitch Shifter. Hold Delay/Sample&Play replace AMBIENCE. Existing phrase-storage limits remain. These are choices,not all simultaneously available. Tracking quality andinstalled behavior untested. No download/device operation.
 
 <!-- comparison evidence ends -->
 

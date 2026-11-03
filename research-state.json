@@ -145345,6 +145345,15 @@
         "instrument": "A.Sim meansamp simulation,notverified acoustic",
         "qualification": "Mod2 alternatives;originalmanual mirror/OCR limits;notfullfresh audit",
         "evidence_basis": "Retained canonicalmanual evidence,focused pp6,25,28 textrecheck2026-11-03"
+      },
+      {
+        "key": "Korg::AX1500G",
+        "canonical": "brand/KORG.md#ax1500g",
+        "synth": "TALK vowel filtering;dedicatedsynth unverified",
+        "pitch": "PitchShifter/PitchBend±24semitones,fine±15cents;Octavechord/low-note warning",
+        "instrument": "ACOUSTIC electric-to-acoustic",
+        "qualification": "PedalMODchoices replaceMODULATION;HoldDelay/SamplePlay replaceAMBIENCE;notfullfresh audit",
+        "evidence_basis": "ManufacturerexactE2manualpp16,18–21,focused2026-11-03 check"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -145367,12 +145376,17 @@
     "independent_queues_preserved": true,
     "additional_index_presentation": {
       "checked_date": "2026-11-03",
-      "records": 36,
-      "change": "Indexed existing active Stadium XL;not inventory admission orwhole-catalogue reaudit.",
+      "records": 37,
+      "change": "Indexed existingactiveAX1500G;noinventoryadmission orwholecatalogueaudit.",
       "previous": {
         "checked_date": "2026-11-03",
-        "records": 33,
-        "change": "Corrected stale 31-record introduction to 33 and removed blank lines splitting the additional-catalogue Markdown table. No technical claims, ownership, instrument membership or independent queues changed."
+        "records": 36,
+        "change": "Indexed existing active Stadium XL;not inventory admission orwhole-catalogue reaudit.",
+        "previous": {
+          "checked_date": "2026-11-03",
+          "records": 33,
+          "change": "Corrected stale 31-record introduction to 33 and removed blank lines splitting the additional-catalogue Markdown table. No technical claims, ownership, instrument membership or independent queues changed."
+        }
       }
     }
   },
@@ -147117,6 +147131,16 @@
     "finding": "AD24-bit+AF,DA24-bit,44.1kHz;EIAJCP1201/SPDIF separatefromUSBstreamformats. No effective-bit/SNRmeasurement inferred.",
     "retrieval": "2008catalogue readabletext butrendercachemiss;officialgtpro_main.jpg noinspectablepixels. TurboStartTBS230 copyright2005 text inspected;doesnot resolvearchitecturecount.",
     "remaining": "13vs15 counting,otherUSBchannels,visualcontrols,globalFVprecedence,qualified exactShopeeIDR.",
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
+  },
+  "ax1500g_creative_scope_20261103": {
+    "source": "https://cdn.korg.com/us/support/download/files/c0cb472d5281a71103e41fb6563a2ceb.pdf",
+    "revision": "Manufacturer E2,printed16,18–21;firmwareminimumunstated",
+    "finding": "Exactcreativealgorithms/ranges andsharedblocktradeoffs nowindexed.",
+    "offers": "Existing18190367/28842881961 Rp1.5m and158819523/40125338719 Rp600k resurfacedin2monthcachedsoldoutsearch;notnewavailability. Mixedmodel102019323/25663831731 unselectedvariant excludedfromexactAX1500Gprice.",
+    "remaining": "Pitchinputpolyphony,trackingquality,currentbehavior,fullprofile andqualifiedcurrenthardwarestock.",
+    "additional_creative_records": 37,
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
   }
