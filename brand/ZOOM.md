@@ -5256,7 +5256,7 @@ Checked **2026-11-03** in [Zoom’s original operation manual](https://zoomcorp.
 | Expression | Built-in optical treadle;RTM target/range/controller patch-stored. Direct external EXP absent from rear inventory;toe switch unverified. |
 | Controls | Separate rotary/footswitch/button census pending visual corroboration. |
 | Display | Eight-character alphanumeric LED plus two-digit seven-segment LED;not individual footswitch LCDs. Diagonal,color/touch unverified. |
-| Processing | **69 programs:67effects+amp simulator+ZNR**;four effect modules plus amp simulator/ZNR. **English introductionp3:up to nine simultaneous effects**,a different counting basis from module slots. DRIVE,MOD,DLY/REV each22choices;SFX disablesMOD. Complete subtype census pending. |
+| Processing | **69 programs:67effects+amp simulator+ZNR**;four effect modules plus amp simulator/ZNR. **English introductionp3:up to nine simultaneous effects**,a different counting basis from module slots. DRIVE,MOD,DLY/REV each22choices;SFX disablesMOD. Complete named selector census below; nested parameter variants are not extra selector positions. |
 | Memory | **80read/write+160read-only=240 patches**;initial user filling unverified. |
 | Synth / acoustic | Named creative choices now checked below; tracking architecture and note polyphony remain unresolved. |
 | Dimensions / mass | Englishp42 text: **455W×203H×80Dmm;3.6kg**. [Japanese own manualp42](https://zoomcorp.com/media/documents/J_GFX8.pdf): **455W×203D×80Hmm;3.6kg**. Language/extraction axis discrepancy preserved;no usable page image returned,no physical measurement. Width exceeds preference under either reading. |
@@ -5281,6 +5281,20 @@ Checked **2026-11-04**. [Exact hardware search result](https://shopee.co.id/Efek
 - **RING MOD**, **HOLD DLY** and **GATE REV** provide distinct special processing. Shared module choices are not independently simultaneous effects.
 
 The profile remains **partial and outside active counts**. Full category census, controls, factory filling and other unresolved fields above still need verification. No local download or device operation.
+
+### GFX-8 — complete named selector census
+
+Checked **2026-11-04**, [original manufacturer manual, printedpp19–28](https://zoomcorp.com/media/documents/E_GFX8.pdf). Each row follows **1A,1B through11A,11B**.
+
+| Module | Positions | Names in selector order |
+|---|---:|---|
+| DRIVE | 22 | FDR CLN; FDR DRV; MS CRU; MS DRV; BG DRV; PVY DRV; VX CRU; PWR LEAD; V-OD; OVER DRV; V-DIST; DIST; FUZZ; WD METAL; COMP; CMP+CRU; CMP+OD; CMP+DIST; EXT DIST; ACOUSTIC; CUSTOM1; CUSTOM2 |
+| MOD | 22 | CHORUS; CE CHO; VIBRATO; FLANGER; PHASE; TREMOLO; PDL WAH; AUTO WAH; STEP; CRY; PITCH; PDL PIT; RING MOD; SLOW ATK; DELAY; TIMETRIP; BPM DLY; HOLD DLY; TRM+CHO; RING+VIB; CUSTOM1; CUSTOM2 |
+| DLY/REV | 22 | REV HALL; REV ROOM; DLY+HALL; DLY+ROOM; PP DLY; SEAMLESS; CHO+DLY; ECHO; ST CHO; AUTO PAN; PIT+DLY; BEND CHO; JAM PLAY; SAMPLER; AWA+TRM; GATE REV; HPS; TWIN PIT; SMPLHOLD; SYNTH; CUSTOM1; CUSTOM2 |
+
+**66 selector positions**, including custom slots and external distortion. CUSTOM entries recall settings, not extra simultaneous algorithms. EQ P1/P2 are one equalizer. SFX occupies DLY/REV and disables MOD. Adding EQ, amp simulator and ZNR yields69 arithmetically; this is not a manufacturer explanation of its headline count or nine-effect concurrency.
+
+The profile stays partial, outside active counts; control census, initial filling and offer condition remain open. No download or device test.
 
 ## GFX-707
 

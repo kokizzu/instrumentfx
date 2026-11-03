@@ -148215,5 +148215,26 @@
     "finding": "Exact hardware item recovered;creative choices qualified in canonical section andpartial category lead.",
     "next": "Verify complete GFX8 profile andoffer condition beforeinventory admission;defer OutputVP scope pendingnewprimary instructions;preserveLCDpriority/generalqueue.",
     "active_inventory_changed": false
+  },
+  "gfx8_selector_census_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://zoomcorp.com/media/documents/E_GFX8.pdf",
+    "revision": "Original46-page English GFX8 manual;printed19–28",
+    "counts": {
+      "DRIVE": 22,
+      "MOD": 22,
+      "DLY/REV": 22
+    },
+    "scope": "Document selector positions,not simultaneous algorithms orinstalled device inspection;SFX shares DLY/REV anddisablesMOD;customslots retained.",
+    "remaining": [
+      "Physical controls",
+      "Initial user-bank filling",
+      "Condition/stock ofexact Shopeeitem",
+      "Full current-host editor support",
+      "Unresolved axis discrepancy"
+    ],
+    "next": "Finish remaining GFX8 profile fields where primary evidence is accessible;retainLCDpriority andindependentgeneralqueue.",
+    "active_inventory_changed": false,
+    "canonical": "brand/ZOOM.md#gfx-8--complete-named-selector-census"
   }
 }
