@@ -148539,5 +148539,13 @@
     ],
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "ge300_filter_arp_rate_distinction_20261104": {
+    "canonical": "brand/MOOER.md#ge300--synth-topology-and-expression-revision-limits-2026-10-28",
+    "source": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf",
+    "revision": "Original2019 GE300 manual,printed20;not Lite orcurrent installed firmware.",
+    "scope": "Mode-dependent filter control anddistinct arpeggiator speed units/menu;not added algorithms orinput-note polyphony.",
+    "next": "Preserve remaining original GE300 gaps andindependent GP-200JR -> Prime -> GE300/display/expression queues;do not equate parameter scale withpattern count.",
+    "active_inventory_changed": false
   }
 }
