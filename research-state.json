@@ -149336,5 +149336,40 @@
     "limits": "CPU-qualified;installed/introduction versions unresolved. BitReduce displayed20 subtractsfrom24→4bit processing;notconverterresolution. NoAmpPre versusDI speakeremulation distinct.",
     "next": "Pitch16 census alreadyexists;do notduplicate. Continue Reverb79/GraphicEQ18 named-census gaps andfirmware reconciliation,qualified Shopee hardware. Preserve independent queues.",
     "active_inventory_changed": false
+  },
+  "fm9_mkii_geq_count_gap_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 printed3,53;shared FM9 reference",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-mkii-turbo--graphic-eq-count-gap-source-details",
+    "summary_types": 18,
+    "instances": 4,
+    "prose_expansion": [
+      "10-band Constant Q",
+      "10-band Variable Q",
+      "8-band Constant Q",
+      "8-band Variable Q",
+      "7-band Constant Q",
+      "7-band Variable Q",
+      "5-band Constant Q",
+      "5-band Variable Q",
+      "5-band Mark",
+      "5-band Passive",
+      "4-band Passive",
+      "3-band Passive",
+      "3-band Console",
+      "4-band JMPre-1",
+      "7 Band Pedal",
+      "7 Band Bass Pedal"
+    ],
+    "prose_types": 16,
+    "named_census_complete": false,
+    "unverified_lead": {
+      "url": "https://wiki.fractalaudio.com/wiki/index.php?title=EQ-ing",
+      "basis": "Community maintained,not manufacturer-authored;two2/3octave Constant/VariableQentries couldexplain gap;not adoptedasverifiedmodel specs"
+    },
+    "limits": "Summary/prose gap preserved;normalized descriptions not literal menu;installedfirmware unverified.",
+    "next": "Defer missing2GEQnames/Reverb79 census pending exactprimary library evidence;continue other individual-footdisplay model gaps,qualified Shopee hardware,firmware reconciliation. Preserve independent expression/general queues.",
+    "active_inventory_changed": false
   }
 }
