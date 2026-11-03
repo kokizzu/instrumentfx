@@ -145197,6 +145197,15 @@
         "instrument": "AC SIM / Piezo SIM factory SnapTone files",
         "qualification": "Focused factory-file check,manual1.0.3 p38;captured simulator modes distinct from AC Pre1/2 acoustic preamps;current contents untested",
         "evidence_basis": "Manufacturer-authored exact-model firmware1.0.3 manual printed23,38;focused follow-up,not full fresh four-category audit"
+      },
+      {
+        "key": "Sonicake::Pocket Master QME-10",
+        "canonical": "brand/SONICAKE.md#pocket-master-qme-10",
+        "synth": "Dedicated synth unverified;Touch/Auto Wah are filters",
+        "pitch": "Polyphonic Octave/Pitch;Detune±50cents",
+        "instrument": "AC Sim:Standard,Jumbo,Enhanced,Piezo",
+        "qualification": "Focused1.3.0 check;Reverse/Sweep/Analog delay distinctions;1.3.3 AC G retained separately;not current-library certification",
+        "evidence_basis": "Manufacturer firmware1.3.0 manual reproduction English13–19,exact cover/model/revision;officialPDF inaccessible;focused follow-up"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -146016,5 +146025,28 @@
     "deferred": "Nano globalvolume LEVEL discrepancy remains unresolved after current manual/2.2.1 recheck;legacy compatibility paths retained under preservation contract",
     "next": "Continue priority individual-footdisplay and compact expression evidence;fresh exact Shopee hardware discovery;preserve independent GP-200JR -> Prime -> GE300 queue",
     "no_download_install_or_device_operation": true
+  },
+  "pocket_master_creative_scope_20261103": {
+    "checked": "2026-11-03",
+    "model": "Sonicake Pocket Master QME-10",
+    "source": "https://device.report/m/6686c44e51550f9b796bc40f30c83fb882ee167c36095b61c7cd55a6c52639dc",
+    "revision": "Manufacturer firmware1.3.0 manual reproduction English13–19,cover/model/revision identified",
+    "official_pdf_access": "Original retained URLs and alternate manufacturer filename inaccessible;no new download",
+    "pitch": {
+      "Octave": "Polyphonic;down/up octave,dry levels",
+      "Pitch": "Polyphonic;two semitone shifts,wet/dry levels;scale harmony/ranges unspecified",
+      "Detune": "−50 to+50cents"
+    },
+    "acoustic": "AC Sim four modes;previous1.3.3 AC G evidence separate",
+    "special": "Reverse feedback;Sweep filtered repeats;Analog sample-reduced feedback,not standalone bitcrusher",
+    "remaining": [
+      "Dedicated synthesis",
+      "Current installed-library equivalence",
+      "Pitch shift numeric limits and scale awareness",
+      "Measured tracking/latency",
+      "Condition-qualified exact Shopee stock"
+    ],
+    "next": "Continue separate-footdisplay and compact expression priorities;preserve independent general queue",
+    "inventory_unchanged": 402
   }
 }

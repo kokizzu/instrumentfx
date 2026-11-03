@@ -42,7 +42,7 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **27 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **28 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
@@ -74,6 +74,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 | [Behringer DSP2024P](brand/BEHRINGER.md#dsp2024p) | External-carrier vocoder; onboard synth unverified | Pitch and paired pitch/delay/reverb choices | Acoustic conversion unverified | Vinylizer; sampler; resonator; vocoder requires external carrier/modulator |
 
 | [Valeton GP-5](brand/VALETON.md#gp-5) | Dedicated synth unverified | OCTA; Pitch; Detune in retained1.0.3 census | AC SIM / Piezo SIM factory SnapTone files | [Focused factory-file check](brand/VALETON.md#gp-5--factory-acoustic-simulator-snaptones),manual1.0.3 p38;captured simulator modes distinct from AC Pre1/2 acoustic preamps;current contents untested |
+
+| [Sonicake Pocket Master QME-10](brand/SONICAKE.md#pocket-master-qme-10) | Dedicated synth unverified;Touch/Auto Wah are filters | Polyphonic Octave/Pitch;Detune±50cents | AC Sim:Standard,Jumbo,Enhanced,Piezo | [Focused1.3.0 check](brand/SONICAKE.md#pocket-master--creative-processing-and-pitch-limits);Reverse/Sweep/Analog delay distinctions;1.3.3 AC G retained separately;not current-library certification |
 
 ## What remains uncertain
 

@@ -591,6 +591,20 @@ Checked 2026-10-18 by comparing both manufacturer documents.
 | Editor / desktop OS minima | FAQ specifies **Windows10+ and macOS10.15+**. This narrows the earlier unknown desktop minimum;WindowsARM,Intel/Apple Silicon support andcompatibility ofevery OS release remain unverified. Desktop Manager remains file/preset/IR/tone management andfirmware updating,not the mobile app’s tone editor. [Manufacturer FAQ,checked2026-11-03](https://www.sonicake.com/products/pocket-master);no build-specific requirements table. |
 | Software / Windows NAM import recommendation | For import timeouts,the FAQ recommends **one file at a time**,and **Intel9th-generation-or-newer CPU with Windows10+**. CPU wording is a recommendation,not a published universal installation minimum or proof that AMD/older systems cannot work. It doesnot certify every NAM architecture orconversion success. [Manufacturer FAQ,checked2026-11-03](https://www.sonicake.com/products/pocket-master);no build-specific requirements table. |
 
+
+### Pocket Master — creative processing and pitch limits
+
+Checked **2026-11-03** in [manufacturer firmware1.3.0 manual reproduction,English pp13–19](https://device.report/m/6686c44e51550f9b796bc40f30c83fb882ee167c36095b61c7cd55a6c52639dc). Cover,model,revision andEnglish section match the retained manual;official PDF URLs were inaccessible. Original document text only.
+
+| Field | Capability / limitation |
+|---|---|
+| Synth / tracking distinction (manual1.3.0) | Dedicated synthesis remains **unverified**. Touch Wah follows playing intensity;Auto Wah cycles a filter. Neither establishes an oscillator/instrument engine. |
+| Pitch / individual algorithms (manual1.3.0) | **Octave** explicitly polyphonic,with−1/+1 octave anddry levels. **Pitch** explicitly polyphonic,withlow/high semitone shifts andseparate shifted/dry levels;scale-aware harmony andnumeric shift limits unverified. **Detune:−50 to+50cents**,withwet/dry controls. |
+| Acoustic / simulator modes (manual1.3.0) | **AC Sim:Standard,Jumbo,Enhanced,Piezo**,withBody,Top andVolume. This is acoustic simulation,not an acoustic amp orIR. Retain separately the previously documented1.3.3 AC G addition;equivalence isunverified. |
+| Processing / special-delay boundary (manual1.3.0) | **Reverse** uses reversed feedback;**Sweep** filters repeats withdepth/rate controls;**Analog** describes sample-reduced feedback. These do not establish reversed dry audio,a standalone bitcrusher orgranular synthesis. |
+
+Manual availability doesnot establish measured tracking quality,latency,installed contents orarbitrary simultaneous combinations. Nine-slot routing anddated category/release conflicts remain qualified above. No local download ordevice operation.
+
 <!-- comparison evidence ends -->
 
 ### Preserved original Pocket Master finding
