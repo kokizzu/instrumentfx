@@ -148793,5 +148793,20 @@
     "remaining": "Algorithm census, manufacturer mini-display technology, external global volume and qualified exact Shopee offers.",
     "next": "Continue accessible requested display-priority gaps; preserve independent general/expression and GT-Pro queues.",
     "active_inventory_changed": false
+  },
+  "stadium_xl_network_update_conflict_20261104": {
+    "checked_date": "2026-11-04",
+    "canonical": "brand/LINE6.md#stadium-xl--network-transports-and-update-source-conflict",
+    "sources": [
+      "https://manuals.line6.com/en/helix-stadium/live/wifi-bluetooth-and-ethernet-connectivity",
+      "https://line6.com/software/index.html?hardware=Helix&os=All&submit_form=set",
+      "https://manuals.line6.com/en/helix-stadium/live/helix-stadium-maintenance"
+    ],
+    "revision": "Live firmware1.4 manual; landing footerRevE1.4.1; current download notice separately",
+    "finding": "Dual-band Wi-Fi protocols; USB-A-only Ethernet; Bluetooth receive/mixer scope. Manual USB-required update note conflicts with direct Wi-Fi recommendation.",
+    "limits": "No adapter chipset, power budget, Bluetooth editing/MIDI/transmit or universal expression attenuation established.",
+    "market": "Existing exact Denpasar53707848703/Gianyar42029627291 resurfaced; cached stock/condition not resolved.",
+    "next": "Continue LCD-priority unresolved hardware/current-library and exact offer gaps; preserve expression/general and GT-Pro queues.",
+    "active_inventory_changed": false
   }
 }
