@@ -145831,5 +145831,23 @@
     "limits": "Route selection does not establish all-source master/EXP3 attenuation,polyphonic synth tracking oradditional physical inputs. Current-firmware behavior untested.",
     "next": "Manufacturer/visual mini-screen count/technology,qualified Shopee hardware andglobal EXP3 coverage remain prioritized;independent queues preserved.",
     "inventory_changed": false
+  },
+  "fm3_mkii_electrical_limits_20261103": {
+    "model": "Fractal Audio FM3 MKII Turbo",
+    "checked": "2026-11-03",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+    "revision": "Own7.x manual,cover names Standard andMarkII Turbo;PDFp145",
+    "input": {
+      "instrument": "1MΩ,max+16dBu",
+      "input2": "balancedTRS,1MΩ,max+20dBu"
+    },
+    "output": {
+      "out1": "balancedXLR,600Ω,max+20dBu;nominal−10dBV/+4dBu separate",
+      "out2": "unbalancedHumbuster,600Ω,max+20dBu",
+      "headphones": "quarter-inchstereo,35Ωsourceimpedance;notloadrecommendation"
+    },
+    "limits": "Headphone power/load requirements,actual levels,globalEXP endpoints/recall/all-route coverage andinstalled firmware remain unverified. No electrical/device test ordownload.",
+    "next": "Requested display processors retain priority;FM3 mini-screen diagonal/technology details,current qualified Shopee stock andglobal-volume gaps remain. Independent general queue preserved.",
+    "inventory_changed": false
   }
 }
