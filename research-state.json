@@ -144037,5 +144037,13 @@
     "status": "partial lead; outside active counts",
     "remaining": "Manufacturer mini-screen count/technology; exact Indonesia hardware; BPM bounds/retention; full model verification",
     "next": "Continue requested individual-display processor gaps; defer inaccessible English manual and unchanged market gaps."
+  },
+  "fm3_compressor_census_20261103": {
+    "model": "Fractal Audio FM3 MKII Turbo",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 pp27–29",
+    "finding": "19 named compressor types reconciled; generic Econo- wording not an extra twentieth choice. Two FM3 instances CPU-limited. Lookahead0–2ms delays wet/dry; instrument/line detector optimization distinct from physical I/O.",
+    "remaining": "Other category censuses,current installed firmware13 equivalence,global volume endpoints/recall/bypass andexact hardware stock remain unresolved.",
+    "next": "Continue requested individual-display models andindependent general research queue."
   }
 }
