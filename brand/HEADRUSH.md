@@ -711,6 +711,16 @@ The article does not enumerate a complete system-image backup, global-setting/ca
 
 The HOLY MUSIC Shopee item945642322/52161712736 still exposes the same three-month cached **Rp22.789.000, Dengan Voucher** offer. This is not a refreshed price, confirmed new condition or current stock.
 
+### Prime — setlist-scoped search and FAQ slot terminology
+
+Checked **2026-11-04**, [exact Prime manufacturer FAQ,Presets/Rigs/Setlists sections](https://support.headrushfx.com/en/support/solutions/articles/69000834532-headrush-prime-frequently-asked-questions),firmware revision unstated.
+
+- Opening the rig list andusing its magnifying glass searches **only the active setlist when a setlist is in use**. A search miss there doesnot prove the rig is absent from the device orstorage is full. Setlists organize ordered rig collections;they are not independently established duplicate copies of all rig assets.
+- The FAQ’s Rig definition says **14 “footswitch slots”**. This conflicts with its own **12 physical footswitches** andthe exact5.2 guide’s14 processing blocks. Retain the phrase as a source terminology error,not evidence oftwo hidden switches orOLEDs. Processing,physical controls andrig capacity remain separate counts.
+- Block presets save one effect’s settings for reuse inother rigs andcan be selected inScenes. They are not whole-rig storage locations oradditional processing instances;current numerical capacity remains unresolved.
+
+Current category/rig-storage limits,screen resolution andqualified stock remain open. No reset,search onhardware,file transfer ordevice operation performed. Continue originalGE300 next in the independent general queue;LCD-first priority andother source gaps remain preserved.
+
 ## VX5
 
 <!-- comparison evidence begins -->
