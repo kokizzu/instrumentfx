@@ -13,6 +13,7 @@ Canonical root-level brand document. New research is added here, not to dated fi
 - [707II](#707ii)
 - [708II](#708ii)
 - [1201](#1201)
+- [4040 — partial discovery lead](#4040--partial-discovery-lead)
 - [A1 FOUR](#a1-four)
 - [A1X FOUR](#a1x-four)
 - [A2](#a2)
@@ -585,6 +586,23 @@ Checked2026-10-18 against own manual1201-5000,printed pp4,6–7. Documentation o
 Checked 2026-10-28 against the complete [manufacturer manual 1201-5000](https://zoomcorp.com/media/documents/E_1201.pdf), pp3–7. **No analog EXP input and no dedicated headphones** in the exhaustive connector inventory; FS01 is effects on/off only. Ordinary passive guitar pickups require a preamp or compact effect. **482W×115Dmm** exceeds the preferred width. **No onboard footswitches** for preset down/up; programs use rotary selectors and BANK switch. Physical OUTPUT level is not expression assignment.
 
 Direct-expression position, range and recall are inapplicable to the documented socket inventory. Preserve the earlier effects-off/MIX-WET contradiction; it does not establish unconditional dry bypass, tail muting or digital volume control. No newly qualified market offer or hardware test; historical sold-out asking price remains separately qualified. Existing active model, not a new admission.
+
+## 4040 — partial discovery lead
+
+Checked **2026-11-04** in the [original manufacturer operation manual](https://zoomcorp.com/media/documents/E_4040.pdf),29PDF pages,printed1,5,10,13,25–28; revision/date not established. **Outside active counts; not owner-confirmed or fully verified.**
+
+| Field | Evidence / remaining qualification |
+|---|---|
+| Expression | Two built-in treadles, VOL and EXP; roles can be swapped. VOL sits between EQ and MODULATION; minimum is patch-stored. Not a no-treadle candidate or universal final-output mute. External analog assignment/toe support unknown. |
+| Processing / memory | Advertised25types/up to6effects; specification says5modules. The menu census below reconciles25 choices; the six-effects counting basis remains qualified. **40User+40Preset=80locations**; current used-unit filling unknown. |
+| Controls / display | Text-derived **1 rear volume rotary,6footswitches** (bank±,1–4); separate-button census pending. **Two-character seven-segment LED**,not LCD; diagonal unknown. |
+| Ports / headphones | Mono instrument input,mono send/return,stereo L/R outputs,6.35mm stereo phones,MANUAL footswitch input,amp-control output,MIDI OUT,DCin. Rear volume adjusts mains/phones;specified headphone power35mW into32Ω. MANUAL accepts FS01,not documented analog EXP. |
+| Body / power | **500W×210D×63H mm;2kg;9VDC/200mA**,AD0003/AD0004. Polarity,battery andUSB power unverified. Exceeds preferred footprint. |
+| MIDI / live | PC/CC transmission;implementation lists no recognized incoming data. Manual mode toggles modules but cannot select patches. Bypass,tail andpedal-headphone coverage unresolved. |
+
+**Complete named type census (printed pp10,13):** PRE8—Clean1/2,Overdrive1/2,Distortion1/2,Lead,Metal; EQ4—Equalizer,Amp Simulator,Auto Wah,Pedal Wah; MODULATION8—Pedal Pitch,Pitch Shifter,Flanger,Phaser,Tremolo,Step,Slow Attack,Chorus; DELAY2—Mono,Pingpong; REVERB3—Hall,Room,Delay. **8+4+8+2+3=25 selector choices**, not25 simultaneous effects. One type is selected per module. Synth/acoustic simulation and input-note polyphony remain unverified; Amp Simulator does not establish an acoustic simulator.
+
+No qualified exact **Shopee Indonesia hardware offer** found; separate used/new IDR,condition,bundle,stock,warranty anddelivered total unknown. Exact creative parameters,IR/NAM/capture,editor platforms,looper/drums andremaining electrical/control fields require verification. No sibling specifications,downloads ordevice operations.
 
 ## A1 FOUR
 

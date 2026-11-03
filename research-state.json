@@ -25642,6 +25642,25 @@
         "canonical_record": "brand/TC-ELECTRONIC.md#plethora-x5",
         "qualification": "Not fully verified; offer identity, condition and stock remain qualified by the original observation and canonical record. Do not add another model."
       }
+    },
+    {
+      "model": "Zoom 4040",
+      "checked_date": "2026-11-04",
+      "status": "partial manufacturer-manual discovery outside active counts",
+      "canonical_record": "brand/ZOOM.md#4040--partial-discovery-lead",
+      "source": "https://zoomcorp.com/media/documents/E_4040.pdf",
+      "revision": "Undated operation manual;29PDF pages,printed1,5,10,13,25–28",
+      "category_census": {
+        "PRE": 8,
+        "EQ": 4,
+        "MODULATION": 8,
+        "DELAY": 2,
+        "REVERB": 3,
+        "total_choices": 25
+      },
+      "market": "No qualified exact Shopee Indonesia hardware offer found; no IDR inferred.",
+      "next": "Verify separate buttons,toe,exact creative parameters and volume endpoints/coverage;retain5modules versus up-to6effects distinction;verify software/import/practice fields and exact Indonesian hardware. Preserve priority separate-switch-display and independent queues.",
+      "active_inventory_changed": false
     }
   ],
   "inventory_by_brand": {
