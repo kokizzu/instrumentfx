@@ -143891,5 +143891,18 @@
     "finding": "Stand-In references existing layout switch;target edits propagate. TwoFCcontrollers permit33mainfoot switches;externaljacks separate;secondFCneedsadapter.",
     "scope": "OriginalFM9profile only;notnewonboardLCDs orglobalanalogvolumecertification",
     "next": "Continue exactLCD/no-treadlegaps andShopee inventory;defer unchanged source failures"
+  },
+  "ampero_mini_looper_switch_context_20261103": {
+    "checked": "2026-11-03",
+    "source": "https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf",
+    "printed_pages": [
+      7,
+      8,
+      9
+    ],
+    "finding": "DefaultLooperFS1record/play andFS2stop/clear reuse normalpatchnavigation;onscreenpatcharrows separate. Complete looperassignment choices retained.",
+    "remaining": "Globalvolumeoverride,factoryVOLUMEdefaults,heldposition andheadphone/bypass/tail/loopcoverage unverified",
+    "next": "Defer unchanged global-scope source gap;continueLCDfirst andremainingno-treadleinventory",
+    "downloads": false
   }
 }
