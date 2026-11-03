@@ -106,6 +106,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [MELOFTY AXOM MAX](brand/MELOFTY.md#axom-max--creative-category-evidence-and-qualified-instrument-examples) is a **partial lead outside active counts and the49-record index**. The maker manual separates Inst.Sim and Synth; importer claims50+ synth sounds and70+ instrument models, with organ/saxophone/violin/flute examples. These are not verified algorithm names or input-note polyphony. Pitch/special algorithms and electric-to-acoustic simulation remain unverified; MFIM/IR/NAM are separate workflows.
 
+[Zoom GFX-8](brand/ZOOM.md#gfx-8--exact-shopee-item-and-creative-processing) is a **partial lead outside active counts and the49-record index**: SYNTH, pitch/harmony, ACOUSTIC and special processing are documented; synth architecture and note polyphony remain unverified.
+
 ## What remains uncertain
 
 - Actual tracking quality, latency and installed firmware were not measured for these records.

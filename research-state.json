@@ -148194,5 +148194,26 @@
     ],
     "next": "Continue requested display models where primary evidence is accessible;preserve independent GP-200JR -> Prime -> GE300 queue.",
     "active_inventory_changed": false
+  },
+  "gfx8_exact_item_creative_20261104": {
+    "checked": "2026-11-04",
+    "manual": "https://zoomcorp.com/media/documents/E_GFX8.pdf",
+    "revision": "Original GFX8 owner manual,printed20,23–24,27–28;no installed firmware test",
+    "offer": {
+      "url": "https://shopee.co.id/Efek-Gitar-Zoom-Gfx8-i.194831039.45418107210",
+      "shop": "194831039",
+      "item": "45418107210",
+      "seller": "SAEF GDI",
+      "region": "Kab. Jepara",
+      "idr": 2100000,
+      "access": "Three-day search index;clean/query direct cache miss",
+      "condition": "unknown",
+      "stock": "unverified",
+      "variant": "unverified;display_model_id331530131027 is search metadata",
+      "bundle_warranty_checkout": "unknown"
+    },
+    "finding": "Exact hardware item recovered;creative choices qualified in canonical section andpartial category lead.",
+    "next": "Verify complete GFX8 profile andoffer condition beforeinventory admission;defer OutputVP scope pendingnewprimary instructions;preserveLCDpriority/generalqueue.",
+    "active_inventory_changed": false
   }
 }

@@ -5258,7 +5258,7 @@ Checked **2026-11-03** in [Zoom’s original operation manual](https://zoomcorp.
 | Display | Eight-character alphanumeric LED plus two-digit seven-segment LED;not individual footswitch LCDs. Diagonal,color/touch unverified. |
 | Processing | **69 programs:67effects+amp simulator+ZNR**;four effect modules plus amp simulator/ZNR. **English introductionp3:up to nine simultaneous effects**,a different counting basis from module slots. DRIVE,MOD,DLY/REV each22choices;SFX disablesMOD. Complete subtype census pending. |
 | Memory | **80read/write+160read-only=240 patches**;initial user filling unverified. |
-| Synth / acoustic | Dedicated algorithms unresolved. |
+| Synth / acoustic | Named creative choices now checked below; tracking architecture and note polyphony remain unresolved. |
 | Dimensions / mass | Englishp42 text: **455W×203H×80Dmm;3.6kg**. [Japanese own manualp42](https://zoomcorp.com/media/documents/J_GFX8.pdf): **455W×203D×80Hmm;3.6kg**. Language/extraction axis discrepancy preserved;no usable page image returned,no physical measurement. Width exceeds preference under either reading. |
 | Power | **12V AC,AD-0008**;rear drawing500mA,corroborated by Japanese specificationp42 as **AC12V500mA**. AC isnot9VDC;DCpolarity inapplicable. Battery/USB operation unresolved. |
 | I/O | Mono guitar input;stereo miniAUX;mono send/return;two mono lineouts;stereo phones;MIDIIN/OUT,OUT selectableTHRU. AUX bypasses effects. |
@@ -5268,6 +5268,19 @@ Checked **2026-11-03** in [Zoom’s original operation manual](https://zoomcorp.
 | Used / new IDR | Both unverified. Rp2.100.000 appears only in a search-category snippet;direct category omitsGFX-8 andexposes noexact item. Not an accepted price,stock orcondition observation. |
 
 [Current search-category lead](https://shopee.co.id/search?category=11043572&keyword=efek+gitar+zoom&page=3&sortBy=relevancy&subcategory=11043648): search reports three-day Octobercache,direct reader month-old Septemberbody. Earlier failed searches andexcluded adapters/sensors remain in the ledger. Not proof ofmarket absence. No local download,software installation,visual panel inspection ordevice operation.
+
+### GFX-8 — exact Shopee item and creative processing
+
+Checked **2026-11-04**. [Exact hardware search result](https://shopee.co.id/Efek-Gitar-Zoom-Gfx8-i.194831039.45418107210) identifies **SAEF GDI, shop194831039/item45418107210, Kab. Jepara, Rp2.100.000**. The three-day index shows November2–5 delivery; both clean and indexed-query URL reopening returned cache miss. This resolves the earlier category-only item identity, not live stock. Search parameter display_model_id331530131027 is not a verified selected bundle. Condition, working state, variation, adapter, accessories, warranty, voucher eligibility, shipping/tax and checkout total remain unknown. Late-delivery compensation up toRp10.000 is not deducted. Separate verified new/used prices remain unknown; no seller contact or image inspection.
+
+[Original manufacturer manual, printedpp20,23–24,27–28](https://zoomcorp.com/media/documents/E_GFX8.pdf), exact GFX-8 edition:
+
+- **SYNTH** creates synthesizer-like sound; architecture and note polyphony remain unverified. **SMPLHOLD** is picking-synchronized sample-and-hold, not evidence of another tracking synth.
+- **PITCH** spans−12…+12 and+24 semitones; **PDL PIT**, **HPS** and **TWIN PIT** are separate choices. Two shifters or mono/stereo modes do not establish chord tracking.
+- **ACOUSTIC** explicitly converts electric-guitar sound to acoustic-guitar sound, with TOP/BODY controls. **SLOW ATK** instead shapes onset.
+- **RING MOD**, **HOLD DLY** and **GATE REV** provide distinct special processing. Shared module choices are not independently simultaneous effects.
+
+The profile remains **partial and outside active counts**. Full category census, controls, factory filling and other unresolved fields above still need verification. No local download or device operation.
 
 ## GFX-707
 
