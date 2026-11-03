@@ -145699,5 +145699,22 @@
     "market_recheck": "Existing Vin31173885/29362925028 search11.928m remains;directcachemiss. No newqualifiedusedoffer.",
     "next": "Return to priorityindividualdisplay andremaining no-treadle manufacturer/qualifiedhardware gaps;preserve GP-200JR→Prime→GE300 independentqueue andcurrentGE300inventory/IR/NAM/power/memory questions.",
     "inventory_changed": false
+  },
+  "pedalboard_current_hosts_oled_labels_20261103": {
+    "checked": "2026-11-03",
+    "model": "HeadRush::Pedalboard",
+    "sources": [
+      "https://support.headrushfx.com/en/support/solutions/articles/69000804015-headrush-windows-11-compatibility",
+      "https://support.headrushfx.com/en/support/solutions/articles/69000872801-headrush-macos-26-tahoe-compatibility",
+      "https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/Pedalboard%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20Pedalboard%20Firmware%20Update%20v2.7.pdf"
+    ],
+    "findings": [
+      "Windows11 supported withaudio driver1.0.6;ARM/previewexcluded",
+      "TahoeIntel/AppleSilicon supported;updater2.7.0;USBtransfer/record/update scope",
+      "EighteditableStompOLEDlabels distinct fromtwelvephysicalOLEDs;800x400lockimage notLCDpixelproof"
+    ],
+    "qualification": "Officialcompatibility statements,not locallytested;not a fulleditor certification orPrimefirmwaretransfer. Currentupdatedlibrary/userstorage/unsavedlooppersistence andqualifiedhardware remainunresolved. No localdownload,installer,firmware ordeviceoperation.",
+    "inventory_changed": false,
+    "next": "Continue remaining individualdisplay manufacturer fields andqualified Shopee offers;retain independentexpression andGP-200JR→Prime→GE300 queues."
   }
 }
