@@ -5651,8 +5651,8 @@ Checked 2026-10-18. Announced guitar multi-effects; planned early-November launc
 <!-- comparison evidence begins -->
 | Field | Finding / qualification | Evidence |
 |---|---|---|
-| Expression | External FP02M/FS01 CONTROL input; built-in expression/toe status pending full audit. | [Manual][NEU-M] |
-| K/F/B | Two named rotaries (MASTER, CONTROL); four footswitches in rig table. Complete separate-button count unresolved; encoder press counted once, power key separate. Text-derived, not image audit. | [Manual][NEU-M]; [Rig list][NEU-R] |
+| Expression | No built-in treadle or toe switch in the complete documented panel inventory. External FP02M/FS01 CONTROL input; actual third-party wiring unverified. English manual rechecked2026-11-03; visual audit pending. | [Manual][NEU-M] |
+| K/F/B | **2 rotaries /4 footswitches /0 other panel buttons** from the complete English inventory: MASTER, push-CONTROL; FS1–4. Rear POWER button is counted separately; encoder press counted once. Supersedes the earlier incomplete text census; no visual audit. | [Manual][NEU-M]; [Rig list][NEU-R] |
 | Controls / onboard previous-next Rig | English manufacturer manual describes **press1+2 for previous Rig,3+4 for next Rig** onHOME. Individual1–4 select Programs inProgram mode;these are different actions. **MASTER range:MUTE…+6dB,center0dB** applies to the hand knob,not proven external-pedal endpoints. | [Own English manual](https://zoomcorp.com/manuals/neurig-en/),Z2I-5931-01,checked2026-11-01;no hardware test |
 | Display | Two 240×320 touch LCDs. Diagonal and explicit color specification unresolved. | [Manual][NEU-M] |
 | Dimensions / weight | 236.4 W×120.6 D×54.2 H mm;850 g. | [Manual][NEU-M] |
@@ -5724,6 +5724,18 @@ Checked **2026-11-03** in the [manufacturer English manual](https://zoomcorp.com
 | MIDI / Program versus Rig | CC69 values**0–3 selectPrograms1–4** within aRig,viaMIDI IN orUSB,requiringProgramChangeReceive On andmatchingRXchannel. Bank-mode PC uses**bank×10+PC**;Direct uses**bank×128+PC**,addressing200Rigs. Neither creates800 independentRig memories oranalog globalvolume. |
 | Expression / heel-toe meaning | TheRig-level volume setup defines **Min atfull-up heel andMax atfull-down toe**. AutoAssign cancontrol multiplePedal effects inoneRig. Numeric limits,held-position recall,globaloverride andbypass/phone/tail/recorded-loop attenuation remain unverified. |
 | MIDI / clock boundary | Chart doesnot support tempo synchronization;THRU distribution isnot internal clock-following. The documented externalFP02M analog path remains separate fromMIDI. |
+
+### NEURIG — named pedal effects and distinct volume paths
+
+Checked **2026-11-03** in the [manufacturer English Effect List, Preset1.00](https://zoomcorp.com/manuals/neurig-fx-list-en/), **Z2I-5985-01**. Reference inventory, not an installed-firmware test.
+
+| Field | Evidence / qualification |
+|---|---|
+| Categories / named Pedal choices | **17:** Pedal Volume; Black Wah; Chrome Wah; Wah 100; Voice Wah; Pedal Pitch; Pedal Mono Pitch; Pedal Rotary; Pedal Flanger; Pedal Vibe; Pedal Drive; Pedal Phaser; Pedal Delay; Oscillator Echo; Pedal Reverb; Pedal Resonance; Pedal Bit Crusher. Each named row counts once, not simultaneous capacity. |
+| Expression / effect versus Rig volume | Pedal Volume supports a selectable volume curve; **Tool→Volume** is another effect. Both are distinct from the [Rig-menu Input/Output Volume roles](https://zoomcorp.com/manuals/neurig-en/). Their presence does not prove global insertion or assignment across Rigs, numeric endpoints or output coverage. |
+| Processing / pedal-target boundaries | Pedal Delay controls **delay input level**; Pedal Reverb controls **reverb input level**; Oscillator Echo controls delay oscillation. These are effect targets, not all-output volume. Pedal Mono Pitch explicitly targets single notes. |
+
+Complete English top/back inventory supports the revised no-treadle/control census above. Actual FP02M/M-VAVE wiring, held-position recall and global-volume scope remain unverified. No download, software or device operation.
 
 <!-- comparison evidence ends -->
 

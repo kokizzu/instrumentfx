@@ -144513,5 +144513,32 @@
       "Optional EX2/ExpandD10 description not included hardware proof"
     ],
     "next": "Continue LCD-first manufacturer gaps andexact Shopee offers;preserve GP-200JR→Prime→GE300 queue."
+  },
+  "neurig_pedal_and_panel_audit_20261103": {
+    "model": "Zoom NEURIG",
+    "checked": "2026-11-03",
+    "sources": [
+      "https://zoomcorp.com/manuals/neurig-en/",
+      "https://zoomcorp.com/manuals/neurig-fx-list-en/"
+    ],
+    "revisions": "English operationZ2I-5931-01;EffectList Preset1.00 Z2I-5985-01",
+    "control_census": {
+      "rotaries": 2,
+      "footswitches": 4,
+      "other_panel_buttons": 0,
+      "rear_power_button": 1,
+      "basis": "Complete textual top/back inventory;no visual audit"
+    },
+    "built_in_treadle": "None in documented inventory",
+    "pedal_category_count": 17,
+    "volume_scope": "Rig input/output roles,Pedal Volume andTool Volume remain separate;no global override proven",
+    "comparison": "Added existing active model to no-treadle audit;active inventory unchanged",
+    "remaining": [
+      "Numeric pedal range/position recall/output coverage",
+      "FP02M/M-VAVE exact wiring",
+      "Qualified exact Shopee Indonesia offers",
+      "Current software andrelease qualifications"
+    ],
+    "next": "Continue remaining no-treadle inventory andindividual footswitch-display research;preserve GP-200JR→Prime→GE300 queue."
   }
 }
