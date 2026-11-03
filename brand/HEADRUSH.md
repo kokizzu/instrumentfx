@@ -606,6 +606,17 @@ ReValver’s47 includes **25 ON-1 Clean/Crunch/Lead**; its header still says44. 
 IR listing separately shows15 HeadRush families×20files=300 and15 Choptones files;families are not individual files. EQ shows9 names includingBASS EQ,GRAPHIC EQ,10 Freq EQ;their exact mapping tofirmware5.1 Graphic Bass EQ remains unresolved. The600+ marketing figure has a broader,unreconciled scope. No download ordevice test.
 
 
+### Prime — versioned looper overwrite and continuity limits
+
+Checked **2026-11-03** in the previously saved [manufacturer User Guide5.2.0,printedpp49–51](https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf). Complete looper section read;no new download ordevice operation.
+
+- **Insert conflict:** guidep49 says the selected section ofthe **top-most,last-added layer** is overwritten. The [Prime FAQ](https://support.headrushfx.com/en/support/solutions/articles/69000834532-headrush-prime-frequently-asked-questions) instead says allprevious layers. Preserve both;actual installed-version behavior isuntested.
+- **Peel recovery:** holdPeel torestore thelast removed layer **before any further overdub**. This doesnot establish undo ofInsert.
+- **Continuity:** guidep50 explicitly permits rig changes whileusing thelooper andcontinued playback after exiting its screen. This isnot a guarantee ofuninterrupted audio under every rig/DSP condition orpower-cycle retention.
+- **Saved/imported loops:** SaveLoop andLoadLoop aredocumented;USBTransfer accepts.WAV/.MP3 placed in`/LOOPS/`. Export encoding,layer-preserving roundtrip andautomatic persistence remain unverified.
+
+The FAQ-only destructive-edit row above retains its provenance;this revision-specific qualification narrows its applicability. Screen specifications,global EXP coverage,current stock andstorage ceilings remain open.
+
 ## VX5
 
 <!-- comparison evidence begins -->

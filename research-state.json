@@ -145330,5 +145330,23 @@
     ],
     "next": "Continue requested separate-screen processors; AXOM manufacturer mini-screen census/technology and qualified exact Shopee offers remain open. Preserve independent expression, GT-Pro and GP-200JR→Prime→GE300 queues.",
     "inventory": "Partial lead outside active counts"
+  },
+  "prime_looper_revision_conflict_20261103": {
+    "model": "HeadRush Prime",
+    "checked": "2026-11-03",
+    "source": "https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf",
+    "revision": "5.2.0 printed49–51; previously saved extraction",
+    "findings": [
+      "Insert top-most layer in guide versus all layers in FAQ: unresolved source conflict",
+      "Hold Peel restores last removed layer before further overdub",
+      "Rig changes and exit-screen playback documented",
+      "WAV/MP3 loop import through /LOOPS/; Save/Load documented"
+    ],
+    "limits": [
+      "No hardware behavior tested",
+      "No Insert undo or power-cycle retention established",
+      "No export encoding/layer roundtrip certification"
+    ],
+    "next": "Continue requested separate-screen models and exact Shopee offers;retain unresolved Prime OLED specifications,current stock,capacity andglobal expression coverage;preserve independent queues."
   }
 }
