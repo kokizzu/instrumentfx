@@ -148702,5 +148702,14 @@
     "next": "Verify current firmware12 routing and global pedal endpoints,held-position recall,bypass andall-source coverage;preserve exact-revision Shopee uncertainty and independent queues.",
     "active_count_unchanged": 402,
     "usb_mapping": "RecordUSB7/8 chooses Input2 orInput3;USBOutputMapping swaps firsttwo playbackpairs betweenOutput1/2. Remaining diagram-only channels not inferred."
+  },
+  "fm9_original_family_factory_20261104": {
+    "checked_date": "2026-11-04",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-original--family-factory-preset-default-and-version-scope",
+    "source": "https://support.fractalaudio.com/en-US/installing-factory-presets-1410465",
+    "finding": "Manufacturer FM9-family default384in000–383;editable within512capacity. Completefactoryset overwritesABC,notallfouruserbackupbanks.",
+    "scope": "Family support article doesnot distinguishOriginal/Turbo/MKII;original shipping allocation andinstalled used-unit content remain unverified. Existing MKII family finding preserved.",
+    "next": "Synchronize same qualified family evidence topre-MKIITurbo ifstillmissing;continue exact-revision hardware,global volume coverage andindependent queues.",
+    "active_inventory_changed": false
   }
 }
