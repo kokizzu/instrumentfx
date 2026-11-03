@@ -625,6 +625,18 @@ The Synth remains **three-oscillator,monophonic**. Each voice independently sele
 
 Waveform choices are sine,triangle,square,sawtooth,random,white noise,pink noise,or oscillator Off;these are choices per voice,not eight simultaneous voices. Individual oscillators have filtering,pan andlevel;detune is±50cents. This distinguishes generated/noise tones from tracked synthesis andresonant filtering. It doesnot certify tracking quality,latency,current installed firmware orarbitrary simultaneous DSP combinations. No download,device operation oraudio test.
 
+### FM3 MKII Turbo — November looper speed and recording controls
+
+Checked **2026-11-03**, [manufacturer Blocks Guide,November2026,printedpp55–56](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf),which explicitly names FM3. This updates the reference edition beyond the retained June2023 evidence;the shared guide doesnot establish the feature-introduction version orinstalled firmware. Only this model record isupdated here.
+
+| Field | Documented behavior / qualification |
+|---|---|
+| Looper / speed and pitch | The guide reaffirms **stereo,120seconds maximum forFM3**. **Speed FULL/HALF** changes playback;HALF is **one octave lower**,not pitch-preserving time stretch. It doesnot specify a doubled recording capacity atHALF orrecording-quality mode. |
+| Looper / length and record action | **Max Loop Time** sets the recording limit;reaching it invokes **Record 2nd Press** behavior:Overdub,Play orStop. **Loop Quantize** constrains loop length towhole beats. This doesnot establish continuous retiming ofalready-recorded material when tempo changes. |
+| Looper / retained-layer decay | **Overdub Level** attenuates existing material relative tonew overdubs;**0dB** preserves old-layer level,but accumulated layers may clip. Playback andDry Level are separate;output Low/High Cut filters do not alter recorded material. |
+
+Preset-change continuity,power-cycle retention,physical-pedal recall andall-route expression attenuation remain unverified. No audio recorded,device connected orfiles downloaded.
+
 ## FM3 original
 
 Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct from MKII Turbo; not fully verified and no ownership assertion. The earlier discovery heading and complete body follow as historical evidence. Their outside-inventory statements describe pre-admission checkpoints. This admission does not settle hardware variants, market availability or remaining specifications.

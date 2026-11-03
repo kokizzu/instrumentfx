@@ -146210,5 +146210,16 @@
     ],
     "remaining": "Retiming pitch preservation/quality/quantization interval,installed behavior,individual display dimensions,rig capacity,IR andqualified stock unresolved",
     "inventory_changed": false
+  },
+  "fm3_mkii_looper_speed_20261103": {
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026,printed55–56,FM3 explicitly named",
+    "findings": [
+      "Stereo120secondmaximum;HALFplaybackoneoctavelower,notpitchpreserving",
+      "MaxLoopTimereachesRecord2ndPressaction;LoopQuantizewholebeatlength",
+      "OverdubLevel0dBpreservesoldlayersbutaccumulationcanclip;playbackfiltersnonrecording"
+    ],
+    "remaining": "HALF recordingcapacity/qualitybasis,featureintroduction/installedfirmware,preset/powercontinuityanduniversalexpressioncoverageunknown",
+    "inventory_changed": false
   }
 }
