@@ -148749,5 +148749,16 @@
     "qualification": "Not Bluetooth editing,desktop editor,USB-host mode orverified accessory/power/OS matrix. No all-preset volume assignment established.",
     "next": "Seek firmware/app-qualified manufacturer clarification of LEVEL/global volume;inspect original USB matrix toresolve recordingchannel2 without QuadCortex transfer;exact accessory andhost power remain open.",
     "active_inventory_changed": false
+  },
+  "prime_remote_authorization_20261104": {
+    "checked_date": "2026-11-04",
+    "canonical": "brand/HEADRUSH.md#prime--remote-editor-authorization-source-details",
+    "source": "https://cdn.inmusicbrands.com/Software/SGEE/5/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.0.0.pdf",
+    "revision": "5.0.0 §4.22.5 indexed original;full PDF exceeds reader size limit",
+    "finding": "Optional matching PIN/on-device approval;deny future connection attempts;reset previously connected devices;Prime-specific local address.",
+    "remaining": "Defaults,transport encryption,current5.2 equivalence,auxiliary display dimensions,rig ceiling andqualified stock.",
+    "market": "Existing ROCKPIZZ/HOLY/GITARO exact offers resurfaced as three-month snapshots;not new availability.",
+    "next": "Continue requested individual-footdisplay models andindependent GTPro/general/expression queues;no source-gap completion inferred.",
+    "active_inventory_changed": false
   }
 }
