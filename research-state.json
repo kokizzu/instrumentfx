@@ -146636,5 +146636,19 @@
     "limits": "Category availability does not establish algorithm input-note handling, tracking quality, latency, universal simultaneous DSP availability or current installed-firmware equivalence.",
     "next": "Continue LCD-first exact-model evidence and qualified Shopee hardware; retain Prime storage/IR/display gaps, independent GP-200JR -> Prime -> GE300 queue and expression-volume audit.",
     "active_count_unchanged": 402
+  },
+  "tmp_factory_cloud_memory_20261103": {
+    "model": "Fender Tone Master Pro",
+    "checked": "2026-11-03",
+    "source": "https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual",
+    "revision": "Manufacturer firmware1.5 manual, printedp6; exact-model/revision identity already established; original document body only.",
+    "finding": "504 editable My Presets locations initially contain factory duplicates. Separate unnumbered factory collection is protected; edits save to My Presets. Up to100 cloud downloads via Pro Control/Fender Connect are documented separately.",
+    "limits": "Do not sum to604 user slots or infer factory-filled total. Current1.8 equivalence unverified; no app, transfer or device operation.",
+    "deferred": {
+      "source": "https://www.fmicassets.com/Damroot/Original/10146/OM_2274900000_Tone-Master-Pro-Model-Guide-H_EN.pdf",
+      "result": "Reader rejects document/pdf content type; current complete GuideH census remains unresolved. No local download."
+    },
+    "next": "Continue requested separate-footdisplay models and qualified Shopee hardware; preserve general GP-200JR -> Prime -> GE300, GT-Pro cursor and independent expression-volume audit.",
+    "active_count_unchanged": 402
   }
 }
