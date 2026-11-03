@@ -145354,6 +145354,15 @@
         "instrument": "ACOUSTIC electric-to-acoustic",
         "qualification": "PedalMODchoices replaceMODULATION;HoldDelay/SamplePlay replaceAMBIENCE;notfullfresh audit",
         "evidence_basis": "ManufacturerexactE2manualpp16,18–21,focused2026-11-03 check"
+      },
+      {
+        "key": "Korg::AX3000B",
+        "canonical": "brand/KORG.md#ax3000b",
+        "synth": "SYNTH single-note bass synthesis",
+        "pitch": "PitchShifter±24semitones,fine±50cents;OCTAVE single-note",
+        "instrument": "FRETLESS single-note processing;acoustic unverified",
+        "qualification": "PRE/MOD/DELAY shared choices;Tracking10–150ms algorithmcontrol,notmeasuredlatency;notfullfresh audit",
+        "evidence_basis": "ManufacturerexactE1manualpp29–34,37–38,focused2026-11-03 check"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -145376,16 +145385,21 @@
     "independent_queues_preserved": true,
     "additional_index_presentation": {
       "checked_date": "2026-11-03",
-      "records": 37,
-      "change": "Indexed existingactiveAX1500G;noinventoryadmission orwholecatalogueaudit.",
+      "records": 38,
+      "change": "Indexed existingactiveAX3000B;membershipunchanged;focusedcreativecheck.",
       "previous": {
         "checked_date": "2026-11-03",
-        "records": 36,
-        "change": "Indexed existing active Stadium XL;not inventory admission orwhole-catalogue reaudit.",
+        "records": 37,
+        "change": "Indexed existingactiveAX1500G;noinventoryadmission orwholecatalogueaudit.",
         "previous": {
           "checked_date": "2026-11-03",
-          "records": 33,
-          "change": "Corrected stale 31-record introduction to 33 and removed blank lines splitting the additional-catalogue Markdown table. No technical claims, ownership, instrument membership or independent queues changed."
+          "records": 36,
+          "change": "Indexed existing active Stadium XL;not inventory admission orwhole-catalogue reaudit.",
+          "previous": {
+            "checked_date": "2026-11-03",
+            "records": 33,
+            "change": "Corrected stale 31-record introduction to 33 and removed blank lines splitting the additional-catalogue Markdown table. No technical claims, ownership, instrument membership or independent queues changed."
+          }
         }
       }
     }
@@ -147141,6 +147155,16 @@
     "offers": "Existing18190367/28842881961 Rp1.5m and158819523/40125338719 Rp600k resurfacedin2monthcachedsoldoutsearch;notnewavailability. Mixedmodel102019323/25663831731 unselectedvariant excludedfromexactAX1500Gprice.",
     "remaining": "Pitchinputpolyphony,trackingquality,currentbehavior,fullprofile andqualifiedcurrenthardwarestock.",
     "additional_creative_records": 37,
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
+  },
+  "ax3000b_creative_scope_20261103": {
+    "source": "https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf",
+    "revision": "Manufacturer E1,printed29–34,37–38;firmwareminimumunstated",
+    "finding": "Single-noteSYNTH/FRETLESS/OCTAVE;pitchrange/fine/tracking andsharedPRE/MOD/DELAY tradeoffs indexed.",
+    "offer_access": "TargetedexactShopeeAX3000B/bass search yieldednoqualifiedhardware;notmarketabsence.",
+    "remaining": "Pitchinputpolyphony,measuredtracking/latency,currentbehavior andqualifiedcurrenthardwareoffers;existingeditionconflicts preserved.",
+    "additional_creative_records": 38,
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
   }

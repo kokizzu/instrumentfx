@@ -736,7 +736,8 @@ Checked2026-10-18. Bass multi-effects; distinct from AX3000G. Partial record. [K
 | Dimensions / weight | 500×241×72mm W×D×H pedal lowered;100mm raised;3.6kg. |
 | Processing / choices | 72 advertised variations; seven simultaneous including NR, plus external insert. PRE11,drive/amp16,MOD11,DLY11,RVB11. Spec p57 says amp11/cabinet16; chapter p23 says16drive/amp and11cabinets. Named lists pp23–26 support **six drives +ten amps =16**, and **11 cabinets**; with four11-choice effect groups andNR1, total72. Preserve p57 figures as contradictory; use named-list counts. [E1 pp23–26,57][AX3B-M] |
 | Factory / user memory | **96 writable slots (24×4)**. Printed p15 resolves intro ambiguity: banks1–8 contain32 factory sounds, repeated in9–16 and17–24. Thus96 factory-filled writable slots,32 distinct factory sounds; not128 slots. [E1 p15][AX3B-M] |
-| Synth / acoustic | SYNTH models analog-style bass synthesis with envelope filtering; designed for single-note playing, chords may sound muddy. Acoustic simulation unverified. [E1 p30][AX3B-M] |
+| Synth / acoustic | **SYNTH** analog-style bass synthesis with envelope filtering,designed for single notes;**FRETLESS** single-note instrument processing. Acoustic simulation unverified. [Creative trade-offs](#ax3000b--creative-note-handling-and-shared-slots). [E1 pp29–30][AX3B-M] |
+| Pitch / special | **Pitch Shifter±24semitones,fine±50cents;Tracking10–150ms** is an algorithm parameter,not measured round-trip latency. OCTAVE single notes;Ring Mod,Talk Mod,Random Step Filter,Hold/Freez separate. [E1 pp29,33–38][AX3B-M] |
 | I/O | Mono INPUT; mono SEND/RETURN; stereo mini AUX/PHONES; L/MONO andR balanced/unbalanced TRS OUTPUT (each mono); optical S/PDIF16-bit44.1kHz; MIDI IN/OUT;DC9V. |
 | Conversion | AD/DA20-bit;44.1kHz. |
 | Power / battery / USB | **9V DC**; manufacturer includes adapter. Korg’s own regional **KA-189** page explicitly lists **AX3000G/B compatibility** and rates that adapter **9V/600mA**. This is supply capacity, not measured AX3000B consumption or proof of the originally bundled adapter revision. Official distributor lists AX3000B-compatible KA-189 as **center-negative**,100–240VAC50/60Hz input;this is compatible-accessory evidence,not socket-label inspection ororiginal bundle proof. Its **1.0A title/spec versus600mA attribute** conflicts;neither is unitdraw. Barrel,battery andUSBpower remainunverified;sellerbundle unknown. [Distributor listing](https://www.korg-shop.de/en/korg-power-supply-ka-189/KRKA189);[Korg directory confirming MUSIK MEYER](https://www.korg.com/hken/corporate/distributors/). [Manufacturer KA-189 page](https://www.korg.com/de/products/accessories/ka_189/),checked2026-10-18. |
@@ -844,6 +845,15 @@ Checked2026-10-18 against [own E1 manual][AX3B-M], pp47–49,52–54. No transfe
 |---|---|
 | Live / bypass versus mute | E1 printedp21 requires Program Select mode: holdthecurrentlyselected program switch **about0.5s** tobypass alleffects,includingNR;**about1.5s** tomute output. Both activate tuning. These distinct gestures are not evidence oftrue-bypass circuitry orsilent switching toanother program. [Own E1][AX3B-M] |
 | Memory / saved-value indicator | Printedpp7,20: **ORIG** appears whentheeditedparameter equals its stored programvalue. It is a comparison indicator,not an automatic factory restore orundo operation;switching programs orpoweringoff loses unstored edits,p19. [Own E1][AX3B-M] |
+
+### AX3000B — creative note handling and shared slots
+
+Checked **2026-11-03**, [own E1 manual,printedpp29–34,37–38][AX3B-M];firmware minimum unstated.
+
+SYNTH/FRETLESS are designed for single notes andwarn that chords may sound muddy;OCTAVE explicitly works only with single notes. Pitch Shifter spans±24semitones,fine±50cents;**TRACKING10–150ms** favors shorter settings nearunison,longer near±24. This is an adjustable algorithm parameter,not measured device latency orproof ofchord support.
+
+SYNTH/FRETLESS/OCTAVE/Ring Mod share **PRE**. Pitch Shifter/Talk Mod/Random Step Filter/Filtron share **MOD**;Hold Delay/Freez share **DELAY**. Choices within each group cannot run independently together. Talk Mod is vowel processing,Ring Mod uses a sine carrier,andSlow Attack shapes onset;none establishes another synth engine. Acoustic simulation stays unverified. No download/device test.
+
 <!-- comparison evidence ends -->
 
 [AX3B-M]: https://cdn.korg.com/us/support/download/files/19ca0336fc87d09bb65f5ed34a0a4edc.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27AX3000B_E1.pdf&response-content-type=application%2Fpdf%3B
