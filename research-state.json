@@ -144675,5 +144675,21 @@
       "No download ordevice operation"
     ],
     "next": "Continue independent general queue with MOOER GE300;keep individual footswitch displays andcompact global-volume gaps prioritized."
+  },
+  "ge300_stereo_and_patch_level_scope_20261103": {
+    "model": "MOOER GE300",
+    "checked": "2026-11-03",
+    "source": "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html",
+    "findings": [
+      "V4.0.1 upgrades then-existing Delay effects to stereo;later V5.1.0 additions not certified by historical blanket wording",
+      "V5.1.0 Patch Level adjustment distinct from global analog expression-volume assignment",
+      "V5.1.0 SELECT long-press deletes loaded MNRS/IR ondevice"
+    ],
+    "limits": [
+      "Patch Level range,output coverage andrecall not specified",
+      "Deletion undo anddependent-preset handling unknown",
+      "No installed-firmware orhardware test"
+    ],
+    "next": "Continue individual footswitch displays andcompact no-treadle inventory;defer inaccessible source gaps;preserve GP-200JR→Prime→GE300 general queue."
   }
 }
