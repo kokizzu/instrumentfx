@@ -144771,8 +144771,34 @@
           "Poly Sustain; glitch; feedback; shuffled loops"
         ],
         "qualification": "Nine blocks overall, DSP permitting. The 3.80 manual restricts the Feedbacker/poly group to one per path; this is not stated as one per preset."
+      },
+      "BOSS::GT-1000CORE": {
+        "key": "BOSS::GT-1000CORE",
+        "brand_path": "brand/BOSS.md",
+        "heading": "GT-1000CORE",
+        "label": "BOSS GT-1000CORE",
+        "revision": "Parameter Guide eng03, pp10–14,19,21,23–25,27; firmware mapping not established",
+        "sources": [
+          "https://static.roland.com/assets/media/pdf/GT-1000CORE_parameter_eng03_W.pdf",
+          "https://www.scribd.com/document/838781699/GT-1000CORE-parameter-eng03-W"
+        ],
+        "synth": "Dedicated tracking synth unverified. OVERTONE adds harmonics; HUMANIZR vowel processing; RING MOD oscillator modulation; RESO WAH resonant filtering.",
+        "pitch": "PITCH SFT ±24 semitones: MONO mode single-note; other modes input polyphony unverified. OCTAVE MONO versus explicitly polyphonic one-octave-down POLY. HARMONST and PDL BEND require single notes; S-BEND sweeps pitch.",
+        "instrument": "AC.G SIM, SITAR SIM, DEFRETR and DEFRET B; AC RESO processes acoustic-pickup sound, rather than establishing electric-to-acoustic simulation.",
+        "special": "SLICER, SND HOLD (single-note), FEEDBAKR, SLW GEAR; GLITCH in MASTER DELAY.",
+        "limits": "FX1–FX3 share selectable inventory; PEDAL FX and MASTER DELAY are separate blocks. Voice/channel counts do not prove tracking polyphony. Eng03 is a document revision, not proof of latest/installed firmware.",
+        "matrix": [
+          "Dedicated synth unverified; overtone/vowel/filter processing",
+          "OCTAVE POLY down; PITCH SFT; single-note harmony/bend",
+          "AC.G SIM; SITAR SIM; guitar/bass defret",
+          "Slicer; hold; feedback; slow attack; glitch"
+        ],
+        "qualification": "FX1–FX3, PEDAL FX and MASTER DELAY have different roles. Harmonist, Pedal Bend and Sound Hold require single notes; only OCTAVE POLY explicitly establishes polyphonic octave-down.",
+        "owned": true
       }
-    }
+    },
+    "publication_model": "BOSS::GT-1000CORE",
+    "next_model": "Eventide::H90"
   },
   "hxstomp_own_category_census_20261103": {
     "model": "Line 6 HX Stomp",

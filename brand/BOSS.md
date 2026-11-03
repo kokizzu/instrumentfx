@@ -1541,6 +1541,7 @@ Selected 2026-10-28 from the complete dated evidence below; no new hardware test
 | Used IDR | Unknown; no exact condition-verified Indonesian used offer established. |
 | Shopee retail-style IDR | Boss Official Shop, Tangerang Selatan, [341882414 /15035629131](https://shopee.co.id/BOSS-GT-1000CORE-Guitar-Effects-Processor-Pedal-Multi-Efek-i.341882414.15035629131): Rp14.450.000 /Habis in three-month-old snapshot reopened2026-10-28. Crossed Rp17.000.000, advertised15% reduction and unspecified free gift. Condition grade, bundle/adapter, affiliation, warranty, checkout stock and delivered price unconfirmed; late-delivery voucher is not a checkout discount. |
 | Separate non-Shopee IDR asks | GMI Rp14.535.000 available label and older Blibli Rp13.600.000 indexed stock1 retain their original dates/channel limits below; not live Shopee stock or a used/new range. |
+| Synth / pitch / instrument simulation / special | Dedicated tracking synth unverified. OVERTONE adds harmonics; HUMANIZR vowel processing; RING MOD oscillator modulation; RESO WAH resonant filtering. PITCH SFT ±24 semitones: MONO mode single-note; other modes input polyphony unverified. OCTAVE MONO versus explicitly polyphonic one-octave-down POLY. HARMONST and PDL BEND require single notes; S-BEND sweeps pitch. AC.G SIM, SITAR SIM, DEFRETR and DEFRET B; AC RESO processes acoustic-pickup sound, rather than establishing electric-to-acoustic simulation. SLICER, SND HOLD (single-note), FEEDBAKR, SLW GEAR; GLITCH in MASTER DELAY. [Revision and restrictions](#gt-1000core--creative-effects-capability-check-2026-11-03). |
 <!-- comparison evidence ends -->
 
 Consolidated 2026-10-16;technical dates below retained. Partial verification;historical next-model notes are provenance,not the current queue. No legacy source deleted.
@@ -1720,6 +1721,19 @@ Printedp14 reconfirms SYSTEM function sharing without proving SYSTEM override of
 Checked **2026-11-03**, [manufacturer Tone Studio guide,eng05,©2020,pp1–2,6–8,12,14–15](https://static.roland.com/assets/media/pdf/BTS_GT-1000_eng05_W.pdf). Page1 explicitly includes CORE and defines GT-1000 as both models; CORE lacks the larger unit’s Pedalboard function. These are applicable software instructions,not borrowed physical specifications.
 
 The software library limits above are separate from hardware memory. The IR Loader converts supported WAV files into USER1–16;this does not establish processed IR length. Exact4.1.1 equivalence,channel handling,global FV precedence andoutput coverage remain unverified. No downloads,installation,restore ordevice operation.
+
+### GT-1000CORE — creative-effects capability check, 2026-11-03
+
+[Official Parameter Guide eng03](https://static.roland.com/assets/media/pdf/GT-1000CORE_parameter_eng03_W.pdf) returned403; the [manufacturer-authored eng03 body on a mirror](https://www.scribd.com/document/838781699/GT-1000CORE-parameter-eng03-W) supplies pp10–14,19,21,23–25,27. Generated summaries excluded. Document suffix does not certify latest or installed firmware.
+
+| Field | Exact-model creative capability / qualification |
+|---|---|
+| Synth / acoustic creative audit | Dedicated tracking synth unverified. OVERTONE adds harmonics; HUMANIZR vowel processing; RING MOD oscillator modulation; RESO WAH resonant filtering. AC.G SIM, SITAR SIM, DEFRETR and DEFRET B; AC RESO processes acoustic-pickup sound, rather than establishing electric-to-acoustic simulation. |
+| Pitch / category choices | PITCH SFT ±24 semitones: MONO mode single-note; other modes input polyphony unverified. OCTAVE MONO versus explicitly polyphonic one-octave-down POLY. HARMONST and PDL BEND require single notes; S-BEND sweeps pitch. |
+| Special effects / category choices | SLICER, SND HOLD (single-note), FEEDBAKR, SLW GEAR; GLITCH in MASTER DELAY. |
+| Simultaneous processing qualification | FX1–FX3 share selectable inventory; PEDAL FX and MASTER DELAY are separate blocks. Voice/channel counts do not prove tracking polyphony. Eng03 is a document revision, not proof of latest/installed firmware. |
+
+[Four-category comparison](../CREATIVE-EFFECTS.md). Owner-confirmed ownership; no hardware tracking or latency test.
 
 ## GT-Pro
 

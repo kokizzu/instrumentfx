@@ -2366,3 +2366,9 @@ expression-audit-stage-fishman:
 	python3 scripts/expression_audit_poly.py stage-fishman
 expression-audit-commit-fishman:
 	python3 scripts/expression_audit_poly.py commit-fishman
+
+.PHONY: creative-stage creative-commit
+creative-stage:
+	python3 scripts/creative_effects.py stage
+creative-commit:
+	python3 scripts/creative_effects.py commit
