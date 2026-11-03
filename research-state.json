@@ -147574,5 +147574,31 @@
       "Qualified exact Shopee hardware offer"
     ],
     "queue_policy": "Independent general,expression and individual-footdisplay priorities unchanged;source-blocked gaps deferred"
+  },
+  "prime_backup_scope_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://support.headrushfx.com/en/support/solutions/articles/69000835659-headrush-prime-and-core-new-ways-to-back-up-your-unit",
+    "revision": "Manufacturer Prime/Core support article;firmware/update date unstated",
+    "canonical": "brand/HEADRUSH.md#prime--backup-destinations-and-restore-persistence",
+    "findings": [
+      "Cloud uploads are shared with community,including Remote editor upload route",
+      "USB-A Export/Load followed by Save to retain restored rig",
+      "Dropbox separate account authorization with five-minute code"
+    ],
+    "unknown": [
+      "Numerical rig/storage capacity",
+      "Global settings/calibration and full-device-image coverage",
+      "Rig dependency bundling",
+      "USB filesystem compatibility"
+    ],
+    "offer": {
+      "seller": "HOLY MUSIC",
+      "shop": "945642322",
+      "item": "52161712736",
+      "idr": 22789000,
+      "qualification": "Same three-month cached Dengan Voucher offer;not new condition/live stock/checkout verification"
+    },
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }

@@ -440,6 +440,7 @@ Own2.7 cumulative notes,p.4: feedback affects recording/overdub rather than play
 | Blocks / Dry Mic Out boundary | [Prime-specific FAQ](https://support.headrushfx.com/en/support/solutions/articles/69000834532-headrush-prime-frequently-asked-questions),checked **2026-11-03**: Straight Path,Middle Split andImmediate Split can retain **Mic Dry Out** alongside the guitar chain. Its fixed controls include **noise gate,compression,high-pass filter andsimple EQ**,but arbitrary vocal effects cannot be inserted inthis mic path. Thus “dry” doesnot necessarily mean wholly unprocessed;it isnot another14-slot vocal chain. FAQ firmware unstated;current5.2 equivalence andindependent simultaneous-resource limits untested. |
 | Looper / destructive edits andlayer scope | Same [Prime FAQ](https://support.headrushfx.com/en/support/solutions/articles/69000834532-headrush-prime-frequently-asked-questions): **Peel** removes the most recently recorded layer,repeated presses working backward. **Insert punches into a chosen section andoverwrites all previous layers there**,rather than adding a normal overdub. Only **one loop at a time** is documented;50 layers are not50 independently playing loops. Undo/recovery afterInsert,power-cycle retention andcurrent5.2 equivalence remain unverified. No device recording orfile operation performed. |
 | Categories / visible reference census | [Current product-list recount](#prime--visible-reference-list-reconciliation) finds **125 effect rows /124 distinct names**, plus separate amp/cab/mic libraries. ReValver amps **47 names versus44 header**;overdrive **18 versus16**;pitch **8 rows/7 names** because Octaves repeats. This reconciles displayed rows, not installed5.2 content, independent DSP algorithms or concurrency. Earlier header counts remain preserved. |
+| Memory / backup scope | [Manufacturer backup guide](https://support.headrushfx.com/en/support/solutions/articles/69000835659-headrush-prime-and-core-new-ways-to-back-up-your-unit), checked 2026-11-04: Cloud uploads are community-shared. USB-A export/load requires saving the restored rig to the unit; Dropbox is a separate linked-account path. Not proof of a complete device image or numerical capacity. |
 | Memory | FAQ states **50 preloaded factory rigs**; firmware-current installed content and numerical total rig/user storage ceiling unverified. Rigs, block presets, scenes, setlists, loops and captures are distinct objects. MIDI program numbers 1–128 are not proof of only 128 stored rigs. [PR-F, PR-M] |
 | Synth / acoustic | Current Prime list explicitly includes **Hybrid Synth, Electric Piano and DB-33 Organ**; Ambi-Verb is also classified under Synth. **Acoustic Sim** and Acoustic Pre are separate EQ-category entries. Do not equate the acoustic preamp or an IR with the simulator. [PR-P] |
 | Special sound / Sustain mechanism | v3.2 Sustain repeats a microloop; separate from compression and synth tracking. [Exact engine descriptions and dated sources](#prime--sustain-microloop-and-synth-introduction-dates). |
@@ -696,6 +697,18 @@ Checked **2026-11-04** against the manufacturer support articles below. Neither 
 | Used IDR / dated offer recheck | [BANGBONGMUSICBEKASI,1149776042/54402465704](https://shopee.co.id/Headrush-Prime-Guitar-Multi-Effect-Amp-Modelling-Processor-Second-Bekas-i.1149776042.54402465704) repeats **Rp15.400.000,Second/Bekas,Habis**,Kab.Bekasi,in a **last-month search cache**. This preserves the earlier ask;not new availability orseller-condition verification. Adapter,bundle,warranty,shipping/tax andcheckout remain unknown;late-delivery voucher isnot deducted. |
 
 No local download,transfer,calibration ordevice operation. Independent queues and402-model membership remain unchanged;screen specifications,rig capacity,current installed library andqualified stock are still open.
+
+### Prime — backup destinations and restore persistence
+
+Checked **2026-11-04** against [HeadRush’s Prime/Core backup guide](https://support.headrushfx.com/en/support/solutions/articles/69000835659-headrush-prime-and-core-new-ways-to-back-up-your-unit). The page supplies no firmware revision or absolute update date.
+
+- **HeadRush Cloud:** the manufacturer says uploads are immediately shared with the wider community. Uploading through the Remote editor remains a Cloud upload, not a separately established private-backup destination.
+- **USB-A storage:** Browse→Export copies selected files/rigs to the drive. Restore uses Load, followed by saving the rig to the unit. Loading alone is not the documented persistence step.
+- **Dropbox:** requires Wi-Fi, an existing account and a second connected device to complete authorization; its displayed code lasts **five minutes**. This is separate from HeadRush Cloud.
+
+The article does not enumerate a complete system-image backup, global-setting/calibration coverage, dependencies bundled with each rig, supported drive filesystems or a storage ceiling. Existing directional legacy-rig compatibility and asset-relinking qualifications remain. No account linked, files transferred or hardware operated.
+
+The HOLY MUSIC Shopee item945642322/52161712736 still exposes the same three-month cached **Rp22.789.000, Dengan Voucher** offer. This is not a refreshed price, confirmed new condition or current stock.
 
 ## VX5
 
