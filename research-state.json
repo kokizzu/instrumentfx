@@ -144710,5 +144710,34 @@
       "No qualified exact Shopee offer surfaced; not proof of absence"
     ],
     "next": "Continue LCD-first and compact no-treadle inventory; defer inaccessible AXOM MAX primary display evidence and preserve independent GP-200JR→Prime→GE300 queue."
+  },
+  "hxe_filter_wah_volume_names_20261103": {
+    "model": "Line 6 HX Effects",
+    "checked": "2026-11-03",
+    "source": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "revision": "3.80 RevD, printed pp23–24",
+    "counts": {
+      "filter": {
+        "hx": 4,
+        "legacy": 11,
+        "total": 15
+      },
+      "wah": {
+        "hx": 11,
+        "legacy": 0,
+        "total": 11
+      },
+      "volume_pan": {
+        "hx": 5,
+        "legacy": 0,
+        "total": 5
+      }
+    },
+    "method": "Named rows, without doubling mono/stereo variants; existing 274 total unchanged",
+    "limits": [
+      "Not a new installed-firmware census",
+      "No global-volume or headphone capability inferred"
+    ],
+    "next": "Continue remaining HX Effects category names and individual-display models; defer inaccessible primary sources and preserve compact expression audit plus GP-200JR→Prime→GE300 queue."
   }
 }
