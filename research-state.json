@@ -148979,5 +148979,51 @@
     "limits": "CPU-qualified reference;firmware minimum/installed library unverified. Delay max16s,HOLD closes input versusSTACK layers;not separate looper/preset retention. Flanger selfoscillation not synth tracking.",
     "next": "Continue remaining named categories and firmware reconciliation; preserve qualified-market gaps,LCD-first,expression andindependent general queues.",
     "active_inventory_changed": false
+  },
+  "fm9_mkii_filter_wah_census_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 printed3,45–47,110;shared FM9 reference",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-mkii-turbo--named-filter-and-wah-source-details",
+    "filter_types": [
+      "All-Pass",
+      "Auto-Wah",
+      "Band-Pass",
+      "Envelope Filter",
+      "Feedback Comb",
+      "Feedforward Comb",
+      "High-Pass",
+      "High-Shelf",
+      "High-Shelf 2",
+      "Ladder Filter",
+      "Low-Pass",
+      "Low-Shelf",
+      "Low-Shelf 2",
+      "Notch",
+      "Null",
+      "Peaking",
+      "Peaking 2",
+      "Tilt EQ",
+      "Touch-Ladder",
+      "Touch-Wah"
+    ],
+    "wah_types": [
+      "FAS Wah",
+      "Clyde",
+      "Cry Babe",
+      "VX846",
+      "Color-Tone",
+      "Funk Wah",
+      "Mortal",
+      "VX845",
+      "Paragon"
+    ],
+    "instances": {
+      "filter": 4,
+      "wah": 2
+    },
+    "limits": "CPU-qualified;installed library/firmware minimum unknown. Filter modulation/selfoscillation not tracking synthesis;Wah frequency endpoints not globalvolume assignment.",
+    "next": "Continue remaining named category inventories andfirmware reconciliation;preserve LCD-first,expression/general queues andqualified Shopee gaps.",
+    "active_inventory_changed": false
   }
 }
