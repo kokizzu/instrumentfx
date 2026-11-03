@@ -144002,5 +144002,22 @@
     "finding": "Ten-band EQ selectableOut1/Out2;3supplied/4userEQprofiles;RetainGlobalEQ defaultOff resetsactiveEQflat onpowercycle.",
     "boundary": "Current1.8,phones/USBEQcoverage andglobalEXP assignment unverified;no deviceoperation",
     "next": "Continue requested LCD andno-treadle gaps;unchangedShopeestock remainsqualified"
+  },
+  "gt1000core_combined_pedal_functions_20261103": {
+    "checked": "2026-11-03",
+    "source": "https://static.roland.com/assets/media/pdf/GT-1000CORE_prm_eng01_W.pdf",
+    "evidence": "Indexed original CORE CONTROL FUNCTION table;notgeneratedvisualdescription;notfullcurrentguideverification",
+    "choices": [
+      "OFF",
+      "FOOT VOL",
+      "PEDAL FX",
+      "FV/PD FX",
+      "FV+TUNER",
+      "FVTU/PFX"
+    ],
+    "finding": "Heel-to-tuner roles are distinct fromplain FOOT VOL;combinedpedalFX role notcertifiedalwaysvolume.",
+    "remaining": "Current2.02parameterguide,rangeoverride,ASSIGNprecedence andbypass/phones/tail/recordedloopcoverage",
+    "next": "ContinueLCD/no-treadle inventory;deferunchanged officialPDFaccessfailure",
+    "downloads": false
   }
 }
