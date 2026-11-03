@@ -145550,5 +145550,23 @@
       "Battery/USBpower,unverifiedlive/soundcapabilities"
     ],
     "next": "Complete these precise gaps on new evidence;keep partiallead outsideactiveinventory andretain requestedseparate-screen priority plusindependent queues."
+  },
+  "ngs6_french_manual_scope_20261103": {
+    "model": "NUX Amp Academy NGS-6",
+    "checked": "2026-11-03",
+    "source": "https://algam-akeneo-prod.s3.eu-west-3.amazonaws.com/public/products/4/b/0/d/4b0d1a1bc061b88fe7dad67b0876b1242b097635_Mode_d_emploi_NUX_Amp_Academy_NGS_6.pdf",
+    "identity": "Eight-page French,©2021Cherub,exactNGS6panel;firmware/translationrevisionunstated",
+    "findings": [
+      "MASTER selectedampmodelvolume,notverifiedfinalmaster",
+      "Older10included+18emptyIRversuscurrent16user/sixassociated/12Choptones conflict",
+      "Normal/DryOut/Reamp/Loopback named,notstreamcount"
+    ],
+    "limits": [
+      "NotAmpAcademyStompNMA3AAPorV4certification",
+      "NoEXPsocket/newanalogpathestablished",
+      "CurrentIRallocation/USBmatrix/outputcoverageunresolved"
+    ],
+    "next": "Defer unresolvedNGS6allocationuntilversion-qualifiedsource;continue othercompact/separate-screenrecords andqualifiedhardware. Preserve independent queues.",
+    "inventory_change": false
   }
 }

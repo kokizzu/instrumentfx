@@ -92,6 +92,18 @@ Original NGS-6 manual body [page5](https://www.manualslib.com/manual/3994930/Nux
 
 Whole-device bypass type and full current profile remain unresolved. The partial lead stays outside active counts;do not borrow buffered-bypass specifications from NMA-3AAP Amp Academy Stomp.
 
+### NGS-6 — recovered French manual and IR-capacity revision conflict
+
+Checked **2026-11-03** in an [Algam-hosted eight-page French manual](https://algam-akeneo-prod.s3.eu-west-3.amazonaws.com/public/products/4/b/0/d/4b0d1a1bc061b88fe7dad67b0876b1242b097635_Mode_d_emploi_NUX_Amp_Academy_NGS_6.pdf). It bears **©2021 Cherub**, explicitly identifies **Amp Academy NGS-6**, and matches the original six-model panel/connector layout. Firmware and translation revision are unstated; this is not the NMA-3AAP Stomp manual or V4 certification. Original PDF text used, not a generated host FAQ.
+
+| Field | Documented scope / qualification |
+|---|---|
+| Volume / MASTER | PDFp3 describes volume of the **selected amp model**, not a verified final master affecting AUX, USB, headphones or every bypass path. No analog EXP socket is added by this control. |
+| IR / older capacity wording | PDFp3 lists **10 included IRs plus18 empty third-party locations**. The separately retained current product page instead says16 user slots, six amp-associated slots and12 Choptones IRs. Preserve the revision/source conflict; do not sum these counts or infer physical memory expansion/reduction. |
+| USB / named routing modes | PDFp3 names Normal, Dry Out, Reamp and Loopback, configured through the editor. Modes are not four physical ports or a complete record/playback stream count. |
+
+The complete translated connector section still supplies no expression socket. Current memory allocation, exact USB matrix and whole-output volume coverage remain unresolved; partial lead stays outside active counts. No local download, installation or device operation.
+
 ## Amp Academy Stomp
 
 Checked2026-10-17;partial. Separate hardware from original Amp Academy;not previously inventoried. Guitar multi-effects eligibility follows independent effects architecture. Bass/vocal suitability and ownership unresolved.
