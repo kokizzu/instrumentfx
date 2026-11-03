@@ -615,3 +615,16 @@ Checked **2026-11-04**, [manufacturer US release history,1.6.34,May14,2025](http
 - The same release permits block replacement in any Scene rather than only Base preset. Preserve the separate manual rule that shared blocks/order/routing andScene Edit determine cross-scene effects;this is not an independent rig perScene.
 
 No software installed,device operated orworkflow changed. Current GuideH census,IR-file limits andqualified exact-stock prices remain open.
+
+### Tone Master Pro — exact USB channel directions
+
+Checked **2026-11-04**, manufacturer **firmware1.5 manual,printedp37**, [original document text reproduction](https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual);generated host FAQs excluded. Directions below are explicit relative to the processor, avoiding ambiguous interface input/output numbering.
+
+| Mode | Processor → computer | Computer → processor |
+|---|---|---|
+| Standard |1/2 processed stereo from Instrument orMic/Line,or both summed according to template;3 dry Instrument;4 dry Mic/Line |1/2 monitoring mix assignable toOutput1,Output2 orHeadphones;3/4 disabled |
+| Reamp |1/2 processed stereo according to template;3/4 disabled |1/2 monitoring mix remains available;3 feedsInstrument processing;4 feedsMic/Line processing |
+
+A four-channel interface therefore doesnot provide four simultaneously independent processed recording buses. Reamp mode doesnot preserve the standard mode’s dry3/4 recording feeds. The previously retained analog-loop bypass,physical-input muting andpower-cycle reset remain applicable to this manual revision. Monitoring destinations do not establish global expression attenuation orloopback recording. Current1.8 behavior untested.
+
+The official current owner/manual-light andGuideH links again failed as unsupported document/pdf. A [Choptones own-pack tutorial](https://www.choptones.com/blogs/tutorials/quick-guide-loading-choptones-presets-irs-on-the-fender-tone-master-pro),dated2026-09-07,describes desktop USB-C import of its.preset/.wav files;this is a supplier workflow lead,not manufacturer verification of all accepted formats,lengths,rates,slot counts ormobile restrictions. Those IR limits remain unresolved;no files downloaded orapps run.

@@ -148011,5 +148011,14 @@
     "scope": "Maintain(default)/Discard unsaved scene recall;not persistent auto-save;Wrap-Around excludes Instrument Parallel2 inthisrelease;Scene block replacement boundary.",
     "next": "Current GuideH census,IR file limits,qualified Shopee hardware offers;preserve independent general/expression queues.",
     "active_inventory_changed": false
+  },
+  "fender_usb_channel_scope_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual",
+    "revision": "Manufacturer firmware1.5 printed37;original text reproduction only",
+    "scope": "Exact mode/direction channel map;stereo processed1/2 vsstandard dry3/4;reamp dry outputs disabled;computer monitor1/2 separate.",
+    "ir_followup": "Current original PDFs still unsupported;Choptones own-pack.preset/.wav workflow lead not manufacturer format/limit verification.",
+    "next": "Manufacturer IRimport slot/length/rate/format limits,current GuideH census,qualified offers;independent queues retained.",
+    "active_inventory_changed": false
   }
 }
