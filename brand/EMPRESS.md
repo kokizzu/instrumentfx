@@ -93,3 +93,14 @@ Checked **2026-11-04**. The [manufacturer index article](https://empresseffects.
 - The “Max # of Blocks” column describes module grid footprints, not the number of independent effects guaranteed simultaneously. Average DSP entries are not a fixed whole-patch capacity.
 
 Full current category census remains unresolved. A repeated Shopee search still exposed only the previously retained category-cache offer, without an exact item/seller; it remains unqualified. No active membership or comparison rows changed.
+
+### ZOIA — bank reach, startup options and control-mode conflict
+
+Checked **2026-11-04**, [Manual v02, printed pp10–11,23–24](https://empresseffects.com/cdn/shop/files/ZOIA_User_Manual_rev02_web.pdf?v=9116714327727882529); current5.41 behavior untested.
+
+- **Up to21 banks ×3 patches =63 bank selections**, derived from the documented values; total storage remains64 slots0–63. The manual doesnot explain access to the final slot from Bank mode. Scroll-list length is configurable independently; reducing it doesnot remove other patches from the knob-accessible Patch List. Default bank count is4.
+- Config provides **Start Patch** (default0) and **Start State** (default bypassed). These select startup behavior, not expression-position recall. Input Pad applies to both inputs:0/−6/−12dB, default−6dB.
+- **MIDI Consume** controls throughput:All blocks all incoming passthrough;Some blocks messages used by current modules;None passes all. DefaultSome. This is not a separate physical MIDI Thru socket.
+- Auxiliary-mode timing conflicts: printedp11 specifies holding BYPASS+SCROLL **one second**, whereas the [manufacturer product Stompswitch description](https://empresseffects.com/products/zoia) specifies **two seconds**. Both switch those controls between navigation/bypass and patch-module use. Preserve both timings pending exact-firmware confirmation.
+
+These findings clarify memory/navigation and control sharing; factory occupancy, complete ports/editor/import profile and global-volume coverage remain unresolved. Partial lead remains outside402 active models.
