@@ -146170,5 +146170,16 @@
     "finding": "HotSpice sitar andDefret bass processing;HPS scale/key harmony distinct from chord-capable PolyShift andexplicitmono variants;Detune±25cents/BaDetune±50cents",
     "remaining": "Current installed library,unspecified algorithm polyphony,visual controls,auxiliary display properties andcondition-qualified current IDR offers unresolved",
     "inventory_changed": false
+  },
+  "stadium_xl_usb_monitor_di_20261103": {
+    "source": "https://manuals.line6.com/en/helix-stadium/live/usb-audio",
+    "revision": "Live v1.4 chapter;navigation retains older labels",
+    "findings": [
+      "Hardware monitoring independent ofDAW;software monitoring procedure selects presetUSB3/4 or5/6",
+      "Dedicated recordingUSB7/8 dry-source choices distinct fromUSB playback3/4 reamp input",
+      "NonUSB-C Apple requiresCameraKit;Android OTG;audio support noteditor orbuspower"
+    ],
+    "remaining": "No measured latency,installed-device validation,global analog volume coverage orqualified current stock",
+    "inventory_changed": false
   }
 }

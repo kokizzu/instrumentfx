@@ -695,6 +695,18 @@ Checked 2026-10-31 against the live manufacturer v1.4 manual. Its navigation sti
 | USB audio / recording-source choice | **USB Out1/2** can be **Direct Out** (selectable preset Output destination),or mirror **Matrix quarter-inch,XLR orPhones**. Selecting a Matrix source removes USB1/2 fromthe preset Output list. This is recording-source selection,not computer playback USB1/2 routing orproof of universal EXP attenuation. [Live Global Settings](https://manuals.line6.com/en/helix-stadium/live/global-settings),checked2026-11-03. |
 | Looper / song-stop documentation conflict | [Live Global Settings](https://manuals.line6.com/en/helix-stadium/live/global-settings) says On stops loops on song stop/pause orplaying another song (**cueing alone excluded**),then limits this toSong Looper flags andexcludes manual control. [1.4 release notes](https://kb.line6.com/helix-stadium-1-4-release-notes),October13,2026,instead describe fixing this setting when thelooper iscontrolled manually. Preserve the conflicting scope;do notpromise automatic stopping formanual loops. Checked2026-11-03;installed behavior untested. |
 
+### Stadium XL — USB monitoring, dry taps and mobile connection limits
+
+Checked **2026-11-03**, [manufacturer live USB Audio chapter,v1.4](https://manuals.line6.com/en/helix-stadium/live/usb-audio);navigation retains earlier revision labels.
+
+| Field | Documented behavior / boundary |
+|---|---|
+| USB audio / hardware versus software monitoring | Hardware monitoring remains audible independently of DAW monitoring. For software-monitoring workflows,the manual routes the preset Output to **USB3/4 or5/6**,with the DAW recording that pair. Its ordinary wet-plus-DI recording example instead disables DAW monitoring to avoid duplicate live monitoring. The manufacturer’s latency-free wording concerns bypassing the DAW round trip,not zero DSP/converter latency orour measurement. |
+| USB audio / dedicated DI source selection | **USB recording outputs7/8** tap independently selected sources under Global Settings→Ins/Outs→Re-amp Src. XL’s example selects **Instrument1 forUSB7**. This is dry-input capture,not an effect-chain Output block orproof of global pedal attenuation. USB playback3/4 can separately feed a preset Input for reamping;these directions mustnot be conflated. |
+| I/O / mobile adapters and USB role | Driverless Apple/Android audio uses **USB-C**,notUSB-A. For devices withoutUSB-C,the chapter specifies **USB-to-Lightning Camera Kit** foriOS/iPadOS or**USB OTG** forAndroid,sold separately. It doesnot establish mobile full-editor support,minimum OS orUSB bus power. |
+
+No connection,download,driver installation orrecording test performed. Global analog expression assignment,headphone/tail/looper coverage andqualified stock remain unresolved.
+
 <!-- comparison evidence ends -->
 
 Recheck2026-10-31: the original Denpasar offer remainsRp41.220.000, but search reports a six-day crawl/delivery29October–1November while direct reopening returns three-month-old text/delivery18July. These are conflicting snapshots,not verified current stock; the original dated observations above remain intact.
