@@ -458,7 +458,6 @@ Checked **2026-11-03**. [Manufacturer-authored shared Max/Max Li manual, Polish 
 | Live / spillover scope | Enable SPILL-OVER,copy a preset to the destination,then alter block states/parameters as documented. This is conditional delay/reverb continuity between prepared presets,not unconditional trails between unrelated sounds. |
 | IDR / exact White hardware lead | [Shopee shop1875151955/item55066460778](https://shopee.co.id/MOOER-GE150-MAX-White-Multi-Effects-Guitar-Pedal-i.1875151955.55066460778),title **MOOER GE150 MAX White Multi-Effects Guitar Pedal**. [Opened brand-list snapshot](https://shopee.co.id/list/Mooer?page=0),two-month cache,links this item at **Rp3.264.000**;yesterday-indexed search instead shows **Rp3.000.000**. Separate cached observations,not a verified current range. Direct item opening fails. Seller name/location,condition,selected variant,bundle/adapter,warranty,stock,vouchers andcheckout total unknown. Title is more specific than the older Pro Max lead,but no Li specifications orprices transferred. |
 
-
 ## GE150 Max Li
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

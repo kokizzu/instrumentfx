@@ -109,7 +109,7 @@ The [complete original comparison](../MULTI-EFFECTS.md)<!-- historical-link:neur
 | Power / battery / USB | **9–12V DC≥600mA,center-negative,2.1/5.5mm**, or **USB-C5V/1.5A**. USB-A supports data but insufficient operating power. Internal battery unverified; external USB battery-pack support is not an internal battery. [M,P] |
 | Configuration apps and USB functions | **Cortex Cloud iOS/Android**, Bluetooth editing/update workflow;manufacturer2.8.1 release dated2026-07-22. **Unofficial community Mac/Web-Bluetooth editor identified**,not manufacturer-supported or locally tested;[scope andlimits](#nano-cortex--official-mobile-app-and-community-desktop-editor). Official desktop full editor remains unverified. **USB4-in/3-out,24-bit/48kHz**; Windows driver, macOS class-compliant. [M] |
 | Display | LED interface; published graphical-screen diagonal, color technology and touch specifications unverified. |
-| Other relevant features | Tuner. Capture mic connector does not prove live vocal processing. Preserved no-phantom assertion is not independently reverified here. [M] **2-Preset Mode:** FS I recalls A/B; FS II global bypass. **4-Preset Mode:** both switches recall four assignments. Delay/reverb bypass Trails works outside 4-Preset Mode; not preset spillover or EXP tail coverage. NanOS2.2 adds Tremolo, optional mono summing, offline app mode, five cloud backups and capture auditioning. [R] Looper, drums, scenes and parallel routing remain unverified. |
+| Other relevant features | Tuner. Capture mic connector does not prove live vocal processing. **Own2.2.0 Capture Mode text supports dynamic microphones andrequires an external powered preamp for condensers**;[capture-input qualification](#nano-cortex--capture-microphone-and-gain-boundaries). [M] **2-Preset Mode:** FS I recalls A/B; FS II global bypass. **4-Preset Mode:** both switches recall four assignments. Delay/reverb bypass Trails works outside 4-Preset Mode; not preset spillover or EXP tail coverage. NanOS2.2 adds Tremolo, optional mono summing, offline app mode, five cloud backups and capture auditioning. [R] Looper, drums, scenes and parallel routing remain unverified. |
 | Routing / mono summing and IR bypass | NanOS2.2.0 Device Settings: **Auto-Sum to Mono** sums when only one cable is in **either1L or2R**,affecting stereo effects,panning andtime-effect trails. **IR Bypass** selects1L,2R orGlobal Bypass;this is cabinet-loader bypass,not whole-device bypass orglobal pedal-volume assignment. Headphone/USB application unverified. [Own manual](https://neuraldsp.com/manual/nano-cortex). |
 | USB / separate playback level | Same manual lists **USB Playback Volume default−6.0dB**. Slider endpoints andEXP assignment are unspecified here;it is not the Capture Volume−24…+12dB range orproof ofall-source mute. [Own manual](https://neuraldsp.com/manual/nano-cortex). |
 | Used IDR | ? — no dependable condition-qualified used offer established. |
@@ -268,6 +268,18 @@ The README’s eight-USB-channel claim conflicts with the manufacturer’s seven
 Checked **2026-11-03** against the [manufacturer NanOS2.2.0 manual](https://neuraldsp.com/manual/nano-cortex), Cloud Backups section. Cortex Cloud supports **up to five backups** of device items andsettings, explicitly including presets, Neural Captures andimpulse responses. Existing backups can be renamed,updated ordeleted; updating replaces the backup with current device items/settings.
 
 The menu action **Download restores the selected backup to Nano Cortex**, overwriting **all content andsettings currently onthe device**. It is not documented here as a non-destructive merge or a computer-file download. The section doesnot establish automatic backups,firmware rollback,offline restore,orretention ofevery expression calibration/assignment detail. No backup,restore,download,app operation ordevice connection performed. Across-preset expression-volume assignment androute coverage remain unresolved.
+
+
+### Nano Cortex — capture microphone and gain boundaries
+
+Checked **2026-11-03** in the [official NanOS2.2.0 manual](https://neuraldsp.com/manual/nano-cortex),Capture Mode andNeural Capture Calibration Settings. This narrows the earlier unreverified condenser-power assertion with exact-model manufacturer text.
+
+| Field | Documented capture behavior / boundary |
+|---|---|
+| I/O / microphone capture return | Dynamic microphones are supported;condenser microphones require an **external preamp to power them**. This is capture-return evidence,not a live vocal-processing input orproof of48V phantom onthe unit. No vocal membership is added. |
+| I/O / capture gain controls | Capture-mode GAIN provides **up to+24dB** adjustment;the separate BOOST switch adds a documented **+26dB analog boost**. The manual requires GAIN at0% before enabling BOOST. Do not sum these into a verified50dB preamp specification,maximum clean headroom ormeasured total gain. |
+
+The LEVEL andHP controls in calibration retain their mode-specific qualifications;capture monitoring doesnot resolve performance-mode expression attenuation. Official expression target lists still disagree,andneither establishes an all-preset global override. No microphone connected,voltage supplied,capture performed orfile downloaded.
 
 ## Quad Cortex
 

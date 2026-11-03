@@ -778,7 +778,6 @@ Checked **2026-11-03**, [manufacturer-authored regional manual for firmware1.0.3
 
 This narrows the earlier unknown acoustic-simulation field for the documented factory library. Dedicated synthesis,current firmware equivalence andqualified current used/new hardware stock remain unresolved. No files loaded,converted ordownloaded andno device test performed.
 
-
 ## GP-50
 
 Current comparison summary, reconciled2026-10-28 from the exact-model sources retained below. Firmware1.0.5 technical observations are not silently promoted to1.1.0. All original bodies, prices, URLs and historical unknowns remain below this selected summary.

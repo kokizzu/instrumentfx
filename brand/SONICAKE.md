@@ -649,7 +649,6 @@ Checked **2026-11-03** in the [exact-model manufacturer product FAQ](https://www
 
 Preserve the separate Windows11 USB-MIDI stall advisory anddated manual/firmware conflicts above. No software,driver ormodel file downloaded,installed orrun. Current condition-qualified Shopee stock andremaining profile gaps are unchanged.
 
-
 ## RockStage QCE-10
 
 Guitar multi-effects strip, distinct from Black Hammer and G3-series products. Manufacturer identifies QCE-10. Checked 2026-10-17; partial. Bass/vocal suitability unclassified.

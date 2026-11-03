@@ -11,6 +11,7 @@ Root-level brand comparison. **Checked 2026-10-15.** POD Go Wireless and POD Exp
 - [Helix Control — controller](#helix-control--controller)
 - [Helix Floor](#helix-floor)
 - [Helix LT](#helix-lt)
+- [Helix Rack — partial no-treadle discovery](#helix-rack--partial-no-treadle-discovery)
 - [Helix Stadium XL Floor](#helix-stadium-xl-floor)
 - [HX Effects](#hx-effects)
 - [HX One](#hx-one)

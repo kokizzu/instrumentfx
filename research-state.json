@@ -147083,5 +147083,30 @@
     "remaining": "Global volume override,recall/endpoints/all-route coverage,physicalcontrollerwiring,qualified exactShopee stock;currentmanual reader timeout.",
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "nano_capture_mic_gain_20261103": {
+    "model": "Neural DSP Nano Cortex",
+    "checked": "2026-11-03",
+    "source": "https://neuraldsp.com/manual/nano-cortex",
+    "revision": "NanOS2.2.0,CaptureMode/Calibration originalHTML",
+    "finding": "Dynamic microphones supported;condensers need external preamp power. CaptureGAIN up to24dB separatefrom26dB analogBOOST;notcertified50dBcombined.",
+    "remaining": "Live vocalpath notestablished;globalLEVEL lists conflict unchanged;acrosspresetvolume,recall,bypass/headphone/tailcoverage andactualcontrollerwiring unverified.",
+    "active_count_unchanged": 402,
+    "instrument_membership_unchanged": true,
+    "independent_queues_preserved": true
+  },
+  "brand_navigation_repair_20261103": {
+    "checked": "2026-11-03",
+    "target": "make brand-sort-plan / make brand-sort-apply",
+    "paths": [
+      "brand/LINE6.md",
+      "brand/MOOER.md",
+      "brand/SONICAKE.md",
+      "brand/VALETON.md"
+    ],
+    "finding": "Restored missing HelixRack partial-record index link;otherchanges section-boundary whitespace only. No sectionorder or technicalbody change.",
+    "proof": "Independently reconstructed exact planned outputs andmatchedSHA256 beforeapply;transformer preserves every section body excluding trailingwhitespace;all63canonical/supplemental branddocuments now passglobal sort/index idempotence.",
+    "active_count_unchanged": 402,
+    "active_brand_count_unchanged": 49
   }
 }
