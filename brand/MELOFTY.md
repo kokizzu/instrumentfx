@@ -260,3 +260,15 @@ Checked **2026-11-03** in the [German V1.7.4 manufacturer manual, PDF pp40–41,
 | MIDI / learned control addresses | CC Learn is **empty by default**; users assign addresses. Bank-selection values 0–3 and EXP1/2/3 targets are functions, not fixed CC numbers or global-volume assignments. |
 
 Mini-display manufacturer count/technology, qualified Shopee hardware and current-firmware equivalence remain unresolved. Partial lead stays outside active counts; no local download, MIDI transmission or device operation.
+
+### AXOM MAX — chain endpoints and MULTI OUT coverage
+
+Checked **2026-11-03** in the [German V1.7.4 manufacturer manual, PDF pp14–16](https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347). Exact-model original text; current-firmware equivalence untested.
+
+| Field | Documented routing / boundary |
+|---|---|
+| I/O / chain inputs | Mono choices include Guitar, Mic/Line, Return1, Return2 and individual USB3–8. Paired choices include **GTR+MIC, RETURN1/2, USB3/4, USB5/6, USB7/8**; NONE is also available. Channel-pair processing does not establish synth input polyphony or a second physical guitar socket. |
+| I/O / MULTI OUT | Explicitly includes **UNBAL OUT, BAL OUT, PHONES OUT and USB1/2**. Separate destinations include main-output pairs/sides, Phones, Send1/2 and USB pairs1/2,3/4,5/6; NONE and **TO CHAIN B** are distinct options. A destination list is not proof of master/EXP attenuation of every source. |
+| Routing / quick-template initialization | **Parallel** initially assigns Guitar→Multi Out to A and NONE→NONE to B. **Series** instead sends A to Chain B, whose external input remains NONE. Selecting a two-chain template does not automatically configure two independently audible instrument paths. |
+
+Manufacturer mini-screen count/technology, external EXP3 global-volume coverage and qualified Indonesian hardware remain unresolved. Partial profile stays outside active counts; no download, setting change or device operation.

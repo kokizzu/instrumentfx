@@ -145808,5 +145808,28 @@
     "cc": "Learn emptybydefault;bank function values0–3 are notfixed CCnumbers.",
     "next": "Manufacturer/visual mini-screen count/technology andqualified Indonesian hardware remain prioritized;retain partialoutsidecounts status. Preserve independent research queues.",
     "inventory_changed": false
+  },
+  "axom_max_chain_endpoints_20261103": {
+    "model": "MELOFTY AXOM MAX",
+    "checked": "2026-11-03",
+    "source": "https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347",
+    "revision": "German V1.7.4,PDFpp14–16",
+    "multi_out": [
+      "UNBAL OUT",
+      "BAL OUT",
+      "PHONES OUT",
+      "USB1/2"
+    ],
+    "paired_inputs": [
+      "GTR+MIC",
+      "RETURN1/2",
+      "USB3/4",
+      "USB5/6",
+      "USB7/8"
+    ],
+    "templates": "Parallel initializes B NONE->NONE;Series feeds A intoB while B externalinput isNONE.",
+    "limits": "Route selection does not establish all-source master/EXP3 attenuation,polyphonic synth tracking oradditional physical inputs. Current-firmware behavior untested.",
+    "next": "Manufacturer/visual mini-screen count/technology,qualified Shopee hardware andglobal EXP3 coverage remain prioritized;independent queues preserved.",
+    "inventory_changed": false
   }
 }

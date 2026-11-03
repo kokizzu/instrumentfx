@@ -33,7 +33,7 @@ if sys.argv[1:] in (["stage-collection"], ["collection"]):
         assert review["head"] == git("rev-parse", "HEAD").strip()
         assert review["sha256"] == hashlib.sha256(git("diff", "--cached").encode()).hexdigest()
         assert not git("diff", "--cached", "--check").strip()
-        message = "docs: repair remaining canonical links with reversible provenance" if "brand/IK-MULTIMEDIA.md" in staged else "research(morningstar): qualify MC6 MKII shared screen and Shopee offers" if "brand/MORNINGSTAR.md" in staged else "research(melofty): qualify AXOM memory banks and MIDI note direction" if "brand/MELOFTY.md" in staged else "docs: restore requested separate-screen processor priority"
+        message = "docs: repair remaining canonical links with reversible provenance" if "brand/IK-MULTIMEDIA.md" in staged else "research(morningstar): qualify MC6 MKII shared screen and Shopee offers" if "brand/MORNINGSTAR.md" in staged else "research(melofty): document AXOM chain endpoints and monitor routes" if "brand/MELOFTY.md" in staged else "docs: restore requested separate-screen processor priority"
         print(git("commit", "-m", message))
     raise SystemExit(0)
 
