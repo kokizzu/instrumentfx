@@ -144077,5 +144077,13 @@
     "finding": "AutoSumToMono onlyone cable ineither1L/2R affects stereoFX/panning/trails;IRBypassselects1L/2R/GlobalBypass. USBPlaybackVolumedefault-6dBseparatefromCaptureVolume.",
     "remaining": "Headphone/USB AutoSum/IRbypasscoverage,USBsliderendpoints/EXPtarget,globalanalogvolumeassignment andrecall unverified.",
     "next": "Defer unchanged Mini/Nano globalassignment gaps;continue othercompact no-treadle candidates andrequestedseparatescreenprocessors."
+  },
+  "fender_pro_control_appstore_20261103": {
+    "model": "Fender Tone Master Pro",
+    "source": "https://apps.apple.com/us/app/fender-pro-control/id1520261115",
+    "identity": "Fender Digital,LLC;ProControl1.8.4July15",
+    "finding": "iOS/iPadOS15.0 corroboratescurrentUSminimum;Japan13.1wordingretained. Macstore10.15differsfromseparatedesktop12.7requirement;nottestedcompatibility.1.8.2June15fixesiPadIRcontrolclippingandcloudsignin;1.8.1June3adds1.8.xsupportandportrait.",
+    "remaining": "Macpackage/minimumreconciliation,Androidspecificversions,currentmanual/modelcensus,globalvolumecoverage andconditionqualifiedoffers remainopen.",
+    "next": "Continue requestedindividualdisplay processors andShopeeIndonesia discovery;do not repeat unchangedaccessfailures."
   }
 }
