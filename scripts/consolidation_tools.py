@@ -2166,7 +2166,7 @@ def commit_preservation_repairs(stage=False):
         assert review['head'] == research_tools.git('rev-parse', 'HEAD').strip()
         assert review['sha256'] == digest(research_tools.git('diff', '--cached'))
         assert not research_tools.git('diff', '--cached', '--check').strip()
-        print(research_tools.git('commit', '-m', 'build(audit): enumerate historical technical source variants'))
+        print(research_tools.git('commit', '-m', 'fix(audit): include merged technical source history'))
 
 def audit_historical_sources():
     """Compare the earliest Core/Flex source blobs with the preserved originals."""
@@ -2219,12 +2219,13 @@ def audit_source_history():
     from brand_filename_migration import original_namespace
     research_tools.identity()
     test_source_history_status()
+    assert research_tools.git('rev-parse', '--is-shallow-repository').strip() == 'false', 'Fetch complete history before auditing variants'
     head = research_tools.git('rev-parse', 'HEAD').strip()
     results = []
     cache = {}
     for path, destination in sorted(SOURCES.items()):
-        history = research_tools.git('log', '--format=', '--raw', '--no-abbrev',
-                                     '--no-renames', head, '--', path)
+        history = research_tools.git('log', '--full-history', '-m', '--format=', '--raw',
+                                     '--no-abbrev', '--no-renames', head, '--', path)
         blobs = set()
         for line in history.splitlines():
             match = re.fullmatch(r':[0-7]{6} [0-7]{6} [0-9a-f]{40} ([0-9a-f]{40}) [A-Z]\t(.+)', line)

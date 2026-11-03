@@ -47191,7 +47191,7 @@
     },
     "technical_source_history_audit_20261104": {
       "checked": "2026-11-04",
-      "source_head": "f1d945ed6e577e2911a5ef0a5ad8fad2d495a159",
+      "source_head": "b4dc829314969d4a6576cafee6bf64d18db89e6a",
       "target": "make consolidation-audit-source-history",
       "sources": 99,
       "variants": 295,
@@ -47201,7 +47201,7 @@
         "pre-layout-compatibility-redirect": 88,
         "historical-variant-needs-review": 9
       },
-      "method": "Enumerate unique new Git blobs from HEAD-reachable raw path history; exact content equality against registered source,current redirect,or exact inverse document-layout redirect. Changed bodies remain pending,not silently normalized.",
+      "method": "Enumerate unique Git blobs with --full-history and per-parent merge diffs; reject shallow clone history. Exact equality against registered original,current redirect,or inverse-layout redirect;other content stays pending.",
       "pending": [
         {
           "source": "effects/findings/2026-10-14-flamma-fx100.md",
@@ -47260,7 +47260,8 @@
       ],
       "next": "Compare each pending variant against existing shared-source union manifests and historical canonical bodies before calling it lost or restoring duplicate material. One useful model repair per commit if needed. Preserve general GT-Pro andrequested display/expression queues.",
       "limitations": "HEAD-reachable technical source revisions only; pending variants are not proven loss; shared/metadata files and manufacturer truth need separate audits. Existing original-body verification remains independent;no compatibility path removed andno complete-migration claim.",
-      "complete": false
+      "complete": false,
+      "merge_history_recheck": "Full merge-parent traversal reproduced all295 variants andthe same nine pending content variants."
     }
   },
   "deferred_work": {
