@@ -111,6 +111,7 @@ The [complete original comparison](../MULTI-EFFECTS.md)<!-- historical-link:neur
 | Display | LED interface; published graphical-screen diagonal, color technology and touch specifications unverified. |
 | Other relevant features | Tuner. Capture mic connector does not prove live vocal processing. **Own2.2.0 Capture Mode text supports dynamic microphones andrequires an external powered preamp for condensers**;[capture-input qualification](#nano-cortex--capture-microphone-and-gain-boundaries). [M] **2-Preset Mode:** FS I recalls A/B; FS II global bypass. **4-Preset Mode:** both switches recall four assignments. Delay/reverb bypass Trails works outside 4-Preset Mode; not preset spillover or EXP tail coverage. NanOS2.2 adds Tremolo, optional mono summing, offline app mode, five cloud backups and capture auditioning. [R] Looper, drums, scenes and parallel routing remain unverified. |
 | Routing / mono summing and IR bypass | NanOS2.2.0 Device Settings: **Auto-Sum to Mono** sums when only one cable is in **either1L or2R**,affecting stereo effects,panning andtime-effect trails. **IR Bypass** selects1L,2R orGlobal Bypass;this is cabinet-loader bypass,not whole-device bypass orglobal pedal-volume assignment. Headphone/USB application unverified. [Own manual](https://neuraldsp.com/manual/nano-cortex). |
+| USB / mobile audio and MIDI forwarding | [NanOS 2.2.0 manual](#nano-cortex--mobile-audio-and-midi-source-details) documents iPhone/iPad USB recording separately from Bluetooth editing; MIDI Thru forwards TRS input to USB output. Clock source: Off, USB or TRS MIDI. Adapter/power compatibility and global pedal coverage remain qualified. |
 | USB / separate playback level | Same manual lists **USB Playback Volume default−6.0dB**. Slider endpoints andEXP assignment are unspecified here;it is not the Capture Volume−24…+12dB range orproof ofall-source mute. [Own manual](https://neuraldsp.com/manual/nano-cortex). |
 | Used IDR | ? — no dependable condition-qualified used offer established. |
 | New / retail IDR | **Rp11.900.000,Habis**: [Seven Stereo Music & Audio Store exact hardware](https://shopee.co.id/Neural-DSP-Nano-Cortex-Digital-Effects-Processor-i.16879370.51902266280),shop16879370/item51902266280,Kota Bandung; indexed reopening checked2026-10-17. Historical retail ask, not checkout-confirmed stock or completed sale. Condition grade, warranty region, accessory bundle, shipping/tax and voucher eligibility unverified. |
@@ -293,6 +294,16 @@ Checked **2026-11-04** against the [manufacturer device list](https://neuraldsp.
 | IDR / existing exact hardware cache | [Seven Stereo,16879370/51902266280](https://shopee.co.id/Neural-DSP-Nano-Cortex-Digital-Effects-Processor-i.16879370.51902266280) again shows **Rp11.900.000,Habis**,last-month crawl. Condition,bundle,warranty andcheckout remain unverified;not current availability. |
 
 The seven selected creative records remain separate from this additional catalogue match. Five effect slots andtheir placement restrictions remain;no active-model orinstrument-membership change. Global analog volume,held-pedal recall,bypass/phones/tails/loops andrecording channel2 remain unresolved. No download,app operation ordevice connection.
+
+### Nano Cortex — mobile audio and MIDI source details
+
+Checked **2026-11-04** in the [manufacturer NanOS 2.2.0 HTML manual](https://neuraldsp.com/manual/nano-cortex), Host Monitoring and Device Settings. These are documented features of that revision, not introduction-version claims or device tests.
+
+- **iPhone/iPad USB recording:** the manual names class-compliant audio and GarageBand, with USB-C connection (its example says iPhone15 or later). For older iPhones it names an Apple “Lightning to USB-C Camera Adapter”; exact accessory SKU, power budget and host/OS compatibility are not independently established. This is separate from Cortex Cloud Bluetooth editing, desktop editing and USB-powered-operation requirements.
+- **MIDI Thru** forwards incoming **TRS MIDI to USB MIDI output**, not a second physical TRS output or USB-host capability. The shared socket still requires MIDI mode rather than direct analog expression.
+- **MIDI Clock Source** selects Off, USB or TRS MIDI. Clock routing does not establish pedal-volume assignment or MIDI-note synthesis.
+
+Across-preset analog volume, the conflicting LEVEL target lists and recording channel2 remain unresolved. The linked USB-matrix SVG was not inspectable with available web tools; no channel assignment inferred. No local download, app operation or device connection.
 
 ## Quad Cortex
 

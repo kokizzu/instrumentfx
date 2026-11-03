@@ -148727,5 +148727,15 @@
     "scope": "Not proof ofpre-MKIITurbo shipping allocation orcurrent unit content. Original/Turbo/MKII remain separate.",
     "next": "Continue exact pre-MKIITurbo hardware-offer verification,complete algorithm inventory andglobal-volume endpoints/coverage;preserve independent queues.",
     "active_inventory_changed": false
+  },
+  "nano_mobile_usb_midi_20261104": {
+    "checked_date": "2026-11-04",
+    "canonical": "brand/NEURAL-DSP.md#nano-cortex--mobile-audio-and-midi-source-details",
+    "source": "https://neuraldsp.com/manual/nano-cortex",
+    "revision": "NanOS2.2.0 HTML,Host Monitoring andDevice Settings",
+    "finding": "Manufacturer documents iPhone/iPad USB recording,TRS-input-to-USB-output MIDI Thru,andclock sourceOff/USB/TRSMIDI.",
+    "qualification": "Not Bluetooth editing,desktop editor,USB-host mode orverified accessory/power/OS matrix. No all-preset volume assignment established.",
+    "next": "Seek firmware/app-qualified manufacturer clarification of LEVEL/global volume;inspect original USB matrix toresolve recordingchannel2 without QuadCortex transfer;exact accessory andhost power remain open.",
+    "active_inventory_changed": false
   }
 }
