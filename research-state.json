@@ -146807,5 +146807,88 @@
     "fully_verified": false,
     "next": "Complete block/category census,factory fill,Axe-Edit minima,NAM version mapping,global-volume coverage/endpoints,visual controls andqualified stock. Preserve LCD-first/general queues.",
     "active_count_unchanged": 402
+  },
+  "axe_fx_iii_mkii_turbo_inventory_editor_20261103": {
+    "model": "Fractal Audio Axe-Fx III Mark II Turbo",
+    "checked": "2026-11-03",
+    "sources": [
+      "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+      "https://www.fractalaudio.com/axe-fx-iii-edit/"
+    ],
+    "scope": "November2026 exactIII column,p3;manufacturer editor1.15.03 October30",
+    "reference_classes": 43,
+    "arithmetic_ceiling_sum": 103,
+    "groups": [
+      {
+        "ceiling": 1,
+        "codes": [
+          "LPR",
+          "RNG",
+          "RTA",
+          "MIDI",
+          "TMA",
+          "VOC"
+        ]
+      },
+      {
+        "ceiling": 2,
+        "codes": [
+          "AMP",
+          "CAB",
+          "CHO",
+          "XVR",
+          "DND",
+          "ENH",
+          "FLG",
+          "FRM",
+          "IRP",
+          "MGT",
+          "MTD",
+          "MBC",
+          "MUX",
+          "NAM",
+          "PHA",
+          "PIT",
+          "PLX",
+          "RES",
+          "RTN",
+          "REV",
+          "ROT",
+          "SND",
+          "SYN",
+          "TTD",
+          "TRM",
+          "WAH"
+        ]
+      },
+      {
+        "ceiling": 4,
+        "codes": [
+          "CMP",
+          "DLY",
+          "DRV",
+          "FIL",
+          "GTE",
+          "GEQ",
+          "MIX",
+          "OUT",
+          "PEQ",
+          "VOL"
+        ]
+      },
+      {
+        "ceiling": 5,
+        "codes": [
+          "IN"
+        ]
+      }
+    ],
+    "not_simultaneous_capacity": true,
+    "shared_amp_nam_processing": true,
+    "editor": "OSX10.13+;Windows10+64-bit headline with separate32-bit build link;Win7 unofficial. USB driver requirements remain separate.",
+    "active": false,
+    "fully_verified": false,
+    "next": "Named choices,factory fill,NAM firmware/import mapping,volume/output coverage,visual controls,qualified hardware. Independent LCD-first/general queues preserved.",
+    "active_count_unchanged": 402
   }
 }

@@ -160,9 +160,9 @@ Checked **2026-11-03**. Exact manufacturer [Turbo store page][AX3-P] and [Mark I
 | Global volume | **p13:** MIDI/Remote→Other assigns local PEDAL1/2 directly to selected **Input1–4 or Output1–4 Volume**, without a per-preset Volume block. Input affects drive/gating; output scales tails. Not automatic control of all destinations. [AX3-M] |
 | Coverage / endpoints | Held-position recall, numeric global-volume range, bypass, USB and recorded-loop coverage unverified. Dedicated¼-inch phones monitor Output1; pedal attenuation there remains a routing inference, not a hardware test. [manual pp13,16][AX3-M] |
 | Body / mass | **482.6W×292.87D×131.1H mm**, including handles/rear jacks; **6.87kg**. Fails preferred200W×140Dmm. [AX3-H] |
-| Memory / processing | **1,024 presets,8 scenes,4 channels in most blocks**; factory filling unknown. Turbo clock25% above standard; not25% more effect slots. Current category census and simultaneous limits unresolved. [store][AX3-P], [product][AX3-H] |
+| Memory / processing | **1,024 presets,8 scenes,4 channels in most blocks**; factory filling unknown. Turbo clock25% above standard; not25% more effect slots. Named-choice census and measured concurrency remain open; reference block ceilings below. [store][AX3-P], [product][AX3-H] |
 | Power | Manualp114: **90–264VAC,47–63Hz,<40W**. CR2032 is a backup battery, not established portable operating power; USB bus power unverified. [AX3-M] |
-| Editor / capture distinctions | Manufacturer lists **Axe-Edit III Mac/PC**,8×8 USB audio/MIDI, Tone Match and onboard cabinet IR capture. Editor OS minima, IR file limits, native/converted NAM and creative algorithm details unverified; cabinet capture is not arbitrary amp capture. [AX3-P] |
+| Editor / capture distinctions | Manufacturer lists **Axe-Edit III Mac/PC**,8×8 USB audio/MIDI, Tone Match and onboard cabinet IR capture. Versioned editor minima and creative distinctions are qualified below. IR file limits and NAM firmware/import scope remain unresolved; cabinet capture is not arbitrary amp capture. [AX3-P] |
 
 ### Separate IDR hardware offers
 
@@ -207,6 +207,25 @@ The November guide also documents an Axe-Fx III NAM Player sharing Amp processin
 
 [AX3-B]: https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf
 [AX3-S]: https://www.fractalaudio.com/axe-fx-iii-downloads/
+
+### Axe-Fx III Mark II Turbo — reference block allowances and editor minima
+
+Checked **2026-11-03**, [November2026 Blocks Guide p3][AX3-B], exact **III** column. All43 nonzero reference rows grouped by instance ceiling; manufacturer block codes retained:
+
+| Ceiling per class | Block codes | Number of classes |
+|---|---|---|
+| 1 | LPR, RNG, RTA, MIDI, TMA, VOC | 6 |
+| 2 | AMP, CAB, CHO, XVR, DND, ENH, FLG, FRM, IRP, MGT, MTD, MBC, MUX, NAM, PHA, PIT, PLX, RES, RTN, REV, ROT, SND, SYN, TTD, TRM, WAH | 26 |
+| 4 | CMP, DLY, DRV, FIL, GTE, GEQ, MIX, OUT, PEQ, VOL | 10 |
+| 5 | IN | 1 |
+
+The ceilings sum arithmetically to **103**, including routing/control. This is **not103 simultaneously usable effects**: CPU/grid limits apply, and **Amp/NAM share processing**. NAM minimum firmware remains unresolved. IN5 includes USB, not five analog sockets. Published type totals are not a complete named-algorithm recount or installed-content certification.
+
+[Manufacturer Axe-Edit III page][AX3-E] lists **1.15.03,2026-10-30**, **OS X10.13+** and **Windows10+ (64-bit only)**. Windows7 may work but is not officially supported. The same page separately links a32-bit1.15.03 build: retain that availability without treating it as universal32-bit support. These editor requirements differ from USB driver6.16’s architecture/OS scope. Mac processor architecture and Linux/mobile editor support remain unverified; no installer retrieved or run.
+
+Partial,outside active counts. Continue factory fill,named-choice audit,NAM version mapping,volume coverage,visual controls andqualified stock; independent queues preserved.
+
+[AX3-E]: https://www.fractalaudio.com/axe-fx-iii-edit/
 
 [AX3-P]: https://shop.fractalaudio.com/products/axe-fx-iii-mkii-turbo-preamp-fx-processor
 [AX3-H]: https://www.fractalaudio.com/iii/
