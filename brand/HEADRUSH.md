@@ -697,7 +697,6 @@ Checked **2026-11-04** against the manufacturer support articles below. Neither 
 
 No local download,transfer,calibration ordevice operation. Independent queues and402-model membership remain unchanged;screen specifications,rig capacity,current installed library andqualified stock are still open.
 
-
 ## VX5
 
 <!-- comparison evidence begins -->

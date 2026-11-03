@@ -1411,7 +1411,6 @@ Checked **2026-11-04** in the [manufacturer Footswitch Functions Guide](https://
 
 No local download or device operation. Existing physical-display, global-volume and market uncertainties remain; no inventory or instrument-membership change.
 
-
 ## FM9 original
 
 Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct from Turbo and MKII Turbo. Not fully verified; no ownership or live-stock assertion. The complete discovery body follows under its old anchor. Earlier outside-inventory statements are historical checkpoints, not the current admission status.

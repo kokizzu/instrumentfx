@@ -145417,6 +145417,15 @@
         "instrument": "Aco.Sim;composite presets distinct",
         "qualification": "2017 shared support-linked list;installed content unverified;seven-slot DSP",
         "evidence_basis": "Focused exact-model shared-list check,not full fresh audit"
+      },
+      {
+        "key": "Neural DSP::Nano Cortex",
+        "canonical": "brand/NEURAL-DSP.md#nano-cortex",
+        "synth": "Dedicated engine unverified;filters distinct",
+        "pitch": "Transpose pre1 only;range/polyphony unverified",
+        "instrument": "Dedicated instrument simulation unverified",
+        "qualification": "Five slots;DualReverseDelay post2;Doubler/Tremolo post1 alternatives;introduction versions explicit",
+        "evidence_basis": "Focused2026-11-04 manufacturer device list and NanOS2.2.0 manual;not full fresh audit"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -145438,45 +145447,50 @@
     ],
     "independent_queues_preserved": true,
     "additional_index_presentation": {
-      "checked_date": "2026-11-03",
-      "records": 44,
-      "change": "Indexed existing active G3Xn;membership unchanged.",
+      "checked_date": "2026-11-04",
+      "records": 45,
+      "change": "Indexed existing active Nano Cortex;no membership change.",
       "previous": {
         "checked_date": "2026-11-03",
-        "records": 43,
-        "change": "IndexedexistingactiveME90creativealgorithms;membershipunchanged.",
+        "records": 44,
+        "change": "Indexed existing active G3Xn;membership unchanged.",
         "previous": {
           "checked_date": "2026-11-03",
-          "records": 42,
-          "change": "IndexedexistingactiveG1Xon;pedalendpoint/notehandling distinctions;membershipunchanged.",
+          "records": 43,
+          "change": "IndexedexistingactiveME90creativealgorithms;membershipunchanged.",
           "previous": {
             "checked_date": "2026-11-03",
-            "records": 41,
-            "change": "IndexedexistingactiveG1oncreativeprocessing;membershipunchanged.",
+            "records": 42,
+            "change": "IndexedexistingactiveG1Xon;pedalendpoint/notehandling distinctions;membershipunchanged.",
             "previous": {
               "checked_date": "2026-11-03",
-              "records": 40,
-              "change": "IndexedexistingactiveHelixLT;supersededqualifiedsynth/acousticunknown;membershipunchanged.",
+              "records": 41,
+              "change": "IndexedexistingactiveG1oncreativeprocessing;membershipunchanged.",
               "previous": {
                 "checked_date": "2026-11-03",
-                "records": 39,
-                "change": "Indexed existingactiveAX3B;correctedmanualedition/resetattribution;membershipunchanged.",
+                "records": 40,
+                "change": "IndexedexistingactiveHelixLT;supersededqualifiedsynth/acousticunknown;membershipunchanged.",
                 "previous": {
                   "checked_date": "2026-11-03",
-                  "records": 38,
-                  "change": "Indexed existingactiveAX3000B;membershipunchanged;focusedcreativecheck.",
+                  "records": 39,
+                  "change": "Indexed existingactiveAX3B;correctedmanualedition/resetattribution;membershipunchanged.",
                   "previous": {
                     "checked_date": "2026-11-03",
-                    "records": 37,
-                    "change": "Indexed existingactiveAX1500G;noinventoryadmission orwholecatalogueaudit.",
+                    "records": 38,
+                    "change": "Indexed existingactiveAX3000B;membershipunchanged;focusedcreativecheck.",
                     "previous": {
                       "checked_date": "2026-11-03",
-                      "records": 36,
-                      "change": "Indexed existing active Stadium XL;not inventory admission orwhole-catalogue reaudit.",
+                      "records": 37,
+                      "change": "Indexed existingactiveAX1500G;noinventoryadmission orwholecatalogueaudit.",
                       "previous": {
                         "checked_date": "2026-11-03",
-                        "records": 33,
-                        "change": "Corrected stale 31-record introduction to 33 and removed blank lines splitting the additional-catalogue Markdown table. No technical claims, ownership, instrument membership or independent queues changed."
+                        "records": 36,
+                        "change": "Indexed existing active Stadium XL;not inventory admission orwhole-catalogue reaudit.",
+                        "previous": {
+                          "checked_date": "2026-11-03",
+                          "records": 33,
+                          "change": "Corrected stale 31-record introduction to 33 and removed blank lines splitting the additional-catalogue Markdown table. No technical claims, ownership, instrument membership or independent queues changed."
+                        }
                       }
                     }
                   }
@@ -147512,6 +147526,30 @@
       "Volume endpoints/recall/bypass/phones/tails/loops"
     ],
     "next": "Retain Mini global-volume Unknown;continue other accessible unresolved items without waiting on this PDF or controller identity",
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
+  },
+  "nano_creative_pickup_scope_20261104": {
+    "model": "Neural DSP Nano Cortex",
+    "checked": "2026-11-04",
+    "canonical": "brand/NEURAL-DSP.md#nano-cortex--creative-slot-limits-and-knob-pickup-scope",
+    "sources": [
+      "https://neuraldsp.com/nano-cortex-device-list",
+      "https://neuraldsp.com/manual/nano-cortex",
+      "https://shopee.co.id/Neural-DSP-Nano-Cortex-Digital-Effects-Processor-i.16879370.51902266280"
+    ],
+    "finding": "Transpose/creative slot restrictions indexed;CaptureVolume knob pickup separated from analog expression recall",
+    "versions": "Transpose1.0.0;DualReverseDelay/filters/Doubler2.0.0;Tremolo2.2.0;manual2.2.0",
+    "offer": "Same Rp11900000 Habis,last-month cache;not live stock",
+    "remaining": [
+      "Transpose range/polyphony",
+      "Dedicated synth/instrument simulation",
+      "LEVEL assignment conflict/global scope",
+      "Held-pedal recall/output coverage",
+      "USB recording channel2",
+      "Qualified stock"
+    ],
+    "additional_creative_records": 45,
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
   }

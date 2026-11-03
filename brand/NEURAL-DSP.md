@@ -281,6 +281,19 @@ Checked **2026-11-03** in the [official NanOS2.2.0 manual](https://neuraldsp.com
 
 The LEVEL andHP controls in calibration retain their mode-specific qualifications;capture monitoring doesnot resolve performance-mode expression attenuation. Official expression target lists still disagree,andneither establishes an all-preset global override. No microphone connected,voltage supplied,capture performed orfile downloaded.
 
+### Nano Cortex — creative slot limits and knob-pickup scope
+
+Checked **2026-11-04** against the [manufacturer device list](https://neuraldsp.com/nano-cortex-device-list) and [NanOS2.2.0 HTML manual](https://neuraldsp.com/manual/nano-cortex). Listed introduction versions are not installed-version evidence;this is a focused check,not a new complete-profile audit.
+
+| Field | Exact-model finding / qualification |
+|---|---|
+| Pitch / Transpose placement | Device list: **Transpose,from1.0.0,pre-effects slot1 only**. The checked listing does not specify its numeric range,input polyphony orlatency;do not borrow Quad Cortex pitch/synth specifications. |
+| Processing / creative alternatives | **Dual Reverse Delay** uses post slot2; **Envelope Filter/Love Meat** use either pre slot; **Doubler** uses post slot1,all listed from2.0.0. **Tremolo**,from2.2.0,also uses post1,so it cannot occupy that same slot simultaneously with Doubler. Reverse delay,filters anddoubling are distinct from a tracking synth;dedicated synth/instrument simulation remain unverified. |
+| Expression / physical-knob pickup boundary | **NanOS2.2.0 manual,Capture Volume & Input Gate:** LEVEL waits until its position matches the LED-indicated value before changing Capture Volume. The separate **Knob Operation Mode** defaults to immediate changes;disabling it enables pickup for knob parameters. Neither is expression-pedal position recall,a persistent all-preset assignment orfinal-output mute. Keep the disputed expression LEVEL list separate. |
+| IDR / existing exact hardware cache | [Seven Stereo,16879370/51902266280](https://shopee.co.id/Neural-DSP-Nano-Cortex-Digital-Effects-Processor-i.16879370.51902266280) again shows **Rp11.900.000,Habis**,last-month crawl. Condition,bundle,warranty andcheckout remain unverified;not current availability. |
+
+The seven selected creative records remain separate from this additional catalogue match. Five effect slots andtheir placement restrictions remain;no active-model orinstrument-membership change. Global analog volume,held-pedal recall,bypass/phones/tails/loops andrecording channel2 remain unresolved. No download,app operation ordevice connection.
+
 ## Quad Cortex
 
 Partial record checked **2026-10-17**. Full Quad Cortex,distinct from Nano Cortex andQuad Cortex mini. Product page advertises CorOS4.1.0;current web manual identifies4.1.1. Seller firmware unverified.
