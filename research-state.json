@@ -144435,5 +144435,22 @@
       "No firmware1.1.0 orglobal analog volume certification"
     ],
     "next": "Defer inaccessible1.1.0 manual;continue remaining individual-screen andno-treadle inventory andGP-200JR→Prime→GE300 research."
+  },
+  "hxe_pitch_synth_names_20261103": {
+    "model": "Line 6 HX Effects",
+    "checked": "2026-11-03",
+    "source": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "revision": "3.80 RevD,printedp23",
+    "counts": {
+      "hx": 12,
+      "legacy": 17,
+      "total": 29
+    },
+    "scope": "Named rows,not simultaneous capacity;polyphonic processing andmono routing distinguished;generator blocks need noinstrument input",
+    "limits": [
+      "Installed firmware/performance untested",
+      "Global analog volume gaps unchanged"
+    ],
+    "next": "Continue remaining exact category names andLCD-first research;independent GP-200JR→Prime→GE300 queue preserved."
   }
 }
