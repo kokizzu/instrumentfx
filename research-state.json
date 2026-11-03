@@ -147983,5 +147983,25 @@
     "scope": "Audio-following,grid,MIDI,sample and generative triggering separated;factory expression targets vary.",
     "next": "Current module census,ports/editor/imports,exact Shopee item;global volume remains unknown.",
     "active_inventory_changed": false
+  },
+  "zoia_field_reconciliation_20261104": {
+    "checked": "2026-11-04",
+    "canonical": "brand/EMPRESS.md#zoia--partial-no-treadle-discovery",
+    "status": "Partial;required-field summary reconciled from retained sources,not active admission.",
+    "resolved": [
+      "factory table60named/4blank",
+      "44 addressable hand buttons vs shifted functions",
+      "patch gain andMIDI voice allocation scope"
+    ],
+    "deferred": [
+      "exact Shopee seller/item andcondition-qualified new/used offers",
+      "full current firmware module census",
+      "complete audio connector details andUSB/headphones",
+      "editor/driver/import format support",
+      "global volume assignment,position/range,bypass andtail/loop coverage"
+    ],
+    "queue_action": "Inaccessible sources deferred;continue other accessible LCD-first/general research before repeating unchanged failed retrievals.",
+    "independent_queues_preserved": true,
+    "active_inventory_changed": false
   }
 }
