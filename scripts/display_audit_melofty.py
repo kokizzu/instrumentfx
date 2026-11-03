@@ -20,7 +20,11 @@ if sys.argv[1:] in (["stage-collection"], ["collection"]):
     review_path = Path("/tmp/instrumentfx-display-staged-review.json")
     assert not git("diff", "--check").strip()
     if sys.argv[1:] == ["stage-collection"]:
-        assert changed and not staged, "Existing staging or no changes"
+        if staged:
+            previous = json.loads(review_path.read_text())
+            assert previous["head"] == git("rev-parse", "HEAD").strip(), "HEAD changed since review"
+            assert previous["sha256"] == hashlib.sha256(git("diff", "--cached").encode()).hexdigest(), "Unreviewed staged changes"
+        assert changed, "No changes to review"
         git("add", "--", *sorted(changed))
         diff = git("diff", "--cached")
         Path("/tmp/instrumentfx-display-staged.diff").write_text(diff)
@@ -33,7 +37,7 @@ if sys.argv[1:] in (["stage-collection"], ["collection"]):
         assert review["head"] == git("rev-parse", "HEAD").strip()
         assert review["sha256"] == hashlib.sha256(git("diff", "--cached").encode()).hexdigest()
         assert not git("diff", "--cached", "--check").strip()
-        message = "docs: repair remaining canonical links with reversible provenance" if "brand/IK-MULTIMEDIA.md" in staged else "research(morningstar): qualify MC6 MKII shared screen and Shopee offers" if "brand/MORNINGSTAR.md" in staged else "docs(melofty): consolidate AXOM MAX current evidence summary" if "brand/MELOFTY.md" in staged else "docs: restore requested separate-screen processor priority"
+        message = "docs: repair remaining canonical links with reversible provenance" if "brand/IK-MULTIMEDIA.md" in staged else "research(morningstar): qualify MC6 PRO profile and manufacturer conflicts" if "brand/MORNINGSTAR.md" in staged else "docs(melofty): consolidate AXOM MAX current evidence summary" if "brand/MELOFTY.md" in staged else "docs: restore requested separate-screen processor priority"
         print(git("commit", "-m", message))
     raise SystemExit(0)
 

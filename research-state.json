@@ -148322,5 +148322,30 @@
     ],
     "next": "Continue requested individual-screen processor gaps;preserve general GP-200JR -> Prime -> GE300 order and independent expression queue.",
     "active_inventory_changed": false
+  },
+  "mc6_pro_profile_conflict_20261104": {
+    "checked": "2026-11-04",
+    "model": "Morningstar MC6 PRO",
+    "status": "Expanded existing partial controller;not active audio model",
+    "sources": {
+      "manual": "https://help.morningstar.io/en/article/mc6-pro-user-manual-psevjy/",
+      "manual_updated": "2026-09-23;exact firmware number unstated",
+      "product": "https://www.morningstar.io/mc6-pro",
+      "shop": "https://shop.morningstar.io/products/MC6-PRO-p531932004",
+      "retailer": "https://www.sweelee.co.id/en/products/morningstar-mc6-pro-midi-controller"
+    },
+    "canonical_section": "brand/MORNINGSTAR.md#mc6-pro--physical-profile-and-conflicting-manufacturer-panel",
+    "conflict": "Current product specification panel contradicts its headline,manual and prior same-URL snapshot;retained explicitly without inferred hardware revision or MC8 transfer.",
+    "market": "No exact Shopee PRO recovered;non-Shopee waitlist ask only. See canonical condition/stock qualifications.",
+    "remaining": [
+      "Manufacturer corrections",
+      "Exact firmware applicability",
+      "Display diagonal/pixels/touch",
+      "Separate knob/button census",
+      "Expression pinout and toe combination",
+      "Qualified Shopee hardware stock/condition"
+    ],
+    "next": "Return to requested processor capability gaps before further controller expansion;general GP-200JR -> Prime -> GE300 queue retained.",
+    "active_inventory_changed": false
   }
 }
