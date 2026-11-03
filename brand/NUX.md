@@ -104,6 +104,18 @@ Checked **2026-11-03** in an [Algam-hosted eight-page French manual](https://alg
 
 The complete translated connector section still supplies no expression socket. Current memory allocation, exact USB matrix and whole-output volume coverage remain unresolved; partial lead stays outside active counts. No local download, installation or device operation.
 
+### NGS-6 — electrical claims and additional exact hardware offers
+
+Checked **2026-11-04**. The [exact manufacturer page](https://nuxaudio.com/product/ampacademy/) specifies **1MΩ input /1kΩ output impedance**, **48kHz/32-bit**, and claims **1.2ms system latency /110dB dynamic range**. Test conditions, active processing and measurement paths are unstated: these are not measured USB round-trip latency, guaranteed settings-independent latency, headphone load/output power or EXP resistance. Converter channel counts do not establish exposed USB streams. The optional adapter is explicitly **ACD-006A**;this does not identify the Rockwell supply below.
+
+| Exact Shopee hardware offer | Cached ask / evidence boundary |
+|---|---|
+| [Simpleton Merch,1163426350/27862316437](https://shopee.co.id/Nux-NGS-6-Amp-Academy-Amp-Modeler-NGS6-Adaptor-Rockwell-i.1163426350.27862316437),KotaBogor | **Rp1.500.000**,month-old direct snapshot,**Habis**. Title includes NGS-6 plus Rockwell adapter;condition andadapter voltage/polarity/current unverified. September27–30 delivery dates are stale;late-delivery voucher≤Rp10.000 is not deducted. |
+| [RAJA SPORTS AND MUSIK,261274139/10491290999](https://shopee.co.id/NUX-NGS-6-Amp-Academy-Amp-Modeler-with-IRs-Effects-NGS6-NGS-6-Efek-Gitar-NUX-NGS-6-Amp-Academy-Amp-Modeler-with-IRs-Effects-NGS6-NGS-6-Efek-Gitar-i.261274139.10491290999),KotaMedan | **Rp3.390.000**,two-month direct snapshot,exact processor title. Condition/stock/bundle unknown;August15–18 delivery stale. Late-delivery voucher≤Rp10.000 is not a checkout discount. |
+| [Seven Stereo Music & Audio Store,16879370/14960983674](https://shopee.co.id/Nux-NGS-6-NGS-6-Amp-Academy-Amp-Modeler-Effect-Gitar-i.16879370.14960983674),KotaBandung | **Rp3.380.000**,direct snapshot indexed last week,**Toko Sedang Libur**. Shop holiday is distinct from item sold-out;neither live stock nor checkout availability established. Condition/bundle unverified. |
+
+All three are hardware-title evidence,not verified new/used grades,completed sales orcurrent purchasable offers. Working state,variant,firmware,remaining accessories,warranty,authenticity,shipping/tax andfinal checkout total remain unknown. Older exact offers stay preserved;do not combine asks into a condition-specific market range. Partial lead remains outside the current402 active models. Native/converted NAM,synth/acoustic simulation,current memory allocation andUSB matrix remain unresolved. No downloads ordevice operation.
+
 ## Amp Academy Stomp
 
 Checked2026-10-17;partial. Separate hardware from original Amp Academy;not previously inventoried. Guitar multi-effects eligibility follows independent effects architecture. Bass/vocal suitability and ownership unresolved.

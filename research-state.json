@@ -147768,5 +147768,44 @@
     "conflict": "Manual exposes loopback controls only under Vendor; support article covers desktop/iOS then gives unqualified loopback steps. Generic/iOS loopback unresolved.",
     "next": "USB audio stream matrix/formats, global-volume output coverage and qualified hardware offer remain; source-blocked gaps may be deferred without changing independent queues.",
     "active_inventory_changed": false
+  },
+  "ngs6_electrical_offers_20261104": {
+    "checked": "2026-11-04",
+    "canonical": "brand/NUX.md#ngs-6--electrical-claims-and-additional-exact-hardware-offers",
+    "manufacturer": "https://nuxaudio.com/product/ampacademy/",
+    "electrical": "1MΩ input/1kΩ output;48kHz32bit;claimed1.2ms system latency/110dB dynamic range with no test-path conditions;not USB round-trip or headphone/EXP ratings",
+    "offers": [
+      {
+        "seller": "1163426350",
+        "item": "27862316437",
+        "name": "Simpleton Merch",
+        "region": "KotaBogor",
+        "idr": 1500000,
+        "stock_snapshot": "Habis",
+        "bundle_title": "NGS-6 plus Rockwell adapter;electrical compatibility unknown",
+        "cache": "month-old direct"
+      },
+      {
+        "seller": "261274139",
+        "item": "10491290999",
+        "name": "RAJA SPORTS AND MUSIK",
+        "region": "KotaMedan",
+        "idr": 3390000,
+        "stock_snapshot": "unverified",
+        "cache": "two-month direct"
+      },
+      {
+        "seller": "16879370",
+        "item": "14960983674",
+        "name": "Seven Stereo Music & Audio Store",
+        "region": "KotaBandung",
+        "idr": 3380000,
+        "stock_snapshot": "Shop holiday;item stock unverified",
+        "cache": "direct indexed last week"
+      }
+    ],
+    "qualification": "Allcondition/workingstate/variant/firmware/bundle/warranty/authenticity/shipping/tax/checkoutunverified except explicit bundle title;not current availability or verifiednewused.",
+    "next": "Current memory/USB matrix,import andsound distinctions andfull profile remain;do not repeat connectorEXP exclusion.",
+    "active_inventory_changed": false
   }
 }
