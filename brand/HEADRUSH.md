@@ -434,6 +434,7 @@ Own2.7 cumulative notes,p.4: feedback affects recording/overdub rather than play
 | Blocks / routing | **14 available blocks**, DSP-limited. Dual-guitar paths retain separate inputs; guitar/vocal paths offer **7 vocal/7 guitar, 4 vocal/10 guitar, or 2 vocal/12 guitar slots** in guide5.2.0 p17. Other guitar-only split routings exist. The earlier seven-per-input summary was incomplete for guitar/vocal mode; see correction below. Repeated block types allowed subject to CPU. A dry-mic output path is not fourteen additional vocal FX. [PR-M pp.14–17; PR-S] |
 | Blocks / Dry Mic Out boundary | [Prime-specific FAQ](https://support.headrushfx.com/en/support/solutions/articles/69000834532-headrush-prime-frequently-asked-questions),checked **2026-11-03**: Straight Path,Middle Split andImmediate Split can retain **Mic Dry Out** alongside the guitar chain. Its fixed controls include **noise gate,compression,high-pass filter andsimple EQ**,but arbitrary vocal effects cannot be inserted inthis mic path. Thus “dry” doesnot necessarily mean wholly unprocessed;it isnot another14-slot vocal chain. FAQ firmware unstated;current5.2 equivalence andindependent simultaneous-resource limits untested. |
 | Looper / destructive edits andlayer scope | Same [Prime FAQ](https://support.headrushfx.com/en/support/solutions/articles/69000834532-headrush-prime-frequently-asked-questions): **Peel** removes the most recently recorded layer,repeated presses working backward. **Insert punches into a chosen section andoverwrites all previous layers there**,rather than adding a normal overdub. Only **one loop at a time** is documented;50 layers are not50 independently playing loops. Undo/recovery afterInsert,power-cycle retention andcurrent5.2 equivalence remain unverified. No device recording orfile operation performed. |
+| Categories / visible reference census | [Current product-list recount](#prime--visible-reference-list-reconciliation) finds **125 effect rows /124 distinct names**, plus separate amp/cab/mic libraries. ReValver amps **47 names versus44 header**;overdrive **18 versus16**;pitch **8 rows/7 names** because Octaves repeats. This reconciles displayed rows, not installed5.2 content, independent DSP algorithms or concurrency. Earlier header counts remain preserved. |
 | Memory | FAQ states **50 preloaded factory rigs**; firmware-current installed content and numerical total rig/user storage ceiling unverified. Rigs, block presets, scenes, setlists, loops and captures are distinct objects. MIDI program numbers 1–128 are not proof of only 128 stored rigs. [PR-F, PR-M] |
 | Synth / acoustic | Current Prime list explicitly includes **Hybrid Synth, Electric Piano and DB-33 Organ**; Ambi-Verb is also classified under Synth. **Acoustic Sim** and Acoustic Pre are separate EQ-category entries. Do not equate the acoustic preamp or an IR with the simulator. [PR-P] |
 | Vocal | Antares Auto-Tune, De-Esser, Vocal Distortion, Doubler, Harmony, Stutter and Vocoder are separately listed; mic path and routing qualifications above apply. [PR-P, PR-S] |
@@ -571,6 +572,39 @@ Checked **2026-11-03** in the already-saved [original Prime User Guide5.2.0](htt
 | NAM / output modes | **Raw** retains model-dependent output;**Calibrated** uses stored metadata ifavailable;**Normalize** automatically adjusts toward a target peak. No numerical target orstandardized loudness guarantee supplied. Capture calibration/normalization is separate from expression-pedal calibration andglobal assignment. |
 
 This narrows practical NAM applicability without changing the12OLED hardware layout,native-versus-converted classification orhistorical factory library. Actual installed firmware,complete current category census,rig storage ceiling andqualified current Shopee hardware stock remain unresolved.
+### Prime — visible reference list reconciliation
+
+Checked **2026-11-03** against the [exact Prime manufacturer page](https://www.headrushfx.com/products/prime/index.html), first compact FX Overview list only; repeated illustrated cards are not counted again.
+
+| Reference group | Printed header | Named rows | Distinct names within group |
+|---|---:|---:|---:|
+| HEADRUSH AMP MODELS | 53 | 53 | 53 |
+| REVALVER AMP MODELS | 44 | 47 | 47 |
+| HEADRUSH CAB MODELS | 15 | 15 | 15 |
+| HEADRUSH CAB MICS | 10 | 10 | 10 |
+| REVALVER CABS | 67 | 67 | 67 |
+| REVALVER CAB MICS | 31 | 31 | 31 |
+| VOCAL FX | 7 | 7 | 7 |
+| OVERDRIVE | 16 | 18 | 18 |
+| DISTORTION/FUZZ | 11 | 11 | 11 |
+| EQ | 9 | 9 | 9 |
+| COMPRESSOR | 6 | 6 | 6 |
+| DELAY | 14 | 14 | 14 |
+| REVERB | 7 | 7 | 7 |
+| CHORUS | 7 | 7 | 7 |
+| PHASER/FLANGER | 10 | 10 | 10 |
+| VIB/TREM/ROTARY | 6 | 6 | 6 |
+| WAH/FILTER | 8 | 8 | 8 |
+| SYNTH | 4 | 4 | 4 |
+| RHYTHMIC | 2 | 2 | 2 |
+| PITCH | 7 | 8 | 7 |
+| VOLUME/DYNAMICS | 5 | 5 | 5 |
+| UTILITY | 3 | 3 | 3 |
+
+ReValver’s47 includes **25 ON-1 Clean/Crunch/Lead**; its header still says44. Pitch repeats **Octaves**;deduplicating that name yields7, not proof that two same-named algorithms exist. The16 effect groups total **125 rows /124 distinct names**, excluding amps,cabs,mics,IRs and downloaded captures. These are dated website counts,not an installed-library certification or unique-algorithm total.
+
+IR listing separately shows15 HeadRush families×20files=300 and15 Choptones files;families are not individual files. EQ shows9 names includingBASS EQ,GRAPHIC EQ,10 Freq EQ;their exact mapping tofirmware5.1 Graphic Bass EQ remains unresolved. The600+ marketing figure has a broader,unreconciled scope. No download ordevice test.
+
 
 ## VX5
 

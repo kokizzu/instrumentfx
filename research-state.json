@@ -144540,5 +144540,140 @@
       "Current software andrelease qualifications"
     ],
     "next": "Continue remaining no-treadle inventory andindividual footswitch-display research;preserve GP-200JR→Prime→GE300 queue."
+  },
+  "prime_visible_library_recount_20261103": {
+    "model": "HeadRush Prime",
+    "checked": "2026-11-03",
+    "source": "https://www.headrushfx.com/products/prime/index.html",
+    "method": "First compact FX Overview list;exclude repeated illustrated cards;exact-name deduplication within each group",
+    "counts": [
+      {
+        "heading": "HEADRUSH AMP MODELS (53)",
+        "rows": 53,
+        "unique": 53
+      },
+      {
+        "heading": "REVALVER AMP MODELS (44)",
+        "rows": 47,
+        "unique": 47
+      },
+      {
+        "heading": "HEADRUSH CAB MODELS (15)",
+        "rows": 15,
+        "unique": 15
+      },
+      {
+        "heading": "HEADRUSH CAB MICS (10)",
+        "rows": 10,
+        "unique": 10
+      },
+      {
+        "heading": "REVALVER CABS (67)",
+        "rows": 67,
+        "unique": 67
+      },
+      {
+        "heading": "REVALVER CAB MICS (31)",
+        "rows": 31,
+        "unique": 31
+      },
+      {
+        "heading": "VOCAL FX (7)",
+        "rows": 7,
+        "unique": 7
+      },
+      {
+        "heading": "OVERDRIVE (16)",
+        "rows": 18,
+        "unique": 18
+      },
+      {
+        "heading": "DISTORTION/FUZZ (11)",
+        "rows": 11,
+        "unique": 11
+      },
+      {
+        "heading": "EQ (9)",
+        "rows": 9,
+        "unique": 9
+      },
+      {
+        "heading": "COMPRESSOR (6)",
+        "rows": 6,
+        "unique": 6
+      },
+      {
+        "heading": "DELAY (14)",
+        "rows": 14,
+        "unique": 14
+      },
+      {
+        "heading": "REVERB (7)",
+        "rows": 7,
+        "unique": 7
+      },
+      {
+        "heading": "CHORUS (7)",
+        "rows": 7,
+        "unique": 7
+      },
+      {
+        "heading": "PHASER/FLANGER (10)",
+        "rows": 10,
+        "unique": 10
+      },
+      {
+        "heading": "VIB/TREM/ROTARY (6)",
+        "rows": 6,
+        "unique": 6
+      },
+      {
+        "heading": "WAH/FILTER (8)",
+        "rows": 8,
+        "unique": 8
+      },
+      {
+        "heading": "SYNTH (4)",
+        "rows": 4,
+        "unique": 4
+      },
+      {
+        "heading": "RHYTHMIC (2)",
+        "rows": 2,
+        "unique": 2
+      },
+      {
+        "heading": "PITCH (7)",
+        "rows": 8,
+        "unique": 7
+      },
+      {
+        "heading": "VOLUME/DYNAMICS (5)",
+        "rows": 5,
+        "unique": 5
+      },
+      {
+        "heading": "UTILITY (3)",
+        "rows": 3,
+        "unique": 3
+      }
+    ],
+    "effect_totals": {
+      "rows": 125,
+      "distinct_names": 124,
+      "groups": 16
+    },
+    "conflicts": [
+      "ReValver47names/header44",
+      "Overdrive18names/header16",
+      "Pitch8rows/7names;Octaves repeated",
+      "WebsiteEQ names not fully reconciled with5.1 Graphic Bass EQ"
+    ],
+    "limits": [
+      "Not installed5.2 census orunique DSP algorithm count",
+      "Amp/cab/mic/IR groups remain separate",
+      "No download ordevice operation"
+    ],
+    "next": "Continue independent general queue with MOOER GE300;keep individual footswitch displays andcompact global-volume gaps prioritized."
   }
 }
