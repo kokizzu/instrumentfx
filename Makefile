@@ -2351,3 +2351,9 @@ consolidation-test-preservation-kinds:
 
 consolidation-stage-preservation-repairs:
 	python3 scripts/consolidation_tools.py stage-preservation-repairs
+
+expression-audit-stage-walrus:
+	python3 scripts/expression_audit_poly.py stage-walrus
+
+expression-audit-commit-walrus:
+	python3 scripts/expression_audit_poly.py commit-walrus

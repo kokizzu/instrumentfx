@@ -700,3 +700,7 @@ Gen2 [regional footprint follow-up](brand/EVENTIDE.md#h9-gen-2--regional-body-di
 FM3 MKII Turbo [shared-jack restriction](brand/FRACTAL-AUDIO.md#fm3-mkii-turbo--shared-jack-expression-and-switch-exclusion):expression mode disables the ring-switch source;separate toe contacts require a separate supported connection. Actual M-VAVE wiring andglobal-volume range/recall remain unverified.
 
 Stadium XL [Matrix MIDI scope](brand/LINE6.md#stadium-xl--matrix-midi-layers-and-assignment-clearing-boundary) separately controls output layers andsources;it doesnot establish direct analog all-preset volume. Mono/stereo effect conversion clears controller/snapshot assignments even though parameter settings remain.
+
+### Walrus Audio ACS1 MKII — partial no-treadle discovery
+
+[Exact-model screening](brand/WALRUS-AUDIO.md#acs1-mkii--partial-no-treadle-discovery), outside active counts. No direct analog EXP socket in the documented inventory; MIDI volume is separate. Dedicated headphones and three-preset forward cycling do not establish onboard down/up. Manual footprint fits the preferred rectangle, but product-page dimensions conflict. Exact Shopee hardware remains unverified.

@@ -7,18 +7,23 @@ from research_tools import git, verify
 import comparison_views
 
 if __name__ == '__main__':
-    assert sys.argv[1:] in (['stage'], ['commit'])
+    assert sys.argv[1:] in (['stage'], ['commit'], ['stage-walrus'], ['commit-walrus'])
+    walrus = sys.argv[1].endswith('-walrus')
+    stage_mode = sys.argv[1].startswith('stage')
     review_path = Path('/tmp/instrumentfx-poly-staged-review.json')
     verify()
     comparison_views.verify_views()
     comparison_views.test_readme_brand_counts()
     comparison_views.test_validation_counts()
     allowed = {'EXPRESSION-VOLUME.md', 'brand/POLY-EFFECTS.md', 'README.md', 'research-state.json', 'scripts/expression_audit_poly.py', 'Makefile'}
+    if walrus:
+        allowed.remove('brand/POLY-EFFECTS.md')
+        allowed.add('brand/WALRUS-AUDIO.md')
     changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
     staged = set(git('diff','--cached','--name-only').splitlines())
     assert (changed | staged) <= allowed, (changed | staged) - allowed
     assert not git('diff','--check').strip(), 'Whitespace errors'
-    if sys.argv[1:] == ['stage']:
+    if stage_mode:
         assert not staged, 'Existing staged changes'
         assert changed, 'No changes to review'
         git('add','--',*sorted(changed))
@@ -35,4 +40,5 @@ if __name__ == '__main__':
         assert review['head'] == git('rev-parse','HEAD').strip(), 'HEAD changed since review'
         assert review['sha256'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest(), 'Staged diff changed since review'
         assert not git('diff','--cached','--check').strip(), 'Staged whitespace errors'
-        print(git('commit','-m','research(poly): qualify Beebo Nano NAM and capture workflow'))
+        message = 'research(walrus): screen ACS1 MKII direct expression and footprint' if walrus else 'research(poly): qualify Beebo Nano NAM and capture workflow'
+        print(git('commit','-m',message))

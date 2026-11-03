@@ -138519,7 +138519,8 @@
     "brand/POSITIVE-GRID.md",
     "brand/RJM-MUSIC.md",
     "brand/SINGULAR-SOUND.md",
-    "brand/STRYMON.md"
+    "brand/STRYMON.md",
+    "brand/WALRUS-AUDIO.md"
   ],
   "supplemental_brand_sort_20261101": {
     "checked": "2026-11-01",
@@ -144202,5 +144203,31 @@
       "No qualified exact Shopee hardware offer"
     ],
     "next": "Continue separate-footdisplay priorities and exact Shopee hardware discovery; defer inaccessible English/manual and maker-site sources."
+  },
+  "walrus_acs1_mkii_discovery_20261103": {
+    "model": "Walrus Audio ACS1 MKII",
+    "canonical": "brand/WALRUS-AUDIO.md#acs1-mkii--partial-no-treadle-discovery",
+    "status": "Partial scope-adjacent no-treadle discovery; outside active counts",
+    "sources": [
+      "https://www.walrusaudio.com/collections/mako-series-mkii/products/mako-series-mkii-acs1-amp-cab-simulator",
+      "https://cdn.shopify.com/s/files/1/0906/8480/files/ACS1_MKII_Digital_Manual.pdf?v=1737133804"
+    ],
+    "direct_analog_expression": "No socket in documented inventory; MIDI volume is separate",
+    "headphones": "Dedicated; Volume knob controls",
+    "preset_navigation": "Both switches cycle three slots in selected bank; no dedicated down/up established",
+    "dimensions_conflict": {
+      "manual": "74.33 W x124.37 D x63.15 H mm including knobs/jacks",
+      "product": "4.9 x2.52 x2.64 inches; axes unspecified"
+    },
+    "shopee": "No qualified exact item found; absence not established",
+    "remaining": [
+      "Multi-effects admission scope",
+      "Full library/concurrency and factory allocation",
+      "Firmware/editor/IR limits",
+      "Bypass/tail coverage",
+      "Resolve chassis discrepancy",
+      "Qualified exact Shopee used/new offers"
+    ],
+    "next": "Continue remaining no-treadle inventory without transferring original ACS1 specifications; retain separate-screen research priority and independent GP-200JR -> Prime -> GE300 cursor."
   }
 }

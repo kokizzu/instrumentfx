@@ -119,3 +119,5 @@ Incoming expression-volume sources from origin/main87c7d38 are preserved in the 
 [Empress ZOIA](brand/EMPRESS.md#zoia--partial-no-treadle-discovery) is a partial no-treadle discovery outside active counts; patch expression routing does not establish a global volume override.
 
 [Poly Effects Beebo](brand/POLY-EFFECTS.md#beebo--partial-no-treadle-discovery) is a partial modular/no-treadle discovery outside active counts; direct analog expression and qualified Indonesian hardware remain unverified.
+
+[Walrus Audio ACS1 MKII](brand/WALRUS-AUDIO.md#acs1-mkii--partial-no-treadle-discovery) is a partial no-treadle amp/cab-plus-effects lead outside active counts; no analog EXP socket is documented and chassis dimensions conflict.
