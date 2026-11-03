@@ -2166,7 +2166,7 @@ def commit_preservation_repairs(stage=False):
         assert review['head'] == research_tools.git('rev-parse', 'HEAD').strip()
         assert review['sha256'] == digest(research_tools.git('diff', '--cached'))
         assert not research_tools.git('diff', '--cached', '--check').strip()
-        print(research_tools.git('commit', '-m', 'fix(audit): verify earliest HeadRush source contents'))
+        print(research_tools.git('commit', '-m', 'build(audit): enumerate historical technical source variants'))
 
 def audit_historical_sources():
     """Compare the earliest Core/Flex source blobs with the preserved originals."""
@@ -2187,7 +2187,82 @@ def audit_historical_sources():
     Path('/tmp/instrumentfx-historical-source-audit.json').write_text(json.dumps(results, indent=2)+'\n')
     print('Review /tmp/instrumentfx-historical-source-audit.json; equality is provenance, not manufacturer/current-stock verification.')
 
+
+
+def source_history_status(body, preserved, current, legacy_redirect):
+    if body == preserved:
+        return 'registered-original'
+    if body == current:
+        return 'current-compatibility-redirect'
+    if body == legacy_redirect:
+        return 'pre-layout-compatibility-redirect'
+    return 'historical-variant-needs-review'
+
+
+def test_source_history_status():
+    inputs = ('original technical evidence', 'current redirect', 'old namespace redirect')
+    expected = ('registered-original', 'current-compatibility-redirect', 'pre-layout-compatibility-redirect')
+    for body, status in zip(inputs, expected):
+        assert source_history_status(body, *inputs) == status
+        assert source_history_status(body + ' changed fact', *inputs) == 'historical-variant-needs-review'
+    assert source_history_status('', *inputs) == 'historical-variant-needs-review'
+    print('PASS: exact history classification; changed source/redirect bodies remain pending.')
+
+def audit_source_history():
+    """Enumerate unique technical-source revisions reachable from current HEAD.
+
+    Exact matches bind to existing preservation checks. Other revisions require
+    review; differences are not automatically data loss or authorization to delete.
+    """
+    import difflib
+    from technical_retirement import SOURCES
+    from brand_filename_migration import original_namespace
+    research_tools.identity()
+    test_source_history_status()
+    head = research_tools.git('rev-parse', 'HEAD').strip()
+    results = []
+    cache = {}
+    for path, destination in sorted(SOURCES.items()):
+        history = research_tools.git('log', '--format=', '--raw', '--no-abbrev',
+                                     '--no-renames', head, '--', path)
+        blobs = set()
+        for line in history.splitlines():
+            match = re.fullmatch(r':[0-7]{6} [0-7]{6} [0-9a-f]{40} ([0-9a-f]{40}) [A-Z]\t(.+)', line)
+            if match and match[2] == path and match[1] != '0' * 40:
+                blobs.add(match[1])
+        assert blobs, 'No reachable source history: ' + path
+        preserved = research_tools.read_preserved_source(path)
+        current = (ROOT / path).read_text()
+        legacy_redirect = original_namespace(current, path)
+        for blob in sorted(blobs):
+            if blob not in cache:
+                cache[blob] = research_tools.git('cat-file', '-p', blob)
+            body = cache[blob]
+            status = source_history_status(body, preserved, current, legacy_redirect)
+            row = dict(source=path, destination=destination, blob=blob,
+                       sha256=digest(body), status=status)
+            if status == 'historical-variant-needs-review':
+                row['diff_from_registered'] = ''.join(difflib.unified_diff(
+                    preserved.splitlines(True), body.splitlines(True),
+                    fromfile='registered:' + path, tofile='historical:' + blob))
+            results.append(row)
+    counts = {}
+    for row in results:
+        counts[row['status']] = counts.get(row['status'], 0) + 1
+    report = dict(head=head, sources=len(SOURCES), variants=len(results),
+                  counts=counts, records=results,
+                  limitation='HEAD-reachable technical source revisions only; pending variants are not proven loss; shared/metadata files and manufacturer truth need separate audits.')
+    Path('/tmp/instrumentfx-source-history-audit.json').write_text(json.dumps(report, indent=2) + '\n')
+    print(json.dumps({key: value for key, value in report.items() if key != 'records'}, indent=2))
+    print('Review /tmp/instrumentfx-source-history-audit.json; no repository sources modified.')
+
 if __name__ == '__main__':
+    if sys.argv[1:] == ['test-source-history']:
+        test_source_history_status()
+        raise SystemExit(0)
+    if sys.argv[1:] == ['audit-source-history']:
+        audit_source_history()
+        raise SystemExit(0)
     if sys.argv[1:] == ['audit-historical']:
         audit_historical_sources()
         raise SystemExit(0)

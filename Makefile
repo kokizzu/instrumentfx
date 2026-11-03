@@ -2405,3 +2405,11 @@ brand-sort-plan-zoom:
 
 brand-sort-apply-zoom:
 	python3 scripts/brand_sort.py apply brand/ZOOM.md
+
+.PHONY: consolidation-audit-source-history
+consolidation-audit-source-history:
+	python3 scripts/consolidation_tools.py audit-source-history
+
+.PHONY: consolidation-test-source-history
+consolidation-test-source-history:
+	python3 scripts/consolidation_tools.py test-source-history

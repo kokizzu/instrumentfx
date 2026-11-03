@@ -47188,6 +47188,79 @@
         "make consolidation-verify"
       ],
       "limitation": "Closes the previously recorded early-version identity gap only. Existing compatibility redirects are retained; incomplete manufacturer and market research remains in independent queues."
+    },
+    "technical_source_history_audit_20261104": {
+      "checked": "2026-11-04",
+      "source_head": "f1d945ed6e577e2911a5ef0a5ad8fad2d495a159",
+      "target": "make consolidation-audit-source-history",
+      "sources": 99,
+      "variants": 295,
+      "counts": {
+        "current-compatibility-redirect": 99,
+        "registered-original": 99,
+        "pre-layout-compatibility-redirect": 88,
+        "historical-variant-needs-review": 9
+      },
+      "method": "Enumerate unique new Git blobs from HEAD-reachable raw path history; exact content equality against registered source,current redirect,or exact inverse document-layout redirect. Changed bodies remain pending,not silently normalized.",
+      "pending": [
+        {
+          "source": "effects/findings/2026-10-14-flamma-fx100.md",
+          "destination": "brand/FLAMMA.md#fx100",
+          "blob": "4d15f1c8a21ec6cfed01a6c50f67bd9156df35e5",
+          "sha256": "33a8d306b1b3492483ad684a5db3d45d3792e7dea7735b77e99d1956a85b34c9"
+        },
+        {
+          "source": "effects/findings/2026-10-14-roland-gr-55.md",
+          "destination": "brand/ROLAND.md#gr-55",
+          "blob": "87f20f7100dfa10adb4c6c5aec1e271ab2db3786",
+          "sha256": "fb56e67772f51577766a62e684c4cf6c03660b3fef59ecbe3769401d32f406b2"
+        },
+        {
+          "source": "effects/findings/2026-10-15-mooer-ge150-max.md",
+          "destination": "brand/MOOER.md#ge150-max",
+          "blob": "5759923034e10262f1990c55cfde25dbff19a5d3",
+          "sha256": "c3b0def7ac7aafe6860135a3cbb8ca92a40220b1826b5fe9f1e68be6c6fa71e9"
+        },
+        {
+          "source": "effects/findings/2026-10-15-mooer-ge150-plus-li.md",
+          "destination": "brand/MOOER.md#ge150-plus-li",
+          "blob": "75e70f7b69b0dd3932721a41411aab9c255a7a37",
+          "sha256": "347cceaa314fcf10a9fcddefe2be8728b4372f393f0b2afedb58b4999be57f9e"
+        },
+        {
+          "source": "effects/findings/2026-10-15-mooer-ge150-plus.md",
+          "destination": "brand/MOOER.md#ge150-plus",
+          "blob": "1460b41fbfc5652d07b0fbf351de3fb2af603d35",
+          "sha256": "b286033ce1cdea23b2ed1370000c07bdb0cd78defc466e51280a1fc947beac48"
+        },
+        {
+          "source": "effects/guitar-boss.md",
+          "destination": "brand/BOSS.md",
+          "blob": "fe18d0eb11fa64fbd3766ad60c0537925f919eea",
+          "sha256": "336a226e00203170c2295beb773cad87c10d034b5beded133d1c51ba39ba24b7"
+        },
+        {
+          "source": "effects/guitar-compact.md",
+          "destination": "MULTI-EFFECTS.md",
+          "blob": "843998022f85297d63fc4285df0d583c6c159d1d",
+          "sha256": "38999043da28ef7487e256cbccbfa3dc5540c46804e07564812e406e14e51f61"
+        },
+        {
+          "source": "effects/owned-multifx.md",
+          "destination": "MULTI-EFFECTS.md",
+          "blob": "655e57ddfb8df4476569681fca5b70dc4ed581ab",
+          "sha256": "d73a3fa649bd9a1ff5c1dec213592247d04fb76c85daed562f7be089da335efd"
+        },
+        {
+          "source": "effects/shopee-multifx-3.md",
+          "destination": "MULTI-EFFECTS.md",
+          "blob": "27e657bcbe320717b7bb95e7d7a0507653c2b201",
+          "sha256": "d04e08da201a87eccd703a49efad348a83343f504ac20e9ec52f7404687180cc"
+        }
+      ],
+      "next": "Compare each pending variant against existing shared-source union manifests and historical canonical bodies before calling it lost or restoring duplicate material. One useful model repair per commit if needed. Preserve general GT-Pro andrequested display/expression queues.",
+      "limitations": "HEAD-reachable technical source revisions only; pending variants are not proven loss; shared/metadata files and manufacturer truth need separate audits. Existing original-body verification remains independent;no compatibility path removed andno complete-migration claim.",
+      "complete": false
     }
   },
   "deferred_work": {
