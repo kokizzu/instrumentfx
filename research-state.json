@@ -147951,5 +147951,17 @@
     "revision": "Support article dates unstated;beta explicitly labeled;current5.41 limits unconfirmed.",
     "next": "Current module index,complete ports/editor/imports,qualified exact Shopee hardware offer;global volume unresolved.",
     "active_inventory_changed": false
+  },
+  "zoia_module_index_scope_20261104": {
+    "checked": "2026-11-04",
+    "sources": [
+      "https://empresseffects.com/blogs/support-zoia/zoia-module-index",
+      "https://docs.google.com/spreadsheets/d/1a9q2OCo_Sd_IbWsH99wlFvjcTIN20e7wb5Qgn5fLxms/edit?usp=sharing"
+    ],
+    "revision": "Manufacturer article2024-08-27;linked title firmware5;exact5.41 equivalence unknown.",
+    "verified": "Rows7–18:optional patch Audio Output gain−100..+20dB;MIDI Notes In1..8notes/channel and excess-note priority;not guitar input tracking/global gain.",
+    "retrieval": "Initial rows readable;htmlview unavailable;no full census.",
+    "next": "Complete current module census,ports/editor/imports,exact Shopee item;global expression coverage unresolved.",
+    "active_inventory_changed": false
   }
 }

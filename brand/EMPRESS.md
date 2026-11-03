@@ -83,3 +83,13 @@ Checked **2026-11-04**, [manufacturer support hub](https://empresseffects.com/bl
 - Firmware5 factory patches **Groovebox and Grand Piano require external sample assets**. Empress says new ZOIA pedals ship those assets onSD; Euroburo is excluded. The new guitar-oriented factory set is ZOIA-specific by default. This doesnot establish assets/card contents included with a particular used offer or backup of those assets by patch export.
 
 No package downloaded, card formatted or device updated. Exact hardware offer, complete ports/editor/import profile andglobal-volume coverage remain open; partial lead remains outside active inventory.
+
+### ZOIA — firmware-5 index output gain and MIDI voice allocation
+
+Checked **2026-11-04**. The [manufacturer index article](https://empresseffects.com/blogs/support-zoia/zoia-module-index), dated2024-08-27, links the [ZOIA/Euroburo firmware5 module spreadsheet](https://docs.google.com/spreadsheets/d/1a9q2OCo_Sd_IbWsH99wlFvjcTIN20e7wb5Qgn5fLxms/edit?usp=sharing). Its title identifies firmware5, not exact5.41 equivalence. Only the exposed initial rows were inspectable; the alternative HTML view failed.
+
+- **Audio Output**, rows7–9, offers an optional gain control **−100 to+20dB**, with expression among its possible modulation sources. This is a patch module parameter, not established global master-volume assignment, pedal minimum/maximum calibration or bypass/tail coverage.
+- **MIDI Notes In**, rows11–18, offers **one to eight note outputs per MIDI channel**, with gate and optional velocity/trigger signals. Excess-note priority options include newest, oldest, highest, lowest and round-robin. This concerns MIDI allocation, not audio pitch-detector polyphony or a guaranteed eight-voice complete synth within DSP.
+- The “Max # of Blocks” column describes module grid footprints, not the number of independent effects guaranteed simultaneously. Average DSP entries are not a fixed whole-patch capacity.
+
+Full current category census remains unresolved. A repeated Shopee search still exposed only the previously retained category-cache offer, without an exact item/seller; it remains unqualified. No active membership or comparison rows changed.
