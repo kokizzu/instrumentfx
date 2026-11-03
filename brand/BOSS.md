@@ -1825,6 +1825,19 @@ The retention period is a service-planning figure, not a six-year warranty, proo
 
 The page’s elapsed-age column is date-relative and is not used to infer an exact manufacturing month. Earlier regional power and computer-compatibility qualifications remain separate. No service request, seller contact, local download or device operation.
 
+
+### GT-Pro — Guitar Synth single-note requirement and FX2 trade-offs
+
+Checked **2026-11-03**,indexed original [manufacturer owner manual,printedp49](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf),exact **SYN(Guitar Synth)** section. Full PDF exceeds reader size limits;this is original indexed text,not a hardware test orcomplete visual inspection.
+
+| Field | Evidence / practical limitation |
+|---|---|
+| Synth / Guitar Synth note handling | Manual explicitly says chords do not work properly:play **single notes**,mute unused strings,andfully mute the previous string before triggering the next witha clear attack. This resolves the earlier unspecified Guitar Synth chord-support question;it doesnot establish Wave Synth note handling. |
+| Synth / four waveform roles | **Square/Saw** use detected pitch/attack andan internal generator;**Brass/Bow** directly process input withsharp/soft onset. Four waveform choices are not four-note polyphony orfour simultaneous synth blocks. Higher sensitivity can improve response while increasing malfunction risk. |
+| Processing / shared FX2 choices | Guitar Synth,Harmonist,Pitch Shifter,Pedal Bend,Octave,Auto Riff,Acoustic Processor andSound Hold are **alternative FX2 choices** in the retained menu census. Their availability doesnot establish simultaneous independent use. Shared FX1/FX2 families retain their own selection rules. |
+
+Harmonist remains single-note;Pitch Shifter’s chord-capable modes andMono exception remain separately documented. Existing guitar/acoustic/sitar/defret transformations andspecial effects retain their own sources. Global FV coverage and13-versus15 counting basis remain unresolved. No local download,software installation ordevice operation.
+
 <!-- comparison evidence ends -->
 
 ### GT-Pro — alternate global Patch Level role, 2026-10-31

@@ -42,7 +42,7 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **30 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **31 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
@@ -80,6 +80,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 | [Hotone Ampero Mini MP-50](brand/HOTONE.md#ampero-mini-mp-50) | Path Filter is four-step filtering;dedicated synth unverified | Clean Octa/Harmony polyphonic inV1.0;newer Pitch Shift/Classic PS distinctions retained | AC Sim;separate Acoustic Refiner,acoustic IRs andpreamp roles | [Historical parameter check](brand/HOTONE.md#ampero-mini--historical-creative-algorithm-parameter-distinctions):Bit Krusher,Ring Mod,Telephone Line,Satisfaction;Harmony label conflict preserved;V2.2 menu evidence separate |
 
 | [Harley Benton DNAfx GiT Core](brand/HARLEY-BENTON.md#dnafx-git-core) | Dedicated synth unverified | PITCH SHIFT;DETUNE;note polyphony unverified | ACOUSTIC1/2/3 use AMP;acoustic CAB separate | [Focused manual check](brand/HARLEY-BENTON.md#dnafx-git-core--creative-choices-and-shared-block-limits):STUTTER,RING MOD,SLOW GEAR,LOFI share MOD withpitch/filter choices;REVERSE inDLY;not installed-version certification |
+
+| [BOSS GT-Pro](brand/BOSS.md#gt-pro) | Guitar Synth requires single notes;Wave Synth separate | Harmonist single notes;Pitch Shifter chords exceptMono | Guitar Simulator acoustic types;sitar/defret;Acoustic Processor separate | [Focused SYN check](brand/BOSS.md#gt-pro--guitar-synth-single-note-requirement-and-fx2-trade-offs);Slicer,Auto Riff,Sound Hold,Feedbacker;FX2 alternatives cannot all run independently;not full fresh audit |
 
 ## What remains uncertain
 

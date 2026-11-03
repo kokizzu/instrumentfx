@@ -145224,6 +145224,15 @@
         "instrument": "ACOUSTIC1/2/3 use AMP;acoustic CAB separate",
         "qualification": "STUTTER,RING MOD,SLOW GEAR,LOFI share MOD withpitch/filter choices;REVERSE inDLY;not installed-version certification",
         "evidence_basis": "Exact manufacturer manual03.07.2024 ID578764,printed45,49–51;focused follow-up"
+      },
+      {
+        "key": "BOSS::GT-Pro",
+        "canonical": "brand/BOSS.md#gt-pro",
+        "synth": "Guitar Synth single-note requirement;Wave Synth separate",
+        "pitch": "Harmonist single notes;Pitch Shifter chords exceptMono",
+        "instrument": "Guitar Simulator acoustic types,sitar,defret;Acoustic Processor separate",
+        "qualification": "SYNp49 focusedcheck;FX2 alternatives cannot all run independently;existing revision-qualified catalogue evidence,not full fresh audit",
+        "evidence_basis": "Indexed original exactGT-Pro manualp49 andretained canonicalmenu/parameter records"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -146125,5 +146134,22 @@
     ],
     "next": "Continue priority individual-footdisplay models;await actualM-VAVE controller model beforepinoutclaims;preserve independent general/expression queues",
     "controller_outside_active_counts": true
+  },
+  "gtpro_synth_input_scope_20261103": {
+    "checked": "2026-11-03",
+    "model": "BOSS GT-Pro",
+    "source": "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+    "section": "Printed49,SYN Guitar Synth,indexed original text;fullPDFreader-size-limit",
+    "note_handling": "Explicit single-note requirement;mute unused/previous strings,clearattack",
+    "waveforms": "Square/Saw tracking+internalgenerator;Brass/Bow directinputprocessing",
+    "shared_fx2": "GuitarSynth,Harmonist,PitchShifter,PedalBend,Octave,AutoRiff,AcousticProcessor,SoundHold aremenu alternatives",
+    "not_established": [
+      "WaveSynth chordhandling",
+      "Current unit trackingquality",
+      "13vs15countbasis",
+      "GlobalFVrange/routecoverage"
+    ],
+    "next": "Continue technicalcursor unresolvedcount/USB/visualcontrols/qualifiedIDR;individualfootdisplaypriority and independent general/expression queues retained",
+    "inventory_unchanged": 402
   }
 }
