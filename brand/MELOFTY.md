@@ -345,3 +345,12 @@ Checked **2026-11-04**, [manufacturer English manual V1.7.4,2026-08-31,PDFpp5,50
 - The newly inspected [importer-hosted English flyer,PDFp3](https://shop.warwick.de/media/df/39/ee/1790778142/yf9_Melofty-Flyer_EN_ONLINE.pdf?ts=1790778142),Warwick copyright2026,listsnine configurable footswitches andthe7-inch main touchscreen. It doesnot independently settle mini-screen technology ormanufacturer screen census. Preserve its distributor provenance ratherthan treating its brand logo as manufacturer authorship.
 
 Partial lead remains outsideactivecounts. Currentfirmware,fullcategory census,globalexternalEXPcoverage andqualifiedShopeehardware remainunresolved.
+
+### AXOM MAX — preset color linkage and mini-screen boundary
+
+Checked **2026-11-04**, [manufacturer German V1.7.4 manual,PDFp21](https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347). Original preset-save instructions; no device or visual panel test.
+
+- Choosing a preset color links **the preset-name color in main-screen editing/stage views, its footswitch LED, and the large color block in bank selection**. It does not establish color rendering on the separate mini displays, their technology or independent brightness.
+- **SET LIST/POSITION** selects the save destination. SAVE confirms; close/HOME cancels. This documents preset storage, not a whole-device backup or verified factory-bank write permissions.
+
+Importer-backed nine mini displays remain qualified. Manufacturer physical census, LCD/OLED technology, full algorithm inventory, current firmware and exact Shopee Indonesia hardware remain unresolved; partial lead stays outside active counts. English-manual retrieval failed again today; earlier successful readings remain dated evidence. No local download or device operation.
