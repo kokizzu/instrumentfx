@@ -144101,5 +144101,52 @@
     "finding": "Masterlevelnotpatchstored;OLEDRecallDistanceRingphysicalknobpickup. Manualmodeusesphysicalpositions. Delay/Modseparatetaptempos;BPMdefault;effectbypasstrailsdefaultOn.",
     "remaining": "NoanalogEXPestablishedearlier;currenteditorrecognition/OS,axisconflict,USBformat,currentcensus andqualifiedoffersremainopen.",
     "next": "Continue compactno-treadle inventory andrequestedindividualdisplaymodels;M-VAVEpinout andTANKMINIrelease-noteencodingremain deferred."
+  },
+  "amp_academy_stomp_offers_20261103": {
+    "model": "NUX Amp Academy Stomp",
+    "offers": [
+      {
+        "shop": "130137603",
+        "item": "41868679454",
+        "seller": "HAWILA MUSIK INDONESIA",
+        "region": "KotaSurabaya",
+        "idr": 3949999,
+        "cache": "five months",
+        "status": "Layanan Tidak Tersedia"
+      },
+      {
+        "shop": "195817632",
+        "item": "42805782535",
+        "seller": "CH MUSIC",
+        "region": "KotaJakartaPusat",
+        "idr": 3950000,
+        "cache": "last month",
+        "status": "No stock confirmation"
+      },
+      {
+        "shop": "71552895",
+        "item": "44074257967",
+        "seller": "GH MUSIC STORE",
+        "region": "KotaTangerangSelatan",
+        "idr": 4560000,
+        "cache": "two months",
+        "status": "No stock/variant/image verification"
+      }
+    ],
+    "qualification": "Opened exactitems;condition/workingstate/variant/firmware/bundle/adapter/warranty/voucher/shipping/tax/checkout unverified. Not conditionqualifiedused/newranges;latecompensationnotdeducted.",
+    "deferred_unpriced": [
+      {
+        "shop": "16879370",
+        "item": "43468035183",
+        "reason": "exactpagecachemiss;IDsearchnoresult"
+      },
+      {
+        "shop": "785734870",
+        "item": "28588046637",
+        "reason": "exactpagecachemiss;IDsearchnoresult"
+      }
+    ],
+    "remaining": "GlobalEXPvolume,fullcurrentmanual andqualifiedcondition/stock remainopen.",
+    "next": "Continue other priorityLCD/no-treadle models;retrytheseunpricedleads onlyifaccesschanges."
   }
 }
