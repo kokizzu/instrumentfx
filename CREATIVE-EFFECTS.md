@@ -30,7 +30,7 @@ Owner-confirmed: **HX Effects, GT-1000CORE, GM-800, B1on and MG-300 MKII**. Owne
 
 ## Limits that change the choice
 
-- **[Line 6 HX Effects](brand/LINE6.md#hx-effects):** Nine blocks overall, DSP permitting. The 3.80 manual restricts the Feedbacker/poly group to one per path; this is not stated as one per preset.
+- **[Line 6 HX Effects](brand/LINE6.md#hx-effects):** Nine blocks overall, DSP permitting. The 3.80 owner’s manual restricts the Feedbacker/poly group to **one per path**;do not rewrite that as one per preset. A [separate HX Edit3.80 instance table](brand/LINE6.md#hx-effects--editor-and-owner-guide-instance-limit-conflicts) instead says one per preset;the source conflict remains unresolved,andtwo simultaneous heavy models are not guaranteed.
 - **[BOSS GT-1000CORE](brand/BOSS.md#gt-1000core):** FX1–FX3, PEDAL FX and MASTER DELAY have different roles. Harmonist, Pedal Bend and Sound Hold require single notes; only OCTAVE POLY explicitly establishes polyphonic octave-down.
 - **[Eventide H90](brand/EVENTIDE.md#h90):** Two algorithms per Program. HotSawz’s six oscillators do not provide chord tracking; granular quartet requires 1.12.5. Installed firmware and tracking performance untested.
 - **[Original MOOER GE300](brand/MOOER.md#ge300):** Original GE300 only. Synth tracking stays first; FXA mono and FXB poly pitch differ. Original manual: Detune±100 cents; Lofi1.5–44.1kHz/1–16bit controls. Harmony requires 3.0.1 and single-note playing; NAM conversion into AMP does not expand the synth engine.
