@@ -1399,6 +1399,19 @@ Checked **2026-11-03**, [manufacturer November2026 Blocks Guide, pp3,51,92,97](h
 
 No local download/device test. Exact Shopee hardware still returns a JavaScript shell; current condition/stock remains unverified. The Zikinf URL labeled MarkII contains the same **August2022,3.x Original/TURBO** manual, not new MKII certification. Preserve earlier sources, global-volume gaps and independent queues.
 
+### FM9 — effect-label truncation and Smart Bypass indications
+
+Checked **2026-11-04** in the [manufacturer Footswitch Functions Guide](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Footswitch-Functions-Guide.pdf), **v1.3, April 2022, printed pp8–9**, explicitly covering FM9. This predates MKII; current firmware12 equivalence remains unverified.
+
+| Field | Historical documented behavior / qualification |
+|---|---|
+| Display / effect-name and channel visibility | **April2022 guide; current MKII/12 unverified:** **Long Name** uses a ten-character effect/instance representation. **Long Name + Channel** can omit the instance/channel suffix for longer names; **Short Name + Channel** uses the three-character abbreviation, instance and channel. This is label-format behavior, not a mini-LCD pixel or diagonal specification. |
+| Controls / channel selection and Smart Bypass | **April2022 guide; current MKII/12 unverified:** Channel Select can make a second press select the previous channel or engage/bypass the selected effect with **Smart Bypass**. With second-press OFF/Previous, ring OFF means bypassed **or absent**. With Smart Bypass, bypassed is **dim** and absent is **OFF**; bright indicates the selected active channel. LED interpretation depends on the assigned function, not merely screen count. |
+| IDR / existing hardware cache | [Hurtrock Music Store Bandung,11170212/25331147281](https://shopee.co.id/Fractal-FM9-MKII-Turbo-Amp-Modeler-Multi-FX-i.11170212.25331147281) again indexes **Rp44.395.000**, last-month crawl. This repeats the older exact-MKII ask; stock, condition, bundle and checkout remain unverified. No new availability claim or voucher deduction. |
+
+No local download or device operation. Existing physical-display, global-volume and market uncertainties remain; no inventory or instrument-membership change.
+
+
 ## FM9 original
 
 Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct from Turbo and MKII Turbo. Not fully verified; no ownership or live-stock assertion. The complete discovery body follows under its old anchor. Earlier outside-inventory statements are historical checkpoints, not the current admission status.

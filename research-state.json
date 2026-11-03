@@ -147424,5 +147424,26 @@
     ],
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "fm9_effect_label_scope_20261104": {
+    "model": "Fractal Audio FM9 MKII Turbo",
+    "checked": "2026-11-04",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9--effect-label-truncation-and-smart-bypass-indications",
+    "sources": [
+      "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Footswitch-Functions-Guide.pdf",
+      "https://shopee.co.id/Fractal-FM9-MKII-Turbo-Amp-Modeler-Multi-FX-i.11170212.25331147281"
+    ],
+    "revision": "Footswitch Functions Guide v1.3 April2022 pp8–9,FM9 scope;predates MKII",
+    "finding": "Long labels can hide instance/channel;Smart Bypass changes OFF versus dim meaning",
+    "offer": "Same Rp44395000 last-month cache;current stock/condition/bundle unknown",
+    "remaining": [
+      "Current MKII/firmware12 equivalence",
+      "Exact main/strip physical specifications",
+      "Complete MKII control census",
+      "Global-volume endpoints,position recall and output coverage",
+      "Qualified current Shopee stock"
+    ],
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }
