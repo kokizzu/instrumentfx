@@ -2380,3 +2380,7 @@ creative-verify:
 .PHONY: consolidation-audit-historical
 consolidation-audit-historical:
 	python3 scripts/consolidation_tools.py audit-historical
+
+.PHONY: research-stage-harley-benton
+research-stage-harley-benton:
+	python3 scripts/harley_benton_catalogue.py stage

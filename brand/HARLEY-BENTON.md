@@ -91,3 +91,16 @@ Normal electromagnetic pickups are supported (p8). The complete controls invento
 EXP offers Level/Volume/MST and FUNCTION targets. Calibration is separate. EXP VOL shows MIN000…MST100 (pp27–29); retain MST wording rather than infer independent heel/toe limits. **Global assignment across presets remains unverified**,including persistence,overrides and pedal-position recall. Signal-chain placement,pinout/resistance,full mute,bypass,headphone,tail and recorded-loop attenuation remain unknown.
 
 Manual175W×141Dmm exceeds preferred depth by1mm; conflicting product dimensions remain unresolved. Presets can be selected using either footswitch or VALUE (p23); exact down/up pairing is not identified in readable text. Separate looper playback level and preset-independent recorded sound do not prove expression coverage. No new exact Shopee offer established.
+
+### DNAfx GiT Core — creative choices and shared-block limits
+
+Checked **2026-11-03** in the [exact manufacturer manual,03.07.2024,ID578764,printedpp45,49–51](https://images.thomann.de/pics/atg/atgdata/document/manual/578764_c_578764_en_online.pdf). Current installed firmware andtracking quality untested.
+
+| Field | Documented capability / limitation |
+|---|---|
+| Acoustic / three AMP choices | **ACOUSTIC1,ACOUSTIC2,ACOUSTIC3** are explicitly acoustic simulators,AMP entries53–55. Selecting one uses AMP;these are not three extra simultaneous blocks. CAB’s **ACOUSTIC112** is a cabinet for acoustic amplification,a different capability. |
+| Pitch / note-handling limits | **PITCH SHIFT** describes whammy-like pitch shifting;**DETUNE** fine pitch adjustment. The checked table establishes neither input-note polyphony norintelligent scale harmony,numeric ranges ortracking latency. Vibrato’s pitch modulation is separate. |
+| Processing / special MOD choices | **STUTTER,RING MOD,SLOW GEAR,LOFI** provide choppy filtering,ring modulation,automatic swell andlow-rate sampling respectively. **Q-FILTER,HIGH PASS,LOW PASS** are static filters. These all share MOD withpitch/detune,so their menu availability doesnot establish simultaneous independent instances. |
+| Synth / engine boundary | Dedicated synthesis remains **unverified**. Static filtering,automatic volume swell,rotary simulation andpitch modulation do not establish synth tracking. **REVERSE** delay is separately available in DLY. |
+
+Global expression assignment,output/headphone/bypass/tail/loop coverage,body/USB revision conflicts andcondition-qualified IDR offers remain unresolved. Guitar membership remains unchanged;no bass/vocal membership inferred froman EQ label. No local download,software installation ordevice operation.
