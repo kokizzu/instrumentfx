@@ -127684,6 +127684,19 @@
       "next": "ExactRackfullI/O,controlcensus,power/bodycorroboration,creativecategories,memoryfill,editorrequirements,globalvolume/outputscope andqualifiedShopee processor offers;keepoutsideactivecounts.",
       "active_count_unchanged": 402,
       "independent_queues_preserved": true
+    },
+    "helix_rack_io_20261103": {
+      "sources": [
+        "https://line6.com/helix/helix-rack.html",
+        "https://line6.com/data/6/0a00050e07996667724e00577/application/pdf/Helix%20Rack%20and%20Control%20Cheat%20Sheet%20-%20English%20.pdf"
+      ],
+      "revision": "CheatSheet40-00-0455 Rev.C,pp1–2;productRackfront/rear inventory",
+      "finding": "Rack8x8USB24bit96kHz;complete namedI/O;noADAGuitarThru;ControlUSBreserved;handVOL/PhonesnotEXPproof;10rotary/0foot/9separatebuttons textderived,visualpending.",
+      "active": false,
+      "fully_verified": false,
+      "next": "Creative categorycensus,memoryfill,physical/power andeditor specifics,visualcontrols,electricalratings,globalvolume/outputcoverage andqualifiedShopee processoroffers.",
+      "active_count_unchanged": 402,
+      "independent_queues_preserved": true
     }
   },
   "brand_navigation": {
