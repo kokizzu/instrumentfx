@@ -150090,5 +150090,20 @@
     ],
     "inventory_unchanged": 402,
     "independent_cursor_preserved": "BOSS GT-Pro"
+  },
+  "gt6b_memory_control_scope_20261104": {
+    "checked": "2026-11-04",
+    "canonical": "brand/BOSS.md#gt-6b--memory-and-external-control-scope",
+    "source": "https://cdn.roland.com/assets/media/pdf/GT-6B_OM.pdf",
+    "revision": "Copyright2002, pp11–14,23,50–51,61–62; firmware unverified",
+    "status": "Partial lead; patch-assignment procedure and pedal-position carryover distinguished from global-volume scope; memory protection now verified",
+    "remaining": [
+      "initial User filling",
+      "global volume availability and coverage",
+      "external wiring pinout",
+      "qualified Shopee hardware offers"
+    ],
+    "active_inventory_changed": false,
+    "independent_queues_preserved": true
   }
 }
