@@ -145780,5 +145780,16 @@
     "limits": "Installed firmware,input-note polyphony,latency andtracking quality untested.",
     "next": "Requested footswitch-display models retain priority;Prime OLED dimensions,rig ceiling,current-library census andqualified Shopee stock remain open. Preserve independent GP-200JR -> Prime -> original GE300 queue.",
     "inventory_changed": false
+  },
+  "stadium_xl_named_pedal_compatibility_20261103": {
+    "model": "Line 6 Helix Stadium XL Floor",
+    "checked": "2026-11-03",
+    "manufacturer_source": "https://kb.line6.com/external-pedal-compatibility",
+    "pedal_source": "https://missionengineering.com/wp-content/uploads/2022/06/Mission-L6_QS-Guide.pdf",
+    "verified": "Host says Stadium should work with Helix/HX-compatible pedals,naming EX-1/EP1-L6;recommendation,not our device test. Mission indexed exact-pedal spec10k linear TS tip-to-wiper variable resistor.",
+    "access": "Host fulltext readable;Mission indexed original-spec text available,directopening error. No download ordevice operation.",
+    "limits": "No full host resistance range,M-VAVE compatibility,toe-switch transfer orglobal all-preset volume inferred;host article has older menu wording.",
+    "next": "Current XL power-label rating,OLED physical/color specs,volume output coverage andqualified Shopee condition/stock remain open. Separate independent general/expression queues unchanged.",
+    "inventory_changed": false
   }
 }
