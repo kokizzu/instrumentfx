@@ -144856,24 +144856,25 @@
         "brand_path": "brand/MOOER.md",
         "heading": "GE300",
         "label": "Original MOOER GE300",
-        "revision": "Original 2019 manufacturer manual (V1.1.0 screen examples), pp19–22,28–30,34; exact-model firmware notes through 5.1.4 (2026-08-04)",
+        "revision": "Original 2019 manufacturer manual (V1.1.0 screen examples), pp19–22,28–30,34; exact-model firmware notes through 5.1.4 (2026-08-04); Chinese V3.0.1 specifies single-note Harmony; regional5.0.8/5.1.0 and5.1.4 date differences retained",
         "sources": [
           "https://www.mooeraudio.com/product/GE300-223.html",
           "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf",
-          "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html"
+          "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html",
+          "https://cn.mooeraudio.com/companyfile/GE300-%E4%B8%8B%E8%BD%BD%E4%B8%AD%E5%BF%83-31.html"
         ],
         "synth": "Dedicated three-layer polyphonic SYNTH with independent waveform, pitch, filter and arpeggiator per voice; ordinary instrument input, no divided pickup required. Three layers do not imply a three-note ceiling.",
-        "pitch": "Mono Pitch in FXA versus Poly Pitch in FXB. Intelligent Harmony added to FXA in 3.0.1; its input polyphony remains unverified. 4.0.1 expands Mono Pitch from ±12 to ±24 semitones; do not extend this change to Poly Pitch by assumption.",
+        "pitch": "Mono Pitch in FXA versus Poly Pitch in FXB. Intelligent Harmony added to FXA in 3.0.1; Chinese manufacturer notes explicitly require single-note playing and a tuned guitar. 4.0.1 expands Mono Pitch from ±12 to ±24 semitones; do not extend this change to Poly Pitch by assumption.",
         "instrument": "Acoustic1/2/3 are dedicated acoustic simulators in AMP entries106–108. GUITAR Tone Capture matches instrument EQ/tonal characteristics, a separate process from synthesis.",
         "special": "Stutter choppy filter, Lofi sample/bit reduction, Ring Mod, Slow Gear and per-synth-voice arpeggiators. Original FXA/FXB alternatives are not unlimited duplicate blocks.",
-        "limits": "SYNTH tracking remains first, with its output routed later and dry mixed separately. FXA/FXB and AMP choices occupy their own blocks. NAM A2 conversion introduced 5.1.4 (2026-08-04), AMP only; it supplies neither synthesis nor arbitrary effects. Original GE300 only, not Lite; installed firmware and real tracking/latency untested.",
+        "limits": "SYNTH tracking remains first, with its output routed later and dry mixed separately. FXA/FXB and AMP choices occupy their own blocks. NAM A2 conversion in5.1.4, AMP only; English heading2026-08-04 versusChinese2026-07-22,first-release date unresolved; it supplies neither synthesis nor arbitrary effects. Original GE300 only, not Lite; installed firmware and real tracking/latency untested.",
         "matrix": [
           "Three-layer polyphonic SYNTH; normal pickup",
-          "Mono Pitch / Poly Pitch; Intelligent Harmony (3.0.1)",
+          "Mono Pitch / Poly Pitch; single-note Intelligent Harmony (3.0.1)",
           "Acoustic1/2/3; separate guitar Tone Capture",
           "Synth arpeggiators; Stutter; Lofi; Ring Mod"
         ],
-        "qualification": "Original GE300 only. Synth tracking stays first; FXA mono and FXB poly pitch differ. Harmony requires 3.0.1; NAM conversion into AMP does not expand the synth engine."
+        "qualification": "Original GE300 only. Synth tracking stays first; FXA mono and FXB poly pitch differ. Harmony requires 3.0.1 and single-note playing; NAM conversion into AMP does not expand the synth engine."
       },
       "Zoom::B1on": {
         "key": "Zoom::B1on",
@@ -145269,7 +145270,7 @@
     "remaining_evidence_questions": [
       "MG-300 MKII: inspect manufacturer GIF/JPG or exact-model parameter list for Harmonist/Detune, ranges and input polyphony; image tools did not expose inspectable content.",
       "H90: PolySynth1.6.11 and PolyFlex1.5.2 introduction versions verified; exact calendar release dates for these and1.12.5 remain unresolved; installed firmware untested.",
-      "HX synth-input polyphony; GT-1000CORE current-firmware guide equivalence and unspecified note handling; GE300 Intelligent Harmony/B1on unspecified chord support.",
+      "HX synth-input polyphony; GT-1000CORE current-firmware guide equivalence and unspecified note handling; B1on unspecified chord support;GE300 Harmony single-note restriction now verified inChinese3.0.1 notes.",
       "GM-800 GK Audio routing/effects coverage and audio-MFX polyphony; firmware-qualified normal pickup paths retained."
     ],
     "independent_queues_preserved": true
@@ -146231,6 +146232,20 @@
       "OverviewbalancedTRSversusspecificationunbalancedTSinternalconflictretained;manualTSnoterased"
     ],
     "remaining": "Maximumlevels/headphonepowerandload,authoritativeoutputcorrection,NAMarchitectures/IRconversion,toe/touch/powerandqualifiedcurrentstockunresolved",
+    "inventory_changed": false
+  },
+  "ge300_chinese_harmony_revision_20261103": {
+    "sources": [
+      "https://cn.mooeraudio.com/companyfile/GE300-%E4%B8%8B%E8%BD%BD%E4%B8%AD%E5%BF%83-31.html",
+      "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html"
+    ],
+    "findings": [
+      "Chinese3.0.1Harmonyexplicitlysingle-note;recommendaftergainandtunedguitar",
+      "CN5.0.8Aug29,2025versusEN5.1.0Oct15,2025matchingfeaturegroups;equivalencenotproven",
+      "CN5.1.4July22,2026headingversusENAugust4andCNpackageAugust4;datesunresolved",
+      "CN5.0.8tuner430–450Hzandretention/USB/IR/backupfixes"
+    ],
+    "remaining": "Regionalbuild equivalence,universal introduction dates,installed behavior,SubPatch count,stock andretained hardware/import gaps",
     "inventory_changed": false
   }
 }

@@ -1648,10 +1648,10 @@ Original 2019 manufacturer manual (V1.1.0 screen examples), pp19–22,28–30,34
 | Field | Exact-model creative capability / qualification |
 |---|---|
 | Synth / acoustic | Dedicated three-layer polyphonic SYNTH with independent waveform, pitch, filter and arpeggiator per voice; ordinary instrument input, no divided pickup required. Three layers do not imply a three-note ceiling. |
-| Pitch / category choices | Mono Pitch in FXA versus Poly Pitch in FXB. Intelligent Harmony added to FXA in 3.0.1; its input polyphony remains unverified. 4.0.1 expands Mono Pitch from ±12 to ±24 semitones; do not extend this change to Poly Pitch by assumption. |
+| Pitch / category choices | Mono Pitch in FXA versus Poly Pitch in FXB. Intelligent Harmony added to FXA in 3.0.1; Chinese manufacturer notes explicitly require single-note playing and a tuned guitar. 4.0.1 expands Mono Pitch from ±12 to ±24 semitones; do not extend this change to Poly Pitch by assumption. |
 | Synth / acoustic instrument tones | Acoustic1/2/3 are dedicated acoustic simulators in AMP entries106–108. GUITAR Tone Capture matches instrument EQ/tonal characteristics, a separate process from synthesis. |
 | Special processing | Stutter choppy filter, Lofi sample/bit reduction, Ring Mod, Slow Gear and per-synth-voice arpeggiators. Original FXA/FXB alternatives are not unlimited duplicate blocks. |
-| Architecture / firmware limitations | SYNTH tracking remains first, with its output routed later and dry mixed separately. FXA/FXB and AMP choices occupy their own blocks. NAM A2 conversion introduced 5.1.4 (2026-08-04), AMP only; it supplies neither synthesis nor arbitrary effects. Original GE300 only, not Lite; installed firmware and real tracking/latency untested. |
+| Architecture / firmware limitations | SYNTH tracking remains first, with its output routed later and dry mixed separately. FXA/FXB and AMP choices occupy their own blocks. NAM A2 conversion in5.1.4, AMP only; English heading2026-08-04 versusChinese2026-07-22,first-release date unresolved; it supplies neither synthesis nor arbitrary effects. Original GE300 only, not Lite; installed firmware and real tracking/latency untested. |
 
 [Four-category comparison](../CREATIVE-EFFECTS.md). Ownership not inferred.
 
@@ -1667,6 +1667,17 @@ Checked **2026-11-03** against the previously saved [manufacturer original manua
 | MIDI / expression and CTRL | **CC58** EXP1 On/Off;**60/61** EXP1/EXP2 pedal;**70–77** CTRL1–4 thenCTRLA–D. Values0–127 are MIDI data,not dB,pedal resistance orglobal-volume endpoint proof. No dedicated direct master-volume target appears inthis table;configurable expression/CTRL targets remain separate. |
 | MIDI / routing and clock | Output port selects **MIDI OUT** transmission or **MIDI THRU** forwarding fromDIN input. Receive-clock synchronizes preset tempo;send-clock follows tap tempo. Incoming/outgoing PC maps are separately editable. Clock support doesnot establish looper beat synchronization;the separate manufacturer USB-MIDI statement doesnot prove every DIN mapping applies unchanged overUSB. |
 
+### GE300 — Chinese release-history harmony limit and regional differences
+
+Checked **2026-11-03** in the [manufacturer Chinese exact-model release history](https://cn.mooeraudio.com/companyfile/GE300-%E4%B8%8B%E8%BD%BD%E4%B8%AD%E5%BF%83-31.html),compared with the [English history](https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html). No device orsoftware test.
+
+| Field | Revision-qualified evidence / unresolved difference |
+|---|---|
+| Pitch / Intelligent Harmony single-note restriction | Chinese **V3.0.1** explicitly limits FXA Harmony to **single-note playing**,with guitar tuning toavoid incorrect harmonies. It recommends FXA after gain effects forclearer harmony. This resolves the earlier note-handling unknown;Poly Pitch andthe separate three-layer synth retain their own polyphony evidence. |
+| Firmware / regional introduction and date labels | Chinese history places parameter-memory Sub-Patch,DUAL CAB andthe redesigned UI under **V5.0.8,2025-08-29**;English history lists corresponding features under **V5.1.0,2025-10-15**. Chinese **V5.1.4** heading says **2026-07-22**,English says **2026-08-04**;Chinese package metadata also saysAugust4. Preserve these labels;regional-build equivalence,copy errors andone universal first-release date are not established. |
+| Live / Chinese5.0.8 utility fixes | That entry expands tuner reference to **430–450Hz** andlists fixes forSub-Patch parameter memory,footswitch-mode retention afterpower-off,USB audio volume,backup/restore andIR-import crashes. This is release-note evidence,not proof every corresponding English build implements identical fixes orall pedal endpoints mute. |
+
+Installed firmware,exact Sub-Patch count,switching continuity,current factory fill andqualified Shopee stock remain unresolved. No local download,update,import ordevice operation.
 
 ## GE300 Lite
 
