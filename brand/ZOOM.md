@@ -975,6 +975,20 @@ Checked 2026-10-19 against [own shared manufacturer manual, pp4–5,8,31](https:
 
 Normal bass input needs no divided pickup; guitar voicing remains unclassified. Existing146W×154.8Dmm exceeds preferred depth. Manual documents patch changes and continuous stepping; extracted control icons prevent exact down/up footswitch mapping certification here. Shared headphones remain supported. Direct-expression position/range and bypass/headphone/tail/loop attenuation are not applicable without its input. No USB/MIDI workaround certified. Older sources, prices and other qualifications remain preserved. No downloads or hardware operation.
 
+### B1on — creative-effects capability check, 2026-11-03
+
+Manufacturer 100-effect list, ©2014, pp2,5–6,11,14–18,24; asterisks identify Ver1.2 additions, not 1.30 introduction. Checked original manufacturer text; no device test. [Source 1](https://zoomcorp.com/media/documents/E_B1on_B1Xon_FX-list_100.pdf)
+
+| Field | Exact-model creative capability / qualification |
+|---|---|
+| Synth / acoustic | Ba Synth explicitly monophonic; 4VoiceSyn adds harmony to single notes. StdSyn, SynTlk (vowels), V-Syn and Z-Syn are separate synth sounds; their chord tracking remains unverified. |
+| Pitch / category choices | PitchSHFT; Ba Pitch explicitly for single-note bass; Ba Octave octave-down; HPS scale/key harmony. Do not infer polyphonic tracking for PitchSHFT, octave or HPS. |
+| Synth / acoustic instrument tones | Z-Organ organ simulation; Defret fretless-bass processing. Acoustic360 is an amplifier model, not acoustic-instrument simulation. |
+| Special processing | Slicer, SeqFLTR, RndmFLTR, RingMod, BitCrush and pick-triggered Bomber. |
+| Architecture / firmware limitations | V-Syn, 4VoiceSyn, HPS, Z-Organ, RndmFLTR and RingMod are marked Ver1.2 additions. Five-effect/DSP ceiling retained; installed firmware unknown. B1Xon-only pedal effects excluded. Bass membership retained. |
+
+[Four-category comparison](../CREATIVE-EFFECTS.md). Owner-confirmed ownership.
+
 ## B1X FOUR
 
 Bass multi-effects with built-in expression; distinct from non-X B1 FOUR and older B1Xon. Consolidated2026-10-16; all original model fields below retain their2026-10-14 observations and explicit unknowns. Partial record.

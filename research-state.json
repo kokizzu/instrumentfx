@@ -144845,10 +144845,33 @@
           "Synth arpeggiators; Stutter; Lofi; Ring Mod"
         ],
         "qualification": "Original GE300 only. Synth tracking stays first; FXA mono and FXB poly pitch differ. Harmony requires 3.0.1; NAM conversion into AMP does not expand the synth engine."
+      },
+      "Zoom::B1on": {
+        "key": "Zoom::B1on",
+        "brand_path": "brand/ZOOM.md",
+        "heading": "B1on",
+        "label": "Zoom B1on",
+        "revision": "Manufacturer 100-effect list, ©2014, pp2,5–6,11,14–18,24; asterisks identify Ver1.2 additions, not 1.30 introduction",
+        "sources": [
+          "https://zoomcorp.com/media/documents/E_B1on_B1Xon_FX-list_100.pdf"
+        ],
+        "synth": "Ba Synth explicitly monophonic; 4VoiceSyn adds harmony to single notes. StdSyn, SynTlk (vowels), V-Syn and Z-Syn are separate synth sounds; their chord tracking remains unverified.",
+        "pitch": "PitchSHFT; Ba Pitch explicitly for single-note bass; Ba Octave octave-down; HPS scale/key harmony. Do not infer polyphonic tracking for PitchSHFT, octave or HPS.",
+        "instrument": "Z-Organ organ simulation; Defret fretless-bass processing. Acoustic360 is an amplifier model, not acoustic-instrument simulation.",
+        "special": "Slicer, SeqFLTR, RndmFLTR, RingMod, BitCrush and pick-triggered Bomber.",
+        "limits": "V-Syn, 4VoiceSyn, HPS, Z-Organ, RndmFLTR and RingMod are marked Ver1.2 additions. Five-effect/DSP ceiling retained; installed firmware unknown. B1Xon-only pedal effects excluded. Bass membership retained.",
+        "matrix": [
+          "Ba Synth; StdSyn; SynTlk; V-Syn; 4VoiceSyn; Z-Syn",
+          "PitchSHFT; mono Ba Pitch; Ba Octave; HPS",
+          "Z-Organ; Defret; acoustic simulation unverified",
+          "Slicer; sequenced/random filters; RingMod; BitCrush; Bomber"
+        ],
+        "qualification": "Ba Synth and 4VoiceSyn explicitly require single notes; other synth chord support is unverified. Some effects require 1.2; B1Xon pedal-pitch algorithms are excluded.",
+        "owned": true
       }
     },
-    "publication_model": "MOOER::GE300",
-    "next_model": "Zoom::B1on"
+    "publication_model": "Zoom::B1on",
+    "next_model": "BOSS::GM-800"
   },
   "hxstomp_own_category_census_20261103": {
     "model": "Line 6 HX Stomp",
