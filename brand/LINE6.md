@@ -758,6 +758,7 @@ Checked **2026-10-17** against selected pages of the live **Rev E / firmware1.4*
 | Processing / DSP limits | **48 block locations**,12 each on1A/1B/2A/2B;not guaranteed loaded capacity. [Hardware Dynamic DSP](https://manuals.line6.com/en/helix-stadium/live/dynamic-dsp),checked2026-11-03: Amp/Preamp **4 total,2 per primary path**;Cab **4 total,2 per primary path**,each holds up to2 cab/IR choices;Clone **4 total,2 per primary path**;Poly/high-DSP effects **2 total,1 per primary path**;Looper **1 total**. These ceilings do not guarantee simultaneous combinations. Paths1/2 have independent DSP;1A/1B sharePath1 resources. Stereo effects typically need about twice mono DSP. Existing46-processing-block SuperSerial template figure remains separately documented,not replaced by48 freely serial heavy blocks. Exact accounting for the two-position difference is not explained by these sections. |
 | Factory / user memory | **512 initially empty user locations**, separate protected factory folder; factory-filled count/combined total **?**. Up to122 setlists with1–128 aliases each;aliases do not add independent preset storage. [Presets][SX-M] |
 | Synth / acoustic simulation | **Acoustic Sim** appears under EQ. Pitch/Synth includes **3 OSC Synth**, legacy synth algorithms and **3 Note / 4 OSC Generators**; generators can sound without an instrument and default off. Native NAM is not established by these synth entries. [Model list][SX-ML] |
+| Pitch / creative inventory | [Complete Stadium Pitch/Synth names and qualifications](#stadium-xl--named-pitchsynth-inventory-and-note-handling-boundaries);29 reference entries, not29 synth engines or simultaneous blocks. |
 | IR / NAM / capture | **2,048 user IRs**, WAV import; processed as 2,048-sample, 48 kHz, 32-bit float mono. Each Cab block holds one or two cabs/IRs; one sums input to mono, two preserve stereo input/output. [Cab IRs][SX-I]. **Proxy** amp, amp+cab, preamp and distortion clones, introduced in firmware 1.3. Library **2,048 clones**; up to **4 per preset, 2 per main path**, subject to DSP. All clone blocks are mono and sum preceding stereo. Creation requires Internet access and a signed-in Line 6 account; native/converted NAM **?**. [Clones][SX-C], [Presets][SX-M] |
 | Audio/control I/O | Two instrument inputs;XLR mic,+48V;4¼″ send/return loops;stereoXLR and¼″ mains;stereo phones;two sharedCONTROL jacks;DIN MIDI in/out-thru;RCA S/PDIF in/out;Nexus expansion;microSD;USB-A Ethernet adapter option;USB-C audio/editor;grounded IEC. Exact remaining connector wiring/sizes **?**. Sends impedance-balanced,returns unbalanced. [Rear panel][SX-R] |
 | Power / battery / USB | Internal supply,grounded IEC;voltage/frequency/draw **?**,DC barrel polarity N/A. Battery/USB-powered operation **?** [Rear panel][SX-R], [Product][SX-P] |
@@ -906,6 +907,21 @@ Checked **2026-11-03** in the [manufacturer live Global Settings chapter](https:
 **S/PDIF Out** selects Direct Out, exposing it as a preset Output destination, or mirrors the Matrix quarter-inch, XLR or Phones layer. The separate **S/PDIF Out Level** setting is documented with0.0dB as the usual setting; no complete numeric range is established here. **S/PDIF Sample Rate does not affect USB audio.** Matching the connected digital device’s rate is required; the chapter doesnot enumerate available S/PDIF rates orprove clock-source/automatic conversion behavior.
 
 A Phones Matrix mirror is an audio source choice, not a headphone amplifier specification orproof that analog EXP attenuates every source. This supplements the existing USB1/2 source choices without transferring USB ASIO rates to S/PDIF. No connection, setting change or device test.
+
+### Stadium XL — named Pitch/Synth inventory and note-handling boundaries
+
+Checked **2026-11-03**, [manufacturer Stadium model list][SX-ML], explicitly covering hardware. **29 Pitch/Synth rows**:12 current-format entries and17 Legacy entries; all list **initial appearance1.0**, not original HX introduction dates or installed-version evidence.
+
+| Subset | Exact names |
+|---|---|
+| Current-format12 | Pitch Wham; Twin Harmony; Simple Pitch; Dual Pitch; Boctaver; 3 OSC Synth; Poly Pitch; Poly Wham; Poly Capo; 12 String; 3 Note Generator; 4 OSC Generator |
+| Legacy17 | Bass Octaver; Smart Harmony; Octi Synth; Synth O Matic; Attack Synth; Synth String; Growler; Buzz Wave; Rez Synth; Seismik Synth; Analog Synth; Synth Lead; String Theory; Synth FX; Saturn 5 Ring Mod; Synth Harmony; Double Bass |
+
+**3 OSC Synth’s Stereo label describes audio channels, not chord tracking.** Poly Pitch/Wham/Capo and12 String are explicitly polyphonic pitch processing. The two Generator models produce sound without input and default off. Acoustic Sim remains an EQ model. Algorithm-specific synth-input polyphony and tracking quality remain unverified.
+
+The model-page footnote calls a Modulation entry **Pitch Sustain**, while [hardware Dynamic DSP](https://manuals.line6.com/en/helix-stadium/live/dynamic-dsp) names **Poly Detune** in its combined high-DSP group. Preserve the wording conflict; do not invent an extra effect from it. Hardware permits **two combined-group blocks per preset, one per primary path**, subject to DSP. This does not guarantee any two choices fit.
+
+No local downloads or device operation. Existing routing, power and qualified IDR gaps remain;active inventory and independent queues unchanged.
 
 ## HX Effects
 

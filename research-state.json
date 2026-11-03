@@ -145048,6 +145048,15 @@
         "evidence_basis": "Existing canonical record and retained dated manufacturer evidence; not freshly reverified for this index."
       },
       {
+        "key": "Line 6::Helix Stadium XL Floor",
+        "canonical": "brand/LINE6.md#helix-stadium-xl-floor",
+        "synth": "3 OSC Synth;Legacy choices;input-note polyphony unverified",
+        "pitch": "Poly Pitch/Wham/Capo;12 String",
+        "instrument": "Acoustic Sim underEQ",
+        "qualification": "29entryStadium reference;generators andcombined-group DSP limits separate;not complete freshaudit",
+        "evidence_basis": "Manufacturer Stadium model list andlive1.4 DynamicDSP,focused2026-11-03 check"
+      },
+      {
         "key": "Fender::Tone Master Pro",
         "canonical": "brand/FENDER.md#tone-master-pro",
         "synth": "Aethon / Cerberus / Wavemorph Polysynth",
@@ -145358,8 +145367,13 @@
     "independent_queues_preserved": true,
     "additional_index_presentation": {
       "checked_date": "2026-11-03",
-      "records": 33,
-      "change": "Corrected stale 31-record introduction to 33 and removed blank lines splitting the additional-catalogue Markdown table. No technical claims, ownership, instrument membership or independent queues changed."
+      "records": 36,
+      "change": "Indexed existing active Stadium XL;not inventory admission orwhole-catalogue reaudit.",
+      "previous": {
+        "checked_date": "2026-11-03",
+        "records": 33,
+        "change": "Corrected stale 31-record introduction to 33 and removed blank lines splitting the additional-catalogue Markdown table. No technical claims, ownership, instrument membership or independent queues changed."
+      }
     }
   },
   "hxstomp_own_category_census_20261103": {
@@ -146985,5 +146999,19 @@
     "active_count_unchanged": 402,
     "access": "Maker/English manual inaccessible;German panel render cachemiss;IAB unavailable;targeted Shopee search no qualified exact hardware",
     "next": "Exact algorithm names/note handling,manufacturer mini-display census/technology,current firmware,capture/import limits andqualified Indonesian hardware. Preserve independent general/expression queues."
+  },
+  "stadium_xl_creative_inventory_20261103": {
+    "model": "Line 6 Helix Stadium XL Floor",
+    "checked": "2026-11-03",
+    "sources": [
+      "https://line6.com/helix-stadium-models/",
+      "https://manuals.line6.com/en/helix-stadium/live/dynamic-dsp"
+    ],
+    "canonical": "brand/LINE6.md#stadium-xl--named-pitchsynth-inventory-and-note-handling-boundaries",
+    "pitch_synth_entries": 29,
+    "creative_catalogue_matches": 36,
+    "active_count_unchanged": 402,
+    "fully_verified": false,
+    "next": "Synth-specific note handling,power label,remaining routing andqualified exact Shopee stock. Preserve independent queues."
   }
 }
