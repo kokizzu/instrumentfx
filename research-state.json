@@ -145312,5 +145312,23 @@
     },
     "qualification": "FM9 release-specific capability;not installed-firmware/tracking/latency orpolyphonic Synth certification.",
     "next": "Requested separate-screen processors retain priority;FM9 global-volume endpoints/recall/all-route coverage,exact current hardware controls/diagonal andqualified Shopee offers remain open."
+  },
+  "axom_global_input_phantom_20261103": {
+    "model": "MELOFTY AXOM MAX",
+    "checked": "2026-11-03",
+    "source": "https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347",
+    "revision": "German V1.7.4, PDFp49",
+    "findings": [
+      "Global input level and noise suppression across presets",
+      "Adjustable guitar input impedance",
+      "Microphone preamp gain and switchable48V phantom power"
+    ],
+    "limits": [
+      "Numeric gain/impedance ranges unverified",
+      "Input level does not prevent source overload",
+      "Not external expression global-volume coverage"
+    ],
+    "next": "Continue requested separate-screen processors; AXOM manufacturer mini-screen census/technology and qualified exact Shopee offers remain open. Preserve independent expression, GT-Pro and GP-200JR→Prime→GE300 queues.",
+    "inventory": "Partial lead outside active counts"
   }
 }

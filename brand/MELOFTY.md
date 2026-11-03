@@ -240,3 +240,11 @@ Checked **2026-11-03** in the [German V1.7.4 manufacturer manual,PDFpp26–30](h
 - Its four-cable example uses a **Mono,Series** loop,with pre-effects before the loop block andpost-effects after it. This is documented configuration,not a tested wiring setup orproof ofarbitrary simultaneous DSP capacity.
 
 This narrows routing details only. Mini-screen technology/manufacturer count andqualifiedShopee hardware remain unresolved;the partial profile stays outside active counts. No local download ordevice operation.
+
+### AXOM MAX — global input controls and microphone power
+
+Checked **2026-11-03** in the [German V1.7.4 manufacturer manual,PDFp49](https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347). Exact-model original text;no device operation.
+
+The global input page separately selects GUITAR IN or MIC/LINE IN. It documents input-level adjustment and global noise suppression across presets,adjustable guitar-input impedance,and microphone preamp GAIN with switchable **48V phantom power**. Numeric gain/impedance ranges are not established here. Input-level adjustment does not prevent overload distortion from an excessively strong source.
+
+These are input controls,not proof of external EXP3 global-volume assignment orcoverage of headphones,USB,loops andtails. Mini-screen technology/manufacturer count andqualified Indonesian offers remain open;this partial lead stays outside active counts.
