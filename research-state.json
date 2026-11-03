@@ -144357,5 +144357,29 @@
     "editor_limit": "Detail pages do not publish OS minima; packaged instructions not downloaded",
     "status": "Partial outside active counts; no hardware test",
     "next": "Qualified exact Shopee hardware and remaining platform/loading/USB evidence; continue separate-screen priorities independently."
+  },
+  "gt1000core_controller_support_20261103": {
+    "model": "BOSS GT-1000CORE",
+    "checked": "2026-11-03",
+    "manufacturer_article_update": "2026-05-20",
+    "sources": {
+      "toe": "https://support.roland.com/hc/en-us/articles/360054113912-GT-1000CORE-Can-the-toe-end-of-an-expression-pedal-be-used-as-a-switch-to-turn-WAH-on-off",
+      "calibration": "https://support.roland.com/hc/en-us/articles/360054113872-GT-1000CORE-Does-it-have-an-expression-pedal-calibration-function",
+      "mobile": "https://support.roland.com/hc/en-us/articles/360054597651-GT-1000CORE-Can-I-edit-GT-1000CORE-settings-from-a-mobile-device",
+      "send_setting": "https://support.roland.com/hc/en-us/articles/360054525211-GT-1000CORE-SUB-OUT-AUX-MUTE-is-not-displayed-in-the-SEND1-2-SETTING"
+    },
+    "findings": [
+      "No toe-end switch assignment through EXP",
+      "No expression calibration on either shared input",
+      "No Bluetooth MIDI/mobile editing support per manufacturer",
+      "SUB OUT/AUX MUTE menu requires system1.02+"
+    ],
+    "limits": [
+      "Separate CTL wiring not excluded",
+      "Third-party wired host workarounds not tested",
+      "No global range override or output-coverage inference",
+      "M-VAVE actual wiring remains unverified"
+    ],
+    "next": "Continue current CORE parameter-guide retrieval/ASSIGN precedence and LCD-first research; preserve original global FOOT VOL and patch range/placement qualifications."
   }
 }
