@@ -467,7 +467,7 @@ Own2.7 cumulative notes,p.4: feedback affects recording/overdub rather than play
 | USB audio | **Six recording channels to computer, four playback channels to device**, 24-bit, **44.1/48/96 kHz**, with dry guitar/mic and reamp. This model-specific 5.2 description is not copied from Core/Flex Prime. Windows driver separate; Mac plug-and-play stated by manufacturer. [PR-M p.59; PR-P] |
 | Looper / external-clock and dual-input boundaries | [Prime-specific manufacturer support](https://support.headrushfx.com/en/support/solutions/articles/69000835150-headrush-prime-looper-setup-and-troubleshooting),checked2026-11-03: receive clock over DIN orUSB-A;enable Receive MIDI Clock,looper MIDI Beat Clock andGlobal Tempo Sync. External-clock mode **disables local count-in**;Record blinks while waiting for the clock source tostart,while Record can still stop recording. Dual inputs record into **one shared loop layer**,so speed/reverse affect both together;output-block mixing andseparate-output settings affect routing/looper position. This is not independent two-track editing orglobal EXP attenuation. Support article has nofirmware version;current5.2 equivalence untested. |
 | Memory / effect-library save versus rig save | [Manufacturer Prime-named saving guidance](https://support.inmusicstore.com/en/support/solutions/articles/69000881954-headrush-prime-core-and-flex-prime-why-aren-t-my-fx-changes-being-saved-),checked2026-11-03:Save inside the effect editor stores a reusable **FX preset**,not the whole rig. **Main-screen Rig Save** stores effect/amp/cab settings,routing andfootswitch assignments together. Saving only the FX library can therefore leave rig changes absent after switching rigs. This doesnot prove edits propagate toother rigs,global controller assignments orrecorded-loop backup. Article doesnot specify firmware;no save/recall tested. |
-| Looper / drums / stage | Loop up to **five minutes; twenty minutes total overdubbed audio, fifty layers**. Scenes, setlists, spillover, practice tool, MIDI sync and capture/storage workflows. Firmware 5.0 adds **16 kits,134 styles/15 genres** with fills/accents; USB audio/loop playback are not unlimited extra rig blocks. [PR-M p.49; PR-R] |
+| Looper / drums / stage | [Rig-tail versus block-tail restrictions](#prime--rig-tail-and-block-tail-scope):4.0/5.0 documentation excludes FX-loop/USB Audio operation;5.2 equivalence unverified. Loop up to **five minutes; twenty minutes total overdubbed audio, fifty layers**. Scenes, setlists, spillover, practice tool, MIDI sync and capture/storage workflows. Firmware 5.0 adds **16 kits,134 styles/15 genres** with fills/accents; USB audio/loop playback are not unlimited extra rig blocks. [PR-M p.49; PR-R] |
 
 ### Prime — selectable switch timing and Practice Tool OLED labels
 
@@ -664,6 +664,15 @@ Checked **2026-11-03**, [manufacturer cumulative Prime5.2.0 release notes, Octob
 | 4.1.1, p6 | Fixes **DB-33 Organ Rotary On** failing to apply the selected Rotary Rate. This qualifies organ-effect behavior, not input-note polyphony or a physical rotary speaker. |
 
 The same4.1.0 history permits outgoing commands of up to **five MIDI messages** (PC/CC/Note On/Off) on switch,scene orrig triggers. **Sending Note messages does not establish incoming MIDI-note triggering of the synth blocks.** Input-note polyphony, latency and installed behavior remain unverified. No software or firmware downloaded, no device operated. Keep current category-count contradictions, dated offers and independent queues.
+
+
+### Prime — rig-tail and block-tail scope
+
+Checked **2026-11-03**: [manufacturer Prime User Guide4.0.0,printedp11](https://cdn.inmusicbrands.com/HeadRush/FW/4/Finalized%20User%20Guides/HeadRush%20Prime%20-%20User%20Guide%20-%20v4.0.0.pdf) distinguishes decay across rig changes from decay when bypassing an individual delay/reverb. The rig Tail control and each block’s Tails setting are independent.
+
+The rig-level instructions explicitly exclude operation with an **effects loop** or **USB Audio enabled in Global Settings**. The [indexed original5.0.0 guide,same section](https://cdn.inmusicbrands.com/Software/SGEE/5/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.0.0.pdf) repeats this restriction;full5.0/5.2 PDFs exceed reader limits. These are revision-qualified constraints,not a fresh5.2 confirmation orproof that every block-bypass tail is disabled inthose configurations.
+
+The separately documented5.2 NAM rig-change restriction remains. Neither spillover nor FAQ gapless-switching language establishes universal continuity orpedal attenuation of surviving tails. Current5.2 FX-loop/USB behavior remains unresolved. No download,driver installation ordevice operation.
 
 ## VX5
 
