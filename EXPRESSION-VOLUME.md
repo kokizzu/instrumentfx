@@ -729,3 +729,5 @@ Gen2 [own routing andKill Dry inheritance](brand/EVENTIDE.md#h9-gen-2--own-routi
 POD 2.0 [historical volume-default scope](brand/LINE6.md#pod-20--customized-volume-defaults-are-not-global-assignment): amp-selector customization includes pedal position and minimum; neither proves an all-preset assignment. Endpoint values, held-position recall and bypass/tail/loop coverage remain unknown.
 
 POD 2.0 [original controller and MIDI follow-up](brand/LINE6.md#pod-20--original-floor-board-bypass-and-midi-volume-scope): Revision F documents Floor Board volume during tuner bypass; other route coverage remains unknown. March 2010 CC7 is real-time and unsaved with channels, while minimum and pre/post have separate controls. These are not proof of held-position recall or a direct analog EXP input.
+
+VP4 [modifier limits and switch priority](brand/FRACTAL-AUDIO.md#vp4--modifier-capacity-channel-sharing-and-switch-priority): 16 per preset, shared across channels; Auto-Engage overrides normal effect on/off switching. Target-specific modifier ranges are separate from global volume endpoints.

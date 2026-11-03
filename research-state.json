@@ -146354,5 +146354,20 @@
       "Unit dimensions/power andqualifiedIDR offers"
     ],
     "status": "Partial outside active counts;no device test;independent queues preserved"
+  },
+  "vp4_modifier_scope_20261103": {
+    "model": "Fractal Audio VP4",
+    "source": "https://www.fractalaudio.com/downloads/manuals/VP4/VP4-Owners-Manual.pdf",
+    "revision": "v1.06,2024-10-23,printedp38",
+    "finding": "16 modifiers per preset,shared across channels;Auto-Engage disables normal block on/off switch control;Fast update rate adds CPU demand.",
+    "qualification": "Preset modifier ranges do not establish global volume endpoints;current4.04 equivalence anddevice response untested.",
+    "remaining": [
+      "Global endpoints andanalog position recall",
+      "Bypass/headphone/tail/loop coverage",
+      "Current full library",
+      "Qualified exact Shopee hardware"
+    ],
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }

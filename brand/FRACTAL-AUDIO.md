@@ -1443,6 +1443,7 @@ Admitted 2026-10-28 as a **partial model**, not fully verified. Own manufacturer
 | Onboard preset navigation | Scene Mode hold 1 −1 / hold 4 +1; Preset Mode taps choose bank slots and holds 1/4 change banks. Global custom holds separate. |
 | Used IDR | No qualified exact Shopee offer. [Carousell 1451552917](https://id.carousell.com/p/efek-gitar-fractal-vp4-1451552917/), cached Rp12m negotiable, Seperti baru, Depok; unit/adapter/converter/box claimed, MIDI/USB cables missing. Seller zaidanalla64732 versus containerx identity conflict; three-month cache, direct miss; not current stock orcondition-tested value. |
 | New / retail IDR | Verified new unknown; no exact Shopee hardware. [Melodia](https://www.melodiamusik.com/product/fractal-vp4-virtual-pedalboard/), Rp14m, crossed Rp20.7m, last-week cache, direct miss; condition/stock/bundle/adapter/warranty/region/voucher/shipping/tax unknown. Seller’s 15m new claim is not independent price evidence. |
+| Expression / modifier capacity and switch priority | v1.06 p38: **16 modifiers/preset**, shared across channels; Auto-Engage overrides normal effect on/off switching. Preset ranges are separate from global volume. [Scope](#vp4--modifier-capacity-channel-sharing-and-switch-priority). |
 <!-- comparison evidence ends -->
 
 ### VP4 — partial discovery lead, outside active inventory
@@ -1563,3 +1564,11 @@ About80% CPU triggers bypass; bypassed blocks still consume CPU. Thus four slots
 Preset spillover requires matching block type/number and compatible settings/placement; global ALL covers five delay/reverb families. Channel changes share memory and can sweep tails. Block bypass needs MUTE FX IN, or MUTE IN for parallel routing. These continuity rules do not establish expression attenuation of tails.
 
 Exact Shopee search again found no qualified hardware item; not proof of market absence. IR file limits, current census and volume coverage remain unresolved. Partial lead stays outside active counts; no download ordevice test.
+
+### VP4 — modifier capacity, channel sharing and switch priority
+
+Checked **2026-11-03** against the [manufacturer Owner’s Manual v1.06, 2024-10-23, printed p38](https://www.fractalaudio.com/downloads/manuals/VP4/VP4-Owners-Manual.pdf).
+
+A preset supports **16 modifiers total**, not 16 per effect/channel. One source can control multiple target parameters, each with its own range; modifiers are shared across block channels, and a controlled parameter cannot also be manually adjusted. **Auto-Engage disables normal ON/OFF footswitch control** of that effect. Fast update rate can sound smoother but uses additional CPU.
+
+These are preset modifier limits, separate from global Input/Output Volume. They do not resolve analog held-position recall, global endpoints or bypass/headphone/tail/loop coverage. Historical revision only; current4.04 equivalence and real response remain untested.
