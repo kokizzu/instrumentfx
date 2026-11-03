@@ -146626,5 +146626,15 @@
     "additional_creative_records": 35,
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "prime_cross_input_effects_20261103": {
+    "model": "HeadRush Prime",
+    "checked": "2026-11-03",
+    "source": "https://support.headrushfx.com/en/support/solutions/articles/69000859800-headrush-prime-can-i-use-guitar-fx-on-vocal-rigs-",
+    "revision": "Manufacturer Prime-specific support article; firmware unspecified; folder lists modified 2024-10-12.",
+    "finding": "Guitar categories available on vocal paths; vocal effects available on guitar paths, with Vocal Doubler as explicit example. OUT meter and rear mic gain require attention because added gain need not produce distortion.",
+    "limits": "Category availability does not establish algorithm input-note handling, tracking quality, latency, universal simultaneous DSP availability or current installed-firmware equivalence.",
+    "next": "Continue LCD-first exact-model evidence and qualified Shopee hardware; retain Prime storage/IR/display gaps, independent GP-200JR -> Prime -> GE300 queue and expression-volume audit.",
+    "active_count_unchanged": 402
   }
 }
