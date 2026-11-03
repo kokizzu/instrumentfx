@@ -146465,5 +146465,28 @@
     ],
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "ex4_pitch_scope_20261103": {
+    "model": "BOSS EX-4 partial lead",
+    "sources": [
+      "https://static.roland.com/manuals/ex-4_parameter/en-US/665436683666928139.html",
+      "https://static.roland.com/manuals/ex-4_parameter/en-US/665337995665434507.html",
+      "https://static.roland.com/manuals/ex-4_parameter/en-US/583875851637650315.html",
+      "https://static.roland.com/manuals/ex-4_parameter/en-US/637727371637742731.html"
+    ],
+    "revision": "Original copyright2026 HTML;firmware minimum unstated",
+    "findings": [
+      "Harmonist single-note;voice/channel count separate",
+      "PitchShift±24semitones,fine±50cents;mode-specific chord support unverified",
+      "HeavyOctexplicit chords;notproof ofpolyphonic synth",
+      "Preset53 organ iscomposite recipe"
+    ],
+    "remaining": [
+      "Exact Shopee hardware",
+      "Tracking/latency andcurrentfirmware",
+      "Remaining profile/volumecoverage"
+    ],
+    "active_count_unchanged": 402,
+    "additional_active_creative_index_unchanged": 33
   }
 }

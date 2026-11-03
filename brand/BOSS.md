@@ -371,6 +371,17 @@ Checked **2026-11-03**: the [English MASTER page](https://static.roland.com/manu
 
 OUT LEVEL is explicitly a system parameter shared by all memories. The existing **SYSTEM / EXP / MANUAL / MASTER → OUT LEVEL** assignment therefore has a documented zero-valued endpoint available within the target's published range; ASSIGN MIN/MAX remain target-dependent. This narrows the numeric-range gap without certifying acoustic silence, a dB curve, ALL BYPASS attenuation, send-path coverage, tails, competing assignments or power-on pedal recall. The separate FV target retains its own placement and 0–100 endpoint rules. Hardware, firmware and actual assignment operation were not tested. EX-4 remains a partial lead outside active counts.
 
+### EX-4 — pitch note handling and composite organ preset
+
+Checked **2026-11-03** in original ©2026 Roland HTML; no firmware introduction minimum is stated.
+
+- [HARMONIST](https://static.roland.com/manuals/ex-4_parameter/en-US/665436683666928139.html) explicitly requires **single notes**, muting other/previous strings and a clear attack. One/two generated voices and mono/stereo output do not change this restriction.
+- [PITCH SHIFT](https://static.roland.com/manuals/ex-4_parameter/en-US/665337995665434507.html): **±24 semitones**, fine **±50 cents**; one voice, two mono voices or two stereo voices. FAST/MEDIUM/SLOW trade response speed against modulation; MONO is another mode. The checked prose does not certify chord support for each mode or provide measured latency.
+- [HEAVY OCT](https://static.roland.com/manuals/ex-4_parameter/en-US/583875851637650315.html) explicitly adds one/two octaves below **chords**. This does not establish polyphonic Guitar/Bass Synth tracking.
+- [Preset53 MONO ORGAN](https://static.roland.com/manuals/ex-4_parameter/en-US/637727371637742731.html) combines COMP, OCTAVE, PITCH SHIFTER and ROTARY. It is a composite recipe, distinct from the separately documented single-note synth algorithms.
+
+Partial lead remains outside active counts; exact Shopee hardware, current firmware and actual tracking quality remain unverified. No downloads or device operation.
+
 ## GM-800
 
 Consolidated and refreshed **2026-10-16**; partial verification. This processor qualifies through independent MFX architecture; it requires specialized input hardware for guitar/bass playing. No excluded specialist model is added.
