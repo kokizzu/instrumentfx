@@ -21,8 +21,9 @@ def main():
     changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
     staged = set(git('diff','--cached','--name-only').splitlines())
     assert (changed | staged) <= allowed, (changed | staged) - allowed
-    for target in ('comparison-verify', 'research-verify', 'brand-sort-test'):
-        subprocess.run(['make', target], cwd=ROOT, check=True)
+    if sys.argv[1] == 'stage':
+        for target in ('comparison-verify', 'research-verify', 'brand-sort-test'):
+            subprocess.run(['make', target], cwd=ROOT, check=True)
     assert not git('diff','--check').strip()
     if sys.argv[1] == 'stage':
         assert changed or staged, 'No changes'

@@ -144795,10 +144795,36 @@
         ],
         "qualification": "FX1–FX3, PEDAL FX and MASTER DELAY have different roles. Harmonist, Pedal Bend and Sound Hold require single notes; only OCTAVE POLY explicitly establishes polyphonic octave-down.",
         "owned": true
+      },
+      "Eventide::H90": {
+        "key": "Eventide::H90",
+        "brand_path": "brand/EVENTIDE.md",
+        "heading": "H90",
+        "label": "Eventide H90",
+        "revision": "H90 online manual 1.12.5; release 1.12.5 introduces four granular algorithms (calendar release date not exposed by checked release page)",
+        "sources": [
+          "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/synth.html",
+          "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/harmonizer.html",
+          "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/granular.html",
+          "https://www.eventideaudio.com/forums/topic/h90-software-latest-h90-release-1-12-5/",
+          "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/terminology.html"
+        ],
+        "synth": "PolySynth explicitly polyphonic guitar-to-synth, up to three generated voices, not a three-note input ceiling. HotSawz: six saw oscillators, mono tracker. Synthonizer: additive A/subtractive B; input-note polyphony unverified.",
+        "pitch": "Polyphony polyphonic shifts/delays/freeze; PolyFlex polyphonic bends/freeze. Prism Shift separates chord intervals into arpeggiated voices. Diatonic uses monophonic note tracking; stereo channels do not change that.",
+        "instrument": "Synthonizer offers organ/Theremin-like tones; Polyphony can produce organ-like chords. Dedicated electric-to-acoustic simulation unverified.",
+        "special": "Cosmic Web, Glitch, GrainMod and Stutter granular effects require 1.12.5. Also Resonator, HarPeggiator and Crystals; freeze behavior belongs to the selected algorithm.",
+        "limits": "Two algorithms per Program, including multi-component algorithms; not all listed choices simultaneously. 1.12.5 availability is not an installed/latest-version assertion. Earlier introduction versions/dates for PolySynth/PolyFlex remain unverified; no additions transferred to H9 Max or H9 Gen 2.",
+        "matrix": [
+          "PolySynth polyphonic; HotSawz mono; Synthonizer",
+          "Polyphony; PolyFlex; Prism Shift; mono Diatonic",
+          "Organ/Theremin-like synthesized tones; acoustic sim unverified",
+          "Granular quartet (1.12.5); freeze; resonator; arpeggiators"
+        ],
+        "qualification": "Two algorithms per Program. HotSawz’s six oscillators do not provide chord tracking; granular quartet requires 1.12.5. Installed firmware and tracking performance untested."
       }
     },
-    "publication_model": "BOSS::GT-1000CORE",
-    "next_model": "Eventide::H90"
+    "publication_model": "Eventide::H90",
+    "next_model": "MOOER::GE300"
   },
   "hxstomp_own_category_census_20261103": {
     "model": "Line 6 HX Stomp",

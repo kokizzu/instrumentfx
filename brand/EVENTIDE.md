@@ -300,6 +300,20 @@ No hardware or app operation, downloads or image inspection. Installed firmware 
 
 The manual’s updated-spec shortlink redirected to the product page,but the returned body was a1.2-year cache with70algorithms/18new. It is not evidence to remove the firmware1.12.5 inventory of74 or claim a rollback. Cache age and document version remain separate.
 
+### H90 — creative-effects capability check, 2026-11-03
+
+H90 online manual 1.12.5; release 1.12.5 introduces four granular algorithms (calendar release date not exposed by checked release page). Checked original manufacturer text; no device test. [Source 1](https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/synth.html) · [Source 2](https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/harmonizer.html) · [Source 3](https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/granular.html) · [Source 4](https://www.eventideaudio.com/forums/topic/h90-software-latest-h90-release-1-12-5/) · [Source 5](https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/terminology.html)
+
+| Field | Exact-model creative capability / qualification |
+|---|---|
+| Synth / acoustic | PolySynth explicitly polyphonic guitar-to-synth, up to three generated voices, not a three-note input ceiling. HotSawz: six saw oscillators, mono tracker. Synthonizer: additive A/subtractive B; input-note polyphony unverified. |
+| Pitch / category choices | Polyphony polyphonic shifts/delays/freeze; PolyFlex polyphonic bends/freeze. Prism Shift separates chord intervals into arpeggiated voices. Diatonic uses monophonic note tracking; stereo channels do not change that. |
+| Synth / acoustic instrument tones | Synthonizer offers organ/Theremin-like tones; Polyphony can produce organ-like chords. Dedicated electric-to-acoustic simulation unverified. |
+| Special processing | Cosmic Web, Glitch, GrainMod and Stutter granular effects require 1.12.5. Also Resonator, HarPeggiator and Crystals; freeze behavior belongs to the selected algorithm. |
+| Architecture / firmware limitations | Two algorithms per Program, including multi-component algorithms; not all listed choices simultaneously. 1.12.5 availability is not an installed/latest-version assertion. Earlier introduction versions/dates for PolySynth/PolyFlex remain unverified; no additions transferred to H9 Max or H9 Gen 2. |
+
+[Four-category comparison](../CREATIVE-EFFECTS.md). Ownership not inferred.
+
 ## Incoming capability evidence, 2026-10-18
 
 Preserved from origin/main87c7d38. References to older inventory counts or incomplete consolidation describe that branch checkpoint; current root profiles and ledger take precedence. Technical conflicts remain qualified.

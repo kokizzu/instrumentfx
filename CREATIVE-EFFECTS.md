@@ -20,11 +20,12 @@ Source checks: **2026-11-03**. Each linked canonical brand record contains exact
 |---|---|---|---|---|
 | [Line 6 HX Effects](brand/LINE6.md#hx-effects) | Tracking synths + separate generators | Poly Pitch / Wham / Capo | Acoustic Sim; 12 String | Poly Sustain; glitch; feedback; shuffled loops |
 | [BOSS GT-1000CORE](brand/BOSS.md#gt-1000core) | Dedicated synth unverified; overtone/vowel/filter processing | OCTAVE POLY down; PITCH SFT; single-note harmony/bend | AC.G SIM; SITAR SIM; guitar/bass defret | Slicer; hold; feedback; slow attack; glitch |
+| [Eventide H90](brand/EVENTIDE.md#h90) | PolySynth polyphonic; HotSawz mono; Synthonizer | Polyphony; PolyFlex; Prism Shift; mono Diatonic | Organ/Theremin-like synthesized tones; acoustic sim unverified | Granular quartet (1.12.5); freeze; resonator; arpeggiators |
 
 ## Limits that change the choice
 
 - **[Line 6 HX Effects](brand/LINE6.md#hx-effects):** Nine blocks overall, DSP permitting. The 3.80 manual restricts the Feedbacker/poly group to one per path; this is not stated as one per preset.
-
 - **[BOSS GT-1000CORE](brand/BOSS.md#gt-1000core):** FX1–FX3, PEDAL FX and MASTER DELAY have different roles. Harmonist, Pedal Bend and Sound Hold require single notes; only OCTAVE POLY explicitly establishes polyphonic octave-down.
+- **[Eventide H90](brand/EVENTIDE.md#h90):** Two algorithms per Program. HotSawz’s six oscillators do not provide chord tracking; granular quartet requires 1.12.5. Installed firmware and tracking performance untested.
 
 The tables describe available algorithms, not a claim that every listed effect runs simultaneously. Dedicated single-purpose pedals remain in the [separate guitar archive](single-guitar.md); they do not increase active multi-effects counts.
