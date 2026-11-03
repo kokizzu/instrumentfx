@@ -145188,6 +145188,15 @@
         "instrument": "Acoustic conversion unverified",
         "qualification": "Vinylizer; sampler; resonator; vocoder requires external carrier/modulator",
         "evidence_basis": "Existing canonical record and retained dated manufacturer evidence; not freshly reverified for this index."
+      },
+      {
+        "key": "Valeton::GP-5",
+        "canonical": "brand/VALETON.md#gp-5",
+        "synth": "Dedicated synth unverified",
+        "pitch": "OCTA; Pitch; Detune in retained1.0.3 census",
+        "instrument": "AC SIM / Piezo SIM factory SnapTone files",
+        "qualification": "Focused factory-file check,manual1.0.3 p38;captured simulator modes distinct from AC Pre1/2 acoustic preamps;current contents untested",
+        "evidence_basis": "Manufacturer-authored exact-model firmware1.0.3 manual printed23,38;focused follow-up,not full fresh four-category audit"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -145961,5 +145970,26 @@
     "market_check": "Fresh search reexposed already recorded HOLY MUSIC/ROCKPIZZ/SMOSYU cached asks; no new condition/stock proof",
     "next": "Continue priority separate-footdisplay evidence and exact Shopee offers; independent GP-200JR -> Prime -> GE300 queue preserved",
     "no_device_operation": true
+  },
+  "gp5_acoustic_snaptone_scope_20261103": {
+    "checked": "2026-11-03",
+    "model": "Valeton GP-5",
+    "source": "https://www.hotone.jp/manuals/valeton/GP-5.pdf",
+    "revision": "Firmware1.0.3,printed23,38",
+    "factory_files": {
+      "AC SIM": "Unnamed four-mode acoustic simulator ENHANCE mode",
+      "Piezo SIM": "Same simulator PIEZO mode"
+    },
+    "classification": "SnapTone files in N→S; distinct from AC Pre1/2 acoustic preamps and cabinet IRs",
+    "unchanged": "109 named algorithms,80 SnapTone slots and402active inventory",
+    "remaining": [
+      "Dedicated synthesis",
+      "Current factory library equivalence",
+      "Exact modeled simulator identity",
+      "Simultaneous-loader restrictions",
+      "Current condition-qualified stock"
+    ],
+    "next": "Continue priority individual-footdisplay evidence and systematic exact hardware discovery; independent general/expression queues preserved",
+    "no_download_or_device_test": true
   }
 }

@@ -767,6 +767,18 @@ Both titles identify GP-5 hardware rather than presets/accessories. **Condition,
 
 Existing [BMD item1275754364/57400332425](https://shopee.co.id/Valeton-GP-5-Multi-Effect-Processor-i.1275754364.57400332425) now has a last-week search snapshot **Rp1.534.500,shop onholiday**;the directreader instead returns a four-week cache withsame ask andselleractive15days earlier. Preserve both timestamps;relative delivery/activity doesnot settle current availability. Previous technical findings anddated prices remain intact.
 
+### GP-5 — factory acoustic-simulator SnapTones
+
+Checked **2026-11-03**, [manufacturer-authored regional manual for firmware1.0.3, printedp38](https://www.hotone.jp/manuals/valeton/GP-5.pdf). Exact-model original table,not current installed-content verification.
+
+| Field | Documented capability / limitation |
+|---|---|
+| Synth / acoustic-simulator SnapTone files | **AC SIM** models the ENHANCE mode and **Piezo SIM** the PIEZO mode of an unnamed four-mode acoustic-guitar simulator. These are factory **SnapTone files**,not the AMP block’s AC Pre1/2 acoustic preamps,ordinary acoustic-body IRs ornew standalone algorithms. The source does not name the modeled pedal;do not infer its brand. |
+| Processing / loader boundary | The same manual printedp23 places converted SnapTone files in **N→S**,with Gain,Volume andthree-band EQ. These two named files do not increase the previously counted109 algorithms or80-file capacity. Their inclusion doesnot establish extra simultaneous loaders,realistic conversion ofevery pickup type ormeasured tracking quality. |
+
+This narrows the earlier unknown acoustic-simulation field for the documented factory library. Dedicated synthesis,current firmware equivalence andqualified current used/new hardware stock remain unresolved. No files loaded,converted ordownloaded andno device test performed.
+
+
 ## GP-50
 
 Current comparison summary, reconciled2026-10-28 from the exact-model sources retained below. Firmware1.0.5 technical observations are not silently promoted to1.1.0. All original bodies, prices, URLs and historical unknowns remain below this selected summary.
