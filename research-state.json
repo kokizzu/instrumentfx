@@ -145206,6 +145206,15 @@
         "instrument": "AC Sim:Standard,Jumbo,Enhanced,Piezo",
         "qualification": "Focused1.3.0 check;Reverse/Sweep/Analog delay distinctions;1.3.3 AC G retained separately;not current-library certification",
         "evidence_basis": "Manufacturer firmware1.3.0 manual reproduction English13–19,exact cover/model/revision;officialPDF inaccessible;focused follow-up"
+      },
+      {
+        "key": "Hotone::Ampero Mini MP-50",
+        "canonical": "brand/HOTONE.md#ampero-mini-mp-50",
+        "synth": "Path Filter four-step filtering;dedicated synth unverified",
+        "pitch": "Clean Octa/Harmony polyphonic inV1.0;newer Pitch Shift/Classic PS distinctions retained",
+        "instrument": "AC Sim;Acoustic Refiner,acoustic IRs andpreamp roles separate",
+        "qualification": "V1.0 historical parameter check,not current certification;V2.2 menu evidence separate;Harmony wording conflict retained",
+        "evidence_basis": "Manufacturer V1.0 manual reproduction exact Mini cover/connector identity;V2.2 direct file timeout;existingcanonicalV2.2 findings retained"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -146047,6 +146056,24 @@
       "Condition-qualified exact Shopee stock"
     ],
     "next": "Continue separate-footdisplay and compact expression priorities;preserve independent general queue",
+    "inventory_unchanged": 402
+  },
+  "ampero_mini_creative_parameter_scope_20261103": {
+    "checked": "2026-11-03",
+    "model": "Hotone Ampero Mini MP-50",
+    "source": "https://manuals.plus/m/4298f527284abd8ec4de6aac1f3033aa0c853eb5c48ae9ed6cd22868cb40627e",
+    "revision": "Exact-model manufacturer V1.0 manual reproduction,not current firmware",
+    "pitch": "Clean Octa andHarmony explicitly polyphonic",
+    "harmony_conflict": "Hi0…+24 described lower;Low0…−24 described higher;preserved without silent reversal",
+    "special": [
+      "Path Filter four-step frequency filter",
+      "Bit Krusher relative downsampling/bit-depth controls",
+      "Ring Mod",
+      "Telephone Line noise/shake",
+      "Satisfaction tape saturation"
+    ],
+    "deferred": "V2.2 manual timed out;global EXP assignment andoutput/headphone/bypass/tail/looper coverage unresolved",
+    "next": "Continue priority individual-footdisplay andcompact expression evidence;preserve independent general queue",
     "inventory_unchanged": 402
   }
 }

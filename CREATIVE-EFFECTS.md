@@ -42,7 +42,7 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **28 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **29 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
@@ -76,6 +76,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 | [Valeton GP-5](brand/VALETON.md#gp-5) | Dedicated synth unverified | OCTA; Pitch; Detune in retained1.0.3 census | AC SIM / Piezo SIM factory SnapTone files | [Focused factory-file check](brand/VALETON.md#gp-5--factory-acoustic-simulator-snaptones),manual1.0.3 p38;captured simulator modes distinct from AC Pre1/2 acoustic preamps;current contents untested |
 
 | [Sonicake Pocket Master QME-10](brand/SONICAKE.md#pocket-master-qme-10) | Dedicated synth unverified;Touch/Auto Wah are filters | Polyphonic Octave/Pitch;Detune±50cents | AC Sim:Standard,Jumbo,Enhanced,Piezo | [Focused1.3.0 check](brand/SONICAKE.md#pocket-master--creative-processing-and-pitch-limits);Reverse/Sweep/Analog delay distinctions;1.3.3 AC G retained separately;not current-library certification |
+
+| [Hotone Ampero Mini MP-50](brand/HOTONE.md#ampero-mini-mp-50) | Path Filter is four-step filtering;dedicated synth unverified | Clean Octa/Harmony polyphonic inV1.0;newer Pitch Shift/Classic PS distinctions retained | AC Sim;separate Acoustic Refiner,acoustic IRs andpreamp roles | [Historical parameter check](brand/HOTONE.md#ampero-mini--historical-creative-algorithm-parameter-distinctions):Bit Krusher,Ring Mod,Telephone Line,Satisfaction;Harmony label conflict preserved;V2.2 menu evidence separate |
 
 ## What remains uncertain
 

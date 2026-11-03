@@ -16,7 +16,7 @@ if __name__ == '__main__':
     comparison_views.test_readme_brand_counts()
     comparison_views.test_validation_counts()
     staged = set(git('diff','--cached','--name-only').splitlines())
-    allowed = {'brand/HOTONE.md','EXPRESSION-VOLUME.md','README.md','MULTI-EFFECTS.md','all-guitar.md','all-bass.md','all-vocal.md','research-state.json','scripts/comparison_views.py','scripts/hotone_catalogue.py','Makefile','scripts/research_push.py'}
+    allowed = {'CREATIVE-EFFECTS.md','brand/HOTONE.md','EXPRESSION-VOLUME.md','README.md','MULTI-EFFECTS.md','all-guitar.md','all-bass.md','all-vocal.md','research-state.json','scripts/comparison_views.py','scripts/hotone_catalogue.py','Makefile','scripts/research_push.py'}
     changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
     assert (changed | staged) <= allowed, (changed | staged) - allowed
     assert not git('diff','--check').strip(), 'Whitespace errors'
@@ -37,4 +37,4 @@ if __name__ == '__main__':
     assert review['sha256'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest()
     assert not git('diff','--cached','--check').strip()
     print(git('diff','--cached','--stat'))
-    print(git('commit','-m','research(hotone): qualify Mini editor and driver naming'))
+    print(git('commit','-m','research(hotone): distinguish Mini historical creative algorithms'))

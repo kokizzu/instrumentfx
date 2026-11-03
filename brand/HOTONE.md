@@ -725,6 +725,19 @@ Checked **2026-11-01** in the [manufacturer firmwareV2.2 manual, printed pp4,6](
 
 No visual inspection,device operation orlocal download. Existing patch-scoped volume evidence andall-preset uncertainty remain unchanged.
 
+
+### Ampero Mini — historical creative-algorithm parameter distinctions
+
+Checked **2026-11-03** in the [manufacturer V1.0 manual reproduction](https://manuals.plus/m/4298f527284abd8ec4de6aac1f3033aa0c853eb5c48ae9ed6cd22868cb40627e),identified byexact Mini title,firmware cover andconnector layout. Original effect-table text only;V2.2 original currently times out. Earlier V2.2 menu evidence remains separate;old parameter descriptions do not certify current behavior.
+
+| Field | Historical evidence / limitation |
+|---|---|
+| Pitch / Clean Octa and Harmony (V1.0) | Both explicitly **polyphonic**. Clean Octa has lower/upper octave anddry levels. Harmony prints **Hi Pitch0…+24,Low Pitch0…−24**,withseparate voice/dry levels,butcalls Hi the lower pitch andLow the higher pitch. Preserve this wording conflict;scale-aware harmony isnot established. |
+| Synth / Path Filter (V1.0) | **Four-step automatic filter**,withper-step frequency,Rate andTap sync. Synth-like processing doesnot establish a dedicated synth engine orinput-note polyphony. |
+| Processing / special effects (V1.0) | **Bit Krusher** separately adjusts downsampling andbit depth,both relative0–100 controls,not literal Hz/bits. **Ring Mod** creates inharmonic spectra;**Telephone Line** adds noise/shake. **Satisfaction** is tape saturation. These are distinct algorithms,not synth engines. |
+
+Existing AC Sim,Acoustic Refiner,acoustic IRs andAMP preamps retain their different roles. Pitch Shift/Classic PS note-handling qualifications remain in the newer record. Tracking quality,exact current parameter mapping andglobal EXP/output coverage remain unresolved. No local download,software installation ordevice operation.
+
 <!-- comparison evidence ends -->
 
 All asks are separate dated observations, not a new/used range. Unless explicitly established, stock, warranty region, authenticity, adapter/bundle details, shipping/tax, vouchers and checkout total remain unknown. Late-delivery compensation is not an upfront discount. Full observations and sources follow.
@@ -997,6 +1010,7 @@ Checked **2026-11-03** against manufacturer sites; no software ordriver download
 The [main support index](https://www.hotone.com/support/3) explicitly pairs **Ampero Editor1.6.0 for Mac/Windows with Mini firmware2.2**. The [Japanese exact Mini page](https://www.hotone.jp/brands/hotone/products/ampero-mini) instead says **Ampero II editor** in its firmware procedure. Preserve this naming conflict: use the explicit main-index compatibility statement as the documented software-family basis, not evidence that Ampero II software supports Mini. No update procedure tested.
 
 The [main Mini product page](https://www.hotone.com/products/multi-effects/Ampero%20Mini) and Japanese page name **Generic USB ASIO5.41.2**. The general support index separately lists5.74.0 and5.57.x packages without model compatibility in the retrieved headings. Their presence doesnot certify Mini support,OS/CPU requirements,orwhich driver is latest appropriate for this device. Audio drivers,editors andhardware firmware remain separate version tracks. Global expression-volume assignment remains unverified.
+
 
 ## Ampero MP-100
 
