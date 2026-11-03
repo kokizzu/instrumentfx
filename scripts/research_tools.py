@@ -1,5 +1,6 @@
 """Local research checks and explicit per-model commits; never uses Actions."""
 import html
+from collections import Counter
 import json
 from pathlib import Path
 import re
@@ -83,6 +84,11 @@ def verify():
     errors = []
     for path in [*ROOT.glob('*.md'), *(ROOT/'brand').glob('*.md')]:
         text = path.read_text()
+        if path.parent == ROOT / "brand":
+            headings = Counter(h.strip() for h in re.findall(r"^## (.+)$", text, re.M))
+            for heading, count in headings.items():
+                if count > 1:
+                    errors.append(f"{path.name}: duplicate canonical section: {heading!r} ({count} copies)")
         for link in re.findall(r'\]\(([^)\s]+)(?:\s+"[^"]*")?\)', text):
             if '://' in link or link.startswith('mailto:'):
                 continue

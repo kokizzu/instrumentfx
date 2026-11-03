@@ -146271,5 +146271,14 @@
     "remaining": "Globalgainendpoints,rangeediting,heldposition,bypass/dry/tail/loopcoverageandqualifiedGen2Shopeeoffersunresolved",
     "active": false,
     "inventory_changed": false
+  },
+  "canonical_section_duplicate_guard_20261103": {
+    "scope": "Validation only;no model facts,membership orresearch queue changes",
+    "problem": "Ledger counts andlink checks accepted duplicated model sections andwholebranddocument bodies",
+    "regression": "Real verify() integration fixture:valid distinct models/repeated subsection titles pass;duplicate model andduplicated document mustfail",
+    "red": "3 tests:1pass,2fail beforefix",
+    "green": "3pass afterfix;real402modelresearchverify passes",
+    "remaining": "MG300MKII images still not exposed as inspectable image content;creative evidence gaps andindependent queues retained",
+    "inventory_changed": false
   }
 }

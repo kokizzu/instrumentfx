@@ -9,11 +9,13 @@ import comparison_views
 if __name__ == '__main__':
     assert sys.argv[1:] in (['stage'], ['commit'])
     review_path = Path('/tmp/instrumentfx-comparison-staged-review.json')
+    import subprocess
+    subprocess.run([sys.executable, str(Path(__file__).with_name('test_research_tools.py'))], check=True)
     verify()
     comparison_views.verify_views()
     comparison_views.test_readme_brand_counts()
     comparison_views.test_validation_counts()
-    allowed = {'all-guitar.md', 'all-bass.md', 'all-vocal.md', 'research-state.json', 'scripts/comparison_publication.py', 'scripts/comparison_views.py', 'Makefile'}
+    allowed = {'scripts/research_tools.py', 'scripts/test_research_tools.py', 'all-guitar.md', 'all-bass.md', 'all-vocal.md', 'research-state.json', 'scripts/comparison_publication.py', 'scripts/comparison_views.py', 'Makefile'}
     changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
     staged = set(git('diff','--cached','--name-only').splitlines())
     assert (changed | staged) <= allowed, (changed | staged) - allowed
@@ -39,4 +41,4 @@ if __name__ == '__main__':
         assert review['head'] == git('rev-parse','HEAD').strip(), 'HEAD changed since review'
         assert review['sha256'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest(), 'Staged diff changed since review'
         assert not git('diff','--cached','--check').strip(), 'Staged whitespace errors'
-        print(git('commit','-m','fix(comparisons): preserve adjacent subsection boundaries'))
+        print(git('commit','-m','fix(validation): reject duplicate canonical brand sections'))

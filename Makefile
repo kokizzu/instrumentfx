@@ -2384,3 +2384,7 @@ consolidation-audit-historical:
 .PHONY: research-stage-harley-benton
 research-stage-harley-benton:
 	python3 scripts/harley_benton_catalogue.py stage
+
+.PHONY: research-test-canonical-sections
+research-test-canonical-sections:
+	python3 scripts/test_research_tools.py
