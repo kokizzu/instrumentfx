@@ -146446,5 +146446,24 @@
     ],
     "active_count_unchanged": 402,
     "independent_general_queue_preserved": true
+  },
+  "fc12_mkii_editor_display_20261103": {
+    "model": "Fractal Audio FC-12 Mark II controller",
+    "sources": [
+      "https://shop.fractalaudio.com/products/fc-12-mark-ii-foot-controller",
+      "https://www.fractalaudio.com/fc-controllers/"
+    ],
+    "findings": [
+      "FC-Edit embedded in Axe-Edit/FM9-Edit/FM3-Edit;exact host editor OS/version minima unresolved",
+      "MarkII text characterheight9.2mm vsoriginal4.6mm;not screen diagonal",
+      "Custom text/LEDs andper-preset overrides;not standalone processor"
+    ],
+    "remaining": [
+      "Power ratings andpinout",
+      "Actual M-VAVE wiring",
+      "Qualified exact Shopee Indonesia offer"
+    ],
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }

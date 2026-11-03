@@ -177,6 +177,14 @@ Checked **2026-10-31**;controller only,outside active audio counts.
 
 Body dimensions/weight are stated unchanged fromoriginal. Power voltage/current/polarity,complete physical counts,pinout andexact Shopee offers remain unresolved. No download ordevice operation.
 
+### FC-12 Mark II — display text and host-embedded editing
+
+Checked **2026-11-03**. The [exact manufacturer FC-12 Mark II store page](https://shop.fractalaudio.com/products/fc-12-mark-ii-foot-controller) explicitly identifies **FC-Edit embedded in Axe-Edit, FM9-Edit and FM3-Edit**. It documents per-preset switch overrides, tap/hold actions, editable display text and LED colors. These are host-connected configuration capabilities, not standalone audio processing or a new universal MIDI editor. OS/version minima remain unverified.
+
+The [Mark II manufacturer page](https://www.fractalaudio.com/fc-controllers/) specifies character height increasing **4.6→9.2mm**, with a bolder font. This measures displayed text, not screen diagonal, pixel resolution or touch support. Layout-dependent labels and preset overrides mean switch functions need not stay identical across presets. Existing dimensions and twelve individual LCDs remain unchanged.
+
+Exact Shopee Indonesia Mark II hardware was not found in the targeted search; no price or stock claim added. Power voltage/current/polarity, pedal pinout and actual M-VAVE wiring remain unresolved. No software download or device operation.
+
 ## FC-6 original — controller
 
 Checked 2026-11-01. **Controller, outside active audio-processor counts; partial profile.** The original FC-6 has six footswitches with individual 128×32 mini LCDs, a separate 2×20 transflective main LCD and separate LED rings. Tap/hold functions and labels are configurable. Four TRS expression inputs accept expression pedals (10–100 kΩ recommended); two TRS switch inputs accept up to four switches. Expression assignment and resulting audio-volume coverage depend on the host; calibration alone proves no global volume assignment.
