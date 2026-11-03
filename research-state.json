@@ -144263,5 +144263,31 @@
       "No new download or device operation"
     ],
     "next": "Continue saved MOOER GE300 general queue; requested individual-screen priorities and Mini/Nano gaps remain."
+  },
+  "ge300_melodia_offer_20261103": {
+    "model": "MOOER GE300",
+    "source": "https://www.melodiamusik.com/product/mooer-ge-300/",
+    "checked": "2026-11-03",
+    "status": "Non-Shopee exact hardware pre-order; condition/stock unverified",
+    "observations": [
+      {
+        "access": "Search snapshot",
+        "crawl_label": "last week",
+        "idr": 12674069
+      },
+      {
+        "access": "Direct reader snapshot",
+        "crawl_label": "1.6 years ago",
+        "idr": 11928535
+      }
+    ],
+    "qualification": "Conflicting cache ages/prices; not an available new/used range or verified delivered quote. Seller weight/category do not override manufacturer facts.",
+    "remaining": [
+      "Qualified exact Shopee used/new hardware",
+      "Current category census and NAM architecture limits",
+      "OS support minima",
+      "Factory-fill allocation"
+    ],
+    "next": "General GP-200JR -> Prime -> GE300 pass preserved; resume requested individual-foot-display models and compact no-treadle inventory, deferring unchanged inaccessible sources."
   }
 }

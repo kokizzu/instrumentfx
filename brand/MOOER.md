@@ -1538,6 +1538,7 @@ Checked **2026-11-03**,manufacturer-authored [MOOER Studio for GE300 Software Us
 | Price class | Amount | Exact offer and qualification |
 |---|---:|---|
 | Retail indexed hardware ask |**Rp11.928.000** |[Vin's Music Store,shop31173885/item29362925028](https://shopee.co.id/-Ready-Stock-mooer-ge300-amp-modelling-synth-multy-efek-multy-effect-mooer-Original-ge-300-i.31173885.29362925028), checked2026-10-16; title/indexed price only. Direct retrieval failed; Ready Stock title and old delivery text do not prove current inventory |
+| Non-Shopee retail pre-order; cache conflict | **Rp12.674.069 search / Rp11.928.535 direct snapshot** | [Melodia exact GE300, SKU GE300](https://www.melodiamusik.com/product/mooer-ge-300/), checked **2026-11-03**. Search says crawled last week; direct page says 1.6 years ago. Both label **Pre Order**. Neither is live-stock proof. Crossed Rp14.910.670 is not validated savings. Condition, selected bundle, warranty/import region, lead time, voucher, shipping/tax and checkout total unknown. Store contact is Jakarta Selatan, not verified dispatch location. Seller’s 4kg field is not manufacturer unit mass; bass-category placement does not establish bass suitability. |
 | Condition-verified used hardware |**?** |No qualified used offer obtained; no inferred discount |
 
 Selected condition/variant,bundle,region,warranty,voucher,shipping and live stock remain unverified. This is not a live retail range or completed-sale evidence.
