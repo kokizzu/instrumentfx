@@ -162,7 +162,7 @@ Checked **2026-11-03**. Exact manufacturer [Turbo store page][AX3-P] and [Mark I
 | Body / mass | **482.6W×292.87D×131.1H mm**, including handles/rear jacks; **6.87kg**. Fails preferred200W×140Dmm. [AX3-H] |
 | Memory / processing | **1,024 presets,8 scenes,4 channels in most blocks**; factory filling unknown. Turbo clock25% above standard; not25% more effect slots. Named-choice census and measured concurrency remain open; reference block ceilings below. [store][AX3-P], [product][AX3-H] |
 | Power | Manualp114: **90–264VAC,47–63Hz,<40W**. CR2032 is a backup battery, not established portable operating power; USB bus power unverified. [AX3-M] |
-| Editor / capture distinctions | Manufacturer lists **Axe-Edit III Mac/PC**,8×8 USB audio/MIDI, Tone Match and onboard cabinet IR capture. Versioned editor minima and creative distinctions are qualified below. IR file limits and NAM firmware/import scope remain unresolved; cabinet capture is not arbitrary amp capture. [AX3-P] |
+| Editor / capture distinctions | Manufacturer lists **Axe-Edit III Mac/PC**,8×8 USB audio/MIDI, Tone Match and onboard cabinet IR capture. Versioned editor minima and creative distinctions are qualified below. Revision-qualified IR storage/import and NAM integration findings follow; arbitrary WAV conversion and final NAM firmware/import scope remain unresolved. Cabinet capture is not arbitrary amp capture. [AX3-P] |
 
 ### Separate IDR hardware offers
 
@@ -236,6 +236,18 @@ The [manufacturer download page][AX3-S] retrieved today still lists32.06; the an
 [November2026 manufacturer Blocks Guide pp69–70][AX3-B]: NAM playback is **mono**, with LEFT/RIGHT/SUM input selection, not a statement about note tracking. Captures preserve sampled settings; added modeled tone stacks do not reconstruct original knobs. Input Gain spans±20dB; calibration metadata can normalize input. Info identifies Full/Lite mode. This processing is separate from Synth and cabinet IR capture.
 
 Keep the partial lead outside active counts. Continue exact release-note/import verification, named effects, factory fill, volume coverage and qualified hardware; LCD-first and independent general queues remain intact.
+
+### Axe-Fx III Mark II Turbo — IR storage, import and looper revisions
+
+Checked **2026-11-03**. The [July 2022 owner’s manual, firmware 20.x][AX3-M], explicitly covers Turbo. Its p2 lists **2,048 factory cabs, 189 Legacy cabs, 2,048 user cab locations and 16 scratchpads**; these are not preset counts or certified present-day factory fill. On p98, user import requires **.syx** through Fractal-Bot or Axe-Edit III; **.IR** denotes Cab-Lab remix data. User cabs are separate from System backups. Arbitrary WAV conversion, accepted sample rates/bit depths and current import limits remain unverified.
+
+| Feature | Revision-qualified evidence / limitation |
+|---|---|
+| FullRes IR | [November 2026 Blocks Guide pp24,54][AX3-B]: **Mark II and later** have **64 FullRes locations in User3(FR)**. Cab slots3/4 or IR Player can use them. FullRes supports **up to1.37s** convolution reverb; not arbitrary-length IR playback or synthesized instrument tones. |
+| IR Player | Same guide p54: **two IR slots**, selectable parallel/series routing, mono LEFT/RIGHT/SUM or stereo input. In stereo, left feeds IR1 and right IR2. Length can shorten to256 samples for lower CPU; A numeric MAX sample count is not specified here. |
+| Looper | Same guide pp55–56: **stereo,229s maximum**, undo/redo, reverse, trim, threshold recording, beat quantization and full/half-speed playback. Playback and dry levels are separate; overdub level controls decay. The older owner’s manual p2 advertises **5.8 minutes stereo**. Preserve this unresolved revision conflict; no inferred half-speed doubling or installed-firmware capacity. |
+
+Loop persistence/export, preset-change continuation and global-pedal coverage remain unverified. No local downloads or device tests. Partial lead remains outside active counts; continue named choices, factory fill, release/import mapping, volume coverage, visual controls and qualified Shopee hardware.
 
 [AX3-T]: https://www.tone3000.com/blog/fractal-axe-fx-iii-nam-a2
 

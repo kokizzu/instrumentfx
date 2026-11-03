@@ -146912,5 +146912,20 @@
     "fully_verified": false,
     "next": "Verify exact release notes without downloads when accessible;continue remaining LCD-first sources and independent queues.",
     "active_count_unchanged": 402
+  },
+  "axe_fx_iii_mkii_turbo_ir_looper_20261103": {
+    "model": "Fractal Audio Axe-Fx III Mark II Turbo",
+    "checked": "2026-11-03",
+    "sources": [
+      "https://www.fractalaudio.com/downloads/manuals/axe-fx-3/Axe-Fx-III-Owners-Manual.pdf",
+      "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf"
+    ],
+    "scope": "Owner20.x pp2,98;November2026 Blocks Guide pp24,54–56",
+    "canonical": "brand/FRACTAL-AUDIO.md#axe-fx-iii-mark-ii-turbo--ir-storage-import-and-looper-revisions",
+    "finding": "Versioned IR storage/import and routing qualified;contradictory looper durations retained.",
+    "active": false,
+    "fully_verified": false,
+    "active_count_unchanged": 402,
+    "next": "Current import/firmware mapping,named choices,factory fill,loop persistence/export,volume/output coverage,visual controls,qualified stock. Preserve independent LCD-first/general queues."
   }
 }
