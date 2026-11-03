@@ -263,6 +263,12 @@ Checked **2026-11-01**. [Neural DSP’s Cortex Cloud2.8.1 release,July22,2026](h
 
 The README’s eight-USB-channel claim conflicts with the manufacturer’s seven(4IN/3OUT);retain official channel evidence. Its optional computer jam player/controller modes are not proof ofan onboard Nano looper. Exact software/firmware compatibility andactual behavior remain untested;all-preset analog volume remains **unknown**.
 
+### Nano Cortex — cloud-backup scope and replacement restore
+
+Checked **2026-11-03** against the [manufacturer NanOS2.2.0 manual](https://neuraldsp.com/manual/nano-cortex), Cloud Backups section. Cortex Cloud supports **up to five backups** of device items andsettings, explicitly including presets, Neural Captures andimpulse responses. Existing backups can be renamed,updated ordeleted; updating replaces the backup with current device items/settings.
+
+The menu action **Download restores the selected backup to Nano Cortex**, overwriting **all content andsettings currently onthe device**. It is not documented here as a non-destructive merge or a computer-file download. The section doesnot establish automatic backups,firmware rollback,offline restore,orretention ofevery expression calibration/assignment detail. No backup,restore,download,app operation ordevice connection performed. Across-preset expression-volume assignment androute coverage remain unresolved.
+
 ## Quad Cortex
 
 Partial record checked **2026-10-17**. Full Quad Cortex,distinct from Nano Cortex andQuad Cortex mini. Product page advertises CorOS4.1.0;current web manual identifies4.1.1. Seller firmware unverified.

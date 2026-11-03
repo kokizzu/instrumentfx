@@ -145419,5 +145419,21 @@
     ],
     "shopee_search": "ExactMKII result remains existing Hurtrock11170212/25331147281; foreign/accessory results excluded; no newly condition-qualified exact Indonesian Shopee offer",
     "next": "Continue requested separate-screen processors; seek condition/stock-qualified exact Indonesian hardware andmanufacturer technical gaps. Preserve independent queues."
+  },
+  "nano_cloud_backup_scope_20261103": {
+    "model": "Neural DSP Nano Cortex",
+    "checked": "2026-11-03",
+    "source": "https://neuraldsp.com/manual/nano-cortex",
+    "revision": "NanOS2.2.0 Cloud Backups section",
+    "findings": [
+      "Up tofive backups including presets,captures,IRs anddevice settings",
+      "Update replaces backup with current device items/settings",
+      "Download restores todevice andoverwrites allcurrent content/settings"
+    ],
+    "limits": [
+      "No automatic backup,firmware rollback,offline restore orcomplete expression-state retention established",
+      "No download,restore ordevice operation"
+    ],
+    "next": "Continue requested separate-screen evidence when accessible;independent compact Nano LEVEL/global-volume question remains unresolved. Preserve expression,general GP-200JR→Prime→GE300 andGT-Pro queues."
   }
 }
