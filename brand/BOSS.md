@@ -442,7 +442,7 @@ Checked **2026-10-16**. Original2026-10-14 facts above remain preserved; firmwar
 | Audio / control I/O | Serial GK IN/OUT (TRS shape,**BGK cable only**);two quarter-inch outputs,L shared with stereo phones;two TRS CTL/EXP;DIN MIDI IN/OUT;USB-B COMPUTER;USB MEMORY;DC. No conventional analog guitar or mic input listed. [GM800-P] |
 | Power / battery / USB power | Included **PSB-1U**, **840 mA draw**. DC insertion/removal switches power. Voltage/polarity,battery and USB-powered operation unverified. [GM800-P], [GM800-M] |
 | Editor / USB / platforms | Tone Studio **Windows/macOS**;computer USB audio/MIDI and re-synthesis. Dedicated USB driver required. USB flash backup includes scenes,imported tones and system settings;this differs from computer audio or editing. Mobile editor,exact USB channels/rates/bitdepth unresolved. [GM800-P], [GM800-M] |
-| Routing / scenes / drums / live use | Scenes control four Tone parts and Rhythm/drum part;not a verified drum-machine sequencer or looper. Firmware **1.10 May2024** adds GK5-KIT support including7-string G7 and normal-pickup OUTPUT MODE; **1.20 Jan2025** adds GK Audio and PART HOLD assignment; **1.50 July2026** adds responsiveness-focused TRACKING MODE. Matching Tone Studio updates required;not installed-version proof. Detailed GK Audio/routing/looper limits still open. [GM800-U] |
+| Routing / scenes / drums / live use | Scenes control four Tone parts and Rhythm/drum part;not a verified drum-machine sequencer or looper. Firmware **1.10 May2024** adds GK5-KIT support including7-string G7 and normal-pickup OUTPUT MODE; **1.20 Jan2025** adds GK Audio and PART HOLD assignment; **1.50 July2026** adds responsiveness-focused TRACKING MODE. Matching Tone Studio updates required;not installed-version proof. [Serial GK Audio route andscene overrides](#gm-800--gk-audio-is-a-separate-serial-stereo-path) are now qualified separately;normal-pickup/effect coverage andlooper limits remain open. [GM800-U] |
 
 ### GM-800 — separate IDR evidence
 
@@ -508,6 +508,17 @@ Parameter Guide eng02 ©2023, pp3–5,21,25–26,32–33,46–49; support articl
 | Architecture / firmware limitations | GK IN is digital despite quarter-inch shape; ordinary analog guitar cable cannot directly drive it. GK-5/5B do not carry normal pickups. Compatible GK5 kits support normal-pickup output from1.10 (May2024): SYN/NORM splits synth/normal, NORM MIX mixes, STEREO suppresses normal. GK Audio added1.20 (Jan2025); detailed path/effects coverage remains unverified. 1.50 (July2026) adds Tracking Mode, not proof of installed firmware or measured latency. |
 
 [Four-category comparison](../CREATIVE-EFFECTS.md). Owner-confirmed ownership.
+
+### GM-800 — GK Audio is a separate serial stereo path
+
+Checked **2026-11-04**: [manufacturer-authored Parameter Guide reproduction,edition03,©2023,printedpp9,18](https://www.manualzz.com/doc/81521733/boss-gm-800-guitar-synthesizer-owner-manual). Exact GM-800 title,parameter organization andGK Audio chapter;original body only,not host summary/FAQs. The [manufacturer manual index](https://www.boss.info/global/support/by_product/gm-800/owners_manuals/) lists the guide but its download page exposes a license gate;the attempted direct eng03 endpoint was inaccessible. No local download;this is not proof oflatest guide orinstalled firmware.
+
+| Field | Verified scope / limitation |
+|---|---|
+| Routing / GK Audio | Stereo audio exchange between Serial GK devices. **OFF** disables it;**MIX** combines incoming serial audio with this unit’s stereo output forGK OUT;**OUT** sends this unit’s stereo output;**THRU** forwards incoming serial audio toGK OUT. These modes do not establish direct analog guitar input orpart-MFX processing ofincoming audio. |
+| Memory / GK Audio overrides | Scene MASTER offers GK Audio Mode, GK Mix Level andGK Out Level with **SYSTEM** inheritance;levels otherwise0–200. System Mix/Out levels also0–200. These are serial-stream controls,not proof ofglobal analog-pedal volume across every preset/output. |
+
+Normal-pickup OUTPUT MODE support from1.10 andGK Audio introduction1.20 remain distinct firmware-qualified features. Detailed normal-pickup/serial-audio MFX coverage remains unresolved;do not replace that unknown withNo orassign all93 MFX tothese paths. No device/MIDI operation.
 
 ## GS-10
 

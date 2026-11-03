@@ -148547,5 +148547,16 @@
     "scope": "Mode-dependent filter control anddistinct arpeggiator speed units/menu;not added algorithms orinput-note polyphony.",
     "next": "Preserve remaining original GE300 gaps andindependent GP-200JR -> Prime -> GE300/display/expression queues;do not equate parameter scale withpattern count.",
     "active_inventory_changed": false
+  },
+  "gm800_serial_audio_scope_20261104": {
+    "canonical": "brand/BOSS.md#gm-800--gk-audio-is-a-separate-serial-stereo-path",
+    "sources": [
+      "https://www.manualzz.com/doc/81521733/boss-gm-800-guitar-synthesizer-owner-manual",
+      "https://www.boss.info/global/support/by_product/gm-800/owners_manuals/"
+    ],
+    "revision": "Manufacturer-authored edition03 body,printed9/18;cover ©2023. Official download gate notsubmitted;direct eng03 unavailable.",
+    "scope": "GK Audio routing andscene/system inheritance;not normal-pickup effects orall-route analog-volume certification.",
+    "next": "Continue exact normal-pickup andincoming serial-audio MFX coverage;retain audio-MFX polyphony andinstalled-firmware unknowns. Independent queues unchanged.",
+    "active_inventory_changed": false
   }
 }
