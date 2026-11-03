@@ -652,7 +652,11 @@ Checked **2026-11-03**; partial lead **outside active counts**,not ownership-con
 | Power / mains range | **100–240V AC**,explicitly includingHelix Rack inmanufacturer powerFAQ. Frequency,current/wattage andactualdraw remain unverified. DCcenterpolarity doesnot apply tomains;this doesnot establish battery/USB operation. [PowerFAQ][HRK-W] |
 | Electrical / inputs | Manufacturer **Floor/Rack/LT** section: Guitar In autoimpedance,unbalancedTS;Aux **47.5kΩ TS**;returns **1MΩ instrument /10kΩ line,TS**. Autoimpedance depends onthe firstblock andGlobal setting. No maximuminput voltage inferred. [I/O specifications][HRK-I] |
 | Electrical / outputs | Same section: main L/R,sends andRack-only **Dry** output are **impedance-balanced TRS**. Product instructions touse TS main-output cables areconnection guidance,not evidence thatthe jack cannot beimpedance-balanced. No headphonepower/load orEXP attenuation established. [I/O specifications][HRK-I] |
-| Processing / power | Dual-SHARC,four stereo paths;grounded AC inlet. Full category/concurrency census,memory fill,mainsfrequency/draw,battery/USB operation andexact editor requirements remain open. [Rack page][HRK-P] |
+| Processing / locations | Rack **3.80, p22:** up to **32 block locations, DSP permitting** through serial/parallel routing. Locations are not a guarantee of 32 arbitrary simultaneous algorithms. [Rack manual][HRK-M] |
+| Memory / IR | Same revision, p4: **8 setlists×128 presets=1,024 locations**; **128 custom/third-party IRs**. Factory-filled subset and current contents remain unverified; storage and IR counts are separate. [Rack manual][HRK-M] |
+| Creative / synth and pitch | **p33:** 3 OSC Synth; Poly Pitch/Wham/Capo and12 String explicitly use polyphonic pitch shifting. **3 Note Generator/4 OSC Generator run without input.** Audio mono/stereo labels do not establish synth-note polyphony. [Rack manual][HRK-M] |
+| Creative / instrument and special | **p30:** Acoustic Sim in EQ; Feedbacker in Dynamics. Simulation, IR loading and feedback generation are different functions. Poly models are DSP-intensive; simultaneous availability and tracking quality untested. [Rack manual][HRK-M] |
+| Processing / power | Dual-SHARC,four stereo paths;grounded AC inlet. Full category census,factory memory fill,mainsfrequency/draw,battery/USB operation andexact editor requirements remain open. [Rack page][HRK-P] |
 | IDR / hardware qualification | Used/new processor asks unknown. Search exposed [replacement LCD,272005224/54012405075](https://shopee.co.id/Lcd-Line-6-Helix-Rack-i.272005224.54012405075),not aprocessor. Existing [Helix Control offer](#helix-control--controller) isalso not Rack hardware orproof ofaRack bundle. No market absence inferred. |
 
 The3.80 manual revision identifies firmware applicability,not latest orinstalled firmware. Full-PDF reader rejected its14.6MB size;targeted indexed manufacturer text was available. No local download,software installation ordevice operation. Continue creative-effect inventory,visual control corroboration,physical/power specifications andqualified processor offers before active admission;do notborrow Floor orControl specifications.
@@ -677,6 +681,10 @@ Two current manufacturer pages expose different Rack dimensions/masses. Preserve
 [HRK-F]: https://kb.line6.com/helix-support-faq
 [HRK-W]: https://kb.line6.com/power-supply-battery-specs-and-faq
 [HRK-I]: https://kb.line6.com/helix-floor-rack-lt-hx-effects-input-and-output-specs
+
+### Helix Rack — 3.80 creative and storage scope
+
+Focused indexed manufacturer checks **2026-11-03**, **90-20-0370-F**, printed pp4,22,30,33. Algorithm availability does not establish synth-input polyphony,latency or all-effects concurrency. Full-PDF reader remains size-limited. This partial profile does not inherit HX Effects’ hardware or certify installed/latest firmware.
 
 ## Helix Stadium XL Floor
 

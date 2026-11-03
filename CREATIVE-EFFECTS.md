@@ -86,6 +86,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [BOSS EX-4](brand/BOSS.md#ex-4--pitch-note-handling-and-composite-organ-preset) remains **outside active counts and the 35-record index above**. Its guide documents single-note Guitar/Bass Synth and Harmonist, chord-capable Heavy Oct, Pitch Shift±24 semitones, acoustic/instrument simulation and special effects. MONO ORGAN is a composite effect recipe. This focused pitch check does not complete its hardware/market profile.
 
+[Helix Rack](brand/LINE6.md#helix-rack--380-creative-and-storage-scope) is another **partial lead outside active counts and the35-record index**. Its own3.80 manual records3 OSC Synth,poly pitch,input-independent generators,Acoustic Sim andFeedbacker. DSP andsynth-note polyphony qualifications remain inits canonical profile.
+
 ## What remains uncertain
 
 - Actual tracking quality, latency and installed firmware were not measured for these records.
