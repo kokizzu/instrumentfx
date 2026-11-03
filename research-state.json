@@ -148808,5 +148808,36 @@
     "market": "Existing exact Denpasar53707848703/Gianyar42029627291 resurfaced; cached stock/condition not resolved.",
     "next": "Continue LCD-priority unresolved hardware/current-library and exact offer gaps; preserve expression/general and GT-Pro queues.",
     "active_inventory_changed": false
+  },
+  "fm9_mkii_phaser_census_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026, printed3,73–75; FM9 comparison column/shared chapter",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-mkii-turbo--named-phaser-types-and-stepped-modulation-source-details",
+    "types": [
+      "Digital Mono",
+      "Digital Stereo",
+      "Script 45",
+      "Script 90",
+      "Block 90",
+      "Classic Vibe",
+      "Stereo 8-Stage",
+      "Barber Pole",
+      "Stripe 90",
+      "Naughty Rock",
+      "FAS Vibe",
+      "Treadle Phaser",
+      "Virtuoso Phaser",
+      "Borg Phaser",
+      "Ultra-Super-Mega Phaser",
+      "Mutated Twin-Phaser",
+      "Modern Vibe",
+      "Hoodoo Vibe",
+      "RT Vibe"
+    ],
+    "instances": 2,
+    "limits": "CPU-qualified reference; not installed firmware census. 2–12 filter stages/stepped LFO are not synth polyphony.",
+    "next": "Continue complete named categories/current firmware, LCD-priority hardware/qualified offers and independent expression/general queues.",
+    "active_inventory_changed": false
   }
 }
