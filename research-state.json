@@ -47191,7 +47191,7 @@
     },
     "technical_source_history_audit_20261104": {
       "checked": "2026-11-04",
-      "source_head": "99fbab144132dc35bbb6b20201ae4ea3399e6b23",
+      "source_head": "59d92ac7d7703aad55a1401722f492577b96c803",
       "target": "make consolidation-audit-source-history",
       "sources": 99,
       "variants": 295,
@@ -47199,17 +47199,12 @@
         "current-compatibility-redirect": 99,
         "registered-original": 99,
         "pre-layout-compatibility-redirect": 88,
-        "historical-variant-needs-review": 8,
+        "verified-link-only-source-variant": 1,
+        "historical-variant-needs-review": 7,
         "verified-shared-source-variant": 1
       },
-      "method": "Enumerate unique Git blobs with --full-history and per-parent merge diffs; reject shallow clone history. Exact equality against registered original,current redirect,or inverse-layout redirect;other content stays pending.",
+      "method": "Enumerate unique Git blobs with --full-history and per-parent merge diffs; reject shallow clone history. Exact equality against registered original,current redirect,or inverse-layout redirect;other content stays pending. FX100 accepts only two explicit citation substitutions followed by whole-source equality; technical orprice drift remains pending.",
       "pending": [
-        {
-          "source": "effects/findings/2026-10-14-flamma-fx100.md",
-          "destination": "brand/FLAMMA.md#fx100",
-          "blob": "4d15f1c8a21ec6cfed01a6c50f67bd9156df35e5",
-          "sha256": "33a8d306b1b3492483ad684a5db3d45d3792e7dea7735b77e99d1956a85b34c9"
-        },
         {
           "source": "effects/findings/2026-10-14-roland-gr-55.md",
           "destination": "brand/ROLAND.md#gr-55",
@@ -47253,7 +47248,7 @@
           "sha256": "d04e08da201a87eccd703a49efad348a83343f504ac20e9ec52f7404687180cc"
         }
       ],
-      "next": "Continue eight pending variants;first FX100 earlier link-only variation,then GR-55 andMOOER originals,then compact/owned/market3 shared sources. Check existing preserved coverage before restoring duplicates;general GT-Pro/display/expression queues remain independent.",
+      "next": "Continue seven pending variants:GR-55,three MOOER source revisions,then compact/owned/market3 shared sources. Compare canonical coverage before restoring anything;general GT-Pro/display/expression queues remain independent.",
       "limitations": "HEAD-reachable technical source revisions only; pending variants are not proven loss; shared/metadata files and manufacturer truth need separate audits. Existing original-body verification remains independent;no compatibility path removed andno complete-migration claim.",
       "complete": false,
       "merge_history_recheck": "Full merge-parent traversal covers295 variants;one earlier BOSS source exactly matches separately registered historical source andpasses its canonical row/prose/URL audit;other eight remain pending.",
@@ -47277,6 +47272,19 @@
             "paragraph_groups": 6,
             "external_urls": 14,
             "missing": 0
+          }
+        },
+        {
+          "source": "effects/findings/2026-10-14-flamma-fx100.md",
+          "destination": "brand/FLAMMA.md#fx100",
+          "blob": "4d15f1c8a21ec6cfed01a6c50f67bd9156df35e5",
+          "sha256": "33a8d306b1b3492483ad684a5db3d45d3792e7dea7735b77e99d1956a85b34c9",
+          "covered_source": "effects/findings/2026-10-14-flamma-fx100.md",
+          "coverage_check": "Two exact citation additions reproduce registered original; verify_preserved enforces canonical whole-body coverage",
+          "verified": {
+            "changes": 2,
+            "scope": "Only product-link citations differ; all other source bytes equal registered original",
+            "regressions": "Changed price,qualification,extra claim andcitation rejected"
           }
         }
       ]

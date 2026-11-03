@@ -2166,7 +2166,7 @@ def commit_preservation_repairs(stage=False):
         assert review['head'] == research_tools.git('rev-parse', 'HEAD').strip()
         assert review['sha256'] == digest(research_tools.git('diff', '--cached'))
         assert not research_tools.git('diff', '--cached', '--check').strip()
-        print(research_tools.git('commit', '-m', 'fix(audit): bind older BOSS variant to preserved history'))
+        print(research_tools.git('commit', '-m', 'fix(audit): verify FX100 citation-only historical variant'))
 
 def audit_historical_sources():
     """Compare the earliest Core/Flex source blobs with the preserved originals."""
@@ -2199,6 +2199,22 @@ def source_history_status(body, preserved, current, legacy_redirect):
     return 'historical-variant-needs-review'
 
 
+
+def is_fx100_link_only_variant(body, registered):
+    """Accept only the two reviewed citation additions, preserving all other bytes."""
+    replacements = (
+        ('visually checked; [official downloads][D].',
+         'visually checked; [official product page][P] and [downloads][D].'),
+        ('10 user slots in product documentation; NAM ?',
+         '10 user slots in [product documentation][P]; NAM ?'),
+    )
+    for old, new in replacements:
+        if body.count(old) != 1:
+            return False
+        body = body.replace(old, new)
+    return body == registered
+
+
 def test_source_history_status():
     inputs = ('original technical evidence', 'current redirect', 'old namespace redirect')
     expected = ('registered-original', 'current-compatibility-redirect', 'pre-layout-compatibility-redirect')
@@ -2206,6 +2222,12 @@ def test_source_history_status():
         assert source_history_status(body, *inputs) == status
         assert source_history_status(body + ' changed fact', *inputs) == 'historical-variant-needs-review'
     assert source_history_status('', *inputs) == 'historical-variant-needs-review'
+    old = 'visually checked; [official downloads][D].\n10 user slots in product documentation; NAM ?\nRp2.480.000; toe unknown'
+    registered = 'visually checked; [official product page][P] and [downloads][D].\n10 user slots in [product documentation][P]; NAM ?\nRp2.480.000; toe unknown'
+    assert is_fx100_link_only_variant(old, registered)
+    for altered in (old.replace('2.480.000', '1.000.000'), old.replace('toe unknown', 'toe yes'), old + '\nextra claim', old.replace('[D]', '[Other]')):
+        assert not is_fx100_link_only_variant(altered, registered)
+    print('PASS: citation-only FX100 equivalence rejects changed price, qualification, extra claim orcitation.')
     print('PASS: exact history classification; changed source/redirect bodies remain pending.')
 
 def audit_source_history():
@@ -2244,15 +2266,23 @@ def audit_source_history():
             body = cache[blob]
             status = source_history_status(body, preserved, current, legacy_redirect)
             covered_source = None
+            coverage_check = None
             if (status == 'historical-variant-needs-review'
                     and path == 'effects/guitar-boss.md' and body == boss_history):
                 status = 'verified-shared-source-variant'
                 covered_source = boss_history_path
+                coverage_check = 'audit_boss_shared(history=True): exact source equality plus canonical row/prose/URL coverage'
+            if (status == 'historical-variant-needs-review'
+                    and path == 'effects/findings/2026-10-14-flamma-fx100.md'
+                    and is_fx100_link_only_variant(body, preserved)):
+                status = 'verified-link-only-source-variant'
+                covered_source = path
+                coverage_check = 'Two exact citation additions reproduce registered original; verify_preserved enforces canonical whole-body coverage'
             row = dict(source=path, destination=destination, blob=blob,
                        sha256=digest(body), status=status)
             if covered_source:
                 row['covered_source'] = covered_source
-                row['coverage_check'] = 'audit_boss_shared(history=True): exact source equality plus canonical row/prose/URL coverage'
+                row['coverage_check'] = coverage_check
             if status == 'historical-variant-needs-review':
                 row['diff_from_registered'] = ''.join(difflib.unified_diff(
                     preserved.splitlines(True), body.splitlines(True),
