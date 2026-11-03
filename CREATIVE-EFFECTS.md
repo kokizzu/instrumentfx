@@ -88,6 +88,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [Helix Rack](brand/LINE6.md#helix-rack--380-creative-and-storage-scope) is another **partial lead outside active counts and the35-record index**. Its own3.80 manual records3 OSC Synth,poly pitch,input-independent generators,Acoustic Sim,Feedbacker andShuffling Looper. Its [Rack-specific category census](brand/LINE6.md#helix-rack--effect-table-category-census) separates effect choices from synthesis andDSP limits. DSP andsynth-note polyphony qualifications remain inits canonical profile.
 
+[Axe-Fx III Mark II Turbo](brand/FRACTAL-AUDIO.md#axe-fx-iii-mark-ii-turbo--creative-processing-and-support-versions) remains a **partial lead outside active counts and the35-record index**: monophonic Synth,polyphonic chromatic/Virtual Capo shifting,monophonic diatonic harmony andseparate vocoder processing. The guide allows up to two Synth andtwo Pitch blocks,CPU permitting;installed-version equivalence remains unverified.
+
 ## What remains uncertain
 
 - Actual tracking quality, latency and installed firmware were not measured for these records.

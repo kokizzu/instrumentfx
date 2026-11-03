@@ -190,6 +190,24 @@ Checked **2026-11-03**, [manufacturer July2022 firmware20.x manual][AX3-M], prin
 
 Partial,outside active counts. No device operation ordownload. Remaining: current support,creative census,factory fill,editor minima,full volume coverage andqualified stock.
 
+### Axe-Fx III Mark II Turbo — creative processing and support versions
+
+Checked **2026-11-03**. [July2022 firmware20.x manual][AX3-M], p38, explicitly covers Turbo and describes a three-voice monophonic Synth. [November2026 Blocks Guide][AX3-B], pp3,76–81,102,108, explicitly includes Axe-Fx III. Guide revision does not establish introduction firmware or installed behavior.
+
+| Capability | Algorithm / practical distinction |
+|---|---|
+| Synth | **Three-oscillator monophonic Synth**: single-note tracking, not three-note polyphony. OFF/ENV ONLY/PITCH+ENV/QUANTIZE distinguish manual generation, envelope and pitch tracking. November guide gives **two Synth instances**, CPU permitting. |
+| Pitch | **Two Pitch blocks;16 reference types**. Dual/Quad Chromatic and Virtual Capo support polyphonic shifting; Dual/Quad Diatonic are monophonic intelligent harmony. Arpeggiator sequences pitch through16 steps; voice/channel counts do not establish chord tracking. |
+| Instrument simulation | Electric-to-acoustic simulation remains unverified. Synth tones, acoustic-body IRs and Tone Match are different processes; none alone establishes a dedicated acoustic simulator. |
+| Special | **Vocoder** uses a separate analysis/modulator source and grid-input carrier; its Freeze holds envelope/formant state, not a general audio loop. Resonator comb filtering and Ring Mod are separate from Synth. |
+
+[Current manufacturer downloads][AX3-S] lists **firmware32.06,2026-06-25,all Axe-Fx III versions**, separately from **USB firmware1.19,2026-09-09** (digital routing/level fix for newer units). Windows USB **driver6.16,2026-06-10** requires **Windows10+ x86/x64/ARM**; Windows7/8 use5.12. Mac needs no USB driver. These are driver/firmware statements, not Axe-Edit minima; no package downloaded or run.
+
+The November guide also documents an Axe-Fx III NAM Player sharing Amp processing. Its minimum firmware/import/architecture scope has not been reconciled with the retrieved32.06 listing; no unrestricted native-NAM claim is made. Partial lead stays outside active counts and the35-record catalogue index. Current tracking quality,latency,complete category census andsoftware/market gaps remain open.
+
+[AX3-B]: https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf
+[AX3-S]: https://www.fractalaudio.com/axe-fx-iii-downloads/
+
 [AX3-P]: https://shop.fractalaudio.com/products/axe-fx-iii-mkii-turbo-preamp-fx-processor
 [AX3-H]: https://www.fractalaudio.com/iii/
 [AX3-M]: https://www.fractalaudio.com/downloads/manuals/axe-fx-3/Axe-Fx-III-Owners-Manual.pdf

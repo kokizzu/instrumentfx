@@ -146791,5 +146791,21 @@
     "fully_verified": false,
     "next": "Current exact support,creative/block census,factory fill,editor minima,endpoints/recall/bypass/USB/loop coverage,visual controls andqualified current stock. Independent LCD-first/general queues preserved.",
     "active_count_unchanged": 402
+  },
+  "axe_fx_iii_mkii_turbo_creative_support_20261103": {
+    "model": "Fractal Audio Axe-Fx III Mark II Turbo",
+    "checked": "2026-11-03",
+    "sources": [
+      "https://www.fractalaudio.com/downloads/manuals/axe-fx-3/Axe-Fx-III-Owners-Manual.pdf",
+      "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+      "https://www.fractalaudio.com/axe-fx-iii-downloads/"
+    ],
+    "scope": "Turbo-covered20.x manualp38;November2026 sharedguide exactIII column pp3,76–81,102,108;current download listing separately",
+    "finding": "Synth,pitch,instrument-simulation uncertainty andvocoder distinctions recorded;USB driver/firmware versions separated.",
+    "nam_pending": "November NAM Player chapter needs firmware/import/architecture reconciliation;not unrestricted certification",
+    "active": false,
+    "fully_verified": false,
+    "next": "Complete block/category census,factory fill,Axe-Edit minima,NAM version mapping,global-volume coverage/endpoints,visual controls andqualified stock. Preserve LCD-first/general queues.",
+    "active_count_unchanged": 402
   }
 }
