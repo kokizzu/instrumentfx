@@ -144828,19 +144828,21 @@
         "brand_path": "brand/EVENTIDE.md",
         "heading": "H90",
         "label": "Eventide H90",
-        "revision": "H90 online manual 1.12.5; release 1.12.5 introduces four granular algorithms (calendar release date not exposed by checked release page)",
+        "revision": "H90 online manual 1.12.5; release 1.12.5 introduces four granular algorithms (calendar release date not exposed by checked release page); manufacturer release notes establish PolySynth introduction1.6.11 and PolyFlex1.5.2; exact calendar dates unresolved",
         "sources": [
           "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/synth.html",
           "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/harmonizer.html",
           "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/granular.html",
           "https://www.eventideaudio.com/forums/topic/h90-software-latest-h90-release-1-12-5/",
-          "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/terminology.html"
+          "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/terminology.html",
+          "https://www.eventideaudio.com/forums/reply/176030/",
+          "https://www.eventideaudio.com/forums/topic/h90-software-latest/"
         ],
         "synth": "PolySynth explicitly polyphonic guitar-to-synth, up to three generated voices, not a three-note input ceiling. HotSawz: six saw oscillators, mono tracker. Synthonizer: additive A/subtractive B; input-note polyphony unverified.",
         "pitch": "Polyphony polyphonic shifts/delays/freeze; PolyFlex polyphonic bends/freeze. Prism Shift separates chord intervals into arpeggiated voices. Diatonic uses monophonic note tracking; stereo channels do not change that.",
         "instrument": "Synthonizer offers organ/Theremin-like tones; Polyphony can produce organ-like chords. Dedicated electric-to-acoustic simulation unverified.",
         "special": "Cosmic Web, Glitch, GrainMod and Stutter granular effects require 1.12.5. Also Resonator, HarPeggiator and Crystals; freeze behavior belongs to the selected algorithm.",
-        "limits": "Two algorithms per Program, including multi-component algorithms; not all listed choices simultaneously. 1.12.5 availability is not an installed/latest-version assertion. Earlier introduction versions/dates for PolySynth/PolyFlex remain unverified; no additions transferred to H9 Max or H9 Gen 2.",
+        "limits": "Two algorithms per Program, including multi-component algorithms; not all listed choices simultaneously. 1.12.5 availability is not an installed/latest-version assertion. PolySynth was introduced in firmware 1.6.11; PolyFlex in 1.5.2. Exact calendar release dates remain unverified; no additions transferred to H9 Max or H9 Gen 2.",
         "matrix": [
           "PolySynth polyphonic; HotSawz mono; Synthonizer",
           "Polyphony; PolyFlex; Prism Shift; mono Diatonic",
@@ -145248,7 +145250,7 @@
     },
     "remaining_evidence_questions": [
       "MG-300 MKII: inspect manufacturer GIF/JPG or exact-model parameter list for Harmonist/Detune, ranges and input polyphony; image tools did not expose inspectable content.",
-      "H90: exact earlier introduction dates/versions and calendar date of1.12.5; installed firmware untested.",
+      "H90: PolySynth1.6.11 and PolyFlex1.5.2 introduction versions verified; exact calendar release dates for these and1.12.5 remain unresolved; installed firmware untested.",
       "HX synth-input polyphony; GT-1000CORE current-firmware guide equivalence and unspecified note handling; GE300 Intelligent Harmony/B1on unspecified chord support.",
       "GM-800 GK Audio routing/effects coverage and audio-MFX polyphony; firmware-qualified normal pickup paths retained."
     ],

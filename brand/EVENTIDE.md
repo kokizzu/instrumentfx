@@ -310,7 +310,7 @@ H90 online manual 1.12.5; release 1.12.5 introduces four granular algorithms (ca
 | Pitch / category choices | Polyphony polyphonic shifts/delays/freeze; PolyFlex polyphonic bends/freeze. Prism Shift separates chord intervals into arpeggiated voices. Diatonic uses monophonic note tracking; stereo channels do not change that. |
 | Synth / acoustic instrument tones | Synthonizer offers organ/Theremin-like tones; Polyphony can produce organ-like chords. Dedicated electric-to-acoustic simulation unverified. |
 | Special processing | Cosmic Web, Glitch, GrainMod and Stutter granular effects require 1.12.5. Also Resonator, HarPeggiator and Crystals; freeze behavior belongs to the selected algorithm. |
-| Architecture / firmware limitations | Two algorithms per Program, including multi-component algorithms; not all listed choices simultaneously. 1.12.5 availability is not an installed/latest-version assertion. Earlier introduction versions/dates for PolySynth/PolyFlex remain unverified; no additions transferred to H9 Max or H9 Gen 2. |
+| Architecture / firmware limitations | Two algorithms per Program, including multi-component algorithms; not all listed choices simultaneously. 1.12.5 availability is not an installed/latest-version assertion. PolySynth was introduced in firmware 1.6.11; PolyFlex in 1.5.2. Exact calendar release dates remain unverified; no additions transferred to H9 Max or H9 Gen 2. |
 
 [Four-category comparison](../CREATIVE-EFFECTS.md). Ownership not inferred.
 
@@ -421,3 +421,12 @@ These notes do not resolve the historical global-volume range lead,current analo
 Checked **2026-11-03** against [Eventide’s current MaxOut instructions](https://www.eventideaudio.com/h9-maxout/). Registered **H9 Standard and H9 Core** owners can sync all **52 algorithms** through H9 Control. The page also accepts used units, subject to registration; a pedal still registered to its previous owner requires Eventide support and serial-photo evidence. No registration, contact, software download or synchronization was performed.
 
 This is an available upgrade procedure, **not proof a particular seller’s pedal already contains the full library**, and not 52 simultaneous blocks. Confirm registration eligibility and installed content separately when buying used. Existing H9 Max owners need no action according to the same page. Do not transfer this entitlement to H9 Gen 2, copy Max prices to Standard/Core, or assume a current app/service procedure proves identical hardware specifications. Original Standard/Core remain discovery leads outside active counts pending their own full profiles and qualified hardware offers. Global-volume endpoints, bypass restrictions and controller wiring are unchanged by this licensing finding.
+
+### H90 — creative algorithm introduction versions, 2026-11-03
+
+| Field | Manufacturer release evidence / qualification |
+|---|---|
+| Synth / PolySynth firmware | [H90 Release 1.6.11](https://www.eventideaudio.com/forums/reply/176030/) explicitly introduces PolySynth as fully polyphonic guitar-to-synth processing. Its up-to-three generated voices are not a three-note tracking ceiling. The same announcement recommends desktop H90 Control 1.7.1 before installation; that application version is separate from pedal firmware 1.6.11. |
+| Pitch / PolyFlex firmware | [Eventide staff release announcement 1.5.2](https://www.eventideaudio.com/forums/topic/h90-software-latest/) introduces PolyFlex as the fully polyphonic version of two-voice PitchFlex, with detune, freeze, individual voice flex and Auto Engage to preserve dry signal while unflexed. Two generated voices do not limit input-note polyphony to two. |
+
+These release notes resolve the earlier unknown introduction versions. Their retrieved text does not establish exact calendar release dates; relative forum update ages, screenshot filenames and application versions are not substitutes. The separate granular quartet still requires 1.12.5. These are feature-introduction versions, not claims about latest or installed firmware, measured tracking quality, or additional simultaneous algorithms beyond two per Program. No software or firmware was installed.

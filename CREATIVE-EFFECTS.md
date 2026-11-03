@@ -88,6 +88,6 @@ This index reuses existing canonical evidence and its original revision/date qua
 - Actual tracking quality, latency and installed firmware were not measured for these records.
 - HX Effects synth-input polyphony remains unresolved despite explicit polyphonic pitch models.
 - GT-1000CORE eng03 is readable on a manufacturer-authored mirror; its full current-firmware mapping and several algorithms’ note-handling limits remain unverified.
-- H90 earlier feature-introduction dates/versions and the calendar date of1.12.5 were not established by the checked release page.
+- H90: PolySynth introduction is verified at firmware1.6.11 and PolyFlex at1.5.2 ([canonical release evidence](brand/EVENTIDE.md#h90)); exact calendar dates for those releases and1.12.5 remain unverified.
 - B1on’s undocumented synth/pitch chord support, GE300 Intelligent Harmony input polyphony, and GM-800 audio-MFX polyphony/GK Audio effects coverage stay unresolved.
 - MG-300 MKII Harmonist/Detune illustration content, ranges and note handling need an inspectable manufacturer image or exact-model parameter list; original MG-300 Pitch Bender is not substituted as evidence.
