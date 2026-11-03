@@ -145396,8 +145396,8 @@
         "canonical": "brand/ZOOM.md#g1xon",
         "synth": "Dedicatedtracking synth unverified;filters/rotary/onsetdistinct",
         "pitch": "PitchSHFT;MonoPitch;HPS;Octave;Detune;PDLPitch/PDLMnPit9Color modes",
-        "instrument": "Aco.Sim;SlowATTCKnotinstrumentengine",
-        "qualification": "PDLMnPitmonophonic;otherpolyphonyunknown;pitch−∞notfulloutputmute;fiveblockDSP",
+        "instrument": "Aco.Sim;SlowATTCKnotinstrumentengine;Z-Organ expandedVer1.2",
+        "qualification": "PDLMnPitmonophonic;otherpolyphonyunknown;pitch−∞notfulloutputmute;fiveblockDSP;1.21March2014adds25;80+25derived105vsmanufacturer100headlineunresolved",
         "evidence_basis": "Focused2026-11-03 manufacturer2014 exactsharedlist includingG1Xonpedalcategory;notwholeprofile/currentinstalledaudit."
       }
     ],
@@ -147328,6 +147328,22 @@
     "canonical": "brand/ZOOM.md#g1on--121-effect-expansion-and-organ-tone",
     "finding": "Official1.21March2014 adds25;G1on75+25=100. ExpandedVer1.2 list addsZOrgan,BendCho,BitCrush,Bomber,Step,RndmFLTR,fCycle.",
     "remaining": "Full25name/currentcategorycensus,notehandling/latency,installedversion;G1Xon80/100 separatemodelnext.",
+    "active_count_unchanged": 402,
+    "additional_creative_records_unchanged": 42,
+    "independent_queues_preserved": true
+  },
+  "g1xon_121_expansion_20261103": {
+    "model": "Zoom G1Xon",
+    "checked": "2026-11-03",
+    "sources": [
+      "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G1on_G1Xon_ver121_en_0.pdf",
+      "https://zoomcorp.com/media/documents/J_G1on_G1Xon_FX-list_100_0.pdf",
+      "https://www.zikinf.com/manuels/zoom-g1on-liste-des-effets-et-parametres-en-46322.pdf",
+      "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g1xon/"
+    ],
+    "canonical": "brand/ZOOM.md#g1xon--121-expansion-and-retained-100-headline",
+    "finding": "1.21March2014adds25;derived80+25=105notmanufacturerheadline;currentprose100retained. ExpandedZOrgan/BendCho/BitCrush/Bomber/filterchoices.",
+    "remaining": "Completecategory/namecensus and100headlinebasis;inputpolyphony/latency,installedfirmware,physicalcontrols,qualifiedIDR.",
     "active_count_unchanged": 402,
     "additional_creative_records_unchanged": 42,
     "independent_queues_preserved": true
