@@ -143879,5 +143879,17 @@
     "finding": "Independent headphone/jack/XLR global EQ;independent main-pair0–100attenuation andpan;fourleft/right dry/effected modes",
     "remaining": "Dry-globalEQinteraction,EXPmapping andoutputcoverage,currentfirmware andqualifiedliveShopeestock",
     "next": "General sequence returns toGP200JR;LCD-first andno-treadle priorities remain independent;defer individual source failures"
+  },
+  "fm9_original_external_switch_linkage_20261103": {
+    "checked": "2026-11-03",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "printed_pages": [
+      81,
+      82
+    ],
+    "revision": "August2022Original/Turbo3.x;notcurrentfirmwaretest",
+    "finding": "Stand-In references existing layout switch;target edits propagate. TwoFCcontrollers permit33mainfoot switches;externaljacks separate;secondFCneedsadapter.",
+    "scope": "OriginalFM9profile only;notnewonboardLCDs orglobalanalogvolumecertification",
+    "next": "Continue exactLCD/no-treadlegaps andShopee inventory;defer unchanged source failures"
   }
 }
