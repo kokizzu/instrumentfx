@@ -143973,5 +143973,13 @@
     "scope": "Saved5.2manufacturertext;no device operation,globalvolumeassignment or newhardwarecount",
     "general_next": "MOOER GE300;LCD-first andno-treadle priorities independent",
     "remaining": "OLEDphysicalspecs,installedlibrary,storageceiling,conditionqualifiedShopeestock andglobalEXPcoverage"
+  },
+  "ge300_summary_and_power_count_20261103": {
+    "checked": "2026-11-03",
+    "source": "https://cn.mooeraudio.com/news/魔耳专业级吉他音色处理器-GE300正式发布！-350.html",
+    "summary_reconciliation": "Initial display summary now includes published IPS;USB paragraph links documented MIDI transmission instead of retaining unqualified unknown.",
+    "conflict": "Launch11sampledpoweramps versusoriginalmanual10voicings+Off;notreconciled orcurrentfirmwarecensus",
+    "preserved": "Originalsourcebodies,TRSoutputconflict,USBhost/driver/messageunknowns andcurrentfirmwareboundary",
+    "next": "ContinueLCDfirst,no-treadleinventory andfreshShopee leads;generalGP200JR→Prime→GE300 pass complete for these findings"
   }
 }

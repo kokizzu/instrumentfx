@@ -1437,7 +1437,7 @@ Official Japanese PDFs failed to load or exceeded the retrieval limit; the mirro
 | Rotary knobs |**9**: three independent master output knobs (XLR/headphone/jack), SELECT encoder, five parameter knobs |
 | Footswitches |**10**: four CTRL, four A–D and bank up/down; assignable LED colors |
 | Buttons |**23** separate front buttons: 15 module, six menu (DISPLAY/GLB-EQ/CTRL/SYSTEM/SAVE/EXP), two page arrows. SELECT push and rear power switch are separate |
-| Display |**5-inch TFT color GUI**, color corroborated by original rendered panel; pixel resolution and touch support unknown |
+| Display |**5-inch TFT color GUI**, color corroborated by original rendered panel; Chinese manufacturer launch article additionally specifies **IPS**. Pixel resolution and touch support remain unknown. [Exact source qualification](#ge300--chinese-manufacturer-usb-midi-and-display-evidence). |
 | Body |**410×201×62 mm; 3 kg**, unit dimensions, original specifications; large footprint |
 | I/O / global output EQ | Original [manual,p63](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf),checked2026-11-03: **separate Headphone,Output andXLR EQ**,each switchable independently ofpresets. Three bands each select **40Hz–16kHz**,gain **−10…+10dB**;low cut Off/1–800Hz,high cut Off/1–20kHz. This is system EQ,not a global expression-volume assignment orproof ofevery-source attenuation. |
 | I/O / independent output trim and pan | Same original guide,p65: jack OUTPUT andXLR each have **Level0–100,default100**,attenuation-only trim; **PanL100–Center–R100**,defaultCenter. Headphones are not a third pair inthis output-control chapter. No analog-pedal mapping orcurrent5.1.4 equivalence inferred. |
@@ -1451,6 +1451,7 @@ Numbered original panel and rear descriptions (printed pp3–5) were read; PDF p
 | Field | Evidence |
 |---|---|
 | Processing blocks |15 category blocks, CPU-limited, movable except input-side SYNTH; two FX categories do not make every category freely duplicable |
+| Processing / power-amp count conflict | [Manufacturer Chinese GE300 launch article](https://cn.mooeraudio.com/news/魔耳专业级吉他音色处理器-GE300正式发布！-350.html), rechecked2026-11-03, advertises **11 sampled power amps**. The saved original manual instead lists **ten selectable power-amp voicings plus Off**, as retained below; Off disables modeling and is not an eleventh modeled amp. Preserve the discrepancy rather than silently equate those inventories. These are AMP parameters, not eleven simultaneous power-amp blocks or additions to the108 amp-menu choices. Neither source establishes current5.1.4 contents. |
 | Preset memory |256 editable total memories; current factory-filled/user-reserved split unknown |
 | Synth / acoustic |Three-voice polyphonic synth without special pickup; AMP106–108 explicitly acoustic simulators. Tone Capture instrument matching is separate |
 
@@ -1512,7 +1513,7 @@ Original **20 user IR slots** became **50**, with **80 MNRS slots** documented i
 
 **I/O:** 6.35mm mono instrument input with guitar/line selection; 3.5mm stereo AUX; two6.35mm L/R outputs; two balanced XLR outputs with ground lift; 6.35mm stereo headphones; stereo FX loop with two send and two return TS jacks; EXP2 TRS expression/amp-control; five-pin DIN MIDI IN and OUT/THRU; USB-B; DC input and power switch. XLR sockets are outputs: no physical microphone input or phantom supply documented in the complete rear inventory. [M]
 
-**USB audio2-in/2-out,24bit44.1kHz**, selectable dry/effected recording,monitor mix and reamp. Distinguish hardware MIDI sockets from unverified USB MIDI capability. Output tap routing supports simultaneous PA cab simulation and an amplifier path without cab; four-cable rigs and stereo external processing are documented. [M][G]
+**USB audio2-in/2-out,24bit44.1kHz**, selectable dry/effected recording,monitor mix and reamp. The Chinese manufacturer launch article explicitly documents MIDI transmission over USB; current routing, host capability and driver/message details remain unverified. [Exact source qualification](#ge300--chinese-manufacturer-usb-midi-and-display-evidence). Output tap routing supports simultaneous PA cab simulation and an amplifier path without cab; four-cable rigs and stereo external processing are documented. [M][G]
 
 **30-minute stereo looper**, overdub,undo/redo,reverse,half-speed/one-shot and saved loop import/export/backup. Tuner and tap tempo; built-in drum/rhythm support unknown. Original manual has two footswitch modes; **V2.0.6 FS mode3** uses A–D plusCTRL1–4 for eight preset choices,then pressing the current preset enters eight-CTRL mode;Bank± returns to preset selection. These are reused physical switches,not eight extra switches orscenes. [Firmware history][F]. Programmable controls do not establish a specific scene ceiling. [M][F]
 
