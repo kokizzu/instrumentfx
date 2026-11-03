@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): complete GFX-8 named selector census'
+        message='research(zoom): verify GFX-8 controls and initial patch allocation'
     print(git('commit','-m',message))

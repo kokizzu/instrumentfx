@@ -148236,5 +148236,31 @@
     "next": "Finish remaining GFX8 profile fields where primary evidence is accessible;retainLCDpriority andindependentgeneralqueue.",
     "active_inventory_changed": false,
     "canonical": "brand/ZOOM.md#gfx-8--complete-named-selector-census"
+  },
+  "gfx8_controls_memory_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://zoomcorp.com/media/documents/E_GFX8.pdf",
+    "revision": "GFX-8-5000-2,46PDFpages;printed4,31;appendixPDF45–46",
+    "counts": {
+      "rotaries": 11,
+      "chassis_footswitches": 6,
+      "panel_buttons": 9,
+      "treadle_pushdown_switch": "separate"
+    },
+    "initial_names": {
+      "user": 80,
+      "protected_preset": 160,
+      "total": 240
+    },
+    "scope": "Text-derived controls andcomplete named-address occupancy;not visualpanel orcurrent unit inspection.",
+    "remaining": [
+      "Visual corroboration",
+      "Exactoffer condition/stock/bundle",
+      "Axis discrepancy",
+      "Current editor compatibility",
+      "Global volume/output coverage"
+    ],
+    "next": "Continue remaining GFX8 hardware/market gaps without treatingpartialprofile asfullyverified;retainrequesteddisplaypriority/generalqueue.",
+    "active_inventory_changed": false
   }
 }

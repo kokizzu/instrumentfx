@@ -5253,11 +5253,11 @@ Checked **2026-11-03** in [Zoom’s original operation manual](https://zoomcorp.
 
 | Field | Manufacturer evidence / remaining gap |
 |---|---|
-| Expression | Built-in optical treadle;RTM target/range/controller patch-stored. Direct external EXP absent from rear inventory;toe switch unverified. |
-| Controls | Separate rotary/footswitch/button census pending visual corroboration. |
+| Expression | Built-in optical treadle with **push-down switch** toggling RTM-controlled modules in Play mode (manualp31). RTM settings are patch-stored. Direct external EXP absent from rear inventory. |
+| Controls | **11 rotaries /6 chassis footswitches /9 panel buttons**, text-derived. Power and treadle switch separate; visual corroboration pending. See dated census below. |
 | Display | Eight-character alphanumeric LED plus two-digit seven-segment LED;not individual footswitch LCDs. Diagonal,color/touch unverified. |
 | Processing | **69 programs:67effects+amp simulator+ZNR**;four effect modules plus amp simulator/ZNR. **English introductionp3:up to nine simultaneous effects**,a different counting basis from module slots. DRIVE,MOD,DLY/REV each22choices;SFX disablesMOD. Complete named selector census below; nested parameter variants are not extra selector positions. |
-| Memory | **80read/write+160read-only=240 patches**;initial user filling unverified. |
+| Memory | **80 writable User +160 protected Preset =240 patches**; all addresses have initial names in the English appendix,PDFpp45–46. Current unit contents unverified. |
 | Synth / acoustic | Named creative choices now checked below; tracking architecture and note polyphony remain unresolved. |
 | Dimensions / mass | Englishp42 text: **455W×203H×80Dmm;3.6kg**. [Japanese own manualp42](https://zoomcorp.com/media/documents/J_GFX8.pdf): **455W×203D×80Hmm;3.6kg**. Language/extraction axis discrepancy preserved;no usable page image returned,no physical measurement. Width exceeds preference under either reading. |
 | Power | **12V AC,AD-0008**;rear drawing500mA,corroborated by Japanese specificationp42 as **AC12V500mA**. AC isnot9VDC;DCpolarity inapplicable. Battery/USB operation unresolved. |
@@ -5295,6 +5295,16 @@ Checked **2026-11-04**, [original manufacturer manual, printedpp19–28](https:/
 **66 selector positions**, including custom slots and external distortion. CUSTOM entries recall settings, not extra simultaneous algorithms. EQ P1/P2 are one equalizer. SFX occupies DLY/REV and disables MOD. Adding EQ, amp simulator and ZNR yields69 arithmetically; this is not a manufacturer explanation of its headline count or nine-effect concurrency.
 
 The profile stays partial, outside active counts; control census, initial filling and offer condition remain open. No download or device test.
+
+### GFX-8 — control census and documented factory filling
+
+Checked **2026-11-04**, [original English manual,GFX-8-5000-2,printedpp4,31 andappendixPDFpp45–46](https://zoomcorp.com/media/documents/E_GFX8.pdf).
+
+- **Rotaries:** three selectors,four PARM,GAIN,PARM SELECT/ADJUST,PARM VALUE/ADJUST,andrear OUTPUT LEVEL:11.
+- **Buttons:** GROUP/CUSTOM SET,STORE,EDIT/CANCEL,TOTAL,MIDI,ZNR/EQ EDIT,DRIVE,MOD,DLY/REV:9. BANK UP/DOWN plus1–4 give six chassis footswitches;the treadle’s push-down switch is separate.
+- **User filling:** U0–U9 andu0–u9,each four named entries:80. **Preset filling:** A0–A9,b0–b9,C0–C9,d0–d9:160. This is an address/name census,not a parameter audit orinspection of secondhand contents.
+
+These findings supersede the earlier unknown control andinitial-fill fields. No panel-image inspection,reset ordevice operation.
 
 ## GFX-707
 
