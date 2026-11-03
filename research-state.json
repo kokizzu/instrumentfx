@@ -146780,5 +146780,16 @@
     "excluded_offer": "Pianeta Zero preset download28713236/24784627305,not hardware",
     "next": "Current support,full I/O/effect census,factory fill,editor minima,global-volume coverage/endpoints,visual controls,qualified offers. LCD-first andindependent general queues retained.",
     "active_count_unchanged": 402
+  },
+  "axe_fx_iii_mkii_turbo_io_volume_20261103": {
+    "model": "Fractal Audio Axe-Fx III Mark II Turbo",
+    "checked": "2026-11-03",
+    "source": "https://www.fractalaudio.com/downloads/manuals/axe-fx-3/Axe-Fx-III-Owners-Manual.pdf",
+    "revision": "July2022,firmware20.x,pp16–20,75,79–81;explicitTurbo scope",
+    "finding": "Connector inventory and continuous-volume versus preset-saving command/USB-mute boundaries recorded.",
+    "active": false,
+    "fully_verified": false,
+    "next": "Current exact support,creative/block census,factory fill,editor minima,endpoints/recall/bypass/USB/loop coverage,visual controls andqualified current stock. Independent LCD-first/general queues preserved.",
+    "active_count_unchanged": 402
   }
 }

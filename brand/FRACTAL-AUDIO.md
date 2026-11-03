@@ -175,6 +175,21 @@ No late-delivery compensation deducted; no completed-sale inference. The Rp11.99
 
 Next: current exact-revision support, full I/O and effect census, factory allocation, editor requirements, global-volume coverage/endpoints, visual controls and condition/stock-qualified offers. Preserve independent LCD-first and GP-200JR→Prime→GE300 queues.
 
+### Axe-Fx III Mark II Turbo — connectors and volume-command boundaries
+
+Checked **2026-11-03**, [manufacturer July2022 firmware20.x manual][AX3-M], printedpp16–20,75,79–81; explicitly Turbo-covered, not current-firmware certification.
+
+| Field | Documented scope |
+|---|---|
+| Inputs | Front/rear mono¼-inch Instrument; front overrides rear. Input2 stereo XLR/TRS line combo; Inputs3/4 stereo TRS line. |
+| Outputs | Out1 stereo XLR plus Humbuster¼-inch; Out2 stereo XLR; Out3/4 stereo Humbuster¼-inch. Dedicated¼-inch phones monitor Out1. |
+| Digital / control | S/PDIF andAES/EBU I/O: only one pair active,48kHz. MIDI IN/OUT/THRU; two EXP; USB; grounded AC. FASLINK II powers/communicates with FC, not MFC-101 FASLINK. |
+| USB / mute boundary | **8×8,24bit/48kHz**. Output1/2 Mode MUTE can suppress grid audio while USB playback remains audible; this does not prove global-pedal USB coverage. |
+| Volume / command distinction | Continuous global volumes target corresponding Input/Output blocks. Separate increment/decrement commands change preset MAIN by1dB and **save the preset,including other unsaved edits**. They are not continuous pedal-volume assignments. |
+| Recall / remaining limit | External-controller Initial Value applies to MIDI CC assignments, **not local/FC pedals**; analog startup/recall andglobal endpoints remain unresolved. |
+
+Partial,outside active counts. No device operation ordownload. Remaining: current support,creative census,factory fill,editor minima,full volume coverage andqualified stock.
+
 [AX3-P]: https://shop.fractalaudio.com/products/axe-fx-iii-mkii-turbo-preamp-fx-processor
 [AX3-H]: https://www.fractalaudio.com/iii/
 [AX3-M]: https://www.fractalaudio.com/downloads/manuals/axe-fx-3/Axe-Fx-III-Owners-Manual.pdf
