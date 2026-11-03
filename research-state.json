@@ -147922,5 +147922,17 @@
     "scope": "Existing active Anagram creative evidence added;seven selected audit unchanged.",
     "remaining": "License/currentinstalledDsp;PitchBendernotehandling;acousticsimulation;independentqueuesretained.",
     "active_inventory_changed": false
+  },
+  "zoia_audio_tracking_scope_20261104": {
+    "checked": "2026-11-04",
+    "canonical": "brand/EMPRESS.md#zoia--audio-headroom-and-modular-tracking-distinctions",
+    "sources": [
+      "https://empresseffects.com/products/zoia",
+      "https://empresseffects.com/blogs/support-zoia"
+    ],
+    "scope": "Audioheadroom/pads,modulartracking versusMIDI/keyboards,44addressablehandcontrols;notvisualcensus.",
+    "limits": "Noinputpolyphony/globalmaster/headphone/USB claim;partialoutsideactivecounts.",
+    "next": "ExactShopeeitem,completeports/import/editor/currentmoduleprofile;preserve independentqueues.",
+    "active_inventory_changed": false
   }
 }

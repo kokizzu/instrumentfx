@@ -52,3 +52,13 @@ Scroll mode advances preview with SCROLL; SELECT+SCROLL previews downward; SELEC
 **Shopee Indonesia discovery only:** [category index](https://shopee.co.id/search?keyword=modular+synthesizer), checked2026-11-03, search cache four days old: “Empress Zoia Modular Synth Pedal Multi Effects & Synthesizer Guitar Pedal”, Rp16,278,000, Jakarta Barat. Exact seller/item ID, condition, variant, bundle, stock, voucher and warranty unresolved. This is neither a qualified new/used price nor verified available hardware. No accessory/software price substituted.
 
 Remaining: exact Shopee hardware page; current firmware/module index; complete I/O/control census and memory split; output/headphone/bypass/tail/looper scope; import/editor support. Preserve the independent GP-200JR → Prime → GE300 queue and LCD-first priority.
+
+### ZOIA — audio headroom and modular tracking distinctions
+
+Checked **2026-11-04**, [exact manufacturer product/specifications](https://empresseffects.com/products/zoia),revision unstated. Published input impedance **≥1MΩ**,output **100Ω**;input headroom **+0.5dBu without pad,+5.7dBu at6dB pad,+10.8dBu at12dB pad**;output headroom **+16.2dBu**. These are audio ratings,not EXP resistance orheadphone-drive certification. Conversion **24bit/48kHz**,internal processing32bit;this doesnot establish USB audio.
+
+The manufacturer describes **Pitch Detector→CV note→Oscillator** for audio-following synthesis. MIDI Notes In orgrid Keyboard can instead control oscillators;these are different triggering paths. **Pitch Shifter** transposes incoming audio. Input-note polyphony,tracking quality andlatency remain unverified;oscillator count isnot chord-tracking evidence. VCA accepts expression-module control inside a patch,not a documented all-preset master override.
+
+[Own ZOIA support control table](https://empresseffects.com/blogs/support-zoia) assigns grid indices0–39 plusPageLeft,PageRight,Back,Shift: **44 addressable hand-button positions**,separate fromthree stompswitches andencoder press. This is a text-derived control census,not fresh visual corroboration;Euroburo-only indices44–58 are excluded. MIDI remote bypass usesCC60:0bypass,64toggle,127engage;it doesnot prove pedal attenuation duringbypass.
+
+Partial lead remains outside active counts. Exact Shopee hardware identity,current module census,factory fill,complete ports/import/editor profile andglobal-volume output coverage remain open. No downloads ordevice operation.
