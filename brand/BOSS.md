@@ -4488,6 +4488,23 @@ Sources: [Roland specifications,updated2026-09-07](https://support.roland.com/hc
 
 Next: complete the original algorithm-guide census,physical control/connector verification and exact Indonesian offers before considering active admission. Retain independent footswitch-display/expression/GT-Pro priorities. No document/software downloaded or device operated.
 
+### SE-70 — pitch modes, short sampling and third-party editor
+
+Checked **2026-11-04**. [Original manufacturer algorithm guide](https://cdn.roland.com/assets/media/pdf/SE-70_PA.pdf), indexed **Pitch Shifter,Key Changer,Repeat Play** sections. Full-text opening exposes no lines; screenshot calls supplied no inspectable image. The mirror’s contents listing is a retrieval lead, not a verified complete census. Firmware applicability remains unstated.
+
+| Field | Source-backed distinction |
+|---|---|
+| Pitch / range and response | **±2octaves**. Higher numbered modes respond more slowly with fewer fluctuations; Inverse1/2 offer different reverse response lengths. No measured latency or input-polyphony claim. |
+| Pitch / stereo linking | Stereo Pitch Shift’s **Stereo Link On** applies left settings to both channels and ignores right settings while retaining stereo placement. Stereo channels and generated voices do not prove chord handling. |
+| Special / Repeat Play | **2,000ms sampling**, automatic repetitive playback after recording, reverse options and playback intervals up to20seconds. The interval is not20seconds of sample capacity or a modern multitrack looper specification. |
+| Special / Vocal Canceler and Key Changer | Center-field attenuation can affect other centered sounds and fail with reverberant/off-center vocals. Key Changer uses semitone/fine adjustments; its modes trade response speed for fewer fluctuations. Dedicated acoustic conversion remains unverified. |
+
+**Third-party editor, not BOSS software:** [X-70 developer release page](https://monophreak.com/boss-se-70-ctrlr-vst-au-plugin/) labels the current release **v15.1**, advertises **Windows Intel,Mac Intel andMac Silicon** builds,and reports a Stereo Phaser transfer fix. Minimum OS versions andnative-versus-Rosetta compatibility are not independently established. Its standalone editor is described as available; DAW integration remains qualified by the developer’s Logic parameter-initialization issue and pipeline wording. The older [developer guide,2024-06-03/2025-01-30](https://monophreak.com/x-70-user-guide/) describes component/VST use; that historical guide alone doesnot establish a current production plugin release.
+
+The guide specifies **two-way MIDI**,algorithm-aware parameter loading andReload/Send operations. Experimental Live mode transmits broader parameter changes than the device’s assigned CC controls; the author leaves memory-wear implications unresolved. This documents developer-supported editing,not USB audio,global analog volume orsoftware compatibility tested here. No software,document ordependency downloaded locally; no MIDI sent.
+
+SE-70 remains a partial lead outsideactivecounts. Full original algorithm census,physical controls/connector sizes andqualified used/new IDR remain pending;independent LCD-first,expression andGT-Pro/general queues remain intact.
+
 ## VE-1
 
 Vocal multi-effects:echo,double,pitch correction and enhance. Consolidated/researched2026-10-16;partial verification. Seller Harmonist/Guitar Pedal titles do not establish guitar processing or intelligent harmony.

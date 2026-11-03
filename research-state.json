@@ -150465,5 +150465,28 @@
     "source_conflict": "Manufacturer prints1.5kg/33lbs;preserve both withoutinventing conversion",
     "market": "No qualified exact hardware offer from site:shopee.co.id Boss SE-70/SE70 queries",
     "next": "Original algorithm census,visual controls,connector sizes andqualified IDR;LCD-first andindependent expression/GT-Pro/general queues preserved"
+  },
+  "se70_pitch_editor_followup_20261104": {
+    "checked": "2026-11-04",
+    "model": "BOSS SE-70",
+    "destination": "brand/BOSS.md#se-70--pitch-modes-short-sampling-and-third-party-editor",
+    "sources": [
+      "https://cdn.roland.com/assets/media/pdf/SE-70_PA.pdf",
+      "https://monophreak.com/boss-se-70-ctrlr-vst-au-plugin/",
+      "https://monophreak.com/x-70-user-guide/"
+    ],
+    "manufacturer_access": "Indexed original Pitch Shifter,Key Changer,Repeat Play readable;PDF haszero textlines;screenshot producednoinspectableimage;no complete census asserted",
+    "pitch": "Two-octave range andstereo-link/response qualifications;polyphony unverified",
+    "sampler": "RepeatPlay2000ms;20s playback interval separate",
+    "editor": "Independent X-70 author advertisesv15.1 WindowsIntel/MacIntel/MacSilicon;standalone versus pipeline DAW/olderguide distinction retained;noinstalltest",
+    "unresolved": [
+      "Complete original algorithm census",
+      "Physical control count andconnector diameters",
+      "Pitch input-note polyphony",
+      "Acoustic conversion",
+      "Current condition-qualified IDR"
+    ],
+    "active_inventory_changed": false,
+    "queues_preserved": true
   }
 }
