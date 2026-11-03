@@ -144148,5 +144148,14 @@
     ],
     "remaining": "GlobalEXPvolume,fullcurrentmanual andqualifiedcondition/stock remainopen.",
     "next": "Continue other priorityLCD/no-treadle models;retrytheseunpricedleads onlyifaccesschanges."
+  },
+  "gtpro_headphone_input_scope_20261103": {
+    "model": "BOSS GT-Pro",
+    "source": "https://cdn.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+    "basis": "Indexed originalmanufacturer manualp11,FrontPanelnamedcontrols;notgeneratedvisualdescription;fullPDFreader sizeblocked",
+    "finding": "PHONESmixesMAINandSUB;INPUTLEVELadjustsfront/rear;PEAKlights6dBbeforedistortion. NotUSBchannelcountorFVattenuationproof. Originalp17directsbothMAIN/SUBknobsforheadphonelevel.",
+    "remaining": "OtherUSBdriver-modechannels,13vs15basis,physicalvisualcensus,globalFVrangeprecedence andqualifiedIDRremainunverified.",
+    "next": "Retain savedGTProcursor;continue requestedLCD/compactinventory ratherthan repeat unchangedUSBqueries.",
+    "corroboration": "https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-17.html"
   }
 }
