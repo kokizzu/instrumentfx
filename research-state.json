@@ -150421,5 +150421,29 @@
     "manual": "Official1.1.0 landing metadata readable;original PDF redirect inaccessible;no current global-volume evidence",
     "next": "Preserve independent GT-Pro/general andindividual-display priority;GP-50 needs readable1.1.0 parameter manual,analog assignment scope andexact controller wiring",
     "active_inventory_changed": false
+  },
+  "prime_update_entry_browser_claim_20261104": {
+    "checked": "2026-11-04",
+    "model": "HeadRush Prime",
+    "sources": [
+      "https://support.headrushfx.com/en/support/solutions/articles/69000835050-headrush-prime-updating-the-firmware",
+      "https://www.headrushfx.com/products/prime/"
+    ],
+    "revision": "Support article and product page publish no applicable firmware revision or absolute modification date in inspected text",
+    "manual_update_entry": "Hold footswitches1 and8 during power-on; no factory-reset or universal repair claim",
+    "update_paths": [
+      "Wi-Fi",
+      "USB cable with Firmware Updater"
+    ],
+    "browser_claim": "Current product page describes password-protected Wi-Fi browser editor without installed editor software; not an authenticated behavior/default/encryption test",
+    "older_source_preserved": "Exact Prime5.0 guide optional Authorize with PIN and connection controls retain their revision;current5.2 equivalence unresolved",
+    "market_result": "Known HOLY MUSIC945642322/52161712736 voucher ask unchanged in three-month cache;no new offer orstock assertion",
+    "remaining": [
+      "OLED dimensions,pixels and hardware color/touch",
+      "Rig storage ceiling",
+      "Current installed library",
+      "Condition-qualified current Shopee stock"
+    ],
+    "queues_preserved": true
   }
 }

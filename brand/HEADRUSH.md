@@ -751,6 +751,17 @@ Checked **2026-11-04** against [manufacturer Prime User Guide5.0.0,§4.22.1 Gene
 
 The same result is present in the [manufacturer4.1 guide](https://cdn.inmusicbrands.com/Software/SGEE/HeadRush%20Prime%20-%20User%20Guide%20-%20v4.1.0.pdf),§4.21.1; this is corroborating historical documentation, not a feature-introduction date. The existing12OLED hardware count remains unchanged.
 
+### Prime — manual update entry and current browser-access claim
+
+Checked **2026-11-04** against the [Prime-specific manufacturer update article](https://support.headrushfx.com/en/support/solutions/articles/69000835050-headrush-prime-updating-the-firmware), firmware revision and absolute article-update date unstated.
+
+| Field | Documented scope |
+|---|---|
+| Software / updater entry | Wi-Fi or USB Firmware Updater; manual entry holds **FS1 and FS8 during power-on**. The Prime-specific article gives no firmware revision; no reset function established. |
+| Software / browser authorization | [Current product page](https://www.headrushfx.com/products/prime/) describes password-protected Wi-Fi browser editing without installed software. Firmware applicability unspecified; older5.0 optional-PIN controls remain revision-qualified. |
+
+The12OLED count is unchanged. Exact Shopee searches returned the already-recorded HOLY MUSIC voucher offer in a three-month cache; no new condition-qualified price or stock evidence is added. Auxiliary screen specifications, rig capacity and installed firmware remain unresolved.
+
 ## VX5
 
 <!-- comparison evidence begins -->
