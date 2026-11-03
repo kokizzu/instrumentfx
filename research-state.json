@@ -145532,5 +145532,23 @@
     ],
     "inventory": "Partiallead outside activecounts",
     "next": "Continue complete partial-profile review andqualified exact hardware evidence;preserve separate-display priority andindependent queues."
+  },
+  "ir200_field_profile_reconciliation_20261103": {
+    "model": "BOSS IR-200",
+    "checked": "2026-11-03",
+    "canonical": "brand/BOSS.md#ir-200--consolidated-field-profile",
+    "basis": "Existing complete dated canonical record; no fresh full-model certification",
+    "required_field_groups": 16,
+    "older_evidence_preserved": true,
+    "inventory_change": false,
+    "remaining": [
+      "Stereo user IR storage/channel selection reconciliation",
+      "Complete USB stream matrix forVendor/Generic",
+      "Global AMP LEVEL actual bypass/headphone/AUX/USB/ambiencecoverage",
+      "Physical controls,displaydiagonal/color/touch",
+      "Condition-specific current Shopee stock,bundle anddeliveredprice",
+      "Battery/USBpower,unverifiedlive/soundcapabilities"
+    ],
+    "next": "Complete these precise gaps on new evidence;keep partiallead outsideactiveinventory andretain requestedseparate-screen priority plusindependent queues."
   }
 }

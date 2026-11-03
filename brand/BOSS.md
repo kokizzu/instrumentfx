@@ -2897,6 +2897,32 @@ Checked **2026-10-16**; cached asking evidence, not live checkout/stock. New con
 
 ## IR-200 — partial expression capability lead
 
+### IR-200 — consolidated field profile
+
+Reconciled **2026-11-03** from the dated exact-model evidence retained in full below. This is a navigation/profile consolidation, not a new hardware test or current-stock check. Historical statements that a now-documented field was pending remain provenance. **Partial lead outside active inventory; existing model membership is unchanged.**
+
+| Required field | Current evidence and precise qualification |
+|---|---|
+| Scope / instrument | Normal guitar/bass input; amp processing, noise suppression, EQ and ambience establish multiple processing stages. Dedicated cabinet loading is not its only documented processing. Inventory admission remains separate from this profile. |
+| Expression / toe | No built-in treadle. Shared CTL1,2/EXP supports named EV-30/EV-5/FV-500H/L pedals. SYSTEM preference shares assignments; AMP LEVEL is preamp level, not a verified all-source master. Toe support unknown. |
+| Range / recall / coverage | EXP MIN/MAX0–100; AMP GAIN maximum120. EXP PDL HOLD is separate state retention. Final mute, bypass, headphones, AUX, USB and surviving ambience coverage remain unverified. |
+| Controls | Text inventory: **9 rotaries,2 onboard footswitches,2 separate buttons**; encoder presses counted once. Physical corroboration remains pending. Previous/next memories are onboard; holding accelerates navigation. |
+| Display | **132×32 backlit graphic LCD**. Published diagonal, pixel color and touch capability unverified; no individual footswitch screens established. |
+| Chassis / mass | **101W×138D×63H mm**,65H with feet; **660g excluding adapter**. Fits preferred body envelope; cable clearance additional. |
+| Processing / choices | Eight guitar/three bass amps; noise suppressor; cabinet A/B; memory EQ A/B plus global EQ A/B; Room/Studio/Hall ambience plus Thru. EQ offers parametric/graphic alternatives. Exact aggregate simultaneous-stage accounting remains open;16 routing diagrams are alternatives. |
+| Memory / factory filling | **128 writable setup locations**. Original Sound List02 covers all128 using32 configurations repeated at four offsets;112 guitar/16 bass locations. Not128 unique tones or confirmation of installed contents. |
+| Sound distinctions | Amp modeling, EQ, ambience and cabinet IRs are documented. Dedicated synth, pitch effects and electric-to-acoustic simulation remain unverified; guitar/bass support does not establish these. |
+| Audio ports | Instrument input; mono send; stereo TRS return; A/MONO+B outputs; stereo-mini AUX anddedicated phones. Return tip=A/ring=B/sleeve=ground. AUX joins outputs/phones independently. |
+| Data / control ports | Shared TRS CTL1,2/EXP; stereo-mini MIDI IN/OUT; Micro-B USB; DC IN andground terminal. MIDI cable model association is not an EXP pinout. |
+| Electrical / power | **9V DC center-negative**,exact PSA association; **335mA device draw**,500mA adapter capacity. Phones recommended≥44Ω,distinct from44Ω output impedance. Battery andUSB bus-power operation unverified. |
+| IR / capture | Factory154 source files; up to two IRs active. **128 mono/64 stereo user files**,44.1/48/96kHz,16/24-bit linear/32-bit float,200/500ms. Loader selecting one stereo channel remains an unresolved workflow qualification. Native NAM, converted NAM andonboard capture creation unverified. |
+| Software / USB | Windows/macOS **IR Loader** handles assets andbackup/restore; full parameter editor andmobile/Linux editing unverified. Vendor/Generic modes differ; USB MIX IN joins final output. Exact stream directions/counts/formats remain open despite support wording2(Stereo×2). Driver/editor/firmware versions remain separate. |
+| Live / practice | Onboard memory down/up; both switches bypass effects. Send/return position/mix options documented. Looper,drums,scenes andpreset-change spillover unverified; no extra functions inferred from the external loop. |
+| Used / new IDR | Neither condition-specific current price verified. Exact Seven Stereo16879370/21523624968 cached **Rp7.777.500**,Bandung,service unavailable; condition,stock,variant,bundle,warranty,voucher,shipping/tax andcheckout unresolved. Separate search-page price is not this item’s history. |
+
+Evidence anchors: [2021 owner manual](https://static.roland.com/assets/media/pdf/IR-200_eng01_W.pdf),[Sound List02](https://static.roland.com/assets/media/pdf/IR-200_SoundList_eng02_W.pdf),[exact specifications](https://www.boss.info/global/products/ir-200/). Detailed source dates,adapter mapping,driver platform limits,IR contradictions andoffer observations remain below. Prioritize unresolved stereo-IR workflow,USB stream matrix,global AMP LEVEL coverage andphysical controls;do not repeat completed factory-fill oradapter-association research.
+
+
 Checked 2026-10-19; outside active inventory pending full-profile/scope audit. [Manufacturer-authored 2021 manual, original PDF mirror](https://manuals.plus/m/b9825b3bebd56cb099901e5e15ff82bed29bc40deea57a2f0c884f79aaf4a363_optim.pdf),26pages, Roland copyright, IR-200 panel and model-specific routing identify source; official manual landing timed out. Printedp17: **EXP PDL FUNCTION PREF=SYSTEM** makes settings common across memories. Targets include AMP LEVEL, AMP GAIN, AMP SOL LV, SEND LEVEL, RET LEVEL; **not an established final-output volume target**. MIN/MAX0–100;AMP GAIN maximum120. Prefer verifying AMP LEVEL with amp bypass, ambience, parallel return andAUX before promising whole-signal mute. No such coverage certified.
 
 Printedpp3–6 document normal guitar/bass input, dedicated phones, CTL1,2/EXP withEV-30/EV-5, and onboard previous/next memory switches. Headphone level usesMEMORY knob;its independence doesnot prove expression coverage. Footprint, full model fields, qualifying multi-effects scope and exact Shopee offer remain pending; no active admission or sibling specification transfer. No downloads or hardware test.
