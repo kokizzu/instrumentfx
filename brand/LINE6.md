@@ -656,6 +656,9 @@ Checked **2026-11-03**; partial lead **outside active counts**,not ownership-con
 | Memory / IR | Same revision, p4: **8 setlists×128 presets=1,024 locations**; **128 custom/third-party IRs**. Factory-filled subset and current contents remain unverified; storage and IR counts are separate. [Rack manual][HRK-M] |
 | Creative / synth and pitch | **p33:** 3 OSC Synth; Poly Pitch/Wham/Capo and12 String explicitly use polyphonic pitch shifting. **3 Note Generator/4 OSC Generator run without input.** Audio mono/stereo labels do not establish synth-note polyphony. [Rack manual][HRK-M] |
 | Creative / instrument and special | **p30:** Acoustic Sim in EQ; Feedbacker in Dynamics. Simulation, IR loading and feedback generation are different functions. Poly models are DSP-intensive; simultaneous availability and tracking quality untested. [Rack manual][HRK-M] |
+| IR / import | **3.80 pp42–43:** HX Edit on Mac/Windows imports HIR or WAV; WAV converts to **48kHz,32-bit,mono,2048 samples**. Stereo-source choice: left,right ormix. This is IR conversion,not NAM/amp capture. [Original-manual reproduction][HRK-R] |
+| IR / simultaneous limits | Single IR:1024 or2048 samples;perpath,two1024 orone2048;one Dual IR maximum perpath. Limits are shared with3.50 Cab/Dual Cab/Amp+Cab,not additive. [pp42–43][HRK-R] |
+| Looper / durations | **pp44–46:** one Looper/preset. 1/6Switch:mono60s full/120s half;stereo30s full/60s half. Shuffling:mono60s/stereo30s,no half-speed mode. Preset-change playback requires the same looper type andmono/stereo mode. Global EXP attenuation unverified. [Rack manual][HRK-R] |
 | Processing / power | Dual-SHARC,four stereo paths;grounded AC inlet. Full category census,factory memory fill,mainsfrequency/draw,battery/USB operation andexact editor requirements remain open. [Rack page][HRK-P] |
 | IDR / hardware qualification | Used/new processor asks unknown. Search exposed [replacement LCD,272005224/54012405075](https://shopee.co.id/Lcd-Line-6-Helix-Rack-i.272005224.54012405075),not aprocessor. Existing [Helix Control offer](#helix-control--controller) isalso not Rack hardware orproof ofaRack bundle. No market absence inferred. |
 
@@ -685,6 +688,12 @@ Two current manufacturer pages expose different Rack dimensions/masses. Preserve
 ### Helix Rack — 3.80 creative and storage scope
 
 Focused indexed manufacturer checks **2026-11-03**, **90-20-0370-F**, printed pp4,22,30,33. Algorithm availability does not establish synth-input polyphony,latency or all-effects concurrency. Full-PDF reader remains size-limited. This partial profile does not inherit HX Effects’ hardware or certify installed/latest firmware.
+
+### Helix Rack — IR import and conditional loop continuation
+
+Checked **2026-11-03** in manufacturer-authored reproduction **90-20-0370-F,©2024,3.80,80pages**,matching theofficial manual identity;original pp42–46 only,not host advice. Main table narrows the IR/looper gaps. Persistence/export andglobal-volume coverage remain unverified. No local download ordevice operation.
+
+[HRK-R]: https://manuals.plus/m/b451d1de4a0bcd2e0b40c6699c14fd67ceff22bb4bb2272979d7fd40505e2f3a
 
 ## Helix Stadium XL Floor
 

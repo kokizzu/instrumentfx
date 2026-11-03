@@ -127722,6 +127722,16 @@
       "next": "Factoryfilled subset,fullcategorycensus,IRimportdetails,NAM/capture status,looper/editor profile,electrical/physical conflicts,visualcontrols,globalvolume/outputcoverage,exactShopeeprocessoroffers.",
       "active_count_unchanged": 402,
       "independent_queues_preserved": true
+    },
+    "helix_rack_ir_looper_20261103": {
+      "source": "https://manuals.plus/m/b451d1de4a0bcd2e0b40c6699c14fd67ceff22bb4bb2272979d7fd40505e2f3a",
+      "identity": "Manufactureroriginal90-20-0370-F,©2024,3.80,80pages,pp42–46;matchedofficialidentity;hostFAQexcluded",
+      "finding": "WAV/HIR,HXEditimport,conversionandsharedCab/IRlimits;looperchannel/speeddurations andmatchingtype requirement recorded.",
+      "active": false,
+      "fully_verified": false,
+      "next": "Factoryfill/fullcategorycensus,editorOSminima,loopspersistence/export,NAM/capturestatus,visualcontrols,physical/electricalgaps,globalvolume/outputcoverage,qualifiedShopeeprocessoroffers.",
+      "active_count_unchanged": 402,
+      "independent_queues_preserved": true
     }
   },
   "brand_navigation": {
