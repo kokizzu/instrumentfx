@@ -145060,10 +145060,10 @@
         "key": "Fender::Tone Master Pro",
         "canonical": "brand/FENDER.md#tone-master-pro",
         "synth": "Aethon / Cerberus / Wavemorph Polysynth",
-        "pitch": "Chromatic/Diatonic/Pedal Shifter; Pitch Sequencer",
+        "pitch": "Chromatic/Diatonic/Pedal Shifter; Pitch Sequencer; Virtual Capo polyphonic ±12semitones (firmware1.4)",
         "instrument": "Electric-to-acoustic unverified",
         "qualification": "Synths1.7.53 (2025-12-03); newer Synthverb remains reverb",
-        "evidence_basis": "Existing canonical record and retained dated manufacturer evidence; not freshly reverified for this index."
+        "evidence_basis": "Existing canonical record and retained dated manufacturer evidence; not freshly reverified for this index. Focused Virtual Capo revision check2026-11-03; full current inventory remains unverified."
       },
       {
         "key": "Neural DSP::Quad Cortex",
@@ -147165,6 +147165,14 @@
     "offer_access": "TargetedexactShopeeAX3000B/bass search yieldednoqualifiedhardware;notmarketabsence.",
     "remaining": "Pitchinputpolyphony,measuredtracking/latency,currentbehavior andqualifiedcurrenthardwareoffers;existingeditionconflicts preserved.",
     "additional_creative_records": 38,
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
+  },
+  "tmp_virtual_capo_scope_20261103": {
+    "source": "https://www.scribd.com/document/830997091/OM-2274900000-Tone-Master-Pro-Model-Guide-EN",
+    "revision": "Manufacturer Model Guide1.4,p88; original document text,not host summary",
+    "canonical": "brand/FENDER.md#tone-master-pro--virtual-capo-polyphony-and-tracking-trade-offs",
+    "remaining": "CurrentGuideH,measuredlatency,synthtracking andsimultaneouscapacity unverified.",
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
   }
