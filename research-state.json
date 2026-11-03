@@ -149979,5 +149979,19 @@
     },
     "active_inventory_changed": false,
     "next": "Continue FM3 Drive87 named reference census and remaining hardware/market gaps; preserve unresolved GEQ two-choice discrepancy and independent GT-Pro/general, expression and individual-display queues."
+  },
+  "fm3_mkii_drive_census_20261104": {
+    "checked": "2026-11-04",
+    "model": "Fractal Audio FM3 MKII Turbo",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026,pp3,39–42",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-mkii-turbo--drive-inventory-and-lo-fi-source-details",
+    "named_list": "brand/FRACTAL-AUDIO.md#fm9-mkii-turbo--named-drive-inventory-source-details",
+    "basis": "Shared manufacturer Drive chapter independently checked;21+42+24=87 with Timothy expanded. Names reference shared table; FM3-specific instance ceiling from p3, not borrowed from FM9.",
+    "total_types": 87,
+    "fm3_instance_limit": 2,
+    "qualifications": "CPU ceiling; installed equivalence/introduction versions unresolved. Bit Reduce20 subtracts from24 yielding4-bit effect processing; sample aliasing not converter spec or synthesis. Shimmer Drive is boost. Historical63+ remains.",
+    "active_inventory_changed": false,
+    "next": "FM3 named Drive reference reconciled. Continue remaining hardware/market gaps and explicit unfinished census gaps (GEQ18 vs16, Reverb79 names, Megatap22 names), without repeating unchanged caches. Preserve independent GT-Pro/general, expression and individual-display queues."
   }
 }
