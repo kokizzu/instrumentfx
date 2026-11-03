@@ -146102,5 +146102,28 @@
     ],
     "next": "Continue priority separate-footdisplay andcompact expression evidence;unreadable GP-50 current manual deferred;independent general queue retained",
     "inventory_unchanged": 402
+  },
+  "fc12_original_controls_timing_20261103": {
+    "model": "Fractal Audio FC-12 original",
+    "checked": "2026-11-03",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FC-X/FC6%2B12-Owners-Manual.pdf",
+    "revision": "Manual2.1 May2021 printed3–4,9,14,27–28,34",
+    "controls": {
+      "rotaries": 0,
+      "footswitches": 12,
+      "separate_panel_buttons": 0,
+      "basis": "Complete textual front/rear inventory;no visual census"
+    },
+    "tap_hold": "Default label Tap,press showsHold;Tap onpress withoutHold,onrelease beforetimeout withHold;0.5secdefault;SWITCHUP alternateHoldexecution",
+    "external_switches": "TSsingle/TRSdual tipfirst ringsecond;momentary/latching,polarity andVirtualToggle;notEXPpotpinout",
+    "stand_in": "Targets layout/switch evenwhenlayoutnotloaded;PerPresetSwitchOverrides canbedisabled",
+    "remaining": [
+      "Qualified exact original Shopee hardware",
+      "Current-host equivalence",
+      "Host-specific globalvolume androutecoverage",
+      "Display diagonal/color/touch"
+    ],
+    "next": "Continue priority individual-footdisplay models;await actualM-VAVE controller model beforepinoutclaims;preserve independent general/expression queues",
+    "controller_outside_active_counts": true
   }
 }

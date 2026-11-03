@@ -192,6 +192,20 @@ Four TRS expression inputs accept 10–100 kΩ expression pedals; two TRS switch
 
 Original strips measure **36×12.5 mm**, versus Mark II 50×17.5 mm; width/height is not diagonal. [Manufacturer comparison](https://www.fractalaudio.com/fc-controllers/). No qualified exact-original Shopee Indonesia offer surfaced in the indexed 2026-11-01 search; separate new/used IDR prices remain unknown. Complete rotary/button census, display diagonal/color/touch and host-specific volume assignment, position/range, bypass, headphones and tails/looper coverage remain unverified. Calibration is not global volume assignment; do not copy Mark II firmware or offers.
 
+### FC-12 original — control census, switch timing and external wiring
+
+Checked **2026-11-03**, [manufacturer manual v2.1,May2021,printedpp3–4,9,14,27–28,34](https://www.fractalaudio.com/downloads/manuals/FC-X/FC6%2B12-Owners-Manual.pdf). Original FC-12 only;not MarkII orcurrent-host certification.
+
+| Field | Revision-qualified evidence |
+|---|---|
+| Controls / complete textual inventory | **0 rotaries /12 footswitches /0 separate panel buttons**,from complete front/rear descriptions. Host controls are separate;no visual census claimed. |
+| Display / Tap-Hold timing | Mini LCD normally labels Tap;pressing shows Hold. With no Hold assignment,Tap fires onpress;with Hold,it fires onrelease before timeout. Default Hold timeout **0.5seconds**. Config separately offers **SWITCH UP** execution for Hold onrelease. These are control timings,not audio latency measurements. |
+| I/O / external switches | Dedicated SWITCH jacks accept **TS single switches** or**TRS-to-dual-TS**,tip first/ring second. Momentary/latching supported;polarity reversible. Virtual Toggle makes a momentary switch toggle logically. This is switch wiring,not expression-potentiometer pinout. |
+| Controls / layout and preset overrides | Stand-In switches point to a layout/switch even when that layout isnot loaded. Config can disable **Per-Preset Switch Overrides**. This controls switch functions,not host global expression-volume assignment. |
+
+Controller remains outside active audio counts. Existing original display sizes,power discrepancy andhost dependence remain;qualified Shopee hardware andaudio-volume coverage are unresolved. No local download,device test orfirmware operation.
+
+
 ## FM3 MKII Turbo
 
 Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; original FM3 offers are not merged. Manufacturer's 7.x manual expressly covers both revisions; current firmware listing is newer. Unknown means unverified.
