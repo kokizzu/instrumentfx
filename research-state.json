@@ -146536,5 +146536,14 @@
     ],
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "fm9_external_switch_setup_20261103": {
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "revision": "August2022,firmware3.x,printed12,96;indexed original text;fullreader timeout",
+    "finding": "Single tip-sleeve switch viaTS replacesexpression atlocaljack;OPEN/CLOSEDpolarity,FollowHardware/VirtualToggle;switches neednocalibration.",
+    "source_conflict": "p12 says twojacks butnamesPedal1/2/3;threephysicaljacks separatelyestablished. Do notreducecount.",
+    "remaining": "Combinedexpression/toe andcurrentMKII/firmware12 equivalence,MVAVEcompatibility,globalvolumerange/recall/coverage unresolved.",
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }

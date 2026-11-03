@@ -735,3 +735,5 @@ VP4 [modifier limits and switch priority](brand/FRACTAL-AUDIO.md#vp4--modifier-c
 AM4 [switch-jack allocation](brand/FRACTAL-AUDIO.md#am4--switch-jack-allocation-and-automatic-pad-recall): a dual switch occupies both pedal jacks. Independent expression/toe wiring still requires verification; automatic input-pad reset is unrelated to pedal-position recall.
 
 RP360 [USB/bypass qualification](brand/DIGITECH.md#rp360--usb-stream-count-bypass-playback-and-master-level-scope): USB is2×2; bypass records dry guitar but silences computer playback. Hand Master affects all outputs; external-pedal coverage and global targeting remain unverified. Partial lead stays outside active counts.
+
+FM9 [historical external-switch setup](brand/FRACTAL-AUDIO.md#fm9--external-switch-wiring-and-manual-count-wording): a local TS tip–sleeve switch replaces expression at that jack; virtual-toggle mode is not continuous volume or a verified combined expression/toe connection. Original/Turbo3.x documentation does not certify current MKII behavior.
