@@ -148663,5 +148663,15 @@
     "status": "Unresolved source/revision conflict; not proof of firmware expansion or reviewer error. Capture refinement is separate from output global EQ.",
     "next": "Seek manufacturer firmware notes or a current original capture guide resolving 10 versus 12 bands; preserve independent queues and partial status.",
     "active_count_unchanged": 402
+  },
+  "gtpro_standard_host_volume_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+    "printed_page": 137,
+    "canonical": "brand/BOSS.md#gt-pro--standard-driver-host-volume-boundary",
+    "finding": "Historical Mac OS X Standard-driver Sound preferences Main Volume slider does not move.",
+    "qualification": "Host control restriction, not an expression-role lock, hardware failure or modern-host certification.",
+    "next": "Other USB channel modes,13-versus15 blocks,visual controls,global FV precedence and qualified IDR remain open; prioritize individual footswitch screens independently.",
+    "active_inventory_changed": false
   }
 }
