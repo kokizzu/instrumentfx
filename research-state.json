@@ -146221,5 +146221,16 @@
     ],
     "remaining": "HALF recordingcapacity/qualitybasis,featureintroduction/installedfirmware,preset/powercontinuityanduniversalexpressioncoverageunknown",
     "inventory_changed": false
+  },
+  "gp200jr_regional_electrical_conflict_20261103": {
+    "source": "https://www.hotone.jp/brands/valeton/products/gp-200jr",
+    "revision": "Exact-model regional table,firmware unstated",
+    "findings": [
+      "Quarterinch/XLRmainandSend1kΩ;Return100kΩ;AUX10kΩ",
+      "Phones3.5mmTRS22Ωoutputimpedance,notloadrecommendation",
+      "OverviewbalancedTRSversusspecificationunbalancedTSinternalconflictretained;manualTSnoterased"
+    ],
+    "remaining": "Maximumlevels/headphonepowerandload,authoritativeoutputcorrection,NAMarchitectures/IRconversion,toe/touch/powerandqualifiedcurrentstockunresolved",
+    "inventory_changed": false
   }
 }

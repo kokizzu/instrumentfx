@@ -1700,6 +1700,18 @@ Checked **2026-10-16**, public indexed/page-text evidence, not authenticated che
 | Exact aliska hardware lead,checked2026-11-03 | Rp4.000.000 opened-shop snapshot;Rp3.600.000 search-only | [Valeton GP-200JR,shop1423091080/item51612518058](https://shopee.co.id/Valeton-GP-200JR-i.1423091080.51612518058),linked by [aliska musik shop](https://shopee.co.id/aliskamusikshop). Opened shop body is a two-month cache;three-month search instead showsRp3.600.000 and“Produk Baru”. These conflicting snapshots do not prove current price ornew condition;the shop also sells used instruments. Direct item fails toopen. Seller location,selected variation,bundle/adapter,warranty,working state,stock,vouchers,shipping/tax andcheckout unknown. Item link contains a display-model parameter,not verified variation contents. No discount inferred. |
 | Condition-verified used / new | ? / ? | No exact used hardware offer with verified condition located; no condition-confirmed new checkout. Retail observations above remain separate |
 
+### GP-200JR — regional electrical ratings and connector-text conflict
+
+Checked **2026-11-03** against the [exact JR regional specification table](https://www.hotone.jp/brands/valeton/products/gp-200jr). Firmware applicability andtest conditions are unstated;these are published ratings,not measurements or imported GP-200/LT specifications.
+
+| Field | Evidence / limitation |
+|---|---|
+| I/O / output and return impedances | The table lists **1kΩ** forboth L/R quarter-inch outputs,XLR L/R outputs andSend;**100kΩ Return** and**10kΩ AUX** input impedances. These do not establish maximum signal levels,balanced wiring orthe loading ofevery connected device. |
+| I/O / headphone electrical boundary | Dedicated **3.5mm stereo TRS** headphone output is listed with **22Ω output impedance**. This is not a22Ω recommended/minimum headphone load orpower rating;those remain unverified. Direct analog expression coverage isseparate. |
+| I/O / contradictory main-output prose | The same page’s connection overview says **balanced quarter-inch TRS**,while its specification table says **unbalanced quarter-inch TS**. Preserve this internal conflict alongside the manufacturer page’s equivalent overview/feature-list disagreement andthe existing manual diagram’s TS evidence;no cabling capability is silently upgraded. |
+
+The table separately repeats24-bit conversion and44.1kHz USB recording at16/24bit;neither specifies IR-import conversion. Existing NAM-architecture,IR-format/power,touch/toe andcurrent-offer gaps remain open. No files downloaded,device connected orsettings changed.
+
 <!-- comparison evidence ends -->
 
 
