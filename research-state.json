@@ -148135,5 +148135,14 @@
     "scope": "ON/OFF max7blocktargets;separateSubPatch originalstates vs5.1.0parameterrecall;4/8CTRLpositions notscene ceiling.",
     "next": "CurrentSubPatchcount/coverage remainsunknown;continueother accessibleLCD-first/modeldiscovery without conflating limits.",
     "active_inventory_changed": false
+  },
+  "fm9_scene_recall_scope_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "revision": "August2022 firmware3.x Original/Turbo printed55–56,97–98",
+    "scope": "SceneRevert unsavedstate;perchannelSceneIgnore;redundantPC/map recall distinct;notglobalvolume orautosave.",
+    "limits": "MKII/current12 equivalence andhardware behavior untested.",
+    "next": "ContinueLCD-first gaps,currentlibrary andqualified exactrevision offers;preservegeneral/expressionqueues.",
+    "active_inventory_changed": false
   }
 }

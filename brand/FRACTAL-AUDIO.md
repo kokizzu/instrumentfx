@@ -1185,6 +1185,16 @@ Global Settings offers **Off**, **Channel & Scene**, and **All**. For gapless pr
 Gapless transition, delay/reverb spillover, looper continuity and global analog-volume assignment are separate capabilities. This finding does not establish retained loop recordings, continuous pedal endpoints, startup recall or universal output coverage. Historical manual3.x remains separately qualified. No save, update, download or hardware operation was performed.
 
 
+### FM9 — scene recall and channel-specific Scene Ignore
+
+Checked **2026-11-04**, [manufacturer FM9 manual,August2022 firmware3.x,printedpp55–56,97–98](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). Cover explicitly includesOriginal andTurbo;MKII/current12.0 equivalence untested.
+
+- **Scene Revert Off**,default,retains unsaved scene changes while staying in thepreset. **On** discards changes when another scene loads andrecalls saved state onreturn. Changing/reloading presets can also discard edits;this is not automatic persistent saving orpedal-position recall. SETUP changes need noSTORE,unlike preset edits.
+- **Scene Ignore**,introduced3.0,is **per channel**. Anignored block no longer accepts scene bypass/channel commands butremains manually controllable. Entering anignored channel can therefore prevent subsequent scenes fromselecting another channel until manual control intervenes. It isnot adevice-wide scene disable ormore processing capacity.
+- **Ignore Redundant PC** is separate. With itOff,aPC reloading thecurrent preset discards edits;On ignores redundant PCs. WithPC mapping,an altered scene can still return tothe mapped scene without reloading thepreset. This is MIDI recall behavior,not aclaim ofgapless audio oruniversal state retention.
+
+No settings changed orMIDI sent. Global expression-volume endpoints/output coverage,current library andqualified exact-revision offers remain open;otherqueues retained.
+
 ### FM9 — November 2026 block comparison
 
 Checked **2026-11-03**: [manufacturer Blocks Guide](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf), **November2026**, p3. **Reference type choices / FM9 instance ceiling**, CPU-limited;not summed concurrency orinstalled inventory. The column names FM9,not a specific MKII firmware. EarlierJune2023 evidence remains historical.
