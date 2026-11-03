@@ -73,3 +73,13 @@ Checked **2026-11-04**, [manufacturer Manual v02,printedpp16–21](https://empre
 - Ordinary **Save writes internal memory**;SD-card writing isseparately requested inConfig. Saving a patch doesnot itself refresh its card backup. Initial factory occupancy andglobal configuration/sampler-backup scope remain unresolved.
 
 Theprevious source-retrieval failure ishistorical;this check recovered readable original text without a local download. Completeports,currentmodulecensus,exactShopeeitem andglobalvolumecoverage remain open;partial lead stays outsideactivecounts.
+
+### ZOIA — sampler media and factory-content prerequisites
+
+Checked **2026-11-04**, [manufacturer support hub](https://empresseffects.com/blogs/support-zoia), sections “What are the ZOIA Sampler requirements?” and “Updating Firmware”; article revision dates unstated.
+
+- The sampler article explicitly describes **beta firmware**: FAT32 media; 48kHz/16bit stereo WAV; files at root or one directory below; card/files present at boot, or regenerate the list in Config. It gives a10-minute file limit and64 directories with64 files each, with roughly64 entries displayed. Faster playback and recording/overdub increase DSP use. These are revision-uncertain support restrictions, **not a verified current5.41 census**.
+- Preserve the separate **4.00** changelog evidence above: mono/stereo8/16/24/32bit acceptance and conversion. The older stereo16bit-only wording must not silently override that later release evidence. Current filesystem/list limits still need confirmation.
+- Firmware5 factory patches **Groovebox and Grand Piano require external sample assets**. Empress says new ZOIA pedals ship those assets onSD; Euroburo is excluded. The new guitar-oriented factory set is ZOIA-specific by default. This doesnot establish assets/card contents included with a particular used offer or backup of those assets by patch export.
+
+No package downloaded, card formatted or device updated. Exact hardware offer, complete ports/editor/import profile andglobal-volume coverage remain open; partial lead remains outside active inventory.
