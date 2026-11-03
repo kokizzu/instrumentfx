@@ -143847,5 +143847,14 @@
     ],
     "remaining": "Manufacturerdirectcorroboration,pixels/color/touch,maindiagonal andqualifiedexactTurboShopeeoffers unknown.",
     "next": "ContinueLCDfirst andno-treadleaudit;independentGP200JR→Prime→GE300 sequence retained."
+  },
+  "mvave_firmware_mode_scope_20261103": {
+    "checked": "2026-11-03",
+    "source": "https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/firmware/FootCtrlPlus/footctrlplus.txt",
+    "linked_from": "https://www.sincoaudio.com/download",
+    "finding": "V11 combines Advanced Custom 1/2; V12 fixes display-setting persistence. Older separate-mode guide not established for these versions.",
+    "unresolved": "Exact offered/controller revision, analog direction, TRS pinout, resistance/taper and continuous CC endpoints",
+    "queue": "Defer wiring until new model-specific primary evidence; continue other research",
+    "downloads": false
   }
 }

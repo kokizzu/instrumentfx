@@ -217,6 +217,11 @@ Checked2026-10-31 against the [manufacturer download index](https://www.m-vave.c
 
 No analog tip/ring/sleeve mapping,resistance range,continuous sweep endpoints orsafe adapter prescription established. Software transport support cannot certify the actual controller revision orreplace direct analog processorEXP. No helper,app,firmware ormanual downloaded;no hardware connection,test orrewiring.
 
+### FootCtrlPlus firmware changes qualify the older mode instructions
+
+Checked 2026-11-03. The [manufacturer download catalogue](https://www.sincoaudio.com/download) links FootCtrlPlus to a [text release history](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/firmware/FootCtrlPlus/footctrlplus.txt) headed **chocolate plus**. It identifies **2025-06-18 V12** as fixing display-setting persistence. **2025-06-13 V11** combines Advanced Custom 1 and 2, adds press modes, changes short-press transmission timing for some PC/CC commands, adds speaker-control mode and six mixed MIDI/keyboard/turner groups, and adds Blackbox-oriented PC display numbering starting at 1. Thus the older separate Advanced Custom 1/2 instructions above need a firmware qualification; their mode layout is not established for V11/V12. The V10 note about reaching maximum values concerns bank/code transmission and does not document a continuous expression sweep. This release history supplies no pedal pinout, resistance, taper or measured CC endpoints. It does not certify all historical Chocolate units as the same hardware. No updater or firmware binary downloaded or run. Wiring remains deferred while other research continues.
+
+
 ## CUBE BABY AC
 
 <!-- comparison evidence begins -->
