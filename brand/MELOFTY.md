@@ -317,3 +317,13 @@ Checked **2026-11-03**, [manufacturer German V1.7.4 manual, PDFp54](https://shop
 - **AMBIENT LIGHT MODE** offers Preset Sync, Pulse Breath and Signal Reactive. Lighting behavior does not establish LCD/OLED technology, screen color or independent mini-screen brightness.
 
 Fresh targeted Shopee Indonesia searches yielded no qualified exact hardware offer; absence from search is not market absence. The physical mini-screen census remains importer-backed and manufacturer technology remains unresolved. Partial lead stays outside active counts. No local download or device operation.
+
+### AXOM MAX — recovered English reset scope and display evidence boundary
+
+Checked **2026-11-04**, [manufacturer English manual V1.7.4,2026-08-31,PDFpp5,50–51](https://shop.warwick.de/media/23/53/74/1790324346/4on4_MEL_AXOM_MAX_Manual_EN.pdf?ts=1790324346),58pages,linked by the identified importer. This endpoint now yields original text;earlier access failures remain dated observations. No local download orvisual panel inspection.
+
+- **Factory Reset** offers separately selectable **Preset,Global Setting,Sample** categories,then aconfirmation prompt. The text doesnot enumerate every nestedsetting/sample type,loop inclusion orcross-version restoration. It is areset workflow,not proof that saving a preset backs up all three categories. No reset performed.
+- The English panel description still says **footswitch/pedal mini screen** forfunction readout withoutLCD/OLED technology orphysical count. Importer-backed nine remains qualified;its separate pedal readout is not silently counted amongnine. The manufacturer shop remains inaccessible.
+- The newly inspected [importer-hosted English flyer,PDFp3](https://shop.warwick.de/media/df/39/ee/1790778142/yf9_Melofty-Flyer_EN_ONLINE.pdf?ts=1790778142),Warwick copyright2026,listsnine configurable footswitches andthe7-inch main touchscreen. It doesnot independently settle mini-screen technology ormanufacturer screen census. Preserve its distributor provenance ratherthan treating its brand logo as manufacturer authorship.
+
+Partial lead remains outsideactivecounts. Currentfirmware,fullcategory census,globalexternalEXPcoverage andqualifiedShopeehardware remainunresolved.
