@@ -35,4 +35,4 @@ if __name__ == '__main__':
         assert review['head'] == git('rev-parse','HEAD').strip(), 'HEAD changed since review'
         assert review['sha256'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest(), 'Staged diff changed since review'
         assert not git('diff','--cached','--check').strip(), 'Staged whitespace errors'
-        print(git('commit','-m','research(darkglass): audit Anagram version 1.19.1 block inventory'))
+        print(git('commit','-m','research(darkglass): qualify Anagram scene banks and routing fixes'))

@@ -147888,5 +147888,18 @@
     "limits": "Listingnotinstalledlicense/DSPcapacitycertification;introductionversionsunverified.",
     "next": "Area126/127 conflict,USBmatrix,license/formatconstraints andqualifiedstock remain;independentqueuesunchanged.",
     "active_inventory_changed": false
+  },
+  "anagram_119_routing_scope_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://www.darkglass.com/products/darkglass-suite",
+    "revisions": [
+      "KosmOS1.19.0",
+      "KosmOS1.19.1",
+      "Suite6.11.4"
+    ],
+    "scope": "Versioned scene-bank selection andblend/phase correction;prior census newnames now introduction-qualified.",
+    "remaining": "Presetarea126/127,USBmatrix,globalEXPcoverage andqualifiedstock unresolved;no device/software operation.",
+    "next": "Continue other useful models;independentqueues retained.",
+    "active_inventory_changed": false
   }
 }
