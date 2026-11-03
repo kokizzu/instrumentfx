@@ -2662,6 +2662,8 @@ Guitar multi-effects,distinct from G1on and G1X FOUR. Checked2026-10-17;partial.
 | Dimensions / mass | **237×154.8×50mm W×D×H;640g without batteries**. Medium footprint. | [Zoom product][G1XO-P] |
 | Processing / category choices | **Five simultaneous**,reorderable andDSP-limited. PROCESSING LIMIT bypasses aneffect when capacity isexceeded. Product advertises100 effects;older2013 manual specifiesG1Xon80. Published category subtotals **11 dynamics/filter+12 drive+22 amp+16 modulation/SFX+14 delay/reverb=75;five pedal effects make80**, matching manuals. Both official_0 and_2 manuals retain80. Advertised100 remains unresolved;nofirmware explanation established. | [Product][G1XO-P];[Manual pp10,31][G1XO-M] |
 | Factory / user memory | **100 writable locations,10×10**;Auto Save optional,Pre Select retains current sound while browsing. Auto Save defaultsON atfactory. Unsaved patch cannotbe swapped. Factory-filled subset pending. | [Zoom product][G1XO-P] |
+| Pitch / creative controls | PitchSHFT/MonoPitch−12…+12,+24semitones,Fine±25cents;HPS;Octave;Detune. **PDL Pitch/PDL MnPit9Color modes**,Bend0–100,Up/Down. MonoPitch/MnPit single-note;other polyphony unverified. | [Exact endpoint distinctions](#g1xon--pedal-pitch-endpoints-and-creative-processing) |
+| Processing / creative effects | Slicer,SeqFLTR,RingMod,Cry,M-Filter,SlowATTCK,Rt Closet;ParticleR complex reverb. Filtering,onset androtary processing do not establish a synth engine. | [Own2014 list][G1XO-F] |
 | Synth / acoustic | **Aco.Sim** explicitly changes electric-guitar tone toward acoustic,withTop,Body andLevel parameters. Synth capability remains unverified;noSynth match in2014list isnot proof of absence. | [Official effects list p6][G1XO-F] |
 | I/O | Mono6.35mm input,stereo3.5mm AUX,shared stereo6.35mm output/headphones;USB andDC. Complete pp4–5 panel inventory has no MIDI,send/return orexternalEXP. AUX bypasses effects directly tooutput. | [Product][G1XO-P];[Manual pp4–5][G1XO-M] |
 | Power / battery / USB | **9V DC center-negative,500mA AD-16 supply;4AA alkaline/NiMH;USB power**. 20h alkaline;manual qualifies backlightoff. Measured draw unknown. | [Product][G1XO-P];[2013 manual][G1XO-M] |
@@ -2701,6 +2703,21 @@ Official2014 list Z2I-2059-01 names five pedal algorithms:PedalVx,PedalCry,WAH10
 Checked2026-10-18: directly opened [Hope Music shop](https://shopee.co.id/hopemusik), last-month cache, links the **same item703817770/23482842628**, now titled **G1xon Fullset Dus Multifungsi**, at **Rp1,399,000**, crossed13% display. This is another dated cached observation, not a new seller/offer or a resolved price range. Earlier Rp1,299,000 and Rp1,499,000–1,648,000 observations remain above.
 
 The linked URL adds display_model_id232660906118; the page with that selection returned cache miss, and the clean URL was inaccessible. Neither establishes which variation was selected. Title wording does not verify box/accessories, working condition, stock or warranty. Keep this outside qualified used/new amounts until variant and condition are established. [Exact item](https://shopee.co.id/Efek-Gitar-Zoom-G1xon-Fullset-Dus-Multifungsi-i.703817770.23482842628).
+
+### G1Xon — pedal-pitch endpoints and creative processing
+
+Checked **2026-11-03**: [manufacturer2014 Effect Types and Parameters,Z2I-2059-01,pp6,11–13,16–18][G1XO-F],still linked by[exactG1Xon support][G1XO-S]. Firmware1.21 listing is separate;algorithm introduction/current installed behavior unverified.
+
+**PDL MnPit** explicitly targets single notes. PDL Pitch polyphony isunspecified. Both offer9Color choices,Bend0–100 andUp/Down direction. Table4 endpoints below are pitch settings,not measured tracking orvolume-mute guarantees.
+
+| Color | Pedal minimum → maximum,published table |
+|---|---|
+| 1–5 | 1:unison→+1octave;2:unison→+2octaves;3:unison→−100cents;4:unison→−2octaves;5:unison→−∞. |
+| 6–9 | 6:−1octave+dry→+1octave+dry;7:−700cents+dry→+500cents+dry;8:doubling→detuned+dry;9:−∞(0Hz)+dry→+1octave+dry. |
+
+PitchSHFT/MonoPitch,HPS,Octave andDetune are separate pitch algorithms. **Aco.Sim** is electric-to-acoustic processing;SlowATTCK/rotary/filter effects are notverified instrument-synth engines. ParticleR’s STBL/CRTCL/HZD modes are reverb behavior. Five-block/DSP andexisting OUTPUT VOL rhythm/looper exclusions remain. Dedicated synth support andother note polyphony areunverified.
+
+ExactHopeMusic Shopee item703817770/23482842628 remained inaccessible;nofresh condition/variant/stock evidence. Olderconflicting prices retained. No localdownload ordeviceoperation.
 
 ## G2 FOUR
 
