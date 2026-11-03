@@ -148760,5 +148760,16 @@
     "market": "Existing ROCKPIZZ/HOLY/GITARO exact offers resurfaced as three-month snapshots;not new availability.",
     "next": "Continue requested individual-footdisplay models andindependent GTPro/general/expression queues;no source-gap completion inferred.",
     "active_inventory_changed": false
+  },
+  "ge300_volume_role_tuner_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf",
+    "revision": "2019 original,V1.1.0 examples,printed62,91",
+    "canonical": "brand/MOOER.md#ge300--conditional-volume-role-and-tuner-source-details",
+    "finding": "Active VOL assigns built-inEXP1 volume whileEXP1LEDoff;Position/Min/Max0–100,Log/Linear/Exponential. TunerMute/Bypass separate.",
+    "limits": "No globalEXP2assignment,held-position recall,all-output mute orcurrent5.1.4 equivalence established.",
+    "market": "ExistingVinMusic31173885/29362925028 Rp11928000 six-dayindex,directcachemiss;ReadyStocktitle not liveverification.",
+    "next": "Continue requestedindividualfootdisplay priorities;GTProcount/USB/globalFV andGE300currentcensus/factoryfill/software/qualifiedoffers remain open;preserve independent queues.",
+    "active_inventory_changed": false
   }
 }

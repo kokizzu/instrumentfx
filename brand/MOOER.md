@@ -1442,6 +1442,7 @@ Official Japanese PDFs failed to load or exceeded the retrieval limit; the mirro
 | Field | Evidence |
 |---|---|
 | Built-in expression |One EXP1 pedal; forward toe press switches its assignment on/off. Toe actuation is separate from the ten main footswitches |
+| Expression / conditional volume role | [Original VOL andtuner rules](#ge300--conditional-volume-role-and-tuner-source-details): active VOL makes EXP1 a volume pedal while its EXP1 LED isoff. Position/heel/toe0–100;Log/Linear/Exponential curves. Not established global EXP2 assignment orall-output muting. |
 | External expression |One EXP2 TRS socket; manual supports 10k–100k pedals. The same socket alternatively switches an external compatible amplifier; do not count two simultaneous connections |
 | Expression / external toe boundary | Original manual pp89–90: **EXP2 has the same assignment functions asEXP1 butdoes not support its toe-down switch**. TRS cable and10k–100k pedal required;calibration precedes assignment. No tip/ring/wiper pinout orglobal volume scope is specified here. |
 | I/O / amplifier-control compatibility | EXP2 instead becomes **EXT CTRL output** witha mono cable;assign CTRL toEXT CTRL andselect latching/momentary for the amp. Maker restricts it to **short-to-sleeve inputs ontraditional dual-channel amps**,warns other inputs can damage both devices,anddoes not guarantee all compatible-looking amps. This is switching output,not analog expression input inparallel,an audio port orMIDI. [Original manual pp89–90][M] |
@@ -1736,6 +1737,14 @@ Checked **2026-11-04** against the [MOOER Japan exact GE300 product listing](htt
 | Power / regional battery notation | The battery-operation field contains a **dash**, alongside9V center-negative adapter wording. This is recorded as regional notation, not an explicit no-battery statement or evidence about USB bus power. |
 
 These source conflicts do not change processing counts, instrument membership or ownership. Current library, factory fill, NAM architecture subvariants, numeric display specifications and condition/stock-qualified Shopee hardware remain unresolved. No local download or device operation.
+
+### GE300 — conditional volume role and tuner source details
+
+Checked **2026-11-04** against the [original manufacturer manual mirrored byRockBoard](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf),printed **62,91**,2019 document withV1.1.0 screen examples. Current5.1.4 equivalence remains unverified.
+
+The movable **VOL** block has **Position,Min andMax each0–100**,with **Logarithmic,Linear orExponential** response. WithVOL active,the built-in **EXP1 doubles asvolume whenits EXP1 LED isoff**. Therefore an unlit EXP1 indicator alone doesnot establish that pedal movement hasno volume effect. This conditional built-in role is separate from FUNCTION/MERGE target selection;the text doesnot establish a universal external EXP2 volume lock,held-position recall orcoverage ofphones,USB,AUX,downstream tails andrecorded loops. Numeric0 is a parameter endpoint,not independently verified silence across every route.
+
+Tuner **MUTE** provides silent tuning; **BYPASS** retains sound. The guide permits A+B access orassignment toone CTRL switch. It doesnot establish which precise paths bypass processing,analog powered-off passthrough,orvolume-pedal operation during tuner bypass. No device control,connection ordownload performed.
 
 ## GE300 Lite
 
