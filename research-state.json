@@ -149504,5 +149504,40 @@
     ],
     "active_inventory_changed": false,
     "next": "Continue accessible requested separate-footdisplay model gaps;defer unresolved image inspection andhistorical counts pendingnew evidence;preserve independent GT-Pro/general andexpression queues."
+  },
+  "fm3_mkii_named_pitch_20261104": {
+    "checked": "2026-11-04",
+    "model": "Fractal Audio FM3 MKII Turbo",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026,pp3,76–86;explicitFM3 column onePitch instance",
+    "types": [
+      "Dual Detune",
+      "Dual Detune Delay",
+      "Quad Detune",
+      "Dual Chromatic",
+      "Quad Chromatic",
+      "Quad Chromatic Delay",
+      "Dual Diatonic",
+      "Quad Diatonic",
+      "Quad Diatonic Delay",
+      "Custom Shifter",
+      "Arpeggiator",
+      "Classic Whammy",
+      "Advanced Whammy",
+      "Octave Divider",
+      "Crystal Echoes",
+      "Virtual Capo"
+    ],
+    "distinctions": "Chromatic/capo chord shifting versusmonophonic diatonic/Octave Divider;Crystal sliced audio anddetector-free detune distinct fromSynth.",
+    "market_recheck": "Existing27200713719 Rp25552000 Habis/preorder27Oct;55801628505 Rp25502000 Habis/voucher;54450336270 Rp32900250 stale15–16Oct. Two/three-week indexed snapshots only;no new live condition-qualified stock.",
+    "remaining": [
+      "Introduction firmware/currentinstalled equivalence",
+      "Measured tracking quality/latency",
+      "Globalvolume endpoints/recall/fullcoverage",
+      "Displaydiagonals/touch",
+      "Qualifiedcondition/stock"
+    ],
+    "active_inventory_changed": false,
+    "next": "Continue requested separate-footdisplay model fields andqualified exactShopee hardware;FM3 Pitch reference census complete;preserve independent GT-Pro/general andexpression queues."
   }
 }
