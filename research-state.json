@@ -145909,5 +145909,32 @@
     ],
     "next": "Continue individual-footdisplay manufacturer gaps and exact Shopee offers; preserve independent general and expression queues",
     "no_device_operation": true
+  },
+  "axom_max_capture_refinement_20261103": {
+    "model": "MELOFTY AXOM MAX",
+    "checked": "2026-11-03",
+    "source": "https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347",
+    "revision": "German V1.7.4 PDF31–33; original exact-model document",
+    "target_monitoring": [
+      "UNBAL",
+      "BAL",
+      "PHONES"
+    ],
+    "comparison": "Target/model switching with corresponding live spectrum",
+    "refinement": "Optional played six-string open-to-high-fret pass to100% progress; separate Gain, Model Volume, ten-band EQ",
+    "limitations": [
+      "Progress is not accuracy score",
+      "Six-string instruction does not establish bass exclusion",
+      "No NAM export or time-varying effect capture established",
+      "Current-firmware equivalence untested"
+    ],
+    "remaining": [
+      "Manufacturer mini-screen census and LCD/OLED technology",
+      "Qualified exact Shopee Indonesia hardware",
+      "Algorithm/category census and NAM architecture limits"
+    ],
+    "next": "Continue priority individual-screen processors; preserve independent general and expression queues",
+    "partial_outside_active_counts": true,
+    "no_device_operation": true
   }
 }

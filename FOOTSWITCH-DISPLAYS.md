@@ -171,3 +171,5 @@ These match the separate-display layout, with OLED technology rather than LCD.
 ## Evidence and pending work
 
 Confirmed-layout entries link to canonical brand evidence with document revisions and access limits. Other rows are explicit research candidates. Further matching models from the requested brands can be added after exact-model identification. The structured queue and remaining work are maintained in [research-state.json](research-state.json), under `footswitch_display_audit_20261029`.
+
+AXOM MAX [MFIM monitoring and refinement](brand/MELOFTY.md#axom-max--mfim-monitoring-and-capture-refinement): V1.7.4 documents target/model comparison,played-guitar refinement,Gain/Model Volume andten-band EQ. These capture tools do not establish NAM export orresolve mini-screen technology;the model remains a partial lead outside active counts.

@@ -272,3 +272,15 @@ Checked **2026-11-03** in the [German V1.7.4 manufacturer manual, PDF pp14–16]
 | Routing / quick-template initialization | **Parallel** initially assigns Guitar→Multi Out to A and NONE→NONE to B. **Series** instead sends A to Chain B, whose external input remains NONE. Selecting a two-chain template does not automatically configure two independently audible instrument paths. |
 
 Manufacturer mini-screen count/technology, external EXP3 global-volume coverage and qualified Indonesian hardware remain unresolved. Partial profile stays outside active counts; no download, setting change or device operation.
+
+### AXOM MAX — MFIM monitoring and capture refinement
+
+Checked **2026-11-03** in the [manufacturer German V1.7.4 manual,PDFpp31–33](https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347). Original exact-model text;current-firmware equivalence untested.
+
+| Field | Documented workflow / boundary |
+|---|---|
+| Capture / target monitoring | Before capture,the target can be monitored through UNBAL,BAL orPHONES while adjusting microphone position/preamp gain. Full-amp capture requires microphone/XLR. |
+| Capture / comparison | After acquisition,the interface switches between target and captured model,with a corresponding live spectrum display. This is a comparison tool,not measured accuracy orlatency evidence. |
+| Capture / refinement | Optional TONE CAPTURE refinement asks the player to cover all six strings,open through high frets,until100% progress. Separate **Gain,Model Volume andten-band EQ** adjustments refine the result. Progress is not a fidelity score;the six-string instruction doesnot prove bass capture is unsupported. |
+
+Saved results remain proprietary MFIM models;no NAM export,arbitrary time-varying effect capture ornew synth capability is established. Mini-screen technology/manufacturer count andqualifiedShopee hardware remain unresolved. Partial lead outside active counts;no capture,download ordevice operation performed.
