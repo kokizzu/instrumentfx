@@ -147013,5 +147013,22 @@
     "active_count_unchanged": 402,
     "fully_verified": false,
     "next": "Synth-specific note handling,power label,remaining routing andqualified exact Shopee stock. Preserve independent queues."
+  },
+  "stadium_xl_backup_card_scope_20261103": {
+    "model": "Line 6 Helix Stadium XL Floor",
+    "checked": "2026-11-03",
+    "source": "https://manuals.line6.com/en/helix-stadium/live/helix-stadium-maintenance",
+    "revision": "Live1.4 chapter",
+    "canonical": "brand/LINE6.md#stadium-xl--backup-contents-and-two-partition-card-migration",
+    "finding": "Internal device backup andseparate card-copy workflow distinguished;factory presets excluded;loop-file naming conflict retained.",
+    "uncertainties": [
+      "loopData.dat versus looperData.dat destination wording",
+      "Automatic live-loop retention/export not established",
+      "Cross-version restoration not tested",
+      "Manufacturer power rating andqualified stock unresolved"
+    ],
+    "active_count_unchanged": 402,
+    "fully_verified": false,
+    "next": "Current exact-model power label,remaining routing/backup conflicts andqualified Shopee hardware;continue LCD-first/general queues independently."
   }
 }

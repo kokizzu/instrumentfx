@@ -771,6 +771,7 @@ Checked **2026-10-17** against selected pages of the live **Rev E / firmware1.4*
 | Looper / routing / live features | One Deluxe,1Switch orShuffle per preset. Deluxe/1Switch **120s mono/60s stereo fullspeed**,double at halfspeed;Shuffle60/30s,no halfspeed. Acrosspresets requires same model,mono/stereo andpath. Audio cleared atpoweroff. **8 snapshots per preset** recall bypass (except Looper), assigned parameters, commands and optional tempo, without rearranging blocks or replacing amp/effect models. Showcase automation/playback distinct from drum machine; drums **?**. [Snapshots][SX-S], [Loopers][SX-L] |
 | Storage / practical restrictions | Rear manual says microSD soldseparately andrequired forShowcase/backups;QuickStart says cardpre-inserted andproduct says32GBremovable. Retain bundle/document conflict;actualIndonesianoffer inclusion **?**. [Rear panel][SX-R], [Quick Start][SX-Q], [Product][SX-P] |
 | Storage / supported card scope | [Manufacturer Stadium microSD FAQ](https://kb.line6.com/microsd-card-faq-for-helix-stadium),checked **2026-11-03**: **32GB minimum;512GB maximum verified**,larger cards still under investigation. HC/XC supported;**U1 or faster recommended**. Device Maintenance formatting creates **exFAT(Stadium) andFAT32(Looper)** partitions;preformatting elsewhere doesnot establish correct partition layout. Song imports require **WAV**. FAQ claims no file-size restriction but doesnot distinguish partition-specific limits;do not turn this into a verified>4GB looper-file guarantee. Supported capacity isnot included-bundle evidence,extra preset locations orproof ofrecorded-loop backup. No card formatted orfiles transferred. |
+| Memory / backup contents and card migration | [Device backup versus two-partition copying](#stadium-xl--backup-contents-and-two-partition-card-migration); factory presets excluded, restore overwrites user data, loop-file naming conflict preserved. |
 
 ### Stadium XL — separate IDR evidence
 
@@ -922,6 +923,16 @@ Checked **2026-11-03**, [manufacturer Stadium model list][SX-ML], explicitly cov
 The model-page footnote calls a Modulation entry **Pitch Sustain**, while [hardware Dynamic DSP](https://manuals.line6.com/en/helix-stadium/live/dynamic-dsp) names **Poly Detune** in its combined high-DSP group. Preserve the wording conflict; do not invent an extra effect from it. Hardware permits **two combined-group blocks per preset, one per primary path**, subject to DSP. This does not guarantee any two choices fit.
 
 No local downloads or device operation. Existing routing, power and qualified IDR gaps remain;active inventory and independent queues unchanged.
+
+### Stadium XL — backup contents and two-partition card migration
+
+Checked **2026-11-03**, [manufacturer live1.4 Maintenance chapter](https://manuals.line6.com/en/helix-stadium/live/helix-stadium-maintenance). A Stadium-formatted microSD is required for device backup/restore.
+
+**Create Backup** includes user presets, setlists, Songs/audio, clones, settings and other internal user data in one file. Restore explicitly replaces IRs, Playlists, Templates, Favorites, account data and Global Settings too. It overwrites current user data; **Factory Presets are excluded** and remain unaffected by backup restoration. This is not proof of cross-version restore compatibility or our restoration test.
+
+Card migration is documented separately: copy **screenshots, songs, clips, backups** from **STADIUM**, and **loopData.dat** from **LOOPER**, then copy to corresponding partitions on a newly Stadium-formatted card. The destination instruction unexpectedly calls the replaced file **looperData.dat**; preserve this filename conflict rather than silently rename it.
+
+This establishes a documented looper-data file-copy workflow, **not automatic live-loop power-cycle retention, an audio export format or proof that Create Backup includes all card files**. Earlier looper-clearing and FAQ scope remain qualified separately. No card formatting, copying, restore, download or device operation performed. Power rating and qualified hardware stock remain open;independent queues andactive inventory unchanged.
 
 ## HX Effects
 
