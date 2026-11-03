@@ -2372,3 +2372,7 @@ creative-stage:
 	python3 scripts/creative_effects.py stage
 creative-commit:
 	python3 scripts/creative_effects.py commit
+
+.PHONY: creative-verify
+creative-verify:
+	python3 scripts/creative_effects.py verify

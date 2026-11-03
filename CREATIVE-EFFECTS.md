@@ -12,9 +12,11 @@ This category compares the effects themselves: synthesis, harmony/transposition,
 - **Special:** examples include freeze, slicer, glitch, granular processing, bit reduction, ring modulation, sequenced filters and feedback simulation. This is a practical grouping, not a standardized manufacturer category.
 - **Unverified** means the checked evidence did not establish a feature; it does not prove absence.
 
-## Verified exact-model comparison
+## Selected exact-model comparison
 
 Source checks: **2026-11-03**. Each linked canonical brand record contains exact algorithms, revisions, sources and limitations. This is a selected capability comparison, not a fresh certification of every one of the catalogue's 402 active models, current stock, installed firmware or tracking quality.
+
+Owner-confirmed: **HX Effects, GT-1000CORE, GM-800, B1on and MG-300 MKII**. Ownership of H90 and GE300 is not inferred. The MG-300 MKII illustration-only leads remain explicitly unverified.
 
 | Model | Synth | Pitch | Instrument simulation or tones | Special processing |
 |---|---|---|---|---|
@@ -37,3 +39,44 @@ Source checks: **2026-11-03**. Each linked canonical brand record contains exact
 - **[NUX MG-300 MKII](brand/NUX.md#mg-300-mkii):** Harmonist/Detune illustration leads could not be independently viewed with available tools; their input polyphony/ranges stay unverified. Block substitution does not create additional positions. Pitch Bender is not borrowed from original MG-300.
 
 The tables describe available algorithms, not a claim that every listed effect runs simultaneously. Dedicated single-purpose pedals remain in the [separate guitar archive](single-guitar.md); they do not increase active multi-effects counts.
+
+## Additional matches already recorded in the catalogue
+
+This index reuses existing canonical evidence and its original revision/date qualifications. These **25 records were not freshly manufacturer-audited for this comparison**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+
+| Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
+|---|---|---|---|---|
+| [Line 6 HX Stomp](brand/LINE6.md#hx-stomp) | 3 OSC Synth; legacy synths; input-independent generators | Poly Pitch / Wham / Capo | Acoustic Sim; 12 String | DSP-heavy poly models; own3.80 record |
+| [Line 6 HX Stomp XL](brand/LINE6.md#hx-stomp-xl) | 3 Osc Synth | Pitch/Synth library; exact restrictions retained in record | Acoustic Sim | Ordinary input; no chord-synth inference |
+| [Line 6 Helix Floor](brand/LINE6.md#helix-floor) | 3 OSC Synth; generators distinct | Poly pitch models | Acoustic Sim | Own3.80 census; acoustic introduced3.00; DSP qualification |
+| [Fender Tone Master Pro](brand/FENDER.md#tone-master-pro) | Aethon / Cerberus / Wavemorph Polysynth | Chromatic/Diatonic/Pedal Shifter; Pitch Sequencer | Electric-to-acoustic unverified | Synths1.7.53 (2025-12-03); newer Synthverb remains reverb |
+| [Neural DSP Quad Cortex](brand/NEURAL-DSP.md#quad-cortex) | Mono Synth | Separate Pitch library includes Subharmonic Synth | Electric-to-acoustic unverified | Mono Synth introducedCorOS3.3.0; no poly-synth inference |
+| [HeadRush Prime](brand/HEADRUSH.md#prime) | Hybrid Synth | Chord Wham; Up/Drop Tune; Smart Harm | Electric Piano; DB-33 Organ; Acoustic Sim | Current page category totals conflict; Ambi-Verb classification not proof of another oscillator engine |
+| [Fractal Audio FM3 original](brand/FRACTAL-AUDIO.md#fm3-original) | Three-voice monophonic Synth | Pitch block | Acoustic input is not simulation | Own dated block table; current firmware equivalence qualified |
+| [Fractal Audio FM3 MKII Turbo](brand/FRACTAL-AUDIO.md#fm3-mkii-turbo) | Three-voice monophonic Synth | Pitch block | Acoustic simulation unverified | 7.x manual versus current13 inventory qualification |
+| [Fractal Audio FM9 MKII Turbo](brand/FRACTAL-AUDIO.md#fm9-mkii-turbo) | Three-oscillator monophonic Synth | Pitch block | Acoustic/piezo support is not simulation | June2023 shared guide; current MKII equivalence qualified |
+| [BOSS GT-10](brand/BOSS.md#gt-10) | WAVE SYNTH; single-note GUITAR SYNTH | See retained parameter record | GUITAR SIM acoustic choices | Mute unused strings; AC.PROCESSOR separately reshapes acoustic pickups |
+| [BOSS GT-100](brand/BOSS.md#gt-100) | WAVE SYNTH | See retained parameter record | AC.GUITAR SIM; separate AC.PROCESSOR | Algorithm note handling not freshly checked |
+| [BOSS GT-001](brand/BOSS.md#gt-001) | WAVE SYNTH; separate mono guitar-to-MIDI | See retained parameter record | AC.GUITAR SIM; separate AC.PROCESSOR | Guitar-to-MIDI is not the same as audio synth block |
+| [BOSS GS-10](brand/BOSS.md#gs-10) | Guitar Synth | Tracking/polyphony unresolved | Bass Simulator | Electric-to-acoustic remains unverified |
+| [Roland GR-55](brand/ROLAND.md#gr-55) | Two PCM sources plus instrument modeling | See retained synthesis/modeling record | PCM instruments and modeled guitars differ | Retain specialized pickup requirements; exact acoustic models unresolved |
+| [Zoom G3](brand/ZOOM.md#g3) | MonoSynth, single-note tracking | See retained effect list | Aco.Sim | Manufacturer manual pp45,52; no poly-synth claim |
+| [Zoom G5](brand/ZOOM.md#g5) | MonoSynth | See retained effect list | Aco.Sim; Z-Organ | Reproduced manual numbering; library count conflict retained |
+| [Zoom B3](brand/ZOOM.md#b3) | MonoSyn; StdSyn; SynTlk; V-Syn; 4VoiceSyn; Z-Syn | See retained bass effect list | Z-Organ; Defret | MonoSyn/4VoiceSyn single notes; Acoustic360 is an amp |
+| [Zoom B1Xon](brand/ZOOM.md#b1xon) | Ba Synth; StdSyn; SynTlk; V-Syn; 4VoiceSyn; Z-Syn | Own pedal/effect list, not B1on assumptions | Z-Organ; Defret | Ba Synth/4VoiceSyn single notes; exact firmware qualifications retained |
+| [Zoom G6](brand/ZOOM.md#g6) | Dedicated synth unverified | Pitch/SFX processing does not establish synth | Aco.Sim | DRIVE-category acoustic simulator recorded |
+| [Zoom B6](brand/ZOOM.md#b6) | Bass Standard Synth; Bass Synth Talk | See retained effect list | Acoustic conversion unverified | Dual-input/piezo support does not establish simulation |
+| [Korg PANDORA stomp](brand/KORG.md#pandora-stomp) | SYNTH, single-note input | Intelligent harmony, single-note input | AC SIM | Oscillator settings are variants, not simultaneous voices |
+| [Korg AX3000G](brand/KORG.md#ax3000g) | Synth square/saw/sine | Octave single-note only | Acoustic body/top simulation | Synth chord tracking not established by waveform count |
+| [GFI System Synesthesia](brand/GFI-SYSTEM.md#synesthesia) | Dedicated synth unverified | Octave/arpeggiator processing | Acoustic simulation unverified | Two algorithms; sequenced/filter processing distinguished from synthesis |
+| [DigiTech BP355](brand/DIGITECH.md#bp355) | SynthTalk is vocal-like processing | Pitch shift; detune; harmony; octaver | Fretless simulation | SynthTalk does not establish a general/polyphonic synth |
+| [Behringer DSP2024P](brand/BEHRINGER.md#dsp2024p) | External-carrier vocoder; onboard synth unverified | Pitch and paired pitch/delay/reverb choices | Acoustic conversion unverified | Vinylizer; sampler; resonator; vocoder requires external carrier/modulator |
+
+## What remains uncertain
+
+- Actual tracking quality, latency and installed firmware were not measured for these records.
+- HX Effects synth-input polyphony remains unresolved despite explicit polyphonic pitch models.
+- GT-1000CORE eng03 is readable on a manufacturer-authored mirror; its full current-firmware mapping and several algorithms’ note-handling limits remain unverified.
+- H90 earlier feature-introduction dates/versions and the calendar date of1.12.5 were not established by the checked release page.
+- B1on’s undocumented synth/pitch chord support, GE300 Intelligent Harmony input polyphony, and GM-800 audio-MFX polyphony/GK Audio effects coverage stay unresolved.
+- MG-300 MKII Harmonist/Detune illustration content, ranges and note handling need an inspectable manufacturer image or exact-model parameter list; original MG-300 Pitch Bender is not substituted as evidence.
