@@ -1534,7 +1534,7 @@ Original **20 user IR slots** became **50**, with **80 MNRS slots** documented i
 
 **USB audio2-in/2-out,24bit44.1kHz**, selectable dry/effected recording,monitor mix and reamp. The Chinese manufacturer launch article explicitly documents MIDI transmission over USB; current routing, host capability and driver/message details remain unverified. [Exact source qualification](#ge300--chinese-manufacturer-usb-midi-and-display-evidence). Output tap routing supports simultaneous PA cab simulation and an amplifier path without cab; four-cable rigs and stereo external processing are documented. [M][G]
 
-**30-minute stereo looper**, overdub,undo/redo,reverse,half-speed/one-shot and saved loop import/export/backup. Tuner and tap tempo; built-in drum/rhythm support unknown. Original manual has two footswitch modes; **V2.0.6 FS mode3** uses A–D plusCTRL1–4 for eight preset choices,then pressing the current preset enters eight-CTRL mode;Bank± returns to preset selection. These are reused physical switches,not eight extra switches orscenes. [Firmware history][F]. Programmable controls do not establish a specific scene ceiling. [M][F]
+**30-minute stereo looper**, overdub,undo/redo,reverse,half-speed/one-shot and saved loop import/export/backup. [Regional30-second summary conflict](#ge300--regional-cabinet-and-looper-copy-conflicts) is not a verified alternative mode. Tuner and tap tempo; built-in drum/rhythm support unknown. Original manual has two footswitch modes; **V2.0.6 FS mode3** uses A–D plusCTRL1–4 for eight preset choices,then pressing the current preset enters eight-CTRL mode;Bank± returns to preset selection. These are reused physical switches,not eight extra switches orscenes. [Firmware history][F]. Programmable controls do not establish a specific scene ceiling. [M][F]
 
 ### GE300 — historical Studio file-transfer boundaries
 
@@ -1724,6 +1724,18 @@ Checked **2026-11-04**, [original manufacturer manual,printedpp9–11](https://m
 - Later English **5.1.0** adds Sub-Patch parameter changes alongside block-toggle states;the separately retained Chinese5.0.8 labeling remains unresolved. Current state count,switching continuity andparameter coverage need exact current documentation.
 
 No switch assignment orhardware test performed. Existing preset count,tail restrictions andindependent queues remain unchanged.
+
+### GE300 — regional cabinet and looper copy conflicts
+
+Checked **2026-11-04** against the [MOOER Japan exact GE300 product listing](https://mooer.jp/products/mooerge300), JAN4562459884502; no firmware revision or page-update date supplied. Regional product copy is not an independently verified current installed inventory.
+
+| Field | Published conflict / retained baseline |
+|---|---|
+| Categories / regional CAB conflict | Opening and main-feature prose list **43** cabinets; a later feature list instead says **48**. The original manual census remains43. Do not infer five newly added cabinets or transfer this unversioned48 into the current5.1.4 inventory. The page also retains20user IR locations, distinct from later versioned50-slot evidence. |
+| Looper / regional duration conflict | Overview and detailed looper paragraph specify **30 minutes**; a later summary instead says **30 seconds**. The original manual’s30-minute stereo looper remains the documented baseline; no separate30-second mode is established by that sentence. |
+| Power / regional battery notation | The battery-operation field contains a **dash**, alongside9V center-negative adapter wording. This is recorded as regional notation, not an explicit no-battery statement or evidence about USB bus power. |
+
+These source conflicts do not change processing counts, instrument membership or ownership. Current library, factory fill, NAM architecture subvariants, numeric display specifications and condition/stock-qualified Shopee hardware remain unresolved. No local download or device operation.
 
 ## GE300 Lite
 

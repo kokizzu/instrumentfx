@@ -148577,5 +148577,13 @@
     "finding": "Rear panel USB-A class-compliant MIDI conflicts with USB-B in external MIDI chapter. Preserve both; newer5.2 USB-A evidence is separate. No proven USB-B host.",
     "next": "Original GE300 next in independent general queue; retain Prime OLED numeric specifications, rig ceiling, current library and qualified stock gaps. LCD and expression queues unchanged.",
     "active_inventory_changed": false
+  },
+  "ge300_regional_copy_conflicts_20261104": {
+    "canonical": "brand/MOOER.md#ge300--regional-cabinet-and-looper-copy-conflicts",
+    "source": "https://mooer.jp/products/mooerge300",
+    "identity": "Original GE300, JAN4562459884502; revision/date unstated.",
+    "finding": "Regional page43vs48cabs and30minvs30sec; retain original-manual baseline and versioned50IR capacity. Battery dash is not explicit No.",
+    "next": "Resume fresh exact Shopee brand/series discovery after the independent JR -> Prime -> original GE300 pass; preserve root GT-Pro cursor and LCD-first/expression queues. Current GE300 library, memory fill, display, NAM and qualified-stock gaps remain.",
+    "active_inventory_changed": false
   }
 }
