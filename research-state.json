@@ -144307,5 +144307,28 @@
       "Qualified current Shopee new/used offers"
     ],
     "next": "Continue requested separate-foot-display priorities; defer inaccessible manufacturer PDFs without converting unknown to No."
+  },
+  "pandora_mini_discovery_20261103": {
+    "model": "Korg PANDORA mini",
+    "canonical": "brand/KORG.md#pandora-mini--partial-no-treadle-discovery",
+    "status": "Partial discovery outside active counts",
+    "sources": [
+      "https://www.korg.com/us/products/effects/pandoramini/page_3.php",
+      "https://cdn.korg.com/us/support/download/files/5ab0d5134486ee0d26e427ea48263a24.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27PANDORAmini_OM_EFGS1.pdf&response-content-type=application%2Fpdf%3B",
+      "https://www.korg.com/us/support/download/product/0/313/"
+    ],
+    "direct_expression": "No analog socket in complete manual inventory",
+    "headphones": "Dedicated stereo-mini",
+    "preset_foot_down_up": "No footswitches; hand controls separate",
+    "dimensions": "88x56x30mm; published3.15inch width conflicts; both fit preference",
+    "shopee": "No qualified exact hardware offer surfaced; absence not established",
+    "remaining": [
+      "Complete category census",
+      "Factory allocation",
+      "IR/NAM/capture and USB audio evidence",
+      "Current editor OS support",
+      "Qualified Indonesian used/new hardware"
+    ],
+    "next": "Continue no-treadle inventory and requested individual-display priorities; keep general GP-200JR -> Prime -> GE300 queue independent."
   }
 }

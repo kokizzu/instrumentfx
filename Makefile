@@ -2357,3 +2357,6 @@ expression-audit-stage-walrus:
 
 expression-audit-commit-walrus:
 	python3 scripts/expression_audit_poly.py commit-walrus
+
+expression-audit-stage-korg:
+	python3 scripts/expression_audit_korg.py stage

@@ -15,6 +15,7 @@
 - [AX1500G](#ax1500g)
 - [AX3000B](#ax3000b)
 - [AX3000G](#ax3000g)
+- [PANDORA mini — partial no-treadle discovery](#pandora-mini--partial-no-treadle-discovery)
 - [PANDORA stomp](#pandora-stomp)
 <!-- brand-index ends -->
 
@@ -905,6 +906,26 @@ Remaining: external expression details, display details, retained specification-
 [AX-A]: https://www.korg.com/us/support/download/software/1/28/1388/
 
 [AX-P]: https://www.korg.com/jp/support/adapter/
+
+## PANDORA mini — partial no-treadle discovery
+
+Checked **2026-11-03**. Distinct from PANDORA stomp and PX-series. **Partial lead outside active counts**; exact Shopee Indonesia hardware not found in this search, not proven absent. Original Korg-hosted multilingual manual identified by exact title and matching connector names; English printed pages cited. No visual census or download.
+
+| Field | Manufacturer evidence / qualification |
+|---|---|
+| Expression / controls | Complete manual inventory has no analog EXP socket or treadle. Two dials, eight named buttons, no footswitches; power selector separate, visual corroboration pending. Direct analog volume path fails this inventory. [Manual pp10–12][PM-M] |
+| Headphones / navigation | Dedicated stereo-mini PHONES; hand VOLUME covers OUTPUT and phones. Value dial selects programs; A–D recall favorites. No onboard foot-operated preset down/up. [Manual pp12,16–17][PM-M] |
+| Footprint / mass | **88W×56D×30H mm**, excluding protrusions; preferred rectangle fits. Same page prints width3.15in, inconsistent with88mm (about3.46in); both imply fit. **80g excludes battery**. [Specifications][PM-P] |
+| Processing / memory | **158 types, seven simultaneous**; **200 user+200 preset programs**. Per-category census and factory-filled user allocation pending. Guitar/bass input explicit. [PM-P] |
+| Ports / power | Mono¼-inch guitar/bass input and line output; stereo-mini AUX/phones; USB. **One AA alkaline/NiMH or USB bus power**. Rated runtime, backlight Off:5h alkaline/6h1900mAh NiMH; On:3h/4h. USB adapter current/charging unverified. [PM-P] |
+| Display / live | Shared LCD, no footswitch screens; diagonal/color/touch unverified.100 rhythms,40–240BPM. Hold TAP/TUNER about1s bypasses effects;about2s mutes. This does not establish all-source/tail coverage. [Specifications][PM-P]; [manual pp13–18][PM-M] |
+| Editor | Manufacturer index offers **Sound Editor1.1 for Windows/Mac**, dated2015-06-01; Windows USB-MIDI driver **1.15r63e**, dated2026-01-20. Editor, driver and audio support are distinct; current OS/architecture compatibility unverified. [Support][PM-S] |
+
+Remaining: category census, acoustic/synth distinctions, IR/NAM/capture support, USB audio, editor requirements, factory allocation and qualified exact used/new Shopee hardware. Unknown is not No. No software installed or device operated. The no-EXP result does not remove this model from broader discovery scope.
+
+[PM-P]: https://www.korg.com/us/products/effects/pandoramini/page_3.php
+[PM-M]: https://cdn.korg.com/us/support/download/files/5ab0d5134486ee0d26e427ea48263a24.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27PANDORAmini_OM_EFGS1.pdf&response-content-type=application%2Fpdf%3B
+[PM-S]: https://www.korg.com/us/support/download/product/0/313/
 
 ## PANDORA stomp
 

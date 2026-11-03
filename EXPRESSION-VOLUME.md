@@ -704,3 +704,7 @@ Stadium XL [Matrix MIDI scope](brand/LINE6.md#stadium-xl--matrix-midi-layers-and
 ### Walrus Audio ACS1 MKII — partial no-treadle discovery
 
 [Exact-model screening](brand/WALRUS-AUDIO.md#acs1-mkii--partial-no-treadle-discovery), outside active counts. No direct analog EXP socket in the documented inventory; MIDI volume is separate. Dedicated headphones and three-preset forward cycling do not establish onboard down/up. Manual footprint fits the preferred rectangle, but product-page dimensions conflict. Exact Shopee hardware remains unverified.
+
+### Korg PANDORA mini — partial no-treadle discovery
+
+[Exact-model screen](brand/KORG.md#pandora-mini--partial-no-treadle-discovery), outside active counts. Fits the preferred rectangle; no analog EXP socket in the complete manual inventory. Dedicated headphones and hand program selection are separate from foot-operated down/up. Metric/inch width discrepancy retained. Exact Shopee hardware remains unverified.
