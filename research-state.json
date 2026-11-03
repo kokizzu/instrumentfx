@@ -149634,5 +149634,58 @@
     ],
     "active_inventory_changed": false,
     "next": "Continue FM3 exact-model remaining category census withmanufacturer exclusions;preserve requestedLCDpriority,independentGT-Pro/general andexpression queues."
+  },
+  "fm3_mkii_filter_wah_20261104": {
+    "checked": "2026-11-04",
+    "model": "Fractal Audio FM3 MKII Turbo",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026,pp3,45–47,110",
+    "filters": [
+      "All-Pass",
+      "Auto-Wah",
+      "Band-Pass",
+      "Envelope Filter",
+      "Feedback Comb",
+      "Feedforward Comb",
+      "High-Pass",
+      "High-Shelf",
+      "High-Shelf 2",
+      "Ladder Filter",
+      "Low-Pass",
+      "Low-Shelf",
+      "Low-Shelf 2",
+      "Notch",
+      "Null",
+      "Peaking",
+      "Peaking 2",
+      "Tilt EQ",
+      "Touch-Ladder",
+      "Touch-Wah"
+    ],
+    "wah": [
+      "FAS Wah",
+      "Clyde",
+      "Cry Babe",
+      "VX846",
+      "Color-Tone",
+      "Funk Wah",
+      "Mortal",
+      "VX845",
+      "Paragon"
+    ],
+    "instance_limits": {
+      "filter": 4,
+      "wah": 2
+    },
+    "qualifications": "CPU-limited reference inventory;envelope/LFO/Ladder selfoscillation distinguished frompitchtracking;Wahfrequency endpoints notvolume orwiring specs.",
+    "remaining": [
+      "Delay/Flanger andother named category inventories",
+      "Firmware minima/installed equivalence",
+      "Globalvolume endpoints/recall/coverage",
+      "Displaydiagonal/touch",
+      "QualifiedexactShopee offers"
+    ],
+    "active_inventory_changed": false,
+    "next": "Continue exact FM3 remaining category inventories withmanufacturer exceptions;preserve independentGT-Pro/general,expression andLCDpriority queues."
   }
 }

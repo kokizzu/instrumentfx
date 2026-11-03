@@ -360,6 +360,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; origina
 | Categories / newer guide | [November2026 reference types and FM3 instance ceilings](#fm3--november-2026-block-comparison):36 supported block rows. CPU-limited,not summed concurrency orinstalled firmware13 census;older7.x inventory preserved. |
 | Pitch / named reference inventory | [16 named Pitch types](#fm3-mkii-turbo--named-pitch-types-and-note-handling-source-details), one FM3 block, CPU permitting. Chromatic/Virtual Capo chord processing is distinct from single-note diatonic harmony, Octave Divider and monophonic Synth. Installed-library equivalence and measured tracking remain unverified. |
 | Categories / named Chorus and Phaser | [November inventories](#fm3-mkii-turbo--named-chorus-and-phaser-source-details): 27 Chorus and19 Phaser choices; two FM3 instances each, CPU permitting. Voices/stages are parameters, not extra blocks or synth polyphony. Installed equivalence remains unverified. |
+| Categories / named Filter and Wah | [November inventories](#fm3-mkii-turbo--named-filter-and-wah-source-details): 20 Filter choices/four FM3 blocks, nine Wah choices/two blocks, CPU permitting. Envelope/LFO filtering and Ladder self-oscillation do not establish pitch-tracking synthesis; Wah frequency endpoints are not volume endpoints. Installed equivalence unverified. |
 | Categories / compressor census | November2026 guide lists **19 compressor choices**,reconciled by name below;two FM3 instances remain CPU-limited. Look-ahead **0–2ms** delays both wet anddry audio. This is algorithm latency,not measured whole-device latency. [Own guide](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf),pp27–29. |
 | Preset / factory / user memory | **512 editable locations;8 scenes each**. Own7.x manual printedp41 specifies **first384 factory-filled**,all overwriteable;current shipping allocation/installed contents unverified. See [revision-qualified occupancy](#fm3--factory-occupancy-versus-editable-capacity). |
 | Synth / acoustic functions | **Synth yes:three-voice monophonic Synth block**,one instance/four channels in own7.x p46; resolves the earlier synth unknown. Acoustic instrument input documented;dedicated acoustic simulation remains unverified. Channels are stored variations,not four simultaneous synth blocks. [November guide tracking modes](#fm3--synth-tracking-modes-and-generator-boundary) distinguish pitch tracking,envelope-only andmanual generation. [Own manual](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf) |
@@ -799,6 +800,18 @@ Checked **2026-11-04**, [manufacturer November2026 Blocks Guide,pp3,25–26,73�
 **Phaser19:** Digital Mono; Digital Stereo; Script 45; Script 90; Block 90; Classic Vibe; Stereo 8-Stage; Barber Pole; Stripe 90; Naughty Rock; FAS Vibe; Treadle Phaser; Virtuoso Phaser; Borg Phaser; Ultra-Super-Mega Phaser; Mutated Twin-Phaser; Modern Vibe; Hoodoo Vibe; RT Vibe.
 
 Chorus voices are delayed copies, not synth notes; more than two forces Sine LFO. Phaser stages2–12 do not add types. LFO Quantize provides stepped modulation, not sampled-instrument synthesis. Minimum firmware and measured behavior remain unresolved; older inventories and firmware13 additions stay preserved.
+
+### FM3 MKII Turbo — named Filter and Wah source details
+
+Checked **2026-11-04**, [manufacturer November2026 Blocks Guide,pp3,45–47,110](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). Explicit FM3 ceilings: **four Filter/two Wah** blocks, CPU permitting. Older inventories retain their revision scope.
+
+**Filter20:** All-Pass; Auto-Wah; Band-Pass; Envelope Filter; Feedback Comb; Feedforward Comb; High-Pass; High-Shelf; High-Shelf 2; Ladder Filter; Low-Pass; Low-Shelf; Low-Shelf 2; Notch; Null; Peaking; Peaking 2; Tilt EQ; Touch-Ladder; Touch-Wah.
+
+**Wah9:** FAS Wah; Clyde; Cry Babe; VX846; Color-Tone; Funk Wah; Mortal; VX845; Paragon.
+
+Envelope Filter reacts to attacks; Touch-Wah follows level/decay; Auto-Wah follows an LFO. Touch-Ladder uses envelope control, while Ladder resonance can self-oscillate; neither establishes pitch tracking or polyphonic synthesis. Null preserves frequency response while allowing gain/phase/pan adjustments.
+
+Wah Control can use a pedal, LFO or manual setting. Minimum/Maximum Frequency set its tone sweep, not amplitude endpoints. Control Taper describes response, not physical pedal wiring. Firmware minima, installed contents and measured behavior remain unverified.
 
 ## FM3 original
 
