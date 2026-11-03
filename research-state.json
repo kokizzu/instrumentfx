@@ -144895,10 +144895,36 @@
         ],
         "qualification": "Requires compatible divided-pickup/Serial GK for guitar/bass synthesis; MIDI triggering is separate. Firmware-qualified normal-pickup/GK Audio paths exist, but no direct analog guitar input. Audio MFX polyphony and GK Audio effects coverage remain unverified.",
         "owned": true
+      },
+      "NUX::MG-300 MKII": {
+        "key": "NUX::MG-300 MKII",
+        "brand_path": "brand/NUX.md",
+        "heading": "MG-300 MKII",
+        "label": "NUX MG-300 MKII",
+        "revision": "Exact-model product page checked 2026-11-03; lists GEN2 firmware3.0.0 (2026-07-10). English manual is image-only in available extraction; illustration verification limited",
+        "sources": [
+          "https://nuxaudio.com/product/mg300mkii/",
+          "https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/04/MG-300MKII_D_39.gif",
+          "https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/04/MG-300MKII_D_02_1.jpg",
+          "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300MKII/NUX_MG300MKII_UserManual_English.pdf"
+        ],
+        "synth": "Dedicated tracking synth unverified. Manufacturer’s Octave + Rotary example is an organ-like processing recipe, not evidence of an oscillator/instrument-tone engine.",
+        "pitch": "Octave explicitly named in current manufacturer text. Recovered manufacturer-illustration leads name Harmonist/scale harmony and Detune; not independently visually reverified here (GIF unsupported; JPG/PDF yielded no inspectable image). Input polyphony and ranges unverified; original MG-300 Pitch Bender not inherited.",
+        "instrument": "Three acoustic IRs documented; dedicated electric-to-acoustic simulator unverified. Organ-like Octave + Rotary recipe is separate from acoustic IR processing.",
+        "special": "Shimmer Reverb; RVB→DLY substitution permits dual delays. CMP→EFX and EFX→MOD are substitutions, not added block positions.",
+        "limits": "Current GEN2 release listing is not proof of installed firmware or each algorithm’s introduction version. No dedicated synth inferred from NAM. Harmonist/Detune visual evidence and detailed controls remain explicit follow-up leads, not freshly verified algorithms.",
+        "matrix": [
+          "Synth unverified; Octave + Rotary organ-like recipe",
+          "Octave; Harmonist/Detune illustration leads not reverified",
+          "Acoustic IRs; electric-to-acoustic simulator unverified",
+          "Shimmer; dual-delay block substitution"
+        ],
+        "qualification": "Harmonist/Detune illustration leads could not be independently viewed with available tools; their input polyphony/ranges stay unverified. Block substitution does not create additional positions. Pitch Bender is not borrowed from original MG-300.",
+        "owned": true
       }
     },
-    "publication_model": "BOSS::GM-800",
-    "next_model": "NUX::MG-300 MKII"
+    "publication_model": "NUX::MG-300 MKII",
+    "next_model": "selected comparison reconciliation and existing-catalogue index"
   },
   "hxstomp_own_category_census_20261103": {
     "model": "Line 6 HX Stomp",

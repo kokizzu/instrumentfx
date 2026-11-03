@@ -1020,6 +1020,7 @@ Checked2026-10-19; partial, using preserved exactV1 evidence above. The [officia
 
 | Field | Preserved finding / unresolved detail |
 |---|---|
+| Synth / pitch / instrument simulation / special | Dedicated tracking synth unverified. Manufacturer’s Octave + Rotary example is an organ-like processing recipe, not evidence of an oscillator/instrument-tone engine. Octave explicitly named in current manufacturer text. Recovered manufacturer-illustration leads name Harmonist/scale harmony and Detune; not independently visually reverified here (GIF unsupported; JPG/PDF yielded no inspectable image). Input polyphony and ranges unverified; original MG-300 Pitch Bender not inherited. Three acoustic IRs documented; dedicated electric-to-acoustic simulator unverified. Organ-like Octave + Rotary recipe is separate from acoustic IR processing. Shimmer Reverb; RVB→DLY substitution permits dual delays. CMP→EFX and EFX→MOD are substitutions, not added block positions. [Revision and restrictions](#mg-300-mkii--creative-effects-capability-check-2026-11-03). |
 | Expression / controls | Built-in;no external socket in complete manual. **4/2/9**;rear power/toe separate. |
 | Dimensions / display | **241×160×49mm;760g**,medium. **2.4-inch color LCD,320×240**,permanufacturer Germanmanual cover;touch remainsunverified. [Original German manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300MKII/NUX_MG300MKII_UserManual_German.pdf). |
 | Processing | **10 movable blocks**. Base list NG1,CMP2,OD/DIST13,touch-wah1,EQ2,MOD14,DLY7,RVB5;GEN2 adds4 wah and3 DeepImage amps. These are revision-specific categories,not a fully reconciled current grand total. |
@@ -1122,6 +1123,20 @@ The global download pages explicitly distinguish domestic/Mandarin versus global
 Model sources: [Source 1](https://nuxaudio.com/product/mg300mkii/) · [Source 2](https://www.nux.us/products/mg-300-mkii) · [Source 3](https://www.nux.us/pages/nam-a2-native) · [Source 4](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300MKII/NUX_MG300MKII_UserManual_English.pdf)
 
 The reproduced manufacturer body identifies MG-300 MKII and©2024Cherub;mirrorpublicationJuly2025 is not a firmware date. Full body checked2026-10-17;mirror-generated material excluded. Official/mirrored PDFs yielded onlyDC adapter/power-switch text;no current successful panel image inspection orbyte-equivalence claim. Presetcapacity,currentdraw/polarity andfirmware-specific counts remain unknown.
+
+### MG-300 MKII — creative-effects capability check, 2026-11-03
+
+Exact-model product page checked 2026-11-03; lists GEN2 firmware3.0.0 (2026-07-10). English manual is image-only in available extraction; illustration verification limited. Checked original manufacturer text; no device test. [Source 1](https://nuxaudio.com/product/mg300mkii/) · [Source 2](https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/04/MG-300MKII_D_39.gif) · [Source 3](https://nuxaudio.cherubtechnology.com/wp-content/uploads/2025/04/MG-300MKII_D_02_1.jpg) · [Source 4](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300MKII/NUX_MG300MKII_UserManual_English.pdf)
+
+| Field | Exact-model creative capability / qualification |
+|---|---|
+| Synth | Dedicated tracking synth unverified. Manufacturer’s Octave + Rotary example is an organ-like processing recipe, not evidence of an oscillator/instrument-tone engine. |
+| Pitch / category choices | Octave explicitly named in current manufacturer text. Recovered manufacturer-illustration leads name Harmonist/scale harmony and Detune; not independently visually reverified here (GIF unsupported; JPG/PDF yielded no inspectable image). Input polyphony and ranges unverified; original MG-300 Pitch Bender not inherited. |
+| Synth / acoustic instrument tones | Three acoustic IRs documented; dedicated electric-to-acoustic simulator unverified. Organ-like Octave + Rotary recipe is separate from acoustic IR processing. |
+| Special processing | Shimmer Reverb; RVB→DLY substitution permits dual delays. CMP→EFX and EFX→MOD are substitutions, not added block positions. |
+| Architecture / firmware limitations | Current GEN2 release listing is not proof of installed firmware or each algorithm’s introduction version. No dedicated synth inferred from NAM. Harmonist/Detune visual evidence and detailed controls remain explicit follow-up leads, not freshly verified algorithms. |
+
+[Four-category comparison](../CREATIVE-EFFECTS.md). Owner-confirmed ownership.
 
 ## MG-300 original
 

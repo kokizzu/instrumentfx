@@ -24,6 +24,7 @@ Source checks: **2026-11-03**. Each linked canonical brand record contains exact
 | [Original MOOER GE300](brand/MOOER.md#ge300) | Three-layer polyphonic SYNTH; normal pickup | Mono Pitch / Poly Pitch; Intelligent Harmony (3.0.1) | Acoustic1/2/3; separate guitar Tone Capture | Synth arpeggiators; Stutter; Lofi; Ring Mod |
 | [Zoom B1on](brand/ZOOM.md#b1on) | Ba Synth; StdSyn; SynTlk; V-Syn; 4VoiceSyn; Z-Syn | PitchSHFT; mono Ba Pitch; Ba Octave; HPS | Z-Organ; Defret; acoustic simulation unverified | Slicer; sequenced/random filters; RingMod; BitCrush; Bomber |
 | [BOSS GM-800](brand/BOSS.md#gm-800) | ZEN-Core tone engine; divided-pickup/GK or MIDI | PitchShiftr; 2V PShifter; separate note/tuning controls | Piano; organ; orchestral/synth instrument tones | Slicer; Step Filter; ring/vowel; short-loop; bit/vinyl effects |
+| [NUX MG-300 MKII](brand/NUX.md#mg-300-mkii) | Synth unverified; Octave + Rotary organ-like recipe | Octave; Harmonist/Detune illustration leads not reverified | Acoustic IRs; electric-to-acoustic simulator unverified | Shimmer; dual-delay block substitution |
 
 ## Limits that change the choice
 
@@ -33,5 +34,6 @@ Source checks: **2026-11-03**. Each linked canonical brand record contains exact
 - **[Original MOOER GE300](brand/MOOER.md#ge300):** Original GE300 only. Synth tracking stays first; FXA mono and FXB poly pitch differ. Harmony requires 3.0.1; NAM conversion into AMP does not expand the synth engine.
 - **[Zoom B1on](brand/ZOOM.md#b1on):** Ba Synth and 4VoiceSyn explicitly require single notes; other synth chord support is unverified. Some effects require 1.2; B1Xon pedal-pitch algorithms are excluded.
 - **[BOSS GM-800](brand/BOSS.md#gm-800):** Requires compatible divided-pickup/Serial GK for guitar/bass synthesis; MIDI triggering is separate. Firmware-qualified normal-pickup/GK Audio paths exist, but no direct analog guitar input. Audio MFX polyphony and GK Audio effects coverage remain unverified.
+- **[NUX MG-300 MKII](brand/NUX.md#mg-300-mkii):** Harmonist/Detune illustration leads could not be independently viewed with available tools; their input polyphony/ranges stay unverified. Block substitution does not create additional positions. Pitch Bender is not borrowed from original MG-300.
 
 The tables describe available algorithms, not a claim that every listed effect runs simultaneously. Dedicated single-purpose pedals remain in the [separate guitar archive](single-guitar.md); they do not increase active multi-effects counts.
