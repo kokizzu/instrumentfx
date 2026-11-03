@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro200User census complete;ownmanualp10 now confirms15simultaneous claim andWindows p123 endpoints checked. Continue13vs15countingbasis,otherUSBmodechannelcounts,visualcontrols,globalFVprecedence andqualifiedIDR independently;individual LCD-at-footswitch models takepriority.",
+    "task": "GT-Pro200User census,original15simultaneous claim,Windows endpoints andeight MAIN/SUB output-device choices documented. Continue13vs15countingbasis,otherUSBmodechannelcounts,visualcontrols,globalFVprecedence andqualifiedIDR independently;individual LCD-at-footswitch models takepriority.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -150042,5 +150042,27 @@
     "active": false,
     "active_inventory_changed": false,
     "next": "Defer AXOM screen technology/physicalcensus until inspectable primary evidence;continue other requested individual-display profiles and qualified Indonesian hardware. Exact algorithms,current firmware,externalEXPcoverage remain;independent general/expression queues preserved."
+  },
+  "gtpro_output_device_scope_20261104": {
+    "checked": "2026-11-04",
+    "model": "BOSS GT-Pro",
+    "source": "https://cdn.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+    "revision": "Original English owner manual pp17–18; indexed original page bodies",
+    "device_choices": [
+      "JC-120",
+      "SMALL AMP",
+      "COMBO AMP",
+      "STACK AMP",
+      "JC-120 Return",
+      "COMBO Return",
+      "STACK Return",
+      "LINE/PHONES"
+    ],
+    "main_sub": "Separate settings; SUB explicitly uses same device choices.",
+    "speaker_simulation": "Enabled only with LINE/PHONES; Output Select does not alter tone with PREAMP/SPEAKER Off.",
+    "limits": "Not output destination,USB channel count,effect concurrency orglobal expression-volume precedence. No currentunit/firmwaretest.",
+    "access": "FulloriginalPDFsize limit; indexedoriginal text available; matched originalpage18 mirror corroboration. Targeted Shopee noqualifiedexacthardware.",
+    "active_inventory_changed": false,
+    "next": "Continue independent GT-Pro13vs15countingbasis,otherUSBmodechannelcounts,visualcontrolcensus,globalFVprecedence andqualifiedIDR;requestedindividual-display priority remains."
   }
 }
