@@ -223,6 +223,7 @@ Original11-page PR6171 owner-manual pages corroborate the mirrored guide's effec
 | Categories and counts | Original six groups were Stompbox,Modulation,Delay,Reverb,Dynamics+EQ,Filter+Pitch. Firmware1.7 separates Dynamics/EQ/Filter/Pitch and adds Synth. Current complete per-category totals remain untranscribed; older product100+ is historical;current overview says **over200**,while its detailed Effects field still says over100. Neither is an audited category census. [Current product][P],checked2026-10-31. [M11,R] |
 | Category choices /1.8.45 additions | Manufacturer release table: **Stompbox6**—Lightyear Overdrive,Pinions Overdrive,Runes Bass Overdrive,Integrator Boost,Grunt Boost,Rockbox100; **Modulation1**—Step Tremolo; **Delay2**—Step Filter Delay,Prismatic Delay; **Reverb3**—Cirrostratus Reverb,Cirrostratus Synthverb,Spectral Reverb; **Dynamics1**—Seventy Sixer Compressor; **Filter1**—Step Filter; **Pitch1**—Pitch Sequencer. **6+1+2+3+1+1+1=15 additions**,not total category counts or simultaneous blocks. No extra Synth-category addition is listed;Synthverb remains Reverb. [Official1.8.45 notes][R],checked2026-10-31. |
 | Synth | **Yes: Aethon Polysynth,Cerberus Polysynth,Wavemorph Polysynth**, introduced in1.7.53. Later Cirrostratus Synthverb is separately a reverb algorithm, not an additional verified general synthesizer. [R] |
+| Pitch / special additions1.6.34 | [22 named release additions](#tone-master-pro--missing-1634-effect-inventory-and-cab-boundary), including PolyVoice Pitch Shifter, Polygon Octave Shifter and Granular Arpeggiator. Names do not establish synth-input polyphony. |
 | Electric-to-acoustic simulation | **Not established**. Acoustasonic preamp is documented for piezo-equipped electric/acoustic instruments; this alone does not prove an electric-to-acoustic simulator. [G] |
 | IR loading | Third-party speaker IR import through Pro Control; older manufacturer headline6000+ factory cabinet/microphone-position IRs;current feature list says **over20,000**,while its highlight still says6000. Keep the same-page conflict explicit. Exact user-file slot capacity and current accepted file/sample limits remain unverified. Factory IR combinations are not6000 different effect algorithms. [P,M12] |
 | IR / firmware1.5 routing and parameters | Manufacturer manual printedp12 confirms **up to two IR blocks after analog Loop2**,with Speaker Impedance Curve,Level,Low-Cut,High-Cut and Bypass. Impedance-curve selection changes amp-model interaction;it is distinct from loading an amp capture. User-file slot capacity,formats,sample rates/lengths and current1.8 equivalence remain unverified. [Original firmware1.5 manual reproduction](https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual),checked2026-10-31. |
@@ -560,3 +561,17 @@ Checked **2026-11-03**,manufacturer-authored **firmware1.5 manual,printedpp42–
 | MIDI / clock priority | Receive Clock disables the tap footswitch anddisregards saved preset tempo;delay/modulation with assigned Tap Division follows incoming clock. Send/receive clock is separately configurable. This is synchronization,not preset navigation or global analog volume. |
 
 No MIDI sent,hardware operated orsoftware installed. Current complete MIDI mapping,including later page-two addressing,remains unresolved.
+
+### Tone Master Pro — missing 1.6.34 effect inventory and cab boundary
+
+Checked **2026-11-03**, [manufacturer US release history,1.6.34,May14,2025](https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates). **22 effect additions**, source order below; not current category totals or simultaneous blocks. Do not add them mechanically to the older91-effect census.
+
+| Entries | Exact release names |
+|---|---|
+| 1–6 | Comic Sans Drive; Analog Chorus; Stereo Analog Chorus; Analog Bass Chorus; Analog Vibrato; Stereo Doubler |
+| 7–17 | Aurora Delay; Stereo Aurora Delay; Polyhedron Pitch Delay; Arctic Sustainer; Antarctic Sustainer; Small Room Reverb; Small Plate Reverb; Ascension Convolution Hall Reverb; Imperium Convolution Hall Reverb; Kinetic Convolution Plate Reverb; Atmosphere Convolution Room Reverb |
+| 18–22 | Slow Attack; Micro Shifter; Polygon Octave Shifter; PolyVoice Pitch Shifter; Granular Arpeggiator |
+
+The release retains **one convolution-reverb model per preset**, including built-in amp reverb. It removes the **External Cab** count restriction; the earlier1.4 entry defines that option as using an external cabinet/DAW IR. This does **not** establish unlimited third-party IR blocks. PolyVoice’s name does not establish polyphonic Synth tracking; exact note handling and granular controls remain unverified.
+
+GuideH still returns unsupported document/pdf through the reader. No download/device test. Existing sources, newer release deltas and independent queues retained.

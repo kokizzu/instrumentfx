@@ -146956,5 +146956,17 @@
     "fully_verified": false,
     "active_count_unchanged": 402,
     "next": "Current category census beyond webpage contradictions,input-note polyphony and latency,storage limits,exact display specifications,qualified Shopee condition/stock;preserve LCD-first/general queues."
+  },
+  "tmp_effects_1634_20261103": {
+    "model": "Fender Tone Master Pro",
+    "checked": "2026-11-03",
+    "source": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+    "revision": "1.6.34,May14,2025",
+    "named_effect_additions": 22,
+    "canonical": "brand/FENDER.md#tone-master-pro--missing-1634-effect-inventory-and-cab-boundary",
+    "scope": "Source-order names,not full current category census;External Cab not equated to third-party IR block.",
+    "fully_verified": false,
+    "active_count_unchanged": 402,
+    "next": "Current GuideH census,exact pitch/granular note handling,IR-file/slot limits,global-volume coverage,auxiliary displays andqualified Shopee hardware. Preserve independent queues."
   }
 }
