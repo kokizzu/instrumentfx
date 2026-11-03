@@ -314,6 +314,20 @@ Checked2026-11-04. A second [manufacturer-authored reproduction](https://manualz
 
 Remaining: controls/display census, effects/category limits, creative note handling, acoustic algorithms, modern software support, imports, detailed routing and live functions. This follow-up does not admit an active model or change an independent queue.
 
+### GNX3000 — controls and original effect-category census
+
+Checked2026-11-04 against [18-6288-B original body](https://manualzz.com/doc/51981626/digitech-gnx3000-gnx3000--discontinued--owner-manual),pp12–18,44,51–74,86;not generated FAQs. Derived counts describe choices, not simultaneous capacity or current firmware.
+
+| Field | Finding / qualification |
+|---|---|
+| Rotaries / switches / buttons | **9 rotaries**:five parameter knobs,Data Wheel,three rear gain/level knobs. Seven footswitches plus separate toe switch. Matrix buttons:two Effect Select,four Amp Control,Status. Total buttons unresolved because secondary panel labels need physical verification. |
+| Category choices | Pickup2 excludingOff;Wah3;Compressor1 configuration (attack settings are parameters);Stompbox11;Gate2;Chorus/Mod16;Delay5;Reverb10. Whammy/IPS/Talk has9 selector choices including five Talker voicings. |
+| Stompbox names | Screamer,Rodent,DS Dist,DOD250,Big MP,Guy OD,SparkDrV,Grunge,Fuzzy,Zone,8tavia. |
+| Pitch ranges | Whammy/IPS/Talk Pitch Shift **−24…+24semitones**;Chorus/Mod Pitch Shift **−12…+24**. Detune±24cents in both. These ranges do not establish chord tracking. |
+| Acoustic / special | Two acoustic guitar models documented;worked example names Dreadnaught/AC dread. This resolves the earlier acoustic-availability uncertainty, not tracking quality. Talker requires a microphone;SynthTalk andpedal-driven YaYa remain distinct. |
+
+Remaining verification:physical panel total/display,simultaneous limit,routing contradictions,complete model names,current software,imports andlive limits. Partial lead remains outside active inventory.
+
 ## Incoming capability evidence, 2026-10-18
 
 Preserved from origin/main87c7d38. References to older inventory counts or incomplete consolidation describe that branch checkpoint; current root profiles and ledger take precedence. Technical conflicts remain qualified.

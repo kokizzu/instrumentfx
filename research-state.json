@@ -148481,5 +148481,12 @@
     "next": "Continue same partial GNX3000 control/display and category census before active admission; exact current firmware and offers remain unverified.",
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "gnx3000_controls_categories_20261104": {
+    "canonical": "brand/DIGITECH.md#gnx3000--controls-and-original-effect-category-census",
+    "source": "https://manualzz.com/doc/51981626/digitech-gnx3000-gnx3000--discontinued--owner-manual",
+    "scope": "Original-guide control/category census and slot-specific creative distinctions; see canonical table, not active admission.",
+    "next": "Resolve physical panel/display and simultaneous/routing basis; complete current software/import/live qualifications. Preserve independent display/expression/general queues.",
+    "active_count_unchanged": 402
   }
 }
