@@ -745,3 +745,5 @@ Helix Rack [I/O follow-up](brand/LINE6.md#helix-rack--rack-and-control-io-separa
 Helix Rack [electrical/body qualification](brand/LINE6.md#helix-rack--manufacturer-electrical-ratings-and-body-conflict):100–240VAC confirmed;manufacturer dimensions/masses disagree. Both width claims exceed preference. Impedance-balanced audio outputs do notestablish global pedal-volume coverage. Partial,outsideactivecounts.
 
 Helix Rack [loop-continuation limits](brand/LINE6.md#helix-rack--ir-import-and-conditional-loop-continuation): matching looper type andmono/stereo mode required acrosspresets;this doesnot establish globalEXP attenuation ofrecorded loops.
+
+Helix Rack [spillover-mode exception](brand/LINE6.md#helix-rack--spillover-trade-offs-and-snapshot-controls): True Preset Spillover excludes loop carryover. Matching loop type/channel is insufficient across all modes; external Control preset stepping remains separate from global EXP volume.

@@ -146735,5 +146735,16 @@
     "fully_verified": false,
     "next": "Factoryfill,other block libraries,editor minima,persistence/export,visualcontrols,power/body conflicts,globalEXP coverage andqualified processor offers;independent queues preserved.",
     "active_count_unchanged": 402
+  },
+  "helix_rack_spillover_snapshots_20261103": {
+    "model": "Line 6 Helix Rack / optional Control performance behavior",
+    "checked": "2026-11-03",
+    "source": "https://manuals.plus/m/b451d1de4a0bcd2e0b40c6699c14fd67ceff22bb4bb2272979d7fd40505e2f3a",
+    "revision": "90-20-0370-F,Rack firmware3.80,pp23,51–55,70",
+    "finding": "True Preset Spillover sacrifices Path2/one DSP and excludes loop carryover. Eight snapshots share64 controller assignments. Optional Control stepping and10-character snapshot labels qualified.",
+    "active": false,
+    "fully_verified": false,
+    "next": "Factory fill,editor minima,loop persistence/export,visual controls,power/body conflicts,global EXP output coverage andqualified Shopee processor hardware. Preserve independent general andexpression queues.",
+    "active_count_unchanged": 402
   }
 }

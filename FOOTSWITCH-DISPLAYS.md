@@ -179,3 +179,5 @@ Prime [offline backing-track workflow](brand/HEADRUSH.md#prime--offline-backing-
 Original FC-12 [switch timing and external-control details](brand/FRACTAL-AUDIO.md#fc-12-original--control-census-switch-timing-and-external-wiring): v2.1 documents Tap/Hold label changes,press-versus-release triggering andexternal-switch wiring. Controller only,outside audio counts;these findings are not transferred toMarkII.
 
 AXOM MAX [manufacturer body/electrical ratings](brand/MELOFTY.md#axom-max--manufacturer-body-and-electrical-ratings) now supplement its partial profile;mini-screen technology remains unresolved.
+
+Helix Rack/Control [snapshot labels and navigation](brand/LINE6.md#helix-rack--spillover-trade-offs-and-snapshot-controls): ten-character snapshot names and selectable FS1/FS7 stepping do not add onboard Rack displays or switches.

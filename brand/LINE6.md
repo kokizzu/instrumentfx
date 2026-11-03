@@ -652,13 +652,13 @@ Checked **2026-11-03**; partial lead **outside active counts**,not ownership-con
 | Power / mains range | **100–240V AC**,explicitly includingHelix Rack inmanufacturer powerFAQ. Frequency,current/wattage andactualdraw remain unverified. DCcenterpolarity doesnot apply tomains;this doesnot establish battery/USB operation. [PowerFAQ][HRK-W] |
 | Electrical / inputs | Manufacturer **Floor/Rack/LT** section: Guitar In autoimpedance,unbalancedTS;Aux **47.5kΩ TS**;returns **1MΩ instrument /10kΩ line,TS**. Autoimpedance depends onthe firstblock andGlobal setting. No maximuminput voltage inferred. [I/O specifications][HRK-I] |
 | Electrical / outputs | Same section: main L/R,sends andRack-only **Dry** output are **impedance-balanced TRS**. Product instructions touse TS main-output cables areconnection guidance,not evidence thatthe jack cannot beimpedance-balanced. No headphonepower/load orEXP attenuation established. [I/O specifications][HRK-I] |
-| Processing / locations | Rack **3.80, p22:** up to **32 block locations, DSP permitting** through serial/parallel routing. Locations are not a guarantee of 32 arbitrary simultaneous algorithms. [Rack manual][HRK-M] |
+| Processing / locations | Rack **3.80, p22:** up to **32 block locations in normal two-DSP mode, DSP permitting**, through serial/parallel routing. Locations are not a guarantee of 32 arbitrary simultaneous algorithms. [Rack manual][HRK-M] |
 | Memory / IR | Same revision, p4: **8 setlists×128 presets=1,024 locations**; **128 custom/third-party IRs**. Factory-filled subset and current contents remain unverified; storage and IR counts are separate. [Rack manual][HRK-M] |
 | Creative / synth and pitch | **p33:** 3 OSC Synth; Poly Pitch/Wham/Capo and12 String explicitly use polyphonic pitch shifting. **3 Note Generator/4 OSC Generator run without input.** Audio mono/stereo labels do not establish synth-note polyphony. [Rack manual][HRK-M] |
 | Creative / instrument and special | **p30:** Acoustic Sim in EQ; Feedbacker in Dynamics. Simulation, IR loading and feedback generation are different functions. Poly models are DSP-intensive; simultaneous availability and tracking quality untested. [Rack manual][HRK-M] |
 | IR / import | **3.80 pp42–43:** HX Edit on Mac/Windows imports HIR or WAV; WAV converts to **48kHz,32-bit,mono,2048 samples**. Stereo-source choice: left,right ormix. This is IR conversion,not NAM/amp capture. [Original-manual reproduction][HRK-R] |
 | IR / simultaneous limits | Single IR:1024 or2048 samples;perpath,two1024 orone2048;one Dual IR maximum perpath. Limits are shared with3.50 Cab/Dual Cab/Amp+Cab,not additive. [pp42–43][HRK-R] |
-| Looper / durations | **pp44–46:** one Looper/preset. 1/6Switch:mono60s full/120s half;stereo30s full/60s half. Shuffling:mono60s/stereo30s,no half-speed mode. Preset-change playback requires the same looper type andmono/stereo mode. Global EXP attenuation unverified. [Rack manual][HRK-R] |
+| Looper / durations | **pp44–46:** one Looper/preset. 1/6Switch:mono60s full/120s half;stereo30s full/60s half. Shuffling:mono60s/stereo30s,no half-speed mode. Preset-change playback requires the same looper type andmono/stereo mode; **True Preset Spillover has a separate no-looper-carryover exception below**. Global EXP attenuation unverified. [Rack manual][HRK-R] |
 | Processing / effect census | **3.80, pp29–34:** **274 named effect-table entries**, including106 Legacy; category breakdown below. Mono/stereo versions counted once. Excludes amps/cabs/mics,IRs,loopers androuting utilities; not simultaneous capacity orinstalled-content certification. [Rack manual reproduction][HRK-R] |
 | Processing / high-DSP group | **p24:** one per path maximum across Feedbacker,Poly Sustain,Poly Detune,Poly Pitch,Poly Wham,Poly Capo and12 String combined. Not one per preset, nor a guarantee two fit. [Rack manual][HRK-R] |
 | Processing / power | Dual-SHARC,four stereo paths;grounded AC inlet. Amp/cab/mic census,factory memory fill,mainsfrequency/draw,battery/USB operation andexact editor requirements remain open. [Rack page][HRK-P] |
@@ -716,6 +716,19 @@ Checked **2026-11-03**, original **90-20-0370-F,firmware3.80**, printedpp29–34
 | **Total** | **168** | **106** | **274** |
 
 Pitch/Synth includes pitch processors and input-independent generators, not29 tracking synths. Choices and audio-channel versions do not establish note polyphony orDSP concurrency. Other profile gaps remain;partial,outside active counts. No download ordevice operation.
+
+### Helix Rack — spillover trade-offs and snapshot controls
+
+Checked **2026-11-03**, [original Rack/Control3.80 manual][HRK-R], **90-20-0370-F**, printedpp23,51–55,70. Manufacturer-described behavior; no device test or measured switching latency.
+
+| Field | Behavior / limitation |
+|---|---|
+| Processing / preset spillover | Enabling **True Preset Spillover** removes Path2 and sacrifices one of two DSPs. Saved Path2 content remains stored, but is not loaded or audible; Path1 routed to Path2 can therefore be silent. Returning to normal mode reloads the preset and loses unsaved edits. The32-location normal-mode description is not a spillover-mode guarantee. |
+| Tails / looper exception | This mode retains delay/reverb tails, **not looper recording/playback between presets**. If A still trails into B, changing to C cuts A off. Thus matching looper type/channel alone does not establish loop continuation in every mode. |
+| Memory / snapshots | **Eight per preset**; **64 controller assignments total**, shared with snapshot-controlled parameters. Snapshots can recall bypass/values but cannot reorder or replace models. Looper bypass is excluded. Saving the preset stores all eight and recalls the last saved active snapshot. |
+| External Control / navigation and labels | FS1/FS7 can select **Banks, Presets or Snapshots**, with direction swap. Snapshot labels allow **10 characters** and require preset save. These are optional Control functions, not onboard Rack footswitches or global expression-volume assignment. |
+
+Partial lead remains outside active counts; factory fill, editor requirements, physical conflicts and qualified offers remain unresolved.
 
 ## Helix Stadium XL Floor
 
