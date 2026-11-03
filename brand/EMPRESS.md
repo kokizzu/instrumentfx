@@ -37,7 +37,7 @@ Checked 2026-11-03. Genuine modular multi-effects/synth hardware; normal guitar/
 
 | Field | Exact-model evidence and qualification |
 |---|---|
-| Processing/memory | Product header 90+ modules; older details say 80+; 20+ prebuilt effects, 64 onboard patches. These are library/storage figures, not simultaneous-block counts. Current category census/factory-filled count unknown. |
+| Processing/memory | Product header 90+ modules; older details say 80+; 20+ prebuilt effects, 64 onboard patches. These are library/storage figures, not simultaneous-block counts. Current category census unknown. Factory fill was unknown in this initial pass; the factory-table follow-up below establishes60 named/4 blank for its published set. |
 | Footprint/power | Manufacturer L5.7×W3.75in = 144.78×95.25mm; enclosure H44.45mm, controls H66.675mm; 1.5lb (~0.680kg). 9VDC center-negative, 2.1mm, 300mA required; supply excluded. Nominal L as depth exceeds140mm; rotated rectangle fits200×140mm, but practical orientation/cable clearance remains unverified. |
 | Display | OLED main screen; diagonal, color/touch and separate footswitch displays unverified. |
 
@@ -104,3 +104,14 @@ Checked **2026-11-04**, [Manual v02, printed pp10–11,23–24](https://empresse
 - Auxiliary-mode timing conflicts: printedp11 specifies holding BYPASS+SCROLL **one second**, whereas the [manufacturer product Stompswitch description](https://empresseffects.com/products/zoia) specifies **two seconds**. Both switch those controls between navigation/bypass and patch-module use. Preserve both timings pending exact-firmware confirmation.
 
 These findings clarify memory/navigation and control sharing; factory occupancy, complete ports/editor/import profile and global-volume coverage remain unresolved. Partial lead remains outside402 active models.
+
+### ZOIA — published factory occupancy and triggering distinctions
+
+Checked **2026-11-04**, [manufacturer Factory Patches table](https://empresseffects.com/pages/zoia-factory-patches), revision/date unstated; firmware5 identity is supported by the Groovebox/Grand Piano entries and the previously retained firmware5 support notes. This is published content, not inspection of a particular unit or installed bank.
+
+- Patch numbers **0–59 have named entries;60–63 are Blank Sandbox**: derived **60 populated +4 blank =64 total**, not60 factory plus64 additional user slots. Existing initial-pass factory-occupancy unknowns above are superseded for this published set only.
+- **Auto Arp32** combines a guitar-root/sub oscillator with a separately sequenced/arpeggiated oscillator; that recipe doesnot establish chord tracking. **Saxobone34** is described as a saxophone/trombone hybrid synth tone, not acoustic-body IR processing or measured instrument realism.
+- **eKalimba Looper43** is grid-played, up tofour simultaneous notes. **Grand Piano47** uses oneC3 sample, six-voice playback and MIDI keyboard control; sample assets onmicroSD required. These capacities are patch-specific and donot prove audio-input polyphony. **VoiVoi49** is a MIDI formant monosynth; generative patches remain separate from input-following synthesis.
+- Factory expression targets vary: Slot Machine10 changes alias LFO rate; Clown Shoes15 adds reverb; Bipedal Delay29 changes pitch intervals. They do not establish universal expression-volume assignment.
+
+The original Quickstart Google document was located through the official product link, but its body remained inaccessible; ports/editor/import conclusions are not inferred from the title. Current module census, exact Shopee item and global-volume coverage remain open.

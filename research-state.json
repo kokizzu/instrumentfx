@@ -147972,5 +147972,16 @@
     "conflict": "Auxmode hold1second manual vs2seconds product;exact5.41 behavior untested.",
     "next": "Qualified hardware offer,current full module index,ports/editor/import support;do not infer global expression volume.",
     "active_inventory_changed": false
+  },
+  "zoia_factory_occupancy_scope_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://empresseffects.com/pages/zoia-factory-patches",
+    "revision": "Unstated;firmware5 sample-patch correspondence;not installed bank inspection.",
+    "factory_named": 60,
+    "blank_sandbox": 4,
+    "total": 64,
+    "scope": "Audio-following,grid,MIDI,sample and generative triggering separated;factory expression targets vary.",
+    "next": "Current module census,ports/editor/imports,exact Shopee item;global volume remains unknown.",
+    "active_inventory_changed": false
   }
 }
