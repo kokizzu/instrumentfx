@@ -47191,7 +47191,7 @@
     },
     "technical_source_history_audit_20261104": {
       "checked": "2026-11-04",
-      "source_head": "d823c24113ecb12a77814192d53c359a18a877ee",
+      "source_head": "3a1987828fc76d3f7d16e951f72ae9068a64766a",
       "target": "make consolidation-audit-source-history",
       "sources": 99,
       "variants": 295,
@@ -47201,18 +47201,12 @@
         "pre-layout-compatibility-redirect": 88,
         "verified-link-only-source-variant": 1,
         "verified-historical-body-archive": 4,
-        "historical-variant-needs-review": 2,
+        "historical-variant-needs-review": 1,
         "verified-shared-source-variant": 1,
-        "verified-historical-shared-archive": 1
+        "verified-historical-shared-archive": 2
       },
       "method": "Enumerate unique Git blobs with --full-history and per-parent merge diffs; reject shallow clone history. Exact equality against registered original,current redirect,or inverse-layout redirect;other content stays pending. FX100 accepts only two explicit citation substitutions followed by whole-source equality; technical orprice drift remains pending. Earlier GR-55 body is independently archived andverified against its pinned Git blob;historical corrections are not normalized away.",
       "pending": [
-        {
-          "source": "effects/owned-multifx.md",
-          "destination": "MULTI-EFFECTS.md",
-          "blob": "655e57ddfb8df4476569681fca5b70dc4ed581ab",
-          "sha256": "d73a3fa649bd9a1ff5c1dec213592247d04fb76c85daed562f7be089da335efd"
-        },
         {
           "source": "effects/shopee-multifx-3.md",
           "destination": "MULTI-EFFECTS.md",
@@ -47220,10 +47214,10 @@
           "sha256": "d04e08da201a87eccd703a49efad348a83343f504ac20e9ec52f7404687180cc"
         }
       ],
-      "next": "Continue two shared variants: owned and market3. Preserve independent GT-Pro/display/expression queues.",
+      "next": "Continue market3 shared variant, preserving FV01 exclusion and all later corrections. Independent GT-Pro/display/expression queues remain unchanged.",
       "limitations": "HEAD-reachable technical source revisions only; pending variants are not proven loss; shared/metadata files and manufacturer truth need separate audits. Existing original-body verification remains independent;no compatibility path removed andno complete-migration claim.",
       "complete": false,
-      "merge_history_recheck": "295 revisions checked; four model-body archives and one earlier compact shared-body archive verified. Owned and market3 variants remain pending.",
+      "merge_history_recheck": "295 revisions checked; four model-body archives and two shared-body archives verified. Market3 variant remains pending.",
       "initial_counts": {
         "current-compatibility-redirect": 99,
         "registered-original": 99,
@@ -47348,6 +47342,30 @@
           "destination_section": "Preserved earlier compact comparison",
           "coverage_check": "Complete shared body; inverse heading/reference/navigation transformations must equal pinned Git blob",
           "qualification": "Earlier prices, control unknowns and firmware descriptions are dated context; later canonical corrections remain current."
+        },
+        {
+          "source": "effects/owned-multifx.md",
+          "destination": "MULTI-EFFECTS.md",
+          "blob": "655e57ddfb8df4476569681fca5b70dc4ed581ab",
+          "sha256": "d73a3fa649bd9a1ff5c1dec213592247d04fb76c85daed562f7be089da335efd",
+          "verification_kind": "historical-shared-body-v1",
+          "marker": "OWNED-EARLY",
+          "renamed_references": [
+            "gr",
+            "zoom"
+          ],
+          "link_normalizations": {
+            "[Owner history](OWNERSHIP.md)": "[Owner history](README.md#scope-and-ownership)",
+            "[Scope](SCOPE.md)": "[Scope](README.md#scope-and-ownership)",
+            "[Resume](RESUME.md)": "[Resume](research-state.json)",
+            "[OWNERSHIP.md](OWNERSHIP.md)": "[OWNERSHIP.md](README.md#scope-and-ownership)",
+            "findings/2026-10-14-roland-gr-55.md": "brand/ROLAND.md#gr-55",
+            "findings/2026-10-14-zoom-b1xon.md": "brand/ZOOM.md#b1xon"
+          },
+          "source_title": "# Ever-owned multi-effects — additional technical records",
+          "destination_section": "Preserved earlier owned-model comparison",
+          "coverage_check": "Complete shared body; inverse heading/reference/navigation transformations must equal pinned Git blob",
+          "qualification": "Historical two-model overlay and next-model list do not replace current ownership, inventory or queue. Later canonical technical corrections retain precedence."
         }
       ]
     }
