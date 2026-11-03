@@ -101,6 +101,7 @@ Checked2026-10-17;partial. Separate hardware from original Amp Academy;not previ
 | Expression | No built-in treadle;external EXP/CTRL or NMP-2 Lite. External toe behavior unknown. [Manual][AAS-M] |
 | Knobs / footswitches / buttons | **8/3/4**,text-derived:HOME,EDIT,1–4,INPUT TRIM,OUTPUT LEVEL;three feet;four navigation/recall keys. Encoder pushes counted once;visual confirmation pending. [Manual][AAS-M] |
 | Display | **2.86-inch color LCD,960×376**;touch unverified. [Product][AAS-P] |
+| Footswitch shortcuts | V2.0.5: hold A for tuner, B for LOOP, C for FS menu. C returns from tuner/LOOP. FS menu: A selects PRESET, B SCENE, C STOMP; exits after 3 seconds idle. PRESET navigation remains A down/C up. LOOP offers N.R./A.R., PRE/POST and LEVEL. These reuse the three switches contextually; no global expression-volume assignment follows. [Product][AAS-P] |
 | Blocks / choices | Older9:NG,CMP,EFX,AMP,EQ,S/R,IR,DLY,RVB. V2.0.5 adds MOD with13choices;current simultaneous ceiling/full category totals unresolved. [Product][AAS-P] |
 | Factory / user memory | Manual prose27slots×3scenes versus spec27factory/27user;do not infer54independent slots. [Manual][AAS-M] |
 | Synth / acoustic | Dedicated synthesis/acoustic simulation unverified;octave/harmony do not establish a synth engine. |

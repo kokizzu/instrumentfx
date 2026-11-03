@@ -144019,5 +144019,14 @@
     "remaining": "Current2.02parameterguide,rangeoverride,ASSIGNprecedence andbypass/phones/tail/recordedloopcoverage",
     "next": "ContinueLCD/no-treadle inventory;deferunchanged officialPDFaccessfailure",
     "downloads": false
+  },
+  "amp_academy_stomp_shortcuts_20261103": {
+    "model": "NUX Amp Academy Stomp NMA-3AAP",
+    "status": "partial manufacturer-backed finding",
+    "source": "https://nuxaudio.com/product/ampacademystomp/",
+    "firmware": "V2.0.5",
+    "finding": "Hold A tuner, B LOOP, C FS menu; C returns from tuner/LOOP. FS menu A PRESET/B SCENE/C STOMP, auto-exits after 3 seconds idle. LOOP offers N.R./A.R., PRE/POST, LEVEL. PRESET A down/C up is contextual, not three extra controls.",
+    "remaining": "Global analog expression-volume assignment, position/range/recall, bypass/headphone/tail/recorded-loop coverage and current full manual remain unresolved.",
+    "next": "Continue other no-treadle and individual-footswitch-display models; retain blocked manual/global-volume questions for later."
   }
 }
