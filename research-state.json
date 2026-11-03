@@ -147807,5 +147807,22 @@
     "qualification": "Allcondition/workingstate/variant/firmware/bundle/warranty/authenticity/shipping/tax/checkoutunverified except explicit bundle title;not current availability or verifiednewused.",
     "next": "Current memory/USB matrix,import andsound distinctions andfull profile remain;do not repeat connectorEXP exclusion.",
     "active_inventory_changed": false
+  },
+  "ngs6_profile_consolidation_20261104": {
+    "checked": "2026-11-04",
+    "canonical": "brand/NUX.md#ngs-6--consolidated-required-field-profile",
+    "scope": "Complete retained model notes reconciled into16 required-field rows;all historical sections,sources,prices andcontradictions preserved.",
+    "active_inventory_changed": false,
+    "market": "Five exactcondition-unverifiedasks;twoHabis,oneholiday,two stockunknown;notnewusedrange.",
+    "remaining": [
+      "Currentmemory/factoryoccupancy",
+      "CurrentIRcapacity andsourceformatrules",
+      "USBmatrix/currenthostconnection",
+      "Synth/acoustic/NAMverification",
+      "Visualcontrols/screen",
+      "BatteryUSBpower",
+      "Qualifiednewusedstock"
+    ],
+    "next": "Defer source-blocked NGS-6 current-format/memory gaps;continue eligible Shopee inventory and requested separate-footdisplay profiles,retaining independent GP-200JR→Prime→GE300 queue."
   }
 }

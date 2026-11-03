@@ -34,6 +34,31 @@
 
 ## Amp Academy NGS-6 — partial capability lead
 
+### NGS-6 — consolidated required-field profile
+
+Reconciled **2026-11-04** from the complete retained NGS-6 findings below,including original2021 manual text,current manufacturer V4 page anddated exact Shopee offers. This is a field-oriented consolidation,not a fresh certification of every field. **Partial lead remains outside402 active models**;not Amp Academy Stomp NMA-3AAP. Earlier unknowns remain historical evidence.
+
+| Required field | Current evidence / unresolved qualification |
+|---|---|
+| Scope / instrument | Normal guitar input;independent noise reduction,EFX,EQ,reverb andinsert establish multi-effects eligibility in principle. Bass/vocal suitability andownership unverified;full admission separate. |
+| Expression / toe | No built-in treadle;complete original connector inventory has **no analog EXP input**. Direct analog expression-volume requirement fails on documented connectors. USB MIDI is a separate control route;no toe support inferred. |
+| Knobs / switches / buttons | **Eight rotaries,two footswitches,three top selectors,two rear toggles** documented in original text. Separate push-button total andvisual corroboration unresolved. Selector/toggle counts are not silently added to push buttons. |
+| Display | A/B/Scene LEDs documented;graphical display availability,diagonal,color,touch andindividual switch screens unverified. Indicators do not establish a screen. |
+| Chassis / mass | **105L×115W×58H mm;440g**,fits preferred rectangle before plugs. |
+| Processing / choices | **Seven movable blocks**;current page EFXnine choices/reverbfive/six-bandEQ;V4amps18 acrosssix selector positions. These are choices,not18 simultaneous amps;complete current category census remains open. |
+| Memory / factory-user split | Original manual:one preset peramp model,three scenes;holdA/B1.5s tosave. V4 writable/factory occupancy andscene-parameter independence unresolved;do not infer54 independent slots. |
+| Synth / acoustic | Dedicated synth,pitch andelectric-to-acoustic simulation unverified. Amp/IR processing doesnot establish them. |
+| Audio I/O | InstrumentINPUT,quarter-inchOUTPUT,TRSINSERT send/return,XLRDI,AUX and3.5mmPHONE. Full connector sizes/balancing/electrical limits unresolved;PHONE related toDI doesnot establish every-source volume coverage. |
+| Control / data | USB audio/editor/MIDI;no physical MIDI orEXP connector in original inventory. USB-host capability andactual external-controller connection unresolved. INSERT is audio,not expression. |
+| Electrical / power | **9V DC negative-tip,<300mA draw**;manual500mA supply capacity is separate. OptionalACD-006A. **1MΩ input/1kΩ output**,not headphone load/EXP resistance. Battery andUSB bus-power operation unverified. |
+| IR / NAM / capture | **1024sample IR** processing,editor WAV auto-formatting. OriginalFrench10included+18empty versuscurrent16user/sixassociated/12Choptones+10downloaded conflict retained. Do not sum overlaps. Source-format restrictions,native/convertedNAM andcapturecreation unverified. |
+| Software / platforms | Firmware**4.0.2**,Win/mac editor**2.4.2.3**;separateASIO**5.30.0 Win10+ /3.29.0 Win7**. EFXMobileiOS/Android explicitlyadvertised;connection method,OS minima andLinux editing unresolved. No packages fetched. |
+| USB / latency | Normal,DryOut,Reamp,Loopback named;four-track prose not full stream matrix. Published48kHz/32bit andclaimed1.2ms system latency/110dB range do not certify USB round-trip performance orall stream formats. |
+| Live / practice | A/Bamp switching;Scene1→2→3;holdScene alternate reverb editing. Main/DI IR bypass independent,not whole-device bypass proof. Onboard sequential presetdown/up,looper,drums,spillover andpower-loss persistence unresolved. |
+| IDR / condition / stock | Five exact dated asks below:Rp1.500.000 Simpleton bundle **Habis**;Rp2.983.680 Jojomusicstore **Habis**;Rp2.500.000 CHMusic stockunknown;Rp3.380.000 SevenStereo **shopholiday**;Rp3.390.000 RAJA stockunknown. Allconditions unverified;not separate verifiednew/used ranges orcurrentavailability. Retain exactlinks,regions,cachedates,bundle/voucher limits below. |
+
+Source anchors: [current exact-model page](https://nuxaudio.com/product/ampacademy/),[dated USA support hub](https://www.nux.us/blogs/support/amp-academy-support-hub),[original panel/connector manual reproduction](https://www.manualslib.com/manual/3994930/Nux-Amp-Academy-Ngs-6.html?page=5),andthe recovered French manual/offer links preserved below. Remaining current memory,IR capacity/format,USB routing andcondition-qualified market gaps are deferred without changing the independent general,expression orfootswitch-display queues.
+
 Checked 2026-10-19; **outside active inventory and main capability table**. Distinct from Amp Academy Stomp NMA-3AAP. [NUX USA exact product](https://www.nux.us/products/amp-academy) documents seven movable blocks, compression/drive/EQ/reverb/noise reduction, insert loop and headphone output. Independent multi-effects eligibility is supported; complete required-field verification remains pending. A/B channels and three scenes are not proof of sequential preset down/up.
 
 [Exact support hub](https://www.nux.us/blogs/support/amp-academy-support-hub), updated2026-09-27, lists firmware4.0.2 and editor2.4.2.3 for Windows/macOS; versions were not installed or tested. Its [manufacturer English manual](https://nux.cherubtechnology.com/download/Manual/Effects/Verdugo_Series_Stompboxes/AmpAcademy_NGS6/NUX_NGS6_UserManual_English.pdf) returned eight PDF pages but no text. [Alternate original-PDF lead](https://manuals.plus/m/10d430209a345576a1a610aa2fc344772209d71a61bb7a68a025bf369bc22ed5_optim.pdf) likewise yielded no text; generated host summary not adopted. **Analog EXP socket, global volume, range, bypass/tail/looper coverage, footprint and controller wiring remain unverified**. No sibling specification or price transferred. Exact Shopee hardware offer, condition, stock and other full-profile fields remain open. No downloads or hardware operation.
