@@ -747,3 +747,7 @@ Helix Rack [electrical/body qualification](brand/LINE6.md#helix-rack--manufactur
 Helix Rack [loop-continuation limits](brand/LINE6.md#helix-rack--ir-import-and-conditional-loop-continuation): matching looper type andmono/stereo mode required acrosspresets;this doesnot establish globalEXP attenuation ofrecorded loops.
 
 Helix Rack [spillover-mode exception](brand/LINE6.md#helix-rack--spillover-trade-offs-and-snapshot-controls): True Preset Spillover excludes loop carryover. Matching loop type/channel is insufficient across all modes; external Control preset stepping remains separate from global EXP volume.
+
+### Fractal Axe-Fx III Mark II Turbo — partial no-treadle discovery
+
+[Exact-model lead](brand/FRACTAL-AUDIO.md#axe-fx-iii-mark-ii-turbo--partial-no-treadle-discovery), outside active counts: manufacturer20.x manual explicitly covers Turbo and documents direct analog PEDAL1/2 assignment to selected global input/output volumes. Preferred footprint fails. Endpoints, held-position recall, bypass and output coverage remain qualified; external FC foot controls are separate. Two exact Shopee offers are sold-out/preorder snapshots, not verified current stock.

@@ -6,6 +6,7 @@
 **Model and section index — A–Z, natural numeric order**
 
 - [AM4](#am4)
+- [Axe-Fx III Mark II Turbo — partial no-treadle discovery](#axe-fx-iii-mark-ii-turbo--partial-no-treadle-discovery)
 - [FC-6 Mark II and FC-12 Mark II — controllers](#fc-6-mark-ii-and-fc-12-mark-ii--controllers)
 - [FC-6 original — controller](#fc-6-original--controller)
 - [FC-12 original — controller](#fc-12-original--controller)
@@ -146,6 +147,40 @@ Checked **2026-11-03** in [manufacturer manual v1.0.2,2025-12-16,printed pp10–
 
 Input Pad choices are **0/6/12/18dB**, default12dB, with level compensation. Persistent clipping can increase the pad automatically; reboot restores the last manual value. Turning the pad control one step clears Auto to retain the selected setting. This is input-headroom management, not volume attenuation or analog-pedal recall. Current firmware behavior is untested.
 
+## Axe-Fx III Mark II Turbo — partial no-treadle discovery
+
+Checked **2026-11-03**. Exact manufacturer [Turbo store page][AX3-P] and [Mark II/Turbo product page][AX3-H] establish identity; not the original, standard Mark II, FM9 or an FC controller. **Partial lead outside active counts; ownership not inferred.** The [July2022 manual][AX3-M] explicitly covers Original/Mark II/Standard/TURBO, firmware20.x; current behavior is not assumed from that revision.
+
+| Field | Evidence / remaining limit |
+|---|---|
+| Instrument / chassis | Manufacturer names guitar/bass; 3U rack, no built-in treadle. [AX3-P] |
+| Display / navigation | Shared **800×480 color LCD**, Mark II IPS; diagonal/touch unknown. No onboard footswitches in manual panel inventory; optional FC-6/FC-12 supplies foot control and its own displays. Rack preset selection uses VALUE. [AX3-H];[manual pp15–16][AX3-M] |
+| Controls | **10 rotaries /0 feet /12 buttons**, power separate; six encoder pushes counted once. Text/specification inventory, visual check pending. [manual p114][AX3-M] |
+| Expression | Two local TRS inputs; **10–100kΩ linear**. Manualp12 describes tip supply/ring return/sleeve ground; calibrate CONTINUOUS mode. A TS single switch can instead use each socket; separate toe input unestablished. [AX3-M] |
+| Global volume | **p13:** MIDI/Remote→Other assigns local PEDAL1/2 directly to selected **Input1–4 or Output1–4 Volume**, without a per-preset Volume block. Input affects drive/gating; output scales tails. Not automatic control of all destinations. [AX3-M] |
+| Coverage / endpoints | Held-position recall, numeric global-volume range, bypass, USB and recorded-loop coverage unverified. Dedicated¼-inch phones monitor Output1; pedal attenuation there remains a routing inference, not a hardware test. [manual pp13,16][AX3-M] |
+| Body / mass | **482.6W×292.87D×131.1H mm**, including handles/rear jacks; **6.87kg**. Fails preferred200W×140Dmm. [AX3-H] |
+| Memory / processing | **1,024 presets,8 scenes,4 channels in most blocks**; factory filling unknown. Turbo clock25% above standard; not25% more effect slots. Current category census and simultaneous limits unresolved. [store][AX3-P], [product][AX3-H] |
+| Power | Manualp114: **90–264VAC,47–63Hz,<40W**. CR2032 is a backup battery, not established portable operating power; USB bus power unverified. [AX3-M] |
+| Editor / capture distinctions | Manufacturer lists **Axe-Edit III Mac/PC**,8×8 USB audio/MIDI, Tone Match and onboard cabinet IR capture. Editor OS minima, IR file limits, native/converted NAM and creative algorithm details unverified; cabinet capture is not arbitrary amp capture. [AX3-P] |
+
+### Separate IDR hardware offers
+
+| Offer | Ask / observed status | Qualification |
+|---|---|---|
+| [Hurtrock Music Store Bandung,11170212/27650728444][AX3-O1] | **Rp52.048.000,Habis** | Exact Mark II Turbo title. Search three-week snapshot; direct page three-day snapshot, both sold out. Kota Bandung; condition, working state, selected bundle, warranty and delivered total unknown. November3 delivery banner does not override Habis. |
+| [NID Media,8417449/43261004551][AX3-O2] | **Rp61.000.000,25-day preorder** | Five-month cached search/direct page; stale June29 estimate. Kota Sukabumi; condition, dispatch/import region, selected bundle, warranty and delivered total unknown. Not ready stock or a condition-qualified new/used range. |
+
+No late-delivery compensation deducted; no completed-sale inference. The Rp11.999 Pianeta Zero result is downloadable presets, not processor hardware. No local download, installation or device operation.
+
+Next: current exact-revision support, full I/O and effect census, factory allocation, editor requirements, global-volume coverage/endpoints, visual controls and condition/stock-qualified offers. Preserve independent LCD-first and GP-200JR→Prime→GE300 queues.
+
+[AX3-P]: https://shop.fractalaudio.com/products/axe-fx-iii-mkii-turbo-preamp-fx-processor
+[AX3-H]: https://www.fractalaudio.com/iii/
+[AX3-M]: https://www.fractalaudio.com/downloads/manuals/axe-fx-3/Axe-Fx-III-Owners-Manual.pdf
+[AX3-O1]: https://shopee.co.id/Fractal-AXE-FX-III-mark-II-Turbo-i.11170212.27650728444
+[AX3-O2]: https://shopee.co.id/Fractal-Audio-Systems-Axe-Fx-III-MKII-TURBO-Preamp-FX-Processor-Guitar-Effect-i.8417449.43261004551
+
 ## FC-6 Mark II and FC-12 Mark II — controllers
 
 Checked2026-10-31: [manufacturer exact Mark II page](https://www.fractalaudio.com/fc-controllers/) documents **six individual LCD mini displays on FC-6 Mark II** and **twelve on FC-12 Mark II**, one per switch. Published mini-display width×height is **50.0×17.5mm**, versus original36.0×12.5mm; these are not diagonal sizes. Both also have a separate2×20 transflective main display and colored switch rings.
@@ -226,7 +261,6 @@ Checked **2026-11-03**, [manufacturer manual v2.1,May2021,printedpp3–4,9,14,27
 | Controls / layout and preset overrides | Stand-In switches point to a layout/switch even when that layout isnot loaded. Config can disable **Per-Preset Switch Overrides**. This controls switch functions,not host global expression-volume assignment. |
 
 Controller remains outside active audio counts. Existing original display sizes,power discrepancy andhost dependence remain;qualified Shopee hardware andaudio-volume coverage are unresolved. No local download,device test orfirmware operation.
-
 
 ## FM3 MKII Turbo
 

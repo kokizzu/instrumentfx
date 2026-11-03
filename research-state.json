@@ -146746,5 +146746,39 @@
     "fully_verified": false,
     "next": "Factory fill,editor minima,loop persistence/export,visual controls,power/body conflicts,global EXP output coverage andqualified Shopee processor hardware. Preserve independent general andexpression queues.",
     "active_count_unchanged": 402
+  },
+  "axe_fx_iii_mkii_turbo_discovery_20261103": {
+    "model": "Fractal Audio Axe-Fx III Mark II Turbo",
+    "checked": "2026-11-03",
+    "canonical": "brand/FRACTAL-AUDIO.md#axe-fx-iii-mark-ii-turbo--partial-no-treadle-discovery",
+    "active": false,
+    "fully_verified": false,
+    "ownership": "Not inferred",
+    "manufacturer_sources": [
+      "https://shop.fractalaudio.com/products/axe-fx-iii-mkii-turbo-preamp-fx-processor",
+      "https://www.fractalaudio.com/iii/",
+      "https://www.fractalaudio.com/downloads/manuals/axe-fx-3/Axe-Fx-III-Owners-Manual.pdf"
+    ],
+    "manual_scope": "July2022,firmware20.x;explicitly Original/Mark II/Standard/TURBO",
+    "global_volume": "Local PEDAL1/2 to selected global Input/Output1–4;not blanket all-destination coverage. Endpoints/recall/bypass/USB/loop coverage unresolved.",
+    "offers": [
+      {
+        "shop": "11170212",
+        "item": "27650728444",
+        "ask_idr": 52048000,
+        "status": "Habis",
+        "access": "Search three weeks;direct three days;condition/bundle/checkout unknown"
+      },
+      {
+        "shop": "8417449",
+        "item": "43261004551",
+        "ask_idr": 61000000,
+        "status": "25-day preorder",
+        "access": "Five-month cache,stale June29 delivery;condition/dispatch/bundle/checkout unknown"
+      }
+    ],
+    "excluded_offer": "Pianeta Zero preset download28713236/24784627305,not hardware",
+    "next": "Current support,full I/O/effect census,factory fill,editor minima,global-volume coverage/endpoints,visual controls,qualified offers. LCD-first andindependent general queues retained.",
+    "active_count_unchanged": 402
   }
 }
