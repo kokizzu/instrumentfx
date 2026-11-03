@@ -144868,10 +144868,37 @@
         ],
         "qualification": "Ba Synth and 4VoiceSyn explicitly require single notes; other synth chord support is unverified. Some effects require 1.2; B1Xon pedal-pitch algorithms are excluded.",
         "owned": true
+      },
+      "BOSS::GM-800": {
+        "key": "BOSS::GM-800",
+        "brand_path": "brand/BOSS.md",
+        "heading": "GM-800",
+        "label": "BOSS GM-800",
+        "revision": "Parameter Guide eng02 ©2023, pp3–5,21,25–26,32–33,46–49; support articles updated June2024; firmware history through 1.50 July2026",
+        "sources": [
+          "https://www.boss.info/global/products/gm-800/",
+          "https://static.roland.com/assets/media/pdf/GM-800_ParameterGuide_eng02_W.pdf",
+          "https://support.roland.com/hc/en-us/articles/17092712558747-GM-800-How-do-I-mix-the-sound-of-the-normal-pickups-with-the-synth-tones",
+          "https://support.roland.com/hc/en-us/articles/26550155246747-GM-800-Why-my-guitar-bass-equipped-with-the-GK5-KIT-G7-GK5-KIT-G6-or-GK5-KIT-B-does-not-produce-a-synth-sound-or-normal-pickup-sound",
+          "https://www.boss.info/global/support/by_product/gm-800/updates_drivers/b191aadf-edff-48b6-8bee-86db3af5f533/"
+        ],
+        "synth": "ZEN-Core PCM/modeling instrument-tone engine: four Tone parts plus Rhythm. Guitar/bass performance uses compatible divided-pickup/Serial GK; MIDI tone triggering is a separate input path.",
+        "pitch": "Audio MFX PitchShiftr (stereo) and 2V PShifter (two generated voices), each coarse range −24…+12 semitones. Separate from part tuning, string transposition, alternate tuning and MIDI pitch bend; channel/voice count does not establish audio-input polyphony.",
+        "instrument": "Generated piano, EP, organ, orchestral and synth tones; these are instrument synthesis, not conventional electric-guitar audio acoustic simulation.",
+        "special": "Slicer, Step Filter, Humanizer, Ring Mod, DJFX Looper/BPM Looper short-buffer effects, Bit Crusher and Phonograph. Per-part MFX and scene FX1/FX2 are distinct processors.",
+        "limits": "GK IN is digital despite quarter-inch shape; ordinary analog guitar cable cannot directly drive it. GK-5/5B do not carry normal pickups. Compatible GK5 kits support normal-pickup output from1.10 (May2024): SYN/NORM splits synth/normal, NORM MIX mixes, STEREO suppresses normal. GK Audio added1.20 (Jan2025); detailed path/effects coverage remains unverified. 1.50 (July2026) adds Tracking Mode, not proof of installed firmware or measured latency.",
+        "matrix": [
+          "ZEN-Core tone engine; divided-pickup/GK or MIDI",
+          "PitchShiftr; 2V PShifter; separate note/tuning controls",
+          "Piano; organ; orchestral/synth instrument tones",
+          "Slicer; Step Filter; ring/vowel; short-loop; bit/vinyl effects"
+        ],
+        "qualification": "Requires compatible divided-pickup/Serial GK for guitar/bass synthesis; MIDI triggering is separate. Firmware-qualified normal-pickup/GK Audio paths exist, but no direct analog guitar input. Audio MFX polyphony and GK Audio effects coverage remain unverified.",
+        "owned": true
       }
     },
-    "publication_model": "Zoom::B1on",
-    "next_model": "BOSS::GM-800"
+    "publication_model": "BOSS::GM-800",
+    "next_model": "NUX::MG-300 MKII"
   },
   "hxstomp_own_category_census_20261103": {
     "model": "Line 6 HX Stomp",

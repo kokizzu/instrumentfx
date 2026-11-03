@@ -411,6 +411,7 @@ Checked **2026-10-16**. Original2026-10-14 facts above remain preserved; firmwar
 
 | Required field | Current evidence and limits |
 |---|---|
+| Synth / pitch / instrument simulation / special | ZEN-Core PCM/modeling instrument-tone engine: four Tone parts plus Rhythm. Guitar/bass performance uses compatible divided-pickup/Serial GK; MIDI tone triggering is a separate input path. Audio MFX PitchShiftr (stereo) and 2V PShifter (two generated voices), each coarse range −24…+12 semitones. Separate from part tuning, string transposition, alternate tuning and MIDI pitch bend; channel/voice count does not establish audio-input polyphony. Generated piano, EP, organ, orchestral and synth tones; these are instrument synthesis, not conventional electric-guitar audio acoustic simulation. Slicer, Step Filter, Humanizer, Ring Mod, DJFX Looper/BPM Looper short-buffer effects, Bit Crusher and Phonograph. Per-part MFX and scene FX1/FX2 are distinct processors. [Revision and restrictions](#gm-800--creative-effects-capability-check-2026-11-03). |
 | Expression | No built-in expression or toe switch. **Two shared CTL/EXP sockets**, up to four external switches or two expression pedals. [GM800-P] |
 | K/F/B | **6 /4 /10** retained from manufacturer inventory: OUTPUT LEVEL,SELECT and1–4 knobs; UP/DOWN,CTL1/2 footswitches;five PART,EXIT,WRITE,MENU,two PAGE buttons. Reference manual eng02 labels1–4 as buttons in prose, while startup guide/product list identifies knobs; retain that terminology discrepancy. [GM800-P], [GM800-M] |
 | Display | **256×80 graphic LCD**. Published diagonal,color depth and touchscreen specification unverified. [GM800-P] |
@@ -474,6 +475,20 @@ The complete five-model dedicated-effect archive was moved losslessly to [single
 [Complete preserved archive](../single-guitar.md#archive-sources).
 
 <!-- specialist page context ends -->
+
+### GM-800 — creative-effects capability check, 2026-11-03
+
+Parameter Guide eng02 ©2023, pp3–5,21,25–26,32–33,46–49; support articles updated June2024; firmware history through 1.50 July2026. Checked original manufacturer text; no device test. [Source 1](https://www.boss.info/global/products/gm-800/) · [Source 2](https://static.roland.com/assets/media/pdf/GM-800_ParameterGuide_eng02_W.pdf) · [Source 3](https://support.roland.com/hc/en-us/articles/17092712558747-GM-800-How-do-I-mix-the-sound-of-the-normal-pickups-with-the-synth-tones) · [Source 4](https://support.roland.com/hc/en-us/articles/26550155246747-GM-800-Why-my-guitar-bass-equipped-with-the-GK5-KIT-G7-GK5-KIT-G6-or-GK5-KIT-B-does-not-produce-a-synth-sound-or-normal-pickup-sound) · [Source 5](https://www.boss.info/global/support/by_product/gm-800/updates_drivers/b191aadf-edff-48b6-8bee-86db3af5f533/)
+
+| Field | Exact-model creative capability / qualification |
+|---|---|
+| Synth | ZEN-Core PCM/modeling instrument-tone engine: four Tone parts plus Rhythm. Guitar/bass performance uses compatible divided-pickup/Serial GK; MIDI tone triggering is a separate input path. |
+| Pitch / category choices | Audio MFX PitchShiftr (stereo) and 2V PShifter (two generated voices), each coarse range −24…+12 semitones. Separate from part tuning, string transposition, alternate tuning and MIDI pitch bend; channel/voice count does not establish audio-input polyphony. |
+| Synth / acoustic instrument tones | Generated piano, EP, organ, orchestral and synth tones; these are instrument synthesis, not conventional electric-guitar audio acoustic simulation. |
+| Special processing | Slicer, Step Filter, Humanizer, Ring Mod, DJFX Looper/BPM Looper short-buffer effects, Bit Crusher and Phonograph. Per-part MFX and scene FX1/FX2 are distinct processors. |
+| Architecture / firmware limitations | GK IN is digital despite quarter-inch shape; ordinary analog guitar cable cannot directly drive it. GK-5/5B do not carry normal pickups. Compatible GK5 kits support normal-pickup output from1.10 (May2024): SYN/NORM splits synth/normal, NORM MIX mixes, STEREO suppresses normal. GK Audio added1.20 (Jan2025); detailed path/effects coverage remains unverified. 1.50 (July2026) adds Tracking Mode, not proof of installed firmware or measured latency. |
+
+[Four-category comparison](../CREATIVE-EFFECTS.md). Owner-confirmed ownership.
 
 ## GS-10
 

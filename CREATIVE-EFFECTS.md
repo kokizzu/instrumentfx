@@ -23,6 +23,7 @@ Source checks: **2026-11-03**. Each linked canonical brand record contains exact
 | [Eventide H90](brand/EVENTIDE.md#h90) | PolySynth polyphonic; HotSawz mono; Synthonizer | Polyphony; PolyFlex; Prism Shift; mono Diatonic | Organ/Theremin-like synthesized tones; acoustic sim unverified | Granular quartet (1.12.5); freeze; resonator; arpeggiators |
 | [Original MOOER GE300](brand/MOOER.md#ge300) | Three-layer polyphonic SYNTH; normal pickup | Mono Pitch / Poly Pitch; Intelligent Harmony (3.0.1) | Acoustic1/2/3; separate guitar Tone Capture | Synth arpeggiators; Stutter; Lofi; Ring Mod |
 | [Zoom B1on](brand/ZOOM.md#b1on) | Ba Synth; StdSyn; SynTlk; V-Syn; 4VoiceSyn; Z-Syn | PitchSHFT; mono Ba Pitch; Ba Octave; HPS | Z-Organ; Defret; acoustic simulation unverified | Slicer; sequenced/random filters; RingMod; BitCrush; Bomber |
+| [BOSS GM-800](brand/BOSS.md#gm-800) | ZEN-Core tone engine; divided-pickup/GK or MIDI | PitchShiftr; 2V PShifter; separate note/tuning controls | Piano; organ; orchestral/synth instrument tones | Slicer; Step Filter; ring/vowel; short-loop; bit/vinyl effects |
 
 ## Limits that change the choice
 
@@ -31,5 +32,6 @@ Source checks: **2026-11-03**. Each linked canonical brand record contains exact
 - **[Eventide H90](brand/EVENTIDE.md#h90):** Two algorithms per Program. HotSawz’s six oscillators do not provide chord tracking; granular quartet requires 1.12.5. Installed firmware and tracking performance untested.
 - **[Original MOOER GE300](brand/MOOER.md#ge300):** Original GE300 only. Synth tracking stays first; FXA mono and FXB poly pitch differ. Harmony requires 3.0.1; NAM conversion into AMP does not expand the synth engine.
 - **[Zoom B1on](brand/ZOOM.md#b1on):** Ba Synth and 4VoiceSyn explicitly require single notes; other synth chord support is unverified. Some effects require 1.2; B1Xon pedal-pitch algorithms are excluded.
+- **[BOSS GM-800](brand/BOSS.md#gm-800):** Requires compatible divided-pickup/Serial GK for guitar/bass synthesis; MIDI triggering is separate. Firmware-qualified normal-pickup/GK Audio paths exist, but no direct analog guitar input. Audio MFX polyphony and GK Audio effects coverage remain unverified.
 
 The tables describe available algorithms, not a claim that every listed effect runs simultaneously. Dedicated single-purpose pedals remain in the [separate guitar archive](single-guitar.md); they do not increase active multi-effects counts.
