@@ -143904,5 +143904,16 @@
     "remaining": "Globalvolumeoverride,factoryVOLUMEdefaults,heldposition andheadphone/bypass/tail/loopcoverage unverified",
     "next": "Defer unchanged global-scope source gap;continueLCDfirst andremainingno-treadleinventory",
     "downloads": false
+  },
+  "stadium_xl_snapshot_return_conflict_20261103": {
+    "checked": "2026-11-03",
+    "sources": [
+      "https://manuals.line6.com/en/helix-stadium/live/global-settings",
+      "https://manuals.line6.com/en/helix-stadium/live/top-panel-and-footswitches"
+    ],
+    "finding": "Settings table: Manual stays in Snapshot; Automatic returns to previous mode. Top Panel Snapshot paragraph reverses this, while its Preset paragraph agrees. Reselecting the active preset reloads saved state and clears edits.",
+    "scope": "Live1.4documentation;notdevice-tested. SnapshotReselect separatefromPresetreload.",
+    "next": "ContinueLCDfirst/no-treadleinventory;deferunchangedShopee/accessgaps",
+    "downloads": false
   }
 }
