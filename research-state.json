@@ -148079,5 +148079,18 @@
     "scope": "Rig search restricted toactive setlist;14footswitchslots terminology conflicts12physical/14processing;blockpreset reuse separate.",
     "next": "OriginalGE300 independent general queue;Prime current inventory/storage/display/qualified offers remainopen.",
     "active_inventory_changed": false
+  },
+  "ge300_migration_label_scope_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html",
+    "revisions": [
+      "B2.0.0",
+      "V2.0.6",
+      "V3.0.1",
+      "V4.0.1"
+    ],
+    "scope": "Explicit user-data clearing in3.0.1/4.0.1 andreset2.0.6;betaCab.GNR label conflictsfinalAMP.GNR andGIRcabinet notes;notadditive capacities.",
+    "next": "Currentcategory/factory/scene/IRconversion gaps;fresh Shopee discovery after saved general pass;preserveLCD/expression queues.",
+    "active_inventory_changed": false
   }
 }

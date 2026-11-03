@@ -1684,6 +1684,15 @@ Checked **2026-11-03** in the [manufacturer’s original 2019 manual, printed p3
 
 The same historical table gives Mono/Poly Pitch **−12…+12 semitones**; the later4.0.1 Mono Pitch expansion to±24 remains separately documented above and is not transferred to Poly Pitch. Numeric pitch ranges do not establish tracking quality or chord support for Detune/Lofi. Current installed values remain untested.
 
+### GE300 — data-clearing revisions and beta sample-slot label conflict
+
+Checked **2026-11-04**, [manufacturer exact GE300 firmware history](https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html);release-specific text,not installed-device testing.
+
+- **V3.0.1** explicitly says the update clears **all user data** andrequires advance backup. **V4.0.1** repeats that scope andnames theBackup function. **V2.0.6** says it resets all data. These extend the already retained V1.2.0 capture incompatibility andV5.1.0 factory-reset notices;they do not prove every later update clears data. Preserving a backup doesnot establish cross-version compatibility of every capture orpreset.
+- The **B2.0.0 beta** addition labels50 locations **“Cab (.GNR)”**;the **V2.0.6** addition instead labels50 **AMP (.GNR)** sample locations,andits editor notes separately add **.GIR cabinet files**. Preserve the beta label conflict rather than treating.GNR as an interchangeable cabinet-IR format oradding both labels into100 slots. Later4.0.1 capacities remain separately documented as80MNRS/50IR.
+
+The currently exposed index still heads with5.1.4,not proof ofinstalled firmware. Source-file conversion rules,current category census,factory occupancy,drums/scene limits andqualified stock remain open. No backup,reset,update,download orfile conversion performed.
+
 ## GE300 Lite
 
 Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no sibling specifications adopted. [Own product page](https://www.mooeraudio.com/product/GE300Lite-239.html). Bass/vocal suitability remains unclassified.
