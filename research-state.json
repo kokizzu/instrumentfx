@@ -149083,5 +149083,39 @@
     "limits": "CPU-qualified;installed-library andintroduction firmware unverified. Tremolo retrigger/ducking is modulation;TenTap decay versusRhythmTap patternfeedback distinct;not performance looper/tail guarantee.",
     "next": "Continue remaining named category inventories andcurrent-firmware reconciliation,qualified hardware offers;preserve LCD-first,expression/general queues.",
     "active_inventory_changed": false
+  },
+  "fm9_mkii_reverb_hold_pitch_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 printed3,93–96;shared FM9 reference",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-mkii-turbo--reverb-hold-and-pitch-source-details",
+    "reference_types": 79,
+    "instances": 2,
+    "named_families": [
+      "Chamber",
+      "Cloud",
+      "Echo",
+      "Hall",
+      "Huge",
+      "Plate",
+      "Room",
+      "SFX",
+      "Spring"
+    ],
+    "named_census_complete": false,
+    "findings": [
+      "HOLD closes input;STACK admits layers",
+      "Plate excludes Pitch Position;Spring excludes pitch/modulation controls",
+      "FM3 Reverb pitch unavailable;no transfer fromFM9",
+      "Quality CPUtradeoff;wet-only EQ/ducking distinct fromglobalvolume"
+    ],
+    "remaining": [
+      "Complete79names/current-firmware mapping",
+      "Installed behavior andpreset-tail continuity",
+      "Globalvolume routecoverage",
+      "Qualified hardware stock"
+    ],
+    "next": "Continue remaining FM9 named categories andfirmware reconciliation;retain LCD-first,expression/general queues.",
+    "active_inventory_changed": false
   }
 }
