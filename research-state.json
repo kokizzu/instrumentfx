@@ -146945,5 +146945,16 @@
     "fully_verified": false,
     "active_count_unchanged": 402,
     "next": "Continue LCD-first current exact-model physical/firmware and qualified Shopee gaps;volume endpoints/recall/output coverage remain unresolved. General GP200JR→Prime→GE300 queue unchanged."
+  },
+  "prime_special_version_boundaries_20261103": {
+    "model": "HeadRush Prime",
+    "checked": "2026-11-03",
+    "source": "https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Prime%20Firmware%20Update%20Instructions%20v5.2.0.pdf",
+    "scope": "Cumulative5.2.0 October2026,printedpp6–10",
+    "canonical": "brand/HEADRUSH.md#prime--versioned-special-effects-and-organ-fixes",
+    "finding": "Named rhythmic/granular/convolution effects and organ behavior qualified by release;outgoing note messages do not prove incoming synth triggering.",
+    "fully_verified": false,
+    "active_count_unchanged": 402,
+    "next": "Current category census beyond webpage contradictions,input-note polyphony and latency,storage limits,exact display specifications,qualified Shopee condition/stock;preserve LCD-first/general queues."
   }
 }
