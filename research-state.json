@@ -148505,5 +148505,16 @@
     "next": "Retain AXOM manufacturer mini-screen census/technology and qualified Shopee gaps; continue other requested display processors when exact evidence is unavailable.",
     "active_inventory_changed": false,
     "independent_queues_preserved": true
+  },
+  "fm3_standin_pointer_20261104": {
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-mkii-turbo--stand-in-switch-pointers-and-display-access",
+    "sources": [
+      "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+      "https://www.fractalaudio.com/fm3-downloads/"
+    ],
+    "revision": "7.x,printed88;cover includes MKII Turbo. Current index still lists7.x alongside13.0;no device orcurrent-firmware equivalence test.",
+    "scope": "Stand-in pointer semantics;not extra mini displays orglobal-volume assignment.",
+    "next": "Continue requested individual-display processor remaining source gaps;retain independent GP-200JR -> Prime -> GE300 andexpression queues.",
+    "active_inventory_changed": false
   }
 }

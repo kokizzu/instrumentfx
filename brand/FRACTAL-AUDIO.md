@@ -771,6 +771,15 @@ Checked **2026-11-03**, [manufacturer Blocks Guide,November2026,printedpp55–56
 
 Preset-change continuity,power-cycle retention,physical-pedal recall andall-route expression attenuation remain unverified. No audio recorded,device connected orfiles downloaded.
 
+### FM3 MKII Turbo — stand-in switch pointers and display access
+
+Checked **2026-11-04** in the [manufacturer7.x manual,printedp88](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf),cover explicitly including Standard andMKII Turbo. The [current download index](https://www.fractalaudio.com/fm3-downloads/) still pairs that manual with13.0 firmware;this does not certify unchanged firmware13 behavior.
+
+- A **Stand-In** external switch selects a **Layout and Switch** to remote-control. It follows that programmed switch’s Tap/Hold andper-preset functions;editing the target changes the stand-in action too. It is a pointer,not an independent copied assignment.
+- The manual distinguishes this from ordinary external modifier/global-function assignments,which lack the same press-and-hold,bank/layout/tuner capabilities. Local jack configuration still determines which tip/ring sources exist;the feature does not add expression sockets,physical mini LCDs oruniversal volume assignment.
+
+Use the existing socket/wiring qualifications above. Actual display feedback at an external switch,current installed behavior anddefault factory mappings remain untested. No local download,controller transmission ordevice operation.
+
 ## FM3 original
 
 Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct from MKII Turbo; not fully verified and no ownership assertion. The earlier discovery heading and complete body follow as historical evidence. Their outside-inventory statements describe pre-admission checkpoints. This admission does not settle hardware variants, market availability or remaining specifications.
