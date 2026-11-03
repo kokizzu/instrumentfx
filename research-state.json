@@ -145365,5 +145365,22 @@
       "Notes do not add physical displays"
     ],
     "next": "Continue requested separate-screen processors; current Guide H census, user IR limits, exact screen specifications and qualified Shopee stock remain unresolved. Preserve independent research queues."
+  },
+  "stadium_spdif_matrix_scope_20261103": {
+    "model": "Line 6 Helix Stadium XL Floor",
+    "checked": "2026-11-03",
+    "source": "https://manuals.line6.com/en/helix-stadium/live/global-settings",
+    "revision": "Live1.4 Ins/Outs table; older navigation labels preserved",
+    "findings": [
+      "S/PDIF Direct Out or Matrix quarter-inch/XLR/Phones mirrors",
+      "Separate digital output level; usual0dB is not numeric range",
+      "S/PDIF sample-rate setting independent of USB audio"
+    ],
+    "limits": [
+      "S/PDIF rate choices and clock-source behavior unverified",
+      "No global analog-expression coverage inferred",
+      "No device test"
+    ],
+    "next": "Continue requested individual footswitch-screen processors and exact Shopee hardware discovery; Stadium XL power label, auxiliary screen specifications and qualified stock remain open. Preserve independent queues."
   }
 }
