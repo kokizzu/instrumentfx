@@ -114,6 +114,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [DigiTech GNX3000](brand/DIGITECH.md#gnx3000--partial-discovery-lead) is a **partial lead outside active counts and the51-record index**. Its original manual records shared pitch/Talker andChorus/Mod slots, including SynthTalk. Dedicated synth architecture and chord handling remain unverified; [original-guide acoustic processing and slot ranges](brand/DIGITECH.md#gnx3000--controls-and-original-effect-category-census) are now recorded separately. The cached used hardware offer does not establish current stock.
 
+[BOSS GT-6B](brand/BOSS.md#gt-6b--partial-bass-discovery-lead) is a **partial bass lead outside active counts and the51-record index**. Its original guide distinguishes single-note Square/Saw synth tracking from Brass/Bow input shaping; chord-capable Pitch Shifter modes from single-note Harmonist; and alternative FX2 selections from simultaneous effects. Defretter, Ring Mod and Auto Slap are documented; acoustic simulation remains unverified.
+
 ## What remains uncertain
 
 - Actual tracking quality, latency and installed firmware were not measured for these records.

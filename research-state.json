@@ -150064,5 +150064,31 @@
     "access": "FulloriginalPDFsize limit; indexedoriginal text available; matched originalpage18 mirror corroboration. Targeted Shopee noqualifiedexacthardware.",
     "active_inventory_changed": false,
     "next": "Continue independent GT-Pro13vs15countingbasis,otherUSBmodechannelcounts,visualcontrolcensus,globalFVprecedence andqualifiedIDR;requestedindividual-display priority remains."
+  },
+  "discovery_gt6b_20261104": {
+    "status": "partial lead outside active inventory; no ownership inference",
+    "canonical": "brand/BOSS.md#gt-6b--partial-bass-discovery-lead",
+    "sources": [
+      "https://www.boss.info/us/products/gt-6b/",
+      "https://www.boss.info/jp/products/gt-6b/",
+      "https://cdn.roland.com/assets/media/pdf/GT-6B_OM.pdf"
+    ],
+    "source_revision": "Owner manual copyright2002, pp27,33–43; exact current firmware unverified",
+    "finding": "Normal bass input; synth waveform/tracking, pitch note-handling and alternative-slot restrictions recorded in canonical section. Shared display, patch up/down, headphones, dimensions, AC supply and memory documented separately.",
+    "market": {
+      "query": "site:shopee.co.id \"BOSS\" \"GT-6B\"",
+      "result": "No qualified exact hardware offer; new/used IDR unknown; not market-absence claim"
+    },
+    "remaining": [
+      "full controls visual census",
+      "external expression wiring and global-volume scope",
+      "IR/NAM/editor support",
+      "complete effect census and simultaneous architecture",
+      "US/Japan XLR impedance conflict",
+      "manual p43 synth/noise-suppressor routing wording",
+      "qualified exact Shopee offers"
+    ],
+    "inventory_unchanged": 402,
+    "independent_cursor_preserved": "BOSS GT-Pro"
   }
 }

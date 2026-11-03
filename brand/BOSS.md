@@ -17,6 +17,7 @@ Canonical root brand profiles; all retain explicit verification gaps. Preserved 
 - [GT-3](#gt-3)
 - [GT-5](#gt-5)
 - [GT-6](#gt-6)
+- [GT-6B — partial bass discovery lead](#gt-6b--partial-bass-discovery-lead)
 - [GT-8](#gt-8)
 - [GT-10](#gt-10)
 - [GT-10B](#gt-10b)
@@ -1140,6 +1141,22 @@ Official2001manual84pages readaswebtext;printedpage=PDFindex+1. No downloads/ins
 [GT6-P]: https://www.boss.info/global/products/gt-6/
 [GT6-M]: https://static.roland.com/assets/media/pdf/GT-6_OM.pdf
 [GT6-O]: https://shopee.co.id/EFEK-GITAR-BOSS-GT6-BEKAS-i.75325664.2875627315
+
+## GT-6B — partial bass discovery lead
+
+Checked 2026-11-04; discontinued exact-model bass multi-effects. **Partial lead outside the 402 active records; ownership not established.** Not GT-6 guitar. Sources: [US manufacturer](https://www.boss.info/us/products/gt-6b/), [Japan manufacturer](https://www.boss.info/jp/products/gt-6b/), [original owner manual, ©2002](https://cdn.roland.com/assets/media/pdf/GT-6B_OM.pdf). Manual evidence does not identify installed/latest firmware.
+
+| Field | Verified finding / qualification |
+|---|---|
+| Input/expression | Ordinary bass input; built-in expression and toe switch; shared SUB EXP/SUB CTL1,2. External wiring and global-volume assignment remain unverified. |
+| Controls/headphones | Japan text names Number1–4, Patch Up/Down and Bypass/CTL; toe switch separate. Fifteen advertised panel knobs are not a complete rotary census. Visual switch/button counts pending. PHONES present; onboard patch up/down documented separately. |
+| Display/memory | Shared backlit16×2-character LCD plus two-character7-segment LED; individual footswitch LCDs not established. Diagonal/color/touch unknown. 120 patches:80 user+40 preset; initial user fill/protection unverified. |
+| Size/power | 515W×261D×75H mm;4.7kg excluding adapter. Exceeds200×140mm preference. AC14V BRC adapter,800mA; not9VDC. DC polarity inapplicable to specified AC supply; plug size/battery/USB operation unverified. |
+| Ports | INPUT; OUTPUT L/MONO,R; PHONES; XLR L/MONO,R/DIRECT; coax digital out; SUB EXP/SUB CTL1,2; MIDI IN/OUT; adapter. No USB listed; no USB-audio inference. |
+| Source conflict | US XLR impedance600kΩ/300kΩ versus Japan600Ω; retained unresolved rather than silently corrected. |
+| Market/software | No qualified exact Shopee Indonesia hardware offer from this search; new/used IDR unknown, not evidence of market absence. Editor platforms, IR/NAM/capture and remaining category census unverified. |
+
+Creative processing: manual pp33–43 separates FX1 and FX2 alternatives. Bass Synth Square/Saw tracks single notes; Brass/Bow shapes input, with single-note attack detection when Attack Trig is on. Chord support otherwise remains unverified. Synth Hold applies to Square/Saw. Pitch Shifter spans±24 semitones: Fast/Medium/Slow accept chords; Mono and Harmonist require single notes. Slow modes trade response for reduced modulation. FX1 includes Octave, Enhancer, Slow Gear, Defretter and Ring Mod; FX2 alternatives include Harmonist, Pitch Shifter, Pedal Bend, Auto Slap, Humanizer and Bass Synth. These are not all simultaneous. Defretter is distinct from acoustic simulation, which remains unverified. Manual p27 places Sound On Sound as an alternative in REV/DLY/SOS, not a free additional looper block. Tracking quality/latency were not measured. Synth/NS placement prose on p43 appears internally inconsistent; no corrected routing recipe is inferred.
 
 ## GT-8
 
