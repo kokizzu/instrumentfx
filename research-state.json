@@ -148569,5 +148569,13 @@
     "scope": "Shared-screen modes and separate display timeout; no touch, individual LCD or audio-sleep inference.",
     "next": "Continue Prime then original GE300 in independent general queue; retain JR IR conversion, NAM architecture, toe/touch/power and qualified-offer gaps. Root GT-Pro and display/expression queues unchanged.",
     "active_inventory_changed": false
+  },
+  "prime_usb_midi_port_conflict_20261104": {
+    "canonical": "brand/HEADRUSH.md#prime--original-usb-midi-port-contradiction",
+    "source": "https://cdn.inmusicbrands.com/HeadRush/prime/HeadRush%20Prime%20-%20User%20Guide%20-%20v1.0.pdf",
+    "revision": "Prime1.0.0 printed8/59; cover and final footer identify1.0.0.",
+    "finding": "Rear panel USB-A class-compliant MIDI conflicts with USB-B in external MIDI chapter. Preserve both; newer5.2 USB-A evidence is separate. No proven USB-B host.",
+    "next": "Original GE300 next in independent general queue; retain Prime OLED numeric specifications, rig ceiling, current library and qualified stock gaps. LCD and expression queues unchanged.",
+    "active_inventory_changed": false
   }
 }
