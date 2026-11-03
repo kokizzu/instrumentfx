@@ -147491,5 +147491,28 @@
     ],
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "mini_press_separate_circuits_20261104": {
+    "model": "Hotone Ampero Mini MP-50",
+    "checked": "2026-11-04",
+    "sources": [
+      "https://hotoneaudio.oss-cn-shenzhen.aliyuncs.com/prod/support/Ampero%20Press_Manual_EN_V01.1649233215371.pdf",
+      "https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf",
+      "https://shopee.co.id/Hotone-MP-50MC-Ampero-Mini-Multieffects-Pedal-w-9V-adapter-Macha-i.799119783.29769916384"
+    ],
+    "canonical": "brand/HOTONE.md#ampero-mini--recommended-pedal-audio-and-expression-separation",
+    "revision": "SP30 manual title V02 220322 despite V01 URL;2pages",
+    "finding": "Separate 100k audio volume and10k TRS expression can operate simultaneously;not Mini global assignment",
+    "access": "Mini2.2 PDF timeout;schematic screenshot no inspectable image;wiper unverified",
+    "offer": "Macha same Rp4315000 three-week cache;PRELOVED inaccessible;no refreshed live stock",
+    "remaining": [
+      "Actual M-VAVE controller identity and wiring",
+      "SP30 schematic contacts",
+      "Mini global volume override and factory enable defaults",
+      "Volume endpoints/recall/bypass/phones/tails/loops"
+    ],
+    "next": "Retain Mini global-volume Unknown;continue other accessible unresolved items without waiting on this PDF or controller identity",
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }

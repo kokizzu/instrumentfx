@@ -738,6 +738,19 @@ Checked **2026-11-03** in the [manufacturer V1.0 manual reproduction](https://ma
 
 Existing AC Sim,Acoustic Refiner,acoustic IRs andAMP preamps retain their different roles. Pitch Shift/Classic PS note-handling qualifications remain in the newer record. Tracking quality,exact current parameter mapping andglobal EXP/output coverage remain unresolved. No local download,software installation ordevice operation.
 
+
+### Ampero Mini — recommended pedal audio and expression separation
+
+Checked **2026-11-04** against the manufacturer [original SP-30 Ampero Press manual](https://hotoneaudio.oss-cn-shenzhen.aliyuncs.com/prod/support/Ampero%20Press_Manual_EN_V01.1649233215371.pdf),two pages. Its document title identifies **V02,220322**,despite the V01 URL. The existing Mini V2.2 recommendation remains separately sourced;this is not Ampero II Press or the25kΩ edition.
+
+| Field | Controller-specific evidence / host qualification |
+|---|---|
+| Expression / separate passive audio circuit | SP-30 specifies **100kΩ audio-volume** and **10kΩ expression** potentiometers. Mono¼-inch INPUT/OUTPUT carry audio;separate¼-inch TRS EXP OUT controls a compatible host. The manual expressly permits **simultaneous audio-volume and expression use**. Audio-volume wiring is not an automatic EXP-to-volume assignment inside Mini. |
+| Expression / recommended controller footprint | **SP-30:81W×162D×51H mm,430g**,not Mini chassis dimensions or an assertion about this owner’s controller. These figures describe an optional separate pedal;the134×120mm processor footprint stays unchanged. |
+| Expression / unresolved electrical boundary | Text labels tip/ring/sleeve but the schematic screenshot supplied no inspectable image. **Wiper/polarity remain unverified**;do not derive them from jack labels or the separate100kΩ audio circuit. Actual M-VAVE identity/wiring,Mini all-preset VOLUME assignment,minimum/mute,position recall,bypass,phones,tails andloop coverage remain unresolved. |
+
+The Mini2.2 PDF again timed out. Reopened Swee Lee Macha item799119783/29769916384 repeats Rp4.315.000 in a three-week cache;PRELOVED item87936304/46555574691 remains inaccessible. Existing condition/stock/bundle qualifications remain;no new live offer. No local download,connection ordevice operation.
+
 <!-- comparison evidence ends -->
 
 All asks are separate dated observations, not a new/used range. Unless explicitly established, stock, warranty region, authenticity, adapter/bundle details, shipping/tax, vouchers and checkout total remain unknown. Late-delivery compensation is not an upfront discount. Full observations and sources follow.
