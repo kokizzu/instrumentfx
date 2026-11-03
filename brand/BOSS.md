@@ -3864,7 +3864,9 @@ Checked **2026-10-16**; fresh manual checks qualify the original facts above.
 | Dimensions / weight / size | **443×220×67 mm**, maximum height93 mm; **2.9 kg including batteries**. Large. [ME90-P] |
 | Simultaneous processing / category choices | Dedicated preamp plus seven effect sections, with noise suppression and volume utilities. 11 onboard amps,60 onboard effects and20+ alternate app selections retained; specification97 types uses different inclusion rules. Eleven PEDAL FX choices retained; complete current category subtotals and explicit maximum simultaneous count need checking. [ME90-P] |
 | Factory / user / total memory | **36 preset +36 user =72**. [ME90-P] |
-| Synth / acoustic | Acoustic simulation documented; dedicated synth engine unestablished. Do not infer from another ME processor. [ME90-P] |
+| Synth / acoustic | AC SIM,DEFRETTER andpickup conversions documented. OVERTONE adds harmonics;HUMANIZER/VOICE arevoice-like processing;dedicated synth unestablished. [Exact guide distinctions](#me-90--creative-algorithms-and-note-handling). |
+| Pitch / note handling | POLY OCTAVE explicitly polyphonic;HARMONIST andpedal±1/±2octave bends single-note. PITCH SHIFT,TUNE DOWN,S-BEND have separate restrictions/unknowns. [Own parameter guide](#me-90--creative-algorithms-and-note-handling). |
+| Processing / creative section limits | COMP/FX1 alternatives includeAC SIM,DEFRETTER,OCTAVE,TUNE DOWN,S-BEND,FEEDBACKER,HUMANIZER;ToneStudio substitutes POLY OCTAVE/RING MOD. MOD andEQ/FX2 pitch choices remain shared-section alternatives;PEDAL FX includesFREEZE. [Exact scope](#me-90--creative-algorithms-and-note-handling). |
 | IR / NAM / capture | **3 user IR slots**, empty at factory; select/store original cabinet or USER1–3 per patch using separate IR Loader. Native NAM, converted NAM and proprietary capture imports unestablished; exact IR format/rate/depth/length still unverified. [ME90-M] |
 | Audio / control I/O | Mono quarter-inch INPUT; two quarter-inch outputs; mono SEND/RETURN;3.5 mm PHONES;USB-C; dedicated BT-DUAL connector;DC. No XLR DI or external CTL/EXP socket listed. [ME90-P] |
 | Power / battery / USB power | Four AA or optional PSA adapter; **190 mA draw** retained. Manufacturer includes batteries, adapter sold separately. DC voltage/polarity and USB bus power remain unverified. [ME90-P] |
@@ -3887,6 +3889,18 @@ Checked **2026-10-16**; cached exact hardware text is not live checkout/stock. C
 
 [ME90-P]: https://www.boss.info/global/products/me-90/
 [ME90-M]: https://static.roland.com/assets/media/pdf/ME-90_reference_eng01_W.pdf
+
+### ME-90 — creative algorithms and note handling
+
+Checked **2026-11-03** in [manufacturer Parameter Guide,01,copyright2023,pp2–4,6–8,14–16,18](https://static.roland.com/assets/media/pdf/ME-90_parameter_eng01_W.pdf). Firmware introduction/current installed version unstated.
+
+**POLY OCTAVE** explicitly accepts polyphonic input. **HARMONIST** andPEDAL FX±1/±2octave bends require single notes. **PITCH SHIFT** spans±2octaves;**TUNE DOWN**−12…0semitones;**S-BEND**−3…+4octaves. Their remaining note-handling/latency isunverified.
+
+**AC SIM** converts electric-to-acoustic;**DEFRETTER** simulates fretless guitar;Single>Hum/Hum>Single changepickup character. **OVERTONE** adds harmonics,**HUMANIZER/VOICE** voice-like tones,**RING MOD** combines oscillator andguitar. These do not establish dedicated tracking synthesis. **SLOW GEAR,FEEDBACKER,FREEZE** provide swell,feedback andsustain.
+
+COMP/FX1 choices shareone section;ToneStudio replaces itsS-BEND position withPOLY OCTAVE,RING MOD orother alternatives perpatch. MOD housesPITCH SHIFT/HARMONIST/OVERTONE;EQ/FX2 canreplaceEQ withthese. PEDAL FXFREEZE replaces itsother modes. Catalogueavailability isnot simultaneousavailability. PresetnameSYNTHY LEAD doesnot prove a synth engine.
+
+ExactShopee search resurfaced existingElevenMusic12356205/25352150117Rp7,450,000,last-monthcache;no freshcondition/stock certification. Earlieroffers retained. No localdownload ordeviceoperation.
 
 ## ME-90B
 
