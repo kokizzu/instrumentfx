@@ -768,6 +768,6 @@ GFX-1 [control and navigation follow-up](brand/ZOOM.md#gfx-1--controls-selector-
 
 ### Zoom 4040 — partial built-in-pedal exclusion
 
-[Original-manual lead](brand/ZOOM.md#4040--partial-discovery-lead) has two built-in treadles and exceeds the footprint preference. Its patch-stored volume minimum and pre-modulation placement do not establish universal output muting. MANUAL is a footswitch connection. Outside active counts and the no-treadle shortlist; no qualified Indonesian hardware ask established.
+[Original-manual lead](brand/ZOOM.md#4040--partial-discovery-lead) has two built-in treadles and exceeds the footprint preference. Its [minimum volume is global and saved with any patch](brand/ZOOM.md#4040--global-minimum-versus-patch-expression-selection);pre-modulation placement still does not establish universal output muting. MANUAL is a footswitch connection. Outside active counts and the no-treadle shortlist; no qualified Indonesian hardware ask established.
 
 Original FM9 [conditional output copies](brand/FRACTAL-AUDIO.md#fm9-original--conditional-output-copies-and-usb-levels) exclude USB from Output2 copy and depend on absent destination blocks. Copying audio is separate from global pedal assignment and does not establish all-source attenuation. Original/Turbo3.x documentation; current firmware untested.

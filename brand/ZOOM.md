@@ -593,7 +593,7 @@ Checked **2026-11-04** in the [original manufacturer operation manual](https://z
 
 | Field | Evidence / remaining qualification |
 |---|---|
-| Expression | Two built-in treadles, VOL and EXP; roles can be swapped. VOL sits between EQ and MODULATION; minimum is patch-stored. Not a no-treadle candidate or universal final-output mute. External analog assignment/toe support unknown. |
+| Expression | Two built-in treadles, VOL and EXP; roles can be swapped. VOL sits between EQ and MODULATION; **MINIMUM VOLUME0–10 is global**,persisted when any patch is saved (pp21–22). Not a no-treadle candidate or universal final-output mute. External analog assignment/toe support unknown. |
 | Processing / memory | Advertised25types/up to6effects; specification says5modules. The menu census below reconciles25 choices; the six-effects counting basis remains qualified. **40User+40Preset=80locations**; current used-unit filling unknown. |
 | Controls / display | Text-derived **1 rear volume rotary,6footswitches** (bank±,1–4); separate-button census pending. **Two-character seven-segment LED**,not LCD; diagonal unknown. |
 | Ports / headphones | Mono instrument input,mono send/return,stereo L/R outputs,6.35mm stereo phones,MANUAL footswitch input,amp-control output,MIDI OUT,DCin. Rear volume adjusts mains/phones;specified headphone power35mW into32Ω. MANUAL accepts FS01,not documented analog EXP. |
@@ -603,6 +603,12 @@ Checked **2026-11-04** in the [original manufacturer operation manual](https://z
 **Complete named type census (printed pp10,13):** PRE8—Clean1/2,Overdrive1/2,Distortion1/2,Lead,Metal; EQ4—Equalizer,Amp Simulator,Auto Wah,Pedal Wah; MODULATION8—Pedal Pitch,Pitch Shifter,Flanger,Phaser,Tremolo,Step,Slow Attack,Chorus; DELAY2—Mono,Pingpong; REVERB3—Hall,Room,Delay. **8+4+8+2+3=25 selector choices**, not25 simultaneous effects. One type is selected per module. Synth/acoustic simulation and input-note polyphony remain unverified; Amp Simulator does not establish an acoustic simulator.
 
 No qualified exact **Shopee Indonesia hardware offer** found; separate used/new IDR,condition,bundle,stock,warranty anddelivered total unknown. Exact creative parameters,IR/NAM/capture,editor platforms,looper/drums andremaining electrical/control fields require verification. No sibling specifications,downloads ordevice operations.
+
+### 4040 — global minimum versus patch expression selection
+
+Checked **2026-11-04**, [manufacturer operation manual,printedpp21–22,25](https://zoomcorp.com/media/documents/E_4040.pdf),same undated edition. Page22 explicitly defines **MINIMUM VOLUME as global,0–10**,with0 giving silence at the raised VOL position. Saving **any patch** persists it;powering off without that save restores its default. This corrects the earlier incomplete “patch-stored” summary. Page25’s “part of a patch” wording is retained as a wording difference;its save-any-patch procedure agrees with the explicit global instructions.
+
+By contrast, **EXP.SELECT0–5 is per patch**:Off/PRE/EQ/MODULATION/DELAY/REVERB,andunavailable/off modules cannot be chosen. TOTAL therefore contains both global andpatch parameters. These are built-in treadle functions,not a verified direct external-volume role. VOL remains before modulation/delay/reverb;global range does not establish tail,phone,bypass orlooper muting. No device test.
 
 ## A1 FOUR
 
