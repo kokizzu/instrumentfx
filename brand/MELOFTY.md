@@ -248,3 +248,15 @@ Checked **2026-11-03** in the [German V1.7.4 manufacturer manual,PDFp49](https:/
 The global input page separately selects GUITAR IN or MIC/LINE IN. It documents input-level adjustment and global noise suppression across presets,adjustable guitar-input impedance,and microphone preamp GAIN with switchable **48V phantom power**. Numeric gain/impedance ranges are not established here. Input-level adjustment does not prevent overload distortion from an excessively strong source.
 
 These are input controls,not proof of external EXP3 global-volume assignment orcoverage of headphones,USB,loops andtails. Mini-screen technology/manufacturer count andqualified Indonesian offers remain open;this partial lead stays outside active counts.
+
+### AXOM MAX — MIDI bank allocation and note-direction boundary
+
+Checked **2026-11-03** in the [German V1.7.4 manufacturer manual, PDF pp40–41,44–45,47–49](https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347). Original text; English endpoint unavailable.
+
+| Field | Revision-qualified evidence / boundary |
+|---|---|
+| Memory / default MIDI address map | Banks **0=FACTORY 1, 1=FACTORY 2, 2=USER 1, 3=USER 2** each map **PC0–125 to 01A–42C**: 126 locations. The advertised 504 locations are not 504 separately established user slots. Named maps do not certify factory filling, blank allocation or write protection; PC mappings are customizable. |
+| MIDI / note direction and forwarding | Command matrix supports **Note receive, not Note send**; PC, CC and Clock are bidirectional. Separate **MIDI THRU** forwards incoming data through OUT. This does not establish guitar-to-MIDI note generation, DeepSynth note-trigger routing or input-note polyphony. |
+| MIDI / learned control addresses | CC Learn is **empty by default**; users assign addresses. Bank-selection values 0–3 and EXP1/2/3 targets are functions, not fixed CC numbers or global-volume assignments. |
+
+Mini-display manufacturer count/technology, qualified Shopee hardware and current-firmware equivalence remain unresolved. Partial lead stays outside active counts; no local download, MIDI transmission or device operation.

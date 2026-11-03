@@ -145791,5 +145791,22 @@
     "limits": "No full host resistance range,M-VAVE compatibility,toe-switch transfer orglobal all-preset volume inferred;host article has older menu wording.",
     "next": "Current XL power-label rating,OLED physical/color specs,volume output coverage andqualified Shopee condition/stock remain open. Separate independent general/expression queues unchanged.",
     "inventory_changed": false
+  },
+  "axom_max_midi_memory_direction_20261103": {
+    "model": "MELOFTY AXOM MAX",
+    "checked": "2026-11-03",
+    "source": "https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347",
+    "revision": "German V1.7.4,PDFpp40–41,44–45,47–49",
+    "default_banks": {
+      "0": "FACTORY1",
+      "1": "FACTORY2",
+      "2": "USER1",
+      "3": "USER2"
+    },
+    "map": "Each126locations:PC0–125 ->01A–42C;customizable. Factory-filled/blank/writability notcertified.",
+    "direction": "NoteRXyes/TXno;PC/CC/Clockboth. Thru forwarding separate from generated note transmission;no guitar-to-MIDI inference.",
+    "cc": "Learn emptybydefault;bank function values0–3 are notfixed CCnumbers.",
+    "next": "Manufacturer/visual mini-screen count/technology andqualified Indonesian hardware remain prioritized;retain partialoutsidecounts status. Preserve independent research queues.",
+    "inventory_changed": false
   }
 }
