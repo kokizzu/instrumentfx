@@ -145435,5 +145435,28 @@
       "No download,restore ordevice operation"
     ],
     "next": "Continue requested separate-screen evidence when accessible;independent compact Nano LEVEL/global-volume question remains unresolved. Preserve expression,general GP-200JR→Prime→GE300 andGT-Pro queues."
+  },
+  "gp50_midi_input_switch_scope_20261103": {
+    "model": "Valeton GP-50",
+    "checked": "2026-11-03",
+    "source": "https://manuals.plus/m/62ee73765be68fba94241219c8e998d6763ec022993418a85a41cc932830b64d.pdf",
+    "revision": "Manufacturer1.0.5,printed22–23",
+    "findings": [
+      "MIDI TRS/USB/Mixed input;independent Omni/1–16 receive channels",
+      "MIDI IN unchanged through THRU;USB merging not specified",
+      "ExternalFS3single/left,FS4right roles;9function choices"
+    ],
+    "limits": [
+      "No pinout/typeA-B/polarity orswitch-type certification",
+      "No1.1.0 assignment scope verified",
+      "No downloads/device operations"
+    ],
+    "current_effect_list_lead": {
+      "entry": "https://www.valeton.net/wpfd_file/gp-50_effect-list_en_firmware-v1-1-0-pdf/",
+      "date": "2026-08-26",
+      "linked_body": "https://res.diversitone.com/Uploads/wp/download/1787706039757.GP-50_Effect%20List_EN_Firmware%20V1.1.0.pdf",
+      "access": "Body inaccessible;not adopted as a verified inventory"
+    },
+    "next": "Defer inaccessible exact1.1.0 manual/effect list;continue other requested display/compact models;preserve independent GP-200JR→Prime→GE300 andGT-Pro queues."
   }
 }

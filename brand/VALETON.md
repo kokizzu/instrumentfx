@@ -1063,6 +1063,14 @@ GP-50 expression settings,live footswitch/order/tempo changes,reading anunselect
 
 The author describes NAM A1/A2→**SnapTone conversion**,not native NAM playback. No software,dependencies,presets ormodels downloaded orrun;no driver changes orUSBcommands sent. Official Suite support,unreadable1.1.0 documentation andunknown all-preset analog-volume scope remain separate.
 
+### GP-50 — MIDI input selection and external-switch roles
+
+Checked **2026-11-03** in the [manufacturer firmware1.0.5 manual reproduction, printedpp22–23](https://manuals.plus/m/62ee73765be68fba94241219c8e998d6763ec022993418a85a41cc932830b64d.pdf), exact-model cover and panel identity established above. Current1.1.0 manual and effects-list bodies remain inaccessible; no later-version equivalence inferred.
+
+MIDI In Source selects **TRS, USB or Mixed(default)**. Mixed receives both; TRS and USB each have their own receive-channel setting, **Omni(default) or1–16**. The manual says data received at MIDI IN is forwarded unchanged through MIDI THRU. It doesnot establish USB-to-THRU merging or TRS TypeA/B wiring.
+
+In Single FS/Dual FS socket modes, external functions are **None, Preset+, Preset−, TAP, Tuner, Looper, Drum, Drum+, Drum−**. FS3 denotes the single/left switch and FS4 the dual controller’s right switch. These logical roles do not specify electrical polarity, tip/ring contacts, momentary/latching requirements or simultaneous analog EXP plus switches. The direct analog all-preset volume verdict remains unknown. No download, MIDI message or device operation.
+
 ## GP-100
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
