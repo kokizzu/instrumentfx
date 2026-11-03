@@ -143948,5 +143948,19 @@
       "delivered checkout total"
     ],
     "next": "Continue remaining no-treadle inventory and requested LCD gaps;do not reclassify PocketMaster as foot-operated or analog-EXP capable"
+  },
+  "gp200jr_save_loop_tuner_20261103": {
+    "checked": "2026-11-03",
+    "source": "https://www.valeton.net/download/121/gp-200jr/22452/gp-200jr_online-manual_en_firmware-v1-8-0-pdf.pdf",
+    "printed_pages": [
+      6,
+      10,
+      11,
+      12
+    ],
+    "revision": "Previously saved manufacturer firmware1.8.0 manual;no new download or device operation",
+    "finding": "EXP edits do not trigger save reminders;series FX loop silent without external connection;Return cannot precede Send;tuner dry bypass/mute and432–447Hz reference qualified.",
+    "remaining": "Current firmware equivalence,output coverage,NAM architecture/concurrency andqualifiedstock remain unresolved",
+    "general_next": "HeadRush Prime,then MOOER GE300;independent LCD/no-treadle priorities retained"
   }
 }
