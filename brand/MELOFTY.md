@@ -354,3 +354,9 @@ Checked **2026-11-04**, [manufacturer German V1.7.4 manual,PDFp21](https://shop.
 - **SET LIST/POSITION** selects the save destination. SAVE confirms; close/HOME cancels. This documents preset storage, not a whole-device backup or verified factory-bank write permissions.
 
 Importer-backed nine mini displays remain qualified. Manufacturer physical census, LCD/OLED technology, full algorithm inventory, current firmware and exact Shopee Indonesia hardware remain unresolved; partial lead stays outside active counts. English-manual retrieval failed again today; earlier successful readings remain dated evidence. No local download or device operation.
+
+### AXOM MAX — capture-EQ revision conflict
+
+Checked **2026-11-04**. The [manufacturer German V1.7.4 manual](https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347), currently rendered as63 PDF pages, explicitly specifies a **10-band EQ** for manual refinement of an MFIM capture on PDFpage33 (zero-based32). Earlier pagination observations remain historical.
+
+[Thomas Dill’s Bonedo review,2026-10-21](https://www.bonedo.de/artikel/test-melofty-axom-max-konkurrenz-fuer-line-6-neural-kemper-und-co/), lists tested firmware1.9.0 and describes a **12-band EQ** after capture. This independent report conflicts with the manufacturer manual; neither a firmware expansion nor a reviewer error is established. Preserve both counts with their provenance. This is capture refinement, not the separate output-global EQ or an additional simultaneous effects block. Exact current firmware behavior remains unresolved; no device test, download or inventory admission.

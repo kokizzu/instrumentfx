@@ -148643,5 +148643,25 @@
     "qualification": "Non-Shopee linked hardware title; New/Sale badges not condition verification. Variant, electrical region, bundle, stock, firmware, warranty and delivered total unknown. No savings calculation.",
     "next": "Continue priority individual-switch-display research and exact Shopee hardware verification. GuideH current census/IR file limits/global expression coverage remain open; independent GT-Pro and general queues unchanged.",
     "active_inventory_changed": false
+  },
+  "axom_capture_eq_conflict_20261104": {
+    "checked_date": "2026-11-04",
+    "canonical": "brand/MELOFTY.md#axom-max--capture-eq-revision-conflict",
+    "manufacturer": {
+      "url": "https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347",
+      "revision": "V1.7.4",
+      "rendered_pdf_pages": 63,
+      "eq_pdf_page_one_based": 33,
+      "bands": 10
+    },
+    "independent_review": {
+      "url": "https://www.bonedo.de/artikel/test-melofty-axom-max-konkurrenz-fuer-line-6-neural-kemper-und-co/",
+      "published": "2026-10-21",
+      "tested_firmware": "1.9.0",
+      "bands": 12
+    },
+    "status": "Unresolved source/revision conflict; not proof of firmware expansion or reviewer error. Capture refinement is separate from output global EQ.",
+    "next": "Seek manufacturer firmware notes or a current original capture guide resolving 10 versus 12 bands; preserve independent queues and partial status.",
+    "active_count_unchanged": 402
   }
 }
