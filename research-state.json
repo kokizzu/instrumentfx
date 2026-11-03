@@ -29,7 +29,7 @@
   },
   "cursor": {
     "model": "BOSS GT-Pro",
-    "task": "GT-Pro documented200User initial-name census complete. Continue13vs15basis,otherUSBmodes,visualcontrols,globalFVprecedence andqualifiedIDR independently; individual LCD-at-footswitch models take research priority.",
+    "task": "GT-Pro200User census complete;ownmanualp10 now confirms15simultaneous claim andWindows p123 endpoints checked. Continue13vs15countingbasis,otherUSBmodechannelcounts,visualcontrols,globalFVprecedence andqualifiedIDR independently;individual LCD-at-footswitch models takepriority.",
     "next_models": [
       "BOSS::GT-Pro"
     ],
@@ -149539,5 +149539,30 @@
     ],
     "active_inventory_changed": false,
     "next": "Continue requested separate-footdisplay model fields andqualified exactShopee hardware;FM3 Pitch reference census complete;preserve independent GT-Pro/general andexpression queues."
+  },
+  "gtpro_owner_count_windows_endpoints_20261104": {
+    "checked": "2026-11-04",
+    "model": "BOSS GT-Pro",
+    "sources": [
+      {
+        "url": "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+        "pages": "10",
+        "finding": "Original manual explicitly15simultaneous,notjust15reorderable;13specificationbasis unresolved"
+      },
+      {
+        "url": "https://cdn.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+        "pages": "123",
+        "finding": "HistoricalWDM/MME/ASIO audio endpoints separated fromControl MIDI/SysEx endpoint;namesnotchannelcensus"
+      }
+    ],
+    "remaining": [
+      "13vs15 counting basis",
+      "Other USB-mode channel counts",
+      "Visual panel census",
+      "Global FV precedence",
+      "Qualified exact Shopee hardware"
+    ],
+    "active_inventory_changed": false,
+    "next": "LCD-first requested model fields retainpriority;independentGT-Pro queue continuesremaining13vs15basis/channelcounts/physical/globalFV/market gaps."
   }
 }
