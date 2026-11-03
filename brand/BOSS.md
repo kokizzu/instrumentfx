@@ -4484,7 +4484,7 @@ Sources: [Roland specifications,updated2026-09-07](https://support.roland.com/hc
 
 [A] explicitly requires **single notes**, muting each preceding note, with direct instrument connection to **L(MONO)**. Guitar Synth targets electric guitar; Bass Synth specifies **four-string electric bass**. Chords, harmonics and accidental adjacent strings can cause errors. **Square/Saw**, octave shifts **+1/0/−1/−2**, and semitone-snapping **Chromatic** are documented; snapping suppresses sub-semitone bends/vibrato. These are tracking-synth controls, not input-note polyphony or an extra instrument engine. Exact pitch-shifter range/polyphony and acoustic-conversion algorithms remain unverified.
 
-[V] describes an external source at the left input and voice/other modulator at the right. **Vocoder1:12bands plus distortion/chorus/delay/reverb;Vocoder2:21bands plus reverb.** This external-carrier processing is separate from Guitar/Bass Synth and does not establish onboard polyphonic synthesis or direct mic-level/phantom support. The article was available as indexed manufacturer text; direct opening returned404.
+[V] describes an external source at the left input and voice/other modulator at the right. **Vocoder1:12bands plus distortion/chorus/delay/reverb;Vocoder2:21bands plus reverb.** This external-carrier processing is separate from Guitar/Bass Synth and does not establish onboard polyphonic synthesis or direct mic-level/phantom support. The article was available as indexed manufacturer text; direct opening returned404. **Later original-guide check below finds a10-versus12-band conflict andadditional Vocoder2 chorus; retain this paragraph as the support article’s claim.**
 
 Next: complete the original algorithm-guide census,physical control/connector verification and exact Indonesian offers before considering active admission. Retain independent footswitch-display/expression/GT-Pro priorities. No document/software downloaded or device operated.
 
@@ -4504,6 +4504,32 @@ Checked **2026-11-04**. [Original manufacturer algorithm guide](https://cdn.rola
 The guide specifies **two-way MIDI**,algorithm-aware parameter loading andReload/Send operations. Experimental Live mode transmits broader parameter changes than the device’s assigned CC controls; the author leaves memory-wear implications unresolved. This documents developer-supported editing,not USB audio,global analog volume orsoftware compatibility tested here. No software,document ordependency downloaded locally; no MIDI sent.
 
 SE-70 remains a partial lead outsideactivecounts. Full original algorithm census,physical controls/connector sizes andqualified used/new IDR remain pending;independent LCD-first,expression andGT-Pro/general queues remain intact.
+
+### SE-70 — original algorithm census and vocoder-source conflict
+
+Checked **2026-11-04** in indexed original [manufacturer Algorithm Guide,Algorithm List and121/122 sections](https://cdn.roland.com/assets/media/pdf/SE-70_PA.pdf). **45 algorithms**,mapped to protected patches101–145; names follow that order. This closes the named-list gap,not every parameter or current-unit verification.
+
+| Patches | Displayed algorithm names, in order |
+|---|---|
+| 101–107 | Hall; Room1; Room2; Plate; St Reverb; Gate Reverb; Ambience |
+| 108–112 | Simple Delay; Mono Delay; Mod Delay; Stereo Delay;20Tap Delay |
+| 113–120 | St Chorus; Band Chorus; Wave Chorus; Super Chorus; Pitch Shift; St P Shift; St Phaser; St Flanger |
+| 121–125 | Vocoder1; Vocoder2; Kb Multi; Rotary Multi; Rhodes Multi |
+| 126–131 | Gt Multi1; Gt Multi2; Gt Multi3; Gt Multi4; Bass Multi; Vocal Multi |
+| 132–139 | Guitar Synth; Bass Synth;2ch Mixer; Hum Canceler; Vo Canceler; Sampler1; Sampler2; Repeat Play |
+| 140–145 | Hall+Room; Rev+Delay; Rev+Chorus; Rev+P Shift; Rev+Gate; Delay+Chorus |
+
+**48kHz:**105,108,113–116,118–120,123,125,134–136,140–145; remaining entries32kHz. Rates belong to algorithms,not selectable USB formats.
+
+**Vocoder conflict:** original121 explicitly says **10bands**,including Voice Character1–10; [support article](https://support.roland.com/hc/en-us/articles/201939359-SE-70-The-SE-70s-Vocoder) says12. Original122 specifies **21bands→chorus→reverb**; the article mentions reverb only. Keep the earlier support-derived wording as provenance,not a resolved common specification. Both original vocoder sections recommend microphone preamplification. Firmware/revision explanation remains unknown.
+
+### SE-70 — panel-text control count and shared expression socket
+
+Indexed [original owner manual,p9](https://cdn.roland.com/assets/media/pdf/SE-70_OM.pdf) enumerates independently adjustable Input Level L/R and CONTROL: **3 rotary controls**,with the CONTROL push counted once. EXIT,WRITE,PARAMETER←/→,CONTROL1,UTILITY give **6 front buttons**;power separate. No onboard footswitch is identified in this complete front-panel inventory. These are text-inventory counts,not a new image inspection;the earlier wholly unknown count is narrowed accordingly.
+
+[Owner manual,p29](https://cdn.roland.com/assets/media/pdf/SE-70_OM.pdf): the shared socket selects **Effect Remote** for FS-5L whole-unit effects on/off or **Exp Pedal** for EV-5/FV-300L parameter control. CONTROL2/3 accepts FS-5U/FS-5L using PCS-31,white→Control2/red→Control3. This doesnot establish passive-pedal pinout,resistance orglobal volume across patches.
+
+Partial lead remains outsideactivecounts. Original named-algorithm census is now documented;full parameter/routing checks,connector diameters,visual corroboration,qualified IDR andall-preset volume remain open. No local download ordevice operation.
 
 ## VE-1
 

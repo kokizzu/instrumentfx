@@ -150488,5 +150488,65 @@
     ],
     "active_inventory_changed": false,
     "queues_preserved": true
+  },
+  "se70_original_census_20261104": {
+    "checked": "2026-11-04",
+    "model": "BOSS SE-70",
+    "source": "https://cdn.roland.com/assets/media/pdf/SE-70_PA.pdf",
+    "source_sections": [
+      "Algorithm List",
+      "121 Vocoder1",
+      "122 Vocoder2"
+    ],
+    "algorithm_count": 45,
+    "patch_range": [
+      101,
+      145
+    ],
+    "rate_48k_patch_ranges": [
+      [
+        105,
+        105
+      ],
+      [
+        108,
+        108
+      ],
+      [
+        113,
+        116
+      ],
+      [
+        118,
+        120
+      ],
+      [
+        123,
+        123
+      ],
+      [
+        125,
+        125
+      ],
+      [
+        134,
+        136
+      ],
+      [
+        140,
+        145
+      ]
+    ],
+    "other_rate_khz": 32,
+    "vocoder_conflict": "Original12110bands/supportarticle12;original122 includeschorus+reverb,supportmentionsreverbonly;revisionexplanationunknown",
+    "owner_source": "https://cdn.roland.com/assets/media/pdf/SE-70_OM.pdf",
+    "owner_pages": [
+      9,
+      29
+    ],
+    "controls": "Derivedfromcompletefrontpaneltext:3independentrotary,6buttons,powerseparate;noidentifiedonboardfootswitch;notvisualaudit",
+    "expression": "SharedEffectRemote/ExpPedalselection;Control2/3PCS31white/red;globalvolumeandpinoutunverified",
+    "active_inventory_changed": false,
+    "next": "Per-algorithm parameter/routing andglobalvolume,connector diameters,visualcorroboration,qualifiedIDR;LCD-first andindependentqueues preserved"
   }
 }
