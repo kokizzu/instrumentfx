@@ -145008,6 +145008,15 @@
         "evidence_basis": "Existing canonical record and retained dated manufacturer evidence; not freshly reverified for this index."
       },
       {
+        "key": "HeadRush::Pedalboard",
+        "canonical": "brand/HEADRUSH.md#pedalboard",
+        "synth": "Dedicated synth unverified; HOLD distinct",
+        "pitch": "SMART HARM;DETUNE;OCTAVES/OCTAVES UP;DROP TUNE;WHAM;HARM;CHORD WHAM",
+        "instrument": "Acoustic Sim;Acoustic Pre separate",
+        "qualification": "RingMod/8-BitCrush/Hold/ResoDelay/Feedback/TimeWarp;algorithm-specific polyphony unverified",
+        "evidence_basis": "Focused2026-11-03 exact product andown2.7 cumulativehistory reconciliation;not a full fresh four-category audit orPrime transfer."
+      },
+      {
         "key": "Fractal Audio::FM3 original",
         "canonical": "brand/FRACTAL-AUDIO.md#fm3-original",
         "synth": "Three-voice monophonic Synth",
@@ -145716,5 +145725,45 @@
     "qualification": "Officialcompatibility statements,not locallytested;not a fulleditor certification orPrimefirmwaretransfer. Currentupdatedlibrary/userstorage/unsavedlooppersistence andqualifiedhardware remainunresolved. No localdownload,installer,firmware ordeviceoperation.",
     "inventory_changed": false,
     "next": "Continue remaining individualdisplay manufacturer fields andqualified Shopee offers;retain independentexpression andGP-200JR→Prime→GE300 queues."
+  },
+  "pedalboard_library_union_20261103": {
+    "checked": "2026-11-03",
+    "model": "HeadRush::Pedalboard",
+    "sources": [
+      "https://www.headrushfx.com/products/pedalboard/index.html",
+      "https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/Pedalboard%20v2.7/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20Pedalboard%20Firmware%20Update%20v2.7.pdf"
+    ],
+    "website_counts": {
+      "amp": 52,
+      "cab": 15,
+      "mic": 10,
+      "distortion": 17,
+      "dynamics_eq": 11,
+      "modulation": 22,
+      "reverb_delay": 13,
+      "expression": 11,
+      "effects": 74
+    },
+    "missing_26_names": {
+      "amp": "17 TRACE ELLIOT ELF",
+      "distortion": "B2 DRIVE",
+      "dynamics_eq": "ACOUSTIC PRE",
+      "modulation": "DIM CHORUS",
+      "reverb_delay": "PARTY VERB"
+    },
+    "documented_union": {
+      "amp": 53,
+      "cab": 15,
+      "mic": 10,
+      "distortion": 18,
+      "dynamics_eq": 12,
+      "modulation": 23,
+      "reverb_delay": 14,
+      "expression": 11,
+      "effects": 78
+    },
+    "scope": "Union ofexact source lists,not certified currentinstalled firmware census oruniqueDSPcount. NoPrime HybridSynth transfer. Existingcataloguecreativeindex now26;selectedseven unchanged.",
+    "next": "Currentinstalled library,memory/power/IRlimits andconditionqualifiedoffers remainopen;independentqueues retained.",
+    "inventory_changed": false
   }
 }

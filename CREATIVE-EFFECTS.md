@@ -42,7 +42,7 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **25 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **26 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
@@ -52,6 +52,7 @@ This index reuses existing canonical evidence and its original revision/date qua
 | [Fender Tone Master Pro](brand/FENDER.md#tone-master-pro) | Aethon / Cerberus / Wavemorph Polysynth | Chromatic/Diatonic/Pedal Shifter; Pitch Sequencer | Electric-to-acoustic unverified | Synths1.7.53 (2025-12-03); newer Synthverb remains reverb |
 | [Neural DSP Quad Cortex](brand/NEURAL-DSP.md#quad-cortex) | Mono Synth | Separate Pitch library includes Subharmonic Synth | Electric-to-acoustic unverified | Mono Synth introducedCorOS3.3.0; no poly-synth inference |
 | [HeadRush Prime](brand/HEADRUSH.md#prime) | Hybrid Synth | Chord Wham; Up/Drop Tune; Smart Harm | Electric Piano; DB-33 Organ; Acoustic Sim | Current page category totals conflict; Ambi-Verb classification not proof of another oscillator engine |
+| [HeadRush Pedalboard](brand/HEADRUSH.md#pedalboard) | Dedicated synth unverified; HOLD is separate | Smart Harm; Detune; octaves; Drop Tune; Wham/Harm/Chord Wham | Acoustic Sim; Acoustic Pre is separate | Ring Mod; 8-Bit Crush; Reso Delay; Feedback; Time Warp. Focused product/2.7-history check,not full four-category re-audit |
 | [Fractal Audio FM3 original](brand/FRACTAL-AUDIO.md#fm3-original) | Three-voice monophonic Synth | Pitch block | Acoustic input is not simulation | Own dated block table; current firmware equivalence qualified |
 | [Fractal Audio FM3 MKII Turbo](brand/FRACTAL-AUDIO.md#fm3-mkii-turbo) | Three-voice monophonic Synth; manual/envelope/pitch/quantized modes | Pitch block | Acoustic simulation unverified | [Focused November guide mode check](brand/FRACTAL-AUDIO.md#fm3--synth-tracking-modes-and-generator-boundary); not a complete fresh audit; firmware qualification retained |
 | [Fractal Audio FM9 MKII Turbo](brand/FRACTAL-AUDIO.md#fm9-mkii-turbo) | Three-oscillator monophonic Synth | Chromatic/whammy Notes/Chords; diatonic single notes | Acoustic/piezo support is not simulation | [Focused firmware10/11 pitch follow-up](brand/FRACTAL-AUDIO.md#fm9--versioned-pitch-tracking-and-arpeggiator-triggering):mode trade-off;Tracking Adjust removed11.00;not a full fresh audit |
