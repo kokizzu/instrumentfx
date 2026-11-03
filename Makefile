@@ -2388,3 +2388,7 @@ research-stage-harley-benton:
 .PHONY: research-test-canonical-sections
 research-test-canonical-sections:
 	python3 scripts/test_research_tools.py
+
+.PHONY: research-stage-gfi
+research-stage-gfi:
+	python3 scripts/gfi_catalogue.py stage

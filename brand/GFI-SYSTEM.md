@@ -31,6 +31,10 @@ Checked 2026-10-28; **partial active guitar multi-effects**, not fully verified.
 | IDR verified used | Unknown. |
 | IDR verified new | Unknown. |
 | IDR condition-unverified hardware ask | Rp7,899,000;[SevenStereo16879370/28719878539](https://shopee.co.id/GFI-System-SOLISVENTUS-Solis-Ventus-Delay-And-Reverb-Pedal-i.16879370.28719878539),Bandung,direct2month/search4monthcache. StaleAugust13–15delivery;condition,variant,bundle,warranty,workingstate,stock,totalunknown. Late-deliveryvoucher≤Rp10k notupfrontsaving. Secondary1408254222/25989553157 price/seller unknown,not assigned this ask. |
+| Processing / Infinity Reverb | Rev J p10: hold the engine switch for one second to begin continuous sampling; release loops the **last 0.25 seconds** for sustained playback. Document marks introduction **1.7.1**. This is an audio-buffer effect, separate from the phrase looper, tracking synthesis and amp capture. |
+| Processing / dynamics and crossover | Rev J pp11–12: separate post-X/Y dynamics offer Ducker/Gate, Attack **1–30 ms**, Release **100–620 ms**, Threshold **−10 to −44 dB**, Intensity **0–100%**. The input crossover splits low/high bands at **400–2500 Hz** between engines. Settings require preset save; these are not extra selectable delay/reverb algorithms. |
+| MIDI / physical wiring | Rev J p18 specifies **Type-A TRS-to-DIN**: tip→pin5, ring→pin4, shield→pin2. This is MIDI wiring, not the separate expression-input wiper connection or M-VAVE pedal compatibility. |
+
 <!-- comparison evidence ends -->
 
 ### Solis Ventus — partial discovery lead
@@ -111,6 +115,17 @@ These are historical named entries, not current16/11 reconciliation, subtype tot
 The [manufacturer Algorithm FAQ](https://gfisystem.com/blog/solis-ventus-algorithm-faq) explains that Shimmer merges earlier Shimmer/Anti-shimmer; Diffusive consolidates six hybrid variations. Three parallel variants use Spatium alongside delay; three series variants reverberate only delay tails, leaving dry audio outside that reverb. These are variations, not six additional selectable slots. Spectral maps to Modulated and MultiTap3 to Triple Heads; MultiTap4 and Formant did not carry over from Specular Tempus. Model names/menus must not be copied between units.
 
 FAQ’s original link establishes the [manufacturer Rev D asset](https://github.com/gfisystem/downloads/releases/download/solis-ventus-newest/solis-ventus-algorithm-reference-rev-d.pdf). Web reader failed on its expired signed redirect; body remains unread, not a local download. Release-page reader also missed cache. This is a primary-hosting lead, not successful Rev D inspection or current-library verification. No software or GitHub Actions used.
+
+### Solis Ventus — Infinity sustain, dynamics and control boundaries
+
+Checked **2026-11-04** in the manufacturer-authored [Rev J manual, March2026, pp9–12 and18](https://www.scribd.com/document/1072569196/Solis-Ventus-User-Manual-rev-J). Exact model/revision and original table bodies match the retained record; host summaries are excluded.
+
+The Infinity Reverb buffer and independent dynamics ranges are summarized above. **Auto-ramping**, introduced1.2.0, instead moves an assigned algorithm parameter to its maximum while held, then returns it on release. Mapping delay Repeats or reverb Decay can create hold-like behavior; Analog/Tape delay can self-oscillate. These mechanisms do not establish a tracking synthesizer, a new phrase-looper memory or universal tails across presets.
+
+The current [manufacturer download index](https://gfisystem.com/downloads/solis-ventus) still lists manual **Rev N, September16,2026** and algorithm reference **Rev D, May1,2025**. The [official Rev D asset](https://github.com/gfisystem/downloads/releases/download/solis-ventus-newest/solis-ventus-algorithm-reference-rev-d.pdf) remains blocked by its expired signed redirect. Current16-delay/11-reverb inventory and later-firmware equivalence are not certified from Rev J. Direct analog EXP attenuation of sustained buffers, phrase loops, bypass and tails remains unverified.
+
+Fresh Shopee searches produced no new qualified exact offer; the dated existing asks remain unchanged. This existing active model is now included in the additional creative index. No ownership change, local download, MIDI transmission or device operation.
+
 
 ## Synesthesia
 
