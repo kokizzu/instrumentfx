@@ -741,6 +741,16 @@ Enable HeadRush Remote while connected to Wi-Fi;the guide supplies the displayed
 
 This supplements the existing editor-platform entry. Current5.2 guide remains unreadable as a full PDF,andits authorization behavior hasnot been independently confirmed. Fresh exact Shopee search resurfaced the already-recorded ROCKPIZZ,HOLY MUSIC andGITARO offers as three-month snapshots;no new stock/condition claim orprice record is added. OLED dimensions,rig ceiling andother remaining source gaps remain open.
 
+### Prime — Color Mod and Lock Screen source details
+
+Checked **2026-11-04** against [manufacturer Prime User Guide5.0.0,§4.22.1 General](https://cdn.inmusicbrands.com/Software/SGEE/5/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.0.0.pdf), available as indexed original text. Full PDF exceeds the web reader’s size limit; no local download or device operation.
+
+| Field | Revision-qualified display behavior |
+|---|---|
+| Display / Color Mod and Lock Screen | Color Mod adjusts the display palette for color distinction/customization; its documented defaults are **Depth0%,Color36°,Spread180°**. The guide explicitly disables Color Mod when **Lock Screen** is enabled. These palette parameters do not establish mini-OLED brightness, color-pixel hardware, physical size or independent strip adjustment. Current5.2 behavior remains unverified. |
+
+The same result is present in the [manufacturer4.1 guide](https://cdn.inmusicbrands.com/Software/SGEE/HeadRush%20Prime%20-%20User%20Guide%20-%20v4.1.0.pdf),§4.21.1; this is corroborating historical documentation, not a feature-introduction date. The existing12OLED hardware count remains unchanged.
+
 ## VX5
 
 <!-- comparison evidence begins -->
