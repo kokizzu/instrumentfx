@@ -149471,5 +149471,38 @@
     ],
     "active_inventory_changed": false,
     "next": "Continue accessible LCD-first model fields andexactShopee hardware;retain independent GT-Pro/general andexpression queues."
+  },
+  "fm9_mkii_routing_source_conflicts_20261104": {
+    "checked": "2026-11-04",
+    "model": "Fractal Audio FM9 MKII Turbo",
+    "sources": [
+      {
+        "url": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+        "revision": "November2026,pp3,59–61;previousMegatappp57–58"
+      },
+      {
+        "url": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+        "revision": "August2022 firmware3.x,p44 indexed original text"
+      },
+      {
+        "url": "https://www.fractalaudio.com/fm9/",
+        "scope": "Exact current product hardware Input1 plus two stereo auxiliary inputs"
+      }
+    ],
+    "finding": "Mixer4 historical versus6 November inputs;Megatap40 historical versus64 November FM9 taps. No introduction version inferred. Mixer multiple-source sum versusMUX one-source selection;shared Input4 not transferred toFM9.",
+    "offer_recheck": {
+      "url": "https://shopee.co.id/Fractal-FM9-MKII-Turbo-Amp-Modeler-Multi-FX-i.11170212.25331147281",
+      "idr": 44395000,
+      "access": "Last-month indexed ask;no new condition/stock/variant proof;existing dated evidence retained"
+    },
+    "physical_review": "Official exact-model store/photo located;webreader no visible image andIAB unavailable. No visual control count inferred.",
+    "remaining": [
+      "Resolve historical Mixer/Megatap differences andfirmware mapping",
+      "Visual fullcontrol census",
+      "CurrentMKII behavior andglobal volume coverage",
+      "Qualified exact hardware offers"
+    ],
+    "active_inventory_changed": false,
+    "next": "Continue accessible requested separate-footdisplay model gaps;defer unresolved image inspection andhistorical counts pendingnew evidence;preserve independent GT-Pro/general andexpression queues."
   }
 }
