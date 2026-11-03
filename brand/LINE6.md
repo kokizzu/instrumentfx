@@ -21,6 +21,7 @@ Root-level brand comparison. **Checked 2026-10-15.** POD Go Wireless and POD Exp
 - [M13](#m13)
 - [Other Line 6 records awaiting consolidation](#other-line-6-records-awaiting-consolidation)
 - [Pocket POD](#pocket-pod)
+- [POD 2.0 — partial no-treadle discovery](#pod-20--partial-no-treadle-discovery)
 - [POD Express Bass](#pod-express-bass)
 - [POD Express Guitar](#pod-express-guitar)
 - [POD Go and POD Go Wireless](#pod-go-and-pod-go-wireless)
@@ -1774,6 +1775,18 @@ Checked 2026-10-18 against [original Reference RevA §§3•11–12,4•4][PP-M]
 | I/O / headphone path | DirectOut/Phones isshared3.5mmstereo forheadphones/PA/recording;AmpOut isseparatemono6.35mm. Preserve distinctoutputs;digitalcontrolcoverage remainsunaudited. |
 
 Existingmanufacturer5inlength×3½inwidth×2indepth axiswording retained;documentedhorizontalrectangle corresponds127×88.9mm,without relabelingdepthasheight. Noexactofferrefreshclaimed;olderprices andUSBpower/recordinglimitations preserved.
+
+## POD 2.0 — partial no-treadle discovery
+
+Checked **2026-11-03**. Original desktop POD 2.0, not Pocket POD/XT/HD. **Partial lead outside active counts**; ownership unverified.
+
+The [manufacturer Pilot’s Handbook, Revision B](https://line6.com/data/6/0a060b316ac34f0593b343dc6/application/pdf/POD%202.0%20Pilot%27s%20Guide%20-%20English%20%28%20Rev%20B%20%29.pdf) documents normal guitar input, headphones, balanced quarter-inch TRS L/R outputs and MIDI In/Out. The connector inventory provides a controller socket rather than direct analog EXP. Older **PEDAL** units use Floor Board/FB4; newer **FBV PEDAL** units support FBV controllers. Do not interchange their compatibility.
+
+The hand Output Level controls overall/headphone volume and is unsaved with presets; this does not establish controller-driven global volume. Hand Up/Down selects 36 locations in nine banks of four, not onboard foot-operated navigation. Reverb and selectable effects/combinations are documented; simultaneous architecture remains incompletely checked. Line 6 Edit is a historical Windows/Mac editor, not proof of current OS support.
+
+Built-in treadle absent; separate K/F/B census, display characteristics, unit dimensions/mass, power, factory/user memory split, full effects census, synth/acoustic/import capabilities and qualified used/new IDR offers remain unresolved. Footprint approval, expression range/position recall, bypass, dry/tail/looper coverage and controller toe behavior are unverified.
+
+[Manufacturer FAQ](https://line6.com/support/page/kb/legacy-products/pod/pod-20-podxt-family-pocket-pod-floorpods/original-pod-amp-pod-20-faqs-r497/), originally July28,2008, corroborates the socket-label generations and says MIDI Thru is absent. This is not an instruction to install software, update hardware or open the chassis. Exact Shopee Indonesia searches returned no qualified hardware offer; no price, stock, condition, seller/item, bundle, warranty, voucher or region is inferred. Complete the profile before active admission.
 
 ## POD Express Bass
 

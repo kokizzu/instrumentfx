@@ -721,3 +721,7 @@ Stadium XL [Matrix MIDI scope](brand/LINE6.md#stadium-xl--matrix-midi-layers-and
 Tone Master Pro [received MIDI volume mapping](brand/FENDER.md#tone-master-pro--received-midi-volume-and-expression-mappings): firmware1.5 specifies CC7 (0–127) for Master Volume,CC1–4 for expression sources,andseparate CC109/110 looper-volume triggers. MIDI control doesnot verify direct analog global assignment oroutput/tail/loop attenuation.
 
 Gen2 [own routing andKill Dry inheritance](brand/EVENTIDE.md#h9-gen-2--own-routing-kill-dry-inheritance-and-spillover):Pre/Post leaves one path unchanged;Wet/Dry uses mono wet/dry branches;Global Kill Dry requires each preset toinherit Global. The0–30s preset-tail setting isseparate from bypass andexpression coverage. Global gain mapping remains documented,butendpoints,recall andall-route attenuation remain unresolved.
+
+### Line 6 POD 2.0 — partial no-treadle discovery
+
+[Exact desktop lead](brand/LINE6.md#pod-20--partial-no-treadle-discovery), outside active counts. Controller socket generations differ; neither establishes a direct analog EXP input. Preset-independent hand Output Level covers headphones, but global expression assignment, range, recall and bypass/tail/loop coverage remain unverified. Hand channel navigation is not foot-operated down/up. Footprint and exact condition-qualified Shopee hardware remain unresolved.

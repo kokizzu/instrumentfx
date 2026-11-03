@@ -146285,5 +146285,35 @@
     "green": "3pass afterfix;real402modelresearchverify passes",
     "remaining": "MG300MKII images still not exposed as inspectable image content;creative evidence gaps andindependent queues retained",
     "inventory_changed": false
+  },
+  "pod20_partial_discovery_20261103": {
+    "model": "Line 6 POD 2.0 desktop",
+    "canonical": "brand/LINE6.md#pod-20--partial-no-treadle-discovery",
+    "status": "Partial discovery only; outside active inventory and all-instrument tables.",
+    "source_revision": "Pilot’s Handbook Revision B; original POD/POD2.0 manufacturer FAQ July28,2008, checked2026-11-03",
+    "sources": [
+      "https://line6.com/data/6/0a060b316ac34f0593b343dc6/application/pdf/POD%202.0%20Pilot%27s%20Guide%20-%20English%20%28%20Rev%20B%20%29.pdf",
+      "https://line6.com/support/page/kb/legacy-products/pod/pod-20-podxt-family-pocket-pod-floorpods/original-pod-amp-pod-20-faqs-r497/"
+    ],
+    "screening": "PEDAL vs FBV PEDAL controller compatibility differs; no direct analog EXP in documented connector inventory. Hand Output Level unsaved with presets is not controller global volume.",
+    "offers": {
+      "queries": [
+        "site:shopee.co.id \"Line 6\" \"POD 2.0\"",
+        "\"POD 2.0\" \"Shopee\" \"Rp\""
+      ],
+      "result": "No qualified exact-model hardware offer retrieved; not proof of market absence.",
+      "used_idr": null,
+      "new_idr": null
+    },
+    "remaining": [
+      "Full K/F/B and display census",
+      "Unit footprint/mass and power",
+      "Factory/user memory split and simultaneous processing census",
+      "Synth/acoustic/import capabilities",
+      "Expression endpoints/recall/bypass/headphone/tail/looper coverage",
+      "Qualified exact Shopee hardware offer"
+    ],
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }
