@@ -2958,6 +2958,12 @@ Checked **2026-10-16**; cached asking evidence, not live checkout/stock. New con
 
 ## IR-200 — partial expression capability lead
 
+### IR-200 — English revision 02 is not firmware 1.10 documentation
+
+Checked **2026-11-04** against the [official English owner manual eng02, ©2021, cover code022](https://static.roland.com/assets/media/pdf/IR-200_eng02_W.pdf), printed pp17–19. This additional accessible manufacturer revision supplements, rather than replaces, the retained eng01 source. Its expression table still distinguishes SYSTEM assignment preference, MIN/MAX endpoints and separate pedal-state retention. None establishes final-output coverage.
+
+Crucially, p19 still describes AUTO OFF as OFF/ON with a ten-hour interval. The separately retained January2025 firmware1.10 notes specify OFF/20MIN/10HRS and default20MIN. Thus **eng02 is not evidence that these pages describe firmware1.10**, despite its higher document suffix. Publication date beyond copyright and exact firmware applicability remain unverified. Use the versioned release notes for changed power behavior; keep bypass, headphone, AUX/USB and ambience attenuation unresolved. No download or device operation; partial lead remains outside active inventory.
+
 ### IR-200 — consolidated field profile
 
 Reconciled **2026-11-03** from the dated exact-model evidence retained in full below. This is a navigation/profile consolidation, not a new hardware test or current-stock check. Historical statements that a now-documented field was pending remain provenance. **Partial lead outside active inventory; existing model membership is unchanged.**

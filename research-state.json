@@ -147748,5 +147748,13 @@
     "additional_creative_records": 48,
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "ir200_manual_revision_scope_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://static.roland.com/assets/media/pdf/IR-200_eng02_W.pdf",
+    "revision": "eng02; copyright2021; cover022; printed17–19",
+    "finding": "Expression settings corroborated; AUTO OFF still OFF/ON ten hours, not firmware1.10 OFF/20MIN/10HRS default20MIN.",
+    "limits": "Exact issue date and firmware mapping unknown; global final-output coverage unresolved; partial outside active inventory.",
+    "next": "Investigate remaining USB routing and full-profile gaps; preserve firmware history and independent queues."
   }
 }
