@@ -2345,3 +2345,9 @@ expression-audit-stage-sonicake:
 
 research-stage-blackstar:
 	python3 scripts/blackstar_catalogue.py stage
+
+consolidation-test-preservation-kinds:
+	python3 scripts/consolidation_tools.py test-preservation-kinds
+
+consolidation-stage-preservation-repairs:
+	python3 scripts/consolidation_tools.py stage-preservation-repairs

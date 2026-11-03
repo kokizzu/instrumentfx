@@ -5766,7 +5766,19 @@
         "core_finding": "dcff2b12eb7dc4196c93fdba5d8ca274d99d57f2",
         "advanced_comparison": "f4ecc7b15636ab477803031d34bf280afa9b98dc"
       },
-      "scope": "Complete existing model-specific facts, source URLs and limitations consolidated; Core/Flex technical dates remain2026-10-14. New Flex Prime Shopee price evidence checked2026-10-15. No duplicate model count and no old source deleted."
+      "scope": "Complete existing model-specific facts, source URLs and limitations consolidated; Core/Flex technical dates remain2026-10-14. New Flex Prime Shopee price evidence checked2026-10-15. No duplicate model count and no old source deleted.",
+      "verification_kind": "historical-checkpoint-v1",
+      "verification_scope": "Historical commit/blob provenance and links to separately verified preservation records only. Not an independent whole-body comparison of the early source versions; original claims and source blob IDs remain historical.",
+      "coverage_records": [
+        {
+          "source": "effects/findings/2026-10-14-headrush-core.md",
+          "destination": "brand/HEADRUSH.md#core"
+        },
+        {
+          "source": "effects/advanced-modelers.md",
+          "destination": "brand/HEADRUSH.md#flex-prime"
+        }
+      ]
     },
     {
       "models": [
@@ -47098,6 +47110,20 @@
         "specialist-retirement-verify passed"
       ],
       "qualification": "Preservation checks do not establish current specifications, live stock or complete research."
+    },
+    "preservation_dispatch_20261103": {
+      "status": "Explicit typed dispatch; missing/unknown kinds rejected instead of skipped",
+      "scope": {
+        "whole_source_bodies": 82,
+        "model_rows": 91,
+        "historical_checkpoint_metadata": 1
+      },
+      "historical_limit": "The earliest Core/Flex checkpoint validates blob existence and links to separately verified records; it does not independently compare its earlier source versions.",
+      "tests": [
+        "make consolidation-test-preservation-kinds",
+        "make consolidation-verify"
+      ],
+      "remaining": "Historical variant-by-variant content comparison and manufacturer truth/currentstock are not certified by dispatcher coverage;overallresearch remains incomplete."
     }
   },
   "deferred_work": {

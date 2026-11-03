@@ -100,9 +100,29 @@ def preserved_body(source, prefix):
     return body, refs
 
 
+def preservation_kind(entry):
+    kind = entry.get('verification_kind')
+    assert kind in {'complete-model-rows-v1', 'complete-source-body-v1', 'historical-checkpoint-v1'}, ('Unclassified preservation entry', entry.get('destination'), kind)
+    return kind
+
+
 def verify_preserved(state):
     for entry in state.get('consolidation_and_price_findings', []):
-        if entry.get('verification_kind') == 'complete-model-rows-v1':
+        kind = preservation_kind(entry)
+        if kind == 'historical-checkpoint-v1':
+            assert entry.get('verification_scope'), 'Missing historical scope'
+            assert entry.get('source_blobs') and entry.get('coverage_records'), 'Missing historical provenance'
+            for blob in entry['source_blobs'].values():
+                assert re.fullmatch(r'[0-9a-f]{40}', blob)
+                assert research_tools.git('cat-file', '-t', blob).strip() == 'blob'
+            covered = set()
+            for record in entry['coverage_records']:
+                matches = [item for item in state['consolidation_and_price_findings'] if item.get('source') == record['source'] and item.get('destination') == record['destination'] and item.get('verification_kind') in {'complete-model-rows-v1', 'complete-source-body-v1'}]
+                assert len(matches) == 1, ('Ambiguous or missing coverage record', record)
+                covered.update(matches[0]['models'])
+            assert set(entry['models']) <= covered, 'Historical model coverage missing'
+            continue
+        if kind == 'complete-model-rows-v1':
             source = research_tools.read_preserved_source(entry['source'])
             assert digest(source) == entry['source_sha256'], entry['source']
             model = entry.get('model_name', entry['models'][0].removeprefix('Zoom '))
@@ -126,8 +146,7 @@ def verify_preserved(state):
             for url in entry['retained_source_urls']:
                 assert url in source and url in section, 'Lost source URL: '+url
             continue
-        if entry.get('verification_kind') != 'complete-source-body-v1':
-            continue
+        assert kind == 'complete-source-body-v1'
         source = research_tools.read_preserved_source(entry['source'])
         assert digest(source) == entry['source_sha256'], entry['source']
         if entry.get('source_section'):
@@ -152,7 +171,12 @@ def verify_preserved(state):
         section = text.split('\n## ' + model + '\n', 1)[1].split('\n## ', 1)[0]
         for fact in entry['retained_comparison_facts']:
             assert fact['value'] in section, 'Lost supporting evidence: ' + fact['field']
+    counts = {}
+    for entry in state.get('consolidation_and_price_findings', []):
+        kind = preservation_kind(entry)
+        counts[kind] = counts.get(kind, 0) + 1
     print('PASS: complete consolidated bodies and supporting comparison facts retained.')
+    print('Preservation dispatch coverage: ' + json.dumps(counts, sort_keys=True))
 
 
 
@@ -2034,6 +2058,19 @@ def audit_shared_variant_union(verify=True, kind='cube'):
         verify_preserved(state)
 
 
+def test_preservation_kinds():
+    for kind in ('complete-source-body-v1', 'complete-model-rows-v1', 'historical-checkpoint-v1'):
+        assert preservation_kind({'verification_kind': kind}) == kind
+    for entry in ({}, {'verification_kind': 'complete-source-body-vl'}):
+        try:
+            preservation_kind(entry)
+        except AssertionError:
+            pass
+        else:
+            raise AssertionError('Unclassified preservation entry silently accepted')
+    print('PASS: preservation dispatch rejects missing and unknown kinds')
+
+
 def audit_body_differences():
     """Preview normalized pinned bodies against every retained whole-body archive."""
     import difflib
@@ -2085,19 +2122,41 @@ def compact_reference_plan():
     print(json.dumps(payload,indent=2))
 
 
-def commit_preservation_repairs():
+def commit_preservation_repairs(stage=False):
     research_tools.identity()
-    assert not research_tools.git('diff','--cached','--name-only').strip(), 'Existing staged changes'
-    changed = set(research_tools.git('diff','--name-only').splitlines()) | set(research_tools.git('ls-files','--others','--exclude-standard').splitlines())
-    allowed = {'Makefile','scripts/consolidation_tools.py','brand/TC-HELICON.md','MULTI-EFFECTS.md','README.md','research-state.json'}
-    assert changed and changed <= allowed, changed - allowed
+    allowed = {'Makefile', 'scripts/consolidation_tools.py', 'research-state.json'}
+    changed = set(research_tools.git('diff', '--name-only').splitlines()) | set(research_tools.git('ls-files', '--others', '--exclude-standard').splitlines())
+    staged = set(research_tools.git('diff', '--cached', '--name-only').splitlines())
+    assert (changed | staged) <= allowed, (changed | staged) - allowed
+    assert not research_tools.git('diff', '--check').strip()
     research_tools.verify()
     comparison_views.verify_views()
-    research_tools.git('add','--',*sorted(changed))
-    print(research_tools.git('diff','--cached','--stat'))
-    print(research_tools.git('commit','-m','docs: move README progress history into research ledger'))
+    test_preservation_kinds()
+    verify_preserved(json.loads((ROOT/'research-state.json').read_text()))
+    review_path = Path('/tmp/instrumentfx-preservation-staged-review.json')
+    if stage:
+        assert changed and not staged, 'Unexpected staging or no changes'
+        research_tools.git('add', '--', *sorted(changed))
+        diff = research_tools.git('diff', '--cached')
+        Path('/tmp/instrumentfx-preservation-staged.diff').write_text(diff)
+        review_path.write_text(json.dumps({'head': research_tools.git('rev-parse', 'HEAD').strip(), 'sha256': digest(diff)}))
+        print(research_tools.git('diff', '--cached', '--stat'))
+        print('Review /tmp/instrumentfx-preservation-staged.diff before make consolidation-commit-preservation-repairs')
+    else:
+        assert staged and not changed, 'Stage and review first'
+        review = json.loads(review_path.read_text())
+        assert review['head'] == research_tools.git('rev-parse', 'HEAD').strip()
+        assert review['sha256'] == digest(research_tools.git('diff', '--cached'))
+        assert not research_tools.git('diff', '--cached', '--check').strip()
+        print(research_tools.git('commit', '-m', 'fix(audit): reject unclassified preservation records'))
 
 if __name__ == '__main__':
+    if sys.argv[1:] == ['test-preservation-kinds']:
+        test_preservation_kinds()
+        raise SystemExit(0)
+    if sys.argv[1:] == ['stage-preservation-repairs']:
+        commit_preservation_repairs(stage=True)
+        raise SystemExit(0)
     if sys.argv[1:] == ['commit-preservation-repairs']:
         commit_preservation_repairs()
         raise SystemExit(0)
