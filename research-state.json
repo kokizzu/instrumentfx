@@ -145664,5 +145664,20 @@
     },
     "next": "Continue exact-model IRconversion/NAMarchitecture/power/touch/toe questions andqualifiedIDR;independent queue GP-200JR→Prime→GE300 retained.",
     "inventory_changed": false
+  },
+  "prime_aux_expression_override_20261103": {
+    "checked": "2026-11-03",
+    "model": "HeadRush::Prime",
+    "source": "https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf",
+    "revision": "Previously saved own5.2.0 guide,printed5,7,9,74;no new download ordeviceoperation",
+    "findings": [
+      "AUX bypasses main/phones volume knobs andeffects/looper;AuxVolume separate",
+      "Drum-page Intensity override ignoresrigexpressionassignments whileactive",
+      "0% tuner activation requires assignedVolume block",
+      "Externalampcontrol requires short-to-sleeve input"
+    ],
+    "limits": "No universal expression attenuation,post-override position recall orBluetooth equivalence inferred. ExistingShopee usedask remainsoldHabis;no newconditionqualifiedhardwarefound.",
+    "next": "Continue independent MOOER GE300 queue andpriorityindividual-footdisplay gaps;preserve Prime storage/IR/screen/currentlibrary questions.",
+    "inventory_changed": false
   }
 }
