@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): index G3Xn creative effects and pedal pitch limits'
+        message='research(zoom): index NEURIG creative algorithms and hold boundaries'
     print(git('commit','-m',message))

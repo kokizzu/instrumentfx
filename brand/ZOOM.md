@@ -5839,6 +5839,19 @@ Checked **2026-11-03** in the [manufacturer English Effect List, Preset1.00](htt
 
 Complete English top/back inventory supports the revised no-treadle/control census above. Actual FP02M/M-VAVE wiring, held-position recall and global-volume scope remain unverified. No download, software or device operation.
 
+### NEURIG — creative algorithms and hold-effect boundaries
+
+Checked **2026-11-04** against the [manufacturer English Effect List](https://zoomcorp.com/manuals/neurig-fx-list-en/), **Preset1.00, Z2I-5985-01**. Reference inventory, not installed-firmware verification.
+
+| Field | Exact-model distinction / limitation |
+|---|---|
+| Pitch / note handling | **Poly Pitch Shifter** explicitly supports chords; **Mono Pitch Shifter** and **Pedal Mono Pitch** specify single-note playing. **Pitch Shifter, Harmony Pitch Shifter, Octaver, Detune, Pedal Pitch** have separate entries; their descriptions do not establish chord support. Harmony uses key/scale; numerical ranges remain unverified. |
+| Synth / instrument simulation | **Acoustic Simulator** explicitly transforms electric-guitar tone toward acoustic guitar; **Sitar Simulator** is separate. **Slow Attack** gives a violin-like onset, not documented violin synthesis. |
+| Synth / processing distinction | Resonance/Low-Pass/Sequence/Random/Step Filters are filtering; **Oscillator Echo** controls delay oscillation. Neither establishes a dedicated tracking synthesizer. **Bend Chorus** uses input-triggered pitch bending; synth-note polyphony remains unverified. |
+| Processing / sample and hold | **Loop Roll** samples/holds via footswitch. **Hold Delay** and **Hold Reverb** engage on press and hold the effect sound on release. **Slicer, Ring Modulator, Bomber, Pedal Bit Crusher, Reverse Delay, Pitch Delay, Ice Delay, Particle Reverb** are additional named choices. These are not independent loopers or proof of infinite sustain/preset-tail continuity. |
+
+The existing fourteen-slot/DSP ceiling applies; availability does not guarantee arbitrary simultaneous combinations. NAM/IR importing and future cloud-capture promises remain separate from creative processing. Exact Shopee Indonesia searches yielded no qualified hardware offer; this does not establish market absence. Existing ownership, category membership and release qualifications are unchanged. No local download or device operation.
+
 <!-- comparison evidence ends -->
 
 [NEU-P]: https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/neurig/
