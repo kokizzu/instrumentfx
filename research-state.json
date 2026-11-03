@@ -146521,5 +146521,20 @@
     "additional_creative_records": 34,
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "gtpro_catalogue_editor_revision_20261103": {
+    "source": "https://images.static-thomann.de/pics/atg/atgdata/document/brochure/189895_broschure.pdf",
+    "revision": "BOSS Products Catalog 2008, PDF p21 exact GT-PRO specification body",
+    "finding": "Vista included; Mac G3/600MHz,256MB RAM,200MB disk differs from retained older requirements. Historical only; later explicit10.7+ editor exclusion retained.",
+    "display": "Full exact-model body confirms16x2 LCD and2-character LED; misleading search extract not treated as conflicting specification.",
+    "remaining": [
+      "13-versus15 counting basis",
+      "Other USB driver-mode channel counts",
+      "Visual controls",
+      "Global FV precedence and output coverage",
+      "Qualified exact Shopee Indonesia hardware offers"
+    ],
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }
