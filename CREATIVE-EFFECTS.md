@@ -85,6 +85,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 | [Zoom G11](brand/ZOOM.md#g11) | Z-Syn;BaStdSyn;BaSynTlk;chord tracking unverified | PolyShift chords;mono pitch variants;HPS scale/key harmony | Aco.Sim;HotSpice sitar;Defret bass | [Focused V2 distinctions](brand/ZOOM.md#g11--creative-instrument-tones-and-harmony-distinctions);Slicer,LoopRoll,Bomber;documented choices are DSP-limited,not current installed census |
 
+| [Zoom G5n](brand/ZOOM.md#g5n) | Dedicated synth unverified;factory synth-like recipes separate | PitchSHFT−12…+12/+24;MonoPitch single-note;HPS scale/key harmony | Aco.Sim;later HotSpice sitar;composite Gayageum preset distinct | [Focused historical pitch check](brand/ZOOM.md#g5n--pitch-ranges-and-creative-processing-qualifications);Slicer,LoopRoll,Bomber,pedal lo-fi;no G11 PolyShift inheritance orcurrent installed census |
+
 ## What remains uncertain
 
 - Actual tracking quality, latency and installed firmware were not measured for these records.

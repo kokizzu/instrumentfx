@@ -145244,6 +145244,15 @@
         "instrument": "Aco.Sim;HotSpice sitar;Defret bass",
         "qualification": "Slicer/LoopRoll/Bomber are DSP-limited choices;V2 availability is not current installed census",
         "evidence_basis": "Exact manufacturer V2 effects Ver2.002 ©2021,printed28–32,38,40;focused follow-up"
+      },
+      {
+        "key": "Zoom::G5n",
+        "canonical": "brand/ZOOM.md#g5n",
+        "synth": "Dedicated synth unverified;factory composite recipes are not engines",
+        "pitch": "PitchSHFT−12…+12/+24;MonoPitch single-note;same range;HPS scale/key,polyphony unspecified",
+        "instrument": "Aco.Sim;later HotSpice sitar;Gayageum preset composite distinct",
+        "qualification": "Historical shared exact-model list;not current installed census;G11 PolyShift not inherited",
+        "evidence_basis": "Manufacturer©2017 shared G5n/G3n/G3Xn effectlistp16;retained exactG5n preset andHotSpice announcement evidence"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -146180,6 +146189,13 @@
       "NonUSB-C Apple requiresCameraKit;Android OTG;audio support noteditor orbuspower"
     ],
     "remaining": "No measured latency,installed-device validation,global analog volume coverage orqualified current stock",
+    "inventory_changed": false
+  },
+  "g5n_pitch_range_scope_20261103": {
+    "source": "https://zoomcorp.com/documents/68/E_G5n_G3n_G3Xn_FX-list.pdf.pdf",
+    "revision": "©2017 shared G5n/G3n/G3Xn list;printed16",
+    "finding": "PitchSHFT andMonoPitch−12…+12plus+24notcontinuous±24;MonoPitchsingle-note;HPSscale/key;Detune±25cents",
+    "remaining": "PitchSHFT/HPS chord support,current installed synthesis/library,physical controls,USB routing,power/import gaps andcondition-qualified stock unresolved",
     "inventory_changed": false
   }
 }

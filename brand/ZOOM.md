@@ -4436,6 +4436,18 @@ The reviewer describes **four main effect/patch switches plus five flat switches
 
 These are **independent historical observations**,not current manufacturer specifications or our hardware test. Keep the existing manufacturer rotary/LCD evidence and unresolved separate-button/visual fields. Do not adopt the review’s launch-era effect totals,editor restrictions,price orsubjective pedal criticism as current capabilities. Built-in treadle still excludes G5n from the no-treadle shortlist.
 
+### G5n — pitch ranges and creative-processing qualifications
+
+Checked **2026-11-03**, [manufacturer shared G5n/G3n/G3Xn effect list](https://zoomcorp.com/documents/68/E_G5n_G3n_G3Xn_FX-list.pdf.pdf),©2017,printedp16;exact G5n applicability andV2 preloaded/additional-effect markers are explicit. This is historical documentation,not current installation orfeature-introduction firmware.
+
+| Field | Documented distinction / remaining uncertainty |
+|---|---|
+| Pitch / fixed shift and detuning | **PitchSHFT** offers **−12…+12 and+24semitones**,with±25cent fine adjustment;not a continuous±24range. **MonoPitch** has the same listed range andexplicit single-note intent. **Detune** spans±25cents. PitchSHFT chord support is unverified;G11 PolyShift is not inherited. |
+| Pitch / scale harmony | **HPS** uses Scale andKey controls toderive harmony;its input-note polyphony is unspecified. Stereo processing ormultiple generated pitches would not establish chord tracking. |
+| Synth / acoustic processing boundary | Existing **Aco.Sim** andlater **HotSpice** sitar evidence remains distinct from a dedicated synth. Factory Loopertron’s OctFuzz+TapeEcho recipe andGayageum’s Aco.Sim+PitchSHFT recipe do not establish separate instrument engines. Dedicated synthesis remains unverified. |
+
+Retained Slicer,LoopRoll,Bomber andpedal lo-fi choices are alternatives within existing DSP/slot limits. Actual tracking quality,current installed content andqualified stock remain unverified. No files downloaded ordevice operated.
+
 ## G6
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
