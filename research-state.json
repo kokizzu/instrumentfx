@@ -144837,5 +144837,27 @@
       "Not installed-firmware test or global volume assignment"
     ],
     "next": "Continue compact direct-analog-volume and individual-display priorities; remaining HX Stomp amp/cab inventories and revision identity stay open; GP-200JR→Prime→GE300 general queue preserved."
+  },
+  "h90_looper_transport_quantization_20261103": {
+    "model": "Eventide H90",
+    "checked": "2026-11-03",
+    "revision": "Manufacturer manual1.12.5",
+    "sources": [
+      "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/algorithms/looper.html",
+      "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/play-modes/perform.html"
+    ],
+    "findings": [
+      "Looper in A or B adds fixed transport page beyond two customizable Perform pages",
+      "P record/dub, A play, B stop; B hold undo/redo while playing, erase while stopped",
+      "Continuous external MIDI clock required; no Song Position Pointer",
+      "New-record next-beat condition requires external clock and MIDI Start; otherwise next tick",
+      "Record-to-play/playing-stop beat-quantized; play-to-dub unquantized; retrigger next tick"
+    ],
+    "limits": [
+      "No expression-volume loop/bypass coverage inferred",
+      "No device, MIDI or timing test",
+      "Global numeric endpoints and qualified Shopee offers remain open"
+    ],
+    "next": "Continue compact direct-expression and individual footswitch-display research; defer inaccessible Spark PEDAL/Amp Academy Stomp scope evidence; preserve GP-200JR→Prime→GE300 queue."
   }
 }
