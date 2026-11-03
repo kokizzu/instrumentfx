@@ -62,3 +62,14 @@ The manufacturer describes **Pitch Detector→CV note→Oscillator** for audio-f
 [Own ZOIA support control table](https://empresseffects.com/blogs/support-zoia) assigns grid indices0–39 plusPageLeft,PageRight,Back,Shift: **44 addressable hand-button positions**,separate fromthree stompswitches andencoder press. This is a text-derived control census,not fresh visual corroboration;Euroburo-only indices44–58 are excluded. MIDI remote bypass usesCC60:0bypass,64toggle,127engage;it doesnot prove pedal attenuation duringbypass.
 
 Partial lead remains outside active counts. Exact Shopee hardware identity,current module census,factory fill,complete ports/import/editor profile andglobal-volume output coverage remain open. No downloads ordevice operation.
+
+### ZOIA — page capacity, copy displacement and save destination
+
+Checked **2026-11-04**, [manufacturer Manual v02,printedpp16–21](https://empresseffects.com/cdn/shop/files/ZOIA_User_Manual_rev02_web.pdf?v=9116714327727882529);21PDF pages contain paired printed pages,not21printedpages. Identity follows theZOIA cover/layout andfinalManualv02 mark. Text review only;current5.41 behavior untested.
+
+- **Up to64 pages perpatch,numbered0–63**,each an8×5 grid. Pages are workspaces within one patch,not64 additional whole-rig presets orfixed simultaneous module capacity. Modules consume variable grid space andDSP.
+- Connections may cross pages **within a patch**,butcannot cross patches. Page import preserves connections within/between imported pages;this doesnot create shared live global processing acrosspatches.
+- **Copy Patch shifts subsequent patches down and erases patch63**. This is the manual’s documented displacement behavior,not adevice operation orproof ofsufficient free space. Preserve backups before using that workflow.
+- Ordinary **Save writes internal memory**;SD-card writing isseparately requested inConfig. Saving a patch doesnot itself refresh its card backup. Initial factory occupancy andglobal configuration/sampler-backup scope remain unresolved.
+
+Theprevious source-retrieval failure ishistorical;this check recovered readable original text without a local download. Completeports,currentmodulecensus,exactShopeeitem andglobalvolumecoverage remain open;partial lead stays outsideactivecounts.
