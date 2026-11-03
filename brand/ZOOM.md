@@ -2450,6 +2450,8 @@ Guitar multi-effects, distinct from G1Xon and G1 FOUR. Checked 2026-10-17; parti
 | Dimensions / mass | **146×154.8×43 mm W×D×H;380 g without batteries**. Depth exceeds current140mm preference; historical compact label superseded. | [Zoom G1on][G1ON-P] |
 | Processing / category choices | **Five simultaneous**, reorderable andDSP-limited;PROCESSING LIMIT bypasses theover-budgeteffect. Product advertises100 effects; shared2013 manual G1on75. Published subtotals11 dynamics/filter+12 drive+22 amp+16 modulation/SFX+14 delay/reverb=75. Revision conflict unresolved;notG1Xon's80. | [Product][G1ON-P];[Manual p31][G1ON-M] |
 | Factory / user memory | **100 writable patches,10×10**. Auto Save andPre Select documented; AutoSave defaultsON;unsavedpatches cannotbe swapped. Initial factory-filled subset pending. | [Zoom G1on][G1ON-P] |
+| Pitch / creative algorithms | PitchSHFT andMonoPitch **−12…+12 or+24semitones,Fine±25cents**;MonoPitch explicitly single-note. HPS follows scale/key;Octave adds−1/−2octaves;Detune±25cents. Other note polyphony unverified. | [Exact-list scope](#g1on--creative-algorithms-and-note-handling) |
+| Processing / special effects | Slicer20patterns;SeqFLTR2–8steps/8patterns;RingMod,Cry,M-Filter,SlowATTCK,Rt Closet. Filters/onset shaping/rotary differ from tracking synthesis. | [Own effects list][G1ON-F] |
 | Synth / acoustic | **Aco.Sim** hasTop,Body andLevel controls for electric-to-acoustic tone/bodyresonance. Synth capability unverified. | [Official shared effectlist p6][G1ON-F] |
 | I/O | Mono6.35mm INPUT,stereo3.5mm AUX,shared stereo6.35mm OUTPUT/headphones,USB andDC. Completepanelinventory hasno MIDI,send/return orexternalEXP. AUX routesdirectly toOUTPUT,unprocessed. | [Manual pp4–5][G1ON-M] |
 | Power / battery / USB | **9V DC center-negative,500mA AD-16 supply;4AA alkaline/NiMH orUSB power**. 20h alkaline,manual qualifies backlightoff. Measured draw unverified. | [Product][G1ON-P];[Manual pp2,6,31][G1ON-M] |
@@ -2482,6 +2484,16 @@ Secondary fullset item194129824/26177529440 directcachemiss;noqualified price,bu
 Checked 2026-10-19 against [own manufacturer manual, pp4–5,8](https://zoomcorp.com/media/documents/E_G1on_G1Xon_0.pdf). Complete connectors are INPUT, AUX IN, shared OUTPUT/headphones, USB and DC; **no analog EXP/CONTROL input**. G1Xon’s treadle is separate. Normal guitar input requires no divided pickup. Direct analog volume fails; no USB controller workaround certified.
 
 The earlier “compact” label is superseded for this audit: **146W×154.8Dmm** exceeds the140mm depth preference. Manual documents patch changes/continuous stepping, but missing extracted control symbols leave exact footswitch mapping unverified. Shared headphones are documented. Direct-expression position/range and bypass/headphone/tail/loop attenuation are not applicable without that input. Historical offers and all remaining technical qualifications stay preserved. No downloads or hardware operation.
+
+### G1on — creative algorithms and note handling
+
+Checked **2026-11-03** in [manufacturer Effect Types and Parameters,copyright2014,printedpp3–4,6,11–13][G1ON-F]. The [current exact-model support page](https://zoomcorp.com/en/ca/multi-effects/guitar-effects/g1on/g1on-support/) still links this18-page list andseparately lists firmware1.21 updaters. The document doesnot state a firmware introduction/minimum version;current installed equivalence isnot certified.
+
+PitchSHFT spans−12…+12 or+24semitones;zero selects detuning. Its Fine control is±25cents. MonoPitch has the same ranges andexplicitly targets **monophonic single-note playing**. HPS produces harmony using scale/key;Octave mixes one/two octaves down. These descriptions do not establish polyphony forPitchSHFT,HPS orOctave.
+
+**Aco.Sim** explicitly converts electric-guitar tone toward acoustic,withTop/Body controls. **SlowATTCK** shapes onset forbowed/violin-like playing;**Rt Closet** models arotaryspeaker. Neither establishes synthesized instrument tones. **Slicer,SeqFLTR,RingMod,Cry andM-Filter** provide rhythmic/modulation/filter processing. No dedicated tracking-synth entry was identified inthis checked list;support remains unverified rather than universally absent. G1Xon-only pedal models are not added toG1on. Five-block/DSP limits remain.
+
+Shopee again surfaced existing61848168/18873574731 **Rp800,000,Habis**,two-month cache;condition remains unverified. MixedG1Xon/G1on58780289/15654839389 still hasunresolvedvariant,so itsRp1,398,000ask isnotan exactG1onprice. No localdownload,installation ordevice operation.
 
 ## G1X FOUR
 

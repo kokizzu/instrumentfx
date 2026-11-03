@@ -145381,6 +145381,15 @@
         "instrument": "Acoustic Sim inEQ;bodyIRseparate",
         "qualification": "Own3.80RevF29entries;combinedgrouponeperpathDSPqualified;synthnotepolyphonyunknown",
         "evidence_basis": "Focused2026-11-03 originalLTmanualtext onmirror;officialPDFtoolsize limit;notwholeprofile/currentinstalledaudit."
+      },
+      {
+        "key": "Zoom::G1on",
+        "canonical": "brand/ZOOM.md#g1on",
+        "synth": "Dedicatedtracking synth unverified;filter/onset/rotary distinct",
+        "pitch": "PitchSHFT;MonoPitchsingle-note;HPS;Octave;Detune",
+        "instrument": "Aco.Sim;SlowATTCKviolin-likeonsetnotinstrumentengine",
+        "qualification": "2014exactlist,current support stilllinks;firmwaremappingunknown;fiveblockDSP;noG1Xonpedalinheritance",
+        "evidence_basis": "Focused2026-11-03 manufacturerlist/controlranges,notwholeprofile/currentinstalledaudit."
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -145403,28 +145412,33 @@
     "independent_queues_preserved": true,
     "additional_index_presentation": {
       "checked_date": "2026-11-03",
-      "records": 40,
-      "change": "IndexedexistingactiveHelixLT;supersededqualifiedsynth/acousticunknown;membershipunchanged.",
+      "records": 41,
+      "change": "IndexedexistingactiveG1oncreativeprocessing;membershipunchanged.",
       "previous": {
         "checked_date": "2026-11-03",
-        "records": 39,
-        "change": "Indexed existingactiveAX3B;correctedmanualedition/resetattribution;membershipunchanged.",
+        "records": 40,
+        "change": "IndexedexistingactiveHelixLT;supersededqualifiedsynth/acousticunknown;membershipunchanged.",
         "previous": {
           "checked_date": "2026-11-03",
-          "records": 38,
-          "change": "Indexed existingactiveAX3000B;membershipunchanged;focusedcreativecheck.",
+          "records": 39,
+          "change": "Indexed existingactiveAX3B;correctedmanualedition/resetattribution;membershipunchanged.",
           "previous": {
             "checked_date": "2026-11-03",
-            "records": 37,
-            "change": "Indexed existingactiveAX1500G;noinventoryadmission orwholecatalogueaudit.",
+            "records": 38,
+            "change": "Indexed existingactiveAX3000B;membershipunchanged;focusedcreativecheck.",
             "previous": {
               "checked_date": "2026-11-03",
-              "records": 36,
-              "change": "Indexed existing active Stadium XL;not inventory admission orwhole-catalogue reaudit.",
+              "records": 37,
+              "change": "Indexed existingactiveAX1500G;noinventoryadmission orwholecatalogueaudit.",
               "previous": {
                 "checked_date": "2026-11-03",
-                "records": 33,
-                "change": "Corrected stale 31-record introduction to 33 and removed blank lines splitting the additional-catalogue Markdown table. No technical claims, ownership, instrument membership or independent queues changed."
+                "records": 36,
+                "change": "Indexed existing active Stadium XL;not inventory admission orwhole-catalogue reaudit.",
+                "previous": {
+                  "checked_date": "2026-11-03",
+                  "records": 33,
+                  "change": "Corrected stale 31-record introduction to 33 and removed blank lines splitting the additional-catalogue Markdown table. No technical claims, ownership, instrument membership or independent queues changed."
+                }
               }
             }
           }
@@ -147256,6 +147270,21 @@
     "finding": "29namedPitch/Synth entries;AcousticSim;specialeffects;generator/notehandling/DSP distinctions.",
     "remaining": "Synthtrackingpolyphony/latency,featureintroductionversions,currentfirmware/fullcategorycensus,remaininghardwareprofile andqualifiedIDR.",
     "additional_creative_records": 40,
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
+  },
+  "g1on_creative_scope_20261103": {
+    "model": "Zoom G1on",
+    "checked": "2026-11-03",
+    "sources": [
+      "https://zoomcorp.com/media/documents/E_G1on_G1Xon_FX-list_0.pdf",
+      "https://zoomcorp.com/en/ca/multi-effects/guitar-effects/g1on/g1on-support/"
+    ],
+    "revision": "EffectTypesParameterscopyright2014,pp3–4,6,11–13;firmwareminimumunstated",
+    "canonical": "brand/ZOOM.md#g1on--creative-algorithms-and-note-handling",
+    "finding": "Pitch/MonoPitch/HPS/Octave/Detune andspecialprocessingqualified;dedicatedsynthnotestablished.",
+    "remaining": "Othernotehandling,firmware/versioncensus,tracking/latency,remaininghardwareprofile andqualifiedcurrentoffers.",
+    "additional_creative_records": 41,
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
   }
