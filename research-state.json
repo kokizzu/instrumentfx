@@ -149738,5 +149738,47 @@
     ],
     "active_inventory_changed": false,
     "next": "Continue exact FM3 remainingcategory inventories withmanufacturer exceptions;preserve independentGT-Pro/general,expression andLCDpriority queues."
+  },
+  "fm3_mkii_formant_resonator_ring_20261104": {
+    "checked": "2026-11-04",
+    "model": "Fractal Audio FM3 MKII Turbo",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026,pp3,51,92,97",
+    "instance_limits": {
+      "formant": 2,
+      "resonator": 2,
+      "ring_mod": 1
+    },
+    "vowels": [
+      "AAA",
+      "EEE",
+      "III",
+      "OHH",
+      "OOO",
+      "EHH",
+      "AHH",
+      "AWW",
+      "UHH",
+      "ERR"
+    ],
+    "resonator_modes": [
+      "MANUAL",
+      "CHORDAL"
+    ],
+    "ring_modes": [
+      "CLASSIC",
+      "SSB UPPER",
+      "SSB LOWER"
+    ],
+    "qualifications": "CPU ceilings;Formant vowel filters notmic vocoding;Resonator chordgeneration notinput-chordtracking;RingMod optionaltracking notpolyphonicSynth proof. Installedbehavior/firmware minima remainqualified.",
+    "remaining": [
+      "Remainingcategory namedcensus",
+      "Installedfirmware equivalence",
+      "Dedicatedacoustic simulation",
+      "Globalvolume endpoints/recall/coverage",
+      "Qualifiedhardware offers"
+    ],
+    "active_inventory_changed": false,
+    "next": "Continue exact FM3 remainingcategories includingPlex/Multitap andmodel-specific restrictions;preserve independentGT-Pro/general,expression andLCDpriority queues."
   }
 }
