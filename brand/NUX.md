@@ -824,7 +824,7 @@ The [US product palette](https://www.nux.us/products/mg-50li),firmware minimum u
 
 **Latency conflict:** global specification **≤3ms**,US **minimum3ms**;neither is our measurement. Preserve both inequalities rather than call3ms an independently established maximum.
 
-Full English manual exceeds the web reader’s **13,127,706-byte** limit;Quick Start V1 opens as nine image-only pages without readable text/images in this interface. No claimed new visual inspection,local download,update ordevice test. Existing factory/user,amp/IR-count andbattery-duration conflicts remain open.
+The [full English manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG50Li/NUX_MG50Li_UserManual_English.pdf) exceeds the web reader limit at **13,127,706bytes**. The [Quick Start V1](https://nux.cherubtechnology.com/download/Otherguide/MG50Li/NUX_MG50Li_QuickStartGuideV1_English.pdf) opens as a **nine-page PDF**,but the interface returns no extracted text orvisible screenshot content;its actual page encoding is unverified. No claimed new visual inspection,local download,update ordevice test. Existing factory/user,amp/IR-count andbattery-duration conflicts remain open.
 
 ### MG-50Li — exact Shopee hardware offers
 

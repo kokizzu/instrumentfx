@@ -148409,6 +148409,12 @@
         "region": "KotaJakartaUtara;hardware region unverified"
       }
     ],
-    "membership_qualification": "Existing guitar-only comparison membership preserved for this capability audit despite explicit manufacturer guitar/bass wording. Separate membership reconciliation remains pending;no bass row silently added."
+    "membership_qualification": "Existing guitar-only comparison membership preserved for this capability audit despite explicit manufacturer guitar/bass wording. Separate membership reconciliation remains pending;no bass row silently added.",
+    "manual_access": {
+      "full": "https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG50Li/NUX_MG50Li_UserManual_English.pdf",
+      "full_result": "Web reader rejects content length13127706;not inspected ordownloaded locally",
+      "quick_start": "https://nux.cherubtechnology.com/download/Otherguide/MG50Li/NUX_MG50Li_QuickStartGuideV1_English.pdf",
+      "quick_start_result": "Nine-page PDF;no extracted text orvisible screenshot content returned. Actual encoding unverified;no visual inspection claimed."
+    }
   }
 }
