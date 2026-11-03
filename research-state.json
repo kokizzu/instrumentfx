@@ -145435,6 +145435,15 @@
         "instrument": "Acoustic Simulator;Sitar Simulator;Slow Attack onset not violin synthesis",
         "qualification": "Preset1.00 Z2I-5985-01;14-slot DSP ceiling;hold effects not separate loopers",
         "evidence_basis": "Focused exact-model manufacturer creative list check;not full fresh audit"
+      },
+      {
+        "key": "Valeton::GP-200JR",
+        "canonical": "brand/VALETON.md#gp-200jr",
+        "synth": "Dedicated synth unverified;Step Filter distinct",
+        "pitch": "Pitch/P-Bend polyphonic;Hammy/Harmonizer1–2 monophonic;harmony maxoneoctave",
+        "instrument": "AC Sim four modes;AC Refiner andbodyCAB choices separate",
+        "qualification": "Own firmware1.8.0 manual;fixedPRE/MOD trade-offs;Hold preactivation repeat versusFreeze activation capture",
+        "evidence_basis": "Focused original-text mirror andretained exact-model census;not full fresh audit"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -145457,52 +145466,57 @@
     "independent_queues_preserved": true,
     "additional_index_presentation": {
       "checked_date": "2026-11-04",
-      "records": 46,
-      "change": "Indexed existing active NEURIG creative algorithms;no membership change.",
+      "records": 47,
+      "change": "Indexed existing active GP-200JR creative algorithms;no membership change.",
       "previous": {
         "checked_date": "2026-11-04",
-        "records": 45,
-        "change": "Indexed existing active Nano Cortex;no membership change.",
+        "records": 46,
+        "change": "Indexed existing active NEURIG creative algorithms;no membership change.",
         "previous": {
-          "checked_date": "2026-11-03",
-          "records": 44,
-          "change": "Indexed existing active G3Xn;membership unchanged.",
+          "checked_date": "2026-11-04",
+          "records": 45,
+          "change": "Indexed existing active Nano Cortex;no membership change.",
           "previous": {
             "checked_date": "2026-11-03",
-            "records": 43,
-            "change": "IndexedexistingactiveME90creativealgorithms;membershipunchanged.",
+            "records": 44,
+            "change": "Indexed existing active G3Xn;membership unchanged.",
             "previous": {
               "checked_date": "2026-11-03",
-              "records": 42,
-              "change": "IndexedexistingactiveG1Xon;pedalendpoint/notehandling distinctions;membershipunchanged.",
+              "records": 43,
+              "change": "IndexedexistingactiveME90creativealgorithms;membershipunchanged.",
               "previous": {
                 "checked_date": "2026-11-03",
-                "records": 41,
-                "change": "IndexedexistingactiveG1oncreativeprocessing;membershipunchanged.",
+                "records": 42,
+                "change": "IndexedexistingactiveG1Xon;pedalendpoint/notehandling distinctions;membershipunchanged.",
                 "previous": {
                   "checked_date": "2026-11-03",
-                  "records": 40,
-                  "change": "IndexedexistingactiveHelixLT;supersededqualifiedsynth/acousticunknown;membershipunchanged.",
+                  "records": 41,
+                  "change": "IndexedexistingactiveG1oncreativeprocessing;membershipunchanged.",
                   "previous": {
                     "checked_date": "2026-11-03",
-                    "records": 39,
-                    "change": "Indexed existingactiveAX3B;correctedmanualedition/resetattribution;membershipunchanged.",
+                    "records": 40,
+                    "change": "IndexedexistingactiveHelixLT;supersededqualifiedsynth/acousticunknown;membershipunchanged.",
                     "previous": {
                       "checked_date": "2026-11-03",
-                      "records": 38,
-                      "change": "Indexed existingactiveAX3000B;membershipunchanged;focusedcreativecheck.",
+                      "records": 39,
+                      "change": "Indexed existingactiveAX3B;correctedmanualedition/resetattribution;membershipunchanged.",
                       "previous": {
                         "checked_date": "2026-11-03",
-                        "records": 37,
-                        "change": "Indexed existingactiveAX1500G;noinventoryadmission orwholecatalogueaudit.",
+                        "records": 38,
+                        "change": "Indexed existingactiveAX3000B;membershipunchanged;focusedcreativecheck.",
                         "previous": {
                           "checked_date": "2026-11-03",
-                          "records": 36,
-                          "change": "Indexed existing active Stadium XL;not inventory admission orwhole-catalogue reaudit.",
+                          "records": 37,
+                          "change": "Indexed existingactiveAX1500G;noinventoryadmission orwholecatalogueaudit.",
                           "previous": {
                             "checked_date": "2026-11-03",
-                            "records": 33,
-                            "change": "Corrected stale 31-record introduction to 33 and removed blank lines splitting the additional-catalogue Markdown table. No technical claims, ownership, instrument membership or independent queues changed."
+                            "records": 36,
+                            "change": "Indexed existing active Stadium XL;not inventory admission orwhole-catalogue reaudit.",
+                            "previous": {
+                              "checked_date": "2026-11-03",
+                              "records": 33,
+                              "change": "Corrected stale 31-record introduction to 33 and removed blank lines splitting the additional-catalogue Markdown table. No technical claims, ownership, instrument membership or independent queues changed."
+                            }
                           }
                         }
                       }
@@ -147671,6 +147685,32 @@
       "classification": "Not accepted ashardware quote;not certified accessory/fraud"
     },
     "technical_recheck": "Manufacturer JR product/current regionalNAMnotice retain existing facts;full-sizeGP200FAQ/firmware not transferred",
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
+  },
+  "gp200jr_creative_scope_20261104": {
+    "checked": "2026-11-04",
+    "sources": [
+      "https://www.manuals.co.uk/valeton/gp-200jr/manual",
+      "https://www.manuals.co.uk/valeton/gp-200jr/manual?p=30",
+      "https://www.manuals.co.uk/valeton/gp-200jr/manual?p=31"
+    ],
+    "revision": "GP-200JR English firmware1.8.0;77pages;printed28–29",
+    "canonical": "brand/VALETON.md#gp-200jr--creative-index-and-pitch-note-boundaries",
+    "access": "Cover andprinted28opened;printed29 indexedoriginal text/direct reopening failed;hostFAQ excluded",
+    "findings": [
+      "Hammy single-note;Harmonizer1/2 mono one/two generatedvoices maxoneoctave",
+      "Pitch/P-Bend polyphony distinct fromsynthesis",
+      "Hold preceding segment versusFreeze activation-time sound",
+      "ExistingACSim/ACRefiner/bodyCAB distinction indexed"
+    ],
+    "remaining": [
+      "Dedicated synthesis",
+      "Installed-firmware equivalence/tracking quality",
+      "Full simultaneous combinations/preset-tail coverage",
+      "Existing technical/market gaps retained"
+    ],
+    "additional_creative_records": 47,
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
   }

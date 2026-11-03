@@ -1713,6 +1713,18 @@ Checked **2026-11-03** against the [exact JR regional specification table](https
 
 The table separately repeats24-bit conversion and44.1kHz USB recording at16/24bit;neither specifies IR-import conversion. Existing NAM-architecture,IR-format/power,touch/toe andcurrent-offer gaps remain open. No files downloaded,device connected orsettings changed.
 
+### GP-200JR — creative index and pitch-note boundaries
+
+Checked **2026-11-04**. The manufacturer-authored [manual reproduction](https://www.manuals.co.uk/valeton/gp-200jr/manual) identifies **GP-200JR, firmware1.8.0,77pages**. Its [printedp28](https://www.manuals.co.uk/valeton/gp-200jr/manual?p=30) matches the retained exact-model PRE table; host FAQs are excluded. The [printedp29 indexed reproduction](https://www.manuals.co.uk/valeton/gp-200jr/manual?p=31) supplies Hold/Freeze text, although direct reopening failed.
+
+| Field | Algorithm distinction / practical limit |
+|---|---|
+| Pitch / note handling | **Pitch andP-Bend** explicitly polyphonic. **Hammy** is monophonic,with expression-controlled Position. **Harmonizer1/2** are monophonic automatic harmony with respectively one/two generated voices and **maximum one-octave shifting range**. Two output voices do not establish two-note tracking;key/scale controls are separate fromchromatic shifting. |
+| Synth / instrument distinctions | Retained exact1.8.0 evidence: **AC Sim** hasStandard,Jumbo,Enhanced,Piezo;**AC Refiner** instead processes acoustic input. CAB Mandolin/Fretless Bass/Double Bass are body/tonal choices,not established tracking synths. **Step Filter** produces sequenced filtering;dedicated synthesis remains unverified. |
+| Processing / Hold and Freeze timing | **Hold** repeats a short segment preceding activation;**Freeze** sustains the activation-time sound andadds Attack/Release controls. EXP cancontrol Activate;CTRL can instead toggle the module when Activate is enabled. This doesnot establish an additional phrase looper oruniversal preset-tail continuity. |
+
+These choices occupy the existing PRE/MOD module architecture;shared names are not extra independent blocks. Ring Mod,Bit Smash,Ice Delay andShimmer retain their own category records. The creative index now includes this already-active model;membership,ownership andthe separate expression/display/general queues are unchanged. No download,software run ordevice operation.
+
 <!-- comparison evidence ends -->
 
 
