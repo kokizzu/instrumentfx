@@ -538,3 +538,11 @@ Checked **2026-11-03** in [Fender’s original release history](https://support.
 The same release adds a current-value readout to Parameter Change assignment editing and defaults active/inactive values to the current parameter value rather than minimum/maximum. This is an assignment-editing default, not live pedal-position recall, a global expression range or a guaranteed audible change before values are edited. It also permits up to **five custom MIDI PC/CC messages on preset selection**; these are outbound preset messages, not five analog expression assignments.
 
 These historical capabilities do not change the ten physical LCDs, establish current installed firmware, or resolve global-volume output coverage. No download,software launch,editing or MIDI transmission performed.
+
+### Tone Master Pro — Song tempo, notes and shared Setlist edits
+
+Checked **2026-11-03** in the [manufacturer firmware1.5 manual reproduction, printed pp27–28](https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual). Original document text; generated host summaries excluded.
+
+**Song BPM defaults off.** Enabling it applies one tempo to all presets in that Song, overriding their stored tempos. It responds to tap tempo and appears in the Preset View lower ribbon and TAP footswitch strip. This is Song-level tempo precedence, not a universal expression assignment or proof that unsynchronized effects follow tempo.
+
+Song Notes provide performance reminders beneath the Song name in main-screen Gig View for Songs and Setlists; they are not documented as additional physical strip screens. Editing a Song from a Setlist affects **all uses of that Song**. A Setlist reference is therefore not a documented independent copy. Current1.8 behavior and device save/recall remain untested; existing preset/page capacity qualifications are unchanged. No download or device operation.

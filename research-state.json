@@ -145348,5 +145348,22 @@
       "No export encoding/layer roundtrip certification"
     ],
     "next": "Continue requested separate-screen models and exact Shopee offers;retain unresolved Prime OLED specifications,current stock,capacity andglobal expression coverage;preserve independent queues."
+  },
+  "tmp_song_tempo_shared_edits_20261103": {
+    "model": "Fender Tone Master Pro",
+    "checked": "2026-11-03",
+    "source": "https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual",
+    "revision": "Manufacturer firmware1.5 manual, printed27–28",
+    "findings": [
+      "Song BPM default off; enabled overrides stored preset tempos throughout Song; responds to tap and appears on TAP strip",
+      "Song Notes below Song name in main Gig View",
+      "Editing Song through Setlist affects all uses"
+    ],
+    "limits": [
+      "Current1.8 and hardware behavior untested",
+      "Not global analog expression volume",
+      "Notes do not add physical displays"
+    ],
+    "next": "Continue requested separate-screen processors; current Guide H census, user IR limits, exact screen specifications and qualified Shopee stock remain unresolved. Preserve independent research queues."
   }
 }
