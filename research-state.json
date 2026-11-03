@@ -147108,5 +147108,16 @@
     "proof": "Independently reconstructed exact planned outputs andmatchedSHA256 beforeapply;transformer preserves every section body excluding trailingwhitespace;all63canonical/supplemental branddocuments now passglobal sort/index idempotence.",
     "active_count_unchanged": 402,
     "active_brand_count_unchanged": 49
+  },
+  "gtpro_converter_clock_20261103": {
+    "model": "BOSS GT-Pro",
+    "checked": "2026-11-03",
+    "source": "https://www.boss.info/hu/products/gt-pro/",
+    "revision": "Discontinued exact-model regional specification;firmware unstated",
+    "finding": "AD24-bit+AF,DA24-bit,44.1kHz;EIAJCP1201/SPDIF separatefromUSBstreamformats. No effective-bit/SNRmeasurement inferred.",
+    "retrieval": "2008catalogue readabletext butrendercachemiss;officialgtpro_main.jpg noinspectablepixels. TurboStartTBS230 copyright2005 text inspected;doesnot resolvearchitecturecount.",
+    "remaining": "13vs15 counting,otherUSBchannels,visualcontrols,globalFVprecedence,qualified exactShopeeIDR.",
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }
