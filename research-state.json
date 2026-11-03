@@ -146330,5 +146330,29 @@
     ],
     "power_source": "https://kb.line6.com/power-supply-battery-specs-and-faq",
     "status": "Partial outside active counts;independent queues preserved;no downloads ordevice operations"
+  },
+  "pod20_original_controller_midi_20261103": {
+    "model": "Line 6 POD 2.0 desktop",
+    "sources": [
+      "https://manualmachine.com/line6/pod20/2646126-user-manual/",
+      "https://line6.com/data/l/0a060072c8d347743de40453f/application/pdf/MIDI%20Continuous%20Controller%20Reference%20%28Rev%20C%29%20-%20English.pdf"
+    ],
+    "revisions": [
+      "Original manufacturer Pilot’s Handbook Revision F,97pages,printed7.4–5;Floor Board/FB4 generation",
+      "Manufacturer MIDI CC Reference March2010;URLRevC"
+    ],
+    "verified": [
+      "Floor Board volume works during tuner bypass;other bypass scopes not established",
+      "Amp selection changes volume pre/post placement and taper",
+      "POD2.0 CC7 TX/RX0–127 is real-time,unsaved inchannel/setup;CC46minimum andCC47pre/post receive separately"
+    ],
+    "remaining": [
+      "dB/attenuation endpoints",
+      "Held-position preset recall",
+      "Other bypass/dry/headphone/tail/loop coverage",
+      "FBV-generation equivalence",
+      "Unit dimensions/power andqualifiedIDR offers"
+    ],
+    "status": "Partial outside active counts;no device test;independent queues preserved"
   }
 }

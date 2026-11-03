@@ -1796,6 +1796,14 @@ The Amp Models selector recalls **Volume Pedal Location (before/after amp)** and
 
 The [manufacturer power FAQ](https://kb.line6.com/power-supply-battery-specs-and-faq) exposes its compatibility chart as an image without readable model-specific ratings here. Electrical requirements remain unverified; forum reports are not adopted as manufacturer specifications. No chart download, software installation or hardware operation.
 
+### POD 2.0 — original Floor Board bypass and MIDI volume scope
+
+Checked **2026-11-03**. The manufacturer’s **Pilot’s Handbook for version 2.0 software, Revision F**, 97 pages, is readable as [reproduced original text](https://manualmachine.com/line6/pod20/2646126-user-manual/); its cover explicitly names Floor Board/FB4. The [official Advanced Guide URL](https://line6.com/data/6/0a060b316ac34f0593b09200e/application/pdf/POD%202.0%20Advanced%20Guide%20-%20English%20.pdf) was inaccessible. This evidence applies to that original controller generation, not automatically FBV hardware.
+
+Printed **7•4–5**: tuner mode bypasses amp/effects processing, while the Floor Board volume pedal still controls level. Low-gain amp selection places volume before the preamp with normal taper; high-gain selection changes taper and moves it after the preamp. SoundDiver can alter position/taper per amp model. This resolves the documented tuner-bypass case only; other bypass routes, headphone/tail/loop attenuation and held-position recall remain unverified.
+
+The [manufacturer MIDI CC reference](https://line6.com/data/l/0a060072c8d347743de40453f/application/pdf/MIDI%20Continuous%20Controller%20Reference%20%28Rev%20C%29%20-%20English.pdf) is headed **March 2010**; its URL says Rev C. In the POD 2.0 column, **CC7 (0–127)** transmits/receives real-time Volume Pedal and is explicitly unsaved with a channel/setup. **CC46 (0–127)** receives Volume Pedal Minimum; **CC47** receives pre/post selection: 0–63 pre-amp, 64–127 post-amp. MIDI integers are not dB endpoints, measured attenuation or proof of controller-position recall. MIDI volume is separate from direct analog EXP compatibility. No device or MIDI test was performed.
+
 ## POD Express Bass
 
 **New bass-specific model, checked2026-10-15.** A separate hardware/sound-library record, not a color option for POD Express Guitar. The official Bass product and joint2.00 manual explicitly document the following common hardware and different processing path. This record remains partial. Dimensions were repaired from the joint manufacturer announcement on2026-10-17; platform-specific OS minima need separate evidence.
