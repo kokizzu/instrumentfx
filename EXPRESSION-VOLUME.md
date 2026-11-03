@@ -741,3 +741,5 @@ FM9 [historical external-switch setup](brand/FRACTAL-AUDIO.md#fm9--external-swit
 [Helix Rack partial screening](brand/LINE6.md#helix-rack--partial-no-treadle-discovery): three external expression inputs andtoe support;3.80 global pedal-position recall doesnot establish global volume assignment. Dedicated headphones;Rack footprint exceeds preference. Processor offers andoutput coverage remain unverified;outside active counts. Helix Control stays a separate controller.
 
 Helix Rack [I/O follow-up](brand/LINE6.md#helix-rack--rack-and-control-io-separation):8×8USB audio belongs toRack;Control USB isreserved. Rev.C hand VOLUME/PHONES routes do notestablish EXP output coverage. Buffered Guitar Thru isseparate fromthe conversion/effects path. Partial lead remains outsideactive counts.
+
+Helix Rack [electrical/body qualification](brand/LINE6.md#helix-rack--manufacturer-electrical-ratings-and-body-conflict):100–240VAC confirmed;manufacturer dimensions/masses disagree. Both width claims exceed preference. Impedance-balanced audio outputs do notestablish global pedal-volume coverage. Partial,outsideactivecounts.

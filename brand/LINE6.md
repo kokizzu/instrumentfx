@@ -643,13 +643,16 @@ Checked **2026-11-03**; partial lead **outside active counts**,not ownership-con
 | Coverage / recall | Held position documented only for the assigned controller role. Minimum/maximum range,bypass,headphones,tails,looper andUSB attenuation remain unverified. |
 | Display / foot controls | Rack has a shared color LCD. Optional Control supplies12 LCD switch strips;those screens andswitches are not built into Rack. Text-derived control inventory below requires visual corroboration;diagonal andtouch remain unverified. [Rack page][HRK-P] |
 | Headphones / navigation | Dedicated stereo PHONES withits own knob. Rack preset dial is a hand control;foot preset stepping belongs toan external controller. [Rack page][HRK-P] |
-| Footprint / mass | Manufacturer comparison chart’s **Rack + Control column** lists483W×241D×133Hmm,4.2kg;combined heading retained rather than transferring these values toControl. Rack body exceeds200W×140D preference;independent exact-body corroboration pending. [Chart][HRK-C] |
-| Audio I/O | Front Guitar In,PHONES;rear Aux In,XLR mic withswitchable48V phantom,four sends/four returns,balanced XLR L/R,unbalanced¼-inch L/R,andbuffered Guitar Thru. Thru bypasses A/D/A conversion;this isnot proof ofpedal attenuation. [Exact Rack page][HRK-P] |
+| Footprint / mass | Manufacturer comparison chart’s **Rack + Control column** lists483W×241D×133Hmm,4.2kg;combined heading retained rather than transferring these values toControl. [Exact Rack dimensions page][HRK-D] separately lists **19×5.25×9.5in;9.3lb**. [Support FAQ][HRK-F] instead lists **19×5.05×8.80in;11.9lb**. Axis order,handles/packing basis andsource chronology unresolved;no preferred measurement selected. Width exceeds200mm under either claim. [Chart][HRK-C] |
+| Audio I/O | Front Guitar In,PHONES;rear Aux In,XLR mic withswitchable48V phantom,four sends/four returns,balanced XLR L/R,¼-inch L/R (TS connection recommended),andbuffered Guitar Thru. Thru bypasses A/D/A conversion;this isnot proof ofpedal attenuation. [Exact Rack page][HRK-P] |
 | Digital / control I/O | S/PDIF RCA in/out;AES/EBU/L6LINK;BNC wordclock input withtermination;USB;MIDI IN,OUT/THRU;Variax;Helix Control host;EXP1/2/3,toe,EXT AMP1/2,CV OUT;grounded AC. Connector electrical ratings stillunverified. [Rack page][HRK-P] |
 | USB / audio versus controller | **8-in/8-out,24-bit/96kHz** withDI/reamping andMIDI perRack/Control **Cheat Sheet40-00-0455 Rev.C,p2**. Rack USB isaudio/data;Control USB isreserved. This doesnot establish bus-powered Rack operation,current driver support orpedal coverage. [Cheat sheet][HRK-Q] |
 | Controls / text-derived inventory | **10 rotary functions:** Preset,rotating joystick,Volume,Phones,knobs1–6. **Nine separate buttons:** Save,Menu,Home,Amp,Bypass,Action,Page−/+,Tap/Tuner;push-encoder actions counted once. Rack hasno onboard footswitches inthis inventory. Visual corroboration pending;Control’s12switches areseparate. [Rack page][HRK-P];[Cheat sheetp1][HRK-Q] |
 | Volume / hand-control boundary | Rev.C,p1 assigns hand VOLUME to¼-inch,XLR,digital andUSB1/2;PHONES hasits ownknob. These stated hand-control routes do notprove analog EXP attenuation orall-current-firmware routing. [Cheat sheet][HRK-Q] |
-| Processing / power | Dual-SHARC,four stereo paths;grounded AC inlet. Full category/concurrency census,memory fill,power rating,battery/USB operation andexact editor requirements remain open. [Rack page][HRK-P] |
+| Power / mains range | **100–240V AC**,explicitly includingHelix Rack inmanufacturer powerFAQ. Frequency,current/wattage andactualdraw remain unverified. DCcenterpolarity doesnot apply tomains;this doesnot establish battery/USB operation. [PowerFAQ][HRK-W] |
+| Electrical / inputs | Manufacturer **Floor/Rack/LT** section: Guitar In autoimpedance,unbalancedTS;Aux **47.5kΩ TS**;returns **1MΩ instrument /10kΩ line,TS**. Autoimpedance depends onthe firstblock andGlobal setting. No maximuminput voltage inferred. [I/O specifications][HRK-I] |
+| Electrical / outputs | Same section: main L/R,sends andRack-only **Dry** output are **impedance-balanced TRS**. Product instructions touse TS main-output cables areconnection guidance,not evidence thatthe jack cannot beimpedance-balanced. No headphonepower/load orEXP attenuation established. [I/O specifications][HRK-I] |
+| Processing / power | Dual-SHARC,four stereo paths;grounded AC inlet. Full category/concurrency census,memory fill,mainsfrequency/draw,battery/USB operation andexact editor requirements remain open. [Rack page][HRK-P] |
 | IDR / hardware qualification | Used/new processor asks unknown. Search exposed [replacement LCD,272005224/54012405075](https://shopee.co.id/Lcd-Line-6-Helix-Rack-i.272005224.54012405075),not aprocessor. Existing [Helix Control offer](#helix-control--controller) isalso not Rack hardware orproof ofaRack bundle. No market absence inferred. |
 
 The3.80 manual revision identifies firmware applicability,not latest orinstalled firmware. Full-PDF reader rejected its14.6MB size;targeted indexed manufacturer text was available. No local download,software installation ordevice operation. Continue creative-effect inventory,visual control corroboration,physical/power specifications andqualified processor offers before active admission;do notborrow Floor orControl specifications.
@@ -660,9 +663,20 @@ The3.80 manual revision identifies firmware applicability,not latest orinstalled
 
 ### Helix Rack — Rack and Control I/O separation
 
-Checked **2026-11-03** against the exact product’s Rack front/rear sections andmanufacturer **Cheat Sheet40-00-0455 Rev.C**,two pages. Control power/DC/USB labels refer tothe controller;do notassign its DCadapter orreserved USB role tothe Rack processor. Rack voltage/draw,headphone power/load,full port electrical ratings andglobal expression output coverage remain open. RevisionC isnot aclaim oflatest firmware orinstalled behavior. No local download,driver installation ordevice test.
+Checked **2026-11-03** against the exact product’s Rack front/rear sections andmanufacturer **Cheat Sheet40-00-0455 Rev.C**,two pages. Control power/DC/USB labels refer tothe controller;do notassign its DCadapter orreserved USB role tothe Rack processor. At this I/O checkpoint,Rack voltage/draw,headphone power/load,full port electrical ratings andglobal expression output coverage remained open;the electrical follow-up below narrows those gaps. RevisionC isnot aclaim oflatest firmware orinstalled behavior. No local download,driver installation ordevice test.
 
 [HRK-Q]: https://line6.com/data/6/0a00050e07996667724e00577/application/pdf/Helix%20Rack%20and%20Control%20Cheat%20Sheet%20-%20English%20.pdf
+
+### Helix Rack — manufacturer electrical ratings and body conflict
+
+Checked **2026-11-03** against the four manufacturer pages below. The I/O article explicitly includes Rack;it isnot aFloor-only specification transfer. Published impedance values differ frommaximumheadroom orour measurements. PowerFAQ namesRack with100–240VAC;it doesnot publish its frequency/draw here.
+
+Two current manufacturer pages expose different Rack dimensions/masses. Preserve both rawinch triples andweights alongside theexisting comparison-chart metric figures;neither page explains aunit/package orhandle convention. No silent conversion,revision chronology ormeasurement-based resolution. Control’s body remainsseparate. Lead remains partial,outsideactivecounts;no localdownload ordevice operation.
+
+[HRK-D]: https://kb.line6.com/helix-dimensions
+[HRK-F]: https://kb.line6.com/helix-support-faq
+[HRK-W]: https://kb.line6.com/power-supply-battery-specs-and-faq
+[HRK-I]: https://kb.line6.com/helix-floor-rack-lt-hx-effects-input-and-output-specs
 
 ## Helix Stadium XL Floor
 

@@ -127697,6 +127697,21 @@
       "next": "Creative categorycensus,memoryfill,physical/power andeditor specifics,visualcontrols,electricalratings,globalvolume/outputcoverage andqualifiedShopee processoroffers.",
       "active_count_unchanged": 402,
       "independent_queues_preserved": true
+    },
+    "helix_rack_electrical_body_20261103": {
+      "sources": [
+        "https://kb.line6.com/helix-dimensions",
+        "https://kb.line6.com/helix-support-faq",
+        "https://kb.line6.com/power-supply-battery-specs-and-faq",
+        "https://kb.line6.com/helix-floor-rack-lt-hx-effects-input-and-output-specs"
+      ],
+      "finding": "Rackexplicit100–240VAC;Aux47.5kΩ,returns1MΩINST/10kΩLINE;main/sends/RackDryimpedance-balancedTRS;noheadroom/EXPcoverage inference.",
+      "conflict": "ExactRackdimensionspage19x5.25x9.5in9.3lb versusSupportFAQ19x5.05x8.80in11.9lb;axis/basis/chronology unresolved;existingmetricchartpreserved.",
+      "active": false,
+      "fully_verified": false,
+      "next": "Creative/memory/editor profile,frequency/draw,headphone andotherport ratings,visualcontrols,dimensionconflict,globalEXPoutputscope,qualifiedShopeeprocessoroffers.",
+      "active_count_unchanged": 402,
+      "independent_queues_preserved": true
     }
   },
   "brand_navigation": {
