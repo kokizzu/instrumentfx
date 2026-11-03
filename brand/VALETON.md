@@ -1734,7 +1734,15 @@ These choices occupy the existing PRE/MOD module architecture;shared names are n
 - [JR-M: official firmware 1.8.0 manual](https://www.valeton.net/download/121/gp-200jr/22452/gp-200jr_online-manual_en_firmware-v1-8-0-pdf.pdf), [manufacturer download record](https://www.valeton.net/wpfd_file/gp-200jr_online-manual_en_firmware-v1-8-0-pdf/), updated 2026-01-14. Locally extracted; printed pp.3–4 rendered and inspected. Its drawings show one EXP/FS, XLR balanced outputs and three switches despite contradictory copied prose; preserve the distinction. Other illustrations have not all been visually inspected.
 - [JR-N: official regional NAM A2 notice](https://www.hotone.jp/announcements/nama2allbrand), 2026-08-18, explicitly names GP-200JR and desktop 1.8.1+ conversion.
 
-Remaining: authoritative corrections for the manual errors, full category subtotals, toe-switch count, touchscreen/battery/USB-power statements, IR conversion rules, supported NAM architectures/concurrency, scene behavior and condition/stock-qualified IDR. This is a useful partial record, not full verification.
+Remaining: authoritative corrections for the manual errors, toe-switch count, touchscreen/battery/USB-power statements, IR conversion rules, supported NAM architectures/concurrency, scene behavior and condition/stock-qualified IDR. The earlier full-category-subtotal task is **completed for the firmware1.8.0 document** in the census below;current-device equivalence is separate. This is a useful partial record, not full verification.
+
+### GP-200JR — product-page IR-slot wording and standard supply
+
+Checked **2026-11-04**, [exact manufacturer JR product page](https://www.valeton.net/product/gp-2oojr/),revision unstated. The overview calls the20 locations **“factory cab IR slots”**,while its feature list explicitly says **20 user IRs storage**. Preserve this internal wording conflict alongside the firmware1.8.0 manual’s20user locations. Do not add them into40locations,substitute CAB model count,or claim a separate factory/user import bank. File conversion,accepted bit depths andcurrent NAM architecture limits remain unresolved.
+
+The same feature list explicitly says **DC9V supply included**. This is manufacturer standard-package wording,not verification of adapter inclusion in any Shopee listing,its mains plug/input voltage orused bundle. It doesnot establish battery orUSB-powered operation. The unrelated VPS-6 power-supply paragraph remains a documented page-copy error,not aJR specification.
+
+The continuation checklist above now recognizes the completed1.8.0 category census rather than repeatedly queuing that finished document task. Newer firmware equivalence remains open;independent LCD-first andexpression-volume queues are preserved.
 
 ### GP-200JR — corrected complete PRE and WAH census
 

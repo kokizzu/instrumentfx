@@ -148053,5 +148053,14 @@
     ],
     "next": "Continue accessible LCD-first manufacturer gaps;do not repeatedly treat cached delivery wording as live stock.",
     "active_inventory_changed": false
+  },
+  "gp200jr_ir_slot_wording_scope_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://www.valeton.net/product/gp-2oojr/",
+    "revision": "Unstated exactJRproduct",
+    "scope": "20factorycabIR overview vs20userIR feature wording;not additive40;DC9Vsupply included standardpackage only.",
+    "continuation_correction": "Canonical checklist now marks firmware1.8.0 census completed;currentfirmware equivalence remains unknown.",
+    "next": "Exact-model firmware/software release listing,IR conversion andNAM architecture limits;preserve GP200JR→Prime→GE300 andLCD/expression queues.",
+    "active_inventory_changed": false
   }
 }
