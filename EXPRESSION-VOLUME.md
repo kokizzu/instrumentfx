@@ -560,7 +560,7 @@ Manufacturer-listed expression options: **FV-500L, FV-500H, EV-30 and Roland EV-
 
 EX-4 [recall and jack-mode qualification](brand/BOSS.md#ex-4--pedal-recall-jack-modes-and-further-subtype-limits):EXP HOLD explicitly retains pedal tilt across memory changes when On. This is separate from SYSTEM assignment anddoesnot resolve range/placement orpower-on behavior. Stereo I/O andsend/return share the rightpair andcannot provide independent simultaneousconnections.
 
-EX-4 [system output-volume alternative](brand/BOSS.md#ex-4--system-output-level-assignment-and-usb-backup-scope):SYSTEM ASSIGN can targetMASTER OUT LEVEL,a system parameter,instead ofplacedFV. English1–200 versusJapanese0–200 leavesminimumzero/mute unresolved. Bypass/tail coverage andstartuprecall remainunverified.
+EX-4 [system output-volume alternative](brand/BOSS.md#ex-4--system-output-level-assignment-and-usb-backup-scope):SYSTEM ASSIGN can targetMASTER OUT LEVEL,a system parameter,instead ofplacedFV. English1–200 versusJapanese0–200 leavesminimumzero/mute unresolved. Bypass/tail coverage andstartuprecall remainunverified. **Current recheck 2026-11-03:** [English and Japanese now both publish 0–200](brand/BOSS.md#ex-4--current-output-level-range-agreement); the earlier discrepancy remains historical provenance. A zero-valued setting is documented; actual silence, bypass/tail coverage and power-on recall remain unverified.
 
 Nano Cortex [historical support-report qualification](brand/NEURAL-DSP.md#nano-cortex--earlier-reported-support-response-and-post-eq-workaround):August2025 user account sayssupport denied LEVEL control;originalstaffreply/version absent. Decemberpost-EQ workaround consumesaslot anddoesnotproveglobalsetup. Currentall-presetvolume remainsunverified.
 

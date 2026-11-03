@@ -365,6 +365,12 @@ Checked **2026-11-03**: [Nafiri exact EX-4 product](https://nafiriguitar.com/pro
 
 Both are **non-Shopee** evidence. Actual new/used condition,stock,bundle/adapter,warranty,voucher,shipping/tax anddelivered total remain unknown;product shipping is calculated atcheckout. Retailer specifications are not substituted for manufacturer hardware evidence. Exact Shopee searches still yielded no qualified EX-4 item;no unavailable-market conclusion follows. Existing Blibli/Melodia observations remain preserved. **Partial lead stays outside active counts**;no checkout,download ordevice operation.
 
+### EX-4 — current output-level range agreement
+
+Checked **2026-11-03**: the [English MASTER page](https://static.roland.com/manuals/ex-4_parameter/en-US/631124107637712523.html) now exposes **MEM LEVEL 0–200 and OUT LEVEL 0–200**, matching the [Japanese MASTER page](https://static.roland.com/manuals/ex-4_parameter/ja-JP/631124107637712523.html). The earlier recorded English 1–200 observation is retained above as historical provenance; the retrieved current pages no longer show that range discrepancy. No revision timestamp identifies when or why the text changed.
+
+OUT LEVEL is explicitly a system parameter shared by all memories. The existing **SYSTEM / EXP / MANUAL / MASTER → OUT LEVEL** assignment therefore has a documented zero-valued endpoint available within the target's published range; ASSIGN MIN/MAX remain target-dependent. This narrows the numeric-range gap without certifying acoustic silence, a dB curve, ALL BYPASS attenuation, send-path coverage, tails, competing assignments or power-on pedal recall. The separate FV target retains its own placement and 0–100 endpoint rules. Hardware, firmware and actual assignment operation were not tested. EX-4 remains a partial lead outside active counts.
+
 ## GM-800
 
 Consolidated and refreshed **2026-10-16**; partial verification. This processor qualifies through independent MFX architecture; it requires specialized input hardware for guitar/bass playing. No excluded specialist model is added.

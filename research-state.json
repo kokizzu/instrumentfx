@@ -144691,5 +144691,24 @@
       "No installed-firmware orhardware test"
     ],
     "next": "Continue individual footswitch displays andcompact no-treadle inventory;defer inaccessible source gaps;preserve GP-200JR→Prime→GE300 general queue."
+  },
+  "ex4_current_output_range_20261103": {
+    "model": "BOSS EX-4",
+    "checked": "2026-11-03",
+    "status": "Existing partial lead; outside active counts",
+    "sources": [
+      "https://static.roland.com/manuals/ex-4_parameter/en-US/631124107637712523.html",
+      "https://static.roland.com/manuals/ex-4_parameter/ja-JP/631124107637712523.html",
+      "https://static.roland.com/manuals/ex-4_parameter/en-US/632079883637723019.html",
+      "https://static.roland.com/manuals/ex-4_parameter/en-US/632117771637723787.html"
+    ],
+    "finding": "Current English and Japanese MEM LEVEL/OUT LEVEL both 0–200; OUT LEVEL explicitly system-shared and assignable",
+    "history": "Earlier recorded English 1–200 observation preserved; text revision timing unknown",
+    "limits": [
+      "Zero-valued endpoint is not measured silence or a dB curve",
+      "ALL BYPASS, send path, tails, competing assignments and power-on recall remain unverified",
+      "No qualified exact Shopee offer surfaced; not proof of absence"
+    ],
+    "next": "Continue LCD-first and compact no-treadle inventory; defer inaccessible AXOM MAX primary display evidence and preserve independent GP-200JR→Prime→GE300 queue."
   }
 }
