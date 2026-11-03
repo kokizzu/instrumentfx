@@ -739,15 +739,18 @@ Queries for Shopee Indonesia **NUX MG-30 MKII**, **MG30 MK2** and **MG30 MKII** 
 | Field | Preserved finding / unresolved detail |
 |---|---|
 | Expression / controls | Built-in plus external EXP/NMP-2 Lite. **7/6/4**,rear power/toe separate. |
-| Body / display | **393×210×72mm;2.8kg**,large. Exact display diagonal/color/touch pending in retained research. |
-| Processing | **14 blocks**,serial/parallel/split,dual amp paths. Published EFX14,MOD13,DLY8,RVB5,wah5,comp3,gate1,EQ4. Exact synth/acoustic algorithms ?. |
+| Body / display | **393×210×72mm;2.8kg**,large. **5-inch color LCD** now corroborated by global/US manufacturer pages;touch/pixels remain unverified. [Current follow-up](#mg-50li--current-display-firmware-and-creative-choices). |
+| Processing | **14 blocks**,serial/parallel/split,dual amp paths. Published EFX14,MOD13,DLY8,RVB5,wah5,comp3,gate1,EQ4;[named lists and pitch distinctions below](#mg-50li--current-display-firmware-and-creative-choices). Dedicated synth/acoustic simulation and algorithm-specific input polyphony unverified. |
 | Presets | **297 total**,but global96factory+201user versus US150factory+147user. Do not choose a mixed split without firmware evidence. |
 | IR / captures | **60 user IRs,30 user amp slots**. Global42factoryIR vsUS60;USintro120userIR conflicts with its own60 specification. Proprietary DeepImage/NUX Image workflow separate from **native NAM A2 Lite**. |
 | Factory amps | Global28 white-box+30DeepImage versus US27+33. Retain source conflict,not a fabricated current library. |
 | Ports | 6.35 mm input,two6.35 mm outputs,twoXLR outputs,**two mono FX loops**;3.5 mm AUX/phones,MIDI IN/OUT;EXP;USB-C;NBT-1 port. |
 | Power / battery | **12V/1.5A center-negative,<1400mA draw;5000mAh/7.4V rechargeable battery**. Global6h versusUS5h rating,not independently tested. USB-power operation unverified. |
 | Apps | NUX Audio **Windows/macOS/iOS/Android**,included NBT-1 Bluetooth module;NUX Image capture software **Windows/macOS**;USB audio/MIDI. |
-| Prices | Used/new IDR ?. Foreign quotes separately preserved. |
+| Firmware / USB and tails | **English1.1.1,2026-07-31**: USB audio can reach XLR;Patch Tail Off cuts preset-change tails. Not proof of global EXP coverage. [Revision-qualified follow-up](#mg-50li--current-display-firmware-and-creative-choices). |
+| Editor / current support listing | Opened global page: NUX Audio **1.1.7.1,2026-09-14**;NUX IMAGE **1.1.0.1,2026-08-06**;Windows10+ ASIO **5.72.0**. These versions are distinct from hardware firmware;older indexed listings retained separately. |
+| Synth / pitch / special | Manufacturer names Harmonist,Detune,Octave-Shift,Reverse andShimmer. Input-note polyphony/ranges,dedicated synth andinstrument simulator remain unverified. [Exact palette](#mg-50li--current-display-firmware-and-creative-choices). |
+| Prices | Verified used/new IDR remain unknown. **Rp7.510.000** condition/stock-unverified exact Shopee asks,with unresolved variations;[offer qualifications below](#mg-50li--exact-shopee-hardware-offers). Foreign quotes remain separate. |
 
 The previous review used official [front](https://www.nux.us/cdn/shop/files/MG-50LI.01.jpg?v=1768430650&width=2400) and [rear](https://www.nux.us/cdn/shop/files/MG-50LIWH.02.jpg?v=1768430739&width=2400) photos to verify controls,XLR and two send/return pairs. Checked English firmware1.1.1 was a dated snapshot. Domestic/Mandarin firmware and global/English firmware must not be interchanged by assumption.
 <!-- comparison evidence ends -->
@@ -795,6 +798,44 @@ The category numbers describe the cited list, not guaranteed totals after every 
 The global download pages explicitly distinguish domestic/Mandarin versus global/English hardware firmware. Use the correct regional firmware, back up presets and install the matching editor. At checking, MG-300 MKII GEN2 was 3.0.0, MG-400 GEN2 3.0.3, MG-30 GEN2 1.0.5, and MG-50Li English firmware 1.1.1. This is a dated documentation snapshot, not an update instruction for an unidentified unit.
 
 Model sources: [Source 1](https://nuxaudio.com/product/mg50li/) · [Source 2](https://www.nux.us/products/mg-50li) · [Source 3](https://www.nux.us/pages/nam-a2-native) · [Source 4](https://www.nux.us/cdn/shop/files/MG-50LI.01.jpg?v=1768430650&width=2400) · [Source 5](https://www.nux.us/cdn/shop/files/MG-50LIWH.02.jpg?v=1768430739&width=2400)
+
+### MG-50Li — current display, firmware and creative choices
+
+Checked **2026-11-04**. [Global manufacturer page](https://nuxaudio.com/product/mg50li/) and [US page](https://www.nux.us/products/mg-50li) identify a **5-inch color LCD**;pixels/touch unverified. This doesnot establish separate screens at the footswitches.
+
+**Global V1.1.1**,listed **2026-07-31** for English hardware: native **NAM A2-Lite**,cloud preset/system backup,Knob2 preset level **±12dB**,TAP delay up to **2000ms**,STOMP LATCH,andTAP/SCENE control acrossS1–S3. **Patch Tail Off cuts preset-change tails;USB playback can reach XLR outputs.** Fixes include swapped Harmonist Major/Minor positions andEXP Independent With Patch behavior;neither proves polyphony orglobal analog-volume assignment. Installed firmware unknown;Mandarin firmware remains separate.
+
+The opened global support panel lists **NUX Audio1.1.7.1,2026-09-14**, **NUX IMAGE1.1.0.1,2026-08-06**,andWindows10+ **ASIO5.72.0**. Search snapshots retain older editor listings;these are distinct software/driver versions,not hardware firmware. No package fetched.
+
+The [US product palette](https://www.nux.us/products/mg-50li),firmware minimum unstated,contains **53 choices across eight groups** below. This excludes AMP/IR/utility choices;not53 simultaneous blocks orinstalled-library certification.
+
+| Group | Named choices |
+|---|---|
+| EFX14 | Dist+,RC Boost,AC Boost,Dist One,T Scream,Blues Drv,Morning Drv,EAT,Red Dirt,Crunch,Muff Fuzz,Katana Boost,Red Fuzz,Touch Wah |
+| MOD13 | CE-1,CE-2,ST. Chorus,Vibrator,Detune,Flanger,Phase 90,Phase 100,S.C.F.,U-Vibe,Tremolo,Rotary,Harmonist |
+| DLY8 | Analog,Digital,Modulation,Tape,Reverse,Pan,Duotime,Phi |
+| RVB5 | Room,Hall,Plate,Spring,Shimmer |
+| WAH5 | Clyde,Cry BB,V847,Horse Wah,Octave-Shift |
+| CMP3 | Rose,K Comp,Studio Comp |
+| GATE1 | Noise Reduction |
+| EQ4 | 6-Band,Align,10-Band,Para |
+
+**Harmonist,Detune andOctave-Shift** are named pitch choices;their ranges/input polyphony remain unverified. Touch Wah is filtering;Rotary andShimmer do not establish a dedicated tracking synth orinstrument simulator. Native NAM andDeepImage capture remain separate amp-processing workflows.
+
+**Latency conflict:** global specification **≤3ms**,US **minimum3ms**;neither is our measurement. Preserve both inequalities rather than call3ms an independently established maximum.
+
+Full English manual exceeds the web reader’s **13,127,706-byte** limit;Quick Start V1 opens as nine image-only pages without readable text/images in this interface. No claimed new visual inspection,local download,update ordevice test. Existing factory/user,amp/IR-count andbattery-duration conflicts remain open.
+
+### MG-50Li — exact Shopee hardware offers
+
+Checked **2026-11-04**. These cached listings name the processor;selected variation,current stock andcondition remain unresolved. No verified new/used price is inferred.
+
+| Seller / exact item | Cached ask | Offer qualifications |
+|---|---:|---|
+| [TOKOAUDIOPRO.COM,shop253483262/item20963440637](https://shopee.co.id/Nux-MG50-LI-Multieffect-Modeler-Profiler-Nux-Mg-50Li-Multi-Effects-Processor-for-Guitar-and-Bass-Multi-Efek-Gitar-Nux-MG50Li-i.253483262.20963440637),KotaJakartaPusat | **Rp7.510.000** | Two-week clean-title search;three-day parameterized snapshot shows **two variations**,display_model_id365815730200. Variation name/bundle unresolved;direct clean reopening failed. Do not assume that identifier selects a particular color orpackage. |
+| [HOLY MUSIC,shop945642322/item51558487289](https://shopee.co.id/NUX-MG-50LI-MG50LI-MG-50-Li-MULTI-EFFECT-PROCESSOR-NEW-ARRIVAL-LITHIUM-i.945642322.51558487289),KotaJakartaUtara | **Rp7.510.000** | Last-week search/three-week opened snapshot;**navi/putih** variation labels. Neither selected-variant checkout norlive inventory established. “NEW ARRIVAL” is title text,not verified sale condition. |
+
+Both:working state,regional hardware/firmware,adapter/bundle,warranty,shipping/tax andcheckout unknown. Relative delivery promises are not stock confirmation;late-delivery compensation isnot deducted. Covers andshop/category-only hits excluded. No ownership inferred;active membership unchanged.
 
 ## MG-100
 

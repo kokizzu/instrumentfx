@@ -145471,6 +145471,15 @@
         "instrument": "Synth string tone;acoustic conversion unverified",
         "qualification": "Four active FX;grouped LCDs;historical RevB,not complete fresh audit",
         "evidence_basis": "Exact shared manufacturer M5/M9/M13 RevB ©2011,focused creative follow-up2026-11-04."
+      },
+      {
+        "key": "NUX::MG-50Li",
+        "canonical": "brand/NUX.md#mg-50li",
+        "synth": "Dedicated synth unverified;Touch Wah is filtering",
+        "pitch": "Harmonist;Detune;Octave-Shift;input polyphony/ranges unverified",
+        "instrument": "Dedicated simulator unverified",
+        "qualification": "US named palette;global1.1.1 Harmonist correction;NAM/capture separate;not full fresh audit",
+        "evidence_basis": "Focused exact-model manufacturer follow-up2026-11-04"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -145493,68 +145502,73 @@
     "independent_queues_preserved": true,
     "additional_index_presentation": {
       "checked_date": "2026-11-04",
-      "records": 50,
-      "change": "Indexed existing active M13 creative capabilities;no inventory membership change.",
+      "records": 51,
+      "change": "Indexed existing active MG-50Li pitch/special choices;no inventory change.",
       "previous": {
         "checked_date": "2026-11-04",
-        "records": 49,
-        "change": "Indexed existing active Anagram;no membership change.",
+        "records": 50,
+        "change": "Indexed existing active M13 creative capabilities;no inventory membership change.",
         "previous": {
           "checked_date": "2026-11-04",
-          "records": 48,
-          "change": "Indexed existing active Solis Ventus creative processing;no membership change.",
+          "records": 49,
+          "change": "Indexed existing active Anagram;no membership change.",
           "previous": {
             "checked_date": "2026-11-04",
-            "records": 47,
-            "change": "Indexed existing active GP-200JR creative algorithms;no membership change.",
+            "records": 48,
+            "change": "Indexed existing active Solis Ventus creative processing;no membership change.",
             "previous": {
               "checked_date": "2026-11-04",
-              "records": 46,
-              "change": "Indexed existing active NEURIG creative algorithms;no membership change.",
+              "records": 47,
+              "change": "Indexed existing active GP-200JR creative algorithms;no membership change.",
               "previous": {
                 "checked_date": "2026-11-04",
-                "records": 45,
-                "change": "Indexed existing active Nano Cortex;no membership change.",
+                "records": 46,
+                "change": "Indexed existing active NEURIG creative algorithms;no membership change.",
                 "previous": {
-                  "checked_date": "2026-11-03",
-                  "records": 44,
-                  "change": "Indexed existing active G3Xn;membership unchanged.",
+                  "checked_date": "2026-11-04",
+                  "records": 45,
+                  "change": "Indexed existing active Nano Cortex;no membership change.",
                   "previous": {
                     "checked_date": "2026-11-03",
-                    "records": 43,
-                    "change": "IndexedexistingactiveME90creativealgorithms;membershipunchanged.",
+                    "records": 44,
+                    "change": "Indexed existing active G3Xn;membership unchanged.",
                     "previous": {
                       "checked_date": "2026-11-03",
-                      "records": 42,
-                      "change": "IndexedexistingactiveG1Xon;pedalendpoint/notehandling distinctions;membershipunchanged.",
+                      "records": 43,
+                      "change": "IndexedexistingactiveME90creativealgorithms;membershipunchanged.",
                       "previous": {
                         "checked_date": "2026-11-03",
-                        "records": 41,
-                        "change": "IndexedexistingactiveG1oncreativeprocessing;membershipunchanged.",
+                        "records": 42,
+                        "change": "IndexedexistingactiveG1Xon;pedalendpoint/notehandling distinctions;membershipunchanged.",
                         "previous": {
                           "checked_date": "2026-11-03",
-                          "records": 40,
-                          "change": "IndexedexistingactiveHelixLT;supersededqualifiedsynth/acousticunknown;membershipunchanged.",
+                          "records": 41,
+                          "change": "IndexedexistingactiveG1oncreativeprocessing;membershipunchanged.",
                           "previous": {
                             "checked_date": "2026-11-03",
-                            "records": 39,
-                            "change": "Indexed existingactiveAX3B;correctedmanualedition/resetattribution;membershipunchanged.",
+                            "records": 40,
+                            "change": "IndexedexistingactiveHelixLT;supersededqualifiedsynth/acousticunknown;membershipunchanged.",
                             "previous": {
                               "checked_date": "2026-11-03",
-                              "records": 38,
-                              "change": "Indexed existingactiveAX3000B;membershipunchanged;focusedcreativecheck.",
+                              "records": 39,
+                              "change": "Indexed existingactiveAX3B;correctedmanualedition/resetattribution;membershipunchanged.",
                               "previous": {
                                 "checked_date": "2026-11-03",
-                                "records": 37,
-                                "change": "Indexed existingactiveAX1500G;noinventoryadmission orwholecatalogueaudit.",
+                                "records": 38,
+                                "change": "Indexed existingactiveAX3000B;membershipunchanged;focusedcreativecheck.",
                                 "previous": {
                                   "checked_date": "2026-11-03",
-                                  "records": 36,
-                                  "change": "Indexed existing active Stadium XL;not inventory admission orwhole-catalogue reaudit.",
+                                  "records": 37,
+                                  "change": "Indexed existingactiveAX1500G;noinventoryadmission orwholecatalogueaudit.",
                                   "previous": {
                                     "checked_date": "2026-11-03",
-                                    "records": 33,
-                                    "change": "Corrected stale 31-record introduction to 33 and removed blank lines splitting the additional-catalogue Markdown table. No technical claims, ownership, instrument membership or independent queues changed."
+                                    "records": 36,
+                                    "change": "Indexed existing active Stadium XL;not inventory admission orwhole-catalogue reaudit.",
+                                    "previous": {
+                                      "checked_date": "2026-11-03",
+                                      "records": 33,
+                                      "change": "Corrected stale 31-record introduction to 33 and removed blank lines splitting the additional-catalogue Markdown table. No technical claims, ownership, instrument membership or independent queues changed."
+                                    }
                                   }
                                 }
                               }
@@ -148347,5 +148361,54 @@
     ],
     "next": "Return to requested processor capability gaps before further controller expansion;general GP-200JR -> Prime -> GE300 queue retained.",
     "active_inventory_changed": false
+  },
+  "mg50li_current_profile_20261104": {
+    "checked": "2026-11-04",
+    "model": "NUX MG-50Li",
+    "sources": [
+      "https://nuxaudio.com/product/mg50li/",
+      "https://www.nux.us/products/mg-50li"
+    ],
+    "canonical": "brand/NUX.md#mg-50li--current-display-firmware-and-creative-choices",
+    "scope": "Display,versioned control/USB/tail changes,named eight-group palette andexact Shopee asks;partial profile.",
+    "remaining": [
+      "Full manual access",
+      "Screen pixels/touch",
+      "Algorithm-specific note handling",
+      "Factory/user andamp/IR count conflicts",
+      "Battery-duration andlatency inequalities",
+      "External toe andUSB power",
+      "Offer condition/variant/stock/bundle/region",
+      "Separate reconciliation of existing guitar-only membership with exact manufacturer guitar/bass support"
+    ],
+    "next": "Requested separate-screen processor gaps first;independent general GP-200JR -> Prime -> GE300 andGT-Pro queues retained.",
+    "active_inventory_changed": false,
+    "offers": [
+      {
+        "seller": "TOKOAUDIOPRO.COM",
+        "shop": "253483262",
+        "item": "20963440637",
+        "idr": 7510000,
+        "variants": "two;display_model_id365815730200 unresolved",
+        "access": "two-week clean-title search;three-day parameterized snapshot;direct clean reopening failed",
+        "condition": "unverified",
+        "stock": "unverified",
+        "bundle": "unverified",
+        "region": "KotaJakartaPusat;hardware region unverified"
+      },
+      {
+        "seller": "HOLY MUSIC",
+        "shop": "945642322",
+        "item": "51558487289",
+        "idr": 7510000,
+        "variants": "navi/putih;selection unresolved",
+        "access": "last-week search;three-week opened snapshot",
+        "condition": "unverified;NEW ARRIVAL is title",
+        "stock": "unverified",
+        "bundle": "unverified",
+        "region": "KotaJakartaUtara;hardware region unverified"
+      }
+    ],
+    "membership_qualification": "Existing guitar-only comparison membership preserved for this capability audit despite explicit manufacturer guitar/bass wording. Separate membership reconciliation remains pending;no bass row silently added."
   }
 }
