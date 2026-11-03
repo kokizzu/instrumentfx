@@ -145387,8 +145387,8 @@
         "canonical": "brand/ZOOM.md#g1on",
         "synth": "Dedicatedtracking synth unverified;filter/onset/rotary distinct",
         "pitch": "PitchSHFT;MonoPitchsingle-note;HPS;Octave;Detune",
-        "instrument": "Aco.Sim;SlowATTCKviolin-likeonsetnotinstrumentengine",
-        "qualification": "2014exactlist,current support stilllinks;firmwaremappingunknown;fiveblockDSP;noG1Xonpedalinheritance",
+        "instrument": "Aco.Sim;SlowATTCKviolin-likeonsetnotinstrumentengine;Z-Organ(expandedVer1.2list)",
+        "qualification": "2014exactlist,current support stilllinks;firmwaremappingunknown;fiveblockDSP;noG1Xonpedalinheritance;official1.21March2014adds25reconciles75→100;expandedlist1.2wordingretained",
         "evidence_basis": "Focused2026-11-03 manufacturerlist/controlranges,notwholeprofile/currentinstalledaudit."
       },
       {
@@ -147315,6 +147315,21 @@
     "remaining": "Otherpolyphony/latency,currentfirmware/categorycountconflict,physicalcontrols,qualifiedcondition/variant/stock.",
     "additional_creative_records": 42,
     "active_count_unchanged": 402,
+    "independent_queues_preserved": true
+  },
+  "g1on_121_expansion_20261103": {
+    "model": "Zoom G1on",
+    "checked": "2026-11-03",
+    "sources": [
+      "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G1on_G1Xon_ver121_en_0.pdf",
+      "https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/J_G1on_G1Xon_FX-list_100_0.pdf",
+      "https://www.zikinf.com/manuels/zoom-g1on-liste-des-effets-et-parametres-en-46322.pdf"
+    ],
+    "canonical": "brand/ZOOM.md#g1on--121-effect-expansion-and-organ-tone",
+    "finding": "Official1.21March2014 adds25;G1on75+25=100. ExpandedVer1.2 list addsZOrgan,BendCho,BitCrush,Bomber,Step,RndmFLTR,fCycle.",
+    "remaining": "Full25name/currentcategorycensus,notehandling/latency,installedversion;G1Xon80/100 separatemodelnext.",
+    "active_count_unchanged": 402,
+    "additional_creative_records_unchanged": 42,
     "independent_queues_preserved": true
   }
 }

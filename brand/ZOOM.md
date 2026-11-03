@@ -2448,10 +2448,11 @@ Guitar multi-effects, distinct from G1Xon and G1 FOUR. Checked 2026-10-17; parti
 | K/F/B | **1 / 2 / 8**, text-derived:Parameterknob;twofoot switches;MENU,HOME,ENTER,RHYTHM/LOOPER andfourcursor keys. Virtualknobs excluded. Visualcorroboration pending. | [Manual p4][G1ON-M] |
 | Display | **Backlit dot-matrix LCD**; diagonal, color and touch unverified. | [Zoom G1on][G1ON-P] |
 | Dimensions / mass | **146×154.8×43 mm W×D×H;380 g without batteries**. Depth exceeds current140mm preference; historical compact label superseded. | [Zoom G1on][G1ON-P] |
-| Processing / category choices | **Five simultaneous**, reorderable andDSP-limited;PROCESSING LIMIT bypasses theover-budgeteffect. Product advertises100 effects; shared2013 manual G1on75. Published subtotals11 dynamics/filter+12 drive+22 amp+16 modulation/SFX+14 delay/reverb=75. Revision conflict unresolved;notG1Xon's80. | [Product][G1ON-P];[Manual p31][G1ON-M] |
+| Processing / category choices | **Five simultaneous**, reorderable andDSP-limited;PROCESSING LIMIT bypasses theover-budgeteffect. Product advertises100 effects; shared2013 manual G1on75. Published subtotals11 dynamics/filter+12 drive+22 amp+16 modulation/SFX+14 delay/reverb=75. Earlier count conflict is now revision-qualified: **1.21 added25,March2014;75+25=100**. Old subtotals remain historical,notG1Xon's80. [Resolution](#g1on--121-effect-expansion-and-organ-tone). | [Product][G1ON-P];[Manual p31][G1ON-M] |
 | Factory / user memory | **100 writable patches,10×10**. Auto Save andPre Select documented; AutoSave defaultsON;unsavedpatches cannotbe swapped. Initial factory-filled subset pending. | [Zoom G1on][G1ON-P] |
 | Pitch / creative algorithms | PitchSHFT andMonoPitch **−12…+12 or+24semitones,Fine±25cents**;MonoPitch explicitly single-note. HPS follows scale/key;Octave adds−1/−2octaves;Detune±25cents. Other note polyphony unverified. | [Exact-list scope](#g1on--creative-algorithms-and-note-handling) |
 | Processing / special effects | Slicer20patterns;SeqFLTR2–8steps/8patterns;RingMod,Cry,M-Filter,SlowATTCK,Rt Closet. Filters/onset shaping/rotary differ from tracking synthesis. | [Own effects list][G1ON-F] |
+| Synth / later organ tone | **Z-Organ** in expandedVer1.2 list;separate from a general tracking synth. BendCho,BitCrush,Bomber,Step,RndmFLTR,fCycle are starred additions. Input polyphony unverified. | [Revision-qualified additions](#g1on--121-effect-expansion-and-organ-tone) |
 | Synth / acoustic | **Aco.Sim** hasTop,Body andLevel controls for electric-to-acoustic tone/bodyresonance. Synth capability unverified. | [Official shared effectlist p6][G1ON-F] |
 | I/O | Mono6.35mm INPUT,stereo3.5mm AUX,shared stereo6.35mm OUTPUT/headphones,USB andDC. Completepanelinventory hasno MIDI,send/return orexternalEXP. AUX routesdirectly toOUTPUT,unprocessed. | [Manual pp4–5][G1ON-M] |
 | Power / battery / USB | **9V DC center-negative,500mA AD-16 supply;4AA alkaline/NiMH orUSB power**. 20h alkaline,manual qualifies backlightoff. Measured draw unverified. | [Product][G1ON-P];[Manual pp2,6,31][G1ON-M] |
@@ -2494,6 +2495,16 @@ PitchSHFT spans−12…+12 or+24semitones;zero selects detuning. Its Fine contro
 **Aco.Sim** explicitly converts electric-guitar tone toward acoustic,withTop/Body controls. **SlowATTCK** shapes onset forbowed/violin-like playing;**Rt Closet** models arotaryspeaker. Neither establishes synthesized instrument tones. **Slicer,SeqFLTR,RingMod,Cry andM-Filter** provide rhythmic/modulation/filter processing. No dedicated tracking-synth entry was identified inthis checked list;support remains unverified rather than universally absent. G1Xon-only pedal models are not added toG1on. Five-block/DSP limits remain.
 
 Shopee again surfaced existing61848168/18873574731 **Rp800,000,Habis**,two-month cache;condition remains unverified. MixedG1Xon/G1on58780289/15654839389 still hasunresolvedvariant,so itsRp1,398,000ask isnotan exactG1onprice. No localdownload,installation ordevice operation.
+
+### G1on — 1.21 effect expansion and organ tone
+
+Checked **2026-11-03**: [Zoom system history,Z2I-2045-02](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/G1on_G1Xon_ver121_en_0.pdf) dates1.11 production toDecember2013 and **1.21’s25-effect addition toMarch2014**. This reconciles the earlier75-choice manual with100-choice advertising;five simultaneous blocks remain separate.
+
+The expanded manufacturer list labels starred additions **“Ver1.2”**. [Official Japanese edition,pp2,4–5,17](https://www.zoom.co.jp/sites/default/files/products/downloads/pdfs/J_G1on_G1Xon_FX-list_100_0.pdf) corroborates the [English manufacturer-authored reproduction,Z2I-1991-01,pp2,4–5,15–16](https://www.zikinf.com/manuels/zoom-g1on-liste-des-effets-et-parametres-en-46322.pdf). Preserve1.2 list shorthand versus1.21 release-history precision. The current support link’s18-page baseline list omits these additions.
+
+**Z-Organ** simulates organ tone,withUpper/Lower/Dry levels andHPF/LPF;note polyphony unverified. **BendCho** bends from input-note triggers;**BitCrush** provides lo-fi;**Bomber** pick-triggers HndGn/Arm/Bomb/Thndr sounds. **Step,RndmFLTR,fCycle** are stepped,random andcyclic processing. They are not additional verified synth-tracking engines. The full25-name/current-category census andinstalled firmware remain unverified;no model-file ordevice test.
+
+Earlierbaseline algorithm findings remain dated,not invalidated. G1Xon’s separate80/100 headline remains outside thisG1on reconciliation. No localdownload,dependency orfirmware installation.
 
 ## G1X FOUR
 
