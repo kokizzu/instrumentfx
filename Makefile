@@ -2392,3 +2392,9 @@ research-test-canonical-sections:
 .PHONY: research-stage-gfi
 research-stage-gfi:
 	python3 scripts/gfi_catalogue.py stage
+
+.PHONY: expression-audit-stage-darkglass expression-audit-commit-darkglass
+expression-audit-stage-darkglass:
+	python3 scripts/expression_audit_darkglass.py stage
+expression-audit-commit-darkglass:
+	python3 scripts/expression_audit_darkglass.py commit
