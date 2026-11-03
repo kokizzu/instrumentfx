@@ -148262,5 +148262,20 @@
     ],
     "next": "Continue remaining GFX8 hardware/market gaps without treatingpartialprofile asfullyverified;retainrequesteddisplaypriority/generalqueue.",
     "active_inventory_changed": false
+  },
+  "gfx8_live_backup_scope_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://zoomcorp.com/media/documents/E_GFX8.pdf",
+    "revision": "GFX-8-5000-2;printed32–34,38–40",
+    "scope": "Recorded-audio duration/erasure andMIDI-mode boundaries;bulk settings scopes separate from audio exports.",
+    "remaining": [
+      "Exact seller condition/stock andbundle",
+      "Visual corroboration",
+      "Axis conflict",
+      "Current software compatibility",
+      "Output coverage"
+    ],
+    "next": "Return to requested individual-footdisplay priorities;defer unchanged GFX8 source/market gaps andpreserveGP-200JR -> Prime -> GE300 order.",
+    "active_inventory_changed": false
   }
 }

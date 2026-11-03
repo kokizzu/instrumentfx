@@ -5249,7 +5249,7 @@ Printedpp4–5 name all21buttons;the nine rotary total includes the rear LEVEL c
 
 ## GFX-8 — partial discovery lead
 
-Checked **2026-11-03** in [Zoom’s original operation manual](https://zoomcorp.com/media/documents/E_GFX8.pdf),printedpp4–6,40–42. Exact GFX-8 title/body;MIDI chart1.00/1999 isnot installed firmware proof. **Outside active inventory**: exact Shopee seller/item still unresolved. No ownership assertion.
+Checked **2026-11-03** in [Zoom’s original operation manual](https://zoomcorp.com/media/documents/E_GFX8.pdf),printedpp4–6,40–42. Exact GFX-8 title/body;MIDI chart1.00/1999 isnot installed firmware proof. **Initial discovery baseline; outside active inventory.** The exact Shopee item was subsequently recovered below; later dated findings supersede resolved unknowns. No ownership assertion.
 
 | Field | Manufacturer evidence / remaining gap |
 |---|---|
@@ -5264,7 +5264,7 @@ Checked **2026-11-03** in [Zoom’s original operation manual](https://zoomcorp.
 | I/O | Mono guitar input;stereo miniAUX;mono send/return;two mono lineouts;stereo phones;MIDIIN/OUT,OUT selectableTHRU. AUX bypasses effects. |
 | Editor | Original MIDI-linked visual editor/librarian;manufacturer legacy page lists **Windows95/98,MacOS7.5–8**. Current compatibility unresolved. [Legacy product](https://www.zoom.co.jp/products/guitar/gfx-8-guitar-effects-processor) |
 | IR / NAM / capture | User loading andcapture compatibility unresolved;no sibling transfer. |
-| Looper / drums / live | Sampler maximum25seconds;Jam Play separate. Further continuity,drums,trails andcontrol coverage pending. |
+| Looper / drums / live | Sampler and Jam Play have distinct duration, erasure and MIDI restrictions; see dated findings below. Drums and broader continuity remain unverified. |
 | Used / new IDR | Both unverified. Rp2.100.000 appears only in a search-category snippet;direct category omitsGFX-8 andexposes noexact item. Not an accepted price,stock orcondition observation. |
 
 [Current search-category lead](https://shopee.co.id/search?category=11043572&keyword=efek+gitar+zoom&page=3&sortBy=relevancy&subcategory=11043648): search reports three-day Octobercache,direct reader month-old Septemberbody. Earlier failed searches andexcluded adapters/sensors remain in the ledger. Not proof ofmarket absence. No local download,software installation,visual panel inspection ordevice operation.
@@ -5305,6 +5305,20 @@ Checked **2026-11-04**, [original English manual,GFX-8-5000-2,printedpp4,31 anda
 - **User filling:** U0–U9 andu0–u9,each four named entries:80. **Preset filling:** A0–A9,b0–b9,C0–C9,d0–d9:160. This is an address/name census,not a parameter audit orinspection of secondhand contents.
 
 These findings supersede the earlier unknown control andinitial-fill fields. No panel-image inspection,reset ordevice operation.
+
+### GFX-8 — recorded-audio limits and MIDI backup scope
+
+Checked **2026-11-04**, [original English manual GFX-8-5000-2, printed pp32–34,38–40](https://zoomcorp.com/media/documents/E_GFX8.pdf).
+
+| Function | Documented boundary |
+|---|---|
+| Jam Play | Normal/reverse recording up to **12s**; scratch **2s**. Switching between scratch and another style erases prior audio. Normal/reverse pedal operation controls input/playback level; scratch uses pedal movement for playback. |
+| Sampler | Up to **25s**; exiting clears the recording. Guitar source follows EQ/amp simulation; AUX source bypasses effects. Optional pitch compensation separates speed changes from pitch changes. |
+| MIDI while recording facilities are active | External MIDI control is unavailable during Jam Play or Sampler. Stored MIDI channel settings are not proof that commands remain usable in these modes. |
+| Bulk dump | **ALL**: all settings; **PAT**: patches; **SYS**: settings excluding patches; **BUF**: current patch; **DST**: custom DRIVE settings. This does not establish recorded-audio export or IR/NAM import. |
+| Bulk load | Overwrites the corresponding data; requires matching MIDI channel and original playback tempo. Store mode ignores incoming bulk data. No restore test performed. |
+
+Partial profile remains outside active counts. Exact hardware condition/stock, visual corroboration and current software compatibility remain open. No download, MIDI transmission or device operation.
 
 ## GFX-707
 
