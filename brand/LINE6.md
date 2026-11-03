@@ -1249,6 +1249,25 @@ FS4/FS5 functions only apply when the corresponding contact is configured as a s
 
 [Exact firmware listing](https://line6.com/software/index.html?hardware=HX+Stomp&name=Firmware&submit_form=set) still exposes3.80.0,2024-11-19;installed firmware unknown. These settings do not replace per-preset Volume/Pan blocks/assignments. Existing global-position,all-bypass,headphone/tail/loop limitations remain. No device test,download orfirmware update.
 
+### HX Stomp — own 3.80 effect-category census
+
+Checked **2026-11-03**, manufacturer-authored **40-00-0408 Rev D,firmware3.80**,printed pp23–28,through a [readable document reproduction](https://device.report/m/1c7a44b0cd816b069c55251d29f0bba5f791414d80dc8576da1127401a9f9949). The [official PDF](https://line6.com/data/6/0a00051afdda673cccdb61c9c/application/pdf/HX%20Stomp%203.80%20Owner%27s%20Manual%20-%20English%20.pdf) still exceeds the reader limit;its indexed cover matches that document number and Rev D,although search metadata calls it Rev F. No binary identity or newer revision equivalence claimed;generated mirror prose excluded.
+
+| Category | HX rows | Legacy rows | Named choices |
+|---|---:|---:|---:|
+| Distortion |44|17|61|
+| Dynamics |12|7|19|
+| EQ |8|0|8|
+| Modulation |30|26|56|
+| Delay |28|17|45|
+| Reverb |13|12|25|
+| Pitch/Synth |12|17|29|
+| Filter |4|11|15|
+| Wah |11|0|11|
+| Volume/Pan |5|0|5|
+
+**274 named choices =167 HX +107 Legacy**,counted from this HX Stomp appendix,not copied from XL orHX Effects. Mono/stereo implementations count once. Interleaved extraction places legacy Tube Drive/Screamer near Dynamics;their distortion-column membership is retained. Excludes amp/preamp,cab/microphone,IR,looper,routing andFavorites. This supersedes the earlier untranscribed category-count status,not the eight-block/DSP limits or unresolved amp/cab totals. Installed firmware untested;global EXP-position recall remains distinct from all-preset volume assignment.
+
 ## HX Stomp XL
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

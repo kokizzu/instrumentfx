@@ -144773,5 +144773,69 @@
         "qualification": "Nine blocks overall, DSP permitting. The 3.80 manual restricts the Feedbacker/poly group to one per path; this is not stated as one per preset."
       }
     }
+  },
+  "hxstomp_own_category_census_20261103": {
+    "model": "Line 6 HX Stomp",
+    "checked": "2026-11-03",
+    "document": "40-00-0408 RevD, firmware3.80, printed pp23–28",
+    "sources": [
+      "https://device.report/m/1c7a44b0cd816b069c55251d29f0bba5f791414d80dc8576da1127401a9f9949",
+      "https://line6.com/data/6/0a00051afdda673cccdb61c9c/application/pdf/HX%20Stomp%203.80%20Owner%27s%20Manual%20-%20English%20.pdf"
+    ],
+    "access": "Official13.6MB PDF exceeds reader limit; indexed cover identity agrees with reproduced body; metadata RevF/body RevD conflict retained; generated host prose excluded",
+    "counts": {
+      "distortion": [
+        44,
+        17
+      ],
+      "dynamics": [
+        12,
+        7
+      ],
+      "eq": [
+        8,
+        0
+      ],
+      "modulation": [
+        30,
+        26
+      ],
+      "delay": [
+        28,
+        17
+      ],
+      "reverb": [
+        13,
+        12
+      ],
+      "pitch_synth": [
+        12,
+        17
+      ],
+      "filter": [
+        4,
+        11
+      ],
+      "wah": [
+        11,
+        0
+      ],
+      "volume_pan": [
+        5,
+        0
+      ]
+    },
+    "total": {
+      "hx": 167,
+      "legacy": 107,
+      "named": 274
+    },
+    "method": "Count own appendix named rows once per mono/stereo model; Tube Drive/Screamer interleaved extraction assigned to distortion column",
+    "limits": [
+      "No binary identity or latest revision equivalence certified",
+      "Amp/preamp/cab/mic and utility counts excluded",
+      "Not installed-firmware test or global volume assignment"
+    ],
+    "next": "Continue compact direct-analog-volume and individual-display priorities; remaining HX Stomp amp/cab inventories and revision identity stay open; GP-200JR→Prime→GE300 general queue preserved."
   }
 }
