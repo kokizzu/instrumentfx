@@ -148523,5 +148523,21 @@
     "scope": "Algorithm-specific controls and practical boundaries;not actual tracking orcurrent installed firmware.",
     "next": "Retain unexposed calendar release dates andremaining H90 profile gaps;independent expression/display/general queues unchanged.",
     "active_inventory_changed": false
+  },
+  "gnx3000_current_summary_20261104": {
+    "canonical": "brand/DIGITECH.md#gnx3000--partial-discovery-lead",
+    "change": "Reconciled opening summary with existing source-qualified follow-ups;retained earlier baseline table andall later bodies unchanged.",
+    "prior_section_sha256": "24df546ba7397890b5328b2cbd4387991f4057b241904a39b8bbf158995631fe",
+    "preservation": "Removing inserted summary/baseline-introduction block andunique offer-navigation heading recovers prior_section_sha256 exactly;verified beforewrite. Original offer heading retained.",
+    "fresh_manufacturer_or_stock_claim": false,
+    "remaining": [
+      "Physical display/button verification",
+      "Simultaneous-effect ceiling androuting contradiction",
+      "Complete creative names andnote handling",
+      "Modern software/imports/power options",
+      "Qualified current hardware stock/condition"
+    ],
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }

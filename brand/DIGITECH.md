@@ -280,6 +280,26 @@ GNX4 modulation source: [G4-MOD39: manufacturer owner-manual text,printed p.39,M
 
 Checked **2026-11-04**. Exact GNX3000, not GNX3/GNX4. **Outside active inventory and instrument comparison counts** pending the remaining profile checks; ownership is not inferred.
 
+### Current evidence summary
+
+Consolidated **2026-11-04** from the source-qualified findings below; no new device, firmware or stock test. Earlier tables are dated evidence, not the current list of wholly unknown fields.
+
+| Field | Current evidence / remaining boundary |
+|---|---|
+| Expression / controls | Built-in toe-switched expression; **9 rotaries and7 footswitches**, with toe switch separate. Matrix buttons enumerate two Effect Select,four Amp Control andStatus; full separate-button total remains unverified. External analog expression and universal volume assignment remain unknown. Volume Pedal Update only recalls position when both presets already map EXP tovolume. [Controls](#gnx3000--controls-and-original-effect-category-census);[recall](#gnx3000--complete-manual-io-and-position-recall-follow-up). |
+| Display | Green preset-name andred numeric readouts. Technology,character count,diagonal andtouch remain unverified;not a confirmed separate-screen-per-switch processor. [Live/manual evidence](#gnx3000--learning-loop-drum-machine-and-routing-cautions). |
+| Processing / creative | Original-guide choices:Pickup2,Wah3,Compressor1 configuration,Stompbox11,Gate2,Chorus/Mod16,Delay5,Reverb10;Whammy/IPS/Talk9 selector choices. Each shared slot selects one effect. Pitch Shift ranges differ byslot. Two acoustic models are documented;SynthTalk,YaYa andmicrophone-dependent Talker have distinct roles. Synth architecture,note polyphony,total concurrent ceiling androuting contradiction remain unresolved. [Census](#gnx3000--controls-and-original-effect-category-census). |
+| Memory / live | **65User +65Factory1 +65Factory2 =195 locations**;User locations initially contain factory copies. Learn-A-Lick is a9-second line-input learning loop,not verified overdubbing performance looping. Computer Record/Undo controls ProTracks Plus. Drums79patterns +5metronome settings,40–240BPM. Bypass/tail limits retained. [Live](#gnx3000--learning-loop-drum-machine-and-routing-cautions). |
+| Connections / USB | Guitar,XLR mic withalways-on phantom,balanced line-input pair,¼in/XLR output pairs,stereo phones,GNXFC remote,5-pin MIDI IN/OUT-THRU,USB-B andPSS3 power. USB1.1 FullSpeed12Mbps;historical ASIO/Mac4record/2playback,WDM2-in/2-out plus2-in/0-out. Current-host compatibility,electrical limits andcomplete routing remain unverified. [Exact I/O](#gnx3000--complete-manual-io-and-position-recall-follow-up). |
+| Body / power | Manufacturer axes:Length18.5in×Width10.5in×Height3in;10lb. Consumption21W;FAQ PSS3 supply9VAC2.1A is a supply rating,not measured draw. Regional mains,barrel dimensions andAC polarity distinction remain below. Battery/USB operation unverified. |
+| Loading / software | IR,NAM anduser-capture import unverified. Modeling is not proof of capture. Product lists X-Edit2.4.1 Windows,not firmware2.4.1. Modern editor/driver support,other platforms anddevice firmware remain unknown. |
+| Indonesia hardware | Seller-used-title **Rp3,500,000** cached HUTAURUK MUSIC offer;current stock,working state,bundle andauthenticity unverified. No qualified new ask. [Exact item andaccess limits](#gnx3000-hardware-offer-details). |
+| Source applicability | Product/FAQ andmanufacturer-authored manual reproduction **18-6288-B**. Earlier mirror exposes only text through printed92;second exposes footer/appendix. Official-file byte identity andcurrent-firmware equivalence remain unverified. No sibling-model specifications borrowed. |
+
+### Initial discovery table — retained evidence
+
+The following opening table predates the same-day follow-ups; the current summary above resolves its rotary,acoustic,USB andlive unknowns only to the documented extent. Its original text is retained unchanged.
+
 | Field | Evidence / qualification |
 |---|---|
 | Status / memory | Manufacturer marks this a past product. **65 User +65 Factory1 +65 Factory2 =195 locations** (derived total). [Product](https://digitech.com/dp/gnx3000/). |
@@ -291,6 +311,8 @@ Checked **2026-11-04**. Exact GNX3000, not GNX3/GNX4. **Outside active inventory
 | Power | **21W consumption** product claim. [Manufacturer FAQ](https://digitech.com/faqs/) lists **PSS3,9VAC2.1A**, barrel9.5mm length/5.5mm width/2.5mm pin;2.1A is supply rating, not measured draw. AC has no DC center polarity. Listed supply mains120VAC/TypeA is regional, not universal mains support. Battery/USB power unverified. |
 | IR / NAM / capture | User IR, native/converted NAM and proprietary capture import unverified. Component-Based Modeling marketing does not establish user capture capability. |
 | Editor / firmware / live | Product links **X-Edit2.4.1 Windows**; current OS support, other editor platforms, drivers, device firmware, looper/drum limits, scenes and spillover pending. Editor version is not firmware. |
+
+### GNX3000 hardware offer details
 
 ### Separate IDR hardware offers
 
