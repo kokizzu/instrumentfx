@@ -1460,8 +1460,8 @@ Numbered original panel and rear descriptions (printed pp3–5) were read; PDF p
 | Category | Original manual choices / qualification |
 |---|---|
 | SYNTH |One three-voice polyphonic engine, each voice has waveform,pitch,filter,envelope/arpeggiator; independent parallel voices, ordinary instrument input, no special pickup required |
-| COMP |10 models |
-| WAH |10 models, including envelope/talking wah |
+| COMP |**10 original choices:** S-Comp,Red Comp,Yellow Comp,Blue Comp,Boost Comp,L-Studio Comp,Deluxe Comp,3-Band Comp,Limit,Blood Comp. One COMP category block,not ten simultaneous compressors. Original manualp23;current5.1.4 inventory unverified. |
+| WAH |**10 original choices:** Cry Wah,535 Wah,846 Wah,847 Wah,Mae Wah,Custom Wah,Auto Wah,Touch Wah,Talk Wah Ah,Talk Wah Oh. Original manualp25;current5.1.4 inventory unverified. |
 | FXA / FXB |40 numbered shared-list rows: 1–35 available in both with mono FXA/poly FXB pitch distinction; 36–40 drive/boost FXA-only. Not 40 in each |
 | DS/OD |31 original models |
 | AMP |108 original models; entries106–108 explicitly **Acoustic simulator1/2/3**, not merely acoustic amplifiers |
@@ -1485,6 +1485,12 @@ Read complete printed pp32–39,52 of the [previously saved original manufacture
 | Processing / cabinet naming conflict | CAB39 is named **MrSmith112** butits reference says **PRSArchon212**. This is a source conflict,not evidence of asecondcab model;do not silently correct the name orborrow another model’s specifications. |
 
 The old **317 total types /164 effects /108 amps /43 cabinets** are historical manufacturer counts, not a verified current v5.1.4 inventory. Subsequent releases add harmony,vibe,drives,FX and ambience models; a complete reconciled current per-category count remains unknown. [M][G][F]
+
+### GE300 — original compressor and wah census
+
+Checked **2026-11-03** in the already-saved [original manufacturer manual,printedpp23–27](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf). The two named ten-choice lists above now replace count-only summaries;they do not establish current5.1.4 installed contents orfreely duplicable blocks.
+
+Auto Wah uses an **LFO-driven sweep**;Touch Wah uses a **dynamic envelope**. Talk Wah Ah/Oh are two vocal-formant algorithms,not microphone inputs orproof of a vocoder. Ordinary wah Position **0–100** means heel-to-toe sweep;manual assignment targets WAH→Position. This is a wah parameter range,not a global volume endpoint specification;the separate EXP2 no-toe restriction remains. No local download,installation ordevice operation.
 
 ### GE300 — revision delta audit, checked 2026-11-03
 

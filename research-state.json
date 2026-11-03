@@ -144053,5 +144053,13 @@
     "finding": "Three global buses;hardwareOUT1/OUT2/OUT1+2/OUT3stereo orSPLIT1/2mono. Advancedsource list omitsVocals despitebasicrouting inclusion;conflict preserved. SeparatefourbandEQXLR/quarterinch.",
     "remaining": "Headphone/USB EQcoverage,powercycleretention,globalEXPvolume andadvancedVocalsmapping unresolved;fullprofile remainspartial.",
     "next": "Continue requested individual-screen processors;retain GP-200JR -> Prime -> GE300 independentqueue."
+  },
+  "ge300_comp_wah_census_20261103": {
+    "model": "MOOER GE300",
+    "source": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf",
+    "basis": "Already saved original manufacturer manual,printedpp23–27;no new localdownload",
+    "finding": "Named tenCOMP andtenWAH choices replacecount-only summaries. AutoWahLFOvsTouchWahenvelope;Position0–100heel/toe iswahparameter,notglobalvolume.",
+    "remaining": "Current5.1.4 inventory,qualifiedused/newoffers andremainingcompleteprofilefields unresolved.",
+    "next": "Independent generalqueue pass GP-200JR -> Prime -> GE300 completefor thiscycle;continue requestedindividualdisplay gaps andfresh Shopee leads without repeating unchanged source failures."
   }
 }
