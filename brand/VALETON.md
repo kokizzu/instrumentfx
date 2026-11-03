@@ -2,6 +2,8 @@
 
 Root-level brand records. Evidence retains model-specific dates below. All eight recorded Valeton models are consolidated below, with GP-200X retained as a GP-200 anniversary variant. Technical verification and market discovery remain incomplete; original sources are retained.
 
+Discovery routing checked2026-11-03: earlier “identity pending” leads for Dapper Bass VES-2,Dapper Mini MES-1 andDapper Acoustic Mini point tothe existing records below. Their exact Shopee shop/item pairs were already retained here;this resolves duplicate queue work,not pending model-code corroboration,physical revision,condition orstock. Historical lead status andoffers remain inresearch-state.json.
+
 <!-- brand-index begins -->
 **Model and section index — A–Z, natural numeric order**
 
@@ -26,8 +28,6 @@ Root-level brand records. Evidence retains model-specific dates below. All eight
 - [Rushead Max Bass RH-101](#rushead-max-bass-rh-101)
 - [Rushead Max RH-100](#rushead-max-rh-100)
 <!-- brand-index ends -->
-
-Discovery routing checked2026-11-03: earlier “identity pending” leads for Dapper Bass VES-2,Dapper Mini MES-1 andDapper Acoustic Mini point tothe existing records below. Their exact Shopee shop/item pairs were already retained here;this resolves duplicate queue work,not pending model-code corroboration,physical revision,condition orstock. Historical lead status andoffers remain inresearch-state.json.
 
 ## Dapper Acoustic Mini
 
@@ -766,7 +766,6 @@ Earlierfirmware1.0.3algorithms,July2025USBhostFAQ,laterNAMconversionevidence and
 Both titles identify GP-5 hardware rather than presets/accessories. **Condition,working state,selected variant,adapter/cables/bundle,regional warranty,shipping/tax,voucher eligibility andcheckout stock/total remain unknown**. These are condition-unverified asks,not new/used classifications,completed sales or a market range. Late-arrival compensation isnot an upfront discount.
 
 Existing [BMD item1275754364/57400332425](https://shopee.co.id/Valeton-GP-5-Multi-Effect-Processor-i.1275754364.57400332425) now has a last-week search snapshot **Rp1.534.500,shop onholiday**;the directreader instead returns a four-week cache withsame ask andselleractive15days earlier. Preserve both timestamps;relative delivery/activity doesnot settle current availability. Previous technical findings anddated prices remain intact.
-
 
 ## GP-50
 
