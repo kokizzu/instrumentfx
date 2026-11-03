@@ -2342,3 +2342,6 @@ discovery-resolution-commit:
 .PHONY: expression-audit-stage-sonicake
 expression-audit-stage-sonicake:
 	python3 scripts/expression_audit_sonicake.py stage
+
+research-stage-blackstar:
+	python3 scripts/blackstar_catalogue.py stage
