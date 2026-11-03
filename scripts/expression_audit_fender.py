@@ -35,4 +35,4 @@ if __name__ == '__main__':
         assert review['head'] == git('rev-parse','HEAD').strip(), 'HEAD changed since review'
         assert review['sha256'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest(), 'Staged diff changed since review'
         assert not git('diff','--cached','--check').strip(), 'Staged whitespace errors'
-        print(git('commit','-m','research(fender): clarify Tone Master Pro Song labels and stage navigation'))
+        print(git('commit','-m','research(fender): qualify synth assignment readout and pitch controls'))

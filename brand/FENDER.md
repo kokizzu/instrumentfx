@@ -646,3 +646,14 @@ Checked **2026-11-04** in the manufacturer-authored **firmware1.5 owner manual,p
 **Song Custom Label Display** selects **LABEL+PRESET NAME** or **LABEL ONLY** on the existing scribble strips inSong/Setlist modes. It doesnot add displays orpublish a label-character ceiling. Global footswitch defaults/colors andthe later16paged assignments remain separately documented.
 
 Pressing the navigation encoder toggles **Gig View**. My Presets/Favorites/Factory Presets show the active preset name andnumber;this simplifies the touchscreen butdoesnot certify that every edit/control islocked. Songs Gig View presents an alphabetized Song list;Setlist Gig View preserves numbered selected-Setlist order. InSetlist Gig View,the far-left switches select **Next Song/Previous Song**,while the navigation encoder scrolls Setlists. These are Song/Setlist navigation functions,not proof ofsequential individual-preset down/up oradditional footswitches. Song Notes andsaved-preset reuse retain their separate existing qualifications. No app,firmware,download ordevice operation.
+
+### Tone Master Pro — synth assignment readout and pitch-control qualifications
+
+Checked **2026-11-04**, [manufacturer cumulative release history](https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates), exact dated entries below. No installed-firmware or hardware test.
+
+| Field | Version-specific behavior / evidence boundary |
+|---|---|
+| Display / Cerberus assignment frequency | **1.7.53,December3,2025** lists a known issue: the current frequency is not always shown while editing Active/Inactive footswitch parameters for the synth spelled **“Cerebrus”** in that issue. The same release names the new model **Cerberus Polysynth**. This is an assignment-editor readout limitation, not proof of missing synthesis, broken pitch tracking or a failed physical scribble strip. Later known-issue lists omit it, but no explicit fix is established here; current status remains unverified. |
+| Pitch / historical right-channel adjustment | **1.6.48,August27,2025** lists difficulty adjusting Pitch R on “Micro Pitch”; **1.7.53** reports “Micro Shift Pitch R” knob adjustment fixed. Preserve the manufacturer naming variation. This concerns parameter adjustment, not additional pitch voices, input-note polyphony or measured tracking quality. |
+
+Current Model GuideG/H retrieval returned unsupported document/pdf. The existing exact Shopee GH MUSIC ask remains Rp41.360.000 in a two-month snapshot;other exact items surfaced without new qualified condition/stock evidence. No new price oravailability claim;older sources and independent queues retained.

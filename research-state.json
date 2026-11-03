@@ -149393,5 +149393,17 @@
     ],
     "next": "Continue accessible LCD-first manufacturer gaps;AXOM availablepassages alreadyrecorded,physicaltechnology stillunresolved. Preserve expression/generalqueues.",
     "active_inventory_changed": false
+  },
+  "tmp_synth_assignment_readout_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+    "canonical": "brand/FENDER.md#tone-master-pro--synth-assignment-readout-and-pitch-control-qualifications",
+    "version_scope": "1.6.48 August27,2025;1.7.53 December3,2025;no installedtest",
+    "finding": "1.7.53 Cerebrus spelling inknownissue:frequency sometimesmissing duringActiveInactiveFSparameterediting;Cerberus modelnamenormalizedwithsourceconflictvisible",
+    "pitch_fix": "1.6.48 MicroPitch PitchR adjustmentissue→1.7.53 MicroShiftPitchR fix;namespreserved",
+    "current_status": "Readoutissue omittedlater but explicitfix notestablished;unverified",
+    "access": "GuideG/H unsupported document/pdf;currentrelease primaryreadable;ShopeeGH Rp41360000 unchanged2monthcache",
+    "next": "Continue accessible requested display-priority records andmanufacturercreative evidence;defer inaccessiblecurrentModelGuide. Preserve general/expression queues.",
+    "active_inventory_changed": false
   }
 }
