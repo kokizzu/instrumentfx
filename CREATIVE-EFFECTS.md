@@ -116,6 +116,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [BOSS GT-6B](brand/BOSS.md#gt-6b--partial-bass-discovery-lead) is a **partial bass lead outside active counts and the51-record index**. Its original guide distinguishes single-note Square/Saw synth tracking from Brass/Bow input shaping; chord-capable Pitch Shifter modes from single-note Harmonist; and alternative FX2 selections from simultaneous effects. Defretter, Ring Mod and Auto Slap are documented; acoustic simulation remains unverified.
 
+[BOSS SE-70](brand/BOSS.md#se-70--single-note-synthesis-and-external-carrier-vocoding) is a **partial lead outside active counts and the51-record index**. Its original guide requires single notes for Guitar Synth/Bass Synth; separate external-carrier Vocoder1/2 use12/21bands. Pitch-shifter andacoustic-conversion details remain unverified.
+
 ## What remains uncertain
 
 - Actual tracking quality, latency and installed firmware were not measured for these records.

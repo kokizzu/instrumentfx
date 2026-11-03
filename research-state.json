@@ -150445,5 +150445,25 @@
       "Condition-qualified current Shopee stock"
     ],
     "queues_preserved": true
+  },
+  "se70_partial_primary_20261104": {
+    "checked": "2026-11-04",
+    "model": "BOSS SE-70",
+    "destination": "brand/BOSS.md#se-70--partial-discovery-lead",
+    "status": "Manufacturer-backed partial discovery lead;outside402active models",
+    "sources": [
+      "https://support.roland.com/hc/en-us/articles/201926779-SE-70-Technical-Specifications",
+      "https://cdn.roland.com/assets/media/pdf/SE-70_OM.pdf",
+      "https://cdn.roland.com/assets/media/pdf/SE-70_PA.pdf",
+      "https://support.roland.com/hc/en-us/articles/201939359-SE-70-The-SE-70s-Vocoder",
+      "https://support.roland.com/hc/en-us/articles/201958509-SE-70-Recommended-Power-Supply"
+    ],
+    "primary_access": "Specifications/power article readable;indexed original owner p19 andsynth guide section;fullPDF unreadable;vocoder indexed body readable,direct404",
+    "membership_changed": false,
+    "technical_baseline": "Memory,body,power,ports,display,documented external expression;full control/algorithm/routing verification pending",
+    "creative": "Single-note electric guitar/four-string bass tracking distinct from external-carrier vocoder;pitch/acoustic algorithms unresolved",
+    "source_conflict": "Manufacturer prints1.5kg/33lbs;preserve both withoutinventing conversion",
+    "market": "No qualified exact hardware offer from site:shopee.co.id Boss SE-70/SE70 queries",
+    "next": "Original algorithm census,visual controls,connector sizes andqualified IDR;LCD-first andindependent expression/GT-Pro/general queues preserved"
   }
 }

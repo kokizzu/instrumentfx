@@ -46,6 +46,7 @@ Canonical root brand profiles; all retain explicit verification gaps. Preserved 
 - [MS-3](#ms-3)
 - [Pocket GT](#pocket-gt)
 - [SE-50](#se-50)
+- [SE-70 — partial discovery lead](#se-70--partial-discovery-lead)
 - [VE-1](#ve-1)
 - [VE-2](#ve-2)
 - [VE-5](#ve-5)
@@ -4459,6 +4460,33 @@ Checked2026-10-18 against the original©1990 [French BOSS manual][SE50-FR],Stere
 Checked2026-10-28 against the original©1990 [French BOSS manual][SE50-FR],external descriptions andfoot-control sections. Complete rear inventory has no analog EXP input: EFFECT REMOTE accepts a bypass switch;NUMBER SHIFT accepts program-step switches. This resolves the earlier direct-input uncertainty for that documented inventory. FC-50 expression-to-MIDI remains an indirect path,not a processor EXP socket.
 
 Guitar/bass connection is explicit. No dedicated headphone socket is listed;front NUMBER controls are hand buttons,not onboard footswitches. Direct analog volume assignment/range/recall are inapplicable. MIDI-volume placement,endpoints,recall,bypass/tail/loop attenuation andchassis fit remain unverified. DIRECT/MUTE effects-off choices are not continuous pedal-volume control. No SE-70 orSE-50A dimensions transferred.
+
+## SE-70 — partial discovery lead
+
+Checked **2026-11-04**. Previously queued family now has an exact-model technical baseline; **outside active counts and instrument tables**. No ownership, current firmware or Indonesian stock inferred.
+
+Sources: [Roland specifications,updated2026-09-07](https://support.roland.com/hc/en-us/articles/201926779-SE-70-Technical-Specifications) [S]; [original owner manual,indexed p19](https://cdn.roland.com/assets/media/pdf/SE-70_OM.pdf) [M]; [original patch/algorithm guide,indexed Guitar Synth/Bass Synth section](https://cdn.roland.com/assets/media/pdf/SE-70_PA.pdf) [A]; [Roland vocoder article,updated2023-04-14](https://support.roland.com/hc/en-us/articles/201939359-SE-70-The-SE-70s-Vocoder) [V]; [power-adapter guidance,updated2025-05-16](https://support.roland.com/hc/en-us/articles/201958509-SE-70-Recommended-Power-Supply) [P]. Manual firmware applicability/page identity beyond the named indexed sections remains unverified; full PDFs expose no readable body in the current reader.
+
+| Field | Exact-model evidence / limitation |
+|---|---|
+| Expression | EV-5/FV-300L listed; shared Effect Remote/EXP jack. Built-in/toe, wiring and all-preset volume scope unverified [S]. |
+| Rotary / footswitch / button counts | ? / ? / ?. Listed controls include L/R Input Level, Control/Effect, Parameter/Cursor, Control1, Utility, Write and Exit; power/level switches separate. No visual census [S]. |
+| Display | Backlit16-character×2-line LCD; diagonal,color/touch unverified [S]. |
+| Body | **W218×D240×H44mm**; large by catalogue footprint rule. **1.5kg versus33lbs** printed conflict; no silent correction [S]. |
+| Power | **12VAC,1.5A**; BRB family. DC polarity inapplicable; battery/USB powering unverified [S]. Regional BRB mains-input variants require matching local voltage [P]. |
+| Memory / processing | **145 locations:100user,45protected** [S,M]. Manual describes145 supplied patches; this does not establish a used unit’s present user-area contents. Algorithms define effect selection/order; included effects can be bypassed. Simultaneous ceiling/category census pending [M]. |
+| Audio / control | L(MONO)/R inputs andoutputs,phones,Control2/3,Effect Remote/EXP,MIDI IN/OUT-THRU,AC input. Diameters/routing/bypass coverage pending [S]. |
+| Conversion / rates | A/D andD/A16bit;48/32kHz depends onalgorithm [S]. |
+| Loading / software / live features | IR/NAM/capture import,editor platforms,USB recording,scene/looper/drum/tail behavior unverified. MIDI connectors alone do not establish an editor or import workflow. |
+| Used / new IDR | **? / ?**. Targeted exact Shopee queries returned no qualified hardware offer; not evidence of market absence. |
+
+### SE-70 — single-note synthesis and external-carrier vocoding
+
+[A] explicitly requires **single notes**, muting each preceding note, with direct instrument connection to **L(MONO)**. Guitar Synth targets electric guitar; Bass Synth specifies **four-string electric bass**. Chords, harmonics and accidental adjacent strings can cause errors. **Square/Saw**, octave shifts **+1/0/−1/−2**, and semitone-snapping **Chromatic** are documented; snapping suppresses sub-semitone bends/vibrato. These are tracking-synth controls, not input-note polyphony or an extra instrument engine. Exact pitch-shifter range/polyphony and acoustic-conversion algorithms remain unverified.
+
+[V] describes an external source at the left input and voice/other modulator at the right. **Vocoder1:12bands plus distortion/chorus/delay/reverb;Vocoder2:21bands plus reverb.** This external-carrier processing is separate from Guitar/Bass Synth and does not establish onboard polyphonic synthesis or direct mic-level/phantom support. The article was available as indexed manufacturer text; direct opening returned404.
+
+Next: complete the original algorithm-guide census,physical control/connector verification and exact Indonesian offers before considering active admission. Retain independent footswitch-display/expression/GT-Pro priorities. No document/software downloaded or device operated.
 
 ## VE-1
 
