@@ -365,6 +365,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; origina
 | Categories / Formant, Resonator and Ring Mod | [November source distinctions](#fm3-mkii-turbo--formant-resonator-and-ring-mod-source-details): vowel morphing, tuned comb-filter chords and Classic/SSB modulation are separate capabilities. FM3 ceilings two/two/one, CPU permitting; neither stereo nor generated harmonies establish polyphonic Synth tracking. |
 | Categories / named Plex Delay | [45 reference choices](#fm3-mkii-turbo--named-plex-delay-source-details), one FM3 block, CPU permitting. Detune/shift and sustained-tail processing are distinct from tracking synthesis; installed equivalence unverified. |
 | Categories / named Multi-Delay | [39 reference choices](#fm3-mkii-turbo--named-multi-delay-source-details), one FM3 block, CPU permitting; type-specific filtering/modulation is distinct from tracking synthesis. Installed equivalence unverified. |
+| Categories / Reverb and rhythmic processing | [November source limits](#fm3-mkii-turbo--reverb-exclusions-and-rhythmic-processing-source-details): Reverb79/one block excludes integrated pitch shifting on FM3; seven Tremolo choices/two blocks and two Ten-Tap choices/one block, CPU permitting. Tail holds and rhythmic delays are distinct from tracking synthesis or saved loops. |
 | Categories / compressor census | November2026 guide lists **19 compressor choices**,reconciled by name below;two FM3 instances remain CPU-limited. Look-ahead **0–2ms** delays both wet anddry audio. This is algorithm latency,not measured whole-device latency. [Own guide](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf),pp27–29. |
 | Preset / factory / user memory | **512 editable locations;8 scenes each**. Own7.x manual printedp41 specifies **first384 factory-filled**,all overwriteable;current shipping allocation/installed contents unverified. See [revision-qualified occupancy](#fm3--factory-occupancy-versus-editable-capacity). |
 | Synth / acoustic functions | **Synth yes:three-voice monophonic Synth block**,one instance/four channels in own7.x p46; resolves the earlier synth unknown. Acoustic instrument input documented;dedicated acoustic simulation remains unverified. Channels are stored variations,not four simultaneous synth blocks. [November guide tracking modes](#fm3--synth-tracking-modes-and-generator-boundary) distinguish pitch tracking,envelope-only andmanual generation. [Own manual](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf) |
@@ -854,6 +855,15 @@ Checked2026-11-04: [November2026 Blocks Guide](https://www.fractalaudio.com/down
 - Thirty-three variants: 1210; A.H. Clean Long; A.H. Clean Short; A.H. Lead Long; A.H. Lead Short; A.H. Swell Long; A.H. Swell Short; Aerosol; Ambient Quad Tape; Ambient Tape Delay; Aurora Delay; Camera Obscura; Centaurus X-3; Circular Delays; Comb Filter Delay; Dub Echo; Filtered Mod Band Delay; Kilimanjaro; L-C-R-C; Matterhorn; MD Chorus; Mono Diffuser; PCM Circular; PCM Pan; Pealing Bells; Quad Chorus; Rhythmic Bands; Shadows Taps; Space Tape; Stereo Shadows; Strange Things; Swing Ping; Ya-Ya Delay.
 - Parallel/Series offer comb filters and ring modulation; Band Delay puts bandpass filters outside feedback. Quad Tape omits individual chorus. These internal processors are not additional blocks or tracking synths.
 - Four taps do not establish input-note polyphony. VP4-specific variants are not transferred.
+
+
+### FM3 MKII Turbo — Reverb exclusions and rhythmic processing source details
+
+Checked2026-11-04 against the [November2026 Blocks Guide](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf),pp3,93–96,103–104,106–107. Instance ceilings remain CPU-limited; installed equivalence/introduction versions unverified. Older counts remain preserved.
+
+- **Reverb:79 choices/one FM3 block**; chapter names nine families, not79 individual types: Chamber, Cloud, Echo, Hall, Huge, Plate, Room, SFX, Spring. **FM3 Reverb has no integrated pitch shifting**; some types consequently differ from other products. HOLD closes input; STACK layers new input into the sustained tail. Neither proves persistent loops or unconditional preset continuity.
+- **Tremolo:seven choices/two FM3 blocks**: Tremolo, Bias Trem, Harmonic Trem, Optical Trem 1, Optical Trem 2, Neon Trem, Panner. Trigger Threshold restarts the cycle from playing; OFF free-runs. Modulation is not tracking synthesis.
+- **Ten-Tap:two choices/one FM3 block**: Ten-Tap Delay; Rhythm Tap Delay. Ten-Tap controls1–10 echoes through Decay/individual levels; Rhythm Tap instead permits custom timing and whole-pattern feedback. These are delay patterns, not saved audio loops.
 
 ## FM3 original
 

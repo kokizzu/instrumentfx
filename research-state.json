@@ -149894,5 +149894,50 @@
     "qualifications": "CPU ceiling; historical34 retained. Parallel/Series comb/ring processing, Band filter placement and Quad Tape chorus omission are type-specific. Four taps are not input-note polyphony; VP4 variants not transferred. Installed equivalence/introduction versions unverified.",
     "active_inventory_changed": false,
     "next": "Continue FM3 remaining Reverb, Tremolo/Ten-Tap and Megatap category details with explicit FM3 exclusions and historical conflicts; preserve independent GT-Pro/general, expression and individual-display queues."
+  },
+  "fm3_mkii_reverb_rhythmic_20261104": {
+    "checked": "2026-11-04",
+    "model": "Fractal Audio FM3 MKII Turbo",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026,pp3,93–96,103–104,106–107",
+    "reverb": {
+      "headline_types": 79,
+      "named_families": [
+        "Chamber",
+        "Cloud",
+        "Echo",
+        "Hall",
+        "Huge",
+        "Plate",
+        "Room",
+        "SFX",
+        "Spring"
+      ],
+      "fm3_instances": 1,
+      "integrated_pitch_shifting": false
+    },
+    "tremolo": {
+      "types": [
+        "Tremolo",
+        "Bias Trem",
+        "Harmonic Trem",
+        "Optical Trem 1",
+        "Optical Trem 2",
+        "Neon Trem",
+        "Panner"
+      ],
+      "fm3_instances": 2
+    },
+    "ten_tap": {
+      "types": [
+        "Ten-Tap Delay",
+        "Rhythm Tap Delay"
+      ],
+      "fm3_instances": 1
+    },
+    "qualifications": "CPU ceilings and reference inventory; full79-name Reverb census not supplied by chapter. FM3 Reverb pitch explicitly excluded. HOLD/STACK input behavior and rhythm patterns do not prove saved loops, global volume or unrestricted continuity. Installed equivalence/introduction versions unverified.",
+    "megatap": "FM3-specific64-tap/four-second line/one-second predelay already recorded; no new discovery claimed.",
+    "active_inventory_changed": false,
+    "next": "Continue FM3 remaining Drive, Graphic EQ, Gate/Enhancer inventories and exact-model exceptions, then remaining hardware/market gaps. Preserve independent GT-Pro/general, expression and individual-display queues."
   }
 }
