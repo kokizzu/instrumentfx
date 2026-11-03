@@ -45,6 +45,8 @@ Admitted 2026-10-28 as an **active partial guitar/bass model**, not fully verifi
 | Onboard preset navigation | SceneMode hold1 previous/hold4 next; PresetMode taps choose bank slots, holds1/4 changebanks. Custom globalholds separately configurable; assigninghold delays tap untilrelease. |
 | Used IDR | **Unknown**; no qualified exactShopee processor offer established. Seller/item,condition,stock,bundle,warranty,region,voucher and delivered price unknown. |
 | New IDR | **Unknown**; exact hardware offer unestablished. GearDivision’s cachedRp198,000 “Cover fractalAM4” is an accessory and excluded. Search non-results do not establish market absence. |
+| Expression / switch wiring | v1.0.2 pp10–11: one pedal or switch per jack; dual switch requires both jacks via insert cable. Actual M-VAVE/toe wiring remains unverified. |
+| I/O / input-pad recall | v1.0.2 p12: compensated pad **0/6/12/18dB**, default12dB. Automatic clipping-driven increase clears on reboot; manual value returns. Not expression-position recall. |
 <!-- comparison evidence ends -->
 
 ### AM4 — partial discovery lead, outside active inventory
@@ -137,6 +139,12 @@ Partial lead remains outside activecounts;exactShopee hardware,import-format lim
 Checked **2026-11-03**, [manufacturer manual v1.0.2,2025-12-16,printed pp64–66](https://www.fractalaudio.com/downloads/manuals/AM4/AM4-Owners-Manual.pdf): **22 banks A–V ×4 =88 named presets** within104 writable locations. **W1–Z4:16 unlisted**, not individually certified blank; the introduction only says several empty locations. This narrows the older fill-count uncertainty without claiming current installed contents.
 
 **U3 Pitch Follow Magic LT** modulates effect mix and other parameters by played pitch; **U4 Tape Loops LT** combines analog delay and digital LFO. These recipes do not establish a pitch-shifter or recorded-loop engine. No software or device test.
+
+### AM4 — switch-jack allocation and automatic pad recall
+
+Checked **2026-11-03** in [manufacturer manual v1.0.2,2025-12-16,printed pp10–12](https://www.fractalaudio.com/downloads/manuals/AM4/AM4-Owners-Manual.pdf). A dual switch uses both pedal jacks through an insert cable; it is not two switches on one processor socket. Switch mode follows hardware or converts momentary action into virtual toggle. Actual M-VAVE and toe wiring remain unverified.
+
+Input Pad choices are **0/6/12/18dB**, default12dB, with level compensation. Persistent clipping can increase the pad automatically; reboot restores the last manual value. Turning the pad control one step clears Auto to retain the selected setting. This is input-headroom management, not volume attenuation or analog-pedal recall. Current firmware behavior is untested.
 
 ## FC-6 Mark II and FC-12 Mark II — controllers
 
