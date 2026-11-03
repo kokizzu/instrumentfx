@@ -80,7 +80,7 @@ Guitar multi-effects; separate from AX3B/AX3A. Checked 2026-10-17; partial. Owne
 | Display | Program/value display; diagonal,technology,color,touch unverified. | [EasyStart p2][AX3G-E] |
 | Processing / category choices | **6 simultaneous**: PRE,drive/amp,cab,MOD,shared delay/reverb,NR. Manual:PRE10,drive/amp16,cab10,MOD10,delay5,reverb5,NR1=57 choices. Parameter guide independently enumerates PRE F0–F9:compressor,pickup,acoustic simulator,wah,auto wah,vibe/phase,chorus/flanger,octave,ring modulation,drone. Drive/amp splits8drive+8amp;cab C0–C9,MOD F0–F9,delay/reverb F0–F9. German specifications instead list PEDAL11; retained conflicting claim,not an extra verified algorithm. Internal modes are not additional top-level choices. | [EasyStart p1][AX3G-E];[Manual p11][AX3G-M];[German specifications][AX3G-P];[Parameter guide pp2–10][AX3G-F] |
 | Factory / user memory | **80=40user+40preset**. Presets editable but not overwritable; Write stores in user area. Reset loads factory sounds into user area,erasing custom sounds. | [EasyStart pp2–3][AX3G-E] |
-| Synth / acoustic | Acoustic simulator has four body modes. Drone models sitar sympathetic strings;ring modulation uses an oscillator,octave is single-note only. No dedicated SYNTH entry in the enumerated guide; these effects do not establish a tracking synthesizer. | [Parameter guide pp2–4][AX3G-F] |
+| Synth / acoustic | Acoustic simulator body modes: old small body, mid-focused small body, large body, resonator guitar. Drone models sitar sympathetic strings;ring modulation uses an oscillator,octave is single-note only. No dedicated SYNTH entry in the enumerated guide; these effects do not establish a tracking synthesizer. | [Parameter guide pp2–4][AX3G-F] |
 | Dimensions / mass | **178W×142D×43H mm;340g**; battery inclusion unspecified in cited specification. | [Manual p11][AX3G-M] |
 | I/O | Mono input,stereo output;¼-inch audio sockets per German specs. Output also supports headphones. External-expression socket,DC. Other ports unverified. | [Specifications][AX3G-P];[Manual p11][AX3G-M];[EasyStart pp1–2][AX3G-E] |
 | Power / battery / USB | **9VDC** optional adapter or four alkaline AA,approximately8h. Current,polarity,USB power unverified. | [Manual p11][AX3G-M] |
@@ -133,6 +133,12 @@ Indexed original [owner manual pp6,10][AX3G-M]; no download or device operation.
 | Power / battery input switching | A **mono INPUT cable switches battery power on**; removing it switches off. A stereo input cable does not activate battery power. Low batteries produce a blinking **Lo** warning. Four alkaline AA cells are separately sold; the published eight-hour figure is battery runtime, not current draw. |
 | I/O / headphone sharing | Headphones connect to **OUTPUT**, corroborating its shared stereo line/headphone role; not a separate headphone socket. |
 | Live / tuner | Calibration **A=438–445Hz**, shown as38–45, returns to **440Hz after power-off**. [Regional specifications][AX3G-P] separately give detection **A0–E6 (27.5–1318.5Hz)**; detection range differs from calibration range. |
+
+### AX3G — acoustic body choices and creative-effect boundaries
+
+Checked **2026-11-03** in the [manufacturer Effect Parameter Guide, AX3GFXParamGuideE1, printed pp2–4][AX3G-F]. AC SIM explicitly converts electric guitar to acoustic tone, with old small-body, mid-focused small-body, large-body and resonator-body choices. These are simulator modes, not user IR slots or synthesized instrument voices.
+
+PICKUP models humbucker↔single-coil conversion and a mixed virtual pickup; DRONE models sitar sympathetic strings with key/mix/resonance controls. RING MOD multiplies guitar by a sine oscillator; OCTAVE explicitly accepts single notes, not chords. These distinctions supplement the existing pitch/modulation record without establishing a general tracking synth. Current firmware, real tracking quality and installed contents remain untested.
 
 ## AX5B
 

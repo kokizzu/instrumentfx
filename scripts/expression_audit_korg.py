@@ -13,7 +13,7 @@ if __name__ == '__main__':
     comparison_views.verify_views()
     comparison_views.test_readme_brand_counts()
     comparison_views.test_validation_counts()
-    allowed = {'FOOTSWITCH-DISPLAYS.md', 'EXPRESSION-VOLUME.md', 'brand/KORG.md', 'README.md', 'research-state.json', 'scripts/expression_audit_korg.py', 'Makefile', 'all-guitar.md', 'all-bass.md', 'all-vocal.md'}
+    allowed = {'CREATIVE-EFFECTS.md', 'FOOTSWITCH-DISPLAYS.md', 'EXPRESSION-VOLUME.md', 'brand/KORG.md', 'README.md', 'research-state.json', 'scripts/expression_audit_korg.py', 'Makefile', 'all-guitar.md', 'all-bass.md', 'all-vocal.md'}
     changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
     staged = set(git('diff','--cached','--name-only').splitlines())
     assert (changed | staged) <= allowed, (changed | staged) - allowed
@@ -39,4 +39,4 @@ if __name__ == '__main__':
         assert review['head'] == git('rev-parse','HEAD').strip(), 'HEAD changed since review'
         assert review['sha256'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest(), 'Staged diff changed since review'
         assert not git('diff','--cached','--check').strip(), 'Staged whitespace errors'
-        print(git('commit','-m','research(korg): reconcile PANDORA mini category count'))
+        print(git('commit','-m','research(korg): add AX3G creative processing distinctions'))

@@ -145254,6 +145254,15 @@
         "instrument": "Aco.Sim;later HotSpice sitar;Gayageum preset composite distinct",
         "qualification": "Historical shared exact-model list;not current installed census;G11 PolyShift not inherited",
         "evidence_basis": "Manufacturer©2017 shared G5n/G3n/G3Xn effectlistp16;retained exactG5n preset andHotSpice announcement evidence"
+      },
+      {
+        "key": "Korg::AX3G",
+        "canonical": "brand/KORG.md#ax3g",
+        "synth": "Tracking synth unverified;DRONE sympathetic-string processing",
+        "pitch": "PITCH±24;OCTAVE single-note",
+        "instrument": "AC SIM fourbodychoices;PICKUP conversion",
+        "qualification": "Focused original-guide check,not full fresh audit;existing revision/price gaps retained",
+        "evidence_basis": "Manufacturer AX3GFXParamGuideE1 printed2–4;existing pitch evidence p8 retained."
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -146502,6 +146511,14 @@
       "Exact adapter polarity andportablepower",
       "Qualified exact Shopee hardware"
     ],
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
+  },
+  "ax3g_creative_scope_20261103": {
+    "source": "https://cdn.korg.com/us/support/download/files/37cf1f6fb537d1f1ba37018e35da9e95.pdf?response-content-disposition=inline%3Bfilename%3DAX3GFXParamGuideE1.pdf&response-content-type=application%2Fpdf%3B",
+    "revision": "AX3GFXParamGuideE1,printed2–4",
+    "finding": "Four acousticbody choices;pickupconversion,DRONE,RingMod andsingle-noteOctave distinguished fromtracking synth.",
+    "additional_creative_records": 34,
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
   }
