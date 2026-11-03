@@ -145341,10 +145341,11 @@
     "checked": "2026-11-03",
     "source": "https://manuals.plus/m/fc4c88f09cdfe1684d4526d72c54e4e86b0de29352a33b47c153a1dc5715d9b1.pdf",
     "manufacturer_listing": "https://www.fractalaudio.com/fm9-downloads/",
-    "revision": "FM9 release history12.00,2026-07-07;PDFpp4,6",
+    "revision": "FM9 release history12.00,2026-07-07;PDFpp2,4,6",
     "versions": {
       "10.00": "2025-10-01:chromatic/whammy Off/Chords/Notes tracking;Chords latency/stability tradeoff;Diatonic single notes,automatic Notes.",
-      "11.00": "2026-01-19:Tracking Adjust removed;automatic optimization. Arpeggiator threshold triggering andreset tofirst step atsequence completion."
+      "11.00": "2026-01-19:Tracking Adjust removed;automatic optimization. Arpeggiator threshold triggering andreset tofirst step atsequence completion.",
+      "12.00": "2026-07-07:manufacturer reports ~2500Hz pitch tracking ceiling and improved bass shifting;Plex Master Pitch no longer changes detune. Not measured tracking/latency orSynth polyphony."
     },
     "qualification": "FM9 release-specific capability;not installed-firmware/tracking/latency orpolyphonic Synth certification.",
     "next": "Requested separate-screen processors retain priority;FM9 global-volume endpoints/recall/all-route coverage,exact current hardware controls/diagonal andqualified Shopee offers remain open."
