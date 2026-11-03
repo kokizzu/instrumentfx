@@ -3907,6 +3907,19 @@ Checked **2026-11-01** in Zoom’s [shared2020 effects list,pp24–25](https://z
 
 Built-in treadle remains distinct from direct external analog expression;G3n-only CONTROL IN is not transferred. No download ordevice test.
 
+
+### G3Xn — pedal-pitch note handling and creative index
+
+Checked **2026-11-03** in the [support-linked shared effects list](https://zoomcorp.com/documents/68/E_G5n_G3n_G3Xn_FX-list.pdf.pdf),©2017,**Z2I-2556-04**,pp16–17,23,26. Its G5n-v2 preload markings do not certify G3Xn factory content or an introduction firmware.
+
+| Field | Evidence / qualification |
+|---|---|
+| Pitch / pedal algorithms | **PDL MnPit explicitly requires single-note playing**;PDL Pitch chord handling remains unverified. Both expose Bend0–100,Color1–9 andUP/DOWN. Table2 includes unison→+1/+2octaves,−100cents,−2octaves or−∞;other modes mix dry sound. Pitch−∞ is not proof of full-output mute. |
+| Processing / rhythmic distinction | **Slicer has20 patterns**;BendCho uses input-triggered pitch movement. These are processing algorithms,not proof of a tracking synth engine. Existing Aco.Sim and composite-instrument patch distinctions remain. |
+| Used IDR / cache recheck | [Fakhira Store,16677197/20694505851](https://shopee.co.id/EFEK-ZOOM-G3XN-BEKAS-NORMAL-i.16677197.20694505851) still indexes **Rp2.000.000**,BEKAS NORMAL,withshipping unavailable. Two-month-old crawl;currentstock,condition,bundle andcheckout remain unverified. |
+
+This focused check adds the existing model to the creative index;membership,seven-slot/DSP limits and older source conflicts remain unchanged. No download orhardware test.
+
 <!-- comparison evidence ends -->
 
 ### G3Xn sources and next verification
