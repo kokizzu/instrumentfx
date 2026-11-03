@@ -147056,5 +147056,22 @@
     "retrieval": "Official5.0 and5.2 fullreaders lengthlimit;no localdownload;currentShopee search onlypreviousHOLYitem,no newstock/condition proof.",
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "tmp_backup_card_formats_20261103": {
+    "model": "Fender Tone Master Pro",
+    "checked": "2026-11-03",
+    "source": "https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual",
+    "revision": "Manufacturer firmware1.5 manual,printedp39,original body",
+    "finding": "Explicit microSD/SDHC/SDXC withFAT32/exFAT;settings,presets,IR backup. Narrows format gap,not capacity orloop-inclusion proof.",
+    "remaining": [
+      "Numeric capacity/speed requirements",
+      "Current1.8 equivalence andcrossversionrestore",
+      "Recordedloop backup coverage",
+      "GuideH census andIR-file limits",
+      "Qualified currentShopee condition/stock"
+    ],
+    "retrieval": "GuideH unsupported document/pdf;targetedShopee searches repeatedexistingoffers only.",
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }
