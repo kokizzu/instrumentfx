@@ -148692,5 +148692,15 @@
     "qualification": "Host control restriction, not an expression-role lock, hardware failure or modern-host certification.",
     "next": "Other USB channel modes,13-versus15 blocks,visual controls,global FV precedence and qualified IDR remain open; prioritize individual footswitch screens independently.",
     "active_inventory_changed": false
+  },
+  "fm9_original_output_copy_20261104": {
+    "checked_date": "2026-11-04",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-original--conditional-output-copies-and-usb-levels",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "revision": "August2022,firmware3.x,Original/Turbo,printed94–96",
+    "finding": "Output2CopyOut1 excludesUSB and requires noOut2block;Out3CopyIn1 requires noOut3block. Boost/Pad0/6/12/18dB preserves level;USB pair level−40…+20dB is separate.",
+    "next": "Verify current firmware12 routing and global pedal endpoints,held-position recall,bypass andall-source coverage;preserve exact-revision Shopee uncertainty and independent queues.",
+    "active_count_unchanged": 402,
+    "usb_mapping": "RecordUSB7/8 chooses Input2 orInput3;USBOutputMapping swaps firsttwo playbackpairs betweenOutput1/2. Remaining diagram-only channels not inferred."
   }
 }

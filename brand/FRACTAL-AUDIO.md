@@ -1467,7 +1467,8 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | Controls / external switch linkage | [Original/Turbo3.x manual,p81](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf),checked2026-11-03: **Stand-In Switches reference a programmed switch in a chosen layout**,including Tap/Hold andper-preset functions. Changing that target changes the external switch’s behavior. Direct external modifier/global assignments lack these press/hold andlayout/bank capabilities. This is control mapping,not added onboard LCDs,an independent copy ofthe assignment,orcontinuous expression. Currentfirmware behavior untested. |
 | Controls / FC expansion limit | Samep82: up to **two FC-6/FC-12**,with **33 simultaneous main footswitches maximum** (nine onboard+twoFC-12). EachFC adds four expression inputs andfour external switches,listed separately from33. FirstFC gets FASLINK power;second requires an adapter. Custom layouts are needed because factory layouts target nine switches. Controller body/power ratings remain separate exact-model records. |
 | Control / digital I/O | Three pedal/switch inputs;FASLINKII forFC,notMFC-101;coaxial RCA S/PDIF in/out,fixed48kHz withinternal/external sync;MIDI In/Out-Thru;USB;grounded AC inlet/switch. USB subtype andphantom tolerance unknown. [Own inventory](#fm9-original--connector-inventory-and-usb-boundaries). |
-| USB audio / MIDI | **8×8 audio plus DAW-visible MIDI-over-USB**. Prose confirms processedrecord1/2,monoDIrecord5 andUSB5/6 reamping viaInput1=DIGITAL. Other channels notassigned fromflattened diagram. Windows driver required;Mac no driver perdated manual. [Routing](#fm9-original--connector-inventory-and-usb-boundaries). |
+| Routing / conditional output copies | [Original/Turbo3.x setup](#fm9-original--conditional-output-copies-and-usb-levels): Output2 can copy Output1,excluding USB,only without an Output2 block. Output3 can copy Input1 only without an Output3 block. These routes do not establish universal pedal attenuation. |
+| USB audio / MIDI | **8×8 audio plus DAW-visible MIDI-over-USB**. Prose confirms processedrecord1/2,monoDIrecord5 andUSB5/6 reamping viaInput1=DIGITAL. [USB7/8 record-source and playback-pair mapping](#fm9-original--conditional-output-copies-and-usb-levels) are now documented from prose; remaining diagram-only channels stay unassigned. Windows driver required;Mac no driver perdated manual. [Routing](#fm9-original--connector-inventory-and-usb-boundaries). |
 | Power | **90–264VAC,47–63Hz,<40W**. CR2032 is backup;operating battery/USB power unknown. DC polarity/adapter-current fields notapplicable tothis AC specification. [Original/Turbo specifications](#fm9-original--partial-lcd-discovery). |
 | IR / NAM / capture | **1,024 userIR slots**;FM9-Edit imports.wav/.ir alongside.syx transfer. NativeNAM,convertedNAM andproprietary capture-import workflows unverified. [Import evidence](#fm9-original--ir-import-distinction-and-current-editor). |
 | Editor / platforms | FM9-Edit **1.03.22,August25,2026**:macOS10.13+,Intel/M1;Windows10+64-bit. Windows7 unsupported;separate32-bit link retained. Mobile/later architecture support unknown. Preset/scene/block/library/footswitch editor distinct fromdriver/updater. [Current listing](#fm9-original--ir-import-distinction-and-current-editor). |
@@ -1580,6 +1581,17 @@ Checked **2026-11-04** in the [manufacturer August2022 Original/Turbo manual,fir
 - The specification lists a **CR-2032 backup battery**,with published life greater than ten years. It is not an operating-power battery or a guaranteed remaining-life measurement. Operating supply remains **90–264VAC,47–63Hz,<40W**;USB bus power is not established.
 
 No MIDI sent,battery serviced ordevice operated. Existing nine-display evidence,revision-conflicted Shopee offer andactive membership remain unchanged.
+
+### FM9 original — conditional output copies and USB levels
+
+Checked **2026-11-04** in the [manufacturer August2022 Original/Turbo manual,firmware3.x,printedpp94–96 (PDF100–102)](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf).
+
+- **Output2 Copy Output1** duplicates the mix with separate front-panel level control, but **excludes USB audio** and works only when the preset has no Output2 block. **Output3 Copy Input1** supplies an analog DI only when no Output3 block is present.
+- **Output3 Boost/Pad:0,6,12,18dB** pairs a converter-input boost with an output cut, preserving level while reducing noise; increased converter clipping risk remains. This is not extra volume gain or an expression range.
+- Separate **USB playback-pair levels range −40…+20dB**. They are not global analog-pedal endpoints.
+- **USB7/8 recording source selects Input2 or Input3**. **USB Output Mapping** swaps the first two computer-playback pairs between physical Output1/Output2. This prose resolves those paths without reconstructing the flattened diagram; it does not add channels.
+
+These documented routing exceptions do not resolve pedal-position recall, bypass or all-source attenuation. Current firmware12 behavior remains untested; no device settings changed or files downloaded.
 
 ## FM9 Turbo
 
