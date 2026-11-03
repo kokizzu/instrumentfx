@@ -147445,5 +147445,28 @@
     ],
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "stadium_xl_looper_state_scope_20261104": {
+    "model": "Line 6 Helix Stadium XL Floor",
+    "checked": "2026-11-04",
+    "sources": [
+      "https://manuals.line6.com/en/helix-stadium/live/looper-block",
+      "https://manuals.line6.com/en/helix-stadium/live",
+      "https://shopee.co.id/LINE-6-HELIX-STADIUM-XL-FLOOR-LINE-6-HELIX-STADIUM-XL-FLOOR-i.440477624.53707848703"
+    ],
+    "revision": "Live1.4 manual,landing RevE firmware1.4.1;not hardware latest/installed claim",
+    "canonical": "brand/LINE6.md#stadium-xl--shuffled-slices-and-looper-switch-state-boundaries",
+    "finding": "Shuffling processes recorded slices;pad-like smoothing not tracking synth;hold-delete and Deluxe LCD states differ by model/state",
+    "offer": "Same Rp41220000 three-month cache,July18 delivery stale;not live stock",
+    "remaining": [
+      "Exact voltage/frequency/draw",
+      "OLED axis/color/pixel specifications",
+      "Slice-count range",
+      "Current factory filling",
+      "Global expression/output coverage",
+      "Qualified hardware stock"
+    ],
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }

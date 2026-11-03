@@ -825,6 +825,20 @@ Checked **2026-11-03**, [manufacturer live USB Audio chapter,v1.4](https://manua
 
 No connection,download,driver installation orrecording test performed. Global analog expression assignment,headphone/tail/looper coverage andqualified stock remain unresolved.
 
+
+### Stadium XL — shuffled slices and looper-switch state boundaries
+
+Checked **2026-11-04** in the [live manufacturer Loopers chapter](https://manuals.line6.com/en/helix-stadium/live/looper-block). The [manual landing](https://manuals.line6.com/en/helix-stadium/live) says **Rev E, firmware1.4.1**; its older navigation labels and the separately recorded hardware1.4.2 release remain distinct. No installed-version test.
+
+| Field | Documented behavior / qualification |
+|---|---|
+| Display / Deluxe Looper strip labels | **Live1.4 chapter, XL-specific:** Deluxe Looper labels appear on the OLED strips. **FS2 Undo changes to Redo when released**; this is a label/state transition, not another screen. An empty loop dims labels and darkens rings; Speed/Reverse can still be selected before recording. |
+| Processing / Shuffling Looper versus synth | **Live1.4 chapter:** recorded audio is sliced, reordered, reversed, repeated and pitch-shifted. Interval1/2 span **one octave down to one octave up**; Pitch sets their likelihood. Smoothing can produce pad-like sound, not proof of a tracking synth. SeqLength changes sequence length after recording; Seq Drift0% repeats the sequence,100% changes it each cycle. No numeric slice-count range verified here. |
+| Looper / hold-to-delete scope | **Live1.4 chapter:** holding Shuffling Looper deletes audio **while playing or stopped**. For1 Switch Looper, a one-second hold during play/overdub undoes/redoes the last recording; holding while stopped deletes the whole loop. Deluxe **FS1 Clear is immediate in any state**; Speed changes playback pitch by an octave. These are different model/state rules, not interchangeable switch gestures. |
+| IDR / existing XL hardware cache | [ROCKPIZZ MUSIC,440477624/53707848703](https://shopee.co.id/LINE-6-HELIX-STADIUM-XL-FLOOR-LINE-6-HELIX-STADIUM-XL-FLOOR-i.440477624.53707848703) repeats **Rp41.220.000**,three-month crawl,with stale July18 delivery. Condition,stock,bundle,warranty andcheckout remain unverified;not a refreshed live price. |
+
+Existing duration,DSP,matching-model/path and power-off clearing limits remain. No loop recorded or deleted,no local download ordevice operation. Primary voltage/frequency/draw specifications remain unresolved;retailer power claims are not substituted.
+
 <!-- comparison evidence ends -->
 
 Recheck2026-10-31: the original Denpasar offer remainsRp41.220.000, but search reports a six-day crawl/delivery29October–1November while direct reopening returns three-month-old text/delivery18July. These are conflicting snapshots,not verified current stock; the original dated observations above remain intact.
