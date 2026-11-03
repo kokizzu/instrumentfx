@@ -149939,5 +149939,45 @@
     "megatap": "FM3-specific64-tap/four-second line/one-second predelay already recorded; no new discovery claimed.",
     "active_inventory_changed": false,
     "next": "Continue FM3 remaining Drive, Graphic EQ, Gate/Enhancer inventories and exact-model exceptions, then remaining hardware/market gaps. Preserve independent GT-Pro/general, expression and individual-display queues."
+  },
+  "fm3_mkii_gate_enhancer_geq_20261104": {
+    "checked": "2026-11-04",
+    "model": "Fractal Audio FM3 MKII Turbo",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026,pp3,44,52–53",
+    "gate_types": [
+      "Classic Expander",
+      "Classic Gate",
+      "Modern Expander",
+      "Modern Gate"
+    ],
+    "enhancer_types": [
+      "Modern Enhancer",
+      "Classic Enhancer",
+      "Stereoizer"
+    ],
+    "fm3_instance_limits": {
+      "gate": 2,
+      "enhancer": 2,
+      "graphic_eq": 2
+    },
+    "graphic_eq": {
+      "headline": 18,
+      "explained_configurations": 16,
+      "unreconciled": 2,
+      "basis": "Four band-count modes each constant/variable Q=8; passive/console/JMPre modes=6; pedal modes=2. Description expansion, not invented literal menu labels."
+    },
+    "qualifications": "CPU ceilings; Gate Hold is timing, not freeze; detector filters not output EQ; Classic mono cancellation differs from Modern/Stereoizer. Installed equivalence/introduction versions unverified.",
+    "market_recheck": {
+      "search": "site:shopee.co.id FM3 MKII Fractal",
+      "result": "Same three recorded offers only; no new live-stock or condition confirmation.",
+      "items": [
+        "11170212/27200713719",
+        "182719800/55801628505",
+        "1653859734/54450336270"
+      ]
+    },
+    "active_inventory_changed": false,
+    "next": "Continue FM3 Drive87 named reference census and remaining hardware/market gaps; preserve unresolved GEQ two-choice discrepancy and independent GT-Pro/general, expression and individual-display queues."
   }
 }

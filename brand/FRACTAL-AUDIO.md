@@ -366,6 +366,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; origina
 | Categories / named Plex Delay | [45 reference choices](#fm3-mkii-turbo--named-plex-delay-source-details), one FM3 block, CPU permitting. Detune/shift and sustained-tail processing are distinct from tracking synthesis; installed equivalence unverified. |
 | Categories / named Multi-Delay | [39 reference choices](#fm3-mkii-turbo--named-multi-delay-source-details), one FM3 block, CPU permitting; type-specific filtering/modulation is distinct from tracking synthesis. Installed equivalence unverified. |
 | Categories / Reverb and rhythmic processing | [November source limits](#fm3-mkii-turbo--reverb-exclusions-and-rhythmic-processing-source-details): Reverb79/one block excludes integrated pitch shifting on FM3; seven Tremolo choices/two blocks and two Ten-Tap choices/one block, CPU permitting. Tail holds and rhythmic delays are distinct from tracking synthesis or saved loops. |
+| Categories / Gate, Enhancer and Graphic EQ | [November census qualifications](#fm3-mkii-turbo--gate-enhancer-and-graphic-eq-source-details): four Gate and three Enhancer choices; Graphic EQ headlines18 but chapter explains16 configurations. Two FM3 instances each, CPU permitting; widening/swells differ from synthesis. |
 | Categories / compressor census | November2026 guide lists **19 compressor choices**,reconciled by name below;two FM3 instances remain CPU-limited. Look-ahead **0–2ms** delays both wet anddry audio. This is algorithm latency,not measured whole-device latency. [Own guide](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf),pp27–29. |
 | Preset / factory / user memory | **512 editable locations;8 scenes each**. Own7.x manual printedp41 specifies **first384 factory-filled**,all overwriteable;current shipping allocation/installed contents unverified. See [revision-qualified occupancy](#fm3--factory-occupancy-versus-editable-capacity). |
 | Synth / acoustic functions | **Synth yes:three-voice monophonic Synth block**,one instance/four channels in own7.x p46; resolves the earlier synth unknown. Acoustic instrument input documented;dedicated acoustic simulation remains unverified. Channels are stored variations,not four simultaneous synth blocks. [November guide tracking modes](#fm3--synth-tracking-modes-and-generator-boundary) distinguish pitch tracking,envelope-only andmanual generation. [Own manual](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf) |
@@ -864,6 +865,15 @@ Checked2026-11-04 against the [November2026 Blocks Guide](https://www.fractalaud
 - **Reverb:79 choices/one FM3 block**; chapter names nine families, not79 individual types: Chamber, Cloud, Echo, Hall, Huge, Plate, Room, SFX, Spring. **FM3 Reverb has no integrated pitch shifting**; some types consequently differ from other products. HOLD closes input; STACK layers new input into the sustained tail. Neither proves persistent loops or unconditional preset continuity.
 - **Tremolo:seven choices/two FM3 blocks**: Tremolo, Bias Trem, Harmonic Trem, Optical Trem 1, Optical Trem 2, Neon Trem, Panner. Trigger Threshold restarts the cycle from playing; OFF free-runs. Modulation is not tracking synthesis.
 - **Ten-Tap:two choices/one FM3 block**: Ten-Tap Delay; Rhythm Tap Delay. Ten-Tap controls1–10 echoes through Decay/individual levels; Rhythm Tap instead permits custom timing and whole-pattern feedback. These are delay patterns, not saved audio loops.
+
+
+### FM3 MKII Turbo — Gate, Enhancer and Graphic EQ source details
+
+Checked2026-11-04: [November2026 Blocks Guide](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf),pp3,44,52–53. FM3 permits **two instances each**, CPU permitting. Reference inventories do not establish installed contents or introduction versions; historical counts remain preserved.
+
+- **Gate/Expander:four choices**—Classic Expander, Classic Gate, Modern Expander, Modern Gate. Modern Gate can produce swells; sidechain filters affect detection, not output tone. Gate Hold is an open-gate duration, not audio freeze.
+- **Enhancer:three choices**—Modern Enhancer, Classic Enhancer, Stereoizer. Classic delays the right channel0–20ms and may cause cancellation when summed to mono; Modern uses frequency separation, while Stereoizer distributes frequency bands. Stereo widening does not establish synthesis.
+- **Graphic EQ:18 headline choices;16 configurations explained**:10/8/7/5-band each Constant/Variable Q (eight), passive Mark5-band/5-band/4-band/3-band plus3-band Console and4-Band JMPre-1 (six),7 Band Pedal and7 Band Bass Pedal (two). Two remaining choices are unverified; do not invent labels from other products.
 
 ## FM3 original
 
