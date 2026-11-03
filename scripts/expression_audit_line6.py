@@ -39,4 +39,4 @@ if __name__ == '__main__':
         assert review['head'] == git('rev-parse','HEAD').strip(), 'HEAD changed since review'
         assert review['sha256'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest(), 'Staged diff changed since review'
         assert not git('diff','--cached','--check').strip(), 'Staged whitespace errors'
-        print(git('commit','-m','research(line6): qualify Helix Rack IR import and looper limits'))
+        print(git('commit','-m','research(line6): audit Helix Rack effect categories and DSP group'))

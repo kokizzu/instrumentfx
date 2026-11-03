@@ -659,7 +659,9 @@ Checked **2026-11-03**; partial lead **outside active counts**,not ownership-con
 | IR / import | **3.80 pp42–43:** HX Edit on Mac/Windows imports HIR or WAV; WAV converts to **48kHz,32-bit,mono,2048 samples**. Stereo-source choice: left,right ormix. This is IR conversion,not NAM/amp capture. [Original-manual reproduction][HRK-R] |
 | IR / simultaneous limits | Single IR:1024 or2048 samples;perpath,two1024 orone2048;one Dual IR maximum perpath. Limits are shared with3.50 Cab/Dual Cab/Amp+Cab,not additive. [pp42–43][HRK-R] |
 | Looper / durations | **pp44–46:** one Looper/preset. 1/6Switch:mono60s full/120s half;stereo30s full/60s half. Shuffling:mono60s/stereo30s,no half-speed mode. Preset-change playback requires the same looper type andmono/stereo mode. Global EXP attenuation unverified. [Rack manual][HRK-R] |
-| Processing / power | Dual-SHARC,four stereo paths;grounded AC inlet. Full category census,factory memory fill,mainsfrequency/draw,battery/USB operation andexact editor requirements remain open. [Rack page][HRK-P] |
+| Processing / effect census | **3.80, pp29–34:** **274 named effect-table entries**, including106 Legacy; category breakdown below. Mono/stereo versions counted once. Excludes amps/cabs/mics,IRs,loopers androuting utilities; not simultaneous capacity orinstalled-content certification. [Rack manual reproduction][HRK-R] |
+| Processing / high-DSP group | **p24:** one per path maximum across Feedbacker,Poly Sustain,Poly Detune,Poly Pitch,Poly Wham,Poly Capo and12 String combined. Not one per preset, nor a guarantee two fit. [Rack manual][HRK-R] |
+| Processing / power | Dual-SHARC,four stereo paths;grounded AC inlet. Amp/cab/mic census,factory memory fill,mainsfrequency/draw,battery/USB operation andexact editor requirements remain open. [Rack page][HRK-P] |
 | IDR / hardware qualification | Used/new processor asks unknown. Search exposed [replacement LCD,272005224/54012405075](https://shopee.co.id/Lcd-Line-6-Helix-Rack-i.272005224.54012405075),not aprocessor. Existing [Helix Control offer](#helix-control--controller) isalso not Rack hardware orproof ofaRack bundle. No market absence inferred. |
 
 The3.80 manual revision identifies firmware applicability,not latest orinstalled firmware. Full-PDF reader rejected its14.6MB size;targeted indexed manufacturer text was available. No local download,software installation ordevice operation. Continue creative-effect inventory,visual control corroboration,physical/power specifications andqualified processor offers before active admission;do notborrow Floor orControl specifications.
@@ -694,6 +696,26 @@ Focused indexed manufacturer checks **2026-11-03**, **90-20-0370-F**, printed pp
 Checked **2026-11-03** in manufacturer-authored reproduction **90-20-0370-F,©2024,3.80,80pages**,matching theofficial manual identity;original pp42–46 only,not host advice. Main table narrows the IR/looper gaps. Persistence/export andglobal-volume coverage remain unverified. No local download ordevice operation.
 
 [HRK-R]: https://manuals.plus/m/b451d1de4a0bcd2e0b40c6699c14fd67ceff22bb4bb2272979d7fd40505e2f3a
+
+### Helix Rack — effect-table category census
+
+Checked **2026-11-03**, original **90-20-0370-F,firmware3.80**, printedpp29–34 via [manufacturer-authored reproduction][HRK-R]. Derived named-row counts:
+
+| Category | Non-Legacy | Legacy | Total |
+|---|---|---|---|
+| Distortion | 44 | 17 | 61 |
+| Dynamics | 12 | 7 | 19 |
+| EQ | 8 | 0 | 8 |
+| Modulation | 30 | 26 | 56 |
+| Delay | 28 | 17 | 45 |
+| Reverb | 13 | 12 | 25 |
+| Pitch/Synth | 12 | 17 | 29 |
+| Filter | 5 | 10 | 15 |
+| Wah | 11 | 0 | 11 |
+| Volume/Pan | 5 | 0 | 5 |
+| **Total** | **168** | **106** | **274** |
+
+Pitch/Synth includes pitch processors and input-independent generators, not29 tracking synths. Choices and audio-channel versions do not establish note polyphony orDSP concurrency. Other profile gaps remain;partial,outside active counts. No download ordevice operation.
 
 ## Helix Stadium XL Floor
 

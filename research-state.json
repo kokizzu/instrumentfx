@@ -146661,5 +146661,79 @@
     "fully_verified": false,
     "next": "LCD/OLED andmanufacturer mini-screen census;fullcategory/factory allocation;qualified Shopee hardware;externalEXP3 coverage. Independent general andexpression queues preserved.",
     "active_count_unchanged": 402
+  },
+  "helix_rack_effect_census_20261103": {
+    "model": "Line 6 Helix Rack",
+    "checked": "2026-11-03",
+    "source": "https://manuals.plus/m/b451d1de4a0bcd2e0b40c6699c14fd67ceff22bb4bb2272979d7fd40505e2f3a",
+    "revision": "Manufacturer90-20-0370-F,3.80,pp24,29–34;original body",
+    "category_counts": [
+      {
+        "category": "Distortion",
+        "non_legacy": 44,
+        "legacy": 17,
+        "total": 61
+      },
+      {
+        "category": "Dynamics",
+        "non_legacy": 12,
+        "legacy": 7,
+        "total": 19
+      },
+      {
+        "category": "EQ",
+        "non_legacy": 8,
+        "legacy": 0,
+        "total": 8
+      },
+      {
+        "category": "Modulation",
+        "non_legacy": 30,
+        "legacy": 26,
+        "total": 56
+      },
+      {
+        "category": "Delay",
+        "non_legacy": 28,
+        "legacy": 17,
+        "total": 45
+      },
+      {
+        "category": "Reverb",
+        "non_legacy": 13,
+        "legacy": 12,
+        "total": 25
+      },
+      {
+        "category": "Pitch/Synth",
+        "non_legacy": 12,
+        "legacy": 17,
+        "total": 29
+      },
+      {
+        "category": "Filter",
+        "non_legacy": 5,
+        "legacy": 10,
+        "total": 15
+      },
+      {
+        "category": "Wah",
+        "non_legacy": 11,
+        "legacy": 0,
+        "total": 11
+      },
+      {
+        "category": "Volume/Pan",
+        "non_legacy": 5,
+        "legacy": 0,
+        "total": 5
+      }
+    ],
+    "total": 274,
+    "basis": "Named effect rows;channel variants once;includes Legacy;excludes other block libraries. Group high-DSP cap verified per path.",
+    "active": false,
+    "fully_verified": false,
+    "next": "Factoryfill,other block libraries,editor minima,persistence/export,visualcontrols,power/body conflicts,globalEXP coverage andqualified processor offers;independent queues preserved.",
+    "active_count_unchanged": 402
   }
 }
