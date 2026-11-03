@@ -2338,3 +2338,7 @@ discovery-resolution-stage:
 	python3 scripts/discovery_resolution.py stage
 discovery-resolution-commit:
 	python3 scripts/discovery_resolution.py commit
+
+.PHONY: expression-audit-stage-sonicake
+expression-audit-stage-sonicake:
+	python3 scripts/expression_audit_sonicake.py stage

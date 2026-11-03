@@ -143915,5 +143915,38 @@
     "scope": "Live1.4documentation;notdevice-tested. SnapshotReselect separatefromPresetreload.",
     "next": "ContinueLCDfirst/no-treadleinventory;deferunchangedShopee/accessgaps",
     "downloads": false
+  },
+  "pocket_master_exact_offers_20261103": {
+    "checked": "2026-11-03",
+    "model": "Sonicake::Pocket Master QME-10",
+    "offers": [
+      {
+        "url": "https://shopee.co.id/Sonicake-Pocket-Master-i.145006307.49203653456",
+        "seller": "THE-HOK MUSIC",
+        "region": "Kota Jambi",
+        "idr": 705000,
+        "status": "Habis",
+        "access": "five-month search cache;direct miss"
+      },
+      {
+        "url": "https://shopee.co.id/Pedal-Multi-Effect-Processor-SONICAKE-Pocket-Master-Original-i.1776275.44231046412",
+        "seller": "Salomo Musik",
+        "region": "Jakarta Utara",
+        "idr": 1163000,
+        "status": "Dengan Voucher",
+        "access": "five-day search/two-month direct caches",
+        "voucher": "Rp10k minimum/10%;cap andeligibility unknown;not deducted again"
+      }
+    ],
+    "unknowns": [
+      "condition",
+      "working state",
+      "selected variant",
+      "bundle",
+      "warranty",
+      "live stock",
+      "delivered checkout total"
+    ],
+    "next": "Continue remaining no-treadle inventory and requested LCD gaps;do not reclassify PocketMaster as foot-operated or analog-EXP capable"
   }
 }
