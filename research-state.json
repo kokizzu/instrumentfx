@@ -149421,5 +149421,22 @@
     "offer_recheck": "Existing250276993/5129480739 Habis Rp7900000 fourmonthcache;LCD102307979/28994765376 accessoryexcluded;no newqualifiedoffer",
     "next": "Continue other accessible displaypriority gaps andqualifiedhardware discovery;preserve unresolvedHXsynthpolyphony/globalvolume andindependentqueues.",
     "active_inventory_changed": false
+  },
+  "stadium_xl_xy_controller_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://manuals.line6.com/en/helix-stadium/live/bypass-and-controller-assign",
+    "revision": "Live manual landing RevE1.4.1;older navigation retained;introduction version unknown",
+    "canonical": "brand/LINE6.md#stadium-xl--xy-performance-controller-and-return-behavior",
+    "finding": "X/Y multipleblockparameters;RubberBand defaultOn returns node afterfingerrelease;Offholdsposition;Time controlsreturn",
+    "position_scale": "X/Y0–100;optional outgoingCC0–127;notpedalresistance/parameterunit/ranges",
+    "focus_distinction": "FiveFocuszones ofsingleblock versusXYmultiblockperformance",
+    "remaining": [
+      "Primary mainsvoltage/frequency/draw",
+      "GlobalanalogEXPassignment/outputcoverage",
+      "Installedbehavior",
+      "QualifiedexactShopee stock"
+    ],
+    "next": "Continue accessible LCD-first model fields andqualifiedShopee hardware;retain independentgeneral/expression queues.",
+    "active_inventory_changed": false
   }
 }

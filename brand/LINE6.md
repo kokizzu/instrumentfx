@@ -792,6 +792,7 @@ Checked **2026-10-17** against selected pages of the live **Rev E / firmware1.4*
 | Storage / practical restrictions | Rear manual says microSD soldseparately andrequired forShowcase/backups;QuickStart says cardpre-inserted andproduct says32GBremovable. Retain bundle/document conflict;actualIndonesianoffer inclusion **?**. [Rear panel][SX-R], [Quick Start][SX-Q], [Product][SX-P] |
 | Storage / supported card scope | [Manufacturer Stadium microSD FAQ](https://kb.line6.com/microsd-card-faq-for-helix-stadium),checked **2026-11-03**: **32GB minimum;512GB maximum verified**,larger cards still under investigation. HC/XC supported;**U1 or faster recommended**. Device Maintenance formatting creates **exFAT(Stadium) andFAT32(Looper)** partitions;preformatting elsewhere doesnot establish correct partition layout. Song imports require **WAV**. FAQ claims no file-size restriction but doesnot distinguish partition-specific limits;do not turn this into a verified>4GB looper-file guarantee. Supported capacity isnot included-bundle evidence,extra preset locations orproof ofrecorded-loop backup. No card formatted orfiles transferred. |
 | Memory / backup contents and card migration | [Device backup versus two-partition copying](#stadium-xl--backup-contents-and-two-partition-card-migration); factory presets excluded, restore overwrites user data, loop-file naming conflict preserved. |
+| Controls / XY performance controller | [Live manual behavior](#stadium-xl--xy-performance-controller-and-return-behavior): X/Y can control parameters across multiple blocks; Rubber Band returns the node on finger release by default, with adjustable return time. Disabling it holds the released position. Focus zones belong to a single block; no additional processing slots or global EXP-volume assignment established. |
 
 ### Stadium XL — separate IDR evidence
 
@@ -975,6 +976,14 @@ Checked **2026-11-04** against the [manufacturer live firmware1.4 connectivity c
 Bluetooth receives streamed audio, with a30-second discovery timeout and matching six-digit pairing PIN. That PIN is separate from application remote-access authorization. Bluetooth level is independently mixed to quarter-inch, XLR and Phones outputs; this does not establish Bluetooth editing, MIDI, audio transmission or universal expression attenuation.
 
 The same chapter’s note says a Mac/Windows USB connection is required for firmware updates. The [current official download-page notice](https://line6.com/software/index.html?hardware=Helix&os=All&submit_form=set) instead strongly recommends direct Wi-Fi updating; USB updates through Central/Stadium require updating the application first. The [maintenance chapter](https://manuals.line6.com/en/helix-stadium/live/helix-stadium-maintenance) also describes on-device Concierge/Downloads update access. Preserve the USB-required wording as a conflicting source statement rather than a universal restriction. No update, connection, download or device operation performed. Power-label ratings, qualified stock and remaining model gaps stay open.
+
+### Stadium XL — XY performance controller and return behavior
+
+Checked **2026-11-04** in the [manufacturer live Bypass/Controller chapter](https://manuals.line6.com/en/helix-stadium/live/bypass-and-controller-assign), XY Controller subsection. The current manual landing footer identifies RevE/firmware1.4.1; navigation retains older revision labels. This is documented reference behavior, not installed-hardware testing or an introduction-version claim.
+
+Assign one or more parameters from any blocks to the touchscreen X and/or Y axes. **Rubber Band is on by default:** lifting the finger returns the node to its original position; Rubber Band Time sets the return duration. With Rubber Band off, it remains where released. Sidebar X/Y positions span0–100; optional Command Center axis messages show MIDI CC0–127. Those scales do not specify parameter units or physical pedal endpoints.
+
+Focus view instead edits five sound zones of one block. XY assignments do not add effect blocks, establish synth tracking or assign analog expression volume across all presets. Power voltage/frequency/draw remain primary-unverified; no local download,connection ordevice operation.
 
 ## HX Effects
 
