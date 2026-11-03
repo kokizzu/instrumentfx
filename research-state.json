@@ -144993,11 +144993,12 @@
       {
         "key": "Fractal Audio::FM3 MKII Turbo",
         "canonical": "brand/FRACTAL-AUDIO.md#fm3-mkii-turbo",
-        "synth": "Three-voice monophonic Synth",
+        "synth": "Three-voice monophonic Synth; manual/envelope/pitch/quantized tracking modes",
         "pitch": "Pitch block",
         "instrument": "Acoustic simulation unverified",
-        "qualification": "7.x manual versus current13 inventory qualification",
-        "evidence_basis": "Existing canonical record and retained dated manufacturer evidence; not freshly reverified for this index."
+        "qualification": "Focused November2026 guide mode check; MKII firmware minimum unstated; not a complete fresh four-category audit",
+        "evidence_basis": "Retained canonical pitch/instrument evidence plus focused2026-11-03 manufacturer Synth-mode follow-up; not full re-audit.",
+        "synth_followup_source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf"
       },
       {
         "key": "Fractal Audio::FM9 MKII Turbo",
@@ -145382,5 +145383,22 @@
       "No device test"
     ],
     "next": "Continue requested individual footswitch-screen processors and exact Shopee hardware discovery; Stadium XL power label, auxiliary screen specifications and qualified stock remain open. Preserve independent queues."
+  },
+  "fm3_synth_mode_scope_20261103": {
+    "model": "Fractal Audio FM3 MKII Turbo",
+    "checked": "2026-11-03",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026, printed3,102",
+    "findings": [
+      "Three-oscillator monophonic Synth; FM3 one instance",
+      "Independent OFF/ENV ONLY/PITCH+ENV/QUANTIZE tracking roles",
+      "Waveform choices distinct from voices; detune±50cents"
+    ],
+    "limits": [
+      "MKII-specific firmware minimum unstated",
+      "No polyphonic input orlatency claim",
+      "Not full fresh capability audit"
+    ],
+    "next": "Continue requested separate-screen processors andqualified Shopee evidence;FM3 current complete inventory,global-volume endpoints/recall/coverage andphysical display specifications remain open;preserve independent queues."
   }
 }
