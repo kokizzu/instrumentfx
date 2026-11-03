@@ -144399,5 +144399,21 @@
       "No hardware/download operations"
     ],
     "next": "Continue individual footswitch LCD research and exact Shopee offers;preserve independent GP-200JR→Prime→GE300 queue."
+  },
+  "prime_usb_channel_scope_20261103": {
+    "model": "HeadRush Prime",
+    "checked": "2026-11-03",
+    "source": "https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf",
+    "revision": "5.2.0,printedpp59–60,73;existing local text only",
+    "findings": [
+      "Exact6-record/4-playback channel map",
+      "Live versus DAW/Reamp hardware-monitoring boundary",
+      "USB In Level−60to+12dB;not EXP assignment"
+    ],
+    "limits": [
+      "Playback4 unused in documented scenario,not universal No",
+      "USB/headphone global pedal coverage remains unverified"
+    ],
+    "next": "Continue individual LCD research andqualified exact Shopee offers;independent GP-200JR→Prime→GE300 queue preserved."
   }
 }
