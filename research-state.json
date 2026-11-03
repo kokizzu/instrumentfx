@@ -148558,5 +148558,16 @@
     "scope": "GK Audio routing andscene/system inheritance;not normal-pickup effects orall-route analog-volume certification.",
     "next": "Continue exact normal-pickup andincoming serial-audio MFX coverage;retain audio-MFX polyphony andinstalled-firmware unknowns. Independent queues unchanged.",
     "active_inventory_changed": false
+  },
+  "gp200jr_shared_screen_modes_20261104": {
+    "canonical": "brand/VALETON.md#gp-200jr--shared-screen-display-modes-and-revision-boundary",
+    "sources": [
+      "https://manuals.plus/m/7898605c67b93c388ac95c61a2362863c1d324fd63b2fdfb7d4c78851af0f149",
+      "https://www.notice-facile.com/en/manual/1622473/valeton%2Bgp-200jr"
+    ],
+    "revision": "Manufacturer body1.5.0 p14; host metadata1.4.0 conflict. Indexed1.8.0 Display text corroborates; direct403.",
+    "scope": "Shared-screen modes and separate display timeout; no touch, individual LCD or audio-sleep inference.",
+    "next": "Continue Prime then original GE300 in independent general queue; retain JR IR conversion, NAM architecture, toe/touch/power and qualified-offer gaps. Root GT-Pro and display/expression queues unchanged.",
+    "active_inventory_changed": false
   }
 }

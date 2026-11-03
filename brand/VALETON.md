@@ -1654,7 +1654,7 @@ Guitar/bass/acoustic multi-effects; checked **2026-10-16**. Separate from GP-200
 | Expression / assignment scope | Selected-patch EXP1A/1B/2 targets allow three parameters each with MIN/MAX. Global EXP2 socket setup explicitly refers back to Patch Settings→EXP Settings. No universal volume override established. Built-in treadle excludes JR from the no-treadle shortlist. |
 | Expression / copied prose conflict | P8 claims two external pedals; panel shows one EXP/FS socket plus the built-in pedal. Preserve the contradiction rather than claim two external analog inputs. Calibration curves and strong toe-press step do not resolve separate toe-switch count. |
 | Knobs / footswitches / buttons | **5 / 3 / 14** from the rendered front diagram: PARA, MASTER, three quick knobs; three floor switches; ten module selectors and BACK/GLOBAL/DRUM/SAVE. PARA push is not counted again. One rear GND/LIFT toggle is additional. Manual prose incorrectly says four footswitches; product page and diagram show three. [JR-P, JR-M pp.3–4] |
-| Screen | **4.3-inch color TFT LCD, 480×272**; exact Chinese manufacturer page additionally calls it **IPS**. Touchscreen specification remains unverified. [JR-P, JR-M p.3] |
+| Screen | **4.3-inch color TFT LCD, 480×272**; exact Chinese manufacturer page additionally calls it **IPS**. Touchscreen specification remains unverified. [JR-P, JR-M p.3] [Shared-screen modes](#gp-200jr--shared-screen-display-modes-and-revision-boundary) are distinct from individual footswitch displays. |
 | Dimensions / weight | **281 W ×166 D ×57 H mm; 1.55 kg**; medium footprint. [JR-M p.75] |
 | Processing | Eleven movable category modules: PRE, WAH, DST, AMP, NR, CAB, EQ, MOD, DLY, RVB, VOL. DSP overload remains possible; not eleven unrestricted duplicate blocks. [JR-P, JR-M pp.9–10] |
 | Choices per category | **Firmware1.8.0 complete named-table census:** PRE31,WAH6,DST38,AMP71,NR4,CAB70,EQ6,MOD27,DLY22,RVB12,VOL1. **288 category-menu entries**,including cabinet/body choices andcross-category repeats;not288 unique algorithms orsimultaneous blocks. Excludes five AMP/five DST SnapTone import slots and20 userIR slots. AMP splits18Clean/26Drive/20HiGain/5Bass/2Acoustic;CAB60speaker+10Acoustic. Marketing240+,140+amp/cab and100+stomp figures retain their separate,overlapping scope. Earlier PRE27 was incomplete;31 is the corrected count. [Complete census below](#gp-200jr--complete-firmware180-category-census). |
@@ -1866,6 +1866,17 @@ The separate [GP-200 Setup1.8.1 Windows listing](https://www.valeton.net/wpfd_fi
 Checked **2026-11-04**: [garvil-shop,shop1788635181/item51069660759](https://shopee.co.id/EFEK-GITAR-VALETON-GP200-JR-VALETON-GP200JR-EFEK-GITAR-DIGITAL-VALETON-GP200-i.1788635181.51069660759) appears in a four-day-old search snapshot at **Rp559.000**,with **two variations** and a GP200/JR-mixed title. The direct item is inaccessible and no selected-variation description establishes what that price buys. **Excluded from hardware asking-price tables**;not a cheap JR offer,a verified accessory orproof of fraud. Seller snippet says Kab.Tangerang;condition,bundle,stock andcheckout remain unknown.
 
 The two newly recorded hardware titles above preserve their separate cached dates andstock qualifications. No verified new/used range is derived. Exact-model power,touch/toe,IR-conversion andNAM-concurrency gaps remain open;the full-size GP-200 FAQ andfirmware are not substituted asJR evidence. No download,purchase orseller contact.
+
+### GP-200JR — shared-screen display modes and revision boundary
+
+Checked **2026-11-04**. The manufacturer-authored manual body reproduced at [Manuals+](https://manuals.plus/m/7898605c67b93c388ac95c61a2362863c1d324fd63b2fdfb7d4c78851af0f149), printed p14, identifies **firmware1.5.0** on its cover and About example, despite the host metadata naming1.4.0. Use the body revision, not the host title; generated commentary is excluded. The [indexed1.8.0 reproduction](https://www.notice-facile.com/en/manual/1622473/valeton%2Bgp-200jr) corroborates the Display text, but direct opening returned403; no claim of complete inspection or visual verification of that copy.
+
+| Field | Documented behavior / limit |
+|---|---|
+| Screen / display modes | **Footswitch** shows switch assignments on the shared main screen; **Patch** enlarges patch names/numbers; **Signal chain** shows chain and module status. These are alternative information layouts, not individual screens above the switches or evidence of touch operation. |
+| Screen / sleep control | Brightness, language and **Display Time** are separate options; the latter controls time to the documented sleep state. Audio muting, power saving, wake gestures and numerical timeout choices are not established by this text. |
+
+This closes the shared-screen mode-description gap, not touchscreen, toe-switch or current-firmware equivalence. Existing panel counts, copied-model conflicts and dated offers remain intact. No download, firmware modification or device operation.
 
 ## GP-200LT
 
