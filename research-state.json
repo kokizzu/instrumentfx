@@ -147552,5 +147552,27 @@
     "additional_creative_records": 45,
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "gt_pro_fc300_scope_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://static.roland.com/assets/media/pdf/GT-PRO_l_FC-300_AP.pdf",
+    "revision": "2008 BOSS;5100005691-01;6 pages",
+    "canonical": "brand/BOSS.md#gt-pro--fc-300-integration-versus-direct-analog-expression",
+    "findings": [
+      "One-way MIDI for patch selection;two-way for Manual Mode,with different FC-200 Mode setting",
+      "EXP1 CC7 and EXP2 CC1 transmit0–127;CTL1 CC80 momentary",
+      "Foot Volume guidance refers to individual-patch FV originalp65;not proof of global range override",
+      "Japanese exact product page explicitly USB1.0/1.1 operation on USB2.0 host"
+    ],
+    "market_check": "Exact GT-PRO Shopee search produced unrelated devices;no qualified hardware offer or market-absence claim",
+    "remaining": [
+      "13-versus15 basis",
+      "Other USB-mode channel counts",
+      "Panel visual corroboration",
+      "Fixed globalFV versus patch enable/range precedence",
+      "Headphone/tail/recordedHold attenuation",
+      "Qualified exact Shopee hardware offer"
+    ],
+    "queue_policy": "Independent general,expression and individual-footdisplay priorities unchanged;source-blocked gaps deferred"
   }
 }

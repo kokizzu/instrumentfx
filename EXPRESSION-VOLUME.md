@@ -755,3 +755,5 @@ Helix Rack [spillover-mode exception](brand/LINE6.md#helix-rack--spillover-trade
 Axe-Fx III Mark II Turbo [volume-command and USB boundaries](brand/FRACTAL-AUDIO.md#axe-fx-iii-mark-ii-turbo--connectors-and-volume-command-boundaries): preset-saving increment/decrement commands are distinct from continuous global volume; USB playback can survive output MUTE. Analog recall andpedal USB coverage remain unresolved.
 
 Ampero Mini’s recommended [SP-30 pedal separates its audio-volume and expression circuits](brand/HOTONE.md#ampero-mini--recommended-pedal-audio-and-expression-separation): simultaneous use is documented,but this does not establish global EXP assignment inside the processor or actual M-VAVE wiring.
+
+GT-Pro [FC-300 integration](brand/BOSS.md#gt-pro--fc-300-integration-versus-direct-analog-expression): the2008 supplement uses MIDI CC7/CC1,0–127, and refers Foot Volume back to per-patch FV settings. This does not establish direct analog wiring or resolve fixed-role precedence over patch range/enable.
