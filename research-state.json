@@ -144229,5 +144229,21 @@
       "Qualified exact Shopee used/new offers"
     ],
     "next": "Continue remaining no-treadle inventory without transferring original ACS1 specifications; retain separate-screen research priority and independent GP-200JR -> Prime -> GE300 cursor."
+  },
+  "gp200jr_drum_sync_20261103": {
+    "model": "Valeton GP-200JR",
+    "source": "https://www.valeton.net/download/121/gp-200jr/22452/gp-200jr_online-manual_en_firmware-v1-8-0-pdf.pdf",
+    "revision": "Previously saved manufacturer firmware1.8.0 manual; printed pages7–8",
+    "findings": [
+      "Drum tempo40–250BPM andlevel0–100",
+      "Drum Sync ties tempo to patch; looper Sync separately requires error under50ms",
+      "PARA changes patch inside Looper; footswitch actions contextual"
+    ],
+    "limits": [
+      "50ms is synchronization tolerance, not audio latency",
+      "No loop continuity or universal EXP coverage proof",
+      "No device operation or new local download"
+    ],
+    "next": "Continue independent HeadRush Prime then MOOER GE300 queue; unchanged Mini/Nano global-volume gaps stay deferred."
   }
 }
