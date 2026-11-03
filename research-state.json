@@ -145640,5 +145640,29 @@
     },
     "next": "Continue remaining exact-model dimensions/aux conflicts,current USB and firmware qualifications,visual controls and condition-specific hardware offers. Preserve independent individual-display and expression queues.",
     "inventory_changed": false
+  },
+  "gp200jr_cabinet_scope_aliskamusik_20261103": {
+    "checked": "2026-11-03",
+    "model": "Valeton::GP-200JR",
+    "source": "Previously saved manufacturer GP-200JR1.8.0 manual,printed13,17–18;no download thisturn",
+    "source_url": "https://www.valeton.net/download/121/gp-200jr/22452/gp-200jr_online-manual_en_firmware-v1-8-0-pdf.pdf",
+    "findings": [
+      "NoCAB L/R defaultsOff;documented analog scope only",
+      "AutoCABMatch globally couples CAB selection to AMP selection",
+      "GlobalEQ USB-bypass statement repeatedly names LT;JR coverage unconfirmed"
+    ],
+    "offer": {
+      "seller": "aliska musik shop",
+      "shop_id": "1423091080",
+      "item_id": "51612518058",
+      "url": "https://shopee.co.id/Valeton-GP-200JR-i.1423091080.51612518058",
+      "opened_shop_idr": 4000000,
+      "search_idr": 3600000,
+      "condition": "unverified;ProdukBaru inoldersearch not confirmed itemcondition",
+      "stock": "unverified",
+      "access": "Shop two-month snapshot;searchthree-month;directitemcachemiss;variationcontents unknown"
+    },
+    "next": "Continue exact-model IRconversion/NAMarchitecture/power/touch/toe questions andqualifiedIDR;independent queue GP-200JR→Prime→GE300 retained.",
+    "inventory_changed": false
   }
 }
