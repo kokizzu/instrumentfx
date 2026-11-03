@@ -146258,5 +146258,18 @@
     ],
     "remaining": "Favorites/userdefaults/loopaudio resetcoverage,installedfirmware,globalanalogvolume endpoints/outputcoverage andqualifiedstock unresolved",
     "inventory_changed": false
+  },
+  "h9gen2_routing_killdry_20261103": {
+    "source": "https://cdn.eventideaudio.com/manuals/h9/1.2.2/en/content/system-menu/global.html",
+    "revision": "Exact Gen2 manual1.2.2",
+    "findings": [
+      "Pre/Postprocessesoneinputwhiletheotherpassesunchanged",
+      "Wet1Dry2/Wet2Dry1summedinputsandmonowet/drybranches",
+      "GlobalKillDryappliesonlytopresetKillDry=Global",
+      "Spillover0–30sforpreviouspresettails"
+    ],
+    "remaining": "Globalgainendpoints,rangeediting,heldposition,bypass/dry/tail/loopcoverageandqualifiedGen2Shopeeoffersunresolved",
+    "active": false,
+    "inventory_changed": false
   }
 }

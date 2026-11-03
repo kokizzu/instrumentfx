@@ -88,6 +88,19 @@ Checked **2026-11-03** in [Eventide Japan's exact Gen2 product page](https://www
 
 The same exact-model regional page explicitly describes **guitar/bass-to-synth processing** andmulti-effect composite algorithms. This supports ordinary-instrument synth capability,not unrestricted polyphony for every algorithm,acoustic simulation or74 independently simultaneous slots. Its Bluetooth-coming-soon text remains qualified by the later1.2.2 documentation already retained. Global pedal gain endpoints,recall andoutput coverage remain unresolved;the model remains a partial lead outside active counts.
 
+### H9 Gen 2 — own routing, Kill Dry inheritance and spillover
+
+Checked **2026-11-03**, [exact Gen2 manual1.2.2 Global chapter](https://cdn.eventideaudio.com/manuals/h9/1.2.2/en/content/system-menu/global.html). These are Gen2 documentation findings,not original H9/H90 specifications ordevice tests.
+
+| Field | Exact-model routing / limitation |
+|---|---|
+| I/O / Pre-Post routing | **Pre** processes Input1→Output1 while Input2 passes unchanged toOutput2;**Post** processes Input2→Output2 while Input1 passes unchanged toOutput1. Position ischosen per preset within the global routing configuration;this isnot two simultaneous processed stereo paths. |
+| I/O / Wet-Dry routing | **Wet1/Dry2** or**Wet2/Dry1** uses one mono processed output andone mono dry output;stereo inputs sum. **Normal** within this configuration restores ordinary connection-dependent mono/stereo processing. Two output jacks do not guarantee stereo wet processing inWet/Dry mode. |
+| Expression / Kill Dry and gain-coverage distinction | Global Kill Dry changes presets onlywhen their **preset Kill Dry is set toGlobal**. Removing dry audio makes preset Mix aneffect-level control;neither this inheritance nor the existing global In/Out Gain mapping proves pedal attenuation of every unprocessed branch. |
+| Live / preset-change tails | **Spillover Time0–30seconds** controls previous-preset tails after loading another preset. This differs from DSP-bypass tails,uninterrupted algorithm switching,andconfirmed EXP control ofold tails orloop audio. |
+
+Gain endpoints/range editing,held-position recall,all-mode output coverage andqualified exact Shopee Gen2hardware remain unknown. The record stays a partial lead outside active counts;no download,connection orsettings change.
+
 ## H9 Max
 
 Checked 2026-10-17; partial. Max is distinct from Standard/Core; ownership unverified.
