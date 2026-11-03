@@ -146890,5 +146890,27 @@
     "fully_verified": false,
     "next": "Named choices,factory fill,NAM firmware/import mapping,volume/output coverage,visual controls,qualified hardware. Independent LCD-first/general queues preserved.",
     "active_count_unchanged": 402
+  },
+  "axe_fx_iii_mkii_turbo_nam_scope_20261103": {
+    "model": "Fractal Audio Axe-Fx III Mark II Turbo",
+    "checked": "2026-11-03",
+    "sources": [
+      "https://www.tone3000.com/blog/fractal-axe-fx-iii-nam-a2",
+      "https://www.fractalaudio.com/axe-fx-iii-downloads/",
+      "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf"
+    ],
+    "scope": "Partner announcement October30;November guide pp69–70;retrieved manufacturer downloads32.06",
+    "finding": "Announced TONE3000 integration firmware33.0+/editor1.15.03+;A2 playback,two Full NAM blocks,four selectable channels each,256 captures. Non-Turbo secondNAM Lite withAmp is not Turbo restriction. Forthcoming editor capture utility not installed capability.",
+    "manufacturer_block": "Mono LEFT/RIGHT/SUM;input gain±20dB;calibration metadata;Full/Lite info. Audio channels not note polyphony.",
+    "uncertainties": [
+      "Official forum403;final33.00/33.01 release status not verified",
+      "Earlier NAM architectures/import conversion",
+      "Installed firmware and measured concurrency",
+      "Factory fill,named choices,volume/output coverage,visual controls,qualified hardware"
+    ],
+    "active": false,
+    "fully_verified": false,
+    "next": "Verify exact release notes without downloads when accessible;continue remaining LCD-first sources and independent queues.",
+    "active_count_unchanged": 402
   }
 }

@@ -225,6 +225,20 @@ The ceilings sum arithmetically to **103**, including routing/control. This is *
 
 Partial,outside active counts. Continue factory fill,named-choice audit,NAM version mapping,volume coverage,visual controls andqualified stock; independent queues preserved.
 
+### Axe-Fx III Mark II Turbo — versioned NAM integration and capture boundaries
+
+Checked **2026-11-03**. This follow-up narrows the earlier unresolved firmware mapping; it does not establish installed firmware or a final-release download.
+
+[TONE3000’s own partnership announcement,2026-10-30][AX3-T] specifies **firmware33.0+ / Axe-Edit III1.15.03+** for its account-based editor integration. It describes **A2 playback, two Full-mode NAM blocks, four selectable channels each and256 stored captures**; eight selections are not eight simultaneous captures. With an Amp block, the second NAM becomes Lite on **non-Turbo** hardware. These are announced limits, not measured CPU capacity. Do not transfer original/MarkI’s128-slot limit or User Cab Bank2 replacement warning to MarkII Turbo. The proposed editor capture utility is **forthcoming**, not established onboard capture.
+
+The [manufacturer download page][AX3-S] retrieved today still lists32.06; the announcement itself calls33 upcoming. Manufacturer forum access returned403. Final33.00/33.01 release status, earlier-NAM compatibility and import conversion remain unresolved; no firmware/archive downloaded.
+
+[November2026 manufacturer Blocks Guide pp69–70][AX3-B]: NAM playback is **mono**, with LEFT/RIGHT/SUM input selection, not a statement about note tracking. Captures preserve sampled settings; added modeled tone stacks do not reconstruct original knobs. Input Gain spans±20dB; calibration metadata can normalize input. Info identifies Full/Lite mode. This processing is separate from Synth and cabinet IR capture.
+
+Keep the partial lead outside active counts. Continue exact release-note/import verification, named effects, factory fill, volume coverage and qualified hardware; LCD-first and independent general queues remain intact.
+
+[AX3-T]: https://www.tone3000.com/blog/fractal-axe-fx-iii-nam-a2
+
 [AX3-E]: https://www.fractalaudio.com/axe-fx-iii-edit/
 
 [AX3-P]: https://shop.fractalaudio.com/products/axe-fx-iii-mkii-turbo-preamp-fx-processor

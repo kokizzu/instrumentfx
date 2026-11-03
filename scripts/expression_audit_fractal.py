@@ -39,4 +39,4 @@ if __name__ == '__main__':
         assert review['head'] == git('rev-parse','HEAD').strip(), 'HEAD changed since review'
         assert review['sha256'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest(), 'Staged diff changed since review'
         assert not git('diff','--cached','--check').strip(), 'Staged whitespace errors'
-        print(git('commit','-m','research(fractal): audit Axe-Fx III block ceilings and editor requirements'))
+        print(git('commit','-m','research(fractal): qualify announced NAM integration and capture scope'))
