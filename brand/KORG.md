@@ -484,6 +484,7 @@ Checked **2026-10-17**, partial. Guitar multi-effects, distinct from AX300G/AX30
 | Blocks / category choices | **Six simultaneous effects plus separate NR**; **28 types including NR**. Two blocks, up to three effects each; **6×4=24 chain combinations**. Groups: block1 six types; block2 amp/exciter2, Mod1 six, Mod2 eight, ambience5. [Manual][AX30-M] |
 | Memory | **16 user +50 preset =66**; **all16 user locations have named factory examples** in the program list; current contents depend on edits. [Manual][AX30-M] |
 | Synth / acoustic | “A.Sim” means **amp simulator**, not acoustic simulator. Hyper Resonator explicitly produces guitar-synth-type sounds; Random Step Filter can act as a random oscillator. Dedicated acoustic simulation **?**. [Manual][AX30-M] |
+| Creative / processing distinctions | Hyper Resonator combines harmonic drive and swept resonance; it does not establish pitch-tracking synthesis. PITCH SHIFTER mixes parallel harmony; BENDER uses pressure/expression. Both share Mod2 with Random Step Filter, so are alternatives. Input-note polyphony unverified. [Original manual pp6,25,28][AX30-M],focused text recheck2026-11-03;scan/OCR limits remain. |
 | IR / NAM / captures | User IR, native NAM, converted NAM and proprietary captures **?**. |
 | I/O | Guitar; stereo mini Mix input; L/Mono,R line outputs; stereo mini phones; Parameter/Volume pedal inputs; DC9V. [Manual][AX30-M] USB/audio/MIDI interfaces **?**. |
 | Power / battery / USB | **9 V DC; 3 W**. Current, polarity, barrel dimensions, battery/USB power **?**. [Manual][AX30-M] |

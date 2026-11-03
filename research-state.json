@@ -145263,6 +145263,15 @@
         "instrument": "AC SIM fourbodychoices;PICKUP conversion",
         "qualification": "Focused original-guide check,not full fresh audit;existing revision/price gaps retained",
         "evidence_basis": "Manufacturer AX3GFXParamGuideE1 printed2–4;existing pitch evidence p8 retained."
+      },
+      {
+        "key": "Korg::AX30G",
+        "canonical": "brand/KORG.md#ax30g",
+        "synth": "Hyper Resonator drive/resonance;Random Step Filter oscillator modes;tracking synth unverified",
+        "pitch": "PitchShifter andpressure/expression Bender;polyphony unverified",
+        "instrument": "A.Sim meansamp simulation,notverified acoustic",
+        "qualification": "Mod2 alternatives;originalmanual mirror/OCR limits;notfullfresh audit",
+        "evidence_basis": "Retained canonicalmanual evidence,focused pp6,25,28 textrecheck2026-11-03"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -146543,6 +146552,14 @@
     "finding": "Single tip-sleeve switch viaTS replacesexpression atlocaljack;OPEN/CLOSEDpolarity,FollowHardware/VirtualToggle;switches neednocalibration.",
     "source_conflict": "p12 says twojacks butnamesPedal1/2/3;threephysicaljacks separatelyestablished. Do notreducecount.",
     "remaining": "Combinedexpression/toe andcurrentMKII/firmware12 equivalence,MVAVEcompatibility,globalvolumerange/recall/coverage unresolved.",
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
+  },
+  "ax30g_creative_index_20261103": {
+    "source": "https://manualzz.com/doc/22367070/korg-ax30g-owner-s-manual",
+    "scope": "Manufacturer-authored originalbody,pp6,25,28;notgeneratedFAQ;scan/OCRlimitation retained",
+    "finding": "Indexed existingactiveAX30G;distinguished drive/resonance,randomoscillator andpitch;Mod2 sharing explicit",
+    "additional_creative_records": 35,
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
   }

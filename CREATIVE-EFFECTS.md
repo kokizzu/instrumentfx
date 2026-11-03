@@ -42,7 +42,7 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **34 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **35 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
@@ -80,10 +80,11 @@ This index reuses existing canonical evidence and its original revision/date qua
 | [Zoom G11](brand/ZOOM.md#g11) | Z-Syn;BaStdSyn;BaSynTlk;chord tracking unverified | PolyShift chords;mono pitch variants;HPS scale/key harmony | Aco.Sim;HotSpice sitar;Defret bass | [Focused V2 distinctions](brand/ZOOM.md#g11--creative-instrument-tones-and-harmony-distinctions);Slicer,LoopRoll,Bomber;documented choices are DSP-limited,not current installed census |
 | [Zoom G5n](brand/ZOOM.md#g5n) | Dedicated synth unverified;factory synth-like recipes separate | PitchSHFT−12…+12/+24;MonoPitch single-note;HPS scale/key harmony | Aco.Sim;later HotSpice sitar;composite Gayageum preset distinct | [Focused historical pitch check](brand/ZOOM.md#g5n--pitch-ranges-and-creative-processing-qualifications);Slicer,LoopRoll,Bomber,pedal lo-fi;no G11 PolyShift inheritance orcurrent installed census |
 | [Korg AX3G](brand/KORG.md#ax3g) | Tracking synth unverified; DRONE is sitar sympathetic-string processing | PITCH±24; single-note OCTAVE | AC SIM four bodies, including resonator; PICKUP conversion | Ring Mod; [focused original-guide distinctions](brand/KORG.md#ax3g--acoustic-body-choices-and-creative-effect-boundaries); not a complete fresh audit |
+| [Korg AX30G](brand/KORG.md#ax30g) | Hyper Resonator is drive/resonance; Random Step Filter has oscillator modes; tracking synth unverified | Pitch Shifter; pressure/expression Bender; note polyphony unverified | A.Sim is amp simulation; acoustic simulation unverified | Ring Mod; Hold Delay; Mod2 alternatives share one group. Original-manual mirror/OCR qualifications retained |
 
 ## Separately recorded partial leads
 
-[BOSS EX-4](brand/BOSS.md#ex-4--pitch-note-handling-and-composite-organ-preset) remains **outside active counts and the 34-record index above**. Its guide documents single-note Guitar/Bass Synth and Harmonist, chord-capable Heavy Oct, Pitch Shift±24 semitones, acoustic/instrument simulation and special effects. MONO ORGAN is a composite effect recipe. This focused pitch check does not complete its hardware/market profile.
+[BOSS EX-4](brand/BOSS.md#ex-4--pitch-note-handling-and-composite-organ-preset) remains **outside active counts and the 35-record index above**. Its guide documents single-note Guitar/Bass Synth and Harmonist, chord-capable Heavy Oct, Pitch Shift±24 semitones, acoustic/instrument simulation and special effects. MONO ORGAN is a composite effect recipe. This focused pitch check does not complete its hardware/market profile.
 
 ## What remains uncertain
 
