@@ -147858,5 +147858,14 @@
     "limits": "NotglobalEXPassignment,measuredmute orheadphone/loop/tailcoverage;acceptedIRformats/browser alreadyrecorded,notduplicated.",
     "next": "Continue unresolved currentcategory/rigstorage/qualifiedmarket andpriorityfootdisplay research;independent GP-200JR→Prime→GE300 queue retained.",
     "active_inventory_changed": false
+  },
+  "h90_kill_dry_inheritance_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://cdn.eventideaudio.com/manuals/h90/1.12.5/content/system-menu/global.html",
+    "revision": "H90manual1.12.5",
+    "finding": "GlobalKillDry is inherited onlywhenProgram/Preset KillDry=Global;notunconditional overwrite oflocalvalues.",
+    "limits": "Dry-pathconfig≠POutGainassignment orpedalcoverage;endpoints/positionrecall/bypass/tail/loop remain unresolved. H9/Gen2restrictions not transferred.",
+    "next": "Continue unresolved current globalrange/outputcoverage andqualifiedmarket;retain independent general andfootdisplay queues.",
+    "active_inventory_changed": false
   }
 }
