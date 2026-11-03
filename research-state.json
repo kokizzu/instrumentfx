@@ -145273,7 +145273,12 @@
       "HX synth-input polyphony; GT-1000CORE current-firmware guide equivalence and unspecified note handling; B1on unspecified chord support;GE300 Harmony single-note restriction now verified inChinese3.0.1 notes.",
       "GM-800 GK Audio routing/effects coverage and audio-MFX polyphony; firmware-qualified normal pickup paths retained."
     ],
-    "independent_queues_preserved": true
+    "independent_queues_preserved": true,
+    "additional_index_presentation": {
+      "checked_date": "2026-11-03",
+      "records": 33,
+      "change": "Corrected stale 31-record introduction to 33 and removed blank lines splitting the additional-catalogue Markdown table. No technical claims, ownership, instrument membership or independent queues changed."
+    }
   },
   "hxstomp_own_category_census_20261103": {
     "model": "Line 6 HX Stomp",
