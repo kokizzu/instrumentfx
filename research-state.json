@@ -148435,5 +148435,42 @@
     ],
     "next": "Continue accessible requested individual-screen processor gaps;general GP-200JR -> Prime -> GE300 andotherqueues unchanged.",
     "active_inventory_changed": false
+  },
+  "gnx3000_partial_discovery_20261104": {
+    "model": "DigiTech GNX3000",
+    "status": "partial lead, outside active inventory; ownership unknown",
+    "checked": "2026-11-04",
+    "sources": [
+      "https://digitech.com/dp/gnx3000/",
+      "https://digitech.com/faqs/",
+      "https://digitech.com/wp-content/uploads/2022/09/GNX3000REVB_Owners_manual_original.pdf",
+      "https://manualmachine.com/digitech/gnx3000/1120205-user-manual/",
+      "https://shopee.co.id/DIGITECH-GNX3000-SECOND-ORIGINAL-NORMAL-BAIK-i.190993829.17683145868"
+    ],
+    "source_limits": "Official PDF too large; manufacturer-authored mirror body exact model, declaration June17,2005; final revision unexposed, text stops printed92. No download or device/software operation.",
+    "offer": {
+      "seller": "HUTAURUK MUSIC",
+      "shop": "190993829",
+      "item": "17683145868",
+      "idr": 3500000,
+      "condition": "seller-used title",
+      "region": "Kota Bekasi",
+      "access": "two-month cached body, first direct retrieval failed",
+      "stock": "unverified",
+      "bundle_variant_adapter_warranty_shipping_tax": "unknown",
+      "voucher": "late delivery up to10000, not deducted"
+    },
+    "remaining": [
+      "Full control/display and I/O inventory",
+      "Complete category census and simultaneous limit",
+      "Creative note handling/acoustic simulation",
+      "External expression and global volume scope",
+      "IR/NAM/capture",
+      "Current firmware/editor/driver compatibility",
+      "Looper/drums/scenes/spillover",
+      "Qualified new and current-stock offers"
+    ],
+    "active_model_count_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }

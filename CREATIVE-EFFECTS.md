@@ -110,6 +110,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [Zoom GFX-8](brand/ZOOM.md#gfx-8--exact-shopee-item-and-creative-processing) is a **partial lead outside active counts and the51-record index**: SYNTH, pitch/harmony, ACOUSTIC and special processing are documented; synth architecture and note polyphony remain unverified.
 
+[DigiTech GNX3000](brand/DIGITECH.md#gnx3000--partial-discovery-lead) is a **partial lead outside active counts and the51-record index**. Its original manual records shared pitch/Talker andChorus/Mod slots, including SynthTalk. Dedicated synth architecture, chord handling and acoustic simulation remain unverified; the cached used hardware offer does not establish current stock.
+
 ## What remains uncertain
 
 - Actual tracking quality, latency and installed firmware were not measured for these records.

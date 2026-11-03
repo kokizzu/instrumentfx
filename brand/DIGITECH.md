@@ -8,6 +8,7 @@ Manufacturer-backed partial profiles;unknown does not mean No.
 - [BP355](#bp355)
 - [GNX3](#gnx3)
 - [GNX4](#gnx4)
+- [GNX3000 — partial discovery lead](#gnx3000--partial-discovery-lead)
 - [Incoming capability evidence, 2026-10-18](#incoming-capability-evidence-2026-10-18)
 - [RP55](#rp55)
 - [RP70](#rp70)
@@ -274,6 +275,31 @@ GNX4 reverb source: [G4-R44: manufacturer manual printed p.44 on Manualshelf](ht
 GNX4 delay source: [G4-R43: manufacturer manual printed p.43,indexed text on Manualshelf](https://www.manualshelf.com/manual/digitech/gnx4/user-guide-english/page-53.html),checked2026-10-17;direct page open cache-missed. Same model/chapter/parameter sequence as original manufacturer manual. Stompbox Zone low/high controls are marked X-Edit-only in original p.38;panel knob count does not describe all editable parameters.
 
 GNX4 modulation source: [G4-MOD39: manufacturer owner-manual text,printed p.39,ManualMachine](https://manualmachine.com/digitech/gnx4/1120255-user-manual/),indexed text checked2026-10-17; same GNX4 Matrix/parameter identity. Fifteen choices counted once:Chorus,Flanger,Phaser,Triggered Flanger,Triggered Phaser,Tremolo,Panner,Vibrato,Rotary,AutoYa,YaYa,SynthTalk,Envelope Filter,Detune,Pitch Shift. Only one at a time. Gate attack values are parameters,not extra gate types. No generated FAQ used.
+
+## GNX3000 — partial discovery lead
+
+Checked **2026-11-04**. Exact GNX3000, not GNX3/GNX4. **Outside active inventory and instrument comparison counts** pending the remaining profile checks; ownership is not inferred.
+
+| Field | Evidence / qualification |
+|---|---|
+| Status / memory | Manufacturer marks this a past product. **65 User +65 Factory1 +65 Factory2 =195 locations** (derived total). [Product](https://digitech.com/dp/gnx3000/). |
+| Expression / controls | Built-in expression with toe-pressure wah switching; **seven footswitches**:1–5 plusDown/Up. External expression, rotary/button totals and global-volume assignment unverified. Original manual pp9–10. |
+| Display | Numeric specifications, technology, diagonal, color and touch unverified; no separate footswitch-screen claim. |
+| Processing / creative effects | Whammy/IPS/Talk selects Whammy, IPS, Detune, Pitch Shift orTalker1–5; **one selection at a time**. SynthTalk is dynamic speaking-like processing in the separate Chorus/Mod slot, itself one selection at a time. Dedicated synth architecture, input polyphony, acoustic simulation, total simultaneous capacity and complete category census remain unverified. Original pp53,61,71. |
+| Size / mass | Manufacturer axes retained: **Length18.5in ×Width10.5in ×Height3in;10lb**. Mass inclusion unstated. [Product](https://digitech.com/dp/gnx3000/). |
+| I/O / USB | TypeB, **USB1.1 Full Speed12Mbps**, USB2-compatible; compatibility is not USB2 speed. Full port inventory, audio channels/routing, headphones and MIDI paths pending. [Product](https://digitech.com/dp/gnx3000/). |
+| Power | **21W consumption** product claim. [Manufacturer FAQ](https://digitech.com/faqs/) lists **PSS3,9VAC2.1A**, barrel9.5mm length/5.5mm width/2.5mm pin;2.1A is supply rating, not measured draw. AC has no DC center polarity. Listed supply mains120VAC/TypeA is regional, not universal mains support. Battery/USB power unverified. |
+| IR / NAM / capture | User IR, native/converted NAM and proprietary capture import unverified. Component-Based Modeling marketing does not establish user capture capability. |
+| Editor / firmware / live | Product links **X-Edit2.4.1 Windows**; current OS support, other editor platforms, drivers, device firmware, looper/drum limits, scenes and spillover pending. Editor version is not firmware. |
+
+### Separate IDR hardware offers
+
+- **Used-title cached ask: Rp3,500,000**, HUTAURUK MUSIC, Kota Bekasi; shop190993829/item17683145868, [exact GNX3000 hardware offer](https://shopee.co.id/DIGITECH-GNX3000-SECOND-ORIGINAL-NORMAL-BAIK-i.190993829.17683145868). Title says SECOND ORIGINAL NORMAL BAIK; used condition, originality and working state are seller claims, not tested. Checked2026-11-04 via a **two-month-old cache** showing stale1Sep delivery and51-day seller activity. One direct retrieval failed, subsequent cached body opened. Stock, variant, adapter/cables, bundle, warranty, shipping/tax and checkout unknown. Late-delivery voucher up toRp10,000 is not deducted. Not live availability or a completed sale.
+- **New:** no condition-qualified exact offer established in this check; unknown, not absent.
+
+### Source identity and remaining verification
+
+[Official original manual](https://digitech.com/wp-content/uploads/2022/09/GNX3000REVB_Owners_manual_original.pdf) exceeds browser reader size limits; no local download. [Manufacturer-authored reproduction](https://manualmachine.com/digitech/gnx3000/1120205-user-manual/) has GNX3000 Owner’s Manual body, matching controls and June17,2005 declaration; not the host FAQ. Host lists142pages but exposed text stops at printed92. Final revision/footer not exposed, so exact equivalence to official REVB remains unverified; no current-firmware equivalence inferred. Complete controls, I/O, category counts, acoustic/creative algorithms, routing and power/USB operation before considering active admission. Independent expression/display/general queues remain unchanged.
 
 ## Incoming capability evidence, 2026-10-18
 
