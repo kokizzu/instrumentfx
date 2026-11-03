@@ -146247,5 +146247,16 @@
     ],
     "remaining": "Regionalbuild equivalence,universal introduction dates,installed behavior,SubPatch count,stock andretained hardware/import gaps",
     "inventory_changed": false
+  },
+  "hxe_reset_scope_20261103": {
+    "source": "https://kb.line6.com/helix-rack-lt-fx-stomp-reset-procedures-and-troubleshooting-tricks",
+    "revision": "Current manufacturer KB,firmware unstated,HXEffects subsection",
+    "findings": [
+      "FS3+MODE clears presets/IRs;FS5+FS6 resets presets only",
+      "FS4+FS5 resetsglobals;FS6+TAP factoryrestoreglobals/IRs/presets",
+      "Rightarrowfail-safeupdatemodeisnotbackuporconfirmedrepair"
+    ],
+    "remaining": "Favorites/userdefaults/loopaudio resetcoverage,installedfirmware,globalanalogvolume endpoints/outputcoverage andqualifiedstock unresolved",
+    "inventory_changed": false
   }
 }

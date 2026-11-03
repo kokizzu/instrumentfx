@@ -1049,6 +1049,18 @@ Checked **2026-11-03** against HX Effects 3.80 manual; 3.0 and 3.15 release note
 
 See the [cross-brand creative-effects comparison](../CREATIVE-EFFECTS.md).
 
+### HX Effects — distinct reset scopes and recovery-mode boundary
+
+Checked **2026-11-03**, [manufacturer reset reference,HX Effects subsection](https://kb.line6.com/helix-rack-lt-fx-stomp-reset-procedures-and-troubleshooting-tricks). The page describes startup combinations without pinning aHX Effects firmware revision;no reset,update ordevice operation performed.
+
+| Field | Published operation / scope |
+|---|---|
+| Memory / clear versus reset presets | **FS3+MODE** clears all presets andIRs;**FS5+FS6** resets presets only. These are different operations,not another preset bank orproof ofthe factory-filled subset. |
+| Memory / global versus factory restore | **FS4+FS5** resets Global Settings;**FS6+TAP** performs factory restore ofglobals,IRs andpresets. This resolves the earlier missing factory-restore scope;it doesnot mean a full restore preserves custom presets. The3.80 manual’s global-reset-only preservation statement remains separately valid. |
+| Editor / recovery-mode boundary | Holding the **right-arrow button** enters fail-safe update mode. Entering that mode isnot itself documented as a backup,firmware downgrade orsuccessful repair. The reset list doesnot establish Favorites,user-model-default orrecorded-loop treatment for each operation;those remain unverified. |
+
+Existing HX Edit full-backup contents remain documented separately. None ofthese reset/recovery operations establishes global expression-volume assignment,normal installed firmware ornew display specifications.
+
 <!-- comparison evidence ends -->
 
 ### Preserved original shared-source HX Effects fields
