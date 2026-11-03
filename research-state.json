@@ -147401,5 +147401,28 @@
     "additional_creative_records": 44,
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "prime_clone_cab_source_scope_20261104": {
+    "model": "HeadRush Prime",
+    "checked": "2026-11-04",
+    "sources": [
+      "https://support.headrushfx.com/en/support/solutions/articles/69000842212-headrush-fx-ir-101",
+      "https://support.headrushfx.com/en/support/solutions/articles/69000822750-headrush-fx-how-to-setup-and-troubleshoot-an-external-expression-pedal",
+      "https://shopee.co.id/Headrush-Prime-Guitar-Multi-Effect-Amp-Modelling-Processor-Second-Bekas-i.1149776042.54402465704"
+    ],
+    "canonical": "brand/HEADRUSH.md#prime--clone-cabinet-control-and-family-expression-source-scope",
+    "finding": "Prime combo clone cabinet bypass plus separate IR is documented;generic expression A/B examples not transferred to Prime external C/D",
+    "firmware": "Support articles unstated;installed behavior untested",
+    "offer": "Same Rp15400000 Second/Bekas Habis,last-month cache;not live stock",
+    "remaining": [
+      "Cabinet separation fidelity and arbitrary NAM applicability unverified",
+      "Actual M-VAVE model/wiring unknown",
+      "Display physical specifications",
+      "Rig storage ceiling",
+      "Current installed library",
+      "Qualified stock"
+    ],
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }

@@ -685,6 +685,19 @@ The support page names **August8,2024 as the planned v3.2 launch**, whereas the 
 
 Exact Shopee retrieval again exposed HOLY MUSIC945642322/52161712736 at **Rp22,789,000 with voucher**, in a **three-month cached page**. This repeats the existing offer, not a new price or live-stock confirmation; condition, bundle and checkout remain unresolved. No download or device operation.
 
+### Prime — clone cabinet control and family-expression source scope
+
+Checked **2026-11-04** against the manufacturer support articles below. Neither identifies an applicable firmware revision;no installed-version orhardware test is implied.
+
+| Field | Evidence / qualification |
+|---|---|
+| IR / proprietary clone cabinet control | [HeadRush IR101](https://support.headrushfx.com/en/support/solutions/articles/69000842212-headrush-fx-ir-101) explicitly gives a **Prime combo-clone** example: open the clone,disable its cabinet component,then add a separate IR afterward. This documents a manufacturer-supported workflow,not measured cabinet separation orproof that arbitrary imported NAM files have removable cabinets. It doesnot turn a clone/IR into an instrument simulator ortracking synth. File-conversion rules andslot ceilings remain unresolved. |
+| Expression / family-guide scope warning | [External-expression support](https://support.headrushfx.com/en/support/solutions/articles/69000822750-headrush-fx-how-to-setup-and-troubleshoot-an-external-expression-pedal) requires **TRS** anddiscusses pedal polarity andmechanical range. Its automatic A/B assignment narrative andnamed MX5/Pedalboard/Gigboard examples do **not** supersede Prime’s separately verified external **C/D** banks. No resistance value,pin-by-pin wiring oractual M-VAVE model compatibility is established here. Global polarity/calibration doesnot establish global volume assignment,minimum/mute endpoints orall-output coverage. |
+| Used IDR / dated offer recheck | [BANGBONGMUSICBEKASI,1149776042/54402465704](https://shopee.co.id/Headrush-Prime-Guitar-Multi-Effect-Amp-Modelling-Processor-Second-Bekas-i.1149776042.54402465704) repeats **Rp15.400.000,Second/Bekas,Habis**,Kab.Bekasi,in a **last-month search cache**. This preserves the earlier ask;not new availability orseller-condition verification. Adapter,bundle,warranty,shipping/tax andcheckout remain unknown;late-delivery voucher isnot deducted. |
+
+No local download,transfer,calibration ordevice operation. Independent queues and402-model membership remain unchanged;screen specifications,rig capacity,current installed library andqualified stock are still open.
+
+
 ## VX5
 
 <!-- comparison evidence begins -->
