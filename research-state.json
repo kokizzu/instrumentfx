@@ -150105,5 +150105,22 @@
     ],
     "active_inventory_changed": false,
     "independent_queues_preserved": true
+  },
+  "tmp_18_creative_roles_20261104": {
+    "checked": "2026-11-04",
+    "model": "Fender Tone Master Pro",
+    "source": "https://www.fender.com/articles/instruments/the-latest-tone-master-pro-update-is-here",
+    "release_source": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+    "revision": "Undated manufacturer article matched to1.8.45 June3,2026 additions;installed version unverified",
+    "canonical": "brand/FENDER.md#tone-master-pro--18-pitched-delay-reverb-and-sequencing-roles",
+    "remaining": [
+      "exact current model-guide parameters",
+      "input-note handling",
+      "DSP/concurrency",
+      "freeze implementation"
+    ],
+    "market": "Exact recorded Malang Shopee item1408254222/27020240400 reopened unsuccessfully;no new price/stock claim",
+    "active_inventory_changed": false,
+    "independent_queues_preserved": true
   }
 }

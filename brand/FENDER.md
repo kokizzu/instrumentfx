@@ -223,6 +223,7 @@ Original11-page PR6171 owner-manual pages corroborate the mirrored guide's effec
 | Processing / simultaneous limit | Reorderable amp/cab/effect blocks, serial/parallel and instrument/mic routing templates; DSP-dependent. **Exact current numerical block ceiling remains unverified**. Original manual allows up to two IR blocks; current firmware-specific exceptions require confirmation. [M11,M12] |
 | Categories and counts | Original six groups were Stompbox,Modulation,Delay,Reverb,Dynamics+EQ,Filter+Pitch. Firmware1.7 separates Dynamics/EQ/Filter/Pitch and adds Synth. Current complete per-category totals remain untranscribed; older product100+ is historical;current overview says **over200**,while its detailed Effects field still says over100. Neither is an audited category census. [Current product][P],checked2026-10-31. [M11,R] |
 | Category choices /1.8.45 additions | Manufacturer release table: **Stompbox6**—Lightyear Overdrive,Pinions Overdrive,Runes Bass Overdrive,Integrator Boost,Grunt Boost,Rockbox100; **Modulation1**—Step Tremolo; **Delay2**—Step Filter Delay,Prismatic Delay; **Reverb3**—Cirrostratus Reverb,Cirrostratus Synthverb,Spectral Reverb; **Dynamics1**—Seventy Sixer Compressor; **Filter1**—Step Filter; **Pitch1**—Pitch Sequencer. **6+1+2+3+1+1+1=15 additions**,not total category counts or simultaneous blocks. No extra Synth-category addition is listed;Synthverb remains Reverb. [Official1.8.45 notes][R],checked2026-10-31. |
+| Processing / creative1.8 roles | [Manufacturer descriptions](#tone-master-pro--18-pitched-delay-reverb-and-sequencing-roles) distinguish Prismatic pitched delay,Spectral pitch-shifted reverb,Cirrostratus Synthverb andPitch Sequencer. Sequencer freeze language doesnot establish buffer architecture orpolyphonic tracking. |
 | Synth | **Yes: Aethon Polysynth,Cerberus Polysynth,Wavemorph Polysynth**, introduced in1.7.53. Later Cirrostratus Synthverb is separately a reverb algorithm, not an additional verified general synthesizer. [R] |
 | Pitch / Virtual Capo | Firmware1.4 documents polyphonic ±12semitones with tracking/transient trade-offs; [revision-qualified details](#tone-master-pro--virtual-capo-polyphony-and-tracking-trade-offs). Synth tracking remains separate. |
 | Pitch / special additions1.6.34 | [22 named release additions](#tone-master-pro--missing-1634-effect-inventory-and-cab-boundary), including PolyVoice Pitch Shifter, Polygon Octave Shifter and Granular Arpeggiator. Names do not establish synth-input polyphony. |
@@ -657,3 +658,17 @@ Checked **2026-11-04**, [manufacturer cumulative release history](https://suppor
 | Pitch / historical right-channel adjustment | **1.6.48,August27,2025** lists difficulty adjusting Pitch R on “Micro Pitch”; **1.7.53** reports “Micro Shift Pitch R” knob adjustment fixed. Preserve the manufacturer naming variation. This concerns parameter adjustment, not additional pitch voices, input-note polyphony or measured tracking quality. |
 
 Current Model GuideG/H retrieval returned unsupported document/pdf. The existing exact Shopee GH MUSIC ask remains Rp41.360.000 in a two-month snapshot;other exact items surfaced without new qualified condition/stock evidence. No new price oravailability claim;older sources and independent queues retained.
+
+### Tone Master Pro — 1.8 pitched-delay reverb and sequencing roles
+
+Checked **2026-11-04** against [Fender’s manufacturer update article](https://www.fender.com/articles/instruments/the-latest-tone-master-pro-update-is-here), corroborated by the **1.8.45,June3,2026** category list in [release history](https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates). The article has no independent firmware/date stamp; its additions match that release. Introduction is not installed-version confirmation.
+
+| Algorithm | Manufacturer description / practical boundary |
+|---|---|
+| Prismatic Delay | Pitched delay; separate from a dry-path transposer. Shift range,voice count andinput-note handling unverified. |
+| Spectral Reverb | Pitch-shifted reverb; not proof of another dedicated tracking synth. |
+| Cirrostratus Synthverb | Synth-textured reverb in the Reverb category; synthesis architecture andinput polyphony unverified. |
+| Pitch Sequencer | Sequenced pitch,glide,glitch andfreeze-like sound are advertised. Exact step count,ranges,buffer/freeze implementation andchord support unverified;not automatically equivalent to a phrase looper orSynth block. |
+| Step Tremolo / Step Filter / Step Filter Delay | Rhythmic amplitude,filter anddelay choices respectively;filter motion is distinct from note-generating synthesis. Exact step counts andparameter ranges unverified. |
+
+These expand the named creative comparison without claiming extra simultaneous slots. Preserve existing1.8.58 step-effect crash-fix qualification andDSP limits. Exact current model-guide parameters remain pending;no software orfirmware downloaded ordevice operated.
