@@ -25668,6 +25668,18 @@
         "scope": "MINIMUMVOLUME0–10 explicitlyglobal,savinganypatchpersists;EXP.SELECT0–5perpatch. Earlierpatch-storedsummarycorrected;page25wordingpreserved.",
         "coverage": "Built-inVOLbetweenEQandMODULATION;globalminimumdoesnotproveexternalassignmentorallsource/tail/phone/bypass/looperattenuation."
       }
+    },
+    {
+      "model": "Korg PANDORA PX4D",
+      "checked_date": "2026-11-04",
+      "status": "partial manufacturer-manual discovery outside active counts",
+      "canonical_record": "brand/KORG.md#pandora-px4d--partial-discovery-lead",
+      "source": "https://cdn.korg.com/us/support/download/files/ec6a5d2611af7916e943d17ccbbfa1ff.pdf",
+      "revision": "EFG1;146PDF pages;English printed1–48;undated firmware scope",
+      "finding": "Compact76W112D;noEXPsocket;single-note AMP SYNTH andintelligent harmony;100user100preset;shared headphones.",
+      "market": "Exact Shopee Indonesia search no qualified hardware offer;no IDR inferred.",
+      "next": "Complete controls/category census,power polarity/current,software/imports,loop retention andqualified exact hardware. Preserve independent LCD-first/general/expression queues.",
+      "active_inventory_changed": false
     }
   ],
   "inventory_by_brand": {

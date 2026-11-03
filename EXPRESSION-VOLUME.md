@@ -771,3 +771,7 @@ GFX-1 [control and navigation follow-up](brand/ZOOM.md#gfx-1--controls-selector-
 [Original-manual lead](brand/ZOOM.md#4040--partial-discovery-lead) has two built-in treadles and exceeds the footprint preference. Its [minimum volume is global and saved with any patch](brand/ZOOM.md#4040--global-minimum-versus-patch-expression-selection);pre-modulation placement still does not establish universal output muting. MANUAL is a footswitch connection. Outside active counts and the no-treadle shortlist; no qualified Indonesian hardware ask established.
 
 Original FM9 [conditional output copies](brand/FRACTAL-AUDIO.md#fm9-original--conditional-output-copies-and-usb-levels) exclude USB from Output2 copy and depend on absent destination blocks. Copying audio is separate from global pedal assignment and does not establish all-source attenuation. Original/Turbo3.x documentation; current firmware untested.
+
+### Korg PANDORA PX4D — partial compact exclusion
+
+[Exact-model manual lead](brand/KORG.md#pandora-px4d--partial-discovery-lead): no built-in treadle and76W×112Dmm body,but no documented EXP input. Shared line/headphone output;hand program buttons are not foot preset stepping. Fails direct analog external-volume criterion;not a calibration question. Outside active counts;no qualified Shopee Indonesia hardware offer established.

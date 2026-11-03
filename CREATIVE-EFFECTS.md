@@ -100,6 +100,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 ## Separately recorded partial leads
 
+[Korg PANDORA PX4D](brand/KORG.md#pandora-px4d--partial-discovery-lead) remains outside active counts and the 51-record index. Its own EFG1 manual documents single-note AMP SYNTH, single-note intelligent harmony, AC SIM, ring modulation, feedback and random filters. Sixteen oscillator settings are choices, not simultaneous voices. Hardware/software and market checks remain incomplete.
+
 [BOSS EX-4](brand/BOSS.md#ex-4--pitch-note-handling-and-composite-organ-preset) remains **outside active counts and the 51-record index above**. Its guide documents single-note Guitar/Bass Synth and Harmonist, chord-capable Heavy Oct, Pitch Shift±24 semitones, acoustic/instrument simulation and special effects. MONO ORGAN is a composite effect recipe. This focused pitch check does not complete its hardware/market profile.
 
 [Helix Rack](brand/LINE6.md#helix-rack--380-creative-and-storage-scope) is another **partial lead outside active counts and the51-record index**. Its own3.80 manual records3 OSC Synth,poly pitch,input-independent generators,Acoustic Sim,Feedbacker andShuffling Looper. Its [Rack-specific category census](brand/LINE6.md#helix-rack--effect-table-category-census) separates effect choices from synthesis andDSP limits. DSP andsynth-note polyphony qualifications remain inits canonical profile.

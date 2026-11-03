@@ -16,6 +16,7 @@
 - [AX3000B](#ax3000b)
 - [AX3000G](#ax3000g)
 - [PANDORA mini — partial no-treadle discovery](#pandora-mini--partial-no-treadle-discovery)
+- [PANDORA PX4D — partial discovery lead](#pandora-px4d--partial-discovery-lead)
 - [PANDORA stomp](#pandora-stomp)
 <!-- brand-index ends -->
 
@@ -981,6 +982,23 @@ The two manufacturer [Windows](https://www.korg.com/us/support/download/software
 [PM-P]: https://www.korg.com/us/products/effects/pandoramini/page_3.php
 [PM-M]: https://cdn.korg.com/us/support/download/files/5ab0d5134486ee0d26e427ea48263a24.pdf?response-content-disposition=inline%3Bfilename%2A%3DUTF-8%27%27PANDORAmini_OM_EFGS1.pdf&response-content-type=application%2Fpdf%3B
 [PM-S]: https://www.korg.com/us/support/download/product/0/313/
+
+## PANDORA PX4D — partial discovery lead
+
+Checked2026-11-04 against the [manufacturer owner manual EFG1](https://cdn.korg.com/us/support/download/files/ec6a5d2611af7916e943d17ccbbfa1ff.pdf),146PDF pages,English printed1–48. Undated document;firmware applicability and installed version unknown. Exact PX4D,not PANDORA mini orstomp. Guitar/bass handheld multi-effects;ownership not established. **Partial discovery outside the402 active models.**
+
+| Field | Manufacturer evidence and limits |
+|---|---|
+| Expression / navigation | No built-in treadle orfoot-operated preset switches in the complete panel inventory (pp9–10). No EXP connection: direct analog external expression volume is unavailable through the documented ports. Hand ▲/▼ buttons andValue dial select programs;not onboard foot preset−/+. No toe switch documented. |
+| Controls / display | Four named tone/gain/volume knobs,one amp selector andone Value dial (six rotary controls if selector included). Button functions documented pp9–10;complete physical button census/visual corroboration pending. Shared backlit LCD;published diagonal,color/touch properties unverified. Input-level andpower/backlight switches separate. |
+| Processing / memory |158effect types;maximum7simultaneous (p48). Main sections DYNA,AMP,CAB,MOD,DLY,REV plus noise-reduction settings;exact category census andseven-stage interpretation pending.100user+100preset programs;initial userfill/current contents unverified. |
+| Synth | AMP SYNTH is chromatic single-note synthesis (pp35–36);normal guitar/bass input.16oscillator settings0–15 include eight wave/register choices andtheir portamento variants,not16simultaneous voices orinput-note polyphony. Replaces the AMP choice;no guarantee of simultaneous separate amp model. Direct/synth levels andVCF/threshold controls documented. |
+| Pitch | MOD PITCH1–3 differ in effect level;discrete shifts include−24,−17,−12…−1,detune,1…12,19,24 semitones. Seven intelligent-harmony types:MAJ3UP,MAJ3DWN,MIN3UP,MIN3DWN,PER4TH,PER5TH,MAJ6TH,with key selection. Intelligent harmony explicitly requires individual notes,not chords (pp40–42);ordinary PITCH polyphony unverified. |
+| Instrument / special | DYNA AC SIM acoustic-guitar processing;pickup-character conversion separate. RING/RINGUP/RINGDWN modulation,MOD FEEDBK1–4,TALK1–4 andRANDOM1–4 distinct fromtracking synthesis (pp31,41). AUX pitch changes accompaniment rather than establishing guitar-input polyphony. |
+| Connections / headphones |¼inch instrument input,mini-stereo AUX,shared stereo line/headphone output,DC4.5V (pp9–12,48). No USB/MIDI/EXP connector in complete inventory. Mono output cable takesL only,not a documented summing output. Shared headphones recommended≤32Ω with sensitivity near100dB/mW orabove;these are headphone recommendations,not output-power specifications. |
+| Body / power |76W×112D×27Hmm;138g excluding batteries (p48),fits200W×140D preference before cables. FourAAA alkaline;manufacturer rates10h backlightoff/7h on. Optional4.5VDC adapter historically separate;current draw,adapter polarity/SKU unresolved. No USB socket/power path documented. |
+| Practice / software |100rhythm/bass patterns,up to16linked;Phrase Trainer up to31.7seconds with slowdown without pitch change,not proof of an overdub performance looper. IR/NAM/capture import andeditor platforms unverified;do not borrow stomp USB/editor features. |
+| IDR / remaining |Targeted exact PX4D Shopee Indonesia search found no qualified hardware offer;no price,condition,stock,bundle ormarket-absence claim. Complete button/category census,power label,software/imports,loop retention andbypass/tail coverage remain open. Source availability doesnot establish tracking quality orlatency. |
 
 ## PANDORA stomp
 
