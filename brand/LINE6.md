@@ -1758,7 +1758,7 @@ Admitted **2026-11-01 as a partial catalogue record**, after the saved manufactu
 | Dimensions / weight | FAQ publishes **15.5L×12W×3.5H inches;10.2lb**. Exact conversion:**393.7L×304.8W×88.9H mm;about4.63kg**. Preserve FAQ axes;both planar dimensions exceed the preferred200×140mm footprint. Measurement conditions andplug clearance unknown. [FAQ][M13-F] |
 | Processing / categories | **Four simultaneous FX**,one active memory per unit;twelve selectable memories per Scene. FAQ2.04 and2011 parameter-guide census agree **109 choices**:Distortion group30,Modulation22,Filter26,Delay19,Reverb12. These are categories/choices,not109 concurrent blocks. No amp/cab modeling perFAQ. [FAQ][M13-F];[count basis](#m13--parameter-guide-census-synth-and-volume-slot-scope) |
 | Memory / presets | **48 Scenes,four folders×12**,documented with2.01. Each Scene stores the four FX units andtheir A/B/C choices;these do not add another48 protected factory locations. Complete initial factory allocation/current unit contents unknown. [FAQ][M13-F];[handbook conflict](#m13--rev-c-handbook-operation-and-source-conflicts) |
-| Synth / acoustic | **Synth algorithms documented**:Octisynth includes aVCO;Synth O Matic offers eight waveforms;Attack Synth offers Square/PWM/Ramp andtwo-octave pitch. This is not evidence of polyphonic tracking. Dedicated electric-to-acoustic conversion remains unverified. [Parameter-guide evidence](#m13--parameter-guide-census-synth-and-volume-slot-scope) |
+| Synth / acoustic | **Synth algorithms documented**:Octisynth includes aVCO;Synth O Matic offers eight waveforms;Attack Synth offers Square/PWM/Ramp andtwo-octave pitch. This is not evidence of polyphonic tracking. Dedicated electric-to-acoustic conversion remains unverified. [Parameter-guide evidence](#m13--parameter-guide-census-synth-and-volume-slot-scope); [additional named creative choices](#m13--creative-index-and-model-specific-boundaries) |
 | Audio I/O | Normal guitar viaL/MONO input;stereo unbalanced quarter-inch instrument inputs/outputs andstereo send/return. No dedicated headphone socket in the documented rear inventory;headphone suitability ofmain outputs remains unverified. Mic/phantom path not established. [Handbook][M13-H];[FAQ][M13-F] |
 | Data / control ports | Two EXP jacks,MIDI IN/OUT,power inlet andswitch. USB is absent from the handbook inventory;no USB audio,power orcomputer-interface capability inferred. MIDI scene backup documented;V2 command scope is qualified below. [Handbook][M13-H];[FAQ][M13-F] |
 | MIDI / V2 command scope | [Own v2.0 guide, Appendix A•1–2][M13-A]: channels **1–16 or Omni**; sends/receives CC and Program Change. **CC1/2, values0–127**, represent expression controllers, not a global analog-volume assignment. **CC11–22** address FX1A through FX4C:0–63 bypass,64–127 on. **PC0–47** addresses four Scene folders: each folder starts at1C and ends at4A, not A-first. Individual model selection/assignment is expressly unsupported. Historical v2.0 documentation; current firmware/device behavior untested. |
@@ -1857,6 +1857,16 @@ Total**109** agrees with the separate FAQ;not109 simultaneous effects. The chart
 - **Volume:**Volume Pedal occupies one FX unit;Knob1 sets its minimum (§3•7). Numeric attenuation limits are unspecified. Combine with the preserved Scene-stored assignment scope;this is not a documented global master override.
 
 Still partial,outside active counts;no qualified exact Shopee hardware offer. No download ordevice operation.
+
+### M13 — creative index and model-specific boundaries
+
+Checked **2026-11-04**, [manufacturer M5/M9/M13 FX Parameters, RevB, ©2011, §§1•5,4•1,4•9–10,4•12](https://line6.com/data/6/0a060b316ac34f0593fabe278/application/pdf/M13/M9/M5%20FX%20Parameters%20-%20English%20(%20Rev%20B%20).pdf). The title explicitly covers M13; this is historical documentation, not installed-firmware verification.
+
+- **Synth String** models a GR700 signature tone, with attack and pulse-width-modulation controls. **Growler** combines GR700-inspired tone and Mu-tron III characteristics. These supplement the retained Octisynth, Synth O Matic and Attack Synth evidence; modeled instrument ancestry does not establish divided-pickup requirements or chord tracking.
+- **Smart Harmony** selects scale, key and harmony shift. **Pitch Glide** uses expression heel/toe values. Algorithm-specific note polyphony remains unverified; neither establishes later HX polyphonic pitch models.
+- **Lo Res Delay** adjusts repeat resolution from6–24 bits; **Voice Box**, **Seeker** and **Obi-Wah** are separately listed filter processing. Dedicated acoustic-instrument conversion remains unverified.
+
+M13 now appears in the additional creative index as an existing active record. Its four effect units and grouped LCDs retain their own limits; this is not a complete fresh profile audit. No ownership, device test or current Shopee stock inferred.
 
 ## Other Line 6 records awaiting consolidation
 

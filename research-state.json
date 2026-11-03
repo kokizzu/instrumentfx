@@ -145462,6 +145462,15 @@
         "instrument": "Acousticsimulationunverified",
         "qualification": "OwnAxiomamanual+1.19.1list;arpeggiator/Shimmer/moddelay;licenseandDSPqualification",
         "evidence_basis": "Existingcanonicalmanufacturerrecords;notcompletefreshfourcategoryaudit"
+      },
+      {
+        "key": "Line 6::M13",
+        "canonical": "brand/LINE6.md#m13",
+        "synth": "Octisynth;Synth O Matic;Attack Synth;Synth String;Growler",
+        "pitch": "Smart Harmony;Pitch Glide;note polyphony unverified",
+        "instrument": "Synth string tone;acoustic conversion unverified",
+        "qualification": "Four active FX;grouped LCDs;historical RevB,not complete fresh audit",
+        "evidence_basis": "Exact shared manufacturer M5/M9/M13 RevB ©2011,focused creative follow-up2026-11-04."
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -145484,64 +145493,69 @@
     "independent_queues_preserved": true,
     "additional_index_presentation": {
       "checked_date": "2026-11-04",
-      "records": 49,
-      "change": "Indexed existing active Anagram;no membership change.",
+      "records": 50,
+      "change": "Indexed existing active M13 creative capabilities;no inventory membership change.",
       "previous": {
         "checked_date": "2026-11-04",
-        "records": 48,
-        "change": "Indexed existing active Solis Ventus creative processing;no membership change.",
+        "records": 49,
+        "change": "Indexed existing active Anagram;no membership change.",
         "previous": {
           "checked_date": "2026-11-04",
-          "records": 47,
-          "change": "Indexed existing active GP-200JR creative algorithms;no membership change.",
+          "records": 48,
+          "change": "Indexed existing active Solis Ventus creative processing;no membership change.",
           "previous": {
             "checked_date": "2026-11-04",
-            "records": 46,
-            "change": "Indexed existing active NEURIG creative algorithms;no membership change.",
+            "records": 47,
+            "change": "Indexed existing active GP-200JR creative algorithms;no membership change.",
             "previous": {
               "checked_date": "2026-11-04",
-              "records": 45,
-              "change": "Indexed existing active Nano Cortex;no membership change.",
+              "records": 46,
+              "change": "Indexed existing active NEURIG creative algorithms;no membership change.",
               "previous": {
-                "checked_date": "2026-11-03",
-                "records": 44,
-                "change": "Indexed existing active G3Xn;membership unchanged.",
+                "checked_date": "2026-11-04",
+                "records": 45,
+                "change": "Indexed existing active Nano Cortex;no membership change.",
                 "previous": {
                   "checked_date": "2026-11-03",
-                  "records": 43,
-                  "change": "IndexedexistingactiveME90creativealgorithms;membershipunchanged.",
+                  "records": 44,
+                  "change": "Indexed existing active G3Xn;membership unchanged.",
                   "previous": {
                     "checked_date": "2026-11-03",
-                    "records": 42,
-                    "change": "IndexedexistingactiveG1Xon;pedalendpoint/notehandling distinctions;membershipunchanged.",
+                    "records": 43,
+                    "change": "IndexedexistingactiveME90creativealgorithms;membershipunchanged.",
                     "previous": {
                       "checked_date": "2026-11-03",
-                      "records": 41,
-                      "change": "IndexedexistingactiveG1oncreativeprocessing;membershipunchanged.",
+                      "records": 42,
+                      "change": "IndexedexistingactiveG1Xon;pedalendpoint/notehandling distinctions;membershipunchanged.",
                       "previous": {
                         "checked_date": "2026-11-03",
-                        "records": 40,
-                        "change": "IndexedexistingactiveHelixLT;supersededqualifiedsynth/acousticunknown;membershipunchanged.",
+                        "records": 41,
+                        "change": "IndexedexistingactiveG1oncreativeprocessing;membershipunchanged.",
                         "previous": {
                           "checked_date": "2026-11-03",
-                          "records": 39,
-                          "change": "Indexed existingactiveAX3B;correctedmanualedition/resetattribution;membershipunchanged.",
+                          "records": 40,
+                          "change": "IndexedexistingactiveHelixLT;supersededqualifiedsynth/acousticunknown;membershipunchanged.",
                           "previous": {
                             "checked_date": "2026-11-03",
-                            "records": 38,
-                            "change": "Indexed existingactiveAX3000B;membershipunchanged;focusedcreativecheck.",
+                            "records": 39,
+                            "change": "Indexed existingactiveAX3B;correctedmanualedition/resetattribution;membershipunchanged.",
                             "previous": {
                               "checked_date": "2026-11-03",
-                              "records": 37,
-                              "change": "Indexed existingactiveAX1500G;noinventoryadmission orwholecatalogueaudit.",
+                              "records": 38,
+                              "change": "Indexed existingactiveAX3000B;membershipunchanged;focusedcreativecheck.",
                               "previous": {
                                 "checked_date": "2026-11-03",
-                                "records": 36,
-                                "change": "Indexed existing active Stadium XL;not inventory admission orwhole-catalogue reaudit.",
+                                "records": 37,
+                                "change": "Indexed existingactiveAX1500G;noinventoryadmission orwholecatalogueaudit.",
                                 "previous": {
                                   "checked_date": "2026-11-03",
-                                  "records": 33,
-                                  "change": "Corrected stale 31-record introduction to 33 and removed blank lines splitting the additional-catalogue Markdown table. No technical claims, ownership, instrument membership or independent queues changed."
+                                  "records": 36,
+                                  "change": "Indexed existing active Stadium XL;not inventory admission orwhole-catalogue reaudit.",
+                                  "previous": {
+                                    "checked_date": "2026-11-03",
+                                    "records": 33,
+                                    "change": "Corrected stale 31-record introduction to 33 and removed blank lines splitting the additional-catalogue Markdown table. No technical claims, ownership, instrument membership or independent queues changed."
+                                  }
                                 }
                               }
                             }
@@ -148276,6 +148290,21 @@
       "Output coverage"
     ],
     "next": "Return to requested individual-footdisplay priorities;defer unchanged GFX8 source/market gaps andpreserveGP-200JR -> Prime -> GE300 order.",
+    "active_inventory_changed": false
+  },
+  "m13_creative_index_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://line6.com/data/6/0a060b316ac34f0593fabe278/application/pdf/M13/M9/M5%20FX%20Parameters%20-%20English%20(%20Rev%20B%20).pdf",
+    "revision": "RevB ©2011 exact shared M13 coverage;§§1•5,4•1,4•9–10,4•12",
+    "scope": "Focused creative additions/index reconciliation;not whole catalogue recertification.",
+    "remaining": [
+      "Note-tracking polyphony",
+      "Acoustic conversion",
+      "Qualified Shopee hardware",
+      "Initial Scene filling",
+      "Display dimensions"
+    ],
+    "next": "Continue accessible requested display-priority capability/hardware gaps;preserve independent general queue.",
     "active_inventory_changed": false
   }
 }
