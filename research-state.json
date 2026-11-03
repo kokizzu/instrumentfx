@@ -147217,5 +147217,17 @@
     "additional_creative_records": 39,
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "fm9_turbo_output_copy_scope_20261103": {
+    "model": "Fractal Audio FM9 Turbo (pre-MKII)",
+    "checked": "2026-11-03",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "revision": "August2022 firmware3.x,explicitOriginal/Turbo,printed95–96",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-turbo--output-copy-and-usb-playback-boundaries",
+    "finding": "Output2copyOut1 excludesUSB/requiresnoOut2block;Output3copyInput1 requiresnoOut3block. SeparateUSBtrims/nominallevels distinguished fromEXP.",
+    "remaining": "GlobalEXPcopy/directUSB/phones/tail/loopcoverage,endpoints/recall,currentfirmware andqualifiedexactTurbohardware.",
+    "retrieval": "CurrentBlocksGuide timeout;manualtextreadable;panel screenshot returnednoinspectableimage. Shopee returnedMKIIoffer11170212/25331147281 only;nottransferredtoTurbo.",
+    "active_count_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }

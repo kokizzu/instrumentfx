@@ -1551,6 +1551,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, not fully ve
 | Synth / acoustic | **Three-voice monophonic tracking synth**; voice count is not note polyphony. Acoustic input documented separately; electric-to-acoustic simulation remains unknown. [Own-applicable manual p44](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Audio I/O | Mono unbalanced¼-inch Input1; stereo balanced¼-inch Input2/3 pairs. Out1:balanced stereo XLR and same-signal¼-inch Humbuster pair;Out2:balanced stereo XLR;Out3:stereo¼-inch Humbuster. Dedicated¼-inch stereo phones monitorOut1. [Manual p21](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Control / digital I/O | Three pedal/switch inputs; FASLINKII forFC controllers,notMFC-101; RCA S/PDIF in/out,fixed48kHz withinternal/external clock; MIDI In/Out-Thru; USB; grounded AC inlet/switch. USB subtype andphantom tolerance unknown. [Manual pp21–22](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
+| Routing / copy and USB boundaries | [Own Turbo-covered3.x manual pp95–96](#fm9-turbo--output-copy-and-usb-playback-boundaries): Out2 copies Out1 onlywithout Out2block,excluding USB;Out3 copies Input1 onlywithout Out3block. USB playback levels are separate. EXP attenuation ofthese routes unverified. |
 | USB audio / MIDI | **8×8 audio plus DAW-visible MIDI-over-USB**. Text confirms processedrecord1/2,DIrecord5 andUSB5/6 reamping; remaining channel map notinferred fromflattened diagram. Windows driver required;Mac none perhistorical manual. Global-volume coverage unknown. [Manual pp23–26](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | Power | **90–264VAC,47–63Hz,<40W**. CR2032 is backup,not operating-battery proof. Battery/USB operation unknown;DC polarity/adapter-current fields notapplicable toAC specification. [Manual p128](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
 | IR / NAM / capture | **1,024 userIR slots**; FM9-Edit explicitly imports.wav/.ir alongside.syx transfers. NativeNAM,convertedNAM andproprietary capture-import workflows unverified. [Turbo-covered p108](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). |
@@ -1569,6 +1570,14 @@ No files,software,firmware,IRs ordependencies downloaded; no device operation. P
 Checked **2026-11-01**. The [3.x August2022 manual](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf) explicitly covers Original andTurbo anddirects readers on printedp18 to the shared Footswitch Functions Guide. That [manufacturer guide,v1.3,April2022,pp2,5–6](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Footswitch-Functions-Guide.pdf) covers FM9 onboard assignments:Preset Inc/Dec provides−1/+1,wrap andlower/upper limits. This applicability chain establishes configurable sequential navigation forpre-MKII Turbo without borrowing MKII hardware specifications.
 
 Assign through EZ orEdit Layout/Switch. Mini labels offer current/destination names,numbers,custom text orstep action. Neither guide proves a dedicated untouched factory down/up pair orcurrentfirmware12 behavior. Physical LCD count remains nine;global expression coverage andpreset mapping behavior remain separately qualified. No download ordevice operation.
+
+### FM9 Turbo — output-copy and USB-playback boundaries
+
+Checked **2026-11-03**, [manufacturer August2022,firmware3.x manual,printedpp95–96](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). Its cover explicitly includes **Original and TURBO**;this entry concerns pre-MKII Turbo,not inferred current MKII behavior.
+
+**Output2 Copy Output1** retains separate front-panel level control,works only without anOutput2 block in the preset,and **excludes USB audio**. **Output3 Copy Input1** similarly requires noOutput3 block andcan provide ananalog DI feed. Neither copy setting proves that a global Output-block volume controller attenuates the copied signal.
+
+USB playback bypasses **Output Mode** stereo/mono processing,while **Output1/2 Level −10dBV/+4dBu** affects USB level. Separate USB1/2,3/4,5/6,7/8 playback trims span **−40 to+20dB**;these are USB-mixer trims,not pedal endpoints. Global analog expression coverage ofcopied outputs,direct USB,phones,tails andrecordedloops remains unverified. No software downloaded,setting changed orhardware tested.
 
 ## VP4
 
