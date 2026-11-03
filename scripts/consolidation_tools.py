@@ -2167,7 +2167,7 @@ def commit_preservation_repairs(stage=False):
         assert review['head'] == research_tools.git('rev-parse', 'HEAD').strip()
         assert review['sha256'] == digest(research_tools.git('diff', '--cached'))
         assert not research_tools.git('diff', '--cached', '--check').strip()
-        print(research_tools.git('commit', '-m', 'docs(mooer): retain Plus Li display-verification history'))
+        print(research_tools.git('commit', '-m', 'docs(mooer): preserve GE150 Plus display correction provenance'))
 
 def audit_historical_sources():
     """Compare the earliest Core/Flex source blobs with the preserved originals."""
