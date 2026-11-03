@@ -5078,7 +5078,7 @@ Checked **2026-11-04**; outside active inventory, not fully verified or owner-co
 |---|---|
 | Expression | FP01/FP02 at CONTROL IN; patch programming selects volume or effect control. Volume applies when no pedal-icon effect is selected. Not a universal volume override. |
 | Footprint / mass | **268W×117D×55H mm;1kg without batteries**. Width exceeds200mm preference. |
-| Memory / processing | **40 editable factory-filled patches**,10banks×4; **34 types,8modules,max9effects**. Combined effects explain why effect and module counts differ; complete category census pending. |
+| Memory / processing | **40 editable factory-filled patches**,10banks×4; **34 types,8modules,max9effects**. Combined effects explain why effect and module counts differ; named-menu census is qualified below. |
 | Screen / I/O | Two-digit seven-segment **LED**,notLCD. Mono instrument input; shared stereo line/headphone output; CONTROL IN. Exact connector sizes and complete visual/control census pending. |
 | Power | Specified **9VDC center-negative300mA AD-0006** supply; fourAA alkaline,approximately24h. Adapter capacity is not measured draw. |
 | Creative / instrument | **ACOUSTIC** converts electric-guitar tone; MOD/PITCH includes pitch shifting, Ring Mod and Slow Attack. Synth tracking/polyphony unverified. |
@@ -5086,6 +5086,19 @@ Checked **2026-11-04**; outside active inventory, not fully verified or owner-co
 No exact **Shopee Indonesia hardware offer** established. The [Thai GFX-1 item57738747/19161435824](https://shopee.co.th/ZOOM-GFX-1-GUITAR-EFFECTS-PROCESSOR-i.57738747.19161435824) is a three-week search cache showing sold-out status and฿3,070; not Indonesian availability or an IDR ask. No currency conversion, condition inference or stock confirmation.
 
 Remaining: complete ports and separate rotary/footswitch/button counts, toe support, category census, minimum/maximum volume and position recall, bypass/headphone/tail/loop coverage, editor/import capabilities and exact Indonesian condition/bundle/warranty offers. No download or device operation. Dedicated single-function exclusions and existing402-model membership remain unchanged.
+
+### GFX-1 — controls, selector census and live navigation
+
+Checked **2026-11-04** in the same [manufacturer manual](https://zoomcorp.com/media/documents/E_GFX1.pdf), **GFX-1 - 5000-1**, printed pp6–13,24–36. Text-derived census; no panel-image or hardware inspection.
+
+| Field | Evidence / qualification |
+|---|---|
+| K/F/B | **2 rotaries /4 footswitches /7 buttons**: DRIVE and PLAY/EDIT; FS1–4; GAIN±,BANK±,VALUE±,STORE. Rear power switch separate. |
+| I/O / rear inventory | INPUT, OUTPUT/PHONES, CONTROL IN, DC IN; shared output supports mono cable, stereo Y-split or headphones. No USB/MIDI sockets listed; this is not software-compatibility certification. |
+| Navigation / master | FS1+2 selects previous bank; FS3+4 next bank. Individual switches select one of four patches. Hand master **0–50**, resets **40** at startup and controls headphone listening level; not global EXP assignment or pedal-position recall. |
+| Categories / explicit menu-form census | Excluding Off: **COMP/LIMIT2;WAH4;DRIVE11;EQ1;ZNR/AMP7;MOD/PITCH30;DLY/REV8 =63** named forms across seven selector groups. ZNR and AMP are separate processing modules under one selector group. Pedal variants and compound choices are included; these are not63 unique algorithms. |
+
+The manual’s **34types/8modules/9effects** headline remains separate. Its counting method is not established by this63-form census. Patch Level,Contour andTime are parameters,not added effect modules. Complete live-control coverage,global endpoints,recall andqualified Indonesian hardware remain unresolved. Partial lead stays outside active comparisons;no ownership inferred. No download or device operation.
 
 ## GFX-3
 

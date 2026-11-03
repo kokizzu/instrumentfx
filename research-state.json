@@ -148603,5 +148603,30 @@
     },
     "next": "Complete controls, categories, ports, output coverage, software/imports and exact Indonesia offers before admission; continue fresh discovery without changing independent LCD-first, expression and GT-Pro queues.",
     "active_inventory_changed": false
+  },
+  "gfx1_controls_menu_census_20261104": {
+    "canonical": "brand/ZOOM.md#gfx-1--controls-selector-census-and-live-navigation",
+    "source": "https://zoomcorp.com/media/documents/E_GFX1.pdf",
+    "revision": "GFX-1 - 5000-1,printed6–13/24–36; text only",
+    "controls": {
+      "rotaries": 2,
+      "footswitches": 4,
+      "buttons": 7,
+      "power_switch_separate": true,
+      "visual_verification": false
+    },
+    "menu_forms_excluding_off": {
+      "comp_limit": 2,
+      "wah": 4,
+      "drive": 11,
+      "eq": 1,
+      "znr_amp": 7,
+      "mod_pitch": 30,
+      "dly_rev": 8,
+      "total": 63
+    },
+    "count_boundary": "Seven selector groups/eight modules; pedal variants andcompound effects counted asnamed forms. Not63 unique algorithms;34headline counting remains unresolved.",
+    "next": "Retain partial status; reconcile headline taxonomy, visual panel/connector sizes, EXP endpoints/recall/output coverage, software/imports andexact Indonesian hardware. Independent queues unchanged.",
+    "active_inventory_changed": false
   }
 }
