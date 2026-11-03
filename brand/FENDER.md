@@ -546,3 +546,16 @@ Checked **2026-11-03** in the [manufacturer firmware1.5 manual reproduction, pri
 **Song BPM defaults off.** Enabling it applies one tempo to all presets in that Song, overriding their stored tempos. It responds to tap tempo and appears in the Preset View lower ribbon and TAP footswitch strip. This is Song-level tempo precedence, not a universal expression assignment or proof that unsynchronized effects follow tempo.
 
 Song Notes provide performance reminders beneath the Song name in main-screen Gig View for Songs and Setlists; they are not documented as additional physical strip screens. Editing a Song from a Setlist affects **all uses of that Song**. A Setlist reference is therefore not a documented independent copy. Current1.8 behavior and device save/recall remain untested; existing preset/page capacity qualifications are unchanged. No download or device operation.
+
+### Tone Master Pro — received MIDI volume and expression mappings
+
+Checked **2026-11-03**,manufacturer-authored **firmware1.5 manual,printedpp42–43**,read as [original document text on Manualzz](https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual);generated FAQs excluded. Historical mapping,not certification of installed firmware or all later additions.
+
+| Required field | Evidence-backed value / limitation |
+|---|---|
+| Expression / received MIDI sources | **CC1=EXP1,CC2=EXP2,CC3=MIDI EXP3,CC4=MIDI EXP4**,each values0–127. Incoming MIDI source control doesnot establish analog EXP-to-master assignment or additional physical sockets. |
+| Expression / MIDI master volume | **CC7,values0–127**,controls Master Volume. These are MIDI data values,not measured attenuation in dB or proof of minimum silence,output/headphone/USB/tail/looper coverage. |
+| Live / separate looper volume messages | **CC109=looper volume up;CC110=down**,trigger values64–127. These are separate from CC7;step size,repeat behavior andabsolute looper-level mapping remain unverified. |
+| MIDI / clock priority | Receive Clock disables the tap footswitch anddisregards saved preset tempo;delay/modulation with assigned Tap Division follows incoming clock. Send/receive clock is separately configurable. This is synchronization,not preset navigation or global analog volume. |
+
+No MIDI sent,hardware operated orsoftware installed. Current complete MIDI mapping,including later page-two addressing,remains unresolved.

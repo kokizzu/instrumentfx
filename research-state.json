@@ -145880,5 +145880,34 @@
     "source_integrity": "Canonical brand documents unchanged;prior table facts retained. Lexicon routing/qualification prose recovered;RP70 generic no-device-operation provenance no longer misclassified ascategory evidence. No specifications newly researched.",
     "inventory_changed": false,
     "next": "Continue requested footswitch-display andindependent expression/general research queues;full catalogue research andremaining qualifications are notcomplete."
+  },
+  "fender_received_midi_volume_20261103": {
+    "model": "Fender Tone Master Pro",
+    "checked": "2026-11-03",
+    "source": "https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual",
+    "revision": "Manufacturer firmware1.5 manual printed42–43; original document text, not generated FAQ",
+    "received": {
+      "expression_cc": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "expression_values": "0–127",
+      "master_volume_cc": 7,
+      "master_values": "0–127",
+      "looper_volume_up": 109,
+      "looper_volume_down": 110,
+      "looper_trigger_values": "64–127"
+    },
+    "clock": "Receive disables tap switch and saved preset tempo; assigned Tap Division effects follow received clock",
+    "remaining": [
+      "Direct analog global master assignment",
+      "Attenuation range and output/headphone/USB/tail/looper coverage",
+      "Looper step size/repeat behavior",
+      "Current full MIDI implementation and page-two addressing"
+    ],
+    "next": "Continue individual-footdisplay manufacturer gaps and exact Shopee offers; preserve independent general and expression queues",
+    "no_device_operation": true
   }
 }

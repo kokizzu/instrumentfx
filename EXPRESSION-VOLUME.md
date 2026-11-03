@@ -717,3 +717,5 @@ Stadium XL [Matrix MIDI scope](brand/LINE6.md#stadium-xl--matrix-midi-layers-and
 ### Fishman ToneDEQ — partial no-treadle discovery
 
 [Exact acoustic multi-effects lead](brand/FISHMAN.md#tonedeq--partial-no-treadle-discovery),outside active counts. Complete manual inventory has no analog EXP orheadphone socket;hand Volume affects amp out while DI hasseparate fixed-level behavior. Both conflicting manufacturer footprints exceed preferred width. Qualified exact Shopee Indonesia offer,preset navigation andcurrent hardware reconciliation remain open.
+
+Tone Master Pro [received MIDI volume mapping](brand/FENDER.md#tone-master-pro--received-midi-volume-and-expression-mappings): firmware1.5 specifies CC7 (0–127) for Master Volume,CC1–4 for expression sources,andseparate CC109/110 looper-volume triggers. MIDI control doesnot verify direct analog global assignment oroutput/tail/loop attenuation.
