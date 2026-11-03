@@ -150122,5 +150122,26 @@
     "market": "Exact recorded Malang Shopee item1408254222/27020240400 reopened unsuccessfully;no new price/stock claim",
     "active_inventory_changed": false,
     "independent_queues_preserved": true
+  },
+  "fm9_mkii_november_synth_controls_20261104": {
+    "checked": "2026-11-04",
+    "model": "Fractal Audio FM9 MKII Turbo",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 pp3,102; minimum QUANTIZE firmware/installed equivalence unknown",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-mkii-turbo--november-synth-tracking-and-oscillator-controls",
+    "finding": "Current shared-guide monophonic tracking, nearest-note quantization and oscillator controls distinguish generated voices from input-note polyphony",
+    "market": {
+      "source": "https://shopee.co.id/Fractal-FM9-MKII-Turbo-Amp-Modeler-Multi-FX-i.11170212.25331147281",
+      "snapshot": "Last-month index repeats Rp44.395.000 Hurtrock Bandung;no new condition/current-stock evidence"
+    },
+    "remaining": [
+      "installed firmware equivalence",
+      "minimum firmware for QUANTIZE",
+      "tracking quality/latency",
+      "global expression endpoints andcoverage",
+      "qualified current hardware availability"
+    ],
+    "active_inventory_changed": false,
+    "independent_queues_preserved": true
   }
 }
