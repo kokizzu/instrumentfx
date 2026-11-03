@@ -10,6 +10,24 @@
 
 ## AXOM MAX — partial discovery lead
 
+### Current evidence summary
+
+Consolidated **2026-11-04** from the revision-qualified findings below; this is not a new hardware or firmware test. **Partial lead outside active counts.** Earlier dated tables remain evidence history, not the current list of wholly unknown fields.
+
+| Field | Current evidence and remaining boundary |
+|---|---|
+| Displays / controls | Manufacturer V1.7.4: 7-inch color touchscreen, mini readouts, 4 rotaries, 9 footswitches, 4 named panel buttons plus power/lock. Six performance switches in documented modes. Importer explicitly reports nine individual switch displays; manufacturer physical census and LCD/OLED technology remain unresolved. Separate pedal readout is not added to nine. |
+| Expression | Built-in toe-switched MASTER+EXP1 or EXP1+EXP2; MASTER Pre/Post and 0–100 endpoints. External EXP3, 10–100kΩ TRS; internal EXP2/EXP3 wording conflict retained. External global master assignment and headphone/USB/loop/tail coverage remain unknown. |
+| Processing / memory | Two nine-slot chains, CPU-limited; 19 modules, advertised 880+ models, 504 locations and six Subpatch scenes. Default MIDI map separates two factory and two user banks, each126 locations; supplied/blank allocation remains manufacturer-unverified. Full category census is pending. |
+| Connections / power / body | Guitar TS, mic/line combo with switchable48V phantom, two sends/two returns, TS/XLR stereo mains, phones, EXP, MIDI IN/OUT-THRU and USB-C. Phones6.35mm is corroborated in several manuals; German specification3.5mm conflict remains. 9VDC/3A center-negative;381×230×73mm axes unlabeled;3.45kg. USB bus power is not established. |
+| Loading / sound engines | Manufacturer documents WAV IR loading, .nam import and proprietary MFIM capture separately from Synth/Inst.Sim. NAM architecture/conversion limits, exact creative algorithms and input-note polyphony remain unresolved. Importer instrument examples and independent capacity claims retain their own evidence grades. |
+| Software / live features | AXOM Controller desktop and Bluetooth mobile control; current Apple mobile minimum differs from older flyer. USB8-in/8-out routing is documented, but sample-rate claims conflict. Six scenes, looper-context preset navigation, loop-audio import/export and full-backup workflow are documented; preset navigation and loop retention must not be generalized across modes. |
+| Indonesia hardware | No qualified exact Shopee offer, live stock or separate new/used IDR established. Seller/accessory/bundle identity must be checked before adding a price. |
+
+Sources, page references, historical claims and unresolved contradictions are retained in the detailed sections below. No current-firmware equivalence or ownership is inferred.
+
+### Initial discovery baseline — 31 October 2026
+
 Checked 2026-10-31. Manufacturer-authored **Axom Max User Manual V1.7.4, 2026-08-31**, 58 pages, recovered through the importer’s exact-model manual link: [original manual](https://shop.warwick.de/media/23/53/74/1790324346/4on4_MEL_AXOM_MAX_Manual_EN.pdf?ts=1790324346). Title/model/version identity checked; no host-generated FAQ used. Manufacturer website currently exposes no readable text.
 
 | Field | Evidence / remaining gap |

@@ -148153,5 +148153,19 @@
     "display": "Nine mini-displays importer-backed;technology/manufacturerphysicalcount unresolved;flyerWarwick2026 not independentmakerconfirmation.",
     "next": "Defer unchanged inaccessiblemaker evidence;continueotheraccessibleLCD-first/market research.",
     "active_inventory_changed": false
+  },
+  "axom_current_summary_20261104": {
+    "checked": "2026-11-04",
+    "scope": "Consolidated previously verified V1.7.4 findings into current top summary; retained original dated baseline and all source qualifications.",
+    "remaining": [
+      "Manufacturer mini-screen census/technology",
+      "Exact algorithms and category census",
+      "External EXP3 global volume coverage",
+      "NAM architecture/conversion limits",
+      "Qualified exact Shopee hardware and separate new/used IDR"
+    ],
+    "access": "English manual inaccessible on this recheck; no new specification inferred.",
+    "next": "Continue other accessible individual-display models and exact Shopee hardware research; preserve independent GP-200JR -> Prime -> GE300 queue.",
+    "active_inventory_changed": false
   }
 }
