@@ -146315,5 +146315,20 @@
     ],
     "active_count_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "pod20_volume_default_scope_20261103": {
+    "model": "Line 6 POD 2.0 desktop",
+    "source": "https://line6.com/data/6/0a060b316ac34f0593b1aaa8e/application/pdf/POD%202.0%20New%20Features.pdf",
+    "revision": "Version2.0;indexedRevA2,extractedfrontmatterRevA;printedUP7–9",
+    "finding": "Amp Models knob recalls Volume Pedal Location andMinimum;deep editing throughSoundDiver/MIDI. Per-selector customized defaults do not establish all-preset global assignment.",
+    "remaining": [
+      "Numeric volume endpoints",
+      "Held-position recall",
+      "Bypass/dry/tail/loop coverage",
+      "Current editor compatibility",
+      "Manufacturer-backed exact power ratings:FAQ chart not readable as text"
+    ],
+    "power_source": "https://kb.line6.com/power-supply-battery-specs-and-faq",
+    "status": "Partial outside active counts;independent queues preserved;no downloads ordevice operations"
   }
 }

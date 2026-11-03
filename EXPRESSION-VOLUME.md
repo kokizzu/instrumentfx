@@ -725,3 +725,5 @@ Gen2 [own routing andKill Dry inheritance](brand/EVENTIDE.md#h9-gen-2--own-routi
 ### Line 6 POD 2.0 — partial no-treadle discovery
 
 [Exact desktop lead](brand/LINE6.md#pod-20--partial-no-treadle-discovery), outside active counts. Controller socket generations differ; neither establishes a direct analog EXP input. Preset-independent hand Output Level covers headphones, but global expression assignment, range, recall and bypass/tail/loop coverage remain unverified. Hand channel navigation is not foot-operated down/up. Footprint and exact condition-qualified Shopee hardware remain unresolved.
+
+POD 2.0 [historical volume-default scope](brand/LINE6.md#pod-20--customized-volume-defaults-are-not-global-assignment): amp-selector customization includes pedal position and minimum; neither proves an all-preset assignment. Endpoint values, held-position recall and bypass/tail/loop coverage remain unknown.

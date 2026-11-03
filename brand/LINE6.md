@@ -1788,6 +1788,14 @@ Built-in treadle absent; separate K/F/B census, display characteristics, unit di
 
 [Manufacturer FAQ](https://line6.com/support/page/kb/legacy-products/pod/pod-20-podxt-family-pocket-pod-floorpods/original-pod-amp-pod-20-faqs-r497/), originally July28,2008, corroborates the socket-label generations and says MIDI Thru is absent. This is not an instruction to install software, update hardware or open the chassis. Exact Shopee Indonesia searches returned no qualified hardware offer; no price, stock, condition, seller/item, bundle, warranty, voucher or region is inferred. Complete the profile before active admission.
 
+### POD 2.0 — customized volume defaults are not global assignment
+
+Checked **2026-11-03** against [Version 2.0 New Features](https://line6.com/data/6/0a060b316ac34f0593b1aaa8e/application/pdf/POD%202.0%20New%20Features.pdf), printed UP•7–9. Indexed title says Rev A2; extracted front matter says Rev A. This is historical 2.0 documentation, not latest/installed firmware evidence.
+
+The Amp Models selector recalls **Volume Pedal Location (before/after amp)** and **Volume Pedal Minimum**, alongside wah endpoints. These deep parameters require SoundDiver or MIDI. Customization stores defaults at individual amp/effect selector positions; it does not prove all-preset global assignment or held-position recall. Numeric volume endpoints and bypass/tail/loop coverage remain unresolved. Historical SoundDiver documentation does not establish present OS support.
+
+The [manufacturer power FAQ](https://kb.line6.com/power-supply-battery-specs-and-faq) exposes its compatibility chart as an image without readable model-specific ratings here. Electrical requirements remain unverified; forum reports are not adopted as manufacturer specifications. No chart download, software installation or hardware operation.
+
 ## POD Express Bass
 
 **New bass-specific model, checked2026-10-15.** A separate hardware/sound-library record, not a color option for POD Express Guitar. The official Bass product and joint2.00 manual explicitly document the following common hardware and different processing path. This record remains partial. Dimensions were repaired from the joint manufacturer announcement on2026-10-17; platform-specific OS minima need separate evidence.
