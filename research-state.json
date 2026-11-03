@@ -145495,5 +145495,42 @@
       "V2.2manual endpointtimedout;earlierevidencepreserved"
     ],
     "next": "Defer inaccessible Mini volume-scope source;continue other requested separate-screen/compact inventory andqualified Shopee offers. Preserve independent queues."
+  },
+  "ir200_electrical_limits_20261103": {
+    "model": "BOSS IR-200",
+    "checked": "2026-11-03",
+    "source": "https://www.boss.info/global/products/ir-200/",
+    "findings": {
+      "input_return": {
+        "impedance_ohm": 1000000,
+        "nominal_dbu": -10,
+        "max_dbu": 7
+      },
+      "aux": {
+        "impedance_ohm": 27000,
+        "nominal_dbu": -20,
+        "max_dbu": 0
+      },
+      "output_send": {
+        "impedance_ohm": 1000,
+        "recommended_load_min_ohm": 10000,
+        "nominal_dbu": -10,
+        "max_dbu": 7
+      },
+      "phones": {
+        "output_impedance_ohm": 44,
+        "recommended_load_min_ohm": 44,
+        "nominal_dbu": -10,
+        "max_dbu": 7
+      },
+      "processing": "96kHz,32bitAD+AF/DA,32bitfloatDSP"
+    },
+    "limits": [
+      "No measurement orrevision/USBformatcertification",
+      "Headphone power/testconditions unspecified",
+      "Global AMP LEVEL headphone/AUX/USB/ambiencecoverage unresolved"
+    ],
+    "inventory": "Partiallead outside activecounts",
+    "next": "Continue complete partial-profile review andqualified exact hardware evidence;preserve separate-display priority andindependent queues."
   }
 }

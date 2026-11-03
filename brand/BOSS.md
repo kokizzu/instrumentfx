@@ -2994,6 +2994,20 @@ Checked **2026-11-03** against model-specific Roland support text. No software, 
 
 Global AMP LEVEL output coverage, full-editor capability and exact USB stream matrix remain unresolved. Partial lead remains outside active inventory; this evidence does not displace the separate-display priority or the independent GP-200JR → Prime → GE300 cursor.
 
+### IR-200 — electrical levels and headphone load
+
+Checked **2026-11-03** against [BOSS’s exact-model specifications](https://www.boss.info/global/products/ir-200/). Published ratings, not measurements; page does not identify a hardware/firmware revision.
+
+| Field | Manufacturer specification / boundary |
+|---|---|
+| Input / return | **1 MΩ**; nominal **−10 dBu**, maximum **+7 dBu**. This supports high-impedance instrument input; it is not an EXP potentiometer rating. |
+| Auxiliary input | **27 kΩ**; nominal **−20 dBu**, maximum **0 dBu**. |
+| Output / send | **1 kΩ** output impedance; recommended load **≥10 kΩ**. Nominal **−10 dBu**, maximum **+7 dBu**. |
+| Headphones | **44 Ω output impedance**, separately **≥44 Ω recommended headphone load**; nominal **−10 dBu**, maximum **+7 dBu**. No power-per-channel or distortion/load test conditions supplied here. |
+| Conversion / processing | **96 kHz**, ADC **32-bit + AF method**, DAC **32-bit**, **32-bit floating-point processing**. These do not establish every USB stream format or IR source-file conversion rule. |
+
+Headphone load, output impedance and gain limits do not prove expression attenuation of phones, AUX, USB or surviving ambience. Existing stereo-IR and global AMP LEVEL qualifications remain. Partial lead stays outside active counts; no download or hardware operation.
+
 ## KATANA:GO
 
 Checked2026-10-17;partial. Guitar/bass multi-effects;ownership unverified. Current product evidence below;BOSS says latest and earlier models have same sounds/features. Physical revision and seller “GO2” identity need corroboration.
