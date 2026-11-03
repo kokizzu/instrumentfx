@@ -182,6 +182,7 @@ def verify_preserved(state):
         for fact in entry['retained_comparison_facts']:
             assert fact['value'] in section, 'Lost supporting evidence: ' + fact['field']
     verify_historical_variant_archives(state)
+    verify_scope_corrected_variants(state)
     counts = {}
     for entry in state.get('consolidation_and_price_findings', []):
         kind = preservation_kind(entry)
@@ -2143,7 +2144,7 @@ def compact_reference_plan():
 
 def commit_preservation_repairs(stage=False):
     research_tools.identity()
-    allowed = {'Makefile', 'scripts/consolidation_tools.py', 'research-state.json', 'brand/ROLAND.md', 'brand/MOOER.md', 'MULTI-EFFECTS.md'}
+    allowed = {'Makefile', 'scripts/consolidation_tools.py', 'research-state.json', 'brand/ROLAND.md', 'brand/MOOER.md', 'MULTI-EFFECTS.md', 'single-vocal.md', 'scripts/research_tools.py'}
     changed = set(research_tools.git('diff', '--name-only').splitlines()) | set(research_tools.git('ls-files', '--others', '--exclude-standard').splitlines())
     staged = set(research_tools.git('diff', '--cached', '--name-only').splitlines())
     assert (changed | staged) <= allowed, (changed | staged) - allowed
@@ -2167,7 +2168,7 @@ def commit_preservation_repairs(stage=False):
         assert review['head'] == research_tools.git('rev-parse', 'HEAD').strip()
         assert review['sha256'] == digest(research_tools.git('diff', '--cached'))
         assert not research_tools.git('diff', '--cached', '--check').strip()
-        print(research_tools.git('commit', '-m', 'docs: preserve earlier owned-model comparison qualifications'))
+        print(research_tools.git('commit', '-m', 'docs: verify pre-exclusion source without restoring FV01'))
 
 def audit_historical_sources():
     """Compare the earliest Core/Flex source blobs with the preserved originals."""
@@ -2189,6 +2190,74 @@ def audit_historical_sources():
     print('Review /tmp/instrumentfx-historical-source-audit.json; equality is provenance, not manufacturer/current-stock verification.')
 
 
+
+
+def verify_scope_correction_entry(entry, source, registered, specialist):
+    """Bind the one reviewed pre-exclusion source to corrected and archived facts."""
+    assert entry['verification_kind'] == 'historical-scope-correction-v1'
+    assert entry['source'] == 'effects/shopee-multifx-3.md'
+    assert entry['excluded_model'] == 'FV01'
+    assert entry['destination'] == 'single-vocal.md#flamma-fv01-corrector'
+    assert digest(source) == entry['sha256'], 'Historical scope source changed'
+    assert digest(registered) == entry['registered_sha256'], 'Corrected scope source changed'
+    corrected = source
+    assert len(entry['source_edits']) == 14, 'Scope correction edit count changed'
+    for edit in entry['source_edits']:
+        assert edit['before'] and corrected.count(edit['before']) == 1, 'Ambiguous scope edit'
+        corrected = corrected.replace(edit['before'], edit['after'], 1)
+    assert corrected == registered, 'Unaccounted source differences after scope correction'
+    heading = '\n## Flamma FV01 Corrector\n'
+    assert specialist.count(heading) == 1, 'Missing specialist section'
+    section = specialist.split(heading, 1)[1].split('\n## ', 1)[0]
+    facts, row_count = [], 0
+    for headers, rows, context in comparison_views.tables(source):
+        for row in rows:
+            if row[0] in ('FV01', '[Flamma FV01][fv01]'):
+                row_count += 1
+                facts.extend(row[1:])
+    assert row_count == entry['excluded_rows'] == 6
+    assert len(facts) == entry['excluded_fields'] == 20
+    assert all(value in section for value in facts), 'Lost excluded specialist field'
+    assert 'EXCLUDED FROM THE MULTI-EFFECTS COMPARISON' in section
+    return facts
+
+
+def verify_scope_corrected_variants(state):
+    verified = {}
+    for entry in state['migration']['technical_source_history_audit_20261104']['reviewed_variants']:
+        if entry.get('verification_kind') != 'historical-scope-correction-v1':
+            continue
+        source = research_tools.git('cat-file', '-p', entry['blob'])
+        registered = research_tools.read_preserved_source(entry['source'])
+        specialist = (ROOT / 'single-vocal.md').read_text()
+        verify_scope_correction_entry(entry, source, registered, specialist)
+        verified[(entry['source'], entry['blob'])] = entry
+    return verified
+
+
+def test_scope_corrected_variant():
+    state = json.loads((ROOT / 'research-state.json').read_text())
+    entries = [e for e in state['migration']['technical_source_history_audit_20261104']['reviewed_variants']
+               if e.get('verification_kind') == 'historical-scope-correction-v1']
+    assert len(entries) == 1
+    entry = entries[0]
+    source = research_tools.git('cat-file', '-p', entry['blob'])
+    registered = research_tools.read_preserved_source(entry['source'])
+    specialist = (ROOT / 'single-vocal.md').read_text()
+    facts = verify_scope_correction_entry(entry, source, registered, specialist)
+    cases = [(entry, source.replace('Rp2.145.000', 'Rp1.000.000'), registered, specialist),
+             (entry, source, registered + '\nChanged qualification\n', specialist),
+             (dict(entry, source_edits=entry['source_edits'][:-1]), source, registered, specialist),
+             (entry, source, registered, specialist.replace(facts[0], 'No retained field')),
+             (entry, source, registered, specialist.replace('## Flamma FV01 Corrector', '## Wrong model'))]
+    for args in cases:
+        try:
+            verify_scope_correction_entry(*args)
+        except AssertionError:
+            pass
+        else:
+            raise AssertionError('Scope correction source/field corruption accepted')
+    print('PASS: FV01 scope correction rejects source, correction, edit and specialist-field drift.')
 
 
 def verify_historical_variant_archives(state, read_blob=None, read_destination=None):
@@ -2318,6 +2387,8 @@ def audit_source_history():
     test_source_history_status()
     state = json.loads((ROOT / 'research-state.json').read_text())
     verified_archives = verify_historical_variant_archives(state)
+    verified_scope = verify_scope_corrected_variants(state)
+    audit_shared_variant_union(kind='market3')
     boss_history_path = 'effects/guitar-boss.history-2026-10-14.md'
     boss_history = research_tools.read_preserved_source(boss_history_path)
     audit_boss_shared(history=True)
@@ -2359,6 +2430,10 @@ def audit_source_history():
                 status = ('verified-historical-shared-archive' if verified_archives[(path, blob)]['verification_kind'] == 'historical-shared-body-v1' else 'verified-historical-body-archive')
                 covered_source = verified_archives[(path, blob)]['destination']
                 coverage_check = 'verify_historical_variant_archives: exact inverse body equality to pinned Git blob'
+            if status == 'historical-variant-needs-review' and (path, blob) in verified_scope:
+                status = 'verified-historical-scope-correction'
+                covered_source = verified_scope[(path, blob)]['destination']
+                coverage_check = 'Exact scope edits reproduce corrected source; six removed rows/twenty fields retained in specialist archive; corrected four-model union checked'
             row = dict(source=path, destination=destination, blob=blob,
                        sha256=digest(body), status=status)
             if covered_source:
@@ -2384,6 +2459,7 @@ if __name__ == '__main__':
     if sys.argv[1:] == ['test-source-history']:
         test_source_history_status()
         test_historical_variant_archives()
+        test_scope_corrected_variant()
         raise SystemExit(0)
     if sys.argv[1:] == ['audit-source-history']:
         audit_source_history()

@@ -80,6 +80,12 @@ def verify():
         assert original.split(marker,1)[1]==preserved,'Guitar archive lost original material'
         original_fv=git('show','9c8d296:effects/findings/2026-10-14-flamma-fv01.md')
         body=preservation_text('single-vocal.md').split('## Flamma FV01 Corrector\n',1)[1]
+        shared_boundary = '\n### Preserved pre-exclusion shared comparison wording\n'
+        if shared_boundary in body:
+            assert body.count(shared_boundary) == 1, 'Duplicate FV01 shared archive'
+            entries = state['migration']['technical_source_history_audit_20261104']['reviewed_variants']
+            assert sum(e.get('verification_kind') == 'historical-scope-correction-v1' for e in entries) == 1
+            body = body.split(shared_boundary, 1)[0]
         assert body.replace('(effects/SCOPE.md)','(../SCOPE.md)').replace('\n### ','\n## ')==original_fv.split('\n',1)[1],'FV01 archive lost original material'
     errors = []
     for path in [*ROOT.glob('*.md'), *(ROOT/'brand').glob('*.md')]:

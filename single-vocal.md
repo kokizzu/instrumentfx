@@ -54,3 +54,28 @@ Power revision, dimension labels, state retention, used offers and live seller/a
 [manual]: https://flammainnovation.com/file/pdf?fileName=FV01_Manual_EN_V03_2024.01.06.pdf&url=group1/M00/00/0B/wKgA0GWbj16AZDlgAAftrNONrK0446.pdf
 [shop]: https://www.flamma.shop/products/flamma-fv01-pitch-correction-effect
 [product]: https://flammainnovation.com/single.html?id=54
+
+### Preserved pre-exclusion shared comparison wording
+
+The 2026-10-14 expansion-3 source originally included FV01 before the explicit scope correction. These twenty source fields retain that historical wording and its price/power qualifications; they do not reinstate FV01 in active multi-effects comparisons. The older five-model/80-record total and continuation wording are preserved in the exact scope-correction edit record in research-state.json, not current inventory claims.
+
+- **1. Hardware and expression / Instrument / size class**: Vocal, separate guitar reverb / **compact**
+- **1. Hardware and expression / External expression**: No EXP socket on documented panel
+- **1. Hardware and expression / K/F/B**: **4/1/1**; rear GAIN included; 3 rear toggles additional
+- **1. Hardware and expression / W×D×H, mm; weight**: Published **86.6×125×60**, axes unlabelled; **371 g**. Compact under either horizontal orientation
+- **2. Screens / Screen diagonal**: **N/A — no screen**
+- **2. Screens / Monochrome / color**: **N/A**
+- **2. Screens / Touchscreen**: **No**
+- **2. Screens / Evidence limitation**: Colored status LEDs are not a graphical display
+- **3. Separate IDR price evidence / Used IDR**: **?**
+- **3. Separate IDR price evidence / New / retail IDR evidence**: **Rp2.145.000**, Tokosound Proaudio
+- **3. Separate IDR price evidence / Availability and condition qualification**: Stock/condition unverified. Separate older NEO MUSIC **Rp1.816.920** page retains August delivery text; not a confirmed current lower bound
+- **4. Processing, presets and model loading / Blocks / categories / choices**: Fixed vocal tone/correction/delay/reverb plus independent guitar reverb. **3 reverbs, 3 delays, 3 tone settings**; not freely assignable blocks
+- **4. Processing, presets and model loading / Preset storage**: No addressable patch bank documented; P/U **N/A**; state-retention details ?
+- **4. Processing, presets and model loading / Synth / acoustic simulator**: Neither documented; pitch correction is not synthesis
+- **4. Processing, presets and model loading / IR / NAM / captures**: No user-file import path on complete documented hardware
+- **5. Connections, power, software and live use / Audio/control connections**: ¼″ guitar in/out; XLR mic in/out with **48 V**; no phones, USB, MIDI, aux or FX-loop in complete panel
+- **5. Connections, power, software and live use / Power / battery / USB operation**: **9 V center-negative**; manual **500 mA versus1.5 A conflict**; battery not established; no USB-power connection
+- **5. Connections, power, software and live use / Configuration and recording**: Onboard controls; no app/editor/import connection documented
+- **5. Connections, power, software and live use / Additional features**: Mixed or separate guitar/vocal outputs, not stereo; delay tap tempo; no looper/drums documented
+- **6. Evidence gaps and immediate commits / Individually saved findings commit**: `35944327d19a9de6ed3debbeaba5a8a037f9f5f3`

@@ -47191,7 +47191,7 @@
     },
     "technical_source_history_audit_20261104": {
       "checked": "2026-11-04",
-      "source_head": "3a1987828fc76d3f7d16e951f72ae9068a64766a",
+      "source_head": "131f729ff22e99aa20c98b0901be646ea761a454",
       "target": "make consolidation-audit-source-history",
       "sources": 99,
       "variants": 295,
@@ -47201,23 +47201,16 @@
         "pre-layout-compatibility-redirect": 88,
         "verified-link-only-source-variant": 1,
         "verified-historical-body-archive": 4,
-        "historical-variant-needs-review": 1,
         "verified-shared-source-variant": 1,
-        "verified-historical-shared-archive": 2
+        "verified-historical-shared-archive": 2,
+        "verified-historical-scope-correction": 1
       },
       "method": "Enumerate unique Git blobs with --full-history and per-parent merge diffs; reject shallow clone history. Exact equality against registered original,current redirect,or inverse-layout redirect;other content stays pending. FX100 accepts only two explicit citation substitutions followed by whole-source equality; technical orprice drift remains pending. Earlier GR-55 body is independently archived andverified against its pinned Git blob;historical corrections are not normalized away.",
-      "pending": [
-        {
-          "source": "effects/shopee-multifx-3.md",
-          "destination": "MULTI-EFFECTS.md",
-          "blob": "27e657bcbe320717b7bb95e7d7a0507653c2b201",
-          "sha256": "d04e08da201a87eccd703a49efad348a83343f504ac20e9ec52f7404687180cc"
-        }
-      ],
-      "next": "Continue market3 shared variant, preserving FV01 exclusion and all later corrections. Independent GT-Pro/display/expression queues remain unchanged.",
+      "pending": [],
+      "next": "Technical source revision audit has no pending variants. Continue broader metadata/compatibility consolidation audit and independent GT-Pro/display/expression queues; do not claim market or technical research complete.",
       "limitations": "HEAD-reachable technical source revisions only; pending variants are not proven loss; shared/metadata files and manufacturer truth need separate audits. Existing original-body verification remains independent;no compatibility path removed andno complete-migration claim.",
-      "complete": false,
-      "merge_history_recheck": "295 revisions checked; four model-body archives and two shared-body archives verified. Market3 variant remains pending.",
+      "complete": true,
+      "merge_history_recheck": "295 HEAD-reachable technical revisions accounted for: exact registered/redirect bodies, verified BOSS/FX100 equivalence, four model-body archives, two shared-body archives and one explicit FV01 scope correction. This closes only this bounded source-revision audit.",
       "initial_counts": {
         "current-compatibility-redirect": 99,
         "registered-original": 99,
@@ -47366,6 +47359,77 @@
           "destination_section": "Preserved earlier owned-model comparison",
           "coverage_check": "Complete shared body; inverse heading/reference/navigation transformations must equal pinned Git blob",
           "qualification": "Historical two-model overlay and next-model list do not replace current ownership, inventory or queue. Later canonical technical corrections retain precedence."
+        },
+        {
+          "source": "effects/shopee-multifx-3.md",
+          "destination": "single-vocal.md#flamma-fv01-corrector",
+          "blob": "27e657bcbe320717b7bb95e7d7a0507653c2b201",
+          "sha256": "d04e08da201a87eccd703a49efad348a83343f504ac20e9ec52f7404687180cc",
+          "verification_kind": "historical-scope-correction-v1",
+          "registered_sha256": "f32219503ad36584e62bb19e14638dd987d86ae77cc42517c3e81a2b0b64761e",
+          "source_edits": [
+            {
+              "before": "# Shopee Indonesia multi-effects — expansion 3\n\n[Comparison home](README.md) · [Marketplace evidence](shopee-indonesia.md) · [Expansion 1](shopee-multifx.md) · [Expansion 2](shopee-multifx-2.md) · [Resume](RESUME.md)\n",
+              "after": "# Shopee Indonesia multi-effects — expansion 3\n\n[Comparison home](README.md) · [Scope](SCOPE.md) · [Marketplace evidence](shopee-indonesia.md) · [Expansion 1](shopee-multifx.md) · [Expansion 2](shopee-multifx-2.md) · [Resume](RESUME.md)\n"
+            },
+            {
+              "before": "\n**2026-10-14 · Five additional partial models · Catalogue total: 80 models across 11 comparison pages.** Each model was committed separately before the next was researched. This is a first evidence pass, not full verification, an exhaustive Shopee inventory or a recommendation ranking. All prices are **IDR asking/listed observations**, not completed sales. `?` means unverified, not No.\n",
+              "after": "\n**2026-10-14 · Four eligible partial multi-effects models.** Flamma FV01 has been removed from all comparison tables under the user's scope correction; its [historical finding](findings/2026-10-14-flamma-fv01.md) is retained as an excluded specialist reference, not a multi-effects candidate. Earlier five-model/80-record totals predate this correction and must not be repeated as active multi-effects counts.\n"
+            },
+            {
+              "before": "\nThe linked findings contain exact manufacturer/manual references, firmware context, Shopee item IDs, dated prices and unresolved evidence. The summaries below must be read with those qualifications. No current used-price range was established for these five models.\n",
+              "after": "\nEach model was committed separately before the next was researched. This is a first evidence pass, not full verification, an exhaustive Shopee inventory or a recommendation ranking. All prices are **IDR asking/listed observations**, not completed sales. `?` means unverified, not No.\n\nThe linked findings contain exact manufacturer/manual references, firmware context, Shopee item IDs, dated prices and unresolved evidence. No current used-price range was established for these four models. Scope changes do not independently re-certify their technical specifications.\n"
+            },
+            {
+              "before": "\n| Model / complete finding | Instrument / size class | External expression | K/F/B | W×D×H, mm; weight |\n|---|---|---|---|---|\n| [Flamma FV01][fv01] | Vocal, separate guitar reverb / **compact** | No EXP socket on documented panel | **4/1/1**; rear GAIN included; 3 rear toggles additional | Published **86.6×125×60**, axes unlabelled; **371 g**. Compact under either horizontal orientation |\n",
+              "after": "\n| Model / complete finding | Instrument / size class | External expression | K/F/B | W×D×H, mm; weight |\n|---|---|---|---|---|\n"
+            },
+            {
+              "before": "| Model | Screen diagonal | Monochrome / color | Touchscreen | Evidence limitation |\n|---|---:|---|---|---|\n| Core | **7 inches** | **Color** | **Yes** | Core-specific manufacturer specification; not Prime's auxiliary OLED layout |\n| FV01 | **N/A — no screen** | **N/A** | **No** | Colored status LEDs are not a graphical display |\n",
+              "after": "| Model | Screen diagonal | Monochrome / color | Touchscreen | Evidence limitation |\n|---|---:|---|---|---|\n| Core | **7 inches** | **Color** | **Yes** | Core-specific manufacturer specification; not Prime's auxiliary OLED layout |\n"
+            },
+            {
+              "before": "| MG-100 | **?** | **Color TFT, 160×128 pixels** | **?** | Resolution is not diagonal size |\n| MG-200 | **?** | **Color TFT** | **?** | Color confirmed by manufacturer photo; monochrome manual diagrams do not establish display color |\n\nSources: [Core][core], [FV01][fv01], [Arena2000][arena], [MG-100][mg100], [MG-200][mg200].\n",
+              "after": "| MG-100 | **?** | **Color TFT, 160×128 pixels** | **?** | Resolution is not diagonal size |\n| MG-200 | **?** | **Color TFT** | **?** | Color confirmed by manufacturer photo; monochrome manual diagrams do not establish display color |\n\nSources: [Core][core], [Arena2000][arena], [MG-100][mg100], [MG-200][mg200].\n"
+            },
+            {
+              "before": "| Model | Used IDR | New / retail IDR evidence | Availability and condition qualification |\n|---|---|---|---|\n| Core | **?** | **Rp15.120.000**, ROCKPIZZ MUSIC | Actual hardware listing; detailed condition, accessories and checkout stock unverified |\n| FV01 | **?** | **Rp2.145.000**, Tokosound Proaudio | Stock/condition unverified. Separate older NEO MUSIC **Rp1.816.920** page retains August delivery text; not a confirmed current lower bound |\n",
+              "after": "| Model | Used IDR | New / retail IDR evidence | Availability and condition qualification |\n|---|---|---|---|\n| Core | **?** | **Rp15.120.000**, ROCKPIZZ MUSIC | Actual hardware listing; detailed condition, accessories and checkout stock unverified |\n"
+            },
+            {
+              "before": "| MG-100 | **?** | **? currently verified** | Earlier repository discovery **Rp1.462.000, sold out** could not be reopened; preserved as historical evidence, not a fresh quote |\n| MG-200 | **?** | **? condition-specific new price** | Reopened Red Musik Bali ask **Rp1.500.000, SOLD OUT**; condition not exposed, so do not assign it to either used or new |\n\nEach exact item URL is in its [dated finding][core] and linked from the marketplace index. Seller names containing Official do not independently authenticate a seller. Voucher eligibility, shipping, taxes, warranty, accessories and selected variants must not be silently included. A sold-out ask is not proof of a completed transaction.\n",
+              "after": "| MG-100 | **?** | **? currently verified** | Earlier repository discovery **Rp1.462.000, sold out** could not be reopened; preserved as historical evidence, not a fresh quote |\n| MG-200 | **?** | **? condition-specific new price** | Reopened Red Musik Bali ask **Rp1.500.000, SOLD OUT**; condition not exposed, so do not assign it to either used or new |\n\nEach exact item URL is in its dated finding and linked from the marketplace index. Seller names containing Official do not independently authenticate a seller. Voucher eligibility, shipping, taxes, warranty, accessories and selected variants must not be silently included. A sold-out ask is not proof of a completed transaction.\n"
+            },
+            {
+              "before": "| Model | Blocks / categories / choices | Preset storage | Synth / acoustic simulator | IR / NAM / captures |\n|---|---|---|---|---|\n| Core | **14 rig blocks**, routing/DSP-limited; guitar/vocal paths. Website category totals conflict with their own lists and later firmware; see finding, do not sum a definitive grand total | FAQ **50 factory rigs**; current factory/user capacity ? | **Synth yes**: Hybrid Synth, Electric Piano, DB-33; **Acoustic Sim yes** | Third-party WAV/AIFF IRs; **native NAM**, architecture-qualified; proprietary HeadRush/ReValver clones and SuperClones separate |\n| FV01 | Fixed vocal tone/correction/delay/reverb plus independent guitar reverb. **3 reverbs, 3 delays, 3 tone settings**; not freely assignable blocks | No addressable patch bank documented; P/U **N/A**; state-retention details ? | Neither documented; pitch correction is not synthesis | No user-file import path on complete documented hardware |\n",
+              "after": "| Model | Blocks / categories / choices | Preset storage | Synth / acoustic simulator | IR / NAM / captures |\n|---|---|---|---|---|\n| Core | **14 rig blocks**, routing/DSP-limited; guitar/vocal paths. Website category totals conflict with their own lists and later firmware; see finding, do not sum a definitive grand total | FAQ **50 factory rigs**; current factory/user capacity ? | **Synth yes**: Hybrid Synth, Electric Piano, DB-33; **Acoustic Sim yes** | Third-party WAV/AIFF IRs; **native NAM**, architecture-qualified; proprietary HeadRush/ReValver clones and SuperClones separate |\n"
+            },
+            {
+              "before": "| Model | Audio/control connections | Power / battery / USB operation | Configuration and recording | Additional features |\n|---|---|---|---|---|\n| Core | Guitar input; combo XLR/¼″ mic with **48 V**; stereo XLR and ¼″ outputs; 3.5 mm phones/aux; stereo TRS loop; EXP/TOE/amp-control; DIN MIDI I/O; USB-A/B; Wi-Fi/Bluetooth audio | Current specs **12 V/3 A center-positive**, but FAQ says IEC: **conflict unresolved**. Battery/USB power not established | Wi-Fi browser editor **Windows/macOS/iOS/Android**; USB **6-in/4-out**, 24-bit 44.1/48/96 kHz; reamp | Scenes, trails, drums; looper **50 layers, 5 min/layer, 20 min total** |\n| FV01 | ¼″ guitar in/out; XLR mic in/out with **48 V**; no phones, USB, MIDI, aux or FX-loop in complete panel | **9 V center-negative**; manual **500 mA versus1.5 A conflict**; battery not established; no USB-power connection | Onboard controls; no app/editor/import connection documented | Mixed or separate guitar/vocal outputs, not stereo; delay tap tempo; no looper/drums documented |\n",
+              "after": "| Model | Audio/control connections | Power / battery / USB operation | Configuration and recording | Additional features |\n|---|---|---|---|---|\n| Core | Guitar input; combo XLR/¼″ mic with **48 V**; stereo XLR and ¼″ outputs; 3.5 mm phones/aux; stereo TRS loop; EXP/TOE/amp-control; DIN MIDI I/O; USB-A/B; Wi-Fi/Bluetooth audio | Current specs **12 V/3 A center-positive**, but FAQ says IEC: **conflict unresolved**. Battery/USB power not established | Wi-Fi browser editor **Windows/macOS/iOS/Android**; USB **6-in/4-out**, 24-bit 44.1/48/96 kHz; reamp | Scenes, trails, drums; looper **50 layers, 5 min/layer, 20 min total** |\n"
+            },
+            {
+              "before": "\n## 6. Evidence gaps and immediate commits\n\nCore's matching user guide could not be fetched; its current product/FAQ and firmware release notes were used, preserving their power/port/category conflicts. Arena2000's linked PDF exceeded the retrieval limit and was **not read**; dimensions and detailed algorithm/power/button questions remain unresolved. FV01's power contradiction occurs within its own manufacturer manual. MG-100 and MG-200 use explicitly identified older V1 manuals, not independently tested current firmware.\n",
+              "after": "\n## 6. Evidence gaps and immediate commits\n\nCore's matching user guide could not be fetched; its current product/FAQ and firmware release notes were used, preserving their power/port/category conflicts. Arena2000's linked PDF exceeded the retrieval limit and was **not read**; dimensions and detailed algorithm/power/button questions remain unresolved. MG-100 and MG-200 use explicitly identified older V1 manuals, not independently tested current firmware.\n"
+            },
+            {
+              "before": "| Model | Individually saved findings commit |\n|---|---|\n| Core | `369f2c15423a1c83340a5c39cdd16c01dfe27d82` |\n| FV01 | `35944327d19a9de6ed3debbeaba5a8a037f9f5f3` |\n",
+              "after": "| Model | Individually saved findings commit |\n|---|---|\n| Core | `369f2c15423a1c83340a5c39cdd16c01dfe27d82` |\n"
+            },
+            {
+              "before": "| MG-100 | `2ec1fb7bba723fb8f2e8a465a093f3768beb8875` |\n| MG-200 | `e9c94ec08360999bac77fb79761b88a6ede45785` |\n\n**Next discovery model: MOOER GE100 Pro**, separate from original GE100 and Pro Li. Preserve the deferred original BOSS display/IDR queue and all earlier records. The seven original unmigrated pages still need their IDR/display pass; these five additions do not complete the whole-market scope.\n",
+              "after": "| MG-100 | `2ec1fb7bba723fb8f2e8a465a093f3768beb8875` |\n| MG-200 | `e9c94ec08360999bac77fb79761b88a6ede45785` |\n\n**Next discovery model: MOOER GE100 Pro**, separate from original GE100 and Pro Li. Preserve the ever-owned additions and deferred original BOSS display/IDR queue. The seven original unmigrated pages still need their IDR/display pass; these four eligible additions do not complete the whole-market scope.\n\n## Excluded historical entry\n\nFlamma FV01 was originally researched in `35944327d19a9de6ed3debbeaba5a8a037f9f5f3`. Its source and price history remains in [the excluded specialist finding](findings/2026-10-14-flamma-fv01.md), but **it is not an active multi-effects comparison row and must not be counted or re-added on resume**. See [SCOPE.md](SCOPE.md).\n"
+            },
+            {
+              "before": "\n[core]: findings/2026-10-14-headrush-core.md\n[fv01]: findings/2026-10-14-flamma-fv01.md\n",
+              "after": "\n[core]: findings/2026-10-14-headrush-core.md\n"
+            }
+          ],
+          "excluded_model": "FV01",
+          "excluded_rows": 6,
+          "excluded_fields": 20,
+          "coverage_check": "Fourteen exact source edits reproduce registered corrected body; all twenty removed FV01 fields must remain verbatim in specialist archive. Existing corrected shared union independently verifies four eligible models/80 fields and source prose.",
+          "qualification": "Historical five-model/80-record counts are obsolete; FV01 stays excluded. Source edit pairs preserve old and corrected wording, with no technical fact silently normalized away."
         }
       ]
     }
