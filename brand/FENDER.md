@@ -605,3 +605,13 @@ Checked **2026-11-04** in the manufacturer **Model Guide firmware1.4, printed pp
 | Pitch / pedal dry-path distinction | **Firmware1.4 guide p87:** Pedal Shifter removes dry audio; Position moves from unison to the selected interval and can use expression or a parameter-change switch. **Pedal Detune** instead blends detuned and dry sound,with Shallow/Deep modes. Neither description certifies input-note polyphony. |
 
 The GH MUSIC STORE Shopee item71552895/40320736069 still exposes the older Rp41.360.000,two-month cache;no price orstock update is claimed. Existing offer qualifications remain. No download,device operation orsignal measurement;current algorithms,exact concurrency andprimary NAM announcement remain unresolved.
+
+### Tone Master Pro — unsaved Scene recall and signal-path wrap exception
+
+Checked **2026-11-04**, [manufacturer US release history,1.6.34,May14,2025](https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates). Historical introduction behavior;current installed firmware and hardware operation untested.
+
+- **Scene Change Behavior** is global. **Maintain Changes**, the default, recalls each scene’s last modified state within a preset;multiple scenes can be edited before one preset save. This is unsaved-state recall, not automatic persistent saving. **Discard Changes** reloads the last saved scene state;save the preset before switching scenes if those edits should survive. This setting doesnot establish expression-position recall or global analog-volume assignment.
+- **Wrap-Around Signal Path** controls whether the main-screen chain wraps instead of scrolling offscreen. At1.6.34 it is **not implemented for Instrument Parallel2**. It changes display presentation,not physical routing capacity or the ten footswitch LCDs;later equivalence remains unverified.
+- The same release permits block replacement in any Scene rather than only Base preset. Preserve the separate manual rule that shared blocks/order/routing andScene Edit determine cross-scene effects;this is not an independent rig perScene.
+
+No software installed,device operated orworkflow changed. Current GuideH census,IR-file limits andqualified exact-stock prices remain open.

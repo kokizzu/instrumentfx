@@ -148003,5 +148003,13 @@
     "queue_action": "Inaccessible sources deferred;continue other accessible LCD-first/general research before repeating unchanged failed retrievals.",
     "independent_queues_preserved": true,
     "active_inventory_changed": false
+  },
+  "fender_scene_recall_scope_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+    "revision": "1.6.34 May14,2025",
+    "scope": "Maintain(default)/Discard unsaved scene recall;not persistent auto-save;Wrap-Around excludes Instrument Parallel2 inthisrelease;Scene block replacement boundary.",
+    "next": "Current GuideH census,IR file limits,qualified Shopee hardware offers;preserve independent general/expression queues.",
+    "active_inventory_changed": false
   }
 }
