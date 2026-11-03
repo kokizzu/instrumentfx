@@ -146968,5 +146968,22 @@
     "fully_verified": false,
     "active_count_unchanged": 402,
     "next": "Current GuideH census,exact pitch/granular note handling,IR-file/slot limits,global-volume coverage,auxiliary displays andqualified Shopee hardware. Preserve independent queues."
+  },
+  "axom_max_creative_category_scope_20261103": {
+    "model": "MELOFTY AXOM MAX",
+    "checked": "2026-11-03",
+    "sources": [
+      "https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347",
+      "https://shop.warwick.de/en/effect-pedals-multi-effects-processorsmelofty-axom-max-hybrid-audio-processor"
+    ],
+    "manufacturer_scope": "V1.7.4 PDFpp19,30;separate Inst.Sim/Synth categories",
+    "importer_scope": "Sound counts and instrument families attributed only;no algorithm census or tracking certification",
+    "canonical": "brand/MELOFTY.md#axom-max--creative-category-evidence-and-qualified-instrument-examples",
+    "active": false,
+    "fully_verified": false,
+    "creative_catalogue_index_unchanged": 35,
+    "active_count_unchanged": 402,
+    "access": "Maker/English manual inaccessible;German panel render cachemiss;IAB unavailable;targeted Shopee search no qualified exact hardware",
+    "next": "Exact algorithm names/note handling,manufacturer mini-display census/technology,current firmware,capture/import limits andqualified Indonesian hardware. Preserve independent general/expression queues."
   }
 }

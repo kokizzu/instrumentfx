@@ -296,3 +296,13 @@ Checked **2026-11-03**, [German manufacturer V1.7.4 manual,PDFpp61–62](https:/
 | Audio / outputs | Unbalanced mains andXLR **600Ω,+18dBu maximum**;Sends **510Ω,+18dBu**;Phones **6Ω,+18dBu**. These are source ratings,not headphone load orpower. The3.5/6.35mm socket conflict remains. |
 
 Partial,outside active counts. Display technology,category census,global external-pedal coverage andqualified Indonesian hardware remain open. No local download ordevice operation.
+
+### AXOM MAX — creative-category evidence and qualified instrument examples
+
+Checked **2026-11-03**. [Manufacturer German V1.7.4 manual, PDFpp19,30](https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347) explicitly separates **Inst.Sim, Synth, Amp, Cab and Amp & Cab** lists and identifies DeepSynth Quick Presets as instrument/synth sounds. Category separation does not certify exact algorithms, input-note polyphony or tracking quality.
+
+The [identified importer’s exact AXOM MAX page](https://shop.warwick.de/en/effect-pedals-multi-effects-processorsmelofty-axom-max-hybrid-audio-processor), retrieved today, advertises **50+ synth sounds without a MIDI pickup** and **70+ instrument models**, with organ, saxophone, violin, flute and Asian-instrument examples. These are **importer claims and instrument families**, not manufacturer-verified algorithm names or a fresh installed-library census. Its separate vocal-instrument transformation claim likewise does not establish polyphonic voice tracking, simultaneous availability or MIDI-note routing. No electric-to-acoustic algorithm is established by these examples.
+
+MFIM hardware capture, cabinet IRs and NAM import remain distinct from DeepSynth. This is now cross-linked as a partial creative lead, **outside active counts and the35-record catalogue index**. No ownership inferred.
+
+Maker page and English manual remained inaccessible; German panel rendering failed and no in-app browser was available. A targeted Shopee Indonesia search yielded no qualified exact hardware offer. Preserve importer-backed nine mini displays, unresolved technology, existing contradictions and independent queues. No local download/device operation.

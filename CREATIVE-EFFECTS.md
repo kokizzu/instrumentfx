@@ -90,6 +90,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [Axe-Fx III Mark II Turbo](brand/FRACTAL-AUDIO.md#axe-fx-iii-mark-ii-turbo--creative-processing-and-support-versions) remains a **partial lead outside active counts and the35-record index**: monophonic Synth,polyphonic chromatic/Virtual Capo shifting,monophonic diatonic harmony andseparate vocoder processing. The guide allows up to two Synth andtwo Pitch blocks,CPU permitting;installed-version equivalence remains unverified.
 
+[MELOFTY AXOM MAX](brand/MELOFTY.md#axom-max--creative-category-evidence-and-qualified-instrument-examples) is a **partial lead outside active counts and the35-record index**. The maker manual separates Inst.Sim and Synth; importer claims50+ synth sounds and70+ instrument models, with organ/saxophone/violin/flute examples. These are not verified algorithm names or input-note polyphony. Pitch/special algorithms and electric-to-acoustic simulation remain unverified; MFIM/IR/NAM are separate workflows.
+
 ## What remains uncertain
 
 - Actual tracking quality, latency and installed firmware were not measured for these records.
