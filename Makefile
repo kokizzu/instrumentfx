@@ -2376,3 +2376,7 @@ creative-commit:
 .PHONY: creative-verify
 creative-verify:
 	python3 scripts/creative_effects.py verify
+
+.PHONY: consolidation-audit-historical
+consolidation-audit-historical:
+	python3 scripts/consolidation_tools.py audit-historical

@@ -106,15 +106,25 @@ def preservation_kind(entry):
     return kind
 
 
+def verify_historical_source_blobs(entry, read_blob=None, read_source=None):
+    """Bind early blob identities to exact registered preserved source contents."""
+    read_blob = read_blob or (lambda blob: research_tools.git('cat-file', '-p', blob))
+    read_source = read_source or research_tools.read_preserved_source
+    blobs = entry['source_blobs']
+    paths = entry['source_blob_paths']
+    assert set(blobs) == set(paths), 'Historical blob/path keys differ'
+    assert set(paths.values()) == {r['source'] for r in entry['coverage_records']}, 'Historical source coverage differs'
+    for key, blob in blobs.items():
+        assert re.fullmatch(r'[0-9a-f]{40}', blob)
+        assert read_blob(blob) == read_source(paths[key]), 'Historical source body differs: '+paths[key]
+
 def verify_preserved(state):
     for entry in state.get('consolidation_and_price_findings', []):
         kind = preservation_kind(entry)
         if kind == 'historical-checkpoint-v1':
             assert entry.get('verification_scope'), 'Missing historical scope'
             assert entry.get('source_blobs') and entry.get('coverage_records'), 'Missing historical provenance'
-            for blob in entry['source_blobs'].values():
-                assert re.fullmatch(r'[0-9a-f]{40}', blob)
-                assert research_tools.git('cat-file', '-t', blob).strip() == 'blob'
+            verify_historical_source_blobs(entry)
             covered = set()
             for record in entry['coverage_records']:
                 matches = [item for item in state['consolidation_and_price_findings'] if item.get('source') == record['source'] and item.get('destination') == record['destination'] and item.get('verification_kind') in {'complete-model-rows-v1', 'complete-source-body-v1'}]
@@ -2068,7 +2078,15 @@ def test_preservation_kinds():
             pass
         else:
             raise AssertionError('Unclassified preservation entry silently accepted')
-    print('PASS: preservation dispatch rejects missing and unknown kinds')
+    fixture = dict(source_blobs={'source': 'a'*40}, source_blob_paths={'source': 'original.md'}, coverage_records=[{'source':'original.md'}])
+    verify_historical_source_blobs(fixture, lambda blob: 'original body', lambda path: 'original body')
+    try:
+        verify_historical_source_blobs(fixture, lambda blob: 'different original body', lambda path: 'original body')
+    except AssertionError:
+        pass
+    else:
+        raise AssertionError('Unrelated valid blob accepted as historical source preservation')
+    print('PASS: historical blobs must match registered preserved source bodies; dispatch rejects missing and unknown kinds')
 
 
 def audit_body_differences():
@@ -2148,9 +2166,31 @@ def commit_preservation_repairs(stage=False):
         assert review['head'] == research_tools.git('rev-parse', 'HEAD').strip()
         assert review['sha256'] == digest(research_tools.git('diff', '--cached'))
         assert not research_tools.git('diff', '--cached', '--check').strip()
-        print(research_tools.git('commit', '-m', 'fix(audit): reject unclassified preservation records'))
+        print(research_tools.git('commit', '-m', 'fix(audit): verify earliest HeadRush source contents'))
+
+def audit_historical_sources():
+    """Compare the earliest Core/Flex source blobs with the preserved originals."""
+    import difflib
+    research_tools.identity()
+    state = json.loads(preservation_text('research-state.json'))
+    entry = next(e for e in state['consolidation_and_price_findings'] if e.get('verification_kind') == 'historical-checkpoint-v1')
+    paths = entry['source_blob_paths']
+    results = []
+    for key, path in paths.items():
+        early = research_tools.git('cat-file', '-p', entry['source_blobs'][key])
+        later = research_tools.read_preserved_source(path)
+        result = dict(key=key, source=path, blob=entry['source_blobs'][key],
+                      early_sha256=digest(early), preserved_sha256=digest(later), equal=early == later,
+                      diff=''.join(difflib.unified_diff(early.splitlines(True), later.splitlines(True), fromfile='historical:'+path, tofile='preserved:'+path)))
+        results.append(result)
+        print(json.dumps({k:v for k,v in result.items() if k != 'diff'}))
+    Path('/tmp/instrumentfx-historical-source-audit.json').write_text(json.dumps(results, indent=2)+'\n')
+    print('Review /tmp/instrumentfx-historical-source-audit.json; equality is provenance, not manufacturer/current-stock verification.')
 
 if __name__ == '__main__':
+    if sys.argv[1:] == ['audit-historical']:
+        audit_historical_sources()
+        raise SystemExit(0)
     if sys.argv[1:] == ['test-preservation-kinds']:
         test_preservation_kinds()
         raise SystemExit(0)

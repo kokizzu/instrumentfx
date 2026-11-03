@@ -5768,7 +5768,7 @@
       },
       "scope": "Complete existing model-specific facts, source URLs and limitations consolidated; Core/Flex technical dates remain2026-10-14. New Flex Prime Shopee price evidence checked2026-10-15. No duplicate model count and no old source deleted.",
       "verification_kind": "historical-checkpoint-v1",
-      "verification_scope": "Historical commit/blob provenance and links to separately verified preservation records only. Not an independent whole-body comparison of the early source versions; original claims and source blob IDs remain historical.",
+      "verification_scope": "Earliest source blobs are compared byte-for-byte with their registered preserved originals; separately verified coverage records enforce Core whole-body and Flex model-row retention. This proves historical content preservation, not manufacturer truth or current specifications/stock.",
       "coverage_records": [
         {
           "source": "effects/findings/2026-10-14-headrush-core.md",
@@ -5778,7 +5778,11 @@
           "source": "effects/advanced-modelers.md",
           "destination": "brand/HEADRUSH.md#flex-prime"
         }
-      ]
+      ],
+      "source_blob_paths": {
+        "core_finding": "effects/findings/2026-10-14-headrush-core.md",
+        "advanced_comparison": "effects/advanced-modelers.md"
+      }
     },
     {
       "models": [
@@ -47124,6 +47128,28 @@
         "make consolidation-verify"
       ],
       "remaining": "Historical variant-by-variant content comparison and manufacturer truth/currentstock are not certified by dispatcher coverage;overallresearch remains incomplete."
+    },
+    "historical_checkpoint_content_check_20261103": {
+      "checked": "2026-11-03",
+      "status": "Both earliest source versions equal registered preserved originals byte-for-byte; verification now enforces this invariant.",
+      "sources": [
+        {
+          "blob": "dcff2b12eb7dc4196c93fdba5d8ca274d99d57f2",
+          "path": "effects/findings/2026-10-14-headrush-core.md",
+          "sha256": "67f0ea3d7bc1f00394a8c76a62d54785585096abd690b994679973fea4af2173"
+        },
+        {
+          "blob": "f4ecc7b15636ab477803031d34bf280afa9b98dc",
+          "path": "effects/advanced-modelers.md",
+          "sha256": "1299f5d02d73f1bc372aab883458d28edb739ad4c4a8149f98cc7f6d9bebcec7"
+        }
+      ],
+      "checks": [
+        "make consolidation-audit-historical",
+        "make consolidation-test-preservation-kinds",
+        "make consolidation-verify"
+      ],
+      "limitation": "Closes the previously recorded early-version identity gap only. Existing compatibility redirects are retained; incomplete manufacturer and market research remains in independent queues."
     }
   },
   "deferred_work": {
