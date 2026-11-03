@@ -328,6 +328,22 @@ Checked2026-11-04 against [18-6288-B original body](https://manualzz.com/doc/519
 
 Remaining verification:physical panel total/display,simultaneous limit,routing contradictions,complete model names,current software,imports andlive limits. Partial lead remains outside active inventory.
 
+### GNX3000 — learning loop, drum machine and routing cautions
+
+Checked2026-11-04 against [18-6288-B original manual](https://manualzz.com/doc/51981626/digitech-gnx3000-gnx3000--discontinued--owner-manual),pp34–36,50,98–100,105,116. No device/host operation;current-firmware equivalence unverified.
+
+| Field | Finding / qualification |
+|---|---|
+| Learn-A-Lick | **9seconds**,line-input learning passage;automatic loop playback,down to¼speed without pitch change. EXP controls recorded-phrase level. Not evidence of an overdubbing performance looper. |
+| Computer recording | Record/Stop/Undo/Playback in Record/Drum mode control bundled ProTracks Plus;Undo deletes its last recorded track. Do not transfer these controls to an onboard multitrack recorder. |
+| Drums | **79patterns +5metronome settings;40–240BPM**. Tap requires two taps within3seconds. |
+| Presets / display | User locations are factory-filled copies;green name andred numeric readouts. Diagonal,technology,touch andnumeric character counts remain unverified. |
+| Bypass | Disables effects/modeling. Preset Bounceback changes the active-preset switch behavior;switches2+3 still provide bypass. Tail survival is unverified. |
+| Routing conflict | p50 distinguishes Whammy/Talker versus IPS/Pitch/Detune positions;USB p105 instead groups non-Talker versus Talker. Placement contradiction remains unresolved;no universal chain-order claim. |
+| USB playback mix | p116 endpoints USB MIX0 andGNX MIX0 mean opposite sources;GNX MIX50 balances them. Labels matter. Current-host behavior untested. |
+
+Remaining:physical panel/display specifications,simultaneous-effect basis,complete acoustic model names,modern software/import support,power options andqualified current offers. Partial lead remains outside active counts.
+
 ## Incoming capability evidence, 2026-10-18
 
 Preserved from origin/main87c7d38. References to older inventory counts or incomplete consolidation describe that branch checkpoint; current root profiles and ledger take precedence. Technical conflicts remain qualified.
