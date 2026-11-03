@@ -144183,5 +144183,24 @@
     "remaining": "OtherUSBdriver-modechannels,13vs15basis,physicalvisualcensus,globalFVrangeprecedence andqualifiedIDRremainunverified.",
     "next": "Retain savedGTProcursor;continue requestedLCD/compactinventory ratherthan repeat unchangedUSBqueries.",
     "corroboration": "https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-17.html"
+  },
+  "axom_max_loop_routing_20261103": {
+    "model": "MELOFTY AXOM MAX",
+    "status": "Partial manufacturer-document finding; outside active counts",
+    "source": "https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347",
+    "revision": "German V1.7.4; PDF pages26–30",
+    "findings": [
+      "Combined FX LOOP or separate FX SEND/FX RETURN nodes",
+      "FX SEND Dry=0 serial; nonzero parallel",
+      "Loop ports may be additional inputs/outputs",
+      "Four-cable example Mono/Series with pre/post placement"
+    ],
+    "limits": [
+      "No device/wiring test",
+      "No DSP-capacity claim",
+      "Mini-screen technology and manufacturer count unresolved",
+      "No qualified exact Shopee hardware offer"
+    ],
+    "next": "Continue separate-footdisplay priorities and exact Shopee hardware discovery; defer inaccessible English/manual and maker-site sources."
   }
 }

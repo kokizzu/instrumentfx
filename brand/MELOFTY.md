@@ -230,3 +230,13 @@ Checked **2026-11-03** against the [German V1.7.4 manufacturer manual,PDFpp19–
 | Tempo / preset scope | Touch drag,touchscreen tap,± controls orFS1 tapping set tempo. **Global Off** keeps tempo preset-specific;**On** applies the current value across presets. This is global tempo,not global expression-volume assignment. Numeric BPM limits andpower-cycle retention remain unverified. |
 
 Mini-screen technology/manufacturer count andqualified exact Shopee Indonesia hardware remain open. The model stays a partial lead outside active counts;no installation,local download ordevice operation.
+
+### AXOM MAX — separate send/return routing
+
+Checked **2026-11-03** in the [German V1.7.4 manufacturer manual,PDFpp26–30](https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347). Exact-model original text;English endpoint was unavailable.
+
+- A combined **FX LOOP** block places send andreturn at one chain location. Separate **FX SEND** and **FX RETURN** blocks permit different positions,including parallel external processing orA/B routing.
+- The FX SEND **Dry=0** configuration is serial;**Dry≠0** is parallel. The manual also permits these ports to serve asadditional inputs/outputs when external-loop orfour-cable operation isnot needed.
+- Its four-cable example uses a **Mono,Series** loop,with pre-effects before the loop block andpost-effects after it. This is documented configuration,not a tested wiring setup orproof ofarbitrary simultaneous DSP capacity.
+
+This narrows routing details only. Mini-screen technology/manufacturer count andqualifiedShopee hardware remain unresolved;the partial profile stays outside active counts. No local download ordevice operation.
