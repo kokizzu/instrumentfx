@@ -361,6 +361,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; origina
 | Pitch / named reference inventory | [16 named Pitch types](#fm3-mkii-turbo--named-pitch-types-and-note-handling-source-details), one FM3 block, CPU permitting. Chromatic/Virtual Capo chord processing is distinct from single-note diatonic harmony, Octave Divider and monophonic Synth. Installed-library equivalence and measured tracking remain unverified. |
 | Categories / named Chorus and Phaser | [November inventories](#fm3-mkii-turbo--named-chorus-and-phaser-source-details): 27 Chorus and19 Phaser choices; two FM3 instances each, CPU permitting. Voices/stages are parameters, not extra blocks or synth polyphony. Installed equivalence remains unverified. |
 | Categories / named Filter and Wah | [November inventories](#fm3-mkii-turbo--named-filter-and-wah-source-details): 20 Filter choices/four FM3 blocks, nine Wah choices/two blocks, CPU permitting. Envelope/LFO filtering and Ladder self-oscillation do not establish pitch-tracking synthesis; Wah frequency endpoints are not volume endpoints. Installed equivalence unverified. |
+| Categories / named Flanger and Delay scope | [31 Flanger choices](#fm3-mkii-turbo--named-flanger-and-delay-hold-source-details), two FM3 blocks, CPU permitting. [Existing 27-choice Delay list](#fm3--november-guide-delay-exclusions-and-cabinet-limits) excludes Diffused Delay/Zephyr. HOLD/STACK buffer behavior is separate from looper storage and preset continuity; installed equivalence unverified. |
 | Categories / compressor census | November2026 guide lists **19 compressor choices**,reconciled by name below;two FM3 instances remain CPU-limited. Look-ahead **0–2ms** delays both wet anddry audio. This is algorithm latency,not measured whole-device latency. [Own guide](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf),pp27–29. |
 | Preset / factory / user memory | **512 editable locations;8 scenes each**. Own7.x manual printedp41 specifies **first384 factory-filled**,all overwriteable;current shipping allocation/installed contents unverified. See [revision-qualified occupancy](#fm3--factory-occupancy-versus-editable-capacity). |
 | Synth / acoustic functions | **Synth yes:three-voice monophonic Synth block**,one instance/four channels in own7.x p46; resolves the earlier synth unknown. Acoustic instrument input documented;dedicated acoustic simulation remains unverified. Channels are stored variations,not four simultaneous synth blocks. [November guide tracking modes](#fm3--synth-tracking-modes-and-generator-boundary) distinguish pitch tracking,envelope-only andmanual generation. [Own manual](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf) |
@@ -812,6 +813,16 @@ Checked **2026-11-04**, [manufacturer November2026 Blocks Guide,pp3,45–47,110]
 Envelope Filter reacts to attacks; Touch-Wah follows level/decay; Auto-Wah follows an LFO. Touch-Ladder uses envelope control, while Ladder resonance can self-oscillate; neither establishes pitch tracking or polyphonic synthesis. Null preserves frequency response while allowing gain/phase/pan adjustments.
 
 Wah Control can use a pedal, LFO or manual setting. Minimum/Maximum Frequency set its tone sweep, not amplitude endpoints. Control Taper describes response, not physical pedal wiring. Firmware minima, installed contents and measured behavior remain unverified.
+
+### FM3 MKII Turbo — named Flanger and Delay hold source details
+
+Checked **2026-11-04**, [manufacturer November2026 Blocks Guide,pp3,32–33,48–50](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). Explicit FM3 Flanger ceiling: **two blocks**, CPU permitting. Existing Delay exclusions and8-second Mono Delay limit remain separately documented.
+
+**Flanger31:** Analog Mono; Analog Stereo; BBF-2; Binary Flange; Cancel Flange; Count of Flanging; Cuda Flange; D/AD 185; Deluxe Mystery; Digital Mono; Digital Stereo; Electric Mystery; FAS Flanger; Harmonoflange; Hemisflange; Lofty Flange; Manual Thru-Zero Flanger; Melodic Flange; MXF-117; Pop Flanger; Scion Stereo Flange; Spirit Flange; Starship Flanger; Step Flanger; Stereo Jet; Thru-Zero; Trippy Flanger; Tubular; Vowel Flanger; Zero Flanger; 80’s Rack Flanger.
+
+Flanger feedback−100…+100 can self-oscillate; this is not pitch-tracking synthesis. LFO Quantize supplies stepped modulation. LFO Bypass Reset defaults Off, allowing free-running modulation while bypassed.
+
+The Delay chapter’s **Repeat Stack/Hold**,where offered, closes input for HOLD and retains input for STACK layering. Feedback100% keeps the captured buffer repeating; lower values decay. This does not establish separate looper storage, global volume coverage or unconditional preset continuity. Installed behavior and minimum firmware remain unverified.
 
 ## FM3 original
 
