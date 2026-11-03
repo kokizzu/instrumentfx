@@ -221,6 +221,14 @@ No analog tip/ring/sleeve mapping,resistance range,continuous sweep endpoints or
 
 Checked 2026-11-03. The [manufacturer download catalogue](https://www.sincoaudio.com/download) links FootCtrlPlus to a [text release history](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/firmware/FootCtrlPlus/footctrlplus.txt) headed **chocolate plus**. It identifies **2025-06-18 V12** as fixing display-setting persistence. **2025-06-13 V11** combines Advanced Custom 1 and 2, adds press modes, changes short-press transmission timing for some PC/CC commands, adds speaker-control mode and six mixed MIDI/keyboard/turner groups, and adds Blackbox-oriented PC display numbering starting at 1. Thus the older separate Advanced Custom 1/2 instructions above need a firmware qualification; their mode layout is not established for V11/V12. The V10 note about reaching maximum values concerns bank/code transmission and does not document a continuous expression sweep. This release history supplies no pedal pinout, resistance, taper or measured CC endpoints. It does not certify all historical Chocolate units as the same hardware. No updater or firmware binary downloaded or run. Wiring remains deferred while other research continues.
 
+### Chocolate Plus — own-guide bank/action tradeoff
+
+Checked **2026-11-03** in the [manufacturer-hosted Chocolate Plus Software Instructions](https://manualf.oss-cn-hongkong.aliyuncs.com/manual/CUBE-TURNER/Chocolate%20Plus-Software%20instructions.pdf), EnglishPDFpp4–7 andChinesepp19–21. This exact-title guide independently documents the following; it doesnot rely on transferring the PD41 guide’s rules. Document revision andmatch to the user’s physical unit remain unknown.
+
+**Mode4 / Advanced Custom1:** E/F bank switching unavailable; actions are single tap,alternating taps,press/release,long press,andshort/long press. **Mode5 / Advanced Custom2:** E/F bank switching supports up to16 selectable groups,with short/long actions only. Both include PC,CC,Note On/Off andSysEx. Chinese text specifies **200-byte SysEx** in both modes;the corresponding English descriptions omit that ceiling. This supplements the earlier Mode4-only observation. **The preserved V11 release note says Advanced Custom1/2 were merged**; these undated guide layouts must not be treated as verified V11/V12 behavior.
+
+These switch-message options establish neither continuous expression sweep norpotentiometer resistance,pinout orsimultaneous transport. No app,extension,firmware ordevice operation;controller remains outside active audio counts.
+
 ## CUBE BABY AC
 
 <!-- comparison evidence begins -->

@@ -19,7 +19,11 @@ if __name__ == '__main__':
     assert (changed | staged) <= allowed, (changed | staged) - allowed
     assert not git('diff','--check').strip(), 'Whitespace errors'
     if sys.argv[1:] == ['stage']:
-        assert not staged, 'Existing staged changes'
+        if staged:
+            import json
+            previous = json.loads(review_path.read_text())
+            assert previous['head'] == git('rev-parse','HEAD').strip(), 'HEAD changed since review'
+            assert previous['sha256'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest(), 'Unreviewed staged changes'
         assert changed, 'No changes to review'
         git('add','--',*sorted(changed))
         diff = git('diff','--cached')
@@ -35,4 +39,4 @@ if __name__ == '__main__':
         assert review['head'] == git('rev-parse','HEAD').strip(), 'HEAD changed since review'
         assert review['sha256'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest(), 'Staged diff changed since review'
         assert not git('diff','--cached','--check').strip(), 'Staged whitespace errors'
-        print(git('commit','-m','research(mvave): qualify controller modes by firmware release'))
+        print(git('commit','-m','research(mvave): qualify Chocolate Plus own-guide mode limits'))

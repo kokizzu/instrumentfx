@@ -145458,5 +145458,22 @@
       "access": "Body inaccessible;not adopted as a verified inventory"
     },
     "next": "Defer inaccessible exact1.1.0 manual/effect list;continue other requested display/compact models;preserve independent GP-200JR→Prime→GE300 andGT-Pro queues."
+  },
+  "chocolate_plus_own_modes_20261103": {
+    "model": "M-VAVE Chocolate Plus controller",
+    "checked": "2026-11-03",
+    "source": "https://manualf.oss-cn-hongkong.aliyuncs.com/manual/CUBE-TURNER/Chocolate%20Plus-Software%20instructions.pdf",
+    "pages": "English4–7;Chinese19–21",
+    "findings": [
+      "ExactPlus guide independently givesMode4 fiveactionpatterns/noE-Fbanks versusMode5 short-long/up to16groups",
+      "Chinese200byteSysEx applies tobothMode4and5;English omitsceiling"
+    ],
+    "limits": [
+      "Revision/userunitidentity unknown",
+      "No analogpinout/resistance/continuoussweep/transport certification",
+      "Undated guide precedes orconflicts withV11merged-mode history;notcurrentV11/V12layoutcertification"
+    ],
+    "next": "Defer actual M-VAVE electrical compatibility pending identified-unit specification;continue other requested separate-screen andcompact inventory. Preserve independent queues.",
+    "inventory": "Controller outside active audio counts"
   }
 }

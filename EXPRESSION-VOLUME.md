@@ -310,6 +310,8 @@ M-VAVE identity follow-up2026-10-19: [official catalogue](https://www.cuvave.com
 
 GP-50 follow-up2026-10-19: exact official1.1.0 manual/firmware entries located;manufacturer-linkedPDF inaccessible toreader. GlobalEXPscope remainsunverified;see [revision-qualified evidence](brand/VALETON.md#gp-50).
 
+Chocolate Plus’s [own software-guide bank/action restrictions](brand/M-VAVE.md#chocolate-plus--own-guide-bankaction-tradeoff) are documented separately from PD41. The saved V11 merged-mode release history qualifies that older layout. These rules do not resolve analog wiring or continuous expression sweep.
+
 FootCtrlPlus-linked PD41 follow-up: [mode-specific E/F bank restrictions](brand/M-VAVE.md#footctrlplus-linked-pd41--bank-and-message-limits) do not establish analog expression wiring or simultaneous transport. Exact controller revision remains unresolved.
 
 ### NUX Amp Academy NGS-6 — partial inventory lead
