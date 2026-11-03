@@ -144381,5 +144381,23 @@
       "M-VAVE actual wiring remains unverified"
     ],
     "next": "Continue current CORE parameter-guide retrieval/ASSIGN precedence and LCD-first research; preserve original global FOOT VOL and patch range/placement qualifications."
+  },
+  "fm9_preset_switch_definition_boundaries_20261103": {
+    "model": "Fractal Audio FM9",
+    "checked": "2026-11-03",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Footswitch-Functions-Guide.pdf",
+    "revision": "v1.3 April2022, printedpp16–17;cover explicitly names FM9",
+    "findings": [
+      "24 definitions per preset include Tap/Hold,LCD settings,ring color andlayout links",
+      "Overrides andnumbered placeholders consume the same definitions",
+      "Global override disable is distinct fromplaceholder removal",
+      "Preset storage required toretain edits"
+    ],
+    "limits": [
+      "Historical guide predates MKII;firmware12 equivalence unverified",
+      "Not global expression-volume assignment",
+      "No hardware/download operations"
+    ],
+    "next": "Continue individual footswitch LCD research and exact Shopee offers;preserve independent GP-200JR→Prime→GE300 queue."
   }
 }
