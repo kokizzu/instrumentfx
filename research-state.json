@@ -144452,5 +144452,22 @@
       "Global analog volume gaps unchanged"
     ],
     "next": "Continue remaining exact category names andLCD-first research;independent GP-200JR→Prime→GE300 queue preserved."
+  },
+  "prime_m2_mixer_and_looper_scope_20261103": {
+    "model": "MOOER Prime M2",
+    "checked": "2026-11-03",
+    "source": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_Prime_M2_Manual_V2.0_EN.pdf",
+    "revision": "RockBoard V2.0 copy,printedpp17–22,40–41;not newerfilename equivalence",
+    "findings": [
+      "Physical-master/headphone andseparate OTG channel scope",
+      "Linked orindependent L/R gain",
+      "Looper count-in,release timing,Write metadata andglobal-tempo recall"
+    ],
+    "limits": [
+      "No analog EXP input;no global pedal-volume inference",
+      "Newermanual/installed-firmware equivalence unverified",
+      "No preset-change continuity orloop-end quantization inferred"
+    ],
+    "next": "Continue current M2 documentation andremaining compact inventory;LCD priority andindependent GP-200JR→Prime→GE300 queue preserved."
   }
 }
