@@ -1704,6 +1704,16 @@ Checked **2026-11-04**, [Shopee Indonesia category snapshot](https://shopee.co.i
 
 For both,working state,adapter/accessories,warranty/import region,voucher eligibility,shipping/tax andcheckout total remain unresolved. Category location isnot independently verified dispatch origin. These leads do not form acondition-qualified new/used range orsupersede Vin’s existing ask. The separate Vin’s item again returned cache miss;its six-day indexed snapshot repeatsRp11,928,000 rather than proving availability. No seller contacted orpurchase made.
 
+### GE300 — guitar Tone Capture requires source and target sampling
+
+Checked **2026-11-04**, [original manufacturer manual,printedpp41–43](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf),2019/V1.1.0 examples;manufacturer-authored mirrored PDF,not generated FAQs. Current5.1.4 equivalence untested.
+
+**GUIT mode** compares **TARGET**,the guitar whose tone is wanted,with **SOURCE**,the guitar used to play the resulting model. The target must have some form ofpickup. The documented procedure samples the two instruments separately throughINPUT andasks for comparable playing across their range. This is instrument-tone matching using the maker’s proprietary non-linear IR method,not a free-standing piano/organ synthesis engine orproof ofacoustic-body IR file compatibility. The three dedicated Acoustic simulator choices remain separate.
+
+The guide says the capture is automatically stored as **USER**,thenrenamed withSAVE confirmation;this local capture step is not acomplete rig/global backup orproof ofall dependencies beingembedded inexports. EQ/output adjustment follows capture. Manufacturer recreation claims do not establish measured fidelity orconvert astandard-pickup capture into divided-pickup synthesis.
+
+The bass-support search produced no qualifying exact-model primary statement;retain **unclassified**,notNo. A bass EQ control,amp-derived name orretailer category doesnot change instrument membership. Current source-format/conversion andlive-offer gaps remain open. No capture,save,connection,download ordevice operation performed.
+
 ## GE300 Lite
 
 Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no sibling specifications adopted. [Own product page](https://www.mooeraudio.com/product/GE300Lite-239.html). Bass/vocal suitability remains unclassified.

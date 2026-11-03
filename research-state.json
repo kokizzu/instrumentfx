@@ -148118,5 +148118,14 @@
     "access": "Cards exposeitemIDs;direct pages fail withandwithoutquery;no seller/variant/condition/stock confirmation.",
     "next": "Defer inaccessible itemdetail;continue accessibleLCD-first andfreshbrand/series discovery;notcompletedmarketcoverage.",
     "active_inventory_changed": false
+  },
+  "ge300_guit_capture_scope_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf",
+    "revision": "Original2019/V1.1.0 examples printed41–43",
+    "scope": "GUIT compares separately sampledpickup-equippedTARGET andSOURCE guitars;localUSER autosave/rename distinctfromwholebackup;notinstrument synth/IRformat proof.",
+    "bass": "Unclassified;noqualifying exactmodel primarysupport recovered;notNo.",
+    "next": "Currentformat/factory/scene gaps andaccessibleLCD-first discovery;preserve independentqueues.",
+    "active_inventory_changed": false
   }
 }
