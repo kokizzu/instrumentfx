@@ -271,7 +271,7 @@ Analog tip/ring/sleeve roles, resistance, taper and continuous CC endpoints rema
 | Synth / acoustic | Acoustic-input processing and body IRs; electric-to-acoustic modeling and synth algorithms are not established. |
 | Body / power | **161×57×17.5mm LWH;260g**,compact,maxprotrusionsunmeasured. **780mAh,USB5Vcharge**,5V2Aexample,2hcharge/6hruntime rated;voltage/draw?. AC-specificoperationwhilechargingnotexplicit,sodo not copyelectricrule. |
 | Ports | Mono 6.35 mm TS input/output, separate phones/mobile-record sockets; USB subtype and small-jack details unverified. No XLR mic/phantom, MIDI, EXP or loop in complete inventory. |
-| IR / NAM / captures | **Eight replaceable IR slots**, format limits unverified. No native NAM, converted NAM or capture-import workflow established; 24-bit/48 kHz processing does not specify IR import limits. |
+| IR / NAM / captures | **Eight replaceable IR slots**;[manufacturer nine-position wording includes Off](#cube-baby-ac--ir-selector-count-and-additional-hardware-offers), format limits unverified. No native NAM, converted NAM or capture-import workflow established; 24-bit/48 kHz processing does not specify IR import limits. |
 | Editor compatibility | [Official download list](https://www.m-vave.com/download), checked 2026-10-17, explicitly names CubeBabyAc for USB-connected CubeSuite Windows/macOS. Its mobile CubeSuite list omits CubeBabyAc; this omission does not prove incompatibility, and mobile editing remains unverified. M-EFCS or SINCO ANN support for other models does not establish AC compatibility. |
 | Apps / recording | CubeSuite **Windows/macOS**USBedit/IR/factoryrestore;officialmobilelistdoesnotincludeAC. Bluetoothbacking. 24/48processing,USBcomputerrecord/play,separatemobilecable;channels,looper,drums?. Tuner/bypass. |
 
@@ -284,6 +284,19 @@ Source: **original eight-page AC manual**,[Scribd originalsectionsI–VIII](http
 [Own eight-page AC manual, sectionsII/V](https://www.scribd.com/document/826512660/M008-Cube-golden), original body only: complete rear inventory has **no analog EXP**, so direct pedal-volume path fails. PRESET-mode VOLUME controls final output; LIVE fixes final output at **70%** while VOLUME adjusts chain level. EDIT retains prior final output and uses VOLUME for chain level; the manual advises returning the knob to its previous performance position after exiting. These are distinct levels/modes, not global expression assignment.
 
 Three direct A/B/C presets, not sequential down/up. Dedicated headphones; small-jack details unresolved. Existing161L×57Wmm fits; acoustic-electric target does not certify ordinary electric-guitar tone. Direct-pedal position/range N/A; bypass/headphone/tail/recorded-loop attenuation unknown. AC charging-operation gap remains; no electric-model rule transferred. No hardware test.
+
+### CUBE BABY AC — IR selector count and additional hardware offers
+
+Checked **2026-11-05**. The [exact manufacturer product page](https://www.cuvave.com/product?id=cube-baby-ac),three-week search snapshot,explicitly partitions its nine IR positions into **eight IRs plus Off**. This doesnot add a ninth response memory,amp model orneural capture. Direct opening exposes only thesite shell;firmware/revision applicability andimport format/length remain unverified. Existing eight replaceable-response evidence isretained.
+
+Additional **IDR hardware asks**,jpsmart.id,shop174046383,KotaSurabaya: **Rp565.000** item43783992966 and **Rp475.000** item44066850051,distinct cached condition/stock-unverified offers;not a currentrange.
+
+| Exact item | Cached ask | Access / qualification |
+|---|---:|---|
+| [43783992966](https://shopee.co.id/M-VAVE-Cube-Baby-AC-Multi-Effects-Pedal-For-Electric-Acoustic-Guitar-Recording-Audio-Interface-Function-Rechargeable-i.174046383.43783992966) | **Rp565.000** | Opened two-week snapshot;October18–19 delivery text isstale. StruckRp800.000/29% badge isnot an additionaldiscount. |
+| [44066850051](https://shopee.co.id/M-VAVE-Cube-Baby-AC-Multi-Effects-Pedal-For-Electric-Acoustic-Guitar-Recording-Audio-Interface-Function-Rechargeable-i.174046383.44066850051) | **Rp475.000** | Opened two-month snapshot withAugust21–22 delivery text;search returned anolder service-unavailable snapshot. Access states conflict,not proof ofrestored service. |
+
+These aredistinct itemIDs,not a verified price change orrange. Both:condition,selectedvariation,bundle,adapter,workingstate,warranty,currentstock andcheckout/shipping/tax unknown;late-delivery compensation notdeducted. Existing Imagination/Henry/Mickey andCarousell dates/conditions remain separate. Mixed electric/acoustic/bass variation offers areexcluded withoutselected-model pricing. No local downloads ordevice operations.
 
 <!-- comparison evidence ends -->
 

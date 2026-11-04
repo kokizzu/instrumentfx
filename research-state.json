@@ -165851,5 +165851,29 @@
     ],
     "next": "Continue individual-display manufacturer fields andcondition-qualified market evidence;preserve general GP200JR/Prime/GE300,GT-Pro andexpression-volume queues",
     "active_inventory_unchanged": 402
+  },
+  "cube_baby_ac_ir_off_offers_20261105": {
+    "checked": "2026-11-05",
+    "model": "M-VAVE::CUBE BABY AC",
+    "source": "https://www.cuvave.com/product?id=cube-baby-ac",
+    "access": "Three-week indexed manufacturer content;directshell only",
+    "finding": "Nine positions=eightIRs+Off,notninememories",
+    "offers": [
+      {
+        "shop": "174046383",
+        "item": "43783992966",
+        "idr": 565000,
+        "access": "Openedtwo-weekcache,October18–19delivery"
+      },
+      {
+        "shop": "174046383",
+        "item": "44066850051",
+        "idr": 475000,
+        "access": "Openedtwo-monthcache,August21–22delivery;oldersearchserviceunavailable"
+      }
+    ],
+    "qualification": "SeparateitemIDs;condition/variant/bundle/stock/checkout unknown;notnew-usedrange",
+    "next": "Continue CUBE BABY electricfullcanonicalreview andexactmanufacturerfieldgaps;individualdisplaypriority andindependentqueuespreserved",
+    "active_inventory_unchanged": 402
   }
 }
