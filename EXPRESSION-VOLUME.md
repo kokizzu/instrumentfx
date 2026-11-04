@@ -814,3 +814,5 @@ SY-300 [firmware1.03 assignment correction](brand/BOSS.md#sy-300--firmware-assig
 ### BOSS VF-1 — partial lead, outside active comparison
 
 [Canonical screening](brand/BOSS.md#vf-1--partial-discovery-lead): normal Hi-Z guitar input andshared analogEXP/Control jack;EV-5/FV-300L combinations documented. Control Assign targets andranges are patch-specific;Assign Hold changes recall,not assignment scope. Global all-preset volume remains unverified. No dedicated phones inpublished connector inventory;shared-output headphone use unknown. External switch navigation requires separate verification;no onboard down/up claim. **218W×248Dmm** fails preferred footprint. No exact Indonesian hardware/IDR established.
+
+VF-1 [algorithm routing boundary](brand/BOSS.md#vf-1--original-algorithm-census-and-creative-note-handling): FV marks the algorithm-specific Foot Volume control point. MOD/SFX/Preamp positions have limits andcannot followMASTER. This does not establish a universal final-volume stage,global assignment orall-output attenuation.

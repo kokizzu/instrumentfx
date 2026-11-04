@@ -161344,5 +161344,213 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "CompletepartialVF1primaryprofileandqualifiedIndonesiaofferbeforeadmission;requestedindividualfootdisplaynewaccessibleevidence takespriority;GTPro/generalandconsolidationqueuespreserved."
+  },
+  "vf1_creative_algorithm_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "canonical": "brand/BOSS.md#vf-1--original-algorithm-census-and-creative-note-handling",
+    "sources": [
+      "https://manualzz.com/doc/6998079/boss-vf-1-multiple-effects-processor-owner-manual",
+      "https://static.roland.com/assets/media/pdf/VF-1_OM.pdf",
+      "https://www.manualslib.com/manual/315068/Boss-Vf-1.html?page=100",
+      "https://www.manualslib.com/manual/315068/Boss-Vf-1.html?page=101"
+    ],
+    "revision": "Original VF1 body TOC andprinted47–48,92,99–101;feature firmware minimum/installed state unknown;no visuals",
+    "original_algorithms": [
+      {
+        "code": "PB1",
+        "name": "GUITAR MULTI 1"
+      },
+      {
+        "code": "PB2",
+        "name": "GUITAR MULTI 2"
+      },
+      {
+        "code": "PB3",
+        "name": "BASS MULTI"
+      },
+      {
+        "code": "PB4",
+        "name": "ACOUSTIC MULTI"
+      },
+      {
+        "code": "PB5",
+        "name": "KEYBOARD MULTI"
+      },
+      {
+        "code": "PB6",
+        "name": "ROTARY MULTI"
+      },
+      {
+        "code": "PB7",
+        "name": "VOCAL MULTI"
+      },
+      {
+        "code": "PB8",
+        "name": "VOCODER"
+      },
+      {
+        "code": "PB9",
+        "name": "VoiceTRANSFORM"
+      },
+      {
+        "code": "PB10",
+        "name": "ISOLATOR"
+      },
+      {
+        "code": "PB11",
+        "name": "LOFI PROCESSOR"
+      },
+      {
+        "code": "PB12",
+        "name": "REVERB 1"
+      },
+      {
+        "code": "PB13",
+        "name": "REVERB 2"
+      },
+      {
+        "code": "PB14",
+        "name": "GATE REVERB"
+      },
+      {
+        "code": "PB15",
+        "name": "2CH RSS"
+      },
+      {
+        "code": "PB16",
+        "name": "DELAY RSS"
+      },
+      {
+        "code": "PB17",
+        "name": "CHORUS RSS"
+      },
+      {
+        "code": "PB18",
+        "name": "REVERB RSS"
+      },
+      {
+        "code": "PB19",
+        "name": "RSS PANNER"
+      },
+      {
+        "code": "PB20",
+        "name": "DELAY"
+      },
+      {
+        "code": "PB21",
+        "name": "MultiTAP DELAY (20 TAP)"
+      },
+      {
+        "code": "PB22",
+        "name": "TAPE ECHO201"
+      },
+      {
+        "code": "PB23",
+        "name": "MIC SIMULATOR"
+      },
+      {
+        "code": "PB24",
+        "name": "SPACE CHORUS"
+      },
+      {
+        "code": "PB25",
+        "name": "StFLANGER DLY"
+      },
+      {
+        "code": "PB26",
+        "name": "StPHASER DLY"
+      },
+      {
+        "code": "PB27",
+        "name": "StCHORUS DLY"
+      },
+      {
+        "code": "PB28",
+        "name": "STEREO PS DLY"
+      },
+      {
+        "code": "PB29",
+        "name": "STEREO MULTI"
+      },
+      {
+        "code": "PB30",
+        "name": "10GRAPHIC EQ"
+      },
+      {
+        "code": "PB31",
+        "name": "HUM CANCELER"
+      },
+      {
+        "code": "PB32",
+        "name": "VOCAL CANCELER"
+      },
+      {
+        "code": "PB33",
+        "name": "REVERB+REVERB"
+      },
+      {
+        "code": "PB34",
+        "name": "CHORUS+REVERB"
+      },
+      {
+        "code": "PB35",
+        "name": "DELAY+REVERB"
+      },
+      {
+        "code": "PB36",
+        "name": "DELAY+CHORUS"
+      }
+    ],
+    "original_effect_headline": 46,
+    "count_scope": "36 original algorithm combinations,not simultaneousslots;SpeakerModeling separately qualified addendum",
+    "synth": {
+      "input_notes": "single-note",
+      "internal_source": [
+        "SQR",
+        "SAW"
+      ],
+      "input_shaping": [
+        "BRASS",
+        "BOW"
+      ],
+      "hold": "SQR/SAW only",
+      "location": "GUITAR MULTI1 MOD"
+    },
+    "harmonist": {
+      "chord_modes": [
+        "FAST",
+        "MEDIUM",
+        "SLOW"
+      ],
+      "single_note_modes": [
+        "MONO",
+        "HARMONY"
+      ],
+      "pitch_octaves": 2,
+      "user_scales": 5
+    },
+    "instrument": [
+      "AcousticGtSIM electric-to-acoustic",
+      "BassGTRSIM electric-to-bass"
+    ],
+    "sfx_choices": [
+      "Acoustic guitar simulator",
+      "Bass guitar simulator",
+      "Slow Gear",
+      "Feedbacker",
+      "Pickup simulator",
+      "Tremolo/pan"
+    ],
+    "routing": "FV point depends on algorithm;MOD/SFX/Preamp cannot be placed afterMASTER",
+    "remaining": [
+      "Other pitch algorithms andexact simultaneous ceilings",
+      "Completephysical/display profile",
+      "Currentfirmware/trackingperformance",
+      "GlobalEXPassignment/endpoints/recall/outputcoverage",
+      "ExactIndonesiaoffers"
+    ],
+    "active_inventory_unchanged": 402,
+    "status": "Partialleadoutsideactivecomparisons;selectedsevenandadditional59activeindexunchanged",
+    "next": "ContinueVF1remainingprimaryphysical/algorithmprofilewhenaccessible;requestedindividualfootdisplaynewsourcegapsretainpriority,independentGTPro/generalandconsolidationqueuesunchanged."
   }
 }
