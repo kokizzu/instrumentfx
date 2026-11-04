@@ -166836,5 +166836,23 @@
     "active_inventory_unchanged": 402,
     "additional_creative_records_unchanged": 69,
     "next": "Complete GP10 exact profile if sources allow;prioritize accessible individual-display sources andqualifiedShopee;preserve all independent queues"
+  },
+  "boss_gp10_controller_scope_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/BOSS.md#gp-10--system-controller-assignment-and-recall-are-separate",
+    "source": "https://cdn.roland.com/assets/media/pdf/GP-10_e02_W.pdf",
+    "revision": "e02 printed2–4,11,13",
+    "assignment": "SysCtl fixedacrosspatch functions includesEXP2;FOOTVOL distinctfromPATCHLEVEL",
+    "recall": "AsgnHldSw separateexpression/GKstatecarryover;startupunknown",
+    "output": "PhonesforcesLINE/PHONES includingOUTPUTsound;GUITAROUTnormalpickup",
+    "remaining": [
+      "Volume endpoints/placement/bypass/phones/USB/tails",
+      "Power voltage/polarity",
+      "Full physical control census",
+      "Exact ShopeeIndonesia offers"
+    ],
+    "inventory_unchanged": 402,
+    "status": "Partialoutsideactive;builtintreadle excludedfromno-treadle",
+    "next": "Complete missing GP10 hardware/algorithm profile ifaccessible;preserve individual-displaypriority andindependent queues"
   }
 }

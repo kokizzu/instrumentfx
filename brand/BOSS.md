@@ -604,6 +604,18 @@ Checked **2026-11-05**. **Outside active402 models** pending complete profile an
 | Special |Poly FX:DISTORTION,CRYSTAL,RICH MODULATION,SLOW PAD,TOUCH WAH. Alternatives,not five simultaneous algorithms;Slow Pad isnot proof ofanother synth engine. |
 | Remaining |Exact concurrency,full named inventories,IR/NAM import,looper/drums/scenes,power,physical controls andqualified offers unresolved. No download ordevice operation. |
 
+### GP-10 — system controller assignment and recall are separate
+
+Checked **2026-11-05**, [manufacturer owner manual e02,printedpp2–4,11,13](https://cdn.roland.com/assets/media/pdf/GP-10_e02_W.pdf). Historical documentation,not installed-firmware verification.
+
+- **System assignment:** SysCtl can replace default PATCH SETTING with a fixed function across patches. EXP2 is included;FOOT VOL andPATCH LEVEL are distinct available functions. This documents global function assignment,not just calibration. FOOT VOL position,endpoints,bypass,headphone,USB andtail coverage remain unverified. Built-in treadle excludes GP-10 fromthe no-treadle shortlist.
+- **Recall:** Asgn Hld Sw separately enables/disables carrying expression/GK-volume state into the next patch. It doesnot establish startup position orfinal-output mute.
+- **Navigation:** dedicated previous/next patch pedals are documented;system CTL PATCH UP/DOWN additionally supports configurable step distances. A ten-patch example isnot a fixed increment.
+- **Output interaction:** plugging in headphones forces LINE/PHONES output mode,also affecting OUTPUT sound. This is output-system selection,not measured volume attenuation. GUITAR OUT carries normal-pickup audio.
+
+External EXP orCTL3/4 uses one shared socket;simultaneous independent expression plus two switches isnot established. Voltage/polarity,complete knob/button census andcurrent qualified Indonesian offers remain open. No pedal,wiring,settings ordevice operation.
+
+
 ## GS-10
 
 **Active partial profile,2026-10-28; not fully verified.** Discontinued desktop guitar/bass multi-effects, supported by its [own manufacturer product page](https://www.boss.info/global/products/gs-10/), [original brochure](https://cdn.roland.com/assets/media/pdf/gs10_brochure.pdf) and exact-model manual cited below. No exact Shopee offer established. Earlier partial-lead notes remain dated provenance, superseded only in admission status.
