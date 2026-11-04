@@ -164455,5 +164455,30 @@
       "Exact revision Shopee availability"
     ],
     "next": "Continue requested display-priority profiles andexactShopee research;preserve GT-Pro, GP-200JR → Prime → GE300, expression andconsolidation queues"
+  },
+  "fm9_original_gate_tremolo_wah_20261104": {
+    "checked": "2026-11-04",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-original--november-gate-tremolo-and-wah-inventories",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 pp3,52,106–107,110",
+    "reference_choices": {
+      "gate": 4,
+      "tremolo": 7,
+      "wah": 9
+    },
+    "fm9_instances": {
+      "gate": 4,
+      "tremolo": 2,
+      "wah": 2
+    },
+    "qualification": "Reference categories/articulation;DSP limited,notinstalled-equivalence certification orglobal pedal-volume proof",
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Other category censuses",
+      "Exact original-revision Shopee condition/stock",
+      "Mini-display specifications",
+      "Global-volume endpoints/coverage"
+    ],
+    "next": "Continue requested display-priority profiles andexactShopee research;preserve GT-Pro,GP-200JR → Prime → GE300,expression andconsolidationqueues"
   }
 }
