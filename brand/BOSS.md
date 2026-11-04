@@ -2584,6 +2584,14 @@ Page11 names **five** preamp buttons:On/Off,TYPE VARIATION,**CHANNEL**,SOLO,SPEA
 
 **Twelve rotaries** comprise INPUT LEVEL,MAIN,SUB,PATCH/VALUE,seven preamp controls(TYPE,GAIN,BASS,MIDDLE,TREBLE,PRESENCE,LEVEL),andPATCH LEVEL. POWER and rear ground-lift remain separate switches. No onboard footswitches;external controller sockets do not increase thephysical count. Visual corroboration remains pending,asdoUSB-mode channel counts,13/15effect-count reconciliation,globalFV coverage andqualifiedIDR hardware.
 
+### GT-Pro — virtual-pedal modulation and target exclusions
+
+Checked **2026-11-04**, indexed original [manufacturer owner manual,printedpp70–71](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf). These are patch ASSIGN sources,not physical pedals oradditional audio-effect blocks;ASSIGN Source Mode must be **Normal**.
+
+**Internal Pedal** starts a sweep from a selected trigger,including patch selection,external pedals orspecified MIDI CCs. Time **0–100** has no seconds conversion established here;curves are **Linear,Slow Rise,Fast Rise**. **Wave Pedal** cycles with **SAW,TRI,SIN**,Rate **0–100**;this is not a documented Hz/BPM range. It cannot control **FX1/FX2 Select** or **Type forPreamp/Speaker,Overdrive/Distortion,Delay**.
+
+The manual warns that assigning either virtual source to tuner/manual on-off orpatch-number/bank increment/decrement can prevent parameter editing;it describes overwriting/saving as the recovery. No such assignment was made. Automatic sweeps/cycles are distinct from tracked synthesis anddirect analog global-volume assignment;fixedSYSTEM FVrange/coverage remains unresolved. No download ordevice operation.
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.

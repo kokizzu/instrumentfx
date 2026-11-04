@@ -163607,5 +163607,12 @@
     "finding": "12rotaries/0onboardFS/29pushbuttons. Fivepreampbuttons includeoneCHANNELswitchA/B;24othersp12. Correctcurrent30summary;retainhistoricalevidence. POWER/groundliftseparate.",
     "next": "Visualcorroboration,otherUSBmodechannels,13vs15basis,globalFV andqualifiedIDR. PreserveLCDfirstqueue.",
     "active_count_unchanged": 402
+  },
+  "gtpro_virtual_pedal_20261104": {
+    "source": "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+    "revision": "OriginalEnglishmanual,printedpp70–71,indexedbody",
+    "finding": "InternalPedal triggered sweep;WavePedal SAW/TRI/SIN Rate0–100,notHz/BPM. NormalSourceMode. WavecannotselectFX1/2orpreamp/drive/delayType. Manual warns certainnavigation/tuner/manualtargets maypreventediting.",
+    "next": "GlobalanalogFVprecedence unresolved;continueotherpriority/sourcegaps withoutrepeatingunchangedfailures. Independentqueuespreserved.",
+    "active_count_unchanged": 402
   }
 }
