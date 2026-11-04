@@ -161208,5 +161208,23 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue priority individual-footdisplay profiles andbroadereligible inventory;preserve GT-Pro andexpression-volumequeues."
+  },
+  "fm3_mkii_converter_pad_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "Fractal Audio::FM3 MKII Turbo",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+    "revision": "Firmware7.x explicitlyStandard/MarkIITurbo;printed102–103;current13untested",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-mkii-turbo--converter-pad-and-output2-mode-boundaries",
+    "finding": "Input1 compensation separatefromInput2;Output2 UnityGain-only Boost/Pad preserves netlevel;notmaster/EXPgain.",
+    "remaining": [
+      "Currentfirmwareequivalence",
+      "GlobalEXP endpoints/recall",
+      "Physical display details",
+      "Qualifiedcurrentstock"
+    ],
+    "access": "Web screenshot explicitlydisabled;PDFtextreadable. Do not repeat unchanged visual requests as if merely source cache failures.",
+    "market": "TargetedShopee search repeats Hurtrock soldout/voucher/preorder snapshots;notrefreshedstock.",
+    "active_inventory_unchanged": 402,
+    "next": "Continue priority individual-footdisplay profiles andaccessiblebroaderinventory evidence;preserveGTPro/expressionqueues."
   }
 }
