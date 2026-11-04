@@ -3472,6 +3472,14 @@ Checked2026-11-04 against the same [©1996 original-body Spanish copy](https://w
 
 Remaining: separate control counts,built-in treadle confirmation,full processing census,IR/NAM/capture/editor evidence andqualified new/used Indonesian hardware offers. ExactShopee ME-8B/ME8B queries found no qualified offer;not proof ofabsence.
 
+### ME-8B — controls and Manual-mode memory limits
+
+The same [©1996 original-body manual copy](https://www.casaveerkamp.net/archivos/ME-8B.pdf), English references6,8,18–20, identifies **seven footswitches**: numbered1–4,Bank,Control andBypass. It names six function buttons—Tuner,Write/Copy,Manual,Group,Escape,Edit—plus Value/Pitch andParameter controls. Missing diagrams prevent a complete button/rotary/treadle census;these counts stay separate.
+
+**Manual-mode edits save on return to Play**,without Write;powering off first loses them. Compressor Enhancer/Defretter andReverb use parameter-based switching rather than ordinary stomp toggles. **Bypass still permits patch changes**;this does not establish true bypass orvolume-pedal coverage. **Tuner mutes output andprevents patch selection**;reference pitch435–445Hz in1Hz steps survives power-off. No reset ordevice operation was performed.
+
+Continuation: retain this model as a partial lead;unresolved diagram-dependent controls,full effect-choice census andqualified Indonesian offers stay queued. Resume individual-LCD processor priorities rather than repeatedly reopening unchanged market/access gaps.
+
 No local download,dependency/software installation ordevice operation. Next: inspect originalmanual sections andfind exactIndonesian hardware offers before considering active admission;independent LCD/expression/general queues remain unchanged.
 
 ## ME-20
