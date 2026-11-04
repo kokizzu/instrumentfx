@@ -435,3 +435,17 @@ Checked **2026-11-04**, alternate distributor-hosted [manufacturer English V1.7.
 - Desktop preset-list dragging **inserts** a preset at another position. Right-click offers rename,delete,copy/paste andimport/export. Import accepts a menu command orfile drag onto a preset,then confirmation;the text doesnot establish insertion-versus-overwrite semantics forimport orportable inclusion ofall sample dependencies. No import/reorder performed.
 
 English panel screenshot again failed;no new visual census orLCD/OLED identification. ExactShopeeIndonesia search found no qualified local hardware item,not evidence ofmarket absence. Partial lead remains outside402 active models. Next:other accessible priority-model gaps;retain mini-screen technology,globalEXP3 coverage,currentfirmware andqualifiedoffers as unresolved. No local download ordevice operation.
+
+### AXOM MAX — quick-routing defaults and inactive second chain
+
+Checked **2026-11-04**, [manufacturer English V1.7.4 manual,2026-08-31,printedp13](https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Melofty/EN/MEL_AXOM_MAX_Manual_EN.pdf),original text. These are documented quick-setting endpoints,not a device-tested diagram.
+
+| Quick setting | Documented routing boundary |
+|---|---|
+| Parallel | No inter-chain connection;A usesGuitar In→Multi Out,whileB input/output arebothNone. The name alone doesnot establish two audible parallel paths. |
+| Split→Merge | ConnectsA input toB1 andB9 toA output;B endpoints remainNone. |
+| A/B→Y | Both chains selectGuitar In;B9 feedsA output,withB outputNone. |
+| Y→A/B | A input feedsB1;both outputstoMulti Out,B inputNone. |
+| Series | A outputTo Chain B;B inputNone andoutputMulti Out. |
+
+None is an endpoint setting,not proof the entire chain isalways disconnected:inter-chain links can still feed it. Repeated effects remain CPU-limited;these templates do not addslots orprove EXP3/master attenuation acrossboth paths. Current-firmware equivalence,physical mini-screen count/technology andqualified Shopee hardware remain unresolved. Partial lead remains outside active counts;no download ordevice operation.
