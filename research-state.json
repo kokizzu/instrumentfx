@@ -164235,5 +164235,76 @@
     "market": "Exact158413015/7543266305 repeatsalready-recordedsoldoutRp26840000;four-month snapshot,no freshstock",
     "active_inventory_unchanged": 402,
     "next": "Continue requested footdisplay exact-model gaps andfreshShopeediscovery;preserve independent generalGT-Pro,GP200JR→Prime→GE300,expression andconsolidation queues"
+  },
+  "fm9_original_phaser_filter_enhancer_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 pp3,44–45,73–75",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-original--november-phaser-filter-and-enhancer-inventories",
+    "reference_types": {
+      "Phaser": [
+        "Digital Mono",
+        "Digital Stereo",
+        "Script 45",
+        "Script 90",
+        "Block 90",
+        "Classic Vibe",
+        "Stereo 8-Stage",
+        "Barber Pole",
+        "Stripe 90",
+        "Naughty Rock",
+        "FAS Vibe",
+        "Treadle Phaser",
+        "Virtuoso Phaser",
+        "Borg Phaser",
+        "Ultra-Super-Mega Phaser",
+        "Mutated Twin-Phaser",
+        "Modern Vibe",
+        "Hoodoo Vibe",
+        "RT Vibe"
+      ],
+      "Filter": [
+        "All-Pass",
+        "Auto-Wah",
+        "Band-Pass",
+        "Envelope Filter",
+        "Feedback Comb",
+        "Feedforward Comb",
+        "High-Pass",
+        "High-Shelf",
+        "High-Shelf 2",
+        "Ladder Filter",
+        "Low-Pass",
+        "Low-Shelf",
+        "Low-Shelf 2",
+        "Notch",
+        "Null",
+        "Peaking",
+        "Peaking 2",
+        "Tilt EQ",
+        "Touch-Ladder",
+        "Touch-Wah"
+      ],
+      "Enhancer": [
+        "Modern Enhancer",
+        "Classic Enhancer",
+        "Stereoizer"
+      ]
+    },
+    "instances": {
+      "Phaser": 2,
+      "Filter": 4,
+      "Enhancer": 2
+    },
+    "qualification": "Alternative choices,DSP-limited;installed equivalence andintroduction firmwareunknown",
+    "market": "Original/bekasShopee searches surfaced presetpacks/unrelateditems;no qualifiednew original-FM9 hardware offer",
+    "remaining": [
+      "Other category censuses",
+      "Installed firmware equivalence",
+      "Global expression endpoints/recall/output coverage",
+      "Qualified exact-revision hardware stock"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue requested displaypriority andremaining category gaps;preserve independent GT-Pro,GP200JR→Prime→GE300,expression andconsolidation queues"
   }
 }
