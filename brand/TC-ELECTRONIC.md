@@ -46,6 +46,24 @@ Checked **2026-11-04**, [original manufacturer manual reproduction](https://manu
 
 Partial lead remains outside active counts. Current firmware, full algorithm census, visual corroboration, qualified Shopee offers and bypass/recorded-loop volume coverage remain open.
 
+### G-System — original processing census and creative boundaries
+
+Checked **2026-11-04**, [manufacturer manual reproduction](https://manualzz.com/doc/21735077/tc-electronic-g-system-guitar-effects-processor-users-manual), revision1.6/SW1.05/E60504713, printed pp3–5,52–73. Original body, not host FAQ.
+
+| Category | Named choices / counting basis |
+|---|---|
+| Filter:9 | Resonance, Touch Resonance, Auto Resonance; Wah Wah, Touch Wah, Auto Wah; Formant, Touch Formant, Auto Formant. |
+| Compressor:3 modes | Advanced (also described as Standard), Sustaining, Percussive. Modes are not three simultaneous blocks. |
+| Modulation:9 | Classic/Advanced Chorus; Classic/Advanced Flanger; Vibrato; Vintage/Smooth Phaser; Tremolo; Panner. |
+| Pitch:4 | Pitch Shifter, Octaver, Whammy, Detune. |
+| Delay:7 | Single, Tape, Reverse, Lo-Fi, PingPong, Dynamic, Dual. |
+| Reverb:4 | Spring, Hall, Room, Plate. |
+| EQ / gate | One parametric EQ and one Noise Gate. |
+
+Derived **38 type/mode entries**, excluding boost, volume, tuner and external loops; not38 independent algorithms. Manufacturer separately states **up to9 simultaneous effects**; this does not permit arbitrary repeated categories.
+
+**Pitch Shifter:** two voices, each±1200cents, independent0–350ms delay. Octaver adds one voice one or two octaves up/down; Whammy offers one- or two-octave ranges. Voice counts do not prove chord tracking. Resonant/formant filtering is not verified synthesis; dedicated synth/acoustic simulation remains unverified. Current-firmware census/performance untested. Partial lead stays outside active counts; no download or device operation.
+
 ## M100
 
 Checked 2026-10-17; partial. Guitar/vocal instrument and mixer-path processor; direct microphone preamp/phantom and bass suitability unverified. Ownership unknown.

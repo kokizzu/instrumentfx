@@ -163451,5 +163451,34 @@
     ],
     "active_inventory_changed": false,
     "next": "Continue G-System category/creative profile andexactmarket evidence;preserve requested separate-footdisplay priority andindependent GT-Pro cursor."
+  },
+  "gsystem_original_category_census_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://manualzz.com/doc/21735077/tc-electronic-g-system-guitar-effects-processor-users-manual",
+    "revision": "Manual1.6/SW1.05/E60504713 printed3–5,52–73",
+    "canonical": "brand/TC-ELECTRONIC.md#g-system--original-processing-census-and-creative-boundaries",
+    "counts": {
+      "filter": 9,
+      "compressor_modes": 3,
+      "modulation": 9,
+      "pitch": 4,
+      "delay": 7,
+      "reverb": 4,
+      "eq": 1,
+      "gate": 1
+    },
+    "derived_type_mode_entries": 38,
+    "count_basis": "Namedtypes/modes;not38independentDSPalgorithms;utilities/external loops excluded",
+    "simultaneous_headline": 9,
+    "pitch": "Original twoPitchShiftervoices each±1200cents;notNOVAconflictingranges",
+    "remaining": [
+      "Currentfirmware categoryequivalence",
+      "Inputpolyphony/tracking andsynth/acoustic",
+      "FactoryUserfilling",
+      "QualifiedexactShopeeoffers",
+      "Output/bypassvolume coverage"
+    ],
+    "active_inventory_changed": false,
+    "next": "Continue accessible G-System profile/currentrevision andmarket gaps;preserve individual-footdisplay priority andgeneralGT-Pro/expressionqueues."
   }
 }
