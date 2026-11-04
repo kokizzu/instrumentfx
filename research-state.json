@@ -162849,5 +162849,26 @@
     ],
     "inventory_unchanged": 402,
     "next": "Continue priority display gaps when new evidence exists; otherwise fresh exact Shopee/model discovery. Preserve GT-Pro/expression queues."
+  },
+  "ax1g_partial_discovery_20261104": {
+    "checked_date": "2026-11-04",
+    "canonical": "brand/KORG.md#ax1g--partial-discovery-lead",
+    "status": "Partial outside402",
+    "sources": [
+      "https://cdn.korg.com/jp/support/download/files/7ab086ae192555575fa5be6c373afa3a.pdf",
+      "https://www.korg.com/us/support/download/product/1/26/",
+      "https://shopee.co.id/candyawanchavoex"
+    ],
+    "revision": "Undated E/F/D/J manual; listing upload2015-06-01,not introduction",
+    "market": "AX1 shop-card identity unresolved;not exact AX1G ask",
+    "remaining": [
+      "Exact hardware item/model identity and condition",
+      "Category census and factory filling",
+      "Toe/external expression and signal coverage",
+      "Visual controls/display specifications",
+      "Power current/polarity and software/import support"
+    ],
+    "inventory_unchanged": 402,
+    "next": "Continue fresh exact Shopee discovery and priority individual-display gaps; preserve independent GT-Pro and expression queues."
   }
 }

@@ -2496,3 +2496,9 @@ expression-audit-stage-lexicon:
 .PHONY: research-stage-tech21
 research-stage-tech21:
 	python3 scripts/tech21_catalogue.py stage
+
+.PHONY: brand-sort-plan-korg brand-sort-apply-korg
+brand-sort-plan-korg:
+	python3 scripts/brand_sort.py plan brand/KORG.md
+brand-sort-apply-korg:
+	python3 scripts/brand_sort.py apply brand/KORG.md

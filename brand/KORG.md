@@ -3,6 +3,7 @@
 <!-- brand-index begins -->
 **Model and section index — A–Z, natural numeric order**
 
+- [AX1G — partial discovery lead](#ax1g--partial-discovery-lead)
 - [AX3B](#ax3b)
 - [AX3G](#ax3g)
 - [AX5B](#ax5b)
@@ -19,6 +20,27 @@
 - [PANDORA PX4D — partial discovery lead](#pandora-px4d--partial-discovery-lead)
 - [PANDORA stomp](#pandora-stomp)
 <!-- brand-index ends -->
+
+## AX1G — partial discovery lead
+
+Checked **2026-11-04**; outside active counts. [Exact manufacturer manual](https://cdn.korg.com/jp/support/download/files/7ab086ae192555575fa5be6c373afa3a.pdf), undated multilingual E/F/D/J, printed7–11,52–53,58. [Korg listing](https://www.korg.com/us/support/download/product/1/26/) dates upload2015-06-01,not product introduction.
+
+| Field | Evidence / remaining gaps |
+|---|---|
+| Expression | Built-in treadle; external/toe details pending. Not no-treadle shortlist. |
+| Controls | Text-derived **0rotaries/2footswitches/9buttons**:TYPE2,VALUE2,EDIT/EXIT,BANK,PAGE2,ENTER. Rear input-level switch separate;visual check pending. |
+| Display | Shared luminous-material LCD plus program/note display;no individual switch screens established. Diagonal/color/touch unknown. |
+| Processing / memory | **69 variations,up to7 simultaneous;30 User programs**. Category census/factory filling pending. |
+| Creative | PITCH1–4;OCTAVE warns against chords. Pitch polyphony unverified. DRONE is resonance processing;dedicated synth/acoustic conversion unverified. |
+| Size / mass | **212W×190D×58Hmm;715g excluding batteries**. |
+| Ports | Instrument input,shared stereo¼-inch OUTPUT/PHONES,DC9V. Mono output cable takes left channel,not documented stereo summing. |
+| Power | FourAA alkalines,manufacturer12h claim,or9VDC adapter;current/polarity unknown. |
+| Practical | Sample&Play up to1.8s;metronome40–208. Down/up program switches;both tap bypass,hold mute. |
+| Software / imports | Editor/OS,IR,NAM,capture unverified. |
+
+### AX1G — unresolved Indonesian seller identity
+
+[carissa musik shop-card](https://shopee.co.id/candyawanchavoex), two-month search cache: **“effect KORG AX1”,Rp1,000,000**. No exact item ID,AX1G suffix,condition,region,stock,variant,bundle,adapter,warranty,voucher orcheckout total established. This is an **unresolved AX1-family market lead**,not a verified AX1G price oravailability claim. No sibling specifications assigned to the seller unit. No local download,device operation orpurchase.
 
 ## AX3B
 
@@ -1079,7 +1101,6 @@ Checked **2026-11-04**, [manufacturer EFG1 manual,English pp14–19,24,28](https
 | Practice / reverb dependency | Rhythm/bass reverb shares the program reverb;its level control has no effect when that model is unused orits effect level iszero. |
 
 Defer remaining electrical,label/display andsoftware/import gaps until new exact evidence. Continue priority individual-switch-screen orfresh Shopee research;no hardware operated orfile downloaded.
-
 
 ## PANDORA stomp
 
