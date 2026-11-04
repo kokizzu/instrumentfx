@@ -235,6 +235,7 @@ Sources: [Original finding](AUDOTA.md#ame-100)<!-- historical-link:audota-005 --
 | USB/control | **Two USB-C sockets: one5V/2A power port and one PC/OTG data/audio port**; Bluetooth5.0 audio and BLE-MIDI. No physical DIN/TRS MIDI socket in complete inventory [P] |
 | Power | **5V/2A USB supply**, manufacturer explicitly specifies USB-A-to-C cables only; do not assume C-to-C PD charger compatibility. Built-in2000mAh lithium battery,approximately5h runtime and2.5h charge rating. Battery voltage/device draw not established [P] |
 | Editing | **AME-100 Studio Windows/macOS**, current listed package1.2.3; Android Audota app1.3.0 explicitly names AME-100. Developer's iOS app adds AME100 in1.1.0 and requires **iOS13+**. Linux editor not established [D,A] Official software index reopened2026-10-17 still lists Studio1.2.3 Windows/macOS and Android1.3.0. V1.2.3 announcement adds PC preset import/export/sharing and backup/restore. [D,U1] |
+| Editing / mobile-versus-desktop versions | [Current US developer listing](#ame-100--mobile-app-version-and-mac-compatibility-boundary): mobile1.3.0 adds Cubic G; AME100 was added in1.1.0. Mobile Mac eligibility is explicitly not verified; separate desktop Studio remains listed1.2.3. No firmware equivalence inferred. |
 | Recording / practice | USB/OTG recording; exact channels, sample rates and driver requirements unverified. **20s looper,40 drum rhythms+10 metronomes**, tuner435–445Hz, BLE foot control and dynamic effect-chain editing [P] |
 | Used IDR | **?**, no condition-verified current Indonesian used quote obtained |
 | New IDR / Shopee | **?**, targeted searches did not establish an exact AME-100 Indonesian item. AME-200/Pro,ACE-100 and AVE-100 results are different models and are not substituted. Ownership inclusion does not require current Shopee stock |
@@ -276,6 +277,16 @@ The manufacturer AME100EN product page timed out on two attempts. September11 im
 [Exact manufacturer body](https://en.audota.com/AME100EN.html),despite incorrect ACE100 browser title,reopens with AME-100 identity and complete connector inventory without analog EXP. It fails the required direct pedal path. BLE-MIDI footswitch expansion establishes another control route,not continuous volume mapping. Hand MASTER controls overall output;its bypass/headphone/tail/recorded-loop coverage is not specified here.
 
 Minus/plus footswitches step presets left/right in Effect Chain view and take different looper/drum roles. Shared1/4inch OUTPUT accepts stereo headphones;there is no separate phones socket. Existing109×88mm footprint fits either horizontal orientation. DirectEXP endpoints,position recall andglobal assignment are inapplicable to the absent analog connector. No hardware tested,installedfirmware assumed or80/200memory conflict resolved.
+
+### AME-100 — mobile app version and Mac compatibility boundary
+
+Checked **2026-11-05**, [developer Audota Studio US App Store listing](https://apps.apple.com/us/app/audota-studio/id6749214139),seller SHENZHEN BADU SOUND TECHNOLOGY CO.LTD,Audota copyright. Current visible mobile version **1.3.0** has a **June11** note adding Cubic G; **1.1.0,March31** names the newly added Ame100 series. The history omits years for those two dates,so no year is assigned here. Neither is a hardware firmware introduction date or evidence of a new AME-100 feature in1.3.0.
+
+The app is **designed for iPhone,iOS13+**. Its compatibility section lists **macOS11+/Apple M1+**,but its header expressly says **not verified for macOS**. This is mobile-app eligibility,not a tested dedicated Mac editor or Intel support. iPad-specific design/support and current Indonesian-store availability remain unverified.
+
+The [manufacturer software index](https://en.audota.com/EN_software.html) separately lists **AME-100 Studio1.2.3 for Windows andMac**,and Android Audota1.3.0 naming ACE-100/AME-100/Cubic G. Desktop1.2.3,mobile1.3.0 anddevice firmware must not be treated as one version sequence. No minimum desktop OS ornew USB format is established.
+
+Importer English V02_26-04 andGerman/French manuals remained inaccessible; their bodies were not inspected. Preserve80-versus200 memory evidence andall unresolved concurrency,USB,NAM-architecture andShopee questions. No app,manual,firmware ordependency downloaded orrun.
 
 ## AME-200
 

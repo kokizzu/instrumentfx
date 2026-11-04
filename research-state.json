@@ -166540,5 +166540,27 @@
     ],
     "next": "Continue remaining technical profiles and individual-footswitch-display primary-source gaps;preserve GT-Pro and general queue",
     "active_inventory_unchanged": 402
+  },
+  "ame100_app_versions_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/AUDOTA.md#ame-100--mobile-app-version-and-mac-compatibility-boundary",
+    "sources": [
+      "https://apps.apple.com/us/app/audota-studio/id6749214139",
+      "https://en.audota.com/EN_software.html"
+    ],
+    "finding": "Mobile1.3.0,CubicG note,AME1001.1.0 introduction andnot-verified Mac label distinguished fromdesktop1.2.3 andhardware firmware",
+    "failed_original_manuals": [
+      "https://shop.warwick.de/media/4c/6d/7d/1778719938/di46_AME-100_Manual_EN_V02_26-04.pdf?ts=1783330806",
+      "https://shop.warwick.de/media/8c/42/35/1778719939/13ef_AU_AME-100_Manual_DE_.pdf?ts=1783330976",
+      "https://shop.warwick.de/media/9b/a4/6e/1778719940/28ss_AU_AME-100_Manual_FR_.pdf?ts=1783331043"
+    ],
+    "remaining": [
+      "Exact concurrency/category reconciliation",
+      "USB channels andformats",
+      "Minimum memory-expansion firmware",
+      "Qualified Indonesian hardware"
+    ],
+    "next": "Do not repeat unavailable manual paths without new evidence;continue accessible incomplete profiles while preserving priority andgeneral queues",
+    "active_inventory_unchanged": 402
   }
 }
