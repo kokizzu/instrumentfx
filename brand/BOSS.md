@@ -599,7 +599,7 @@ Checked **2026-11-05**. **Outside active402 models** pending complete profile an
 | Creative capability | Algorithm distinction / limitation |
 |---|---|
 | Synth |GR-300 models a polyphonic guitar synth;OSC SYNTH uses DSP oscillators;WAVE SYNTH directly processes divided-string audio. Two oscillators alone do not establish polyphony;the explicit Poly/Mono setting is verified below. |
-| Pitch |FX PITCH SHIFTER,HARMONIST,PEDAL BEND;individual input-note restrictions unresolved. Alternate tuning,12-string andString Bend are unavailable with SYNTH/POLY FX modeling. |
+| Pitch |FX PITCH SHIFTER,HARMONIST,PEDAL BEND;Pitch Shifter MONO requires single notes;other input-note restrictions unresolved. Alternate tuning,12-string andString Bend are unavailable with SYNTH/POLY FX modeling. |
 | Instrument tones |Manufacturer names acoustic,bass,sitar,banjo andfretless modeling;GK requirement retained. Not ordinary-input acoustic-IR evidence. |
 | Special |Poly FX:DISTORTION,CRYSTAL,RICH MODULATION,SLOW PAD,TOUCH WAH. Alternatives,not five simultaneous algorithms;Slow Pad isnot proof ofanother synth engine. |
 | Remaining |Exact concurrency,full named inventories,IR/NAM import,looper/drums/scenes,power,physical controls andqualified offers unresolved. No download ordevice operation. |
@@ -630,6 +630,23 @@ These are alternative GK instrument models,not24 simultaneous tones or24 acousti
 **OSC SYNTH explicitly offers Poly/Mono.** MONO sounds one note even with chord input;POLY supports per-string orlast-note-on-any-string portamento. This directly documents a poly mode;it isnot inferred fromtwo oscillators. Tracking quality,latency andexact note ceiling remain unmeasured.
 
 OSC Hold modes separately accept-and-hold new notes,ignore new notes,oraccept new notes onalready-held strings. These are performance behaviors,not stored loops. WAVE SYNTH’s SAW/SQUARE waveform choices andlower-octave option do not independently establish its note ceiling. Existing GK andalternate-tuning restrictions remain. No device operation ordownload.
+
+### GP-10 — pitch-mode restrictions and six USB routes
+
+Checked **2026-11-05**, [manufacturer Parameter Guide e02,©2014,printedpp4,8](https://static.roland.com/assets/media/pdf/GP-10_Parameter_Guide_e02_W.pdf). Document revision,not installed firmware.
+
+**Pitch Shifter:** MONO requires single notes;FAST/MEDIUM/SLOW trade response speed against modulation,without explicit chord certification here. One/two generated voices andmono/stereo output are separate. **Harmonist:** up/down two-octave harmony withkey selection;note polyphony unverified. **Pedal Bend:** Position must be assigned toEXP orsimilar controller;note polyphony unverified. These share the selectable FX position,not three independently duplicated blocks.
+
+| USB routing mode | Documented purpose / boundary |
+|---|---|
+| STANDARD |Backing playback monitored;only processor audio returns tocomputer. |
+| MIX |Processor pluscomputer backing returns tocomputer. |
+| DRY-GUITAR |Unprocessed guitar recording; six separate divided-string channels plus normal-pickup route. |
+| RE-GUITAR/AMP I |Computer dry audio enters forremodeling/reamping. |
+| RE-GUITAR/AMP II |Remodeling alongside computer backing playback. |
+| DIRECT OFF |Processor audio goes tocomputer;DAW-processed audio feeds hardware OUTPUT. |
+
+These routes do not establish USB-bus power,physical DIN MIDI,all-mode channel counts orglobal EXP attenuation. Driver/current-host compatibility andlatency remain untested. No download,recording,connection ordevice operation.
 
 
 ## GS-10

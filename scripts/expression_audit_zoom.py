@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(boss): verify GP-10 OSC poly mode and instrument inventory'
+        message='research(boss): document GP-10 pitch restrictions and USB routing'
     print(git('commit','-m',message))

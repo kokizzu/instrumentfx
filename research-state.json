@@ -166902,5 +166902,29 @@
     ],
     "status": "Partialoutsideactive402;69existingadditionalindexunchanged",
     "next": "Continue GP10 missing hardware/software andexact parameter guide;preserve LCDpriority,expression,general andconsolidationqueues"
+  },
+  "boss_gp10_pitch_usb_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/BOSS.md#gp-10--pitch-mode-restrictions-and-six-usb-routes",
+    "source": "https://static.roland.com/assets/media/pdf/GP-10_Parameter_Guide_e02_W.pdf",
+    "revision": "e02 ©2014 printed4,8",
+    "pitch": "MONOsingle note;otherPSmodes,Harmonist,PedalBendpolyphonyunknown;sharedFXposition",
+    "usb_modes": [
+      "STANDARD",
+      "MIX",
+      "DRY-GUITAR",
+      "RE-GUITAR/AMP I",
+      "RE-GUITAR/AMP II",
+      "DIRECT OFF"
+    ],
+    "remaining": [
+      "Current driver/host equivalence",
+      "All-mode audio channel counts",
+      "Physical control/power profile",
+      "Qualified Indonesian offers"
+    ],
+    "active_inventory_unchanged": 402,
+    "status": "Partialleadoutsideactive;additionalindex69unchanged",
+    "next": "Continue GP10 hardware/firmware/support gaps;preserve LCDfirst andindependent expression/general/consolidation queues"
   }
 }
