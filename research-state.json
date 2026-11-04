@@ -168613,5 +168613,36 @@
       "Qualified new/used Indonesian stock"
     ],
     "next": "General cycle returns to GP-200JR → Prime → original GE300; preserve individual footswitch-display priority, AXOM MAX physical-display verification, GT-Pro and expression-volume queues."
+  },
+  "fm3_original_global_volume_startup_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-original",
+    "source": "https://manuals.plus/m/5df87c9e777003d2c13a4831b33fdc4a826978d563b7b25933897a3a2c79b3b0.pdf",
+    "source_identity": "Manufacturer FM3 FIRMWARE RELEASE NOTES, version10.0 May30,2025 header; cumulative historical version headings and FM3-specific instructions/official links. Original PDF body, not host generated guidance.",
+    "source_pages": "PDF25–28",
+    "global_volume_fix": {
+      "version": "3.02",
+      "date": "2021-03-10",
+      "description": "Global Input and Output Volumes initialize correctly when expression pedal used; MIDI/Remote→Other parameters"
+    },
+    "position_detection": {
+      "version": "1.04",
+      "date": "2020-06-05",
+      "description": "Improved pedal-position detection after startup"
+    },
+    "qualification": "Both predate MKII. Apply historical provenance to original FM3, not a new universal assignment or measured current fix; exact initialization value, preset transitions and all-route coverage remain unknown.",
+    "source_attempts": {
+      "axom_max": "No new qualified Shopee or manufacturer mini-screen technology; English1.7.4 manual reread confirms already recorded facts only.",
+      "fractal_eq": "GEQ18-versus16 unresolved; community2/3-octave list not promoted to primary evidence.",
+      "market": "FM3 exact Shopee prices/voucher/Habis repeated existing observations; no duplicate offer added."
+    },
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Global-volume endpoints and actual held-position recall",
+      "Bypass/headphone/USB/loop coverage",
+      "GEQ named census conflict",
+      "Current available condition-qualified Indonesian offers"
+    ],
+    "next": "Continue accessible individual footswitch-display profiles and fresh exact Shopee hardware; preserve AXOM MAX primary-screen gap, GT-Pro, expression audit and independent GP-200JR → Prime → GE300 cycle."
   }
 }
