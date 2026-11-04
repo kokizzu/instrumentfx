@@ -587,6 +587,29 @@ The same dated manufacturer description specifies **9VDC centre-negative/500mA s
 
 No qualified exact Shopee Indonesia item or used/new IDR ask recovered. Simultaneous-module/category census, synth/acoustic algorithms, IR/NAM/capture, editor/updater platforms, USB/battery-current details, toe compatibility and current support remain unresolved. No file downloaded, software run or device operated. Complete these before active admission; preserve independent LCD-first and GT-Pro queues.
 
+### GP-1 — category counts and creative processing
+
+Checked **2026-11-04**, matching [manufacturer-authored manual reproduction](https://medias.audiofanzine.com/files/gp-1-manual-479221.pdf), printedpp36–88. Same116-page document identity; revision/firmware unverified.
+
+| Category | Published choices |
+|---|---:|
+| COMP/pre-effects | 15 |
+| NR | 2 |
+| DS/AMP | 26 |
+| EQ | 3 |
+| CAB | 15 |
+| MOD | 22 |
+| DLY | 9 |
+| REV | 8 |
+
+**Sum100** reconciles the headline; these are alternatives within eight modules, not100 simultaneous effects. DS/AMP combines drives, amps and simulation rather than26 amp models. Complete named/current-installed census remains open.
+
+**ACSM (Acoustic Sim)** converts electric-guitar tone, with Body/Top/Volume controls; this is not merely an acoustic IR. **PBND** and **FBPB** shift±12semitones; FBPB adds short delay/feedback. **DTUN** spans±25cents with1–200ms predelay. **OCTA** blends octave-up/down and dry; its Micro POG reference does not prove polyphony.
+
+Special processing includes **RMOD, LOFI, S.ATK, STEP**, and **A.LPF/A.BPF/A.HPF**. These are ring modulation,lo-fi,slow attack,stepped flanging and automatic filters, not verified synth engines. Tracking quality,polyphony,range/route coverage andcurrent firmware remain untested.
+
+This narrows the earlier category/acoustic unknowns only. No exact Shopee offer recovered;partial lead remains outside active comparisons. No download ordevice operation.
+
 ## GP-5
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. NAM compatibility and qualified Shopee snapshots were additionally checked2026-10-17; complete firmware contents and checkout stock remain unverified. Historical next-model notes are provenance; use research-state.json for current work.

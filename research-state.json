@@ -25814,7 +25814,14 @@
       "revision": "Manufacturer video December8,2016; matching original manual has no verified revision/firmware",
       "finding": "Compact ordinary-input multifx; external expression and phones; assignments stored per preset, global analog volume unverified",
       "market": "No qualified exact Shopee Indonesia item or condition-specific IDR ask recovered",
-      "next": "Verify remaining full-profile fields before admission; retain LCD-first and independent GT-Pro cursor"
+      "next": "Verify remaining full-profile fields before admission; retain LCD-first and independent GT-Pro cursor",
+      "category_followup": {
+        "checked_date": "2026-11-04",
+        "source": "https://medias.audiofanzine.com/files/gp-1-manual-479221.pdf",
+        "canonical_section": "brand/VALETON.md#gp-1--category-counts-and-creative-processing",
+        "status": "Category-head arithmetic and creative algorithm distinctions checked; no active admission",
+        "next": "Complete named census, source revision/current support, software/import and display fields; seek exact Shopee item; preserve global-volume uncertainty and independent queues"
+      }
     }
   ],
   "inventory_by_brand": {
