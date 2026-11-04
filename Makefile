@@ -2466,3 +2466,17 @@ preservation-review-ge100-pro:
 .PHONY: preservation-review-ge100-pro-li
 preservation-review-ge100-pro-li:
 	python3 scripts/preservation_review.py effects/findings/2026-10-14-mooer-ge100-pro-li.md
+
+.PHONY: research-auth-check
+research-auth-check:
+	python3 scripts/research_push.py auth-check
+
+.PHONY: research-push-plan-https research-push-apply-https research-stage-transport research-commit-transport
+research-push-plan-https:
+	python3 scripts/research_push.py plan-https
+research-push-apply-https:
+	python3 scripts/research_push.py apply-https
+research-stage-transport:
+	python3 scripts/research_push.py stage-transport
+research-commit-transport:
+	python3 scripts/research_push.py commit-transport
