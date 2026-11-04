@@ -85,6 +85,17 @@ Each voice spans **−13…Unison…+13 scale steps**, not semitones; level−10
 
 SW2.01 is an availability checkpoint, not a verified feature-introduction version or latest/installed firmware. Software4.0 addendum remains separate; a current combined menu census and tracking performance are unverified. No download or device operation; partial lead remains outside active counts.
 
+### G-System — Vyzor host requirements and firmware-build conflict
+
+Checked **2026-11-04** in the exact-model **Psicraft Vyzor** documentation: [User’s Guide,25 pages,hosted by Sound Quest](https://www.soundquest.org/Help/FastTips/TC%20Electronic%20G-System/FastTips.pdf),pp1–5, and [Vyzor G-System2.0 Quick Start reproduction](https://manualzz.com/doc/23563836/tc-electronic-4.02-r1734-g-system-quick-start-guide),p1. These are editor/developer guides,distinct from the hardware owner manual;document dates unstated.
+
+- **Historical Windows:** XP,Vista,7;P4-equivalent processor,32-bit-color graphics,1024×768 orlarger display. Color depth isnot OS architecture.
+- **Historical Mac:** OS X10.4/10.5/10.6,PowerPC G5 orIntel,1024×768 orlarger. Current macOS/Apple Silicon,Windows11,Linux andmobile editing remain unverified.
+- **Firmware conflict:** Quick Start requires **4.02 R1734**;User’s Guide requires **4.02 R1737**. Neither is proof oflatest/installed firmware oruniversal compatibility withhigher builds.
+- **Storage/sync:** editor operates on copies andthe temporary edit buffer;explicit preset/bank **Sync** writes permanent memory. Hardware preset selection canleave the editor outofsync;Get Preset refreshes it. The guide’sp3 lists200 User slots butp5 says100;retain this internal discrepancy,not a revised hardware capacity.
+
+Editor Sets include User bank,Global data andedit buffer. This is a documented workflow,not a tested restore,current-host certification,USB audio claim orIR/NAM import. No installer,driver orfirmware downloaded orrun;partial lead stays outside activecounts.
+
 ## M100
 
 Checked 2026-10-17; partial. Guitar/vocal instrument and mixer-path processor; direct microphone preamp/phantom and bass suitability unverified. Ownership unknown.

@@ -163541,5 +163541,28 @@
     ],
     "active_inventory_changed": false,
     "next": "Continue remaining G-System physical/currentsoftware/market gaps whenaccessible;preserve separate-footdisplaypriority andindependent GT-Pro/expressionqueues."
+  },
+  "gsystem_vyzor_host_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "sources": [
+      "https://www.soundquest.org/Help/FastTips/TC%20Electronic%20G-System/FastTips.pdf",
+      "https://manualzz.com/doc/23563836/tc-electronic-4.02-r1734-g-system-quick-start-guide"
+    ],
+    "revision": "VyzorUserGuide25pages andQuickStart2.0;documentdatesunstated",
+    "canonical": "brand/TC-ELECTRONIC.md#g-system--vyzor-host-requirements-and-firmware-build-conflict",
+    "platforms": "HistoricalWindowsXP/Vista/7;OSX10.4–10.6 PowerPCG5/Intel;modernhosts unverified",
+    "conflicts": [
+      "QuickStart4.02R1734 vsUserGuideR1737",
+      "UserGuide200Userp3 vs100p5;notrevisedhardwarecapacity"
+    ],
+    "save_scope": "Temporarybuffer/copies;explicitSyncforpermanentpreset/bank;hardwarepresetrecallcanbreakeditorsync",
+    "remaining": [
+      "Currenteditor/OScompatibility",
+      "Buildmatchingandcurrentfirmware",
+      "QualifiedexactShopeehardware",
+      "Globalvolumeoutput/bypasscoverage"
+    ],
+    "active_inventory_changed": false,
+    "next": "Defer currenthostcertification withoutnewprimaryevidence;continue other required-field/market gaps preserving displaypriority andgeneralGT-Pro queues."
   }
 }
