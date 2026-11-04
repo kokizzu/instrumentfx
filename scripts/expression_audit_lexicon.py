@@ -37,4 +37,4 @@ if __name__ == '__main__':
         assert saved['head'] == git('rev-parse','HEAD')
         assert saved['hash'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest()
         assert not git('diff','--cached','--check')
-        print(git('commit','-m','research(lexicon): qualify MX300 chromatic pitch and feedback processing'))
+        print(git('commit','-m','research(lexicon): verify MX200 pitch ranges and exact sold-out offer'))

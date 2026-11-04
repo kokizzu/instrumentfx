@@ -235,6 +235,15 @@ Checked 2026-10-18 from the manufacturer-indexed [own guide, printed p19][MX-M].
 | Processing / dynamics channel mode | Compressor and De-Esser are labelled **Mono (Wet only)**. Keep that restriction beside the general two-processor/stereo routing claim; it does not mean every algorithm preserves a stereo input. |
 | Processing / dynamics controls | Compressor threshold −70 to0dBFS, ratio1:1 through infinity:1, makeup0 to+12dB. De-Esser frequency1600Hz–10kHz in40steps and bandwidth in6steps. These are parameter ranges, not additional algorithm choices. |
 
+### MX200 — exact pitch ranges and additional hardware offer
+
+Checked2026-11-04 against [User Guide5073493-B, printed22](https://adn.harmanpro.com/product_documents/documents/913_1473885738/MX200_Manual_5073493-B_original.pdf). This is documentation applicability, not installed-firmware verification.
+
+| Field | Evidence / qualification |
+|---|---|
+| Synth / pitch ranges | Pitch Shift is chromatic:0–24semitones with separate Up/Down selection, plus low-pass cutoff. Detune has independent left/right shifts of−24 to+24cents and Stereo Spread. Stereo labels describe channels, not input-note polyphony. The guide's monophonic-synth-line application is not a dedicated onboard synth or a strict single-note tracking specification; chord handling and latency remain unverified. |
+| IDR / additional sold-out ask | [Ultra Audio shop284079667/item6744388354](https://shopee.co.id/Lexicon-MX-200-MX200-MX-200-Vocal-Effect-ORIGINAL-i.284079667.6744388354),KotaJakartaBarat:Rp3.434.000,**Habis**. Search and opened body both two-month cache;checked2026-11-04,not live stock. Condition,new/used,revision,adapter,bundle,warranty,shipping/tax andtotal unverified. Late-delivery compensation up toRp10.000 is conditional,not a confirmed price discount. |
+
 <!-- comparison evidence ends -->
 
 ### MX200 — manufacturer manual recovery and direct-expression screening (2026-10-28)

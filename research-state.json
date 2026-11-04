@@ -162576,5 +162576,25 @@
     ],
     "inventory_unchanged": 402,
     "next": "Continue other remaining model gaps and exact Shopee discovery; preserve independent queues."
+  },
+  "mx200_pitch_offer_20261104": {
+    "model": "Lexicon::MX200",
+    "checked_date": "2026-11-04",
+    "canonical": "brand/LEXICON.md#mx200--exact-pitch-ranges-and-additional-hardware-offer",
+    "source": "https://adn.harmanpro.com/product_documents/documents/913_1473885738/MX200_Manual_5073493-B_original.pdf",
+    "revision": "5073493-B printed22",
+    "resolved": [
+      "Chromatic shift0–24 semitones plus Up/Down",
+      "Independent left/right Detune ±24cents",
+      "Exact Ultra Audio284079667/6744388354 Rp3434000 Habis cached offer"
+    ],
+    "remaining": [
+      "Input-note polyphony and latency",
+      "Power revision and actual adapter",
+      "Display and physical button census",
+      "Condition-qualified current hardware stock"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue fresh Shopee and priority individual-display gaps; preserve independent GT-Pro and expression queues."
   }
 }
