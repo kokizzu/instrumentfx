@@ -774,6 +774,7 @@ Queries for Shopee Indonesia **NUX MG-30 MKII**, **MG30 MK2** and **MG30 MKII** 
 | IR / captures | **60 user IRs,30 user amp slots**. Global42factoryIR vsUS60;USintro120userIR conflicts with its own60 specification. Proprietary DeepImage/NUX Image workflow separate from **native NAM A2 Lite**. |
 | Factory amps | Global28 white-box+30DeepImage versus US27+33. Retain source conflict,not a fabricated current library. |
 | Ports | 6.35 mm input,two6.35 mm outputs,twoXLR outputs,**two mono FX loops**;3.5 mm AUX/phones,MIDI IN/OUT;EXP;USB-C;NBT-1 port. |
+| I/O / electrical ratings and conflicts | [Exact-model global/Chinese specifications](#mg-50li--electrical-ratings-and-converter-conflicts): input/returns1MΩ,AUX10kΩ,unbalanced out/send1kΩ,balanced out440Ω. Phones **10Ω versus10kΩ** unresolved; output impedance is not headphone load. Both pages mix24/32-bit converter claims; USB24-bit/48kHz is separate. |
 | Power / battery | **12V/1.5A center-negative,<1400mA draw;5000mAh/7.4V rechargeable battery**. Global6h versusUS5h rating,not independently tested. USB-power operation unverified. |
 | Apps | NUX Audio **Windows/macOS/iOS/Android**,included NBT-1 Bluetooth module;NUX Image capture software **Windows/macOS**;USB audio/MIDI. |
 | Firmware / USB and tails | **English1.1.1,2026-07-31**: USB audio can reach XLR;Patch Tail Off cuts preset-change tails. Not proof of global EXP coverage. [Revision-qualified follow-up](#mg-50li--current-display-firmware-and-creative-choices). |
@@ -884,6 +885,16 @@ The existing402-model inventory isunchanged. MG-50Li was missing fromthe generat
 
 Checked **2026-11-05**, [global manufacturer page, Play with Two Guitars](https://nuxaudio.com/product/mg50li/). NUX explicitly describes two instruments connected to **Return1 andReturn2**, with **SR1/SR2 at the front of parallel chains**. This is a documented use of the existing loop returns,not two additional dedicated input jacks orproof every preset supports two independent rigs. The page gives no introduction firmware,per-chain block allocation,third-instrument concurrency orseparate USB-recording channel guarantee. Existing14-block total andtwo-loop inventory remain unchanged. No device orrouting test performed;global external-volume assignment remains unverified.
 
+
+### MG-50Li — electrical ratings and converter conflicts
+
+Checked **2026-11-05**, exact-model [global manufacturer specifications](https://nuxaudio.com/product/mg50li/) and [Chinese manufacturer specifications](https://cn.nuxaudio.com/product/mg50li/). No hardware revision or measurement is supplied for these ratings.
+
+Both list input/return **1MΩ**, AUX **10kΩ**, unbalanced outputs and sends **1kΩ**, balanced outputs **440Ω**. Headphone output impedance conflicts: **global10Ω versus Chinese10kΩ**. Retain both; do not silently correct a suspected unit error or infer a regional hardware difference. Neither figure establishes recommended headphone load or output power.
+
+Both pages describe **24-bit AD/DA** in feature text but **32-bit AD/DA** in specifications; global prose also says32-bit converters. **32-bit floating-point processing** and **24-bit/48kHz USB audio** are separate claims and do not resolve the converter discrepancy. Global input-to-unbalanced-output dynamic range is listed110dB, not independently measured.
+
+The global page additionally rates a full battery recharge at **5hours**, distinct from its6-hour runtime and the retained US5-hour runtime. Charging conditions and USB-powered operation remain unverified. Earlier preset/IR/amp-count,latency and battery conflicts remain intact. No download,firmware installation or device test.
 
 ## MG-100
 

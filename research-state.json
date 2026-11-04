@@ -167864,5 +167864,28 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue display-priority profile and Shopee gaps;preserve independent GP-200JR→Prime→GE300,GT-Pro,expression and consolidation queues"
+  },
+  "mg50li_electrical_conflicts_20261105": {
+    "checked_date": "2026-11-05",
+    "sources": [
+      "https://nuxaudio.com/product/mg50li/",
+      "https://cn.nuxaudio.com/product/mg50li/"
+    ],
+    "canonical": "brand/NUX.md#mg-50li--electrical-ratings-and-converter-conflicts",
+    "revision": "Current exact-model regional pages;no hardware revision assigned",
+    "findings": [
+      "Input/return,AUX,send/unbalanced andbalanced output impedances recorded",
+      "Phones10Ω global versus10kΩ Chinese unresolved",
+      "24-bit AD/DA feature versus32-bit specifications unresolved;USB24-bit/48kHz separate",
+      "Global5-hour full recharge distinct fromruntime"
+    ],
+    "remaining": [
+      "Primary manual andvisual effect controls",
+      "Headphone load/power andconverter conflict resolution",
+      "Global EXP scope/endpoints/recall/output coverage",
+      "Condition-qualified exact Shopee offers"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Resume separate-footdisplay source gaps and Shopee inventory;preserve GP-200JR→Prime→GE300,GT-Pro,expression andconsolidation queues"
   }
 }
