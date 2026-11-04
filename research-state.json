@@ -159805,5 +159805,14 @@
     "shopee": "Existing440477624/53707848703remainsRp41220000three-monthdirectcache/July18delivery;no refreshedstockorpriceclaim.",
     "next": "Continue requestedseparatescreenshortlist;qualifiedcondition/currenthardwarestock andStadiumXLpower/stripdetailsremainopen.",
     "inventory_count_unchanged": 402
+  },
+  "stadium_xl_midi_recall_toggles_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://manuals.line6.com/en/helix-stadium/live/midi",
+    "revision": "Livev1.4manufacturerchapter;installeduntested",
+    "finding": "UnsavedEmptypresetsnotMIDIrecallable;UserCC32banks1–4/PC0–127. CC36anyvaluetogglestoe;CC9value24MuteAllOnOff;CC69values0–7snapshot1–8,8Next,9Previous.",
+    "qualification": "Globalchanneldefault1/customBypassControl2configurable. Notcontinuousglobalvolume,absolutemutestate,physicalanalogtoecertificationornewmemorycapacity.",
+    "next": "Powerprimaryunverified;requestedseparatescreenshortlistnew evidence,stripdetailsandqualifiedhardwareoffersremain. Preserveindependentqueues.",
+    "inventory_count_unchanged": 402
   }
 }

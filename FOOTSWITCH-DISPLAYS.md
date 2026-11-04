@@ -193,3 +193,5 @@ FM9 MKII Turbo [firmware11 mini-tuner clock warning](brand/FRACTAL-AUDIO.md#fm9-
 Prime [split alignment andoutput-gain limits](brand/HEADRUSH.md#prime--split-path-alignment-and-output-gain-boundaries) are audio-routing controls,separate from its twelve OLED strips andglobal analog-expression coverage.
 
 Stadium XL’s [IDR evidence](brand/LINE6.md#helix-stadium-xl-floor) now includes a separate Nafiri Rp36.64m sold-out indexed ask. It is historical unavailable retail evidence,not live stock orShopee pricing;older exact Shopee offers remain separately qualified.
+
+Stadium XL [MIDI recall andtoggle-state boundaries](brand/LINE6.md#stadium-xl--midi-recall-and-toggle-state-boundaries) distinguish direct/next/previous snapshot commands andtoe-switch toggles;they do not add physical displays orverify analog pedal-volume coverage.

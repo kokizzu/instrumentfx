@@ -814,6 +814,8 @@ Checked 2026-10-31 against the live manufacturer v1.4 manual. Its navigation sti
 |---|---|
 | I/O / Aux and shared returns | XL **Returns3/4** can become always-on Aux inputs, unprocessed by the preset. The smaller Stadium uses Returns1/2; do not transfer that numbering. A return already used by an FX Loop/Return block is unavailable as a separate Input source. Repeated Send instances are allowed, but a particular FX Loop/Return can have only one instance per preset. [Rear panel](https://manuals.line6.com/en/helix-stadium/live/rear-panel);[routing manual](https://manuals.line6.com/en/helix-stadium/live/input-output-and-mix-blocks). |
 | MIDI / Matrix and assignment scope | [1.4 qualifications](#stadium-xl--matrix-midi-layers-and-assignment-clearing-boundary):three independently addressed output layers;Home(all paths) differs fromUSB/Bluetooth/Aux sources. Mono/stereo swaps clear snapshot/controller assignments. Direct analog global-volume target remains unverified. |
+| Memory / external recall prerequisite | [Live1.4 MIDI rules](#stadium-xl--midi-recall-and-toggle-state-boundaries): unsaved Empty presets cannot be recalled until saved;CC32 selects four128-program USER groups. Bank addressing is not extra memory. |
+| MIDI / action versus value | [Exact CC behavior](#stadium-xl--midi-recall-and-toggle-state-boundaries):CC36 toggles toe state on any value;CC9/value24 invokes Mute All On/Off;CC69 selects orsteps snapshots. These are discrete control semantics,not direct analog global volume. |
 | USB audio / monitoring versus processing | Computer playback **USB1/2 bypasses preset blocks** and is not a selectable Input source;USB3/4,5/6,7/8 are selectable stereo sources. Recording outputs7/8 are dedicated DI,not selectable Output blocks. Thus a preset Volume block does not establish attenuation of all computer playback. [Routing manual](https://manuals.line6.com/en/helix-stadium/live/input-output-and-mix-blocks). |
 | Routing / matrix and direct outputs | Matrix routes allow independent mixes for quarter-inch,XLR andphones. The respective Direct output choices bypass that matrix;separate physical outputs do not imply one universal mix or volume-control scope. S/PDIF separately selects Direct Out orone ofthose three Matrix layers;its sample-rate setting doesnot change USB audio. [Digital-output scope](#stadium-xl--spdif-output-routing-and-usb-rate-separation). [Routing manual](https://manuals.line6.com/en/helix-stadium/live/input-output-and-mix-blocks). |
 | USB audio / recording-source choice | **USB Out1/2** can be **Direct Out** (selectable preset Output destination),or mirror **Matrix quarter-inch,XLR orPhones**. Selecting a Matrix source removes USB1/2 fromthe preset Output list. This is recording-source selection,not computer playback USB1/2 routing orproof of universal EXP attenuation. [Live Global Settings](https://manuals.line6.com/en/helix-stadium/live/global-settings),checked2026-11-03. |
@@ -1006,6 +1008,18 @@ Assign one or more parameters from any blocks to the touchscreen X and/or Y axes
 
 Focus view instead edits five sound zones of one block. XY assignments do not add effect blocks, establish synth tracking or assign analog expression volume across all presets. Power voltage/frequency/draw remain primary-unverified; no local download,connection ordevice operation.
 
+
+### Stadium XL — MIDI recall and toggle-state boundaries
+
+Checked **2026-11-04** against the [manufacturer live v1.4 MIDI chapter](https://manuals.line6.com/en/helix-stadium/live/midi). Exact Stadium/XL reference;installed firmware andphysical execution untested.
+
+| Field | Documented command / limit |
+|---|---|
+| Memory / incoming MIDI recall | **Unsaved Empty presets cannot be recalled by MIDI PC**;save them first. USER PRESETS occupy four128-program groups: **CC32=1–4**,then **PC0–127**. FACTORY usesCC32=0;created setlists use5+. These bank addresses do not increase512 user locations orresolve the separate122/128 setlist-count conflict. |
+| MIDI / toe andpanel command state | **CC36 toggles the toe-switch state on every message,including value0**. **CC9,value24** invokes Mute All On/Off. These emulate actions rather than establish acontinuous volume target orabsolute mute-state setter;repeated messages can change state again. |
+| MIDI / snapshot addressing | **CC69 values0–7 select snapshots1–8;8=Next;9=Previous**. These are Global-channel commands,defaultchannel1;custom Bypass/Control usesdefaultchannel2. Default channel numbers are configurable,not fixed output destinations. |
+
+MIDI emulation doesnot certify an external analog toe contact orglobal expression-volume assignment. Primary power ratings,strip specifications andcondition-qualified current hardware offers remain open. No download,MIDI transmission,save ordevice operation.
 
 ## HX Effects
 
