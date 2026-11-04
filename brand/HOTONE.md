@@ -707,6 +707,8 @@ Current comparison summary, reconciled 2026-10-28 from the exact-model sources r
 | IDR / Malang condition unknown | **Rp3.500.000**, [Koko DC4074307/4761850216](https://shopee.co.id/hotone-ampero-mini-i.4074307.4761850216); checked2026-10-28, two-month cache/stale24–27August delivery. Color, variant, condition, working state and bundle unknown. |
 | IDR / White title condition unknown | **Rp4.199.000; Habis**, [Major Seven37428558/28272464923](https://shopee.co.id/M7-HOTONE-Ampero-Mini-White-Amp-Pedal-Modelling-Digital-Multi-Effects-Guitar-Pedal-i.37428558.28272464923), Bandung; checked2026-10-28, five-month index/direct cache miss. Revision, selected variant, condition and bundle unknown. |
 | IDR / non-Shopee adapter bundle;sold-out cached ask | **Rp3.800.000**, [Nafiri exact MP-50 Ampero Mini with9V adapter](https://nafiriguitar.com/products/hotone-mp-50-ampero-mini-multieffects-pedal-w-9v-adapter),checked2026-11-03;three-week reader cache explicitly **Sold out**,despite an Add to cart label. Rp4.315.000 crossed reference is not validated savings. Purple Taro/Orange/Mustard/Marigold/Macha/Vanilla choices appear,butselected color andper-variant stock are unresolved. Seller address isJakarta Utara,not dispatch proof. Actual condition,working state,firmware,adapter identity/remaining bundle,warranty,shipping,tax,vouchers anddelivered total unknown;shipping calculated atcheckout. Historical asking evidence only,not current availability,a verified condition-specific price orcompleted sale. |
+| IDR / additional exact cached asks | **Rp4.315.000 Seven Stereo;Rp4.530.750 Soundstationstore**,both four-month search caches with six variants;**Rp4.495.500 Jojomusicstore,Habis**,three-month cache. Condition andselected variants unknown;not current new/used ranges. [Separate offers](#ampero-mini--additional-exact-shopee-hardware-asks). |
+
 ### Ampero Mini — V2.2 factory-bank write boundary
 
 Checked **2026-11-01**,[manufacturer V2.2 manual,printedp3](https://res.hotoneaudio.com/prod/support/Ampero%20Mini_Online%C2%A0Manual_EN_Firmware%20V2.2.1773036333483.pdf). Its bank definition specifies three patches perbank,33editable player banks and33factory banks F01–F33. Factory banks permit adjustments **without saving those changes**;do not count all198locations asoverwriteable user storage. This narrows the older99+99 shorthand without asserting a factory-reset result orinspecting installed contents.
@@ -1037,6 +1039,20 @@ Checked **2026-11-03** in [Hotone’s exact Ampero Mini1.2 release announcement]
 | Volume / scope | Adds TEMPO/VOLUME→Vol Position **Pre/Post**;this doesnot document an all-preset volume assignment. Patch-enabled VOLUME andglobal override uncertainty remain distinct. |
 
 The release also reports NR andBackmask optimizations without specifying measured behavior. No new synth engine,note-polyphony ortail-continuity claim follows. Current global-volume scope,actual M-VAVE wiring andqualified Shopee stock remain unresolved. Current manual retrieval timed out;no software,firmware ormanual downloaded ordevice operated.
+
+### Ampero Mini — additional exact Shopee hardware asks
+
+Checked **2026-11-04**. These newly recovered seller/item records supplement older offers without replacing them. Search-index evidence only;direct retrieval ofSoundstationstore andJojomusicstore failed.
+
+| Seller / exact hardware item | Cached asking price | Access / qualification |
+|---|---:|---|
+| [Seven Stereo Music & Audio Store,16879370/18880774433](https://shopee.co.id/Hotone-Ampero-Mini-Multieffects-Pedal-i.16879370.18880774433),Kota Bandung | **Rp4.315.000** | Four-month search snapshot;**six variations**. Selected variation andper-variation pricing unresolved;July9–11 arrival stale. |
+| [Soundstationstore,250276993/23446549068](https://shopee.co.id/HOTONE-MP50-Ampero-Mini-Multi-effects-Pedal-Efek-Gitar-Multieffect-i.250276993.23446549068),Kota Tangerang Selatan | **Rp4.530.750** | Four-month search snapshot;**six variations**. Relative four-hour arrival doesnot prove current availability. Direct cache miss. |
+| [Jojomusicstore,382833846/22371945916](https://shopee.co.id/Hotone-MP-50PT-Ampero-Mini-Multi-Effects-Pedal-i.382833846.22371945916),Kota Surabaya | **Rp4.495.500,Habis** | Three-month search snapshot;title identifiesMP-50PT. July15–17 arrival stale;direct cache miss. Sold-out ask,not completed sale. |
+
+All three leave **actual condition,working state,installedfirmware,selectedcolor/variant,bundle,adapter,warranty,dispatch,shipping/tax andcheckout** unverified. No qualified new/used range orlive-stock claim. Up-toRp10.000 late-arrival compensation isnot deducted asan upfront discount. Seller locations are cached labels,not dispatch verification.
+
+The exactV2.2 original manual timedout again;earlier primary findings remain dated evidence. GlobalEXPvolume assignment,position/endpoints andbypass/headphone/tail/recorded-loop coverage stay unresolved. No file downloaded,seller contacted ordevice operated.
 
 ## Ampero MP-100
 

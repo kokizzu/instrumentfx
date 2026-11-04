@@ -163773,5 +163773,45 @@
     ],
     "next": "Priority separate-footdisplay andaccessible inventory gaps;preserve GTPro independent generalcursor andexpression/consolidation queues",
     "active_inventory_unchanged": 402
+  },
+  "ampero_mini_additional_offers_20261104": {
+    "checked_date": "2026-11-04",
+    "canonical": "brand/HOTONE.md#ampero-mini--additional-exact-shopee-hardware-asks",
+    "offers": [
+      {
+        "shop": "16879370",
+        "item": "18880774433",
+        "seller": "Seven Stereo Music & Audio Store",
+        "region": "KotaBandung",
+        "idr": 4315000,
+        "cache": "fourmonths",
+        "variations": 6
+      },
+      {
+        "shop": "250276993",
+        "item": "23446549068",
+        "seller": "Soundstationstore",
+        "region": "KotaTangerangSelatan",
+        "idr": 4530750,
+        "cache": "fourmonths",
+        "variations": 6,
+        "direct": "cachemiss"
+      },
+      {
+        "shop": "382833846",
+        "item": "22371945916",
+        "seller": "Jojomusicstore",
+        "region": "KotaSurabaya",
+        "idr": 4495500,
+        "cache": "threemonths",
+        "stock": "Habis",
+        "title_variant": "MP-50PT",
+        "direct": "cachemiss"
+      }
+    ],
+    "qualification": "Condition/selectedvariant/bundle/adapter/warranty/checkout unknown;no live stock ornewusedrange;latevoucher notdeducted",
+    "manual": "ExactV2.2PDF timeout;globalEXPvolume unresolved",
+    "next": "Continue accessible separate-footdisplay/compact profile gaps;preservegeneralGTPro/consolidation queues",
+    "active_inventory_unchanged": 402
   }
 }
