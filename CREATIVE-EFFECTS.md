@@ -125,6 +125,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [BOSS ME-8B](brand/BOSS.md#me-8b--partial-bass-discovery-lead) is a **partial bass lead outside active counts and the51-record index**. Historical manufacturer catalogues name Synth Bass,Octave,Defretter andcontrol-pedal special effects;the [original-manual follow-up](brand/BOSS.md#me-8b--original-manual-synth-architecture) distinguishes single-note internal-source modes1–4, waveform-processing modes5–9 andtouch wah10. Chord handling of5–9 remains unverified. Its64-setting memory headline doesnot complete the required hardware/market profile.
 
+[BOSS SY-300](brand/BOSS.md#sy-300--partial-discovery-lead) is a **partial lead outside active counts and the 56-record index**. Its own product page establishes ordinary-pickup polyphonic synthesis and four FX processors. Oscillator pitch/bend is distinct from a verified conventional pitch-shifter algorithm; acoustic simulation remains unverified. Exact dated Shopee hardware evidence is retained in the brand record.
+
 ## What remains uncertain
 
 - Actual tracking quality, latency and installed firmware were not measured for these records.

@@ -25680,6 +25680,34 @@
       "market": "Exact Shopee Indonesia search no qualified hardware offer;no IDR inferred.",
       "next": "Complete controls/category census,power polarity/current,software/imports,loop retention andqualified exact hardware. Preserve independent LCD-first/general/expression queues.",
       "active_inventory_changed": false
+    },
+    {
+      "model": "BOSS SY-300",
+      "checked_date": "2026-11-04",
+      "status": "partial exact-model manufacturer and Shopee discovery outside active counts",
+      "canonical_record": "brand/BOSS.md#sy-300--partial-discovery-lead",
+      "active_inventory_changed": false,
+      "sources": [
+        "https://www.boss.info/global/products/sy-300/",
+        "https://static.roland.com/assets/media/pdf/SY-300_e01_W.pdf",
+        "https://static.roland.com/assets/media/pdf/SY-300_ParamGuide_e02.pdf",
+        "https://shopee.co.id/Gitar-Synthesizer-Boss-SY-300-i.8471118.2122215921"
+      ],
+      "revision": "Owner e01 and Parameter Guide e02, copyright2015; current firmware mapping unverified",
+      "market": {
+        "seller": "Anekamusic",
+        "seller_id": "8471118",
+        "item_id": "2122215921",
+        "region": "Depok",
+        "ask_idr": 10300000,
+        "condition": "unverified",
+        "stock": "unverified",
+        "retrieval": "two-month-old crawl, August25–26 delivery; not live checkout",
+        "bundle": "unverified",
+        "used": "no condition-verified ask"
+      },
+      "expression": "SYSTEM assignments shared across patches; PATCH COM LEVEL/SUBOUT LEVEL targets; HOLD recall separate; all-route coverage and numeric endpoints unverified",
+      "next": "Complete power/control/category/firmware/software/import/practice profile and signal coverage before active admission; preserve LCD-first, GT-Pro and compact-expression queues."
     }
   ],
   "inventory_by_brand": {
@@ -160216,5 +160244,33 @@
     "active_inventory_unchanged": 402,
     "additional_creative_records_unchanged": 55,
     "next": "Continue requested individualfootdisplay inventory withaccessible primary evidence;preserve GT-Pro/expression queues."
+  },
+  "discovery_sy300_20261104": {
+    "model": "BOSS SY-300",
+    "checked_date": "2026-11-04",
+    "status": "partial exact-model manufacturer and Shopee discovery outside active counts",
+    "canonical_record": "brand/BOSS.md#sy-300--partial-discovery-lead",
+    "active_inventory_changed": false,
+    "sources": [
+      "https://www.boss.info/global/products/sy-300/",
+      "https://static.roland.com/assets/media/pdf/SY-300_e01_W.pdf",
+      "https://static.roland.com/assets/media/pdf/SY-300_ParamGuide_e02.pdf",
+      "https://shopee.co.id/Gitar-Synthesizer-Boss-SY-300-i.8471118.2122215921"
+    ],
+    "revision": "Owner e01 and Parameter Guide e02, copyright2015; current firmware mapping unverified",
+    "market": {
+      "seller": "Anekamusic",
+      "seller_id": "8471118",
+      "item_id": "2122215921",
+      "region": "Depok",
+      "ask_idr": 10300000,
+      "condition": "unverified",
+      "stock": "unverified",
+      "retrieval": "two-month-old crawl, August25–26 delivery; not live checkout",
+      "bundle": "unverified",
+      "used": "no condition-verified ask"
+    },
+    "expression": "SYSTEM assignments shared across patches; PATCH COM LEVEL/SUBOUT LEVEL targets; HOLD recall separate; all-route coverage and numeric endpoints unverified",
+    "next": "Complete power/control/category/firmware/software/import/practice profile and signal coverage before active admission; preserve LCD-first, GT-Pro and compact-expression queues."
   }
 }

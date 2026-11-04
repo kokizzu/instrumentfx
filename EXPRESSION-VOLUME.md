@@ -793,3 +793,7 @@ H90 [automatic relay boundary](brand/EVENTIDE.md#h90): manual1.12.5 says Dual Ro
 FM9 Turbo [discrete volume commands](brand/FRACTAL-AUDIO.md#fm9-turbo) save the loaded preset on each1dB step,including other unsaved edits. They are distinct from continuous global Output Volume assignments;the manufacturer warns against driving these increment/decrement commands with an expression pedal.
 
 FM3 MKII Turbo [digital source andEQ qualifications](brand/FRACTAL-AUDIO.md#fm3-mkii-turbo): S/PDIF can select Output1,Output2 orInput2. The7.x manual contradicts itself about Global EQ reaching USB/digital outputs;neither that EQ Gain nor headphone monitoring proves all-route global EXP attenuation.
+
+### BOSS SY-300 — partial system-assignment lead
+
+[Own e02 parameter-guide findings](brand/BOSS.md#sy-300--partial-discovery-lead) establish **SYSTEM expression assignments shared across patches**, separately from EXP PEDAL HOLD recall. PATCH COM LEVEL and SUBOUT LEVEL targets are documented; numeric endpoints and bypass/USB/headphone/tail/loop coverage remain unverified. No built-in treadle; 255W×191Dmm exceeds the preferred footprint. Shared MAIN L/PHONES output and configurable onboard patch down/up are separate facts. Partial lead outside active counts; do not read system assignment as an all-route mute guarantee.

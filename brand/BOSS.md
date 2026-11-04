@@ -48,6 +48,7 @@ Canonical root brand profiles; all retain explicit verification gaps. Preserved 
 - [Pocket GT](#pocket-gt)
 - [SE-50](#se-50)
 - [SE-70 — partial discovery lead](#se-70--partial-discovery-lead)
+- [SY-300 — partial discovery lead](#sy-300--partial-discovery-lead)
 - [VE-1](#ve-1)
 - [VE-2](#ve-2)
 - [VE-5](#ve-5)
@@ -4637,6 +4638,26 @@ Checked **2026-11-04** against indexed [original owner manual, pp18,32–33](htt
 The earlier global-expression uncertainty is narrowed to a documented per-patch assignment scheme,not converted into proof that a global override is absent. Dedicated headphones are already listed; their pedal/bypass coverage remains unverified. The front CONTROL encoder selects patches by hand; no onboard preset down/up footswitch is identified. **218W×240Dmm** exceeds the preferred200×140 footprint. SE-70 remains a partial lead outside active counts.
 
 Next: verify parameter-level volume placement andminimum/maximum behavior,connector diameters,visual corroboration andqualified IDR;preserve LCD-first andindependent research queues. No local download, MIDI transmission ordevice operation.
+
+## SY-300 — partial discovery lead
+
+Checked **2026-11-04**. Partial candidate **outside the 402 active models**; no ownership assertion. This is distinct from excluded SY-1/SY-200: its own documentation establishes four multi-effects processors alongside synthesis. Admission awaits the remaining profile checks.
+
+| Field | Evidence / qualification |
+|---|---|
+| Synth / instrument scope | [Manufacturer product page](https://www.boss.info/global/products/sy-300/): ordinary guitar/bass input, no divided pickup; polyphonic synthesis with three sections, not a three-note ceiling. Manufacturer zero-latency language is not a measured result. Dedicated acoustic simulation remains unverified. |
+| Processing / memory | Same page: three synth sections plus four FX; 99 user and 70 preset patches. Current firmware and installed contents unverified. |
+| Hardware / display / footprint | Same page: 132×64 backlit graphic LCD; 255W×191D×70H mm, 1.75kg excluding adapter; 400mA draw. Exceeds preferred 200W×140D. Screen diagonal/color/touch, supply voltage/polarity and USB/battery operation remain unverified. No separate footswitch displays established. |
+| I/O / software | Same page: INPUT, THRU, RETURN; MAIN R/MONO and L/PHONES; SUB R/MONO and L; MIDI IN and OUT/THRU; USB-B; shared TRS EXP/CTL4,5; DC IN. Tone Studio editor for Windows/macOS; current OS requirements unverified. |
+| Controls / headphones / navigation | [Own English manual e01, ©2015, pp2–4,9](https://static.roland.com/assets/media/pdf/SY-300_e01_W.pdf): no built-in treadle in panel inventory; four footswitches. CTL2/CTL3 default to patch down/up but can become control switches. Six rotary controls: OUTPUT LEVEL, SELECT and parameters1–4. Full separate-button count unverified. Headphones use MAIN L/PHONES with R/MONO disconnected. USB carries audio/MIDI, not established USB power. |
+| Expression / assignment versus recall | [Parameter Guide/Sound List e02, ©2015, pp13,17–20](https://static.roland.com/assets/media/pdf/SY-300_ParamGuide_e02.pdf): up to three analog-pedal assignments; **CTL MODE=SYSTEM shares settings across patches**. PATCH COM LEVEL and SUBOUT LEVEL are listed targets; MAIN PATCH LEVEL controls MAIN output. TARGET MIN/MAX and ACT RANGE are separate. EXP PEDAL HOLD recalls pedal state; it does not create assignment. Numeric level endpoints, bypass/USB/phones/tail/loop coverage, actual M-VAVE wiring and toe support remain unverified. |
+| Special / pitch qualification | Same guide pp4–5,7,9: oscillator pitch and bend are synthesis parameters; conventional harmony/pitch-shifter FX remain unverified. LO-FI, SLICER, SLOW GEAR, sequencer and oscillator hold are distinct processes. Hold prevents new synth sounds while active. No measured tracking-quality claim. |
+
+### SY-300 — separate IDR offer evidence
+
+[Shopee seller8471118 / item2122215921](https://shopee.co.id/Gitar-Synthesizer-Boss-SY-300-i.8471118.2122215921), **Anekamusic, Depok**, shows **Rp10.300.000** for the exact hardware title. Checked2026-11-04; retrieved content was crawled two months earlier and still shows August25–26 delivery. Condition, variant, adapter bundle, warranty region and live stock are unverified. The up-to-Rp10,000 late-delivery voucher is compensation, not a proven price reduction. **Used:** no condition-verified ask established.
+
+Next: complete separate-button census, power, exact FX subtype census, firmware/editor OS applicability, IR/NAM/capture and practice features; resolve expression endpoints and signal coverage before claiming universal volume. Preserve individual-screen priority and independent GT-Pro/expression queues.
 
 ## VE-1
 
