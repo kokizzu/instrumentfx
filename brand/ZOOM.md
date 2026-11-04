@@ -6630,20 +6630,21 @@ Checked2026-10-17;partial. Separate discontinued rack multi-effects,notRFX-2000.
 
 | Field | Evidence / qualification |
 |---|---|
-| Expression | No built-in pedal;FS01 bypass supported. Dedicated EXP absent from connector inventory;MIDI expression mapping/toe unverified. |
+| Expression | No built-in pedal;FS01 bypass supported. Dedicated analog EXP absent. [Documented MIDI parameters](#rfx-2200--midi-control-and-converter-details-2026-10-17) are separate; CC8 controls MIX, not a verified global volume assignment. Toe control unverified. |
 | K/F/B | **8 rotary /0 onboard footswitches /10 buttons** derived from numbered manual inventory;**2 switches** MIC ON/OFF,POWER separately. Includes EFFECT TYPE selector and4EDIT knobs. [pp2–3][R2200-M] |
 | Display | Patch/parameter display;diagonal,color/touch unverified. |
-| Processing / categories | **48 types=6banks×8**;reverb121settings. Full per-category inventory and simultaneous ceiling pending;fixed multi-effect combinations are documented. [p1][R2200-M] |
-| Preset memory | **100 writable patches**;factory-fill allocation pending. MIDI patch switching/parameter control/data backup documented. [p1][R2200-M] |
+| Processing / categories | **48 types=6banks×8**;reverb121settings. [Complete six-bank inventory](#rfx-2200--complete-bank-type-inventory-2026-10-17) recorded; simultaneous ceiling remains unresolved. Fixed combinations are documented. [p1][R2200-M] |
+| Preset memory | **100 shared writable/factory-restorable slots,01–99,00**, not100 factory plus100 user. Current used-unit contents unknown. MIDI patch switching/parameter control/data backup documented. [p1][R2200-M] |
 | Synth / acoustic | Vocoder uses microphone as envelope/control source. Independent synth/acoustic simulation unverified. [p2][R2200-M] |
 | I/O | Front XLR/phone combo mic;2mono phone line inputs;2mono phone outputs;optical/coaxial S/PDIF;FS01;MIDI IN/OUT/THRU;power cord. Headphone/USB absent from listed inventory. [pp2–3,25][R2200-M] |
 | I/O / input boundary | Guitar connection uses upstream guitar effect;rear inputs expect line level. Front mic normally mixes with rear input. Phantom unverified. [pp2–4][R2200-M] |
+| MIDI / parameter versus volume | [Original CC ranges](#rfx-2200--midi-mix-bypass-and-tap-command-boundaries): CC8 MIX0–127; bypass and tap are separate commands. No global continuous-volume inference. |
 | Digital output | Optical/coaxial can run together;analog OUTPUT control does not change digital output. [p3][R2200-M] |
 | Dimensions / mass | **482W×115D×44Hmm;2.0kg**. [p25][R2200-M] |
 | Power / battery / USB | Regional **100–120VAC or220–240VAC,50/60Hz**,check rear label. Draw,battery operation unverified;DC polarity not applicable to documented mains input. [p27][R2200-M] |
 | IR / NAM / capture | User IR,native/converted NAM,proprietary capture loading unverified. |
 | Editor / platforms | MIDI data backup is not verified full-editor support. Editor/driver/updater OS unverified. |
-| Live / extras | Tap tempo;COMPARE for edited/original sound. Looper,drums,trails and scene facilities unverified. |
+| Live / extras | Tap tempo;COMPARE for edited/original sound. WET MUTE follows dry MIX level; DRY THRU ignores MIX. Looper,drums,trails and scenes unverified. |
 
 Original English manual identity/numbered controls were read as browser text;not a visual census. Detailed algorithm/routing and factory patch-list audit remain;no sibling specifications borrowed.
 
@@ -6715,6 +6716,16 @@ The manufacturer defines its dBm notation using0dBm=0.775Vrms; retain that conve
 Checked 2026-10-28 against [own manufacturer manual][R2200-M], pp2–3,6,25. Complete physical inventory has **no analog EXP input or dedicated headphone socket**; FS01 is effects on/off only. MIDI parameter movement is a separate digital path. **VALUE UP selects higher patches, VALUE DOWN lower**, but these are hand keys, not onboard footswitches. **482W×115Dmm** exceeds preferred width; guitar still requires the documented upstream effect/preamp path.
 
 Direct analog expression position/range/recall are inapplicable to this socket inventory. Retain algorithm-specific WET MUTE/DRY THRU and analog OUTPUT control excluding S/PDIF; none establishes global continuous volume through MIDI or tail/looper coverage. Earlier statement that dedicated EXP was absent is now reflected in the capability comparison; no new hardware admission. Historical sold-out offer remains qualified; no download, reset or device test.
+
+### RFX-2200 — MIDI MIX, bypass and tap command boundaries
+
+Checked **2026-11-05**, [manufacturer original English manual,printed pp11,26][R2200-M],28 pages; implementation chart dated2004. No installed-version or hardware test.
+
+The parameter table specifies **CC86 effect type0–47; CC84 EDIT1 0–10; CC85/87/88 EDIT2/3/4 0–127; CC8 MIX0–127**. MIDI values are control codes,not dB or additional effect slots. MIX changes dry/wet balance,not a documented master-output-volume assignment.
+
+**Bypass reception: CC80 or91,0–63 Off,64–127 On**; transmission uses CC80 with0/127. **Tap reception: CC64,64–127**; outgoing tap sends127 immediately followed by0. Algorithm-specific WET MUTE/DRY THRU still governs bypass audio; these commands do not prove tail retention or universal attenuation. No MIDI transmitted.
+
+The current summary also incorporates the already recorded complete bank inventory and shared100-slot factory-restorable memory. Earlier dated gaps remain historical; current unit contents, global-volume coverage, display details, consumption and qualified live Indonesian offers remain unresolved. No local download.
 
 ## V3
 

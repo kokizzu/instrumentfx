@@ -166478,5 +166478,22 @@
     ],
     "next": "Continue incomplete field profiles and requested individual-display primary-source gaps;retain GT-Pro/general queues",
     "active_inventory_unchanged": 402
+  },
+  "rfx2200_summary_midi_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/ZOOM.md#rfx-2200--midi-mix-bypass-and-tap-command-boundaries",
+    "source": "https://zoomcorp.com/media/documents/E_RFX2200.pdf",
+    "revision": "Original28-page manual pp11,26;2004 MIDI chart",
+    "findings": [
+      "Stale category andmemory summary gaps reconciled with retained evidence",
+      "Exact MIX/bypass/tap ranges distinguished fromglobal volume"
+    ],
+    "remaining": [
+      "Global continuous-volume coverage",
+      "Display details andconsumption",
+      "Qualified live Indonesian offers"
+    ],
+    "next": "Continue systematic remaining profile gaps; preserve individual-display priorities andindependent GT-Pro/general queues",
+    "active_inventory_unchanged": 402
   }
 }
