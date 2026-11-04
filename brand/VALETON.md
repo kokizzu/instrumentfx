@@ -1469,6 +1469,9 @@ The complete supporting comparison was read before merging. Its model-specific v
 
 ### GP-180 comparison fields — dated evidence
 
+Current comparison uses the dated table below plus the explicitly qualified follow-ups. Complete earlier observations remain below and above as provenance.
+
+<!-- comparison evidence begins -->
 | Field | Dated evidence |
 |---|---|
 | Display | HD LCD |
@@ -1481,10 +1484,10 @@ The complete supporting comparison was read before merging. Its model-specific v
 | Width × depth × height, mm | 181 × 139 × 52 |
 | Weight | 843 g |
 | Used IDR observation | ? |
-| New / retail IDR observation | **Rp3.250.000**, Galeri Musik Indonesia; page marks available [detail](VALETON.md#gp-180) |
-| Simultaneous blocks / categories and choices | 12 reorderable blocks; 200+ effects; category breakdown ? |
+| New / retail IDR observation | **Rp3.250.000**, Galeri Musik Indonesia, checked2026-10-14; seller displayed available, not checkout-confirmed. Delivery, taxes, warranty and bundle unverified. [Dated source](VALETON.md#gp-180). |
+| Simultaneous blocks / categories and choices | 12 reorderable modules, DSP-limited; advertised200+ effects. Own V1.0.0 counted NR3, PRE23, WAH4, EQ4, MOD17, DLY14, RVB11, VOL1; DST/AMP/CAB and current-firmware census pending. Choices are not extra slots. [Counting basis](#gp-180--creative-algorithms-and-partial-category-census). |
 | Presets and user storage | 200 total / 100 factory-filled |
-| Synth / acoustic functions | Acoustic presets documented; specific simulator/synth ? |
+| Synth / acoustic functions | Own V1.0.0: OCTA/Pitch/P-Bend polyphonic, Hammy mono, Detune ±50 cents. AC Sim and pickup simulators; Step Filter is not a verified synth engine. Ring Mod, Hold/Freeze and Shimmer. [Algorithms and menu census](#gp-180--creative-algorithms-and-partial-category-census). |
 | Third-party IR | 20, 1024/2048 samples |
 | NAM / captured models | **Native NAM A2 Lite at firmware1.1.1+**, per [official regional notice,2026-08-18](https://www.hotone.jp/announcements/nama2allbrand), rechecked2026-10-17. The product page still describes SnapTone conversion with100 slots/50 supplied; preserve this earlier workflow separately. Native A2 Full, other architectures and native capacity/concurrency remain unverified; conversion-slot counts do not establish native capacity. |
 | Audio / control connections | ¼″ input; L TS unbalanced / R TRS balanced outputs; TRRS headset/mic; 2 × EXP/FS shared MIDI IN and OUT/THRU; USB-C |
@@ -1492,6 +1495,12 @@ The complete supporting comparison was read before merging. Its model-specific v
 | Configuration software | Windows/macOS editor; iOS/Android via Bluetooth |
 | Other relevant features | USB 6-in/4-out; 180 s looper; 100+ rhythms; analog/DSP bypass |
 | New / retail Shopee IDR observations | Checked2026-10-17: [Bandung Music Gallery](https://shopee.co.id/Valeton-GP180-Multi-Effects-Processor-GP-180-i.394955725.48113176759), seller394955725/item48113176759, Kota Bandung, indexed **Rp3.619.140**, comparison Rp3.693.000, displayed2% reduction; stale August delivery. [Artech Music](https://shopee.co.id/Valeton-GP180-Multi-Effects-Processor-GP-180-i.31171541.51763144425), seller31171541/item51763144425, Kota Bekasi: search showed **Rp3.693.000,Habis**; reopening instead showed Rp3.619.140/comparison Rp3.693.000 without that label. Preserve discrepancy; neither is checkout-confirmed stock. Condition, bundle, warranty region, tax/shipping and voucher eligibility unconfirmed. No dependable used quote established. |
+| Expression / socket roles | Jack1 selects **EXP or MIDI IN**; jack2 selects **MIDI OUT, Single FS or Dual FS**. Two shared connectors do not establish two expression inputs. TRS supported; exact resistance/pinout unverified. |
+| Expression / assignment scope | **Patch Settings** assigns EXP A/B, each up to three targets with **0–100 MIN/MAX**. Default EXP A targets VOL. Global calibration is separate; a universal target override remains unverified. The default paragraph incorrectly refers to a built-in pedal; retain this internal wording conflict, not a treadle claim. |
+| Expression / position and coverage | VOL placement determines tail cutoff: last cuts tails, earlier preserves downstream decay. Position recall, analog/DSP-bypass attenuation, headphone/USB/recorded-loop coverage and current-firmware equivalence remain unverified. |
+| Headphones / preset navigation | Dedicated3.5mm TRRS PHONES/MIC; Patch mode A/B cycle patches. This does not establish EXP attenuation of every headphone source. |
+| IDR unresolved Shopee variation | CLOUD MUSIC seller1751522918/item47962277077, Kota Jakarta Utara: Rp3.606.400–Rp4.370.000, two unresolved variations, indexed five days before2026-11-04. Neither endpoint is a verified hardware price; condition, bundle, stock and warranty unknown. [Exact lead](#gp-180--unresolved-shopee-variation-offer). |
+<!-- comparison evidence ends -->
 
 Prices are individual asking/listed observations checked **2026-10-14**, not completed sales or statistically established market ranges. Stock is described as displayed by the seller, not checkout-confirmed. Delivery, taxes, warranty region and accessories are not silently included.
 
@@ -1531,6 +1540,27 @@ The existing **181 W ×139 D mm** chassis fits the preference, with cable cleara
 ### GP-180 — unresolved Shopee variation offer
 
 Checked **2026-11-04**: [CLOUD MUSIC, seller1751522918/item47962277077](https://shopee.co.id/Valeton-GP-180--GP180-HD-Modeling-Guitar-Multi-Effects-Processor-%E2%80%93-Advanced-Multi-Footswitch-Tone-Station-i.1751522918.47962277077), Kota Jakarta Utara, indexed five days earlier: **Rp3.606.400–Rp4.370.000**, two variations. Selection, condition, stock, bundle and warranty are unverified. Neither range endpoint is adopted as a verified hardware price. The late-arrival voucher is not an upfront discount; older exact-item asks remain separately dated.
+
+### GP-180 — creative algorithms and partial category census
+
+Checked **2026-11-04** in the exact [GP-180 V1.0.0 manufacturer manual](https://www.kirstein.de/docs/manuals/00120133/manual_EN.pdf), printed pp39–44,62–71. Historical revision, not current-firmware certification.
+
+**Pitch:** OCTA/Pitch/P-Bend explicitly polyphonic; Hammy monophonic; Detune ±50 cents. **Instrument:** AC Sim has Standard/Jumbo/Enhanced/Piezo modes; H to S/S to H are pickup processing. **Special:** Step Filter is sequenced filtering; dedicated synthesis remains unverified. Hold repeats preactivation audio; Freeze captures at activation. Auto Swell changes onset; Ring Echo modulates repeats; Shimmer is reverb. PRE and MOD alternatives cannot all run independently.
+
+Counted original menu rows, excluding None/Off and parameter modes:
+
+| Category | Choices | Count boundary |
+|---|---:|---|
+| NR |3| Gate1–3 |
+| PRE |23| Includes pitch, filters, simulation, compression, boost and drive choices |
+| WAH |4| V-Wah, C-Wah, B-Wah, Hammy |
+| EQ |4| Guitar EQ1/2, Bass EQ1, Mess EQ |
+| MOD |17| Includes Detune, Auto Swell, Hold, Freeze |
+| DLY |14| Includes Sweep/Ring/Rev/Dual Echo |
+| RVB |11| Includes Shimmer |
+| VOL |1| Volume |
+
+DST/AMP/CAB census remains pending. These counts neither prove the advertised total nor unlimited concurrency; effect loading is DSP-limited. V1.1.1 source-access limits above remain.
 
 ## GP-200
 
