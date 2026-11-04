@@ -163646,5 +163646,29 @@
     "finding": "Exactv3partiallead distinctfromrevisionunknownRK5;pre/postboostboth20dB,loopandpreconfiguredwahpower;9Vcenternegative200mAsupplyminimum/150mAmaxdraw.",
     "next": "Complete exactv3requiredfields andShopeeIndonesiaoffers;notactiveinventoryadmission. PreserveLCD/expression/generalqueues.",
     "active_count_unchanged": 402
+  },
+  "rk5_v3_routing_hardware_20261104": {
+    "checked_date": "2026-11-04",
+    "sources": [
+      "https://www.tech21nyc.com/products/flyrig/rk5v3/",
+      "https://www.tech21nyc.com/wp-content/uploads/2026/01/RK5_v3_OM2.pdf"
+    ],
+    "revision": "OM2 ©2024 printed3–4,7–9;undated exactv3 product page",
+    "canonical": "brand/TECH21.md#rk5-v3--routing-conflict-and-exact-hardware-scope",
+    "findings": [
+      "Product loop pre-effects versus manual post internally-mixed effects:unresolved primary conflict",
+      "Body317.5×63.5×31.75mm converted;approximately587g;fails preferred footprint",
+      "Analog I/O andRK wah stereo-cable power distinguished fromEXP",
+      "Roto replacesDelay;three controls disabled;one-second tuner entry/tap exit"
+    ],
+    "remaining": [
+      "Full physical/display census",
+      "Storage/editor/IR/NAM/capture scope",
+      "EXP/headphones andglobalvolume coverage",
+      "Resolve loop placement",
+      "Exact revision-qualified Shopee Indonesia hardware offer"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue exact RK5v3 gaps when evidence accessible;do not identify revision-unknown seller unit. Preserve individual-footdisplay priority andindependent generalGT-Pro/expression/consolidation queues."
   }
 }

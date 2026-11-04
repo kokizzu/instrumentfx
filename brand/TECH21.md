@@ -254,3 +254,18 @@ Checked **2026-11-04**, [manufacturer support index](https://www.tech21nyc.com/s
 The originaloverview retains SansAmp,OMG overdrive andReverb/Delay/Roto;it names **switchable Pre/Post Boost,an effects loop andpreconfigured power forRK Killer Wail wah** as v3 changes. Page3 gives **up to20dB forboth pre andpost boost**;do not borrow FlyRig5v2’s12dB post value. Wah accessory power doesnot establish an expression input orinternal-parameter mapping.
 
 Cover rates **9VDC center-negative,200mA-minimum supply;approximately150mA maximum device consumption**. Those are different quantities. Completecontrols,display,body,memory,fullI/O,EXP/headphones,IR/NAM/capture,software andqualifiedIndonesianoffers remain pending. ExactShopeeIndonesia v3search surfaced only foreign offers;no IDR conversion ormarket-absence inference. No download,modification ordevice operation.
+
+### RK5 v3 — routing conflict and exact hardware scope
+
+Checked **2026-11-04** against the [v3 product page](https://www.tech21nyc.com/products/flyrig/rk5v3/) and [OM2 ©2024 manual](https://www.tech21nyc.com/wp-content/uploads/2026/01/RK5_v3_OM2.pdf),printed pp3–4,7–9. Browser text only;no local download ordevice operation.
+
+| Field | Exact-revision evidence / qualification |
+|---|---|
+| Body | Product: **12.5L×2.5W×1.25H inches;20.7oz**. Conversion:317.5×63.5×31.75mm,approximately587g;not measured. Fails preferred200×140mm footprint either orientation. Do not borrow FlyRig5v2’s wider body. |
+| Routing conflict | Product places loop after SansAmp,before effects;manual places it after SansAmp **and internally mixed effects**. Primary-source disagreement remains unresolved. |
+| Analog connections | Manual:quarter-inch input1MΩ;unbalanced quarter-inch output1kΩ,unity gain in bypass;balanced low-impedance XLR with ground-connect switch. Both outputs work together. Send/Return is audio. |
+| Accessory power | Stereo cable required for Signature RK Killer Wail phantom power;not verified EXP/CV ormicrophone48V. Other-product compatibility is not established. |
+| Effect alternatives | Roto replaces Delay;Time,Repeats andLevel become inactive. Drift becomes Depth;Tap/Speed ramps rotation speed. These are alternatives,not extra simultaneous slots. |
+| Tuner | Hold Reverb/Tuner **one second** toenter andmute;tap toexit. Do not transfer FlyRig5v2’s half-second gestures. |
+
+EXP/headphones remain unverified;no absence audit claimed. Memory,software,IR/NAM/capture,current stock andfull physical census remain open. This partial lead stays outside active402;the used family-level Shopee offer remains revision-unresolved.
