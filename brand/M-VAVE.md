@@ -1341,6 +1341,7 @@ Sources: [original branded70-page bilingual manual](https://manualf.oss-cn-hongk
 |---|---|
 | Expression / P1-P2 bypass states | [Dated manufacturer manual](#tank-pro--p1p2-target-bypass-and-global-save-boundary):ToeNone leaves block states;Resume restores presetstate when leaving;Disable turns departed target off. This isnot proof ofphysicaltoe hardware,global volume orpedal-position recall. |
 | USB / mode andlevel boundaries | [Original39-page manual](#tank-pro--usb-mode-input-disable-and-level-boundaries):Normal mixes USB/BT backing intorecordings;No excludesbacking;Dry recordsinput whilemonitoringprocessed;Re-amp disablesphysicalINPUT. USBRec0–100,default50=0dB;not anEXP-volume range. |
+| Categories / named WAH-FX-EQ inventory | [Dated20FX/14WAH/8EQ reconciliation](#tank-pro--named-wah-fx-and-eq-count-basis):sharedFX20 isnot40 uniquealgorithms;WAH adds8 compressor/boost alternatives to6wahs;EQ adds5 non-EQ alternatives to3equalizers. Notehandling/ranges remainunverified. |
 
 <!-- comparison evidence ends -->
 
@@ -1466,3 +1467,13 @@ Checked **2026-11-05**, original **2026-06-12** bilingual manual,English16–17/
 **Normal** records instrument plusUSB/BT backing inamixed recording;**No** excludes backing. **Dry** records unprocessedINPUT whilemonitoringprocessed sound. **Re-amp** processes computerplayback anddisables physicalINPUT. These modes do not establish simultaneous independent dry/wet USBchannels.
 
 **USBRec0–100**,default50=0dB,isrecording level;**INPUT LEVEL−15…+15dB** isinputgain. Neither isglobalEXP assignment orproof ofUSB/headphone attenuation bythepedal. Right-outputNormal/Dry/NoCab modes areseparate fromUSB selection;left retains processed/cab signal whilethe right alternative changes. Currentmode equivalence,channelcount andpedalcoverage remainunknown. No download,recording orhardwareoperation.
+
+### TANK-PRO — named WAH, FX and EQ count basis
+
+Checked **2026-11-05**, [original2026-06-12 manual,EN18/PDF19of39](https://www.manualslib.com/manual/4590071/M-Vave-Tank-Pro.html?page=19),corroborated by[original-body mirror](https://device.report/m/3544d1e57e0069ad2be035b67327d578bba8627e5ef3f4374741e51704264f55). Text table,not adevice menu orcurrentfirmware census.
+
+- **SharedFX1/FX2,20 each:** Noise Gate++; AI Gate MS; Soft Gate; Hard Gate; Pro Gate; Compress; Compress Pro; F Compress; Boost; A Boost; B Boost; E Boost; Boost_ED; Lofi; Pitch; Pitch shifter; Octave; Ring; Exp_Vol; Exp_Pan. Five gates+three compressors+five boosts+five other effects+two expression effects=20;not40 uniquealgorithms.
+- **WAH14:** X-Wah; Funk-Wah; Slide-Wah; Cry-Wah; Wah-Wah; Sense-Wah;plus thethree compressors andfive boosts above. Onlythefirstfour wahs explicitly requireEXP;Wah-Wah/Sense-Wah areautomatic.
+- **EQ8:** Guitar EQ 6; Bass EQ 7; Normal EQ 10;plus Lofi; Pitch; Pitch shifter; Octave; Ring. Their6/7/10 suffixes arebandcounts,not additionalalgorithm totals.
+
+Pitch/polyphony,ranges andtracking remainunverified. Ring/Lofi andfiltering do not establish synthesis. Import banks,modulation/delay/reverb naming andcurrentlibrary equivalence remain separate. No download ordeviceoperation.

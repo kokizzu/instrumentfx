@@ -165293,7 +165293,73 @@
     "finding": "Technical source-history audit detected historical processing row overwritten bynewer census wording. Restored exactregistered row;retained newer clarification verbatim inseparatecurrent section.",
     "source_sha256": "757f426d9a03ff1fd2fef266c9a2ebecd50a0d0d1254862868dfaa1d130aea11",
     "scope": "Historical row preservation only;not a new manufacturer ormarket check.",
-    "next": "Rerun fulltechnicalsourcehistory audit;repair anyadditionalprovenomissions individually,then resume display/compactexpression andexactShopee research.",
-    "active_inventory_unchanged": 402
+    "next": "Repairpublished;continue research queues without repeating completedaudit absentnew preservationchanges.",
+    "active_inventory_unchanged": 402,
+    "validation": {
+      "target": "make consolidation-audit-source-history",
+      "result": "Passed afterrepair:99 technicalsourcepaths/295 HEADreachablevariants;no pendingclassification",
+      "scope": "Technicalsourcepreservation only;not metadata/manufacturer/market certification"
+    }
+  },
+  "tankpro_named_wah_fx_eq_20261105": {
+    "checked_date": "2026-11-05",
+    "source": "https://www.manualslib.com/manual/4590071/M-Vave-Tank-Pro.html?page=19",
+    "revision": "Original2026-06-12 EN18/PDF19of39",
+    "fx20": [
+      "Noise Gate++",
+      "AI Gate MS",
+      "Soft Gate",
+      "Hard Gate",
+      "Pro Gate",
+      "Compress",
+      "Compress Pro",
+      "F Compress",
+      "Boost",
+      "A Boost",
+      "B Boost",
+      "E Boost",
+      "Boost_ED",
+      "Lofi",
+      "Pitch",
+      "Pitch shifter",
+      "Octave",
+      "Ring",
+      "Exp_Vol",
+      "Exp_Pan"
+    ],
+    "wah14": [
+      "X-Wah",
+      "Funk-Wah",
+      "Slide-Wah",
+      "Cry-Wah",
+      "Wah-Wah",
+      "Sense-Wah",
+      "Compress",
+      "Compress Pro",
+      "F Compress",
+      "Boost",
+      "A Boost",
+      "B Boost",
+      "E Boost",
+      "Boost_ED"
+    ],
+    "eq8": [
+      "Guitar EQ 6",
+      "Bass EQ 7",
+      "Normal EQ 10",
+      "Lofi",
+      "Pitch",
+      "Pitch shifter",
+      "Octave",
+      "Ring"
+    ],
+    "count_basis": "Menu alternatives;FX1/FX2 shared20each,not40unique;no simultaneousortracking claim.",
+    "remaining": [
+      "NamedMOD/DLY/REV lists",
+      "Currentlibrary/firmware equivalence andnotehandling",
+      "Globalexpression endpoints/coverage andqualifiedIDR"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Complete accessibleTANKPRO modulation/delay/reverb names;preserve displaypriority,GT-Pro/generalqueues andlegacy provenance."
   }
 }
