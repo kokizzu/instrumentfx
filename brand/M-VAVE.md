@@ -1342,6 +1342,7 @@ Sources: [original branded70-page bilingual manual](https://manualf.oss-cn-hongk
 | Expression / P1-P2 bypass states | [Dated manufacturer manual](#tank-pro--p1p2-target-bypass-and-global-save-boundary):ToeNone leaves block states;Resume restores presetstate when leaving;Disable turns departed target off. This isnot proof ofphysicaltoe hardware,global volume orpedal-position recall. |
 | USB / mode andlevel boundaries | [Original39-page manual](#tank-pro--usb-mode-input-disable-and-level-boundaries):Normal mixes USB/BT backing intorecordings;No excludesbacking;Dry recordsinput whilemonitoringprocessed;Re-amp disablesphysicalINPUT. USBRec0–100,default50=0dB;not anEXP-volume range. |
 | Categories / named WAH-FX-EQ inventory | [Dated20FX/14WAH/8EQ reconciliation](#tank-pro--named-wah-fx-and-eq-count-basis):sharedFX20 isnot40 uniquealgorithms;WAH adds8 compressor/boost alternatives to6wahs;EQ adds5 non-EQ alternatives to3equalizers. Notehandling/ranges remainunverified. |
+| Categories / named modulation and time effects | [DatedMOD20/DLY27/REV18 lists](#tank-pro--named-modulation-delay-and-reverb-inventory) distinguish mono/stereo menu variants. Pattern/Ice/Shimmer names alone do not establish exact sequencing, pitch/polyphony, granular synthesis or spillover behavior. |
 
 <!-- comparison evidence ends -->
 
@@ -1477,3 +1478,13 @@ Checked **2026-11-05**, [original2026-06-12 manual,EN18/PDF19of39](https://www.m
 - **EQ8:** Guitar EQ 6; Bass EQ 7; Normal EQ 10;plus Lofi; Pitch; Pitch shifter; Octave; Ring. Their6/7/10 suffixes arebandcounts,not additionalalgorithm totals.
 
 Pitch/polyphony,ranges andtracking remainunverified. Ring/Lofi andfiltering do not establish synthesis. Import banks,modulation/delay/reverb naming andcurrentlibrary equivalence remain separate. No download ordeviceoperation.
+
+### TANK-PRO — named modulation, delay and reverb inventory
+
+Checked **2026-11-05**, [original 2026-06-12 manual, EN18 / PDF19 of39](https://www.manualslib.com/manual/4590071/M-Vave-Tank-Pro.html?page=19); same previously identified manufacturer-authored bilingual body. Current and installed firmware equivalence remains unverified.
+
+- **MOD (20):** Chorus; Tri Chorus; Chorus Stereo; Flanger; Tri Flanger; Flanger Stereo; Tremolo; Tri Tremolo; Opto Tremolo; Tremolo Stereo; Phaser; Phaser Stereo; Vibrato; Tri Vibrato; Opto Vibrato; Vibrato Stereo; Univibe; Tri Univibe; Vibe Stereo; Autofilter.
+- **DLY (27):** mono Clean; Modern; Echo; Analog; Duck; Dtype; Tremolo; Filter; Dual; Lofi; Pattern; Ice; Reverse; stereo adds **PingPong Stereo** and a separate **Stereo**-suffixed version of each of those 13 names. Thus13+14=27 menu choices.
+- **REV (18):** Room; Hall; Plate; Spring; Shimmer; Bloom; Cloud; Lofi; Swell;each also has a **Stereo**-suffixed choice. Thus9+9=18.
+
+These are alternatives inexisting category blocks,not 65 simultaneous effects or 65 deduplicated algorithms. Names alone do not establish Pattern sequencing,Ice/Shimmer pitch details,tracking polyphony,granular synthesis,hold,ortrails across presets. Earlier WAH/FX/EQ lists andqualified import-bank counts remain separate; full current-library certification remains open. No local download or device operation.
