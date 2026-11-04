@@ -160485,5 +160485,18 @@
       "power": "2025-07-15 manufacturer table explicitly SY-1000→PSB-1U: 9V DC 2A supply; device800mA separate; polarity/connector and seller bundle unresolved.",
       "next": "Partial outside402. Complete remaining category/concurrency census, normal-input synth polyphony, power polarity, imports/practice features, current macOS editor matrix and universal-volume signal coverage. Preserve individual-switch-screen, GT-Pro and compact-expression queues."
     }
+  },
+  "prime_drum_switch_save_content_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "HeadRush Prime",
+    "sources": [
+      "https://support.headrushfx.com/en/support/solutions/articles/69000875010-headrush-fx-drum-machine-setup-and-troubleshooting",
+      "https://cdn.inmusicbrands.com/Software/SGEE/5/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.0.0.pdf"
+    ],
+    "revision": "Manufacturer support article firmware unstated; Prime5.0 guide sections4.11 and4.11.3 printedp46",
+    "finding": "Drum mode overrides global press/release timing; drum preset Save differs from audio-loop Save. Canonical record details pattern switching and downloaded versus preloaded kit content.",
+    "scope": "Prime only; no firmware/device operations or local downloads. Shared main-screen labels are not additional OLEDs.",
+    "active_inventory_unchanged": 402,
+    "next": "Continue requested individual-switch-display physical fields and exact-model profile gaps; preserve GT-Pro/general,compact-expression andShopee queues. Prime auxiliary dimensions/current installed kits and numeric rig ceiling remain unverified."
   }
 }
