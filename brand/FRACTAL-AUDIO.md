@@ -1912,6 +1912,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | Processing / bypass and scene CPU | **Original/Turbo3.x manual,p48:** bypassed blocks generally retain CPU demand;changing scene/channel can raise it. Extreme Amp/Delay/Reverb settings can strain dedicated cores without appearing onthe mainmeter. USB connection itself doesnot increase usage. Not a current-firmware benchmark. [Own manual](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf),checked2026-11-01. |
 | Live / preset spillover requirements | **Same manual,pp91,121:** global Spillover OFF/DELAY/REVERB/BOTH defaultsOFF. Matching numbered Delay/Reverb blocks must exist across presets;settings,placement andbypass matter. Different time/size can glitch orsweep tails. Serial **MUTE FX IN**,parallel **MUTE IN** are documented block-bypass tail paths. Scene switching is separate fromthe global preset-spillover switch. This doesnot prove gapless whole-preset changes,recorded-loop continuity orglobalEXP attenuation. |
 | Live / versioned CPU and spillover | **9.0 warns older factory presets may exceed80% CPU, especially non-Turbo;9.01 permits scene-based recovery when load fits.** [Release-qualified limits](#fm9-original--firmware-cpu-limits-and-spillover-source-conflict) retain the manual’s BOTH versus release-history ALL spillover conflict. Neither establishes universal preset-tail continuity. |
+| Categories / Parametric EQ | [November reference](#fm9-original--parametric-eq-band-types-and-ranges): four CPU-limited PEQ instances, five bands each; band-dependent filter types, frequency ranges and blocking slopes. Separate from Drive EQ and the Graphic EQ count conflict; installed equivalence unverified. |
 | Categories / choices | Amp,cab,drive,modulation,pitch,dynamics,EQ,delay,reverb,synth,looper androuting/control documented. Shared TYPES column andamp290+/309+ conflict retained; exact current FM9 choice census unknown. Historical FM9 excludes DynamicDistortion,IRPlayer,RTA,ToneMatch,Vocoder;not a current universal No. [Dated table](#fm9--historical-block-inventory). |
 | Categories / Chorus names | **27 reference types**, counting Dimension1/2/3 separately; two FM9 Chorus instances, DSP-limited. Voice count is internal to a block, not additional simultaneous blocks. [Named list and LFO restrictions](#fm9-original--november-chorus-type-census). |
 | Categories / Compressor names | **19 named reference types**; two FM9 instances, subject to DSP. Look-ahead **0–2ms** adds actual wet-and-dry delay. Auto makeup and compression do not establish global analog pedal volume. [Named census and scope](#fm9-original--november-compressor-type-census). |
@@ -2247,6 +2248,14 @@ Checked **2026-11-05**, [manufacturer November2026 Blocks Guide, pp3,30,60–61]
 - **Multiplexer:** selects one grid-row, physical-input or USB source at a time, unlike Mixer blending. Stereo/Left/Right/Sum modes; no Bypass or Bypass Mode. The shared chapter’s complete connector menu must not be transferred indiscriminately between products.
 
 This is reference behavior, not installed testing, introduction-firmware identification or proof of global pedal coverage. Qualified exact-revision IDR offers remain unresolved; a targeted Shopee search produced none. Existing sources and conflicts remain intact.
+
+### FM9 original — Parametric EQ band types and ranges
+
+Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed pp3,71](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). FM9 permits **four PEQ instances**, CPU permitting; each has five bands. Introduction firmware and installed equivalence remain unverified.
+
+Outer bands1/5 offer Shelving, Shelving2, Peaking, Peaking2 and Blocking. Bands2/4 exclude Blocking; band3 offers only the two Peaking variants. Frequency ranges: band1 **20–2000Hz**, bands2–4 **100–10,000Hz**, band5 **200–20,000Hz**. Q spans **0.1–10**, gain **−20…+20dB**. Outer-band Blocking instead exposes **6–36dB/octave** slope; low Blocking passes frequencies above cutoff, high Blocking passes below. Solo isolates a band for adjustment.
+
+These are controls within PEQ, not extra category choices, physical knobs or tracking synthesis. The separate18-versus16 Graphic EQ count discrepancy remains unresolved; Drive’s embedded EQ is another processor. Existing global-volume and revision qualifications remain. No device operation or download.
 
 ## FM9 Turbo
 
