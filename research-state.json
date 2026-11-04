@@ -165120,5 +165120,38 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue priorityfootdisplay andcompactexpression profiles;preserve GT-Pro technical cursor andGP-200JR→Prime→GE300 generalqueue. Shopee searches continue without treating caches as stock."
+  },
+  "b6_direct_expression_20261105": {
+    "checked_date": "2026-11-05",
+    "sources": [
+      "https://zoomcorp.com/manuals/b6-en/",
+      "https://zoomcorp.com/media/documents/E_B6_FX-list_2.pdf"
+    ],
+    "revision": "HTML©2022,revision unstated;effectlist©2021 Z2I-4452-02 p19",
+    "canonical": "brand/ZOOM.md#b6--patch-pedal-setup-versus-retained-output-volume",
+    "classification": "Per-patch PEDAL setup;OutputVP position retention doesnot prove globalassignment",
+    "remaining": [
+      "Global assignment override andpedal action withouttarget effect",
+      "Power recall,pinout,resistance,toe andall-source/bypass coverage",
+      "Qualified hardware offers andremaining current-firmware census"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue missing no-treadle profiles andpriorityindividual-display gaps;preserve GT-Pro technical cursor andGP-200JR→Prime→GE300 generalqueue. VING fullmanual still timesout;do not convert global-menu VOL into proven persistence.",
+    "offers": [
+      {
+        "shop": "158144224",
+        "item": "28273236329",
+        "seller": "melodiasby",
+        "ask_idr": 8136000,
+        "access": "5monthindexed;serviceunavailable;directcachemiss"
+      },
+      {
+        "shop": "1254740407",
+        "item": "55501789104",
+        "seller": "Musicadei",
+        "ask_idr": 8075000,
+        "access": "5monthindexed;staleJune8;directinaccessible;Fourtitleambiguous"
+      }
+    ]
   }
 }

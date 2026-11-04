@@ -2373,6 +2373,26 @@ Checked **2026-11-04**. The older [official B6 HTML manual](https://zoomcorp.com
 
 Both manuals say **large effects use two effect spaces**. DSP must also stay within100%;an over-budget selection is rejected. Six positions therefore do not guarantee six arbitrary algorithms together. The existing six-effect/DSP qualification remains. The [exact preset list](https://zoomcorp.com/media/documents/E_B6_PatchMemoryList.pdf) is15,454,640 bytes andexceeded the reader’s size limit;factory-filled count remains unverified. No download ordevice test.
 
+### B6 — patch pedal setup versus retained output volume
+
+Checked **2026-11-05**, [manufacturer HTML manual](https://zoomcorp.com/manuals/b6-en/),©2022,no explicit revision number: Using a connected expression pedal;Signal flow;BANK/PATCH mode;Bypass. FP02M controls a **PEDAL-category effect added to the selected patch**. Global manual output/master settings are separate. No global pedal-assignment override is established.
+
+The [manufacturer effect list,©2021 Z2I-4452-02,printedp19](https://zoomcorp.com/media/documents/E_B6_FX-list_2.pdf) distinguishes **PDL Vol** (VOL,Min,Max each0–100;CurveA/B) from **Output VP**,whose output-volume value survives patch changes. Retention doesnot establish operation in patches lacking that pedal effect. Output VP has no listed adjustable endpoint/curve parameters;do not borrow PDL Vol endpoints. Startup/power recall andexact output/tail/loop coverage remain unverified.
+
+| Field | Evidence / qualification |
+|---|---|
+| Expression / assignment and range | No treadle;CONTROL IN accepts FP02M. Per-patch PEDAL setup documented;global override unverified. PDL Vol Min/Max0–100 andCurveA/B;Output VP value retention is a separate property. Pinout,resistance,toe,startup recall andall-mode coverage remain unverified. |
+| Controls / preset navigation | **Previous/next patches andbanks via footswitches inBANK/PATCH mode**;PRESELECT adds confirmation. SharedAMP/LINE[PHONES] output,no separate headphone socket. Existing418W×228Dmm body fails preferred200×140mm. Bass input documented;ordinary-guitar suitability remains unclassified. |
+
+EFX BYPASS skips effects;ALL BYPASS also skips DI. Pedal attenuation during either mode,phones,AUX/USB,tails andrecorded loops remains unverified. No download ordevice operation;instrument membership unchanged.
+
+| Field | Additional exact Shopee offer,checked2026-11-05 |
+|---|---|
+| IDR / condition-unverified adapter bundle | **Rp8.136.000**, [melodiasby,shop158144224/item28273236329](https://shopee.co.id/Zoom-B6-Multi-Effect-U-Bass-Adaptor-Bawaan-i.158144224.28273236329),KotaSurabaya. Five-month indexed body says **Layanan Tidak Tersedia**;direct reader cache miss. Title includes adapter;actual included adapter/region,warranty,condition,working state,variant,stock,shipping/tax andcheckout unknown. Not a new/used price range. |
+| IDR / condition-unverified adapter bundle | **Rp8.075.000**, [Musicadei,shop1254740407/item55501789104](https://shopee.co.id/product/1254740407/55501789104),KotaJakartaSelatan. Five-month indexed title says **B6 Four Bass Inc/Adaptor**;the “Four” wording is retained as a title ambiguity,not another model. Stale8June delivery;direct reader inaccessible. Exact selected hardware,condition,working state,bundle/adapter,warranty,stock,shipping/tax andcheckout unknown. Late-delivery voucher notdeducted. |
+
+Neither offer establishes current availability orcompleted-sale value;older offers remain separately dated.
+
 ## Existing ZOOM research — consolidation still pending
 
 The existing V3 andV6-SP records must be merged completely into this brand document, retaining their original source and price qualifications. They are not new models and have not been deleted. Original records remain under effects/ until a verified lossless merge is completed; do not call the whole repository migration finished merely because this root brand file exists.
