@@ -1882,6 +1882,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 |---|---|
 | Categories / Formant andRotary | [November2026 FM9 reference](#fm9-original--formant-vowels-and-rotary-control-scope):one Formant type,ten vowels,two instances;two Rotary instances,DSP permitting. Vowel/speaker processing isnot synthesizedinstrument generation. |
 | Controls / utility andvolume-save scope | [Original/Turbo3.x utilities](#fm9-original--utility-display-and-volume-save-boundaries):mainLCD contrast isseparate frommini specifications;systemreset preservespresets butclears layouts. Output1/2 VolumeInc/Dec auto-saves preset edits;not continuous globalvolume. |
+| Categories / Resonator modes | [Manual/Chordal controls andchannel routing](#fm9-original--resonator-chord-modes-and-channel-routing): four internal resonators do not establish four blocks orinput-note polyphony. |
 | Categories / Drive special processing | [Drive lo-fi and EQ scope](#fm9-original--drive-lo-fi-controls-and-eq-scope): bit reduction and sample-rate aliasing are processing controls, not converter specifications or tracked synthesis. Three FM9 Drive instances remain CPU-limited. |
 
 <!-- comparison evidence ends -->
@@ -2146,6 +2147,13 @@ Utilities’Display slider adjusts mainLCD contrast/viewing angle,not establishe
 Checked **2026-11-05**, [manufacturer November2026 Blocks Guide, printed pp3,39,41–42](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). **Bit Crusher** is a named Drive choice. **Bit Reduce** subtracts the displayed number from24-bit resolution:20 therefore produces4-bit processing. **Sample Rate** reduction creates intentional aliasing. These controls describe an effect,not hardware converter resolution,USB format ortracking synthesis.
 
 Drive has its own **10-band,2/3-octave EQ**,switchable PRE/POST/OFF. That embedded EQ doesnot identify the two missing variants in the separate Graphic EQ block’s18-versus16 count conflict. The FM9 column allows **three Drive instances**,subject to CPU;87 advertised types are choices,not simultaneous effects or a newly completed named census. Installed-version equivalence andintroduction firmware remain unverified;older evidence retained.
+
+
+### FM9 original — Resonator chord modes and channel routing
+
+Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printedpp3,92](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). FM9 permits **two Resonator instances**,CPU permitting. Each uses **four parallel feedback delays/comb filters**,with corresponding bandpass filters positioned before orafter the resonators.
+
+**MANUAL** sets individual frequencies **100–10,000Hz**. **CHORDAL** derives frequencies from **MAJOR,MAJOR6,DOMINANT7,MAJOR7,MINOR,MINOR6,MINOR7,DIMINISHED,AUGMENTED**,with root **50–5,000Hz**. These nine settings are chord choices inside a mode,not nine new blocks. Mono input sums L/R into allfour resonators;Stereo feeds left to1/2 andright to3/4. Channel routing andresonant chords do not establish input-note polyphony ortracking synthesis. Installed-version equivalence,introduction firmware andmeasured behavior remain unverified;older evidence preserved.
 
 
 ## FM9 Turbo

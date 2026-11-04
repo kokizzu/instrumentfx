@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(headrush): qualify Prime analog AUX volume bypass'
+        message='research(fractal): document original FM9 Resonator modes'
     print(git('commit','-m',message))

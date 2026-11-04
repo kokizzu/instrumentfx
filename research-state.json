@@ -165521,5 +165521,47 @@
     "market": "Fresh search repeats knownHOLY MUSIC945642322/52161712736 Rp22789000 andROCKPIZZ440477624/27890256567 Rp21500000 three-monthcached asks;no newoffer orstock claim",
     "active_inventory_unchanged": 402,
     "next": "Continue display-priority model gaps andgeneral GE300 followups;preserve independentGT-Pro,expression andconsolidation queues"
+  },
+  "fm9_original_resonator_20261105": {
+    "checked_date": "2026-11-05",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 printed3,92",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-original--resonator-chord-modes-and-channel-routing",
+    "modes": [
+      "MANUAL",
+      "CHORDAL"
+    ],
+    "chords": [
+      "MAJOR",
+      "MAJOR6",
+      "DOMINANT7",
+      "MAJOR7",
+      "MINOR",
+      "MINOR6",
+      "MINOR7",
+      "DIMINISHED",
+      "AUGMENTED"
+    ],
+    "manual_frequency_hz": [
+      100,
+      10000
+    ],
+    "chord_root_hz": [
+      50,
+      5000
+    ],
+    "fm9_instances": 2,
+    "internal_resonators": 4,
+    "qualification": "Resonant chord settings andstereo routing are not tracking-synth polyphony;instancesCPUlimited",
+    "remaining": [
+      "Installed equivalence andintroduction firmware",
+      "Other unfinished category censuses",
+      "Global pedal endpoints/outputcoverage",
+      "Exact original-revision IDR hardware"
+    ],
+    "general_queue_recheck": "GE300 usedShopee query returnednoqualifiedoffer;no negative market-coverage claim",
+    "active_inventory_unchanged": 402,
+    "additional_catalogue_matches_unchanged": 66,
+    "next": "Continue display-priority andcompact expression research;retain GT-Pro andGP-200JR→Prime→GE300 generalqueue"
   }
 }
