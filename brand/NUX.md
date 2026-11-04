@@ -242,7 +242,7 @@ Sources: [NUX global product](https://nuxaudio.com/product/atlantic/) (P);[offic
 
 | Field | Finding / qualification |
 |---|---|
-| Expression | Built-in/external/toe support unverified;no dedicated EXP appears in transcribed connector inventory. |
+| Expression | **No direct analog EXP input in the complete indexed original ©2017 I/O inventory**;this documented hardware fails the direct-expression requirement. Built-in/toe support and later hardware-revision equivalence remain unverified. [Exact source/access qualification](#atlantic--complete-original-io-inventory-and-direct-expression-exclusion). |
 | Physical controls / K/F/B | **5 rotary /2 footswitches /0 separate pushbuttons**, derived from M:Delay Level/Time/Repeat,Reverb Level/Decay;Delay/Reverb switches. Four additional toggles:delay type,reverb type,input level,routing. Visual confirmation pending. |
 | Display | Delay/reverb LED indicators;screen diagonal/color/touch unverified. |
 | Processing / simultaneous | **Delay+reverb together**;3delay choices(70sAnalog,60sTape,80sDigital),3reverbs(Spring,Plate,Hall),Plate hold addsShimmer. P:knob ranges40–400/55–550/80–800ms respectively;SmartTAP125–1500ms across types. Two serial orders orparallel;not six simultaneous effects. |
@@ -286,6 +286,12 @@ Checked2026-10-18 against [manufacturer product documentation](https://nuxaudio.
 Checked 2026-10-28 against [NUX product](https://nuxaudio.com/product/atlantic/) and the retained exact-model manufacturer-manual transcription. Its I/O description lists audio INPUT, dual outputs, micro-USB and DC; no EXP or dedicated PHONES is listed. However, the [original 14-page mirrored PDF](https://manuals.plus/m/e1a7aadc61c348307ac5624d7eb51128570a04588497e5c464c8791a7af78ee7_optim.pdf) yielded only INSERT text, so complete original-panel verification remains missing. **Analog EXP and headphones remain unverified**, with no positive support established.
 
 TRS insert/Y-cable audio routing is not expression control. Delay/Reverb LEVEL are wet/dry controls, not evidence of a global final-volume pedal. Placement/endpoints/recall,bypass,headphone,tail andrecorded-loop attenuation remain unknown. Two effect switches/SmartTAP/Shimmer do not establish preset down/up. Retained105D×115Wmm footprint fits preference;size/mass revision conflicts remain. Original stereo/insert wording conflict is unchanged. No device test or download.
+
+### Atlantic — complete original I/O inventory and direct-expression exclusion
+
+Checked **2026-11-04**: indexed manufacturer-authored [©2017 Atlantic/NDR-5 manual PDF reproduction](https://manuals.plus/m/e1a7aadc61c348307ac5624d7eb51128570a04588497e5c464c8791a7af78ee7_optim.pdf), **I/O Jacks section**, corroborated by [same original section,English page5](https://www.manualslib.com/manual/4585380/Nux-Atlantic.html?page=5). The complete connector list is audio Input, two Stereo Outputs, micro-USB for firmware and9V DC;input-level androuting toggles are separately identified. **No analog expression input is present in this documented inventory**, so it fails the requested direct-EXP path. The TRS input is an audio insert,not pedal control.
+
+This supersedes the earlier inventory-completeness uncertainty at indexed-original-text level. Direct primary PDF retrieval still timed out;direct mirror PDF extraction still exposes only INSERT text,andHTML page reopening missed cache. No panel pixels inspected,no hardware tested orlocal files downloaded. Later hardware-revision equivalence,headphone compatibility andstereo/insert conflict remain unresolved. The older qualified screen above remains historical evidence.
 
 ## Cerberus NME-3
 
