@@ -662,6 +662,17 @@ Checked2026-10-18 in the [manufacturer-authored Version2.0 manual](https://manua
 | Price / rejected mixed-model range | [99 MUSIC GALLERY,shop779752300/item19809167109](https://shopee.co.id/Efek-Gitar-Guitar-Nux-MG-30-MG-300-MK-II-MK-2-MG-400-MG-30-Original-Modelling-Processor-Digital-i.779752300.19809167109),KotaJakartaUtara:direct last-month cache lists **3variations,Rp8.829.000–15.929.000**,title mixesMG-30/MG-300MKII/MG-400. Noselected-model price established;neither endpoint assigned toMG-30. Condition,stock,selectedbundle,warranty,voucher anddeliveredtotal unknown;5–7Sepdelivery stale. |
 
 
+### MG-30 — USB routing names and GEN2 patch navigation
+
+Checked **2026-11-04** against the exact [NUX USA MG-30 product body](https://www.nux.us/products/mg-30), QuickTone USB Routing Configuration, and [global manufacturer GEN2 section](https://nuxaudio.com/product/mg30/). Neither page supplies a document revision; the global download branches and editor requirements retained above remain distinct.
+
+| Field | Evidence / qualification |
+|---|---|
+| USB / routing choices | USA names **NORMAL, USB Loopback, REAMP and DRY OUT** in QuickTone. This establishes named routing options, not USB channel counts, simultaneous dry/wet recording, word length, bus power or exact tap positions. The paragraph does not identify a minimum firmware/editor version; V5 separately documents the Loopback addition. |
+| Live / GEN2 patch navigation | Global GEN2 notes list **PATCH ROLLING: Clockwise / Counterclockwise**, with **CTL to quit**. Direction is a navigation setting, not extra patch memory or proof of footswitch bank wrapping. PRE EQ and OUTPUT MODE add dB displays; FOLLOW TAP Preset/Global remains a separate tempo scope, not expression assignment. |
+
+Current-host routing was not tested; no software, driver, firmware or manual file downloaded. The USA page names NMP-2 in its bundle while the global page specifies NMP-2 LITE; retain that naming difference without inferring a changed switch, wiring or Indonesian seller bundle. Touchscreen status, USB channel/format details, initial firmware equivalence and qualified used/new IDR evidence remain open.
+
 <!-- comparison evidence ends -->
 
 ### Preserved shared-source MG-30 fields

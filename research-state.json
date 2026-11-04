@@ -161900,5 +161900,26 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue source-backedmodelprofile gaps;individualfootdisplaypriority retained,independentGTPro/general/consolidationqueuesunchanged"
+  },
+  "mg30_usb_navigation_scope_20261104": {
+    "model": "NUX::MG-30",
+    "checked_date": "2026-11-04",
+    "sources": [
+      "https://www.nux.us/products/mg-30",
+      "https://nuxaudio.com/product/mg30/"
+    ],
+    "findings": [
+      "QuickTone routing names NORMAL, USB Loopback, REAMP, DRY OUT; no channel/format or minimum-version inference",
+      "GEN2 Patch Rolling clockwise/counterclockwise with CTL exit; PRE EQ and Output Mode dB displays",
+      "USA NMP-2 versus global NMP-2 LITE bundle naming retained without hardware/wiring equivalence"
+    ],
+    "unresolved": [
+      "USB channel counts, word length, exact dry tap and firmware/editor applicability",
+      "Touchscreen and current-host behavior",
+      "Qualified used/new exact Shopee Indonesia hardware offers; targeted search produced no new qualified offer"
+    ],
+    "inventory_changed": false,
+    "independent_cursor_preserved": "BOSS GT-Pro",
+    "downloads_or_device_operations": false
   }
 }
