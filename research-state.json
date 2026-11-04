@@ -163731,5 +163731,27 @@
     ],
     "next": "Continue accessible priority footdisplay processor gaps;controller not admitted asaudio multi-effects;preserveGTPro/expression/consolidation queues",
     "active_inventory_unchanged": 402
+  },
+  "prime_alternate_input_control_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "sources": [
+      "https://cdn.inmusicbrands.com/HeadRush/prime/HeadRush%20Prime%20-%20User%20Guide%20-%20v1.0.pdf",
+      "https://cdn.inmusicbrands.com/Software/SGEE/5/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.0.0.pdf"
+    ],
+    "revision": "1.0.0 printed9,53–54;5.0.0 indexed§4.22.2 input corroboration;not5.2test",
+    "canonical": "brand/HEADRUSH.md#prime--alternate-input-and-control-output-qualifications",
+    "findings": [
+      "FXRetR orPerRig selection disables stereoFXreturn",
+      "ExtAmpPolarity switching logic distinct fromaudio/EXP polarity",
+      "TempoLED NormInvOff affectsindicator notOLEDbrightness"
+    ],
+    "remaining": [
+      "Current5.2equivalence andphysicalleft/right",
+      "OLEDpixels/diagonal",
+      "Rig/IRcapacity",
+      "Conditionqualifiedcurrentstock"
+    ],
+    "next": "Continue accessible requested footdisplay/profile gaps;preserve independent generalGTPro/expression/consolidation queues",
+    "active_inventory_unchanged": 402
   }
 }

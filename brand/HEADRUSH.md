@@ -841,6 +841,16 @@ Checked **2026-11-04**, [original manufacturer Prime3.2 release notes,August2024
 
 Existing3.2 synth anddual-path introduction evidence remains unchanged. No firmware,clone orsoftware downloaded,imported orrun;no device settings changed. Current mini-OLED specifications,rig/IR capacity ceilings andcondition-qualified Shopee stock remain unresolved.
 
+### Prime — alternate input and control-output qualifications
+
+Checked **2026-11-04** against [manufacturer User Guide1.0.0,printedpp9,53–54](https://cdn.inmusicbrands.com/HeadRush/prime/HeadRush%20Prime%20-%20User%20Guide%20-%20v1.0.pdf). The input limitation is also present in indexed original [Guide5.0.0,§4.22.2](https://cdn.inmusicbrands.com/Software/SGEE/5/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.0.0.pdf);full5.0/5.2 PDFs exceed reader limits.
+
+- Global **Guitar Input** prose selects Guitar,**FX Ret R**,or**Per Rig**. Selecting either FX Ret R orPer Rig disables **FX-Loop Stereo Return**,leaving mono return. This is an input/loop trade-off,not a second independent stereo instrument input orproof ofcurrent5.2 behavior. Physical left/right applicability hasnot been tested.
+- **Ext Amp Polarity Norm/Inv** reverses external amp-control switching logic. It doesnot remove the documented **short-to-sleeve** amplifier-input requirement,change audio polarity orconfigure expression-pedal wiring.
+- **Tempo LED Norm/Inv/Off** selects on-beat,off-beat orno flashing. This affects the Tap Tempo switch indicator,not tempo inversion,audio modulation orOLED brightness/technology.
+
+Existing12OLED count,per-rig expression limitations andunresolved rig/IR capacity remain. ExactShopee search repeats existing cached asks only;no new stock claim. No download,connection,setting change ordevice operation.
+
 ## VX5
 
 <!-- comparison evidence begins -->
