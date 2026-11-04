@@ -163281,5 +163281,23 @@
     ],
     "active_inventory_changed": false,
     "next": "Defer current-host certification without new primary evidence; continue other no-treadle profile gaps. Preserve independent GT-Pro/general and footswitch-display queues."
+  },
+  "rp360_aux_tap_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://manualmachine.com/digitech/rp360/1256376-user-manual/",
+    "revision": "Shared5041674-B printed32–33; manufacturer-authored reproduction",
+    "canonical": "brand/DIGITECH.md#rp360--aux-bypass-and-tap-tempo-prerequisites",
+    "findings": [
+      "AUX bypasses effects and feeds main L/R and headphones; chain Volume is not an all-source master",
+      "Tap requires Stomp Mode plus Delay assigned to switch; approximate2second entry/exit holds"
+    ],
+    "remaining": [
+      "AUX USB-record routing",
+      "Global expression override and held-position recall",
+      "Other-route pedal coverage",
+      "Exact non-XP hardware offers"
+    ],
+    "active_inventory_changed": false,
+    "next": "Continue other no-treadle required-field gaps; preserve independent GT-Pro and individual-footdisplay queues."
   }
 }

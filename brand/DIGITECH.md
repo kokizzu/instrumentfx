@@ -1245,6 +1245,16 @@ Checked **2026-11-04**, [manufacturer software-download page](https://digitech.c
 
 These are historical editor requirements, not current driver/audio certification. Windows11,ARM hosts,current macOS and installed firmware equivalence remain unverified. RP360 remains a partial lead outside active counts; global expression scope and exact non-XP Shopee hardware remain open.
 
+### RP360 — AUX bypass and tap-tempo prerequisites
+
+Checked **2026-11-04**, manufacturer-authored [shared manual reproduction, printedpp32–33](https://manualmachine.com/digitech/rp360/1256376-user-manual/), matching5041674-B identity established above.
+
+**AUX audio bypasses all effects** and reaches LEFT,RIGHT andHEADPHONE outputs. The manual balances accompaniment with the source-player volume and RP Master Level. Consequently, the effect-chain Volume module does not establish AUX attenuation; a guitar-volume pedal must not be represented as an all-source master. USB recording of AUX is not specified by this passage.
+
+**Tap Tempo requires Stomp Mode, a Delay in the preset, and that Delay assigned to an onboard footswitch.** Hold its switch approximately2seconds to enter tapping;hold again to exit. This is not a separate always-available tap switch or proof of simultaneous Preset-mode navigation.
+
+No device test or download. Global expression override, held-position recall, other-route coverage and exact non-XP hardware offers remain open. RP360 stays outside active inventory.
+
 ## RP360XP
 
 Expression-equipped guitar processor;not RP360. Checked 2026-10-17. Past-product status does not establish retailer stock. Bass suitability unclassified.
