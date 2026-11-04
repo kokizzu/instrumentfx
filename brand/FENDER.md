@@ -205,6 +205,7 @@ Original11-page PR6171 owner-manual pages corroborate the mirrored guide's effec
 | Controls | **2 ordinary rotary encoders plus 10 rotary footswitch encoders / 10 footswitches / 0 separate front buttons**. Encoder pushes are not counted again; rear ground-lift, update, reset and power controls are separate. [M3,M4] |
 | Memory / historical editing corrections | **1.6.48,2025-08-27:** fixes PAGE-footswitch saving breaking PAGE behavior,Base Preset amp controls following Scene settings during preset changes,and some4×12 British Alnico100 IRs failing toload. These are revision-specific fixes,not independent Scene chains orcurrent hardware failures. [Details](#tone-master-pro--historical-page-save-scene-and-ir-corrections). |
 | Controls / assignment pages | Firmware **1.8.45 (2026-06-03)** adds a second footswitch-assignment page: **16 assignments per preset**, maximum **8 scenes**. These are paged functions,not16 physical switches or LCDs. Blank assignment switches can be held for assignment selection. New looper assignments operate the existing global looper,not another effect block. [Release notes][R],rechecked2026-10-31. |
+| Live / tuner and mixer controls | [Firmware-qualified strobe/exit policy and strip-level mixer readouts](#tone-master-pro--tuner-mode-and-encoder-operated-mixer-readouts); encoder control is separate from global analog expression. |
 | Main display | **7-inch color touchscreen**. Resolution not established in checked primary text. [P,M3] |
 | Auxiliary displays | **Ten dedicated LCD scribble strips, one per footswitch/rotary encoder**, confirmed by exact manufacturer page2026-10-31. Navigation/master readouts remain separate; do not count them as additional footswitches. Strip diagonals and color/touch properties unverified; LED ring colors are not LCD color specifications. [M3];[Current manufacturer](https://www.fender.com/products/tone-master-pro) |
 | Display / Song labels and Gig View | [Firmware1.5 stage-navigation rules](#tone-master-pro--song-strip-labels-and-gig-view-source-details): LABEL+PRESET NAME orLABEL ONLY;Setlist Gig View uses far-left switches forSong−/+,not established individual preset−/+. Main-view simplification doesnot establish editing lockout. |
@@ -772,3 +773,12 @@ Checked **2026-11-05**, [manufacturer-authored firmware1.5 owner manual, printed
 | Display / looper strip states | Record/Overdub and Play/Stop scribble strips show their current mode. Corresponding LEDs distinguish capture and playback states; this does not establish LCD color, dimensions or touch support. |
 
 Global looper settings and playback across presets remain documented separately; audio retention after power-off and universal expression attenuation remain unresolved. No download, recording or device operation.
+
+### Tone Master Pro — tuner mode and encoder-operated mixer readouts
+
+Checked **2026-11-05**, [Fender US cumulative release history](https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates); retrieved headline remains1.8.58,July15,2026. No software or firmware downloaded or device operated.
+
+- **1.8.45,June3,2026:** adds a strobe tuner, selected from the tuner’s top-right menu. Separately adds **Global Settings→Footswitch→Exit Tuner On Preset Change**. This is a configurable exit policy, not proof that every preset change always exits or mutes every signal source; default state is not specified in that release entry.
+- **1.3.74,June3,2024:** enables Global EQ and mixer footswitch control, with parameter levels on scribble strips and faders adjusted using footswitch encoders. These are the existing rotary footswitches and strips, not extra controls or touch-sensitive LCDs. They do not establish continuous analog expression assignment to Master Volume.
+
+Installed behavior, tuner accuracy, current EQ/mixer encoder mapping and universal output attenuation remain untested. Existing source conflicts and physical display gaps are retained.

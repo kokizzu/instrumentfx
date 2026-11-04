@@ -166003,5 +166003,22 @@
     ],
     "next": "Return to individual-footswitch-display manufacturer/market gaps; retain Stomp remaining questions, GT-Pro, expression and general GP-200JR→Prime→GE300 queues",
     "active_inventory_unchanged": 402
+  },
+  "tmp_tuner_mixer_readouts_20261105": {
+    "checked": "2026-11-05",
+    "model": "Fender::Tone Master Pro",
+    "canonical": "brand/FENDER.md#tone-master-pro--tuner-mode-and-encoder-operated-mixer-readouts",
+    "source": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+    "revisions": [
+      "1.8.45 June3,2026 strobe and configurable tuner exit",
+      "1.3.74 June3,2024 mixer/EQ footswitch encoder levels on strips"
+    ],
+    "limits": [
+      "No default exit-policy inference",
+      "No tuner accuracy or installed behavior test",
+      "Encoder control does not establish analog global-volume assignment"
+    ],
+    "next": "Continue individual footswitch-display model physical/algorithm/market gaps; retain independent GT-Pro, expression and GP-200JR→Prime→GE300 queues",
+    "active_inventory_unchanged": 402
   }
 }

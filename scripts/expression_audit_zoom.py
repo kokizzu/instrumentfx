@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(hotone): qualify Stomp looper placement and capture targets'
+        message='research(fender): document tuner policy and mixer strip readouts'
     print(git('commit','-m',message))

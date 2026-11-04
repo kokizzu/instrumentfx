@@ -207,3 +207,5 @@ FM9 MKII Turbo [historical layout-view qualification](brand/FRACTAL-AUDIO.md#fm9
 Helix Stadium XL: [FS6 return and Combo restrictions](brand/LINE6.md#stadium-xl--mode-return-and-combo-layout-restrictions) qualify the individual-strip layout: Transport cannot occupy Combo, and automatic preset return depends on the configured FS6 modes.
 
 PLETHORA X3 [immediate tap andencoder BPM adjustment](brand/TC-ELECTRONIC.md#plethora-x3--immediate-tap-and-encoder-bpm-adjustment) arefirmware1.4.3 live controls;they do not addLCDs orresolve currentfoot-operated Board-navigation mapping.
+
+Tone Master Pro [EQ/mixer strip readouts and tuner-mode controls](brand/FENDER.md#tone-master-pro--tuner-mode-and-encoder-operated-mixer-readouts): 1.3.74 documents encoder-adjusted mixer/EQ levels on existing strips; 1.8.45 adds strobe tuning and a configurable preset-change tuner exit. These do not add displays or establish touch-sensitive strips.
