@@ -105,7 +105,7 @@ The manufacturer-authored joint 2.00 manual [PE-M], printed pp.14–16 and 29–
 | External analog volume | **Yes, GLOBAL Volume Jack → Volume/FS4**, same expressly documented family setting above; TS/splitter wiring caution applies. No per-preset volume-block setup required. |
 | Volume position | After amp/cab, before MOD and DELAY/REVERB/LOOPER. Not a dedicated final-output mute. |
 | Headphones / switching | Dedicated **3.5 mm stereo headphones**. Hold ON and TAP together to enter Preset Mode, then the two onboard switches scroll down/up. |
-| Library / memory | Official Black page: **7 amps, 7 cabs, 17 effects including looper; 21 overwriteable preset locations**. Distortion, Boost, Modulation and Delay/Verb are its four panel categories. This is not the white model's separate Delay plus Reverb arrangement. Exact per-model/category names and concurrent-count audit remain to complete. |
+| Library / memory | Official Black page: **7 amps, 7 cabs, 17 effects including looper; 21 overwriteable preset locations**. Distortion, Boost, Modulation and Delay/Verb are its four panel categories. This is not the white model's separate Delay plus Reverb arrangement. Named category census is recorded below; full concurrent-path audit remains incomplete. |
 | Physical controls / display | Official numbered panel: AMP encoder, four effect knobs and side volume; ON/TAP footswitches; ALT; LED ring rather than a graphical screen. Screen diagonal N/A; no touchscreen in the complete panel. |
 | Size / weight | **Primary-source numerical dimensions and mass remain unverified** in the inspected pages/manual. Manufacturer calls it compact/ultra-portable, but do not certify the exact 200 × 140 mm chassis fit using unverified sibling or retailer measurements. |
 | Power / USB | Family FAQ explicitly includes Black: three AA or 9 V DC supply, **not USB bus powered**. USB audio/editing documented. Complete supply details and remaining full-profile fields stay qualified by the family manual above. |
@@ -195,6 +195,17 @@ Amp selection loads its matched cabinet; another of the seven cabinets or cabine
 Checked2026-11-03. [Yamaha’s March6,2024 announcement](https://www.yamaha.com/ja/news_release/2024/24030601/) explicitly names **Guitar andBass**,publishing92W×130D×56Hmm,350g. Their manufacturer-dimension task is complete;those figures do not certify Black. Battery inclusion andplug clearance remain separate unknowns.
 
 The [current Line6 weights/dimensions support article](https://kb.line6.com/line-6-product-weights-and-dimensions) links spreadsheets named100407 and12-19-2017 andwarns that newer products may be absent. No spreadsheet was downloaded orinspected;its title alone cannot establish Black dimensions. The [Japanese family page](https://line6.jp/podexpress/) identifies Black separately,butits exact Black link returned cache miss andthe comparison endpoint exposed navigation only. Thus the remaining dimension task specifically concerns **Black**,not already documented Guitar/Bass. Current Black chassis/mass andqualified Shopee hardware remain unverified;retain prior Singapore bundle/announcement limits.
+
+### Black — named effect choices and shared delay/looper slot
+
+Checked2026-11-04. Manufacturer-authored **RevE, firmware2.00, printed24–27**, [readable original manual body](https://manualzz.com/doc/81729734/line-6-pod-express---black-owner-s-manual); official PDF exceeds reader size limit. Two-column extraction interleaves Bass headings; the Black tables are identified by their own heading and model names, not adjacent Bass SYNTH entries.
+
+- DIST: OPAMP, LED, DIST, FUZZ.
+- BOOST: COMP, MIDS, DIRTY, CLEAN.
+- MOD: CHORUS, FLANGER, PHASER, TREMOLO.
+- DELAY VERB: DIGITAL, TAPE, AMBIENCE, HALL, plus LOOPER.
+
+Thus **4+4+4+5=17 selectable entries**, not17 concurrent effects. Delay, reverb and looper share one selection; a separate simultaneously available delay and reverb is not established. Black modulation is initially unsynced to TAP; Edit can enable sync. Mono/stereo labels describe audio channels, not note tracking. No Black synth is established by the neighboring Bass table. Current installed firmware remains untested.
 
 ### Black — bypass scope and loop retention
 
