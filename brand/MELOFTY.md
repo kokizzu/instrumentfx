@@ -476,3 +476,13 @@ Checked **2026-11-05**: [Esse Music Store, exact AXOM MAX product1024423/templat
 The same seller body lists **3.1kg,5GHz Wi-Fi,48kHz/32-bit USB**, and **60-minute looper/120 minutes with layering**. These differ from retained manufacturer/importer mass, radio and USB qualifications; the layering wording does not prove120 minutes of independent recording capacity. Its270+/90+/600+ amp/cab/effect figures also differ from the retained400+/210+/130+ importer breakdown. No source revision, hardware variant or firmware change reconciles them. Preserve these as seller discrepancies rather than replacing canonical specifications or adding algorithm totals.
 
 This is an Italian offer, not Shopee Indonesia or IDR evidence. No currency conversion or local stock inferred. Manufacturer site retrieval remained inaccessible; no qualified exact Shopee hardware found. Partial lead remains outside402 active records; primary display confirmation, current library and external global-expression coverage stay open. No downloads or device operation.
+
+### AXOM MAX — assignment removal and parameter indicators
+
+Checked **2026-11-05** in the [manufacturer English V1.7.4 manual,2026-08-31,printed23–24](https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Melofty/EN/MEL_AXOM_MAX_Manual_EN.pdf). Original text; no device operation.
+
+- In STOMP editing, a controlled module’s delete icon removes that module from the switch assignment. DELETE in the expanded switch-selection interface instead clears **all controls assigned to that switch**. Neither instruction says to delete the underlying audio block orreset every switch.
+- Expression editing selects **EXP1/EXP2/EXP3(EXT)**. Blue/yellow/purple parameter indicators identify the assigned controller, and a pedal icon marks an assigned module. These are editing-interface indicators,not evidence that the physical mini displays render those colors.
+- Deselecting a parameter removes its expression assignment;the expanded DELETE control clears the controls together. The abbreviated text doesnot define that clear operation across other controllers,presets orscenes. Keep its scope unresolved rather than assuming a device-wide reset.
+
+These assignment operations differ from clearing audio samples,factory reset orpedal calibration. They do not establish external global master-volume assignment,all-source mute,mini-display technology orcurrent firmware equivalence. Partial lead remains outside402;the already-recorded app1.9 notes addno new verified hardware revision here.

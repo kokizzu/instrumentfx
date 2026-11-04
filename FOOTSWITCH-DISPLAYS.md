@@ -211,3 +211,5 @@ PLETHORA X3 [immediate tap andencoder BPM adjustment](brand/TC-ELECTRONIC.md#ple
 Tone Master Pro [EQ/mixer strip readouts and tuner-mode controls](brand/FENDER.md#tone-master-pro--tuner-mode-and-encoder-operated-mixer-readouts): 1.3.74 documents encoder-adjusted mixer/EQ levels on existing strips; 1.8.45 adds strobe tuning and a configurable preset-change tuner exit. These do not add displays or establish touch-sensitive strips.
 
 FM3 MKII Turbo [November Windows driver bundle](brand/FRACTAL-AUDIO.md#fm3-mkii-turbo--november-windows-driver-bundle-and-editor-boundary): audio6.20/serial1.3 are separate from FM3-Edit1.07.17 and hardware firmware13.0. Driver architecture support does not resolve mini-LCD physical specifications or certify native ARM editing.
+
+AXOM MAX [assignment removal and controller indicators](brand/MELOFTY.md#axom-max--assignment-removal-and-parameter-indicators) now distinguish single-module removal from clearing a switch’s assignments. Editing-interface colors do not establish mini-display color ortechnology.
