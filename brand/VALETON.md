@@ -1476,7 +1476,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 | Monochrome / color | Color |
 | Touchscreen | ? |
 | Evidence and remaining uncertainty | [Manufacturer product page and firmware-1.0.0 manual](VALETON.md#gp-180)<!-- historical-link:valeton-018 --> |
-| Built-in / external expression | No / 2 × EXP/FS, shared MIDI functions |
+| Built-in / external expression | No treadle; one direct analog EXP input: jack1 EXP/MIDI IN. Jack2 is MIDI OUT or single/dual FS, not a documented second EXP input. V1.0.0 pp17,27; [scope and coverage](#gp-180--direct-expression-scope-and-socket-role-correction). |
 | K/F/B | 5/3/16 [controls](https://res.valeton.net/Uploads/wp/2026/03/GP-150-GP180-Comparison-2.png) |
 | Width × depth × height, mm | 181 × 139 × 52 |
 | Weight | 843 g |
@@ -1514,6 +1514,23 @@ The complete compact source, unchanged since the preceding audit, was checked on
 | `P8` | [Official-shop historical USD179.99 source](https://shop.valeton.net/products/gp-180) |
 
 The original SnapTone row remains separate from the later native NAM A2 Lite firmware qualification. The expanded DC/USB operation-versus-charging figures and two shared EXP/FS/MIDI connections above remain intact; this source audit does not retest them or refresh stock.
+
+### GP-180 — direct expression scope and socket-role correction
+
+Checked **2026-11-04**, [manufacturer GP-180 manual for firmware V1.0.0](https://www.kirstein.de/docs/manuals/00120133/manual_EN.pdf), printed pp17–18,24–28. Exact-model numbered panel and specifications identify the no-treadle GP-180; no sibling specifications transferred.
+
+| Field | Evidence / remaining boundary |
+|---|---|
+| Expression / socket roles | Jack1 selects **EXP or MIDI IN**; jack2 selects **MIDI OUT, Single FS or Dual FS**. Two shared connectors do not establish two expression inputs. TRS supported; exact resistance/pinout unverified. |
+| Expression / assignment scope | **Patch Settings** assigns EXP A/B, each up to three targets with **0–100 MIN/MAX**. Default EXP A targets VOL. Global calibration is separate; a universal target override remains unverified. The default paragraph incorrectly refers to a built-in pedal; retain this internal wording conflict, not a treadle claim. |
+| Expression / position and coverage | VOL placement determines tail cutoff: last cuts tails, earlier preserves downstream decay. Position recall, analog/DSP-bypass attenuation, headphone/USB/recorded-loop coverage and current-firmware equivalence remain unverified. |
+| Headphones / preset navigation | Dedicated3.5mm TRRS PHONES/MIC; Patch mode A/B cycle patches. This does not establish EXP attenuation of every headphone source. |
+
+The existing **181 W ×139 D mm** chassis fits the preference, with cable clearance additional. Patch target editing is documented; no source establishes one global volume setup for arbitrary existing presets. The [V1.1.1 effect-list entry](https://www.valeton.net/wpfd_file/gp-180_effect-list_en_firmware-v1-1-1-pdf/), updated2026-08-26, redirects to an inaccessible file; later parameter equivalence is not assumed.
+
+### GP-180 — unresolved Shopee variation offer
+
+Checked **2026-11-04**: [CLOUD MUSIC, seller1751522918/item47962277077](https://shopee.co.id/Valeton-GP-180--GP180-HD-Modeling-Guitar-Multi-Effects-Processor-%E2%80%93-Advanced-Multi-Footswitch-Tone-Station-i.1751522918.47962277077), Kota Jakarta Utara, indexed five days earlier: **Rp3.606.400–Rp4.370.000**, two variations. Selection, condition, stock, bundle and warranty are unverified. Neither range endpoint is adopted as a verified hardware price. The late-arrival voucher is not an upfront discount; older exact-item asks remain separately dated.
 
 ## GP-200
 

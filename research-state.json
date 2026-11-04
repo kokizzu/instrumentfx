@@ -160584,5 +160584,35 @@
       "Condition-qualified new/used Shopee stock"
     ],
     "active_inventory_unchanged": 402
+  },
+  "gp180_expression_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://www.kirstein.de/docs/manuals/00120133/manual_EN.pdf",
+    "revision": "firmware V1.0.0,printed17–18,24–28",
+    "socket_correction": "Jack1 EXP/MIDI IN;jack2 MIDI OUT/Single FS/Dual FS;not two documented EXP inputs",
+    "assignment": "Patch Settings EXP A/B,up tothree targets perstate,MIN/MAX0–100;defaultA VOL",
+    "conflict": "Default paragraph says built-in pedal despite exactno-treadle panel;do not adopt hardware claim",
+    "coverage": "VOL placement affects tail cutoff;recall,bypass,phones,USB,recorded-loop attenuation unresolved",
+    "global_override": "unverified;calibration not assignment",
+    "newer_source": "https://www.valeton.net/wpfd_file/gp-180_effect-list_en_firmware-v1-1-1-pdf/",
+    "newer_access": "2026-08-26entry redirects inaccessible;bodyunverified",
+    "offer_lead": {
+      "url": "https://shopee.co.id/Valeton-GP-180--GP180-HD-Modeling-Guitar-Multi-Effects-Processor-%E2%80%93-Advanced-Multi-Footswitch-Tone-Station-i.1751522918.47962277077",
+      "seller": "CLOUD MUSIC",
+      "region": "Kota Jakarta Utara",
+      "ask_idr_range": [
+        3606400,
+        4370000
+      ],
+      "variations": 2,
+      "condition": "unknown",
+      "stock": "unknown",
+      "bundle": "unknown",
+      "warranty": "unknown",
+      "access": "searchindex,crawled5daysprior",
+      "price_adopted": false
+    },
+    "active_inventory_unchanged": 402,
+    "next": "Continue no-treadle inventory independently;requested separate switch displays retainpriority;GT-Proqueue unchanged."
   }
 }
