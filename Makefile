@@ -2439,3 +2439,15 @@ brand-sort-plan-boss:
 	python3 scripts/brand_sort.py plan brand/BOSS.md
 brand-sort-apply-boss:
 	python3 scripts/brand_sort.py apply brand/BOSS.md
+
+.PHONY: creative-publication-audit
+creative-publication-audit:
+	python3 scripts/creative_publication_audit.py
+
+.PHONY: creative-publication-stage creative-publication-commit creative-publication-push
+creative-publication-stage:
+	python3 scripts/creative_publication_audit.py stage
+creative-publication-commit:
+	python3 scripts/creative_publication_audit.py commit
+creative-publication-push:
+	python3 scripts/creative_publication_audit.py publish
