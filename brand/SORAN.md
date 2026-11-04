@@ -266,7 +266,7 @@ Desktop guitar/bass multi-effects;checked2026-10-18,partial. Own manufacturer ma
 | Display | 2-inch color TFT;touch unverified. [TS-P] |
 | Processing / choices | Advertised125effects/up to10modules:8tone modules pluslooper/drums. Per-category audit below separates factory choices from empty import slots. 30factoryamps/cabs plus10user slots each. [TS-P],[TS-M] |
 | Factory / user memory | 99editable locations;manual describes99factory presets,product01–80guitar/81–99bass. Not198locations. [TS-P],[TS-M] |
-| Synth / acoustic | Specific synth/acoustic simulation unverified. |
+| Synth / acoustic | Harmony andDetune are MOD choices;Shimmer pitches reverb tails. Dedicated synth/acoustic simulation,input-note polyphony andpitch ranges remain unverified. [Exact named choices](#tiny-stomp--named-modulation-and-pitched-reverb-boundaries). |
 | Dimensions / mass | 109L×84W×32H mm;250g. [TS-P] |
 | I/O | Mono¼TS input;shared¼TRS stereo OUT/PHONES,TRS EXP/CTRL,USB-C. TS output cable givesleft only;TRS splitter suppliesL/R. [TS-P],[TS-M] |
 | Power / battery / USB | 1500mAh3.7V battery,up to4h;USB-C5V charging. Manual says USBaudio/OTG stops charging. Draw,USB-only operation andbarrelpolarity unverified. [TS-P],[TS-M] |
@@ -316,3 +316,16 @@ Checked **2026-10-28** in [manufacturer Tiny Stomp manual,JME-03A](https://www.s
 Checked **2026-10-28**, [own manufacturer manual,printedpp11–14](https://www.soranaudio.com/upload/files/article/20260106/17676658354117637.pdf). INPUT gain/attenuation spans **±10dB**,automatically saved,unchanged by presets. GLOBAL EQ has Bass100Hz,Mid1kHz,Treble4kHz,each±12dB,withthe same persistence statement. This explicit global wording applies to those settings;it does not establish expression target persistence.
 
 Looper **REC** and**PLAYBACK** levels are independent. Loop Sync starts drums with an empty recording;recorded content locks drum BPM until cleared. Tuner selects Mute/Bypass. None of these passages identifies looper position relative to EXP orproves pedal attenuation ofrecorded audio,tuner bypass,headphones ordecays. Keep direct EXP volume documented butglobal assignment/range/coverage unknown. No hardware test ordownload.
+
+### Tiny Stomp — named modulation and pitched-reverb boundaries
+
+Checked **2026-11-04**, [manufacturer Tiny Stomp manual,printedpp25–26](https://www.soranaudio.com/upload/files/article/20260106/17676658354117637.pdf),original text. Firmware revision unstated;table extraction reorders some lines,no visual alignment ordevice test.
+
+| Module | Named choices / scope |
+|---|---|
+| MOD13 | Chorus-1;Chorus-2;Stereo Chorus;Vibrato;Detune;Flanger;Phaser90;Phaser100;Chorus+;Uni Vibe;Tremolo;Chorus-3;Harmony |
+| EQ2 | 6-band EQ;10-band EQ |
+| DEL7 | Analog Delay;Digital Delay;Mod Delay;Tape Delay;Reverse Delay;Pan Delay;Physical Delay |
+| REV6 | Room;Hall;Plate;Spring;Shimmer;Damp |
+
+**Harmony** adds a shifted note above/below theinput;input-note polyphony,ranges andscale behavior areunverified here. **Shimmer** adds pitched harmonics tothe reverb tail,not atracking synth. Reverse Delay reverses repeats;Pan Delay alternates left/right. These occupy existing modules;Harmony andDetune are MOD alternatives,not proof ofindependent simultaneous pitch blocks. Existing105factory/20import-slot counting staysunchanged. Global EXP-volume persistence andoutput coverage remain unresolved;no local download ordevice operation.
