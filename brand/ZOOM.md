@@ -6514,15 +6514,16 @@ Rack multi-effects, checked 2026-10-17. Partial verification; unknown is not No.
 | Field | Evidence / qualification |
 |---|---|
 | Instrument scope | Guitar requires preamp/effect before line input; vocal uses dynamic-microphone input. Bass suitability unclassified [R11-M pp.2–4] |
-| Expression | No built-in pedal/toe; external expression unverified. Optional FS01 bypass footswitch [R11-M p.2] |
+| Expression | No built-in pedal or analog EXP input in the complete inventory. Optional FS01 switches effects only; no direct continuous expression-volume path documented. [Own connector audit](#rfx-1100--direct-expression-capability-screening) supersedes earlier uncertainty. |
 | Knobs / footswitches / buttons | 7 rotary controls/selectors derived: Input, Output, Mix, Adjust, Character, Bank, Effect Type;0 footswitches; button count unverified, mic and power switches separate [R11-M pp.2–3] |
 | Display | LED level/status indicators; screen diagonal/color/touch unverified |
 | Processing / categories | 33 selections in three banks of11. REVERB: Hall, Room, Plate, Vocal, Ambience, Dimension, Percussion, Ensemble, Power, Gate, Reverse. EFFECTS: CompLim, Delay, Pitch, Chorus, Flanger, Phaser, TRM-PAN, DLY+REV, CHO+REV, DLY/REV, FLG/REV. MIX&SFX: Power/Wide/Boost/Vocal Mix, Mic Simulator, Cabinet Sim, Rotary, Ring Mod, Resonance, Lo-Fi EFX, Vocoder. EFFECTS has7 single and4 dual algorithms; “+” serial, “/” parallel. Vocoder can combine distortion+chorus, so two is not a universal maximum [R11-M pp.8–15] |
 | Preset memory | Manufacturer specifies 363 preset programs (11 effects × 3 banks × 11 variations). These are effect/variation combinations, not 363 writable patches. User storage and factory-filled user-memory count remain unverified [R11-M p.15] |
 | Synth / acoustic | Vocoder processes external carrier; Cabinet Sim colors electric guitar as combo/stack, not a documented acoustic simulator or user IR loader. Dedicated synth/acoustic simulator unverified [R11-M pp.14–15] |
 | IR / NAM / captures | IR import, native/converted NAM and measured capture support unverified |
-| Audio / control ports | Combo XLR/phone mic input;2 mono-phone line inputs and2 outputs; FS01 bypass; mains power. Other digital/headphone/phantom facilities unverified [R11-M pp.2–3,15] |
+| Audio / control ports | Combo XLR/phone mic input;2 mono-phone line inputs and2 outputs; FS01 bypass; mains power. No USB, MIDI or dedicated headphone connector in the complete inventory; phantom power unverified [R11-M pp.2–3,15] |
 | Analog levels / conversion | Line reference −10 to +4 dBm; 44.1 kHz,18-bit A/D with64× oversampling and18-bit D/A with8× oversampling. High-impedance guitar needs preamplification [R11-M pp.3,15] |
+| Audio / mic and output impedance | [Own p15 electrical ratings](#rfx-1100--exact-electrical-ratings-and-summary-reconciliation): balanced mic4.5kΩ, pin2 hot; unbalanced50kΩ; reference−56dBm. Output500Ω, not RFX-1000 values. |
 | Power / battery / USB | Regional100–120 V or220–240 V50/60 Hz per rear label;DC polarity inapplicable to mains. Consumption,operating battery andUSB power unverified [R11-M p.16] |
 | Dimensions / weight | W482 × D115 × H44 mm;1.8 kg [R11-M p.15] |
 | Editor / software | Editor platforms,drivers/updaters andUSB audio unverified |
@@ -6533,6 +6534,8 @@ Rack multi-effects, checked 2026-10-17. Partial verification; unknown is not No.
 | Price class | Amount | Offer and limits |
 |---|---:|---|
 | Condition-unverified indexed ask | Rp1.240.000 | [AGUNG MAKMUR ELEKTRONIK,seller280277542/item3778778559](https://shopee.co.id/Efek-Vokal-ZOOM-RFX-1100-DIGITAL-i.280277542.3778778559);Kota Jakarta Barat;exact item reopened2026-10-17,last-week indexed body. Condition,stock,bundle,warranty andpurchase voucher unknown;late-delivery compensation is not an item discount |
+| Condition-unverified cached ask | Rp1.050.000 | [yvwjaai06y,shop1469303972/item26030952873](https://shopee.co.id/Efek-Vocal-Zoom-RFX-1100-RFX-1100-ZOOM-RFX-1100-i.1469303972.26030952873),Kab.Badung;checked2026-11-05,direct last-month cache. Stale18–21September delivery; condition,working state,live stock,variant,bundle,power cord,warranty/import region,shipping/tax unknown. Late-arrival voucher up toRp10,000 is not an item discount. |
+| Condition-unverified cached ask | Rp1.220.000 direct;Rp1.218.750 search | [Permata Sound,shop1165231667/item25162651257](https://shopee.co.id/Efek-Vocal-Zoom-RFX1100-RFX-1100-RFX-1100-ZOOM-rfx-1100-rfx1100-i.1165231667.25162651257),Kota Jakarta Utara;checked2026-11-05. Direct last-month cache differs from three-month search; stale7–8October versus14–17July delivery. Not a verified price change or checkout total. Condition,working state,live stock,variant,bundle,power cord,warranty/import region,shipping/tax unknown;late-arrival compensation is separate. |
 | Verified used IDR | ? | Not established |
 | Verified new IDR | ? | Not established |
 
@@ -6548,6 +6551,14 @@ Remaining: complete per-variation parameters,simultaneous maximum,user-memory be
 Checked 2026-10-28 against [own official manual](https://zoomcorp.com/media/documents/E_RFX1100.pdf), pp2–3,15. **No analog EXP input or dedicated headphones** in the complete panel/specification inventory; FS01 switches effects only. This resolves the earlier physical-expression/headphone uncertainty. Guitar pickups require a preamp/effect first. **482W×115Dmm** fails preferred width; no onboard footswitch pair selects presets. Hand selectors are separate.
 
 Physical OUTPUT/MIX controls do not provide external continuous expression assignment. Direct-EXP position/range/recall are inapplicable. Own troubleshooting confirms effects-off with fully WET MIX can silence output; this is not proof of an unconditional dry bypass or tail coverage. Retain historical mains-power and exact-offer qualifications. No stock refresh, local download or device test.
+
+### RFX-1100 — exact electrical ratings and summary reconciliation
+
+Checked **2026-11-05**, [original manufacturer RFX-1100 manual, printed pp2–3,15–16](https://zoomcorp.com/media/documents/E_RFX1100.pdf),16 pages; publication date unestablished. The current summary now reflects the later connector audit, while dated uncertainty remains preserved below its original entries.
+
+**Microphone input: balanced4.5kΩ,pin2 hot; unbalanced50kΩ; reference−56dBm. Output impedance500Ω**, with reference−10…+4dBm. Manual defines0dBm as0.775Vrms. Do not substitute the RFX-1000’s20kΩ mic orprinted100Ω-or-more output specification. The combo accepts balanced XLR orbalanced/unbalanced phone connections for a dynamic mic around600Ω;that mic rating is not input impedance orphantom-power evidence. MIC ON/OFF controls mic signal,not phantom power;INPUT adjusts mic andline together.
+
+Complete connectors establish no analog EXP,USB,MIDI ordedicated phones path. FS01 is effects on/off;fully-WET silence remains an own-model troubleshooting qualification. Regional mains ratings do not establish universal voltage. Consumption,user-memory support,spillover andcurrent software remain unverified. No local download ordevice operation.
 
 ## RFX-2000
 

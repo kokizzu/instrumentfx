@@ -166456,5 +166456,27 @@
     ],
     "next": "Continue incomplete field profiles; preserve individual-display priorities, GT-Pro and independent general queue",
     "active_inventory_unchanged": 402
+  },
+  "rfx1100_electrical_offers_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/ZOOM.md#rfx-1100--exact-electrical-ratings-and-summary-reconciliation",
+    "source": "https://zoomcorp.com/media/documents/E_RFX1100.pdf",
+    "revision": "Original16-page manual,pp2–3,15–16;date unstated",
+    "findings": [
+      "Exact mic/output electrical ratings distinct from RFX-1000",
+      "Stale connector uncertainties reconciled",
+      "Two additional condition-unverified Shopee offers;one cached price discrepancy preserved"
+    ],
+    "offer_items": [
+      "1469303972/26030952873",
+      "1165231667/25162651257"
+    ],
+    "remaining": [
+      "Condition/live-stock verification",
+      "Consumption",
+      "User memory andspillover"
+    ],
+    "next": "Continue incomplete field profiles and requested individual-display primary-source gaps;retain GT-Pro/general queues",
+    "active_inventory_unchanged": 402
   }
 }
