@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(hotone): document Stomp global tempo and bank recall controls'
+        message='research(hotone): reconcile Stomp module census and memory ranges'
     print(git('commit','-m',message))

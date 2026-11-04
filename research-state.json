@@ -165964,5 +165964,28 @@
     ],
     "next": "Continue exact Stomp drum/effect sources when accessible; prioritize new individual-footswitch-display evidence and preserve GT-Pro, expression-volume and independent general queues",
     "active_inventory_unchanged": 402
+  },
+  "ampero_stomp_modules_memory_20261105": {
+    "checked": "2026-11-05",
+    "model": "Hotone::Ampero II Stomp MP-300",
+    "canonical": "brand/HOTONE.md#ampero-ii-stomp--named-module-census-and-default-memory-ranges",
+    "source": "https://www.scribd.com/document/1074310624/Ampero-II-Stomp-Online-Manual-EN-Firmware-V2-5-0-1785405982280",
+    "revision": "Manufacturer V2.5.0 printed27,29–30,78–79",
+    "findings": [
+      "15 named processing types plus3 loop types =18, not simultaneous algorithms",
+      "Default-empty A33-1–A99-3 =201; reset-patches prose A00-1–A32-3 =99, within300 editable"
+    ],
+    "conflicts": [
+      "Reset illustration A01-1~A31-4 conflicts with prose/three patches per bank",
+      "Older16-type product count revision mapping unresolved"
+    ],
+    "remaining": [
+      "Exact current factory names/content",
+      "Algorithm subtotals, drum-pattern list",
+      "Global volume and output coverage",
+      "Condition-qualified current hardware offers"
+    ],
+    "next": "Continue exact Stomp practice/capture gaps and qualified offers; preserve LCD-first priority, GT-Pro, expression and independent GP-200JR→Prime→GE300 queue",
+    "active_inventory_unchanged": 402
   }
 }

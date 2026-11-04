@@ -588,8 +588,8 @@ Reviewed **2026-10-15**. Guitar/bass multi-effects; **medium**, no built-in expr
 | Dimensions / weight | **185 W × 145 D × 58 H mm; 1050 g**. Medium: depth exceeds the 140 mm compact limit by 5 mm. Plug clearance additional [P] |
 | Display | **4-inch, 800×480, color touchscreen** [P] |
 | Processing | **12 simultaneous slots**, DSP-limited, with flexible serial/parallel dual chains. The numerical product specification lists **16 module types**, not 16 simultaneous effects; the [V2.5.0 manual lists18](#ampero-ii-stomp--v250-usb-and-bypass-source-boundaries), with revision mapping unresolved [P,M] |
-| Categories / library | Numerical product specification **460 effects including global EQ**; marketing says 400+, with 87 amps, 68 cabs, 100+ modeled pedals and 60+ original effects. These overlapping classifications are not added together. Full current category subtotals remain unverified [P] |
-| Presets | **300 editable locations = 100 banks × 3**. Older V1.0.2 manual says reset restores 99 preloaded factory patches; current factory-filled subset remains unverified. The 99 are not additional read-only slots [M,O] |
+| Categories / library | Numerical product specification **460 effects including global EQ**; marketing says 400+, with 87 amps, 68 cabs, 100+ modeled pedals and 60+ original effects. These overlapping classifications are not added together. Full current category subtotals remain unverified [P]. [V2.5.0 names 15 processing plus 3 loop types](#ampero-ii-stomp--named-module-census-and-default-memory-ranges), separate from algorithm counts. |
+| Presets | **300 editable locations = 100 banks × 3**. Older V1.0.2 manual says reset restores 99 preloaded factory patches; current factory-filled subset remains unverified. The 99 are not additional read-only slots [M,O]. [V2.5.0 default-empty and reset ranges](#ampero-ii-stomp--named-module-census-and-default-memory-ranges) support 201 empty/99 reset locations, with a conflicting warning illustration; current factory content remains unverified. |
 | Scenes / practice | **Three scenes per patch** and drum machine documented in V2.0.0 manual; **60-second stereo looper**, undo/redo, tuner, analog/DSP bypass and trails. Drum-pattern count unverified. Old descriptions saying no drums predate this firmware [M,P]. [V2.5.0 global tempo and Initial/Wait bank recall](#ampero-ii-stomp--global-tempo-and-bank-selection-behavior) retain sync prerequisites and external/onboard control distinctions. |
 | Synth / acoustic | Acoustic effects/presets advertised; exact electric-to-acoustic and synth algorithm names not independently verified. An acoustic input mode is not itself an acoustic simulator [P] |
 | IR import | **50 user IR locations**, mono WAV, 24-bit/44.1 kHz, 1024/2048 samples. Twenty supplied Celestion IRs are separate from user capacity [P] |
@@ -695,6 +695,13 @@ Checked **2026-11-05**, manufacturer-authored [V2.5.0 manual body](https://www.s
 - **Clock limits:** Mixed accepts the latest internal/external clock; DIN Only or USB Only disables local Tap Tempo. Clock output ignores external clock input; DIN/USB-only input mode prevents clock output.
 
 No hardware operated. Drum-pattern count, global expression-volume scope and condition-qualified current hardware offers remain unresolved.
+
+### Ampero II Stomp — named module census and default memory ranges
+
+Checked **2026-11-05**, manufacturer-authored [V2.5.0 manual body](https://www.scribd.com/document/1074310624/Ampero-II-Stomp-Online-Manual-EN-Firmware-V2-5-0-1785405982280), printed pp27,29–30,78–79. Original text only; no reset or device test.
+
+- **Processing:** 15 named types: DYN, FREQ, WAH, VOL, DRV, AMP, PRE AMP, CAB, IR, EQ, MOD, DLY, RVB, CLONE and NAM; plus FX SND, FX RTN and FX LOOP gives **18 types**. Twelve slots remain the simultaneous ceiling, subject to DSP. The older 16-type product figure is retained; exact revision mapping and algorithm subtotals remain unresolved. NAM explicitly loads A2 Lite; IR includes factory acoustic IRs, which do not establish a dedicated instrument simulator.
+- **Memory:** the guide identifies A33-1 through A99-3 as default-empty, **201 locations** by arithmetic. Reset-patches prose restores A00-1 through A32-3, **99 locations**, within the 300 editable total. These are not additional read-only presets. The warning illustration instead reads **A01-1~A31-4**; its fourth patch conflicts with the three-per-bank structure. This is a documented source conflict, not a recommended reset range. Exact current factory names/content remain unverified.
 
 ## Ampero Mini MP-50
 Current comparison summary, reconciled 2026-10-28 from the exact-model sources retained below. This does not certify current stock or every technical field. Earlier observations, revision conflicts and source bodies remain unchanged below.
