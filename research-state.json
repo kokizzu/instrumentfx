@@ -150581,5 +150581,14 @@
       "QualifiedIDR"
     ],
     "queues_preserved": true
+  },
+  "fm9_original_switch_timing_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "Fractal Audio::FM9 original",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "revision": "August2022 Original/Turbo,firmware3.x;printed72,78,89–90",
+    "finding": "Hold label preview is separate from activation;Hold assignment moves Tap torelease;timeout0.25–2.00s/default0.5s;SWITCH UP delays Hold untilrelease;global override-disable documented.",
+    "limits": "Current12.x/MKII equivalence andinstalled settings untested;not audio latency orpedal recall.",
+    "next": "Continue individual footswitch LCD priority andexact Shopee offers;preserve GT-Pro general cursor andindependent expression queue."
   }
 }
