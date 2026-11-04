@@ -32,8 +32,8 @@ Checked **2026-11-05**, [Donner exact product page, SKU EC6928](https://us.donne
 | Processing | Six body IRs; eight modes: Chorus, Tremolo, Phase, Overdrive, Echo, Hall Reverb, Plate Reverb, Delay & Reverb. Simultaneous architecture and user-IR loading unverified. Body IRs do not establish electric-to-acoustic simulation. |
 | Live | Eight-minute loop; automatic notch feedback suppression; tuner bypass/mute. Loop memory, overdub/tail behavior and presets unresolved. |
 | Power / body | 9VDC, listed current draw1000mA;140×210×57mm, axes unlabeled;1100g. Polarity, battery/USB power and preferred footprint unresolved. |
-| Display / controls | High-brightness display claimed; technology, size, separate switch screens, complete control/treadle census and analog EXP unresolved. |
-| I/O | Page inconsistently labels TRS input versus TRS audio output; also phones,AUX,OTG. Full inventory, jack sizes and directional USB channels unverified. |
+| Display / controls | [Manufacturer announcement below](#apl--manufacturer-announcement-resolves-display-and-output-gaps): RGB128×160,three mode footswitches. Diagonal,LCD/OLED,touch,separate switch screens,full control/treadle census andanalog EXP unresolved. |
+| I/O | Product page inconsistently labels TRS input/output. [Manufacturer announcement below](#apl--manufacturer-announcement-resolves-display-and-output-gaps) additionally verifies balancedXLR,6.35mm output,USB-C recording/update,phones andAUX. Full input/connector census andUSB channel count remain unresolved. |
 | Price | US page says sold out; no qualified exact Shopee Indonesia hardware offer. New/used IDR unknown. |
 
 The [manufacturer-linked APL manual](https://storage.donnermusic.com/official-user/202503/APL_MANUAL.pdf) returned unsupported application/octet-stream;body/revision unverified. Editor, NAM/capture and note-tracking capabilities remain unknown. No local download or hardware operation.
@@ -47,6 +47,20 @@ The [ASIN-based rewritten guide](https://manuals.plus/asin/B0DQ4W5GYT.pdf) is **
 [Official support-category index](https://official.donnermusic.com/support/downloads/detail?first=GUITAR_PEDAL&second=GUITAR_MULTIPLE_EFFECTS) search text lists Donner APL with a manual link andsoftware dash;direct retrieval instead returned no results. This is an access discrepancy,not proof of no editor. Manufacturer product-image links returned no inspectable pixels,and no browser surface was available;no visual control census claimed. No local files downloaded.
 
 Defer this large-file recovery until readable original pages become available;continue other models. APL remains outside active counts,with existing technical and Shopee uncertainties preserved.
+
+### APL — manufacturer announcement resolves display and output gaps
+
+Checked **2026-11-05**, [Donner’s exact APL announcement](https://official.donnermusic.com/articles/news_introducing-the-donner-apl-multi-effect-pedal),direct original HTML;no publication date orapplicable firmware revision exposed. This independently supports selected facts despite the rejected rewritten guide above.
+
+| Field | New manufacturer-backed detail / remaining limit |
+|---|---|
+| Display / footswitches | **RGB128×160 display;three mode footswitches**. Not a verified LCD/OLED technology,diagonal,touchscreen orone-screen-per-switch layout. |
+| Outputs | **BalancedXLR and6.35mm output**,plus phones. This narrows the earlier product-table omission,not the full input/connector census. |
+| USB / AUX | **USB Type-C recording andfirmware updates;AUX level adjustable**. Directional channel counts,sample formats,USB power andmaster/EXP attenuation remain unverified. |
+| Looper | **Eight minutes,unlimited overlays** advertised. Not unlimited physical storage,scene continuity orverified exported-file behavior. |
+| Controls / effects | Named effect-selector,master,IR-body,gain,mix,A/B,three-bandEQ,compressor andtap controls;total physical rotary/button count unresolved. Announcement calls the time effect **Delay**,where product page says **Echo**;do not count both as extra algorithms. |
+
+Manual-body verification,analog EXP/treadle screening,storage allocation,loading formats,qualified IDR andcurrent stock remain open. Partial lead outside402active records;no ownership inferred orhardware operated.
 
 ## Arena2000
 
