@@ -165914,5 +165914,24 @@
       "Current qualified offers"
     ],
     "active_inventory_unchanged": 402
+  },
+  "mk300_usb_looper_boundaries_20261105": {
+    "checked": "2026-11-05",
+    "model": "M-VAVE::MK-300",
+    "source": "https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/MK-300.pdf",
+    "revision": "Unstated; printed11–13,16–18",
+    "finding": "USB mode/source boundaries; Global EQ exclusions; looper placement/persistence and drum sync limits",
+    "conflicts": [
+      "13-module USB prose versus11-block architecture",
+      "Re-Amp versus Resample label"
+    ],
+    "remaining": [
+      "Current firmware equivalence",
+      "USB channel census",
+      "Physical persistence test",
+      "Global volume coverage"
+    ],
+    "next": "Ampero II Stomp MP-300 full canonical profile and unresolved source-backed fields; preserve LCD-first andindependent queues",
+    "active_inventory_unchanged": 402
   }
 }
