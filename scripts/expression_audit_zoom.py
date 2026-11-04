@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(boss): qualify GM-800 expression recall and USB loopback'
+        message='research(boss): document GP-10 nested FX and dynamics inventory'
     print(git('commit','-m',message))

@@ -168050,5 +168050,79 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue display-priority andremainingprofile gaps;preserve GP-200JR→Prime→GE300,GT-Pro,expression andconsolidation queues"
+  },
+  "gp10_fx_hierarchy_20261105": {
+    "checked_date": "2026-11-05",
+    "source": "https://static.roland.com/assets/media/pdf/GP-10_Parameter_Guide_e02_W.pdf",
+    "revision": "e02 ©2014 printed3",
+    "canonical": "brand/BOSS.md#gp-10--named-fx-hierarchy-and-dynamics-choices",
+    "fx": [
+      "OD/DS",
+      "COMPRESSOR",
+      "LIMITER",
+      "EQ",
+      "T. WAH",
+      "PITCH SHIFTER",
+      "HARMONIST",
+      "PEDAL BEND",
+      "PHASER",
+      "FLANGER",
+      "TREMOLO",
+      "PAN",
+      "ROTARY",
+      "UNI-V",
+      "CHORUS",
+      "DELAY"
+    ],
+    "od_ds": [
+      "MID BOOST",
+      "CLEAN BOOST",
+      "TREBLE BOOST",
+      "CRUNCH",
+      "NATURAL OD",
+      "WARM OD",
+      "FAT DS",
+      "LEAD DS",
+      "METAL DS",
+      "OCT FUZZ",
+      "BLUES OD",
+      "OD-1",
+      "T-SCREAM",
+      "TURBO OD",
+      "DIST",
+      "RAT",
+      "GUV DS",
+      "DST+",
+      "METAL ZONE",
+      "‘60S FUZZ",
+      "MUFF FUZZ"
+    ],
+    "compressor": [
+      "BOSS COMP",
+      "Hi-BAND",
+      "LIGHT",
+      "D-COMP",
+      "ORANGE",
+      "FAT",
+      "MILD",
+      "STEREO COMP"
+    ],
+    "limiter": [
+      "BOSS LIMITER",
+      "RACK 160D",
+      "VTG RACK U"
+    ],
+    "count_basis": "Nested menus inone FX position,not summed simultaneous blocks",
+    "source_conflict": "Compressor Tone/Level descriptions appear swapped;no untested correction",
+    "active": false,
+    "fully_verified": false,
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Other named category inventories andconcurrency",
+      "IR/NAM import",
+      "Qualified exact Shopee offers",
+      "Power polarity/portableoperation"
+    ],
+    "next": "Continue display-priority profiles and Shopee gaps;preserve GP-200JR→Prime→GE300,GT-Pro,expression andconsolidation queues"
   }
 }

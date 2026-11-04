@@ -691,6 +691,21 @@ Checked **2026-11-05**, manufacturer-authored **June2014 GP-10 Service Notes,pri
 **Four onboard pedal switches** remain as manufacturer-listed:patch previous/next andCTL1/2. The expression toe switch and rear power switch are separate fromthis K/F/B count. This resolves the earlier knob/button unknown;it doesnot establish touchscreen support,additional switch displays orcurrent hardware-revision equivalence. No disassembly,connection,download ordevice operation.
 
 
+### GP-10 — named FX hierarchy and dynamics choices
+
+Checked **2026-11-05**, [manufacturer Parameter Guide e02,©2014,printed p3](https://static.roland.com/assets/media/pdf/GP-10_Parameter_Guide_e02_W.pdf). Historical reference; installed equivalence untested. This expands the existing category totals without admitting the partial lead to active comparisons.
+
+| Level | Named alternatives |
+|---|---|
+| FX16 | OD/DS; COMPRESSOR; LIMITER; EQ; T. WAH; PITCH SHIFTER; HARMONIST; PEDAL BEND; PHASER; FLANGER; TREMOLO; PAN; ROTARY; UNI-V; CHORUS; DELAY |
+| OD/DS21 within FX | MID BOOST; CLEAN BOOST; TREBLE BOOST; CRUNCH; NATURAL OD; WARM OD; FAT DS; LEAD DS; METAL DS; OCT FUZZ; BLUES OD; OD-1; T-SCREAM; TURBO OD; DIST; RAT; GUV DS; DST+; METAL ZONE; ‘60S FUZZ; MUFF FUZZ |
+| Compressor8 within FX | BOSS COMP; Hi-BAND; LIGHT; D-COMP; ORANGE; FAT; MILD; STEREO COMP |
+| Limiter3 within FX | BOSS LIMITER; RACK 160D; VTG RACK U |
+
+Subtypes occupy their parent FX choice: OD/DS,Compressor,Limiter,Pitch Shifter andHarmonist are not independent concurrent FX blocks. The separately documented Chorus,Delay,EQ andWah positions retain their own scope. Stereo Compressor describes audio channels,not input-note polyphony. T. WAH follows picking dynamics; it is filtering,not another oscillator synth.
+
+The guide appears to swap Compressor Tone/Level descriptions: Tone is described as volume andLevel as tone. Preserve the inconsistency; physical control behavior remains untested. Full remaining-category names,concurrency,import formats andqualified Indonesian offers remain open. No download ordevice operation.
+
 ## GS-10
 
 **Active partial profile,2026-10-28; not fully verified.** Discontinued desktop guitar/bass multi-effects, supported by its [own manufacturer product page](https://www.boss.info/global/products/gs-10/), [original brochure](https://cdn.roland.com/assets/media/pdf/gs10_brochure.pdf) and exact-model manual cited below. No exact Shopee offer established. Earlier partial-lead notes remain dated provenance, superseded only in admission status.
