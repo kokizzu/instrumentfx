@@ -4219,6 +4219,15 @@ Checked **2026-11-01** in the [Zoom-authored Winter2015 catalogue](https://zoomr
 
 FP02 real-time volume is also stated, but all-preset assignment, endpoints, recall and phones/loop coverage remain unverified. G5n specifications do not transfer. No download or device operation.
 
+### G5 — USB monitor endpoints and recording trim
+
+Checked **2026-11-04** in the [manufacturer original G5 operation manual, printedp22](https://zoomcorp.com/media/documents/G5_operationManual_english.pdf), Changing Various Settings. Exact manufacturer-hosted indexed text was readable; fullPDF retrieval exceeded the reader limit (40,531,939bytes). No file downloaded or image inspected. Firmware-introduction version and installed behavior remain unverified.
+
+| Field | Evidence / qualification |
+|---|---|
+| USB audio / monitor and record controls | **Original G5 manualp22:** Effect3 knob1 adjusts USB monitoring balance **0–100**:0 only processed direct input,100 only computer/DAW return. Effect3 knob2 adjusts the signal level sent to the DAW by **±6dB**. This recording trim is distinct from monitor balance, analog output level and global expression assignment; these numeric ranges do not establish expression endpoints or control over XLR PRE, headphones, bypass, tails or recorded loops. |
+
+
 ## G5n
 
 Reviewed **2026-10-17** after fresh exact Shopee hardware discovery. New catalogue record, no ownership assertion. Discontinued according to Zoom; reseller offers can remain historical. Partial: no software, firmware, manual file or dependency downloaded or installed. Official manual evidence below is search-indexed text, not a fresh PDF/image inspection.

@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): distinguish G11 computer-return processing destinations'
+        message='research(zoom): document original G5 USB monitoring and recording ranges'
     print(git('commit','-m',message))

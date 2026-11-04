@@ -141651,7 +141651,18 @@
       "checked": "2026-10-31",
       "source": "https://zoomcorp.com/en/us/multi-effects/guitar-effects/g5/",
       "finding": "Four individual backlit displays, each with dedicated footswitch and knobs.",
-      "scope": "Original G5 only; existing model, no new admission."
+      "scope": "Original G5 only; existing model, no new admission.",
+      "usb_monitor_record_trim": {
+        "checked": "2026-11-04",
+        "source": "https://zoomcorp.com/media/documents/G5_operationManual_english.pdf",
+        "revision": "Original exact G5 operation manual printed22,indexed manufacturer body; feature-introduction firmware unspecified",
+        "finding": "Effect3 knob1 monitor0–100 direct/DAW endpoints;knob2 recording±6dB.",
+        "access": "Full PDF40,531,939bytes exceeds reader limit;indexed original paragraph readable;no download/image inspection.",
+        "remaining": "Global analog assignment/coverage,visualcontrol census anddisplayphysicalspecifications remain unknown.",
+        "market": "Exact-model search mainly G5n/accessories andalreadyrecordedHopeMusic G5;no newqualified ask adopted.",
+        "next": "Fresh missing individual-LCD model discovery;then confirmed LCD processor substantive gaps. Preserve general GT-Pro andcompact expression queues;do not repeatedly reopen unchanged G5 PDF limit.",
+        "inventory_changed": false
+      }
     },
     "zoom_g3xn": {
       "checked": "2026-10-31",
