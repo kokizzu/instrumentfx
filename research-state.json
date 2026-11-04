@@ -166763,5 +166763,22 @@
     ],
     "inventory_unchanged": 402,
     "next": "Continue requested individual-display models;preserve independentGT-Pro andGP200JR->Prime->GE300 queues."
+  },
+  "fender_tmp_conversion_clock_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FENDER.md#tone-master-pro--conversion-rate-and-external-clock-precedence",
+    "source": "https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual",
+    "revision": "Firmware1.5 PN7727986000 RevE ©2025, printed42,45",
+    "conversion": "32bit44.1kHz ADC/DAC;USB44.1/48/88.2/96kHz separately selectable",
+    "clock": "Receive disables tap and stored preset tempo;only TapDivision-assigned delay/modulation follows;Tap strip reflects incoming tempo",
+    "remaining": [
+      "Current1.8 equivalence",
+      "Current ModelGuideH census",
+      "IR file limits",
+      "Global EXP output coverage",
+      "Qualified exact Shopee stock"
+    ],
+    "next": "Continue LCD-first unresolved sources;preserve independent GP-200JR → Prime → GE300, GT-Pro, expression and consolidation queues",
+    "active_inventory_unchanged": 402
   }
 }
