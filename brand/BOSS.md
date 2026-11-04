@@ -585,7 +585,8 @@ Checked **2026-11-05**. **Outside active402 models** pending complete profile an
 | Required field | Finding / limit |
 |---|---|
 | Input scope | Normal guitar input supports amps/effects;13-pin GK supports instrument modeling, synthesis and alternate tuning. Not Serial GK. |
-| Expression / controls | Built-in expression;four pedal switches;shared EXP2/CTL3,4 TRS socket. Knob/button counts andexternal toe compatibility unverified. |
+| Expression | Built-in expression withtoe switch;shared EXP2/CTL3,4 TRS socket. External toe compatibility unverified. |
+| Knobs / footswitches / buttons | **2/4/7**,text-derived [June2014 control inventory](#gp-10--text-derived-physical-control-census);toe andpower switches separate. |
 | Display | Backlit16-character×2-line LCD;diagonal/color/touch unverified. No individual footswitch-screen claim. |
 | Categories | FX16(including OD/DS),OD/DS21,Wah6,Chorus3,Delay10,Reverb7,EQ1,NS1;Preamp30. Nested counts are not summed concurrency. |
 | Memory |99 patches;factory occupancy unverified. |
@@ -668,6 +669,14 @@ Checked **2026-11-05** in [BOSS’s linked macOS compatibility matrix](https://w
 This narrows the earlier unresolved editor/driver matrix. Dedicated software isrequired;it isnot class-compliant certification orproof ofinstalled behavior. Earlier1.1.1/Sierra history and1.0.5/Sonoma driver heading remain separately qualified. AIR availability,exact package/runtime pairing andlocal operation remain untested.
 
 [Roland Australia’s adapter table](https://rolandcorp.com.au/promo/Adaptors.pdf), **updated February9,2023,pdfp6**, maps **GP-10→PSA-240,9V/0.5A**. This is a regional adapter-output rating,not500mA processor draw;the own-model350mA specification remains. It doesnot certify an Indonesian mains plug/bundle,connector polarity orUSB/battery operation. No adapter orsoftware downloaded,connected orrun.
+
+### GP-10 — text-derived physical control census
+
+Checked **2026-11-05**, manufacturer-authored **June2014 GP-10 Service Notes,printedp4**, [original control-location parts list reproduction](https://www.manualslib.com/manual/3012636/Roland-Gp-10.html?page=4). Exact GP-10 title/date andoriginal numbered parts table checked;host summaries excluded. This is text-derived,not aphoto/pixel inspection orauthorization toservice hardware.
+
+**Two rotary controls:** one potentiometer andone encoder,each withone knob;the treadle’s internal position sensor isnot athird hand knob. **Seven separate buttons** are corroborated byseven keytops/seven tact switches andthe [owner manual’s editing controls,pp4–5](https://cdn.roland.com/assets/media/pdf/GP-10_e02_W.pdf):MODELING/ALT TUNE,EFFECTS,SYSTEM,WRITE,EXIT andtwo page arrows. Arrow/function reuse doesnot add buttons.
+
+**Four onboard pedal switches** remain as manufacturer-listed:patch previous/next andCTL1/2. The expression toe switch and rear power switch are separate fromthis K/F/B count. This resolves the earlier knob/button unknown;it doesnot establish touchscreen support,additional switch displays orcurrent hardware-revision equivalence. No disassembly,connection,download ordevice operation.
 
 
 ## GS-10

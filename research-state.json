@@ -166981,5 +166981,30 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue source-backed missingfields;LCDfirstpriority andindependent GP200JR→Prime→GE300,GT-Pro,expression,consolidation preserved"
+  },
+  "boss_gp10_control_census_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/BOSS.md#gp-10--text-derived-physical-control-census",
+    "sources": [
+      "https://www.manualslib.com/manual/3012636/Roland-Gp-10.html?page=4",
+      "https://cdn.roland.com/assets/media/pdf/GP-10_e02_W.pdf",
+      "https://www.boss.info/global/products/gp-10/"
+    ],
+    "revision": "ServiceNotesJune2014printed4,owner e02printed4–5",
+    "controls": {
+      "rotaries": 2,
+      "footswitches": 4,
+      "buttons": 7
+    },
+    "scope": "Textpartsqty plusownerbuttons;toe/rearpower separate;notpixelinspection",
+    "remaining": [
+      "Polarity/battery/USBpower",
+      "Exact simultaneous resource limits",
+      "Factory occupancy",
+      "Current hardware/firmware equivalence",
+      "Qualified ShopeeIndonesia hardware"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Deferunresolved GP10 physical/marketfields pendingnewprimarysource;continueindividualdisplaypriority andremainingcatalogue/expression/consolidation,independentgeneralqueue preserved"
   }
 }

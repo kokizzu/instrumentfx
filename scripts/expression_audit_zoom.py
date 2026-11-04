@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(boss): resolve GP-10 macOS matrix and regional supply rating'
+        message='research(boss): verify GP-10 physical control counts from service notes'
     print(git('commit','-m',message))
