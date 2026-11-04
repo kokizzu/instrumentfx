@@ -810,3 +810,7 @@ SY-300 [firmware1.03 assignment correction](brand/BOSS.md#sy-300--firmware-assig
 ### IK Multimedia TONEX Board — partial system-wide master assignment
 
 [Own manual v1.0.0,2026-09-02](brand/IK-MULTIMEDIA.md#tonex-board--manual-backed-global-master-assignment-and-supply-conflict) documents Global EXP→Master Volume, with XLR, quarter-inch andheadphone destinations. Numeric endpoints,held-position recall,bypass/USB/tail/loop coverage remain unverified. Calibration andpreset macros are separate. Dedicated headphones are documented; [text-derived7/4/4 controls and Scene/Stomp preset down/up combinations](brand/IK-MULTIMEDIA.md#tonex-board--documented-controls-and-mode-dependent-preset-navigation) are now recorded. Visual built-in-pedal screening remains pending. Partial lead stays outside active counts;exact Shopee hardware unknown. The manual/product **5V versus9V supply conflict** is preserved in the canonical record.
+
+### BOSS VF-1 — partial lead, outside active comparison
+
+[Canonical screening](brand/BOSS.md#vf-1--partial-discovery-lead): normal Hi-Z guitar input andshared analogEXP/Control jack;EV-5/FV-300L combinations documented. Control Assign targets andranges are patch-specific;Assign Hold changes recall,not assignment scope. Global all-preset volume remains unverified. No dedicated phones inpublished connector inventory;shared-output headphone use unknown. External switch navigation requires separate verification;no onboard down/up claim. **218W×248Dmm** fails preferred footprint. No exact Indonesian hardware/IDR established.

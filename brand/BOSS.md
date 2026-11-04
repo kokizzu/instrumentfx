@@ -57,6 +57,7 @@ Canonical root brand profiles; all retain explicit verification gaps. Preserved 
 - [VE-20](#ve-20)
 - [VE-22](#ve-22)
 - [VE-500](#ve-500)
+- [VF-1 — partial discovery lead](#vf-1--partial-discovery-lead)
 <!-- brand-index ends -->
 
 ## AD-2
@@ -4744,7 +4745,6 @@ These alternatives share FX1–FX3; their presence does not establish unlimited 
 
 [Roland/BOSS adapter table, updated **2025-07-15**, PDF pp1,4](https://static.roland.com/assets/media/pdf/roland_ac_adaptor_information.pdf?lang=nl-NL) explicitly maps **SY-1000→PSB-1U**. That supply is **9V DC,2A/18W**, with **100–240V AC50/60Hz** input. Supply capacity is separate from the recorded **800mA device draw**. Polarity, connector dimensions, seller-included supply and regional mains cable remain unverified; do not borrow PSA-S polarity or another device’s battery-adapter instructions. No hardware operation or local download performed.
 
-
 ## VE-1
 
 Vocal multi-effects:echo,double,pitch correction and enhance. Consolidated/researched2026-10-16;partial verification. Seller Harmonist/Guitar Pedal titles do not establish guitar processing or intelligent harmony.
@@ -5415,3 +5415,28 @@ Checked 2026-10-18.
 Checked2026-10-28 against [own Parameter Guide][VE500-P],MENU→PLAY→EXP HLD,manufacturer-authored indexed text. **ON carries expression state across patch changes only when FUNCTION matches**;the manual’s example uses PAT LEVEL in both patches. OFF does not carry that state. This is conditional position recall,not a global volume-target assignment. Global assignment andvolume endpoints/placement/output coverage remain unverified here.
 
 Despite direct analog EXP and170W×138Dmm fitting the preference,the documented instrument THRU is unprocessed andguitar input serves harmony/vocoder detection. Retain as vocal multi-effects,outside the normal-guitar expression comparison;the guitar socket does not establish an independent guitar multi-effects path. No dedicated headphone socket in the published inventory. No hardware test ordownload.
+
+## VF-1 — partial discovery lead
+
+Checked **2026-11-04**. Earlier ledger-only discovery is now given a canonical partial profile, **outside active inventory**; no ownership inferred. [Exact manufacturer product](https://www.boss.info/global/products/vf-1/support/) identifies a discontinued multi-effects processor with guitar/bass, keyboard and vocal applications. No Indonesian hardware offer verified.
+
+| Field | Evidence and unresolved boundary |
+|---|---|
+| Expression / normal input | Dedicated Hi-Z guitar input; shared Expression/Control1/2 jack. Manufacturer names EV-5 and FV-300L+PCS-33. Wiring/resistance, toe support and complete physical-control census remain unverified. |
+| Processing / memory | Product baseline **400=200 User+200 Preset**, not400 simultaneous effects. [Official manual addendum](https://static.roland.com/assets/media/pdf/VF-1_OM.pdf),indexed Information leaflet40347101,adds Speaker Modeling and PA101/PB101/UA101/UB101: **404=202 User+202 Preset**,101 locations in each A/B bank. Firmware introduction/installed applicability unknown;retain400 baseline separately. Simultaneous capacity and full algorithm census pending. |
+| Body / power | Product **218W×248D×44H mm,1.4kg excluding adapter**; exceeds preferred footprint. **14VAC,800mA**,BRC-120/230/240 adapter variants. AC supply has no DC center polarity;plug dimensions,regional adapter inclusion,battery operation unverified. |
+| Connections / phones | Product lists guitar input,stereo L/R line inputs/outputs,coaxial S/PDIF,shared pedal/control,MIDI IN/OUT andadapter input. Dedicated phones andUSB are absent from that connector list;shared-output headphone operation remains unverified. |
+| Audio / display | Product24-bit A/D/A,44.1kHz,30-bit internal processing. Product describes icon navigation;diagonal,color,touch andpanel counts remain unknown. Specification line levels−20/+4dBu conflict with overview’s−10/+4 wording;do not silently select one. |
+| Sound / software / live | COSM amp/microphone modeling,reverb,delay,chorus documented. Dedicated synth/acoustic simulation,IR/NAM/capture imports,current editor platforms,looper/drums/scenes andtail coverage remain unverified. |
+
+### VF-1 — preset assignments, recall and effects-off scope
+
+[Manufacturer-authored owner manual reproduction,p33](https://www.manualslib.com/manual/315068/Boss-Vf-1.html?page=33) explicitly makes Control Assign independent per patch,with four assignment slots andtargetMIN/MAX. Targets include Master Level andFoot Volume/Foot Level. **A target called Master is not proof of an all-preset assignment override.** Original model/footer andpage content identified;the host144-page body differs fromthe official146-page file containing supplemental material. No complete byte-equivalence orvisual inspection claimed.
+
+[Indexed official SYSTEM SETTING,p43](https://static.roland.com/assets/media/pdf/VF-1_OM.pdf) documents Assign Hold:On carries controller operation into the next patch;Off uses its saved target value. This is recall scope,not assignment propagation. Effects Off mode choosesDIRECT input passthrough orMUTE for all outputs;expression attenuation ofDIRECT,phones,tails andloops remains unverified. Display contrast1–16 is not aphysical display-size specification.
+
+### VF-1 — regional offer exclusion and continuation
+
+Exact ShopeeIndonesia queries found noqualified item. A [Thai used-hardware listing,shop57738747/item21493042993](https://shopee.co.th/BOSS-VF-1%E2%80%8B-%E0%B8%A1%E0%B8%B1%E0%B8%A5%E0%B8%95%E0%B8%B4%E0%B9%80%E0%B8%AD%E0%B8%9F%E0%B9%80%E0%B8%9F%E0%B8%84-GUITAR-MUC-KEYBORAD%E2%80%8B%E0%B8%AA%E0%B8%B4%E0%B8%99%E0%B8%84%E0%B9%89%E0%B8%B2%E2%80%8B%E0%B8%A1%E0%B8%B7%E0%B8%AD%E2%80%8B2%E2%80%8B-i.57738747.21493042993),sellerThaipanichmusic,Bangkok,shows฿5570 in a last-month cache with staleOctober delivery. **Not Indonesia orIDR evidence**;no conversion,availability,bundle,warranty orcheckout claim. New/used IDR remain unknown.
+
+Next:verify full effect/algorithm census,panel/display details,global-volume assignment androuting,endpoints/recall,editor/import support andan exact Indonesian offer beforeadmission. No download,software/firmware installation ordevice operation.

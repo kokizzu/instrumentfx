@@ -39,4 +39,4 @@ if __name__ == '__main__':
         assert review['head'] == git('rev-parse','HEAD').strip(), 'HEAD changed since review'
         assert review['sha256'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest(), 'Staged diff changed since review'
         assert not git('diff','--cached','--check').strip(), 'Staged whitespace errors'
-        print(git('commit','-m','research(boss): reconstruct EX-4 type headline with explicit count limits'))
+        print(git('commit','-m','research(boss): document VF-1 partial profile and memory revision'))

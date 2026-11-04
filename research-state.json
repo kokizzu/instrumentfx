@@ -161284,5 +161284,65 @@
     "active_inventory_unchanged": 402,
     "status": "Partial lead remains outside active inventory",
     "next": "Revisit requested individual-footdisplay models only with new accessible evidence; continue eligible no-treadle/profile and Shopee gaps, preserving GT-Pro/general and legacy-consolidation queues."
+  },
+  "vf1_partial_profile_20261104": {
+    "checked_date": "2026-11-04",
+    "canonical": "brand/BOSS.md#vf-1--partial-discovery-lead",
+    "status": "Partial discovery lead outside active inventory;no ownership assertion",
+    "sources": [
+      "https://www.boss.info/global/products/vf-1/support/",
+      "https://static.roland.com/assets/media/pdf/VF-1_OM.pdf",
+      "https://www.manualslib.com/manual/315068/Boss-Vf-1.html?page=33"
+    ],
+    "source_access": "Manufacturer product readable;official146pagePDF no direct extracted lines,but indexed addendum andsystemtext readable. Manualslib144pageoriginal body p33;not hostFAQ orfullbyteequivalence.",
+    "memory": {
+      "product_baseline": {
+        "total": 400,
+        "user": 200,
+        "preset": 200
+      },
+      "addendum": {
+        "total": 404,
+        "user": 202,
+        "preset": 202,
+        "patches": [
+          "PA101",
+          "PB101",
+          "UA101",
+          "UB101"
+        ],
+        "algorithm": "Speaker Modeling",
+        "leaflet": "40347101",
+        "firmware_introduction": "unverified"
+      }
+    },
+    "expression": "Patch-specific fourControlAssign slots,targetMIN/MAX;AssignHold recall not global target assignment.",
+    "power": {
+      "vac": 14,
+      "manufacturer_current_ma": 800,
+      "dc_polarity": "inapplicable;AC"
+    },
+    "dimensions_mm": {
+      "W": 218,
+      "D": 248,
+      "H": 44
+    },
+    "market": {
+      "indonesia": "No qualified exact item;notmarketabsence",
+      "excluded_region_url": "https://shopee.co.th/BOSS-VF-1-i.57738747.21493042993",
+      "seller": "Thaipanichmusic",
+      "region": "Bangkok Thailand",
+      "cached_ask_thb": 5570,
+      "access": "Lastmonthcache;staleOctdelivery;notIDRorstockproof"
+    },
+    "remaining": [
+      "Simultaneous blocks/fullnamedalgorithm census",
+      "Panel/display census",
+      "Globalexpression assignment,range/recall andall-routecoverage",
+      "ExactIndonesianoffers",
+      "Import/editor/looper/drumscapabilities"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "CompletepartialVF1primaryprofileandqualifiedIndonesiaofferbeforeadmission;requestedindividualfootdisplaynewaccessibleevidence takespriority;GTPro/generalandconsolidationqueuespreserved."
   }
 }
