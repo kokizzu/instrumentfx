@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(line6): distinguish Stadium song cue and tempo scopes'
+        message='research(melofty): document AXOM output level and stereo linkage'
     print(git('commit','-m',message))

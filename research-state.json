@@ -161060,5 +161060,23 @@
     "market": "Search repeats recorded Rockpizz XL asks; no new qualified offer.",
     "inventory_count_unchanged": 402,
     "next": "Continue accessible requested separate-footdisplay profiles and exact Shopee hardware; preserve GT-Pro and expression-volume queues."
+  },
+  "axom_output_level_linkage_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "MELOFTY AXOM MAX",
+    "source": "https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347",
+    "revision": "Manufacturer German V1.7.4 PDFpage50; current firmware untested",
+    "canonical": "brand/MELOFTY.md#axom-max--output-level-linkage-and-eq-destinations",
+    "finding": "UNBAL/BAL/PHONES separate global level/EQ menus; per-group linked or independent L/R levels. Not proof of analog EXP3 assignment or USB/all-source coverage.",
+    "remaining": [
+      "Level ranges and full-mute endpoints",
+      "Link reconciliation and power-cycle retention",
+      "USB/Bluetooth/looper/tail coverage",
+      "Manufacturer mini-screen census/technology",
+      "Exact qualified Shopee Indonesia hardware"
+    ],
+    "market": "Fresh targeted search found no qualified AXOM MAX hardware; not proof of market absence.",
+    "active_inventory_unchanged": 402,
+    "next": "Continue accessible requested footswitch-display/profile gaps; defer maker website and image-only census pending accessible evidence; preserve independent queues."
   }
 }
