@@ -163001,5 +163001,30 @@
     ],
     "inventory_changed": false,
     "independent_queues_preserved": true
+  },
+  "prime_hurtrock_offer_checkpoint_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "HeadRush Prime",
+    "url": "https://shopee.co.id/Headrush-Prime-Multi-Efek-Gitar-Original-i.11170212.47004972780",
+    "seller": "Hurtrock Music Store Bandung",
+    "seller_id": "11170212",
+    "item_id": "47004972780",
+    "region": "Kota Bandung",
+    "idr": 22895000,
+    "access": "Three-month search snapshot;direct two-month page only JavaScript placeholder",
+    "condition": "Unverified",
+    "stock": "Unverified",
+    "bundle": "Unverified",
+    "variant": "Unverified",
+    "voucher": "Up to IDR10000 late-delivery compensation;not deducted",
+    "qualification": "Original Prime title;not Flex Prime;August4–5 delivery stale;not completed sale oravailable condition-qualified offer",
+    "remaining": [
+      "Rig/user storage ceiling",
+      "IR conversion/file capacity",
+      "Auxiliary display specifications",
+      "Condition-qualified live hardware offers"
+    ],
+    "independent_queues_preserved": true,
+    "inventory_changed": false
   }
 }
