@@ -168673,5 +168673,31 @@
       "Qualified current Indonesian stock"
     ],
     "next": "Continue other accessible display-priority core gaps; retain original FM3 remaining physical questions and preserve GT-Pro, expression and GP-200JR → Prime → GE300 queues."
+  },
+  "fm3_original_named_pitch_20261105": {
+    "checked_date": "2026-11-05",
+    "model": "Fractal Audio FM3 original",
+    "status": "partial_source_verified",
+    "sources": [
+      {
+        "url": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+        "revision": "November 2026",
+        "pages": "3,76–86"
+      },
+      {
+        "url": "https://www.fractalaudio.com/fm3-downloads/",
+        "scope": "Explicit original-model firmware support; shared-guide recommendation"
+      }
+    ],
+    "finding": "Named all 16 Pitch reference choices; documented algorithm-specific note handling and feedback placement without transferring polyphony to Synth.",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-original--november-named-pitch-and-note-handling",
+    "remaining": [
+      "Other named category inventories",
+      "Original headphone hardware variants",
+      "Installed firmware and tracking performance",
+      "Global volume endpoints, recall and signal coverage"
+    ],
+    "continuation": "Prioritize remaining individual-foot LCD hardware gaps; preserve general GP-200JR → Prime → original GE300 cycle and independent expression queue.",
+    "inventory_change": 0
   }
 }
