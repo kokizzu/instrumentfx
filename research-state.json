@@ -167380,5 +167380,26 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue requested individual-display priority andShopee discovery;preserve independentGP-200JR->Prime->GE300,GT-Pro,expression/consolidation queues."
+  },
+  "pod20_firmware_support_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/LINE6.md#pod-20--firmware-identity-and-legacy-support-boundary",
+    "sources": [
+      "https://kb.line6.com/eprom-upgrade-and-f-a-q",
+      "https://kb.line6.com/limited-support-of-legacy-products",
+      "https://kb.line6.com/line-6-product-weights-and-dimensions",
+      "https://kb.line6.com/power-supply-battery-specs-and-faq"
+    ],
+    "firmware": {
+      "original_eprom": "2.3",
+      "newer_fbv_reported": "2.54",
+      "normal_startup": "2.0 doesnot establishinstalledrevision",
+      "eprom_stock": "Manufacturer exhausted;newerFBV notchipupgradeable"
+    },
+    "approximate_end_of_sale": "2012-11-26;notserviceenddate",
+    "support_scope": "2021-04-01legacy usage livecontactlimit;ticketandrepairdiscussionsdistinct",
+    "deferred": "Power chartunreadable,shopinaccessible;dimensiondata spreadsheetonly,nodownload",
+    "inventory_unchanged": 402,
+    "next": "Defer inaccessiblepower/dimensions;continue individual-footdisplay priorities andfresh qualifiedShopee discovery. Preserve GP-200JR->Prime->GE300,GT-Pro,expression/consolidation queues."
   }
 }

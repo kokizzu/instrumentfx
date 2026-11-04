@@ -2285,6 +2285,16 @@ The [manufacturer legacy FAQ](https://line6.com/support/page/kb/legacy-products/
 
 Power ratings,unit dimensions/mass,qualified Shopee offers andcontroller-volume endpoint/recall/output coverage remain unresolved. Partial lead remains outside active402;older sources andgeneration distinctions retained.
 
+### POD 2.0 — firmware identity and legacy-support boundary
+
+Checked **2026-11-05**, [manufacturer EPROM FAQ](https://kb.line6.com/eprom-upgrade-and-f-a-q). It lists **2.3** as the latest original POD EPROM revision,with recoded cabinets,some changed amps andminor fixes. Newer **FBV POD2.0 reports2.54** andis not EPROM-chip upgradeable. These are hardware-generation distinctions,not a2.54 upgrade offer fororiginal units. Line6 says its EPROM upgrade stock is exhausted.
+
+The FAQ says ordinary startup displays **2.0**,while its separate version-check mode exposes the complete installed version. Therefore a seller’s ordinary startup display alone cannot establish2.0 versus2.3 or2.54 firmware. No unit was powered,opened orupdated. Existing manual revisions andspillover qualifications remain separate from installed-version evidence.
+
+The [manufacturer legacy-support policy](https://kb.line6.com/limited-support-of-legacy-products) lists POD2.0’s **approximate end of sale as2012-11-26**,not its support-end orrepair-refusal date. Effective2021-04-01,the policy limits legacy-product usage assistance toone15-minute live contact,then support tickets;it separately permits warranty/parts/repair discussions. No Indonesian service availability orreplacement-part stock inferred.
+
+Electrical chart retrieval yielded no readable model-specific pixels;official shop/legacy product links were inaccessible. The official [weights/dimensions page](https://kb.line6.com/line-6-product-weights-and-dimensions) links spreadsheets,not readable dimensions inits page text;no spreadsheet downloaded. Power,dimensions/mass andqualified Shopee offers remain open. Keep thispartial lead outside active402.
+
 ## POD Express Bass
 
 **New bass-specific model, checked2026-10-15.** A separate hardware/sound-library record, not a color option for POD Express Guitar. The official Bass product and joint2.00 manual explicitly document the following common hardware and different processing path. This record remains partial. Dimensions were repaired from the joint manufacturer announcement on2026-10-17; platform-specific OS minima need separate evidence.
