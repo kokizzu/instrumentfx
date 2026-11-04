@@ -18,10 +18,10 @@ Checked 2026-10-18. Partial guitar multi-effects record; separate from iE-550. M
 | Expression | **External expression:6.35mm TRS jack**. Built-in/toe behavior unverified. [I350-Q] Manualp7 offers None/FX/DRV/AMP/MOD/DLY/RVB/VOL targets;VOL controls overall chain output. Calibrate at both travel endpoints with VALUE;EXIT cancels. **Target selector belongs to Global Settings**, [original manual pp6–7](https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=7);VOL is overall effect-chain output. Across-preset/power persistence andfull-source attenuation remain unverified;firmware digits unreadable. |
 | K/F/B | **One VALUE push encoder,four named buttons(EXIT,GLOBAL,BT,DRUM),two footswitches;separate POWER switch**. Encoder press confirms,hold opens SAVE. [I350-Q] |
 | Display | **1.7-inch color LCD**,Chinese original-guide text;English numerical glyphs missing. Touch unverified. [I350-Q] |
-| Processing / choices | **Eight simultaneous modules**; Manualpp11–13 extracted library counts:**NR1,FX9,drive6,AMP17,CAB15 factory+5userIR,MOD6,DLY7,RVB7**. Counts reflect listed choices,not simultaneous copies;table-label alignment remains subject to visual check. Manualp5 permits module rearrangement except fixed DRV/AMP/CAB. [I350-M] |
+| Processing / choices | **Eight simultaneous modules**; Manualpp11–13 extracted library counts:**NR1,FX9,drive6,AMP17,CAB15 factory+5userIR,MOD6,DLY7,RVB7**. Counts reflect listed choices,not simultaneous copies;[Complete named census](#ie-350--named-manual-inventory-and-creative-distinctions):68 stock choices,plusfive userIR slots;table-label alignment remains subject to visual check. Manualp5 permits module rearrangement except fixed DRV/AMP/CAB. [I350-M] |
 | Factory / user memory | **50 factory F01–50 +50 user P01–50=100**. Initial user fill and protected/writable rules pending. [I350-M] |
 | Processing / bass suitability | Own manual lists bass drive,two bass-oriented amp entries,two bass cabinets andbass chorus. This supports shared bass classification,not equal performance of every algorithm or measured low-frequency response. [Original library](https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=12). |
-| Synth / acoustic | Dedicated synthesis/acoustic simulation unknown. |
+| Synth / acoustic | Detune andOctave listed;note polyphony/ranges unknown. Wah filtering,Sweep delay andDream modulated reverb are distinct fromdedicated synthesis/acoustic simulation,which remain unverified. [Named inventory](#ie-350--named-manual-inventory-and-creative-distinctions). |
 | I/O | **6.35mm TS input,1MΩ;6.35mm TRS stereo unbalanced output/headphones,100Ω;USB2.0 Type-C**. Expression jack documented separately. Complete port inventory still requires panel verification. [I350-M] |
 | USB audio / levels | Manualp6 separately adjusts input gain,effect-chain recording,Bluetooth recording andUSB return monitoring,each−20…+20dB. Dry/reamp selection andchannel mapping unresolved. |
 | Conversion | **24-bit AD/DA,44.1kHz;100dB SNR**. **USB recording44.1kHz/16-bit** separately specified;**2-in/2-out** per manualp10;Windows requires driver. [I350-Q] [I350-M] |
@@ -31,6 +31,25 @@ Checked 2026-10-18. Partial guitar multi-effects record; separate from iE-550. M
 | Editor / software | Manufacturer lists iE350/550 AndroidDKit1.2.1,Mac/Windows firmware resources andUSB ASIO executable. Updater/driver are not proof of a desktop editor. [I350-S] Manualp10 claims tone/preset management,reset andthird-party IR loading on Windows/Mac/Android/iOS,but unexpectedly names Boin Audio before directing readers to DK. Exact desktop package/current compatibility unverified. |
 | Editor / Apple compatibility | Manufacturer DKit history explicitly adds **iE350 support in1.1.0(17June2025)**;NAM import arrives later in1.2.0. **iOS/iPadOS14 minimum**. Mac metadata requires11+/AppleM1+,but listing expressly marks macOS unverified;not a verified desktop editor. US listing shows1.2.0 Aug29 without year,while regional caches use relative dates;exact release date not normalized. [Apple listing](https://apps.apple.com/us/app/dkit/id6738170601?platform=ipad). |
 | Looper / drums / live | Footswitches step presets,hold scrolls;both invoke tuner. DRUM toggles playback,hold opens settings. BT supports audio/app. Detailed drum limits,looper,scenes andtrails pending. [I350-Q] |
+
+### iE-350 — named manual inventory and creative distinctions
+
+Checked **2026-11-04**,manufacturer-authored manual reproduction,[p11](https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=11),[p12](https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=12),[p13](https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=13). Firmware digits remain unreadable;original text only,not visual table-alignment verification orcurrent installed contents.
+
+| Module | Named stock choices | Names |
+|---|---:|---|
+| NR |1|Gate|
+| FX |9|Comp;Boost;Detune;T-Wah;A-Wah;C-Wah;Octave;GT EQ;Bass EQ|
+| DST/drive |6|TS;Butter OD;JP Dist;Shark;Red Fuzz;Bass Drive|
+| AMP |17|TWD Deluxe;B-Man N;DarkTwin;Voks 30N;Jazz 120;Brit 45;Brit 50JP;Brit 800;Voks 30TB;Dizzy VH;Eng 120;Halen 51;Sol 100LD;Calif Dual;Bog XT;Classic Bass;Foxy Bass|
+| CAB |15|TWD 1x8;VibLux 1x12;Voks 1x12;TWD 2x12;Double 2x12;Jazz 2x12;Brit 2x12;B-man4×10;BritGN4x12;Bog 4x12;Dizzy 4x12;Sol 4x12;Dual 4x12;Mark 2×10;Ampg4×10|
+| MOD |6|A-Chorus;B-Chorus;Flanger;Phaser;Vibrato;Tremolo|
+| DLY |7|Warm;Pure;Mag;Reverse;Slap;Sweep;Ping Pong|
+| RVB |7|Air;Room;Hall;Church;Plate;Spring;Dream|
+
+**68 named stock menu choices**,plusfive separate User IR locations;not73 stock algorithms or68 simultaneous blocks. Whitespace inwrapped names is normalized;copied cabinet descriptions andtext-extracted category alignment remain source qualifications. Eight modules remain the simultaneous architecture.
+
+**Detune** blends slightly shifted anddry sound;**Octave** is separately listed,without verified interval range ornote polyphony. T-Wah is dynamics-controlled;A-Wah automatic;C-Wah models a wah pedal. These filters do not establish a tracking synth. Sweep modulates delay frequency;Ping Pong alternates feedback acrossleft/right;Dream is modulated reverb. Dedicated synthesis andelectric-to-acoustic simulation remain unverified. Global-menu VOL still lacks documented preset/power persistence andall-source attenuation;no device,editor,IR orfirmware operated ordownloaded.
 
 ### Separate IDR hardware evidence
 

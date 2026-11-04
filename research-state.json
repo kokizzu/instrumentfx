@@ -164713,5 +164713,33 @@
       "Complete category census andcurrent qualified offers"
     ],
     "next": "Continue requested footswitch-display andcompact expression gaps;retain GT-Pro andindependent general-model queues."
+  },
+  "dk_ie350_named_inventory_20261104": {
+    "checked_date": "2026-11-04",
+    "sources": [
+      "https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=11",
+      "https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=12",
+      "https://www.manualslib.com/manual/4152133/Dk-Ie-350.html?page=13"
+    ],
+    "revision": "Exact-model original manual;firmware digits unreadable;three full effect-list pages read,not visually inspected",
+    "counts": {
+      "NR": 1,
+      "FX": 9,
+      "DST": 6,
+      "AMP": 17,
+      "CAB": 15,
+      "MOD": 6,
+      "DLY": 7,
+      "RVB": 7
+    },
+    "stock_total": 68,
+    "user_ir_slots": 5,
+    "findings": "Allstock names recorded;Detune/Octave,wah,Sweep/PingPong delay,Dream reverb distinguished fromtracking synth/acoustic simulation.",
+    "remaining": [
+      "Visual table alignment andpanel census",
+      "VOL preset/power persistence,endpoints,recall andall-source coverage",
+      "Current firmware/library,NAM import workflow,qualified hardware stock"
+    ],
+    "next": "Continue requested individual footswitch-display processors andcompact expression-volume unresolved sources;preserve GT-Pro andindependent general-model queues."
   }
 }
