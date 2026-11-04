@@ -1852,6 +1852,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | Categories / Phaser, Filter, Enhancer | **19/20/3 reference choices;2/4/2 FM9 instances**, DSP-limited. [Named November2026 inventories](#fm9-original--november-phaser-filter-and-enhancer-inventories);current installed equivalence unverified. |
 | Categories / Gate, Tremolo, Wah | **4/7/9 reference choices;4/2/2 FM9 instances**,DSP permitting. [Named inventories and articulation limits](#fm9-original--november-gate-tremolo-and-wah-inventories): swell gating,triggered modulation andfilter control are separate fromtracking synthesis andglobal volume. |
 | Categories / Delay names and hold scope | **29 reference types;two FM9 Delay instances**,DSP permitting. [November2026 named inventory](#fm9-original--november-delay-types-and-capture-boundaries) distinguishes captured repeats,reverse snippets andwet-only modulation;not extra Looper blocks ortracking synthesis. |
+| Categories / Plex special effects | **45 reference choices: five core algorithms plus40 variants; one FM9 Plex block**, DSP permitting. [Named inventory and capture limits](#fm9-original--november-plex-choices-and-voice-count-boundaries) distinguish internal delay lines, pitch effects and held tails from synth tracking. |
 | Categories / Pitch names and tracking | **16 reference types;one FM9 Pitch instance**, DSP-limited. ChromaticNotes/Chords;VirtualCapo polyphonic;Diatonic monophonic. [Named November2026 limits](#fm9-original--november-pitch-types-and-note-handling-scope);Synth remains separately monophonic. |
 | Preset memory | **512 editable presets**,including overwritable factory entries; **eight scenes each**. [Current manufacturer FM9-family default:384](#fm9-original--family-factory-preset-default-and-version-scope);original-revision shipping allocation andcurrent unit contents remain unverified. These occupy the512 locations,not extra protected presets. Four preset-bank backups are separate fromSystem/UserCabs; [range typo andbackup scope](#fm9-original--preset-bank-backups-and-source-range-error). [Own memory](#fm9-original--global-volume-memory-and-cpu-scope). |
 | Synth / acoustic | **Three-voice monophonic tracking synth**;notthree-note polyphony. Acoustic input support does not establish electric-to-acoustic simulation,which remains unverified. [Original manual evidence](#fm9-original--dated-processing-census-synth-and-looper). |
@@ -2047,6 +2048,16 @@ Checked **2026-11-04**, [manufacturer November2026 Blocks Guide,pp3,52,106–107
 FM9 instance limits are **Gate4,Tremolo2,Wah2**,subject toDSP. The separate Input-block gate isnot counted asanother Gate/Expander type. Modern Gate’s slower attack supports swells;sidechain filters affect detection,not output EQ. Tremolo Trigger Threshold restarts modulation with playing;Off allows free-running LFO. Bias/Harmonic types can distort;PannerWidth above100% uses psychoacoustic widening. These are articulation/spatial effects,not pitch tracking.
 
 Wah Control can use a pedal,LFO orfixed position. Min/Max Frequency set its sweep;they are not volume endpoints. Wah includes switchable8-band EQ. None establishes global analog-volume assignment. Current installed equivalence,introduction firmware andmeasured behavior remain unverified;older evidence preserved.
+
+### FM9 original — November Plex choices and voice-count boundaries
+
+Checked **2026-11-04**, [manufacturer November2026 Blocks Guide, pp3,87–90](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf).
+
+**Five core algorithms:** Plex Delay; Plex Detune; Plex Shift; Plex Verb; Shimmer Verb.
+
+**Forty variants:** Ambient Depths; Bronze Harps; Cacophonizer; Celestial Shimmer; Critters; Dancing Detune; Delay Swell; Demi-Semi Delay; Detuned Space; Detuned Space 2; Discrete Echoes; Dissolving 16ths; Echo Hall; Econo Shimmer; Econo Shimmer 2; Ganymede; Gnome Shifter; Gold Harps; Golden Delay; Golden Detune; Golden Shimmer; Granular Echoes; Gritty Shimmer; Helium Shimmer; Intrigue; Lunar Detuner; Melting Delays; Mod Wash; Occult Verb 1; Occult Verb 2; Ping-Pong Reverse; Plex Tape Echoes; Reverse Oct 4; Reverse Oct 8; Reverse Plex; Sample/Hold Delay; Scintillation; Sirocco; Subtone Shimmer; The Cytherians.
+
+FM9 permits **one Plex block**, DSP limited. Up to eight internal delay lines increase CPU demand; they are not eight blocks or input-note polyphony. Plex Delay has no pitch processing; Detune offers ±50 cents per voice, Shift ±24 semitones. **Hold** retains the tail while closing input; **Stack** retains it while accepting more audio. Reversed pitch granules differ from reversing an entire phrase. These are delay/pitch/reverb processes, not proof of tracking synthesis or persistent loop storage. Installed equivalence and introduction firmware remain unverified; older evidence retained.
 
 
 ## FM9 Turbo
