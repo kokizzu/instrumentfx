@@ -706,6 +706,21 @@ Subtypes occupy their parent FX choice: OD/DS,Compressor,Limiter,Pitch Shifter a
 
 The guide appears to swap Compressor Tone/Level descriptions: Tone is described as volume andLevel as tone. Preserve the inconsistency; physical control behavior remains untested. Full remaining-category names,concurrency,import formats andqualified Indonesian offers remain open. No download ordevice operation.
 
+### GP-10 — separate effect inventories and Foot Volume routing
+
+Checked **2026-11-05**, [manufacturer owner manual e02,©2014,printed pp10–11](https://cdn.roland.com/assets/media/pdf/GP-10_e02_W.pdf). Historical reference, not an installed-firmware or simultaneous-load test.
+
+| Separate position | Named choices |
+|---|---|
+| Wah 6 | CRY WAH; VO WAH; FAT WAH; LIGHT WAH; 7-STRING WAH; RESO WAH |
+| Chorus 3 | MONO; STEREO1; STEREO2 |
+| Delay 10 | SINGLE; PAN; STEREO; DUAL-S; DUAL-P; DUAL-L/R; REVERSE; ANALOG; TAPE; MODULATE |
+| Reverb 7 | AMBIENCE; ROOM; HALL1; HALL2; PLATE; SPRING; MODULATE |
+
+Delay **DUAL-S** is series, **DUAL-P** parallel, **DUAL-L/R** independent left/right. DUAL-S/P each allow1–1000ms per delay; Analog1–2000ms andTape1–3400ms are different limits. STEREO sends dry left and wet right; its name does not mean independent stereo-input processing. RESO WAH models resonant filtering, not an additional tracking synth.
+
+FX Chain permits reordering. **Foot Volume cannot be turned off**; it has heel/toe endpoints and selectable curve, separate from Patch Level. The guide does not establish universal headphone/USB/tail coverage. Normal-pickup Cable Sim compensates the short GK pickup cable; the manual specifies Off for ordinary GUITAR IN. This is cable-response compensation, not instrument synthesis. Other format,market and firmware gaps remain; partial lead stays outside active counts. No download ordevice operation.
+
 ## GS-10
 
 **Active partial profile,2026-10-28; not fully verified.** Discontinued desktop guitar/bass multi-effects, supported by its [own manufacturer product page](https://www.boss.info/global/products/gs-10/), [original brochure](https://cdn.roland.com/assets/media/pdf/gs10_brochure.pdf) and exact-model manual cited below. No exact Shopee offer established. Earlier partial-lead notes remain dated provenance, superseded only in admission status.

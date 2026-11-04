@@ -168124,5 +168124,63 @@
       "Power polarity/portableoperation"
     ],
     "next": "Continue display-priority profiles and Shopee gaps;preserve GP-200JR→Prime→GE300,GT-Pro,expression andconsolidation queues"
+  },
+  "gp10_separate_effects_20261105": {
+    "checked_date": "2026-11-05",
+    "source": "https://cdn.roland.com/assets/media/pdf/GP-10_e02_W.pdf",
+    "revision": "Owner e02 ©2014 printed10–11",
+    "canonical": "brand/BOSS.md#gp-10--separate-effect-inventories-and-foot-volume-routing",
+    "named_groups": {
+      "Wah": [
+        "CRY WAH",
+        "VO WAH",
+        "FAT WAH",
+        "LIGHT WAH",
+        "7-STRING WAH",
+        "RESO WAH"
+      ],
+      "Chorus": [
+        "MONO",
+        "STEREO1",
+        "STEREO2"
+      ],
+      "Delay": [
+        "SINGLE",
+        "PAN",
+        "STEREO",
+        "DUAL-S",
+        "DUAL-P",
+        "DUAL-L/R",
+        "REVERSE",
+        "ANALOG",
+        "TAPE",
+        "MODULATE"
+      ],
+      "Reverb": [
+        "AMBIENCE",
+        "ROOM",
+        "HALL1",
+        "HALL2",
+        "PLATE",
+        "SPRING",
+        "MODULATE"
+      ]
+    },
+    "findings": [
+      "Separate category names preserve nestedFX distinction",
+      "Dualdelay series/parallel/LR andtiminglimits",
+      "Reorderable chain;FootVolume cannotturnoff,distinctfromPatchLevel",
+      "CableSim Off forordinaryGuitarIn"
+    ],
+    "active": false,
+    "fully_verified": false,
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Preamp named inventory andexact whole-patch concurrency",
+      "FootVolume numeric endpoints andheadphone/USB/tail coverage",
+      "IR/NAM import andportablepower",
+      "Qualified exact Indonesian hardware offers"
+    ],
+    "next": "Continue requested displaypriority andfullprofile gaps;preserve independent GP-200JR→Prime→GE300,GT-Pro,expression andconsolidation queues"
   }
 }
