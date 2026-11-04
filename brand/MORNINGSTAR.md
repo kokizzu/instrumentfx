@@ -63,3 +63,25 @@ No firmware,editor ormanual downloaded;no device orMIDI operation. The controlle
 Checked2026-10-31: [current manufacturer manual](https://help.morningstar.io/en/article/mc8-pro-user-manual-1yqqr1r/) identifies **eight footswitches A–H and four LCD screens**. Each switch maps to the nearest displayed preset name. Its [exact product page](https://www.morningstar.io/mc8-pro) confirms color feedback and improved resolution/brightness; these relative claims do not provide an absolute pixel count or diagonal. Four screens for eight switches is not one independent display per switch.
 
 The manual separately documents USB-MIDI host, DIN/TRS MIDI and multi-purpose Omniports. These are controller connections, not audio processing. It remains outside active multi-effects counts. Complete controller profile and exact used/new IDR hardware offers remain unverified. MC6 PRO display counts and original MC8 specifications are not transferred. No software/firmware downloaded or device operated.
+
+### MC8 PRO — exact-model physical, memory and pedal profile
+
+Checked **2026-11-04**. [Manufacturer product](https://www.morningstar.io/mc8-pro) and [own manual, updated26October2026](https://help.morningstar.io/en/article/mc8-pro-user-manual-1yqqr1r/); exact firmware applicability unstated. Earlier unknowns above are narrowed here, not silently replaced with MC6 or original MC8 data.
+
+| Field | Evidence / qualification |
+|---|---|
+| Body / controls | Product: **260×123×52mm**, axes unlabeled; eight switches, four color LCDs. Mass, full rotary/button census, pixels, diagonal and touch remain unverified. |
+| Connections | Product: DIN MIDI In/Out; separate USB-C Device/Host; four Omniports; two relay ports;3.5mm TRS MIDI In/Out. TRS MIDI TypeA/B selectable. No audio processing or headphone path established. |
+| Power | Product: **9–12V DC center-negative,minimum500mA at70% brightness;600mA with relays**;USB bus power and MIDI-Out pins6/7 phantom supported. Manual specifies500mA at9V,plus100mA for relays andadditional downstream USB demand;phantom9–12V AC/DC. Not measured draw or battery support. |
+| Memory | Manual: **eight isolated profiles**,each128banks×3pages×8switch presets=**3,072**. Profiles cannot address one another;switches initially EMPTY,up to32messages each. Four expression presets per bank are separate. Not audio preset capacity. |
+| Expression | Manual: four bank-specific EXP presets;TRS voltage-divider orTS rheostat,linear10–25kΩ,10k recommended. Calibration maps heel/toe toCC0/127. Wiper pinout andconnected-processor global-volume behavior remain unverified. |
+| Display / navigation | Manual: brightness30–100%,default70%. C+D bankup,A+B bankdown;G+H pageup,E+F pagedown. Held pairs scroll. These select controller banks/pages,not guaranteed processor preset±. |
+| Software | Manual: web editor Chrome/Opera/Brave;offline options. Product: BLE MIDI andeditor access. OS-specific requirements,backup cross-profile coverage andinstalled firmware remain unverified. |
+
+### MC8 PRO — separate Indonesian offer evidence
+
+[Exact Swee Lee Indonesia MC8-PRO hardware](https://www.sweelee.co.id/en/products/morningstar-mc8-pro-midi-controller),checked **2026-11-04**: month-old search snapshot **Rp8.000.000**,tax-inclusive,**Add to Waitlist**;direct reader cache miss. Not live stock,a completed sale orverified new/used range. Condition,working state,dispatch region,selected bundle,cable/adapter inclusion,warranty,voucher,shipping andcheckout total remain unverified.
+
+A separate [BOXXCASE multi-model page](https://www.boxxcase.com/en/products/pedal-new-morningstar) exposes **Rp4.800.000 for selected ML5R**,despite listing MC8 PRO among choices. That ask andthe displayed1left are **not assigned to MC8 PRO**. Search also returned SPL Audio MC8 PRO measurement microphones,which are unrelated hardware. No qualified exact Shopee Indonesia MC8 PRO controller offer recovered;this is not proof of market absence.
+
+No download,installation,MIDI transmission ordevice operation. Controller stays outside402active audio multi-effects;remaining gaps include physical display specifications,weight,firmware applicability,pedal pinout andcondition-qualified stock.

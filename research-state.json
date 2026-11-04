@@ -161112,5 +161112,35 @@
     "access": "PDFtext readable; screenshot yielded no inspectable image; targeted Shopee query no qualified exact hardware.",
     "inventory_count_unchanged": 402,
     "next": "Continue accessible compact no-treadle inventory and priority separate-footdisplay gaps; preserve independent GT-Pro cursor."
+  },
+  "mc8pro_physical_memory_offer_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "Morningstar MC8 PRO controller",
+    "sources": [
+      "https://www.morningstar.io/mc8-pro",
+      "https://help.morningstar.io/en/article/mc8-pro-user-manual-1yqqr1r/",
+      "https://www.sweelee.co.id/en/products/morningstar-mc8-pro-midi-controller",
+      "https://www.boxxcase.com/en/products/pedal-new-morningstar"
+    ],
+    "revision": "Manual updated26October2026; firmware unspecified; exact product",
+    "canonical": "brand/MORNINGSTAR.md#mc8-pro--exact-model-physical-memory-and-pedal-profile",
+    "finding": "Exact body/IO/power,independent profiles andbank-specific expression;four colorLCDs/eight switches remain multi-switch screens.",
+    "offer": {
+      "seller": "Swee Lee Indonesia",
+      "idr": 8000000,
+      "access": "Month-old search;direct cache miss",
+      "stock": "Add to Waitlist",
+      "condition": "unverified",
+      "bundle_region_warranty_checkout": "unverified"
+    },
+    "rejected": "BOXXCASE Rp4800000 belongs selectedML5R;SPLAudioMC8PRO microphones unrelated;originalMC8 prices nottransferred.",
+    "remaining": [
+      "Screen pixels/diagonal/touch andphysicalmass",
+      "Exact firmware/OS compatibility",
+      "Pedal wiper pinout",
+      "Qualified exactShopee stock/condition"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue requested separate-footdisplay model gaps;controller scope remains outsideaudioinventory;preserve GT-Pro/expression queues."
   }
 }
