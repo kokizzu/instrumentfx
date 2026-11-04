@@ -2264,7 +2264,7 @@ Bass multi-effects; large body, external-only expression. Consolidated and refre
 | Size class | Large |
 | Used USD | ? |
 | New USD observation | $359 [P1] |
-| Maximum simultaneous blocks; categories / choices | **6**, DSP-limited; 13 amps; 12 cabinet models ×3 mic positions; 4 DI models. [Complete2021 list census](#b6--complete-dated-effect-list-census):120 named entries across13 categories,including utilities;current installed totals remain unverified. |
+| Maximum simultaneous blocks; categories / choices | **6**, DSP-limited; 13 amps; 12 cabinet models ×3 mic positions; 4 DI models. [Complete2021 list census](#b6--complete-dated-effect-list-census):120 named entries across13 categories,including utilities;current installed totals remain unverified. [Large-effect spaces andofficial count discrepancy](#b6--official-nine-versus-six-wording-and-large-effect-spaces) qualify the six-position limit. |
 | Factory / user memory | 240 editable patch memories total |
 | Synth / acoustic | Bass Standard Synth / Bass Synth Talk; dual-input piezo support. [Own effect-list clarification](#b6--chord-pitch-versus-synth-tracking) also names Z-Syn,Defret andalgorithm-specific pitch limits;piezo support isnot acoustic simulation. |
 | Third-party IR | Yes, WAV import; user-slot count ? |
@@ -2365,6 +2365,12 @@ Checked **2026-11-04** in the [manufacturer HTML operation manual](https://zoomc
 IR files go in the SD card’s **B6_IR** folder. **PC MODE disables other functions,footswitches andparameter knobs**;card-reader transfer isnot documented as a background performance task. It requires a data-capable USB2.0 Micro-B cable andseparate power;USB bus operation is unsupported.
 
 **AUTOSAVE defaults On**;Off requires manual saving. **DELETE clears selected patch contents to Empty**,whereas **ALL INITIALIZE overwrites all settings,including patches,with factory defaults**. These do not establish the initial populated-patch count. Existing001–036 supplied IRs/037–120 assignment range remains;factory-IR overwrite permissions andIR-length limits remain unresolved. No files transferred,card formatted,settings changed ordevice operated.
+
+### B6 — official nine-versus-six wording and large-effect spaces
+
+Checked **2026-11-04**. The older [official B6 HTML manual](https://zoomcorp.com/manuals/b6-operation-manual/) says **nine effects** in its Terms→Patch memory paragraph,but its effect-count note,Adding effects section andSpecifications all say **six**. The [current English manual](https://zoomcorp.com/manuals/b6-en/) consistently states six inthose sections andthe glossary. Both lack an explicit revision identifier;this is a retained source discrepancy,not evidence ofa nine-effect firmware upgrade.
+
+Both manuals say **large effects use two effect spaces**. DSP must also stay within100%;an over-budget selection is rejected. Six positions therefore do not guarantee six arbitrary algorithms together. The existing six-effect/DSP qualification remains. The [exact preset list](https://zoomcorp.com/media/documents/E_B6_PatchMemoryList.pdf) exceeded the reader’s15,454,640-byte limit;factory-filled count remains unverified. No download ordevice test.
 
 ## Existing ZOOM research — consolidation still pending
 

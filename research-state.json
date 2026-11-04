@@ -163245,5 +163245,26 @@
     ],
     "inventory_changed": false,
     "independent_queues_preserved": true
+  },
+  "b6_manual_count_conflict_20261104": {
+    "checked_date": "2026-11-04",
+    "sources": [
+      "https://zoomcorp.com/manuals/b6-operation-manual/",
+      "https://zoomcorp.com/manuals/b6-en/",
+      "https://zoomcorp.com/media/documents/E_B6_PatchMemoryList.pdf"
+    ],
+    "canonical": "brand/ZOOM.md#b6--official-nine-versus-six-wording-and-large-effect-spaces",
+    "finding": "Olderofficialglossary9conflictswithsamepageediting/spec6;currentEnglish6throughout;largeeffects2spaces;DSPoverbudgetselectionrejected",
+    "revision": "BothHTMLmanualsrevisionunstated",
+    "preset_access": "15454640-bytePDFreaderlimit;no census frompartial snippets",
+    "remaining": [
+      "Factory-filledpatchcount",
+      "IRlengthceiling/overwritepermission",
+      "Currentinstalledlibrary",
+      "GlobalEXPcoverage",
+      "Qualifiedcurrentoffers"
+    ],
+    "inventory_changed": false,
+    "independent_queues_preserved": true
   }
 }
