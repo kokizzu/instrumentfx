@@ -164412,5 +164412,30 @@
       "Existing technical/market conflicts"
     ],
     "next": "Continue requesteddisplaypriority,exactShopee andsystematicinventory gaps;independentGT-Pro,GP200JR→Prime→GE300,expression andconsolidationqueues preserved"
+  },
+  "stadium_floor_midi_boundaries_20261104": {
+    "checked": "2026-11-04",
+    "canonical": "brand/LINE6.md#stadium-floor--midi-recall-and-output-control-boundaries",
+    "sources": [
+      "https://manuals.line6.com/en/helix-stadium/live/midi",
+      "https://manuals.line6.com/en/helix-stadium/live/global-settings",
+      "https://kb.line6.com/helix-stadium-tips-and-tricks"
+    ],
+    "revision": "Live v1.4/Rev D; KB unversioned",
+    "findings": [
+      "Unsaved empty presets neither emit automatic PC nor accept PC recall",
+      "CC32 user groups1–4 plus PC0–127; setlists5–127",
+      "USB-C MIDI; USB-A MIDI explicitly unsupported in current guide",
+      "Separate Matrix channels and Home level CC11 do not establish direct analog expression global-volume assignment"
+    ],
+    "remaining": [
+      "Power input rating",
+      "Full category census",
+      "Global analog-volume target/range/coverage",
+      "Qualified exact non-XL Shopee hardware"
+    ],
+    "partial_outside_inventory": true,
+    "active_inventory_unchanged": 402,
+    "next": "Continue requested individual footswitch-display profiles and accessible manufacturer gaps; preserve GT-Pro, GP-200JR → Prime → GE300, expression and consolidation queues"
   }
 }

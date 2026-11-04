@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='fix(catalogue): include manufacturer-documented MG-50Li bass support'
+        message='research(line6): document Stadium Floor MIDI recall boundaries'
     print(git('commit','-m',message))

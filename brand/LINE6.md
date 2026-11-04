@@ -839,6 +839,20 @@ Checked **2026-11-04** against [Line 6’s exact family release history](https:/
 
 The page distinguishes hardware, app and plugin version streams. Global pedal target/range/output coverage and exact current installed versions remain unverified. No update,download ordevice test. Power-label evidence andqualified non-XL Shopee hardware remain deferred;partial status and402 active count are unchanged.
 
+### Stadium Floor — MIDI recall and output-control boundaries
+
+Checked **2026-11-04** against the exact-family [MIDI chapter](https://manuals.line6.com/en/helix-stadium/live/midi), live **v1.4/Rev D**, and [Global Settings](https://manuals.line6.com/en/helix-stadium/live/global-settings). These documented controls are not tested hardware behavior or proof of installed firmware.
+
+| Scope | Documented behavior / qualification |
+|---|---|
+| Preset recall | Unsaved **Empty** locations in USER PRESETS or setlists neither transmit automatic PC on selection nor accept PC recall. Save the preset first. The [manufacturer KB](https://kb.line6.com/helix-stadium-tips-and-tricks), with no firmware revision stated, additionally specifies saving and naming it. |
+| Bank addressing | USER PRESETS uses **CC32 values1–4**, each followed by **PC0–127** for its group of128. Factory uses CC32=0; user setlists use5–127. Cross-folder/group recall requires bank selection before PC; displayed preset numbering is not the transmitted PC value. |
+| USB MIDI / software | MIDI uses DIN or **USB-C**. Windows requires the Stadium ASIO driver, included with app1.2 onward; macOS/mobile MIDI requires no driver. This does not establish mobile editor support or compatibility with every USB controller. |
+| Matrix control | Default channels are Global1, Bypass/Control2, quarter-inch Matrix3, XLR Matrix4 and Phones Matrix5. **CC11** on each Matrix channel controls Home/All Paths level; Song, USB, Bluetooth and Aux have separate level CCs. This is MIDI output-layer control, not direct analog EXP assignment or proof of all-source attenuation. |
+| Global PC switch / routing | Send MIDI PC controls automatic preset-change output only. Command Center and Song MIDI flags still send to DIN and USB MIDI. Duplicate Send PC separately suppresses repeated program numbers. Current Global Settings explicitly excludes **USB-A MIDI In/Out**; the presence of USB-A is not USB-host controller compatibility. |
+
+Block bypass/parameter MIDI assignments remain per preset. Global EXP position recall does not turn them into global targets. Volume range, analog-pedal endpoint behavior, bypass/tail/looper coverage and exact power ratings remain unresolved. No driver installation, wiring, update or device test. This non-XL partial lead remains outside402 active models.
+
 ## Helix Stadium XL Floor
 
 <!-- comparison evidence begins -->
