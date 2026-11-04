@@ -1882,6 +1882,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 |---|---|
 | Categories / Formant andRotary | [November2026 FM9 reference](#fm9-original--formant-vowels-and-rotary-control-scope):one Formant type,ten vowels,two instances;two Rotary instances,DSP permitting. Vowel/speaker processing isnot synthesizedinstrument generation. |
 | Controls / utility andvolume-save scope | [Original/Turbo3.x utilities](#fm9-original--utility-display-and-volume-save-boundaries):mainLCD contrast isseparate frommini specifications;systemreset preservespresets butclears layouts. Output1/2 VolumeInc/Dec auto-saves preset edits;not continuous globalvolume. |
+| Categories / Drive special processing | [Drive lo-fi and EQ scope](#fm9-original--drive-lo-fi-controls-and-eq-scope): bit reduction and sample-rate aliasing are processing controls, not converter specifications or tracked synthesis. Three FM9 Drive instances remain CPU-limited. |
 
 <!-- comparison evidence ends -->
 
@@ -2138,6 +2139,13 @@ Checked **2026-11-05**, [manufacturer August2022 Original/Turbo3.x manual,printe
 **Output1/2 Volume Increment/Decrement** changes thecurrent preset’s MAIN level in1dB steps andsaves it,including other unsaved parameters/bypass states. The maker specifies momentary127/0 switching andwarns against expression-pedal use. This isdifferent fromthe separately documented continuous global Input/Output Volume assignment.
 
 Utilities’Display slider adjusts mainLCD contrast/viewing angle,not established miniLCD specifications. ADC Levels shows level-knob/expression readings andpermits exact-percentage output setting;it doesnot establish global pedal endpoints. Systemreset preservespresets butclears footswitch layouts;ClearPresets andClearUserCabs areseparate commands. Firmware andUSBfirmware versions areseparately displayed. No reset,save,MIDI,download ordevice operation performed.
+
+
+### FM9 original — Drive lo-fi controls and EQ scope
+
+Checked **2026-11-05**, [manufacturer November2026 Blocks Guide, printed pp3,39,41–42](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). **Bit Crusher** is a named Drive choice. **Bit Reduce** subtracts the displayed number from24-bit resolution:20 therefore produces4-bit processing. **Sample Rate** reduction creates intentional aliasing. These controls describe an effect,not hardware converter resolution,USB format ortracking synthesis.
+
+Drive has its own **10-band,2/3-octave EQ**,switchable PRE/POST/OFF. That embedded EQ doesnot identify the two missing variants in the separate Graphic EQ block’s18-versus16 count conflict. The FM9 column allows **three Drive instances**,subject to CPU;87 advertised types are choices,not simultaneous effects or a newly completed named census. Installed-version equivalence andintroduction firmware remain unverified;older evidence retained.
 
 
 ## FM9 Turbo

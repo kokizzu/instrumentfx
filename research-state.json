@@ -165478,5 +165478,28 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue other accessible requested display-priority profiles andcompactexpression sources;preserve GT-Pro cursor,generalqueue andlegacy provenance."
+  },
+  "fm9_original_drive_lofi_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-original--drive-lo-fi-controls-and-eq-scope",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 printed3,39,41–42",
+    "named_choice": "Bit Crusher",
+    "bit_reduce_semantics": "Bits subtracted from24;20 produces4-bit effect processing,not converter/USB format",
+    "sample_rate": "Intentional aliasing control",
+    "embedded_eq": "10-band2/3-octave,PRE/POST/OFF;does not resolve separate GEQ18vs16 conflict",
+    "fm9_drive_instances": 3,
+    "advertised_types": 87,
+    "complete_named_census": false,
+    "remaining": [
+      "Complete named Drive census",
+      "Installed equivalence/introduction firmware",
+      "Other unfinished category inventories",
+      "Global pedal endpoints andoutput coverage",
+      "Qualified original-revision Shopee hardware"
+    ],
+    "active_inventory_unchanged": 402,
+    "additional_catalogue_matches_unchanged": 66,
+    "next": "Continue individual-footswitch-display models andcompact expression audit;preserve independent GT-Pro andGP-200JR→Prime→GE300 queues"
   }
 }
