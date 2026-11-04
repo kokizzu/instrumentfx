@@ -154711,6 +154711,15 @@
         "instrument": "AcousticSimulator;SitarSimulator",
         "qualification": "31page ©2024 effectslist retrieved2026-11-04;download/library andinstalledcontents distinct;notfullfresh audit",
         "evidence_basis": "Focused exact-model manufacturer effectslist andOctober30,2024 announcement;earlier record retained"
+      },
+      {
+        "key": "Zoom::G2X FOUR",
+        "canonical": "brand/ZOOM.md#g2x-four",
+        "synth": "Dedicated tracking synth unverified;vowelfilter/delayfeedback separate",
+        "pitch": "PolyphonicPitchShifter±24chords;PedalMonoPitchsingle-note",
+        "instrument": "AcousticSimulator;SitarSimulator",
+        "qualification": "18pedalchoices;onepedaleffectperpatch;sharedexactmodelZ2I-4814-02;installedcontentsunverified",
+        "evidence_basis": "Focused manufacturer list/manual;notfullfreshfourcategoryaudit"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -154733,76 +154742,81 @@
     "independent_queues_preserved": true,
     "additional_index_presentation": {
       "checked_date": "2026-11-04",
-      "records": 52,
-      "change": "Indexed existing active G2 FOUR creative algorithms;no inventorymembership change.",
+      "records": 53,
+      "change": "Indexed existing active G2X FOUR pedal/creative evidence;membership unchanged.",
       "previous": {
         "checked_date": "2026-11-04",
-        "records": 51,
-        "change": "Indexed existing active MG-50Li pitch/special choices;no inventory change.",
+        "records": 52,
+        "change": "Indexed existing active G2 FOUR creative algorithms;no inventorymembership change.",
         "previous": {
           "checked_date": "2026-11-04",
-          "records": 50,
-          "change": "Indexed existing active M13 creative capabilities;no inventory membership change.",
+          "records": 51,
+          "change": "Indexed existing active MG-50Li pitch/special choices;no inventory change.",
           "previous": {
             "checked_date": "2026-11-04",
-            "records": 49,
-            "change": "Indexed existing active Anagram;no membership change.",
+            "records": 50,
+            "change": "Indexed existing active M13 creative capabilities;no inventory membership change.",
             "previous": {
               "checked_date": "2026-11-04",
-              "records": 48,
-              "change": "Indexed existing active Solis Ventus creative processing;no membership change.",
+              "records": 49,
+              "change": "Indexed existing active Anagram;no membership change.",
               "previous": {
                 "checked_date": "2026-11-04",
-                "records": 47,
-                "change": "Indexed existing active GP-200JR creative algorithms;no membership change.",
+                "records": 48,
+                "change": "Indexed existing active Solis Ventus creative processing;no membership change.",
                 "previous": {
                   "checked_date": "2026-11-04",
-                  "records": 46,
-                  "change": "Indexed existing active NEURIG creative algorithms;no membership change.",
+                  "records": 47,
+                  "change": "Indexed existing active GP-200JR creative algorithms;no membership change.",
                   "previous": {
                     "checked_date": "2026-11-04",
-                    "records": 45,
-                    "change": "Indexed existing active Nano Cortex;no membership change.",
+                    "records": 46,
+                    "change": "Indexed existing active NEURIG creative algorithms;no membership change.",
                     "previous": {
-                      "checked_date": "2026-11-03",
-                      "records": 44,
-                      "change": "Indexed existing active G3Xn;membership unchanged.",
+                      "checked_date": "2026-11-04",
+                      "records": 45,
+                      "change": "Indexed existing active Nano Cortex;no membership change.",
                       "previous": {
                         "checked_date": "2026-11-03",
-                        "records": 43,
-                        "change": "IndexedexistingactiveME90creativealgorithms;membershipunchanged.",
+                        "records": 44,
+                        "change": "Indexed existing active G3Xn;membership unchanged.",
                         "previous": {
                           "checked_date": "2026-11-03",
-                          "records": 42,
-                          "change": "IndexedexistingactiveG1Xon;pedalendpoint/notehandling distinctions;membershipunchanged.",
+                          "records": 43,
+                          "change": "IndexedexistingactiveME90creativealgorithms;membershipunchanged.",
                           "previous": {
                             "checked_date": "2026-11-03",
-                            "records": 41,
-                            "change": "IndexedexistingactiveG1oncreativeprocessing;membershipunchanged.",
+                            "records": 42,
+                            "change": "IndexedexistingactiveG1Xon;pedalendpoint/notehandling distinctions;membershipunchanged.",
                             "previous": {
                               "checked_date": "2026-11-03",
-                              "records": 40,
-                              "change": "IndexedexistingactiveHelixLT;supersededqualifiedsynth/acousticunknown;membershipunchanged.",
+                              "records": 41,
+                              "change": "IndexedexistingactiveG1oncreativeprocessing;membershipunchanged.",
                               "previous": {
                                 "checked_date": "2026-11-03",
-                                "records": 39,
-                                "change": "Indexed existingactiveAX3B;correctedmanualedition/resetattribution;membershipunchanged.",
+                                "records": 40,
+                                "change": "IndexedexistingactiveHelixLT;supersededqualifiedsynth/acousticunknown;membershipunchanged.",
                                 "previous": {
                                   "checked_date": "2026-11-03",
-                                  "records": 38,
-                                  "change": "Indexed existingactiveAX3000B;membershipunchanged;focusedcreativecheck.",
+                                  "records": 39,
+                                  "change": "Indexed existingactiveAX3B;correctedmanualedition/resetattribution;membershipunchanged.",
                                   "previous": {
                                     "checked_date": "2026-11-03",
-                                    "records": 37,
-                                    "change": "Indexed existingactiveAX1500G;noinventoryadmission orwholecatalogueaudit.",
+                                    "records": 38,
+                                    "change": "Indexed existingactiveAX3000B;membershipunchanged;focusedcreativecheck.",
                                     "previous": {
                                       "checked_date": "2026-11-03",
-                                      "records": 36,
-                                      "change": "Indexed existing active Stadium XL;not inventory admission orwhole-catalogue reaudit.",
+                                      "records": 37,
+                                      "change": "Indexed existingactiveAX1500G;noinventoryadmission orwholecatalogueaudit.",
                                       "previous": {
                                         "checked_date": "2026-11-03",
-                                        "records": 33,
-                                        "change": "Corrected stale 31-record introduction to 33 and removed blank lines splitting the additional-catalogue Markdown table. No technical claims, ownership, instrument membership or independent queues changed."
+                                        "records": 36,
+                                        "change": "Indexed existing active Stadium XL;not inventory admission orwhole-catalogue reaudit.",
+                                        "previous": {
+                                          "checked_date": "2026-11-03",
+                                          "records": 33,
+                                          "change": "Corrected stale 31-record introduction to 33 and removed blank lines splitting the additional-catalogue Markdown table. No technical claims, ownership, instrument membership or independent queues changed."
+                                        }
                                       }
                                     }
                                   }
@@ -159957,5 +159971,44 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue accessible broaderZoom technical/market gaps whenrequested separate-footdisplay sources remaininaccessible;preserve GT-Pro andexpressionqueues."
+  },
+  "g2xfour_pedal_creative_offer_20261104": {
+    "checked": "2026-11-04",
+    "model": "Zoom G2X FOUR",
+    "sources": [
+      "https://zoomcorp.com/media/documents/E_G2FOUR_EffectsList.pdf",
+      "https://zoomcorp.com/manuals/g2four_g2xfour-en/"
+    ],
+    "revision": "EffectsZ2I-4814-02 ©2024 pp11,15,23,29–31;HTMLoperation©2023",
+    "pedal_category_choices": 18,
+    "findings": [
+      "MonoPitch versusPolyphonicPitch distinction",
+      "Acoustic/Sitar simulation established",
+      "BitCrusher4–32bits;samplecontrolrelative0–50",
+      "OscillatorEcho delayfeedback nottracking synth",
+      "InputlevelDelay/Reverb notfinalvolume;outputretention notglobalassignment"
+    ],
+    "offer": {
+      "url": "https://shopee.co.id/Zoom-G2X-FOUR-Guitar-Multi-Effects-Pedal-termasuk-Adaptor-i.158235298.20492612245",
+      "shop": "158235298",
+      "item": "20492612245",
+      "seller": "NEO MUSIC",
+      "region": "Kota Sukabumi",
+      "idr": 3500000,
+      "access": "Search3month;directcachemiss",
+      "bundle": "Adapter named;model/plug/selectedvariant unverified",
+      "condition": "unverified",
+      "stock": "unverified",
+      "voucher": "Latecompensationnotdeducted;no upfrontdiscountestablished"
+    },
+    "remaining": [
+      "Installedcategorycensus",
+      "Otherpolyphony/tracking/latency",
+      "Pedalrecall/outputcoverage",
+      "Screen diagonal/touch",
+      "Qualified new/usedstock"
+    ],
+    "inventory_count_unchanged": 402,
+    "next": "Continue accessible broaderZoom/compact inventory gaps whileindividualscreen sources deferred;preserve independent generalGTPro andexpressionqueues."
   }
 }

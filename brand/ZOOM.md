@@ -3288,6 +3288,28 @@ Checked 2026-10-18. Exact hardware title includes the AD-16E adapter; delivered 
 |---|---|
 | Price / condition-unverified IDR | **Rp4,368,000** in the one-month direct-reader cache versus **Rp3,424,512** with a voucher label in the one-month search cache. Simfoni Galeri Musik, Kota Jakarta Barat; shop1030145984/item29426711584. [Exact Shopee item](https://shopee.co.id/ZOOM-G2X-FOUR-Electric-Guitar-Multi-Effect-with-Adaptor-Zoom-AD-16E-Efek-Gitar-Guitar-Effect-i.1030145984.29426711584). Search advertises 3% off a Rp5m minimum; the shown item price alone does not satisfy that threshold. Eligibility, selected variation, condition, stock, warranty, shipping, taxes and final checkout total unverified. Late-arrival compensation is separate. Preserve both cached amounts; neither is a verified new/used price or current stock claim. |
 
+### G2X FOUR — pedal-category census and creative boundaries
+
+Checked **2026-11-04**, [manufacturer Effects List](https://zoomcorp.com/media/documents/E_G2FOUR_EffectsList.pdf), **Z2I-4814-02, ©2024, 31 PDF pages**. This shared original explicitly covers G2X FOUR. Hardware and prices are not transferred from its sibling. Minimum firmware and installed contents remain unverified.
+
+| Field | Exact-model evidence / limit |
+|---|---|
+| Processing / pedal choices | **18 named PEDAL entries**, pp29–31: OUTPUT VOLUME PEDAL; PEDAL VOLUME; BLACK WAH; CHROME WAH; WAH100; VOICE WAH; PEDAL PITCH; PEDAL MONO PITCH; PEDAL ROTARY; PEDAL FLANGER; PEDAL VIBE; PEDAL DRIVE; PEDAL PHASER; PEDAL DELAY; OSCILLATOR ECHO PEDAL; PEDAL REVERB; PEDAL RESONANCE; PEDAL BIT CRUSHER. Each entry is counted once; parameters and modes are not additional types. The operation manual allows only one pedal-category effect per patch. |
+| Pitch / mono versus chord processing | **PEDAL MONO PITCH** explicitly requires single notes; PEDAL PITCH polyphony remains unverified. Nine COLOR modes include octave bends, detune and intervals mixed with dry audio. A −∞ shift in DOWN/DWN-OCT does not certify whole-output mute. Separate **POLYPHONIC PITCH SHIFTER**, p15, explicitly accepts chords at −24…+24 semitones. Scale/key **HARMONY PITCH SHIFTER** chord handling remains unstated. |
+| Synth / instrument simulation | **ACOUSTIC SIMULATOR**, p11, processes electric guitar; **SITAR SIMULATOR**, p23, is separate. VOICE WAH is vowel filtering; SLOW ATTACK shapes onset. Dedicated tracking synthesis remains unverified. |
+| Processing / special pedal roles | **PEDAL BIT CRUSHER**: BIT 4–32 bits, SAMPLE 0–50 relative control, no published Hz conversion. **OSCILLATOR ECHO PEDAL** controls delay time/feedback; synth-note tracking is not established. PEDAL DELAY/REVERB control effect input level, which does not establish control of dry-signal amplitude or final-output volume. |
+| Expression / two volume entries | OUTPUT VOLUME PEDAL retains output level across patch changes and lists no adjustable parameters. PEDAL VOLUME separately provides VOL/MIN/MAX 0–100 and A/B curve. Retention does not prove output-volume assignment survives every destination’s pedal selection. Headphone, tail/loop, bypass and held-position response remain unverified. |
+
+The [operation manual, ©2023](https://zoomcorp.com/manuals/g2four_g2xfour-en/), **Using a pedal / Calibrating the pedal**, selects the pedal effect inside each patch and restricts calibration to the built-in G2X treadle. Heel/toe calibration adjusts sensitivity; it does not create global assignment. Pressing the toe toggles the pedal effect. Download-marked choices are not proof of installed availability; the 6+1/DSP and existing looper restrictions remain. No device operation or download.
+
+### G2X FOUR — separate NEO MUSIC adapter offer
+
+| Field | Offer / qualification |
+|---|---|
+| IDR / condition-unverified adapter bundle | Checked **2026-11-04**, **Rp3,500,000**, [NEO MUSIC, 158235298/20492612245](https://shopee.co.id/Zoom-G2X-FOUR-Guitar-Multi-Effects-Pedal-termasuk-Adaptor-i.158235298.20492612245), Kota Sukabumi. Three-month search snapshot; direct opening returned cache miss. Exact G2X FOUR hardware/adaptor title; selected variant, adapter model/plug, condition, new/used status, working state, firmware, accessories, warranty, stock, shipping/tax and checkout total unknown. Relative tomorrow delivery is not live availability; late-arrival compensation up to Rp10,000 is not deducted. No product-price voucher claim established. |
+
+Distinct from G2 FOUR item23178862782 and all older G2X sellers. No verified new/used range or completed sale; no seller contact or purchase.
+
 ## G3
 
 Original guitar multi-effects, distinct from G3X and G3n. Checked 2026-10-17; partial. Discontinued. Bass/vocal suitability unclassified. Later shared-manual evidence below is not proof of the offered unit’s installed firmware.
