@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fractal): qualify FC-6 Mark II editor and switch overrides'
+        message='audit: map requirement headings across all active model records'
     print(git('commit','-m',message))

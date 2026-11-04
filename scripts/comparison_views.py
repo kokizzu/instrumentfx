@@ -1148,8 +1148,77 @@ def test_validation_counts():
     assert state['comparison_membership']['all-bass.md'] != membership['all-bass.md'], 'Fixture mutated source state'
     print('PASS: validation counts follow actual instrument membership, including focused bass removals.')
 
+
+# Heading coverage is a research navigation aid, never technical certification.
+RESEARCH_FIELDS = {
+    'expression': r'expression|external control',
+    'physical_controls': r'knobs|rotar|buttons|k/f/b|physical controls|control count',
+    'display': r'display|screen',
+    'dimensions_mass': r'dimension|weight|mass|body',
+    'processing_choices': r'processing|categor|simultaneous|concurrent|blocks',
+    'memory': r'memory|memories|preset storage|presets and user',
+    'synth_instrument': r'synth|acoustic|instrument sim',
+    'ports': r'i/o|ports|connections|audio/control|connectors',
+    'power': r'power|battery|voltage',
+    'ir_capture': r'ir /|ir import|ir loading|ir support|capture|nam',
+    'software': r'editor|software|apps|platform|configuration',
+    'used_idr': r'used.*idr|idr.*used|used offer|used price',
+    'new_retail_idr': r'new.*idr|idr.*new|retail|new price',
+    'practice_live': r'looper|drum|rhythm|scenes|live|practice',
+}
+
+def research_field_status(facts, pattern):
+    selected = [f for f in facts if re.search(pattern, f['field'], re.I)]
+    if not selected:
+        return 'no_heading_match', []
+    # URLs can contain '?'; do not mistake a link query for an unknown value.
+    plain = ' '.join(re.sub(r'\[([^]]+)\]\([^)]*\)', r'\1', f['value']) for f in selected)
+    unresolved = re.search(r'unverified|unknown|unresolved|pending|not established|(?:^|\s)\?(?:\s|$|[.;])', plain, re.I)
+    return ('recorded_with_uncertainty' if unresolved else 'recorded_needs_source_review'), selected
+
+def research_field_report(records):
+    result = {}
+    totals = {field: defaultdict(int) for field in RESEARCH_FIELDS}
+    for key, record in sorted(records.items()):
+        fields = {}
+        for field, pattern in RESEARCH_FIELDS.items():
+            status, evidence = research_field_status(record['facts'], pattern)
+            totals[field][status] += 1
+            fields[field] = {'status': status, 'matching_headings': sorted({f['field'] for f in evidence})}
+        result[key] = {'canonical': record['link'], 'fields': fields}
+    return {'scope': 'Canonical comparison evidence heading audit; not specifications, source validation, exhaustive semantic extraction or a fully-verified model count.',
+            'statuses': {'no_heading_match': 'Inspect the full canonical body before concluding a field or capability is absent.',
+                         'recorded_with_uncertainty': 'At least one matching field retains explicit unresolved language; other facts may still be established.',
+                         'recorded_needs_source_review': 'Text exists; no technical verification is inferred, including for an explicit No.'},
+            'model_count': len(records), 'field_counts': {k: dict(v) for k,v in totals.items()}, 'models': result}
+
+def test_research_field_report():
+    status = lambda value: research_field_status([{'field':'Expression','value':value}], RESEARCH_FIELDS['expression'])[0]
+    assert status('No built-in treadle; external unknown') == 'recorded_with_uncertainty'
+    assert status('No') == 'recorded_needs_source_review'
+    assert status('Unverified') == 'recorded_with_uncertainty'
+    assert status('[Manual](https://example.test/manual?revision=2)') == 'recorded_needs_source_review'
+    assert status('?') == 'recorded_with_uncertainty'
+    assert research_field_status([], RESEARCH_FIELDS['expression'])[0] == 'no_heading_match'
+    report = research_field_report({'Brand::Exact': {'link':'brand/BRAND.md#exact','facts':[{'field':'Expression','value':'No'}]}})
+    assert report['model_count'] == 1
+    assert all(sum(counts.values()) == 1 for counts in report['field_counts'].values())
+    assert report['models']['Brand::Exact']['fields']['power']['status'] == 'no_heading_match'
+    print('PASS: research heading audit preserves Unknown versus No, excludes URL queries, and never certifies a specification.')
+
+def audit_research_fields():
+    test_research_field_report()
+    report = research_field_report(make_plan(persist=False)['records'])
+    path = Path('/tmp/instrumentfx-research-field-audit.json')
+    path.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+    print(json.dumps({'model_count':report['model_count'],'field_counts':report['field_counts'],'report':str(path)},indent=2))
+
 if __name__=='__main__':
-    if sys.argv[1]=='test-counts':
+    if sys.argv[1]=='research-field-audit':
+        audit_research_fields()
+    elif sys.argv[1]=='research-field-audit-test':
+        test_research_field_report()
+    elif sys.argv[1]=='test-counts':
         test_readme_brand_counts()
         test_validation_counts()
     elif sys.argv[1]=='test-extraction':

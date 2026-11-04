@@ -2520,3 +2520,9 @@ brand-sort-plan-morningstar:
 	python3 scripts/brand_sort.py plan brand/MORNINGSTAR.md
 brand-sort-apply-morningstar:
 	python3 scripts/brand_sort.py apply brand/MORNINGSTAR.md
+
+.PHONY: research-field-audit research-field-audit-test
+research-field-audit:
+	python3 scripts/comparison_views.py research-field-audit
+research-field-audit-test:
+	python3 scripts/comparison_views.py research-field-audit-test

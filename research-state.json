@@ -165686,5 +165686,97 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue remaining individualdisplayprocessor sourcegaps andcompactexpression audit;preserve GT-Pro,general andconsolidationqueues"
+  },
+  "requirement_heading_audit_20261105": {
+    "checked_date": "2026-11-05",
+    "command": "make research-field-audit",
+    "test_command": "make research-field-audit-test",
+    "scope": "Canonical comparison evidence heading audit; not specifications, source validation, exhaustive semantic extraction or a fully-verified model count.",
+    "model_count": 402,
+    "statuses": {
+      "no_heading_match": "Inspect the full canonical body before concluding a field or capability is absent.",
+      "recorded_with_uncertainty": "At least one matching field retains explicit unresolved language; other facts may still be established.",
+      "recorded_needs_source_review": "Text exists; no technical verification is inferred, including for an explicit No."
+    },
+    "field_counts": {
+      "expression": {
+        "recorded_needs_source_review": 153,
+        "recorded_with_uncertainty": 249
+      },
+      "physical_controls": {
+        "recorded_needs_source_review": 164,
+        "no_heading_match": 74,
+        "recorded_with_uncertainty": 164
+      },
+      "display": {
+        "recorded_with_uncertainty": 328,
+        "recorded_needs_source_review": 74
+      },
+      "dimensions_mass": {
+        "recorded_needs_source_review": 293,
+        "recorded_with_uncertainty": 109
+      },
+      "processing_choices": {
+        "recorded_with_uncertainty": 242,
+        "recorded_needs_source_review": 151,
+        "no_heading_match": 9
+      },
+      "memory": {
+        "recorded_needs_source_review": 145,
+        "no_heading_match": 71,
+        "recorded_with_uncertainty": 186
+      },
+      "synth_instrument": {
+        "recorded_with_uncertainty": 299,
+        "recorded_needs_source_review": 98,
+        "no_heading_match": 5
+      },
+      "ports": {
+        "recorded_needs_source_review": 207,
+        "recorded_with_uncertainty": 190,
+        "no_heading_match": 5
+      },
+      "power": {
+        "recorded_with_uncertainty": 337,
+        "recorded_needs_source_review": 65
+      },
+      "ir_capture": {
+        "recorded_with_uncertainty": 327,
+        "recorded_needs_source_review": 72,
+        "no_heading_match": 3
+      },
+      "software": {
+        "recorded_with_uncertainty": 317,
+        "recorded_needs_source_review": 81,
+        "no_heading_match": 4
+      },
+      "used_idr": {
+        "recorded_with_uncertainty": 237,
+        "recorded_needs_source_review": 84,
+        "no_heading_match": 81
+      },
+      "new_retail_idr": {
+        "recorded_with_uncertainty": 224,
+        "recorded_needs_source_review": 90,
+        "no_heading_match": 88
+      },
+      "practice_live": {
+        "recorded_with_uncertainty": 294,
+        "no_heading_match": 42,
+        "recorded_needs_source_review": 66
+      }
+    },
+    "next_review_candidates": [
+      "M-VAVE::CUBE BABY AC",
+      "M-VAVE::CUBE BABY electric",
+      "M-VAVE::MK-300",
+      "Hotone::Ampero II Stomp MP-300",
+      "M-VAVE::TANK MINI",
+      "NUX::MG-50Li"
+    ],
+    "candidate_basis": "Largest unmatched requirement-heading counts;inspect COMPLETE canonical bodies before deciding facts are missing. Parsing/heading vocabulary can hide existing facts. This isnot a verification score oradmission audit.",
+    "remaining": "Source verification required;recorded text with no uncertainty marker isnot certified. Subfields such as toe,polarity,current,factory/user split andprice condition require manual review.",
+    "continuation": "Keep individualdisplaypriority andGT-Pro/general/expressionqueues. Use audit tofind underdocumented profiles ratherthan repeating unchanged source failures.",
+    "active_inventory_unchanged": 402
   }
 }
