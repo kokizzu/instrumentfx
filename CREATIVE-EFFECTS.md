@@ -42,7 +42,7 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **58 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **59 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
@@ -80,6 +80,7 @@ This index reuses existing canonical evidence and its original revision/date qua
 | [GFI System Synesthesia](brand/GFI-SYSTEM.md#synesthesia) | Dedicated synth unverified | Octave/arpeggiator processing | Acoustic simulation unverified | Two algorithms; sequenced/filter processing distinguished from synthesis |
 | [DigiTech BP355](brand/DIGITECH.md#bp355) | SynthTalk is vocal-like processing | Pitch shift; detune; harmony; octaver | Fretless simulation | SynthTalk does not establish a general/polyphonic synth |
 | [Behringer DSP2024P](brand/BEHRINGER.md#dsp2024p) | External-carrier vocoder; onboard synth unverified | Pitch and paired pitch/delay/reverb choices | Acoustic conversion unverified | Vinylizer; sampler; resonator; vocoder requires external carrier/modulator |
+| [MOOER GE300 Lite](brand/MOOER.md#ge300-lite) | Dedicated engine unverified; original GE300 synth not transferred | Mono Pitch/Poly Pitch; Detune; revision limits retained | Acoustic1/2/3 in AMP; separate tonal capture | Own V01/V02; Lofi controls; not a full current audit |
 | [Valeton GP-180](brand/VALETON.md#gp-180) | Dedicated synth unverified; Step Filter distinct | OCTA/Pitch/P-Bend polyphonic; Hammy mono; Detune | AC Sim; pickup simulators | Own V1.0.0; Hold/Freeze timing differs; partial category census; current equivalence unverified |
 | [Valeton GP-150](brand/VALETON.md#gp-150) | Dedicated synth unverified; Step Filter distinct | OCTA/Pitch/P-Bend polyphonic; Hammy mono; Detune | AC Sim; H to S / S to H | V1.0.5; Hold/Freeze capture timing differs; PRE/MOD alternatives; newer guide inaccessible |
 | [Valeton GP-5](brand/VALETON.md#gp-5) | Dedicated synth unverified | OCTA; Pitch; Detune in retained1.0.3 census | AC SIM / Piezo SIM factory SnapTone files | [Focused factory-file check](brand/VALETON.md#gp-5--factory-acoustic-simulator-snaptones),manual1.0.3 p38;captured simulator modes distinct from AC Pre1/2 acoustic preamps;current contents untested |

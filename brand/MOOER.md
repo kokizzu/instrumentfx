@@ -1911,11 +1911,11 @@ Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no si
 | Field | Finding / qualification |
 |---|---|
 | Expression | Two external expression inputs,shared with AMP CTRL. ManualWAH instructions include software **Toeswitch** on/off control;Manual specifies **TRS expression pedals,10–100kΩ**,heel/toe calibration and**Merge** for multiple parameters/endpoints/directions;pinout andtoe-switch hardware compatibility remainunverified. Built-in treadle notestablished. |
-| K/F/B | Manual names **SELECT plus five parameter knobs**,independent master-output controls;full rotary/button totals still unverified. **Eight footswitches** comprise bankup/down,CTRL1–3 andA/B/C. |
+| K/F/B | **9 text-derived rotaries**: SELECT, five parameter knobs, three independent master controls for XLR/phones/quarter-inch. **Eight footswitches**: bankup/down, CTRL1–3, A/B/C. Eight named non-effect-block buttons plus effect-block keys; full button count and panel-image corroboration pending. |
 | Display | Own manual: **5-inch,854×480 color LCD**;touch unverified. |
 | Processing / categories | **13 blocks;108 amp models,164 effects,43 factory cabinets**. Manual category headlines: **COMP10;WAH10;FXA40;FXB35;DS/OD31;NS3;EQ8;REVERB11**. Manual routing paragraph says **12 blocks** versus13 elsewhere;reconciliation,delay census andsimultaneous DSP ceiling unverified;shared FXA/B choices mustnot be summed asunique algorithms. These are **V01 counts**,not a currentlibrary census;newer additions below. |
 | Memory | Manual: **85 banks×3=255 preset slots**,superseding product-page **255 banks** wording. Manual specifies **162 factory presets**:banks1–27 cab-on forFRFR/headphones;28–54 cab-off forpower amps. Factory presets arewithin255 slots,not additional. |
-| Synth / acoustic | Synth engine anddedicated acoustic simulation unverified;GUITAR Tone Capture is anEQ-character capture,not proof ofeither. |
+| Synth / acoustic | Own V02 manual,printedp57: **Acoustic1/2/3 are dedicated simulators in AMP106–108**. Own V01p50 documents Mono Pitch/Poly Pitch and Detune;note handling beyond names remains unverified. GUITAR Tone Capture is separate tonal matching; original GE300 synth engine is not transferred. [Revision-qualified details](#ge300-lite--own-manual-acoustic-and-pitch-evidence). |
 | Dimensions / mass | Manual: **287×208×64mm;2.1kg**,axes unstated;not GE300 measurements. |
 | I/O | Guitar/line input,stereo-mini AUX,two1/4-inch outputs,1/4-inch stereo phones,two balancedXLR withgroundlift,EXP1/2,MIDI IN/OUT-configurable port,USB-B,DC. Manual rear-panel text specifies **one mono1/4-inch SEND and RETURN pair**. Product overview calls itstereo;manual specification table also callsSEND stereo. Conflicting wording retained;no second pair inferred. |
 | Power | Manual requires **9VDC2A,center-negative** supply;capacity requirement,not measured draw. Battery/USBpower,barrel dimensions unverified. |
@@ -1954,6 +1954,14 @@ Operational follow-up2026-10-18: [same own V01 manual](https://device.report/m/3
 [Own firmware index](https://www.mooeraudio.com/companyfile/GE300-Lite-Downloads-150.html) rechecked:V5.0.2 fixes EXP control of FX Loop Wet/Dry Mix;this isnot global-volume proof. V5.0.3 NAM conversion notes donot settle assignment scope. Exact installed firmware unverified. No local download ordevice test.
 
 Exact Shopee Indonesia GE300 Lite search2026-10-19 returned unrelated gaming-chair/accessory hits,no qualified hardware seller/item offer. New/usedIDR,condition,bundle,warranty,stock andshipping remain unknown. No full GE300 offer orspecification transferred.
+
+### GE300 Lite — own-manual acoustic and pitch evidence
+
+Checked **2026-11-04** in the manufacturer-authored **V02-2020.09.08** [GE300 LITE manual, indexed printed p57](https://img.audiomania.ru/data/mooer_ge300_lite.pdf): AMP entries **106 Acoustic1,107 Acoustic2,108 Acoustic3** explicitly describe acoustic simulators. The complete PDF exceeds the web reader limit; original indexed table text was available. This closes the earlier dedicated-simulator uncertainty without borrowing the original GE300 engine. These choices occupy AMP, distinct from GUITAR Tone Capture’s tonal matching.
+
+The readable [Lite V01-2020.07.22 manual, printed p50](https://device.report/m/3bfcaf5bf9953f7daa8dcb5a20cfaf3a3e077f88dbcce614acf8c0b00c48ac63.pdf) gives **Mono Pitch/Poly Pitch ±12 semitones**, **Detune ±100 cents**, and **Lofi1.5–44.1kHz/1–16bit** controls. Names do not independently certify tracking quality or unrestricted chord handling. Preserve the separate V5.0.2 MonoPitch±24 change; do not extend it to Poly Pitch by assumption. Dedicated synth remains unverified.
+
+V01/V02 panel text, printedp4, identifies SELECT plus five parameter knobs and three independent master controls: **nine rotaries**, text-derived. Six named menu buttons and two page arrows exclude the additional effect-block keys; total separate buttons remains unresolved. No visual census or device operation.
 
 ## GE1000
 
