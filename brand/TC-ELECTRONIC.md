@@ -418,7 +418,7 @@ Checked **2026-10-31**. Exact **0709-AJN**, manufacturer-described multi-effects
 |---|---|
 | Controls / expression | Three parameter knobs plus BOARD SELECTOR knob; one MASH footswitch, one CONNECT button and separate two-way toggle. No treadle in inventory. MASH pressure expression is not an analog external pedal. Visual corroboration pending. |
 | Display | Shows effect, bypass, parameter values, MASH/RAMP animation and BPM. Manufacturer says DISPLAY; LCD/OLED, diagonal, color, touch and placement remain unverified. |
-| Body / footprint | **74 W ×122 D ×50 H mm**, from labelled H×W×D 50×74×122 mm; fits the 200 W ×140 D preference. Regional 0.34 kg evidence appears below; direct manufacturer mass corroboration remains open. |
+| Body / footprint | **74 W ×122 D ×50 H mm**, from labelled H×W×D 50×74×122 mm; fits the 200 W ×140 D preference. Regional 0.34 kg evidence appears below; [2026-11-04 manufacturer-table recheck](#plethora-x1--primary-mass-and-latency-specification) now independently corroborates it. |
 | I/O | Two quarter-inch TS inputs, **1 MΩ**; two quarter-inch TS outputs, USB-C, DC. Ordinary guitar uses MONO input. No EXP, headphone or DIN MIDI socket in published inventory; USB audio/MIDI unknown. |
 | Power | **9 V DC centre-negative, ≥250 mA supply**, 5.5/2.1 mm; adapter not included. Not measured draw; USB/battery operation unresolved. |
 | Memory / processing | Factory table lists **seven Boards ×A/B slots**. A/B switches slots; not 14 simultaneous effects. Current type census, factory revision and concurrency remain unverified. |
@@ -508,6 +508,17 @@ Checked2026-11-01 in the [manufacturer-authored Quick Start Guide reproduced by 
 | Editor / connection scope | Only **one host device** may connect over USB or Bluetooth at a time. This does not establish USB audio, USB power or a second simultaneous editor connection. |
 
 The guide still says DISPLAY without certifying LCD/OLED, IPS, diagonal, color, touch or exact physical screen-to-switch placement. X1 remains a partial lead outside active counts. No local download, device operation or visual inspection.
+
+### PLETHORA X1 — primary mass and latency specification
+
+Checked **2026-11-04** via the [current exact0709-AJN manufacturer page](https://www.tcelectronic.com/en/products/0709-AJN), which links the [original manufacturer manual](https://cdn-media.empowertribe.com/209f2ffd656a4bedaf2ee9da6a24aeba/FACE-PRIN-PH1_M_TE_0709-AJN_PLETHORA-X1_A4_WW_2023-10-18_Rev-0.pdf). Filename retains2023-10-18/Rev0; cover identifies V0.0. Specifications are on **PDF page15 (printed spread28–29)**. Original text read remotely; no local download or visual inspection.
+
+| Field | Primary finding / qualification |
+|---|---|
+| Dimensions / mass corroboration | Exact original X1 manufacturer table: **50H×74W×122Dmm;0.34kg**. This closes direct manufacturer mass corroboration for the white0709-AJN record, previously regional-only. No sibling specification needed; earlier regional provenance retained. |
+| Processing / published latency | Manufacturer gives **0.8–2.3ms**, qualified by **look-ahead dynamics enabled**. Measurement method, algorithm-by-algorithm values, bypass/host roundtrip latency and actual device performance remain unverified; do not generalize one fixed latency to all modes. |
+| USB / intended connector roles | Table identifies USB-C for **firmware updates and TonePrints**. It does not certify USB audio/MIDI or bus-powered operation. Primary LCD technology/size/placement and qualified Shopee Indonesia hardware remain unresolved; this partial lead stays outside active counts. |
+
 
 ## PLETHORA X3
 

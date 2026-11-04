@@ -142566,6 +142566,16 @@
       "publication": "2026-01-23; status as of January2026",
       "finding": "G5n and Guitar Lab marked compatible in both Apple Silicon and Intel CPU macOS Tahoe26 matrices.",
       "limits": "Not binary architecture or separate firmware-updater certification. USB audio channel count, battery/bus operation and physical button/display gaps remain unresolved; no software downloaded or tested."
+    },
+    "plethora_x1_primary_spec_followup": {
+      "checked": "2026-11-04",
+      "model": "PLETHORA X1 original0709-AJN",
+      "source": "https://cdn-media.empowertribe.com/209f2ffd656a4bedaf2ee9da6a24aeba/FACE-PRIN-PH1_M_TE_0709-AJN_PLETHORA-X1_A4_WW_2023-10-18_Rev-0.pdf",
+      "revision": "FilenameRev0 2023-10-18;coverV0.0;PDF15 printed28–29",
+      "finding": "Primary0.34kg closes regional-only gap;50H74W122D;latency0.8–2.3ms withlookahead qualification;USB-C update/TonePrint roles.",
+      "remaining": "Manufacturer LCDtechnology/placement,fullcurrentlibrary andqualifiedShopee remainopen;not activeadmission.",
+      "next": "Continue missing individual-LCD discoveries andconfirmedLCD gaps;defer unchangedX1 screen proof. Preserve generalGT-Pro/compactexpression queues.",
+      "inventory_changed": false
     }
   },
   "gt_pro_global_patch_level_20261031": {
