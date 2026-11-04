@@ -738,3 +738,14 @@ Checked **2026-11-04** in the [manufacturer cumulative release history](https://
 - Some IRs for **4×12 British Alnico100** failed toload correctly;the release lists a fix. This is model-specific loading behavior,not proof ofmissing user-IR storage orcompatibility with arbitrary files.
 
 The retrieved history still heads with1.8.58,July15,2026. Installed firmware andfix effectiveness remain untested;no download ordevice operation. Exact Shopee rechecks yielded existing cached asks,not newcondition/stock evidence.
+
+### Tone Master Pro — Scene assignment and IR-state corrections
+
+Checked **2026-11-04**, [manufacturer release history](https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates), **1.7.53,December3,2025**.
+
+| Field | Dated behavior / boundary |
+|---|---|
+| Controls / Scene assignment persistence | **1.7.53 (2025-12-03):** Fender reports improved footswitch-state consistency across Scenes and corrected assignment discard when switching Scenes in **Discard Changes** mode. It also fixes a Setlist multi-switch-selection screen error. These are software-state corrections,not evidence of defective scribble-strip hardware or additional assignments. |
+| Memory / multi-IR Scene behavior | **1.7.53 (2025-12-03):** Fender fixes an IR being swapped in some presets containing multiple IRs and Scenes. This does not establish new IR capacity,universal cross-Scene model substitution or revised shared-block architecture. |
+
+Current retrieved US history still heads with1.8.58,July15,2026;installed firmware andfix effectiveness untested. Current model-guide retrieval remains unavailable;no new qualified Shopee used offer established. No download,update ordevice operation.

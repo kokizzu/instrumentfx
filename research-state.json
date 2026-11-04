@@ -162244,5 +162244,15 @@
     "status": "Snapshot topology and shared-switch state constraints recorded; no inventory change",
     "next": "Continue priority display models or fresh Shopee leads. AXOM/MAX quick-guide new German endpoint inaccessible; Stadium offers duplicate recorded cache conflict; no new stock/price assertion. Preserve GT-Pro and expression queues.",
     "inventory_changed": false
+  },
+  "tmp_scene_assignment_ir_20261104": {
+    "model": "Fender::Tone Master Pro",
+    "checked_date": "2026-11-04",
+    "canonical_section": "brand/FENDER.md#tone-master-pro--scene-assignment-and-ir-state-corrections",
+    "source": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+    "revision": "1.7.53 December3,2025;US history heads1.8.58 July15,2026",
+    "status": "Historical Scene assignment and multi-IR corrections; current behavior untested",
+    "next": "Continue priority screen models or fresh Shopee leads; defer current Model Guide parameter census until readable source. Preserve expression and independent GT-Pro queues.",
+    "inventory_changed": false
   }
 }
