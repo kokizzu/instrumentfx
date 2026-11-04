@@ -160808,5 +160808,23 @@
     ],
     "active_inventory_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "gp50_display_sleep_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://manuals.plus/m/62ee73765be68fba94241219c8e998d6763ec022993418a85a41cc932830b64d.pdf",
+    "revision": "Manufacturer GP-50 User Manual V1.0.5, printed22/PDF25;59-page reproduction",
+    "findings": [
+      "Sleep5min/30min/Always;defaultAlways",
+      "BrightnessI/II/III;defaultIII",
+      "Audio input/output explicitly unaffected by screen sleep"
+    ],
+    "remaining": [
+      "Current1.1.0 equivalence",
+      "Wake gesture, pixels and touchscreen specification",
+      "Global analog expression assignment and output coverage",
+      "Condition-qualified exact Shopee stock"
+    ],
+    "active_inventory_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }

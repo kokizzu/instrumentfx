@@ -788,7 +788,7 @@ Current comparison summary, reconciled2026-10-28 from the exact-model sources re
 | Expression | No built-in treadle; TRS EXP/FS input selects EXP,Single FS orDual FS. Analog default VOL,target and0–100 endpoints editable per patch in1.0.5. **Across-preset global target override unverified**. Global calibration is separate;toe support and actual M-VAVE pinout remain unknown. |
 | Expression / position and coverage | Pre/Post. Pre preserves time-effect decay **in the default chain**;reordered-chain outcome unverified. Post is described after all effects andcuts their sound. Pedal-position recall,bypass,headphones,USB andrecorded-loop attenuation unknown. MIDI CC1 Master Volume,CC7 Patch Volume andCC11 EXP are separate paths,not analog-assignment proof. |
 | Knobs / footswitches / buttons | **4 /2 /4**:PARA+three quick knobs;A/B;SAVE,EXIT/BT,GLOBAL,DRUM. Push encoder counted once. Patch Mode changes patches with A/B;directional mapping remains text-unverified. Pedal Mode permits3 modules per switch,6 total,one switch per module. |
-| Display | **1.77-inch full-color LCD**;pixels/touch unknown. Knob navigation does not prove no touchscreen. |
+| Display | **1.77-inch full-color LCD**; pixels/touch unknown. Firmware1.0.5: sleep5min/30min/Always (default), brightnessI/II/III (defaultIII); sleeping display leaves audio I/O unaffected. [Revision-qualified details](#gp-50--display-sleep-and-audio-continuity). Knob navigation does not prove no touchscreen. |
 | Dimensions / weight | **122 W×82 D×54 H mm;430g**;fits preferred200×140mm,excluding cable clearance. |
 | Processing / categories | **Firmware1.0.5:9 simultaneous;112 named algorithms:** NR1,PRE12,DST10,AMP32,CAB21,EQ5,MOD11,DLY10,RVB10. Excludes user IR/SnapTone files. N→S disables AMP/CAB. NR/PRE/MOD/DLY/RVB reorderable;DST/N→S/AMP/CAB/EQ fixed. Exact1.1.0 contents unverified. |
 | Memory | **100 total,55 factory-filled,45 remaining slots**;factory fill is a subset,not100+55. |
@@ -1106,6 +1106,14 @@ Checked **2026-11-04**;three separate exact hardware titles,not GP-5 oraccessori
 For all three,condition(new/used),selected variation,working state,installed firmware,bundle/adapter,warranty region,authenticity,shipping/tax andcheckout availability remain unknown. Late-delivery vouchers up toRp10.000 are not deducted. Do not merge these sellers ortransfer other offers’ conditions.
 
 The [official1.1.0 manual landing page](https://www.valeton.net/wpfd_file/gp-50_online-manual_en_firmware-v1-1-0-pdf/) remains readable,created/updated2026-08-26;the linked original PDF redirect still fails in the reader. Listing metadata is not parameter evidence. Keep1.0.5 technical qualifications andunknown across-preset analog-volume assignment. No local download ordevice operation.
+
+### GP-50 — display sleep and audio continuity
+
+Checked **2026-11-04**, manufacturer-authored **firmware V1.0.5 User Manual, printed p22/PDF p25**, [original PDF reproduction](https://manuals.plus/m/62ee73765be68fba94241219c8e998d6763ec022993418a85a41cc932830b64d.pdf). The cover identifies the firmware, and the GP-50 panel, dimensions and contents identify the exact model. Original text only; host-generated FAQs excluded.
+
+**Display Time** offers **5min, 30min or Always**, with Always the default. **Brightness** offers **I (lowest), II (medium), III (brightest)**, default III. The manual explicitly says audio input/output is unaffected while the screen sleeps. Sleep therefore does not establish audio bypass, mute, power-off or a changed preset. No numeric luminance, measured battery saving, wake gesture, pixel resolution or touchscreen specification is supplied by this passage.
+
+These are historical documentation settings, not proof of current1.1.0 behavior or the state of an owned unit. External EXP global assignment, position recall and headphone/USB/tail/recorded-loop attenuation remain unresolved. No local download, device operation or signal test.
 
 ## GP-100
 

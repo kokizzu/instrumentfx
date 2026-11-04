@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(line6): clarify Stadium XL MIDI domains and snapshot commands'
+        message='research(valeton): document GP-50 display sleep and audio continuity'
     print(git('commit','-m',message))
