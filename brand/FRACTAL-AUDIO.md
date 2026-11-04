@@ -398,6 +398,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; origina
 | Dimensions / weight | **281W×236D×103H mm;3.22kg**. Large. Manual p.140. |
 | Power / battery / USB operation | **90–264VAC,47–63Hz,<40W**, grounded mains. CR2032 is backup memory battery, not operating battery. DC polarity/current not applicable to mains inlet; USB/battery operation unverified. Manual pp.24,140. |
 | Simultaneous blocks / categories | CPU-limited; **12×4 grid is not guaranteed48 effects**. Own7.x p46 documents per-type ceilings:one Amp/Cab/Pitch/Reverb/Synth/Looper;two Drive/Chorus/Delay;four Filter/Mixer. These are CPU-limited maxima,not a guaranteed simultaneous combination. [Complete own7.x table](#fm3--block-choice-and-instance-table) below;current firmware13 inventory unresolved. Manual pp.2,50. Current product lists300+ amp models; factory cabs2200+ andhistorical1024 user IR locations;firmware12 reduces user slots to512 as qualified below. These are not simultaneous blocks. [Product](https://www.fractalaudio.com/fm3/) |
+| Categories / multiband, source selection and PEQ | [Detailed November limits](#fm3-mkii-turbo--multiband-source-selection-and-parametric-eq): one Multiband Compressor, two Multiplexers and two five-band PEQs, CPU permitting; internal bands are not extra blocks. |
 | Categories / newer guide | [November2026 reference types and FM3 instance ceilings](#fm3--november-2026-block-comparison):36 supported block rows. CPU-limited,not summed concurrency orinstalled firmware13 census;older7.x inventory preserved. |
 | Pitch / named reference inventory | [16 named Pitch types](#fm3-mkii-turbo--named-pitch-types-and-note-handling-source-details), one FM3 block, CPU permitting. Chromatic/Virtual Capo chord processing is distinct from single-note diatonic harmony, Octave Divider and monophonic Synth. Installed-library equivalence and measured tracking remain unverified. |
 | Categories / named Chorus and Phaser | [November inventories](#fm3-mkii-turbo--named-chorus-and-phaser-source-details): 27 Chorus and19 Phaser choices; two FM3 instances each, CPU permitting. Voices/stages are parameters, not extra blocks or synth polyphony. Installed equivalence remains unverified. |
@@ -972,6 +973,16 @@ Checked **2026-11-05**, [manufacturer Blocks Guide, November2026, printed pp3,98
 - **Send/Return** pairs route internally, including feedback or extended chains; they are not physical effects-loop jacks or phrase-loop storage. Send1 matches Return1, Send2 matches Return2; both members are required. Send cannot bypass. Return Level controls recirculation separately from Output Level. The manufacturer starts Return Level at zero to avoid unstable feedback.
 
 No preset built or device tested; older revisions, global-volume gaps and Shopee qualifications remain intact.
+
+### FM3 MKII Turbo — Multiband, source selection and Parametric EQ
+
+Checked **2026-11-05**, [manufacturer November2026 Blocks Guide, pp3,60–61,71](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf), explicit FM3 column; installed equivalence untested.
+
+- **Multiband Compressor:** one instance; separate low/mid/high dynamics recombine internally. Crossover ranges are50–5000Hz and100–10,000Hz, with12/24dB-per-octave slopes, RMS/Peak detection and band mutes.
+- **Multiplexer:** two instances; selects one source rather than blending several. Stereo/Left/Right/Sum modes; no Bypass parameters. Shared-guide row/input/USB numbering is not an FM3 connector census.
+- **Parametric EQ:** two instances, five bands each. Shelving, Shelving2, Peaking, Peaking2 and Blocking choices have band restrictions: middle band3 allows only Peaking/Peaking2; Blocking applies to outer bands. Frequency ranges: band1 20–2000Hz;bands2–4 100–10,000Hz;band5 200–20,000Hz. Q0.1–10;gain±20dB;Blocking instead uses6–36dB/octave slopes.
+
+All instance ceilings remain CPU-limited. Band shapes are not extra algorithms or global EQ assignments. Firmware-introduction dates, installed behavior and external volume coverage remain unresolved; older evidence and dated prices are preserved. No download or device operation.
 
 ## FM3 original
 

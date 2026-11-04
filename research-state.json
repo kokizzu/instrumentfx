@@ -167738,5 +167738,24 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Requestedindividualfootdisplay models first; preserve GP-200JR→Prime→GE300, GT-Pro,expression andconsolidationqueues"
+  },
+  "fm3_mkii_dynamics_peq_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-mkii-turbo--multiband-source-selection-and-parametric-eq",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 pp3,60–61,71; explicit FM3 column",
+    "findings": [
+      "One Multiband Compressor; two Multiplexer; twoPEQ instances subjecttoCPU",
+      "Three-band dynamics and single-source switching distinguished",
+      "Five-band PEQ filter restrictions,frequency/Q/gain/slope limits"
+    ],
+    "remaining": [
+      "Exact current installed/source-menu equivalence",
+      "GEQ18vs16 andReverb/Megatap names",
+      "Analog globalvolume/outputcoverage",
+      "QualifiedShopee stock/condition"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue requestedindividualfootdisplay evidence; preserve GP-200JR→Prime→GE300, GT-Pro, expression andconsolidationqueues"
   }
 }
