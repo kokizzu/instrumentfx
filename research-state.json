@@ -162147,5 +162147,32 @@
     "status": "Partial candidate outside402;no membership/ownership change",
     "next": "Complete separate-button census,remaining subtype and USB/recording/import/practice profile before admission;volume endpoints/all-route coverage remain unknown. M-VAVE wiring and Mini global override still deferred without new primary evidence; independent queues preserved.",
     "inventory_changed": false
+  },
+  "sy300_subtypes_usb_insert_20261104": {
+    "model": "BOSS SY-300",
+    "checked_date": "2026-11-04",
+    "canonical_section": "brand/BOSS.md#sy-300--subtype-counts-usb-routing-and-insertion-boundary",
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/SY-300_ParamGuide_e02.pdf",
+      "https://static.roland.com/assets/media/pdf/SY-300_e01_W.pdf"
+    ],
+    "revision": "Guidee02 pp6–8,14–15;Ownere01p7;copyright2015",
+    "subtype_counts": {
+      "ODDS": 21,
+      "COMP": 7,
+      "LIMITER": 3,
+      "CHORUS": 3,
+      "PHASER": 4,
+      "DELAY": 10
+    },
+    "usb_routes": [
+      "STANDARD",
+      "MIX",
+      "RE-SYNTH",
+      "DIRECT OFF"
+    ],
+    "status": "Historical routing reset and playback-off distinction;U99 INSERT overflow;partial outside402",
+    "next": "Finish remaining category subtypes,control census,import/practice/USB formats andcurrentMac matrix;maintain all global-volume uncertainties. No active admission yet;preserve LCD-first and independent queues.",
+    "inventory_changed": false
   }
 }

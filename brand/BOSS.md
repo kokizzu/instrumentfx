@@ -4771,6 +4771,19 @@ Checked **2026-11-04** against [Parameter Guide e02,©2015,printedpp4–5](https
 
 Installed firmware and note-tracking quality untested. Complete separate-button census,full subtype/USB matrix,imports/practice fields andglobal-volume coverage remain unresolved. No package downloaded ordevice operated.
 
+### SY-300 — subtype counts, USB routing and insertion boundary
+
+Checked **2026-11-04**, manufacturer [Parameter Guide e02,©2015,pp6–8,14–15](https://static.roland.com/assets/media/pdf/SY-300_ParamGuide_e02.pdf) and [owner e01,p7](https://static.roland.com/assets/media/pdf/SY-300_e01_W.pdf). Historical document behavior,not installed-firmware certification;partial lead outside402.
+
+| Field | Evidence / qualification |
+|---|---|
+| Categories / subtype census | OD/DS21;Compressor7;Limiter3;Chorus3 modes;Phaser4;Delay10 (Single,Pan,Stereo,Dual-S,Dual-P,Dual-L/R,Reverse,Analog,Tape,Mod). Subtypes sit within the21 FX families,not extra processors. Mono processing after stereo delay removes stereo separation;dual-delay startup after patch changes has a documented initial-effect caveat. |
+| USB / recording routes | STANDARD excludes computer playback from computer recording;MIX includes it. RE-SYNTH processes recorded dry guitar;DIRECT OFF sends local processing only to computer for DAW-effect monitoring. **Power-off resets routing to STANDARD**. Dry guitar is output in all routes;complete stream/channel mapping remains unverified. |
+| USB / playback and off state | MAIN/SUB MIX LEVEL independently adjust computer playback at those outputs. MIX OFFMOD chooses whether ON/OFF off also silences computer playback or leaves it active. These controls do not establish global EXP attenuation of USB orphones. |
+| Memory / INSERT loss boundary | WRITE,EXCHANGE,INITIALIZE andINSERT are distinct. INSERT shifts user-area contents andloses overflowing **U99**;it does not add capacity. No patch operation performed. |
+
+Exact imports/capture support,complete control census,OS applicability andexpression coverage remain unresolved. No local download,software installation ordevice test.
+
 ## SY-1000 — partial discovery lead
 
 Checked **2026-11-04**. Partial candidate **outside the 402 active models**; ownership is not inferred. Independent effects processing distinguishes this candidate from the excluded SY-1/SY-200 specialist records. No admission to active comparisons yet.
