@@ -1201,6 +1201,16 @@ Checked **2026-11-03** in the [manufacturer shared RP360/RP360XP manual reproduc
 
 Historical documentation only; no device test, downloads or changes to active membership. Exact non-XP hardware offers, global expression override, held-position recall and route-specific pedal coverage remain open.
 
+### RP360 — USB recording format and current support boundary
+
+Checked **2026-11-04** in [manufacturer-authored shared RP360/RP360XP manual, printedp11](https://manualmachine.com/digitech/rp360/1256376-user-manual/), original document reproduction with matching cover and section numbering. The official5041674-B PDF remains above the reader size limit; no local download.
+
+**USB streams two channels each way at44.1kHz, with16-bit or24-bit resolution selectable through the DAW where supported.** The recording feed follows the audio sent toLEFT/RIGHT outputs; this is not an independently documented dry-DI/reamp channel pair. The original manual describes use of the operating system’s standard Mac/Windows drivers without an additional driver. These statements resolve the earlier USB bit-depth unknown for this historical documentation; they do not certify current hosts, bus power or universal expression attenuation.
+
+[Current manufacturer FAQ](https://digitech.com/faqs/) warns that software for discontinued products is no longer supported on newer operating systems and some firmware updates may be impossible. [Current exact RP360 product page](https://digitech.com/dp/rp360/) still lists Nexus1.0.1 Mac/1.0.2 Windows and explicitly excludes macOS10.15 Catalina. Download availability and historical driver claims therefore do not establish modern editor/audio compatibility. No installer opened, update attempted or USB device connected.
+
+RP360 remains a **partial lead outside active inventory**. Exact non-XP Shopee hardware, display specifications, global expression override, held-position recall and route-specific pedal coverage remain unresolved; the XP offer is not transferred.
+
 ## RP360XP
 
 Expression-equipped guitar processor;not RP360. Checked 2026-10-17. Past-product status does not establish retailer stock. Bass suitability unclassified.

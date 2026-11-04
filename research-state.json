@@ -161252,5 +161252,37 @@
     },
     "active_inventory_unchanged": 402,
     "next": "Continue accessible priority individual-footdisplay model gaps, defer unavailable source details; preserve independent GT-Pro/general, expression-volume and lossless-consolidation queues."
+  },
+  "rp360_usb_format_current_support_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "DigiTech RP360 non-XP",
+    "canonical": "brand/DIGITECH.md#rp360--usb-recording-format-and-current-support-boundary",
+    "sources": [
+      "https://manualmachine.com/digitech/rp360/1256376-user-manual/",
+      "https://digitech.com/faqs/",
+      "https://digitech.com/dp/rp360/"
+    ],
+    "revision": "Original shared owner manual5041674-B printed11, matched cover/body reproduction; current manufacturer web pages",
+    "resolved": {
+      "usb_channels_each_direction": 2,
+      "sample_rate_hz": 44100,
+      "usb_stream_bit_depths": [
+        16,
+        24
+      ],
+      "recording_feed": "Audio feeding LEFT/RIGHT outputs",
+      "historical_driver_scope": "Standard Windows/Mac drivers; current hosts not certified"
+    },
+    "support": "Discontinued software unsupported on newer operating systems; some firmware updates may no longer be possible. Listed Nexus packages and Catalina exclusion preserved.",
+    "market": "Exact non-XP Shopee query returned only XP57900729/21171529926; no non-XP offer or price adopted.",
+    "remaining": [
+      "Global expression override, held-position recall and route-specific coverage",
+      "Display diagonal/color/touch and visual corroboration",
+      "Current tested host/editor compatibility",
+      "Qualified exact non-XP hardware offer"
+    ],
+    "active_inventory_unchanged": 402,
+    "status": "Partial lead remains outside active inventory",
+    "next": "Revisit requested individual-footdisplay models only with new accessible evidence; continue eligible no-treadle/profile and Shopee gaps, preserving GT-Pro/general and legacy-consolidation queues."
   }
 }

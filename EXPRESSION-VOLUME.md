@@ -739,6 +739,8 @@ AM4 [switch-jack allocation](brand/FRACTAL-AUDIO.md#am4--switch-jack-allocation-
 
 RP360 [USB/bypass qualification](brand/DIGITECH.md#rp360--usb-stream-count-bypass-playback-and-master-level-scope): USB is2×2; bypass records dry guitar but silences computer playback. Hand Master affects all outputs; external-pedal coverage and global targeting remain unverified. Partial lead stays outside active counts.
 
+RP360 [recording format and support boundary](brand/DIGITECH.md#rp360--usb-recording-format-and-current-support-boundary): original manual documents2×2 at44.1kHz,16/24-bit,recorded from the main-output feed. Current discontinued-software support warning qualifies historical driver claims;this does not resolve global analog-volume targeting or route coverage.
+
 FM9 [historical external-switch setup](brand/FRACTAL-AUDIO.md#fm9--external-switch-wiring-and-manual-count-wording): a local TS tip–sleeve switch replaces expression at that jack; virtual-toggle mode is not continuous volume or a verified combined expression/toe connection. Original/Turbo3.x documentation does not certify current MKII behavior.
 
 [Helix Rack partial screening](brand/LINE6.md#helix-rack--partial-no-treadle-discovery): three external expression inputs andtoe support;3.80 global pedal-position recall doesnot establish global volume assignment. Dedicated headphones;Rack footprint exceeds preference. Processor offers andoutput coverage remain unverified;outside active counts. Helix Control stays a separate controller.
