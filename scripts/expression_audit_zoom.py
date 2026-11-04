@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(valeton): document JR octave ring and swell controls'
+        message='research(headrush): qualify Prime historical recall and wireless fixes'
     print(git('commit','-m',message))

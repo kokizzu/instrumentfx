@@ -166580,5 +166580,19 @@
     ],
     "next": "Independent general follow-up next HeadRush Prime thenoriginal GE300;preserve GT-Pro andindividual-display/expression queues",
     "active_inventory_unchanged": 402
+  },
+  "prime_v32_reliability_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/HEADRUSH.md#prime--historical-wireless-and-clone-recall-reliability-fixes",
+    "source": "https://support.headrushfx.com/en/support/solutions/articles/69000858120-headrush-prime-and-core-what-s-new-in-firmware-v3-2-",
+    "revision": "Manufacturer Prime/Core v3.2 announcement;existing launch/publication-date distinction retained",
+    "finding": "Historical wireless,shutdown andclone-recall failure conditions recorded without current-device certification",
+    "remaining": [
+      "Affected clone types unspecified",
+      "Current regression andinstalled behavior untested",
+      "Mini-OLED numerical specs andqualified stock"
+    ],
+    "next": "Original MOOER GE300 inindependent general follow-up;retain GT-Pro,individual-display andexpression-volume queues",
+    "active_inventory_unchanged": 402
   }
 }
