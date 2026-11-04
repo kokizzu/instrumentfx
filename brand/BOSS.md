@@ -1708,6 +1708,8 @@ Selected 2026-10-28 from the complete dated evidence below; no new hardware test
 | Shopee retail-style IDR | Boss Official Shop, Tangerang Selatan, [341882414 /15035629131](https://shopee.co.id/BOSS-GT-1000CORE-Guitar-Effects-Processor-Pedal-Multi-Efek-i.341882414.15035629131): Rp14.450.000 /Habis in three-month-old snapshot reopened2026-10-28. Crossed Rp17.000.000, advertised15% reduction and unspecified free gift. Condition grade, bundle/adapter, affiliation, warranty, checkout stock and delivered price unconfirmed; late-delivery voucher is not a checkout discount. |
 | Separate non-Shopee IDR asks | GMI Rp14.535.000 available label and older Blibli Rp13.600.000 indexed stock1 retain their original dates/channel limits below; not live Shopee stock or a used/new range. |
 | Synth / pitch / instrument simulation / special | Dedicated tracking synth unverified. OVERTONE adds harmonics; HUMANIZR vowel processing; RING MOD oscillator modulation; RESO WAH resonant filtering. PITCH SFT ±24 semitones: MONO mode single-note; other modes input polyphony unverified. OCTAVE MONO versus explicitly polyphonic one-octave-down POLY. HARMONST and PDL BEND require single notes; S-BEND sweeps pitch. AC.G SIM, SITAR SIM, DEFRETR and DEFRET B; AC RESO processes acoustic-pickup sound, rather than establishing electric-to-acoustic simulation. SLICER, SND HOLD (single-note), FEEDBAKR, SLW GEAR; GLITCH in MASTER DELAY. [Revision and restrictions](#gt-1000core--creative-effects-capability-check-2026-11-03). |
+| Editor / current macOS qualification | [Manufacturer compatibility table dated2026-10-30](#gt-1000core--mac-editor-driver-and-os-compatibility-boundaries): macOS15/26 supported with downloads;macOS27 under testing,for both hardware/driver andeditor. ToneStudio4.1.1 andUSBdriver1.0.3 are separate;installed versions unverified. |
+
 <!-- comparison evidence ends -->
 
 Consolidated 2026-10-16;technical dates below retained. Partial verification;historical next-model notes are provenance,not the current queue. No legacy source deleted.
@@ -1906,6 +1908,14 @@ The software library limits above are separate from hardware memory. The IR Load
 ### GT-1000CORE — exact-model adapter mapping
 
 Checked **2026-11-04**: [Roland/BOSS AC Adaptor Information, updated 2025-07-15](https://static.roland.com/assets/media/pdf/roland_ac_adaptor_information.pdf?lang=nl-NL), PDF p3, explicitly maps **GT-1000CORE → PSB-1U**. Its adapter specification on PDF p1 gives **9.0 V DC, 2.0 A, 18 W**, with **100–240 V AC, 50/60 Hz** input. These are adapter ratings; the retained manufacturer device draw is **670 mA**. This closes the earlier voltage gap without borrowing a sibling model’s supply. Polarity, connector dimensions and the identity of an individual seller’s bundled adapter remain unverified; the table does not establish battery or USB-powered operation. Earlier dated unresolved notes remain historical.
+
+### GT-1000CORE — Mac editor, driver and OS compatibility boundaries
+
+Checked **2026-11-05**. [BOSS compatibility table,last updated30October2026](https://www.boss.info/global/support/support_news/25090811m1/),exact GT-1000CORE row: **macOS15 Sequoia and26 Tahoe: Yes(Download)** for both **Hardware & Driver** and **Exclusive Application**; **macOS27 Golden Gate: Under Testing** for both. This is a dated manufacturer status,not a promise for every later OS build orproof of universal class compliance. CPU-architecture details are not established by this table.
+
+The [exact CORE Mac editor entry](https://www.boss.info/global/support/by_product/gt-1000core/updates_drivers/ded9b650-2054-472a-87ed-a49c0a1a1ff6/) lists **ToneStudio4.1.1,March2026**,compatible with **CORE2.01 orlater**,and requires a separate driver. Fixes concern mismatched CTRL ASSIGN AMP TYPE ordering and IR Loader failures with particular MIDI DEVICE ID values. Version4.1.0,February2025,added direct Tone Exchange and IR Loader access. These editor changes do not add a hardware synth orprove global FV behavior.
+
+The [separate Mac USBdriver1.0.3 entry](https://www.boss.info/global/support/by_product/gt-1000core/updates_drivers/f3987563-ca8d-4c4b-8fbc-5d9999d3b9d8/) is headed Sonoma14.x orlater but directs current OS status to the compatibility table;the heading mustnot override its macOS27 testing status. Driver,editor andCORE system2.02 have separate version series. No download,installation ordevice test;installed versions,ARM-specific requirements,global expression coverage andqualified Shopee stock remain unresolved.
 
 ## GT-Pro
 

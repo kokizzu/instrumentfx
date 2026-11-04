@@ -165070,5 +165070,23 @@
     "controller_outside_active_inventory": true,
     "active_inventory_unchanged": 402,
     "next": "Continue requested display-model gaps and exactShopee discovery;retain compactexpression audit,GT-Pro cursor andindependent GP-200JR→Prime→GE300 queue."
+  },
+  "gt1000core_mac_compatibility_20261105": {
+    "checked_date": "2026-11-05",
+    "sources": [
+      "https://www.boss.info/global/support/support_news/25090811m1/",
+      "https://www.boss.info/global/support/by_product/gt-1000core/updates_drivers/ded9b650-2054-472a-87ed-a49c0a1a1ff6/",
+      "https://www.boss.info/global/support/by_product/gt-1000core/updates_drivers/f3987563-ca8d-4c4b-8fbc-5d9999d3b9d8/"
+    ],
+    "canonical": "brand/BOSS.md#gt-1000core--mac-editor-driver-and-os-compatibility-boundaries",
+    "compatibility_table_date": "2026-10-30",
+    "remaining": [
+      "macOS27 testing and architecture-specific requirements",
+      "Installed firmware/editor/driver versions",
+      "System FV range/placement/all-source coverage",
+      "Qualified exactShopee hardware"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue requested footdisplay models andcompactexpression gaps;preserve GT-Pro technical cursor,independent general queue andfresh exactShopee discovery."
   }
 }
