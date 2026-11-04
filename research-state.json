@@ -166626,5 +166626,22 @@
     ],
     "next": "Continue incomplete no-treadle andrequested individual-display records;preserve GT-Pro andindependent general queue",
     "active_inventory_unchanged": 402
+  },
+  "gt001_patch_level_distinction_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/BOSS.md#gt-001--patch-level-differs-from-foot-volume",
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/GT-001_r_e01W.pdf",
+      "https://manualzz.com/doc/748967/boss-gt-001-guitar-effects-processor-owner-manual"
+    ],
+    "revision": "2014 Parameter Guide p26; p35 preference terminology",
+    "finding": "PATCH LEVEL target has separate0–200 endpoints; not FV range.",
+    "unresolved": [
+      "PERFORMANCE footnote versus PREFERENCE chapter terminology",
+      "Global range-storage, placement and all-output coverage",
+      "Full panel census and current qualified IDR offer"
+    ],
+    "inventory_unchanged": 402,
+    "next": "Preserve GT-Pro and general research queues; continue remaining exact-model evidence."
   }
 }

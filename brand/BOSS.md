@@ -998,6 +998,10 @@ The manufacturer-authored [English owner manual,p2](https://manualzz.com/doc/457
 
 Exact Shopee searching surfaced the retained Standard Music shop-card only;no refreshed condition/stock ornewitem claim. Existing global-FV assignment evidence remains;range-storage,placement,recall andtail coverage remain qualified. No device,driver orsignal test.
 
+### GT-001 — PATCH LEVEL differs from FOOT VOLUME
+
+Checked **2026-11-05**, [manufacturer Parameter Guide, printedp26](https://static.roland.com/assets/media/pdf/GT-001_r_e01W.pdf), corroborated by its [2014 manufacturer-authored GT-001 parameter text](https://manualzz.com/doc/748967/boss-gt-001-guitar-effects-processor-owner-manual). EXP FUNC also lists **PAT LV (PATCH LEVEL)**, with separate **MIN/MAX0–200**, visible when that target is selected. These are not FV’s0–100 endpoints. The availability footnote literally requires **PERFORMANCE=SYSTEM (p35)**; that chapter labels the settings **PREFERENCE**. This terminology discrepancy remains unresolved. Do not treat PATCH LEVEL as an independently verified replacement setup or transfer its range to FV. Neither target establishes AUX/USB/headphone, bypass or tail coverage. No hardware test or installed-firmware claim.
+
 ## GT-1B
 
 Bass multi-effects with built-in expression/toe switch. Consolidated and checked2026-10-16. Current manufacturer page marks discontinued; this does not prove all seller stock unavailable.
