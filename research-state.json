@@ -166171,5 +166171,23 @@
     ],
     "next": "Use readable Japanese primary for remaining original G5 control/capture/software gaps; avoid inferring firmware1.20 equivalence. Preserve LCD priority, GT-Pro, expression and GP-200JR→Prime→GE300 queues",
     "active_inventory_unchanged": 402
+  },
+  "g5_global_output_tuner_20261105": {
+    "checked": "2026-11-05",
+    "model": "Zoom::G5",
+    "canonical": "brand/ZOOM.md#g5--global-output-modes-and-tuner-retention",
+    "source": "https://zoomcorp.com/media/documents/J_G5_s9RBOUt.pdf",
+    "revision": "Unstated original G5; printed23–25",
+    "findings": [
+      "Five global OUTPUT destination settings: DIRECT, COMBO FRONT, STACK FRONT, COMBO POWER AMP, STACK POWER AMP",
+      "Tuner A435–445Hz retained after power-off; chromatic, seven-string guitar, open tunings and DADGAD; nonchromatic flat1–3 semitones; BYPASS/MUTE"
+    ],
+    "remaining": [
+      "Output-setting XLR PRE/USB/jack coverage and cabinet behavior",
+      "Tuner mute headphone/USB/tail/loop coverage and exact switch gesture",
+      "External expression global assignment/endpoints/recall/coverage"
+    ],
+    "next": "Continue original G5 primary-manual control/capture gaps or remaining individual footswitch-display processors; preserve independent GT-Pro, expression and GP-200JR→Prime→GE300 queues",
+    "active_inventory_unchanged": 402
   }
 }
