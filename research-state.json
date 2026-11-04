@@ -163871,5 +163871,27 @@
     ],
     "next": "Continue accessible footswitch-display and compact profile gaps; preserve GT-Pro/general and consolidation queues",
     "active_inventory_unchanged": 402
+  },
+  "mc8pro_recovery_wireless_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://help.morningstar.io/en/article/mc8-pro-user-manual-1yqqr1r/",
+    "revision": "Live exact-model manual; firmware applicability unstated",
+    "canonical": "brand/MORNINGSTAR.md#mc8-pro--backup-recovery-and-wireless-role-boundaries",
+    "findings": [
+      "Side recessed button loads bootloader without erasure; profile reset separate",
+      "CurrentBank vsAllBanks restore scope; eight-profile coverage unspecified",
+      "BLE MIDI Peripheral needs Central; module firmware separate",
+      "MIDI+Keyboard vsMIDI-only variants"
+    ],
+    "remaining": [
+      "Cross-profile backup coverage",
+      "Complete button census",
+      "Screen numerical specifications and touch",
+      "Mass",
+      "Expression pinout",
+      "Qualified Shopee stock"
+    ],
+    "next": "Continue priority footswitch-display processors and accessible compact inventory gaps; preserve GT-Pro/general and consolidation queues",
+    "active_inventory_unchanged": 402
   }
 }

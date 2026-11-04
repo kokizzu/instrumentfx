@@ -108,3 +108,17 @@ Checked **2026-11-04** in the [manufacturer MC8 PRO manual](https://help.morning
 | USB compatibility | High-speed USB Device port doesnot work with **CME WIDI uHost**;manual instead permits WIDI uHost onthe MC8 PRO Host port. This doesnot establish arbitrary USB-audio oranalog guitar support. |
 
 Physical display specifications,mass,expression pinout andqualifiedShopee offers remain unresolved. Controller stays outside active audio inventory. No wiring,connection,download ordevice operation.
+
+### MC8 PRO — backup, recovery and wireless-role boundaries
+
+Checked **2026-11-04** against the [manufacturer MC8 PRO manual](https://help.morningstar.io/en/article/mc8-pro-user-manual-1yqqr1r/), Bluetooth, Backing Up, Firmware Updates and Troubleshooting. Firmware applicability is unstated.
+
+| Field | Exact-model evidence / qualification |
+|---|---|
+| Backup / restore | **Current Bank** differs from **All Banks**, which includes controller settings. Restoring replaces the current bank or entire controller data respectively. Whether All Banks spans all eight profiles remains unspecified. Cross-model loading is advertised, not a guarantee every mapping survives conversion. |
+| Physical recovery | A **recessed hard-reset button on the right side beside3.5mm MIDI** loads the bootloader without erasing data. This establishes an additional physical control, not a complete button census. **Factory Reset → Reset Current Profile** is separate. |
+| Safe Mode | Holding **B during power-up** suppresses message execution, allowing programmed loops to be corrected. It does not recover erased data. |
+| Wireless role | Bluetooth MIDI operates as a **Peripheral**, requiring a compatible **Central**. It is not Bluetooth audio or universal pedal-to-pedal pairing. Bluetooth-module firmware is updated separately from main-controller firmware. |
+| Firmware variants | **MIDI + Keyboard** firmware permits keystrokes; **MIDI only** does not. These are feature variants, not two simultaneously running firmware installations. |
+
+Screen dimensions/pixels/touch, mass, expression pinout, cross-profile backup coverage and qualified Shopee stock remain unresolved. No download, reset, connection, firmware update or device operation. Controller remains outside active audio inventory.
