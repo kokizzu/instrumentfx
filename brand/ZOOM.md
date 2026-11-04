@@ -2669,7 +2669,7 @@ The [manufacturer English Operation Manual](https://zoomcorp.com/media/documents
 
 | Field | Evidence / limitation |
 |---|---|
-| Processing | **67 effect types;max8 simultaneous modules**. Full named/category census remains unchecked. |
+| Processing | **67 effect types;max8 simultaneous modules**. [Named original-manual census](#g1u--named-effect-inventory-and-creative-boundaries) reconciles67;current1.20 equivalence remains unchecked. |
 | Memory | **100 User +100 Preset =200**,each10banks×10patches. Factory-filled User census unverified. |
 | Dimensions / mass | **136W×155D×52H mm;350g without batteries**. Width fits200mm,depth exceeds140mm;plugs add clearance. |
 | Display | **Two-digit seven-segment LED**,not individual footswitch LCDs. Physical dimensions unverified. |
@@ -2695,6 +2695,26 @@ Checked **2026-11-05** against indexed [manufacturer manual pp4–5](https://zoo
 | Expression / storage | VP selects volume;Off andeffect-module targets are separate. Setting saves with eachpatch;an effect lacking the pedal symbol does not respond. Bypass-volume behavior remains separate from global assignment. |
 
 No device operated,recording made orfile downloaded. Full algorithm census,current software support andqualified Shopee offers remain unresolved;partial lead stays outside active402.
+
+### G1u — named effect inventory and creative boundaries
+
+Checked **2026-11-05**, manufacturer **G1u-5000-4** manual,printedpp21–26, [original text reproduction](https://manuzoid.com/manuals/w02mA-Zoom%20G1U%20User%20manual). Exact-model identity/revision checks are above;generated host commentary excluded.
+
+| Section | Choices | Names |
+|---|---:|---|
+| COMP/EFX | 9 | Compressor; Auto Wah; Booster; Tremolo; RingMod; Slow Attack; Pedal Vox; Pedal Cry; Octave |
+| DRIVE | 30 | FD COMBO; VX COMBO; US BLUES; BG CRUNCH; HW STACK; MS CRUNCH; MS DRIVE; PV DRIVE; DZ DRIVE; BG DRIVE; OVER DRIVE; T SCREAM; GOVERNOR; DIST+; Dist1; SQUEAK; FUZZ SMILE; GREAT MUFF; METAL WORLD; HOT BOX; Z CLEAN; Z WILD; Z MP1; Z BOTTOM; Z DREAM; Z SCREAM; Z NEOS; LEAD; EXTREME DS; ACO.SIM |
+| EQ | 1 | EQ |
+| ZNR/AMP | 4 | ZNR; Combo & ZNR; Bright Combo & ZNR; Stack & ZNR |
+| MODULATION | 13 | Chorus; Ensemble; Flanger; Step; Pitch Shift; Mono Pitch; HPS; Vibrato; Pitch Bend; Delay; CombFilter; Air; Phaser |
+| DELAY | 5 | Delay; Tape Echo; Analog Delay; Ping Pong Delay; Reverse |
+| REVERB | 5 | Hall; Room; Spring; Arena; Tiled Room |
+
+**Derived reconciliation:9+30+1+4+13+5+5=67**,treating fixed EQ as one section. This is a reading ofthe named tables,not manufacturer explanation ofits arithmetic orproof ofthe separate eight-module simultaneous headline. Parameter variants,Off andpatch level are not added as extra algorithms.
+
+**ACO.SIM** explicitly converts electric-guitar tone toward acoustic-guitar sound;not merely an acoustic IR. **Mono Pitch** is single-note;Pitch Shift,HPS,Pitch Bend andOctave input polyphony remains unverified. HPS generates major-scale harmony froma chosen key. RingMod,Step,Slow Attack andCombFilter are special processing;no dedicated tracking synth is established bythis inventory.
+
+The MODULATION Delay reaches2seconds;the separate DELAY module reaches5seconds,Reverse2.5seconds. Those are effect-buffer limits,not additional loop storage. Prior rhythm/reverb andlooper/delay exclusions remain. Installed1.20 equivalence,import support andqualified Shopee hardware remain open;partial lead stays outside active402.
 
 ## G1X FOUR
 

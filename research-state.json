@@ -167486,5 +167486,105 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Preserve G1u partial status;continue individual-footdisplay priorities andqualifiedShopee discovery,withGP-200JR->Prime->GE300,GT-Pro andexpression/consolidation queuesindependent."
+  },
+  "g1u_named_inventory_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/ZOOM.md#g1u--named-effect-inventory-and-creative-boundaries",
+    "source": "https://manuzoid.com/manuals/w02mA-Zoom%20G1U%20User%20manual",
+    "revision": "Manufacturer originalG1u-5000-4 pp21–26;notgeneratedhostprose",
+    "groups": {
+      "comp_efx": [
+        "Compressor",
+        "Auto Wah",
+        "Booster",
+        "Tremolo",
+        "RingMod",
+        "Slow Attack",
+        "Pedal Vox",
+        "Pedal Cry",
+        "Octave"
+      ],
+      "drive": [
+        "FD COMBO",
+        "VX COMBO",
+        "US BLUES",
+        "BG CRUNCH",
+        "HW STACK",
+        "MS CRUNCH",
+        "MS DRIVE",
+        "PV DRIVE",
+        "DZ DRIVE",
+        "BG DRIVE",
+        "OVER DRIVE",
+        "T SCREAM",
+        "GOVERNOR",
+        "DIST+",
+        "Dist1",
+        "SQUEAK",
+        "FUZZ SMILE",
+        "GREAT MUFF",
+        "METAL WORLD",
+        "HOT BOX",
+        "Z CLEAN",
+        "Z WILD",
+        "Z MP1",
+        "Z BOTTOM",
+        "Z DREAM",
+        "Z SCREAM",
+        "Z NEOS",
+        "LEAD",
+        "EXTREME DS",
+        "ACO.SIM"
+      ],
+      "eq": [
+        "EQ"
+      ],
+      "znr_amp": [
+        "ZNR",
+        "Combo & ZNR",
+        "Bright Combo & ZNR",
+        "Stack & ZNR"
+      ],
+      "modulation": [
+        "Chorus",
+        "Ensemble",
+        "Flanger",
+        "Step",
+        "Pitch Shift",
+        "Mono Pitch",
+        "HPS",
+        "Vibrato",
+        "Pitch Bend",
+        "Delay",
+        "CombFilter",
+        "Air",
+        "Phaser"
+      ],
+      "delay": [
+        "Delay",
+        "Tape Echo",
+        "Analog Delay",
+        "Ping Pong Delay",
+        "Reverse"
+      ],
+      "reverb": [
+        "Hall",
+        "Room",
+        "Spring",
+        "Arena",
+        "Tiled Room"
+      ]
+    },
+    "derived_total": 67,
+    "count_basis": "FixedEQone;notmanufacturer arithmetic explanation or8moduleconcurrencyreconciliation",
+    "creative": "ACO.SIM electric-to-acoustic;MonoPitch single-note,otherinputpolyphonyunknown;special processing distinctfromsynth",
+    "remaining": [
+      "Installed1.20equivalence and8modulecountingbasis",
+      "Software/platform/importlimits",
+      "FactoryUserfill andloopretention/volumecoverage",
+      "QualifiedShopee hardware used/newIDR"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Keep G1u partial;resume LCD-first/Shopee andindependentGP-200JR->Prime->GE300,GT-Pro,expression/consolidation queues."
   }
 }

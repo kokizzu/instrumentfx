@@ -164,6 +164,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [BOSS VG-800](brand/BOSS.md#vg-800--partial-shopee-and-no-treadle-discovery) is a **partial lead outside active counts andthe additional-record index**. Its [exact parameter follow-up](brand/BOSS.md#vg-800--synth-polyphony-versus-single-note-fx) distinguishes polyphonic GR-300/ANALOG GR andstring-based Harmony fromsingle-note FX HARMONIST,PEDAL BEND andSOUND HOLD. Other synth/pitch chord handling remains unverified.
 
+[Zoom G1u partial lead](brand/ZOOM.md#g1u--named-effect-inventory-and-creative-boundaries) remains **outside active counts andthe additional-record index**. Its original-manual67-choice census includes ACO.SIM,pitch/harmony andRingMod/Step/Slow Attack. Mono Pitch is explicitly single-note;other pitch chord handling anddedicated synth capability remain unverified.
+
 ## What remains uncertain
 
 - Actual tracking quality, latency and installed firmware were not measured for these records.
