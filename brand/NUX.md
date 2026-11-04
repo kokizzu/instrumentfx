@@ -1118,6 +1118,7 @@ Checked2026-10-19; partial, using preserved exactV1 evidence above. The [officia
 |---|---|
 | Synth / pitch / instrument simulation / special | Dedicated tracking synth unverified. Manufacturer’s Octave + Rotary example is an organ-like processing recipe, not evidence of an oscillator/instrument-tone engine. Octave explicitly named in current manufacturer text. Recovered manufacturer-illustration leads name Harmonist/scale harmony and Detune; not independently visually reverified here (GIF unsupported; JPG/PDF yielded no inspectable image). Input polyphony and ranges unverified; original MG-300 Pitch Bender not inherited. Three acoustic IRs documented; dedicated electric-to-acoustic simulator unverified. Organ-like Octave + Rotary recipe is separate from acoustic IR processing. Shimmer Reverb; RVB→DLY substitution permits dual delays. CMP→EFX and EFX→MOD are substitutions, not added block positions. [Revision and restrictions](#mg-300-mkii--creative-effects-capability-check-2026-11-03). |
 | Expression / controls | Built-in;no external socket in complete manual. **4/2/9**;rear power/toe separate. |
+| Expression / target and recall scope | [Own2024 quickstart](#mg-300-mkii--expression-target-selection-and-navigation-boundaries): PEDAL selects WAH/EFX/AMP/MOD/DLV/RVB. Independent-with-patch describes engagement,not fixed volume assignment or endpoints;current GEN2 equivalence unverified. |
 | Dimensions / display | **241×160×49mm;760g**,medium. **2.4-inch color LCD,320×240**,permanufacturer Germanmanual cover;touch remainsunverified. [Original German manual](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300MKII/NUX_MG300MKII_UserManual_German.pdf). |
 | Processing | **10 movable blocks**. Base list NG1,CMP2,OD/DIST13,touch-wah1,EQ2,MOD14,DLY7,RVB5;GEN2 adds4 wah and3 DeepImage amps. These are revision-specific categories,not a fully reconciled current grand total. |
 | Memory / acoustic / synth | Factory/user split ?. Three Pro Scenes. Acoustic-body IRs;octave/rotary organ-like sounds are not proof of a general synth engine. |
@@ -1125,7 +1126,7 @@ Checked2026-10-19; partial, using preserved exactV1 evidence above. The [officia
 | Ports | 6.35 mm input;single6.35 mm stereo main output;3.5 mm AUX;TRRS headset/mic;USB-C;DC. |
 | Power | **9V,supplied ACD-006A**. [NUX USA power support](https://www.nux.us/blogs/support/which-power-supply-does-my-nux-product-need),updated2026-09-27,explicitly mapsMKII tothat adapter andgives **9V/500mA,100–240V input** forACD-006A. This isadaptercapacity,notdevicecurrentdraw. MKII row doesnot explicitlystatepolarity;thepage's “mostNUX” wording isnot exactmodelproof. Polarity,battery/USBbuspower remainunverified. |
 | Apps / recording | QuickTone **Windows/macOS**,GEN2 requires matching editor;USB recording/OTG,reamp/loopback;independent headset-mic settings. Not an XLR/phantom vocal preamp. |
-| Prices | Used/new IDR ?. Foreign quote retained separately. |
+| Prices | Saved used-title ask Rp2.600.000,Habis;condition-unverified asks andunresolved variations retained below. No qualified live new/used range. Foreign quote remains separate. |
 
 The manual predates GEN2 additions. The original review identified GEN2 firmware3.0.0;that date is not refreshed by this merge or a claim about any owner's installed unit.
 
@@ -1233,6 +1234,16 @@ Exact-model product page checked 2026-11-03; lists GEN2 firmware3.0.0 (2026-07-1
 | Architecture / firmware limitations | Current GEN2 release listing is not proof of installed firmware or each algorithm’s introduction version. No dedicated synth inferred from NAM. Harmonist/Detune visual evidence and detailed controls remain explicit follow-up leads, not freshly verified algorithms. |
 
 [Four-category comparison](../CREATIVE-EFFECTS.md). Owner-confirmed ownership.
+
+### MG-300 MKII — expression target selection and navigation boundaries
+
+Checked **2026-11-04** against the [manufacturer German quickstart,©2024,PDFpp4,7](https://nux.cherubtechnology.com/download/Manual/Effects/Multi_Effects/MG300MKII/NUX_MG300MKII_UserManual_German.pdf),corroborated by the [manufacturer English body reproduced on Manuals+](https://manuals.plus/nux/mg-300-mkii-modeling-guitar-processor-manual). Exact-model identity andoriginal chapters match;host-generated material excluded. This predates GEN2 anddoesnot certify installedfirmware.
+
+PEDAL selects **WAH,EFX,AMP,MOD,DLV,RVB** as expression-control blocks. P.L is not named inthat list;absence here doesnot prove it cannot becontrolled inlaterfirmware. **EXP Independent w patch** describes continuing engagement across patches,not fixed destination,endpoints orall-source volume. Retain the manual/product calibration contradiction.
+
+LEFT/RIGHT previews patch groups1–9;UP confirms the shown group (example1A→3A). This doesnot enumerate all letters orresolve factory/user capacity. TAP controls delay subdivision reference inPreset mode butdrum tempo inJAM. UP+DOWN opens the tuner;no universal outputmute inferred. Global EQ separately exposes inputtrim,phones/main levels.
+
+The saved used Shopee18622131/41630242050 still appears **Rp2.600.000,Habis** in a two-month cache;not a new price orlive availability. Source-specific IR-count,dynamic-range andamp-count conflicts remain;no localdownload ordeviceoperation.
 
 ## MG-300 original
 
