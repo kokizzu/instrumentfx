@@ -161624,5 +161624,32 @@
     "market": "Fresh exact Shopee query returned no qualified G2Nu hardware;no newprice/stock orabsence claim",
     "active_inventory_unchanged": 402,
     "next": "Continue accessible display-priority evidence and systematically reconcile stale model summaries with retained findings;preserve independent GT-Pro/general,expression andconsolidation queues."
+  },
+  "ms3_eng03_recall_summary_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "BOSS::MS-3",
+    "canonical": "brand/BOSS.md#ms-3--eng03-pedal-hold-and-noise-detector-scope",
+    "source": "https://static.roland.com/assets/media/pdf/MS-3_Parameter_Guide_eng03_W.pdf",
+    "revision": "eng03 ©2017,49pages,printed25–26,40–41;notfirmwareversion",
+    "resolved": {
+      "pedal_recall": "EXP1/2 HLD ON carries position when FUNCTION matches;explicit FOOTVOLUME example",
+      "display_contrast": "1–16",
+      "ns_detect": [
+        "INPUT",
+        "NS INPUT",
+        "FV OUT"
+      ]
+    },
+    "summary_reconciliation": "Retained dated category/nested-count inference,200writable memory allocation,headphone inventory,adapter identity andsoftware qualifications now reflected in summary;older detailed evidence untouched",
+    "remaining": [
+      "Global FV endpoints/placement and competing ASSIGN precedence",
+      "Bypass/tails/recorded-loop attenuation",
+      "Curve numeric-table versus named-diagram ambiguity",
+      "Current tested host/device behavior",
+      "Qualified new/used exact Shopee hardware"
+    ],
+    "market": "Exact used Shopee search returned no newly qualified offer;older cached asks remain separately dated",
+    "active_inventory_unchanged": 402,
+    "next": "Continue accessible individual-footdisplay gaps and systematic stale-summary/profile reconciliation;preserve independent GT-Pro/general andconsolidation queues."
   }
 }

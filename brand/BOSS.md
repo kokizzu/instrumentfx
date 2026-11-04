@@ -4237,20 +4237,22 @@ Checked 2026-10-18; support-page text only, no installers downloaded.
 
 Effects-only guitar/bass multi-effects with loop switching, checked2026-10-18; partial. Ownership unverified. [MS3-P]
 
+Summary reconciled **2026-11-04** with the retained dated findings below. Earlier sources, prices, contradictions and unresolved limits remain intact; this is not a complete fresh model audit.
+
 | Field | Finding / qualification |
 |---|---|
-| Expression / toe | No built-in pedal; two TRS EXP/CTL inputs support external expression. Toe behavior unverified. [MS3-M] |
+| Expression / toe | No built-in pedal; two TRS EXP/CTL inputs. Documented PREF EXP=SYSTEM with FUNC=FV shares the assignment across patches. [Eng03 conditional recall](#ms-3--eng03-pedal-hold-and-noise-detector-scope): EXP1/2 HLD=ON retains position when FUNCTION matches. Global FV range/placement, competing ASSIGNs and bypass/tail coverage remain unresolved; toe behavior unverified. [MS3-M] |
 | Knobs / footswitches / buttons | **3/5/5**: knobs1–3; number1–4 plus MEMORY/MANUAL switches; ON/OFF,MENU,EDIT,EXIT,ENTER buttons. POWER switch separate. [MS3-P] |
-| Display | Backlit132×32-dot graphic LCD; diagonal, color and touch unverified. [MS3-P] |
+| Display | Backlit132×32-dot graphic LCD; eng03 p40 documents CONTRAST1–16. Diagonal, color and touch unverified; contrast is not a physical display specification. [MS3-P] |
 | Dimensions / mass | **W275×D97×H68mm;1.1kg**, mass basis unstated. [MS3-P] |
-| Processing / category choices | **Six simultaneous internal effects**,112 types; FX1,FX2,MOD1,MOD2,DLY,REV; three external loops are additional hardware paths. Per-category choice census pending. [MS3-P] |
-| Factory / user / total memory | 200 patches; factory-filled/user split unverified. [MS3-P] |
+| Processing / category choices | **Six simultaneous internal effects**,112-type headline: FX1/FX2, MOD1/MOD2, DLY, REV; three external loops are additional hardware paths. Saved guide census:31 top-level FX,12 MOD,11 DLY,8 REV; nested selectors yield76 FX +16 MOD +11 DLY +8 REV +1 NS=112 under the explicit arithmetic inference below. Not112 independent or concurrent algorithms. [MS3-P] |
+| Factory / user / total memory | **200 writable locations**. Original patch list contains100 named factory sounds and100 initialized templates; these are not additional protected preset banks. Full bank ranges and derivation remain below. [MS3-P] |
 | Bass capability | Manufacturer explicitly supports guitar/bass effects. [MS3-P] |
 | Synth / acoustic | Acoustic-guitar simulator documented; synthesis not established. [MS3-G] |
-| Audio / control I/O | Quarter-inch input, three send/return pairs, L/MONO+R outputs; TRS CTL OUT and two EXP/CTL inputs; USB-B, MIDI OUT, DC IN. Headphone use unverified. [MS3-P] |
-| Power / battery / USB | Adapter;280mA. Voltage, polarity, battery and USB powering unverified. [MS3-P] |
+| Audio / control I/O | Quarter-inch input, three send/return pairs, L/MONO+R outputs; TRS CTL OUT and two EXP/CTL inputs; USB-B, MIDI OUT, DC IN. **No dedicated headphone socket** in the complete inventory; main outputs are not certified headphone amplifiers. [MS3-P] |
+| Power / battery / USB | **280mA unit draw**. Exact-model support specifies PSA-100S2/PSA-100S adapters; voltage/polarity remain source-unverified here, not inferred from sibling units. Battery/USB-powered operation unverified. [MS3-P] [MS3-S] |
 | IR / NAM / captures | Loading support unverified. |
-| Editor / software | Mac/Windows Editor/Librarian; exact OS versions pending. Drivers/updaters and USB audio remain separate unverified capabilities. [MS3-P] |
+| Editor / software | Editor/Librarian1.0.3 and firmware1.21 are documented in the dated follow-ups, separately from drivers. Saved2026-09-16 chart supports macOS26/15 and marks27 testing; Windows page lists7/8.1/10/11. Historical published statuses, not a current-host test. USB audio remains unverified. [MS3-P] |
 | Looper / drums / routing | Tuner, noise suppressor, global EQ; stereo/selectable-mono outputs. Phrase looper/drums unverified; external loops do not establish recording. [MS3-P] |
 
 ### Separate IDR hardware offers
@@ -4355,6 +4357,14 @@ Checked 2026-10-18; documentation only, without installing the editor or testing
 [Own owner manual][MS3-M] and[complete product inventory][MS3-P] show normal guitar input,twoTRS EXP/CTL,and**no dedicated headphones**;mainouts arenot certified headphone amplification. Onboardnumber1+2/3+4 selectbanks,then1–4 choosepatches;generalsequentialdown/up unverified. **275×97mm** istoo wide. No hardware test orlocaldownload.
 
 Exact[ROCKPIZZ shop440477624/item26543266965](https://shopee.co.id/BOSS-MS-3-MULTI-EFFECT-i.440477624.26543266965) rechecked2026-10-19:cached **Rp3.800.000**,8–11October delivery. Condition,bundle,adapter,warranty,shipping,currentstock andusedavailability unknown. No compensationvoucher deducted;olderSerenata evidence remains separate.
+
+### MS-3 — eng03 pedal hold and noise-detector scope
+
+Checked **2026-11-04**, [manufacturer Parameter Guide eng03, ©2017, printedpp25–26,40–41](https://static.roland.com/assets/media/pdf/MS-3_Parameter_Guide_eng03_W.pdf),49-page original PDF with readable text. Eng03 identifies the document revision, not the installed or latest firmware.
+
+**EXP1 HLD / EXP2 HLD=ON** carries controller-operation state across patch changes **when FUNCTION matches**. The guide explicitly illustrates FOOT VOLUME in both patches: pedal position at the switch continues controlling the arriving patch. OFF does not apply that state. This resolves conditional documented recall; it does not establish global FV endpoints, chain placement, immunity to other assignments or measured glitch-free recall. PREF SYSTEM sharing remains a separate setting.
+
+**NS DETECT** selects INPUT, NS INPUT or FV OUT. The guide recommends FV OUT when using Foot Volume like a guitar volume control, and NS INPUT for its illustrated delay-before-NS arrangement to avoid cutting the spatial effect. Detector selection changes the control path, not the FV audio position or universal tail muting. Display CONTRAST is1–16; the existing FV curve-table/diagram ambiguity remains in eng03. No screenshot, download, pedal test or setting change.
 
 ## Pocket GT
 
