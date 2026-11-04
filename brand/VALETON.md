@@ -610,6 +610,23 @@ Special processing includes **RMOD, LOFI, S.ATK, STEP**, and **A.LPF/A.BPF/A.HPF
 
 This narrows the earlier category/acoustic unknowns only. No exact Shopee offer recovered;partial lead remains outside active comparisons. No download ordevice operation.
 
+### GP-1 — complete named manual inventory
+
+Checked **2026-11-04**, [same original manual](https://medias.audiofanzine.com/files/gp-1-manual-479221.pdf), printedpp37–88. **100 distinct type labels**,matching all eight heading counts; introductory COMP example excluded from duplicate counting. Text-based census,not installed-firmware verification.
+
+| Module | Type labels |
+|---|---|
+| COMP (15) | L.BST; M.BST; H.BST; R.CMP; L.CMP; T.WAH; Q.WAH; A.WAH; V.WAH; C.WAH; S.ATK; LMT; RMOD; OCTA; LOFI |
+| NR (2) | HD.NR; ST.NR |
+| DS/AMP (26) | A-30; D-30; TWDY; FD 65; JT 45; J800; PL 59; CALI; RCTO; FR 51; SCR9; JCOD; HPOD; FOD; 250; DARK; SDS; MTAL; DRTY; CRCH; AUTH; FRAG; MUFF; FACE; ACSM; FZBD |
+| EQ (3) | EQ 1; EQ 2; EQ 3 |
+| CAB (15) | H.112; H.212; VT 30; GCAB; D.112; TWD8; B.410; D.212; C.412; JAZZ; F.412; GRET; E.212; HIWY; SOLO |
+| MOD (22) | DRCH; HDCH; CCH; SCH; BVB; VVB; BITR; OPTR; TUTR; ROTA; FBPH; PHAS; NFLG; FLNG; STEP; JTLY; PBND; DTUN; A.LPF; FBPB; A.BPF; A.HPF |
+| DLY (9) | DDLL; DDLS; ADLS; ADLL; DNDL; MODL; TPEC; TBEC; PPDL |
+| REV (8) | SPRN; ROOM; CHUR; CLUB; PLAT; HALL; ARNA; M.RVB |
+
+C.412 repeats the parenthetical “Bassist410” despite describing a MESA4×12; retain this source-label discrepancy. The named census supersedes the earlier missing-list qualification only. Firmware revision,synth tracking,global volume,software/import support andexact IDR offers remain unresolved. Partial,outside active counts;no download ordevice operation.
+
 ## GP-5
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. NAM compatibility and qualified Shopee snapshots were additionally checked2026-10-17; complete firmware contents and checkout stock remain unverified. Historical next-model notes are provenance; use research-state.json for current work.

@@ -25821,6 +25821,24 @@
         "canonical_section": "brand/VALETON.md#gp-1--category-counts-and-creative-processing",
         "status": "Category-head arithmetic and creative algorithm distinctions checked; no active admission",
         "next": "Complete named census, source revision/current support, software/import and display fields; seek exact Shopee item; preserve global-volume uncertainty and independent queues"
+      },
+      "named_census": {
+        "checked_date": "2026-11-04",
+        "source": "https://medias.audiofanzine.com/files/gp-1-manual-479221.pdf",
+        "canonical_section": "brand/VALETON.md#gp-1--complete-named-manual-inventory",
+        "counts": {
+          "COMP": 15,
+          "NR": 2,
+          "DS/AMP": 26,
+          "EQ": 3,
+          "CAB": 15,
+          "MOD": 22,
+          "DLY": 9,
+          "REV": 8
+        },
+        "distinct_type_labels": 100,
+        "scope": "Manual inventory only; not installed firmware or active admission",
+        "next": "Current support/revision, software/import, screen and power gaps; exact Shopee offers; global-volume coverage remains unverified"
       }
     }
   ],
