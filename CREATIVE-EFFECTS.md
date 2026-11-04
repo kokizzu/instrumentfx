@@ -42,7 +42,7 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **53 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **54 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
@@ -67,6 +67,7 @@ This index reuses existing canonical evidence and its original revision/date qua
 | [Zoom G2 FOUR](brand/ZOOM.md#g2-four) | Dedicated synth unverified;Slow Attack is onset processing | Polyphonic Pitch Shifter chords±24;Mono Pitch single-note;scale/key Harmony separate | Acoustic Simulator;Sitar Simulator | [Named creative check](brand/ZOOM.md#g2-four--named-creative-effects-and-downloadable-library-scope):Slicer,sequenced/random filters,Loop Roll andhold effects;app library≠installed contents;not full fresh audit |
 | [Zoom G2X FOUR](brand/ZOOM.md#g2x-four) | Dedicated synth unverified;VOICE WAH filtering andOscillator Echo distinct | Polyphonic Pitch Shifter chords±24;Pedal Mono Pitch single-note;other pedal polyphony unverified | Acoustic Simulator;Sitar Simulator | [18 pedal choices andcreative boundaries](brand/ZOOM.md#g2x-four--pedal-category-census-and-creative-boundaries):Pedal Bit Crusher/input-level delay-reverb;one pedal-category entry perpatch;not full fresh audit |
 | [Zoom G3](brand/ZOOM.md#g3) | MonoSynth, single-note tracking | See retained effect list | Aco.Sim | Manufacturer manual pp45,52; no poly-synth claim |
+| [Zoom G3n](brand/ZOOM.md#g3n) | Dedicated synth unverified; composite presets and filters distinct | MonoPitch single-note; PitchSHFT/HPS note handling unverified | Aco.Sim; Gayageum preset is a composite | [Hold control and pitched-delay boundaries](brand/ZOOM.md#g3n--hold-control-and-pitched-delay-creative-index); Slicer, LoopRoll, sequenced/random filters; dated list, DSP and app-addition limits |
 | [Zoom G5](brand/ZOOM.md#g5) | MonoSynth | See retained effect list | Aco.Sim; Z-Organ | Reproduced manual numbering; library count conflict retained |
 | [Zoom B3](brand/ZOOM.md#b3) | MonoSyn; StdSyn; SynTlk; V-Syn; 4VoiceSyn; Z-Syn | See retained bass effect list | Z-Organ; Defret | MonoSyn/4VoiceSyn single notes; Acoustic360 is an amp |
 | [Zoom B1Xon](brand/ZOOM.md#b1xon) | Ba Synth; StdSyn; SynTlk; V-Syn; 4VoiceSyn; Z-Syn | Own pedal/effect list, not B1on assumptions | Z-Organ; Defret | Ba Synth/4VoiceSyn single notes; exact firmware qualifications retained |

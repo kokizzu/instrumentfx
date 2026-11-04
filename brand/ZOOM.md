@@ -3711,6 +3711,20 @@ Checked **2026-11-01**.
 
 Older exact offers remain independently qualified. No checkout, local download or hardware test.
 
+### G3n — hold control and pitched-delay creative index
+
+Checked **2026-11-04** in the [manufacturer shared G5n/G3n/G3Xn Effects List](https://zoomcorp.com/documents/68/E_G5n_G3n_G3Xn_FX-list.pdf.pdf), **©2017, Z2I-2556-04, printed pp19,21–22**. Exact-model coverage is in the document identity; G5n-v2 preload tags do not establish G3n preload. Minimum firmware and installed contents remain unverified.
+
+| Field | Documented behavior / boundary |
+|---|---|
+| Processing / Hold DLY control | The **Hold** parameter selects **LATCH or UnLATCH** control-switch behavior. **Tail** separately retains or cuts the effect sound when bypassed. These are different controls; the row does not specify an unconditional hold-on-release action, independent loop storage or patch-change continuity. |
+| Pitch / ICE Delay slices | **ICE Delay INTVL −OCT…2 OCT** changes the pitch of audio slices within the delay. This is pitched delay processing, not proof of a tracking synth engine, a new independent pitch block or input-note polyphony. |
+| Processing / ParticleR modes | **ParticleR** lists **STBL, CRTCL, HZD** modes within one complex reverb. These are parameter choices, not three additional algorithms, a documented granular engine or instrument synthesis. |
+
+The [creative comparison](../CREATIVE-EFFECTS.md) now indexes the existing G3n Aco.Sim, MonoPitch/PitchSHFT/HPS, Slicer, filters and LoopRoll evidence. MonoPitch is single-note; other pitch chord handling remains unverified. Composite synth-like presets remain distinct from verified synthesis. Seven-slot/DSP restrictions and the later OutputVP revision remain as recorded above.
+
+The saved like-new Shopee item1202626732/49050618880 could not be reopened, and an exact-ID search returned no result. Older seller claims and asking prices remain historical; no new stock, condition or price claim is made. No download or device operation.
+
 ## G3X
 
 Original guitar multi-effects with expression; distinct from G3 and G3Xn. Manufacturer marks discontinued. Checked2026-10-17; partial. Bass/vocal suitability and ownership unestablished.
