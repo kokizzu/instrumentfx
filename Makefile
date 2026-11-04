@@ -2429,3 +2429,7 @@ metadata-history-preservation-plan:
 .PHONY: metadata-history-source-plan
 metadata-history-source-plan:
 	python3 scripts/metadata_consolidation.py plan-history-source
+
+.PHONY: metadata-history-json-plan
+metadata-history-json-plan:
+	python3 scripts/metadata_consolidation.py plan-history-json

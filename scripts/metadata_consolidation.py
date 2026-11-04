@@ -65,16 +65,18 @@ def parse_source(path, text=None):
     return dict(source=path,sha256=digest(text),historical=True,not_active_instructions=True,nonblank_lines=len(required),blocks=blocks)
 
 
+JSON_GROUPS = {
+    'requirements_and_template': {'latest_user_requirements','required_field_groups','record_template','record_template_is_not_an_actual_model','record_template_source','validation_rules','size_bins_mm'},
+    'model_inventory_and_commits': {'pages','completed_review_batches','latest_findings','recovered_findings','integration_commits','previous_findings_preserved','inventory_validation','baseline_research_commit','latest_integrated_research_commit','latest_marketplace_index_commit'},
+    'conflicts_and_coverage': {'known_conflicts_to_preserve','latest_unresolved','previous_unresolved_retained','retained_conflict_topics','migration_status','marketplace_status'},
+    'historical_navigation': {'read_first','methodology','backlog','marketplace_index','cursor','owned_cursor','deferred_cursor'},
+    'repository_transfer': {'legacy_misplaced_research','history'},
+    'change_history': {'change_log','change_log_latest'},
+}
+
 def parse_json_provenance():
     snapshots, index = {}, {}
-    categories = {
-        'requirements_and_template': {'latest_user_requirements','required_field_groups','record_template','record_template_is_not_an_actual_model','record_template_source','validation_rules','size_bins_mm'},
-        'model_inventory_and_commits': {'pages','completed_review_batches','latest_findings','recovered_findings','integration_commits','previous_findings_preserved','inventory_validation','baseline_research_commit','latest_integrated_research_commit','latest_marketplace_index_commit'},
-        'conflicts_and_coverage': {'known_conflicts_to_preserve','latest_unresolved','previous_unresolved_retained','retained_conflict_topics','migration_status','marketplace_status'},
-        'historical_navigation': {'read_first','methodology','backlog','marketplace_index','cursor','owned_cursor','deferred_cursor'},
-        'repository_transfer': {'legacy_misplaced_research','history'},
-        'change_history': {'change_log','change_log_latest'},
-    }
+    categories = JSON_GROUPS
     def inspect(value):
         if isinstance(value,str):
             assert not re.search(r'[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}',value,re.I), 'Private email identifier in legacy source'
@@ -218,12 +220,73 @@ def verify():
     verified_history_entries(state)
     print('PASS:'+str(len(SOURCES))+' Markdown/'+str(len(JSON_SOURCES))+' JSON metadata sources;21ownership entries/20root profiles;all nonblank lines covered;no added models;historical corrections and exclusions retained.')
 
+def strict_json(text):
+    def unique_object(pairs):
+        result = {}
+        for key, value in pairs:
+            assert key not in result, 'Duplicate JSON key: '+key
+            result[key] = value
+        return result
+    def reject_constant(value):
+        raise ValueError('Non-finite JSON number: '+value)
+    return json.loads(text, object_pairs_hook=unique_object, parse_constant=reject_constant)
+
+
+def reconstruct_historical_json(content):
+    groups = content['groups']
+    assert set(groups) == set(JSON_GROUPS) | {'identity_counts_and_other_metadata'}
+    result = {}
+    for group in groups.values():
+        assert isinstance(group, dict)
+        for key, value in group.items():
+            assert key not in result, 'Duplicate grouped JSON key: '+key
+            result[key] = value
+    assert len(result) == content['source_key_count'], 'Lost historical JSON keys'
+    return result
+
+
+def parse_historical_json(path, body):
+    assert path in JSON_SOURCES
+    data = strict_json(body)
+    assert isinstance(data, dict), 'Historical ledger must be a JSON object'
+    def inspect(value):
+        if isinstance(value, str):
+            assert not re.search(r'[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}',value,re.I), 'Private email identifier in legacy source'
+            assert not re.search(r'mail\.google\.com|outlook\.(live|office)\.com',value,re.I), 'Private mailbox link in legacy source'
+        elif isinstance(value, dict):
+            for key, child in value.items():
+                inspect(key)
+                inspect(child)
+        elif isinstance(value, list):
+            for child in value:
+                inspect(child)
+    inspect(data)
+    groups = {name:{} for name in JSON_GROUPS}
+    groups['identity_counts_and_other_metadata'] = {}
+    for key, value in data.items():
+        matches = [name for name, keys in JSON_GROUPS.items() if key in keys]
+        assert len(matches) <= 1
+        groups[matches[0] if matches else 'identity_counts_and_other_metadata'][key] = value
+    content = dict(source=path, sha256=digest(body), groups=groups, source_key_count=len(data),
+                   historical=True, not_current_inventory_or_cursor=True)
+    reconstructed = reconstruct_historical_json(content)
+    assert json.dumps(reconstructed,sort_keys=True,allow_nan=False) == json.dumps(data,sort_keys=True,allow_nan=False)
+    return content
+
+
 def verify_history_entry(entry, body):
-    assert entry['kind'] == 'historical-metadata-markdown-v1'
-    assert entry['source'] in SOURCES
     assert entry['historical'] is True and entry['not_active_instructions'] is True
     assert digest(body) == entry['sha256'], 'Historical metadata blob changed'
-    assert parse_source(entry['source'], body) == entry['content'], 'Historical metadata content lost or altered'
+    if entry['kind'] == 'historical-metadata-markdown-v1':
+        assert entry['source'] in SOURCES
+        assert parse_source(entry['source'], body) == entry['content'], 'Historical metadata content lost or altered'
+    else:
+        assert entry['kind'] == 'historical-metadata-json-v1' and entry['source'] in JSON_SOURCES
+        expected = parse_historical_json(entry['source'], body)
+        # Python considers False == 0; serialized equality must retain JSON types.
+        assert json.dumps(expected,sort_keys=True,allow_nan=False) == json.dumps(entry['content'],sort_keys=True,allow_nan=False), 'Historical JSON value/type lost or altered'
+        reconstructed = reconstruct_historical_json(entry['content'])
+        assert json.dumps(reconstructed,sort_keys=True,allow_nan=False) == json.dumps(strict_json(body),sort_keys=True,allow_nan=False)
 
 
 def verified_history_entries(state):
@@ -334,7 +397,72 @@ def test_history():
         pass
     else:
         raise AssertionError('Altered unknown qualification accepted')
-    print('PASS: metadata history includes deletion parents, isolates paths and rejects changed/lost historical facts')
+    sample = {'repository':'kokizzu/instrumentfx', 'cursor':{'model':'Historical only'}, 'record_count':51,
+              'required_field_groups':['expression','display'],
+              'record_template':{'unknown':None,'no':False,'zero':0,'text':'0','empty_array':[],'empty_object':{}}}
+    raw_json = json.dumps(sample)
+    content = parse_historical_json(JSON_SOURCES[-1], raw_json)
+    assert json.dumps(reconstruct_historical_json(content), sort_keys=True) == json.dumps(sample, sort_keys=True)
+    json_entry = dict(kind='historical-metadata-json-v1', source=JSON_SOURCES[-1], sha256=digest(raw_json),
+                      historical=True, not_active_instructions=True, content=content)
+    verify_history_entry(json_entry, raw_json)
+    for field, value in [('unknown',False),('no',0),('zero',False),('text',0),('empty_array',{}),('empty_object',[])]:
+        broken = copy.deepcopy(json_entry)
+        broken['content']['groups']['requirements_and_template']['record_template'][field] = value
+        try:
+            verify_history_entry(broken, raw_json)
+        except AssertionError:
+            pass
+        else:
+            raise AssertionError('JSON type changed without rejection: '+field)
+    broken = copy.deepcopy(json_entry)
+    broken['content']['groups']['requirements_and_template']['required_field_groups'].reverse()
+    try:
+        verify_history_entry(broken, raw_json)
+    except AssertionError:
+        pass
+    else:
+        raise AssertionError('Historical array order changed')
+    broken = copy.deepcopy(content)
+    broken['groups']['historical_navigation']['record_count'] = 51
+    try:
+        reconstruct_historical_json(broken)
+    except AssertionError:
+        pass
+    else:
+        raise AssertionError('Duplicate grouped JSON key accepted')
+    for invalid in ('{"a":1,"a":2}', '{"number":NaN}', '{"number":Infinity}'):
+        try:
+            parse_historical_json(JSON_SOURCES[-1], invalid)
+        except (AssertionError, ValueError):
+            pass
+        else:
+            raise AssertionError('Ambiguous JSON accepted')
+    print('PASS: metadata history includes deletion parents, isolates paths and rejects changed/lost historical facts; JSON types, empties and array order retained')
+
+
+def plan_history_json():
+    research_tools.identity()
+    raw = (ROOT/'research-state.json').read_text()
+    state = json.loads(raw)
+    pending = state['migration']['metadata_source_history_audit_20261104']['pending']
+    entries = []
+    for row in pending:
+        if row['source'] not in JSON_SOURCES:
+            continue
+        body = research_tools.git('cat-file','-p',row['blob'])
+        assert digest(body) == row['sha256']
+        entry = dict(kind='historical-metadata-json-v1', **row, historical=True, not_active_instructions=True,
+                     content=parse_historical_json(row['source'],body),
+                     qualification='Historical typed JSON values grouped by purpose; not current inventory, ownership, scope or instructions. Current root records and independent queues take precedence.')
+        verify_history_entry(entry,body)
+        entries.append(entry)
+    assert entries, 'No pending historical JSON snapshots'
+    target = Path('/tmp/instrumentfx-metadata-json-history-plan.json')
+    payload = dict(head=research_tools.git('rev-parse','HEAD').strip(),ledger_sha256=digest(raw),entries=entries)
+    target.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
+    print(json.dumps([dict(source=e['source'],blob=e['blob'],keys=e['content']['source_key_count']) for e in entries],indent=2))
+    print('Read complete selected sources and review '+str(target)+' before preserving any entry; no tracked files changed.')
 
 
 def audit_history():
@@ -384,7 +512,7 @@ def audit_history():
     for row in rows:
         counts[row['status']] = counts.get(row['status'], 0) + 1
     report = dict(head=head, sources=len(SOURCES) + len(JSON_SOURCES), variants=len(rows), counts=counts, records=rows,
-                  limitation='Exact registered-original/alias equality relies on metadata-verify; current Markdown redirects are independently checked by source-retirement verify before byte comparisons. Retired JSON pointers require exact bytes plus independent typed-content/removal verification; historical metadata content requires complete parsed-source equality to the pinned Git blob. All other HEAD-reachable variants require review. Pending is not proven loss; no source deletion or full migration certification.')
+                  limitation='Exact registered-original/alias equality relies on metadata-verify; current Markdown redirects are independently checked by source-retirement verify before byte comparisons. Retired JSON pointers require exact bytes plus independent typed-content/removal verification; historical Markdown requires complete parsed-source equality and historical JSON requires exact typed-value reconstruction against its pinned Git blob. All other HEAD-reachable variants require review. Pending is not proven loss; no source deletion or full migration certification.')
     target = Path('/tmp/instrumentfx-metadata-history-audit.json')
     target.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     print(json.dumps({k:v for k,v in report.items() if k != 'records'}, indent=2))
@@ -415,7 +543,7 @@ def commit(stage=False):
         assert review['head'] == research_tools.git('rev-parse','HEAD').strip()
         assert review['sha256'] == digest(research_tools.git('diff','--cached'))
         assert not research_tools.git('diff','--cached','--check').strip()
-        print(research_tools.git('commit','-m','audit: preserve historical repository transfer qualifications'))
+        print(research_tools.git('commit','-m','audit: preserve typed historical JSON research metadata'))
 
 if __name__ == '__main__':
-    {'plan':plan,'apply':apply,'verify':verify,'commit':commit,'stage':lambda:commit(stage=True),'audit-history':audit_history,'test-history':test_history,'plan-history':plan_history_preservation,'plan-history-source':lambda:plan_history_preservation(True)}[sys.argv[1]]()
+    {'plan':plan,'apply':apply,'verify':verify,'commit':commit,'stage':lambda:commit(stage=True),'audit-history':audit_history,'test-history':test_history,'plan-history':plan_history_preservation,'plan-history-source':lambda:plan_history_preservation(True),'plan-history-json':plan_history_json}[sys.argv[1]]()
