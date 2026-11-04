@@ -160086,5 +160086,28 @@
     "market": "Fresh exact Shopee search yielded existing/foreign-market leads;no newcondition-qualified Indonesian hardware offer claimed.",
     "next": "Resolve digital EQ contradiction against exact-model currentmanufacturer clarification;continue prioritized display andmarket gaps,keeping independent GT-Pro cursor.",
     "active_inventory_unchanged": 402
+  },
+  "gtpro_phrase_edit_tuner_reference_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "BOSS::GT-Pro",
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+      "https://www.manualshelf.com/manual/roland/gt-pro/owner-s-manual-english/page-102.html"
+    ],
+    "revision": "Original owner manual printed49,102;indexedmanufacturer andmatchingEnglish reproduction",
+    "findings": [
+      "AutoRiff IN/STEP/OUT edits programnotes;guitarcan detectinputnote andadvance step;tie sustains precedingnote;end makes precedingstep last.",
+      "Tuner referenceA4 435–445Hz,factory440Hz;notpitchshifting oraccuracyrating."
+    ],
+    "remaining": [
+      "GlobalFV precedence overdedicated patch fields",
+      "13versus15countbasis",
+      "OtherUSBdriver channel counts",
+      "Visualcontrol census",
+      "Qualified exact Shopee IDR hardware"
+    ],
+    "priority_check": "StadiumXL primary power query still unresolved;existingexactShopee asks only. No sibling/retailer power claim adopted.",
+    "next": "Continue unresolved GT-Pro evidence independently,prioritizing accessible individual-footdisplay models;freshShopee discovery remains authorized.",
+    "inventory_unchanged": 402
   }
 }

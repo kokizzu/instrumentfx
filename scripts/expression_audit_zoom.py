@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fractal): qualify FM3 MKII digital routing and EQ conflict'
+        message='research(boss): document GT-Pro phrase editing and tuner reference'
     print(git('commit','-m',message))
