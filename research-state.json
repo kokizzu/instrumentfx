@@ -167757,5 +167757,25 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue requestedindividualfootdisplay evidence; preserve GP-200JR→Prime→GE300, GT-Pro, expression andconsolidationqueues"
+  },
+  "stadiumxl_command_sources_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/LINE6.md#stadium-xl--command-source-capacities-and-snapshot-defaults",
+    "source": "https://manuals.line6.com/en/helix-stadium/live/command-center",
+    "revision": "Live navigation v1.4RevD/v1.3RevB/v1.2; no introduction-version inference",
+    "findings": [
+      "16 Instant sources per preset",
+      "Two commands switch/toe/external/trigger; oneCC pedal/XYaxis; MODE/TAP excluded",
+      "Snapshotcontrol defaultoff withAction/MIDICommand exclusions",
+      "Preset/Snapshot andSong switchlabelroles"
+    ],
+    "remaining": [
+      "Primary powerlabelratings",
+      "OLED detailedphysicalspecifications",
+      "QualifiedShopee currentcondition/stock",
+      "Globalanalogvolume andtail/loop/phonecoverage"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue remaining requestedindividualdisplay fields; independent GP-200JR→Prime→GE300,GT-Pro,expression andconsolidationqueues preserved"
   }
 }

@@ -921,6 +921,7 @@ Checked 2026-10-31 against the live manufacturer v1.4 manual. Its navigation sti
 | Field | Exact XL qualification |
 |---|---|
 | I/O / Aux and shared returns | XL **Returns3/4** can become always-on Aux inputs, unprocessed by the preset. The smaller Stadium uses Returns1/2; do not transfer that numbering. A return already used by an FX Loop/Return block is unavailable as a separate Input source. Repeated Send instances are allowed, but a particular FX Loop/Return can have only one instance per preset. [Rear panel](https://manuals.line6.com/en/helix-stadium/live/rear-panel);[routing manual](https://manuals.line6.com/en/helix-stadium/live/input-output-and-mix-blocks). |
+| Controls / Command Center limits | [Source capacities and snapshot defaults](#stadium-xl--command-source-capacities-and-snapshot-defaults):16 Instant sources; up to two commands per switch/trigger, one CC per pedal/XY axis. MODE/TAP excluded; source restrictions apply. |
 | MIDI / Matrix and assignment scope | [1.4 qualifications](#stadium-xl--matrix-midi-layers-and-assignment-clearing-boundary):three independently addressed output layers;Home(all paths) differs fromUSB/Bluetooth/Aux sources. Mono/stereo swaps clear snapshot/controller assignments. Direct analog global-volume target remains unverified. |
 | Memory / external recall prerequisite | [Live1.4 MIDI rules](#stadium-xl--midi-recall-and-toggle-state-boundaries): unsaved Empty presets cannot be recalled until saved;CC32 selects four128-program USER groups. Bank addressing is not extra memory. |
 | MIDI / action versus value | [Exact CC behavior](#stadium-xl--midi-recall-and-toggle-state-boundaries):CC36 toggles toe state on any value;CC9/value24 invokes Mute All On/Off;CC69 selects orsteps snapshots. These are discrete control semantics,not direct analog global volume. |
@@ -1182,6 +1183,16 @@ Checked **2026-11-05**, manufacturer live [Global Settings→Ins/Outs](https://m
 - **USB Out1/2:** Direct Out provides a selectable preset-output destination. Matrix¼-inch,MatrixXLR orMatrixPhones instead mirrors that selected mixer layer andremoves USB1/2 fromthe preset Output list. This setting determines recording source;it doesnot establish global analog EXP control,all-source mute orchanges tothe dedicated USB7/8 DI paths.
 
 Existing S/PDIF selection andUSB-playback routing retain their separate scopes. Shopee search/direct responses repeat thealready-recorded cachedXL offers;no new stock/condition evidence. Primary power ratings andOLED physical specifications remain unresolved;no connection,download ordevice operation.
+
+### Stadium XL — Command source capacities and snapshot defaults
+
+Checked **2026-11-05**, [manufacturer live Command Center chapter](https://manuals.line6.com/en/helix-stadium/live/command-center), navigation showing **v1.4 RevD/v1.3 RevB/v1.2**; introduction version and installed behavior unverified.
+
+Each preset has **16 Instant sources**,sent automatically on preset recall. Stomp A/B switches,XL toe switch,external switches andtriggers allow **two commands per source**. **FS6(MODE) andFS12(TAP) cannot receive Command Center assignments.** Pedals andeach XY axis allow **one MIDI CC command**,not arbitrary command types. Instant sources exclude Preset/Snap andUtility commands.
+
+Switch actions include Press,Release,Hold orToggle;triggers useStrike/Toggle. Selecting Toggle forcommand1 locks command2 toToggle. **Snapshot control is disabled bydefault**;enabled parameter values can change on snapshot recall,butAction andMIDI→Command cannot beassigned. This is command-value storage,not extra snapshots,blocks orphysical screens.
+
+Preset/Snapshot Stomp labels show thetarget number/name;Song labels show command type. Label content doesnot confirm receipt byexternal gear. These capacities do not establish global analog volume assignment. No MIDI sent,device operated orlocal download.
 
 ## HX Effects
 
