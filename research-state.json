@@ -167849,5 +167849,20 @@
     "market": "Existing FM9 MKI1354606623/43322190869 Rp36000000 four-month cache/service unavailable;no new stock or condition claim",
     "active_inventory_unchanged": 402,
     "next": "Continue individual-display gaps and exact Shopee hardware;preserve GP-200JR→Prime→GE300,GT-Pro,expression andconsolidation queues"
+  },
+  "fm9_original_global_eq_scales_20261105": {
+    "checked_date": "2026-11-05",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "revision": "August2022 Original/Turbo firmware3.x printed93",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-original--global-output-eq-and-custom-scale-storage",
+    "finding": "Global output EQ covers analog/headphones,excludes USB/digital;32 global12-note custom scales immediate without STORE",
+    "remaining": [
+      "Current12.x equivalence",
+      "Global pedal volume endpoints/recall/tail/looper coverage",
+      "GraphicEQ18-versus16 primary names",
+      "Qualified exact-revision Shopee stock"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue display-priority profile and Shopee gaps;preserve independent GP-200JR→Prime→GE300,GT-Pro,expression and consolidation queues"
   }
 }

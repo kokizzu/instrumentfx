@@ -1903,6 +1903,8 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | Instrument scope | Original/Turbo 3.x manual explicitly accepts normal guitar and bass at Input1; Inputs2/3 also permit instruments. Vocal suitability unclassified. [Own connector inventory](#fm9-original--connector-inventory-and-usb-boundaries). |
 | Built-in / external / toe expression | No built-in treadle in complete panel inventory. Three shared TRS pedal/switch inputs, linear10–100kΩ; tip supply/ring return/sleeve ground. External toe configuration unverified. [Original hardware](#fm9-original--partial-lcd-discovery);[wiring](#fm9-original--global-volume-memory-and-cpu-scope). |
 | Expression / global volume | Local PEDAL1/2/3 can globally control Input1/2/3 or Output1/2/3 Volume without preset blocks. Input changes drive; output scales tails. Endpoints, held-position recall, bypass/phones/USB/recorded-loop coverage unknown. Actual M-VAVE wiring untested. [Own setup](#fm9-original--global-volume-memory-and-cpu-scope). |
+| Routing / global output EQ coverage | [Own3.x manual,p93](#fm9-original--global-output-eq-and-custom-scale-storage): separate Out1/2/3 EQs apply across presets to analog jacks and headphones, **excluding USB/digital outputs**. EQ master Level is not proof of global analog-pedal assignment; current12.x behavior untested. |
+| Pitch / global custom scales | [Same source,p93](#fm9-original--global-output-eq-and-custom-scale-storage): 32 custom scales,12 chromatic entries each,±24semitones; immediate edits without STORE. This is scale storage,not note-polyphony or32 simultaneous voices. |
 | Expression / Volume block scope | **November2026 Blocks Guide,p109:** Volume/Pan requires a modifier on Volume for pedal control; bypass passes or mutes input according to Bypass Mode. Its block-local Output Level is independent of Volume. These controls do not supply global Input/Output Volume endpoints or prove coverage across presets. [Scope and taper choices](#fm9-original--volume-block-versus-global-assignment). |
 | Knobs / footswitches / buttons | **9 rotary /9 footswitches /12 buttons**. Six knob-push functions included, not extra buttons. Power and ground-lift switches separate. Text count; visual corroboration pending. [Original release/manual](#fm9-original--partial-lcd-discovery). |
 | Controls / label preview and action timing | [August2022 Original/Turbo3.x manual,pp72,78,89–90](#fm9-original--label-preview-and-switch-action-timing): displaying Hold is a preview,not proof of activation. Assigning Hold moves Tap activation to release;timeout0.25–2.00s,default0.5s. Current12.x behavior untested. |
@@ -2256,6 +2258,14 @@ Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed pp3,71](
 Outer bands1/5 offer Shelving, Shelving2, Peaking, Peaking2 and Blocking. Bands2/4 exclude Blocking; band3 offers only the two Peaking variants. Frequency ranges: band1 **20–2000Hz**, bands2–4 **100–10,000Hz**, band5 **200–20,000Hz**. Q spans **0.1–10**, gain **−20…+20dB**. Outer-band Blocking instead exposes **6–36dB/octave** slope; low Blocking passes frequencies above cutoff, high Blocking passes below. Solo isolates a band for adjustment.
 
 These are controls within PEQ, not extra category choices, physical knobs or tracking synthesis. The separate18-versus16 Graphic EQ count discrepancy remains unresolved; Drive’s embedded EQ is another processor. Existing global-volume and revision qualifications remain. No device operation or download.
+
+### FM9 original — global output EQ and custom-scale storage
+
+Checked **2026-11-05**, [manufacturer FM9 Original/Turbo owner manual,August2022,firmware3.x,printed p93](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). Current12.x equivalence remains untested.
+
+Out1,Out2 andOut3 have independent global EQs, selectable Graphic/Parametric/disabled, each with master Level. They alter all presets and cover analog signals at balanced/unbalanced jacks and headphones, **not USB or digital outputs**. The manual cautions that Level can cause clipping or reduce signal-to-noise performance. This EQ scope doesnot establish analog-pedal assignment, volume endpoints or tail/looper behavior.
+
+Custom Shifter has **32 global custom scales**, each mapping the12 chromatic notes to offsets of **−24…+24semitones**. Edits take effect immediately without STORE; soft controls reset one orall values tozero. FM9-Edit supports scale editing/import/export. These are global pitch maps,not preset slots,simultaneous generated voices orproof of chord tracking. Historical scope and existing tracking/firmware uncertainties remain. No settings changed ordevice operated.
 
 ## FM9 Turbo
 
