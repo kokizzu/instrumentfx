@@ -162077,5 +162077,17 @@
     "scope": "Shared appendix and toe mode plus Li-specific battery warnings; separate condition-unknown sold-out offer caches; non-Li firmware not inherited",
     "next": "Try exact September V02 manual retrieval before more shared-family claims; defer unknown screen/axes/current census/used offers and preserve independent priority queues",
     "inventory_changed": false
+  },
+  "ge100proli_shared_routing_revision_20261104": {
+    "model": "MOOER::GE100 Pro Li",
+    "checked_date": "2026-11-04",
+    "canonical_section": "brand/MOOER.md#ge100-pro-li--shared-output-routing-and-revision-boundary",
+    "sources": [
+      "https://www.mooeraudio.com/products/244.html",
+      "https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE100_Pro-_Pro_li_Manual_EN_V01_2026.04.24.pdf"
+    ],
+    "status": "Historical shared routing/trails and looper controls verified; live V02 filename confirmed but body/link unavailable",
+    "next": "Defer V02 retrieval until a new accessible source appears; continue priority individual-footswitch displays or saved Shopee lead, preserving independent GT-Pro cursor and all unknowns",
+    "inventory_changed": false
   }
 }

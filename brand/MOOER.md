@@ -356,7 +356,7 @@ Reviewed **2026-10-14**. **Partial**, eligible guitar multi-effects. Distinct ba
 | IR loading | Third-party **WAV44.1kHz/24-bit/512 samples**, April2026 shared appendix:20 GIR/IR positions, current capacity unverified [MOOER-GE100-PRO-LI-P] |
 | NAM / captures | Manufacturer's **GE100 Pro-family NAM A2 conversion** announcement; do not call it native. Exact Li/region firmware matching and supported architectures need verification. MNRS2.0 support is distinct from NAM; onboard capture not established [N,P] |
 | Configuration apps | MOOER Studio **Windows10+ / macOS13+**; MOOER Cloud **iOS/Android**. Current iOS app requires15.6+, superseding older minimum-version claims. Li app behavior is covered by the shared family documentation; no independent installation test or Linux editor claim [D,A,G,Q] |
-| Extras | **80s stereo looper,40 drum grooves+10 metronomes**, tuner and Bluetooth audio. USB recording/playback documented; exact channel count, spillover, scenes and latency **?** [MOOER-GE100-PRO-LI-Q] |
+| Extras | **80s stereo looper,40 drum grooves+10 metronomes**, tuner and Bluetooth audio. USB recording/playback documented; stereo mobile OTG and conditional copied-preset spillover confirmed below; full channel inventory, scenes and latency **?** [MOOER-GE100-PRO-LI-Q] |
 | Used IDR | **?**; no condition-verified used offer obtained |
 
 Full control enumeration, source-access limitations and shared hardware rationale: [GE100 Pro finding](MOOER.md#ge100-pro). Manufacturer quick-guide text was read through its mirror; PDF rendering failed. No visual validation or full algorithm-list transcription is claimed.
@@ -425,7 +425,7 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 
 ### GE100 Pro Li — shared manual and exact offer recheck
 
-Checked **2026-11-04**. The [manufacturer product page](https://www.mooeraudio.com/products/244.html) explicitly covers Pro and Pro Li. The manufacturer-authored [shared manual V01_2026.04.24](https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE100_Pro-_Pro_li_Manual_EN_V01_2026.04.24.pdf) scopes battery instructions specifically to Li. Static font decoding as documented in the Pro record; no image inspection or device test. Indexed product text names a September V02 manual, but its body/link was not obtained; April findings remain revision-qualified.
+Checked **2026-11-04**. The [manufacturer product page](https://www.mooeraudio.com/products/244.html) explicitly covers Pro and Pro Li. The manufacturer-authored [shared manual V01_2026.04.24](https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE100_Pro-_Pro_li_Manual_EN_V01_2026.04.24.pdf) scopes battery instructions specifically to Li. Static font decoding as documented in the Pro record; no image inspection or device test. The live manufacturer product page names a September V02 manual, but its body/link was not obtained; April findings remain revision-qualified.
 
 | Field | Evidence / limitation |
 |---|---|
@@ -437,6 +437,18 @@ Checked **2026-11-04**. The [manufacturer product page](https://www.mooeraudio.c
 | IDR / separate exact Shopee cache | [gpmusic.sby1875151955/45116479274](https://shopee.co.id/MOOER-GE100-Pro-Li-Black-Multi-Effects-Guitar-Pedal-i.1875151955.45116479274): **Rp1.734.000,sold out**, two-month cache,KotaSurabaya;September delivery text stale. Black title, condition/bundle/region/warranty/delivered cost unverified. Neither delayed-delivery voucher establishes a hardware discount. |
 
 Both offer caches leave hardware condition and current stock unverified; no qualified used quote. Non-Li August firmware labels are not transferred to Li.
+
+### GE100 Pro Li — shared output routing and revision boundary
+
+Checked **2026-11-04**, manufacturer-authored [shared April V01 manual](https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE100_Pro-_Pro_li_Manual_EN_V01_2026.04.24.pdf), printed pp34–38. Static font decoding, no package or device operation.
+
+| Field | Documented scope / unresolved limit |
+|---|---|
+| USB / cabinet routing | Stereo OTG recording/playback requires compatible mobile OTG and cable. CAB SIM THRU independently bypasses left/right cabinet processing across line outputs, phones and OTG; unequal settings place CAB last. This does not prove USB-MIDI, loopback or a full host-channel count. |
+| Practice / conditional trails | SYSTEM SPILL-OVER preserves delay/reverb trails between a preset and its saved copy, with parameter edits/block toggles permitted. Arbitrary-preset spillover and measured switching gaps remain unverified. |
+| Looper / performance controls | At80seconds recording automatically starts playback. Footswitch C toggles drums in looper view; TAP follows drum tempo when drums run. These controls do not establish power-off loop storage. |
+
+The [live manufacturer product page](https://www.mooeraudio.com/products/244.html) now directly confirms English/German **V02_2026.09.09** filenames. The reader exposes no corresponding PDF link; targeted searches did not recover the body. That filename does not update April algorithm counts, installed firmware or regional compatibility. Defer this source gap andcontinue other models rather than repeatedly treating the filename as new evidence.
 
 ## GE150 Max
 
