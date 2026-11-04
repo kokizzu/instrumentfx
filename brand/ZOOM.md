@@ -6199,7 +6199,7 @@ Checked2026-10-17 against the [own operation manual][M80-M], Z2I-5301-02, sectio
 | I/O routing | R OUT POSITION can tap within the chain, including **between amp head and cabinet**. Manufacturer example sends cabinet/effect-processed L to PA and amp-head-only R to guitar amp. This is a selectable tap, not an independent second amp chain. |
 | Presets / live | PRESELECT keeps the current patch sounding while another is browsed; footswitch confirmation recalls it. This is patch preselection, not evidence of snapshots or gapless recall. |
 | USB audio / recording | USB sends two post-effects channels; host playback enters after processing. USB REC GAIN spans−15 to+15dB. USB MONITOR blends direct/host0–100 and resets to50 at startup. Windows requires the own driver; Mac/phones/tablets need none per manual. No dry USB reamp channel established. |
-| USB / MIDI control | USB MIDI CH selects reception channel; OMNI receives all channels. Exact program-number mapping and CC/expression implementation remain unverified. |
+| USB / MIDI control | USB MIDI CH selects reception channel; OMNI receives all channels. [Dated MIDI chart](#ms-80ir--dated-midi-control-and-program-range-boundary) marks CC reception unsupported; exact program mapping and later-firmware behavior remain unverified. |
 
 Panel count remains unresolved: the HTML panel SVG fetch failed and PDF screenshot calls supplied no inspectable image in this session. No visual audit is claimed; do not retry those paths without a new capability.
 
@@ -6221,6 +6221,16 @@ Checked 2026-10-17 against the own HTML manual, Z2I-5301-02. Published ratings, 
 ### MS-80IR+ — additional voucher-qualified Shopee lead
 
 Checked **2026-11-03**: [Zoom Official Shop,shop348182890/item29326073126](https://shopee.co.id/Zoom-MS-80IR-Multi-Effects-Processor-i.348182890.29326073126?extraParams=%7B%22display_model_id%22%3A247632045362%2C%22model_selection_logic%22%3A3%7D) indexes the exact **MS-80IR+ hardware** at **Rp3.169.851**, explicitly **Dengan Voucher** (spend Rp1.5m,1% discount). Seller location is Kota Jakarta Barat. This is an indexed ask, not a verified checkout price or live stock; the index reports a one-day crawl, while the plain direct-item retrieval failed. The URL selects display_model_id247632045362, but its variant label, bundle/adapter contents, condition, warranty region and shipping/tax remain unconfirmed. “Official Shop” is the indexed shop name, not independently authenticated authorization. Keep new/used condition unclassified and retain the separate sold-out SIMFONI offer above. This market lead does not change the documented lack of direct analog EXP.
+
+### MS-80IR+ — dated MIDI control and program-range boundary
+
+Checked **2026-11-05**, [manufacturer Operation Manual, Z2I-5301-02,printed p77](https://zoomcorp.com/media/documents/E_MS-80IRplus.pdf). Its exact-model MIDI implementation chart is dated **June 1, 2024, Version 1.00**;this is the chart revision, not installed or latest firmware.
+
+The chart marks **Control Change, pitch bend, notes, System Exclusive and real-time clock/commands unsupported for reception and transmission**. Program Change reception is supported;transmission is not. Channels 1–16 are memorized; the manual separately offers OMNI reception. This does not establish digital CC expression-volume control or MIDI-clock synchronization. Handy Guitar Lab support is documented separately; the chart does not explain that app protocol.
+
+Program Change is printed **0–80**, including True Number. An inclusive 81-number range does not reconcile with 80 memories without an explicit mapping; do not invent an 81st patch, zero-based 0–79 mapping or behavior for 80. No MIDI sent or hardware tested.
+
+[Current support listing](https://zoomcorp.com/en/jp/multi-effects/multistomp-pedals/ms-80ir/ms-80ir-plus_support/) offers firmware 1.10; its USB-mode supplement does not supply a replacement MIDI chart. Later CC behavior remains unverified; direct analog EXP remains absent from the connector inventory. No local download.
 
 ## MS-100BT
 

@@ -166412,5 +166412,21 @@
     ],
     "next": "Continue remaining no-treadle field gaps;preserve requested individual-display priority,GT-Pro andGP-200JR→Prime→GE300 queues",
     "active_inventory_unchanged": 402
+  },
+  "ms80ir_midi_chart_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/ZOOM.md#ms-80ir--dated-midi-control-and-program-range-boundary",
+    "source": "https://zoomcorp.com/media/documents/E_MS-80IRplus.pdf",
+    "revision": "Z2I-5301-02,p77;chart June1,2024 Version1.00",
+    "findings": [
+      "Dated CC andclock reception unsupported",
+      "Printed0–80 program range preserved with80-memory discrepancy"
+    ],
+    "remaining": [
+      "Explicit program-to-patch mapping",
+      "Later-firmware MIDI behavior"
+    ],
+    "next": "Continue remaining field gaps;preserve GT-Pro,individual-foot-display andindependent GP-200JR→Prime→GE300 queues",
+    "active_inventory_unchanged": 402
   }
 }
