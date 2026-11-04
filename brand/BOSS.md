@@ -4797,6 +4797,16 @@ Checked **2026-11-04** in [owner e01,©2015,pp3,5,7–8,12](https://static.rolan
 
 USB format/channel queries produced no additional exact-model manufacturer specification. IR/NAM/capture loading,drums,phrase looping,currentMac editor matrix anduniversal-volume coverage remain unverified;no inferred absence. No local download ordevice operation.
 
+### SY-300 — waveform processing and current macOS qualification
+
+Checked **2026-11-04**. Partial lead outside 402;  no ownership or membership change.
+
+[Parameter Guide e02, ©2015, pp4–5](https://static.roland.com/assets/media/pdf/SY-300_ParamGuide_e02.pdf) documents eight oscillator choices: **SIN, SAW, TRI, SQR, PWM, DETUNE SAW, NOISE, INPUT**. INPUT uses the incoming signal and disables PITCH through RING, as well as sequencer/layer controls noted above; it is not another tracking-synth waveform. SYNC resets OSC2/3 against OSC1; RING multiplies oscillator signals. Neither establishes conventional guitar-audio harmony. Filters offer LPF, HPF, BPF, PKG plus bypass. Two LFOs offer seven shapes (SIN, SAW UP, SAW DOWN, TRI, SQR, RANDOM, S&H), modulating pitch, filter, amplitude and PWM where applicable. These are modulation choices, not extra synth voices or input-note limits. Numeric pitch ranges remain unverified.
+
+[BOSS macOS compatibility matrix](https://www.boss.info/global/support/support_news/25090811m1/), **updated 2026-10-30**, lists SY-300 **Hardware & Driver** and **Exclusive Application** separately: both **Yes(Download)** for **macOS 15 Sequoia and 26 Tahoe**, both **Under Testing** for **macOS 27 Golden Gate**. This supersedes the current-matrix uncertainty above; the older March 2017 Sierra introduction remains historical. It does not establish native Apple-silicon execution or local tested operation. The [1.1.1 application page](https://www.boss.info/global/support/by_product/sy-300/updates_drivers/391a4df2-958b-42f8-b089-146a978d71c1/) links that matrix and requires the appropriate USB driver.
+
+Next: imports/capture and practice-feature evidence, USB stream specifications and expression endpoints/all-route coverage. Earlier completed control/subtype/OS tasks remain historical checkpoints, not the current continuation cursor. No download, installation or device operation.
+
 ## SY-1000 — partial discovery lead
 
 Checked **2026-11-04**. Partial candidate **outside the 402 active models**; ownership is not inferred. Independent effects processing distinguishes this candidate from the excluded SY-1/SY-200 specialist records. No admission to active comparisons yet.

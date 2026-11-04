@@ -162195,5 +162195,24 @@
     "status": "Partial outside402;converter rates distinct fromUSB stream specs;SlicerDEPTH source typo retained",
     "next": "Complete import/practice/OS and current-firmware source review before active admission;USB stream format/count anduniversal-volume coverage remain unresolved. Continue useful priority orfreshShopee leads if source gaps persist;preserve independent queues.",
     "inventory_changed": false
+  },
+  "sy300_waveform_macos_20261104": {
+    "model": "BOSS SY-300",
+    "checked_date": "2026-11-04",
+    "canonical_section": "brand/BOSS.md#sy-300--waveform-processing-and-current-macos-qualification",
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/SY-300_ParamGuide_e02.pdf",
+      "https://www.boss.info/global/support/support_news/25090811m1/",
+      "https://www.boss.info/global/support/by_product/sy-300/updates_drivers/391a4df2-958b-42f8-b089-146a978d71c1/"
+    ],
+    "revision": "Guide e02 ©2015 pp4–5; compatibility matrix updated2026-10-30",
+    "macos": {
+      "15": "Hardware/driver and application Yes(Download)",
+      "26": "Hardware/driver and application Yes(Download)",
+      "27": "Both Under Testing"
+    },
+    "status": "Waveform/control exclusions checked; current Mac matrix gap resolved; partial outside402",
+    "next": "Check import/capture and practice-feature documentation, USB stream formats and expression endpoints/all-route coverage. Do not repeat completed control/OS census. Preserve LCD-first, independent GT-Pro and expression queues.",
+    "inventory_changed": false
   }
 }
