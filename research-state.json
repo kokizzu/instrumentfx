@@ -166208,5 +166208,23 @@
     ],
     "next": "Prioritize remaining individual LCD-at-footswitch models and exact Shopee offers; G5 timing/level scope now recorded. Preserve GT-Pro, expression-volume and GP-200JR→Prime→GE300 queues",
     "active_inventory_unchanged": 402
+  },
+  "axom_max_looper_undo_conflict_20261105": {
+    "checked": "2026-11-05",
+    "model": "MELOFTY::AXOM MAX",
+    "canonical": "brand/MELOFTY.md#axom-max--looper-undo-playback-state-conflict",
+    "revision": "Manufacturer V1.7.4 2026-08-31; English printed32 and German printed35",
+    "sources": [
+      "https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Melofty/EN/MEL_AXOM_MAX_Manual_EN.pdf",
+      "https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347"
+    ],
+    "finding": "English FS2 Undo/Redo requires >=2 layers and playing; German says multiple layers and not playing. Same-revision conflict; neither universally asserted.",
+    "remaining": [
+      "Actual playback-state prerequisite and later correction",
+      "Manufacturer mini-display count/technology",
+      "Qualified exact Indonesian hardware offer"
+    ],
+    "next": "Continue other accessible requested footswitch-display gaps; do not repeatedly treat known Shopee caches as new offers. Preserve expression, GT-Pro and general GP-200JR→Prime→GE300 queues",
+    "active_inventory_unchanged": 402
   }
 }

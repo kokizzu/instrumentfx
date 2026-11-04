@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): distinguish G5 patch and global settings'
+        message='research(melofty): qualify conflicting looper undo prerequisites'
     print(git('commit','-m',message))

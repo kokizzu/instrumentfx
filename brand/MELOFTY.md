@@ -149,7 +149,7 @@ Checked **2026-11-01** in the [German V1.7.4 manual,PDFpp34–35](https://shop.w
 
 | Field | Documented operation / boundary |
 |---|---|
-| Looper / record andstop | FS6 cycles **Record→Play→Overdub**;FS7 short-press stops,long-press erases. With multiple recorded layers andplayback stopped,FS2 invokes **Undo/Redo**. Current firmware behavior untested. |
+| Looper / record andstop | FS6 cycles **Record→Play→Overdub**;FS7 short-press stops,long-press erases. German text requires multiple layers and playback stopped for FS2 **Undo/Redo**; [English V1.7.4 instead requires playback running](#axom-max--looper-undo-playback-state-conflict). Current behavior remains unresolved. |
 | Looper / automatic start | Enable **Auto Record**,choose a threshold andpressFS6 toarm;recording starts when input reaches that threshold. With Auto Record off,FS6 starts immediately. Numeric threshold range is not established here. |
 | Display / evidence boundary | GermanPDFp5 calls the footswitch/pedal readouts **mini displays**;no LCD/OLED classification established. It separately describes the LED light strip. Manufacturer-confirmed screen count andtechnology remain open. |
 
@@ -457,3 +457,14 @@ Checked **2026-11-05**, [manufacturer V1.7.4 manual,2026-08-31, printed12,16–1
 Each chain has nine slots. The manual expressly prevents moving a block from the other chain into a chain with **no empty slot**. This is a slot-occupancy restriction in addition to the separately documented CPU/resource restrictions; it does not establish that any eighteen effects will run together or that moving a block automatically swaps another one back.
 
 Block order changes by dragging the icon between positions. Model replacement occurs from the effect-name area in the parameter editor, opening the category/model list; it is distinct from adding another block. Parameter pages use horizontal swipes or page-number selection. These touchscreen operations do not imply touch-sensitive mini displays, additional physical switches or scene-specific topology. Current firmware equivalence and exact algorithm counts remain unverified. No download or device operation.
+
+### AXOM MAX — looper Undo playback-state conflict
+
+Checked **2026-11-05** in the original manufacturer **V1.7.4,2026-08-31** manual editions, hosted by the importer/distribution network.
+
+| Edition | Documented FS2 Undo/Redo condition |
+|---|---|
+| [English,printedp32](https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Melofty/EN/MEL_AXOM_MAX_Manual_EN.pdf) | At least two recorded layers **and looper playing**. |
+| [German,printedp35](https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347) | Multiple recorded layers **and looper not playing**. |
+
+Both specify a short FS2 press. This is a same-revision language conflict, not evidence that both playback states work or that a firmware change introduced either behavior. Preserve the earlier German finding with this qualification; actual installed behavior and later correction remain unverified. FS7 stop/hold-to-delete and contextual FS8/9 roles are separate. No device operation, download or MIDI transmission. Mini-display technology and qualified Indonesian hardware remain unresolved; this partial lead stays outside active inventory.
