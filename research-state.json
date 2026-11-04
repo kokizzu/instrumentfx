@@ -161226,5 +161226,31 @@
     "market": "TargetedShopee search repeats Hurtrock soldout/voucher/preorder snapshots;notrefreshedstock.",
     "active_inventory_unchanged": 402,
     "next": "Continue priority individual-footdisplay profiles andaccessiblebroaderinventory evidence;preserveGTPro/expressionqueues."
+  },
+  "hx_effects_split_bypass_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "Line 6::HX Effects",
+    "canonical": "brand/LINE6.md#hx-effects--split-bypass-and-dynamic-reverse-ambiguity",
+    "source": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "revision": "3.80 RevD, printed38–39",
+    "findings": [
+      "Split bypass distributes stereo to both branches equally; not branch mute",
+      "Dynamic input-level routing distinct from note tracking",
+      "Dynamic Reverse text repeats normal routing; intended reversal unresolved",
+      "Mixer branch level/pan/polarity and overall level distinct from global EXP"
+    ],
+    "remaining": [
+      "Dynamic Reverse intended mapping and device behavior",
+      "Numeric routing ranges",
+      "Global expression target/recall and all-route attenuation",
+      "Qualified Shopee hardware stock"
+    ],
+    "market": {
+      "url": "https://shopee.co.id/LINE-6-HELIX-HX-EFFECTS-i.250276993.5129480739",
+      "ask_idr": 7900000,
+      "access": "Same four-month index; Habis, condition unknown. No refreshed stock; replacement LCD item excluded."
+    },
+    "active_inventory_unchanged": 402,
+    "next": "Continue accessible priority individual-footdisplay model gaps, defer unavailable source details; preserve independent GT-Pro/general, expression-volume and lossless-consolidation queues."
   }
 }
