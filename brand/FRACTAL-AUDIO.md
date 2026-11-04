@@ -2116,6 +2116,16 @@ Ten-Tap sets **one toten echoes**,using Decay andindividual tap levels (**−80�
 
 These are rhythmic delay capabilities,not tracking synthesis. Spillover remains configuration-qualified;introduction firmware,installed-version equivalence andglobal expression/tail coverage remain unverified. Older evidence preserved;no downloads ordevice test.
 
+### FM9 original — Formant vowels and Rotary control scope
+
+Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed3,51,98](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf),explicit FM9 column. Installed equivalence andintroduction firmware unverified;older evidence retained.
+
+| Field | Reference evidence / qualification |
+|---|---|
+| Categories / Formant | **One type,two FM9 instances**,DSP permitting. Ten vowels:AAA,EEE,III,OHH,OOO,EHH,AHH,AWW,UHH,ERR. Select Start/Middle/End;Control morphs between them manually orvia modifier. Stereo channels process independently. Vowel filtering isnot tracked synthesis ormicrophone-driven vocoding;FM9 haszero Vocoder instances inthecomparison table. |
+| Processing / Rotary | **Two FM9 instances**,DSP permitting;no named type census given here. Rate0 parks rotation;separate drum/rotor acceleration andrelative drum speed shape transitions. Mic spacing0 simulates mono;stereo spread changes width. These speaker-motion controls do not generate organ notes or establish instrument synthesis. |
+
+
 ## FM9 Turbo
 
 Admitted **2026-11-01** as an **active partial guitar/bass model**, not fully verified. This is the August2022 Turbo, distinct from original FM9 and February2024 MKII Turbo. [Manufacturer timeline](https://www.fractalaudio.com/about/) and [family comparison](https://www.fractalaudio.com/family/) specify **10+% more DSP than original**, not a measured latency or guaranteed effect-count increase. The [3.x August2022 manual](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf) explicitly covers **Original and TURBO**; its shared facts below are not inferred from a sibling or current MKII advertising. No ownership assertion.
