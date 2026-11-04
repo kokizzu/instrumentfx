@@ -216,16 +216,114 @@ def verify():
             assert (ROOT/path).is_file() and anchor
     print('PASS:'+str(len(SOURCES))+' Markdown/'+str(len(JSON_SOURCES))+' JSON metadata sources;21ownership entries/20root profiles;all nonblank lines covered;no added models;historical corrections and exclusions retained.')
 
-def commit():
+def history_blobs(raw, path):
+    """Include both sides of changes, including deletions and merge parents."""
+    blobs = set()
+    for line in raw.splitlines():
+        match = re.fullmatch(r':[0-7]{6} [0-7]{6} ([0-9a-f]{40}) ([0-9a-f]{40}) [A-Z]\t(.+)', line)
+        if match and match[3] == path:
+            blobs.update(blob for blob in match.group(1, 2) if blob != '0' * 40)
+    return blobs
+
+
+def history_status(body, preserved, redirects, aliases=()):
+    if body == preserved:
+        return 'verified-registered-original'
+    if body in aliases:
+        return 'verified-registered-source-alias'
+    if body in redirects:
+        return 'verified-compatibility-redirect'
+    return 'historical-variant-needs-review'
+
+
+def test_history():
+    a, b, zero = 'a' * 40, 'b' * 40, '0' * 40
+    path = 'effects/SCOPE.md'
+    raw = (f':100644 100644 {a} {b} M\t{path}\n'
+           f':100644 000000 {b} {zero} D\t{path}\n'
+           f':000000 100644 {zero} {zero} A\t{path}\n'
+           f':100644 100644 {a} {zero} D\teffects/OTHER.md\n')
+    assert history_blobs(raw, path) == {a, b}, 'Lost deletion/parent blob or included unrelated path'
+    assert history_blobs('', path) == set()
+    assert history_status('fact', 'fact', {'redirect'}) == 'verified-registered-original'
+    assert history_status('redirect', 'fact', {'redirect'}) == 'verified-compatibility-redirect'
+    assert history_status('old fact', 'fact', {'redirect'}, {'old fact'}) == 'verified-registered-source-alias'
+    assert history_status('old fact changed', 'fact', {'redirect'}, {'old fact'}) == 'historical-variant-needs-review'
+    for altered in ('', 'fact changed', 'redirect plus lost fact'):
+        assert history_status(altered, 'fact', {'redirect'}) == 'historical-variant-needs-review'
+    print('PASS: metadata history includes deletion parents, isolates paths and rejects unreviewed content changes')
+
+
+def audit_history():
+    """Read-only HEAD-reachable metadata revision census; never auto-certify variants."""
+    from brand_filename_migration import original_namespace
+    import source_retirement
+    research_tools.identity()
+    test_history()
+    source_retirement.verify()
+    assert research_tools.git('rev-parse', '--is-shallow-repository').strip() == 'false', 'Complete history required'
+    head = research_tools.git('rev-parse', 'HEAD').strip()
+    rows, cache = [], {}
+    originals = {path:research_tools.read_preserved_source(path) for path in (*SOURCES, *JSON_SOURCES)}
+    aliases = {body:path for path,body in originals.items()}
+    for path in (*SOURCES, *JSON_SOURCES):
+        raw = research_tools.git('log', '--full-history', '-m', '--format=', '--raw', '--no-abbrev', '--no-renames', head, '--', path)
+        blobs = history_blobs(raw, path)
+        assert blobs, 'Missing source history: ' + path
+        preserved = originals[path]
+        redirects = set()
+        if path in SOURCES:
+            current = (ROOT / path).read_text()
+            assert current.startswith('# '), 'Unexpected compatibility file: ' + path
+            redirects.update((current, original_namespace(current, path)))
+        for blob in sorted(blobs):
+            if blob not in cache:
+                cache[blob] = research_tools.git('cat-file', '-p', blob)
+            body = cache[blob]
+            status = history_status(body, preserved, redirects, aliases)
+            row = dict(source=path, blob=blob, sha256=digest(body), status=status)
+            if status == 'verified-registered-source-alias':
+                row['covered_source'] = aliases[body]
+            if status == 'historical-variant-needs-review':
+                row['historical_body'] = body
+                row['diff_from_registered'] = ''.join(difflib.unified_diff(preserved.splitlines(True), body.splitlines(True), fromfile='registered:' + path, tofile='historical:' + blob))
+            rows.append(row)
+    counts = {}
+    for row in rows:
+        counts[row['status']] = counts.get(row['status'], 0) + 1
+    report = dict(head=head, sources=len(SOURCES) + len(JSON_SOURCES), variants=len(rows), counts=counts, records=rows,
+                  limitation='Exact registered-original/alias equality relies on metadata-verify; current Markdown redirects are independently checked by source-retirement verify before byte comparisons. All other HEAD-reachable variants require review, including former JSON pointers. Pending is not proven loss; no source deletion or full migration certification.')
+    target = Path('/tmp/instrumentfx-metadata-history-audit.json')
+    target.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
+    print(json.dumps({k:v for k,v in report.items() if k != 'records'}, indent=2))
+    print('Review ' + str(target) + '; no repository sources modified.')
+
+
+def commit(stage=False):
     verify()
     research_tools.verify()
     subprocess.run([sys.executable,str(ROOT/'scripts/comparison_views.py'),'verify'],check=True)
-    assert not research_tools.git('diff','--cached','--name-only').strip(), 'Existing staged changes'
+    test_history()
     changed = set(research_tools.git('diff','--name-only').splitlines()) | set(research_tools.git('ls-files','--others','--exclude-standard').splitlines())
-    assert changed <= set(PATHS), changed-set(PATHS)
-    research_tools.git('add','--',*PATHS)
-    print(research_tools.git('diff','--cached','--stat'))
-    print(research_tools.git('commit','-m','fix: verify preserved merge evidence alongside legacy metadata'))
+    staged = set(research_tools.git('diff','--cached','--name-only').splitlines())
+    assert (changed | staged) <= set(PATHS), (changed | staged)-set(PATHS)
+    assert not research_tools.git('diff','--check').strip()
+    receipt = Path('/tmp/instrumentfx-metadata-staged-review.json')
+    if stage:
+        assert changed and not staged, 'Unexpected staged changes or nothing to stage'
+        research_tools.git('add','--',*sorted(changed))
+        diff = research_tools.git('diff','--cached')
+        Path('/tmp/instrumentfx-metadata-staged.diff').write_text(diff)
+        receipt.write_text(json.dumps(dict(head=research_tools.git('rev-parse','HEAD').strip(), sha256=digest(diff))))
+        print(research_tools.git('diff','--cached','--stat'))
+        print('Review /tmp/instrumentfx-metadata-staged.diff before make metadata-commit')
+    else:
+        assert staged and not changed, 'Stage and review first'
+        review = json.loads(receipt.read_text())
+        assert review['head'] == research_tools.git('rev-parse','HEAD').strip()
+        assert review['sha256'] == digest(research_tools.git('diff','--cached'))
+        assert not research_tools.git('diff','--cached','--check').strip()
+        print(research_tools.git('commit','-m','audit: enumerate historical metadata revisions for preservation review'))
 
 if __name__ == '__main__':
-    {'plan':plan,'apply':apply,'verify':verify,'commit':commit}[sys.argv[1]]()
+    {'plan':plan,'apply':apply,'verify':verify,'commit':commit,'stage':lambda:commit(stage=True),'audit-history':audit_history,'test-history':test_history}[sys.argv[1]]()

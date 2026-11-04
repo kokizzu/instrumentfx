@@ -47432,6 +47432,191 @@
           "qualification": "Historical five-model/80-record counts are obsolete; FV01 stays excluded. Source edit pairs preserve old and corrected wording, with no technical fact silently normalized away."
         }
       ]
+    },
+    "metadata_source_history_audit_20261104": {
+      "checked_date": "2026-11-04",
+      "source_head": "bbaa4a5a8b592e52823c86a0b82347abf3d0b93f",
+      "target": "make metadata-history-audit",
+      "test": "make metadata-history-test",
+      "sources": 16,
+      "variants": 60,
+      "counts": {
+        "verified-registered-source-alias": 4,
+        "historical-variant-needs-review": 27,
+        "verified-compatibility-redirect": 13,
+        "verified-registered-original": 16
+      },
+      "complete": false,
+      "pending": [
+        {
+          "source": "effects/OWNERSHIP.md",
+          "blob": "73b3053e91bf234e5e21fe157b06cdacdad5bfbb",
+          "sha256": "cb7b0e9c36b9a236e4ccf03d9a1d8813725560fbe5ad097308e67bf0dd03c47a"
+        },
+        {
+          "source": "effects/shopee-indonesia.md",
+          "blob": "48a2df189e13a29d6d3b0c3b57d3ccd15dc2d23b",
+          "sha256": "e41d52fee694f85d04e3c8e4f5051d4fc4f7792dafd7e069c4368a674ac8085a"
+        },
+        {
+          "source": "effects/shopee-indonesia.md",
+          "blob": "c83bfad262bbdb6c4cad824e26a939bdbc54f010",
+          "sha256": "1eac812df68047135ac7ce2341a4bc1362bf5259834b29e0aad2139a90a7524e"
+        },
+        {
+          "source": "effects/COVERAGE.md",
+          "blob": "220f7fc20297dc73ec8c5bdf6a293f5f98a77c56",
+          "sha256": "d178905ddc1ba4dbdd56c1bff13d92906fe28d72869c09cfcdceb1899f81962f"
+        },
+        {
+          "source": "effects/COVERAGE.md",
+          "blob": "885aa55914406833245ad516fb947774a8576817",
+          "sha256": "a555629b531f5f13aa88314f1b53d69b5a4be372e2e3e807c21ba5bde82f862c"
+        },
+        {
+          "source": "effects/README.md",
+          "blob": "0c2307d17dfd5898cd6af17468293b362beb08d7",
+          "sha256": "3eaba31d1039a9503fd148d3143e6506661ca76c7cc6aef738f37b876c9a9a56"
+        },
+        {
+          "source": "effects/README.md",
+          "blob": "109702226d70bd566d6e946ad37261ef8b0c92b2",
+          "sha256": "f9db5c7b0e6e0f28d1c7a1723ab874c199d230e853ddebde4e800c1ea64fe835"
+        },
+        {
+          "source": "effects/README.md",
+          "blob": "2290d840de2cbe97c287ad2029e720aee789ab91",
+          "sha256": "3b557fa0c1b15cca683356228b763bef5a121b72d393a633914b6e2487f08f9f"
+        },
+        {
+          "source": "effects/README.md",
+          "blob": "4c1430fdd4921deeebae099fa7dc0281248353f3",
+          "sha256": "ed39d8d6e645a201f0cd387c0d34e31e99e9bb5d2acc7b51148b5343ad35ab5c"
+        },
+        {
+          "source": "effects/README.md",
+          "blob": "5b7ac6c7f50bdd2b288959ea7d9c7a039e578cd5",
+          "sha256": "15a537d25cdcce36b08c8603ff998f403217d3c045fb8d0d7842cdf10ad88a67"
+        },
+        {
+          "source": "effects/RESUME.md",
+          "blob": "117e0dfe02d0c1fa8f4d3d1e00423f27c6b297ce",
+          "sha256": "21edae77d6db10f87dc6d9b5ef7e3bbe76aca0259e2ee3282aab6b56d022cd18"
+        },
+        {
+          "source": "effects/RESUME.md",
+          "blob": "1bbcea3ff45e35e4be9be9cd42f29697ea5c65e2",
+          "sha256": "dad75fe042eed8074bffcec684427fa1c74232a7b0831ab2296d20bff9f9eefc"
+        },
+        {
+          "source": "effects/RESUME.md",
+          "blob": "388575994846c615fdf4aba61c1f1980db702cee",
+          "sha256": "18ac1d7f7379a4fb95fcfecb46b3478fcd4d0cb03fc17d5cdbc841ca00cfd1d9"
+        },
+        {
+          "source": "effects/RESUME.md",
+          "blob": "3b6fb327e723b3c1bac8c5177a5e85710d745a52",
+          "sha256": "f722cf5dc046d542169df638e38072a2c2ee79d144d231c5cfc28c0189211763"
+        },
+        {
+          "source": "effects/RESUME.md",
+          "blob": "4c0c360d71bf2a801a24cd46a82a188eefebf9a8",
+          "sha256": "93bb8a41e322707b4deb79d21bd2b66b22267d913338050c6f3a1d5e224ed02f"
+        },
+        {
+          "source": "effects/RESUME.md",
+          "blob": "a01d42b3d05295438e24d7d1e43437f21bf1884c",
+          "sha256": "be08d2a8927ac47b58c3771fb266c9c5aaac1ae149f150ac94dc64229d2afabc"
+        },
+        {
+          "source": "effects/RESUME.md",
+          "blob": "a39ada209b4776b627aa30dfabe7579ad080908b",
+          "sha256": "ced2d0a6c4faeb82ee3192f24ea20d6b2d1c439717f343dfca0c1f172ad6fd7e"
+        },
+        {
+          "source": "effects/MIGRATION.md",
+          "blob": "786af6d919aad61dba829457ef4c287e1ef8d30b",
+          "sha256": "c83a35d0cadfe55c811a1cd709502bde95d6fc0cf56964a8a217b045b1f10df9"
+        },
+        {
+          "source": "effects/research-state.history-2026-10-14.json",
+          "blob": "8f06f58a2c38d3328a4f289973b1d6c5268d3888",
+          "sha256": "1ea0603c6757dfb488f42f1f32a1d15ff47d7d15758f132ee046bc450538d622"
+        },
+        {
+          "source": "effects/research-state.history-2026-10-15-pre-cube-baby.json",
+          "blob": "11ac4aebc724e98c9fae04a4ac449546372c3662",
+          "sha256": "ffba5ba190241c02967091ad8ab862559b3a25cac851d18458d70aa4c659a771"
+        },
+        {
+          "source": "effects/research-state.json",
+          "blob": "1dcb8982a69fe21a3819c1c7aa07baa584ce86d4",
+          "sha256": "60a28449789479af6ea5c9b84b253564de79dcd6e62b4244def2dce137c6ef68"
+        },
+        {
+          "source": "effects/research-state.json",
+          "blob": "222b20bb2eb4f31a2964074a3eac33449fd95e5d",
+          "sha256": "79c467fb7c8b28f9a63aa2f325644953610c9ac9f085c1b2d245eddc37d3558a"
+        },
+        {
+          "source": "effects/research-state.json",
+          "blob": "3196165d3a89bf60029c773eacdf55ffd00622f2",
+          "sha256": "7235a779e3c9159038c387ccb570cecf81ae8ce242b9efaa46a077da15216108"
+        },
+        {
+          "source": "effects/research-state.json",
+          "blob": "42f06bd0a597f23fb5fb54034f68910c35af5d44",
+          "sha256": "d2b800c29fb52c5a839d4347d0ede61c2dcbb0ef5f96683837ef797880fb802f"
+        },
+        {
+          "source": "effects/research-state.json",
+          "blob": "4baa393b3ee031258981c606c9838cc077e17684",
+          "sha256": "3b6340432da2bf16a0cf009c8feac45ab41b84650c184684d7b5dc02a3b73d2b"
+        },
+        {
+          "source": "effects/research-state.json",
+          "blob": "f70ad96fff2fbedcbcedcfc3d7d60334a8d0be1b",
+          "sha256": "abec2592363c7b9a56f216d6735e81924fcfa9f4c0bff6b609fa2842d64b2d5c"
+        },
+        {
+          "source": "effects/research-state.json",
+          "blob": "fc2426ebe4d7c08d08808bf5de70036c1e5d86c3",
+          "sha256": "c65806f3171a08c1402edb40f419ee6a7dbc0f3f218b0b4c38fb292cfa16c054"
+        }
+      ],
+      "verified_aliases": [
+        {
+          "source": "effects/OWNERSHIP.md",
+          "blob": "2f7422663c1f000c0f37cb61c2820275f7baa661",
+          "sha256": "55632de3503d8ee934641e51eb983e10c414cbcbe5e026a43310f9bd996afd49",
+          "status": "verified-registered-source-alias",
+          "covered_source": "effects/OWNERSHIP.history-2026-10-14.md"
+        },
+        {
+          "source": "effects/shopee-indonesia.md",
+          "blob": "4957df7b28c05a5c29b15f0cf31abd660e9c4fa9",
+          "sha256": "c607138ae4734f36eba079cb9c018fb20373cb3801cba948d19b926c95950422",
+          "status": "verified-registered-source-alias",
+          "covered_source": "effects/shopee-indonesia.history-2026-10-14.md"
+        },
+        {
+          "source": "effects/COVERAGE.md",
+          "blob": "2b073705fce4b062d9749266d915f532e780b95d",
+          "sha256": "96346da1322809432658c1bb0010dcb40d43f16a8770c95fdd9a1043fd784e7e",
+          "status": "verified-registered-source-alias",
+          "covered_source": "effects/COVERAGE.history-2026-10-14.md"
+        },
+        {
+          "source": "effects/research-state.json",
+          "blob": "4fac49bb0a22de75a1f5308985a110926abd1638",
+          "sha256": "c1ec68f999cab71490092d4fa6fbbf2c5b3ce7a53c51999e2760ad8e87ed3b83",
+          "status": "verified-registered-source-alias",
+          "covered_source": "effects/research-state.history-2026-10-14.json"
+        }
+      ],
+      "method": "Enumerate both old/new Git blobs across HEAD-reachable full merge history for13Markdown+3JSON paths;exact registered originals/aliases are backed by metadata verifier;current redirects independently verified;all other variants require review.",
+      "next": "Review pending historical ownership/market/coverage/navigation/JSON variants against complete typed root metadata;recover distinct facts before retiring any source. Former JSON pointers require separate exact provenance review. Preserve independent LCD/expression/general research queues.",
+      "limitations": "Exact registered-original/alias equality relies on metadata-verify; current Markdown redirects are independently checked by source-retirement verify before byte comparisons. All other HEAD-reachable variants require review, including former JSON pointers. Pending is not proven loss; no source deletion or full migration certification."
     }
   },
   "deferred_work": {

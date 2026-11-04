@@ -2413,3 +2413,11 @@ consolidation-audit-source-history:
 .PHONY: consolidation-test-source-history
 consolidation-test-source-history:
 	python3 scripts/consolidation_tools.py test-source-history
+
+.PHONY: metadata-history-audit metadata-history-test metadata-stage
+metadata-history-audit:
+	python3 scripts/metadata_consolidation.py audit-history
+metadata-history-test:
+	python3 scripts/metadata_consolidation.py test-history
+metadata-stage:
+	python3 scripts/metadata_consolidation.py stage
