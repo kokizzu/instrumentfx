@@ -380,6 +380,7 @@ Checked **2026-10-17**. Original HeadRush Pedalboard, distinct from Prime and Gi
 | Category choices | Own website headings: **52 amps,15 cabs,10 mics;17 distortion,11 dynamics/EQ,22 modulation,13 reverb/delay,11 expression**. Comparison older50amps/67FX. Own2.7 notes include2.6 additions absent from website lists; installed current totals remain unresolved. [Product][PB-P], [Comparison][PB-C], [Firmware,p.2][PB-F] |
 | Categories / website versus release-note union | Recounted2026-11-03:[own exact-model page][PB-P] lists **52 amps,15 cabs,10 mics** and **74 effects=17 distortion+11 dynamics/EQ+22 modulation+13 reverb/delay+11 expression**. Own2.7 cumulative notes,p2,document five2.6 additions absent fromthose lists:**17 TRACE ELLIOT ELF;B2 DRIVE;DIM CHORUS;ACOUSTIC PRE;PARTY VERB**. Union gives **53 amps and78 effects**,with category choices18/12/23/14/11;not a verified installed census,concurrency orunique-DSP-engine count. [Own release notes][PB-F] |
 | Synth / pitch / special distinctions | The listed **SMART HARM,DETUNE,OCTAVES/OCTAVES UP,DROP TUNE,WHAM,HARM,CHORD WHAM** establish named pitch choices,not blanket polyphonic tracking. **RING MOD,8-BIT CRUSH,HOLD,RESO DELAY,FEEDBACK,TIME WARP** are special-processing choices. Acoustic Sim differs from2.6 Acoustic Pre. No dedicated oscillator synth isestablished bythese sources;Prime’s Hybrid Synth isnot transferred. [Own product][PB-P];[own history][PB-F] |
+| Routing / scene recall | [Own2.1.2 scene andoutput limits](#pedalboard--scene-parameter-recall-and-alternate-output-boundaries): scenes can load model presets;XLR/quarter-inch/phones independently selectRig/Alt. RigInput Alt bypasses ToAmpGain;globalEXPcoverage unverified. |
 | Factory / user memory | **270 factory presets**; total user storage and factory-filled versus writable capacity **?**. File backup Mac/PC. [FAQ][PB-Q] |
 | Synth / acoustic simulation | Acoustic Sim listed; independent synth engine **?**. Bass amps include66 Flip Bass/69 Blue Line Bass; these are models, not ownership proof. [Product][PB-P] |
 | IR / NAM / captures | WAV/AIFF imports,up to192kHz/32-bit source files; storage capacity **?**. Firmware2.6 adds **two IRs in one block**. Native/converted NAM and proprietary capture loading **?**, not inferred from Prime/Core. [FAQ][PB-Q], [Firmware,p.2][PB-F] |
@@ -435,6 +436,17 @@ AUX bypasses modeling and both Master/Phones volume knobs. The separate AUX cont
 Checked **2026-11-04** in the [original manufacturer User Guide2.1.2,printedpp24,35](https://cdn.inmusicbrands.com/HeadRush/pedalboard/v2_1_2-0520/Pedalboard-User-Guide-v2_1_2.pdf). Saving recalls **A/B selection**, not proven physical pedal position. Classic assigns one target per bank and bypasses the previous target on toe change. Advanced permits four per bank and leaves the previous targets active at maximum. Classic-assigned parameters are locked elsewhere; Advanced ones remain editable. Range endpoints use percentages of each target’s range.
 
 With **External Pedal On**, internal A and external B operate separately: Classic toe toggles activation; Advanced disables toe switching. Off disables the external input. Thus the generic A/B-switch description has this explicit configuration exception. This does not establish global volume assignment, numeric volume endpoints or headphone/tail/loop coverage. Current2.7 behavior and actual pedal wiring remain untested. No files downloaded ordevice operated.
+
+### Pedalboard — scene parameter recall and alternate-output boundaries
+
+Checked **2026-11-04**, [own manufacturer guide2.1.2, printedpp20,23,32](https://cdn.inmusicbrands.com/HeadRush/pedalboard/v2_1_2-0520/Pedalboard-User-Guide-v2_1_2.pdf);current installed behavior untested.
+
+- **Scenes:** each model can be On,Off orNo Change. A scene can also load a model preset, recalling its parameters;scenes therefore are not limited to bypass changes. This doesnot establish arbitrary model replacement oradditional processing slots.
+- **Output control:** Rig Vol spans−60…+36dB;To Amp Gain spans−60…+12dB anddoesnot control Alternate Output whenits source isRig Input. These are parameter ranges,not verified pedal endpoints ormute.
+- **Routing:** XLR,quarter-inch andPhones independently selectRig orAlt. The13 listed Alt taps span input,amp,cab andIR positions,including second-model variants;defaultAmp Input. Early taps can omit later processing. This isnot proof ofglobal expression attenuation across outputs.
+
+Preserve the separately documented AUX volume exception,USB-mode output restrictions andfirmware-qualified tail limits. No device,software orsignal measurement.
+
 
 ## Prime
 
