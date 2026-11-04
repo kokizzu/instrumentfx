@@ -165987,5 +165987,21 @@
     ],
     "next": "Continue exact Stomp practice/capture gaps and qualified offers; preserve LCD-first priority, GT-Pro, expression and independent GP-200JR→Prime→GE300 queue",
     "active_inventory_unchanged": 402
+  },
+  "ampero_stomp_practice_capture_20261105": {
+    "checked": "2026-11-05",
+    "model": "Hotone::Ampero II Stomp MP-300",
+    "canonical": "brand/HOTONE.md#ampero-ii-stomp--looper-placement-and-capture-boundaries",
+    "source": "https://www.scribd.com/document/1074310624/Ampero-II-Stomp-Online-Manual-EN-Firmware-V2-5-0-1785405982280",
+    "revision": "Original V2.5.0 body, printed22–25,72–77",
+    "finding": "Pre/Post destructive change, A/B retention, drum tempo/sync, Sound Clone exclusions and external mic preamp, global EQ USB exclusion",
+    "remaining": [
+      "Drum-pattern list/count",
+      "Looper power-off retention",
+      "Global expression assignment and signal coverage",
+      "Current condition-qualified Shopee offers"
+    ],
+    "next": "Return to individual-footswitch-display manufacturer/market gaps; retain Stomp remaining questions, GT-Pro, expression and general GP-200JR→Prime→GE300 queues",
+    "active_inventory_unchanged": 402
   }
 }
