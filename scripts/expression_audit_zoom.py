@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(neural): preserve conflicting Nano Cortex save hold times'
+        message='research(line6): establish POD 2.0 controls and writable memory'
     print(git('commit','-m',message))

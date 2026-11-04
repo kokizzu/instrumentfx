@@ -167333,5 +167333,27 @@
     "global_expression_volume": "Still unverified;no new cross-preset guarantee",
     "next": "Continue individual footswitch-display gaps andqualified Shopee discovery;preserve independent expression,GT-Pro andGP-200JR->Prime->GE300 queues",
     "inventory_unchanged": 402
+  },
+  "pod20_controls_memory_20261105": {
+    "checked_date": "2026-11-05",
+    "source": "https://line6.com/data/6/0a060b316ac34f0593b343dc6/application/pdf/POD%202.0%20Pilot%27s%20Guide%20-%20English%20%28%20Rev%20B%20%29.pdf",
+    "revision": "RevB part40-00-0206 PDFpp4–6;numbered1–22",
+    "canonical": "brand/LINE6.md#pod-20--textual-control-census-and-writable-memory-scope",
+    "controls": {
+      "rotary": 10,
+      "footswitch": 0,
+      "pushbuttons": 8,
+      "basis": "Text-derived;power/AIR switches separate;no visual inspection"
+    },
+    "memory": "36 writable locations;initial factory filling unchecked",
+    "remaining": [
+      "Display characteristics",
+      "Dimensions/mass/power",
+      "Full processing census andimport capabilities",
+      "Qualified exact Shopeehardware",
+      "Global controller-volume endpoints/recall/output coverage"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Keep POD2.0 partial outsideactive inventory;continue requested individual-footdisplay models,qualified Shopee discovery andindependentGP-200JR->Prime->GE300,GT-Pro andexpression queues."
   }
 }

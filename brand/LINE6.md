@@ -2240,7 +2240,7 @@ The [manufacturer Pilot’s Handbook, Revision B](https://line6.com/data/6/0a060
 
 The hand Output Level controls overall/headphone volume and is unsaved with presets; this does not establish controller-driven global volume. Hand Up/Down selects 36 locations in nine banks of four, not onboard foot-operated navigation. Reverb and selectable effects/combinations are documented; simultaneous architecture remains incompletely checked. Line 6 Edit is a historical Windows/Mac editor, not proof of current OS support.
 
-Built-in treadle absent; separate K/F/B census, display characteristics, unit dimensions/mass, power, factory/user memory split, full effects census, synth/acoustic/import capabilities and qualified used/new IDR offers remain unresolved. Footprint approval, expression range/position recall, bypass, dry/tail/looper coverage and controller toe behavior are unverified.
+Built-in treadle absent;[textual K/F/B and writable-memory follow-up](#pod-20--textual-control-census-and-writable-memory-scope) resolves those specific gaps. Display characteristics,unit dimensions/mass,power,factory-filled census,full effects census,synth/acoustic/import capabilities andqualified used/new IDR offers remain unresolved. Footprint approval, expression range/position recall, bypass, dry/tail/looper coverage and controller toe behavior are unverified.
 
 [Manufacturer FAQ](https://line6.com/support/page/kb/legacy-products/pod/pod-20-podxt-family-pocket-pod-floorpods/original-pod-amp-pod-20-faqs-r497/), originally July28,2008, corroborates the socket-label generations and says MIDI Thru is absent. This is not an instruction to install software, update hardware or open the chassis. Exact Shopee Indonesia searches returned no qualified hardware offer; no price, stock, condition, seller/item, bundle, warranty, voucher or region is inferred. Complete the profile before active admission.
 
@@ -2259,6 +2259,19 @@ Checked **2026-11-03**. The manufacturer’s **Pilot’s Handbook for version 2.
 Printed **7•4–5**: tuner mode bypasses amp/effects processing, while the Floor Board volume pedal still controls level. Low-gain amp selection places volume before the preamp with normal taper; high-gain selection changes taper and moves it after the preamp. SoundDiver can alter position/taper per amp model. This resolves the documented tuner-bypass case only; other bypass routes, headphone/tail/loop attenuation and held-position recall remain unverified.
 
 The [manufacturer MIDI CC reference](https://line6.com/data/l/0a060072c8d347743de40453f/application/pdf/MIDI%20Continuous%20Controller%20Reference%20%28Rev%20C%29%20-%20English.pdf) is headed **March 2010**; its URL says Rev C. In the POD 2.0 column, **CC7 (0–127)** transmits/receives real-time Volume Pedal and is explicitly unsaved with a channel/setup. **CC46 (0–127)** receives Volume Pedal Minimum; **CC47** receives pre/post selection: 0–63 pre-amp, 64–127 post-amp. MIDI integers are not dB endpoints, measured attenuation or proof of controller-position recall. MIDI volume is separate from direct analog EXP compatibility. No device or MIDI test was performed.
+
+### POD 2.0 — textual control census and writable-memory scope
+
+Checked **2026-11-05**, [manufacturer Pilot’s Handbook RevB,part40-00-0206,PDFpp4–6,Controls & Connections1–22](https://line6.com/data/6/0a060b316ac34f0593b343dc6/application/pdf/POD%202.0%20Pilot%27s%20Guide%20-%20English%20%28%20Rev%20B%20%29.pdf). Original text,not visual panel inspection orinstalled-firmware verification.
+
+| Field | Verified finding / limitation |
+|---|---|
+| Controls / K-F-B | **10/0/8**,derived from the numbered descriptions. Rotaries:Output Level,Amp Models,Drive,Bass,Middle,Treble,Chan Vol,Reverb,Effect Tweak,Effects. Buttons:Manual,Up,Down,Tuner,Noise Gate,Tap,Save,MIDI. Power andA.I.R. switches are separate;TAP secondary functions add no controls. |
+| Memory / writable locations | Save replaces the chosen A–D location in banks1–9,including storing Manual-mode settings. Thus36 editable locations,not a separate36-user-plus36-factory pool. Initial factory-filled census remains unchecked. |
+| Processing / Reverb | Spring orroom,selected byAmp Model;not two additional independently assignable blocks. |
+| Routing / A.I.R. | AMP defeats speaker/microphone/room processing;DIRECT retains it. This is not amp/effect bypass,user-IR import orglobal pedal-volume assignment. |
+
+Screen technology/diagonal,dimensions/mass,power,full processing census andqualified Shopee hardware remain unresolved. Partial lead stays outside active402;older controller-generation andexpression qualifications preserved.
 
 ## POD Express Bass
 
