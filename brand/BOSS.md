@@ -2568,6 +2568,14 @@ Checked **2026-11-04** against indexed [original manufacturer owner manual,print
 
 This is monitoring enable/disable,not expression-volume assignment orproof ofanalog-pedal attenuation ofevery source. The p90 extract doesnot establish power-cycle recall;do not inherit GT-10/GT-100 reset behavior. Existing USB-mode channel counts,globalFV precedence andcurrent-host compatibility remain unresolved. No software installed ordevice operated.
 
+### GT-Pro — partial original-panel button census
+
+Checked **2026-11-04**, [manufacturer-authored English owner manual reproduction,printedp12](https://roland.manymanuals.com/supplementary-music-equipment/gt-pro/owners-manual-5239/12), exact GT-PRO,164-page edition. Original numbered control descriptions only;no visual inspection orhost advice.
+
+This page establishes **24 separate pushbuttons**:14 numbered items6–19 (COMP,OS/DS,WAH,EQ,DELAY,CHORUS,REVERB,FX-1,FX-2,AMP CTL1/2,PRE LOOP,LOOP1/2,ASSIGN),two PARAMETER buttons,and eight items21–28 (OUTPUT SELECT,SYSTEM,EXIT,WRITE,SHIFT,TUNER/BYPASS,NAME/FX CHAIN,MASTER). The AMP CTL pair counts as two. **PATCH LEVEL is a rotary;POWER is a separate switch**,not included in24.
+
+This is a **lower bound,not the complete front-panel button total**: page11 contains earlier controls andwas inaccessible. SHIFT changes PATCH/VALUE adjustments to increments of ten;holding one PARAMETER button while pressing the other jumps between main parameters,or to the first/last where there are few. These modifier actions do not add physical controls. No complete rotary census ordisplay measurement inferred;other USB-mode,globalFV andqualifiedIDR gaps remain.
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.
