@@ -166282,5 +166282,24 @@
     ],
     "next": "Independent GP-200JR→Prime→GE300 follow-up cycle published; continue unresolved requested footswitch-display models and fresh exact Shopee discovery, preserving expression-volume and GT-Pro queues",
     "active_inventory_unchanged": 402
+  },
+  "hxe_signal_flow_bypass_scope_20261105": {
+    "checked": "2026-11-05",
+    "model": "Line 6::HX Effects",
+    "canonical": "brand/LINE6.md#hx-effects--signal-flow-bypass-versus-grouped-stomp-control",
+    "source": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "revision": "3.80 RevD printed36, copyright2024",
+    "findings": [
+      "Signal Flow FS2/3 affects selected block only, not all shared Stomp assignments",
+      "Stomp shared switches can alternate opposing block states; touch cycles parameters",
+      "Bypassed Split acts as Y with centered balances; Mixer cannot bypass"
+    ],
+    "remaining": [
+      "Installed behavior and exact numeric display properties",
+      "Heavy-model per-path/per-preset source conflict",
+      "Global analog-volume coverage and qualified current Shopee hardware"
+    ],
+    "next": "Continue remaining requested separate-screen model gaps; fresh searches repeated known offers/accessories. Preserve GT-Pro, expression-volume and independent general queues",
+    "active_inventory_unchanged": 402
   }
 }

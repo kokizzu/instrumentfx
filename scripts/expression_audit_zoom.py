@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(mooer): preserve GE300 regional USB driver mismatch'
+        message='research(line6): distinguish HX block and grouped bypass controls'
     print(git('commit','-m',message))
