@@ -167777,5 +167777,27 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue remaining requestedindividualdisplay fields; independent GP-200JR→Prime→GE300,GT-Pro,expression andconsolidationqueues preserved"
+  },
+  "prime_bluetooth_gain_destinations_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/HEADRUSH.md#prime--bluetooth-input-gain-and-output-destination-scope",
+    "sources": [
+      "https://cdn.inmusicbrands.com/Software/SGEE/5/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.0.0.pdf",
+      "https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Prime%20Firmware%20Update%20Instructions%20v5.2.0.pdf"
+    ],
+    "revision": "Guide5.0 §4.22.3 indexed original; cumulative5.2 history4.1.1 introduction",
+    "findings": [
+      "Bluetooth inputgain−60…+12dB; finiteattenuation notdocumentedmute",
+      "XLR/quarter-inch/Phones routingchoices; combinationsnotestablished",
+      "Distinct fromAUX/USB andrig/pedalvolume"
+    ],
+    "remaining": [
+      "Current5.2 andsavedgain/destinationrecall",
+      "Master/Phones/EXP Bluetoothcoverage",
+      "OLED physicaldetails andqualifiedShopee stock",
+      "Numerical rig/IR/MIDIpreset capacities"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "OriginalGE300 next independentcycle; individualfootdisplay priority,GP-200JR,GT-Pro,expression andconsolidationqueues preserved"
   }
 }
