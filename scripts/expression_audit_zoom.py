@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(morningstar): distinguish MC6 PRO backup and reset scopes'
+        message='research(fractal): qualify FC-6 Mark II regional power evidence'
     print(git('commit','-m',message))

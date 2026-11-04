@@ -161159,5 +161159,26 @@
     "market": "Targetedsearch returned recorded Rp6250000 waitlisted SweeLee andforeignShopee;no qualified IndonesianShopee offer orcurrencyconversion.",
     "active_inventory_unchanged": 402,
     "next": "Continue requested separate-footdisplay hardware/specification gaps andbroader eligible inventory;preserve GT-Pro/expression queues."
+  },
+  "fc6_mkii_regional_power_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "Fractal Audio FC-6 Mark II controller",
+    "sources": [
+      "https://www.okada-web.com/fractal-audio-systems/fc-12-fc-6-foot-controller",
+      "https://www.fractalaudio.com/dealers/",
+      "https://www.fractalaudio.com/fc-controllers/"
+    ],
+    "canonical": "brand/FRACTAL-AUDIO.md#fc-6-mark-ii--regional-power-and-pedal-evidence",
+    "revision": "Current identified Japanese distributor explicitly listsMarkII;maker electrical confirmation remains pending",
+    "finding": "Regional9–12V/1000mA/2.1mmcentre-negative/≤12W;center-wiper10–100kΩ recommendation. Originalmanual2.5mm discrepancy preserved withoutinferringrevisionchange.",
+    "remaining": [
+      "Manufacturer MarkII electrical/connector confirmation",
+      "Pedal tip/ring pinout andactualM-VAVEwiring",
+      "USB/battery operation",
+      "Qualified exactShopee hardware"
+    ],
+    "market": "Targeted IndonesianShopee query yieldedforeignThailandcontroller,notqualifiedIDRoffer;no currencyconversion.",
+    "active_inventory_unchanged": 402,
+    "next": "Reconcile FC-12 MarkII separately atnextmodelcheckpoint;continue requesteddisplaypriority andpreserve independentqueues."
   }
 }

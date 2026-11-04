@@ -278,6 +278,16 @@ Checked **2026-10-31**, [manufacturer FC-controller page](https://www.fractalaud
 The page’supto-four-controller chain claim is a family maximum,not proof of every host’s limit;existing FM3 evidence permits two. No exact Shopee hardware item surfaced;condition-specific IDR remains unknown. No downloads ordevice operation.
 
 
+### FC-6 Mark II — regional power and pedal evidence
+
+Checked **2026-11-04**. Fractal’s [international dealer directory](https://www.fractalaudio.com/dealers/) identifies **Okada International for Japan**. Its [FC page](https://www.okada-web.com/fractal-audio-systems/fc-12-fc-6-foot-controller) explicitly names FC-6 MARK II, including its283×233×88mm/3kg row. These are identified regional distributor specifications, not direct manufacturer electrical confirmation or measurements.
+
+The specification table gives **9–12V DC,1,000mA,center-negative,2.1mm connector;≤12W**. Its pedal row recommends **center-wiper10–100kΩ**,with four quarter-inch TRS pedal inputs. Center-wiper wording doesnot establish tip/ring wiring oractual M-VAVE compatibility.
+
+The retained original-controller manual instead lists a **2.5mm** power connector,and its own9V versus9–12V discrepancy remains. A revision change,regional difference ordocumentation error is not established;do not choose a replacement plug fromthese conflicting sources alone. The current maker page confirms first-controller FASLINKII power/downstream adapters butdoesnot settle these ratings.
+
+Direct manufacturer MarkII electrical/connector confirmation,actual draw,USB/battery operation,pedal pinout andqualified Indonesian hardware remain open. No adapter,pedal,download ordevice operation;controller stays outsideactive audio counts.
+
 ### FC-12 Mark II — body and internal-firmware scope
 
 Checked **2026-10-31**;controller only,outside active audio counts.
