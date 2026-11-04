@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fractal): qualify original FC-12 mirroring and host backups'
+        message='research(fractal): enumerate FM9 original flanger types and limits'
     print(git('commit','-m',message))
