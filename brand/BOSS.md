@@ -1634,7 +1634,7 @@ Selected 2026-10-28 from the complete dated evidence below; no new hardware test
 | Synth / acoustic | **AC.G SIM acoustic simulation** documented in the original2020 CORE parameter guide,p13;AC RESO separately enhances an acoustic-electric pickup. Dedicated tracking synth/current2.02 algorithm census remain unverified. [Exact-model guide](https://files.kraftmusic.com/media/ownersmanual/Boss_GT-1000CORE_Parameter_Guide.pdf). |
 | IR / NAM / capture | **16 user WAV IR slots**. Shared Tone Studio guide, explicitly covering CORE: **44.1/48/96kHz,16/24-bit linear** source files, converted before loading. Length/channel limits and current app equivalence unresolved; native/converted NAM and capture import unestablished. [Original-document applicability and librarian scope](#gt-1000core--core-applicable-tone-studio-ir-formats-and-library-boundaries). |
 | Audio / controller I/O | Stereo quarter-inch input/output; L output shared with phones; two mono effects loops; two shared CTL/EXP; 3.5 mm TRS MIDI IN/OUT; micro-USB. |
-| Power | Supplied DC adapter; 670 mA draw. Exact voltage/polarity, battery and USB bus operation remain unverified in this record. |
+| Power | 670 mA unit draw. Roland’s 2025-07-15 exact-model adapter table maps GT-1000CORE to PSB-1U: 9 V DC, 2 A adapter capacity; 100–240 V AC, 50/60 Hz input. Capacity is not unit draw. Polarity, barrel dimensions, battery and USB bus operation remain unverified. |
 | Editor / USB | BOSS Tone Studio Windows/macOS; drivers separate. USB audio/reamping documented, exact channel/mode limits unresolved. |
 | Editor / mobile support boundary | [Roland CORE support](https://support.roland.com/hc/en-us/articles/360054597651-GT-1000CORE-Can-I-edit-GT-1000CORE-settings-from-a-mobile-device), updated2026-05-20, checked2026-11-03, states no Bluetooth MIDI and no mobile editing/control support. This manufacturer support statement is not a test of every third-party wired host/MIDI workaround or an absence-of-USB-MIDI claim. |
 | I/O / SEND setting version floor | [Roland exact-model support](https://support.roland.com/hc/en-us/articles/360054525211-GT-1000CORE-SUB-OUT-AUX-MUTE-is-not-displayed-in-the-SEND1-2-SETTING) says **SUB OUT,AUX MUTE** in SEND1/2 settings requires **system1.02 or later**. Article updated2026-05-20; checked2026-11-03. This is menu availability, not proof of global expression attenuation of AUX, headphones, tails or recorded loops. |
@@ -1704,7 +1704,7 @@ Checked2026-11-03 against the [original manufacturer parameter guide,printedp13]
 | Synth / acoustic functions | Exact algorithms ? |
 | User IR / NAM | 16WAV slots;NAM not established |
 | Audio / controller ports | Stereo1/4-inch in/out;L output shared with phones;2mono FX loops;2CTL/EXP;3.5mmTRS MIDI IN/OUT;microUSB |
-| Power and USB operation | Supplied DC adapter;670mA draw;USB bus operation not listed |
+| Power and USB operation | 670 mA draw; exact-model PSB-1U mapping establishes 9 V DC and 2 A adapter capacity, not 2 A unit draw. Polarity and USB bus operation unverified. |
 | Configuration | ToneStudio Windows/macOS |
 | Additional features | 96kHz;serial/parallel;USB audio/reamp;38smono/19sstereo looper;documented fast switching/carryover |
 | Follow-up commit | `d6cd8de524a2e8770d7b5aeb7fcdd244593f71d2` |
@@ -1839,6 +1839,10 @@ The software library limits above are separate from hardware memory. The IR Load
 | Simultaneous processing qualification | FX1–FX3 share selectable inventory; PEDAL FX and MASTER DELAY are separate blocks. Voice/channel counts do not prove tracking polyphony. Eng03 is a document revision, not proof of latest/installed firmware. |
 
 [Four-category comparison](../CREATIVE-EFFECTS.md). Owner-confirmed ownership; no hardware tracking or latency test.
+
+### GT-1000CORE — exact-model adapter mapping
+
+Checked **2026-11-04**: [Roland/BOSS AC Adaptor Information, updated 2025-07-15](https://static.roland.com/assets/media/pdf/roland_ac_adaptor_information.pdf?lang=nl-NL), PDF p3, explicitly maps **GT-1000CORE → PSB-1U**. Its adapter specification on PDF p1 gives **9.0 V DC, 2.0 A, 18 W**, with **100–240 V AC, 50/60 Hz** input. These are adapter ratings; the retained manufacturer device draw is **670 mA**. This closes the earlier voltage gap without borrowing a sibling model’s supply. Polarity, connector dimensions and the identity of an individual seller’s bundled adapter remain unverified; the table does not establish battery or USB-powered operation. Earlier dated unresolved notes remain historical.
 
 ## GT-Pro
 

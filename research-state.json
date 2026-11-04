@@ -160525,5 +160525,22 @@
     "scope": "App metadata and publisher history only; no physical LCD specification or device/software test.",
     "active_inventory_unchanged": 402,
     "next": "Continue requested separate-switch-display model gaps; preserve unresolved Japan iOS documentation, exact app/desktop build equivalence, hardware screen specifications and qualified Shopee stock. Independent GT-Pro/expression queues unchanged."
+  },
+  "gt1000core_adapter_mapping_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://static.roland.com/assets/media/pdf/roland_ac_adaptor_information.pdf?lang=nl-NL",
+    "revision": "2025-07-15",
+    "model_mapping_page": 3,
+    "adapter_spec_page": 1,
+    "adapter": "PSB-1U",
+    "output": "9.0 V DC / 2.0 A / 18 W adapter rating; unit draw remains 670 mA",
+    "input": "100–240 V AC, 50/60 Hz",
+    "unresolved": [
+      "Polarity and barrel dimensions",
+      "Actual seller bundled supply",
+      "Battery and USB bus operation",
+      "Current parameter-guide landing page timed out; no new firmware equivalence established"
+    ],
+    "inventory_membership_changed": false
   }
 }

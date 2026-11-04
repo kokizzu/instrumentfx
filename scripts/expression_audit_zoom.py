@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fender): reconcile Pro Control store and platform requirements'
+        message='research(boss): verify exact GT-1000CORE adapter voltage mapping'
     print(git('commit','-m',message))
