@@ -4545,6 +4545,13 @@ Checked **2026-11-03**, [manufacturer shared G5n/G3n/G3Xn effect list](https://z
 
 Retained Slicer,LoopRoll,Bomber andpedal lo-fi choices are alternatives within existing DSP/slot limits. Actual tracking quality,current installed content andqualified stock remain unverified. No files downloaded ordevice operated.
 
+### G5n — additional sold-out Sleman hardware offer
+
+| Field | Evidence / qualification |
+|---|---|
+| IDR / sold-out exact hardware, 2026-11-04 | **Rp3.150.000**, [GeandPedalStore, shop185899831/item45800379524](https://shopee.co.id/Zoom-G5N-Multieffects-Processor-i.185899831.45800379524), **Kab. Sleman**. Search index identifies Zoom G5N Multieffects Processor, two photographs and **Habis**; two-month-old crawl, delivery27–29August is stale. Direct reopening returned cache miss. Condition, selected variation, working state, accessories/adapter, bundle, warranty, authenticity, shipping/tax, voucher and checkout remain unverified. Historical sold-out asking evidence only; not a new/used range, stock guarantee or lower bound. Seller activity/ratings do not establish those facts. Older independent offers remain unchanged. |
+
+
 ## G6
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.

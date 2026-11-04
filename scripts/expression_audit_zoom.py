@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='docs(zoom): correct 4040 global minimum-volume scope'
+        message='research(zoom): preserve exact sold-out G5n Sleman offer'
     print(git('commit','-m',message))
