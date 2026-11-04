@@ -947,6 +947,16 @@ Lock Screen suppresses normal touchscreen editing and shows the current rig name
 The guide recommends **800×400-pixel artwork**, automatically scaled to that size. It accepts **PNG,BMP,JPG orJPEG** named **LockScreenLogo** in the device-drive root via USB Transfer. This is an image-size recommendation, **not a published main-panel pixel resolution**, OLED specification or separate display count. No image was transferred or device operated; actual panel resolution, OLED dimensions and current firmware behavior remain unresolved.
 
 
+### Prime — BBD delay revision and block-mix phase control
+
+Checked **2026-11-05**, [manufacturer cumulative Prime5.2.0 release notes,October2026,printedp4](https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Prime%20Firmware%20Update%20Instructions%20v5.2.0.pdf). These changes are listed under **5.1.0**,not introduced by5.2 orverified onan installed unit.
+
+- **BBD Delay Mode:** CLASSIC retains5.0-and-earlier behavior. MOD addresses level consistency when engaging/bypassing,the relative level ofrepeats,andthe usable Feedback response. This is a mode within BBD Delay,not another simultaneous block,new synth engine ormeasured analog fidelity. Existing installed-library qualifications remain.
+- **Phase Invert** is added tothe Advanced Block Edit page toaddress cancellation when using **Block Mix** andother configurations. It is distinct fromthe external-amplifier switching-polarity setting anddoesnot establish automatic phase alignment orfreedom fromlatency.
+- A **Gain Reduction Meter** is added toall effects inthe Compressor category. It visualizes compression;it doesnot addanother compressor slot ornew physical display.
+
+No audio/device test,download ornew condition-qualified Shopee offer. General queue continues withoriginalGE300;retain separate OLED dimensions,rig/IR capacity andglobalexpression coverage gaps.
+
 ## VX5
 
 <!-- comparison evidence begins -->

@@ -172,3 +172,5 @@ This index reuses existing canonical evidence and its original revision/date qua
 - H90: PolySynth introduction is verified at firmware1.6.11 and PolyFlex at1.5.2 ([canonical release evidence](brand/EVENTIDE.md#h90)); exact calendar dates for those releases and1.12.5 remain unverified.
 - B1on’s undocumented synth/pitch chord support and GM-800 audio-MFX polyphony/GK Audio effects coverage stay unresolved. GE300 Intelligent Harmony is explicitly single-note in Chinese V3.0.1 notes; regional firmware/date differences remain qualified in its canonical record.
 - MG-300 MKII Harmonist/Detune illustration content, ranges and note handling need an inspectable manufacturer image or exact-model parameter list; original MG-300 Pitch Bender is not substituted as evidence.
+
+HeadRush Prime [BBD Delay5.1 modes andblock-mix Phase Invert](brand/HEADRUSH.md#prime--bbd-delay-revision-and-block-mix-phase-control) qualify processing behavior without adding algorithms orsimultaneous slots. Compressor reduction metering isseparate fromphysical displays.

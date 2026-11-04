@@ -167227,5 +167227,26 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue other requested footswitch-display model gaps andGP200JR→Prime→GE300 queue;defer repeatedAXOMapp/manual/specclaims;preserve GT-Pro andconsolidationqueues"
+  },
+  "prime_bbd_phase_meter_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/HEADRUSH.md#prime--bbd-delay-revision-and-block-mix-phase-control",
+    "source": "https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Prime%20Firmware%20Update%20Instructions%20v5.2.0.pdf",
+    "revision": "Cumulative5.2October2026p4,changesunder5.1.0",
+    "findings": [
+      "BBDClassicpre5.1behaviorversusModlevel/feedbackchanges",
+      "AdvancedBlockEditPhaseInvertforBlockMixcancellation",
+      "CompressoreffectsGainReductionMeter"
+    ],
+    "qualification": "Notnewblocks/physicaldisplays;installedbehaviorunverified",
+    "market": "FreshShopeesearchresurfacedexistingHOLY/ROCKPIZZ/usedHabisoffers;nonewcondition/stockevidence",
+    "remaining": [
+      "Rig/IRcapacity",
+      "MiniOLEDphysicalspecs",
+      "Globalexpressioncoverage",
+      "QualifiedShopeeoffers"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "OriginalMOOERGE300 nextinindependent GP200JR→Prime→GE300queue;preserve requesteddisplaypriority,GT-Pro,expressionandconsolidationqueues"
   }
 }
