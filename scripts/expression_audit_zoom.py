@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(boss): document GP-10 separate effects and volume routing'
+        message='research(headrush): qualify Prime main and FX-loop level settings'
     print(git('commit','-m',message))
