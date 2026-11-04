@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(boss): verify GP-10 physical control counts from service notes'
+        message='research(boss): screen compact VG-800 with exact Shopee hardware offer'
     print(git('commit','-m',message))

@@ -167006,5 +167006,45 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Deferunresolved GP10 physical/marketfields pendingnewprimarysource;continueindividualdisplaypriority andremainingcatalogue/expression/consolidation,independentgeneralqueue preserved"
+  },
+  "boss_vg800_partial_discovery_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/BOSS.md#vg-800--partial-shopee-and-no-treadle-discovery",
+    "status": "Partialoutsideactive402;ownershipnotinferred",
+    "sources": [
+      "https://www.boss.info/global/products/vg-800/",
+      "https://static.roland.com/assets/media/pdf/VG-800_eng01_W.pdf"
+    ],
+    "manual_revision": "QuickStarteng01copyright2024",
+    "footprint": "173W135Dfits;63H/65Hwithfeet920g",
+    "controls": {
+      "rotaries": 7,
+      "footswitches": 3,
+      "buttons": 6
+    },
+    "expression": "2sharedTRS,no treadle;globalvolume unknown;sharedLPhonesRempty;onboarddownup",
+    "offer": {
+      "url": "https://shopee.co.id/BOSS-VG-800-V-Guitar-Processor-i.341882414.26538695681",
+      "shop": "341882414",
+      "item": "26538695681",
+      "seller": "Boss Official Shop",
+      "region": "KotaTangerangSelatan",
+      "idr": 13090000,
+      "cache": "lastmonth",
+      "condition": "unknown",
+      "stock": "unverified",
+      "bundle": "unverified",
+      "qualification": "Crossed15400000notvalidatedsavings;no inferredused/new classification"
+    },
+    "remaining": [
+      "Exact named algorithms/concurrency",
+      "GlobalEXP/range/routing/recall/coverage",
+      "IR/NAM/formats",
+      "Power voltage/polarity",
+      "Factory occupancy",
+      "Currentfirmware/software",
+      "Qualifiednewusedstock"
+    ],
+    "next": "Prioritize VG800 exactglobalvolume andprofileevidence ascompactShopeelead;preserve individualLCDpriority,GP200JR→Prime→GE300,GT-Pro andconsolidationqueues"
   }
 }

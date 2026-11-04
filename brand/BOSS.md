@@ -5805,3 +5805,33 @@ Checked **2026-11-04**, [manufacturer-authored manual reproduction,printed pp12�
 | External preset down/up | SYSTEM CONTROL 1/2 offers **EFFECTS ON/OFF, TUNER, NUMBER DOWN, NUMBER UP, ASSIGNABLE**. Down/up requires momentary switches. Two switches use PCS-31; one switch controls CONTROL 1. They consume the same socket used by EXP, so simultaneous independent analog expression plus local two-switch navigation is not established. No onboard down/up footswitches. |
 
 This supersedes the earlier pending external-navigation check. Display physical specifications, independent L/R rotary count, connector details, global expression assignment/coverage and condition-qualified Indonesian hardware remain unresolved. No local download, switch/pedal wiring or device operation.
+
+## VG-800 — partial Shopee and no-treadle discovery
+
+Checked **2026-11-05**. Manufacturer-confirmed guitar/bass multi-effects;**partial,outside active402**,ownership not inferred. Not GP-10 orGM-800.
+
+[Exact manufacturer product/specification](https://www.boss.info/global/products/vg-800/):
+
+| Field | Exact-model finding / limit |
+|---|---|
+| Instrument paths |Normal guitar/bass input supports amps/effects;instrument modeling requires compatible Serial GK divided pickup. Quarter-inch GK isnot ordinary analog audio. |
+| Creative |GR-300 synth modeling;VIO Guitar/Bass bowed-attack tones;acoustic/electric/bass,banjo/sitar modeling. Harmony explicitly accepts single notes/chords;this doesnot certify every synth algorithm’s polyphony. |
+| Processing / memory |150+effect types,not simultaneous count;150guitar+150bass memories. Factory occupancy/category census unresolved. |
+| Display |256×80 graphic LCD;diagonal/color/touch unresolved;no individual switch-display claim. |
+| Dimensions / power |173W×135D×63H mm,65H withfeet;920g excludingadapter.690mA;PSB-1U supplied. Voltage/polarity,battery/USB power unresolved. |
+| Formats / software |Speaker IR import viaTONE STUDIO Windows/macOS;USB audio/MIDI,re-guitar/re-bass,pitch-to-MIDI. NAM,capture,IRlimits,current OS/driver requirements unresolved. |
+
+[Manufacturer Quick Start eng01,©2024,pp2–3](https://static.roland.com/assets/media/pdf/VG-800_eng01_W.pdf):
+
+| Hardware / live field | Finding / boundary |
+|---|---|
+| K/F/B |**7/3/6**,textinventory:Output Level+1–5+SELECT;Down/Up/CTL1;INST/EFFECTS/MENU/EXIT+twoPAGE. No built-in treadle in completepanel inventory. |
+| External controls |Two sharedTRS EXP/switch sockets;no separate toe jack listed. Global volume scope,wiring,endpoints/recall andbypass/tail/loop coverage unverified. |
+| Ports |SerialGK In/Out;GuitarInput;TRS Send/Return;L/PHONES,R/MONO outputs;twoCTL/EXP;USB-C;mini-TRS MIDIIn/Out;DCIn. |
+| Phones / preset± |Shared **L/PHONES**,leaveR/MONO empty forphones. Dedicated onboardDown/Up changes memories. DC insertion/removal switches power. |
+
+### VG-800 — qualified Shopee observation
+
+[Shopee shop341882414/item26538695681](https://shopee.co.id/BOSS-VG-800-V-Guitar-Processor-i.341882414.26538695681),**Boss Official Shop**,KotaTangerangSelatan: **Rp13,090,000**,checked2026-11-05 frommonth-oldcache. CrossedRp15,400,000/15% isnot validated savings. Hardware title identified;condition,new/used classification,bundle,GK pickup,adapter/importregion,warranty,voucher,shipping/checkout andcurrent stock unverified. Relative delivery andseller activity arecached,not live-stock proof. Noqualified usedoffer.
+
+Complete algorithms/concurrency,globalEXP,looper/drums/scenes,powerandfirmware need further primary checks. No download,device orwiring operation;partiallead doesnot change inventorymembership.

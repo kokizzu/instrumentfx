@@ -864,3 +864,7 @@ Chocolate’s [current named-product ratings and mixed-offer exclusion](brand/M-
 ### Donner Pocket Go — partial direct-expression exclusion
 
 [ExactEC7230 record](brand/DONNER.md#pocket-go--partial-no-treadle-discovery): noanalogEXP in complete connector list;phones supported. Bank−/+ combinations require subsequentA/B/C presetselection. Physical volume excludesBluetooth/USB playback;not a global master-pedal substitute. Partialoutside402;Pocket X controls/memory not transferred.
+
+### BOSS VG-800 — partial compact candidate
+
+[Exact-model lead](brand/BOSS.md#vg-800--partial-shopee-and-no-treadle-discovery): **173W×135Dmm fits**,normalguitar/bass effects input,twoexternalEXP sockets,no built-in treadle. SharedL/PHONES requiresR/MONO empty;onboardpresetDown/Up documented. **Globalvolume assignment remains unverified**,asdo endpoints,placement,recall,bypass/tail/loop coverage andpedal wiring. Month-oldShopee ask isnot live-stock proof. Partialoutside402;SerialGK instrumentmodeling isseparate fromordinaryinput processing.
