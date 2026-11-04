@@ -1002,6 +1002,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | Expression / modifier preset reset | **Same manual,p70:** modifier **PC Reset=On** uses thesaved parameter value onpreset load untilthe external source moves/updates,overriding itsactual position. This is aper-modifier setting,not evidence that global MIDI/Remote Input/Output Volume follows thesame recall rule. Calibration remains separate. |
 | Dimensions / weight | **281W×236D×103H mm;3.22kg**. Exceeds preferred200W×140D footprint. [Standard-covered7.x specifications](#fm3-original--shared-manual-global-volume-and-hardware-scope). |
 | Processing / simultaneous limits | **12×4 grid**,DSP-limited. June2023 exactFM3 inventory:36 available classes,63 summed instance allowances including routing/control;not63 simultaneous effects. Historical1.x CPU limit approximately80%,overload mutes processing. Current13.0 equivalence untested. [Inventory](#fm3-original--dated-block-inventory-and-looper);[CPU](#fm3-original--initial-memory-dsp-and-current-support). |
+| Categories / November reference | [November2026 FM3 column](#fm3-original--november-reference-category-and-instance-comparison): 36 supported rows,63 summed allowances including utilities, **not63 simultaneous effects**. Delay shared29 becomes27 after two explicit FM3 exclusions. Reference counts are not installed certification or completed named censuses. |
 | Categories / choices | Includes amp,cab,drive,modulation,pitch,dynamics,EQ,delay,reverb,synth,looper androuting/control. Exact FM3 per-category choice census remains unverified;shared guide TYPES column not treated as current FM3 totals. Dated table excludes Crossover,Dynamic Distortion,IR Player,RTA,Tone Match,Vocoder. [Exact-column census](#fm3-original--dated-block-inventory-and-looper). |
 | Processing / firmware10 migration | **10.0,May30,2025:** older factory presets may exceed80% CPU,especially Standard/non-Turbo;Plate Reverb Echo Density can reduce load. Replacement factory presets are separate,not automatically installed. Current support dates the firmware10-or-newer banks June4,2025. This is a dated migration qualification,not a measured firmware13 failure. [Manufacturer-authored release history,PDFp7](https://manuals.plus/m/7de5caf1ac45bf1cdf36c9adfdb9d248e0cfeebd9524cbad9fbd8d3f94baf9eb.pdf);[current manufacturer preset listing](https://www.fractalaudio.com/fm3-downloads/),checked2026-11-01. |
 | Expression / firmware-qualified controller fixes | **11.0,October1,2025:** reduced rear-pedal filtering for faster response andcorrected External-controller activity sensing/FC-pedal modifier startup. **12.0,January19,2026:** fixed Pedal1/2 MIDI-CC control broken in11.0. These distinct local/FC/MIDI paths do not establish global analog-volume endpoints,held-position recall orall-output coverage. Installed behavior untested. [Manufacturer-authored release history,PDFpp5–7](https://manuals.plus/m/7de5caf1ac45bf1cdf36c9adfdb9d248e0cfeebd9524cbad9fbd8d3f94baf9eb.pdf),checked2026-11-01. |
@@ -1177,6 +1178,36 @@ The eight rotaries are two output levels,A–E andVALUE;A–E are the five push-
 Checked **2026-11-05**, [manufacturer FM3 downloads](https://www.fractalaudio.com/fm3-downloads/), which explicitly identifies **FM3 Original** alongside Mark II Turbo. Its **November 4, 2026** Windows bundle lists **audio 6.20 plus serial 1.3**, both required for USB operation on **Windows 10+ x86/x64/ARM**. This replaces the June audio 6.16 listing as the current retrieved bundle; the older observation above remains dated history. Windows 7/8 points to legacy driver 1.1, not current editor support. No driver release notes were inspected, so no specific fix or audio-routing change is claimed.
 
 The separate [FM3-Edit listing](https://www.fractalaudio.com/fm3-edit/) remains **1.07.17, August 25, 2026**: macOS 10.13+, main Windows 10+ 64-bit installer, plus a separate 32-bit link with unresolved runtime requirements. Windows editor needs both drivers. ARM driver support does not establish a native ARM editor or compatibility with every host. No downloads, installation or device operation; global-volume and original-hardware display gaps remain unresolved.
+
+### FM3 original — November reference category and instance comparison
+
+Checked **2026-11-05**, [manufacturer Blocks Guide,November2026,printed pp3,31](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). The FM3 column applies to the family; Standard applicability is corroborated by [current manufacturer support](https://www.fractalaudio.com/fm3-downloads/), which names Original and Mark II. Installed equivalence and introduction versions remain unverified. Earlier June2023 evidence is retained.
+
+| Category | Reference choices | FM3 instance ceiling, CPU permitting |
+|---|---|---:|
+| Chorus | 27 | 2 |
+| Compressor | 19 | 2 |
+| Delay | 29 shared;27 after explicit FM3 exclusions | 2 |
+| Drive | 87 | 2 |
+| Enhancer | 3 | 2 |
+| Filter | 20 | 4 |
+| Flanger | 31 | 2 |
+| Gate/Expander | 4 | 2 |
+| Graphic EQ | 18 headline; named census unresolved | 2 |
+| Megatap | 22 | 1 |
+| Multi-Delay | 39 | 1 |
+| Phaser | 19 | 2 |
+| Pitch | 16 | 1 |
+| Plex | 45 | 1 |
+| Reverb | 79 | 1 |
+| Ten-Tap | 2 | 1 |
+| Tremolo/Panner | 7 | 2 |
+| Volume/Pan | 2 | 2 |
+| Wah | 9 | 2 |
+
+Other instance ceilings: Amp1,Cab1,Formant2,Input2,Looper1,Mixer4,Multiband Compressor1,Multiplexer2,Output2,Parametric EQ2,Resonator2,Return2,Ring Mod1,Rotary2,Scene MIDI1,Send2,Synth1. Together: **36 supported rows,63 summed allowances**, including utilities; not simultaneous capacity.
+
+**Diffused Delay and Zephyr are explicitly unavailable on FM3**. Shared table headlines are not complete named inventories; Graphic EQ and Reverb counts retain their existing qualifications. Crossover,Dynamic Distortion,IR Player,RTA,Tone Match andVocoder show zero FM3 instances; NAM Player is Axe-Fx-III-only here. No sibling-only block or capture workflow is assigned. Source read remotely; no download or device test.
 
 ## FM9 MKII Turbo
 

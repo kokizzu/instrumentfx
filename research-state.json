@@ -167909,5 +167909,126 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue incomplete model profiles and Shopee discovery;preserve individual-footdisplay priority and independent GP-200JR→Prime→GE300,GT-Pro,expression andconsolidation queues"
+  },
+  "fm3_original_november_categories_20261105": {
+    "checked_date": "2026-11-05",
+    "sources": [
+      "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+      "https://www.fractalaudio.com/fm3-downloads/"
+    ],
+    "revision": "November2026 printed3,31;FM3 column;current support explicitly includesOriginal",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-original--november-reference-category-and-instance-comparison",
+    "category_rows": [
+      [
+        "Chorus",
+        27,
+        2
+      ],
+      [
+        "Compressor",
+        19,
+        2
+      ],
+      [
+        "Delay",
+        "29 shared;27 after explicit FM3 exclusions",
+        2
+      ],
+      [
+        "Drive",
+        87,
+        2
+      ],
+      [
+        "Enhancer",
+        3,
+        2
+      ],
+      [
+        "Filter",
+        20,
+        4
+      ],
+      [
+        "Flanger",
+        31,
+        2
+      ],
+      [
+        "Gate/Expander",
+        4,
+        2
+      ],
+      [
+        "Graphic EQ",
+        "18 headline; named census unresolved",
+        2
+      ],
+      [
+        "Megatap",
+        22,
+        1
+      ],
+      [
+        "Multi-Delay",
+        39,
+        1
+      ],
+      [
+        "Phaser",
+        19,
+        2
+      ],
+      [
+        "Pitch",
+        16,
+        1
+      ],
+      [
+        "Plex",
+        45,
+        1
+      ],
+      [
+        "Reverb",
+        79,
+        1
+      ],
+      [
+        "Ten-Tap",
+        2,
+        1
+      ],
+      [
+        "Tremolo/Panner",
+        7,
+        2
+      ],
+      [
+        "Volume/Pan",
+        2,
+        2
+      ],
+      [
+        "Wah",
+        9,
+        2
+      ]
+    ],
+    "supported_rows": 36,
+    "summed_instance_allowances": 63,
+    "count_basis": "Includes utilities;not simultaneous capacity,named installed census orcurrent preset verification",
+    "delay_exclusions": [
+      "Diffused Delay",
+      "Zephyr"
+    ],
+    "remaining": [
+      "Current installed equivalence andnamed category censuses",
+      "Global-volume endpoints/recall/output coverage",
+      "Original headphone variant andmini-screen specifications",
+      "Qualified exact-revision Shopee stock"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue display-priority full-profile gaps;preserve GP-200JR→Prime→GE300,GT-Pro,expression andconsolidation queues"
   }
 }
