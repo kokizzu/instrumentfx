@@ -5826,7 +5826,7 @@ Checked **2026-11-05**. Manufacturer-confirmed guitar/bass multi-effects;**parti
 | Hardware / live field | Finding / boundary |
 |---|---|
 | K/F/B |**7/3/6**,textinventory:Output Level+1–5+SELECT;Down/Up/CTL1;INST/EFFECTS/MENU/EXIT+twoPAGE. No built-in treadle in completepanel inventory. |
-| External controls |Two sharedTRS EXP/switch sockets;no separate toe jack listed. Global volume scope,wiring,endpoints/recall andbypass/tail/loop coverage unverified. |
+| External controls |Two sharedTRS EXP/switch sockets;no separate toe jack listed. Global Memory Level assignment documented below;wiring andbypass/tail/loop coverage remain unverified. |
 | Ports |SerialGK In/Out;GuitarInput;TRS Send/Return;L/PHONES,R/MONO outputs;twoCTL/EXP;USB-C;mini-TRS MIDIIn/Out;DCIn. |
 | Phones / preset± |Shared **L/PHONES**,leaveR/MONO empty forphones. Dedicated onboardDown/Up changes memories. DC insertion/removal switches power. |
 
@@ -5835,3 +5835,16 @@ Checked **2026-11-05**. Manufacturer-confirmed guitar/bass multi-effects;**parti
 [Shopee shop341882414/item26538695681](https://shopee.co.id/BOSS-VG-800-V-Guitar-Processor-i.341882414.26538695681),**Boss Official Shop**,KotaTangerangSelatan: **Rp13,090,000**,checked2026-11-05 frommonth-oldcache. CrossedRp15,400,000/15% isnot validated savings. Hardware title identified;condition,new/used classification,bundle,GK pickup,adapter/importregion,warranty,voucher,shipping/checkout andcurrent stock unverified. Relative delivery andseller activity arecached,not live-stock proof. Noqualified usedoffer.
 
 Complete algorithms/concurrency,globalEXP,looper/drums/scenes,powerandfirmware need further primary checks. No download,device orwiring operation;partiallead doesnot change inventorymembership.
+
+### VG-800 — global expression assignment versus recall
+
+Checked **2026-11-05**. [Reference Manual eng01,p15](https://static.roland.com/assets/media/pdf/VG-800_reference_eng01_W.pdf) explicitly makes external pedal functions common to all memories with **PREF=SYSTEM** in MENU → CONTROL/ASSIGN → CONTROL FUNCTION. This establishes global assignment without individual preset editing.
+
+[Parameter Guide eng01,©2025,pp34,37–39,50](https://static.roland.com/assets/media/pdf/VG-800_parameter_eng01_W.pdf):
+
+| Control / scope | Documented behavior |
+|---|---|
+| EXP1/EXP2 function | MEMORY LEVEL100 controls patch level0–100;MEMORY LEVEL200 controls0–200. Combine with SYSTEM preference for global volume assignment. These are parameter units,not dB. |
+| Foot Volume alternative | FV1/FV2 targets are separate from Memory Level. Each has heel MIN/toe MAX0–100,position0–100,and SLOW1/SLOW2/NORMAL/FAST curves. Placement andper-memory endpoint scope remain unverified. |
+| ASSIGN HOLD | OFF recalls saved pedal values;ON retains values across memory changes only when assigned parameters match. This is conditional recall,not the global assignment orproof of startup pedal-position sensing. |
+| Coverage still unresolved | Normal-input path,shared headphones,USB/GK Audio,bypass,tails/looper andtrue mute need routing evidence;no device test. Current/installed firmware equivalence andpedal wiring remain unverified. |

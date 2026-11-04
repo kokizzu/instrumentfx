@@ -167022,7 +167022,7 @@
       "footswitches": 3,
       "buttons": 6
     },
-    "expression": "2sharedTRS,no treadle;globalvolume unknown;sharedLPhonesRempty;onboarddownup",
+    "expression": "2 shared TRS,no treadle;SYSTEM preference globally assigns EXP1/2 MEMORY LEVEL100/200;sharedLPhonesRempty;onboarddownup",
     "offer": {
       "url": "https://shopee.co.id/BOSS-VG-800-V-Guitar-Processor-i.341882414.26538695681",
       "shop": "341882414",
@@ -167038,7 +167038,7 @@
     },
     "remaining": [
       "Exact named algorithms/concurrency",
-      "GlobalEXP/range/routing/recall/coverage",
+      "Global volume output/bypass/tail/loop coverage,foot-volume endpoint scope,startup position andpedal wiring",
       "IR/NAM/formats",
       "Power voltage/polarity",
       "Factory occupancy",
@@ -167046,5 +167046,26 @@
       "Qualifiednewusedstock"
     ],
     "next": "Prioritize VG800 exactglobalvolume andprofileevidence ascompactShopeelead;preserve individualLCDpriority,GP200JR→Prime→GE300,GT-Pro andconsolidationqueues"
+  },
+  "boss_vg800_global_expression_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/BOSS.md#vg-800--global-expression-assignment-versus-recall",
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/VG-800_reference_eng01_W.pdf",
+      "https://static.roland.com/assets/media/pdf/VG-800_parameter_eng01_W.pdf"
+    ],
+    "revision": "Reference eng01 p15;Parameter eng01 copyright2025 pp34,37–39,50",
+    "finding": "SYSTEM controller preference plus EXP1/EXP2 MEMORY LEVEL100/200 establishes common assignment across all memories without editing each preset",
+    "ranges": "MemoryLevel100:0–100;200:0–200;FV1/2heel/toe/position0–100;parameter units notdB",
+    "recall": "ASSIGN HOLD ON retains values only when assigned parameters match;OFF recalls saved values;notstartup-sensing proof",
+    "remaining": [
+      "Normal input andalloutput coverage",
+      "Bypass/tails/looper/mute",
+      "FV placement andendpoint persistence",
+      "Pedal wiring/resistance",
+      "Current/installedfirmware equivalence"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue exactVG800 routing/profile checks andShopee evidence;preserve displaypriority,GP200JR→Prime→GE300,GT-Pro andconsolidationqueues"
   }
 }
