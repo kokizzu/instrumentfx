@@ -1014,7 +1014,8 @@ Historical2026-10-14/15 shared comparison wording,not a new technical verificati
 | Display / body | **No screen**,LEDs only;diagonal/color N/A,touch No. **165×60×40mm;approximately325g**,compact. An app screenshot is not a built-in display. |
 | Processing / choices | **Six movable modules**,specification6+1;gate can accompany boost/compressor,not seven arbitrary slots. **60+** advertised;20 amps=15guitar+5bass;20IR slots;MOD7,DLY5,REV6. |
 | Presets | **21 editable**, supplied guitar/bass banks. |
-| Synth / acoustic | Exact synth and acoustic-simulation algorithms remain unverified. |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified;[named creative choices](#tank-mini--named-effect-choices-and-revision-qualified-power) include pitched reverb,envelope shaping andfiltering,not certified instrument synthesis. |
+| Power / revision qualification | [Original anddistributor manual conflict](#tank-mini--named-effect-choices-and-revision-qualified-power):1500mAh/type103048 versus1450mAh/type102840;hardware mapping unknown. Charge-and-play documented;5V2A adapter recommendation isnot operating draw. |
 | Ports / power | 6.35 mm TS input/output;3.5 mm stereo phones;USB-C. **USB5V ≥300mA or1500mAh/3.7V battery;about250mA draw**. |
 | IR / NAM | Mono WAV 24-bit/44.1 kHz/1024-point IR. Native NAM and exact converted amp-data formats remain unverified; do not borrow TANK-G/B firmware compatibility. |
 | Editor / firmware | M-EFCS Windows/macOS/iOS/Android was documented in the original manual. The [manufacturer index](https://www.cuvave.com/appdownload), checked 2026-10-17, explicitly lists Tank Mini for desktop M-EFCS; its abbreviated mobile list omits this name. The [Sinco Audio iOS changelog](https://apps.apple.com/us/app/m-efcs/id6470352068) explicitly describes a TankMini DLY parameter fix in v3.4.2716 (Apr 27) and effect-chain order synchronization; retain this as model-specific mobile-editor evidence. App version is not device firmware. |
@@ -1022,6 +1023,8 @@ Historical2026-10-14/15 shared comparison wording,not a new technical verificati
 | Extras | USB audio/OTG,loopback,Bluetooth backing;detailed editing uses software. |
 
 Retail asks **Rp725.000** [Vin's31173885/44854461770](https://shopee.co.id/M-Vave-Tank-Mini-Multi-Efek-pink-dan-green-Mvave-Tank-Mini-i.31173885.44854461770),Pink/Green, and **Rp740.000** [Seven16879370/29982361773](https://shopee.co.id/MVAVE-M-Vave-Tank-Mini-Multi-Effect-Pedals-MVAVE-Tank-Mini-i.16879370.29982361773);used **?**. Individual indexed retail evidence,not checkout-verified conditions or a completed-sale range.
+
+Additional **2026-11-05** [HurtrockMusicStore exacthardware offer](#tank-mini--additional-exact-shopee-hardware-offer):**Rp725.000**,two unresolved variations;indexed-only,condition/stock/checkout unknown. Older asks remain dated observations.
 
 Source: [manufacturer-authored manual distributed through TankPedal](https://files.zohopublic.com.cn/public/workdrive-public/download/i4mj1528ac63d95fb47d18e0eea7ec4a74346?x-cli-msg=%7B%22linkId%22%3A%221wswt34Tg0S-353HO%22%2C%22isFileOwner%22%3Afalse%2C%22version%22%3A%221.0%22%7D),[distributor download index](https://tankpedal.com/en-asia/pages/download). Original printed pp.3–4,17 visually inspected;host is not the manufacturer. Current firmware/import formats and used evidence remain open.
 
@@ -1088,6 +1091,18 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 - **Other documented functions** (5. Power, software and practice/live features): USB audio/OTG/loopback, Bluetooth; detailed edits require app
 
 [Original shared source](../research-state.json)<!-- historical-link:m-vave-005 -->,retained pending complete navigation/provenance audits.
+
+### TANK MINI — named effect choices and revision-qualified power
+
+Checked **2026-11-05**. The manufacturer-authored37-page manual [linked above][MVAVE-TANK-MINI-M],cover TANK MINI/www.m-vave.com,printedpp10–15: **MOD7:** Chorus,Phaser,Tremolo,Flanger,Vibrato,Univibe,Autofilter. **DLY5:** Analog,Ducking Delay,dTape,Dual Delay,Lofi Delay. **REV6:** Room,Hall,SWELL,Spring,Shimmer,Cloud. Revision/firmware minimum unstated;not an installed-library certification.
+
+Shimmer pitches the wet reverb fromunison totwo octaves up;it doesnot establish a conventional harmony algorithm orinput-note polyphony. SWELL shapes the wet attack;its violin-like recipe isnot a tracking synth. Autofilter sweeps a filter;Dual Delay uses two echo timings withinone module. These choices do not add simultaneous positions.
+
+**Battery-source conflict:** originalp17 gives1500mAh/type103048;the [DanMusicPartner-distributed manual transcription](https://device.report/m/85146a375139b77e6adaa9c41706b737927ff843055e13b5b820b0902da63d3b),Englishpp9–10,gives1450mAh/type102840. Hardware/revision mapping unknown;retain both. The original Chinese power section printedp2 explicitly supports playing while charging using5V2A,andrates depleted-to-full charging about4.75h. Adapter rating isnot250mA operating draw or400mA internal charging limit. No local files downloaded ordevice tested.
+
+### TANK MINI — additional exact Shopee hardware offer
+
+Checked **2026-11-05**: [HurtrockMusicStore,shop182719800/item53704444048](https://shopee.co.id/M-Vave-Tank-Mini-Multi-Effects-Guitar-Bass-Portable-i.182719800.53704444048),KotaBandung: **Rp725.000**,last-week search snapshot,two unnamed variations. Direct reopening cachemiss;selected color/bundle,condition,working state,accessories,warranty,stock andcheckout/delivered total unknown. Tomorrow-delivery promise isnot stock proof;late-delivery voucher isnot deducted. Separate fromolder Vin’s/Seven asks;no verified used/new range.
 
 ## TANK-B
 

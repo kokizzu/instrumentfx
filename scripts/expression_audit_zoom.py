@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(nux): document MG-50Li parallel two-guitar return routing'
+        message='research(m-vave): qualify TANK MINI effects, power and hardware offer'
     print(git('commit','-m',message))
