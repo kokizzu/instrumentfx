@@ -168519,5 +168519,46 @@
       "Owner/editor poly and IR instance-limit conflicts"
     ],
     "next": "HX ten-category named census is complete; continue another individual footswitch-display model with missing core fields, with fresh Shopee exact hardware search first. Preserve independent GT-Pro, expression and GP-200JR → Prime → GE300 queues."
+  },
+  "tmp_delay_ranges_midi_order_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FENDER.md#tone-master-pro",
+    "source": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+    "delay": {
+      "firmware": "1.6.34",
+      "release_date": "2025-05-14",
+      "range_1_to_2000_ms": [
+        "Digital Delay",
+        "Echo Filter",
+        "Stereo Echo Filter",
+        "Ping Pong"
+      ],
+      "range_30_to_2000_ms": [
+        "Dynamic Delay",
+        "Studio Delay"
+      ],
+      "qualification": "Explicit algorithm-specific time ranges, not every delay or tap subdivision range"
+    },
+    "midi": {
+      "firmware": "1.6.48",
+      "release_date": "2025-08-27",
+      "fix": "Preset/Scene Program Change messages not always sent before Control Change",
+      "qualification": "Outbound sequencing fix; no incoming priority or state-feedback guarantee"
+    },
+    "evidence_limits": [
+      "Current Model Guide H and current owner PDF unsupported by web reader",
+      "Penne Music manufacturer guide copy exceeds reader size limit; content/revision not inspected",
+      "Unofficial guides and NAM press reports not promoted to manufacturer specifications",
+      "Fresh Shopee used query produced no qualified exact hardware offer"
+    ],
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Current exact category census and block ceiling",
+      "User IR formats, sample limits and capacity",
+      "Primary NAM release/import evidence",
+      "Strip diagonal, color and touch properties",
+      "Qualified new/used Indonesian hardware"
+    ],
+    "next": "Continue display-priority HeadRush Prime remaining core fields and exact Shopee offers; keep AXOM MAX pending primary mini-display verification and preserve GT-Pro, expression-volume and independent GP-200JR → Prime → GE300 cycle."
   }
 }
