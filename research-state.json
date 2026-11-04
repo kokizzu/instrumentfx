@@ -168644,5 +168644,34 @@
       "Current available condition-qualified Indonesian offers"
     ],
     "next": "Continue accessible individual footswitch-display profiles and fresh exact Shopee hardware; preserve AXOM MAX primary-screen gap, GT-Pro, expression audit and independent GP-200JR → Prime → GE300 cycle."
+  },
+  "fm3_original_tuner_heel_led_history_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-original",
+    "source": "https://manuals.plus/m/5df87c9e777003d2c13a4831b33fdc4a826978d563b7b25933897a3a2c79b3b0.pdf",
+    "source_identity": "Manufacturer FM3 cumulative FIRMWARE RELEASE NOTES with10.0 May30,2025 cover; original dated historical release sections, not host advice.",
+    "source_pages": "PDF25–27",
+    "heel_tuner": {
+      "version": "3.00",
+      "date": "2020-12-18",
+      "threshold": "Selected controller below5%; MIDI/Remote→Other",
+      "qualification": "Opens tuner; does not automatically assign volume, specify exit threshold or establish mute coverage"
+    },
+    "led_and_hold": {
+      "version": "3.02",
+      "date": "2021-03-10",
+      "addition": "Onboard LED-ring tuning cues via Footswitch Tuner Mode",
+      "fix": "Tuner Hold on TEMPO switch no longer changes tempo"
+    },
+    "qualification": "Predates MKII; original FM3 historical introduction and fix, not measured current behavior or mini-LCD physical specification.",
+    "source_attempts": "Primary display-size/headphone-revision searches unresolved. GP-200JR exact Shopee hits deduplicated against existing sources; no repeated offer added.",
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Main/mini display dimensions and touch properties",
+      "Primary headphone hardware-revision identification",
+      "Global volume endpoints, recall and all-route coverage",
+      "Qualified current Indonesian stock"
+    ],
+    "next": "Continue other accessible display-priority core gaps; retain original FM3 remaining physical questions and preserve GT-Pro, expression and GP-200JR → Prime → GE300 queues."
   }
 }
