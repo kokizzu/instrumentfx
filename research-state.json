@@ -150628,5 +150628,31 @@
     "finding": "Scene-specific setup fields versusGlobal Noise Gate heading preserved;LCD contrast suggestion versusrange;Dim affects LEDs;Latch Scene view sacrifices individual FX editing/bypass.",
     "limits": "Grouped four-screen layout,not individualLCDperswitch;no current firmware certification,physical screen dimensions,global volume ornew IDR evidence.",
     "next": "Continue priority separate-footswitch-display models andexact Shopee discovery;general GT-Pro andexpression-volume queues remain independent."
+  },
+  "ex4_type_reconstruction_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "BOSS::EX-4",
+    "canonical": "brand/BOSS.md#ex-4--qualified-reconstruction-of-the-120-type-headline",
+    "source": "https://static.roland.com/manuals/ex-4_parameter/en-US/583875851637650315.html",
+    "revision": "Original ©2026 Roland HTML;minimum firmware unstated",
+    "family_count": 46,
+    "expanded_families": {
+      "OD_DS": 35,
+      "DELAY": 13,
+      "REVERB": 8,
+      "COMPRESSOR": 6,
+      "LIMITER": 3,
+      "CHORUS": 3,
+      "PHASER": 3,
+      "BASS_PHASER": 3,
+      "WAH": 7,
+      "AC_RESO": 3
+    },
+    "expanded_sum": 84,
+    "remaining_single_families": 36,
+    "derived_total": 120,
+    "status": "Qualified reconstruction only;manufacturer counting rationale andinstalled-version completeness unverified.",
+    "inventory": "Partial lead remains outside402 active models.",
+    "next": "Continue exact Shopee discovery andpriority separate-display model gaps;preserve GT-Pro andexpression-volume queues."
   }
 }

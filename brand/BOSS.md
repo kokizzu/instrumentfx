@@ -392,6 +392,27 @@ Long-pressing **GEAR SUITE while the play screen is displayed** toggles Lock, wh
 
 The earlier PSA-S/300mA evidence remains; the Startup Guide landing page exposed a download-agreement form rather than its body. No agreement submitted or file downloaded. Polarity, USB/battery operation and exact Shopee hardware remain unresolved. Partial lead stays outside active counts.
 
+### EX-4 — qualified reconstruction of the 120-type headline
+
+Checked **2026-11-04** against the original ©2026 Roland HTML parameter tables linked below. Minimum firmware is unstated; no installed menu was inspected. The [FX1–4 list](https://static.roland.com/manuals/ex-4_parameter/en-US/583875851637650315.html) contains **46 families**. Expanding ten selected families gives this reproducible arithmetic:
+
+| Family / original table | Count used | What is being counted |
+|---|---:|---|
+| [OD/DS](https://static.roland.com/manuals/ex-4_parameter/en-US/584045067637679499.html) |35|TYPE entries|
+| [DELAY](https://static.roland.com/manuals/ex-4_parameter/en-US/584607499637695627.html) |13|TYPE entries;unlisted TAP not invented|
+| [REVERB](https://static.roland.com/manuals/ex-4_parameter/en-US/584640779637697163.html) |8|TYPE entries|
+| [COMPRESSOR](https://static.roland.com/manuals/ex-4_parameter/en-US/583960587637677963.html) |6|TYPE entries|
+| [LIMITER](https://static.roland.com/manuals/ex-4_parameter/en-US/583902987637676427.html) |3|TYPE entries|
+| [CHORUS](https://static.roland.com/manuals/ex-4_parameter/en-US/668389003668411787.html) |3|MONO,DIR/EFX,STEREO modes|
+| [PHASER](https://static.roland.com/manuals/ex-4_parameter/en-US/584306315637684107.html) |3|4/8/12-stage choices|
+| [BASS PHASER](https://static.roland.com/manuals/ex-4_parameter/en-US/593872267637704843.html) |3|Its own4/8/12-stage choices|
+| [WAH](https://static.roland.com/manuals/ex-4_parameter/en-US/667056011668355339.html) |7|WAH TYPE entries|
+| [AC RESO](https://static.roland.com/manuals/ex-4_parameter/en-US/584116235637682571.html) |3|TYPE entries|
+| Remaining families |36|One each;46 minus10 expanded families|
+| **Derived total** |**120**|**84 expanded choices+36 unchanged families**|
+
+This **reproduces the advertised number under an explicit counting convention**, not a manufacturer-confirmed explanation of its arithmetic. Modes and stages are not independent DSP engines; other parameter alternatives such as synth waveforms,chorus waveform orSlicer pattern are not multiplied into this reconstruction. The earlier uncertainty is narrowed to **counting-method confirmation and installed-version completeness**; it is not erased. Four FX slots plus separately described utilities remain the concurrency boundary. All earlier subtype names,delay-footnote inconsistency andsource qualifications remain. EX-4 stays outside active inventory;exact Shopee hardware andother required fields remain unresolved. No downloads ordevice operation.
+
 ## GM-800
 
 Consolidated and refreshed **2026-10-16**; partial verification. This processor qualifies through independent MFX architecture; it requires specialized input hardware for guitar/bass playing. No excluded specialist model is added.
