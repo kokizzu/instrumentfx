@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fractal): update original FM9 Windows USB driver evidence'
+        message='research(fractal): reconcile FM9 Turbo current USB driver evidence'
     print(git('commit','-m',message))

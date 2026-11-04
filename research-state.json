@@ -166083,5 +166083,28 @@
     ],
     "next": "Continue FM9 Turbo as its own exact model checkpoint; check MKII applicability without importing sibling physical specifications. Preserve individual-LCD priority, GT-Pro, expression and GP-200JR→Prime→GE300 queues",
     "active_inventory_unchanged": 402
+  },
+  "fm9_turbo_driver_bundle_20261105": {
+    "checked": "2026-11-05",
+    "model": "Fractal Audio::FM9 Turbo",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-turbo--november-driver-and-software-version-scope",
+    "sources": [
+      "https://www.fractalaudio.com/fm9-downloads/",
+      "https://www.fractalaudio.com/fm9-edit/"
+    ],
+    "finding": "Explicit Turbo support; November4 USB driver6.20 Windows10+ x86/x64/ARM supersedes June6.16 listing",
+    "historical_driver": {
+      "version": "6.16",
+      "listed": "2026-06-10",
+      "source": "https://www.fractalaudio.com/fm9-downloads/"
+    },
+    "distinct_versions": "USB firmware1.04 optional over1.03; processing12.0; editor1.03.22",
+    "limits": [
+      "No bug-fix/routing inference",
+      "No native ARM editor inference",
+      "No downloads or device operation"
+    ],
+    "next": "Check current MKII product-to-download applicability; do not transfer pre-MKII physical specifications. Preserve individual-LCD, GT-Pro, expression and GP-200JR→Prime→GE300 queues",
+    "active_inventory_unchanged": 402
   }
 }
