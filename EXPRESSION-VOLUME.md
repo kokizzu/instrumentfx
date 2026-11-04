@@ -868,3 +868,5 @@ Chocolate’s [current named-product ratings and mixed-offer exclusion](brand/M-
 ### BOSS VG-800 — partial compact candidate
 
 [Exact-model lead](brand/BOSS.md#vg-800--partial-shopee-and-no-treadle-discovery): **173W×135Dmm fits**,normalguitar/bass effects input,twoexternalEXP sockets,no built-in treadle. SharedL/PHONES requiresR/MONO empty;onboardpresetDown/Up documented. [**Global assignment is documented**](brand/BOSS.md#vg-800--global-expression-assignment-versus-recall):EXP1/2 MEMORY LEVEL100/200 withPREF=SYSTEM. Conditional ASSIGN HOLD isseparate;placement,output/bypass/tail/loop coverage,startup position andpedal wiring remain unresolved. Month-oldShopee ask isnot live-stock proof. Partialoutside402;SerialGK instrumentmodeling isseparate fromordinaryinput processing.
+
+VG-800’s [routing follow-up](brand/BOSS.md#vg-800--bypass-and-computer-audio-routing-boundaries) names approved EV-30/FV-500L/FV-500H/EV-5 pedals andseparates FX BYPASS,tuner modes,USB playback/recording andSerial GK Audio. None establishes universal output mute;the global assignment finding remains qualified.

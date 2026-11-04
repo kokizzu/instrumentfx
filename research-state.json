@@ -167067,5 +167067,31 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue exactVG800 routing/profile checks andShopee evidence;preserve displaypriority,GP200JR→Prime→GE300,GT-Pro andconsolidationqueues"
+  },
+  "boss_vg800_routing_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/BOSS.md#vg-800--bypass-and-computer-audio-routing-boundaries",
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/VG-800_reference_eng01_W.pdf",
+      "https://static.roland.com/assets/media/pdf/VG-800_parameter_eng01_W.pdf"
+    ],
+    "revision": "Referenceeng01©2025pp5–6,11–14;Parametereng01©2025pp48–49,51",
+    "approved_expression": [
+      "EV-30",
+      "FV-500L",
+      "FV-500H",
+      "EV-5"
+    ],
+    "routing": "USB STANDARD output-only playback mix versus MIX playback inclusion inUSB recording;RE-GUITAR/RE-BASS requiresVENDOR;GENERIC OS driver separate",
+    "gk_audio": "OFF/MIX/OUT/THRU stereo routes separatefrom divided-string signals",
+    "bypass": "FX BYPASS isolatesINST;TUNER BYPASS unchangedinput;THRU currentmemory;doesnot establishMemoryLevelcoverage;Param p51 specifiesdividedpickup whileReference p11 saysguitarinput;normalinputscopeunresolved",
+    "remaining": [
+      "Pedal volume coverage ofnormalinput/phones/USB/GKAudio",
+      "Bypass/tails/looper/mute",
+      "Exactwiring/potresistance",
+      "Currentfirmware/software andIRlimits"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue VG800 exactcurrentfirmware/software/IRandnamedalgorithm evidence;preserve displaypriority,GP200JR→Prime→GE300,GT-Pro andconsolidationqueues"
   }
 }

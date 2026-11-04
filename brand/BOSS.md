@@ -5848,3 +5848,19 @@ Checked **2026-11-05**. [Reference Manual eng01,p15](https://static.roland.com/a
 | Foot Volume alternative | FV1/FV2 targets are separate from Memory Level. Each has heel MIN/toe MAX0–100,position0–100,and SLOW1/SLOW2/NORMAL/FAST curves. Placement andper-memory endpoint scope remain unverified. |
 | ASSIGN HOLD | OFF recalls saved pedal values;ON retains values across memory changes only when assigned parameters match. This is conditional recall,not the global assignment orproof of startup pedal-position sensing. |
 | Coverage still unresolved | Normal-input path,shared headphones,USB/GK Audio,bypass,tails/looper andtrue mute need routing evidence;no device test. Current/installed firmware equivalence andpedal wiring remain unverified. |
+
+### VG-800 — bypass and computer-audio routing boundaries
+
+[Reference eng01,©2025,pp5–6,11–14](https://static.roland.com/assets/media/pdf/VG-800_reference_eng01_W.pdf): approved analog expression models are EV-30,FV-500L,FV-500H andEV-5,using sharedEXP sockets. This doesnot certify arbitrary controllers orpotentiometer wiring. Effects/output/send-return blocks can be reordered orarranged inparallel;the illustrated FV positions arenot universal. **FX BYPASS** isolates INST modeling,whereas tuner BYPASS passes input unchanged andTHRU retains the current memory. These are distinct operating modes;Memory Level coverage ineach remains unverified.
+
+[Parameter Guide eng01,©2025,pp48–49,51](https://static.roland.com/assets/media/pdf/VG-800_parameter_eng01_W.pdf):
+
+| Route / mode | Exact scope |
+|---|---|
+| USB STANDARD | Computer playback mixes toOUTPUT;USB recording contains VG-800 audio only. |
+| USB MIX | Mixed computer+processor audio goes toOUTPUT andUSB. |
+| RE-GUITAR/RE-BASS | Reprocesses recorded divided-pickup audio;requiresVENDOR driver mode. |
+| Driver / levels | VENDOR uses dedicated driver;GENERIC uses OS-standard driver. Driver mode cannot change whileUSB connected. USB MIX LEVEL andOUT LEVEL independently range0–200. |
+| Serial GK Audio | OFF disables;MIX combines incoming stereo audio withunit output forGK OUT;OUT sends unit stereo output;THRU forwards incoming audio. Separate MIX/OUT levels0–200. This isnot the divided-string pickup stream. |
+
+Parameter p51 specifically describes tuner BYPASS as unchanged **divided-pickup** input;Reference p11 uses broader guitar-input wording. Normal-input coverage isnot resolved bythat difference. No demonstrated pedal mute ofcomputer playback,USB sends,GK Audio orheadphones follows fromthese routing descriptions. Tails/looper coverage andcurrent-firmware equivalence remain open;no hardware test ordownload performed.
