@@ -853,6 +853,16 @@ Checked **2026-11-04** against the [manufacturer live Global EQ chapter](https:/
 | Processing / independent output EQ | **Live 1.4 reference:** independent Global EQ for quarter-inch, XLR and Phones, including when outputs are linked. EQ can be copied between outputs; linking does not establish identical EQ. This is output equalization, not a global analog-expression volume assignment. |
 | Processing / EQ reset and bypass | **Live 1.4 reference:** Reset EQ leaves Low Cut and High Cut active; bypass the selected output EQ to remove all its EQ processing. Individual cut, shelf and parametric-band enable controls are separate. Coverage of USB, S/PDIF, returns, tails and loop playback is not established by this chapter alone. |
 
+### Stadium XL — tuner routing and tail boundary
+
+Checked **2026-11-04** in the [manufacturer Tap/Tuner chapter](https://manuals.line6.com/en/helix-stadium/live/tuner), navigation **v1.4 Rev D_v1.3 Rev B - v1.2**; not an installed-firmware test or introduction-version claim.
+
+| Field | Evidence |
+|---|---|
+| Live / tuner controls | **Live1.4 reference:** hold FS12 to enter; any switch or Home exits. Needle and Strobe modes; published low limit21.83Hz; reference425–455Hz. String offsets change tuner targets, not audio pitch. Main-screen tuning indications are not OLED-strip specifications. |
+| I/O / tuner routing | **Live1.4 reference:** Mute respects Tuner Trails; Processed retains preset processing; Matrix Dry bypasses processing while retaining preset output destinations; selecting a specific output instead bypasses the preset and feeds that destination directly. |
+| Processing / tuner trails | **Live1.4 reference:** Trails governs delay/reverb/FX-loop decay and Aux/Return continuation when opening the tuner; inapplicable to Processed. This does not establish recorded-loop, USB/Bluetooth/backing-track or headphone muting coverage, nor global analog-expression volume, endpoints or pedal recall. |
+
 <!-- comparison evidence ends -->
 
 Recheck2026-10-31: the original Denpasar offer remainsRp41.220.000, but search reports a six-day crawl/delivery29October–1November while direct reopening returns three-month-old text/delivery18July. These are conflicting snapshots,not verified current stock; the original dated observations above remain intact.
