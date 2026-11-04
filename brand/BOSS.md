@@ -4758,6 +4758,19 @@ Checked **2026-11-04**; web documentation only, no local download or device oper
 | Software / Windows editor versus driver | [Tone Studio 1.1.1 Windows application page](https://www.boss.info/global/support/by_product/sy-300/updates_drivers/d1028fba-fc20-4d8a-82b9-bda8357aea46/) lists **Windows 11/10/8.1/7**, Core 2 Duo+, 1GB RAM, 1024×768+, dedicated driver and Adobe AIR. Application release history dates 1.1.1 to **March2017**; current OS wording does not date the original release. The support index separately offers driver 1.0.2 for Windows 10/11. Published requirements are not a local operational test or assurance of ongoing OS-vendor support. |
 | Software / macOS editor versus driver | [Mac editor 1.1.1 page](https://www.boss.info/global/support/by_product/sy-300/updates_drivers/391a4df2-958b-42f8-b089-146a978d71c1/) dates Sierra 10.12 support to March 2017 and directs current OS checks to **Exclusive Application** in the compatibility matrix. The support index offers driver 1.0.5 for Sonoma 14.x later; this alone does not certify editor support on those systems. Current matrix equivalence remains unverified. |
 
+### SY-300 — exact FX inventory and synth-sequencer limits
+
+Checked **2026-11-04** against [Parameter Guide e02,©2015,printedpp4–5](https://static.roland.com/assets/media/pdf/SY-300_ParamGuide_e02.pdf) and [owner manual e01,pp3–6](https://static.roland.com/assets/media/pdf/SY-300_e01_W.pdf). Still a partial candidate outside active402; not an SY-1/SY-200 admission or ownership assertion.
+
+| Field | Exact-model evidence / distinction |
+|---|---|
+| Categories / FX census | **21 selectable types:** CHORUS;CHORUS+DELAY;CHORUS+REVERB;COMPRESSOR;DELAY;DELAY+REVERB;EQ;FLANGER;ISOLATOR;LIMITER;LO-FI;OD/DS;PAN;PHASER;REVERB;ROTARY;SLICER;SLOW GEAR;TOUCH WAH;TREMOLO;UNI-V. Composite types remain single choices. The guide explicitly permits the same type in all four FX processors;21 is not a simultaneous-effect count. |
+| Synth / sequencing and layer boundary | Up to16 programmed pitch steps can produce melodies/arpeggios from one played note. OSC2/3 can link to OSC1. **INPUT waveform disables sequencer and pitch-range Layer processing**;OSC1 sequencer parameters can remain visible for linking. This is not an audio phrase looper or evidence of16-note input polyphony. |
+| Memory / factory versus user | Owner manual: **U01–U99 writable;P01–P70 protected**. Thus169 selectable addresses,not169 editable slots. Initial User-bank filling remains unverified. |
+| Controls / tuner-access condition | Normal patch-down/up pair also enters tuner together, but this shortcut becomes unavailable if either switch is reassigned as CTL. Two Quick pages expose eight parameter assignments,not eight additional knobs orscreens. |
+
+Installed firmware and note-tracking quality untested. Complete separate-button census,full subtype/USB matrix,imports/practice fields andglobal-volume coverage remain unresolved. No package downloaded ordevice operated.
+
 ## SY-1000 — partial discovery lead
 
 Checked **2026-11-04**. Partial candidate **outside the 402 active models**; ownership is not inferred. Independent effects processing distinguishes this candidate from the excluded SY-1/SY-200 specialist records. No admission to active comparisons yet.

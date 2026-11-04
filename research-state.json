@@ -162126,5 +162126,26 @@
     "scope": "Exact-model encoder/library incorporation and Editor/USB connection fixes; installed effects and USB audio not inferred",
     "next": "OutputVP all-preset insertion/coverage, headphone socket conflict and primary/visual control census remain. Browser inventory empty; do not repeat visual checks until a surface becomes available. Continue another useful priority/Shopee lead; independent GT-Pro cursor preserved.",
     "inventory_changed": false
+  },
+  "sy300_fx_sequence_census_20261104": {
+    "model": "BOSS SY-300",
+    "checked_date": "2026-11-04",
+    "canonical_section": "brand/BOSS.md#sy-300--exact-fx-inventory-and-synth-sequencer-limits",
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/SY-300_ParamGuide_e02.pdf",
+      "https://static.roland.com/assets/media/pdf/SY-300_e01_W.pdf"
+    ],
+    "revision": "Parameter Guide e02 copyright2015 pp4–5;owner e01 pp3–6",
+    "fx_type_count": 21,
+    "fx_processors": 4,
+    "duplicate_type_selection": "explicitly permitted",
+    "memory": {
+      "writable": 99,
+      "protected": 70,
+      "initial_user_fill": "unverified"
+    },
+    "status": "Partial candidate outside402;no membership/ownership change",
+    "next": "Complete separate-button census,remaining subtype and USB/recording/import/practice profile before admission;volume endpoints/all-route coverage remain unknown. M-VAVE wiring and Mini global override still deferred without new primary evidence; independent queues preserved.",
+    "inventory_changed": false
   }
 }
