@@ -165285,5 +165285,15 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue requesteddisplaypriority andcompactexpression gaps;preserve independentGT-Pro andgeneralqueues."
+  },
+  "b6_legacy_row_restoration_20261105": {
+    "checked_date": "2026-11-05",
+    "source": "effects/bass.md",
+    "destination": "brand/ZOOM.md#b6",
+    "finding": "Technical source-history audit detected historical processing row overwritten bynewer census wording. Restored exactregistered row;retained newer clarification verbatim inseparatecurrent section.",
+    "source_sha256": "757f426d9a03ff1fd2fef266c9a2ebecd50a0d0d1254862868dfaa1d130aea11",
+    "scope": "Historical row preservation only;not a new manufacturer ormarket check.",
+    "next": "Rerun fulltechnicalsourcehistory audit;repair anyadditionalprovenomissions individually,then resume display/compactexpression andexactShopee research.",
+    "active_inventory_unchanged": 402
   }
 }

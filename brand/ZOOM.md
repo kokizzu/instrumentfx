@@ -2265,7 +2265,7 @@ Bass multi-effects; large body, external-only expression. Consolidated and refre
 | Size class | Large |
 | Used USD | ? |
 | New USD observation | $359 [P1] |
-| Maximum simultaneous blocks; categories / choices | **6**, DSP-limited; 13 amps; 12 cabinet models ×3 mic positions; 4 DI models. [Complete2021 list census](#b6--complete-dated-effect-list-census):120 named entries across13 categories,including utilities;current installed totals remain unverified. [Large-effect spaces andofficial count discrepancy](#b6--official-nine-versus-six-wording-and-large-effect-spaces) qualify the six-position limit. |
+| Maximum simultaneous blocks; categories / choices | **6**, DSP-limited; 13 amps; 12 cabinet models ×3 mic positions; 4 DI models; detailed effect-category totals ? |
 | Factory / user memory | 240 editable patch memories total |
 | Synth / acoustic | Bass Standard Synth / Bass Synth Talk; dual-input piezo support. [Own effect-list clarification](#b6--chord-pitch-versus-synth-tracking) also names Z-Syn,Defret andalgorithm-specific pitch limits;piezo support isnot acoustic simulation. |
 | Third-party IR | Yes, WAV import; user-slot count ? |
@@ -2289,6 +2289,7 @@ Primary sources: [official B6 product](https://zoomcorp.com/en/us/multi-effects/
 
 | Field | Verified detail / remaining gap |
 |---|---|
+| Processing / subsequent category clarification | **6**, DSP-limited; 13 amps; 12 cabinet models ×3 mic positions; 4 DI models. [Complete2021 list census](#b6--complete-dated-effect-list-census):120 named entries across13 categories,including utilities;current installed totals remain unverified. [Large-effect spaces andofficial count discrepancy](#b6--official-nine-versus-six-wording-and-large-effect-spaces) qualify the six-position limit. |
 | Built-in expression / toe |No built-in pedal; FP02M external input. Separate toe input unverified |
 | Display |4.3-inch TFT color touchscreen,480×272 |
 | User IR locations |120 total:001–036 supplied;037–120 user-assignment range =84 by arithmetic. Original unknown resolved; factory overwrite rules and sample-length limit unverified |

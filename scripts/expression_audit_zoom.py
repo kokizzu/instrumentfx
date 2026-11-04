@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='docs: keep TANK-PRO attenuation notes in coverage column'
+        message='docs(zoom): restore B6 historical processing row without losing updates'
     print(git('commit','-m',message))
