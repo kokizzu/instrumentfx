@@ -1012,6 +1012,24 @@ Checked **2026-11-04**, [manufacturer EFG1 manual, English pp9–10,20–23](htt
 
 Fresh exact Shopee Indonesia search found no qualified hardware offer. Category census,power-adapter identity/current/polarity,software/imports andbypass coverage remain unresolved. No download ordevice operation.
 
+### PANDORA PX4D — reconciled category census and bass-processing limits
+
+Checked **2026-11-04**, [manufacturer EFG1 manual,English pp25–27,30–44,48](https://cdn.korg.com/us/support/download/files/ec6a5d2611af7916e943d17ccbbfa1ff.pdf). Every English effect-table entry read; numbered variants counted individually. Undated firmware scope; partial lead outside402.
+
+| Category | Selectable choices / count basis |
+|---|---|
+| DYNA | **27**, including AC SIM,FRETLES,pickup transforms,three ring-modulation choices andbass drives. |
+| AMP | **26**:15 guitar,10 bass,one SYNTH. Synth replaces the amp choice. |
+| CAB | **23**:11 guitar,12 bass. Guitar/bass AMP andCAB selections can mix. |
+| MOD | **46**, including three PITCH levels,seven intelligent harmonies,four FEEDBK,four TALK andfour RANDOM choices. |
+| DLY | **25**:SLAP,DELAY,PPDLY,ECHO,MULTI,each variants1–5 differing in feedback. |
+| REV | **10**:DRYAIR,WETAIR andpaired ROOM,PLATE,HALL,SPRING variants. |
+| NR | **One** adjustable reduction stage; counted separately from six selectable effect families. |
+
+**27+26+23+46+25+10+1=158**, matching the headline; not158 simultaneous effects. The documented maximum remains seven. OCTAVE warns that chords orlow strings may track incorrectly. FRETLES simulates fretless bass; it is separate from acoustic conversion andSYNTH. No additional chord-tracking claim.
+
+Remaining: adapter identity/current/polarity,software/import evidence,display properties andqualified exact Shopee hardware. Earlier category-count uncertainty is superseded bythis manual census;installed contents untested. No download ordevice operation.
+
 
 ## PANDORA stomp
 

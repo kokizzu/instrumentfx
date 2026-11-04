@@ -162306,5 +162306,25 @@
     "status": "Named11-button census; mono practice recording/quality/retention qualified;partial outside402",
     "next": "Category census andpower/import gaps; exactShopee offer. Preserve priority displays andindependent GT-Pro/expression queues.",
     "inventory_changed": false
+  },
+  "px4d_category_census_20261104": {
+    "model": "Korg PANDORA PX4D",
+    "checked_date": "2026-11-04",
+    "canonical_section": "brand/KORG.md#pandora-px4d--reconciled-category-census-and-bass-processing-limits",
+    "source": "https://cdn.korg.com/us/support/download/files/ec6a5d2611af7916e943d17ccbbfa1ff.pdf",
+    "revision": "EFG1 English25–27,30–44,48;undated firmware",
+    "counts": {
+      "DYNA": 27,
+      "AMP": 26,
+      "CAB": 23,
+      "MOD": 46,
+      "DLY": 25,
+      "REV": 10,
+      "NR": 1
+    },
+    "total": 158,
+    "status": "Complete manual category census reconciles headline;partial outside402",
+    "next": "Power supply/current/polarity,software/import anddisplay gaps;qualified exactShopee item. Preserve priority displays andindependent GT-Pro/expression queues.",
+    "inventory_changed": false
   }
 }
