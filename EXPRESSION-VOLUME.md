@@ -849,3 +849,5 @@ Stadium Floor [storage and I/O follow-up](brand/LINE6.md#stadium-floor--user-sto
 Stadium Floor [looper retention follow-up](brand/LINE6.md#stadium-floor--named-creative-inventory-and-looper-retention): preset continuity requires matching looper type,channel format andpath. Audio clears onpower-off andisnot stored withpresets. This doesnot establish pedal attenuation ofrecorded loops orall-output global volume.
 
 Stadium Floor [firmware recall qualification](brand/LINE6.md#stadium-floor--firmware-specific-recall-and-play-view-corrections): independent per-pedal Global/Per Preset position settings date to1.4. Hardware1.4.1/1.4.2 address separate snapshot/setlist recall faults;Native1.4.1 is plugin-only. These do not establish global volume assignment ortested installed behavior.
+
+EX-4 [memory-transition qualification](brand/BOSS.md#ex-4--memory-gap-direct-sound-and-noise-detection): SEAM’s direct replacement during a memory gap is separate from CARRYOVER decay. Attenuation of transition audio by the system OUT LEVEL target remains unverified; neither setting proves global full-route mute.

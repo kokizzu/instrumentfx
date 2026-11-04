@@ -427,6 +427,16 @@ Checked **2026-11-04**. The [exact EX-4 panel manual](https://static.roland.com/
 
 Full barrel dimensions,third-party portable-power compatibility,USB/battery operation andexact Shopee hardware remain unresolved. Earlier pending statements remain dated provenance. Partial lead stays outside active counts;no adapter connected,software downloaded ordevice operated.
 
+### EX-4 — memory-gap direct sound and noise detection
+
+Checked **2026-11-04**, [manufacturer MASTER parameter page](https://static.roland.com/manuals/ex-4_parameter/en-US/631124107637712523.html), ©2026 HTML; firmware applicability unstated.
+
+**SEAM LEVEL0–100** sets the direct sound produced instead of effect sound during the silence of memory switching. **CARRYOVER** separately controls whether effect sound remains across the change. SEAM is therefore not proof of uninterrupted processed sound, recorded-loop storage or retained delay/reverb tails. Neither entry establishes that the system OUT LEVEL assignment attenuates every transition path or ALL BYPASS.
+
+The noise suppressor can detect **INPUT** or **NS INPUT**. The manufacturer advises NS INPUT in its illustrated spatial-effect arrangement to avoid eliminating delay-like sound; that diagram was not visually inspected here. High thresholds can suppress playing when the guitar volume is reduced. Detector choice is separate from the suppressor’s audio-chain placement and does not establish external-pedal volume coverage. The second suppressor’s controls are available only outside **SERIAL1** structure.
+
+Earlier shared OUT LEVEL assignment, zero-valued range and EXP HOLD findings remain. Exact Shopee hardware, startup/output/bypass/tail coverage and installed behavior remain unverified. Partial lead stays outside active counts; no download, assignment, connection or device operation.
+
 ## GM-800
 
 Consolidated and refreshed **2026-10-16**; partial verification. This processor qualifies through independent MFX architecture; it requires specialized input hardware for guitar/bass playing. No excluded specialist model is added.
