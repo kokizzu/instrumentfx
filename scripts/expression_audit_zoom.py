@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): qualify B6 effect spaces and official count discrepancy'
+        message='docs(zoom): clarify preset PDF size versus reader limit'
     print(git('commit','-m',message))

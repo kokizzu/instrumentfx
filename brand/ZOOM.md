@@ -2370,7 +2370,7 @@ IR files go in the SD card’s **B6_IR** folder. **PC MODE disables other functi
 
 Checked **2026-11-04**. The older [official B6 HTML manual](https://zoomcorp.com/manuals/b6-operation-manual/) says **nine effects** in its Terms→Patch memory paragraph,but its effect-count note,Adding effects section andSpecifications all say **six**. The [current English manual](https://zoomcorp.com/manuals/b6-en/) consistently states six inthose sections andthe glossary. Both lack an explicit revision identifier;this is a retained source discrepancy,not evidence ofa nine-effect firmware upgrade.
 
-Both manuals say **large effects use two effect spaces**. DSP must also stay within100%;an over-budget selection is rejected. Six positions therefore do not guarantee six arbitrary algorithms together. The existing six-effect/DSP qualification remains. The [exact preset list](https://zoomcorp.com/media/documents/E_B6_PatchMemoryList.pdf) exceeded the reader’s15,454,640-byte limit;factory-filled count remains unverified. No download ordevice test.
+Both manuals say **large effects use two effect spaces**. DSP must also stay within100%;an over-budget selection is rejected. Six positions therefore do not guarantee six arbitrary algorithms together. The existing six-effect/DSP qualification remains. The [exact preset list](https://zoomcorp.com/media/documents/E_B6_PatchMemoryList.pdf) is15,454,640 bytes andexceeded the reader’s size limit;factory-filled count remains unverified. No download ordevice test.
 
 ## Existing ZOOM research — consolidation still pending
 
