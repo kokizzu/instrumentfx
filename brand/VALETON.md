@@ -1482,7 +1482,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 | Presets and user storage | 200 total, 100 factory-filled; factory mix 85 guitar / 10 bass / 5 acoustic |
 | Synth / acoustic functions | V1.0.5 manual: AC Sim (Standard/Jumbo/Enhanced/Piezo), H to S and S to H pickup processing. Step Filter is filtering; dedicated synth unverified. Polyphonic OCTA/Pitch/P-Bend versus monophonic Hammy; Detune ±50 cents; Ring Mod, Hold and Freeze. [Revision-qualified details](#gp-150--creative-effects-and-exact-shopee-offer). |
 | Third-party IR | 20, 1024/2048 samples |
-| NAM / captured models | **Firmware1.1.1+ adds native NAM A2 Lite**, explicitly named for GP-150 in the [official regional notice dated2026-08-18](https://www.hotone.jp/announcements/nama2allbrand), rechecked2026-10-17. Earlier research recorded SnapTone conversion with100 model slots/50 supplied; retain that historical workflow separately. Native A2 Full, other architectures and native model capacity/concurrency are unverified; the old conversion-slot count is not proof of native capacity. |
+| NAM / captured models | **Firmware1.1.1+ adds native NAM A2 Lite**, explicitly named for GP-150 in the [official regional notice dated2026-08-18](https://www.hotone.jp/announcements/nama2allbrand), rechecked2026-10-17. Earlier research recorded SnapTone conversion with100 model slots/50 supplied; retain that historical workflow separately. [Spanish1.1.1 manual](#gp-150--111-native-model-storage-and-mode-boundary) documents **20 nativeA2Lite files**,independent of100 convertedSnapTone files. NativeA2Full,other architectures andconcurrency remain unverified;conversion capacity isnot native capacity. |
 | Audio / control connections | ¼″ input; **L TS unbalanced / R TRS balanced** outputs; 3.5 mm TRRS headset/mic; EXP/FS shared MIDI-in; USB-C |
 | Power and battery | Rechargeable 3000 mAh/3.7 V; DC 9 V centre-negative and USB 5 V/PD charging; ≥1 A operating USB figure; see official charging/adapter requirements |
 | Configuration software | Windows/macOS editor; iOS/Android via Bluetooth |
@@ -1526,6 +1526,17 @@ The [official V1.1.1 manual entry](https://www.valeton.net/wpfd_file/gp-150_onli
 | Field | Offer evidence / qualification |
 |---|---|
 | IDR condition-unverified ask | [HOLY MUSIC, seller945642322/item50012129481](https://shopee.co.id/VALETON-GP-150-GP150-GP-150-MULTI-EFFECTS-PROCESSOR-PEDAL-GITAR-HOLY-MUSIC-i.945642322.50012129481): **Rp3.349.000**, Kota Jakarta Utara. Direct web-reader text, crawled one day before the check; search index two weeks old. Exact GP-150 hardware title; condition, stock quantity, selected bundle, warranty and included accessories not exposed. Arrival guarantee is not checkout-confirmed stock. The Rp10.000 late-arrival voucher is compensation, not an unconditional purchase discount. No condition-qualified used ask established; retain older Salomo Rp2.950.000 new observation separately. |
+
+### GP-150 — 1.1.1 native model storage and mode boundary
+
+Checked **2026-11-05**, [manufacturer-authored Spanish manual reproduction,firmware1.1.1,printedpp15–17](https://device.report/m/db63be33ac23626970260c5c85b13bcfca1d78e89445ae463a5d9a2546fae3e1). Cover identifies exactGP-150/version;panel,12-module chain andports match the [manufacturer product](https://www.valeton.net/product/gp-150/). Original extracted body only;host metadata date/page count isnot a release date orvisual inspection.
+
+| Mode | Documented capacity / workflow |
+|---|---|
+| N→S,default | NAM A1/A2 converted throughSnapTone;**100 files maximum,50 supplied**. |
+| A2 Lite | **Native NAM A2 Lite,20 files maximum**. Storage andcontents are independent ofN→S andchange withthe selected mode. |
+
+The mode selector sits inPatch Editing. A2Lite demands more processing thanconvertedN→S according tothis manual;no CPUpercentage,tracking/tonal measurement orsimultaneousnative-instance count is established. Mention ofFull/Lite architectures doesnot certify nativeFull support;the independent [regional notice](https://www.hotone.jp/announcements/nama2allbrand) explicitly namesLite fromfirmware1.1.1+. Earlier English1.0.5 observations remain dated;English1.1.1 retrieval failure doesnot mean everylanguage copy is inaccessible. Native capacity isseparate from20 cabinetIR locations anddoesnot establish synthesis. No file imported,converted,downloaded ordevice operated.
 
 ## GP-180
 
