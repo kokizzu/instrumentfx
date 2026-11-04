@@ -5680,6 +5680,17 @@ Checked **2026-11-04**, [original GFX-8-5000-2 English manual, printed pp25,29�
 
 Built-in treadle remains separate from direct external analog expression; no such input is listed. Partial profile stays outside active counts. No device operation or local download.
 
+### GFX-8 — converter ratings and separate hold-delay buffer
+
+Checked **2026-11-04**, [original English GFX-8-5000-2 manual, printedpp24,42](https://zoomcorp.com/media/documents/E_GFX8.pdf).
+
+- **Conversion:**40kHz sampling;20-bit A/D with64× oversampling and20-bit D/A with128× oversampling. Oversampling factors are not extra resolution bits orUSB stream specifications.
+- **Inputs:** guitar andexternal return each470kΩ,rated−10dBm;stereo AUX10kΩ,reference−10…+4dBm. The manual defines0dBm as0.775Vrms;retain its notation rather than infer a600Ω load ormaximum headroom.
+- **Outputs:** main mono-jack pair rated+4dBm into10kΩ orhigher;external send−10dBm into10kΩ orhigher. These are **load requirements**,not output impedances. Phones use astandard stereo phone jack;power/load rating remains unknown.
+- **HOLD DLY:** up to**6s**,with Trigger,Gate andSound-on-Sound operation;the latter adds guitar whileCONTROL is held. Recorded data clear when the module turnsOff orthe unit entersbypass. This buffer is distinct from12s/2s Jam Play and25s Sampler.
+
+Partial lead remains outside active inventory. Current hardwarecondition/stock,visual corroboration,firmware equivalence andbroader volume coverage remain unverified. Screenshot requests returned no inspectable images;dimension-axis conflict stays open. No local download ordevice operation.
+
 ## GFX-707
 
 Original guitar multi-effects,not707II;checked2026-10-17;partial. [Official manual][GFX707-M],24pages,707-5000,pp2–7,17,22–24.

@@ -163319,5 +163319,24 @@
     "active_inventory_changed": false,
     "additional_index_unchanged": 65,
     "next": "Continue accessible no-treadle profile andexacthardware gaps;preserve requested individual-footdisplay andindependent GT-Pro queues."
+  },
+  "gfx8_converter_hold_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://zoomcorp.com/media/documents/E_GFX8.pdf",
+    "revision": "GFX-8-5000-2 printed24,42",
+    "canonical": "brand/ZOOM.md#gfx-8--converter-ratings-and-separate-hold-delay-buffer",
+    "findings": [
+      "40kHz/20bit conversion;oversampling separate",
+      "Exact analog input ratings andoutputload requirements",
+      "6second HOLD DLY clears atmoduleOff/bypass;distinct fromJamPlay/Sampler"
+    ],
+    "remaining": [
+      "Dimensionaxis conflict andvisual panel corroboration",
+      "Qualifiedexacthardwarecondition/stock",
+      "Currentfirmware/software",
+      "Broaderexpression/outputcoverage"
+    ],
+    "active_inventory_changed": false,
+    "next": "Continue remaining required-field profiles andqualifiedShopee leads;preserve independent generalGT-Pro,expression andindividual-footdisplay queues."
   }
 }
