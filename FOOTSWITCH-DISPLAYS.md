@@ -199,3 +199,5 @@ Stadium XL [MIDI recall andtoggle-state boundaries](brand/LINE6.md#stadium-xl--m
 AXOM MAX [editor save prompts and Tail-Spill scope](brand/MELOFTY.md#axom-max--editor-save-prompts-and-tail-spill-scope) are now distinguished from proven seamless preset switching; mini-screen technology and external global-volume coverage remain unresolved.
 
 AXOM MAX [developer1.9 processing/tuner qualifications](brand/MELOFTY.md#axom-max--developer19-processing-and-tuner-qualifications) add a named Simplified Noise Gate lead anddated Wah/tuner change claims. App release notes do not resolve mini-screen technology,current hardware firmware,tracking performance orqualified Indonesian stock.
+
+FM9 MKII Turbo [historical layout-view qualification](brand/FRACTAL-AUDIO.md#fm9-mkii-turbo--historical-layout-views-and-stand-in-pointers): the Original/Turbo3.x guide distinguishes12 definitions fromnine visible switches;View2 exposes the otherthree,with a fixed return. Stand-In pointers extend action access without extra screens;current MKII equivalence remains unverified.
