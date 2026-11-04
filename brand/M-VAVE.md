@@ -1337,6 +1337,10 @@ Retail **Rp1.900.000**, [Seven16879370/44814342587](https://shopee.co.id/M-Vave-
 
 Sources: [original branded70-page bilingual manual](https://manualf.oss-cn-hongkong.aliyuncs.com/manual/Combined-Effect-Pedals/TANK-PRO.pdf),Chinese section revision2026-06-12,original visuals front/rear andEN18/19;[official model](https://www.cuvave.com/product?id=tank-pro),dynamic/limited andindexed800g;[downloads](https://www.cuvave.com/download),V36 dated2026-09-24 at original check,release-note fetch failed;SINCO ANN1.0.9conversion changelog. No firmware installed/tested. Preserve mass,import capacities/architecture,USB/MIDI wiring,screen and price gaps.
 
+| Field | Evidence / qualification |
+|---|---|
+| Expression / P1-P2 bypass states | [Dated manufacturer manual](#tank-pro--p1p2-target-bypass-and-global-save-boundary):ToeNone leaves block states;Resume restores presetstate when leaving;Disable turns departed target off. This isnot proof ofphysicaltoe hardware,global volume orpedal-position recall. |
+
 <!-- comparison evidence ends -->
 
 ### Preserved original finding
@@ -1445,3 +1449,11 @@ Englishpp2–4 distinguish hand MASTER,covering instrument/drums/loop but exclud
 ### TANK-PRO — recovered revision and volume algorithm,2026-10-28
 
 The same39-page original mirror,Chinese printedp16 (PDFp36),explicitly gives **revision2026-06-12**,matching the date cited for the older70-page source;page-count/content identity remains unproven. Chinese printedp15 lists **Exp_Vol / Exp_Pan inside FX1/FX2**,supporting the documented preset-bound effect route rather than a universal master assignment. The dated copy therefore narrows source provenance without resolving newer PT/IP1/IP2 behavior. Manufacturer product search still gives only those labels;release-note endpoint remains inaccessible. Earlier uncertainty and70-page source retained.
+
+### TANK-PRO — P1/P2 target bypass and global-save boundary
+
+Checked **2026-11-05**, original bilingual **2026-06-12** manual,English14 (PDF15/39),[matching ManualsLib body](https://www.manualslib.com/manual/4590071/M-Vave-Tank-Pro.html?page=15),corroborated by[previously identified original PDF extraction](https://device.report/m/3544d1e57e0069ad2be035b67327d578bba8627e5ef3f4374741e51704264f55). Manufacturer-hosted PDF remains inaccessible;host-generated FAQs excluded. Older70-page identity uncertainty retained.
+
+**Toe None** leaves module states unchanged duringP1/P2 changes. **Resume** activates thedestination effect andrestores thedeparted effect’s preset state;**Disable** activates thedestination andturns thedeparted effect off. These are switch-state policies,not physicaltoe-switch detection,held-position recall orall-preset volume assignment. **Invert** reverses pedal direction;it doesnot document tip/ring wiring orresistance.
+
+Leaving GLOBAL automatically saves global parameters,like holdingSAVE. However,the samepage expressly excludes **PEDAL SWITCH** fromglobal scope. Automatic global saving therefore doesnot convert this convenient P1/P2 toggle intoaglobal target assignment. CurrentPT/IP1/IP2 product-mode equivalence andbypass/headphone/tail/loop attenuation remain unresolved. No deviceoperation orlocaldownload.
