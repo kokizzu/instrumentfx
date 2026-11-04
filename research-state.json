@@ -167641,5 +167641,25 @@
     "active_inventory_unchanged": 402,
     "partial_outside_active": true,
     "next": "Individual footswitch-display models retain priority; independent GP-200JR→Prime→GE300 cycle, GT-Pro andexpression queues preserved"
+  },
+  "fm9_original_mixer_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-original--mixer-row-routing-and-phase-alignment",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 printedpp3,59; explicit FM9 column",
+    "findings": [
+      "Four CPU-limited Mixer instances",
+      "Six fixed stereo grid-row inputs, empty rows preserve numbering",
+      "0–100% row gain; balance; up to64sample phase-alignment delay",
+      "Stereo/mono output and no block bypass"
+    ],
+    "remaining": [
+      "Installed equivalence/introduction firmware",
+      "Original FM9 mini-screen physical specifications",
+      "Exact-revision qualified Shopee new/used offers",
+      "Complete remaining category census"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue requested individual-footdisplay evidence first; preserve GP-200JR→Prime→GE300, GT-Pro, expression andconsolidation queues"
   }
 }

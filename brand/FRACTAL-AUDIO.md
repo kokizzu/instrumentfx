@@ -1929,6 +1929,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | Used IDR | No original-revision,condition-confirmed Shopee offer established. |
 | New IDR | No original-revision,condition-confirmed Shopee offer established. |
 | IDR revision-unverified hardware | **Rp36.000.000**,Bersih Jaya Cleaning,KotaSurabaya,[shop1354606623/item43322190869](https://shopee.co.id/Fractal-Audio-Systems-FM9-MKI-i.1354606623.43322190869),four-month index checked2026-11-01;service unavailable. Same item has conflicting FM3-MKII-Turbo URL slug,two-month FM9MKI snapshot andstaleAugust6–8 delivery. Original/Turbo revision,condition,stock,working state,bundle,warranty,adapter andcheckout unknown. Excluded fromexact-revision new/used ranges;voucher compensation notdeducted. [Full conflict](#fm9-original--partial-lcd-discovery). |
+| Routing / Mixer | [November guide](#fm9-original--mixer-row-routing-and-phase-alignment): four CPU-limited Mixer instances; six stereo row inputs each, with gain/balance and up to64-sample alignment delay. No block bypass; not six hardware inputs or global volume. |
 | Categories / Megatap | [November guide limits](#fm9-original--november-megatap-limits-and-texture-controls): 64 taps per block on FM9; two instances subject to DSP. Distinct from Multi-Delay and Plex; 22-type headline is not a complete named census. |
 | Categories / Graphic EQ | [November guide count conflict](#fm9-original--november-graphic-eq-count-conflict): 18 advertised versus16 variants described; four FM9 blocks, DSP permitting. Two variants remain unidentified. |
 | Categories / Ten-Tap Delay | [Two named types](#fm9-original--november-ten-tap-pattern-and-timing-boundaries): Ten-Tap Delay andRhythm Tap Delay;two FM9 blocks,DSP permitting. Repeat count,Decay andpattern feedback have different roles. |
@@ -2216,6 +2217,14 @@ Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printedpp3,92](h
 Checked **2026-11-05**, exact [manufacturer FM9 downloads page](https://www.fractalaudio.com/fm9-downloads/), explicitly naming **FM9 Original and FM9 Turbo**. The Windows USB driver is now **6.20, November 4, 2026**, for **Windows 10+ x86/x64/ARM**, covering USB audio and MIDI-over-USB used by Fractal-Bot/FM9-Edit. Windows 7/8 instead points to legacy5.12. This supersedes the6.16 listing observed above on November4; it does not establish a particular bug fix, changed channel count or native ARM editor. No driver change log was inspected.
 
 The page separately retains **USB firmware1.04, June2,2023**, described as a hardware-revision update not required when1.03 is installed. It is distinct from processing firmware12.0 and the Windows driver. [FM9-Edit](https://www.fractalaudio.com/fm9-edit/) remains **1.03.22, August25,2026**, with the separately qualified desktop OS/32-bit-build requirements above. No software or firmware downloaded or run; hardware, global-volume and market gaps remain open.
+
+### FM9 original — Mixer row routing and phase alignment
+
+Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printedpp3,59](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf),explicit FM9 column. **Four Mixer instances** are available subject to CPU; each combines **six stereo grid-row inputs**,not six physical connectors or six additional algorithms.
+
+Inputs correspond to the six rows immediately left of the block; empty rows still retain their numbers. Each row has **0–100% gain**,left/right balance and up to **64 samples (approximately1.3ms)** of alignment delay. These short delays align parallel paths,not musical echo buffers. Output can remain stereo orsum to mono,with independent master level/balance. **Mixer cannot be bypassed.**
+
+This closes a routing-category detail,not a guarantee ofphase coherence for every parallel effect or an all-preset expression-volume assignment. Current installed equivalence andintroduction firmware remain unverified. Original/Turbo2022 evidence,physical-display qualifications andrevision-unresolved IDR offers remain intact. No download ordevice operation.
 
 ## FM9 Turbo
 
