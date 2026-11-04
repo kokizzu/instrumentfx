@@ -6432,7 +6432,7 @@ Checked2026-10-17; partial. [Official English manual][R1K-M],16pages,RFX-1000-50
 
 | Field | Evidence / gaps |
 |---|---|
-| Expression | No integrated treadle;FS01 bypass input. Continuous EXP/toe unknown. |
+| Expression | No integrated treadle or analog EXP input in the complete connector inventory; FS01 supplies effects on/off only. Direct continuous-pedal volume is unavailable through these documented sockets; toe control is not established. |
 | Controls | **6 rotaries /0 integrated footswitches /0 separate buttons**, text-derived;BANK selector and power separate. Visual verification pending. |
 | Display | Level/power LEDs; published screen diagonal/color/touch unestablished. |
 | Processing / choices | **33 effect selections,3 banks×11**,one selection active. EFFECTS has7 single+4 dual combinations;vocoder adds distortion+chorus in some variations. Not33 simultaneous blocks;global maximum concurrency unverified. |
@@ -6440,11 +6440,12 @@ Checked2026-10-17; partial. [Official English manual][R1K-M],16pages,RFX-1000-50
 | Pitch / note handling | [Original p12](#rfx-1000--pitch-intervals-and-additional-exact-hardware-offer): discrete detune/interval choices through ±1octave; direction separate. Stereo is audio-channel scope; chord handling unverified. |
 | Synth / acoustic | Vocoder uses external synthesizer at INPUT L,voice control via MIC IN;not proof of internal synthesizer. Acoustic conversion unknown. |
 | Dimensions / weight | **482W×44H×115Dmm;1.5kg**. |
-| I/O | Mono quarter-inch L/MONO,R inputs;L/R outputs;front dynamic-mic input;BYPASS;power. USB/MIDI/headphones/phantom unestablished. |
+| I/O | Mono quarter-inch L/MONO,R inputs; L/R outputs; front dynamic-mic input; BYPASS; power. No USB, MIDI or dedicated headphone connector in the complete inventory. Phantom power unestablished. |
 | Power | **12V AC AD-0008**;not12V DC. DC polarity N/A;current/battery/USB operation unknown. |
 | Editor / platforms | Editor,driver/updater and supported OS unknown. |
 | IR / NAM / captures | User IR,native/converted NAM,captures unknown. |
 | Looper / drums / live | Looper/drums/scenes unknown. |
+| Routing / wet-dry | [Insert versus send/return guidance](#rfx-1000--current-connector-summary-and-wetdry-operating-scope): fully WET for external mixer returns and processed-original algorithms. FS01-off dry gain and tails remain unknown. |
 | IDR / additional exact ask | [Original 2nd40348241/54115999750](#rfx-1000--pitch-intervals-and-additional-exact-hardware-offer): Rp900,000,Habis,last-week cache checked2026-11-04; condition and bundle unknown. Shop name does not establish used condition. |
 | Instrument scope | Guitar requires preamp/effect first;dynamic microphone supported. Guitar/vocal shared inclusion; bass unclassified. |
 
@@ -6497,6 +6498,14 @@ Physical OUTPUT adjusts output level; MIX blends dry/wet. Neither supplies exter
 Checked **2026-11-04**, [manufacturer original RFX-1000-5000 manual,printedp12][R1K-M]. PITCH adds shifted audio to dry; VARIATION selects **7,20,100,200,300,400,500,700,900,1100,1200cents**, with ADJUST choosing up/down. These are discrete intervals,not scale/key harmony. Stereo channels do not establish chord tracking; latency/polyphony remain unverified. Pitch occupies its own effect selection,not an independent add-on to every bank choice.
 
 [Original 2nd,shop40348241/item54115999750](https://shopee.co.id/ZOOM-RFX-1000-Digital-Reverb-Multi-Effects-Processor-Audio-i.40348241.54115999750),Kab.Tangerang: **Rp900,000,Habis**, directly readable **last-week cache**. “Original 2nd” is the shop name,not verified item condition. Stale26–29October delivery andlate-arrival voucher up toRp10,000 do not establish stock ordiscount the ask. New/used condition,working state,adapter,bundle,variant,warranty/import region,shipping/tax andcheckout total remain unknown. Separate from retained older offers;no purchase orseller contact.
+
+### RFX-1000 — current connector summary and wet/dry operating scope
+
+Rechecked **2026-11-05**, [manufacturer RFX-1000-5000 Operation Manual, printed pp2–7,15][R1K-M]. The current summary now incorporates the later direct-expression audit instead of repeating its superseded connector uncertainties; older dated findings remain preserved.
+
+For **insert use**, MIX blends original and processed audio. For **send/return use**, the manual directs fully WET and balances dry/effect at the external mixer. Compressor/limiter and microphone simulation also recommend fully WET because their effect output is processed original audio. INPUT adjusts rear line and front mic signals together; OUTPUT sets analog output level. These hand controls are not continuous external-pedal assignment.
+
+FS01 turns effects off and makes POWER flash red. The checked text does not specify dry gain, effect-tail continuation or true/relay bypass topology; those remain unresolved. RFX-2000 bypass modes are not transferred. User-memory support, current software and condition-qualified Indonesian offers remain open. No device operation or download.
 
 ## RFX-1100
 

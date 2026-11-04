@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(melofty): qualify AXOM MAX retailer OLED lead'
+        message='research(zoom): reconcile RFX-1000 connector and wet dry scope'
     print(git('commit','-m',message))

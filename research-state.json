@@ -166442,5 +166442,19 @@
     ],
     "next": "Continue other accessible requested footswitch-display profiles; retain AXOM primary-confirmation task and independent GT-Pro/general queues",
     "active_inventory_unchanged": 402
+  },
+  "rfx1000_summary_scope_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/ZOOM.md#rfx-1000--current-connector-summary-and-wetdry-operating-scope",
+    "source": "https://zoomcorp.com/media/documents/E_RFX1000.pdf",
+    "revision": "RFX-1000-5000 printed2–7,15;date unstated",
+    "finding": "Summary reconciled with established connector limits; insert/send-return and processed-original MIX roles clarified",
+    "remaining": [
+      "Bypass dry gain and tails",
+      "User-memory support",
+      "Condition-qualified IDR hardware"
+    ],
+    "next": "Continue incomplete field profiles; preserve individual-display priorities, GT-Pro and independent general queue",
+    "active_inventory_unchanged": 402
   }
 }
