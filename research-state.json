@@ -163429,5 +163429,27 @@
     ],
     "active_inventory_changed": false,
     "next": "Continue G-System remaining primaryprofile andmarket evidence;preserve individual-footdisplay priority andindependent generalGT-Pro cursor."
+  },
+  "gsystem_io_memory_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://manualzz.com/doc/21735077/tc-electronic-g-system-guitar-effects-processor-users-manual",
+    "revision": "Original1.6/SW1.05/E60504713 pp6,9,18–21,30,78",
+    "canonical": "brand/TC-ELECTRONIC.md#g-system--connections-preset-selection-and-paired-pedal-roles",
+    "findings": [
+      "100factory+200User;factorybank-list discrepancy retained",
+      "Complete documented connectors;no dedicated phones",
+      "Four expression sockets pairVol/Exp roles,notfourindependenttargets",
+      "Continuously active loop sends precede documented volume position",
+      "USB update role and200mA totalpedalDC outputs"
+    ],
+    "remaining": [
+      "InitialUserfilling",
+      "Completecategory/concurrencycensus",
+      "Currentfirmware/editor",
+      "QualifiedexactShopeeoffers",
+      "Globalvolumeoutput/bypasscoverage"
+    ],
+    "active_inventory_changed": false,
+    "next": "Continue G-System category/creative profile andexactmarket evidence;preserve requested separate-footdisplay priority andindependent GT-Pro cursor."
   }
 }

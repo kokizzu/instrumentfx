@@ -27,10 +27,24 @@ Checked **2026-11-04**, [manufacturer-authored original manual reproduction](htt
 | Expression / range andposition | Volume−100…0dB;Min/Mid/Max0–100%,defaults0/50/100. **Input** placement isafterloops/beforeeffects,preserving tails;**Output** follows effects. Bypass,headphone,USB andrecorded-loop coverage unresolved. |
 | Controls / display | **18 illuminated footswitches,six with rotary encoders**;separate button census/visual check pending. Shared **2×20-character STN-LCD plus20×7dot matrix**,not evidence ofoneLCD perfoot. Diagonal/color/touch unknown. |
 | Body / power | **512.9×265.9×103.4mm**,axes unlabeled;7.83kg. Clearly exceeds preferred width/depth footprint.100–240VAC50–60Hz auto-select,<20W;not a9VDC-powered chassis. |
-| Remaining profile | CompleteI/O,headphones,onboardpresetstepping,memory/factoryfill,category/concurrencycensus,synth/acoustic,IR/NAM/capture,editor/currentOS,battery/USBpower andtoe support unresolved. |
+| Remaining profile | The dated follow-up below resolves documented ports, bank/slot navigation and memory capacity. Initial User filling, category census, synth/acoustic, IR/NAM/capture, editor/current OS, battery/USB power and toe support remain unresolved. |
 | Shopee Indonesia | No qualified exact offer fromtargeted G-System/GSystem searches;new/usedIDR,seller/item,condition,stock,bundle,warranty,region,voucher/checkout unknown. Searchabsence isnotmarketabsence. |
 
 No local download,calibration,MIDI transmission ordeviceoperation. This initial source check doesnot certify installed/currentfirmware orcomplete hardwareprofile. Preserve independent GT-Pro/general andrequested footswitch-display queues.
+
+### G-System — connections, preset selection and paired pedal roles
+
+Checked **2026-11-04**, [original manufacturer manual reproduction](https://manualzz.com/doc/21735077/tc-electronic-g-system-guitar-effects-processor-users-manual), revision1.6/SW1.05/E60504713, printed pp6,9,18–21,30,78. No device test or local download.
+
+| Field | Documented scope / remaining limit |
+|---|---|
+| Memory / navigation | **100 factory +200 User =300 locations**. Bank UP/DOWN plus five PRESET selectors; pressing both bank switches toggles factory/User groups. This is bank-and-slot selection, not dedicated sequential preset stepping. Initial User filling remains unverified. The quick guide lists factory A0–A9/B0–B9; p30 lists only A0–A9 despite retaining100. Preserve the address-list discrepancy. |
+| I/O / instrument and loops | Front/rear guitar inputs are mutually selected. Four mono send/return loops plus a preamp Insert; stereo main L/R, coaxial S/PDIF out, MIDI IN/OUT, USB-B, two TRS relay-switch outputs, four external pedal sockets and Control Link. No dedicated headphones shown in this connector inventory. External-effect loops are not phrase loopers. |
+| I/O / dry sends | Loop sends run continuously; connecting a return breaks that loop path. A send can feed a dry destination. Post-loop volume placement therefore does not establish attenuation of those earlier sends. |
+| Expression / paired roles | Two sockets on each unit provide **two access points for each Vol/Exp role**, not four independently assigned roles. Simultaneous-controller precedence remains unspecified. |
+| USB / pedal power | USB is documented for software updates, not established audio or bus power. Four9VDC pedal-power outputs share **200mA total**, center-negative; these are outputs, not the chassis supply. |
+
+Partial lead remains outside active counts. Current firmware, full algorithm census, visual corroboration, qualified Shopee offers and bypass/recorded-loop volume coverage remain open.
 
 ## M100
 
