@@ -543,7 +543,7 @@ def commit(stage=False):
         assert review['head'] == research_tools.git('rev-parse','HEAD').strip()
         assert review['sha256'] == digest(research_tools.git('diff','--cached'))
         assert not research_tools.git('diff','--cached','--check').strip()
-        print(research_tools.git('commit','-m','audit: preserve typed historical JSON research metadata'))
+        print(research_tools.git('commit','-m','audit: finish historical metadata preservation review'))
 
 if __name__ == '__main__':
     {'plan':plan,'apply':apply,'verify':verify,'commit':commit,'stage':lambda:commit(stage=True),'audit-history':audit_history,'test-history':test_history,'plan-history':plan_history_preservation,'plan-history-source':lambda:plan_history_preservation(True),'plan-history-json':plan_history_json}[sys.argv[1]]()
