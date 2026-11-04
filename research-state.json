@@ -163638,5 +163638,13 @@
     "finding": "Transcription mapsFXREC/DUB,MODPLAY/STOP,DELAYUNDO/REDO,REVERBCLEAR;shortclearerases,holdexits,poweroffclearsloop. DoNotcertifycurrenthardware.",
     "next": "Originalpassagecorroboration;USBchannels/globalFVstillunknown. Continueothermodelgapsratherthanunchangedfailures.",
     "active_count_unchanged": 402
+  },
+  "rk5_v3_discovery_20261104": {
+    "source": "https://www.tech21nyc.com/wp-content/uploads/2026/01/RK5_v3_OM2.pdf",
+    "index": "https://www.tech21nyc.com/support/",
+    "revision": "8PDFpages,©2024Tech21,OM2 filename;no firmware/date inference",
+    "finding": "Exactv3partiallead distinctfromrevisionunknownRK5;pre/postboostboth20dB,loopandpreconfiguredwahpower;9Vcenternegative200mAsupplyminimum/150mAmaxdraw.",
+    "next": "Complete exactv3requiredfields andShopeeIndonesiaoffers;notactiveinventoryadmission. PreserveLCD/expression/generalqueues.",
+    "active_count_unchanged": 402
   }
 }

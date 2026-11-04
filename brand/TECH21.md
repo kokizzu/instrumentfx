@@ -246,3 +246,11 @@ Revision checks against exact primary records:
 - [Current RK5v3 product](https://www.tech21nyc.com/products/flyrig/rk5v3/): adds **pre/postboost,effectloop andpreconfigured phantompower forRK KillerWail**. This doesnot identify theShopee unit orauthorize assigning v3features toolderRK5.
 
 Keep offer family-qualified until a legible sellerpanel/rearlabel orrevision-explicit offer establishes exacthardware. Searches forShopee RK5v2,RK5 12V andAcousticFlyRig returned noadditional exact result;not proof ofabsence. No downloads orseller contact.
+
+### RK5 v3 — separate exact-revision discovery lead
+
+Checked **2026-11-04**, [manufacturer support index](https://www.tech21nyc.com/support/) explicitly links a separatev3 manual. Its [RK5_v3_OM2.pdf](https://www.tech21nyc.com/wp-content/uploads/2026/01/RK5_v3_OM2.pdf),eightPDFpages,©2024Tech21,identifies **Richie Kotzen RK5 v3 Signature Fly Rig**. URL date isnot a release/firmware date. This is a distinct **partial lead outside402 active models**,not identification ofthe revision-unresolved Shopee RK5 above.
+
+The originaloverview retains SansAmp,OMG overdrive andReverb/Delay/Roto;it names **switchable Pre/Post Boost,an effects loop andpreconfigured power forRK Killer Wail wah** as v3 changes. Page3 gives **up to20dB forboth pre andpost boost**;do not borrow FlyRig5v2’s12dB post value. Wah accessory power doesnot establish an expression input orinternal-parameter mapping.
+
+Cover rates **9VDC center-negative,200mA-minimum supply;approximately150mA maximum device consumption**. Those are different quantities. Completecontrols,display,body,memory,fullI/O,EXP/headphones,IR/NAM/capture,software andqualifiedIndonesianoffers remain pending. ExactShopeeIndonesia v3search surfaced only foreign offers;no IDR conversion ormarket-absence inference. No download,modification ordevice operation.
