@@ -166562,5 +166562,23 @@
     ],
     "next": "Do not repeat unavailable manual paths without new evidence;continue accessible incomplete profiles while preserving priority andgeneral queues",
     "active_inventory_unchanged": 402
+  },
+  "gp200jr_octave_ring_swell_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/VALETON.md#gp-200jr--octave-levels-ring-fine-control-and-swell-envelope",
+    "source": "https://manuals.plus/m/7898605c67b93c388ac95c61a2362863c1d324fd63b2fdfb7d4c78851af0f149",
+    "revision": "Manufacturer body firmware1.5.0 printed24;host1.4.0 metadata conflict preserved",
+    "findings": [
+      "OCTA pitch/dry levels",
+      "Ring Fine range distinguished fromfull frequency range",
+      "Auto Swell amplitude envelope distinguished frominstrument synthesis"
+    ],
+    "remaining": [
+      "Current1.8.0 parameter equivalence",
+      "Exact pitch endpoints andtracking performance",
+      "Qualified used/current Shopee hardware"
+    ],
+    "next": "Independent general follow-up next HeadRush Prime thenoriginal GE300;preserve GT-Pro andindividual-display/expression queues",
+    "active_inventory_unchanged": 402
   }
 }

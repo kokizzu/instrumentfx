@@ -1924,6 +1924,7 @@ Guitar/bass/acoustic multi-effects; checked **2026-10-16**. Separate from GP-200
 | Memory | **255 editable slots, first 99 factory-filled, 156 remaining**. Manual p.5 agrees on 255/99 but also says reset “100”; p.19 retains incompatible 01-A–25-D reset wording. Do not substitute LT's 256/100 layout. [Reset scopes and language exception](#gp-200jr--reset-scopes-and-preserved-language) are documented separately. [JR-P, JR-M pp.5,12,19,75] |
 | Synth / acoustic | PRE has AC Sim with four modes; acoustic preamps and acoustic/body CAB choices are separate. Step Filter offers synth-like timbres; dedicated synthesizer architecture not established. [JR-M pp.27,50–54] |
 | Processing / special-delay and Trail scope | [Own1.5.0 manual,pp44–46](#gp-200jr--special-delay-roles-and-bypass-trail-scope): Ring Echo modulates repeats;Rev Echo uses reversed feedback;M-Echo has12 head variations. Trail wording covers effect bypass,not proven preset-change spillover;newer1.8.0 equivalence remains unverified. |
+| Processing / octave, ring and swell controls | [Older1.5.0 parameter roles](#gp-200jr--octave-levels-ring-fine-control-and-swell-envelope): OCTA has separate±1-octave/dry levels; Ring Fine±50Hz is not its total oscillator range; Auto Swell changes amplitude, not a verified violin synthesizer. |
 | Processing / Hold versus Freeze | Hold loops a short segment from before activation;Freeze sustains the sound at activation. Activate can be assigned to EXP; with Activate enabled,CTRL can instead toggle the module. These do not establish another general looper,polyphonic synthesizer orwhole-rig scene count. |
 | Synth / acoustic detail | AC Sim modes:Standard,Jumbo,Enhanced,Piezo. AC Refiner instead processes acoustic instruments. Step Filter is a four-step filter with synth-like timbres, not proof of a dedicated synth engine. Harmonizer1/2 are monophonic single/dual-voice harmonizers, unlike the polyphonic Pitch/P-Bend entries. |
 | IR / capture | Twenty user WAV IR locations, 1024-sample processing; appendix says 44 kHz while recording specification says 44.1 kHz. Import conversion/bit-depth rules unresolved. Firmware 1.8.0 documents NAM-format import into AMP/DST via SnapTone; the regional notice specifies **NAM A2 conversion through desktop software 1.8.1+**, not unrestricted native NAM. Architecture support and concurrent capture limits unresolved. [JR-M pp.37,51,55,69; JR-N] |
@@ -2171,6 +2172,16 @@ Checked **2026-11-05** in the [manufacturer-authored JR manual reproduction](htt
 Factory Reset offers **global settings only**, **factory patches**, or **all data**; each requires a subsequent confirmation, with cancellation available. The maker warns that saved changes/personal settings are deleted within the chosen reset scope. It separately says the selected **language is preserved** after factory reset. These are reset semantics, not proof of power-cycle pedal-position recall or a selective backup facility.
 
 The factory-patch option prints **01-A–25-D**, incompatible with the retained JR255-slot/99-factory allocation and three-patches-per-bank layout. Preserve that copied-layout conflict; do not infer100 factory presets or silently replace its endpoints. Current1.8.0 reset equivalence, exact protected content and recovery behavior remain unverified. No reset, backup, software installation, download or device operation performed.
+
+### GP-200JR — octave levels, ring fine control and swell envelope
+
+Checked **2026-11-05**, [manufacturer-authored JR manual reproduction,printed p24](https://manuals.plus/m/7898605c67b93c388ac95c61a2362863c1d324fd63b2fdfb7d4c78851af0f149). Body identifies **firmware1.5.0** despite host metadata1.4.0; original parameter table only. Current1.8.0 control equivalence remains unverified.
+
+**OCTA** explicitly provides polyphonic octave processing with separate lower(−1octave),upper(+1octave) anddry levels. **Pitch** separates Low/Hi semitone shifts, their output levels anddry level. **P-Bend** lists Low/Hi pitch,Wet,Dry andRange; this table supplies no numeric semitone endpoints. Do not transfer a Harmonizer limit toP-Bend.
+
+**Ring Mod** has Mix,Freq,Fine andTone. Fine spans **±50Hz** around modulation frequency; that is not the total Freq range or a note-tracking specification. **Auto Swell** controls amplitude attack and offers **Line,Exp,Log** curves. Its violin-like description establishes an onset-envelope effect,not a modeled violin ortracking-synth engine.
+
+These controls remain inside existing module selections andDSP limits. They do not establish arbitrary simultaneous pitch blocks,tracking quality ortail attenuation. Preserve newer menu-count evidence andall copied-manual conflicts. No download ordevice operation.
 
 ## GP-200LT
 
