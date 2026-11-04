@@ -162296,5 +162296,15 @@
       "source_head": "b90e8cd978df825b43097709842a1449c8c86a7c",
       "scope": "Registered preservation plus HEAD-reachable technical source revisions; not manufacturer/stock verification or complete migration."
     }
+  },
+  "px4d_buttons_phrase_20261104": {
+    "model": "Korg PANDORA PX4D",
+    "checked_date": "2026-11-04",
+    "canonical_section": "brand/KORG.md#pandora-px4d--named-buttons-and-phrase-trainer-limits",
+    "source": "https://cdn.korg.com/us/support/download/files/ec6a5d2611af7916e943d17ccbbfa1ff.pdf",
+    "revision": "EFG1 English9–10,20–23;undated firmware",
+    "status": "Named11-button census; mono practice recording/quality/retention qualified;partial outside402",
+    "next": "Category census andpower/import gaps; exactShopee offer. Preserve priority displays andindependent GT-Pro/expression queues.",
+    "inventory_changed": false
   }
 }

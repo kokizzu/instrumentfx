@@ -1000,6 +1000,19 @@ Checked2026-11-04 against the [manufacturer owner manual EFG1](https://cdn.korg.
 | Practice / software |100rhythm/bass patterns,up to16linked;Phrase Trainer up to31.7seconds with slowdown without pitch change,not proof of an overdub performance looper. IR/NAM/capture import andeditor platforms unverified;do not borrow stomp USB/editor features. |
 | IDR / remaining |Targeted exact PX4D Shopee Indonesia search found no qualified hardware offer;no price,condition,stock,bundle ormarket-absence claim. Complete button/category census,power label,software/imports,loop retention andbypass/tail coverage remain open. Source availability doesnot establish tracking quality orlatency. |
 
+### PANDORA PX4D — named buttons and Phrase Trainer limits
+
+Checked **2026-11-04**, [manufacturer EFG1 manual, English pp9–10,20–23](https://cdn.korg.com/us/support/download/files/ec6a5d2611af7916e943d17ccbbfa1ff.pdf). Partial lead outside402; firmware/date unstated.
+
+| Field | Exact-model distinction |
+|---|---|
+| Controls / named buttons | **11:** TUNE/BYPASS,EXIT,ENTER/REC,up,down,left,right,TAP,RHYTHM & BASS,PHRASE TRAINER,AUX PITCH. Six rotary controls remain separate; input-level and power/backlight switches excluded. Named text census,not visual corroboration. |
+| Practice / source and duration | AUX,GTR/BAS,AUX+G/B orJAM (instrument plus rhythm). Time choices approximately7.9,15.8,31.7seconds; longer16/32 settings reduce recording quality. JAM uses measures with automatic quality selection andthe31.7-second maximum. |
+| Practice / channel and retention | Phrase recording/playback is **mono** andlost atpower-off. Playback speeds100,90,80,75,66,50% preserve pitch. HOLD repeats the current sound for study;it doesnot establish a tracking-synth freeze. Programs can change during playback/pause;this doesnot prove effect-tail continuity oroverdub support. |
+
+Fresh exact Shopee Indonesia search found no qualified hardware offer. Category census,power-adapter identity/current/polarity,software/imports andbypass coverage remain unresolved. No download ordevice operation.
+
+
 ## PANDORA stomp
 
 Shared guitar/bass multi-effects;not PANDORA mini/PX5D. Checked2026-10-17;partial. Ivory is a colour variant,not a separate processor. Ownership unestablished.
