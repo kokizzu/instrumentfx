@@ -288,6 +288,14 @@ The retained original-controller manual instead lists a **2.5mm** power connecto
 
 Direct manufacturer MarkII electrical/connector confirmation,actual draw,USB/battery operation,pedal pinout andqualified Indonesian hardware remain open. No adapter,pedal,download ordevice operation;controller stays outsideactive audio counts.
 
+### FC-6 Mark II — exact-model editor and switch-override scope
+
+Checked **2026-11-05** against the [manufacturer FC-6 Mark II store page](https://shop.fractalaudio.com/products/fc-6-mark-ii-foot-controller),not theFC-12 listing. The maker explicitly places **FC-Edit inside Axe-Edit,FM9-Edit andFM3-Edit**. This narrows the FC-6 editor-documentation gap;it is host-connected configuration,not a standalone MIDI/audio editor. Exact supported editor/host-firmware versions andOS minima remain unverified.
+
+The same exact-model page documents **per-preset switch overrides**,tap/hold actions,andcustom display text/LED colors. Therefore six physical miniLCDs do not imply six fixed functions across every preset. The main **2×20** readout remains separate;character cells are not pixels. “OMG-9” is presented as anFM3/FC-6 configuration,not nine onboardFC-6 switches orstandalone processor capability.
+
+Targeted ShopeeFC-6/FC-12 searches recoveredno qualified exactMarkII offer;not proof ofIndonesian market absence. Current condition/stock,IDR,power-connector conflict,pedal pinout,miniLCD pixels/color/touch andinstalled firmware remain unresolved. No software download,device connection orMIDI operation.
+
 ### FC-12 Mark II — body and internal-firmware scope
 
 Checked **2026-10-31**;controller only,outside active audio counts.

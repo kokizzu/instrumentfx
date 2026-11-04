@@ -165667,5 +165667,24 @@
     "additional_catalogue_matches": 67,
     "active_inventory_unchanged": 402,
     "next": "Continue individualdisplaypriority andcompactexpression gaps;retain GT-Pro,general andconsolidationqueues"
+  },
+  "fc6mkii_editor_scope_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fc-6-mark-ii--exact-model-editor-and-switch-override-scope",
+    "source": "https://shop.fractalaudio.com/products/fc-6-mark-ii-foot-controller",
+    "revision": "Exact-model liveproduct description;minimumfirmwareunstated",
+    "finding": "FC-Edit embeddedinAxe-Edit/FM9-Edit/FM3-Edit;perpresetoverrides,tap/hold,customlabels andLEDcolors documentedwithoutFC12transfer",
+    "classification": "Controller only;6individualminiLCDs+2x20main;outsideaudioinventory",
+    "market": "TargetedexactShopeeFC6/FC12searches:noqualifiedMarkIIhardware;notabsenceproof",
+    "remaining": [
+      "OS/editor/hostminimums",
+      "Exactpowerconnector/ratingconflict",
+      "Pedalpinout",
+      "MiniLCDpixels/color/touch",
+      "Installedfirmware",
+      "ConditionqualifiedIDRstock"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue remaining individualdisplayprocessor sourcegaps andcompactexpression audit;preserve GT-Pro,general andconsolidationqueues"
   }
 }

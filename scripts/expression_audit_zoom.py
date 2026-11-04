@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(valeton): index GP-50 polyphonic pitch and acoustic simulation'
+        message='research(fractal): qualify FC-6 Mark II editor and switch overrides'
     print(git('commit','-m',message))
