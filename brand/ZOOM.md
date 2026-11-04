@@ -2264,7 +2264,7 @@ Bass multi-effects; large body, external-only expression. Consolidated and refre
 | Size class | Large |
 | Used USD | ? |
 | New USD observation | $359 [P1] |
-| Maximum simultaneous blocks; categories / choices | **6**, DSP-limited; 13 amps; 12 cabinet models ×3 mic positions; 4 DI models; detailed effect-category totals ? |
+| Maximum simultaneous blocks; categories / choices | **6**, DSP-limited; 13 amps; 12 cabinet models ×3 mic positions; 4 DI models. [Complete2021 list census](#b6--complete-dated-effect-list-census):120 named entries across13 categories,including utilities;current installed totals remain unverified. |
 | Factory / user memory | 240 editable patch memories total |
 | Synth / acoustic | Bass Standard Synth / Bass Synth Talk; dual-input piezo support. [Own effect-list clarification](#b6--chord-pitch-versus-synth-tracking) also names Z-Syn,Defret andalgorithm-specific pitch limits;piezo support isnot acoustic simulation. |
 | Third-party IR | Yes, WAV import; user-slot count ? |
@@ -2335,6 +2335,28 @@ Remaining:current category inventory,factory preset subset,IR length/overwrite r
 Checked **2026-11-04**, [manufacturer B6 effect list](https://zoomcorp.com/media/documents/E_B6_FX-list_2.pdf),©2021,printed13–16;currently linked from exact B6 support. **BaPlShift explicitly supports chords**,with−24…+12 semitones. **BaMnPitch explicitly targets single bass notes**,with−12…+12 or+24 semitones and±25-cent fine adjustment. **PitchSHFT** has the latter range;**HPS** uses key/scale harmony. Their input polyphony remains unspecified.
 
 The sheet names **BaStdSyn, BaSynTlk andZ-Syn**;the earlier two-synth product summary is not exhaustive for this document. Synth chord tracking remains unverified. **Defret** is fretless processing;piezo-input support is not acoustic conversion. **LoopRoll** is footswitch sample/hold,10–4000ms,with LATCH/UnLATCH;not the separate phrase looper. **Bomber** explosive sounds use LATCH/TRGGR. These choices remain subject to six-effect/DSP limits;the dated sheet doesnot certify installed/current app contents. No local download ordevice test.
+
+### B6 — complete dated effect-list census
+
+Checked **2026-11-04** against the complete [manufacturer effect list](https://zoomcorp.com/media/documents/E_B6_FX-list_2.pdf),©2021 **Z2I-4452-02**,printed3–20. Count each named entry once;exclude parameter variations andthe duplicated PDL Vol reading example.
+
+| Printed category | Named entries | Pages |
+|---|---:|---|
+| DYNAMICS | 10 | 3–4 |
+| FILTER | 14 | 4–6 |
+| DRIVE | 13 | 6–7 |
+| PREAMP | 11 | 8–9 |
+| BASS AMP | 11 | 10–11 |
+| CABINET | 12 | 12–13 |
+| MODULATION | 17 | 13–15 |
+| SFX | 7 | 16 |
+| DELAY | 7 | 17 |
+| REVERB | 8 | 18 |
+| PEDAL | 6 | 19 |
+| SND-RTN | 3 | 20 |
+| IR | 1 | 20 |
+
+**120 entries total**,including routing/control utilities;not120 simultaneous effects. The six-effect/DSP ceiling remains separate. The list’s **11 BASS AMP** entries andseparate PREAMP category mustnot silently replace the product’s **13 amp choices** summary. Four DI models remain separate fromthis count. Later Guitar Lab additions andinstalled/current library totals remain unverified. This resolves the complete dated-list census only;all earlier prices,qualifications andsource conflicts remain. No package downloaded ordevice operated.
 
 ## Existing ZOOM research — consolidation still pending
 

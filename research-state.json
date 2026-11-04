@@ -163196,5 +163196,38 @@
     "creative_index_unchanged": 65,
     "inventory_changed": false,
     "independent_queues_preserved": true
+  },
+  "b6_complete_list_census_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://zoomcorp.com/media/documents/E_B6_FX-list_2.pdf",
+    "revision": "Copyright2021,Z2I-4452-02,printed3–20",
+    "canonical": "brand/ZOOM.md#b6--complete-dated-effect-list-census",
+    "counts": {
+      "DYNAMICS": 10,
+      "FILTER": 14,
+      "DRIVE": 13,
+      "PREAMP": 11,
+      "BASS AMP": 11,
+      "CABINET": 12,
+      "MODULATION": 17,
+      "SFX": 7,
+      "DELAY": 7,
+      "REVERB": 8,
+      "PEDAL": 6,
+      "SND-RTN": 3,
+      "IR": 1
+    },
+    "total": 120,
+    "basis": "Each named table entry once;exclude duplicatePDLVol example andparameters;includes utilities/routing",
+    "qualification": "Dated list notinstalled/current census;11BASSAMP vsproduct13amps retained;4DI separate;6effectDSP limit",
+    "remaining": [
+      "Current/installed library andlaterapp additions",
+      "Factory-filledpreset subset",
+      "IRlength/overwrite rules",
+      "GlobalEXPcoverage",
+      "QualifiedcurrentShopeeoffers"
+    ],
+    "inventory_changed": false,
+    "independent_queues_preserved": true
   }
 }
