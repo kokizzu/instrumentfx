@@ -590,7 +590,7 @@ Checked **2026-11-05**. **Outside active402 models** pending complete profile an
 | Categories | FX16(including OD/DS),OD/DS21,Wah6,Chorus3,Delay10,Reverb7,EQ1,NS1;Preamp30. Nested counts are not summed concurrency. |
 | Memory |99 patches;factory occupancy unverified. |
 | I/O |13-pin GK;¼-inch Guitar In/Guitar Out,L/Mono+R outputs;stereo-mini phones/AUX;shared EXP/CTL;USB-B;DC input. |
-| Power / body | Adapter,350mA;251W×207D×71H mm,maxheight93mm;1.9kg. Voltage/polarity,battery/USB power unverified. |
+| Power / body | Adapter,350mA;251W×207D×71H mm,maxheight93mm;1.9kg. [Regional9V adapter evidence](#gp-10--current-macos-matrix-and-regional-adapter-rating);polarity,battery/USB power unverified. |
 | Software | TONE STUDIO Mac/Windows;[versioned editor/driver requirements](#gp-10--editor-and-driver-support-boundaries) below. USB audio/MIDI andguitar-to-MIDI;installed operation/channel limits unresolved. |
 | Market |No qualified new/used IDR offer. Search returned unrelated GP-10 products andPhilippine hardware,not Indonesian availability. |
 
@@ -660,6 +660,14 @@ Checked **2026-11-05**, exact-model manufacturer support pages; no packages down
 | macOS USB driver | [1.0.5 heading names Sonoma14.x orlater](https://www.boss.info/global/support/by_product/gp-10/updates_drivers/7ce8e2a7-2a23-434f-b394-ebc43c522705/);requirements defer toHardware & Driver compatibility table. This listing isnot proof ofTONE STUDIO compatibility,all later releases orinstalled operation. |
 
 Editor1.1.1 fixes unintended patch-data transmission during patch selection andkeyboard/UI issues. Version1.1.0 adds batch librarian operations;neither is adevice-firmware version,extra synthesis engine ornew hardware memory capacity. Exact current platform matrix,runtime availability anddevice firmware remain unverified.
+
+### GP-10 — current macOS matrix and regional adapter rating
+
+Checked **2026-11-05** in [BOSS’s linked macOS compatibility matrix](https://www.boss.info/global/support/support_news/25090811m1/), **updated October30,2026**. The GP-10 has separate **Hardware & Driver** and **Exclusive Application** rows. Both mark **macOS15 Sequoia and26 Tahoe:Yes(Download)**;both mark **macOS27 Golden Gate:Under Testing**. These are the source’s explicit version/name labels andtest statuses,not aclaim that all macOS releases orprocessor architectures work.
+
+This narrows the earlier unresolved editor/driver matrix. Dedicated software isrequired;it isnot class-compliant certification orproof ofinstalled behavior. Earlier1.1.1/Sierra history and1.0.5/Sonoma driver heading remain separately qualified. AIR availability,exact package/runtime pairing andlocal operation remain untested.
+
+[Roland Australia’s adapter table](https://rolandcorp.com.au/promo/Adaptors.pdf), **updated February9,2023,pdfp6**, maps **GP-10→PSA-240,9V/0.5A**. This is a regional adapter-output rating,not500mA processor draw;the own-model350mA specification remains. It doesnot certify an Indonesian mains plug/bundle,connector polarity orUSB/battery operation. No adapter orsoftware downloaded,connected orrun.
 
 
 ## GS-10

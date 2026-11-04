@@ -166948,5 +166948,38 @@
     ],
     "inventory_unchanged": 402,
     "next": "Continue unresolved GP10 hardware/power andactualcurrentplatformmatrix;preserve LCDpriority/general/expression/consolidationqueues"
+  },
+  "boss_gp10_matrix_power_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/BOSS.md#gp-10--current-macos-matrix-and-regional-adapter-rating",
+    "sources": [
+      "https://www.boss.info/global/support/support_news/25090811m1/",
+      "https://rolandcorp.com.au/promo/Adaptors.pdf"
+    ],
+    "revisions": [
+      "Matrixupdated2026-10-30",
+      "Regionaladaptertable2023-02-09 PDF6"
+    ],
+    "macos": {
+      "hardware_driver": {
+        "15 Sequoia": "Yes(Download)",
+        "26 Tahoe": "Yes(Download)",
+        "27 Golden Gate": "Under Testing"
+      },
+      "exclusive_application": {
+        "15 Sequoia": "Yes(Download)",
+        "26 Tahoe": "Yes(Download)",
+        "27 Golden Gate": "Under Testing"
+      }
+    },
+    "adapter": "Regional PSA2409V0.5A output;devicedraw350mA distinct",
+    "remaining": [
+      "Actual package/runtime/architecture pairing",
+      "Connector polarity andbattery/USBpower",
+      "Physical control census",
+      "QualifiedShopeeIndonesia offers"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue source-backed missingfields;LCDfirstpriority andindependent GP200JR→Prime→GE300,GT-Pro,expression,consolidation preserved"
   }
 }
