@@ -13,7 +13,7 @@ if __name__ == '__main__':
     comparison_views.verify_views()
     comparison_views.test_readme_brand_counts()
     comparison_views.test_validation_counts()
-    allowed = {'FOOTSWITCH-DISPLAYS.md', 'CREATIVE-EFFECTS.md', 'brand/VALETON.md', 'all-guitar.md', 'all-bass.md', 'all-vocal.md', 'research-state.json', 'scripts/expression_audit_valeton.py', 'Makefile'}
+    allowed = {'EXPRESSION-VOLUME.md', 'FOOTSWITCH-DISPLAYS.md', 'CREATIVE-EFFECTS.md', 'brand/VALETON.md', 'all-guitar.md', 'all-bass.md', 'all-vocal.md', 'research-state.json', 'scripts/expression_audit_valeton.py', 'Makefile'}
     changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
     staged = set(git('diff','--cached','--name-only').splitlines())
     assert (changed | staged) <= allowed, (changed | staged) - allowed
@@ -35,4 +35,4 @@ if __name__ == '__main__':
         assert review['head'] == git('rev-parse','HEAD').strip(), 'HEAD changed since review'
         assert review['sha256'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest(), 'Staged diff changed since review'
         assert not git('diff','--cached','--check').strip(), 'Staged whitespace errors'
-        print(git('commit','-m','research(valeton): complete GP-1 named manual inventory'))
+        print(git('commit','-m','research(valeton): document GP-1 practice limits and expression screening'))

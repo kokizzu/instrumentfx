@@ -25839,6 +25839,14 @@
         "distinct_type_labels": 100,
         "scope": "Manual inventory only; not installed firmware or active admission",
         "next": "Current support/revision, software/import, screen and power gaps; exact Shopee offers; global-volume coverage remains unverified"
+      },
+      "practical_followup": {
+        "checked_date": "2026-11-04",
+        "source": "https://medias.audiofanzine.com/files/gp-1-manual-479221.pdf",
+        "canonical_section": "brand/VALETON.md#gp-1--looper-tuner-and-analog-limits",
+        "expression_view": "EXPRESSION-VOLUME.md#valeton-gp-1--partial-compact-discovery",
+        "revision_access": "Historical official V01_161020 URL inaccessible; filename not proof of mirror revision",
+        "next": "Verify current support/software/import/display and power gaps; exact Shopee offer; all-route expression coverage unresolved; independent queues retained"
       }
     }
   ],

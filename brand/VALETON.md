@@ -627,6 +627,18 @@ Checked **2026-11-04**, [same original manual](https://medias.audiofanzine.com/f
 
 C.412 repeats the parenthetical “Bassist410” despite describing a MESA4×12; retain this source-label discrepancy. The named census supersedes the earlier missing-list qualification only. Firmware revision,synth tracking,global volume,software/import support andexact IDR offers remain unresolved. Partial,outside active counts;no download ordevice operation.
 
+### GP-1 — looper, tuner and analog limits
+
+Checked **2026-11-04**, [original manual](https://medias.audiofanzine.com/files/gp-1-manual-479221.pdf), printedpp16–22,105–106; revision/firmware unknown.
+
+| Field | Qualification |
+|---|---|
+| Looper/drums | Drums can enter the first recording; drum playback then becomes unavailable until loop data are cleared. In Looper mode PARA changes presets and effects remain editable. Loop persistence across power loss and uninterrupted preset switching remain unverified. |
+| Tuner | PRESET selector required for bypass/mute tuning; reference435–445Hz,default440. This is not expression attenuation. |
+| Analog/conversion | Input470kΩ;output100Ω. Sampling44.1kHz;AD/DA24-bit;DSP32-bit. These do not establish USB recording or headphone power/load. |
+
+No exact Shopee item recovered. The recovered historical manufacturer URL, [GP-1_Manual_V01_161020.pdf](https://www.valeton.net/upfile/GP-1_Manual_V01_161020.pdf), is inaccessible; its filename alone does not certify mirror revision. Software/import anddisplay gaps remain. No download ordevice operation.
+
 ## GP-5
 
 Consolidated 2026-10-17. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. NAM compatibility and qualified Shopee snapshots were additionally checked2026-10-17; complete firmware contents and checkout stock remain unverified. Historical next-model notes are provenance; use research-state.json for current work.

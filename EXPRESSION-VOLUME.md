@@ -824,3 +824,7 @@ MS-3 [eng03 recall qualification](brand/BOSS.md#ms-3--eng03-pedal-hold-and-noise
 GT-001 [external navigation and headphone-load qualification](brand/BOSS.md#gt-001--external-patch-navigation-and-headphone-load-scope): NUM INC/DEC is full patch navigation; FAV INC/DEC cycles A–D. Shared CTL/EXP limits concurrent local pedal/switch connections. The manufacturer recommends headphones≥44Ω and lists44Ω output impedance; this does not resolve global-volume attenuation or full panel/treadle screening.
 
 HX Effects [external-loop tail qualification](brand/LINE6.md#hx-effects--external-loop-dry-paths-and-tail-scope): FX Loop Trails can retain external delay/reverb decay on block bypass or snapshot change. Send/Dry Thru and Return Mix are separate controls; this does not establish global EXP attenuation of those routes.
+
+### Valeton GP-1 — partial compact discovery
+
+[Canonical record](brand/VALETON.md#gp-1--partial-discovery-lead): normal guitar input,external analog EXP,shared headphone output andonboard preset up/down;no treadle intextual inventory. Fits preferred footprint before cables. Assignment is saved per preset;global hand-controlled master andcalibration do not prove global pedal volume. Endpoints/recall/bypass/tail/loop coverage remain unresolved. Partial,outside active counts;no exact Shopee offer.
