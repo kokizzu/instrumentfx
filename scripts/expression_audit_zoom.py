@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(donner): document Pocket Go routing and control boundaries'
+        message='research(fractal): distinguish FM9 internal feedback routing'
     print(git('commit','-m',message))

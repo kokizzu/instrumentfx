@@ -1163,6 +1163,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI selle
 
 | Required field | Evidence / qualification |
 |---|---|
+| Routing / internal feedback | [November guide](#fm9-mkii-turbo--internal-feedback-pairs-and-extended-routing):two matched Send/Return pairs can recirculate processing orjoin grid sections;not physical loop jacks orphrase-loop memory. CPU/routing andglobal-volume coverage remain qualified. |
 | Processing / bypass dry-path controls | [November common controls](#fm9-mkii-turbo--bypass-dry-path-and-global-mix-scope): MUTE FX IN/OUT retain Mix, Level and Balance on dry audio; THRU disengages block parameters. Mode availability varies by block. Not proof of all-output EXP attenuation. |
 | Routing / Crossover split | [November reference](#fm9-mkii-turbo--crossover-routing-and-frequency-scope): two stereo two-way XVR blocks, CPU permitting; fourth-order Linkwitz-Riley filters,40–800Hz or400Hz–8kHz with×10. Separate low/high L/R levels and pans support band-specific processing, not note-tracking synthesis. |
 | Manufacturer identity / revision | Four DSP cores;**10+% extra processing over original**,larger switch displays with nearly double viewing area. [Product][f9-p]. |
@@ -1855,6 +1856,14 @@ Checked **2026-11-05**. The exact [FM9 Mk2 Turbo manufacturer product page](http
 The linked page lists **Windows USB driver6.20,November4,2026**, for **Windows10+ x86/x64/ARM**, covering audio and MIDI-over-USB. The earlier **6.16,June10,2026** listing remains historical evidence. Driver architecture support does not certify a native ARM FM9-Edit build; no driver-specific fix or audio-routing change is inferred. Windows7/8 uses legacy5.12 per the page.
 
 [FM9-Edit](https://www.fractalaudio.com/fm9-edit/) remains1.03.22; USB firmware1.04 and processing firmware12.0 are separate listings. No binary or release package inspected, downloaded or run. Exact MKII physical ratings, current installed behavior and qualified market offers remain unresolved.
+
+### FM9 MKII Turbo — internal feedback pairs and extended routing
+
+Checked **2026-11-05**, [manufacturer Blocks Guide,November2026,printedpp3,100–101](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). FM9 column permits **two Send andtwo Return blocks**. These are internal matched pairs:Send1→Return1,Send2→Return2;both members must exist. They are not physical send/return jacks.
+
+Send passes audio unchanged andcannot bypass. Return Level determines recirculated level;Output Level adds separate gain,andReturn hasbypass controls. Feeding effects back througha pair reapplies their processing oneach pass. Alternatively,pairs canjoin successive grid sections. This is routing,not phrase-loop recording,extra synth polyphony orunlimited DSP. The illustrated28-block/80%CPU example isnot an FM9 guarantee.
+
+Manufacturer warns unstable feedback canclip orproduce excessive output;its setup starts Return Level atzero. No preset wasbuilt ortested. Installed-MKII equivalence,tail/loop attenuation andall-output global volume remain unverified. Earlier guide revisions and Shopee qualifications preserved.
 
 ## FM9 original
 

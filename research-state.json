@@ -166748,5 +166748,20 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Return topriority separate-switch-display gaps andindependent GP200JR -> Prime -> GE300 queue;defer repeated unreadable manual URLs."
+  },
+  "fm9mkii_internal_feedback_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-mkii-turbo--internal-feedback-pairs-and-extended-routing",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 pp3,100–101;FM9 column",
+    "finding": "Two internal matched feedback pairs;different fromphysical loops andphrase-loop memory.",
+    "remaining": [
+      "Installed-MKII equivalence andreal presetCPU",
+      "Global output-volume endpoints,recall andall-route attenuation",
+      "Complete18-versus16GEQ census",
+      "Condition-qualified currentShopee hardware"
+    ],
+    "inventory_unchanged": 402,
+    "next": "Continue requested individual-display models;preserve independentGT-Pro andGP200JR->Prime->GE300 queues."
   }
 }
