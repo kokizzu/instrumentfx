@@ -25,6 +25,7 @@ Checked 2026-10-19; partial. Exact Core hardware; separate from GiT, Advanced an
 | IR / NAM / capture | Third-party IR support; manual specifies WAV,44.1 kHz,24 bit,512 samples; Thomann exact-model listing specifies ten custom IR files (qualification below). Native NAM, conversion and capture unverified. |
 | Editor / software | Windows/Mac editing, DAW recording, updates; OTG smartphone/tablet recording/streaming. Exact OS/drivers unverified. |
 | Looper / drums / live | 80-second looper; 40 drum patterns plus ten metronome rhythms; tap tempo; tuner 435–445 Hz. Retention/scenes/trails unverified. |
+| I/O / system levels | [Own manual p36](#dnafx-git-core--system-input-and-otg-level-scope): INPUT LEVEL −∞…+6dB; separate OTG OUT level. Neither establishes direct EXP assignment, output muting or recorded-loop attenuation. |
 | Digital audio | 44.1 kHz, 24 bit; converter architecture unverified. |
 | Synth / acoustic | Unverified. |
 | Documentation | [Exact manufacturer page](https://harleybenton.com/product/dnafx-git-core/); Manual dated03.07.2024,ID578764 recovered below;installed firmware unverified. No sibling specifications imported. |
@@ -104,3 +105,11 @@ Checked **2026-11-03** in the [exact manufacturer manual,03.07.2024,ID578764,pri
 | Synth / engine boundary | Dedicated synthesis remains **unverified**. Static filtering,automatic volume swell,rotary simulation andpitch modulation do not establish synth tracking. **REVERSE** delay is separately available in DLY. |
 
 Global expression assignment,output/headphone/bypass/tail/loop coverage,body/USB revision conflicts andcondition-qualified IDR offers remain unresolved. Guitar membership remains unchanged;no bass/vocal membership inferred froman EQ label. No local download,software installation ordevice operation.
+
+### DNAfx GiT Core — system input and OTG level scope
+
+Checked **2026-11-04**, [original manufacturer manual,03.07.2024,ID578764,printedp36](https://images.thomann.de/pics/atg/atgdata/document/manual/578764_c_578764_en_online.pdf). Exact Core document; current installed firmware untested.
+
+SYSTEM lists **INPUT LEVEL −∞…+6dB**, a separate **OTG OUT** level, **SCREEN** brightness, **CAB SIM TRHU** output options and factory **RESET**. This establishes named system controls, not pedal mapping or a documented universal final-output mute. The chapter doesnot enumerate CAB SIM TRHU modes, OTG level range, brightness range, setting retention or loop/headphone coverage. Preserve the printed TRHU spelling rather than inventing a bypass mode.
+
+The separately documented EXP calibration and Level/Volume/MST target remain insufficient to establish assignment across every preset. Input attenuation can change gain-dependent processing and is not automatically equivalent to post-effect master volume; the −∞ endpoint doesnot prove attenuation of accompaniment or existing tails/loops. The PDF screenshot request produced no inspectable image, so exact footswitch down/up pairing, screen diagonal and physical connector/body conflicts remain open. No download, setting change or device operation.
