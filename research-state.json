@@ -164437,5 +164437,23 @@
     "partial_outside_inventory": true,
     "active_inventory_unchanged": 402,
     "next": "Continue requested individual footswitch-display profiles and accessible manufacturer gaps; preserve GT-Pro, GP-200JR → Prime → GE300, expression and consolidation queues"
+  },
+  "fm9_original_delay_census_20261104": {
+    "checked": "2026-11-04",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-original--november-delay-types-and-capture-boundaries",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 pp3,31–36",
+    "reference_types": 29,
+    "fm9_delay_instances": 2,
+    "qualification": "Named reference census,not installed-firmware orDSP-performance certification;hold/stack and reverse capture remain distinct fromsynthesis andpersistentlooper storage",
+    "market": "Exact original-revision condition-qualified Shopee hardware remains unverified;existing conflicting offer retained",
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Other category censuses",
+      "Installed firmware equivalence",
+      "Global expression endpoints/output coverage",
+      "Exact revision Shopee availability"
+    ],
+    "next": "Continue requested display-priority profiles andexactShopee research;preserve GT-Pro, GP-200JR → Prime → GE300, expression andconsolidation queues"
   }
 }
