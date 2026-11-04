@@ -570,6 +570,7 @@ BASS_FOCUSED = [
 VOCAL_ONLY = ['TC-Helicon::VoiceTone Create XT','Flamma::FV05 Recorder','Roland::VT-4','TC-Helicon::Critical Mass','JOYO::R-16 Vocal Lab','Flamma::FV04 Harmony','Flamma::FV03 Character','Flamma::FV02 Doubling','TC-Helicon::Harmony Singer 2','TC-Helicon::Duplicator','TC-Helicon::Mic Mechanic 2','HeadRush::VX5','BOSS::VE-5','TC-Helicon::PERFORM-VE','TC-Helicon::PERFORM-VK','TC-Helicon::PERFORM-V','Audota::AVE-100','BOSS::VE-1','BOSS::VE-2','BOSS::VE-500','BOSS::VE-22','BOSS::VE-20','TC-Helicon::VoiceLive Play','Zoom::V3','Zoom::V6-SP']
 VOCAL_SHARED = ['MOD Audio::Duo','Zoom::A3','Alesis::NanoVerb','Behringer::DSP2024P','MOOER::GS1000 Li', 'TC-Helicon::VoiceLive Touch 2','BOSS::SE-50','MOOER::Prime M2','MOOER::Prime P2','Eventide::H90','Zoom::RFX-2200','Zoom::1201','BOSS::GT-001','Zoom::RFX-1000','Yamaha::REV500','TC Electronic::M-One XL','Lexicon::MPX100','Alesis::MIDIverb III','TC Electronic::M350','TC Electronic::M100','Zoom::RFX-2000','Yamaha::SPX1000','Yamaha::SPX2000','Lexicon::MX400','Lexicon::MX300','DigiTech::GNX4','Zoom::RFX-1100','Yamaha::SPX990','Yamaha::SPX900','Alesis::MIDIverb 4','Alesis::MicroVerb 4','Behringer::FX2000','Lexicon::MX200','Line 6::POD X3 Live','Line 6::POD HD500X','Line 6::Helix Stadium XL Floor','Line 6::Helix Floor','TC-Helicon::PERFORM-VG','TC-Helicon::VoiceLive 3 Extreme','BOSS::VE-8','TC-Helicon::Play Acoustic','HeadRush::Core','HeadRush::Prime','Hotone::Ampero II MP-350','Hotone::Ampero II Stage MP-380','Fender::Tone Master Pro','MOOER::GS1000']
 BASS_SHARED = {
+    'NUX::MG-50Li':'Exact MG-50Li global manufacturer explicitly supports guitar and bass;US manufacturer also identifies bassists. Not inferred from EQ,capture loading or a sibling. https://nuxaudio.com/product/mg50li/ https://www.nux.us/products/mg-50li',
     'MOD Audio::Duo':'Exact original Duo manufacturer product explicitly supports guitar,bass andvoice withindependent processing;noDuoX inference. https://mod.audio/mod-duo/',
     'Fractal Audio::FM9 Turbo':'Own3.x manual explicitly coversTurbo andaccepts guitar/bass atInput1,p21;notMKII sibling inference. https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf',
     'Fractal Audio::FM9 original':'Original/Turbo3.x own manualp21 explicitly accepts guitar/bass atInput1 andalso permits instruments atInputs2/3;notMKII model inference. https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf',
@@ -873,6 +874,16 @@ def test_output_freshness():
     print('PASS: stale technical content is rejected in each instrument view, even with unchanged membership.')
 
 def test_comparison_selection():
+    # Exact-model manufacturer guitar/bass support must reach every bass table.
+    payload = make_plan(persist=False)
+    key = 'NUX::MG-50Li'
+    assert key in payload['view_membership']['all-bass.md'], 'MG-50Li omitted despite explicit manufacturer bass support'
+    bass_sections = dict(sections(payload['outputs']['all-bass.md']))
+    for heading in ('Hardware and expression', 'Processing and memory',
+                    'Connections, power and practical use', 'Separate IDR asking-price evidence'):
+        assert bass_sections[heading].count('| [NUX MG-50Li]') == 1, 'MG-50Li missing or duplicated in ' + heading
+    assert 'https://nuxaudio.com/product/mg50li/' in payload['bass_membership_basis'][key]
+    assert key not in BASS_FOCUSED, 'Shared MG-50Li classified as bass-only'
     test_output_freshness()
     current = '| Required field | Evidence |\n|---|---|\n| IR | 16 user slots |\n'
     fixture = 'Historical capacity unknown\n<!-- comparison evidence begins -->'+current+'<!-- comparison evidence ends -->Archive remains'

@@ -766,6 +766,7 @@ Queries for Shopee Indonesia **NUX MG-30 MKII**, **MG30 MK2** and **MG30 MKII** 
 
 | Field | Preserved finding / unresolved detail |
 |---|---|
+| Instrument scope | **Shared guitar/bass multi-effects**: exact global andUS manufacturer pages explicitly identify bass use. [Evidence andmembership correction](#mg-50li--documented-bass-scope-and-comparison-inclusion). Not a bass-only model orproof every algorithm preserves low end. Vocal suitability unclassified. |
 | Expression / controls | Built-in plus external EXP/NMP-2 Lite. **7/6/4**,rear power/toe separate. |
 | Body / display | **393×210×72mm;2.8kg**,large. **5-inch color LCD** now corroborated by global/US manufacturer pages;touch/pixels remain unverified. [Current follow-up](#mg-50li--current-display-firmware-and-creative-choices). |
 | Processing | **14 blocks**,serial/parallel/split,dual amp paths. Published EFX14,MOD13,DLY8,RVB5,wah5,comp3,gate1,EQ4;[named lists and pitch distinctions below](#mg-50li--current-display-firmware-and-creative-choices). Dedicated synth/acoustic simulation and algorithm-specific input polyphony unverified. |
@@ -871,6 +872,12 @@ All three:working state,regional hardware/firmware,adapter/bundle,warranty,shipp
 Checked **2026-11-04**, [global manufacturer product page, In the Box](https://nuxaudio.com/product/mg50li/): MG-50Li,bag,USB-C cable,**two MIDI conversion cables**,power adapter,**two pedal toppers**,NBT-1 andUSB-A-to-USB-C converter. This ismanufacturer package documentation,not verification that any Shopee variation includes every item. Do notborrow contents between sellers,regional packages orused units.
 
 The separate Bandung offer above remains search-only;itsBlue/White labels do not certify region,installed firmware,working state oraccessory contents. Existing technical conflicts andprevious ask dates remain unchanged.
+
+### MG-50Li — documented bass scope and comparison inclusion
+
+Checked **2026-11-04**. The [global manufacturer MG-50Li page](https://nuxaudio.com/product/mg50li/),Classic Tones introduction,explicitly describes this exact processor for **guitar andbass**. The [US manufacturer page](https://www.nux.us/products/mg-50li),Ideal for section,independently identifies guitarists andbassists. These statements support shared-bass inclusion without borrowing sibling algorithms orinferring suitability froma BASS EQ knob,NAM loading orseller wording.
+
+The existing402-model inventory isunchanged. MG-50Li was missing fromthe generator’s shared-bass map;adding its evidence makes **178 bass-view records:40 bass-focused+138 shared**,alongside its existing guitar rows. This iscategory inclusion,not complete bass-algorithm verification,measured low-frequency performance orownership. Existing firmware/count/battery/latency conflicts,expression uncertainty andcondition-qualified market gaps remain.
 
 
 ## MG-100

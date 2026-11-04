@@ -9,7 +9,7 @@ Source-backed comparisons prioritize **Shopee Indonesia hardware** and every eli
 | View | Contents |
 |---|---|
 | **[all-guitar.md](all-guitar.md)** |337 guitar/acoustic multi-effects, including **Line 6 HX Effects**, compared across hardware, processing, I/O/power/software and separate IDR tables |
-| **[all-bass.md](all-bass.md)** |177 documented bass-capable models: 40 bass-focused plus 137 shared processors, with full comparison tables and explicit capability evidence |
+| **[all-bass.md](all-bass.md)** |178 documented bass-capable models: 40 bass-focused plus 138 shared processors, with full comparison tables and explicit capability evidence |
 | **[all-vocal.md](all-vocal.md)** |72 vocal/live mic-path processors across the same four comparison tables; harmony, pitch correction and guitar paths remain distinct |
 | **[CREATIVE-EFFECTS.md](CREATIVE-EFFECTS.md)** | Synth, pitch, instrument simulation and special-effects comparison, with exact algorithms, polyphony limits and separate unverified capabilities |
 | **[FOOTSWITCH-DISPLAYS.md](FOOTSWITCH-DISPLAYS.md)** |Requested individual footswitch screens first, including LCD andOLED scribble strips; shared-screen andcontroller layouts distinguished. HeadRush, Line 6, Fractal Audio, Fender, Zoom, TC Electronic, Morningstar, Quad Cortex and MELOFTY, with shared-screen and pending layouts separated |

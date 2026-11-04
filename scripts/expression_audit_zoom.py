@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='docs(nux): keep MG-50Li hardware offers in one table'
+        message='fix(catalogue): include manufacturer-documented MG-50Li bass support'
     print(git('commit','-m',message))
