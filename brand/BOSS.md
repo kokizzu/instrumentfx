@@ -487,6 +487,8 @@ Checked **2026-10-16**. Original2026-10-14 facts above remain preserved; firmwar
 | Required field | Current evidence and limits |
 |---|---|
 | Synth / pitch / instrument simulation / special | ZEN-Core PCM/modeling instrument-tone engine: four Tone parts plus Rhythm. Guitar/bass performance uses compatible divided-pickup/Serial GK; MIDI tone triggering is a separate input path. Audio MFX PitchShiftr (stereo) and 2V PShifter (two generated voices), each coarse range −24…+12 semitones. Separate from part tuning, string transposition, alternate tuning and MIDI pitch bend; channel/voice count does not establish audio-input polyphony. Generated piano, EP, organ, orchestral and synth tones; these are instrument synthesis, not conventional electric-guitar audio acoustic simulation. Slicer, Step Filter, Humanizer, Ring Mod, DJFX Looper/BPM Looper short-buffer effects, Bit Crusher and Phonograph. Per-part MFX and scene FX1/FX2 are distinct processors. [Revision and restrictions](#gm-800--creative-effects-capability-check-2026-11-03). |
+| Expression / scene recall | [Parameter Guide03,p20](#gm-800--conditional-expression-recall-and-usb-loopback): Assign Hold Off recalls saved EXP values; On retains values only when consecutive scenes use the same target. This is conditional recall,not global volume assignment or proof of physical-position polling. |
+| USB / playback versus loopback | [Same guide,p17](#gm-800--conditional-expression-recall-and-usb-loopback): Standard mixes computer audio at hardware outputs but excludes it from USB recording; Mix includes it in both. Re-Synth triggers the tone engine from recorded divided-pickup audio,not arbitrary guitar-audio synthesis. |
 | Expression | No built-in expression or toe switch. **Two shared CTL/EXP sockets**, up to four external switches or two expression pedals. [GM800-P] |
 | K/F/B | **6 /4 /10** retained from manufacturer inventory: OUTPUT LEVEL,SELECT and1–4 knobs; UP/DOWN,CTL1/2 footswitches;five PART,EXIT,WRITE,MENU,two PAGE buttons. Reference manual eng02 labels1–4 as buttons in prose, while startup guide/product list identifies knobs; retain that terminology discrepancy. [GM800-P], [GM800-M] |
 | Display | **256×80 graphic LCD**. Published diagonal,color depth and touchscreen specification unverified. [GM800-P] |
@@ -575,6 +577,16 @@ Checked **2026-11-04**: [manufacturer-authored Parameter Guide reproduction,edit
 | Memory / GK Audio overrides | Scene MASTER offers GK Audio Mode, GK Mix Level andGK Out Level with **SYSTEM** inheritance;levels otherwise0–200. System Mix/Out levels also0–200. These are serial-stream controls,not proof ofglobal analog-pedal volume across every preset/output. |
 
 Normal-pickup OUTPUT MODE support from1.10 andGK Audio introduction1.20 remain distinct firmware-qualified features. Detailed normal-pickup/serial-audio MFX coverage remains unresolved;do not replace that unknown withNo orassign all93 MFX tothese paths. No device/MIDI operation.
+
+### GM-800 — conditional expression recall and USB loopback
+
+Checked **2026-11-05**, [manufacturer-authored Parameter Guide03 reproduction,©2023,printed pp17,20](https://www.manualzz.com/doc/81521733/boss-gm-800-guitar-synthesizer-owner-manual). Original document body only; current installed firmware untested. Direct manufacturer eng03 PDF remains inaccessible.
+
+**Assign Hold:** Off recalls the scene’s saved EXP1/EXP2/GK VOL values. On retains values across scenes **only if their assigned parameters match**. GK VOL has an additional GK-Type qualification excluding GK-5/GK-5B. This is not physical-pedal polling, a global volume target, or evidence of universal output coverage.
+
+**USB Audio Routing:** Standard mixes host playback with the instrument at hardware outputs, but sends only the GM-800 sound back to USB. Mix also sends host playback back to USB. Re-Synth uses recorded divided-pickup audio to retrigger the engine. Mix/Out levels each span0–127; these are USB levels,not EXP endpoints.
+
+Tuner offers single,multi and True Temperament modes; TT supports regular tuning only. Reference pitch435–445Hz; Mute suppresses output, while Bypass passes the divided-pickup sound unchanged. Firmware1.20 added tuner modes; installed behavior,normal-pickup MFX coverage andglobal volume remain unresolved. No device operation ordownload.
 
 ## GP-10 — partial creative discovery lead
 

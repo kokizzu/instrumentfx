@@ -168030,5 +168030,25 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue display-priority full-profile gaps;preserve GP-200JR→Prime→GE300,GT-Pro,expression andconsolidation queues"
+  },
+  "gm800_recall_usb_20261105": {
+    "checked_date": "2026-11-05",
+    "source": "https://www.manualzz.com/doc/81521733/boss-gm-800-guitar-synthesizer-owner-manual",
+    "revision": "Manufacturer ParameterGuide03 ©2023 printed17,20;originalbody",
+    "canonical": "brand/BOSS.md#gm-800--conditional-expression-recall-and-usb-loopback",
+    "findings": [
+      "AssignHold conditional same-target retention,notglobalassignment",
+      "Standard versusMix hostplayback USBreturn distinction",
+      "ReSynth dividedpickup source distinctfrom ordinaryaudio",
+      "Tuner TT regular tuning only;mute/bypass distinction"
+    ],
+    "remaining": [
+      "Normalpickup/GKAudio MFXcoverage",
+      "Current firmware equivalence",
+      "Physicalpositionpolling andglobalvolumeassignment/endpoints/outputcoverage",
+      "Qualified exact Shopee offers"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue display-priority andremainingprofile gaps;preserve GP-200JR→Prime→GE300,GT-Pro,expression andconsolidation queues"
   }
 }
