@@ -62,6 +62,24 @@ The page claims1,440 presets across12 setlists and60 three-preset banks. If60 ba
 
 Two EXP/EXT inputs anddedicated headphones do not establish global expression-volume scope. USB audio is now presented as available,without a firmware prerequisite;the earlier future-update qualification remains historical anddelivery is untested. No new Shopee offer orindividual-LCD classification is established. This stays outside active counts.
 
+### TONEX Board — effect census and quick-start routing scope
+
+Checked **2026-11-04**, manufacturer [Effects List v1.0.0,2026/09/02,all four pages](https://cdn.shopify.com/s/files/1/1052/1303/4828/files/TONEX_Board_Effects_List.pdf?v=1791982179). Counted numbered rows1–76: **Drive22;Modulation16;Pitch3;EQ3;Filter5;Reverb10;Dynamics4;Delay10;Utility3**. These are menu choices, not simultaneous slots or a current installed-library certification.
+
+Pitch names are **Pitch Shifter Mono, Pitch Shifter Stereo, Octav**; Mono/Stereo describe audio channels, not proven note polyphony. Octav supplies two octave-down voices. **Shimmer1/2** are one/two-voice pitched reverbs, not synth tracking. **Harm Delay** shifts repeats; **Arctic** combines shimmer/filterable repeats; **Crusher** provides sample-rate crunch. Electric Flanger includes ring-mod tones. Dedicated synthesis and electric-to-acoustic simulation remain unverified.
+
+The [official product quick start](https://ikmultimedia.com/products/tonexboard), firmware unstated, supplies these additional limits:
+
+| Field | Evidence / qualification |
+|---|---|
+| Routing | Serial:12slots; independent paths:two six-slot chains. Retain the same page’s conflicting12-per-chain specification;24 simultaneous slots are not established. |
+| Expression | EXT.CTRL1/2 each select Single Switch, Double Switch or Expression Pedal; calibration is separate. Parameter macros set MIN/MAX through Edit. Universal volume assignment, numeric ranges, recall and bypass/phones/tail coverage remain unverified. |
+| Navigation | Preset mode:A/B/C load presets; with Footswitch=Release, A+B selects previous bank and C+CTRL next bank. Bank movement is not dedicated preset down/up. |
+| Controls / count scope | Home instructions name five parameter knobs plus a separate Browse knob, clarifying why five parameter encoders need not be the full rotary count. The earlier five-versus-six wording remains qualified; complete controls still unverified. |
+| Phones / initial content | Quick start names mini-TRS headphones and Volume adjustment; product library says230+ factory presets. These do not settle expression coverage, exact filled addresses or the1,440/12/60-bank arithmetic conflict. |
+
+Exact Shopee search still produced no qualified Board hardware offer. Power ratings, built-in treadle status, remaining hardware/software fields and current firmware remain open. Partial lead stays outside active counts; no downloads or device operations.
+
 ## TONEX ONE
 
 Standard TONEX ONE guitar/bass processor, not TONEX ONE+, Bass Edition or an artist variant. Consolidated and partially refreshed **2026-10-17**; no additional active model.

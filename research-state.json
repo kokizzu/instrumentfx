@@ -160863,5 +160863,42 @@
     ],
     "active_inventory_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "tonex_board_effect_quickstart_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "sources": [
+      "https://cdn.shopify.com/s/files/1/1052/1303/4828/files/TONEX_Board_Effects_List.pdf?v=1791982179",
+      "https://ikmultimedia.com/products/tonexboard"
+    ],
+    "revision": "Effects List1.0.0,2026-09-02;product quick start firmware unstated",
+    "counts": {
+      "Drive": 22,
+      "Modulation": 16,
+      "Pitch": 3,
+      "EQ": 3,
+      "Filter": 5,
+      "Reverb": 10,
+      "Dynamics": 4,
+      "Delay": 10,
+      "Utility": 3
+    },
+    "total": 76,
+    "scope": "Numbered menu rows1–76,not simultaneous slots;partial creative lead outside59-record index and402 active models",
+    "new_evidence": [
+      "Serial12 orindependent6+6 example;conflicting12-per-chain headline retained",
+      "Two external control ports with separate calibration andparameter macros;global volume remains unknown",
+      "Bank combinations require Release setting;five parameter knobs distinct from Browse",
+      "Mini-TRS phones;230+ initial preset headline not address census"
+    ],
+    "remaining": [
+      "Exact Shopee hardware condition/variant/stock",
+      "Global analog volume assignment/ranges/recall/coverage",
+      "Built-in pedal andfull controls",
+      "Power andsoftware/firmware minima",
+      "Full routing/count conflicts",
+      "Synth/pitch input-note handling"
+    ],
+    "active_inventory_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }

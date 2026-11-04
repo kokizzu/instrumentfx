@@ -132,6 +132,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [BOSS SY-1000](brand/BOSS.md#sy-1000--partial-discovery-lead) is a **partial lead outside active counts and the 56-record index**. Normal-pickup patches support Dynamic Synth only; full synth/modeling access requires compatible 13-pin GK. Its independent effects chain establishes a multi-effects candidate; [37 historical FX choices and firmware scope](brand/BOSS.md#sy-1000--exact-fx-choice-census-and-dated-software-scope) now name pitch, harmony, sitar/defret, hold/slicer and lo-fi processing. [Exact parameter follow-up](brand/BOSS.md#sy-1000--creative-parameters-and-algorithm-specific-note-handling) confirms single-note Harmonist/Pedal Bend/Sound Hold, separates OSC Synth MONO/POLY from normal-input Dynamic Synth, and qualifies pitch modes. Cached Shopee voucher prices are qualified in the canonical record.
 
+[IK Multimedia TONEX Board](brand/IK-MULTIMEDIA.md#tonex-board--effect-census-and-quick-start-routing-scope) remains a **partial lead outside active counts and the59-record index**. Its dated76-effect list names three pitch choices, pitched reverbs/delays andsample-rate crunch; synth andacoustic simulation remain unverified. Mono/stereo names do not certify chord tracking.
+
 ## What remains uncertain
 
 - Actual tracking quality, latency and installed firmware were not measured for these records.
