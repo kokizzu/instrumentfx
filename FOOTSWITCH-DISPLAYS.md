@@ -185,3 +185,5 @@ AXOM MAX [manufacturer body/electrical ratings](brand/MELOFTY.md#axom-max--manuf
 Helix Rack/Control [snapshot labels and navigation](brand/LINE6.md#helix-rack--spillover-trade-offs-and-snapshot-controls): ten-character snapshot names and selectable FS1/FS7 stepping do not add onboard Rack displays or switches.
 
 AXOM MAX [learned MIDI output andswitch targets](brand/MELOFTY.md#axom-max--learned-midi-output-controls-and-switch-access) address UNBAL/BAL/PHONES levels andsimulate FS1–FS9. They do not add physical displays orverify direct analog global-volume assignment;screen technology remains unresolved.
+
+Tone Master Pro [compound-switch labels andshared settings](brand/FENDER.md#tone-master-pro--compound-switch-shared-settings-and-strip-labels): firmware1.5 documents MULTI labels andshared LED colors/latching behavior across a switch’s five assignments;not five independent display states. Later-page andcurrent-version qualifications remain separate.

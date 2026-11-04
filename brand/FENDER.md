@@ -685,3 +685,14 @@ Checked **2026-11-04** against [manufacturer release history](https://support.fe
 | Display / preset LED colors | **1.8.45:** Preset footswitch LED colors can be assigned in Preset and Song modes; the color menu shows active/inactive choices together. These are **LED** settings, not evidence of color LCD strips. |
 
 Strip diagonal, pixel resolution and color/touch properties remain unverified. Existing page-two MIDI-addressing uncertainty is unchanged. No firmware, software or manual downloaded.
+
+### Tone Master Pro — compound-switch shared settings and strip labels
+
+Checked **2026-11-04** in the manufacturer-authored **firmware1.5 manual,printedpp22–23**, [original document text reproduction](https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual). Original cover/pagination identify the revision;host-generated FAQs excluded. Current1.8 equivalence andphysical behavior untested.
+
+| Field | Revision-qualified control / display boundary |
+|---|---|
+| Controls / compound-switch shared state | **Active LED color,inactive LED color,andlatching/momentary switch type are common to all five assignments on a footswitch**. They are not separately configured per assignment. This qualifies the existing five-function limit;it doesnot add independent switches orindicator states. |
+| Display / combined assignment label | Combined assignments appear as **MULTI** on the scribble strip;the user can replace that with a custom label. A MULTI label doesnot enumerate every underlying block,state orparameter value,andLED colors do not establish color pixels in the strip. |
+
+This complements later assignment-page support without treating sixteen virtual positions as sixteen physical LCDs. Strip dimensions/color/touch,page-two MIDI addressing andglobal analog-volume coverage remain unresolved. No download ordevice operation.
