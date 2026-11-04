@@ -761,3 +761,14 @@ Checked **2026-11-04** in the manufacturer-authored [firmware1.5 manual reproduc
 | Scene/base commands | Each Scene switch can send its own amp-control and MIDI PC/CC commands when selected. Turning that Scene off loads the base preset and **resends the base preset’s commands**. This is documented command recall, not passive retention of the external device’s prior state or verified feedback from it. |
 
 No cable connected, MIDI sent or device operated. Existing ten-LCD count, Scene topology, global analog-volume uncertainty and source-revision qualifications remain. Targeted Shopee searching repeated existing cached items; no new available-stock or condition claim.
+
+### Tone Master Pro — looper speed, pitch and strip-state boundaries
+
+Checked **2026-11-05**, [manufacturer-authored firmware1.5 owner manual, printed30](https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual). Original cover/revision and complete looper prose identified; host summaries excluded. Current1.8 behavior remains untested.
+
+| Field | Revision-qualified evidence |
+|---|---|
+| Looper / speed and pitch | Half-speed playback produces an **octave-down** result. Recording at half speed and returning to full speed produces **octave-up** playback. Reverse is available during recording, overdubbing or playback. These transform recorded audio; they do not establish pitch-tracking synthesis, independent layers or a doubled duration allowance. Retain later1.7.53 three-minute capacity separately from this manual’s historical one-minute limit. |
+| Display / looper strip states | Record/Overdub and Play/Stop scribble strips show their current mode. Corresponding LEDs distinguish capture and playback states; this does not establish LCD color, dimensions or touch support. |
+
+Global looper settings and playback across presets remain documented separately; audio retention after power-off and universal expression attenuation remain unresolved. No download, recording or device operation.
