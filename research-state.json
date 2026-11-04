@@ -163229,5 +163229,21 @@
     ],
     "inventory_changed": false,
     "independent_queues_preserved": true
+  },
+  "b6_import_save_scope_checkpoint_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://zoomcorp.com/manuals/b6-en/",
+    "revision": "HTMLmanual revisionunstated;LoadingIR/Managingpatches/Cardreader sections",
+    "canonical": "brand/ZOOM.md#b6--card-reader-performance-lockout-and-patch-clearing",
+    "finding": "PCMODEperformance lockout;B6_IRfolder;patchDeleteclearsvsAllInitializerecoversfactorysettings",
+    "remaining": [
+      "IRlengthceiling",
+      "FactoryIRoverwritepermission",
+      "Factory-filledpatchcount",
+      "GlobalEXPcoverage",
+      "Qualifiedcurrentoffers"
+    ],
+    "inventory_changed": false,
+    "independent_queues_preserved": true
   }
 }

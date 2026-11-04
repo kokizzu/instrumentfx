@@ -2291,7 +2291,7 @@ Primary sources: [official B6 product](https://zoomcorp.com/en/us/multi-effects/
 | Built-in expression / toe |No built-in pedal; FP02M external input. Separate toe input unverified |
 | Display |4.3-inch TFT color touchscreen,480×272 |
 | User IR locations |120 total:001–036 supplied;037–120 user-assignment range =84 by arithmetic. Original unknown resolved; factory overwrite rules and sample-length limit unverified |
-| IR import |WAV44.1–192kHz,16/24/32-bit via SD. Cabinet IRs do not establish NAM/capture loading |
+| IR import |WAV44.1–192kHz,16/24/32-bit via SD. [B6_IR folder andPC MODE lockout](#b6--card-reader-performance-lockout-and-patch-clearing) apply. Cabinet IRs do not establish NAM/capture loading |
 | Looper |90 s mono /45 s stereo internally; SD extends to2 h,fixed stereo,44.1kHz16-bit WAV. PRE/POST placement |
 | USB audio |2-in/2-out;44.1kHz32-bit or88.2kHz16-bit. Internal sampling88.2kHz is separate. Playback enters after effects |
 | Power |9V500mA center-negative AD-16;USB bus power explicitly unsupported. Operating battery not established |
@@ -2357,6 +2357,14 @@ Checked **2026-11-04** against the complete [manufacturer effect list](https://z
 | IR | 1 | 20 |
 
 **120 entries total**,including routing/control utilities;not120 simultaneous effects. The six-effect/DSP ceiling remains separate. The list’s **11 BASS AMP** entries andseparate PREAMP category mustnot silently replace the product’s **13 amp choices** summary. Four DI models remain separate fromthis count. Later Guitar Lab additions andinstalled/current library totals remain unverified. This resolves the complete dated-list census only;all earlier prices,qualifications andsource conflicts remain. No package downloaded ordevice operated.
+
+### B6 — card-reader performance lockout and patch clearing
+
+Checked **2026-11-04** in the [manufacturer HTML operation manual](https://zoomcorp.com/manuals/b6-en/),sections Loading impulse response data,Managing patch memories andUsing as a card reader. Revision number unstated.
+
+IR files go in the SD card’s **B6_IR** folder. **PC MODE disables other functions,footswitches andparameter knobs**;card-reader transfer isnot documented as a background performance task. It requires a data-capable USB2.0 Micro-B cable andseparate power;USB bus operation is unsupported.
+
+**AUTOSAVE defaults On**;Off requires manual saving. **DELETE clears selected patch contents to Empty**,whereas **ALL INITIALIZE overwrites all settings,including patches,with factory defaults**. These do not establish the initial populated-patch count. Existing001–036 supplied IRs/037–120 assignment range remains;factory-IR overwrite permissions andIR-length limits remain unresolved. No files transferred,card formatted,settings changed ordevice operated.
 
 ## Existing ZOOM research — consolidation still pending
 
