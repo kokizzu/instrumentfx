@@ -102,7 +102,7 @@ The [complete original comparison](../MULTI-EFFECTS.md)<!-- historical-link:neur
 | Size class | Compact. |
 | Blocks / category choices | **Five effects slots**, two pre/three post, plus capture/IR and separate input gate. Slots have placement restrictions; not54 simultaneous effects. [M,D] |
 | Controls / preset recall timing | NanOS2.2.0 manual: preset recall occurs on **footswitch release**, not initial press; holding invokes secondary functions. This is not measured switching latency or general next/previous browsing. [Save/undo scope](#nano-cortex--release-triggered-recall-and-unsaved-edits). |
-| Memory / save and undo | Hold SAVE2s to overwrite the current preset; slowly blinking SAVE indicates unsaved changes. EXIT undoes unsaved preset changes in the documented performance workflow. This does not establish global expression assignment. |
+| Memory / save and undo | NanOS2.2.0 manual: hold SAVE2s to overwrite the current preset;[undated manufacturer guide instead says3s](#nano-cortex--conflicting-manufacturer-save-hold-times). Slowly blinking SAVE indicates unsaved changes. EXIT undoes unsaved preset changes in the documented performance workflow. This does not establish global expression assignment. |
 | Preset storage | **64 presets**, four hardware assignments. [M] Capture storage separate: **25 factory plus up to256 additional**; cloud library is not internal memory. [P] |
 | Synth / acoustic functions | Transpose documented; exact synth/acoustic simulation algorithms unverified. [D] |
 | Third-party IR | **256 user IRs**. Product specifies **10 cabinet models ×30 mic/position variations =300 factory IRs**; older source/manual calls these10 factory IRs. Retain terminology difference; five quick-access slots are not total library capacity. [P,M] |
@@ -323,6 +323,12 @@ Checked **2026-11-04** in the [manufacturer NanOS2.2.0 manual](https://neuraldsp
 A slowly blinking SAVE ring marks an edited preset. **Holding SAVE for2seconds overwrites the current preset; EXIT undoes unsaved changes** in this documented workflow. The separate Capture Volume & Input Gate mode uses EXIT to leave that mode; do not generalize every EXIT press as deleting edits. Preset editing does not establish autosave, persistent expression position or a device-wide volume assignment.
 
 Installed behavior and current factory filling remain untested. No device setting changed, MIDI sent, software installed or manual downloaded locally.
+
+### Nano Cortex — conflicting manufacturer SAVE hold times
+
+Checked **2026-11-05**. The [NanOS2.2.0 manual](https://neuraldsp.com/manual/nano-cortex),Switching & Saving Presets, specifies **two seconds** holding SAVE to overwrite the current preset. The separate [manufacturer preset-management guide](https://neuraldsp.com/getting-started/creating-and-managing-presets-nano-cortex),Creating a Preset step4, instead specifies **three seconds**. That article has no displayed firmware revision; neither source establishes an intentional revision change or measured threshold. Preserve the discrepancy rather than replace the versioned manual with the undated guide.
+
+Both describe saving over the loaded preset; the guide separately uses an empty slot/Create New Preset for a new record. Neither resolves global expression-volume assignment,held-pedal recall or headphone/tail coverage. No save,device operation ordownload performed.
 
 ### Nano Cortex — 2.0 pitch and expression-fix scope
 

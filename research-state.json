@@ -167321,5 +167321,17 @@
     ],
     "inventory_unchanged": 402,
     "next": "Continue individual footswitch-display models and exact Shopee discovery;preserve GT-Pro,expression and GP-200JR->Prime->GE300 queues."
+  },
+  "nano_save_source_conflict_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/NEURAL-DSP.md#nano-cortex--conflicting-manufacturer-save-hold-times",
+    "sources": [
+      "https://neuraldsp.com/manual/nano-cortex",
+      "https://neuraldsp.com/getting-started/creating-and-managing-presets-nano-cortex"
+    ],
+    "finding": "Versioned NanOS2.2.0 manual SAVE hold2seconds versus undated manufacturer guide3seconds;overwrite scope agrees,threshold untested",
+    "global_expression_volume": "Still unverified;no new cross-preset guarantee",
+    "next": "Continue individual footswitch-display gaps andqualified Shopee discovery;preserve independent expression,GT-Pro andGP-200JR->Prime->GE300 queues",
+    "inventory_unchanged": 402
   }
 }

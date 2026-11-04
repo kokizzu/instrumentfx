@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fractal): document FM9 Rotary motion and stereo input scope'
+        message='research(neural): preserve conflicting Nano Cortex save hold times'
     print(git('commit','-m',message))
