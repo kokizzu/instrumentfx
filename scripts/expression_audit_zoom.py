@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(soran): name Tiny Stomp modulation and pitched-reverb choices'
+        message='research(boss): qualify GT-Pro global input conditioning'
     print(git('commit','-m',message))
