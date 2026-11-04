@@ -576,6 +576,34 @@ Checked **2026-11-04**: [manufacturer-authored Parameter Guide reproduction,edit
 
 Normal-pickup OUTPUT MODE support from1.10 andGK Audio introduction1.20 remain distinct firmware-qualified features. Detailed normal-pickup/serial-audio MFX coverage remains unresolved;do not replace that unknown withNo orassign all93 MFX tothese paths. No device/MIDI operation.
 
+## GP-10 — partial creative discovery lead
+
+Checked **2026-11-05**. **Outside active402 models** pending complete profile and market verification; ownership not inferred. GP-10 with/without GK-3 are package options, not two verified processor revisions.
+
+[Exact manufacturer product/specifications](https://www.boss.info/global/products/gp-10/):
+
+| Required field | Finding / limit |
+|---|---|
+| Input scope | Normal guitar input supports amps/effects;13-pin GK supports instrument modeling, synthesis and alternate tuning. Not Serial GK. |
+| Expression / controls | Built-in expression;four pedal switches;shared EXP2/CTL3,4 TRS socket. Knob/button counts andexternal toe compatibility unverified. |
+| Display | Backlit16-character×2-line LCD;diagonal/color/touch unverified. No individual footswitch-screen claim. |
+| Categories | FX16(including OD/DS),OD/DS21,Wah6,Chorus3,Delay10,Reverb7,EQ1,NS1;Preamp30. Nested counts are not summed concurrency. |
+| Memory |99 patches;factory occupancy unverified. |
+| I/O |13-pin GK;¼-inch Guitar In/Guitar Out,L/Mono+R outputs;stereo-mini phones/AUX;shared EXP/CTL;USB-B;DC input. |
+| Power / body | Adapter,350mA;251W×207D×71H mm,maxheight93mm;1.9kg. Voltage/polarity,battery/USB power unverified. |
+| Software | TONE STUDIO Mac/Windows;USB audio/MIDI andguitar-to-MIDI;current OS/driver/channel limits unresolved. |
+| Market |No qualified new/used IDR offer. Search returned unrelated GP-10 products andPhilippine hardware,not Indonesian availability. |
+
+[Original owner manual e02,printedpp7–9](https://cdn.roland.com/assets/media/pdf/GP-10_e02_W.pdf);document revision isnot installed firmware:
+
+| Creative capability | Algorithm distinction / limitation |
+|---|---|
+| Synth |GR-300 models a polyphonic guitar synth;OSC SYNTH uses DSP oscillators;WAVE SYNTH directly processes divided-string audio. Two OSC oscillators do not establish input-note polyphony. |
+| Pitch |FX PITCH SHIFTER,HARMONIST,PEDAL BEND;individual input-note restrictions unresolved. Alternate tuning,12-string andString Bend are unavailable with SYNTH/POLY FX modeling. |
+| Instrument tones |Manufacturer names acoustic,bass,sitar,banjo andfretless modeling;GK requirement retained. Not ordinary-input acoustic-IR evidence. |
+| Special |Poly FX:DISTORTION,CRYSTAL,RICH MODULATION,SLOW PAD,TOUCH WAH. Alternatives,not five simultaneous algorithms;Slow Pad isnot proof ofanother synth engine. |
+| Remaining |Exact concurrency,full named inventories,IR/NAM import,looper/drums/scenes,power,physical controls andqualified offers unresolved. No download ordevice operation. |
+
 ## GS-10
 
 **Active partial profile,2026-10-28; not fully verified.** Discontinued desktop guitar/bass multi-effects, supported by its [own manufacturer product page](https://www.boss.info/global/products/gs-10/), [original brochure](https://cdn.roland.com/assets/media/pdf/gs10_brochure.pdf) and exact-model manual cited below. No exact Shopee offer established. Earlier partial-lead notes remain dated provenance, superseded only in admission status.

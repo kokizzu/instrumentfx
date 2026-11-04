@@ -166814,5 +166814,27 @@
     "market": "Same Vin31173885/29362925028 Rp11928000 last-week cache;not refreshed stock",
     "active_inventory_unchanged": 402,
     "next": "Continue accessible LCD-first primary sources andsystematic remaining profiles;preserve GP-200JR→Prime→GE300,GT-Pro,expression andconsolidation queues"
+  },
+  "boss_gp10_partial_discovery_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/BOSS.md#gp-10--partial-creative-discovery-lead",
+    "status": "Partial manufacturer-confirmed multi-effects lead outside active402;ownership not inferred",
+    "sources": [
+      "https://www.boss.info/global/products/gp-10/",
+      "https://cdn.roland.com/assets/media/pdf/GP-10_e02_W.pdf"
+    ],
+    "revision": "Original owner manual e02,printed7–9;installed firmware unverified",
+    "creative": "GR300/OSC/WAVE distinct;SYNTH/POLYFX disablesalternate tuning/12string/StringBend",
+    "market": "No qualified ShopeeIndonesia hardware;GP10 mice/pumps andPhilippines listing excluded",
+    "remaining": [
+      "Full original manual profile",
+      "Exact concurrency/named algorithms",
+      "Power voltage/polarity andcomplete control census",
+      "IR/NAM/software channel limits",
+      "Qualified Indonesian hardware offers"
+    ],
+    "active_inventory_unchanged": 402,
+    "additional_creative_records_unchanged": 69,
+    "next": "Complete GP10 exact profile if sources allow;prioritize accessible individual-display sources andqualifiedShopee;preserve all independent queues"
   }
 }

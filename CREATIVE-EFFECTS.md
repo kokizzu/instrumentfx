@@ -160,6 +160,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [Donner Pocket Go](brand/DONNER.md#pocket-go--partial-no-treadle-discovery) is a **partial lead outside active counts andthe additional-record index**. Shimmer pitches the reverb wet signal;Swell produces a violin-like envelope texture. Neither establishes a dedicated synth orinstrument-simulation engine;tracking polyphony remains unverified.
 
+[BOSS GP-10](brand/BOSS.md#gp-10--partial-creative-discovery-lead) is a **partial lead outside active counts andthe additional-record index**. GR-300,OSC SYNTH andWAVE SYNTH use distinct synthesis approaches;GK modeling andordinary-pickup amp/effects paths differ. Alternate tuning,12-string andString Bend cannot accompany SYNTH/POLY FX modeling inmanuale02.
+
 ## What remains uncertain
 
 - Actual tracking quality, latency and installed firmware were not measured for these records.
