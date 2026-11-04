@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(boss): qualify EX-4 transition audio and noise detection'
+        message='research(fractal): qualify original FC-12 mirroring and host backups'
     print(git('commit','-m',message))

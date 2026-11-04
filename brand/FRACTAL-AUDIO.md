@@ -362,6 +362,17 @@ Checked **2026-11-03**, [manufacturer manual v2.1,May2021,printedpp3–4,9,14,27
 
 Controller remains outside active audio counts. Existing original display sizes,power discrepancy andhost dependence remain;qualified Shopee hardware andaudio-volume coverage are unresolved. No local download,device test orfirmware operation.
 
+### FC-12 original — mirrored displays, backup scope and host firmware
+
+Checked **2026-11-04**, [original manufacturer manual v2.1, May2021, printedpp7,27,29](https://www.fractalaudio.com/downloads/manuals/FC-X/FC6%2B12-Owners-Manual.pdf). Config-page details concern Axe-Fx III; FM3 configuration requires its own manual.
+
+- **Mirroring:** layouts and switch states synchronize; connected expression pedals and external switches do not. Assignments address a particular FC and jack. Matching mirrored displays therefore do not establish shared volume control.
+- **Display controls:** preset/scene numbers can be hidden to allow longer names. Notification Hold sets temporary main-LCD message duration. Ring intensity is Bright25–100%/Dim1–50%, not an LCD-brightness specification.
+- **Storage and software:** Fractal-Bot host System backups include FC settings, layouts and customizations. Host System reset erases those settings. Axe-Edit/FM3-Edit edit the controller through the host. Host firmware supplies FC features/fixes; separate internal FC firmware also exists. This is revision-qualified documentation, not current compatibility or installed-firmware proof.
+
+Original controller remains outside active processor counts. Global volume assignment, endpoints, recall and bypass/headphone/tail/looper coverage remain unverified; no device or software was run.
+
+
 ## FM3 MKII Turbo
 
 Partial record checked **2026-10-17**. Exact MKII Turbo hardware offers; original FM3 offers are not merged. Manufacturer's 7.x manual expressly covers both revisions; current firmware listing is newer. Unknown means unverified.
