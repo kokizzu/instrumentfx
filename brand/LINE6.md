@@ -1174,6 +1174,15 @@ FS6 displays its two selected modes. Automatic return after preset selection dep
 
 Checked **2026-11-04**, [manufacturer PowerCab/L6 Link support article](https://kb.line6.com/helix-stadium-connection-with-powercab-plus-and-l6-link), no firmware revision or publication date exposed. For **Powercab 112 Plus and 212 Plus**, the article distinguishes quarter-inch/XLR audio from L6 LINK control: those analog connections provide no additional controller features. L6 LINK requires separate Expand D10 hardware and future updates. The page still describes D10 as preorder-only with release date TBD; this is a dated support-page claim, not independently verified current accessory availability. Do not infer that the XL Nexus connector alone supplies a direct Powercab L6 LINK connection, or extend this statement to other Powercab variants.
 
+### Stadium XL — Aux return trade-off and USB recording-source selection
+
+Checked **2026-11-05**, manufacturer live [Global Settings→Ins/Outs](https://manuals.line6.com/en/helix-stadium/live/global-settings),navigation v1.4/RevD witholder revision labels. Installed behavior untested.
+
+- **Return Type:** Return/FX Loop mode makes the Aux Matrix channel unavailable;Aux mode instead exposes an always-on,unprocessed stereo input anddisables corresponding Return/FX Loop blocks. This is a shared-port trade-off,not an additional independent stereo input. The [rear-panel chapter](https://manuals.line6.com/en/helix-stadium/live/rear-panel) specifically assigns XL Aux toReturns3/4;the generic settings row says1/2 withXL3/4 parenthetically. Preserve XL3/4 as theexplicit rear-panel identification;the mixed wording doesnot independently prove two simultaneous Aux pairs.
+- **USB Out1/2:** Direct Out provides a selectable preset-output destination. Matrix¼-inch,MatrixXLR orMatrixPhones instead mirrors that selected mixer layer andremoves USB1/2 fromthe preset Output list. This setting determines recording source;it doesnot establish global analog EXP control,all-source mute orchanges tothe dedicated USB7/8 DI paths.
+
+Existing S/PDIF selection andUSB-playback routing retain their separate scopes. Shopee search/direct responses repeat thealready-recorded cachedXL offers;no new stock/condition evidence. Primary power ratings andOLED physical specifications remain unresolved;no connection,download ordevice operation.
+
 ## HX Effects
 
 <!-- comparison evidence begins -->

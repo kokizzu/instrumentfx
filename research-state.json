@@ -167287,5 +167287,25 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "ContinuePrime thenoriginalGE300independentqueue;prioritizeotherindividualdisplay andfreshShopeeleads;preserve GT-Pro/expression/consolidationqueues"
+  },
+  "stadium_xl_aux_usb_source_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/LINE6.md#stadium-xl--aux-return-trade-off-and-usb-recording-source-selection",
+    "sources": [
+      "https://manuals.line6.com/en/helix-stadium/live/global-settings",
+      "https://manuals.line6.com/en/helix-stadium/live/rear-panel"
+    ],
+    "revision": "Livev1.4RevDnavigation,mixedolderlabels",
+    "finding": "Auxmodeexcludes correspondingReturn/FXLoopblocks;USB1/2DirectOutversusMatrixmirroring removesdirectdestination",
+    "qualification": "RearidentifiesXL3/4;genericrow1/2withXLparentheticaldoesnotprove2Auxpairs;noglobalEXPcoverage",
+    "market": "Existing53707848703/42029627291cachemismatchrepeated;nonewstockclaim",
+    "remaining": [
+      "XLpowerlabelratings",
+      "OLEDphysicalspecifications",
+      "GlobalEXPoutputcoverage",
+      "QualifiedShopeecondition/stock"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue otherrequestedindividualdisplay model gaps andgeneralPrime→GE300queue;preserve GP200JRcursor,GT-Pro,expression/consolidationqueues"
   }
 }
