@@ -33,6 +33,7 @@ Canonical root brand profiles; all retain explicit verification gaps. Preserved 
 - [KATANA:GO](#katanago)
 - [ME-5](#me-5)
 - [ME-8](#me-8)
+- [ME-8B — partial bass discovery lead](#me-8b--partial-bass-discovery-lead)
 - [ME-20](#me-20)
 - [ME-20B](#me-20b)
 - [ME-25](#me-25)
@@ -3439,6 +3440,20 @@ Original/good/no-minus are seller claims, not verified condition or authenticity
 [ME8-M]: https://cdn.roland.com/assets/media/pdf/ME-8_OM.pdf
 [ME8-O]: https://shopee.co.id/BOSS-ME-8-SECOND-ORIGINAL-BAGUS-NO-MINUS-i.190993829.17255720607
 [ME8-S]: https://shopee.co.id/charlijulian777
+
+## ME-8B — partial bass discovery lead
+
+Checked **2026-11-04**. Exact bass multi-effects,distinct from ME-8;**outside the402 active models**,not fully verified andno ownership assertion. Discovered during fresh bass-family search after unchanged individual-LCD source blockers.
+
+| Field | Evidence / qualification |
+|---|---|
+| Synth / pitch / instrument processing | Roland’s historical [NAM-3382 catalogue](https://www.roland.com/jp/lp/catalog_museum/pdf/NAM-3382.pdf) explicitly names **Synth Bass,Octave,Defretter andHumanizer**;dedicated control effects include **Pedal Pitch Shifter,Ring Modulator,Intelligent Ring Modulator,Slow Attack andVibrato**. These names establish documented choices,not input-note polyphony,latency,simultaneous availability oracoustic-instrument simulation. Defretting andvowel/modulation processing are distinct from a tracked synth engine;architecture remains unverified. Indexed panel MONO/POLY text is not assigned toSynth Bass without its parameter guide. Catalogue revision/date unverified;directPDF OCR ispoor,so indexed manufacturer text is the evidence,not visual inspection. |
+| Memory / historical catalogue | [Roland NAM-2752 catalogue](https://www.roland.com/jp/lp/catalog_museum/pdf/NAM-2752.pdf),indexed exactME-8B text,states **32Preset+32User=64 settings** and23effects. The23 headline is not a reconciled algorithm/subtype census orsimultaneous count. Factory-filled User subset,protection andcurrent unit contents remain unverified. Catalogue date/revision unresolved. |
+| Manual / primary endpoint | [BOSS Manual Archive](https://www.boss.info/us/support/manual_archive/) links [exactME-8B owner manual](https://cdn.roland.com/assets/media/pdf/ME-8B_OM.pdf). Reader reports40PDFpages butextracts no text;no parameters orspecifications are adopted from generated mirror FAQs. |
+| Market / IDR | No qualified exactShopeeIndonesia item found thispass;not proof ofmarket absence. No new/used IDR,bundle,stock orcheckout conclusion. Overseas used listings are not Indonesian offers orconverted prices. |
+| Remaining required profile | Built-in/external/toe expression andglobal-volume scope;separate controls;displaytechnology/diagonal/touch;dimensions/mass;I/O/headphones;power/current/AC-versus-DC/battery/USB;complete processing/memory;IR/NAM/capture andeditor platforms remain unverified. Do not transfer ME-8/ME-6B specifications oradmit thispartial lead as fully verified. |
+
+No local download,dependency/software installation ordevice operation. Next: inspect originalmanual sections andfind exactIndonesian hardware offers before considering active admission;independent LCD/expression/general queues remain unchanged.
 
 ## ME-20
 

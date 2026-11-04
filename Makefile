@@ -2433,3 +2433,9 @@ metadata-history-source-plan:
 .PHONY: metadata-history-json-plan
 metadata-history-json-plan:
 	python3 scripts/metadata_consolidation.py plan-history-json
+
+.PHONY: brand-sort-plan-boss brand-sort-apply-boss
+brand-sort-plan-boss:
+	python3 scripts/brand_sort.py plan brand/BOSS.md
+brand-sort-apply-boss:
+	python3 scripts/brand_sort.py apply brand/BOSS.md

@@ -118,6 +118,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [BOSS SE-70](brand/BOSS.md#se-70--single-note-synthesis-and-external-carrier-vocoding) is a **partial lead outside active counts and the51-record index**. Its original guide requires single notes for Guitar Synth/Bass Synth; [external-carrier Vocoder1 has a10/12-band source conflict;Vocoder2 has21](brand/BOSS.md#se-70--original-algorithm-census-and-vocoder-source-conflict). [Pitch shift±2octaves andRepeat Play2,000ms](brand/BOSS.md#se-70--pitch-modes-short-sampling-and-third-party-editor) are now documented; pitch-shifter chord support andacoustic conversion remain unverified.
 
+[BOSS ME-8B](brand/BOSS.md#me-8b--partial-bass-discovery-lead) is a **partial bass lead outside active counts and the51-record index**. Historical manufacturer catalogues name Synth Bass,Octave,Defretter andcontrol-pedal special effects;input-note polyphony,processing architecture andsimultaneous limits remain unverified. Its64-setting memory headline doesnot complete the required hardware/market profile.
+
 ## What remains uncertain
 
 - Actual tracking quality, latency and installed firmware were not measured for these records.
