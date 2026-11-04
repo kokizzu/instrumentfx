@@ -379,6 +379,17 @@ Checked 2026-10-18. [Yamaha library](https://usa.yamaha.com/support/manuals/inde
 | Expression / evidence boundary | Manufacturer-linked [MK2 base manual](https://usa.yamaha.com/files/download/other_assets/3/334073/magicstomp_mk2_en.pdf) has no analog EXP in complete inventory, but omits the supplement’s PHONES addition. Full supplement reopen remains inaccessible; no complete current connector recertification or analog global-volume claim. No hardware test. |
 | Controls / separate patch stepping | Base pp12–13 explicitly gives−/+ previous/next in UP/DOWN mode; Performance mode instead toggles three adjacent patches and holds change sets. Supplement’s AFR bypass-gesture exception remains as previously documented. |
 
+### Magicstomp Guitar MK2 — Deep Edit replacement and knob assignments
+
+Checked **2026-11-04**, Yamaha’s exact-MK2 Portuguese supplement, [printed p3](https://de.yamaha.com/files/download/other_assets/7/333847/magicstomp_mk2_pt.pdf), manufacturer-indexed document text; direct PDF reopening failed. Title and MK2 Deep Edit/STORE-EXIT controls match the retained supplement. No firmware version or later installed-library equivalence established.
+
+| Field | Finding / qualification |
+|---|---|
+| Editing / effect-type replacement | ON/OFF at the Deep Edit icon opens type selection;−/+ chooses among63 types. Changing type clears edited data and loads the new type’s defaults. This is replacement, not adding another independent block. STORE/EXIT returns to parameter/knob assignment; saving still follows the Store procedure. |
+| Controls / Deep Edit knob pickup | Knobs must reach the stored parameter position before changes take effect. The assignment page chooses which parameters the three knobs control during normal operation; this is not external expression-pedal assignment. |
+
+Existing hardware, headphone and edition qualifications remain. No device operation or local download.
+
 <!-- comparison evidence ends -->
 
 ## Magicstomp original Guitar

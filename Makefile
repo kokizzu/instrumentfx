@@ -2480,3 +2480,7 @@ research-stage-transport:
 	python3 scripts/research_push.py stage-transport
 research-commit-transport:
 	python3 scripts/research_push.py commit-transport
+
+.PHONY: research-stage-yamaha
+research-stage-yamaha:
+	python3 scripts/yamaha_catalogue.py stage

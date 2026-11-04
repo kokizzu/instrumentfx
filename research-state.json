@@ -162463,5 +162463,22 @@
     ],
     "inventory_unchanged": 402,
     "next": "Continue another unresolved Shopee-backed model; preserve priority display/expression/general queues."
+  },
+  "magicstomp_mk2_deep_edit_20261104": {
+    "checked_date": "2026-11-04",
+    "canonical": "brand/YAMAHA.md#magicstomp-guitar-mk2--deep-edit-replacement-and-knob-assignments",
+    "source": "https://de.yamaha.com/files/download/other_assets/7/333847/magicstomp_mk2_pt.pdf",
+    "revision": "Exact MK2 Portuguese supplement p3; indexed original text, direct reopen failed",
+    "resolved": [
+      "Type replacement clears edited buffer",
+      "Knob pickup and assignment page qualified"
+    ],
+    "remaining": [
+      "Full current supplement accessibility",
+      "MK2-specific hardware/electrical confirmation",
+      "Effect category census and qualified exact hardware offers"
+    ],
+    "inventory_unchanged": 402,
+    "next": "Continue remaining exact-model source and market checks; preserve independent display/expression/general queues."
   }
 }
