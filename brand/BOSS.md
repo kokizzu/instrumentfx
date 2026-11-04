@@ -5453,3 +5453,16 @@ Checked **2026-11-04** in the manufacturer-authored [original manual reproductio
 | Instrument / special processing | **Acoustic GtSIM** explicitly converts electric-guitar tone toward acoustic;Bass GTR SIM toward bass. SFX inGuitar Multi2 selects acoustic/bass simulation,Slow Gear,Feedbacker,Pickup Sim orTremolo/Pan—alternatives,not six concurrent blocks. ACOUSTIC processing andMic Simulator are distinct roles. |
 
 MOD andSFX positions are algorithm-dependent;the guide prohibits placing MOD,SFX orPreamp/Speaker afterMASTER. Its FV marker locates the assigned Foot Volume within each algorithm,not a universal output stage. These findings supersede the baseline’s synth/acoustic unknowns only within this documented scope. Otherpitch algorithms,exactsimultaneous ceilings,tracking/latency,currentfirmware andmarket gaps remain unverified. No download ordevice operation.
+
+### VF-1 — textual control inventory and shared-jack navigation
+
+Checked **2026-11-04**, [manufacturer-authored manual reproduction,printed pp12–14,137](https://manualzz.com/doc/6998079/boss-vf-1-multiple-effects-processor-owner-manual), corroborated by [indexed official front-panel p12 and SYSTEM p44](https://static.roland.com/assets/media/pdf/VF-1_OM.pdf). Original document text only; no visual/pixel inspection.
+
+| Field | Exact-model finding and limit |
+|---|---|
+| Controls | **Two named knob assemblies**:POWER/INPUT L-R and NUMBER/VALUE. Input L/R adjusts separately; independent rotary-element total remains unverified. **Six separate buttons**:UTILITY,WRITE,EXIT,CATEGORY andtwo PARAMETER arrows. Integrated power and EFFECTS/ENTER presses are not recounted. Complete front/rear inventory lists **zero onboard footswitches or built-in treadle**. This is text-derived, not a photo census. Rear LEVEL toggle separate. |
+| Display | Specification explicitly says **backlit graphic LCD**. This resolves display type/backlight, not diagonal, pixel count, color or touchscreen. Earlier unspecified display fields remain unknown where not resolved. |
+| Input / level routing | Connecting front GUITAR and rear INPUT L simultaneously gives **GUITAR priority over INPUT L**;the statement does not determine INPUT R treatment. Rear LEVEL switches line input/output level together; not an independent master-volume knob. |
+| External preset down/up | SYSTEM CONTROL 1/2 offers **EFFECTS ON/OFF, TUNER, NUMBER DOWN, NUMBER UP, ASSIGNABLE**. Down/up requires momentary switches. Two switches use PCS-31; one switch controls CONTROL 1. They consume the same socket used by EXP, so simultaneous independent analog expression plus local two-switch navigation is not established. No onboard down/up footswitches. |
+
+This supersedes the earlier pending external-navigation check. Display physical specifications, independent L/R rotary count, connector details, global expression assignment/coverage and condition-qualified Indonesian hardware remain unresolved. No local download, switch/pedal wiring or device operation.

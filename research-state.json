@@ -161552,5 +161552,48 @@
     "active_inventory_unchanged": 402,
     "status": "Partialleadoutsideactivecomparisons;selectedsevenandadditional59activeindexunchanged",
     "next": "ContinueVF1remainingprimaryphysical/algorithmprofilewhenaccessible;requestedindividualfootdisplaynewsourcegapsretainpriority,independentGTPro/generalandconsolidationqueuesunchanged."
+  },
+  "vf1_controls_navigation_20261104": {
+    "checked_date": "2026-11-04",
+    "canonical": "brand/BOSS.md#vf-1--textual-control-inventory-and-shared-jack-navigation",
+    "sources": [
+      "https://manualzz.com/doc/6998079/boss-vf-1-multiple-effects-processor-owner-manual",
+      "https://static.roland.com/assets/media/pdf/VF-1_OM.pdf"
+    ],
+    "revision": "Original body printed12–14,44,137;indexed official andidentified reproduction;no visuals",
+    "controls": {
+      "named_rotary_assemblies": 2,
+      "independent_rotary_total": "unverified;INPUTL/R adjusts separately",
+      "separate_buttons": 6,
+      "onboard_footswitches": 0,
+      "built_in_treadle": "None in complete textual control inventory",
+      "integrated_presses": "POWER andEFFECTS/ENTER excludedfrombuttoncount",
+      "rear_toggle": "LEVEL separate"
+    },
+    "display": "Backlit graphicLCD;diagonal/pixels/color/touchunverified",
+    "external_navigation": {
+      "functions": [
+        "EFFECTS ON/OFF",
+        "TUNER",
+        "NUMBER DOWN",
+        "NUMBER UP",
+        "ASSIGNABLE"
+      ],
+      "down_up_switch_type": "momentary",
+      "two_switch_cable": "PCS-31",
+      "constraint": "SharedEXP/CTLsocket;simultaneousindependentanalogEXPtravelpluslocaltwoFSnotestablished"
+    },
+    "input_priority": "FrontGUITARoverrearINPUTL;INPUTRbehaviornotinferred",
+    "market": "Earlier exactIndonesiaqueriesonlycamera/aircraft/patches;noqualifiedprocessorofferorIDRupdate",
+    "remaining": [
+      "IndependentL/Rrotaryelements/visualcensus",
+      "Physicaldisplayandconnectordetails",
+      "GlobalEXPassignment,endpoints/recall/outputcoverage",
+      "ExactIndonesianoffer",
+      "Fullsimultaneousalgorithmlimits/currentfirmware"
+    ],
+    "status": "Partialleadoutsideactiveinventory",
+    "active_inventory_unchanged": 402,
+    "next": "Continueaccessibleprioritydisplaymodelsorbroaderprofile/marketgaps;avoidunchangedfailedvisualsources;GTPro/general,expressionandconsolidationqueuespreserved."
   }
 }
