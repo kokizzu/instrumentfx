@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(eventide): clarify H90 granular and synth control boundaries'
+        message='research(boss): document SY-1000 normal-input and Shopee boundaries'
     print(git('commit','-m',message))

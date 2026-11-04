@@ -127,6 +127,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [BOSS SY-300](brand/BOSS.md#sy-300--partial-discovery-lead) is a **partial lead outside active counts and the 56-record index**. Its own product page establishes ordinary-pickup polyphonic synthesis and four FX processors. Oscillator pitch/bend is distinct from a verified conventional pitch-shifter algorithm; acoustic simulation remains unverified. Exact dated Shopee hardware evidence is retained in the brand record.
 
+[BOSS SY-1000](brand/BOSS.md#sy-1000--partial-discovery-lead) is a **partial lead outside active counts and the 56-record index**. Normal-pickup patches support Dynamic Synth only; full synth/modeling access requires compatible 13-pin GK. Its independent effects chain establishes a multi-effects candidate, but exact creative algorithms and note handling remain unfinished. Cached Shopee voucher prices are qualified in the canonical record.
+
 ## What remains uncertain
 
 - Actual tracking quality, latency and installed firmware were not measured for these records.

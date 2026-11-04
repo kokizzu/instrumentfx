@@ -25724,6 +25724,35 @@
         ],
         "next": "Partial outside402;currentMac application matrix,controls/category census,USB/battery/import/practice fields and volume endpoints/route coverage unresolved;preserve independent queues."
       }
+    },
+    {
+      "model": "BOSS SY-1000",
+      "checked_date": "2026-11-04",
+      "status": "partial exact-model manufacturer and Shopee discovery outside active counts",
+      "canonical_record": "brand/BOSS.md#sy-1000--partial-discovery-lead",
+      "active_inventory_changed": false,
+      "sources": [
+        "https://www.boss.info/uk/products/sy-1000/",
+        "https://static.roland.com/assets/media/pdf/SY-1000_eng01_W.pdf",
+        "https://static.roland.com/assets/media/pdf/SY-1000_reference_eng02_W.pdf",
+        "https://shopee.co.id/BOSS-SY-1000-Guitar-Synthesizer-Effect-i.341882414.20996045359"
+      ],
+      "revision": "Owner eng01 copyright2019; reference eng02 indexed section, full reader too large",
+      "finding": "Normal patches only DYNAMIC SYNTH; full synth/modeling requires13-pinGK. Three instrument blocks plus independent effects. SYSTEM shares expression functions but global-volume target/coverage unresolved.",
+      "market": {
+        "seller_id": "341882414",
+        "item_id": "20996045359",
+        "seller": "Boss Official Shop",
+        "region": "Kota Tangerang Selatan",
+        "cached_voucher_ask_idr": 20445000,
+        "earlier_search_ask_idr": 20009000,
+        "retrieval": "Three-week-old direct cache versus earlier three-month search cache; not live checkout",
+        "condition": "unverified",
+        "stock": "unverified",
+        "bundle": "unverified",
+        "used": "no condition-verified ask"
+      },
+      "next": "Complete exact creative parameters,controls/category census,I/O/power/software/import/practice fields and expression target/range/coverage before active admission; preserve independent queues."
     }
   ],
   "inventory_by_brand": {
@@ -160333,5 +160362,34 @@
       "revision": "1.12.5",
       "finding": "HotSawz Gate Off disables Attack/Decay and gate has no release; PolySynth Freeze Release separate; Synthonizer Sweep B low/high-pass regions and octave Flex; no polyphony inference from voices."
     }
+  },
+  "discovery_sy1000_20261104": {
+    "model": "BOSS SY-1000",
+    "checked_date": "2026-11-04",
+    "status": "partial exact-model manufacturer and Shopee discovery outside active counts",
+    "canonical_record": "brand/BOSS.md#sy-1000--partial-discovery-lead",
+    "active_inventory_changed": false,
+    "sources": [
+      "https://www.boss.info/uk/products/sy-1000/",
+      "https://static.roland.com/assets/media/pdf/SY-1000_eng01_W.pdf",
+      "https://static.roland.com/assets/media/pdf/SY-1000_reference_eng02_W.pdf",
+      "https://shopee.co.id/BOSS-SY-1000-Guitar-Synthesizer-Effect-i.341882414.20996045359"
+    ],
+    "revision": "Owner eng01 copyright2019; reference eng02 indexed section, full reader too large",
+    "finding": "Normal patches only DYNAMIC SYNTH; full synth/modeling requires13-pinGK. Three instrument blocks plus independent effects. SYSTEM shares expression functions but global-volume target/coverage unresolved.",
+    "market": {
+      "seller_id": "341882414",
+      "item_id": "20996045359",
+      "seller": "Boss Official Shop",
+      "region": "Kota Tangerang Selatan",
+      "cached_voucher_ask_idr": 20445000,
+      "earlier_search_ask_idr": 20009000,
+      "retrieval": "Three-week-old direct cache versus earlier three-month search cache; not live checkout",
+      "condition": "unverified",
+      "stock": "unverified",
+      "bundle": "unverified",
+      "used": "no condition-verified ask"
+    },
+    "next": "Complete exact creative parameters,controls/category census,I/O/power/software/import/practice fields and expression target/range/coverage before active admission; preserve independent queues."
   }
 }

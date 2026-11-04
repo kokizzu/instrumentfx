@@ -49,6 +49,7 @@ Canonical root brand profiles; all retain explicit verification gaps. Preserved 
 - [SE-50](#se-50)
 - [SE-70 — partial discovery lead](#se-70--partial-discovery-lead)
 - [SY-300 — partial discovery lead](#sy-300--partial-discovery-lead)
+- [SY-1000 — partial discovery lead](#sy-1000--partial-discovery-lead)
 - [VE-1](#ve-1)
 - [VE-2](#ve-2)
 - [VE-5](#ve-5)
@@ -4670,6 +4671,25 @@ Checked **2026-11-04**; web documentation only, no local download or device oper
 | Software / Windows editor versus driver | [Tone Studio 1.1.1 Windows application page](https://www.boss.info/global/support/by_product/sy-300/updates_drivers/d1028fba-fc20-4d8a-82b9-bda8357aea46/) lists **Windows 11/10/8.1/7**, Core 2 Duo+, 1GB RAM, 1024×768+, dedicated driver and Adobe AIR. Application release history dates 1.1.1 to **March2017**; current OS wording does not date the original release. The support index separately offers driver 1.0.2 for Windows 10/11. Published requirements are not a local operational test or assurance of ongoing OS-vendor support. |
 | Software / macOS editor versus driver | [Mac editor 1.1.1 page](https://www.boss.info/global/support/by_product/sy-300/updates_drivers/391a4df2-958b-42f8-b089-146a978d71c1/) dates Sierra 10.12 support to March 2017 and directs current OS checks to **Exclusive Application** in the compatibility matrix. The support index offers driver 1.0.5 for Sonoma 14.x later; this alone does not certify editor support on those systems. Current matrix equivalence remains unverified. |
 
+## SY-1000 — partial discovery lead
+
+Checked **2026-11-04**. Partial candidate **outside the 402 active models**; ownership is not inferred. Independent effects processing distinguishes this candidate from the excluded SY-1/SY-200 specialist records. No admission to active comparisons yet.
+
+| Field | Evidence / qualification |
+|---|---|
+| Synth / pickup boundary | [Exact product page](https://www.boss.info/uk/products/sy-1000/): three instrument parts; Dynamic Synth offers ten waveforms, six filters, two LFOs and two 16-step sequencers. Ordinary guitar/bass input supports Dynamic Synth; full synth/modeling access requires compatible 13-pin GK. Three parts do not establish an input-note ceiling or chord tracking. Manufacturer tracking claims are not measurements. |
+| Normal patches / independent effects | [Owner manual eng01, ©2019, p12](https://static.roland.com/assets/media/pdf/SY-1000_eng01_W.pdf): normal patches accept conventional pickups but **only DYNAMIC SYNTH** as INST TYPE. Three INST blocks and a separately configurable effects chain are documented. Do not transfer OSC Synth, GR-300, individual-string tuning or guitar modeling to normal-input patches. Exact effect-choice census and concurrency limits remain unverified. |
+| Memory / body / display | Same owner manual p20: each guitar/bass mode has 200 preset plus 200 user patches. Body 345W×245D×67H mm; exceeds preferred 200W×140D. Backlit 512×160 LCD; diagonal, color and touch remain unverified. No individual switch screens established. |
+| Controls / navigation | Product page: eight assignable footswitches. Owner p12: bank down/up and four numbered patch switches; reassignment may alter navigation. Full separate-button/rotary census and toe support remain unverified. No built-in treadle established by the documented control inventory. |
+| External expression / volume scope | Owner p17: CTL3,4/EXP1 and CTL5,6/EXP2 accept expression; PREFERENCE=SYSTEM shares functions across patches. This establishes shared assignment scope, **not yet a verified global-volume target**. Pedal position, numeric endpoints, bypass, phones, tails/looper coverage and actual M-VAVE wiring remain unresolved. |
+| Headphones / connectivity / power | Owner p20: shared MAIN L/PHONES output, USB audio/MIDI, 13-pin GK and 800mA draw. Headphone connection procedure, complete port census, named-supply voltage/polarity, battery/USB operation and current editor-platform applicability require completion. |
+| Source revision / normal-input setup | [Reference eng02](https://static.roland.com/assets/media/pdf/SY-1000_reference_eng02_W.pdf) indexed NORMAL SETTING section documents ten saved conventional-pickup setup sets for normal patches; compressor/input setup is not global volume assignment. Full PDF reader rejected its 14,708,183-byte size; no local download performed. Eng02 is a document revision, not installed/current firmware proof. |
+
+### SY-1000 — separate IDR offer evidence
+
+[Shopee exact hardware title](https://shopee.co.id/BOSS-SY-1000-Guitar-Synthesizer-Effect-i.341882414.20996045359), seller **341882414**, item **20996045359**, **Boss Official Shop**, **Kota Tangerang Selatan**. Checked2026-11-04: directly opened cached content, crawled three weeks earlier, shows **Rp20.445.000 with voucher** and a gift banner. Earlier search cache showed **Rp20.009.000**, crossed Rp23.540.000; preserve the conflicting cache states, not a live-price claim. The printed 99% voucher banner does not establish its cap or eligibility; do not calculate a discounted floor. Condition, stock, variant, bundle/adapter, warranty/import region, shipping/tax and checkout eligibility remain unverified. No condition-verified used ask.
+
+Next: complete exact creative algorithms/note handling, controls, effect-category census, I/O/power/software/import/practice profile, volume target/range and route coverage before active admission. Preserve the individual-switch-screen, GT-Pro and compact-expression queues.
 
 ## VE-1
 
