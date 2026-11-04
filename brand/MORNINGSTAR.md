@@ -81,7 +81,7 @@ Checked **2026-11-04**. [Manufacturer product](https://www.morningstar.io/mc8-pr
 | Field | Evidence / qualification |
 |---|---|
 | Body / controls | Product: **260×123×52mm**, axes unlabeled; eight switches, four color LCDs. Mass, full rotary/button census, pixels, diagonal and touch remain unverified. |
-| Connections | Product: DIN MIDI In/Out; separate USB-C Device/Host; four Omniports; two relay ports;3.5mm TRS MIDI In/Out. TRS MIDI TypeA/B selectable. No audio processing or headphone path established. |
+| Connections | Product: DIN MIDI In/Out; separate USB-C Device/Host; four Omniports; two relay ports;3.5mm TRS MIDI In/Out. Product broadly advertises TRS TypeA/B switching;[connector-specific manual distinctions](#mc8-pro--connector-wiring-and-usb-host-boundaries) qualify the Omniports versus dedicated3.5mm sockets. No audio processing or headphone path established. |
 | Power | Product: **9–12V DC center-negative,minimum500mA at70% brightness;600mA with relays**;USB bus power and MIDI-Out pins6/7 phantom supported. Manual specifies500mA at9V,plus100mA for relays andadditional downstream USB demand;phantom9–12V AC/DC. Not measured draw or battery support. |
 | Memory | Manual: **eight isolated profiles**,each128banks×3pages×8switch presets=**3,072**. Profiles cannot address one another;switches initially EMPTY,up to32messages each. Four expression presets per bank are separate. Not audio preset capacity. |
 | Expression | Manual: four bank-specific EXP presets;TRS voltage-divider orTS rheostat,linear10–25kΩ,10k recommended. Calibration maps heel/toe toCC0/127. Wiper pinout andconnected-processor global-volume behavior remain unverified. |
@@ -95,3 +95,16 @@ Checked **2026-11-04**. [Manufacturer product](https://www.morningstar.io/mc8-pr
 A separate [BOXXCASE multi-model page](https://www.boxxcase.com/en/products/pedal-new-morningstar) exposes **Rp4.800.000 for selected ML5R**,despite listing MC8 PRO among choices. That ask andthe displayed1left are **not assigned to MC8 PRO**. Search also returned SPL Audio MC8 PRO measurement microphones,which are unrelated hardware. No qualified exact Shopee Indonesia MC8 PRO controller offer recovered;this is not proof of market absence.
 
 No download,installation,MIDI transmission ordevice operation. Controller stays outside402active audio multi-effects;remaining gaps include physical display specifications,weight,firmware applicability,pedal pinout andcondition-qualified stock.
+
+### MC8 PRO — connector wiring and USB-host boundaries
+
+Checked **2026-11-04** in the [manufacturer MC8 PRO manual](https://help.morningstar.io/en/article/mc8-pro-user-manual-1yqqr1r/),Omniports,TRS MIDI Out,Aux Switches andUSB Host;exact firmware applicability unstated. The [product](https://www.morningstar.io/mc8-pro) advertises TypeA/B support broadly;do not apply that statement uniformly toevery connector.
+
+| Field | Exact-model qualification |
+|---|---|
+| MIDI connector roles | Manual describes dedicated **3.5mm MIDI ports asTypeA**,requiringTRS,notmono cables. Omniports separately offer Standard,TipActive,RingActive andTypeB configurations;the list includesfour entries despite its three-configuration heading. Omniports cannot sendSysEx. |
+| Aux wiring | **Momentary,normally-open** switches connectTip orRing toground;an additional switch can groundboth forathird function. TRS cable required. This isaux-switch wiring,not an expression-wiper pinout orrelay connection. |
+| USB host | Hub permits up to**four USB-MIDI devices**;multiple powered devices require apowered hub. Hub compatibility isnot universal;HDMI/SD multifunction hubs generally unsupported. Device power demand adds tosupply requirements. |
+| USB compatibility | High-speed USB Device port doesnot work with **CME WIDI uHost**;manual instead permits WIDI uHost onthe MC8 PRO Host port. This doesnot establish arbitrary USB-audio oranalog guitar support. |
+
+Physical display specifications,mass,expression pinout andqualifiedShopee offers remain unresolved. Controller stays outside active audio inventory. No wiring,connection,download ordevice operation.

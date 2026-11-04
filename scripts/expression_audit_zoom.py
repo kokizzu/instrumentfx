@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(melofty): trace English USB wording and editor preset operations'
+        message='research(morningstar): qualify MC8 PRO connector wiring and host limits'
     print(git('commit','-m',message))

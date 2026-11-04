@@ -163711,5 +163711,25 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue other accessible priority display model gaps;preserve independent GTPro/expression/consolidation queues"
+  },
+  "mc8pro_port_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://help.morningstar.io/en/article/mc8-pro-user-manual-1yqqr1r/",
+    "revision": "Live manual;firmware applicability unstated",
+    "canonical": "brand/MORNINGSTAR.md#mc8-pro--connector-wiring-and-usb-host-boundaries",
+    "findings": [
+      "Dedicated3.5mmTypeA vsOmniportfour MIDI configurations;three-heading mismatch retained",
+      "Auxmomentary normallyopenTip/Ringtoground;notexpressionpinout",
+      "FourUSB-MIDIhostdevices;poweredhub requirement;WIDIuHost Deviceport incompatibility"
+    ],
+    "remaining": [
+      "Screenpixels/diagonal/touch",
+      "Mass",
+      "Expressionwiperpinout",
+      "QualifiedexactShopee hardware",
+      "Installedfirmware"
+    ],
+    "next": "Continue accessible priority footdisplay processor gaps;controller not admitted asaudio multi-effects;preserveGTPro/expression/consolidation queues",
+    "active_inventory_unchanged": 402
   }
 }
