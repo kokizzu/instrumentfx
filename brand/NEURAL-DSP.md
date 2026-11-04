@@ -101,6 +101,8 @@ The [complete original comparison](../MULTI-EFFECTS.md)<!-- historical-link:neur
 | W×D×H; weight | **144×103×62mm;620g**. [M] |
 | Size class | Compact. |
 | Blocks / category choices | **Five effects slots**, two pre/three post, plus capture/IR and separate input gate. Slots have placement restrictions; not54 simultaneous effects. [M,D] |
+| Controls / preset recall timing | NanOS2.2.0 manual: preset recall occurs on **footswitch release**, not initial press; holding invokes secondary functions. This is not measured switching latency or general next/previous browsing. [Save/undo scope](#nano-cortex--release-triggered-recall-and-unsaved-edits). |
+| Memory / save and undo | Hold SAVE2s to overwrite the current preset; slowly blinking SAVE indicates unsaved changes. EXIT undoes unsaved preset changes in the documented performance workflow. This does not establish global expression assignment. |
 | Preset storage | **64 presets**, four hardware assignments. [M] Capture storage separate: **25 factory plus up to256 additional**; cloud library is not internal memory. [P] |
 | Synth / acoustic functions | Transpose documented; exact synth/acoustic simulation algorithms unverified. [D] |
 | Third-party IR | **256 user IRs**. Product specifies **10 cabinet models ×30 mic/position variations =300 factory IRs**; older source/manual calls these10 factory IRs. Retain terminology difference; five quick-access slots are not total library capacity. [P,M] |
@@ -313,6 +315,14 @@ Checked **2026-11-04**, [manufacturer NanOS2.2.0 manual](https://neuraldsp.com/m
 |---|---|
 | Memory / factory reset | **NanOS2.2.0 reference:** factory reset removes all user content, explicitly **Neural Captures,presets andimpulse responses**, andcannot be undone. It is not simply a global-settings reset orselective preset cleanup. Exact post-reset factory filling,cloud-backup/account deletion andfirmware rollback are not established by this section. The separately recorded cloud restore overwrites device content/settings;backup existence andsuccessful restoration were not tested. No reset,restore,download ordevice operation performed. |
 
+
+### Nano Cortex — release-triggered recall and unsaved edits
+
+Checked **2026-11-04** in the [manufacturer NanOS2.2.0 manual](https://neuraldsp.com/manual/nano-cortex), Performance Mode → Switching & Saving Presets. Presets recall when the switch is **released**; a hold invokes a secondary function. This explains gesture timing, not a numerical switching delay or gapless audio. The existing four-assignment/two-preset-plus-bypass modes remain distinct from next/previous preset browsing.
+
+A slowly blinking SAVE ring marks an edited preset. **Holding SAVE for2seconds overwrites the current preset; EXIT undoes unsaved changes** in this documented workflow. The separate Capture Volume & Input Gate mode uses EXIT to leave that mode; do not generalize every EXIT press as deleting edits. Preset editing does not establish autosave, persistent expression position or a device-wide volume assignment.
+
+Installed behavior and current factory filling remain untested. No device setting changed, MIDI sent, software installed or manual downloaded locally.
 
 ## Quad Cortex
 

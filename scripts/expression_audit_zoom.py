@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(valeton): document GP-50 display sleep and audio continuity'
+        message='research(neural): qualify Nano Cortex recall timing and preset saves'
     print(git('commit','-m',message))

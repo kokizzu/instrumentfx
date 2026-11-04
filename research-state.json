@@ -160826,5 +160826,23 @@
     ],
     "active_inventory_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "nano_cortex_recall_save_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://neuraldsp.com/manual/nano-cortex",
+    "revision": "NanOS2.2.0 Performance Mode, Switching & Saving Presets",
+    "findings": [
+      "Preset recall on release; holding invokes secondary function",
+      "Hold SAVE2seconds overwrites current preset; slow SAVE blink marks edits",
+      "EXIT unsaved-edit undo context differs from EXIT Capture Volume/Input Gate mode"
+    ],
+    "unresolved": [
+      "Universal analog EXP-to-volume assignment",
+      "Position recall, output/headphone/bypass/tail coverage",
+      "Current factory preset filling and installed firmware",
+      "Condition-qualified exact Shopee stock"
+    ],
+    "active_inventory_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }
