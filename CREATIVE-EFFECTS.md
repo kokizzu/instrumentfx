@@ -148,6 +148,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [DigiTech RP100](brand/DIGITECH.md#rp100--pitch-modes-and-expression-trade-offs) remains a **partial lead outside active counts and the additional-record index**. Its own manual distinguishes Pitch Shift,Detune and15 Whammy modes;polyphony is unverified. Acoustic simulation shares the amp selector;AutoYah/filter processing is distinct from synthesis. External-volume control yields toWah/Whammy.
 
+[DigiTech RP360](brand/DIGITECH.md#rp360--pitch-algorithms-and-note-handling-boundaries) remains a **partial lead outside active counts and the additional-record index**. Its original manual distinguishes Pitch±24 semitones,16 Whammy interval modes,14 diatonic Harmony choices andseparate one/two-octave-down levels. None ofthese counts certifies chord tracking oradditional simultaneous FX slots. Acoustic simulation andSynth Talk retain their separate canonical qualifications.
+
 ## What remains uncertain
 
 - Actual tracking quality, latency and installed firmware were not measured for these records.

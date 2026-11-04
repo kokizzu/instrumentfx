@@ -163299,5 +163299,25 @@
     ],
     "active_inventory_changed": false,
     "next": "Continue other no-treadle required-field gaps; preserve independent GT-Pro and individual-footdisplay queues."
+  },
+  "rp360_creative_pitch_20261104": {
+    "checked_date": "2026-11-04",
+    "canonical": "brand/DIGITECH.md#rp360--pitch-algorithms-and-note-handling-boundaries",
+    "sources": [
+      "https://www.manualslib.com/manual/819896/Digitech-Rp360.html?page=103",
+      "https://cf3.zzounds.com/media/RP360-RP360XP_Manual_5041674-B_original-4de2c47236ff15bb73cff4cf69ad13ba.pdf",
+      "https://www.manualslib.com/manual/819896/Digitech-Rp360.html?page=106"
+    ],
+    "revision": "Original5041674-B printed99,101–102;indexed original andmatching mirror body",
+    "finding": "Pitch±24,16Whammy modes,14Harmony intervals/12keys/6scales,andseparate octave-down levels;polyphony notestablished",
+    "remaining": [
+      "Other creative parameters andsynth architecture",
+      "Currentfirmware/tracking performance",
+      "GlobalEXPcoverage",
+      "Exactnon-XP Shopee hardware"
+    ],
+    "active_inventory_changed": false,
+    "additional_index_unchanged": 65,
+    "next": "Continue accessible no-treadle profile andexacthardware gaps;preserve requested individual-footdisplay andindependent GT-Pro queues."
   }
 }

@@ -1255,6 +1255,19 @@ Checked **2026-11-04**, manufacturer-authored [shared manual reproduction, print
 
 No device test or download. Global expression override, held-position recall, other-route coverage and exact non-XP hardware offers remain open. RP360 stays outside active inventory.
 
+### RP360 — pitch algorithms and note-handling boundaries
+
+Checked **2026-11-04**, original shared5041674-B manual: [printedp99/PDFp103](https://www.manualslib.com/manual/819896/Digitech-Rp360.html?page=103), [indexed originalp101](https://cf3.zzounds.com/media/RP360-RP360XP_Manual_5041674-B_original-4de2c47236ff15bb73cff4cf69ad13ba.pdf), and [p102/PDFp106](https://www.manualslib.com/manual/819896/Digitech-Rp360.html?page=106). Distributor file matches exact model pair/document identifier; only indexed original text was used, not a local download.
+
+| Algorithm | Original controls / distinction |
+|---|---|
+| Pitch | **−24…+24 semitones**, mixed with dry signal; Mix0–99. Not a documented polyphonic-transposition guarantee. |
+| Whammy | **16 AMOUNT selections**, including octave bends, Divebomb and harmony-interval transitions. Position0–99 is the expression target;Mix0–99. These modes are not16 simultaneous voices; note handling remains unverified. |
+| Harmony | **14 interval choices**, second through octave up/down;12 keys andsix scales:Major,Minor,Dorian,Mixolydian,Lydian,Harmonic Minor. Level0–99. Diatonic note correction is separate from fixed Pitch;chord tracking remains unverified. |
+| Octave | Separate **one-octave-down,two-octave-down anddry levels**, each0–99. Two generated signals do not establish two-note orpolyphonic input tracking. |
+
+These are alternatives within the previously counted FX category, not extra concurrent blocks. Current installed-firmware equivalence and tracking quality remain untested. Synth Talk stays a separately qualified vowel-processing lead;no oscillator engine orinput polyphony inferred. RP360 remains outside active inventory.
+
 ## RP360XP
 
 Expression-equipped guitar processor;not RP360. Checked 2026-10-17. Past-product status does not establish retailer stock. Bass suitability unclassified.
