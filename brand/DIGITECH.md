@@ -276,6 +276,17 @@ GNX4 delay source: [G4-R43: manufacturer manual printed p.43,indexed text on Man
 
 GNX4 modulation source: [G4-MOD39: manufacturer owner-manual text,printed p.39,ManualMachine](https://manualmachine.com/digitech/gnx4/1120255-user-manual/),indexed text checked2026-10-17; same GNX4 Matrix/parameter identity. Fifteen choices counted once:Chorus,Flanger,Phaser,Triggered Flanger,Triggered Phaser,Tremolo,Panner,Vibrato,Rotary,AutoYa,YaYa,SynthTalk,Envelope Filter,Detune,Pitch Shift. Only one at a time. Gate attack values are parameters,not extra gate types. No generated FAQ used.
 
+### GNX4 — Preset Bounceback and mode-specific bypass
+
+Checked **2026-11-04**, manufacturer-authored owner-manual body on [Manualzz, printed pp22–23,59,104](https://manualzz.com/doc/1204435/digitech-gnx4-guitar-workstation-owner-s-manual). Exact GNX4 chapters, preset modes and control names match the existing manufacturer-manual record; declaration dated March15,2004 is not a firmware version. Generated summary/FAQ/chat excluded. Oversized official PDF remains inaccessible through the reader.
+
+| Field | Evidence / qualification |
+|---|---|
+| Live / Preset Bounceback | Utility BOUNCBAK works only in Preset Mode. Pressing the active preset switch alternates with the previously selected preset instead of bypassing; e.g. preset1→4→press4 returns1. |
+| Live / bypass gesture | With Bounceback disabled, active preset switch enters bypass. Switches2+3 also bypass in Preset, Stompbox/Control and Recorder modes, including when Bounceback is enabled. Bypass disables effects/modeling; any footswitch exits to the last preset. Matrix/programming buttons are inactive while bypassed. |
+
+This documents navigation, not verified seamless switching, tail preservation or pedal-volume/headphone/recorder coverage in bypass. Existing expression, routing, supply conflicts and market qualifications remain. No device operation or local download.
+
 ## GNX3000 — partial discovery lead
 
 Checked **2026-11-04**. Exact GNX3000, not GNX3/GNX4. **Outside active inventory and instrument comparison counts** pending the remaining profile checks; ownership is not inferred.

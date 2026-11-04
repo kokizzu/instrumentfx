@@ -162444,5 +162444,24 @@
     ],
     "inventory_unchanged": 402,
     "next": "Continue fresh exact hardware discovery; preserve display/expression/general queues."
+  },
+  "gnx4_bounceback_bypass_20261104": {
+    "checked_date": "2026-11-04",
+    "canonical": "brand/DIGITECH.md#gnx4--preset-bounceback-and-mode-specific-bypass",
+    "source": "https://manualzz.com/doc/1204435/digitech-gnx4-guitar-workstation-owner-s-manual",
+    "revision": "Manufacturer original manual body pp22–23,59,104; no firmware mapping",
+    "identity": "GNX4 chapters/control names match retained manufacturer record; no generated FAQ used",
+    "resolved": [
+      "Bounceback overrides active-preset bypass gesture",
+      "Two-switch bypass and editing restrictions qualified"
+    ],
+    "remaining": [
+      "Tail/seamless behavior",
+      "Volume/headphone/recording bypass coverage",
+      "Power-source conflict and remaining full profile fields",
+      "Qualified current market offers"
+    ],
+    "inventory_unchanged": 402,
+    "next": "Continue another unresolved Shopee-backed model; preserve priority display/expression/general queues."
   }
 }
