@@ -814,6 +814,16 @@ Current comparison summary, reconciled2026-10-28 from the exact-model sources re
 | IDR / additional Gelora hardware ask | **Rp2.255.000**, [Gelora Musik Serpong,shop306155985/item57855336889](https://shopee.co.id/Efek-gitar-Valeton-GP-50-i.306155985.57855336889),Kab.Tangerang;checked2026-11-03. Search two-month/direct one-month snapshots agree on price but show different stale delivery dates:August27–29 versusSeptember9–10. Exact GP-50 hardware title;no sold-out marker exposed is not stock confirmation. Condition,working state,firmware,selected variation,bundle,adapter,warranty,shipping/tax andcheckout remain unknown. Late-delivery compensation not deducted. |
 | IDR / three additional exact hardware asks | **Rp2.255.000 each**,checked2026-11-04: [SCI Music304940515/52704730830](https://shopee.co.id/Valeton-GP50-Guitar-Bass-Multi-Effects-Unit-i.304940515.52704730830),Tangerang Selatan; [Gearvolution63444658/50906152611](https://shopee.co.id/Valeton-GP50-Multi-Effect-i.63444658.50906152611),Makassar; [Kurnia32743136/44754599386](https://shopee.co.id/Valeton-GP50-Next-Generation-Compact-Multi-Effects-Efek-Gitar-Elektrik-i.32743136.44754599386),Semarang. Condition unknown;SCI search Habis versus direct no-status conflict;Gearvolution search-only;Kurnia month-old direct snapshot. [Full qualifications](#gp-50--additional-shopee-hardware-asks-and-stock-snapshot-conflict). |
 | IDR qualification |Separate dated asks,not a used/new market range orcompleted sales. Unless stated,condition,working state,firmware,variant,adapter/bundle,warranty region,authenticity,shipping/tax,voucher andcheckout total unknown. Late-delivery compensation is not an upfront discount. Sahabat2195000IDR unresolved bundle/hidden variations remains excluded from qualified prices. |
+### GP-50 — selective reset scopes and factory numbering
+
+Checked **2026-11-04**: [current manufacturer GP-50 product page](https://www.valeton.net/product/gp-50/) links its “faq” control to the [original firmware1.0.5 manual](https://res.valeton.net/Uploads/wp/download/1765332901545.GP-50_Online%C2%A0Manual_EN_Firmware%20V1.0.5_251128.pdf), not a current1.1.0 parameter guide. Cover identifies1.0.5; selective reset is **printedp24/PDF27**. Original text only; no reset,local download ordevice operation.
+
+| Field | Revision-qualified evidence / limits |
+|---|---|
+| Memory / selective factory reset | **Firmware1.0.5 manualp24:** **Global settings only** restores global settings; **Factory patches** restores locations **00–54**; **Reset all data** deletes user-saved data and restores factory conditions. The confirmation offers OK/Cancel. The factory range corroborates55 factory patch locations within100 total;it is not55 additional protected slots. Existing edits/settings can be lost;the guide describes reset as irreversible. Exact retention of separately loaded IR/SnapTone files under each selective option is not itemized,so remains unverified. |
+
+This documents maintenance scope,not a global analog-volume assignment orcurrent1.1.0 equivalence. The separately recorded1.1.0 PDF remains unreadable;the older product-linked manual does not settle its expression behavior.
+
 <!-- comparison evidence ends -->
 
 

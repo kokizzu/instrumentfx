@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='docs(fractal): reconcile FM3 looper summary with verified speed controls'
+        message='research(valeton): document GP-50 selective reset and factory range'
     print(git('commit','-m',message))

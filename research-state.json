@@ -159594,5 +159594,16 @@
     "status": "Qualified reconstruction only;manufacturer counting rationale andinstalled-version completeness unverified.",
     "inventory": "Partial lead remains outside402 active models.",
     "next": "Continue exact Shopee discovery andpriority separate-display model gaps;preserve GT-Pro andexpression-volume queues."
+  },
+  "gp50_selective_reset_scope_20261104": {
+    "model": "Valeton GP-50",
+    "checked": "2026-11-04",
+    "source": "https://res.valeton.net/Uploads/wp/download/1765332901545.GP-50_Online%C2%A0Manual_EN_Firmware%20V1.0.5_251128.pdf",
+    "revision": "Firmware1.0.5 printed24/PDF27;linkedbycurrentproduct faq",
+    "finding": "Separate globalsettings/factorypatch00–54/all-data reset scopes;55factorysubset corroborated.",
+    "remaining": "SelectiveIR/SnapTone retention,current1.1.0 equivalence andglobalanalogvolume unknown;noresetperformed.",
+    "market": "Fresh exactShopee search repeatedrecordedoffers;noneadoptedasnewcondition/currentstock.",
+    "next": "Continue LCD-priority hardware gaps;defer GP50currentmanual untilnewaccessible1.1.0 source. Preserve independentGT-Pro andcompactexpression queues.",
+    "inventory_changed": false
   }
 }
