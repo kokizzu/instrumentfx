@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(melofty): qualify editor save and Tail-Spill behavior'
+        message='research(fractal): qualify FM3 firmware 13 pitch and gate controls'
     print(git('commit','-m',message))

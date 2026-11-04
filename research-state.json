@@ -159844,5 +159844,21 @@
     "market_access": "Targeted exact Shopee search returned no qualified hardware; not market absence",
     "active_inventory_changed": false,
     "next": "Continue other accessible requested separate-footdisplay hardware/specification gaps; retain independent general and expression queues."
+  },
+  "fm3_13_pitch_gate_scope_20261104": {
+    "checked": "2026-11-04",
+    "model": "Fractal Audio FM3 MKII Turbo",
+    "source": "https://manuals.plus/m/7de5caf1ac45bf1cdf36c9adfdb9d248e0cfeebd9524cbad9fbd8d3f94baf9eb.pdf",
+    "identity": "Original manufacturer37page release history;13.00 July16,2026 matches manufacturer listing explicitly supporting Original/MKII Turbo",
+    "pages": "1–2",
+    "finding": [
+      "Pitch detector upper range approximately2500Hz andlow-frequency shifting improved",
+      "Plex Master Pitch no longer changesdetune;MasterDetune separate",
+      "InputGate/Gate Attack minimum0.1ms;shortAttack/Release distortion caveat"
+    ],
+    "limits": "Not measured latency/quality orpolyphonic synth evidence;installed behavior untested;older12.0 range retained ashistory",
+    "market": "Existing FM3 exact Shopee asks resurfaced without changed stock/condition evidence;no new offer claimed",
+    "inventory_count_unchanged": 402,
+    "next": "Continue requested individual-footdisplay hardware andqualified Shopee gaps;Fender GuideH reader failure deferred;independent general/expression queues retained."
   }
 }
