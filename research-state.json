@@ -162326,5 +162326,19 @@
     "status": "Complete manual category census reconciles headline;partial outside402",
     "next": "Power supply/current/polarity,software/import anddisplay gaps;qualified exactShopee item. Preserve priority displays andindependent GT-Pro/expression queues.",
     "inventory_changed": false
+  },
+  "px4d_regional_power_20261104": {
+    "model": "Korg PANDORA PX4D",
+    "checked_date": "2026-11-04",
+    "canonical_section": "brand/KORG.md#pandora-px4d--regional-adapter-identity-and-support-status",
+    "sources": [
+      "https://www.korg.com/de/products/accessories/ka_199/",
+      "https://www.korg.com/jp/products/accessories/ac_adapter/",
+      "https://www.korg.com/de/products/effects/px4d/page_1.php"
+    ],
+    "revision": "Undated regional manufacturer pages;retrieved2026-11-04",
+    "status": "KA1994.5V300mA German support;KA191 Japan discontinued/no replacement;capacity notdraw;partial outside402",
+    "next": "Adapter polarity/connector/mains andunitdraw,display/import/software gaps; exactShopee hardware. Preserve LCD-first andindependent GT-Pro/expression queues.",
+    "inventory_changed": false
   }
 }

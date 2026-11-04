@@ -1030,6 +1030,18 @@ Checked **2026-11-04**, [manufacturer EFG1 manual,English pp25–27,30–44,48](
 
 Remaining: adapter identity/current/polarity,software/import evidence,display properties andqualified exact Shopee hardware. Earlier category-count uncertainty is superseded bythis manual census;installed contents untested. No download ordevice operation.
 
+### PANDORA PX4D — regional adapter identity and support status
+
+Checked **2026-11-04**. Exact-model manufacturer references; partial lead outside402.
+
+| Field | Evidence / qualification |
+|---|---|
+| Power / German-region accessory | [Korg Germany KA-199](https://www.korg.com/de/products/accessories/ka_199/) explicitly names **PX4D/A** compatibility and rates the adapter **4.5V/300mA**. The [PX4D product page](https://www.korg.com/de/products/effects/px4d/page_1.php) links that accessory. **300mA is adapter capacity,not measured processor draw.** This identifies a regional supported supply,not an Indonesian seller’s bundle. Polarity,barrel dimensions andAC mains range remain unverified. |
+| Power / Japanese-region accessory | [Korg Japan adapter list](https://www.korg.com/jp/products/accessories/ac_adapter/) explicitly includes **PANDORA PX4/A/B/D under KA191**,marked **discontinued,no replacement**. This Japanese listing doesnot invalidate the distinct German KA-199 entry orprove global stock absence. Do not substitute another Korg adapter from similar voltage alone. |
+| Product / creative scope | The German PX4D page marks the processor unavailable/discontinued. Its [feature text](https://www.korg.com/de/products/effects/px4d/page_1.php) describes artificial feedback at room volume andpicking-controlled rotary speed. These corroborate audio-processing roles,not measured tracking performance,input polyphony ornew simultaneous slots. Its approximate30-second practice headline doesnot replace the manual’s31.7-second maximum. |
+
+Earlier unspecified-adapter notes retain their dates butare narrowed bythese exact regional mappings. No current hardware offer,purchase ordevice operation established;screen andsoftware/import gaps remain open.
+
 
 ## PANDORA stomp
 
