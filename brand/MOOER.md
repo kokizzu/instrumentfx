@@ -2059,6 +2059,16 @@ The movable **VOL** block has **Position,Min andMax each0–100**,with **Logarit
 
 Tuner **MUTE** provides silent tuning; **BYPASS** retains sound. The guide permits A+B access orassignment toone CTRL switch. It doesnot establish which precise paths bypass processing,analog powered-off passthrough,orvolume-pedal operation during tuner bypass. No device control,connection ordownload performed.
 
+### GE300 — effects-loop mixing and contradictory routing note
+
+Checked **2026-11-05**, [original manufacturer manual,2019,printed15,53](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf);exact GE300 identity andrevision retained. Original text,not device testing orcurrent5.1.4 certification.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / loop mixing | Send/Return levels each **−60…+6dB**;Parallel Dry/Wet **0–100**. Fully wet follows theexternal loop;fully dry bypasses it. Output mode **Mono/Stereo/Auto**;Auto selects stereo wheneither right Send orReturn isconnected. Send/Return positions save per preset. These are loop controls,not global expression-volume assignment orproof ofall-output mute. |
+| Routing / contradictory loop order | Printed53 says **Return before Send**;printed15’s four-cable example instead places **Send before AMP andReturn after CAB**. Preserve the internal contradiction;neither establishes a universal current ordering rule. The Send Level explanation also incorrectly describes low-frequency tone,whileits parameter name anddB range identify alevel control. No hardware resolution inferred. |
+
+
 ## GE300 Lite
 
 Guitar multi-effects; checked2026-10-18,partial. Separate model fromGE300; no sibling specifications adopted. [Own product page](https://www.mooeraudio.com/product/GE300Lite-239.html). Bass/vocal suitability remains unclassified.
