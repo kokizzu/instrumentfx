@@ -163392,5 +163392,21 @@
     "active_inventory_unchanged": 402,
     "additional_creative_records": 66,
     "next": "Continue accessible no-treadle profile gaps andexactShopee offers;preserve separate-footdisplay priority andindependent generalGT-Pro queue."
+  },
+  "nova_levels_pedal_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://manualzz.com/doc/7256177/tc-electronic-nova-system-guitar-and-bass-owner-s-manual",
+    "revision": "OriginalEnglish1.2/SW1.10,E60508712 pp8,14,16–17",
+    "canonical": "brand/TC-ELECTRONIC.md#nova-system--global-levels-versus-pedal-target-scope",
+    "finding": "Levelsotherthanpresetoutputlevelsareglobal;supportsPre/Postplacement,nottargetmappingpersistence",
+    "global_volume_assignment": "unverified",
+    "remaining": [
+      "PedalMapParametermarkerandacrosspresetscope",
+      "Fullmute/bypass/outputcoverage",
+      "Panelanddimensionscorroboration",
+      "ExactShopeeoffers"
+    ],
+    "active_inventory_changed": false,
+    "next": "Defer unspecifiedpedaltargetscope;continue other no-treadle/profile tasks whenaccessible whilepreserving footdisplaypriority/generalGTProcursor."
   }
 }

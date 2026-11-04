@@ -330,7 +330,7 @@ Checked 2026-10-18 against original manufacturer manual revision 1.2, SW1.10, pp
 | Routing / three architectures | **Serial:** successive blocks feed one another. **Semi Parallel:** delay/reverb run independently. **Parallel:** modulation/delay/reverb receive the same signal independently. These are fixed routing alternatives, not arbitrary free block ordering. [Manual][NOVA-M] pp12–13 |
 | Cabinet / EQ restriction | **SpeakerSim is a high-frequency speaker-simulation filter; enabling it disables EQ.** Manufacturer recommends it for direct recording/mixer connections and off into a guitar amplifier. This does not establish cabinet IR loading or an amp-model library. [Manual][NOVA-M] pp18–19 |
 | Live / delay versus reverb tails | FX Mute **Soft** preserves delay repeats across different delay presets;reverb can continue but adopts the new preset's settings. **Hard** mutes both. This is not proof of wholly gapless preset changes. [Manual][NOVA-M] p18 |
-| Expression / volume position | **Pre** places volume after drive,before effects,allowing tails while lowering input to effects;**Post** controls the complete effected signal. [Manual][NOVA-M] p14 |
+| Expression / volume position | **Pre** places volume after drive,before effects,allowing tails while lowering input to effects;**Post** controls the complete effected signal. [Global Levels scope](#nova-system--global-levels-versus-pedal-target-scope) supports persistent placement,not a global Pedal-menu target override. [Manual][NOVA-M] p14 |
 | Expression / recall and curve | Master **Preset** recalls stored parameter value;**Pedal** uses physical position at preset change. Min/Mid/Max each0–100% define response;one Pedal In selects Expression orG-Switch,not both concurrently. [Manual][NOVA-M] pp16–17 |
 
 ### NOVA System — category census and pitch-range conflict
@@ -411,6 +411,14 @@ Checked **2026-11-04** in [manufacturer-authored English manual reproduction](ht
 | Intelligent Pitch Shifter | Two harmony voices,12keys,13scales;each **−13…Unison…+13 scale steps**,not semitones. Independent0–50ms delays. |
 
 Generated voices/stereo panning do not establish input-note polyphony. Tracking quality,installed firmware anddedicated synthesis/acoustic simulation remain unverified. Availability isnot simultaneous use ofall five pitch choices. No download ordevice operation.
+
+### NOVA System — global Levels versus pedal-target scope
+
+Checked **2026-11-04**, [manufacturer-authored English manual reproduction](https://manualzz.com/doc/7256177/tc-electronic-nova-system-guitar-and-bass-owner-s-manual),revision1.2/SW1.10,E60508712,printedpp8,14,16–17. Original body only.
+
+Page8 distinguishes preset-stored **output levels** from the other **global Levels-menu parameters**. Page14 explicitly identifiesLeft/Right Output as per-preset,each−100…0dB,and placesVolume Position inthat menu. Together these support **global Pre/Post placement**;they do notidentify the separate Pedal-menu Map Parameter as global. Pre is afterDrive/beforeeffects;Post follows effects.
+
+Thus three scopes remain distinct: global signal-chain placement,per-preset output trims,andthe unresolved across-preset pedal target. **Master:Pedal** concerns position recall,not target persistence;the retained firmware1.2 recall fix still qualifies it. The−100dB lower value is a published level,not proof ofdigital silence orevery-route mute. No headphone,bypass orlooper coverage isestablished here. No device operation ordownload;global analog-volume assignment remains **unverified**.
 
 [NOVA-M]: https://manualzz.com/doc/7256177/tc-electronic-nova-system-guitar-and-bass-owner-s-manual
 
