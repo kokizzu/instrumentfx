@@ -3100,20 +3100,22 @@ Checked2026-10-18 against the [original manual pp22–23][ZG21-M]; no software o
 
 Checked 2026-10-19; partial. Separate from G2.1Nu and G2.1u. [Exact manufacturer support](https://zoomcorp.com/en/gb/multi-effects/guitar-effects/g2nu/g2nu-support/) and [own family manual](https://zoomcorp.com/media/documents/E_G2Nu_G21Nu_0.pdf), pp.4–5,50; text inspection. [Product](https://zoomcorp.com/en/us/multi-effects/guitar-effects/g2nu/) marks discontinued. Ownership and bass/vocal suitability unverified.
 
+Current summary reconciled **2026-11-04** against the dated findings below, primarily checked **2026-10-19**. This is a summary correction, not a new full hardware/firmware audit. Original sources, counts, qualifications and contradictions remain in the following sections.
+
 | Field | Evidence / qualification |
 |---|---|
-| Expression | External FP02/FS01 control; built-in pedal absent from G2Nu panel inventory. Toe support unverified. |
-| Knobs / footswitches / buttons | Separate totals unverified; no visual count. |
-| Display | LCD;diagonal,color,touch unverified. |
-| Processing / categories | 83types;maximum8 simultaneous modules. Category census/DSP combination limits unverified. |
-| Memory | 100user and100preset patches,each10banks×10. Initial user fill and preset protection unverified. |
+| Expression | No built-in pedal in the G2Nu panel inventory. Shared CONTROL IN accepts FP01/FP02 expression or FS01 switch. TOTAL→RTM assignment and range save per patch; global target override, toe support and route-specific volume coverage remain unverified. See the exact external-expression section below; G2.1Nu toe/calibration instructions are not transferred. |
+| Knobs / footswitches / buttons | **4 / 2 / 7**, from the G2Nu-specific textual inventory below: module selector plus three parameter knobs; DOWN/UP; two bank/type keys plus STORE/SWAP, DIRECT, RHYTHM, TAP, USB/GLOBAL. Rear POWER separate; no visual corroboration claimed. |
+| Display | LCD with adjustable backlight and contrast; both settings persist after power-off. Diagonal, color, touch and numerical adjustment limits remain unverified. [Display-setting source scope](#g2nu--display-settings-and-battery-indication-scope). |
+| Processing / categories | Maximum **8 named modules**; published **83 types**. Original category reconstruction: COMP3, EFX9, ZNR3, DRIVE30, EQUALIZER1, MODULATION21, DELAY5, REVERB7 = **79 placements**. Four cabinet settings could explain the difference arithmetically, but manufacturer counting/revision equivalence remains unresolved. Choices are not simultaneous instances. |
+| Memory | **100 writable User +100 recall-only Preset** locations; each has ten banks of ten. User banks initially duplicate the preset banks: 200 locations, not 200 distinct supplied sounds. Store/Swap/reset qualifications and original sources remain below. |
 | Dimensions / mass | 166 D×160 W×64 H mm;800g excluding batteries. |
-| I/O | Mono quarter-inch input,stereo quarter-inch line/headphone output,CONTROL IN,USB,DC. USB audio details unverified. |
+| I/O | Mono quarter-inch input; shared stereo quarter-inch line/headphone output; CONTROL IN, USB and DC. USB audio **16-bit at32/44.1/48kHz**; DAW playback mixes with processed guitar and direct monitoring can be disabled. Channel count/current host behavior remain unverified; internal96kHz conversion is separate. |
 | Power | 9VDC500mA center-negative AD-16 supply rating;4AA alkaline approximately6.5h with backlightLOW;explicit USB bus power. Measured draw unverified. |
 | IR / NAM / capture | User import unverified. |
 | Editor / platforms | Exact support offers Edit&Share Windows5.3.2/Mac4 and firmware1.10 Windows/Mac. Current OS/host operation untested;updater separate from editor. |
-| Synth / acoustic | Dedicated capabilities unverified. |
-| Looper / drums / live | Panel names LOOPER,RHYTHM,TAP;tuning. Capacities,patterns,retention,scenes andtrails unverified. |
+| Synth / acoustic | **Aco.Sim** electric-to-acoustic processing with Top/Body/Level; MonoPitch explicitly single-note pitch shifting. Dedicated tracking synth remains unverified; no synthesis inferred from filter or pitch names. |
+| Looper / drums / live | Approximate **5s** looper with overdubs; rhythm can accompany looping. Looper disables DELAY; Rhythm disables REVERB. **40 rhythm/metronome entries =36 styles +4 clicks**. Stop versus clear and tempo-change erasure are documented below; power/preset persistence, undo, scenes and trails remain unverified. Onboard DOWN/UP selects patches in Play. |
 | IDR verified used | Unknown. |
 | IDR verified new | Unknown. |
 | IDR condition-unverified ask | Unknown. Exact Shopee searches surfaced adapters and unrelated/existing models;no qualified G2Nu hardware offer. Seller/item,stock,bundle,warranty,voucher unverified. |
@@ -3186,6 +3188,14 @@ Exact firmware/counting searches returned no explanatory primary result;no insta
 ### G2Nu — external expression-volume scope
 
 Checked2026-10-19 against [original manufacturer family manual body](https://manualzz.com/doc/58694453/zoom-g21nu-operation-manual), p27; G2Nu-specific CONTROL IN instruction confirmsFP01/FP02. **TOTAL→RTM destination and range are patch settings**: manual requires saving before changing patches. VOLUME is a selectable destination, capped by master/patch levels; adjustable endpoints allow inversion, numeric volume endpoint bounds unverified. The global FS01 switch assignment onp26 is separate and does not establish global expression volume. G2.1Nu-only toe/calibration instructions are not transferred. Volume position, bypass, headphone/tail/looper coverage and position recall remain unknown. Existing160W×166Dmm exceeds preferred depth; shared line/headphone output and onboard down/up retained. No download or device operation.
+
+### G2Nu — display settings and battery-indication scope
+
+Checked **2026-11-04** in [indexed manufacturer family manual, printedp31](https://zoomcorp.com/media/documents/G2Nu_G21Nu_Jhj6AQw.pdf), identified by its G2Nu/G2.1Nu title and shared Global Menus chapter. The separate panel descriptions distinguish the models; G2.1Nu-only treadle features are not transferred. Full PDF remains above the reader size limit; no screenshot or local download.
+
+DISPLAY assigns backlight to parameter knob1 and contrast to knob2; **both settings survive power-off**. The text does not establish all numeric endpoints or physical screen dimensions, color or touch. The example screen is not treated as a measured/default-range specification.
+
+BATTERY distinguishes ALKALINE, also used for oxyride, from rechargeable NiMH; the selected type changes the accuracy of the remaining-charge indication and survives power-off. This is battery chemistry configuration, not in-device charging support. No setting, battery or firmware was changed.
 
 ## G2X FOUR
 

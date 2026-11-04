@@ -161595,5 +161595,34 @@
     "status": "Partialleadoutsideactiveinventory",
     "active_inventory_unchanged": 402,
     "next": "Continueaccessibleprioritydisplaymodelsorbroaderprofile/marketgaps;avoidunchangedfailedvisualsources;GTPro/general,expressionandconsolidationqueuespreserved."
+  },
+  "g2nu_summary_display_reconciliation_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "Zoom::G2Nu",
+    "canonical": "brand/ZOOM.md#g2nu",
+    "new_source": "https://zoomcorp.com/media/documents/G2Nu_G21Nu_Jhj6AQw.pdf",
+    "revision": "Original family operation manual printed31;indexed manufacturer text;no visuals",
+    "summary_basis": "Existing dated Oct19 findings retained verbatim;updated only obsolete summary unknowns,not a fresh complete audit",
+    "summary_resolved": [
+      "Text-derived4/2/7 controls",
+      "Initial User duplication and Preset protection",
+      "USB format and monitoring qualifications",
+      "Aco.Sim versus unknown dedicated synth",
+      "Looper/rhythm capacities and disabled-module interactions",
+      "Preset-stored external RTM assignment"
+    ],
+    "new_findings": [
+      "Backlight/contrast persist after power-off",
+      "Battery chemistry selection persists andaffects remaining-charge indication;not charging proof"
+    ],
+    "remaining": [
+      "83 advertisedtypes versus79placements countingbasis",
+      "Global expressionoverride,position/endpoints/recall/outputcoverage",
+      "Display physicalspecifications/currenthost compatibility",
+      "Qualified exact G2Nu IDR hardware"
+    ],
+    "market": "Fresh exact Shopee query returned no qualified G2Nu hardware;no newprice/stock orabsence claim",
+    "active_inventory_unchanged": 402,
+    "next": "Continue accessible display-priority evidence and systematically reconcile stale model summaries with retained findings;preserve independent GT-Pro/general,expression andconsolidation queues."
   }
 }
