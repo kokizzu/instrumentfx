@@ -1756,6 +1756,7 @@ Official Japanese PDFs failed to load or exceeded the retrieval limit; the mirro
 | External expression |One EXP2 TRS socket; manual supports 10k–100k pedals. The same socket alternatively switches an external compatible amplifier; do not count two simultaneous connections |
 | Expression / external toe boundary | Original manual pp89–90: **EXP2 has the same assignment functions asEXP1 butdoes not support its toe-down switch**. TRS cable and10k–100k pedal required;calibration precedes assignment. No tip/ring/wiper pinout orglobal volume scope is specified here. |
 | I/O / amplifier-control compatibility | EXP2 instead becomes **EXT CTRL output** witha mono cable;assign CTRL toEXT CTRL andselect latching/momentary for the amp. Maker restricts it to **short-to-sleeve inputs ontraditional dual-channel amps**,warns other inputs can damage both devices,anddoes not guarantee all compatible-looking amps. This is switching output,not analog expression input inparallel,an audio port orMIDI. [Original manual pp89–90][M] |
+| I/O / historical reamp mix fix | [2.0.6 history](#ge300--historical-reamp-and-editor-reliability-scope) reports a wet/dry mix adjustment fix; this is not expression-volume assignment or a new USB channel count. |
 | I/O / USB MIDI and driver provenance | Rechecked **2026-11-05**: [exact GE300 manufacturer launch article](#ge300--chinese-manufacturer-usb-midi-and-display-evidence) explicitly supports MIDI overUSB;this feature is documented,whilecurrent message routing andUSB-host behavior remain unverified. [Exact-model download index](https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html) lists **MOOER_USBAudio5.70.0**,separate fromStudio5.1.4 Win/Mac packages;[Regional driver-list mismatch](#ge300--regional-usb-driver-list-mismatch) remains unresolved; OS/architecture requirements andinstalled versions unverified. |
 | Rotary knobs |**9**: three independent master output knobs (XLR/headphone/jack), SELECT encoder, five parameter knobs |
 | Footswitches |**10**: four CTRL, four A–D and bank up/down; assignable LED colors |
@@ -2106,6 +2107,12 @@ Checked **2026-11-05** in the [manufacturer original-GE300 release history](http
 - The same entry says changed **CAB microphone models may alter older presets’ tone** andmay require adjustment. The B2.0.0 text describes relatively greater bass andless treble afterthe microphone-model correction. Neither guarantees identical sound across revisions orimplies a new cabinet algorithm.
 
 Keep the separate reset/backup,80MNRS/50IR capacity andregional release-label qualifications. Current installed firmware remains unknown;no update,calibration,download ordevice operation. Targeted Shopee used/Melodia searches yielded no new qualified offer;the existing dated asks remain unchanged.
+
+### GE300 — historical reamp and editor reliability scope
+
+Checked **2026-11-05** in the [original GE300 manufacturer release history](https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html). The **2.0.6 entry**, under its **“Bug Fixes in B2.0.0”** heading, reports repairing an unadjustable REAMP wet/dry mix, silent sample files and repeated expression recalibration after factory reset. Preserve that heading ambiguity rather than assign a precise first-fixed beta build.
+
+Its separate editor notes report fixes for loading 32-bit IR files and renaming TONE CAPTURE files. These are historical reliability corrections, not expanded IR length, new capture architecture, complete backup guarantees or current OS certification. Calibration concerns pedal travel; it does not establish global assignment, minimum/maximum volume or headphone/tail coverage. Current installed behavior remains untested.
 
 ## GE300 Lite
 

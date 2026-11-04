@@ -167602,5 +167602,24 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Original GE300 next inindependentgeneralqueue;retain requestedindividualfootdisplay,expression,GT-Pro andconsolidation priorities."
+  },
+  "ge300_reamp_reliability_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/MOOER.md#ge300--historical-reamp-and-editor-reliability-scope",
+    "source": "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html",
+    "revision": "2.0.6 entry with Bug Fixes in B2.0.0 heading; separate editor notes",
+    "findings": [
+      "REAMP wet/dry adjustment fix",
+      "Silent sample and repeated post-reset expression calibration fixes",
+      "Editor 32-bit IR load and TONE CAPTURE rename fixes"
+    ],
+    "qualification": "Historical reliability only; first-fixed beta build ambiguous; no global expression assignment or current behavior inferred",
+    "remaining": [
+      "Current category census/factory fill",
+      "Global EXP2 and output coverage",
+      "Qualified Shopee offers"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue general cycle GP-200JR then Prime then original GE300; individual footswitch displays retain priority; preserve GT-Pro/expression/consolidation queues"
   }
 }
