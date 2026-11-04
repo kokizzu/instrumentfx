@@ -1665,7 +1665,7 @@ Bass-only multi-effects record, checked 2026-10-17. Partial verification; not B2
 | Display | Two-digit seven-segment LED plus parameter/pedal LEDs;diagonal,color specification unverified;touch unverified [B21-M p.35] |
 | Processing / categories | 47 choices; up to 9 simultaneous including ZNR. Derived module counts: COMP/LIMIT 2; WAH/EFX 8; DRIVE/SYNTH 16 (13 amp/drive + 3 synth); ZNR/MIX 1; LO EQ 2; HI EQ 2; MOD/SFX 10; DELAY 3; REVERB 3. Sum = 47; control settings, bypass and cabinet parameter values are not extra algorithms [B21-M pp.25–34] |
 | Preset memory | 40 ROM + 40 writable = 80; all40 user slots A0–d9 initially duplicate preset00–39. All Initialize overwrites user edits [B21-M pp.4–5,24] |
-| Synth / acoustic | Three synth types: Standard Synth, Synth Talk, Mono Synth; Defret is in WAH/EFX. ACOUSTIC models the ACOUSTIC360 bass amp; it is not evidence of acoustic-guitar simulation. Dedicated acoustic simulator unverified [B21-M pp.28–30] |
+| Synth / acoustic | Three synth types: Standard Synth, Synth Talk, Mono Synth; Defret is in WAH/EFX. ACOUSTIC models the ACOUSTIC360 bass amp; it is not evidence of acoustic-guitar simulation. Dedicated acoustic simulator unverified [B21-M pp.28–30] [Pitch alternatives and pedal roles](#b21u--pitch-alternatives-and-pedal-role-boundary) are qualified separately. |
 | IR / NAM / captures | User IR,native/converted NAM andmeasured capture support unverified |
 | Audio / control ports | Mono input;stereo output/headphones;balanced XLR pre/post DI with ground lift;CONTROL IN;USB;DC IN [B21-M pp.6–7,35] |
 | Analog levels / conversion | Input 1 MΩ / −20 dBm; **96 kHz, 24-bit A/D with 64× oversampling; 24-bit D/A with 128× oversampling**, 32-bit internal processing. Published frequency response **20 Hz–40 kHz, +1/−3 dB into 10 kΩ**. USB is separately 16-bit stereo at 32/44.1/48 kHz; converter oversampling does not change that USB format. [B21-M p.35] |
@@ -1722,6 +1722,12 @@ Checked2026-10-18 against [own original manual printedpp29–30,33](https://zoom
 | Field | Evidence / qualification |
 |---|---|
 | Memory / save and copy behavior | UserbanksA–d are writable;presetbanks0–3 read-only. STORE from apreset defaults targettoA0,not an overwrite oftheROMpreset. Select destinationbank withBANK keys andpatchnumber withfootswitches,thenSTORE again. TurningModule selector beforesecondSTORE cancels. Changingpatch afterediting withoutsaving losesedits;pedalassignments mustalsobestored perpatch. |
+
+### B2.1u — pitch alternatives and pedal-role boundary
+
+Checked **2026-11-04**,[original manufacturer English manual,printedpp31–33](https://zoomcorp.com/media/documents/E_B21u.pdf),undated. **PITCH SHIFTER** selects −12…−1,detune,+1…+12 or+24 semitones;13–23 are not listed. **PEDAL PITCH** and key/scale **HARMONIZED PITCH SHIFTER** are alternatives in **MOD/SFX**,not three independent blocks. Chord handling remains unverified. STEP shares this module and is staircase processing,not a tracking synth.
+
+The built-in pedal can control the selected marked effect parameter;the separately documented external FP01/FP02 role is **volume-only**,not a second pitch-controller assignment. Existing Mono Synth single-note restriction,other synth polyphony uncertainty,DEFRET distinction andsynth dry-path routing remain. This is an exact-model follow-up,not inherited originalB2/B2FOUR evidence orcurrent installed-firmware certification.
 
 ## B3
 
