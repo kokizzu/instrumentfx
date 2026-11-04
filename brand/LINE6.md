@@ -808,6 +808,23 @@ Checked **2026-11-04**, exact family manual with explicit non-XL distinctions; l
 
 Aux audio outside the current preset is not proven tofollow a Volume block. Phones has its own selected output-volume control;analog EXP coverage ofeither path remains unverified. Full electrical specifications,power label,creative/category census,current factory filling andqualified Shopee hardware remain open. Partial lead remains outside active counts;no download,import,formatting ordevice test.
 
+### Stadium Floor — named creative inventory and looper retention
+
+Checked **2026-11-04**. [Manufacturer model list](https://line6.com/helix-stadium-models/) explicitly covers Stadium hardware; this is not an assumed transfer from XL. Installed library and tracking performance remain untested.
+
+| Capability | Exact named inventory / qualification |
+|---|---|
+| Pitch/Synth current-format entries | **12:** Pitch Wham; Twin Harmony; Simple Pitch; Dual Pitch; Boctaver; 3 OSC Synth; Poly Pitch; Poly Wham; Poly Capo; 12 String; 3 Note Generator; 4 OSC Generator. |
+| Pitch/Synth Legacy entries | **17:** Bass Octaver; Smart Harmony; Octi Synth; Synth O Matic; Attack Synth; Synth String; Growler; Buzz Wave; Rez Synth; Seismik Synth; Analog Synth; Synth Lead; String Theory; Synth FX; Saturn 5 Ring Mod; Synth Harmony; Double Bass. |
+| Classification | All29 list initial appearance **Stadium1.0**, not original HX introduction. 3 OSC Synth’s Stereo label describes channels, not chord tracking. Poly Pitch/Wham/Capo and12 String explicitly use polyphonic pitch processing; synth-input polyphony remains unverified. The two Generator models operate without instrument input. |
+| Instrument / special processing | **Acoustic Sim** is under EQ. **Feedbacker, Poly Sustain, Glitch Delay, Tesselator, Ratchet** are separate entries; availability does not establish simultaneous operation. Acoustic IRs and Proxy captures remain separate processes. |
+
+The model-list footnote names **Pitch Sustain** under Modulation, whereas the [Dynamic DSP chapter](https://manuals.line6.com/en/helix-stadium/live/dynamic-dsp) names **Poly Detune** in the high-DSP combined group. Preserve the wording conflict rather than create a thirtieth Pitch/Synth entry. Previously recorded two-per-preset/one-per-primary-path restrictions remain DSP-qualified.
+
+**[Looper chapter](https://manuals.line6.com/en/helix-stadium/live/looper-block), live v1.4 navigation:** Deluxe and1 Switch record **120s mono/60s stereo** at full speed, **240s mono/120s stereo** at half speed. Shuffling records **60s mono/30s stereo**, with no half-speed option. These are different type-specific limits. Preset changes retain playback/recording only when both presets contain the same looper type, mono/stereo format andpath. Audio is not saved with the preset andis cleared on power-off. Half-speed playback changes pitch;it is not independent real-time instrument transposition. Non-XL Deluxe labels use Home > Play, not OLED strips.
+
+The record remains partial outside402 active models. Exact parameter ranges,note handling,full category census,electrical power rating,global analog-volume coverage andqualified Shopee hardware remain open. No download,import ordevice operation.
+
 ## Helix Stadium XL Floor
 
 <!-- comparison evidence begins -->

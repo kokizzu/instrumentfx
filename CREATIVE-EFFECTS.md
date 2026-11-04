@@ -153,6 +153,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [TC Electronic G-System](brand/TC-ELECTRONIC.md#g-system--original-processing-census-and-creative-boundaries) is a **partial lead outside active counts and the additional-record index**. Its original1.6/SW1.05 manual documents Pitch Shifter, Octaver, Whammy and Detune, plus resonant/formant filters, reverse/lo-fi delays and modulation. [Revision2.04/SW2.01](brand/TC-ELECTRONIC.md#g-system--revision204-harmony-availability-and-scale-census) also documents Intelligent Pitch Shifter with18scales; introduction version remains unresolved. Two generated voices do not establish chord tracking or synthesis. The38-entry type/mode census is separate from the nine-effect concurrency headline and current firmware. [Software4.0 addendum](brand/TC-ELECTRONIC.md#g-system--software40-additions-and-parallel-dry-path-boundary) separately documents Vintage/Modern Univibe, Doubler androuting changes.
 
+[Line 6 Helix Stadium Floor](brand/LINE6.md#stadium-floor--named-creative-inventory-and-looper-retention) is a **partial non-XL lead outside active counts and the additional-record index**. Its manufacturer-scoped record names29 Pitch/Synth entries, distinguishes polyphonic pitch from unverified synth chord tracking andinput-independent generators, andrecords Acoustic Sim plus special delays/feedback. Looper duration andretention depend ontype/format/path;recorded audio isnot saved withpresets. This doesnot addindividual footswitch screens.
+
 ## What remains uncertain
 
 - Actual tracking quality, latency and installed firmware were not measured for these records.
