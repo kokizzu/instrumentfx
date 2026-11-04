@@ -1085,6 +1085,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI selle
 
 | Required field | Evidence / qualification |
 |---|---|
+| Processing / bypass dry-path controls | [November common controls](#fm9-mkii-turbo--bypass-dry-path-and-global-mix-scope): MUTE FX IN/OUT retain Mix, Level and Balance on dry audio; THRU disengages block parameters. Mode availability varies by block. Not proof of all-output EXP attenuation. |
 | Routing / Crossover split | [November reference](#fm9-mkii-turbo--crossover-routing-and-frequency-scope): two stereo two-way XVR blocks, CPU permitting; fourth-order Linkwitz-Riley filters,40–800Hz or400Hz–8kHz with×10. Separate low/high L/R levels and pans support band-specific processing, not note-tracking synthesis. |
 | Manufacturer identity / revision | Four DSP cores;**10+% extra processing over original**,larger switch displays with nearly double viewing area. [Product][f9-p]. |
 | Built-in / external / toe expression | No built-in treadle;**three external pedal/switch sockets**. Toe configuration unresolved. [Product][f9-p];[Store][f9-s]. |
@@ -1748,6 +1749,14 @@ Checked **2026-11-04**, [manufacturer November2026 Blocks Guide, printed pp3,30]
 Each XVR is a **stereo two-way split with fourth-order Linkwitz-Riley filters**. Frequency spans **40–800Hz**, or **400Hz–8kHz** with the **×10** multiplier. Low and high bands have separate left/right levels and pans. Cascading two blocks can make a three-way crossover; that uses both available instances rather than adding a third block.
 
 The manufacturer suggests band-specific amp/effect paths such as polyfuzz or low/high chorus. Here polyfuzz describes split-band processing; it does not establish note tracking, pitch shifting or a synth engine. Exact patch CPU cost, installed-firmware equivalence and all-route global volume remain unverified. No local download or device operation.
+
+### FM9 MKII Turbo — bypass dry-path and Global Mix scope
+
+Checked **2026-11-04**, [manufacturer Blocks Guide, November2026, pp3–5](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf), explicitly covering FM9. Installed firmware and every block’s available modes remain untested.
+
+**MUTE FX IN** preserves dry audio and decaying tails; **MUTE FX OUT** passes dry audio while silencing wet output, with processing continuing internally. In both, Mix, Level and Balance still affect dry audio. **THRU** instead disengages block parameters. **MUTE OUT** cuts output immediately but keeps processing; **MUTE IN** stops new input while allowing tails, suited to parallel paths.
+
+**Global Mix** opts a block into the system Effects Mix offset, up to±50%; it adjusts wet/dry balance, not universal master volume or analog-pedal assignment. Block Input Gain likewise leaves dry audio unaffected. These distinctions do not resolve global EXP endpoints, recall or headphone/USB/looper coverage. Older spillover qualifications remain.
 
 ## FM9 original
 

@@ -161021,5 +161021,22 @@
     ],
     "inventory_count_unchanged": 402,
     "next": "Return to accessible requested footswitch-display model gaps; defer inaccessible Prime storage/screens/portable-power evidence. Preserve independent GT-Pro and expression-volume queues."
+  },
+  "fm9_bypass_dry_global_mix_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "Fractal Audio::FM9 MKII Turbo",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 pp3–5; explicitly FM9; installed firmware untested",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-mkii-turbo--bypass-dry-path-and-global-mix-scope",
+    "finding": "FX-input/output mute retain dry-path level/mix/balance; THRU differs. Global Mix offset is not global master/pedal assignment.",
+    "market": "Exact Hurtrock item11170212/25331147281 repeats recorded Rp44395000 month-old snapshot; no refreshed stock or condition claim.",
+    "remaining": [
+      "Per-block mode availability",
+      "Global analog-volume endpoints and position recall",
+      "Headphone/USB/tail/looper attenuation",
+      "Current qualified exact-revision offers"
+    ],
+    "inventory_count_unchanged": 402,
+    "next": "Continue requested separate-footdisplay models and accessible exact Shopee/profile gaps; preserve independent GT-Pro and expression-volume queues."
   }
 }
