@@ -163949,5 +163949,22 @@
     ],
     "inventory_changed": false,
     "next": "Continue requested display-priority models and exact Shopee hardware gaps;preserve independent GT-Pro and expression-volume queues"
+  },
+  "prime_advanced_block_controls_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://cdn.inmusicbrands.com/Software/SGEE/5/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.0.0.pdf",
+    "revision": "5.0.0 §4.4.2 printed29;indexed original text;current5.2 equivalence unverified",
+    "canonical": "brand/HEADRUSH.md#prime--block-gain-versus-rig-input-gain",
+    "scope": "Processing block controls separated from previously documented Guitar In and global output controls",
+    "market": "Fresh exact Prime Shopee searches repeated recorded cached offers only;no new price/stock claim",
+    "remaining": [
+      "Current5.2 advanced-page equivalence",
+      "Block Mix numeric range and bypass behavior",
+      "OLED physical specifications",
+      "Rig/IR numerical storage ceiling",
+      "Condition-qualified current Shopee stock"
+    ],
+    "active_inventory_changed": false,
+    "next": "Continue requested display-priority model evidence and exact Shopee hardware;preserve independent GT-Pro/general and expression-volume queues"
   }
 }

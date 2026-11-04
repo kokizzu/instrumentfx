@@ -851,6 +851,17 @@ Checked **2026-11-04** against [manufacturer User Guide1.0.0,printedpp9,53–54]
 
 Existing12OLED count,per-rig expression limitations andunresolved rig/IR capacity remain. ExactShopee search repeats existing cached asks only;no new stock claim. No download,connection,setting change ordevice operation.
 
+### Prime — block gain versus rig-input gain
+
+Checked **2026-11-04**, indexed original [manufacturer Prime User Guide5.0.0, §4.4.2, printedp29](https://cdn.inmusicbrands.com/Software/SGEE/5/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.0.0.pdf). Full PDF exceeds web-reader limits; no screenshot inspection or local download. Current5.2 equivalence is unverified.
+
+| Field | Revision-qualified processing control |
+|---|---|
+| Processing / advanced block gain and EQ | Amp, cab, IR, clone and effect blocks have an advanced editing page: **Input Gain and Output Gain each −12…+12dB**, plus four EQ bands (Low, Low Mid, High Mid, High), with Shelf/Cut choices for the outer bands. The graph’s **12/24dB Zoom** changes its display scale; it does not establish the parameter gain limit. These controls are not additional freely placeable effect slots. |
+| Processing / block wet-dry blend | Guide5.0 explicitly lists **Block Mix** as the blend between that block’s input and processed output. No numeric range or universal bypass/tail behavior is established here. |
+
+The block’s ±12dB gain range differs from the separately documented **Guitar In −60…+12dB**. Neither provides evidence of analog expression assignment across every rig, full mute, or headphone/looper coverage. No device test; current capacity, auxiliary-screen specifications and qualified Shopee stock remain unresolved.
+
 ## VX5
 
 <!-- comparison evidence begins -->
