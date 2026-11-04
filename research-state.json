@@ -163630,5 +163630,13 @@
     "finding": "ASIO3.29.0Win7 and5.30.0Win10+ separate fromfirmware/editor2.0.1. Manufacturer1ms latency unconditioned;notUSBroundtripmeasurement.",
     "next": "USBchannelcounts,streamformat,globalanalogEXPvolume anddisplay specificationsremainunknown. Preservepriorityqueues.",
     "active_count_unchanged": 402
+  },
+  "trident_looper_transcription_20261104": {
+    "source": "https://manuals.plus/m/9fa23ef5c7df7f63f573dc5049c51a33dced2701ef830b913cfe656ba0dcaa6f",
+    "revision": "22pageV1,copyright2022Cherub;transcriptiononly",
+    "status": "provisional-originalPDFcorroborationpending",
+    "finding": "Transcription mapsFXREC/DUB,MODPLAY/STOP,DELAYUNDO/REDO,REVERBCLEAR;shortclearerases,holdexits,poweroffclearsloop. DoNotcertifycurrenthardware.",
+    "next": "Originalpassagecorroboration;USBchannels/globalFVstillunknown. Continueothermodelgapsratherthanunchangedfailures.",
+    "active_count_unchanged": 402
   }
 }

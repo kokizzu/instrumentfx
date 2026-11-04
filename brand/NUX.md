@@ -1827,3 +1827,11 @@ Condition,new/used status,selected variant,adapter/MIDI-adapter bundle,warranty/
 Checked **2026-11-04**, [manufacturer exact-model support listing](https://nuxaudio.com/product/trident/). Firmware anddesktop software both remainlisted as **2.0.1**,with update dates shown as dashes. Separate ASIO packages are **3.29.0 (Win7)** and **5.30.0 (Win10 andabove)**. These labels document available packages,not installed versions,release dates,WindowsARM support orcertification ofevery Windows build/DAW. They do not establish Mac driver requirements,USB-stream resolution orchannel count. No package downloaded,installed orrun.
 
 The same specification lists **1ms system latency**,without measurement conditions;this is a manufacturer claim,not measured USB round-trip latency oralgorithm-specific pitch/synth tracking. Existing48kHz/32-bit processing wording isnot USB bit-depth proof. Global expression assignment/coverage andqualified stock remain unresolved.
+
+### TRIDENT — provisional looper-control transcription
+
+Checked **2026-11-04**, [transcription ofthe retained22-page manufacturer V1 manual,©2022Cherub](https://manuals.plus/m/9fa23ef5c7df7f63f573dc5049c51a33dced2701ef830b913cfe656ba0dcaa6f),Phrase Looper chapter. The originalPDF timed out,andalternate page reproductions were inaccessible;this passage is **not freshly PDF-corroborated** andmust remain provisional. It isnot a current2.0.1 hardware test.
+
+The transcription maps **FX=REC/DUB,MOD=PLAY/STOP,DELAY=UNDO/REDO,REVERB=CLEAR** afterholdingFX toenter Looper. It describes shortCLEAR as deleting theloop,heldCLEAR as leaving thepage,andpower-off as clearing loopaudio. These are distinct actions;the earlier30-second PRE/POST capacity remains separately manufacturer-backed. Save/export support andpreset-change continuity are not established bythis passage.
+
+USBSET labels andpedal calibration still do not enumerate audio channels orprove global analog volume. Next: corroborate thelooper passage against originalpages,andpursue other model gaps withoutrepeating unchanged source failures. No recording,erasure,download ordevice operation.
