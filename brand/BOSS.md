@@ -1907,7 +1907,7 @@ Current comparison summary, reviewed 2026-10-28. Discontinued rack guitar multi-
 | Display / contrast adjustment | Original manual p96: SYSTEM→LCD Contrast offers **1–16**, for the right-hand LCD. This is a contrast parameter,not a diagonal,color-depth,touch or LED-brightness specification. [Indexed manufacturer original](https://cdn.roland.com/assets/media/pdf/GT-PRO_OM.pdf),checked2026-11-03. |
 | Knobs / pickup behavior | Original p99: **Immediate** changes the value as soon as a knob moves; **Current Setting** waits until its physical position reaches the stored patch value. This is front-panel knob pickup,not expression-pedal Assign Hold or a global volume-range override. [Indexed manufacturer original](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf),checked2026-11-03. |
 | Expression | No built-in treadle. EXP1 and shared EXP2/CTL3,4 accept external control; CTL1,2 is separate. EV-5/FV-300L specified; set pedal minimum to MIN. Global SYSTEM **Foot Volume and Patch Level** roles documented;Patch Level is a separate direct target,not a per-patch ASSIGN. Foot Volume precedence over patch FV enable/MIN/MAX remains unknown. Auto can switch to wah/bend; it is not a volume lock. External toe capability unverified. |
-| Knobs / footswitches / buttons | **12 / 0 / 30**, derived from manual text; POWER and ground-lift counted separately. Panel-image corroboration pending. No onboard preset footswitch down/up. |
+| Knobs / footswitches / buttons | **12 / 0 / 29**, reconciled from original manual pp11–12; [explicit count and prior30 correction](#gt-pro--reconciled-textual-control-census). POWER and rear ground-lift separate; panel-image corroboration pending. No onboard preset footswitch down/up. |
 | Display | Backlit **16×2-character LCD** plus **2-character seven-segment LED**; corroborated by the exact GT-PRO specification body in [BOSS Products Catalog 2008, PDF p21](https://images.static-thomann.de/pics/atg/atgdata/document/brochure/189895_broschure.pdf). Diagonal, color and touch remain unverified. |
 | Dimensions / mass | **482 W × 305 D × 89 H mm; 4.8 kg**. Far exceeds preferred 200 W × 140 D mm. |
 | Processing / categories | **44 catalogue entries: 22 shared FX families + 11 FX2-only + 11 other entries**, including external LOOP and FV. FX1 selects one of 22 families; FX2 one of 33. Catalogue and original manual p10 claim15 simultaneous effects; Japanese specifications also say13. [Primary-manual qualification](#gt-pro--owner-manual-count-claim-and-windows-driver-endpoints-source-details); counting basis unresolved. |
@@ -2575,6 +2575,14 @@ Checked **2026-11-04**, [manufacturer-authored English owner manual reproduction
 This page establishes **24 separate pushbuttons**:14 numbered items6–19 (COMP,OS/DS,WAH,EQ,DELAY,CHORUS,REVERB,FX-1,FX-2,AMP CTL1/2,PRE LOOP,LOOP1/2,ASSIGN),two PARAMETER buttons,and eight items21–28 (OUTPUT SELECT,SYSTEM,EXIT,WRITE,SHIFT,TUNER/BYPASS,NAME/FX CHAIN,MASTER). The AMP CTL pair counts as two. **PATCH LEVEL is a rotary;POWER is a separate switch**,not included in24.
 
 This is a **lower bound,not the complete front-panel button total**: page11 contains earlier controls andwas inaccessible. SHIFT changes PATCH/VALUE adjustments to increments of ten;holding one PARAMETER button while pressing the other jumps between main parameters,or to the first/last where there are few. These modifier actions do not add physical controls. No complete rotary census ordisplay measurement inferred;other USB-mode,globalFV andqualifiedIDR gaps remain.
+
+### GT-Pro — reconciled textual control census
+
+Checked **2026-11-04**, indexed original [manufacturer English owner manual,printedp11](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf), with [p12 reproduction](https://roland.manymanuals.com/supplementary-music-equipment/gt-pro/owners-manual-5239/12) fromthe same164-page edition. Targeted original text is readable despite thefull-PDF reader limit;no panel-image inspection.
+
+Page11 names **five** preamp buttons:On/Off,TYPE VARIATION,**CHANNEL**,SOLO,SPEAKER. CHANNEL is onebutton switchingA/B,not two buttons established bytwo channel labels. Together withthe24 separately enumerated onp12,this yields **29 pushbuttons**. The earlier30-count summary is corrected;its older appearances remain historical provenance.
+
+**Twelve rotaries** comprise INPUT LEVEL,MAIN,SUB,PATCH/VALUE,seven preamp controls(TYPE,GAIN,BASS,MIDDLE,TREBLE,PRESENCE,LEVEL),andPATCH LEVEL. POWER and rear ground-lift remain separate switches. No onboard footswitches;external controller sockets do not increase thephysical count. Visual corroboration remains pending,asdoUSB-mode channel counts,13/15effect-count reconciliation,globalFV coverage andqualifiedIDR hardware.
 
 ## GX-1
 
