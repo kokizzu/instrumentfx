@@ -167718,5 +167718,25 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Return to requested individualfootdisplay priority; retain independent GT-Pro/expression and GP-200JR→Prime→GE300 queues; no repeated source-failure-only commits"
+  },
+  "neurig_monitor_brightness_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/ZOOM.md#neurig--usb-monitoring-and-power-specific-brightness",
+    "source": "https://zoomcorp.com/manuals/neurig-en/",
+    "revision": "English Z2I-5931-01 USB audio andunit-settings sections",
+    "findings": [
+      "USB Recording Gain−15…+15dB",
+      "MonitorBalance0direct/100host;reset50atstartup",
+      "SeparateLCD/indicatorbrightness andBattery/USB settings"
+    ],
+    "qualification": "Existing activeNEURIG record,notnewdiscovery; monitorbalance recall isnotEXPposition/globalassignment",
+    "remaining": [
+      "GlobalanalogEXPassignment andUSB/headphone/tail/loopcoverage",
+      "QualifiedShopeeIDRhardware",
+      "Exactcurrentloading/captureavailability",
+      "LCDdiagonal/color specification"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Requestedindividualfootdisplay models first; preserve GP-200JR→Prime→GE300, GT-Pro,expression andconsolidationqueues"
   }
 }

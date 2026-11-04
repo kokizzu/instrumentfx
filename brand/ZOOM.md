@@ -6395,6 +6395,7 @@ Checked 2026-10-18. Announced guitar multi-effects; planned early-November launc
 | Synth / acoustic | Acoustic Simulator explicitly converts electric-guitar tone toward acoustic guitar. Mono Pitch Shifter and Poly Pitch Shifter are distinct; polyphonic pitch shifting is not polyphonic synthesis. Synth inventory unresolved. | [Effect list][NEU-F] |
 | I/O | Mono INPUT, RETURN/SUB IN, SEND/SUB OUT, L/R outputs;3.5mm phones/MIDI IN/OUT;CONTROL;USB-C. TRS MIDI wiring type pending. | [Manual][NEU-M] |
 | Analog levels | INPUT1MΩ,+12.4dBu max;RETURN1MΩ,INST/LINE+12.4/+18.4dBu max. Outputs330Ω,+12.4/+18.4dBu;phones24+24mW into32Ω,56Ω impedance. | [Manual][NEU-M] |
+| USB / monitoring controls | [Recording Gain and startup balance](#neurig--usb-monitoring-and-power-specific-brightness): ±15dB recording trim; direct/host balance0–100 resets50. Not pedal endpoints. | [English manual](https://zoomcorp.com/manuals/neurig-en/) |
 | Conversion / USB | 48kHz;current Japanese-02/English manuals specify32-bit AD/DA;earlier Japanese-01 reading24-bit/64× retained below.32-bit float processing. USB2in/2out48kHz32-bit float/24-bit;USB MIDI. | [Manual][NEU-M] |
 | Power / battery / USB | USB bus power;5V2A(10W) minimum supply, not measured draw. Internal3.7V nominal/4.2V max2900mAh Li-ion;~3h charge/~4.5h runtime, condition-dependent. Barrel polarity N/A to documented USB supply. | [Manual][NEU-M] |
 | IR / NAM / capture | Native **NAM A2 Lite** advertised;22 multilayer cabinet IRs and50 user IR slots. Other NAM architectures/conversion restrictions pending. NAM A2 capture uses Wi-Fi/TONE3000 server and is planned for December; not verified shipping capability or offline training. | [Product][NEU-P] |
@@ -6482,6 +6483,16 @@ Checked **2026-11-04** against the [manufacturer English Effect List](https://zo
 | Processing / sample and hold | **Loop Roll** samples/holds via footswitch. **Hold Delay** and **Hold Reverb** engage on press and hold the effect sound on release. **Slicer, Ring Modulator, Bomber, Pedal Bit Crusher, Reverse Delay, Pitch Delay, Ice Delay, Particle Reverb** are additional named choices. These are not independent loopers or proof of infinite sustain/preset-tail continuity. |
 
 The existing fourteen-slot/DSP ceiling applies; availability does not guarantee arbitrary simultaneous combinations. NAM/IR importing and future cloud-capture promises remain separate from creative processing. Exact Shopee Indonesia searches yielded no qualified hardware offer; this does not establish market absence. Existing ownership, category membership and release qualifications are unchanged. No local download or device operation.
+
+### NEURIG — USB monitoring and power-specific brightness
+
+Checked **2026-11-05**, [manufacturer English Operation Manual,Z2I-5931-01](https://zoomcorp.com/manuals/neurig-en/),USB audio andunit-settings sections. Original text,not hardware testing.
+
+**Recording Gain:−15…+15dB** adjusts the signal sent to the USB host. **Monitor Balance:0–100** blends direct NEURIG audio with computer/mobile playback:0 isdirect-only,100 host-only. It **resets to50 atstartup**. This is monitoring-balance recall,not pedal-position recall orproof of a factory volume assignment. Computer playback enters aftereffect processing;do not infer that a rig effect attenuates it.
+
+Display andstatus/footswitch indicators each offer **Bright/Medium/Dark**,with separate **Battery/USB Power** selections. Indicator brightness isdistinct from LCD brightness;these options do not identify screen color depth,diagonal orindividual-switch displays. The maker recommends dimmer settings toreduce battery consumption withoutquantifying runtime gains.
+
+Exact pedal coverage ofUSB playback,headphones,loops andtails remains unverified. No device settings changed,local download oractive-inventory change;this extends the existing NEURIG record.
 
 <!-- comparison evidence ends -->
 

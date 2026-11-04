@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(boss): distinguish GT-Pro memory battery and operating power'
+        message='research(zoom): qualify NEURIG monitor recall and brightness controls'
     print(git('commit','-m',message))
