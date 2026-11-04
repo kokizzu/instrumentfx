@@ -5,6 +5,7 @@
 <!-- brand-index begins -->
 **Model and section index — A–Z, natural numeric order**
 
+- [G-System — partial discovery lead](#g-system--partial-discovery-lead)
 - [M100](#m100)
 - [M350](#m350)
 - [M-One XL](#m-one-xl)
@@ -13,6 +14,23 @@
 - [PLETHORA X3](#plethora-x3)
 - [PLETHORA X5](#plethora-x5)
 <!-- brand-index ends -->
+
+## G-System — partial discovery lead
+
+Checked **2026-11-04**, [manufacturer-authored original manual reproduction](https://manualzz.com/doc/21735077/tc-electronic-g-system-guitar-effects-processor-users-manual),**revision1.6,SW1.05,E60504713**,printedpp3,38,40–43,78. Exact G-System/GFX01/Control Board identity;host overview/FAQ excluded. [Official2.04 endpoint](https://service-tcgroup.tcelectronic.com/media/G-System_204_US.pdf) failed502;do not equate editions. No ownership assertion;**outside active inventory**.
+
+| Field | Initial evidence / remaining boundary |
+|---|---|
+| Hardware / input | Guitar audio processor plus detachable Control Board;not merely a MIDI controller. Ordinary guitar input documented. |
+| Expression / global role | Manufacturer explicitly permits a **global pedal assignment for continuous volume use**. Volume Ctrl selectsVol orExp socket roles;four TRS pedal inputs,two onGFX01/two onControl Board. Calibration isseparate. Exact pot resistance/pinout andbuilt-in-treadle panel corroboration pending. |
+| Expression / recall | **Vol.Master Global** reads pedal position atpreset change;Preset retains stored value untilpedal movement. This recall option isdistinct fromglobalrole evidence. |
+| Expression / range andposition | Volume−100…0dB;Min/Mid/Max0–100%,defaults0/50/100. **Input** placement isafterloops/beforeeffects,preserving tails;**Output** follows effects. Bypass,headphone,USB andrecorded-loop coverage unresolved. |
+| Controls / display | **18 illuminated footswitches,six with rotary encoders**;separate button census/visual check pending. Shared **2×20-character STN-LCD plus20×7dot matrix**,not evidence ofoneLCD perfoot. Diagonal/color/touch unknown. |
+| Body / power | **512.9×265.9×103.4mm**,axes unlabeled;7.83kg. Clearly exceeds preferred width/depth footprint.100–240VAC50–60Hz auto-select,<20W;not a9VDC-powered chassis. |
+| Remaining profile | CompleteI/O,headphones,onboardpresetstepping,memory/factoryfill,category/concurrencycensus,synth/acoustic,IR/NAM/capture,editor/currentOS,battery/USBpower andtoe support unresolved. |
+| Shopee Indonesia | No qualified exact offer fromtargeted G-System/GSystem searches;new/usedIDR,seller/item,condition,stock,bundle,warranty,region,voucher/checkout unknown. Searchabsence isnotmarketabsence. |
+
+No local download,calibration,MIDI transmission ordeviceoperation. This initial source check doesnot certify installed/currentfirmware orcomplete hardwareprofile. Preserve independent GT-Pro/general andrequested footswitch-display queues.
 
 ## M100
 
@@ -540,7 +558,6 @@ Checked **2026-11-04** via the [current exact0709-AJN manufacturer page](https:/
 | Dimensions / mass corroboration | Exact original X1 manufacturer table: **50H×74W×122Dmm;0.34kg**. This closes direct manufacturer mass corroboration for the white0709-AJN record, previously regional-only. No sibling specification needed; earlier regional provenance retained. |
 | Processing / published latency | Manufacturer gives **0.8–2.3ms**, qualified by **look-ahead dynamics enabled**. Measurement method, algorithm-by-algorithm values, bypass/host roundtrip latency and actual device performance remain unverified; do not generalize one fixed latency to all modes. |
 | USB / intended connector roles | Table identifies USB-C for **firmware updates and TonePrints**. It does not certify USB audio/MIDI or bus-powered operation. Primary LCD technology/size/placement and qualified Shopee Indonesia hardware remain unresolved; this partial lead stays outside active counts. |
-
 
 ## PLETHORA X3
 

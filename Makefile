@@ -2502,3 +2502,9 @@ brand-sort-plan-korg:
 	python3 scripts/brand_sort.py plan brand/KORG.md
 brand-sort-apply-korg:
 	python3 scripts/brand_sort.py apply brand/KORG.md
+
+.PHONY: brand-sort-plan-tc-electronic brand-sort-apply-tc-electronic
+brand-sort-plan-tc-electronic:
+	python3 scripts/brand_sort.py plan brand/TC-ELECTRONIC.md
+brand-sort-apply-tc-electronic:
+	python3 scripts/brand_sort.py apply brand/TC-ELECTRONIC.md

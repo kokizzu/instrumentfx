@@ -163408,5 +163408,26 @@
     ],
     "active_inventory_changed": false,
     "next": "Defer unspecifiedpedaltargetscope;continue other no-treadle/profile tasks whenaccessible whilepreserving footdisplaypriority/generalGTProcursor."
+  },
+  "gsystem_discovery_20261104": {
+    "checked_date": "2026-11-04",
+    "canonical": "brand/TC-ELECTRONIC.md#g-system--partial-discovery-lead",
+    "sources": [
+      "https://manualzz.com/doc/21735077/tc-electronic-g-system-guitar-effects-processor-users-manual",
+      "https://service-tcgroup.tcelectronic.com/media/G-System_204_US.pdf"
+    ],
+    "revision": "Originalmanual1.6/SW1.05,E60504713;2.04official502notchecked",
+    "status": "Partial lead outside active inventory",
+    "global_volume": "Manufacturer explicitly supports global pedal role;Vol.Master recall distinct;coverage/currentfirmware untested",
+    "market": "Noqualified exactShopee offer;notmarketabsence",
+    "remaining": [
+      "Completeprofile/percategorycensus",
+      "Memoryandfactoryfilling",
+      "Globaloutput/bypasscoverage",
+      "Currentfirmware/editor",
+      "ExactqualifiedShopeeoffers"
+    ],
+    "active_inventory_changed": false,
+    "next": "Continue G-System remaining primaryprofile andmarket evidence;preserve individual-footdisplay priority andindependent generalGT-Pro cursor."
   }
 }

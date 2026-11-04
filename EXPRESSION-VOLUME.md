@@ -831,3 +831,5 @@ HX Effects [external-loop tail qualification](brand/LINE6.md#hx-effects--externa
 ### Valeton GP-1 — partial compact discovery
 
 [Canonical record](brand/VALETON.md#gp-1--partial-discovery-lead): normal guitar input,external analog EXP,shared headphone output andonboard preset up/down;no treadle intextual inventory. Fits preferred footprint before cables. Assignment is saved per preset;global hand-controlled master andcalibration do not prove global pedal volume. Endpoints/recall/bypass/tail/loop coverage remain unresolved. Partial,outside active counts;no exact Shopee offer.
+
+[TC Electronic G-System](brand/TC-ELECTRONIC.md#g-system--partial-discovery-lead) is a **partial lead outside active inventory**. Its own revision1.6/SW1.05 manual supports global volume-pedal assignment separately from Vol.Master position recall;four external TRS pedal inputs andInput/Output placement are documented. Large chassis exceeds the preferred footprint. Full bypass/output coverage,current-firmware equivalence,panel corroboration andqualified exactShopee hardware remain open.

@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(tc-electronic): separate NOVA volume placement and target scope'
+        message='research(tc-electronic): add qualified G-System expression lead'
     print(git('commit','-m',message))
