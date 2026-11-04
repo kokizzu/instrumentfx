@@ -781,6 +781,19 @@ Checked **2026-11-04** against the [Prime-specific manufacturer update article](
 
 The12OLED count is unchanged. Exact Shopee searches returned the already-recorded HOLY MUSIC voucher offer in a three-month cache; no new condition-qualified price or stock evidence is added. Auxiliary screen specifications, rig capacity and installed firmware remain unresolved.
 
+### Prime — rig-dependent tuner switches and dry vocal path
+
+Checked **2026-11-04** in indexed original text of the [manufacturer Prime User Guide5.0.0, §4.14, printedp52](https://cdn.inmusicbrands.com/Software/SGEE/5/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.0.0.pdf). Current5.2 equivalence is unverified; its full PDF exceeds the web reader’s size limit. No local download or device test.
+
+| Field | Revision-qualified operation |
+|---|---|
+| Tuner / reference and input range | **Guide5.0.0:** adjustable reference defaults to **440Hz**. GUITAR serves standard six-string acoustic/electric; BASS serves bass and low-tuned extended-range guitar. Numeric tuning/reference limits and accuracy are not established here. |
+| Footswitch / guitar-only tuner | **Guide5.0.0:** MUTE GTR controls guitar; when Mic Dry is enabled, MUTE VC separately controls that vocal signal. Entering the tuner is not documented here as an unconditional whole-output mute. |
+| Footswitch / dual-guitar tuner | **Guide5.0.0:** MUTE GT1 and MUTE GT2 separately mute the guitar signals; TUNE GT1/TUNE GT2 selects which input is tuned. This is source selection, not simultaneous polyphonic tuning. |
+| Footswitch / vocal tuner path | **Guide5.0.0:** vocal-only and guitar/vocal rigs provide MUTE VC and MIC DRY; MIC DRY removes vocal effects for dry speech. Guitar/vocal rigs additionally provide MUTE GTR. Dry routing and muting are different functions. |
+
+The documented labels depend on rig type; no fixed OLED switch-position map is inferred. Preserve the newer5.2 selectable press/release timing. USB, backing-track, tail, looper and headphone mute coverage remain unverified; these controls do not establish global expression volume.
+
 ## VX5
 
 <!-- comparison evidence begins -->

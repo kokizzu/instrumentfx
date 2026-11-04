@@ -140997,6 +140997,23 @@
         "condition": "unverified",
         "access": "Two-month-old search/direct cache; current stock and checkout unknown.",
         "excluded": "Flex Prime offers not transferred; existing used offer remains Habis."
+      },
+      "tuner_rig_scope": {
+        "checked": "2026-11-04",
+        "source": "https://cdn.inmusicbrands.com/Software/SGEE/5/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.0.0.pdf",
+        "revision": "Manufacturer-named5.0.0 guide,§4.14,printed52;indexed original text",
+        "canonical": "brand/HEADRUSH.md#prime--rig-dependent-tuner-switches-and-dry-vocal-path",
+        "finding": "Rig-dependent guitar/vocal mute and dual-guitar tune-source switches;MIC DRY is dry vocal processing,not mute;440Hz default with Guitar/Bass range selection",
+        "remaining": [
+          "Current5.2 equivalence",
+          "Numeric tuner/reference limits and accuracy",
+          "USB,backing-track,tail,looper,headphone mute coverage",
+          "Physical OLED specifications and condition/stock-qualified current offers"
+        ],
+        "marketplace": "Only previously recorded Prime item recovered;no new current price orstock claim",
+        "next": "Continue requested individual-display model gaps andexact Shopee offers;preserve independent expression-volume andGT-Pro queues",
+        "downloads": false,
+        "active_model_admissions": 0
       }
     },
     "headrush_pedalboard": {
