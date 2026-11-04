@@ -6851,6 +6851,19 @@ Checked2026-10-18 against [official manual pp.10–14][V3-M],Z2I-3982-02;web tex
 | USB / host volume | **Firmware1.30 (March 2023)** adds host volume adjustment from Windows with V3 ASIO, Mac, iPhone and iPad. [Japanese announcement](https://zoomcorp.com/ja/jp/news/V3update/) specifies **Windows driver1.1.1 or later**. This is audio volume control, not a patch editor. |
 | Editor / driver / Windows DAWs | [Own ASIO history](https://zoomcorp.com/documents/3610/V3_Driver_Windows_Software_Version_History_120_en.pdf): **1.1.1** host volume requires **firmware≥1.30**; **1.2.0 (June 2023)** fixes unavailable audio I/O or DAW freezes with Ableton Live/PreSonus Studio One on CPUs with many logical processors. No universal DAW compatibility or local test inferred. |
 
+
+### V3 — dated iPadOS and Windows application-test boundaries
+
+Checked **2026-11-05** through the [manufacturer V3 support page](https://zoomcorp.com/en/us/vocal-processors/vocal-processors/v3/v3-support/), whose Compatible Software link still targets the [July2025 test matrix](https://zoomcorp.com/documents/1334/EFX_DAW_compatibility_2025JUL_E.pdf). The matrix date qualifies every result; this is not a new hardware test.
+
+| Field | Exact V3 test result / limit |
+|---|---|
+| Software / iPadOS18 | Compatible: Cubasis3.7, GarageBand2.3, Logic Pro2.1. |
+| Software / iPadOS17 | Compatible: Cubasis3.6, GarageBand2.3, Logic Pro1.1. These are iPadOS results, not extra iPhone applications. |
+| Software / Windows11 | Pro Tools2022.4 or newer and DaVinci Resolve Studio18.5 marked compatible; OBS Studio29.0.2 marked **under testing**, not incompatible. “Or newer” is the dated heading, not proof of every subsequent release. |
+
+These are audio-application compatibility entries, not patch-editor availability, firmware-updater support or a measured latency guarantee. Earlier blanket Windows-column uncertainty is narrowed only for these three readable headings; the other five extracted Windows columns remain untranscribed. No visual table inspection, software installation, download or device operation is claimed.
+
 <!-- comparison evidence ends -->
 
 ## V6-SP

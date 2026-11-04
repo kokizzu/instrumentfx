@@ -166523,5 +166523,22 @@
     ],
     "next": "Continue other accessible priority-model fields;retain controller wiring and TANK-PRO electrical/global-volume questions without speculative adapters",
     "active_inventory_unchanged": 402
+  },
+  "v3_dated_app_tests_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/ZOOM.md#v3--dated-ipados-and-windows-application-test-boundaries",
+    "source": "https://zoomcorp.com/documents/1334/EFX_DAW_compatibility_2025JUL_E.pdf",
+    "revision": "July2025 one-page matrix;still linked bycurrent V3 support",
+    "findings": [
+      "iPadOS17/18 exact application versions recorded",
+      "Three readable Windows11 application headings recorded;OBS under testing distinguished fromNo"
+    ],
+    "remaining": [
+      "Other five Windows header mappings",
+      "Editor andmemory-bank support",
+      "Condition-qualified current IDR"
+    ],
+    "next": "Continue remaining technical profiles and individual-footswitch-display primary-source gaps;preserve GT-Pro and general queue",
+    "active_inventory_unchanged": 402
   }
 }
