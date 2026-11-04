@@ -160176,5 +160176,30 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue requested individual-footdisplay models andexactShopee gaps;preserve independent GT-Pro/expression queues."
+  },
+  "tmp_envelope_reverb_filter_revisions_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "Fender::Tone Master Pro",
+    "source": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+    "revisions": {
+      "1.6.48": "August27,2025:SlowAttack retrigger andShimmer Damping changes",
+      "1.8.45": "June3,2026:Filtron Gain response for guitar/bass"
+    },
+    "qualification": "Manufacturer change claims,not newmodels/hardwarecontrols ormeasured performance.Installedunit untested.",
+    "retrievals": {
+      "model_guide_H": "Unsupporteddocument/pdf;thirdpartylist notadopted",
+      "shopee": "Existingitems/asks only;no newstock/conditionclaim",
+      "remote": "Sandbox DNSfailure resolved byapproved existingmake target outside sandbox"
+    },
+    "remaining": [
+      "Complete currentcategorycensus andspecificsequence ranges",
+      "MiniLCD specifications",
+      "Directanalogglobalvolume range/coverage",
+      "Qualifiedcurrentnew/usedoffers",
+      "PrimaryNAMannouncement/release details remainseparate pendinglead"
+    ],
+    "active_inventory_unchanged": 402,
+    "additional_creative_records_unchanged": 55,
+    "next": "Continue requested individualfootdisplay inventory withaccessible primary evidence;preserve GT-Pro/expression queues."
   }
 }
