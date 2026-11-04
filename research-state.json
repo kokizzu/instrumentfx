@@ -166780,5 +166780,22 @@
     ],
     "next": "Continue LCD-first unresolved sources;preserve independent GP-200JR → Prime → GE300, GT-Pro, expression and consolidation queues",
     "active_inventory_unchanged": 402
+  },
+  "prime_lock_screen_resolution_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/HEADRUSH.md#prime--lock-screen-artwork-is-not-panel-resolution",
+    "source": "https://cdn.inmusicbrands.com/Software/SGEE/HeadRush%20Prime%20-%20User%20Guide%20-%20v4.1.0.pdf",
+    "revision": "4.1.0 printed54",
+    "finding": "800x400 scaled artwork not screen pixel specification;triple tap exits;normal touchscreen editing suppressed,hardware/EXP lock not established",
+    "remaining": [
+      "Current5.2 equivalence",
+      "Main panel pixel resolution",
+      "Mini OLED physical specifications",
+      "Rig/IR storage ceilings",
+      "Qualified Shopee stock"
+    ],
+    "market_recheck": "Existing sold-out used1149776042/54402465704 Rp15400000 remains cached,no new stock claim",
+    "active_inventory_unchanged": 402,
+    "next": "Original GE300 independent follow-up next;prioritize accessible requested individual-display evidence andpreserve expression/consolidation queues"
   }
 }

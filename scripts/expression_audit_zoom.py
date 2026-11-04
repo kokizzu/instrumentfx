@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fender): distinguish conversion rates and MIDI clock precedence'
+        message='research(headrush): qualify Prime lock-screen artwork and display resolution'
     print(git('commit','-m',message))
