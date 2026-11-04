@@ -776,6 +776,7 @@ Checked **2026-10-17** against selected pages of the live **Rev E / firmware1.4*
 | Factory / user memory | **512 initially empty user locations**, separate protected factory folder; factory-filled count/combined total **?**. Up to122 setlists with1–128 aliases each;aliases do not add independent preset storage. [Presets][SX-M] |
 | Synth / acoustic simulation | **Acoustic Sim** appears under EQ. Pitch/Synth includes **3 OSC Synth**, legacy synth algorithms and **3 Note / 4 OSC Generators**; generators can sound without an instrument and default off. Native NAM is not established by these synth entries. [Model list][SX-ML] |
 | Pitch / creative inventory | [Complete Stadium Pitch/Synth names and qualifications](#stadium-xl--named-pitchsynth-inventory-and-note-handling-boundaries);29 reference entries, not29 synth engines or simultaneous blocks. |
+| Synth / parameter-state corrections | [Stadium 1.4 fixes](#stadium-xl--synth-parameter-and-switch-indication-corrections) distinguish 3 OSC Synth FltPreset state, editor Simple Pitch increments and switch-icon indications. Historical corrections, not proof of input-note polyphony or installed firmware. |
 | IR / NAM / capture | **2,048 user IRs**, WAV import; processed as 2,048-sample, 48 kHz, 32-bit float mono. Each Cab block holds one or two cabs/IRs; one sums input to mono, two preserve stereo input/output. [Cab IRs][SX-I]. **Proxy** amp, amp+cab, preamp and distortion clones, introduced in firmware 1.3. Library **2,048 clones**; up to **4 per preset, 2 per main path**, subject to DSP. All clone blocks are mono and sum preceding stereo. Creation requires Internet access and a signed-in Line 6 account; native/converted NAM **?**. [Clones][SX-C], [Presets][SX-M] |
 | Audio/control I/O | Two instrument inputs;XLR mic,+48V;4¼″ send/return loops;stereoXLR and¼″ mains;stereo phones;two sharedCONTROL jacks;DIN MIDI in/out-thru;RCA S/PDIF in/out;Nexus expansion;microSD;USB-A Ethernet adapter option;USB-C audio/editor;grounded IEC. Exact remaining connector wiring/sizes **?**. Sends impedance-balanced,returns unbalanced. [Rear panel][SX-R] |
 | I/O / network and update scope | [Live 1.4 connectivity evidence](#stadium-xl--network-transports-and-update-source-conflict): Wi-Fi b/g/n on 2.4GHz, a/n/ac on 5GHz; Ethernet adapter uses USB-A, not USB-C. Bluetooth is audio reception. Manual USB-required update wording conflicts with current download-page Wi-Fi recommendation. |
@@ -1020,6 +1021,18 @@ Checked **2026-11-04** against the [manufacturer live v1.4 MIDI chapter](https:/
 | MIDI / snapshot addressing | **CC69 values0–7 select snapshots1–8;8=Next;9=Previous**. These are Global-channel commands,defaultchannel1;custom Bypass/Control usesdefaultchannel2. Default channel numbers are configurable,not fixed output destinations. |
 
 MIDI emulation doesnot certify an external analog toe contact orglobal expression-volume assignment. Primary power ratings,strip specifications andcondition-qualified current hardware offers remain open. No download,MIDI transmission,save ordevice operation.
+
+### Stadium XL — synth parameter and switch indication corrections
+
+Checked **2026-11-04** against [Line 6 Stadium 1.4 release notes](https://kb.line6.com/helix-stadium-1-4-release-notes), **October 13, 2026**, explicitly applicable to Stadium XL. Later hardware 1.4.2 and Native-only 1.4.1 entries remain separately qualified above.
+
+| Area | Documented correction / boundary |
+|---|---|
+| Synth parameter | The 1.4 fix list says **3 OSC Synth FltPreset could lock at 4**. This is a parameter-state correction, not a new synth, chord-tracking guarantee or claim that current firmware retains the fault. |
+| Pitch / editor | A separately labeled **Helix Stadium app** fix corrects **Mono Simple Pitch Cents increments inconsistent with hardware**. It does not establish a hardware range change, polyphonic tracking or an audio-latency result. |
+| Switch / display indication | Hardware Command Center **Ext Amp** assignment could latch correctly while its icon looked momentary. A separate app fix addresses footswitch icons disagreeing with hardware LEDs. These are indication corrections, not evidence of extra OLEDs, changed physical switch type, strip pixel color or verified amp-switch wiring. |
+
+Installed version and behavior remain untested. Source descriptions of corrected historical faults are not instructions to update, and no download, device connection or firmware operation was performed. Power-label ratings and remaining exact-model gaps stay unresolved.
 
 ## HX Effects
 

@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(boss): qualify SY-300 firmware power and editor support'
+        message='research(line6): qualify Stadium synth and switch indication fixes'
     print(git('commit','-m',message))

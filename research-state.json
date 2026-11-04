@@ -160304,5 +160304,15 @@
       ],
       "next": "Partial outside402;currentMac application matrix,controls/category census,USB/battery/import/practice fields and volume endpoints/route coverage unresolved;preserve independent queues."
     }
+  },
+  "stadium_xl_synth_switch_indication_fixes_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "Line 6 Helix Stadium XL Floor",
+    "source": "https://kb.line6.com/helix-stadium-1-4-release-notes",
+    "revision": "1.4 October13,2026; hardware1.4.2 andNative-only1.4.1 remain distinct",
+    "finding": "3OSC Synth FltPreset locking at4 corrected; app-only Mono SimplePitch Cents increment mismatch; hardwareExtAmp icon momentary whileactionlatched andappswitchicon/LED disagreement corrected.",
+    "qualification": "Historical correctedfaults,notnewalgorithms orcurrentbug assertion;input-note polyphony,physicalscreen specifications andinstalled firmware remain unverified.",
+    "active_inventory_unchanged": 402,
+    "next": "Continue requested individual-switch-display model gaps with exact primary evidence;preserve independent GT-Pro/expression queues;Stadium power label unresolved."
   }
 }
