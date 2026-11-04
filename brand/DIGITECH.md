@@ -451,6 +451,15 @@ Checked 2026-10-18;partial. [Own manual](https://digitech.com/wp-content/uploads
 | Power / polarity | [Manufacturer FAQ](https://digitech.com/faqs/) explicitly lists RP55 with **PS0913DC,9VDC1.3A,center-negative,2.1mm pin**;barrel5.5mm wide/9.5mm long. This is supply capacity,not pedal consumption. |
 
 
+### RP55 — exact controller and bypass follow-up
+
+Checked2026-10-19. [Own18-0838V-A manual, printed pp2,4,10,20](https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP55-Manual-18-0838V-A.pdf): Control In accepts passive mono volume orTS expression;TRS unsupported. No resistance value established;RP360/RP150 values are not transferred. Volume operates only withWah andWhammy disabled. Up/Down switches increment/decrement presets;both together bypass,then either restores last preset. Bypass provides clean unprocessed tone,but text doesnot establish pedal attenuation there. Position,min/max,headphone attenuation andtails/looper coverage remain unknown. SharedTRS audio output supports phones;its stereo wiring is separate fromTS Control In. Cabinet modeling being global doesnot make volume unconditional. Existingmanual/product dimension conflict retained;no hardware test,stock refresh ordownloads.
+
+| Field | Preserved2026-10-19 qualification |
+|---|---|
+| Expression / conditional volume andbypass | TS Control In only;no resistance value established. Volume applies only when Wah/Whammy aredisabled. Bypassed clean audio doesnot prove pedal attenuation;endpoints,recall,phones/tails/loop coverage remainunknown. |
+| Controls / preset down-up andbypass | Two onboard switches increment/decrement presets;both together bypass,and either exits tolastpreset. This isnot a global unconditional expression-volume assignment. |
+
 <!-- comparison evidence ends -->
 
 ## RP70
@@ -1198,9 +1207,6 @@ Checked **2026-11-03** on the [manufacturer's non-XP product page](https://digit
 
 Original manual census and global-expression qualifications remain intact. Remaining tasks are current USB/editor support, import capabilities, display/visual corroboration, qualified non-XP hardware offers and expression output coverage. RP360 remains a partial lead outside active counts; defer inaccessible evidence while continuing other models.
 
-### RP55 — exact controller and bypass follow-up
-
-Checked2026-10-19. [Own18-0838V-A manual, printed pp2,4,10,20](https://digitech.com/wp-content/uploads/2022/09/DigiTech_RP55-Manual-18-0838V-A.pdf): Control In accepts passive mono volume orTS expression;TRS unsupported. No resistance value established;RP360/RP150 values are not transferred. Volume operates only withWah andWhammy disabled. Up/Down switches increment/decrement presets;both together bypass,then either restores last preset. Bypass provides clean unprocessed tone,but text doesnot establish pedal attenuation there. Position,min/max,headphone attenuation andtails/looper coverage remain unknown. SharedTRS audio output supports phones;its stereo wiring is separate fromTS Control In. Cabinet modeling being global doesnot make volume unconditional. Existingmanual/product dimension conflict retained;no hardware test,stock refresh ordownloads.
 
 ### RP360 — USB stream count, bypass playback and master-level scope
 
