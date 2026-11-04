@@ -1850,6 +1850,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | Categories / Compressor names | **19 named reference types**; two FM9 instances, subject to DSP. Look-ahead **0–2ms** adds actual wet-and-dry delay. Auto makeup and compression do not establish global analog pedal volume. [Named census and scope](#fm9-original--november-compressor-type-census). |
 | Categories / Flanger names | **31 reference types; two FM9 instances**, DSP-limited. Manual/Depth and stepped-LFO controls do not establish tracking synthesis. [Named November2026 census](#fm9-original--november-flanger-type-census); installed firmware equivalence unverified. |
 | Categories / Phaser, Filter, Enhancer | **19/20/3 reference choices;2/4/2 FM9 instances**, DSP-limited. [Named November2026 inventories](#fm9-original--november-phaser-filter-and-enhancer-inventories);current installed equivalence unverified. |
+| Categories / Pitch names and tracking | **16 reference types;one FM9 Pitch instance**, DSP-limited. ChromaticNotes/Chords;VirtualCapo polyphonic;Diatonic monophonic. [Named November2026 limits](#fm9-original--november-pitch-types-and-note-handling-scope);Synth remains separately monophonic. |
 | Preset memory | **512 editable presets**,including overwritable factory entries; **eight scenes each**. [Current manufacturer FM9-family default:384](#fm9-original--family-factory-preset-default-and-version-scope);original-revision shipping allocation andcurrent unit contents remain unverified. These occupy the512 locations,not extra protected presets. Four preset-bank backups are separate fromSystem/UserCabs; [range typo andbackup scope](#fm9-original--preset-bank-backups-and-source-range-error). [Own memory](#fm9-original--global-volume-memory-and-cpu-scope). |
 | Synth / acoustic | **Three-voice monophonic tracking synth**;notthree-note polyphony. Acoustic input support does not establish electric-to-acoustic simulation,which remains unverified. [Original manual evidence](#fm9-original--dated-processing-census-synth-and-looper). |
 | Synth / creative comparison revision scope | [August 2022 Original/Turbo 3.x manual, printed p44](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf) names Synth, Pitch Shift, Resonator and Ring Mod. Three synth voices remain monophonic; resonant comb-filter chords are not chord-tracking synthesis. [Creative index](../CREATIVE-EFFECTS.md) reuses this dated evidence, not a fresh current-firmware audit. |
@@ -2018,6 +2019,14 @@ Checked **2026-11-04**, [manufacturer November2026 Blocks Guide,pp3,44–45,73�
 - **Enhancer (3):** Modern Enhancer; Classic Enhancer; Stereoizer.
 
 FM9 instance limits: **Phaser2,Filter4,Enhancer2**,DSP permitting;type choices are alternatives. Phaser uses2–12 stages ineven steps,not pitch transposition. Filter Null retains gain/phase/pan controls without frequency shaping. Classic Enhancer’s right-channel delay0–20ms can cancel frequencies when summed;Modern/Stereoizer use frequency separation. Filter/vibe processing doesnot establish synthesis. Installed equivalence andintroduction firmware remain unverified;older evidence retained.
+
+### FM9 original — November Pitch types and note-handling scope
+
+Checked **2026-11-04**, [manufacturer November2026 Blocks Guide,pp3,76–79](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). **16 reference types:** Dual Detune; Dual Detune Delay; Quad Detune; Dual Chromatic; Quad Chromatic; Quad Chromatic Delay; Dual Diatonic; Quad Diatonic; Quad Diatonic Delay; Custom Shifter; Arpeggiator; Classic Whammy; Advanced Whammy; Octave Divider; Crystal Echoes; Virtual Capo.
+
+FM9 allows **one Pitch block**,DSP permitting. Chromatic types offerNotes/Chords tracking and±24semitones;Virtual Capo explicitly supports polyphonic±24semitone transposition. Thethree Diatonic types requiremonophonic input;their±25-degree range isscale steps,notsemitones. Whammy’s single generated voice doesnot establish input-note polyphony. Arpeggiator is16-step intelligent pitch sequencing,not a separate tracking synth. Detune andCrystal types do not use thepitch detector.
+
+Stereo input/voice routing isseparate fromnote handling. Installed equivalence,feature-introduction firmware andtracking performance remain unverified;the separately documented Synth remains monophonic. Original/Turbo2022 evidence stays dated,not overwritten.
 
 
 ## FM9 Turbo

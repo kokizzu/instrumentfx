@@ -154911,11 +154911,12 @@
         "key": "Fractal Audio::FM9 original",
         "canonical": "brand/FRACTAL-AUDIO.md#fm9-original",
         "synth": "Three-voice monophonic Synth",
-        "pitch": "Detune; intelligent/custom harmonizer; whammy",
+        "pitch": "ChromaticNotes/Chords;polyphonicVirtualCapo±24;monophonicDiatonic;detune/whammy",
         "instrument": "Acoustic input is not verified simulation",
-        "qualification": "Original/Turbo 3.x August 2022 p44; Resonator comb-filter chords are not chord-tracking synthesis; current firmware equivalence unverified",
-        "evidence_basis": "Existing canonical evidence and focused manufacturer manual recheck 2026-11-04; not a complete fresh four-category audit",
-        "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf"
+        "qualification": "November2026 16-type reference;onePitchblock/DSP;2022Synth/Resonator scope retained;installed equivalenceunknown",
+        "evidence_basis": "Existingcanonical plusfocusedmanufacturerNovember2026 Pitch follow-up;notfullfreshfourcategoryaudit",
+        "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+        "pitch_followup_source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf"
       },
       {
         "key": "Valeton::GP-150",
@@ -155180,6 +155181,42 @@
           }
         }
       }
+    },
+    "fm9_original_pitch_census_20261104": {
+      "checked": "2026-11-04",
+      "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+      "revision": "November2026 pp3,76–79",
+      "canonical": "brand/FRACTAL-AUDIO.md#fm9-original--november-pitch-types-and-note-handling-scope",
+      "reference_types": [
+        "Dual Detune",
+        "Dual Detune Delay",
+        "Quad Detune",
+        "Dual Chromatic",
+        "Quad Chromatic",
+        "Quad Chromatic Delay",
+        "Dual Diatonic",
+        "Quad Diatonic",
+        "Quad Diatonic Delay",
+        "Custom Shifter",
+        "Arpeggiator",
+        "Classic Whammy",
+        "Advanced Whammy",
+        "Octave Divider",
+        "Crystal Echoes",
+        "Virtual Capo"
+      ],
+      "fm9_instances": 1,
+      "qualification": "Reference choices andexplicit algorithm-specificnotehandling;installed equivalence,introduction firmware andmeasured trackingunverified",
+      "market": "Known1354606623/43322190869 Rp36000000 four-month cache/serviceunavailable;no newqualifiedexactrevision offer",
+      "remaining": [
+        "Other category censuses",
+        "Installed/currentfirmware equivalence",
+        "GlobalEXPendpoints/recall/outputcoverage",
+        "QualifiedexactrevisionShopee stock"
+      ],
+      "active_inventory_unchanged": 402,
+      "additional_creative_records_unchanged": 66,
+      "next": "Continue requested displaypriority andsystematicremainingprofiles;preserve independentGT-Pro,GP200JR→Prime→GE300,expression andconsolidationqueues"
     }
   },
   "hxstomp_own_category_census_20261103": {
