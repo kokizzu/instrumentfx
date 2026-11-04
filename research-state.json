@@ -163266,5 +163266,20 @@
     ],
     "inventory_changed": false,
     "independent_queues_preserved": true
+  },
+  "rp360_nexus_support_conflict_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://digitech.com/software-downloads/",
+    "revision": "Unstated webpage revision; historical Nexus1.0.2 Windows and1.0.1 IntelMac descriptions",
+    "canonical": "brand/DIGITECH.md#rp360--nexus-requirements-and-conflicting-support-notices",
+    "finding": "Nexus minima list Windows10 and open-ended OS X10.7+, but adjacent notices withhold Windows10/ElCapitan verification. Not current compatibility certification.",
+    "remaining": [
+      "Current Windows/macOS/ARM editor and audio compatibility",
+      "Installed firmware equivalence",
+      "Global expression scope and output coverage",
+      "Exact non-XP Shopee hardware offer"
+    ],
+    "active_inventory_changed": false,
+    "next": "Defer current-host certification without new primary evidence; continue other no-treadle profile gaps. Preserve independent GT-Pro/general and footswitch-display queues."
   }
 }

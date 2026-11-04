@@ -1236,6 +1236,15 @@ Checked **2026-11-04** in [manufacturer-authored shared RP360/RP360XP manual, pr
 
 RP360 remains a **partial lead outside active inventory**. Exact non-XP Shopee hardware, display specifications, global expression override, held-position recall and route-specific pedal coverage remain unresolved; the XP offer is not transferred.
 
+### RP360 — Nexus requirements and conflicting support notices
+
+Checked **2026-11-04**, [manufacturer software-download page](https://digitech.com/software-downloads/), exact RP360 row and Nexus package descriptions; page revision unstated. No installer downloaded or run.
+
+- **Nexus1.0.2 Windows:** listed minima are a2GHz dual-core CPU,2GB RAM,XP Home/Professional32-bit SP3 or Vista/7/8/10 in32/64-bit,USB and internet for updates. The adjacent notice nevertheless says Windows10 operation was unverified and unsupported. Preserve this internal conflict; listing Windows10 is not certification.
+- **Nexus1.0.1 Mac:** listed minima are anIntel2GHz dual-core CPU,2GB RAM,OS X10.7 or later,USB and internet for updates. Its adjacent historical notice excludes unverified El Capitan support. The open-ended minimum does not override the exact product page’s Catalina exclusion or the FAQ’s discontinued-software warning.
+
+These are historical editor requirements, not current driver/audio certification. Windows11,ARM hosts,current macOS and installed firmware equivalence remain unverified. RP360 remains a partial lead outside active counts; global expression scope and exact non-XP Shopee hardware remain open.
+
 ## RP360XP
 
 Expression-equipped guitar processor;not RP360. Checked 2026-10-17. Past-product status does not establish retailer stock. Bass suitability unclassified.
