@@ -673,6 +673,17 @@ Checked **2026-11-04** against the exact [NUX USA MG-30 product body](https://ww
 
 Current-host routing was not tested; no software, driver, firmware or manual file downloaded. The USA page names NMP-2 in its bundle while the global page specifies NMP-2 LITE; retain that naming difference without inferring a changed switch, wiring or Indonesian seller bundle. Touchscreen status, USB channel/format details, initial firmware equivalence and qualified used/new IDR evidence remain open.
 
+### MG-30 — regional GEN2 numbering and release scope
+
+Checked **2026-11-04**. [NUX’s distributor directory](https://nuxaudio.com/distributors/5/) identifies **Arai & Co.** inJapan. Its [exact MG-30 release page](https://www.ariaguitars.com/jp/mg30-fw-2-2.html) supplies the following regional history.
+
+| Field | Evidence / qualification |
+|---|---|
+| Editor / firmware numbering conflict | [Global manufacturer](https://nuxaudio.com/product/mg30/) and [Chinese manufacturer](https://cn.nuxaudio.com/product/mg30/) both label GEN2 **1.0.5,2026-08-17**. Arai labels **GEN2(V6.0.5),same date**,describing NAM switching-noise and volume corrections. Preserve both labels;package identity,binary version anddevice-displayed number were not inspected. Do not silently replace1.0.5 with6.0.5 ordeclare distinct hardware. |
+| Loading / regional introduction date | Arai dates **GEN2(V6.0.4),2026-07-24** to **NAM A2-Lite** support and pairs GEN2 QuickTone **2.6.7.16**. This is regional release evidence,not proof that every earlier GEN2 build supports A2-Lite,arbitrary NAM architectures orthe owner’s installed firmware. |
+
+Global downloads explicitly target English hardware;Chinese downloads explicitly target Chinese hardware. Both require the matching GEN2 editor and warn against cross-region firmware. Shared dates/editor numbers do not establish cross-region package compatibility. No firmware,editor orbinary downloaded orrun;no device updated. Existing historical versions,category counts,USB format,touchscreen andqualified IDR uncertainties remain.
+
 <!-- comparison evidence ends -->
 
 ### Preserved shared-source MG-30 fields

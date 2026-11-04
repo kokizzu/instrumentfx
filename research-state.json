@@ -161978,5 +161978,19 @@
     "canonical_section": "brand/FENDER.md#tone-master-pro--historical-page-save-scene-and-ir-corrections",
     "next": "Retain current model-guide reader limitation,physical mini-screen gaps,global expression andqualified-market questions;independent queues unchanged",
     "inventory_changed": false
+  },
+  "mg30_regional_gen2_numbering_20261104": {
+    "model": "NUX::MG-30",
+    "checked_date": "2026-11-04",
+    "sources": [
+      "https://nuxaudio.com/distributors/5/",
+      "https://www.ariaguitars.com/jp/mg30-fw-2-2.html",
+      "https://nuxaudio.com/product/mg30/",
+      "https://cn.nuxaudio.com/product/mg30/"
+    ],
+    "canonical_section": "brand/NUX.md#mg-30--regional-gen2-numbering-and-release-scope",
+    "status": "Regional labels preserved; package equivalence and installed firmware unverified",
+    "next": "Resolve numbering only with exact manufacturer evidence; preserve regional package boundaries and independent queues",
+    "inventory_changed": false
   }
 }
