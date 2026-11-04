@@ -160074,5 +160074,17 @@
     ],
     "inventory_unchanged": 402,
     "next": "Continue requested footswitch-display gaps andqualified Shopee discovery;preserve independent GT-Pro andexpression queues."
+  },
+  "fm3mkii_digital_source_eq_conflict_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "Fractal Audio::FM3 MKII Turbo",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+    "revision": "7.x manual expressly covers MKII Turbo;printed24,101–102",
+    "finding": "S/PDIF Out Source choices Output1,Output2,Input2;48kHz fixed.",
+    "contradiction": "p101 first excludes USB/SPDIF from Global EQ,then includes USB/digital routings infollowing paragraph. Both retained;not resolved byassuming paragraph authority.",
+    "qualification": "EQ Gain is distinct from continuous MIDI/Remote volume;currentfirmware13 androute-specific EXP behavior untested.No downloads/device operation.",
+    "market": "Fresh exact Shopee search yielded existing/foreign-market leads;no newcondition-qualified Indonesian hardware offer claimed.",
+    "next": "Resolve digital EQ contradiction against exact-model currentmanufacturer clarification;continue prioritized display andmarket gaps,keeping independent GT-Pro cursor.",
+    "active_inventory_unchanged": 402
   }
 }

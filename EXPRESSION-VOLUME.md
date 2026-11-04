@@ -791,3 +791,5 @@ EX-4 [named PSA-S power evidence](brand/BOSS.md#ex-4--named-psa-s-power-requirem
 H90 [automatic relay boundary](brand/EVENTIDE.md#h90): manual1.12.5 says Dual Routing automatically enables Path1 relay when no Presets use that path. Global P Out Gain assignment is documented, but attenuation of this physical bypass route remains unverified; it is not an unconditional all-routing volume guarantee.
 
 FM9 Turbo [discrete volume commands](brand/FRACTAL-AUDIO.md#fm9-turbo) save the loaded preset on each1dB step,including other unsaved edits. They are distinct from continuous global Output Volume assignments;the manufacturer warns against driving these increment/decrement commands with an expression pedal.
+
+FM3 MKII Turbo [digital source andEQ qualifications](brand/FRACTAL-AUDIO.md#fm3-mkii-turbo): S/PDIF can select Output1,Output2 orInput2. The7.x manual contradicts itself about Global EQ reaching USB/digital outputs;neither that EQ Gain nor headphone monitoring proves all-route global EXP attenuation.
