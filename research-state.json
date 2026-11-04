@@ -150603,5 +150603,21 @@
       "Explicit USB record/playback channel map;44.1/48/96 versus48/96kHz intra-manual discrepancy retained."
     ],
     "next": "Continue separate-display model gaps andqualified Shopee offers;independent general GT-Pro andexpression queues preserved."
+  },
+  "pedalboard_expression_recall_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "HeadRush::Pedalboard",
+    "source": "https://cdn.inmusicbrands.com/HeadRush/pedalboard/v2_1_2-0520/Pedalboard-User-Guide-v2_1_2.pdf",
+    "revision": "User Guide2.1.2,printed24,35",
+    "finding": "Saved A/B bank recall distinct from held-position recall;Classic bypass versusAdvanced maximum behavior;percentage endpoints;external-enabled toe exception.",
+    "unknown": [
+      "Global volume assignment",
+      "Physical position recall",
+      "Volume dB/mute endpoints",
+      "Phones/tail/looper coverage",
+      "Actual external pedal wiring",
+      "Current2.7 equivalence"
+    ],
+    "next": "Next priority: exact separate-footswitch-display gaps and fresh Shopee hardware discovery;general GT-Pro andexpression queues preserved."
   }
 }
