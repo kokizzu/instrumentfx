@@ -794,6 +794,17 @@ Checked **2026-11-04** in indexed original text of the [manufacturer Prime User 
 
 The documented labels depend on rig type; no fixed OLED switch-position map is inferred. Preserve the newer5.2 selectable press/release timing. USB, backing-track, tail, looper and headphone mute coverage remain unverified; these controls do not establish global expression volume.
 
+### Prime — split-path alignment and output-gain boundaries
+
+Checked **2026-11-04**: exact-model [manufacturer User Guide1.0.0,printedpp23–24](https://cdn.inmusicbrands.com/HeadRush/prime/HeadRush%20Prime%20-%20User%20Guide%20-%20v1.0.pdf),with Mix controls corroborated in [indexed original Guide5.0.0,Mix section](https://cdn.inmusicbrands.com/Software/SGEE/5/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.0.0.pdf). Full5.0 PDF exceeds reader limits;indexed prose is used,not an inspected screenshot. Current5.2 equivalence unverified.
+
+| Field | Exact-model documented range / scope |
+|---|---|
+| Routing / split-path alignment | **A/B branch levels−60…+12dB;pan−100…+100%;A/B Delay−30,000…+30,000µs (±30ms)**. Negative values delayA;positive delayB. Mix exists only in split-path rigs. This is branch alignment,not a new independent echo block ormeasured whole-device latency. |
+| I/O / rig andalternate gains | Original1.0: **Rig Vol−60…+36dB;vocal Dry Vol−60…+36dB;guitar Alt Out Gain−60…+12dB**. Alt gain doesnot control the signal when Alternate Output source is **Rig Input**. These parameters do not establish analog EXP global assignment,full mute orall-source/headphone/tail/loop coverage. |
+
+Keep current storage/IR-capacity,mini-OLED specifications andqualified stock gaps open. The previously recorded sold-out used Shopee item1149776042/54402465704 remains a month-old Rp15.4m snapshot,not refreshed availability. No download,transfer ordevice operation.
+
 ## VX5
 
 <!-- comparison evidence begins -->

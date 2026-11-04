@@ -159776,5 +159776,18 @@
     "qualification": "FiltercutoffnotlowesttrackednoteorSynthpolyphony;warningnotextraphysicalLCDorverifiedoneachstrip;installed/currentequivalenceuntested.",
     "next": "PreserveGEQ18vs16gap,globalEXPendpoints/recall/fullcoverage,exactMKIIphysicalandqualifiedIDR;continue requestedshortlistnew evidence.",
     "inventory_count_unchanged": 402
+  },
+  "prime_split_alignment_levels_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "HeadRush Prime",
+    "sources": [
+      "https://cdn.inmusicbrands.com/HeadRush/prime/HeadRush%20Prime%20-%20User%20Guide%20-%20v1.0.pdf",
+      "https://cdn.inmusicbrands.com/Software/SGEE/5/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.0.0.pdf"
+    ],
+    "revision": "Original1.0pp23–24;Mixcorroboratedindexed5.0prose;no screenshotinspection;5.2equivalenceunverified",
+    "finding": "Mixsplitonly:A/Blevel−60…+12dB,pan±100%,delay±30000us(negativeAdelay/positiveBdelay). OriginalRigVolandvocalDry−60…+36dB,Alt−60…+12dBexceptRigInputsource.",
+    "qualification": "Notadditionaldelayblock,totaldevicelatency,EXPglobalrange/fullmute/completecoverage;storageceilingnotresolved.",
+    "next": "Continue requestedseparatescreennew-evidence priorities;independent GP200JR→Prime→GE300queueandGTProtechnicalcursorpreserved.",
+    "inventory_count_unchanged": 402
   }
 }
