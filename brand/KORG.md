@@ -595,6 +595,20 @@ Checked 2026-10-19 in the [exact Korg EFGJ owner manual, English printed pp10–
 | Memory / Reload scope | Reload rewrites **all 40 user programs** and initializes rhythm settings. It is not documented here as a pedal-calibration reset or a selective single-patch restore. No reload performed. |
 | Expression / calibration behavior | Calibration separately captures full-back MIN and full-forward MAX positions with WRITE. Korg specifies moving the pedal by hand; EXIT cancels. A failed attempt displays ERROR and returns to MIN. This does not establish a configurable toe-switch pressure threshold or an external EXP socket. |
 
+### AX100G — volume floor, feedback roles and exact mixed-model offer
+
+Checked **2026-11-04**, [EFGJ2 owner manual, English printed p14][AX100-M]; installed firmware untested.
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / volume floor | VOLUME uses knob5 to set minimum level, displayed0–10.0. This is not a published dB/percentage scale or global override; maximum, recall and final-output coverage remain unverified. | [Manual p14][AX100-M] |
+| Processing / feedback | F BACK1 follows played pitch; F BACK2 generates feedback one octave higher. Pedal movement introduces/removes feedback; knob3 adjusts vibrato speed. These are not independent synth engines. Existing DRIVE/AMB exclusions remain applicable. | [Manual p14][AX100-M] |
+| Looper / pedal delay | DELAY pedal controls delay input level; ECHO controls delay time with corresponding pitch change. This is distinct from output-level volume control. | [Manual p14][AX100-M] |
+
+| Condition | Evidence | Source |
+|---|---|---|
+| Unresolved Hope Music variants | Shop703817770/item24255940541,KotaBandung:AX5G-or-AX100G,2variations,**Rp999.999–Rp1.499.000;Habis**. Last-week search cache with29–30October delivery;direct reopen failed. Variant mapping,condition,working state,bundle,adapter,warranty,voucher anddelivered total unknown. Neither endpoint is an established AX100G price or live stock. Late-delivery compensation is not deducted. | [Exact mixed-model item](https://shopee.co.id/Efek-Korg-Ax5G-atau-AX100G-Rare-Item-i.703817770.24255940541) |
+
 <!-- comparison evidence ends -->
 
 Condition,workingstate,bundle,adapter,authenticity,warranty,shipping,tax,vouchereligibility andlivestock unverified. Rp10000late-arrivalcompensationisnotdiscount. Official68pageEFGJmanualreadasbrowsertext;no filesystemdownloadorvisualinspectionclaimed.

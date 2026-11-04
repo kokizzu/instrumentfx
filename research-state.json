@@ -162407,5 +162407,42 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Move to another unresolved market/profile lead; retain independent queues."
+  },
+  "ax100g_volume_offer_20261104": {
+    "checked_date": "2026-11-04",
+    "canonical": "brand/KORG.md#ax100g--volume-floor-feedback-roles-and-exact-mixed-model-offer",
+    "manual": "AX100G EFGJ2 Englishp14",
+    "source": "https://cdn.korg.com/us/support/download/files/5c537c1ebfda7bd20f49db66f8fffbdc.pdf",
+    "offer": {
+      "shop": "703817770",
+      "item": "24255940541",
+      "seller": "Hope Music",
+      "region": "Kota Bandung",
+      "range_idr": [
+        999999,
+        1499000
+      ],
+      "variants": 2,
+      "models": [
+        "AX5G",
+        "AX100G"
+      ],
+      "stock": "Habis in last-week search cache",
+      "direct_access": "failed",
+      "condition": "unknown",
+      "selected_variant": "unknown"
+    },
+    "resolved": [
+      "Minimum-volume control identified",
+      "Feedback and delay pedal roles distinguished",
+      "Former storefront lead now exact item"
+    ],
+    "remaining": [
+      "Exact-model price/condition/live stock",
+      "Volume maximum/recall/coverage",
+      "Display electrical/import/editor gaps"
+    ],
+    "inventory_unchanged": 402,
+    "next": "Continue fresh exact hardware discovery; preserve display/expression/general queues."
   }
 }
