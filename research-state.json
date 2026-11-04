@@ -164671,5 +164671,20 @@
       "Condition/stock-qualified hardware offers"
     ],
     "next": "Original MOOER GE300 in independent general queue;technical GT-Pro,expression-volume andLCD-first queues preserved."
+  },
+  "ge300_display_save_followup_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf",
+    "revision": "2019 original manual;V1.1.0 screen examples;printed84–85",
+    "findings": [
+      "SCREEN brightness via knob1;LIGHT20 illustration doesnot establish range/default",
+      "Second SAVE confirms preset;DISPLAY cancels;naming/destination controls documented"
+    ],
+    "limits": [
+      "Current5.1.4 equivalence untested",
+      "Display resolution/touch,sleep behavior remain unknown",
+      "Factory fill,current library/IR conversion,drums/Sub-Patch counts andqualified Shopee stock remain open"
+    ],
+    "next": "Independent GP-200JR → Prime → original GE300 pass checkpointed;continue LCD-first andcompact expression unresolved sources andfresh exact-model Shopee discovery;preserve GT-Pro technical cursor."
   }
 }
