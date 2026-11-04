@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): qualify GFX-8 converter and hold-delay limits'
+        message='research(zoom): distinguish GFX-8 synth character and harmony controls'
     print(git('commit','-m',message))

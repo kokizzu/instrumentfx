@@ -5691,6 +5691,19 @@ Checked **2026-11-04**, [original English GFX-8-5000-2 manual, printedpp24,42](h
 
 Partial lead remains outside active inventory. Current hardwarecondition/stock,visual corroboration,firmware equivalence andbroader volume coverage remain unverified. Screenshot requests returned no inspectable images;dimension-axis conflict stays open. No local download ordevice operation.
 
+### GFX-8 — synth character and harmony-control distinctions
+
+Checked **2026-11-04**, [original GFX-8-5000-2 manufacturer manual, printedp28](https://zoomcorp.com/media/documents/E_GFX8.pdf).
+
+| Choice | Exact controls / limitation |
+|---|---|
+| SYNTH | **COLOR1–5** selects sound character;SENS1–20,DRY/WET levels0–50. Five characters are not five oscillators orfive-note tracking. Architecture andinput-note polyphony remain unverified. |
+| SMPLHOLD | **PATTERN1–10**,SENS1–20 andseparate dry/wet levels. Picking-synchronized sample-and-hold patterns are distinct from tracking synthesis andphrase sampling. |
+| HPS | Twelve keys;five **SCALE** labels mean intervals:major third,minor third,fourth,fifth,major sixth. **SHIFT dn/UP** selects direction;the SCALE label doesnot document five named diatonic scales. |
+| TWIN PIT | Two independent shift controls,each−12…−1,Off,+1…+12,+24 semitones;**Mn/St** selects audio-channel operation. Two shifters andstereo do not establish chord tracking. |
+
+These SFX choices occupy DLY/REV anddisable MOD under the existing documented rule. Each supports momentary effect bypass whileCONTROL is held;this isnot universal tuner bypass,tail preservation orall-source volume. Firmware equivalence andperformance untested;partiallead stays outside activecounts. No local download ordevice operation.
+
 ## GFX-707
 
 Original guitar multi-effects,not707II;checked2026-10-17;partial. [Official manual][GFX707-M],24pages,707-5000,pp2–7,17,22–24.

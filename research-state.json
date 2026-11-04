@@ -163338,5 +163338,19 @@
     ],
     "active_inventory_changed": false,
     "next": "Continue remaining required-field profiles andqualifiedShopee leads;preserve independent generalGT-Pro,expression andindividual-footdisplay queues."
+  },
+  "gfx8_synth_harmony_controls_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://zoomcorp.com/media/documents/E_GFX8.pdf",
+    "revision": "GFX-8-5000-2 printed28",
+    "canonical": "brand/ZOOM.md#gfx-8--synth-character-and-harmony-control-distinctions",
+    "finding": "SYNTHCOLOR1–5 soundcharacter;HPS SCALE fiveintervals notscaletypes;TWINPIT channelsnottrackingpolyphony;CONTROL momentarybypass",
+    "remaining": [
+      "Syntharchitecture andinputpolyphony",
+      "Currentfirmware/trackingquality",
+      "Qualifiedhardwarecondition andremainingprofilegaps"
+    ],
+    "active_inventory_changed": false,
+    "next": "Defer unspecified GFX8 tracking;continue other systematic required-field profiles, prioritizing new accessible individual-footdisplay andShopee evidence;preserve GT-Pro cursor."
   }
 }
