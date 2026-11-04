@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='audit: map requirement headings across all active model records'
+        message='research(nux): document MG-50Li parallel two-guitar return routing'
     print(git('commit','-m',message))

@@ -769,7 +769,7 @@ Queries for Shopee Indonesia **NUX MG-30 MKII**, **MG30 MK2** and **MG30 MKII** 
 | Instrument scope | **Shared guitar/bass multi-effects**: exact global andUS manufacturer pages explicitly identify bass use. [Evidence andmembership correction](#mg-50li--documented-bass-scope-and-comparison-inclusion). Not a bass-only model orproof every algorithm preserves low end. Vocal suitability unclassified. |
 | Expression / controls | Built-in plus external EXP/NMP-2 Lite. **7/6/4**,rear power/toe separate. |
 | Body / display | **393×210×72mm;2.8kg**,large. **5-inch color LCD** now corroborated by global/US manufacturer pages;touch/pixels remain unverified. [Current follow-up](#mg-50li--current-display-firmware-and-creative-choices). |
-| Processing | **14 blocks**,serial/parallel/split,dual amp paths. Published EFX14,MOD13,DLY8,RVB5,wah5,comp3,gate1,EQ4;[named lists and pitch distinctions below](#mg-50li--current-display-firmware-and-creative-choices). Dedicated synth/acoustic simulation and algorithm-specific input polyphony unverified. |
+| Processing | **14 blocks**,serial/parallel/split,dual amp paths. [Two-guitar routing](#mg-50li--two-guitar-return-input-routing): Return1/2 with SR1/SR2 at the front of parallel chains;firmware minimum unlisted. Published EFX14,MOD13,DLY8,RVB5,wah5,comp3,gate1,EQ4;[named lists and pitch distinctions below](#mg-50li--current-display-firmware-and-creative-choices). Dedicated synth/acoustic simulation and algorithm-specific input polyphony unverified. |
 | Presets | **297 total**,but global96factory+201user versus US150factory+147user. Do not choose a mixed split without firmware evidence. |
 | IR / captures | **60 user IRs,30 user amp slots**. Global42factoryIR vsUS60;USintro120userIR conflicts with its own60 specification. Proprietary DeepImage/NUX Image workflow separate from **native NAM A2 Lite**. |
 | Factory amps | Global28 white-box+30DeepImage versus US27+33. Retain source conflict,not a fabricated current library. |
@@ -878,6 +878,11 @@ The separate Bandung offer above remains search-only;itsBlue/White labels do not
 Checked **2026-11-04**. The [global manufacturer MG-50Li page](https://nuxaudio.com/product/mg50li/),Classic Tones introduction,explicitly describes this exact processor for **guitar andbass**. The [US manufacturer page](https://www.nux.us/products/mg-50li),Ideal for section,independently identifies guitarists andbassists. These statements support shared-bass inclusion without borrowing sibling algorithms orinferring suitability froma BASS EQ knob,NAM loading orseller wording.
 
 The existing402-model inventory isunchanged. MG-50Li was missing fromthe generator’s shared-bass map;adding its evidence makes **178 bass-view records:40 bass-focused+138 shared**,alongside its existing guitar rows. This iscategory inclusion,not complete bass-algorithm verification,measured low-frequency performance orownership. Existing firmware/count/battery/latency conflicts,expression uncertainty andcondition-qualified market gaps remain.
+
+
+### MG-50Li — two-guitar return-input routing
+
+Checked **2026-11-05**, [global manufacturer page, Play with Two Guitars](https://nuxaudio.com/product/mg50li/). NUX explicitly describes two instruments connected to **Return1 andReturn2**, with **SR1/SR2 at the front of parallel chains**. This is a documented use of the existing loop returns,not two additional dedicated input jacks orproof every preset supports two independent rigs. The page gives no introduction firmware,per-chain block allocation,third-instrument concurrency orseparate USB-recording channel guarantee. Existing14-block total andtwo-loop inventory remain unchanged. No device orrouting test performed;global external-volume assignment remains unverified.
 
 
 ## MG-100

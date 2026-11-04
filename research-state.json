@@ -165778,5 +165778,20 @@
     "remaining": "Source verification required;recorded text with no uncertainty marker isnot certified. Subfields such as toe,polarity,current,factory/user split andprice condition require manual review.",
     "continuation": "Keep individualdisplaypriority andGT-Pro/general/expressionqueues. Use audit tofind underdocumented profiles ratherthan repeating unchanged source failures.",
     "active_inventory_unchanged": 402
+  },
+  "mg50li_two_guitar_routing_20261105": {
+    "checked": "2026-11-05",
+    "model": "NUX::MG-50Li",
+    "source": "https://nuxaudio.com/product/mg50li/",
+    "source_section": "Play with Two Guitars",
+    "finding": "Return1/Return2 instrument inputs;SR1/SR2 at start of parallel chains",
+    "limits": [
+      "Firmware introduction unstated",
+      "Per-chain block allocation unverified",
+      "No third-input concurrency orindependent USB-track inference",
+      "Global expression-volume assignment unresolved"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Keep independent queues;continue manufacturer-backed field gaps andqualified Shopee offers,individual footswitch-display processors first when accessible."
   }
 }
