@@ -166594,5 +166594,19 @@
     ],
     "next": "Original MOOER GE300 inindependent general follow-up;retain GT-Pro,individual-display andexpression-volume queues",
     "active_inventory_unchanged": 402
+  },
+  "ge300_global_tempo_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/MOOER.md#ge300--global-tempo-override-versus-preset-recall",
+    "source": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf",
+    "revision": "2019 original manual printed83,V1.1.0 example",
+    "finding": "Documented GLOBAL tempo override distinguished fromPRESET recall,global expression andlooper synchronization",
+    "remaining": [
+      "Current5.1.4 equivalence",
+      "Power-cycle retention andexternal-clock precedence",
+      "Factory fill,currentlibrary andqualified offers"
+    ],
+    "next": "Independent GP-200JR→Prime→originalGE300 follow-up cycle published;continue remaining individual-display andno-treadle field gaps without restarting completed findings;preserve GT-Pro cursor",
+    "active_inventory_unchanged": 402
   }
 }

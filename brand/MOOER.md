@@ -1776,6 +1776,7 @@ Numbered original panel and rear descriptions (printed pp3–5) were read; PDF p
 |---|---|
 | Processing blocks |15 category blocks, CPU-limited, movable except input-side SYNTH; two FX categories do not make every category freely duplicable |
 | Processing / power-amp count conflict | [Manufacturer Chinese GE300 launch article](https://cn.mooeraudio.com/news/魔耳专业级吉他音色处理器-GE300正式发布！-350.html), rechecked2026-11-03, advertises **11 sampled power amps**. The saved original manual instead lists **ten selectable power-amp voicings plus Off**, as retained below; Off disables modeling and is not an eleventh modeled amp. Preserve the discrepancy rather than silently equate those inventories. These are AMP parameters, not eleven simultaneous power-amp blocks or additions to the108 amp-menu choices. Neither source establishes current5.1.4 contents. |
+| Live / global versus preset tempo | [Original TAP setting](#ge300--global-tempo-override-versus-preset-recall): PRESET follows recalled tempo; GLOBAL overrides preset tempo. SELECT or an assigned CTRL tap edits BPM. No global EXP-volume or looper-sync inference. |
 | Preset memory |256 editable total memories; current factory-filled/user-reserved split unknown |
 | Memory / explicit save and cancel | [Original manual,printedp85](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf),checked2026-11-04: SAVE opens naming/destination;knobs1–5 edit characters,SELECT press advances characters androtation changes slot. A second SAVE confirms;DISPLAY cancels. This is explicit preset storage,not autosave,global backup orproof ofunsaved parameter/pedal recall. Current5.1.4 equivalence untested. |
 | Processing / revision-qualified stereo delay | Manufacturer firmware history,checked2026-11-03: **V4.0.1 upgrades all then-existing Delay effects to stereo**. V5.1.0 later adds Studio andMorph PingPong;the historical blanket statement alone doesnot establish those later algorithms' channel behavior. Stereo processing doesnot establish trails,spillover orstereo routing through every subsequent block. [F] |
@@ -2076,6 +2077,16 @@ Checked **2026-11-05**, exact original GE300 manufacturer downloads, not Lite. T
 This is a regional page/content mismatch, not evidence that either archive was inspected, that5.58.0 is required for a particular firmware, or that5.70.0 is the newest compatible release. The Chinese guidance distinguishes the USB audio driver from recording software: audio recording still requires a separate recording application. It does not establish a new editor function or driver support for every OS/architecture.
 
 Preserve the older Win7/8/10 and macOS10.10–10.15 listing as historical qualification; no current OS certification follows. Exact package contents,checksums,installed versions andregional-build equivalence remain unverified. No file downloaded,driver installed ordevice operated.
+
+### GE300 — global tempo override versus preset recall
+
+Checked **2026-11-05**, [original manufacturer manual, printed p83](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf),2019 document with V1.1.0 screen example; current5.1.4 equivalence remains unverified. Original GE300,not Lite.
+
+SYSTEM’s **TAP** setting chooses **PRESET**,where the recalled preset decides tap tempo,or **GLOBAL**,where master tap tempo overrides individual preset tempos. On the home screen,press SELECT to highlight BPM and rotate it to edit; alternatively assign a CTRL footswitch to Tap Tempo. This is an assignable action,not a separate dedicated tap switch.
+
+The illustrated **120.0 BPM is an example**,not a documented default or range. This passage does not establish power-cycle retention,priority against received MIDI clock,seamless tempo transitions,automatic looper retiming oruniversal synchronization of every effect. Individual synth/filter/delay sync modes retain their own qualifications.
+
+Global tempo scope does not make EXP2 assignment global or establish all-source volume coverage. Existing preset-memory,library androuting contradictions remain intact. No settings changed,firmware downloaded orhardware operated.
 
 ## GE300 Lite
 
