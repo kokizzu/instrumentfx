@@ -168584,5 +168584,34 @@
       "Qualified available new/used Indonesian stock"
     ],
     "next": "Resume original GE300 in the independent GP-200JR → Prime → GE300 cycle; preserve individual display priority, AXOM MAX physical-display questions, GT-Pro and expression-volume queues."
+  },
+  "ge300_regional_510_effect_roles_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/MOOER.md#ge300",
+    "source": "https://mooer.jp/pages/mooer-ge300v510",
+    "revision": "MOOER Japan regional V5.1.0 overview explicitly scoped as of December2025",
+    "provenance": "Regional branded site operated by LEP INTERNATIONAL; global exact-model firmware index independently confirms seven additions and two1024IR function.",
+    "global_source": "https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html",
+    "effect_roles": {
+      "Stereo Rotary": "Rotary speaker with stereo output",
+      "Doubling": "Guitar thickening",
+      "Studio": "Delay with modulation",
+      "Morph Pingpong": "Ping-pong delay with modulation and saturation",
+      "Theater": "Theatre-like reverb",
+      "Cathedral": "Long-decay cathedral reverb",
+      "Chorus Reverb": "Chorused reverb"
+    },
+    "dual_cab": "Two1024-point IRs may be separated left/right or mixed; one IR remains possible. Regional two-per-slot wording does not establish doubling the50-file library or two independent CAB blocks.",
+    "qualification": "Clarifies already counted5.1 additions; no new inventory entries, synth or tracking claims. Parameter ranges,regional build equivalence and installed/current5.1.4 behavior remain unverified.",
+    "market": "Fresh used/exact searches yielded no qualified new offer; saved exact Shopee leads158144224/28129284656 and108313506/27973845605 remain inaccessible and are not promoted.",
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Current full category census and factory fill",
+      "Exact user IR conversion and accepted current formats",
+      "NAM subvariants and current concurrency",
+      "Screen resolution and touch support",
+      "Qualified new/used Indonesian stock"
+    ],
+    "next": "General cycle returns to GP-200JR → Prime → original GE300; preserve individual footswitch-display priority, AXOM MAX physical-display verification, GT-Pro and expression-volume queues."
   }
 }
