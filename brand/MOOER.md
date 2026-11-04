@@ -344,16 +344,16 @@ Reviewed **2026-10-14**. **Partial**, eligible guitar multi-effects. Distinct ba
 
 | Field | Evidence / unknown |
 |---|---|
-| Expression / controls | Built-in expression; no external EXP connector in the guide's full list. **2 rotary /3 footswitches /6 buttons**, rear power switch separate. Toe-switch details **?** [MOOER-GE100-PRO-LI-Q] |
+| Expression / controls | Built-in expression; no external EXP connector in the guide's full list. **2 rotary /3 footswitches /6 buttons**, rear power switch separate. Toe activation documented in the [shared-manual follow-up](#ge100-pro-li--shared-manual-and-exact-offer-recheck) [MOOER-GE100-PRO-LI-Q] |
 | Display | **3.5-inch color**; explicit touch status **?** [P,Q] |
 | Physical | Published **255.7×144×53.5mm;856g**. W/D labels and raised-pedal height **?**. Not compact under either horizontal orientation; medium/large bin awaits axis verification [MOOER-GE100-PRO-LI-P] |
 | Battery | **7.4V,2000mAh,14.8Wh rechargeable lithium**. Manufacturer approximately9h runtime, not independently tested [MOOER-GE100-PRO-LI-P] |
 | USB power / accessories | **5V/2A** through dedicated USB-C power/charge socket. Second USB-C is audio/data. Current product page lists **USB cable+quick guide**, unlike non-Li's adapter bundle. Exact seller bundle must be checked [P,Q] |
-| Processing | **9 modules**; flexible/repeated blocks advertised. **200+/240+** manufacturer wording, not an exact library count. Complete category counts and concurrent DSP exceptions **?** [MOOER-GE100-PRO-LI-P] |
+| Processing | **9 modules**; flexible/repeated blocks advertised. **200+/240+** manufacturer wording, not an exact library count. April2026 category census below; current library and concurrent DSP exceptions **?** [MOOER-GE100-PRO-LI-P] |
 | Presets | **150 total =50×3**; factory-filled/dedicated user split **?**, not150+150 [MOOER-GE100-PRO-LI-P] |
 | Synth / acoustic simulation | Specific algorithms **?**; loading IRs does not prove electric-to-acoustic conversion |
 | I/O | 1×¼-inch mono input;2×¼-inch unbalanced L/R output;3.5mm stereo phones;2×USB-C. No XLR/mic, analog aux, FX-loop or DIN/TRS MIDI socket in complete guide inventory [MOOER-GE100-PRO-LI-Q] |
-| IR loading | Third-party **WAV44.1kHz/24-bit/512 samples**, user capacity **?** [MOOER-GE100-PRO-LI-P] |
+| IR loading | Third-party **WAV44.1kHz/24-bit/512 samples**, April2026 shared appendix:20 GIR/IR positions, current capacity unverified [MOOER-GE100-PRO-LI-P] |
 | NAM / captures | Manufacturer's **GE100 Pro-family NAM A2 conversion** announcement; do not call it native. Exact Li/region firmware matching and supported architectures need verification. MNRS2.0 support is distinct from NAM; onboard capture not established [N,P] |
 | Configuration apps | MOOER Studio **Windows10+ / macOS13+**; MOOER Cloud **iOS/Android**. Current iOS app requires15.6+, superseding older minimum-version claims. Li app behavior is covered by the shared family documentation; no independent installation test or Linux editor claim [D,A,G,Q] |
 | Extras | **80s stereo looper,40 drum grooves+10 metronomes**, tuner and Bluetooth audio. USB recording/playback documented; exact channel count, spillover, scenes and latency **?** [MOOER-GE100-PRO-LI-Q] |
@@ -422,6 +422,21 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 - **Findings commit** (Immediate model commits): `1a8da46cab3c6deb4c224e7a92664658491c827c`
 
 [Original shared source](../research-state.json)<!-- historical-link:mooer-014 -->,retained pending complete navigation/provenance audits.
+
+### GE100 Pro Li — shared manual and exact offer recheck
+
+Checked **2026-11-04**. The [manufacturer product page](https://www.mooeraudio.com/products/244.html) explicitly covers Pro and Pro Li. The manufacturer-authored [shared manual V01_2026.04.24](https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE100_Pro-_Pro_li_Manual_EN_V01_2026.04.24.pdf) scopes battery instructions specifically to Li. Static font decoding as documented in the Pro record; no image inspection or device test. Indexed product text names a September V02 manual, but its body/link was not obtained; April findings remain revision-qualified.
+
+| Field | Evidence / limitation |
+|---|---|
+| Battery / charge indications | Printed pp39–41:20% low-battery warning; depletion shuts down and requires external power before restart. Charging indicated with power on or off. Unsaved edits can be lost; no measured runtime, charging duration or cycle-life claim. |
+| Expression / shared manual | Toe activation and EXP VOL alternate global-output role with MIN/MAX; save instruction leaves cross-preset persistence unclear. Built-in pedal, not external EXP. |
+| Categories / historical appendix | PRE15,DRIVE35,AMP72,CAB67,EQ6,NR3,MOD27,DLY12,RVB9:246 filled category entries; no deduplication or simultaneous-block inference. AMP73–92:20 GNR positions; CAB68–87:20 shared GIR/IR positions. Current census and Li/region firmware matching remain unverified. |
+| Synth / pitch and special | Pitch Shift, Detune, Octave; ring modulation, slow attack, Lo-Fi, reverse delay and Shimmer. Input-note polyphony/ranges and dedicated synth/acoustic simulation remain unverified. |
+| IDR / exact Shopee cache | [LOBAJET70636842/47314329999](https://shopee.co.id/MOOER-GE100-Pro-Li-with-AI-Intelligent-Multi-Effects-Technology-i.70636842.47314329999): **Rp3.529.000,sold out**, one-month cache,KotaJakartaBarat. EarlierRp2.923.526 voucher quote remains separate; no reconciliation or live-stock claim. |
+| IDR / separate exact Shopee cache | [gpmusic.sby1875151955/45116479274](https://shopee.co.id/MOOER-GE100-Pro-Li-Black-Multi-Effects-Guitar-Pedal-i.1875151955.45116479274): **Rp1.734.000,sold out**, two-month cache,KotaSurabaya;September delivery text stale. Black title, condition/bundle/region/warranty/delivered cost unverified. Neither delayed-delivery voucher establishes a hardware discount. |
+
+Both offer caches leave hardware condition and current stock unverified; no qualified used quote. Non-Li August firmware labels are not transferred to Li.
 
 ## GE150 Max
 
