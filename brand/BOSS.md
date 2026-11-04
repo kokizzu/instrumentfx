@@ -3453,6 +3453,10 @@ Checked **2026-11-04**. Exact bass multi-effects,distinct from ME-8;**outside th
 | Market / IDR | No qualified exactShopeeIndonesia item found thispass;not proof ofmarket absence. No new/used IDR,bundle,stock orcheckout conclusion. Overseas used listings are not Indonesian offers orconverted prices. |
 | Remaining required profile | Built-in/external/toe expression andglobal-volume scope;separate controls;displaytechnology/diagonal/touch;dimensions/mass;I/O/headphones;power/current/AC-versus-DC/battery/USB;complete processing/memory;IR/NAM/capture andeditor platforms remain unverified. Do not transfer ME-8/ME-6B specifications oradmit thispartial lead as fully verified. |
 
+### ME-8B — original-manual synth architecture
+
+The [manufacturer-authored Spanish manual copy](https://www.casaveerkamp.net/archivos/ME-8B.pdf), ©1996 BOSS,38PDFpages,labels the relevant section as English-manual p24 (PDF27). **WAVE1–4** use an internal source following bass pitch/attack: saw orsquare,each with an octave-down variant. The manual explicitly requires single notes,muting other strings andthe preceding note,with a clear attack. **WAVE5–9** directly reshape the incoming waveform;their chord handling is unverified. **WAVE10** is volume-responsive touch wah,not a separate tracking synth. This readable original-body mirror supplements the unreadable primary English scan;translation/revision equivalence andinstalled firmware remain unverified.
+
 No local download,dependency/software installation ordevice operation. Next: inspect originalmanual sections andfind exactIndonesian hardware offers before considering active admission;independent LCD/expression/general queues remain unchanged.
 
 ## ME-20
