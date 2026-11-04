@@ -163564,5 +163564,12 @@
     ],
     "active_inventory_changed": false,
     "next": "Defer currenthostcertification withoutnewprimaryevidence;continue other required-field/market gaps preserving displaypriority andgeneralGT-Pro queues."
+  },
+  "stadium_xl_mode_return_20261104": {
+    "source": "https://manuals.line6.com/en/helix-stadium/live/global-settings",
+    "revision": "Live navigation v1.4/Rev D; Switches/Pedals",
+    "finding": "FS6 shows two selected modes; Preset Mode Return locked Manual unless a selected mode is Preset. Combo FS2–5/8–11 excludes Transport. Snapshot return is separate.",
+    "active_count_unchanged": 402,
+    "next": "OLED pixel/color/diagonal and primary electrical rating; qualified live Shopee hardware offers remain unresolved. Preserve independent queues."
   }
 }

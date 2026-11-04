@@ -1069,6 +1069,12 @@ Checked **2026-11-04**, live **1.4** hardware documentation; mixed revision navi
 
 The same chapter explicitly marks **Count In as still in development for future firmware**, despite showing Count In Sound. Its presence in controls or the1.4 MIDI table doesnot establish shipped count-in operation. Current feature status needs a matching explicit release statement or device verification. Existing manual-loop stop-scope conflict, matrix routing and global EXP-volume uncertainties remain. No download or device operation.
 
+### Stadium XL — mode-return and Combo layout restrictions
+
+Checked **2026-11-04**, [manufacturer live Global Settings, Switches/Pedals](https://manuals.line6.com/en/helix-stadium/live/global-settings), navigation labelled v1.4/Rev D. This is documentation scope, not installed-firmware verification.
+
+FS6 displays its two selected modes. Automatic return after preset selection depends on Preset being one of those modes; otherwise Preset Mode Return is locked to Manual. Combo uses FS2–5 and FS8–11, but cannot include Transport. Snapshot selection separately offers staying in Snapshot mode or returning to the previous mode. Thus individually labelled switches do not imply every function can coexist in one layout. No device operation; OLED dimensions/color and exact current hardware stock remain unresolved.
+
 ## HX Effects
 
 <!-- comparison evidence begins -->
