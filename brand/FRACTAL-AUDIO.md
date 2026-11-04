@@ -1878,6 +1878,11 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | Categories / Graphic EQ | [November guide count conflict](#fm9-original--november-graphic-eq-count-conflict): 18 advertised versus16 variants described; four FM9 blocks, DSP permitting. Two variants remain unidentified. |
 | Categories / Ten-Tap Delay | [Two named types](#fm9-original--november-ten-tap-pattern-and-timing-boundaries): Ten-Tap Delay andRhythm Tap Delay;two FM9 blocks,DSP permitting. Repeat count,Decay andpattern feedback have different roles. |
 
+| Field | Evidence / qualification |
+|---|---|
+| Categories / Formant andRotary | [November2026 FM9 reference](#fm9-original--formant-vowels-and-rotary-control-scope):one Formant type,ten vowels,two instances;two Rotary instances,DSP permitting. Vowel/speaker processing isnot synthesizedinstrument generation. |
+| Controls / utility andvolume-save scope | [Original/Turbo3.x utilities](#fm9-original--utility-display-and-volume-save-boundaries):mainLCD contrast isseparate frommini specifications;systemreset preservespresets butclears layouts. Output1/2 VolumeInc/Dec auto-saves preset edits;not continuous globalvolume. |
+
 <!-- comparison evidence ends -->
 
 ### FM9 original — partial LCD discovery
@@ -2124,6 +2129,15 @@ Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printed3,51,98](
 |---|---|
 | Categories / Formant | **One type,two FM9 instances**,DSP permitting. Ten vowels:AAA,EEE,III,OHH,OOO,EHH,AHH,AWW,UHH,ERR. Select Start/Middle/End;Control morphs between them manually orvia modifier. Stereo channels process independently. Vowel filtering isnot tracked synthesis ormicrophone-driven vocoding;FM9 haszero Vocoder instances inthecomparison table. |
 | Processing / Rotary | **Two FM9 instances**,DSP permitting;no named type census given here. Rate0 parks rotation;separate drum/rotor acceleration andrelative drum speed shape transitions. Mic spacing0 simulates mono;stereo spread changes width. These speaker-motion controls do not generate organ notes or establish instrument synthesis. |
+
+
+### FM9 original — utility display and volume-save boundaries
+
+Checked **2026-11-05**, [manufacturer August2022 Original/Turbo3.x manual,printed100–101](https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf). Revision-qualified,not current installed-behavior testing.
+
+**Output1/2 Volume Increment/Decrement** changes thecurrent preset’s MAIN level in1dB steps andsaves it,including other unsaved parameters/bypass states. The maker specifies momentary127/0 switching andwarns against expression-pedal use. This isdifferent fromthe separately documented continuous global Input/Output Volume assignment.
+
+Utilities’Display slider adjusts mainLCD contrast/viewing angle,not established miniLCD specifications. ADC Levels shows level-knob/expression readings andpermits exact-percentage output setting;it doesnot establish global pedal endpoints. Systemreset preservespresets butclears footswitch layouts;ClearPresets andClearUserCabs areseparate commands. Firmware andUSBfirmware versions areseparately displayed. No reset,save,MIDI,download ordevice operation performed.
 
 
 ## FM9 Turbo
