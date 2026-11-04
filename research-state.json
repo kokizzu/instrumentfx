@@ -166926,5 +166926,27 @@
     "active_inventory_unchanged": 402,
     "status": "Partialleadoutsideactive;additionalindex69unchanged",
     "next": "Continue GP10 hardware/firmware/support gaps;preserve LCDfirst andindependent expression/general/consolidation queues"
+  },
+  "boss_gp10_software_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/BOSS.md#gp-10--editor-and-driver-support-boundaries",
+    "sources": [
+      "https://www.boss.info/global/support/by_product/gp-10/updates_drivers/ec8be27c-8231-4fd5-8c3d-8f1fdf512413/",
+      "https://www.boss.info/global/support/by_product/gp-10/updates_drivers/30d1c5a2-180a-4148-a85e-35a83d2f415a/",
+      "https://www.boss.info/global/support/by_product/gp-10/updates_drivers/24227756-4baa-42e1-a06f-8884c66ed9ce/",
+      "https://www.boss.info/global/support/by_product/gp-10/updates_drivers/7ce8e2a7-2a23-434f-b394-ebc43c522705/"
+    ],
+    "editor": "1.1.1 March2017;WindowsAIRdependency;Macdriver/currentcompatibilitytable separate",
+    "windows_driver": "1.0.1May2023;Win10x86remains1.0.0;ARM/VM/MacWindows excluded",
+    "mac_driver": "1.0.5Sonoma14.xlaterheading,currentmatrixtable separate",
+    "remaining": [
+      "Current macOS editor/driver matrix",
+      "Runtime availability",
+      "Device firmware",
+      "Physical controls/power",
+      "Qualified ShopeeIndonesia hardware"
+    ],
+    "inventory_unchanged": 402,
+    "next": "Continue unresolved GP10 hardware/power andactualcurrentplatformmatrix;preserve LCDpriority/general/expression/consolidationqueues"
   }
 }

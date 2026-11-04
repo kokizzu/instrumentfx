@@ -591,7 +591,7 @@ Checked **2026-11-05**. **Outside active402 models** pending complete profile an
 | Memory |99 patches;factory occupancy unverified. |
 | I/O |13-pin GK;¼-inch Guitar In/Guitar Out,L/Mono+R outputs;stereo-mini phones/AUX;shared EXP/CTL;USB-B;DC input. |
 | Power / body | Adapter,350mA;251W×207D×71H mm,maxheight93mm;1.9kg. Voltage/polarity,battery/USB power unverified. |
-| Software | TONE STUDIO Mac/Windows;USB audio/MIDI andguitar-to-MIDI;current OS/driver/channel limits unresolved. |
+| Software | TONE STUDIO Mac/Windows;[versioned editor/driver requirements](#gp-10--editor-and-driver-support-boundaries) below. USB audio/MIDI andguitar-to-MIDI;installed operation/channel limits unresolved. |
 | Market |No qualified new/used IDR offer. Search returned unrelated GP-10 products andPhilippine hardware,not Indonesian availability. |
 
 [Original owner manual e02,printedpp7–9](https://cdn.roland.com/assets/media/pdf/GP-10_e02_W.pdf);document revision isnot installed firmware:
@@ -647,6 +647,19 @@ Checked **2026-11-05**, [manufacturer Parameter Guide e02,©2014,printedpp4,8](h
 | DIRECT OFF |Processor audio goes tocomputer;DAW-processed audio feeds hardware OUTPUT. |
 
 These routes do not establish USB-bus power,physical DIN MIDI,all-mode channel counts orglobal EXP attenuation. Driver/current-host compatibility andlatency remain untested. No download,recording,connection ordevice operation.
+
+### GP-10 — editor and driver support boundaries
+
+Checked **2026-11-05**, exact-model manufacturer support pages; no packages downloaded orrun.
+
+| Component | Published version / compatibility boundary |
+|---|---|
+| Windows editor | [TONE STUDIO1.1.1,March2017](https://www.boss.info/global/support/by_product/gp-10/updates_drivers/ec8be27c-8231-4fd5-8c3d-8f1fdf512413/). Page lists Windows7/8.1/10/11,Core2Duo+,1GBRAM+,1024×768+. Requires product driver andAdobe AIR;select GP-10 rather than GP-10 DAW CTRL. These are PC requirements,not hardware-screen pixels. |
+| macOS editor | [TONE STUDIO1.1.1,March2017](https://www.boss.info/global/support/by_product/gp-10/updates_drivers/30d1c5a2-180a-4148-a85e-35a83d2f415a/),requires appropriate USB driver;current OS support isdelegated toseparate Exclusive Application compatibility table. Its historical Sierra10.12 addition doesnot certify all later macOS versions. Publisher documents library-path migration whenolder Livesets disappear after an app update;this concerns computer library data,not additional onboard memories. |
+| Windows USB driver | [1.0.1,May2023](https://www.boss.info/global/support/by_product/gp-10/updates_drivers/24227756-4baa-42e1-a06f-8884c66ed9ce/) adds Windows11;Windows10 32-bit stays1.0.0. Windows10/11 listed;**ARM PCs,virtual Windows,Windows onMac andWindows10Mobile excluded**. Do not infer ARM compatibility fromanother BOSS model. |
+| macOS USB driver | [1.0.5 heading names Sonoma14.x orlater](https://www.boss.info/global/support/by_product/gp-10/updates_drivers/7ce8e2a7-2a23-434f-b394-ebc43c522705/);requirements defer toHardware & Driver compatibility table. This listing isnot proof ofTONE STUDIO compatibility,all later releases orinstalled operation. |
+
+Editor1.1.1 fixes unintended patch-data transmission during patch selection andkeyboard/UI issues. Version1.1.0 adds batch librarian operations;neither is adevice-firmware version,extra synthesis engine ornew hardware memory capacity. Exact current platform matrix,runtime availability anddevice firmware remain unverified.
 
 
 ## GS-10
