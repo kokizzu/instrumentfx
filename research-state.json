@@ -168220,5 +168220,82 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Generalcycle returns GP-200JR→Prime→originalGE300;preserve individualfootdisplay priority,GT-Pro,expression andconsolidationqueues"
+  },
+  "hx_effects_named_delay_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/LINE6.md#hx-effects",
+    "source": "https://line6.com/data/6/0a00051afdbe673ccc8bdcf2d/application/pdf/HX%20Effects%203.80%20Owner%27s%20Manual%20-%20English%20.pdf",
+    "revision": "3.80 RevD printed21–22",
+    "hx_choices": [
+      "Simple Delay",
+      "Mod/Chorus Echo",
+      "Dual Delay",
+      "Multitap 4",
+      "Multitap 6",
+      "Ping Pong",
+      "Sweep Echo",
+      "Ducked Delay",
+      "Reverse Delay",
+      "Vintage Digital",
+      "Vintage Swell",
+      "Pitch Echo",
+      "Transistor Tape",
+      "Cosmos Echo",
+      "Harmony Delay",
+      "Bucket Brigade",
+      "Adriatic Delay",
+      "Adriatic Swell",
+      "Elephant Man",
+      "Multi Pass",
+      "Heliosphere",
+      "Poly Sustain",
+      "Glitch Delay",
+      "Euclidean Delay",
+      "ADT",
+      "Crisscross",
+      "Tesselator",
+      "Ratchet"
+    ],
+    "legacy_choices": [
+      "Ping Pong",
+      "Dynamic",
+      "Stereo",
+      "Digital",
+      "Dig w/Mod",
+      "Reverse",
+      "Lo Res",
+      "Tube Echo",
+      "Tape Echo",
+      "Sweep Echo",
+      "Echo Platter",
+      "Analog Echo",
+      "Analog w/Mod",
+      "Auto-Volume Echo",
+      "Multi-Head",
+      "Bubble Echo",
+      "Phaze Eko"
+    ],
+    "total": 45,
+    "stereo_only_hx": [
+      "Dual Delay",
+      "Multitap 4",
+      "Multitap 6",
+      "Ping Pong",
+      "Harmony Delay"
+    ],
+    "mono_only_hx": [
+      "Poly Sustain"
+    ],
+    "qualification": "Remaining HX delay rows list mono/stereo; each row counted once, not simultaneous capacity or synth-input polyphony. Preserve nine-block/DSP and combined-group source conflict.",
+    "market": "Fresh exact Shopee used/ready queries returned no new qualified offer; historical asks remain unchanged.",
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Named distortion/modulation/reverb tables",
+      "Factory-filled preset subset",
+      "Published screen diagonal and touch/color specifications",
+      "Qualified current new/used hardware offers",
+      "Synth tracking polyphony and manual/editor instance conflicts"
+    ],
+    "next": "Continue individual-footwitch-display priority profiles; preserve GT-Pro, expression-volume and GP-200JR → Prime → GE300 general queues."
   }
 }
