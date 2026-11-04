@@ -164197,5 +164197,24 @@
     "market": "Exact FM9MKI item1354606623/43322190869 repeats already-recorded Rp36000000 with conflicting FM3slug;no newstock orrevision certification",
     "active_inventory_unchanged": 402,
     "next": "Continue remaining requested footdisplay models andexactShopee discovery;preserve independent GT-Pro,GP200JR→Prime→GE300,expression andconsolidation queues"
+  },
+  "mc8pro_relay_clock_editor_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://help.morningstar.io/en/article/mc8-pro-user-manual-1yqqr1r/",
+    "revision": "Current manual;firmware minimum unstated",
+    "canonical": "brand/MORNINGSTAR.md#mc8-pro--relay-clock-persistence-and-mobile-editor-scope",
+    "findings": [
+      "Relay default/open/closed andmomentary/toggle distinguished fromexpression/audio",
+      "ClockPersist disabled stops onexpression/switch events",
+      "Documented desktopBluetooth/iOSapp/AndroidChrome editor paths;OS minimumunknown"
+    ],
+    "remaining": [
+      "Display size/pixels/touch andmass",
+      "Expression wiper pinout andactualM-VAVE wiring",
+      "Global connected-processor volume coverage",
+      "QualifiedexactShopee hardware"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue accessible requested footswitch-display model gaps andexactShopee discovery;preserve independent generalGT-Pro,GP200JR→Prime→GE300,expression andconsolidation queues"
   }
 }

@@ -133,3 +133,13 @@ Checked **2026-11-04** against the [manufacturer MC8 PRO manual](https://help.mo
 | Firmware variants | **MIDI + Keyboard** firmware permits keystrokes; **MIDI only** does not. These are feature variants, not two simultaneously running firmware installations. |
 
 Screen dimensions/pixels/touch, mass, expression pinout, cross-profile backup coverage and qualified Shopee stock remain unresolved. No download, reset, connection, firmware update or device operation. Controller remains outside active audio inventory.
+
+### MC8 PRO — relay, clock persistence and mobile-editor scope
+
+Checked **2026-11-04**, [manufacturer MC8 PRO manual](https://help.morningstar.io/en/article/mc8-pro-user-manual-1yqqr1r/), Controller Settings, Relay Ports andBluetooth Editor sections;firmware minimum unstated.
+
+- **Relay control:** each port’s Tip/Ring defaults independently open orclosed. Messages support momentary press/release orToggle operation. These switch external non-MIDI equipment;they are not analog expression/audio-volume outputs.
+- **Clock persistence:** enabled MIDI Clock Persist continues clock until Stop Clock. Disabled,another event—including expression movement—stops it. Clock continuity andpedal calibration are separate.
+- **Editor platforms:** manufacturer documents Bluetooth editing onmacOS/Windows desktop,iPhone/iPad app,andAndroid Chrome. OS/build minimums remain unspecified;this narrows the earlier platform unknown without certifying every device.
+
+Four displays remain shared across eight switches. Controller stays outside active audio inventory;actual M-VAVE wiring,global processor-volume coverage andqualified Shopee stock remain unresolved. No connection,software installation ordevice operation.
