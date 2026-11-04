@@ -167699,5 +167699,24 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Requested individual-footdisplay profiles first; preserve GP-200JR→Prime→GE300, GT-Pro, expression andconsolidation queues"
+  },
+  "gtpro_backup_battery_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/BOSS.md#gt-pro--memory-backup-battery-and-service-boundary",
+    "source": "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+    "revision": "Original English manual printedp5 andindexed troubleshooting p143",
+    "findings": [
+      "Internal memory-retention battery whilemainpoweroff",
+      "Startup Battery Low warning andmemory-data risk",
+      "Historical service referral doesnot override regionalrepairend"
+    ],
+    "remaining": [
+      "Celltype/life/currentcondition andreplacementdataretention",
+      "GlobalFV precedence overpatchenable/endpoints",
+      "Other USB driver-mode channelcounts",
+      "Qualified exactShopee hardware"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Return to requested individualfootdisplay priority; retain independent GT-Pro/expression and GP-200JR→Prime→GE300 queues; no repeated source-failure-only commits"
   }
 }
