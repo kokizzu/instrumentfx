@@ -675,6 +675,16 @@ Checked **2026-11-01** in [Haiko Heinz’s firsthand Bonedo X3 review,June23,202
 
 Earlier manufacturer-only navigation/factory-subset unknowns remain qualified by source type. No local download,device operation ornew price observation.
 
+### PLETHORA X3 — restored manufacturer-hosted control evidence
+
+Checked **2026-11-04**: the [current exact0709-AIS product page](https://www.tcelectronic.com/en/products/0709-AIS) links a now-readable [manufacturer-hosted Quick Start Guide](https://cdn-media.empowertribe.com/a7147f29903640918cc9bc9fc6e097dc/QSG_TE_0709-AIS_PLETHORA-X3_WW.pdf), **V0.0,©2022,35PDFpages**, English controls on **PDF10/printed18–19**. This restores direct-primary access after earlier failed retrievals; the separately preserved V1.0 mirror remains a distinct edition. No file downloaded or panel image inspected.
+
+| Field | Direct-primary corroboration / limits |
+|---|---|
+| Display / control evidence provenance | **V0.0 printed18–19:** LCDs show slot effects in PLAY and pedal/TonePrint/parameter editing in EDIT. Separate LEDs identify selection and bypass in EDIT; PLAY LEDs can indicate a secondary function. This directly corroborates the existing mirror-derived behavior, without establishing LCD diagonal, pixel color or touch. EDIT knob changes auto-save; PLAY HOT KNOB changes do not. Five rotary/three MASH/selector controls retain the textual-count qualification. |
+
+No new capability,inventory admission orcurrent-firmware equivalence is claimed. Existing127/75 memory,Board management andUSB/MIDI qualifications remain;no looper duration oranalogEXP socket is established.
+
 <!-- comparison evidence ends -->
 
 Checked2026-10-17; historical indexed asks, not current stock/checkout. Condition,variant,bundle,adapter,working state,authenticity,warranty,shipping/tax,vouchers unresolved. No download or visual inspection claimed.

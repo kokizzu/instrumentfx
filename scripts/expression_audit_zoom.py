@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(tc): corroborate original X1 mass and qualify latency'
+        message='research(tc): corroborate X3 controls with restored primary guide'
     print(git('commit','-m',message))
