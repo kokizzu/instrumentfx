@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(valeton): qualify GP-200JR community editor support'
+        message='research(headrush): distinguish Prime reset and restoration scope'
     print(git('commit','-m',message))

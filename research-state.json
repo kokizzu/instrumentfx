@@ -164985,5 +164985,24 @@
     ],
     "inventory_unchanged": 402,
     "next": "Independent general queue:HeadRush Prime thenoriginal MOOER GE300;preserve requested individual-footdisplay priority,compactexpression scope andGT-Pro technical cursor."
+  },
+  "prime_global_reset_scope_20261105": {
+    "checked_date": "2026-11-05",
+    "model": "HeadRush::Prime",
+    "sources": [
+      "https://cdn.inmusicbrands.com/Software/SGEE/HeadRush%20Prime%20-%20User%20Guide%20-%20v4.1.0.pdf",
+      "https://cdn.inmusicbrands.com/HeadRush/prime/HeadRush%20Prime%20-%20User%20Guide%20-%20v1.0.pdf",
+      "https://support.headrushfx.com/en/support/solutions/articles/69000834532-headrush-prime-frequently-asked-questions"
+    ],
+    "revision": "Manual4.1.0 printed64,1.0.0 printed58;FAQ firmware unspecified",
+    "canonical": "brand/HEADRUSH.md#prime--global-settings-reset-versus-factory-rig-restoration",
+    "remaining": [
+      "Current5.2 reset behavior anduserasset/calibration retention",
+      "Numerical rig/IR capacity",
+      "Auxiliary OLED physical specifications",
+      "QualifiedexactShopee stock/condition"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Independent general queue:original MOOER GE300;preserve individual-footdisplay priority,compactexpression audit andGT-Pro technical cursor."
   }
 }
