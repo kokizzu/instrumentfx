@@ -161651,5 +161651,45 @@
     "market": "Exact used Shopee search returned no newly qualified offer;older cached asks remain separately dated",
     "active_inventory_unchanged": 402,
     "next": "Continue accessible individual-footdisplay gaps and systematic stale-summary/profile reconciliation;preserve independent GT-Pro/general andconsolidation queues."
+  },
+  "gt001_external_navigation_phones_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "BOSS::GT-001",
+    "canonical": "brand/BOSS.md#gt-001--external-patch-navigation-and-headphone-load-scope",
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/GT-001_r_e01W.pdf",
+      "https://www.boss.info/global/products/gt-001/",
+      "https://manualzz.com/doc/4573509/boss-gt-001-guitar-effects-processor-owner-manual",
+      "https://support.roland.com/hc/ja/articles/360061945112"
+    ],
+    "revision": "Original 2014 exact-model parameter guide printed25;English owner manual2–4;product specs. FullPDF accesslimited,no visualinspection.",
+    "resolved": {
+      "external_sequential_navigation": "CTL1/2 NUMINC/DEC;SYSTEM preference orassignmentinallparticipatingpatches",
+      "favorite_navigation": "FAVINC/DEC cyclesA–D,notallpatches",
+      "physical_favorites": "Owner manual callsA–Dbuttons;notcertifiedfootswitches",
+      "headphones": {
+        "output_ohm": 44,
+        "recommended_min_load_ohm": 44,
+        "nominal_dbu": -10
+      },
+      "line_outputs": {
+        "output_ohm": 2000,
+        "recommended_min_load_ohm": 10000
+      },
+      "external_connection": "BOSS support updated2022-01-18: expression and footswitch cannot connect simultaneously;FS7 A=CTL2/INC,B=CTL1/DEC;singleFS5U=CTL1"
+    },
+    "constraints": [
+      "Manufacturer explicitly excludes simultaneous external footswitch andexpression connection;not generic third-party wiring evidence",
+      "Electricalheadphoneratingsnotpower/globalEXPcoverage"
+    ],
+    "market": "SamefourmonthTokoStandard Rp5075200shopcard;notnewstockorconditionevidence",
+    "remaining": [
+      "Completephysicalcontrols/treadlecorroboration",
+      "Global FV placement/range/outputcoverage",
+      "Exactplaybackchannelcount",
+      "Qualified current exacthardware/newusedIDR"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue accessible display-priority orremainingno-treadleprofilegaps;preserveindependentGTPro/general,expressionandconsolidationqueues."
   }
 }

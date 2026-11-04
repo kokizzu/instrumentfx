@@ -817,14 +817,16 @@ Desktop guitar/vocal processor; distinct from GT-1/GT-100. Checked 2026-10-17; p
 
 | Field | Verified / unresolved |
 |---|---|
-| Expression | External expression or up to two footswitches; built-in/toe unverified. |
-| Controls | Knob/footswitch/button counts unverified. |
+| Expression | Shared CTL/EXP accepts external expression or up to two footswitches. Saved exact-model audit documents EXP preference SYSTEM with FUNC=FV; global range/placement and output coverage remain unverified. Built-in/toe status still needs full panel corroboration. |
+| Controls | Complete knob/footswitch/button counts remain unverified. Original owner manual identifies A–D as favorite-patch buttons, not established footswitches; hand controls and external navigation are separate. |
 | Display | Backlit 132 × 32 LCD; diagonal, color, touch unknown. |
 | Processing / choices | Dual amps, series/parallel chains; COMP, PREAMP, OD/DS, EQ, FX1/2, DELAY, CHORUS, REVERB, PEDALFX, NS1/2, ACCELFX. Aggregate ceiling/category counts pending. |
 | Factory / user memory | 200 preset + 200 user; initial user contents unknown. |
 | Synth / acoustic | WAVE SYNTH, AC. GUITAR SIM, AC. PROCESSOR listed; monophonic guitar-to-MIDI uses a normal pickup. |
 | Dimensions / mass | 211 W × 135 D × 58 H mm; 500 g. |
 | I/O | Quarter-inch guitar, L/mono and R outputs, TRS CTL/EXP; balanced XLR mic, +48 V, 10 mA maximum; stereo mini AUX/phones; USB-B; DC in. |
+| I/O / headphone electrical scope | [Exact product specifications][GT001-P]: PHONES output impedance **44Ω**, recommended headphone load **44Ω or greater**, nominal **−10dBu**. Not a headphone power rating or proof of EXP attenuation. Main outputs separately specify2kΩ and load≥10kΩ. |
+| Controls / external patch navigation | [Own parameter guide p25](#gt-001--external-patch-navigation-and-headphone-load-scope): NUM INC/DEC selects adjacent patches through external CTL1/2; SYSTEM preference makes the function shared. FAV INC/DEC cycles four favorites instead. [BOSS support](https://support.roland.com/hc/ja/articles/360061945112) explicitly excludes simultaneous external footswitch and expression connection. |
 | Power / batteries | Adapter or USB bus power; 240 mA draw. 9 V DC PSA-100 supply verified below; polarity, batteries unresolved. |
 | Editor / USB | BOSS TONE STUDIO Mac/Windows; USB audio/MIDI, reamping. Four recording channels verified below; exact playback count pending. |
 | IR / NAM / capture | User IR, native/converted NAM, capture unverified. |
@@ -928,6 +930,17 @@ The [2014 parameter guide](https://static.roland.com/assets/media/pdf/GT-001_r_e
 Existing exact-product **211 W×135 Dmm** exceeds preferredwidth by11mm;dedicated3.5mm phones. Onboard sequentialpresetdown/up foot operation remains unverified;desktop favoritecontrols mustnot be counted asfootswitches. Built-intreadle absence still needscompletepanel corroboration,so inclusion here isprovisional ratherthan fullyverified no-treadle status.
 
 Exact[Toko Standard shop214621914/item18937945565](https://shopee.co.id/Effect-Guitar-BOSS-GT-001-COSM-i.214621914.18937945565) failed retrieval2026-10-19. PreserveolderRp5.075.200 shop-cardask;currentcondition,bundle,adapter,warranty,stock,shipping andusedprice unknown. No siblingoffertransfer orlocaldownload.
+
+### GT-001 — external patch navigation and headphone-load scope
+
+Checked **2026-11-04** in [indexed manufacturer Parameter Guide, printedp25](https://static.roland.com/assets/media/pdf/GT-001_r_e01W.pdf), its exact GT-001 CTL/EXP chapter; corroborating [manufacturer product specifications](https://www.boss.info/global/products/gt-001/) and [original English owner manual pp2–4 reproduced on Manualzz](https://manualzz.com/doc/4573509/boss-gt-001-guitar-effects-processor-owner-manual). The latter has the GT-001 title, ©2014 BOSS and matching English section/page structure; multilingual/other-model boilerplate and host-generated answers are not used as specifications. No visual census.
+
+**NUM INC / NUM DEC** moves to the adjacent higher/lower patch. The guide requires CTL1/2 preference **SYSTEM**, or the same function saved in every participating patch. It triggers on pedal press regardless of MOMENT/TOGGLE. **FAV INC/DEC** cycles A–D favorites, a different navigation scope. These are external controls, not proof of onboard preset footswitches. [Exact-model BOSS support article](https://support.roland.com/hc/ja/articles/360061945112), updated2022-01-18, explicitly says external footswitches and expression cannot be connected simultaneously. Its FS-7 example maps A→CTL2/NUM INC and B→CTL1/NUM DEC, both with SYSTEM preference and OFF/ON endpoints. A single FS-5U controls CTL1 only. This establishes the shared-port restriction, not generic third-party wiring compatibility. This supersedes the earlier external sequential-navigation unknown only.
+
+Owner manual p4 calls A–D **buttons** for immediate favorite recall; holding one assigns the chosen patch. A photo/search description of footswitch-style buttons is not accepted as a physical footswitch count. Full panel/treadle census remains unresolved.
+
+Product PHONES **44Ω output impedance**, **recommended load≥44Ω**, and **−10dBu nominal level** are distinct specifications. They do not establish milliwatts, maximum level or volume-pedal coverage. Main line outputs have their own2kΩ/≥10kΩ ratings. Older sources and the shop-card ask remain qualified; no current stock, firmware or measured performance claim. No download, connection or device operation.
+
 
 ## GT-1B
 
