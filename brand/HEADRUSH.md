@@ -830,6 +830,17 @@ The article restricts accessible rigs to those mapped to the selected signal pat
 
 The same older article describes7+7 dual paths;the current record’s5.2 guide also documents2+12 and4+10 guitar/vocal allocations. Preserve the newer options rather than reducing all dual configurations to7+7. Hardware Assign maps switches/pedals within the chosen setup;that is separate from this selection restriction. No device test,rig conversion orsoftware download.
 
+### Prime — connection-state persistence and historical clone compatibility
+
+Checked **2026-11-04**, [original manufacturer Prime3.2 release notes,August2024,PDFpp3–4](https://cdn.inmusicbrands.com/HeadRush/FW/Aug24_Firmware_Updates/Prime%20v3.2/Official%20PDF%20Update%20Guide%20and%20Release%20Notes/READ%20ME%20-%20HeadRush%20Prime%20Firmware%20Update%20Instructions%20v3.2.pdf). This dated release is not the latest or installed firmware.
+
+| Field | Revision-qualified boundary |
+|---|---|
+| Practical / connection-state persistence | **3.2** adds retention of Bluetooth and USB Audio On settings through power cycles. This does not establish automatic Bluetooth reconnection, persistent USB routing in every mode, loop retention or universal saved global settings. |
+| Proprietary captures / backward compatibility | The included **3.1.2** history warns that clones created or imported to3.1.2 are incompatible with earlier firmware, naming3.1.0/3.1.1. It also distinguishes restored pre3.1.1 clone tone from clones created in3.1.1 onward. This is historical HeadRush clone-format behavior,not a NAM-architecture rule orproof ofcurrent5.2 rollback compatibility. |
+
+Existing3.2 synth anddual-path introduction evidence remains unchanged. No firmware,clone orsoftware downloaded,imported orrun;no device settings changed. Current mini-OLED specifications,rig/IR capacity ceilings andcondition-qualified Shopee stock remain unresolved.
+
 ## VX5
 
 <!-- comparison evidence begins -->
