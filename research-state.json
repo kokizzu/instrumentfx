@@ -162004,5 +162004,21 @@
     "status": "Exact-model release labels and voucher condition checked; installed behavior/current stock unknown",
     "next": "Full manual/category census,IR slots,USB routing,display/axis specifications andqualified condition-specific IDR remain;priority and independent queues unchanged",
     "inventory_changed": false
+  },
+  "ge100pro_full_manual_routing_20261104": {
+    "model": "MOOER::GE100 Pro",
+    "checked_date": "2026-11-04",
+    "source": "https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE100_Pro-_Pro_li_Manual_EN_V01_2026.04.24.pdf",
+    "revision": "V01_2026.04.24",
+    "canonical_section": "brand/MOOER.md#ge100-pro--full-manual-volume-and-output-routing-qualifications",
+    "evidence_method": "Static +31 embedded-font character decoding; unresolved glyphs retained; no images/download/hardware test",
+    "verified": [
+      "Built-in toe activation and EXP VOL alternate volume role; save-scope caveat retained",
+      "CAB SIM THRU output coverage and chain-end rule",
+      "Conditional copied-preset delay/reverb spillover",
+      "Stereo mobile OTG"
+    ],
+    "next": "Read full-manual appendix for category census/IR slots and specifications; global-volume persistence/coverage remains untested; preserve independent queues",
+    "inventory_changed": false
   }
 }

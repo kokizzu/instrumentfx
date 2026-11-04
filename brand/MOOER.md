@@ -204,7 +204,7 @@ Reviewed **2026-10-14**. **Partial**, eligible guitar multi-effects; original GE
 
 | Required field | Evidence / unknown |
 |---|---|
-| Expression | Built-in, assignable volume/effect control. External EXP socket absent from the complete documented connector list; toe-switch details **?** [MOOER-GE100-PRO-Q] |
+| Expression | Built-in, assignable volume/effect control. External EXP socket absent from the complete documented connector list; toe activation confirmed in the [full-manual follow-up](#ge100-pro--full-manual-volume-and-output-routing-qualifications) [MOOER-GE100-PRO-Q] |
 | Knobs / footswitches / buttons | **2 / 3 / 6**, counted from the manufacturer's enumerated panel description: SELECT/MASTER and CHAIN; A/B/C; SAVE, TAP, SYSTEM, RHYTHM, HOME, EXP. Encoder presses not counted again; rear power switch separate. A+B and B+C are combinations, not additional footswitches [MOOER-GE100-PRO-Q] |
 | Screen | **3.5-inch color**. Explicit touchscreen specification **?**; knob navigation is not conclusive negative evidence [P,Q] |
 | Dimensions / weight | Published **255.7 × 144 × 53.5 mm; 760 g**. Width/depth labels and maximum pedal-up height not established in retrieved text. Fails the200×140 compact test in either horizontal orientation; strict medium/large classification remains pending axis confirmation [MOOER-GE100-PRO-P] |
@@ -218,7 +218,7 @@ Reviewed **2026-10-14**. **Partial**, eligible guitar multi-effects; original GE
 | IR | Third-party **WAV,44.1kHz,24-bit,512 samples**. User-slot capacity **?** [MOOER-GE100-PRO-P] |
 | NAM / proprietary formats | **NAM A2 conversion**, explicitly in manufacturer's August2026 availability table; native A2 not claimed. MNRS2.0 support separate. Exact supported conversion architectures, minimum matching firmware and onboard capture ability **?** [N,P] |
 | Editor platforms | MOOER Studio: **Windows10+ / macOS13+** [MOOER-GE100-PRO-D]. MOOER Cloud: **iOS**, developer lists GE100 Pro; current App Store requires **iOS15.6+** [MOOER-GE100-PRO-A]. Android app published by MOOER [MOOER-GE100-PRO-G]; current minimum Android version **?**. Linux editor not established |
-| Practice / stage | **80-second stereo looper;40 drum grooves+10 metronome patterns**, tuner, Bluetooth backing audio [MOOER-GE100-PRO-Q]. Spillover, scenes, preset gap and independent latency measurements **?** |
+| Practice / stage | **80-second stereo looper;40 drum grooves+10 metronome patterns**, tuner, Bluetooth backing audio [MOOER-GE100-PRO-Q]. Conditional copied-preset spillover documented in the [full-manual follow-up](#ge100-pro--full-manual-volume-and-output-routing-qualifications); scenes, preset gap and independent latency measurements **?** |
 
 [MOOER-GE100-PRO-P] manufacturer product page was available as indexed text; direct page opens returned403. [MOOER-GE100-PRO-Q] is the manufacturer quick-guide text mirrored by Manuals+, not its generated Q&A. Panel counts use the enumerated text; attempts to render the PDF pages returned403/cache errors, so **no visual verification is claimed**. The full September2026 manual/effect appendix was not successfully read.
 
@@ -296,6 +296,19 @@ Checked **2026-11-04**, [exact manufacturer download/release page](https://www.m
 | Price / conditional exact Shopee recheck | **Rp2.103.300,with voucher** explicitly shown by [LOBAJET70636842/54064319398](https://shopee.co.id/MOOER-GE100-Pro-AI-Powered-Multi-Effects-Processor-Amp-Modeler-i.70636842.54064319398),KotaJakartaBarat,two-month cache. Eligibility,base price,condition,stock,variant,regional hardware,bundle,warranty,shipping/tax andcheckout unknown. Same-day delivery andlate compensation are not stock proof oradditional discounts. EarlierRp3.019.000 observation remains unreconciled. |
 
 No package downloaded ordevice operated. Older sources andunknown current category/IR/USB/display specifications remain;no Pro Li field oractive membership changed.
+
+
+### GE100 Pro — full-manual volume and output-routing qualifications
+
+Checked **2026-11-04** against the manufacturer-authored shared GE100 Pro/Pro Li [V01_2026.04.24 manual](https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE100_Pro-_Pro_li_Manual_EN_V01_2026.04.24.pdf), printed pp28,36–38 (PDF30,38–40). Embedded-font text was statically decoded by adding31 to extracted character codes1–95; unresolved glyphs were preserved. No PDF images, package download or hardware test used.
+
+| Field | Exact-model evidence / qualification |
+|---|---|
+| Expression / toe and volume | Toe switch activates assigned-effect expression. **EXP VOL ON** instead provides global output-volume control while expression mode is disengaged (EXP LED off), with MIN/MAX endpoints. This is the built-in treadle, not external EXP support. The paragraph also instructs saving preset settings; cross-preset persistence, bypass/headphone/tail/looper coverage and pedal-position recall remain unverified. |
+| USB / routing | OTG supports stereo mobile recording/playback; full host-channel inventory, MIDI and loopback remain unverified. CAB SIM THRU independently bypasses left/right cabinet processing across line outputs, headphones and OTG. Unequal L/R settings force CAB to the chain end. |
+| Practice / spillover | Delay/reverb tails require SYSTEM SPILL-OVER plus switching between a preset and its saved copy, allowing block toggles/parameter edits. This is conditional, not arbitrary-preset spillover or proof of gapless switching. |
+
+Shared-manual battery instructions explicitly concern Pro Li and are not transferred here. IR capacity, category census, touchscreen and dimension-axis labels remain unresolved.
 
 ## GE100 Pro Li
 
