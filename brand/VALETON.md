@@ -1921,7 +1921,7 @@ Guitar/bass/acoustic multi-effects; checked **2026-10-16**. Separate from GP-200
 | Dimensions / weight | **281 W ×166 D ×57 H mm; 1.55 kg**; medium footprint. [JR-M p.75] |
 | Processing | Eleven movable category modules: PRE, WAH, DST, AMP, NR, CAB, EQ, MOD, DLY, RVB, VOL. DSP overload remains possible; not eleven unrestricted duplicate blocks. [JR-P, JR-M pp.9–10] |
 | Choices per category | **Firmware1.8.0 complete named-table census:** PRE31,WAH6,DST38,AMP71,NR4,CAB70,EQ6,MOD27,DLY22,RVB12,VOL1. **288 category-menu entries**,including cabinet/body choices andcross-category repeats;not288 unique algorithms orsimultaneous blocks. Excludes five AMP/five DST SnapTone import slots and20 userIR slots. AMP splits18Clean/26Drive/20HiGain/5Bass/2Acoustic;CAB60speaker+10Acoustic. Marketing240+,140+amp/cab and100+stomp figures retain their separate,overlapping scope. Earlier PRE27 was incomplete;31 is the corrected count. [Complete census below](#gp-200jr--complete-firmware180-category-census). |
-| Memory | **255 editable slots, first 99 factory-filled, 156 remaining**. Manual p.5 agrees on 255/99 but also says reset “100”; p.19 retains incompatible 01-A–25-D reset wording. Do not substitute LT's 256/100 layout. [JR-P, JR-M pp.5,12,19,75] |
+| Memory | **255 editable slots, first 99 factory-filled, 156 remaining**. Manual p.5 agrees on 255/99 but also says reset “100”; p.19 retains incompatible 01-A–25-D reset wording. Do not substitute LT's 256/100 layout. [Reset scopes and language exception](#gp-200jr--reset-scopes-and-preserved-language) are documented separately. [JR-P, JR-M pp.5,12,19,75] |
 | Synth / acoustic | PRE has AC Sim with four modes; acoustic preamps and acoustic/body CAB choices are separate. Step Filter offers synth-like timbres; dedicated synthesizer architecture not established. [JR-M pp.27,50–54] |
 | Processing / special-delay and Trail scope | [Own1.5.0 manual,pp44–46](#gp-200jr--special-delay-roles-and-bypass-trail-scope): Ring Echo modulates repeats;Rev Echo uses reversed feedback;M-Echo has12 head variations. Trail wording covers effect bypass,not proven preset-change spillover;newer1.8.0 equivalence remains unverified. |
 | Processing / Hold versus Freeze | Hold loops a short segment from before activation;Freeze sustains the sound at activation. Activate can be assigned to EXP; with Activate enabled,CTRL can instead toggle the module. These do not establish another general looper,polyphonic synthesizer orwhole-rig scene count. |
@@ -2163,6 +2163,14 @@ Checked **2026-11-05**, [manufacturer-authored GP-200JR manual reproduction](htt
 **Ring Echo** applies ring modulation to repeats,with separate Ring Mix/frequency controls;**Sweep Echo** filters repeats withindependent sweep/delay sync. **Rev Echo** describes reversed feedback,not necessarily reversed dry audio. **M-Echo** models four-head tape echo with **12 head variations**;these are internal modes,not12 processing blocks. **Lofi Echo** processes repeats;it doesnot establish a standalone global bitcrusher.
 
 The repeated **Trail** definition explicitly concerns **bypassing the effect**. This doesnot prove cross-preset spillover,universal continuity when algorithms change,orEXP attenuation ofsurviving tails. Retain these distinctions alongside the newer Hold/Freeze andcomplete category census. No download ordevice test.
+
+### GP-200JR — reset scopes and preserved language
+
+Checked **2026-11-05** in the [manufacturer-authored JR manual reproduction](https://manuals.plus/m/7898605c67b93c388ac95c61a2362863c1d324fd63b2fdfb7d4c78851af0f149), printedpp16–17. Body/About identifies **firmware1.5.0**, despite host metadata1.4.0; original manual prose only.
+
+Factory Reset offers **global settings only**, **factory patches**, or **all data**; each requires a subsequent confirmation, with cancellation available. The maker warns that saved changes/personal settings are deleted within the chosen reset scope. It separately says the selected **language is preserved** after factory reset. These are reset semantics, not proof of power-cycle pedal-position recall or a selective backup facility.
+
+The factory-patch option prints **01-A–25-D**, incompatible with the retained JR255-slot/99-factory allocation and three-patches-per-bank layout. Preserve that copied-layout conflict; do not infer100 factory presets or silently replace its endpoints. Current1.8.0 reset equivalence, exact protected content and recovery behavior remain unverified. No reset, backup, software installation, download or device operation performed.
 
 ## GP-200LT
 

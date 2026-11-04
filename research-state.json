@@ -166226,5 +166226,24 @@
     ],
     "next": "Continue other accessible requested footswitch-display gaps; do not repeatedly treat known Shopee caches as new offers. Preserve expression, GT-Pro and general GP-200JR→Prime→GE300 queues",
     "active_inventory_unchanged": 402
+  },
+  "gp200jr_reset_scope_20261105": {
+    "checked": "2026-11-05",
+    "model": "Valeton::GP-200JR",
+    "canonical": "brand/VALETON.md#gp-200jr--reset-scopes-and-preserved-language",
+    "source": "https://manuals.plus/m/7898605c67b93c388ac95c61a2362863c1d324fd63b2fdfb7d4c78851af0f149",
+    "revision": "Body firmware1.5.0; host metadata1.4.0; printed16–17",
+    "findings": [
+      "Three reset scopes: global only, factory patches, all data; confirmation/cancel",
+      "Selected language explicitly preserved",
+      "01-A–25-D factory reset range conflicts with exact JR255/99 layout; not adopted"
+    ],
+    "remaining": [
+      "Current1.8.0 reset behavior and corrected factory range",
+      "Power/touch/toe and IR/NAM concurrency qualifications",
+      "Condition-qualified live offers"
+    ],
+    "next": "Independent general cursor continues HeadRush Prime then original GE300; preserve requested individual footswitch-display priority, expression-volume and GT-Pro queues",
+    "active_inventory_unchanged": 402
   }
 }
