@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(neural): qualify Nano Cortex recall timing and preset saves'
+        message='research(fractal): document FM9 crossover routing limits'
     print(git('commit','-m',message))

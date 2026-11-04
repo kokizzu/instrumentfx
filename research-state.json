@@ -160844,5 +160844,24 @@
     ],
     "active_inventory_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "fm9_mkii_crossover_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026,printed3,30;FM9 column",
+    "findings": [
+      "Two CPU-limited stereo two-way XVR instances;fourth-order Linkwitz-Riley",
+      "40–800Hz or400Hz–8kHz with×10; independent low/high L/R levels/pans",
+      "Two cascaded XVR form three-way crossover; not extra capacity or note-tracking synthesis"
+    ],
+    "remaining": [
+      "Graphic EQ18 versus16 names",
+      "Complete Reverb/Megatap named inventories",
+      "Exact installed-firmware/CPU equivalence",
+      "Global volume endpoints/recall/route coverage",
+      "Display physical specifications and qualified exact Shopee stock"
+    ],
+    "active_inventory_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }

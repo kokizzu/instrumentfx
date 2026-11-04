@@ -1085,6 +1085,7 @@ Partial record checked **2026-10-17**. Exact MKII Turbo offer;original/MKI selle
 
 | Required field | Evidence / qualification |
 |---|---|
+| Routing / Crossover split | [November reference](#fm9-mkii-turbo--crossover-routing-and-frequency-scope): two stereo two-way XVR blocks, CPU permitting; fourth-order Linkwitz-Riley filters,40–800Hz or400Hz–8kHz with×10. Separate low/high L/R levels and pans support band-specific processing, not note-tracking synthesis. |
 | Manufacturer identity / revision | Four DSP cores;**10+% extra processing over original**,larger switch displays with nearly double viewing area. [Product][f9-p]. |
 | Built-in / external / toe expression | No built-in treadle;**three external pedal/switch sockets**. Toe configuration unresolved. [Product][f9-p];[Store][f9-s]. |
 | Knobs / footswitches / buttons | Current:**nine footswitches** and **five main-display push encoders**, explicitly named by exact MKII Turbo manufacturer store2026-10-31. Five describes editing encoders,not all rotary controls or push functions. Historical manual:**9/9/12**,six push-knobs counted once; power/ground lifts separate. Current full MKII rotary/button totals remain unverified. [Product][f9-p];[Store][f9-s];[Manual][f9-m] p.128. |
@@ -1739,6 +1740,14 @@ Checked **2026-11-04** in the [manufacturer-authored cumulative FM9 release note
 **4.01,April7,2023,PDFp26:** expanded System Settings format covers Global,I/O,MIDI/Remote,Tuner and Foot Controller settings and is not backward-compatible with earlier firmware. This is a separate historical boundary, not evidence that MKII shipped with4.01. No firmware, settings or hardware were changed.
 
 Current physical-display gaps and the unresolved18-versus16 Graphic EQ names remain explicit.
+
+### FM9 MKII Turbo — Crossover routing and frequency scope
+
+Checked **2026-11-04**, [manufacturer November2026 Blocks Guide, printed pp3,30](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). The FM9 column permits **two Crossover blocks**, subject to CPU; this does not certify every current MKII preset combination.
+
+Each XVR is a **stereo two-way split with fourth-order Linkwitz-Riley filters**. Frequency spans **40–800Hz**, or **400Hz–8kHz** with the **×10** multiplier. Low and high bands have separate left/right levels and pans. Cascading two blocks can make a three-way crossover; that uses both available instances rather than adding a third block.
+
+The manufacturer suggests band-specific amp/effect paths such as polyfuzz or low/high chorus. Here polyfuzz describes split-band processing; it does not establish note tracking, pitch shifting or a synth engine. Exact patch CPU cost, installed-firmware equivalence and all-route global volume remain unverified. No local download or device operation.
 
 ## FM9 original
 
