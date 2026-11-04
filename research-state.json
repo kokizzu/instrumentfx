@@ -161078,5 +161078,22 @@
     "market": "Fresh targeted search found no qualified AXOM MAX hardware; not proof of market absence.",
     "active_inventory_unchanged": 402,
     "next": "Continue accessible requested footswitch-display/profile gaps; defer maker website and image-only census pending accessible evidence; preserve independent queues."
+  },
+  "tmp_dry_usb_fader_taps_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "Fender::Tone Master Pro",
+    "source": "https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual",
+    "revision": "Manufacturer firmware1.5 manual pp36–37; host FAQ excluded; current1.8 equivalence untested",
+    "canonical": "brand/FENDER.md#tone-master-pro--dry-usb-prepost-fader-boundary",
+    "finding": "Dry USB3/4 PRE(default) ignores corresponding faders; POST follows them. Reamp outgoing dry3/4 disabled. No global analog EXP-volume assignment inferred.",
+    "remaining": [
+      "Current1.8 equivalence",
+      "Exact fader/pedal/master relationships",
+      "Full current GuideH category census",
+      "Global volume output/tail/looper coverage"
+    ],
+    "market": "Shopee results repeat recorded GH andSeven hardware;SweeLeeEU/UK direct opens failed;no refreshed offer orstock claim.",
+    "inventory_count_unchanged": 402,
+    "next": "Continue accessible requested separate-footdisplay technical/market gaps; preserve independent GT-Pro andexpression-volume queues."
   }
 }
