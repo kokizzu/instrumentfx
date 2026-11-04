@@ -159637,5 +159637,20 @@
       "USB mode channels,13/15 counting basis,global FV precedence andqualified IDR remain unresolved"
     ],
     "inventory_count_unchanged": 402
+  },
+  "fm9_system_reset_layout_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9--system-reset-versus-preset-erasure",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "revision": "August2022 firmware3.x Original/Turbo,printedpp73,101",
+    "finding": "Reset System Parameters preserves presets but clears all footswitch layouts;Clear All Presets andfactory layout restoration are separate operations.",
+    "qualifications": [
+      "Current MKII/12.0 equivalence unverified",
+      "No reset,download ordevice operation",
+      "IR/reset coverage andautomatic backup availability unresolved"
+    ],
+    "market": "Fresh exactShopee search repeatedHurtrock11170212/25331147281 Rp44.395.000,last-monthsnapshot;no newprice orstock claim.",
+    "inventory_changed": false,
+    "next": "Continue individual-LCD model gaps andqualifiedShopee discovery;preserve independentGT-Pro andexpression-volume queues."
   }
 }

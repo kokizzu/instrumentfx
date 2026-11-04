@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(boss): document GT-Pro selective restoration scope'
+        message='research(fractal): document FM9 system reset layout loss'
     print(git('commit','-m',message))
