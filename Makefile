@@ -2425,3 +2425,7 @@ metadata-stage:
 .PHONY: metadata-history-preservation-plan
 metadata-history-preservation-plan:
 	python3 scripts/metadata_consolidation.py plan-history
+
+.PHONY: metadata-history-source-plan
+metadata-history-source-plan:
+	python3 scripts/metadata_consolidation.py plan-history-source

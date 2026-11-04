@@ -238,22 +238,37 @@ def verified_history_entries(state):
     return verified
 
 
-def plan_history_preservation():
+def history_preservation_rows(pending, all_current_source=False):
+    eligible = [row for row in pending if row['source'] in SOURCES]
+    assert eligible, 'No pending Markdown metadata revisions'
+    first = eligible[0]
+    return ([row for row in eligible if row['source'] == first['source']]
+            if all_current_source else [first])
+
+
+def plan_history_preservation(all_current_source=False):
     research_tools.identity()
     state = json.loads((ROOT/'research-state.json').read_text())
     pending = state['migration']['metadata_source_history_audit_20261104']['pending']
-    row = next(row for row in pending if row['source'] in SOURCES)
-    body = research_tools.git('cat-file', '-p', row['blob'])
-    assert digest(body) == row['sha256']
-    entry = dict(kind='historical-metadata-markdown-v1', **row, historical=True, not_active_instructions=True,
-                 content=parse_source(row['source'], body),
-                 qualification='Historical source wording, counts, coverage and queues; current root inventory, ownership corrections and cursors take precedence. No new purchase verification or active model admission.')
-    verify_history_entry(entry, body)
-    payload = dict(head=research_tools.git('rev-parse','HEAD').strip(), ledger_sha256=digest((ROOT/'research-state.json').read_text()), entry=entry)
+    entries = []
+    for row in history_preservation_rows(pending, all_current_source):
+        body = research_tools.git('cat-file', '-p', row['blob'])
+        assert digest(body) == row['sha256']
+        entry = dict(kind='historical-metadata-markdown-v1', **row, historical=True, not_active_instructions=True,
+                     content=parse_source(row['source'], body),
+                     qualification='Historical source wording, counts, coverage and queues; current root inventory, ownership corrections and cursors take precedence. No new purchase verification or active model admission.')
+        verify_history_entry(entry, body)
+        entries.append(entry)
+    payload = dict(head=research_tools.git('rev-parse','HEAD').strip(), ledger_sha256=digest((ROOT/'research-state.json').read_text()))
+    if all_current_source:
+        payload['entries'] = entries
+    else:
+        payload['entry'] = entries[0]
     target = Path('/tmp/instrumentfx-metadata-history-preservation-plan.json')
     target.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n')
-    print(json.dumps(dict(source=row['source'], blob=row['blob'], blocks=len(entry['content']['blocks']), nonblank_lines=entry['content']['nonblank_lines']), indent=2))
-    print('Review complete source and ' + str(target) + '; no repository sources modified.')
+    for entry in entries:
+        print(json.dumps(dict(source=entry['source'], blob=entry['blob'], blocks=len(entry['content']['blocks']), nonblank_lines=entry['content']['nonblank_lines']), indent=2))
+    print('Review every complete source and ' + str(target) + '; no repository sources modified.')
 
 
 def history_blobs(raw, path):
@@ -277,6 +292,15 @@ def history_status(body, preserved, redirects, aliases=()):
 
 
 def test_history():
+    pending = [dict(source=SOURCES[0], blob='a'), dict(source=SOURCES[1], blob='b'), dict(source=SOURCES[0], blob='c'), dict(source=JSON_SOURCES[0], blob='d')]
+    assert [r['blob'] for r in history_preservation_rows(pending)] == ['a']
+    assert [r['blob'] for r in history_preservation_rows(pending, True)] == ['a', 'c'], 'Mixed source groups or JSON into Markdown plan'
+    try:
+        history_preservation_rows([pending[-1]], True)
+    except AssertionError:
+        pass
+    else:
+        raise AssertionError('JSON-only queue accepted as Markdown')
     a, b, zero = 'a' * 40, 'b' * 40, '0' * 40
     path = 'effects/SCOPE.md'
     raw = (f':100644 100644 {a} {b} M\t{path}\n'
@@ -391,7 +415,7 @@ def commit(stage=False):
         assert review['head'] == research_tools.git('rev-parse','HEAD').strip()
         assert review['sha256'] == digest(research_tools.git('diff','--cached'))
         assert not research_tools.git('diff','--cached','--check').strip()
-        print(research_tools.git('commit','-m','audit: preserve historical coverage and scope qualifications'))
+        print(research_tools.git('commit','-m','audit: preserve historical README membership and navigation revisions'))
 
 if __name__ == '__main__':
-    {'plan':plan,'apply':apply,'verify':verify,'commit':commit,'stage':lambda:commit(stage=True),'audit-history':audit_history,'test-history':test_history,'plan-history':plan_history_preservation}[sys.argv[1]]()
+    {'plan':plan,'apply':apply,'verify':verify,'commit':commit,'stage':lambda:commit(stage=True),'audit-history':audit_history,'test-history':test_history,'plan-history':plan_history_preservation,'plan-history-source':lambda:plan_history_preservation(True)}[sys.argv[1]]()
