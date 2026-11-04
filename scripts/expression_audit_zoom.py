@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(tc-electronic): qualify X5 TonePrint tempo recall'
+        message='research(zoom): distinguish G11 post-V2 lo-fi and dynamic delay effects'
     print(git('commit','-m',message))

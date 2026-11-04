@@ -5271,6 +5271,18 @@ Checked **2026-11-04**, [manufacturer V2 operation manual](https://zoomcorp.com/
 |---|---|
 | USB audio / computer-return destinations | **V2 pp89,91:** four computer-return channels split into **two before effect processing and two after it**. Recording independently sends two pre-effect and two post-effect channels. This distinguishes reamp input from post-effect computer-playback destinations; it is not four equivalent effect-chain inputs or four physical instrument inputs. DAW channel numbering, AUX/rhythm/loop inclusion and exact master/expression attenuation coverage are not established by these paragraphs. The p7 diagram is referenced, but its arrows were not visually inspected. |
 
+### G11 — post-V2 BitCrush and DynaDelay behavior
+
+Checked **2026-11-05** in exact manufacturer effect pages,each explicitly listing **G11 compatibility**. [News index](https://zoomcorp.com/en/guitarlab-news/) dates BitCrush20February2026 andDynaDelay18March2026;the retained product-page April label remains a source-date difference. Installed content,minimum firmware andnumeric parameter ranges are unverified.
+
+| Field | Practical capability / limit |
+|---|---|
+| Categories / BitCrush special processing | [Exact effect page](https://zoomcorp.com/en/guitarlab-news/bitcrush/): reduces sampling frequency anddigital resolution toproduce lo-fi distortion. Its one-knob description concerns theeffect’s control,not a new physical G11 knob,converter specification ortracking synth. |
+| Categories / DynaDelay special processing | [Exact effect page](https://zoomcorp.com/en/guitarlab-news/dynadelay/): input intensity controls repeat level. Ducking reduces repeats during playing andraises them during pauses/sustains;gate-delay behavior instead cuts repeats when input stops. This is not time stretching,pitch tracking orunconditional preset spillover. |
+| Software / availability scope | Both pages describe automatic delivery to **Effect Pool**. The separate Guitar Lab device-load step remains required evidence forinstallation;no new261+3 total,simultaneous-slot allowance orfactory-fill claim. |
+
+Fresh Shopee retrieval repeats the already-recorded348182890/4967175901 voucher askRp10.635.599,two-month cache. The storefront search separately exposesRp10.898.207 without a newly verified item/variation-price pairing;not adopted as a new condition-qualified offer. No local download,installation ordevice operation.
+
 <!-- comparison evidence ends -->
 
 ### G11 — independent historical control-count corroboration
