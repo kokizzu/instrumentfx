@@ -2592,6 +2592,14 @@ Checked **2026-11-04**, indexed original [manufacturer owner manual,printedpp70�
 
 The manual warns that assigning either virtual source to tuner/manual on-off orpatch-number/bank increment/decrement can prevent parameter editing;it describes overwriting/saving as the recovery. No such assignment was made. Automatic sweeps/cycles are distinct from tracked synthesis anddirect analog global-volume assignment;fixedSYSTEM FVrange/coverage remains unresolved. No download ordevice operation.
 
+### GT-Pro — dated Japanese service lifecycle
+
+Checked **2026-11-04** against [BOSS Japan’s model-specific repair/support table](https://www.boss.info/jp/support/service_repair/1708080000/),explicitly current **October2026**. Its exact **GT-PRO** row lists **launch2005,production completion2010**,andrepair status **×**. The page defines×as **factory repair intake ended**,not merely awaiting parts. The row’s **six-year performance-parts retention period** is a service-policy field afterproduction completion,not a new six-year warranty orparts-stock guarantee.
+
+This qualifies the discontinued-model record with a dated manufacturer source. It doesnot prove Indonesian service arrangements,third-party repair impossibility,used-unit condition orthe availability ofaparticular replacement part. No repair quote,service request orseller contact wasmade. The listed elapsed time is not extrapolated beyond the table’s date.
+
+ExactShopeeIndonesia search still yielded no qualified GT-Pro hardware offer. GlobalFV precedence,other USB-mode channel counts,13/15effect-count reconciliation andpanel-image corroboration remain unresolved. Continue other accessible priority-model work whilepreserving this independent general cursor;no download ordevice operation.
+
 ## GX-1
 
 Consolidated and refreshed **2026-10-16**; partial verification. This is GX-1, not GX-1B. Full original facts and observation dates remain below. Historical next-model notes are provenance; current work is in research-state.json.

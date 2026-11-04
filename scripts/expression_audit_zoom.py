@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(headrush): qualify Prime alternate input and control outputs'
+        message='research(boss): document dated GT-Pro Japanese service lifecycle'
     print(git('commit','-m',message))
