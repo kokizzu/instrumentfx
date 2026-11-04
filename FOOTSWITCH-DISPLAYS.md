@@ -205,3 +205,5 @@ AXOM MAX [developer1.9 processing/tuner qualifications](brand/MELOFTY.md#axom-ma
 FM9 MKII Turbo [historical layout-view qualification](brand/FRACTAL-AUDIO.md#fm9-mkii-turbo--historical-layout-views-and-stand-in-pointers): the Original/Turbo3.x guide distinguishes12 definitions fromnine visible switches;View2 exposes the otherthree,with a fixed return. Stand-In pointers extend action access without extra screens;current MKII equivalence remains unverified.
 
 Helix Stadium XL: [FS6 return and Combo restrictions](brand/LINE6.md#stadium-xl--mode-return-and-combo-layout-restrictions) qualify the individual-strip layout: Transport cannot occupy Combo, and automatic preset return depends on the configured FS6 modes.
+
+PLETHORA X3 [immediate tap andencoder BPM adjustment](brand/TC-ELECTRONIC.md#plethora-x3--immediate-tap-and-encoder-bpm-adjustment) arefirmware1.4.3 live controls;they do not addLCDs orresolve currentfoot-operated Board-navigation mapping.

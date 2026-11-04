@@ -165821,5 +165821,20 @@
     },
     "next": "Continue exact manufacturer field/market gaps;individual-footdisplay priority preserved. TANKMINI currentfirmware/import formats andcondition-specific prices remainunverified.",
     "active_inventory_unchanged": 402
+  },
+  "px3_immediate_tap_encoder_20261105": {
+    "checked": "2026-11-05",
+    "model": "TC Electronic::PLETHORA X3",
+    "source": "https://cdn-media.empowertribe.com/de6f97186ddb4d5d9a494639112a03ea/Plethora_X5_X3_Release_notes_FW_v1_4_3.pdf",
+    "revision": "1.4.3 October19,2023 PDF2–3 explicitlyX5/X3",
+    "finding": "Tap/Tuner immediate taps;hold tuner;eitherencoderfineadjustslastBPM",
+    "remaining": [
+      "Numeric range/step",
+      "Utility resourceallocation",
+      "AcrossBoard/power tempo retention",
+      "Currentinstalledbehavior"
+    ],
+    "next": "Continue individual-footdisplay modeltechnical/market gaps;retain GT-Pro,expression-volume andgeneral queues",
+    "active_inventory_unchanged": 402
   }
 }
