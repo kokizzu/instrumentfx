@@ -154569,10 +154569,10 @@
         "key": "Zoom::G5",
         "canonical": "brand/ZOOM.md#g5",
         "synth": "MonoSynth",
-        "pitch": "See retained effect list",
+        "pitch": "MonoPitch single-note;HPS key/scale;other choices retained",
         "instrument": "Aco.Sim; Z-Organ",
-        "qualification": "Reproduced manual numbering; library count conflict retained",
-        "evidence_basis": "Existing canonical record and retained dated manufacturer evidence; not freshly reverified for this index."
+        "qualification": "Original indexed082/083/089/090;Speed ispitchsmoothness;library conflict retained",
+        "evidence_basis": "Focused indexed manufacturer original parameters2026-11-04;fullPDF reader size limit;notfullfresh audit"
       },
       {
         "key": "Zoom::B3",
@@ -163130,6 +163130,23 @@
       "Installedfirmware/trackingquality",
       "Screen/controlvisualverification",
       "QualifiedcurrentShopeeoffers"
+    ],
+    "creative_index_unchanged": 64,
+    "inventory_changed": false,
+    "independent_queues_preserved": true
+  },
+  "g5_indexed_creative_checkpoint_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://zoomcorp.com/media/documents/G5_operationManual_english.pdf",
+    "scope": "Indexed originalentries082–083,089–090;full40MBPDF reader limit",
+    "canonical": "brand/ZOOM.md#g5--original-indexed-pitch-and-synth-distinctions",
+    "finding": "MonoPitch/HPS andMonoSynth Speed/voice distinctions",
+    "remaining": [
+      "Libraryeditioncountconflict",
+      "Unspecifiedalgorithmchordhandling",
+      "Currentinstalledfirmware",
+      "Display/controlvisualgaps",
+      "QualifiedShopeeoffers"
     ],
     "creative_index_unchanged": 64,
     "inventory_changed": false,
