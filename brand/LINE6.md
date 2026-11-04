@@ -844,6 +844,15 @@ Checked **2026-11-04** in the [live manufacturer Loopers chapter](https://manual
 
 Existing duration,DSP,matching-model/path and power-off clearing limits remain. No loop recorded or deleted,no local download ordevice operation. Primary voltage/frequency/draw specifications remain unresolved;retailer power claims are not substituted.
 
+### Stadium XL — independent output EQ and reset boundary
+
+Checked **2026-11-04** against the [manufacturer live Global EQ chapter](https://manuals.line6.com/en/helix-stadium/live/global-eq), whose navigation identifies **v1.4 Rev D_v1.3 Rev B - v1.2**; this chapter label is distinct from the separately recorded landing-footer and firmware versions. No installed-hardware test.
+
+| Field | Verified scope |
+|---|---|
+| Processing / independent output EQ | **Live 1.4 reference:** independent Global EQ for quarter-inch, XLR and Phones, including when outputs are linked. EQ can be copied between outputs; linking does not establish identical EQ. This is output equalization, not a global analog-expression volume assignment. |
+| Processing / EQ reset and bypass | **Live 1.4 reference:** Reset EQ leaves Low Cut and High Cut active; bypass the selected output EQ to remove all its EQ processing. Individual cut, shelf and parametric-band enable controls are separate. Coverage of USB, S/PDIF, returns, tails and loop playback is not established by this chapter alone. |
+
 <!-- comparison evidence ends -->
 
 Recheck2026-10-31: the original Denpasar offer remainsRp41.220.000, but search reports a six-day crawl/delivery29October–1November while direct reopening returns three-month-old text/delivery18July. These are conflicting snapshots,not verified current stock; the original dated observations above remain intact.
@@ -985,6 +994,7 @@ Checked **2026-11-04** in the [manufacturer live Bypass/Controller chapter](http
 Assign one or more parameters from any blocks to the touchscreen X and/or Y axes. **Rubber Band is on by default:** lifting the finger returns the node to its original position; Rubber Band Time sets the return duration. With Rubber Band off, it remains where released. Sidebar X/Y positions span0–100; optional Command Center axis messages show MIDI CC0–127. Those scales do not specify parameter units or physical pedal endpoints.
 
 Focus view instead edits five sound zones of one block. XY assignments do not add effect blocks, establish synth tracking or assign analog expression volume across all presets. Power voltage/frequency/draw remain primary-unverified; no local download,connection ordevice operation.
+
 
 ## HX Effects
 

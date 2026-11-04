@@ -141144,6 +141144,15 @@
         "condition": "unverified",
         "access": "Four-month-old indexed snapshot; service unavailable; direct cache miss.",
         "existing_offer_conflict": "Denpasar search recent delivery versus direct July snapshot; neither confirms stock."
+      },
+      "output_eq_followup": {
+        "checked": "2026-11-04",
+        "source": "https://manuals.line6.com/en/helix-stadium/live/global-eq",
+        "revision": "Chapter navigation v1.4 Rev D_v1.3 Rev B - v1.2; distinct from landing footer and current firmware",
+        "finding": "Independent quarter-inch/XLR/Phones EQ even with linked outputs; Reset leaves cuts active, bypass removes EQ.",
+        "remaining": "USB/SPDIF/returns/tail/loop coverage and global analog-volume assignment not established here; power label, OLED specifications and qualified Shopee stock remain open.",
+        "next": "Continue requested individual-foot-display model gaps and exact Shopee hardware evidence; preserve expression and general GT-Pro queues.",
+        "inventory_changed": false
       }
     },
     "morningstar_mc6pro": {
