@@ -163585,5 +163585,12 @@
     "finding": "3.2 retains Bluetooth/USB Audio On settings across power cycles; included3.1.2 history warns clones created/imported there are incompatible with earlier firmware. Not current rollback certification orNAM transfer.",
     "next": "Continue remaining priority display-model gaps;defer unchanged Prime stock/OLED searches. GeneralGT-Pro andexpression queues preserved.",
     "active_count_unchanged": 402
+  },
+  "axom_usb_direction_conflict_20261104": {
+    "source": "https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347",
+    "revision": "ManufacturerGermanV1.7.4,PDFpp36–39",
+    "finding": "USB7/8 input and reamp sections permit chain input,while output paragraph says cannot be input when describing dryA/B DAWrecording. Internalwording conflict retained;AudioMixer Bluetooth/USBlevels not globalEXPproof.",
+    "next": "Defer unchanged maker-site/EnglishPDF/OLED/market failures;continue other prioritymodel gaps andgeneralGT-Pro queue. AXOM remainspartial outside402.",
+    "active_count_unchanged": 402
   }
 }

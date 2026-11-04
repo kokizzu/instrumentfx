@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(tc-electronic): qualify G-System Vyzor host and save scope'
+        message='research(melofty): preserve AXOM USB direction source conflict'
     print(git('commit','-m',message))
