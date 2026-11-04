@@ -163026,5 +163026,35 @@
     ],
     "independent_queues_preserved": true,
     "inventory_changed": false
+  },
+  "fm9_original_usb_software_checkpoint_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://www.fractalaudio.com/fm9-downloads/",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-original--current-usb-driver-and-separate-usb-firmware",
+    "driver": {
+      "version": "6.16",
+      "date": "2026-06-10",
+      "os": "Windows10+",
+      "architectures": [
+        "x86",
+        "x64",
+        "ARM"
+      ],
+      "legacy": "Windows7/8 driver5.12"
+    },
+    "usb_firmware": {
+      "version": "1.04",
+      "date": "2023-06-02",
+      "scope": "Internal hardware revision;not required when1.03 already installed"
+    },
+    "qualification": "Main firmware,USB firmware,driver andeditor version scopes separate;no device orsoftware operations",
+    "remaining": [
+      "Mini LCD dimensions/resolution",
+      "Current exact algorithm census",
+      "Global EXP USB/phones/bypass/loop coverage",
+      "Revision/condition-qualified Shopee hardware offers"
+    ],
+    "inventory_changed": false,
+    "independent_queues_preserved": true
   }
 }
