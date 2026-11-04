@@ -163056,5 +163056,22 @@
     ],
     "inventory_changed": false,
     "independent_queues_preserved": true
+  },
+  "gtpro_monitor_scope_checkpoint_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+    "revision": "Original owner manual printed90,indexed manufacturer body",
+    "canonical": "brand/BOSS.md#gt-pro--direct-monitor-switch-versus-volume-control",
+    "finding": "USB Dir Monitor gates effect-sound monitoring atPHONES/MAIN/SUB;USB Monitor Cmd controls external-command permission",
+    "qualification": "Not globalEXP assignment;power-cycle recall notestablished;noGT10/GT100inheritance",
+    "remaining": [
+      "GlobalFV enable/range precedence",
+      "OtherUSB-modechannelcounts",
+      "13vs15countbasis",
+      "QualifiedShopee hardware",
+      "Visualcontrolcount"
+    ],
+    "inventory_changed": false,
+    "independent_queues_preserved": true
   }
 }
