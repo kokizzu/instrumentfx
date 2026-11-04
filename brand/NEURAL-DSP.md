@@ -305,6 +305,15 @@ Checked **2026-11-04** in the [manufacturer NanOS 2.2.0 HTML manual](https://neu
 
 Across-preset analog volume, the conflicting LEVEL target lists and recording channel2 remain unresolved. The linked USB-matrix SVG was not inspectable with available web tools; no channel assignment inferred. No local download, app operation or device connection.
 
+### Nano Cortex — factory reset content boundary
+
+Checked **2026-11-04**, [manufacturer NanOS2.2.0 manual](https://neuraldsp.com/manual/nano-cortex), Factory Reset and Device Settings sections. This is documented maintenance behavior,not a reset test orlatest-firmware certification.
+
+| Field | Documented scope / qualification |
+|---|---|
+| Memory / factory reset | **NanOS2.2.0 reference:** factory reset removes all user content, explicitly **Neural Captures,presets andimpulse responses**, andcannot be undone. It is not simply a global-settings reset orselective preset cleanup. Exact post-reset factory filling,cloud-backup/account deletion andfirmware rollback are not established by this section. The separately recorded cloud restore overwrites device content/settings;backup existence andsuccessful restoration were not tested. No reset,restore,download ordevice operation performed. |
+
+
 ## Quad Cortex
 
 Partial record checked **2026-10-17**. Full Quad Cortex,distinct from Nano Cortex andQuad Cortex mini. Product page advertises CorOS4.1.0;current web manual identifies4.1.1. Seller firmware unverified.
