@@ -161691,5 +161691,29 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue accessible display-priority orremainingno-treadleprofilegaps;preserveindependentGTPro/general,expressionandconsolidationqueues."
+  },
+  "gtpro_stereo_branch_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "BOSS::GT-Pro",
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+      "https://support.roland.com/hc/ja/articles/4404525989915"
+    ],
+    "revision": "Original owner manual printed52;support updated2022-01-18",
+    "resolved": [
+      "Stereo1 stereo send/stereo return;Stereo2 mono send/stereo return",
+      "BranchOut ignores return;not inherently rawDI",
+      "Support wetdry example taps before delay/reverb,unlike ambiguous English manual phrase"
+    ],
+    "remaining": [
+      "Global FV precedence/endpoints/coverage",
+      "13vs15 count basis",
+      "Other USB mode channels",
+      "Visual control corroboration",
+      "Qualified exactShopee hardware"
+    ],
+    "market": "Exact search returned unrelated phone/disc products;no hardware price/stock established",
+    "active_inventory_unchanged": 402,
+    "next": "Continue display-priority accessible evidence;preserve GT-Pro/general,expression andlegacy consolidation queues"
   }
 }
