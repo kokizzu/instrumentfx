@@ -6222,6 +6222,7 @@ Checked2026-10-17; partial. [Official English manual][R1K-M],16pages,RFX-1000-50
 | Display | Level/power LEDs; published screen diagonal/color/touch unestablished. |
 | Processing / choices | **33 effect selections,3 banks×11**,one selection active. EFFECTS has7 single+4 dual combinations;vocoder adds distortion+chorus in some variations. Not33 simultaneous blocks;global maximum concurrency unverified. |
 | Presets | **363 selector combinations=33×11variations**,not363 editable memories. User-memory support unestablished. |
+| Pitch / note handling | [Original p12](#rfx-1000--pitch-intervals-and-additional-exact-hardware-offer): discrete detune/interval choices through ±1octave; direction separate. Stereo is audio-channel scope; chord handling unverified. |
 | Synth / acoustic | Vocoder uses external synthesizer at INPUT L,voice control via MIC IN;not proof of internal synthesizer. Acoustic conversion unknown. |
 | Dimensions / weight | **482W×44H×115Dmm;1.5kg**. |
 | I/O | Mono quarter-inch L/MONO,R inputs;L/R outputs;front dynamic-mic input;BYPASS;power. USB/MIDI/headphones/phantom unestablished. |
@@ -6229,6 +6230,7 @@ Checked2026-10-17; partial. [Official English manual][R1K-M],16pages,RFX-1000-50
 | Editor / platforms | Editor,driver/updater and supported OS unknown. |
 | IR / NAM / captures | User IR,native/converted NAM,captures unknown. |
 | Looper / drums / live | Looper/drums/scenes unknown. |
+| IDR / additional exact ask | [Original 2nd40348241/54115999750](#rfx-1000--pitch-intervals-and-additional-exact-hardware-offer): Rp900,000,Habis,last-week cache checked2026-11-04; condition and bundle unknown. Shop name does not establish used condition. |
 | Instrument scope | Guitar requires preamp/effect first;dynamic microphone supported. Guitar/vocal shared inclusion; bass unclassified. |
 
 Manual pp2–4,15. Text-only review;no download or visual claim.
@@ -6274,6 +6276,12 @@ Checked2026-10-18 against [own manual,pp2,6,15][R1K-M] and the separate seller i
 Checked 2026-10-28 against [own manufacturer manual RFX-1000-5000][R1K-M], panel inventory pp2–3 and specifications p15. **No analog EXP input, no dedicated headphone socket** in the complete inventory; BYPASS accepts **FS01 for effects on/off only**. This resolves the earlier continuous-EXP/headphone uncertainty for the documented physical connections. Ordinary guitar pickups require a preamp or guitar effect first. **482W×115Dmm** fails preferred width; no onboard footswitches provide preset down/up. Hand-operated bank/type/variation selectors remain separate.
 
 Physical OUTPUT adjusts output level; MIX blends dry/wet. Neither supplies external continuous expression assignment. Direct-EXP position, endpoints and recall are inapplicable to this connector inventory. Bypass topology, tail attenuation and looper coverage are not established by FS01 switching. Preserve all older model-specific power and sold-out/condition-unverified asks; no new stock verification, local download or device operation.
+
+### RFX-1000 — pitch intervals and additional exact hardware offer
+
+Checked **2026-11-04**, [manufacturer original RFX-1000-5000 manual,printedp12][R1K-M]. PITCH adds shifted audio to dry; VARIATION selects **7,20,100,200,300,400,500,700,900,1100,1200cents**, with ADJUST choosing up/down. These are discrete intervals,not scale/key harmony. Stereo channels do not establish chord tracking; latency/polyphony remain unverified. Pitch occupies its own effect selection,not an independent add-on to every bank choice.
+
+[Original 2nd,shop40348241/item54115999750](https://shopee.co.id/ZOOM-RFX-1000-Digital-Reverb-Multi-Effects-Processor-Audio-i.40348241.54115999750),Kab.Tangerang: **Rp900,000,Habis**, directly readable **last-week cache**. “Original 2nd” is the shop name,not verified item condition. Stale26–29October delivery andlate-arrival voucher up toRp10,000 do not establish stock ordiscount the ask. New/used condition,working state,adapter,bundle,variant,warranty/import region,shipping/tax andcheckout total remain unknown. Separate from retained older offers;no purchase orseller contact.
 
 ## RFX-1100
 

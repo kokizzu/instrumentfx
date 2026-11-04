@@ -154961,6 +154961,15 @@
         "instrument": "Dedicated acoustic simulation unverified",
         "qualification": "Rev E pitched repeats are not a tracking arpeggiator; route-dependent controls",
         "evidence_basis": "Focused manufacturer manual pp28–29; existing record, not full fresh audit"
+      },
+      {
+        "key": "Zoom::RFX-1000",
+        "canonical": "brand/ZOOM.md#rfx-1000",
+        "synth": "External-carrier vocoder distinct from internal synthesis",
+        "pitch": "Discrete intervals through ±1octave; chord handling unknown",
+        "instrument": "Retained Mic/Cabinet simulation; acoustic conversion unverified",
+        "qualification": "Original RFX-1000-5000 p12; one selected effect",
+        "evidence_basis": "Focused manufacturer pitch check, not full fresh audit"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -154983,112 +154992,117 @@
     "independent_queues_preserved": true,
     "additional_index_presentation": {
       "checked_date": "2026-11-04",
-      "records": 61,
-      "change": "Indexed existing active MX300 creative processing; membership unchanged.",
+      "records": 62,
+      "change": "Index existing active RFX-1000; membership unchanged",
       "previous": {
         "checked_date": "2026-11-04",
-        "records": 60,
-        "change": "Indexed existing active Bass V-AMP PRO; no inventory admission.",
+        "records": 61,
+        "change": "Indexed existing active MX300 creative processing; membership unchanged.",
         "previous": {
           "checked_date": "2026-11-04",
-          "records": 59,
-          "change": "Indexed existing active GE300 Lite with own acoustic/pitch evidence;membershipunchanged.",
+          "records": 60,
+          "change": "Indexed existing active Bass V-AMP PRO; no inventory admission.",
           "previous": {
             "checked_date": "2026-11-04",
-            "records": 58,
-            "change": "Indexed existing active GP-180 with own revision-qualified evidence;membershipunchanged.",
+            "records": 59,
+            "change": "Indexed existing active GE300 Lite with own acoustic/pitch evidence;membershipunchanged.",
             "previous": {
               "checked_date": "2026-11-04",
-              "records": 57,
-              "change": "Indexed existing active GP-150 with revision-qualified creative evidence;membership unchanged.",
+              "records": 58,
+              "change": "Indexed existing active GP-180 with own revision-qualified evidence;membershipunchanged.",
               "previous": {
                 "checked_date": "2026-11-04",
-                "records": 56,
-                "change": "Indexed existing original FM9 creative evidence with its exact historical revision; no inventory membership change.",
+                "records": 57,
+                "change": "Indexed existing active GP-150 with revision-qualified creative evidence;membership unchanged.",
                 "previous": {
                   "checked_date": "2026-11-04",
-                  "records": 55,
-                  "change": "Indexed existing preMKII FM9 Turbo creative evidence;membership unchanged.",
+                  "records": 56,
+                  "change": "Indexed existing original FM9 creative evidence with its exact historical revision; no inventory membership change.",
                   "previous": {
                     "checked_date": "2026-11-04",
-                    "records": 54,
-                    "change": "Indexed existing active G3n creative evidence; no membership change.",
+                    "records": 55,
+                    "change": "Indexed existing preMKII FM9 Turbo creative evidence;membership unchanged.",
                     "previous": {
                       "checked_date": "2026-11-04",
-                      "records": 53,
-                      "change": "Indexed existing active G2X FOUR pedal/creative evidence;membership unchanged.",
+                      "records": 54,
+                      "change": "Indexed existing active G3n creative evidence; no membership change.",
                       "previous": {
                         "checked_date": "2026-11-04",
-                        "records": 52,
-                        "change": "Indexed existing active G2 FOUR creative algorithms;no inventorymembership change.",
+                        "records": 53,
+                        "change": "Indexed existing active G2X FOUR pedal/creative evidence;membership unchanged.",
                         "previous": {
                           "checked_date": "2026-11-04",
-                          "records": 51,
-                          "change": "Indexed existing active MG-50Li pitch/special choices;no inventory change.",
+                          "records": 52,
+                          "change": "Indexed existing active G2 FOUR creative algorithms;no inventorymembership change.",
                           "previous": {
                             "checked_date": "2026-11-04",
-                            "records": 50,
-                            "change": "Indexed existing active M13 creative capabilities;no inventory membership change.",
+                            "records": 51,
+                            "change": "Indexed existing active MG-50Li pitch/special choices;no inventory change.",
                             "previous": {
                               "checked_date": "2026-11-04",
-                              "records": 49,
-                              "change": "Indexed existing active Anagram;no membership change.",
+                              "records": 50,
+                              "change": "Indexed existing active M13 creative capabilities;no inventory membership change.",
                               "previous": {
                                 "checked_date": "2026-11-04",
-                                "records": 48,
-                                "change": "Indexed existing active Solis Ventus creative processing;no membership change.",
+                                "records": 49,
+                                "change": "Indexed existing active Anagram;no membership change.",
                                 "previous": {
                                   "checked_date": "2026-11-04",
-                                  "records": 47,
-                                  "change": "Indexed existing active GP-200JR creative algorithms;no membership change.",
+                                  "records": 48,
+                                  "change": "Indexed existing active Solis Ventus creative processing;no membership change.",
                                   "previous": {
                                     "checked_date": "2026-11-04",
-                                    "records": 46,
-                                    "change": "Indexed existing active NEURIG creative algorithms;no membership change.",
+                                    "records": 47,
+                                    "change": "Indexed existing active GP-200JR creative algorithms;no membership change.",
                                     "previous": {
                                       "checked_date": "2026-11-04",
-                                      "records": 45,
-                                      "change": "Indexed existing active Nano Cortex;no membership change.",
+                                      "records": 46,
+                                      "change": "Indexed existing active NEURIG creative algorithms;no membership change.",
                                       "previous": {
-                                        "checked_date": "2026-11-03",
-                                        "records": 44,
-                                        "change": "Indexed existing active G3Xn;membership unchanged.",
+                                        "checked_date": "2026-11-04",
+                                        "records": 45,
+                                        "change": "Indexed existing active Nano Cortex;no membership change.",
                                         "previous": {
                                           "checked_date": "2026-11-03",
-                                          "records": 43,
-                                          "change": "IndexedexistingactiveME90creativealgorithms;membershipunchanged.",
+                                          "records": 44,
+                                          "change": "Indexed existing active G3Xn;membership unchanged.",
                                           "previous": {
                                             "checked_date": "2026-11-03",
-                                            "records": 42,
-                                            "change": "IndexedexistingactiveG1Xon;pedalendpoint/notehandling distinctions;membershipunchanged.",
+                                            "records": 43,
+                                            "change": "IndexedexistingactiveME90creativealgorithms;membershipunchanged.",
                                             "previous": {
                                               "checked_date": "2026-11-03",
-                                              "records": 41,
-                                              "change": "IndexedexistingactiveG1oncreativeprocessing;membershipunchanged.",
+                                              "records": 42,
+                                              "change": "IndexedexistingactiveG1Xon;pedalendpoint/notehandling distinctions;membershipunchanged.",
                                               "previous": {
                                                 "checked_date": "2026-11-03",
-                                                "records": 40,
-                                                "change": "IndexedexistingactiveHelixLT;supersededqualifiedsynth/acousticunknown;membershipunchanged.",
+                                                "records": 41,
+                                                "change": "IndexedexistingactiveG1oncreativeprocessing;membershipunchanged.",
                                                 "previous": {
                                                   "checked_date": "2026-11-03",
-                                                  "records": 39,
-                                                  "change": "Indexed existingactiveAX3B;correctedmanualedition/resetattribution;membershipunchanged.",
+                                                  "records": 40,
+                                                  "change": "IndexedexistingactiveHelixLT;supersededqualifiedsynth/acousticunknown;membershipunchanged.",
                                                   "previous": {
                                                     "checked_date": "2026-11-03",
-                                                    "records": 38,
-                                                    "change": "Indexed existingactiveAX3000B;membershipunchanged;focusedcreativecheck.",
+                                                    "records": 39,
+                                                    "change": "Indexed existingactiveAX3B;correctedmanualedition/resetattribution;membershipunchanged.",
                                                     "previous": {
                                                       "checked_date": "2026-11-03",
-                                                      "records": 37,
-                                                      "change": "Indexed existingactiveAX1500G;noinventoryadmission orwholecatalogueaudit.",
+                                                      "records": 38,
+                                                      "change": "Indexed existingactiveAX3000B;membershipunchanged;focusedcreativecheck.",
                                                       "previous": {
                                                         "checked_date": "2026-11-03",
-                                                        "records": 36,
-                                                        "change": "Indexed existing active Stadium XL;not inventory admission orwhole-catalogue reaudit.",
+                                                        "records": 37,
+                                                        "change": "Indexed existingactiveAX1500G;noinventoryadmission orwholecatalogueaudit.",
                                                         "previous": {
                                                           "checked_date": "2026-11-03",
-                                                          "records": 33,
-                                                          "change": "Corrected stale 31-record introduction to 33 and removed blank lines splitting the additional-catalogue Markdown table. No technical claims, ownership, instrument membership or independent queues changed."
+                                                          "records": 36,
+                                                          "change": "Indexed existing active Stadium XL;not inventory admission orwhole-catalogue reaudit.",
+                                                          "previous": {
+                                                            "checked_date": "2026-11-03",
+                                                            "records": 33,
+                                                            "change": "Corrected stale 31-record introduction to 33 and removed blank lines splitting the additional-catalogue Markdown table. No technical claims, ownership, instrument membership or independent queues changed."
+                                                          }
                                                         }
                                                       }
                                                     }
@@ -162812,5 +162826,28 @@
       "Current firmware equivalence and full route coverage"
     ],
     "next": "Defer unchanged Black dimensions endpoints; continue another unresolved priority display/model profile. Preserve GT-Pro and expression queues."
+  },
+  "rfx1000_pitch_offer_20261104": {
+    "checked_date": "2026-11-04",
+    "canonical": "brand/ZOOM.md#rfx-1000--pitch-intervals-and-additional-exact-hardware-offer",
+    "source": "https://zoomcorp.com/media/documents/E_RFX1000.pdf",
+    "revision": "RFX-1000-5000 printed12",
+    "offer": {
+      "shop": "40348241",
+      "item": "54115999750",
+      "seller": "Original 2nd",
+      "region": "Kab.Tangerang",
+      "idr": 900000,
+      "stock": "Habis cached",
+      "cache_age": "last week",
+      "condition": "unknown"
+    },
+    "remaining": [
+      "Chord handling/latency",
+      "Condition-qualified current stock",
+      "Physical display/panel corroboration and complete power rating"
+    ],
+    "inventory_unchanged": 402,
+    "next": "Continue priority display gaps when new evidence exists; otherwise fresh exact Shopee/model discovery. Preserve GT-Pro/expression queues."
   }
 }
