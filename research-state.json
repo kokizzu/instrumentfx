@@ -167150,5 +167150,36 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue VG800 exactalgorithm andOSmatrix evidence;preserve displaypriority,GP200JR→Prime→GE300,GT-Pro andconsolidationqueues"
+  },
+  "boss_vg800_creative_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/BOSS.md#vg-800--synth-polyphony-versus-single-note-fx",
+    "source": "https://static.roland.com/assets/media/pdf/VG-800_parameter_eng01_W.pdf",
+    "revision": "eng01©2025pp4,14–18,22–27",
+    "synth": {
+      "polyphonic": [
+        "GR-300 GUITAR",
+        "ANALOG GR BASS"
+      ],
+      "other_note_handling_unknown": [
+        "SOLO",
+        "FILTER BASS",
+        "CRYSTAL",
+        "ORGAN"
+      ]
+    },
+    "pitch": "PerstringINSTHARMONY distinctfromsingle-noteFXHARMONIST;PitchShifterMONO/PedalBend single-note;octave/generalpitchpolyphonyunknown",
+    "special": "SOUNDHOLDsingle-note triggerwrittenOFF;Humanizer/LoFi/Slicer/SlowGear separateFXchoices",
+    "slots": "FX1–3 alternativechoices,notallconcurrent",
+    "remaining": [
+      "Completecategorycensus/concurrency",
+      "Firmwareequivalence",
+      "Globalvolumeoutputcoverage",
+      "ExactOSmatrix",
+      "QualifiedShopeecondition/stock"
+    ],
+    "active_inventory_unchanged": 402,
+    "additional_creative_records_unchanged": 69,
+    "next": "Continue VG800 OSmatrix andremainingprofilegaps;then resume displaypriority andgeneralqueue;preserve GP200JR→Prime→GE300,GT-Pro,expression andconsolidationqueues"
   }
 }

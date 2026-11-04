@@ -5872,3 +5872,17 @@ Checked **2026-11-05**,listing availability rather than installed firmware. [Sys
 [Tone Studio1.1.0 Windows](https://www.boss.info/global/support/by_product/vg-800/updates_drivers/0da39458-ba02-4835-94c0-fc2bd950b644/) and[Mac](https://www.boss.info/global/support/by_product/vg-800/updates_drivers/fee13637-22c1-49cb-8438-1e68e814d6b5/),July2026,**require firmware1.50 orlater andthe product driver**. They reduce memory-switch device-lock time andfix ASSIGN/GK SETTING display issues. Mac page explicitly supports Apple silicon andIntel;exact OS compatibility isdelegated tothe current matrix. [Windows driver1.0.0](https://www.boss.info/global/support/by_product/vg-800/updates_drivers/17742f94-e6a1-4cf4-acba-67f55088f734/) lists Windows10/11 andexcludes ARM,virtual Windows,Windows-on-Mac andWindows10Mobile. Mac driver1.0.0 islisted butits detail page timed out;OS restrictions remain unverified.
 
 [Official Japanese Tone Studio guide jpn01,©2025,p12](https://static.roland.com/assets/media/pdf/BTS_VG-800_jpn01_W.pdf): IR LOADER has **USER-1–USER-16**,accepts **WAV,44.1/48/96kHz,16/24-bit linear**,andconverts data forloading. IR names allow8single-byte characters. Import formats arenot proof ofinternal processing rate;length,sample limit andchannel restrictions remain unverified. Page14 savesSYSTEM data as **.syb**,forcurrent guitar/bass mode only;backup ofboth modes requires separate mode-specific operations. No backup,download,installation ordevice operation performed. NAM/capture remains unverified.
+
+### VG-800 — synth polyphony versus single-note FX
+
+[Parameter Guide eng01,©2025,pp4,14–18,22–27](https://static.roland.com/assets/media/pdf/VG-800_parameter_eng01_W.pdf),checked2026-11-05;installed/current-firmware equivalence remains unverified:
+
+| Capability | Exact distinction |
+|---|---|
+| SYNTH | GR-300:guitar mode;ANALOG GR:bass mode;both explicitly polyphonic. Other names:SOLO,FILTER BASS,CRYSTAL,ORGAN;their input-note polyphony isunverified. Retain Serial GK modeling requirement. |
+| Harmony | INST alternate-tuning HARMONY analyzes each string. FX HARMONIST instead requires single notes andmuting other strings;these are different processors. |
+| Pitch FX | PITCH SHIFTER±24semitones:MONO requires single notes;FAST/MEDIUM/SLOW chord support unverified. PEDAL BEND±24also requires single notes. OCTAVE/OCTAVE BASS addsone/two octaves down;chord handling unverified. |
+| Instrument processing | DEFRETTER/DEFRETTER BASS andSITAR SIM;AC RESONANCE processes acoustic-pickup sound,not proof ofelectric-to-acoustic conversion. INST acoustic models remain separate. |
+| Special | HUMANIZER vowel processing,LO-FI,SLICER andSLOW GEAR. SOUND HOLD requires single notes;its trigger iswritten OFF,not saved loop audio. FX1–FX3 arethree selectable slots,not simultaneous access toevery named effect. |
+
+No measured tracking/latency claim orownership inference;the partial record remains outside402.

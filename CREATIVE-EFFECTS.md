@@ -162,7 +162,7 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [BOSS GP-10](brand/BOSS.md#gp-10--partial-creative-discovery-lead) is a **partial lead outside active counts andthe additional-record index**. GR-300,OSC SYNTH andWAVE SYNTH use distinct synthesis approaches;[OSC Poly/Mono and24 named instrument models](brand/BOSS.md#gp-10--named-instrument-models-and-explicit-osc-poly-mode) are explicitly documented. [Pitch Shifter MONO requires single notes](brand/BOSS.md#gp-10--pitch-mode-restrictions-and-six-usb-routes);other pitch chord handling remains unverified. GK modeling andordinary-pickup amp/effects paths differ. Alternate tuning,12-string andString Bend cannot accompany SYNTH/POLY FX modeling inmanuale02.
 
-[BOSS VG-800](brand/BOSS.md#vg-800--partial-shopee-and-no-treadle-discovery) is a **partial lead outside active counts andthe additional-record index**. SerialGK modeling includes GR-300,VIO Guitar/Bass andstringed-instrument tones;documented chord-capable Harmony isnot proof all synths track chords.
+[BOSS VG-800](brand/BOSS.md#vg-800--partial-shopee-and-no-treadle-discovery) is a **partial lead outside active counts andthe additional-record index**. Its [exact parameter follow-up](brand/BOSS.md#vg-800--synth-polyphony-versus-single-note-fx) distinguishes polyphonic GR-300/ANALOG GR andstring-based Harmony fromsingle-note FX HARMONIST,PEDAL BEND andSOUND HOLD. Other synth/pitch chord handling remains unverified.
 
 ## What remains uncertain
 

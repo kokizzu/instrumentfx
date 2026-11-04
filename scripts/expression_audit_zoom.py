@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(boss): verify VG-800 firmware fixes and IR import formats'
+        message='research(boss): separate VG-800 synth polyphony and single-note effects'
     print(git('commit','-m',message))
