@@ -191,3 +191,5 @@ Tone Master Pro [compound-switch labels andshared settings](brand/FENDER.md#tone
 FM9 MKII Turbo [firmware11 mini-tuner clock warning](brand/FRACTAL-AUDIO.md#fm9-mkii-turbo--firmware11-pitch-filter-and-clock-warning-scope) concerns missing/non48kHz S/PDIF clock,not another physical strip orverified warning on every switch LCD.
 
 Prime [split alignment andoutput-gain limits](brand/HEADRUSH.md#prime--split-path-alignment-and-output-gain-boundaries) are audio-routing controls,separate from its twelve OLED strips andglobal analog-expression coverage.
+
+Stadium XL’s [IDR evidence](brand/LINE6.md#helix-stadium-xl-floor) now includes a separate Nafiri Rp36.64m sold-out indexed ask. It is historical unavailable retail evidence,not live stock orShopee pricing;older exact Shopee offers remain separately qualified.
