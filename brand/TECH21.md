@@ -224,6 +224,15 @@ Checked2026-10-18 against the exact [OM3 manufacturer manual,rev12/20][FR-M],pri
 | I/O / nominal input wording | Manufacturer describes normal instrument input as approximately **−10dBm /250mV**,with1MΩ loading andtube-amp-like sensitivity. Preserve its printed units;this is not a measured maximum input orreference-load reconciliation. |
 | Power / factory prong assemblies | Manual states the DC9 supply has **US prongs installed**,with **European,UK andAustralia/New Zealand** interchangeable assemblies included. This describes the manufacturer bundle,not confirmation that the cached Indonesian seller includes those parts. Existing9VDC/200mAminimum supply andapprox150mAmaximum consumption remain distinct. |
 
+### Fly Rig 5 v2 — qualified direct expression screen
+
+Checked2026-10-28 against [own OM3 manual,rev12/20](https://www.tech21nyc.com/t21manuals/FlyRig5_v2_OM3.pdf),Ins and Outs/Effect Loop. Ordinary guitar input is explicit. Documented connections are instrument input,quarter-inch output,XLR,Send/Return andpower;no EXP orheadphone connection is described. Full panel absence verification remains incomplete,so direct EXP/headphones stay **unverified**,not an inferred absolute No. Send/Return is audio,not controller input. Physical level hierarchy andoptional modified wah phantom power do not establish global volume assignment. Position/endpoints/recall,bypass/tail/recorded-loop attenuation andpreset down/up remain unknown. Published12.5×2.75inch footprint is317.5×69.85mm byconversion;fails preferred rectangle either orientation. No local download orhardware operation.
+
+| Field | Preserved2026-10-28 qualification |
+|---|---|
+| Expression / connector evidence boundary | Own OM3 text documents audioSend/Return,not an EXP connection. Full panel absence audit is incomplete;direct EXP stays unverified. Optional modified external-wah power doesnot establish internal parameter mapping orglobalvolume. |
+| I/O / headphone evidence boundary | No headphone connection established bythe inspected OM3 text;not a confirmed absolute absence. Footprint317.5×69.85mm isconverted,not measured. |
+
 ## RK5 — revision-unresolved hardware lead
 
 **Discovery evidence only; not an active model row orcount.** Checked2026-10-18.
@@ -237,7 +246,3 @@ Revision checks against exact primary records:
 - [Current RK5v3 product](https://www.tech21nyc.com/products/flyrig/rk5v3/): adds **pre/postboost,effectloop andpreconfigured phantompower forRK KillerWail**. This doesnot identify theShopee unit orauthorize assigning v3features toolderRK5.
 
 Keep offer family-qualified until a legible sellerpanel/rearlabel orrevision-explicit offer establishes exacthardware. Searches forShopee RK5v2,RK5 12V andAcousticFlyRig returned noadditional exact result;not proof ofabsence. No downloads orseller contact.
-
-### Fly Rig 5 v2 — qualified direct expression screen
-
-Checked2026-10-28 against [own OM3 manual,rev12/20](https://www.tech21nyc.com/t21manuals/FlyRig5_v2_OM3.pdf),Ins and Outs/Effect Loop. Ordinary guitar input is explicit. Documented connections are instrument input,quarter-inch output,XLR,Send/Return andpower;no EXP orheadphone connection is described. Full panel absence verification remains incomplete,so direct EXP/headphones stay **unverified**,not an inferred absolute No. Send/Return is audio,not controller input. Physical level hierarchy andoptional modified wah phantom power do not establish global volume assignment. Position/endpoints/recall,bypass/tail/recorded-loop attenuation andpreset down/up remain unknown. Published12.5×2.75inch footprint is317.5×69.85mm byconversion;fails preferred rectangle either orientation. No local download orhardware operation.

@@ -2492,3 +2492,7 @@ expression-audit-stage-behringer:
 .PHONY: expression-audit-stage-lexicon
 expression-audit-stage-lexicon:
 	python3 scripts/expression_audit_lexicon.py stage
+
+.PHONY: research-stage-tech21
+research-stage-tech21:
+	python3 scripts/tech21_catalogue.py stage
