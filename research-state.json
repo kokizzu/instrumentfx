@@ -166245,5 +166245,24 @@
     ],
     "next": "Independent general cursor continues HeadRush Prime then original GE300; preserve requested individual footswitch-display priority, expression-volume and GT-Pro queues",
     "active_inventory_unchanged": 402
+  },
+  "prime_loop_clock_fixes_20261105": {
+    "checked": "2026-11-05",
+    "model": "HeadRush::Prime",
+    "canonical": "brand/HEADRUSH.md#prime--bypassed-loop-latency-and-midi-clock-fixes",
+    "source": "https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Prime%20Firmware%20Update%20Instructions%20v5.2.0.pdf",
+    "revision": "Cumulative5.2.0 October2026; historical4.0 and4.1.1 entries printed10,6",
+    "findings": [
+      "4.0 removed artificial latency from bypassed FX Loop block",
+      "4.1.1 fixes start/record external-clock waiting when MIDI Clock Receive On and looper Global Tempo Sync Off",
+      "4.1.1 fixes first-layer-end gap with MIDI Clock Receive enabled"
+    ],
+    "remaining": [
+      "Measured latency and installed behavior",
+      "Current category census, numeric OLED properties and storage ceiling",
+      "Condition-qualified current Shopee offers"
+    ],
+    "next": "Original MOOER GE300 next in independent GP-200JR→Prime→GE300 queue; preserve requested footswitch-display, expression and GT-Pro priorities",
+    "active_inventory_unchanged": 402
   }
 }
