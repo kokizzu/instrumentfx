@@ -2514,3 +2514,9 @@ brand-sort-plan-line6:
 	python3 scripts/brand_sort.py plan brand/LINE6.md
 brand-sort-apply-line6:
 	python3 scripts/brand_sort.py apply brand/LINE6.md
+
+.PHONY: brand-sort-plan-morningstar brand-sort-apply-morningstar
+brand-sort-plan-morningstar:
+	python3 scripts/brand_sort.py plan brand/MORNINGSTAR.md
+brand-sort-apply-morningstar:
+	python3 scripts/brand_sort.py apply brand/MORNINGSTAR.md

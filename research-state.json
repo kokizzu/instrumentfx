@@ -165563,5 +165563,43 @@
     "active_inventory_unchanged": 402,
     "additional_catalogue_matches_unchanged": 66,
     "next": "Continue display-priority andcompact expression research;retain GT-Pro andGP-200JR→Prime→GE300 generalqueue"
+  },
+  "mc4pro_shared_screen_discovery_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/MORNINGSTAR.md#mc4-pro--shared-screen-controller-lead",
+    "sources": [
+      "https://www.morningstar.io/mc4-pro",
+      "https://help.morningstar.io/en/article/mc4-pro-user-manual-1p5o2cp/"
+    ],
+    "revision": "Manual updated24August2026;firmware unstated",
+    "classification": "Partial MIDIcontroller;one shared color LCD,four footswitches;outside individualdisplaymatches andaudioinventory",
+    "dimensions_mm": {
+      "width": 115,
+      "depth": 110,
+      "height": 52
+    },
+    "memory": {
+      "profiles": 8,
+      "banks_per_profile": 128,
+      "pages_per_bank": 4,
+      "switch_presets_per_page": 4,
+      "presets_per_profile": 2048
+    },
+    "power_conflict": "Base350mA;manual+100relay=450arithmetic vsproduct500mA relayminimum;not resolved",
+    "omniport_sizes": [
+      "1:6.35mm",
+      "2:3.5mm"
+    ],
+    "market": "ExactShopeeMC4PROquery:noqualifiedhardwareoffer;notabsenceproof;IDRunknown",
+    "remaining": [
+      "Displaypixels/diagonal/touch",
+      "Mass/fullphysicalcontrols",
+      "Powerconflict",
+      "EXPpinout andtoe",
+      "Firmware/OSminimums",
+      "Condition-qualified Shopee hardware"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue requested individualdisplayprocessor profiles first;retain expression,GT-Pro,general andconsolidationqueues"
   }
 }

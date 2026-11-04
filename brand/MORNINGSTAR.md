@@ -5,10 +5,28 @@
 <!-- brand-index begins -->
 **Model and section index — A–Z, natural numeric order**
 
+- [MC4 PRO — shared-screen controller lead](#mc4-pro--shared-screen-controller-lead)
 - [MC6 MKII — shared-screen controller lead](#mc6-mkii--shared-screen-controller-lead)
 - [MC6 PRO](#mc6-pro)
 - [MC8 PRO](#mc8-pro)
 <!-- brand-index ends -->
+
+## MC4 PRO — shared-screen controller lead
+
+Checked **2026-11-05**: [manufacturer product](https://www.morningstar.io/mc4-pro) and [own manual,updated24August2026](https://help.morningstar.io/en/article/mc4-pro-user-manual-1p5o2cp/). Exact firmware applicability unstated. **Controller only**,outside402active audio models andindividual-footswitch-screen matches;not an MC6/MC8 variant.
+
+| Field | Exact-model evidence / qualification |
+|---|---|
+| Display / controls | **One shared color LCD;four footswitches A–D**. Brightness30–100%,default70%. Diagonal,pixels,touch andcomplete knob/button census unverified. |
+| Chassis | **115W×110D×52H mm**,manufacturer axes;fits200W×140D preference as acontroller,not as audio multi-effects. Mass unverified. |
+| I/O | DIN MIDI Out;two3.5mm MIDI In,one3.5mm MIDI Out;USB-C Device/Host;twoOmniports (**1=quarter-inch,2=3.5mm**);one3.5mm relay;DC input. No guitar-audio processing established. |
+| Power / source conflict | **9–12V DC,center-negative,350mA minimum**,USB power;MIDI-Out pins6/7 accept9–12V AC/DC phantom. Manual adds100mA forrelay (**450mA arithmetic**);product instead specifies **500mA withrelay**. Unresolved,not interchangeable ratings;USB downstream demand isadditional. Battery unverified. |
+| Memory | **Eight isolated profiles**,each128banks×4pages×4presets=**2,048 switch presets**;twoexpression presets perbank separate. Not audio memories orcross-profile simultaneous access. |
+| Navigation | **B+D bankup,A+C bankdown;C+D pageup,A+B pagedown**. Holding scrolls. These control controller banks/pages,not guaranteed processor preset±. |
+| Expression / software | TwoOmniports accept EXP/aux/MIDI roles;analog pedal input becomes MIDI control,not audio attenuation. Pinout,processor-wide volume andtoe behavior unverified. Web editor Chrome/Opera/Brave;offline options,USB andBluetooth MIDI documented. Exact OS minima unverified. |
+| Indonesian hardware | Exact Shopee queries recoveredno qualified MC4 PRO hardware offer;not market-absence proof. New/used IDR,stock,condition,seller,bundle,warranty,voucher andcheckout remain unknown. Manufacturer USD shop ask isnot converted toIDR. |
+
+Preserve relay-current discrepancy;MC6/MC8 power,screen counts andoffers are not transferred. No software/manual download,device connection orMIDI operation.
 
 ## MC6 MKII — shared-screen controller lead
 

@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fractal): document original FM9 Resonator modes'
+        message='research(morningstar): add separate MC4 PRO shared-screen controller'
     print(git('commit','-m',message))
