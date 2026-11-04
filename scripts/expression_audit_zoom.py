@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(mooer): document GE300 preset filename collision limits'
+        message='research(headrush): document Pedalboard bypass oscillation boundaries'
     print(git('commit','-m',message))

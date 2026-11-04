@@ -167818,5 +167818,20 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Generalcycle resumes GP-200JR→Prime→originalGE300; individualfootdisplay priority andindependent GT-Pro/expression/consolidationqueues retained"
+  },
+  "pedalboard_special_bypass_20261105": {
+    "checked_date": "2026-11-05",
+    "source": "https://support.headrushfx.com/en/support/solutions/articles/69000801099-headrush-effect-and-control-list",
+    "canonical": "brand/HEADRUSH.md#pedalboard--special-processing-and-bypass-oscillation",
+    "revision": "Manufacturer article explicitly covers Pedalboard/Gigboard/MX5; exact firmware unstated; inherited Eleven Rack wording retained as qualification",
+    "finding": "Noise-assisted Tape Echo/BBD self-oscillation can continue bypassed; bit muting/inversion and envelope-delay routing distinguished from synthesis/polyphony",
+    "remaining": [
+      "Current installed firmware behavior",
+      "Complete current category census",
+      "Qualified exact Shopee new/used offers",
+      "User memory capacity and power consumption"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue individual footswitch-display model gaps and Shopee hardware; preserve independent expression, GT-Pro and GP-200JR→Prime→GE300 queues"
   }
 }

@@ -380,6 +380,7 @@ Checked **2026-10-17**. Original HeadRush Pedalboard, distinct from Prime and Gi
 | Category choices | Own website headings: **52 amps,15 cabs,10 mics;17 distortion,11 dynamics/EQ,22 modulation,13 reverb/delay,11 expression**. Comparison older50amps/67FX. Own2.7 notes include2.6 additions absent from website lists; installed current totals remain unresolved. [Product][PB-P], [Comparison][PB-C], [Firmware,p.2][PB-F] |
 | Categories / website versus release-note union | Recounted2026-11-03:[own exact-model page][PB-P] lists **52 amps,15 cabs,10 mics** and **74 effects=17 distortion+11 dynamics/EQ+22 modulation+13 reverb/delay+11 expression**. Own2.7 cumulative notes,p2,document five2.6 additions absent fromthose lists:**17 TRACE ELLIOT ELF;B2 DRIVE;DIM CHORUS;ACOUSTIC PRE;PARTY VERB**. Union gives **53 amps and78 effects**,with category choices18/12/23/14/11;not a verified installed census,concurrency orunique-DSP-engine count. [Own release notes][PB-F] |
 | Synth / pitch / special distinctions | The listed **SMART HARM,DETUNE,OCTAVES/OCTAVES UP,DROP TUNE,WHAM,HARM,CHORD WHAM** establish named pitch choices,not blanket polyphonic tracking. **RING MOD,8-BIT CRUSH,HOLD,RESO DELAY,FEEDBACK,TIME WARP** are special-processing choices. Acoustic Sim differs from2.6 Acoustic Pre. No dedicated oscillator synth isestablished bythese sources;Prime’s Hybrid Synth isnot transferred. [Own product][PB-P];[own history][PB-F] |
+| Synth / bypassed delay oscillation | [Manufacturer control guide](#pedalboard--special-processing-and-bypass-oscillation): Tape Echo/BBD Delay can self-oscillate with modeled noise and sufficient feedback, even bypassed; reduce feedback to stop the documented behavior. Not tracking synthesis. |
 | Routing / scene recall | [Own2.1.2 scene andoutput limits](#pedalboard--scene-parameter-recall-and-alternate-output-boundaries): scenes can load model presets;XLR/quarter-inch/phones independently selectRig/Alt. RigInput Alt bypasses ToAmpGain;globalEXPcoverage unverified. |
 | Factory / user memory | **270 factory presets**; total user storage and factory-filled versus writable capacity **?**. File backup Mac/PC. [FAQ][PB-Q] |
 | Synth / acoustic simulation | Acoustic Sim listed; independent synth engine **?**. Bass amps include66 Flip Bass/69 Blue Line Bass; these are models, not ownership proof. [Product][PB-P] |
@@ -457,6 +458,14 @@ The rig’s unsaved-change asterisk covers topology,model-preset andHardware Ass
 
 USB Transfer supports individual rig,setlist,model-preset,loop andIR files;folders andarchives are not transferable throughthis documented workflow. Changes to the exposed drive are immediate andcannot be cancelled. Eject before Sync;Sync then analyzes/imports files. This is file management,not a full editor orproof that a file copy preserves all global settings. Current2.7 equivalence remains untested. No files transferred,downloaded ordevice operated.
 
+
+### Pedalboard — special processing and bypass oscillation
+
+Checked **2026-11-05**, [manufacturer Effect and Control List](https://support.headrushfx.com/en/support/solutions/articles/69000801099-headrush-effect-and-control-list), explicitly covering Pedalboard, Gigboard and MX5. No exact firmware revision is supplied; current installed behavior remains untested.
+
+Tape Echo and BBD Delay can self-oscillate with Hiss/Noise enabled and sufficient feedback, **even bypassed**. The guide recommends reducing feedback. This is feedback-generated sound, not pitch-tracking synthesis or a guaranteed silent bypass. BBD Chorus mixes dry and delayed audio; Vibrato passes delayed audio only. **8-Bit Crush** permits individual bit muting/inversion; numerical parameter ranges are not established here. Dyn Delay envelope controls affect feedback and wet/dry mix; its Mono/Stereo/Cross/Pong modes describe routing, not input-note polyphony.
+
+The article retains Eleven Rack/Pro Tools wording despite its explicit HeadRush scope. Treat these as manufacturer-documented control descriptions, not a complete current library census or host-integration guarantee. Existing firmware, count and routing conflicts remain unchanged.
 
 ## Prime
 
