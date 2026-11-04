@@ -162099,5 +162099,22 @@
     "scope": "Three physical LCDs versus virtual views; explicit Layout7 MLM-return exception; placeholders and layout backup; connected FC independent",
     "next": "Current factory-layout equivalence, early headphone variants, exact-revision Shopee offers and mini-LCD specifications remain; continue another priority model if sources remain unavailable. Independent general GT-Pro cursor unchanged.",
     "inventory_changed": false
+  },
+  "gtpro_amp_control_routing_20261104": {
+    "model": "BOSS::GT-Pro",
+    "checked_date": "2026-11-04",
+    "canonical_section": "brand/BOSS.md#gt-pro--external-amp-switching-versus-preamp-audio-routing",
+    "sources": [
+      "https://support.roland.com/hc/ja/articles/4404525994267",
+      "https://support.roland.com/hc/ja/articles/4404525989019",
+      "https://support.roland.com/hc/ja/articles/4404525994139"
+    ],
+    "revisions": [
+      "2025-02-04 amp control",
+      "2022-01-18 routing/recording"
+    ],
+    "scope": "Two patch-stored open/short amp-control paths; separate preamp audio-send recipe; recording examples. Full slug article text inspected, diagram pixels unavailable.",
+    "next": "Retain independent GT-Pro cursor: global FV precedence, other USB-mode channel counts,13/15 headline basis, physical photo census and qualified exact Shopee hardware remain. Defer exhausted searches and continue priority displays when new evidence available.",
+    "inventory_changed": false
   }
 }

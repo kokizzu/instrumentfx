@@ -2004,6 +2004,17 @@ Checked **2026-11-04** in indexed original manufacturer manual: [p10](https://st
 
 [Windows driver settings,p123](https://cdn.roland.com/assets/media/pdf/GT-PRO_OM.pdf) lists **BOSS GT-PRO** forWDM audio input/output andASIO; **MME BOSS GT-PRO In/Out** forMME. **BOSS GT-PRO Control** is the separate MIDI endpoint used forSysEx/editor control. WDM covers multimedia/DirectSound andcompatible DAWs;ASIO covers compatible applications. The manual discusses application monitoring/ASIO Direct Monitor toavoid feedback/double monitoring. This is historical Windows documentation,not an installation recommendation,current OS compatibility,orproof ofchannel counts fromdevice names. Other-mode channel totals remain unresolved. No download,installation ordevice operation.
 
+
+### GT-Pro — external amp switching versus preamp audio routing
+
+Checked **2026-11-04** against exact-model Roland support articles: [amp control](https://support.roland.com/hc/ja/articles/4404525994267), updated **2025-02-04**; [external preamp routing](https://support.roland.com/hc/ja/articles/4404525989019) and [recording examples](https://support.roland.com/hc/ja/articles/4404525994139), updated **2022-01-18**. Full indexed article URLs opened; bare article-ID reader requests failed. Original article text only; connection diagrams were not visually inspected.
+
+| Field | Manufacturer-backed distinction |
+|---|---|
+| Control / AMP CTL patch storage | Two independent AMP CTL1/2 connections can operate compatible amp channel-switch inputs; states save per patch. Open/short behavior depends on the amp. Roland also permits compatible footswitch-controlled amp effects on/off. Electrical limits, isolation, momentary/latching compatibility and universal amp support are not established. These are switch-control connections, not audio sends or additional effect slots. |
+| Routing / external amp preamp | Separate example uses the amp’s SEND/RETURN and GT-Pro SEND to choose its preamp; the manufacturer says to turn off GT-Pro SEND output for GT-Pro-only operation. Diagram jack placement was not inspected, so no complete cable map or automatic internal-preamp bypass is inferred. |
+| USB / recording examples | Manufacturer separately documents USB recording with amp monitoring, digital-out recording, and dry USB recording followed by reamping. These corroborate workflows, not additional USB channels, current driver support or global pedal coverage. |
+
 <!-- comparison evidence ends -->
 
 ### GT-Pro — alternate global Patch Level role, 2026-10-31
