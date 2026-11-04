@@ -160786,5 +160786,27 @@
     ],
     "inventory_unchanged": 402,
     "next": "Priority individual-footdisplay source gaps remain deferred where inaccessible;continue GT-Pro/compact expression/qualified market evidence without replacing independent queues."
+  },
+  "stadium_xl_midi_channel_snapshot_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "sources": [
+      "https://manuals.line6.com/en/helix-stadium/live/midi",
+      "https://manuals.line6.com/en/helix-stadium/live/global-settings"
+    ],
+    "revision": "Live v1.4; navigation revision labels remain mixed; no installed-version certification",
+    "findings": [
+      "Default Global1/BypassControl2/Matrixquarter3/XLR4/Phones5; configurable,Global andBypassControl must differ",
+      "CC69:0–7 select eight snapshots;8next,9previous; not ten memories",
+      "Empty unsaved presets excluded from PC transmit/recall",
+      "Send MIDI PC does not govern Command Center/Song MIDI flags; duplicate automatic PC suppression separate"
+    ],
+    "remaining": [
+      "Manufacturer power-label ratings",
+      "Strip pixel/color/diagonal specifications",
+      "Qualified exact Shopee stock",
+      "Remaining global analog-volume/routing coverage"
+    ],
+    "active_inventory_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }

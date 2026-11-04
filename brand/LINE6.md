@@ -867,6 +867,9 @@ Checked **2026-11-04** in the [manufacturer Tap/Tuner chapter](https://manuals.l
 | I/O / tuner routing | **Live1.4 reference:** Mute respects Tuner Trails; Processed retains preset processing; Matrix Dry bypasses processing while retaining preset output destinations; selecting a specific output instead bypasses the preset and feeds that destination directly. |
 | Processing / tuner trails | **Live1.4 reference:** Trails governs delay/reverb/FX-loop decay and Aux/Return continuation when opening the tuner; inapplicable to Processed. This does not establish recorded-loop, USB/Bluetooth/backing-track or headphone muting coverage, nor global analog-expression volume, endpoints or pedal recall. |
 
+| Field | Evidence / qualification |
+|---|---|
+| MIDI / channel separation and snapshot commands | Live1.4: defaults Global1, Bypass/Control2, Matrix¼-inch3/XLR4/Phones5; channels are configurable, but Global and Bypass/Control must differ. **CC69 values0–7 select eight snapshots;8=Next,9=Previous**, not ten stored snapshots. [Exact source scope](#stadium-xl--midi-channel-separation-and-snapshot-navigation). |
 <!-- comparison evidence ends -->
 
 Recheck2026-10-31: the original Denpasar offer remainsRp41.220.000, but search reports a six-day crawl/delivery29October–1November while direct reopening returns three-month-old text/delivery18July. These are conflicting snapshots,not verified current stock; the original dated observations above remain intact.
@@ -1033,6 +1036,16 @@ Checked **2026-11-04** against [Line 6 Stadium 1.4 release notes](https://kb.lin
 | Switch / display indication | Hardware Command Center **Ext Amp** assignment could latch correctly while its icon looked momentary. A separate app fix addresses footswitch icons disagreeing with hardware LEDs. These are indication corrections, not evidence of extra OLEDs, changed physical switch type, strip pixel color or verified amp-switch wiring. |
 
 Installed version and behavior remain untested. Source descriptions of corrected historical faults are not instructions to update, and no download, device connection or firmware operation was performed. Power-label ratings and remaining exact-model gaps stay unresolved.
+
+### Stadium XL — MIDI channel separation and snapshot navigation
+
+Checked **2026-11-04** in the manufacturer live **v1.4** [MIDI chapter](https://manuals.line6.com/en/helix-stadium/live/midi) and [Global Settings](https://manuals.line6.com/en/helix-stadium/live/global-settings). Applies to the documented Stadium family, including XL; installed behavior untested.
+
+Default channels are **1 Global,2 Bypass/Control,3 Matrix¼-inch,4 Matrix XLR,5 Matrix Phones**. Channels are configurable; Global and Bypass/Control must remain different. These separate control domains are not five physical MIDI sockets or five analog expression inputs.
+
+On the configured Global channel, **CC69 values0–7 select snapshots1–8;8 advances and9 goes back**. The Global Settings range0–9 therefore does not imply ten snapshots. Unsaved Empty presets neither transmit PC on selection nor respond to PC recall until saved. These limits qualify remote navigation without adding footswitches or OLEDs.
+
+**Send MIDI PC** controls automatic preset-change messages, not Command Center or Song MIDI-flag messages; the latter still use DIN and USB MIDI. **Duplicate Send PC Off** suppresses repeated identical automatic PC values. This is MIDI behavior, not analog volume assignment or proof of universal tail/looper coverage. No MIDI sent, software downloaded or device operated.
 
 ## HX Effects
 
