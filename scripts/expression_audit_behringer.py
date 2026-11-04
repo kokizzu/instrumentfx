@@ -13,7 +13,7 @@ if __name__ == '__main__':
     comparison_views.test_readme_brand_counts()
     comparison_views.test_validation_counts()
     staged = set(git('diff','--cached','--name-only').splitlines())
-    allowed = {'brand/BEHRINGER.md','EXPRESSION-VOLUME.md','README.md','MULTI-EFFECTS.md','all-guitar.md','all-bass.md','all-vocal.md','research-state.json','scripts/comparison_views.py','scripts/expression_audit_behringer.py','Makefile'}
+    allowed = {'CREATIVE-EFFECTS.md','brand/BEHRINGER.md','EXPRESSION-VOLUME.md','README.md','MULTI-EFFECTS.md','all-guitar.md','all-bass.md','all-vocal.md','research-state.json','scripts/comparison_views.py','scripts/expression_audit_behringer.py','Makefile'}
     changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
     assert (changed | staged) <= allowed, (changed | staged) - allowed
     assert not git('diff','--check').strip(), 'Whitespace errors'
@@ -31,4 +31,4 @@ if __name__ == '__main__':
         assert saved['head'] == git('rev-parse','HEAD')
         assert saved['hash'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest()
         assert not git('diff','--cached','--check')
-        print(git('commit','-m','research(behringer): verify FX2000 sampler carriers and exact sold-out offer'))
+        print(git('commit','-m','research(behringer): distinguish Bass V-AMP PRO audio and MIDI synths'))

@@ -175,6 +175,17 @@ Checked **2026-10-17**. Separate rack model; selected manufacturer manual sectio
 
 Exact-model text inventory reviewed;no visual hardware audit,download oroperation. Older sources,connector details,weight/MIDI conflicts andprice qualifications retained.
 
+### Bass V-AMP PRO — audio synthesis versus MIDI triggering
+
+Checked **2026-11-04** against [manufacturer manual v1.2,December2005,printed pp14–15][BV-M], explicitly covering both Bass V-AMP and PRO. Manufacturer-authored mirror; installed revision and tracking performance untested.
+
+| Field | Evidence / qualification |
+|---|---|
+| Synth / audio-input engine | SYNTH has nine preconfigured three-voice variants. TAP timing controls envelope duration; key/interval settings govern generated overtones. EFFECTS blends synth with amp/cab-processed instrument. Three voices are not proof of three-note input polyphony; chord tracking remains unverified. |
+| Synth / MIDI engine | MIDI SYNTH is a separate MIDI-triggered virtual-analog choice with its own reverb section; it shares the post-effect selector with SYNTH. MIDI triggering does not establish guitar-to-MIDI conversion or simultaneous use of both choices. |
+| Synth / special-processing boundary | VOICE BOX sweeps vowels using LFO/MIDI control; ULTRABASS generates sub-octave content. These roles differ from the synth engine and do not independently certify chord handling. |
+| Editor / source availability | Historical indexed [manufacturer software cross-reference][BP-E] explicitly names Bass V-AMP PRO for third-party iVAMP/MacOSX. Current direct page identifies V-AMP2 and omits that software paragraph. Preserve the older explicit cross-model reference; current availability/OS compatibility remains unverified. |
+
 <!-- comparison evidence ends -->
 
 ### PRO provenance and practical qualifications
