@@ -511,7 +511,7 @@ Historical2026-10-15 summary,retained separately from current comparison fields.
 | Field | Preserved evidence / uncertainty |
 |---|---|
 | Expression / controls | No built-in/EXP in complete inventory. **10/3/0**,power separate:TYPE,GAIN,TONE,MOD,TIME,FB,MIX,REVERB,IR CAB,VOLUME;A/B/C. TIME is rotary despite one translatedbuttonlabel. |
-| Screen / chain | No screen,LEDstatus/tuner,touchNo. **Five fixed stages** preamp→MOD→delay→reverb→IR,tuner separate. Three switchgroups are not three arbitraryeffects. |
+| Screen / chain | No screen,LEDstatus/tuner,touchNo. **Five fixed stages** preamp→MOD→delay→reverb→IR,tuner separate. Three switchgroups are not three arbitraryeffects. [LIVE grouped controls and IR overwrite limits](#cube-baby-electric--grouped-live-controls-and-ir-overwrite-boundary). |
 | Choices / memory | **9preamps,2MODchorus/phaser,1delay,1reverb,8IR**;ninthIRpositionbypass. OldtranslationcallingpreampIRsnotcabimport. **Three factory-filled overwriteable memories total**,not3+3. |
 | Body / battery | Earlierfiledmanual **162×61×23mm,260g,600mAh** versuslaterguide **161×57×17.5mm,260g,780mAh**. Bothcompact;revision/protrusionlinkunresolved. **USB5V supply/operation whilecharging explicit in earliermanual**;2Achargerexample notdraw;6hplay/2hcharge rated. |
 | Sound / I/O | No dedicatedsynth/acousticsimulator in electriclist. Mono6.35TSin/out,separatephone/mobile-recordsockets,USBdatacharge;smalljackwiring/diameters andUSBsubtype?. NoXLR,mic/phantom,loop,physicalMIDI/EXP. |
@@ -525,6 +525,14 @@ Sources: **Sinco FCC2ARCP-CUBE-BABY originalmanual** [text](https://device.repor
 ### CUBE BABY electric — direct-expression screening (2026-10-28)
 
 [Sinco manufacturer-filed exact CUBE-BABY manual](https://device.report/manual/2644279), complete numbered rear inventory: **no analog EXP socket**, so direct analog pedal-volume requirement fails. Its save tutorial adjusts VOLUME before storing the tone; this does not establish an independent global master assignment. A/B/C select three presets directly, not sequential down/up. Dedicated headphone output is documented; diameter remains unverified. Existing dimensional/battery revision conflicts stay intact; published horizontal envelopes fit the preferred rectangle. Direct-pedal endpoints/recall N/A; hand-volume bypass/tail/recorded-loop coverage unknown. No hardware test; AC/Bass not transferred.
+
+### CUBE BABY electric — grouped LIVE controls and IR overwrite boundary
+
+Checked **2026-11-05** in the [Sinco-filed exact-model manual transcription](https://device.report/manual/2644279), sections Effect module, LIVE/PRESET and How to edit a tone. Identity remains **2ARCP-CUBE-BABY**; translated bass wording does not transfer the current Bass model’s library. Revision and installed firmware remain unverified.
+
+In **LIVE**, switch **A** controls the reverb/IR group, **B** the modulation/delay group, and **C** the preamp/tone section. The tutorial bypasses MOD with its knob at noon while retaining delay; delay MIX fully left and REVERB fully left disable their respective effects. These are group switches plus parameter-level bypass controls, not five independently assigned footswitches or proof of preset-change tails. PRESET A/B/C still recall the three stored tones.
+
+IR import through desktop CubeSuite **replaces the original response at the selected location**. The manual warns that the overwritten original cannot be recalled through that operation. It documents no independent protected factory-IR bank or undo command; factory-file reimport/restore recovery remains unverified. Preserve an authorized source copy before replacement. No import, reset, software download or device test performed; AC/Bass behavior is not inferred.
 
 <!-- comparison evidence ends -->
 

@@ -165875,5 +165875,22 @@
     "qualification": "SeparateitemIDs;condition/variant/bundle/stock/checkout unknown;notnew-usedrange",
     "next": "Continue CUBE BABY electricfullcanonicalreview andexactmanufacturerfieldgaps;individualdisplaypriority andindependentqueuespreserved",
     "active_inventory_unchanged": 402
+  },
+  "cube_baby_electric_grouped_switches_20261105": {
+    "checked": "2026-11-05",
+    "model": "M-VAVE::CUBE BABY electric",
+    "source": "https://device.report/manual/2644279",
+    "identity": "Sinco 2ARCP-CUBE-BABY original numbered sections; revision unknown",
+    "finding": "LIVE A reverb/IR; B modulation/delay; C preamp; knob bypass distinctions and selected-slot IR overwrite warning",
+    "remaining": [
+      "Firmware/hardware revision mapping",
+      "Factory IR recovery path",
+      "Small-port diameters/wiring",
+      "IR import formats",
+      "USB channels",
+      "Current qualified used/new offers"
+    ],
+    "next": "Continue MK-300 or Ampero II Stomp complete profile gaps; preserve individual-display priority and independent GT-Pro/general/expression queues",
+    "active_inventory_unchanged": 402
   }
 }
