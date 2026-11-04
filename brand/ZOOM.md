@@ -5341,6 +5341,19 @@ Checked 2026-10-18 against official manual text; no downloads or physical test. 
 | Factory / reset | All Initialize restores every setting and overwrites user patches. Power on holding STORE; confirm with STORE, or cancel with MANUAL/CANCEL. These are documented instructions, not operations performed. | [Manual p28][GFX4-M] |
 | Expression / calibration | Power on holding PEDAL; at MIN, raise pedal and press STORE. At MAX, fully depress, release foot to allow slight return, then STORE. | [Manual p28][GFX4-M] |
 
+### GFX-4 — per-patch volume floor and independent RTM assignments
+
+Checked **2026-11-04**, [original English manual, printed pp4–7,23][GFX4-M].
+
+| Field | Finding / qualification | Evidence |
+|---|---|---|
+| Expression / volume | **EXPVOL off/on and MINVOL 0–9 are per-patch settings**; MINVOL determines heel-up volume. This is not a global assignment override or a documented percentage/dB scale. Volume-specific maximum and recall behavior remain unverified. | [Manual p23][GFX4-M] |
+| Expression / targets | Separate EP-DRV, EP-MOD and EP-D/R settings. DRIVE controls TOP for ACOSIM, otherwise GAIN. MOD and DLY/REV offer off/UP/dn/Hi/Lo; their controlled parameter is predetermined by effect type. This is not arbitrary assignment to every parameter. | [Manual p23][GFX4-M] |
+| Expression / toe | EXP-SW0 toggles RTM-assigned modules; EXP-SW1 switches PRESET-group program/manual operation. Toe configuration is patch-specific. | [Manual p23][GFX4-M] |
+| Processing / global settings | Stored amp/cab simulator configuration applies across patches; this global scope does not extend to EXPVOL. | [Manual p7][GFX4-M] |
+
+Normal passive pickups use NORMAL; active/high-output pickups use ACTIVE. No external analog EXP connector appears in the complete rear inventory. Existing mono-versus-stereo bypass-volume distinction remains applicable. No physical test, firmware installation or local download.
+
 ## GFX-5
 
 Guitar multi-effects;distinct from GFX-3/G5. Checked2026-10-17;partial. Zoom discontinued. Bass/vocal suitability and ownership unverified.

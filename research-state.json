@@ -162370,5 +162370,24 @@
     "active_inventory_unchanged": 402,
     "next": "Continue another unresolved Shopee-backed model profile; do not repeat unchanged GFX-8 sensor/accessory searches.",
     "independent_queues_preserved": true
+  },
+  "gfx4_volume_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://zoomcorp.com/media/documents/E_GFX4.pdf",
+    "revision": "Original English printed4–7,23; installed firmware untested",
+    "canonical": "brand/ZOOM.md#gfx-4--per-patch-volume-floor-and-independent-rtm-assignments",
+    "resolved": [
+      "Per-patch volume floor and target restrictions",
+      "Separate global amp/cab scope",
+      "Toe-switch alternatives and external connector inventory"
+    ],
+    "remaining": [
+      "Numeric volume endpoints and recall",
+      "Panel button census and visual corroboration",
+      "Exact qualified Shopee hardware item and current stock",
+      "Editor/import support"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue unresolved exact hardware leads; keep individual-display and independent GT-Pro queues intact."
   }
 }
