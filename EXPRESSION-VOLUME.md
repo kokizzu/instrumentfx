@@ -785,3 +785,5 @@ Original FM9 [conditional output copies](brand/FRACTAL-AUDIO.md#fm9-original--co
 Pre-MKII [FM9 Turbo Output3 Boost/Pad](brand/FRACTAL-AUDIO.md#fm9-turbo) is a paired converter boost/output cut that preserves net level inits3.x manual;its0/6/12/18dB choices are not global pedal-volume endpoints. Current-version andsignal-coverage qualifications remain unchanged.
 
 GT-Pro [external navigation andpatch-level steps](brand/BOSS.md#gt-pro--external-patch-navigation-and-level-steps) distinguish within-bank patch movement from bank commands and10/20-unit level changes. These do not resolve continuous global-FV assignment precedence oradd onboard preset footswitches.
+
+EX-4 [named PSA-S power evidence](brand/BOSS.md#ex-4--named-psa-s-power-requirements) now establishes9V DC centre-negative,500mA supply capacity versus300mA device draw. This narrows its compact profile;USB/battery operation,qualified Shopee hardware andall-route volume coverage remain unverified.

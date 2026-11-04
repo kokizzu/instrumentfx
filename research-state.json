@@ -159879,5 +159879,33 @@
     ],
     "active_inventory_changed": false,
     "next": "Keep independent GT-Pro cursor;requested separate-footdisplay source blockers deferred while other accessible model/market gaps proceed."
+  },
+  "ex4_psas_power_scope_20261104": {
+    "checked": "2026-11-04",
+    "model": "BOSS EX-4 partiallead",
+    "sources": [
+      "https://static.roland.com/manuals/ex-4_reference/en-US/561779083589756683.html",
+      "https://www.boss.info/jp/products/ex-4/",
+      "https://support.roland.com/hc/en-us/articles/201953449-BOSS-PSA-S-Adaptor-Specifications",
+      "https://support.roland.com/hc/en-us/articles/4404894109595-BOSS-PSA-adaptor-Specification-Differences-by-Model"
+    ],
+    "identity": "EX4 specifiesPSA-S;JapanesePSA-100S;manufacturer named-adapter cross-reference,not siblingprocessor",
+    "power": {
+      "output_vdc": 9,
+      "polarity": "centre-negative",
+      "regulated": true,
+      "supply_capacity_ma": 500,
+      "device_draw_ma": 300
+    },
+    "qualification": "OlderPSA200mA insufficient forpublished300mA draw;S/S2 input100–240V withregionalplugs;notmeasuredconsumption orportablepowercertification",
+    "remaining": [
+      "Barreldimensions",
+      "USB/battery operation",
+      "Thirdparty portablepower compatibility",
+      "Qualified exactShopeehardware",
+      "Globalvolume allroute/bypass/tailcoverage"
+    ],
+    "active_inventory_changed": false,
+    "next": "Continue other accessible requested display andcompact profiles;preserve independent GT-Pro cursor. Inaccessible originaldocuments deferred ratherthan blockingqueue."
   }
 }
