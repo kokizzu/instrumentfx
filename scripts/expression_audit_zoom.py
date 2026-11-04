@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(eventide): qualify H90 automatic relay volume boundary'
+        message='research(fractal): distinguish FM9 Turbo volume steps and USB sources'
     print(git('commit','-m',message))

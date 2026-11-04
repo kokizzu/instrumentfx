@@ -789,3 +789,5 @@ GT-Pro [external navigation andpatch-level steps](brand/BOSS.md#gt-pro--external
 EX-4 [named PSA-S power evidence](brand/BOSS.md#ex-4--named-psa-s-power-requirements) now establishes9V DC centre-negative,500mA supply capacity versus300mA device draw. This narrows its compact profile;USB/battery operation,qualified Shopee hardware andall-route volume coverage remain unverified.
 
 H90 [automatic relay boundary](brand/EVENTIDE.md#h90): manual1.12.5 says Dual Routing automatically enables Path1 relay when no Presets use that path. Global P Out Gain assignment is documented, but attenuation of this physical bypass route remains unverified; it is not an unconditional all-routing volume guarantee.
+
+FM9 Turbo [discrete volume commands](brand/FRACTAL-AUDIO.md#fm9-turbo) save the loaded preset on each1dB step,including other unsaved edits. They are distinct from continuous global Output Volume assignments;the manufacturer warns against driving these increment/decrement commands with an expression pedal.

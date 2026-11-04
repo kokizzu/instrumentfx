@@ -160056,5 +160056,23 @@
     "finding": "Dual Routing automatically enables Path1 relay when no Presets use Path1;Path2 cannot use relay. Relay physically connects inputs to outputs,distinct from DSP bypass.",
     "qualification": "Global P Out Gain assignment is established separately;automatic relay attenuation,pedal-position recall,tails andrecorded-loop scope remain unverified.No device operation orinstalled/latest firmware claim.",
     "next": "Verify global gain endpoints/range customization androuting-specific pedal behavior;preserve independent GT-Pro cursor andrequested footswitch-display priority."
+  },
+  "fm9turbo_volume_steps_usb_sources_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "Fractal Audio::FM9 Turbo",
+    "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+    "revision": "August2022 Original/Turbo firmware3.x;printed94,100,116",
+    "findings": [
+      "Output1/2 Volume Increment/Decrement changes MAIN by1dB andsaves current preset including unsaved edits;momentary CC127/0,not expression sweep.",
+      "Host record7/8 selects Input2/3;gridINUSB receives hostplayback7/8;Input1/2/3 digital source sharedUSB5/6 orSPDIF."
+    ],
+    "remaining": [
+      "Current-firmware equivalence andunit behavior untested",
+      "OtherUSB diagram associations",
+      "Continuous global EXP endpoints,recall,bypass,phones,tails/loop coverage",
+      "Exact preMKII Turbo qualified Shopee hardware;search again returned MKII offer,not transferable"
+    ],
+    "inventory_unchanged": 402,
+    "next": "Continue requested footswitch-display gaps andqualified Shopee discovery;preserve independent GT-Pro andexpression queues."
   }
 }
