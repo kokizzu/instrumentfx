@@ -570,8 +570,8 @@ Normal-pickup OUTPUT MODE support from1.10 andGK Audio introduction1.20 remain d
 | Display | **16×2-character backlit LCD**; published diagonal,color and touch unverified. |
 | Dimensions / mass | **329 W×231 D×85 H mm**; fails preferred200×140mm. Manual/brochure **2.25kg** versus website **2.3kg**; discrepancy retained. |
 | Processing | **Up to11 simultaneous effects**, manufacturer brochure. Fixed COMP,OD/DS,PREAMP/SPEAKER,EQ,NS,FV,DELAY,CHORUS,REVERB plusFX1/FX2. Reorderable; alternatives do not add slots. |
-| Processing / category choices | **FX1:11;FX2:18**, full names below. Brochure **45 named preamps**,including Mic Preamp;manual Custom1–3 gives48 selectable definitions,consistent numerically with website48 but counting/revision basis not proved. **OD/DS22;WAH7** brochure;remaining subtype census unverified. |
-| Memory | **100 writable User U001–U100 +100 protected Preset P101–P200 =200**. Edited preset can save to User;initial User fill unverified. Unsaved edits lost on patch change. |
+| Processing / category choices | **FX1:11;FX2:18**, full names below. Brochure **45 named preamps**,including Mic Preamp;manual Custom1–3 gives48 selectable definitions,consistent numerically with website48 but counting/revision basis not proved. **OD/DS22+3 custom definitions** inoriginal manual;**WAH7** brochure. Dedicated DELAY3,CHORUS3 modes,REVERB5;[named menus andfactory-fill source](#gs-10--factory-user-fill-and-dedicated-effect-menus). Remaining FX subtypes/custom-count basis retain qualifications. |
+| Memory | **100 writable User U001–U100 +100 protected Preset P101–P200 =200**. Edited preset can save to User;original patch-list note explicitly says factory User contents duplicate Preset contents. Thus100 factory-filled writable User plus100 protected Preset,not200 unique supplied sounds. Current used-unit contents unverified. Unsaved edits lost on patch change. |
 | Synth / acoustic | Guitar Synth explicitly single-note: Square/Saw internal generation versus Brass/Bow input processing. Tone Modify includes electric-to-acoustic S→AC/H→AC and separate P→AC piezo processing;Bass Simulator advises avoiding chords. [Exact original source scope](#gs-10--creative-tracking-and-instrument-simulation-boundaries). Normal guitar/bass input. Mic input and Mic Preamp do not alone complete vocal-category qualification. |
 | Pitch / note handling | Original manual: Pitch Shifter Fast/Medium/Slow accept chords; Mono uses single notes. Harmonist is single-note;two generated voices/stereo do not establish chord tracking. Guitar Synth,Bass Simulator andpitch alternatives share FX2,not simultaneous independent instances. |
 | Audio I/O | Guitar/bass input; alternative balanced XLR/¼-inch TRS mic sockets, **no phantom**; stereo RCA AUX and RCA output; guitar-amp out; PHONES; coax S/PDIF. |
@@ -674,6 +674,21 @@ Checked **2026-11-04**, [manufacturer-authored original manual reproduction](htt
 **Pitch Shifter Fast/Medium/Slow accepts chords;Mono doesnot. Harmonist requires single notes** despite one/two-voice mono/stereo outputs. Synth,Harmonist,PitchShifter andBassSimulator compete forFX2;ToneModify occupiesFX1. Availability isnot simultaneous access toallthesechoices. Older sourceunknowns are superseded only forthese exact capabilities.
 
 Shopee searches yieldedno qualified exact GS-10 hardware;no absence orprice claim. Global FV endpoints/recall/outputcoverage,initialUserfill,modernsoftware andremaining subtypecensus stayopen. No download,device operation orownership assertion.
+
+### GS-10 — factory user fill and dedicated effect menus
+
+Checked **2026-11-04**, [original manufacturer manual reproduction](https://manualzz.com/doc/2026468/boss-gs-10-guitar-effects-system-owner%E2%80%99s-manual),03342912,03-8-1N,©2003 BOSS,printedpp31–34,84–85. Exact original body,not host-generated answers.
+
+The patch-list note states that **factory User contents are the same as Preset contents**. Together with the documented100+100memory architecture,this establishes100initially filled editable User locations duplicating the protected Preset sounds. It doesnot establish a used unit’s current contents or200distinct supplied sounds. Older initial-fill unknowns remain dated history,superseded forthis factory configuration.
+
+| Dedicated menu | Original choices / distinction |
+|---|---|
+| DELAY | **3: Single,Pan,Stereo**. Stereo here sends dry left/effect right;not the same routing asPan. Main delay0–1800ms;fine0–20ms separate. |
+| CHORUS | **3 modes: Mono,Stereo1,Stereo2**;modes withinoneblock,notthreeinstances. |
+| REVERB | **5: Ambience,Room,Hall1,Hall2,Plate**. Time0.1–10.0s. |
+| OD/DS | Explicit **22 types plus3 custom settings**. Custom definitions do not add simultaneousblocks. |
+
+These menus supplement the existingFX1/FX2 census,not a complete all-subtype count ornewfirmware claim. No reset,patch export,download ordeviceoperation. Global FV precedence,outputcoverage,currentsoftware andexactShopee offers remain unresolved.
 
 ## GT-1
 

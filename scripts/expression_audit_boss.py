@@ -39,4 +39,4 @@ if __name__ == '__main__':
         assert review['head'] == git('rev-parse','HEAD').strip(), 'HEAD changed since review'
         assert review['sha256'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest(), 'Staged diff changed since review'
         assert not git('diff','--cached','--check').strip(), 'Staged whitespace errors'
-        print(git('commit','-m','research(boss): verify GS-10 synth tracking and instrument simulation'))
+        print(git('commit','-m','research(boss): resolve GS-10 factory fill and dedicated effect counts'))

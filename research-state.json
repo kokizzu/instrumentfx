@@ -161864,5 +161864,41 @@
     "active_inventory_unchanged": 402,
     "additional_index_unchanged": 59,
     "next": "Continue accessible displaypriority andsystematicprofilegaps;preserveGTPro/general,expression andconsolidationqueues"
+  },
+  "gs10_factoryfill_dedicated_menus_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "BOSS::GS-10",
+    "source": "https://manualzz.com/doc/2026468/boss-gs-10-guitar-effects-system-owner%E2%80%99s-manual",
+    "revision": "03342912,03-8-1N,©2003 BOSS printed31–34,84–85",
+    "resolved": {
+      "factory_user_fill": "100User duplicate100Preset,explicitpatchlistnote;currentusedcontentsunknown",
+      "delay": [
+        "Single",
+        "Pan",
+        "Stereo"
+      ],
+      "chorus_modes": [
+        "Mono",
+        "Stereo1",
+        "Stereo2"
+      ],
+      "reverb": [
+        "Ambience",
+        "Room",
+        "Hall1",
+        "Hall2",
+        "Plate"
+      ],
+      "drive": "22typesplus3customsettings"
+    },
+    "limits": "Menusnotconcurrentinstances;dedicatedStereoDelaydryL/wetR;notcompleteallFXsubtypecensus",
+    "remaining": [
+      "FXsubtypes/customcountbasis",
+      "GlobalFVrange/recall/outputcoverage",
+      "Currentsoftware",
+      "QualifiedexactShopeeoffers"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue source-backedmodelprofile gaps;individualfootdisplaypriority retained,independentGTPro/general/consolidationqueuesunchanged"
   }
 }
