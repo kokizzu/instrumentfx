@@ -1756,6 +1756,7 @@ Official Japanese PDFs failed to load or exceeded the retrieval limit; the mirro
 | External expression |One EXP2 TRS socket; manual supports 10k–100k pedals. The same socket alternatively switches an external compatible amplifier; do not count two simultaneous connections |
 | Expression / external toe boundary | Original manual pp89–90: **EXP2 has the same assignment functions asEXP1 butdoes not support its toe-down switch**. TRS cable and10k–100k pedal required;calibration precedes assignment. No tip/ring/wiper pinout orglobal volume scope is specified here. |
 | I/O / amplifier-control compatibility | EXP2 instead becomes **EXT CTRL output** witha mono cable;assign CTRL toEXT CTRL andselect latching/momentary for the amp. Maker restricts it to **short-to-sleeve inputs ontraditional dual-channel amps**,warns other inputs can damage both devices,anddoes not guarantee all compatible-looking amps. This is switching output,not analog expression input inparallel,an audio port orMIDI. [Original manual pp89–90][M] |
+| Routing / serial-loop A/B replacement | [Original manual pp56–57](#ge300--serial-loop-ab-replacement-and-example-conflicts): Send/Return around AMP let active serial FX LOOP replace internal AMP with the external preamp path; loop Off restores internal AMP. This is routing substitution,not extra model instances or verified arbitrary scene recall. |
 | I/O / historical reamp mix fix | [2.0.6 history](#ge300--historical-reamp-and-editor-reliability-scope) reports a wet/dry mix adjustment fix; this is not expression-volume assignment or a new USB channel count. |
 | I/O / USB MIDI and driver provenance | Rechecked **2026-11-05**: [exact GE300 manufacturer launch article](#ge300--chinese-manufacturer-usb-midi-and-display-evidence) explicitly supports MIDI overUSB;this feature is documented,whilecurrent message routing andUSB-host behavior remain unverified. [Exact-model download index](https://www.mooeraudio.com/companyfile/GE300-Downloads-145.html) lists **MOOER_USBAudio5.70.0**,separate fromStudio5.1.4 Win/Mac packages;[Regional driver-list mismatch](#ge300--regional-usb-driver-list-mismatch) remains unresolved; OS/architecture requirements andinstalled versions unverified. |
 | Rotary knobs |**9**: three independent master output knobs (XLR/headphone/jack), SELECT encoder, five parameter knobs |
@@ -2122,6 +2123,16 @@ Checked **2026-11-05**, manufacturer-authored **MOOER Studio for GE300 Software 
 Exports use **`.mo`** files. The guide requires **`00A-NAME.mo`** addressing syntax;its example renames **`01A-US Deluxe.mo` to`11A-US Deluxe.mo`** tochange preset placement from01A to11A. This is file-address interpretation,not a drag-reorder guarantee,extra storage orproof a rename edits the device immediately.
 
 Its separate warning says that when serial preset files have thesame number in their names, **only the last preset is exported**. Do not interpret a successful batch export as proof every selected entry survives an address collision. The text doesnot specify a checksum,sorting rule,recovery process orwhether modern Studio behaves identically. Existing capture embedding,pack auto-store andsingle-import Save qualifications remain intact. No files renamed,imported,exported ordownloaded;device untouched.
+
+### GE300 — serial-loop A/B replacement and example conflicts
+
+Checked **2026-11-05**, [manufacturer original2019 GE300 manual,printed pp55–57](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf). Current5.1.4 equivalence remains untested.
+
+The A/B example places Send and Return around **AMP** in serial mode. **FX LOOP On bypasses the internal AMP and substitutes the connected external preamp path; Off restores the internal AMP and bypasses that external path.** A CTRL switch operates FX LOOP. This documents a routing alternative,not simultaneous dual-amp processing,extra blocks orgeneral scene recall. Its Return−3dB is an example,not universal gain matching.
+
+The preceding stereo-reverb example’s prose specifies **Parallel/Stereo**, with the external reverb fully wet and internal Dry/Wet setting its blend. Its illustrated fields instead say **Series/Mono**. Keep that internal conflict; do not present the screen as an independently verified parallel setup. The separate Return-before-Send versus four-cable-order contradiction remains unresolved.
+
+Existing output-tap,CAB andreturn-level restrictions still apply. No hardware connection,setting change,download oraudio measurement. Factory occupancy,qualified offers andremaining firmware/format gaps remain open.
 
 ## GE300 Lite
 

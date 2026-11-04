@@ -168201,5 +168201,24 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Generalqueue next originalGE300;preserve GP-200JR→Prime→GE300,displaypriority,GT-Pro,expression andconsolidation queues"
+  },
+  "ge300_serial_ab_20261105": {
+    "checked_date": "2026-11-05",
+    "source": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf",
+    "revision": "Original2019 manual printed55–57;current5.1.4 untested",
+    "canonical": "brand/MOOER.md#ge300--serial-loop-ab-replacement-and-example-conflicts",
+    "findings": [
+      "SeriallooparoundAMP substitutesexternalpreamp withloopOn andrestoresinternalAMP withOff",
+      "Stereo-reverbproseParallel/Stereo versusillustratedSeries/Mono conflictpreserved",
+      "Return−3dB isexample,notuniversallevel"
+    ],
+    "remaining": [
+      "Current5.1.4 routing equivalence",
+      "Factory/userfill",
+      "IR/NAM formatlimitations",
+      "Qualified exactnew/usedShopee hardware"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Generalcycle returns GP-200JR→Prime→originalGE300;preserve individualfootdisplay priority,GT-Pro,expression andconsolidationqueues"
   }
 }
