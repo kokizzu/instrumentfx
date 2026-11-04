@@ -162695,5 +162695,29 @@
     ],
     "inventory_unchanged": 402,
     "next": "Commitpartiallead;continueexactShopeediscovery andpriorityindividualscreens. PreserveGT-Pro/expression queues."
+  },
+  "g92tt_controls_power_20261104": {
+    "model": "Zoom G9.2tt",
+    "checked_date": "2026-11-04",
+    "canonical": "brand/ZOOM.md#g92tt--control-inventory-and-exact-japanese-power-corroboration",
+    "sources": [
+      "https://zoomcorp.com/media/documents/E_G92tt.pdf",
+      "https://zoomcorp.com/media/documents/J_G92tt.pdf"
+    ],
+    "revision": "Original English pp6–8,77 andJapanese p2;installedfirmware untested",
+    "resolved": [
+      "Text-derived17rotaries and9footswitches",
+      "ExactJapaneseAC rating corroboratesEnglishspecification;DCsafetyconflict retained",
+      "AUX directaudio route distinguished"
+    ],
+    "remaining": [
+      "Visual/button census",
+      "Manufacturerpowererratum/adapterlabel",
+      "Namedcategorycensus",
+      "Exactcondition-qualifiedShopee hardware",
+      "CurrentOS/import/coverage"
+    ],
+    "inventory_unchanged": 402,
+    "next": "Continue systematic discovery andpriorityindividualscreens;do not repeat unchangedpowerconflict withoutnewevidence. PreserveGT-Pro/expressionqueues."
   }
 }

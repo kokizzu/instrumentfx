@@ -4819,6 +4819,18 @@ Checked2026-11-04;**outside active inventory**. Distinct fromG7.1ut;ownership/ba
 
 Next:panel census,category algorithms,exacthardwareoffer,powerconflict andcoverage. No localdownloads,deviceoperation oractiveadmission.
 
+### G9.2tt — control inventory and exact Japanese power corroboration
+
+Checked **2026-11-04** against the original [English manual, printed pp6–8](https://zoomcorp.com/media/documents/E_G92tt.pdf) and [Japanese manual, printed p2](https://zoomcorp.com/media/documents/J_G92tt.pdf). These sources do not establish installed firmware.
+
+| Field | Evidence / qualification |
+|---|---|
+| Controls / text-derived census | **17 rotaries:** TYPE + four parameter knobs; seven preamp knobs; two Accelerator controls; two Energizer controls; rear LEVEL. **Nine footswitches:** five patch/module switches, two bank switches, two function switches. Pedal switches and rear power/level selectors are separate; complete hand-button count and visual corroboration remain pending. |
+| Power / exact-model corroboration | Japanese safety text specifies **15 VAC, 1.5 A, AD-0012**, agreeing with English p77 and the rear AC IN label. English p2 still says **15 VDC**. Preserve this discrepancy; no manufacturer erratum or actual adapter-label inspection establishes its cause or replacement compatibility. |
+| I/O / AUX routing | English p8 routes AUX directly to the main outputs and USB without internal effects. This does not establish expression attenuation of AUX, USB playback or headphones. An external rhythm-machine example does not establish onboard drums. |
+
+Partial lead remains outside active counts. Category census, exact Shopee hardware, button census and current software compatibility remain open. No local download or device operation.
+
 ## G11
 
 Guitar and bass multi-effects; large; built-in expression. Specifications below use ZOOM's own V2 operation/effect documents and current support page. A first-pass record with unresolved fields is not fully verified.
