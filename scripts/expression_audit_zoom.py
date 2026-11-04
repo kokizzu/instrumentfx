@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(tech21): document RK5 v3 routing conflict and hardware scope'
+        message='research(tech21): count RK5 v3 rotaries and compare manual revisions'
     print(git('commit','-m',message))

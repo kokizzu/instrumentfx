@@ -269,3 +269,15 @@ Checked **2026-11-04** against the [v3 product page](https://www.tech21nyc.com/p
 | Tuner | Hold Reverb/Tuner **one second** toenter andmute;tap toexit. Do not transfer FlyRig5v2’s half-second gestures. |
 
 EXP/headphones remain unverified;no absence audit claimed. Memory,software,IR/NAM/capture,current stock andfull physical census remain open. This partial lead stays outside active402;the used family-level Shopee offer remains revision-unresolved.
+
+### RK5 v3 — control census and manual wording change
+
+Checked2026-11-04. The additional official [RK5_v3_OM.pdf](https://www.tech21nyc.com/wp-content/uploads/2024/12/RK5_v3_OM.pdf),©2024,eightPDFpages,printedp9,places the loop afterSansAmp **before effects**. Currently linked [OM2](https://www.tech21nyc.com/wp-content/uploads/2026/01/RK5_v3_OM2.pdf),samecopyright/pagecount,printedp9,describes it after the internally mixed effects. Theproductpage matches theformer wording. This establishes a documentation change,not its reason,actual circuit order orhardware-revision date;URL folders are not release dates. Preserve both sources andthe unresolved conflict.
+
+| Field | Exact-model text-derived evidence / qualification |
+|---|---|
+| Rotary controls | **14**:Boost1;OMG Drive/Tone/Level3;SansAmp Drive/Low/Mid/High/Level5;Reverb1;Delay Time/Drift/Repeats/Level4. OM/OM2 printedpp3–8 function descriptions support this sum;not a visual panel census. |
+| Selectors / footswitches | Pre/Post,Fuzz,Size,Roto are four named selector functions;ground-connect is additional. Full physical button/footswitch totals remain unverified. Tap/Speed andReverb/Tuner are shared-function names,not four actuators. |
+| Processing choices | Reverb small/large rooms;Delay28–1000ms. Time-knob adjustment shifts pitch;tap changes preserve pitch andwork inbypass. Repeats minimum gives one repeat,maximum self-oscillates;not a documented phrase looper orsynth. |
+
+Primary panel PNGs returned no inspectable image;manual screenshot failed. ExactShopeeIndonesia v3search again surfaced no qualified local item,not proof ofabsence. Profile remains partial outside active inventory. Next:visual panel/display confirmation,storage/software scope,EXP/headphones andexact revision-qualified Indonesianhardware.
