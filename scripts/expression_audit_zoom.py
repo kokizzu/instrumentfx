@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fractal): enumerate original FM9 Multi-Delay choices and limits'
+        message='research(valeton): qualify GP-200JR firmware pairing and bundle offer'
     print(git('commit','-m',message))
