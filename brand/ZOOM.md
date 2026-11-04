@@ -4974,6 +4974,14 @@ Checked **2026-11-03**, [manufacturer V2 effect list](https://zoomcorp.com/media
 
 Installed content,tracking quality andlatency remain untested. No software,firmware ormedia downloaded; no device operated.
 
+### G11 — computer-return processing destinations
+
+Checked **2026-11-04**, [manufacturer V2 operation manual](https://zoomcorp.com/documents/461/E_G11v2.pdf), ©2021, printed **pp89,91**. Original text checked remotely; no local download, driver installation or device test.
+
+| Field | Evidence / qualification |
+|---|---|
+| USB audio / computer-return destinations | **V2 pp89,91:** four computer-return channels split into **two before effect processing and two after it**. Recording independently sends two pre-effect and two post-effect channels. This distinguishes reamp input from post-effect computer-playback destinations; it is not four equivalent effect-chain inputs or four physical instrument inputs. DAW channel numbering, AUX/rhythm/loop inclusion and exact master/expression attenuation coverage are not established by these paragraphs. The p7 diagram is referenced, but its arrows were not visually inspected. |
+
 <!-- comparison evidence ends -->
 
 ### G11 — independent historical control-count corroboration

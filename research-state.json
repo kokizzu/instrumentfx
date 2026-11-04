@@ -141621,6 +141621,16 @@
         "revision": "V2.00 ©2021, printedp32",
         "finding": "Z-Syn SAW/SQR; BaStdSyn UP/DOWN filter and octave-below; BaSynTlk IA/UE/UA/OA and octave-below. Bass-oriented algorithms, not confirmed polyphonic synthesis.",
         "remaining": "Current installed library/tracking untested; auxiliary LCD dimensions/color/touch and visual control census remain unresolved. Panel screenshot call returned references only; no visual count."
+      },
+      "computer_return_destinations": {
+        "checked": "2026-11-04",
+        "source": "https://zoomcorp.com/documents/461/E_G11v2.pdf",
+        "revision": "Manufacturer V2 ©2021 printed89,91",
+        "finding": "Four computer-return channels split two before/two after effect processing; pre/post recording distinct.",
+        "remaining": "DAW numbering,AUX/rhythm/loop inclusion andmaster/analog-expression coverage not proven;diagram arrows not visually inspected.",
+        "market": "Fresh exact Shopee search repeated known Serenata/Eleven/camera_islands/TOKOAUDIOPRO/jayapratama records; no new condition-qualified price adopted.",
+        "next": "Continue G5 exact-model primary hardware/market gaps; defer G11 physical visual census until inspectable manufacturer panel evidence. Preserve independent general GT-Pro andexpression queues.",
+        "inventory_changed": false
       }
     },
     "zoom_g3": {
