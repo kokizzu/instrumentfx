@@ -25752,7 +25752,41 @@
         "bundle": "unverified",
         "used": "no condition-verified ask"
       },
-      "next": "Complete exact creative parameters,controls/category census,I/O/power/software/import/practice fields and expression target/range/coverage before active admission; preserve independent queues."
+      "next": "Complete exact creative parameters,controls/category census,I/O/power/software/import/practice fields and expression target/range/coverage before active admission; preserve independent queues.",
+      "followup": {
+        "checked_date": "2026-11-04",
+        "sources": [
+          "https://static.roland.com/assets/media/pdf/SY-1000_eng01_W.pdf",
+          "https://static.roland.com/assets/media/pdf/SY-1000_reference_eng01_W.pdf",
+          "https://static.roland.com/assets/media/pdf/SY-1000_reference_eng02_W.pdf",
+          "https://static.roland.com/assets/media/pdf/SY-1000_reference_jpn01_W.pdf",
+          "https://gr300.com/owners/Boss_SY-1000_Reference_Manual.pdf",
+          "https://static.roland.com/assets/media/pdf/SY-1000_MIDI_Implementation.pdf",
+          "https://www.boss.info/global/support/by_product/sy-1000/updates_drivers/522bc19d-6f87-4537-be56-afd0983a175f/",
+          "https://www.boss.info/global/support/by_product/sy-1000/updates_drivers/ad8e89fd-a8df-45b8-abc5-b88f56e97c53/",
+          "https://www.boss.info/global/support/by_product/sy-1000/updates_drivers/0c66271a-34ac-409d-973c-5a1d0ae264b2/",
+          "https://www.bax-shop.nl/downloads/products/9000-0058-1907/boss_sy-1000_reference_manual.pdf"
+        ],
+        "expression": "EXP1/2 PATCH LEVEL100/200 and FV1/2 documented in eng01p68; SYSTEM scope ownerp17/eng02p69. Global shared target assignment established; later-firmware equivalence and all-route attenuation unverified.",
+        "recall": "HOLD Off loads saved values; On carries value when assigned parameter matches previous patch. jpn01/English mirrorp87; not assignment.",
+        "endpoints": "PATCH LEVEL100: 0–100; PATCH LEVEL200: 0–200. FX-category FOOT VOLUME minimum/maximum/position: 0–100 on indexed Bax copy; dedicated FV1/FV2 equivalence unverified.",
+        "hardware": {
+          "rotary": 7,
+          "footswitch": 8,
+          "panel_buttons": 8,
+          "power_switch_separate": true,
+          "phones": "MAIN L/PHONES; R/MONO disconnected",
+          "ports": "13-pinGK,normalIN,SEND,RETURN,MAIN pair,SUB pair,2TRSCTL/EXP,USB-B,MIDIIN/OUTTHRU,DCIN"
+        },
+        "fx_choices": {
+          "count": 37,
+          "basis": "MIDI Implementation1.00 January15,2020 FX1TYPE0–36; exact referenceFX1–3",
+          "simultaneous": "Not37 simultaneous; complete concurrency/other-category census unresolved"
+        },
+        "firmware": "1.07 October 2021: Dynamic Synth improvement; 1.08/1.10: ALT TUNE. Support lists 1.20 April 2025: AUTO OFF change.",
+        "editor": "Tone Studio 1.1.0 April 2025: Windows 11/10/8.1; Mac Exclusive Application matrix unresolved; drivers separate.",
+        "next": "Continue exact creative parameters and note handling,remaining categories/concurrency,named power supply,imports/practice features,currentMac matrix andvolume route coverage;partial outside402;preserve independent queues."
+      }
     }
   ],
   "inventory_by_brand": {
@@ -160390,6 +160424,40 @@
       "bundle": "unverified",
       "used": "no condition-verified ask"
     },
-    "next": "Complete exact creative parameters,controls/category census,I/O/power/software/import/practice fields and expression target/range/coverage before active admission; preserve independent queues."
+    "next": "Complete exact creative parameters,controls/category census,I/O/power/software/import/practice fields and expression target/range/coverage before active admission; preserve independent queues.",
+    "followup": {
+      "checked_date": "2026-11-04",
+      "sources": [
+        "https://static.roland.com/assets/media/pdf/SY-1000_eng01_W.pdf",
+        "https://static.roland.com/assets/media/pdf/SY-1000_reference_eng01_W.pdf",
+        "https://static.roland.com/assets/media/pdf/SY-1000_reference_eng02_W.pdf",
+        "https://static.roland.com/assets/media/pdf/SY-1000_reference_jpn01_W.pdf",
+        "https://gr300.com/owners/Boss_SY-1000_Reference_Manual.pdf",
+        "https://static.roland.com/assets/media/pdf/SY-1000_MIDI_Implementation.pdf",
+        "https://www.boss.info/global/support/by_product/sy-1000/updates_drivers/522bc19d-6f87-4537-be56-afd0983a175f/",
+        "https://www.boss.info/global/support/by_product/sy-1000/updates_drivers/ad8e89fd-a8df-45b8-abc5-b88f56e97c53/",
+        "https://www.boss.info/global/support/by_product/sy-1000/updates_drivers/0c66271a-34ac-409d-973c-5a1d0ae264b2/",
+        "https://www.bax-shop.nl/downloads/products/9000-0058-1907/boss_sy-1000_reference_manual.pdf"
+      ],
+      "expression": "EXP1/2 PATCH LEVEL100/200 and FV1/2 documented in eng01p68; SYSTEM scope ownerp17/eng02p69. Global shared target assignment established; later-firmware equivalence and all-route attenuation unverified.",
+      "recall": "HOLD Off loads saved values; On carries value when assigned parameter matches previous patch. jpn01/English mirrorp87; not assignment.",
+      "endpoints": "PATCH LEVEL100: 0–100; PATCH LEVEL200: 0–200. FX-category FOOT VOLUME minimum/maximum/position: 0–100 on indexed Bax copy; dedicated FV1/FV2 equivalence unverified.",
+      "hardware": {
+        "rotary": 7,
+        "footswitch": 8,
+        "panel_buttons": 8,
+        "power_switch_separate": true,
+        "phones": "MAIN L/PHONES; R/MONO disconnected",
+        "ports": "13-pinGK,normalIN,SEND,RETURN,MAIN pair,SUB pair,2TRSCTL/EXP,USB-B,MIDIIN/OUTTHRU,DCIN"
+      },
+      "fx_choices": {
+        "count": 37,
+        "basis": "MIDI Implementation1.00 January15,2020 FX1TYPE0–36; exact referenceFX1–3",
+        "simultaneous": "Not37 simultaneous; complete concurrency/other-category census unresolved"
+      },
+      "firmware": "1.07 October 2021: Dynamic Synth improvement; 1.08/1.10: ALT TUNE. Support lists 1.20 April 2025: AUTO OFF change.",
+      "editor": "Tone Studio 1.1.0 April 2025: Windows 11/10/8.1; Mac Exclusive Application matrix unresolved; drivers separate.",
+      "next": "Continue exact creative parameters and note handling,remaining categories/concurrency,named power supply,imports/practice features,currentMac matrix andvolume route coverage;partial outside402;preserve independent queues."
+    }
   }
 }
