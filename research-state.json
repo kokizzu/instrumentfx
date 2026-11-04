@@ -163832,5 +163832,44 @@
     ],
     "next": "Continue accessible individualfootdisplay andcompactprofile gaps;preservegeneralGTPro/consolidation queues",
     "active_inventory_unchanged": 402
+  },
+  "gp50_additional_offers_20261104": {
+    "checked_date": "2026-11-04",
+    "canonical": "brand/VALETON.md#gp-50--additional-sold-out-indonesian-hardware-offers",
+    "offers": [
+      {
+        "shop": "15931156",
+        "item": "54256206946",
+        "seller": "Primanada",
+        "region": "Kota Jakarta Utara",
+        "idr": 2255000,
+        "stock": "Habis",
+        "cache": "month-old search and direct"
+      },
+      {
+        "shop": "298126647",
+        "item": "55006208147",
+        "seller": "Toko Gitar Medan",
+        "region": "Kota Medan",
+        "idr": 2250000,
+        "stock": "Habis",
+        "cache": "month-old search and direct",
+        "warranty": "one-year title claim; issuer/terms unverified"
+      }
+    ],
+    "qualification": "Condition, variant, firmware, bundle, adapter and delivered total unknown; late compensation not deducted; no live stock",
+    "source_lead": {
+      "url": "https://www.valeton.net/wpfd_file/gp-50-pdf/",
+      "file": "https://res.valeton.net/Uploads/wp/download/1783673416879.GP-50.pdf",
+      "status": "inaccessible; purpose/revision not verified"
+    },
+    "remaining": [
+      "Current manual body",
+      "Global analog EXP assignment and coverage",
+      "M-VAVE wiring",
+      "Qualified available new/used stock"
+    ],
+    "next": "Continue accessible footswitch-display and compact profile gaps; preserve GT-Pro/general and consolidation queues",
+    "active_inventory_unchanged": 402
   }
 }

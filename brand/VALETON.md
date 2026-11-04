@@ -885,6 +885,8 @@ Current comparison summary, reconciled2026-10-28 from the exact-model sources re
 | IDR / three additional exact hardware asks | **Rp2.255.000 each**,checked2026-11-04: [SCI Music304940515/52704730830](https://shopee.co.id/Valeton-GP50-Guitar-Bass-Multi-Effects-Unit-i.304940515.52704730830),Tangerang Selatan; [Gearvolution63444658/50906152611](https://shopee.co.id/Valeton-GP50-Multi-Effect-i.63444658.50906152611),Makassar; [Kurnia32743136/44754599386](https://shopee.co.id/Valeton-GP50-Next-Generation-Compact-Multi-Effects-Efek-Gitar-Elektrik-i.32743136.44754599386),Semarang. Condition unknown;SCI search Habis versus direct no-status conflict;Gearvolution search-only;Kurnia month-old direct snapshot. [Full qualifications](#gp-50--additional-shopee-hardware-asks-and-stock-snapshot-conflict). |
 | IDR / Medan Semarang Denpasar additional asks | Checked2026-11-04: quinnguitarwarehouse66742362/47505948493 **Rp2,250,000**,Suryaputra270383239/45058298385 **Rp2,255,000**,ROCKPIZZ440477624/51005183806 **Rp2,255,000,Habis**. Condition unknown;distinct exact items andsnapshot limits [below](#gp-50--three-additional-hardware-items-with-separate-shop-identities). |
 | IDR qualification |Separate dated asks,not a used/new market range orcompleted sales. Unless stated,condition,working state,firmware,variant,adapter/bundle,warranty region,authenticity,shipping/tax,voucher andcheckout total unknown. Late-delivery compensation is not an upfront discount. Sahabat2195000IDR unresolved bundle/hidden variations remains excluded from qualified prices. |
+| IDR / additional sold-out hardware asks | **Rp2.255.000 Primanada; Rp2.250.000 Toko Gitar Medan**, separate month-old cached items, both **Habis**. Condition unknown; the Medan title claims a one-year warranty with unverified terms. [Exact items and qualifications](#gp-50--additional-sold-out-indonesian-hardware-offers). |
+
 ### GP-50 — selective reset scopes and factory numbering
 
 Checked **2026-11-04**: [current manufacturer GP-50 product page](https://www.valeton.net/product/gp-50/) links its “faq” control to the [original firmware1.0.5 manual](https://res.valeton.net/Uploads/wp/download/1765332901545.GP-50_Online%C2%A0Manual_EN_Firmware%20V1.0.5_251128.pdf), not a current1.1.0 parameter guide. Cover identifies1.0.5; selective reset is **printedp24/PDF27**. Original text only; no reset,local download ordevice operation.
@@ -1199,6 +1201,19 @@ Checked **2026-11-04**; exact GP-50 processor titles,not GP-5,accessories orconv
 For all three,**new/used condition,working state,installed firmware,selected variant,bundle/adapter,warranty/import region,shipping/tax andcheckout total remain unknown**. No variation selection orcheckout performed. Late-delivery vouchers up toRp10,000 are compensation,not deducted purchase discounts. These are neither verified current availability norcondition-qualified market bounds. Preserve older asks andstock conflicts independently.
 
 The new third-party [Tonelify source index](https://tonelify.com/gear/valeton-gp-50) points to the same official1.1.0 manual/effects-list redirects already deferred;both still failed. Its summaries are not substituted for manufacturer parameter evidence. All-preset direct analog-volume assignment remains unknown;no local download,software/device operation orseller contact.
+
+### GP-50 — additional sold-out Indonesian hardware offers
+
+Checked **2026-11-04**. Search and opened item pages agree, but both use **month-old cached content**, not live checkout. These records supplement older seller observations.
+
+| Exact seller/item | Cached ask | Qualification |
+|---|---:|---|
+| [Primanada, shop15931156/item54256206946](https://shopee.co.id/Valeton-GP50-Multi-Effects-Pedal-Compact-GP-50-Multieffect-Gitar-Bass-i.15931156.54256206946), Kota Jakarta Utara | **Rp2.255.000; Habis** | Exact GP50 hardware title. Relative same-day arrival is not availability evidence. |
+| [Toko Gitar Medan, shop298126647/item55006208147](https://shopee.co.id/Efek-Gitar-Valeton-GP50-Original-Garansi-1-Tahun-i.298126647.55006208147), Kota Medan | **Rp2.250.000; Habis** | Title advertises **one-year warranty**; issuer, coverage, eligibility and regional applicability unverified. September12–15 delivery is stale. |
+
+Condition, working state, selected variant, firmware, bundle, adapter, shipping/tax and checkout total remain unknown. Neither ask establishes a verified new/used range or completed sale. Up-to-Rp10.000 late-arrival compensation is not deducted. Cached seller locations do not establish dispatch origin.
+
+The newly encountered [manufacturer GP-50.pdf index](https://www.valeton.net/wpfd_file/gp-50-pdf/) displays65.06KB and10-07-2026 metadata; its file redirects to an inaccessible endpoint. Document purpose, revision and body are unverified: it is not treated as the current user manual or evidence of global expression assignment. Preserve the existing1.0.5/1.1.0 distinction and unresolved controller/output coverage. No download, seller contact or device operation.
 
 ## GP-100
 
