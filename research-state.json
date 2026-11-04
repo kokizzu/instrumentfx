@@ -25707,7 +25707,23 @@
         "used": "no condition-verified ask"
       },
       "expression": "SYSTEM assignments shared across patches; PATCH COM LEVEL/SUBOUT LEVEL targets; HOLD recall separate; all-route coverage and numeric endpoints unverified",
-      "next": "Complete power/control/category/firmware/software/import/practice profile and signal coverage before active admission; preserve LCD-first, GT-Pro and compact-expression queues."
+      "next": "Complete power/control/category/firmware/software/import/practice profile and signal coverage before active admission; preserve LCD-first, GT-Pro and compact-expression queues.",
+      "support_followup": {
+        "checked_date": "2026-11-04",
+        "firmware": "Support lists1.03; pulse-width patch recall, intermittent CTL assignment and MIDI BULK DUMP fixes; release date and installed version unverified",
+        "power": "2025-07-15 table explicitly SY-300→PSA-230S;9VDC500mA supply; PSA-S article centre-negative; device400mA separate",
+        "windows_editor": "Tone Studio1.1.1 March2017; current page listsWin11/10/8.1/7;driver andAdobeAIR dependencies;no local test",
+        "mac_editor": "1.1.1 Sierra introduction separate from driver1.0.5 Sonoma14.x later;current Exclusive Application matrix unverified",
+        "sources": [
+          "https://www.boss.info/global/support/by_product/sy-300/",
+          "https://www.boss.info/global/support/by_product/sy-300/updates_drivers/8c1edfa9-e004-4fc3-a7e3-a9759d8b5df9/",
+          "https://static.roland.com/assets/media/pdf/roland_ac_adaptor_information.pdf?lang=nl-NL",
+          "https://support.roland.com/hc/en-us/articles/201953449-BOSS-PSA-S-Adaptor-Specifications",
+          "https://www.boss.info/global/support/by_product/sy-300/updates_drivers/d1028fba-fc20-4d8a-82b9-bda8357aea46/",
+          "https://www.boss.info/global/support/by_product/sy-300/updates_drivers/391a4df2-958b-42f8-b089-146a978d71c1/"
+        ],
+        "next": "Partial outside402;currentMac application matrix,controls/category census,USB/battery/import/practice fields and volume endpoints/route coverage unresolved;preserve independent queues."
+      }
     }
   ],
   "inventory_by_brand": {
@@ -160271,6 +160287,22 @@
       "used": "no condition-verified ask"
     },
     "expression": "SYSTEM assignments shared across patches; PATCH COM LEVEL/SUBOUT LEVEL targets; HOLD recall separate; all-route coverage and numeric endpoints unverified",
-    "next": "Complete power/control/category/firmware/software/import/practice profile and signal coverage before active admission; preserve LCD-first, GT-Pro and compact-expression queues."
+    "next": "Complete power/control/category/firmware/software/import/practice profile and signal coverage before active admission; preserve LCD-first, GT-Pro and compact-expression queues.",
+    "support_followup": {
+      "checked_date": "2026-11-04",
+      "firmware": "Support lists1.03; pulse-width patch recall, intermittent CTL assignment and MIDI BULK DUMP fixes; release date and installed version unverified",
+      "power": "2025-07-15 table explicitly SY-300→PSA-230S;9VDC500mA supply; PSA-S article centre-negative; device400mA separate",
+      "windows_editor": "Tone Studio1.1.1 March2017; current page listsWin11/10/8.1/7;driver andAdobeAIR dependencies;no local test",
+      "mac_editor": "1.1.1 Sierra introduction separate from driver1.0.5 Sonoma14.x later;current Exclusive Application matrix unverified",
+      "sources": [
+        "https://www.boss.info/global/support/by_product/sy-300/",
+        "https://www.boss.info/global/support/by_product/sy-300/updates_drivers/8c1edfa9-e004-4fc3-a7e3-a9759d8b5df9/",
+        "https://static.roland.com/assets/media/pdf/roland_ac_adaptor_information.pdf?lang=nl-NL",
+        "https://support.roland.com/hc/en-us/articles/201953449-BOSS-PSA-S-Adaptor-Specifications",
+        "https://www.boss.info/global/support/by_product/sy-300/updates_drivers/d1028fba-fc20-4d8a-82b9-bda8357aea46/",
+        "https://www.boss.info/global/support/by_product/sy-300/updates_drivers/391a4df2-958b-42f8-b089-146a978d71c1/"
+      ],
+      "next": "Partial outside402;currentMac application matrix,controls/category census,USB/battery/import/practice fields and volume endpoints/route coverage unresolved;preserve independent queues."
+    }
   }
 }

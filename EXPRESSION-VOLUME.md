@@ -797,3 +797,5 @@ FM3 MKII Turbo [digital source andEQ qualifications](brand/FRACTAL-AUDIO.md#fm3-
 ### BOSS SY-300 — partial system-assignment lead
 
 [Own e02 parameter-guide findings](brand/BOSS.md#sy-300--partial-discovery-lead) establish **SYSTEM expression assignments shared across patches**, separately from EXP PEDAL HOLD recall. PATCH COM LEVEL and SUBOUT LEVEL targets are documented; numeric endpoints and bypass/USB/headphone/tail/loop coverage remain unverified. No built-in treadle; 255W×191Dmm exceeds the preferred footprint. Shared MAIN L/PHONES output and configurable onboard patch down/up are separate facts. Partial lead outside active counts; do not read system assignment as an all-route mute guarantee.
+
+SY-300 [firmware1.03 assignment correction](brand/BOSS.md#sy-300--firmware-assignment-fixes-and-named-supply-evidence) is relevant to its documented SYSTEM control mode, but does not verify installed firmware or complete volume coverage. Named PSA-230S mapping establishes supply requirements independently of pedal wiring.
