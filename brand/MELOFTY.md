@@ -22,6 +22,7 @@ Consolidated **2026-11-04** from the revision-qualified findings below; this is 
 | Connections / power / body | Guitar TS, mic/line combo with switchable48V phantom, two sends/two returns, TS/XLR stereo mains, phones, EXP, MIDI IN/OUT-THRU and USB-C. Phones6.35mm is corroborated in several manuals; German specification3.5mm conflict remains. 9VDC/3A center-negative;381×230×73mm axes unlabeled;3.45kg. USB bus power is not established. |
 | Loading / sound engines | Manufacturer documents WAV IR loading, .nam import and proprietary MFIM capture separately from Synth/Inst.Sim. NAM architecture/conversion limits, exact creative algorithms and input-note polyphony remain unresolved. Importer instrument examples and independent capacity claims retain their own evidence grades. |
 | Software / live features | AXOM Controller desktop and Bluetooth mobile control; current Apple mobile minimum differs from older flyer. USB8-in/8-out routing is documented, but sample-rate claims conflict. Six scenes, looper-context preset navigation, loop-audio import/export and full-backup workflow are documented; preset navigation and loop retention must not be generalized across modes. |
+| Software / editor continuity | [Editor save prompts and Tail-Spill](#axom-max--editor-save-prompts-and-tail-spill-scope): global setting documented; effect/preset continuity and pedal coverage remain unverified. |
 | Software / network services | [V1.7.4 network and Cloud scope](#axom-max--cloud-object-types-and-update-source-details): Wi-Fi login, five separate sound-file categories and an on-device update checker. These do not establish private/full backups, NAM export or current firmware availability. |
 | Indonesia hardware | No qualified exact Shopee offer, live stock or separate new/used IDR established. Seller/accessory/bundle identity must be checked before adding a price. |
 
@@ -389,3 +390,13 @@ Checked **2026-11-04**, [manufacturer German V1.7.4 manual,PDFpp40–43](https:/
 - Output MIDI targets are distinct from EXP1/EXP2/EXP3 parameter targets. They do **not** prove direct analog EXP3 global assignment,full-mute endpoints,source/tail/recorded-loop coverage,power-cycle recall orscreen technology. Those questions remain open.
 
 Partial lead remains outside active counts. No qualified exact Shopee hardware surfaced;no device operation,software download orMIDI command transmission occurred. Requested separate-screen research remains first priority.
+
+### AXOM MAX — editor save prompts and Tail-Spill scope
+
+Checked **2026-11-04**, [manufacturer German V1.7.4 manual,PDFp59](https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347). Original AXOM Controller chapter; current firmware equivalence untested.
+
+- The desktop editor’s global-settings window lists **Tail-Spill** alongside screen brightness, USB audio and reset. The chapter does not define supported effects, duration, preset/scene transitions, bypass behavior or loop continuity. A named global control does not establish seamless switching or external EXP3 attenuation of tails.
+- Changing the preset name, color or parameters triggers a save prompt when switching presets in the editor. This is a prompt, not documented automatic saving or hardware-only switching behavior.
+- Its pedal-editing instructions name **EXP1/EXP2** with per-parameter minimum/maximum values; the hardware chapter separately identifies **EXP3(EXT)**. The abbreviated editor description does not prove external-pedal editing is unsupported. Global-volume assignment remains unresolved.
+
+No qualified exact Shopee hardware offer surfaced in the targeted search. Partial lead remains outside active counts; no software download, device operation or workflow use.

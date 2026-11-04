@@ -159824,5 +159824,25 @@
     "qualification": "Notmastervolume/EXPendpoints;current12andactualnoise/headroomunverified;nottransferredfromMKIIsibling.",
     "next": "Requestedseparatescreenshortlist;exactcondition-qualifiedpreMKIITurbooffers,globalEXPendpoints/recall/fullcoverageandcurrentinventoryremainopen.",
     "inventory_count_unchanged": 402
+  },
+  "axom_editor_tail_scope_20261104": {
+    "checked": "2026-11-04",
+    "model": "MELOFTY AXOM MAX",
+    "source": "https://shop.warwick.de/media/33/3e/c1/1790324347/2itz_MEL_AXOM_MAX_Manual_DE.pdf?ts=1790324347",
+    "revision": "Manufacturer German V1.7.4 PDFp59,AXOM Controller chapter",
+    "finding": [
+      "Global editor Tail-Spill control is documented; transition/effect/bypass/loop scope unspecified",
+      "Editor save prompt on preset change is not autosave",
+      "Editor EXP1/2 description does not negate separately documented external EXP3"
+    ],
+    "remaining": [
+      "Mini-screen manufacturer census/technology",
+      "Tail-Spill behavior and external pedal attenuation",
+      "Current-firmware equivalence",
+      "Qualified exact Shopee hardware"
+    ],
+    "market_access": "Targeted exact Shopee search returned no qualified hardware; not market absence",
+    "active_inventory_changed": false,
+    "next": "Continue other accessible requested separate-footdisplay hardware/specification gaps; retain independent general and expression queues."
   }
 }

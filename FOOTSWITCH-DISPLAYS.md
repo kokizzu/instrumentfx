@@ -195,3 +195,5 @@ Prime [split alignment andoutput-gain limits](brand/HEADRUSH.md#prime--split-pat
 Stadium XL’s [IDR evidence](brand/LINE6.md#helix-stadium-xl-floor) now includes a separate Nafiri Rp36.64m sold-out indexed ask. It is historical unavailable retail evidence,not live stock orShopee pricing;older exact Shopee offers remain separately qualified.
 
 Stadium XL [MIDI recall andtoggle-state boundaries](brand/LINE6.md#stadium-xl--midi-recall-and-toggle-state-boundaries) distinguish direct/next/previous snapshot commands andtoe-switch toggles;they do not add physical displays orverify analog pedal-volume coverage.
+
+AXOM MAX [editor save prompts and Tail-Spill scope](brand/MELOFTY.md#axom-max--editor-save-prompts-and-tail-spill-scope) are now distinguished from proven seamless preset switching; mini-screen technology and external global-volume coverage remain unresolved.

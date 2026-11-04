@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fractal): distinguish FM9 Turbo boost pad from volume control'
+        message='research(melofty): qualify editor save and Tail-Spill behavior'
     print(git('commit','-m',message))
