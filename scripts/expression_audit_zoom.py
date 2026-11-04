@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(line6): distinguish HX block and grouped bypass controls'
+        message='research(boss): document GT-Pro patch tempo and clock priority'
     print(git('commit','-m',message))

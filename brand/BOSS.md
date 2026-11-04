@@ -1931,6 +1931,7 @@ Current comparison summary, reviewed 2026-10-28. Discontinued rack guitar multi-
 | Display | Backlit **16×2-character LCD** plus **2-character seven-segment LED**; corroborated by the exact GT-PRO specification body in [BOSS Products Catalog 2008, PDF p21](https://images.static-thomann.de/pics/atg/atgdata/document/brochure/189895_broschure.pdf). Diagonal, color and touch remain unverified. |
 | Dimensions / mass | **482 W × 305 D × 89 H mm; 4.8 kg**. Far exceeds preferred 200 W × 140 D mm. |
 | Processing / categories | **44 catalogue entries: 22 shared FX families + 11 FX2-only + 11 other entries**, including external LOOP and FV. FX1 selects one of 22 families; FX2 one of 33. Catalogue and original manual p10 claim15 simultaneous effects; Japanese specifications also say13. [Primary-manual qualification](#gt-pro--owner-manual-count-claim-and-windows-driver-endpoints-source-details); counting basis unresolved. |
+| Live / patch tempo and MIDI clock | [Original manual pp55,74](#gt-pro--patch-tempo-and-midi-clock-priority): Master BPM40–250 is patch-specific; Auto follows incoming clock,otherwise patch BPM; Internal uses patch BPM. No cross-patch tempo hold orclock-transition continuity established. |
 | Processing / menu choices | **46 named preamps + 3 custom definitions**, two amp channels combinable. OD/DS **30+3 custom**; WAH **6+3 custom**; dedicated COMP **2 modes**; DELAY **12 types**; REVERB **7**; CHORUS **3 modes**. FX-family subtypes and full lists are in the detailed record; these are not additional simultaneous slots. |
 | Memory | **200 writable User + 200 protected Preset = 400**. Original patch lists verify **200 named User entries, U1-1 through U20-10**: English pp152–154 (150) plus German p155 (50). This establishes documented initial User-bank filling, not current used-unit contents or 400 protected factory presets. Shared custom definitions affect all referencing patches. |
 | Memory / selective factory restoration | Original GT-PRO manual p103 and Roland support article updated2024-10-22 distinguish **System** (system parameters, Harmonist scales, Auto Riff phrases and custom preamp/speaker/drive/wah definitions), **Quick** (User Quick Settings), and **user patches1-1–20-10**. Full initialization spans System→20-10. This is restoration of the selected data range, not extra memory or proof of current unit contents; back up edited data first. [Exact source details](#gt-pro--selective-factory-restoration-and-shared-data-scope). |
@@ -2620,6 +2621,14 @@ Checked **2026-11-04** against [BOSS Japan’s model-specific repair/support tab
 This qualifies the discontinued-model record with a dated manufacturer source. It doesnot prove Indonesian service arrangements,third-party repair impossibility,used-unit condition orthe availability ofaparticular replacement part. No repair quote,service request orseller contact wasmade. The listed elapsed time is not extrapolated beyond the table’s date.
 
 ExactShopeeIndonesia search still yielded no qualified GT-Pro hardware offer. GlobalFV precedence,other USB-mode channel counts,13/15effect-count reconciliation andpanel-image corroboration remain unresolved. Continue other accessible priority-model work whilepreserving this independent general cursor;no download ordevice operation.
+
+### GT-Pro — patch tempo and MIDI-clock priority
+
+Checked **2026-11-05** against indexed original [manufacturer owner manual,printedpp55,74](https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf),©2005 BOSS. Full PDF exceeds the reader limit; original page text was readable,not a visual diagram ordevice inspection.
+
+**Master BPM40–250 is set per patch**. MIDI Sync Clock has **Auto** and **Internal** options: Auto uses the patch BPM without received external MIDI clock, and follows external clock while received; Internal uses Master BPM. The manual says selecting Internal restores manual BPM editing when external synchronization has disabled it,and warns incoming-clock errors can cause timing problems. A connected device alone doesnot establish that it is sending clock.
+
+An external footswitch can provide Master BPM tap through ASSIGN. This doesnot establish onboard tap footswitches,global tempo hold across patch changes,USB-versus-DIN priority orseamless transition when clock arrives/disappears. The13-versus15 effects discrepancy,global FVprecedence andother USB-mode channel counts remain unresolved. No MIDI transmitted,settings changed,local download ordevice operation.
 
 ## GX-1
 

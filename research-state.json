@@ -166301,5 +166301,25 @@
     ],
     "next": "Continue remaining requested separate-screen model gaps; fresh searches repeated known offers/accessories. Preserve GT-Pro, expression-volume and independent general queues",
     "active_inventory_unchanged": 402
+  },
+  "gtpro_patch_clock_scope_20261105": {
+    "checked": "2026-11-05",
+    "model": "BOSS::GT-Pro",
+    "canonical": "brand/BOSS.md#gt-pro--patch-tempo-and-midi-clock-priority",
+    "source": "https://static.roland.com/assets/media/pdf/GT-PRO_OM.pdf",
+    "revision": "Copyright2005; indexed original printed55,74",
+    "findings": [
+      "Patch Master BPM40–250",
+      "Auto follows received external MIDI clock, falls back to patch BPM; Internal uses patch BPM and permits manual editing",
+      "ASSIGN supports external-switch tap; clock errors may impair timing"
+    ],
+    "remaining": [
+      "13vs15 simultaneous-effect counting",
+      "Global FV precedence andpath coverage",
+      "OtherUSB-mode channel counts andclock-port priority",
+      "Qualified exact Shopee hardware"
+    ],
+    "next": "Continue other accessible requested footswitch-display records and fresh hardware discovery; retain GT-Pro unresolved counts/FV/USB andindependent general queues",
+    "active_inventory_unchanged": 402
   }
 }
