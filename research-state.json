@@ -162480,5 +162480,37 @@
     ],
     "inventory_unchanged": 402,
     "next": "Continue remaining exact-model source and market checks; preserve independent display/expression/general queues."
+  },
+  "fx2000_full_manual_special_20261104": {
+    "checked_date": "2026-11-04",
+    "canonical": "brand/BEHRINGER.md#fx2000--recovered-full-manual-and-special-processing-limits",
+    "source": "https://cdn-media.empowertribe.com/14fb57d60cbf45b5bba9eb2663a77dc4/FX2000_P0A3P_M_EN.pdf",
+    "revision": "28PDF pages ©2011,printed11–12,23; current firmware untested",
+    "resolved": [
+      "Full original manufacturer manual now readable from current product link",
+      "Sampler loop/overdub controls qualified",
+      "Generated vocoder carriers and ring-generator roles separated"
+    ],
+    "offer": {
+      "seller": "MB Sounds",
+      "shop": "274951125",
+      "item": "4242379688",
+      "region": "Kota Jakarta Barat",
+      "direct_cached_idr": 3253000,
+      "direct_age": "last week",
+      "search_cached_idr": 3141000,
+      "search_age": "2months",
+      "stock": "Habis cached",
+      "condition": "unknown",
+      "mains_variant": "unknown"
+    },
+    "remaining": [
+      "Display visual/dimensions conflict",
+      "Sampler retention across power-off",
+      "Measured tracking/polyphony",
+      "Qualified used/new current stock and regional mains variant"
+    ],
+    "inventory_unchanged": 402,
+    "next": "Continue other remaining exact-model gaps and fresh Shopee discovery; independent queues preserved."
   }
 }

@@ -438,6 +438,24 @@ Direct analog position/range/recall are inapplicable to the listed connections. 
 
 Additional exact hardware ask: **Rp3,378,000, Habis**, NEO MUSIC, Kota Sukabumi, [shop158235298/item10932719769](https://shopee.co.id/Behringer-FX2000-High-Performance-3D-Multi-Engine-Effects-Processor-i.158235298.10932719769), two-month search cache showing stale August9–10 delivery. Condition, regional mains variant, bundle, warranty, voucher, shipping/tax and checkout remain unverified. Late-delivery compensation is not a discount. Not a live-stock or confirmed new/used quote. No downloads or device test.
 
+### FX2000 — recovered full manual and special-processing limits
+
+Checked **2026-11-04**. [Current manufacturer page](https://www.behringer.com/en/products/0828-AAG) links this readable [28-page full manual](https://cdn-media.empowertribe.com/14fb57d60cbf45b5bba9eb2663a77dc4/FX2000_P0A3P_M_EN.pdf),©2011,printed pp11–12,23. This resolves the earlier full-body access gap; visual inspection and current-firmware equivalence remain unverified. Old endpoints and findings are preserved.
+
+| Field | Evidence / qualification |
+|---|---|
+| Looper / sampler controls | SAMPLER57 supports five seconds, forward/backward playback, Loop/Once modes and **Overdub Gain**. REC and overdub gain each−12…0dB. Effect change erases audio. This establishes short-loop/overdub controls, not persistent song storage or an independently available looper beside another algorithm. |
+| Synth / vocoder carrier | VOCODER58 modes **In-L, Pulse, Noise** qualify the prose’s external-left-carrier example; right input supplies modulation. Generated carriers do not establish note-tracking synthesis or chord tracking. |
+| Synth / generator distinction | RING MODULATOR54 SINE replaces input with a randomly modulated sine tone. RESONATOR60 instead processes resonance with LFO/envelope/random modulation. Neither establishes a general tracking synth. |
+
+### FX2000 — additional exact sold-out hardware snapshot
+
+| Price class | Amount | Offer and limits |
+|---|---:|---|
+| Condition-unverified sold-out ask | Rp3.253.000 | [MB Sounds,shop274951125/item4242379688](https://shopee.co.id/Behringer-FX2000-FX-2000-3D-Multi-Effects-Processor-ORIGINAL-i.274951125.4242379688),KotaJakartaBarat. Direct reader shows last-week cache,**Habis**,relative Besok delivery. Older two-month search snippet showsRp3.141.000;different snapshots,not verified price movement. Checked2026-11-04. Condition,stock at checkout,mains variant,bundle,warranty,voucher,shipping/tax andtotal remain unknown. Original in title does not establish new condition;late-delivery compensation is not deducted. |
+
+No filesystem download, software installation or device operation.
+
 ## V-AMP 2
 
 <!-- comparison evidence begins -->

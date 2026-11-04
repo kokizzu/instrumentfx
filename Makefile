@@ -2484,3 +2484,7 @@ research-commit-transport:
 .PHONY: research-stage-yamaha
 research-stage-yamaha:
 	python3 scripts/yamaha_catalogue.py stage
+
+.PHONY: expression-audit-stage-behringer
+expression-audit-stage-behringer:
+	python3 scripts/expression_audit_behringer.py stage
