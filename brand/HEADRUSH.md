@@ -464,6 +464,7 @@ USB Transfer supports individual rig,setlist,model-preset,loop andIR files;folde
 
 | Required field | Model-specific finding / qualification |
 |---|---|
+| Memory / MIDI-preset list | [4.1.1 visibility and Scene-copy fixes](#prime--saved-midi-preset-visibility-and-scene-portability):15 visible MIDI Out presets was a dropdown defect,not a documented capacity ceiling. Current storage maximum remains unverified. |
 | Expression | Built-in with toe switch; one external 6.35 mm TRS EXP plus separate TS toe-switch input. Banks of assignments and multiple-parameter control documented. [PR-M pp.7–9] |
 | Expression / assignment modes | [Prime FAQ](https://support.headrushfx.com/en/support/solutions/articles/69000834532-headrush-prime-frequently-asked-questions), checked 2026-11-03: Classic mode assigns one parameter per A/B bank and bypasses the previous target on toe change. Advanced mode assigns up to four per bank; switching leaves previous parameters active at maximum. External EXP controls C/D; without a toe switch only C is accessible. Momentary/latching toe type is configurable. These bank behaviors do not establish global volume assignment or numeric endpoints. |
 | Expression / 5.2 Auto-Engage and recall | Saved [own5.2 guide,printedpp37–38](https://cdn.inmusicbrands.com/Software/SGEE/52/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.2.0.pdf), read **2026-11-03**: **Auto-Engage supports two parameters per A/B/C/D bank**, with Off Position **Toe Up,Toe Down orStop** and **Off Delay0–5000ms**. Reaching that position bypasses the assigned target(s) after the delay; toe switching selects the other bank and bypasses the previous targets, as in Classic. Classic-assigned parameters are locked against editing elsewhere; Advanced/Auto-Engage parameters remain editable. Saving recalls the internal **A/B bank state**, not proven held-pedal position. Assignment range uses percentages of the target’s own range, not a universal dB/mute range. These rig-level settings do not establish global volume or headphone/tail/loop coverage. No device operation. |
@@ -956,6 +957,14 @@ Checked **2026-11-05**, [manufacturer cumulative Prime5.2.0 release notes,Octobe
 - A **Gain Reduction Meter** is added toall effects inthe Compressor category. It visualizes compression;it doesnot addanother compressor slot ornew physical display.
 
 No audio/device test,download ornew condition-qualified Shopee offer. General queue continues withoriginalGE300;retain separate OLED dimensions,rig/IR capacity andglobalexpression coverage gaps.
+
+### Prime — saved MIDI-preset visibility and Scene portability
+
+Checked **2026-11-05**, [manufacturer Prime5.2.0 cumulative release notes,4.1.1 history,PDFp6](https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Prime%20Firmware%20Update%20Instructions%20v5.2.0.pdf). The document is headedOctober2026;that date is not assigned to the older4.1.1 release.
+
+**4.1.1** fixes the MIDI Out preset dropdown exposing only **15 saved presets**. This describes a selection/display defect;it does not establish a15-preset storage ceiling or the current maximum. It separately fixes a Scene’s MIDI Out message failing after copying its rig to another HeadRush device. That claim does not certify every model/firmware combination,USB-MIDI hosting or NAM/clone cross-version compatibility.
+
+The same history fixes Remote/device disagreement after changing Tempo on Hardware Assign,and failure to dismiss Remote’s Save Rig dialog when dismissed on the hardware. These are editor-state corrections,not extra memory or physical footswitch displays. Installed behavior,regression status and current MIDI-preset capacity remain unverified. No MIDI sent,rig copied,software downloaded ordevice operated.
 
 ## VX5
 

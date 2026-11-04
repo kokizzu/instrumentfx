@@ -167586,5 +167586,21 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Keep G1u partial;resume LCD-first/Shopee andindependentGP-200JR->Prime->GE300,GT-Pro,expression/consolidation queues."
+  },
+  "prime_midi_visibility_portability_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/HEADRUSH.md#prime--saved-midi-preset-visibility-and-scene-portability",
+    "source": "https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Prime%20Firmware%20Update%20Instructions%20v5.2.0.pdf",
+    "revision": "5.2.0 October2026 cumulative notes,4.1.1 history PDFp6;no release-date transfer",
+    "finding": "15 visible MIDI Out presets was fixeddropdown issue,not proven storage ceiling;Scene MIDI message after cross-device rig copy separately fixed",
+    "remote_fixes": "HardwareAssignTempo mismatch andSaveRigdialog dismissal",
+    "remaining": [
+      "Current numerical MIDI-preset/rig/IR capacity",
+      "Installed behavior andcross-device firmware combinations",
+      "OLED physical specifications",
+      "Qualified Shopee stock/condition"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Original GE300 next inindependentgeneralqueue;retain requestedindividualfootdisplay,expression,GT-Pro andconsolidation priorities."
   }
 }
