@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(line6): establish POD 2.0 controls and writable memory'
+        message='research(line6): document POD 2.0 effect selections and routing limits'
     print(git('commit','-m',message))

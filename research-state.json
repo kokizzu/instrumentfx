@@ -167355,5 +167355,30 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Keep POD2.0 partial outsideactive inventory;continue requested individual-footdisplay models,qualified Shopee discovery andindependentGP-200JR->Prime->GE300,GT-Pro andexpression queues."
+  },
+  "pod20_effects_generation_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/LINE6.md#pod-20--effect-selections-and-generation-dependent-routing",
+    "sources": [
+      "https://manualmachine.com/line6/pod20/2646126-user-manual/",
+      "https://line6.com/support/page/kb/legacy-products/pod/pod-20-podxt-family-pocket-pod-floorpods/original-pod-amp-pod-20-faqs-r497/"
+    ],
+    "revisions": "Original handbook software2.0 RevF,foldout/3•12/5•1–6;manufacturer FAQ originally2008-07-28",
+    "selector_choices": 16,
+    "simultaneous_total_unverified": true,
+    "findings": [
+      "Selector combines effects;not16simultaneous slots",
+      "Separate Reverb andFloorBoard/MIDI delay enabling",
+      "Headphones override AMP A.I.R. setting inRevF",
+      "FAQ newerFBV3digitLCD and2.1->2.2spillover removal aregeneration-specific"
+    ],
+    "remaining": [
+      "Power andfootprint/mass",
+      "Current used-unit firmware anddisplay properties",
+      "Qualified Shopee offers",
+      "Global controller-volume endpoints,recall andcoverage"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue requested individual-display priority andShopee discovery;preserve independentGP-200JR->Prime->GE300,GT-Pro,expression/consolidation queues."
   }
 }

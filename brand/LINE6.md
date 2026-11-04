@@ -2273,6 +2273,18 @@ Checked **2026-11-05**, [manufacturer Pilot’s Handbook RevB,part40-00-0206,PDF
 
 Screen technology/diagonal,dimensions/mass,power,full processing census andqualified Shopee hardware remain unresolved. Partial lead stays outside active402;older controller-generation andexpression qualifications preserved.
 
+### POD 2.0 — effect selections and generation-dependent routing
+
+Checked **2026-11-05** in the manufacturer **version2.0 Pilot’s Handbook RevF**, [original reproduction](https://manualmachine.com/line6/pod20/2646126-user-manual/),foldout andprinted3•12,5•1–6. This is the Floor Board/FB4 generation,not automatic FBV equivalence.
+
+**Sixteen selector positions:** Bypass;Compressor;Tremolo;Chorus1;Chorus2;Flanger1;Flanger2;Rotary Speaker;Delay;Delay/Compressor;Delay/Tremolo;Delay/Chorus1;Delay/Chorus2;Delay/Flanger1;Delay/Flanger2;Delay/Swell. These are choices/combinations,not16 simultaneous blocks. Reverb remains separately available;Floor Board/MIDI can enable delay while another effect is selected. No unrestricted all-effect concurrency inferred.
+
+Compressor precedes the amp;Chorus1/2 use square/sine modulation. Flanger1 has no predelay;Flanger2 is inverted/deeper. Rotary ramps between two speeds. Delay/Swell supplies automatic volume attacks,not tracked synthesis orglobal pedal assignment. **Connecting headphones overrides AMP A.I.R. selection**,reenabling speaker/room/microphone processing; this narrows the preceding RevB routing summary. Installed behavior untested.
+
+The [manufacturer legacy FAQ](https://line6.com/support/page/kb/legacy-products/pod/pod-20-podxt-family-pocket-pod-floorpods/original-pod-amp-pod-20-faqs-r497/),originally2008-07-28,rechecked2026-11-05,describes newer FBV hardware as having a **three-digit LCD** anddifferent processor;diagonal/color/touch remain unknown. Its2.1→2.2 comparison says **delay spillover was removed for Latch Mode**. This dates a discontinuity;it does not certify a specific used unit’s firmware orpreserve tails across every later revision.
+
+Power ratings,unit dimensions/mass,qualified Shopee offers andcontroller-volume endpoint/recall/output coverage remain unresolved. Partial lead remains outside active402;older sources andgeneration distinctions retained.
+
 ## POD Express Bass
 
 **New bass-specific model, checked2026-10-15.** A separate hardware/sound-library record, not a color option for POD Express Guitar. The official Bass product and joint2.00 manual explicitly document the following common hardware and different processing path. This record remains partial. Dimensions were repaired from the joint manufacturer announcement on2026-10-17; platform-specific OS minima need separate evidence.
