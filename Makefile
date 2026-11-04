@@ -2458,3 +2458,7 @@ brand-sort-plan-valeton:
 
 brand-sort-apply-valeton:
 	python3 scripts/brand_sort.py apply brand/VALETON.md
+
+.PHONY: preservation-review-ge100-pro
+preservation-review-ge100-pro:
+	python3 scripts/preservation_review.py effects/findings/2026-10-14-mooer-ge100-pro.md

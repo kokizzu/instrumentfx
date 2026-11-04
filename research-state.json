@@ -162265,5 +162265,16 @@
     "validation": "Both consolidation checks now pass the GT-1000CORE supporting-cell assertion, then fail at a separate original-body mismatch for effects/findings/2026-10-14-mooer-ge100-pro.md. This repair is not a full preservation pass.",
     "next": "Commit validated BOSS restoration before inspecting the MOOER GE100 Pro body mismatch. Preserve all priority research queues.",
     "inventory_changed": false
+  },
+  "ge100pro_original_preservation_repair_20261104": {
+    "model": "MOOER::GE100 Pro",
+    "checked_date": "2026-11-04",
+    "source": "effects/findings/2026-10-14-mooer-ge100-pro.md",
+    "canonical_section": "brand/MOOER.md#ge100-pro--consolidated-technical-and-market-observations",
+    "finding": "Registered historical body had7 later edited rows. Restore exact original outside current comparison-evidence range; retain all7 corrections in current consolidated technical/price tables. No evidence removed.",
+    "review_target": "make preservation-review-ge100-pro",
+    "status": "Exact GE100 Pro original verified by read-only review. Both complete consolidation checks advance past it, then fail at GE100 Pro Li original-body mismatch; overall preservation still failing.",
+    "next": "After committing this GE100 Pro repair, inspect GE100 Pro Li original-body mismatch. Preserve all later corrections and priority research queues.",
+    "inventory_changed": false
   }
 }

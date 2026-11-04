@@ -13,7 +13,7 @@ if __name__ == '__main__':
     comparison_views.verify_views()
     comparison_views.test_readme_brand_counts()
     comparison_views.test_validation_counts()
-    allowed = {'CREATIVE-EFFECTS.md', 'brand/MOOER.md', 'all-guitar.md', 'all-bass.md', 'all-vocal.md', 'research-state.json', 'scripts/mooer_catalogue.py', 'Makefile'}
+    allowed = {'CREATIVE-EFFECTS.md', 'brand/MOOER.md', 'all-guitar.md', 'all-bass.md', 'all-vocal.md', 'research-state.json', 'scripts/mooer_catalogue.py', 'scripts/preservation_review.py', 'Makefile'}
     changed = set(git('diff','--name-only').splitlines()) | set(git('ls-files','--others','--exclude-standard').splitlines())
     staged = set(git('diff','--cached','--name-only').splitlines())
     assert (changed | staged) <= allowed, (changed | staged) - allowed
@@ -40,4 +40,4 @@ if __name__ == '__main__':
         assert review['head'] == git('rev-parse','HEAD').strip(), 'HEAD changed since review'
         assert review['sha256'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest(), 'Staged diff changed since review'
         assert not git('diff','--cached','--check').strip(), 'Staged whitespace errors'
-        print(git('commit','-m','research(mooer): qualify Pro Li routing trails and manual revision boundary'))
+        print(git('commit','-m','docs(mooer): separate GE100 Pro updates from preserved original'))
