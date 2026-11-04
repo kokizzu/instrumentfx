@@ -704,6 +704,8 @@ Gen2 [regional footprint follow-up](brand/EVENTIDE.md#h9-gen-2--regional-body-di
 
 FM3 MKII Turbo [shared-jack restriction](brand/FRACTAL-AUDIO.md#fm3-mkii-turbo--shared-jack-expression-and-switch-exclusion):expression mode disables the ring-switch source;separate toe contacts require a separate supported connection. Actual M-VAVE wiring andglobal-volume range/recall remain unverified.
 
+FM3 MKII Turbo [global Performance Page qualification](brand/FRACTAL-AUDIO.md#fm3-mkii-turbo--home-preview-and-performance-page-persistence):common page assignments expose preset parameter aliases;they do not establish a global expression-volume destination. Existing MIDI/Remote global roles remain separate.
+
 Stadium XL [Matrix MIDI scope](brand/LINE6.md#stadium-xl--matrix-midi-layers-and-assignment-clearing-boundary) separately controls output layers andsources;it doesnot establish direct analog all-preset volume. Mono/stereo effect conversion clears controller/snapshot assignments even though parameter settings remain. Manufacturer [Stadium compatibility guidance](https://kb.line6.com/external-pedal-compatibility) names EX-1/EP1-L6;the [canonical record](brand/LINE6.md#helix-stadium-xl-floor) qualifies EP1-L6 electrical evidence separately. Compatible hardware doesnot establish global volume;XL has a built-in treadle.
 
 ### Walrus Audio ACS1 MKII — partial no-treadle discovery

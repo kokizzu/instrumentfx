@@ -885,6 +885,19 @@ Checked2026-11-04 against the [November2026 manufacturer Blocks Guide](https://w
 
 **Bit Crusher**, **Bit Reduce** and **Sample Rate** establish lo-fi processing. Bit Reduce subtracts from24-bit processing resolution:20 gives4-bit audio; Sample Rate adds intentional aliasing. These are effect controls, not hardware-converter specifications or synthesis. **Shimmer Drive** is a boost, not proof of shimmer reverb. **NoAmp Bass Pre** removes the modeled speaker emulation of NoAmp Bass DI; neither adds a hardware DI connector.
 
+### FM3 MKII Turbo — Home preview and Performance Page persistence
+
+Checked **2026-11-04** in the [manufacturer7.x manual, printedpp4,125–126](https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf). Its cover explicitly includes MKII Turbo; firmware13 behavior remains untested.
+
+| Field | Revision-qualified operation |
+|---|---|
+| Display / large-font preset preview | **7.x/MKII:** turn B for Home zoom. VALUE previews presets as dim text; **ENTER loads**. During preview,NAV left/right steps±1 anddown/up±10;after loading,NAV changes Scenes. Displayed preview is not a loaded preset. |
+| Display / Performance Page controls | **7.x/MKII:** Perform-GBL andPerform-PP each provide **ten control slots**,five per knob row. Pages remain displayed through preset/Scene changes. These are main-screen controls,not extra footswitches ormini LCDs. |
+| Editor / Performance Page assignments | **7.x/MKII:** configure pages in **FM3-Edit**. Global-page assignments persist without Store;per-preset page assignments require saving that preset. This describes page configuration,not automatic saving of parameter values. |
+| Memory / Performance Page parameter edits | **7.x/MKII:** controls alias the underlying block parameters. Store the preset to retain value edits;changing presets without saving discards them. A global page keeps common control assignments,not common parameter values across presets or global analog-volume assignment. |
+
+Existing MIDI/Remote global-volume roles remain separately documented. This text-only check establishes no new pedal-position recall,attenuation endpoint,strip diagonal/touch specification orcurrent stock. No download ordevice operation.
+
 ## FM3 original
 
 Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct from MKII Turbo; not fully verified and no ownership assertion. The earlier discovery heading and complete body follow as historical evidence. Their outside-inventory statements describe pre-admission checkpoints. This admission does not settle hardware variants, market availability or remaining specifications.

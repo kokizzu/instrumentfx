@@ -140981,6 +140981,23 @@
         "revision": "7.x; cover includes MKII Turbo; printed pp79,87,96",
         "finding": "24 per-preset switch-definition slots; factory layout6 exposes first12 Tap placeholders through four Views. Global override disable distinct from placeholders and analog expression assignment.",
         "remaining": "Firmware13 behavior untested; numeric global-volume endpoints/recall and unconditional output coverage remain unresolved."
+      },
+      "home_performance_scope": {
+        "checked": "2026-11-04",
+        "source": "https://www.fractalaudio.com/downloads/manuals/FM3/FM3-Owners-Manual.pdf",
+        "revision": "7.x;cover explicitly includes MKII Turbo;printed4,125–126",
+        "canonical": "brand/FRACTAL-AUDIO.md#fm3-mkii-turbo--home-preview-and-performance-page-persistence",
+        "finding": "Home zoom uses dim preset preview until ENTER;two Performance Pages of10slots each;global page assignments persist butparameter edits remain preset values andrequire preset Store",
+        "remaining": [
+          "Firmware13 behavior",
+          "Mini-LCD diagonal,color/touch andlabel limits",
+          "Global analog-volume endpoints,held-position recall andoutput coverage",
+          "Qualified current new/used stock"
+        ],
+        "marketplace": "Search recovered existing Hurtrock55801628505 and27200713719 sold-out/preorder/voucher snapshots;no new current offer adopted",
+        "next": "Line6 Helix Stadium XL Floor unresolved display/control/power details andexact Shopee offers;preserve expression-volume andgeneral GT-Pro queues",
+        "downloads": false,
+        "active_model_admissions": 0
       }
     },
     "fractal_fc": {
