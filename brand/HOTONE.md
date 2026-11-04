@@ -605,6 +605,7 @@ Reviewed **2026-10-15**. Guitar/bass multi-effects; **medium**, no built-in expr
 | Data / control | Two separate five-pin DIN MIDI IN/OUT sockets; USB-C; one EXP/CTRL socket. No Stage-style pair of EXP sockets or XLR outputs [P,M] |
 | Power | **9–18 V DC center-negative; 800 mA maximum at 9 V**. Internal battery and USB-powered operation not established; USB Audio 2.0 does not imply bus power [P] |
 | Editing | Full **Windows/macOS editor**, firmware/patch/IR management. Android/iOS/Linux full editing not established for MP-300; do not copy Stage's mobile application support [P,M] |
+| I/O / node levels and FX-send volume | [V2.5 node routing](#ampero-ii-stomp--node-levels-fx-send-volume-and-channel-wording): FX SND bypasses the physical VOLUME knob; node levels are not global EXP assignment. |
 | USB audio | **8-in/8-out**, reamp supported. Internal effect processing 24-bit/44.1 kHz; [V2.5 USB channel and driver/firmware boundaries](#ampero-ii-stomp--v250-usb-and-bypass-source-boundaries) now recorded; exact host-rate options remain unverified [P] |
 
 ### IDR evidence
@@ -711,6 +712,16 @@ Checked **2026-11-05**, [manufacturer V2.5.0 manual body](https://www.scribd.com
 - **Drums:** 40–300BPM; volume0–100. Leaving the page keeps playback running. Start drums before recording for synchronization; pattern/tempo and transport/half-speed/reverse changes can break sync. Pattern count remains unverified.
 - **Captures:** Sound Clone accepts amps, cabs, dirt/boost or combinations; excludes modulation, delay, reverb and clean-mixed drives. Standalone compressor/EQ cloning is discouraged, not declared impossible. Microphone capture needs an external preamp/interface feeding Input R; this does not add an onboard microphone input.
 - **Global EQ:** excludes USB audio and can overload DSP with demanding patches. This is separate from a proven expression-controlled global volume path.
+
+### Ampero II Stomp — node levels, FX-send volume and channel wording
+
+Checked **2026-11-05**, [manufacturer-authored V2.5.0 manual body,printed pp31–32](https://www.scribd.com/document/1074310624/Ampero-II-Stomp-Online-Manual-EN-Firmware-V2-5-0-1785405982280); original model/version verified,not the host-generated description. No feature-introduction version inferred.
+
+Input/output nodes offer **Mute,−60…+20dB**,default0dB; output Pan is **L50–Center–R50**,defaultCenter. Output targets include main outputs/phones andFX SND. **When targeting FX SND,the physical VOLUME knob does not work**;use the node’s output level. These are routing controls,not global EXP assignment orproof a pedal mutes every source.
+
+For the stereo **FX return**,the manual assigns **tip=left,ring=right**. This is audio-channel wiring,not expression-pot pinout orbalanced mono. Its USB paragraph calls **3/5/7 “even” and4/6/8 “odd”**,while mapping them left/right respectively. Preserve the arithmetic wording error;do not silently reverse the parenthetical channel mapping or claim a hardware test. Existing USB-channel qualifications remain.
+
+Direct-pedal all-output,tail/looper coverage and global-volume precedence remain unresolved. No local download,rewiring ordevice operation.
 
 ## Ampero Mini MP-50
 Current comparison summary, reconciled 2026-10-28 from the exact-model sources retained below. This does not certify current stock or every technical field. Earlier observations, revision conflicts and source bodies remain unchanged below.

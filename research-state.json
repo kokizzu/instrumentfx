@@ -166608,5 +166608,23 @@
     ],
     "next": "Independent GP-200JR→Prime→originalGE300 follow-up cycle published;continue remaining individual-display andno-treadle field gaps without restarting completed findings;preserve GT-Pro cursor",
     "active_inventory_unchanged": 402
+  },
+  "ampero2stomp_node_scope_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/HOTONE.md#ampero-ii-stomp--node-levels-fx-send-volume-and-channel-wording",
+    "source": "https://www.scribd.com/document/1074310624/Ampero-II-Stomp-Online-Manual-EN-Firmware-V2-5-0-1785405982280",
+    "revision": "Manufacturer V2.5.0 body,printed31–32",
+    "findings": [
+      "FX-send destination excludes hand VOLUME control",
+      "Node levels distinguished frompedal endpoints",
+      "TRS return channel roles andUSB odd/even wording error preserved"
+    ],
+    "remaining": [
+      "Global EXP assignment andprecedence",
+      "All-source,preserved-tail andlooper attenuation",
+      "Current qualified hardware offers"
+    ],
+    "next": "Continue incomplete no-treadle andrequested individual-display records;preserve GT-Pro andindependent general queue",
+    "active_inventory_unchanged": 402
   }
 }
