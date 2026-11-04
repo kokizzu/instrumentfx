@@ -5486,6 +5486,16 @@ Checked **2026-11-04**, [original English manual GFX-8-5000-2, printed pp32–34
 
 Partial profile remains outside active counts. Exact hardware condition/stock, visual corroboration and current software compatibility remain open. No download, MIDI transmission or device operation.
 
+### GFX-8 — conditional delay trails and patch-stored pedal range
+
+Checked **2026-11-04**, [original GFX-8-5000-2 English manual, printed pp25,29–31](https://zoomcorp.com/media/documents/E_GFX8.pdf).
+
+- **SEAMLESS** preserves delay for up to **3 seconds** after patch switching only when the destination patch also selects SEAMLESS. This is not arbitrary-patch delay/reverb spillover. TIME and SEAMTIME are separate controls; Hd retains the duration configured for that patch.
+- **RTM MIN/MAX** independently span 0–100% of the selected parameter’s maximum; MIN can exceed MAX to reverse the sweep. DRIVE, EQ, MOD and DLY/REV can have separate simultaneous assignments, saved with the patch.
+- **VOL_RTM** in TOTAL enables pedal volume when RTM is active. This patch setting does not establish a global assignment override. Volume position, volume-specific endpoints, bypass/headphone and trail attenuation remain unverified.
+
+Built-in treadle remains separate from direct external analog expression; no such input is listed. Partial profile stays outside active counts. No device operation or local download.
+
 ## GFX-707
 
 Original guitar multi-effects,not707II;checked2026-10-17;partial. [Official manual][GFX707-M],24pages,707-5000,pp2–7,17,22–24.

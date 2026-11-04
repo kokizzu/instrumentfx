@@ -162350,5 +162350,25 @@
     "status": "Master/bypass/tuner/lock/memory behavior qualified;partial outside402",
     "next": "Defer unsupported electrical/display/import fields;continue priority screen/Shopee lead. Preserve independent general GT-Pro andexpression queues.",
     "inventory_changed": false
+  },
+  "gfx8_trails_rtm_20261104": {
+    "checked_date": "2026-11-04",
+    "canonical": "brand/ZOOM.md#gfx-8--conditional-delay-trails-and-patch-stored-pedal-range",
+    "source": "https://zoomcorp.com/media/documents/E_GFX8.pdf",
+    "revision": "GFX-8-5000-2 English printed25,29–31",
+    "findings": [
+      "SEAMLESS destination-patch requirement; up to3s delay continuity, not arbitrary reverb spillover",
+      "RTM per-module reversible0–100% endpoints and patch storage",
+      "VOL_RTM conditional volume assignment is not a global override"
+    ],
+    "unresolved": [
+      "Volume-specific range and location",
+      "Bypass/headphone/trail attenuation",
+      "Exact hardware offer condition and current stock",
+      "Visual control corroboration and current editor compatibility"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue another unresolved Shopee-backed model profile; do not repeat unchanged GFX-8 sensor/accessory searches.",
+    "independent_queues_preserved": true
   }
 }
