@@ -154920,7 +154920,8 @@
         "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
         "pitch_followup_source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
         "special_followup": "November2026 Plex45 reference choices:fivecore algorithms+40variants;onePlexblock,DSP limited;internalvoicesnotinputpolyphony",
-        "special_followup_source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf"
+        "special_followup_source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+        "multidelay_followup": "November2026 reference39:sixcore+33variants;twoFM9instances,DSP limited;internal comb/ring/filter/chorus type-specific"
       },
       {
         "key": "Valeton::GP-150",
@@ -155241,6 +155242,26 @@
         "Global expression endpoints/coverage"
       ],
       "next": "Continue display-priority profiles andexactShopee hardware;preserve GT-Pro, GP-200JR → Prime → GE300,expression andconsolidationqueues"
+    },
+    "fm9_original_multidelay_20261104": {
+      "checked": "2026-11-04",
+      "canonical": "brand/FRACTAL-AUDIO.md#fm9-original--november-multi-delay-choices-and-internal-processing",
+      "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+      "revision": "November2026 pp3,62–68",
+      "core_types": 6,
+      "variants": 33,
+      "total_reference_choices": 39,
+      "fm9_instances": 2,
+      "qualification": "Internal taps/modulators are not extra blocks ortracking polyphony;VP4 additions not transferred;installed equivalenceunverified",
+      "active_inventory_unchanged": 402,
+      "additional_catalogue_matches_unchanged": 66,
+      "remaining": [
+        "Remaining category inventories",
+        "Installed firmware equivalence",
+        "Exactoriginal-revisionShopee stock",
+        "Global expression endpoints/coverage"
+      ],
+      "next": "Continue display-priority processor profiles andexactShopee hardware;preserve GT-Pro, GP-200JR → Prime → GE300,expression andconsolidationqueues"
     }
   },
   "hxstomp_own_category_census_20261103": {

@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='docs(eventide): reconcile H90 cached hardware evidence in volume comparison'
+        message='research(fractal): enumerate original FM9 Multi-Delay choices and limits'
     print(git('commit','-m',message))
