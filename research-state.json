@@ -164343,5 +164343,40 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue requested displaypriority andremaining category gaps;preserve independent GT-Pro,GP200JR→Prime→GE300,expression andconsolidation queues"
+  },
+  "mg50li_bandung_offer_package_20261104": {
+    "checked": "2026-11-04",
+    "canonical": "brand/NUX.md#mg-50li--manufacturer-package-versus-seller-bundle",
+    "manufacturer_source": "https://nuxaudio.com/product/mg50li/",
+    "package_scope": "Global manufacturer In theBox;not sellerbundle certification",
+    "offer": {
+      "url": "https://shopee.co.id/Nux-MG50Li-MG-50Li-Modeler-And-Profiler-Multi-Effect-i.16879370.53759194739",
+      "seller": "Seven Stereo Music & Audio Store",
+      "shop": "16879370",
+      "item": "53759194739",
+      "region": "Kota Bandung",
+      "ask_idr": 7510000,
+      "access": "Yesterday-old parameterized search;clean andparameterized directcachemiss",
+      "variations": [
+        "Blue",
+        "White"
+      ],
+      "display_model_id": "400815522132",
+      "selected_mapping": "unverified",
+      "condition": "unverified",
+      "stock": "unverified",
+      "bundle": "unverified",
+      "warranty": "unverified",
+      "voucher": "Late-arrival compensation up toRp10000 notdeducted;no upfrontdiscountestablished",
+      "checkout": "unverified"
+    },
+    "remaining": [
+      "Currentcondition/stock andselectedpackage",
+      "Technical count/conflict reconciliation",
+      "Algorithm-specificnotehandling",
+      "Global expression scope andoutputcoverage"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue freshexactShopee discovery andrequesteddisplaypriority;GT-Pro13/15,otherUSBmodes,FVprecedence andvisualpanel remain deferred;independentGP200JR→Prime→GE300,expression andconsolidationqueues preserved"
   }
 }

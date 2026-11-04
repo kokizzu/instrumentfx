@@ -778,7 +778,7 @@ Queries for Shopee Indonesia **NUX MG-30 MKII**, **MG30 MK2** and **MG30 MKII** 
 | Firmware / USB and tails | **English1.1.1,2026-07-31**: USB audio can reach XLR;Patch Tail Off cuts preset-change tails. Not proof of global EXP coverage. [Revision-qualified follow-up](#mg-50li--current-display-firmware-and-creative-choices). |
 | Editor / current support listing | Opened global page: NUX Audio **1.1.7.1,2026-09-14**;NUX IMAGE **1.1.0.1,2026-08-06**;Windows10+ ASIO **5.72.0**. These versions are distinct from hardware firmware;older indexed listings retained separately. |
 | Synth / pitch / special | Manufacturer names Harmonist,Detune,Octave-Shift,Reverse andShimmer. Input-note polyphony/ranges,dedicated synth andinstrument simulator remain unverified. [Exact palette](#mg-50li--current-display-firmware-and-creative-choices). |
-| Prices | Verified used/new IDR remain unknown. **Rp7.510.000** condition/stock-unverified exact Shopee asks,with unresolved variations;[offer qualifications below](#mg-50li--exact-shopee-hardware-offers). Foreign quotes remain separate. |
+| Prices | Verified used/new IDR remain unknown. **Rp7.510.000** condition/stock-unverified exact Shopee asks,including separately indexedBandung item16879370/53759194739;variations/bundles unresolved;[offer qualifications below](#mg-50li--exact-shopee-hardware-offers). Foreign quotes remain separate. |
 
 The previous review used official [front](https://www.nux.us/cdn/shop/files/MG-50LI.01.jpg?v=1768430650&width=2400) and [rear](https://www.nux.us/cdn/shop/files/MG-50LIWH.02.jpg?v=1768430739&width=2400) photos to verify controls,XLR and two send/return pairs. Checked English firmware1.1.1 was a dated snapshot. Domestic/Mandarin firmware and global/English firmware must not be interchanged by assumption.
 <!-- comparison evidence ends -->
@@ -863,7 +863,16 @@ Checked **2026-11-04**. These cached listings name the processor;selected variat
 | [TOKOAUDIOPRO.COM,shop253483262/item20963440637](https://shopee.co.id/Nux-MG50-LI-Multieffect-Modeler-Profiler-Nux-Mg-50Li-Multi-Effects-Processor-for-Guitar-and-Bass-Multi-Efek-Gitar-Nux-MG50Li-i.253483262.20963440637),KotaJakartaPusat | **Rp7.510.000** | Two-week clean-title search;three-day parameterized snapshot shows **two variations**,display_model_id365815730200. Variation name/bundle unresolved;direct clean reopening failed. Do not assume that identifier selects a particular color orpackage. |
 | [HOLY MUSIC,shop945642322/item51558487289](https://shopee.co.id/NUX-MG-50LI-MG50LI-MG-50-Li-MULTI-EFFECT-PROCESSOR-NEW-ARRIVAL-LITHIUM-i.945642322.51558487289),KotaJakartaUtara | **Rp7.510.000** | Last-week search/three-week opened snapshot;**navi/putih** variation labels. Neither selected-variant checkout norlive inventory established. “NEW ARRIVAL” is title text,not verified sale condition. |
 
-Both:working state,regional hardware/firmware,adapter/bundle,warranty,shipping/tax andcheckout unknown. Relative delivery promises are not stock confirmation;late-delivery compensation isnot deducted. Covers andshop/category-only hits excluded. No ownership inferred;active membership unchanged.
+| [Seven Stereo Music & Audio Store,shop16879370/item53759194739](https://shopee.co.id/Nux-MG50Li-MG-50Li-Modeler-And-Profiler-Multi-Effect-i.16879370.53759194739),KotaBandung | **Rp7.510.000** | Additional exact MG-50Li hardware ask,checked2026-11-04. Yesterday-old parameterized search snapshot exposes **Blue/White** labels anddisplay_model_id400815522132;identifier-to-color/bundle mapping unverified. Clean andparameterized direct reopening both cachemiss. November4–5 delivery isnot live-stock proof. No condition declaration orselected checkout established;not a verified new/used range. |
+
+All three:working state,regional hardware/firmware,adapter/bundle,warranty,shipping/tax andcheckout unknown. Relative delivery promises are not stock confirmation;late-delivery compensation isnot deducted. Covers andshop/category-only hits excluded. No ownership inferred;active membership unchanged.
+
+### MG-50Li — manufacturer package versus seller bundle
+
+Checked **2026-11-04**, [global manufacturer product page, In the Box](https://nuxaudio.com/product/mg50li/): MG-50Li,bag,USB-C cable,**two MIDI conversion cables**,power adapter,**two pedal toppers**,NBT-1 andUSB-A-to-USB-C converter. This ismanufacturer package documentation,not verification that any Shopee variation includes every item. Do notborrow contents between sellers,regional packages orused units.
+
+The separate Bandung offer above remains search-only;itsBlue/White labels do not certify region,installed firmware,working state oraccessory contents. Existing technical conflicts andprevious ask dates remain unchanged.
+
 
 ## MG-100
 
