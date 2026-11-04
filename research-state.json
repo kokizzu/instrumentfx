@@ -163999,5 +163999,40 @@
     "package_conflict": "Current quick start omits preinsertedmicroSD listedinRevB1.2;notproof ofcurrentbundle",
     "active_inventory_unchanged": 402,
     "next": "Finish non-XL physical/power/connectors andcontrol scope whenaccessible;requested individual-display models retain priority;preserve GT-Pro/general andexpression queues"
+  },
+  "stadium_floor_physical_control_20261104": {
+    "checked": "2026-11-04",
+    "sources": [
+      "https://shop.sg.yamaha.com/helix-stadium-floor.html",
+      "https://manuals.line6.com/en/helix-stadium/live/external-pedal-and-switch-controller-configuration",
+      "https://manuals.line6.com/en/helix-stadium/live/global-settings"
+    ],
+    "scope": "Yamaha regional manufacturer-group table plus exact non-XL controller instructions;not seller certification",
+    "canonical": "brand/LINE6.md#stadium-floor--physical-profile-and-shared-control-jack",
+    "body_mm": {
+      "width": 408,
+      "depth": 241,
+      "height": 82
+    },
+    "mass_kg": 3.4,
+    "preferred_footprint": false,
+    "headphones": "Quarter-inch stereo per Yamaha table",
+    "preset_down_up": "FS1/FS7 selectable independently from banks/snapshots/songs/markers",
+    "expression": "Single shared TRS A/B;TS EXP1 versus automatic Volume EXP2;global position not assignment",
+    "conflicts": [
+      "Yamaha Treadle2/EXP toe wording versus explicit no built-in pedal",
+      "512 preset table parenthetical not arithmetic capacity",
+      "Introductory EXP2-to-EXP2 typo versus detailed EXP1/2 setup"
+    ],
+    "remaining": [
+      "Exact input power rating",
+      "Complete I/O verification",
+      "Creative algorithms/category andfactory/user census",
+      "Global volume assignment/endpoints/recall/route coverage",
+      "Qualified exact new/used Shopee offers"
+    ],
+    "market": "Exact Shopee non-XL search returned no qualified offer;not market absence",
+    "active_inventory_unchanged": 402,
+    "next": "Prioritize checking Yamaha-table XL OLED diagonal against current XL evidence,then remaining non-XL fields;preserve GT-Pro/general andexpression queues"
   }
 }

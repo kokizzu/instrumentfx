@@ -777,6 +777,21 @@ Checked **2026-11-04**. Exact **non-XL** model; partial discovery outside the402
 
 **IDR hardware:** exact Shopee searches fornon-XL returned no qualified seller/item. XL's Rp41.22m offers remain XL-only;no conversion ormarket-absence claim. New/used asks,condition,stock,region,bundle,warranty andvouchers remain unverified. No local download,connection ordevice test. Global analog volume assignment,position/range/recall,bypass/headphone/tail/looper coverage remain open.
 
+### Stadium Floor — physical profile and shared control jack
+
+Checked **2026-11-04**. [Yamaha Singapore’s exact Floor table](https://shop.sg.yamaha.com/helix-stadium-floor.html), three-week cached page, is regional manufacturer-group documentation, not an Indonesian offer. [Line 6 controller setup](https://manuals.line6.com/en/helix-stadium/live/external-pedal-and-switch-controller-configuration) and [Global Settings](https://manuals.line6.com/en/helix-stadium/live/global-settings) retain v1.4/Rev D navigation; installed behavior untested. Earlier unknowns are narrowed below.
+
+| Field | Exact non-XL finding / qualification |
+|---|---|
+| Body / screen / headphones | Yamaha: **408W×241D×82H mm;3.4kg** (also rounded16×9.5×3.2in;7.5lb). Fails preferred200W×140Dmm either orientation. **8-inch touchscreen LCD;quarter-inch stereo headphones**. Dimensions are published, not measured. |
+| Memory / processing | Yamaha: **up to48 blocks,DSP permitting;four stereo paths;eight snapshots/preset;512 presets**. Its parenthetical128 dynamic setlists×32banks×4presets does not arithmetically explain512; do not multiply this into independent storage. Factory-filled/user split remains unresolved. |
+| Source conflict | Yamaha table says **Treadle2** and lists an EXP toe switch for Floor, conflicting with its own XL-only overview and explicit Line 6 no-onboard-pedal documentation. Preserve the contradiction; do not add a treadle or onboard toe switch to Floor. |
+| External control wiring | Line 6: **one TRS Control A/B socket**,Tip=A,Ring=B; a TS controller uses A. Two TS controllers require a splitter. EX2 uses TRS,with **A=EXP1,B=EXP Toggle**; alternatively two pedals use A=EXP1,B=EXP2. These share the same conductors with switch/trigger/amp-control roles; maxima are not simultaneous independent sockets. |
+| Expression / recall and limits | EXP Position defaults Per Preset;Global retains position across preset recall even with snapshot control. This is position persistence,not global target assignment or ranges. A single TS pedal requires desired parameters assigned to EXP1. Automatic Volume/Pan targets EXP2,so single-TS setup must not assume automatic coverage. Resistance and arbitrary M-VAVE compatibility remain unverified. |
+| Onboard preset down/up | Global Settings assigns **FS1/FS7 to Bank,Preset,Snapshot,Song orMarker Up/Down**,visible in Preset,Snapshot andCombo modes;Stomp access requires Command Center assignment. Swap Up/Down reverses their positions. This resolves documented onboard preset stepping independently of headphone/pedal support. |
+
+The controller page’s introductory EXP2-to-EXP2 phrase conflicts with its detailed EXP1/EXP2 setup;the latter is quoted here without silently correcting the source. Global Settings separately labels Main LCD Brightness. Exact power input rating,full connector profile,creative/category census,volume endpoints/bypass/tails/looper coverage andqualified IDR offers remain open. No download,wiring ordevice test;partial lead stays outside402 active models.
+
 ## Helix Stadium XL Floor
 
 <!-- comparison evidence begins -->
