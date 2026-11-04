@@ -166150,5 +166150,26 @@
     ],
     "next": "Continue individual-LCD manufacturer gaps and exact Shopee discovery; do not repeat unchanged G11 snapshots or infer absent used stock. Preserve GT-Pro, expression and GP-200JR→Prime→GE300 queues",
     "active_inventory_unchanged": 402
+  },
+  "g5_japanese_primary_toe_overload_20261105": {
+    "checked": "2026-11-05",
+    "model": "Zoom::G5",
+    "canonical": "brand/ZOOM.md#g5--direct-japanese-manual-toe-and-overload-scope",
+    "source": "https://zoomcorp.com/media/documents/J_G5_s9RBOUt.pdf",
+    "support": "https://zoomcorp.com/ja/jp/multi-effects/guitar-effects/g5/g5-support/",
+    "revision": "Unstated; exact original G5, printed10,13,19,62–63",
+    "findings": [
+      "Explicit toe-end switch toggles vertical Z-Pedal effect",
+      "Direct manufacturer145-type/four-LCD specification",
+      "Japanese main/troubleshooting overload wording does not independently prove English reproduction all-effects bypass"
+    ],
+    "remaining": [
+      "Exact overload affected-path behavior",
+      "Full physical-control census and LCD physical properties",
+      "External global-volume scope/recall/coverage",
+      "Condition-qualified current Shopee stock"
+    ],
+    "next": "Use readable Japanese primary for remaining original G5 control/capture/software gaps; avoid inferring firmware1.20 equivalence. Preserve LCD priority, GT-Pro, expression and GP-200JR→Prime→GE300 queues",
+    "active_inventory_unchanged": 402
   }
 }
