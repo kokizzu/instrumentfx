@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(tc-electronic): qualify X3 immediate tap and BPM encoder controls'
+        message='research(headrush): distinguish Prime C-Verb missing and unassigned IRs'
     print(git('commit','-m',message))
