@@ -493,12 +493,13 @@ The [official Sonicbar collection](https://www.sonicake.com/collections/multi-ef
 
 | Field | Preserved finding / uncertainty |
 |---|---|
-| Expression / controls | No built-in expression; external expression not established. **1/0/2**,two palm buttons are not footswitches. |
+| Expression / controls | No built-in treadle; **no analog EXP input** in the firmware1.3.0 complete connector inventory. **1/0/2**,two palm buttons are not footswitches. USB/BT MIDI control does not supply a direct analog pedal socket. [Connector audit](#pocket-master--direct-analog-expression-screen). |
 | Display / body | **1.77-inch color LCD**,explicit touch unverified. **103.5 W ×85 D ×28.5 H mm;194 g**,compact. |
 | Processing | **Nine modules,100+ choices,20 amps**. DRV/AMP/IR/EQ fixed;NR/FX1/FX2/DLY/RVB movable. Exact synth/acoustic choices ?. |
 | Presets / loading | **50 noneditable factory +50 editable user =100**;five user IR slots. Official Japan2026-08-18 notice identifies **converted NAM A2**,mobile app**1.7.2+** or desktop**1.5.2+**. Accepted architectures/size limits unverified. [Notice](https://www.hotone.jp/announcements/nama2allbrand). |
 | Ports | 6.35 mm input;**one6.35 mm TRS stereo output shared with headphones**;**two USB-C sockets**,one audio/data and one power/charging. No separate headphone socket implied. |
 | Power / software | Built-in1000mAh lithium battery,USB5V. Windows/macOS Manager and iOS/Android SONICLINK. |
+| USB / independent recording levels | [Firmware1.3.0 global settings](#pocket-master--usb-levels-reset-and-expression-summary-reconciliation): FX REC,BT REC andMonitor each have independent −20…+20dB controls. Global USB gain settings are not direct analog expression-volume assignment. |
 | Audio / practice | Firmware1.3.0 manual pp11–12 confirms **USB2-in/2-out**. Looper**Pre records dry,Post records effects**,with record/play/overdub,stop and hold-clear operations. Firmware1.3.3 release note specifies **20-second maximum**;storage persistence unverified;99 rhythms retained. [Release note](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Firmware_V1.3.3_Release_Note.pdf?v=1752654178). [Manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312User+Manual) |
 | Editor / manager platform limits | Firmware1.3.0 manual p12 distinguishes **desktop Manager:presets,IRs,tone-file management and firmware updates;no tone editing/parameter adjustments**. **Mobile SONICLINK:Bluetooth tone/parameter editing,presets/IRs/tone files;no firmware updates**. This qualifies the broader product-page editor language;current Manager1.5.2 behavior not independently tested. [Manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312User+Manual) |
 | Acoustic / pitch algorithms | Manual pp14–15 explicitly lists **AC Sim** with Standard,Jumbo,Enhanced,Piezo modes;**Octave andPitch described as polyphonic**. Acoustic simulation is distinct from acoustic amp modeling;no independent tracking-quality test. [Manual](https://cdn.shopify.com/s/files/1/0100/1950/4185/files/Pocket_Master_Multi_Languages_User_Manual_Firmware_V1.3.0.pdf?v=1754556312User+Manual) |
@@ -653,6 +654,14 @@ Checked **2026-11-03** in the [exact-model manufacturer product FAQ](https://www
 | Software / Windows NAM import recommendation | For import timeouts,the FAQ recommends **one file at a time**,and **Intel9th-generation-or-newer CPU with Windows10+**. CPU wording is a recommendation,not a published universal installation minimum or proof that AMD/older systems cannot work. It doesnot certify every NAM architecture orconversion success. [Manufacturer FAQ,checked2026-11-03](https://www.sonicake.com/products/pocket-master);no build-specific requirements table. |
 
 Preserve the separate Windows11 USB-MIDI stall advisory anddated manual/firmware conflicts above. No software,driver ormodel file downloaded,installed orrun. Current condition-qualified Shopee stock andremaining profile gaps are unchanged.
+
+### Pocket Master — USB levels, reset and expression summary reconciliation
+
+Checked **2026-11-05**, [manufacturer firmware1.3.0 manual reproduction,English printed pp5,8–9 andFrench p121](https://device.report/m/6686c44e51550f9b796bc40f30c83fb882ee167c36095b61c7cd55a6c52639dc). Cover andQME-10 identity match the previously checked manufacturer manual;original text only,not generated FAQs. Global USB settings distinguish **FX REC** (effect recording),**BT REC** (Bluetooth recording) and**Monitor** (USB monitoring),each **−20 to+20dB**. French p121 retains all three minus signs where English extraction drops the FX REC sign. Separate input gain also spans−20 to+20dB. These are different signal-level controls;neither their global menu nor the physical master knob establishes pedal assignment orall-source final-output attenuation.
+
+**Reset→Continue** removes edited presets andpersonalization settings torestore factory state. The passage doesnot enumerate imported IR/Clone file retention orrecorded-loop persistence;neither is inferred. Current firmware1.3.3 equivalence remains untested.
+
+The current summary now reflects the already-established p5 connector finding: **no analog EXP input**,while later USB/BT MIDI remains a separate control path. Earlier dated expression uncertainties stay as history. No downloads,reset,connection orhardware operation;no new stock claim.
 
 ## RockStage QCE-10
 

@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(boss): qualify GT-1000CORE Mac editor and driver support'
+        message='research(sonicake): reconcile Pocket Master expression and USB levels'
     print(git('commit','-m',message))
