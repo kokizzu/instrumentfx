@@ -894,6 +894,15 @@ The [Prime-specific FAQ](https://support.headrushfx.com/en/support/solutions/art
 No reset,update ordevice operation performed. Current5.2 equivalence andasset-retention behavior remain untested. Neither operation establishes a numerical rig-storage ceiling orall-preset expression assignment.
 
 
+### Prime — network reset scope and firmware history
+
+Checked **2026-11-05**, indexed original [Prime Guide5.0.0,§4.22.10](https://cdn.inmusicbrands.com/Software/SGEE/5/HeadRush%20Prime%20-%20User%20Guide%20-%20v5.0.0.pdf), and [manufacturer cumulative5.2.0 notes,October2026,printedp6](https://cdn.inmusicbrands.com/Software/SGEE/52/READ%20ME%20-%20HeadRush%20Prime%20Firmware%20Update%20Instructions%20v5.2.0.pdf). Original prose only;generated screenshot descriptions excluded.
+
+| Field | Evidence / qualification |
+|---|---|
+| Software / network reset | Guide5.0 separately describes **Reset Wi-Fi & Bluetooth Settings** as forgetting previously connected networks/devices;**Reset All Global Settings** restores global defaults. Neither establishes user-rig/IR/clone deletion orcalibration retention. The cumulative notes date separate reset buttons ineach network tab to **4.1.1**,andrequire Bluetooth re-pairing afterthat update toavoid possible audio dropouts. This is historical update guidance,not an instruction toreset adevice now. Current5.2 Info-menu equivalence remains unverified;factory-rig restoration andupdater entry retain their separate scopes above. |
+
+
 ## VX5
 
 <!-- comparison evidence begins -->
