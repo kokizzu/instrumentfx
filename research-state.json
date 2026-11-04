@@ -163623,5 +163623,12 @@
     "qualification": "DenganVoucher;condition/variant/bundle/checkoutstock/warranty/shippingunknown. Notqualifiednew/usedrange. Preserveprioroffers.",
     "next": "Verifycondition/bundleandlivecheckoutonlyifnewaccessibleevidence;continueprioritydisplayandgeneralqueues.",
     "active_count_unchanged": 402
+  },
+  "trident_driver_listing_20261104": {
+    "source": "https://nuxaudio.com/product/trident/",
+    "revision": "Live exact-model page;dates blank",
+    "finding": "ASIO3.29.0Win7 and5.30.0Win10+ separate fromfirmware/editor2.0.1. Manufacturer1ms latency unconditioned;notUSBroundtripmeasurement.",
+    "next": "USBchannelcounts,streamformat,globalanalogEXPvolume anddisplay specificationsremainunknown. Preservepriorityqueues.",
+    "active_count_unchanged": 402
   }
 }

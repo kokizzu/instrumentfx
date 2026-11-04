@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(nux): record separate qualified Trident hardware ask'
+        message='research(nux): distinguish Trident ASIO and firmware packages'
     print(git('commit','-m',message))
