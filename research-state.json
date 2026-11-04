@@ -154578,10 +154578,10 @@
         "key": "Zoom::B3",
         "canonical": "brand/ZOOM.md#b3",
         "synth": "MonoSyn; StdSyn; SynTlk; V-Syn; 4VoiceSyn; Z-Syn",
-        "pitch": "See retained bass effect list",
+        "pitch": "PitchSHFT;MonoPitch single-note;H.P.S key/scale harmony;others chord handling unverified",
         "instrument": "Z-Organ; Defret",
-        "qualification": "MonoSyn/4VoiceSyn single notes; Acoustic360 is an amp",
-        "evidence_basis": "Existing canonical record and retained dated manufacturer evidence; not freshly reverified for this index."
+        "qualification": "MonoSyn/4VoiceSyn single notes;Acoustic360 amp;BendCho/RingMod/BitCrush/Bomber distinct;three-effect DSP",
+        "evidence_basis": "Retained own synth evidence plusfocused original manual printed43 check2026-11-04;not full fresh audit"
       },
       {
         "key": "Zoom::B1Xon",
@@ -163100,6 +163100,22 @@
       "Current editor/OS andimports",
       "Display details"
     ],
+    "inventory_changed": false,
+    "independent_queues_preserved": true
+  },
+  "b3_creative_pitch_checkpoint_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://zoomcorp.com/media/documents/E_B3.pdf",
+    "revision": "Undated original B3 manual printed43",
+    "canonical": "brand/ZOOM.md#b3--pitch-note-handling-and-triggered-special-effects",
+    "finding": "Named pitch/ranges andtriggered special effects replace vague index cross-reference",
+    "remaining": [
+      "PitchSHFT/HPS inputpolyphony",
+      "Screen specifications/control visual count",
+      "Qualifiedcurrenthardwareoffers",
+      "GlobalEXPcoverage"
+    ],
+    "creative_index_unchanged": 64,
     "inventory_changed": false,
     "independent_queues_preserved": true
   }
