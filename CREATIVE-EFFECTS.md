@@ -42,7 +42,7 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **51 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **52 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
@@ -64,6 +64,7 @@ This index reuses existing canonical evidence and its original revision/date qua
 | [BOSS GT-001](brand/BOSS.md#gt-001) | WAVE SYNTH; separate mono guitar-to-MIDI | See retained parameter record | AC.GUITAR SIM; separate AC.PROCESSOR | Guitar-to-MIDI is not the same as audio synth block |
 | [BOSS GS-10](brand/BOSS.md#gs-10) | Guitar Synth | Tracking/polyphony unresolved | Bass Simulator | Electric-to-acoustic remains unverified |
 | [Roland GR-55](brand/ROLAND.md#gr-55) | Two PCM sources plus instrument modeling | See retained synthesis/modeling record | PCM instruments and modeled guitars differ | Retain specialized pickup requirements; exact acoustic models unresolved |
+| [Zoom G2 FOUR](brand/ZOOM.md#g2-four) | Dedicated synth unverified;Slow Attack is onset processing | Polyphonic Pitch Shifter chords±24;Mono Pitch single-note;scale/key Harmony separate | Acoustic Simulator;Sitar Simulator | [Named creative check](brand/ZOOM.md#g2-four--named-creative-effects-and-downloadable-library-scope):Slicer,sequenced/random filters,Loop Roll andhold effects;app library≠installed contents;not full fresh audit |
 | [Zoom G3](brand/ZOOM.md#g3) | MonoSynth, single-note tracking | See retained effect list | Aco.Sim | Manufacturer manual pp45,52; no poly-synth claim |
 | [Zoom G5](brand/ZOOM.md#g5) | MonoSynth | See retained effect list | Aco.Sim; Z-Organ | Reproduced manual numbering; library count conflict retained |
 | [Zoom B3](brand/ZOOM.md#b3) | MonoSyn; StdSyn; SynTlk; V-Syn; 4VoiceSyn; Z-Syn | See retained bass effect list | Z-Organ; Defret | MonoSyn/4VoiceSyn single notes; Acoustic360 is an amp |

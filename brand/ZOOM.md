@@ -2892,6 +2892,29 @@ Checked 2026-10-28: [original operation PDF](https://zoomcorp.com/media/document
 
 Printed p62 separately states that changing patch stops rhythm playback; opening the Library also stops rhythm. This is a transition restriction, not evidence that expression attenuates rhythm. Preserve the previously documented looper stop/erase restrictions separately. The output-pedal retention statement remains valid, but universal assignment, bypass, headphones and tails remain unresolved. Further promotion requires an explicit manufacturer explanation or hardware test; no device operation or local download performed.
 
+### G2 FOUR — named creative effects and downloadable-library scope
+
+Checked **2026-11-04** against the [manufacturer Effects List](https://zoomcorp.com/media/documents/E_G2FOUR_EffectsList.pdf),31PDFpages,©2024 cover. This is the currently retrieved shared exact-model G2 FOUR/G2X FOUR list,not a certified installed-library census orfirmware-introduction date. Only G2 FOUR isupdated here.
+
+| Field | Documented capability / boundary |
+|---|---|
+| Synth / instrument simulation | **ACOUSTIC SIMULATOR** inDRIVE,p11,explicitly converts electric-guitar tone;**SITAR SIMULATOR** inSFX,p23. **SLOW ATTACK** violin-like onset isnot instrument synthesis. Dedicated tracking synth remains unverified. |
+| Pitch / note handling | **POLYPHONIC PITCH SHIFTER**,p15,explicitly supports chords,−24…+24semitones. **MONO PITCH SHIFTER**,p14,is single-note;**PITCH SHIFT** shares its−12…+12,+24semitone and±25cent controls,butinputpolyphony isnot stated. **HARMONY PITCH SHIFTER** uses scale/key;its chord handling remains unverified. |
+| Processing / special rhythm andhold | **SLICER** p15:20patterns. **SEQUENCE FILTER** p5:2–8steps/eightpatterns;**RANDOM FILTER**,**RING MODULATOR** are separate. **LOOP ROLL** p23 samples/holds audio withTIME10–4000 (units unstated inthat row);**HOLD DELAY/HOLD REVERB** pp19,22 hold on switch release. None establishes another independent long-form looper. |
+| Processing / download scope | [October30,2024 manufacturer announcement](https://zoomcorp.com/en/ca/news/G2FOUR_NewEffects/) lists54 additions/155 available effects andsays101 canbe picked/loaded. This dated loading-capacity statement isnot155 simultaneous/resident effects or300patch memories. Newer advertised additions remain separate;currentinstalled count andcategory totals stillneed reconciliation. |
+
+The existing6+1/DSP limit remains. Polyphonic pitch doesnot prove polyphonic synthesis;unspecified note handling andmeasured tracking/latency stay unknown. Effect-list stars identify app additions without certifying what any particular unit has installed. Global output-pedal assignment/coverage remains unresolved.
+
+### G2 FOUR — exact NEO MUSIC adapter-bundle ask
+
+Checked **2026-11-04**: [NEO MUSIC,shop158235298/item23178862782](https://shopee.co.id/Zoom-G2-FOUR-Guitar-Multi-Effects-Pedal-Termasuk-Adaptor-i.158235298.23178862782),Kota Sukabumi.
+
+| Field | Offer / qualification |
+|---|---|
+| IDR / condition-unverified hardware bundle | Checked **2026-11-04**,**Rp3,182,700**,[NEO MUSIC158235298/23178862782](https://shopee.co.id/Zoom-G2-FOUR-Guitar-Multi-Effects-Pedal-Termasuk-Adaptor-i.158235298.23178862782),Kota Sukabumi. G2 FOUR processor withadapter named intitle. Search uses athree-month snapshot withJuly31 delivery;direct page reports today’s crawl atsameask. Relative tomorrowdelivery andabsence ofHabis arenot confirmed stock. Condition,new/used status,selectedvariant,adaptermodel/plug,bundleaccessories,workingstate,firmware,warranty,shipping/tax andcheckout total remain unverified. Up-to-Rp10,000 late-delivery compensation isnot deducted;no product-price voucher claim exposed. |
+
+This exact hardware offer isdistinct from the preserved Zoom Official Shop,sarana musik andJagoan Electronic items. It doesnot establish acondition-qualified price range orcompleted sale. No sellercontact,purchase,software/manual download ordevice operation.
+
 ## G2 original — partial capability lead
 
 Outside active inventory and main capability table; distinct from G2Nu, G2.1u and G2 FOUR. Checked 2026-10-28 against [own manufacturer Operation Manual](https://zoomcorp.com/media/documents/E_G2.pdf), printed pp18–19,30–31, document code G2-5000-2. No hardware test or download.
