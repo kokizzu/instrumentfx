@@ -2451,3 +2451,10 @@ creative-publication-commit:
 	python3 scripts/creative_publication_audit.py commit
 creative-publication-push:
 	python3 scripts/creative_publication_audit.py publish
+
+.PHONY: brand-sort-plan-valeton brand-sort-apply-valeton
+brand-sort-plan-valeton:
+	python3 scripts/brand_sort.py plan brand/VALETON.md
+
+brand-sort-apply-valeton:
+	python3 scripts/brand_sort.py apply brand/VALETON.md

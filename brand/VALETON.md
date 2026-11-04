@@ -17,6 +17,7 @@ Discovery routing checked2026-11-03: earlier “identity pending” leads for Da
 - [Dapper MDR](#dapper-mdr)
 - [Dapper Mini MES-1](#dapper-mini-mes-1)
 - [Dapper VES-1](#dapper-ves-1)
+- [GP-1 — partial discovery lead](#gp-1--partial-discovery-lead)
 - [GP-5](#gp-5)
 - [GP-50](#gp-50)
 - [GP-100](#gp-100)
@@ -568,6 +569,23 @@ Official Dapper_Manual_EN_V01_160111 resolves to2-page PDF without extracted tex
 Checked2026-10-28. [Manufacturer original Dapper page][VES1-P] specifies320W×65Dmm:too wide;rotation is too deep. No sibling Mini/Dark specifications transferred. Analog EXP,headphones,volume placement/endpoints/recall andall-preset assignment remain **unverified** because complete original connector text is unavailable. Module switches/tap are not proof of preset down/up.
 
 [Manufacturer-authored original Dapper manual mirror](https://www.manualslib.com/manual/4001764/Valeton-Dapper.html),2pages,identifies Dapper without Mini,and OD/DIST/DELAY architecture consistent with own product. Readable original page1 states tuner activation mutes output. Indexed page2 original text locates SEND/RETURN between DIST and DELAY;these are audio-loop connections,not EXP. Page2 direct reader failed cache miss;official PDF retry timed out. No visual inspection claimed. Tuner mute is not continuous expression-volume control orproof oftail attenuation.
+
+## GP-1 — partial discovery lead
+
+Checked **2026-11-04**; outside **402 active models**, ownership/bass/vocal scope unverified. Exact GP-1, not GP-100. [Valeton’s own demonstration description,2016-12-08](https://www.youtube.com/watch?v=w1SWQ3zNTq0) identifies guitar multi-effects: **100 effect types, eight simultaneous modules,100 user+100 preset locations,100 drum patterns,25-second looper**. Initial user fill and current library remain unverified.
+
+The same dated manufacturer description specifies **9VDC centre-negative/500mA supply**, four AAA alkalines/up to6.5hours, **138D×115W×48Hmm;305g**. Supply rating is not measured draw; dimensions retain original axes. Either horizontal orientation fits200×140mm before cables.
+
+[Manufacturer-authored GP-1 manual on Schoolmusic](https://img.schoolmusic.co.kr/shop/effect/valeton/gp1/Valeton_GP1.pdf),116PDF pages, matching title/specifications; revision/firmware unspecified. Read original body, not generated FAQs; no panel-image inspection.
+
+| Field | Manual evidence / qualification |
+|---|---|
+| Controls/display,pp6–7 | Two rotaries,including push encoder;two footswitches;no treadle in complete top inventory. Separate-button total unverified. LED display;diagonal/color/touch unknown. |
+| Ports,p7 | 6.35mm mono INPUT;6.35mm stereo OUTPUT doubles as headphones;3.5mm stereo AUX;6.35mm stereo EXP requires stereo cable;DC/battery holder. Pinout/resistance unknown. |
+| Expression,pp25–30,34–35 | Assignment and heel/toe endpoints are **saved per preset**;target effect must be enabled. Hand-operated Master00–99 is global;Patch Volume00–99 is separate. Calibration does not establish global assignment. Universal pedal volume,recall,bypass/tail/loop attenuation unknown. |
+| Navigation,p14 | Play-mode footswitches provide preset up/down;hold+ scrolls. Not extra displays. |
+
+No qualified exact Shopee Indonesia item or used/new IDR ask recovered. Simultaneous-module/category census, synth/acoustic algorithms, IR/NAM/capture, editor/updater platforms, USB/battery-current details, toe compatibility and current support remain unresolved. No file downloaded, software run or device operated. Complete these before active admission; preserve independent LCD-first and GT-Pro queues.
 
 ## GP-5
 

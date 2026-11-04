@@ -25800,6 +25800,21 @@
         "power": "2025-07-15 manufacturer table explicitly SY-1000→PSB-1U: 9V DC 2A supply; device800mA separate; polarity/connector and seller bundle unresolved.",
         "next": "Partial outside402. Complete remaining category/concurrency census, normal-input synth polyphony, power polarity, imports/practice features, current macOS editor matrix and universal-volume signal coverage. Preserve individual-switch-screen, GT-Pro and compact-expression queues."
       }
+    },
+    {
+      "model": "Valeton GP-1",
+      "checked_date": "2026-11-04",
+      "status": "partial discovery outside active counts",
+      "canonical_record": "brand/VALETON.md#gp-1--partial-discovery-lead",
+      "active_inventory_changed": false,
+      "sources": [
+        "https://www.youtube.com/watch?v=w1SWQ3zNTq0",
+        "https://img.schoolmusic.co.kr/shop/effect/valeton/gp1/Valeton_GP1.pdf"
+      ],
+      "revision": "Manufacturer video December8,2016; matching original manual has no verified revision/firmware",
+      "finding": "Compact ordinary-input multifx; external expression and phones; assignments stored per preset, global analog volume unverified",
+      "market": "No qualified exact Shopee Indonesia item or condition-specific IDR ask recovered",
+      "next": "Verify remaining full-profile fields before admission; retain LCD-first and independent GT-Pro cursor"
     }
   ],
   "inventory_by_brand": {
