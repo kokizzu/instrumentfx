@@ -154560,10 +154560,10 @@
         "key": "Zoom::G3",
         "canonical": "brand/ZOOM.md#g3",
         "synth": "MonoSynth, single-note tracking",
-        "pitch": "See retained effect list",
-        "instrument": "Aco.Sim",
-        "qualification": "Manufacturer manual pp45,52; no poly-synth claim",
-        "evidence_basis": "Existing canonical record and retained dated manufacturer evidence; not freshly reverified for this index."
+        "pitch": "Octave;PitchSHFT;MonoPitch single-note;HPS key/scale;otherchordhandlingunverified",
+        "instrument": "Aco.Sim;Z-Organ",
+        "qualification": "MonoSynth single-note;Speed pitchsmoothness;specialeffects distinct;six-effect2.00+/DSP",
+        "evidence_basis": "Focused exact shared G3/G3X manufacturer manual printed50–52;notfullfresh audit"
       },
       {
         "key": "Zoom::G5",
@@ -163114,6 +163114,22 @@
       "Screen specifications/control visual count",
       "Qualifiedcurrenthardwareoffers",
       "GlobalEXPcoverage"
+    ],
+    "creative_index_unchanged": 64,
+    "inventory_changed": false,
+    "independent_queues_preserved": true
+  },
+  "g3_creative_parameters_checkpoint_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://zoomcorp.com/media/documents/G3_G3X_operationManual_English.pdf",
+    "revision": "Shared six-effect revision;printed50–52",
+    "canonical": "brand/ZOOM.md#g3--creative-pitch-and-synth-parameter-distinctions",
+    "finding": "Named pitch andspecial algorithms;MonoSynth Speed ispitchsmoothness,notarpeggiator rate",
+    "remaining": [
+      "Unspecified pitch algorithm chordhandling",
+      "Installedfirmware/trackingquality",
+      "Screen/controlvisualverification",
+      "QualifiedcurrentShopeeoffers"
     ],
     "creative_index_unchanged": 64,
     "inventory_changed": false,
