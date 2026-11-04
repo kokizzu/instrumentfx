@@ -1361,7 +1361,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 | New / retail IDR observation | **Rp2.950.000**, Salomo; page reports 17 in stock [detail](VALETON.md#gp-150) |
 | Simultaneous blocks / categories and choices | 12 reorderable blocks; 200+ effects; per-category counts ? |
 | Presets and user storage | 200 total, 100 factory-filled; factory mix 85 guitar / 10 bass / 5 acoustic |
-| Synth / acoustic functions | Acoustic presets documented, not proof of a specific simulator; synth ? |
+| Synth / acoustic functions | V1.0.5 manual: AC Sim (Standard/Jumbo/Enhanced/Piezo), H to S and S to H pickup processing. Step Filter is filtering; dedicated synth unverified. Polyphonic OCTA/Pitch/P-Bend versus monophonic Hammy; Detune ±50 cents; Ring Mod, Hold and Freeze. [Revision-qualified details](#gp-150--creative-effects-and-exact-shopee-offer). |
 | Third-party IR | 20, 1024/2048 samples |
 | NAM / captured models | **Firmware1.1.1+ adds native NAM A2 Lite**, explicitly named for GP-150 in the [official regional notice dated2026-08-18](https://www.hotone.jp/announcements/nama2allbrand), rechecked2026-10-17. Earlier research recorded SnapTone conversion with100 model slots/50 supplied; retain that historical workflow separately. Native A2 Full, other architectures and native model capacity/concurrency are unverified; the old conversion-slot count is not proof of native capacity. |
 | Audio / control connections | ¼″ input; **L TS unbalanced / R TRS balanced** outputs; 3.5 mm TRRS headset/mic; EXP/FS shared MIDI-in; USB-C |
@@ -1392,6 +1392,21 @@ The complete compact source was audited on 2026-10-17. All five model rows retai
 | `P4` | [Official-shop historical USD169.99 source](https://shop.valeton.net/products/gp-150) |
 
 The original SnapTone conversion row remains historical evidence; the separately dated native NAM A2 Lite firmware qualification above is retained. Legacy source and incoming links remain available.
+
+### GP-150 — creative effects and exact Shopee offer
+
+Checked **2026-11-04** in the manufacturer-authored [GP-150 User Manual for firmware V1.0.5, 83 PDF pages](https://manuals.plus/m/526c2a16421fdca58ecb8453ab6a9a102dc9c8bbd3d8fa38c1fe6f1ce36606eb_optim.pdf), printed pp39–41,66. Exact GP-150 panel/port identity agrees with the manufacturer product page. Original tables only; no host-generated advice.
+
+- **Pitch:** OCTA, Pitch and P-Bend explicitly polyphonic; Hammy monophonic. Detune ±50 cents.
+- **Instrument processing:** AC Sim offers Standard/Jumbo/Enhanced/Piezo; H to S and S to H are pickup simulations.
+- **Special:** Step Filter has four sequenced filter steps, not verified tracking synthesis. Ring Mod adds inharmonic processing. Hold repeats sound from before activation; Freeze sustains sound at activation with attack/release. Auto Swell shapes onset rather than establishing violin synthesis.
+- **Block limits:** PRE choices share a module; Hold/Freeze/Detune are MOD alternatives. Availability is not simultaneous unrestricted use. Current-firmware equivalence, pitch ranges and tracking performance remain unverified.
+
+The [official V1.1.1 manual entry](https://www.valeton.net/wpfd_file/gp-150_online-manual_en_firmware-v1-1-1-pdf/), dated **2026-08-26**, redirects to an inaccessible file. Its listing is not a checked parameter inventory; the older manual does not negate the separately documented native A2 Lite update.
+
+| Field | Offer evidence / qualification |
+|---|---|
+| IDR condition-unverified ask | [HOLY MUSIC, seller945642322/item50012129481](https://shopee.co.id/VALETON-GP-150-GP150-GP-150-MULTI-EFFECTS-PROCESSOR-PEDAL-GITAR-HOLY-MUSIC-i.945642322.50012129481): **Rp3.349.000**, Kota Jakarta Utara. Direct web-reader text, crawled one day before the check; search index two weeks old. Exact GP-150 hardware title; condition, stock quantity, selected bundle, warranty and included accessories not exposed. Arrival guarantee is not checkout-confirmed stock. The Rp10.000 late-arrival voucher is compensation, not an unconditional purchase discount. No condition-qualified used ask established; retain older Salomo Rp2.950.000 new observation separately. |
 
 ## GP-180
 
