@@ -105,6 +105,23 @@ Checked **2026-11-04** in the manufacturer **v1.0.0 manual,2026-09-02**, origina
 
 No slot/preset was changed or file downloaded locally. Exact Shopee stock, electrical contradiction, visual hardware corroboration, current firmware and global-volume endpoints/recall/all-route attenuation remain unresolved. Partial lead stays outside active counts.
 
+### TONEX Board — complete dated factory-preset list census
+
+Checked **2026-11-04** in the [manufacturer Preloaded Factory Presets list,v1.0.0,2026/08/31,all ten pages](https://cdn.shopify.com/s/files/1/1052/1303/4828/files/TONEX_Board_Preloaded_Factory_Presets.pdf?v=1791982180), linked from the exact Board product page. Every numbered row1–233 has a name.
+
+| Setlist | Numbered rows | Named presets | Source pages |
+|---|---|---:|---|
+| Factory |1–120|120|1–5|
+| Extra |121–174|54|6–8|
+| Bass |175–233|59|8–10|
+| **Total** |**1–233**|**233**|**1–10**|
+
+This narrows the230+ headline to **233 listed preloaded presets for this revision**, not current device contents or2,000 Tone Models. Exact allocation against the1,440 editable capacity and factory write protection remain unverified; do not infer1,207 empty slots by subtraction. Absence of further rows does not establish a particular address is blank on current firmware.
+
+The Instrument column labels **160 Electric Guitar,15 Acoustic Guitar,58 Electric Bass**. Acoustic rows160–174 identify intended input/use, not electric-to-acoustic simulation. Row231 is in Bass but labeled **Electric Guitar**; no correction or firmware explanation is established. Row217’s name **Fuzz Synth** is a preset name, not a verified synth algorithm or input-note tracking specification.
+
+Current firmware/library equivalence, exact Shopee stock, supply-voltage conflict and complete expression-volume coverage remain open. Partial profile remains outside active counts; no preset files downloaded or device operated.
+
 ## TONEX ONE
 
 Standard TONEX ONE guitar/bass processor, not TONEX ONE+, Bass Edition or an artist variant. Consolidated and partially refreshed **2026-10-17**; no additional active model.

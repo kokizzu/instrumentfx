@@ -160957,5 +160957,53 @@
     ],
     "active_inventory_unchanged": 402,
     "independent_queues_preserved": true
+  },
+  "tonex_board_factory_preset_census_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://cdn.shopify.com/s/files/1/1052/1303/4828/files/TONEX_Board_Preloaded_Factory_Presets.pdf?v=1791982180",
+    "revision": "PreloadedFactoryPresets1.0.0,2026-08-31;all10pages",
+    "numbered_rows": {
+      "start": 1,
+      "end": 233,
+      "total": 233
+    },
+    "setlists": [
+      {
+        "name": "Factory",
+        "start": 1,
+        "end": 120,
+        "count": 120,
+        "pages": "1–5"
+      },
+      {
+        "name": "Extra",
+        "start": 121,
+        "end": 174,
+        "count": 54,
+        "pages": "6–8"
+      },
+      {
+        "name": "Bass",
+        "start": 175,
+        "end": 233,
+        "count": 59,
+        "pages": "8–10"
+      }
+    ],
+    "instrument_labels": {
+      "ElectricGuitar": 160,
+      "AcousticGuitar": 15,
+      "ElectricBass": 58
+    },
+    "qualification": "Row231 inBass labeledElectricGuitar;acoustic rows160–174 not electric-to-acoustic proof;row217 FuzzSynth name not algorithm;233 listed not tested device/current firmware filling",
+    "remaining": [
+      "Allocation/protection versus1440 editable capacity;no1207-empty inference",
+      "Current firmware andeffect-library equivalence",
+      "Electrical5V/9V conflict",
+      "Qualified exact Shopee hardware",
+      "Global volume range/recall/all-route coverage"
+    ],
+    "active_inventory_unchanged": 402,
+    "independent_queues_preserved": true
   }
 }
