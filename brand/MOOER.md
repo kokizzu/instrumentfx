@@ -1763,6 +1763,7 @@ Official Japanese PDFs failed to load or exceeded the retrieval limit; the mirro
 | Display |**5-inch TFT color GUI**, color corroborated by original rendered panel; Chinese manufacturer launch article additionally specifies **IPS**. Pixel resolution and touch support remain unknown. [Exact source qualification](#ge300--chinese-manufacturer-usb-midi-and-display-evidence). |
 | Display / brightness control | [Original manual,printedp84](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf),2019/V1.1.0 example,rechecked2026-11-04: SCREEN uses parameter knob1 toadjust brightness. Illustrated LIGHT20 isnot a documented range ordefault;automatic dimming,touch andcurrent5.1.4 equivalence remain unverified. |
 | Body |**410×201×62 mm; 3 kg**, unit dimensions, original specifications; large footprint |
+| I/O / input-level setup | [Original input-matching and meter guidance](#ge300--input-matching-and-meter-interpretation): physical Guitar/Line selection plus SYSTEM input trim; yellow target, sustained red warns of clipping. Numerical trim range remains unverified. |
 | I/O / global output EQ | Original [manual,p63](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf),checked2026-11-03: **separate Headphone,Output andXLR EQ**,each switchable independently ofpresets. Three bands each select **40Hz–16kHz**,gain **−10…+10dB**;low cut Off/1–800Hz,high cut Off/1–20kHz. This is system EQ,not a global expression-volume assignment orproof ofevery-source attenuation. |
 | I/O / independent output trim and pan | Same original guide,p65: jack OUTPUT andXLR each have **Level0–100,default100**,attenuation-only trim; **PanL100–Center–R100**,defaultCenter. Headphones are not a third pair inthis output-control chapter. No analog-pedal mapping orcurrent5.1.4 equivalence inferred. |
 | I/O / dry and processed output modes | Samep65: each main output pair selects **Dry/Effect,Effect/Dry,Dry/Dry,Effect/Effect(default)**;the first term isleft,the second right. Dry routes instrument input around signal processing;Effect carries processed input. This doesnot establish a powered-off bypass,USB playback routing,orwhether separate global EQ affects Dry. |
@@ -2087,6 +2088,14 @@ SYSTEM’s **TAP** setting chooses **PRESET**,where the recalled preset decides 
 The illustrated **120.0 BPM is an example**,not a documented default or range. This passage does not establish power-cycle retention,priority against received MIDI clock,seamless tempo transitions,automatic looper retiming oruniversal synchronization of every effect. Individual synth/filter/delay sync modes retain their own qualifications.
 
 Global tempo scope does not make EXP2 assignment global or establish all-source volume coverage. Existing preset-memory,library androuting contradictions remain intact. No settings changed,firmware downloaded orhardware operated.
+
+### GE300 — input matching and meter interpretation
+
+Checked **2026-11-05** in the [original manufacturer manual, printedp64](https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf),2019 document withV1.1.0 screen examples. Original GE300,not Lite;current5.1.4 equivalence untested.
+
+The manual first selects the physical **Guitar/Line input setting** for the connected source,then uses **SYSTEM→Input,knob1** to boost or attenuate input level while playing at performance intensity. Its target is the **yellow meter region**;green-only is described as too low andcontinual red as too high,with possible internal clipping. This is the manufacturer’s gain-staging guidance,not a measured clipping threshold orrecommendation to normalize different instruments to identical knob values.
+
+The screen’s **0dB is an example**;the passage doesnot publish the adjustment endpoints or establish whether trim acts before/after conversion. It is input gain,not preset Patch Level,output trim or expression-volume assignment. No source was connected ordevice setting changed.
 
 ## GE300 Lite
 

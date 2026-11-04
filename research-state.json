@@ -166797,5 +166797,22 @@
     "market_recheck": "Existing sold-out used1149776042/54402465704 Rp15400000 remains cached,no new stock claim",
     "active_inventory_unchanged": 402,
     "next": "Original GE300 independent follow-up next;prioritize accessible requested individual-display evidence andpreserve expression/consolidation queues"
+  },
+  "ge300_input_matching_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/MOOER.md#ge300--input-matching-and-meter-interpretation",
+    "source": "https://media.rockboard.de/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE_300_Manual_EN.pdf",
+    "revision": "2019 original GE300 manual printed64,V1.1.0 examples",
+    "finding": "Physical Guitar/Line selector plusSYSTEM input trim;manufacturer yellow-region target,green-only low/continualred high;0dB example notrange",
+    "remaining": [
+      "Trim endpoints/pre-post converter placement",
+      "Current5.1.4 equivalence",
+      "Current complete algorithms/factory fill",
+      "NAM architecture subvariants",
+      "Qualified exact used/live-stock IDR"
+    ],
+    "market": "Same Vin31173885/29362925028 Rp11928000 last-week cache;not refreshed stock",
+    "active_inventory_unchanged": 402,
+    "next": "Continue accessible LCD-first primary sources andsystematic remaining profiles;preserve GP-200JR→Prime→GE300,GT-Pro,expression andconsolidation queues"
   }
 }
