@@ -163893,5 +163893,24 @@
     ],
     "next": "Continue priority footswitch-display processors and accessible compact inventory gaps; preserve GT-Pro/general and consolidation queues",
     "active_inventory_unchanged": 402
+  },
+  "tmp_ampcontrol_scene_commands_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual",
+    "revision": "Manufacturer original firmware1.5 printed17,20,22;not current1.8 test",
+    "canonical": "brand/FENDER.md#tone-master-pro--amp-control-wiring-and-scene-command-recall",
+    "findings": [
+      "SingleTRS:tipControl1/ringControl2;dualmono splitter;shorting targets",
+      "Momentary/latching amp-control assignments",
+      "Scene selection sends owncommands;Sceneoff resendsbasepreset commands"
+    ],
+    "remaining": [
+      "Currentfirmware equivalence",
+      "Scribble-strip numerical specifications",
+      "Global EXP volume/routing coverage",
+      "Qualified current Shopee stock"
+    ],
+    "next": "Continue requested individual-footdisplay and accessible compact profile gaps; preserve independent GT-Pro/general and consolidation queues",
+    "active_inventory_unchanged": 402
   }
 }

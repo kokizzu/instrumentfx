@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(morningstar): distinguish MC8 PRO recovery and wireless roles'
+        message='research(fender): document amp-control wiring and Scene commands'
     print(git('commit','-m',message))

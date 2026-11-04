@@ -749,3 +749,15 @@ Checked **2026-11-04**, [manufacturer release history](https://support.fender.co
 | Memory / multi-IR Scene behavior | **1.7.53 (2025-12-03):** Fender fixes an IR being swapped in some presets containing multiple IRs and Scenes. This does not establish new IR capacity,universal cross-Scene model substitution or revised shared-block architecture. |
 
 Current retrieved US history still heads with1.8.58,July15,2026;installed firmware andfix effectiveness untested. Current model-guide retrieval remains unavailable;no new qualified Shopee used offer established. No download,update ordevice operation.
+
+### Tone Master Pro — amp-control wiring and Scene command recall
+
+Checked **2026-11-04** in the manufacturer-authored [firmware1.5 manual reproduction, printedpp17,20,22](https://manualzz.com/doc/84104650/fender-tone-master-pro%C2%AE-owner-s-manual). Original manual body identified by cover/version and pagination; host-generated summaries excluded. Current1.8 equivalence and physical behavior remain untested.
+
+| Field | Exact-model evidence / qualification |
+|---|---|
+| I/O / external amp control | One rear **AMP CTRL TRS socket** carries **tip=Control1, ring=Control2**. A TRS-to-dual-mono insert cable exposes both. The documented target uses **tip/sleeve shorting**, for channel/reverb/bypass switching. This is not audio, expression voltage or universal compatibility with proprietary amp controllers. |
+| Footswitch assignment | AMP CONTROL1/2 assignments allow momentary or latching operation and custom labels. Two control functions do not mean two physical rear sockets or two additional footswitches. Shared assignment-color/type rules remain as recorded. |
+| Scene/base commands | Each Scene switch can send its own amp-control and MIDI PC/CC commands when selected. Turning that Scene off loads the base preset and **resends the base preset’s commands**. This is documented command recall, not passive retention of the external device’s prior state or verified feedback from it. |
+
+No cable connected, MIDI sent or device operated. Existing ten-LCD count, Scene topology, global analog-volume uncertainty and source-revision qualifications remain. Targeted Shopee searching repeated existing cached items; no new available-stock or condition claim.
