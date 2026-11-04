@@ -166043,5 +166043,27 @@
     ],
     "next": "Continue original FM3 driver-source reconciliation as a separate model checkpoint, then other individual-LCD gaps; retain GT-Pro, expression and GP-200JR→Prime→GE300 queues",
     "active_inventory_unchanged": 402
+  },
+  "fm3_original_driver_bundle_20261105": {
+    "checked": "2026-11-05",
+    "model": "Fractal Audio::FM3 original",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-original--november-driver-and-editor-reconciliation",
+    "sources": [
+      "https://www.fractalaudio.com/fm3-downloads/",
+      "https://www.fractalaudio.com/fm3-edit/"
+    ],
+    "finding": "Explicit Original applicability; November4 audio6.20+serial1.3 bundle replaces June6.16; both required on Windows10+ x86/x64/ARM",
+    "limits": [
+      "Driver and editor architecture support separate",
+      "No specific driver fixes/routing changes inferred",
+      "No local downloads/installation/device operation"
+    ],
+    "remaining": [
+      "Mini-LCD physical specifications and original hardware variants",
+      "Global volume endpoints, recall and signal coverage",
+      "Exact original-revision condition-qualified hardware offers"
+    ],
+    "next": "Check FM9 individual-LCD processor software/driver listings for fresh manufacturer changes; preserve GT-Pro, expression and general GP-200JR→Prime→GE300 queues",
+    "active_inventory_unchanged": 402
   }
 }

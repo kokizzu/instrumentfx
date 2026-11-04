@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fractal): update FM3 MKII Windows driver bundle evidence'
+        message='research(fractal): reconcile original FM3 current Windows drivers'
     print(git('commit','-m',message))
