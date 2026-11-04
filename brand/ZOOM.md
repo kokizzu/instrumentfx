@@ -2675,12 +2675,26 @@ The [manufacturer English Operation Manual](https://zoomcorp.com/media/documents
 | Display | **Two-digit seven-segment LED**,not individual footswitch LCDs. Physical dimensions unverified. |
 | Input / output | Mono phone input;stereo phone output doubles as headphones. Phones20+20mW into32Ω is a test-load rating,not a universal minimum load. |
 | USB audio | **16-bit stereo recording/playback,32/44.1/48kHz**. Internal processing sampling96kHz is separate. |
-| Power | AD-0006/AD-16 adapter,fourAA batteries orUSB bus power. Approximately10h alkaline operation is manufacturer-stated;adapter voltage/current/polarity andUSB current remain unchecked. |
+| Power | AD-0006/AD-16 adapter,fourAA batteries orUSB bus power. Approximately10h alkaline operation is manufacturer-stated;[AD-0006 rating verified below](#g1u--control-census-power-and-live-processing-restrictions);USB current remains unchecked. |
 | External control / volume | CONTROL IN supportsFP01/FP02 orFS01. Expression function saves perpatch;inbypass it always controls volume. This doesnot proveevery-preset globalassignment,endpoint range,held-position recall ortail/loop coverage. |
 
 [Exact support listing](https://zoomcorp.com/en/jp/multi-effects/guitar-effects/g1u/g1u-support/) separately lists firmware1.20 packages forWindows/Mac andZFX Editing Tool forMac;these are listing evidence,not current OS certification orinstalled firmware.
 
-Remaining:built-in/toe expression confirmation,K/F/B census,full I/O/power details,factory filling,algorithms/synth/acoustic/IR-NAM/capture/editor-platform limits,looper/rhythms andcondition-qualified Indonesian hardware. Limited Shopee search found anadapter listing,not G1u hardware;used/new IDR,stock,seller/item,bundle,warranty,voucher andcheckout remain unknown. Do not copy sibling specifications oradmit thislead asfully verified.
+Remaining:toe wiring,full electrical I/O/USB-current details,factory filling,algorithms/synth/acoustic/IR-NAM/capture/editor-platform limits,loop retention andcondition-qualified Indonesian hardware. Limited Shopee search found anadapter listing,not G1u hardware;used/new IDR,stock,seller/item,bundle,warranty,voucher andcheckout remain unknown. Do not copy sibling specifications oradmit thislead asfully verified.
+
+### G1u — control census, power and live-processing restrictions
+
+Checked **2026-11-05** against indexed [manufacturer manual pp4–5](https://zoomcorp.com/media/documents/E_G1u.pdf),[older official English safety section](https://zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G1u.pdf),and manufacturer-authored **G1u-5000-4** [original reproduction](https://manuzoid.com/manuals/w02mA-Zoom%20G1U%20User%20manual),printedpp12–13,19,27/rear specifications. Exact title,67/8 processing,200-patch memory anddimensions match the previously checked5000-5 edition;the older identifier remains explicit. Host chatbot prose excluded.
+
+| Field | Verified finding / limitation |
+|---|---|
+| Controls / K-F-B | **2/2/3**,text-derived:Module selector,VALUE;down/up footswitches;RHYTHM,STORE,BANK UP·TAP buttons. No onboard treadle appears in the complete control descriptions;external toe wiring remains unknown. No panel-image inspection. |
+| Power / exact adapter | **9V DC,300mA,center negative,AD-0006** in older English safety/specification text. This is a supply rating,not measured draw orproof every AD-16 revision has identical current. Batteries are not rechargeable through G1u. |
+| Live / looper | **Up to5seconds with overdub**;manual start/stop or1–8 quarter-note durations. **Looping disables delay**. Recorded-loop power-cycle retention andpedal attenuation unverified. |
+| Live / rhythm | **40 listed patterns**,including metronomes. **Playing a rhythm disables reverb**;67 types/eight-module headline is not unconditional availability with every utility. |
+| Expression / storage | VP selects volume;Off andeffect-module targets are separate. Setting saves with eachpatch;an effect lacking the pedal symbol does not respond. Bypass-volume behavior remains separate from global assignment. |
+
+No device operated,recording made orfile downloaded. Full algorithm census,current software support andqualified Shopee offers remain unresolved;partial lead stays outside active402.
 
 ## G1X FOUR
 

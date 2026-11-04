@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): record exact G1u partial discovery'
+        message='research(zoom): verify G1u controls, power and utility restrictions'
     print(git('commit','-m',message))

@@ -167460,5 +167460,31 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue LCD-first priorities andfresh Shopee discovery;preserve GP-200JR->Prime->GE300,GT-Pro andexpression/consolidation queues."
+  },
+  "g1u_controls_power_live_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/ZOOM.md#g1u--control-census-power-and-live-processing-restrictions",
+    "sources": [
+      "https://zoomcorp.com/media/documents/E_G1u.pdf",
+      "https://zoom.co.jp/sites/default/files/products/downloads/pdfs/E_G1u.pdf",
+      "https://manuzoid.com/manuals/w02mA-Zoom%20G1U%20User%20manual"
+    ],
+    "revision": "Original indexed pp4–5;older English safety;manufacturer-authored5000-4 reproduction pp12–13,19,27/rear comparedwith5000-5 identity",
+    "controls": {
+      "rotaries": 2,
+      "footswitches": 2,
+      "buttons": 3,
+      "basis": "Text descriptions;no built-in treadle listed;notvisualinspection"
+    },
+    "power": "AD-0006 9VDC300mAcenternegative;notmeasured draw orAD16currentborrow",
+    "live": "5second overdub looper disablesdelay;40rhythm patterns,playbackdisablesreverb",
+    "expression": "Per-patchVPtarget;no globalassignment established",
+    "remaining": [
+      "Full namedalgorithms andsoftwareplatforms",
+      "FactoryUserfilling,looperretention andvolume routecoverage",
+      "QualifiedShopee hardware,new/usedIDR"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Preserve G1u partial status;continue individual-footdisplay priorities andqualifiedShopee discovery,withGP-200JR->Prime->GE300,GT-Pro andexpression/consolidation queuesindependent."
   }
 }
