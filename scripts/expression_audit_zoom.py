@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): index original G3X creative capabilities'
+        message='research(boss): qualify EX-4 switch chord and input scope'
     print(git('commit','-m',message))

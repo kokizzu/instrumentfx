@@ -166353,5 +166353,27 @@
     ],
     "next": "Continue remaining individual footswitch-display records andsystematic field gaps;preserve GT-Pro/expression/general queues",
     "active_inventory_unchanged": 402
+  },
+  "ex4_switch_input_scope_20261105": {
+    "checked": "2026-11-05",
+    "model": "BOSS::EX-4",
+    "canonical": "brand/BOSS.md#ex-4--switch-chord-control-and-input-set-scope-wording",
+    "sources": [
+      "https://static.roland.com/manuals/ex-4_reference/en-US/585615115589780235.html",
+      "https://static.roland.com/manuals/ex-4_reference/en-US/581586571589800459.html",
+      "https://static.roland.com/manuals/ex-4_parameter/en-US/631124107637712523.html"
+    ],
+    "revision": "Copyright2026 HTML; firmware unstated",
+    "findings": [
+      "MEM/MAN simultaneous-switch toggle can be disabled; not a blanket suppression claim",
+      "Input guide refers to memory MASTER, while explicit MASTER table defines INPUT SET1–10 as shared system parameter; per-memory recall unproven"
+    ],
+    "remaining": [
+      "Qualified exact Shopee hardware",
+      "Input selection actual recall andsource wording clarification",
+      "Global output attenuation acrossbypass/tails/transition paths"
+    ],
+    "next": "Continue requested footswitch-display priority andsystematic no-treadle gaps; preserve GT-Pro andGP-200JR→Prime→GE300 queues",
+    "active_inventory_unchanged": 402
   }
 }

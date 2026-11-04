@@ -437,6 +437,15 @@ The noise suppressor can detect **INPUT** or **NS INPUT**. The manufacturer advi
 
 Earlier shared OUT LEVEL assignment, zero-valued range and EXP HOLD findings remain. Exact Shopee hardware, startup/output/bypass/tail coverage and installed behavior remain unverified. Partial lead stays outside active counts; no download, assignment, connection or device operation.
 
+### EX-4 — switch-chord control and input-set scope wording
+
+Checked **2026-11-05**, original ©2026 Roland HTML manuals; firmware applicability unstated.
+
+- [Simultaneous-switch setting](https://static.roland.com/manuals/ex-4_reference/en-US/585615115589780235.html): the default **MEM/MAN** action toggles memory/manual mode when both onboard switches are pressed together. Setting that action **OFF** disables the mode toggle;this doesnot establish that both individual switch actions are suppressed,change the physical switch count ordisable remote mode selection.
+- [INPUT SETTING reference](https://static.roland.com/manuals/ex-4_reference/en-US/581586571589800459.html) says the input set is chosen in the MASTER section of the memory. The [MASTER parameter table](https://static.roland.com/manuals/ex-4_parameter/en-US/631124107637712523.html) instead explicitly labels **INPUT SET1–10 a system parameter shared across all memories**. Preserve the wording difference;the explicit table supports shared selection,but per-memory recall is not independently established. Input conditioning is separate from EXP assignment andoutput-volume coverage.
+
+EX-4 remains a partial lead outside active inventory. Exact Shopee hardware,complete software/power coverage andall-route pedal attenuation remain unresolved. No setting changed,download ordevice operation.
+
 ## GM-800
 
 Consolidated and refreshed **2026-10-16**; partial verification. This processor qualifies through independent MFX architecture; it requires specialized input hardware for guitar/bass playing. No excluded specialist model is added.
