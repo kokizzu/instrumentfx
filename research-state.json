@@ -162340,5 +162340,15 @@
     "status": "KA1994.5V300mA German support;KA191 Japan discontinued/no replacement;capacity notdraw;partial outside402",
     "next": "Adapter polarity/connector/mains andunitdraw,display/import/software gaps; exactShopee hardware. Preserve LCD-first andindependent GT-Pro/expression queues.",
     "inventory_changed": false
+  },
+  "px4d_recall_bypass_20261104": {
+    "model": "Korg PANDORA PX4D",
+    "checked_date": "2026-11-04",
+    "canonical_section": "brand/KORG.md#pandora-px4d--master-recall-bypass-and-protected-memory",
+    "source": "https://cdn.korg.com/us/support/download/files/ec6a5d2611af7916e943d17ccbbfa1ff.pdf",
+    "revision": "EFG1 English14–19,24,28;undated firmware",
+    "status": "Master/bypass/tuner/lock/memory behavior qualified;partial outside402",
+    "next": "Defer unsupported electrical/display/import fields;continue priority screen/Shopee lead. Preserve independent general GT-Pro andexpression queues.",
+    "inventory_changed": false
   }
 }

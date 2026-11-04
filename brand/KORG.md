@@ -1042,6 +1042,20 @@ Checked **2026-11-04**. Exact-model manufacturer references; partial lead outsid
 
 Earlier unspecified-adapter notes retain their dates butare narrowed bythese exact regional mappings. No current hardware offer,purchase ordevice operation established;screen andsoftware/import gaps remain open.
 
+### PANDORA PX4D — master recall, bypass and protected memory
+
+Checked **2026-11-04**, [manufacturer EFG1 manual,English pp14–19,24,28](https://cdn.korg.com/us/support/download/files/ec6a5d2611af7916e943d17ccbbfa1ff.pdf). Undated firmware scope; partial outside402.
+
+| Field | Documented behavior / limit |
+|---|---|
+| Level / recall | Master level survives power-off. Value dial defaults to master adjustment at startup;its temporary program-select mode swaps functions with up/down. This is hand control,not external expression assignment orproof of AUX/loop attenuation. |
+| Bypass / tuner | TUNE/BYPASS press passes dry guitar;hold longer than one second mutes output. Tuner operates in either state. Calibration438–445Hz resets to440Hz atpower-off. No analog-relay topology ortrail continuity is established. |
+| Controls / lock | Key Lock permits program selection via up/down while other buttons/dial stop operating;power-off cancels it. This is an operating lock,not preset write protection. |
+| Memory / writes and reset | U00–U99 accept writes;P00–P99 do not. Unsaved program edits disappear on program change/power-off. Factory reload rewrites user programs andretained settings,including master level; it isnot an extra bank orbackup. No reset performed. |
+| Practice / reverb dependency | Rhythm/bass reverb shares the program reverb;its level control has no effect when that model is unused orits effect level iszero. |
+
+Defer remaining electrical,label/display andsoftware/import gaps until new exact evidence. Continue priority individual-switch-screen orfresh Shopee research;no hardware operated orfile downloaded.
+
 
 ## PANDORA stomp
 
