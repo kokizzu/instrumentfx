@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(headrush): qualify Pedalboard IR and save-transfer boundaries'
+        message='research(valeton): qualify GP-200JR community editor support'
     print(git('commit','-m',message))

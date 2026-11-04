@@ -164966,5 +164966,24 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue accessible individual-footswitch-display profiles and exactShopee discovery;retain compactexpression audit andindependent GP-200JR→Prime→GE300/GT-Pro queues."
+  },
+  "gp200jr_unofficial_editor_20261105": {
+    "checked_date": "2026-11-05",
+    "model": "Valeton::GP-200JR",
+    "sources": [
+      "https://github.com/grzmol/VLTN-Tone-Studio",
+      "https://github.com/grzmol/VLTN-Tone-Studio/releases/tag/v0.8.1"
+    ],
+    "revision": "Author README advertising0.8.1;release2026-10-21 commit9591679",
+    "status": "Author software claims only;not manufacturer hardware verification",
+    "canonical": "brand/VALETON.md#gp-200jr--unofficial-editor-write-support-and-model-list-boundary",
+    "remaining": [
+      "JR SnapTone upload uncertainty andexperimental GlobalEQ",
+      "Exact OS/firmware compatibility andhardware validation",
+      "Qualifiedcondition/stock hardware offers",
+      "Manufacturer touch/toe,IRconversion andother saved gaps"
+    ],
+    "inventory_unchanged": 402,
+    "next": "Independent general queue:HeadRush Prime thenoriginal MOOER GE300;preserve requested individual-footdisplay priority,compactexpression scope andGT-Pro technical cursor."
   }
 }
