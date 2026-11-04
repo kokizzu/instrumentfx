@@ -165268,5 +165268,22 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue compactexpression gaps anddisplay-priority sources;preserve independentGT-Pro andgeneralqueues."
+  },
+  "tankpro_usb_mode_scope_20261105": {
+    "checked_date": "2026-11-05",
+    "sources": [
+      "https://www.manualslib.com/manual/4590071/M-Vave-Tank-Pro.html?page=17",
+      "https://www.manualslib.com/manual/4590071/M-Vave-Tank-Pro.html?page=18"
+    ],
+    "revision": "Original2026-06-12 bilingual manual,EN16–17/PDF17–18of39",
+    "finding": "USB modes,Reamp physicalinput disable,recording/inputgain levels andRCH separation qualified. Pedalbypasslink moved fromnavigation tocoverage column.",
+    "remaining": [
+      "USBchannelcount/currentfirmware equivalence",
+      "PT/IP1/IP2 globaltargetscope",
+      "Pedalpinout/endpoints/recall andalloutputcoverage",
+      "Qualifiedcurrenthardware offers"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue requesteddisplaypriority andcompactexpression gaps;preserve independentGT-Pro andgeneralqueues."
   }
 }

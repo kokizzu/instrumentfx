@@ -1340,6 +1340,7 @@ Sources: [original branded70-page bilingual manual](https://manualf.oss-cn-hongk
 | Field | Evidence / qualification |
 |---|---|
 | Expression / P1-P2 bypass states | [Dated manufacturer manual](#tank-pro--p1p2-target-bypass-and-global-save-boundary):ToeNone leaves block states;Resume restores presetstate when leaving;Disable turns departed target off. This isnot proof ofphysicaltoe hardware,global volume orpedal-position recall. |
+| USB / mode andlevel boundaries | [Original39-page manual](#tank-pro--usb-mode-input-disable-and-level-boundaries):Normal mixes USB/BT backing intorecordings;No excludesbacking;Dry recordsinput whilemonitoringprocessed;Re-amp disablesphysicalINPUT. USBRec0–100,default50=0dB;not anEXP-volume range. |
 
 <!-- comparison evidence ends -->
 
@@ -1457,3 +1458,11 @@ Checked **2026-11-05**, original bilingual **2026-06-12** manual,English14 (PDF1
 **Toe None** leaves module states unchanged duringP1/P2 changes. **Resume** activates thedestination effect andrestores thedeparted effect’s preset state;**Disable** activates thedestination andturns thedeparted effect off. These are switch-state policies,not physicaltoe-switch detection,held-position recall orall-preset volume assignment. **Invert** reverses pedal direction;it doesnot document tip/ring wiring orresistance.
 
 Leaving GLOBAL automatically saves global parameters,like holdingSAVE. However,the samepage expressly excludes **PEDAL SWITCH** fromglobal scope. Automatic global saving therefore doesnot convert this convenient P1/P2 toggle intoaglobal target assignment. CurrentPT/IP1/IP2 product-mode equivalence andbypass/headphone/tail/loop attenuation remain unresolved. No deviceoperation orlocaldownload.
+
+### TANK-PRO — USB mode input-disable and level boundaries
+
+Checked **2026-11-05**, original **2026-06-12** bilingual manual,English16–17/PDF17–18of39,[USB modes](https://www.manualslib.com/manual/4590071/M-Vave-Tank-Pro.html?page=17) and[level controls](https://www.manualslib.com/manual/4590071/M-Vave-Tank-Pro.html?page=18). Original body matched topreviously identified mirror;not hostFAQs,currentfirmware verification ordevice testing.
+
+**Normal** records instrument plusUSB/BT backing inamixed recording;**No** excludes backing. **Dry** records unprocessedINPUT whilemonitoringprocessed sound. **Re-amp** processes computerplayback anddisables physicalINPUT. These modes do not establish simultaneous independent dry/wet USBchannels.
+
+**USBRec0–100**,default50=0dB,isrecording level;**INPUT LEVEL−15…+15dB** isinputgain. Neither isglobalEXP assignment orproof ofUSB/headphone attenuation bythepedal. Right-outputNormal/Dry/NoCab modes areseparate fromUSB selection;left retains processed/cab signal whilethe right alternative changes. Currentmode equivalence,channelcount andpedalcoverage remainunknown. No download,recording orhardwareoperation.
