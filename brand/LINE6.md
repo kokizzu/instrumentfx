@@ -1075,6 +1075,10 @@ Checked **2026-11-04**, [manufacturer live Global Settings, Switches/Pedals](htt
 
 FS6 displays its two selected modes. Automatic return after preset selection depends on Preset being one of those modes; otherwise Preset Mode Return is locked to Manual. Combo uses FS2–5 and FS8–11, but cannot include Transport. Snapshot selection separately offers staying in Snapshot mode or returning to the previous mode. Thus individually labelled switches do not imply every function can coexist in one layout. No device operation; OLED dimensions/color and exact current hardware stock remain unresolved.
 
+### Stadium XL — Powercab audio versus expansion control
+
+Checked **2026-11-04**, [manufacturer PowerCab/L6 Link support article](https://kb.line6.com/helix-stadium-connection-with-powercab-plus-and-l6-link), no firmware revision or publication date exposed. For **Powercab 112 Plus and 212 Plus**, the article distinguishes quarter-inch/XLR audio from L6 LINK control: those analog connections provide no additional controller features. L6 LINK requires separate Expand D10 hardware and future updates. The page still describes D10 as preorder-only with release date TBD; this is a dated support-page claim, not independently verified current accessory availability. Do not infer that the XL Nexus connector alone supplies a direct Powercab L6 LINK connection, or extend this statement to other Powercab variants.
+
 ## HX Effects
 
 <!-- comparison evidence begins -->
