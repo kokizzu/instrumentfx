@@ -208,14 +208,14 @@ Reviewed **2026-10-14**. **Partial**, eligible guitar multi-effects; original GE
 | Knobs / footswitches / buttons | **2 / 3 / 6**, counted from the manufacturer's enumerated panel description: SELECT/MASTER and CHAIN; A/B/C; SAVE, TAP, SYSTEM, RHYTHM, HOME, EXP. Encoder presses not counted again; rear power switch separate. A+B and B+C are combinations, not additional footswitches [MOOER-GE100-PRO-Q] |
 | Screen | **3.5-inch color**. Explicit touchscreen specification **?**; knob navigation is not conclusive negative evidence [P,Q] |
 | Dimensions / weight | Published **255.7 × 144 × 53.5 mm; 760 g**. Width/depth labels and maximum pedal-up height not established in retrieved text. Fails the200×140 compact test in either horizontal orientation; strict medium/large classification remains pending axis confirmation [MOOER-GE100-PRO-P] |
-| Blocks / library | **9 modules**; flexible order and repeated module loading advertised. Page says **200+** in specifications and **240+** in introduction, not an exact counted library. Detailed simultaneous/DSP exceptions **?** [MOOER-GE100-PRO-P] |
-| Categories / choices | Published material establishes drive, preamp, cabinet and a broader effects library; complete firmware-specific per-category counts **?**. Retailer lists are not substituted for the unread detailed effect list [P,Q] |
+| Blocks / library | **9 modules**; flexible order and repeated module loading advertised. Page says **200+** in specifications and **240+** in introduction, not an exact counted library. April2026 appendix counts246 filled entries separately from40 empty sample positions; see [revision-qualified census](#ge100-pro--april-manual-library-and-import-capacity). Detailed simultaneous/DSP exceptions **?** [MOOER-GE100-PRO-P] |
+| Categories / choices | Published material establishes drive, preamp, cabinet and a broader effects library; April2026 per-category counts documented in the [appendix census](#ge100-pro--april-manual-library-and-import-capacity); current installed library unverified. Retailer lists are not substituted for the unread detailed effect list [P,Q] |
 | Presets | **150 locations =50 banks×3**; saving supported. Factory-filled versus dedicated factory/user split **?**; not150+150 [P,Q] |
-| Synth / acoustic sim | Specific algorithms **?**; IR support alone does not establish an acoustic simulator |
+| Synth / acoustic sim | Pitch Shift, Detune, Octave and special processing documented in the [appendix census](#ge100-pro--april-manual-library-and-import-capacity); dedicated tracking synth/acoustic simulator remain unverified |
 | Audio connections | 1×¼-inch unbalanced mono input; 2×¼-inch unbalanced mono L/R outputs; 1×3.5mm stereo headphones. No XLR/mic, analog aux, FX-loop or DIN/TRS MIDI socket in the complete quick-guide connector inventory [MOOER-GE100-PRO-Q] |
 | USB | **Two USB-C ports**: audio/data/editing, and separate power input. Mobile recording/playback documented; exact audio channels, USB-MIDI and loopback details **?** [MOOER-GE100-PRO-Q] |
 | Power / battery | **5V/2A USB-C power**, external power model; no internal Li battery. The Pro Li battery specification does not belong to this record.2A is the published supply requirement, not measured draw. Barrel-plug polarity N/A [P,Q] |
-| IR | Third-party **WAV,44.1kHz,24-bit,512 samples**. User-slot capacity **?** [MOOER-GE100-PRO-P] |
+| IR | Third-party **WAV,44.1kHz,24-bit,512 samples**. April2026 manual:20 shared GIR/third-party IR positions (68–87); current capacity unverified [MOOER-GE100-PRO-P] |
 | NAM / proprietary formats | **NAM A2 conversion**, explicitly in manufacturer's August2026 availability table; native A2 not claimed. MNRS2.0 support separate. Exact supported conversion architectures, minimum matching firmware and onboard capture ability **?** [N,P] |
 | Editor platforms | MOOER Studio: **Windows10+ / macOS13+** [MOOER-GE100-PRO-D]. MOOER Cloud: **iOS**, developer lists GE100 Pro; current App Store requires **iOS15.6+** [MOOER-GE100-PRO-A]. Android app published by MOOER [MOOER-GE100-PRO-G]; current minimum Android version **?**. Linux editor not established |
 | Practice / stage | **80-second stereo looper;40 drum grooves+10 metronome patterns**, tuner, Bluetooth backing audio [MOOER-GE100-PRO-Q]. Conditional copied-preset spillover documented in the [full-manual follow-up](#ge100-pro--full-manual-volume-and-output-routing-qualifications); scenes, preset gap and independent latency measurements **?** |
@@ -309,6 +309,17 @@ Checked **2026-11-04** against the manufacturer-authored shared GE100 Pro/Pro Li
 | Practice / spillover | Delay/reverb tails require SYSTEM SPILL-OVER plus switching between a preset and its saved copy, allowing block toggles/parameter edits. This is conditional, not arbitrary-preset spillover or proof of gapless switching. |
 
 Shared-manual battery instructions explicitly concern Pro Li and are not transferred here. IR capacity, category census, touchscreen and dimension-axis labels remain unresolved.
+
+### GE100 Pro — April manual library and import capacity
+
+Checked **2026-11-04** in the manufacturer-authored [V01_2026.04.24 manual](https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE100_Pro-_Pro_li_Manual_EN_V01_2026.04.24.pdf), printed pp63–80 (PDF65–82). Static font decoding as documented above; this is a historical appendix census, not a current-firmware or installed-content certification.
+
+| Field | Revision-qualified evidence |
+|---|---|
+| Categories / choices | PRE15; DRIVE35; AMP72 filled+20 empty (73–92); CAB67 filled+20 empty (68–87); EQ6; NOISE REDUCTION3; MODULATION27; DELAY12; REVERB9. Calculated sum: **246 filled category entries**, excluding40 empty import positions. Repeated algorithms across categories are not deduplicated; these are choices, not simultaneous blocks. Earlier200+/240+ marketing wording retained. |
+| IR / sample capacity | CAB68–87 provides **20 shared GIR/third-party IR positions**, not20 of each. AMP73–92 provides20 GNR positions. Historical capacity; later NAM conversion support remains separately versioned. |
+| Synth / pitch and special | MOD contains Pitch Shift, Detune, Octave, Ring Modulator, Slow Gear and Lo-Fi. Tracking polyphony/ranges unspecified. Slow-Gear Delay creates swelled repeats; Shimmer adds octave-up reverb. Neither proves a tracking synth. Dedicated acoustic simulation remains unverified; CAB names are not acoustic-instrument simulation. |
+| Audio connections / specification conflict | Input2.2MΩ; line output100Ω; phones47Ω; A/D44.1kHz/24bit. The extracted dynamic-range rows repeat dBu level values; do not reinterpret them as valid dynamic-range specifications. Dimension axes and touchscreen remain unspecified. |
 
 ## GE100 Pro Li
 

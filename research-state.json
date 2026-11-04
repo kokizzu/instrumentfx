@@ -162020,5 +162020,37 @@
     ],
     "next": "Read full-manual appendix for category census/IR slots and specifications; global-volume persistence/coverage remains untested; preserve independent queues",
     "inventory_changed": false
+  },
+  "ge100pro_april_appendix_20261104": {
+    "model": "MOOER::GE100 Pro",
+    "checked_date": "2026-11-04",
+    "source": "https://cdn.rockboard.de/nos/data/erp/Artikell_PDF/Manual_PDF/Mooer/EN/ME_GE100_Pro-_Pro_li_Manual_EN_V01_2026.04.24.pdf",
+    "revision": "V01_2026.04.24",
+    "canonical_section": "brand/MOOER.md#ge100-pro--april-manual-library-and-import-capacity",
+    "category_filled_counts": {
+      "PRE": 15,
+      "DRIVE": 35,
+      "AMP": 72,
+      "CAB": 67,
+      "EQ": 6,
+      "NR": 3,
+      "MOD": 27,
+      "DLY": 12,
+      "RVB": 9
+    },
+    "calculated_filled_entries": 246,
+    "amp_gnr_slots": {
+      "first": 73,
+      "last": 92,
+      "count": 20
+    },
+    "cab_gir_ir_shared_slots": {
+      "first": 68,
+      "last": 87,
+      "count": 20
+    },
+    "qualification": "Historical category entries, not deduplicated algorithms/current installed census or simultaneous blocks. Font-decoded original manual, no images/device test.",
+    "next": "Current firmware census, preset factory fill, touchscreen/dimension axes, condition-qualified used IDR remain; no transfer to Pro Li without its own checkpoint. Independent queues preserved.",
+    "inventory_changed": false
   }
 }

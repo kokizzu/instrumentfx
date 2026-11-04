@@ -40,4 +40,4 @@ if __name__ == '__main__':
         assert review['head'] == git('rev-parse','HEAD').strip(), 'HEAD changed since review'
         assert review['sha256'] == hashlib.sha256(git('diff','--cached').encode()).hexdigest(), 'Staged diff changed since review'
         assert not git('diff','--cached','--check').strip(), 'Staged whitespace errors'
-        print(git('commit','-m','research(mooer): document GE100 Pro volume and output routing limits'))
+        print(git('commit','-m','research(mooer): census GE100 Pro April library and shared IR slots'))
