@@ -167181,5 +167181,35 @@
     "active_inventory_unchanged": 402,
     "additional_creative_records_unchanged": 69,
     "next": "Continue VG800 OSmatrix andremainingprofilegaps;then resume displaypriority andgeneralqueue;preserve GP200JR→Prime→GE300,GT-Pro,expression andconsolidationqueues"
+  },
+  "boss_vg800_os_matrix_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/BOSS.md#vg-800--dated-os-compatibility-and-windows-support-boundary",
+    "sources": [
+      "https://www.boss.info/global/support/support_news/25090811m1/",
+      "https://www.boss.info/global/support/support_news/25090811win1/",
+      "https://www.roland.com/global/support/support_news/2509161000/"
+    ],
+    "matrix_updated": "2026-10-30",
+    "mac": {
+      "15 Sequoia": "Hardware/driver andexclusiveapp Yes(Download)",
+      "26 Tahoe": "Hardware/driver andexclusiveapp Yes(Download)",
+      "27 Golden Gate": "Both UnderTesting"
+    },
+    "windows": {
+      "10": "BothYesDownloadbutEOSqualification",
+      "11": "BothYesDownload"
+    },
+    "windows_eos": "Roland supportdiscontinued2025-10-14;downloadavailabilitynotoperationguarantee",
+    "remaining": [
+      "Macdriverdetailrestrictions",
+      "IRlength/channelrestrictions",
+      "Fullcategorycensus/concurrency",
+      "Pedaloutput/bypass/tailcoverage",
+      "Powerpolarity",
+      "QualifiedShopeecondition/stock"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Defer inaccessibleVG800driverdetail/outputgaps;resume requested individualfootswitchdisplaymodel evidence andindependent GP200JR→Prime→GE300 queue;preserve GT-Pro andconsolidationqueues"
   }
 }

@@ -5886,3 +5886,18 @@ Checked **2026-11-05**,listing availability rather than installed firmware. [Sys
 | Special | HUMANIZER vowel processing,LO-FI,SLICER andSLOW GEAR. SOUND HOLD requires single notes;its trigger iswritten OFF,not saved loop audio. FX1–FX3 arethree selectable slots,not simultaneous access toevery named effect. |
 
 No measured tracking/latency claim orownership inference;the partial record remains outside402.
+
+### VG-800 — dated OS compatibility and Windows support boundary
+
+Checked **2026-11-05** against the exact-model rows;these are published statuses,not local tests.
+
+| Manufacturer matrix | Hardware/driver | Exclusive application |
+|---|---|---|
+| [macOS matrix,updated2026-10-30](https://www.boss.info/global/support/support_news/25090811m1/):15 Sequoia /26 Tahoe | Yes(Download) forboth | Yes(Download) forboth |
+| Same matrix:27 Golden Gate | Under Testing | Under Testing |
+| [Windows matrix,updated2026-10-30](https://www.boss.info/global/support/support_news/25090811win1/):Windows11 | Yes(Download) | Yes(Download) |
+| Same matrix:Windows10 | Yes(Download),subjectto end-of-support qualification | Yes(Download),same qualification |
+
+These names/version labels are reproduced fromthe manufacturer matrix. “Under Testing” isnot certified compatibility or“No”. Download status requires dedicated software;it doesnot certify all future OS releases orindividual machines. Existing Windows ARM/VM/Mac exclusions andTone Studio1.1.0/firmware1.50 requirements stillapply.
+
+[Roland’s Windows10 support notice](https://www.roland.com/global/support/support_news/2509161000/) discontinues related drivers/updates,operation guarantees andusage/troubleshooting support from **2025-10-14**. Downloads mayremain available;availability isnot ongoing support. This qualifies the older Windows10/11 driver headline rather than erasing it. Mac driver detail page stilltimes out;the matrix resolves the listed OS statuses withoutestablishing its full driver-specific restrictions.
