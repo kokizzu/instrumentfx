@@ -728,6 +728,16 @@ Checked **2026-11-03**, [manufacturer E2 manual,printedpp16,18–21][AX15-M];fir
 
 Pedal Pitch Bend/Talk/Ring Mod replace MODULATION;therefore cannot coexist with its Pitch Shifter. Hold Delay/Sample&Play replace AMBIENCE. Existing phrase-storage limits remain. These are choices,not all simultaneously available. Tracking quality andinstalled behavior untested. No download/device operation.
 
+### AX1500G — headphones, recall and bypass-mode limits
+
+Checked2026-11-04 in [manufacturer E2 manual,printedpp7–10][AX15-M];installed behavior untested.
+
+| Field | Evidence / qualification |
+|---|---|
+| I/O / headphone insertion | Connecting headphones **turns off the OUTPUT jacks**. AUX level is adjusted at the source device;this doesnot establish pedal control ofAUX. |
+| Memory / startup andchannel recall | Power-on restores the last program andmaster level inPlay mode. **CH HOLD Off** recalls the program's saved A/B channel;**On** retains the prior channel across program changes. DefaultOff. Neither establishes held-pedal position recall. |
+| Live / bypass andmute | InPlay mode,holding a program switch0.5s bypasses effects;1.5s orlonger mutes the INPUT guitar. Both invoke tuning. **Individual mode cannot select programs,bypass ormute**;PhraseTrainer cannot change programs orA/B channels. AUX,tail andheadphone mute coverage remain unverified. |
+
 <!-- comparison evidence ends -->
 
 Manual E2 viewed as browser text; controls not visually certified. No manual/software/dependency saved or installed. Multi-model shop offers and accessories excluded from prices. Advertised56 counting method, display details, power limits, imports, software and live restrictions remain open.

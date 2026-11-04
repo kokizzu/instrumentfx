@@ -162632,5 +162632,23 @@
     ],
     "inventory_unchanged": 402,
     "next": "Continue priority display-model gaps andfresh exact hardware discovery;preserve independent GT-Pro andexpression queues."
+  },
+  "ax1500g_headphones_recall_20261104": {
+    "model": "Korg::AX1500G",
+    "checked_date": "2026-11-04",
+    "source": "https://cdn.korg.com/us/support/download/files/c0cb472d5281a71103e41fb6563a2ceb.pdf",
+    "revision": "E2 printed7–10",
+    "resolved": [
+      "Headphone insertion disables main outputs",
+      "Startup andA/B channel recall distinguished",
+      "Mode-specific bypass/mute boundaries"
+    ],
+    "remaining": [
+      "AUX/tail/headphone pedal andmute coverage",
+      "Display physical specifications",
+      "Power draw/polarity andcurrent qualified stock"
+    ],
+    "inventory_unchanged": 402,
+    "next": "Continue fresh exactShopee andpriority display gaps;AXOMalternateFR endpoint inaccessible,Nanovolume material duplicate so deferred without newclaims. Preserve GT-Pro/expression queues."
   }
 }
