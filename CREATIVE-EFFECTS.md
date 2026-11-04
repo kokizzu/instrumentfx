@@ -42,7 +42,7 @@ The tables describe available algorithms, not a claim that every listed effect r
 
 ## Additional matches already recorded in the catalogue
 
-This index reuses existing canonical evidence and its original revision/date qualifications. These **65 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
+This index reuses existing canonical evidence and its original revision/date qualifications. These **66 records have not received a complete fresh four-category audit**; it is neither an exhaustive catalogue search nor a promise of current-firmware equivalence. Follow each link for sources and algorithm-specific limits. A blank capability is not inferred from a sibling model.
 
 | Existing record | Recorded synth / synth-like distinction | Recorded pitch | Recorded instrument simulation / tones | Qualification / special processing |
 |---|---|---|---|---|
@@ -111,6 +111,7 @@ This index reuses existing canonical evidence and its original revision/date qua
 | [Zoom B2](brand/ZOOM.md#b2--creative-algorithms-and-synth-routing) | STDSYN;SYNTLK;single-note MONO SYN | Pitch Shifter;Pedal Pitch;Harmonized Pitch | DEFRET | Ring/filter/Step; synth-specific dry-path routing; original manual,not full fresh audit |
 | [Zoom B2.1u](brand/ZOOM.md#b21u--pitch-alternatives-and-pedal-role-boundary) | STDSYN;SYNTLK;single-note MONO SYN | Pitch Shifter;Pedal Pitch;Harmonized Pitch | DEFRET;Acoustic360 is amp modeling | STEP/filter/ring processing;MOD/SFX alternatives;external EXP volume-only;not full fresh audit |
 | [Zoom B3n](brand/ZOOM.md#b3n) | StdSyn;SynTlk;Z-Syn;input polyphony unverified | PitchSHFT;HPS;Ba Octave;Ba Detune;single-note BaMnPitch | Defret;acoustic conversion unverified | [Bomber LATCH/TRGGR distinction](brand/ZOOM.md#b3n--creative-index-and-explosive-trigger-distinction);dated library/app/DSP limits;not full fresh audit |
+| [TC Electronic NOVA System](brand/TC-ELECTRONIC.md#nova-system--pitch-choices-and-scale-step-boundaries) | Dedicated synthesis unverified | Detune;Whammy;Octaver;Pitch Shifter;Intelligent Pitch Shifter | Acoustic simulation unverified | Two generated harmony voices do not prove chord tracking;scale-step intervals andfixed-pitch range conflict retained;focused original-manual check |
 
 ## Separately recorded partial leads
 

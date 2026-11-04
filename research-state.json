@@ -154997,6 +154997,15 @@
         "instrument": "Defret;acousticconversionunverified",
         "qualification": "BomberLATCH/TRGGRnotpitchedsynth;datedlibrary/app/DSPqualification",
         "evidence_basis": "Existingcanonical2017 exact sheetZ2I-2890-02 plusfocusedpp12–13 check;notfullfresh audit"
+      },
+      {
+        "key": "TC Electronic::NOVA System",
+        "canonical": "brand/TC-ELECTRONIC.md#nova-system--pitch-choices-and-scale-step-boundaries",
+        "synth": "Dedicated synthesis unverified",
+        "pitch": "Detune;Whammy;Octaver;Pitch Shifter;Intelligent Pitch Shifter",
+        "instrument": "Acoustic simulation unverified",
+        "qualification": "Scale-step intervals distinct fromsemitones;fixed-pitch range conflict preserved;inputpolyphony unverified",
+        "evidence_basis": "Focused originalEnglishrevision1.2/SW1.10 manual pp37–40;notcompletefreshfourcategoryaudit"
       }
     ],
     "status": "All seven selected records published; comparison reconciled with explicit evidence gaps and separate existing-catalogue index.",
@@ -163367,5 +163376,21 @@
     ],
     "active_inventory_changed": false,
     "next": "Continue requested individual-footdisplay technical/market gaps whennewprimaryevidenceaccessible;preserve independent GT-Pro andexpressionqueues."
+  },
+  "nova_creative_pitch_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://manualzz.com/doc/7256177/nova-system-manual-english",
+    "revision": "OriginalEnglish1.2/SW1.10,E60508712 printed37–40",
+    "canonical": "brand/TC-ELECTRONIC.md#nova-system--pitch-choices-and-scale-step-boundaries",
+    "finding": "Fivepitch choices;Whammyfactorypedalmapping;harmony±13scalesteps and13scales;rangeconflict retained",
+    "remaining": [
+      "GlobalanalogEXPtargetassignment",
+      "Inputpolyphony/tracking",
+      "Display/physicalcorroboration",
+      "QualifiedexactShopee hardware"
+    ],
+    "active_inventory_unchanged": 402,
+    "additional_creative_records": 66,
+    "next": "Continue accessible no-treadle profile gaps andexactShopee offers;preserve separate-footdisplay priority andindependent generalGT-Pro queue."
   }
 }

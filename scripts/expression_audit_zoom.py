@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): distinguish GFX-8 synth character and harmony controls'
+        message='research(tc-electronic): qualify NOVA System creative pitch controls'
     print(git('commit','-m',message))

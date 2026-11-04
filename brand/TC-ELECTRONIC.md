@@ -311,7 +311,7 @@ Checked 2026-10-18. Guitar multi-effects, distinct from NOVA Drive/Modulator and
 | Dimensions / weight | Printed284×89×267mm,axis order unlabelled;1.85kg. Inch-to-mm depth correspondence appears inconsistent;not silently corrected. | [Manual][NOVA-M] p46 |
 | Processing / choices | Analog overdrive/distortion plus six digital blocks:compression,EQ+gate,modulation,pitch,delay,reverb. Section-level category census below;exact simultaneous ceiling remains unverified. | [Manual][NOVA-M] p5 |
 | Factory / user memory | 30factory+60user presets;initial user fill unresolved. | [Manual][NOVA-M] p5 |
-| Synth / acoustic | Dedicated synth/acoustic simulation unverified;pitch effects alone do not establish synthesis. | Pending |
+| Synth / acoustic | Dedicated synth/acoustic simulation unverified. Detune,Whammy,Octaver,Pitch Shifter andIntelligent Pitch Shifter are documented; [exact creative limits](#nova-system--pitch-choices-and-scale-step-boundaries) retain range conflicts andunknown note handling. | [Manual][NOVA-M] pp37–40 |
 | I/O | Drive In,Line In,two balancedTRS outputs,MIDI In/Out/Thru5-pinDIN,Pedal In,mains. Line In bypasses analog preamp/drive. Other-port audit pending. | [Manual][NOVA-M] pp9,46 |
 | Conversion | AD/DA24-bit128×oversampling;listed converter delay0.63ms at48kHz. Complete operating-rate specification pending. | [Manual][NOVA-M] p46 |
 | Power / battery / USB | 100–240VAC50–60Hz auto-select,<15W. DC-barrel polarity N/A to documented mains supply. Battery/USB operation unverified. | [Manual][NOVA-M] p46 |
@@ -397,6 +397,20 @@ Checked2026-10-19; partial, original revision1.2/SW1.10 manual body on mirror, n
 | Live / onboard navigation | MOD/PITCH select banks after hold; three switches select presets. This is bank navigation plus slot selection, not dedicated previous/next-preset switches. [Manual][NOVA-M] p19 |
 | Expression / remaining | Built-in-treadle absence still needs panel corroboration; no dedicated headphones in recorded connector inventory. Bypass/looper coverage unknown. Existing Pre/Post, firmware1.2 recall fix and dimension conflict retained. No qualified new Shopee offer found; no download or operation. |
 <!-- comparison evidence ends -->
+
+### NOVA System — pitch choices and scale-step boundaries
+
+Checked **2026-11-04** in [manufacturer-authored English manual reproduction](https://manualzz.com/doc/7256177/nova-system-manual-english),revision1.2/SW1.10,E60508712,printedpp37–40. Original body only;official endpoints remain inaccessible.
+
+| Choice | Exact distinction |
+|---|---|
+| Detune | Two offset voices,each−100…+100;independent0–50ms delays. The extracted range doesnot print aunit;do not invent cents. |
+| Whammy | One added voice;one-ortwo-octave range,Up/Down direction,Pitch0–100% external-pedal control. Factory Whammy presets automatically map the pedal toPitch,not volume. |
+| Octaver | One added voice,one ortwo octaves,Up/Down. This differs from independently mixing two octave-down voices. |
+| Pitch Shifter | Two shifted voices withindependent0–350ms delays andfeedback. Preserve the earlier±one-octave/±1200/±2400cents source conflict. |
+| Intelligent Pitch Shifter | Two harmony voices,12keys,13scales;each **−13…Unison…+13 scale steps**,not semitones. Independent0–50ms delays. |
+
+Generated voices/stereo panning do not establish input-note polyphony. Tracking quality,installed firmware anddedicated synthesis/acoustic simulation remain unverified. Availability isnot simultaneous use ofall five pitch choices. No download ordevice operation.
 
 [NOVA-M]: https://manualzz.com/doc/7256177/tc-electronic-nova-system-guitar-and-bass-owner-s-manual
 
