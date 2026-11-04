@@ -281,3 +281,16 @@ Checked2026-11-04. The additional official [RK5_v3_OM.pdf](https://www.tech21nyc
 | Processing choices | Reverb small/large rooms;Delay28–1000ms. Time-knob adjustment shifts pitch;tap changes preserve pitch andwork inbypass. Repeats minimum gives one repeat,maximum self-oscillates;not a documented phrase looper orsynth. |
 
 Primary panel PNGs returned no inspectable image;manual screenshot failed. ExactShopeeIndonesia v3search again surfaced no qualified local item,not proof ofabsence. Profile remains partial outside active inventory. Next:visual panel/display confirmation,storage/software scope,EXP/headphones andexact revision-qualified Indonesianhardware.
+
+### RK5 v3 — analog processing and level hierarchy
+
+Checked **2026-11-04**, [exact OM2 manufacturer manual, ©2024, printedpp2–6](https://www.tech21nyc.com/wp-content/uploads/2026/01/RK5_v3_OM2.pdf). Original text only; no local download or device test.
+
+| Field | Exact-revision evidence / qualification |
+|---|---|
+| Processing / SansAmp EQ | Active **Low120Hz, Mid500Hz, High3.3kHz**, each **±12dB**, flat at noon. RK5 v3’s120Hz low center is not Fly Rig5 v2’s80Hz specification. These are controls within SansAmp, not three additional effect blocks. |
+| Processing / path distinction | Manual describes an **analog inline path**, with Delay and Reverb mixed in parallel. This does not establish analog wet-effect generation or independent freely reorderable paths. The separate loop-placement wording conflict remains unresolved. |
+| Live / level hierarchy | Manual examples: SansAmp Level governs when OMG and SansAmp are active; OMG Level governs Boost+OMG alone. Delay Level adjusts wet mix rather than total output. These examples do not fully specify every Pre/Post Boost combination or establish global expression assignment. |
+| Live / overload indication | Delay Level’s control flashes red for overload. Occasional peaks are expected; sustained illumination calls for trimming Boost, OMG Level or SansAmp Level. This is indication, not a measured headroom rating. |
+
+Exact v3 controls, storage/software, EXP/headphones and Indonesian hardware remain incomplete. Partial lead stays outside402 active models; no circuit-order, ownership or seller-revision inference.

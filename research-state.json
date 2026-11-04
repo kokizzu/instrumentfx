@@ -163912,5 +163912,26 @@
     ],
     "next": "Continue requested individual-footdisplay and accessible compact profile gaps; preserve independent GT-Pro/general and consolidation queues",
     "active_inventory_unchanged": 402
+  },
+  "rk5v3_processing_levels_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://www.tech21nyc.com/wp-content/uploads/2026/01/RK5_v3_OM2.pdf",
+    "revision": "OM2 ©2024 printed2–6",
+    "canonical": "brand/TECH21.md#rk5-v3--analog-processing-and-level-hierarchy",
+    "findings": [
+      "SansAmp active EQ±12dB at120Hz/500Hz/3.3kHz",
+      "Inline analog vsparallel delay/reverb mixing",
+      "Documented level hierarchy examples andDelayLevel wet-only",
+      "DelayLevel redclip indication;not measured headroom"
+    ],
+    "remaining": [
+      "Loop placement andallPostBoost level cases",
+      "Visual controls/display",
+      "Storage/software/IR/NAM/capture",
+      "EXP/headphones/globalvolume",
+      "Exact revision-qualified Indonesia offer"
+    ],
+    "next": "Continue accessible priority footdisplay andcompact model gaps;preserve GTPro/general andconsolidation queues",
+    "active_inventory_unchanged": 402
   }
 }
