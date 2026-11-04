@@ -4737,7 +4737,7 @@ Checked **2026-11-04**. Partial candidate **outside the 402 active models**; no 
 | Processing / memory | Same page: three synth sections plus four FX; 99 user and 70 preset patches. Installed firmware and patch contents remain unverified; published support version is qualified below. |
 | Hardware / display / footprint | Same page: 132×64 backlit graphic LCD; 255W×191D×70H mm, 1.75kg excluding adapter; 400mA draw. Exceeds preferred 200W×140D. Screen diagonal/color/touch and USB/battery operation remain unverified; named-supply voltage/polarity resolved in the follow-up below. No separate footswitch displays established. |
 | I/O / software | Same page: INPUT, THRU, RETURN; MAIN R/MONO and L/PHONES; SUB R/MONO and L; MIDI IN and OUT/THRU; USB-B; shared TRS EXP/CTL4,5; DC IN. Tone Studio editor for Windows/macOS; dated Windows application requirements and separate driver scope are qualified below. |
-| Controls / headphones / navigation | [Own English manual e01, ©2015, pp2–4,9](https://static.roland.com/assets/media/pdf/SY-300_e01_W.pdf): no built-in treadle in panel inventory; four footswitches. CTL2/CTL3 default to patch down/up but can become control switches. Six rotary controls: OUTPUT LEVEL, SELECT and parameters1–4. Full separate-button count unverified. Headphones use MAIN L/PHONES with R/MONO disconnected. USB carries audio/MIDI, not established USB power. |
+| Controls / headphones / navigation | [Own English manual e01, ©2015, pp2–4,9](https://static.roland.com/assets/media/pdf/SY-300_e01_W.pdf): no built-in treadle in panel inventory; four footswitches. CTL2/CTL3 default to patch down/up but can become control switches. Six rotary controls: OUTPUT LEVEL, SELECT and parameters1–4. Seven named separate buttons identified in the text-derived census below; visual completeness unverified. Headphones use MAIN L/PHONES with R/MONO disconnected. USB carries audio/MIDI, not established USB power. |
 | Expression / assignment versus recall | [Parameter Guide/Sound List e02, ©2015, pp13,17–20](https://static.roland.com/assets/media/pdf/SY-300_ParamGuide_e02.pdf): up to three analog-pedal assignments; **CTL MODE=SYSTEM shares settings across patches**. PATCH COM LEVEL and SUBOUT LEVEL are listed targets; MAIN PATCH LEVEL controls MAIN output. TARGET MIN/MAX and ACT RANGE are separate. EXP PEDAL HOLD recalls pedal state; it does not create assignment. Numeric level endpoints, bypass/USB/phones/tail/loop coverage, actual M-VAVE wiring and toe support remain unverified. |
 | Special / pitch qualification | Same guide pp4–5,7,9: oscillator pitch and bend are synthesis parameters; conventional harmony/pitch-shifter FX remain unverified. LO-FI, SLICER, SLOW GEAR, sequencer and oscillator hold are distinct processes. Hold prevents new synth sounds while active. No measured tracking-quality claim. |
 
@@ -4783,6 +4783,19 @@ Checked **2026-11-04**, manufacturer [Parameter Guide e02,©2015,pp6–8,14–15
 | Memory / INSERT loss boundary | WRITE,EXCHANGE,INITIALIZE andINSERT are distinct. INSERT shifts user-area contents andloses overflowing **U99**;it does not add capacity. No patch operation performed. |
 
 Exact imports/capture support,complete control census,OS applicability andexpression coverage remain unresolved. No local download,software installation ordevice test.
+
+### SY-300 — named controls, reverb choices and converter boundary
+
+Checked **2026-11-04** in [owner e01,©2015,pp3,5,7–8,12](https://static.roland.com/assets/media/pdf/SY-300_e01_W.pdf) and [Parameter Guide e02,p9](https://static.roland.com/assets/media/pdf/SY-300_ParamGuide_e02.pdf). Original manual text; no panel-image inspection. Partial lead remains outside402.
+
+| Field | Documented evidence / qualification |
+|---|---|
+| Controls / separate buttons | **Seven named panel buttons:** SYNTH/FX,BLENDER,MENU,EXIT,WRITE,PAGE left,PAGE right. SELECT’s press remains part of its rotary,not an extra separate button. Existing six rotaries/four footswitches remain;rear power/ground switches separate. This is a named text census,not visual corroboration. |
+| Categories / reverb and wah | **Seven reverb types:** Ambience,Room,Hall1,Hall2,Plate,Spring,Modulate. Touch Wah has LPF/BPF modes;Rotary Slow/Fast are speed settings,not two processors. Slicer’s DEPTH description incorrectly names UNI-V inthis guide;its intended target is not silently reconstructed. |
+| Processing / Blender history | Blender exchanges oscillator/FX settings with other patches andcan review **up to100 shuffles**. This is edit history,not100 stored patches,extra synth voices orrecorded audio. Save the result into writable memory tokeep it. |
+| Audio / converter specifications | A/D24bit+AF;D/A24bit;44.1kHz. INPUT2.2MΩ,RETURN220kΩ;MAIN/SUB2kΩ,nominal−10dBu. These converter/electrical ratings do not certify USB bit depth,stream count orheadphone power. |
+
+USB format/channel queries produced no additional exact-model manufacturer specification. IR/NAM/capture loading,drums,phrase looping,currentMac editor matrix anduniversal-volume coverage remain unverified;no inferred absence. No local download ordevice operation.
 
 ## SY-1000 — partial discovery lead
 

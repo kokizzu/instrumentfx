@@ -162174,5 +162174,26 @@
     "status": "Historical routing reset and playback-off distinction;U99 INSERT overflow;partial outside402",
     "next": "Finish remaining category subtypes,control census,import/practice/USB formats andcurrentMac matrix;maintain all global-volume uncertainties. No active admission yet;preserve LCD-first and independent queues.",
     "inventory_changed": false
+  },
+  "sy300_controls_reverb_conversion_20261104": {
+    "model": "BOSS SY-300",
+    "checked_date": "2026-11-04",
+    "canonical_section": "brand/BOSS.md#sy-300--named-controls-reverb-choices-and-converter-boundary",
+    "sources": [
+      "https://static.roland.com/assets/media/pdf/SY-300_e01_W.pdf",
+      "https://static.roland.com/assets/media/pdf/SY-300_ParamGuide_e02.pdf"
+    ],
+    "revision": "Ownere01pp3,5,7–8,12;Guidee02p9;copyright2015",
+    "control_census": {
+      "rotary": 6,
+      "footswitch": 4,
+      "named_separate_buttons": 7,
+      "visual_corroboration": false
+    },
+    "reverb_types": 7,
+    "blender_history_max": 100,
+    "status": "Partial outside402;converter rates distinct fromUSB stream specs;SlicerDEPTH source typo retained",
+    "next": "Complete import/practice/OS and current-firmware source review before active admission;USB stream format/count anduniversal-volume coverage remain unresolved. Continue useful priority orfreshShopee leads if source gaps persist;preserve independent queues.",
+    "inventory_changed": false
   }
 }
