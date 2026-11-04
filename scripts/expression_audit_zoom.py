@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(mooer): qualify GE300 historical reamp and editor fixes'
+        message='research(zoom): document G1u USB monitoring and editor boundaries'
     print(git('commit','-m',message))

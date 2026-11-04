@@ -167621,5 +167621,25 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue general cycle GP-200JR then Prime then original GE300; individual footswitch displays retain priority; preserve GT-Pro/expression/consolidation queues"
+  },
+  "g1u_usb_editor_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/ZOOM.md#g1u--usb-monitoring-and-historical-editor-support",
+    "source": "https://manuzoid.com/manuals/w02mA-Zoom%20G1U%20User%20manual",
+    "revision": "G1u-5000-4 printedp20; original manufacturer text, not chatbot",
+    "findings": [
+      "Direct processed guitar and DAW playback mixed at OUTPUT; disable DAW echo-back to avoid doubling",
+      "Historical basic USB driver versus separate ASIO role",
+      "ZFX Tools editor/librarian plus recording"
+    ],
+    "remaining": [
+      "Current OS/architecture support",
+      "Pedal coverage of USB playback and tails",
+      "Factory User occupancy",
+      "Qualified exact Shopee hardware offers"
+    ],
+    "active_inventory_unchanged": 402,
+    "partial_outside_active": true,
+    "next": "Individual footswitch-display models retain priority; independent GP-200JR→Prime→GE300 cycle, GT-Pro andexpression queues preserved"
   }
 }

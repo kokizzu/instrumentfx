@@ -2716,6 +2716,16 @@ Checked **2026-11-05**, manufacturer **G1u-5000-4** manual,printedpp21–26, [or
 
 The MODULATION Delay reaches2seconds;the separate DELAY module reaches5seconds,Reverse2.5seconds. Those are effect-buffer limits,not additional loop storage. Prior rhythm/reverb andlooper/delay exclusions remain. Installed1.20 equivalence,import support andqualified Shopee hardware remain open;partial lead stays outside active402.
 
+### G1u — USB monitoring and historical editor support
+
+Checked **2026-11-05**, manufacturer **G1u-5000-4** Operation Manual,printedp20, [original text reproduction](https://manuzoid.com/manuals/w02mA-Zoom%20G1U%20User%20manual);host chatbot excluded.
+
+The historical OS list names **Windows XP SP2/Vista andMac OS X10.4.6/10.5**,with later-version wording that doesnot certify modern systems. Those listed systems require no special driver forbasic USB audio;the supplied ASIO driver separately targets lower latency,without a numerical guarantee.
+
+**OUTPUT mixes DAW playback withdirect processed guitar.** The manual says todisable DAW echo-back monitoring toavoid flanger-like doubling;this is routing behavior,not an added effect. USB supplies power when theadapter isabsent. Cables longer than3m may trigger low-voltage indication,not a universal measured cable-length limit. Expression attenuation ofcomputer playback remains unverified.
+
+**ZFX Tools includes editor/librarian andrecording functions**,importing device patch data forcomputer editing/storage. This doesnot establish IR/NAM import,current OS/architecture support orcomplete backup integrity. No software downloaded,recording made ordevice operated;partial lead remains outside402 active models.
+
 ## G1X FOUR
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
