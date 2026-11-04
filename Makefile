@@ -2421,3 +2421,7 @@ metadata-history-test:
 	python3 scripts/metadata_consolidation.py test-history
 metadata-stage:
 	python3 scripts/metadata_consolidation.py stage
+
+.PHONY: metadata-history-preservation-plan
+metadata-history-preservation-plan:
+	python3 scripts/metadata_consolidation.py plan-history

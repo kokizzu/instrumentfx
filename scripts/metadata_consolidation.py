@@ -20,8 +20,9 @@ PATHS = ('scripts/metadata_consolidation.py','Makefile','README.md','research-st
 def digest(text):
     return hashlib.sha256(text.encode()).hexdigest()
 
-def parse_source(path):
-    text = research_tools.read_preserved_source(path)
+def parse_source(path, text=None):
+    if text is None:
+        text = research_tools.read_preserved_source(path)
     lines = text.splitlines()
     blocks, covered = [], set()
     i, context = 0, ''
@@ -214,7 +215,46 @@ def verify():
         if entry['root_profile']:
             path,anchor = entry['root_profile'].split('#',1)
             assert (ROOT/path).is_file() and anchor
+    verified_history_entries(state)
     print('PASS:'+str(len(SOURCES))+' Markdown/'+str(len(JSON_SOURCES))+' JSON metadata sources;21ownership entries/20root profiles;all nonblank lines covered;no added models;historical corrections and exclusions retained.')
+
+def verify_history_entry(entry, body):
+    assert entry['kind'] == 'historical-metadata-markdown-v1'
+    assert entry['source'] in SOURCES
+    assert entry['historical'] is True and entry['not_active_instructions'] is True
+    assert digest(body) == entry['sha256'], 'Historical metadata blob changed'
+    assert parse_source(entry['source'], body) == entry['content'], 'Historical metadata content lost or altered'
+
+
+def verified_history_entries(state):
+    entries = state['migration'].get('metadata_source_history_audit_20261104', {}).get('reviewed_variants', [])
+    verified = {}
+    for entry in entries:
+        body = research_tools.git('cat-file', '-p', entry['blob'])
+        verify_history_entry(entry, body)
+        key = (entry['source'], entry['blob'])
+        assert key not in verified, 'Duplicate historical metadata review'
+        verified[key] = entry
+    return verified
+
+
+def plan_history_preservation():
+    research_tools.identity()
+    state = json.loads((ROOT/'research-state.json').read_text())
+    pending = state['migration']['metadata_source_history_audit_20261104']['pending']
+    row = next(row for row in pending if row['source'] in SOURCES)
+    body = research_tools.git('cat-file', '-p', row['blob'])
+    assert digest(body) == row['sha256']
+    entry = dict(kind='historical-metadata-markdown-v1', **row, historical=True, not_active_instructions=True,
+                 content=parse_source(row['source'], body),
+                 qualification='Historical source wording, counts, coverage and queues; current root inventory, ownership corrections and cursors take precedence. No new purchase verification or active model admission.')
+    verify_history_entry(entry, body)
+    payload = dict(head=research_tools.git('rev-parse','HEAD').strip(), ledger_sha256=digest((ROOT/'research-state.json').read_text()), entry=entry)
+    target = Path('/tmp/instrumentfx-metadata-history-preservation-plan.json')
+    target.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + '\n')
+    print(json.dumps(dict(source=row['source'], blob=row['blob'], blocks=len(entry['content']['blocks']), nonblank_lines=entry['content']['nonblank_lines']), indent=2))
+    print('Review complete source and ' + str(target) + '; no repository sources modified.')
+
 
 def history_blobs(raw, path):
     """Include both sides of changes, including deletions and merge parents."""
@@ -251,16 +291,40 @@ def test_history():
     assert history_status('old fact changed', 'fact', {'redirect'}, {'old fact'}) == 'historical-variant-needs-review'
     for altered in ('', 'fact changed', 'redirect plus lost fact'):
         assert history_status(altered, 'fact', {'redirect'}) == 'historical-variant-needs-review'
-    print('PASS: metadata history includes deletion parents, isolates paths and rejects unreviewed content changes')
+    body = '# Example\n\n| Model | Limit |\n|---|---|\n| A | Unknown |\n| B | Revision conflict |\n\nHistorical queue; not active.\n'
+    entry = dict(kind='historical-metadata-markdown-v1', source=SOURCES[0], sha256=digest(body), historical=True, not_active_instructions=True, content=parse_source(SOURCES[0], body))
+    verify_history_entry(entry, body)
+    import copy
+    broken = copy.deepcopy(entry)
+    table = next(block for block in broken['content']['blocks'] if block['kind'] == 'table')
+    table['rows'].pop()
+    try:
+        verify_history_entry(broken, body)
+    except AssertionError:
+        pass
+    else:
+        raise AssertionError('Lost historical table row accepted')
+    try:
+        verify_history_entry(entry, body.replace('Unknown', 'No'))
+    except AssertionError:
+        pass
+    else:
+        raise AssertionError('Altered unknown qualification accepted')
+    print('PASS: metadata history includes deletion parents, isolates paths and rejects changed/lost historical facts')
 
 
 def audit_history():
     """Read-only HEAD-reachable metadata revision census; never auto-certify variants."""
     from brand_filename_migration import original_namespace
     import source_retirement
+    import json_pointer_removal
     research_tools.identity()
     test_history()
     source_retirement.verify()
+    json_pointer_removal.verify()
+    state = json.loads((ROOT/'research-state.json').read_text())
+    reviewed = verified_history_entries(state)
+    pointers = state['migration']['json_pointer_removal']['records']
     assert research_tools.git('rev-parse', '--is-shallow-repository').strip() == 'false', 'Complete history required'
     head = research_tools.git('rev-parse', 'HEAD').strip()
     rows, cache = [], {}
@@ -281,6 +345,10 @@ def audit_history():
                 cache[blob] = research_tools.git('cat-file', '-p', blob)
             body = cache[blob]
             status = history_status(body, preserved, redirects, aliases)
+            if status == 'historical-variant-needs-review' and path in pointers and body == pointers[path]['pointer_text']:
+                status = 'verified-retired-json-pointer'
+            if status == 'historical-variant-needs-review' and (path, blob) in reviewed:
+                status = 'verified-historical-metadata-content'
             row = dict(source=path, blob=blob, sha256=digest(body), status=status)
             if status == 'verified-registered-source-alias':
                 row['covered_source'] = aliases[body]
@@ -292,7 +360,7 @@ def audit_history():
     for row in rows:
         counts[row['status']] = counts.get(row['status'], 0) + 1
     report = dict(head=head, sources=len(SOURCES) + len(JSON_SOURCES), variants=len(rows), counts=counts, records=rows,
-                  limitation='Exact registered-original/alias equality relies on metadata-verify; current Markdown redirects are independently checked by source-retirement verify before byte comparisons. All other HEAD-reachable variants require review, including former JSON pointers. Pending is not proven loss; no source deletion or full migration certification.')
+                  limitation='Exact registered-original/alias equality relies on metadata-verify; current Markdown redirects are independently checked by source-retirement verify before byte comparisons. Retired JSON pointers require exact bytes plus independent typed-content/removal verification; historical metadata content requires complete parsed-source equality to the pinned Git blob. All other HEAD-reachable variants require review. Pending is not proven loss; no source deletion or full migration certification.')
     target = Path('/tmp/instrumentfx-metadata-history-audit.json')
     target.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     print(json.dumps({k:v for k,v in report.items() if k != 'records'}, indent=2))
@@ -323,7 +391,7 @@ def commit(stage=False):
         assert review['head'] == research_tools.git('rev-parse','HEAD').strip()
         assert review['sha256'] == digest(research_tools.git('diff','--cached'))
         assert not research_tools.git('diff','--cached','--check').strip()
-        print(research_tools.git('commit','-m','audit: enumerate historical metadata revisions for preservation review'))
+        print(research_tools.git('commit','-m','audit: preserve historical ownership and verify retired JSON pointers'))
 
 if __name__ == '__main__':
-    {'plan':plan,'apply':apply,'verify':verify,'commit':commit,'stage':lambda:commit(stage=True),'audit-history':audit_history,'test-history':test_history}[sys.argv[1]]()
+    {'plan':plan,'apply':apply,'verify':verify,'commit':commit,'stage':lambda:commit(stage=True),'audit-history':audit_history,'test-history':test_history,'plan-history':plan_history_preservation}[sys.argv[1]]()
