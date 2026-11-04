@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(nux): qualify Atlantic direct expression exclusion'
+        message='research(zoom): record unavailable G5n used retailer offer'
     print(git('commit','-m',message))
