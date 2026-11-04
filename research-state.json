@@ -161969,5 +161969,14 @@
     "inventory_changed": false,
     "independent_cursor_preserved": "BOSS GT-Pro",
     "downloads_or_device_operations": false
+  },
+  "tmp_page_scene_ir_fixes_20261104": {
+    "model": "Fender::Tone Master Pro",
+    "checked_date": "2026-11-04",
+    "source": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+    "revision": "1.6.48 August27,2025; current retrieved heading1.8.58 July15,2026",
+    "canonical_section": "brand/FENDER.md#tone-master-pro--historical-page-save-scene-and-ir-corrections",
+    "next": "Retain current model-guide reader limitation,physical mini-screen gaps,global expression andqualified-market questions;independent queues unchanged",
+    "inventory_changed": false
   }
 }
