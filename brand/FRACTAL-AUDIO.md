@@ -308,6 +308,18 @@ The [Mark II manufacturer page](https://www.fractalaudio.com/fc-controllers/) sp
 
 Exact Shopee Indonesia Mark II hardware was not found in the targeted search; no price or stock claim added. Power voltage/current/polarity, pedal pinout and actual M-VAVE wiring remain unresolved. No software download or device operation.
 
+### FC-12 Mark II — regional electrical scope and revision-unresolved IDR offer
+
+Checked **2026-11-04**. The [Okada FC page](https://www.okada-web.com/fractal-audio-systems/fc-12-fc-6-foot-controller) explicitly identifies **FC-12 MARK II** in its512×233×88mm/5kg row. [Fractal lists Okada for Japan andMelodia forIndonesia](https://www.fractalaudio.com/dealers/);dealer identity doesnot convert regional specifications into direct manufacturer electrical confirmation orprove stock.
+
+Regional shared specifications list **9–12V DC,1,000mA,center-negative,2.1mm;≤12W**,plus **fourTRS expression inputs,center-wiper10–100kΩ recommended**. These apply to the page’s named FC models;they are not borrowed fromFC-6’s body row. The original FC-12 manual’s **2.5mm** connector and9V versus9–12V discrepancy remain separate. No revision explanation orpinout compatibility is established.
+
+| Indonesian hardware evidence | Ask | Qualification |
+|---|---:|---|
+| Non-Shopee,revision andcondition unverified | **Rp18.272.000** | [Melodia FC-12,SKU FAS-052](https://www.melodiamusik.com/product/fractal-audio-fc-12-foot-controller/),four-month search snapshot;direct open timed out. Cached Jakarta Tersedia andother branches Tidak Tersedia are notcurrent stock. Title doesnot identifyMarkII;excluded fromexact-MarkII new/used ranges. CrossedRp22.840.000 isnot independently validated savings. Bundle,adapter,warranty,firmware,shipping/tax,voucher,working state andcheckout total unknown. |
+
+Qualified exact Shopee Indonesia MarkII hardware remains unrecovered,not proven unavailable. Manufacturer-confirmed electrical/plug specifications,actualdraw,USB/battery operation andpedal wiring remain open. No local download,power connection ordevice operation;controller stays outsideactive audio counts.
+
 ## FC-6 original — controller
 
 Checked 2026-11-01. **Controller, outside active audio-processor counts; partial profile.** The original FC-6 has six footswitches with individual 128×32 mini LCDs, a separate 2×20 transflective main LCD and separate LED rings. Tap/hold functions and labels are configurable. Four TRS expression inputs accept expression pedals (10–100 kΩ recommended); two TRS switch inputs accept up to four switches. Expression assignment and resulting audio-volume coverage depend on the host; calibration alone proves no global volume assignment.

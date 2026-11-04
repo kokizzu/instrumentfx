@@ -161180,5 +161180,33 @@
     "market": "Targeted IndonesianShopee query yieldedforeignThailandcontroller,notqualifiedIDRoffer;no currencyconversion.",
     "active_inventory_unchanged": 402,
     "next": "Reconcile FC-12 MarkII separately atnextmodelcheckpoint;continue requesteddisplaypriority andpreserve independentqueues."
+  },
+  "fc12_mkii_regional_offer_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "Fractal Audio FC-12 Mark II controller",
+    "sources": [
+      "https://www.okada-web.com/fractal-audio-systems/fc-12-fc-6-foot-controller",
+      "https://www.fractalaudio.com/dealers/",
+      "https://www.melodiamusik.com/product/fractal-audio-fc-12-foot-controller/"
+    ],
+    "canonical": "brand/FRACTAL-AUDIO.md#fc-12-mark-ii--regional-electrical-scope-and-revision-unresolved-idr-offer",
+    "finding": "Explicit regionalFC12MarkII electrical/pedal evidence;original2.5mm conflict preserved;MelodiaFC12 title insufficient forMarkIIoffer.",
+    "offer": {
+      "seller": "Melodia",
+      "sku": "FAS-052",
+      "idr": 18272000,
+      "access": "Four-month search;directtimeout",
+      "revision": "unverified;notassignedMarkII",
+      "stock": "CachedJakartaTersedia;notcurrentstock",
+      "condition_bundle_warranty_checkout": "unverified"
+    },
+    "remaining": [
+      "Manufacturer electrical/plug confirmation",
+      "ExactMarkIIqualifiedShopeehardware",
+      "Pedalpinout",
+      "USB/batteryoperation"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue priority individual-footdisplay profiles andbroadereligible inventory;preserve GT-Pro andexpression-volumequeues."
   }
 }
