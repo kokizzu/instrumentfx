@@ -167093,5 +167093,62 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue VG800 exactcurrentfirmware/software/IRandnamedalgorithm evidence;preserve displaypriority,GP200JR→Prime→GE300,GT-Pro andconsolidationqueues"
+  },
+  "boss_vg800_software_ir_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/BOSS.md#vg-800--published-firmware-editor-and-ir-format-scope",
+    "firmware": {
+      "version": "1.50",
+      "release": "July2026",
+      "source": "https://www.boss.info/global/support/by_product/vg-800/updates_drivers/15410e59-a820-4607-98c9-a48e9059f904/",
+      "scope": "TrackingMode;EXP/GKswitch MIDI,ASSIGN andintermittentoutputlevel fixes;installedunverified"
+    },
+    "editor": {
+      "version": "1.1.0",
+      "release": "July2026",
+      "requires": "Firmware1.50+ andproductdriver",
+      "windows": "https://www.boss.info/global/support/by_product/vg-800/updates_drivers/0da39458-ba02-4835-94c0-fc2bd950b644/",
+      "mac": "https://www.boss.info/global/support/by_product/vg-800/updates_drivers/fee13637-22c1-49cb-8438-1e68e814d6b5/",
+      "mac_arch": "AppleSiliconandIntel;exactOSmatrixpending"
+    },
+    "windows_driver": {
+      "version": "1.0.0",
+      "source": "https://www.boss.info/global/support/by_product/vg-800/updates_drivers/17742f94-e6a1-4cf4-acba-67f55088f734/",
+      "os": "10/11",
+      "excluded": [
+        "ARM",
+        "virtualWindows",
+        "WindowsonMac",
+        "10Mobile"
+      ]
+    },
+    "ir": {
+      "source": "https://static.roland.com/assets/media/pdf/BTS_VG-800_jpn01_W.pdf",
+      "revision": "jpn01©2025p12",
+      "slots": 16,
+      "format": "WAV44.1/48/96kHz16/24bitlinear;convertedonload",
+      "unknown": [
+        "length",
+        "samplelimit",
+        "channelrestriction",
+        "internalrate"
+      ]
+    },
+    "backup": "jpn01p14.sybcurrentmodeonly;guitar/bassseparate",
+    "failed_sources": [
+      "EnglishBTSdirectinaccessible",
+      "BaxEnglishPDFoctetstream",
+      "Macdriverdetailtimeout"
+    ],
+    "remaining": [
+      "ExactOSmatrix",
+      "Namedalgorithms/concurrency",
+      "Globalvolumeoutputcoverage",
+      "IRlength/channels",
+      "Powerpolarity",
+      "QualifiedShopeecondition/stock"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue VG800 exactalgorithm andOSmatrix evidence;preserve displaypriority,GP200JR→Prime→GE300,GT-Pro andconsolidationqueues"
   }
 }
