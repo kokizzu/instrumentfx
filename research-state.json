@@ -167661,5 +167661,24 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue requested individual-footdisplay evidence first; preserve GP-200JR→Prime→GE300, GT-Pro, expression andconsolidation queues"
+  },
+  "fm9_original_routing_dynamics_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-original--crossover-multiband-and-multiplexer-boundaries",
+    "source": "https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf",
+    "revision": "November2026 pp3,30,60–61; explicit FM9 instance column",
+    "findings": [
+      "Two each Crossover/Multiband Compressor/Multiplexer subject toCPU",
+      "Crossover frequency split distinct from three-band dynamic processing",
+      "Multiplexer one-source selection distinct from Mixer simultaneous blend; no bypass"
+    ],
+    "remaining": [
+      "Exact FM9 source-menu availability andinstalled behavior",
+      "Complete Reverb/Megatap named census andGEQ countconflict",
+      "Exact-revision qualified Shopee offer",
+      "Original mini-display dimensions"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Requested footswitch-display profiles first; preserve independent GP-200JR→Prime→GE300, GT-Pro, expression andconsolidation queues"
   }
 }

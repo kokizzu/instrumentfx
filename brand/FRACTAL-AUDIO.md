@@ -1929,6 +1929,7 @@ Admitted **2026-11-01** as an **active partial guitar/bass model**, distinct fro
 | Used IDR | No original-revision,condition-confirmed Shopee offer established. |
 | New IDR | No original-revision,condition-confirmed Shopee offer established. |
 | IDR revision-unverified hardware | **Rp36.000.000**,Bersih Jaya Cleaning,KotaSurabaya,[shop1354606623/item43322190869](https://shopee.co.id/Fractal-Audio-Systems-FM9-MKI-i.1354606623.43322190869),four-month index checked2026-11-01;service unavailable. Same item has conflicting FM3-MKII-Turbo URL slug,two-month FM9MKI snapshot andstaleAugust6–8 delivery. Original/Turbo revision,condition,stock,working state,bundle,warranty,adapter andcheckout unknown. Excluded fromexact-revision new/used ranges;voucher compensation notdeducted. [Full conflict](#fm9-original--partial-lcd-discovery). |
+| Categories / crossover, multiband and source selection | [November reference](#fm9-original--crossover-multiband-and-multiplexer-boundaries): two instances each, DSP permitting; frequency splitting, three-band dynamics and one-source selection are distinct. |
 | Routing / Mixer | [November guide](#fm9-original--mixer-row-routing-and-phase-alignment): four CPU-limited Mixer instances; six stereo row inputs each, with gain/balance and up to64-sample alignment delay. No block bypass; not six hardware inputs or global volume. |
 | Categories / Megatap | [November guide limits](#fm9-original--november-megatap-limits-and-texture-controls): 64 taps per block on FM9; two instances subject to DSP. Distinct from Multi-Delay and Plex; 22-type headline is not a complete named census. |
 | Categories / Graphic EQ | [November guide count conflict](#fm9-original--november-graphic-eq-count-conflict): 18 advertised versus16 variants described; four FM9 blocks, DSP permitting. Two variants remain unidentified. |
@@ -2225,6 +2226,16 @@ Checked **2026-11-05**, [manufacturer November2026 Blocks Guide,printedpp3,59](h
 Inputs correspond to the six rows immediately left of the block; empty rows still retain their numbers. Each row has **0–100% gain**,left/right balance and up to **64 samples (approximately1.3ms)** of alignment delay. These short delays align parallel paths,not musical echo buffers. Output can remain stereo orsum to mono,with independent master level/balance. **Mixer cannot be bypassed.**
 
 This closes a routing-category detail,not a guarantee ofphase coherence for every parallel effect or an all-preset expression-volume assignment. Current installed equivalence andintroduction firmware remain unverified. Original/Turbo2022 evidence,physical-display qualifications andrevision-unresolved IDR offers remain intact. No download ordevice operation.
+
+### FM9 original — Crossover, Multiband and Multiplexer boundaries
+
+Checked **2026-11-05**, [manufacturer November2026 Blocks Guide, pp3,30,60–61](https://www.fractalaudio.com/downloads/manuals/fas-guides/Fractal-Audio-Blocks-Guide.pdf). FM9 permits **two instances each** of Crossover, Multiband Compressor and Multiplexer, CPU permitting. These are separate categories, not extra ordinary Compressor types.
+
+- **Crossover:** two-way stereo, fourth-order Linkwitz-Riley filters;40–800Hz, or400Hz–8kHz with×10. Independent high/low level and pan per channel permit frequency-split processing. Two blocks can form a three-way split.
+- **Multiband Compressor:** independent low/mid/high dynamics, then recombination; crossovers50–5000Hz and100–10,000Hz,12/24dB-per-octave slopes, RMS/Peak detection and band mutes. Three bands are internal, not three blocks.
+- **Multiplexer:** selects one grid-row, physical-input or USB source at a time, unlike Mixer blending. Stereo/Left/Right/Sum modes; no Bypass or Bypass Mode. The shared chapter’s complete connector menu must not be transferred indiscriminately between products.
+
+This is reference behavior, not installed testing, introduction-firmware identification or proof of global pedal coverage. Qualified exact-revision IDR offers remain unresolved; a targeted Shopee search produced none. Existing sources and conflicts remain intact.
 
 ## FM9 Turbo
 
