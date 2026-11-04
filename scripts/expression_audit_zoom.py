@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fender): document tuner policy and mixer strip readouts'
+        message='research(fractal): update FM3 MKII Windows driver bundle evidence'
     print(git('commit','-m',message))

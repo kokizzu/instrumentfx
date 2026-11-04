@@ -166020,5 +166020,28 @@
     ],
     "next": "Continue individual footswitch-display model physical/algorithm/market gaps; retain independent GT-Pro, expression and GP-200JR→Prime→GE300 queues",
     "active_inventory_unchanged": 402
+  },
+  "fm3_mkii_driver_bundle_20261105": {
+    "checked": "2026-11-05",
+    "model": "Fractal Audio::FM3 MKII Turbo",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm3-mkii-turbo--november-windows-driver-bundle-and-editor-boundary",
+    "sources": [
+      "https://www.fractalaudio.com/fm3-downloads/",
+      "https://www.fractalaudio.com/fm3-edit/"
+    ],
+    "finding": "November4 Windows bundle audio6.20/serial1.3 supersedes June audio6.16 listing; both required, Windows10+ x86/x64/ARM",
+    "limits": [
+      "No changelog/bug-fix or USB-channel inference",
+      "Driver architecture is not native editor certification",
+      "No downloaded installer, driver or firmware"
+    ],
+    "editor": "Still1.07.17 August25,2026; Windows10+64-bit main build plus separate32-bit link, runtime requirements unresolved; Mac10.13+",
+    "remaining": [
+      "Exact mini-display physical specifications",
+      "Global analog-volume endpoints/recall/output coverage",
+      "Current installed library and qualified hardware offers"
+    ],
+    "next": "Continue original FM3 driver-source reconciliation as a separate model checkpoint, then other individual-LCD gaps; retain GT-Pro, expression and GP-200JR→Prime→GE300 queues",
+    "active_inventory_unchanged": 402
   }
 }
