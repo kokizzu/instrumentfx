@@ -140937,6 +140937,24 @@
         "identity": "June2023 pp3,91,explicitFM9column",
         "finding": "OneSynth/fourchannels/threeoscillators,monophonicinput;7waveformsplusOff;Off/EnvOnly/PitchEnv tracking. No polyphonicinput inference.",
         "remaining": "CurrentMKIIequivalence/fullcensus unknown;downloads stillv12July7,2026 andmanual3.xAugust2022;no newglobalvolume endpoints/recall evidence."
+      },
+      "display_target_scope": {
+        "checked": "2026-11-04",
+        "source": "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf",
+        "revision": "August2022,Original/Turbo3.x,printed91",
+        "canonical": "brand/FRACTAL-AUDIO.md#fm9--onboard-and-connected-fc-display-settings",
+        "finding": "FC-only number hiding/name-source controls;Message Hold feedback duration is separate from Hold trigger timeout;FC ring bright25–100%/dim1–50% are not onboard LCD ranges",
+        "citation_correction": "Onboard appearance controls are printed91;prior90 citation covered preceding FC-menu page",
+        "remaining": [
+          "MKII/firmware12 equivalence",
+          "Full current MKII rotary/button counts",
+          "Direct manufacturer corroboration of current physical/power ratings",
+          "Mini-LCD diagonal,color/touch properties and qualified current offers"
+        ],
+        "marketplace": "Same Hurtrock25331147281 indexed ask;no new price orstock qualification adopted",
+        "next": "FM3 MKII Turbo remaining display/control specifications and exact Shopee offers;preserve expression-volume andgeneral GT-Pro queues",
+        "downloads": false,
+        "active_model_admissions": 0
       }
     },
     "fm3": {
