@@ -160511,5 +160511,19 @@
     "scope": "Family software history; no MKII shipping-version inference, physical display specification or device test.",
     "active_inventory_unchanged": 402,
     "next": "Continue requested individual-switch-display and exact-model gaps; GraphicEQ18-versus16 names unresolved. Preserve GT-Pro/general,compact-expression and exact-Shopee queues."
+  },
+  "tmp_appstore_platform_scope_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "Fender Tone Master Pro",
+    "sources": [
+      "https://apps.apple.com/us/app/fender-pro-control/id1520261115",
+      "https://apps.apple.com/id/app/fender-pro-control/id1520261115",
+      "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates"
+    ],
+    "finding": "Current US publisher listing corroborates iOS15 requirement; older Indonesian cache does not establish current regional release state. Store macOS minimum differs from desktop requirements; canonical retains qualification.",
+    "revision": "US1.8.4 Jul15; Indonesian cached1.7.2 Jan28, eight-month crawl; no installed-version assertion",
+    "scope": "App metadata and publisher history only; no physical LCD specification or device/software test.",
+    "active_inventory_unchanged": 402,
+    "next": "Continue requested separate-switch-display model gaps; preserve unresolved Japan iOS documentation, exact app/desktop build equivalence, hardware screen specifications and qualified Shopee stock. Independent GT-Pro/expression queues unchanged."
   }
 }
