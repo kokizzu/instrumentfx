@@ -166705,5 +166705,26 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Manufacturer Pocket X exact-model lead next; do not borrow its specs fromPocket Go. Preserve priority display andgeneral queues."
+  },
+  "donner_pocketx_discovery_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/DONNER.md#pocket-x--partial-no-treadle-discovery",
+    "identity": "Donner Pocket X EC7031; notPocket Go",
+    "sources": [
+      "https://us.donnermusic.com/products/donner-pocket-x-multi-effects-guitar-pedal",
+      "https://manuals.plus/donner/pocketx-ec7031-guitarbass-amp-modeler-multi-effects-processor-manual",
+      "https://manuals.plus/donner/pocketx-ec7031-portable-and-multifunctional-guitar-base-effector-manual",
+      "https://device.report/donner/pocketx"
+    ],
+    "status": "partial outside active inventory",
+    "finding": "Full numbered control/connector text excludes analogEXP;headphones andscreen-dependent preset−/+ documented.",
+    "remaining": [
+      "Exact firmware/manual edition crosscheck; originalPDF hadno extractedtext/inspectable image",
+      "6+1 accounting andfull algorithms/ranges",
+      "Display diagonal/technology/touch andelectrical ratings",
+      "Qualified exact Shopee hardware offer;separate new/usedIDR"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Pocket Go exact-model discovery next; preserve independent priority-display/expression andGP200JR->Prime->GE300 queues."
   }
 }

@@ -62,6 +62,25 @@ Checked **2026-11-05**, [Donner’s exact APL announcement](https://official.don
 
 Manual-body verification,analog EXP/treadle screening,storage allocation,loading formats,qualified IDR andcurrent stock remain open. Partial lead outside402active records;no ownership inferred orhardware operated.
 
+### Pocket X — partial no-treadle discovery
+
+Checked **2026-11-05**;exact **EC7031**,not Pocket Go. [Manufacturer product](https://us.donnermusic.com/products/donner-pocket-x-multi-effects-guitar-pedal) establishes guitar/bass multi-effects,color display,62-effect headline andWindows/macOS/Android/iOS editing. Display diagonal,technology,touch andfirmware applicability unverified. **Outside active inventory.**
+
+Original manufacturer-authored text reproduced as [EC7031 Guitar/Bass manual](https://manuals.plus/donner/pocketx-ec7031-guitarbass-amp-modeler-multi-effects-processor-manual) and [EC7031 Portable manual](https://manuals.plus/donner/pocketx-ec7031-portable-and-multifunctional-guitar-base-effector-manual): matching Donner title,preface,numbered front/rear controls andeffect chapters;only document bodies used,not host advice. [Document index](https://device.report/donner/pocketx) separately identifies V02/20240719 andV03/20241018 file candidates. The [V02 original reproduction](https://device.report/m/4db4b777ec52907087b211ff90f395eabd4c1146203dd915e866fa60089a1d23_optim.pdf) has31pages but no extracted text orinspectable screenshot here;full cross-edition identity andinstalled firmware remain untested. Related BLACKBOX declarations are not transferred.
+
+| Field | Documented evidence / qualification |
+|---|---|
+| Controls / expression | Two rotaries(MASTER,PARA),seven buttons(HOME+six modules),two footswitches;encoder push counted within PARA. Complete numbered inventory has no treadle/analogEXP socket: **fails direct analog-expression requirement**. Product headline “ONE FOOT SWITCH” describes switching functionality;manual explicitly names left/right. No visual census claimed. |
+| Navigation / phones | Main screen:left/right preset−/+. Other screens repurpose switches for module selection,bypass,tap orhold. Quarter-inch mono input/output,stereo mini phones,USB-C;no analogEXP in listed connectors. |
+| Processing / loading | Six reorderable FX/AMP/MOD/DLY/REV/CAB modules;technical table says6+1 simultaneous,extra-one accounting unresolved. IR import andAMP timbre-data import documented;NAM/native capture unverified. |
+| Memory | 80editable;P01–40factory-filled,P36–40bass. InitialP41–80contents unresolved;do not add40+80. |
+| Power / body | 113L×109W×41Hmm,410g;both base axes fit preferred rectangle.2000mAh,3.7V battery;USB5V operation;about200mA working current. Charging-current OCR needs original corroboration. |
+| USB / IR | 44.1kHz/24bit audio,loopback switch;IR:monoWAV44.1kHz/24bit,1024points. Directional channel count unresolved. |
+| Creative / practical | MOD:Chorus,Phaser,Tremolo,Flanger,Vibrato,Univibe,Autofilter;five delay choices includeDual/Lofi. DLY-screen right-switch hold≥1.5s sustains wet delay until release;not a phrase looper. Dedicated synth/instrument-simulator/polyphonic shift unverified. |
+| IDR | New/used unknown. Exact Shopee search yielded no qualified hardware item;not proof ofmarket absence. ProductUS stock/price isnot Indonesiaavailability. |
+
+Remaining:exact firmware,complete algorithms/ranges,display andelectrical ratings,current condition-qualified hardware. No local downloads,software installation ordevice operation.
+
 ## Arena2000
 
 Eligible guitar/shared-bass multi-effects with built-in expression. Not a dedicated single-effect pedal. Partial technical record; consolidation does not make remaining unknowns verified.

@@ -856,3 +856,7 @@ Stadium Floor [firmware recall qualification](brand/LINE6.md#stadium-floor--firm
 EX-4 [memory-transition qualification](brand/BOSS.md#ex-4--memory-gap-direct-sound-and-noise-detection): SEAM’s direct replacement during a memory gap is separate from CARRYOVER decay. Attenuation of transition audio by the system OUT LEVEL target remains unverified; neither setting proves global full-route mute.
 
 Chocolate’s [current named-product ratings and mixed-offer exclusion](brand/M-VAVE.md#chocolate--current-named-product-ratings-and-mixed-offer-exclusion) now separate manufacturer body/battery data from an unresolved Chocolate/Plus Shopee variation. These do not resolve analog wiring or global processor-volume assignment.
+
+### Donner Pocket X — partial direct-expression exclusion
+
+[Exact EC7031 manufacturer/manual evidence](brand/DONNER.md#pocket-x--partial-no-treadle-discovery): compact,no treadle;complete connector list has **no analogEXP**. Phones andonboard preset−/+ are separately documented;switch roles change withscreen. MASTERknob isnot pedal assignment. Outside402active records;Pocket Go specifications not transferred.
