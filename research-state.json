@@ -167268,5 +167268,24 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Generalqueuecycle GE300 checkpointpublished;resume GP200JR thenPrime thenoriginalGE300 atusefulgaps,withindividualdisplaypriority andexactShopee hardware first;preserve GT-Pro/expression/consolidationqueues"
+  },
+  "gp200jr_chain_mute_identity_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/VALETON.md#gp-200jr--chain-management-mute-and-manual-identity",
+    "sources": [
+      "https://www.valeton.net/wpfd_file/gp-200jr_online-manual_en_firmware-v1-5-0-pdf/",
+      "https://manuals.plus/m/7898605c67b93c388ac95c61a2362863c1d324fd63b2fdfb7d4c78851af0f149"
+    ],
+    "revision": "BodyFirmware1.5.0 printed9;officiallistingcorroborates1.5.0 nothost1.4.0",
+    "finding": "ManageSignalChain quickknob3Mute appliesonlyinmenu;distincttuner/bypass/globalEXP",
+    "remaining": [
+      "Currentfirmwareequivalence",
+      "Source/outputmute coverage",
+      "ExactIRconversion/NAMarchitecturelimits",
+      "Touch/toecensus",
+      "QualifiedShopeeoffers"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "ContinuePrime thenoriginalGE300independentqueue;prioritizeotherindividualdisplay andfreshShopeeleads;preserve GT-Pro/expression/consolidationqueues"
   }
 }

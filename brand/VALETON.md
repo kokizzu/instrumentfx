@@ -2183,6 +2183,14 @@ Checked **2026-11-05**, [manufacturer-authored JR manual reproduction,printed p2
 
 These controls remain inside existing module selections andDSP limits. They do not establish arbitrary simultaneous pitch blocks,tracking quality ortail attenuation. Preserve newer menu-count evidence andall copied-manual conflicts. No download ordevice operation.
 
+### GP-200JR — chain-management mute and manual identity
+
+Checked **2026-11-05**. Valeton’s [exact JR English1.5.0 manual listing](https://www.valeton.net/wpfd_file/gp-200jr_online-manual_en_firmware-v1-5-0-pdf/) labels thefile **FirmwareV1.5.0**,matching thebody ofthe [manufacturer-authored reproduction](https://manuals.plus/m/7898605c67b93c388ac95c61a2362863c1d324fd63b2fdfb7d4c78851af0f149),whose host title says1.4.0. Listing metadata04-06-2025 and11.68MB arenot a verified firmware-introduction date orpackage inspection.
+
+The original **Managing the Signal Chain** passage,printedp9,enters byholding PARA frommodule editing. Turn PARA toselect amodule;quickknob1 toggles it,quickknob2 moves it,andquickknob3 selects **Mute**,explicitly applicable **only inthis menu**,toavoid noise during rearrangement. Hold PARA orpressBACK toreturn. This temporary editing mute isnot thetuner’s Mute mode,a saved bypass assignment,proof ofcross-preset global volume,orcertified muting ofUSB/AUX/loops/tails.
+
+The passage documents moving existing module positions,not adding duplicate modules orproving gapless live reordering. Current1.8.0 equivalence andactual output behavior remain untested. Preserve thecompleted1.8.0 category census andall copied-model conflicts;no download ordevice operation.
+
 ## GP-200LT
 
 Guitar/bass/acoustic-instrument multi-effects; **medium** footprint; no built-in expression. This is GP-200LT, not GP-200, JR or a color variant.
