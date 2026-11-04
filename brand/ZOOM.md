@@ -4831,6 +4831,31 @@ Checked **2026-11-04** against the original [English manual, printed pp6–8](ht
 
 Partial lead remains outside active counts. Category census, exact Shopee hardware, button census and current software compatibility remain open. No local download or device operation.
 
+### G9.2tt — original category reconciliation and creative pitch limits
+
+Checked2026-11-04: [original manufacturer manual, printed61–75](https://zoomcorp.com/media/documents/E_G92tt.pdf). Reference census, not installed-firmware inspection.
+
+| Module | Choices / counting qualification |
+|---|---|
+| COMP | 3:Compressor,RackComp,Limiter |
+| WAH/EFX1 | 13 |
+| EXT LOOP | 1 external-loop control |
+| ZNR | 3:ZNR,NoiseGate,DirtyGate |
+| PRE AMP | 44:43 distortion/amp choices plusAco.Sim |
+| EQ | 1 six-bandEQ |
+| CABINET | 1 microphone/cabinet processor;parameters are not extra types |
+| MOD/EFX2 | 21 |
+| DELAY | 7 |
+| REVERB | 12,including delay/panning alternatives |
+
+Derived sum **106**;repeated names in different modules count separately. TOTAL configures patch/controllers andis excluded. Choices are not simultaneous instances.
+
+**PitchShift** selects−12…+12 or+24semitones,fine±25cents. **MonoPitch** spans±24semitones,fine±25cents;it and **PdlMonoPitch** explicitly require single notes. **PedalPitch** and **H.P.S** remain separate;their chord handling isunverified. These MOD/EFX2 alternatives share one slot.
+
+**Aco.Sim** is electric-to-acoustic. **RingModulate,SlowAttack,Step,Cry,CombFilter**,reverse delays anddelay Hold are special processing,not proof oftracking synthesis. SlowAttack's violin-like attack isnot a sampled-instrument engine. Dedicated synth remains unverified.
+
+Partial lead outside active counts;power discrepancy,visual controls,software/current firmware andqualified Shopee hardware remain open. No downloads/device operation.
+
 ## G11
 
 Guitar and bass multi-effects; large; built-in expression. Specifications below use ZOOM's own V2 operation/effect documents and current support page. A first-pass record with unresolved fields is not fully verified.

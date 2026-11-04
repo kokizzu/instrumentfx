@@ -140,6 +140,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [Zoom 4040](brand/ZOOM.md#4040--pitch-controls-and-conflicting-range-descriptions) remains a **partial lead outside active counts**: pedal-pitch modes and STEP processing are documented; range conflicts and chord handling remain unresolved.
 
+[Zoom G9.2tt](brand/ZOOM.md#g92tt--original-category-reconciliation-and-creative-pitch-limits) is a **partial lead outside active counts and the additional-record index**. Its original pitch, acoustic-simulation and special-processing distinctions are recorded; dedicated synthesis and general chord handling remain unverified.
+
 ## What remains uncertain
 
 - Actual tracking quality, latency and installed firmware were not measured for these records.

@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): verify G9.2tt control census and Japanese power wording'
+        message='research(zoom): reconcile G9.2tt categories and creative pitch limits'
     print(git('commit','-m',message))

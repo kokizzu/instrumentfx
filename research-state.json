@@ -162719,5 +162719,35 @@
     ],
     "inventory_unchanged": 402,
     "next": "Continue systematic discovery andpriorityindividualscreens;do not repeat unchangedpowerconflict withoutnewevidence. PreserveGT-Pro/expressionqueues."
+  },
+  "g92tt_category_census_20261104": {
+    "model": "Zoom G9.2tt",
+    "checked_date": "2026-11-04",
+    "canonical": "brand/ZOOM.md#g92tt--original-category-reconciliation-and-creative-pitch-limits",
+    "source": "https://zoomcorp.com/media/documents/E_G92tt.pdf",
+    "revision": "Original printed61–75;installedversionunknown",
+    "counts": {
+      "COMP": 3,
+      "WAH_EFX1": 13,
+      "EXT_LOOP": 1,
+      "ZNR": 3,
+      "PRE_AMP": 44,
+      "EQ": 1,
+      "CABINET": 1,
+      "MOD_EFX2": 21,
+      "DELAY": 7,
+      "REVERB": 12
+    },
+    "sum": 106,
+    "qualification": "Counts choices per module;TOTALexcluded;repeated names retained;not106unique algorithms orconcurrenteffects.",
+    "status": "Partial outside402;creativelead linked separately,noactiveindexaddition",
+    "remaining": [
+      "Visual/button census",
+      "Powererratum/adapterlabel",
+      "Qualified exactShopee hardware",
+      "Currentsoftware/firmware androutecoverage"
+    ],
+    "inventory_unchanged": 402,
+    "next": "Continue freshShopee andprioritydisplay gaps;categoryheadline nowreconciled,do notrepeatcounting. PreserveGT-Pro/expressionqueues."
   }
 }
