@@ -228,7 +228,7 @@ Checked 2026-10-17; partial. Separate from original H9 Max and H9 Gen 2. Ownersh
 |---|---|
 | Verified used | Unknown |
 | Verified new | Unknown |
-| Condition unverified | **Rp17,240,000**, [Swee Lee Official Shop][H90-O],Kota Jakarta Utara,seller799119783/item26020027851. Search crawl3months; direct indexed page2months,checked2026-10-17. Stale28–29June delivery. Exact hardware title; condition, bundle, warranty, voucher, shipping/tax, authenticity and checkout stock unverified. Historical ask, not completed sale. Store name does not establish new condition. |
+| Condition unverified | **Rp17,240,000**, [Swee Lee Official Shop][H90-O],Kota Jakarta Utara,seller799119783/item26020027851. Search crawl3months; direct indexed page2months,checked2026-10-17. Stale28–29June delivery. Exact hardware title; condition, bundle, warranty, voucher, shipping/tax, authenticity and checkout stock unverified. Historical ask, not completed sale. Store name does not establish new condition. **2026-11-04 access reconciliation:** the same item is still indexed atRp17.240.000 in a four-month search snapshot; direct reopening now gives only a two-day-crawled JavaScript placeholder. This is retained historical hardware evidence, not a newly verified price. Current stock,condition,working state,selected variation,cables/bundle,warranty,voucher eligibility andcheckout remain unknown. Relative delivery andup-to-Rp10.000 late compensation do not establish availability or an upfront discount. |
 
 No downloads or image inspection. Product checked now; manual sections explicitly version1.11.4, not proof of seller-unit firmware. No sibling specifications borrowed.
 

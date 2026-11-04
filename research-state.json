@@ -164595,5 +164595,32 @@
       "Condition/stock-qualified offers"
     ],
     "next": "Continue display-priority andcompact expression profiles plusexactShopee hardware;preserve GT-Pro,GP-200JR → Prime → GE300 andconsolidation queues"
+  },
+  "h90_market_summary_reconciliation_20261104": {
+    "checked": "2026-11-04",
+    "canonical": "brand/EVENTIDE.md#h90--separate-idr-hardware-evidence",
+    "source": "https://shopee.co.id/Eventide-H90-Harmonizer-Stompbox-Multi-Effects-Pedal-i.799119783.26020027851",
+    "change": "Expose already-retained exact H90 Shopee hardware ask inexpression comparison;separate knownhistoricalitem fromunverified currentstock",
+    "offer": {
+      "shop": "799119783",
+      "item": "26020027851",
+      "seller": "Swee Lee Official Shop",
+      "region": "Kota Jakarta Utara",
+      "historical_ask_idr": 17240000,
+      "prior_check": "2026-10-17 preserved",
+      "current_access": "Four-month search snapshot;two-day directcrawl JavaScriptplaceholder",
+      "condition_stock_checkout": "unverified"
+    },
+    "technical_recheck": [
+      "Manual1.12.5 global POutGain mapping remains documented",
+      "Globalrange/heldposition/dualpath/relay/loopercoverage remainunverified;no newcapability claim"
+    ],
+    "active_inventory_unchanged": 402,
+    "remaining": [
+      "Current condition-qualified new/used offers",
+      "Global gain endpoints/range editing",
+      "Heldposition andallroutecoverage"
+    ],
+    "next": "Continue display-priority processor andcompact expression gaps plusexactShopee offers;preserve GT-Pro, GP-200JR → Prime → GE300 andconsolidationqueues"
   }
 }

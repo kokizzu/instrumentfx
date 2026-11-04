@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(valeton): qualify GP-50 mode controls and Salomo voucher offer'
+        message='docs(eventide): reconcile H90 cached hardware evidence in volume comparison'
     print(git('commit','-m',message))
