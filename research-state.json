@@ -160109,5 +160109,36 @@
     "priority_check": "StadiumXL primary power query still unresolved;existingexactShopee asks only. No sibling/retailer power claim adopted.",
     "next": "Continue unresolved GT-Pro evidence independently,prioritizing accessible individual-footdisplay models;freshShopee discovery remains authorized.",
     "inventory_unchanged": 402
+  },
+  "axommax_developer19_gate_tuner_20261104": {
+    "checked_date": "2026-11-04",
+    "model": "MELOFTY::AXOM MAX",
+    "sources": [
+      "https://apps.apple.com/us/app/melofty/id6762972347",
+      "https://play.google.com/store/apps/details?id=com.melofty.axommax"
+    ],
+    "revision": "DeveloperApple1.9.0 Sep29;currentlisting1.9.2 relative3d;GoogleOct23genericfixes withoutversion",
+    "findings": [
+      "Named Simplified Noise Gate addition;gateperformance claim",
+      "Wah quality andtunerUI/bassaccuracy change claims",
+      "SynthInstscene model-switching release claim remainsseparate fromV1.7.4 sharedmodulearchitecture"
+    ],
+    "qualification": "Appnotesnotindependentlyestablishedhardwarefirmwarerequirements.No performance test,numericaccuracy,algorithmplacement ornewinstancecapacity inferred.",
+    "retrievals": {
+      "maker": "No readablelines",
+      "english_manual": "Unavailable",
+      "german_panel": "No inspectablecensus",
+      "shopee": "No qualifiedexactIndonesiahardware"
+    },
+    "remaining": [
+      "Physicalmanufacturer mini-screen censusandtechnology",
+      "Exactalgorithm/modelcensus andnotehandling",
+      "Hardwarefirmware requiredforappchanges",
+      "QualifiedShopee new/usedoffers",
+      "Externalglobalexpressioncoverage"
+    ],
+    "active_inventory_unchanged": 402,
+    "partial_outside_active_counts": true,
+    "next": "Continue requested individualfootdisplay gaps withotheraccessible evidence whenAXOM sources fail;preserve independent GT-Pro/expression queues."
   }
 }

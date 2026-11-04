@@ -197,3 +197,5 @@ Stadium XL’s [IDR evidence](brand/LINE6.md#helix-stadium-xl-floor) now include
 Stadium XL [MIDI recall andtoggle-state boundaries](brand/LINE6.md#stadium-xl--midi-recall-and-toggle-state-boundaries) distinguish direct/next/previous snapshot commands andtoe-switch toggles;they do not add physical displays orverify analog pedal-volume coverage.
 
 AXOM MAX [editor save prompts and Tail-Spill scope](brand/MELOFTY.md#axom-max--editor-save-prompts-and-tail-spill-scope) are now distinguished from proven seamless preset switching; mini-screen technology and external global-volume coverage remain unresolved.
+
+AXOM MAX [developer1.9 processing/tuner qualifications](brand/MELOFTY.md#axom-max--developer19-processing-and-tuner-qualifications) add a named Simplified Noise Gate lead anddated Wah/tuner change claims. App release notes do not resolve mini-screen technology,current hardware firmware,tracking performance orqualified Indonesian stock.

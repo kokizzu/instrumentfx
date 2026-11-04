@@ -400,3 +400,13 @@ Checked **2026-11-04**, [manufacturer German V1.7.4 manual,PDFp59](https://shop.
 - Its pedal-editing instructions name **EXP1/EXP2** with per-parameter minimum/maximum values; the hardware chapter separately identifies **EXP3(EXT)**. The abbreviated editor description does not prove external-pedal editing is unsupported. Global-volume assignment remains unresolved.
 
 No qualified exact Shopee hardware offer surfaced in the targeted search. Partial lead remains outside active counts; no software download, device operation or workflow use.
+
+### AXOM MAX — developer1.9 processing and tuner qualifications
+
+Checked **2026-11-04** in the manufacturer/developer’s [Apple app history](https://apps.apple.com/us/app/melofty/id6762972347), **1.9.0,September29**; the same listing separately displays1.9.2 with a relative date. These are app-store release notes,not independently identified hardware firmware requirements.
+
+- The developer names a **Simplified Noise Gate** addition andclaims improved noise-gate performance. This supplies a named processing lead,not its threshold/range,category placement,extra simultaneous slot ormeasured noise reduction.
+- **Wah audio quality** and **tuner UI/bass tuning accuracy** are also listed as improved. No accuracy tolerance,tracking latency oruniversal bass/synth note handling follows from those statements.
+- The already-retained **Synth/Inst Subpatch model switching** claim must be kept alongside the olderV1.7.4 scene architecture: shared module types/counts anddefault linked parameters. Neither source alone establishes which installed hardware revision permits which model substitutions.
+
+The [Google Play developer listing](https://play.google.com/store/apps/details?id=com.melofty.axommax) displays **October23,2026** with generic fixes,without an exposed matching version here;do not equate that date with Apple1.9.2 orhardware firmware. Manufacturer site remains unreadable,English manual retrieval failed,andGerman panel rendering yielded no inspectable control census. No qualified exact Shopee Indonesia hardware found. Partial lead remains outside active counts;mini-screen technology,exact category census andexternal global-volume coverage stay unresolved. No download,installation ordevice operation.
