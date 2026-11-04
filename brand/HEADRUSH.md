@@ -822,6 +822,14 @@ The same [exact-model5.0 guide §4.11.3,printedp46](https://cdn.inmusicbrands.co
 
 Existing one-loop/layer limits, per-rig expression assignments, page-dependent drum Intensity override and unresolved auxiliary-screen physical specifications remain unchanged.
 
+### Prime — signal-path-specific rig selection
+
+Checked **2026-11-04**, [manufacturer Prime signal-path support article](https://support.headrushfx.com/en/support/solutions/articles/69000834956-headrush-prime-what-are-the-new-signal-paths-for-rigs-); article revision and firmware applicability unstated.
+
+The article restricts accessible rigs to those mapped to the selected signal path. Its example says guitar/vocal rigs require that path;straight/split guitar rigs anddual-path rigs do not automatically map toone another. It instructs changing the signal path before recalling a rig made for another path. This is a documented rig-selection compatibility boundary,not a numerical storage limit orproof ofcurrent5.2 conversion behavior. A rig missing from the current selection doesnot alone establish deletion ormissing factory content.
+
+The same older article describes7+7 dual paths;the current record’s5.2 guide also documents2+12 and4+10 guitar/vocal allocations. Preserve the newer options rather than reducing all dual configurations to7+7. Hardware Assign maps switches/pedals within the chosen setup;that is separate from this selection restriction. No device test,rig conversion orsoftware download.
+
 ## VX5
 
 <!-- comparison evidence begins -->
