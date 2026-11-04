@@ -861,6 +861,7 @@ Current comparison summary, reconciled2026-10-28 from the exact-model sources re
 | Controls / mode switching | [Regional1.0.5 manual, printed10–11](#gp-50--mode-switch-indications-and-salomo-voucher-offer): **hold B** toggles Patch/Pedal modes. Patch rings blue and flash on selection; Pedal rings red/green follow module switching. Specific red/green on/off mapping and current1.1.0 equivalence remain unverified. |
 | Display | **1.77-inch full-color LCD**; pixels/touch unknown. Firmware1.0.5: sleep5min/30min/Always (default), brightnessI/II/III (defaultIII); sleeping display leaves audio I/O unaffected. [Revision-qualified details](#gp-50--display-sleep-and-audio-continuity). Knob navigation does not prove no touchscreen. |
 | Dimensions / weight | **122 W×82 D×54 H mm;430g**;fits preferred200×140mm,excluding cable clearance. |
+| Categories / creative pitch andfilters | [Firmware1.0.5 exact-model distinctions](#gp-50--polyphonic-pitch-and-filter-versus-instrument-simulation):OCTA andPitch explicitly polyphonic;Detune±50cents;Toucher envelope/Crier automatic wah separate fromtracking synthesis. Current1.1.0 equivalence unverified. |
 | Processing / categories | **Firmware1.0.5:9 simultaneous;112 named algorithms:** NR1,PRE12,DST10,AMP32,CAB21,EQ5,MOD11,DLY10,RVB10. Excludes user IR/SnapTone files. N→S disables AMP/CAB. NR/PRE/MOD/DLY/RVB reorderable;DST/N→S/AMP/CAB/EQ fixed. Exact1.1.0 contents unverified. |
 | Memory | **100 total,55 factory-filled,45 remaining slots**;factory fill is a subset,not100+55. |
 | Synth / acoustic |1.0.5 PRE AC Sim:Standard/Jumbo/Enhanced/Piezo;CAB AC:dreadnought simulation. AC Pre1/2 are separate acoustic preamps. Classic/Foxy/Mess Bass andBass OD support shared bass membership. Dedicated synth unverified. Dizz VH regional description copies Orange text;conflict retained. |
@@ -1223,6 +1224,17 @@ Checked **2026-11-04**. The [regional manufacturer-hosted Japanese manual](https
 **Separate Shopee hardware ask:** [Salomo Musik,shop1776275/item47804610896](https://shopee.co.id/Valeton-GP50-Multi-Effects-Processor-Original-i.1776275.47804610896),Kota Jakarta Utara, **Rp2.254.000**. Three-month search snapshot and three-week direct snapshot agree on the ask and **Dengan Voucher**; the direct snapshot additionally shows **Habis**. The displayed promotion says spendRp10.000,10% discount, but eligibility,cap andcheckout math are unverified. Do not subtract another10% or infer an unconditional base price. Condition,working state,firmware,selected variation,bundle,adapter,warranty,shipping/tax andcheckout total remain unknown. Relative next-day delivery is stale; up-to-Rp10.000 late compensation is not deducted. Not live stock or a completed sale.
 
 The [official1.1.0 manual entry](https://www.valeton.net/wpfd_file/gp-50_online-manual_en_firmware-v1-1-0-pdf/) remains dated2026-08-26, but its linked download route returned an error and the previously identified resource was inaccessible. Entry metadata does not establish current parameter behavior. Earlier sources and prices remain retained; no local download,installation ordevice operation.
+
+
+### GP-50 — polyphonic pitch and filter versus instrument simulation
+
+Checked **2026-11-05**, [regional manufacturer-hosted Japanese manual,firmware1.0.5,printedpp32–33](https://www.hotone.jp/manuals/valeton/GP-50.pdf). Original text,not generated image descriptions;not a current1.1.0 parameter certification.
+
+**OCTA** explicitly provides polyphonic octave processing withseparate down-one-octave,up-one-octave anddry levels. **Pitch** is described as polyphonic pitch shifting/harmonizing,with semitone-based upper/lower shifts andseparate shifted/dry levels;numeric shift limits andscale-intelligent harmony are not established here. **Detune** spans **−50…+50cents**,blending shifted anddry audio.
+
+**Toucher** is an envelope filter withGuitar/Bass modes;**Crier** is cyclic auto-wah with optionaltempo sync. Neither establishes an oscillator synth. **AC Sim** processes electric guitar toward **Standard,Jumbo,Enhanced orPiezo** sounds,withBody/Top controls;this differs fromacoustic preamps andCAB AC. These choices share thePRE block,not extra simultaneous slots. Tracking quality,latency andinstalled content untested;dedicated synthesis remains unverified.
+
+The official1.1.0 PDF remains inaccessible. Retain unknown all-preset analog-volume assignment andall older source qualifications. No download,software ordevice operation.
 
 
 ## GP-100
