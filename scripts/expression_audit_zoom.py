@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(fractal): distinguish FM9 split-band and source routing'
+        message='research(line6): qualify HX command recall and USB hotkey focus'
     print(git('commit','-m',message))
