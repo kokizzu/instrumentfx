@@ -162214,5 +162214,15 @@
     "status": "Waveform/control exclusions checked; current Mac matrix gap resolved; partial outside402",
     "next": "Check import/capture and practice-feature documentation, USB stream formats and expression endpoints/all-route coverage. Do not repeat completed control/OS census. Preserve LCD-first, independent GT-Pro and expression queues.",
     "inventory_changed": false
+  },
+  "sy300_liveset_player_20261104": {
+    "model": "BOSS SY-300",
+    "checked_date": "2026-11-04",
+    "canonical_section": "brand/BOSS.md#sy-300--liveset-imports-versus-computer-practice-playback",
+    "source": "https://static.roland.com/assets/media/pdf/BTS_SY-300_e03_W.pdf",
+    "revision": "e03 copyright2015 pp2,4–8,12–15; full15-page text read",
+    "status": "Patch-library and computer-player paths distinguished; partial outside402",
+    "next": "USB stream and expression signal coverage; defer unestablished imports/onboard practice. Continue priority/Shopee research rather than repeat these editor checks; independent queues unchanged.",
+    "inventory_changed": false
   }
 }

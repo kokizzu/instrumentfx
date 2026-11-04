@@ -4807,6 +4807,18 @@ Checked **2026-11-04**. Partial lead outside 402;  no ownership or membership ch
 
 Next: imports/capture and practice-feature evidence, USB stream specifications and expression endpoints/all-route coverage. Earlier completed control/subtype/OS tasks remain historical checkpoints, not the current continuation cursor. No download, installation or device operation.
 
+### SY-300 — liveset imports versus computer practice playback
+
+Checked **2026-11-04**, [Using BOSS TONE STUDIO for SY-300 e03,©2015,pp2,4–8,12–15](https://static.roland.com/assets/media/pdf/BTS_SY-300_e03_W.pdf). Partial lead outside402; historical software documentation, not a local test.
+
+- **Patch data:** library backup groups device patches into a liveset; export/import uses **.tsl**. A computer liveset holds up to400 patches, not400 device slots. Restoring/copying patches can overwrite destinations. The documented backup does not establish recovery of system settings, firmware or audio.
+- **Practice playback:** Tone Studio’s computer player accepts **44.1kHz,16-bit linear,stereo WAV**. It can repeat one track or the playlist; speed75–125%, pitch−600…+600cents, level0–100. These describe backing-track playback, not USB stream specifications, guitar pitch algorithms or an onboard phrase looper/drum machine.
+- **Import scope:** livesets are patch settings; WAV import feeds the computer player. Neither documents oscillator-sample loading, cabinet IRs, native/converted NAM or proprietary capture. Those capabilities remain unverified.
+- **Connection:** offline liveset organization is documented, but saving edited patch results requires the device connection. SY-300 DAW CTRL is a Windows-only selection, distinct from the editor’s SY-300 device entry.
+
+Next: defer unestablished import/capture and onboard practice support; investigate USB stream formats and expression endpoints/route coverage when exact primary evidence is available. Preserve independent priority queues and all earlier sources.
+
+
 ## SY-1000 — partial discovery lead
 
 Checked **2026-11-04**. Partial candidate **outside the 402 active models**; ownership is not inferred. Independent effects processing distinguishes this candidate from the excluded SY-1/SY-200 specialist records. No admission to active comparisons yet.
