@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): reconcile RFX-2200 memory and MIDI control scope'
+        message='research(m-vave): record qualified TANK-PRO Indonesian offers'
     print(git('commit','-m',message))

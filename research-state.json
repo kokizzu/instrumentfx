@@ -166495,5 +166495,33 @@
     ],
     "next": "Continue systematic remaining profile gaps; preserve individual-display priorities andindependent GT-Pro/general queues",
     "active_inventory_unchanged": 402
+  },
+  "tankpro_shopee_offers_20261105": {
+    "checked": "2026-11-05",
+    "canonical": "brand/M-VAVE.md#tank-pro--additional-indonesian-hardware-offers",
+    "offers": [
+      {
+        "shop": "52744568",
+        "item": "49218431305",
+        "seller": "triple3music",
+        "idr": 1900000,
+        "evidence": "last-week search cache;direct cache miss"
+      },
+      {
+        "shop": "338305078",
+        "item": "53916058008",
+        "seller": "Dial Musik",
+        "idr": 1990000,
+        "evidence": "six-day search cache;three variations unresolved;direct cache miss"
+      }
+    ],
+    "qualification": "Condition,variant,bundle andlive stock not verified; no used/new range",
+    "source_blockers": [
+      "TANK PRO release-note decoding",
+      "NAM→NAN PDF exceeds reader size limit",
+      "Manufacturer product shell only"
+    ],
+    "next": "Continue other accessible priority-model fields;retain controller wiring and TANK-PRO electrical/global-volume questions without speculative adapters",
+    "active_inventory_unchanged": 402
   }
 }

@@ -1387,6 +1387,7 @@ Historical2026-10-14 source wording. Later firmware-qualified findings and curre
 | Power | **3000mAh/3.7V/11.1Wh DTP105050**,about7h rated. USB5V/1A charging rating;intro recommends5V/2A supply;about400mA working current. **Use while charging supported**;battery-removed operation ?. **No9V barrel inlet**. |
 | Apps / recording | Model-specific manual **Windows/macOS/iOS/Android,M-EFCS**;Linux ?. USB audio/MIDI/data/charge,loopback/reamp,dryrecord/wetmonitor;channel count ?. Generic device lists omitting new models do not override model-specific connection instructions. |
 | Firmware / updater limits | [Official index](https://www.cuvave.com/appdownload), checked 2026-10-17, lists TANK-PRO v36 dated 2026-09-24 under PC Firmware; M-UPGRADE is separate from M-EFCS editing. The [linked release notes](https://yms-file-store.oss-cn-hongkong.aliyuncs.com/software/releaseNote/firmware/TANK%20PRO.txt) failed web retrieval with a Unicode decoding error. Retain original manual revision 2026-06-12 and avoid treating v36 listing as certification of all older algorithm counts or unrestricted NAM support. |
+| IDR / additional hardware asks | [triple3music Rp1,900,000; Dial Musik Rp1,990,000](#tank-pro--additional-indonesian-hardware-offers), checked2026-11-05. Indexed asks only; new/used condition, current stock and selected variant remain unverified. |
 | Practice | **150.8s mono/stereo PRE/POST looper**,overdub,last-layerundo/redo,retained after power-off;100rhythms;assignableindividualswitches,fixedcombos,tunermute/bypass,rightdry/nocab,Bluetoothbacking. Switchinglatency ?. |
 
 Retail **Rp1.900.000**, [Seven16879370/44814342587](https://shopee.co.id/M-Vave-Tank-Pro-Mvave-Tank-Pro-Multi-Effect-Processor-i.16879370.44814342587),Silver/Black/anothervariation unresolved,September6–7cached delivery. Used **?**. [Earlier1408254222/55016320305](https://shopee.co.id/product/1408254222/55016320305) not reopened. Neither proves stock,authorization,condition,bundle,delivered cost or completed sale.
@@ -1544,3 +1545,15 @@ Checked **2026-11-05**, [original 2026-06-12 manual, EN18 / PDF19 of39](https://
 - **REV (18):** Room; Hall; Plate; Spring; Shimmer; Bloom; Cloud; Lofi; Swell;each also has a **Stereo**-suffixed choice. Thus9+9=18.
 
 These are alternatives inexisting category blocks,not 65 simultaneous effects or 65 deduplicated algorithms. Names alone do not establish Pattern sequencing,Ice/Shimmer pitch details,tracking polyphony,granular synthesis,hold,ortrails across presets. Earlier WAH/FX/EQ lists andqualified import-bank counts remain separate; full current-library certification remains open. No local download or device operation.
+### TANK-PRO — additional Indonesian hardware offers
+
+Checked **2026-11-05**. These are additional exact-model hardware leads, not manufacturer specification sources or verified live prices. Preserve the older Seven and unresolved discovery offers above.
+
+| Seller / item | Indexed IDR ask | Qualifications |
+|---|---:|---|
+| [triple3music,shop52744568/item49218431305](https://shopee.co.id/M-Vave-Tank-Pro---Mvave-Tank-Pro-Multi-Effect-Processor-Efek-Gitar-i.52744568.49218431305),Kota Bandung | **Rp1,900,000** | Search reports last-week crawl; direct retrieval cache miss. Relative next-day arrival and recent seller activity are not live-stock evidence. Item title identifies TANK-PRO; no selected color/bundle verified. |
+| [Dial Musik,shop338305078/item53916058008](https://shopee.co.id/M-VAVE-Tank-Pro-Multi-Effect----Multi-Efek-Gitar---Original-M-Vave-i.338305078.53916058008),Kota Palembang | **Rp1,990,000** | Search reports six-day crawl, three variations and1–3November delivery; direct retrieval cache miss. Selected variation, included hardware/bundle and price applicability remain unverified. “Original” is seller wording, not authenticated origin. |
+
+For both: **new/used condition, working state, live stock, warranty/import region, included power supply/cables, shipping/tax and checkout total remain unknown**. Late-arrival compensation up toRp10,000 is not an item discount. Neither ask establishes a completed sale or a verified used/new market range; no currency conversion used.
+
+Manufacturer product retrieval still exposes only a shell; the linked TANK-PRO release-note text still fails decoding. The NAM→NAN white-paper link exceeds the web reader size limit, so no architecture or conversion conclusion is added. Existing per-preset expression evidence and unresolved PT/IP1/IP2, electrical wiring and all-output volume scope remain unchanged. No local download, installation or device operation.
