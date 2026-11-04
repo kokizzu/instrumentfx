@@ -164542,5 +164542,29 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Continue accessible display-priority processor gaps andexactShopee hardware;preserve GT-Pro,GP-200JR → Prime → GE300,expression andconsolidation queues"
+  },
+  "fm9_original_cpu_spillover_20261104": {
+    "checked": "2026-11-04",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-original--firmware-cpu-limits-and-spillover-source-conflict",
+    "sources": [
+      "https://manuals.plus/m/fc4c88f09cdfe1684d4526d72c54e4e86b0de29352a33b47c153a1dc5715d9b1.pdf",
+      "https://www.fractalaudio.com/fm9-downloads/",
+      "https://www.fractalaudio.com/downloads/manuals/FM9/FM9-Owners-Manual.pdf"
+    ],
+    "identity": "Original manufacturerPDF12.00July7,2026 matches maker Original/Turbo support;notmirror-generatedsummary",
+    "findings": [
+      "9.0 April23,2025 warns olderfactory presets can exceed80%CPU,especially nonTurbo;replacementpresets separate",
+      "9.01 May8,2025 scenechange clears CPU LIMIT onlyifnewscene fits",
+      "2.01 history includes ALL extendeddelay spillover;3.xmanual lists BOTH withoutALL;conflict preserved",
+      "Output1/2 ModeMUTE leaves USBplayback audible;notallsourcecoverage"
+    ],
+    "remaining": [
+      "Actual installed menu/firmware",
+      "Measured preset-tail continuity",
+      "Global pedal endpoints andall-outputcoverage",
+      "Exactoriginal-revisionShopee stock"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue display-priority processor gaps andexactShopee hardware;preserve GT-Pro, GP-200JR → Prime → GE300,expression andconsolidationqueues"
   }
 }
