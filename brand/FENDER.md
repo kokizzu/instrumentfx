@@ -672,3 +672,16 @@ Checked **2026-11-04** against [Fender’s manufacturer update article](https://
 | Step Tremolo / Step Filter / Step Filter Delay | Rhythmic amplitude,filter anddelay choices respectively;filter motion is distinct from note-generating synthesis. Exact step counts andparameter ranges unverified. |
 
 These expand the named creative comparison without claiming extra simultaneous slots. Preserve existing1.8.58 step-effect crash-fix qualification andDSP limits. Exact current model-guide parameters remain pending;no software orfirmware downloaded ordevice operated.
+
+### Tone Master Pro — assignment-page editing and LED-color boundaries
+
+Checked **2026-11-04** against [manufacturer release history](https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates), **1.8.45, June 3, 2026**. These are documented interface changes, not a hardware test or installed-version confirmation.
+
+| Field | Revision-qualified behavior |
+|---|---|
+| Controls / assignment-page editing | **1.8.45:** Drag an assignment right to move it to page two. The 16 paged assignments are not 16 simultaneously visible switches or additional LCDs. |
+| Controls / blank Song switch | **1.8.45:** Holding an unassigned Songs Mode switch opens **Add Preset to Song**. This differs from the blank FX assignment shortcut, which opens **Select Assignment Type**. |
+| Controls / screen bypass gesture | **1.8.45:** Double-tapping a signal-path block toggles bypass on the main touchscreen; the app supports double-clicking. This does not establish touch-sensitive footswitch LCDs. |
+| Display / preset LED colors | **1.8.45:** Preset footswitch LED colors can be assigned in Preset and Song modes; the color menu shows active/inactive choices together. These are **LED** settings, not evidence of color LCD strips. |
+
+Strip diagonal, pixel resolution and color/touch properties remain unverified. Existing page-two MIDI-addressing uncertainty is unchanged. No firmware, software or manual downloaded.

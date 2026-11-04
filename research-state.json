@@ -141030,6 +141030,27 @@
         "release_history": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
         "finding": "fw1.5 fivefunctions/switch;ONOFF multipleblocks withno statedlimit withinpresetDSP,ParameterChange oneblock.1.5.21 fixesEXP lag/graphicsswitching;1.6.48 fixesstripname refresh andInstrumentSplit tuner mute.",
         "remaining": "Current1.8manual/GuideH unsupportedcontenttype;NAM originalaccount not recovered,no shippedclaim;globalanalogEXP endpoints/outputcoverage andLCDphysicalspecs unverified."
+      },
+      "assignment_page_interaction": {
+        "checked": "2026-11-04",
+        "source": "https://support.fender.com/hc/en-us/articles/46768129660315-Fender-Tone-Master-Pro-Firmware-and-Pro-Control-App-Updates",
+        "revision": "1.8.45,2026-06-03",
+        "canonical": "brand/FENDER.md#tone-master-pro--assignment-page-editing-and-led-color-boundaries",
+        "findings": [
+          "Drag assignment right to page two; no extra physical LCDs",
+          "Blank Songs switch hold adds preset; blank FX hold selects assignment type",
+          "Main-screen/app block double-tap/click bypass does not establish strip touch",
+          "Preset/Song LED color menus do not establish LCD color"
+        ],
+        "remaining": [
+          "Strip diagonal,pixels,color/touch",
+          "Page-two MIDI addressing",
+          "Current manual and Guide H remain unreadable via web reader; no local download"
+        ],
+        "marketplace": "Search returned already-recorded Shopee items; no new condition/stock-qualified ask adopted",
+        "next": "Continue requested individual-display model follow-ups and exact Shopee discovery; preserve expression-volume and GT-Pro general queues",
+        "downloads": false,
+        "active_model_admissions": 0
       }
     },
     "helix_floor": {
