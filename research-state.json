@@ -164837,5 +164837,89 @@
       "Visualcontrols/touch,qualifiedusedhardware"
     ],
     "next": "Continue GP150categorycount gaps fromowncomplete1.0.5appendix whilekeeping1.1.1storage separate;preserve display/expression andgeneralqueues."
+  },
+  "gp150_category_census_20261105": {
+    "checked_date": "2026-11-05",
+    "source": "https://manuals.plus/m/526c2a16421fdca58ecb8453ab6a9a102dc9c8bbd3d8fa38c1fe6f1ce36606eb_optim.pdf",
+    "revision": "Exact GP-150 V1.0.5, printed36–73; complete category spans inspected",
+    "counts": {
+      "NR": 3,
+      "PRE": 23,
+      "WAH": 4,
+      "DST": 26,
+      "AMP": 58,
+      "CAB_factory": 35,
+      "CAB_user_IR_locations": 20,
+      "EQ": 4,
+      "MOD": 17,
+      "DLY": 14,
+      "RVB": 11,
+      "VOL": 1
+    },
+    "page_subtotals": {
+      "PRE": {
+        "36": 1,
+        "37": 5,
+        "38": 4,
+        "39": 7,
+        "40": 5,
+        "41": 1
+      },
+      "DST": {
+        "42": 3,
+        "43": 6,
+        "44": 5,
+        "45": 4,
+        "46": 5,
+        "47": 3
+      },
+      "AMP": {
+        "47": 1,
+        "48": 4,
+        "49": 3,
+        "50": 4,
+        "51": 4,
+        "52": 5,
+        "53": 5,
+        "54": 5,
+        "55": 4,
+        "56": 4,
+        "57": 5,
+        "58": 5,
+        "59": 4,
+        "60": 4,
+        "61": 1
+      },
+      "CAB_factory": {
+        "61": 13,
+        "62": 20,
+        "63": 2
+      },
+      "MOD": {
+        "64": 7,
+        "65": 5,
+        "66": 5
+      },
+      "DLY": {
+        "67": 3,
+        "68": 4,
+        "69": 5,
+        "70": 2
+      },
+      "RVB": {
+        "70": 1,
+        "71": 5,
+        "72": 4,
+        "73": 1
+      }
+    },
+    "basis": "Menu rows, not unique algorithms or concurrent instances; modes/bypass/import locations excluded. PRE/WAH each contain Hammy. Advertised200+ not reconciled.",
+    "remaining": [
+      "Current/installed firmware effects equivalence",
+      "Tracking/ranges and unresolved screen/power fields",
+      "Condition-qualified used/new Shopee stock"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue remaining exact-model profiles and Shopee discovery, prioritizing accessible individual-footdisplay evidence; preserve GT-Pro cursor, independent GP-200JR→Prime→GE300 queue and expression-volume scope."
   }
 }

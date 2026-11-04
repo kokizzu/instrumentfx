@@ -1478,7 +1478,7 @@ The complete supporting comparison was read before merging. Its model-specific v
 | Used IDR observation | ? |
 | New / retail IDR observation | **Rp2.950.000**, Salomo; page reports 17 in stock [detail](VALETON.md#gp-150) |
 | IDR / additional exact hardware ask,checked2026-11-05 | **Rp3.350.000**,[simamura shop,1552936594/43782112798](https://shopee.co.id/Valeton-GP-150-Guitar-Multi-Effects-Processor-with-Expression-Pedal-HD-NAM-Modeling-Pedal-200-Effects-IR-Loader-6in-4out-USB-Audio-Interface-Bluetooth-MIDI-180s-Looper-Built-in-3000mAh-Battery-Black-i.1552936594.43782112798),KotaTangerangSelatan. Search last-month/direct last-week snapshots agree onamount;direct arrival29October isstale. ExactGP-150 hardware title namesBlack;selected variation,bundle/adapter,actualcondition,workingstate,firmware,warranty/importregion,stock,shipping/tax andcheckout unknown. NoexposedHabis marker isnot live-stock proof. Late-deliveryRp10.000 compensation isnot deducted. Seller technical claims arenot manufacturer verification;older dated Salomo andotheroffers remain separate. |
-| Simultaneous blocks / categories and choices | 12 reorderable blocks; 200+ effects; per-category counts ? |
+| Simultaneous blocks / categories and choices | 12 reorderable blocks, DSP permitting; advertised 200+ effects. Own V1.0.5 appendix: NR 3 / PRE 23 / WAH 4 / DST 26 / AMP 58 / CAB 35 factory + 20 user IR / EQ 4 / MOD 17 / DLY 14 / RVB 11 / VOL 1; N→S file storage separate. [Count basis and revision limits](#gp-150--105-category-census). |
 | Presets and user storage | 200 total, 100 factory-filled; factory mix 85 guitar / 10 bass / 5 acoustic |
 | Synth / acoustic functions | V1.0.5 manual: AC Sim (Standard/Jumbo/Enhanced/Piezo), H to S and S to H pickup processing. Step Filter is filtering; dedicated synth unverified. Polyphonic OCTA/Pitch/P-Bend versus monophonic Hammy; Detune ±50 cents; Ring Mod, Hold and Freeze. [Revision-qualified details](#gp-150--creative-effects-and-exact-shopee-offer). |
 | Third-party IR | 20, 1024/2048 samples |
@@ -1537,6 +1537,26 @@ Checked **2026-11-05**, [manufacturer-authored Spanish manual reproduction,firmw
 | A2 Lite | **Native NAM A2 Lite,20 files maximum**. Storage andcontents are independent ofN→S andchange withthe selected mode. |
 
 The mode selector sits inPatch Editing. A2Lite demands more processing thanconvertedN→S according tothis manual;no CPUpercentage,tracking/tonal measurement orsimultaneousnative-instance count is established. Mention ofFull/Lite architectures doesnot certify nativeFull support;the independent [regional notice](https://www.hotone.jp/announcements/nama2allbrand) explicitly namesLite fromfirmware1.1.1+. Earlier English1.0.5 observations remain dated;English1.1.1 retrieval failure doesnot mean everylanguage copy is inaccessible. Native capacity isseparate from20 cabinetIR locations anddoesnot establish synthesis. No file imported,converted,downloaded ordevice operated.
+
+### GP-150 — 1.0.5 category census
+
+Checked **2026-11-05** against the complete category tables in the [manufacturer-authored GP-150 V1.0.5 manual, printed pp36–73](https://manuals.plus/m/526c2a16421fdca58ecb8453ab6a9a102dc9c8bbd3d8fa38c1fe6f1ce36606eb_optim.pdf).
+
+| Menu | Listed choices | Printed pages |
+|---|---:|---|
+| NR | 3 | 36 |
+| PRE | 23 | 36–41 |
+| WAH | 4 | 41 |
+| DST | 26 | 42–47 |
+| AMP | 58 | 47–61 |
+| CAB | 35 factory; 20 user IR locations separately | 61–63 |
+| EQ | 4 | 63 |
+| MOD | 17 | 64–66 |
+| DLY | 14 | 67–70 |
+| RVB | 11 | 70–73 |
+| VOL | 1 | 73 |
+
+Counts are selectable menu rows, excluding bypass, parameter modes and import locations. Hammy appears in both PRE and WAH; each menu includes it, without implying unique algorithms or simultaneous duplicates. AC Sim’s four modes remain one PRE choice. N→S files and native storage remain separate from this census. The manufacturer’s 200+ headline is not reconciled by summing these rows. Current/installed firmware equivalence remains unverified; the newer 1.1.1 storage documentation above does not establish an unchanged effects appendix. No sibling-model counts used.
 
 ## GP-180
 
