@@ -4213,7 +4213,7 @@ Original guitar multi-effects; distinct from G5n. Manufacturer marks discontinue
 | USB audio / monitoring | **16-bit, 44.1 kHz**, explicitly in the reproduced audio-interface chapter; distinct from 24-bit A/D and D/A. Direct/DAW balance and recording level adjustable; set USB AUDIO MONITOR to 100 when monitoring through DAW software to avoid mixed/flanger-like output. Historical interface OS list: XP SP3 32-bit, Vista SP1 32/64-bit, Windows7 32/64-bit; Intel Mac OS X10.5/10.6/10.7. This is separate from Edit&Share compatibility and does not establish current OS support, USB MIDI or bus power;the later FAQ below separately resolves channel count and USB power. | [Reproduced manufacturer manual p35][ZG5-R35]; checked2026-10-18 |
 | Editor / patch compatibility | Edit&Share manufacturer manualE-5 pp7,10 explicitly permits **G3/G3X patches and patch groups imported into G5**. Reverse transfer, B3 or G3n/G3Xn compatibility is not established. See [direction-qualified editor finding](#g5--editshare-import-direction-and-library-scope). | [Original editor manual](https://zoomcorp.com/media/documents/EditShare_Operation_Manual_English_2.pdf),checked2026-11-01 |
 | Editor / software | Edit&Share editor/librarian: Windows XP/Vista/7/8/8.1/10; MacOSX10.9–10.12. Separate G-Series ASIO2.0.1 driver lists Windows7/8/8.1/10. Firmware1.20 Windows/Mac listed. Current OS compatibility unverified. | [Support][ZG5-S] |
-| Looper / drums / live | Rhythms, chromatic tuner and12AX7 tube booster. Looper up to60s with rhythm synchronization; **UNDO ON reduces maximum to30s**, with last-overdub undo/redo by holding the switch1s. STOP ends immediately; FINISH ends after the loop; FADE OUT fades, with another press stopping immediately. Tube booster offers0–16dB, may be silent~5s while warming, starts OFF and cannot amplify USB-recorded signals. Scenes/trails unresolved. | [Product][ZG5-P]; [Indexed manual pp32,34][ZG5-M]; [Reproduced manual p33][ZG5-R33] |
+| Looper / drums / live | Rhythms, chromatic tuner and12AX7 tube booster. Looper up to60s with rhythm synchronization; **UNDO ON reduces maximum to30s**, with last-overdub undo/redo by holding the switch1s. STOP ends immediately; FINISH ends after the loop; FADE OUT fades, with another press stopping immediately. Tube booster offers0–16dB, may be silent~5s while warming, starts OFF and cannot amplify USB-recorded signals. [Patch/global level and timing scope](#g5--patch-and-global-settings-scope) is documented separately. Scenes/trails unresolved. | [Product][ZG5-P]; [Indexed manual pp32,34][ZG5-M]; [Reproduced manual p33][ZG5-R33] |
 
 ### Separate IDR hardware offers
 
@@ -4457,6 +4457,16 @@ Checked **2026-11-05** in the [Zoom-hosted original Japanese G5 manual](https://
 - **Tuner:** reference A adjusts435–445Hz and explicitly survives power-off. CHROMATIC is separate from GUITAR (including seven-string), OPEN A/D/E/G and DADGAD modes. Flat tuning supports one, two or three semitones down, excluding CHROMATIC. BYPASS/MUTE is selectable; this does not establish mute coverage for USB, headphones, tails or loop playback. Extracted control icons do not establish the exact footswitch gesture.
 
 Neither retained calibration nor output-device selection establishes external expression assignment across presets.
+
+### G5 — patch and global settings scope
+
+Checked **2026-11-05**, [original Japanese manufacturer manual](https://zoomcorp.com/media/documents/J_G5_s9RBOUt.pdf), printedpp18–22,26–27; revision/firmware date unstated.
+
+- **TOTAL** settings are saved per patch: PATCH LEVEL is0–120; CHAIN reorders effects. This is separate from GLOBAL MASTER LEVEL0–120, shared across patches. Identical ranges do not establish identical routing or external-pedal control.
+- **MASTER TEMPO40–250** is shared by effects, rhythm and looper. The global chapter describes tapping at least twice and optional FS01 use; missing extracted control icons do not identify an onboard footswitch. Preserve the existing manufacturer FAQ restriction on onboard footswitch tap. Rhythm can continue while returning to HOME or patch selection; this does not prove transition-tail retention.
+- **SIGNAL PATH** selects signal-flow direction globally. Extracted text lacks the diagram/options, so exact direction choices and physical-port reversal remain unverified.
+
+No local download, visual control inspection or device operation. External expression assignment across presets, recall and path coverage remain unresolved.
 
 ## G5n
 

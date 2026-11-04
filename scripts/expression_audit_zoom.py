@@ -54,5 +54,5 @@ if __name__ == '__main__':
         model=sys.argv[1].split('-')[1]
         message='research(zoom): reconcile '+model+' built-in treadle shortlist exclusion'
     if sys.argv[1]=='commit':
-        message='research(zoom): document G5 output modes and tuner retention'
+        message='research(zoom): distinguish G5 patch and global settings'
     print(git('commit','-m',message))
