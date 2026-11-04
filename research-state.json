@@ -166726,5 +166726,27 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Pocket Go exact-model discovery next; preserve independent priority-display/expression andGP200JR->Prime->GE300 queues."
+  },
+  "donner_pocketgo_discovery_20261105": {
+    "checked_date": "2026-11-05",
+    "canonical": "brand/DONNER.md#pocket-go--partial-no-treadle-discovery",
+    "identity": "EC7230; distinctfromPocket X",
+    "sources": [
+      "https://us.donnermusic.com/products/donner-pocket-go-multi-effects-guitar-pedal",
+      "https://device.report/manual/17500523",
+      "https://storage.donnermusic.com/official-user/202507/Pocket_Go_Guitar_Pedal_Manual.pdf",
+      "https://cdn.shopify.com/s/files/1/1384/9629/files/Pocket_Go_Guitar_Pedal_Manual.pdf?v=1755485025"
+    ],
+    "revision": "Original body identified;host dates notverified firmware/manual revision",
+    "status": "partial outside active inventory",
+    "finding": "AnalogEXP absent fromfullconnector list;volume excludesBT/USB. Banknavigation andwet-pitch/swell distinctions documented.",
+    "remaining": [
+      "Exact firmware/originalmanual revision",
+      "6+1 accounting,fullalgorithms andelectrical ratings",
+      "Hardwaredisplay corroboration",
+      "Qualified Shopee Indonesia hardware;new/usedIDR"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Return topriority separate-switch-display gaps andindependent GP200JR -> Prime -> GE300 queue;defer repeated unreadable manual URLs."
   }
 }

@@ -62,6 +62,24 @@ Checked **2026-11-05**, [Donner’s exact APL announcement](https://official.don
 
 Manual-body verification,analog EXP/treadle screening,storage allocation,loading formats,qualified IDR andcurrent stock remain open. Partial lead outside402active records;no ownership inferred orhardware operated.
 
+### Pocket Go — partial no-treadle discovery
+
+Checked **2026-11-05**;exact **EC7230**,not Pocket X. [Manufacturer product/specifications](https://us.donnermusic.com/products/donner-pocket-go-multi-effects-guitar-pedal) and [manufacturer-authored manual body reproduced onDevice.report](https://device.report/manual/17500523). The latter matches Pocket GO title,Donner preface,numbered controls,modules andmanufacturer contact;only original document text used,not cleaned overview/host advice. [Manufacturer-linked manual](https://storage.donnermusic.com/official-user/202507/Pocket_Go_Guitar_Pedal_Manual.pdf) returned unsupported content type;[alternate official link](https://cdn.shopify.com/s/files/1/1384/9629/files/Pocket_Go_Guitar_Pedal_Manual.pdf?v=1755485025) exceeds web-reader limit(12,151,377bytes). Host dates are not authenticated manual/firmware revisions. **Partial,outside active inventory.**
+
+| Field | Exact-model evidence / boundary |
+|---|---|
+| Expression / controls | Full numbered panel/connector text:one volume rotary,three A/B/C footswitches,no separate pushbuttons;power switch separate. No treadle oranalogEXP connector: **fails direct analog-expression path**. No physical inspection claimed. |
+| Navigation / display | A+Bbank−,B+Cbank+;thenA/B/C confirms selection. Seven groups:five guitar,two bass. This is not a dedicated sequentialpreset−/+ pair. Footswitch lights show tuning direction;note names require app. Software-screen illustrations are not a hardware LCD. |
+| Volume coverage | Physical volume excludes **Bluetooth andUSB input**. Loopback defaultsOn,mixing computer/phone playback(includingBT) with instrument recording;Off records instrument only. Not global pedal volume. |
+| Memory / processing | Product:21factory-filled,editable locations;six reorderable modules,claimed6+1 simultaneous.20AMP,20CAB,7MOD,5DLY,6REV;extra-one accounting unresolved. Not21factory+21additional user slots. |
+| Ports / USB | Product:quarter-inch monoTS input/output,stereo3.5mm output,USB-Cpower/data;44.1kHz/24bit USB/OTG. Directional channel count andall-output attenuation unknown. |
+| Body / power | Product:165L×60W×40Hmm,325g;1440mAh,up to7hours.5VUSB charging;printed5Vz300mA current notation needs corroboration. Fits preferred200×140mm rectangle withlong axis acrosswidth;manufacturerL/Wlabels retained. |
+| Loading / software | Product:third-partyANN andmonoWAVIR44.1kHz/24bit/1024points;Windows/macOS/Android/iOS editing. ANN isnot verified NAM import. |
+| Creative / practical | Manual:Shimmer wet-pitch0…+2octaves;Swell violin-like texture isprocessed reverb,not verified synth/instrument model. Tuner440Hz,software430–450Hz;softwareBYPASS VOL0–100. Looper,drums andtrackingpolyphony unverified. |
+| Indonesia hardware | No qualified exact Shopee item found;new/usedIDR,condition,stock,bundle,warranty andcheckout unknown. Overseas offers are not Indonesiaavailability. |
+
+Remaining:firmware,fullalgorithm/range census,electrical ratings,hardware-display corroboration,current qualifiedIDR. No files downloaded ordevice/software operated.
+
 ### Pocket X — partial no-treadle discovery
 
 Checked **2026-11-05**;exact **EC7031**,not Pocket Go. [Manufacturer product](https://us.donnermusic.com/products/donner-pocket-x-multi-effects-guitar-pedal) establishes guitar/bass multi-effects,color display,62-effect headline andWindows/macOS/Android/iOS editing. Display diagonal,technology,touch andfirmware applicability unverified. **Outside active inventory.**

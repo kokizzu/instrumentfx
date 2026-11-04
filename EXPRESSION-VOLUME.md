@@ -860,3 +860,7 @@ Chocolate’s [current named-product ratings and mixed-offer exclusion](brand/M-
 ### Donner Pocket X — partial direct-expression exclusion
 
 [Exact EC7031 manufacturer/manual evidence](brand/DONNER.md#pocket-x--partial-no-treadle-discovery): compact,no treadle;complete connector list has **no analogEXP**. Phones andonboard preset−/+ are separately documented;switch roles change withscreen. MASTERknob isnot pedal assignment. Outside402active records;Pocket Go specifications not transferred.
+
+### Donner Pocket Go — partial direct-expression exclusion
+
+[ExactEC7230 record](brand/DONNER.md#pocket-go--partial-no-treadle-discovery): noanalogEXP in complete connector list;phones supported. Bank−/+ combinations require subsequentA/B/C presetselection. Physical volume excludesBluetooth/USB playback;not a global master-pedal substitute. Partialoutside402;Pocket X controls/memory not transferred.

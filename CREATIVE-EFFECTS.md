@@ -158,6 +158,8 @@ This index reuses existing canonical evidence and its original revision/date qua
 
 [Line 6 Helix Stadium Floor](brand/LINE6.md#stadium-floor--named-creative-inventory-and-looper-retention) is a **partial non-XL lead outside active counts and the additional-record index**. Its manufacturer-scoped record names29 Pitch/Synth entries, distinguishes polyphonic pitch from unverified synth chord tracking andinput-independent generators, andrecords Acoustic Sim plus special delays/feedback. Looper duration andretention depend ontype/format/path;recorded audio isnot saved withpresets. This doesnot addindividual footswitch screens.
 
+[Donner Pocket Go](brand/DONNER.md#pocket-go--partial-no-treadle-discovery) is a **partial lead outside active counts andthe additional-record index**. Shimmer pitches the reverb wet signal;Swell produces a violin-like envelope texture. Neither establishes a dedicated synth orinstrument-simulation engine;tracking polyphony remains unverified.
+
 ## What remains uncertain
 
 - Actual tracking quality, latency and installed firmware were not measured for these records.
