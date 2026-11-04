@@ -166106,5 +166106,24 @@
     ],
     "next": "Check current MKII product-to-download applicability; do not transfer pre-MKII physical specifications. Preserve individual-LCD, GT-Pro, expression and GP-200JR→Prime→GE300 queues",
     "active_inventory_unchanged": 402
+  },
+  "fm9_mkii_driver_source_chain_20261105": {
+    "checked": "2026-11-05",
+    "model": "Fractal Audio::FM9 MKII Turbo",
+    "canonical": "brand/FRACTAL-AUDIO.md#fm9-mkii-turbo--current-product-linked-driver-listing",
+    "sources": [
+      "https://www.fractalaudio.com/fm9/",
+      "https://www.fractalaudio.com/fm9-downloads/",
+      "https://www.fractalaudio.com/fm9-edit/"
+    ],
+    "applicability": "Exact Mk2 Turbo product Downloads link opens FM9 downloads; firmware heading still says Original and Turbo, retained verbatim as qualification",
+    "finding": "Current product-linked Windows USB driver6.20 November4,2026, Windows10+ x86/x64/ARM; June6.16 retained as history",
+    "limits": [
+      "No binary/package inspection",
+      "No driver-specific fixes inferred",
+      "No native ARM editor certification or older-manual physical-spec transfer"
+    ],
+    "next": "Return to substantive individual-LCD physical/control/category gaps and qualified Shopee discovery; driver refresh finished for FM3 Original/MKII and FM9 Original/Turbo/MKII listings. Preserve GT-Pro, expression and independent GP-200JR→Prime→GE300 queues",
+    "active_inventory_unchanged": 402
   }
 }
