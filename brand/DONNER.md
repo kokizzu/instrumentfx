@@ -137,6 +137,8 @@ The official front graphic's One Foot Switch slogan is not the switch count: har
 | Recording / manual routing | USB device“GA2000 Audio”;left/right record signals individuallyDry/Effect,record/play levels adjustable. Exact totalchannels/format remain unresolved. [2022 manual p14][AR22] |
 | Recording | USB dry and processed recording together; OTG mobile recording. Exact USB channel count unverified. |
 | Practice | **60-second looper**,reverse/double/half-speed; **40 drum patterns**. Drum synchronization remains unresolved;2022 manual documents selectable delay/reverb preset trails below. |
+| Live / preset-control modes | [Original manual pp7,9–10](#arena2000--switch-modes-tuner-and-global-setting-boundaries): power-on starts preset mode; pressing the selected switch enters Control mode with two assignable switches. Bank selection returns to preset mode. No extra switches or separate switch displays. |
+| Live / tuner and global settings | [Same manual pp12,14](#arena2000--switch-modes-tuner-and-global-setting-boundaries): tuner dry bypass or mute,A4 435–445Hz; global input trim−60…+6dB. BLE Lock prevents app editing; factory reset deletes all data per guide. MIDI send/receive wording conflicts; no MIDI OUT inferred. |
 
 ### Arena2000 — IDR observations
 
@@ -277,6 +279,16 @@ Historical2026-10-14 source wording. Current firmware-qualified findings retain 
 - **Individually saved findings commit** (6. Evidence gaps and immediate commits): `cb764856d3a611936d99b6ca402dc96a88118928`
 
 [Original shared source](../research-state.json)<!-- historical-link:donner-001 -->,retained pending complete navigation/provenance audits.
+
+### Arena2000 — switch modes, tuner and global-setting boundaries
+
+Checked **2026-11-05**, manufacturer-authored **©2022 Arena2000 manual, printed pp4,7,9–10,12,14**, [original PDF mirror](https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf). Current firmware equivalence remains unverified.
+
+Power-on uses Preset mode. Pressing the selected preset switch toggles Control mode; the other two switches take assigned functions. Bank selection returns to Preset mode. CTRL assignments save per preset. Tuner offers dry bypass or mute, with A4 **435–445Hz**, default440Hz.
+
+Global input trim defaults0dB, spans **−60…+6dB**. **BLE Lock** prevents app operation; it is not audio bypass. The manual says factory reset deletes all data and calls for backup; exact reset coverage by data type remains unspecified. No reset performed.
+
+The connector description identifies **MIDI IN receiving control messages**, while p14 says the same input sends to external devices. This contradiction does not establish MIDI OUT/Thru,USB MIDI orbidirectional operation. Existing documented input and PC/CC mapping remain. Category census,preset fill andcurrent qualified offers remain open.
 
 ## Consolidation provenance
 

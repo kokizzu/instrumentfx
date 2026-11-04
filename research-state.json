@@ -167887,5 +167887,27 @@
     ],
     "active_inventory_unchanged": 402,
     "next": "Resume separate-footdisplay source gaps and Shopee inventory;preserve GP-200JR→Prime→GE300,GT-Pro,expression andconsolidation queues"
+  },
+  "arena2000_live_controls_20261105": {
+    "checked_date": "2026-11-05",
+    "source": "https://device.report/m/173567df81806b4e2da08b004d48be3265a7446aaebd91f140530baca984eb05_optim.pdf",
+    "revision": "Original manufacturer ©2022 manual printed4,7,9–10,12,14",
+    "canonical": "brand/DONNER.md#arena2000--switch-modes-tuner-and-global-setting-boundaries",
+    "findings": [
+      "Preset/control switch timing andper-preset CTRL storage",
+      "Tuner mute/dry andA4 range",
+      "Global input trim andBLEediting lock",
+      "Factoryreset all-data warning;typed scope unspecified",
+      "MIDI IN receiving versus sending prose contradiction retained"
+    ],
+    "remaining": [
+      "Current firmware equivalence",
+      "Manufacturer algorithm/category census",
+      "Preset factory/user fill",
+      "Condition-qualified Shopee offers",
+      "Touchscreen/button classification andbody conflict"
+    ],
+    "active_inventory_unchanged": 402,
+    "next": "Continue incomplete model profiles and Shopee discovery;preserve individual-footdisplay priority and independent GP-200JR→Prime→GE300,GT-Pro,expression andconsolidation queues"
   }
 }
