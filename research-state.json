@@ -164093,5 +164093,28 @@
     "fully_verified": false,
     "active_inventory_unchanged": 402,
     "next": "Finish electrical/category profile whenaccessible;continue requested display-priority technical/market gaps andpreserve GT-Pro/general/expression queues"
+  },
+  "stadium_floor_firmware_recall_20261104": {
+    "checked": "2026-11-04",
+    "source": "https://kb.line6.com/helix-stadium-1-4-release-notes",
+    "canonical": "brand/LINE6.md#stadium-floor--firmware-specific-recall-and-play-view-corrections",
+    "versions": {
+      "1.4": "2026-10-13",
+      "hardware1.4.1": "2026-10-20",
+      "hardware1.4.2": "2026-10-27",
+      "Native1.4.1": "2026-10-29,plugin only"
+    },
+    "scope": "Explicit Floor applicability;independent per-pedal position recall andUI/recall corrections,not global volume assignment",
+    "power": "Fresh exact primary search did not establish input label;IEC alone insufficient",
+    "market": "Requested priority display-model exact Shopee searches recovered no new qualified offer;not market absence",
+    "remaining": [
+      "Current installed versions andfix effectiveness",
+      "Electrical power label",
+      "Fullcategory/parameter census andtracking",
+      "Global volume target/range/all-source coverage",
+      "Qualified non-XL IDR hardware"
+    ],
+    "next": "Defer unavailable power/current-stock evidence;continue other accessible requested individual-display model gaps orindependent generalGT-Pro research",
+    "active_inventory_unchanged": 402
   }
 }

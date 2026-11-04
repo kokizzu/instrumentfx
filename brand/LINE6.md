@@ -825,6 +825,20 @@ The model-list footnote names **Pitch Sustain** under Modulation, whereas the [D
 
 The record remains partial outside402 active models. Exact parameter ranges,note handling,full category census,electrical power rating,global analog-volume coverage andqualified Shopee hardware remain open. No download,import ordevice operation.
 
+### Stadium Floor — firmware-specific recall and Play-view corrections
+
+Checked **2026-11-04** against [Line 6’s exact family release history](https://kb.line6.com/helix-stadium-1-4-release-notes), which explicitly includes **Helix Stadium Floor**. Listed releases are not proof of installed firmware or tested fix effectiveness.
+
+| Release | Documented non-XL-relevant boundary |
+|---|---|
+| **1.4 —2026-10-13** | Each of Floor’s two external pedal controllers gains its own Global/Per Preset position setting; previously one setting applied to all pedals. This dates independent position recall, not global volume assignment. Also corrects **3 OSC Synth FltPreset** becoming stuck at4. |
+| **1.4 —Floor-specific UI fixes** | Fixes Play-view icon overlap, unintended Edit-view jumps, Combo bank-cue/Cancel indication and snapshot-swap label refresh. These are shared-screen corrections, not added individual footswitch displays. |
+| **Hardware1.4.1 —2026-10-20** | Fixes moving a block changing its snapshot-bypass behavior, and Showcase’s Pause-at-End blocking subsequent Play without touchscreen interaction. |
+| **Hardware1.4.2 —2026-10-27** | Fixes power-cycle recall from a user setlist returning to the USER PRESETS context, plus Start/Preset-Snap flags failing setlist preset recall. These are recall corrections, not extra preset storage. |
+| **Native1.4.1 —2026-10-29** | Speaker-impedance-curve correction is explicitly **plugin-only**, not a hardware update or Floor fix. |
+
+The page distinguishes hardware, app and plugin version streams. Global pedal target/range/output coverage and exact current installed versions remain unverified. No update,download ordevice test. Power-label evidence andqualified non-XL Shopee hardware remain deferred;partial status and402 active count are unchanged.
+
 ## Helix Stadium XL Floor
 
 <!-- comparison evidence begins -->
