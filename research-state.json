@@ -162870,5 +162870,30 @@
     ],
     "inventory_unchanged": 402,
     "next": "Continue fresh exact Shopee discovery and priority individual-display gaps; preserve independent GT-Pro and expression queues."
+  },
+  "ax1g_category_memory_20261104": {
+    "checked_date": "2026-11-04",
+    "source": "https://cdn.korg.com/jp/support/download/files/7ab086ae192555575fa5be6c373afa3a.pdf",
+    "revision": "Undated original pp12,15–16,50–54",
+    "canonical": "brand/KORG.md#ax1g--category-census-and-factory-restoration-scope",
+    "expanded_choices": {
+      "DRIVE": 7,
+      "MOD": 28,
+      "PEDAL_mod": 22,
+      "PEDAL_amb": 13,
+      "AMB": 5
+    },
+    "count_conflicts": [
+      "Overview pedal-mod18 versus expanded22",
+      "69 total counting convention unresolved"
+    ],
+    "status": "Partial outside402",
+    "remaining": [
+      "Exact seller/model hardware identity",
+      "Visual controls and full electrical rating",
+      "Headline count basis and installed equivalence",
+      "Software/import and route coverage"
+    ],
+    "next": "Continue fresh exact Shopee and priority individual-display research; preserve independent GT-Pro and expression queues."
   }
 }

@@ -30,7 +30,7 @@ Checked **2026-11-04**; outside active counts. [Exact manufacturer manual](https
 | Expression | Built-in treadle; external/toe details pending. Not no-treadle shortlist. |
 | Controls | Text-derived **0rotaries/2footswitches/9buttons**:TYPE2,VALUE2,EDIT/EXIT,BANK,PAGE2,ENTER. Rear input-level switch separate;visual check pending. |
 | Display | Shared luminous-material LCD plus program/note display;no individual switch screens established. Diagonal/color/touch unknown. |
-| Processing / memory | **69 variations,up to7 simultaneous;30 User programs**. Category census/factory filling pending. |
+| Processing / memory | **69 variations,up to7 simultaneous;30 User programs**. Named category census and factory-restoration scope below; headline counting remains unresolved. |
 | Creative | PITCH1–4;OCTAVE warns against chords. Pitch polyphony unverified. DRONE is resonance processing;dedicated synth/acoustic conversion unverified. |
 | Size / mass | **212W×190D×58Hmm;715g excluding batteries**. |
 | Ports | Instrument input,shared stereo¼-inch OUTPUT/PHONES,DC9V. Mono output cable takes left channel,not documented stereo summing. |
@@ -41,6 +41,24 @@ Checked **2026-11-04**; outside active counts. [Exact manufacturer manual](https
 ### AX1G — unresolved Indonesian seller identity
 
 [carissa musik shop-card](https://shopee.co.id/candyawanchavoex), two-month search cache: **“effect KORG AX1”,Rp1,000,000**. No exact item ID,AX1G suffix,condition,region,stock,variant,bundle,adapter,warranty,voucher orcheckout total established. This is an **unresolved AX1-family market lead**,not a verified AX1G price oravailability claim. No sibling specifications assigned to the seller unit. No local download,device operation orpurchase.
+
+### AX1G — category census and factory-restoration scope
+
+Checked **2026-11-04**, [original manufacturer manual](https://cdn.korg.com/jp/support/download/files/7ab086ae192555575fa5be6c373afa3a.pdf), printed12,15–16,50–54; installed behavior untested.
+
+| Category | Expanded choices / counting boundary |
+|---|---|
+| DRIVE7 | COMP;OVDRV;LINEOD;DIST1/2;LINEDS;FUZZ |
+| MOD28 | CHORS1–4;VIB;FLANG1–4;PHASE1–4;TREM1/2;PAN1/2;AWAH1/2;FIXWAH;RANDM1–3;PITCH1–4;OCTAVE |
+| PEDAL-mod22 | CHORS1/2;VIB;FLANG;PHASE1/2;TREM1/2;PAN1/2;RING;WAH;FILTER;VOICE1/2;RANDM1/2;PITCH1–3;BENDER;DRONE |
+| PEDAL-amb13 | DELAY;HOLD;ECHO;ROOM1/2;HALL1/2;SAMPL1/2;LOOP1/2;SCRAT1/2 |
+| AMB5 | ROOM1/2;HALL1/2;stereo delay40–1000ms |
+
+Volume is a separate PEDAL choice;TONE,CR,NR are separate processing sections. The p12 overview instead says **18** pedal-mod choices. Neither this discrepancy nor the **69-variation** headline's counting convention is resolved. These menu counts include related variants,not unique algorithms orconcurrent blocks.
+
+PEDAL-mod excludes MOD;PEDAL-amb excludes AMB. NR cannot be switched off. Factory restoration covers all **three ten-location User banks**,overwriting their contents;not30 additional protected presets. Unsaved edits disappear on program change/power-off. Sample audio is also erased by program/effect changes,bypass,mute orpower-off.
+
+Partial lead remains outside402. Exact AX1 seller identity,visual controls,power rating andsoftware/import gaps remain.
 
 ## AX3B
 
