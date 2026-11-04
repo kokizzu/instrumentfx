@@ -162749,5 +162749,28 @@
     ],
     "inventory_unchanged": 402,
     "next": "Continue freshShopee andprioritydisplay gaps;categoryheadline nowreconciled,do notrepeatcounting. PreserveGT-Pro/expressionqueues."
+  },
+  "g2nu_level_boundaries_20261104": {
+    "model": "Zoom::G2Nu",
+    "checked_date": "2026-11-04",
+    "canonical": "brand/ZOOM.md#g2nu--patch-phrase-and-expression-level-boundaries",
+    "sources": [
+      "https://zoomcorp.com/media/documents/G2Nu_G21Nu_0.pdf",
+      "https://zoomcorp.com/media/documents/E_G2Nu_G21Nu_0.pdf",
+      "https://zoomcorp.com/media/documents/G2Nu_G21Nu_Jhj6AQw.pdf"
+    ],
+    "revision": "Original shared family manual printed15,27,48,indexed text;notfullPDF/image inspection",
+    "resolved": [
+      "Patchlevel2–100 versusphraseplayback0–100",
+      "RTM heel/toe semantics distinguished fromnumeric illustration"
+    ],
+    "remaining": [
+      "Directanalog globalassignment",
+      "Volume-specific endpoints/mute andheldpositionrecall",
+      "Bypass/headphone/tail/loop/USB coverage",
+      "83countingconvention andexactcondition-qualifiedShopee hardware"
+    ],
+    "inventory_unchanged": 402,
+    "next": "Continue other unresolved no-treadle orprioritydisplay models;do not equatephrase/patch ranges withglobalpedalvolume. PreserveindependentGT-Proqueue."
   }
 }

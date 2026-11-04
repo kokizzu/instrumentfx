@@ -3221,6 +3221,18 @@ DISPLAY assigns backlight to parameter knob1 and contrast to knob2; **both setti
 
 BATTERY distinguishes ALKALINE, also used for oxyride, from rechargeable NiMH; the selected type changes the accuracy of the remaining-charge indication and survives power-off. This is battery chemistry configuration, not in-device charging support. No setting, battery or firmware was changed.
 
+### G2Nu — patch, phrase and expression-level boundaries
+
+Checked **2026-11-04** in manufacturer-indexed original family-manual text: [TOTAL, printed p48](https://zoomcorp.com/media/documents/G2Nu_G21Nu_0.pdf), [Looper p15](https://zoomcorp.com/media/documents/E_G2Nu_G21Nu_0.pdf) and [Expression p27](https://zoomcorp.com/media/documents/G2Nu_G21Nu_Jhj6AQw.pdf). Shared instructions explicitly include G2Nu with external FP01/FP02; built-in G2.1Nu toe functions are separate. Full PDF/image inspection and installed firmware remain unverified.
+
+| Field | Evidence / qualification |
+|---|---|
+| Memory / patch-level range | TOTAL PatchLvl **2–100** sets the individual patch's level. It is not the master control or an established dB range; its lower bound is not documented here as mute. |
+| Looper / phrase playback level | Parameter knob3 sets recorded-phrase playback level **0–100**. This is separate from live-guitar patch level and expression assignment. Turning knobs1/2 after recording erases the phrase, as already documented; knob3 is the documented volume control. |
+| Expression / endpoint meaning | RTM MIN specifies the value sent with the pedal fully up; MAX specifies fully down. Available limits depend on the destination. The VOLUME illustration showing0/100 is an example, not a complete published adjustment-range table or proof of full silence, dB endpoints, global assignment, recall or universal output coverage. |
+
+Original count discrepancy, qualified-offer gap and patch-saved assignments remain unchanged. No download, device or app operation.
+
 ## G2X FOUR
 
 Consolidated 2026-10-16. The complete original observation below retains its technical date, prices, sources, contradictions and unknowns. This is a document consolidation, not a fresh stock or firmware verification. Historical next-model notes are provenance; use research-state.json for current work.
