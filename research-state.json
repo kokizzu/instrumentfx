@@ -162276,5 +162276,25 @@
     "status": "Exact GE100 Pro original verified by read-only review. Both complete consolidation checks advance past it, then fail at GE100 Pro Li original-body mismatch; overall preservation still failing.",
     "next": "After committing this GE100 Pro repair, inspect GE100 Pro Li original-body mismatch. Preserve all later corrections and priority research queues.",
     "inventory_changed": false
+  },
+  "ge100proli_preservation_repair_20261104": {
+    "model": "MOOER::GE100 Pro Li",
+    "checked_date": "2026-11-04",
+    "source": "effects/findings/2026-10-14-mooer-ge100-pro-li.md",
+    "canonical_section": "brand/MOOER.md#ge100-pro-li--consolidated-technical-and-market-observations",
+    "finding": "Four later field edits had changed registered historical body. Restore exact original outside current comparison range and retain corrected tables/follow-ups; no new specifications, prices or inventory.",
+    "review_target": "make preservation-review-ge100-pro-li",
+    "status": "PASS: exact original restored; consolidation-verify and consolidation-audit-source-history both exit0. Current generated outputs byte-identical; all four later corrections retained.",
+    "next": "The GT-1000CORE,GE100 Pro andGE100 Pro Li preservation regressions are repaired; previous failure checkpoints are superseded by this pass. Continue broader compatibility/metadata checks and priority display/Shopee research; independent general GT-Pro/expression queues unchanged.",
+    "inventory_changed": false,
+    "validation": {
+      "full_source_bodies": 82,
+      "model_row_records": 91,
+      "historical_checkpoints": 1,
+      "technical_sources": 99,
+      "head_reachable_variants": 295,
+      "source_head": "b90e8cd978df825b43097709842a1449c8c86a7c",
+      "scope": "Registered preservation plus HEAD-reachable technical source revisions; not manufacturer/stock verification or complete migration."
+    }
   }
 }
